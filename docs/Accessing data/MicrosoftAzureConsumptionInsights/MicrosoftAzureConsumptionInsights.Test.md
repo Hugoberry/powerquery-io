@@ -1,0 +1,1 @@
+# MicrosoftAzureConsumptionInsights.Test

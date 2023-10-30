@@ -1,6 +1,6 @@
 {
-  "name": "powerquery-io-2",
-  "version": "0.0.0",
+  "name": "powerquery-io",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
