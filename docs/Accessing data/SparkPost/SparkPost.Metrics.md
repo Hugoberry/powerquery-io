@@ -1,1 +1,0 @@
-# SparkPost.Metrics
