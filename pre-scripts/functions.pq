@@ -8,9 +8,9 @@ let
                 )[Kind]{0},
     sharedTab = Record.ToTable(#shared),
 //select only functions from #shared
-    selectFunctions = Table.SelectRows(sharedTab, each Value.Is(Value.Metadata([Value]), Function.Type)),
+    selectFunctions = Table.SelectRows(sharedTab, each Type.Is(Value.Type([Value]), Function.Type)),
 //pull documentation from each function
-    docTab = Table.AddColumn(selectFunctions, "Documentation", each Text.FromBinary(Value.Metadata([Value]))),
+    docTab = Table.AddColumn(selectFunctions, "Documentation", each Text.FromBinary(Json.FromValue(Value.Metadata(Value.Type([Value]))))),
 // pull return type from each function
     returnTypeTab = Table.AddColumn(docTab, "ReturnType", each type2text(Type.FunctionReturn(Value.Type([Value])))),
 // pull required parameters from each function
