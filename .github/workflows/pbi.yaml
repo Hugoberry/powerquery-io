@@ -16,8 +16,9 @@ jobs:
 
     - name: Start Power BI Desktop
       run: |
+        $pbixPath = Join-Path -Path $env:GITHUB_WORKSPACE -ChildPath "pre-script\dox.pbix"
         # Starts Power BI Desktop. Modify the path if necessary.
-        Start-Process "C:\Program Files\Microsoft Power BI Desktop\bin\PBIDesktop.exe"
+        Start-Process "C:\Program Files\Microsoft Power BI Desktop\bin\PBIDesktop.exe" -ArgumentList $pbixPath
         # Wait for a moment to ensure Power BI Desktop starts up
         Start-Sleep -Seconds 30
 
