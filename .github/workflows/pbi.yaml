@@ -27,13 +27,16 @@ jobs:
 
     - name: Get msmdsrv.exe port
       run: |
-        $ProcessInfo = Get-Process -Name msmdsrv -ErrorAction SilentlyContinue
-        if ($ProcessInfo) {
-            $ProcessId = $ProcessInfo.Id
-            $NetStatInfo = netstat -ano | Select-String "$ProcessId"
-            $Port = $NetStatInfo -replace '.*\:(\d+).*', '$1'
-            echo "Power BI Desktop msmdsrv.exe is listening on port: $Port"
-            echo "MSMDSRV_PORT=$Port" >> $GITHUB_ENV
+        $msmdsrvPorts = Get-Process -Name msmdsrv -ErrorAction SilentlyContinue | ForEach-Object {
+          Get-NetTCPConnection -OwningProcess $_.Id | Select-Object LocalPort -Unique
+        }
+
+        if ($msmdsrvPorts) {
+          foreach ($port in $msmdsrvPorts) {
+            Write-Host "msmdsrv.exe is listening on port: $($port.LocalPort)"
+          }
+          # Assume there is only one instance for simplicity and set it as an environment variable
+          echo "MSMDSRV_PORT=$($msmdsrvPorts[0].LocalPort)" >> $GITHUB_ENV
         } else {
-            echo "msmdsrv.exe process not found."
+          Write-Host "No msmdsrv.exe process found."
         }
