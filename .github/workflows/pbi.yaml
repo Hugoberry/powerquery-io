@@ -14,20 +14,6 @@ jobs:
       run: |
         choco install --ignore-checksums powerbi
 
-    - name: Display first 10 characters from PBIX file
-      run: |
-        $pbixPath = Join-Path -Path $env:GITHUB_WORKSPACE -ChildPath "pre-scripts\dox.pbix"
-        if (Test-Path $pbixPath) {
-          $bytes = Get-Content $pbixPath -Encoding Byte -TotalCount 10
-          foreach ($byte in $bytes) {
-            Write-Host ("{0:X2} " -f $byte) -NoNewline
-          }
-          Write-Host
-        } else {
-          Write-Error "PBIX file not found at path: $pbixPath"
-          exit 1
-        }
-
     - name: Start Power BI Desktop with PBIX
       run: |
         $pbixPath = Join-Path -Path $env:GITHUB_WORKSPACE -ChildPath "pre-scripts\dox.pbix"
