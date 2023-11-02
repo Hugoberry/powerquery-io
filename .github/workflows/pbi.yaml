@@ -26,6 +26,7 @@ jobs:
         }
 
     - name: Get msmdsrv.exe port
+      id: get-msmdsrv-port
       run: |
         $msmdsrvPorts = Get-Process -Name msmdsrv -ErrorAction SilentlyContinue | ForEach-Object {
           Get-NetTCPConnection -OwningProcess $_.Id | Select-Object LocalPort -Unique
@@ -37,17 +38,20 @@ jobs:
           }
           # Assume there is only one instance for simplicity and set it as an environment variable
           echo "MSMDSRV_PORT=$($msmdsrvPorts[0].LocalPort)" >> $GITHUB_ENV
+          echo "::set-output name=msmdsrv-port::$($msmdsrvPorts[0].LocalPort)"
         } else {
           Write-Host "No msmdsrv.exe process found."
         }
 
     - name: Debug - Print MSMDSRV_PORT
-      run: Write-Host "MSMDSRV_PORT value is $env:MSMDSRV_PORT"
+      run: |
+        $msmdsrvPort = "${{ steps.get-msmdsrv-port.outputs.msmdsrv-port }}"
+        Write-Host "MSMDSRV_PORT value is $msmdsrvPort"
 
     - name: Process the first database on the instance
       run: |
         Import-Module SqlServer
-        $port = $env:MSMDSRV_PORT
+        $port = "${{ steps.get-msmdsrv-port.outputs.msmdsrv-port }}"
         $asInstance = "localhost:$port"
         $dbName = (Invoke-ASCmd -Server $asInstance -Query "SELECT [CATALOG_NAME] FROM $SYSTEM.DBSCHEMA_CATALOGS" | ConvertFrom-Json)[0].CATALOG_NAME
         
@@ -68,7 +72,7 @@ jobs:
     - name: Run DAX query and output the result
       run: |
         Import-Module SqlServer
-        $port = $env:MSMDSRV_PORT
+        $port = "${{ steps.get-msmdsrv-port.outputs.msmdsrv-port }}"
         $asInstance = "localhost:$port"
         
         $daxResult = Invoke-ASCmd -Server $asInstance -Query "EVALUATE enumerations"
@@ -97,6 +101,7 @@ jobs:
         }
 
     - name: Get msmdsrv.exe port in French
+      id: get-msmdsrv-port-fr
       run: |
         $msmdsrvPorts = Get-Process -Name msmdsrv -ErrorAction SilentlyContinue | ForEach-Object {
           Get-NetTCPConnection -OwningProcess $_.Id | Select-Object LocalPort -Unique
@@ -108,6 +113,7 @@ jobs:
           }
           # Assume there is only one instance for simplicity and set it as an environment variable
           echo "MSMDSRV_PORT=$($msmdsrvPorts[0].LocalPort)" >> $GITHUB_ENV
+          echo "::set-output name=msmdsrv-port::$($msmdsrvPorts[0].LocalPort)"
         } else {
           Write-Host "No msmdsrv.exe process found."
         }
@@ -115,7 +121,7 @@ jobs:
     - name: Process the first database on the instance in French
       run: |
         Import-Module SqlServer
-        $port = $env:MSMDSRV_PORT
+        $port = "${{ steps.get-msmdsrv-port-fr.outputs.msmdsrv-port }}"
         $asInstance = "localhost:$port"
         $dbName = (Invoke-ASCmd -Server $asInstance -Query "SELECT [CATALOG_NAME] FROM $SYSTEM.DBSCHEMA_CATALOGS" | ConvertFrom-Json)[0].CATALOG_NAME
         
@@ -136,7 +142,7 @@ jobs:
     - name: Run DAX query and output the result in French
       run: |
         Import-Module SqlServer
-        $port = $env:MSMDSRV_PORT
+        $port = "${{ steps.get-msmdsrv-port-fr.outputs.msmdsrv-port }}"
         $asInstance = "localhost:$port"
         
         $daxResult = Invoke-ASCmd -Server $asInstance -Query "EVALUATE enumerations"
