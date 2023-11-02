@@ -40,7 +40,10 @@ jobs:
         } else {
           Write-Host "No msmdsrv.exe process found."
         }
-        
+
+    - name: Debug - Print MSMDSRV_PORT
+      run: Write-Host "MSMDSRV_PORT value is $env:MSMDSRV_PORT"
+
     - name: Process the first database on the instance
       run: |
         Import-Module SqlServer
@@ -63,6 +66,74 @@ jobs:
         Write-Host "Database $dbName processed."
 
     - name: Run DAX query and output the result
+      run: |
+        Import-Module SqlServer
+        $port = $env:MSMDSRV_PORT
+        $asInstance = "localhost:$port"
+        
+        $daxResult = Invoke-ASCmd -Server $asInstance -Query "EVALUATE enumerations"
+        Write-Host "DAX Query Result:"
+        Write-Host $daxResult
+
+    - name: Close Power BI Desktop
+      run: |
+        Stop-Process -Name PBIDesktop -Force -ErrorAction SilentlyContinue
+        Write-Host "Power BI Desktop closed."
+
+    - name: Set PQ_UICultureOverride environment variable
+      run: |
+        [Environment]::SetEnvironmentVariable("PQ_UICultureOverride", "fr-FR", [EnvironmentVariableTarget]::User)
+        Write-Host "Environment variable PQ_UICultureOverride set to fr-FR.
+
+    - name: Start Power BI Desktop with PBIX in French
+      run: |
+        $pbixPath = Join-Path -Path $env:GITHUB_WORKSPACE -ChildPath "pre-scripts\dox.pbix"
+        if (Test-Path $pbixPath) {
+          Start-Process "C:\Program Files\Microsoft Power BI Desktop\bin\PBIDesktop.exe" -ArgumentList $pbixPath
+          Start-Sleep -Seconds 60
+        } else {
+          Write-Error "PBIX file not found at path: $pbixPath"
+          exit 1
+        }
+
+    - name: Get msmdsrv.exe port in French
+      run: |
+        $msmdsrvPorts = Get-Process -Name msmdsrv -ErrorAction SilentlyContinue | ForEach-Object {
+          Get-NetTCPConnection -OwningProcess $_.Id | Select-Object LocalPort -Unique
+        }
+
+        if ($msmdsrvPorts) {
+          foreach ($port in $msmdsrvPorts) {
+            Write-Host "msmdsrv.exe is listening on port: $($port.LocalPort)"
+          }
+          # Assume there is only one instance for simplicity and set it as an environment variable
+          echo "MSMDSRV_PORT=$($msmdsrvPorts[0].LocalPort)" >> $GITHUB_ENV
+        } else {
+          Write-Host "No msmdsrv.exe process found."
+        }
+        
+    - name: Process the first database on the instance in French
+      run: |
+        Import-Module SqlServer
+        $port = $env:MSMDSRV_PORT
+        $asInstance = "localhost:$port"
+        $dbName = (Invoke-ASCmd -Server $asInstance -Query "SELECT [CATALOG_NAME] FROM $SYSTEM.DBSCHEMA_CATALOGS" | ConvertFrom-Json)[0].CATALOG_NAME
+        
+        # Process the database
+        Invoke-ASCmd -Server $asInstance -Query "{
+          ""refresh"": {
+            ""type"": ""full"",
+            ""objects"": [
+              {
+                ""database"": ""$dbName""
+              }
+            ]
+          }
+        }"
+        
+        Write-Host "Database $dbName processed."
+
+    - name: Run DAX query and output the result in French
       run: |
         Import-Module SqlServer
         $port = $env:MSMDSRV_PORT
