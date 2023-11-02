@@ -8,7 +8,7 @@ jobs:
 
     steps:
     - name: Checkout repo
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Install Power BI Desktop
       run: |
@@ -40,3 +40,34 @@ jobs:
         } else {
           Write-Host "No msmdsrv.exe process found."
         }
+        
+    - name: Process the first database on the instance
+      run: |
+        Import-Module SqlServer
+        $port = $env:MSMDSRV_PORT
+        $asInstance = "localhost:$port"
+        $dbName = (Invoke-ASCmd -Server $asInstance -Query "SELECT [CATALOG_NAME] FROM $SYSTEM.DBSCHEMA_CATALOGS" | ConvertFrom-Json)[0].CATALOG_NAME
+        
+        # Process the database
+        Invoke-ASCmd -Server $asInstance -Query "{
+          ""refresh"": {
+            ""type"": ""full"",
+            ""objects"": [
+              {
+                ""database"": ""$dbName""
+              }
+            ]
+          }
+        }"
+        
+        Write-Host "Database $dbName processed."
+
+    - name: Run DAX query and output the result
+      run: |
+        Import-Module SqlServer
+        $port = $env:MSMDSRV_PORT
+        $asInstance = "localhost:$port"
+        
+        $daxResult = Invoke-ASCmd -Server $asInstance -Query "EVALUATE enumerations"
+        Write-Host "DAX Query Result:"
+        Write-Host $daxResult
