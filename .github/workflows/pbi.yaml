@@ -12,7 +12,7 @@ jobs:
 
     - name: Install Power BI Desktop
       run: |
-        choco install powerbi
+        choco install --ignore-checksums powerbi
 
     - name: Start Power BI Desktop
       run: |
