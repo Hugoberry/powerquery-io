@@ -76,6 +76,8 @@ jobs:
           }
         }"
         
+        Start-Sleep -Seconds 60
+        
         Write-Host "Database $dbName processed."
 
     - name: Run DAX query and output the result
@@ -154,7 +156,8 @@ jobs:
             ]
           }
         }"
-        
+        Start-Sleep -Seconds 60
+       
         Write-Host "Database $dbName processed."
 
     - name: Run DAX query and output the result in French
