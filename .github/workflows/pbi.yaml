@@ -86,7 +86,7 @@ jobs:
         $port = "${{ steps.get-msmdsrv-port.outputs.msmdsrv-port }}"
         $asInstance = "localhost:$port"
         
-        $daxResult = Invoke-ASCmd -Server $asInstance -Query "EVALUATE enumerations"
+        $daxResult = Invoke-ASCmd -Server $asInstance -Query "EVALUATE functions"
         Write-Host "DAX Query Result:"
         Write-Host $daxResult
 
@@ -167,6 +167,6 @@ jobs:
         $port = "${{ steps.get-msmdsrv-port-fr.outputs.msmdsrv-port }}"
         $asInstance = "localhost:$port"
         
-        $daxResult = Invoke-ASCmd -Server $asInstance -Query "EVALUATE enumerations"
+        $daxResult = Invoke-ASCmd -Server $asInstance -Query "EVALUATE functions"
         Write-Host "DAX Query Result:"
         Write-Host $daxResult
