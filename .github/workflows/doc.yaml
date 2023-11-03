@@ -2,79 +2,43 @@ name: Refresh Power BI documentation and localized files
 on: [push]
 
 jobs:
-  localization:
+  setup-and-process:
     runs-on: windows-latest
-    strategy:
-      matrix:
-        culture: ['en-US', 'fr-FR']  # Add or remove cultures as needed
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Install Power BI Desktop
-        run: |
-          choco install --ignore-checksums powerbi
+        run: choco install --ignore-checksums powerbi
 
-      - name: Start Power BI Desktop with PBIX in Culture
+      - name: Process cultures sequentially
         run: |
-          $culture = "${{ matrix.culture }}"
-          $env:PQ_UICultureOverride = $culture
-          $pbixPath = Join-Path -Path $env:GITHUB_WORKSPACE -ChildPath "pre-scripts\dox.pbix"
-          Start-Process "C:\Program Files\Microsoft Power BI Desktop\bin\PBIDesktop.exe" -ArgumentList $pbixPath
-          Start-Sleep -Seconds 60
+          $cultures = @('en-US', 'fr-FR') # Add or remove cultures as needed
+          foreach ($culture in $cultures) {
+            # Set culture-specific environment variable
+            $env:PQ_UICultureOverride = $culture
 
-      - name: Get msmdsrv.exe port
-        id: get-msmdsrv-port
-        run: |
-          $culture = "${{ matrix.culture }}"
-          $msmdsrvPorts = Get-Process -Name msmdsrv -ErrorAction SilentlyContinue | ForEach-Object {
-            Get-NetTCPConnection -OwningProcess $_.Id | Select-Object LocalPort -Unique
-          }
+            # Start Power BI Desktop in the appropriate culture
+            $pbixPath = Join-Path -Path $env:GITHUB_WORKSPACE -ChildPath "pre-scripts\dox.pbix"
+            Start-Process "C:\Program Files\Microsoft Power BI Desktop\bin\PBIDesktop.exe" -ArgumentList $pbixPath
+            Start-Sleep -Seconds 60
 
-          if ($msmdsrvPorts) {
-            foreach ($port in $msmdsrvPorts) {
-              Write-Host "msmdsrv.exe is listening on port: $($port.LocalPort)"
+            # Get the msmdsrv.exe port
+            $msmdsrvPorts = Get-Process -Name msmdsrv -ErrorAction SilentlyContinue | ForEach-Object {
+              Get-NetTCPConnection -OwningProcess $_.Id | Select-Object LocalPort -Unique
             }
-            # Assume there is only one instance for simplicity and set it as an environment variable
-            echo "MSMDSRV_PORT=$($msmdsrvPorts[0].LocalPort)" >> $GITHUB_ENV
-            echo "::set-output name=msmdsrv-port::$($msmdsrvPorts[0].LocalPort)"
-          } else {
-            Write-Host "No msmdsrv.exe process found."
-          }
+            if ($msmdsrvPorts) {
+              # Process the database on the instance for the current culture
+              $port = $msmdsrvPorts[0].LocalPort
+              $outputJsonFile = "${culture}.json".Replace('-', '')
+              pwsh -File ./.github/scripts/generate-doc-output.ps1 -port $port -outputJsonFile $outputJsonFile
+            } else {
+              Write-Host "No msmdsrv.exe process found."
+            }
 
-      - name: Process the database on the instance for Culture
-        run: |
-          $port = "${{ steps.get-msmdsrv-port.outputs.msmdsrv-port }}"
-          $outputJsonFile = Join-Path -Path $env:GITHUB_WORKSPACE -ChildPath "pre-scripts\${{ matrix.culture }}.json".Replace('-', '')
-          pwsh -File ./.github/scripts/myscript.ps1 -port $port -outputJsonFile $outputJsonFile
+            # Close Power BI Desktop
+            Stop-Process -Name PBIDesktop -Force -ErrorAction SilentlyContinue
+            Write-Host "Power BI Desktop closed for culture $culture."
+
+          }
         shell: pwsh
-
-      - name: Close Power BI Desktop
-        run: |
-          Stop-Process -Name PBIDesktop -Force -ErrorAction SilentlyContinue
-          Write-Host "Power BI Desktop closed."
-
-      - name: Check for Changes
-        id: file-check
-        run: |
-          $culture = "${{ matrix.culture }}"
-          $jsonFile = "${{ matrix.culture }}.json".Replace('-', '')
-          git diff --exit-code $jsonFile
-          if ($LASTEXITCODE -eq 1) {
-            # If files have changed, set the step output to true
-            echo "::set-output name=has_changes::true"
-          }
-
-      - name: Create Pull Request
-        if: steps.file-check.outputs.has_changes == 'true'
-        uses: peter-evans/create-pull-request@v3
-        with:
-          title: "Update localization files for ${{ matrix.culture }}"
-          commit-message: "Update ${{ matrix.culture }} localization files"
-          branch: "localization/${{ matrix.culture }}-${{ github.run_id }}"
-          labels: "localization"
-          body: |
-            Update localization files for ${{ matrix.culture }}
-          base: main
-          branch-suffix: none
