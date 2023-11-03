@@ -53,8 +53,16 @@ jobs:
         Import-Module SqlServer
         $port = "${{ steps.get-msmdsrv-port.outputs.msmdsrv-port }}"
         $asInstance = "localhost:$port"
-        $dbName = (Invoke-ASCmd -Server $asInstance -Query "SELECT [CATALOG_NAME] FROM $SYSTEM.DBSCHEMA_CATALOGS" | ConvertFrom-Json)[0].CATALOG_NAME
+        # Invoke the command and expect the result to be in XML format
+        $xmlResult = Invoke-ASCmd -ConnectionString $connectionString -Query "SELECT [CATALOG_NAME] FROM $SYSTEM.DBSCHEMA_CATALOGS"
         
+        # Parse the XML result
+        $xml = [xml]$xmlResult
+
+        # Now extract the data you need from the XML
+        # You need to adjust the XPath query according to the actual structure of the XML
+        $dbName = $xml.Rowset.Row.CATALOG_NAME
+
         # Process the database
         Invoke-ASCmd -Server $asInstance -Query "{
           ""refresh"": {
@@ -123,7 +131,7 @@ jobs:
         Import-Module SqlServer
         $port = "${{ steps.get-msmdsrv-port-fr.outputs.msmdsrv-port }}"
         $asInstance = "localhost:$port"
-         # Invoke the command and expect the result to be in XML format
+        # Invoke the command and expect the result to be in XML format
         $xmlResult = Invoke-ASCmd -ConnectionString $connectionString -Query "SELECT [CATALOG_NAME] FROM $SYSTEM.DBSCHEMA_CATALOGS"
         
         # Parse the XML result
