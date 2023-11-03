@@ -18,7 +18,7 @@ jobs:
 
       - name: Start Power BI Desktop with PBIX in Culture
         run: |
-          $culture = ${{ matrix.culture }}
+          $culture = "${{ matrix.culture }}"
           $env:PQ_UICultureOverride = $culture
           $pbixPath = Join-Path -Path $env:GITHUB_WORKSPACE -ChildPath "pre-scripts\dox.pbix"
           Start-Process "C:\Program Files\Microsoft Power BI Desktop\bin\PBIDesktop.exe" -ArgumentList $pbixPath
@@ -27,7 +27,7 @@ jobs:
       - name: Get msmdsrv.exe port
         id: get-msmdsrv-port
         run: |
-          $culture = ${{ matrix.culture }}
+          $culture = "${{ matrix.culture }}"
           $msmdsrvPorts = Get-Process -Name msmdsrv -ErrorAction SilentlyContinue | ForEach-Object {
             Get-NetTCPConnection -OwningProcess $_.Id | Select-Object LocalPort -Unique
           }
