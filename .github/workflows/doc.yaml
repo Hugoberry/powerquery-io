@@ -58,7 +58,7 @@ jobs:
       - name: Check for Changes
         id: file-check
         run: |
-          $culture = ${{ matrix.culture }}
+          $culture = "${{ matrix.culture }}"
           $jsonFile = "${{ matrix.culture }}.json".Replace('-', '')
           git diff --exit-code $jsonFile
           if ($LASTEXITCODE -eq 1) {
