@@ -95,13 +95,14 @@ jobs:
         Stop-Process -Name PBIDesktop -Force -ErrorAction SilentlyContinue
         Write-Host "Power BI Desktop closed."
 
-    - name: Set PQ_UICultureOverride environment variable
-      run: |
-        [Environment]::SetEnvironmentVariable("PQ_UICultureOverride", "fr-FR", [EnvironmentVariableTarget]::User)
-        Write-Host "Environment variable PQ_UICultureOverride set to fr-FR."
+    # - name: Set PQ_UICultureOverride environment variable
+    #   run: |
+    #     [Environment]::SetEnvironmentVariable("PQ_UICultureOverride", "fr-FR", [EnvironmentVariableTarget]::User)
+    #     Write-Host "Environment variable PQ_UICultureOverride set to fr-FR."
 
     - name: Start Power BI Desktop with PBIX in French
       run: |
+        $env:PQ_UICultureOverride = "fr-FR"
         $pbixPath = Join-Path -Path $env:GITHUB_WORKSPACE -ChildPath "pre-scripts\dox.pbix"
         if (Test-Path $pbixPath) {
           Start-Process "C:\Program Files\Microsoft Power BI Desktop\bin\PBIDesktop.exe" -ArgumentList $pbixPath
