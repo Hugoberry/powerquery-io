@@ -96,7 +96,7 @@ jobs:
     - name: Set PQ_UICultureOverride environment variable
       run: |
         [Environment]::SetEnvironmentVariable("PQ_UICultureOverride", "fr-FR", [EnvironmentVariableTarget]::User)
-        Write-Host "Environment variable PQ_UICultureOverride set to fr-FR.
+        Write-Host "Environment variable PQ_UICultureOverride set to fr-FR."
 
     - name: Start Power BI Desktop with PBIX in French
       run: |
