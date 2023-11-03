@@ -50,44 +50,14 @@ jobs:
 
     - name: Process the first database on the instance
       run: |
-        Import-Module SqlServer
-        $port = "${{ steps.get-msmdsrv-port.outputs.msmdsrv-port }}"
-        $asInstance = "localhost:$port"
-        $connectionString = "Data Source=localhost:$port;"
-        # Invoke the command and expect the result to be in XML format
-        $xmlResult = Invoke-ASCmd -ConnectionString $asInstance -Query "SELECT [CATALOG_NAME] FROM `$SYSTEM.DBSCHEMA_CATALOGS"
-        
-        # Parse the XML result
-        $xml = [xml]$xmlResult
-
-        # Now extract the data you need from the XML
-        # You need to adjust the XPath query according to the actual structure of the XML
-        $dbName = $xml.return.root.row.CATALOG_NAME
-
-        # Process the database
-        Invoke-ProcessASDatabase -DatabaseName $dbName  -RefreshType "Full" -Server $asInstance
-        
-        Write-Host "Database $dbName processed."
-
-    - name: Run DAX query and output the result
-      run: |
-        Import-Module SqlServer
-        $port = "${{ steps.get-msmdsrv-port.outputs.msmdsrv-port }}"
-        $asInstance = "localhost:$port"
-        
-        $daxResult = Invoke-ASCmd -Server $asInstance -Query "EVALUATE functions"
-        Write-Host "DAX Query Result:"
-        Write-Host $daxResult
+        $port = "${{ steps.get-msmdsrv-port-fr.outputs.msmdsrv-port }}"
+        pwsh -File ./.github/scripts/myscript.ps1 -port $port -outputJsonFile 'en.json'
+      shell: pwsh
 
     - name: Close Power BI Desktop
       run: |
         Stop-Process -Name PBIDesktop -Force -ErrorAction SilentlyContinue
         Write-Host "Power BI Desktop closed."
-
-    # - name: Set PQ_UICultureOverride environment variable
-    #   run: |
-    #     [Environment]::SetEnvironmentVariable("PQ_UICultureOverride", "fr-FR", [EnvironmentVariableTarget]::User)
-    #     Write-Host "Environment variable PQ_UICultureOverride set to fr-FR."
 
     - name: Start Power BI Desktop with PBIX in French
       run: |
@@ -121,30 +91,6 @@ jobs:
         
     - name: Process the first database on the instance in French
       run: |
-        Import-Module SqlServer
         $port = "${{ steps.get-msmdsrv-port-fr.outputs.msmdsrv-port }}"
-        $asInstance = "localhost:$port"
-        # Invoke the command and expect the result to be in XML format
-        $xmlResult = Invoke-ASCmd -ConnectionString $asInstance -Query "SELECT [CATALOG_NAME] FROM `$SYSTEM.DBSCHEMA_CATALOGS"
-        
-        # Parse the XML result
-        $xml = [xml]$xmlResult
-
-        # Now extract the data you need from the XML
-        # You need to adjust the XPath query according to the actual structure of the XML
-        $dbName = $xml.return.root.row.CATALOG_NAME
-
-        # Process the database
-        Invoke-ProcessASDatabase -DatabaseName $dbName  -RefreshType "Full" -Server $asInstance
-        
-        Write-Host "Database $dbName processed."
-
-    - name: Run DAX query and output the result in French
-      run: |
-        Import-Module SqlServer
-        $port = "${{ steps.get-msmdsrv-port-fr.outputs.msmdsrv-port }}"
-        $asInstance = "localhost:$port"
-        
-        $daxResult = Invoke-ASCmd -Server $asInstance -Query "EVALUATE functions"
-        Write-Host "DAX Query Result:"
-        Write-Host $daxResult
+        pwsh -File ./.github/scripts/myscript.ps1 -port $port -outputJsonFile 'fr.json'
+      shell: pwsh
