@@ -55,28 +55,17 @@ jobs:
         $asInstance = "localhost:$port"
         $connectionString = "Data Source=localhost:$port;"
         # Invoke the command and expect the result to be in XML format
-        $xmlResult = Invoke-ASCmd -ConnectionString $connectionString -Query "SELECT [CATALOG_NAME] FROM $SYSTEM.DBSCHEMA_CATALOGS"
+        $xmlResult = Invoke-ASCmd -ConnectionString $asInstance -Query "SELECT [CATALOG_NAME] FROM `$SYSTEM.DBSCHEMA_CATALOGS"
         
         # Parse the XML result
         $xml = [xml]$xmlResult
 
         # Now extract the data you need from the XML
         # You need to adjust the XPath query according to the actual structure of the XML
-        $dbName = $xml.Rowset.Row.CATALOG_NAME
+        $dbName = $xml.return.root.row.CATALOG_NAME
 
         # Process the database
-        Invoke-ASCmd -Server $asInstance -Query "{
-          ""refresh"": {
-            ""type"": ""full"",
-            ""objects"": [
-              {
-                ""database"": ""$dbName""
-              }
-            ]
-          }
-        }"
-        
-        Start-Sleep -Seconds 60
+        Invoke-ProcessASDatabase -DatabaseName $dbName  -RefreshType "Full" -Server $asInstance
         
         Write-Host "Database $dbName processed."
 
@@ -135,30 +124,19 @@ jobs:
         Import-Module SqlServer
         $port = "${{ steps.get-msmdsrv-port-fr.outputs.msmdsrv-port }}"
         $asInstance = "localhost:$port"
-        $connectionString = "Data Source=localhost:$port;"
         # Invoke the command and expect the result to be in XML format
-        $xmlResult = Invoke-ASCmd -ConnectionString $connectionString -Query "SELECT [CATALOG_NAME] FROM $SYSTEM.DBSCHEMA_CATALOGS"
+        $xmlResult = Invoke-ASCmd -ConnectionString $asInstance -Query "SELECT [CATALOG_NAME] FROM `$SYSTEM.DBSCHEMA_CATALOGS"
         
         # Parse the XML result
         $xml = [xml]$xmlResult
 
         # Now extract the data you need from the XML
         # You need to adjust the XPath query according to the actual structure of the XML
-        $dbName = $xml.Rowset.Row.CATALOG_NAME
-        
+        $dbName = $xml.return.root.row.CATALOG_NAME
+
         # Process the database
-        Invoke-ASCmd -Server $asInstance -Query "{
-          ""refresh"": {
-            ""type"": ""full"",
-            ""objects"": [
-              {
-                ""database"": ""$dbName""
-              }
-            ]
-          }
-        }"
-        Start-Sleep -Seconds 60
-       
+        Invoke-ProcessASDatabase -DatabaseName $dbName  -RefreshType "Full" -Server $asInstance
+        
         Write-Host "Database $dbName processed."
 
     - name: Run DAX query and output the result in French
