@@ -59,7 +59,6 @@ jobs:
           
           # Create a Pull Request if there are changes
           if ($hasChanges) {
-            # Assuming you're using GitHub CLI to create PR
             gh pr create --title "Update localization files" --body "This PR includes updated localization files." --head $branchName --base main
           }
         shell: pwsh
