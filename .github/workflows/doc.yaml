@@ -23,7 +23,7 @@ jobs:
             $env:PQ_UICultureOverride = $culture
 
             # Start Power BI Desktop in the appropriate culture
-            $pbixPath = Join-Path -Path $env:GITHUB_WORKSPACE -ChildPath "pre-scripts\dox.pbix"
+            $pbixPath = Join-Path -Path $env:GITHUB_WORKSPACE -ChildPath "process\dox.pbix"
             Start-Process "C:\Program Files\Microsoft Power BI Desktop\bin\PBIDesktop.exe" -ArgumentList $pbixPath
             Start-Sleep -Seconds 60
 
@@ -34,7 +34,7 @@ jobs:
             if ($msmdsrvPorts) {
               # Process the database on the instance for the current culture
               $port = $msmdsrvPorts[0].LocalPort
-              $outputJsonFile =  Join-Path -Path $env:GITHUB_WORKSPACE -ChildPath "pre-scripts\${culture}.json"
+              $outputJsonFile =  Join-Path -Path $env:GITHUB_WORKSPACE -ChildPath "process\shared\${culture}.json"
               pwsh -File ./.github/scripts/generate-doc-output.ps1 -port $port -outputJsonFile $outputJsonFile
             } else {
               Write-Host "No msmdsrv.exe process found."
@@ -47,4 +47,5 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           new_branch: docs-update
+          message: "Update localized docs"
 
