@@ -13,7 +13,7 @@ jobs:
 
       - name: Process cultures sequentially
         run: |
-          $cultures = @('en-US', 'fr-FR')
+          $cultures = @('en', 'fr')
           $date = Get-Date -Format "yyyyMMdd"
           $branchName = "update_$date"
           $hasChanges = $false
@@ -34,33 +34,17 @@ jobs:
             if ($msmdsrvPorts) {
               # Process the database on the instance for the current culture
               $port = $msmdsrvPorts[0].LocalPort
-              $outputJsonFile = "${culture}.json".Replace('-', '')
+              $outputJsonFile =  Join-Path -Path $env:GITHUB_WORKSPACE -ChildPath "pre-scripts\${culture}.json"
               pwsh -File ./.github/scripts/generate-doc-output.ps1 -port $port -outputJsonFile $outputJsonFile
-              
-              # Check for changes and commit if there are any
-              git diff --exit-code $outputJsonFile
-              if ($LASTEXITCODE -eq 1) {
-                git checkout -b $branchName
-                git add $outputJsonFile
-                git commit -m "Update localization files for $culture"
-                git push origin HEAD:$branchName
-                $hasChanges = $true
-              }
-
             } else {
               Write-Host "No msmdsrv.exe process found."
             }
-
             # Close Power BI Desktop
             Stop-Process -Name PBIDesktop -Force -ErrorAction SilentlyContinue
             Write-Host "Power BI Desktop closed for culture $culture."
+          }
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          new_branch: docs-update
 
-          }
-          
-          # Create a Pull Request if there are changes
-          if ($hasChanges) {
-            gh pr create --title "Update localization files" --body "This PR includes updated localization files." --head $branchName --base main
-          }
-        shell: pwsh
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
