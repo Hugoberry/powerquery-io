@@ -1,5 +1,5 @@
 name: Refresh Power BI documentation and localized files
-on: [push]
+on: workflow_dispatch
 
 jobs:
   setup-and-process:
