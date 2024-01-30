@@ -1,3 +1,5 @@
 {
-  "Text_FromBinary":{ "message": "Decodes data from a binary form into text.", "description": "Decodes data from a binary form into text."}
+  "Text_FromBinary":{ "message": "Decodes data from a binary form into text.2"},
+  "Access.Database_Documentation.Name":{ "message": "Access.Database"},
+  "Access.Database_Documentation.Description":{ "message": "Returns a structural representation of an Access database."}
 }
