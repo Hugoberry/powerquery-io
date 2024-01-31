@@ -785,15 +785,6 @@
   "R.Execute_Documentation.Caption": {
     "message": "R script"
   },
-  "R.Execute_Documentation.Description": {
-    "message": null
-  },
-  "R.Execute_Documentation.Examples_Description": {
-    "message": null
-  },
-  "R.Execute_Documentation.Examples_Code": {
-    "message": null
-  },
   "Record.ToTable_Documentation.Name": {
     "message": "Record.ToTable"
   },
@@ -8720,9 +8711,6 @@
   "AmazonRedshift.Database_Documentation.LongDescription": {
     "message": "Returns a table listing the tables on the Amazon Redshift cluster <code>server</code> in the database <code>database</code>.  An optional record parameter, <code>options</code>, may be specified to control the following options:\r\n<ul>\r\n<li><code>Provider Name</code>: A text value to use as the Provider Name for the connection. This is used when using Microsoft Authentication.</li>\r\n<li><code>Batch Size</code>: The number of rows that are fetched in a single call to the server.</li>\r\n</ul>\r\n  "
   },
-  "AmazonRedshift.Database_Documentation.Examples_0_Description": {
-    "message": null
-  },
   "AmazonRedshift.Database_Documentation.Examples_0_Code": {
     "message": "AmazonRedshift.Database(\"contoso.redshift.amazonaws.com:5439\", \"dev\")"
   },
@@ -8773,9 +8761,6 @@
   },
   "AzureHiveLLAP.Database_Documentation.Name": {
     "message": "HDInsight Interactive Query"
-  },
-  "AzureHiveLLAP.Database_Documentation.Caption": {
-    "message": null
   },
   "AzureHiveLLAP.Database_Documentation.Description": {
     "message": "Import data from HDInsight Interactive Query"
@@ -13423,9 +13408,6 @@
   },
   "ApacheHiveLLAP.Database_Documentation.Name": {
     "message": "Hive LLAP"
-  },
-  "ApacheHiveLLAP.Database_Documentation.Caption": {
-    "message": null
   },
   "ApacheHiveLLAP.Database_Documentation.Description": {
     "message": "Import data from a Hive LLAP"

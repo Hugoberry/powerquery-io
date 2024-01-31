@@ -68,14 +68,8 @@
   "AutodeskConstructionCloud.Contents_Documentation.Name": {
     "message": "Autodesk Construction Cloud"
   },
-  "AutodeskConstructionCloud.Contents_Documentation.LongDescription": {
-    "message": null
-  },
   "AutodeskConstructionCloud.Feed_Documentation.Name": {
     "message": "Autodesk Construction Cloud"
-  },
-  "AutodeskConstructionCloud.Feed_Documentation.LongDescription": {
-    "message": null
   },
   "AzureDataExplorer.Contents_Documentation.Description": {
     "message": "Importe des données à partir d’Azure Data Explorer (Kusto)"
@@ -1150,15 +1144,6 @@
   },
   "R.Execute_Documentation.Caption": {
     "message": "Г ŝćяïφт"
-  },
-  "R.Execute_Documentation.Description": {
-    "message": null
-  },
-  "R.Execute_Documentation.Examples_Description": {
-    "message": null
-  },
-  "R.Execute_Documentation.Examples_Code": {
-    "message": null
   },
   "Record.ToTable_Documentation.Name": {
     "message": "Record.ToTable"
@@ -2258,9 +2243,6 @@
   "AmazonRedshift.Database_Documentation.LongDescription": {
     "message": "Retourne une table répertoriant les tables sur le <code>serveur</code> cluster Amazon Redshift dans la base de données <code></code>. Un paramètre d’enregistrement facultatif, <code>options</code>, peut être spécifié pour contrôler les options suivantes :\r\n<ul>\r\n<li><code>nom du fournisseur</code> : valeur de texte à utiliser comme nom de fournisseur pour la connexion. Ceci est utilisé lors de l’utilisation de Microsoft Authentication.</li>\r\n<li><code>Batch Size</code> : nombre de lignes récupérées lors d’un seul appel au serveur.</li>\r\n</ul>\r\n  "
   },
-  "AmazonRedshift.Database_Documentation.Examples_0_Description": {
-    "message": null
-  },
   "AmazonRedshift.Database_Documentation.Examples_0_Code": {
     "message": "AmazonRedshift.Database(\"contoso.redshift.amazonaws.com:5439\", \"dev\")"
   },
@@ -2320,9 +2302,6 @@
   },
   "AzureHiveLLAP.Database_Documentation.Name": {
     "message": "HDInsight Interactive Query"
-  },
-  "AzureHiveLLAP.Database_Documentation.Caption": {
-    "message": null
   },
   "AzureHiveLLAP.Database_Documentation.Description": {
     "message": "Importer des données depuis HDInsight Interactive Query"
@@ -3671,17 +3650,11 @@
   "ApacheHiveLLAP.Database_Documentation.Name": {
     "message": "LLAP Hive"
   },
-  "ApacheHiveLLAP.Database_Documentation.Caption": {
-    "message": null
-  },
   "ApacheHiveLLAP.Database_Documentation.Description": {
     "message": "Importer des données à partir d'un LLAP Hive"
   },
   "ApacheHiveLLAP.Database_Documentation.LongDescription": {
     "message": "\r\nRetourne une liste de tables à partir du LLAP Hive spécifié par la <code>base de données</code> sur le <code>serveur</code> LLAP Hive en utilisant le <code>protocole</code> sélectionné. Vous pouvez spécifier un numéro de port avec le serveur, en le séparant avec le signe deux-points. Le protocole de transport Thrift est un type énuméré avec les valeurs « Standard », « HTTP ». Vous pouvez spécifier un paramètre <code>options</code> facultatif pour contrôler les options suivantes :\r\n<ul>\r\n        <li><code>ConnectionTimeout</code> : Durée qui contrôle le temps d'attente avant l'abandon de la tentative de connexion au serveur. La valeur par défaut dépend du pilote.</li>\r\n        <li><code>CommandTimeout</code> : Durée qui contrôle le temps pendant lequel la requête côté serveur est autorisée à s'exécuter avant d'être annulée. La valeur par défaut dépend du pilote.</li>\r\n</ul>\r\nLe paramètre <code>options</code> est spécifié sous la forme [option1 = valeur1, option2 = valeur2...]."
-  },
-  "AzureCostManagement.Contents_Documentation.Description": {
-    "message": null
   },
   "AzureCostManagement.Contents_Documentation.DisplayName": {
     "message": "Contents"
@@ -3691,9 +3664,6 @@
   },
   "AzureCostManagement.Contents_Documentation.Name": {
     "message": "AzureCostManagement.Contents"
-  },
-  "AzureCostManagement.Contents_Documentation.LongDescription": {
-    "message": null
   },
   "AzureCostManagement.Contents_Documentation.Examples_0_Description": {
     "message": "En supposant qu’aujourd'hui nous sommes le 15-06-2017, obtient les données des synthèses entre le 01-05-2017 et le 15-06-2017"

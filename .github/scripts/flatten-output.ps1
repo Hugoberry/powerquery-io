@@ -14,19 +14,29 @@ function Flatten-Documentation {
         $newKey = $ParentKey + $key
         $value = $Json.$key
 
+        if ($null -eq $value) {
+            # Skip null values
+            continue
+        }
+
         if ($value -is [System.Collections.IEnumerable] -and $value -isnot [string]) {
             for ($i = 0; $i -lt $value.Count; $i++) {
                 $subItem = $value[$i]
+                if ($null -eq $subItem) {
+                    # Skip null values in collections
+                    continue
+                }
                 if ($subItem -is [System.Collections.IEnumerable] -and $subItem -isnot [string]) {
                     $nestedResults = Flatten-Documentation -Json $subItem -ParentKey "$newKey`_$i`_"
                     foreach ($nestedKey in $nestedResults.Keys) {
                         $result["$nestedKey"] = $nestedResults[$nestedKey]
                     }
                 } elseif ($subItem -is [pscustomobject]) {
-                    # Handle pscustomobject within the array
                     foreach ($subItemKey in $subItem.PSObject.Properties.Name) {
                         $subItemValue = $subItem.$subItemKey
-                        $result["$newKey`_$i`_$subItemKey"] = @{ "message" = $subItemValue }
+                        if ($null -ne $subItemValue) {
+                            $result["$newKey`_$i`_$subItemKey"] = @{ "message" = $subItemValue }
+                        }
                     }
                 } else {
                     $result["$newKey`_$i"] = @{ "message" = $subItem }
