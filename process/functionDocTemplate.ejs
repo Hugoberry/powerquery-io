@@ -13,13 +13,16 @@ title: <%= functionName %>
 ## Syntax
 
 ```powerquery
-<%= functionName %>(<% 
-let totalParams = Object.keys(parameters).length;
-let reqParams = parseInt(requiredParameters, 10);
-Object.entries(parameters).forEach(([key, type], index) => {
-    let optionalStr = index >= reqParams ? 'optional ' : '';
-%><%= optionalStr %><%= key %> as <%= type %><%= index < totalParams - 1 ? ', ' : '' %><% 
-}); %>) as <%= returnType %>
+<%= functionName %>(
+<% 
+let paramIndent = "    "; // Define the indentation level
+let params = Object.entries(parameters).map(([key, type], index) => {
+    let optionalStr = index >= parseInt(requiredParameters, 10) ? 'optional ' : '';
+    return `${paramIndent}${optionalStr}${key} as ${type}` + (index < Object.keys(parameters).length - 1 ? ',' : '');
+}).join('\n');
+-%>
+<%- params %>
+) as <%= returnType %>
 ```
 
 <% if (documentation['Documentation.LongDescription']) { %>
@@ -27,18 +30,18 @@ Object.entries(parameters).forEach(([key, type], index) => {
 
 <%- documentation['Documentation.LongDescription'] %>
 <% } %>
-
-<% if (documentation.Examples && documentation.Examples.length > 0) { %>
+<% if (documentation['Documentation.Examples'] && documentation['Documentation.Examples'].length > 0) { %>
 ## Examples
-
-<% documentation.Examples.forEach(function(example) { %>
-### Example: <%= example.Description %>
-
+<% documentation['Documentation.Examples'].forEach(function(example,index) { %>
+### Example #<%= index+1 %> 
+<%= example.Description %>
 ```powerquery
-<%= example.Code %>
+<%- example.Code %>
 ```
-
-Result: <%= example.Result %>
-
+`Result:` <%- example.Result %>
 <% }); %>
+<% } %>
+<% if (documentation['Documentation.Category']) { %>
+## Category
+<%- documentation['Documentation.Category'] %>
 <% } %>
