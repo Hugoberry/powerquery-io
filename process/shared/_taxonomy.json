@@ -360,7 +360,7 @@
     "Splitter.SplitTextByWhitespace": "Returns a function that splits text according to whitespace."
   },
   "Replacer functions": {
-    "Replacer.ReplaceText": "This function be provided to [List.ReplaceValue](list-replacevalue.md) or [Table.ReplaceValue](table-replacevalue.md) to do replace of text values in list and table values respectively.",
+    "Replacer.ReplaceText": "This function be provided to **List.ReplaceValue** or **Table.ReplaceValue** to do replace of text values in list and table values respectively.",
     "Replacer.ReplaceValue": "This function be provided to **List.ReplaceValue** or **Table.ReplaceValue** to do replace values in list and table values respectively."
   },
   "Time functions": {
@@ -720,7 +720,7 @@
     "Cube.Parameters": "Returns a table containing the set of parameters that can be applied to cube.",
     "Cube.Properties": "Returns a table containing the set of available properties for dimensions that are expanded in the cube.",
     "Cube.PropertyKey": "Returns the key of property `property`.",
-    "Cube.ReplaceDimensions": "Replaces the set of dimensions returned by [Cube.Dimensions](/powerquery-m/cube-dimensions).",
+    "Cube.ReplaceDimensions": "Replaces the set of dimensions returned by **Cube.Dimensions.**",
     "Cube.Transform": "Applies the list cube functions, transforms, on the cube.",
     "DB2.Database": "Returns a table of SQL tables and views available in a Db2 database.",
     "DeltaLake.Table": "Returns the contents of the Delta Lake table.",
