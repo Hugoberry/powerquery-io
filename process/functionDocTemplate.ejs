@@ -1,0 +1,40 @@
+---
+title: <%= functionName %>
+---
+
+# <%= functionName %>
+
+<% if (documentation['Documentation.Description']) { %>
+## Description
+
+<%= documentation['Documentation.Description'] %>
+<% } %>
+
+<% if (documentation['Documentation.LongDescription']) { %>
+## Details
+
+<%= documentation['Documentation.LongDescription'] %>
+<% } %>
+
+## Parameters
+
+<% Object.keys(parameters).forEach(function(param) { %>
+- `<%= param %>`: <%= parameters[param] %>
+<% }); %>
+`
+## Return Type
+
+<%= returnType %>
+
+<% if (documentation.Examples && documentation.Examples.length > 0) { %>
+## Examples
+
+<% documentation.Examples.forEach(function(example) { %>
+### Example: <%= example.Description %>
+
+```m
+<%= example.Code %>
+```
+
+Result: <%= example.Result %>
+

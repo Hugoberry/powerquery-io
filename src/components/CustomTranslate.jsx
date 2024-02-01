@@ -8,11 +8,13 @@ const CustomTranslate = ({ id }) => {
 
     if (translation !== id) {
         // If a translation is found, render it
-        return <Translate id={id} />;
+        // return <Translate id={id} />;
+        return <span dangerouslySetInnerHTML={{ __html: translation.message }} />
+        // return translation.message;
     } else {
         // Fallback to English translation if available
         const enTranslation = enTranslations[id]?.message || id;
-        return <span>{enTranslation}</span>;
+        return <template dangerouslySetInnerHTML={{ __html: enTranslation }} />;
     }
 };
 
