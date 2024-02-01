@@ -8,6 +8,7 @@ functionsData.functions.forEach(function(fn) {
     functionName: fn.Name,
     documentation: fn.Documentation,
     parameters: fn.Parameters,
+    requiredParameters: fn.RequiredParameters,
     returnType: fn.ReturnType,
   });
 

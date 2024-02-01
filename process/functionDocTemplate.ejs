@@ -10,21 +10,23 @@ title: <%= functionName %>
 <%= documentation['Documentation.Description'] %>
 <% } %>
 
+## Syntax
+
+```powerquery
+<%= functionName %>(<% 
+let totalParams = Object.keys(parameters).length;
+let reqParams = parseInt(requiredParameters, 10);
+Object.entries(parameters).forEach(([key, type], index) => {
+    let optionalStr = index >= reqParams ? 'optional ' : '';
+%><%= optionalStr %><%= key %> as <%= type %><%= index < totalParams - 1 ? ', ' : '' %><% 
+}); %>) as <%= returnType %>
+```
+
 <% if (documentation['Documentation.LongDescription']) { %>
 ## Details
 
-<%= documentation['Documentation.LongDescription'] %>
+<%- documentation['Documentation.LongDescription'] %>
 <% } %>
-
-## Parameters
-
-<% Object.keys(parameters).forEach(function(param) { %>
-- `<%= param %>`: <%= parameters[param] %>
-<% }); %>
-
-## Return Type
-
-<%= returnType %>
 
 <% if (documentation.Examples && documentation.Examples.length > 0) { %>
 ## Examples
@@ -32,7 +34,7 @@ title: <%= functionName %>
 <% documentation.Examples.forEach(function(example) { %>
 ### Example: <%= example.Description %>
 
-```m
+```powerquery
 <%= example.Code %>
 ```
 
