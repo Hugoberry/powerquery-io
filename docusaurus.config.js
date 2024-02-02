@@ -14,14 +14,8 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://powerquery.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -46,9 +40,8 @@ const config = {
           // Remove this to remove the "edit this page" links.
 
         },
-        blog: {
-          showReadingTime: false,
-        },
+        blog: false,
+        pages: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -69,11 +62,6 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Docs',
-          },{
             type: 'localeDropdown',
             position: 'right',
           }
