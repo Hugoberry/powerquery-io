@@ -38,7 +38,12 @@ let params = Object.entries(parameters).map(([key, type], index) => {
 ```powerquery
 <%- example.Code %>
 ```
-`Result:` <%- example.Result %>
+<% if (example.Result) { %>
+Result: 
+```powerquery
+<%- example.Result %>
+```
+<% } %>
 <% }); %>
 <% } %>
 <% if (documentation['Documentation.Category']) { %>

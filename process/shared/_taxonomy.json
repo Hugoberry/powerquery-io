@@ -893,7 +893,7 @@
     "Function.IsDataSource": "Returns whether or not function is considered a data source.",
     "Function.ScalarVector": "Returns a scalar function of type scalarFunctionType that invokes vectorFunction with a single row of arguments and returns its single output."
   },
-  "Error handling functions": {
+  "Diagnostics functions": {
     "Diagnostics.ActivityId": "Returns an opaque identifier for the currently-running evaluation.",
     "Diagnostics.CorrelationId": "Returns an opaque identifier to correlate incoming requests with outgoing ones.",
     "Diagnostics.Trace": "Writes a trace message, if tracing is enabled, and returns value.",
