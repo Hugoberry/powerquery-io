@@ -25,7 +25,8 @@
       "ReturnType": "table",
       "Parameters": {
         "DSN": "text",
-        "role": "text"
+        "role": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -205,6 +206,29 @@
       "RequiredParameters": "1"
     },
     {
+      "Name": "AzureResourceGraph.Query",
+      "Documentation": {
+        "Documentation.Name": "Azure Resource Graph",
+        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.Examples": [
+          {
+            "Description": "Return a table with query results of user query 'resources'",
+            "Code": "AzureResourceGraph.Query(\"resources\")",
+            "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "query": "text",
+        "scope": "text",
+        "subscription": "text",
+        "managementGroup": "text",
+        "options": "record"
+      },
+      "RequiredParameters": "1"
+    },
+    {
       "Name": "AzureSpark.Tables",
       "Documentation": {
         "Documentation.Name": "Azure HDInsight Spark",
@@ -326,7 +350,7 @@
     {
       "Name": "BQL.Query",
       "Documentation": {
-        "Documentation.Name": "Bloomberg Data and Analytics  v1.0.17",
+        "Documentation.Name": "Bloomberg Data and Analytics  v1.1.3",
         "Documentation.Description": "Utilisé pour récupérer des données Bloomberg"
       },
       "ReturnType": "table",
@@ -708,6 +732,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV360",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV360(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text"
       },
       "RequiredParameters": "1"
     },
@@ -1579,7 +1627,7 @@
       "Documentation": {
         "Documentation.Name": "SharePoint.Tables",
         "Documentation.Description": "Retourne une table qui contient le contenu d'une liste SharePoint.",
-        "Documentation.LongDescription": "Retourne une table qui contient une ligne pour chaque élément de liste dans la liste SharePoint spécifiée <code>url</code>. Chaque ligne contient les propriétés de la liste. Vous pouvez spécifier <code>options</code> pour contrôler les options suivantes :\r\n    <ul>\r\n<li><code>ApiVersion</code> : Nombre (14&#160;ou&#160;15) ou texte &#171;&#160;Auto&#160;&#187; sp&#233;cifiant la version de l&#39;API SharePoint &#224; utiliser pour ce site. Si aucune valeur n&#39;est sp&#233;cifi&#233;e, la version&#160;14 de l&#39;API est utilis&#233;e. Si la valeur Auto est sp&#233;cifi&#233;e, la version du serveur est d&#233;tect&#233;e automatiquement (si possible)&#160;; sinon, la version&#160;14 est utilis&#233;e par d&#233;faut. Les sites SharePoint qui ne sont pas en anglais n&#233;cessitent au moins la version&#160;15.</li>\r\n<li><code>Implementation</code> : Facultatif. Sp&#233;cifie la version du connecteur Microsoft Office SharePoint Online &#224; utiliser. Les valeurs accept&#233;es sont &quot;2.0&quot; ou null. Si la valeur est &quot;2.0&quot;, l&#39;impl&#233;mentation 2.0 du connecteur Microsoft Office SharePoint Online est utilis&#233;e. Si la valeur est nulle, l&#39;impl&#233;mentation d&#39;origine du connecteur Microsoft Office SharePoint Online est utilis&#233;e.</li>\r\n<li><code>ViewMode</code> : Facultatif. Cette option n&#39;est valable que pour l&#39;impl&#233;mentation 2.0. Les valeurs accept&#233;es sont &quot;All&quot; et &quot;Default&quot;. Si aucune valeur n&#39;est sp&#233;cifi&#233;e, la valeur est d&#233;finie sur &quot;Tous&quot;. Lorsque &quot;All&quot; est sp&#233;cifi&#233;, la vue inclut toutes les colonnes cr&#233;&#233;es par l&#39;utilisateur et d&#233;finies par le syst&#232;me. Lorsque &quot;Par d&#233;faut&quot; est sp&#233;cifi&#233;, la vue correspondra &#224; ce que l&#39;utilisateur voit lorsqu&#39;il consulte la liste en ligne dans la vue que l&#39;utilisateur a d&#233;finie comme Par d&#233;faut dans ses param&#232;tres. Si l&#39;utilisateur modifie sa vue par d&#233;faut pour ajouter ou supprimer des colonnes cr&#233;&#233;es par l&#39;utilisateur ou d&#233;finies par le syst&#232;me, ou en cr&#233;ant une nouvelle vue et en la d&#233;finissant par d&#233;faut, ces modifications se propageront via le connecteur.</li>\r\n</ul>\r\n\r\n    ",
+        "Documentation.LongDescription": "Retourne une table qui contient une ligne pour chaque élément de liste dans la liste SharePoint spécifiée <code>url</code>. Chaque ligne contient les propriétés de la liste. Vous pouvez spécifier <code>options</code> pour contrôler les options suivantes :\r\n    <ul>\r\n<li><code>ApiVersion</code> : Nombre (14&#160;ou&#160;15) ou texte &#171;&#160;Auto&#160;&#187; sp&#233;cifiant la version de l&#39;API SharePoint &#224; utiliser pour ce site. Si aucune valeur n&#39;est sp&#233;cifi&#233;e, la version&#160;14 de l&#39;API est utilis&#233;e. Si la valeur Auto est sp&#233;cifi&#233;e, la version du serveur est d&#233;tect&#233;e automatiquement (si possible)&#160;; sinon, la version&#160;14 est utilis&#233;e par d&#233;faut. Les sites SharePoint qui ne sont pas en anglais n&#233;cessitent au moins la version&#160;15.</li>\r\n<li><code>Implementation</code> : Facultatif. Sp&#233;cifie la version du connecteur Microsoft Office SharePoint Online &#224; utiliser. Les valeurs accept&#233;es sont &quot;2.0&quot; ou null. Si la valeur est &quot;2.0&quot;, l&#39;impl&#233;mentation 2.0 du connecteur Microsoft Office SharePoint Online est utilis&#233;e. Si la valeur est nulle, l&#39;impl&#233;mentation d&#39;origine du connecteur Microsoft Office SharePoint Online est utilis&#233;e.</li>\r\n<li><code>ViewMode</code> : Facultatif. Cette option n&#39;est valable que pour l&#39;impl&#233;mentation 2.0. Les valeurs accept&#233;es sont &quot;All&quot; et &quot;Default&quot;. Si aucune valeur n&#39;est sp&#233;cifi&#233;e, la valeur est d&#233;finie sur &quot;Tous&quot;. Lorsque &quot;All&quot; est sp&#233;cifi&#233;, la vue inclut toutes les colonnes cr&#233;&#233;es par l&#39;utilisateur et d&#233;finies par le syst&#232;me. Lorsque &quot;Par d&#233;faut&quot; est sp&#233;cifi&#233;, la vue correspondra &#224; ce que l&#39;utilisateur voit lorsqu&#39;il consulte la liste en ligne dans la vue que l&#39;utilisateur a d&#233;finie comme Par d&#233;faut dans ses param&#232;tres. Si l&#39;utilisateur modifie sa vue par d&#233;faut pour ajouter ou supprimer des colonnes cr&#233;&#233;es par l&#39;utilisateur ou d&#233;finies par le syst&#232;me, ou en cr&#233;ant une nouvelle vue et en la d&#233;finissant par d&#233;faut, ces modifications se propageront via le connecteur.</li>\r\n<li><code>DisableAppendNoteColumns</code> : Emp&#234;che le connecteur d’utiliser un point de terminaison distinct pour les colonnes de note.</li>\r\n</ul>\r\n\r\n    ",
         "Documentation.Category": "Accessing data",
         "Documentation.Examples": []
       },
@@ -1862,12 +1910,17 @@
         "Documentation.Category": "Table.Table construction",
         "Documentation.Examples": [
           {
-            "Description": "Crée une table à partir de la liste avec la colonne nommée « Letters », en utilisant le séparateur par défaut.",
-            "Code": "Table.FromList({\"a\", \"b\", \"c\", \"d\"}, null, {\"Letters\"})",
-            "Result": "Table.FromRecords({\r\n    [Letters = \"a\"],\r\n    [Letters = \"b\"],\r\n    [Letters = \"c\"],\r\n    [Letters = \"d\"]\r\n})\r\n"
+            "Description": "Créez une table à partir d’une liste à l’aide du séparateur par défaut.",
+            "Code": "Table.FromList(\r\n    {\"a,apple\", \"b,ball\", \"c,cookie\", \"d,door\"},\r\n    null,\r\n    {\"Letter\", \"Example Word\"}\r\n)",
+            "Result": "Table.FromRecords({\r\n    [Letter = \"a\", #\"Example Word\" = \"apple\"],\r\n    [Letter = \"b\", #\"Example Word\" = \"ball\"],\r\n    [Letter = \"c\", #\"Example Word\" = \"cookie\"],\r\n    [Letter = \"d\", #\"Example Word\" = \"door\"]\r\n})"
           },
           {
-            "Description": "Crée une table à partir de la liste en utilisant le séparateur Record.FieldValues, la table résultante ayant « CustomerID » et « Name » comme noms de colonne.",
+            "Description": "Créez une table à partir d’une liste à l’aide d’un séparateur personnalisé.",
+            "Code": "Table.FromList(\r\n    {\"a,apple\", \"b,ball\", \"c,cookie\", \"d,door\"},\r\n    Splitter.SplitByNothing(),\r\n    {\"Letter and Example Word\"}\r\n)",
+            "Result": "Table.FromRecords({\r\n    [#\"Letter and Example Word\" = \"a,apple\"],\r\n    [#\"Letter and Example Word\" = \"b,ball\"],\r\n    [#\"Letter and Example Word\" = \"c,cookie\"],\r\n    [#\"Letter and Example Word\" = \"d,door\"]\r\n})"
+          },
+          {
+            "Description": "Créez une table à partir de la liste à l’aide du séparateur Record.FieldValues.",
             "Code": "Table.FromList(\r\n    {\r\n        [CustomerID = 1, Name = \"Bob\"],\r\n        [CustomerID = 2, Name = \"Jim\"]\r\n    },\r\n    Record.FieldValues,\r\n    {\"CustomerID\", \"Name\"}\r\n)",
             "Result": "Table.FromRecords({\r\n    [CustomerID = 1, Name = \"Bob\"],\r\n    [CustomerID = 2, Name = \"Jim\"]\r\n})"
           }
@@ -3699,22 +3752,6 @@
       "Parameters": {
         "table": "table",
         "countOrCondition": "any"
-      },
-      "RequiredParameters": "2"
-    },
-    {
-      "Name": "Table.OnError",
-      "Documentation": {
-        "Documentation.Name": "Table.OnError",
-        "Documentation.Description": "This function is intended for internal use only.",
-        "Documentation.LongDescription": "This function is intended for internal use only.",
-        "Documentation.Category": "Values.Implementation",
-        "Documentation.Examples": []
-      },
-      "ReturnType": "table",
-      "Parameters": {
-        "table": "table",
-        "handler": "function"
       },
       "RequiredParameters": "2"
     },
@@ -6008,6 +6045,20 @@
       "RequiredParameters": "0"
     },
     {
+      "Name": "inwink.ScopeContents",
+      "Documentation": {
+        "Documentation.Name": "inwink source",
+        "Documentation.LongDescription": "inwink data"
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "customerId": "text",
+        "scope": "text",
+        "scopeId": "text"
+      },
+      "RequiredParameters": "3"
+    },
+    {
       "Name": "AI.ExecuteInternal",
       "Documentation": {},
       "ReturnType": "any",
@@ -6324,6 +6375,19 @@
         "Documentation.Name": "Diagnostics.ActivityId",
         "Documentation.Description": "Retourne un identificateur opaque pour l'évaluation en cours d'exécution.",
         "Documentation.LongDescription": "Retourne un identificateur opaque pour l'évaluation en cours d'exécution.",
+        "Documentation.Category": "Diagnostics",
+        "Documentation.Examples": []
+      },
+      "ReturnType": "text",
+      "Parameters": {},
+      "RequiredParameters": "0"
+    },
+    {
+      "Name": "Diagnostics.CorrelationId",
+      "Documentation": {
+        "Documentation.Name": "Diagnostics.CorrelationId",
+        "Documentation.Description": "Renvoie un identifiant opaque permettant d’établir une corrélation entre les requêtes entrantes et les demandes sortantes.",
+        "Documentation.LongDescription": "Renvoie un identifiant opaque permettant d’établir une corrélation entre les requêtes entrantes et les demandes sortantes.",
         "Documentation.Category": "Diagnostics",
         "Documentation.Examples": []
       },
@@ -7182,6 +7246,22 @@
       "Parameters": {
         "server": "text",
         "database": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Action.WithErrorContext",
+      "Documentation": {
+        "Documentation.Name": "Action.WithErrorContext",
+        "Documentation.Description": "Cette fonction est destinée à un usage interne uniquement.",
+        "Documentation.LongDescription": "Cette fonction est destinée à un usage interne uniquement.",
+        "Documentation.Category": "Values.Implementation",
+        "Documentation.Examples": []
+      },
+      "ReturnType": "action",
+      "Parameters": {
+        "action": "action",
+        "context": "text"
       },
       "RequiredParameters": "2"
     },
@@ -8128,6 +8208,22 @@
       "Parameters": {
         "function": "function",
         "delay": "duration"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Function.InvokeWithErrorContext",
+      "Documentation": {
+        "Documentation.Name": "Function.InvokeWithErrorContext",
+        "Documentation.Description": "Cette fonction est destinée à un usage interne uniquement.",
+        "Documentation.LongDescription": "Cette fonction est destinée à un usage interne uniquement.",
+        "Documentation.Category": "Values.Implementation",
+        "Documentation.Examples": []
+      },
+      "ReturnType": "any",
+      "Parameters": {
+        "function": "function",
+        "context": "text"
       },
       "RequiredParameters": "2"
     },
@@ -9833,6 +9929,22 @@
       "RequiredParameters": "2"
     },
     {
+      "Name": "Table.WithErrorContext",
+      "Documentation": {
+        "Documentation.Name": "Table.WithErrorContext",
+        "Documentation.Description": "Cette fonction est destinée à un usage interne uniquement.",
+        "Documentation.LongDescription": "Cette fonction est destinée à un usage interne uniquement.",
+        "Documentation.Category": "Values.Implementation",
+        "Documentation.Examples": []
+      },
+      "ReturnType": "any",
+      "Parameters": {
+        "value": "any",
+        "context": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
       "Name": "Text.AfterDelimiter",
       "Documentation": {
         "Documentation.Name": "Text.AfterDelimiter",
@@ -10497,9 +10609,20 @@
       "Documentation": {
         "Documentation.Name": "Type.ReplaceTableKeys",
         "Documentation.Description": "Retourne un nouveau type de table avec toutes les clés remplacées par la liste spécifiée de clés.",
-        "Documentation.LongDescription": "Retourne un nouveau type de table avec toutes les clés remplacées par la liste spécifiée de clés.",
+        "Documentation.LongDescription": "Renvoie un nouveau type de table avec toutes les clés remplacées par la liste de clés spécifiée.<br>\r\n    <br>\r\n    Chaque clé est définie à l'aide d'un enregistrement sous la forme suivante :\r\n    <ul>\r\n      <li>\r\n        <code>Colonnes</code> : une liste des noms de colonnes qui définissent la clé\r\n      </li>\r\n      <li>\r\n        <code>Primary</code> : <code>true</code> si la clé est la clé primaire de la table ; sinon, <code>faux</code>\r\n      </li>\r\n    </ul>\r\n    La liste de clés spécifiée est validée pour garantir qu'au maximum une clé primaire est définie et que tous les noms de colonnes de clés existent sur le type de table.\r\n    ",
         "Documentation.Category": "Type",
-        "Documentation.Examples": []
+        "Documentation.Examples": [
+          {
+            "Description": "Remplacez les informations clés sur un type de table.",
+            "Code": "let\r\n    BaseType = type table [ID = number, FirstName = text, LastName = text],\r\n    KeysAdded = Type.ReplaceTableKeys(\r\n        BaseType, \r\n        {\r\n            [Columns = {\"ID\"}, Primary = true],\r\n            [Columns = {\"FirstName\", \"LastName\"}, Primary = false]\r\n        }\r\n    ),\r\n    DetailsOfKeys = Type.TableKeys(KeysAdded)\r\nin\r\n    DetailsOfKeys",
+            "Result": "{\r\n    [Columns = {\"ID\"}, Primary = true],\r\n    [Columns = {\"FirstName\", \"LastName\"}, Primary = false]\r\n}"
+          },
+          {
+            "Description": "Efface les informations clés précédemment définies sur un type de table.",
+            "Code": "let\r\n    TypeWithKey = Type.AddTableKey(type table [ID = number, Name = text], {\"ID\"}, true),\r\n    KeyRemoved = Type.ReplaceTableKeys(TypeWithKey, {}),\r\n    DetailsOfKeys = Type.TableKeys(KeyRemoved)\r\nin\r\n    DetailsOfKeys",
+            "Result": "{}"
+          }
+        ]
       },
       "ReturnType": "type",
       "Parameters": {
@@ -11402,14 +11525,24 @@
       "Name": "Character.FromNumber",
       "Documentation": {
         "Documentation.Name": "Character.FromNumber",
-        "Documentation.Description": "Convertit le nombre en sa valeur de caractère.",
-        "Documentation.LongDescription": "Retourne l'équivalent en caractère du nombre.",
+        "Documentation.Description": "Convertit un nombre en caractère de texte.",
+        "Documentation.LongDescription": "Renvoie l'équivalent en caractères du nombre.<br>\r\n    <br>\r\n    Le code <code>number</code> fourni doit être un point de code Unicode de 21 bits.",
         "Documentation.Category": "Text.Conversions from and to text",
         "Documentation.Examples": [
           {
-            "Description": "Avec le nombre 9, recherchez la valeur de caractère.",
+            "Description": "Convertit un nombre en sa valeur de caractère équivalente.",
             "Code": "Character.FromNumber(9)",
             "Result": "\"#(tab)\""
+          },
+          {
+            "Description": "Convertissez un caractère en nombre et inversement.",
+            "Code": "Character.FromNumber(Character.ToNumber(\"A\"))",
+            "Result": "\"A\""
+          },
+          {
+            "Description": "Convertissez le point de code hexadécimal de l'émoticône « visage souriant » en sa paire de substitution UTF-16 équivalente.",
+            "Code": "Character.FromNumber(0x1F600)",
+            "Result": "\"#(0001F600)\""
           }
         ]
       },
@@ -11423,14 +11556,19 @@
       "Name": "Character.ToNumber",
       "Documentation": {
         "Documentation.Name": "Character.ToNumber",
-        "Documentation.Description": "Convertit un caractère en sa valeur de nombre.",
-        "Documentation.LongDescription": "Retourne l'équivalent en nombre du caractère, <code>character</code>.",
+        "Documentation.Description": "Convertit un caractère en valeur numérique.",
+        "Documentation.LongDescription": "Renvoie l'équivalent numérique du <code>character</code>.<br>\r\n    <br>\r\n    Le résultat sera le point de code Unicode 21 bits représenté par le caractère fourni ou la paire de substitution.\r\n  ",
         "Documentation.Category": "Text.Conversions from and to text",
         "Documentation.Examples": [
           {
-            "Description": "Avec le caractère « #(tab) » 9, recherchez la valeur de nombre.",
+            "Description": "Convertit un caractère en sa valeur numérique équivalente.",
             "Code": "Character.ToNumber(\"#(tab)\")",
             "Result": "9"
+          },
+          {
+            "Description": "Convertissez la paire de substitution UTF-16 pour l'émoticône « visage souriant » en son point de code hexadécimal équivalent.",
+            "Code": "Number.ToText(Character.ToNumber(\"#(0001F600)\"), \"X\")",
+            "Result": "\"1F600\""
           }
         ]
       },
@@ -11444,7 +11582,7 @@
       "Name": "Combiner.CombineTextByDelimiter",
       "Documentation": {
         "Documentation.Name": "Combiner.CombineTextByDelimiter",
-        "Documentation.Description": "Renvoie une fonction qui combine une liste de valeurs textuelles en une seule valeur textuelle en utilisant le délimiteur spécifié.",
+        "Documentation.Description": "Renvoie une fonction qui combine une liste de texte à l'aide du délimiteur spécifié.",
         "Documentation.LongDescription": "Renvoie une fonction qui combine une liste de valeurs textuelles en une seule valeur textuelle en utilisant le délimiteur spécifié.",
         "Documentation.Category": "Combiner",
         "Documentation.Examples": [
@@ -11471,10 +11609,16 @@
       "Name": "Combiner.CombineTextByEachDelimiter",
       "Documentation": {
         "Documentation.Name": "Combiner.CombineTextByEachDelimiter",
-        "Documentation.Description": "Retourne une fonction qui associe une liste de textes dans un seul fichier texte à l'aide de chaque délimiteur spécifié en séquence.",
-        "Documentation.LongDescription": "Retourne une fonction qui associe une liste de textes dans un seul fichier texte à l'aide de chaque délimiteur spécifié en séquence.",
+        "Documentation.Description": "Renvoie une fonction qui combine une liste de texte à l'aide d'une séquence de délimiteurs.",
+        "Documentation.LongDescription": "Renvoie une fonction qui combine une liste de valeurs de texte en une seule valeur de texte à l'aide d'une séquence de délimiteurs.",
         "Documentation.Category": "Combiner",
-        "Documentation.Examples": []
+        "Documentation.Examples": [
+          {
+            "Description": "Combinez une liste de valeurs de texte à l'aide d'une séquence de délimiteurs.",
+            "Code": "Combiner.CombineTextByEachDelimiter({\"=\", \"+\"})({\"a\", \"b\", \"c\"})",
+            "Result": "\"a=b+c\""
+          }
+        ]
       },
       "ReturnType": "function",
       "Parameters": {
@@ -11487,10 +11631,21 @@
       "Name": "Combiner.CombineTextByLengths",
       "Documentation": {
         "Documentation.Name": "Combiner.CombineTextByLengths",
-        "Documentation.Description": "Retourne une fonction qui associe une liste de textes dans un seul fichier texte à l'aide des longueurs spécifiées.",
-        "Documentation.LongDescription": "Retourne une fonction qui associe une liste de textes dans un seul fichier texte à l'aide des longueurs spécifiées.",
+        "Documentation.Description": "Renvoie une fonction qui combine une liste de texte en utilisant les longueurs spécifiées.",
+        "Documentation.LongDescription": "Renvoie une fonction qui combine une liste de valeurs de texte en une seule valeur de texte en utilisant les longueurs spécifiées.",
         "Documentation.Category": "Combiner",
-        "Documentation.Examples": []
+        "Documentation.Examples": [
+          {
+            "Description": "Combinez une liste de valeurs de texte en extrayant le nombre de caractères spécifié de chaque valeur d'entrée.",
+            "Code": "Combiner.CombineTextByLengths({1, 2, 3})({\"aaa\", \"bbb\", \"ccc\"})",
+            "Result": "\"abbccc\""
+          },
+          {
+            "Description": "Combinez une liste de valeurs de texte en extrayant le nombre de caractères spécifié, après avoir d'abord pré-rempli le résultat avec le texte du modèle.",
+            "Code": "Combiner.CombineTextByLengths({1, 2, 3}, \"*********\")({\"aaa\", \"bbb\", \"ccc\"})",
+            "Result": "\"abbccc***\""
+          }
+        ]
       },
       "ReturnType": "function",
       "Parameters": {
@@ -11503,10 +11658,16 @@
       "Name": "Combiner.CombineTextByPositions",
       "Documentation": {
         "Documentation.Name": "Combiner.CombineTextByPositions",
-        "Documentation.Description": "Retourne une fonction qui associe une liste de textes dans un seul fichier texte à l'aide des positions spécifiées.",
-        "Documentation.LongDescription": "Retourne une fonction qui associe une liste de textes dans un seul fichier texte à l'aide des positions spécifiées.",
+        "Documentation.Description": "Renvoie une fonction qui combine une liste de texte en utilisant les positions de sortie spécifiées.",
+        "Documentation.LongDescription": "Renvoie une fonction qui combine une liste de valeurs de texte en une seule valeur de texte en utilisant les positions de sortie spécifiées.",
         "Documentation.Category": "Combiner",
-        "Documentation.Examples": []
+        "Documentation.Examples": [
+          {
+            "Description": "Combinez une liste de valeurs de texte en les plaçant dans la sortie aux positions spécifiées.",
+            "Code": "Combiner.CombineTextByPositions({0, 5, 10})({\"abc\", \"def\", \"ghi\"})",
+            "Result": "\"abc  def  ghi\""
+          }
+        ]
       },
       "ReturnType": "function",
       "Parameters": {
@@ -11519,10 +11680,16 @@
       "Name": "Combiner.CombineTextByRanges",
       "Documentation": {
         "Documentation.Name": "Combiner.CombineTextByRanges",
-        "Documentation.Description": "Retourne une fonction qui associe une liste de textes dans un seul fichier texte à l'aide des positions et longueurs spécifiées.",
-        "Documentation.LongDescription": "Retourne une fonction qui combine une liste de texte en un seul texte à l’aide des positions et longueurs spécifiées. Une longueur null indique que la valeur de texte entière doit être incluse.",
+        "Documentation.Description": "Renvoie une fonction qui combine une liste de texte en utilisant les positions et longueurs spécifiées.",
+        "Documentation.LongDescription": "Renvoie une fonction qui combine une liste de valeurs de texte en une seule valeur de texte en utilisant les positions et longueurs de sortie spécifiées. Une longueur nulle indique que la totalité de la valeur du texte doit être incluse.",
         "Documentation.Category": "Combiner",
-        "Documentation.Examples": []
+        "Documentation.Examples": [
+          {
+            "Description": "Combinez une liste de valeurs de texte en utilisant les positions et longueurs de sortie spécifiées.",
+            "Code": "Combiner.CombineTextByRanges({{0, 1}, {3, 2}, {6, null}})({\"abc\", \"def\", \"ghijkl\"})",
+            "Result": "\"a  de ghijkl\""
+          }
+        ]
       },
       "ReturnType": "function",
       "Parameters": {
@@ -17439,9 +17606,15 @@
       "Documentation": {
         "Documentation.Name": "Type.TableKeys",
         "Documentation.Description": "Retourne la liste éventuellement vide de clés pour le type de table spécifié.",
-        "Documentation.LongDescription": "Retourne la liste éventuellement vide de clés pour le type de table spécifié.",
+        "Documentation.LongDescription": "Renvoie la liste de clés éventuellement vide pour le type de table donné.<br>\r\n    <br>\r\n    Chaque clé est définie à l'aide d'un enregistrement sous la forme suivante :\r\n    <ul>\r\n      <li>\r\n        <code>Colonnes</code> : une liste des noms de colonnes qui définissent la clé\r\n      </li>\r\n      <li>\r\n        <code>Primary</code> : <code>true</code> si la clé est la clé primaire de la table ; sinon, <code>faux</code>\r\n      </li>\r\n    </ul>\r\n    ",
         "Documentation.Category": "Type",
-        "Documentation.Examples": []
+        "Documentation.Examples": [
+          {
+            "Description": "Renvoie les informations clés pour un type de table.",
+            "Code": "let\r\n    BaseType = type table [ID = number, Name = text],\r\n    AddKey = Type.AddTableKey(BaseType, {\"ID\"}, true),\r\n    DetailsOfKeys = Type.TableKeys(AddKey)\r\nin\r\n    DetailsOfKeys",
+            "Result": "{[Columns = {\"ID\"}, Primary = true]}"
+          }
+        ]
       },
       "ReturnType": "list",
       "Parameters": {
