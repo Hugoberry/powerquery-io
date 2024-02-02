@@ -77,10 +77,26 @@ functionsData.functions.forEach(function(fn) {
 
   const rawCategory = functionToCategoryMap[fn.Name] || 'Uncategorized';
   const cleanedCategory = cleanCategoryName(rawCategory);
-  const categoryPath = path.join(outputDir, cleanedCategory);
 
-  // Ensure the category directory exists
-  fs.mkdirSync(categoryPath, { recursive: true });
+  // Determine if the function belongs to the "Accessing data functions" category
+  let finalPath = outputDir;
+  if (cleanedCategory === 'Accessing data') {
+    // Extract namespace from the function name, if present
+    const namespace = fn.Name.includes('.') ? fn.Name.split('.')[0] : '';
+    if (namespace) {
+      // Create a subfolder path with the namespace
+      finalPath = path.join(outputDir, cleanedCategory, namespace);
+    } else {
+      // No namespace, so use the cleaned category as the folder
+      finalPath = path.join(outputDir, cleanedCategory);
+    }
+  } else {
+    // For other categories, use the cleaned category name as the folder
+    finalPath = path.join(outputDir, cleanedCategory);
+  }
+
+  // Ensure the final directory exists
+  fs.mkdirSync(finalPath, { recursive: true });
 
   const outputContent = ejs.render(fs.readFileSync('./functionDocTemplate.ejs', 'utf8'), {
     functionName: fn.Name,
@@ -90,7 +106,7 @@ functionsData.functions.forEach(function(fn) {
     returnType: fn.ReturnType,
   });
 
-  const outputPath = path.join(categoryPath, `${fn.Name}.md`);
+  const outputPath = path.join(finalPath, `${fn.Name}.md`);
   fs.writeFileSync(outputPath, outputContent);
 });
 
