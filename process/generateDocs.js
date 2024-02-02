@@ -4,7 +4,7 @@ const path = require('path');
 
 // Load taxonomy and documentation data
 const taxonomyJson = require('./shared/_taxonomy.json');
-const functionsData = require('./shared/en.json');
+const functionsData = require('./shared/fr.json');
 
 // Function to create mapping from function names to top-level categories
 function createFunctionToCategoryMap(taxonomy) {
@@ -31,7 +31,8 @@ function createFunctionToCategoryMap(taxonomy) {
 const functionToCategoryMap = createFunctionToCategoryMap(taxonomyJson);
 
 // Ensure the output directory exists
-const outputDir = '../docs';
+// const outputDir = '../docs';
+const outputDir = '../i18n/fr/docusaurus-plugin-content-docs/current';
 if (!fs.existsSync(outputDir)){
   fs.mkdirSync(outputDir, { recursive: true });
 }
@@ -49,6 +50,7 @@ function cleanContent(content) {
         .replace(/\*/g, '\\*') // Escape asterisk
         .replace(/\{/g, '\\{') // Escape curly braces
         .replace(/<p>/g,'') // Remove <p>
+        .replace(/«|»/g,'"')
         .replace(/<\/p>/g,'<br />') // repalce </p> with <br />
         .replace(/(?<!<\/li>\s*)<\/ul>\s*$/,'</li></ul>');// If the string ends with "</ul>" but not preceded by "</li>", replace
 }

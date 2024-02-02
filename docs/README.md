@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 hide_title: true
-breadcrumbs: false
+pagination_next: null
 ---
 
 # About

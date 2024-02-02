@@ -1,0 +1,31 @@
+---
+title: Text.ToBinary
+---
+
+# Text.ToBinary
+
+
+## Description
+
+Code le texte sous forme binaire.
+
+
+## Syntax
+
+```powerquery
+Text.ToBinary(
+    text as text,
+    optional encoding as TextEncoding.Type,
+    optional includeByteOrderMark as logical
+) as binary
+```
+
+
+## Details
+
+Code la valeur de texte spécifiée, <code>text</code>, en une valeur binaire à l'aide du <code>encoding</code> spécifié.
+
+
+
+## Category
+Text.Conversions from and to text
