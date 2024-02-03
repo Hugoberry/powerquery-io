@@ -27,13 +27,7 @@ Table.Join(
 
 ## Details
 
-Povezuje redove od <code>table1</code> sa redovima od <code>table2</code> na osnovu jednakosti vrednosti kolona sa ključem koje su izabrane od <code>key1</code> (za <code>table1</code>) i <code>key2</code> (za <code>table2</code>).<br /> Podrazumevano, unutrašnje spajanje se izvršava, ali opcionalno <code>joinKind</code> može biti uključeno da bi se naveo tip spajanja. Opcije uključuju:    <ul><li><code>JoinKind.Inner</code></li>
-<li><code>JoinKind.LeftOuter</code></li>
-<li><code>JoinKind.RightOuter</code></li>
-<li><code>JoinKind.FullOuter</code></li>
-<li><code>JoinKind.LeftAnti</code></li>
-<li><code>JoinKind.RightAnti</code></li>
-</ul><br />Opcionalni skup <code>keyEqualityComparers</code> može biti uključen da bi se navelo kako da uporedite kolone ključa. Ovaj parametar je trenutno namenjen samo za internu upotrebu.<br />
+Povezuje redove od <code>table1</code> sa redovima od <code>table2</code> na osnovu jednakosti vrednosti kolona sa ključem koje su izabrane od <code>key1</code> (za <code>table1</code>) i <code>key2</code> (za <code>table2</code>).<br /> Podrazumevano, unutrašnje spajanje se izvršava, ali opcionalno <code>joinKind</code> može biti uključeno da bi se naveo tip spajanja. Opcije uključuju:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Opcionalni skup <code>keyEqualityComparers</code> može biti uključen da bi se navelo kako da uporedite kolone ključa. Ovaj parametar je trenutno namenjen samo za internu upotrebu.<br />
 
 
 ## Examples

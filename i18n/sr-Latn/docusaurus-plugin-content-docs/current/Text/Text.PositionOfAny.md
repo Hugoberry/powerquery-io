@@ -23,8 +23,7 @@ Text.PositionOfAny(
 
 ## Details
 
-Vraća prvi položaj bilo kog znaka na listi <code>characters</code> koji se nalazi u <code>text</code>.
-    Opcionalni parametar <code>occurrence</code> može da se koristi za navođenje pozicije pojavljivanja za vraćanje.
+Vraća prvi položaj bilo kog znaka na listi <code>characters</code> koji se nalazi u <code>text</code>.    Opcionalni parametar <code>occurrence</code> može da se koristi za navođenje pozicije pojavljivanja za vraćanje.
 
 
 ## Examples
