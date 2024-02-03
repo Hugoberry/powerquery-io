@@ -27,13 +27,7 @@ Table.Join(
 
 ## Details
 
-<code>table1</code> (<code>table2</code> için) ve <code>key1</code> (<code>table1</code> için) tarafından seçilen anahtar sütunu değerlerinin eşitliğine göre <code>key2</code> satırlarını <code>table2</code> satırlarıyla birleştirir.<br />Varsayılan olarak iç birleşim gerçekleştirilir ancak birleşim türünü belirtmek üzere isteğe bağlı bir <code>joinKind</code> eklenebilir. Seçenekler arasında şunlar bulunur:    <ul><li><code>JoinKind.Inner</code></li>
-<li><code>JoinKind.LeftOuter</code></li>
-<li><code>JoinKind.RightOuter</code></li>
-<li><code>JoinKind.FullOuter</code></li>
-<li><code>JoinKind.LeftAnti</code></li>
-<li><code>JoinKind.RightAnti</code></li>
-</ul><br />Anahtar sütunlarının nasıl karşılaştırılacağını belirtmek üzere isteğe bağlı bir <code>keyEqualityComparers</code> kümesi eklenebilir. Bu parametre, şu anda yalnızca şirket içinde kullanılabilir.<br />
+<code>table1</code> (<code>table2</code> için) ve <code>key1</code> (<code>table1</code> için) tarafından seçilen anahtar sütunu değerlerinin eşitliğine göre <code>key2</code> satırlarını <code>table2</code> satırlarıyla birleştirir.<br />Varsayılan olarak iç birleşim gerçekleştirilir ancak birleşim türünü belirtmek üzere isteğe bağlı bir <code>joinKind</code> eklenebilir. Seçenekler arasında şunlar bulunur:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Anahtar sütunlarının nasıl karşılaştırılacağını belirtmek üzere isteğe bağlı bir <code>keyEqualityComparers</code> kümesi eklenebilir. Bu parametre, şu anda yalnızca şirket içinde kullanılabilir.<br />
 
 
 ## Examples

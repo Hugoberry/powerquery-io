@@ -23,8 +23,7 @@ Text.PositionOfAny(
 
 ## Details
 
-<code>text</code> öğesinde bulunan <code>characters</code> listesindeki herhangi bir karakterin ilk konumunu döndürür.
-    Döndürülecek oluşum konumunu belirtmek üzere isteğe bağlı <code>occurrence</code> parametresi kullanılabilir.
+<code>text</code> öğesinde bulunan <code>characters</code> listesindeki herhangi bir karakterin ilk konumunu döndürür.    Döndürülecek oluşum konumunu belirtmek üzere isteğe bağlı <code>occurrence</code> parametresi kullanılabilir.
 
 
 ## Examples

@@ -23,8 +23,7 @@ Text.PositionOfAny(
 
 ## Details
 
-Returnerar den första positionen för ett tecken i listan <code>characters</code> som finns i <code>text</code>.
-    En valfri parameter <code>occurrence</code> kan användas för att ange vilken förekomstposition som ska returneras.
+Returnerar den första positionen för ett tecken i listan <code>characters</code> som finns i <code>text</code>.    En valfri parameter <code>occurrence</code> kan användas för att ange vilken förekomstposition som ska returneras.
 
 
 ## Examples

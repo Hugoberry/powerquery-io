@@ -23,8 +23,7 @@ Text.PositionOfAny(
 
 ## Details
 
-ส่งกลับตำแหน่งแรกของอักขระใดๆ ในรายการ <code>characters</code> ที่พบใน<code>text</code>.
-    พารามิเตอร์ที่เลือกได้ <code>occurrence</code> อาจถูกใช้เพื่อระบุตำแหน่งเหตุการณ์ที่จะส่งกลับ
+ส่งกลับตำแหน่งแรกของอักขระใดๆ ในรายการ <code>characters</code> ที่พบใน<code>text</code>.    พารามิเตอร์ที่เลือกได้ <code>occurrence</code> อาจถูกใช้เพื่อระบุตำแหน่งเหตุการณ์ที่จะส่งกลับ
 
 
 ## Examples

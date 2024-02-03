@@ -22,10 +22,7 @@ Parquet.Document(
 
 ## Details
 
-Returnerar innehållet i Parquet-dokumentet som en tabell. Alternativen är:
-    <ul>
-    <li> <code>TypeMapping</code>: Ett textvärde som styr standardtypmappningen vid läsning och skrivning av filer. Standardvärdet är null och försöker bevara så mycket återgivning som möjligt för den ursprungliga typen. Värdet "Sql" ger resultat som är mest kompatibla med Sql Server.</li>
-    </ul>
+Returnerar innehållet i Parquet-dokumentet som en tabell. Alternativen är:    <ul>    <li> <code>TypeMapping</code>: Ett textvärde som styr standardtypmappningen vid läsning och skrivning av filer. Standardvärdet är null och försöker bevara så mycket återgivning som möjligt för den ursprungliga typen. Värdet "Sql" ger resultat som är mest kompatibla med Sql Server.</li>    </ul>
 
 
 
