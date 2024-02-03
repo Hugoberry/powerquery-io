@@ -1,0 +1,44 @@
+---
+title: Type.ListItem
+---
+
+# Type.ListItem
+
+
+## Description
+
+Devolve un tipo de elemento dun tipo de lista.
+
+
+## Syntax
+
+```powerquery
+Type.ListItem(
+    type as type
+) as type
+```
+
+
+## Details
+
+Devolve un tipo de elemento dunha lista <code>type</code>.
+
+
+## Examples
+
+### Example #1 
+Busque o tipo de elemento da lista &lt;code&gt;\{number}&lt;/code&gt;.
+```powerquery
+Type.ListItem(type {number})
+```
+
+Result: 
+```powerquery
+type number
+```
+
+
+
+
+## Category
+Type

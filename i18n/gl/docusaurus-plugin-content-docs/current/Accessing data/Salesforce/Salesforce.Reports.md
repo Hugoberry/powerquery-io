@@ -1,0 +1,30 @@
+---
+title: Salesforce.Reports
+---
+
+# Salesforce.Reports
+
+
+## Description
+
+Devolve os informes da conta do equipo de vendas.
+
+
+## Syntax
+
+```powerquery
+Salesforce.Reports(
+    optional loginUrl as text,
+    optional options as record
+) as table
+```
+
+
+## Details
+
+Devolve os informes da conta de Salesforce fornecidos nas credenciais. A conta conectarase a través do ambiente fornecido <code>loginUrl</code>. Se non se fornece ningún, a conta conectarase coa produción (https://login.salesforce.com). Pode fornecerse un parámetro de rexistro opcional, <code>options</code>, para especificar propiedades adicionais. O rexistro pode conter os seguintes campos:    <ul><li><code>ApiVersion</code> : A versi&#243;n da API de Salesforce que se usar&#225; para esta consulta. Se non se especifica, usarase a versi&#243;n 29.0 da API.</li><li><code>Timeout</code> : Duraci&#243;n que controla o tempo que se debe agardar antes de abandonar unha solicitude ao servidor. O valor predefinido &#233; espec&#237;fico da orixe.</li></ul>    
+
+
+
+## Category
+Accessing data

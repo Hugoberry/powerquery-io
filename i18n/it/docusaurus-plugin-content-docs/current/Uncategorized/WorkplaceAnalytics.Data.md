@@ -1,0 +1,40 @@
+---
+title: WorkplaceAnalytics.Data
+---
+
+# WorkplaceAnalytics.Data
+
+
+
+## Syntax
+
+```powerquery
+WorkplaceAnalytics.Data(
+    scopeId as text,
+    optional jobName as text,
+    optional jobId as text,
+    optional schemaType as text
+) as table
+```
+
+
+## Details
+
+Importa le metriche settimanali e i dati degli attributi da Workplace Analytics.
+
+
+## Examples
+
+### Example #1 
+Restituisce una tabella con attributi visibili e metriche settimanali per ogni dipendente misurato nella partizione.
+```powerquery
+VivaInsights.Data("5f142ea5-c08a-eb02-de68-41dccdefb141")
+```
+
+Result: 
+```powerquery
+#table({"Query1"}, {{"PersonId""}, {"PID"}})
+```
+
+
+
