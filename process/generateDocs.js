@@ -4,7 +4,7 @@ const path = require('path');
 
 // Load taxonomy and documentation data
 const taxonomyJson = require('./shared/_taxonomy.json');
-const functionsData = require('./shared/zh-tw.json');
+const functionsData = require('./shared/ca.json');
 
 // Function to create mapping from function names to top-level categories
 function createFunctionToCategoryMap(taxonomy) {
@@ -32,7 +32,7 @@ const functionToCategoryMap = createFunctionToCategoryMap(taxonomyJson);
 
 // Ensure the output directory exists
 // const outputDir = '../docs';
-const outputDir = '../i18n/zh-tw/docusaurus-plugin-content-docs/current';
+const outputDir = '../i18n/ca/docusaurus-plugin-content-docs/current';
 if (!fs.existsSync(outputDir)){
   fs.mkdirSync(outputDir, { recursive: true });
 }
@@ -46,6 +46,7 @@ function cleanCategoryName(categoryName) {
 function cleanContent(content) {
   return content
         .replace(/\r\n/g, '') // Remove \r\n
+        .replace(/\n\r/g,'') // problems with ca feed Odata.Feed
         .replace(/<br>/g, '<br />') // Replace <br> with <br />
         .replace(/\*/g, '\\*') // Escape asterisk
         .replace(/\{/g, '\\{') // Escape curly braces
