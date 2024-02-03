@@ -13,7 +13,7 @@ jobs:
 
       - name: Process cultures sequentially
         run: |
-          $cultures = @('es','pt','it','ja','ko','nl','pl','ru','tr','zh-cn','zh-tw')
+          $cultures = @('bg','ca','cs','da','el','fi','gl','hi','hu','id','kk','lt','lv','ms','no','pt-BR','ro','sk','sl','sk-Cyrl','sr-Latn','sv','th','uk','vi','zh-Hans','zh-Hant')
           $date = Get-Date -Format "yyyyMMdd"
           $branchName = "update_$date"
           $hasChanges = $false
