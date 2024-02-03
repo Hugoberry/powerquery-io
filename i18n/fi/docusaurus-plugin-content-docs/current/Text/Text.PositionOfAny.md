@@ -23,8 +23,7 @@ Text.PositionOfAny(
 
 ## Details
 
-Palauttaa minkä tahansa merkin ensimmäisen sijainnin luettelossa <code>characters</code>, joka löytyy kohteesta <code>text</code>.
-    Valinnaista parametria <code>occurrence</code> voidaan käyttää määrittämään palautettava esiintymäsijainti.
+Palauttaa minkä tahansa merkin ensimmäisen sijainnin luettelossa <code>characters</code>, joka löytyy kohteesta <code>text</code>.    Valinnaista parametria <code>occurrence</code> voidaan käyttää määrittämään palautettava esiintymäsijainti.
 
 
 ## Examples

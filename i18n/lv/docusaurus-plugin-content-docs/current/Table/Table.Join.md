@@ -27,13 +27,7 @@ Table.Join(
 
 ## Details
 
-Savieno rindas no <code>table1</code> ar rindām no <code>table2</code>, ņemot vērā vērtības <code>key1</code> (vērtībai <code>table1</code>) un <code>key2</code> (vērtībai <code>table2</code>) atlasīto atslēgas kolonnu vērtību vienlīdzību.<br />Pēc noklusējuma iekšējais savienojums tiek izveidots, tomēr var tikt ietverts papildu <code>joinKind</code>, lai norādītu savienojuma veidu. Ir pieejamas šādas opcijas:    <ul><li><code>JoinKind.Inner</code></li>
-<li><code>JoinKind.LeftOuter</code></li>
-<li><code>JoinKind.RightOuter</code></li>
-<li><code>JoinKind.FullOuter</code></li>
-<li><code>JoinKind.LeftAnti</code></li>
-<li><code>JoinKind.RightAnti</code></li>
-</ul><br />Var tikt iekļauta papildu <code>keyEqualityComparers</code> kopa, lai norādītu, kā ir jāveic atslēgas kolonnu salīdzināšana. Šobrīd šis parametrs ir paredzēts tikai iekšējai lietošanai.<br />
+Savieno rindas no <code>table1</code> ar rindām no <code>table2</code>, ņemot vērā vērtības <code>key1</code> (vērtībai <code>table1</code>) un <code>key2</code> (vērtībai <code>table2</code>) atlasīto atslēgas kolonnu vērtību vienlīdzību.<br />Pēc noklusējuma iekšējais savienojums tiek izveidots, tomēr var tikt ietverts papildu <code>joinKind</code>, lai norādītu savienojuma veidu. Ir pieejamas šādas opcijas:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Var tikt iekļauta papildu <code>keyEqualityComparers</code> kopa, lai norādītu, kā ir jāveic atslēgas kolonnu salīdzināšana. Šobrīd šis parametrs ir paredzēts tikai iekšējai lietošanai.<br />
 
 
 ## Examples

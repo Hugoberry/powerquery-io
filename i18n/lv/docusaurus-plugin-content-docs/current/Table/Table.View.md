@@ -22,10 +22,7 @@ Table.View(
 
 ## Details
 
-Atgriež <code>table</code> skatu, kur <code>handlers</code> norādītās funkcijas tiek izmantotas operācijas noklusējuma darbības vietā, kad operācija tiek lietota skatam.<br />Ja <code>table</code> ir norādīta, visas apdarinātāja funkcijas nav obligātas. Ja <code>table</code> nav norādīta, <code>GetType</code> un <code>GetRows</code> apdarinātāja funkcijas ir obligātas. Ja apdarinātāja funkcija operācijai nav norādīta, tās vietā vienumam <code>table</code> tiek lietota operācijas noklusējuma darbība (izņemot <code> GetExpression</code> gadījumu).<br />Apdarinātāja funkcijām jāatgriež vērtība, kas ir semantiski ekvivalenta rezultātam, kas tiek iegūts, lietojot operāciju vienumam <code>table</code> (<code> GetExpression</code> gadījumā— rezultāta skatam).<br />
-Ja apdarinātāja funkcija izraisa kļūdu, skatam tiek lietota operācijas noklusējuma darbība.<br />
-<code>Table.View</code> var izmantot, lai ieviestu datu avota locīšanu
-— Mvaicājumu pārveidošanu avotam atbilstošos vaicājumos (piemēram, lai izveidotu T-SQL priekšrakstus no Mvaicājumiem).<br />Detalizētu <code>Table.View</code> aprakstu skatiet publicētajā dokumentācijā.<br />
+Atgriež <code>table</code> skatu, kur <code>handlers</code> norādītās funkcijas tiek izmantotas operācijas noklusējuma darbības vietā, kad operācija tiek lietota skatam.<br />Ja <code>table</code> ir norādīta, visas apdarinātāja funkcijas nav obligātas. Ja <code>table</code> nav norādīta, <code>GetType</code> un <code>GetRows</code> apdarinātāja funkcijas ir obligātas. Ja apdarinātāja funkcija operācijai nav norādīta, tās vietā vienumam <code>table</code> tiek lietota operācijas noklusējuma darbība (izņemot <code> GetExpression</code> gadījumu).<br />Apdarinātāja funkcijām jāatgriež vērtība, kas ir semantiski ekvivalenta rezultātam, kas tiek iegūts, lietojot operāciju vienumam <code>table</code> (<code> GetExpression</code> gadījumā— rezultāta skatam).<br />Ja apdarinātāja funkcija izraisa kļūdu, skatam tiek lietota operācijas noklusējuma darbība.<br /><code>Table.View</code> var izmantot, lai ieviestu datu avota locīšanu— Mvaicājumu pārveidošanu avotam atbilstošos vaicājumos (piemēram, lai izveidotu T-SQL priekšrakstus no Mvaicājumiem).<br />Detalizētu <code>Table.View</code> aprakstu skatiet publicētajā dokumentācijā.<br />
 
 
 ## Examples

@@ -23,8 +23,7 @@ Text.PositionOfAny(
 
 ## Details
 
-<code>text</code> で見つかる、リスト <code>characters</code> 内のいずれかの文字の最初の位置を返します。
-    省略可能なパラメーター <code>occurrence</code> を使用すると、返される出現位置を指定できます。
+<code>text</code> で見つかる、リスト <code>characters</code> 内のいずれかの文字の最初の位置を返します。    省略可能なパラメーター <code>occurrence</code> を使用すると、返される出現位置を指定できます。
 
 
 ## Examples

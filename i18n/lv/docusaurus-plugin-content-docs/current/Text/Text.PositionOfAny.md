@@ -23,8 +23,7 @@ Text.PositionOfAny(
 
 ## Details
 
-Atgriež jebkuras sarakstā <code>characters</code> norādītās rakstzīmes pirmo pozīciju, kas atrodama <code>text</code>.
-    Var izmantot neobligātu parametru <code>occurrence</code>, lai norādītu atgriežamo gadījuma pozīciju.
+Atgriež jebkuras sarakstā <code>characters</code> norādītās rakstzīmes pirmo pozīciju, kas atrodama <code>text</code>.    Var izmantot neobligātu parametru <code>occurrence</code>, lai norādītu atgriežamo gadījuma pozīciju.
 
 
 ## Examples

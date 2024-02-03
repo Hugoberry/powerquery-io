@@ -23,8 +23,7 @@ Text.PositionOfAny(
 
 ## Details
 
-Zwraca pierwszą pozycję dowolnego znaku na liście <code>characters</code> znajdującego się w klasie <code>text</code>.
-    Opcjonalny parametr <code>occurrence</code> może służyć do określenia pozycji wystąpienia do zwrócenia.
+Zwraca pierwszą pozycję dowolnego znaku na liście <code>characters</code> znajdującego się w klasie <code>text</code>.    Opcjonalny parametr <code>occurrence</code> może służyć do określenia pozycji wystąpienia do zwrócenia.
 
 
 ## Examples

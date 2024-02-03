@@ -27,13 +27,7 @@ Table.Join(
 
 ## Details
 
-Liittää kohteen <code>table1</code> rivit ja kohteen <code>table2</code> rivit yhteen perustuen kohteen <code>key1</code> (kohteelle <code>table1</code>) ja <code>key2</code> (kohteelle <code>table2</code>) valitsemien avainsarakkeiden arvojen samanlaisuuden perusteella.<br />Oletusarvon mukaan suoritetaan sisäliitos, mutta voidaan sisällyttää valinnainen <code>joinKind</code> määrittämään liitostyyppi. Vaihtoehtoja ovat esimerkiksi seuraavat:    <ul><li><code>JoinKind.Inner</code></li>
-<li><code>JoinKind.LeftOuter</code></li>
-<li><code>JoinKind.RightOuter</code></li>
-<li><code>JoinKind.FullOuter</code></li>
-<li><code>JoinKind.LeftAnti</code></li>
-<li><code>JoinKind.RightAnti</code></li>
-</ul><br />Valinnainen kohteen <code>keyEqualityComparers</code> joukko voidaan sisällyttää määrittämään, miten avainsarakkeita verrataan. Tämä parametri on tällä hetkellä tarkoitettu vain sisäiseen käyttöön.<br />
+Liittää kohteen <code>table1</code> rivit ja kohteen <code>table2</code> rivit yhteen perustuen kohteen <code>key1</code> (kohteelle <code>table1</code>) ja <code>key2</code> (kohteelle <code>table2</code>) valitsemien avainsarakkeiden arvojen samanlaisuuden perusteella.<br />Oletusarvon mukaan suoritetaan sisäliitos, mutta voidaan sisällyttää valinnainen <code>joinKind</code> määrittämään liitostyyppi. Vaihtoehtoja ovat esimerkiksi seuraavat:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Valinnainen kohteen <code>keyEqualityComparers</code> joukko voidaan sisällyttää määrittämään, miten avainsarakkeita verrataan. Tämä parametri on tällä hetkellä tarkoitettu vain sisäiseen käyttöön.<br />
 
 
 ## Examples

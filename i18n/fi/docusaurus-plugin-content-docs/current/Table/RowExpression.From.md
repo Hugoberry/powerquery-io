@@ -21,9 +21,7 @@ RowExpression.From(
 
 ## Details
 
- Palauttaa kohteen <code>function</code>rungolle abstraktin syntaksipuun (AST) normalisoituna <i>rivilausekkeeksi</i>:<ul> <li>Funktion on oltava yksiargumenttinen lambda.</li> <li>Kaikki viittaukset funktion parametriin korvataan kohteella <code>RowExpression.Row</code>.</li> 
-<li>Kaikki viittaukset sarakkeisiin korvataan kohteella <code>RowExpression.Column(<i>columnName</i>)</code>.</li> <li>AST yksinkertaistetaan niin, että se sisältää vain seuraavia solmutyyppejä: <ul> <li><code>Constant</code></li> <li><code>Invocation</code></li> <li><code>Unary</code></li> <li><code>Binary</code></li> <li><code>Jos</code></li> <li><code>FieldAccess</code>.</li> 
-</ul> </li></ul><br /><br />Tuloksena on virhe, jos rivilausekkeen AST-kohdetta ei voi palauttaa kohteelle <code>function</code>.<br />
+ Palauttaa kohteen <code>function</code>rungolle abstraktin syntaksipuun (AST) normalisoituna <i>rivilausekkeeksi</i>:<ul> <li>Funktion on oltava yksiargumenttinen lambda.</li> <li>Kaikki viittaukset funktion parametriin korvataan kohteella <code>RowExpression.Row</code>.</li> <li>Kaikki viittaukset sarakkeisiin korvataan kohteella <code>RowExpression.Column(<i>columnName</i>)</code>.</li> <li>AST yksinkertaistetaan niin, että se sisältää vain seuraavia solmutyyppejä: <ul> <li><code>Constant</code></li> <li><code>Invocation</code></li> <li><code>Unary</code></li> <li><code>Binary</code></li> <li><code>Jos</code></li> <li><code>FieldAccess</code>.</li> </ul> </li></ul><br /><br />Tuloksena on virhe, jos rivilausekkeen AST-kohdetta ei voi palauttaa kohteelle <code>function</code>.<br />
 
 
 ## Examples

@@ -23,8 +23,7 @@ Text.PositionOfAny(
 
 ## Details
 
-Retourneert de eerste positie van een willekeurig teken in de lijst <code>characters</code>, die is gevonden in <code>text</code>.
-    Een optionele parameter<code>occurrence</code> kan worden gebruikt om op te geven welke exemplaarpositie moet worden geretourneerd.
+Retourneert de eerste positie van een willekeurig teken in de lijst <code>characters</code>, die is gevonden in <code>text</code>.    Een optionele parameter<code>occurrence</code> kan worden gebruikt om op te geven welke exemplaarpositie moet worden geretourneerd.
 
 
 ## Examples

@@ -23,8 +23,7 @@ Text.PositionOfAny(
 
 ## Details
 
-Vráti prvú pozíciu ľubovoľného znaku v zozname <code>characters</code> nájdenú v texte <code>text</code>.
-    Na zadanie pozície výskytu, ktorá sa má vrátiť, možno použiť voliteľný parameter <code>occurrence</code>.
+Vráti prvú pozíciu ľubovoľného znaku v zozname <code>characters</code> nájdenú v texte <code>text</code>.    Na zadanie pozície výskytu, ktorá sa má vrátiť, možno použiť voliteľný parameter <code>occurrence</code>.
 
 
 ## Examples

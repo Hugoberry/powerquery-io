@@ -22,10 +22,7 @@ Parquet.Document(
 
 ## Details
 
-Zwraca zawartość dokumentu Parquet jako tabelę. Dostępne opcje to:
-    <ul>
-    <li> <code>TypeMapping</code>: wartość tekstowa kontrolująca domyślne mapowanie typów podczas odczytywania i zapisywania plików. Wartością domyślną jest null i próbuje zachować w stopniu wierności na tyle odpowiadającym oryginalnemu typu jak to jest możliwe. Wartość „Sql” spowoduje uzyskanie wyników najbardziej zgodnych z plikiem Sql Server.</li>
-    </ul>
+Zwraca zawartość dokumentu Parquet jako tabelę. Dostępne opcje to:    <ul>    <li> <code>TypeMapping</code>: wartość tekstowa kontrolująca domyślne mapowanie typów podczas odczytywania i zapisywania plików. Wartością domyślną jest null i próbuje zachować w stopniu wierności na tyle odpowiadającym oryginalnemu typu jak to jest możliwe. Wartość „Sql” spowoduje uzyskanie wyników najbardziej zgodnych z plikiem Sql Server.</li>    </ul>
 
 
 

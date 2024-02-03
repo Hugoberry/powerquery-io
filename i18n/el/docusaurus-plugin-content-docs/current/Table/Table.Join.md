@@ -27,13 +27,7 @@ Table.Join(
 
 ## Details
 
-Συνενώνει τις σειρές του <code>table1</code> με τις σειρές του <code>table2</code> με βάση την ισότητα των τιμών των βασικών στηλών που επιλέγονται από <code>key1</code> (για <code>table1</code>) και <code>key2</code> (για <code>table2</code>).<br />Από προεπιλογή, εκτελείται μια εσωτερική ένωση, ωστόσο μπορεί να συμπεριληφθεί ένα προαιρετικό <code>joinKind</code> για να καθοριστεί ο τύπος σύνδεσης. Οι επιλογές περιλαμβάνουν:    <ul><li><code>JoinKind.Inner</code></li>
-<li><code>JoinKind.LeftOuter</code></li>
-<li><code>JoinKind.RightOuter</code></li>
-<li><code>JoinKind.FullOuter</code></li>
-<li><code>JoinKind.LeftAnti</code></li>
-<li><code>JoinKind.RightAnti</code></li>
-</ul><br />Μπορεί να συμπεριληφθεί ένα προαιρετικό σύνολο <code>keyEqualityComparers</code> για να καθορίσετε τον τρόπο σύγκρισης των βασικών στηλών. Αυτή η παράμετρος προορίζεται προς το παρόν μόνο για εσωτερική χρήση.<br />
+Συνενώνει τις σειρές του <code>table1</code> με τις σειρές του <code>table2</code> με βάση την ισότητα των τιμών των βασικών στηλών που επιλέγονται από <code>key1</code> (για <code>table1</code>) και <code>key2</code> (για <code>table2</code>).<br />Από προεπιλογή, εκτελείται μια εσωτερική ένωση, ωστόσο μπορεί να συμπεριληφθεί ένα προαιρετικό <code>joinKind</code> για να καθοριστεί ο τύπος σύνδεσης. Οι επιλογές περιλαμβάνουν:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Μπορεί να συμπεριληφθεί ένα προαιρετικό σύνολο <code>keyEqualityComparers</code> για να καθορίσετε τον τρόπο σύγκρισης των βασικών στηλών. Αυτή η παράμετρος προορίζεται προς το παρόν μόνο για εσωτερική χρήση.<br />
 
 
 ## Examples

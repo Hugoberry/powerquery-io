@@ -21,8 +21,7 @@ ItemExpression.From(
 
 ## Details
 
- Palauttaa kohteen <code>function</code> rungolle abstraktin syntaksipuun (AST) normalisoituna <i>kohdelausekkeeksi</i>:<ul> <li>Funktion on oltava yksiargumenttinen lambda.</li> <li>Kaikki viittaukset funktiob parametriin korvataan kohteella <code>ItemExpression.Item</code>.</li> 
-<li>AST yksinkertaistetaan niin, että se sisältää vain seuraavia solmutyyppejä: <ul>      <li><code>Constant</code></li>      <li><code>Invocation</code></li>      <li><code>Unary</code></li>      <li><code>Binary</code></li>      <li><code>If</code></li>      <li><code>FieldAccess</code>.</li> </ul> </li></ul><br /><br />Tuloksena on virhe, jos kohdelausekkeen AST-kohdetta ei voi palauttaa kohteelle <code>function</code>.<br />
+ Palauttaa kohteen <code>function</code> rungolle abstraktin syntaksipuun (AST) normalisoituna <i>kohdelausekkeeksi</i>:<ul> <li>Funktion on oltava yksiargumenttinen lambda.</li> <li>Kaikki viittaukset funktiob parametriin korvataan kohteella <code>ItemExpression.Item</code>.</li> <li>AST yksinkertaistetaan niin, että se sisältää vain seuraavia solmutyyppejä: <ul>      <li><code>Constant</code></li>      <li><code>Invocation</code></li>      <li><code>Unary</code></li>      <li><code>Binary</code></li>      <li><code>If</code></li>      <li><code>FieldAccess</code>.</li> </ul> </li></ul><br /><br />Tuloksena on virhe, jos kohdelausekkeen AST-kohdetta ei voi palauttaa kohteelle <code>function</code>.<br />
 
 
 ## Examples

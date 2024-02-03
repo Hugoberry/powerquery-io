@@ -27,13 +27,7 @@ Table.Join(
 
 ## Details
 
-<code>table1</code> の行と <code>table2</code> の行を、(<code>table1</code> の) <code>key1</code> と (<code>table2</code> の) <code>key2</code>で選択されたキー列の値の等値に基づいて結合します。<br />既定では内部結合が実行されますが、省略可能な <code>joinKind</code> を含めると、結合の種類を指定できます。オプションは次のとおりです:    <ul><li><code>JoinKind.Inner</code></li>
-<li><code>JoinKind.LeftOuter</code></li>
-<li><code>JoinKind.RightOuter</code></li>
-<li><code>JoinKind.FullOuter</code></li>
-<li><code>JoinKind.LeftAnti</code></li>
-<li><code>JoinKind.RightAnti</code></li>
-</ul><br /><code>keyEqualityComparers</code> の省略可能な設定を含めると、キー列の比較方法を指定できます。このパラメーターは現在、内部での使用のみが想定されています。<br />
+<code>table1</code> の行と <code>table2</code> の行を、(<code>table1</code> の) <code>key1</code> と (<code>table2</code> の) <code>key2</code>で選択されたキー列の値の等値に基づいて結合します。<br />既定では内部結合が実行されますが、省略可能な <code>joinKind</code> を含めると、結合の種類を指定できます。オプションは次のとおりです:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br /><code>keyEqualityComparers</code> の省略可能な設定を含めると、キー列の比較方法を指定できます。このパラメーターは現在、内部での使用のみが想定されています。<br />
 
 
 ## Examples

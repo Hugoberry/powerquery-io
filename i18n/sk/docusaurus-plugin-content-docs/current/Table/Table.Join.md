@@ -27,13 +27,7 @@ Table.Join(
 
 ## Details
 
-Spojí riadky tabuľky <code>table1</code> s riadkami tabuľky <code>table2</code> na základe rovnosti hodnôt kľúčových stĺpcov vybratých pomocou funkcie <code>key1</code> (pre tabuľku <code>table1</code>) a <code>key2</code> (pre tabuľku <code>table2</code>).<br />Predvolene sa vykoná vnútorné spojenie, no možno zahrnúť voliteľný parameter <code>joinKind</code> a určiť tak typ spojenia. Možnosti zahŕňajú:    <ul><li><code>JoinKind.Inner</code></li>
-<li><code>JoinKind.LeftOuter</code></li>
-<li><code>JoinKind.RightOuter</code></li>
-<li><code>JoinKind.FullOuter</code></li>
-<li><code>JoinKind.LeftAnti</code></li>
-<li><code>JoinKind.RightAnti</code></li>
-</ul><br />Možno zahrnúť voliteľnú súpravu <code>keyEqualityComparers</code> na určenie spôsobu porovnávania kľúčových stĺpcov. Tento parameter je v súčasnosti určený iba na interné použitie.<br />
+Spojí riadky tabuľky <code>table1</code> s riadkami tabuľky <code>table2</code> na základe rovnosti hodnôt kľúčových stĺpcov vybratých pomocou funkcie <code>key1</code> (pre tabuľku <code>table1</code>) a <code>key2</code> (pre tabuľku <code>table2</code>).<br />Predvolene sa vykoná vnútorné spojenie, no možno zahrnúť voliteľný parameter <code>joinKind</code> a určiť tak typ spojenia. Možnosti zahŕňajú:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Možno zahrnúť voliteľnú súpravu <code>keyEqualityComparers</code> na určenie spôsobu porovnávania kľúčových stĺpcov. Tento parameter je v súčasnosti určený iba na interné použitie.<br />
 
 
 ## Examples

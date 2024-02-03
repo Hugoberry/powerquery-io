@@ -4,7 +4,7 @@ const path = require('path');
 
 // Load taxonomy and documentation data
 const taxonomyJson = require('./shared/_taxonomy.json');
-const functionsData = require('./shared/ca.json');
+const functionsData = require('./shared/ru.json');
 
 // Function to create mapping from function names to top-level categories
 function createFunctionToCategoryMap(taxonomy) {
@@ -32,7 +32,7 @@ const functionToCategoryMap = createFunctionToCategoryMap(taxonomyJson);
 
 // Ensure the output directory exists
 // const outputDir = '../docs';
-const outputDir = '../i18n/ca/docusaurus-plugin-content-docs/current';
+const outputDir = '../i18n/ru/docusaurus-plugin-content-docs/current';
 if (!fs.existsSync(outputDir)){
   fs.mkdirSync(outputDir, { recursive: true });
 }
@@ -45,15 +45,22 @@ function cleanCategoryName(categoryName) {
 // Function to apply content cleaning rules
 function cleanContent(content) {
   return content
-        .replace(/\r\n/g, '') // Remove \r\n
-        .replace(/\n\r/g,'') // problems with ca feed Odata.Feed
-        .replace(/<br>/g, '<br />') // Replace <br> with <br />
-        .replace(/\*/g, '\\*') // Escape asterisk
-        .replace(/\{/g, '\\{') // Escape curly braces
-        .replace(/<p>/g,'') // Remove <p>
-        .replace(/«|»/g,'"')
-        .replace(/<\/p>/g,'<br />') // repalce </p> with <br />
-        .replace(/(?<!<\/li>\s*)<\/ul>\s*$/,'</li></ul>');// If the string ends with "</ul>" but not preceded by "</li>", replace
+  .replace(/\r\n/g, '') // Remove \r\n
+  .replace(/\n\r/g,'') // problems with ca feed Odata.Feed
+  .replace(/\n/g,'') // problems with cs feed Number.Round
+  .replace(/\r/g,'') // problems with cs feed Number.Round
+  .replace(/<br>/g, '<br />') // Replace <br> with <br />
+  .replace(/\*/g, '\\*') // Escape asterisk
+  .replace(/\{/g, '\\{') // Escape curly braces
+  .replace(/<p>/g,'') // Remove <p>
+  .replace(/«|»/g,'"')
+  .replace(/<\/p>/g,'<br />') // repalce </p> with <br />
+  .replace(/<\/ul>>/g,'</ul>') // fix lv locale
+  .replace(/\\<table>/g,'<table>') // fix nl locale
+  .replace(/(?<!<\/li>\s*)<\/ul>\s*$/,'</li></ul>')// If the string ends with "</ul>" but not preceded by "</li>", replace
+  .replace(/<li>  <li>/g,'<li>')// fix pl locale 
+  .replace(/0< \/code>/g,'0</code>')// fix pl locale 
+  .replace(/λογικής. <\/li>    <\/ul>/g,'λογικής.    </ul>'); //fix el feed
 }
 
 functionsData.functions.forEach(function(fn) {

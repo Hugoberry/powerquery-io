@@ -27,13 +27,7 @@ Table.Join(
 
 ## Details
 
-Spojí řádky tabulky <code>table1</code> s řádky tabulky <code>table2</code> na základě rovnosti hodnot klíčových sloupců vybraných funkcí <code>key1</code> (pro tabulku <code>table1</code>) a <code>key2</code> (pro tabulku <code>table2</code>).<br />Ve výchozím nastavení se provede vnitřní spojení, volitelně se však dá zahrnout parametr <code>joinKind</code>, který určuje typ spojení. Možnosti:    <ul><li><code>JoinKind.Inner</code></li>
-<li><code>JoinKind.LeftOuter</code></li>
-<li><code>JoinKind.RightOuter</code></li>
-<li><code>JoinKind.FullOuter</code></li>
-<li><code>JoinKind.LeftAnti</code></li>
-<li><code>JoinKind.RightAnti</code></li>
-</ul><br />Zahrnutá může být volitelná sada <code>keyEqualityComparers</code> pro určení způsobu porovnávání klíčových sloupců. Tento parametr je určený jenom pro interní použití.<br />
+Spojí řádky tabulky <code>table1</code> s řádky tabulky <code>table2</code> na základě rovnosti hodnot klíčových sloupců vybraných funkcí <code>key1</code> (pro tabulku <code>table1</code>) a <code>key2</code> (pro tabulku <code>table2</code>).<br />Ve výchozím nastavení se provede vnitřní spojení, volitelně se však dá zahrnout parametr <code>joinKind</code>, který určuje typ spojení. Možnosti:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Zahrnutá může být volitelná sada <code>keyEqualityComparers</code> pro určení způsobu porovnávání klíčových sloupců. Tento parametr je určený jenom pro interní použití.<br />
 
 
 ## Examples
