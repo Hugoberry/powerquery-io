@@ -1,0 +1,30 @@
+---
+title: Cube.Transform
+---
+
+# Cube.Transform
+
+
+## Description
+
+Stosuje listę funkcji modułu.
+
+
+## Syntax
+
+```powerquery
+Cube.Transform(
+    cube as table,
+    transforms as list
+) as table
+```
+
+
+## Details
+
+Stosuje listę funkcji modułu <code>transforms</code> w module <code>cube</code>.
+
+
+
+## Category
+Cube

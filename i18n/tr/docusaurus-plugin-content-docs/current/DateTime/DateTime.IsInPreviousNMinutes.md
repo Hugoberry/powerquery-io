@@ -1,0 +1,45 @@
+---
+title: DateTime.IsInPreviousNMinutes
+---
+
+# DateTime.IsInPreviousNMinutes
+
+
+## Description
+
+Bu tarih saatin, sistemdeki geçerli tarih ve saat ile belirlendiği şekilde, önceki birkaç dakika içinde olup olmadığını gösterir. Geçerli dakika içinde olan bir değer geçirildiğinde bu işlevin false döndürdüğünü unutmayın.
+
+
+## Syntax
+
+```powerquery
+DateTime.IsInPreviousNMinutes(
+    dateTime as any,
+    minutes as number
+) as logical
+```
+
+
+## Details
+
+Verilen <code>dateTime</code> tarih saat değerinin, sistemdeki geçerli tarih ve saat tarafından belirlendiği şekilde, önceki birkaç dakika içinde olup olmadığını gösterir. Geçerli dakika içinde olan bir değer geçirildiğinde bu işlevin false döndürdüğünü unutmayın.      <ul>      <li><code>dateTime</code>: Değerlendirilecek <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      <li><code>minutes</code>: Dakika sayısı.</li>      </ul>
+
+
+## Examples
+
+### Example #1 
+Geçerli sistem saatinden önceki dakikanın, önceki iki dakika içinde olup olmadığını belirler.
+```powerquery
+DateTime.IsInPreviousNMinutes(DateTime.FixedLocalNow() - #duration(0, 0, 2, 0), 2)
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+
+
+## Category
+DateTime

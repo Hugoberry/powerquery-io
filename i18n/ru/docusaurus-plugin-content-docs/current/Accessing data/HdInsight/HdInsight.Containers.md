@@ -1,0 +1,29 @@
+---
+title: HdInsight.Containers
+---
+
+# HdInsight.Containers
+
+
+## Description
+
+Возвращает навигационную таблицу, содержащую контейнеры, найденные в указанной учетной записи в хранилище Azure.
+
+
+## Syntax
+
+```powerquery
+HdInsight.Containers(
+    account as text
+) as table
+```
+
+
+## Details
+
+Возвращает навигационную таблицу, содержащую одну строку для каждого контейнера, найденного по URL-адресу учетной записи <code>account</code> в хранилище Azure. Каждая строка содержит ссылку на BLOB-объекты в контейнере.
+
+
+
+## Category
+Accessing data

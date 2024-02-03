@@ -1,0 +1,58 @@
+---
+title: List.ContainsAll
+---
+
+# List.ContainsAll
+
+
+## Description
+
+Cho biết nơi một danh sách bao gồm tất cả các giá trị trong một danh sách khác.
+
+
+## Syntax
+
+```powerquery
+List.ContainsAll(
+    list as list,
+    values as list,
+    optional equationCriteria as any
+) as logical
+```
+
+
+## Details
+
+Cho biết danh sách <code>list</code> có chứa tất cả các giá trị trong một danh sách khác, <code>values</code>, hay không.    Trả về true nếu tìm thấy giá trị trong danh sách, false nếu ngược lại. Có thể chỉ định giá trị tiêu chí phương trình tùy chọn, <code>equationCriteria</code>, để kiểm soát việc kiểm tra đẳng thức. 
+
+
+## Examples
+
+### Example #1 
+Tìm ra danh sách \{1, 2, 3, 4, 5} có chứa 3 và 4 hay không.
+```powerquery
+List.ContainsAll({1, 2, 3, 4, 5}, {3, 4})
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+### Example #2 
+Tìm ra danh sách \{1, 2, 3, 4, 5} có chứa 5 và 6 hay không.
+```powerquery
+List.ContainsAll({1, 2, 3, 4, 5}, {5, 6})
+```
+
+Result: 
+```powerquery
+false
+```
+
+
+
+
+## Category
+List.Membership functions

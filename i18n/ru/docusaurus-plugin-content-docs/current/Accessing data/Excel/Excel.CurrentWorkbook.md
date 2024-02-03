@@ -1,0 +1,29 @@
+---
+title: Excel.CurrentWorkbook
+---
+
+# Excel.CurrentWorkbook
+
+
+## Description
+
+Возвращает содержимое текущей книги Excel.
+
+
+## Syntax
+
+```powerquery
+Excel.CurrentWorkbook(
+
+) as table
+```
+
+
+## Details
+
+Возвращает содержимое текущей книги Excel. Возвращает таблицы, именованные диапазоны и динамические массивы. Не возвращает листы, в отличие от <code>Excel.Workbook</code>.
+
+
+
+## Category
+Accessing data

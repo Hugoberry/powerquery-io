@@ -1,0 +1,30 @@
+---
+title: Cube.AttributeMemberProperty
+---
+
+# Cube.AttributeMemberProperty
+
+
+## Description
+
+Returnerar en egenskap för ett dimensionsattribut.
+
+
+## Syntax
+
+```powerquery
+Cube.AttributeMemberProperty(
+    attribute as any,
+    propertyName as text
+) as any
+```
+
+
+## Details
+
+Returnerar egenskapen <code>propertyName</code> för dimensionsattributet <code>attribute</code>.
+
+
+
+## Category
+Cube

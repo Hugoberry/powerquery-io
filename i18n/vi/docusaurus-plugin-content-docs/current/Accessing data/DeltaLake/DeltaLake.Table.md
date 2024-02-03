@@ -1,0 +1,30 @@
+---
+title: DeltaLake.Table
+---
+
+# DeltaLake.Table
+
+
+## Description
+
+Trả về nội dung của bảng Delta Lake.
+
+
+## Syntax
+
+```powerquery
+DeltaLake.Table(
+    directory as table,
+    optional options as record
+) as any
+```
+
+
+## Details
+
+Trả về nội dung của bảng Delta Lake.
+
+
+
+## Category
+Đang truy cập vào dữ liệu
