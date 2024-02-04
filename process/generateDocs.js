@@ -4,7 +4,7 @@ const path = require('path');
 
 // Load taxonomy and documentation data
 const taxonomyJson = require('./shared/_taxonomy.json');
-const functionsData = require('./shared/sr-Latn.json');
+const functionsData = require('./shared/de.json');
 
 // Function to create mapping from function names to top-level categories
 function createFunctionToCategoryMap(taxonomy) {
@@ -32,7 +32,7 @@ const functionToCategoryMap = createFunctionToCategoryMap(taxonomyJson);
 
 // Ensure the output directory exists
 // const outputDir = '../docs';
-const outputDir = '../i18n/sr-Latn/docusaurus-plugin-content-docs/current';
+const outputDir = '../i18n/de/docusaurus-plugin-content-docs/current';
 if (!fs.existsSync(outputDir)){
   fs.mkdirSync(outputDir, { recursive: true });
 }
@@ -61,6 +61,7 @@ function cleanContent(content) {
   .replace(/(?<!<\/li>\s*)<\/ul>\s*$/,'</li></ul>')// If the string ends with "</ul>" but not preceded by "</li>", replace
   .replace(/<li>  <li>/g,'<li>')// fix pl locale 
   .replace(/0< \/code>/g,'0</code>')// fix pl locale 
+  .replace(/eins erhöht. <\/li>.<\/li><\/ul>/g,'eins erhöht. </li></ul>') // fix de locale
   .replace(/<code>list<\/code>.<\/li>.      <\/li><\/ul>/g,'<code>list</code>.      </li></ul>')// fix ru locale 
   .replace(/λογικής. <\/li>    <\/ul>/g,'λογικής.    </ul>'); //fix el feed
 }

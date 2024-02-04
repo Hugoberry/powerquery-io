@@ -1,0 +1,27 @@
+---
+title: DataLake.Files
+---
+
+# DataLake.Files
+
+
+## Description
+
+Geben Sie die URL Ihres Azure Data Lake Storage-Kontos ein.
+
+
+## Syntax
+
+```powerquery
+DataLake.Files(
+    url as text,
+    optional options as record
+) as table
+```
+
+
+## Details
+
+Hiermit wird eine Tabelle aus Azure Data Lake Storage Gen1 zurückgegeben, die jeweils eine Zeile für jede Datei enthält, die unter der Adresse <code>URL</code> gefunden wird. Jede Zeile enthält die Eigenschaften der Datei und einen Link zu deren Inhalt.
+
+
