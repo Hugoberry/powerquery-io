@@ -27,13 +27,7 @@ Table.Join(
 
 ## Details
 
-<code>key1</code>(<code>table1</code> के लिए) और <code>key2</code>(<code>table2</code> के लिए) द्वारा चयनित कुंजी कॉलम के मानों की समानता के आधार पर <code>table1</code> की पंक्तियों को <code>table2</code>की पंक्तियों के साथ जोड़ता है. <br />डिफ़ॉल्ट रूप से, एक आंतरिक जुड़ाव किया जाता है, हालांकि जुड़ाव के प्रकार को निर्दिष्ट करने के लिए एक वैकल्पिक<code>joinKind</code> शामिल किया जा सकता है. विकल्पों में शामिल हैं:      <ul><li><code>JoinKind.Inner</code></li>
-<li><code>JoinKind.LeftOuter</code></li>
-<li><code>JoinKind.RightOuter</code></li>
-<li><code>JoinKind.FullOuter</code></li>
-<li><code>JoinKind.LeftAnti</code></li>
-<li><code>JoinKind.RightAnti</code></li>
-</ul> <br />कुंजी कॉलम की तुलना करने का तरीका निर्दिष्ट करने के लिए <code>keyEqualityComparers</code> का एक वैकल्पिक सेट शामिल किया जा सकता है. यह पैरामीटर वर्तमान में केवल आंतरिक उपयोग के लिए है. <br />
+<code>key1</code>(<code>table1</code> के लिए) और <code>key2</code>(<code>table2</code> के लिए) द्वारा चयनित कुंजी कॉलम के मानों की समानता के आधार पर <code>table1</code> की पंक्तियों को <code>table2</code>की पंक्तियों के साथ जोड़ता है. <br />डिफ़ॉल्ट रूप से, एक आंतरिक जुड़ाव किया जाता है, हालांकि जुड़ाव के प्रकार को निर्दिष्ट करने के लिए एक वैकल्पिक<code>joinKind</code> शामिल किया जा सकता है. विकल्पों में शामिल हैं:      <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul> <br />कुंजी कॉलम की तुलना करने का तरीका निर्दिष्ट करने के लिए <code>keyEqualityComparers</code> का एक वैकल्पिक सेट शामिल किया जा सकता है. यह पैरामीटर वर्तमान में केवल आंतरिक उपयोग के लिए है. <br />
 
 
 ## Examples
