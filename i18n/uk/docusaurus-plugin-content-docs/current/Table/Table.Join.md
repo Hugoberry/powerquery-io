@@ -27,13 +27,7 @@ Table.Join(
 
 ## Details
 
-Дає змогу об’єднати рядки таблиць "<code>table1</code>" і "<code>table2</code>" на основі рівності значень у вибраних стовпцях ключів ("<code>key1</code>" для "<code>table1</code>" та "<code>key2</code>" для "<code>table2</code>").<br />За замовчуванням виконується внутрішнє об’єднання, але тип об’єднання можна вказати, включивши додатковий параметр <code>joinKind</code>. До параметрів належать:    <ul><li><code>JoinKind.Inner</code></li>
-<li><code>JoinKind.LeftOuter</code></li>
-<li><code>JoinKind.RightOuter</code></li>
-<li><code>JoinKind.FullOuter</code></li>
-<li><code>JoinKind.LeftAnti</code></li>
-<li><code>JoinKind.RightAnti</code></li>
-</ul><br />Можна включити додатковий набір параметрів <code>keyEqualityComparers</code>, щоб указати, як порівнювати стовпці ключів. Зараз цей параметр призначений лише для внутрішнього використання.<br />
+Дає змогу об’єднати рядки таблиць "<code>table1</code>" і "<code>table2</code>" на основі рівності значень у вибраних стовпцях ключів ("<code>key1</code>" для "<code>table1</code>" та "<code>key2</code>" для "<code>table2</code>").<br />За замовчуванням виконується внутрішнє об’єднання, але тип об’єднання можна вказати, включивши додатковий параметр <code>joinKind</code>. До параметрів належать:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Можна включити додатковий набір параметрів <code>keyEqualityComparers</code>, щоб указати, як порівнювати стовпці ключів. Зараз цей параметр призначений лише для внутрішнього використання.<br />
 
 
 ## Examples

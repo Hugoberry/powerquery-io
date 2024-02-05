@@ -4,7 +4,7 @@ const path = require('path');
 
 // Load taxonomy and documentation data
 const taxonomyJson = require('./shared/_taxonomy.json');
-const functionsData = require('./shared/ja.json');
+const functionsData = require('./shared/zh-Hant.json');
 
 // Function to create mapping from function names to top-level categories
 function createFunctionToCategoryMap(taxonomy) {
@@ -32,7 +32,7 @@ const functionToCategoryMap = createFunctionToCategoryMap(taxonomyJson);
 
 // Ensure the output directory exists
 // const outputDir = '../docs';
-const outputDir = '../i18n/ja/docusaurus-plugin-content-docs/current';
+const outputDir = '../i18n/zh-Hant/docusaurus-plugin-content-docs/current';
 if (!fs.existsSync(outputDir)){
   fs.mkdirSync(outputDir, { recursive: true });
 }

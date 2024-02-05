@@ -23,8 +23,7 @@ Text.PositionOfAny(
 
 ## Details
 
-傳回清單 <code>characters</code> 中在 <code>text</code> 中找到的任何字元的第一個位置。
-    選擇性參數 <code>occurrence</code> 可用於指定要傳回的發生位置。
+傳回清單 <code>characters</code> 中在 <code>text</code> 中找到的任何字元的第一個位置。    選擇性參數 <code>occurrence</code> 可用於指定要傳回的發生位置。
 
 
 ## Examples

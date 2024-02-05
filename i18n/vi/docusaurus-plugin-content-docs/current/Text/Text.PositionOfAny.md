@@ -23,8 +23,7 @@ Text.PositionOfAny(
 
 ## Details
 
-Trả về vị trí đầu tiên của ký tự bất kỳ trong danh sách <code>characters</code> tìm được trong <code>text</code>.
-    Có thể sử dụng tham số tùy chọn <code>occurrence</code> để chỉ định trả về vị trí xuất hiện nào.
+Trả về vị trí đầu tiên của ký tự bất kỳ trong danh sách <code>characters</code> tìm được trong <code>text</code>.    Có thể sử dụng tham số tùy chọn <code>occurrence</code> để chỉ định trả về vị trí xuất hiện nào.
 
 
 ## Examples

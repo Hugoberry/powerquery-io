@@ -23,8 +23,7 @@ Table.RemoveColumns(
 
 ## Details
 
-Elimină <code>columns</code> specificate din <code>table</code> furnizate. 
-Dacă coloana specificată nu există, se declanșează o eroare dacă parametrul opțional <code>missingField</code> specifică un comportament alternativ (de exemplu, <code>MissingField.UseNull</code> sau <code>MissingField.Ignore</code>).
+Elimină <code>columns</code> specificate din <code>table</code> furnizate. Dacă coloana specificată nu există, se declanșează o eroare dacă parametrul opțional <code>missingField</code> specifică un comportament alternativ (de exemplu, <code>MissingField.UseNull</code> sau <code>MissingField.Ignore</code>).
 
 
 ## Examples

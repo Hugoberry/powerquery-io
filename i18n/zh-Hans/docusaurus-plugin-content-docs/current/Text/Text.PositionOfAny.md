@@ -23,8 +23,7 @@ Text.PositionOfAny(
 
 ## Details
 
-返回在 <code>text</code> 中找到的列表 <code>characters</code>中任何字符的第一个位置。
-   可选参数 <code>occurrence</code> 可用于指定要返回的出现位置。
+返回在 <code>text</code> 中找到的列表 <code>characters</code>中任何字符的第一个位置。   可选参数 <code>occurrence</code> 可用于指定要返回的出现位置。
 
 
 ## Examples

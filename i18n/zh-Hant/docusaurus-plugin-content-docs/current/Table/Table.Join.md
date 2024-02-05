@@ -27,13 +27,7 @@ Table.Join(
 
 ## Details
 
-根據 <code>key1</code> (代表 <code>table1</code>) 和 <code>key2</code> (代表 <code>table2</code>) 所選取之索引鍵資料行的值是否相等，聯結 <code>table1</code> 的資料列與 <code>table2</code> 的資料列。<br />根據預設，會執行內部聯結，但可能會納入選擇性的 <code>joinKind</code> 來指定聯結類型。選項包括:    <ul><li><code>JoinKind.Inner</code></li>
-<li><code>JoinKind.LeftOuter</code></li>
-<li><code>JoinKind.RightOuter</code></li>
-<li><code>JoinKind.FullOuter</code></li>
-<li><code>JoinKind.LeftAnti</code></li>
-<li><code>JoinKind.RightAnti</code></li>
-</ul><br />可以選擇納入一組 <code>keyEqualityComparers</code> 以指定如何比較索引鍵資料行。此參數目前僅供內部使用。<br />
+根據 <code>key1</code> (代表 <code>table1</code>) 和 <code>key2</code> (代表 <code>table2</code>) 所選取之索引鍵資料行的值是否相等，聯結 <code>table1</code> 的資料列與 <code>table2</code> 的資料列。<br />根據預設，會執行內部聯結，但可能會納入選擇性的 <code>joinKind</code> 來指定聯結類型。選項包括:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />可以選擇納入一組 <code>keyEqualityComparers</code> 以指定如何比較索引鍵資料行。此參數目前僅供內部使用。<br />
 
 
 ## Examples

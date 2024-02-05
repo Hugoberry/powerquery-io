@@ -27,13 +27,7 @@ Table.Join(
 
 ## Details
 
-Unește rândurile <code>table1</code> cu rândurile <code>table2</code> în funcție de o egalitatea valorilor din coloanele cheie selectate după <code>key1</code> (pentru <code>table1</code>) și <code>key2</code> (pentru <code>table2</code>).<br />În mod implicit, este efectuată o unire internă; totuși, se poate include opțional și un <code>joinKind</code> pentru a specifica tipul de unire. Opțiunile includ:    <ul><li><code>JoinKind.Inner</code></li>
-<li><code>JoinKind.LeftOuter</code></li>
-<li><code>JoinKind.RightOuter</code></li>
-<li><code>JoinKind.FullOuter</code></li>
-<li><code>JoinKind.LeftAnti</code></li>
-<li><code>JoinKind.RightAnti</code></li>
-</ul><br />Se poate include un set opțional <code>keyEqualityComparers</code> pentru a specifica modul de comparare a coloanelor cheie. Acest parametru este destinat în prezent doar pentru uz intern.<br />
+Unește rândurile <code>table1</code> cu rândurile <code>table2</code> în funcție de o egalitatea valorilor din coloanele cheie selectate după <code>key1</code> (pentru <code>table1</code>) și <code>key2</code> (pentru <code>table2</code>).<br />În mod implicit, este efectuată o unire internă; totuși, se poate include opțional și un <code>joinKind</code> pentru a specifica tipul de unire. Opțiunile includ:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Se poate include un set opțional <code>keyEqualityComparers</code> pentru a specifica modul de comparare a coloanelor cheie. Acest parametru este destinat în prezent doar pentru uz intern.<br />
 
 
 ## Examples

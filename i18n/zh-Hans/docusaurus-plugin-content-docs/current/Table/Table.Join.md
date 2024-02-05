@@ -27,13 +27,7 @@ Table.Join(
 
 ## Details
 
-根据由 <code>table1</code> (针对 <code>table2</code>)和 <code>key1</code> (针对 <code>table1</code>)选择的键列值的等同性联接 <code>key2</code> 的行与 <code>table2</code> 的行。<br />默认执行内联接，但可包含可选的 <code>joinKind</code> 来指定联接类型。选项包括:    <ul><li><code>JoinKind.Inner</code></li>
-<li><code>JoinKind.LeftOuter</code></li>
-<li><code>JoinKind.RightOuter</code></li>
-<li><code>JoinKind.FullOuter</code></li>
-<li><code>JoinKind.LeftAnti</code></li>
-<li><code>JoinKind.RightAnti</code></li>
-</ul><br />可包含 <code>keyEqualityComparers</code> 的可选集来指定如何比较键列。此参数目前仅适用于内部使用。<br />
+根据由 <code>table1</code> (针对 <code>table2</code>)和 <code>key1</code> (针对 <code>table1</code>)选择的键列值的等同性联接 <code>key2</code> 的行与 <code>table2</code> 的行。<br />默认执行内联接，但可包含可选的 <code>joinKind</code> 来指定联接类型。选项包括:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />可包含 <code>keyEqualityComparers</code> 的可选集来指定如何比较键列。此参数目前仅适用于内部使用。<br />
 
 
 ## Examples

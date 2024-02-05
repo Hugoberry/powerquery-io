@@ -23,8 +23,7 @@ Text.PositionOfAny(
 
 ## Details
 
-Returnează prima poziție a oricărui caracter din lista <code>characters</code> care este găsită în <code>text</code>.
-    Se poate utiliza un parametru opțional <code>occurrence</code> pentru a specifica ce poziție de apariție să se returneze.
+Returnează prima poziție a oricărui caracter din lista <code>characters</code> care este găsită în <code>text</code>.    Se poate utiliza un parametru opțional <code>occurrence</code> pentru a specifica ce poziție de apariție să se returneze.
 
 
 ## Examples
