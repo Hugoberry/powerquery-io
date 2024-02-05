@@ -31,25 +31,49 @@ Converts a list, <code>list</code> into a table by applying the optional splitti
 ## Examples
 
 ### Example #1 
-Create a table from the list with the column named &#34;Letters&#34; using the default splitter.
+Create a table from a list using the default splitter.
 ```powerquery
-Table.FromList({"a", "b", "c", "d"}, null, {"Letters"})
+Table.FromList(
+    {"a,apple", "b,ball", "c,cookie", "d,door"},
+    null,
+    {"Letter", "Example Word"}
+)
 ```
 
 Result: 
 ```powerquery
 Table.FromRecords({
-    [Letters = "a"],
-    [Letters = "b"],
-    [Letters = "c"],
-    [Letters = "d"]
+    [Letter = "a", #"Example Word" = "apple"],
+    [Letter = "b", #"Example Word" = "ball"],
+    [Letter = "c", #"Example Word" = "cookie"],
+    [Letter = "d", #"Example Word" = "door"]
 })
-
 ```
 
 
 ### Example #2 
-Create a table from the list using the Record.FieldValues splitter with the resulting table having &#34;CustomerID&#34; and &#34;Name&#34; as column names.
+Create a table from a list using a custom splitter.
+```powerquery
+Table.FromList(
+    {"a,apple", "b,ball", "c,cookie", "d,door"},
+    Splitter.SplitByNothing(),
+    {"Letter and Example Word"}
+)
+```
+
+Result: 
+```powerquery
+Table.FromRecords({
+    [#"Letter and Example Word" = "a,apple"],
+    [#"Letter and Example Word" = "b,ball"],
+    [#"Letter and Example Word" = "c,cookie"],
+    [#"Letter and Example Word" = "d,door"]
+})
+```
+
+
+### Example #3 
+Create a table from the list using the Record.FieldValues splitter.
 ```powerquery
 Table.FromList(
     {

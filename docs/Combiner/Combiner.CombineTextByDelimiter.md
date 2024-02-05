@@ -7,7 +7,7 @@ title: Combiner.CombineTextByDelimiter
 
 ## Description
 
-Returns a function that combines a list of text values into a single text value using the specified delimiter.
+Returns a function that combines a list of text using the specified delimiter.
 
 
 ## Syntax

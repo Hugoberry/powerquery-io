@@ -27,13 +27,7 @@ Table.Join(
 
 ## Details
 
-Joins the rows of <code>table1</code> with the rows of <code>table2</code> based on the equality of the values of the key columns selected by <code>key1</code> (for <code>table1</code>) and <code>key2</code> (for <code>table2</code>).<br />By default, an inner join is performed, however an optional <code>joinKind</code> may be included to specify the type of join. Options include:    <ul><li><code>JoinKind.Inner</code></li>
-<li><code>JoinKind.LeftOuter</code></li>
-<li><code>JoinKind.RightOuter</code></li>
-<li><code>JoinKind.FullOuter</code></li>
-<li><code>JoinKind.LeftAnti</code></li>
-<li><code>JoinKind.RightAnti</code></li>
-</ul><br />An optional set of <code>keyEqualityComparers</code> may be included to specify how to compare the key columns. This parameter is currently intended for internal use only.<br />
+Joins the rows of <code>table1</code> with the rows of <code>table2</code> based on the equality of the values of the key columns selected by <code>key1</code> (for <code>table1</code>) and <code>key2</code> (for <code>table2</code>).<br />By default, an inner join is performed, however an optional <code>joinKind</code> may be included to specify the type of join. Options include:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />An optional set of <code>keyEqualityComparers</code> may be included to specify how to compare the key columns. This parameter is currently intended for internal use only.<br />
 
 
 ## Examples

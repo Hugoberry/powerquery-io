@@ -7,7 +7,7 @@ title: Combiner.CombineTextByEachDelimiter
 
 ## Description
 
-Returns a function that combines a list of text into a single text using each specified delimiter in sequence.
+Returns a function that combines a list of text using a sequence of delimiters.
 
 
 ## Syntax
@@ -22,7 +22,22 @@ Combiner.CombineTextByEachDelimiter(
 
 ## Details
 
-Returns a function that combines a list of text into a single text using each specified delimiter in sequence.
+Returns a function that combines a list of text values into a single text value using a sequence of delimiters.
+
+
+## Examples
+
+### Example #1 
+Combine a list of text values using a sequence of delimiters.
+```powerquery
+Combiner.CombineTextByEachDelimiter({"=", "+"})({"a", "b", "c"})
+```
+
+Result: 
+```powerquery
+"a=b+c"
+```
+
 
 
 

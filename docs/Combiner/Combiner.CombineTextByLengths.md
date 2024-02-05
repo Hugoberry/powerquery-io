@@ -7,7 +7,7 @@ title: Combiner.CombineTextByLengths
 
 ## Description
 
-Returns a function that combines a list of text into a single text using the specified lengths.
+Returns a function that combines a list of text using the specified lengths.
 
 
 ## Syntax
@@ -22,7 +22,34 @@ Combiner.CombineTextByLengths(
 
 ## Details
 
-Returns a function that combines a list of text into a single text using the specified lengths.
+Returns a function that combines a list of text values into a single text value using the specified lengths.
+
+
+## Examples
+
+### Example #1 
+Combine a list of text values by extracting the specified numbers of characters from each input value.
+```powerquery
+Combiner.CombineTextByLengths({1, 2, 3})({"aaa", "bbb", "ccc"})
+```
+
+Result: 
+```powerquery
+"abbccc"
+```
+
+
+### Example #2 
+Combine a list of text values by extracting the specified numbers of characters, after first pre-filling the result with the template text.
+```powerquery
+Combiner.CombineTextByLengths({1, 2, 3}, "*********")({"aaa", "bbb", "ccc"})
+```
+
+Result: 
+```powerquery
+"abbccc***"
+```
+
 
 
 
