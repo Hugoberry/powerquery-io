@@ -22,10 +22,7 @@ Parquet.Document(
 
 ## Details
 
-Restituisce i contenuti del documento Parquet come tabella. Le opzioni includono:
-    <ul>
-    <li> <code>TypeMapping</code> : un valore di testo che controlla il mapping del tipo predefinito durante la lettura e la scrittura di file. Il valore predefinito è Null e cerca di essere il più fedele possibile al tipo originale. Un valore di "Sql" produrrà risultati più compatibili con SQL Server.</li>
-    </ul>
+Restituisce i contenuti del documento Parquet come tabella. Le opzioni includono:    <ul>    <li> <code>TypeMapping</code> : un valore di testo che controlla il mapping del tipo predefinito durante la lettura e la scrittura di file. Il valore predefinito è Null e cerca di essere il più fedele possibile al tipo originale. Un valore di "Sql" produrrà risultati più compatibili con SQL Server.</li>    </ul>
 
 
 

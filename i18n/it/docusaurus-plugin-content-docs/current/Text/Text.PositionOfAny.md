@@ -23,8 +23,7 @@ Text.PositionOfAny(
 
 ## Details
 
-Restituisce la prima posizione di qualsiasi carattere nell'elenco <code>characters</code> presente in <code>text</code>.
-    È possibile utilizzare un parametro facoltativo <code>occurrence</code> per specificare la posizione dell'occorrenza da restituire.
+Restituisce la prima posizione di qualsiasi carattere nell'elenco <code>characters</code> presente in <code>text</code>.    È possibile utilizzare un parametro facoltativo <code>occurrence</code> per specificare la posizione dell'occorrenza da restituire.
 
 
 ## Examples
