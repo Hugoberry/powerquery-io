@@ -23,8 +23,7 @@ Text.PositionOfAny(
 
 ## Details
 
-Devuelve la primera posición de cualquier carácter de la lista <code>characters</code> que se encuentre en <code>text</code>.
-    Es posible usar un parámetro opcional <code>occurrence</code> para especificar la posición de repetición que se vaya a devolver.
+Devuelve la primera posición de cualquier carácter de la lista <code>characters</code> que se encuentre en <code>text</code>.    Es posible usar un parámetro opcional <code>occurrence</code> para especificar la posición de repetición que se vaya a devolver.
 
 
 ## Examples
