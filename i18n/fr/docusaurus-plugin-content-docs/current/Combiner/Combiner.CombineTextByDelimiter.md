@@ -7,7 +7,7 @@ title: Combiner.CombineTextByDelimiter
 
 ## Description
 
-Renvoie une fonction qui combine une liste de valeurs textuelles en une seule valeur textuelle en utilisant le délimiteur spécifié.
+Renvoie une fonction qui combine une liste de texte à l&#39;aide du délimiteur spécifié.
 
 
 ## Syntax

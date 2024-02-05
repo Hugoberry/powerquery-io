@@ -11,7 +11,8 @@ title: AmazonAthena.Databases
 ```powerquery
 AmazonAthena.Databases(
     DSN as text,
-    optional role as text
+    optional role as text,
+    optional options as record
 ) as table
 ```
 

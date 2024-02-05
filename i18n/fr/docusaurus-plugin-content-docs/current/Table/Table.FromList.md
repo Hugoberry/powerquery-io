@@ -31,25 +31,49 @@ Convertit une liste <code>list</code> en table en appliquant la fonction de frac
 ## Examples
 
 ### Example #1 
-Crée une table à partir de la liste avec la colonne nommée &#34; Letters &#34;, en utilisant le séparateur par défaut.
+Créez une table à partir d’une liste à l’aide du séparateur par défaut.
 ```powerquery
-Table.FromList({"a", "b", "c", "d"}, null, {"Letters"})
+Table.FromList(
+    {"a,apple", "b,ball", "c,cookie", "d,door"},
+    null,
+    {"Letter", "Example Word"}
+)
 ```
 
 Result: 
 ```powerquery
 Table.FromRecords({
-    [Letters = "a"],
-    [Letters = "b"],
-    [Letters = "c"],
-    [Letters = "d"]
+    [Letter = "a", #"Example Word" = "apple"],
+    [Letter = "b", #"Example Word" = "ball"],
+    [Letter = "c", #"Example Word" = "cookie"],
+    [Letter = "d", #"Example Word" = "door"]
 })
-
 ```
 
 
 ### Example #2 
-Crée une table à partir de la liste en utilisant le séparateur Record.FieldValues, la table résultante ayant &#34; CustomerID &#34; et &#34; Name &#34; comme noms de colonne.
+Créez une table à partir d’une liste à l’aide d’un séparateur personnalisé.
+```powerquery
+Table.FromList(
+    {"a,apple", "b,ball", "c,cookie", "d,door"},
+    Splitter.SplitByNothing(),
+    {"Letter and Example Word"}
+)
+```
+
+Result: 
+```powerquery
+Table.FromRecords({
+    [#"Letter and Example Word" = "a,apple"],
+    [#"Letter and Example Word" = "b,ball"],
+    [#"Letter and Example Word" = "c,cookie"],
+    [#"Letter and Example Word" = "d,door"]
+})
+```
+
+
+### Example #3 
+Créez une table à partir de la liste à l’aide du séparateur Record.FieldValues.
 ```powerquery
 Table.FromList(
     {

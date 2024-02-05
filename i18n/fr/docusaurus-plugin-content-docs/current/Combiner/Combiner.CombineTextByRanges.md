@@ -7,7 +7,7 @@ title: Combiner.CombineTextByRanges
 
 ## Description
 
-Retourne une fonction qui associe une liste de textes dans un seul fichier texte à l&#39;aide des positions et longueurs spécifiées.
+Renvoie une fonction qui combine une liste de texte en utilisant les positions et longueurs spécifiées.
 
 
 ## Syntax
@@ -22,7 +22,22 @@ Combiner.CombineTextByRanges(
 
 ## Details
 
-Retourne une fonction qui combine une liste de texte en un seul texte à l’aide des positions et longueurs spécifiées. Une longueur null indique que la valeur de texte entière doit être incluse.
+Renvoie une fonction qui combine une liste de valeurs de texte en une seule valeur de texte en utilisant les positions et longueurs de sortie spécifiées. Une longueur nulle indique que la totalité de la valeur du texte doit être incluse.
+
+
+## Examples
+
+### Example #1 
+Combinez une liste de valeurs de texte en utilisant les positions et longueurs de sortie spécifiées.
+```powerquery
+Combiner.CombineTextByRanges({{0, 1}, {3, 2}, {6, null}})({"abc", "def", "ghijkl"})
+```
+
+Result: 
+```powerquery
+"a  de ghijkl"
+```
+
 
 
 

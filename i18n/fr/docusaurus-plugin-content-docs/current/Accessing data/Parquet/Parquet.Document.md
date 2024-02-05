@@ -22,10 +22,7 @@ Parquet.Document(
 
 ## Details
 
-Renvoie le contenu du document Parquet sous forme de tableau. Les options incluent :
-    <ul>
-    <li> <code>TypeMapping</code> : une valeur de texte qui contrôle le mappage de type par défaut lors de la lecture et de l'écriture de fichiers. La valeur par défaut est null et tente de conserver autant de fidélité que possible au type d'origine. Une valeur de "Sql" produira des résultats plus compatibles avec SQL Server.</li>
-    </ul>
+Renvoie le contenu du document Parquet sous forme de tableau. Les options incluent :    <ul>    <li> <code>TypeMapping</code> : une valeur de texte qui contrôle le mappage de type par défaut lors de la lecture et de l'écriture de fichiers. La valeur par défaut est null et tente de conserver autant de fidélité que possible au type d'origine. Une valeur de "Sql" produira des résultats plus compatibles avec SQL Server.</li>    </ul>
 
 
 
