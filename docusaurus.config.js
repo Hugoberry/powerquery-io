@@ -46,6 +46,10 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        googleAnalytics: {
+          trackingID: 'UA-127401670-1',
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
@@ -58,7 +62,7 @@ const config = {
       navbar: {
         title: 'PowerQuery.io',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'PowerQuery.io Logo',
           src: 'img/logo.svg',
         },
         items: [
