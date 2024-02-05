@@ -56,6 +56,12 @@ const config = {
           ignorePatterns: ['/tags/**'],
           filename: 'sitemap.xml',
         },
+        algolia:{
+          appId: '3PZMY1RNB7',
+          apiKey: 'd7142d2354ff38d3603c4c193a8bdfc7',
+          indexName: 'powerquery',
+          contextualSearch: true,
+        }
       }),
     ],
   ],
