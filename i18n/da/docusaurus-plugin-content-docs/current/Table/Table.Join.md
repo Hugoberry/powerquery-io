@@ -27,13 +27,7 @@ Table.Join(
 
 ## Details
 
-Joinforbinder rækkerne i <code>table1</code> med rækkerne i <code>table2</code> på baggrund af ligheden mellem værdier i de nøglekolonner, der er valgt af <code>key1</code> (for <code>table1</code>) og <code>key2</code> (for <code>table2</code>).<br />Der oprettes som standard en indre joinforbindelse, men der kan inkluderes en valgfri <code>joinKind</code> for at angive typen af joinforbindelse. Indstillinger omfatter:    <ul><li><code>JoinKind.Inner</code></li>
-<li><code>JoinKind.LeftOuter</code></li>
-<li><code>JoinKind.RightOuter</code></li>
-<li><code>JoinKind.FullOuter</code></li>
-<li><code>JoinKind.LeftAnti</code></li>
-<li><code>JoinKind.RightAnti</code></li>
-</ul><br />Et valgfrit sæt af <code>keyEqualityComparers</code> kan inkluderes for at angive, hvordan nøglekolonnerne skal sammenlignes. Denne parameter er i øjeblikket kun tiltænkt intern brug.<br />
+Joinforbinder rækkerne i <code>table1</code> med rækkerne i <code>table2</code> på baggrund af ligheden mellem værdier i de nøglekolonner, der er valgt af <code>key1</code> (for <code>table1</code>) og <code>key2</code> (for <code>table2</code>).<br />Der oprettes som standard en indre joinforbindelse, men der kan inkluderes en valgfri <code>joinKind</code> for at angive typen af joinforbindelse. Indstillinger omfatter:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Et valgfrit sæt af <code>keyEqualityComparers</code> kan inkluderes for at angive, hvordan nøglekolonnerne skal sammenlignes. Denne parameter er i øjeblikket kun tiltænkt intern brug.<br />
 
 
 ## Examples

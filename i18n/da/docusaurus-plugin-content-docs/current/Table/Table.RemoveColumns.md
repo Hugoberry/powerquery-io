@@ -23,8 +23,7 @@ Table.RemoveColumns(
 
 ## Details
 
-Fjerner den angivne <code>columns</code> fra den udleverede <code>table</code> . 
-Hvis den angivne kolonne ikke findes, udløses der en fejl, medmindre den valgfri parameter <code>missingField</code> angiver en alternativ funktionsmåde (f.eks. <code>MissingField.UseNull</code> eller <code>MissingField.Ignore</code>).
+Fjerner den angivne <code>columns</code> fra den udleverede <code>table</code> . Hvis den angivne kolonne ikke findes, udløses der en fejl, medmindre den valgfri parameter <code>missingField</code> angiver en alternativ funktionsmåde (f.eks. <code>MissingField.UseNull</code> eller <code>MissingField.Ignore</code>).
 
 
 ## Examples

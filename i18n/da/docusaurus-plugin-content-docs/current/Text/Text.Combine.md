@@ -22,8 +22,7 @@ Text.Combine(
 
 ## Details
 
-Returnerer resultatet af at kombinere listen over tekstværdier <code>texts</code>til en enkelt tekstværdi. Alle værdier af typen <code>null</code>, der findes i <code>texts</code>, ignoreres. 
-Der kan angives en valgfri <code>separator</code> , der bruges i den endelige kombinerede tekst.
+Returnerer resultatet af at kombinere listen over tekstværdier <code>texts</code>til en enkelt tekstværdi. Alle værdier af typen <code>null</code>, der findes i <code>texts</code>, ignoreres. Der kan angives en valgfri <code>separator</code> , der bruges i den endelige kombinerede tekst.
 
 
 ## Examples
