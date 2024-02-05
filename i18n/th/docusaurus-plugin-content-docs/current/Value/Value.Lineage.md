@@ -1,0 +1,29 @@
+---
+title: Value.Lineage
+---
+
+# Value.Lineage
+
+
+## Description
+
+ฟังก์ชันนี้มีไว้สําหรับการใช้งานภายในเท่านั้น
+
+
+## Syntax
+
+```powerquery
+Value.Lineage(
+    value as any
+) as any
+```
+
+
+## Details
+
+ฟังก์ชันนี้มีไว้สําหรับการใช้งานภายในเท่านั้น
+
+
+
+## Category
+Expression
