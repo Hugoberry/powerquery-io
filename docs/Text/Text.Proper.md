@@ -5,8 +5,6 @@ title: Text.Proper
 # Text.Proper
 
 
-## Description
-
 Capitalizes the first letter of each word.
 
 
@@ -20,7 +18,7 @@ Text.Proper(
 ```
 
 
-## Details
+## Remarks
 
 Returns the result of capitalizing only the first letter of each word in text value <code>text</code>. All other letters are returned in lowercase. An optional <code>culture</code> may also be provided (for example, "en-US").
 

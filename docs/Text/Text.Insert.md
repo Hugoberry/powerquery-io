@@ -5,8 +5,6 @@ title: Text.Insert
 # Text.Insert
 
 
-## Description
-
 Inserts one text value into another at a given position.
 
 
@@ -21,7 +19,7 @@ Text.Insert(
 ```
 
 
-## Details
+## Remarks
 
 Returns the result of inserting text value <code>newText</code> into the text value <code>text</code> at position <code>offset</code>. Positions start at number 0.
 

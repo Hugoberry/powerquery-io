@@ -5,8 +5,6 @@ title: MailChimp.Instance
 # MailChimp.Instance
 
 
-## Description
-
 Returns raw response results from a MailChimp API endpoint.
 
 
@@ -19,7 +17,7 @@ MailChimp.Instance(
 ```
 
 
-## Details
+## Remarks
 
 Makes a call to the MailChimp API and returns the raw response.
 

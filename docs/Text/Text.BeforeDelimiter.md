@@ -5,8 +5,6 @@ title: Text.BeforeDelimiter
 # Text.BeforeDelimiter
 
 
-## Description
-
 Text.BeforeDelimiter
 
 
@@ -21,7 +19,7 @@ Text.BeforeDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Returns the portion of <code>text</code> before the specified <code>delimiter</code>.    An optional numeric <code>index</code> indicates which occurrence of the <code>delimiter</code> should be considered.    An optional list <code>index</code> indicates which occurrence of the <code>delimiter</code> should be considered, as well as whether indexing should be done from the start or end of the input.
 

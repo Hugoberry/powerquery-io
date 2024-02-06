@@ -18,7 +18,7 @@ Indexima.Database(
 ```
 
 
-## Details
+## Remarks
 
 Connection to Indexima Data Hub
 

@@ -5,8 +5,6 @@ title: DateTimeZone.FromText
 # DateTimeZone.FromText
 
 
-## Description
-
 Creates a datetimezone from local, universal, and custom datetimezone formats.
 
 
@@ -20,7 +18,7 @@ DateTimeZone.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Creates a <code>datetimezone</code> value from a textual representation, <code>text</code>. An optional <code>record</code> parameter, <code>options</code>, may be provided to specify additional properties. The <code>record</code> can contain the following fields:<ul>   <li><code>Format</code>: A <code>text</code> value indicating the format to use. For more details, go to https://go.microsoft.com/fwlink/?linkid=2180104 and https://go.microsoft.com/fwlink/?linkid=2180105. Omitting this field or providing <code>null</code> will result in parsing the date using a best effort.</li>   <li><code>Culture</code>: When <code>Format</code> is not null, <code>Culture</code> controls some format specifiers. For example, in <code>"en-US"</code> <code>"MMM"</code> is <code>"Jan", "Feb", "Mar", ...</code>, while in <code>"ru-RU"</code> <code>"MMM"</code> is <code>"янв", "фев", "мар", ...</code>. When <code>Format</code> is <code>null</code>, <code>Culture</code> controls the default format to use. When <code>Culture</code> is <code>null</code> or omitted, <code>Culture.Current</code> is used.</li></ul>To support legacy workflows, <code>options</code> may also be a text value. This has the same behavior as if <code>options</code><code> = [Format = null, Culture = <code>options</code>]</code>.
 

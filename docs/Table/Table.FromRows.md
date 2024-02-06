@@ -5,8 +5,6 @@ title: Table.FromRows
 # Table.FromRows
 
 
-## Description
-
 Creates a table from a list of row values and optional columns
 
 
@@ -20,7 +18,7 @@ Table.FromRows(
 ```
 
 
-## Details
+## Remarks
 
 Creates a table from the list <code>rows</code> where each element of the list is an inner list that contains the column values for a single row.  An optional list of column names, a table type, or a number of columns could be provided for <code>columns</code>.
 

@@ -16,7 +16,7 @@ Zucchetti.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Returns contents of VisualQueries (vqr), reports or functions published by the Zucchetti HR software
 

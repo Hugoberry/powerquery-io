@@ -5,8 +5,6 @@ title: Duration.Seconds
 # Duration.Seconds
 
 
-## Description
-
 Returns the seconds portion of a duration.
 
 
@@ -19,7 +17,7 @@ Duration.Seconds(
 ```
 
 
-## Details
+## Remarks
 
 Returns the seconds portion of <code>duration</code>.
 

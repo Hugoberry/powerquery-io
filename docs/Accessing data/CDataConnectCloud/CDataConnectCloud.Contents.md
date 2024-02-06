@@ -15,7 +15,7 @@ CDataConnectCloud.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table with relevant data from the connected data source in CData Connect Cloud.
 

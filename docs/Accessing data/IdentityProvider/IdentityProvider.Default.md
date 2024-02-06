@@ -5,8 +5,6 @@ title: IdentityProvider.Default
 # IdentityProvider.Default
 
 
-## Description
-
 The default identity provider for the current host.
 
 
@@ -19,7 +17,7 @@ IdentityProvider.Default(
 ```
 
 
-## Details
+## Remarks
 
 The default identity provider for the current host.
 

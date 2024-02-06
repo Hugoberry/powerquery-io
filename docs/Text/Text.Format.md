@@ -5,8 +5,6 @@ title: Text.Format
 # Text.Format
 
 
-## Description
-
 Returns formatted text from a format string and arguments.
 
 
@@ -21,7 +19,7 @@ Text.Format(
 ```
 
 
-## Details
+## Remarks
 
 Returns formatted text that is created by applying <code>arguments</code> from a list or record to a format string <code>formatString</code>. An optional <code>culture</code> may also be provided (for example, "en-US").
 

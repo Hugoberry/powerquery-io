@@ -5,8 +5,6 @@ title: List.RemoveItems
 # List.RemoveItems
 
 
-## Description
-
 Removes items from list1 that are present in list.
 
 
@@ -20,7 +18,7 @@ List.RemoveItems(
 ```
 
 
-## Details
+## Remarks
 
 Removes all occurrences of the given values in the <code>list2</code> from <code>list1</code>. If the values in <code>list2</code> don't exist in <code>list1</code>, the original list is returned.
 

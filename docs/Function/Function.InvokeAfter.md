@@ -5,8 +5,6 @@ title: Function.InvokeAfter
 # Function.InvokeAfter
 
 
-## Description
-
 Invokes the given function after the specified duration has passed.
 
 
@@ -20,7 +18,7 @@ Function.InvokeAfter(
 ```
 
 
-## Details
+## Remarks
 
 Returns the result of invoking <code>function</code> after duration <code>delay</code> has passed.
 

@@ -5,8 +5,6 @@ title: Table.PromoteHeaders
 # Table.PromoteHeaders
 
 
-## Description
-
 Promotes the first row of values as the new column headers (i.e. column names).
 
 
@@ -20,7 +18,7 @@ Table.PromoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Promotes the first row of values as the new column headers (i.e. column names). By default, only text or number values are promoted to headers. Valid options:    <div>      <code>PromoteAllScalars</code> : If set to <code>true</code>, all the scalar values in the first row are promoted to headers using the <code>Culture</code>, if specified (or current document locale).    For values that cannot be converted to text, a default column name will be used.    </div>    <div>    <code>Culture</code> : A culture name specifying the culture for the data.    </div>  
 

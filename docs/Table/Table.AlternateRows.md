@@ -5,8 +5,6 @@ title: Table.AlternateRows
 # Table.AlternateRows
 
 
-## Description
-
 Keeps the initial offset then alternates taking and skipping the following rows.
 
 
@@ -22,7 +20,7 @@ Table.AlternateRows(
 ```
 
 
-## Details
+## Remarks
 
 Keeps the initial offset then alternates taking and skipping the following rows.    <ul>       <li><code>table</code>: The input table.</li>       <li><code>offset</code>: The number of rows to keep before starting iterations.</li>       <li><code>skip</code>: The number of rows to remove in each iteration.</li>       <li><code>take</code>: The number of rows to keep in each iteration.</li>    </ul>    
 

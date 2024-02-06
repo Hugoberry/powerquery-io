@@ -5,8 +5,6 @@ title: Text.Trim
 # Text.Trim
 
 
-## Description
-
 Removes all leading and trailing whitespace.
 
 
@@ -20,7 +18,7 @@ Text.Trim(
 ```
 
 
-## Details
+## Remarks
 
 Returns the result of removing all leading and trailing whitespace from text value <code>text</code>.
 

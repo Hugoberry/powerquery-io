@@ -5,8 +5,6 @@ title: Expression.Evaluate
 # Expression.Evaluate
 
 
-## Description
-
 Returns the result of evaluating an M expression.
 
 
@@ -20,7 +18,7 @@ Expression.Evaluate(
 ```
 
 
-## Details
+## Remarks
 
 Returns the result of evaluating an M expression <code>document</code>, with the available identifiers that can be referenced defined by <code>environment</code>.
 

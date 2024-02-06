@@ -19,7 +19,7 @@ WorkforceDimensions.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Configuration to access OAuth server as well as default date range settigns.
 

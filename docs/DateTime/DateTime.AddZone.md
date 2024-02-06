@@ -5,8 +5,6 @@ title: DateTime.AddZone
 # DateTime.AddZone
 
 
-## Description
-
 Adds timezone information to the datetime value.
 
 
@@ -21,7 +19,7 @@ DateTime.AddZone(
 ```
 
 
-## Details
+## Remarks
 
 Adds timezone information to the <code>dateTime</code> value. The timezone information includes <code>timezoneHours</code> and optionally <code>timezoneMinutes</code>, which specify the desired offset from UTC time.
 

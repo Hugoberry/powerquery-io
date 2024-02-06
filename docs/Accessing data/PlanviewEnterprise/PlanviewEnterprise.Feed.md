@@ -5,8 +5,6 @@ title: PlanviewEnterprise.Feed
 # PlanviewEnterprise.Feed
 
 
-## Description
-
 Enter the URL and database name associated with your Planview Portfolios account.
 
 
@@ -20,7 +18,7 @@ PlanviewEnterprise.Feed(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table with Planview Portfolios data.
 

@@ -5,8 +5,6 @@ title: Binary.ViewError
 # Binary.ViewError
 
 
-## Description
-
 Creates a modified error record which won&#39;t trigger a fallback when thrown by a handler defined on a view (via Binary.View).
 
 
@@ -19,7 +17,7 @@ Binary.ViewError(
 ```
 
 
-## Details
+## Remarks
 
 Creates a modified error record from <code>errorRecord</code> which won't trigger a fallback when thrown by a handler defined on a view (via Binary.View).
 

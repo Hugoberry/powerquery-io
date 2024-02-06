@@ -5,8 +5,6 @@ title: List.ConformToPageReader
 # List.ConformToPageReader
 
 
-## Description
-
 This function is intended for internal use only.
 
 
@@ -20,7 +18,7 @@ List.ConformToPageReader(
 ```
 
 
-## Details
+## Remarks
 
 This function is intended for internal use only.
 

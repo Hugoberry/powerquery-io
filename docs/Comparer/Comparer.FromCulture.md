@@ -5,8 +5,6 @@ title: Comparer.FromCulture
 # Comparer.FromCulture
 
 
-## Description
-
 Returns a comparer function based on the specified culture and case-sensitivity.
 
 
@@ -20,7 +18,7 @@ Comparer.FromCulture(
 ```
 
 
-## Details
+## Remarks
 
 Returns a comparer function that uses the <code>culture</code> and the case-sensitivity specified by <code>ignoreCase</code> to perform comparisons.<br />      <br />      A comparer function accepts two arguments and returns -1, 0, or 1 based on whether the first value is less than, equal to, or greater than the second.<br />      <br />      The default value for <code>ignoreCase</code> is false. The <code>culture</code> should be one of the locales supported by the .NET framework (for example, "en-US").    
 

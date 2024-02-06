@@ -5,8 +5,6 @@ title: Table.FromRecords
 # Table.FromRecords
 
 
-## Description
-
 Converts a list of records into a table.
 
 
@@ -21,7 +19,7 @@ Table.FromRecords(
 ```
 
 
-## Details
+## Remarks
 
 Converts <code>records</code>, a list of records, into a table.
 

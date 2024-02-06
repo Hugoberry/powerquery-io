@@ -5,8 +5,6 @@ title: Date.StartOfYear
 # Date.StartOfYear
 
 
-## Description
-
 Returns the start of the year.
 
 
@@ -19,7 +17,7 @@ Date.StartOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Returns the start of the year that contains <code>dateTime</code>.    <code>dateTime</code> must be a <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> value.
 

@@ -5,8 +5,6 @@ title: Number.Asin
 # Number.Asin
 
 
-## Description
-
 Returns the arcsine of the number.
 
 
@@ -19,7 +17,7 @@ Number.Asin(
 ```
 
 
-## Details
+## Remarks
 
 Returns the arcsine of <code>number</code>.
 

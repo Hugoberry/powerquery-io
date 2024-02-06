@@ -16,7 +16,7 @@ MarkLogicODBC.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Returns the list of tables returned from the ODBC driver
 

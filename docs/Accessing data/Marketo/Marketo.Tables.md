@@ -5,8 +5,6 @@ title: Marketo.Tables
 # Marketo.Tables
 
 
-## Description
-
 Enter the URL of the Marketo REST API endpoint associated with your account.
 
 
@@ -20,7 +18,7 @@ Marketo.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table with relevant Marketo data.
 

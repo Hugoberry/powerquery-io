@@ -5,8 +5,6 @@ title: Table.SingleRow
 # Table.SingleRow
 
 
-## Description
-
 Returns the single row in the table.
 
 
@@ -19,7 +17,7 @@ Table.SingleRow(
 ```
 
 
-## Details
+## Remarks
 
 Returns the single row in the one row <code>table</code>. If the <code>table</code> has more than one row, an exception is thrown.
 

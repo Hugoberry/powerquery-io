@@ -5,8 +5,6 @@ title: List.Buffer
 # List.Buffer
 
 
-## Description
-
 Buffers a list.
 
 
@@ -19,7 +17,7 @@ List.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Buffers the list <code>list</code> in memory. The result of this call is a stable list.
 

@@ -5,8 +5,6 @@ title: Text.PadStart
 # Text.PadStart
 
 
-## Description
-
 Returns text of a specified length by padding the start of the given text.
 
 
@@ -21,7 +19,7 @@ Text.PadStart(
 ```
 
 
-## Details
+## Remarks
 
 Returns a <code>text</code> value padded to length <code>count</code> by inserting spaces at the start of the text value <code>text</code>.    An optional character <code>character</code> can be used to specify the character used for padding. The default pad character is a space.
 

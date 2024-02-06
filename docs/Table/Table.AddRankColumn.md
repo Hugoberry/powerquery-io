@@ -5,8 +5,6 @@ title: Table.AddRankColumn
 # Table.AddRankColumn
 
 
-## Description
-
 Appends a column with the ranking of one or more other columns.
 
 
@@ -22,7 +20,7 @@ Table.AddRankColumn(
 ```
 
 
-## Details
+## Remarks
 
 Appends a column named <code>newColumnName</code> to the <code>table</code> with the ranking of one or more other columns described by <code>comparisonCriteria</code>.The RankKind option in <code>options</code> can be used by advanced users to pick a more-specific ranking method.
 

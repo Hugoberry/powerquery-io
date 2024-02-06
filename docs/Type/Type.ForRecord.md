@@ -5,8 +5,6 @@ title: Type.ForRecord
 # Type.ForRecord
 
 
-## Description
-
 Returns a type that represents records with specific type constraints on fields.
 
 
@@ -20,7 +18,7 @@ Type.ForRecord(
 ```
 
 
-## Details
+## Remarks
 
 Returns a type that represents records with specific type constraints on fields.
 

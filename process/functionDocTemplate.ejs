@@ -5,8 +5,6 @@ title: <%= functionName %>
 # <%= functionName %>
 
 <% if (documentation['Documentation.Description']) { %>
-## Description
-
 <%= documentation['Documentation.Description'] %>
 <% } %>
 
@@ -26,7 +24,7 @@ let params = Object.entries(parameters).map(([key, type], index) => {
 ```
 
 <% if (documentation['Documentation.LongDescription']) { %>
-## Details
+## Remarks
 
 <%- documentation['Documentation.LongDescription'] %>
 <% } %>

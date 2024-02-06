@@ -15,7 +15,7 @@ Siteimprove.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Siteimprove API connector
 

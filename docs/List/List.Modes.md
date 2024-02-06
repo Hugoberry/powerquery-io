@@ -5,8 +5,6 @@ title: List.Modes
 # List.Modes
 
 
-## Description
-
 Returns a list of the most frequent values in the list.
 
 
@@ -20,7 +18,7 @@ List.Modes(
 ```
 
 
-## Details
+## Remarks
 
 Returns the item that appears most frequently in the list, <code>list</code>. If the list is empty an exception is thrown. If multiple items appear with the same maximum frequency, the last one is chosen.    An optional <code>comparisonCriteria</code> value, <code>equationCriteria</code>, can be specified to control equality testing. 
 

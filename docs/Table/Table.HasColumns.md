@@ -5,8 +5,6 @@ title: Table.HasColumns
 # Table.HasColumns
 
 
-## Description
-
 Indicates whether the table contains the specified column(s).
 
 
@@ -20,7 +18,7 @@ Table.HasColumns(
 ```
 
 
-## Details
+## Remarks
 
 Indicates whether the <code>table</code> contains the specified column(s), <code>columns</code>. Returns <code>true</code> if the table contains the column(s), <code>false</code> otherwise.
 

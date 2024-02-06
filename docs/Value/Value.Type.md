@@ -5,8 +5,6 @@ title: Value.Type
 # Value.Type
 
 
-## Description
-
 Returns the type of the given value.
 
 
@@ -19,7 +17,7 @@ Value.Type(
 ```
 
 
-## Details
+## Remarks
 
 Returns the type of the given value.
 

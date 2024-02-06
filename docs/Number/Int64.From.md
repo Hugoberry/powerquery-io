@@ -5,8 +5,6 @@ title: Int64.From
 # Int64.From
 
 
-## Description
-
 Creates a 64-bit integer from the given value.
 
 
@@ -21,7 +19,7 @@ Int64.From(
 ```
 
 
-## Details
+## Remarks
 
 Returns a 64-bit integer <code>number</code> value from the given <code>value</code>. If the given <code>value</code> is <code>null</code>, <code>Int64.From</code> returns <code>null</code>. If the given <code>value</code> is <code>number</code> within the range of 64-bit integer without a fractional part, <code>value</code> is returned. If it has fractional part, then the number is rounded with the rounding mode specified. The default rounding mode is <code>RoundingMode.ToEven</code>. If <code>value</code> is of any other type, it will first be converted to a <code>number</code> using <code>Number.FromText</code>. Refer to <code>Number.Round</code> for the available rounding modes. An optional <code>culture</code> may also be provided (for example, "en-US").
 

@@ -5,8 +5,6 @@ title: Github.Tables
 # Github.Tables
 
 
-## Description
-
 Enter the GitHub repository owner and the repository name.
 
 
@@ -20,7 +18,7 @@ Github.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table with relevant GitHub data.
 

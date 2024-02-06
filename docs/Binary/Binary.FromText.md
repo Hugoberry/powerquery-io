@@ -5,8 +5,6 @@ title: Binary.FromText
 # Binary.FromText
 
 
-## Description
-
 Decodes data from a text form into binary.
 
 
@@ -20,7 +18,7 @@ Binary.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Returns the result of converting text value <code>text</code> to a binary (list of <code>number</code>). <code>encoding</code> may be specified to indicate the encoding used in the text value.      The following <code>BinaryEncoding</code> values may be used for <code>encoding</code>.      <ul>        <li><code>BinaryEncoding.Base64</code>: Base 64 encoding</li>        <li><code>BinaryEncoding.Hex</code>: Hex encoding</li>      </ul>
 

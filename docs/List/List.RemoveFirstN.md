@@ -5,8 +5,6 @@ title: List.RemoveFirstN
 # List.RemoveFirstN
 
 
-## Description
-
 Returns a list that skips the specified number of elements at the beginning of the list.
 
 
@@ -20,7 +18,7 @@ List.RemoveFirstN(
 ```
 
 
-## Details
+## Remarks
 
 Returns a list that removes the first element of list <code>list</code>. If <code>list</code> is an empty list an empty list is returned.This function takes an optional parameter, <code>countOrCondition</code>, to support removing multiple values as listed below. <ul> <li>If a number is specified, up to that many items are removed. </li> <li>If a condition is specified, the returned list begins with the first element in <code>list</code> that meets the criteria. Once an item fails the condition, no further items are considered. </li> <li>If this parameter is null, the default behavior is observed. </li> </ul>
 

@@ -5,8 +5,6 @@ title: Number.Random
 # Number.Random
 
 
-## Description
-
 Returns a random number.
 
 
@@ -19,7 +17,7 @@ Number.Random(
 ```
 
 
-## Details
+## Remarks
 
 Returns a random number between 0 and 1.
 

@@ -5,8 +5,6 @@ title: Record.Field
 # Record.Field
 
 
-## Description
-
 Returns the value of the specified field in a record.
 
 
@@ -20,7 +18,7 @@ Record.Field(
 ```
 
 
-## Details
+## Remarks
 
 Returns the value of the specified <code>field</code> in the <code>record</code>. If the field is not found, an exception is thrown.
 

@@ -5,8 +5,6 @@ title: Table.RemoveFirstN
 # Table.RemoveFirstN
 
 
-## Description
-
 Returns a table with the first count rows skipped.
 
 
@@ -20,7 +18,7 @@ Table.RemoveFirstN(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table that does not contain the first specified number of rows, <code>countOrCondition</code>, of the table <code>table</code>.    The number of rows removed depends on the optional parameter <code>countOrCondition</code>.    <ul>    <li> If <code>countOrCondition</code> is omitted only the first row is removed. </li>    <li> If <code>countOrCondition</code> is a number, that many rows (starting at the top) will be removed. </li>    <li> If <code>countOrCondition</code> is a condition, the rows that meet the condition will be removed until a row does not meet the condition.</li>    </ul>
 

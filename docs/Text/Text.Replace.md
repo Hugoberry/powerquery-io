@@ -5,8 +5,6 @@ title: Text.Replace
 # Text.Replace
 
 
-## Description
-
 Replaces all occurrences of the given substring in the text.
 
 
@@ -21,7 +19,7 @@ Text.Replace(
 ```
 
 
-## Details
+## Remarks
 
 Returns the result of replacing all occurrences of text value <code>old</code> in text value <code>text</code> with text value <code>new</code>. This function is case sensitive.
 

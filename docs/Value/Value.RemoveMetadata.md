@@ -5,8 +5,6 @@ title: Value.RemoveMetadata
 # Value.RemoveMetadata
 
 
-## Description
-
 Strips the input of metadata.
 
 
@@ -20,7 +18,7 @@ Value.RemoveMetadata(
 ```
 
 
-## Details
+## Remarks
 
 Strips the input of metadata.
 

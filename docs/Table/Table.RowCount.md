@@ -5,8 +5,6 @@ title: Table.RowCount
 # Table.RowCount
 
 
-## Description
-
 Returns the number of rows in the table.
 
 
@@ -19,7 +17,7 @@ Table.RowCount(
 ```
 
 
-## Details
+## Remarks
 
 Returns the number of rows in the <code>table</code>.
 

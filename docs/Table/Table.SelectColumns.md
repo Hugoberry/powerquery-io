@@ -5,8 +5,6 @@ title: Table.SelectColumns
 # Table.SelectColumns
 
 
-## Description
-
 Returns a table with only the specified columns.
 
 
@@ -21,7 +19,7 @@ Table.SelectColumns(
 ```
 
 
-## Details
+## Remarks
 
 Returns the <code>table</code> with only the specified <code>columns</code>.    <ul>       <li><code>table</code>: The provided table.</li>       <li><code>columns</code>: The list of columns from the table <code>table</code> to return. Columns in the returned table are in the order listed in <code>columns</code>.</li>       <li><code>missingField</code>: <i>(Optional)</i> What to do if the column does not exist.  Example: <code>MissingField.UseNull</code> or <code>MissingField.Ignore</code>.    </li></ul>
 

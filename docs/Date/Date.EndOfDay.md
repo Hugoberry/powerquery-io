@@ -5,8 +5,6 @@ title: Date.EndOfDay
 # Date.EndOfDay
 
 
-## Description
-
 Returns the end of the day.
 
 
@@ -19,7 +17,7 @@ Date.EndOfDay(
 ```
 
 
-## Details
+## Remarks
 
 Returns the end of the day represented by <code>dateTime</code>. Time zone information is preserved.      <ul>        <li><code>dateTime</code>: A <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> value from from which the end of the day is calculated.</li>      </ul>
 

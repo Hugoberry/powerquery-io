@@ -15,7 +15,7 @@ Intune.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Intune Data Warehouse
 

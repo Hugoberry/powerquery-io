@@ -5,8 +5,6 @@ title: Text.FromBinary
 # Text.FromBinary
 
 
-## Description
-
 Decodes data from a binary form into text.
 
 
@@ -20,7 +18,7 @@ Text.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 Decodes data, <code>binary</code>, from a binary value in to a text value, using <code>encoding</code> type.
 

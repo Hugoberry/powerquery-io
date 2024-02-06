@@ -5,8 +5,6 @@ title: List.Last
 # List.Last
 
 
-## Description
-
 Returns the last value of the list or the specified default if empty.
 
 
@@ -20,7 +18,7 @@ List.Last(
 ```
 
 
-## Details
+## Remarks
 
 Returns the last item in the list <code>list</code>, or the optional default value, <code>defaultValue</code>, if the list is empty.    If the list is empty and a default value is not specified, the function returns <code>null</code>.
 

@@ -5,8 +5,6 @@ title: Number.Combinations
 # Number.Combinations
 
 
-## Description
-
 Returns the number of unique combinations.
 
 
@@ -20,7 +18,7 @@ Number.Combinations(
 ```
 
 
-## Details
+## Remarks
 
 Returns the number of unique combinations from a list of items, <code>setSize</code> with specified combination size, <code>combinationSize</code>.<ul>    <li><code>setSize</code>: The number of items in the list.</li>    <li><code>combinationSize</code>: The number of items in each combination.</li></ul>
 

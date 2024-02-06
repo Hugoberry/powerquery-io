@@ -17,7 +17,7 @@ AmazonAthena.Databases(
 ```
 
 
-## Details
+## Remarks
 
 This function sends basic authentication info
 

@@ -5,8 +5,6 @@ title: Table.PositionOfAny
 # Table.PositionOfAny
 
 
-## Description
-
 Returns the position or positions of any of the specified rows within the table.
 
 
@@ -22,7 +20,7 @@ Table.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Returns the row(s) position(s) from the <code>table</code> of the first occurrence of the list of <code>rows</code>. Returns -1 if no occurrence is found.    <ul>    <li><code>table</code>: The input table.</li>       <li><code>rows</code>:  The list of rows in the table to find the positions of.</li>       <li><code>occurrence</code>: <i>[Optional]</i> Specifies which occurrences of the row to return.</li>       <li><code>equationCriteria</code>: <i>[Optional]</i> Controls the comparison between the table rows.</li>    </ul>    
 

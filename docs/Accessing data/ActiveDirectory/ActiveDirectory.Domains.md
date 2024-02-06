@@ -5,8 +5,6 @@ title: ActiveDirectory.Domains
 # ActiveDirectory.Domains
 
 
-## Description
-
 Returns a list of Active Directory domains in the same forest as the specified domain or of the current machine&#39;s domain if none is specified.
 
 
@@ -19,7 +17,7 @@ ActiveDirectory.Domains(
 ```
 
 
-## Details
+## Remarks
 
 Returns a list of Active Directory domains in the same forest as the specified domain or of the current machine's domain if none is specified.
 

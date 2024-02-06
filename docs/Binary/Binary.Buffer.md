@@ -5,8 +5,6 @@ title: Binary.Buffer
 # Binary.Buffer
 
 
-## Description
-
 Buffers the binary value in memory.
 
 
@@ -19,7 +17,7 @@ Binary.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Buffers the binary value in memory.  The result of this call is a stable binary value, which means it will have a deterministic length and order of bytes.
 

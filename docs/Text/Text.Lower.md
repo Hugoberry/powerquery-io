@@ -5,8 +5,6 @@ title: Text.Lower
 # Text.Lower
 
 
-## Description
-
 Converts all characters to lowercase.
 
 
@@ -20,7 +18,7 @@ Text.Lower(
 ```
 
 
-## Details
+## Remarks
 
 Returns the result of converting all characters in <code>text</code> to lowercase. An optional <code>culture</code> may also be provided (for example, "en-US").
 

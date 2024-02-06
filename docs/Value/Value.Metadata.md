@@ -5,8 +5,6 @@ title: Value.Metadata
 # Value.Metadata
 
 
-## Description
-
 Returns a record containing the input&#39;s metadata.
 
 
@@ -19,7 +17,7 @@ Value.Metadata(
 ```
 
 
-## Details
+## Remarks
 
 Returns a record containing the input's metadata.
 

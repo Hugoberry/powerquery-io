@@ -5,8 +5,6 @@ title: Combiner.CombineTextByEachDelimiter
 # Combiner.CombineTextByEachDelimiter
 
 
-## Description
-
 Returns a function that combines a list of text using a sequence of delimiters.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByEachDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Returns a function that combines a list of text values into a single text value using a sequence of delimiters.
 

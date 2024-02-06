@@ -5,8 +5,6 @@ title: Table.AggregateTableColumn
 # Table.AggregateTableColumn
 
 
-## Description
-
 Aggregates a column of tables into multiple columns in the containing table.
 
 
@@ -21,7 +19,7 @@ Table.AggregateTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Aggregates tables in <code>table</code>[<code>column</code>] into multiple columns containing aggregate values for the tables. <code>aggregations</code> is used to specify the columns containing the tables to aggregate, the aggregation functions to apply to the tables to generate their values, and the names of the aggregate columns to create.
 

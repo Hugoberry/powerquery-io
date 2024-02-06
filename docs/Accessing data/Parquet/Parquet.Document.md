@@ -5,8 +5,6 @@ title: Parquet.Document
 # Parquet.Document
 
 
-## Description
-
 Returns the contents of the Parquet document as a table.
 
 
@@ -20,7 +18,7 @@ Parquet.Document(
 ```
 
 
-## Details
+## Remarks
 
 Returns the contents of the Parquet document as a table. Options include:    <ul>    <li> <code>TypeMapping</code> : A text value that controls the default type mapping when reading and writing files. The default value is null and attempts to preserve as much fidelity as possible to the original type. A value of "Sql" will produce results most compatible with Sql Server.</li>    </ul>
 

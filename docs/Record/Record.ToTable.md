@@ -5,8 +5,6 @@ title: Record.ToTable
 # Record.ToTable
 
 
-## Description
-
 Returns a table with each row being a field name and value of the input record.
 
 
@@ -19,7 +17,7 @@ Record.ToTable(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table containing the columns <code>Name</code> and <code>Value</code> with a row for each field in <code>record</code>.
 

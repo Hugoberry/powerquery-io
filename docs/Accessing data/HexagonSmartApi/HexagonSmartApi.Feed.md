@@ -17,7 +17,7 @@ HexagonSmartApi.Feed(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table from a Hexagon PPM Smart® API OData feed.
 

@@ -15,7 +15,7 @@ Usercube.Universes(
 ```
 
 
-## Details
+## Remarks
 
 Provides data from a Usercube instance
 

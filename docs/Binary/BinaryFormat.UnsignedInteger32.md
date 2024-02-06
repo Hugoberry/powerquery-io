@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger32
 # BinaryFormat.UnsignedInteger32
 
 
-## Description
-
 A binary format that reads a 32-bit unsigned integer.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger32(
 ```
 
 
-## Details
+## Remarks
 
 A binary format that reads a 32-bit unsigned integer.
 

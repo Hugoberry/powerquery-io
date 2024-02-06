@@ -5,8 +5,6 @@ title: Number.From
 # Number.From
 
 
-## Description
-
 Creates a number from the given value.
 
 
@@ -20,7 +18,7 @@ Number.From(
 ```
 
 
-## Details
+## Remarks
 
 Returns a <code>number</code> value from the given <code>value</code>. An optional <code>culture</code> may also be provided (for example, "en-US").If the given <code>value</code> is <code>null</code>, <code>Number.From</code> returns <code>null</code>. If the given <code>value</code> is <code>number</code>, <code>value</code> is returned. Values of the following types can be converted to a <code>number</code> value:      <ul>        <li><code>text</code>: A <code>number</code> value from textual representation. Common text formats are handled ("15", "3,423.10", "5.0E-10"). Refer to <code>Number.FromText</code> for details.</li>        <li><code>logical</code>: 1 for <code>true</code>, 0 for <code>false</code>.</li>        <li><code>datetime</code>: A double-precision floating-point number that contains an OLE Automation date equivalent.</li>        <li><code>datetimezone</code>: A double-precision floating-point number that contains an OLE Automation date equivalent of the local date and time of <code>value</code>.</li>        <li><code>date</code>: A double-precision floating-point number that contains an OLE Automation date equivalent.</li>        <li><code>time</code>:  Expressed in fractional days.</li>        <li><code>duration</code>: Expressed in whole and fractional days.</li>      </ul>If <code>value</code> is of any other type, an error is returned.
 

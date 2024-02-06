@@ -15,7 +15,7 @@ SumTotal.ODataFeed(
 ```
 
 
-## Details
+## Remarks
 
 SumTotal's Custom connector connects to SumTotal's external facing OData API service to pull data from data warehousing database . Filter expand, slice and create customer visuals and reports based on data returned from the OData feed
 

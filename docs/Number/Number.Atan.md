@@ -5,8 +5,6 @@ title: Number.Atan
 # Number.Atan
 
 
-## Description
-
 Returns the arctangent of the number.
 
 
@@ -19,7 +17,7 @@ Number.Atan(
 ```
 
 
-## Details
+## Remarks
 
 Returns the arctangent of <code>number</code>.
 

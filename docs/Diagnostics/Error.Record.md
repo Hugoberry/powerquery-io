@@ -5,8 +5,6 @@ title: Error.Record
 # Error.Record
 
 
-## Description
-
 Returns an error record from the provided text values for reason, message and detail.
 
 
@@ -22,7 +20,7 @@ Error.Record(
 ```
 
 
-## Details
+## Remarks
 
 Returns an error record from the provided text values for reason, message and detail.
 

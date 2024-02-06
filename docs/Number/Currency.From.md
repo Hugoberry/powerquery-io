@@ -5,8 +5,6 @@ title: Currency.From
 # Currency.From
 
 
-## Description
-
 Returns a currency value from the given value.
 
 
@@ -21,7 +19,7 @@ Currency.From(
 ```
 
 
-## Details
+## Remarks
 
 Returns a <code>currency</code> value from the given <code>value</code>. If the given <code>value</code> is <code>null</code>, <code>Currency.From</code> returns <code>null</code>.  If the given <code>value</code> is <code>number</code> within the range of currency, fractional part of the <code>value</code> is rounded to 4 decimal digits and returned. If <code>value</code> is of any other type, it will first be converted to a <code>number</code> using <code>Number.FromText</code>. Valid range for currency is <code>-922,337,203,685,477.5808</code> to <code>922,337,203,685,477.5807</code>. Refer to <code>Number.Round</code> for the available rounding modes. The default is <code>RoundingMode.ToEven</code>. An optional <code>culture</code> may also be provided (for example, "en-US").
 

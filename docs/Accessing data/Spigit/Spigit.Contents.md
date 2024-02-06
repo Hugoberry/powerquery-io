@@ -5,8 +5,6 @@ title: Spigit.Contents
 # Spigit.Contents
 
 
-## Description
-
 Enter the URL of your Planview IdeaPlace account.
 
 
@@ -19,7 +17,7 @@ Spigit.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table with relevant Planview IdeaPlace data.
 

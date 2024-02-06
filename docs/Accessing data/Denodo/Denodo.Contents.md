@@ -17,7 +17,7 @@ Denodo.Contents(
 ```
 
 
-## Details
+## Remarks
 
 The Denodo Connector allows you to connect to Denodo's VDP server from PowerBI
 

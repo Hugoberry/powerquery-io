@@ -5,8 +5,6 @@ title: Value.VersionIdentity
 # Value.VersionIdentity
 
 
-## Description
-
 Value.VersionIdentity
 
 
@@ -19,7 +17,7 @@ Value.VersionIdentity(
 ```
 
 
-## Details
+## Remarks
 
 Value.VersionIdentity
 

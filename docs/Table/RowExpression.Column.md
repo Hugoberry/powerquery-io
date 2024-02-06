@@ -5,8 +5,6 @@ title: RowExpression.Column
 # RowExpression.Column
 
 
-## Description
-
 Returns an abstract syntax tree (AST) that represents access to a column within a row expression.
 
 
@@ -19,7 +17,7 @@ RowExpression.Column(
 ```
 
 
-## Details
+## Remarks
 
 Returns an abstract syntax tree (AST) that represents access to column <code>columnName</code> of the row within a row expression.
 

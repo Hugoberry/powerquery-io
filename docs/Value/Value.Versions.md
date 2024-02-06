@@ -5,8 +5,6 @@ title: Value.Versions
 # Value.Versions
 
 
-## Description
-
 Value.Versions
 
 
@@ -19,7 +17,7 @@ Value.Versions(
 ```
 
 
-## Details
+## Remarks
 
 Value.Versions
 

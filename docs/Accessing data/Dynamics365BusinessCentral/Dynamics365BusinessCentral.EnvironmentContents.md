@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.EnvironmentContents
 # Dynamics365BusinessCentral.EnvironmentContents
 
 
-## Description
-
 Enter your Dynamics 365 Business Central environment and company.
 
 
@@ -20,7 +18,7 @@ Dynamics365BusinessCentral.EnvironmentContents(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table with relevant Dynamics 365 Business Central data. 
 

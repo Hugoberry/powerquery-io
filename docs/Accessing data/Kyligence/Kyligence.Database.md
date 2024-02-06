@@ -18,7 +18,7 @@ Kyligence.Database(
 ```
 
 
-## Details
+## Remarks
 
 Connect your Kyligence
 

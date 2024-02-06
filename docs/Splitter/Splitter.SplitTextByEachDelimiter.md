@@ -5,8 +5,6 @@ title: Splitter.SplitTextByEachDelimiter
 # Splitter.SplitTextByEachDelimiter
 
 
-## Description
-
 Returns a function that splits text into a list of text at each specified delimiter in sequence.
 
 
@@ -21,7 +19,7 @@ Splitter.SplitTextByEachDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Returns a function that splits text into a list of text at each specified delimiter in sequence.
 

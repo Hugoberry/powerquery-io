@@ -5,8 +5,6 @@ title: Xml.Tables
 # Xml.Tables
 
 
-## Description
-
 Returns the contents of the XML document as a nested collection of flattened tables.
 
 
@@ -21,7 +19,7 @@ Xml.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Returns the contents of the XML document as a nested collection of flattened tables.
 

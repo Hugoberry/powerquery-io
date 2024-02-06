@@ -5,8 +5,6 @@ title: Number.RoundUp
 # Number.RoundUp
 
 
-## Description
-
 Returns the next highest number. The number of digits can be specified.
 
 
@@ -20,7 +18,7 @@ Number.RoundUp(
 ```
 
 
-## Details
+## Remarks
 
 Returns the result of rounding <code>number</code> up to the next highest integer. If <code>number</code> is null, this function returns null.    If <code>digits</code> is provided, <code>number</code> is rounded to the specified number of decimal digits.  
 

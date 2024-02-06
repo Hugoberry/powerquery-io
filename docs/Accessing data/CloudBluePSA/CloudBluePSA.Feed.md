@@ -16,7 +16,7 @@ CloudBluePSA.Feed(
 ```
 
 
-## Details
+## Remarks
 
 This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner.
 

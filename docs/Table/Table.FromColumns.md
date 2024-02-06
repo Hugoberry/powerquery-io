@@ -5,8 +5,6 @@ title: Table.FromColumns
 # Table.FromColumns
 
 
-## Description
-
 Creates a table from a list of columns and specified values.
 
 
@@ -20,7 +18,7 @@ Table.FromColumns(
 ```
 
 
-## Details
+## Remarks
 
 Creates a table of type <code>columns</code> from a list <code>lists</code> containing nested lists with the column names and values.    If some columns have more values then others, the missing values will be filled with the default value, 'null', if the columns are nullable.
 

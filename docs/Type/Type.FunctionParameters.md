@@ -5,8 +5,6 @@ title: Type.FunctionParameters
 # Type.FunctionParameters
 
 
-## Description
-
 Returns a record with field values set to the name of the parameters of a function type, and their values set to their corresponding types.
 
 
@@ -19,7 +17,7 @@ Type.FunctionParameters(
 ```
 
 
-## Details
+## Remarks
 
 Returns a record with field values set to the name of the parameters of <code>type</code>, and their values set to their corresponding types.
 

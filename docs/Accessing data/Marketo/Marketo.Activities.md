@@ -5,8 +5,6 @@ title: Marketo.Activities
 # Marketo.Activities
 
 
-## Description
-
 Returns a table with lead activities.
 
 
@@ -21,7 +19,7 @@ Marketo.Activities(
 ```
 
 
-## Details
+## Remarks
 
 Makes a call to the Marketo REST API endpoint at <code>url</code>/rest/v1/activities.json. All activities in list <code>activityIds</code> that have occurred since <code>startTime</code> are returned.
 

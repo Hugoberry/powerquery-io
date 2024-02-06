@@ -20,7 +20,7 @@ DremioCloud.DatabasesByServerV360(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource
 

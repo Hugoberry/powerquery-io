@@ -5,8 +5,6 @@ title: Table.Max
 # Table.Max
 
 
-## Description
-
 Returns the largest row or default value using the given criteria.
 
 
@@ -21,7 +19,7 @@ Table.Max(
 ```
 
 
-## Details
+## Remarks
 
 Returns the largest row in the <code>table</code>, given the <code>comparisonCriteria</code>. If the table is empty, the optional <code>default</code> value is returned. 
 

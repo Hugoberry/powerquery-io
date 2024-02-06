@@ -5,8 +5,6 @@ title: Value.ResourceExpression
 # Value.ResourceExpression
 
 
-## Description
-
 Value.ResourceExpression
 
 
@@ -19,7 +17,7 @@ Value.ResourceExpression(
 ```
 
 
-## Details
+## Remarks
 
 Value.ResourceExpression
 

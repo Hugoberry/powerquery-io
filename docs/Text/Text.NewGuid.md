@@ -5,8 +5,6 @@ title: Text.NewGuid
 # Text.NewGuid
 
 
-## Description
-
 Returns a new, random globally unique identifier (GUID).
 
 
@@ -19,7 +17,7 @@ Text.NewGuid(
 ```
 
 
-## Details
+## Remarks
 
 Returns a new, random globally unique identifier (GUID).
 

@@ -5,8 +5,6 @@ title: Text.SplitAny
 # Text.SplitAny
 
 
-## Description
-
 Returns a list of text values, split on any of the characters in the delimiter.
 
 
@@ -20,7 +18,7 @@ Text.SplitAny(
 ```
 
 
-## Details
+## Remarks
 
 Returns a list of text values resulting from the splitting a text value <code>text</code> based on any character in the specified delimiter, <code>separators</code>.
 

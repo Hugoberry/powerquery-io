@@ -5,8 +5,6 @@ title: Table.ReplaceErrorValues
 # Table.ReplaceErrorValues
 
 
-## Description
-
 Replaces the error values in the specified columns with the corresponding specified value.
 
 
@@ -20,7 +18,7 @@ Table.ReplaceErrorValues(
 ```
 
 
-## Details
+## Remarks
 
 Replaces the error values in the specified columns of the <code>table</code> with the new values in the <code>errorReplacement</code> list. The format of the list is \{\{column1, value1}, …}. There may only be one replacement value per column, specifying the column more than once will result in an error.
 

@@ -5,8 +5,6 @@ title: Table.IsDistinct
 # Table.IsDistinct
 
 
-## Description
-
 Indicates whether the table contains only distinct rows (no duplicates).
 
 
@@ -20,7 +18,7 @@ Table.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 Indicates whether the <code>table</code> contains only distinct rows (no duplicates). Returns <code>true</code> if the rows are distinct, <code>false</code> otherwise.    An optional parameter, <code>comparisonCriteria</code>, specifies which columns of the table are tested for duplication. If <code>comparisonCriteria</code> is not specified, all columns are tested.
 

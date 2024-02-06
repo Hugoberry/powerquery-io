@@ -5,8 +5,6 @@ title: Number.Sin
 # Number.Sin
 
 
-## Description
-
 Returns the sine of the number.
 
 
@@ -19,7 +17,7 @@ Number.Sin(
 ```
 
 
-## Details
+## Remarks
 
 Returns the sine of <code>number</code>.
 

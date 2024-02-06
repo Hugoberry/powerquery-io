@@ -5,8 +5,6 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-## Description
-
 Returns a table of sheets, reports, folders, and workspaces from the Smartsheet API
 
 
@@ -19,7 +17,7 @@ Smartsheet.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Returns a nested table of available sheets, reports, folders, and workspaces from the Smartsheet API.
 

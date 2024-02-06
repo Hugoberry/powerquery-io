@@ -5,8 +5,6 @@ title: Binary.Combine
 # Binary.Combine
 
 
-## Description
-
 Combines a list of binaries into a single binary.
 
 
@@ -19,7 +17,7 @@ Binary.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Combines a list of binaries into a single binary.
 

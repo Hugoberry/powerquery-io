@@ -5,8 +5,6 @@ title: Date.IsInNextNDays
 # Date.IsInNextNDays
 
 
-## Description
-
 Indicates whether this date occurs during the next number of days, as determined by the current date and time on the system. Note that this function will return false when passed a value that occurs within the current day.
 
 
@@ -20,7 +18,7 @@ Date.IsInNextNDays(
 ```
 
 
-## Details
+## Remarks
 
 Indicates whether the given datetime value <code>dateTime</code> occurs during the next number of days, as determined by the current date and time on the system. Note that this function will return false when passed a value that occurs within the current day.      <ul>      <li><code>dateTime</code>: A <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> value to be evaluated.</li>      <li><code>days</code>: The number of days.</li>      </ul>
 

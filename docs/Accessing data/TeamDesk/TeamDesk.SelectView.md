@@ -18,7 +18,7 @@ TeamDesk.SelectView(
 ```
 
 
-## Details
+## Remarks
 
 Retrieves the data from provided table and view. You can also apply an additional filter for results.
 

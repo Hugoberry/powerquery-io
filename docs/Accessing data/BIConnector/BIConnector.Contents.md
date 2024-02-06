@@ -5,8 +5,6 @@ title: BIConnector.Contents
 # BIConnector.Contents
 
 
-## Description
-
 Enter connection information
 
 

@@ -5,8 +5,6 @@ title: Record.FromTable
 # Record.FromTable
 
 
-## Description
-
 Creates a record from a table of the form \{[Name = name, Value = value]}.
 
 
@@ -19,7 +17,7 @@ Record.FromTable(
 ```
 
 
-## Details
+## Remarks
 
 Returns a record from a table of records <code>table</code> containing field names and value names <code>\{[Name = name, Value = value]}</code>. An exception is thrown if the field names are not unique.
 

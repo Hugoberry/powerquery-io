@@ -5,8 +5,6 @@ title: Table.TransformRows
 # Table.TransformRows
 
 
-## Description
-
 Transforms the rows of the table using the specified transform function.
 
 
@@ -20,7 +18,7 @@ Table.TransformRows(
 ```
 
 
-## Details
+## Remarks
 
 Creates a <code>list</code> by applying the <code>transform</code> operation to each row in <code>table</code>.
 

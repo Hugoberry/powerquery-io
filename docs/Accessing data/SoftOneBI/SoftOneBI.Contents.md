@@ -15,7 +15,7 @@ SoftOneBI.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Retrieves all Soft1/Atlantis tables in the datalake
 

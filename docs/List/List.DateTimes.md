@@ -5,8 +5,6 @@ title: List.DateTimes
 # List.DateTimes
 
 
-## Description
-
 Generates a list of datetime values given an initial value, count, and incremental duration value.
 
 
@@ -21,7 +19,7 @@ List.DateTimes(
 ```
 
 
-## Details
+## Remarks
 
 Returns a list of <code>datetime</code> values of size <code>count</code>, starting at <code>start</code>. The given increment, <code>step</code>, is a <code>duration</code> value that is added to every value.
 

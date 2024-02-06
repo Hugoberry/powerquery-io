@@ -5,8 +5,6 @@ title: Character.FromNumber
 # Character.FromNumber
 
 
-## Description
-
 Converts a number to a text character.
 
 
@@ -19,7 +17,7 @@ Character.FromNumber(
 ```
 
 
-## Details
+## Remarks
 
 Returns the character equivalent of the number.<br />    <br />    The provided <code>number</code> should be a 21-bit Unicode code point.
 

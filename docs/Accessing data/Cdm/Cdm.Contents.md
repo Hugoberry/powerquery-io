@@ -5,8 +5,6 @@ title: Cdm.Contents
 # Cdm.Contents
 
 
-## Description
-
 Cdm.Contents
 
 
@@ -19,7 +17,7 @@ Cdm.Contents(
 ```
 
 
-## Details
+## Remarks
 
 This function is unavailable because it requires .NET 4.5.
 

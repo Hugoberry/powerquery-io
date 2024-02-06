@@ -15,7 +15,7 @@ Profisee.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Navigation Table returning Profisee entities.
 

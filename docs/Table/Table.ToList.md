@@ -5,8 +5,6 @@ title: Table.ToList
 # Table.ToList
 
 
-## Description
-
 Converts a table into a list by applying the specified combining function to each row of values in the table.
 
 
@@ -20,7 +18,7 @@ Table.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Converts a table into a list by applying the specified combining function to each row of values in the table.
 

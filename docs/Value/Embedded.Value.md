@@ -5,8 +5,6 @@ title: Embedded.Value
 # Embedded.Value
 
 
-## Description
-
 Accesses a value by name in an embedded mashup.
 
 
@@ -20,7 +18,7 @@ Embedded.Value(
 ```
 
 
-## Details
+## Remarks
 
 Accesses a value by name in an embedded mashup.
 

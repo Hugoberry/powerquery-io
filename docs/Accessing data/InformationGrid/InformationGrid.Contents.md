@@ -15,7 +15,7 @@ InformationGrid.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Retrieves information from authorised BI services available on the given server
 

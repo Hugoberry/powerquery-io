@@ -18,7 +18,7 @@ Emigo.Contents(
 ```
 
 
-## Details
+## Remarks
 
 The purpose of the method is to set parameters for odata feed data source calls, thus the non-function calls may be limited by, for example, the period
 

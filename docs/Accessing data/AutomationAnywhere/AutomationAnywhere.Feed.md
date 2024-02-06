@@ -16,7 +16,7 @@ AutomationAnywhere.Feed(
 ```
 
 
-## Details
+## Remarks
 
 Automation Anywhere - Login
 

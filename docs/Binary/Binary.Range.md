@@ -5,8 +5,6 @@ title: Binary.Range
 # Binary.Range
 
 
-## Description
-
 Returns a subset of the binary value beginning at an offset.
 
 
@@ -21,7 +19,7 @@ Binary.Range(
 ```
 
 
-## Details
+## Remarks
 
 Returns a subset of the binary value beginning at the offset <code>binary</code>. An optional parameter, <code>offset</code>, sets the maximum length of the subset.
 

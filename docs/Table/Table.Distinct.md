@@ -5,8 +5,6 @@ title: Table.Distinct
 # Table.Distinct
 
 
-## Description
-
 Removes duplicate rows from the table.
 
 
@@ -20,7 +18,7 @@ Table.Distinct(
 ```
 
 
-## Details
+## Remarks
 
 Removes duplicate rows from the table.    An optional parameter, <code>equationCriteria</code>, specifies which columns of the table are tested for duplication. If <code>equationCriteria</code> is not specified, all columns are tested.<br />    <br />    Because Power Query sometimes offloads certain operations to backend data sources (known as "folding"), and also sometimes optimizes queries by     skipping operations that aren't strictly necessary, in general there's no guarantee which specific duplicate will be preserved.    For example, you can't assume that the first row with a unique set of column values will remain, and rows further down in the table will be removed.    If you want the duplicate removal to behave predictably, first buffer the table using <code>Table.Buffer</code>.
 

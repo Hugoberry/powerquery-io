@@ -5,8 +5,6 @@ title: Table.InsertRows
 # Table.InsertRows
 
 
-## Description
-
 Inserts a list of rows into the table at the specified position.
 
 
@@ -21,7 +19,7 @@ Table.InsertRows(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table with the list of rows, <code>rows</code>, inserted into the <code>table</code> at the given position, <code>offset</code>. Each column in the row to insert must match the column types of the table.
 

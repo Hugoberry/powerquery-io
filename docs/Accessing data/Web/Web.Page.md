@@ -5,8 +5,6 @@ title: Web.Page
 # Web.Page
 
 
-## Description
-
 Returns the contents of the HTML document broken into its constituent structures, as well as a representation of the full document and its text after removing tags.
 
 
@@ -19,7 +17,7 @@ Web.Page(
 ```
 
 
-## Details
+## Remarks
 
 Returns the contents of the HTML document broken into its constituent structures, as well as a representation of the full document and its text after removing tags.
 

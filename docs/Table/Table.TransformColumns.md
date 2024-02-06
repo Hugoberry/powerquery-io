@@ -5,8 +5,6 @@ title: Table.TransformColumns
 # Table.TransformColumns
 
 
-## Description
-
 Transforms the values of one or more columns.
 
 
@@ -22,7 +20,7 @@ Table.TransformColumns(
 ```
 
 
-## Details
+## Remarks
 
 Transforms <code>table</code> by applying each column operation listed in <code>transformOperations</code> (where the format is \{ column name, transformation } or \{ column name, transformation, new column type }).    If a <code>defaultTransformation</code> is specified, it will be applied to all columns not listed in <code>transformOperations</code>.    If a column listed in <code>transformOperations</code> doesn't exist, an exception is thrown unless the optional parameter <code>missingField</code> specifies an alternative (for example, <code>MissingField.UseNull</code> or <code>MissingField.Ignore</code>).
 

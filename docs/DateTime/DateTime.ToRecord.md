@@ -5,8 +5,6 @@ title: DateTime.ToRecord
 # DateTime.ToRecord
 
 
-## Description
-
 Returns a record containing the datetime value&#39;s parts.
 
 
@@ -19,7 +17,7 @@ DateTime.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Returns a record containing the parts of the given datetime value, <code>dateTime</code>. <ul>        <li><code>dateTime</code>: A <code>datetime</code> value for from which the record of its parts is to be calculated.</li>      </ul>
 

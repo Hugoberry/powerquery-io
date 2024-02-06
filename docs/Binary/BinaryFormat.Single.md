@@ -5,8 +5,6 @@ title: BinaryFormat.Single
 # BinaryFormat.Single
 
 
-## Description
-
 A binary format that reads a 4-byte IEEE single-precision floating point value.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Single(
 ```
 
 
-## Details
+## Remarks
 
 A binary format that reads a 4-byte IEEE single-precision floating point value.
 

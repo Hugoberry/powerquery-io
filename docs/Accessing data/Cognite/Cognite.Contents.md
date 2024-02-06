@@ -16,7 +16,7 @@ Cognite.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Cognite Data Fusion (CDF)
 

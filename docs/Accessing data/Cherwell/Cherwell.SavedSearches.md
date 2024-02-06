@@ -18,7 +18,7 @@ Cherwell.SavedSearches(
 ```
 
 
-## Details
+## Remarks
 
 Returns the results of a Saved Search from a Cherwell Service Management REST API (requires CSM version 10.2 or later).
 

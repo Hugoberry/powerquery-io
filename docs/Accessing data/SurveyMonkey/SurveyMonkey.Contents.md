@@ -15,7 +15,7 @@ SurveyMonkey.Contents(
 ```
 
 
-## Details
+## Remarks
 
 A Navigation table showing all the surveys in the account related to the input access token.
 

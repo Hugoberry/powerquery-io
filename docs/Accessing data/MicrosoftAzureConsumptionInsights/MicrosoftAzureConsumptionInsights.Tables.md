@@ -5,8 +5,6 @@ title: MicrosoftAzureConsumptionInsights.Tables
 # MicrosoftAzureConsumptionInsights.Tables
 
 
-## Description
-
 Microsoft Azure Consumption Insights
 
 
@@ -20,7 +18,7 @@ MicrosoftAzureConsumptionInsights.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Microsoft Azure Consumption Insights
 

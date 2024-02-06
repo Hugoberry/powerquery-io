@@ -5,8 +5,6 @@ title: Text.Contains
 # Text.Contains
 
 
-## Description
-
 Returns whether the text contains the substring.
 
 
@@ -21,7 +19,7 @@ Text.Contains(
 ```
 
 
-## Details
+## Remarks
 
 Detects whether <code>text</code> contains the value <code>substring</code>. Returns true if the value is found. This function doesn't support wildcards or regular expressions.      <br />      <br />      The optional argument <code>comparer</code> can be used to specify case-insensitive or culture and locale-aware comparisons.      The following built-in comparers are available in the formula language:      <ul>        <li><code>Comparer.Ordinal</code>: Used to perform a case-sensitive ordinal comparison</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: Used to perform a case-insensitive ordinal comparison</li>        <li> <code>Comparer.FromCulture</code>: Used to perform a culture-aware comparison</li>      </ul>
 

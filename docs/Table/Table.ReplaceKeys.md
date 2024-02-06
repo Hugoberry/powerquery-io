@@ -5,8 +5,6 @@ title: Table.ReplaceKeys
 # Table.ReplaceKeys
 
 
-## Description
-
 Replaces the keys of the specified table.
 
 
@@ -20,7 +18,7 @@ Table.ReplaceKeys(
 ```
 
 
-## Details
+## Remarks
 
 Replaces the keys of the specified table.
 

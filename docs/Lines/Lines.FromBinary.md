@@ -5,8 +5,6 @@ title: Lines.FromBinary
 # Lines.FromBinary
 
 
-## Description
-
 Converts a binary value to a list of text values split at lines breaks.  If a quote style is specified, then line breaks may appear within quotes.  If includeLineSeparators is true, then the line break characters are included in the text.
 
 
@@ -22,7 +20,7 @@ Lines.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 Converts a binary value to a list of text values split at lines breaks.  If a quote style is specified, then line breaks may appear within quotes.  If includeLineSeparators is true, then the line break characters are included in the text.
 

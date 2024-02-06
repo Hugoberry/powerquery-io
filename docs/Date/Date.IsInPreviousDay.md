@@ -5,8 +5,6 @@ title: Date.IsInPreviousDay
 # Date.IsInPreviousDay
 
 
-## Description
-
 Indicates whether this date occurs during the previous day, as determined by the current date and time on the system. Note that this function will return false when passed a value that occurs within the current day.
 
 
@@ -19,7 +17,7 @@ Date.IsInPreviousDay(
 ```
 
 
-## Details
+## Remarks
 
 Indicates whether the given datetime value <code>dateTime</code> occurs during the previous day, as determined by the current date and time on the system. Note that this function will return false when passed a value that occurs within the current day.      <ul>      <li><code>dateTime</code>: A <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> value to be evaluated.</li>      </ul>
 

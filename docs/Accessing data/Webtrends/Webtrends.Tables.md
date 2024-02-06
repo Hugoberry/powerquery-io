@@ -5,8 +5,6 @@ title: Webtrends.Tables
 # Webtrends.Tables
 
 
-## Description
-
 Enter the Profile ID associated with your Webtrends account.
 
 
@@ -21,7 +19,7 @@ Webtrends.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table with relevant Webtrends data.
 

@@ -5,8 +5,6 @@ title: GoogleAnalytics.Accounts
 # GoogleAnalytics.Accounts
 
 
-## Description
-
 Returns Google Analytics accounts.
 
 
@@ -19,7 +17,7 @@ GoogleAnalytics.Accounts(
 ```
 
 
-## Details
+## Remarks
 
 Returns Google Analytics accounts that are accessible from the current credential.
 

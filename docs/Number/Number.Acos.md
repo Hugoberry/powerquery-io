@@ -5,8 +5,6 @@ title: Number.Acos
 # Number.Acos
 
 
-## Description
-
 Returns the arccosine of the number.
 
 
@@ -19,7 +17,7 @@ Number.Acos(
 ```
 
 
-## Details
+## Remarks
 
 Returns the arccosine of <code>number</code>.
 

@@ -5,8 +5,6 @@ title: Table.UnpivotOtherColumns
 # Table.UnpivotOtherColumns
 
 
-## Description
-
 Translates all columns other than a specified set into attribute-value pairs.
 
 
@@ -22,7 +20,7 @@ Table.UnpivotOtherColumns(
 ```
 
 
-## Details
+## Remarks
 
 Translates all columns other than a specified set into attribute-value pairs, combined with the rest of the values in each row.
 

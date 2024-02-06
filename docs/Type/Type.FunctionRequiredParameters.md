@@ -5,8 +5,6 @@ title: Type.FunctionRequiredParameters
 # Type.FunctionRequiredParameters
 
 
-## Description
-
 Returns a number indicating the minimum number of parameters required to invoke the type of function.
 
 
@@ -19,7 +17,7 @@ Type.FunctionRequiredParameters(
 ```
 
 
-## Details
+## Remarks
 
 Returns a number indicating the minimum number of parameters required to invoke the input <code>type</code> of function.
 

@@ -5,8 +5,6 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-## Description
-
 Applies rename(s) from a list in the form \{ old, new }.
 
 
@@ -21,7 +19,7 @@ Record.RenameFields(
 ```
 
 
-## Details
+## Remarks
 
 Returns a record after renaming fields in the input <code>record</code> to the new field names specified in list <code>renames</code>. For multiple renames, a nested list can be used (\{ \{old1, new1}, \{old2, new2} }.
 

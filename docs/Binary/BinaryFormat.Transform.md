@@ -5,8 +5,6 @@ title: BinaryFormat.Transform
 # BinaryFormat.Transform
 
 
-## Description
-
 Returns a binary format that will transform the values read by another binary format.
 
 
@@ -20,7 +18,7 @@ BinaryFormat.Transform(
 ```
 
 
-## Details
+## Remarks
 
 Returns a binary format that will transform the values read by another binary format.  The <code>binaryFormat</code> parameter specifies the binary format that will be used to read the value.  The <code>function</code> is invoked with the value read, and returns the transformed value.
 

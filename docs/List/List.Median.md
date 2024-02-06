@@ -5,8 +5,6 @@ title: List.Median
 # List.Median
 
 
-## Description
-
 Returns the median value in the list.
 
 
@@ -20,7 +18,7 @@ List.Median(
 ```
 
 
-## Details
+## Remarks
 
 Returns the median item of the list <code>list</code>. This function returns <code>null</code> if the list contains no non-<code>null</code> values.    If there is an even number of items, the function chooses the smaller of the two median items unless the list is    comprised entirely of datetimes, durations, numbers or times, in which case it returns the average of the two items.
 

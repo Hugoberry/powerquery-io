@@ -5,8 +5,6 @@ title: BinaryFormat.Record
 # BinaryFormat.Record
 
 
-## Description
-
 Returns a binary format that reads a record.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Record(
 ```
 
 
-## Details
+## Remarks
 
 Returns a binary format that reads a record.  The <code>record</code> parameter specifies the format of the record.  Each field in the record can have a different binary format.  If a field contains a value that is not a binary format value, then no data is read for that field, and the field value is echoed to the result.
 

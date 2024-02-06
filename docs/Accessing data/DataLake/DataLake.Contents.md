@@ -5,8 +5,6 @@ title: DataLake.Contents
 # DataLake.Contents
 
 
-## Description
-
 Enter the URL of your Azure Data Lake Storage Gen1 account.
 
 
@@ -20,7 +18,7 @@ DataLake.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table containing a row for each folder and file found at <code>url</code> from Azure Data Lake Storage Gen1. Each row contains properties of the folder or file and a link to its content.
 

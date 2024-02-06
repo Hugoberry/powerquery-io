@@ -5,8 +5,6 @@ title: Table.Transpose
 # Table.Transpose
 
 
-## Description
-
 Makes columns into rows and rows into columns.
 
 
@@ -20,7 +18,7 @@ Table.Transpose(
 ```
 
 
-## Details
+## Remarks
 
 Makes columns into rows and rows into columns.
 

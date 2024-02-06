@@ -5,8 +5,6 @@ title: Decimal.From
 # Decimal.From
 
 
-## Description
-
 Creates a Decimal from the given value.
 
 
@@ -20,7 +18,7 @@ Decimal.From(
 ```
 
 
-## Details
+## Remarks
 
 Returns a Decimal <code>number</code> value from the given <code>value</code>. If the given <code>value</code> is <code>null</code>, <code>Decimal.From</code> returns <code>null</code>.  If the given <code>value</code> is <code>number</code> within the range of Decimal, <code>value</code> is returned, otherwise an error is returned. If <code>value</code> is of any other type, it will first be converted to a <code>number</code> using <code>Number.FromText</code>. An optional <code>culture</code> may also be provided (for example, "en-US").
 

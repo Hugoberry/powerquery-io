@@ -5,8 +5,6 @@ title: Table.ExpandTableColumn
 # Table.ExpandTableColumn
 
 
-## Description
-
 Expands a column of records or a column of tables into multiple columns in the containing table.
 
 
@@ -22,7 +20,7 @@ Table.ExpandTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Expands tables in <code>table</code>[<code>column</code>] into multiple rows and columns. <code>columnNames</code> is used to select the columns to expand from the inner table. Specify <code>newColumnNames</code> to avoid conflicts between existing columns and new columns.
 

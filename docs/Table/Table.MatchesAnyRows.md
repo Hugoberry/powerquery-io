@@ -5,8 +5,6 @@ title: Table.MatchesAnyRows
 # Table.MatchesAnyRows
 
 
-## Description
-
 Indicates whether any the rows in the table meet the given condition.
 
 
@@ -20,7 +18,7 @@ Table.MatchesAnyRows(
 ```
 
 
-## Details
+## Remarks
 
 Indicates whether any the rows in the <code>table</code> match the given <code>condition</code>. Returns <code>true</code> if any of the rows match, <code>false</code> otherwise.
 

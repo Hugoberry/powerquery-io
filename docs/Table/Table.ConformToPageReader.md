@@ -5,8 +5,6 @@ title: Table.ConformToPageReader
 # Table.ConformToPageReader
 
 
-## Description
-
 This function is intended for internal use only.
 
 
@@ -20,7 +18,7 @@ Table.ConformToPageReader(
 ```
 
 
-## Details
+## Remarks
 
 This function is intended for internal use only.
 

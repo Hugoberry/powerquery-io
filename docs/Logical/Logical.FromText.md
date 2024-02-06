@@ -5,8 +5,6 @@ title: Logical.FromText
 # Logical.FromText
 
 
-## Description
-
 Creates a logical value from the text values &#34;true&#34; and &#34;false&#34;.
 
 
@@ -19,7 +17,7 @@ Logical.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Creates a logical value from the text value <code>text</code>, either "true" or "false". If <code>text</code> contains a different string, an exception is thrown. The text value <code>text</code> is case insensitive.
 

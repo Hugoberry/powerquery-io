@@ -5,8 +5,6 @@ title: SqlExpression.SchemaFrom
 # SqlExpression.SchemaFrom
 
 
-## Description
-
 This function is intended for internal use only.
 
 
@@ -19,7 +17,7 @@ SqlExpression.SchemaFrom(
 ```
 
 
-## Details
+## Remarks
 
 This function is intended for internal use only.
 

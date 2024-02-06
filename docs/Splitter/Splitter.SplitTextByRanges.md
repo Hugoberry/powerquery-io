@@ -5,8 +5,6 @@ title: Splitter.SplitTextByRanges
 # Splitter.SplitTextByRanges
 
 
-## Description
-
 Returns a function that splits text into a list of text according to the specified offsets and lengths.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 Returns a function that splits text into a list of text according to the specified offsets and lengths. A null length indicates that all remaining input should be included.
 

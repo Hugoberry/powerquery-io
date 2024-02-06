@@ -5,8 +5,6 @@ title: AzureSpark.Tables
 # AzureSpark.Tables
 
 
-## Description
-
 List the tables in an Azure Spark instance.
 
 
@@ -20,7 +18,7 @@ AzureSpark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 List the tables in an Azure Spark instance.
 

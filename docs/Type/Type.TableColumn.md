@@ -5,8 +5,6 @@ title: Type.TableColumn
 # Type.TableColumn
 
 
-## Description
-
 Returns the type of a column in a table.
 
 
@@ -20,7 +18,7 @@ Type.TableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Returns the type of the column <code>column</code> in the table type <code>tableType</code>.
 

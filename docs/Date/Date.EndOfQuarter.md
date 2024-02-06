@@ -5,8 +5,6 @@ title: Date.EndOfQuarter
 # Date.EndOfQuarter
 
 
-## Description
-
 Returns the end of the quarter.
 
 
@@ -19,7 +17,7 @@ Date.EndOfQuarter(
 ```
 
 
-## Details
+## Remarks
 
 Returns the end of the quarter that contains <code>dateTime</code>. Time zone information is preserved.      <ul>      <li><code>dateTime</code>: A <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> value from which the end of the quarter is calculated.</li>      </ul>
 

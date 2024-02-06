@@ -5,8 +5,6 @@ title: List.RemoveLastN
 # List.RemoveLastN
 
 
-## Description
-
 Returns a list that removes the specified number of elements from the end of the list.
 
 
@@ -20,7 +18,7 @@ List.RemoveLastN(
 ```
 
 
-## Details
+## Remarks
 
 Returns a list that removes the last <code>countOrCondition</code> elements from the end of list <code>list</code>. If <code>list</code> has less than <code>countOrCondition</code> elements, an empty list is returned. <ul> <li>If a number is specified, up to that many items are removed. </li> <li>If a condition is specified, the returned list ends with the first element from the bottom in <code>list</code> that meets the criteria. Once an item fails the condition, no further items are considered. </li> <li>If this parameter is null, only one item is removed. </li> </ul>
 

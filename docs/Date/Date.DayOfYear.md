@@ -5,8 +5,6 @@ title: Date.DayOfYear
 # Date.DayOfYear
 
 
-## Description
-
 Returns a number from 1 to 366 representing the day of the year.
 
 
@@ -19,7 +17,7 @@ Date.DayOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Returns a number representing the day of the year in the provided <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> value, <code>dateTime</code>.
 

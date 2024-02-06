@@ -5,8 +5,6 @@ title: Table.ToRows
 # Table.ToRows
 
 
-## Description
-
 Creates a list of nested lists of row values from a table.
 
 
@@ -19,7 +17,7 @@ Table.ToRows(
 ```
 
 
-## Details
+## Remarks
 
 Creates a list of nested lists from the table, <code>table</code>.  Each list item is an inner list that contains the row values.
 

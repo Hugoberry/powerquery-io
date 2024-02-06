@@ -5,8 +5,6 @@ title: Date.Year
 # Date.Year
 
 
-## Description
-
 Returns the year component.
 
 
@@ -19,7 +17,7 @@ Date.Year(
 ```
 
 
-## Details
+## Remarks
 
 Returns the year component of the provided <code>datetime</code> value, <code>dateTime</code>.
 

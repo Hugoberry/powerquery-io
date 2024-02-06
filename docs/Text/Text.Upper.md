@@ -5,8 +5,6 @@ title: Text.Upper
 # Text.Upper
 
 
-## Description
-
 Converts all characters to uppercase.
 
 
@@ -20,7 +18,7 @@ Text.Upper(
 ```
 
 
-## Details
+## Remarks
 
 Returns the result of converting all characters in <code>text</code> to uppercase. An optional <code>culture</code> may also be provided (for example, "en-US").
 

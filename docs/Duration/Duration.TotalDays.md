@@ -5,8 +5,6 @@ title: Duration.TotalDays
 # Duration.TotalDays
 
 
-## Description
-
 Returns the total days this duration spans.
 
 
@@ -19,7 +17,7 @@ Duration.TotalDays(
 ```
 
 
-## Details
+## Remarks
 
 Returns the total days spanned by <code>duration</code>.
 

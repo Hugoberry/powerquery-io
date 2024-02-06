@@ -5,8 +5,6 @@ title: Text.Middle
 # Text.Middle
 
 
-## Description
-
 Returns the substring up to a specific length.
 
 
@@ -21,7 +19,7 @@ Text.Middle(
 ```
 
 
-## Details
+## Remarks
 
 Returns <code>count</code> characters, or through the end of <code>text</code>; at the offset <code>start</code>.
 

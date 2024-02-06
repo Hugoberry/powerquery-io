@@ -16,7 +16,7 @@ SingleStoreODBC.DataSource(
 ```
 
 
-## Details
+## Remarks
 
 The SingleStore Connector is a high-performance connector that lets you DirectQuery and import data from your SingleStore instance.
 

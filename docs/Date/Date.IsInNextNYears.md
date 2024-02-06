@@ -5,8 +5,6 @@ title: Date.IsInNextNYears
 # Date.IsInNextNYears
 
 
-## Description
-
 Indicates whether this date occurs during the next number of years, as determined by the current date and time on the system. Note that this function will return false when passed a value that occurs within the current year.
 
 
@@ -20,7 +18,7 @@ Date.IsInNextNYears(
 ```
 
 
-## Details
+## Remarks
 
 Indicates whether the given datetime value <code>dateTime</code> occurs during the next number of years, as determined by the current date and time on the system. Note that this function will return false when passed a value that occurs within the current year.      <ul>      <li><code>dateTime</code>: A <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> value to be evaluated.</li>      <li><code>years</code>: The number of years.</li>      </ul>
 

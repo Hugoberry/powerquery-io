@@ -16,7 +16,7 @@ DremioCloud.Databases(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table listing the datasets in the specified project on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource. This function is maintained for backward compatibility with previous connector versions of Dremio Cloud.
 

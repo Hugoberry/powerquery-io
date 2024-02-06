@@ -5,8 +5,6 @@ title: Duration.TotalSeconds
 # Duration.TotalSeconds
 
 
-## Description
-
 Returns the total seconds this duration spans.
 
 
@@ -19,7 +17,7 @@ Duration.TotalSeconds(
 ```
 
 
-## Details
+## Remarks
 
 Returns the total seconds spanned by <code>duration</code>.
 

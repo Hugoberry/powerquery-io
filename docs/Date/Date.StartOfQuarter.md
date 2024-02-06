@@ -5,8 +5,6 @@ title: Date.StartOfQuarter
 # Date.StartOfQuarter
 
 
-## Description
-
 Returns the start of the quarter.
 
 
@@ -19,7 +17,7 @@ Date.StartOfQuarter(
 ```
 
 
-## Details
+## Remarks
 
 Returns the start of the quarter that contains <code>dateTime</code>.      <code>dateTime</code> must be a <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> value.
 

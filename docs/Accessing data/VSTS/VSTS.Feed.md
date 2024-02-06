@@ -5,8 +5,6 @@ title: VSTS.Feed
 # VSTS.Feed
 
 
-## Description
-
 Azure DevOps Services Feed
 
 
@@ -20,7 +18,7 @@ VSTS.Feed(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table of OData feeds offered by Azure DevOps.
 

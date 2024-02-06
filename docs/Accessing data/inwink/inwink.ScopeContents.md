@@ -17,7 +17,7 @@ inwink.ScopeContents(
 ```
 
 
-## Details
+## Remarks
 
 inwink data
 

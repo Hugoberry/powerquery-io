@@ -19,7 +19,7 @@ AzureResourceGraph.Query(
 ```
 
 
-## Details
+## Remarks
 
 See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.
 

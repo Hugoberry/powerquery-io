@@ -5,8 +5,6 @@ title: Table.First
 # Table.First
 
 
-## Description
-
 Returns the first row or a specified default value.
 
 
@@ -20,7 +18,7 @@ Table.First(
 ```
 
 
-## Details
+## Remarks
 
 Returns the first row of the <code>table</code> or an optional default value, <code>default</code>, if the table is empty.
 

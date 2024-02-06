@@ -5,8 +5,6 @@ title: Excel.CurrentWorkbook
 # Excel.CurrentWorkbook
 
 
-## Description
-
 Returns the contents of the current Excel workbook.
 
 
@@ -19,7 +17,7 @@ Excel.CurrentWorkbook(
 ```
 
 
-## Details
+## Remarks
 
 Returns the contents of the current Excel workbook. It returns tables, named ranges, and dynamic arrays. Unlike <code>Excel.Workbook</code>, it does not return sheets.
 

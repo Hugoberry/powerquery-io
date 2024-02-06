@@ -5,8 +5,6 @@ title: Function.Invoke
 # Function.Invoke
 
 
-## Description
-
 Invokes the given function
 
 
@@ -20,7 +18,7 @@ Function.Invoke(
 ```
 
 
-## Details
+## Remarks
 
 Invokes the given function using the specified list of arguments and returns the result.
 

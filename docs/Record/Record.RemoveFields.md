@@ -5,8 +5,6 @@ title: Record.RemoveFields
 # Record.RemoveFields
 
 
-## Description
-
 Removes the specified field(s) from the input record.
 
 
@@ -21,7 +19,7 @@ Record.RemoveFields(
 ```
 
 
-## Details
+## Remarks
 
 Returns a record that removes all the fields specified in list <code>fields</code> from the input <code>record</code>. If the field specified does not exist, an exception is thrown.
 

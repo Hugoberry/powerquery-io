@@ -5,8 +5,6 @@ title: AzureEnterprise.Tables
 # AzureEnterprise.Tables
 
 
-## Description
-
 Enter the URL of the Azure Enterprise REST API endpoint associated with your enrollment
 
 
@@ -19,7 +17,7 @@ AzureEnterprise.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Returns a list of reports and months available from the Azure Enterprise API
 

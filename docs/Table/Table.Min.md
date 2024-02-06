@@ -5,8 +5,6 @@ title: Table.Min
 # Table.Min
 
 
-## Description
-
 Returns the smallest row or a default value using the given criteria.
 
 
@@ -21,7 +19,7 @@ Table.Min(
 ```
 
 
-## Details
+## Remarks
 
 Returns the smallest row in the <code>table</code>, given the <code>comparisonCriteria</code>. If the table is empty, the optional <code>default</code> value is returned.
 

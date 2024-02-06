@@ -5,8 +5,6 @@ title: Duration.Days
 # Duration.Days
 
 
-## Description
-
 Returns the days portion of a duration.
 
 
@@ -19,7 +17,7 @@ Duration.Days(
 ```
 
 
-## Details
+## Remarks
 
 Returns the days portion of <code>duration</code>.
 

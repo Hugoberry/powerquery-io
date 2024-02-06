@@ -5,8 +5,6 @@ title: Record.FieldOrDefault
 # Record.FieldOrDefault
 
 
-## Description
-
 Returns the value of the specified field in a record or the default value if the field is not found.
 
 
@@ -21,7 +19,7 @@ Record.FieldOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 Returns the value of the specified field <code>field</code> in the record <code>record</code>. If the field is not found, the optional <code>defaultValue</code> is returned.
 

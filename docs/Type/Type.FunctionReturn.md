@@ -5,8 +5,6 @@ title: Type.FunctionReturn
 # Type.FunctionReturn
 
 
-## Description
-
 Returns a type returned by a function type.
 
 
@@ -19,7 +17,7 @@ Type.FunctionReturn(
 ```
 
 
-## Details
+## Remarks
 
 Returns a type returned by a function <code>type</code>.
 

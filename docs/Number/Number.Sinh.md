@@ -5,8 +5,6 @@ title: Number.Sinh
 # Number.Sinh
 
 
-## Description
-
 Returns the hyperbolic sine of the number.
 
 
@@ -19,7 +17,7 @@ Number.Sinh(
 ```
 
 
-## Details
+## Remarks
 
 Returns the hyperbolic sine of <code>number</code>.
 

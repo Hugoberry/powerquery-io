@@ -5,8 +5,6 @@ title: MailChimp.Collection
 # MailChimp.Collection
 
 
-## Description
-
 Returns a table with data from a MailChimp endpoint.
 
 
@@ -20,7 +18,7 @@ MailChimp.Collection(
 ```
 
 
-## Details
+## Remarks
 
 Makes a call to the MailChimp API and returns the resulting dataset as a table. Automatically pages through all results. Optional entityName parameter can be used for API endpoints where the root endpoint and main entityName in JSON response do not match.
 

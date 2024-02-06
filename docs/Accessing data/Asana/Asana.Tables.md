@@ -15,7 +15,7 @@ Asana.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table with Asana task data
 

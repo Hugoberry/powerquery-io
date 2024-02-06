@@ -5,8 +5,6 @@ title: Date.IsInNextNQuarters
 # Date.IsInNextNQuarters
 
 
-## Description
-
 Indicates whether this date occurs during the next number of quarters, as determined by the current date and time on the system. Note that this function will return false when passed a value that occurs within the current quarter.
 
 
@@ -20,7 +18,7 @@ Date.IsInNextNQuarters(
 ```
 
 
-## Details
+## Remarks
 
 Indicates whether the given datetime value <code>dateTime</code> occurs during the next number of quarters, as determined by the current date and time on the system. Note that this function will return false when passed a value that occurs within the current quarter.      <ul>      <li><code>dateTime</code>: A <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> value to be evaluated.</li>      <li><code>quarters</code>: The number of quarters.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Record.FieldValues
 # Record.FieldValues
 
 
-## Description
-
 Returns a list of the field values.
 
 
@@ -19,7 +17,7 @@ Record.FieldValues(
 ```
 
 
-## Details
+## Remarks
 
 Returns a list of the field values in record <code>record</code>.
 

@@ -5,8 +5,6 @@ title: Table.DemoteHeaders
 # Table.DemoteHeaders
 
 
-## Description
-
 Demotes the column headers to the first row of values.
 
 
@@ -19,7 +17,7 @@ Table.DemoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Demotes the column headers (i.e. column names) to the first row of values. The default column names are "Column1", "Column2" and so on.
 

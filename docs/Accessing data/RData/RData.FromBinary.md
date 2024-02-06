@@ -5,8 +5,6 @@ title: RData.FromBinary
 # RData.FromBinary
 
 
-## Description
-
 Returns a record of data frames from the RData file.
 
 
@@ -19,7 +17,7 @@ RData.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 Returns a record of data frames from the RData file.
 

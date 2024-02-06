@@ -5,8 +5,6 @@ title: Date.IsLeapYear
 # Date.IsLeapYear
 
 
-## Description
-
 Indicates whether this date falls in a leap year.
 
 
@@ -19,7 +17,7 @@ Date.IsLeapYear(
 ```
 
 
-## Details
+## Remarks
 
 Indicates whether the given datetime value <code>dateTime</code> falls in is a leap year. <ul>        <li><code>dateTime</code>: A <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> value to be evaluated.</li>      </ul>
 

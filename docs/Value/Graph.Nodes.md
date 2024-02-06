@@ -5,8 +5,6 @@ title: Graph.Nodes
 # Graph.Nodes
 
 
-## Description
-
 This function is intended for internal use only.
 
 
@@ -19,7 +17,7 @@ Graph.Nodes(
 ```
 
 
-## Details
+## Remarks
 
 This function is intended for internal use only.
 

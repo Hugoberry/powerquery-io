@@ -5,8 +5,6 @@ title: PlanviewProjectplace.Contents
 # PlanviewProjectplace.Contents
 
 
-## Description
-
 Enter the URL of your Planview ProjectPlace account.
 
 
@@ -19,7 +17,7 @@ PlanviewProjectplace.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table with relevant Planview ProjectPlace data.
 

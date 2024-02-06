@@ -5,8 +5,6 @@ title: Resource.Access
 # Resource.Access
 
 
-## Description
-
 Resource.Access
 
 
@@ -21,7 +19,7 @@ Resource.Access(
 ```
 
 
-## Details
+## Remarks
 
 Resource.Access
 

@@ -16,7 +16,7 @@ DCWInsights.Feed(
 ```
 
 
-## Details
+## Remarks
 
 Use the DCW Integrations Platform OData API to build powerful reports and dashboards. Consult the API documentation to get the various endpoints available as well as  how to obtain to your JWT key.
 

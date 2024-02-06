@@ -5,8 +5,6 @@ title: BinaryFormat.Byte
 # BinaryFormat.Byte
 
 
-## Description
-
 A binary format that reads an 8-bit unsigned integer.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Byte(
 ```
 
 
-## Details
+## Remarks
 
 A binary format that reads an 8-bit unsigned integer.
 

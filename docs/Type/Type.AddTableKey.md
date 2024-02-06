@@ -5,8 +5,6 @@ title: Type.AddTableKey
 # Type.AddTableKey
 
 
-## Description
-
 Adds a key to the given table type.
 
 
@@ -21,7 +19,7 @@ Type.AddTableKey(
 ```
 
 
-## Details
+## Remarks
 
 Adds a key to the given table type.
 

@@ -5,8 +5,6 @@ title: BinaryFormat.Double
 # BinaryFormat.Double
 
 
-## Description
-
 A binary format that reads an 8-byte IEEE double-precision floating point value.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Double(
 ```
 
 
-## Details
+## Remarks
 
 A binary format that reads an 8-byte IEEE double-precision floating point value.
 

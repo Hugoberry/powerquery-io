@@ -5,8 +5,6 @@ title: AzureDevOpsServer.Views
 # AzureDevOpsServer.Views
 
 
-## Description
-
 Enter organization and project names.
 
 
@@ -22,7 +20,7 @@ AzureDevOpsServer.Views(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table of OData feeds offered by Azure DevOps.
 

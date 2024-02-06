@@ -5,8 +5,6 @@ title: List.Single
 # List.Single
 
 
-## Description
-
 Returns the one list item for a list of length one, otherwise throws an exception.
 
 
@@ -19,7 +17,7 @@ List.Single(
 ```
 
 
-## Details
+## Remarks
 
 If there is only one item in the list <code>list</code>, returns that item.    If there is more than one item or the list is empty, the function throws an exception.
 

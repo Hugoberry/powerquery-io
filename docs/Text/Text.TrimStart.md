@@ -5,8 +5,6 @@ title: Text.TrimStart
 # Text.TrimStart
 
 
-## Description
-
 Removes all leading whitespace.
 
 
@@ -20,7 +18,7 @@ Text.TrimStart(
 ```
 
 
-## Details
+## Remarks
 
 Returns the result of removing all leading whitespace from text value <code>text</code>.
 

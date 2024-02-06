@@ -5,8 +5,6 @@ title: Table.RemoveMatchingRows
 # Table.RemoveMatchingRows
 
 
-## Description
-
 Removes all occurrences of the specified rows from the table.
 
 
@@ -21,7 +19,7 @@ Table.RemoveMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 Removes all occurrences of the specified <code>rows</code> from the <code>table</code>.    An optional parameter <code>equationCriteria</code> may be specified to control the comparison between the rows of the table.
 

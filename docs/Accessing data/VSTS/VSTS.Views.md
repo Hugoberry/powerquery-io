@@ -5,8 +5,6 @@ title: VSTS.Views
 # VSTS.Views
 
 
-## Description
-
 Enter organization and project names.
 
 
@@ -22,7 +20,7 @@ VSTS.Views(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table of OData feeds offered by Azure DevOps.
 

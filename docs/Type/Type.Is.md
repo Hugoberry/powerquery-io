@@ -5,8 +5,6 @@ title: Type.Is
 # Type.Is
 
 
-## Description
-
 Determines if a value of the first type is always compatible with the second type.
 
 
@@ -20,7 +18,7 @@ Type.Is(
 ```
 
 
-## Details
+## Remarks
 
 Determines if a value of <code>type1</code> is always compatible with <code>type2</code>.
 

@@ -5,8 +5,6 @@ title: Value.ReplaceMetadata
 # Value.ReplaceMetadata
 
 
-## Description
-
 Replaces the input&#39;s metadata information.
 
 
@@ -20,7 +18,7 @@ Value.ReplaceMetadata(
 ```
 
 
-## Details
+## Remarks
 
 Replaces the input's metadata information.
 

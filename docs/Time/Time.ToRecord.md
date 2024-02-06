@@ -5,8 +5,6 @@ title: Time.ToRecord
 # Time.ToRecord
 
 
-## Description
-
 Returns a record containing the Time value&#39;s parts.
 
 
@@ -19,7 +17,7 @@ Time.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Returns a record containing the parts of the given Time value, <code>time</code>. <ul>        <li><code>time</code>: A <code>time</code> value for from which the record of its parts is to be calculated.</li>      </ul>
 

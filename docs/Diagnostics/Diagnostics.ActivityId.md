@@ -5,8 +5,6 @@ title: Diagnostics.ActivityId
 # Diagnostics.ActivityId
 
 
-## Description
-
 Returns an opaque identifier for the currently-running evaluation.
 
 
@@ -19,7 +17,7 @@ Diagnostics.ActivityId(
 ```
 
 
-## Details
+## Remarks
 
 Returns an opaque identifier for the currently-running evaluation.
 

@@ -5,8 +5,6 @@ title: Table.ReplaceRelationshipIdentity
 # Table.ReplaceRelationshipIdentity
 
 
-## Description
-
 This function is intended for internal use only.
 
 
@@ -20,7 +18,7 @@ Table.ReplaceRelationshipIdentity(
 ```
 
 
-## Details
+## Remarks
 
 This function is intended for internal use only.
 

@@ -5,8 +5,6 @@ title: List.FirstN
 # List.FirstN
 
 
-## Description
-
 Returns the first set of items in the list by specifying how many items to return or a qualifying condition.
 
 
@@ -20,7 +18,7 @@ List.FirstN(
 ```
 
 
-## Details
+## Remarks
 
  <ul>  <li>If a number is specified, up to that many items are returned. </li>  <li>If a condition is specified, all items are returned that initially meet the condition. Once an item fails the condition, no further items are considered. </li> </ul>
 

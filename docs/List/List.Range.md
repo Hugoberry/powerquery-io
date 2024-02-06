@@ -5,8 +5,6 @@ title: List.Range
 # List.Range
 
 
-## Description
-
 Returns a subset of the list beginning at an offset.
 
 
@@ -21,7 +19,7 @@ List.Range(
 ```
 
 
-## Details
+## Remarks
 
 Returns a subset of the list beginning at the offset <code>list</code>. An optional parameter, <code>offset</code>, sets the maximum number of items in the subset.
 

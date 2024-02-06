@@ -5,8 +5,6 @@ title: Value.Multiply
 # Value.Multiply
 
 
-## Description
-
 Returns the product of the two values.
 
 
@@ -21,7 +19,7 @@ Value.Multiply(
 ```
 
 
-## Details
+## Remarks
 
 Returns the product of multiplying <code>value1</code> by <code>value2</code>. An optional <code>precision</code> parameter may be specified, by default <code>Precision.Double</code> is used.
 

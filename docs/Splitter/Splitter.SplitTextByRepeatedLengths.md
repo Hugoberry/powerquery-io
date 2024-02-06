@@ -5,8 +5,6 @@ title: Splitter.SplitTextByRepeatedLengths
 # Splitter.SplitTextByRepeatedLengths
 
 
-## Description
-
 Returns a function that splits text into a list of text after the specified length repeatedly.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByRepeatedLengths(
 ```
 
 
-## Details
+## Remarks
 
 Returns a function that splits text into a list of text after the specified length repeatedly.
 

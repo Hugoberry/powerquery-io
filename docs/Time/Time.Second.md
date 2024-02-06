@@ -5,8 +5,6 @@ title: Time.Second
 # Time.Second
 
 
-## Description
-
 Returns the second component.
 
 
@@ -19,7 +17,7 @@ Time.Second(
 ```
 
 
-## Details
+## Remarks
 
 Returns the second component of the provided <code>time</code>, <code>datetime</code>, or <code>datetimezone</code> value, <code>dateTime</code>.
 

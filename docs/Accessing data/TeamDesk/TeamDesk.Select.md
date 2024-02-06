@@ -19,7 +19,7 @@ TeamDesk.Select(
 ```
 
 
-## Details
+## Remarks
 
 Retrieves the data from select columns in provided table. You can also apply an additional filter for results as well as change the order in which records are retrieved.
 

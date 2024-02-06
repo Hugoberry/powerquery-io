@@ -5,8 +5,6 @@ title: List.Average
 # List.Average
 
 
-## Description
-
 Returns the average of the values. Works with number, date, datetime, datetimezone and duration values.
 
 
@@ -20,7 +18,7 @@ List.Average(
 ```
 
 
-## Details
+## Remarks
 
 Returns the average value for the items in the list, <code>list</code>. The result is given in the same datatype as the values in the list. Only works with number, date, time, datetime, datetimezone and duration values.    If the list is empty null is returned.
 

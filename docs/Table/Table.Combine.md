@@ -5,8 +5,6 @@ title: Table.Combine
 # Table.Combine
 
 
-## Description
-
 Returns a table that is the result of merging a list of tables.
 
 
@@ -20,7 +18,7 @@ Table.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table that is the result of merging a list of tables, <code>tables</code>. The resulting table will have a row type structure defined by <code>columns</code> or by a union of the input types if <code>columns</code> is not specified.
 

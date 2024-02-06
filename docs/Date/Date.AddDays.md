@@ -5,8 +5,6 @@ title: Date.AddDays
 # Date.AddDays
 
 
-## Description
-
 Adds the specified days to the date.
 
 
@@ -20,7 +18,7 @@ Date.AddDays(
 ```
 
 
-## Details
+## Remarks
 
 Returns the <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> result from adding <code>numberOfDays</code> days to the <code>datetime</code> value <code>dateTime</code>.      <ul>      <li><code>dateTime</code>: The <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> value to which days are being added.</li>      <li><code>numberOfDays</code>: The number of days to add.</li>      </ul>
 

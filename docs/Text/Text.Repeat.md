@@ -5,8 +5,6 @@ title: Text.Repeat
 # Text.Repeat
 
 
-## Description
-
 Returns a text value composed of the input text repeated a specified number of times.
 
 
@@ -20,7 +18,7 @@ Text.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 Returns a text value composed of the input text <code>text</code> repeated <code>count</code> times.
 

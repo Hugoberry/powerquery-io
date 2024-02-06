@@ -5,8 +5,6 @@ title: List.Product
 # List.Product
 
 
-## Description
-
 Returns the product of the numbers in the list.
 
 
@@ -20,7 +18,7 @@ List.Product(
 ```
 
 
-## Details
+## Remarks
 
 Returns the product of the non-null numbers in the list, <code>numbersList</code>. Returns null if there are no non-null values in the list.
 

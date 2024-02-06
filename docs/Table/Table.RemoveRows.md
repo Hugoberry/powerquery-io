@@ -5,8 +5,6 @@ title: Table.RemoveRows
 # Table.RemoveRows
 
 
-## Description
-
 Removes the specified number of rows.
 
 
@@ -21,7 +19,7 @@ Table.RemoveRows(
 ```
 
 
-## Details
+## Remarks
 
 Removes <code>count</code> of rows from the beginning of the <code>table</code>, starting at the <code>offset</code> specified. A default count of 1 is used if the <code>count</code> parameter isn't provided. 
 

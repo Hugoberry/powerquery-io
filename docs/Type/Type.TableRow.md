@@ -5,8 +5,6 @@ title: Type.TableRow
 # Type.TableRow
 
 
-## Description
-
 Returns the row type of the table type.
 
 
@@ -19,7 +17,7 @@ Type.TableRow(
 ```
 
 
-## Details
+## Remarks
 
 Returns the row type of the specified table type. The result will always be a record type.
 

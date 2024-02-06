@@ -16,7 +16,7 @@ Exasol.Database(
 ```
 
 
-## Details
+## Remarks
 
 Exasol
 

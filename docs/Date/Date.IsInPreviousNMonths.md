@@ -5,8 +5,6 @@ title: Date.IsInPreviousNMonths
 # Date.IsInPreviousNMonths
 
 
-## Description
-
 Indicates whether this date occurs during the previous number of months, as determined by the current date and time on the system. Note that this function will return false when passed a value that occurs within the current month.
 
 
@@ -20,7 +18,7 @@ Date.IsInPreviousNMonths(
 ```
 
 
-## Details
+## Remarks
 
 Indicates whether the given datetime value <code>dateTime</code> occurs during the previous number of months, as determined by the current date and time on the system. Note that this function will return false when passed a value that occurs within the current month.      <ul>      <li><code>dateTime</code>: A <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> value to be evaluated.</li>      <li><code>months</code>: The number of months.</li>      </ul>
 

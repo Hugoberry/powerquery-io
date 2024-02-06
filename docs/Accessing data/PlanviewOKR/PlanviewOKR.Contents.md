@@ -5,8 +5,6 @@ title: PlanviewOKR.Contents
 # PlanviewOKR.Contents
 
 
-## Description
-
 Enter the URL of your Planview OKR account.
 
 
@@ -19,7 +17,7 @@ PlanviewOKR.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table with relevant Planview OKR data.
 

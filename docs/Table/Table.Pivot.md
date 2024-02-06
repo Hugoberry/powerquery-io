@@ -5,8 +5,6 @@ title: Table.Pivot
 # Table.Pivot
 
 
-## Description
-
 Given a pair of columns representing attribute-value pairs, rotates the data in the attribute column into a column headings.
 
 
@@ -23,7 +21,7 @@ Table.Pivot(
 ```
 
 
-## Details
+## Remarks
 
 Given a pair of columns representing attribute-value pairs, rotates the data in the attribute column into a column headings.
 

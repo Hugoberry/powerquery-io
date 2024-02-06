@@ -5,8 +5,6 @@ title: Table.SelectRows
 # Table.SelectRows
 
 
-## Description
-
 Selects the rows that meet the condition function.
 
 
@@ -20,7 +18,7 @@ Table.SelectRows(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table of rows from the <code>table</code>, that matches the selection <code>condition</code>.
 

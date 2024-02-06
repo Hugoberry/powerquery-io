@@ -5,8 +5,6 @@ title: Table.AddKey
 # Table.AddKey
 
 
-## Description
-
 Adds a key to a table.
 
 
@@ -21,7 +19,7 @@ Table.AddKey(
 ```
 
 
-## Details
+## Remarks
 
 Adds a key to <code>table</code>, where <code>columns</code> is the list of column names that define the key, and <code>isPrimary</code> specifies whether the key is primary.
 

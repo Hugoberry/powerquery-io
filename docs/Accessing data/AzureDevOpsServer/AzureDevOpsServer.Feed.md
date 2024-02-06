@@ -5,8 +5,6 @@ title: AzureDevOpsServer.Feed
 # AzureDevOpsServer.Feed
 
 
-## Description
-
 Azure DevOps Services Feed
 
 
@@ -20,7 +18,7 @@ AzureDevOpsServer.Feed(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table of OData feeds offered by Azure DevOps.
 

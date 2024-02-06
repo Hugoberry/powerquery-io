@@ -5,8 +5,6 @@ title: Table.FirstValue
 # Table.FirstValue
 
 
-## Description
-
 Returns the first column of the first row of the table or a specified default value.
 
 
@@ -20,7 +18,7 @@ Table.FirstValue(
 ```
 
 
-## Details
+## Remarks
 
 Returns the first column of the first row of the table <code>table</code> or a specified default value.
 

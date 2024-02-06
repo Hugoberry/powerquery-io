@@ -15,7 +15,7 @@ SparkPost.GetList(
 ```
 
 
-## Details
+## Remarks
 
 This function can be used to call any of the "Lists" endpoints offered by the SparkPost API v1. When making calls to the SparkPost API using this function, keep in mind that the SparkPost API has a strict API rate limit. If you see a 429 status code being returned from the SparkPost server you have hit the rate limit and will need to wait a few moments before making more calls.
 

@@ -5,8 +5,6 @@ title: Table.SplitAt
 # Table.SplitAt
 
 
-## Description
-
 Returns a list containing the first count rows specified and the remaining rows.
 
 
@@ -20,7 +18,7 @@ Table.SplitAt(
 ```
 
 
-## Details
+## Remarks
 
 Returns a list containing two tables: a table with the first N rows of <code>table</code> (as specified by <code>count</code>) and a table containing the remaining rows of <code>table</code>.If the tables of the resulting list are enumerated exactly once and in order, the function will enumerate <code>table</code> only once.
 

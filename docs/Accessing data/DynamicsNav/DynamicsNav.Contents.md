@@ -5,8 +5,6 @@ title: DynamicsNav.Contents
 # DynamicsNav.Contents
 
 
-## Description
-
 Enter the URL of your Dynamics NAV OData service endpoint.
 
 
@@ -20,7 +18,7 @@ DynamicsNav.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table with relevant Dynamics NAV data. 
 

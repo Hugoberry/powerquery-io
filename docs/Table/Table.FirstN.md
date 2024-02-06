@@ -5,8 +5,6 @@ title: Table.FirstN
 # Table.FirstN
 
 
-## Description
-
 Returns the first count rows specified.
 
 
@@ -20,7 +18,7 @@ Table.FirstN(
 ```
 
 
-## Details
+## Remarks
 
 Returns the first row(s) of the table <code>table</code>, depending on the value of <code>countOrCondition</code>:    <ul>    <li> If <code>countOrCondition</code> is a number, that many rows (starting at the top) will be returned. </li>    <li> If <code>countOrCondition</code> is a condition, the rows that meet the condition will be returned until a row does not meet the condition.</li></ul>
 

@@ -17,7 +17,7 @@ Tenforce.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Selection data
 

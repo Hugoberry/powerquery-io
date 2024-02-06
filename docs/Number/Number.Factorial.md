@@ -5,8 +5,6 @@ title: Number.Factorial
 # Number.Factorial
 
 
-## Description
-
 Returns the factorial of the number.
 
 
@@ -19,7 +17,7 @@ Number.Factorial(
 ```
 
 
-## Details
+## Remarks
 
 Returns the factorial of the number <code>number</code>.
 

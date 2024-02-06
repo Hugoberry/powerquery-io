@@ -5,8 +5,6 @@ title: Date.EndOfMonth
 # Date.EndOfMonth
 
 
-## Description
-
 Returns the end of the month.
 
 
@@ -19,7 +17,7 @@ Date.EndOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 Returns the end of the month that contains <code>dateTime</code>.      <ul>        <li><code>dateTime</code>: A <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> value from which the end of the month is calculated</li>      </ul>
 

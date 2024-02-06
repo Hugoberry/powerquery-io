@@ -5,8 +5,6 @@ title: Table.MinN
 # Table.MinN
 
 
-## Description
-
 Returns the smallest row(s) using the given criteria.
 
 
@@ -21,7 +19,7 @@ Table.MinN(
 ```
 
 
-## Details
+## Remarks
 
 Returns the smallest row(s) in the <code>table</code>, given the <code>comparisonCriteria</code>. After the rows are sorted, the <code>countOrCondition</code> parameter must be specified to further filter the result. Note the sorting algorithm cannot guarantee a fixed sorted result. The <code>countOrCondition</code> parameter can take multiple forms:    <ul>        <li> If a number is specified, a list of up to <code>countOrCondition</code> items in ascending order is returned. </li>        <li> If a condition is specified, a list of items that initially meet the condition is returned. Once an item fails the condition, no further items are considered. </li> </ul>
 

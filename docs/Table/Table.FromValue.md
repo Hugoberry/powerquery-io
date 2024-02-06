@@ -5,8 +5,6 @@ title: Table.FromValue
 # Table.FromValue
 
 
-## Description
-
 Creates a table with a column from the provided value(s).
 
 
@@ -20,7 +18,7 @@ Table.FromValue(
 ```
 
 
-## Details
+## Remarks
 
 Creates a table with a column containing the provided value or list of values, <code>value</code>. An optional record parameter, <code>options</code>, may be specified to control the following options:    <ul>    <li> <code>DefaultColumnName</code> : The column name used when constructing a table from a list or scalar value.</li>    </ul>  
 

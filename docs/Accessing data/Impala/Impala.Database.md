@@ -5,8 +5,6 @@ title: Impala.Database
 # Impala.Database
 
 
-## Description
-
 Import data from an Impala cluster
 
 
@@ -20,7 +18,7 @@ Impala.Database(
 ```
 
 
-## Details
+## Remarks
 
 Import data from an Impala cluster <code>server</code>. If a port wasn't specified, the default port 21050 will be used.
 

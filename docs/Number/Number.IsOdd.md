@@ -5,8 +5,6 @@ title: Number.IsOdd
 # Number.IsOdd
 
 
-## Description
-
 Indicates if the value is odd.
 
 
@@ -19,7 +17,7 @@ Number.IsOdd(
 ```
 
 
-## Details
+## Remarks
 
 Indicates if the value is odd. Returns <code>true</code> if <code>number</code> is an odd number, <code>false</code> otherwise.
 

@@ -5,8 +5,6 @@ title: Table.ExpandRecordColumn
 # Table.ExpandRecordColumn
 
 
-## Description
-
 Expands a column of records into columns with each of the values.
 
 
@@ -22,7 +20,7 @@ Table.ExpandRecordColumn(
 ```
 
 
-## Details
+## Remarks
 
 Given the <code>column</code> of records in the input <code>table</code>, creates a table with a column for each field in the record. Optionally, <code>newColumnNames</code> may be specified to ensure unique names for the columns in the new table.    <ul>        <li><code>table</code>: The original table with the record column to expand. </li>        <li><code>column</code>: The column to expand.</li>        <li><code>fieldNames</code>: The list of fields to expand into columns in the table.</li>        <li><code>newColumnNames</code>: The list of column names to give the new columns. The new column names cannot duplicate any column in the new table.</li>    </ul>
 

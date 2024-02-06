@@ -15,7 +15,7 @@ TeamDesk.Database(
 ```
 
 
-## Details
+## Remarks
 
 Connects to TeamDesk database and let you select a table and a view to retrieve the data from.
 

@@ -5,8 +5,6 @@ title: Table.PrefixColumns
 # Table.PrefixColumns
 
 
-## Description
-
 Returns a table where the columns have all been prefixed with the given text.
 
 
@@ -20,7 +18,7 @@ Table.PrefixColumns(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table where all the column names from the <code>table</code> provided are prefixed with the given text, <code>prefix</code>, plus a period in the form <code>prefix</code><code>.ColumnName</code>.
 

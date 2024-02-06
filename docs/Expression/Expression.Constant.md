@@ -5,8 +5,6 @@ title: Expression.Constant
 # Expression.Constant
 
 
-## Description
-
 Returns the M source code representation of a constant value.
 
 
@@ -19,7 +17,7 @@ Expression.Constant(
 ```
 
 
-## Details
+## Remarks
 
 Returns the M source code representation of a constant value.
 

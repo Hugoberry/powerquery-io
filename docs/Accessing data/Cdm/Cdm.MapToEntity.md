@@ -5,8 +5,6 @@ title: Cdm.MapToEntity
 # Cdm.MapToEntity
 
 
-## Description
-
 Returns a table with columns mapped to the attributes of an entity in the Common Data Model, including data types.
 
 
@@ -22,7 +20,7 @@ Cdm.MapToEntity(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table with columns mapped to the attributes of an entity in the Common Data Model, including data types. Columns from the entity definition will be added if not mapped, and any unmapped columns will be removed.
 

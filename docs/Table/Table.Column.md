@@ -5,8 +5,6 @@ title: Table.Column
 # Table.Column
 
 
-## Description
-
 Returns a specified column of data from the table as a list.
 
 
@@ -20,7 +18,7 @@ Table.Column(
 ```
 
 
-## Details
+## Remarks
 
 Returns the column of data specified by <code>column</code> from the table <code>table</code> as a list.
 

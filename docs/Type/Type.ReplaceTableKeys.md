@@ -5,8 +5,6 @@ title: Type.ReplaceTableKeys
 # Type.ReplaceTableKeys
 
 
-## Description
-
 Returns a new table type with all keys replaced by the specified list of keys.
 
 
@@ -20,7 +18,7 @@ Type.ReplaceTableKeys(
 ```
 
 
-## Details
+## Remarks
 
 Returns a new table type with all keys replaced by the specified list of keys.<br />    <br />    Each key is defined using a record in the following form:    <ul>      <li>        <code>Columns</code>: a list of the column names that define the key      </li>      <li>        <code>Primary</code>: <code>true</code> if the key is the table's primary key; otherwise, <code>false</code>      </li>    </ul>    The specified list of keys is validated to ensure that no more than one primary key is defined and that all key column names exist on the table type.    
 

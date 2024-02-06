@@ -5,8 +5,6 @@ title: DateTimeZone.ZoneHours
 # DateTimeZone.ZoneHours
 
 
-## Description
-
 Changes the timezone of the value.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ZoneHours(
 ```
 
 
-## Details
+## Remarks
 
 Changes the timezone of the value.
 

@@ -5,8 +5,6 @@ title: Table.ReplaceRows
 # Table.ReplaceRows
 
 
-## Description
-
 Replaces the specified range of rows with the provided row(s).
 
 
@@ -22,7 +20,7 @@ Table.ReplaceRows(
 ```
 
 
-## Details
+## Remarks
 
 Replaces a specified number of rows, <code>count</code>, in the input <code>table</code> with the specified <code>rows</code>, beginning after the <code>offset</code>. The <code>rows</code> parameter is a list of records.    <ul>       <li><code>table</code>: The table where the replacement is performed.</li>       <li><code>offset</code>: The number of rows to skip before making the replacement.</li>       <li><code>count</code>: The number of rows to replace.</li>       <li><code>rows</code>: The list of row records to insert into the <code>table</code> at the location specified by the <code>offset</code>.</li>    </ul>
 

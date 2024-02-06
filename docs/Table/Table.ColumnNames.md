@@ -5,8 +5,6 @@ title: Table.ColumnNames
 # Table.ColumnNames
 
 
-## Description
-
 Returns the column names as a list.
 
 
@@ -19,7 +17,7 @@ Table.ColumnNames(
 ```
 
 
-## Details
+## Remarks
 
 Returns the column names in the table <code>table</code> as a list of text.
 

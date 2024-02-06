@@ -5,8 +5,6 @@ title: DateTime.Time
 # DateTime.Time
 
 
-## Description
-
 Returns the time part of the given datetime value.
 
 
@@ -19,7 +17,7 @@ DateTime.Time(
 ```
 
 
-## Details
+## Remarks
 
 Returns the time part of the given datetime value, <code>dateTime</code>.
 

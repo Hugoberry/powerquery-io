@@ -5,8 +5,6 @@ title: Record.SelectFields
 # Record.SelectFields
 
 
-## Description
-
 Returns a record that contains only the specified fields.
 
 
@@ -21,7 +19,7 @@ Record.SelectFields(
 ```
 
 
-## Details
+## Remarks
 
 Returns a record which includes only the fields specified in list <code>fields</code> from the input <code>record</code>.
 

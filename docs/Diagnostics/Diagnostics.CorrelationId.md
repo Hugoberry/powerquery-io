@@ -5,8 +5,6 @@ title: Diagnostics.CorrelationId
 # Diagnostics.CorrelationId
 
 
-## Description
-
 Returns an opaque identifier to correlate incoming requests with outgoing ones.
 
 
@@ -19,7 +17,7 @@ Diagnostics.CorrelationId(
 ```
 
 
-## Details
+## Remarks
 
 Returns an opaque identifier to correlate incoming requests with outgoing ones.
 

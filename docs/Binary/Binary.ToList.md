@@ -5,8 +5,6 @@ title: Binary.ToList
 # Binary.ToList
 
 
-## Description
-
 Converts a binary value into a list of numbers.
 
 
@@ -19,7 +17,7 @@ Binary.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Converts a binary value into a list of numbers.
 

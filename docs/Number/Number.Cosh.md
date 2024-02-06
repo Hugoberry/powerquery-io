@@ -5,8 +5,6 @@ title: Number.Cosh
 # Number.Cosh
 
 
-## Description
-
 Returns the hyperbolic cosine of the number.
 
 
@@ -19,7 +17,7 @@ Number.Cosh(
 ```
 
 
-## Details
+## Remarks
 
 Returns the hyperbolic cosine of <code>number</code>.
 

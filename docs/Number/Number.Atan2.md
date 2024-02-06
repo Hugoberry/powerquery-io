@@ -5,8 +5,6 @@ title: Number.Atan2
 # Number.Atan2
 
 
-## Description
-
 Returns the arctangent of the division of the two numbers.
 
 
@@ -20,7 +18,7 @@ Number.Atan2(
 ```
 
 
-## Details
+## Remarks
 
 Returns the arctangent of the division of the two numbers, <code>y</code> and <code>x</code>. The divison will be constructed as <code>y</code>/<code>x</code>.
 

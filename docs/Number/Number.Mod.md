@@ -5,8 +5,6 @@ title: Number.Mod
 # Number.Mod
 
 
-## Description
-
 Integer divides two numbers and returns the remainder.
 
 
@@ -21,7 +19,7 @@ Number.Mod(
 ```
 
 
-## Details
+## Remarks
 
 Returns the remainder resulting from the integer division of <code>number</code> by <code>divisor</code>.    If <code>number</code> or <code>divisor</code> are null, <code>Number.Mod</code> returns null.      <ul>        <li><code>number</code>: The dividend.</li>        <li><code>divisor</code>: The divisor.</li>      </ul>
 

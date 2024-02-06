@@ -5,8 +5,6 @@ title: Table.IsEmpty
 # Table.IsEmpty
 
 
-## Description
-
 Indicates whether the table contains any rows.
 
 
@@ -19,7 +17,7 @@ Table.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 Indicates whether the <code>table</code> contains any rows. Returns <code>true</code> if there are no rows (i.e. the table is empty), <code>false</code> otherwise.
 

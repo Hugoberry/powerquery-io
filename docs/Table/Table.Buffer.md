@@ -5,8 +5,6 @@ title: Table.Buffer
 # Table.Buffer
 
 
-## Description
-
 Buffers a table in memory, isolating it from external changes during evaluation.
 
 
@@ -20,7 +18,7 @@ Table.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Buffers a table in memory, isolating it from external changes during evaluation.    Buffering is shallow. It forces the evaluation of any scalar cell values, but leaves non-scalar values (records, lists, tables, and so on) as-is.    <br />    <br />    Note that using this function might or might not make your queries run faster. In some cases, it can make your queries run more slowly due to the added     cost of reading all the data and storing it in memory, as well as the fact that buffering prevents downstream folding. If the data doesn't need to be    buffered but you just want to prevent downstream folding, use <code>Table.StopFolding</code> instead.
 

@@ -5,8 +5,6 @@ title: Number.Round
 # Number.Round
 
 
-## Description
-
 Returns the rounded number. The number of digits and rounding mode can be specified.
 
 
@@ -21,7 +19,7 @@ Number.Round(
 ```
 
 
-## Details
+## Remarks
 
 Returns the result of rounding <code>number</code> to the nearest number. If <code>number</code> is null, <code>Number.Round</code> returns null.<br />      <br />      By default, <code>number</code> is rounded to the nearest integer, and ties are broken by rounding to the nearest even number (using <code>RoundingMode.ToEven</code>, also known as "banker's rounding").<br />      <br />      However, these defaults can be overridden via the following optional parameters.      <ul>        <li><code>digits</code>: Causes <code>number</code> to be rounded to the specified number of decimal digits.</li>        <li><code>roundingMode</code>: Overrides the default tie-breaking behavior when <code>number</code> is at the midpoint between two potential rounded values      (refer to <code>RoundingMode.Type</code> for possible values).</li>      </ul>
 

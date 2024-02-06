@@ -5,8 +5,6 @@ title: Table.Split
 # Table.Split
 
 
-## Description
-
 Splits the specified table into a list of tables using the specified page size.
 
 
@@ -20,7 +18,7 @@ Table.Split(
 ```
 
 
-## Details
+## Remarks
 
 Splits <code>table</code> into a list of tables where the first element of the list is a table containing the first <code>pageSize</code> rows from    the source table, the next element of the list is a table containing the next <code>pageSize</code> rows from the source table, and so on.
 

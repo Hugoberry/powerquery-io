@@ -5,8 +5,6 @@ title: List.ReplaceRange
 # List.ReplaceRange
 
 
-## Description
-
 Replaces count number of values starting at position with the replacement values.
 
 
@@ -22,7 +20,7 @@ List.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 Replaces <code>count</code> values in the <code>list</code> with the list <code>replaceWith</code>, starting at specified position, <code>index</code>.
 

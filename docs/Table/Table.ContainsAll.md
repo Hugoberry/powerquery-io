@@ -5,8 +5,6 @@ title: Table.ContainsAll
 # Table.ContainsAll
 
 
-## Description
-
 Indicates whether all of the specified records appear as rows in the table.
 
 
@@ -21,7 +19,7 @@ Table.ContainsAll(
 ```
 
 
-## Details
+## Remarks
 
 Indicates whether all the specified records in the list of records <code>rows</code>, appear as rows in the <code>table</code>.    An optional parameter <code>equationCriteria</code> may be specified to control comparison between the rows of the table.
 

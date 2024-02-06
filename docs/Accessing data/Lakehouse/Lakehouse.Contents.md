@@ -5,8 +5,6 @@ title: Lakehouse.Contents
 # Lakehouse.Contents
 
 
-## Description
-
 Import data from a Lakehouse
 
 
@@ -19,7 +17,7 @@ Lakehouse.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Connect to all the Lakehouses you have access to, and choose the entities you'd like to use
 

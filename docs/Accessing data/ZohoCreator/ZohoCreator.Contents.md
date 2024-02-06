@@ -18,7 +18,7 @@ ZohoCreator.Contents(
 ```
 
 
-## Details
+## Remarks
 
 This connector will fetch data only from Zoho Creator application reports
 

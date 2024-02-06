@@ -5,8 +5,6 @@ title: Number.Exp
 # Number.Exp
 
 
-## Description
-
 Raises e to the given power.
 
 
@@ -19,7 +17,7 @@ Number.Exp(
 ```
 
 
-## Details
+## Remarks
 
 Returns the result of raising e to the power of <code>number</code> (exponential function).      <ul>        <li><code>number</code>: A <code>number</code> for which the exponential function is to be calculated. If <code>number</code> is null, <code>Number.Exp</code> returns null. </li>      </ul>
 

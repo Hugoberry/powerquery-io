@@ -5,8 +5,6 @@ title: List.Select
 # List.Select
 
 
-## Description
-
 Returns a list of values that match the condition.
 
 
@@ -20,7 +18,7 @@ List.Select(
 ```
 
 
-## Details
+## Remarks
 
 Returns a list of values from the list <code>list</code>, that match the selection condition <code>selection</code>.
 

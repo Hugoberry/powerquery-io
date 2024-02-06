@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentralOnPremises.Contents
 # Dynamics365BusinessCentralOnPremises.Contents
 
 
-## Description
-
 Enter the URL of your Dynamics 365 Business Central (on-premises) OData service endpoint.
 
 
@@ -20,7 +18,7 @@ Dynamics365BusinessCentralOnPremises.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table with relevant Dynamics 365 Business Central (on-premises) data. 
 

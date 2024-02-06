@@ -5,8 +5,6 @@ title: Value.Expression
 # Value.Expression
 
 
-## Description
-
 Returns an abstract syntax tree (AST) that represents the value&#39;s expression.
 
 
@@ -19,7 +17,7 @@ Value.Expression(
 ```
 
 
-## Details
+## Remarks
 
 Returns an abstract syntax tree (AST) that represents the value's expression
 

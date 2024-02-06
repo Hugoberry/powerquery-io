@@ -5,8 +5,6 @@ title: Troux.CustomFeed
 # Troux.CustomFeed
 
 
-## Description
-
 Enter the URL of your Planview Enterprise Architecture account and a query.
 
 
@@ -20,7 +18,7 @@ Troux.CustomFeed(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table with relevant Planview Enterprise Architecture data specified by the query.
 

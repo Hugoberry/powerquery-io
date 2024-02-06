@@ -17,7 +17,7 @@ Databricks.Query(
 ```
 
 
-## Details
+## Remarks
 
 Define a Databricks data source for running SQL queries
 

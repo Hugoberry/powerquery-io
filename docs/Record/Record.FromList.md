@@ -5,8 +5,6 @@ title: Record.FromList
 # Record.FromList
 
 
-## Description
-
 Returns a record given a list of field values and a set of fields.
 
 
@@ -20,7 +18,7 @@ Record.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Returns a record given a <code>list</code> of field values and a set of fields.  The <code>fields</code> can be specified either by a list of text values, or a record type.  An error is thrown if the fields are not unique.
 

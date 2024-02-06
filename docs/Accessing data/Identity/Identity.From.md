@@ -5,8 +5,6 @@ title: Identity.From
 # Identity.From
 
 
-## Description
-
 Creates an identity.
 
 
@@ -20,7 +18,7 @@ Identity.From(
 ```
 
 
-## Details
+## Remarks
 
 Creates an identity.
 

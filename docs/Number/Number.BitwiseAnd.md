@@ -5,8 +5,6 @@ title: Number.BitwiseAnd
 # Number.BitwiseAnd
 
 
-## Description
-
 Returns the result of performing a bitwise &#34;And&#34; operation between the two inputs.
 
 
@@ -20,7 +18,7 @@ Number.BitwiseAnd(
 ```
 
 
-## Details
+## Remarks
 
 Returns the result of performing a bitwise "And" operation between <code>number1</code> and <code>number2</code>.
 

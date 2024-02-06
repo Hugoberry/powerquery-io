@@ -17,7 +17,7 @@ Foundry.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Connect to Palantir Foundry datasets.
 

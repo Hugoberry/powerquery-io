@@ -5,8 +5,6 @@ title: DateTime.IsInNextHour
 # DateTime.IsInNextHour
 
 
-## Description
-
 Indicates whether this datetime occurs during the next hour, as determined by the current date and time on the system. Note that this function will return false when passed a value that occurs within the current hour.
 
 
@@ -19,7 +17,7 @@ DateTime.IsInNextHour(
 ```
 
 
-## Details
+## Remarks
 
 Indicates whether the given datetime value <code>dateTime</code> occurs during the next hour, as determined by the current date and time on the system. Note that this function will return false when passed a value that occurs within the current hour.      <ul>      <li><code>dateTime</code>: A <code>datetime</code>, or <code>datetimezone</code> value to be evaluated.</li>      </ul>
 

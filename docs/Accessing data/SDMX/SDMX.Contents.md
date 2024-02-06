@@ -17,7 +17,7 @@ SDMX.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Get data from an SDMX RESTful web service that supports the CSV format.
 

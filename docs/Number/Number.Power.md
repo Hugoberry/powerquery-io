@@ -5,8 +5,6 @@ title: Number.Power
 # Number.Power
 
 
-## Description
-
 Raises a number to the given power.
 
 
@@ -20,7 +18,7 @@ Number.Power(
 ```
 
 
-## Details
+## Remarks
 
 Returns the result of raising <code>number</code> to the power of <code>power</code>.    If <code>number</code> or <code>power</code> are null, <code>Number.Power</code> returns null.      <ul>        <li><code>number</code>: The base.</li>        <li><code>power</code>: The exponent.</li>      </ul>
 

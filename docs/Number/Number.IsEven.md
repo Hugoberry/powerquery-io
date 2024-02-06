@@ -5,8 +5,6 @@ title: Number.IsEven
 # Number.IsEven
 
 
-## Description
-
 Indicates if the value is even.
 
 
@@ -19,7 +17,7 @@ Number.IsEven(
 ```
 
 
-## Details
+## Remarks
 
 Indicates if the value, <code>number</code>, is even by returning <code>true</code> if it is even, <code>false</code> otherwise.
 

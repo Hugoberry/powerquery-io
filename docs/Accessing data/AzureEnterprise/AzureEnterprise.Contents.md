@@ -5,8 +5,6 @@ title: AzureEnterprise.Contents
 # AzureEnterprise.Contents
 
 
-## Description
-
 Enter the URL of the Azure Enterprise REST API endpoint associated with your enrollment
 
 
@@ -20,7 +18,7 @@ AzureEnterprise.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Returns the binary results of the call to the url provided for the Azure Enterprise API.
 

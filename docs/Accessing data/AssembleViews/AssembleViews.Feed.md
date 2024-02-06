@@ -15,7 +15,7 @@ AssembleViews.Feed(
 ```
 
 
-## Details
+## Remarks
 
 Access views created within Assemble Insight
 

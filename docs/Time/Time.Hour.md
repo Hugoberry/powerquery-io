@@ -5,8 +5,6 @@ title: Time.Hour
 # Time.Hour
 
 
-## Description
-
 Returns the hour component.
 
 
@@ -19,7 +17,7 @@ Time.Hour(
 ```
 
 
-## Details
+## Remarks
 
 Returns the hour component of the provided <code>time</code>, <code>datetime</code>, or <code>datetimezone</code> value, <code>dateTime</code>.
 

@@ -5,8 +5,6 @@ title: Text.Remove
 # Text.Remove
 
 
-## Description
-
 Removes all occurrences of the given character or list of characters from the input text value.
 
 
@@ -20,7 +18,7 @@ Text.Remove(
 ```
 
 
-## Details
+## Remarks
 
 Returns a copy of the text value <code>text</code> with all the characters from <code>removeChars</code> removed.  
 

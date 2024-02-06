@@ -5,8 +5,6 @@ title: List.Alternate
 # List.Alternate
 
 
-## Description
-
 Returns a list comprised of all the odd numbered offset elements in a list.
 
 
@@ -22,7 +20,7 @@ List.Alternate(
 ```
 
 
-## Details
+## Remarks
 
 Returns a list comprised of all the odd numbered offset elements in a list. Alternates between taking and skipping values from the list <code>list</code> depending on the parameters.    <ul>    <li><code>count</code>: Specifies number of values that are skipped each time.</li>    <li><code>repeatInterval</code>: An optional repeat interval to indicate how many values are added in between the skipped values.</li>    <li><code>offset</code>: An option offset parameter to begin skipping the values at the initial offset.</li>    </ul>
 

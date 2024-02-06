@@ -5,8 +5,6 @@ title: Smartsheet.Content
 # Smartsheet.Content
 
 
-## Description
-
 Returns a table of data from an Smartsheet index endpoint.
 
 
@@ -19,7 +17,7 @@ Smartsheet.Content(
 ```
 
 
-## Details
+## Remarks
 
 Makes a call to the Smartsheet 2.0 REST API at the specified endpoint and transforms the data element returned into a table.
 

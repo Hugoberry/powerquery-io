@@ -17,7 +17,7 @@ DataVirtuality.Database(
 ```
 
 
-## Details
+## Remarks
 
 Data Virtuality LDW
 

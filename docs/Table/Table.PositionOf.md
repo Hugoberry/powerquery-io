@@ -5,8 +5,6 @@ title: Table.PositionOf
 # Table.PositionOf
 
 
-## Description
-
 Returns the position or positions of the row within the table.
 
 
@@ -22,7 +20,7 @@ Table.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Returns the row position of the first occurrence of the <code>row</code> in the <code>table</code> specified. Returns -1 if no occurrence is found.    <ul>       <li><code>table</code>: The input table.</li>       <li><code>row</code>: The row in the table to find the position of.</li>       <li><code>occurrence</code>: <i>[Optional]</i> Specifies which occurrences of the row to return.</li>       <li><code>equationCriteria</code>: <i>[Optional]</i> Controls the comparison between the table rows.</li>    </ul>    
 

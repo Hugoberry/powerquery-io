@@ -5,8 +5,6 @@ title: List.Sum
 # List.Sum
 
 
-## Description
-
 Returns the sum of the items in the list.
 
 
@@ -20,7 +18,7 @@ List.Sum(
 ```
 
 
-## Details
+## Remarks
 
 Returns the sum of the non-null values in the list, <code>list</code>.  Returns null if there are no non-null values in the list.
 

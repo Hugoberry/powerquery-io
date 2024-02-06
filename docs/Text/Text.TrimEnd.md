@@ -5,8 +5,6 @@ title: Text.TrimEnd
 # Text.TrimEnd
 
 
-## Description
-
 Removes all trailing whitespace.
 
 
@@ -20,7 +18,7 @@ Text.TrimEnd(
 ```
 
 
-## Details
+## Remarks
 
 Returns the result of removing all trailing whitespace from text value <code>text</code>.
 

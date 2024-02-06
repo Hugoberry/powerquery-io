@@ -5,8 +5,6 @@ title: Duration.Hours
 # Duration.Hours
 
 
-## Description
-
 Returns the hours portion of a duration.
 
 
@@ -19,7 +17,7 @@ Duration.Hours(
 ```
 
 
-## Details
+## Remarks
 
 Returns the hours portion of <code>duration</code>.
 

@@ -5,8 +5,6 @@ title: Table.FindText
 # Table.FindText
 
 
-## Description
-
 Returns all the rows that contain the given text in the table.
 
 
@@ -20,7 +18,7 @@ Table.FindText(
 ```
 
 
-## Details
+## Remarks
 
 Returns the rows in the table <code>table</code> that contain the text <code>text</code>. If the text is not found, an empty table is returned.
 

@@ -19,7 +19,7 @@ IRIS.Database(
 ```
 
 
-## Details
+## Remarks
 
 InterSystems IRIS
 

@@ -5,8 +5,6 @@ title: Splitter.SplitTextByDelimiter
 # Splitter.SplitTextByDelimiter
 
 
-## Description
-
 Returns a function that splits text into a list of text according to the specified delimiter.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Returns a function that splits text into a list of text according to the specified delimiter.
 

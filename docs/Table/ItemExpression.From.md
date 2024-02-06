@@ -5,8 +5,6 @@ title: ItemExpression.From
 # ItemExpression.From
 
 
-## Description
-
 Returns the abstract syntax tree (AST) for the body of a function.
 
 
@@ -19,7 +17,7 @@ ItemExpression.From(
 ```
 
 
-## Details
+## Remarks
 
 Returns the abstract syntax tree (AST) for the body of <code>function</code>, normalized into an <i>item expression</i>:<ul>  <li>The function must be a 1-argument lambda.</li>  <li>All references to the function parameter are replaced with <code>ItemExpression.Item</code>.</li>  <li>The AST will be simplified to contain only nodes of the kinds:    <ul>      <li><code>Constant</code></li>      <li><code>Invocation</code></li>      <li><code>Unary</code></li>      <li><code>Binary</code></li>      <li><code>If</code></li>      <li><code>FieldAccess</code></li>    </ul>  </li></ul><br /><br />An error is raised if an item expression AST cannot be returned for the body of <code>function</code>.<br />
 

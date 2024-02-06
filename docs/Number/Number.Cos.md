@@ -5,8 +5,6 @@ title: Number.Cos
 # Number.Cos
 
 
-## Description
-
 Returns the cosine of the number.
 
 
@@ -19,7 +17,7 @@ Number.Cos(
 ```
 
 
-## Details
+## Remarks
 
 Returns the cosine of <code>number</code>.
 

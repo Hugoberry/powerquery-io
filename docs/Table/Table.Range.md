@@ -5,8 +5,6 @@ title: Table.Range
 # Table.Range
 
 
-## Description
-
 Returns the rows beginning at the specified offset.
 
 
@@ -21,7 +19,7 @@ Table.Range(
 ```
 
 
-## Details
+## Remarks
 
 Returns the rows from the <code>table</code> starting at the specified <code>offset</code>. An optional parameter, <code>count</code>, specifies how many rows to return. By default, all the rows after the offset are returned.
 

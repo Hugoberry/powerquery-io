@@ -5,8 +5,6 @@ title: Text.Range
 # Text.Range
 
 
-## Description
-
 Returns the substring found at offset.
 
 
@@ -21,7 +19,7 @@ Text.Range(
 ```
 
 
-## Details
+## Remarks
 
 Returns the substring from the text <code>text</code> found at the offset <code>offset</code>.    An optional parameter, <code>count</code>, can be included to specify how many characters to return. Throws an error if there aren't enough characters.
 

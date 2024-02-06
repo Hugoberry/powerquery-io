@@ -5,8 +5,6 @@ title: Number.Ln
 # Number.Ln
 
 
-## Description
-
 Returns the natural logarithm of the number.
 
 
@@ -19,7 +17,7 @@ Number.Ln(
 ```
 
 
-## Details
+## Remarks
 
 Returns the natural logarithm of a number, <code>number</code>. If <code>number</code> is null <code>Number.Ln</code> returns null.
 

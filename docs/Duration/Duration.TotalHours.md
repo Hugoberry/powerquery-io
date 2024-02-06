@@ -5,8 +5,6 @@ title: Duration.TotalHours
 # Duration.TotalHours
 
 
-## Description
-
 Returns the total hours this duration spans.
 
 
@@ -19,7 +17,7 @@ Duration.TotalHours(
 ```
 
 
-## Details
+## Remarks
 
 Returns the total hours spanned by <code>duration</code>.
 

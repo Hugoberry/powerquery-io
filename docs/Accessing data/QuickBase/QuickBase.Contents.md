@@ -15,7 +15,7 @@ QuickBase.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Quick Base Connector
 

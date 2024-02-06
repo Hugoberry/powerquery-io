@@ -5,8 +5,6 @@ title: List.RemoveRange
 # List.RemoveRange
 
 
-## Description
-
 Removes count number of values starting at the specified position.
 
 
@@ -21,7 +19,7 @@ List.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 Removes <code>count</code> values in the <code>list</code> starting at the specified position, <code>index</code>.
 

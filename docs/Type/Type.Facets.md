@@ -5,8 +5,6 @@ title: Type.Facets
 # Type.Facets
 
 
-## Description
-
 Returns the facets of a type.
 
 
@@ -19,7 +17,7 @@ Type.Facets(
 ```
 
 
-## Details
+## Remarks
 
 Returns a record containing the facets of <code>type</code>.
 

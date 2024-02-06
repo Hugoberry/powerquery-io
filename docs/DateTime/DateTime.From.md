@@ -5,8 +5,6 @@ title: DateTime.From
 # DateTime.From
 
 
-## Description
-
 Creates a datetime from the given value.
 
 
@@ -20,7 +18,7 @@ DateTime.From(
 ```
 
 
-## Details
+## Remarks
 
 Returns a <code>datetime</code> value from the given <code>value</code>. An optional <code>culture</code> may also be provided (for example, "en-US").If the given <code>value</code> is <code>null</code>, <code>DateTime.From</code> returns <code>null</code>. If the given <code>value</code> is <code>datetime</code>, <code>value</code> is returned. Values of the following types can be converted to a <code>datetime</code> value:      <ul>        <li><code>text</code>: A <code>datetime</code> value from textual representation. Refer to <code>DateTime.FromText</code> for details.</li>        <li><code>date</code>: A <code>datetime</code> with <code>value</code> as the date component and <code>12:00:00 AM</code> as the time component.</li>        <li><code>datetimezone</code>: The local <code>datetime</code> equivalent of <code>value</code>.</li>        <li><code>time</code>: A <code>datetime</code> with the date equivalent of the OLE Automation Date of <code>0</code> as the date component and <code>value</code> as the time component.</li>        <li><code>number</code>: A <code>datetime</code> equivalent of the OLE Automation Date expressed by <code>value</code>. </li>      </ul>If <code>value</code> is of any other type, an error is returned.
 

@@ -19,7 +19,7 @@ Dremio.DatabasesV300(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource
 

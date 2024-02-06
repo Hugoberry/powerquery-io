@@ -15,7 +15,7 @@ Funnel.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Returns a navigation table to help the user navigate their Workspaces and respective Data Shares.
 

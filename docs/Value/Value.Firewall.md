@@ -5,8 +5,6 @@ title: Value.Firewall
 # Value.Firewall
 
 
-## Description
-
 This function is intended for internal use only.
 
 
@@ -19,7 +17,7 @@ Value.Firewall(
 ```
 
 
-## Details
+## Remarks
 
 This function is intended for internal use only.
 

@@ -5,8 +5,6 @@ title: Record.FieldCount
 # Record.FieldCount
 
 
-## Description
-
 Returns the number of fields in the record.
 
 
@@ -19,7 +17,7 @@ Record.FieldCount(
 ```
 
 
-## Details
+## Remarks
 
 Returns the number of fields in the record <code>record</code>.
 

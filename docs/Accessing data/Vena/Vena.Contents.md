@@ -17,7 +17,7 @@ Vena.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Vena
 

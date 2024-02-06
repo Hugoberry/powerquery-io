@@ -5,8 +5,6 @@ title: Table.SplitColumn
 # Table.SplitColumn
 
 
-## Description
-
 Splits the specified columns into a set of additional columns using the specified splitter function.
 
 
@@ -24,7 +22,7 @@ Table.SplitColumn(
 ```
 
 
-## Details
+## Remarks
 
 Splits the specified columns into a set of additional columns using the specified splitter function.
 

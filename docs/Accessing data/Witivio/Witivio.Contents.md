@@ -15,7 +15,7 @@ Witivio.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Witivio 365 - Configuration
 

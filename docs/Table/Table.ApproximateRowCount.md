@@ -5,8 +5,6 @@ title: Table.ApproximateRowCount
 # Table.ApproximateRowCount
 
 
-## Description
-
 Returns the approximate number of rows in the table.
 
 
@@ -19,7 +17,7 @@ Table.ApproximateRowCount(
 ```
 
 
-## Details
+## Remarks
 
 Returns the approximate number of rows in the <code>table</code>, or an error if the data source doesn't support approximation.
 

@@ -5,8 +5,6 @@ title: Troux.Feed
 # Troux.Feed
 
 
-## Description
-
 Enter the URL of your Planview Enterprise Architecture account.
 
 
@@ -19,7 +17,7 @@ Troux.Feed(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table with relevant Planview Enterprise Architecture data.
 
