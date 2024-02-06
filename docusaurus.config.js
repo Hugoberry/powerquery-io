@@ -89,7 +89,7 @@ const config = {
       },
       algolia:{
         appId: '3PZMY1RNB7',
-        apiKey: 'd7142d2354ff38d3603c4c193a8bdfc7',
+        apiKey: 'db2e8c501641faae4ffa03a6fc204ce7',
         indexName: 'powerquery',
         contextualSearch: true,
       }
