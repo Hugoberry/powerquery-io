@@ -5,8 +5,6 @@ title: Type.NonNullable
 # Type.NonNullable
 
 
-## Description
-
 Trả về loại không phải giá trị null từ một loại.
 
 
@@ -19,7 +17,7 @@ Type.NonNullable(
 ```
 
 
-## Details
+## Remarks
 
 Trả về loại không phải <code>giá trị null</code> từ <code>type</code>.
 

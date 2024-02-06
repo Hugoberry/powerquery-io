@@ -5,8 +5,6 @@ title: Splitter.SplitByNothing
 # Splitter.SplitByNothing
 
 
-## Description
-
 Gibt eine Funktion ohne Aufteilung zurück. Das Argument wird als einzelne Elementliste zurückgegeben.
 
 
@@ -19,7 +17,7 @@ Splitter.SplitByNothing(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Funktion ohne Aufteilung zurück. Das Argument wird als einzelne Elementliste zurückgegeben.
 

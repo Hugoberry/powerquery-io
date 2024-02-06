@@ -5,8 +5,6 @@ title: List.Intersect
 # List.Intersect
 
 
-## Description
-
 Возвращает пересечение значений списка, содержащихся во входных данных.
 
 
@@ -20,7 +18,7 @@ List.Intersect(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает пересечение значений списка, обнаруженных во входном списке <code>lists</code>. Можно указать дополнительный параметр <code>equationCriteria</code>.
 

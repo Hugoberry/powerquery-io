@@ -18,7 +18,7 @@ WorkplaceAnalytics.Data(
 ```
 
 
-## Details
+## Remarks
 
 Importér ugentlige målepunkter og attributdata fra Workplace Analytics.
 

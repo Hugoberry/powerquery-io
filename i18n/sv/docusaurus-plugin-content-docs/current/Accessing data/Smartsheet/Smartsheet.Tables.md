@@ -5,8 +5,6 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-## Description
-
 Returnerar en tabell med blad, rapporter, mappar och arbetsytor från Smartsheet-API:et
 
 
@@ -19,7 +17,7 @@ Smartsheet.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en kapslad tabell med tillgängliga blad, rapporter, mappar och arbetsytor från Smartsheet-API:et.
 

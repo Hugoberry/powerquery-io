@@ -5,8 +5,6 @@ title: Table.Skip
 # Table.Skip
 
 
-## Description
-
 Retourne une table en ignorant les premières lignes, en fonction d&#39;un nombre.
 
 
@@ -20,7 +18,7 @@ Table.Skip(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une table qui ne contient pas le nombre spécifié de premières lignes, <code>countOrCondition</code>, de la table <code>table</code>.    Le nombre de lignes ignorées dépend du paramètre facultatif <code>countOrCondition</code>.    <ul>    <li> Si <code>countOrCondition</code> est omis, seule la première ligne est ignorée. </li>    <li> Si <code>countOrCondition</code> est un nombre, autant de lignes (démarrant par le haut) sont ignorées. </li>    <li> Si <code>countOrCondition</code> est une condition, les lignes qui satisfont la condition sont ignorées jusqu'au moment où une ligne ne remplit pas la condition.</li>    </ul>
 

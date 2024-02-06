@@ -5,8 +5,6 @@ title: List.ConformToPageReader
 # List.ConformToPageReader
 
 
-## Description
-
 ฟังก์ชันนี้มีไว้สําหรับการใช้งานภายในเท่านั้น
 
 
@@ -20,7 +18,7 @@ List.ConformToPageReader(
 ```
 
 
-## Details
+## Remarks
 
 ฟังก์ชันนี้มีไว้สําหรับการใช้งานภายในเท่านั้น
 

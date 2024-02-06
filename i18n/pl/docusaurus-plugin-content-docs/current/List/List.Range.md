@@ -5,8 +5,6 @@ title: List.Range
 # List.Range
 
 
-## Description
-
 Zwraca podzbiór listy rozpoczynający się od przesunięcia.
 
 
@@ -21,7 +19,7 @@ List.Range(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca podzbiór listy rozpoczynający się od przesunięcia <code>list</code>. Opcjonalny parametr <code>offset</code> określa maksymalną liczbę elementów w podzbiorze.
 

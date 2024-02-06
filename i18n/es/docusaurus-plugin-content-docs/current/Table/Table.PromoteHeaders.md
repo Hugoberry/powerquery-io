@@ -5,8 +5,6 @@ title: Table.PromoteHeaders
 # Table.PromoteHeaders
 
 
-## Description
-
 Promueve la primera fila de valores a encabezados de las nuevas columnas (es decir, nombres de columna).
 
 
@@ -20,7 +18,7 @@ Table.PromoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Promueve la primera fila de valores como encabezados de las nuevas columnas (es decir, nombres de columna). De manera predeterminada, solo los valores de texto o numéricos se promueven a encabezados. Opciones válidas:    <div>      <code>PromoteAllScalars</code>: si se define como <code>true</code>, todos los valores escalares de la primera fila se promueven a encabezados con el elemento <code>Culture</code>, si se especificó (o la configuración regional del documento actual).    En el caso de valores que no se pueden convertir en texto, se usará un nombre de columna predeterminado.    </div>    <div>    <code>Culture</code>: nombre de referencia cultural que especifica la referencia cultural de los datos.    </div>  
 

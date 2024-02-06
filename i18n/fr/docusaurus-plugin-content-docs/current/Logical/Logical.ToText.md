@@ -5,8 +5,6 @@ title: Logical.ToText
 # Logical.ToText
 
 
-## Description
-
 Retourne le texte &#34; true &#34; ou &#34; false &#34; en fonction d&#39;une valeur logique.
 
 
@@ -19,7 +17,7 @@ Logical.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Crée une valeur de texte à partir de la valeur logique <code>logicalValue</code>, soit <code>true</code>, soit <code>false</code>. Si <code>logicalValue</code> n'est pas une valeur logique, une exception est levée.
 

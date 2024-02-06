@@ -5,8 +5,6 @@ title: Table.Contains
 # Table.Contains
 
 
-## Description
-
 Indica si el registro especificado aparece como una fila de la tabla.
 
 
@@ -21,7 +19,7 @@ Table.Contains(
 ```
 
 
-## Details
+## Remarks
 
 Indica si el registro especificado, <code>row</code>, aparece como una fila de <code>table</code>.    Se puede especificar un parámetro <code>equationCriteria</code> opcional para controlar la comparación entre las filas de la tabla.
 

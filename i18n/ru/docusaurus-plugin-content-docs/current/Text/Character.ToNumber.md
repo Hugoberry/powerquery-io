@@ -5,8 +5,6 @@ title: Character.ToNumber
 # Character.ToNumber
 
 
-## Description
-
 Преобразует символ в числовое значение.
 
 
@@ -19,7 +17,7 @@ Character.ToNumber(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает число, эквивалентное <code>character</code>.<br />    <br />    Результатом будет 21-разрядная кодовая точка Unicode, представленная указанным символом или суррогатной парой.  
 

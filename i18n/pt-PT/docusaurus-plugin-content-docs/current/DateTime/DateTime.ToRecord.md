@@ -5,8 +5,6 @@ title: DateTime.ToRecord
 # DateTime.ToRecord
 
 
-## Description
-
 Devolve um registo que contém as partes do valor datetime.
 
 
@@ -19,7 +17,7 @@ DateTime.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um registo que contém as partes do valor datetime especificado, <code>dateTime</code>. <ul>        <li><code>dateTime</code>: um valor <code>datetime</code> a partir do qual o registo das partes correspondentes deverá ser calculado.</li>      </ul>
 

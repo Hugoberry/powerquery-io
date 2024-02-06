@@ -5,8 +5,6 @@ title: Number.From
 # Number.From
 
 
-## Description
-
 Maakt een getal van de opgegeven waarde
 
 
@@ -20,7 +18,7 @@ Number.From(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een <code>number</code>-waarde geretourneerd van de opgegeven waarde <code>value</code>. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).Als de opgegeven waarde <code>value</code> <code>null</code> is, wordt door <code>Number.From</code> <code>null</code> geretourneerd. Als de opgegeven waarde <code>value</code> <code>number</code> is, wordt <code>value</code> geretourneerd. Waarden van de volgende typen kunnen worden omgezet naar een <code>number</code>-waarde: <ul> <li><code>text</code>: een <code>number</code>-waarde van de tekstweergave. Algemene tekstindelingen worden verwerkt (15, 3.423,10, 5.0E-10). Raadpleeg <code>Number.FromText</code> voor meer informatie.</li> <li><code>logical</code>: 1 voor <code>true</code>, 0 voor <code>false</code>.</li> <li><code>datetime</code>: een zwevendekommagetal met dubbele nauwkeurigheid dat een OLE-automatiseringsdatumequivalent bevat.</li> <li><code>datetimezone</code>: een zwevendekommagetal met dubbele nauwkeurigheid dat een OLE-automatiseringsdatumequivalent bevat van de lokale datum en tijd van <code>value</code>.</li> <li><code>date</code>: een zwevendekommagetal met dubbele nauwkeurigheid dat een OLE-automatiseringsdatumequivalent bevat.</li> <li><code>time</code>: uitgedrukt in gedeeltelijke dagen.</li> <li><code>duration</code>: uitgedrukt in gedeeltelijke en gehele dagen.</li> </ul>Als <code>value</code> van een ander type is, wordt er een fout geretourneerd.
 

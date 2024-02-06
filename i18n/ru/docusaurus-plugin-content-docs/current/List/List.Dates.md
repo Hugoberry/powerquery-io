@@ -5,8 +5,6 @@ title: List.Dates
 # List.Dates
 
 
-## Description
-
 Формирует список значений date по первоначальному значению, количеству и значению приращения продолжительности.
 
 
@@ -21,7 +19,7 @@ List.Dates(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает список значений <code>date</code> размера <code>count</code>, начиная с <code>start</code>. Данное значение приращения <code>step</code> является значением <code>duration</code>, которое добавляется к каждому значению.
 

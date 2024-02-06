@@ -5,8 +5,6 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-## Description
-
 Retorna uma tabela de planilhas, relatórios, pastas e workspaces da API do Smartsheet
 
 
@@ -19,7 +17,7 @@ Smartsheet.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma tabela aninhada das planilhas, relatórios, pastas e workspaces disponíveis da API do Smartsheet.
 

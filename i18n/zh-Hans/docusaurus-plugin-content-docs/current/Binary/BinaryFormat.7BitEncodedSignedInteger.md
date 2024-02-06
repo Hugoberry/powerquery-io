@@ -5,8 +5,6 @@ title: BinaryFormat.7BitEncodedSignedInteger
 # BinaryFormat.7BitEncodedSignedInteger
 
 
-## Description
-
 读取使用 7 位可变长度编码进行编码的 64 位带符号整数的二进制格式。
 
 
@@ -19,7 +17,7 @@ BinaryFormat.7BitEncodedSignedInteger(
 ```
 
 
-## Details
+## Remarks
 
 读取使用 7 位可变长度编码进行编码的 64 位带符号整数的二进制格式。
 

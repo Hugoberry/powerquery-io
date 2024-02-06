@@ -5,8 +5,6 @@ title: Type.FunctionReturn
 # Type.FunctionReturn
 
 
-## Description
-
 Gibt einen von einem Funktionstyp zurückgegebenen Typ an.
 
 
@@ -19,7 +17,7 @@ Type.FunctionReturn(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen von einer Funktion <code>type</code> zurückgegebenen Typ an.
 

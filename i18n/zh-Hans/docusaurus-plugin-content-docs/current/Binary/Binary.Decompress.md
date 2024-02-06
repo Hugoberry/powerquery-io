@@ -5,8 +5,6 @@ title: Binary.Decompress
 # Binary.Decompress
 
 
-## Description
-
 使用给定压缩类型解压缩二进制值。
 
 
@@ -20,7 +18,7 @@ Binary.Decompress(
 ```
 
 
-## Details
+## Remarks
 
 使用给定的压缩类型解压缩二进制值。此调用的结果是输入的压缩后副本。压缩类型包括:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
 

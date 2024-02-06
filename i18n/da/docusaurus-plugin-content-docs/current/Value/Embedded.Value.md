@@ -5,8 +5,6 @@ title: Embedded.Value
 # Embedded.Value
 
 
-## Description
-
 Får adgang til en værdi efter navn i et integreret miks.
 
 
@@ -20,7 +18,7 @@ Embedded.Value(
 ```
 
 
-## Details
+## Remarks
 
 Får adgang til en værdi efter navn i et integreret miks.
 

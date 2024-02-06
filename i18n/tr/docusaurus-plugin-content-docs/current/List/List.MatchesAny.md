@@ -5,8 +5,6 @@ title: List.MatchesAny
 # List.MatchesAny
 
 
-## Description
-
 Koşul işlevi listedeki herhangi bir değer tarafından sağlanıyorsa doğru değerini döndürür.
 
 
@@ -20,7 +18,7 @@ List.MatchesAny(
 ```
 
 
-## Details
+## Remarks
 
 <code>condition</code> koşul işlevi <code>list</code> listesindeki herhangi bir değer tarafından sağlanıyorsa <code>true</code> değerini, aksi halde <code>false</code> değerini döndürür.
 

@@ -5,8 +5,6 @@ title: Table.FromValue
 # Table.FromValue
 
 
-## Description
-
 Tworzy tabelę z kolumną na podstawie dostarczonych wartości.
 
 
@@ -20,7 +18,7 @@ Table.FromValue(
 ```
 
 
-## Details
+## Remarks
 
 Tworzy tabelę z kolumną zawierającą podaną wartość lub listę wartości — <code>value</code>. Można określić opcjonalny parametr rekordu <code>options</code> w celu kontrolowania następujących opcji:    <ul>    <li> <code>DefaultColumnName</code>: nazwa kolumny używana podczas tworzenia tabeli z listy lub wartości skalarnej.</li>    </ul>  
 

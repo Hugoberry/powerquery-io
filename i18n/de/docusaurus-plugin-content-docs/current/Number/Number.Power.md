@@ -5,8 +5,6 @@ title: Number.Power
 # Number.Power
 
 
-## Description
-
 Potenziert eine Zahl mit dem angegebenen Wert.
 
 
@@ -20,7 +18,7 @@ Number.Power(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das Ergebnis der Potenzierung von "<code>number</code>" mit "<code>power</code>" zurück.    Ist <code>number</code> oder <code>power</code> NULL, gibt <code>Number.Power</code> NULL zurück.      <ul>        <li><code>number</code>: Die Basis.</li>        <li><code>power</code>: Der Exponent.</li>      </ul>
 

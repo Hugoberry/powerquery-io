@@ -5,8 +5,6 @@ title: Function.IsDataSource
 # Function.IsDataSource
 
 
-## Description
-
 Retourne un résultat indiquant si une fonction est considérée ou non comme une source de données.
 
 
@@ -19,7 +17,7 @@ Function.IsDataSource(
 ```
 
 
-## Details
+## Remarks
 
 Retourne un résultat indiquant si <code>function</code> est considéré comme une source de données.
 

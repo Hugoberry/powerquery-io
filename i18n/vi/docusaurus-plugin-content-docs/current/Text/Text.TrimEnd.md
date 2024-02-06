@@ -5,8 +5,6 @@ title: Text.TrimEnd
 # Text.TrimEnd
 
 
-## Description
-
 Loại bỏ tất cả dấu cách kế tiếp.
 
 
@@ -20,7 +18,7 @@ Text.TrimEnd(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả loại bỏ tất cả dấu cách kế tiếp từ giá trị văn bản <code>text</code>.
 

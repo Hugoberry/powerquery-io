@@ -5,8 +5,6 @@ title: Table.FromList
 # Table.FromList
 
 
-## Description
-
 通过将指定的拆分函数应用于列表中的每一项，将列表转换为表。
 
 
@@ -23,7 +21,7 @@ Table.FromList(
 ```
 
 
-## Details
+## Remarks
 
 通过将可选的拆分函数 <code>splitter</code> 应用于列表中的每一项，将列表 <code>list</code> 转换为表。默认情况下，假定列表是用逗号分隔的文本值的列表。可选的 <code>columns</code> 可以是列数、列的列表或 TableType。还可以指定可选的 <code>default</code> 和 <code>extraValues</code>。
 

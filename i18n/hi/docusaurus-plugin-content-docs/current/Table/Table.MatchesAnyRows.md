@@ -5,8 +5,6 @@ title: Table.MatchesAnyRows
 # Table.MatchesAnyRows
 
 
-## Description
-
 इंगित करता है कि क्या तालिका की कोई भी पंक्ति दी गई शर्त को पूरा करती है.
 
 
@@ -20,7 +18,7 @@ Table.MatchesAnyRows(
 ```
 
 
-## Details
+## Remarks
 
 इंगित करता है कि क्या <code>table</code> की कोई भी पंक्ति दिए गए <code>condition</code> से मेल खाती है. किसी भी पंक्ति के मेल खाने पर <code>true</code> अन्यथा <code>false</code> लौटाता है.
 

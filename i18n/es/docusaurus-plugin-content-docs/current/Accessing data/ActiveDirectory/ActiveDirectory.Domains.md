@@ -5,8 +5,6 @@ title: ActiveDirectory.Domains
 # ActiveDirectory.Domains
 
 
-## Description
-
 Devuelve una lista de Dominios de Active Directory en el mismo bosque que el dominio especificado o del dominio del equipo si no se especifica ninguna.
 
 
@@ -19,7 +17,7 @@ ActiveDirectory.Domains(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una lista de Dominios de Active Directory en el mismo bosque que el dominio especificado o del dominio del equipo si no se especifica ninguna.
 

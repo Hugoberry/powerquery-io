@@ -5,8 +5,6 @@ title: DateTimeZone.ToLocal
 # DateTimeZone.ToLocal
 
 
-## Description
-
 समय क्षेत्र घटक को स्थानीय समय क्षेत्र में रूपांतरित करता है.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToLocal(
 ```
 
 
-## Details
+## Remarks
 
 datetimezone मान <code>dateTimeZone</code> की समय क्षेत्र जानकारी को स्थानीय समय क्षेत्र जानकारी में परिवर्तित करता है.    अगर <code>dateTimeZone</code> में कोई समय क्षेत्र घटक नहीं है, तो स्थानीय समय क्षेत्र जानकारी जोड़ी जाती है.
 

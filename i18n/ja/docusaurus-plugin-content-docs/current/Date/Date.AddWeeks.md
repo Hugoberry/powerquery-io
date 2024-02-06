@@ -5,8 +5,6 @@ title: Date.AddWeeks
 # Date.AddWeeks
 
 
-## Description
-
 指定された週を日付に追加します。
 
 
@@ -20,7 +18,7 @@ Date.AddWeeks(
 ```
 
 
-## Details
+## Remarks
 
 <code>datetime</code> 値 <code>dateTime</code> に <code>numberOfWeeks</code> 週間を追加した結果の <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> を返します。      <ul>      <li><code>dateTime</code>: 週が追加される <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値。</li>      <li><code>numberOfWeeks</code>: 追加する週の数。</li>      </ul>
 

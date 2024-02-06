@@ -5,8 +5,6 @@ title: List.Average
 # List.Average
 
 
-## Description
-
 Değerlerin ortalamasını döndürür. number, date, datetime, datetimezone ve duration değerleri ile çalışır.
 
 
@@ -20,7 +18,7 @@ List.Average(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesindeki öğelerin ortalama değerini döndürür. Sonuç, listedeki değerler ile aynı veri türünde sağlanır. Yalnızca number, date, time, datetime, datetimezone ve duration değerleri ile çalışır.    Liste boş ise null döndürülür.
 

@@ -5,8 +5,6 @@ title: Record.FromTable
 # Record.FromTable
 
 
-## Description
-
 Tạo bản ghi từ bảng có dạng \{[Name = name, Value = value]}.
 
 
@@ -19,7 +17,7 @@ Record.FromTable(
 ```
 
 
-## Details
+## Remarks
 
 Trả về bản ghi từ bảng bản ghi <code>table</code> chứa tên trường và tên giá trị <code>\{[Name = name, Value = value]}</code>. Một ngoại lệ được đưa ra nếu các tên trường không phải là duy nhất.
 

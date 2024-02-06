@@ -5,8 +5,6 @@ title: Number.FromText
 # Number.FromText
 
 
-## Description
-
 Maakt getallen van algemene tekstindelingen (&#34;15&#34;, &#34;3,423.10&#34;, &#34;5.0E-10&#34;).
 
 
@@ -20,7 +18,7 @@ Number.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een waarde voor <code>number</code> geretourneerd vanuit de opgegeven tekstwaarde, <code>text</code>. <ul> <li><code>text</code>: de tekstweergave van een number-waarde. De weergave moet een gewone getalnotatie hebben, bijvoorbeeld 15, 3.423,10 of 5.0E-10.</li> <li><code>culture</code>: een optionele cultuur die bepaalt hoe <code>text</code> wordt geïnterpreteerd (bijvoorbeeld: nl-NL).</li> </ul>
 

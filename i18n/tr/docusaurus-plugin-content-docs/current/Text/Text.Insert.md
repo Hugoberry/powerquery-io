@@ -5,8 +5,6 @@ title: Text.Insert
 # Text.Insert
 
 
-## Description
-
 Bir metin değerini verilen konumda başka bir metin değerine ekler.
 
 
@@ -21,7 +19,7 @@ Text.Insert(
 ```
 
 
-## Details
+## Remarks
 
 <code>newText</code> metin değerini <code>offset</code> konumunda <code>text</code> metin değerine eklemenin sonucunu döndürür. Konumlar 0'dan başlar.
 

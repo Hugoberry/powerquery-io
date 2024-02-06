@@ -5,8 +5,6 @@ title: Duration.ToText
 # Duration.ToText
 
 
-## Description
-
 Retourneert de tekst van de vorm &#34;d.u:m:s&#34;.
 
 
@@ -20,7 +18,7 @@ Duration.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tekstweergave geretourneerd in de vorm "dag.uur:min:sec" van de opgegeven duurwaarde <code>duration</code>. <ul> <li><code>duration</code>: een <code>duur</code> op basis waarvan de tekstweergave wordt berekend.</li>  <li><code>format</code>: <i>[Optioneel]</i> verouderd, genereert een fout als deze niet null is</li>      </ul>
 

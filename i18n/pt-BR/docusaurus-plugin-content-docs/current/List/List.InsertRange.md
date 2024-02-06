@@ -5,8 +5,6 @@ title: List.InsertRange
 # List.InsertRange
 
 
-## Description
-
 Insere valores em uma lista no índice especificado.
 
 
@@ -21,7 +19,7 @@ List.InsertRange(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma nova lista gerada através da inserção dos valores em <code>values</code> em <code>list</code> em <code>index</code>. A primeira posição na lista está no índice 0.      <ul>        <li><code>list</code>: A lista de destino em que os valores serão inseridos.</li>        <li><code>index</code>: O índice da lista de destino (<code>list</code>) em que os valores serão inseridos. A primeira posição na lista está no índice 0.</li>        <li><code>values</code>: A lista de valores que serão inseridos em <code>list</code>.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: List.Last
 # List.Last
 
 
-## Description
-
 Listenin son değerini veya boşsa belirtilen varsayılanı döndürür.
 
 
@@ -20,7 +18,7 @@ List.Last(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesindeki son öğeyi veya liste boşsa <code>defaultValue</code> isteğe bağlı varsayılan değerini döndürür.    Liste boşsa ve varsayılan değer belirtilmemişse, bu işlev <code>null</code> döndürür.
 

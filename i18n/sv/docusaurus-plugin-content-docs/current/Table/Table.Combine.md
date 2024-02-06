@@ -5,8 +5,6 @@ title: Table.Combine
 # Table.Combine
 
 
-## Description
-
 Returnerar en tabell som är resultatet av sammanslagningen av en lista med tabeller.
 
 
@@ -20,7 +18,7 @@ Table.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell som är resultatet av en sammanslagning av en lista över tabeller, <code>tables</code>. Den resulterande tabellen har en radtypsstruktur som definieras av <code>columns</code> eller av en union av indatatyper om <code>columns</code> inte har angetts.
 

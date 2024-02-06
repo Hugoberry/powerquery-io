@@ -5,8 +5,6 @@ title: Date.Year
 # Date.Year
 
 
-## Description
-
 Trả về cấu phần năm.
 
 
@@ -19,7 +17,7 @@ Date.Year(
 ```
 
 
-## Details
+## Remarks
 
 Trả về cấu phần năm của giá trị <code>datetime</code> cho sẵn, <code>dateTime</code>.
 

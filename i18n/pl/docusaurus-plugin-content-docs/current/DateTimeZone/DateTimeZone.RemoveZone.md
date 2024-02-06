@@ -5,8 +5,6 @@ title: DateTimeZone.RemoveZone
 # DateTimeZone.RemoveZone
 
 
-## Description
-
 Usuwa informacje dotyczące strefy czasowej z danej wartości typu datetimezone.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.RemoveZone(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wartość typu #datetime z wartości <code>dateTimeZone</code>, po usunięciu informacji dotyczących strefy czasowej.
 

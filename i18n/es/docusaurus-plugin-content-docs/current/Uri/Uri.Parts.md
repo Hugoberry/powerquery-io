@@ -5,8 +5,6 @@ title: Uri.Parts
 # Uri.Parts
 
 
-## Description
-
 Devuelve las partes del URI absoluto de entrada como un registro.
 
 
@@ -19,7 +17,7 @@ Uri.Parts(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve las partes del <code>absoluteUri</code> de entrada como un registro, con valores como el esquema, el host, el puerto, la ruta de acceso, la consulta, el fragmento, el nombre de usuario y una contraseña.
 

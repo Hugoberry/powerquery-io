@@ -5,8 +5,6 @@ title: Text.ReplaceRange
 # Text.ReplaceRange
 
 
-## Description
-
 Usuwa zakres znaków i wstawia nową wartość na określonej pozycji.
 
 
@@ -22,7 +20,7 @@ Text.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wynik usunięcia określonej liczby znaków (<code>count</code>) z wartości tekstowej <code>text</code>, zaczynając od pozycji <code>offset</code>, a następnie wstawienia wartości tekstowej <code>newText</code> na tej samej pozycji w wartości <code>text</code>.
 

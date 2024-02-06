@@ -5,8 +5,6 @@ title: Number.IsOdd
 # Number.IsOdd
 
 
-## Description
-
 ระบุว่าค่าเป็นเลขคี่หรือไม่
 
 
@@ -19,7 +17,7 @@ Number.IsOdd(
 ```
 
 
-## Details
+## Remarks
 
 ระบุว่าค่าเป็นเลขคี่หรือไม่ ส่งกลับ <code>true</code> ถ้า <code>number</code> เป็นจำนวนคี่ และ <code>false</code> ถ้าไม่ใช่
 

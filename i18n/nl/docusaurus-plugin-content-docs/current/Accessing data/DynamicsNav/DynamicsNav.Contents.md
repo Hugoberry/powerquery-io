@@ -5,8 +5,6 @@ title: DynamicsNav.Contents
 # DynamicsNav.Contents
 
 
-## Description
-
 Voer de URL in van het OData-service-eindpunt voor Dynamics NAV.
 
 
@@ -20,7 +18,7 @@ DynamicsNav.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tabel met de relevante Dynamics NAV-gegevens geretourneerd. 
 

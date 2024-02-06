@@ -5,8 +5,6 @@ title: Time.ToRecord
 # Time.ToRecord
 
 
-## Description
-
 Returnerar en post som innehåller delarna i time-värdet.
 
 
@@ -19,7 +17,7 @@ Time.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en post som innehåller delarna i det angivna tidsvärdet <code>time</code>. <ul>        <li><code>time</code>: Ett <code>time</code>-värde som posten med värdets delar ska beräknas från.</li>      </ul>
 

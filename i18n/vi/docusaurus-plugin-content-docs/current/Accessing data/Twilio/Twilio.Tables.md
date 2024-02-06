@@ -5,8 +5,6 @@ title: Twilio.Tables
 # Twilio.Tables
 
 
-## Description
-
 Nhập số tháng của dữ liệu Twilio trước đây để truy xuất.
 
 
@@ -19,7 +17,7 @@ Twilio.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Trả về bảng có dữ liệu Twilio liên quan.
 

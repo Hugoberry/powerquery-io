@@ -5,8 +5,6 @@ title: Number.Power
 # Number.Power
 
 
-## Description
-
 Verheft een getal tot de opgegeven macht.
 
 
@@ -20,7 +18,7 @@ Number.Power(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt het resultaat van het verheffen van <code>number</code> tot de macht <code>power</code> geretourneerd. Als <code>number</code> of <code>power</code> null is, retourneert <code>Number.Power</code> null. <ul> <li><code>number</code>: De basis.</li> <li><code>power</code>: De exponent.</li> </ul>
 

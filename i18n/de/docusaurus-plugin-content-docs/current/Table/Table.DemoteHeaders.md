@@ -5,8 +5,6 @@ title: Table.DemoteHeaders
 # Table.DemoteHeaders
 
 
-## Description
-
 Stuft die Spaltenüberschriften zur ersten Zeile mit Werten herab.
 
 
@@ -19,7 +17,7 @@ Table.DemoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Stuft die Spaltenüberschriften (also die Spaltennamen) zur ersten Zeile mit Werten herab. Die standardmäßigen Spaltennamen lauten "Column1", "Column2" usw.
 

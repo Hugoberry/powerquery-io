@@ -5,8 +5,6 @@ title: DateTime.IsInNextSecond
 # DateTime.IsInNextSecond
 
 
-## Description
-
 Indica se questo valore datetime rientra nel secondo successivo, come determinato dalla data e dall&#39;ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nel secondo corrente.
 
 
@@ -19,7 +17,7 @@ DateTime.IsInNextSecond(
 ```
 
 
-## Details
+## Remarks
 
 Indica se il valore datetime specificato <code>dateTime</code> rientra nel secondo successivo come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nel secondo corrente.      <ul>      <li><code>dateTime</code>: valore <code>datetime</code> o <code>datetimezone</code> da valutare.</li>      </ul>
 

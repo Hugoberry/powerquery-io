@@ -5,8 +5,6 @@ title: Smartsheet.Query
 # Smartsheet.Query
 
 
-## Description
-
 Smartsheet API から JSON の結果を返します
 
 
@@ -21,7 +19,7 @@ Smartsheet.Query(
 ```
 
 
-## Details
+## Remarks
 
 特定のエンドポイントで Smartsheet 2.0 REST API への呼び出しを実行し、 JSON レコードとして結果を返します。
 

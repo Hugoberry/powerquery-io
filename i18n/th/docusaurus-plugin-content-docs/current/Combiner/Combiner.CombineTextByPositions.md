@@ -5,8 +5,6 @@ title: Combiner.CombineTextByPositions
 # Combiner.CombineTextByPositions
 
 
-## Description
-
 ส่งกลับฟังก์ชันที่รวมรายการข้อความโดยใช้ตำแหน่งผลลัพธ์ที่ระบุ
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByPositions(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับฟังก์ชันที่รวมรายการของค่าข้อความเป็นค่าข้อความเดียวโดยใช้ตำแหน่งผลลัพธ์ที่ระบุ
 

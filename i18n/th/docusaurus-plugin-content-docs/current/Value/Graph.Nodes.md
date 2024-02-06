@@ -5,8 +5,6 @@ title: Graph.Nodes
 # Graph.Nodes
 
 
-## Description
-
 ฟังก์ชันนี้มีไว้สําหรับการใช้งานภายในเท่านั้น
 
 
@@ -19,7 +17,7 @@ Graph.Nodes(
 ```
 
 
-## Details
+## Remarks
 
 ฟังก์ชันนี้มีไว้สําหรับการใช้งานภายในเท่านั้น
 

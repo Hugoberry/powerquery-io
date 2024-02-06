@@ -5,8 +5,6 @@ title: Record.TransformFields
 # Record.TransformFields
 
 
-## Description
-
 Devuelve un registro después de aplicar las transformaciones especificadas.
 
 
@@ -21,7 +19,7 @@ Record.TransformFields(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un registro después de aplicar las transformaciones especificadas en la lista <code>transformOperations</code> a <code>record</code>.    Uno o más campos se pueden transformar en un momento especificado.      <div>Si se transforma un solo campo, se espera que <code>transformOperations</code> sea una lista con dos elementos. El primer elemento de <code>transformOperations</code> especifica un nombre de campo y el segundo elemento de <code>transformOperations</code> especifica la función que se usará para la transformación. Por ejemplo, <code>\{"Quantity", Number.FromText}</code></div>      <div>Si se transforman varios campos, se espera que <code>transformOperations</code> sea una lista de listas, donde cada lista interna es un par de nombre de campo y de operación de transformación. Por ejemplo, <code>\{\{"Quantity",Number.FromText},\{"UnitPrice", Number.FromText}}</code></div>.
 

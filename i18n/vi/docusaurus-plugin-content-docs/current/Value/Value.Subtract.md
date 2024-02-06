@@ -5,8 +5,6 @@ title: Value.Subtract
 # Value.Subtract
 
 
-## Description
-
 Trả về hiệu của hai giá trị.
 
 
@@ -21,7 +19,7 @@ Value.Subtract(
 ```
 
 
-## Details
+## Remarks
 
 Trả về hiệu của <code>value1</code> và <code>value2</code>. Có thể chỉ định tham số <code>precision</code> tùy chọn, theo mặc định <code>Precision.Double</code> được sử dụng.
 

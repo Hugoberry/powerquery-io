@@ -5,8 +5,6 @@ title: Number.Abs
 # Number.Abs
 
 
-## Description
-
 返回数的绝对值。
 
 
@@ -19,7 +17,7 @@ Number.Abs(
 ```
 
 
-## Details
+## Remarks
 
 返回 <code>number</code> 的绝对值。如果 <code>number</code> 为 null，则 <code>Number.Abs</code> 返回 null。    <ul>        <li><code>number</code>: 要计算其绝对值的 <code>number</code>。</li>      </ul>
 

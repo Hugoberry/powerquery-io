@@ -5,8 +5,6 @@ title: Table.InsertRows
 # Table.InsertRows
 
 
-## Description
-
 निर्दिष्ट स्थिति पर तालिका में पंक्तियों की एक सूची सम्मिलित करें.
 
 
@@ -21,7 +19,7 @@ Table.InsertRows(
 ```
 
 
-## Details
+## Remarks
 
 दी गई स्थिति, <code>offset</code> पर <code>table</code> में सम्मिलित पंक्तियों, <code>rows</code>, की सूची वाली एक तालिका लौटाता है. सम्मिलित करने के लिए पंक्ति के प्रत्येक स्तंभ को तालिका के स्तंभ प्रकारों से मेल खाना चाहिए.
 

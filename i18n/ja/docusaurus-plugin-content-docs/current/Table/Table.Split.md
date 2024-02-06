@@ -5,8 +5,6 @@ title: Table.Split
 # Table.Split
 
 
-## Description
-
 指定のテーブルを、指定のページ サイズを使ったテーブルのリストに分割します。
 
 
@@ -20,7 +18,7 @@ Table.Split(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> をテーブルのリストに分割します。リストの最初の要素は、ソース テーブルの  から最初の <code>pageSize</code> 行含むテーブルです。リストの次の要素は、ソース テーブルの次の <code>pageSize</code> 行を含むテーブルです。以下同様。
 

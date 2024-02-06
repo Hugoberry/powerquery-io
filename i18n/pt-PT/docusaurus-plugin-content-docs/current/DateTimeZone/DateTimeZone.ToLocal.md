@@ -5,8 +5,6 @@ title: DateTimeZone.ToLocal
 # DateTimeZone.ToLocal
 
 
-## Description
-
 Converte o componente de fuso horário para o fuso horário local.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToLocal(
 ```
 
 
-## Details
+## Remarks
 
 Altera as informações de fuso horário do valor datetimezone <code>dateTimeZone</code> para as informações de fuso horário local.    Se <code>dateTimeZone</code> não tiver um componente de fuso horário, serão adicionadas as informações de fuso horário local.
 

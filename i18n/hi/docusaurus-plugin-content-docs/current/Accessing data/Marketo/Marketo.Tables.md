@@ -5,8 +5,6 @@ title: Marketo.Tables
 # Marketo.Tables
 
 
-## Description
-
 अपने खाते से संबंधित Marketo REST API अंतिमबिंदु का URL दर्जे करें.
 
 
@@ -20,7 +18,7 @@ Marketo.Tables(
 ```
 
 
-## Details
+## Remarks
 
 संबद्ध Marketo डेटा वाली एक तालिका लौटाता है.
 

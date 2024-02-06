@@ -5,8 +5,6 @@ title: Splitter.SplitByNothing
 # Splitter.SplitByNothing
 
 
-## Description
-
 คืนค่าฟังก์ชันที่ไม่แยกออก โดยคืนค่าอาร์กิวเมนต์ของฟังก์ชันเป็นรายการองค์ประกอบเดียว
 
 
@@ -19,7 +17,7 @@ Splitter.SplitByNothing(
 ```
 
 
-## Details
+## Remarks
 
 คืนค่าฟังก์ชันที่ไม่แยกออก โดยคืนค่าอาร์กิวเมนต์ของฟังก์ชันเป็นรายการองค์ประกอบเดียว
 

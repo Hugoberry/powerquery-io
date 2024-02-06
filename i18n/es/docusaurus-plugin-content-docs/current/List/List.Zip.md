@@ -5,8 +5,6 @@ title: List.Zip
 # List.Zip
 
 
-## Description
-
 Combina los elementos situados en la misma posición de múltiples listas y devuelve una elaborada a partir de dichas listas.
 
 
@@ -19,7 +17,7 @@ List.Zip(
 ```
 
 
-## Details
+## Remarks
 
 Toma una lista elaborada a partir de varias listas (<code>lists</code>), combina los elementos situados en la misma posición y devuelve otra lista también elaborada a partir de varias.
 

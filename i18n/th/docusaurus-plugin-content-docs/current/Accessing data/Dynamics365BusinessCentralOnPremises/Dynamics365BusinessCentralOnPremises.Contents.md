@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentralOnPremises.Contents
 # Dynamics365BusinessCentralOnPremises.Contents
 
 
-## Description
-
 ใส่ URL ของตำแหน่งข้อมูลบริการ OData ของ Dynamics 365 Business Central (รุ่นภายในองค์กร) ของคุณ
 
 
@@ -20,7 +18,7 @@ Dynamics365BusinessCentralOnPremises.Contents(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางพร้อมข้อมูลของ Dynamics 365 Business Central (รุ่นภายในองค์กร) ที่เกี่ยวข้อง 
 

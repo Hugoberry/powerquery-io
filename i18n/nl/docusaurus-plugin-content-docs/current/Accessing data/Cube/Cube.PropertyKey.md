@@ -5,8 +5,6 @@ title: Cube.PropertyKey
 # Cube.PropertyKey
 
 
-## Description
-
 Hiermee wordt de sleutel van een eigenschap geretourneerd.
 
 
@@ -19,7 +17,7 @@ Cube.PropertyKey(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt de sleutel van de eigenschap <code>property</code> geretourneerd.
 

@@ -5,8 +5,6 @@ title: Record.ToList
 # Record.ToList
 
 
-## Description
-
 傳回值清單，內含輸入記錄的欄位值。
 
 
@@ -19,7 +17,7 @@ Record.ToList(
 ```
 
 
-## Details
+## Remarks
 
 根據輸入 <code>record</code> 傳回包含欄位值的值清單。
 

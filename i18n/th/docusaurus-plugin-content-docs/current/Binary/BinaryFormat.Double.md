@@ -5,8 +5,6 @@ title: BinaryFormat.Double
 # BinaryFormat.Double
 
 
-## Description
-
 รูปแบบไบนารีที่อ่านค่าเลขทศนิยมลอยตัว IEEE Double-Precision 8 ไบต์
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Double(
 ```
 
 
-## Details
+## Remarks
 
 รูปแบบไบนารีที่อ่านค่าเลขทศนิยมลอยตัว IEEE Double-Precision 8 ไบต์
 

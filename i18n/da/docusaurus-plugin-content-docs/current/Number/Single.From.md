@@ -5,8 +5,6 @@ title: Single.From
 # Single.From
 
 
-## Description
-
 Opretter et enkeltpræcisions flydende tal ud fra den angivne værdi.
 
 
@@ -20,7 +18,7 @@ Single.From(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en enkelt <code>number</code> værdi fra den angivne <code>value</code>. Hvis den angivne <code>value</code> er <code>null</code>, returnerer <code>Single.From</code> <code>null</code>.  Hvis den angivne <code>value</code> er <code>number</code> inden for intervallet single, returneres <code>value</code>, ellers returneres der en fejl. Hvis <code>value</code> er af en anden type, konverteres den først til en <code>number</code> ved hjælp af <code>Number.FromText</code>. Der kan også angives en valgfri <code>culture</code> (f.eks. "en-US").
 

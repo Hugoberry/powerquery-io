@@ -5,8 +5,6 @@ title: Date.DayOfWeekName
 # Date.DayOfWeekName
 
 
-## Description
-
 Returnerar namnet på veckodagen.
 
 
@@ -20,7 +18,7 @@ Date.DayOfWeekName(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar veckonamnet för angivet <code>date</code>. En valfri <code>culture</code> kan även anges (till exempel "en-US").
 

@@ -5,8 +5,6 @@ title: Type.Is
 # Type.Is
 
 
-## Description
-
 最初の型の値が 2 番目の型と常に互換性があるかどうかを判断します。
 
 
@@ -20,7 +18,7 @@ Type.Is(
 ```
 
 
-## Details
+## Remarks
 
 <code>type1</code> の値が常に <code>type2</code> と互換性があるかどうかを判断します。
 

@@ -5,8 +5,6 @@ title: Date.MonthName
 # Date.MonthName
 
 
-## Description
-
 Devolve o nome do componente de mês.
 
 
@@ -20,7 +18,7 @@ Date.MonthName(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o nome do componente do mês para o <code>date</code> fornecido. Pode também ser fornecida uma <code>culture</code> opcional (por exemplo, "en-US").
 

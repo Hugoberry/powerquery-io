@@ -5,8 +5,6 @@ title: Type.IsNullable
 # Type.IsNullable
 
 
-## Description
-
 Retorna true se um tipo for um tipo anulável; caso contrário, false.
 
 
@@ -19,7 +17,7 @@ Type.IsNullable(
 ```
 
 
-## Details
+## Remarks
 
 Retorna <code>true</code> se um tipo for um tipo <code>nulo</code>; caso contrário, <code>false</code>.
 

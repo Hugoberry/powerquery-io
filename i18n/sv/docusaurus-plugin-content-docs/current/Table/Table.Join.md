@@ -5,8 +5,6 @@ title: Table.Join
 # Table.Join
 
 
-## Description
-
 Kopplar raderna från de två tabeller som matchar baserat på de angivna nycklarna.
 
 
@@ -25,7 +23,7 @@ Table.Join(
 ```
 
 
-## Details
+## Remarks
 
 Kopplar samman raderna i <code>table1</code> med raderna i <code>table2</code> baserat på likheten av värdena i de nyckelkolumner som valts av <code>key1</code> (för <code>table1</code>) och <code>key2</code> (för <code>table2</code>).<br />Som standard utförs en inre koppling men även en valfri <code>joinKind</code> kan användas för att ange typen av koppling. Alternativen är:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />En valfri uppsättning <code>keyEqualityComparers</code> kan läggas till för att ange hur nyckelkolumnerna ska jämföras. Den här parametern är för närvarande endast avsedd för internt bruk.<br />
 

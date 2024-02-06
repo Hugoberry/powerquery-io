@@ -5,8 +5,6 @@ title: List.Average
 # List.Average
 
 
-## Description
-
 Zwraca średnią z wartości. Ta funkcja działa z wartościami typu number, date, datetime, datetimezone i duration.
 
 
@@ -20,7 +18,7 @@ List.Average(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca średnią wartość elementów na liście <code>list</code>. Wynik ma taki sam typ danych jak wartości na liście. Ta funkcja działa tylko z wartościami typu number, date, time, datetime, datetimezone i duration.    Jeśli lista jest pusta, zwracana jest wartość null.
 

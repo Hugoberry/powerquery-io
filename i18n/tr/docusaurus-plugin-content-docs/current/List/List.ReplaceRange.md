@@ -5,8 +5,6 @@ title: List.ReplaceRange
 # List.ReplaceRange
 
 
-## Description
-
 Değerlerin count sayısını değiştirme değeri konumundan başlayarak değiştirir.
 
 
@@ -22,7 +20,7 @@ List.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> içindeki <code>count</code> değeri <code>replaceWith</code> listesi ile belirtilen <code>index</code> konumundan başlayarak kaldırır.
 

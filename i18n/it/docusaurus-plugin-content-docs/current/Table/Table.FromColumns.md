@@ -5,8 +5,6 @@ title: Table.FromColumns
 # Table.FromColumns
 
 
-## Description
-
 Crea una tabella da un elenco di colonne e valori specificati.
 
 
@@ -20,7 +18,7 @@ Table.FromColumns(
 ```
 
 
-## Details
+## Remarks
 
 Crea una tabella di tipo <code>columns</code> da un elenco <code>lists</code> che contiene elenchi annidati con nomi di colonna e valori.    Se alcune colonne contengono più valori di altre, i valori mancanti verranno riempiti con il valore predefinito 'null', se le colonne ammettono i valori Null.
 

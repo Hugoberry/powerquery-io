@@ -5,8 +5,6 @@ title: Twilio.Tables
 # Twilio.Tables
 
 
-## Description
-
 取得する Twilio の履歴データの月数を入力します。
 
 
@@ -19,7 +17,7 @@ Twilio.Tables(
 ```
 
 
-## Details
+## Remarks
 
 関連する Twilio データのテーブルを返します。
 

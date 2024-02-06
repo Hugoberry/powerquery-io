@@ -5,8 +5,6 @@ title: Table.FirstValue
 # Table.FirstValue
 
 
-## Description
-
 Devuelve la primera fila de la tabla o un valor predeterminado especificado.
 
 
@@ -20,7 +18,7 @@ Table.FirstValue(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve la primera columna de la primera fila de la tabla <code>table</code> o un valor predeterminado especificado.
 

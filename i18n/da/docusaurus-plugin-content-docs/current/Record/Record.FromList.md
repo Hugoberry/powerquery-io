@@ -5,8 +5,6 @@ title: Record.FromList
 # Record.FromList
 
 
-## Description
-
 Returnerer en post med en liste over feltværdier og et sæt felter.
 
 
@@ -20,7 +18,7 @@ Record.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en post med en <code>list</code> over feltværdier og et sæt felter.  <code>fields</code> kan enten angives ved en liste med tekstværdier eller en posttype.  Der udløses en fejl, hvis feltet ikke er entydigt.
 

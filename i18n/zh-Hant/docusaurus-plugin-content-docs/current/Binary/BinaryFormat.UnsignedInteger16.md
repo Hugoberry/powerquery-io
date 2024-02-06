@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger16
 # BinaryFormat.UnsignedInteger16
 
 
-## Description
-
 一種二進位格式，可讀取 16 位元不帶正負號的整數。
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger16(
 ```
 
 
-## Details
+## Remarks
 
 一種二進位格式，可讀取 16 位元不帶正負號的整數。
 

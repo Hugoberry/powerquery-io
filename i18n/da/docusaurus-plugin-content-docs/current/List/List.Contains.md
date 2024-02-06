@@ -5,8 +5,6 @@ title: List.Contains
 # List.Contains
 
 
-## Description
-
 Angiver, om listen indeholder værdien.
 
 
@@ -21,7 +19,7 @@ List.Contains(
 ```
 
 
-## Details
+## Remarks
 
 Angiver, om listen <code>list</code> indeholder værdien <code>value</code>.    Returnerer true, hvis værdien blev fundet på listen. Ellers returneres false. Du kan angive en valgfri kriterieværdi for ligningen, <code>equationCriteria</code>, for at styre kvalitetstesten. 
 

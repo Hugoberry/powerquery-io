@@ -5,8 +5,6 @@ title: GeographyPoint.From
 # GeographyPoint.From
 
 
-## Description
-
 Opretter en post, der repræsenterer et geografisk punkt fra dele.
 
 
@@ -23,7 +21,7 @@ GeographyPoint.From(
 ```
 
 
-## Details
+## Remarks
 
 Opretter en poststruktur, der repræsenterer et geografisk punkt fra dets bestanddele, såsom længdegrad, breddegrad, og hvis den er til stede, elevation (Z) og måling (M). Der kan angives et valgfrit rumligt referencesystem-id (SRID), hvis det adskiller sig fra standardværdien (4326).
 

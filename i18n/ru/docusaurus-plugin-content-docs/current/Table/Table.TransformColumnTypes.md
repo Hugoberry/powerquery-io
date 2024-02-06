@@ -5,8 +5,6 @@ title: Table.TransformColumnTypes
 # Table.TransformColumnTypes
 
 
-## Description
-
 Применяет преобразование типа формы \{ column, type }, используя конкретный язык и региональные параметры.
 
 
@@ -21,7 +19,7 @@ Table.TransformColumnTypes(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу из входных данных <code>table</code>, применяя операцию преобразования к столбцам, указанным в параметре <code>typeTransformations</code> (с форматом \{ column name, type name}), используя язык и региональные параметры, указанные в необязательном параметре <code>culture</code> (например, "ru-RU").    Если столбец не существует, возникает исключение.
 

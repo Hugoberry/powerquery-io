@@ -5,8 +5,6 @@ title: Table.TransformColumnTypes
 # Table.TransformColumnTypes
 
 
-## Description
-
 Wendet Typtransformationen im Format &#34;\{ column, type }&#34; unter Verwendung einer bestimmten Kultur an.
 
 
@@ -21,7 +19,7 @@ Table.TransformColumnTypes(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Tabelle auf der Grundlage der Eingabe "<code>table</code>" zurück, indem der Transformationsvorgang unter Verwendung der im optionalen Parameter "<code>typeTransformations</code>" angegebenen Kultur auf die im Parameter "<code>culture</code>" (im Format "\{ column name, type name}") angegebenen Spalten angewendet wird (Beispiel: "de-DE").    Ist die Spalte nicht vorhanden, wird eine Ausnahme ausgelöst.
 

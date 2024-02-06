@@ -5,8 +5,6 @@ title: Text.RemoveRange
 # Text.RemoveRange
 
 
-## Description
-
 Verwijdert een aantal tekens vanaf de opgegeven verschuiving.
 
 
@@ -21,7 +19,7 @@ Text.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een kopie geretourneerd van de tekstwaarde <code>text</code> met waarbij tekens van positie <code>offset</code> zijn verwijderd. Een optionele parameter, <code>count</code> kan worden gebruikt voor het opgeven van het aantal tekens dat moet worden verwijderd. De standaardwaarde van <code>count</code> is 1. Positiewaarden beginnen bij 0.
 

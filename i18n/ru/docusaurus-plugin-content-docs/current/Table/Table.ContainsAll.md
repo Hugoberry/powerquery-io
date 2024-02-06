@@ -5,8 +5,6 @@ title: Table.ContainsAll
 # Table.ContainsAll
 
 
-## Description
-
 Указывает, появляются ли все указанные записи в виде строк в таблице.
 
 
@@ -21,7 +19,7 @@ Table.ContainsAll(
 ```
 
 
-## Details
+## Remarks
 
 Указывает, появляются ли все записи, указанные в списке записей <code>rows</code>, в виде строк в <code>table</code>.    Для управления сравнением строк таблицы может быть указан необязательный параметр <code>equationCriteria</code>.
 

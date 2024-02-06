@@ -5,8 +5,6 @@ title: RowExpression.Column
 # RowExpression.Column
 
 
-## Description
-
 एक सारांश सिंटैक्स ट्री (AST) वापस करता है जो पंक्ति व्यंजक के भीतर पंक्ति के कालम तक पहुँच का प्रतिनिधित्व करता है.
 
 
@@ -19,7 +17,7 @@ RowExpression.Column(
 ```
 
 
-## Details
+## Remarks
 
 एक सारांश सिंटैक्स ट्री (AST) वापस करता है जो पंक्ति व्यंजक के भीतर पंक्ति के कालम <code>columnName</code> तक पहुँच का प्रतिनिधित्व करता है.
 

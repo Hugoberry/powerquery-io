@@ -5,8 +5,6 @@ title: List.Transform
 # List.Transform
 
 
-## Description
-
 このリストから計算された値の新しいリストを返します。
 
 
@@ -20,7 +18,7 @@ List.Transform(
 ```
 
 
-## Details
+## Remarks
 
 変換関数 <code>transform</code> をリスト <code>list</code> に適用して値の新しいリストを返します。
 

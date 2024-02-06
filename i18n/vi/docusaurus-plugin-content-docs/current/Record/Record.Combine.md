@@ -5,8 +5,6 @@ title: Record.Combine
 # Record.Combine
 
 
-## Description
-
 Kết hợp các bản ghi trong danh sách cho sẵn.
 
 
@@ -19,7 +17,7 @@ Record.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Kết hợp các bản ghi trong danh sách cho sẵn <code>records</code>. Nếu <code>records</code> chứa giá trị không phải là bản ghi thì một lỗi được trả về.
 

@@ -5,8 +5,6 @@ title: List.Covariance
 # List.Covariance
 
 
-## Description
-
 Trả về hiệp phương sai giữa hai danh sách số.
 
 
@@ -20,7 +18,7 @@ List.Covariance(
 ```
 
 
-## Details
+## Remarks
 
 Trả về hiệp phương sai giữa hai danh sách, <code>numberList1</code> và <code>numberList2</code>. <code>numberList1</code> và <code>numberList2</code> phải chứa cùng số lượng là <code>number</code> giá trị.
 

@@ -5,8 +5,6 @@ title: Stripe.Tables
 # Stripe.Tables
 
 
-## Description
-
 Trả về bảng liệt kê các bảng và hàm Stripe có sẵn.
 
 
@@ -19,7 +17,7 @@ Stripe.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Trả về bảng liệt kê các bảng và hàm Stripe có sẵn.
 

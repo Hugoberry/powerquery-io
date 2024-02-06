@@ -5,8 +5,6 @@ title: Table.Last
 # Table.Last
 
 
-## Description
-
 Gibt die letzte Zeile oder einen angegebenen Standardwert zurück.
 
 
@@ -20,7 +18,7 @@ Table.Last(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die letzte Zeile des Elements vom Typ "<code>table</code>" zurück. Ist die Tabelle leer, wird ein optionaler Standardwert (<code>default</code>) zurückgegeben.
 

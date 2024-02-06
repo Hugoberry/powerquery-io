@@ -5,8 +5,6 @@ title: Type.IsOpenRecord
 # Type.IsOpenRecord
 
 
-## Description
-
 यह बताता है कि रिकॉर्ड प्रकार खुला है या नहीं.
 
 
@@ -19,7 +17,7 @@ Type.IsOpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 वह <code>तार्किक</code> लौटाता है जो यह संकेत करता है कि रिकॉर्ड <code>type</code> खुला है या नहीं.
 

@@ -5,8 +5,6 @@ title: Number.Exp
 # Number.Exp
 
 
-## Description
-
 Eleva e à potência especificada.
 
 
@@ -19,7 +17,7 @@ Number.Exp(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o resultado de elevar e à <code>number</code>ª potência (função exponencial).      <ul>        <li><code>number</code>: um <code>number</code> cuja função exponencial deve ser calculada. Se <code>number</code> for nulo, <code>Number.Exp</code> retornará nulo. </li>      </ul>
 

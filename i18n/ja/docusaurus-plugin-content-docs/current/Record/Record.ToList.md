@@ -5,8 +5,6 @@ title: Record.ToList
 # Record.ToList
 
 
-## Description
-
 入力レコードのフィールド値を含む値のリストを返します。
 
 
@@ -19,7 +17,7 @@ Record.ToList(
 ```
 
 
-## Details
+## Remarks
 
 入力 <code>record</code> からフィールド値を含む値のリストを返します。
 

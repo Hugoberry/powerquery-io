@@ -5,8 +5,6 @@ title: Combiner.CombineTextByDelimiter
 # Combiner.CombineTextByDelimiter
 
 
-## Description
-
 Returnerar en funktion som kombinerar en lista med text med den angivna avgränsare.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en funktion som kombinerar en lista med textvärden till ett enskilt textvärde med angiven avgränsare.
 

@@ -5,8 +5,6 @@ title: Table.ReplaceRelationshipIdentity
 # Table.ReplaceRelationshipIdentity
 
 
-## Description
-
 Chỉ được dùng hàm này trong nội bộ.
 
 
@@ -20,7 +18,7 @@ Table.ReplaceRelationshipIdentity(
 ```
 
 
-## Details
+## Remarks
 
 Chỉ được dùng hàm này trong nội bộ.
 

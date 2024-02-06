@@ -5,8 +5,6 @@ title: Number.RandomBetween
 # Number.RandomBetween
 
 
-## Description
-
 返回两个数之间的一个随机数。
 
 
@@ -20,7 +18,7 @@ Number.RandomBetween(
 ```
 
 
-## Details
+## Remarks
 
 返回 <code>bottom</code> 和 <code>top</code> 之间的一个随机数。
 

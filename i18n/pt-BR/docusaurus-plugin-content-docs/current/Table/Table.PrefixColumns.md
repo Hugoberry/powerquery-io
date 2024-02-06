@@ -5,8 +5,6 @@ title: Table.PrefixColumns
 # Table.PrefixColumns
 
 
-## Description
-
 Retorna uma tabela em que todas as colunas sejam prefixadas com o texto especificado.
 
 
@@ -20,7 +18,7 @@ Table.PrefixColumns(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma tabela em que todos os nomes de coluna da <code>table</code> fornecida são prefixados com o texto determinado, <code>prefix</code>, mais um ponto final, na forma <code>prefix</code><code>.ColumnName</code>.
 

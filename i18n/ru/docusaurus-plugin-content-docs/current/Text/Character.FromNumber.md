@@ -5,8 +5,6 @@ title: Character.FromNumber
 # Character.FromNumber
 
 
-## Description
-
 Преобразует число в текстовый символ.
 
 
@@ -19,7 +17,7 @@ Character.FromNumber(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает символ, эквивалентный числу.<br />    <br />    Указанное значение <code>number</code> должно представлять собой 21-разрядную кодовую точку Unicode.
 

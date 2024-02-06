@@ -5,8 +5,6 @@ title: Table.PrefixColumns
 # Table.PrefixColumns
 
 
-## Description
-
 Devolve uma tabela em que o texto especificado foi adicionado como prefixo a todas as colunas.
 
 
@@ -20,7 +18,7 @@ Table.PrefixColumns(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma tabela em que o texto especificado, <code>prefix</code>, juntamente com um ponto no formato <code>prefix</code><code>.ColumnName</code>, é adicionado como prefixo aos nomes de todas as colunas do <code>table</code> especificado.
 

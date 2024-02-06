@@ -5,8 +5,6 @@ title: Text.Lower
 # Text.Lower
 
 
-## Description
-
 แปลงอักขระทั้งหมดเป็นตัวพิมพ์เล็ก
 
 
@@ -20,7 +18,7 @@ Text.Lower(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลลัพธ์ของการแปลงอักขระทั้งหมดใน <code>text</code> เป็นตัวพิมพ์เล็ก อาจมีการระบุ <code>culture</code> เพิ่มเติม (ตัวอย่างเช่น "en-US")
 

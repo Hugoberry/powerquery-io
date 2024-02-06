@@ -5,8 +5,6 @@ title: IdentityProvider.Default
 # IdentityProvider.Default
 
 
-## Description
-
 Provider di identità predefinito per l&#39;host corrente.
 
 
@@ -19,7 +17,7 @@ IdentityProvider.Default(
 ```
 
 
-## Details
+## Remarks
 
 Provider di identità predefinito per l'host corrente.
 

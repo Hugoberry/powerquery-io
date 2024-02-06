@@ -5,8 +5,6 @@ title: List.AnyTrue
 # List.AnyTrue
 
 
-## Description
-
 Herhangi bir ifade doğru ise doğru değerini döndürür.
 
 
@@ -19,7 +17,7 @@ List.AnyTrue(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesindeki herhangi bir ifade doğru ise doğru değerini döndürür.
 

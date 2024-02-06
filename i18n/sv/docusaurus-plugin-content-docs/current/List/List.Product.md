@@ -5,8 +5,6 @@ title: List.Product
 # List.Product
 
 
-## Description
-
 Returnerar produkten av talen i listan.
 
 
@@ -20,7 +18,7 @@ List.Product(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar produkten av talen i listan, <code>numbersList</code>, som inte är null. Returnerar null om det inte finns några värden som inte är null i listan.
 

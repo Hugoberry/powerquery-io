@@ -5,8 +5,6 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-## Description
-
 Retourne une table des feuilles, rapports, dossiers et espaces de travail à partir de l&#39;API Smartsheet
 
 
@@ -19,7 +17,7 @@ Smartsheet.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une table imbriquée des feuilles, rapports, dossiers et espaces de travail disponibles à partir de l'API Smartsheet.
 

@@ -5,8 +5,6 @@ title: List.MatchesAll
 # List.MatchesAll
 
 
-## Description
-
 Trả về true nếu tất cả các giá trị trong danh sách đáp ứng hàm điều kiện.
 
 
@@ -20,7 +18,7 @@ List.MatchesAll(
 ```
 
 
-## Details
+## Remarks
 
 Trả về <code>true</code> nếu hàm điều kiện <code>condition</code> được đáp ứng bởi tất cả giá trị trong danh sách <code>list</code>, nếu không trả về <code>false</code>.
 

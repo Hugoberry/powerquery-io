@@ -5,8 +5,6 @@ title: Number.Sinh
 # Number.Sinh
 
 
-## Description
-
 傳回數字的雙曲正弦值。
 
 
@@ -19,7 +17,7 @@ Number.Sinh(
 ```
 
 
-## Details
+## Remarks
 
 傳回 <code>number</code> 的雙曲正弦值。
 

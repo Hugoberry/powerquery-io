@@ -5,8 +5,6 @@ title: Cube.Parameters
 # Cube.Parameters
 
 
-## Description
-
 Retorna uma tabela contendo o conjunto de parâmetros que pode ser aplicado ao cubo.
 
 
@@ -19,7 +17,7 @@ Cube.Parameters(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma tabela contendo o conjunto de parâmetros que pode ser aplicado a <code>cube</code>. Cada parâmetro é uma função que pode ser invocada para obter <code>cube</code> com o parâmetro e os argumentos aplicados.
 

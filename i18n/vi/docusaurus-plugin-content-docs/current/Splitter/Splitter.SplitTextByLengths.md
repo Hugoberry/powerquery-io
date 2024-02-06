@@ -5,8 +5,6 @@ title: Splitter.SplitTextByLengths
 # Splitter.SplitTextByLengths
 
 
-## Description
-
 Trả về một hàm tách văn bản thành một danh sách văn bản theo mỗi độ dài được chỉ định.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByLengths(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một hàm tách văn bản thành một danh sách văn bản theo mỗi độ dài được chỉ định.
 

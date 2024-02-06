@@ -5,8 +5,6 @@ title: Odbc.InferOptions
 # Odbc.InferOptions
 
 
-## Description
-
 Returnerer resultatet af forsøget på at indføre SQL-funktioner til en ODBC-driver.
 
 
@@ -19,7 +17,7 @@ Odbc.InferOptions(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer resultatet af forsøget på at udlede SQL-egenskaber med forbindelsesstrengen <code>connectionString</code> ved hjælp af ODBC. <code>connectionString</code> kan være tekst eller en post med egenskabsværdipar. Egenskabsværdier kan enten være en tekst eller et tal.
 

@@ -5,8 +5,6 @@ title: List.FindText
 # List.FindText
 
 
-## Description
-
 Belirtilen metni içeren bir değer listesi (kayıt alanları dahil) döndürür.
 
 
@@ -20,7 +18,7 @@ List.FindText(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesinden <code>text</code> değerini içeren değerlerin listesini döndürür.
 

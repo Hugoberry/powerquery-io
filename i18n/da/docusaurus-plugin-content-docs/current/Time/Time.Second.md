@@ -5,8 +5,6 @@ title: Time.Second
 # Time.Second
 
 
-## Description
-
 Returnerer sekundkomponenten.
 
 
@@ -19,7 +17,7 @@ Time.Second(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer sekundkomponenten af den angivne værdi af typen <code>time</code>, <code>datetime</code> eller <code>datetimezone</code>, <code>dateTime</code>.
 

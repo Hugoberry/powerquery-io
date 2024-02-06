@@ -5,8 +5,6 @@ title: Table.FromList
 # Table.FromList
 
 
-## Description
-
 Converteert een lijst naar een tabel door de opgegeven splitsfunctie op elk item in de lijst toe te passen.
 
 
@@ -23,7 +21,7 @@ Table.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Converteert een lijst <code>list</code> naar een tabel door de optionele splitsfunctie, <code>splitter</code>, op elk item in de lijst toe te passen. Standaard wordt er vanuit gegaan dat de lijst een lijst met tekstwaarden is, van elkaar gescheiden door een komma. Optionele <code>columns</code> kan het aantal kolommen, een lijst met kolommen of een tabeltype zijn. Optionele <code>default</code> en <code>extraValues</code> kunnen ook worden opgegeven.
 

@@ -5,8 +5,6 @@ title: Date.IsLeapYear
 # Date.IsLeapYear
 
 
-## Description
-
 この日付がうるう年に該当するかどうかを示します。
 
 
@@ -19,7 +17,7 @@ Date.IsLeapYear(
 ```
 
 
-## Details
+## Remarks
 
 指定された datetime 値 <code>dateTime</code> がうるう年に該当するかどうかを示します。 <ul>        <li><code>dateTime</code>: 評価される <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値。</li>      </ul>
 

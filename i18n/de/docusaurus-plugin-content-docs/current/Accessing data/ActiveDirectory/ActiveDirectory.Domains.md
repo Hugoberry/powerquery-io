@@ -5,8 +5,6 @@ title: ActiveDirectory.Domains
 # ActiveDirectory.Domains
 
 
-## Description
-
 Gibt eine Liste von Active Directory-Domänen, die sich in derselben Gesamtstruktur wie die angegebene Domäne befinden, oder die Domäne des aktuellen Computers zurück, wenn keine Domäne angegeben ist.
 
 
@@ -19,7 +17,7 @@ ActiveDirectory.Domains(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Liste von Active Directory-Domänen, die sich in derselben Gesamtstruktur wie die angegebene Domäne befinden, oder die Domäne des aktuellen Computers zurück, wenn keine Domäne angegeben ist.
 

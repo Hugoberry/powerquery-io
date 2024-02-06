@@ -5,8 +5,6 @@ title: Impala.Database
 # Impala.Database
 
 
-## Description
-
 Importuj dane z klastra Impala
 
 
@@ -20,7 +18,7 @@ Impala.Database(
 ```
 
 
-## Details
+## Remarks
 
 Importuj dane z klastra Impala <code>server</code>. Jeśli nie określono portu, zostanie użyty port domyślny 21050.
 

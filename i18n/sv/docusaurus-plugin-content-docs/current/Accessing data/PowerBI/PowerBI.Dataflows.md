@@ -15,7 +15,7 @@ PowerBI.Dataflows(
 ```
 
 
-## Details
+## Remarks
 
 Anslut till alla Power BI-dataflöden som du har åtkomst till och välj de enheter som du vill använda.
 

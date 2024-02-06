@@ -5,8 +5,6 @@ title: Text.ReplaceRange
 # Text.ReplaceRange
 
 
-## Description
-
 删除一系列字符并在指定的位置插入新值。
 
 
@@ -22,7 +20,7 @@ Text.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 返回从文本值 <code>text</code> 中的位置 <code>offset</code> 开始删除一些字符 <code>count</code>，然后在 <code>text</code> 中的相同位置插入文本值 <code>newText</code> 的结果。
 

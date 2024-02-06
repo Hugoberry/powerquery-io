@@ -5,8 +5,6 @@ title: Table.ToRows
 # Table.ToRows
 
 
-## Description
-
 Crea un elenco di elenchi annidati di valori di riga da una tabella.
 
 
@@ -19,7 +17,7 @@ Table.ToRows(
 ```
 
 
-## Details
+## Remarks
 
 Crea un elenco di elenchi annidati dalla tabella <code>table</code>.  Ogni voce di elenco è un elenco interno contenente i valori di riga.
 

@@ -5,8 +5,6 @@ title: List.FirstN
 # List.FirstN
 
 
-## Description
-
 Returnerar den första uppsättningen objekt i listan genom att ange hur många objekt som ska returneras eller ett kvalificeringsvillkor.
 
 
@@ -20,7 +18,7 @@ List.FirstN(
 ```
 
 
-## Details
+## Remarks
 
  <ul>  <li>Om ett tal anges returneras så många objekt. </li>  <li>Om ett villkor anges returneras alla objekt som inledningsvis uppfyller villkoret. Om ett objekt inte uppfyller villkoret utvärderas inga fler objekt. </li> </ul>
 

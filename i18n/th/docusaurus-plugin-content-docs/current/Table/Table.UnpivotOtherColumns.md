@@ -5,8 +5,6 @@ title: Table.UnpivotOtherColumns
 # Table.UnpivotOtherColumns
 
 
-## Description
-
 แปลคอลัมน์ทั้งหมดนอกเหนือจากชุดที่ระบุไว้ในคู่ค่า-แอททริบิวต์
 
 
@@ -22,7 +20,7 @@ Table.UnpivotOtherColumns(
 ```
 
 
-## Details
+## Remarks
 
 แปลคอลัมน์ทั้งหมดนอกเหนือจากชุดที่ระบุไว้ในคู่ค่า-แอตทริบิวต์ รวมกับค่าส่วนที่เหลือในแต่ละแถว
 

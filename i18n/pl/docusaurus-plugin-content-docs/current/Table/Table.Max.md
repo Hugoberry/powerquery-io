@@ -5,8 +5,6 @@ title: Table.Max
 # Table.Max
 
 
-## Description
-
 Zwraca największy wiersz lub wartość domyślną, używając podanych kryteriów.
 
 
@@ -21,7 +19,7 @@ Table.Max(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca największy wiersz w tabeli <code>table</code>, używając podanych kryteriów <code>comparisonCriteria</code>. Jeśli tabela jest pusta, jest zwracana opcjonalna wartość <code>default</code>. 
 

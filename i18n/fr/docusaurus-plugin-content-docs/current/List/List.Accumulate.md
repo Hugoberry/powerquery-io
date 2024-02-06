@@ -5,8 +5,6 @@ title: List.Accumulate
 # List.Accumulate
 
 
-## Description
-
 Cumule une valeur de résumé à partir des éléments dans la liste.
 
 
@@ -21,7 +19,7 @@ List.Accumulate(
 ```
 
 
-## Details
+## Remarks
 
 Cumule une valeur de résumé à partir des éléments dans la liste <code>list</code> à l'aide de <code>accumulator</code>.    Un paramètre de départ <code>seed</code> facultatif peut être défini.
 

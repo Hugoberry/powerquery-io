@@ -5,8 +5,6 @@ title: Table.ApproximateRowCount
 # Table.ApproximateRowCount
 
 
-## Description
-
 Tablodaki yaklaşık satır sayısını geri gönderir.
 
 
@@ -19,7 +17,7 @@ Table.ApproximateRowCount(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> içindeki yaklaşık satır sayısını veya veri kaynağı yaklaşıklığı desteklemiyorsa bir hata döndürür.
 

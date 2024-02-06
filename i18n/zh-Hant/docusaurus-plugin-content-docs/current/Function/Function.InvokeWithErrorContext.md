@@ -5,8 +5,6 @@ title: Function.InvokeWithErrorContext
 # Function.InvokeWithErrorContext
 
 
-## Description
-
 此函式僅供內部使用。
 
 
@@ -20,7 +18,7 @@ Function.InvokeWithErrorContext(
 ```
 
 
-## Details
+## Remarks
 
 此函式僅供內部使用。
 

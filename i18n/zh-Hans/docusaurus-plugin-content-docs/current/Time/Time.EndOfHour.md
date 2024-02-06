@@ -5,8 +5,6 @@ title: Time.EndOfHour
 # Time.EndOfHour
 
 
-## Description
-
 返回小时结束值。
 
 
@@ -19,7 +17,7 @@ Time.EndOfHour(
 ```
 
 
-## Details
+## Remarks
 
 返回 <code>dateTime</code> 表示的小时结束值，包括小数秒。保留时区信息。      <ul>        <li><code>dateTime</code>: 从中计算小时结束值的<code>time</code>、<code>datetime</code>或<code>datetimezone</code>值。</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Table.Pivot
 # Table.Pivot
 
 
-## Description
-
 Roteert aan de hand van kolommen die paren kenmerk-waarde vertegenwoordigen, de gegevens in de kenmerkkolom naar een kolomkop.
 
 
@@ -23,7 +21,7 @@ Table.Pivot(
 ```
 
 
-## Details
+## Remarks
 
 Roteert aan de hand van kolommen die paren kenmerk-waarde vertegenwoordigen, de gegevens in de kenmerkkolom naar een kolomkop.
 

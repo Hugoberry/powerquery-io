@@ -5,8 +5,6 @@ title: Record.ReorderFields
 # Record.ReorderFields
 
 
-## Description
-
 将指定的字段重新排序为新顺序。
 
 
@@ -21,7 +19,7 @@ Record.ReorderFields(
 ```
 
 
-## Details
+## Remarks
 
 按列表 <code>fieldOrder</code> 中指定的字段顺序将 <code>record</code> 中的字段重新排序后，返回一个记录。字段值保持不变，<code>fieldOrder</code> 中未列出的字段仍留在原始位置。
 

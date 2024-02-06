@@ -5,8 +5,6 @@ title: List.Random
 # List.Random
 
 
-## Description
-
 Gibt eine Liste mit Zufallszahlen zurück.
 
 
@@ -20,7 +18,7 @@ List.Random(
 ```
 
 
-## Details
+## Remarks
 
 Gibt auf der Grundlage der Anzahl der zu generierenden Werte und eines optionalen Seedwerts eine Liste mit Zufallszahlen zwischen 0 und 1 zurück.<ul>   <li><code>count</code>: Die Anzahl der zu generierenden Zufallswerte.</li>   <li><code>seed</code>:  <i>[Optional]</i> Ein numerischer Wert, der als Seed für den Zufallszahlen-Generator fungiert. Ohne diese Angabe wird bei jedem Aufruf dieser Funktion eine eindeutige Liste mit Zufallszahlen generiert. Bei Angabe eines numerischen Seedwerts wird bei jedem Aufruf der Funktion die gleiche Liste mit Zufallszahlen generiert.</li></ul>
 

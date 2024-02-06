@@ -5,8 +5,6 @@ title: Table.HasColumns
 # Table.HasColumns
 
 
-## Description
-
 Gibt an, ob die Tabelle die angegebene(n) Spalte(n) enthält.
 
 
@@ -20,7 +18,7 @@ Table.HasColumns(
 ```
 
 
-## Details
+## Remarks
 
 Gibt an, ob die <code>table</code> die angegebene(n) Spalte(n) <code>columns</code> enthält. Gibt <code>true</code> zurück, falls die Tabelle die Spalte(n) enthält. Andernfalls wird <code>false</code> zurückgegeben.
 

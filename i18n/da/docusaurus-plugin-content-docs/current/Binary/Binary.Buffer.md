@@ -5,8 +5,6 @@ title: Binary.Buffer
 # Binary.Buffer
 
 
-## Description
-
 Bufferlagrer den binære værdi i hukommelsen.
 
 
@@ -19,7 +17,7 @@ Binary.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Bufferlagrer den binære værdi i hukommelsen. Resultatet af dette kald er en stabil binær værdi, hvilket betyder, at den vil have en deterministisk længde og byterækkefølge.
 

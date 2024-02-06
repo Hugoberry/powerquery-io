@@ -5,8 +5,6 @@ title: Table.RowCount
 # Table.RowCount
 
 
-## Description
-
 Devuelve el número de filas de la tabla.
 
 
@@ -19,7 +17,7 @@ Table.RowCount(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve el número de filas de la <code>table</code>.
 

@@ -5,8 +5,6 @@ title: Record.TransformFields
 # Record.TransformFields
 
 
-## Description
-
 Belirtilen dönüşümleri uyguladıktan sonra bir kayıt döndürür.
 
 
@@ -21,7 +19,7 @@ Record.TransformFields(
 ```
 
 
-## Details
+## Remarks
 
 <code>transformOperations</code> listesinde belirtilen dönüşümleri <code>record</code> öğesine uyguladıktan sonra bir kayıt döndürür.    Aynı anda bir veya daha fazla alan dönüştürülebilir.      <div>Tek bir alan dönüştürülürken, <code>transformOperations</code> öğesinin iki öğe içeren bir liste olması beklenir. <code>transformOperations</code> içindeki ilk öğe alan adını, <code>transformOperations</code> içindeki ikinci öğe ise dönüşüm için kullanılacak işlevi belirtir. Örneğin, <code>\{"Quantity", Number.FromText}</code></div>      <div>Birden çok alan dönüştürülürken, <code>transformOperations</code> öğesinin her iç listenin bir alan adı ve dönüşüm işlemi çifti olduğu bir listeler listesi olması beklenir. Örneğin, <code>\{\{"Quantity",Number.FromText},\{"UnitPrice", Number.FromText}}</code></div>
 

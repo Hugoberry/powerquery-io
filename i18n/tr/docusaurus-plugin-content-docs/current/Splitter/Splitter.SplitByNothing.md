@@ -5,8 +5,6 @@ title: Splitter.SplitByNothing
 # Splitter.SplitByNothing
 
 
-## Description
-
 Bölme gerçekleştirmeyen bir işlevi döndürür ve bu işlevin bağımsız değişkenini tek öğe listesi olarak döndürür.
 
 
@@ -19,7 +17,7 @@ Splitter.SplitByNothing(
 ```
 
 
-## Details
+## Remarks
 
 Bölme gerçekleştirmeyen bir işlevi döndürür ve bu işlevin bağımsız değişkenini tek öğe listesi olarak döndürür.
 

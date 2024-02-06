@@ -5,8 +5,6 @@ title: Table.First
 # Table.First
 
 
-## Description
-
 पहली पंक्ति या कोई निर्दिष्ट डिफ़ॉल्ट मान लौटाता है.
 
 
@@ -20,7 +18,7 @@ Table.First(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> की पहली पंक्ति या तालिका रिक्त होने पर वैकल्पिक डिफ़ॉल्ट मान, <code>default</code>, लौटाता है.
 

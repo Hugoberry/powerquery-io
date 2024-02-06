@@ -5,8 +5,6 @@ title: Table.AddJoinColumn
 # Table.AddJoinColumn
 
 
-## Description
-
 ดำเนินการรวมระหว่างตารางบนคอลัมน์ที่ให้และสร้างผลลัพธ์การรวมในคอลัมน์ใหม่
 
 
@@ -23,7 +21,7 @@ Table.AddJoinColumn(
 ```
 
 
-## Details
+## Remarks
 
 รวมแถวของ <code>table1</code> กับแถวของ <code>table2</code> ตามความเท่ากันของค่าคีย์คอลัมน์ที่เลือกโดย <code>key1</code> (สำหรับ <code>table1</code>) และ <code>key2</code> (สำหรับ <code>table2</code>) ผลลัพธ์จะถูกป้อนลงในคอลัมน์ที่ชื่อ <code>newColumnName</code>ฟังก์ชันนี้จะทำงานคล้ายกับ Table.Join ที่มี JoinKind ของ LeftOuter ยกเว้นตรงที่ผลลัพธ์การรวมจะปรากฏในลักษณะซ้อนกันแทนที่จะอยู่ในระนาบเดียวกัน
 

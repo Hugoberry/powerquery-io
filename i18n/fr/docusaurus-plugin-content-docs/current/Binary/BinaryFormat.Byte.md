@@ -5,8 +5,6 @@ title: BinaryFormat.Byte
 # BinaryFormat.Byte
 
 
-## Description
-
 Format binaire qui lit un entier non signé 8 bits.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Byte(
 ```
 
 
-## Details
+## Remarks
 
 Format binaire qui lit un entier non signé 8 bits.
 

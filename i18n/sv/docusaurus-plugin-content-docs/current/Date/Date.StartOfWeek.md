@@ -5,8 +5,6 @@ title: Date.StartOfWeek
 # Date.StartOfWeek
 
 
-## Description
-
 Returnerar veckans början.
 
 
@@ -20,7 +18,7 @@ Date.StartOfWeek(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar början på veckan som innehåller <code>dateTime</code>.      <code>dateTime</code> måste vara ett <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde.
 

@@ -5,8 +5,6 @@ title: Diagnostics.Trace
 # Diagnostics.Trace
 
 
-## Description
-
 Создает запись трассировки, если трассировка включена, и возвращает значение.
 
 
@@ -22,7 +20,7 @@ Diagnostics.Trace(
 ```
 
 
-## Details
+## Remarks
 
 Записывает трассировку <code>message</code>, если трассировка включена, и возвращает <code>value</code>. Необязательный параметр <code>delayed</code> указывает, следует ли откладывать оценку <code>value</code> до трассировки сообщения. <code>traceLevel</code> может иметь одно из следующих значений:    <code>TraceLevel.Critical</code>,    <code>TraceLevel.Error</code>,    <code>TraceLevel.Warning</code>,    <code>TraceLevel.Information</code>,    <code>TraceLevel.Verbose</code>.  
 

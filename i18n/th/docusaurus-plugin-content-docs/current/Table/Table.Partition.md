@@ -5,8 +5,6 @@ title: Table.Partition
 # Table.Partition
 
 
-## Description
-
 แบ่งตารางเป็นรายการตารางต่างๆ ตามจำนวนกลุ่มและคอลัมน์ที่ระบุ
 
 
@@ -22,7 +20,7 @@ Table.Partition(
 ```
 
 
-## Details
+## Remarks
 
 แบ่ง <code>table</code> เป็นรายการจำนวนตาราง <code>groups</code> ตามค่าของ <code>column</code> และฟังก์ชัน <code>hash</code>    ฟังก์ชัน <code>hash</code> จะถูกนำไปใช้กับค่าของแถว <code>column</code> เพื่อรับค่าแฮชสำหรับแถว มอดูโลค่าแฮช <code>groups</code> กำหนดตารางที่ส่งกลับซึ่งจะมีการวางแถวลงไป    <ul>       <li><code>table</code>: ตารางที่จะแบ่งพาร์ติชัน</li>       <li><code>column</code>: คอลัมน์สำหรับแฮชที่กำหนดว่าจะให้แถวอยู่ในตารางที่ส่งกลับตารางใด</li>       <li><code>groups</code>: จำนวนตารางจะมีการแบ่งพาร์ติชันตารางค่าที่ป้อนลงไป</li>       <li><code>hash</code>: ฟังก์ชันที่นำไปใช้เพื่อรับค่าแฮช</li>    </ul>  
 

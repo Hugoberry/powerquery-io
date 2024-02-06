@@ -5,8 +5,6 @@ title: Text.At
 # Text.At
 
 
-## Description
-
 指定された位置の文字を返します。
 
 
@@ -20,7 +18,7 @@ Text.At(
 ```
 
 
-## Details
+## Remarks
 
 位置 <code>index</code> にあるテキスト値 (<code>text</code>) の文字を返します。テキストの最初の文字が位置 0 です。
 

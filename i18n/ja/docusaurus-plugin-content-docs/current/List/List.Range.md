@@ -5,8 +5,6 @@ title: List.Range
 # List.Range
 
 
-## Description
-
 オフセットで始まるリストのサブセットを返します。
 
 
@@ -21,7 +19,7 @@ List.Range(
 ```
 
 
-## Details
+## Remarks
 
 オフセット <code>list</code> で始まるリストのサブセットを返します。省略可能なパラメーター <code>offset</code> は、サブセットに含まれる項目の最大数を設定します。
 

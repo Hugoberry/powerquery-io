@@ -5,8 +5,6 @@ title: BinaryFormat.Text
 # BinaryFormat.Text
 
 
-## Description
-
 Returnerar ett binärformat som läser ett textvärde.
 
 
@@ -20,7 +18,7 @@ BinaryFormat.Text(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett binärformat som läser ett textvärde. <code>length</code> anger hur många byte som ska avkodas eller binärformatet för längden som föregår texten. Det valfria värdet <code>encoding</code> anger textens kodning. Om <code>encoding</code> inte anges fastställs kodningen baserat på Unicode-byteordningsmärken. Om det inte finns några byteordningsmärken används <code>TextEncoding.Utf8</code>.
 

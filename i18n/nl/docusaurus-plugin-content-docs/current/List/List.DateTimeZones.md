@@ -5,8 +5,6 @@ title: List.DateTimeZones
 # List.DateTimeZones
 
 
-## Description
-
 Genereert een lijst met datetimezone-waarden op basis van een aanvankelijke waarde, telling en incrementele duurwaarde.
 
 
@@ -21,7 +19,7 @@ List.DateTimeZones(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een lijst met <code>datetimezone</code>waarden van grootte <code>count</code>, te beginnen bij <code>start</code>. De opgegeven verhoging, <code>step</code>, is een <code>duration</code>waarde die aan elke waarde is toegevoegd.
 

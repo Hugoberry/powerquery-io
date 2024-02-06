@@ -5,8 +5,6 @@ title: Geography.FromWellKnownText
 # Geography.FromWellKnownText
 
 
-## Description
-
 Traduz texto que representa um valor geográfico no formato de Well-Known Text (WKT) num registo estruturado.
 
 
@@ -19,7 +17,7 @@ Geography.FromWellKnownText(
 ```
 
 
-## Details
+## Remarks
 
 Traduz texto que representa um valor geográfico no formato de Well-Known Text (WKT) num registo estruturado. WKT é um formato padrão definido pelo Open Geospatial Consortium (OGC) e é o formato típico de serialização utilizado pelas bases de dados, incluindo o SQL Server.
 

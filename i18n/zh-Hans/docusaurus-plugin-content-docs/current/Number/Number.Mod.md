@@ -5,8 +5,6 @@ title: Number.Mod
 # Number.Mod
 
 
-## Description
-
 使两个数整除并返回余数。
 
 
@@ -21,7 +19,7 @@ Number.Mod(
 ```
 
 
-## Details
+## Remarks
 
 返回从 <code>number</code> 整除 <code>divisor</code> 所得的余数。    如果 <code>number</code> 或 <code>divisor</code> 为 null，则 <code>Number.Mod</code> 返回 null。      <ul>        <li><code>number</code>: 被除数。</li>        <li><code>divisor</code>: 除数。</li>      </ul>
 

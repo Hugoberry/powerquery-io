@@ -5,8 +5,6 @@ title: Duration.TotalHours
 # Duration.TotalHours
 
 
-## Description
-
 Devuelve el total de horas que abarca esta duración.
 
 
@@ -19,7 +17,7 @@ Duration.TotalHours(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve el total de horas distribuidas por <code>duration</code>.
 

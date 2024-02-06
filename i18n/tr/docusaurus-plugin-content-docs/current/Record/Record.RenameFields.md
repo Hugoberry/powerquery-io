@@ -5,8 +5,6 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-## Description
-
 Bir listeden \{ old, new } biçiminde yeniden adlandırmaları uygular.
 
 
@@ -21,7 +19,7 @@ Record.RenameFields(
 ```
 
 
-## Details
+## Remarks
 
 <code>record</code> girdisindeki alanları yeniden adlandırdıktan sonra <code>renames</code> listesinde belirtilen yeni alan adlarına bir kayıt döndürür. Birden çok yeniden adlandırma için iç içe yerleştirilmiş liste kullanılabilir (\{ \{old1, new1}, \{old2, new2} }.
 

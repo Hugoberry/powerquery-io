@@ -5,8 +5,6 @@ title: AzureEnterprise.Contents
 # AzureEnterprise.Contents
 
 
-## Description
-
 Voer de URL van het Azure Enterprise REST API-eindpunt in dat is gekoppeld aan uw inschrijving
 
 
@@ -20,7 +18,7 @@ AzureEnterprise.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee worden de binaire resultaten van de aanroep naar de opgegeven URL voor de Azure Enterprise API geretourneerd.
 

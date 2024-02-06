@@ -5,8 +5,6 @@ title: GoogleSheets.Contents
 # GoogleSheets.Contents
 
 
-## Description
-
 Импорт данных из Google Таблиц
 
 
@@ -19,7 +17,7 @@ GoogleSheets.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Импорт данных из Google Таблиц
 

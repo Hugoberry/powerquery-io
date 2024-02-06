@@ -17,7 +17,7 @@ DatabricksMultiCloud.Query(
 ```
 
 
-## Details
+## Remarks
 
 Zdefiniuj źródło danych platformy Databricks do uruchamiania kwerend SQL
 

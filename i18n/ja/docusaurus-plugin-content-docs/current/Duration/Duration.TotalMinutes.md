@@ -5,8 +5,6 @@ title: Duration.TotalMinutes
 # Duration.TotalMinutes
 
 
-## Description
-
 この期間に含まれる合計分数を返します。
 
 
@@ -19,7 +17,7 @@ Duration.TotalMinutes(
 ```
 
 
-## Details
+## Remarks
 
 <code>duration</code> が割り当てられた合計分数を返します。
 

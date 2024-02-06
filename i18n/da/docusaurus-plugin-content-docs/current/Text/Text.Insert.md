@@ -5,8 +5,6 @@ title: Text.Insert
 # Text.Insert
 
 
-## Description
-
 Indsætter én tekstværdi i en anden på en angivet position.
 
 
@@ -21,7 +19,7 @@ Text.Insert(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer resultatet af at indsætte tekstværdien <code>newText</code> i tekstværdien <code>text</code> på position <code>offset</code>. Positioner starter ved tallet 0.
 

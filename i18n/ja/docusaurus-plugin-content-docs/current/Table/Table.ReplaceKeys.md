@@ -5,8 +5,6 @@ title: Table.ReplaceKeys
 # Table.ReplaceKeys
 
 
-## Description
-
 指定されたテーブルのキーを置き換えます。
 
 
@@ -20,7 +18,7 @@ Table.ReplaceKeys(
 ```
 
 
-## Details
+## Remarks
 
 指定されたテーブルのキーを置き換えます。
 

@@ -5,8 +5,6 @@ title: Time.Hour
 # Time.Hour
 
 
-## Description
-
 Saat bileşenini döndürür.
 
 
@@ -19,7 +17,7 @@ Time.Hour(
 ```
 
 
-## Details
+## Remarks
 
 Sağlanan <code>time</code>, <code>datetime</code> veya <code>datetimezone</code> değeri olan <code>dateTime</code> değerinin saat bileşenini döndürür.
 

@@ -5,8 +5,6 @@ title: Text.Lower
 # Text.Lower
 
 
-## Description
-
 Konverterer alle tegn til små bogstaver.
 
 
@@ -20,7 +18,7 @@ Text.Lower(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer resultatet af at konvertere alle tegn i <code>text</code> til små bogstaver. Der kan også angives en valgfri <code>culture</code> (f. eks. "en-US").
 

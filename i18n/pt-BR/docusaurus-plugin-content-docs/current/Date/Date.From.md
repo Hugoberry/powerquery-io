@@ -5,8 +5,6 @@ title: Date.From
 # Date.From
 
 
-## Description
-
 Cria uma data a partir do valor especificado.
 
 
@@ -20,7 +18,7 @@ Date.From(
 ```
 
 
-## Details
+## Remarks
 
 Retorna um valor <code>date</code> do <code>value</code> fornecido. Um <code>culture</code> opcional também pode ser fornecido (por exemplo, "en-US").Se o <code>value</code> fornecido for <code>null</code>, <code>Date.From</code> retorna <code>null</code>. Se o <code>value</code> fornecido for <code>date</code>, <code>value</code> será retornado. Os valores dos seguintes tipos podem ser convertidos em um valor <code>date</code>:      <ul>        <li><code>text</code>: um <code>date</code> valor da representação textual. Consulte <code>Date.FromText</code> para obter detalhes.</li>        <li><code>datetime</code>: o componente de data do <code>value</code>.</li>         <li><code>datetimezone</code>: o componente de data do local datetime equivalente a <code>value</code>.</li>        <li><code>number</code>: o componente de data do equivalente datetime da Data de Automação OLE expresso por <code>value</code>.</li>      </ul>Se <code>value</code> for de qualquer outro tipo, um erro é retornado.
 

@@ -5,8 +5,6 @@ title: Date.IsInCurrentWeek
 # Date.IsInCurrentWeek
 
 
-## Description
-
 Anger om det här datumet infaller under den aktuella veckan, baserat på systemets aktuella datum och tid.
 
 
@@ -19,7 +17,7 @@ Date.IsInCurrentWeek(
 ```
 
 
-## Details
+## Remarks
 
 Anger om det angivna datetime-värdet <code>dateTime</code> infaller under den aktuella veckan, baserat på systemets aktuella datum och tid.      <ul>      <li><code>dateTime</code>: Ett <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde som ska utvärderas.</li>      </ul>
 

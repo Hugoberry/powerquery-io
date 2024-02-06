@@ -5,8 +5,6 @@ title: List.TransformMany
 # List.TransformMany
 
 
-## Description
-
 Devolve uma lista cujos elementos são transformados a partir da lista de entrada utilizando funções especificadas.
 
 
@@ -21,7 +19,7 @@ List.TransformMany(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma lista cujos elementos são projetados a partir da lista de entrada.<br />    <br />    A função <code>collectionTransform</code> transforma cada elemento numa lista intermediada e a função <code>resultTransform</code> recebe o elemento original, bem como um item da lista intermediada para construir o resultado final.<br />    <br />    A função <code>collectionTransform</code> tem a assinatura <code>(x as any) as list => ...</code>, em que <code>x</code> é um elemento em <code>list</code>.    A função <code>resultTransform</code> projeta a forma do resultado e tem a assinatura <code>(x as any, y as any) as any => ...</code>, em que <code>x</code> é um elemento em <code>list</code> e <code>y</code> é um elemento da lista gerada ao passar <code>x</code> para <code>collectionTransform</code>.
 

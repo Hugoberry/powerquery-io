@@ -5,8 +5,6 @@ title: Number.Log
 # Number.Log
 
 
-## Description
-
 Gibt den Logarithmus der Zahl zur angegebenen Basis (standardmäßig &#34;e&#34;) zurück.
 
 
@@ -20,7 +18,7 @@ Number.Log(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Logarithmus einer Zahl (<code>number</code>) zur angegebenen Basis (<code>base</code>) zurück. Ohne Angabe von "<code>base</code>" wird standardmäßig "Number.E" verwendet.    Ist <code>number</code> NULL, gibt <code>Number.Log</code> NULL zurück.
 

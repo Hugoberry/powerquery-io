@@ -5,8 +5,6 @@ title: Type.FunctionRequiredParameters
 # Type.FunctionRequiredParameters
 
 
-## Description
-
 傳回數字，表示叫用函數類型所需的最少參數數目。
 
 
@@ -19,7 +17,7 @@ Type.FunctionRequiredParameters(
 ```
 
 
-## Details
+## Remarks
 
 傳回數字，表示叫用函數輸入 <code>type</code> 所需的最少參數數目。
 

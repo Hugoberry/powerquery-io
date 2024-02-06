@@ -16,7 +16,7 @@ CommonDataService.Database(
 ```
 
 
-## Details
+## Remarks
 
 Połącz się z wystąpieniem usługi Dataverse (usługi Dynamics 365 i PowerApps).
 

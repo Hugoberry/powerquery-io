@@ -5,8 +5,6 @@ title: List.Range
 # List.Range
 
 
-## Description
-
 Devolve um subconjunto da lista, começando num desvio.
 
 
@@ -21,7 +19,7 @@ List.Range(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um subconjunto da lista, começando no desvio <code>list</code>. Um parâmetro opcional, <code>offset</code>, define o número máximo de itens existente no subconjunto.
 

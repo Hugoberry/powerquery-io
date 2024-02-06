@@ -5,8 +5,6 @@ title: Table.AlternateRows
 # Table.AlternateRows
 
 
-## Description
-
 Zachowuje początkowe przesunięcie, a następnie naprzemiennie pobiera i pomija kolejne wiersze.
 
 
@@ -22,7 +20,7 @@ Table.AlternateRows(
 ```
 
 
-## Details
+## Remarks
 
 Zachowuje początkowe przesunięcie, a następnie naprzemiennie pobiera i pomija kolejne wiersze.    <ul>       <li><code>table</code>: Tabela wejściowa.</li>       <li><code>offset</code>: Liczba wierszy do zachowania przed rozpoczęciem iteracji.</li>       <li><code>skip</code>: Liczba wierszy do usunięcia w każdej iteracji.</li>       <li><code>take</code>: Liczba wierszy do zachowania w każdej iteracji.</li>    </ul>    
 

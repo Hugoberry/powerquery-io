@@ -5,8 +5,6 @@ title: Table.PrefixColumns
 # Table.PrefixColumns
 
 
-## Description
-
 ส่งกลับตารางซึ่งมีคอลัมน์ทั้งหมดขึ้นต้นด้วยข้อความที่กำหนด
 
 
@@ -20,7 +18,7 @@ Table.PrefixColumns(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนตารางที่ชื่อคอลัมน์ทั้งหมดจาก <code>table</code> ที่แสดงไว้มีคำนำหน้าเป็นข้อความที่กำหนดไว้ <code>prefix</code> บวกจุดทศนิยมในรูปแบบ <code>prefix</code><code>.ColumnName</code>
 

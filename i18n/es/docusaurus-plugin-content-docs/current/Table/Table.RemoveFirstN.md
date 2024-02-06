@@ -5,8 +5,6 @@ title: Table.RemoveFirstN
 # Table.RemoveFirstN
 
 
-## Description
-
 Devuelve una tabla con las primeras filas de recuentos omitidas.
 
 
@@ -20,7 +18,7 @@ Table.RemoveFirstN(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una tabla que no contiene el primer número de filas especificado (<code>countOrCondition</code>) de la tabla <code>table</code>.    El número de filas quitadas depende del parámetro opcional <code>countOrCondition</code>.    <ul>    <li>Si se omite <code>countOrCondition</code>, solo se quita la primera fila. </li>    <li>Si <code>countOrCondition</code> es un número, se quitarán esas filas (empezando por la parte superior). </li>    <li>Si <code>countOrCondition</code> es una condición, se quitarán las filas que la cumplan hasta que una no lo haga.</li>    </ul>
 

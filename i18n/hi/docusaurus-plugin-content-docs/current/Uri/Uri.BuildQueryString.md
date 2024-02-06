@@ -5,8 +5,6 @@ title: Uri.BuildQueryString
 # Uri.BuildQueryString
 
 
-## Description
-
 किसी रिकॉर्ड को URI क्वेरी स्ट्रिंग पर असेंबल करें.
 
 
@@ -19,7 +17,7 @@ Uri.BuildQueryString(
 ```
 
 
-## Details
+## Remarks
 
 वर्णों को आवश्यकतानुसार ऐस्केप करते हुए, रिकॉर्ड <code>query</code> को URI क्वेरी स्ट्रिंग पर असेंबल करें.
 

@@ -5,8 +5,6 @@ title: Table.ReplaceRows
 # Table.ReplaceRows
 
 
-## Description
-
 Zamienia określony zakres wierszy na dostarczone wiersze.
 
 
@@ -22,7 +20,7 @@ Table.ReplaceRows(
 ```
 
 
-## Details
+## Remarks
 
 Zamienia określoną liczbę wierszy (<code>count</code>) w tabeli wejściowej (<code>table</code>) na określoną liczbę wierszy (<code>rows</code>), zaczynając po wierszach określonych przez parametr <code>offset</code>. Wartość parametru <code>rows</code> to lista rekordów.    <ul>       <li><code>table</code>: Tabela, w której jest wykonywana operacja zamiany.</li>       <li><code>offset</code>: Liczba wierszy, które mają zostać pominięte przed rozpoczęciem zamiany.</li>       <li><code>count</code>: Liczba wierszy do zamiany.</li>       <li><code>rows</code>: Lista rekordów wierszy, które mają zostać wstawione do tabeli <code>table</code> w lokalizacji określonej przez parametr <code>offset</code>.</li>    </ul>
 

@@ -5,8 +5,6 @@ title: Time.EndOfHour
 # Time.EndOfHour
 
 
-## Description
-
 ส่งกลับจุดสิ้นสุดของชั่วโมง
 
 
@@ -19,7 +17,7 @@ Time.EndOfHour(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับจุดสิ้นสุดของชั่วโมงที่แสดงโดย <code>dateTime</code> รวมถึงเศษส่วนวินาที ข้อมูลโซนเวลาจะถูกเก็บไว้      <ul>        <li><code>dateTime</code>: ค่า<code>วันที่</code> <code>วันที่เวลา</code> หรือ<code>โซนวันที่เวลา</code>ที่คํานวณว่ามีจุดสิ้นสุดของชั่วโมงใดบ้าง</li>      </ul>
 

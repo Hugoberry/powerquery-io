@@ -5,8 +5,6 @@ title: Record.FieldValues
 # Record.FieldValues
 
 
-## Description
-
 Возвращает список значений полей.
 
 
@@ -19,7 +17,7 @@ Record.FieldValues(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает список значений полей в записи <code>record</code>.
 

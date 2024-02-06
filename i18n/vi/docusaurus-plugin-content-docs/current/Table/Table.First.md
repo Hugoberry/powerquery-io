@@ -5,8 +5,6 @@ title: Table.First
 # Table.First
 
 
-## Description
-
 Trả về hàng đầu tiên hoặc một giá trị mặc định được chỉ định.
 
 
@@ -20,7 +18,7 @@ Table.First(
 ```
 
 
-## Details
+## Remarks
 
 Trả về hàng đầu tiên của <code>table</code> hoặc giá trị mặc định tùy chọn <code>default</code> nếu bảng trống.
 

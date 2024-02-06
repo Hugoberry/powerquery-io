@@ -5,8 +5,6 @@ title: DateTime.Time
 # DateTime.Time
 
 
-## Description
-
 दिए गए datetime मान का समय भाग लौटाता है.
 
 
@@ -19,7 +17,7 @@ DateTime.Time(
 ```
 
 
-## Details
+## Remarks
 
 दिए गए datetime मान, <code>dateTime</code> का समय भाग लौटाता है.
 

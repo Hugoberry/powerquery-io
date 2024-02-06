@@ -5,8 +5,6 @@ title: Table.FilterWithDataTable
 # Table.FilterWithDataTable
 
 
-## Description
-
 この関数は、内部での使用のみを想定しています。
 
 
@@ -20,7 +18,7 @@ Table.FilterWithDataTable(
 ```
 
 
-## Details
+## Remarks
 
 この関数は、内部での使用のみを想定しています。
 

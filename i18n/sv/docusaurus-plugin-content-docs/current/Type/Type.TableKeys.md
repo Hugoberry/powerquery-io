@@ -5,8 +5,6 @@ title: Type.TableKeys
 # Type.TableKeys
 
 
-## Description
-
 Returnerar den eventuellt tomma listan med nycklar för den angivna tabelltypen.
 
 
@@ -19,7 +17,7 @@ Type.TableKeys(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar den eventuellt tomma listan med nycklar för den angivna tabelltypen.<br />    <br />    Varje nyckel definieras med hjälp av en post i följande format:    <ul>      <li>        <code>Columns</code>: en lista över kolumnnamnen som definierar nyckeln      </li>      <li>        <code>Primary</code>: <code>true</code> om nyckeln är tabellens primärnyckel; annars <code>false</code>      </li>    </ul>    
 

@@ -5,8 +5,6 @@ title: Marketo.Tables
 # Marketo.Tables
 
 
-## Description
-
 Введите URL-адрес конечной точки REST API Marketo, связанной с вашей учетной записью.
 
 
@@ -20,7 +18,7 @@ Marketo.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу с актуальными данными Marketo.
 

@@ -5,8 +5,6 @@ title: Duration.Minutes
 # Duration.Minutes
 
 
-## Description
-
 期間の分の部分を返します。
 
 
@@ -19,7 +17,7 @@ Duration.Minutes(
 ```
 
 
-## Details
+## Remarks
 
 <code>duration</code> の分の部分を返します。
 

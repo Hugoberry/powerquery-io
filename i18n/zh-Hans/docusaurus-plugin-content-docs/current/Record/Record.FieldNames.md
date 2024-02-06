@@ -5,8 +5,6 @@ title: Record.FieldNames
 # Record.FieldNames
 
 
-## Description
-
 返回字段的名称。
 
 
@@ -19,7 +17,7 @@ Record.FieldNames(
 ```
 
 
-## Details
+## Remarks
 
 将记录 <code>record</code> 中的字段名称作为文本返回。
 

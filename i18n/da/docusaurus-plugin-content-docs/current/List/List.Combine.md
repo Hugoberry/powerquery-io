@@ -5,8 +5,6 @@ title: List.Combine
 # List.Combine
 
 
-## Description
-
 Returnerer en enkelt liste ved at kombinere flere lister.
 
 
@@ -19,7 +17,7 @@ List.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Tager en liste over lister, <code>lists</code>, og fletter dem sammen til en enkelt ny liste.
 

@@ -5,8 +5,6 @@ title: SparkPost.GetTable
 # SparkPost.GetTable
 
 
-## Description
-
 SparkPost API v1 から利用可能な指標のテーブルを返します
 
 
@@ -22,7 +20,7 @@ SparkPost.GetTable(
 ```
 
 
-## Details
+## Remarks
 
 この関数は、SparkPost API v1 の特定の "Metrics" エンドポイントからデータを取得するときに使用できます。このコネクタを使用してこれらのテーブルを更新するか、SparkPost API に呼び出しを行う場合、SparkPost API には厳密な API レートの制限があることに留意してください。SparkPost サーバーから 429 状態コードが返される場合、このレート制限に達し、さらに呼び出しを行うには数分待つ必要が生じます。日数パラメーターの値を選択する際、API で格納できるのは 6 か月分のデータのみであることに注意してください。
 

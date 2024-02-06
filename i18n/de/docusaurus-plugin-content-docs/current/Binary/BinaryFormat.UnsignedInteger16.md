@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger16
 # BinaryFormat.UnsignedInteger16
 
 
-## Description
-
 Ein Binärformat, das eine 16-Bit-Ganzzahl ohne Vorzeichen liest.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger16(
 ```
 
 
-## Details
+## Remarks
 
 Ein Binärformat, das eine 16-Bit-Ganzzahl ohne Vorzeichen liest.
 

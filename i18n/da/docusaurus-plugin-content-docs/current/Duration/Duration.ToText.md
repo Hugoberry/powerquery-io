@@ -5,8 +5,6 @@ title: Duration.ToText
 # Duration.ToText
 
 
-## Description
-
 Returnerer teksten i formatet &#34;d.h:m:s&#34;.
 
 
@@ -20,7 +18,7 @@ Duration.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tekstrepræsentation i formatet "dag.time:mins:sek" for den givne varighedsværdi, <code>duration</code>. <ul>        <li><code>duration</code>: A <code>varighed</code> hvorfra tekstrepræsentationen beregnes.</li>  <li><code>format</code>: <i>[Optional]</i> Frarådes, vil udløse en fejl, hvis den ikke er null</li>      </ul>
 

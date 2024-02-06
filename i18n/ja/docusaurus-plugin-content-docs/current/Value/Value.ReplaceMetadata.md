@@ -5,8 +5,6 @@ title: Value.ReplaceMetadata
 # Value.ReplaceMetadata
 
 
-## Description
-
 入力のメタデータ情報を置き換えます。
 
 
@@ -20,7 +18,7 @@ Value.ReplaceMetadata(
 ```
 
 
-## Details
+## Remarks
 
 入力のメタデータ情報を置き換えます。
 

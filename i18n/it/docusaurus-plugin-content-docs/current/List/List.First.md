@@ -5,8 +5,6 @@ title: List.First
 # List.First
 
 
-## Description
-
 Restituisce il primo valore dell&#39;elenco o, se vuoto, il valore predefinito specificato.
 
 
@@ -20,7 +18,7 @@ List.First(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il primo elemento dell'elenco <code>list</code> o il valore predefinito facoltativo <code>defaultValue</code>, se l'elenco è vuoto.    Se l'elenco è vuoto e un valore predefinito non è specificato, la funzione restituisce <code>null</code>.
 

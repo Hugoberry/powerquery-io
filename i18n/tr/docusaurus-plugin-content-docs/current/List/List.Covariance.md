@@ -5,8 +5,6 @@ title: List.Covariance
 # List.Covariance
 
 
-## Description
-
 İki sayı listesi arasındaki kovaryansı döndürür.
 
 
@@ -20,7 +18,7 @@ List.Covariance(
 ```
 
 
-## Details
+## Remarks
 
 <code>numberList1</code> ve <code>numberList2</code> sayı listeleri arasındaki kovaryansı döndürür. <code>numberList1</code> ve <code>numberList2</code> aynı sayıda <code>number</code> değerini içermelidir.
 

@@ -5,8 +5,6 @@ title: List.Split
 # List.Split
 
 
-## Description
-
 使用指定页面大小将指定列表拆分为一系列列表。
 
 
@@ -20,7 +18,7 @@ List.Split(
 ```
 
 
-## Details
+## Remarks
 
 将 <code>list</code> 拆分为一系列列表，其中输出列表的第一个元素是包含源列表中前 <code>pageSize</code> 个元素的列表，    输出列表的下一个元素是包含源列表中接下来 <code>pageSize</code> 个元素的列表，以此类推。
 

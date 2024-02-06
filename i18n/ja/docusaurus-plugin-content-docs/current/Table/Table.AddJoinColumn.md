@@ -5,8 +5,6 @@ title: Table.AddJoinColumn
 # Table.AddJoinColumn
 
 
-## Description
-
 指定された列でテーブルを結合し、結合結果を新しい列に生成します。
 
 
@@ -23,7 +21,7 @@ Table.AddJoinColumn(
 ```
 
 
-## Details
+## Remarks
 
 <code>table1</code> の行と <code>table2</code> の行を、(<code>table1</code> の) <code>key1</code> と (<code>table2</code> の) <code>key2</code> で選択されたキー列の値の等値に基づいて結合します。結果は <code>newColumnName</code> という名前の列に入力されます。この関数は JoinKind に LeftOuter を指定した Table.Join と同じように動作します。ただし、結合結果は、フラット化された形式ではなく、入れ子になります。
 

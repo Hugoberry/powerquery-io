@@ -5,8 +5,6 @@ title: List.Numbers
 # List.Numbers
 
 
-## Description
-
 Gibt auf der Grundlage eines Anfangswerts, einer Anzahl und eines optionalen inkrementellen Werts eine Liste mit Zahlen zurück.
 
 
@@ -21,7 +19,7 @@ List.Numbers(
 ```
 
 
-## Details
+## Remarks
 
 Gibt auf der Grundlage eines Anfangswerts, einer Anzahl und eines optionalen inkrementellen Werts eine Liste mit Zahlen zurück. Der inkrementelle Standardwert lautet 1.<ul>   <li><code>start</code>: Der Anfangswert in der Liste.</li>   <li><code>count</code>: Die Anzahl der zu erstellenden Werte.</li>   <li><code>increment</code>: <i>[Optional]</i> Der Wert für die Schrittweite. Ohne Angabe dieses Werts werden die Werte jeweils um eins erhöht. </li></ul>
 

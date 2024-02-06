@@ -5,8 +5,6 @@ title: Table.FillDown
 # Table.FillDown
 
 
-## Description
-
 Propaga el valor de una celda anterior a las celdas con valor NULL por debajo de la columna.
 
 
@@ -20,7 +18,7 @@ Table.FillDown(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una tabla del <code>table</code> especificado donde el valor de una celda anterior se propaga a las celdas con valor NULL por debajo de la <code>columns</code> especificada.
 

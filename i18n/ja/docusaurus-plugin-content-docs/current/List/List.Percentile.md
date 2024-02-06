@@ -5,8 +5,6 @@ title: List.Percentile
 # List.Percentile
 
 
-## Description
-
 指定された確率に対応する 1 つまたは複数のサンプルのパーセンタイルを返します。
 
 
@@ -21,7 +19,7 @@ List.Percentile(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>list</code> の 1 つまたは複数のサンプルのパーセンタイルを返します。値 <code>percentiles</code> が 0.0 から 1.0 の範囲の数値である場合、パーセンタイルとして処理され、確率に対応する単一の値が    結果として返されます。値 <code>percentiles</code> が 0.0 から 1.0 の範囲の値を含む数値のリストである場合、入力の確率に対応する    パーセンタイルのリストが結果として返されます。上級ユーザーは、<code>options</code> 内の PercentileMode オプションを使用してより詳細な補間メソッドを選択できますが、ほとんどの使用には推奨されていません。    定義済みの記号 <code>PercentileMode.ExcelInc</code> と <code>PercentileMode.ExcelExc</code> は、Excel 関数    <code>PERCENTILE.INC</code> と <code>PERCENTILE.EXC</code> で使用されている補間メソッドと一致します。既定の動作は <code>PercentileMode.ExcelInc</code> と一致します。記号    <code>PercentileMode.SqlCont</code> と <code>PercentileMode.SqlDisc</code> はそれぞれ <code>PERCENTILE_CONT</code> と    <code>PERCENTILE_DISC</code> の SQL Server の動作と一致します。  
 

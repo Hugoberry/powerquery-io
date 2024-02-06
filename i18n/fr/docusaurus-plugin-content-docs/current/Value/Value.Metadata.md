@@ -5,8 +5,6 @@ title: Value.Metadata
 # Value.Metadata
 
 
-## Description
-
 Retourne un enregistrement qui contient les métadonnées de l&#39;entrée.
 
 
@@ -19,7 +17,7 @@ Value.Metadata(
 ```
 
 
-## Details
+## Remarks
 
 Retourne un enregistrement qui contient les métadonnées de l'entrée.
 

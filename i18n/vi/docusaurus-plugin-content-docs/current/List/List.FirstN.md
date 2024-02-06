@@ -5,8 +5,6 @@ title: List.FirstN
 # List.FirstN
 
 
-## Description
-
 Trả về tập hợp mục đầu tiên trong danh sách bằng cách chỉ định số lượng mục để trả về hoặc một điều kiện đủ tiêu chuẩn.
 
 
@@ -20,7 +18,7 @@ List.FirstN(
 ```
 
 
-## Details
+## Remarks
 
  <ul>  <li>Nếu một số được chỉ định thì tối đa là số lượng mục đó được trả về. </li>  <li>Nếu một điều kiện được chỉ định thì tất cả các mục ban đầu đáp ứng được điều kiện này được trả về. Khi một mục không đáp ứng được điều kiện thì không có thêm mục nào được xem xét. </li> </ul>
 

@@ -5,8 +5,6 @@ title: Text.At
 # Text.At
 
 
-## Description
-
 Retorna o caractere na posição especificada.
 
 
@@ -20,7 +18,7 @@ Text.At(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o caractere no valor de texto <code>text</code> na posição <code>index</code>. O primeiro caractere do texto está na posição 0.
 

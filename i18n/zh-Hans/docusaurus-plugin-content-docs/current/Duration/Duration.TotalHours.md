@@ -5,8 +5,6 @@ title: Duration.TotalHours
 # Duration.TotalHours
 
 
-## Description
-
 返回此持续时间跨越的总小时数。
 
 
@@ -19,7 +17,7 @@ Duration.TotalHours(
 ```
 
 
-## Details
+## Remarks
 
 返回 <code>duration</code> 跨越的总小时数。
 

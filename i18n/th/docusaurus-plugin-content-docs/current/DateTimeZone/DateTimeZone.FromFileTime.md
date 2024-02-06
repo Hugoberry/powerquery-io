@@ -5,8 +5,6 @@ title: DateTimeZone.FromFileTime
 # DateTimeZone.FromFileTime
 
 
-## Description
-
 สร้างโซนวันที่เวลาจากตัวเลขความยาว 64 บิต
 
 
@@ -19,7 +17,7 @@ DateTimeZone.FromFileTime(
 ```
 
 
-## Details
+## Remarks
 
 สร้างค่า <code>datetimezone</code> จากค่า <code>fileTime</code> และแปลงเป็นโซนเวลาในท้องถิ่น filetimeคือค่าเวลาของไฟล์ Windows ที่แสดงตัวเลขช่วงเวลา 100 นาโนวินาทีที่ใช้ไปตั้งแต่เวลาเที่ยงคืน 12:00 วันที่ 1 มกราคม ค.ศ. 1601 (C.E.) ตามเวลามาตรฐานสากล (UTC)
 

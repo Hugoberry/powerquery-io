@@ -5,8 +5,6 @@ title: Number.Acos
 # Number.Acos
 
 
-## Description
-
 Devolve o arco de cosseno do número.
 
 
@@ -19,7 +17,7 @@ Number.Acos(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o arco de cosseno de <code>number</code>.
 

@@ -5,8 +5,6 @@ title: Time.ToRecord
 # Time.ToRecord
 
 
-## Description
-
 Saat değerinin parçalarını içeren bir kayıt döndürür.
 
 
@@ -19,7 +17,7 @@ Time.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>time</code> Saat değerinin parçalarını içeren bir kayıt döndürür. <ul>        <li><code>time</code>: Parçalarının kaydının hesaplanacağı bir <code>time</code>değeri.</li>      </ul>
 

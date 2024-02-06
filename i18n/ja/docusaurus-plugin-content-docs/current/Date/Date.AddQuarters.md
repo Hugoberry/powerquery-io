@@ -5,8 +5,6 @@ title: Date.AddQuarters
 # Date.AddQuarters
 
 
-## Description
-
 指定された四半期を日付に追加します。
 
 
@@ -20,7 +18,7 @@ Date.AddQuarters(
 ```
 
 
-## Details
+## Remarks
 
 <code>datetime</code> 値 <code>dateTime</code> に <code>numberOfQuarters</code> 四半期を追加した結果の <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> を返します。      <ul>      <li><code>dateTime</code>: 四半期が追加される <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値。</li>      <li><code>numberOfQuarters</code>: 追加する四半期の数。</li>      </ul>
 

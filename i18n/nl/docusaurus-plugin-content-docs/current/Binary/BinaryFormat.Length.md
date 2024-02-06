@@ -5,8 +5,6 @@ title: BinaryFormat.Length
 # BinaryFormat.Length
 
 
-## Description
-
 Retourneert een binaire indeling die de hoeveelheid gegevens beperkt die kan worden gelezen.
 
 
@@ -20,7 +18,7 @@ BinaryFormat.Length(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een binaire indeling die de hoeveelheid gegevens beperkt die kan worden gelezen.  Zowel <code>BinaryFormat.List</code> als <code>BinaryFormat.Binary</code> kan worden gebruikt om tot het einde van de gegevens te lezen.  <code>BinaryFormat.Length</code> kan worden gebruikt om het aantal bytes te beperken dat wordt gelezen.  De parameter <code>binaryFormat</code> specificeert de binaire indeling die moet worden beperkt.  De parameter <code>length</code> specificeert het aantal bytes dat moet worden gelezen.  De parameter <code>length</code> kan een numerieke waarde of een waarde van een binaire indeling zijn die de indeling van de lengtewaarde definieert die verschijnt en voorafgaat aan de waarde die wordt gelezen.
 

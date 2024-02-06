@@ -5,8 +5,6 @@ title: DateTimeZone.UtcNow
 # DateTimeZone.UtcNow
 
 
-## Description
-
 Gibt das aktuelle Datum und die aktuelle Uhrzeit in koordinierter Weltzeit (GMT-Zeitzone) zurück.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.UtcNow(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das aktuelle Datum und die aktuelle Uhrzeit in koordinierter Weltzeit (GMT-Zeitzone) zurück.
 

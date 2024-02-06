@@ -5,8 +5,6 @@ title: Table.RemoveLastN
 # Table.RemoveLastN
 
 
-## Description
-
 Zwraca tabelę, z której usunięto N ostatnich wierszy.
 
 
@@ -20,7 +18,7 @@ Table.RemoveLastN(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę, która nie zawiera <code>countOrCondition</code> ostatnich wierszy z tabeli <code>table</code>.        Liczba usuniętych wierszy jest zależna od opcjonalnego parametru <code>countOrCondition</code>.    <ul>    <li> Pominięcie parametru <code>countOrCondition</code> spowoduje usunięcie tylko ostatniego wiersza. </li>    <li> Jeśli parametr <code>countOrCondition</code> jest liczbą, określa liczbę wierszy (licząc od dołu), które zostaną usunięte. </li>    <li>Jeśli parametr <code>countOrCondition</code> jest warunkiem, będą usuwane wiersze spełniające ten warunek, aż do wiersza, który go nie spełnia.</li>    </ul>
 

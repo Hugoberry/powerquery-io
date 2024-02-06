@@ -5,8 +5,6 @@ title: Table.FillDown
 # Table.FillDown
 
 
-## Description
-
 列の下の NULL 値セルに上のセル値を反映します。
 
 
@@ -20,7 +18,7 @@ Table.FillDown(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>table</code> から、指定された <code>columns</code> の下の NULL 値セルに上のセル値を反映したテーブルを返します。
 

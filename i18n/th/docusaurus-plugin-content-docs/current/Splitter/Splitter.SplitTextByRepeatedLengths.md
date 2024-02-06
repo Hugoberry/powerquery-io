@@ -5,8 +5,6 @@ title: Splitter.SplitTextByRepeatedLengths
 # Splitter.SplitTextByRepeatedLengths
 
 
-## Description
-
 ส่งกลับฟังก์ชันที่แยกข้อความออกเป็นรายการของข้อความหลังความยาวที่ระบุซ้ำ
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByRepeatedLengths(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับฟังก์ชันที่แยกข้อความออกเป็นรายการของข้อความหลังความยาวที่ระบุซ้ำ
 

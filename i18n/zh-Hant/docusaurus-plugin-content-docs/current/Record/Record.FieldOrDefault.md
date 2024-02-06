@@ -5,8 +5,6 @@ title: Record.FieldOrDefault
 # Record.FieldOrDefault
 
 
-## Description
-
 傳回記錄中指定欄位的值，如果找不到，則傳回預設值。
 
 
@@ -21,7 +19,7 @@ Record.FieldOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 傳回記錄 <code>record</code> 中指定欄位 <code>field</code> 的值。如果找不到欄位，則傳回選擇性的 <code>defaultValue</code>。
 

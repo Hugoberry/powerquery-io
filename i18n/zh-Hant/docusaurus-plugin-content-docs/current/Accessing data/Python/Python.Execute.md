@@ -5,8 +5,6 @@ title: Python.Execute
 # Python.Execute
 
 
-## Description
-
 琵址悅騱Executes Python script and returns data frames
 
 

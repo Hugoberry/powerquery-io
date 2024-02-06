@@ -5,8 +5,6 @@ title: Zendesk.Tables
 # Zendesk.Tables
 
 
-## Description
-
 Digite a URL da sua conta do Zendesk.
 
 
@@ -19,7 +17,7 @@ Zendesk.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma tabela com dados relevantes do Zendesk.
 

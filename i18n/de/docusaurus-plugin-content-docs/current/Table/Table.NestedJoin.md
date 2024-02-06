@@ -5,8 +5,6 @@ title: Table.NestedJoin
 # Table.NestedJoin
 
 
-## Description
-
 Führt für angegebene Spalten einen Join zwischen Tabellen aus und stellt das Join-Ergebnis in einer neuen Spalte bereit.
 
 
@@ -25,7 +23,7 @@ Table.NestedJoin(
 ```
 
 
-## Details
+## Remarks
 
 Führt die Zeilen von "<code>table1</code>" mit den Zeilen von "<code>table2</code>" zusammen. Grundlage hierfür bildet die Übereinstimmung der Werte der Schlüsselspalten, die durch "<code>key1</code>" (für "<code>table1</code>") und "<code>key2</code>" (für "<code>table2</code>") ausgewählt wurden. Die Ergebnisse werden in die Spalte namens "<code>newColumnName</code>" eingefügt.<br />"<code>joinKind</code>" (optional) legt die Art des durchzuführenden Joins fest. Standardmäßig wird ein linker äußerer Join durchgeführt, wenn "<code>joinKind</code>" nicht angegeben ist.<br />Um festzulegen, wie die Schlüsselspalten verglichen werden sollen, kann ein optionaler <code>keyEqualityComparers</code>-Satz eingeschlossen werden. Dieses Feature ist zurzeit nur für die interne Verwendung vorgesehen.<br />  
 

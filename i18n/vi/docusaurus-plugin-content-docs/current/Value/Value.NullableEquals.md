@@ -5,8 +5,6 @@ title: Value.NullableEquals
 # Value.NullableEquals
 
 
-## Description
-
 Trả về kết quả hai giá trị bằng nhau hay không bằng nhau.
 
 
@@ -21,7 +19,7 @@ Value.NullableEquals(
 ```
 
 
-## Details
+## Remarks
 
 Trả về giá trị rỗng nếu đối số '<code>value1</code>' hoặc '<code>value2</code>' là giá trị rỗng hoặc tương đương với Value.Equals nếu ngược lại.
 

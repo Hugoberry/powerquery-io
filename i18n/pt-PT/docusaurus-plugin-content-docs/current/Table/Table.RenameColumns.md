@@ -5,8 +5,6 @@ title: Table.RenameColumns
 # Table.RenameColumns
 
 
-## Description
-
 Aplica mudanças de nome com o formato \{old, new}.
 
 
@@ -21,7 +19,7 @@ Table.RenameColumns(
 ```
 
 
-## Details
+## Remarks
 
 Efetua as mudanças de nome especificadas nas colunas da tabela <code>table</code>. Uma operação de substituição <code>renames</code> é composta por uma lista de dois valores, o nome antigo da coluna e o nome novo da coluna, fornecidos numa lista.    Se a coluna não existir, é emitida uma exceção a menos que o parâmetro opcional <code>missingField</code> especifique uma alternativa (por ex.: <code>MissingField.UseNull</code> ou <code>MissingField.Ignore</code>).
 

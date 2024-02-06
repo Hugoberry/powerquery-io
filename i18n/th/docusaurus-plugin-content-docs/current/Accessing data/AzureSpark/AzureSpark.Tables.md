@@ -5,8 +5,6 @@ title: AzureSpark.Tables
 # AzureSpark.Tables
 
 
-## Description
-
 แสดงรายการตารางในอินสแตนซ์ Azure Spark
 
 
@@ -20,7 +18,7 @@ AzureSpark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 แสดงรายการตารางในอินสแตนซ์ Azure Spark
 

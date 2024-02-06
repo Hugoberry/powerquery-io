@@ -5,8 +5,6 @@ title: Type.Facets
 # Type.Facets
 
 
-## Description
-
 傳回類型的 Facet。
 
 
@@ -19,7 +17,7 @@ Type.Facets(
 ```
 
 
-## Details
+## Remarks
 
 傳回包含 <code>type</code> 之 Facet 的記錄。
 

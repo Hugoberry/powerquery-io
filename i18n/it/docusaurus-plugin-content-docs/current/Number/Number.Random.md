@@ -5,8 +5,6 @@ title: Number.Random
 # Number.Random
 
 
-## Description
-
 Restituisce un numero casuale.
 
 
@@ -19,7 +17,7 @@ Number.Random(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un numero casuale compreso tra 0 e 1.
 

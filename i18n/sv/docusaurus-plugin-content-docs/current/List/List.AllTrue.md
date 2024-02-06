@@ -5,8 +5,6 @@ title: List.AllTrue
 # List.AllTrue
 
 
-## Description
-
 Returnerar true om alla uttryck utvärderas som true.
 
 
@@ -19,7 +17,7 @@ List.AllTrue(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar true om alla uttryck i listan <code>list</code> utvärderas som true.
 

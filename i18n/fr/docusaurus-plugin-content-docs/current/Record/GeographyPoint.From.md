@@ -5,8 +5,6 @@ title: GeographyPoint.From
 # GeographyPoint.From
 
 
-## Description
-
 Crée un enregistrement représentant un point géographique à partir des parties constituantes.
 
 
@@ -23,7 +21,7 @@ GeographyPoint.From(
 ```
 
 
-## Details
+## Remarks
 
 Crée un enregistrement représentant un point géographique à partir de ses parties constituantes, telles que la longitude, la latitude et, le cas échéant, l’élévation (Z) et la mesure (M). Un ID de référence spatial (SRID) facultatif peut être fourni s’il est différent de la valeur par défaut (4326).
 

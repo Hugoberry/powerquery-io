@@ -5,8 +5,6 @@ title: List.Alternate
 # List.Alternate
 
 
-## Description
-
 Returnerar en lista som består av alla förskjutna element i en lista.
 
 
@@ -22,7 +20,7 @@ List.Alternate(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en lista som består av alla förskjutna element i en lista. Växlar mellan att använda och hoppa över värden från listan <code>list</code> beroende på parametrarna.    <ul>    <li><code>count</code>: Anger antalet värden som hoppas över varje gång.</li>    <li><code>repeatInterval</code>: Ett valfritt upprepningsintervall som anger hur många värden som läggs till mellan de överhoppade värdena.</li>    <li><code>offset</code>: En valfri offset-parameter som kan användas för att hoppa över värdena vid den ursprungliga förskjutningen.</li>    </ul>
 

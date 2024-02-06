@@ -5,8 +5,6 @@ title: Number.IsEven
 # Number.IsEven
 
 
-## Description
-
 Indica se il valore è pari.
 
 
@@ -19,7 +17,7 @@ Number.IsEven(
 ```
 
 
-## Details
+## Remarks
 
 Indica se il valore <code>number</code> è pari restituendo <code>true</code> se è pari, in caso contrario <code>false</code>.
 

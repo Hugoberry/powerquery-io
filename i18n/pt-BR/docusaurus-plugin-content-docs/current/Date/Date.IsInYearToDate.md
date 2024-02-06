@@ -5,8 +5,6 @@ title: Date.IsInYearToDate
 # Date.IsInYearToDate
 
 
-## Description
-
 Indica se essa data ocorre durante o ano atual e no ou antes do dia atual, conforme determinado pela data e hora atuais no sistema.
 
 
@@ -19,7 +17,7 @@ Date.IsInYearToDate(
 ```
 
 
-## Details
+## Remarks
 
 Indica se o valor de datetime especificado <code>dateTime</code> ocorre durante o ano atual e no ou antes do dia atual, conforme determinado pela data e hora atuais no sistema.      <ul>      <li><code>dateTime</code>: Um valor <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> a ser avaliado.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Text.Range
 # Text.Range
 
 
-## Description
-
 オフセットで見つかったサブストリングを返します。
 
 
@@ -21,7 +19,7 @@ Text.Range(
 ```
 
 
-## Details
+## Remarks
 
 テキスト <code>text</code> のオフセット <code>offset</code> で見つかるサブストリングを返します。    省略可能なパラメーター <code>count</code> を使用すると、返す文字数を指定できます。文字数が足りない場合はエラーがスローされます。
 

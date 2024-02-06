@@ -5,8 +5,6 @@ title: Type.TableColumn
 # Type.TableColumn
 
 
-## Description
-
 Zwraca typ kolumny w tabeli.
 
 
@@ -20,7 +18,7 @@ Type.TableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca typ kolumny <code>column</code> w tabeli typu <code>tableType</code>.
 

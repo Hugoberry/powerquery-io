@@ -5,8 +5,6 @@ title: Table.HasColumns
 # Table.HasColumns
 
 
-## Description
-
 Anger om tabellen innehåller den eller de angivna kolumnerna.
 
 
@@ -20,7 +18,7 @@ Table.HasColumns(
 ```
 
 
-## Details
+## Remarks
 
 Anger om <code>table</code> innehåller den eller de angivna kolumnerna, <code>columns</code>. Returnerar <code>true</code> om tabellen innehåller kolumnen eller kolumnerna. Annars returneras <code>false</code>.
 

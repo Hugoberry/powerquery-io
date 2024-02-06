@@ -5,8 +5,6 @@ title: Table.AddColumn
 # Table.AddColumn
 
 
-## Description
-
 Lägger till en kolumn med angivet namn. Värdet beräknas med den angivna valfunktionen där varje rad används som indata.
 
 
@@ -22,7 +20,7 @@ Table.AddColumn(
 ```
 
 
-## Details
+## Remarks
 
 Lägger till en kolumn med namnet <code>newColumnName</code> i tabellen <code>table</code>. Värdena för kolumnen beräknas med den angivna valfunktionen <code>columnGenerator</code> där varje rad används som indata.
 

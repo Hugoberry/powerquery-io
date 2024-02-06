@@ -5,8 +5,6 @@ title: Table.AlternateRows
 # Table.AlternateRows
 
 
-## Description
-
 保留初始偏移量，然后交替选取和跳过下列行。
 
 
@@ -22,7 +20,7 @@ Table.AlternateRows(
 ```
 
 
-## Details
+## Remarks
 
 保留初始偏移量，然后交替选取和跳过下列行。    <ul>       <li><code>table</code>: 输入表。</li>       <li><code>offset</code>: 在开始迭代之前要保留的行数。</li>       <li><code>skip</code>: 每次迭代中要删除的行数。</li>       <li><code>take</code>: 每次迭代中要保留的行数。</li>    </ul>    
 

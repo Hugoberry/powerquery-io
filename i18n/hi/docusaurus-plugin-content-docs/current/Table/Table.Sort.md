@@ -5,8 +5,6 @@ title: Table.Sort
 # Table.Sort
 
 
-## Description
-
 एक या अधिक स्तंभ नामों और तुलना मापदंड का उपयोग करके तालिका सॉर्ट करें.
 
 
@@ -20,7 +18,7 @@ Table.Sort(
 ```
 
 
-## Details
+## Remarks
 
 एक या अधिक स्तंभ नामों की सूची और \{ \{ col1, comparisonCriteria }, \{col2} } रूप में वैकल्पिक <code>comparisonCriteria</code> का उपयोग करके <code>table</code> को सॉर्ट करता है.
 

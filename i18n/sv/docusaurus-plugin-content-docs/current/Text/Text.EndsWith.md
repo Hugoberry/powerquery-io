@@ -5,8 +5,6 @@ title: Text.EndsWith
 # Text.EndsWith
 
 
-## Description
-
 Anger om texten slutar med det angivna värdet.
 
 
@@ -21,7 +19,7 @@ Text.EndsWith(
 ```
 
 
-## Details
+## Remarks
 
 Indikerar om den givna texten, <code>text</code>, slutar med det angivna värdet, <code>substring</code>. Indikationen är skiftlägeskänslig.      <div>         <code>comparer</code> är en <code>Comparer</code> som används för att kontrollera jämförelsen. Jämförelsefunktioner kan användas för att tillhandahålla skiftlägesokänsliga eller kultur- och språkmedvetna jämförelser.      </div>      <div>        Följande inbyggda jämförelsefunktioner finns tillgängliga i formelspråket:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: Används för att genomföra en exakt ordningstalsjämförelse</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: Används för att genomföra en exakt skiftlägesokänslig ordningstalsjämförelse</li>        <li><code>Comparer.FromCulture</code>: Används för att genomföra en kulturmedveten jämförelse</li>      </ul>
 

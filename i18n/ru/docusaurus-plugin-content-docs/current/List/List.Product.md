@@ -5,8 +5,6 @@ title: List.Product
 # List.Product
 
 
-## Description
-
 Возвращает произведение чисел в списке.
 
 
@@ -20,7 +18,7 @@ List.Product(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает произведение чисел в списке <code>numbersList</code>, отличных от NULL. Возвращает значение NULL, если в списке нет значений, отличных от NULL.
 

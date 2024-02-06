@@ -5,8 +5,6 @@ title: Value.ReplaceType
 # Value.ReplaceType
 
 
-## Description
-
 Заменяет тип значения.
 
 
@@ -20,7 +18,7 @@ Value.ReplaceType(
 ```
 
 
-## Details
+## Remarks
 
 Заменяет тип <code>value</code> на указанный <code>type</code>.
 

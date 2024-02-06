@@ -5,8 +5,6 @@ title: Diagnostics.Trace
 # Diagnostics.Trace
 
 
-## Description
-
 İzleme etkinse bir izleme girişi yazar ve değeri döndürür.
 
 
@@ -22,7 +20,7 @@ Diagnostics.Trace(
 ```
 
 
-## Details
+## Remarks
 
 İzleme etkinse bir izleme <code>message</code> yazar ve <code>value</code> döndürür. İsteğe bağlı <code>delayed</code> parametresi, ileti izlenene kadar <code>value</code> değerlendirmesinin ertelenip ertelenmeyeceğini belirtir. <code>traceLevel</code> şu değerlerden birini alabilir:    <code>TraceLevel.Critical</code>    <code>TraceLevel.Error</code>,    <code>TraceLevel.Warning</code>,    <code>TraceLevel.Information</code>,    <code>TraceLevel.Verbose</code>.  
 

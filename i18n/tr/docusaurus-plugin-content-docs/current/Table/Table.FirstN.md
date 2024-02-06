@@ -5,8 +5,6 @@ title: Table.FirstN
 # Table.FirstN
 
 
-## Description
-
 Belirtilen ilk sayı satırlarını döndürür.
 
 
@@ -20,7 +18,7 @@ Table.FirstN(
 ```
 
 
-## Details
+## Remarks
 
 <code>countOrCondition</code> değerine bağlı olarak <code>table</code> tablosunun ilk satırlarını döndürür:    <ul>    <li> <code>countOrCondition</code> bir sayı ise, bu sayıda satır (üstten başlayarak) döndürülür. </li>    <li> <code>countOrCondition</code> bir koşul ise, koşulu sağlayan satırlar herhangi bir satırı koşulu sağlamayana kadar döndürülür.</li></ul>
 

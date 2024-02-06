@@ -5,8 +5,6 @@ title: Record.ToList
 # Record.ToList
 
 
-## Description
-
 Trả về danh sách giá trị chứa giá trị trường của bản ghi nhập vào.
 
 
@@ -19,7 +17,7 @@ Record.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Trả về danh sách giá trị chứa giá trị trường từ đầu vào <code>record</code>.
 

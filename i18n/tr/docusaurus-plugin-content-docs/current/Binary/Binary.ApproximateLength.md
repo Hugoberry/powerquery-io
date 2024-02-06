@@ -5,8 +5,6 @@ title: Binary.ApproximateLength
 # Binary.ApproximateLength
 
 
-## Description
-
 İkilinin yaklaşık uzunluğunu döndürür.
 
 
@@ -19,7 +17,7 @@ Binary.ApproximateLength(
 ```
 
 
-## Details
+## Remarks
 
 Veri kaynağı yaklaşık bir uzunluğu desteklemiyorsa, yaklaşık <code>binary</code> uzunluğunu veya bir hata döndürür.
 

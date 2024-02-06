@@ -5,8 +5,6 @@ title: Expression.Constant
 # Expression.Constant
 
 
-## Description
-
 Возвращает представление константного значения в исходном коде M.
 
 
@@ -19,7 +17,7 @@ Expression.Constant(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает представление константного значения в исходном коде M.
 

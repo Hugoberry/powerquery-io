@@ -5,8 +5,6 @@ title: Lines.ToBinary
 # Lines.ToBinary
 
 
-## Description
-
 指定されたエンコードと lineSeparator を使用して、テキストのリストをバイナリ値に変換します。指定された lineSeparator は、各行に追加されます。指定されない場合は、復帰文字と改行文字が使用されます。
 
 
@@ -22,7 +20,7 @@ Lines.ToBinary(
 ```
 
 
-## Details
+## Remarks
 
 指定されたエンコードと lineSeparator を使用して、テキストのリストをバイナリ値に変換します。指定された lineSeparator は、各行に追加されます。指定されない場合は、復帰文字と改行文字が使用されます。
 

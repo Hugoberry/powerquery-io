@@ -5,8 +5,6 @@ title: BinaryFormat.SignedInteger64
 # BinaryFormat.SignedInteger64
 
 
-## Description
-
 Um formato binário que lê um número inteiro com sinal de 64 bits.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.SignedInteger64(
 ```
 
 
-## Details
+## Remarks
 
 Um formato binário que lê um número inteiro com sinal de 64 bits.
 

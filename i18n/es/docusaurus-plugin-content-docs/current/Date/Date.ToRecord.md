@@ -5,8 +5,6 @@ title: Date.ToRecord
 # Date.ToRecord
 
 
-## Description
-
 Devuelve un registro que contiene los elementos del valor de fecha.
 
 
@@ -19,7 +17,7 @@ Date.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un registro que contiene los elementos del valor date especificado, <code>date</code>. <ul>        <li><code>date</code>: un valor <code>date</code> a partir del cual se calculará el registro de sus partes.</li>      </ul>
 

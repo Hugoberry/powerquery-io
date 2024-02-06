@@ -5,8 +5,6 @@ title: Date.Day
 # Date.Day
 
 
-## Description
-
 返回星期几部分。
 
 
@@ -19,7 +17,7 @@ Date.Day(
 ```
 
 
-## Details
+## Remarks
 
 返回 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值的日部分。      <ul>        <li><code>dateTime</code>: 要从其提取日部分的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值。</li>      </ul>
 

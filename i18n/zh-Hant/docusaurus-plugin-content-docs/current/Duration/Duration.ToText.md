@@ -5,8 +5,6 @@ title: Duration.ToText
 # Duration.ToText
 
 
-## Description
-
 傳回 &#34;d.h:m:s&#34; 格式的文字。
 
 
@@ -20,7 +18,7 @@ Duration.ToText(
 ```
 
 
-## Details
+## Remarks
 
 傳回指定持續時間值 <code>duration</code> 的文字表示法，格式為 "day.hour:mins:sec"。 <ul>        <li><code>duration</code>: 計算文字表示法的來源 <code>duration</code>。</li>  <li><code>format</code>: <i>[選用]</i> 已淘汰，若不是 null，將會擲回錯誤</li>      </ul>
 

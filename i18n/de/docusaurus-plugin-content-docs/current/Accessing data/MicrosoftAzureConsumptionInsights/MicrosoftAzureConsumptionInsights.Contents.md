@@ -5,8 +5,6 @@ title: MicrosoftAzureConsumptionInsights.Contents
 # MicrosoftAzureConsumptionInsights.Contents
 
 
-## Description
-
 Hiermit werden erweiterte Abfragefunktionen bereitgestellt.
 
 
@@ -20,7 +18,7 @@ MicrosoftAzureConsumptionInsights.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Hiermit werden erweiterte Abfragefunktionen bereitgestellt.
 

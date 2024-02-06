@@ -5,8 +5,6 @@ title: Type.TableRow
 # Type.TableRow
 
 
-## Description
-
 Retourneert het rijtype van het tabeltype.
 
 
@@ -19,7 +17,7 @@ Type.TableRow(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het rijtype van het opgegeven tabeltype. Het resultaat is altijd een recordtype.
 

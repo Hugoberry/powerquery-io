@@ -5,8 +5,6 @@ title: Int32.From
 # Int32.From
 
 
-## Description
-
 Crea un entero de 32 bits a partir del valor proporcionado.
 
 
@@ -21,7 +19,7 @@ Int32.From(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un valor <code>number</code> entero de 32 bits a partir del valor <code>value</code> dado. Si <code>value</code> es <code>null</code>, <code>Int32.From</code> devuelve <code>null</code>. Si <code>value</code> es <code>number</code> en el rango de enteros de 32 bits sin una parte fraccionaria, se devuelve <code>value</code>. Si tiene una parte fraccionaria, el número se redondea con el modo de redondeo que se haya especificado. El modo de redondeo predeterminado es <code>RoundingMode.ToEven</code>. Si <code>value</code> es de otro tipo, se convertirá en un valor <code>number</code> con <code>Number.FromText</code>. Vea <code>Number.Round</code> para conocer los modos de redondeo disponibles. También se puede proporcionar un parámetro <code>culture</code> opcional (por ejemplo, "es-ES").
 

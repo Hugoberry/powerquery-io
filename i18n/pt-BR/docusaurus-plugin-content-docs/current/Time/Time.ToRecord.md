@@ -5,8 +5,6 @@ title: Time.ToRecord
 # Time.ToRecord
 
 
-## Description
-
 Retorna um registro contendo as partes do valor Time.
 
 
@@ -19,7 +17,7 @@ Time.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Retorna um registro contendo as partes do valor Time especificado, <code>time</code>. <ul>        <li><code>time</code>: um valor <code>time</code> com base no qual o registro das partes será calculado.</li>      </ul>
 

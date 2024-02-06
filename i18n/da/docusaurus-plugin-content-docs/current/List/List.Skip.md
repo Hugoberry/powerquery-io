@@ -5,8 +5,6 @@ title: List.Skip
 # List.Skip
 
 
-## Description
-
 Returnerer en liste, der springer det angivne antal elementer over i starten af listen.
 
 
@@ -20,7 +18,7 @@ List.Skip(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en liste, der springer første element på listen <code>list</code> over. Hvis <code>list</code> er en tom liste, returneres der en tom liste.Denne funktion bruger en valgfri parameter, <code>countOrCondition</code>, for at understøtte overspringning af flere værdier som anført nedenfor. <ul> <li>Hvis der er angivet et tal, springes elementer op til det angivne antal over. </li> <li>Hvis der er angivet en betingelse, starter den returnerede liste med det første element i <code>list</code>, der opfylder kriterierne. Når et element ikke opfylder betingelsen, tages der ikke flere elementer med i betragtning. </li> <li>Hvis denne parameter er null, anvendes standardfunktionsmåden. </li> </ul>
 

@@ -5,8 +5,6 @@ title: Table.ColumnsOfType
 # Table.ColumnsOfType
 
 
-## Description
-
 Restituisce un elenco con i nomi delle colonne corrispondenti ai tipi specificati.
 
 
@@ -20,7 +18,7 @@ Table.ColumnsOfType(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un elenco con i nomi delle colonne dalla tabella <code>table</code> corrispondenti ai tipi specificati in <code>listOfTypes</code>.
 

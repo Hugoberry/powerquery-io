@@ -5,8 +5,6 @@ title: Type.TableColumn
 # Type.TableColumn
 
 
-## Description
-
 Devuelve el tipo de una columna de una tabla.
 
 
@@ -20,7 +18,7 @@ Type.TableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve el tipo de la columna <code>column</code> de la tabla <code>tableType</code>.
 

@@ -5,8 +5,6 @@ title: Text.TrimEnd
 # Text.TrimEnd
 
 
-## Description
-
 Удаляет все конечные пробелы.
 
 
@@ -20,7 +18,7 @@ Text.TrimEnd(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает результат удаления всех конечных пробелов из текстового значения <code>text</code>.
 

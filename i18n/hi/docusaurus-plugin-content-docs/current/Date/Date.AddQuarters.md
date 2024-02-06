@@ -5,8 +5,6 @@ title: Date.AddQuarters
 # Date.AddQuarters
 
 
-## Description
-
 निर्दिष्ट तिमाहियों को दिनांक में जोड़ता है.
 
 
@@ -20,7 +18,7 @@ Date.AddQuarters(
 ```
 
 
-## Details
+## Remarks
 
 <code>datetime</code> मान <code>dateTime</code> में <code>numberOfQuarters</code> तिमाहियाँ जोड़ने आने वाला <code>date</code>, <code>datetime</code> या <code>datetimezone</code> परिणाम लौटाता है.      <ul>      <li><code>dateTime</code>: <code>date</code>, <code>datetime</code> या <code>datetimezone</code> वे मान हैं जिनमें तिमाहियों को जोड़ा जा रहा है.</li>      <li><code>numberOfQuarters</code>: जोड़ने के लिए तिमाहियों की संख्या.</li>      </ul>
 

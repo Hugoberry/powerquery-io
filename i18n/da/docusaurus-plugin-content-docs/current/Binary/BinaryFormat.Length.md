@@ -5,8 +5,6 @@ title: BinaryFormat.Length
 # BinaryFormat.Length
 
 
-## Description
-
 Returnerer et binært format, der begrænser den mængde data, som kan læses.
 
 
@@ -20,7 +18,7 @@ BinaryFormat.Length(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer et binært format, der begrænser den mængde data, som kan læses.  Både <code>BinaryFormat.List</code> og <code>BinaryFormat.Binary</code> kan bruges til at læse indtil slutningen af dataene.  <code>BinaryFormat.Length</code> kan bruges til at begrænse det antal byte, der læses.  Parameteren <code>binaryFormat</code> angiver det binære format, der skal begrænses.  Parameteren <code>length</code> angiver det mindste antal byte, der skal læses.  Parameteren <code>length</code> kan enten være en talværdi eller en binær formatværdi, der angiver formatet af den længdeværdi, der står foran den værdi, der læses.
 

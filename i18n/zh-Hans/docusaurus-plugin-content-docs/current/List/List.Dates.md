@@ -5,8 +5,6 @@ title: List.Dates
 # List.Dates
 
 
-## Description
-
 给定初始值、计数和增量期间值来生成 date 值的列表。
 
 
@@ -21,7 +19,7 @@ List.Dates(
 ```
 
 
-## Details
+## Remarks
 
 返回大小为 <code>count</code> 的 <code>date</code> 值的列表，从 <code>start</code> 开始。给定的增量 <code>step</code> 是加到每个值的 <code>duration</code> 值。
 

@@ -5,8 +5,6 @@ title: Table.ToList
 # Table.ToList
 
 
-## Description
-
 將指定的結合函數套用至資料表中每個資料列的值，藉以將資料表轉換成清單。
 
 
@@ -20,7 +18,7 @@ Table.ToList(
 ```
 
 
-## Details
+## Remarks
 
 將指定的結合函數套用至資料表中每個資料列的值，藉以將資料表轉換成清單。
 

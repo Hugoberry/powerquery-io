@@ -5,8 +5,6 @@ title: Date.IsLeapYear
 # Date.IsLeapYear
 
 
-## Description
-
 Bu tarihin artık yıl içinde olup olmadığını belirtir.
 
 
@@ -19,7 +17,7 @@ Date.IsLeapYear(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> verilen datetime değerinin artık yıl içinde olup olmadığını gösterir. <ul>        <li><code>dateTime</code>: Değerlendirilecek <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      </ul>
 

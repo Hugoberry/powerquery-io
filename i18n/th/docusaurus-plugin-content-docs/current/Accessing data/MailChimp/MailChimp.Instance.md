@@ -5,8 +5,6 @@ title: MailChimp.Instance
 # MailChimp.Instance
 
 
-## Description
-
 คืนค่าผลลัพธ์คำตอบแบบดิบจากจุดสิ้นสุด MailChimp API
 
 
@@ -19,7 +17,7 @@ MailChimp.Instance(
 ```
 
 
-## Details
+## Remarks
 
 ทำการเรียกใช้ไปยัง MailChimp API และคืนค่าคำตอบแบบดิบ
 

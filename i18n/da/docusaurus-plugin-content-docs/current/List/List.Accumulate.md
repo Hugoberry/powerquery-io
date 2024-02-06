@@ -5,8 +5,6 @@ title: List.Accumulate
 # List.Accumulate
 
 
-## Description
-
 Akkumulerer en opsamlingsværdi fra elementer på listen.
 
 
@@ -21,7 +19,7 @@ List.Accumulate(
 ```
 
 
-## Details
+## Remarks
 
 Akkumulerer en opsamlingsværdi fra elementerne på listen <code>list</code> ved hjælp af <code>accumulator</code>.    Du kan angive en valgfri seed-parameter, <code>seed</code>.
 

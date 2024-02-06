@@ -5,8 +5,6 @@ title: Value.As
 # Value.As
 
 
-## Description
-
 如果值與指定的類型相容，則傳回值。
 
 
@@ -20,7 +18,7 @@ Value.As(
 ```
 
 
-## Details
+## Remarks
 
 如果值與指定的類型相容，則傳回值。這相當於 M 中的「is」運算子，例外狀況是它可以接受識別碼類型參考，例如 Number.Type。
 

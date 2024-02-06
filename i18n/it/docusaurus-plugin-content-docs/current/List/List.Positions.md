@@ -5,8 +5,6 @@ title: List.Positions
 # List.Positions
 
 
-## Description
-
 Restituisce l&#39;elenco degli offset per l&#39;input.
 
 
@@ -19,7 +17,7 @@ List.Positions(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce l'elenco degli offset per l'elenco di input <code>list</code>.    Quando si usa List.Transform per modificare un elenco, è possibile usare l'elenco delle posizioni per fornire alla trasformazione l'accesso alla posizione.
 

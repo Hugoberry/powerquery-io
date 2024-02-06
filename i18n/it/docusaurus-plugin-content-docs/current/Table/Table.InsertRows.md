@@ -5,8 +5,6 @@ title: Table.InsertRows
 # Table.InsertRows
 
 
-## Description
-
 Inserisce un elenco di righe nella tabella nel percorso specificato.
 
 
@@ -21,7 +19,7 @@ Table.InsertRows(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una tabella con l'elenco di righe <code>rows</code>, inserite in <code>table</code> nel percorso specificato <code>offset</code>. Ogni colonna nella riga da inserire deve corrispondere ai tipi di colonna della tabella.
 

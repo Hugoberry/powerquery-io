@@ -5,8 +5,6 @@ title: Table.SingleRow
 # Table.SingleRow
 
 
-## Description
-
 テーブルの 1 つの行を返します。
 
 
@@ -19,7 +17,7 @@ Table.SingleRow(
 ```
 
 
-## Details
+## Remarks
 
 1 つの行 <code>table</code> の 1 つの行を返します。<code>table</code> に複数の行が存在する場合、例外がスローされます。
 

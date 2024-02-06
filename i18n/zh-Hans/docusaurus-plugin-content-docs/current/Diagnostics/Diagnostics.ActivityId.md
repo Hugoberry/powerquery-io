@@ -5,8 +5,6 @@ title: Diagnostics.ActivityId
 # Diagnostics.ActivityId
 
 
-## Description
-
 为当前正在运行的计算返回不透明的标识符。
 
 
@@ -19,7 +17,7 @@ Diagnostics.ActivityId(
 ```
 
 
-## Details
+## Remarks
 
 为当前正在运行的计算返回不透明的标识符。
 

@@ -5,8 +5,6 @@ title: List.IsDistinct
 # List.IsDistinct
 
 
-## Description
-
 Indique s&#39;il y a des doublons dans la liste.
 
 
@@ -20,7 +18,7 @@ List.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une valeur logique s'il existe des doublons dans la liste <code>list</code> ; <code>true</code> si la liste est distincte, <code>false</code> s'il y a des valeurs dupliquées. 
 

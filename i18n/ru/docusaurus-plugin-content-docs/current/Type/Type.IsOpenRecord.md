@@ -5,8 +5,6 @@ title: Type.IsOpenRecord
 # Type.IsOpenRecord
 
 
-## Description
-
 Возвращает данные о том, является ли тип записи открытым.
 
 
@@ -19,7 +17,7 @@ Type.IsOpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает значение <code>logical</code>, указывающее, является ли запись <code>type</code> открытой.
 

@@ -5,8 +5,6 @@ title: Function.IsDataSource
 # Function.IsDataSource
 
 
-## Description
-
 特定の関数がデータ ソースと見なされるかどうかを返します。
 
 
@@ -19,7 +17,7 @@ Function.IsDataSource(
 ```
 
 
-## Details
+## Remarks
 
 <code>function</code> がデータ ソースと見なされるかどうかを返します。
 

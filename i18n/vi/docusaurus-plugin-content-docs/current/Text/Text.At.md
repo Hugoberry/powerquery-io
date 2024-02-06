@@ -5,8 +5,6 @@ title: Text.At
 # Text.At
 
 
-## Description
-
 Trả về ký tự tại vị trí được chỉ định.
 
 
@@ -20,7 +18,7 @@ Text.At(
 ```
 
 
-## Details
+## Remarks
 
 Trả về ký tự ở dạng giá trị văn bản <code>text</code> tại vị trí <code>index</code>. Ký tự đầu tiên trong văn bản tại vị trí 0.
 

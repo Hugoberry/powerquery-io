@@ -5,8 +5,6 @@ title: Value.Type
 # Value.Type
 
 
-## Description
-
 Trả về loại của giá trị cụ thể.
 
 
@@ -19,7 +17,7 @@ Value.Type(
 ```
 
 
-## Details
+## Remarks
 
 Trả về loại của giá trị cụ thể.
 

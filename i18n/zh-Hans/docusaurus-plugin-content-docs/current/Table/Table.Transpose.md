@@ -5,8 +5,6 @@ title: Table.Transpose
 # Table.Transpose
 
 
-## Description
-
 使列成为行，并使行成为列。
 
 
@@ -20,7 +18,7 @@ Table.Transpose(
 ```
 
 
-## Details
+## Remarks
 
 使列成为行，并使行成为列。
 

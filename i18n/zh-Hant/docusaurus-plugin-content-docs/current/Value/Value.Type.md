@@ -5,8 +5,6 @@ title: Value.Type
 # Value.Type
 
 
-## Description
-
 傳回指定值的類型。
 
 
@@ -19,7 +17,7 @@ Value.Type(
 ```
 
 
-## Details
+## Remarks
 
 傳回指定值的類型。
 

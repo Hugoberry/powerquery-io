@@ -5,8 +5,6 @@ title: Value.Type
 # Value.Type
 
 
-## Description
-
 返回给定值的类型。
 
 
@@ -19,7 +17,7 @@ Value.Type(
 ```
 
 
-## Details
+## Remarks
 
 返回给定值的类型。
 

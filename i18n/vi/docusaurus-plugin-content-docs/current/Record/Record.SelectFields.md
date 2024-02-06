@@ -5,8 +5,6 @@ title: Record.SelectFields
 # Record.SelectFields
 
 
-## Description
-
 Trả về một bản ghi chỉ chứa các trường được chỉ định.
 
 
@@ -21,7 +19,7 @@ Record.SelectFields(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bản ghi chỉ bao gồm các trường được chỉ định trong danh sách <code>fields</code> từ đầu vào <code>record</code>.
 

@@ -5,8 +5,6 @@ title: Odbc.InferOptions
 # Odbc.InferOptions
 
 
-## Description
-
 Retourneert het resultaat van het afleiden van SQL-mogelijkheden voor een ODBC-stuurprogramma.
 
 
@@ -19,7 +17,7 @@ Odbc.InferOptions(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het resultaat van het afleiden van SQL-mogelijkheden met de verbindingsreeks <code>connectionString</code> met ODBC. <code>connectionString</code> kan tekst zijn of een record met eigenschapswaardeparen. Eigenschapswaarden kunnen tekst of cijfers zijn.
 

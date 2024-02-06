@@ -5,8 +5,6 @@ title: DateTimeZone.ToLocal
 # DateTimeZone.ToLocal
 
 
-## Description
-
 Convierte el componente de zona horaria a la zona horaria local.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToLocal(
 ```
 
 
-## Details
+## Remarks
 
 Cambia la información de zona horaria del valor de datetimezone <code>dateTimeZone</code> por la información de zona horaria local.    Si <code>dateTimeZone</code> no tiene un componente de zona horaria, se agrega la información local de zona horaria.
 

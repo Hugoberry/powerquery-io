@@ -5,8 +5,6 @@ title: Table.ToRows
 # Table.ToRows
 
 
-## Description
-
 Opretter en liste over indlejrede lister over rækkeværdier fra en tabel.
 
 
@@ -19,7 +17,7 @@ Table.ToRows(
 ```
 
 
-## Details
+## Remarks
 
 Opretter en liste over indlejrede lister ud fra tabellen <code>table</code>.  De enkelte listeelementer er en indre liste, der indeholder rækkeværdierne.
 

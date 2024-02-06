@@ -5,8 +5,6 @@ title: Stripe.Contents
 # Stripe.Contents
 
 
-## Description
-
 API に呼び出しの数を制限するオプション付きで、Stripe API に対する呼び出しを行います。
 
 
@@ -21,7 +19,7 @@ Stripe.Contents(
 ```
 
 
-## Details
+## Remarks
 
 https://api.stripe.com/v1/<code>method</code> の Stripe API に対して呼び出しを行います。追加のパラメーターとして渡されるオプションのレコード <code>query</code> と、API のリクエスト数制限としてオプションの <code>pageLimit</code> を指定します。最近のデータが最初に返されます。<code>pageLimit</code> を指定しない場合、すべてのデータが返されます。Stripe バージョン 2015-10-16 が使用されます。
 

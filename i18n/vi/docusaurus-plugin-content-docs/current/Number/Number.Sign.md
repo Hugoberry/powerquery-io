@@ -5,8 +5,6 @@ title: Number.Sign
 # Number.Sign
 
 
-## Description
-
 Trả về 1 nếu là số dương, -1 nếu là số âm và 0 nếu là số 0.
 
 
@@ -19,7 +17,7 @@ Number.Sign(
 ```
 
 
-## Details
+## Remarks
 
 Trả về 1 nếu <code>number</code> là số dương, -1 nếu là số âm và 0 nếu là số 0.    Nếu <code>number</code> là giá trị null thì <code>Number.Sign</code> trả về giá trị null.
 

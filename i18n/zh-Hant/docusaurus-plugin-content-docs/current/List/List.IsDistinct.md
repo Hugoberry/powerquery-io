@@ -5,8 +5,6 @@ title: List.IsDistinct
 # List.IsDistinct
 
 
-## Description
-
 指出清單中是否有重複項。
 
 
@@ -20,7 +18,7 @@ List.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 傳回邏輯值，指出清單 <code>list</code> 中是否有重複項。如果是相異的清單，即為 <code>true</code>，如果有重複值，則為 <code>false</code>。
 

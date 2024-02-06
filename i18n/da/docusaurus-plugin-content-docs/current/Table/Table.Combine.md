@@ -5,8 +5,6 @@ title: Table.Combine
 # Table.Combine
 
 
-## Description
-
 Returnerer en tabel, der er resultatet af at flette en liste over tabeller.
 
 
@@ -20,7 +18,7 @@ Table.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel, som er resultatet af an flettet liste med tabeller, <code>tables</code>. Den nye tabel har en rækkestruktur, der er defineret ved hjælp af <code>columns</code> eller af en foreningsmængde af inputtyperne, hvis <code>columns</code> ikke er angivet.
 

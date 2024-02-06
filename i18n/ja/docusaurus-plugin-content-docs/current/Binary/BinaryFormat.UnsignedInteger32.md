@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger32
 # BinaryFormat.UnsignedInteger32
 
 
-## Description
-
 32 ビット符号なし整数を読み取るバイナリ形式です。
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger32(
 ```
 
 
-## Details
+## Remarks
 
 32 ビット符号なし整数を読み取るバイナリ形式です。
 

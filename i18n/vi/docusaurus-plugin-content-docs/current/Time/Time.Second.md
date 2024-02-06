@@ -5,8 +5,6 @@ title: Time.Second
 # Time.Second
 
 
-## Description
-
 Trả về cấu phần giây.
 
 
@@ -19,7 +17,7 @@ Time.Second(
 ```
 
 
-## Details
+## Remarks
 
 Trả về cấu phần giây của giá trị <code>time</code>, <code>datetime</code> hoặc <code>datetimezone</code> được cung cấp, <code>dateTime</code>.
 

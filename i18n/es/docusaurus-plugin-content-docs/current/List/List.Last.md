@@ -5,8 +5,6 @@ title: List.Last
 # List.Last
 
 
-## Description
-
 Devuelve el último valor de la lista o el valor predeterminado especificado si está vacío.
 
 
@@ -20,7 +18,7 @@ List.Last(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve el último elemento de la lista <code>list</code> o el valor predeterminado opcional <code>defaultValue</code>, si la lista está vacía.    Si la lista está vacía y no se especifica un valor predeterminado, la función devuelve <code>null</code>.
 

@@ -5,8 +5,6 @@ title: Table.PositionOfAny
 # Table.PositionOfAny
 
 
-## Description
-
 Trả về (các) vị trí của bất kỳ hàng nào được chỉ định trong bảng.
 
 
@@ -22,7 +20,7 @@ Table.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Trả về (các) vị trí hàng từ <code>table</code> của lần xuất hiện đầu tiên của danh sách <code>rows</code>. Trả về -1 nếu không tìm thấy lần xuất hiện nào.    <ul>    <li><code>table</code>: Bảng đầu vào.</li>       <li><code>rows</code>:  Danh sách các hàng trong bảng sẽ tìm vị trí.</li>       <li><code>occurrence</code>: <i>[Tùy chọn]</i> Chỉ định trả về lần xuất hiện nào của hàng.</li>       <li><code>equationCriteria</code>: <i>[Tùy chọn]</i> kiểm soát phép so sánh giữa các hàng của bảng.</li>    </ul>    
 

@@ -5,8 +5,6 @@ title: Table.UnpivotOtherColumns
 # Table.UnpivotOtherColumns
 
 
-## Description
-
 Converte tutte le colonne ad eccezione di un set specificato in coppie attributo-valore.
 
 
@@ -22,7 +20,7 @@ Table.UnpivotOtherColumns(
 ```
 
 
-## Details
+## Remarks
 
 Converte tutte le colonne ad eccezione di un set specificato in coppie attributo-valore, combinate con i valori restanti in ogni riga.
 

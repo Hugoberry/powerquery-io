@@ -5,8 +5,6 @@ title: Table.CombineColumns
 # Table.CombineColumns
 
 
-## Description
-
 Fasst die angegebenen Spalten unter Verwendung der angegebenen Kombinationsfunktion in einer neuen Spalte zusammen.
 
 
@@ -22,7 +20,7 @@ Table.CombineColumns(
 ```
 
 
-## Details
+## Remarks
 
 Fasst die angegebenen Spalten unter Verwendung der angegebenen Kombinationsfunktion in einer neuen Spalte zusammen.
 

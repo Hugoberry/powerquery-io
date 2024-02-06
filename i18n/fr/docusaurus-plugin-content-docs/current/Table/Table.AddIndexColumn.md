@@ -5,8 +5,6 @@ title: Table.AddIndexColumn
 # Table.AddIndexColumn
 
 
-## Description
-
 Ajoute une colonne avec des valeurs de position explicites.
 
 
@@ -23,7 +21,7 @@ Table.AddIndexColumn(
 ```
 
 
-## Details
+## Remarks
 
 Ajoute une colonne nommée <code>newColumnName</code> à <code>table</code> avec des valeurs de position explicites.    Valeur facultative, <code>initialValue</code>, valeur d'index initiale. La valeur facultative, <code>increment</code>, spécifie l'incrément de chaque valeur d'index.
 

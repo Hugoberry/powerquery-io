@@ -5,8 +5,6 @@ title: Date.AddMonths
 # Date.AddMonths
 
 
-## Description
-
 Tilføjer de angivne måneder efter datoen.
 
 
@@ -20,7 +18,7 @@ Date.AddMonths(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer resultaterne for <code>date</code>, <code>datetime</code> eller <code>datetimezone</code> efter at have føjet <code>numberOfMonths</code> måneder til værdien af typen <code>datetime</code> <code>dateTime</code>.      <ul>        <li><code>dateTime</code>: Den værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>, som måneder føjes til.</li>        <li><code>numberOfMonths</code>: Det antal måneder, der skal tilføjes.</li>      </ul>
 

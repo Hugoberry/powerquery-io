@@ -5,8 +5,6 @@ title: ApacheSpark.Tables
 # ApacheSpark.Tables
 
 
-## Description
-
 Devolve uma tabela que lista as tabelas existentes no cluster Spark especificado.
 
 
@@ -21,7 +19,7 @@ ApacheSpark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma tabela que lista as tabelas existentes no <code>host</code> do cluster Spark com <code>protocol</code>. Os protocolos válidos são:SparkProtocol.Standard, SparkProtocol.HTTP
 

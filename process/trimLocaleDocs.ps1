@@ -26,3 +26,6 @@ foreach ($file in $enFiles) {
         }
     }
 }
+
+$mariaPath = Join-Path -Path $dirLocale -ChildPath "Accessing data\MariaDB\MariaDB.Contents.md"
+Remove-Item $mariaPath -Force

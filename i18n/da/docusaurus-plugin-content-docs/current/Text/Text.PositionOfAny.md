@@ -5,8 +5,6 @@ title: Text.PositionOfAny
 # Text.PositionOfAny
 
 
-## Description
-
 Returnerer den første position i tekstværdien for et af de viste tegn (-1, hvis den ikke blev fundet).
 
 
@@ -21,7 +19,7 @@ Text.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer den første position af et vilkårligt tegn på listen <code>characters</code>, der findes i <code>text</code>.    En valgfri parameter <code>occurrence</code> kan bruges til at angive, hvilken position for forekomsten, der skal returneres.
 

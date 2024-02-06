@@ -5,8 +5,6 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-## Description
-
 Devuelve una tabla de hojas, informes, carpetas y áreas de trabajo de la API de Smartsheet
 
 
@@ -19,7 +17,7 @@ Smartsheet.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una tabla anidada de hojas, informes, carpetas y áreas de trabajo disponibles de la API de Smartsheet.
 

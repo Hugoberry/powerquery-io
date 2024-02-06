@@ -5,8 +5,6 @@ title: IdentityProvider.Default
 # IdentityProvider.Default
 
 
-## Description
-
 O fornecedor de identidade predefinido do anfitrião atual.
 
 
@@ -19,7 +17,7 @@ IdentityProvider.Default(
 ```
 
 
-## Details
+## Remarks
 
 O fornecedor de identidade predefinido do anfitrião atual.
 

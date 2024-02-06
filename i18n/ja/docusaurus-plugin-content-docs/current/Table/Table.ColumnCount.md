@@ -5,8 +5,6 @@ title: Table.ColumnCount
 # Table.ColumnCount
 
 
-## Description
-
 テーブル内の列の数を返します。
 
 
@@ -19,7 +17,7 @@ Table.ColumnCount(
 ```
 
 
-## Details
+## Remarks
 
 テーブル <code>table</code> 内の列の数を返します。
 

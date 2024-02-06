@@ -5,8 +5,6 @@ title: BinaryFormat.SignedInteger16
 # BinaryFormat.SignedInteger16
 
 
-## Description
-
 Một định dạng nhị phân đọc một số nguyên có dấu 16 bit.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.SignedInteger16(
 ```
 
 
-## Details
+## Remarks
 
 Một định dạng nhị phân đọc một số nguyên có dấu 16 bit.
 

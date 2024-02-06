@@ -5,8 +5,6 @@ title: Progress.DataSourceProgress
 # Progress.DataSourceProgress
 
 
-## Description
-
 Deze functie is alleen bedoeld voor intern gebruik.
 
 
@@ -19,7 +17,7 @@ Progress.DataSourceProgress(
 ```
 
 
-## Details
+## Remarks
 
 Deze functie is alleen bedoeld voor intern gebruik.
 

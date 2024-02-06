@@ -5,8 +5,6 @@ title: List.RemoveItems
 # List.RemoveItems
 
 
-## Description
-
 Usuwa elementy wymienione na liście list1 z danej listy.
 
 
@@ -20,7 +18,7 @@ List.RemoveItems(
 ```
 
 
-## Details
+## Remarks
 
 Usuwa wszystkie wystąpienia wartości wymienionych na liście <code>list2</code> z listy <code>list1</code>. Jeśli wartości wymienione na liście <code>list2</code> nie znajdują się na liście <code>list1</code>, zwracana jest oryginalna lista.
 

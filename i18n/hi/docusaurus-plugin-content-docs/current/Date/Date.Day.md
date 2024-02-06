@@ -5,8 +5,6 @@ title: Date.Day
 # Date.Day
 
 
-## Description
-
 दिन घटक लौटाता है.
 
 
@@ -19,7 +17,7 @@ Date.Day(
 ```
 
 
-## Details
+## Remarks
 
 किसी <code>तिथि</code>, <code>datetime</code> या <code>datetimezone</code> मान का दिन घटक लौटाता है.      <ul>        <li><code>dateTime</code>: एक ऐसा <code>तिथि</code>, <code>datetime</code> या <code>datetimezone</code> मान, जिससे दिन घटक निकाला जाता है.</li>      </ul>
 

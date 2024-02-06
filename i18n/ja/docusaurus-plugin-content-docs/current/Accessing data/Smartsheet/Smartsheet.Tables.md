@@ -5,8 +5,6 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-## Description
-
 Smartsheet API からシート、レポート、フォルダー、ワークスペースのテーブルを返します
 
 
@@ -19,7 +17,7 @@ Smartsheet.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Smartsheet API から利用可能なシート、レポート、フォルダー、およびワークスペースの入れ子になったテーブルを返します。
 

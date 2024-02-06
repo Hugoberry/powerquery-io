@@ -5,8 +5,6 @@ title: AzureDevOpsServer.AnalyticsViews
 # AzureDevOpsServer.AnalyticsViews
 
 
-## Description
-
 输入组织和项目名称。
 
 
@@ -21,7 +19,7 @@ AzureDevOpsServer.AnalyticsViews(
 ```
 
 
-## Details
+## Remarks
 
 返回包含 Azure DevOps 提供的“分析”视图的表。
 

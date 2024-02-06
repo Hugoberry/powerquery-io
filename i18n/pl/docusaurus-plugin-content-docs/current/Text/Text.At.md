@@ -5,8 +5,6 @@ title: Text.At
 # Text.At
 
 
-## Description
-
 Zwraca znak znajdujący się na określonej pozycji.
 
 
@@ -20,7 +18,7 @@ Text.At(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca znak znajdujący się na pozycji <code>index</code> w wartości tekstowej <code>text</code>. Pierwszy znak w tekście znajduje się na pozycji 0.
 

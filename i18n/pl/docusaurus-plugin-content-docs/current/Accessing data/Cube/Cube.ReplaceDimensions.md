@@ -5,8 +5,6 @@ title: Cube.ReplaceDimensions
 # Cube.ReplaceDimensions
 
 
-## Description
-
 Zamienia zestaw wymiarów zwracany przez element Cube.Dimensions.
 
 
@@ -20,7 +18,7 @@ Cube.ReplaceDimensions(
 ```
 
 
-## Details
+## Remarks
 
 Zamienia zestaw wymiarów zwracanych przez element <code>Cube.Dimensions</code>.    Na przykład za pomocą tej funkcji można dodać kolumnę identyfikatora do atrybutu wymiaru, aby źródło danych mogło być grupowane według identyfikatora, a nie wyświetlanej wartości.
 

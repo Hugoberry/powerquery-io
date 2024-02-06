@@ -5,8 +5,6 @@ title: Date.DayOfWeekName
 # Date.DayOfWeekName
 
 
-## Description
-
 Hiermee wordt de dag van de week geretourneerd.
 
 
@@ -20,7 +18,7 @@ Date.DayOfWeekName(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt de dag van de week geretourneerd voor de opgegeven <code>date</code>. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
 

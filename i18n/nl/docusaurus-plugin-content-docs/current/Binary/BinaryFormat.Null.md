@@ -5,8 +5,6 @@ title: BinaryFormat.Null
 # BinaryFormat.Null
 
 
-## Description
-
 Een binaire indeling die nul bytes leest en null retourneert.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Null(
 ```
 
 
-## Details
+## Remarks
 
 Een binaire indeling die nul bytes leest en null retourneert.
 

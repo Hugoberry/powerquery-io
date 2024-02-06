@@ -5,8 +5,6 @@ title: Table.FilterWithDataTable
 # Table.FilterWithDataTable
 
 
-## Description
-
 Deze functie is alleen bedoeld voor intern gebruik.
 
 
@@ -20,7 +18,7 @@ Table.FilterWithDataTable(
 ```
 
 
-## Details
+## Remarks
 
 Deze functie is alleen bedoeld voor intern gebruik.
 

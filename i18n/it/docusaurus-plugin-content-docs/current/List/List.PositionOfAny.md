@@ -5,8 +5,6 @@ title: List.PositionOfAny
 # List.PositionOfAny
 
 
-## Description
-
 Restituisce il primo offset di un valore in un elenco.
 
 
@@ -22,7 +20,7 @@ List.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce l'offset nell'elenco <code>list</code> della prima occorrenza di un valore in un elenco <code>values</code>. Restituisce -1 se non viene trovata alcuna occorrenza.    È possibile specificare il parametro di occorrenza facoltativo <code>occurrence</code>.<ul>   <li><code>occurrence</code>: numero massimo di occorrenze che possono essere restituite.</li></ul>
 

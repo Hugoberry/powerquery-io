@@ -5,8 +5,6 @@ title: Table.Min
 # Table.Min
 
 
-## Description
-
 En küçük satırı veya varsayılan değeri, verilen ölçütü kullanarak döndürür.
 
 
@@ -21,7 +19,7 @@ Table.Min(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> içindeki en küçük satırı verilen <code>comparisonCriteria</code> öğesini kullanarak döndürür. Tablo boşsa, isteğe bağlı <code>default</code> değeri döndürülür.
 

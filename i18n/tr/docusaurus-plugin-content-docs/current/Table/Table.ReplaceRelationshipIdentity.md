@@ -5,8 +5,6 @@ title: Table.ReplaceRelationshipIdentity
 # Table.ReplaceRelationshipIdentity
 
 
-## Description
-
 Bu işlev, yalnızca iç kullanıma yöneliktir.
 
 
@@ -20,7 +18,7 @@ Table.ReplaceRelationshipIdentity(
 ```
 
 
-## Details
+## Remarks
 
 Bu işlev, yalnızca iç kullanıma yöneliktir.
 

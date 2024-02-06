@@ -5,8 +5,6 @@ title: Table.LastN
 # Table.LastN
 
 
-## Description
-
 Возвращает указанное количество строк с конца.
 
 
@@ -20,7 +18,7 @@ Table.LastN(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает последние строки таблицы <code>table</code> в зависимости от значения <code>countOrCondition</code>:    <ul>    <li> Если <code>countOrCondition</code> является числом, то будет возвращено соответствующее количество строк, начиная с позиции (последняя - <code>countOrCondition</code>). </li>    <li> Если <code>countOrCondition</code> является условием, то строки возвращаются в порядке возрастания до тех пор, пока не будет встречена строка, не соответствующая условию.</li></ul>
 

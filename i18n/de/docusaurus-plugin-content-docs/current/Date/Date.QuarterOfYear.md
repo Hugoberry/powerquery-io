@@ -5,8 +5,6 @@ title: Date.QuarterOfYear
 # Date.QuarterOfYear
 
 
-## Description
-
 Gibt eine Zahl zurück, die angibt, in welchem Quartal des Jahres das Datum liegt.
 
 
@@ -19,7 +17,7 @@ Date.QuarterOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Zahl zwischen eins und vier zurück, die angibt, in welchem Quartal des Jahres das Datum "<code>dateTime</code>" liegt. "<code>dateTime</code>" kann ein <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert sein.
 

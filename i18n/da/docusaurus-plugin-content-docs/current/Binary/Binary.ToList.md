@@ -5,8 +5,6 @@ title: Binary.ToList
 # Binary.ToList
 
 
-## Description
-
 Konverterer en binær værdi til en liste over tal.
 
 
@@ -19,7 +17,7 @@ Binary.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Konverterer en binær værdi til en liste over tal.
 

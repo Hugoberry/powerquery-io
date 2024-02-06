@@ -5,8 +5,6 @@ title: BinaryFormat.Single
 # BinaryFormat.Single
 
 
-## Description
-
 Ein Binärformat, das einen 4-Byte-IEEE-Gleitkommawert mit einfacher Genauigkeit liest.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Single(
 ```
 
 
-## Details
+## Remarks
 
 Ein Binärformat, das einen 4-Byte-IEEE-Gleitkommawert mit einfacher Genauigkeit liest.
 

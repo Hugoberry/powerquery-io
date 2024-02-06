@@ -5,8 +5,6 @@ title: Record.AddField
 # Record.AddField
 
 
-## Description
-
 Ajoute un champ à un enregistrement.
 
 
@@ -22,7 +20,7 @@ Record.AddField(
 ```
 
 
-## Details
+## Remarks
 
 Ajoute un champ à un enregistrement <code>record</code>, selon le nom du champ <code>fieldName</code> et la valeur <code>value</code>.
 

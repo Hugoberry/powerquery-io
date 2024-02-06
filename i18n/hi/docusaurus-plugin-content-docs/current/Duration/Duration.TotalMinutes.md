@@ -5,8 +5,6 @@ title: Duration.TotalMinutes
 # Duration.TotalMinutes
 
 
-## Description
-
 इस अवधि विस्तार के कुल मिनट लौटाता है.
 
 
@@ -19,7 +17,7 @@ Duration.TotalMinutes(
 ```
 
 
-## Details
+## Remarks
 
 <code>duration</code> द्वारा विस्तारित कुल मिनट लौटाता है.
 

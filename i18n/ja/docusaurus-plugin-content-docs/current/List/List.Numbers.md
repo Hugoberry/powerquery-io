@@ -5,8 +5,6 @@ title: List.Numbers
 # List.Numbers
 
 
-## Description
-
 指定された初期値、数、および省略可能な増分値に基づいて、数値のリストを返します。
 
 
@@ -21,7 +19,7 @@ List.Numbers(
 ```
 
 
-## Details
+## Remarks
 
 指定された初期値、数、および省略可能な増分値に基づいて、数値のリストを返します。既定の増分値は 1 です。<ul>   <li><code>start</code>: リストの初期値。</li>   <li><code>count</code>: 作成する値の数。</li>   <li><code>increment</code>: <i>[省略可能]</i> 増分値。省略した場合、値は 1 ずつ増分されます。</li></ul>
 

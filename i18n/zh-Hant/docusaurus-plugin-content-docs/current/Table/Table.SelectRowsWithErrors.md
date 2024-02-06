@@ -5,8 +5,6 @@ title: Table.SelectRowsWithErrors
 # Table.SelectRowsWithErrors
 
 
-## Description
-
 傳回資料表，其中只包含輸入資料表中至少有一個資料格包含錯誤的資料列。如果指定了資料行清單，就只會檢查指定資料行中的資料格是否有錯誤。
 
 
@@ -20,7 +18,7 @@ Table.SelectRowsWithErrors(
 ```
 
 
-## Details
+## Remarks
 
 傳回資料表，其中只包含輸入資料表中至少有一個資料格包含錯誤的資料列。如果指定了資料行清單，就只會檢查指定資料行中的資料格是否有錯誤。
 

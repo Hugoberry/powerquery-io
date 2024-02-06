@@ -5,8 +5,6 @@ title: Splitter.SplitTextByRanges
 # Splitter.SplitTextByRanges
 
 
-## Description
-
 Trả về một hàm tách văn bản thành một danh sách văn bản theo phần bù và độ dài được chỉ định.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một hàm giúp bạn phân tách văn bản thành một danh sách văn bản dựa theo bù trừ và độ dài được chỉ định. Độ dài null thể hiện rằng mọi nội dung nhập còn lại nên được đưa vào.
 

@@ -5,8 +5,6 @@ title: Date.EndOfYear
 # Date.EndOfYear
 
 
-## Description
-
 Возвращает конец года.
 
 
@@ -19,7 +17,7 @@ Date.EndOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает конец года, который содержит <code>dateTime</code>, включая доли секунды. Данные о часовом поясе сохраняются.      <ul>        <li><code>dateTime</code>: значение <code>date</code>, <code>datetime</code> или <code>datetimezone</code>, на основе которого вычисляется конец года.</li>      </ul>
 

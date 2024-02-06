@@ -5,8 +5,6 @@ title: List.Reverse
 # List.Reverse
 
 
-## Description
-
 将列表中的值反向排序。
 
 
@@ -19,7 +17,7 @@ List.Reverse(
 ```
 
 
-## Details
+## Remarks
 
 返回将列表 <code>list</code> 中的值反向排序得到的列表。
 

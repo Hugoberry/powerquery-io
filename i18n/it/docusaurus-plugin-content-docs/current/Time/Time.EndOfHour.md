@@ -5,8 +5,6 @@ title: Time.EndOfHour
 # Time.EndOfHour
 
 
-## Description
-
 Restituisce la fine dell’ora.
 
 
@@ -19,7 +17,7 @@ Time.EndOfHour(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce la fine dell'ora rappresentata da <code>dateTime</code>, inclusi i secondi frazionari. Le informazioni del fuso orario sono mantenute.      <ul>        <li><code>dateTime</code>: valore <code>time</code>, <code>datetime</code> o <code>datetimezone</code> da cui viene calcolata la fine dell'ora.</li>      </ul>
 

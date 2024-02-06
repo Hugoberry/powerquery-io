@@ -5,8 +5,6 @@ title: Time.EndOfHour
 # Time.EndOfHour
 
 
-## Description
-
 Saat sonunu döndürür.
 
 
@@ -19,7 +17,7 @@ Time.EndOfHour(
 ```
 
 
-## Details
+## Remarks
 
 Kesirlik saniyeler dahil olmak üzere <code>dateTime</code> tarafından temsil edilen saat sonunu döndürür. Saat dilimi bilgileri korunur.      <ul>        <li><code>dateTime</code>: Kendisinden itibaren saatin sonunun hesaplandığı <code>time</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Uri.BuildQueryString
 # Uri.BuildQueryString
 
 
-## Description
-
 Assemblera en post till en URI-frågesträng.
 
 
@@ -19,7 +17,7 @@ Uri.BuildQueryString(
 ```
 
 
-## Details
+## Remarks
 
 Assemblera posten <code>query</code> till en URI-frågesträng, med undantagstecken vid behov.
 

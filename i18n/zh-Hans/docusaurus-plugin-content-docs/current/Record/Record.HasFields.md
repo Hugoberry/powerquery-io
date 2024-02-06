@@ -5,8 +5,6 @@ title: Record.HasFields
 # Record.HasFields
 
 
-## Description
-
 指示记录是否具有指定的字段。
 
 
@@ -20,7 +18,7 @@ Record.HasFields(
 ```
 
 
-## Details
+## Remarks
 
 通过返回逻辑值(true 或 false)，指示记录 <code>record</code> 是否具有 <code>fields</code> 中指定的字段。    可以使用列表指定多个字段值。
 

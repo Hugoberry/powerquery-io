@@ -5,8 +5,6 @@ title: Table.AggregateTableColumn
 # Table.AggregateTableColumn
 
 
-## Description
-
 รวมคอลัมน์ของตารางให้เป็นหลายคอลัมน์ในตารางที่มี
 
 
@@ -21,7 +19,7 @@ Table.AggregateTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 รวมตารางใน <code>table</code>[<code>column</code>] ให้เป็นหลายตารางที่มีค่าการรวมสำหรับตารางต่างๆ <code>aggregations</code> จะใช้เพื่อระบุคอลัมน์ซึ่งมีตารางที่จะรวม ฟังก์ชันการรวมที่จะนำไปใช้กับตารางเพื่อสร้างค่าของตาราง และชื่อของคอลัมน์การรวมที่จะสร้าง
 

@@ -5,8 +5,6 @@ title: Value.ReplaceMetadata
 # Value.ReplaceMetadata
 
 
-## Description
-
 แทนที่ข้อมูล Metadata ของค่าที่ป้อน
 
 
@@ -20,7 +18,7 @@ Value.ReplaceMetadata(
 ```
 
 
-## Details
+## Remarks
 
 แทนที่ข้อมูล Metadata ของค่าที่ป้อน
 

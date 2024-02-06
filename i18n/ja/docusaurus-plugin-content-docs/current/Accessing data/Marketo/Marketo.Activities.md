@@ -5,8 +5,6 @@ title: Marketo.Activities
 # Marketo.Activities
 
 
-## Description
-
 潜在顧客のアクティビティを含めたテーブルを返します。
 
 
@@ -21,7 +19,7 @@ Marketo.Activities(
 ```
 
 
-## Details
+## Remarks
 
 <code>url</code>/rest/v1/activities.json の Marketo REST API エンドポイントに対する呼び出しを行います。<code>activityIds</code> に含まれるアクティビティのうち、<code>startTime</code>以降に発生したすべてのアクティビティは返されます。
 

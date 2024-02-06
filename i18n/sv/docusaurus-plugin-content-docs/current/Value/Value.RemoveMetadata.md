@@ -5,8 +5,6 @@ title: Value.RemoveMetadata
 # Value.RemoveMetadata
 
 
-## Description
-
 Tar bort metadata i angivna indata.
 
 
@@ -20,7 +18,7 @@ Value.RemoveMetadata(
 ```
 
 
-## Details
+## Remarks
 
 Tar bort metadata i angivna indata.
 

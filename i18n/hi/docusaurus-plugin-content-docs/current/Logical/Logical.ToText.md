@@ -5,8 +5,6 @@ title: Logical.ToText
 # Logical.ToText
 
 
-## Description
-
 पाठ &#34;true&#34; या &#34;false&#34; लौटाता है जिसमें एक तार्किक मान दिया हुए होता है.
 
 
@@ -19,7 +17,7 @@ Logical.ToText(
 ```
 
 
-## Details
+## Remarks
 
 पाठ मान <code>logicalValue</code>, से एक पाठ मान <code>true</code> या <code>false</code> बनाता है. अगर <code>logicalValue</code> एक तार्किक मान नहीं है, एक अपवाद दिखाया जाता है.
 

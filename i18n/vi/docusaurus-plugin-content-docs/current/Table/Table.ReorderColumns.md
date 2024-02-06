@@ -5,8 +5,6 @@ title: Table.ReorderColumns
 # Table.ReorderColumns
 
 
-## Description
-
 Trả về một bảng có các cột theo thứ tự được chỉ định.
 
 
@@ -21,7 +19,7 @@ Table.ReorderColumns(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bảng từ đầu vào <code>table</code> với các cột theo thứ tự do <code>columnOrder</code> chỉ định. Các cột không được chỉ định trong danh sách sẽ không được sắp xếp lại.     Nếu cột này không tồn tại thì một ngoại lệ được đưa ra trừ khi tham số tùy chọn <code>missingField</code> chỉ định một thay thế (ví dụ: <code>MissingField.UseNull</code> hoặc <code>MissingField.Ignore</code>).
 

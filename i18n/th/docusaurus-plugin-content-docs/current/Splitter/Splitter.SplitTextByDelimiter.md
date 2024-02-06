@@ -5,8 +5,6 @@ title: Splitter.SplitTextByDelimiter
 # Splitter.SplitTextByDelimiter
 
 
-## Description
-
 ส่งกลับฟังก์ชันที่แยกข้อความออกเป็นรายการของข้อความตามตัวคั่นที่ระบุ
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับฟังก์ชันที่แยกข้อความออกเป็นรายการของข้อความตามตัวคั่นที่ระบุ
 

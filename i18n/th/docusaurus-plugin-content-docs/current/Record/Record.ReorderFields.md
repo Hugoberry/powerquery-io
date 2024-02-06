@@ -5,8 +5,6 @@ title: Record.ReorderFields
 # Record.ReorderFields
 
 
-## Description
-
 จัดลำดับเขตข้อมูลที่ระบุอีกครั้งให้เป็นลำดับใหม่
 
 
@@ -21,7 +19,7 @@ Record.ReorderFields(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับระเบียนหลังจากจัดลำดับเขตข้อมูลใน <code>record</code> ใหม่ตามลำดับของเขตข้อมูลที่ระบุในรายการ <code>fieldOrder</code> ค่าเขตข้อมูลจะถูกคงไว้และเขตข้อมูลที่ไม่ได้แสดงรายการใน <code>fieldOrder</code> จะถูกปล่อยไว้ในตำแหน่งเดิม
 

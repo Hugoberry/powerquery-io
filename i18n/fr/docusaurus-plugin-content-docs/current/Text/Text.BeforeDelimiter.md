@@ -5,8 +5,6 @@ title: Text.BeforeDelimiter
 # Text.BeforeDelimiter
 
 
-## Description
-
 Text.BeforeDelimiter
 
 
@@ -21,7 +19,7 @@ Text.BeforeDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Retourne la partie de <code>text</code> avant le <code>delimiter</code> spécifié.    Un numérique facultatif <code>index</code> indique quelle occurrence du <code>delimiter</code> doit être considérée.    Une liste facultative <code>index</code> indique quelle occurrence du <code>delimiter</code> doit être considérée, et si l'indexation doit être effectuée à partir du début ou de la fin de l'entrée.
 

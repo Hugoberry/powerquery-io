@@ -5,8 +5,6 @@ title: List.Random
 # List.Random
 
 
-## Description
-
 Retourneert een lijst met willekeurige getallen.
 
 
@@ -20,7 +18,7 @@ List.Random(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een lijst met willekeurige getallen tussen 0 en 1 geretourneerd, met het aantal opgegeven waarden om te genereren en een optionele seedwaarde.<ul> <li><code>count</code>: het aantal willekeurige waarden om te genereren.</li> <li><code>seed</code>: <i>[Optioneel]</i> Een numerieke waarde die wordt gebruikt om de willekeurige getallengenerator te seeden. Als dit wordt weggelaten, wordt een unieke lijst met willekeurige getallen gegenereerd wanneer u de functie aanroept. Als u de seedwaarde met een getal opgeeft, wordt bij elke aanroep naar de functie dezelfde lijst met willekeurige getallen gegenereerd.</li></ul>
 

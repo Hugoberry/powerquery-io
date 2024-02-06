@@ -5,8 +5,6 @@ title: Table.Combine
 # Table.Combine
 
 
-## Description
-
 Gibt eine Tabelle zurück, die durch Zusammenführen einer Liste von Tabellen entstanden ist.
 
 
@@ -20,7 +18,7 @@ Table.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Tabelle zurück, die durch Zusammenführen einer Liste von Tabellen entstanden ist, <code>tables</code>. Die resultierende Tabelle weist eine Zeilentypstruktur auf, die durch "<code>columns</code>" bzw. durch eine Vereinigung der Eingabetypen definiert wird, wenn "<code>columns</code>" nicht angegeben wird.
 

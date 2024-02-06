@@ -5,8 +5,6 @@ title: Table.ExpandListColumn
 # Table.ExpandListColumn
 
 
-## Description
-
 Een kopie van een rij voor elke waarde in de lijst maken aan de hand van een kolom met lijsten in een tabel.
 
 
@@ -20,7 +18,7 @@ Table.ExpandListColumn(
 ```
 
 
-## Details
+## Remarks
 
 Aan de hand van <code>table</code>, waar <code>column</code> een lijst met waarden is, de lijst in een rij voor elke waarde splitsen. Waarden in de andere kolommen worden naar elke nieuwe rij gedupliceerd.
 

@@ -5,8 +5,6 @@ title: Table.Skip
 # Table.Skip
 
 
-## Description
-
 Devuelve una tabla con las primeras filas de recuentos omitidas.
 
 
@@ -20,7 +18,7 @@ Table.Skip(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una tabla que no contiene el primer número de filas especificado (<code>countOrCondition</code>) de la tabla <code>table</code>.    El número de filas omitidas depende del parámetro opcional <code>countOrCondition</code>.    <ul>    <li>Si se omite <code>countOrCondition</code>, solo se omitirá la primera fila. </li>    <li>Si <code>countOrCondition</code> es un número, se omitirán esas filas (a partir de la primera). </li>    <li>Si <code>countOrCondition</code> es una condición, se omitirán las filas que la cumplan hasta que una no lo haga.</li>    </ul>
 

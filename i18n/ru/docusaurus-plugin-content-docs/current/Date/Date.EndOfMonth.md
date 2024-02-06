@@ -5,8 +5,6 @@ title: Date.EndOfMonth
 # Date.EndOfMonth
 
 
-## Description
-
 Возвращает конец месяца.
 
 
@@ -19,7 +17,7 @@ Date.EndOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает конец месяца, который содержит <code>dateTime</code>.      <ul>        <li><code>dateTime</code>: значение <code>date</code>, <code>datetime</code> или <code>datetimezone</code>, на основе которого вычисляется конец месяца.</li>      </ul>
 

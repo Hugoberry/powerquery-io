@@ -5,8 +5,6 @@ title: Text.TrimStart
 # Text.TrimStart
 
 
-## Description
-
 Удаляет все начальные пробелы.
 
 
@@ -20,7 +18,7 @@ Text.TrimStart(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает результат удаления всех начальных пробелов из текстового значения <code>text</code>.
 

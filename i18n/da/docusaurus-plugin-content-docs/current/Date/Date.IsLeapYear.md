@@ -5,8 +5,6 @@ title: Date.IsLeapYear
 # Date.IsLeapYear
 
 
-## Description
-
 Angiver, om denne dato ligger i et skudår.
 
 
@@ -19,7 +17,7 @@ Date.IsLeapYear(
 ```
 
 
-## Details
+## Remarks
 
 Angiver, om den anførte datetime-værdi <code>dateTime</code> ligger i et skudår. <ul>        <li><code>dateTime</code>: En værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>, der skal evalueres.</li>      </ul>
 

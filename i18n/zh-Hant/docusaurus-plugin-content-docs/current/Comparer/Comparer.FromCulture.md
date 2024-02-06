@@ -5,8 +5,6 @@ title: Comparer.FromCulture
 # Comparer.FromCulture
 
 
-## Description
-
 根據指定的文化特性和區分大小寫傳回比較子函數。
 
 
@@ -20,7 +18,7 @@ Comparer.FromCulture(
 ```
 
 
-## Details
+## Remarks
 
 傳回比較子函數，該函數會使用 <code>ignoreCase</code> 指定的 <code>culture</code> 和區分大小寫來執行比較。<br />      <br />      比較子函數會接受兩個引數，並根據第一個值小於、等於或大於秒而傳回 -1、0 或 1。<br />      <br />      <code>ignoreCase</code> 的預設值為 false。<code>culture</code> 應為 .NET framework 支援的其中一個地區設定 (例如 「en-US」)。    
 

@@ -5,8 +5,6 @@ title: Table.Pivot
 # Table.Pivot
 
 
-## Description
-
 Cho một cặp cột biểu thị cặp thuộc tính-giá trị, hãy xoay dữ liệu trong cột thuộc tính thành tiêu đề cột.
 
 
@@ -23,7 +21,7 @@ Table.Pivot(
 ```
 
 
-## Details
+## Remarks
 
 Cho một cặp cột biểu thị cặp thuộc tính-giá trị, hãy xoay dữ liệu trong cột thuộc tính thành tiêu đề cột.
 

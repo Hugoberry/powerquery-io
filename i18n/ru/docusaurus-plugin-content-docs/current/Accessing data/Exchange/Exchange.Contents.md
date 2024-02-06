@@ -5,8 +5,6 @@ title: Exchange.Contents
 # Exchange.Contents
 
 
-## Description
-
 Возвращает содержание из учетной записи Microsoft Exchange.
 
 
@@ -19,7 +17,7 @@ Exchange.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает содержание из учетной записи "<code>mailboxAddress</code>" Microsoft Exchange. Если "<code>mailboxAddress</code>" не указана, будет использоваться учетная запись по умолчанию для учетных данных.
 

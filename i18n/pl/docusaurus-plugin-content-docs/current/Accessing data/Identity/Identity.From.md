@@ -5,8 +5,6 @@ title: Identity.From
 # Identity.From
 
 
-## Description
-
 Tworzy tożsamość.
 
 
@@ -20,7 +18,7 @@ Identity.From(
 ```
 
 
-## Details
+## Remarks
 
 Tworzy tożsamość.
 

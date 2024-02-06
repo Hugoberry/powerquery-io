@@ -5,8 +5,6 @@ title: Table.PrefixColumns
 # Table.PrefixColumns
 
 
-## Description
-
 Returnerar en tabell där alla kolumnerna föregås av angiven text.
 
 
@@ -20,7 +18,7 @@ Table.PrefixColumns(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell där alla angivna kolumnnamn från <code>table</code> föregås av angiven text, <code>prefix</code>, plus en punkt i formatet <code>prefix</code><code>.ColumnName</code>.
 

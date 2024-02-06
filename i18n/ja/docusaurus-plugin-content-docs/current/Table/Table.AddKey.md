@@ -5,8 +5,6 @@ title: Table.AddKey
 # Table.AddKey
 
 
-## Description
-
 指定されたテーブル型にキーを追加します。
 
 
@@ -21,7 +19,7 @@ Table.AddKey(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> にキーを追加します。なお、<code>columns</code> は、キーを定義する列名のリストで、<code>isPrimary</code> はキーが主キーかどうかを指定します。
 

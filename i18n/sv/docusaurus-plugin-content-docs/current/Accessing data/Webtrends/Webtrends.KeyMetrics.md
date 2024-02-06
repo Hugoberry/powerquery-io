@@ -5,8 +5,6 @@ title: Webtrends.KeyMetrics
 # Webtrends.KeyMetrics
 
 
-## Description
-
 Returnerar en tabell med Webtrends-statistiköversikt.
 
 
@@ -21,7 +19,7 @@ Webtrends.KeyMetrics(
 ```
 
 
-## Details
+## Remarks
 
 Anropar Webtrends KeyMetrics-slutpunkten och returnerar alla data som en tabell.
 

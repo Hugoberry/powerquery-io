@@ -5,8 +5,6 @@ title: Binary.From
 # Binary.From
 
 
-## Description
-
 Skapar ett binärvärde från det angivna värdet
 
 
@@ -20,7 +18,7 @@ Binary.From(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett <code>binary</code>-värde från angiven <code>value</code>. Om <code>value</code> är <code>null</code> returnerar <code>Binary.From</code> <code>null</code>. Om <code>value</code> är <code>binary</code> returneras <code>value</code>. Värden av följande typer kan konverteras till ett <code>binary</code>-värde:      <ul>        <li><code>text</code>: Ett <code>binary</code>-värde från textrepresentationen. Mer information finns under <code>Binary.FromText</code>.</li>      </ul>Om <code>value</code> hör till en annan typ returneras ett fel.
 

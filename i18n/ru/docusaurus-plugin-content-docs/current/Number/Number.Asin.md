@@ -5,8 +5,6 @@ title: Number.Asin
 # Number.Asin
 
 
-## Description
-
 Возвращает арксинус числа.
 
 
@@ -19,7 +17,7 @@ Number.Asin(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает арксинус <code>number</code>.
 

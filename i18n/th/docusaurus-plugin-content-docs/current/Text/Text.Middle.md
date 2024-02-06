@@ -5,8 +5,6 @@ title: Text.Middle
 # Text.Middle
 
 
-## Description
-
 ส่งคืนสตริงย่อยตามความยาวสูงสุดที่ระบุไว้
 
 
@@ -21,7 +19,7 @@ Text.Middle(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนตัวอักขระ <code>count</code> หรือเมื่อสิ้นสุด <code>text</code> ที่ออฟเซ็ต <code>start</code>
 

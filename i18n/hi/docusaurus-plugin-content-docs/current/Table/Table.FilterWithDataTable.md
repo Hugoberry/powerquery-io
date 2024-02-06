@@ -5,8 +5,6 @@ title: Table.FilterWithDataTable
 # Table.FilterWithDataTable
 
 
-## Description
-
 यह फ़ंक्शन केवल आंतरिक उपयोग के लिए है.
 
 
@@ -20,7 +18,7 @@ Table.FilterWithDataTable(
 ```
 
 
-## Details
+## Remarks
 
 यह फ़ंक्शन केवल आंतरिक उपयोग के लिए है.
 

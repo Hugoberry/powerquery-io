@@ -5,8 +5,6 @@ title: Table.RemoveRowsWithErrors
 # Table.RemoveRowsWithErrors
 
 
-## Description
-
 Retourneert een tabel met de rijen die zijn verwijderd uit een invoertabel en waar in minstens een van de cellen een fout staat. Als er een lijst met kolommen is opgegeven, worden alleen de cellen die in de opgegeven kolommen staan, op fouten gecontroleerd.
 
 
@@ -20,7 +18,7 @@ Table.RemoveRowsWithErrors(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een tabel met de rijen die zijn verwijderd uit een invoertabel en waar in minstens een van de cellen een fout staat. Als er een lijst met kolommen is opgegeven, worden alleen de cellen die in de opgegeven kolommen staan, op fouten gecontroleerd.
 

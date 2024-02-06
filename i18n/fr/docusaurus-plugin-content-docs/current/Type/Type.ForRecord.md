@@ -5,8 +5,6 @@ title: Type.ForRecord
 # Type.ForRecord
 
 
-## Description
-
 Retourne un type qui représente les enregistrements avec des contraintes de type spécifique sur les champs.
 
 
@@ -20,7 +18,7 @@ Type.ForRecord(
 ```
 
 
-## Details
+## Remarks
 
 Retourne un type qui représente les enregistrements avec des contraintes de type spécifique sur les champs.
 

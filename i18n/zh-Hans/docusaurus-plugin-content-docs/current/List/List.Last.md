@@ -5,8 +5,6 @@ title: List.Last
 # List.Last
 
 
-## Description
-
 返回列表的最后一个值；如果为空，则返回指定的默认值。
 
 
@@ -20,7 +18,7 @@ List.Last(
 ```
 
 
-## Details
+## Remarks
 
 返回列表 <code>list</code> 中的最后一项；如果列表为空，则返回可选的默认值 <code>defaultValue</code>。    如果列表为空且未指定默认值，函数将返回 <code>null</code>。
 

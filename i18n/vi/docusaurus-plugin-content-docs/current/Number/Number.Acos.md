@@ -5,8 +5,6 @@ title: Number.Acos
 # Number.Acos
 
 
-## Description
-
 Trả về arccosin của số.
 
 
@@ -19,7 +17,7 @@ Number.Acos(
 ```
 
 
-## Details
+## Remarks
 
 Trả về arccosin của <code>number</code>.
 

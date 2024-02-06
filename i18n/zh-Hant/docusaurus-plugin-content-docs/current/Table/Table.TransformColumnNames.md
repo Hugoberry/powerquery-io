@@ -5,8 +5,6 @@ title: Table.TransformColumnNames
 # Table.TransformColumnNames
 
 
-## Description
-
 使用提供的函式以轉換資料行名稱。
 
 
@@ -21,7 +19,7 @@ Table.TransformColumnNames(
 ```
 
 
-## Details
+## Remarks
 
 使用指定的 <code>nameGenerator</code> 函數轉換資料行名稱。有效選項:    <div>      <code>MaxLength</code> 可指定新資料行名稱的長度上限。若指定函數的結果包含較長的資料行名稱，將會加以修剪。    </div>    <div>      <code>Comparer</code> 可用來控制產生新資料行名稱時的比較。比較子可用來提供不區分大小寫或文化特性與地區設定感知的比較。    </div>    <div>      公式語言中提供下列內建比較子:    </div>    <ul>      <li><code>Comparer.Ordinal</code>: 用來執行精確序數比較</li>      <li><code>Comparer.OrdinalIgnoreCase</code>: 用來執行不區分大小寫的精確序數比較</li>      <li> <code>Comparer.FromCulture</code>: 用來執行文化特性感知的比較</li>    </ul>    
 

@@ -5,8 +5,6 @@ title: Table.Partition
 # Table.Partition
 
 
-## Description
-
 Partitionér tabellen til en liste over tabeller baseret på antallet af grupper og den angivne kolonne.
 
 
@@ -22,7 +20,7 @@ Table.Partition(
 ```
 
 
-## Details
+## Remarks
 
 Partitionér <code>table</code> til en liste over <code>groups</code> antal tabeller baseret på værdien i <code>column</code> og en funktion af typen <code>hash</code>.    Funktionen <code>hash</code> anvendes på værdien i rækken <code>column</code> for at få en hashværdi for rækken. Hashværdiens modulus <code>groups</code> bestemmer, hvilken af de returnerede tabeller rækken placeres i.    <ul>       <li><code>table</code>: Den tabel, der skal partitioneres.</li>       <li><code>column</code>: Den kolonne, der skal indeholde en hashværdi, for at afgøre, hvilken returneret tabel rækken placeres i.</li>       <li><code>groups</code>: Antallet af tabeller, som inputtabellen partitioneres til.</li>       <li><code>hash</code>: Den funktion, der anvendes for at opnå en hashværdi.</li>    </ul>  
 

@@ -5,8 +5,6 @@ title: Cube.Transform
 # Cube.Transform
 
 
-## Description
-
 一連のキューブ関数を適用します。
 
 
@@ -20,7 +18,7 @@ Cube.Transform(
 ```
 
 
-## Details
+## Remarks
 
 一連のキューブ関数 <code>transforms</code> を <code>cube</code> に適用します。
 

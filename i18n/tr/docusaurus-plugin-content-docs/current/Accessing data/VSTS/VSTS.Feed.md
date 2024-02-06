@@ -5,8 +5,6 @@ title: VSTS.Feed
 # VSTS.Feed
 
 
-## Description
-
 Azure DevOps Services Akışı
 
 
@@ -20,7 +18,7 @@ VSTS.Feed(
 ```
 
 
-## Details
+## Remarks
 
 Azure DevOps tarafından sunulan bir OData akışları tablosu döndürür.
 

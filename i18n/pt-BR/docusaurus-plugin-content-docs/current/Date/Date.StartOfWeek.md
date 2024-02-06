@@ -5,8 +5,6 @@ title: Date.StartOfWeek
 # Date.StartOfWeek
 
 
-## Description
-
 Retorna o início da semana.
 
 
@@ -20,7 +18,7 @@ Date.StartOfWeek(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o início da semana que contém <code>dateTime</code>.    <code>dateTime</code> deve ser um valor <code>date</code>, <code>datetime</code> ou <code>datetimezone</code>.
 

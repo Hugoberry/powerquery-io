@@ -5,8 +5,6 @@ title: RData.FromBinary
 # RData.FromBinary
 
 
-## Description
-
 RData फ़ाइल से डेटा फ़्रेम का रिकॉर्ड लौटाता है.
 
 
@@ -19,7 +17,7 @@ RData.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 RData फ़ाइल से डेटा फ़्रेम का रिकॉर्ड लौटाता है.
 

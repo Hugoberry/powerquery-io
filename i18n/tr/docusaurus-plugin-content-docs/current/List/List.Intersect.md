@@ -5,8 +5,6 @@ title: List.Intersect
 # List.Intersect
 
 
-## Description
-
 Girdide bulunan liste değerlerinin kesişimini döndürür.
 
 
@@ -20,7 +18,7 @@ List.Intersect(
 ```
 
 
-## Details
+## Remarks
 
 <code>lists</code> girdi listesinde bulunan liste değerlerinin kesişimini geri gönderir. <code>equationCriteria</code> isteğe bağlı parametre de belirtilebilir.
 

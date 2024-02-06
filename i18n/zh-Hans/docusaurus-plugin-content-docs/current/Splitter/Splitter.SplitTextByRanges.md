@@ -5,8 +5,6 @@ title: Splitter.SplitTextByRanges
 # Splitter.SplitTextByRanges
 
 
-## Description
-
 返回一个函数，它根据指定的偏移量和长度将文本拆分为文本列表。
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 返回一个函数，该函数根据指定的偏移量和长度将文本拆分为文本列表。null 长度指示所有剩余输入都应被包括。
 

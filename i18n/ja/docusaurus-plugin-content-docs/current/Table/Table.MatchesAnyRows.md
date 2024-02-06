@@ -5,8 +5,6 @@ title: Table.MatchesAnyRows
 # Table.MatchesAnyRows
 
 
-## Description
-
 テーブル内のいずれかの行が指定された条件を満たしているかどうかを示します。
 
 
@@ -20,7 +18,7 @@ Table.MatchesAnyRows(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> 内のいずれかの行が指定された <code>condition</code> と一致しているかどうかを示します。いずれかの行が一致する場合は <code>true</code>、それ以外の場合は <code>false</code> を返します。
 

@@ -5,8 +5,6 @@ title: DateTimeZone.ToRecord
 # DateTimeZone.ToRecord
 
 
-## Description
-
 वह रिकॉर्ड लौटाता है, जिसमें datetimezone मान के भाग शामिल हैं.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 वह रिकॉर्ड लौटाता है, जिसमें दिए गए datetimezone मान <code>dateTimeZone</code> के भाग शामिल होते हैं. <ul>        <li><code>dateTimeZone</code>: एक ऐसा <code>datetimezone</code> मान, जिससे उसके भागों के रिकॉर्ड को परिकलित किया जाना है.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Table.AlternateRows
 # Table.AlternateRows
 
 
-## Description
-
 Giữ phần bù ban đầu rồi luân phiên lấy và bỏ qua các hàng theo sau.
 
 
@@ -22,7 +20,7 @@ Table.AlternateRows(
 ```
 
 
-## Details
+## Remarks
 
 Giữ phần bù ban đầu rồi luân phiên lấy và bỏ qua các hàng theo sau.    <ul>       <li><code>table</code>: Bảng đầu vào.</li>       <li><code>offset</code>: Số lượng hàng sẽ giữ trước khi bắt đầu các lần lặp.</li>       <li><code>skip</code>: Số lượng hàng sẽ loại bỏ trong mỗi lần lặp.</li>       <li><code>take</code>: Số lượng hàng sẽ giữ trong mỗi lần lặp.</li>    </ul>    
 

@@ -5,8 +5,6 @@ title: Text.Length
 # Text.Length
 
 
-## Description
-
 वर्णों की संख्‍या लौटाता है.
 
 
@@ -19,7 +17,7 @@ Text.Length(
 ```
 
 
-## Details
+## Remarks
 
 पाठ <code>text</code> के वर्णों की संख्या लौटाता है.
 

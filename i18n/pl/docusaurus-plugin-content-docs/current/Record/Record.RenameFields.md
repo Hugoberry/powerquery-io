@@ -5,8 +5,6 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-## Description
-
 Stosuje operacje zmiany nazwy określone na liście mającej formę \{ old, new }.
 
 
@@ -21,7 +19,7 @@ Record.RenameFields(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca rekord po zmianie nazw pól w rekordzie wejściowym <code>record</code> na nowe nazwy pól określone na liście <code>renames</code>. W przypadku wielu operacji zmiany nazwy można użyć listy zagnieżdżonej (\{ \{old1, new1}, \{old2, new2} }.
 

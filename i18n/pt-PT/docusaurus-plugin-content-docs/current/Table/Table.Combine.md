@@ -5,8 +5,6 @@ title: Table.Combine
 # Table.Combine
 
 
-## Description
-
 Devolve uma tabela que é o resultado da intercalação de uma lista de tabelas.
 
 
@@ -20,7 +18,7 @@ Table.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma tabela que é o resultado da intercalação de uma lista de tabelas, <code>tables</code>. A tabela resultante vai ter uma linha de tipo de estrutura definida por <code>columns</code> ou por uma união dos tipos de entrada, caso <code>columns</code> não esteja especificado.
 

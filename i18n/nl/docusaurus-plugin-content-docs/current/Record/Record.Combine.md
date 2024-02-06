@@ -5,8 +5,6 @@ title: Record.Combine
 # Record.Combine
 
 
-## Description
-
 Combineert de records uit de opgegeven lijst.
 
 
@@ -19,7 +17,7 @@ Record.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Combineert de records uit de opgegeven <code>records</code>. Als <code>records</code> geen recordwaarden bevat, wordt er een fout geretourneerd.
 

@@ -5,8 +5,6 @@ title: Table.RenameColumns
 # Table.RenameColumns
 
 
-## Description
-
 \{old, new} という形式の名前の変更を適用します。
 
 
@@ -21,7 +19,7 @@ Table.RenameColumns(
 ```
 
 
-## Details
+## Remarks
 
 指定された名前の変更をテーブル <code>table</code> の列に実行します。置換操作 <code>renames</code> は、古い列名と新しい列名という 2 つの値のリストで構成されます。これはリストで指定されます。    列が存在しない場合は、省略可能なパラメーターの <code>missingField</code> で代わりの値 (<code>MissingField.UseNull</code>、<code>MissingField.Ignore</code> など) が指定されていない限り、例外がスローされます。
 

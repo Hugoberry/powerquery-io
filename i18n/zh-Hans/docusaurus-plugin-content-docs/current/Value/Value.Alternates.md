@@ -5,8 +5,6 @@ title: Value.Alternates
 # Value.Alternates
 
 
-## Description
-
 表示备用查询计划。
 
 
@@ -19,7 +17,7 @@ Value.Alternates(
 ```
 
 
-## Details
+## Remarks
 
 表示通过 Value.Expression(Value.Optimize(...)) 获取的查询计划表达式中的备用查询计划。不适用于其他用途。
 

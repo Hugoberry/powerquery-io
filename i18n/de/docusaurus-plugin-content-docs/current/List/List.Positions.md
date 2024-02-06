@@ -5,8 +5,6 @@ title: List.Positions
 # List.Positions
 
 
-## Description
-
 Gibt eine Liste mit Offsets für die Eingabe zurück.
 
 
@@ -19,7 +17,7 @@ List.Positions(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Liste mit Offsets für die Eingabeliste "<code>list</code>" zurück.    Wird eine Liste mithilfe von "List.Transform" geändert, kann der Transformation über die Positionenliste der Zugriff auf die Position ermöglicht werden.
 

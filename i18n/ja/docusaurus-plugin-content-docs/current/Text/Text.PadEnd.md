@@ -5,8 +5,6 @@ title: Text.PadEnd
 # Text.PadEnd
 
 
-## Description
-
 指定されたテキストの末尾に文字を埋め込んで、指定された長さのテキストを返します。
 
 
@@ -21,7 +19,7 @@ Text.PadEnd(
 ```
 
 
-## Details
+## Remarks
 
 長さが <code>count</code> になるようにテキスト値 <code>text</code> の末尾にスペースが挿入された <code>text</code> 値を返します。    省略可能な文字 <code>character</code> を、埋め込み用の文字として指定できます。既定の埋め込み文字はスペースです。
 

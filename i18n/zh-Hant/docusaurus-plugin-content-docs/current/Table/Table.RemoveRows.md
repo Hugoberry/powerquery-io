@@ -5,8 +5,6 @@ title: Table.RemoveRows
 # Table.RemoveRows
 
 
-## Description
-
 移除指定數目的資料列。
 
 
@@ -21,7 +19,7 @@ Table.RemoveRows(
 ```
 
 
-## Details
+## Remarks
 
 從 <code>table</code> 的開頭移除 <code>count</code> 個資料列，從指定的 <code>offset</code> 開始。如果沒有提供 <code>count</code> 參數，就會使用預設計數 1。
 

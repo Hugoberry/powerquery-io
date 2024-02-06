@@ -5,8 +5,6 @@ title: Type.TableKeys
 # Type.TableKeys
 
 
-## Description
-
 Devolve a lista de chaves possivelmente vazia para o tipo de tabela especificado.
 
 
@@ -19,7 +17,7 @@ Type.TableKeys(
 ```
 
 
-## Details
+## Remarks
 
 Devolve a lista de chaves possivelmente vazia para o tipo de tabela especificado.<br />    <br />    Cada chave é definida através de um registo com o seguinte formato:    <ul>      <li>        <code>Colunas</code>: uma lista dos nomes das colunas que definem a chave      </li>      <li>        <code>Primária</code>: <code>verdadeiro</code> se a chave for a chave primária da tabela; caso contrário, <code>falso</code>      </li>    </ul>    
 

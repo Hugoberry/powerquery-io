@@ -5,8 +5,6 @@ title: Marketo.Tables
 # Marketo.Tables
 
 
-## Description
-
 Angiv URL-adressen for det Marketo REST API-slutpunkt, der er knyttet til din konto.
 
 
@@ -20,7 +18,7 @@ Marketo.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel med relevante Marketo-data.
 

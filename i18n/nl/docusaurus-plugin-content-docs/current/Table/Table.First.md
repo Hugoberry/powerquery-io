@@ -5,8 +5,6 @@ title: Table.First
 # Table.First
 
 
-## Description
-
 Retourneert de eerste rij of een opgegeven standaardwaarde.
 
 
@@ -20,7 +18,7 @@ Table.First(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de eerste rij van de <code>table</code> of een optionele standaardwaarde, <code>default</code>, als de tabel leeg is.
 

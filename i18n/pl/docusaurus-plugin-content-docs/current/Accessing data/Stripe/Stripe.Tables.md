@@ -5,8 +5,6 @@ title: Stripe.Tables
 # Stripe.Tables
 
 
-## Description
-
 Zwraca tabelę zawierającą listę dostępnych tabel i funkcji usługi Stripe.
 
 
@@ -19,7 +17,7 @@ Stripe.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę zawierającą listę dostępnych tabel i funkcji usługi Stripe.
 

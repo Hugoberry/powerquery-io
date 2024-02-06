@@ -5,8 +5,6 @@ title: Number.IntegerDivide
 # Number.IntegerDivide
 
 
-## Description
-
 使两个数相除，返回结果的整数部分。
 
 
@@ -21,7 +19,7 @@ Number.IntegerDivide(
 ```
 
 
-## Details
+## Remarks
 
 返回一个数 <code>number1</code> 除以另一个数 <code>number2</code> 所得结果的整数部分。    如果 <code>number1</code> 或 <code>number2</code> 为 null，则 <code>Number.IntegerDivide</code> 返回 null。      <ul>        <li><code>number1</code>: 被除数。</li>        <li><code>number2</code>: 除数。</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Expression.Identifier
 # Expression.Identifier
 
 
-## Description
-
 傳回識別碼的 M 原始程式碼表示法。
 
 
@@ -19,7 +17,7 @@ Expression.Identifier(
 ```
 
 
-## Details
+## Remarks
 
 傳回識別碼 <code>name</code> 的 M 原始程式碼表示法。
 

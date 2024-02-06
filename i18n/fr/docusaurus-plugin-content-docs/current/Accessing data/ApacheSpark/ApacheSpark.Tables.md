@@ -5,8 +5,6 @@ title: ApacheSpark.Tables
 # ApacheSpark.Tables
 
 
-## Description
-
 Retourne une table répertoriant les tables sur le cluster Spark spécifié.
 
 
@@ -21,7 +19,7 @@ ApacheSpark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une table répertoriant les tables sur le cluster Spark <code>host</code> à l'aide de <code>protocol</code>. Les protocoles valides sont :SparkProtocol.Standard, SparkProtocol.HTTP
 

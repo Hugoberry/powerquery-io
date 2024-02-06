@@ -5,8 +5,6 @@ title: Type.FunctionReturn
 # Type.FunctionReturn
 
 
-## Description
-
 Retourneert een type dat wordt geretourneerd door een functietype.
 
 
@@ -19,7 +17,7 @@ Type.FunctionReturn(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een type dat wordt geretourneerd door een functie <code>type</code>.
 

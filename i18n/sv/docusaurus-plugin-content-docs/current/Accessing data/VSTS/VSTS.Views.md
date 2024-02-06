@@ -5,8 +5,6 @@ title: VSTS.Views
 # VSTS.Views
 
 
-## Description
-
 Ange organisations- och projektnamn.
 
 
@@ -22,7 +20,7 @@ VSTS.Views(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell med OData-flöden som erbjuds av Azure DevOps.
 

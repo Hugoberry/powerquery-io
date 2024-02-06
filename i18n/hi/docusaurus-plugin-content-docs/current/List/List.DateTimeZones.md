@@ -5,8 +5,6 @@ title: List.DateTimeZones
 # List.DateTimeZones
 
 
-## Description
-
 दिनांक समय क्षेत्र मानों की सूची जनरेट करता है जिसमें प्रारंभिक मान, गणना और वृद्धिशील अवधि मान दिया होता है.
 
 
@@ -21,7 +19,7 @@ List.DateTimeZones(
 ```
 
 
-## Details
+## Remarks
 
 <code>start</code> से प्रारंभ होने वाले, आकार <code>count</code> के <code>datetimezone</code> मानों की सूची लौटाता है. दी गई वृद्धि, <code>step</code>, एक <code>duration</code> मान है जिसे प्रत्येक मान में जोड़ा जाता है.
 

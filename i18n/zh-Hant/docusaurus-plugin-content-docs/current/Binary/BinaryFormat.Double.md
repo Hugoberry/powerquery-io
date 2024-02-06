@@ -5,8 +5,6 @@ title: BinaryFormat.Double
 # BinaryFormat.Double
 
 
-## Description
-
 一種二進位格式，可讀取 8 位元組 IEEE 雙精確度浮點值。
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Double(
 ```
 
 
-## Details
+## Remarks
 
 一種二進位格式，可讀取 8 位元組 IEEE 雙精確度浮點值。
 

@@ -5,8 +5,6 @@ title: Binary.FromText
 # Binary.FromText
 
 
-## Description
-
 將文字格式的資料解碼成二進位。
 
 
@@ -20,7 +18,7 @@ Binary.FromText(
 ```
 
 
-## Details
+## Remarks
 
 傳回將文字值 <code>text</code> 轉換成二進位 (<code>number</code> 清單) 的結果。您可指定 <code>encoding</code>，以表示文字值中使用的編碼方式。      下列 <code>BinaryEncoding</code> 值可用於 <code>encoding</code>。      <ul>        <li><code>BinaryEncoding.Base64</code>: Base 64 編碼</li>        <li><code>BinaryEncoding.Hex</code>: 十六進位編碼</li>      </ul>
 

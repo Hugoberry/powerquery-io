@@ -5,8 +5,6 @@ title: Table.FromList
 # Table.FromList
 
 
-## Description
-
 Converte un elenco in una tabella applicando la funzione di divisione specificata a ogni elemento dell&#39;elenco.
 
 
@@ -23,7 +21,7 @@ Table.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Converte l'elenco <code>list</code> in una tabella applicando la funzione di divisione facoltativa <code>splitter</code> a ogni elemento dell'elenco. Per impostazione predefinita, si presuppone che l'elenco sia un elenco di valori di testo suddiviso da virgole. <code>columns</code> facoltativo può essere il numero di colonne, un elenco di colonne o TableType. Facoltativamente, è possibile specificare anche <code>default</code> e <code>extraValues</code>.
 

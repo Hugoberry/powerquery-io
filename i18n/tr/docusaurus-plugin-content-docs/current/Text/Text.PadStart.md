@@ -5,8 +5,6 @@ title: Text.PadStart
 # Text.PadStart
 
 
-## Description
-
 Verilen metnin başını doldurarak belirtilen uzunluktaki metni döndürür.
 
 
@@ -21,7 +19,7 @@ Text.PadStart(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> metin değerinin başına boşluk ekleyerek <code>count</code> uzunluğuna doldurulan bir <code>text</code> değeri döndürür.    Doldurma için kullanılan karakteri belirtmek için isteğe bağlı bir <code>character</code> karakteri kullanılabilir. Varsayılan doldurma karakteri boşluktur.
 

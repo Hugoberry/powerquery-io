@@ -5,8 +5,6 @@ title: Text.ReplaceRange
 # Text.ReplaceRange
 
 
-## Description
-
 Удаляет диапазон символов и вводит новое значение в указанную позицию.
 
 
@@ -22,7 +20,7 @@ Text.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает результат удаления заданного количества символов <code>count</code> из текстового значения <code>text</code>, начиная с позиции <code>offset</code>, затем вставляет текстовое значение <code>newText</code> в ту же позицию в <code>text</code>.
 

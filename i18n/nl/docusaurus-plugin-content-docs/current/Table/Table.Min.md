@@ -5,8 +5,6 @@ title: Table.Min
 # Table.Min
 
 
-## Description
-
 Retourneert met behulp van de opgegeven criteria de kleinste rij of een standaardwaarde.
 
 
@@ -21,7 +19,7 @@ Table.Min(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert aan de hand van de <code>comparisonCriteria</code> de kleinste rij in de <code>table</code>. Als de tabel leeg is, wordt de optionele waarde <code>default</code> geretourneerd.
 

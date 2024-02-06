@@ -5,8 +5,6 @@ title: Date.ToRecord
 # Date.ToRecord
 
 
-## Description
-
 Retourne un enregistrement contenant des parties de la valeur de date.
 
 
@@ -19,7 +17,7 @@ Date.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Retourne un enregistrement qui contient les parties de la valeur de date spécifiée, <code>date</code>. <ul>        <li><code>date</code> : valeur <code>date</code> à partir de laquelle l'enregistrement des parties doit être calculé.</li>      </ul>
 

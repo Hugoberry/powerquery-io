@@ -5,8 +5,6 @@ title: Number.Ln
 # Number.Ln
 
 
-## Description
-
 Sayının doğal logaritmasını döndürür.
 
 
@@ -19,7 +17,7 @@ Number.Ln(
 ```
 
 
-## Details
+## Remarks
 
 Sayıların doğal logaritmasını döndürür, <code>number</code>. <code>number</code> null ise <code>Number.Ln</code> null döndürür.
 

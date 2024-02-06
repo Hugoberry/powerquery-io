@@ -5,8 +5,6 @@ title: BinaryFormat.ByteOrder
 # BinaryFormat.ByteOrder
 
 
-## Description
-
 傳回具有函數所指定位元組順序的二進位格式。
 
 
@@ -20,7 +18,7 @@ BinaryFormat.ByteOrder(
 ```
 
 
-## Details
+## Remarks
 
 傳回具有 <code>binaryFormat</code> 所指定位元組順序的二進位格式。預設位元組順序是 <code>ByteOrder.BigEndian</code>。
 

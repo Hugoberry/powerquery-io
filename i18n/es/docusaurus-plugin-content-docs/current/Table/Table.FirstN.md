@@ -5,8 +5,6 @@ title: Table.FirstN
 # Table.FirstN
 
 
-## Description
-
 Devuelve las primeras filas de recuentos especificadas.
 
 
@@ -20,7 +18,7 @@ Table.FirstN(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve las primeras filas de la tabla <code>table</code>, en función del valor de <code>countOrCondition</code>:    <ul>    <li> Si <code>countOrCondition</code> es un número, se devolverán esas filas (a partir de la primera). </li>    <li> Si <code>countOrCondition</code> es una condición, se devolverán las filas que la cumplan hasta que una no lo haga.</li></ul>
 

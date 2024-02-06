@@ -5,8 +5,6 @@ title: Text.ReplaceRange
 # Text.ReplaceRange
 
 
-## Description
-
 Fjerner et tegnområde og indsætter en ny værdi ved en angivet position.
 
 
@@ -22,7 +20,7 @@ Text.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer resultatet af at fjerne et antal tegn, <code>count</code>, fra tekstværdien <code>text</code> med start ved position <code>offset</code> og indsætter derefter tekstværdien <code>newText</code> på samme position i <code>text</code>.
 

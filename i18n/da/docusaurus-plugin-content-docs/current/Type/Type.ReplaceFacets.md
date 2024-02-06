@@ -5,8 +5,6 @@ title: Type.ReplaceFacets
 # Type.ReplaceFacets
 
 
-## Description
-
 Erstatter facetterne for en type.
 
 
@@ -20,7 +18,7 @@ Type.ReplaceFacets(
 ```
 
 
-## Details
+## Remarks
 
 Erstatter facetterne for <code>type</code> med de facetter, der findes i posten <code>facets</code>.
 

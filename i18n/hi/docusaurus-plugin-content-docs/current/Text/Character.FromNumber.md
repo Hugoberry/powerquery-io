@@ -5,8 +5,6 @@ title: Character.FromNumber
 # Character.FromNumber
 
 
-## Description
-
 किसी संख्या को टेक्स्ट वर्ण में कनवर्ट करता है.
 
 
@@ -19,7 +17,7 @@ Character.FromNumber(
 ```
 
 
-## Details
+## Remarks
 
 संख्या के समतुल्य वर्ण को लौटाता है.<br />    <br />    दिया गया <code>number</code>, 21-बिट यूनिकोड कोड पॉइंट होना चाहिए.
 

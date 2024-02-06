@@ -5,8 +5,6 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-## Description
-
 Smartsheet API&#39;sinden sayfaların, raporların, klasörlerin ve çalışma alanlarının bulunduğu bir tablo döndürür
 
 
@@ -19,7 +17,7 @@ Smartsheet.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Smartsheet API'sinden sayfaların, raporların, klasörlerin ve çalışma alanlarının bulunduğu iç içe bir tablo döndürür
 

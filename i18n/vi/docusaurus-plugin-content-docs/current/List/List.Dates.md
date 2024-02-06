@@ -5,8 +5,6 @@ title: List.Dates
 # List.Dates
 
 
-## Description
-
 Tạo danh sách giá trị ngày chứa một giá trị ban đầu, tổng cộng và giá thị thời lượng tăng dần.
 
 
@@ -21,7 +19,7 @@ List.Dates(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một danh sách giá trị <code>date</code> có kích cỡ là <code>count</code>, bắt đầu tại <code>start</code>. Số gia cho sẵn, <code>step</code>, là giá trị <code>duration</code> được thêm vào mọi giá trị.
 

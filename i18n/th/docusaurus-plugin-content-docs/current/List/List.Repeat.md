@@ -5,8 +5,6 @@ title: List.Repeat
 # List.Repeat
 
 
-## Description
-
 ส่งกลับรายการซึ่งเป็นจำนวนที่ซ้ำกันของรายการเดิม
 
 
@@ -20,7 +18,7 @@ List.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับรายการซึ่งเป็นรายการ <code>count</code> ที่ซ้ำของรายการเดิม <code>list</code>
 

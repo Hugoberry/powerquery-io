@@ -5,8 +5,6 @@ title: Table.Sort
 # Table.Sort
 
 
-## Description
-
 1 つ以上の列名と比較条件を使用してテーブルを並べ替えます。
 
 
@@ -20,7 +18,7 @@ Table.Sort(
 ```
 
 
-## Details
+## Remarks
 
 1 つ以上の列名と省略可能な <code>comparisonCriteria</code> の一覧 (形式は \{ \{ col1, comparisonCriteria }, \{col2} }) を使用して <code>table</code> を並べ替えます。
 

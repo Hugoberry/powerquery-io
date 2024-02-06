@@ -5,8 +5,6 @@ title: List.ReplaceMatchingItems
 # List.ReplaceMatchingItems
 
 
-## Description
-
 \{ old, new } के प्रत्येक प्रतिस्थापन को लागू करता है.
 
 
@@ -21,7 +19,7 @@ List.ReplaceMatchingItems(
 ```
 
 
-## Details
+## Remarks
 
 सूची <code>list</code> में दिए गए प्रतिस्थापन करता है. एक प्रतिस्थापन कार्रवाई <code>replacements</code> में एक सूची में प्रदान किए गए दो मानों, पुराना मान और नया मान, की सूची होती है.    गुणवत्ता परीक्षण नियंत्रित करने के लिए एक वैकल्पिक समीकरण मापदंड मान, <code>equationCriteria</code>, निर्दिष्ट किया जा सकता है.
 

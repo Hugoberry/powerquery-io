@@ -5,8 +5,6 @@ title: List.Distinct
 # List.Distinct
 
 
-## Description
-
 Yinelenen değerleri kaldırılmış bir değer listesi döndürür.
 
 
@@ -20,7 +18,7 @@ List.Distinct(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesindeki tüm değerleri içeren ve yinelenen değerleri kaldırılmış bir liste döndürür. Liste boşsa, sonuç boş bir listedir.
 

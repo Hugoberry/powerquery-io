@@ -5,8 +5,6 @@ title: Table.Distinct
 # Table.Distinct
 
 
-## Description
-
 Entfernt doppelte Zeilen aus der Tabelle.
 
 
@@ -20,7 +18,7 @@ Table.Distinct(
 ```
 
 
-## Details
+## Remarks
 
 Entfernt doppelte Zeilen aus der Tabelle.    Ein optionaler Parameter <code>equationCriteria</code> gibt an, welche Spalten der Tabelle auf Duplizierung getestet werden. Wenn <code>equationCriteria</code> nicht angegeben ist, werden alle Spalten getestet.<br />    <br />    Da Power Query manchmal bestimmte Vorgänge an Back-End-Datenquellen auslagert (bekannt als „Faltung“), und manchmal auch Abfragen optimiert, indem      Vorgänge überspringen werden, die nicht unbedingt erforderlich sind, gibt es im Allgemeinen keine Garantie, welches bestimmte Duplikat beibehalten wird.     Sie können beispielsweise nicht davon ausgehen, dass die erste Zeile mit einem eindeutigen Satz von Spaltenwerten erhalten bleibt und Zeilen weiter unten in der Tabelle entfernt werden.     Wenn sich die Entfernung von Duplikaten vorhersehbar verhalten soll, puffern Sie zuerst die Tabelle mithilfe von <code>Table.Buffer</code>.
 

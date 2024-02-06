@@ -5,8 +5,6 @@ title: PowerBI.Datamarts
 # PowerBI.Datamarts
 
 
-## Description
-
 Nhập dữ liệu từ kho dữ liệu
 
 
@@ -19,7 +17,7 @@ PowerBI.Datamarts(
 ```
 
 
-## Details
+## Remarks
 
 Nhập dữ liệu từ kho dữ liệu
 

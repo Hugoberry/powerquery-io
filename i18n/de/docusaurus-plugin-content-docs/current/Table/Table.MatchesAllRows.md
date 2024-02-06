@@ -5,8 +5,6 @@ title: Table.MatchesAllRows
 # Table.MatchesAllRows
 
 
-## Description
-
 Gibt an, ob alle Zeilen in der Tabelle die angegebene Bedingung erfüllen.
 
 
@@ -20,7 +18,7 @@ Table.MatchesAllRows(
 ```
 
 
-## Details
+## Remarks
 
 Gibt an, ob alle Zeilen im Element vom Typ "<code>table</code>" die Angabe "<code>condition</code>" erfüllen. Gibt <code>true</code> zurück, falls alle Zeilen die Bedingung erfüllen. Andernfalls wird <code>false</code> zurückgegeben.
 

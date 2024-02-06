@@ -5,8 +5,6 @@ title: Value.Type
 # Value.Type
 
 
-## Description
-
 ส่งกลับชนิดของค่าที่กำหนด
 
 
@@ -19,7 +17,7 @@ Value.Type(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับชนิดของค่าที่กำหนด
 

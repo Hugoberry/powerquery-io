@@ -5,8 +5,6 @@ title: Table.Transpose
 # Table.Transpose
 
 
-## Description
-
 Omvandlar kolumner till rader och rader till kolumner.
 
 
@@ -20,7 +18,7 @@ Table.Transpose(
 ```
 
 
-## Details
+## Remarks
 
 Omvandlar kolumner till rader och rader till kolumner.
 

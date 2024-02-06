@@ -5,8 +5,6 @@ title: Text.Format
 # Text.Format
 
 
-## Description
-
 Returnerar formaterad text från en formatsträng och argument.
 
 
@@ -21,7 +19,7 @@ Text.Format(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar formaterad text som har skapats genom att tillämpa <code>arguments</code> från en lista eller post till en formatsträng <code>formatString</code>. En valfri <code>culture</code> kan även anges (till exempel, "en-US").
 

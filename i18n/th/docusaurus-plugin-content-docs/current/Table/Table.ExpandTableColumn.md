@@ -5,8 +5,6 @@ title: Table.ExpandTableColumn
 # Table.ExpandTableColumn
 
 
-## Description
-
 ขยายคอลัมน์ของระเบียนหรือคอลัมน์ของตารางไปยังหลายคอลัมน์ในตารางที่มี
 
 
@@ -22,7 +20,7 @@ Table.ExpandTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 ขยายตารางใน <code>table</code>[<code>column</code>] ไปยังหลายแถวและคอลัมน์ <code>columnNames</code> ใช้เพื่อเลือกคอลัมน์ที่จะขยายจากตารางภายใน ระบุ <code>newColumnNames</code> เพื่อหลีกเลี่ยงข้อขัดแย้งระหว่างคอลัมน์ที่มีอยู่และคอลัมน์ใหม่
 

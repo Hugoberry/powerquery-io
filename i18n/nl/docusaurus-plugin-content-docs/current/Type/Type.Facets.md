@@ -5,8 +5,6 @@ title: Type.Facets
 # Type.Facets
 
 
-## Description
-
 Hiermee worden de facetten van een type geretourneerd.
 
 
@@ -19,7 +17,7 @@ Type.Facets(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een record met de facetten van <code>type</code> geretourneerd.
 

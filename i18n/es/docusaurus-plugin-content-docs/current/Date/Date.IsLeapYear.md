@@ -5,8 +5,6 @@ title: Date.IsLeapYear
 # Date.IsLeapYear
 
 
-## Description
-
 Indica si esta fecha cae en año bisiesto.
 
 
@@ -19,7 +17,7 @@ Date.IsLeapYear(
 ```
 
 
-## Details
+## Remarks
 
 Indica si el valor datetime especificado <code>dateTime</code> cae en año bisiesto. <ul>        <li><code>dateTime</code>: un valor <code>date</code>, <code>datetime</code> o <code>datetimezone</code> que se evaluará.</li>      </ul>
 

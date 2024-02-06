@@ -5,8 +5,6 @@ title: DateTimeZone.ToLocal
 # DateTimeZone.ToLocal
 
 
-## Description
-
 Convertit le composant de fuseau horaire dans le fuseau horaire local.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToLocal(
 ```
 
 
-## Details
+## Remarks
 
 Modifie les informations de fuseau de la valeur datetimezone <code>dateTimeZone</code> en informations de fuseau horaire local.    Si <code>dateTimeZone</code> n'a pas de composant de fuseau horaire, les informations de fuseau horaire sont ajoutées.
 

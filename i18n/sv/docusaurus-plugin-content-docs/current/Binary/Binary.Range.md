@@ -5,8 +5,6 @@ title: Binary.Range
 # Binary.Range
 
 
-## Description
-
 Returnerar en delmängd av binärvärdet med start vid en förskjutning.
 
 
@@ -21,7 +19,7 @@ Binary.Range(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en delmängd av binärvärdet med början vid förskjutningen <code>binary</code>. En valfri parameter, <code>offset</code>, anger maxlängden för delmängden.
 

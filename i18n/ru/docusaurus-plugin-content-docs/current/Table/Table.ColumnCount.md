@@ -5,8 +5,6 @@ title: Table.ColumnCount
 # Table.ColumnCount
 
 
-## Description
-
 Возвращает количество столбцов в таблице.
 
 
@@ -19,7 +17,7 @@ Table.ColumnCount(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает количество столбцов в таблице <code>table</code>.
 

@@ -5,8 +5,6 @@ title: List.FirstN
 # List.FirstN
 
 
-## Description
-
 Returnerer det første sæt elementer på listen ved at angive, hvor mange elementer der skal returneres, eller en kvalificerende betingelse.
 
 
@@ -20,7 +18,7 @@ List.FirstN(
 ```
 
 
-## Details
+## Remarks
 
  <ul>  <li>Hvis der er angivet et antal, returneres der elementer op til det angivne antal. </li>  <li>Hvis der er angivet en betingelse, returneres alle elementer, der i starten opfylder betingelsen. Når et element ikke opfylder betingelsen, tages der ikke flere elementer med i betragtning. </li> </ul>
 

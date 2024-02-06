@@ -5,8 +5,6 @@ title: Table.FromColumns
 # Table.FromColumns
 
 
-## Description
-
 从列和指定值的列表创建一个表。
 
 
@@ -20,7 +18,7 @@ Table.FromColumns(
 ```
 
 
-## Details
+## Remarks
 
 从包含嵌套列表以及列名和值的列表 <code>lists</code> 创建类型为 <code>columns</code> 的表。    如果某些列比其他列具有更多值，则当这些列可为 Null 时，缺少的值将使用默认值 "Null" 填充。
 

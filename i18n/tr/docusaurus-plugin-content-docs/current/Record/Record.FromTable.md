@@ -5,8 +5,6 @@ title: Record.FromTable
 # Record.FromTable
 
 
-## Description
-
 \{[Name = name, Value = value]} biçimindeki bir tablodan kayıt oluşturur.
 
 
@@ -19,7 +17,7 @@ Record.FromTable(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> kayıt tablosundan alan ve değer adlarını içeren bir kaydı döndürür <code>\{[Name = name, Value = value]}</code>. Alan adları benzersiz değilse, özel durum oluşur.
 

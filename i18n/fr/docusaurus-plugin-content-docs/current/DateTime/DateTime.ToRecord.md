@@ -5,8 +5,6 @@ title: DateTime.ToRecord
 # DateTime.ToRecord
 
 
-## Description
-
 Retourne un enregistrement qui contient les parties de la valeur datetime.
 
 
@@ -19,7 +17,7 @@ DateTime.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Retourne un enregistrement qui contient les parties de la valeur datetime spécifiée, <code>dateTime</code>. <ul>        <li><code>dateTime</code> : valeur <code>datetime</code> à partir de laquelle l'enregistrement des parties doit être calculé.</li>      </ul>
 

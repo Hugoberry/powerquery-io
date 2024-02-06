@@ -5,8 +5,6 @@ title: DateTimeZone.UtcNow
 # DateTimeZone.UtcNow
 
 
-## Description
-
 Trả về ngày và giờ hiện tại theo giờ UTC (múi giờ GMT).
 
 
@@ -19,7 +17,7 @@ DateTimeZone.UtcNow(
 ```
 
 
-## Details
+## Remarks
 
 Trả về ngày và giờ hiện tại theo giờ UTC (múi giờ GMT).
 

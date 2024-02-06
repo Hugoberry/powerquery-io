@@ -5,8 +5,6 @@ title: Table.SelectRows
 # Table.SelectRows
 
 
-## Description
-
 选择满足条件函数的行。
 
 
@@ -20,7 +18,7 @@ Table.SelectRows(
 ```
 
 
-## Details
+## Remarks
 
 从 <code>table</code> 返回与选择 <code>condition</code> 匹配的行的表。
 

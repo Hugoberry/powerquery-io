@@ -5,8 +5,6 @@ title: AzureDevOpsServer.Feed
 # AzureDevOpsServer.Feed
 
 
-## Description
-
 Flux Azure DevOps Services
 
 
@@ -20,7 +18,7 @@ AzureDevOpsServer.Feed(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une table de flux OData offerts par Azure DevOps.
 

@@ -5,8 +5,6 @@ title: Record.RemoveFields
 # Record.RemoveFields
 
 
-## Description
-
 Quita los campos especificados del registro de entrada.
 
 
@@ -21,7 +19,7 @@ Record.RemoveFields(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un registro que quita todos los campos especificados en la lista <code>fields</code> de la entrada <code>record</code>. Si el campo especificado no existe, se inicia una excepción.
 

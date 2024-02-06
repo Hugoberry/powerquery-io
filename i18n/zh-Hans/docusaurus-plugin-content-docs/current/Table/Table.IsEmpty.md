@@ -5,8 +5,6 @@ title: Table.IsEmpty
 # Table.IsEmpty
 
 
-## Description
-
 指示表是否包含任何行。
 
 
@@ -19,7 +17,7 @@ Table.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 指示 <code>table</code> 是否包含任何行。如果没有行(也即表为空)，则返回 <code>true</code>； 否则，返回 <code>false</code>。
 

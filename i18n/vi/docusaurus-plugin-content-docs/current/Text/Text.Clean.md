@@ -5,8 +5,6 @@ title: Text.Clean
 # Text.Clean
 
 
-## Description
-
 Trả về giá trị văn bản đã loại bỏ tất cả ký tự điều khiển.
 
 
@@ -19,7 +17,7 @@ Text.Clean(
 ```
 
 
-## Details
+## Remarks
 
 Trả về giá trị văn bản đã loại bỏ tất cả ký tự điều khiển của <code>text</code>.
 

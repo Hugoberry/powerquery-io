@@ -5,8 +5,6 @@ title: Number.Log10
 # Number.Log10
 
 
-## Description
-
 Sayının 10 tabanındaki logaritmasını döndürür.
 
 
@@ -19,7 +17,7 @@ Number.Log10(
 ```
 
 
-## Details
+## Remarks
 
 Bir sayının (<code>number</code>) 10 tabanındaki logaritmasını döndürür. <code>number</code> null ise <code>Number.Log10</code> null döndürür.
 

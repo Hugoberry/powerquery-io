@@ -5,8 +5,6 @@ title: Table.Combine
 # Table.Combine
 
 
-## Description
-
 返回作为合并一系列表的结果的表。
 
 
@@ -20,7 +18,7 @@ Table.Combine(
 ```
 
 
-## Details
+## Remarks
 
 返回合并表列表 <code>tables</code> 后生成的表。生成的表的行类型结构由 <code>columns</code> 定义，或由输入类型的联合定义(如果未指定 <code>columns</code> 的话)。
 

@@ -5,8 +5,6 @@ title: Table.ColumnCount
 # Table.ColumnCount
 
 
-## Description
-
 Retourne le nombre de colonnes dans la table.
 
 
@@ -19,7 +17,7 @@ Table.ColumnCount(
 ```
 
 
-## Details
+## Remarks
 
 Retourne le nombre de colonnes dans la table <code>table</code>.
 

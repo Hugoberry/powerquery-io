@@ -5,8 +5,6 @@ title: Lakehouse.Contents
 # Lakehouse.Contents
 
 
-## Description
-
 Importer des données à partir d’un Lakehouse
 
 
@@ -19,7 +17,7 @@ Lakehouse.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Connectez-vous à tous les Lakehouses auxquels vous avez accès et choisissez les entités que vous souhaitez utiliser.
 

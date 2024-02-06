@@ -5,8 +5,6 @@ title: Duration.Hours
 # Duration.Hours
 
 
-## Description
-
 傳回持續時間的小時數部分。
 
 
@@ -19,7 +17,7 @@ Duration.Hours(
 ```
 
 
-## Details
+## Remarks
 
 傳回 <code>duration</code> 的小時部分。
 

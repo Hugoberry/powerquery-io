@@ -5,8 +5,6 @@ title: Type.ClosedRecord
 # Type.ClosedRecord
 
 
-## Description
-
 Gibt eine geschlossene Version des angegebenen Datensatztyps zurück (bzw. denselben Typ, wenn dieser bereits geschlossen ist).
 
 
@@ -19,7 +17,7 @@ Type.ClosedRecord(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine geschlossene Version des angegebenen <code>Datensatzes</code> <code>type</code> zurück (bzw. denselben Typ, wenn dieser bereits geschlossen ist).
 

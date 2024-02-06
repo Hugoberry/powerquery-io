@@ -5,8 +5,6 @@ title: Table.DemoteHeaders
 # Table.DemoteHeaders
 
 
-## Description
-
 Verplaatst de kolomkoppen omlaag naar de eerste rij met waarden.
 
 
@@ -19,7 +17,7 @@ Table.DemoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Verplaatst de kolomkoppen (de kolomnamen) omlaag naar de eerste rij met waarden. De standaardkolomnamen zijn "Kolom1", "Kolom2", enzovoort.
 

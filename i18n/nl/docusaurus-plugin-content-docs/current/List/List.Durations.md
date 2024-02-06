@@ -5,8 +5,6 @@ title: List.Durations
 # List.Durations
 
 
-## Description
-
 Genereert een lijst met duurwaarden op basis van een aanvankelijke waarde, telling en incrementele duurwaarde.
 
 
@@ -21,7 +19,7 @@ List.Durations(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een lijst met <code>count</code> <code>duration</code>waarden, beginnend bij <code>start</code> en stapsgewijs verhoogd met de opgegeven <code>duration</code> <code>step</code>.
 

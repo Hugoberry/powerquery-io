@@ -5,8 +5,6 @@ title: Table.MinN
 # Table.MinN
 
 
-## Description
-
 En küçük satırları verilen ölçütü kullanarak döndürür.
 
 
@@ -21,7 +19,7 @@ Table.MinN(
 ```
 
 
-## Details
+## Remarks
 
 <code>comparisonCriteria</code> durumunda, <code>table</code> öğesindeki en küçük satırları döndürür. Satırlar sıralandıktan sonra, sonuçlarını daha fazla filtrelemek için <code>countOrCondition</code> parametresi belirlenmelidir. Sıralama algoritmasının, sabit sıralanmış bir sonucu garanti vermediğini unutmayın. <code>countOrCondition</code> parametresi birden fazla form alabilir:    <ul>        <li> Bir sayı belirlenirse, artan sıraya göre <code>countOrCondition</code> kadar öğeyi içeren bir liste döndürülür. </li>        <li> Bir koşul belirlenirse, ilk olarak koşulu karşılayan bir öğe listesi döndürülür. Bir öğe koşulu karşılayamazsa, daha fazla öğe değerlendirilmez. </li></ul>
 

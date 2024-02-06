@@ -5,8 +5,6 @@ title: Diagnostics.ActivityId
 # Diagnostics.ActivityId
 
 
-## Description
-
 Hiermee wordt een onduidelijke id geretourneerd voor de evaluatie die momenteel wordt uitgevoerd.
 
 
@@ -19,7 +17,7 @@ Diagnostics.ActivityId(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een onduidelijke id geretourneerd voor de evaluatie die momenteel wordt uitgevoerd.
 

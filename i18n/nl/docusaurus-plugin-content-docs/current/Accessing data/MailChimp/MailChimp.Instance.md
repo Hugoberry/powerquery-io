@@ -5,8 +5,6 @@ title: MailChimp.Instance
 # MailChimp.Instance
 
 
-## Description
-
 Hiermee worden onbewerkte antwoordresultaten geretourneerd van een MailChimp-API-eindpunt.
 
 
@@ -19,7 +17,7 @@ MailChimp.Instance(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een aanroep uitgevoerd naar de MailChimp-API en wordt het onbewerkte antwoord geretourneerd.
 

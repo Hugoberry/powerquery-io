@@ -5,8 +5,6 @@ title: Value.Multiply
 # Value.Multiply
 
 
-## Description
-
 दो मानों का गुणनफल लौटाता है.
 
 
@@ -21,7 +19,7 @@ Value.Multiply(
 ```
 
 
-## Details
+## Remarks
 
 <code>value1</code> का <code>value2</code> से गुणा कर गुणनफल लौटाता है. एक वैकल्पिक पैरामीटर, <code>precision</code> भी निर्दिष्ट किया जा सकता है, डिफ़ॉल्ट रूप से <code>Precision.Double</code> का उपयोग किया जाता है.
 

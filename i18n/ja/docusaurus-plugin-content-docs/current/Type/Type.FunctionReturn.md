@@ -5,8 +5,6 @@ title: Type.FunctionReturn
 # Type.FunctionReturn
 
 
-## Description
-
 関数型によって返される型を返します。
 
 
@@ -19,7 +17,7 @@ Type.FunctionReturn(
 ```
 
 
-## Details
+## Remarks
 
 関数 <code>type</code> によって返される型を返します。
 

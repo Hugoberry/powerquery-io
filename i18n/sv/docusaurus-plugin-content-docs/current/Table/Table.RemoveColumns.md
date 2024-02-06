@@ -5,8 +5,6 @@ title: Table.RemoveColumns
 # Table.RemoveColumns
 
 
-## Description
-
 Tar bort de angivna kolumnerna.
 
 
@@ -21,7 +19,7 @@ Table.RemoveColumns(
 ```
 
 
-## Details
+## Remarks
 
 Tar bort den angivna <code>columns</code> från den angivna <code>table</code>.    Om den angivna kolumnen inte finns utlöses ett fel om inte den valfria parametern <code>missingField</code> anger ett alternativt beteende (till exempel <code>MissingField.UseNull</code> eller <code>MissingField.Ignore</code>).
 

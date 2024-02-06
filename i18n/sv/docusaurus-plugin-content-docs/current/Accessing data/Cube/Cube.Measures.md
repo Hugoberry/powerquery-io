@@ -5,8 +5,6 @@ title: Cube.Measures
 # Cube.Measures
 
 
-## Description
-
 Returnerar en tabell med uppsättningen tillgängliga mått.
 
 
@@ -19,7 +17,7 @@ Cube.Measures(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell med uppsättningen tillgängliga mått i <code>cube</code>.    Varje mått representeras som en funktion. Mått kan tillämpas i kuben med Cube.AddMeasureColumn.
 

@@ -5,8 +5,6 @@ title: GoogleAnalytics.Accounts
 # GoogleAnalytics.Accounts
 
 
-## Description
-
 Google Analytics खाते वापस करता है.
 
 
@@ -19,7 +17,7 @@ GoogleAnalytics.Accounts(
 ```
 
 
-## Details
+## Remarks
 
 ऐसे Google Analytics खाते वापस करता है जो वर्तमान क्रेडेंशियल से पहुँच योग्य हैं.
 

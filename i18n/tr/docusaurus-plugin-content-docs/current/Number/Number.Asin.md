@@ -5,8 +5,6 @@ title: Number.Asin
 # Number.Asin
 
 
-## Description
-
 Sayının arksinüsünü döndürür.
 
 
@@ -19,7 +17,7 @@ Number.Asin(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> değerinin arksinüsünü döndürür.
 

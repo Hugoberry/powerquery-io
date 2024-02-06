@@ -5,8 +5,6 @@ title: Lines.FromBinary
 # Lines.FromBinary
 
 
-## Description
-
 バイナリ値を、改行で分割されたテキスト値のリストに変換します。引用符のスタイルで指定すると、改行は引用符で囲まれて表示されることがあります。includeLineSeparators が true の場合、改行文字はテキストに含まれます。
 
 
@@ -22,7 +20,7 @@ Lines.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 バイナリ値を、改行で分割されたテキスト値のリストに変換します。引用符のスタイルで指定すると、改行は引用符で囲まれて表示されることがあります。includeLineSeparators が true の場合、改行文字はテキストに含まれます。
 

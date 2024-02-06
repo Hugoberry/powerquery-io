@@ -5,8 +5,6 @@ title: Table.IsEmpty
 # Table.IsEmpty
 
 
-## Description
-
 ระบุว่าตารางมีแถวใดๆ หรือไม่
 
 
@@ -19,7 +17,7 @@ Table.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 ระบุว่า <code>table</code> มีแถวใดๆ หรือไม่ ส่งคืน <code>true</code> หากไม่มีแถวใดๆ (เช่น ตารางว่างเปล่า) <code>false</code> หากมีผลลัพธ์เป็นอื่น
 

@@ -5,8 +5,6 @@ title: Binary.ApproximateLength
 # Binary.ApproximateLength
 
 
-## Description
-
 Devolve o comprimento aproximado do binário.
 
 
@@ -19,7 +17,7 @@ Binary.ApproximateLength(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o comprimento aproximado de <code>binary</code>, ou um erro se a origem de dados não suportar um comprimento aproximado.
 

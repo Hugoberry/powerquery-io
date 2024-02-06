@@ -5,8 +5,6 @@ title: IdentityProvider.Default
 # IdentityProvider.Default
 
 
-## Description
-
 現在のホストの既定の ID プロバイダー。
 
 
@@ -19,7 +17,7 @@ IdentityProvider.Default(
 ```
 
 
-## Details
+## Remarks
 
 現在のホストの既定の ID プロバイダー。
 

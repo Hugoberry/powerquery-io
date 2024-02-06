@@ -5,8 +5,6 @@ title: List.Transform
 # List.Transform
 
 
-## Description
-
 返回从此列表计算的值的新列表。
 
 
@@ -20,7 +18,7 @@ List.Transform(
 ```
 
 
-## Details
+## Remarks
 
 通过将转换函数 <code>transform</code> 应用到列表 <code>list</code> 来返回值的新列表。
 

@@ -5,8 +5,6 @@ title: Table.Contains
 # Table.Contains
 
 
-## Description
-
 Указывает, появляется ли указанная запись в виде строки в таблице.
 
 
@@ -21,7 +19,7 @@ Table.Contains(
 ```
 
 
-## Details
+## Remarks
 
 Указывает, появляется ли указанная запись <code>row</code> в виде строки в <code>table</code>.    Для управления сравнением строк таблицы может быть указан необязательный параметр <code>equationCriteria</code>.
 

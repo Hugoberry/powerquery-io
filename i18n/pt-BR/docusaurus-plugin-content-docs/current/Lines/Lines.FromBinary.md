@@ -5,8 +5,6 @@ title: Lines.FromBinary
 # Lines.FromBinary
 
 
-## Description
-
 Converte um valor binário em uma lista de valores de texto divididos em quebras de linha. Se um delimitador for especificado, as quebras de linha possivelmente aparecerão entre aspas. Se includeLineSeparators for true, os caracteres de quebra de linha serão incluídos no texto.
 
 
@@ -22,7 +20,7 @@ Lines.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 Converte um valor binário em uma lista de valores de texto divididos em quebras de linha. Se um delimitador for especificado, as quebras de linha possivelmente aparecerão entre aspas. Se includeLineSeparators for true, os caracteres de quebra de linha serão incluídos no texto.
 

@@ -5,8 +5,6 @@ title: Table.ReorderColumns
 # Table.ReorderColumns
 
 
-## Description
-
 ส่งกลับตารางที่มีคอลัมน์ในลำดับที่ระบุ
 
 
@@ -21,7 +19,7 @@ Table.ReorderColumns(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางจากค่าที่ป้อน <code>table</code> ที่มีคอลัมน์ในลำดับที่ระบุโดย <code>columnOrder</code> คอลัมน์ที่ไม่ถูกระบุในรายการจะไม่ได้รับการจัดลำดับใหม่     ถ้าไม่มีคอลัมน์อยู่ ระบบจะแสดงข้อยกเว้น เว้นแต่พารามิเตอร์ที่เลือกได้ <code>missingField</code> จะระบุค่าสำรอง (เช่น <code>MissingField.UseNull</code> หรือ <code>MissingField.Ignore</code>)
 

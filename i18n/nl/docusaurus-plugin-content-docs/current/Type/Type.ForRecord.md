@@ -5,8 +5,6 @@ title: Type.ForRecord
 # Type.ForRecord
 
 
-## Description
-
 Retourneert een type dat records met specifieke typebeperkingen voor velden vertegenwoordigt.
 
 
@@ -20,7 +18,7 @@ Type.ForRecord(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een type dat records met specifieke typebeperkingen voor velden vertegenwoordigt.
 

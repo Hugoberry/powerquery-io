@@ -5,8 +5,6 @@ title: List.Covariance
 # List.Covariance
 
 
-## Description
-
 Returnerer kovariancen mellem de to lister med tal.
 
 
@@ -20,7 +18,7 @@ List.Covariance(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer kovariancen mellem to lister, <code>numberList1</code> og <code>numberList2</code>. <code>numberList1</code> og <code>numberList2</code> skal indeholde det samme antal værdier af typen <code>number</code>.
 

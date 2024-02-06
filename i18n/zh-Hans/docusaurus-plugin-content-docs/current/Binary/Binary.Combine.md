@@ -5,8 +5,6 @@ title: Binary.Combine
 # Binary.Combine
 
 
-## Description
-
 将一组二进制值合并成单个二进制值。
 
 
@@ -19,7 +17,7 @@ Binary.Combine(
 ```
 
 
-## Details
+## Remarks
 
 将一组二进制值合并成单个二进制值。
 

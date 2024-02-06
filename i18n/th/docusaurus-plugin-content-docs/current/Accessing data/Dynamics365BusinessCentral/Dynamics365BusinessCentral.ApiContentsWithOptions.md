@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.ApiContentsWithOptions
 # Dynamics365BusinessCentral.ApiContentsWithOptions
 
 
-## Description
-
 ใส่สภาพแวดล้อมและบริษัท Dynamics 365 Business Central ของคุณ
 
 
@@ -22,7 +20,7 @@ Dynamics365BusinessCentral.ApiContentsWithOptions(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางพร้อมข้อมูลของ Dynamics 365 Business Central ที่เกี่ยวข้อง 
 

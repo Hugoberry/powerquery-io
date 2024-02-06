@@ -5,8 +5,6 @@ title: Table.Max
 # Table.Max
 
 
-## Description
-
 Trả về hàng lớn nhất hoặc một giá trị mặc định sử dụng tiêu chí cho sẵn.
 
 
@@ -21,7 +19,7 @@ Table.Max(
 ```
 
 
-## Details
+## Remarks
 
 Trả về hàng lớn nhất trong <code>table</code> khi được cho sẵn <code>comparisonCriteria</code>. Nếu bảng trống thì giá trị <code>default</code> tùy chọn được trả về. 
 

@@ -5,8 +5,6 @@ title: Table.AddRankColumn
 # Table.AddRankColumn
 
 
-## Description
-
 ผนวกคอลัมน์กับการจัดอันดับของคอลัมน์อื่นอย่างน้อยหนึ่งคอลัมน์
 
 
@@ -22,7 +20,7 @@ Table.AddRankColumn(
 ```
 
 
-## Details
+## Remarks
 
 ผนวกคอลัมน์ที่ชื่อ <code>newColumnName</code> เข้ากับ<code>table</code>ด้วยการจัดอันดับคอลัมน์อื่นอย่างน้อยหนึ่งคอลัมน์ที่อธิบายโดย<code>comparisonCriteria</code>ตัวเลือก RankKind ใน<code>options</code>สามารถใช้โดยผู้ใช้ขั้นสูงเพื่อเลือกวิธีการจัดอันดับที่เฉพาะเจาะจงมากขึ้น
 

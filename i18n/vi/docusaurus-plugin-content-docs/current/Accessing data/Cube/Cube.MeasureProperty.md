@@ -5,8 +5,6 @@ title: Cube.MeasureProperty
 # Cube.MeasureProperty
 
 
-## Description
-
 Trả về thuộc tính của giá trị đo (thuộc tính của ô).
 
 
@@ -20,7 +18,7 @@ Cube.MeasureProperty(
 ```
 
 
-## Details
+## Remarks
 
 Trả về thuộc tính <code>propertyName</code> của giá trị đo <code>measure</code>.
 

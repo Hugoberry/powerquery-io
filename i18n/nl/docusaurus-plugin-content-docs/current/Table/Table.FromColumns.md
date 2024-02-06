@@ -5,8 +5,6 @@ title: Table.FromColumns
 # Table.FromColumns
 
 
-## Description
-
 Maakt een tabel van een lijst kolommen en opgegeven waarden.
 
 
@@ -20,7 +18,7 @@ Table.FromColumns(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tabel gemaakt van het type <code>columns</code> van een lijst <code>lists</code> die geneste lijsten met de kolomnamen en -waarden bevat. Als in bepaalde kolommen meer waarden staan dan in andere kolommen, worden de ontbrekende waarden ingevuld met de standaardwaarde null als in die kolommen de waarde null kan worden ingevoerd.
 

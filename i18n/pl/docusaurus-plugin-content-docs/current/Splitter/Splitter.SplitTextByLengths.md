@@ -5,8 +5,6 @@ title: Splitter.SplitTextByLengths
 # Splitter.SplitTextByLengths
 
 
-## Description
-
 Zwraca funkcję dzielącą tekst na listę wartości tekstowych przy użyciu określonej długości.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByLengths(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca funkcję dzielącą tekst na listę wartości tekstowych przy użyciu określonej długości.
 

@@ -5,8 +5,6 @@ title: Table.Split
 # Table.Split
 
 
-## Description
-
 Tách bảng đã chỉ định thành một danh sách các bảng sử dụng kích thước trang được chỉ định.
 
 
@@ -20,7 +18,7 @@ Table.Split(
 ```
 
 
-## Details
+## Remarks
 
 Tách <code>table</code> thành danh sách của các bảng, nơi phần tử đầu tiên của danh sách là một bảng chứa hàng <code>pageSize</code> đầu tiên từ    bảng nguồn, phần tử tiếp theo của danh sách là một bảng chứa hàng <code>pageSize</code> tiếp theo từ bảng nguồn, v.v.
 

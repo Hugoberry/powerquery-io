@@ -5,8 +5,6 @@ title: Text.Trim
 # Text.Trim
 
 
-## Description
-
 Entfernt alle führenden und nachfolgenden Leerzeichen.
 
 
@@ -20,7 +18,7 @@ Text.Trim(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das Ergebnis des Entfernens aller führenden und nachfolgenden Leerzeichen aus dem Textwert "<code>text</code>" zurück.
 

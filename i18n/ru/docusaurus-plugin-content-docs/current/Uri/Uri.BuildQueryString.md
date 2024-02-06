@@ -5,8 +5,6 @@ title: Uri.BuildQueryString
 # Uri.BuildQueryString
 
 
-## Description
-
 Соберите запись в строку запроса универсального кода ресурса.
 
 
@@ -19,7 +17,7 @@ Uri.BuildQueryString(
 ```
 
 
-## Details
+## Remarks
 
 Соберите запись <code>query</code> в строку запроса универсального кода ресурса, при необходимости добавив escape-символы.
 

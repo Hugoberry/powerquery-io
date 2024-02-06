@@ -5,8 +5,6 @@ title: DateTimeZone.ToRecord
 # DateTimeZone.ToRecord
 
 
-## Description
-
 傳回一筆包含 datetimezone 值各部分的記錄。
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 傳回記錄，內含指定的 datetimezone 值 <code>dateTimeZone</code> 各部分。 <ul>        <li><code>dateTimeZone</code>: 要從中計算其各部分記錄的 <code>datetimezone</code> 值。</li>      </ul>
 

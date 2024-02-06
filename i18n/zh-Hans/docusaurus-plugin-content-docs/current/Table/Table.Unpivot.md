@@ -5,8 +5,6 @@ title: Table.Unpivot
 # Table.Unpivot
 
 
-## Description
-
 将表中的一组列转换为属性-值对。
 
 
@@ -22,7 +20,7 @@ Table.Unpivot(
 ```
 
 
-## Details
+## Remarks
 
 将表中的一组列转换为属性-值对，并与每行中的剩余值相结合。
 

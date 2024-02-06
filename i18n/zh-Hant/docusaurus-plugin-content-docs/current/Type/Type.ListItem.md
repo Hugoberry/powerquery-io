@@ -5,8 +5,6 @@ title: Type.ListItem
 # Type.ListItem
 
 
-## Description
-
 從清單類型傳回項目類型。
 
 
@@ -19,7 +17,7 @@ Type.ListItem(
 ```
 
 
-## Details
+## Remarks
 
 從清單 <code>type</code> 傳回項目類型。
 

@@ -5,8 +5,6 @@ title: Table.MatchesAllRows
 # Table.MatchesAllRows
 
 
-## Description
-
 Tablodaki tüm satırların verilen koşulu sağlayıp sağlamadığını belirtir.
 
 
@@ -20,7 +18,7 @@ Table.MatchesAllRows(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> içindeki tüm satırların verilen <code>condition</code> öğesini sağlayıp sağlamadığını belirtir. Tüm satırlar eşleşiyorsa <code>true</code>, aksi halde <code>false</code> döndürür.
 

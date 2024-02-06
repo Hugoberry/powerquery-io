@@ -5,8 +5,6 @@ title: DateTimeZone.SwitchZone
 # DateTimeZone.SwitchZone
 
 
-## Description
-
 मान का समय क्षेत्र बदलता है.
 
 
@@ -21,7 +19,7 @@ DateTimeZone.SwitchZone(
 ```
 
 
-## Details
+## Remarks
 
 <code>timezoneHours</code> और वैकल्पिक रूप से <code>timezoneMinutes</code> द्वारा प्रदान की गई नई समय क्षेत्र जानकारी के लिए समय क्षेत्र जानकारी को datetimezone मान <code>dateTimeZone</code> में बदलता है.    अगर <code>dateTimeZone</code> में कोई समय क्षेत्र घटक नहीं है, तो एक अपवाद प्रस्तुत किया जाता है.
 

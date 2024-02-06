@@ -5,8 +5,6 @@ title: Number.Abs
 # Number.Abs
 
 
-## Description
-
 Возвращает абсолютное значение числа.
 
 
@@ -19,7 +17,7 @@ Number.Abs(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает абсолютное значение "<code>number</code>". Если "<code>number</code>" имеет значение NULL, <code>Number.Abs</code> возвращает NULL.    <ul>        <li><code>number</code>: значение <code>number</code>, для которого вычисляется абсолютное значение.</li>      </ul>
 

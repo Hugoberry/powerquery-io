@@ -5,8 +5,6 @@ title: Table.FromValue
 # Table.FromValue
 
 
-## Description
-
 สร้างตารางด้วยคอลัมน์จากค่าที่ระบุ
 
 
@@ -20,7 +18,7 @@ Table.FromValue(
 ```
 
 
-## Details
+## Remarks
 
 สร้างตารางด้วยคอลัมน์ซึ่งมีค่าหรือรายการของค่าที่ระบุไว้ <code>value</code> อาจมีการระบุพารามิเตอร์บันทึกข้อมูลที่เป็นทางเลือก <code>options</code> เพื่อควบคุมตัวเลือกดังต่อไปนี้:    <ul>    <li> <code>DefaultColumnName</code> : ใช้ชื่อคอลัมน์เมื่อสร้างตารางจากรายการค่าหรือค่าที่การปรับสเกล</li>    </ul>  
 

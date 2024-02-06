@@ -5,8 +5,6 @@ title: Table.FromRows
 # Table.FromRows
 
 
-## Description
-
 根據列值及選擇性資料行清單建立資料表。
 
 
@@ -20,7 +18,7 @@ Table.FromRows(
 ```
 
 
-## Details
+## Remarks
 
 根據清單 <code>rows</code> 建立資料表，清單內每個項目都是包含單一列資料行值的內部清單。可為 <code>columns</code> 提供資料行名稱的選擇性清單、資料表類型或資料行數目。
 

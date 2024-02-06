@@ -5,8 +5,6 @@ title: Binary.ToList
 # Binary.ToList
 
 
-## Description
-
 バイナリ値を数値のリストに変換します。
 
 
@@ -19,7 +17,7 @@ Binary.ToList(
 ```
 
 
-## Details
+## Remarks
 
 バイナリ値を数値のリストに変換します。
 

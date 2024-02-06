@@ -5,8 +5,6 @@ title: VSTS.Contents
 # VSTS.Contents
 
 
-## Description
-
 Azure DevOps Analytics サービスの URL を入力します。
 
 
@@ -20,7 +18,7 @@ VSTS.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Azure DevOps Analytics サービス URL からダウンロードされたコンテンツをバイナリ値として返します。この関数は、アクセス可能なすべての組織でグローバルな資格情報を使用します。
 

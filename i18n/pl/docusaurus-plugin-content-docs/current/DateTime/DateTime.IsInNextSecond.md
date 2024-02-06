@@ -5,8 +5,6 @@ title: DateTime.IsInNextSecond
 # DateTime.IsInNextSecond
 
 
-## Description
-
 Wskazuje, czy ta data/godzina przypada w ciągu następnej sekundy określonej zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącej sekundy.
 
 
@@ -19,7 +17,7 @@ DateTime.IsInNextSecond(
 ```
 
 
-## Details
+## Remarks
 
 Wskazuje, czy dana wartość daty/godziny <code>dateTime</code> przypada w ciągu następnej sekundy określonej zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącej sekundy.      <ul>      <li><code>dateTime</code>: wartość <code>date</code> lub <code>datetime</code> do oszacowania.</li>      </ul>
 

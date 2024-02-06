@@ -5,8 +5,6 @@ title: Text.Contains
 # Text.Contains
 
 
-## Description
-
 Trả về kết quả văn bản có chứa chuỗi con hay không.
 
 
@@ -21,7 +19,7 @@ Text.Contains(
 ```
 
 
-## Details
+## Remarks
 
 Phát hiện xem <code>text</code> có chứa giá trị <code>substring</code> không. Trả về true nếu tìm thấy giá trị đó. Hàm này không hỗ trợ các ký tự đại diện hoặc biểu thức thông thường.      <br />      <br />      Đối số tùy chọn <code>comparer</code> có thể dùng để chỉ định các phép so sánh không phân biệt chữ hoa/thường hoặc phép so sánh có tính đến yếu tố văn hóa và ngôn ngữ.      Các trình so sánh cài sẵn sau đây được cung cấp bằng ngôn ngữ công thức:      <ul>        <li><code>Comparer.Ordinal</code>: Dùng để thực hiện phép so sánh thứ tự có phân biệt chữ hoa/thường</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: Dùng để thực hiện phép so sánh thứ tự không phân biệt chữ hoa/thường</li>        <li> <code>Comparer.FromCulture</code>: Dùng để thực hiện phép so sánh có tính đến yếu tố văn hóa</li>      </ul>
 

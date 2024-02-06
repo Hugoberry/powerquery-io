@@ -5,8 +5,6 @@ title: Record.FieldCount
 # Record.FieldCount
 
 
-## Description
-
 Возвращает число полей в записи.
 
 
@@ -19,7 +17,7 @@ Record.FieldCount(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает число полей в записи <code>record</code>.
 

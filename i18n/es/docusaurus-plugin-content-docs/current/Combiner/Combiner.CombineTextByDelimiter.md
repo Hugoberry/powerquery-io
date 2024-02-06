@@ -5,8 +5,6 @@ title: Combiner.CombineTextByDelimiter
 # Combiner.CombineTextByDelimiter
 
 
-## Description
-
 Devuelve una función que combina una lista de texto utilizando el delimitador especificado.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una función que combina una lista de valores de texto en un único valor de texto utilizando el delimitador especificado.
 

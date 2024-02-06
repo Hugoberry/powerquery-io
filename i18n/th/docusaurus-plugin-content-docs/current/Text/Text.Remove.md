@@ -5,8 +5,6 @@ title: Text.Remove
 # Text.Remove
 
 
-## Description
-
 เอาการปรากฏทั้งหมดออกสำหรับอักขระที่กำหนดให้หรือรายการอักขระจากค่าข้อความที่ป้อนเข้า
 
 
@@ -20,7 +18,7 @@ Text.Remove(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับสำเนาของค่าข้อความ <code>text</code> ที่เอาอักขระทั้งหมดออกจาก <code>removeChars</code>  
 

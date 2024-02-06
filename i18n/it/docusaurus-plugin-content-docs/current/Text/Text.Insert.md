@@ -5,8 +5,6 @@ title: Text.Insert
 # Text.Insert
 
 
-## Description
-
 Inserisce un valore di testo in un altro nella posizione specificata.
 
 
@@ -21,7 +19,7 @@ Text.Insert(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il risultato dell'inserimento del valore di testo <code>newText</code> nel valore di testo <code>text</code> nella posizione <code>offset</code>. Le posizioni iniziano dal numero 0.
 

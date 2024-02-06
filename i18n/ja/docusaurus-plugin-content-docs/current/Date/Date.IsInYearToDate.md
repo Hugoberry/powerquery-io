@@ -5,8 +5,6 @@ title: Date.IsInYearToDate
 # Date.IsInYearToDate
 
 
-## Description
-
 システム上の現在の日時によって決定されるとおり、この日付が現在の年内に含まれていて、現在の日付以前であるかどうかを示します。
 
 
@@ -19,7 +17,7 @@ Date.IsInYearToDate(
 ```
 
 
-## Details
+## Remarks
 
 システム上の現在の日時によって決定されるとおり、指定された datetime 値 <code>dateTime</code> が現在の年内に含まれていて、現在の日付以前であるかどうかを示します。      <ul>      <li><code>dateTime</code>: 評価される <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値。</li>      </ul>
 

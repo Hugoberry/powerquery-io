@@ -5,8 +5,6 @@ title: Number.Round
 # Number.Round
 
 
-## Description
-
 Returnerer det afrundede tal. Antallet af cifre og afrundingstilstand kan angives.
 
 
@@ -21,7 +19,7 @@ Number.Round(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer resultatet af afrunding <code>number</code> til det nærmeste tal. Hvis <code>number</code> er null, <code>Number.Round</code> returnerer null.<br /><br />      Som standard afrundes <code>number</code> til det nærmeste heltal, og bindinger brydes ved at afrunde til det nærmeste lige tal (ved hjælp af <code>RoundingMode.ToEven</code>, også kendt som "bankers afrunding").<br />      <br />      Disse standarder kan dog tilsidesættes via følgende valgfrie parametre.      <ul>        <li><code>digits</code>: Medfører, at <code>number</code> afrundes til det angivne antal decimaler.</li>        <li><code>roundingMode</code>: Tilsidesætter standardbrydningsadfærden, når <code>number</code> er midtpunktet mellem to potentielle afrundede værdier      (se <code>RoundingMode.Type</code> for mulige værdier).</li>      </ul>
 

@@ -5,8 +5,6 @@ title: DateTimeZone.ToRecord
 # DateTimeZone.ToRecord
 
 
-## Description
-
 Restituisce record contenente le parti del valore datetimezone.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un record contenente le parti del valore datetimezone specificato <code>dateTimeZone</code>. <ul>        <li><code>dateTimeZone</code>: valore <code>datetimezone</code> da cui deve essere calcolato il record delle parti.</li>      </ul>
 

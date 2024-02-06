@@ -5,8 +5,6 @@ title: Table.DemoteHeaders
 # Table.DemoteHeaders
 
 
-## Description
-
 Despromove os cabeçalhos das colunas para a primeira linha de valores.
 
 
@@ -19,7 +17,7 @@ Table.DemoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Despromove os cabeçalhos das colunas (ou seja, os nomes das colunas) para a primeira linha de valores. Os nomes predefinidos das colunas são "Coluna1", "Coluna2" e assim consecutivamente.
 

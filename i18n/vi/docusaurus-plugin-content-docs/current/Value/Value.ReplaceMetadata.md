@@ -5,8 +5,6 @@ title: Value.ReplaceMetadata
 # Value.ReplaceMetadata
 
 
-## Description
-
 Thay thế thông tin siêu dữ liệu của đầu vào.
 
 
@@ -20,7 +18,7 @@ Value.ReplaceMetadata(
 ```
 
 
-## Details
+## Remarks
 
 Thay thế thông tin siêu dữ liệu của đầu vào.
 

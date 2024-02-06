@@ -5,8 +5,6 @@ title: Text.Insert
 # Text.Insert
 
 
-## Description
-
 दी गई स्थिति पर एक पाठ मान को अन्य में सम्मिलित करें.
 
 
@@ -21,7 +19,7 @@ Text.Insert(
 ```
 
 
-## Details
+## Remarks
 
 स्थिति <code>offset</code> पर पाठ मान <code>text</code> में सम्मिलित किए जाने वाले पाठ मान <code>newText</code> के परिणाम को लौटाता है. स्थिति, संख्या 0 पर प्रारंभ होती हैं.
 

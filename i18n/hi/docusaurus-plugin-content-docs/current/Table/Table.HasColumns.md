@@ -5,8 +5,6 @@ title: Table.HasColumns
 # Table.HasColumns
 
 
-## Description
-
 संकेत देता है कि तालिका में निर्दिष्ट कॉलम है(हैं) या नहीं.
 
 
@@ -20,7 +18,7 @@ Table.HasColumns(
 ```
 
 
-## Details
+## Remarks
 
 संकेत देता है कि <code>table</code> में निर्दिष्ट कॉलम,<code>columns</code> है(हैं) या नहीं. यदि तालिका में कॉलम हैं, तो <code>true</code> आता है, या फिर <code>false</code> आता है.
 

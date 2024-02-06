@@ -5,8 +5,6 @@ title: BinaryFormat.ByteOrder
 # BinaryFormat.ByteOrder
 
 
-## Description
-
 関数で指定されたバイト順でバイナリ形式を返します。
 
 
@@ -20,7 +18,7 @@ BinaryFormat.ByteOrder(
 ```
 
 
-## Details
+## Remarks
 
 <code>binaryFormat</code> で指定されたバイト順でバイナリ形式を返します。既定のバイト順は <code>ByteOrder.BigEndian</code> です。
 

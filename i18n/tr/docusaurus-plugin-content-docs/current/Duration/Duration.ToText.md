@@ -5,8 +5,6 @@ title: Duration.ToText
 # Duration.ToText
 
 
-## Description
-
 &#34;g.s:d:s&#34; biçiminde metni döndürür.
 
 
@@ -20,7 +18,7 @@ Duration.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen <code>duration</code> süre değerinin "gün.saat:dakika:sn" biçiminde bir metinsel gösterimini döndürür. <ul>        <li><code>duration</code>: Metinsel gösterimin hesaplanması için kullanılan <code>süredir</code>.</li>  <li><code>format</code>: <i>[İsteğe bağlı]</i> Kullanım dışıdır, değer null değilse hata oluşur</li>      </ul>
 

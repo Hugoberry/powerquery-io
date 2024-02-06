@@ -5,8 +5,6 @@ title: AzureDevOpsServer.Feed
 # AzureDevOpsServer.Feed
 
 
-## Description
-
 Azure DevOps Services 源
 
 
@@ -20,7 +18,7 @@ AzureDevOpsServer.Feed(
 ```
 
 
-## Details
+## Remarks
 
 返回包含 Azure DevOps 提供的 OData 源的表。
 

@@ -5,8 +5,6 @@ title: Webtrends.Tables
 # Webtrends.Tables
 
 
-## Description
-
 Podaj identyfikator profilu skojarzony z kontem rozwiązania Webtrends.
 
 
@@ -21,7 +19,7 @@ Webtrends.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę z odpowiednimi danymi rozwiązania Webtrends.
 

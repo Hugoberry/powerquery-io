@@ -5,8 +5,6 @@ title: Table.InsertRows
 # Table.InsertRows
 
 
-## Description
-
 Indsætter en liste over rækker i tabellen på den angivne position.
 
 
@@ -21,7 +19,7 @@ Table.InsertRows(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel med listen over rækker, <code>rows</code>, indsat i <code>table</code> på den angivne placering, <code>offset</code>. Hver kolonne i rækken, der skal indsættes, skal svare til kolonnetyperne i tabellen.
 

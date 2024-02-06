@@ -5,8 +5,6 @@ title: DateTimeZone.FromFileTime
 # DateTimeZone.FromFileTime
 
 
-## Description
-
 Crea un elemento datetimezone da un numero lungo 64 bit.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.FromFileTime(
 ```
 
 
-## Details
+## Remarks
 
 Crea un valore <code>datetimezone</code> dal valore <code>fileTime</code> e lo converte nel fuso orario locale. L'elemento filetime è un valore di ora di file di Windows che rappresenta il numero di intervalli di 100 nanosecondi che sono trascorsi dalla mezzanotte 24.00 del 1° gennaio 1601 D.C. (C.E.) UTC (Coordinated Universal Time).    
 

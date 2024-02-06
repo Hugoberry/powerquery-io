@@ -5,8 +5,6 @@ title: Uri.Combine
 # Uri.Combine
 
 
-## Description
-
 Retourneert een absolute URI die de combinatie is van de basis-URI van de invoer en een relatieve URI.
 
 
@@ -20,7 +18,7 @@ Uri.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een absolute URI die de combinatie is van de <code>baseUri</code> van de invoer en een <code>relativeUri</code>.
 

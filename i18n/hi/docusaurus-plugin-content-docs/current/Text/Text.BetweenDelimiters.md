@@ -5,8 +5,6 @@ title: Text.BetweenDelimiters
 # Text.BetweenDelimiters
 
 
-## Description
-
 Text.BetweenDelimiters
 
 
@@ -23,7 +21,7 @@ Text.BetweenDelimiters(
 ```
 
 
-## Details
+## Remarks
 
 निर्दिष्ट <code>startDelimiter</code> और <code>endDelimiter</code> के बीच <code>text</code> का भाग लौटाता है.    एक वैकल्पिक संख्यिक <code>startIndex</code> इंगित करता है कि <code>startDelimiter</code> की किस आवृत्ति पर विचार करना चाहिए.    एक वैकल्पिक सूची <code>startIndex</code> इंगित करती है कि <code>startDelimiter</code> की किस आवृत्ति पर विचार किया जाना चाहिए, साथ ही साथ यह कि इनपुट के प्रारंभ या उसकी समाप्ति से अनुक्रमणिका संपन्न करना चाहिए या नहीं.    <code>endIndex</code> समान है, <code>startIndex</code> के संबंध में अनुक्रमणिका संपन्न करने के सिवाय.
 

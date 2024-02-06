@@ -5,8 +5,6 @@ title: Date.From
 # Date.From
 
 
-## Description
-
 Erstellt ein Datum auf der Grundlage des angegebenen Werts.
 
 
@@ -20,7 +18,7 @@ Date.From(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen <code>date</code>-Wert auf der Grundlage des angegebenen Elements vom Typ „<code>value</code>“ zurück. Optional kann auch ein Element vom Typ „<code>culture</code>“ angegeben werden (Beispiel: „de-DE“).Besitzt das angegebene Element vom Typ „<code>value</code>“ den Wert <code>NULL</code>, wird von <code>Date.From</code> der Wert <code>NULL</code> zurückgegeben. Besitzt das angegebene Element vom Typ „<code>value</code>“ den Wert <code>date</code>, wird „<code>value</code>“ zurückgegeben. Werte folgender Art können in einen <code>date</code>-Wert konvertiert werden:      <ul>        <li><code>text</code>: Ein <code>date</code>-Wert auf der Grundlage einer Textdarstellung. Ausführlichere Informationen finden Sie unter <code>Date.FromText</code>.</li>        <li><code>datetime</code>: Die Datumskomponente des Elements vom Typ „<code>value</code>“.</li>        <li><code>datetimezone</code>: Die Datumskomponente der lokalen datetime-Entsprechung von „<code>value</code>“.</li>        <li><code>number</code>: Die Datumskomponente der durch „<code>value</code>“ ausgedrückten datetime-Entsprechung des OLE-Automatisierungsdatums.</li>      </ul>Handelt es sich bei „<code>value</code>“ um einen anderen Typ, wird ein Fehler zurückgegeben.
 

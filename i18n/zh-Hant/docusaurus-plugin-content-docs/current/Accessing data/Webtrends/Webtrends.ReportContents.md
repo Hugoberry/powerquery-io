@@ -5,8 +5,6 @@ title: Webtrends.ReportContents
 # Webtrends.ReportContents
 
 
-## Description
-
 從 Webtrends 傳回內含報告內容的資料表。
 
 
@@ -22,7 +20,7 @@ Webtrends.ReportContents(
 ```
 
 
-## Details
+## Remarks
 
 呼叫指定的 Webtrends 報告端點，並以資料表格式傳回所有資料。
 

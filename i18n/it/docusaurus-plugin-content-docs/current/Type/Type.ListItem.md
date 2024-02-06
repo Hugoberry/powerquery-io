@@ -5,8 +5,6 @@ title: Type.ListItem
 # Type.ListItem
 
 
-## Description
-
 Restituisce un tipo di elemento da un tipo elenco.
 
 
@@ -19,7 +17,7 @@ Type.ListItem(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un tipo di elemento da un <code>type</code> elenco.
 

@@ -18,7 +18,7 @@ VivaInsights.Data(
 ```
 
 
-## Details
+## Remarks
 
 Workplace Analytics から週単位のメトリックと属性データをインポートします。
 

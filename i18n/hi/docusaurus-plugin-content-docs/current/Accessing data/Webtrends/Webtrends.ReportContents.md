@@ -5,8 +5,6 @@ title: Webtrends.ReportContents
 # Webtrends.ReportContents
 
 
-## Description
-
 Webtrends से रिपोर्ट सामग्री वाली एक तालिका लौटाता है.
 
 
@@ -22,7 +20,7 @@ Webtrends.ReportContents(
 ```
 
 
-## Details
+## Remarks
 
 दिए गए Webtrends रिपोर्टिंग समाप्ति बिंदु के लिए कॉल करता है और समस्त डेटा को एक तालिका के रूप में लौटाता है.
 

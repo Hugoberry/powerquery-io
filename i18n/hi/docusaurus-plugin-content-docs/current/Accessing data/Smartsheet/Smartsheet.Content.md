@@ -5,8 +5,6 @@ title: Smartsheet.Content
 # Smartsheet.Content
 
 
-## Description
-
 एक Smartsheet अनुक्रमणिका समाप्ति बिंदु से डेटा की एक तालिका लौटाता है.
 
 
@@ -19,7 +17,7 @@ Smartsheet.Content(
 ```
 
 
-## Details
+## Remarks
 
 निर्दिष्ट समाप्ति बिंदु पर Smartsheet 2.0 REST API के लिए कॉल करता है और तालिका में लौटाए गए डेटा तत्व को रूपांतरित करता है.
 

@@ -5,8 +5,6 @@ title: Text.Clean
 # Text.Clean
 
 
-## Description
-
 निकाले गए सभी नियंत्रण वर्णों के साथ पाठ मान लौटाता है.
 
 
@@ -19,7 +17,7 @@ Text.Clean(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> के निकाले गए सभी नियंत्रण वर्णों के साथ एक पाठ मान लौटाता है.
 

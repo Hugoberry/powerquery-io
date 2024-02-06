@@ -5,8 +5,6 @@ title: BinaryFormat.7BitEncodedUnsignedInteger
 # BinaryFormat.7BitEncodedUnsignedInteger
 
 
-## Description
-
 Двоичный формат, который считывает 64-разрядное целое число без знака, зашифрованное с использованием 7-разрядной кодировки с переменной длиной.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.7BitEncodedUnsignedInteger(
 ```
 
 
-## Details
+## Remarks
 
 Двоичный формат, который считывает 64-разрядное целое число без знака, зашифрованное с использованием 7-разрядной кодировки с переменной длиной.
 

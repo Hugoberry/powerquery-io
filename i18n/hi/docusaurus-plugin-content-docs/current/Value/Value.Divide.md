@@ -5,8 +5,6 @@ title: Value.Divide
 # Value.Divide
 
 
-## Description
-
 पहले मान को दूसरे मान द्वारा विभाजित करने पर प्राप्त होने वाले परिणाम को लौटाता है.
 
 
@@ -21,7 +19,7 @@ Value.Divide(
 ```
 
 
-## Details
+## Remarks
 
 <code>value1</code> का <code>value2</code> द्वारा भाग देने पर प्राप्त परिणाम को लौटाता है. एक वैकल्पिक पैरामीटर, <code>precision</code>, भी निर्दिष्ट किया जा सकता है, डिफ़ॉल्ट रूप से <code>Precision.Double</code> का उपयोग किया जाता है.
 

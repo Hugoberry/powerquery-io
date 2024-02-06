@@ -15,7 +15,7 @@ SparkPost.GetList(
 ```
 
 
-## Details
+## Remarks
 
 Có thể sử dụng chức năng này để gọi bất kỳ điểm cuối "Danh sách" nào mà API SparkPost phiên bản 1 cung cấp. Khi thực hiện cuộc gọi tới API SparkPost bằng chức năng này, hãy nhớ rằng API SparkPost có hạn mức API nghiêm ngặt. Nếu máy chủ SparkPost đang trả về mã trạng thái 429, thì có nghĩa là bạn đã đạt đến hạn mức và sẽ phải chờ vài phút trước khi thực hiện cuộc gọi khác.
 

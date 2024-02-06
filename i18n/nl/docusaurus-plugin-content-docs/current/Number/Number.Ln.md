@@ -5,8 +5,6 @@ title: Number.Ln
 # Number.Ln
 
 
-## Description
-
 Retourneert de natuurlijke logaritme van het getal.
 
 
@@ -19,7 +17,7 @@ Number.Ln(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de natuurlijke logaritme van een getal, <code>number</code>. Als <code>number</code> null is, retourneert <code>Number.Ln</code> null.
 

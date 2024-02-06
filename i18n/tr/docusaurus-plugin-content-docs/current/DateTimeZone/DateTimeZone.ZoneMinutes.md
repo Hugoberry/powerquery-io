@@ -5,8 +5,6 @@ title: DateTimeZone.ZoneMinutes
 # DateTimeZone.ZoneMinutes
 
 
-## Description
-
 Değerin saat dilimini değiştirir.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ZoneMinutes(
 ```
 
 
-## Details
+## Remarks
 
 Değerin saat dilimini değiştirir.
 

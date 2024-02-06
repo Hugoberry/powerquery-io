@@ -5,8 +5,6 @@ title: Marketo.Activities
 # Marketo.Activities
 
 
-## Description
-
 Müşteri adaylarına ilişkin etkinliklerin yer aldığı bir tablo döndürür.
 
 
@@ -21,7 +19,7 @@ Marketo.Activities(
 ```
 
 
-## Details
+## Remarks
 
 <code>url</code>/rest/v1/activities.json üzerinde yer alan Marketo REST API uç noktasına çağrıda bulunur. <code>activityIds</code> listesinde <code>startTime</code> itibarıyla gerçekleştirilen tüm etkinlikler döndürülür.
 

@@ -5,8 +5,6 @@ title: Date.IsInCurrentQuarter
 # Date.IsInCurrentQuarter
 
 
-## Description
-
 ระบุว่าวันที่นี้เกิดขึ้นระหว่างไตรมาสปัจจุบันหรือไม่ ตามที่กำหนดโดยวันที่และเวลาปัจจุบันในระบบ
 
 
@@ -19,7 +17,7 @@ Date.IsInCurrentQuarter(
 ```
 
 
-## Details
+## Remarks
 
 ระบุว่าค่าวันที่เวลาที่ระบุ <code>dateTime</code> เกิดขึ้นระหว่างไตรมาสปัจจุบันหรือไม่ ตามที่กำหนดโดยวันที่และเวลาปัจจุบันในระบบ      <ul>      <li><code>dateTime</code>: ค่า <code>date</code>, <code>datetime</code> หรือ <code>datetimezone</code> ที่จะประเมิน</li>      </ul>
 

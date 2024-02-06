@@ -5,8 +5,6 @@ title: Type.ForFunction
 # Type.ForFunction
 
 
-## Description
-
 使用特定的參數和傳回類型條件約束，傳回代表函數的類型。
 
 
@@ -20,7 +18,7 @@ Type.ForFunction(
 ```
 
 
-## Details
+## Remarks
 
 從 <code>signature</code> 建立叫用函數所需的 <code>function type</code>、<code>ReturnType</code> 記錄和 <code>Parameters</code> 以及 <code>min</code>，與最少數目的引數。
 

@@ -5,8 +5,6 @@ title: Text.End
 # Text.End
 
 
-## Description
-
 ส่งกลับอักขระสุดท้ายของข้อความ
 
 
@@ -20,7 +18,7 @@ Text.End(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่า <code>text</code> ที่เป็นอักขระ <code>count</code> สุดท้ายของค่า <code>text</code> <code>text</code>
 

@@ -5,8 +5,6 @@ title: Table.RemoveRowsWithErrors
 # Table.RemoveRowsWithErrors
 
 
-## Description
-
 Retorna uma tabela com as linhas removidas da tabela de entrada que contém um erro em, pelo menos, uma das células. Se uma lista de colunas for especificada, apenas as células das colunas especificadas serão inspecionadas quanto a erros.
 
 
@@ -20,7 +18,7 @@ Table.RemoveRowsWithErrors(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma tabela com as linhas removidas da tabela de entrada que contém um erro em, pelo menos, uma das células. Se uma lista de colunas for especificada, apenas as células das colunas especificadas serão inspecionadas quanto a erros.
 

@@ -5,8 +5,6 @@ title: Combiner.CombineTextByLengths
 # Combiner.CombineTextByLengths
 
 
-## Description
-
 Возвращает функцию, которая объединяет список текстовых значений с использованием указанных значений длины.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByLengths(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает функцию, которая объединяет список текстовых значений в одно текстовое значение с использованием заданных значений длины.
 

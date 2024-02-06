@@ -5,8 +5,6 @@ title: Duration.Minutes
 # Duration.Minutes
 
 
-## Description
-
 傳回持續時間的分鐘數部分。
 
 
@@ -19,7 +17,7 @@ Duration.Minutes(
 ```
 
 
-## Details
+## Remarks
 
 傳回 <code>duration</code> 的分鐘數部分。
 

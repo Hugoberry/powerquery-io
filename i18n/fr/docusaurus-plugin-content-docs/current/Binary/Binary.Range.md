@@ -5,8 +5,6 @@ title: Binary.Range
 # Binary.Range
 
 
-## Description
-
 Retourne un sous-ensemble de la valeur binaire commençant à un décalage.
 
 
@@ -21,7 +19,7 @@ Binary.Range(
 ```
 
 
-## Details
+## Remarks
 
 Retourne un sous-ensemble de la valeur binaire commençant au décalage <code>binary</code>. Un paramètre facultatif <code>offset</code> définit la longueur maximale du sous-ensemble.
 

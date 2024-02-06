@@ -5,8 +5,6 @@ title: Value.ViewFunction
 # Value.ViewFunction
 
 
-## Description
-
 Bu işlev, yalnızca iç kullanıma yöneliktir.
 
 
@@ -19,7 +17,7 @@ Value.ViewFunction(
 ```
 
 
-## Details
+## Remarks
 
 Bu işlev, yalnızca iç kullanıma yöneliktir.
 

@@ -5,8 +5,6 @@ title: BinaryFormat.Byte
 # BinaryFormat.Byte
 
 
-## Description
-
 Format binarny odczytujący 8-bitową liczbę całkowitą bez znaku.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Byte(
 ```
 
 
-## Details
+## Remarks
 
 Format binarny odczytujący 8-bitową liczbę całkowitą bez znaku.
 

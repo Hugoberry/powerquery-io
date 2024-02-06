@@ -5,8 +5,6 @@ title: List.Times
 # List.Times
 
 
-## Description
-
 Verilen ilk değer, sayı ve artımlı süre değerinden time değer listesi oluşturur.
 
 
@@ -21,7 +19,7 @@ List.Times(
 ```
 
 
-## Details
+## Remarks
 
 <code>count</code> boyutunda <code>start</code> konumunda başlayan bir <code>time</code> değer listesi döndürür. <code>step</code> verilen artışı her değere eklenen bir <code>duration</code> değeridir.
 

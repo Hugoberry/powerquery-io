@@ -5,8 +5,6 @@ title: Excel.CurrentWorkbook
 # Excel.CurrentWorkbook
 
 
-## Description
-
 Trả về nội dung của sổ làm việc Excel hiện tại.
 
 
@@ -19,7 +17,7 @@ Excel.CurrentWorkbook(
 ```
 
 
-## Details
+## Remarks
 
 Trả về nội dung của sổ làm việc Excel hiện tại. Trả về bảng, dải ô có tên và mảng động. Không giống như <code>Excel.Workbook</code>, nó không trả về trang tính.
 

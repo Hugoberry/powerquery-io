@@ -5,8 +5,6 @@ title: List.Min
 # List.Min
 
 
-## Description
-
 最小値または空のリストの既定値を返します。
 
 
@@ -22,7 +20,7 @@ List.Min(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>list</code> 内の最小の項目を返します。リストが空の場合、省略可能な既定値 <code>default</code> を返します。    省略可能な comparisonCriteria 値 <code>comparisonCriteria</code> を指定して、リスト内の項目を比較する方法を決定することができます。このパラメーターが null の場合、既定の比較関数が使用されます。
 

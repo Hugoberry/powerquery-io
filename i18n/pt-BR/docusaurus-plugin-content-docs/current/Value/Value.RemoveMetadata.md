@@ -5,8 +5,6 @@ title: Value.RemoveMetadata
 # Value.RemoveMetadata
 
 
-## Description
-
 Distribui a entrada dos metadados.
 
 
@@ -20,7 +18,7 @@ Value.RemoveMetadata(
 ```
 
 
-## Details
+## Remarks
 
 Distribui a entrada dos metadados.
 

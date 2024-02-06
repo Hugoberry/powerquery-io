@@ -5,8 +5,6 @@ title: List.Alternate
 # List.Alternate
 
 
-## Description
-
 Restituisce un elenco formato da tutti gli elementi con offset dispari di un elenco.
 
 
@@ -22,7 +20,7 @@ List.Alternate(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un elenco formato da tutti gli elementi con offset dispari di un elenco. Accetta e ignora i valori dell'elenco <code>list</code> a seconda dei parametri.    <ul>    <li><code>count</code>: specifica il numero di valori che vengono ignorati ogni volta.</li>    <li><code>repeatInterval</code>: un intervallo di ripetizione facoltativo per indicare quanti valori vengono aggiunti tra i valori ignorati.</li>    <li><code>offset</code>: parametro di offset di opzione per iniziare a ignorare i valori in corrispondenza dell'offset iniziale.</li>    </ul>
 

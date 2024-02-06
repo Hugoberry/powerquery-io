@@ -5,8 +5,6 @@ title: Number.RoundTowardZero
 # Number.RoundTowardZero
 
 
-## Description
-
 Retorna o resultado de arredondar números positivos para baixo e números negativos para cima. O número de dígitos pode ser especificado.
 
 
@@ -20,7 +18,7 @@ Number.RoundTowardZero(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o resultado do arredondamento de <code>number</code> com base no sinal do número. Essa função arrendondará números positivos para baixo e números negativos para cima.    Se <code>digits</code> for especificado, <code>number</code> será arredondado ao <code>digits</code> número de casas decimais.  
 

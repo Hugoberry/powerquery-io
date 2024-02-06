@@ -5,8 +5,6 @@ title: Table.ReplaceKeys
 # Table.ReplaceKeys
 
 
-## Description
-
 取代指定資料表的索引鍵。
 
 
@@ -20,7 +18,7 @@ Table.ReplaceKeys(
 ```
 
 
-## Details
+## Remarks
 
 取代指定資料表的索引鍵。
 

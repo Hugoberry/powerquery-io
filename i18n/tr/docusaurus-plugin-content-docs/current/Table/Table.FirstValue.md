@@ -5,8 +5,6 @@ title: Table.FirstValue
 # Table.FirstValue
 
 
-## Description
-
 Tablonun ilk satırının ilk sütununu veya belirtilen varsayılan bir değeri döndürür.
 
 
@@ -20,7 +18,7 @@ Table.FirstValue(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> tablosunun ilk satırının ilk sütununu veya belirtilen bir varsayılan değeri döndürür.
 

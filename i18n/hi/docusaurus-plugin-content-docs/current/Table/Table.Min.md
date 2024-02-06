@@ -5,8 +5,6 @@ title: Table.Min
 # Table.Min
 
 
-## Description
-
 दिए गए मापदंड का उपयोग करके सबसे छोटी पंक्ति या डिफ़ॉल्ट मान लौटाता है.
 
 
@@ -21,7 +19,7 @@ Table.Min(
 ```
 
 
-## Details
+## Remarks
 
 दिए गए <code>comparisonCriteria</code> का उपयोग करके, <code>table</code> की सबसे छोटी पंक्ति लौटाता है. यदि तालिका रिक्त होती है, तो वैकल्पिक <code>default</code> मान लौटाया जाता है.
 

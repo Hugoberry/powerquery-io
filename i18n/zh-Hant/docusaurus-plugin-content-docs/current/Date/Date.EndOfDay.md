@@ -5,8 +5,6 @@ title: Date.EndOfDay
 # Date.EndOfDay
 
 
-## Description
-
 傳回當日的結束時間。
 
 
@@ -19,7 +17,7 @@ Date.EndOfDay(
 ```
 
 
-## Details
+## Remarks
 
 傳回以 <code>dateTime</code> 代表的每日結束時間。會保留時區資訊。      <ul>        <li><code>dateTime</code>: 要用來計算每日結束時間的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值</li>      </ul>
 

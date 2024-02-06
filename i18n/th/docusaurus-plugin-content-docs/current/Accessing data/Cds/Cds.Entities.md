@@ -16,7 +16,7 @@ Cds.Entities(
 ```
 
 
-## Details
+## Remarks
 
 เชื่อมต่อไปยังอินสแตนซ์ Common Data Service ของคุณ (Dynamics 365 และ PowerApps)
 

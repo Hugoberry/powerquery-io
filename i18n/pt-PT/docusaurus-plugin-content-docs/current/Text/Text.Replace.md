@@ -5,8 +5,6 @@ title: Text.Replace
 # Text.Replace
 
 
-## Description
-
 Substitui todas as ocorrências da subcadeia especificada no texto.
 
 
@@ -21,7 +19,7 @@ Text.Replace(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o resultado da substituição de todas as ocorrências do valor de texto <code>old</code> no valor de texto <code>text</code> pelo valor de texto <code>new</code>. Esta função é sensível às maiúsculas e minúsculas.
 

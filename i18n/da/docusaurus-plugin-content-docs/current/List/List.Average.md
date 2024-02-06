@@ -5,8 +5,6 @@ title: List.Average
 # List.Average
 
 
-## Description
-
 Returnerer gennemsnittet af værdierne. Fungerer med værdier af typen number, date, datetime, datetimezone og duration.
 
 
@@ -20,7 +18,7 @@ List.Average(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer gennemsnitsværdien for elementerne på listen <code>list</code>. Resultatet vises med samme datatype som værdierne på listen. Fungerer kun med værdier af typen number, date, time, datetime, datetimezone og duration.    Hvis listen er tom, returneres null.
 

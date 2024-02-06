@@ -5,8 +5,6 @@ title: Value.NullableEquals
 # Value.NullableEquals
 
 
-## Description
-
 Zwraca informację, czy dwie wartości są równe.
 
 
@@ -21,7 +19,7 @@ Value.NullableEquals(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wartość null, jeśli dowolny z argumentów „<code>value1</code>” i „<code>value2</code>” ma wartość null; w przeciwnym razie działa jak funkcja Value.Equals.
 

@@ -5,8 +5,6 @@ title: List.InsertRange
 # List.InsertRange
 
 
-## Description
-
 Verilen dizindeki bir listeye değer ekler.
 
 
@@ -21,7 +19,7 @@ List.InsertRange(
 ```
 
 
-## Details
+## Remarks
 
 <code>values</code> içindeki değerleri <code>index</code> konumundaki <code>list</code> içine ekleme ile oluşan yeni bir liste döndürür. Listedeki ilk konum dizin 0'dadır.      <ul>        <li><code>list</code>: Değerlerin ekleneceği hedef liste.</li>        <li><code>index</code>: Değerlerin ekleneceği hedef listenin (<code>list</code>) dizini. Listenin dizin 0 konumundaki ilk konum.</li>        <li><code>values</code>: <code>list</code> öğesine eklenecek değerlerin listesi.</li>      </ul>
 

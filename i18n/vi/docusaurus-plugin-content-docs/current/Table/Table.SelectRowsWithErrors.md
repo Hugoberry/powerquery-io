@@ -5,8 +5,6 @@ title: Table.SelectRowsWithErrors
 # Table.SelectRowsWithErrors
 
 
-## Description
-
 Trả về một bảng chỉ có các hàng bị lỗi ít nhất một ô bị của bảng đầu vào. Nếu chỉ định danh sách cột thì chỉ các ô trong cột được chỉ định được kiểm tra lỗi.
 
 
@@ -20,7 +18,7 @@ Table.SelectRowsWithErrors(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bảng chỉ có các hàng bị lỗi ít nhất một ô bị của bảng đầu vào. Nếu chỉ định danh sách cột thì chỉ các ô trong cột được chỉ định được kiểm tra lỗi.
 

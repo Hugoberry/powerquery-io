@@ -5,8 +5,6 @@ title: Text.Format
 # Text.Format
 
 
-## Description
-
 Retourneert opgemaakte tekst op basis van een tekenreeks en argumenten voor opmaak.
 
 
@@ -21,7 +19,7 @@ Text.Format(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt opgemaakte tekst geretourneerd waarbij <code>arguments</code> uit een lijst of record wordt toegepast op een notatietekenreeks <code>formatString</code>. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
 

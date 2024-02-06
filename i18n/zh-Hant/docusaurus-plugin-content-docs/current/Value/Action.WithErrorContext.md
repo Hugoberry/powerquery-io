@@ -5,8 +5,6 @@ title: Action.WithErrorContext
 # Action.WithErrorContext
 
 
-## Description
-
 此函式僅供內部使用。
 
 
@@ -20,7 +18,7 @@ Action.WithErrorContext(
 ```
 
 
-## Details
+## Remarks
 
 此函式僅供內部使用。
 

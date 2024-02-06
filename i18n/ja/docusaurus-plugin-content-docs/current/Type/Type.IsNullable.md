@@ -5,8 +5,6 @@ title: Type.IsNullable
 # Type.IsNullable
 
 
-## Description
-
 NULL 許容型の場合は true、それ以外の場合は false を返します。
 
 
@@ -19,7 +17,7 @@ Type.IsNullable(
 ```
 
 
-## Details
+## Remarks
 
 <code>nullable</code> 型の場合は <code>true</code> を、それ以外の場合は <code>false</code> を返します。
 

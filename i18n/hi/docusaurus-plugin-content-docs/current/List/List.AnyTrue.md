@@ -5,8 +5,6 @@ title: List.AnyTrue
 # List.AnyTrue
 
 
-## Description
-
 अगर कोई भी व्यंजक true है, तो true लौटाता है.
 
 
@@ -19,7 +17,7 @@ List.AnyTrue(
 ```
 
 
-## Details
+## Remarks
 
 अगर सूची <code>list</code> का कोई भी व्यंजक true है, तो true लौटाता है.
 

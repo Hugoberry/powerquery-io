@@ -5,8 +5,6 @@ title: Function.InvokeAfter
 # Function.InvokeAfter
 
 
-## Description
-
 Roept de ingestelde functie aan nadat de opgegeven periode is verstreken.
 
 
@@ -20,7 +18,7 @@ Function.InvokeAfter(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het resultaat van het aanroepen van <code>function</code> nadat <code>delay</code> is verstreken.
 

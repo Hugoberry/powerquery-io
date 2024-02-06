@@ -5,8 +5,6 @@ title: DateTimeZone.ToLocal
 # DateTimeZone.ToLocal
 
 
-## Description
-
 Zet het tijdzonegedeelte om naar de lokale tijdzone.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToLocal(
 ```
 
 
-## Details
+## Remarks
 
 Wijzigt informatie over de tijdzone van de datum-/tijdzonewaarde <code>dateTimeZone</code> in informatie over de lokale tijdzone.    Als <code>dateTimeZone</code> geen tijdzonegedeelte heeft, wordt de informatie over de lokale tijdzone toegevoegd.
 

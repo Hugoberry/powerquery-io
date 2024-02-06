@@ -5,8 +5,6 @@ title: Table.RenameColumns
 # Table.RenameColumns
 
 
-## Description
-
 Применяет переименование в форме \{old, new}.
 
 
@@ -21,7 +19,7 @@ Table.RenameColumns(
 ```
 
 
-## Details
+## Remarks
 
 Выполняет заданное переименовывание столбцов в таблице <code>table</code>. В операции замены <code>renames</code> применяется список пар значений - старое имя столбца и новое имя столбца.    Если столбец не существует, возникает исключение, если необязательным параметром <code>missingField</code> не задана альтернатива (например, <code>MissingField.UseNull</code> или <code>MissingField.Ignore</code>).
 

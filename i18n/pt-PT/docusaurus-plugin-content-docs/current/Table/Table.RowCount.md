@@ -5,8 +5,6 @@ title: Table.RowCount
 # Table.RowCount
 
 
-## Description
-
 Devolve o número de linhas na tabela.
 
 
@@ -19,7 +17,7 @@ Table.RowCount(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o número de linhas em <code>table</code>.
 

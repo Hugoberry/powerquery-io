@@ -5,8 +5,6 @@ title: BinaryFormat.Decimal
 # BinaryFormat.Decimal
 
 
-## Description
-
 一種二進位格式，可讀取 .NET 16 位元組十進位值。
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Decimal(
 ```
 
 
-## Details
+## Remarks
 
 一種二進位格式，可讀取 .NET 16 位元組十進位值。
 

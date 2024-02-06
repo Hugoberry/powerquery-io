@@ -5,8 +5,6 @@ title: List.Repeat
 # List.Repeat
 
 
-## Description
-
 Возвращает список, повторяющий исходный список указанное число раз.
 
 
@@ -20,7 +18,7 @@ List.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает список, <code>count</code> раз повторяющий исходный список <code>list</code>.
 

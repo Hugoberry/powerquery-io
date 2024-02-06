@@ -5,8 +5,6 @@ title: Table.FillUp
 # Table.FillUp
 
 
-## Description
-
 Geeft de waarde van een cel door naar de cellen met nulwaarden erboven in de kolom.
 
 
@@ -20,7 +18,7 @@ Table.FillUp(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de tabel uit de opgegeven <code>table</code> waar de waarde van de volgende cel wordt doorgegeven naar de cellen met nulwaarden erboven in de opgegeven <code>columns</code> kolom.
 

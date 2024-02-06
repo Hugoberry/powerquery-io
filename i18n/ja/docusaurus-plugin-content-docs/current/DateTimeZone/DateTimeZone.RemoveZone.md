@@ -5,8 +5,6 @@ title: DateTimeZone.RemoveZone
 # DateTimeZone.RemoveZone
 
 
-## Description
-
 指定された datetimezone 値からタイム ゾーン情報を削除します。
 
 
@@ -19,7 +17,7 @@ DateTimeZone.RemoveZone(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTimeZone</code> からタイム ゾーン情報が削除された #datetime 値を返します。
 

@@ -5,8 +5,6 @@ title: List.AllTrue
 # List.AllTrue
 
 
-## Description
-
 Tüm ifadeler doğru ise doğru değerini döndürür.
 
 
@@ -19,7 +17,7 @@ List.AllTrue(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesindeki tüm ifadeler doğru ise doğru değerini döndürür.
 

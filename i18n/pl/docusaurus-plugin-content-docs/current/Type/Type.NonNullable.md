@@ -5,8 +5,6 @@ title: Type.NonNullable
 # Type.NonNullable
 
 
-## Description
-
 Zwraca typ niedopuszczający wartości null z typu.
 
 
@@ -19,7 +17,7 @@ Type.NonNullable(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca typ inny niż <code>nullable</code> z typu <code>type</code>.
 

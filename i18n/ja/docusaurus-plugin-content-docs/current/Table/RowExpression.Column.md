@@ -5,8 +5,6 @@ title: RowExpression.Column
 # RowExpression.Column
 
 
-## Description
-
 row 式内の行の列へのアクセスを表す抽象構文ツリー (AST) を返します。
 
 
@@ -19,7 +17,7 @@ RowExpression.Column(
 ```
 
 
-## Details
+## Remarks
 
 row 式内の行の列 <code>columnName</code> へのアクセスを表す抽象構文ツリー (AST) を返します。
 

@@ -5,8 +5,6 @@ title: Binary.ApproximateLength
 # Binary.ApproximateLength
 
 
-## Description
-
 ส่งกลับความยาวโดยประมาณของไบนารี
 
 
@@ -19,7 +17,7 @@ Binary.ApproximateLength(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับความยาวโดยประมาณของ <code>binary</code> หรือข้อผิดพลาด หากแหล่งข้อมูลไม่สนับสนุนความยาวโดยประมาณ
 

@@ -5,8 +5,6 @@ title: Diagnostics.ActivityId
 # Diagnostics.ActivityId
 
 
-## Description
-
 Возвращает непрозрачный идентификатор для текущего вычисления.
 
 
@@ -19,7 +17,7 @@ Diagnostics.ActivityId(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает непрозрачный идентификатор для текущего вычисления.
 

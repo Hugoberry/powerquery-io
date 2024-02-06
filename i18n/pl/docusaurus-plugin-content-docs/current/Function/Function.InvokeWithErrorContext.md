@@ -5,8 +5,6 @@ title: Function.InvokeWithErrorContext
 # Function.InvokeWithErrorContext
 
 
-## Description
-
 Ta funkcja jest przeznaczona tylko do użytku wewnętrznego.
 
 
@@ -20,7 +18,7 @@ Function.InvokeWithErrorContext(
 ```
 
 
-## Details
+## Remarks
 
 Ta funkcja jest przeznaczona tylko do użytku wewnętrznego.
 

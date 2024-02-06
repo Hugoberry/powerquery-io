@@ -5,8 +5,6 @@ title: Type.RecordFields
 # Type.RecordFields
 
 
-## Description
-
 Zwraca rekord opisujący pola typu rekordu z każdym polem zwróconego typu rekordu razem z odpowiednią nazwą i wartością.
 
 
@@ -19,7 +17,7 @@ Type.RecordFields(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca rekord opisujący pola rekordu <code>type</code>. Każde pole zwróconego typu rekordu ma odpowiednią nazwę i wartość w postaci rekordu <code>[ Type = type, Optional = logical ]</code>.
 

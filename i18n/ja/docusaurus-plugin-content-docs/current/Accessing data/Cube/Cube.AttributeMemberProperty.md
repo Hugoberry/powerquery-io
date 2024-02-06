@@ -5,8 +5,6 @@ title: Cube.AttributeMemberProperty
 # Cube.AttributeMemberProperty
 
 
-## Description
-
 ディメンション属性のプロパティを返します。
 
 
@@ -20,7 +18,7 @@ Cube.AttributeMemberProperty(
 ```
 
 
-## Details
+## Remarks
 
 ディメンション属性 <code>attribute</code> のプロパティ <code>propertyName</code> を返します。
 

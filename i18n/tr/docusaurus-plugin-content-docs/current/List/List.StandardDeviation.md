@@ -5,8 +5,6 @@ title: List.StandardDeviation
 # List.StandardDeviation
 
 
-## Description
-
 Standart sapmanın örneklem tabanlı tahminini döndürür.
 
 
@@ -19,7 +17,7 @@ List.StandardDeviation(
 ```
 
 
-## Details
+## Remarks
 
 Bir örneği temel alarak <code>numbersList</code> listesindeki değerlerin standart sapma tahminlerini döndürür.    <code>numbersList</code> sayılardan oluşan bir listeyse bir sayı döndürülür.    Boş listeler veya <code>number</code> türünde olmayan öğelerden oluşan listeler için özel durum oluşturulur.
 

@@ -5,8 +5,6 @@ title: Number.Combinations
 # Number.Combinations
 
 
-## Description
-
 Retourneert het aantal unieke combinaties.
 
 
@@ -20,7 +18,7 @@ Number.Combinations(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het aantal unieke combinaties uit een lijst items, <code>setSize</code>, met de opgegeven combinatiegrootte, <code>combinationSize</code>.<ul>    <li><code>setSize</code>: het aantal items in de lijst.</li>    <li><code>combinationSize</code>: het aantal items in elke combinatie.</li></ul>
 

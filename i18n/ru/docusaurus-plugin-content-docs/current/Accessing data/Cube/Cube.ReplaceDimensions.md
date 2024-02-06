@@ -5,8 +5,6 @@ title: Cube.ReplaceDimensions
 # Cube.ReplaceDimensions
 
 
-## Description
-
 Заменяет набор измерений, возвращаемых Cube.Dimensions.
 
 
@@ -20,7 +18,7 @@ Cube.ReplaceDimensions(
 ```
 
 
-## Details
+## Remarks
 
 Заменяет набор измерений, возвращаемых <code>Cube.Dimensions</code>.    Например, эту функцию можно использовать для добавления столбца идентификатора в атрибут измерения, чтобы источник данных можно было группировать по идентификатору, а не отображаемому значению.
 

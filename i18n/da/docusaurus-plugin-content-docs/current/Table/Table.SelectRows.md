@@ -5,8 +5,6 @@ title: Table.SelectRows
 # Table.SelectRows
 
 
-## Description
-
 Vælg de rækker, der overholder betingelsesfunktionen.
 
 
@@ -20,7 +18,7 @@ Table.SelectRows(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel med rækker fra <code>table</code>, der stemmer overens med den valgte <code>condition</code>.
 

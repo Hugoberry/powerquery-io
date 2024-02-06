@@ -5,8 +5,6 @@ title: Table.Transpose
 # Table.Transpose
 
 
-## Description
-
 Maakt kolommen in rijen en rijen in kolommen.
 
 
@@ -20,7 +18,7 @@ Table.Transpose(
 ```
 
 
-## Details
+## Remarks
 
 Maakt kolommen in rijen en rijen in kolommen.
 

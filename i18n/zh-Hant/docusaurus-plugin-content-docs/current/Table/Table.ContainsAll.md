@@ -5,8 +5,6 @@ title: Table.ContainsAll
 # Table.ContainsAll
 
 
-## Description
-
 指出所有指定的記錄是否都顯示成資料表中的資料列。
 
 
@@ -21,7 +19,7 @@ Table.ContainsAll(
 ```
 
 
-## Details
+## Remarks
 
 指出記錄清單 <code>rows</code> 中所有指定的記錄是否都顯示成 <code>table</code> 中的資料列。    可指定選擇性參數 <code>equationCriteria</code> 以控制資料表資料列之間的比較方式。
 

@@ -5,8 +5,6 @@ title: Number.IsNaN
 # Number.IsNaN
 
 
-## Description
-
 Указывает, является ли значение NaN (нечисловым).
 
 
@@ -19,7 +17,7 @@ Number.IsNaN(
 ```
 
 
-## Details
+## Remarks
 
 Указывает, является ли значение NaN (нечисловым). Возвращает <code>true</code>, если значение <code>number</code> эквивалентно <code>Number.IsNaN</code>, и <code>false</code> - в противном случае.
 

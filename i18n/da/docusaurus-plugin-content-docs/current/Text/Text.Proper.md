@@ -5,8 +5,6 @@ title: Text.Proper
 # Text.Proper
 
 
-## Description
-
 Skriver første bogstav i alle ord med stort.
 
 
@@ -20,7 +18,7 @@ Text.Proper(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer resultatet af kun at skrive første bogstav med stort i alle ord i tekstværdien <code>text</code>. Alle andre bogstaver returneres som små bogstaver. Der kan også gives angives en valgfri <code>culture</code> (f.eks. "en-US").
 

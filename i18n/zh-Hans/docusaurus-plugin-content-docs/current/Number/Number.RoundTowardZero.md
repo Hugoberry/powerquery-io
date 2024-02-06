@@ -5,8 +5,6 @@ title: Number.RoundTowardZero
 # Number.RoundTowardZero
 
 
-## Description
-
 返回向下舍入正数和向上舍入负数的结果。可以指定位数。
 
 
@@ -20,7 +18,7 @@ Number.RoundTowardZero(
 ```
 
 
-## Details
+## Remarks
 
 基于数字的符号返回舍入 <code>number</code> 的结果。此函数将向下舍入正数、向上舍入负数。    如果指定了 <code>digits</code>，则将 <code>number</code> 舍入为包含 <code>digits</code> 位小数。  
 

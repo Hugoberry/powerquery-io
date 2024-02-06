@@ -5,8 +5,6 @@ title: Webtrends.KeyMetrics
 # Webtrends.KeyMetrics
 
 
-## Description
-
 Webtrends の主要指標を含むテーブルを返します。
 
 
@@ -21,7 +19,7 @@ Webtrends.KeyMetrics(
 ```
 
 
-## Details
+## Remarks
 
 Webtrends KeyMetrics エンドポイントへの呼び出しを実行して、すべてのデータをテーブルとして返します。
 

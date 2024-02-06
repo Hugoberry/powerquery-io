@@ -5,8 +5,6 @@ title: Text.TrimStart
 # Text.TrimStart
 
 
-## Description
-
 Remove todos os espaços em branco à esquerda.
 
 
@@ -20,7 +18,7 @@ Text.TrimStart(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o resultado da remoção de todos os espaços em branco à esquerda do valor de texto <code>text</code>.
 

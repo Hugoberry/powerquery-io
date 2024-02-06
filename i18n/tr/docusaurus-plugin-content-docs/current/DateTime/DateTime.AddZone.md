@@ -5,8 +5,6 @@ title: DateTime.AddZone
 # DateTime.AddZone
 
 
-## Description
-
 Tarih saat değerine saat dilimi bilgisini ekler.
 
 
@@ -21,7 +19,7 @@ DateTime.AddZone(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> değerine saat dilimi bilgisini ekler. Saat dilimi bilgisi <code>timezoneHours</code> ve isteğe bağlı olarak istenen UTC saati farkını belirten <code>timezoneMinutes</code> verisini içerir.
 

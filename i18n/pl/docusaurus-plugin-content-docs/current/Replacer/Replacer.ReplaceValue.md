@@ -5,8 +5,6 @@ title: Replacer.ReplaceValue
 # Replacer.ReplaceValue
 
 
-## Description
-
 Zamienia wartości na podane dane wejściowe.
 
 
@@ -21,7 +19,7 @@ Replacer.ReplaceValue(
 ```
 
 
-## Details
+## Remarks
 
 Zamienia wartość <code>old</code> w oryginalnej wartości <code>value</code> na wartość <code>new</code>. Tej funkcji zamieniającej można używać w funkcjach <code>List.ReplaceValue</code> i <code>Table.ReplaceValue</code>.
 

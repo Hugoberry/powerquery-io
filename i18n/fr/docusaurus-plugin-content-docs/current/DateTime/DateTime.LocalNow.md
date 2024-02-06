@@ -5,8 +5,6 @@ title: DateTime.LocalNow
 # DateTime.LocalNow
 
 
-## Description
-
 Retourne la date et l&#39;heure actuelles dans le fuseau horaire local.
 
 
@@ -19,7 +17,7 @@ DateTime.LocalNow(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une valeur <code>datetime</code> définie selon la date et l'heure actuelles du système.
 

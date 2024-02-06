@@ -5,8 +5,6 @@ title: MailChimp.Collection
 # MailChimp.Collection
 
 
-## Description
-
 Hiermee wordt een tabel van een MailChimp-eindpunt geretourneerd.
 
 
@@ -20,7 +18,7 @@ MailChimp.Collection(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een aanroep uitgevoerd naar de MailChimp-API en wordt de resulterende gegevensset als tabel geretourneerd. Alle resultaten worden automatisch verwerkt. De optionele entityName-parameter kan worden gebruikt voor API-eindpunten waarbij het hoofdeindpunt en de hoofd-entityName in het JSON-antwoord niet overeenkomen.
 

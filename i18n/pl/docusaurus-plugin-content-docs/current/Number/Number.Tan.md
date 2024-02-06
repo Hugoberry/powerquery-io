@@ -5,8 +5,6 @@ title: Number.Tan
 # Number.Tan
 
 
-## Description
-
 Zwraca tangens liczby.
 
 
@@ -19,7 +17,7 @@ Number.Tan(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tangens liczby <code>number</code>.
 

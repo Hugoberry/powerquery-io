@@ -5,8 +5,6 @@ title: List.Product
 # List.Product
 
 
-## Description
-
 Devolve o produto dos números existentes na lista.
 
 
@@ -20,7 +18,7 @@ List.Product(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o produto dos números não nulos existentes na lista, <code>numbersList</code>. Devolve nulo se não existirem valores não nulos na lista.
 

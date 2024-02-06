@@ -5,8 +5,6 @@ title: Splitter.SplitTextByDelimiter
 # Splitter.SplitTextByDelimiter
 
 
-## Description
-
 Trả về một hàm tách văn bản thành một danh sách văn bản theo dấu tách được chỉ định.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một hàm tách văn bản thành một danh sách văn bản theo dấu tách được chỉ định.
 

@@ -5,8 +5,6 @@ title: AzureCostManagement.Tables
 # AzureCostManagement.Tables
 
 
-## Description
-
 Azure 成本管理
 
 
@@ -22,7 +20,7 @@ AzureCostManagement.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Azure 成本管理
 

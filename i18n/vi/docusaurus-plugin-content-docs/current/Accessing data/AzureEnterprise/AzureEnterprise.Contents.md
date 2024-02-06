@@ -5,8 +5,6 @@ title: AzureEnterprise.Contents
 # AzureEnterprise.Contents
 
 
-## Description
-
 Nhập URL của điểm cuối API REST Azure Enterprise được liên kết với đăng ký của bạn
 
 
@@ -20,7 +18,7 @@ AzureEnterprise.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả nhị phân của lệnh gọi tới url được cung cấp cho API Azure Enterprise.
 

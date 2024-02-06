@@ -5,8 +5,6 @@ title: Binary.Combine
 # Binary.Combine
 
 
-## Description
-
 รวมรายการไบนารีลงในไบนารีเดียว
 
 
@@ -19,7 +17,7 @@ Binary.Combine(
 ```
 
 
-## Details
+## Remarks
 
 รวมรายการไบนารีลงในไบนารีเดียว
 

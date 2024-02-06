@@ -5,8 +5,6 @@ title: List.Intersect
 # List.Intersect
 
 
-## Description
-
 Retourne l&#39;intersection des valeurs de la liste trouvées dans l&#39;entrée.
 
 
@@ -20,7 +18,7 @@ List.Intersect(
 ```
 
 
-## Details
+## Remarks
 
 Retourne l'intersection des valeurs de la liste trouvées dans la liste d'entrée <code>lists</code>. Un paramètre facultatif, <code>equationCriteria</code>, peut être spécifié.
 

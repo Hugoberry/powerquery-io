@@ -5,8 +5,6 @@ title: Date.IsInCurrentQuarter
 # Date.IsInCurrentQuarter
 
 
-## Description
-
 Angiver, om denne dato indtræffer i løbet af det aktuelle kvartal i forhold til den aktuelle dag og det aktuelle klokkeslæt i systemet.
 
 
@@ -19,7 +17,7 @@ Date.IsInCurrentQuarter(
 ```
 
 
-## Details
+## Remarks
 
 Angiver, om den anførte datetime-værdi <code>dateTime</code> indtræffer i løbet af det aktuelle kvartal i forhold til den aktuelle dag og det aktuelle klokkeslæt i systemet.      <ul>      <li><code>dateTime</code>: En værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>, der skal evalueres.</li>      </ul>
 

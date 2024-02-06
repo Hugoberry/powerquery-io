@@ -5,8 +5,6 @@ title: List.FindText
 # List.FindText
 
 
-## Description
-
 Retorna uma lista de valores (incluindo os campos de registro) que contêm o texto especificado.
 
 
@@ -20,7 +18,7 @@ List.FindText(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma lista de valores da lista <code>list</code> que continha o valor <code>text</code>.
 

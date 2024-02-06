@@ -5,8 +5,6 @@ title: Excel.Workbook
 # Excel.Workbook
 
 
-## Description
-
 Zwraca zawartość skoroszytu programu Excel.
 
 
@@ -21,7 +19,7 @@ Excel.Workbook(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca zawartość skoroszytu programu Excel.    <ul>     <li> Element <code>useHeaders</code> może mieć wartość null lub wartość logiczną (true/false) wskazującą, czy pierwszy wiersz każdej zwracanej tabeli ma być traktowany jako nagłówek, czy jako rekord opcji. Wartość domyślna: false.</li>     <li> Element <code>delayTypes</code> może mieć wartość null lub wartość logiczną (true/false) wskazującą, czy kolumny każdej zwracanej tabeli powinny być pozostawione bez typu. Wartość domyślna: false.</li>    </ul>    Jeśli dla elementu <code>useHeaders</code> zostanie określony rekord (i element <code>delayTypes</code> ma wartość null), mogą zostać podane następujące pola rekordu:    <ul>     <li> <code>UseHeaders</code>: może mieć wartość null lub wartość logiczną (true/false) wskazującą, czy pierwszy wiersz każdej zwracanej tabeli ma być traktowany jako nagłówek. Wartość domyślna: false.</li>     <li> <code>DelayTypes</code>: może mieć wartość null lub wartość logiczną (true/false) wskazującą, czy kolumny każdej zwracanej tabeli powinny być pozostawione bez typu. Wartość domyślna: false.</li>     <li> <code>InferSheetDimensions</code>: może mieć wartość null lub wartość logiczną (true/false) wskazującą, czy wnioskowanie na temat obszaru arkusza zawierającego dane ma być wykonywane na podstawie odczytania samego arkusza, czy metadanych wymiarów z pliku. Może to być przydatne w przypadku, gdy metadane wymiarów są nieprawidłowe. Należy pamiętać, że ta opcja jest obsługiwana tylko w przypadku plików Open XML programu Excel, ale nie dla starszych plików programu Excel. Wartość domyślna: false.</li>    </ul>    
 

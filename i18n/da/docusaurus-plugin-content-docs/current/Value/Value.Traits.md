@@ -5,8 +5,6 @@ title: Value.Traits
 # Value.Traits
 
 
-## Description
-
 Denne funktion er kun beregnet til intern brug.
 
 
@@ -19,7 +17,7 @@ Value.Traits(
 ```
 
 
-## Details
+## Remarks
 
 Denne funktion er kun beregnet til intern brug.
 

@@ -5,8 +5,6 @@ title: PowerPlatform.Dataflows
 # PowerPlatform.Dataflows
 
 
-## Description
-
 Importieren von Daten aus einem Dataflow
 
 
@@ -19,7 +17,7 @@ PowerPlatform.Dataflows(
 ```
 
 
-## Details
+## Remarks
 
 Stellen Sie eine Verbindung mit allen Dataflows her, auf die Sie zugreifen können, und wählen Sie die Entitäten, die Sie verwenden möchten
 

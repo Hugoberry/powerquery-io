@@ -5,8 +5,6 @@ title: List.Buffer
 # List.Buffer
 
 
-## Description
-
 Place une liste en mémoire tampon.
 
 
@@ -19,7 +17,7 @@ List.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Place la liste <code>list</code> dans la mémoire. Le résultat de cet appel est une liste stable.
 

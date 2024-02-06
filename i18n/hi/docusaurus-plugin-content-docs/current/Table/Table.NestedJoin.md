@@ -5,8 +5,6 @@ title: Table.NestedJoin
 # Table.NestedJoin
 
 
-## Description
-
 प्रदत्त स्तंभों पर तालिकाओं के बीच एक जॉइन करता है और एक नए स्तंभ में जॉइन परिणाम देता है.
 
 
@@ -25,7 +23,7 @@ Table.NestedJoin(
 ```
 
 
-## Details
+## Remarks
 
 <code>key1</code> (<code>table1</code> के लिए)और <code>key2</code> (<code>table2</code> के लिए) द्वारा चयनित कुँजी स्तंभों के मानों की गुणवत्ता के आधार पर <code>table1</code> की पंक्तियों और <code>table2</code> की पंक्तियों को जॉइन करता है. परिणामों को <code>newColumnName</code> नाम वाले स्तंभ में दर्ज किया जाता है.<br />वैकल्पिक <code>joinKind</code> निष्पादित किए जाने वाले जॉइन के प्रकार को निर्दिष्ट करता है. डिफ़ॉल्ट रूप से, यदि <code>joinKind</code> निर्दिष्ट नहीं किया जाता है, तो दायाँ बाह्य जॉइन निष्पादित किया जाता है.<br />कुंजी स्तंभों की तुलना करने के तरीकों को निर्दिष्ट करने के लिए <code>keyEqualityComparers</code> का एक वैकल्पिक सेट भी शामिल किया जा सकता है.<br /> 
 

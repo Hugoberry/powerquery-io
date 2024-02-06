@@ -5,8 +5,6 @@ title: Number.BitwiseNot
 # Number.BitwiseNot
 
 
-## Description
-
 Her bitin girdinin karşıtı olduğu bir bayt döndürür.
 
 
@@ -19,7 +17,7 @@ Number.BitwiseNot(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> üzerinde bit tabanlı "Not" işlemi uygulamanın sonucunu döndürür.
 

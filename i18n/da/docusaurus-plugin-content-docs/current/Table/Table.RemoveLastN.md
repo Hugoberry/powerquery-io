@@ -5,8 +5,6 @@ title: Table.RemoveLastN
 # Table.RemoveLastN
 
 
-## Description
-
 Returnerer en tabel, hvor de sidste N rækker er fjernet.
 
 
@@ -20,7 +18,7 @@ Table.RemoveLastN(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel, der ikke indeholder de sidste <code>countOrCondition</code> rækker i tabellen <code>table</code>.        Det antal rækker, der fjernes, afhænger af den valgfrie parameter <code>countOrCondition</code>.    <ul>    <li> Hvis <code>countOrCondition</code> udelades, er det kun sidste række, der fjernes. </li>    <li> Hvis <code>countOrCondition</code> er et tal, fjernes der så mange rækker (med start fra bunden). </li>    <li> Hvis <code>countOrCondition</code> er en betingelse, fjernes de rækker, der overholder betingelsen, indtil en række ikke overholder betingelsen.</li>    </ul>
 

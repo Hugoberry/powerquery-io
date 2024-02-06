@@ -5,8 +5,6 @@ title: Combiner.CombineTextByLengths
 # Combiner.CombineTextByLengths
 
 
-## Description
-
 एक फ़ंक्शन लौटाता है जो निर्दिष्ट लंबाई का उपयोग करके टेक्स्ट की सूची को जोड़ता है.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByLengths(
 ```
 
 
-## Details
+## Remarks
 
 एक ऐसा फ़ंक्शन लौटाता है जो निर्दिष्ट लंबाई का उपयोग करके पाठ मानों की सूची को किसी एकल पाठ मान में संयोजित करता है.
 

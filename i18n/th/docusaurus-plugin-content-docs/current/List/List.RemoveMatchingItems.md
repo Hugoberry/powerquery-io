@@ -5,8 +5,6 @@ title: List.RemoveMatchingItems
 # List.RemoveMatchingItems
 
 
-## Description
-
 เอาการปรากฏทั้งหมดของค่าที่ป้อนออก
 
 
@@ -21,7 +19,7 @@ List.RemoveMatchingItems(
 ```
 
 
-## Details
+## Remarks
 
 เอาการปรากฏทั้งหมดของค่าที่กำหนดให้ใน <code>list2</code> ออกจากรายการ <code>list1</code> ถ้าค่าใน <code>list2</code> ไม่มีอยู่ใน <code>list1</code> จะมีการส่งกลับรายการเดิม    โดยสามารถระบุค่าเกณฑ์สมการที่เลือกได้ <code>equationCriteria</code> เพื่อควบคุมการทดสอบความเท่ากัน 
 

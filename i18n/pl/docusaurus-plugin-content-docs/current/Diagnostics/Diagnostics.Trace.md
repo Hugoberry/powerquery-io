@@ -5,8 +5,6 @@ title: Diagnostics.Trace
 # Diagnostics.Trace
 
 
-## Description
-
 Zapisuje wpis śledzenia, jeśli śledzenie jest włączone, i zwraca wartość.
 
 
@@ -22,7 +20,7 @@ Diagnostics.Trace(
 ```
 
 
-## Details
+## Remarks
 
 Zapisuje dane śledzenia <code>message</code>, jeśli śledzenie jest włączone, i zwraca wartość <code>value</code>. Opcjonalny parametr <code>delayed</code> umożliwia określenie, czy ocena wartości <code>value</code> ma zostać opóźniona do czasu wykonania śledzenia komunikatu. Element <code>traceLevel</code> może przyjąć jedną z następujących wartości:    <code>TraceLevel.Critical</code>    <code>TraceLevel.Error</code>,    <code>TraceLevel.Warning</code>,    <code>TraceLevel.Information</code>,    <code>TraceLevel.Verbose</code>.  
 

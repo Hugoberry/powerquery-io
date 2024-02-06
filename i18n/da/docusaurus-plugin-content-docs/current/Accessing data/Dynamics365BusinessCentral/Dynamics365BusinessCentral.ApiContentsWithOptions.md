@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.ApiContentsWithOptions
 # Dynamics365BusinessCentral.ApiContentsWithOptions
 
 
-## Description
-
 Indtast din Dynamics 365 Business Central-miljø og -virksomhed.
 
 
@@ -22,7 +20,7 @@ Dynamics365BusinessCentral.ApiContentsWithOptions(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel med relevante data fra Dynamics 365 Business Central.
 

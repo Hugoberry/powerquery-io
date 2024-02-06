@@ -5,8 +5,6 @@ title: Marketo.Activities
 # Marketo.Activities
 
 
-## Description
-
 लीड गतिविधियों वाली तालिका लौटाता है.
 
 
@@ -21,7 +19,7 @@ Marketo.Activities(
 ```
 
 
-## Details
+## Remarks
 
 <code>url</code>/rest/v1/activities.json पर Marketo REST API एंडपॉइंट को कॉल करता है. सूची <code>activityIds</code> में सभी गतिविधियाँ जो <code>startTime</code> के बाद उत्पन्न हुई हैं, वे लौटा दी गई हैं.
 

@@ -5,8 +5,6 @@ title: Value.NullableEquals
 # Value.NullableEquals
 
 
-## Description
-
 लौटाता है कि क्या दो मान बराबर हैं या नहीं.
 
 
@@ -21,7 +19,7 @@ Value.NullableEquals(
 ```
 
 
-## Details
+## Remarks
 
 अगर '<code>value1</code>', '<code>value2</code> में से कोई भी एक तर्क नल है तो नल, अन्यथा Value.Equals के समतुल्य लौटाता है.
 

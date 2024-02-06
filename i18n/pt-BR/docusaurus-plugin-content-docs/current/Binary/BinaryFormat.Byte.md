@@ -5,8 +5,6 @@ title: BinaryFormat.Byte
 # BinaryFormat.Byte
 
 
-## Description
-
 Um formato binário que lê um número inteiro de 8 bits sem sinal.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Byte(
 ```
 
 
-## Details
+## Remarks
 
 Um formato binário que lê um número inteiro de 8 bits sem sinal.
 

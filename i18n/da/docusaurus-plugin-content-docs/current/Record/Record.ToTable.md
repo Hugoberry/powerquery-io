@@ -5,8 +5,6 @@ title: Record.ToTable
 # Record.ToTable
 
 
-## Description
-
 Returnerer en tabel, hvor de enkelte rækker er et feltnavn og en værdi for inputposten.
 
 
@@ -19,7 +17,7 @@ Record.ToTable(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel, der indeholder kolonnerne <code>Name</code> og <code>Value</code> med en række for de enkelte felter i <code>record</code>.
 

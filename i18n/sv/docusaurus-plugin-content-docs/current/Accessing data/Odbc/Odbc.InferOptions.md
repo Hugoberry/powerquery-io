@@ -5,8 +5,6 @@ title: Odbc.InferOptions
 # Odbc.InferOptions
 
 
-## Description
-
 Returnerar resultatet av försök att härleda SQL-funktioner för en ODBC-drivrutin.
 
 
@@ -19,7 +17,7 @@ Odbc.InferOptions(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar resultatet av ett försök att härleda SQL-funktioner med anslutningssträngen <code>connectionString</code> med ODBC. <code>connectionString</code> kan vara text eller en post med egenskapsvärdespar. Egenskapsvärden kan vara antingen text eller siffror.
 

@@ -5,8 +5,6 @@ title: Number.Combinations
 # Number.Combinations
 
 
-## Description
-
 Zwraca liczbę unikatowych kombinacji.
 
 
@@ -20,7 +18,7 @@ Number.Combinations(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca liczbę unikatowych kombinacji z listy elementów <code>setSize</code>, używając określonego rozmiaru kombinacji <code>combinationSize</code>.<ul>    <li><code>setSize</code>: Liczba elementów na liście.</li>    <li><code>combinationSize</code>: Liczba elementów w każdej kombinacji.</li></ul>
 

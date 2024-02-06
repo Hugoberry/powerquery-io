@@ -5,8 +5,6 @@ title: Type.TableKeys
 # Type.TableKeys
 
 
-## Description
-
 Restituisce l&#39;elenco di chiavi probabilmente vuoto per il tipo di tabella specificato.
 
 
@@ -19,7 +17,7 @@ Type.TableKeys(
 ```
 
 
-## Details
+## Remarks
 
 Restituisci l'elenco di chiavi probabilmente vuoto per il tipo di tabella specificato.<br />    <br />    Ogni chiave è definita usando un record nel formato seguente:    <ul>      <li>        <code>Columns</code>: un elenco di nomi di colonne che definiscono la chiave      </li>      <li>        <code>Primary</code>: <code>true</code> se la chiave è la chiave primaria della tabella; altrimenti, <code>false</code>      </li>    </ul>    
 

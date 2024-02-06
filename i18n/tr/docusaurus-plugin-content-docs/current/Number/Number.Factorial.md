@@ -5,8 +5,6 @@ title: Number.Factorial
 # Number.Factorial
 
 
-## Description
-
 Sayının faktöriyelini döndürür.
 
 
@@ -19,7 +17,7 @@ Number.Factorial(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> sayısının faktöriyelini döndürür.
 

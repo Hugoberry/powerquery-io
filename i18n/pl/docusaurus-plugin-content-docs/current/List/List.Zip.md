@@ -5,8 +5,6 @@ title: List.Zip
 # List.Zip
 
 
-## Description
-
 Zwraca listę list, łącząc elementy znajdujące się w tym samym położeniu na wielu listach.
 
 
@@ -19,7 +17,7 @@ List.Zip(
 ```
 
 
-## Details
+## Remarks
 
 Pobiera listę list, <code>lists</code>, i zwraca listę list łączącą elementy w tym samym położeniu.
 

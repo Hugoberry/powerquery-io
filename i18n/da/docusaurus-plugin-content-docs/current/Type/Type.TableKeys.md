@@ -5,8 +5,6 @@ title: Type.TableKeys
 # Type.TableKeys
 
 
-## Description
-
 Returnerer den eventuelt tomme liste over nøgler for den angivne tabeltype.
 
 
@@ -19,7 +17,7 @@ Type.TableKeys(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer den eventuelt tomme liste over nøgler for den angivne tabeltype.<br />    <br />    Hver nøgle defineres ved hjælp af en post i følgende format:    <ul>      <li>        <code>Columns</code>: en liste over de kolonnenavne, der definerer nøglen      </li>      <li>        <code>Primary</code>: <code>true</code> hvis nøglen er tabellens primære nøgle; ellers <code>falsk</code>      </li>    </ul>    
 

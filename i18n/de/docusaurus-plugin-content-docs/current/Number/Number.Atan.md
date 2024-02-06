@@ -5,8 +5,6 @@ title: Number.Atan
 # Number.Atan
 
 
-## Description
-
 Gibt den Arkustangens der Zahl zurück.
 
 
@@ -19,7 +17,7 @@ Number.Atan(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Arkustangens von <code>number</code> zurück.
 

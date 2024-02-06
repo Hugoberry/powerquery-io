@@ -5,8 +5,6 @@ title: Time.Minute
 # Time.Minute
 
 
-## Description
-
 傳回分鐘元件。
 
 
@@ -19,7 +17,7 @@ Time.Minute(
 ```
 
 
-## Details
+## Remarks
 
 傳回提供的 <code>time</code>、<code>datetime</code> 或 <code>datetimezone</code> 值 <code>dateTime</code> 的分鐘元件。
 

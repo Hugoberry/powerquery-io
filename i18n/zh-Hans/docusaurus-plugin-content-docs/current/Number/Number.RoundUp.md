@@ -5,8 +5,6 @@ title: Number.RoundUp
 # Number.RoundUp
 
 
-## Description
-
 返回下一个最大数。可以指定位数。
 
 
@@ -20,7 +18,7 @@ Number.RoundUp(
 ```
 
 
-## Details
+## Remarks
 
 返回将 <code>number</code> 向上舍入到下一个最大整数的结果。如果 <code>number</code> 为 null，则此函数返回 null。    如果提供了 <code>digits</code>，则将 <code>number</code> 舍入为指定的小数位数。  
 

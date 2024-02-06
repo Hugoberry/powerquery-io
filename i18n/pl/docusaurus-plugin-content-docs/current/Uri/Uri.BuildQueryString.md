@@ -5,8 +5,6 @@ title: Uri.BuildQueryString
 # Uri.BuildQueryString
 
 
-## Description
-
 Złóż rekord w ciąg zapytania URI.
 
 
@@ -19,7 +17,7 @@ Uri.BuildQueryString(
 ```
 
 
-## Details
+## Remarks
 
 Złóż rekord <code>query</code> w ciąg zapytania URI, stosując w razie potrzeby znaki ucieczki.
 

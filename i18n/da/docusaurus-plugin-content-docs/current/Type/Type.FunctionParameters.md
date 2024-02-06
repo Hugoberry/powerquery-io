@@ -5,8 +5,6 @@ title: Type.FunctionParameters
 # Type.FunctionParameters
 
 
-## Description
-
 Returnerer en post, hvor feltværdier er angivet til navnet på parametrene for en funktionstype, og deres værdier er angivet til deres tilsvarende typer.
 
 
@@ -19,7 +17,7 @@ Type.FunctionParameters(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en post, hvor feltværdierne er angivet til navnet på parametrene for <code>type</code>, og deres værdier er angivet til deres tilsvarende typer.
 

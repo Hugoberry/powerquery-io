@@ -5,8 +5,6 @@ title: List.InsertRange
 # List.InsertRange
 
 
-## Description
-
 แทรกค่าลงในรายการที่ดัชนีที่ระบุ
 
 
@@ -21,7 +19,7 @@ List.InsertRange(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับรายการใหม่ที่สร้างโดยการแทรกค่าใน <code>values</code> ลงใน <code>list</code> ที่ <code>index</code> ตำแหน่งแรกในรายการจะอยู่ที่ดัชนี 0      <ul>        <li><code>list</code>: รายการเป้าหมายที่ค่าจะถูกแทรก</li>        <li><code>index</code>: ดัชนีของรายการเป้าหมาย(<code>list</code>) ที่ค่าจะถูกแทรก ตำแหน่งแรกในรายการจะอยู่ที่ดัชนี 0</li>        <li><code>values</code>: รายการค่าที่จะถูกแทรกลงใน <code>list</code></li>      </ul>
 

@@ -5,8 +5,6 @@ title: DateTime.ToRecord
 # DateTime.ToRecord
 
 
-## Description
-
 Trả về một bản ghi chứa các phần của giá trị datetime.
 
 
@@ -19,7 +17,7 @@ DateTime.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Trả về bản ghi có chứa các phần của giá trị datetime đã cho, <code>dateTime</code>. <ul>        <li><code>dateTime</code>: Giá trị <code>datetime</code> cho bản ghi có chứa các phần được tính toán.</li>      </ul>
 

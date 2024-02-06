@@ -5,8 +5,6 @@ title: Number.Random
 # Number.Random
 
 
-## Description
-
 Zwraca liczbę losową.
 
 
@@ -19,7 +17,7 @@ Number.Random(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca losową liczbę z zakresu od 0 do 1.
 

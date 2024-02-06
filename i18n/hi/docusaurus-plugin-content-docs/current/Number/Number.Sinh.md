@@ -5,8 +5,6 @@ title: Number.Sinh
 # Number.Sinh
 
 
-## Description
-
 संख्या का हाइपरबोलिक सिन लौटाता है.
 
 
@@ -19,7 +17,7 @@ Number.Sinh(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> का हाइपरबोलिक सिन लौटाता है.
 

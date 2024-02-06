@@ -5,8 +5,6 @@ title: MicrosoftAzureConsumptionInsights.Tables
 # MicrosoftAzureConsumptionInsights.Tables
 
 
-## Description
-
 Microsoft Azure 使用见解
 
 
@@ -20,7 +18,7 @@ MicrosoftAzureConsumptionInsights.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Microsoft Azure 使用见解
 

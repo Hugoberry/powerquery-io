@@ -5,8 +5,6 @@ title: Text.BetweenDelimiters
 # Text.BetweenDelimiters
 
 
-## Description
-
 Text.BetweenDelimiters
 
 
@@ -23,7 +21,7 @@ Text.BetweenDelimiters(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает часть <code>text</code> между указанными <code>startDelimiter</code> и <code>endDelimiter</code>.    Необязательный числовой <code>startIndex</code> указывает, какое вхождение <code>startDelimiter</code> следует рассматривать.    Необязательный список <code>startIndex</code> указывает, какое вхождение <code>startDelimiter</code> следует рассматривать, а также откуда вести индексацию — с начала или с конца входных данных.    Для <code>endIndex</code> все аналогично с тем исключением, что индексация ведется относительно <code>startIndex</code>.
 

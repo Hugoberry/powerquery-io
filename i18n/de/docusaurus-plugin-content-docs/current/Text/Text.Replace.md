@@ -5,8 +5,6 @@ title: Text.Replace
 # Text.Replace
 
 
-## Description
-
 Ersetzt alle Vorkommen der angegebenen Teilzeichenfolge im Text.
 
 
@@ -21,7 +19,7 @@ Text.Replace(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das Ergebnis zurück, das entsteht, wenn alle Vorkommen des Textwerts "<code>old</code>" im Textwert "<code>text</code>" durch den Textwert "<code>new</code>" ersetzt werden. Bei dieser Funktion wird die Groß-/Kleinschreibung berücksichtigt.
 

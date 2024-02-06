@@ -5,8 +5,6 @@ title: List.IsEmpty
 # List.IsEmpty
 
 
-## Description
-
 Liste boşsa, doğru değerini döndürür.
 
 
@@ -19,7 +17,7 @@ List.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesi değer içermiyorsa (uzunluk 0) <code>true</code> döndürür. Liste değer içeriyorsa (uzunluk > 0) <code>false</code> döndürür.
 

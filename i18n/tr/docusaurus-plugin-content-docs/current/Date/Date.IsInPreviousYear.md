@@ -5,8 +5,6 @@ title: Date.IsInPreviousYear
 # Date.IsInPreviousYear
 
 
-## Description
-
 Bu tarihin, sistemdeki geçerli tarih saat tarafından belirlendiği şekilde, önceki yıl içinde olup olmadığını gösterir. Geçerli yıl içinde olan bir değer geçirildiğinde bu işlevin false döndürdüğünü unutmayın.
 
 
@@ -19,7 +17,7 @@ Date.IsInPreviousYear(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>dateTime</code> tarih saat değerinin, sistemdeki geçerli tarih ve saat tarafından belirlendiği şekilde, önceki yıl içinde olup olmadığını gösterir. Geçerli yıl içinde olan bir değer geçirildiğinde bu işlevin false döndürdüğünü unutmayın.      <ul>      <li><code>dateTime</code>: Değerlendirilecek <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      </ul>
 

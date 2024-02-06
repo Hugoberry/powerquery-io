@@ -5,8 +5,6 @@ title: Number.Atan
 # Number.Atan
 
 
-## Description
-
 ส่งกลับค่าอาร์กแทนเจนต์ของตัวเลข
 
 
@@ -19,7 +17,7 @@ Number.Atan(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่าอาร์กแทนเจนต์ของ <code>number</code>
 

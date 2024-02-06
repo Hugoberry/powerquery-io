@@ -5,8 +5,6 @@ title: Value.ReplaceType
 # Value.ReplaceType
 
 
-## Description
-
 取代值的類型。
 
 
@@ -20,7 +18,7 @@ Value.ReplaceType(
 ```
 
 
-## Details
+## Remarks
 
 將 <code>value</code>的類型取代為提供的 <code>type</code>。
 

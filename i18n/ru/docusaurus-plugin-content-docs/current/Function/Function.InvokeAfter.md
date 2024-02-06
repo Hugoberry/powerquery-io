@@ -5,8 +5,6 @@ title: Function.InvokeAfter
 # Function.InvokeAfter
 
 
-## Description
-
 Вызывает заданную функцию спустя указанный период времени.
 
 
@@ -20,7 +18,7 @@ Function.InvokeAfter(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает результат вызова <code>function</code> спустя период времени <code>delay</code>.
 

@@ -5,8 +5,6 @@ title: Tables.GetRelationships
 # Tables.GetRelationships
 
 
-## Description
-
 Pobiera relacje z zestawu tabel.
 
 
@@ -20,7 +18,7 @@ Tables.GetRelationships(
 ```
 
 
-## Details
+## Remarks
 
 Pobiera relacje z zestawu tabel. Przyjęto, że struktura zestawu <code>tables</code> przypomina strukturę tabeli nawigacyjnej. Kolumna zdefiniowana przez element <code>dataColumn</code> zawiera rzeczywiste tabele danych.
 

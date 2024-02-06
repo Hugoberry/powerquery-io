@@ -5,8 +5,6 @@ title: Record.HasFields
 # Record.HasFields
 
 
-## Description
-
 Gibt an, ob der Datensatz die angegebenen Felder enthält.
 
 
@@ -20,7 +18,7 @@ Record.HasFields(
 ```
 
 
-## Details
+## Remarks
 
 Gibt durch Rückgabe eines logischen Werts ("true" oder "false") an, ob der Datensatz "<code>record</code>" die in "<code>fields</code>" angegebenen Felder enthält.    Mehrere Feldwerte können in Listenform angegeben werden.
 

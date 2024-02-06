@@ -5,8 +5,6 @@ title: Table.MinN
 # Table.MinN
 
 
-## Description
-
 Returnerer den eller de mindste rækker ved hjælp af de angivne kriterier.
 
 
@@ -21,7 +19,7 @@ Table.MinN(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer den eller de mindste rækker i <code>table</code> med den angivne <code>comparisonCriteria</code>. Når rækkerne er sorteret, skal parameteren <code>countOrCondition</code> angives for at filtrere resultatet yderligere. Bemærk, at sorteringsalgoritmen ikke kan garantere et fast sorteret resultat. Parameteren <code>countOrCondition</code> kan anvendes på flere måder:    <ul>        <li> Hvis der er angivet et tal, returneres der en liste på op til <code>countOrCondition</code> elementer i stigende rækkefølge. </li>        <li> Hvis der er angivet en betingelse, returneres der en liste over elementer, der i starten opfylder betingelsen. Når et element ikke opfylder betingelsen, tages der ikke flere elementer med i betragtning. </li> </ul>
 

@@ -5,8 +5,6 @@ title: BinaryFormat.Double
 # BinaryFormat.Double
 
 
-## Description
-
 Een binaire indeling die een IEEE zwevende-kommagetal met dubbele precisie met een lengte van 8 bytes leest.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Double(
 ```
 
 
-## Details
+## Remarks
 
 Een binaire indeling die een IEEE zwevende-kommagetal met dubbele precisie met een lengte van 8 bytes leest.
 

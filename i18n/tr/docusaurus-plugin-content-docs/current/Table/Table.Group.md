@@ -5,8 +5,6 @@ title: Table.Group
 # Table.Group
 
 
-## Description
-
 Tabloda aynı anahtara sahip olan satırları gruplandırır.
 
 
@@ -23,7 +21,7 @@ Table.Group(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> satırlarını <code>key</code> ile tanımlanan anahtar sütunlara göre gruplandırır. <code>key</code> tek bir sütun adı ya da sütun adları listesi olabilir.    Her grup için, <code>aggregatedColumns</code> ile belirtilen toplu sütunlarla birlikte anahtar sütunları (ve değerlerini) içeren bir kayıt oluşturulur.    İsteğe bağlı olarak, <code>groupKind</code> ve <code>comparer</code> de belirtilebilir.<br />    <br />    Veriler anahtar sütunlara göre önceden sıralanmışsa, bir GroupKind.Local <code>groupKind</code> değeri sağlanabilir. Bu işlem, belirli durumlarda gruplandırmanın performansını iyileştirebilir;    çünkü belirli bir anahtar değerler kümesi içeren tüm satırların bitişik olduğu varsayılır.<br />    <br />    Bir <code>comparer</code> geçerken, farklı anahtarları eşit olarak değerlendirirse, bir satırın, anahtarları kendininkinden farklı olan bir gruba yerleştirilebileceğini unutmayın.<br />    <br />    Bu işlev döndürdüğü satırların sıralamasını garanti etmez.  
 

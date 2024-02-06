@@ -5,8 +5,6 @@ title: Cube.AttributeMemberId
 # Cube.AttributeMemberId
 
 
-## Description
-
 メンバー プロパティ値から一意のメンバー識別子を返します。
 
 
@@ -19,7 +17,7 @@ Cube.AttributeMemberId(
 ```
 
 
-## Details
+## Remarks
 
 メンバー プロパティ値から一意のメンバー識別子を返します。<code>attribute</code>。その他の値に対しては null を返します。
 

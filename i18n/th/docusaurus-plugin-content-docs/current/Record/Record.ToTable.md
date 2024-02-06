@@ -5,8 +5,6 @@ title: Record.ToTable
 # Record.ToTable
 
 
-## Description
-
 ส่งกลับตารางซึ่งมีแต่ละแถวเป็นชื่อเขตข้อมูลและค่าของระเบียนค่าที่ป้อน
 
 
@@ -19,7 +17,7 @@ Record.ToTable(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางที่ประกอบด้วยคอลัมน์ <code>Name</code> และ <code>Value</code> ที่มีหนึ่งแถวสำหรับแต่ละเขตข้อมูลใน <code>record</code>
 

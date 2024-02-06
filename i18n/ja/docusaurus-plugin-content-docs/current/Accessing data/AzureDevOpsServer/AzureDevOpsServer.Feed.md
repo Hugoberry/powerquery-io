@@ -5,8 +5,6 @@ title: AzureDevOpsServer.Feed
 # AzureDevOpsServer.Feed
 
 
-## Description
-
 Azure DevOps Services のフィード
 
 
@@ -20,7 +18,7 @@ AzureDevOpsServer.Feed(
 ```
 
 
-## Details
+## Remarks
 
 Azure DevOps が提供する OData フィードのテーブルを返します。
 

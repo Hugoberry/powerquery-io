@@ -5,8 +5,6 @@ title: Webtrends.ReportContents
 # Webtrends.ReportContents
 
 
-## Description
-
 Returnerer en tabel med rapportindhold fra Webtrends.
 
 
@@ -22,7 +20,7 @@ Webtrends.ReportContents(
 ```
 
 
-## Details
+## Remarks
 
 Foretager et kald til det angivne slutpunkt for Webtrends-rapportering og returnerer alle data som en tabel.
 

@@ -5,8 +5,6 @@ title: Lines.ToBinary
 # Lines.ToBinary
 
 
-## Description
-
 Konverterer en liste med tekst til en binær værdi ved hjælp af den angivne kodning og lineSeparator. Den angivne lineSeparator tilføjes på hver linje.  Hvis den ikke er angivet, bruges tegnene for vognretur og linjeskift.
 
 
@@ -22,7 +20,7 @@ Lines.ToBinary(
 ```
 
 
-## Details
+## Remarks
 
 Konverterer en liste med tekst til en binær værdi ved hjælp af den angivne kodning og lineSeparator. Den angivne lineSeparator tilføjes på hver linje.  Hvis den ikke er angivet, bruges tegnene for vognretur og linjeskift.
 

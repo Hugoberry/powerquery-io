@@ -5,8 +5,6 @@ title: Table.RemoveRows
 # Table.RemoveRows
 
 
-## Description
-
 Remove o número especificado de linhas.
 
 
@@ -21,7 +19,7 @@ Table.RemoveRows(
 ```
 
 
-## Details
+## Remarks
 
 Remove <code>count</code> de linhas desde o início da <code>table</code>, começando na <code>offset</code> especificada. Uma contagem padrão 1 será usada se o parâmetro <code>count</code> não for fornecido. 
 

@@ -5,8 +5,6 @@ title: Date.IsInPreviousNQuarters
 # Date.IsInPreviousNQuarters
 
 
-## Description
-
 Wskazuje, czy ta data przypada w ciągu poprzednich kwartałów określonych zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącego kwartału.
 
 
@@ -20,7 +18,7 @@ Date.IsInPreviousNQuarters(
 ```
 
 
-## Details
+## Remarks
 
 Wskazuje, czy dana wartość daty/godziny <code>dateTime</code> przypada w ciągu poprzednich kwartałów określonych zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącego kwartału.      <ul>      <li><code>dateTime</code>: wartość <code>date</code>, <code>datetime</code> lub <code>datetimezone</code> do oszacowania.</li>      <li><code>quarters</code>: liczba kwartałów.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Number.Cos
 # Number.Cos
 
 
-## Description
-
 Devuelve el coseno del número.
 
 
@@ -19,7 +17,7 @@ Number.Cos(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve el coseno de <code>number</code>.
 

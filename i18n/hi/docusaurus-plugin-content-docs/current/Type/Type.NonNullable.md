@@ -5,8 +5,6 @@ title: Type.NonNullable
 # Type.NonNullable
 
 
-## Description
-
 किसी प्रकार से गैर निरर्थक प्रकार लौटाता है.
 
 
@@ -19,7 +17,7 @@ Type.NonNullable(
 ```
 
 
-## Details
+## Remarks
 
 <code>type</code> से गैर <code>निरर्थक</code> प्रकार लौटाता है.
 

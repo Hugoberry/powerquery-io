@@ -5,8 +5,6 @@ title: Table.ToRows
 # Table.ToRows
 
 
-## Description
-
 Bir tablodan satır değerlerine yönelik iç içe yerleştirilmiş tablo listesi oluşturur.
 
 
@@ -19,7 +17,7 @@ Table.ToRows(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> tablosundan iç içe yerleştirilmiş tablo listesi oluşturur.  Her liste öğesi, satır değerlerini içeren bir iç listedir.
 

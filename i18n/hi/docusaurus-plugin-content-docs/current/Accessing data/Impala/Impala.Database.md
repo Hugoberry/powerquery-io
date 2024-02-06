@@ -5,8 +5,6 @@ title: Impala.Database
 # Impala.Database
 
 
-## Description
-
 Impala क्लस्टर से डेटा आयात करें
 
 
@@ -20,7 +18,7 @@ Impala.Database(
 ```
 
 
-## Details
+## Remarks
 
 Impala क्लस्टर <code>server</code> से डेटा आयात करें. यदि कोई पोर्ट निर्दिष्ट नहीं था, तो डिफ़ॉल्ट पोर्ट 21050 का उपयोग किया जाएगा.
 

@@ -5,8 +5,6 @@ title: List.InsertRange
 # List.InsertRange
 
 
-## Description
-
 Voegt waarden in de lijst bij de opgegeven index in.
 
 
@@ -21,7 +19,7 @@ List.InsertRange(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een nieuwe lijst die ontstaat door het invoegen van de waarden in <code>values</code> in <code>list</code> bij <code>index</code>. De eerste positie in de lijst is bij index 0.      <ul>        <li><code>list</code>: De doellijst waar de waarden moeten worden ingevoegd.</li>        <li><code>index</code>: De index van de doellijst (<code>list</code>) waar de waarden moeten worden ingevoegd. De eerste positie in de lijst is bij index 0.</li>        <li><code>values</code>: De lijst met waarden die moet worden ingevoegd in <code>list</code>.</li>      </ul>
 

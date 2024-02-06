@@ -5,8 +5,6 @@ title: Record.Field
 # Record.Field
 
 
-## Description
-
 返回记录中指定字段的值。
 
 
@@ -20,7 +18,7 @@ Record.Field(
 ```
 
 
-## Details
+## Remarks
 
 返回 <code>record</code> 中指定 <code>field</code> 的值。如果未找到该字段，将引发异常。
 

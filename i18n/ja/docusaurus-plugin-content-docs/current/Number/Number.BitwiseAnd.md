@@ -5,8 +5,6 @@ title: Number.BitwiseAnd
 # Number.BitwiseAnd
 
 
-## Description
-
 2 つの入力間でビットごとの AND 演算を行った結果を返します。
 
 
@@ -20,7 +18,7 @@ Number.BitwiseAnd(
 ```
 
 
-## Details
+## Remarks
 
 <code>number1</code> と <code>number2</code> の間でビットごとの AND 演算を行った結果を返します。
 

@@ -5,8 +5,6 @@ title: Text.Replace
 # Text.Replace
 
 
-## Description
-
 Remplace toutes les occurrences de la sous-chaîne spécifiée dans le texte.
 
 
@@ -21,7 +19,7 @@ Text.Replace(
 ```
 
 
-## Details
+## Remarks
 
 Retourne le résultat du remplacement de toutes les occurrences de la valeur de texte <code>old</code>, dans la valeur de texte <code>text</code>, par la valeur de texte <code>new</code>. Cette fonction respecte la casse.
 

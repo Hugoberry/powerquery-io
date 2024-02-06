@@ -5,8 +5,6 @@ title: Text.AfterDelimiter
 # Text.AfterDelimiter
 
 
-## Description
-
 Text.AfterDelimiter
 
 
@@ -21,7 +19,7 @@ Text.AfterDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับส่วนของ <code>text</code> หลังจาก <code>delimiter</code> ที่ระบุ    ค่าตัวเลข <code>index</code> ที่เป็นตัวเลือกระบุว่าควรพิจารณาการปรากฏของ <code>delimiter</code> ครั้งใด    รายการ <code>index</code> ที่เป็นตัวเลือกระบุว่าควรพิจารณาการปรากฏของ <code>delimiter</code> ครั้งใด ตลอดจนระบุว่าการทำดัชนีควรทำตั้งแต่จุดเริ่มต้นหรือจุดสิ้นสุดของการป้อนข้อมูล
 

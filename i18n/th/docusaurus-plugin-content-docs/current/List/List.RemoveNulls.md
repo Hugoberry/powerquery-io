@@ -5,8 +5,6 @@ title: List.RemoveNulls
 # List.RemoveNulls
 
 
-## Description
-
 เอาค่า &#34;null&#34; ทั้งหมดออกจากรายการที่ระบุ
 
 
@@ -19,7 +17,7 @@ List.RemoveNulls(
 ```
 
 
-## Details
+## Remarks
 
 เอาการปรากฏทั้งหมดของค่า "null" ใน <code>list</code> ออก ถ้าไม่มีค่า 'null' ในรายการ จะมีการส่งกลับรายการเดิม
 

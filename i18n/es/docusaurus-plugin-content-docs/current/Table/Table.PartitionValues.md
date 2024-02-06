@@ -5,8 +5,6 @@ title: Table.PartitionValues
 # Table.PartitionValues
 
 
-## Description
-
 Devuelve información acerca de cómo se ha dividido una tabla en particiones.
 
 
@@ -19,7 +17,7 @@ Table.PartitionValues(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve información acerca de cómo se ha dividido una tabla en particiones.  Se devuelve una tabla en la que cada columna es una columna de partición de la tabla original y cada fila corresponde a una partición de la tabla original.
 

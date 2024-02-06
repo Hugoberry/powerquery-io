@@ -5,8 +5,6 @@ title: Table.FromRecords
 # Table.FromRecords
 
 
-## Description
-
 Konverterer en liste over poster til en tabel.
 
 
@@ -21,7 +19,7 @@ Table.FromRecords(
 ```
 
 
-## Details
+## Remarks
 
 Konverterer <code>records</code>, en liste over poster, til en tabel.
 

@@ -5,8 +5,6 @@ title: Duration.TotalDays
 # Duration.TotalDays
 
 
-## Description
-
 Возвращает общее количество дней, охватываемое этой длительностью.
 
 
@@ -19,7 +17,7 @@ Duration.TotalDays(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает общее количество дней, охваченных <code>duration</code>.
 

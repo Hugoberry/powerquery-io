@@ -5,8 +5,6 @@ title: Type.FunctionRequiredParameters
 # Type.FunctionRequiredParameters
 
 
-## Description
-
 Returnerar ett nummer som indikerar det minsta antal parametrar som krävs för att anropa den här typen av funktion.
 
 
@@ -19,7 +17,7 @@ Type.FunctionRequiredParameters(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett nummer som indikerar det minsta antal parametrar som krävs för att anropa inmatningen <code>type</code> av funktionen.
 

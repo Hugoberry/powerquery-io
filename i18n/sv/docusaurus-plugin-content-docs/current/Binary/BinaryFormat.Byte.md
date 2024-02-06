@@ -5,8 +5,6 @@ title: BinaryFormat.Byte
 # BinaryFormat.Byte
 
 
-## Description
-
 Ett binärformat som läser ett 8-bitars heltal utan tecken.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Byte(
 ```
 
 
-## Details
+## Remarks
 
 Ett binärformat som läser ett 8-bitars heltal utan tecken.
 

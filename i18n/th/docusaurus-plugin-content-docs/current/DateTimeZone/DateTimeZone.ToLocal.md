@@ -5,8 +5,6 @@ title: DateTimeZone.ToLocal
 # DateTimeZone.ToLocal
 
 
-## Description
-
 แปลงคอมโพเนนต์โซนเวลาเป็นโซนเวลาท้องถิ่น
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToLocal(
 ```
 
 
-## Details
+## Remarks
 
 เปลี่ยนแปลงข้อมูลโซนเวลาของค่าโซนวันที่เวลา <code>dateTimeZone</code> เป็นข้อมูลโซนเวลาท้องถิ่น    ถ้า <code>dateTimeZone</code> ไม่มีคอมโพเนนต์โซนเวลา ข้อมูลโซนเวลาท้องถิ่นจะถูกเพิ่ม
 

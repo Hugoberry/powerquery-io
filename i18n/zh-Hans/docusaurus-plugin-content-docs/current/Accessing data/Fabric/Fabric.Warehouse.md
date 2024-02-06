@@ -5,8 +5,6 @@ title: Fabric.Warehouse
 # Fabric.Warehouse
 
 
-## Description
-
 从仓库导入数据
 
 
@@ -19,7 +17,7 @@ Fabric.Warehouse(
 ```
 
 
-## Details
+## Remarks
 
 从仓库导入数据
 

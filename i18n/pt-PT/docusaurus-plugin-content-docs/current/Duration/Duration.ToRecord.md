@@ -5,8 +5,6 @@ title: Duration.ToRecord
 # Duration.ToRecord
 
 
-## Description
-
 Devolve um registo que contém as partes da duração.
 
 
@@ -19,7 +17,7 @@ Duration.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um registo que contém as partes do valor de duração, <code>duration</code>.  <ul>        <li><code>duration</code>: um valor <code>duration</code> a partir do qual o registo é criado.</li>      </ul>
 

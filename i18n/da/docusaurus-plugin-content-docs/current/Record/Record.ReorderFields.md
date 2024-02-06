@@ -5,8 +5,6 @@ title: Record.ReorderFields
 # Record.ReorderFields
 
 
-## Description
-
 Omarrangerer det eller de angivne felter i den nye rækkefølge.
 
 
@@ -21,7 +19,7 @@ Record.ReorderFields(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en post efter at have omarrangeret felterne i <code>record</code> i den feltrækkefølge, der er angivet på listen <code>fieldOrder</code>. Feltværdier bevares, og felter, der ikke er anført i <code>fieldOrder</code>, forbliver på deres oprindelige placering.
 

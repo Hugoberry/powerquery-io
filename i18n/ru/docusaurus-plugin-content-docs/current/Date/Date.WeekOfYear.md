@@ -5,8 +5,6 @@ title: Date.WeekOfYear
 # Date.WeekOfYear
 
 
-## Description
-
 Возвращает число от 1 до 54, указывающее неделю в году, на которую приходится эта дата.
 
 
@@ -20,7 +18,7 @@ Date.WeekOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает число от 1 до 54, обозначающее неделю в году для даты <code>dateTime</code>. <ul>        <li><code>dateTime</code>: значение <code>datetime</code>, для которого определяется неделя года.</li>        <li><code>firstDayOfWeek</code>: необязательное значение <code>Day.Type</code>, указывающее первый день недели (например, <code>Day.Sunday</code>). Если оно не указано, используется значение по умолчанию, установленное для языка и региональных параметров.</li>      </ul>
 

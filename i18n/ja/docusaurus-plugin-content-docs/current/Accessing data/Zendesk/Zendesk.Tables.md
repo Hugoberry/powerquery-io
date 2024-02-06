@@ -5,8 +5,6 @@ title: Zendesk.Tables
 # Zendesk.Tables
 
 
-## Description
-
 Zendesk アカウントの URL を入力します。
 
 
@@ -19,7 +17,7 @@ Zendesk.Tables(
 ```
 
 
-## Details
+## Remarks
 
 関連する Zendesk データのテーブルを返します。
 

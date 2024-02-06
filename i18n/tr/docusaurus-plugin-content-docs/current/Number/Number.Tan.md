@@ -5,8 +5,6 @@ title: Number.Tan
 # Number.Tan
 
 
-## Description
-
 Sayının tanjantını döndürür.
 
 
@@ -19,7 +17,7 @@ Number.Tan(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> değerinin tanjantını döndürür.
 

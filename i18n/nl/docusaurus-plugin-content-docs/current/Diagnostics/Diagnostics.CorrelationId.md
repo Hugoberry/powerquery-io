@@ -5,8 +5,6 @@ title: Diagnostics.CorrelationId
 # Diagnostics.CorrelationId
 
 
-## Description
-
 Retourneert een ondoorzichtige id om binnenkomende aanvragen te correleren met uitgaande aanvragen.
 
 
@@ -19,7 +17,7 @@ Diagnostics.CorrelationId(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een ondoorzichtige id om binnenkomende aanvragen te correleren met uitgaande aanvragen.
 

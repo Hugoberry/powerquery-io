@@ -5,8 +5,6 @@ title: Date.Month
 # Date.Month
 
 
-## Description
-
 Trả về cấu phần tháng.
 
 
@@ -19,7 +17,7 @@ Date.Month(
 ```
 
 
-## Details
+## Remarks
 
 Trả về cấu phần tháng của giá trị <code>datetime</code> cho sẵn, <code>dateTime</code>.
 

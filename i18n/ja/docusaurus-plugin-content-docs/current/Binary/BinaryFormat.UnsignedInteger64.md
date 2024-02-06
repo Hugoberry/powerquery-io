@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger64
 # BinaryFormat.UnsignedInteger64
 
 
-## Description
-
 64 ビット符号なし整数を読み取るバイナリ形式です。
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger64(
 ```
 
 
-## Details
+## Remarks
 
 64 ビット符号なし整数を読み取るバイナリ形式です。
 

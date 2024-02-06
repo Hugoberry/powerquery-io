@@ -5,8 +5,6 @@ title: Value.Alternates
 # Value.Alternates
 
 
-## Description
-
 Uttrycker alternativa frågeplaner.
 
 
@@ -19,7 +17,7 @@ Value.Alternates(
 ```
 
 
-## Details
+## Remarks
 
 Uttrycker alternativa frågeplaner inom ett frågeplansuttryck som uppnås via Value.Expression(Value.Optimize(...)). Inte avsett för annan användning.
 

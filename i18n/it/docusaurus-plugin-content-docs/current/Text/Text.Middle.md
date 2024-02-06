@@ -5,8 +5,6 @@ title: Text.Middle
 # Text.Middle
 
 
-## Description
-
 Restituisce la sottostringa fino a una lunghezza specificata.
 
 
@@ -21,7 +19,7 @@ Text.Middle(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce <code>count</code> caratteri o fino alla fine di <code>text</code>, a partire dall'offset <code>start</code>.
 

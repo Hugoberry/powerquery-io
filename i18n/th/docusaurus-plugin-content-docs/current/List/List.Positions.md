@@ -5,8 +5,6 @@ title: List.Positions
 # List.Positions
 
 
-## Description
-
 ส่งกลับรายการออฟเซตสำหรับค่าที่ป้อน
 
 
@@ -19,7 +17,7 @@ List.Positions(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับรายการออฟเซตสำหรับรายการค่าที่ป้อน <code>list</code>    เมื่อใช้ List.Transform เพื่อเปลี่ยนรายการ จะสามารถใช้รายการตำแหน่งเพื่อให้การเข้าถึงการแปลงไปยังตำแหน่งได้
 

@@ -5,8 +5,6 @@ title: Binary.ApproximateLength
 # Binary.ApproximateLength
 
 
-## Description
-
 बाइनरी की अनुमानित लंबाई लौटाता है.
 
 
@@ -19,7 +17,7 @@ Binary.ApproximateLength(
 ```
 
 
-## Details
+## Remarks
 
 <code>binary</code> की अनुमानित लंबाई लौटाता है, या यदि डेटा स्रोत अनुमानित लंबाई का समर्थन नहीं करता है, तो कोई त्रुटि लौटाता है.
 

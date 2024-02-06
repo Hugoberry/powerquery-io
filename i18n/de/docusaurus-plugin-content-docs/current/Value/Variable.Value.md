@@ -5,8 +5,6 @@ title: Variable.Value
 # Variable.Value
 
 
-## Description
-
 Diese Funktion ist nur für die interne Verwendung vorgesehen.
 
 
@@ -19,7 +17,7 @@ Variable.Value(
 ```
 
 
-## Details
+## Remarks
 
 Diese Funktion ist nur für die interne Verwendung vorgesehen.
 

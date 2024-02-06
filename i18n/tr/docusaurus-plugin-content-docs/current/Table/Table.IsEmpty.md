@@ -5,8 +5,6 @@ title: Table.IsEmpty
 # Table.IsEmpty
 
 
-## Description
-
 Tabloda herhangi bir satır bulunup bulunmadığını gösterir.
 
 
@@ -19,7 +17,7 @@ Table.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> içinde herhangi bir satır bulunup bulunmadığını gösterir. Hiç satır olmaması halinde (örneğin, tablo boşsa) <code>true</code> döndürür, satır varsa <code>false</code> döndürür.
 

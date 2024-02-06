@@ -5,8 +5,6 @@ title: Table.Max
 # Table.Max
 
 
-## Description
-
 Devuelve el valor predeterminado o la fila mayor con los criterios dados.
 
 
@@ -21,7 +19,7 @@ Table.Max(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve las filas mayores de <code>table</code>, dado el <code>comparisonCriteria</code>. Si la tabla está vacía, se devuelve un valor <code>default</code> opcional. 
 

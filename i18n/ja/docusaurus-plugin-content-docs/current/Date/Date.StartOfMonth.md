@@ -5,8 +5,6 @@ title: Date.StartOfMonth
 # Date.StartOfMonth
 
 
-## Description
-
 月の最初の日付を返します。
 
 
@@ -19,7 +17,7 @@ Date.StartOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> を含む月の最初の日付を返します。    <code>dateTime</code> は <code>date</code> または <code>datetime</code> 値である必要があります。
 

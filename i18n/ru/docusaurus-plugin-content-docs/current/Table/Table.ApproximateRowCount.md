@@ -5,8 +5,6 @@ title: Table.ApproximateRowCount
 # Table.ApproximateRowCount
 
 
-## Description
-
 Возвращает приблизительное количество строк в таблице.
 
 
@@ -19,7 +17,7 @@ Table.ApproximateRowCount(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает приблизительное количество строк в <code>table</code> или ошибку, если источник данных не поддерживает приблизительное значение.
 

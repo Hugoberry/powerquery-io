@@ -5,8 +5,6 @@ title: Table.ReplaceRows
 # Table.ReplaceRows
 
 
-## Description
-
 Ersätter angivet radintervall med den eller de angivna raderna.
 
 
@@ -22,7 +20,7 @@ Table.ReplaceRows(
 ```
 
 
-## Details
+## Remarks
 
 Ersätter angivet antal rader, <code>count</code>, i angivna indata, <code>table</code>, med angivet <code>rows</code>, med början efter <code>offset</code>. Parametern <code>rows</code> är en lista med poster.    <ul>       <li><code>table</code>: Tabellen där ersättningen utförs.</li>       <li><code>offset</code>: Antalet rader som ska hoppas över innan ersättningen görs.</li>       <li><code>count</code>: Antalet rader som ska ersättas.</li>       <li><code>rows</code>: Listan med radposter som ska infogas i <code>table</code> vid positionen som anges av <code>offset</code>.</li>    </ul>
 

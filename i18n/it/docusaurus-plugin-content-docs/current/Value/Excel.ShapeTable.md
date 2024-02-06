@@ -5,8 +5,6 @@ title: Excel.ShapeTable
 # Excel.ShapeTable
 
 
-## Description
-
 Questa funzione è solo per uso interno.
 
 
@@ -20,7 +18,7 @@ Excel.ShapeTable(
 ```
 
 
-## Details
+## Remarks
 
 Questa funzione è solo per uso interno.
 

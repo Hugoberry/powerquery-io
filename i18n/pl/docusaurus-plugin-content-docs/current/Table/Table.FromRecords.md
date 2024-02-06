@@ -5,8 +5,6 @@ title: Table.FromRecords
 # Table.FromRecords
 
 
-## Description
-
 Konwertuje listę rekordów na tabelę.
 
 
@@ -21,7 +19,7 @@ Table.FromRecords(
 ```
 
 
-## Details
+## Remarks
 
 Konwertuje listę rekordów <code>records</code> na tabelę.
 

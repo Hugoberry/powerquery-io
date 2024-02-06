@@ -5,8 +5,6 @@ title: Value.Compare
 # Value.Compare
 
 
-## Description
-
 Devolve -1, 0 ou 1 dependendo se o primeiro texto é menor, igual ou maior do que o segundo.
 
 
@@ -21,7 +19,7 @@ Value.Compare(
 ```
 
 
-## Details
+## Remarks
 
 Devolve -1, 0 ou 1 dependendo se o primeiro texto é menor, igual ou maior do que o segundo.
 

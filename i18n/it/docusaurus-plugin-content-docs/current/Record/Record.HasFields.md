@@ -5,8 +5,6 @@ title: Record.HasFields
 # Record.HasFields
 
 
-## Description
-
 Indica se il record ha campi specificati.
 
 
@@ -20,7 +18,7 @@ Record.HasFields(
 ```
 
 
-## Details
+## Remarks
 
 Indica se il record <code>record</code> ha campi specificati in <code>fields</code>, restituendo un valore logico (true o false).    È possibile specificare più valori di campi utilizzando un elenco.
 

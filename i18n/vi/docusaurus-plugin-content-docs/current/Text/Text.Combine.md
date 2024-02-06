@@ -5,8 +5,6 @@ title: Text.Combine
 # Text.Combine
 
 
-## Description
-
 Ghép chuỗi danh sách giá trị văn bản thành một giá trị văn bản.
 
 
@@ -20,7 +18,7 @@ Text.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả kết hợp danh sách giá trị văn bản, <code>texts</code>, thành một giá trị văn bản duy nhất. Mọi giá trị <code>null</code> xuất hiện trong <code>texts</code> đều bị bỏ qua.    <code>separator</code> tùy chọn được sử dụng trong văn bản kết hợp cuối cùng có thể được chỉ định.
 

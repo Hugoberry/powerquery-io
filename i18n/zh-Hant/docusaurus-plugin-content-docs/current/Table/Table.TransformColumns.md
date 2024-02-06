@@ -5,8 +5,6 @@ title: Table.TransformColumns
 # Table.TransformColumns
 
 
-## Description
-
 轉換一或多個資料行的值。
 
 
@@ -22,7 +20,7 @@ Table.TransformColumns(
 ```
 
 
-## Details
+## Remarks
 
 套用 <code>transformOperations</code> 列出的每個資料行作業 (格式為 \{ column name, transformation } 或 \{ column name, transformation, new column type }) 以轉換 <code>table</code>。    如果指定了 <code>defaultTransformation</code>，則會套用到 <code>transformOperations</code> 中未列出的所有資料行。    如果 <code>transformOperations</code> 中列出的資料行不存在，則除非選擇性參數 <code>missingField</code> 指定替代專案，否則會擲出例外狀況 (例如，<code>MissingField.UseNull</code>或 <code>MissingField.Ignore</code>)。
 

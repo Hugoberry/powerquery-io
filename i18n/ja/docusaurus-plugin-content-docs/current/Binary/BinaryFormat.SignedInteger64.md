@@ -5,8 +5,6 @@ title: BinaryFormat.SignedInteger64
 # BinaryFormat.SignedInteger64
 
 
-## Description
-
 64 ビット符号付き整数を読み取るバイナリ形式です。
 
 
@@ -19,7 +17,7 @@ BinaryFormat.SignedInteger64(
 ```
 
 
-## Details
+## Remarks
 
 64 ビット符号付き整数を読み取るバイナリ形式です。
 

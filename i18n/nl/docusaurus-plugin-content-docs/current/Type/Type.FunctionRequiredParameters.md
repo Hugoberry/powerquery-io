@@ -5,8 +5,6 @@ title: Type.FunctionRequiredParameters
 # Type.FunctionRequiredParameters
 
 
-## Description
-
 Retourneert een getal waarmee het minimum aantal parameters wordt aangegeven dat is vereist om het type functie aan te roepen.
 
 
@@ -19,7 +17,7 @@ Type.FunctionRequiredParameters(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een getal waarmee het minimum aantal parameters wordt aangegeven dat is vereist om de invoer <code>type</code> van de functie aan te roepen.
 

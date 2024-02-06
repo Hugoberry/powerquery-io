@@ -5,8 +5,6 @@ title: VSTS.AccountContents
 # VSTS.AccountContents
 
 
-## Description
-
 Indtast din Azure DevOps Analytics-tjenestewebadresse.
 
 
@@ -20,7 +18,7 @@ VSTS.AccountContents(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer det indhold, der downloades fra Azure DevOps Analytics-tjenestenwebadresse, som en binær værdi. Denne funktion bruger forskellige legitimationsoplysninger til forskellige organisationer.
 

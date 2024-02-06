@@ -5,8 +5,6 @@ title: Table.AggregateTableColumn
 # Table.AggregateTableColumn
 
 
-## Description
-
 Bir tablo sütununu içeren tabloda birden çok sütuna toplar.
 
 
@@ -21,7 +19,7 @@ Table.AggregateTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code>[<code>column</code>] içindeki tabloları, tablolar için toplam değerleri içeren birden çok sütuna toplar. <code>aggregations</code> toplanacak tabloları içeren sütunları, değerlerini oluşturmak üzere tablolara uygulamak için toplama işlevlerini ve oluşturulacak toplama sütunlarının adlarını belirtmek için kullanılır.
 

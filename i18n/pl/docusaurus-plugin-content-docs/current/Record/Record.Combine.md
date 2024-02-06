@@ -5,8 +5,6 @@ title: Record.Combine
 # Record.Combine
 
 
-## Description
-
 Łączy rekordy na danej liście.
 
 
@@ -19,7 +17,7 @@ Record.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Łączy rekordy na danej liście <code>records</code>. Jeśli parametr <code>records</code> zawiera wartości niebędące rekordem, jest zwracany błąd.
 

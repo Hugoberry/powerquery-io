@@ -5,8 +5,6 @@ title: Duration.Minutes
 # Duration.Minutes
 
 
-## Description
-
 Trả về phần phút của một khoảng thời gian.
 
 
@@ -19,7 +17,7 @@ Duration.Minutes(
 ```
 
 
-## Details
+## Remarks
 
 Trả về phần phút của <code>duration</code>.
 

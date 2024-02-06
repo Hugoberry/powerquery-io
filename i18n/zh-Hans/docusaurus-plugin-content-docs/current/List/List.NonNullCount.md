@@ -5,8 +5,6 @@ title: List.NonNullCount
 # List.NonNullCount
 
 
-## Description
-
 返回列表中的非 null 项数。
 
 
@@ -19,7 +17,7 @@ List.NonNullCount(
 ```
 
 
-## Details
+## Remarks
 
 返回列表 <code>list</code> 中的非 null 项数。
 

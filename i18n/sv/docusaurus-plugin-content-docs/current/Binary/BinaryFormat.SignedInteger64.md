@@ -5,8 +5,6 @@ title: BinaryFormat.SignedInteger64
 # BinaryFormat.SignedInteger64
 
 
-## Description
-
 Ett binärformat som läser ett 64-bitars heltal med tecken.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.SignedInteger64(
 ```
 
 
-## Details
+## Remarks
 
 Ett binärformat som läser ett 64-bitars heltal med tecken.
 

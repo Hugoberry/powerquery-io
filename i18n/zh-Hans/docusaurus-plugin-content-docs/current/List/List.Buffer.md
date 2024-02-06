@@ -5,8 +5,6 @@ title: List.Buffer
 # List.Buffer
 
 
-## Description
-
 缓冲列表。
 
 
@@ -19,7 +17,7 @@ List.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 在内存中缓冲列表 <code>list</code>。此调用的结果是一个稳定的列表。
 

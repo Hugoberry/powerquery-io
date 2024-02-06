@@ -5,8 +5,6 @@ title: Table.RemoveLastN
 # Table.RemoveLastN
 
 
-## Description
-
 Gibt eine Tabelle zurück, aus der die letzen N Zeilen entfernt wurden.
 
 
@@ -20,7 +18,7 @@ Table.RemoveLastN(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Tabelle zurück, in der die letzten <code>countOrCondition</code> Zeilen der Tabelle "<code>table</code>" nicht enthalten sind.        Wie viele Zeilen entfernt werden, hängt vom optionalen Parameter "<code>countOrCondition</code>" ab.    <ul>    <li> Ohne Angabe von "<code>countOrCondition</code>" wird lediglich die letzte Zeile entfernt. </li>    <li> Ist "<code>countOrCondition</code>" eine Zahl, wird die entsprechende Anzahl von Zeilen (beginnend von unten) entfernt. </li>    <li> Ist "<code>countOrCondition</code>" eine Bedingung, werden so lange Zeilen entfernt, die die Bedingung erfüllen, bis eine Zeile die Bedingung nicht erfüllt.</li>    </ul>
 

@@ -5,8 +5,6 @@ title: Text.Trim
 # Text.Trim
 
 
-## Description
-
 Tar bort alla inledande och avslutande blanksteg.
 
 
@@ -20,7 +18,7 @@ Text.Trim(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar resultatet från borttagningen av alla inledande och avslutande blanksteg från textvärdet <code>text</code>.
 

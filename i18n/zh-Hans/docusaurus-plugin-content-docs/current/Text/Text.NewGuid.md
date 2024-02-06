@@ -5,8 +5,6 @@ title: Text.NewGuid
 # Text.NewGuid
 
 
-## Description
-
 返回新的、随机的全局唯一标识符(GUID)。
 
 
@@ -19,7 +17,7 @@ Text.NewGuid(
 ```
 
 
-## Details
+## Remarks
 
 返回新的、随机的全局唯一标识符(GUID)。
 

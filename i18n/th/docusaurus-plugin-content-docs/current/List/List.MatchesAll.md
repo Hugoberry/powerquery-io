@@ -5,8 +5,6 @@ title: List.MatchesAll
 # List.MatchesAll
 
 
-## Description
-
 ส่งกลับเป็น จริง ถ้าฟังก์ชันเงื่อนไขได้รับการยอมรับจากค่าทั้งหมดในรายการ
 
 
@@ -20,7 +18,7 @@ List.MatchesAll(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับ <code>true</code> ถ้าฟังก์ชันเงื่อนไข <code>condition</code> ถูกยอมรับโดยค่าทั้งหมดในรายการ <code>list</code> มิฉะนั้นจะส่งกลับ <code>false</code>
 

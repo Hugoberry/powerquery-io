@@ -5,8 +5,6 @@ title: Record.SelectFields
 # Record.SelectFields
 
 
-## Description
-
 Retourneert een record die alleen de opgegeven velden bevat.
 
 
@@ -21,7 +19,7 @@ Record.SelectFields(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een record die alleen de velden bevat die in de lijst <code>fields</code> uit de invoer <code>record</code> zijn opgegeven.
 

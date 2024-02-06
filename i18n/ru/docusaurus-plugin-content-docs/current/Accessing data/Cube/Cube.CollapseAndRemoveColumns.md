@@ -5,8 +5,6 @@ title: Cube.CollapseAndRemoveColumns
 # Cube.CollapseAndRemoveColumns
 
 
-## Description
-
 Изменяет степень гранулярности измерения контекста фильтра куба, сворачивая атрибуты, сопоставленные с указанными столбцами.
 
 
@@ -20,7 +18,7 @@ Cube.CollapseAndRemoveColumns(
 ```
 
 
-## Details
+## Remarks
 
 Изменяет степень гранулярности измерения контекста фильтра <code>cube</code>, сворачивая атрибуты, сопоставленные с указанными столбцами <code>columnNames</code>. Столбцы также удаляются из табличного представления куба.
 

@@ -5,8 +5,6 @@ title: Date.IsInNextNMonths
 # Date.IsInNextNMonths
 
 
-## Description
-
 Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob dieses Datum während der nächsten Anzahl von Monaten auftritt. Beachten Sie, dass diese Funktion FALSE zurückgibt, wenn der übergebene Wert innerhalb des aktuellen Monats auftritt.
 
 
@@ -20,7 +18,7 @@ Date.IsInNextNMonths(
 ```
 
 
-## Details
+## Remarks
 
 Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob der angegebene datetime-Wert "<code>dateTime</code>" während der nächsten Anzahl von Monaten auftritt. Beachten Sie, dass diese Funktion FALSE zurückgibt, wenn der übergebene Wert innerhalb des aktuellen Monats auftritt.      <ul>      <li><code>dateTime</code>: Ein <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert, der ausgewertet werden soll.</li>      <li><code>months</code>: Die Anzahl von Monaten.</li>      </ul>
 

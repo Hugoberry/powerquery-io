@@ -5,8 +5,6 @@ title: List.Range
 # List.Range
 
 
-## Description
-
 Restituisce un subset dell&#39;elenco a partire da un offset.
 
 
@@ -21,7 +19,7 @@ List.Range(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un subset dell'elenco a partire dall'offset <code>list</code>. Il parametro facoltativo <code>offset</code> imposta il numero massimo di elementi nel subset.
 

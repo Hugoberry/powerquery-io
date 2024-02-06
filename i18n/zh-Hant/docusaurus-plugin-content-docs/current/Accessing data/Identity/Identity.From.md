@@ -5,8 +5,6 @@ title: Identity.From
 # Identity.From
 
 
-## Description
-
 建立身分識別。
 
 
@@ -20,7 +18,7 @@ Identity.From(
 ```
 
 
-## Details
+## Remarks
 
 建立身分識別。
 

@@ -5,8 +5,6 @@ title: Table.ExpandListColumn
 # Table.ExpandListColumn
 
 
-## Description
-
 给定表中的列表列之后，为其列表中的每个值创建行的副本。
 
 
@@ -20,7 +18,7 @@ Table.ExpandListColumn(
 ```
 
 
-## Details
+## Remarks
 
 给定 <code>table</code> 后(其中 <code>column</code> 是值列表)，针对每个值将列表拆分为一行。将在每个创建的新行中复制其他列的值。
 

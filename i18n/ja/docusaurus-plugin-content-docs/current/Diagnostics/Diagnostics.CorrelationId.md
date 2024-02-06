@@ -5,8 +5,6 @@ title: Diagnostics.CorrelationId
 # Diagnostics.CorrelationId
 
 
-## Description
-
 着信要求を送信要求と関連付けるための不透明な識別子を返します。
 
 
@@ -19,7 +17,7 @@ Diagnostics.CorrelationId(
 ```
 
 
-## Details
+## Remarks
 
 着信要求を送信要求と関連付けるための不透明な識別子を返します。
 

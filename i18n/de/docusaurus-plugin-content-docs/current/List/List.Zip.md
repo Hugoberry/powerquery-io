@@ -5,8 +5,6 @@ title: List.Zip
 # List.Zip
 
 
-## Description
-
 Gibt eine Liste von Listen zurück, indem Elemente an der gleichen Position in mehreren Listen kombiniert werden.
 
 
@@ -19,7 +17,7 @@ List.Zip(
 ```
 
 
-## Details
+## Remarks
 
 Akzeptiert eine Liste von Listen, <code>lists</code>, und gibt eine Liste von Listen zurück, indem Elemente an derselben Position kombiniert werden.
 

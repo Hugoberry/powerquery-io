@@ -5,8 +5,6 @@ title: Table.SelectColumns
 # Table.SelectColumns
 
 
-## Description
-
 傳回只包含指定資料行的資料表。
 
 
@@ -21,7 +19,7 @@ Table.SelectColumns(
 ```
 
 
-## Details
+## Remarks
 
 傳回只包含指定 <code>columns</code> 的 <code>table</code>。    <ul>       <li><code>table</code>: 提供的資料表。</li>       <li><code>columns</code>: 要從資料表 <code>table</code> 傳回的資料行清單。傳回資料表中的資料行會按照 <code>columns</code> 所列的順序排列。</li>       <li><code>missingField</code>: <i>(選擇性)</i> 如果資料行不存在，該如何處理。範例: <code>MissingField.UseNull</code> 或 <code>MissingField.Ignore</code>。    </li></ul>
 

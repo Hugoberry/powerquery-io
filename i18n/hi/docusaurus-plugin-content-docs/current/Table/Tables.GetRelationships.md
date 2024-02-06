@@ -5,8 +5,6 @@ title: Tables.GetRelationships
 # Tables.GetRelationships
 
 
-## Description
-
 तालिकाओं के सेट के बीच रिलेशनशिप प्राप्त करता है.
 
 
@@ -20,7 +18,7 @@ Tables.GetRelationships(
 ```
 
 
-## Details
+## Remarks
 
 तालिकाओं के किसी सेट के बीच रिलेशनशिप प्राप्त करता है. सेट <code>tables</code> में नेविगेशन तालिका के समान संरचना होना माना गया है. <code>dataColumn</code> द्वारा निर्धारित स्तंभ में वास्तविक डेटा तालिकाएँ मौजूद हैं.
 

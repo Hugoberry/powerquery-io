@@ -5,8 +5,6 @@ title: Combiner.CombineTextByRanges
 # Combiner.CombineTextByRanges
 
 
-## Description
-
 指定された位置と長さを使用してテキストのリストを結合する関数を返します。
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 指定された出力位置と長さを使用して、テキスト値のリストを 1 つのテキスト値に結合する関数を返します。長さを null にすると、テキスト値全体を含める必要があることを指定できます。
 

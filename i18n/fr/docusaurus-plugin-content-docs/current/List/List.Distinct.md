@@ -5,8 +5,6 @@ title: List.Distinct
 # List.Distinct
 
 
-## Description
-
 Retourne une liste de valeurs avec des doublons supprimés.
 
 
@@ -20,7 +18,7 @@ List.Distinct(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une liste contenant toutes les valeurs dans la liste <code>list</code> avec les doublons supprimés. Si la liste est vide, le résultat est une liste vide.
 

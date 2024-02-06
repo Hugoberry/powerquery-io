@@ -5,8 +5,6 @@ title: List.ReplaceRange
 # List.ReplaceRange
 
 
-## Description
-
 指定された開始位置から、指定された数の値を置換値に置き換えます。
 
 
@@ -22,7 +20,7 @@ List.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> 内の指定された開始位置 <code>index</code> から、<code>count</code> 個の値をリスト <code>replaceWith</code> に置き換えます。
 

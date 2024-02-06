@@ -5,8 +5,6 @@ title: Type.Union
 # Type.Union
 
 
-## Description
-
 ส่งคืนรายการชนิดแบบร่วม
 
 
@@ -19,7 +17,7 @@ Type.Union(
 ```
 
 
-## Details
+## Remarks
 
 ผลตอบแทนที่สหภาพของชนิดใน <code>types</code>
 

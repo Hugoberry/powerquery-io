@@ -5,8 +5,6 @@ title: Table.ReplaceMatchingRows
 # Table.ReplaceMatchingRows
 
 
-## Description
-
 指定されたすべての行を指定された行に置き換えます。
 
 
@@ -21,7 +19,7 @@ Table.ReplaceMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> の指定されたすべての行を指定された行に置き換えます。置き換え前の行と置き換え後の行は、\{old, new} という形式を使用して <code>replacements</code> で指定されます。    省略可能な <code>equationCriteria</code> パラメーターを指定すると、テーブルの行と行の比較を制御できます。
 

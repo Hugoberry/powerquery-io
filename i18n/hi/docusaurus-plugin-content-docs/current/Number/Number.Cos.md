@@ -5,8 +5,6 @@ title: Number.Cos
 # Number.Cos
 
 
-## Description
-
 संख्या का कोसिन लौटाता है.
 
 
@@ -19,7 +17,7 @@ Number.Cos(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> का कोसिन लौटाता है.
 

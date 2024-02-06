@@ -5,8 +5,6 @@ title: Table.ExpandTableColumn
 # Table.ExpandTableColumn
 
 
-## Description
-
 Mở rộng một cột bản ghi hoặc một cột bảng thành nhiều cột trong bảng chứa.
 
 
@@ -22,7 +20,7 @@ Table.ExpandTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Mở rộng các bảng trong <code>table</code>[<code>column</code>] thành nhiều hàng và cột. <code>columnNames</code> được dùng để chọn các cột sẽ mở rộng từ bảng bên trong. Chỉ định <code>newColumnNames</code> để tránh xung đột giữa cột hiện có và cột mới.
 

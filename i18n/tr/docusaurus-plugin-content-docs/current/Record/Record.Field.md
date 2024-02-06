@@ -5,8 +5,6 @@ title: Record.Field
 # Record.Field
 
 
-## Description
-
 Alanda belirtilen alanın değerini döndürür.
 
 
@@ -20,7 +18,7 @@ Record.Field(
 ```
 
 
-## Details
+## Remarks
 
 <code>record</code> içindeki belirtilen <code>field</code> öğesinin değerini döndürür. Alan bulunmazsa, özel durum oluşur.
 

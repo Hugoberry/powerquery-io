@@ -5,8 +5,6 @@ title: Json.Document
 # Json.Document
 
 
-## Description
-
 JSON दस्तावेज़ की सामग्री लौटाता है.
 
 
@@ -20,7 +18,7 @@ Json.Document(
 ```
 
 
-## Details
+## Remarks
 
 JSON दस्तावेज़ की सामग्री लौटाता है.
 

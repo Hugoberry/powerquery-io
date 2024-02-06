@@ -5,8 +5,6 @@ title: Value.Metadata
 # Value.Metadata
 
 
-## Description
-
 Returnerar en post som innehåller metadata för angivna indata.
 
 
@@ -19,7 +17,7 @@ Value.Metadata(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en post som innehåller metadata för angivna indata.
 

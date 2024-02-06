@@ -5,8 +5,6 @@ title: Text.Upper
 # Text.Upper
 
 
-## Description
-
 Chuyển đổi tất cả ký tự thành chữ hoa.
 
 
@@ -20,7 +18,7 @@ Text.Upper(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả chuyển đổi tất cả ký tự trong <code>text</code> thành chữ hoa. <code>culture</code> tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
 

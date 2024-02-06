@@ -5,8 +5,6 @@ title: Combiner.CombineTextByDelimiter
 # Combiner.CombineTextByDelimiter
 
 
-## Description
-
 Возвращает функцию, которая объединяет список текстовых значений с помощью заданного разделителя.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает функцию, которая объединяет список текстовых значений в одно текстовое значение с помощью заданного разделителя.
 

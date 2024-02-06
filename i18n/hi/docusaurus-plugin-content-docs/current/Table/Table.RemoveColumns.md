@@ -5,8 +5,6 @@ title: Table.RemoveColumns
 # Table.RemoveColumns
 
 
-## Description
-
 निर्दिष्ट स्तंभों को निकालता है.
 
 
@@ -21,7 +19,7 @@ Table.RemoveColumns(
 ```
 
 
-## Details
+## Remarks
 
 दिए गए <code>table</code> से निर्दिष्ट <code>columns</code> निकालता है.    यदि निर्दिष्ट स्तंभ मौजूद नहीं है, तो अगर वैकल्पिक पैरामीटर <code>missingField</code> द्वारा कोई वैकल्पिक व्यवहार निर्दिष्ट नहीं है तो एक त्रुटि उत्पन्न होती है (उदाहरण के लिए, <code>MissingField.UseNull</code> या <code>MissingField.Ignore</code>).
 

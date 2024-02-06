@@ -5,8 +5,6 @@ title: Text.RemoveRange
 # Text.RemoveRange
 
 
-## Description
-
 Entfernt die angegebene Anzahl von Zeichen ab dem angegebenen Offset.
 
 
@@ -21,7 +19,7 @@ Text.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Kopie des Textwerts "<code>text</code>" zurück, in der alle Zeichen ab Position <code>offset</code> entfernt wurden.    Die Anzahl der zu entfernenden Zeichen kann mithilfe des optionalen Parameters "<code>count</code>" angegeben werden. Der Standardwert von "<code>count</code>" lautet 1. Positionswerte beginnen bei 0.
 

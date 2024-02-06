@@ -5,8 +5,6 @@ title: Text.BetweenDelimiters
 # Text.BetweenDelimiters
 
 
-## Description
-
 Text.BetweenDelimiters
 
 
@@ -23,7 +21,7 @@ Text.BetweenDelimiters(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar delen av <code>text</code> mellan det angivna <code>startDelimiter</code> och <code>endDelimiter</code>.    En valfri numerisk <code>startIndex</code> indikerar vilken förekomst av <code>startDelimiter</code> som ska övervägas.    En valfri lista <code>startIndex</code> indikerar vilken förekomst av <code>startDelimiter</code> som ska övervägas, samt om indexering ska ske från starten eller slutet av indata.    <code>endIndex</code> är liknande, förutom att indexering görs relativt till <code>startIndex</code>.
 

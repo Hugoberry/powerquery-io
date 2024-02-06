@@ -5,8 +5,6 @@ title: Number.Asin
 # Number.Asin
 
 
-## Description
-
 Retourneert de arcsinus van het getal.
 
 
@@ -19,7 +17,7 @@ Number.Asin(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de arcsinus van <code>number</code>.
 

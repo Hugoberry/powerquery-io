@@ -5,8 +5,6 @@ title: Type.Facets
 # Type.Facets
 
 
-## Description
-
 Muestra las facetas de un tipo.
 
 
@@ -19,7 +17,7 @@ Type.Facets(
 ```
 
 
-## Details
+## Remarks
 
 Muestra un registro que contiene las facetas de <code>type</code>.
 

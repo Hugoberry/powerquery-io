@@ -5,8 +5,6 @@ title: List.Numbers
 # List.Numbers
 
 
-## Description
-
 Verilen ilk değer, sayı ve isteğe bağlı increment değerinden bir sayı listesi döndürür.
 
 
@@ -21,7 +19,7 @@ List.Numbers(
 ```
 
 
-## Details
+## Remarks
 
 Verilen ilk değer, sayı ve isteğe bağlı increment değerinden bir sayı listesi döndürür. Varsayılan increment değeri 1'dir.<ul>   <li><code>start</code>: Listedeki ilk değer.</li>   <li><code>count</code>: Oluşturulacak değer sayısı.</li>   <li><code>increment</code>: <i>[İsteğe bağlı]</i> Artım değeri. Dahil edilmezse, değerler 1 artırılır.</li></ul>
 

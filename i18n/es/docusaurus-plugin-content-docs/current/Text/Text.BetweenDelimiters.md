@@ -5,8 +5,6 @@ title: Text.BetweenDelimiters
 # Text.BetweenDelimiters
 
 
-## Description
-
 Text.BetweenDelimiters
 
 
@@ -23,7 +21,7 @@ Text.BetweenDelimiters(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve la porción de <code>text</code> entre los delimitadores <code>startDelimiter</code> y <code>endDelimiter</code> especificados.    Un <code>startIndex</code> numérico opcional indica la aparición de <code>startDelimiter</code> que debe considerarse.    Una lista opcional <code>startIndex</code> indica la aparición de <code>startDelimiter</code> que debe considerarse, así como si la indexación debe realizarse desde el inicio o el final de la entrada.    Es similar a <code>endIndex</code>, excepto que la indexación se realiza en relación con <code>startIndex</code>.
 

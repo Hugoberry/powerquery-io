@@ -5,8 +5,6 @@ title: Diagnostics.Trace
 # Diagnostics.Trace
 
 
-## Description
-
 Escribe una entrada de seguimiento, si está habilitado el seguimiento, y devuelve el valor.
 
 
@@ -22,7 +20,7 @@ Diagnostics.Trace(
 ```
 
 
-## Details
+## Remarks
 
 Escribe un valor <code>message</code> de seguimiento, si está habilitado el seguimiento, y devuelve <code>value</code>. Un parámetro opcional, <code>delayed</code>, especifica si se debe retardar la evaluación de <code>value</code> hasta que se realice el seguimiento del mensaje. <code>traceLevel</code> Puede tomar uno de estos valores:    <code>TraceLevel.Critical</code>    <code>TraceLevel.Error</code>    <code>TraceLevel.Warning</code>    <code>TraceLevel.Information</code>    <code>TraceLevel.Verbose</code>  
 

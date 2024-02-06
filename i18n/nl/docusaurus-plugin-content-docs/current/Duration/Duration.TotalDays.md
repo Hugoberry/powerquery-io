@@ -5,8 +5,6 @@ title: Duration.TotalDays
 # Duration.TotalDays
 
 
-## Description
-
 Retourneert het totale aantal dagen waaruit deze duur bestaat.
 
 
@@ -19,7 +17,7 @@ Duration.TotalDays(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het totale aantal dagen dat is beslaan door <code>duration</code>.
 

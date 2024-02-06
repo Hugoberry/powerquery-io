@@ -5,8 +5,6 @@ title: Number.BitwiseShiftRight
 # Number.BitwiseShiftRight
 
 
-## Description
-
 Wykonuje przesunięcie bitów w prawo.
 
 
@@ -20,7 +18,7 @@ Number.BitwiseShiftRight(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wynik przesunięcia bitów w prawo w wartości <code>number1</code> o określoną liczbę bitów <code>number2</code>.
 

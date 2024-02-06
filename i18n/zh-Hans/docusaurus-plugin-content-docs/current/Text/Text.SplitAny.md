@@ -5,8 +5,6 @@ title: Text.SplitAny
 # Text.SplitAny
 
 
-## Description
-
 返回基于分隔符中的任何字符拆分的文本值列表。
 
 
@@ -20,7 +18,7 @@ Text.SplitAny(
 ```
 
 
-## Details
+## Remarks
 
 返回根据指定的分隔符 <code>separators</code> 中的任意字符拆分文本值 <code>text</code> 而得到的文本值列表。
 

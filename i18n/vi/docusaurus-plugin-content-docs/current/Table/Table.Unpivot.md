@@ -5,8 +5,6 @@ title: Table.Unpivot
 # Table.Unpivot
 
 
-## Description
-
 Chuyển đổi tập hợp cột trong bảng thành các cặp thuộc tính-giá trị.
 
 
@@ -22,7 +20,7 @@ Table.Unpivot(
 ```
 
 
-## Details
+## Remarks
 
 Chuyển đổi tập hợp cột trong bảng thành các cặp thuộc tính-giá trị, kết hợp với các giá trị còn lại trong mỗi hàng.
 

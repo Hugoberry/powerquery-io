@@ -5,8 +5,6 @@ title: Identity.From
 # Identity.From
 
 
-## Description
-
 สร้างข้อมูลประจำตัว
 
 
@@ -20,7 +18,7 @@ Identity.From(
 ```
 
 
-## Details
+## Remarks
 
 สร้างข้อมูลประจำตัว
 

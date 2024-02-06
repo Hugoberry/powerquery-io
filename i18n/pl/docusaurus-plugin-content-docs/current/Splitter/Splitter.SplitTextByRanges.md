@@ -5,8 +5,6 @@ title: Splitter.SplitTextByRanges
 # Splitter.SplitTextByRanges
 
 
-## Description
-
 Zwraca funkcję dzielącą tekst na listę wartości tekstowych przy użyciu określonych przesunięć i długości.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca funkcję dzielącą tekst na listę tekstu zgodnie z określonymi przesunięciami i długościami. Długość o wartości null wskazuje, że wszystkie pozostałe dane wejściowe powinny zostać uwzględnione.
 

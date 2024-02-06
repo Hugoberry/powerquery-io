@@ -5,8 +5,6 @@ title: Xml.Tables
 # Xml.Tables
 
 
-## Description
-
 Restituisce il contenuto del documento XML come raccolta annidata di tabelle rese flat.
 
 
@@ -21,7 +19,7 @@ Xml.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il contenuto del documento XML come raccolta annidata di tabelle rese flat.
 

@@ -5,8 +5,6 @@ title: Table.ReverseRows
 # Table.ReverseRows
 
 
-## Description
-
 傳回資料表，其中資料列會按照反向順序排列。
 
 
@@ -19,7 +17,7 @@ Table.ReverseRows(
 ```
 
 
-## Details
+## Remarks
 
 傳回資料表，其中來自輸入 <code>table</code> 的資料列會按照反向順序排列。
 

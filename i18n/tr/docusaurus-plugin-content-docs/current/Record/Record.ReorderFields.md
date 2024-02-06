@@ -5,8 +5,6 @@ title: Record.ReorderFields
 # Record.ReorderFields
 
 
-## Description
-
 Belirtilen alanları yeni düzen ile yeniden sıralar.
 
 
@@ -21,7 +19,7 @@ Record.ReorderFields(
 ```
 
 
-## Details
+## Remarks
 
 <code>record</code> içindeki alanları yeniden sıraladıktan sonra <code>fieldOrder</code> listesinde belirtilen alan sıralamasında bir kayıt döndürür. Alan değerleri korunur ve <code>fieldOrder</code> içinde listelenmeyen alanlar asıl konumlarında bırakılır.
 

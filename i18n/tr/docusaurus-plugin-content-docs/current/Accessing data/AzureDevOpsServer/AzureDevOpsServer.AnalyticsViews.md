@@ -5,8 +5,6 @@ title: AzureDevOpsServer.AnalyticsViews
 # AzureDevOpsServer.AnalyticsViews
 
 
-## Description
-
 Kuruluşu ve proje adlarını girin.
 
 
@@ -21,7 +19,7 @@ AzureDevOpsServer.AnalyticsViews(
 ```
 
 
-## Details
+## Remarks
 
 Azure DevOps tarafından sunulan Analytics görünümlerinin bir tablosunu döndürür.
 

@@ -5,8 +5,6 @@ title: Xml.Tables
 # Xml.Tables
 
 
-## Description
-
 Retorna o conteúdo do documento XML como uma coleção aninhada de tabelas niveladas.
 
 
@@ -21,7 +19,7 @@ Xml.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o conteúdo do documento XML como uma coleção aninhada de tabelas niveladas.
 

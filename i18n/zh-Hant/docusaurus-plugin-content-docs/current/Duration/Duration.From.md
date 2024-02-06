@@ -5,8 +5,6 @@ title: Duration.From
 # Duration.From
 
 
-## Description
-
 根據指定的值建立持續時間。
 
 
@@ -19,7 +17,7 @@ Duration.From(
 ```
 
 
-## Details
+## Remarks
 
 從指定的 <code>value</code> 傳回 <code>duration</code> 值。若指定的 <code>value</code> 是 <code>null</code>，則 <code>Duration.From</code> 會傳回 <code>null</code>。若指定的 <code>value</code> 是 <code>duration</code>，則會傳回 <code>value</code>。可以將下列類型的值轉換成 <code>duration</code> 值:      <ul>        <li><code>text</code>: 來自文字之經過時間格式 (d.h:m:s) 的 <code>duration</code> 值。如需詳細資料，請參閱 <code>Duration.FromText</code>。</li>        <li><code>number</code>: 等於 <code>value</code> 所表示整數與分數天數的 <code>duration</code>。</li>      </ul>若 <code>value</code> 是其他任何類型，則會傳回錯誤。
 

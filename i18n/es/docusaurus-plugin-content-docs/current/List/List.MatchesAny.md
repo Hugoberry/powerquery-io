@@ -5,8 +5,6 @@ title: List.MatchesAny
 # List.MatchesAny
 
 
-## Description
-
 Devuelve true si algún valor satisface la función de la condición.
 
 
@@ -20,7 +18,7 @@ List.MatchesAny(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve <code>true</code> si alguno de los valores de la lista <code>list</code> satisfacen la función de la condición, <code>condition</code>; de lo contrario, devuelve <code>false</code>.
 

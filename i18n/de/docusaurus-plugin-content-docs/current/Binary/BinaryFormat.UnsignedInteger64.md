@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger64
 # BinaryFormat.UnsignedInteger64
 
 
-## Description
-
 Ein Binärformat, das eine 64-Bit-Ganzzahl ohne Vorzeichen liest.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger64(
 ```
 
 
-## Details
+## Remarks
 
 Ein Binärformat, das eine 64-Bit-Ganzzahl ohne Vorzeichen liest.
 

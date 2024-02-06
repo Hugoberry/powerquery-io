@@ -5,8 +5,6 @@ title: Table.RemoveRowsWithErrors
 # Table.RemoveRowsWithErrors
 
 
-## Description
-
 Gibt eine Tabelle ohne die Zeilen aus der Eingabetabelle zurück, die in mindestens einer der Zellen einen Fehler enthalten. Bei Angabe einer Spaltenliste werden nur die Zellen der angegebenen Spalten auf Fehler geprüft.
 
 
@@ -20,7 +18,7 @@ Table.RemoveRowsWithErrors(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Tabelle ohne die Zeilen aus der Eingabetabelle zurück, die in mindestens einer der Zellen einen Fehler enthalten. Bei Angabe einer Spaltenliste werden nur die Zellen der angegebenen Spalten auf Fehler geprüft.
 

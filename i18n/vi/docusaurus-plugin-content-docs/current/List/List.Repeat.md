@@ -5,8 +5,6 @@ title: List.Repeat
 # List.Repeat
 
 
-## Description
-
 Trả về một danh sách tính tổng lần lặp của danh sách gốc.
 
 
@@ -20,7 +18,7 @@ List.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một danh sách là <code>count</code> lần lặp của danh sách gốc <code>list</code>.
 

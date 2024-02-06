@@ -5,8 +5,6 @@ title: Date.EndOfMonth
 # Date.EndOfMonth
 
 
-## Description
-
 Ay sonunu döndürür.
 
 
@@ -19,7 +17,7 @@ Date.EndOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> içeren ay sonunu döndürür.      <ul>        <li><code>dateTime</code>: Kendisinden itibaren ayın sonunun hesaplandığı <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      </ul>
 

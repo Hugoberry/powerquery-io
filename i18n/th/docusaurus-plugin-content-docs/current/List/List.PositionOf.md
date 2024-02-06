@@ -5,8 +5,6 @@ title: List.PositionOf
 # List.PositionOf
 
 
-## Description
-
 ส่งกลับออฟเซตของค่าในรายการ
 
 
@@ -22,7 +20,7 @@ List.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับออฟเซตที่ค่า <code>value</code> ปรากฏในรายการ <code>list</code> ส่งกลับ -1 ถ้าค่าไม่ปรากฏ    สามารถระบุพารามิเตอร์การเกิดเหตุการณ์ <code>occurrence</code> ที่เลือกได้<ul>   <li><code>occurrence</code>: จำนวนสูงสุดของเหตุการณ์ที่จะรายงาน</li></ul>
 

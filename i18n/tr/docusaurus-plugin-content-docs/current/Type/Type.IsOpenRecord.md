@@ -5,8 +5,6 @@ title: Type.IsOpenRecord
 # Type.IsOpenRecord
 
 
-## Description
-
 Bir kayıt türünün açık olup olmadığını döndürür.
 
 
@@ -19,7 +17,7 @@ Type.IsOpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 Bir <code>type</code> kaydının açık olup olmadığı belirten bir <code>logical</code> değeri döndürür.
 

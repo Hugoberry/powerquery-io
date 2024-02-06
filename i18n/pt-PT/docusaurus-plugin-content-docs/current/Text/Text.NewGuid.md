@@ -5,8 +5,6 @@ title: Text.NewGuid
 # Text.NewGuid
 
 
-## Description
-
 Devolve um novo identificador exclusivo global (GUID) aleatório.
 
 
@@ -19,7 +17,7 @@ Text.NewGuid(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um novo identificador exclusivo global (GUID) aleatório.
 

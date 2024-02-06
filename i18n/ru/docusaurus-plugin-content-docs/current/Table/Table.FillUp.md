@@ -5,8 +5,6 @@ title: Table.FillUp
 # Table.FillUp
 
 
-## Description
-
 Распространяет значение ячейки в ячейки со значениями NULL выше в столбце.
 
 
@@ -20,7 +18,7 @@ Table.FillUp(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу из указанного <code>table</code>, где значение следующей ячейки распространяется на ячейки со значением NULL выше в указанном <code>columns</code>.
 

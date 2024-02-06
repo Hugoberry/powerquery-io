@@ -5,8 +5,6 @@ title: Table.MatchesAnyRows
 # Table.MatchesAnyRows
 
 
-## Description
-
 Wskazuje, czy dowolne wiersze tabeli spełniają dany warunek.
 
 
@@ -20,7 +18,7 @@ Table.MatchesAnyRows(
 ```
 
 
-## Details
+## Remarks
 
 Wskazuje, czy dowolne wiersze tabeli <code>table</code> spełniają dany warunek <code>condition</code>. Zwraca wartość <code>true</code>, jeśli dowolny wiersz spełnia warunek; w przeciwnym razie zwraca wartość <code>false</code>.
 

@@ -5,8 +5,6 @@ title: AzureDevOpsServer.AnalyticsViews
 # AzureDevOpsServer.AnalyticsViews
 
 
-## Description
-
 Voer een organisatie en projectnamen in.
 
 
@@ -21,7 +19,7 @@ AzureDevOpsServer.AnalyticsViews(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tabel met Analytics-weergaven van Azure DevOps geretourneerd.
 

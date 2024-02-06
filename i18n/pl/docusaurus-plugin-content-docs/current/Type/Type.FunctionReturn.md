@@ -5,8 +5,6 @@ title: Type.FunctionReturn
 # Type.FunctionReturn
 
 
-## Description
-
 Zwraca typ zwrócony przez typ funkcji.
 
 
@@ -19,7 +17,7 @@ Type.FunctionReturn(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca typ zwrócony przez funkcję <code>type</code>.
 

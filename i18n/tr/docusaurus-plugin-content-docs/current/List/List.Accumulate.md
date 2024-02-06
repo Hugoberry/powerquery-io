@@ -5,8 +5,6 @@ title: List.Accumulate
 # List.Accumulate
 
 
-## Description
-
 Bir toplam değerini listedeki öğelerden hesaplar.
 
 
@@ -21,7 +19,7 @@ List.Accumulate(
 ```
 
 
-## Details
+## Remarks
 
 Bir toplam değerini <code>list</code> listesindeki öğelerden <code>accumulator</code> kullanarak hesaplar.    <code>seed</code> isteğe bağlı çekirdek parametresi ayarlanabilir.
 

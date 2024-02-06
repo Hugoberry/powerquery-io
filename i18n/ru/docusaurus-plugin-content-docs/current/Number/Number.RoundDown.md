@@ -5,8 +5,6 @@ title: Number.RoundDown
 # Number.RoundDown
 
 
-## Description
-
 Возвращает наибольшее предыдущее число. Можно указать число цифр.
 
 
@@ -20,7 +18,7 @@ Number.RoundDown(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает результат округления <code>number</code> в меньшую сторону к предыдущему наибольшему целому числу. Если <code>number</code> имеет значение NULL, эта функция возвращает NULL.    Если задано <code>digits</code>, <code>number</code> округляется до указанного количества десятичных цифр.  
 

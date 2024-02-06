@@ -5,8 +5,6 @@ title: Embedded.Value
 # Embedded.Value
 
 
-## Description
-
 Uzyskuje dostęp do wartości według nazwy w osadzonym zestawie łączącym.
 
 
@@ -20,7 +18,7 @@ Embedded.Value(
 ```
 
 
-## Details
+## Remarks
 
 Uzyskuje dostęp do wartości według nazwy w osadzonym zestawie łączącym.
 

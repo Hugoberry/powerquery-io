@@ -5,8 +5,6 @@ title: Table.ReplaceValue
 # Table.ReplaceValue
 
 
-## Description
-
 指定された列で値を別の値に置き換えます。
 
 
@@ -23,7 +21,7 @@ Table.ReplaceValue(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> の指定された列で <code>oldValue</code> を <code>newValue</code> に置き換えます。
 

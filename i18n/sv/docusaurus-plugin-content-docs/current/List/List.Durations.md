@@ -5,8 +5,6 @@ title: List.Durations
 # List.Durations
 
 
-## Description
-
 Genererar en lista med duration-värden baserat på ett ursprungligt värde, antal och inkrementellt duration-värde.
 
 
@@ -21,7 +19,7 @@ List.Durations(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en lista med <code>count</code> <code>duration</code>-värden med början från <code>start</code> som ökar med <code>duration</code>-värdet <code>step</code>.
 

@@ -5,8 +5,6 @@ title: Table.FillUp
 # Table.FillUp
 
 
-## Description
-
 Propaga o valor de uma célula para as células com valor nulo acima na coluna.
 
 
@@ -20,7 +18,7 @@ Table.FillUp(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma tabela a partir de <code>table</code> especificado em que o valor da próxima célula é propagado para as células com valor nulo acima do <code>columns</code> especificado.
 

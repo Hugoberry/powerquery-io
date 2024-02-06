@@ -5,8 +5,6 @@ title: Logical.FromText
 # Logical.FromText
 
 
-## Description
-
 Tworzy wartość logiczną na podstawie wartości tekstowych „true” i „false”.
 
 
@@ -19,7 +17,7 @@ Logical.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Tworzy wartość logiczną na podstawie wartości tekstowej <code>text</code> („true” lub „false”). Jeśli parametr <code>text</code> zawiera inny ciąg, jest zwracany wyjątek. W wartości tekstowej <code>text</code> nie jest rozróżniana wielkość znaków.
 

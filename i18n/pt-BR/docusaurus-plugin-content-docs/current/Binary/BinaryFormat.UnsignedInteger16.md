@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger16
 # BinaryFormat.UnsignedInteger16
 
 
-## Description
-
 Um formato binário que lê um número inteiro de 16 bits sem sinal.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger16(
 ```
 
 
-## Details
+## Remarks
 
 Um formato binário que lê um número inteiro de 16 bits sem sinal.
 

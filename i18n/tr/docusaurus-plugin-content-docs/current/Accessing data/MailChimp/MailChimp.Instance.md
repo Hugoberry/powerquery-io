@@ -5,8 +5,6 @@ title: MailChimp.Instance
 # MailChimp.Instance
 
 
-## Description
-
 MailChimp API uç noktasına ait ham yanıt sonuçlarını döndürür.
 
 
@@ -19,7 +17,7 @@ MailChimp.Instance(
 ```
 
 
-## Details
+## Remarks
 
 MailChimp API'sine çağrıda bulunur ve ham yanıtı döndürür.
 

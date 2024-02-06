@@ -5,8 +5,6 @@ title: Cube.PropertyKey
 # Cube.PropertyKey
 
 
-## Description
-
 プロパティのキーを返します。
 
 
@@ -19,7 +17,7 @@ Cube.PropertyKey(
 ```
 
 
-## Details
+## Remarks
 
 プロパティ <code>property</code> のキーを返します。
 

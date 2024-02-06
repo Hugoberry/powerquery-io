@@ -5,8 +5,6 @@ title: Xml.Tables
 # Xml.Tables
 
 
-## Description
-
 Retourne le contenu du document XML comme une collection de tables imbriquées aplaties.
 
 
@@ -21,7 +19,7 @@ Xml.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Retourne le contenu du document XML comme une collection de tables imbriquées aplaties.
 

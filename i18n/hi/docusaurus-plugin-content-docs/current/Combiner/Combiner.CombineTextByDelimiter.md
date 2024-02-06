@@ -5,8 +5,6 @@ title: Combiner.CombineTextByDelimiter
 # Combiner.CombineTextByDelimiter
 
 
-## Description
-
 एक फ़ंक्शन लौटाता है जो निर्दिष्ट डिलिमिटर का उपयोग करके टेक्स्ट की सूची को जोड़ता है.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 एक ऐसा फ़ंक्शन लौटाता है जो निर्दिष्ट डिलिमिटर का उपयोग करके पाठ मूल्यों की एक सूची को किसी एकल पाठ मूल्य में संयोजित करता है.
 

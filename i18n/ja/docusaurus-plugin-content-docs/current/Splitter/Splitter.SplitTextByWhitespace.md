@@ -5,8 +5,6 @@ title: Splitter.SplitTextByWhitespace
 # Splitter.SplitTextByWhitespace
 
 
-## Description
-
 空白文字でテキストを一連のテキストに分割する関数を返します。
 
 
@@ -19,7 +17,7 @@ Splitter.SplitTextByWhitespace(
 ```
 
 
-## Details
+## Remarks
 
 空白文字でテキストを一連のテキストに分割する関数を返します。
 

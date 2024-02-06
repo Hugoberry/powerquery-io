@@ -5,8 +5,6 @@ title: MailChimp.Collection
 # MailChimp.Collection
 
 
-## Description
-
 Devolve uma tabela com dados de um ponto final do MailChimp.
 
 
@@ -20,7 +18,7 @@ MailChimp.Collection(
 ```
 
 
-## Details
+## Remarks
 
 Efetua uma chamada à API do MailChimp e devolve o conjunto de dados resultante como tabela. Percorre automaticamente todos os resultados. O parâmetro opcional entityName pode ser utilizado para pontos finais de API em que o ponto final de raiz e o entityName principal na resposta JSON não correspondem.
 

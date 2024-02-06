@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.EnvironmentContents
 # Dynamics365BusinessCentral.EnvironmentContents
 
 
-## Description
-
 Dynamics 365 Business Central の環境と会社を入力します。
 
 
@@ -20,7 +18,7 @@ Dynamics365BusinessCentral.EnvironmentContents(
 ```
 
 
-## Details
+## Remarks
 
 関連する Dynamics 365 Business Central データの入ったテーブルを返します。
 

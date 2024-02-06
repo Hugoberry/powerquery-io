@@ -5,8 +5,6 @@ title: Webtrends.KeyMetrics
 # Webtrends.KeyMetrics
 
 
-## Description
-
 Trả về bảng bao gồm số liệu Webtrends chính.
 
 
@@ -21,7 +19,7 @@ Webtrends.KeyMetrics(
 ```
 
 
-## Details
+## Remarks
 
 Gọi đến điểm cuối Webtrends KeyMetrics và trả về tất cả dữ liệu dưới dạng bảng.
 

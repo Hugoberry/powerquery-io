@@ -5,8 +5,6 @@ title: BinaryFormat.7BitEncodedSignedInteger
 # BinaryFormat.7BitEncodedSignedInteger
 
 
-## Description
-
 Định dạng nhị phân đọc số nguyên có dấu 64 bit đã được mã hóa bằng mã hóa có độ dài biến thiên 7 bit.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.7BitEncodedSignedInteger(
 ```
 
 
-## Details
+## Remarks
 
 Định dạng nhị phân đọc số nguyên có dấu 64 bit đã được mã hóa bằng mã hóa có độ dài biến thiên 7 bit.
 

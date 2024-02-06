@@ -5,8 +5,6 @@ title: Cube.DisplayFolders
 # Cube.DisplayFolders
 
 
-## Description
-
 Devuelve un árbol anidado de tablas que representa la jerarquía de carpetas para mostrar de los objetos (por ejemplo, dimensiones y medidas).
 
 
@@ -19,7 +17,7 @@ Cube.DisplayFolders(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un árbol anidado de tablas que representa la jerarquía de carpetas para mostrar de los objetos (por ejemplo, dimensiones y medidas) que se pueden usar en el <code>cube</code>.
 

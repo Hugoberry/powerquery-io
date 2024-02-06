@@ -5,8 +5,6 @@ title: Type.FunctionReturn
 # Type.FunctionReturn
 
 
-## Description
-
 Bir işlev türü tarafından döndürülen bir türü döndürür.
 
 
@@ -19,7 +17,7 @@ Type.FunctionReturn(
 ```
 
 
-## Details
+## Remarks
 
 Bir <code>type</code> işlevi tarafından döndürülen bir türü döndürür.
 

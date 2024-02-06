@@ -5,8 +5,6 @@ title: Binary.Decompress
 # Binary.Decompress
 
 
-## Description
-
 Распаковать двоичное значение с применением указанного типа сжатия.
 
 
@@ -20,7 +18,7 @@ Binary.Decompress(
 ```
 
 
-## Details
+## Remarks
 
 Распаковывает двоичное значение с помощью заданного типа сжатия. Результат такого вызова — распакованная копия входных данных. Типы сжатия:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
 

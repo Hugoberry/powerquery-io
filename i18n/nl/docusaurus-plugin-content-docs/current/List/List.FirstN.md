@@ -5,8 +5,6 @@ title: List.FirstN
 # List.FirstN
 
 
-## Description
-
 Retourneert de eerste set met items in de lijst door op te geven hoeveel items er moeten worden geretourneerd of door een in aanmerking komende voorwaarde op te geven.
 
 
@@ -20,7 +18,7 @@ List.FirstN(
 ```
 
 
-## Details
+## Remarks
 
  <ul>  <li>Als er een getal wordt opgegeven, wordt er niet meer dan dat aantal items geretourneerd. </li>  <li>Als er een voorwaarde wordt opgegeven, worden alle items geretourneerd die in eerste instantie aan de voorwaarde voldoen. Wanneer een item niet aan de voorwaarde voldoet, stopt de bewerking. </li> </ul>
 

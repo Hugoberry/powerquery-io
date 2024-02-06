@@ -5,8 +5,6 @@ title: Number.BitwiseShiftLeft
 # Number.BitwiseShiftLeft
 
 
-## Description
-
 将位左移设置的位数。
 
 
@@ -20,7 +18,7 @@ Number.BitwiseShiftLeft(
 ```
 
 
-## Details
+## Remarks
 
 返回对 <code>number1</code> 执行按位左移指定的位数 <code>number2</code> 所得的结果。
 

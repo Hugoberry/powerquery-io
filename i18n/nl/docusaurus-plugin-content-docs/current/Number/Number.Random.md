@@ -5,8 +5,6 @@ title: Number.Random
 # Number.Random
 
 
-## Description
-
 Retourneert een willekeurig getal.
 
 
@@ -19,7 +17,7 @@ Number.Random(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een willekeurig getal tussen de 0 en 1.
 

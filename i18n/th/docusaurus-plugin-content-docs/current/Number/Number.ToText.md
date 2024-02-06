@@ -5,8 +5,6 @@ title: Number.ToText
 # Number.ToText
 
 
-## Description
-
 แปลงตัวเลขที่กําหนดให้เป็นข้อความ
 
 
@@ -21,7 +19,7 @@ Number.ToText(
 ```
 
 
-## Details
+## Remarks
 
 แปลงค่าตัวเลข <code>number</code> เป็นค่าข้อความตามรูปแบบที่ระบุโดย <code>format</code><br />     <br />     รูปแบบคือค่าข้อความที่ระบุวิธีการแปลงตัวเลข สําหรับรายละเอียดเพิ่มเติมเกี่ยวกับค่ารูปแบบที่ได้รับการสนับสนุน ให้ไปที่ https://go.microsoft.com/fwlink/?linkid=2241210 และ https://go.microsoft.com/fwlink/?linkid=2240884<br />     <br />     อาจมี <code>culture</code> เพิ่มเติม (ตัวอย่างเช่น "en-US") เพื่อควบคุมลักษณะการทํางานที่ขึ้นอยู่กับวัฒนธรรมของ <code>format</code>
 

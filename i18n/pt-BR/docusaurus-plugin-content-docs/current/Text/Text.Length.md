@@ -5,8 +5,6 @@ title: Text.Length
 # Text.Length
 
 
-## Description
-
 Retorna o número de caracteres.
 
 
@@ -19,7 +17,7 @@ Text.Length(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o número de caracteres no texto <code>text</code>.
 

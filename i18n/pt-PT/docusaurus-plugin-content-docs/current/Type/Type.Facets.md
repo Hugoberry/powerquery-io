@@ -5,8 +5,6 @@ title: Type.Facets
 # Type.Facets
 
 
-## Description
-
 Devolve as facetas de um tipo.
 
 
@@ -19,7 +17,7 @@ Type.Facets(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um registo com as facetas de <code>type</code>.
 

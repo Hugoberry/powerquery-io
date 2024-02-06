@@ -5,8 +5,6 @@ title: AzureDevOpsServer.Feed
 # AzureDevOpsServer.Feed
 
 
-## Description
-
 ฟีดบริการ Azure DevOps
 
 
@@ -20,7 +18,7 @@ AzureDevOpsServer.Feed(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางฟีด OData ที่เสนอโดย Azure DevOps
 

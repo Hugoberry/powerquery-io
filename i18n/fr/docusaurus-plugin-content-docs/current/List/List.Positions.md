@@ -5,8 +5,6 @@ title: List.Positions
 # List.Positions
 
 
-## Description
-
 Retourne une liste de décalages pour l&#39;entrée.
 
 
@@ -19,7 +17,7 @@ List.Positions(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une liste de décalages pour la liste d'entrée <code>list</code>.    Quand vous utilisez List.Transform pour changer une liste, la liste des positions peut être utilisée pour fournir à la transformation l'accès à la position.
 

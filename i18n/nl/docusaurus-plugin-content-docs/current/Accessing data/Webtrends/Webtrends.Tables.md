@@ -5,8 +5,6 @@ title: Webtrends.Tables
 # Webtrends.Tables
 
 
-## Description
-
 Voer de profiel-id in die is gekoppeld aan uw Webtrends-account.
 
 
@@ -21,7 +19,7 @@ Webtrends.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tabel met de relevante Webtrends-gegevens geretourneerd.
 

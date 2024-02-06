@@ -5,8 +5,6 @@ title: List.First
 # List.First
 
 
-## Description
-
 Devolve o primeiro valor da lista ou a predefinição especificada se a lista estiver vazia.
 
 
@@ -20,7 +18,7 @@ List.First(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o primeiro item existente na lista <code>list</code> ou o valor predefinido opcional, <code>defaultValue</code>, se a lista estiver vazia.    Se a lista estiver vazia e não for especificado um valor predefinido, a função devolve <code>null</code>.
 

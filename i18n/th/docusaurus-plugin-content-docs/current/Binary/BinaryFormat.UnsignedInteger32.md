@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger32
 # BinaryFormat.UnsignedInteger32
 
 
-## Description
-
 รูปแบบไบนารีที่อ่านจำนวนเต็มที่ไม่มีเครื่องหมาย 32 บิต
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger32(
 ```
 
 
-## Details
+## Remarks
 
 รูปแบบไบนารีที่อ่านจำนวนเต็มที่ไม่มีเครื่องหมาย 32 บิต
 

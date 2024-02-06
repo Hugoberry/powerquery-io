@@ -5,8 +5,6 @@ title: Cube.Properties
 # Cube.Properties
 
 
-## Description
-
 Zwraca tabelę zawierającą zestaw dostępnych właściwości dla wymiarów, które są rozwijane w module.
 
 
@@ -19,7 +17,7 @@ Cube.Properties(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę zawierającą zestaw dostępnych właściwości dla wymiarów, które są rozwijane w module.
 

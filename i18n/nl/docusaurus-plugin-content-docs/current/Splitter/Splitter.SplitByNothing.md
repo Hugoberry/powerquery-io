@@ -5,8 +5,6 @@ title: Splitter.SplitByNothing
 # Splitter.SplitByNothing
 
 
-## Description
-
 Hiermee wordt een functie geretourneerd die niet splitst en het argument als één elementlijst wordt geretourneerd.
 
 
@@ -19,7 +17,7 @@ Splitter.SplitByNothing(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een functie geretourneerd die niet splitst en het argument als één elementlijst wordt geretourneerd.
 

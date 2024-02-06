@@ -5,8 +5,6 @@ title: Text.End
 # Text.End
 
 
-## Description
-
 Metnin son karakterlerini döndürür.
 
 
@@ -20,7 +18,7 @@ Text.End(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> değeri olan <code>text</code> öğesinin son <code>count</code> karakteri olan bir <code>text</code> değeri döndürür.
 

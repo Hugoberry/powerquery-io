@@ -5,8 +5,6 @@ title: Text.PadEnd
 # Text.PadEnd
 
 
-## Description
-
 Devuelve texto de una longitud especificada rellenando el final del texto dado.
 
 
@@ -21,7 +19,7 @@ Text.PadEnd(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un valor <code>text</code> rellenado hasta la longitud <code>count</code> insertando espacios al final del valor de texto <code>text</code>.    Se puede usar un carácter opcional <code>character</code> para especificar el carácter usado para el relleno. El carácter de relleno predeterminado es un espacio.
 

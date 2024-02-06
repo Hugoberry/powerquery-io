@@ -5,8 +5,6 @@ title: ItemExpression.From
 # ItemExpression.From
 
 
-## Description
-
 Restituisce l&#39;albero della sintassi astratta (AST) per il corpo di una funzione.
 
 
@@ -19,7 +17,7 @@ ItemExpression.From(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce l'albero della sintassi astratta (AST) per il corpo di <code>function</code>, normalizzato in una <i>item expression</i>:<ul>  <li>La funzione deve essere una funzione lambda con 1 argomento.</li>  <li>Tutti i riferimenti al parametro di funzione sono sostituiti con <code>ItemExpression.Item</code>.</li>  <li>L'albero della sintassi astratta verrà semplificato per contenere solo i nodi dei tipi:    <ul>      <li><code>Constant</code></li>      <li><code>Invocation</code></li>      <li><code>Unary</code></li>      <li><code>Binary</code></li>      <li><code>If</code></li>      <li><code>FieldAccess</code></li>    </ul>  </li></ul><br /><br />Un errore viene generato se non è possibile restituire un'espressione di riga AST per il corpo di <code>function</code>.<br />
 

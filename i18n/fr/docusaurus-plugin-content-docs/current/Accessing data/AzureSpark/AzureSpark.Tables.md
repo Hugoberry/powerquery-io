@@ -5,8 +5,6 @@ title: AzureSpark.Tables
 # AzureSpark.Tables
 
 
-## Description
-
 Répertoriez les tables dans une instance d&#39;Azure Spark.
 
 
@@ -20,7 +18,7 @@ AzureSpark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Répertoriez les tables dans une instance d'Azure Spark.
 

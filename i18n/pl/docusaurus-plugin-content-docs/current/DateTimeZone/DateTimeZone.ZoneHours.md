@@ -5,8 +5,6 @@ title: DateTimeZone.ZoneHours
 # DateTimeZone.ZoneHours
 
 
-## Description
-
 Zmienia strefę czasową wartości.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ZoneHours(
 ```
 
 
-## Details
+## Remarks
 
 Zmienia strefę czasową wartości.
 

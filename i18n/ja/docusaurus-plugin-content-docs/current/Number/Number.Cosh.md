@@ -5,8 +5,6 @@ title: Number.Cosh
 # Number.Cosh
 
 
-## Description
-
 数値の双曲線コサインを返します。
 
 
@@ -19,7 +17,7 @@ Number.Cosh(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> の双曲線コサインを返します。
 

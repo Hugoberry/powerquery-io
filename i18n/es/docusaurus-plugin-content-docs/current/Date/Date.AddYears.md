@@ -5,8 +5,6 @@ title: Date.AddYears
 # Date.AddYears
 
 
-## Description
-
 Suma los años especificados a la fecha.
 
 
@@ -20,7 +18,7 @@ Date.AddYears(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve el valor <code>date</code>, <code>datetime</code> o <code>datetimezone</code> como resultado de sumar <code>numberOfYears</code> a un valor <code>datetime</code> <code>dateTime</code>.      <ul>        <li><code>dateTime</code>: el valor <code>date</code>, <code>datetime</code> o <code>datetimezone</code> al que se suman los años.</li>        <li><code>numberOfYears</code>: número de años que se sumarán.</li>      </ul>
 

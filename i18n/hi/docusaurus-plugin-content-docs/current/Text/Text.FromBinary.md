@@ -5,8 +5,6 @@ title: Text.FromBinary
 # Text.FromBinary
 
 
-## Description
-
 डेटा को बाइनरी फ़ॉर्म से पाठ में डीकोड करता है.
 
 
@@ -20,7 +18,7 @@ Text.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 <code>encoding</code> प्रकार का उपयोग करके डेटा, <code>binary</code>, को बाइनरी मान से पाठ मान में डीकोड करता है.
 

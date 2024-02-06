@@ -5,8 +5,6 @@ title: Character.ToNumber
 # Character.ToNumber
 
 
-## Description
-
 Konverterer et tegn til en talværdi.
 
 
@@ -19,7 +17,7 @@ Character.ToNumber(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer tilsvarende tal for <code>character</code>.<br />    <br />    Resultatet er det 21-bit Unicode-kodepunkt, der repræsenteres af det angivne tegn eller erstatningspar.  
 

@@ -5,8 +5,6 @@ title: Percentage.From
 # Percentage.From
 
 
-## Description
-
 Trả về giá trị phần trăm từ giá trị đã cho.
 
 
@@ -20,7 +18,7 @@ Percentage.From(
 ```
 
 
-## Details
+## Remarks
 
 Trả về giá trị <code>percentage</code> từ <code>value</code> cho sẵn. Nếu <code>value</code> cho sẵn là <code>null</code>, <code>Percentage.From</code> sẽ trả về <code>null</code>. Nếu <code>value</code> cho sẵn là <code>text</code> có biểu tượng dấu phần trăm theo sau, thì sẽ trả về số thập phân được chuyển đổi. Nếu không, giá trị sẽ được chuyển đổi thành <code>number</code> bằng <code>Number.From</code>. Một <code>culture</code> tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
 

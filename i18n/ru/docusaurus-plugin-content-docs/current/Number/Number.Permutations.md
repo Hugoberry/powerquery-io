@@ -5,8 +5,6 @@ title: Number.Permutations
 # Number.Permutations
 
 
-## Description
-
 Возвращает число перестановок.
 
 
@@ -20,7 +18,7 @@ Number.Permutations(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает число перестановок, которое можно создать из нескольких элементов <code>setSize</code>, с указанным размером перестановки <code>permutationSize</code>.
 

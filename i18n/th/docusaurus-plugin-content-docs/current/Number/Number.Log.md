@@ -5,8 +5,6 @@ title: Number.Log
 # Number.Log
 
 
-## Description
-
 ส่งกลับลอการิทึมของตัวเลขไปยังฐานที่ระบุ (ค่าเริ่มต้น e)
 
 
@@ -20,7 +18,7 @@ Number.Log(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนลอการิทึมของตัวเลข <code>number</code> ไปยังฐาน <code>base</code> ที่ระบุ ถ้าไม่ได้ระบุ <code>base</code> ค่าเริ่มต้นจะเป็น ตัวเลข.E    ถ้า <code>number</code> เป็น null <code>ตัวเลข.บันทึก</code> จะส่งกลับ null
 

@@ -5,8 +5,6 @@ title: List.ContainsAny
 # List.ContainsAny
 
 
-## Description
-
 Cho biết nơi một danh sách bao gồm bất kỳ giá trị nào trong số các giá trị trong một danh sách khác.
 
 
@@ -21,7 +19,7 @@ List.ContainsAny(
 ```
 
 
-## Details
+## Remarks
 
 Cho biết danh sách <code>list</code> có bao gồm bất kỳ giá trị nào trong số các giá trị trong một danh sách khác, <code>values</code>, hay không.        Trả về true nếu tìm thấy giá trị trong danh sách, false nếu ngược lại. Có thể chỉ định giá trị tiêu chí phương trình tùy chọn, <code>equationCriteria</code>, để kiểm soát việc kiểm tra đẳng thức. 
 

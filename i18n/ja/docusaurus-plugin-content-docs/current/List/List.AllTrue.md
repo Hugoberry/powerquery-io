@@ -5,8 +5,6 @@ title: List.AllTrue
 # List.AllTrue
 
 
-## Description
-
 すべての式が true の場合に true を返します。
 
 
@@ -19,7 +17,7 @@ List.AllTrue(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>list</code> 内のすべての式が true の場合に true を返します。
 

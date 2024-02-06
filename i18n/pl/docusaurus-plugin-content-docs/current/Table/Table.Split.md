@@ -5,8 +5,6 @@ title: Table.Split
 # Table.Split
 
 
-## Description
-
 Dzieli określoną tabelę na listę tabel przy użyciu określonego rozmiaru strony.
 
 
@@ -20,7 +18,7 @@ Table.Split(
 ```
 
 
-## Details
+## Remarks
 
 Dzieli tabelę <code>table</code> na listę tabel, w której pierwszy element listy jest tabelą zawierającą pierwsze <code>pageSize</code> wiersze(-y) z    tabeli źródłowej, następny element listy to tabela zwierającą kolejne <code>pageSize</code>wiersze(-y) z tabeli źródłowej itd.
 

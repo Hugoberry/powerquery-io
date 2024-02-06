@@ -5,8 +5,6 @@ title: List.Select
 # List.Select
 
 
-## Description
-
 ส่งกลับรายการของค่าที่ตรงกับเงื่อนไข
 
 
@@ -20,7 +18,7 @@ List.Select(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับรายการของค่าจากรายการ <code>list</code> ที่ตรงกับเงื่อนไขการเลือก <code>selection</code>
 

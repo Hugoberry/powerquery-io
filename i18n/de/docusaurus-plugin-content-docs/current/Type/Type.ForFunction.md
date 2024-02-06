@@ -5,8 +5,6 @@ title: Type.ForFunction
 # Type.ForFunction
 
 
-## Description
-
 Gibt einen Typ zurück, der für Funktionen mit bestimmten Parameter- und Rückgabetypeinschränkungen steht.
 
 
@@ -20,7 +18,7 @@ Type.ForFunction(
 ```
 
 
-## Details
+## Remarks
 
 Erstellt einen <code>Funktionstyp</code> aus <code>signature</code>, einen Datensatz von <code>ReturnType</code> und <code>Parameter</code> und <code>min</code>, die minimale Anzahl von Argumenten, die zum Aufrufen der Funktion erforderlich ist.
 

@@ -5,8 +5,6 @@ title: List.Difference
 # List.Difference
 
 
-## Description
-
 Returnerer differencen mellem de to angivne lister.
 
 
@@ -21,7 +19,7 @@ List.Difference(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer de elementer på listen <code>list1</code>, der ikke vises på listen <code>list2</code>. Dublerede værdier understøttes.     Du kan angive en valgfri kriterieværdi for ligningen, <code>equationCriteria</code>, for at styre kvalitetstesten. 
 

@@ -5,8 +5,6 @@ title: Table.Max
 # Table.Max
 
 
-## Description
-
 Returnerer den største række eller standardværdien ved hjælp af de angivne kriterier.
 
 
@@ -21,7 +19,7 @@ Table.Max(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer den største række i <code>table</code> med den angivne <code>comparisonCriteria</code>. Hvis tabellen er tom, returneres den valgfrie værdi <code>default</code>. 
 

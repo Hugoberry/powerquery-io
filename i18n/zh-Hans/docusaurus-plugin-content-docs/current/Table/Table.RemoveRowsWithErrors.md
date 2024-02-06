@@ -5,8 +5,6 @@ title: Table.RemoveRowsWithErrors
 # Table.RemoveRowsWithErrors
 
 
-## Description
-
 返回一个表，其中已从输入表中删除了在至少一个单元中包含错误的行。如果指定了列列表，则只检查指定列中的单元内是否有错误。
 
 
@@ -20,7 +18,7 @@ Table.RemoveRowsWithErrors(
 ```
 
 
-## Details
+## Remarks
 
 返回一个表，其中已从输入表中删除了在至少一个单元中包含错误的行。如果指定了列列表，则只检查指定列中的单元内是否有错误。
 

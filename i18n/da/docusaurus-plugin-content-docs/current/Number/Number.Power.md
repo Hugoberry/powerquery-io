@@ -5,8 +5,6 @@ title: Number.Power
 # Number.Power
 
 
-## Description
-
 Opløfter et tal til en angivet potens.
 
 
@@ -20,7 +18,7 @@ Number.Power(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer resultatet af at opløfte <code>number</code> til potensen <code>power</code>.    Hvis <code>number</code> eller <code>power</code> er null, returnerer <code>Number.Power</code> null.      <ul>        <li><code>number</code>: Grundtallet.</li>        <li><code>power</code>: Eksponenten.</li>      </ul>
 

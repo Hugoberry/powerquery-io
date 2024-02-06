@@ -5,8 +5,6 @@ title: Time.ToRecord
 # Time.ToRecord
 
 
-## Description
-
 返回包含时间值的各个部分的记录。
 
 
@@ -19,7 +17,7 @@ Time.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 返回包含给定时间值 <code>time</code> 的各个部分的记录。 <ul>        <li><code>time</code>: 要从中计算其各个部分的记录的 <code>time</code> 值。</li>      </ul>
 

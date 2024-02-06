@@ -5,8 +5,6 @@ title: Text.RemoveRange
 # Text.RemoveRange
 
 
-## Description
-
 以给定的偏移量开始删除某个数量的字符
 
 
@@ -21,7 +19,7 @@ Text.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 返回文本值 <code>text</code> 已删除了位置 <code>offset</code> 的所有字符的副本。    可选参数 <code>count</code> 可用于指定要删除的字符数。<code>count</code> 的默认值为 1。位置值从 0 开始。
 

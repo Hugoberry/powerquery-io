@@ -5,8 +5,6 @@ title: RData.FromBinary
 # RData.FromBinary
 
 
-## Description
-
 ส่งคืนระเบียนเฟรมค่าจากไฟล์ RData
 
 
@@ -19,7 +17,7 @@ RData.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนระเบียนเฟรมค่าจากไฟล์ RData
 

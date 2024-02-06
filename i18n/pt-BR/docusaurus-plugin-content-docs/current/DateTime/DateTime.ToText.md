@@ -5,8 +5,6 @@ title: DateTime.ToText
 # DateTime.ToText
 
 
-## Description
-
 Retorna uma representação textual do valor datetime.
 
 
@@ -21,7 +19,7 @@ DateTime.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma representação textual de <code>dateTime</code>. Um parâmetro <code>record</code> opcional, <code>options</code>, pode ser fornecido para especificar propriedades adicionais. <code>culture</code> só é usado para fluxos de trabalho herdados. O <code>record</code> pode conter os seguintes campos:<ul>   <li><code>Format</code>: Um valor <code>text</code> que indica o formato a ser usado. Para obter mais detalhes, acesse https://go.microsoft.com/fwlink/?linkid=2180104 e https://go.microsoft.com/fwlink/?linkid=2180105. Omitir este campo ou fornecer <code>null</code> resultará na formatação da data usando o padrão definido por  <code>Culture</code>. </li>   <li><code>Culture</code>: Quando <code>Format</code> não é nulo, <code>Culture</code> controla alguns especificadores de formato. Por exemplo, em <code>"en-US"</code> <code>"MMM"</code> é <code>"Jan", "Feb", "Mar", ...</code>, enquanto em <code>"ru-RU"</code> <code>"MMM"</code> é <code>"янв", "фев", "мар", ...</code>. Quando <code>Format</code> é <code>null</code>, <code>Culture</code> controla o formato padrão a ser usado. Quando <code>Culture</code> é <code>null</code> ou omitido,  <code>Culture.Current</code> é usado.</li></ul>Para dar suporte a fluxos de trabalho herdados, <code>options</code> e <code>culture</code> também podem ser valores de texto. Isso tem o mesmo comportamento como se <code>options</code><code> = [Format = <code>options</code>, Culture = <code>culture</code>]</code>.
 

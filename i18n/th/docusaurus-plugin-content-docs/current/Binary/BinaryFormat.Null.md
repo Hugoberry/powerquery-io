@@ -5,8 +5,6 @@ title: BinaryFormat.Null
 # BinaryFormat.Null
 
 
-## Description
-
 รูปแบบไบนารีที่อ่านศูนย์ไบต์และส่งกลับค่า Null
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Null(
 ```
 
 
-## Details
+## Remarks
 
 รูปแบบไบนารีที่อ่านศูนย์ไบต์และส่งกลับค่า Null
 

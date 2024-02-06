@@ -5,8 +5,6 @@ title: Table.ToRows
 # Table.ToRows
 
 
-## Description
-
 Erstellt eine Liste mit geschachtelten Listen mit Zeilenwerten aus einer Tabelle.
 
 
@@ -19,7 +17,7 @@ Table.ToRows(
 ```
 
 
-## Details
+## Remarks
 
 Erstellt eine Liste mit geschachtelten Listen aus der Tabelle "<code>table</code>".  Jedes Listenelement ist eine innere Liste mit den Zeilenwerten.
 

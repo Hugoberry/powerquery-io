@@ -5,8 +5,6 @@ title: DynamicsNav.Contents
 # DynamicsNav.Contents
 
 
-## Description
-
 Nhập URL cho điểm cuối dịch vụ OData của Dynamics NAV.
 
 
@@ -20,7 +18,7 @@ DynamicsNav.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Trả về bảng chứa dữ liệu Dynamics NAV có liên quan. 
 

@@ -5,8 +5,6 @@ title: Duration.Hours
 # Duration.Hours
 
 
-## Description
-
 Restituisce la parte delle ore di una durata.
 
 
@@ -19,7 +17,7 @@ Duration.Hours(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce la parte delle ore di <code>duration</code>.
 

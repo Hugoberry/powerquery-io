@@ -5,8 +5,6 @@ title: Number.Factorial
 # Number.Factorial
 
 
-## Description
-
 Returnerer tallets fakultet.
 
 
@@ -19,7 +17,7 @@ Number.Factorial(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer tallets fakultet <code>number</code>.
 

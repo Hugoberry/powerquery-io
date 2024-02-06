@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger64
 # BinaryFormat.UnsignedInteger64
 
 
-## Description
-
 Format binaire qui lit un entier non signé 64 bits.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger64(
 ```
 
 
-## Details
+## Remarks
 
 Format binaire qui lit un entier non signé 64 bits.
 

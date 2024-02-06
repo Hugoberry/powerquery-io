@@ -5,8 +5,6 @@ title: Binary.Compress
 # Binary.Compress
 
 
-## Description
-
 Сжимает двоичное значение с помощью заданного типа сжатия.
 
 
@@ -20,7 +18,7 @@ Binary.Compress(
 ```
 
 
-## Details
+## Remarks
 
 Сжимает двоичное значение с помощью заданного типа сжатия. Результат такого вызова — сжатая копия входных данных. Типы сжатия:   <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
 

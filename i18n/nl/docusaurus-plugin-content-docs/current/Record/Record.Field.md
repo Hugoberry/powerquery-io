@@ -5,8 +5,6 @@ title: Record.Field
 # Record.Field
 
 
-## Description
-
 Retourneert de waarde uit het opgegeven veld in een record.
 
 
@@ -20,7 +18,7 @@ Record.Field(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de waarde uit het opgegeven <code>field</code> in de <code>record</code>. Als het veld niet wordt gevonden, wordt er een uitzondering gegenereerd.
 

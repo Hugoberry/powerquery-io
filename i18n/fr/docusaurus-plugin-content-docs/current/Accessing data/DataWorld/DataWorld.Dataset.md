@@ -17,7 +17,7 @@ DataWorld.Dataset(
 ```
 
 
-## Details
+## Remarks
 
 Récupère un jeu de données à partir de Data.World
 

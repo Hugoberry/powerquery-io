@@ -5,8 +5,6 @@ title: Table.ReplaceKeys
 # Table.ReplaceKeys
 
 
-## Description
-
 Belirtilen tablonun anahtarlarını döndürür.
 
 
@@ -20,7 +18,7 @@ Table.ReplaceKeys(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen tablonun anahtarlarını döndürür.
 

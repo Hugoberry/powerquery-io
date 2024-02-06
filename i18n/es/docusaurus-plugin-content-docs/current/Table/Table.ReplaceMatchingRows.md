@@ -5,8 +5,6 @@ title: Table.ReplaceMatchingRows
 # Table.ReplaceMatchingRows
 
 
-## Description
-
 Sustituye todas las filas especificadas con las filas proporcionadas.
 
 
@@ -21,7 +19,7 @@ Table.ReplaceMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 Sustituye todas las filas especificadas en <code>table</code> con las proporcionadas. Las filas que se sustituyen y los reemplazos se especifican en <code>replacements</code> con el formato \{old, new}.    Se puede especificar un parámetro <code>equationCriteria</code> opcional para controlar la comparación entre las filas de la tabla.
 

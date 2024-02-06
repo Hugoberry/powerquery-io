@@ -5,8 +5,6 @@ title: SparkPost.GetTable
 # SparkPost.GetTable
 
 
-## Description
-
 Gibt eine Tabelle der verfügbaren Daten aus der SparkPost-API, Version 1, zurück.
 
 
@@ -22,7 +20,7 @@ SparkPost.GetTable(
 ```
 
 
-## Details
+## Remarks
 
 Mithilfe dieser Funktion können Daten von einem bestimmten Endpunkt "Metrics" der SparkPost-API, Version 1, abgerufen werden. Wenn Sie diese Tabellen aktualisieren oder die SparkPost-API über diesen Connector aufrufen, denken Sie daran, dass für die SparkPost-API ein striktes API-Ratenlimit vorliegt. Wenn Ihnen vom SparkPost-Server ein Statuscode 429 zurückgegeben wird, haben Sie das Ratenlimit erreicht und müssen einige Minuten warten, bevor weitere Aufrufe möglich sind. Beachten Sie beim Auswählen eines Werts für den Parameter "Anzahl von Tagen", dass die API nur Daten aus sechs Monaten speichert.
 

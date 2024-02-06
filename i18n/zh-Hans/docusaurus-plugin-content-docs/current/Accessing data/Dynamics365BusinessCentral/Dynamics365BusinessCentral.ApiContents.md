@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.ApiContents
 # Dynamics365BusinessCentral.ApiContents
 
 
-## Description
-
 输入你的 Dynamics 365 Business Central 环境和公司。
 
 
@@ -21,7 +19,7 @@ Dynamics365BusinessCentral.ApiContents(
 ```
 
 
-## Details
+## Remarks
 
 返回包含相关 Dynamics 365 Business Central 数据的表。
 

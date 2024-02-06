@@ -5,8 +5,6 @@ title: DateTimeZone.LocalNow
 # DateTimeZone.LocalNow
 
 
-## Description
-
 ส่งกลับวันที่และเวลาในโซนเวลาท้องถิ่น
 
 
@@ -19,7 +17,7 @@ DateTimeZone.LocalNow(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่า <code>datetimezone</code> เพื่อตั้งค่าวันที่และเวลาปัจจุบันในระบบ     ค่าที่ส่งกลับมีข้อมูลโซนเวลาที่แสดงโซนเวลาท้องถิ่น
 

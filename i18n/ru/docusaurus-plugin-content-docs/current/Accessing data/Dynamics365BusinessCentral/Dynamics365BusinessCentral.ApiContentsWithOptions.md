@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.ApiContentsWithOptions
 # Dynamics365BusinessCentral.ApiContentsWithOptions
 
 
-## Description
-
 Вход в вашу среду Dynamics 365 Business Central и в вашу организацию.
 
 
@@ -22,7 +20,7 @@ Dynamics365BusinessCentral.ApiContentsWithOptions(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу с нужными данными Dynamics 365 Business Central. 
 

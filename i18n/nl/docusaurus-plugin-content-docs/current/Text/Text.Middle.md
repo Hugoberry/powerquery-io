@@ -5,8 +5,6 @@ title: Text.Middle
 # Text.Middle
 
 
-## Description
-
 De subtekenreeks tot een bepaalde lengte retourneren.
 
 
@@ -21,7 +19,7 @@ Text.Middle(
 ```
 
 
-## Details
+## Remarks
 
 <code>count</code> tekens retourneren of retourneren tot het einde van <code>text</code>; bij de verschuiving <code>start</code>.
 

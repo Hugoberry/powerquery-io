@@ -5,8 +5,6 @@ title: Date.QuarterOfYear
 # Date.QuarterOfYear
 
 
-## Description
-
 Retourneert een getal dat aangeeft in welk kwartaal van het jaar de datum valt.
 
 
@@ -19,7 +17,7 @@ Date.QuarterOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een getal van 1 tot 4 dat aangeeft in welk kwartaal van het jaar de datum <code>dateTime</code> valt. <code>dateTime</code> kan een waarde voor <code>date</code>, <code>datetime</code> of <code>datetimezone</code> zijn.
 

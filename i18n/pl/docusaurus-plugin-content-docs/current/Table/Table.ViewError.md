@@ -5,8 +5,6 @@ title: Table.ViewError
 # Table.ViewError
 
 
-## Description
-
 Tworzy zmodyfikowany rekord błędu, który nie spowoduje odwrotu w przypadku zgłoszenia go przez procedurę obsługi zdefiniowaną w widoku (za pośrednictwem metody Table.View).
 
 
@@ -19,7 +17,7 @@ Table.ViewError(
 ```
 
 
-## Details
+## Remarks
 
 Tworzy zmodyfikowany rekord błędu z <code>errorRecord</code>, który nie spowoduje odwrotu w przypadku zgłoszenia go przez procedurę obsługi zdefiniowaną w widoku (za pośrednictwem metody Table.View).
 

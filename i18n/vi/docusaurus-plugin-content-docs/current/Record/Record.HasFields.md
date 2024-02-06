@@ -5,8 +5,6 @@ title: Record.HasFields
 # Record.HasFields
 
 
-## Description
-
 Cho biết bản ghi có các trường được chỉ định hay không.
 
 
@@ -20,7 +18,7 @@ Record.HasFields(
 ```
 
 
-## Details
+## Remarks
 
 Cho biết bản ghi <code>record</code> có các trường được chỉ định trong <code>fields</code> hay không bằng cách trả về giá trị lôgic (true hoặc false).    Có thể chỉ định nhiều giá trị trường bằng cách sử dụng danh sách.
 

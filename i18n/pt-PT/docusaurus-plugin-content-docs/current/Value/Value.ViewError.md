@@ -5,8 +5,6 @@ title: Value.ViewError
 # Value.ViewError
 
 
-## Description
-
 Esta função destina-se apenas a utilização interna.
 
 
@@ -19,7 +17,7 @@ Value.ViewError(
 ```
 
 
-## Details
+## Remarks
 
 Esta função destina-se apenas a utilização interna.
 

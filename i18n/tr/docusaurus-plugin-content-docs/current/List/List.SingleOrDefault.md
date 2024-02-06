@@ -5,8 +5,6 @@ title: List.SingleOrDefault
 # List.SingleOrDefault
 
 
-## Description
-
 Bir birim uzunluktaki bir liste için bir liste öğesi ve boş bir liste için varsayılan değeri döndürür.
 
 
@@ -20,7 +18,7 @@ List.SingleOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesinde yalnızca bir öğe varsa bu öğeyi döndürür.    Liste boşsa isteğe bağlı bir <code>default</code> belirtilmediyse işlev null döndürür. Listede birden çok öğe varsa işlev bir hata döndürür.
 

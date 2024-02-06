@@ -5,8 +5,6 @@ title: MailChimp.Instance
 # MailChimp.Instance
 
 
-## Description
-
 MailChimp API エンドポイントから生の応答結果を返します。
 
 
@@ -19,7 +17,7 @@ MailChimp.Instance(
 ```
 
 
-## Details
+## Remarks
 
 MailChimp API に対する呼び出しを行い、生の応答を返します。
 

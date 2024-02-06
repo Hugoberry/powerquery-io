@@ -5,8 +5,6 @@ title: Table.ReorderColumns
 # Table.ReorderColumns
 
 
-## Description
-
 返回一个表，其中的列遵循指定的顺序。
 
 
@@ -21,7 +19,7 @@ Table.ReorderColumns(
 ```
 
 
-## Details
+## Remarks
 
 从输入 <code>table</code> 返回一个表，其中的列遵循由 <code>columnOrder</code> 指定的顺序。列表中未指定的列将不重新排序。     如果此列不存在，将引发异常，除非可选参数 <code>missingField</code> 指定备用值(例如，<code>MissingField.UseNull</code> 或 <code>MissingField.Ignore</code>)。
 

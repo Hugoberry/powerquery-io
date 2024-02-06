@@ -15,7 +15,7 @@ Synapse.Contents(
 ```
 
 
-## Details
+## Remarks
 
 PQ-anslutningsprogram för Azure Synapse Analytics arbetsyta
 

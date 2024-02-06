@@ -5,8 +5,6 @@ title: List.ConformToPageReader
 # List.ConformToPageReader
 
 
-## Description
-
 此函式僅供內部使用。
 
 
@@ -20,7 +18,7 @@ List.ConformToPageReader(
 ```
 
 
-## Details
+## Remarks
 
 此函式僅供內部使用。
 

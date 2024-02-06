@@ -5,8 +5,6 @@ title: List.Covariance
 # List.Covariance
 
 
-## Description
-
 ส่งกลับค่าความแปรปรวนระหว่างรายการตัวเลขทั้งสองรายการ
 
 
@@ -20,7 +18,7 @@ List.Covariance(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่าความแปรปรวนระหว่างสองรายการ <code>numberList1</code> และ <code>numberList2</code> <code>numberList1</code> และ <code>numberList2</code> ต้องมีจำนวนค่า <code>number</code> เดียวกัน
 

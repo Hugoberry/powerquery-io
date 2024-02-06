@@ -5,8 +5,6 @@ title: Number.Tanh
 # Number.Tanh
 
 
-## Description
-
 संख्या की हाइपरबोलिक स्पर्श रेखा लौटाता है.
 
 
@@ -19,7 +17,7 @@ Number.Tanh(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> की हाइपरबोलिक स्पर्श रेखा लौटाता है.
 

@@ -5,8 +5,6 @@ title: Text.Middle
 # Text.Middle
 
 
-## Description
-
 Trả về chuỗi con tới độ dài cụ thể.
 
 
@@ -21,7 +19,7 @@ Text.Middle(
 ```
 
 
-## Details
+## Remarks
 
 Trả về <code>count</code> ký tự hoặc đến cuối <code>text</code>; tại giá trị bù <code>start</code>.
 

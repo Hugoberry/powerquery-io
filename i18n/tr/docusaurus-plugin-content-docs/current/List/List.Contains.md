@@ -5,8 +5,6 @@ title: List.Contains
 # List.Contains
 
 
-## Description
-
 Listenin değeri içerip içermediğini belirtir.
 
 
@@ -21,7 +19,7 @@ List.Contains(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesinin <code>value</code> değerini içerip içermediğini belirtir.    Değer listede bulunursa true, aksi takdirde false değerini döndürür. Eşitlik sınamasını denetlemek için <code>equationCriteria</code> isteğe bağlı denklem ölçüt değeri belirtilebilir. 
 

@@ -5,8 +5,6 @@ title: MailChimp.Collection
 # MailChimp.Collection
 
 
-## Description
-
 คืนค่าตารางพร้อมข้อมูลจากจุดสิ้นสุด MailChimp
 
 
@@ -20,7 +18,7 @@ MailChimp.Collection(
 ```
 
 
-## Details
+## Remarks
 
 ทำการเรียกใช้ไปยัง MailChimp API และคืนค่าชุดข้อมูลผลลัพธ์ที่ได้เป็นตาราง เพจผ่านผลลัพธ์ทั้งหมดโดยอัตโนมัติ หรือสามารถใช้พารามิเตอร์ entityName สำหรับจุดสิ้นสุด API ซึ่งจุดสิ้นสุดรูทและ entityName หลักในคำตอบ JSON ไม่ตรงกัน
 

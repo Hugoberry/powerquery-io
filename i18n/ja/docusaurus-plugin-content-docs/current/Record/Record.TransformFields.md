@@ -5,8 +5,6 @@ title: Record.TransformFields
 # Record.TransformFields
 
 
-## Description
-
 指定された変換を適用したレコードを返します。
 
 
@@ -21,7 +19,7 @@ Record.TransformFields(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>transformOperations</code> で指定された変換を <code>record</code> に適用したレコードを返します。    一度に 1 つまたは複数のフィールドを変換できます。      <div>1 つのフィールドを変換する場合、<code>transformOperations</code> は 2 つの項目を含むリストである必要があります。<code>transformOperations</code> の最初の項目にはフィールド名を指定し、<code>transformOperations</code> の 2 番目の項目には変換に使用する関数を指定します。たとえば、<code>\{"Quantity", Number.FromText}</code> のように指定します</div>      <div>複数のフィールドを変換する場合、<code>transformOperations</code> はリストのリストである必要があります。入れ子のリストはそれぞれフィールド名と変換操作のペアで構成します。たとえば、<code>\{\{"Quantity",Number.FromText},\{"UnitPrice", Number.FromText}}</code> のように指定します</div>
 

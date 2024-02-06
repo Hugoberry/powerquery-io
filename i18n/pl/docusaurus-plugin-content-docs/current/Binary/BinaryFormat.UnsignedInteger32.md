@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger32
 # BinaryFormat.UnsignedInteger32
 
 
-## Description
-
 Format binarny odczytujący 32-bitową liczbę całkowitą bez znaku.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger32(
 ```
 
 
-## Details
+## Remarks
 
 Format binarny odczytujący 32-bitową liczbę całkowitą bez znaku.
 

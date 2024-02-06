@@ -5,8 +5,6 @@ title: List.Average
 # List.Average
 
 
-## Description
-
 Trả về giá trị trung bình của các giá trị. Hoạt động với giá trị số, ngày, ngày giờ, múi giờ ngày và khoảng thời gian.
 
 
@@ -20,7 +18,7 @@ List.Average(
 ```
 
 
-## Details
+## Remarks
 
 Trả về giá trị trung bình cho các mục trong danh sách, <code>list</code>. Kết quả được cho có cùng loại dữ liệu như các giá trị trong danh sách. Chỉ hoạt động với số, ngày, giờ, ngày giờ, múi giờ ngày và khoảng thời gian.    Nếu danh sách trống thì giá trị rỗng được trả về.
 

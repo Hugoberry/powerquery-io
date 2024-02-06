@@ -5,8 +5,6 @@ title: DateTime.IsInNextMinute
 # DateTime.IsInNextMinute
 
 
-## Description
-
 Indikerar om denna datetime infaller under nästa minut enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar falskt om den skickas ett värde som infaller inom den aktuella minuten.
 
 
@@ -19,7 +17,7 @@ DateTime.IsInNextMinute(
 ```
 
 
-## Details
+## Remarks
 
 Indikerar om det angivna datetime-värdet <code>dateTime</code> infaller under nästa minut enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar falskt om den skickas ett värde som infaller under den aktuella minuten.      <ul>      <li><code>dateTime</code>: Ett <code>datetime</code>- eller <code>datetimezone</code>-värde som ska utvärderas.</li>      </ul>
 

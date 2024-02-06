@@ -5,8 +5,6 @@ title: Table.ToColumns
 # Table.ToColumns
 
 
-## Description
-
 从表中创建列值的嵌套列表的列表。
 
 
@@ -19,7 +17,7 @@ Table.ToColumns(
 ```
 
 
-## Details
+## Remarks
 
 从表 <code>table</code> 中创建嵌套表的列表。 每个列表项都是一个包含列值的内部列表。
 

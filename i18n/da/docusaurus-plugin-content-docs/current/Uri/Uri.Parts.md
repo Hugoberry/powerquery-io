@@ -5,8 +5,6 @@ title: Uri.Parts
 # Uri.Parts
 
 
-## Description
-
 Returnerer delene i den absolutte URI for input som en post.
 
 
@@ -19,7 +17,7 @@ Uri.Parts(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer delene af <code>absoluteUri</code> for input som en post, der indeholder værdier, f.eks. Scheme, Host, Port, Path, Query, Fragment, UserName og Password.
 

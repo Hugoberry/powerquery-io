@@ -5,8 +5,6 @@ title: VSTS.Feed
 # VSTS.Feed
 
 
-## Description
-
 Веб-канал Azure DevOps Services
 
 
@@ -20,7 +18,7 @@ VSTS.Feed(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу веб-каналов OData, предлагаемых Azure DevOps.
 

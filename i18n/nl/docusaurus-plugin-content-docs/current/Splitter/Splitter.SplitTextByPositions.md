@@ -5,8 +5,6 @@ title: Splitter.SplitTextByPositions
 # Splitter.SplitTextByPositions
 
 
-## Description
-
 Retourneert een functie die op elke opgegeven positie tekst splitst in een lijst met tekst.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByPositions(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een functie die op elke opgegeven positie tekst splitst in een lijst met tekst.
 

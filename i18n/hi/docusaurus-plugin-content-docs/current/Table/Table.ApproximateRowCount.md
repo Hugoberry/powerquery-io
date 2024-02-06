@@ -5,8 +5,6 @@ title: Table.ApproximateRowCount
 # Table.ApproximateRowCount
 
 
-## Description
-
 तालिका में अनुमानित पंक्तियों की संख्या वापस करता है.
 
 
@@ -19,7 +17,7 @@ Table.ApproximateRowCount(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> में लगभग पंक्तियों की संख्या को, या यदि डेटा स्रोत अनुमान का समर्थन नहीं करता ह, तो किसी त्रुटि को, लौटाता है.
 

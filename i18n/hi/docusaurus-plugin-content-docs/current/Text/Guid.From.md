@@ -5,8 +5,6 @@ title: Guid.From
 # Guid.From
 
 
-## Description
-
 दिए गए मान से guid मान लौटाता है.
 
 
@@ -19,7 +17,7 @@ Guid.From(
 ```
 
 
-## Details
+## Remarks
 
 दिए गए <code>value</code> से <code>Guid.Type</code> वापस करता है. यदि दिया गया <code>value</code> <code>नल</code> है, तो <code>Guid.From</code> <code>नल</code> वापस करता है.  यह देखने के लिए जाँच की जाएगी कि दिया गया <code>value</code> स्वीकार करने योग्य फ़ॉर्मेट में है या नहीं. स्वीकार करने योग्य फ़ॉर्मेट उदाहरणों में प्रदान किए गए हैं.
 

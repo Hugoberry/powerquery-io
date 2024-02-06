@@ -5,8 +5,6 @@ title: Table.Contains
 # Table.Contains
 
 
-## Description
-
 Wskazuje, czy określony rekord występuje jako wiersz tabeli.
 
 
@@ -21,7 +19,7 @@ Table.Contains(
 ```
 
 
-## Details
+## Remarks
 
 Wskazuje, czy określony rekord <code>row</code> występuje jako wiersz w tabeli <code>table</code>.    Opcjonalny parametr <code>equationCriteria</code> można określić, aby sterować porównywaniem wierszy tabeli.
 

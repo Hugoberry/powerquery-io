@@ -5,8 +5,6 @@ title: Table.PrefixColumns
 # Table.PrefixColumns
 
 
-## Description
-
 Gibt eine Tabelle zurück, in der allen Spalten der angegebene Text als Präfix vorangestellt wurde.
 
 
@@ -20,7 +18,7 @@ Table.PrefixColumns(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Tabelle zurück, in der allen Spaltennamen aus dem angegebenen Element vom Typ "<code>table</code>" der angegebene Text (<code>prefix</code>) einschließlich eines Punkts als Präfix vorangestellt wurde: "<code>prefix</code><code>.Spaltenname</code>".
 

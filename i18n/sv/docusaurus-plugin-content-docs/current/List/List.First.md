@@ -5,8 +5,6 @@ title: List.First
 # List.First
 
 
-## Description
-
 Returnerar det första värdet i listan eller det angivna standardvärdet om listan är tom.
 
 
@@ -20,7 +18,7 @@ List.First(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar det första objektet i listan <code>list</code>, eller det valfria standardvärdet <code>defaultValue</code> om listan är tom.    Om listan är tom och inget standardvärde anges returnerar funktionen <code>null</code>.
 

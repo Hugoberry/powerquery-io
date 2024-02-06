@@ -5,8 +5,6 @@ title: Table.RemoveFirstN
 # Table.RemoveFirstN
 
 
-## Description
-
 ส่งกลับตารางซึ่งมีแถวจำนวนแรกที่ถูกข้ามไป
 
 
@@ -20,7 +18,7 @@ Table.RemoveFirstN(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางที่ไม่มีจำนวนแถวแรกที่ระบุ <code>countOrCondition</code> ของตาราง <code>table</code>    จำนวนของแถวที่เอาออกจะขึ้นอยู่กับพารามิเตอร์ที่เลือกได้ <code>countOrCondition</code>    <ul>    <li> ถ้า <code>countOrCondition</code> ถูกเว้นไว้ จะมีการเอาออกเฉพาะแถวแรก </li>    <li> ถ้า <code>countOrCondition</code> เป็นตัวเลข จะมีการเอาแถวจำนวนมากดังกล่าวออก (เริ่มต้นที่ด้านบน) </li>    <li> ถ้า <code>countOrCondition</code> เป็นเงื่อนไข แถวที่ตรงกับเงื่อนไขจะถูกเอาออกจนกว่าแถวจะไม่เป็นไปตามเงื่อนไข</li>    </ul>
 

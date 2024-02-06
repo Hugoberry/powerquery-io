@@ -5,8 +5,6 @@ title: Table.ToColumns
 # Table.ToColumns
 
 
-## Description
-
 Crée une liste de listes imbriquées de valeurs de colonnes depuis une table.
 
 
@@ -19,7 +17,7 @@ Table.ToColumns(
 ```
 
 
-## Details
+## Remarks
 
 Crée une liste de listes imbriquées depuis la table, <code>table</code>.  Chaque élément de liste est une liste interne qui contient les valeurs des colonnes.
 

@@ -5,8 +5,6 @@ title: Marketo.Tables
 # Marketo.Tables
 
 
-## Description
-
 Nhập URL của điểm cuối API REST Marketo được liên kết với tài khoản của bạn.
 
 
@@ -20,7 +18,7 @@ Marketo.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Trả về bảng có dữ liệu Marketo liên quan.
 

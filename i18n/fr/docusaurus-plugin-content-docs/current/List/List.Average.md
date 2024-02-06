@@ -5,8 +5,6 @@ title: List.Average
 # List.Average
 
 
-## Description
-
 Retourne la moyenne des valeurs. Fonctionne avec les valeurs de nombre, de date, datetime, datetimezone et de durée.
 
 
@@ -20,7 +18,7 @@ List.Average(
 ```
 
 
-## Details
+## Remarks
 
 Retourne la valeur moyenne des éléments dans la liste, <code>list</code>. Le résultat est fourni dans le même datatype que les valeurs dans la liste. Fonctionne uniquement avec les valeurs de nombre, de date, d'heure, datetime, datetimezone et de durée.    Si la liste est vide la valeur NULL est retournée.
 

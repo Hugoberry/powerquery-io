@@ -5,8 +5,6 @@ title: Record.SelectFields
 # Record.SelectFields
 
 
-## Description
-
 ส่งกลับระเบียนที่มีเฉพาะเขตข้อมูลที่ระบุ
 
 
@@ -21,7 +19,7 @@ Record.SelectFields(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับระเบียนที่รวมเฉพาะเขตข้อมูลที่ระบุในรายการ <code>fields</code> จากค่าที่ป้อน <code>record</code>
 

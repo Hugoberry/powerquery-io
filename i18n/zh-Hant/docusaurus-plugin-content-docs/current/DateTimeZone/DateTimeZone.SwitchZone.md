@@ -5,8 +5,6 @@ title: DateTimeZone.SwitchZone
 # DateTimeZone.SwitchZone
 
 
-## Description
-
 變更值的時區。
 
 
@@ -21,7 +19,7 @@ DateTimeZone.SwitchZone(
 ```
 
 
-## Details
+## Remarks
 
 將 datetimezone 值 <code>dateTimeZone</code> 的時區資訊變更成 <code>timezoneHours</code> (及選擇性的 <code>timezoneMinutes</code>) 所提供的新時區資訊。    如果 <code>dateTimeZone</code> 沒有時區元件，則擲回例外狀況。
 

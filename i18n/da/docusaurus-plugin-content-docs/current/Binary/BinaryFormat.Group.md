@@ -5,8 +5,6 @@ title: BinaryFormat.Group
 # BinaryFormat.Group
 
 
-## Description
-
 Returnerer et binært format, der læser en gruppe elementer.
 
 
@@ -22,7 +20,7 @@ BinaryFormat.Group(
 ```
 
 
-## Details
+## Remarks
 
 Parametrene er som følger:<ul><li>Parameteren <code>binaryFormat</code> angiver det binære format for nøgleværdien.</li><li>Parameteren <code>group</code> giver oplysninger om gruppen af kendte elementer.</li><li>Den valgfrie parameter <code>extra</code> kan bruges til at angive en funktion, der returnerer en binær formatværdi for værdien, efterfulgt af enhver nøgle, der var uventet.  Hvis parameteren <code>extra</code> ikke angives, vises der en fejl, hvis der er uventede nøgleværdier.</li></ul>Parameteren <code>group</code> angiver en liste over elementdefinitioner.  Hver elementdefinition er en liste, der indeholder 3-5 værdier, som følger:<ul><li>Nøgleværdi.  Værdien af den nøgle, der svarer til elementet.  Den skal være entydig inden for elementsættet.</li><li>Elementformat.  Det binære format, der svarer til værdien af elementet.  På den måde kan hvert element have sit eget format. </li><li>Elementforekomst.  <code>BinaryOccurence. Type</code>Forekomstværdien for hvor ofte elementet forventes at blive vist i gruppen.   Påkrævede elementer, der ikke findes, udløser en fejl.  Påkrævede eller valgfrie dubletværdier håndteres som uventede nøgleværdier.</li><li>Standardværdi for element (valgfrit).  Hvis standardelementværdien optræder på listen over elementdefinitioner, og den ikke er null, bliver den brugt i stedet for standarden.  Standarden for gentagne eller valgfrie elementer er null, og standarden for gentagne værdier er en tom liste \{ }.</li><li>Transformation af elementværdi (valgfrit).   Hvis funktionen til transformation af elementværdien optræder på listen over elementdefinitioner, og den ikke er null, bliver den kaldt for at transformere elementværdien, inden den returneres.  Transformationsfunktionen kaldes kun, hvis elementet optræder i inputtet (den bliver aldrig kaldt med standardværdien). </li></ul>
 

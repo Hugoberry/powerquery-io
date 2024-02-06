@@ -5,8 +5,6 @@ title: Duration.Hours
 # Duration.Hours
 
 
-## Description
-
 Returnerer timedelen af en varighed.
 
 
@@ -19,7 +17,7 @@ Duration.Hours(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer timedelen af <code>duration</code>.
 

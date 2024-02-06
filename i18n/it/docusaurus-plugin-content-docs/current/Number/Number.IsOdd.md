@@ -5,8 +5,6 @@ title: Number.IsOdd
 # Number.IsOdd
 
 
-## Description
-
 Indica se il valore è dispari.
 
 
@@ -19,7 +17,7 @@ Number.IsOdd(
 ```
 
 
-## Details
+## Remarks
 
 Indica se il valore è dispari. Restituisce <code>true</code> se <code>number</code> è un numero dispari, in caso contrario <code>false</code>.
 

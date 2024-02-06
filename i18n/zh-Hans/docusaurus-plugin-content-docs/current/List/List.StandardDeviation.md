@@ -5,8 +5,6 @@ title: List.StandardDeviation
 # List.StandardDeviation
 
 
-## Description
-
 返回基于样本估计的标准偏差。
 
 
@@ -19,7 +17,7 @@ List.StandardDeviation(
 ```
 
 
-## Details
+## Remarks
 
 返回基于样本估计的列表 <code>numbersList</code> 中的值的标准偏差。    如果 <code>numbersList</code> 是数字列表，则返回数字。    如果为空列表或类型不属于 <code>number</code> 的项的列表，将引发异常。
 

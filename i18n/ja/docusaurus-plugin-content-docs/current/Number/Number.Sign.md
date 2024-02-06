@@ -5,8 +5,6 @@ title: Number.Sign
 # Number.Sign
 
 
-## Description
-
 数値が正の場合は 1、負の場合は -1、0 の場合は 0 を返します。
 
 
@@ -19,7 +17,7 @@ Number.Sign(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> が正の数値の場合は 1、負の数値の場合は -1、0 の場合は 0 を返します。    <code>number</code> が null の場合、<code>Number.Sign</code> は null を返します。
 

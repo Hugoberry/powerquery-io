@@ -5,8 +5,6 @@ title: Number.Permutations
 # Number.Permutations
 
 
-## Description
-
 Retourne le nombre de permutations.
 
 
@@ -20,7 +18,7 @@ Number.Permutations(
 ```
 
 
-## Details
+## Remarks
 
 Retourne le nombre de permutations qui peuvent être générées à partir d'un certain nombre d'éléments, <code>setSize</code>, avec une taille de permutation spécifiée, <code>permutationSize</code>.
 

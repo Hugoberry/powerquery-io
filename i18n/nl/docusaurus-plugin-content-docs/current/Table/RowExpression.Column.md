@@ -5,8 +5,6 @@ title: RowExpression.Column
 # RowExpression.Column
 
 
-## Description
-
 Retourneert een abstracte syntaxisstructuur (AST) die de toegang tot een kolom binnen een rijexpressie vertegenwoordigt.
 
 
@@ -19,7 +17,7 @@ RowExpression.Column(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een abstracte syntaxisstructuur (AST) die de toegang tot de kolom <code>columnName</code> van de rij binnen een rijexpressie vertegenwoordigt.
 

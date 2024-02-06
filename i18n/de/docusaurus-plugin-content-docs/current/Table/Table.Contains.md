@@ -5,8 +5,6 @@ title: Table.Contains
 # Table.Contains
 
 
-## Description
-
 Gibt an, ob der angegebene Datensatz als Zeile in der Tabelle vorkommt.
 
 
@@ -21,7 +19,7 @@ Table.Contains(
 ```
 
 
-## Details
+## Remarks
 
 Gibt an, ob der angegebene Datensatz (<code>row</code>) als Zeile in "<code>table</code>" vorkommt.    Der Vergleich zwischen den Zeilen der Tabelle kann mithilfe eines optionalen Parameters (<code>equationCriteria</code>) gesteuert werden.
 

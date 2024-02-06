@@ -5,8 +5,6 @@ title: Table.Sort
 # Table.Sort
 
 
-## Description
-
 Trie la table en utilisant un ou plusieurs noms de colonne et critères de comparaison.
 
 
@@ -20,7 +18,7 @@ Table.Sort(
 ```
 
 
-## Details
+## Remarks
 
 Trie <code>table</code> en utilisant une liste d'un ou plusieurs noms de colonne et un paramètre facultatif <code>comparisonCriteria</code> sous la forme \{ \{ col1, comparisonCriteria }, \{col2} }.
 

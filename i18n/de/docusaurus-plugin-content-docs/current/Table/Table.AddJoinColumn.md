@@ -5,8 +5,6 @@ title: Table.AddJoinColumn
 # Table.AddJoinColumn
 
 
-## Description
-
 Führt für angegebene Spalten einen Join zwischen Tabellen aus und stellt das Join-Ergebnis in einer neuen Spalte bereit.
 
 
@@ -23,7 +21,7 @@ Table.AddJoinColumn(
 ```
 
 
-## Details
+## Remarks
 
 Führt die Zeilen von "<code>table1</code>" mit den Zeilen von "<code>table2</code>" zusammen. Grundlage hierfür bildet die Übereinstimmung der Werte der Schlüsselspalten, die durch "<code>key1</code>" (für "<code>table1</code>") und "<code>key2</code>" (für "<code>table2</code>") ausgewählt wurden. Die Ergebnisse werden in die Spalte namens "<code>newColumnName</code>" eingefügt.Das Verhalten dieser Funktion gleicht "Table.Join" mit dem JoinKind-Typ "LeftOuter", allerdings werden hier die Join-Ergebnisse geschachtelt (und nicht vereinfacht) dargestellt.
 

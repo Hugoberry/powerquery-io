@@ -5,8 +5,6 @@ title: Binary.ApproximateLength
 # Binary.ApproximateLength
 
 
-## Description
-
 Возвращает примерную длину двоичного значения.
 
 
@@ -19,7 +17,7 @@ Binary.ApproximateLength(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает примерную длину <code>binary</code> или ошибку, если источник данных не поддерживает примерную длину.
 

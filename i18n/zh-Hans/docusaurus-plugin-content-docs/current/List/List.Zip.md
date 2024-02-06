@@ -5,8 +5,6 @@ title: List.Zip
 # List.Zip
 
 
-## Description
-
 通过在多个列表的相同位置合并项来返回列表的列表。
 
 
@@ -19,7 +17,7 @@ List.Zip(
 ```
 
 
-## Details
+## Remarks
 
 提取列表的列表 <code>lists</code>，并通过在同一位置合并项返回列表的列表。
 

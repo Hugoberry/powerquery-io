@@ -5,8 +5,6 @@ title: Variable.Value
 # Variable.Value
 
 
-## Description
-
 Hàm này chỉ nhằm mục đích sử dụng nội bộ.
 
 
@@ -19,7 +17,7 @@ Variable.Value(
 ```
 
 
-## Details
+## Remarks
 
 Hàm này chỉ nhằm mục đích sử dụng nội bộ.
 

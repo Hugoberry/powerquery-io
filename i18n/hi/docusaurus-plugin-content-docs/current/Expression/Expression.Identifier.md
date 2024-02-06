@@ -5,8 +5,6 @@ title: Expression.Identifier
 # Expression.Identifier
 
 
-## Description
-
 किसी पहचानकर्ता का M स्रोत कोड प्रस्तुतिकरण लौटाता है.
 
 
@@ -19,7 +17,7 @@ Expression.Identifier(
 ```
 
 
-## Details
+## Remarks
 
 किसी पहचानकर्ता <code>name</code> का M स्रोत कोड प्रस्तुतिकरण लौटाता है.
 

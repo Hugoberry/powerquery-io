@@ -5,8 +5,6 @@ title: Combiner.CombineTextByEachDelimiter
 # Combiner.CombineTextByEachDelimiter
 
 
-## Description
-
 Возвращает функцию, которая объединяет список текстовых значений с помощью последовательности разделителей.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByEachDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает функцию, которая объединяет список текстовых значений в одно текстовое значение с использованием последовательности разделителей.
 

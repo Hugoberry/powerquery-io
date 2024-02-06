@@ -5,8 +5,6 @@ title: Table.Last
 # Table.Last
 
 
-## Description
-
 Retourne la dernière ligne ou une valeur par défaut spécifiée.
 
 
@@ -20,7 +18,7 @@ Table.Last(
 ```
 
 
-## Details
+## Remarks
 
 Retourne la dernière ligne de <code>table</code> ou une valeur par défaut facultative <code>default</code>, si la table est vide.
 

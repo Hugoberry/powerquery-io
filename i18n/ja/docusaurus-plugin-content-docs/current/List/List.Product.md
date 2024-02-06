@@ -5,8 +5,6 @@ title: List.Product
 # List.Product
 
 
-## Description
-
 リスト内の数の積を返します。
 
 
@@ -20,7 +18,7 @@ List.Product(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>numbersList</code> 内の NULL 以外の数の積を返します。リストに NULL 以外の値がない場合、NULL を返します。
 

@@ -5,8 +5,6 @@ title: MailChimp.Collection
 # MailChimp.Collection
 
 
-## Description
-
 MailChimp समाप्ति बिंदु से डेटा सहित तालिका लौटाता है.
 
 
@@ -20,7 +18,7 @@ MailChimp.Collection(
 ```
 
 
-## Details
+## Remarks
 
 MailChimp API को कॉल करता है और परिणाम स्वरूप तालिका के रूप में डेटासेट लौटाता है. सभी परिणाम वाले पृष्ठों को स्वचालित रूप से खोजता है. ऐसे API समाप्ति बिंदु जहाँ पर JSON प्रतिसाद में मूल समाप्ति बिंदु और मुख्य entityName मेल न खाते हों, वहाँ पर वैकल्पिक entityName पैरामीटर का उपयोग किया जा सकता है.
 

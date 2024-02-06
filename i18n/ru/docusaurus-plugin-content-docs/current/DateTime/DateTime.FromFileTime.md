@@ -5,8 +5,6 @@ title: DateTime.FromFileTime
 # DateTime.FromFileTime
 
 
-## Description
-
 Создает значение datetime из 64-разрядного числа.
 
 
@@ -19,7 +17,7 @@ DateTime.FromFileTime(
 ```
 
 
-## Details
+## Remarks
 
 Создает значение <code>datetime</code> на основе значения <code>fileTime</code> и преобразует его в соответствии с местным часовым поясом. Значение filetime - время файла Windows, представляющее количество 100-наносекундных интервалов, прошедших с 12:00 1 января 1601 г. нашей эры (C.E.) по Гринвичу (UTC).
 

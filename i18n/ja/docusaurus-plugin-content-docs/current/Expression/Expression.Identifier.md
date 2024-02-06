@@ -5,8 +5,6 @@ title: Expression.Identifier
 # Expression.Identifier
 
 
-## Description
-
 識別子の M ソース コード表現を返します。
 
 
@@ -19,7 +17,7 @@ Expression.Identifier(
 ```
 
 
-## Details
+## Remarks
 
 識別子 <code>name</code> の M ソース コード表現を返します。
 

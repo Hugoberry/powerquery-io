@@ -5,8 +5,6 @@ title: Embedded.Value
 # Embedded.Value
 
 
-## Description
-
 Accède à une valeur par nom dans une application Web hybride incorporée.
 
 
@@ -20,7 +18,7 @@ Embedded.Value(
 ```
 
 
-## Details
+## Remarks
 
 Accède à une valeur par nom dans une application Web hybride incorporée.
 

@@ -5,8 +5,6 @@ title: List.Times
 # List.Times
 
 
-## Description
-
 สร้างรายการของค่าเวลาโดยกำหนดค่าเริ่มต้น จำนวน และค่าระยะเวลาแบบเพิ่มหน่วย
 
 
@@ -21,7 +19,7 @@ List.Times(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับรายการของค่า <code>time</code> ของขนาด <code>count</code> โดยเริ่มต้นที่ <code>start</code> การเพิ่มหน่วยที่กำหนดให้ <code>step</code> เป็นค่า <code>duration</code> ที่ถูกเพิ่มลงในทุกค่า
 

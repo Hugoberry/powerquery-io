@@ -5,8 +5,6 @@ title: SqlExpression.SchemaFrom
 # SqlExpression.SchemaFrom
 
 
-## Description
-
 यह फ़ंक्शन केवल आंतरिक उपयोग के लिए है.
 
 
@@ -19,7 +17,7 @@ SqlExpression.SchemaFrom(
 ```
 
 
-## Details
+## Remarks
 
 यह फ़ंक्शन केवल आंतरिक उपयोग के लिए है.
 

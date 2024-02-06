@@ -5,8 +5,6 @@ title: List.AllTrue
 # List.AllTrue
 
 
-## Description
-
 Restituisce true se tutte le espressioni sono true.
 
 
@@ -19,7 +17,7 @@ List.AllTrue(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce true se tutte le espressioni dell'elenco <code>list</code> sono true.
 

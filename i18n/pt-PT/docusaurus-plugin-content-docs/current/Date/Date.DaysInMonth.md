@@ -5,8 +5,6 @@ title: Date.DaysInMonth
 # Date.DaysInMonth
 
 
-## Description
-
 Devolve um número de 28 a 31 que indica o número de dias no mês.
 
 
@@ -19,7 +17,7 @@ Date.DaysInMonth(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o número de dias no mês no valor <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> <code>dateTime</code>. <ul>        <li><code>dateTime</code>: um valor <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> para o qual é devolvido o número de dias no mês.</li>      </ul>
 

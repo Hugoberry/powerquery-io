@@ -5,8 +5,6 @@ title: Text.FromBinary
 # Text.FromBinary
 
 
-## Description
-
 Avkodar data från ett binärformat till textformat.
 
 
@@ -20,7 +18,7 @@ Text.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 Avkodar data, <code>binary</code>, från ett binärvärde till ett textvärde med typen <code>encoding</code>.
 

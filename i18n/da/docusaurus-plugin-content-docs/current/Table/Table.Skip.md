@@ -5,8 +5,6 @@ title: Table.Skip
 # Table.Skip
 
 
-## Description
-
 Returnerer en tabel, hvor det første antal rækker springes over.
 
 
@@ -20,7 +18,7 @@ Table.Skip(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel, der ikke indeholder det første angivne antal rækker, <code>countOrCondition</code>, i tabellen <code>table</code>.    Det antal rækker, der springes over, afhænger af den valgfrie parameter <code>countOrCondition</code>.    <ul>    <li> Hvis <code>countOrCondition</code> udelades, er det kun første række, der springes over. </li>    <li> Hvis <code>countOrCondition</code> er et tal, springes der så mange rækker over (med start fra toppen). </li>    <li> Hvis <code>countOrCondition</code> er en betingelse, springes de rækker over, der overholder betingelsen, indtil en række ikke overholder betingelsen.</li>    </ul>
 

@@ -5,8 +5,6 @@ title: Type.TableColumn
 # Type.TableColumn
 
 
-## Description
-
 तालिका में स्तंभ का प्रकार लौटाता है.
 
 
@@ -20,7 +18,7 @@ Type.TableColumn(
 ```
 
 
-## Details
+## Remarks
 
 तालिका प्रकार <code>tableType</code> में स्तंभ <code>column</code> का प्रकार लौटाता है.
 

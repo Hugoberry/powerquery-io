@@ -5,8 +5,6 @@ title: Record.FieldNames
 # Record.FieldNames
 
 
-## Description
-
 Zwraca nazwy pól.
 
 
@@ -19,7 +17,7 @@ Record.FieldNames(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca nazwy pól w rekordzie <code>record</code> jako tekst.
 

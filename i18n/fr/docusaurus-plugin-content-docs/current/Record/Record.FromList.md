@@ -5,8 +5,6 @@ title: Record.FromList
 # Record.FromList
 
 
-## Description
-
 Retourne un enregistrement en fonction d&#39;une liste de valeurs de champ et d&#39;un ensemble de champs.
 
 
@@ -20,7 +18,7 @@ Record.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Retourne un enregistrement en fonction d'un <code>list</code> de valeurs de champ et d'un ensemble de champs.  <code>fields</code> peut être spécifié par une liste de valeurs de texte, ou un type d'enregistrement.  Une erreur est générée si les champs ne sont pas uniques.
 

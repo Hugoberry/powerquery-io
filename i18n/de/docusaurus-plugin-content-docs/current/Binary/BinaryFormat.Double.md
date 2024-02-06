@@ -5,8 +5,6 @@ title: BinaryFormat.Double
 # BinaryFormat.Double
 
 
-## Description
-
 Ein Binärformat, das einen 8-Byte-IEEE-Gleitkommawert mit doppelter Genauigkeit liest.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Double(
 ```
 
 
-## Details
+## Remarks
 
 Ein Binärformat, das einen 8-Byte-IEEE-Gleitkommawert mit doppelter Genauigkeit liest.
 

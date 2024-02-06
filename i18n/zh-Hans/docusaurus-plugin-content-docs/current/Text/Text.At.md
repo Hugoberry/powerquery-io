@@ -5,8 +5,6 @@ title: Text.At
 # Text.At
 
 
-## Description
-
 在指定的位置返回该字符。
 
 
@@ -20,7 +18,7 @@ Text.At(
 ```
 
 
-## Details
+## Remarks
 
 在位置 <code>index</code> 返回文本值中的字符 <code>text</code>。文本中的第一个字符位于位置 0。
 

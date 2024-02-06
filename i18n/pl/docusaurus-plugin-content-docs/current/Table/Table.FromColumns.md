@@ -5,8 +5,6 @@ title: Table.FromColumns
 # Table.FromColumns
 
 
-## Description
-
 Tworzy tabelę na podstawie listy kolumn i określonych wartości.
 
 
@@ -20,7 +18,7 @@ Table.FromColumns(
 ```
 
 
-## Details
+## Remarks
 
 Tworzy tabelę typu <code>columns</code> na podstawie listy <code>lists</code>, która zawiera zagnieżdżone listy z nazwami i wartościami kolumn.    Jeśli niektóre kolumny będą zawierać więcej wartości niż inne, brakujące wartości zostaną wypełnione wartością domyślną równą null, jeśli kolumny dopuszczają wartości null.
 

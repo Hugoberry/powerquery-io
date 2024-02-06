@@ -5,8 +5,6 @@ title: Text.Split
 # Text.Split
 
 
-## Description
-
 Tách văn bản thành danh sách giá trị văn bản dựa trên dấu tách được chỉ định.
 
 
@@ -20,7 +18,7 @@ Text.Split(
 ```
 
 
-## Details
+## Remarks
 
 Trả về danh sách giá trị văn bản là kết quả của việc tách một giá trị văn bản <code>text</code> dựa trên dấu tách được chỉ định, <code>separator</code>.
 

@@ -5,8 +5,6 @@ title: Date.DayOfYear
 # Date.DayOfYear
 
 
-## Description
-
 Trả về một số từ 1 đến 366 biểu thị ngày trong năm.
 
 
@@ -19,7 +17,7 @@ Date.DayOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một số biểu thị ngày trong năm trong giá trị <code>date</code>, <code>datetime</code> hoặc <code>datetimezone</code> cho sẵn, <code>dateTime</code>.
 

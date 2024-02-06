@@ -5,8 +5,6 @@ title: Date.Month
 # Date.Month
 
 
-## Description
-
 महीना घटक लौटाता है.
 
 
@@ -19,7 +17,7 @@ Date.Month(
 ```
 
 
-## Details
+## Remarks
 
 प्रदान किए गए <code>datetime</code> मान, <code>dateTime</code> का महीना घटक लौटाता है.
 

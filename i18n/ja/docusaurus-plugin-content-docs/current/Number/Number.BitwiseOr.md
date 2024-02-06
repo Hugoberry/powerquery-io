@@ -5,8 +5,6 @@ title: Number.BitwiseOr
 # Number.BitwiseOr
 
 
-## Description
-
 2 つの入力間でビットごとの OR 演算を行った結果を返します。
 
 
@@ -20,7 +18,7 @@ Number.BitwiseOr(
 ```
 
 
-## Details
+## Remarks
 
 <code>number1</code> と <code>number2</code> の間でビットごとの OR 演算を行った結果を返します。
 

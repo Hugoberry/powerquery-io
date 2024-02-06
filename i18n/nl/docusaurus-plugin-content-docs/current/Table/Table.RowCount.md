@@ -5,8 +5,6 @@ title: Table.RowCount
 # Table.RowCount
 
 
-## Description
-
 Retourneert het aantal rijen uit de tabel.
 
 
@@ -19,7 +17,7 @@ Table.RowCount(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het aantal rijen uit de <code>table</code>.
 

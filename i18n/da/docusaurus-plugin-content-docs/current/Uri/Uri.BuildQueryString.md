@@ -5,8 +5,6 @@ title: Uri.BuildQueryString
 # Uri.BuildQueryString
 
 
-## Description
-
 Oversæt en post til en URI-forespørgselsstreng.
 
 
@@ -19,7 +17,7 @@ Uri.BuildQueryString(
 ```
 
 
-## Details
+## Remarks
 
 Oversæt posten <code>query</code> til en URI-forespørgselsstreng, og angiv escapetegn efter behov.
 

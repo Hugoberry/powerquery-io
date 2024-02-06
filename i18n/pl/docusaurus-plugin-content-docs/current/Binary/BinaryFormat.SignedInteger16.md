@@ -5,8 +5,6 @@ title: BinaryFormat.SignedInteger16
 # BinaryFormat.SignedInteger16
 
 
-## Description
-
 Format binarny odczytujący 16-bitową liczbę całkowitą ze znakiem.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.SignedInteger16(
 ```
 
 
-## Details
+## Remarks
 
 Format binarny odczytujący 16-bitową liczbę całkowitą ze znakiem.
 

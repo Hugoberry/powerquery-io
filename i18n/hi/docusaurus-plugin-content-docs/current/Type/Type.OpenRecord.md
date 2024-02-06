@@ -5,8 +5,6 @@ title: Type.OpenRecord
 # Type.OpenRecord
 
 
-## Description
-
 दिए गए रिकॉर्ड प्रकार (या समान प्रकार, यदि वह पहले से खुला हुआ हो) का खुला हुआ संस्‍करण लौटाता है.
 
 
@@ -19,7 +17,7 @@ Type.OpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 दिए गए <code>रिकॉर्ड</code> <code>type</code> (या समान प्रकार, यदि पहले से खुला हुआ हो, तो) का खुला हुआ संस्‍करण लौटाता है.
 

@@ -5,8 +5,6 @@ title: List.RemoveMatchingItems
 # List.RemoveMatchingItems
 
 
-## Description
-
 移除輸入值的所有發生次數。
 
 
@@ -21,7 +19,7 @@ List.RemoveMatchingItems(
 ```
 
 
-## Details
+## Remarks
 
 從清單 <code>list1</code> 中移除 <code>list2</code> 中指定之值的所有出現次數。如果 <code>list2</code> 中的值不存在 <code>list1</code> 中，則傳回原始清單。    可指定選擇性的等式條件值 <code>equationCriteria</code>，以控制等號比較測試。
 

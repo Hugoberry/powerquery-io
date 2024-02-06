@@ -5,8 +5,6 @@ title: Table.CombineColumns
 # Table.CombineColumns
 
 
-## Description
-
 Łączy określone kolumny w nową kolumnę, używając określonej funkcji łączenia.
 
 
@@ -22,7 +20,7 @@ Table.CombineColumns(
 ```
 
 
-## Details
+## Remarks
 
 Łączy określone kolumny w nową kolumnę, używając określonej funkcji łączenia.
 

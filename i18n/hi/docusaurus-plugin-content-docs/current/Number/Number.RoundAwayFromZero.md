@@ -5,8 +5,6 @@ title: Number.RoundAwayFromZero
 # Number.RoundAwayFromZero
 
 
-## Description
-
 धनात्मक संख्याओं को बढ़ाकर और ऋणात्मक संख्याओं को कम करके पूर्णांक बनाने का परिणाम लौटाता है. अंकों की संख्या निर्दिष्ट की जा सकती है.
 
 
@@ -20,7 +18,7 @@ Number.RoundAwayFromZero(
 ```
 
 
-## Details
+## Remarks
 
 संख्या के चिह्न के आधार पर <code>number</code> को पूर्णांक का परिणाम लौटाता है. यह फ़ंक्शन, धनात्मक संख्याओं को बढ़ाकर और ऋणात्मक संख्याओं को कम करके पूर्णांक बना देगा.    यदि <code>digits</code> निर्दिष्ट हो, तो <code>number</code> को <code>digits</code> दशमलव अंकों तक पूर्णांक बनाया जाता है.  
 

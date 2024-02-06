@@ -5,8 +5,6 @@ title: Record.FieldValues
 # Record.FieldValues
 
 
-## Description
-
 Devolve uma lista dos valores dos campos.
 
 
@@ -19,7 +17,7 @@ Record.FieldValues(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma lista dos valores dos campos existentes no registo <code>record</code>.
 

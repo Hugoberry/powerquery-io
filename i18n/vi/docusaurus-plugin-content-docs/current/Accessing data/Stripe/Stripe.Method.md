@@ -5,8 +5,6 @@ title: Stripe.Method
 # Stripe.Method
 
 
-## Description
-
 Gọi tới API Stripe.
 
 
@@ -21,7 +19,7 @@ Stripe.Method(
 ```
 
 
-## Details
+## Remarks
 
 Gọi tới API Stripe tại https://api.stripe.com/v1/<code>method</code>, với bản ghi <code>additionalParameters</code> được chấp nhận làm tham số bổ sung và danh sách <code>ColumnNames</code> gồm các tên cột dự kiến. Stripe Phiên bản 2015-10-16 được sử dụng.
 

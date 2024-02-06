@@ -5,8 +5,6 @@ title: Text.Remove
 # Text.Remove
 
 
-## Description
-
 इनपुट पाठ मान से दिए गए वर्ण या वर्णों की सूची की सभी आवृत्तियों को निकालता है.
 
 
@@ -20,7 +18,7 @@ Text.Remove(
 ```
 
 
-## Details
+## Remarks
 
 <code>removeChars</code> से निकाले गए सभी वर्णों के साथ पाठ मान <code>text</code> की प्रति लौटाता है.  
 

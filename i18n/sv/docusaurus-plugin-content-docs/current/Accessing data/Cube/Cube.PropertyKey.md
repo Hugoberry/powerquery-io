@@ -5,8 +5,6 @@ title: Cube.PropertyKey
 # Cube.PropertyKey
 
 
-## Description
-
 Returnerar nyckeln för en egenskap.
 
 
@@ -19,7 +17,7 @@ Cube.PropertyKey(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar nyckeln för egenskapen <code>property</code>.
 

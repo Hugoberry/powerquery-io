@@ -5,8 +5,6 @@ title: Date.ToRecord
 # Date.ToRecord
 
 
-## Description
-
 Returnerar en post som innehåller delarna i datumvärdet.
 
 
@@ -19,7 +17,7 @@ Date.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en post som innehåller delarna i det angivna datumvärdet <code>date</code>. <ul>        <li><code>date</code>: Ett <code>date</code>-värde som posten med värdets delar ska beräknas från.</li>      </ul>
 

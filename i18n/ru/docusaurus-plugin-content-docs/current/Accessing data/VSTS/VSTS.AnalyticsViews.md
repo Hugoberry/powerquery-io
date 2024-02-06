@@ -5,8 +5,6 @@ title: VSTS.AnalyticsViews
 # VSTS.AnalyticsViews
 
 
-## Description
-
 Введите название организации и проекта.
 
 
@@ -21,7 +19,7 @@ VSTS.AnalyticsViews(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу представлений службы аналитики, предлагаемых Azure DevOps.
 

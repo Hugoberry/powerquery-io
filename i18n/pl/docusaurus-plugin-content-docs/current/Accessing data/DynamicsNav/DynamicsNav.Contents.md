@@ -5,8 +5,6 @@ title: DynamicsNav.Contents
 # DynamicsNav.Contents
 
 
-## Description
-
 Wprowadź punkt końcowy usługi OData dla systemu Dynamics NAV.
 
 
@@ -20,7 +18,7 @@ DynamicsNav.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę zawierającą odpowiednie dane systemu Dynamics NAV. 
 

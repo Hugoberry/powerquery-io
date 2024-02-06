@@ -5,8 +5,6 @@ title: AzureSpark.Tables
 # AzureSpark.Tables
 
 
-## Description
-
 Liệt kê các bảng trong phiên bản Azure Spark.
 
 
@@ -20,7 +18,7 @@ AzureSpark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Liệt kê các bảng trong phiên bản Azure Spark.
 

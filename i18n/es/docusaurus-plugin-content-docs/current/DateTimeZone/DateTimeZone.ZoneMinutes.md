@@ -5,8 +5,6 @@ title: DateTimeZone.ZoneMinutes
 # DateTimeZone.ZoneMinutes
 
 
-## Description
-
 Cambia la zona horaria del valor.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ZoneMinutes(
 ```
 
 
-## Details
+## Remarks
 
 Cambia la zona horaria del valor.
 

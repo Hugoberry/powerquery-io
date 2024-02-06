@@ -5,8 +5,6 @@ title: Number.Cosh
 # Number.Cosh
 
 
-## Description
-
 傳回數字的雙曲餘弦值。
 
 
@@ -19,7 +17,7 @@ Number.Cosh(
 ```
 
 
-## Details
+## Remarks
 
 傳回 <code>number</code> 的雙曲餘弦值。
 

@@ -5,8 +5,6 @@ title: Table.RemoveMatchingRows
 # Table.RemoveMatchingRows
 
 
-## Description
-
 Entfernt alle Vorkommen der angegebenen Zeilen aus der Tabelle.
 
 
@@ -21,7 +19,7 @@ Table.RemoveMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 Entfernt alle Vorkommen des angegebenen Elements vom Typ "<code>rows</code>" aus "<code>table</code>".    Der Vergleich zwischen den Zeilen der Tabelle kann mithilfe eines optionalen Parameters (<code>equationCriteria</code>) gesteuert werden.
 

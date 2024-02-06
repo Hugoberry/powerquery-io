@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger32
 # BinaryFormat.UnsignedInteger32
 
 
-## Description
-
 Ett binärformat som läser ett 32-bitars heltal utan tecken.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger32(
 ```
 
 
-## Details
+## Remarks
 
 Ett binärformat som läser ett 32-bitars heltal utan tecken.
 

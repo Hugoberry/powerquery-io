@@ -5,8 +5,6 @@ title: DateTimeZone.SwitchZone
 # DateTimeZone.SwitchZone
 
 
-## Description
-
 値のタイム ゾーンを変更します。
 
 
@@ -21,7 +19,7 @@ DateTimeZone.SwitchZone(
 ```
 
 
-## Details
+## Remarks
 
 datetimezone 値 <code>dateTimeZone</code> のタイム ゾーン情報を、<code>timezoneHours</code> および任意で <code>timezoneMinutes</code> によって指定された新しいタイム ゾーン情報に変更します。    <code>dateTimeZone</code> にタイム ゾーン部分がない場合は、例外がスローされます。
 

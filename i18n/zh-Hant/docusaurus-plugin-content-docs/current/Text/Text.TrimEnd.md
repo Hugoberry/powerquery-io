@@ -5,8 +5,6 @@ title: Text.TrimEnd
 # Text.TrimEnd
 
 
-## Description
-
 移除所有尾端空白字元。
 
 
@@ -20,7 +18,7 @@ Text.TrimEnd(
 ```
 
 
-## Details
+## Remarks
 
 傳回從文字值 <code>text</code> 中移除所有尾端空白字元的結果。
 

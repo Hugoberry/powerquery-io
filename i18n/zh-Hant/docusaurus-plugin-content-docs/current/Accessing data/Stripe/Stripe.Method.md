@@ -5,8 +5,6 @@ title: Stripe.Method
 # Stripe.Method
 
 
-## Description
-
 呼叫 Stripe API。
 
 
@@ -21,7 +19,7 @@ Stripe.Method(
 ```
 
 
-## Details
+## Remarks
 
 在 https://api.stripe.com/v1/<code>method</code> 呼叫 Stripe API。您可以選擇是否要使用其他參數傳遞記錄 <code>additionalParameters</code>，以及是否要使用清單 <code>ColumnNames</code> 傳遞所需的資料行名稱。將使用 Stripe 2015-10-16 版。
 

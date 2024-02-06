@@ -5,8 +5,6 @@ title: Parquet.Metadata
 # Parquet.Metadata
 
 
-## Description
-
 Bu işlev, yalnızca iç kullanıma yöneliktir.
 
 
@@ -19,7 +17,7 @@ Parquet.Metadata(
 ```
 
 
-## Details
+## Remarks
 
 Bu işlev, yalnızca iç kullanıma yöneliktir.
 

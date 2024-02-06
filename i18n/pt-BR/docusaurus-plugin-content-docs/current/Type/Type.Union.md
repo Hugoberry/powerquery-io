@@ -5,8 +5,6 @@ title: Type.Union
 # Type.Union
 
 
-## Description
-
 Retorna a união de uma lista de tipos.
 
 
@@ -19,7 +17,7 @@ Type.Union(
 ```
 
 
-## Details
+## Remarks
 
 Retorna a união de uma lista de tipos em <code>types</code>.
 

@@ -5,8 +5,6 @@ title: Date.DayOfWeek
 # Date.DayOfWeek
 
 
-## Description
-
 Sağlanan değerin karşılık geldiği haftanın gününü gösteren (0 ile 6 arasında) bir sayı döndürür.
 
 
@@ -20,7 +18,7 @@ Date.DayOfWeek(
 ```
 
 
-## Details
+## Remarks
 
 Sağlanan <code>dateTime</code> değerinin karşılık geldiği haftanın gününü gösteren (0 ile 6 arasında) bir sayı döndürür.  <ul>        <li><code>dateTime</code>: Bir <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>        <li><code>firstDayOfWeek</code>: Haftanın ilk günü olarak kabul edilecek günü gösteren bir <code>Day</code> değeri. Kabul edilebilir değerler: Day.Sunday, Day.Monday, Day.Tuesday, Day.Wednesday, Day.Thursday, Day.Friday ve Day.Saturday. Belirtilmezse, kültüre bağımlı bir varsayılan değer kullanılır.</li>      </ul>
 

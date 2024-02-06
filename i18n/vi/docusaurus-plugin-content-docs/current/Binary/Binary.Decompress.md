@@ -5,8 +5,6 @@ title: Binary.Decompress
 # Binary.Decompress
 
 
-## Description
-
 Giải nén giá trị nhị phân bằng cách sử dụng loại nén đã cho.
 
 
@@ -20,7 +18,7 @@ Binary.Decompress(
 ```
 
 
-## Details
+## Remarks
 
 Giải nén giá trị nhị phân bằng loại nén đã cho. Kết quả của lệnh gọi này là bản sao dữ liệu đầu vào ở dạng giải nén. Các loại nén bao  gồm:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
 

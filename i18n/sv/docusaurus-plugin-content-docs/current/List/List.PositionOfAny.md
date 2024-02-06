@@ -5,8 +5,6 @@ title: List.PositionOfAny
 # List.PositionOfAny
 
 
-## Description
-
 Returnerar den första förskjutningen för ett värde i en lista.
 
 
@@ -22,7 +20,7 @@ List.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar förskjutningen i listan <code>list</code> för den första förekomsten av ett värde i listan <code>values</code>. Returnerar -1 om ingen förekomst hittas.    En valfri förekomstparameter (<code>occurrence</code>) kan anges.<ul>   <li><code>occurrence</code>: Det högsta antalet förekomster som kan returneras.</li></ul>
 

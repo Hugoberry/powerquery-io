@@ -5,8 +5,6 @@ title: Value.Metadata
 # Value.Metadata
 
 
-## Description
-
 वह रिकॉर्ड लौटाता है, जिसमें इनपुट का मेटाडेटा शामिल है.
 
 
@@ -19,7 +17,7 @@ Value.Metadata(
 ```
 
 
-## Details
+## Remarks
 
 वह रिकॉर्ड लौटाता है, जिसमें इनपुट का मेटाडेटा शामिल है.
 

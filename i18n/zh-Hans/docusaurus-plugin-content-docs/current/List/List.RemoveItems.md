@@ -5,8 +5,6 @@ title: List.RemoveItems
 # List.RemoveItems
 
 
-## Description
-
 从 list1 中删除在列表中出现的项。
 
 
@@ -20,7 +18,7 @@ List.RemoveItems(
 ```
 
 
-## Details
+## Remarks
 
 从 <code>list1</code> 中删除 <code>list2</code> 中所有出现的给定值。如果 <code>list2</code> 中的值在 <code>list1</code> 中不存在，则返回原始列表。
 

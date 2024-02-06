@@ -5,8 +5,6 @@ title: Error.Record
 # Error.Record
 
 
-## Description
-
 Neden, ileti ve ayrıntı için sağlanan metin değerlerinden bir hata kaydı döndürür.
 
 
@@ -22,7 +20,7 @@ Error.Record(
 ```
 
 
-## Details
+## Remarks
 
 Neden, ileti ve ayrıntı için sağlanan metin değerlerinden bir hata kaydı döndürür.
 

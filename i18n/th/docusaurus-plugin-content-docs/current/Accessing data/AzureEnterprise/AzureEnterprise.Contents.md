@@ -5,8 +5,6 @@ title: AzureEnterprise.Contents
 # AzureEnterprise.Contents
 
 
-## Description
-
 ป้อน URL ของจุดสิ้นสุด Azure Enterprise REST API ที่เชื่อมโยงกับการลงทะเบียนของคุณ
 
 
@@ -20,7 +18,7 @@ AzureEnterprise.Contents(
 ```
 
 
-## Details
+## Remarks
 
 คืนค่าผลลัพธ์ไบนารีของการโทรไปยัง url ที่ระบุสำหรับ Azure Enterprise API
 

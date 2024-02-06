@@ -5,8 +5,6 @@ title: Text.Range
 # Text.Range
 
 
-## Description
-
 傳回在位移處找到的子字串。
 
 
@@ -21,7 +19,7 @@ Text.Range(
 ```
 
 
-## Details
+## Remarks
 
 傳回在位移 <code>offset</code> 處從文字 <code>text</code> 找到的子字串。    可包含選擇性參數 <code>count</code> 以指定要傳回的字元數。若沒有足夠的字元，則會擲回錯誤。
 

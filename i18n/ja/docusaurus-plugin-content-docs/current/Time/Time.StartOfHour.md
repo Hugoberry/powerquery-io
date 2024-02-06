@@ -5,8 +5,6 @@ title: Time.StartOfHour
 # Time.StartOfHour
 
 
-## Description
-
 時間の最初の日付を返します。
 
 
@@ -19,7 +17,7 @@ Time.StartOfHour(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> で表される時間の始まりを返します。    <code>dateTime</code> は、<code>time</code>、<code>datetime</code>、または <code>datetimezone</code> 値である必要があります。
 

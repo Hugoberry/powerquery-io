@@ -5,8 +5,6 @@ title: Date.IsInCurrentMonth
 # Date.IsInCurrentMonth
 
 
-## Description
-
 Geeft aan of deze datum plaatsvindt tijdens de huidige maand, zoals wordt bepaald door de huidige datum en tijd op het systeem.
 
 
@@ -19,7 +17,7 @@ Date.IsInCurrentMonth(
 ```
 
 
-## Details
+## Remarks
 
 Geeft aan of de opgegeven datum-/tijdwaarde <code>dateTime</code> plaatsvindt tijdens de huidige maand, zoals wordt bepaald door de huidige datum en tijd op het systeem.      <ul>      <li><code>dateTime</code>: een waarde voor <code>date</code>, <code>datetime</code> of <code>datetimezone</code> die u wilt evalueren.</li>      </ul>
 

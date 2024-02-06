@@ -5,8 +5,6 @@ title: Binary.FromText
 # Binary.FromText
 
 
-## Description
-
 Декодирует данные из текстового формата форме в двоичный формат.
 
 
@@ -20,7 +18,7 @@ Binary.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает результат преобразования текстового значения <code>text</code> в двоичное (список <code>number</code>). Можно задать параметр <code>encoding</code>, чтобы указать кодировку, используемую в текстовом значении.      Следующие значения <code>BinaryEncoding</code> могут быть использованы для <code>encoding</code>.      <ul>        <li><code>BinaryEncoding.Base64</code>: кодировка Base 64</li>        <li><code>BinaryEncoding.Hex</code>: шестнадцатеричная кодировка</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Type.AddTableKey
 # Type.AddTableKey
 
 
-## Description
-
 Lägger till en nyckel för angiven tabelltyp.
 
 
@@ -21,7 +19,7 @@ Type.AddTableKey(
 ```
 
 
-## Details
+## Remarks
 
 Lägger till en nyckel för angiven tabelltyp.
 

@@ -5,8 +5,6 @@ title: Number.BitwiseOr
 # Number.BitwiseOr
 
 
-## Description
-
 Retourneert het resultaat van de uitvoering van een bitwise &#34;Or&#34;-bewerking tussen de twee invoeren.
 
 
@@ -20,7 +18,7 @@ Number.BitwiseOr(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het resultaat van de uitvoering van een bitwise "Or"-bewerking tussen <code>number1</code> en <code>number2</code>.
 

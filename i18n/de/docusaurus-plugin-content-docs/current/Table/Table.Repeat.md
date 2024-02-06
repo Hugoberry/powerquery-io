@@ -5,8 +5,6 @@ title: Table.Repeat
 # Table.Repeat
 
 
-## Description
-
 Wiederholt die Zeilen der Tabellen so oft wie angegeben.
 
 
@@ -20,7 +18,7 @@ Table.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Tabelle zurück, für deren Zeilen aus der Eingabe "<code>table</code>" die angegebene Anzahl (<code>count</code>) von Wiederholungen erstellt wurde.
 

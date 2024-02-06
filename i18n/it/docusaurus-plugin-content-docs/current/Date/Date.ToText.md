@@ -5,8 +5,6 @@ title: Date.ToText
 # Date.ToText
 
 
-## Description
-
 Restituisce una rappresentazione testuale del valore di data.
 
 
@@ -21,7 +19,7 @@ Date.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una rappresentazione testuale di <code>date</code>. Per specificare proprietà aggiuntive, è possibile specificare un parametro facoltativo <code>record</code> <code>options</code>,<code>culture</code> che viene usato solo per i flussi di lavoro legacy. Il <code>record</code> può contenere i campi seguenti:<ul>   <li><code>Formato</code>: un valore <code>text</code> che indica il formato da usare. Per maggiori dettagli, vedere: https://go.microsoft.com/fwlink/?linkid=2180104 e https://go.microsoft.com/fwlink/?linkid=2180105. Se si omette questo campo o si specifica <code>null</code> verrà eseguita la formattazione della data usando l'impostazione predefinita, definita da <code>Impostazioni cultura</code>.</li>   <li><code>Impostazioni cultura</code>: se <code>Formato</code> non è Null, <code>Impostazioni cultura</code> controlla alcuni identificatori di formato. Ad esempio, in <code>"en-US"</code> <code>"MMM"</code> è <code>"Jan", "Feb", "Mar", ... </code>, mentre in <code>"ru-RU"</code> <code>"MMM"</code> è <code>"янв", "фев", "мар", ...</code>. Quando <code>Formato</code> è <code>null</code>, <code>Impostazioni cultura</code> controlla il formato predefinito da usare. Quando <code>Culture</code> è <code>null</code> od omesso, viene usato <code>Culture.Current</code>.</li></ul>Per supportare flussi di lavoro legacy, <code>options</code> e <code>culture</code> possono essere anche valori di testo. Questo comportamento è identico a quello se <code>options</code><code>= [Format = <code>options</code>, Culture = <code>culture</code>]</code>.
 

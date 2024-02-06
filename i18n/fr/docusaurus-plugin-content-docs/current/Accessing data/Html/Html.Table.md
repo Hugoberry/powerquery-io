@@ -5,8 +5,6 @@ title: Html.Table
 # Html.Table
 
 
-## Description
-
 Retourne une table contenant les résultats de l’exécution des sélecteurs CSS spécifiés par rapport au code HTML fourni.
 
 
@@ -21,7 +19,7 @@ Html.Table(
 ```
 
 
-## Details
+## Remarks
 
 Retourne un tableau contenant les résultats de l'exécution des sélecteurs CSS spécifiés sur le <code>html</code> fourni. Un paramètre d'enregistrement facultatif, <code>options</code>, peut être fourni pour spécifier des propriétés supplémentaires. L'enregistrement peut contenir les champs suivants :    <ul><li><code>RowSelector</code></li></ul>    
 

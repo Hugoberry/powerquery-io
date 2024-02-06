@@ -5,8 +5,6 @@ title: Number.Asin
 # Number.Asin
 
 
-## Description
-
 返回数的反正弦。
 
 
@@ -19,7 +17,7 @@ Number.Asin(
 ```
 
 
-## Details
+## Remarks
 
 返回 <code>number</code> 的反正弦。
 

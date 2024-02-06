@@ -5,8 +5,6 @@ title: DateTime.AddZone
 # DateTime.AddZone
 
 
-## Description
-
 将时区信息添加到日期/时间值。
 
 
@@ -21,7 +19,7 @@ DateTime.AddZone(
 ```
 
 
-## Details
+## Remarks
 
 将时区信息添加到 <code>dateTime</code> 值。时区信息包括 <code>timezoneHours</code> 和可选的 <code>timezoneMinutes</code>，这指定了所需的 UTC 时间偏移量。
 

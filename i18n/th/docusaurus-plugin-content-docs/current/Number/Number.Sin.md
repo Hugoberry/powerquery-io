@@ -5,8 +5,6 @@ title: Number.Sin
 # Number.Sin
 
 
-## Description
-
 ส่งกลับค่าไซน์ของตัวเลข
 
 
@@ -19,7 +17,7 @@ Number.Sin(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่าไซน์ของ <code>number</code>
 

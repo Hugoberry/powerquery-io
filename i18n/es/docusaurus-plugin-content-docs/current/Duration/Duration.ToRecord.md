@@ -5,8 +5,6 @@ title: Duration.ToRecord
 # Duration.ToRecord
 
 
-## Description
-
 Devuelve un registro que contiene los elementos de la duración.
 
 
@@ -19,7 +17,7 @@ Duration.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un registro que contiene los elementos del valor duration, <code>duration</code>.  <ul>        <li><code>duration</code>: un valor <code>duration</code> a partir del que se creará el registro.</li>      </ul>
 

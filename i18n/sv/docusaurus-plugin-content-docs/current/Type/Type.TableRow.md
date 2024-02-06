@@ -5,8 +5,6 @@ title: Type.TableRow
 # Type.TableRow
 
 
-## Description
-
 Skickar tillbaka radtypen i tabelltypen.
 
 
@@ -19,7 +17,7 @@ Type.TableRow(
 ```
 
 
-## Details
+## Remarks
 
 Skickar tillbaka radtypen för den angivna tabelltypen. Resultatet är alltid en posttyp.
 

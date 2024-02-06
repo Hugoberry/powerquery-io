@@ -5,8 +5,6 @@ title: List.Contains
 # List.Contains
 
 
-## Description
-
 Cho biết danh sách có chứa giá trị không.
 
 
@@ -21,7 +19,7 @@ List.Contains(
 ```
 
 
-## Details
+## Remarks
 
 Cho biết danh sách <code>list</code> có chứa giá trị <code>value</code> hay không.    Trả về true nếu tìm thấy giá trị trong danh sách, false nếu ngược lại. Có thể chỉ định giá trị tiêu chí phương trình tùy chọn, <code>equationCriteria</code>, để kiểm soát việc kiểm tra đẳng thức. 
 

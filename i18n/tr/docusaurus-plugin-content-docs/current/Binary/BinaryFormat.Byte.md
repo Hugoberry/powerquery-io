@@ -5,8 +5,6 @@ title: BinaryFormat.Byte
 # BinaryFormat.Byte
 
 
-## Description
-
 Bir 8 bit işaretsiz tamsayıyı okuyan ikili biçimi.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Byte(
 ```
 
 
-## Details
+## Remarks
 
 Bir 8 bit işaretsiz tamsayıyı okuyan ikili biçimi.
 

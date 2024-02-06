@@ -5,8 +5,6 @@ title: Table.ColumnNames
 # Table.ColumnNames
 
 
-## Description
-
 返回列名作为列表。
 
 
@@ -19,7 +17,7 @@ Table.ColumnNames(
 ```
 
 
-## Details
+## Remarks
 
 返回表 <code>table</code> 中的列名作为文本列表。
 

@@ -5,8 +5,6 @@ title: Number.IntegerDivide
 # Number.IntegerDivide
 
 
-## Description
-
 Divise deux nombres et retourne la partie d&#39;entier du résultat.
 
 
@@ -21,7 +19,7 @@ Number.IntegerDivide(
 ```
 
 
-## Details
+## Remarks
 
 Retourne la partie entière du résultat de la division d'un nombre <code>number1</code> par un autre nombre <code>number2</code>.    Si <code>number1</code> ou <code>number2</code> ont la valeur null, <code>Number.IntegerDivide</code> retourne null.      <ul>        <li><code>number1</code> : dividende.</li>        <li><code>number2</code> : diviseur.</li>      </ul>
 

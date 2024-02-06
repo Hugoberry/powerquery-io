@@ -5,8 +5,6 @@ title: Table.SelectRowsWithErrors
 # Table.SelectRowsWithErrors
 
 
-## Description
-
 Returnerer en tabel med kun de rækker fra inputtabellen, der indeholder en fejl i mindst en af cellerne. Hvis der er angivet en kolonneliste, er det kun cellerne i de angivne kolonner, der undersøges for fejl.
 
 
@@ -20,7 +18,7 @@ Table.SelectRowsWithErrors(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel med kun de rækker fra inputtabellen, der indeholder en fejl i mindst en af cellerne. Hvis der er angivet en kolonneliste, er det kun cellerne i de angivne kolonner, der undersøges for fejl.
 

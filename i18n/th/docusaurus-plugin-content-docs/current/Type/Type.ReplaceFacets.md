@@ -5,8 +5,6 @@ title: Type.ReplaceFacets
 # Type.ReplaceFacets
 
 
-## Description
-
 เปลี่ยนข้อเท็จจริงของชนิด
 
 
@@ -20,7 +18,7 @@ Type.ReplaceFacets(
 ```
 
 
-## Details
+## Remarks
 
 เปลี่ยนแปลงข้อเท็จจริงของ <code>type</code> โดยมีข้อเท็จจริงอยู่ในระเบียน <code>facets</code>
 

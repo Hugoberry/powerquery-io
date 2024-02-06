@@ -5,8 +5,6 @@ title: Time.StartOfHour
 # Time.StartOfHour
 
 
-## Description
-
 Returnerer starten af timen.
 
 
@@ -19,7 +17,7 @@ Time.StartOfHour(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer starten af timen, der repræsenteres af <code>dateTime</code>.    <code>dateTime</code> skal være en værdi af typen <code>time</code>, <code>datetime</code> eller <code>datetimezone</code>.
 

@@ -5,8 +5,6 @@ title: Excel.Workbook
 # Excel.Workbook
 
 
-## Description
-
 Hiermee wordt de inhoud van de Excel-werkmap geretourneerd.
 
 
@@ -21,7 +19,7 @@ Excel.Workbook(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de inhoud van de Excel-werkmap. <ul> <li> <code>useHeaders</code> kan null zijn, een logische waarde (waar/onwaar) die aangeeft of de eerste rij van elke geretourneerde tabel moet worden behandeld als een koptekst of een archief met opties. Standaard: onwaar.</li> <li> <code>delayTypes</code> kan null zijn of een logische waarde (waar/onwaar) die aangeeft of de kolommen van elke geretourneerde tabel niet moeten worden getypt. Standaard: onwaar.</li> </ul> Als er een archief is opgegeven voor <code>useHeaders</code> (en <code>delayTypes</code> null is), kunnen de volgende archiefvelden worden opgegeven: <ul> <li> <code>UseHeaders</code>: kan null zijn of een logische waarde (waar/onwaar) die aangeeft of de eerste rij van elke geretourneerde tabel moet worden behandeld als een koptekst. Standaard: onwaar.</li> <li> <code>DelayTypes</code>: kan null zijn of een logische waarde (waar/onwaar) die aangeeft of de kolommen van elke geretourneerde tabel niet moeten worden getypt. Standaard: onwaar.</li> <li> <code>InferSheetDimensions</code>: kan null zijn of een logische waarde (waar/onwaar) die aangeeft of het gebied van een werkblad dat gegevens bevat, moet worden gelezen door het werkblad zelf te lezen in plaats van de metagegevens van de dimensies uit het bestand te lezen. Dit kan handig zijn wanneer de metagegevens van de dimensie onjuist zijn. Houd er rekening mee dat deze optie alleen wordt ondersteund voor Open XML-Excel-bestanden en niet voor oudere Excel-bestanden. Standaard: onwaar.</li> </ul>    
 

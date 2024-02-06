@@ -5,8 +5,6 @@ title: Combiner.CombineTextByDelimiter
 # Combiner.CombineTextByDelimiter
 
 
-## Description
-
 Belirtilen sınırlayıcıyı kullanarak bir metin listesini birleştiren bir işlev döndürür.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Bir metin değerleri listesini belirtilen sınırlayıcıyı kullanarak tek bir metin değerine dönüştüren bir işlev döndürür.
 

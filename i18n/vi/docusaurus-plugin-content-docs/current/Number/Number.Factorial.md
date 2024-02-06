@@ -5,8 +5,6 @@ title: Number.Factorial
 # Number.Factorial
 
 
-## Description
-
 Trả về giai thừa của số.
 
 
@@ -19,7 +17,7 @@ Number.Factorial(
 ```
 
 
-## Details
+## Remarks
 
 Trả về giai thừa của số <code>number</code>.
 

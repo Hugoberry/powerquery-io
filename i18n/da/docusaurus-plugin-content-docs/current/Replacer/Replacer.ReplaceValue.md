@@ -5,8 +5,6 @@ title: Replacer.ReplaceValue
 # Replacer.ReplaceValue
 
 
-## Description
-
 Erstatter værdier i det angivne input.
 
 
@@ -21,7 +19,7 @@ Replacer.ReplaceValue(
 ```
 
 
-## Details
+## Remarks
 
 Erstatter værdien <code>old</code> i den oprindelige <code>value</code> med værdien <code>new</code>. Denne erstatningsfunktion kan bruges i <code>List.ReplaceValue</code> og <code>Table.ReplaceValue</code>.
 

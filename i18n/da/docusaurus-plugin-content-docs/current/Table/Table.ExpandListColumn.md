@@ -5,8 +5,6 @@ title: Table.ExpandListColumn
 # Table.ExpandListColumn
 
 
-## Description
-
 Når du har en kolonne med lister i en tabel, skal du oprette en kopi af en række for hver værdi på listen.
 
 
@@ -20,7 +18,7 @@ Table.ExpandListColumn(
 ```
 
 
-## Details
+## Remarks
 
 Når du har en <code>table</code>, hvor en <code>column</code> er en liste over værdier, opdeles listen i en række for hver værdi. Værdier i andre kolonner dubleres i alle nye rækker, der oprettes.
 

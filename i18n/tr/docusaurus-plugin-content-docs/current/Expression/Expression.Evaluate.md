@@ -5,8 +5,6 @@ title: Expression.Evaluate
 # Expression.Evaluate
 
 
-## Description
-
 Bir M ifadesinin değerlendirilme sonucunu döndürür.
 
 
@@ -20,7 +18,7 @@ Expression.Evaluate(
 ```
 
 
-## Details
+## Remarks
 
 Bir M ifadesinin <code>document</code> değerlendirilme sonucunu, <code>environment</code> tarafından tanımlanan mevcut tanımlayıcılarla birlikte döndürür.
 

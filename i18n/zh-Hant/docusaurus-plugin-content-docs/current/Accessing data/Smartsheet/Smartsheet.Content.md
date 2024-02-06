@@ -5,8 +5,6 @@ title: Smartsheet.Content
 # Smartsheet.Content
 
 
-## Description
-
 從 Smartsheet 索引端點傳回內含資料的資料表。
 
 
@@ -19,7 +17,7 @@ Smartsheet.Content(
 ```
 
 
-## Details
+## Remarks
 
 呼叫位於指定端點的 Smartsheet 2.0 REST API，並將傳回的資料元素轉換成資料表。
 

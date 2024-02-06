@@ -16,7 +16,7 @@ Cds.Entities(
 ```
 
 
-## Details
+## Remarks
 
 连接到 Common Data Service 实例(Dynamics 365 和 PowerApps)。
 

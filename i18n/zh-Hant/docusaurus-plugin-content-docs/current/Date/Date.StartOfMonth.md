@@ -5,8 +5,6 @@ title: Date.StartOfMonth
 # Date.StartOfMonth
 
 
-## Description
-
 傳回月度開始時間。
 
 
@@ -19,7 +17,7 @@ Date.StartOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 傳回包含 <code>dateTime</code> 的月度開始時間。    <code>dateTime</code>必須是 <code>date</code> 或 <code>datetime</code>值。
 

@@ -5,8 +5,6 @@ title: Character.FromNumber
 # Character.FromNumber
 
 
-## Description
-
 Konverterar ett tal till ett texttecken.
 
 
@@ -19,7 +17,7 @@ Character.FromNumber(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar teckenmotsvarigheten för tal.<br />    <br />    Den angivna <code>number</code> ska vara en 21-bitars Unicode-kodpunkt.
 

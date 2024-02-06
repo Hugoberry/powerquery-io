@@ -5,8 +5,6 @@ title: List.Range
 # List.Range
 
 
-## Description
-
 Bir uzaklıktan başlayarak listenin bir alt kümesini döndürür.
 
 
@@ -21,7 +19,7 @@ List.Range(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> uzaklığından başlayarak listenin bir alt kümesini döndürür. <code>offset</code> isteğe bağlı parametresi, alt kümedeki öğe sayısı üst sınırını belirler.
 

@@ -15,7 +15,7 @@ SparkPost.GetList(
 ```
 
 
-## Details
+## Remarks
 
 Denne funktion kan bruges til at kalde et af de "Lister"-slutpunkter, der tilbydes af SparkPost API-v1. Når der foretages kald til API'EN SparkPost ved hjælp af denne funktion, skal du huske, at API'EN SparkPost har en bundet hastighedsgrænse. Hvis du kan se en 429 statuskode, der returneres fra serveren SparkPost, har du nået grænsen.
 

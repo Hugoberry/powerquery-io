@@ -5,8 +5,6 @@ title: Table.ExpandTableColumn
 # Table.ExpandTableColumn
 
 
-## Description
-
 Bir kayıt sütununu veya tablo sütununu, içeren tabloda birden fazla sütuna genişletir.
 
 
@@ -22,7 +20,7 @@ Table.ExpandTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code>[<code>column</code>] içindeki tabloları birden çok satır ve sütuna genişletir. <code>columnNames</code>, iç tablodan genişletilecek sütunları seçmek için kullanılır. Var olan sütunlar ve yeni sütunlar arasındaki çakışmalardan kaçınmak için <code>newColumnNames</code> öğesini belirtir.
 

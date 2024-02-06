@@ -5,8 +5,6 @@ title: Table.FillDown
 # Table.FillDown
 
 
-## Description
-
 Önceki hücrenin değerini bir sütunda alttaki null değerli hücrelere yayar.
 
 
@@ -20,7 +18,7 @@ Table.FillDown(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen <code>table</code> öğesinden önceki hücrenin belirtilen <code>columns</code> içinde aşağıdaki null değerli hücrelere yayıldığı bir tablo döndürür.
 

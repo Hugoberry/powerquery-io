@@ -5,8 +5,6 @@ title: Date.Year
 # Date.Year
 
 
-## Description
-
 年部分を返します。
 
 
@@ -19,7 +17,7 @@ Date.Year(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>datetime</code> 値 (<code>dateTime</code>) の年部分を返します。
 

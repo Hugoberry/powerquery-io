@@ -5,8 +5,6 @@ title: Number.Round
 # Number.Round
 
 
-## Description
-
 丸めた数値を返します。桁数と丸めモードを指定できます。
 
 
@@ -21,7 +19,7 @@ Number.Round(
 ```
 
 
-## Details
+## Remarks
 
 最も近い数に <code>number</code> を端数処理した結果を返します。<code>number</code> が null の場合、<code>Number.Round</code>は null を返します。<br />      <br />      既定では、<code>number</code> は最も近い整数に端数処理され、<code>RoundingMode.ToEven</code> (別名"銀行家の丸め") を使用して最も近い偶数に端数処理されることにより結びつきはなくなります。<br />      <br />      ただしこれらの既定は、次のオプションのパラメーターを使用してオーバーライドできます。      <ul>        <li><code>digits</code>:これにより、<code>number</code>は指定された少数桁の数に端数処理されます。</li>        <li><code>roundingMode</code>: <code>number</code> が端数処理された可能性のある 2 つの値の中間にある場合、既定の結びつきをなくす動作をオーバーライドします      (使用可能な値については、<code>RoundingMode.Type</code> を参照してください).。</li>      </ul>
 

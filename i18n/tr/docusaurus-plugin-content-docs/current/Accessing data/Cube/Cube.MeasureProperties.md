@@ -5,8 +5,6 @@ title: Cube.MeasureProperties
 # Cube.MeasureProperties
 
 
-## Description
-
 Küpte genişletilen ölçülerin özellikleri kümesini içeren bir tablo döndürür.
 
 
@@ -19,7 +17,7 @@ Cube.MeasureProperties(
 ```
 
 
-## Details
+## Remarks
 
 Küpte genişletilen ölçüler için kullanılabilen özelliklerin kümesini içeren bir tablo döndürür.
 

@@ -5,8 +5,6 @@ title: List.ReplaceRange
 # List.ReplaceRange
 
 
-## Description
-
 Erstatter antallet af talte værdier med start ved positionen med erstatningsværdierne.
 
 
@@ -22,7 +20,7 @@ List.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 Erstatter <code>count</code> værdier i <code>list</code> med listen <code>replaceWith</code> med start ved den angivne position, <code>index</code>.
 

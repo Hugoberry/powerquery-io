@@ -5,8 +5,6 @@ title: BinaryFormat.Transform
 # BinaryFormat.Transform
 
 
-## Description
-
 ส่งกลับรูปแบบไบนารีที่จะแปลงค่าที่อ่านโดยค่าไบนารีอื่น
 
 
@@ -20,7 +18,7 @@ BinaryFormat.Transform(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับรูปแบบไบนารีที่จะแปลงค่าที่อ่านโดยค่าไบนารีอื่น  พารามิเตอร์ <code>binaryFormat</code> จะระบุรูปแบบไบนารีที่จะถูกใช้เพื่ออ่านค่า  <code>function</code> จะถูกเรียกด้วยค่าที่ถูกอ่าน และส่งกลับค่าที่ถูกแปลง
 

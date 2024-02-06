@@ -5,8 +5,6 @@ title: Smartsheet.Content
 # Smartsheet.Content
 
 
-## Description
-
 Returnerar en tabell med data från en Smartsheet-indexslutpunkt.
 
 
@@ -19,7 +17,7 @@ Smartsheet.Content(
 ```
 
 
-## Details
+## Remarks
 
 Anropar Smartsheet 2.0 REST-API:et vid den angivna slutpunkten och transformerar dataelementet till en tabell.
 

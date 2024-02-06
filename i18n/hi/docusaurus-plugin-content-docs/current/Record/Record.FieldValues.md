@@ -5,8 +5,6 @@ title: Record.FieldValues
 # Record.FieldValues
 
 
-## Description
-
 फ़ील्ड मान की सूची लौटाता है.
 
 
@@ -19,7 +17,7 @@ Record.FieldValues(
 ```
 
 
-## Details
+## Remarks
 
 रिकॉर्ड <code>record</code> के फ़ील्ड मान की सूची लौटाता है.
 

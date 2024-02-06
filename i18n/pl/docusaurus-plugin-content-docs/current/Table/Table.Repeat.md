@@ -5,8 +5,6 @@ title: Table.Repeat
 # Table.Repeat
 
 
-## Description
-
 Powtarza określoną liczbę razy wiersze tabel.
 
 
@@ -20,7 +18,7 @@ Table.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę, w której wiersze z tabeli wejściowej <code>table</code> zostały powtórzone określoną liczbę razy (<code>count</code>).
 

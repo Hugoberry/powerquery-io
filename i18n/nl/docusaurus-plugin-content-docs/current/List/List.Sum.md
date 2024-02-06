@@ -5,8 +5,6 @@ title: List.Sum
 # List.Sum
 
 
-## Description
-
 Retourneert de som van de items in de lijst.
 
 
@@ -20,7 +18,7 @@ List.Sum(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de som van de waarden in de lijst <code>list</code> die niet gelijk zijn aan nul.  Retourneert null als er in de lijst geen waarden staan die niet gelijk zijn aan nul.
 

@@ -5,8 +5,6 @@ title: Table.Column
 # Table.Column
 
 
-## Description
-
 Возвращает указанный столбец данных из таблицы в виде списка.
 
 
@@ -20,7 +18,7 @@ Table.Column(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает столбец данных, указанный с помощью <code>column</code>, из таблицы <code>table</code> в виде списка.
 

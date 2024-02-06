@@ -5,8 +5,6 @@ title: DateTimeZone.UtcNow
 # DateTimeZone.UtcNow
 
 
-## Description
-
 Возвращает текущую дату и время в формате UTC (часовой пояс GMT).
 
 
@@ -19,7 +17,7 @@ DateTimeZone.UtcNow(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает текущую дату и время в формате UTC (часовой пояс GMT).
 

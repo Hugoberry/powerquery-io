@@ -5,8 +5,6 @@ title: Table.NestedJoin
 # Table.NestedJoin
 
 
-## Description
-
 Tablolar arasında sağlanan sütunlar üzerinde birleştirme gerçekleştirir ve birleştirme sonucunu yeni bir sütunda oluşturur.
 
 
@@ -25,7 +23,7 @@ Table.NestedJoin(
 ```
 
 
-## Details
+## Remarks
 
 <code>key1</code> (<code>table1</code> için) ve <code>key2</code> (<code>table2</code> için) tarafından seçilen anahtar sütunu değerlerinin eşitliğine göre <code>table1</code> satırlarını <code>table2</code> satırlarıyla birleştirir. Sonuçlar <code>newColumnName</code> adlı sütuna girilir.<br />İsteğe bağlı <code>joinKind</code>, gerçekleştirilecek birleşimin türünü belirtir. <code>joinKind</code> belirtilmezse varsayılan olarak sol dış birleştirme işlemi gerçekleştirilir.<br />Anahtar sütunlarının nasıl karşılaştırılacağını belirtmek üzere isteğe bağlı bir <code>keyEqualityComparers</code> kümesi eklenebilir. Bu özellik, şu anda yalnızca şirket içinde kullanılabilir.<br />  
 

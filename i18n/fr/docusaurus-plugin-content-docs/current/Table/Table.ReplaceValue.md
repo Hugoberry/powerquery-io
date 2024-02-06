@@ -5,8 +5,6 @@ title: Table.ReplaceValue
 # Table.ReplaceValue
 
 
-## Description
-
 Remplace une valeur dans les colonnes spécifiées par une autre.
 
 
@@ -23,7 +21,7 @@ Table.ReplaceValue(
 ```
 
 
-## Details
+## Remarks
 
 Remplace <code>oldValue</code> par <code>newValue</code> dans les colonnes spécifiées de <code>table</code>.
 

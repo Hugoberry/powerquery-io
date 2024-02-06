@@ -5,8 +5,6 @@ title: Number.BitwiseXor
 # Number.BitwiseXor
 
 
-## Description
-
 2 つの入力間でビットごとの XOR (排他的 OR) 演算を行った結果を返します。
 
 
@@ -20,7 +18,7 @@ Number.BitwiseXor(
 ```
 
 
-## Details
+## Remarks
 
 <code>number1</code> と <code>number2</code> の間でビットごとの XOR (排他的 OR) 演算を行った結果を返します。
 

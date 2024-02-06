@@ -5,8 +5,6 @@ title: Table.PromoteHeaders
 # Table.PromoteHeaders
 
 
-## Description
-
 Zamienia pierwszy wiersz wartości w nowe nagłówki kolumn (nazwy kolumn).
 
 
@@ -20,7 +18,7 @@ Table.PromoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Zamienia pierwszy wiersz wartości w nowe nagłówki kolumn (nazwy kolumn). Domyślnie tylko tekst lub liczby są zamieniane w nagłówki. Prawidłowe opcje:    <div>      <code>PromoteAllScalars</code>: Ustawienie <code>true</code> powoduje, że wszystkie wartości skalarne w pierwszym wierszu są zamieniane w nagłówki zgodnie z parametrem <code>Culture</code>, jeśli jest określony (lub zgodnie z ustawieniami regionalnymi bieżącego dokumentu).    W przypadku wartości, których nie można przekonwertować na tekst, zostanie użyta domyślna nazwa kolumny.    </div>    <div>    <code>Culture</code>: Nazwa określająca kulturę danych.    </div>  
 

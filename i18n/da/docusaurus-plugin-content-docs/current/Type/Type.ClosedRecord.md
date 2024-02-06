@@ -5,8 +5,6 @@ title: Type.ClosedRecord
 # Type.ClosedRecord
 
 
-## Description
-
 Returnerer en lukket version af den angivne posttype (eller samme type, hvis den allerede er lukket).
 
 
@@ -19,7 +17,7 @@ Type.ClosedRecord(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en lukket version af den angivne <code>record</code> <code>type</code> (eller den samme type, hvis den allerede er lukket).
 

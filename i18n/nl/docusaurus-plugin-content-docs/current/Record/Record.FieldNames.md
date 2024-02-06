@@ -5,8 +5,6 @@ title: Record.FieldNames
 # Record.FieldNames
 
 
-## Description
-
 Retourneert de namen van de velden.
 
 
@@ -19,7 +17,7 @@ Record.FieldNames(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de namen van de velden in de record <code>record</code> als tekst.
 

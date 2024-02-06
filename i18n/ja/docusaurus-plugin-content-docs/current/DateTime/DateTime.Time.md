@@ -5,8 +5,6 @@ title: DateTime.Time
 # DateTime.Time
 
 
-## Description
-
 指定された datetime 値の時刻部分を返します。
 
 
@@ -19,7 +17,7 @@ DateTime.Time(
 ```
 
 
-## Details
+## Remarks
 
 指定された datetime 値 <code>dateTime</code> の時刻部分を返します。
 

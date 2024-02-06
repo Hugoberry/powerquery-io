@@ -5,8 +5,6 @@ title: Text.Trim
 # Text.Trim
 
 
-## Description
-
 移除所有開頭和尾端空白字元。
 
 
@@ -20,7 +18,7 @@ Text.Trim(
 ```
 
 
-## Details
+## Remarks
 
 傳回從文字值 <code>text</code> 中移除所有開頭和尾端空白字元的結果。
 

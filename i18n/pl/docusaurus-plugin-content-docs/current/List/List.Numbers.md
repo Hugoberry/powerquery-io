@@ -5,8 +5,6 @@ title: List.Numbers
 # List.Numbers
 
 
-## Description
-
 Zwraca listę liczb, używając wartości początkowej, liczności oraz opcjonalnej wartości przyrostu.
 
 
@@ -21,7 +19,7 @@ List.Numbers(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca listę liczb, używając wartości początkowej, liczności oraz opcjonalnej wartości przyrostu. Domyślna wartość przyrostu to 1.<ul>   <li><code>start</code>: Wartość początkowa listy.</li>   <li><code>count</code>: Liczba wartości do utworzenia.</li>   <li><code>increment</code>: <i>[Parametr opcjonalny]</i> Wartość przyrostu. Jeśli ten parametr zostanie pominięty, wartości będą zwiększane o 1.</li></ul>
 

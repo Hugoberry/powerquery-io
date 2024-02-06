@@ -5,8 +5,6 @@ title: Text.Lower
 # Text.Lower
 
 
-## Description
-
 Konverterar alla tecken till gemener.
 
 
@@ -20,7 +18,7 @@ Text.Lower(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar resultatet av att konvertera alla tecken i <code>text</code> till gemener. En valfri <code>culture</code> kan även anges (till exempel "en-US").
 

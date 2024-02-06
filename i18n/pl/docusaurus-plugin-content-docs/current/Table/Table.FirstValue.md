@@ -5,8 +5,6 @@ title: Table.FirstValue
 # Table.FirstValue
 
 
-## Description
-
 Zwraca pierwszą kolumnę pierwszego wiersza tabeli lub określoną wartość domyślną.
 
 
@@ -20,7 +18,7 @@ Table.FirstValue(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca pierwszą kolumnę pierwszego wiersza tabeli <code>table</code> lub określoną wartość domyślną.
 

@@ -5,8 +5,6 @@ title: ApacheSpark.Tables
 # ApacheSpark.Tables
 
 
-## Description
-
 Tabloları belirtilen Spark kümesinde listeleyen bir tablo döndürür.
 
 
@@ -21,7 +19,7 @@ ApacheSpark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 <code>Protokol</code> kullanarak, tabloları Spark küme <code>ana bilgisayarında</code> listeleyen bir tablo döndürür.  Geçerli protokoller şunlardır:SparkProtocol.Standard, SparkProtocol.HTTP
 

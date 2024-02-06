@@ -5,8 +5,6 @@ title: Type.ReplaceFacets
 # Type.ReplaceFacets
 
 
-## Description
-
 Zastępuje aspekty typu.
 
 
@@ -20,7 +18,7 @@ Type.ReplaceFacets(
 ```
 
 
-## Details
+## Remarks
 
 Zastępuje aspekty elementu <code>type</code> aspektami zawartymi w rekordzie <code>facets</code>.
 

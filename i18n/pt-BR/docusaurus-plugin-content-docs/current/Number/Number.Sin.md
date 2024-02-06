@@ -5,8 +5,6 @@ title: Number.Sin
 # Number.Sin
 
 
-## Description
-
 Retorna o seno do número.
 
 
@@ -19,7 +17,7 @@ Number.Sin(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o seno de <code>number</code>.
 

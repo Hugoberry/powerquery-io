@@ -5,8 +5,6 @@ title: Text.Range
 # Text.Range
 
 
-## Description
-
 Retourne une sous-chaîne trouvée au niveau du décalage.
 
 
@@ -21,7 +19,7 @@ Text.Range(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une sous-chaîne à partir du texte <code>text</code> trouvée au niveau du décalage <code>offset</code>.    Un paramètre facultatif, <code>count</code>, peut être inclus pour spécifier le nombre de caractères à retourner. Génère une erreur s'il n'y a pas suffisamment de caractères.
 

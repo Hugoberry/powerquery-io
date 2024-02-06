@@ -5,8 +5,6 @@ title: Binary.Length
 # Binary.Length
 
 
-## Description
-
 Retorna o número de caracteres.
 
 
@@ -19,7 +17,7 @@ Binary.Length(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o número de caracteres.
 

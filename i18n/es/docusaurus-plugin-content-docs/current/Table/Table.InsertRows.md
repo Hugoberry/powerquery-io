@@ -5,8 +5,6 @@ title: Table.InsertRows
 # Table.InsertRows
 
 
-## Description
-
 Inserta una lista de filas en la tabla en la posición especificada.
 
 
@@ -21,7 +19,7 @@ Table.InsertRows(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una tabla con la lista de filas, <code>rows</code>, insertadas en la <code>table</code> en la posición, <code>offset</code> dada. Cada columna de la fila para insertar coincide con los tipos de columna de la tabla.
 

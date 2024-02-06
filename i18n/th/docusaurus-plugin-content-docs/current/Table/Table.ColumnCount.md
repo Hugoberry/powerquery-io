@@ -5,8 +5,6 @@ title: Table.ColumnCount
 # Table.ColumnCount
 
 
-## Description
-
 ส่งกลับจำนวนของคอลัมน์ในตาราง
 
 
@@ -19,7 +17,7 @@ Table.ColumnCount(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับจำนวนของคอลัมน์ในตาราง <code>table</code>
 

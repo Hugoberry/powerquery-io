@@ -5,8 +5,6 @@ title: Geography.FromWellKnownText
 # Geography.FromWellKnownText
 
 
-## Description
-
 İyi Bilinen Metin (WKT) biçimindeki bir coğrafi değeri temsil eden metni yapılandırılmış bir kayda çevirir.
 
 
@@ -19,7 +17,7 @@ Geography.FromWellKnownText(
 ```
 
 
-## Details
+## Remarks
 
 İyi Bilinen Metin (WKT) biçimindeki bir coğrafi değeri temsil eden metni yapılandırılmış bir kayda çevirir. WKT, Open Geospatial Consortium (OGC) tarafından tanımlanan standart bir biçimdir ve SQL Server dahil olmak üzere veritabanları tarafından kullanılan tipik seri hale getirme biçimidir.
 

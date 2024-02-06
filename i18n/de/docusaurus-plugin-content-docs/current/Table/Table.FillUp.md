@@ -5,8 +5,6 @@ title: Table.FillUp
 # Table.FillUp
 
 
-## Description
-
 Gibt den Wert einer Zelle an die darüber liegenden Zellen mit NULL-Wert in der Spalte weiter.
 
 
@@ -20,7 +18,7 @@ Table.FillUp(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Tabelle auf der Grundlage des angegebenen Elements vom Typ '<code>table</code>' zurück, wobei der Wert der nächsten Zelle an die darüber liegenden Zellen mit NULL-Wert im angegebenen Element vom Typ '<code>columns</code>' weitergegeben wird.
 

@@ -5,8 +5,6 @@ title: Uri.Parts
 # Uri.Parts
 
 
-## Description
-
 Girdi tam URI&#39;sinin bölümlerini kayıt olarak döndürür.
 
 
@@ -19,7 +17,7 @@ Uri.Parts(
 ```
 
 
-## Details
+## Remarks
 
 <code>absoluteUri</code> girdisinin bölümlerini Scheme, Host, Port, Path, Query, Fragment, UserName ve Password gibi değerler içeren bir kayıt olarak döndürür.
 

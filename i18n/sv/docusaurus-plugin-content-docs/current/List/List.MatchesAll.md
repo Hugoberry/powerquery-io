@@ -5,8 +5,6 @@ title: List.MatchesAll
 # List.MatchesAll
 
 
-## Description
-
 Returnerar true om alla värden i listan uppfyller condition-funktionen.
 
 
@@ -20,7 +18,7 @@ List.MatchesAll(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar <code>true</code> om alla värden i listan <code>list</code> uppfyller condition-funktionen, <code>condition</code>. Annars returneras <code>false</code>.
 

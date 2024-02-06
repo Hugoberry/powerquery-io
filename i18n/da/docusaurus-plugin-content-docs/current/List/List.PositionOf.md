@@ -5,8 +5,6 @@ title: List.PositionOf
 # List.PositionOf
 
 
-## Description
-
 Returnerer forskydningen for en værdi på en liste.
 
 
@@ -22,7 +20,7 @@ List.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer den forskydning, hvor værdien <code>value</code> vises på listen <code>list</code>. Returnerer -1, hvis værdien ikke vises.    Du kan angive en valgfri forekomstparameter, <code>occurrence</code>.<ul>   <li><code>occurrence</code>: Det højeste antal forekomster, der kan rapporteres.</li></ul>
 

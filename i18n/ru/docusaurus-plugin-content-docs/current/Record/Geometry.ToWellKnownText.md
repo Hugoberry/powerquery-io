@@ -5,8 +5,6 @@ title: Geometry.ToWellKnownText
 # Geometry.ToWellKnownText
 
 
-## Description
-
 Преобразует значение структурированной геометрической точки в представление формата Well-Known Text (WKT).
 
 
@@ -20,7 +18,7 @@ Geometry.ToWellKnownText(
 ```
 
 
-## Details
+## Remarks
 
 Преобразует значение структурированной геометрической точки в представление формата Well-Known Text (WKT), определяемого организацией Open Geospatial Consortium (OGC), который используется для сериализации во многих базах данных, включая SQL Server.
 

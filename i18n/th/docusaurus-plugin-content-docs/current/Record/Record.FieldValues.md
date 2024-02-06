@@ -5,8 +5,6 @@ title: Record.FieldValues
 # Record.FieldValues
 
 
-## Description
-
 ส่งกลับรายการค่าเขตข้อมูล
 
 
@@ -19,7 +17,7 @@ Record.FieldValues(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับรายการค่าเขตข้อมูลในระเบียน <code>record</code>
 

@@ -5,8 +5,6 @@ title: Table.RemoveFirstN
 # Table.RemoveFirstN
 
 
-## Description
-
 Restituisce una tabella con le prime righe del conteggio ignorate.
 
 
@@ -20,7 +18,7 @@ Table.RemoveFirstN(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una tabella non contiene il primo numero specificato di righe <code>countOrCondition</code> della tabella <code>table</code>.    Il numero di righe rimosse dipende dal parametro facoltativo <code>countOrCondition</code>.    <ul>    <li> Se <code>countOrCondition</code> viene omesso, verrà rimossa solo la prima riga. </li>    <li> Se <code>countOrCondition</code> è un numero, verrà rimosso lo stesso numero di righe, a partire dall'alto. </li>    <li> Se <code>countOrCondition</code> è una condizione, verranno rimosse le righe che soddisfano la condizione finché non viene trovata una riga che non soddisfa la condizione.</li>    </ul>
 

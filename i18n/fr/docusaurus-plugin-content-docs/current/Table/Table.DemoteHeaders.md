@@ -5,8 +5,6 @@ title: Table.DemoteHeaders
 # Table.DemoteHeaders
 
 
-## Description
-
 Rétrograde les en-têtes des colonnes à la première ligne de valeurs.
 
 
@@ -19,7 +17,7 @@ Table.DemoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Rétrograde les en-têtes des colonnes (par exemple, les noms des colonnes) à la première ligne de valeurs. Les noms de colonne par défaut sont " Column1 ", " Column2 " et ainsi de suite.
 

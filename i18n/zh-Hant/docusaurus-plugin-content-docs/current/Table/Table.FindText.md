@@ -5,8 +5,6 @@ title: Table.FindText
 # Table.FindText
 
 
-## Description
-
 傳回資料表中包含指定文字的所有資料列。
 
 
@@ -20,7 +18,7 @@ Table.FindText(
 ```
 
 
-## Details
+## Remarks
 
 傳回資料表 <code>table</code> 中包含文字 <code>text</code> 的資料列。如果找不到文字，就會傳回空白資料表。
 

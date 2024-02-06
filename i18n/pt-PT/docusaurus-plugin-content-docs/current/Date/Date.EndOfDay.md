@@ -5,8 +5,6 @@ title: Date.EndOfDay
 # Date.EndOfDay
 
 
-## Description
-
 Devolve o fim do dia.
 
 
@@ -19,7 +17,7 @@ Date.EndOfDay(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o fim do dia representado por <code>dateTime</code>. As informações de fuso horário são preservadas.      <ul>        <li><code>dateTime</code>: um valor <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> a partir do qual o fim do dia é calculado.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Binary.Range
 # Binary.Range
 
 
-## Description
-
 İkili değerin bir uzaklıktan başlayan bir alt kümesini döndürür.
 
 
@@ -21,7 +19,7 @@ Binary.Range(
 ```
 
 
-## Details
+## Remarks
 
 <code>binary</code> uzaklığından başlayarak ikili değerin bir alt kümesini döndürür. <code>offset</code> isteğe bağlı parametresi, alt kümenin maksimum uzunluğunu belirler.
 

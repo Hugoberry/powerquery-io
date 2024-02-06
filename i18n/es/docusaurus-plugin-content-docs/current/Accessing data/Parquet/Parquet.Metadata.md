@@ -5,8 +5,6 @@ title: Parquet.Metadata
 # Parquet.Metadata
 
 
-## Description
-
 Esta función solo está diseñada para uso interno.
 
 
@@ -19,7 +17,7 @@ Parquet.Metadata(
 ```
 
 
-## Details
+## Remarks
 
 Esta función solo está diseñada para uso interno.
 

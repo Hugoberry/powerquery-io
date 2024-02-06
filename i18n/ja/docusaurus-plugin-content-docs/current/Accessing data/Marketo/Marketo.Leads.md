@@ -5,8 +5,6 @@ title: Marketo.Leads
 # Marketo.Leads
 
 
-## Description
-
 潜在顧客の詳細のテーブルを返します。
 
 
@@ -21,7 +19,7 @@ Marketo.Leads(
 ```
 
 
-## Details
+## Remarks
 
 <code>url</code>/rest/v1/leads.json の Marketo REST API エンドポイントに対する呼び出しを行います。<code>leadIds</code> のリストに含まれるすべての潜在顧客が返されます。
 

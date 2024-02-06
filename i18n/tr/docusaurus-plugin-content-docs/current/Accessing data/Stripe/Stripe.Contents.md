@@ -5,8 +5,6 @@ title: Stripe.Contents
 # Stripe.Contents
 
 
-## Description
-
 Yapılan API çağrılarını sınırlama seçeneğiyle birlikte Stripe API&#39;sine çağrıda bulunur.
 
 
@@ -21,7 +19,7 @@ Stripe.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Ek parametre olarak geçirilen isteğe bağlı <code>query</code> kaydı ve API istek sayısına ilişkin bir limit olarak belirlenen <code>pageLimit</code> ile birlikte https://api.stripe.com/v1/<code>method</code> üzerinde bulunan Stripe API'sine çağrıda bulunur. Önce en güncel veriler döndürülür. <code>pageLimit</code> belirtilmediyse tüm veriler döndürülür. 2015-10-16 Stripe Sürümü kullanılmaktadır.
 

@@ -5,8 +5,6 @@ title: List.NonNullCount
 # List.NonNullCount
 
 
-## Description
-
 Возвращает число элементов, отличных от NULL, в списке.
 
 
@@ -19,7 +17,7 @@ List.NonNullCount(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает число элементов, отличных от NULL, в списке <code>list</code>.
 

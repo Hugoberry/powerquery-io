@@ -5,8 +5,6 @@ title: List.Difference
 # List.Difference
 
 
-## Description
-
 Zwraca różnicę między dwiema danymi listami.
 
 
@@ -21,7 +19,7 @@ List.Difference(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca elementy z listy <code>list1</code>, które nie występują na liście <code>list2</code>. Obsługiwane są zduplikowane wartości.    W celu sterowania sprawdzaniem równości można określić opcjonalną wartość kryterium równości <code>equationCriteria</code>. 
 

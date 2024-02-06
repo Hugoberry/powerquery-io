@@ -5,8 +5,6 @@ title: Text.Start
 # Text.Start
 
 
-## Description
-
 Returnerer starten af teksten.
 
 
@@ -20,7 +18,7 @@ Text.Start(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer de første <code>count</code> tegn af <code>text</code> som en tekstværdi.
 

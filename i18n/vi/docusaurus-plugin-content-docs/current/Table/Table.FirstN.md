@@ -5,8 +5,6 @@ title: Table.FirstN
 # Table.FirstN
 
 
-## Description
-
 Trả về các hàng đếm đầu tiên được chỉ định.
 
 
@@ -20,7 +18,7 @@ Table.FirstN(
 ```
 
 
-## Details
+## Remarks
 
 Trả về (các) hàng đầu tiên của bảng <code>table</code>, tùy theo giá trị của <code>countOrCondition</code>:    <ul>    <li> Nếu <code>countOrCondition</code> là một số thì nhiều hàng (bắt đầu ở trên cùng) sẽ được trả về. </li>    <li> Nếu <code>countOrCondition</code> là một điều kiện thì các hàng đáp ứng điều kiện này sẽ được trả về cho đến khi một hàng không đáp ứng điều kiện.</li></ul>
 

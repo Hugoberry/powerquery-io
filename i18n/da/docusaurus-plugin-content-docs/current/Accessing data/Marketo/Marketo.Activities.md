@@ -5,8 +5,6 @@ title: Marketo.Activities
 # Marketo.Activities
 
 
-## Description
-
 Returnerer en tabel, der viser kundeemners aktiviteter.
 
 
@@ -21,7 +19,7 @@ Marketo.Activities(
 ```
 
 
-## Details
+## Remarks
 
 Foretager et kald til Marketo REST API-slutpunktet på <code>url</code>/rest/v1/activities.json. Alle aktiviteter på listen <code>activityIds</code>, der er sket siden den <code>startTime</code>, returneres.
 

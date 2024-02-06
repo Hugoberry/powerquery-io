@@ -5,8 +5,6 @@ title: Table.ExpandListColumn
 # Table.ExpandListColumn
 
 
-## Description
-
 Używając kolumny list w tabeli, tworzy kopię wiersza dla każdej wartości na liście.
 
 
@@ -20,7 +18,7 @@ Table.ExpandListColumn(
 ```
 
 
-## Details
+## Remarks
 
 Używając tabeli <code>table</code>, w której kolumna <code>column</code> to lista wartości, dzieli listę na wiersze odpowiadające każdej wartości. Wartości z innych kolumn są duplikowane w każdym nowo tworzonym wierszu.
 

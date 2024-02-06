@@ -5,8 +5,6 @@ title: DateTime.IsInNextNSeconds
 # DateTime.IsInNextNSeconds
 
 
-## Description
-
 Indique si cette valeur datetime se produit dans le nombre de secondes suivantes, par rapport à la date et l&#39;heure actuelles du système. Notez que cette fonction retourne la valeur false si la valeur transmise se produit dans la seconde actuelle.
 
 
@@ -20,7 +18,7 @@ DateTime.IsInNextNSeconds(
 ```
 
 
-## Details
+## Remarks
 
 Indique si la valeur datetime <code>dateTime</code> donnée se produit dans le nombre de secondes suivantes, par rapport à la date et l'heure actuelles du système. Notez que cette fonction retourne la valeur false si la valeur transmise se produit dans la seconde actuelle.      <ul>      <li><code>dateTime</code> : Valeur <code>datetime</code> ou <code>datetimezone</code> à évaluer.</li>      <li><code>seconds</code> : Nombre de secondes.</li>      </ul>
 

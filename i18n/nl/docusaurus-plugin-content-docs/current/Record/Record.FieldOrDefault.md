@@ -5,8 +5,6 @@ title: Record.FieldOrDefault
 # Record.FieldOrDefault
 
 
-## Description
-
 Retourneert de waarde van het opgegeven veld in een record of de standaardwaarde als het veld niet wordt gevonden.
 
 
@@ -21,7 +19,7 @@ Record.FieldOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de waarde uit het opgegeven veld <code>field</code> in de record <code>record</code>. Als het veld niet wordt gevonden, wordt de optionele <code>defaultValue</code> geretourneerd.
 

@@ -5,8 +5,6 @@ title: Web.BrowserContents
 # Web.BrowserContents
 
 
-## Description
-
 Gibt den HTML-Code für die angegebene URL, wie von einem Webbrowser angezeigt, zurück.
 
 
@@ -20,7 +18,7 @@ Web.BrowserContents(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den HTML-Code für die angegebene <code>url</code> zurück, wie von einem Webbrowser angezeigt. Ein optionaler Datensatzparameter, <code>options</code>, kann zur Angabe zusätzlicher Eigenschaften angegeben werden. Der Datensatz kann die folgenden Felder enthalten:     <ul>        <li><code>ApiKeyName</code>: Wenn die Zielwebsite über einen API-Schlüssel verfügt, kann dieser Parameter verwendet werden, um den Namen (nicht den Wert) des Schlüsselparameters anzugeben, der in der URL verwendet werden muss. Der tatsächliche Schlüsselwert wird in der Anmeldeinformation angegeben.</li>        <li><code>WaitFor</code>: Gibt eine Bedingung an, auf die vor dem Herunterladen des HTML-Codes gewartet werden soll, zusätzlich zum Warten auf das Laden der Seite (was immer geschieht). Kann ein Datensatz sein, der Timeout- und/oder Selektor-Felder enthält.  Wenn nur ein Timeout angegeben ist, wartet die Funktion die angegebene Zeitspanne ab, bevor der HTML-Code heruntergeladen wird. Wenn sowohl ein Selektor als auch ein Timeout angegeben wird und das Timeout abläuft, bevor der Selektor auf der Seite vorhanden ist, wird ein Fehler ausgelöst. Wenn Selektor ohne Timeout angegeben wird, wird ein Standardtimeout von 30 Sekunden angewendet.</li>      </ul>    
 

@@ -5,8 +5,6 @@ title: Table.RemoveMatchingRows
 # Table.RemoveMatchingRows
 
 
-## Description
-
 तालिका से निर्दिष्ट पंक्तियों की सभी आवृत्तियाँ निकालता है.
 
 
@@ -21,7 +19,7 @@ Table.RemoveMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> में से निर्दिष्ट <code>rows</code> की सभी आवृत्तियाँ निकालता है.    तालिका की पंक्तियों के बीच तुलना को नियंत्रित करने के लिए कोई वैकल्पिक पैरामीटर <code>equationCriteria</code> निर्दिष्ट किया जा सकता है.
 

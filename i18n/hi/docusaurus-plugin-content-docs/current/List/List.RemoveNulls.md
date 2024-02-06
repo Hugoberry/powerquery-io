@@ -5,8 +5,6 @@ title: List.RemoveNulls
 # List.RemoveNulls
 
 
-## Description
-
 निर्दिष्ट सूची से सभी &#34;null&#34; मान निकालता है.
 
 
@@ -19,7 +17,7 @@ List.RemoveNulls(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> में "null" मानों की सभी आवृत्तियाँ निकालता है. अगर सूची में कोई 'null' मान नहीं है, तो मूल सूची को लौटाया जाता है.
 

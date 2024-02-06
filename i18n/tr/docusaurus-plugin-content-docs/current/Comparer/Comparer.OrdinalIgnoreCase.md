@@ -5,8 +5,6 @@ title: Comparer.OrdinalIgnoreCase
 # Comparer.OrdinalIgnoreCase
 
 
-## Description
-
 Değerlerin karşılaştırılması için Sıralı kurallar kullanan büyük/küçük harf duyarsız bir karşılaştırma işlevi döndürür.
 
 
@@ -20,7 +18,7 @@ Comparer.OrdinalIgnoreCase(
 ```
 
 
-## Details
+## Remarks
 
 Sağlanan <code>x</code> ve <code>y</code> değerlerini karşılaştırmak için Sıralı kuralları kullanan, büyük/küçük harfe duyarsız karşılaştırıcı işlevi döndürür.<br />      <br />        Karşılaştırıcı işlevi iki bağımsız değişken kabul eder ve ilk değerin ikinci değerden küçük, ona eşit veya ikinciden büyük olup olmadığını temel alarak -1, 0 veya 1 döndürür.    
 

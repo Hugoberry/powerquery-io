@@ -5,8 +5,6 @@ title: Number.Combinations
 # Number.Combinations
 
 
-## Description
-
 一意の組み合わせの数を返します。
 
 
@@ -20,7 +18,7 @@ Number.Combinations(
 ```
 
 
-## Details
+## Remarks
 
 項目のリスト (<code>setSize</code>) から、指定された組み合わせのサイズ (<code>combinationSize</code>) で構成できる、一意の組み合わせの数を返します。<ul>    <li><code>setSize</code>: リストに含まれる項目の数。</li>    <li><code>combinationSize</code>: 各組み合わせに含まれる項目の数。</li></ul>
 

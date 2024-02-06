@@ -5,8 +5,6 @@ title: Splitter.SplitTextByRepeatedLengths
 # Splitter.SplitTextByRepeatedLengths
 
 
-## Description
-
 Bir metin listesine belirtilen uzunluktan sonra metin ayıran bir işlev döndürür.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByRepeatedLengths(
 ```
 
 
-## Details
+## Remarks
 
 Bir metin listesine belirtilen uzunluktan sonra metin ayıran bir işlev döndürür.
 

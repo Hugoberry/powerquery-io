@@ -5,8 +5,6 @@ title: Table.Column
 # Table.Column
 
 
-## Description
-
 Trả về một cột dữ liệu được chỉ định từ bảng đó ở dạng danh sách.
 
 
@@ -20,7 +18,7 @@ Table.Column(
 ```
 
 
-## Details
+## Remarks
 
 Trả về cột dữ liệu được chỉ định bởi <code>column</code> từ bảng <code>table</code> ở dạng danh sách.
 

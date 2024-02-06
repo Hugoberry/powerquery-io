@@ -5,8 +5,6 @@ title: Number.Sinh
 # Number.Sinh
 
 
-## Description
-
 Zwraca sinus hiperboliczny liczby.
 
 
@@ -19,7 +17,7 @@ Number.Sinh(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca sinus hiperboliczny liczby <code>number</code>.
 

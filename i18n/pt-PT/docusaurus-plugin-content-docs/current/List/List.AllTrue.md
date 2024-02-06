@@ -5,8 +5,6 @@ title: List.AllTrue
 # List.AllTrue
 
 
-## Description
-
 Devolve true se todas as expressões forem verdadeiras.
 
 
@@ -19,7 +17,7 @@ List.AllTrue(
 ```
 
 
-## Details
+## Remarks
 
 Devolve true se todas as expressões existentes na lista <code>list</code> forem verdadeiras.
 

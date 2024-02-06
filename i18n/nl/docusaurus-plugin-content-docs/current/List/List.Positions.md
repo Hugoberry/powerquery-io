@@ -5,8 +5,6 @@ title: List.Positions
 # List.Positions
 
 
-## Description
-
 Retourneert een lijst met verschuivingen voor de invoer.
 
 
@@ -19,7 +17,7 @@ List.Positions(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een lijst met offsets geretourneerd voor de invoerlijst <code>list</code>. Wanneer u List.Transform gebruikt voor het wijzigen van een lijst, kan de lijst met posities worden gebruikt om de transformatie toegang tot de positie te geven.
 

@@ -5,8 +5,6 @@ title: List.Single
 # List.Single
 
 
-## Description
-
 Restituisce un elemento per un elenco di lunghezza uno; in caso contrario genera un&#39;eccezione.
 
 
@@ -19,7 +17,7 @@ List.Single(
 ```
 
 
-## Details
+## Remarks
 
 Se è presente un solo elemento nell'elenco <code>list</code>, restituisce tale elemento.    Se è presente più di un elemento o se l'elenco è vuoto, la funzione genera un'eccezione.
 

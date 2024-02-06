@@ -5,8 +5,6 @@ title: Date.Month
 # Date.Month
 
 
-## Description
-
 Ay bileşenini döndürür.
 
 
@@ -19,7 +17,7 @@ Date.Month(
 ```
 
 
-## Details
+## Remarks
 
 Sağlanan <code>datetime</code> değeri olan <code>dateTime</code> değerinin ay bileşenini döndürür.
 

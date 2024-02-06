@@ -5,8 +5,6 @@ title: Uri.BuildQueryString
 # Uri.BuildQueryString
 
 
-## Description
-
 รวมข้อมูลบันทึกเข้าไว้ในสตริงแบบสอบถาม URI
 
 
@@ -19,7 +17,7 @@ Uri.BuildQueryString(
 ```
 
 
-## Details
+## Remarks
 
 รวมข้อมูลบันทึก <code>query</code> เข้าไว้ในสตริงแบบสอบถาม URI โดยจะต้องใช้ตัวอักขระพิเศษ
 

@@ -5,8 +5,6 @@ title: Table.FromList
 # Table.FromList
 
 
-## Description
-
 Convertit une liste en table en appliquant la fonction de fractionnement spécifiée à chaque élément de la liste.
 
 
@@ -23,7 +21,7 @@ Table.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Convertit une liste <code>list</code> en table en appliquant la fonction de fractionnement facultative <code>splitter</code> à chaque élément de la liste. Par défaut, la liste est supposée être une liste de valeurs de texte fractionnées par des virgules. Le <code>columns</code> facultatif peut être le nombre de colonnes, une liste de colonnes ou un TableType. Les paramètres facultatifs <code>default</code> et <code>extraValues</code> peuvent aussi être spécifiés.
 

@@ -5,8 +5,6 @@ title: List.Product
 # List.Product
 
 
-## Description
-
 Retourneert het product van de getallen in de lijst.
 
 
@@ -20,7 +18,7 @@ List.Product(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het product van de getallen in de lijst, <code>numbersList</code>, die niet gelijk zijn aan nul. Retourneert null als er in de lijst geen waarden staan die niet gelijk zijn aan nul.
 

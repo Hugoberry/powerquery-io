@@ -5,8 +5,6 @@ title: Number.Random
 # Number.Random
 
 
-## Description
-
 Devolve um número aleatório.
 
 
@@ -19,7 +17,7 @@ Number.Random(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um número aleatório entre 0 e 1.
 

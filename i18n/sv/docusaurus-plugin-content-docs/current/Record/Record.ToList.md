@@ -5,8 +5,6 @@ title: Record.ToList
 # Record.ToList
 
 
-## Description
-
 Returnerar en lista med värden som innehåller fältvärdena från indataposten.
 
 
@@ -19,7 +17,7 @@ Record.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en lista med värden som innehåller fältvärdena från indataposten <code>record</code>.
 

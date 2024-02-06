@@ -5,8 +5,6 @@ title: Text.InferNumberType
 # Text.InferNumberType
 
 
-## Description
-
 Udleder den granulerede nummertype (Int64.Type, Double.Type osv.) for et nummer, der er kodet i tekst.
 
 
@@ -20,7 +18,7 @@ Text.InferNumberType(
 ```
 
 
-## Details
+## Remarks
 
 Udleder den granulerede nummertype (Int64.Type, Double.Type osv.) for <code>text</code>. Der opstår en fejl, hvis <code>text</code> ikke er et tal. Der kan også angives en valgfri <code>culture</code> (f. eks. "en-US").
 

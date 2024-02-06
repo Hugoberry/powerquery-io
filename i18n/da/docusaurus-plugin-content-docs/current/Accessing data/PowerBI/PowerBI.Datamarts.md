@@ -5,8 +5,6 @@ title: PowerBI.Datamarts
 # PowerBI.Datamarts
 
 
-## Description
-
 Importerer data fra Datamarts
 
 
@@ -19,7 +17,7 @@ PowerBI.Datamarts(
 ```
 
 
-## Details
+## Remarks
 
 Importerer data fra Datamarts
 

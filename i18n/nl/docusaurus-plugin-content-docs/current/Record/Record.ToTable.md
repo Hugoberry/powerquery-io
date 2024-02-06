@@ -5,8 +5,6 @@ title: Record.ToTable
 # Record.ToTable
 
 
-## Description
-
 Retourneert een tabel waarin elke rij een veldnaam en een veldwaarde uit de invoerrecord is.
 
 
@@ -19,7 +17,7 @@ Record.ToTable(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een tabel met daarin de kolommen <code>Name</code> en <code>Value</code> met een rij voor elk veld in <code>record</code>.
 

@@ -5,8 +5,6 @@ title: Embedded.Value
 # Embedded.Value
 
 
-## Description
-
 Greift anhand des Namens auf einen Wert in einem eingebetteten Mashup zu.
 
 
@@ -20,7 +18,7 @@ Embedded.Value(
 ```
 
 
-## Details
+## Remarks
 
 Greift anhand des Namens auf einen Wert in einem eingebetteten Mashup zu.
 

@@ -5,8 +5,6 @@ title: List.PositionOfAny
 # List.PositionOfAny
 
 
-## Description
-
 सूची के मान का पहला ऑफ़सेट लौटाता है.
 
 
@@ -22,7 +20,7 @@ List.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 सूची <code>values</code> के मान की पहली आवृत्ति की सूची <code>list</code> का ऑफ़सेट लौटाता है. कोई आवृत्ति न मिलने पर -1 लौटाता है.    एक वैकल्पिक आवृत्ति पैरामीटर <code>occurrence</code> निर्दिष्ट किया जा सकता है.<ul>   <li><code>occurrence</code>: लौटाई जा सकने वाली आवृत्तियों की अधिकतम संख्या.</li></ul>
 

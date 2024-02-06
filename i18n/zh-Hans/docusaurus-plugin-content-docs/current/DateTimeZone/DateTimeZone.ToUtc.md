@@ -5,8 +5,6 @@ title: DateTimeZone.ToUtc
 # DateTimeZone.ToUtc
 
 
-## Description
-
 将时区部分转换为 UTC 时区。
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToUtc(
 ```
 
 
-## Details
+## Remarks
 
 将日期时间值 <code>dateTimeZone</code> 的时区信息更改为 UTC 或通用协调时间时区信息。    如果 <code>dateTimeZone</code> 不具有时区部分，则添加 UTC 时区信息。
 

@@ -5,8 +5,6 @@ title: DateTimeZone.FixedUtcNow
 # DateTimeZone.FixedUtcNow
 
 
-## Description
-
 Gibt das aktuelle Datum und die aktuelle Uhrzeit in koordinierter Weltzeit (GMT-Zeitzone) zurück. Dies ist ein fester Wert, der sich bei aufeinanderfolgenden Aufrufen nicht ändert.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.FixedUtcNow(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das aktuelle Datum und die aktuelle Uhrzeit in koordinierter Weltzeit (GMT-Zeitzone) zurück. Dies ist ein fester Wert, der sich bei aufeinanderfolgenden Aufrufen nicht ändert.
 

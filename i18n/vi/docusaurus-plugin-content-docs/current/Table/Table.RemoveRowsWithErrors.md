@@ -5,8 +5,6 @@ title: Table.RemoveRowsWithErrors
 # Table.RemoveRowsWithErrors
 
 
-## Description
-
 Trả về một bảng có các hàng bị lỗi ít nhất một ô bị loại bỏ khỏi bảng đầu vào. Nếu chỉ định danh sách cột thì chỉ các ô trong cột được chỉ định được kiểm tra lỗi.
 
 
@@ -20,7 +18,7 @@ Table.RemoveRowsWithErrors(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bảng có các hàng bị lỗi ít nhất một ô bị loại bỏ khỏi bảng đầu vào. Nếu chỉ định danh sách cột thì chỉ các ô trong cột được chỉ định được kiểm tra lỗi.
 

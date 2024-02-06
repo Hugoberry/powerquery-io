@@ -5,8 +5,6 @@ title: Table.IsEmpty
 # Table.IsEmpty
 
 
-## Description
-
 指出資料表是否包含任何資料列。
 
 
@@ -19,7 +17,7 @@ Table.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 指出 <code>table</code> 是否包含任何資料列。如果沒有任何資料列 (亦即資料表是空的)，則傳回 <code>true</code>， 否則傳回 <code>false</code>。
 

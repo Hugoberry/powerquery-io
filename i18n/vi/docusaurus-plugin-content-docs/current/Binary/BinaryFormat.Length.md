@@ -5,8 +5,6 @@ title: BinaryFormat.Length
 # BinaryFormat.Length
 
 
-## Description
-
 Trả về một định dạng nhị phân giới hạn số lượng dữ liệu có thể đọc.
 
 
@@ -20,7 +18,7 @@ BinaryFormat.Length(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một định dạng nhị phân giới hạn số lượng dữ liệu có thể đọc.  Cả <code>BinaryFormat.List</code> và <code>BinaryFormat.Binary</code> đều có thể dùng để đọc đến cuối dữ liệu.  <code>BinaryFormat.Length</code> có thể dùng để giới hạn số lượng byte được đọc.  Tham số <code>binaryFormat</code> chỉ định định dạng nhị phân để giới hạn.  Tham số <code>length</code> chỉ định số byte để đọc.  Tham số <code>length</code> có thể là một giá trị số hoặc một giá trị định dạng nhị phân chỉ định định dạng của giá trị độ dài xuất hiện và đứng trước giá trị được đọc.
 

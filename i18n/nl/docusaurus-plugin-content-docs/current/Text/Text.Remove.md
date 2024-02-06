@@ -5,8 +5,6 @@ title: Text.Remove
 # Text.Remove
 
 
-## Description
-
 Verwijdert alle instanties van het opgegeven teken of de opgeven lijst met tekens uit de invoertekstwaarde.
 
 
@@ -20,7 +18,7 @@ Text.Remove(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een kopie van de tekstwaarde <code>text</code> waarbij alle tekens vanaf <code>removeChars</code> worden verwijderd.  
 

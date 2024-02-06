@@ -5,8 +5,6 @@ title: DateTime.AddZone
 # DateTime.AddZone
 
 
-## Description
-
 Ajoute les informations de fuseau horaire pour la valeur Date/Heure.
 
 
@@ -21,7 +19,7 @@ DateTime.AddZone(
 ```
 
 
-## Details
+## Remarks
 
 Ajoute des informations de fuseau horaire à la valeur <code>dateTime</code>. Les informations de fuseau horaire incluent <code>timezoneHours</code> et éventuellement <code>timezoneMinutes</code>, qui spécifient le décalage souhaité par rapport à l’heure UTC.
 

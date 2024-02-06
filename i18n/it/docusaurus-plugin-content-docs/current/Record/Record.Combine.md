@@ -5,8 +5,6 @@ title: Record.Combine
 # Record.Combine
 
 
-## Description
-
 Combina i record nell&#39;elenco specificato.
 
 
@@ -19,7 +17,7 @@ Record.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Combina i record nell'elemento specificato <code>records</code>. Se <code>records</code> contiene valori non di record, viene restituito un errore.
 

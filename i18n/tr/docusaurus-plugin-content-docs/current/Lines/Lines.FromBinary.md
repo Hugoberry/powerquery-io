@@ -5,8 +5,6 @@ title: Lines.FromBinary
 # Lines.FromBinary
 
 
-## Description
-
 İkili bir değeri, satır sonlarında bölünen bir metin değerleri listesine dönüştürür. Alıntı stili belirtilirse alıntıların içinde satır sonları görünebilir. includeLineSeparators true ise satır sonu karakterleri metne dahil edilir.
 
 
@@ -22,7 +20,7 @@ Lines.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 İkili bir değeri, satır sonlarında bölünen bir metin değerleri listesine dönüştürür. Alıntı stili belirtilirse alıntıların içinde satır sonları görünebilir. includeLineSeparators true ise satır sonu karakterleri metne dahil edilir.
 

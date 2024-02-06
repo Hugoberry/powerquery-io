@@ -5,8 +5,6 @@ title: Table.SplitAt
 # Table.SplitAt
 
 
-## Description
-
 Retorna uma lista contendo as primeiras linhas de contagem especificadas e as linhas restantes.
 
 
@@ -20,7 +18,7 @@ Table.SplitAt(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma lista contendo duas tabelas: uma tabela com as primeiras N linhas de <code>table</code> (conforme especificado por <code>count</code>) e uma tabela contendo as linhas restantes de <code>table</code>.Se as tabelas da lista resultante forem enumeradas exatamente uma vez e na ordem, a função enumerará <code>table</code> apenas uma vez.
 

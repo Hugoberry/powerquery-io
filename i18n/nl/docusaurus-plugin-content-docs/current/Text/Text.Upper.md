@@ -5,8 +5,6 @@ title: Text.Upper
 # Text.Upper
 
 
-## Description
-
 Converteert alle tekens naar hoofdletters.
 
 
@@ -20,7 +18,7 @@ Text.Upper(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt het resultaat geretourneerd van de conversie van alle tekens in <code>text</code> naar hoofdletters. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
 

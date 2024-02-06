@@ -5,8 +5,6 @@ title: Text.Contains
 # Text.Contains
 
 
-## Description
-
 Returnerer, om teksten indeholder understrengen.
 
 
@@ -21,7 +19,7 @@ Text.Contains(
 ```
 
 
-## Details
+## Remarks
 
 Registrerer, om <code>text</code> indeholder værdien <code>substring</code>. Returnerer sand, hvis værdien findes. Denne funktion understøtter ikke jokertegn eller regulære udtryk.      <br />      <br />      Det valgfrie argument <code>comparer</code> kan bruges til at angive sammenligninger, hvor der ikke skelnes mellem store og små bogstaver, eller kulturelle- og landemæssige sammenligninger.      Følgende indbyggede sammenligningsfunktioner er tilgængelige på formelsproget:      <ul>        <li><code>Comparer.Ordinal</code>: Bruges til at foretage en sammenligning af ordenstal med forskel på store og små bogstaver</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: Bruges til at udføre en sammenligning af ordenstal, hvor der ikke skelnes mellem store og små bogstaver</li>        <li> <code>Comparer.FromCulture</code>: Bruges til at udføre en kulturafhængig sammenligning</li>      </ul>
 

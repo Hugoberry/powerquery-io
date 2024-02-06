@@ -5,8 +5,6 @@ title: Xml.Document
 # Xml.Document
 
 
-## Description
-
 XML belgesinin içeriğini hiyerarşi tablosu olarak döndürür.
 
 
@@ -20,7 +18,7 @@ Xml.Document(
 ```
 
 
-## Details
+## Remarks
 
 XML belgesinin içeriğini hiyerarşi tablosu olarak döndürür.
 

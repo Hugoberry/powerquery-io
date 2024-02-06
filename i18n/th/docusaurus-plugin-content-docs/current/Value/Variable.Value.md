@@ -5,8 +5,6 @@ title: Variable.Value
 # Variable.Value
 
 
-## Description
-
 ฟังก์ชันนี้มีไว้สําหรับการใช้งานภายในเท่านั้น
 
 
@@ -19,7 +17,7 @@ Variable.Value(
 ```
 
 
-## Details
+## Remarks
 
 ฟังก์ชันนี้มีไว้สําหรับการใช้งานภายในเท่านั้น
 

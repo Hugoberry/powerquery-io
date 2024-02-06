@@ -5,8 +5,6 @@ title: Type.Facets
 # Type.Facets
 
 
-## Description
-
 किसी प्रकार के फ़ैसिट लौटाता है.
 
 
@@ -19,7 +17,7 @@ Type.Facets(
 ```
 
 
-## Details
+## Remarks
 
 <code>type</code> के फ़ैसिट वाला रिकॉर्ड लौटाता है.
 

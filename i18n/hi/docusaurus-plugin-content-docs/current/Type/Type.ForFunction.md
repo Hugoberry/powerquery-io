@@ -5,8 +5,6 @@ title: Type.ForFunction
 # Type.ForFunction
 
 
-## Description
-
 उस प्रकार को लौटाता है जो विशिष्ट पैरामीटर और वापसी प्रकार प्रतिबंध वाले फ़ंक्शन का प्रतिनिधित्व करता है.
 
 
@@ -20,7 +18,7 @@ Type.ForFunction(
 ```
 
 
-## Details
+## Remarks
 
 <code>signature</code> से <code>फ़ंक्‍शन प्रकार</code>, <code>ReturnType</code> और <code>पैरामीटर</code> का रिकॉर्ड, और <code>min</code>, फ़ंक्‍शन को इनवोक करने के लिए आवश्‍यक तर्कों की न्‍यूनतम संख्‍या बनाता है.
 

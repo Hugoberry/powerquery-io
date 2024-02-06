@@ -5,8 +5,6 @@ title: Date.ToRecord
 # Date.ToRecord
 
 
-## Description
-
 返回包含日期值的各个部分的记录。
 
 
@@ -19,7 +17,7 @@ Date.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 返回包含给定日期值 <code>date</code> 的各个部分的记录。 <ul>        <li><code>date</code>: 要从中计算其各个部分的记录的 <code>date</code> 值。</li>      </ul>
 

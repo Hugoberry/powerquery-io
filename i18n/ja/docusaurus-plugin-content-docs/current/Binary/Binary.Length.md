@@ -5,8 +5,6 @@ title: Binary.Length
 # Binary.Length
 
 
-## Description
-
 文字の数を返します。
 
 
@@ -19,7 +17,7 @@ Binary.Length(
 ```
 
 
-## Details
+## Remarks
 
 文字の数を返します。
 

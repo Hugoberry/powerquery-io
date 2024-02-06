@@ -5,8 +5,6 @@ title: DynamicsNav.Contents
 # DynamicsNav.Contents
 
 
-## Description
-
 Dynamics NAV OData サービス エンドポイントの URL を入力します。
 
 
@@ -20,7 +18,7 @@ DynamicsNav.Contents(
 ```
 
 
-## Details
+## Remarks
 
 関連する Dynamics NAV データの入ったテーブルを返します。
 

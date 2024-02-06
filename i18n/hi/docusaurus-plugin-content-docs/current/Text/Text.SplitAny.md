@@ -5,8 +5,6 @@ title: Text.SplitAny
 # Text.SplitAny
 
 
-## Description
-
 डिलिमिटर में किसी भी वर्ण पर विभाजित पाठ मानों की सूची लौटाता है.
 
 
@@ -20,7 +18,7 @@ Text.SplitAny(
 ```
 
 
-## Details
+## Remarks
 
 निर्दिष्ट डिलिमिटर <code>separators</code> में किसी भी वर्ण के आधार पर पाठ मान <code>text</code> के विभाजित होने के परिणामस्वरूप प्राप्त होने वाले पाठ मानों की सूची लौटाता है.
 

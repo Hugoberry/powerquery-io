@@ -5,8 +5,6 @@ title: Text.Length
 # Text.Length
 
 
-## Description
-
 返回字符数。
 
 
@@ -19,7 +17,7 @@ Text.Length(
 ```
 
 
-## Details
+## Remarks
 
 返回文本 <code>text</code> 中的字符数。
 

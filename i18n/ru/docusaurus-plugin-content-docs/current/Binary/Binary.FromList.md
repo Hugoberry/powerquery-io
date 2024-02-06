@@ -5,8 +5,6 @@ title: Binary.FromList
 # Binary.FromList
 
 
-## Description
-
 Преобразует список чисел в двоичное значение.
 
 
@@ -19,7 +17,7 @@ Binary.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Преобразует список чисел в двоичное значение.
 

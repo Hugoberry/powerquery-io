@@ -5,8 +5,6 @@ title: VSTS.AnalyticsViews
 # VSTS.AnalyticsViews
 
 
-## Description
-
 输入组织和项目名称。
 
 
@@ -21,7 +19,7 @@ VSTS.AnalyticsViews(
 ```
 
 
-## Details
+## Remarks
 
 返回包含 Azure DevOps 提供的“分析”视图的表。
 

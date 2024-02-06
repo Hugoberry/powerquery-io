@@ -5,8 +5,6 @@ title: List.Intersect
 # List.Intersect
 
 
-## Description
-
 Gibt die Schnittmenge der Listenwerte aus der Eingabe zurück.
 
 
@@ -20,7 +18,7 @@ List.Intersect(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die Schnittmenge der Listenwerte aus der Eingabeliste <code>lists</code> zurück. Ein optionaler Parameter (<code>equationCriteria</code>) kann angegeben werden.
 

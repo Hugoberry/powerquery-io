@@ -5,8 +5,6 @@ title: Table.SplitColumn
 # Table.SplitColumn
 
 
-## Description
-
 Divide las columnas especificadas en un conjunto de columnas adicionales con la función de separación especificada.
 
 
@@ -24,7 +22,7 @@ Table.SplitColumn(
 ```
 
 
-## Details
+## Remarks
 
 Divide las columnas especificadas en un conjunto de columnas adicionales con la función de separación especificada.
 

@@ -5,8 +5,6 @@ title: BinaryFormat.SignedInteger16
 # BinaryFormat.SignedInteger16
 
 
-## Description
-
 16 ビット符号付き整数を読み取るバイナリ形式です。
 
 
@@ -19,7 +17,7 @@ BinaryFormat.SignedInteger16(
 ```
 
 
-## Details
+## Remarks
 
 16 ビット符号付き整数を読み取るバイナリ形式です。
 

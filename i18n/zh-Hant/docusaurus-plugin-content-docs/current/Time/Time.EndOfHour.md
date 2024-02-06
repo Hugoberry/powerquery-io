@@ -5,8 +5,6 @@ title: Time.EndOfHour
 # Time.EndOfHour
 
 
-## Description
-
 傳回小時的結束時間。
 
 
@@ -19,7 +17,7 @@ Time.EndOfHour(
 ```
 
 
-## Details
+## Remarks
 
 傳回以 <code>dateTime</code> 代表的小時結束時間，包括小數秒數。時區資訊會保留。      <ul>        <li><code>dateTime</code>: 要計算小時結束時間的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值。</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Webtrends.Tables
 # Webtrends.Tables
 
 
-## Description
-
 Введите идентификатор профиля, связанный с вашей учетной записью Webtrends.
 
 
@@ -21,7 +19,7 @@ Webtrends.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу с актуальными данными Webtrends.
 

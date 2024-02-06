@@ -5,8 +5,6 @@ title: Time.StartOfHour
 # Time.StartOfHour
 
 
-## Description
-
 Возвращает начало часа.
 
 
@@ -19,7 +17,7 @@ Time.StartOfHour(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает начало часа, который представлен с использованием <code>dateTime</code>.    <code>dateTime</code> должно быть значением <code>time</code>, <code>datetime</code> или <code>datetimezone</code>.
 

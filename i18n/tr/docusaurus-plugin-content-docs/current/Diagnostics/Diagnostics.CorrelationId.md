@@ -5,8 +5,6 @@ title: Diagnostics.CorrelationId
 # Diagnostics.CorrelationId
 
 
-## Description
-
 Gelen istekleri giden isteklerle ilişkilendirmek için genel olmayan bir tanımlayıcı döndürür.
 
 
@@ -19,7 +17,7 @@ Diagnostics.CorrelationId(
 ```
 
 
-## Details
+## Remarks
 
 Gelen istekleri giden isteklerle ilişkilendirmek için genel olmayan bir tanımlayıcı döndürür.
 

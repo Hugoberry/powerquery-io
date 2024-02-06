@@ -5,8 +5,6 @@ title: Expression.Evaluate
 # Expression.Evaluate
 
 
-## Description
-
 Hiermee wordt het resultaat van de evaluatie van een M-expressie geretourneerd.
 
 
@@ -20,7 +18,7 @@ Expression.Evaluate(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt het resultaat geretourneerd van de evaluatie van de M-expressie <code>document</code> met de beschikbare id's waarnaar kan worden verwezen, gedefinieerd door <code>environment</code>.
 

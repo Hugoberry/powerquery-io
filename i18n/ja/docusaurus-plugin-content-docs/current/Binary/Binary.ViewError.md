@@ -5,8 +5,6 @@ title: Binary.ViewError
 # Binary.ViewError
 
 
-## Description
-
 ビュー (Binary.View を使用) で定義されたハンドラーからスローされた場合にフォールバックをトリガーしない、変更されたエラー レコードを作成します。
 
 
@@ -19,7 +17,7 @@ Binary.ViewError(
 ```
 
 
-## Details
+## Remarks
 
 ビュー (Binary.View を使用) で定義されたハンドラーからスローされた場合にフォールバックをトリガーしない、変更されたエラー レコードを <code>errorRecord</code> から作成します。
 

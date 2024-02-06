@@ -5,8 +5,6 @@ title: DateTime.IsInNextHour
 # DateTime.IsInNextHour
 
 
-## Description
-
 Indikerar om denna datetime infaller under nästa timme enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar falskt om den skickas ett värde som infaller inom den aktuella timmen.
 
 
@@ -19,7 +17,7 @@ DateTime.IsInNextHour(
 ```
 
 
-## Details
+## Remarks
 
 Indikerar om det angivna datetime-värde <code>dateTime</code> infaller under nästa timme enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar false när den skickas ett värde som infaller den aktuella timmen.      <ul>      <li><code>dateTime</code>: Ett <code>datetime</code>- eller <code>datetimezone</code>-värde som ska utvärderas.</li>      </ul>
 

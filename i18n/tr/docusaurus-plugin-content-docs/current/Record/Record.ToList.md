@@ -5,8 +5,6 @@ title: Record.ToList
 # Record.ToList
 
 
-## Description
-
 Girdi kaydının alan değerlerini içeren bir değer listesi döndürür.
 
 
@@ -19,7 +17,7 @@ Record.ToList(
 ```
 
 
-## Details
+## Remarks
 
 <code>record</code> girdisinden alan değerlerini içeren bir değer listesi döndürür.
 

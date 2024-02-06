@@ -5,8 +5,6 @@ title: Combiner.CombineTextByRanges
 # Combiner.CombineTextByRanges
 
 
-## Description
-
 Returnerar en funktion som kombinerar en lista med text med de angivna positionerna och längderna.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en funktion som kombinerar en lista med textvärden till ett enda textvärde med de angivna utdatapositionerna och längderna. En null-längd anger att hela textvärdet ska inkluderas.
 

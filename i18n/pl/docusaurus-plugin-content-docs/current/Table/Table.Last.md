@@ -5,8 +5,6 @@ title: Table.Last
 # Table.Last
 
 
-## Description
-
 Zwraca ostatni wiersz lub określoną wartość domyślną.
 
 
@@ -20,7 +18,7 @@ Table.Last(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca ostatni wiersz z tabeli <code>table</code> lub opcjonalną wartość domyślną <code>default</code>, gdy tabela jest pusta.
 

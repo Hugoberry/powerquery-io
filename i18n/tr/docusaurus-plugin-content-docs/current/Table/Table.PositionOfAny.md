@@ -5,8 +5,6 @@ title: Table.PositionOfAny
 # Table.PositionOfAny
 
 
-## Description
-
 Tablodaki belirtilen satırlardan herhangi birinin konum veya konumlarını döndürür.
 
 
@@ -22,7 +20,7 @@ Table.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 <code>rows</code> listesinin ilk oluşumuna ait <code>table</code> öğesinden satır konumlarını döndürür. Hiçbir oluşum bulunmadıysa -1 döndürülür.    <ul>    <li><code>table</code>: Girdi tablosu.</li>       <li><code>rows</code>:  Tabloda konumların bulunacağı satır listesi.</li>       <li><code>occurrence</code>: <i>[Optional]</i> Satırın hangi oluşumlarının döndürüleceğini belirtir.</li>       <li><code>equationCriteria</code>: <i>[Optional]</i> Tablo satırları arasındaki karşılaştırmayı denetler.</li>    </ul>    
 

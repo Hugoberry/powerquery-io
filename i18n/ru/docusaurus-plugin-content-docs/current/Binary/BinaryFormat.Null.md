@@ -5,8 +5,6 @@ title: BinaryFormat.Null
 # BinaryFormat.Null
 
 
-## Description
-
 Двоичный формат, который считывает нуль байт и возвращает NULL.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Null(
 ```
 
 
-## Details
+## Remarks
 
 Двоичный формат, который считывает нуль байт и возвращает NULL.
 

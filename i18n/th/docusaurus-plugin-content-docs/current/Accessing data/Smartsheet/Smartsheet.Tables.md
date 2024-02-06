@@ -5,8 +5,6 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-## Description
-
 ส่งกลับตารางของแผ่นงาน, รายงาน, โฟลเดอร์ และพื้นที่ทำงานจาก API ของ Smartsheet
 
 
@@ -19,7 +17,7 @@ Smartsheet.Tables(
 ```
 
 
-## Details
+## Remarks
 
 นำกลับการซ้อนตารางของชีท, รายงาน แฟ้ม และพื้นที่ทำงานที่ยังว่างอยู่จาก API ของ Smartsheet
 

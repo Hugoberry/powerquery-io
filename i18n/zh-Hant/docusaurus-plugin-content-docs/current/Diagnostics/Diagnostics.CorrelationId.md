@@ -5,8 +5,6 @@ title: Diagnostics.CorrelationId
 # Diagnostics.CorrelationId
 
 
-## Description
-
 傳回不透明識別碼，以將傳入要求與傳出的要求相互關聯。
 
 
@@ -19,7 +17,7 @@ Diagnostics.CorrelationId(
 ```
 
 
-## Details
+## Remarks
 
 傳回不透明識別碼，以將傳入要求與傳出的要求相互關聯。
 

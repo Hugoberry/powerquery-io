@@ -5,8 +5,6 @@ title: Splitter.SplitTextByAnyDelimiter
 # Splitter.SplitTextByAnyDelimiter
 
 
-## Description
-
 Devolve uma função que divide texto numa lista de texto em qualquer um dos delimitadores especificados.
 
 
@@ -21,7 +19,7 @@ Splitter.SplitTextByAnyDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma função que divide texto numa lista de texto em qualquer um dos delimitadores especificados.
 

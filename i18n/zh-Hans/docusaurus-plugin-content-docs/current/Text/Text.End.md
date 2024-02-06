@@ -5,8 +5,6 @@ title: Text.End
 # Text.End
 
 
-## Description
-
 返回文本的后几个字符。
 
 
@@ -20,7 +18,7 @@ Text.End(
 ```
 
 
-## Details
+## Remarks
 
 返回一个 <code>text</code> 值，该值是 <code>text</code> 值 <code>text</code> 的后 <code>count</code> 个字符。
 

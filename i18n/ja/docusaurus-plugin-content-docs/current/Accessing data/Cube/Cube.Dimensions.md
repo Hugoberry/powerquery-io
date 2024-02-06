@@ -5,8 +5,6 @@ title: Cube.Dimensions
 # Cube.Dimensions
 
 
-## Description
-
 使用できるディメンションのセットを含むテーブルを返します。
 
 
@@ -19,7 +17,7 @@ Cube.Dimensions(
 ```
 
 
-## Details
+## Remarks
 
 <code>cube</code> 内の使用できるディメンションのセットを含むテーブルを返します。各ディメンションはディメンション属性のセットを含むテーブルであり、それぞれのディメンション属性がディメンション テーブルの列として表されます。ディメンションは、Cube.AddAndExpandDimensionColumn を使用してキューブ内で展開できます。
 

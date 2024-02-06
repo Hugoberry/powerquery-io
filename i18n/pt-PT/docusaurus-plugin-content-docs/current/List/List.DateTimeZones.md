@@ -5,8 +5,6 @@ title: List.DateTimeZones
 # List.DateTimeZones
 
 
-## Description
-
 Gera uma lista de valores datetimezone a partir de um valor inicial, uma contagem e um valor de duração incremental.
 
 
@@ -21,7 +19,7 @@ List.DateTimeZones(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma lista de valores <code>datetimezone</code> com o tamanho <code>count</code>, começando em <code>start</code>. O incremento especificado, <code>step</code>, é um valor <code>duration</code> que é adicionado a cada valor.
 

@@ -5,8 +5,6 @@ title: List.IsEmpty
 # List.IsEmpty
 
 
-## Description
-
 Restituisce true se l&#39;elenco è vuoto.
 
 
@@ -19,7 +17,7 @@ List.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce <code>true</code> se l'elenco <code>list</code> non contiene valori (lunghezza 0). Restituisce <code>false</code> se l'elenco contiene valori (lunghezza > 0).
 

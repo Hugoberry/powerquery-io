@@ -5,8 +5,6 @@ title: Table.HasColumns
 # Table.HasColumns
 
 
-## Description
-
 指出資料表是否包含指定的資料行。
 
 
@@ -20,7 +18,7 @@ Table.HasColumns(
 ```
 
 
-## Details
+## Remarks
 
 指出 <code>table</code> 是否包含指定的資料行 <code>columns</code>。如果資料表包含資料行，則傳回 <code>true</code>，否則傳回 <code>false</code>。
 

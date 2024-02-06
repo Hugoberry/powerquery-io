@@ -5,8 +5,6 @@ title: Value.RemoveMetadata
 # Value.RemoveMetadata
 
 
-## Description
-
 Loại bỏ đầu vào của siêu dữ liệu.
 
 
@@ -20,7 +18,7 @@ Value.RemoveMetadata(
 ```
 
 
-## Details
+## Remarks
 
 Loại bỏ đầu vào của siêu dữ liệu.
 

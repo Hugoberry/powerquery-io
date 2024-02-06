@@ -5,8 +5,6 @@ title: List.ReplaceMatchingItems
 # List.ReplaceMatchingItems
 
 
-## Description
-
 นำการแทนที่แต่ละรายการของ \{ old, new } ไปใช้
 
 
@@ -21,7 +19,7 @@ List.ReplaceMatchingItems(
 ```
 
 
-## Details
+## Remarks
 
 ดำเนินการแทนที่ที่กำหนดให้ไปยังรายการ <code>list</code> การดำเนินการแทนที่ <code>replacements</code> ประกอบด้วยรายการที่มีสองค่า ได้แก่ค่าเดิมและค่าใหม่ ที่ระบุไว้ในรายการ    โดยสามารถระบุค่าเกณฑ์สมการที่เลือกได้ <code>equationCriteria</code> เพื่อควบคุมการทดสอบความเท่ากัน
 

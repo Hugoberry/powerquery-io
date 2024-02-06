@@ -5,8 +5,6 @@ title: BinaryFormat.Text
 # BinaryFormat.Text
 
 
-## Description
-
 Retourneert een binaire indeling die een tekstwaarde leest.
 
 
@@ -20,7 +18,7 @@ BinaryFormat.Text(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een binaire indeling die een tekstwaarde leest.  <code>length</code> geeft het aantal bytes aan dat moet worden gedecodeerd of de binaire indeling van de lengte die voorafgaat aan de tekst.  De optionele waarde <code>encoding</code> specificeert de codering van de tekst.  Als de waarde <code>encoding</code> niet is opgegeven, wordt de codering bepaald op basis van de byte-volgordemarkeringen voor Unicode.  Als er geen byte-volgordemarkeringen aanwezig zijn, wordt <code>TextEncoding.Utf8</code> gebruikt.
 

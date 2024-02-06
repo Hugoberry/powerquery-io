@@ -5,8 +5,6 @@ title: List.FirstN
 # List.FirstN
 
 
-## Description
-
 Zwraca pierwszy zestaw elementów z listy, określając, ile elementów ma zostać zwróconych, lub warunek kwalifikacji.
 
 
@@ -20,7 +18,7 @@ List.FirstN(
 ```
 
 
-## Details
+## Remarks
 
  <ul>  <li>Jeśli jest określona liczba, zostanie zwróconych maksymalnie tyle elementów, ile wynosi ta liczba. </li>  <li>Jeśli jest określony warunek, zostaną zwrócone wszystkie elementy, które początkowo spełniały warunek. Gdy zostanie znaleziony element, który nie spełnia warunku, nie będą analizowane dalsze elementy. </li> </ul>
 

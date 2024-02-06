@@ -5,8 +5,6 @@ title: BinaryFormat.Length
 # BinaryFormat.Length
 
 
-## Description
-
 ส่งกลับรูปแบบไบนารีที่จำกัดจำนวนข้อมูลที่สามารถอ่านได้
 
 
@@ -20,7 +18,7 @@ BinaryFormat.Length(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับรูปแบบไบนารีที่จํากัดจํานวนข้อมูลที่สามารถอ่านได้ ทั้ง <code>BinaryFormat.List</code> และ <code>BinaryFormat.Binary</code> สามารถใช้เพื่ออ่านได้จนกว่าจะสิ้นสุดข้อมูล <code>BinaryFormat.Length</code> สามารถใช้เพื่อจํากัดจํานวนไบต์ที่อ่านได้ พารามิเตอร์ <code>binaryFormat</code> ระบุรูปแบบไบนารีที่จะจํากัด พารามิเตอร์ <code>length</code> ระบุจํานวนไบต์ที่จะอ่าน พารามิเตอร์ <code>length</code> อาจเป็นค่าตัวเลข หรือค่ารูปแบบไบนารีที่ระบุรูปแบบของค่าความยาวที่ปรากฏอยู่ก่อนหน้าค่าที่กําลังอ่าน
 

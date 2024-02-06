@@ -5,8 +5,6 @@ title: Table.TransformColumnTypes
 # Table.TransformColumnTypes
 
 
-## Description
-
 Áp dụng (các) chuyển đổi loại có dạng \{ column, type } bằng cách thức cụ thể.
 
 
@@ -21,7 +19,7 @@ Table.TransformColumnTypes(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bảng từ đầu vào <code>table</code> bằng cách áp dụng tác vụ chuyển đổi cho các cột được chỉ định trong tham số <code>typeTransformations</code> (trong đó định dạng là \{ column name, type name}), bằng cách sử dụng cách thức được chỉ định trong tham số <code>culture</code> (ví dụ: "en-US").    Nếu cột này không tồn tại thì xảy ra trường hợp ngoại lệ.
 

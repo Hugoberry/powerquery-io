@@ -5,8 +5,6 @@ title: Text.Insert
 # Text.Insert
 
 
-## Description
-
 将一个文本值插入到另一个文本值的给定位置。
 
 
@@ -21,7 +19,7 @@ Text.Insert(
 ```
 
 
-## Details
+## Remarks
 
 返回将文本值 <code>newText</code> 插入到文本值 <code>text</code> 中的位置 <code>offset</code> 的结果。位置从数字 0 开始。
 

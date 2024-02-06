@@ -5,8 +5,6 @@ title: Table.RemoveRows
 # Table.RemoveRows
 
 
-## Description
-
 पंक्तियों की निर्दिष्ट संख्या निकालता है.
 
 
@@ -21,7 +19,7 @@ Table.RemoveRows(
 ```
 
 
-## Details
+## Remarks
 
 निर्दिष्ट <code>offset</code> पर प्रारंभ होने वाले <code>table</code> के प्रारंभ से पंक्तियों के <code>count</code> निकालता है. यदि <code>count</code> पैरामीटर प्रदान नहीं किया गया होता है, तो 1 की डिफ़ॉल्ट गणना का उपयोग किया जाता है. 
 

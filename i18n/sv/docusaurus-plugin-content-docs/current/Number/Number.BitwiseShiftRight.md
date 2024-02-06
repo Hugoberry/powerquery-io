@@ -5,8 +5,6 @@ title: Number.BitwiseShiftRight
 # Number.BitwiseShiftRight
 
 
-## Description
-
 Skiftar bitarna till höger.
 
 
@@ -20,7 +18,7 @@ Number.BitwiseShiftRight(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar resultatet från ett bitvis skifte till höger för <code>number1</code> med angivet antal bitar, <code>number2</code>.
 

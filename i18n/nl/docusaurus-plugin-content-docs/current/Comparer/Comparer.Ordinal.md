@@ -5,8 +5,6 @@ title: Comparer.Ordinal
 # Comparer.Ordinal
 
 
-## Description
-
 Retourneert een vergelijkingsfunctie waarbij rangtelwoordregels worden gebruikt om waarden te vergelijken.
 
 
@@ -20,7 +18,7 @@ Comparer.Ordinal(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een vergelijkingsfunctie geretourneerd die rangtelwoordregels gebruikt om de opgegeven waarden <code>x</code> en <code>y</code> te vergelijken.<br />      <br />       Een vergelijkingsfunctie accepteert twee argumenten en retourneert -1, 0 of 1 op basis van of de eerste waarde kleiner dan, gelijk aan of groter is dan de tweede.    
 

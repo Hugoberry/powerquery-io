@@ -5,8 +5,6 @@ title: BinaryFormat.Binary
 # BinaryFormat.Binary
 
 
-## Description
-
 Zwraca format binarny odczytujący wartość binarną.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Binary(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca format binarny odczytujący wartość binarną.  W przypadku określenia parametru <code>length</code> wartość binarna będzie zawierać liczbę bajtów równą wartości tego parametru.  W przypadku nieokreślenia parametru <code>length</code> wartość binarna będzie zawierać pozostałe bajty.  Parametr <code>length</code> można określić jako liczbę lub format binarny długości poprzedzający dane binarne.
 

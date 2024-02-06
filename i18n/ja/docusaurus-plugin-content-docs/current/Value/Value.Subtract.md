@@ -5,8 +5,6 @@ title: Value.Subtract
 # Value.Subtract
 
 
-## Description
-
 2 つの値の差を返します。
 
 
@@ -21,7 +19,7 @@ Value.Subtract(
 ```
 
 
-## Details
+## Remarks
 
 <code>value1</code> と <code>value2</code> の差を返します。省略可能な <code>precision</code> パラメーターを指定できます。既定では <code>Precision.Double</code> が使用されます。
 

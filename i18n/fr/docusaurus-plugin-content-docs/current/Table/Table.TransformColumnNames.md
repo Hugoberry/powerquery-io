@@ -5,8 +5,6 @@ title: Table.TransformColumnNames
 # Table.TransformColumnNames
 
 
-## Description
-
 Transforme les noms de colonnes en utilisant la fonction spécifiée.
 
 
@@ -21,7 +19,7 @@ Table.TransformColumnNames(
 ```
 
 
-## Details
+## Remarks
 
 Transforme les noms de colonnes à l’aide de la fonction <code>nameGenerator</code> donnée. Options valides :     <div>      <code></code> MaxLength spécifie la longueur maximale des nouveaux noms de colonnes. Si la fonction donnée donne un nom de colonne plus long, le nom long est tronqué.    </div>    <div>      <code>Comparer</code> est utilisé pour contrôler la comparaison lors de la génération de nouveaux noms de colonnes. Les comparateurs peuvent être utilisés pour fournir des comparaisons ne respectant pas la casse ou de culture et prenant en charge les paramètres régionaux.    </div>    <div>      Les comparateurs intégrés suivants sont disponibles dans le langage de formule :    </div>    <ul>      <li><code>Comparer.Ordinal</code> : Utilisé pour effectuer une comparaison ordinale</li>      <li><code>Comparer.OrdinalIgnoreCase</code> : utilisé pour effectuer une comparaison exacte ne respectant pas la casse</li>      <li> <code>Comparer.FromCulture</code> : utilisé pour effectuer une comparaison prenant en compte la culture</li>    </ul>    
 

@@ -5,8 +5,6 @@ title: Splitter.SplitTextByWhitespace
 # Splitter.SplitTextByWhitespace
 
 
-## Description
-
 Restituisce una funzione che suddivide il testo in un elenco di testo in corrispondenza dello spazio vuoto.
 
 
@@ -19,7 +17,7 @@ Splitter.SplitTextByWhitespace(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una funzione che suddivide il testo in un elenco di testo in corrispondenza dello spazio vuoto.
 

@@ -5,8 +5,6 @@ title: Table.Range
 # Table.Range
 
 
-## Description
-
 Gibt die Zeilen ab dem angegebenen Offset zurück.
 
 
@@ -21,7 +19,7 @@ Table.Range(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die Zeilen aus dem Element vom Typ "<code>table</code>" ab dem angegebenen Wert (<code>offset</code>) zurück. Die Anzahl der zurückzugebenden Zeilen kann mit dem optionalen Parameter "<code>count</code>" angegeben werden. Standardmäßig werden alle Zeilen nach dem Offset zurückgegeben.
 

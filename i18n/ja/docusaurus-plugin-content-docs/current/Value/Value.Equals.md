@@ -5,8 +5,6 @@ title: Value.Equals
 # Value.Equals
 
 
-## Description
-
 2 つの値が等しいかどうかを示す値を返します。
 
 
@@ -21,7 +19,7 @@ Value.Equals(
 ```
 
 
-## Details
+## Remarks
 
 値 <code>value1</code> が値 <code>value2</code> と等しい場合は true、それ以外の場合は false を返します。
 

@@ -5,8 +5,6 @@ title: Html.Table
 # Html.Table
 
 
-## Description
-
 Trả về một bảng chứa kết quả chạy bộ chọn CSS được chỉ định dựa trên HTML được cung cấp.
 
 
@@ -21,7 +19,7 @@ Html.Table(
 ```
 
 
-## Details
+## Remarks
 
 Trả về bảng có chứa các kết quả chạy bộ chọn CSS đã chỉ định so với <code>html</code> đã cho. Có thể cung cấp tham số bản ghi tùy chọn, <code>options</code>, để chỉ định các thuộc tính bổ sung. Bản ghi có thể chứa các trường sau đây:    <ul><li><code>RowSelector</code></li></ul>    
 

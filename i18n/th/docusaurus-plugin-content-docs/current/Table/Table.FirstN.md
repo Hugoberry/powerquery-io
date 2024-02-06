@@ -5,8 +5,6 @@ title: Table.FirstN
 # Table.FirstN
 
 
-## Description
-
 ส่งกลับแถวจำนวนแรกที่ระบุ
 
 
@@ -20,7 +18,7 @@ Table.FirstN(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับแถวแรกของตาราง <code>table</code> โดยขึ้นอยู่กับค่าของ <code>countOrCondition</code>:    <ul>    <li> ถ้า <code>countOrCondition</code> เป็นตัวเลข จะมีการส่งกลับแถวจำนวนมากดังกล่าว (เริ่มต้นที่ด้านบน) </li>    <li> ถ้า <code>countOrCondition</code> เป็นเงื่อนไข แถวที่ตรงกับเงื่อนไขจะถูกส่งกลับจนกว่าแถวจะไม่เป็นไปตามเงื่อนไข</li></ul>
 

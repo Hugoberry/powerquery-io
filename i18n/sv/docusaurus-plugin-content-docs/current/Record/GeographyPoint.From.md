@@ -5,8 +5,6 @@ title: GeographyPoint.From
 # GeographyPoint.From
 
 
-## Description
-
 Skapar en post som motsvarar en geografisk punkt utifrån delar.
 
 
@@ -23,7 +21,7 @@ GeographyPoint.From(
 ```
 
 
-## Details
+## Remarks
 
 Skapar en post som motsvarar en geografisk punkt utifrån dess beståndsdelar som longitud, latitud och, om det finns, höjd (Z) och mått (M). En valfri spatial referensidentifierare (SRID) kan anges om värdet är något annat än standardvärdet (4326).
 

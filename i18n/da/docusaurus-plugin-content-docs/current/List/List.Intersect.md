@@ -5,8 +5,6 @@ title: List.Intersect
 # List.Intersect
 
 
-## Description
-
 Returnerer skæringspunktet for de listeværdier, der blev fundet i inputtet.
 
 
@@ -20,7 +18,7 @@ List.Intersect(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer skæringspunktet for de listeværdier, der blev fundet på inputlisten <code>lists</code>. Du kan angive en valgfri parameter, <code>equationCriteria</code>.
 

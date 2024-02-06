@@ -5,8 +5,6 @@ title: Date.DaysInMonth
 # Date.DaysInMonth
 
 
-## Description
-
 Retourne un nombre compris entre 28 et 31 représentant le nombre de jours dans le mois.
 
 
@@ -19,7 +17,7 @@ Date.DaysInMonth(
 ```
 
 
-## Details
+## Remarks
 
 Retourne le nombre de jours représentant le mois dans la valeur <code>date</code>, <code>datetime</code> ou <code>datetimezone</code>, <code>dateTime</code>. <ul>        <li><code>dateTime</code> : valeur <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> pour laquelle le nombre de jours dans le mois est retourné.</li>      </ul>
 

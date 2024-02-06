@@ -5,8 +5,6 @@ title: Time.EndOfHour
 # Time.EndOfHour
 
 
-## Description
-
 時間の始まりを返します。
 
 
@@ -19,7 +17,7 @@ Time.EndOfHour(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> で表される時間の終わりを、小数秒も含めて返します。タイム ゾーン情報は保持されます。      <ul>        <li><code>dateTime</code>: 時間の終わりを計算する <code>time</code>、<code>datetime</code>、または <code>datetimezone</code> 値。</li>      </ul>
 

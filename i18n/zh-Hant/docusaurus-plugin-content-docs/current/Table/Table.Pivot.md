@@ -5,8 +5,6 @@ title: Table.Pivot
 # Table.Pivot
 
 
-## Description
-
 指定一組代表屬性/值組的資料行之後，將 attribute 資料行中的資料輪換成資料行標題。
 
 
@@ -23,7 +21,7 @@ Table.Pivot(
 ```
 
 
-## Details
+## Remarks
 
 指定一組代表屬性/值組的資料行之後，將 attribute 資料行中的資料輪換成資料行標題。
 

@@ -5,8 +5,6 @@ title: Function.IsDataSource
 # Function.IsDataSource
 
 
-## Description
-
 Trả về thông tin một hàm cụ thể có được coi là nguồn dữ liệu hay không.
 
 
@@ -19,7 +17,7 @@ Function.IsDataSource(
 ```
 
 
-## Details
+## Remarks
 
 Trả về thông tin <code>function</code> có được coi là nguồn dữ liệu hay không.
 

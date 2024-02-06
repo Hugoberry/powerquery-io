@@ -5,8 +5,6 @@ title: DateTime.FromFileTime
 # DateTime.FromFileTime
 
 
-## Description
-
 从 64 位长度的数字创建日期时间。
 
 
@@ -19,7 +17,7 @@ DateTime.FromFileTime(
 ```
 
 
-## Details
+## Remarks
 
 从 <code>fileTime</code> 值创建一个 <code>datetime</code> 值并且将其转换为本地时区。filetime 是一个 Windows 文件时间值，它表示自公元 1601 年 1 月 1 日(C.E.)通用协调时间(UTC)午夜 12:00 后 经过的 100 纳秒时间间隔的数目。
 

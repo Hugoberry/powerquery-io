@@ -5,8 +5,6 @@ title: DateTime.ToRecord
 # DateTime.ToRecord
 
 
-## Description
-
 Devuelve un registro que contiene los elementos del valor de datetime.
 
 
@@ -19,7 +17,7 @@ DateTime.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un registro que contiene los elementos del valor datetime especificado, <code>dateTime</code>. <ul>        <li><code>dateTime</code>: un valor <code>datetime</code> a partir del cual se calculará el registro de sus partes.</li>      </ul>
 

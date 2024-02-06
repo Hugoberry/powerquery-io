@@ -5,8 +5,6 @@ title: List.Accumulate
 # List.Accumulate
 
 
-## Description
-
 根據清單中的項目累積摘要值。
 
 
@@ -21,7 +19,7 @@ List.Accumulate(
 ```
 
 
-## Details
+## Remarks
 
 使用 <code>accumulator</code> 根據清單 <code>list</code> 中的項目累積摘要值。    可設定選擇性的種子參數 <code>seed</code>。
 

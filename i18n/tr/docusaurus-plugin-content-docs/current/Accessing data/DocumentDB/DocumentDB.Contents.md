@@ -5,8 +5,6 @@ title: DocumentDB.Contents
 # DocumentDB.Contents
 
 
-## Description
-
 Azure Cosmos DB hesabına ilişkin bir URL girin.
 
 
@@ -22,7 +20,7 @@ DocumentDB.Contents(
 ```
 
 
-## Details
+## Remarks
 
 <code>url</code> adresinde bulunan Azure Cosmos DB veritabanlarına ilişkin bir tablo döndürür. <code>database</code> belirtilirse bunun yerine koleksiyonlara ilişkin bir tablo döndürülür. Ayrıca <code>options</code> kaydında <code>Query</code> alanı belirtilirse belirtilen veritabanında ve/veya koleksiyonda yürütülen sorguya ilişkin sonuçlar döndürülür.
 

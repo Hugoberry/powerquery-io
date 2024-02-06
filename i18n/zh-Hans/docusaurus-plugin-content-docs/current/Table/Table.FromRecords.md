@@ -5,8 +5,6 @@ title: Table.FromRecords
 # Table.FromRecords
 
 
-## Description
-
 将记录列表转换为表。
 
 
@@ -21,7 +19,7 @@ Table.FromRecords(
 ```
 
 
-## Details
+## Remarks
 
 将记录列表 <code>records</code> 转换为表。
 

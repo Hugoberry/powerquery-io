@@ -5,8 +5,6 @@ title: Table.ExpandListColumn
 # Table.ExpandListColumn
 
 
-## Description
-
 Получив исходный столбец списков в таблице, создать копию строки для каждого значения в списке.
 
 
@@ -20,7 +18,7 @@ Table.ExpandListColumn(
 ```
 
 
-## Details
+## Remarks
 
 Получив <code>table</code>, где <code>column</code> - список значений, разделить список построчно для каждого значения. Значения в других столбцах повторяются в каждой вновь созданной строке.
 

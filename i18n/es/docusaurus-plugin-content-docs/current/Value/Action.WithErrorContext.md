@@ -5,8 +5,6 @@ title: Action.WithErrorContext
 # Action.WithErrorContext
 
 
-## Description
-
 Esta función solo está diseñada para uso interno.
 
 
@@ -20,7 +18,7 @@ Action.WithErrorContext(
 ```
 
 
-## Details
+## Remarks
 
 Esta función solo está diseñada para uso interno.
 

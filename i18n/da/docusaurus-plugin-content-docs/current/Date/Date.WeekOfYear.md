@@ -5,8 +5,6 @@ title: Date.WeekOfYear
 # Date.WeekOfYear
 
 
-## Description
-
 Returnerer et tal fra 1-54, der angiver, hvilken uge i året denne dato ligger i.
 
 
@@ -20,7 +18,7 @@ Date.WeekOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer et tal fra 1-54, der angiver den uge i året, som datoen, <code>dateTime</code>, falder i. <ul> <li><code>dateTime</code>: En <code>datetime</code>-værdi som bestemmer ugen i året. </li> <li><code>firstDayOfWeek</code>: En valgfri <code>Day.Type</code>-værdi, der angiver, hvilken dag der betragtes som startpunkt for en ny uge (f.eks <code>Day.Sunday</code>). Hvis dette ikke angives, bruges en kulturafhængig standard.                </li>      </ul>
 

@@ -5,8 +5,6 @@ title: Table.TransformColumnTypes
 # Table.TransformColumnTypes
 
 
-## Description
-
 Stosuje przekształcenia typów w formie \{ column, type }, używając określonej kultury.
 
 
@@ -21,7 +19,7 @@ Table.TransformColumnTypes(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę powstałą w wyniku zastosowania do kolumn tabeli wejściowej <code>table</code> operacji przekształcania określonych w parametrze <code>typeTransformations</code> (używany format to \{ column name, type name}), z użyciem kultury określonej w opcjonalnym parametrze <code>culture</code> (np. „en-US”).    Jeśli kolumna nie istnieje, jest zgłaszany wyjątek.
 

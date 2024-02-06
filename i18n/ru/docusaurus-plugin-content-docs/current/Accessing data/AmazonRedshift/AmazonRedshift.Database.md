@@ -5,8 +5,6 @@ title: AmazonRedshift.Database
 # AmazonRedshift.Database
 
 
-## Description
-
 Импорт данных из базы данных Amazon Redshift.
 
 
@@ -21,7 +19,7 @@ AmazonRedshift.Database(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу с перечислением таблиц на сервере <code>server</code> кластера Amazon Redshift в базе данных <code>database</code>. Необязательный параметр записи <code>options</code> можно указать для управления следующими параметрами:<ul><li><code>Provider Name</code>: текстовое значение, используемое в качестве имени поставщика для подключения. Используется при использовании проверки подлинности Майкрософт.</li><li><code>Batch Size</code>: количество строк, извлекаемых в одном вызове сервера.</li></ul>  
 

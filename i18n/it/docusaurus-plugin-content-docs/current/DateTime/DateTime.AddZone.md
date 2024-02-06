@@ -5,8 +5,6 @@ title: DateTime.AddZone
 # DateTime.AddZone
 
 
-## Description
-
 Aggiunge informazioni sul fuso orario al valore datetime.
 
 
@@ -21,7 +19,7 @@ DateTime.AddZone(
 ```
 
 
-## Details
+## Remarks
 
 Aggiunge informazioni sul fuso orario al valore <code>dateTime</code>. Le informazioni sul fuso orario includono <code>timezoneHours</code> e facoltativamente <code>timezoneMinutes</code>, che specificano l'offset desiderato dall'ora UTC.
 

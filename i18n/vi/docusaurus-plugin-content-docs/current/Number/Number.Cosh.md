@@ -5,8 +5,6 @@ title: Number.Cosh
 # Number.Cosh
 
 
-## Description
-
 Trả về cosin hyperbolic của số.
 
 
@@ -19,7 +17,7 @@ Number.Cosh(
 ```
 
 
-## Details
+## Remarks
 
 Trả về cosin hyperbolic của <code>number</code>.
 

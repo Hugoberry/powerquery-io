@@ -5,8 +5,6 @@ title: List.ContainsAny
 # List.ContainsAny
 
 
-## Description
-
 Anger om en lista innehåller något av värdena i en annan lista.
 
 
@@ -21,7 +19,7 @@ List.ContainsAny(
 ```
 
 
-## Details
+## Remarks
 
 Anger om listan <code>list</code> innehåller något av värdena i en annan lista, <code>values</code>.        Returnerar true om värdet finns i listan. Annars returneras false. Ett valfritt ekvationsvillkorsvärde, <code>equationCriteria</code>, kan anges för att hantera likhetstestning. 
 

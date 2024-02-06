@@ -5,8 +5,6 @@ title: BinaryFormat.Transform
 # BinaryFormat.Transform
 
 
-## Description
-
 返回一个二进制格式，该二进制格式将转换由另一个二进制格式读取的值。
 
 
@@ -20,7 +18,7 @@ BinaryFormat.Transform(
 ```
 
 
-## Details
+## Remarks
 
 返回一个二进制格式，该二进制格式将转换由另一个二进制格式读取的值。 参数 <code>binaryFormat</code> 指定将用于读取值的二进制格式。 使用读取的值调用 <code>function</code>，并返回转换后的值。
 

@@ -5,8 +5,6 @@ title: Table.FindText
 # Table.FindText
 
 
-## Description
-
 指定されたテキストを含むテーブル内のすべての行を返します。
 
 
@@ -20,7 +18,7 @@ Table.FindText(
 ```
 
 
-## Details
+## Remarks
 
 テキスト <code>text</code> を含むテーブル <code>table</code> 内の行を返します。テキストが見つからなかった場合は、空のテーブルを返します。
 

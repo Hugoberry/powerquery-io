@@ -5,8 +5,6 @@ title: DateTimeZone.FromFileTime
 # DateTimeZone.FromFileTime
 
 
-## Description
-
 64 बिट लंबी संख्या से एक datetimezone बनाता है.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.FromFileTime(
 ```
 
 
-## Details
+## Remarks
 
 <code>fileTime</code> से एक <code>datetimezone</code> मान बनाता है और उसे स्थानीय समय क्षेत्र में रूपांतरित करता है. फ़ाइल नाम एक Windows फ़ाइल समय मान है जो उन 100-गैर-सेकंड अंतरालों की संख्या दर्शाता है जो मध्यरात्रि 12:00 बजे, 1 जनवरी 1601 ई.प. तक बीत चुके हैं. (C.E.) समन्वित वैश्विक समय (UTC).    
 

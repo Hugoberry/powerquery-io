@@ -5,8 +5,6 @@ title: Text.NewGuid
 # Text.NewGuid
 
 
-## Description
-
 Restituisce un nuovo identificatore univoco globale (GUID) casuale.
 
 
@@ -19,7 +17,7 @@ Text.NewGuid(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un nuovo identificatore univoco globale (GUID) casuale.
 

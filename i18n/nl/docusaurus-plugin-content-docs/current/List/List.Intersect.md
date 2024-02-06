@@ -5,8 +5,6 @@ title: List.Intersect
 # List.Intersect
 
 
-## Description
-
 Retourneert het snijpunt van de lijstwaarden die in de invoer zijn gevonden.
 
 
@@ -20,7 +18,7 @@ List.Intersect(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het snijpunt van de lijstwaarden die in de invoerlijst <code>lists</code> zijn gevonden. Er kan een optionele parameter, <code>equationCriteria</code>, worden opgegeven.
 

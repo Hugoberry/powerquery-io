@@ -5,8 +5,6 @@ title: Date.Day
 # Date.Day
 
 
-## Description
-
 Retourneert het daggedeelte.
 
 
@@ -19,7 +17,7 @@ Date.Day(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt de dagcomponent van een <code>date</code>-, <code>datetime</code>- of <code>datetimezone</code>-waarde geretourneerd. <ul> <li><code>dateTime</code>: een <code>date</code>-, <code>datetime</code>- of <code>datetimezone</code>-waarde op basis waarvan de dagcomponent wordt geëxtraheerd.</li> </ul>
 

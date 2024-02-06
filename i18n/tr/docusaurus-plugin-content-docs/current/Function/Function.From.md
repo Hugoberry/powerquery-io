@@ -5,8 +5,6 @@ title: Function.From
 # Function.From
 
 
-## Description
-
 Tek bir liste bağımsız değişkenini alan bir işlevin üstüne belirli bir parametre imzasına sahip bir işlev oluşturur
 
 
@@ -20,7 +18,7 @@ Function.From(
 ```
 
 
-## Details
+## Remarks
 
 Birli işlevi <code>function</code> alır ve bağımsız değişkenlerinden bir liste oluşturan <code>functionType</code> türünde yeni bir işlev oluşturur ve bunu <code>function</code> işlevine geçirir.
 

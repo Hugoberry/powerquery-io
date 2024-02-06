@@ -5,8 +5,6 @@ title: Table.ReverseRows
 # Table.ReverseRows
 
 
-## Description
-
 Trả về một bảng có các hàng theo thứ tự đảo ngược.
 
 
@@ -19,7 +17,7 @@ Table.ReverseRows(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bảng có các hàng từ đầu vào <code>table</code> theo thứ tự đảo ngược.
 

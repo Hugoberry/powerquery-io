@@ -5,8 +5,6 @@ title: AzureEnterprise.Contents
 # AzureEnterprise.Contents
 
 
-## Description
-
 Insira o URL do ponto final de API REST do Azure Enterprise associado à sua inscrição
 
 
@@ -20,7 +18,7 @@ AzureEnterprise.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Devolve os resultados binários para chamar o url fornecido para a API do Azure Enterprise.
 

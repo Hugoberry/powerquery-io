@@ -5,8 +5,6 @@ title: Binary.Length
 # Binary.Length
 
 
-## Description
-
 Возвращает число символов.
 
 
@@ -19,7 +17,7 @@ Binary.Length(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает число символов.
 

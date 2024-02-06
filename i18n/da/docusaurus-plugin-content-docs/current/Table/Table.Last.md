@@ -5,8 +5,6 @@ title: Table.Last
 # Table.Last
 
 
-## Description
-
 Returnerer den sidste række eller en angivet standardværdi.
 
 
@@ -20,7 +18,7 @@ Table.Last(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer den sidste række i <code>table</code> eller en valgfri standardværdi, <code>default</code>, hvis tabellen er tom.
 

@@ -5,8 +5,6 @@ title: Double.From
 # Double.From
 
 
-## Description
-
 Skapar en Double av det givna värdet.
 
 
@@ -20,7 +18,7 @@ Double.From(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett Double <code>number</code>-värde från det givna <code>value</code>. Om det givna <code>value</code> är <code>null</code> returnerar <code>Double.From</code> <code>null</code>.  Om det givna <code>value</code> är <code>number</code> inom intervallet för Double, returneras <code>value</code>. I annat fall returneras ett fel. Om <code>value</code> konverteras den först till en <code>number</code> med <code>Number.FromText</code>. En valfri <code>culture</code> kan även anges (till exempel, "en-US").
 

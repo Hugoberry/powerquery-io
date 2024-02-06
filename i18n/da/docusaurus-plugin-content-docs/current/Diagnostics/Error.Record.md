@@ -5,8 +5,6 @@ title: Error.Record
 # Error.Record
 
 
-## Description
-
 Returnerer en fejlpost fra de angivne tekstværdier for årsag, meddelelse og oplysninger.
 
 
@@ -22,7 +20,7 @@ Error.Record(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en fejlpost fra de angivne tekstværdier for årsag, meddelelse og oplysninger.
 

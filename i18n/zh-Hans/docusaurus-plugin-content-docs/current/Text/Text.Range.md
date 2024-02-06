@@ -5,8 +5,6 @@ title: Text.Range
 # Text.Range
 
 
-## Description
-
 返回在偏移量中找到的子字符串。
 
 
@@ -21,7 +19,7 @@ Text.Range(
 ```
 
 
-## Details
+## Remarks
 
 从文本 <code>text</code> 中返回在偏移量 <code>offset</code> 中找到的子字符串。    可以包含一个可选参数 <code>count</code>，以指定要返回多少个字符。
 

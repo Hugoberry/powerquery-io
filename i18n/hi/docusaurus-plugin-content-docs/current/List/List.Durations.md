@@ -5,8 +5,6 @@ title: List.Durations
 # List.Durations
 
 
-## Description
-
 अवधि मानों की सूची जनरेट करता है जिसमें प्रारंभिक मान, गणना और वृद्धिशील अवधि मान दिया जाता है.
 
 
@@ -21,7 +19,7 @@ List.Durations(
 ```
 
 
-## Details
+## Remarks
 
 <code>start</code> से प्रारंभ होने वाले और दी गई <code>duration</code> <code>step</code> से बढ़े हुए, <code>count</code> <code>duration</code> मानों की सूची लौटाता है.
 

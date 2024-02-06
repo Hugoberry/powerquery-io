@@ -5,8 +5,6 @@ title: BinaryFormat.SignedInteger16
 # BinaryFormat.SignedInteger16
 
 
-## Description
-
 Formato binario que lee un entero con signo de 16 bits.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.SignedInteger16(
 ```
 
 
-## Details
+## Remarks
 
 Formato binario que lee un entero con signo de 16 bits.
 

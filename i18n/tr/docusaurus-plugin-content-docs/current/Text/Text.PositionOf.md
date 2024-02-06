@@ -5,8 +5,6 @@ title: Text.PositionOf
 # Text.PositionOf
 
 
-## Description
-
 Değerin ilk konumunu döndürür (bulunmazsa -1).
 
 
@@ -22,7 +20,7 @@ Text.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> içinde bulunan <code>substring</code> metin değerinin belirtilen oluşumunun konumunu döndürür.    Hangi oluşum konumunun döndürüleceğini belirtmek için isteğe bağlı bir <code>occurrence</code> parametresi kullanılabilir (varsayılan olarak ilk oluşumdur).    <code>substring</code> bulunmazsa -1 döndürür.      <div>        <code>comparer</code>, karşılaştırmayı denetlemek için kullanılan bir <code>Karşılaştırıcıdır</code>. Karşılaştırıcılar büyük/küçük harfe duyarlı olmayan veya kültüre ve bölgeye duyarlı karşılaştırmalar döndürür.      </div>      <div>        Aşağıdaki yerleşik karşılaştırıcılar formül dilinde kullanılabilir:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: Tam bir sırasal karşılaştırma yapmak için kullanılır</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: Tam bir büyük/küçük harfe duyarlı olmayan karşılaştırma yapmak için kullanılır</li>        <li> <code>Comparer.FromCulture</code>: Kültüre duyarlı bir karşılaştırma yapmak için kullanılır</li>      </ul>
 

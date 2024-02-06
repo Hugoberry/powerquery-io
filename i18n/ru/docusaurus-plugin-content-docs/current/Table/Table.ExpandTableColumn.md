@@ -5,8 +5,6 @@ title: Table.ExpandTableColumn
 # Table.ExpandTableColumn
 
 
-## Description
-
 Развертывает столбец записей или столбец таблиц в несколько столбцов в содержащей их таблице.
 
 
@@ -22,7 +20,7 @@ Table.ExpandTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Развертывает таблицы в <code>table</code>[<code>column</code>] в несколько строк и столбцов. <code>columnNames</code> используется для выбора столбцов для развертывания из внутренней таблицы. Укажите <code>newColumnNames</code>, чтобы избежать конфликтов между существующими и новыми столбцами.
 

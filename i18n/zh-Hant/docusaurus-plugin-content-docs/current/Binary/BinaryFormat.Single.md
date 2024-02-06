@@ -5,8 +5,6 @@ title: BinaryFormat.Single
 # BinaryFormat.Single
 
 
-## Description
-
 一種二進位格式，可讀取 4 位元組 IEEE 單精確度浮點值。
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Single(
 ```
 
 
-## Details
+## Remarks
 
 一種二進位格式，可讀取 4 位元組 IEEE 單精確度浮點值。
 

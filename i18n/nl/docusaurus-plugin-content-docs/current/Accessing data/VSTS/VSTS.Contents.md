@@ -5,8 +5,6 @@ title: VSTS.Contents
 # VSTS.Contents
 
 
-## Description
-
 Voer de URL van de Azure DevOps Analytics-service in.
 
 
@@ -20,7 +18,7 @@ VSTS.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt de inhoud die is gedownload via de URL van de Azure DevOps Analytics-service, geretourneerd als binaire waarde. Deze functie gebruikt algemene aanmeldgegevens voor alle toegankelijke organisaties.
 

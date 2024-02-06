@@ -5,8 +5,6 @@ title: Table.AggregateTableColumn
 # Table.AggregateTableColumn
 
 
-## Description
-
 將資料表的資料行彙總成包含資料表中的多個資料行。
 
 
@@ -21,7 +19,7 @@ Table.AggregateTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 將 <code>table</code>[<code>column</code>] 中的資料表彙總成包含資料表之彙總值的多個資料行。<code>aggregations</code> 是用來指定包含要彙總之資料表的資料行、要套用至資料表以產生其值的彙總函式，以及要建立之彙總資料行的名稱。
 

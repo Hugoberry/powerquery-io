@@ -5,8 +5,6 @@ title: Date.AddQuarters
 # Date.AddQuarters
 
 
-## Description
-
 Dodaje określoną liczbę kwartałów do daty.
 
 
@@ -20,7 +18,7 @@ Date.AddQuarters(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wynik — w formie wartości typu <code>date</code>, <code>datetime</code> lub <code>datetimezone</code> — dodania <code>numberOfQuarters</code> kwartałów do wartości typu <code>datetime</code> równej <code>dateTime</code>.      <ul>      <li><code>dateTime</code>: wartość typu <code>date</code>, <code>datetime</code> lub <code>datetimezone</code>, do której są dodawane kwartały.</li>      <li><code>numberOfQuarters</code>: liczba kwartałów do dodania.</li>      </ul>
 

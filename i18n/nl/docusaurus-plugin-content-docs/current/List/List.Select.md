@@ -5,8 +5,6 @@ title: List.Select
 # List.Select
 
 
-## Description
-
 Retourneert een lijst met waarden die overeenkomen met de voorwaarde.
 
 
@@ -20,7 +18,7 @@ List.Select(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een lijst met waarden uit de lijst <code>list</code> die overeenkomen met de selectievoorwaarde <code>selection</code>.
 

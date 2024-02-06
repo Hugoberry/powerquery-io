@@ -5,8 +5,6 @@ title: Value.ViewFunction
 # Value.ViewFunction
 
 
-## Description
-
 यह फ़ंक्शन केवल आंतरिक उपयोग के लिए है.
 
 
@@ -19,7 +17,7 @@ Value.ViewFunction(
 ```
 
 
-## Details
+## Remarks
 
 यह फ़ंक्शन केवल आंतरिक उपयोग के लिए है.
 

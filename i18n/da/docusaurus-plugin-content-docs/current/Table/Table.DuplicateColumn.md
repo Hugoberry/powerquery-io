@@ -5,8 +5,6 @@ title: Table.DuplicateColumn
 # Table.DuplicateColumn
 
 
-## Description
-
 Dublerer en kolonne med det angivne navn. Værdier og type kopieres fra kildekolonnen.
 
 
@@ -22,7 +20,7 @@ Table.DuplicateColumn(
 ```
 
 
-## Details
+## Remarks
 
 Dubler kolonnen med navnet <code>columnName</code> til tabellen <code>table</code>. Værdierne og typen for kolonnen <code>newColumnName</code> kopieres fra kolonnen <code>columnName</code>.
 

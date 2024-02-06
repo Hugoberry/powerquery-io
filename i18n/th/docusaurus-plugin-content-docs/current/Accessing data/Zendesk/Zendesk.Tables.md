@@ -5,8 +5,6 @@ title: Zendesk.Tables
 # Zendesk.Tables
 
 
-## Description
-
 ป้อนe URL บัญชี Zendesk ของคุณ
 
 
@@ -19,7 +17,7 @@ Zendesk.Tables(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนตารางที่มีข้อมูล Zendesk ที่เกี่ยวข้อง
 

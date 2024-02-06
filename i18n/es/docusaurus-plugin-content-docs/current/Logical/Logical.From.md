@@ -5,8 +5,6 @@ title: Logical.From
 # Logical.From
 
 
-## Description
-
 Crea una lógica a partir del valor dado.
 
 
@@ -19,7 +17,7 @@ Logical.From(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un valor <code>logical</code> a partir del <code>value</code> especificado. Si el <code>value</code> especificado es <code>null</code>, <code>Logical.From</code> devuelve <code>null</code>. Si el <code>value</code> especificado es <code>logical</code>, se devuelve <code>value</code>. Los valores de los tipos siguientes se pueden convertir a un valor <code>logical</code>:      <ul>        <li><code>text</code>: un valor <code>logical</code> a partir del valor de texto, ya sea <code>"false"</code> o <code>"true"</code>. Para más información, vea <code>Logical.FromText</code>.</li>        <li><code>number</code>: <code>false</code> si <code>value</code> es igual que <code>0</code>, <code>true</code> en caso contrario.</li>      </ul>Si <code>value</code> es de cualquier otro tipo, se devuelve un error.
 

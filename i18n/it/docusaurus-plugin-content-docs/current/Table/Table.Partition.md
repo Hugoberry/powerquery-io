@@ -5,8 +5,6 @@ title: Table.Partition
 # Table.Partition
 
 
-## Description
-
 Partiziona la tabella in un elenco di tabelle in base al numero di gruppi e alla colonna specificati.
 
 
@@ -22,7 +20,7 @@ Table.Partition(
 ```
 
 
-## Details
+## Remarks
 
 Partiziona <code>table</code> in un elenco di <code>groups</code> tabelle in base al valore di <code>column</code> e alla funzione <code>hash</code>.    La funzione <code>hash</code> viene applicata al valore della riga <code>column</code> per ottenere un valore hash per la riga. Il modulo del valore hash <code>groups</code> determina la tabella restituita in cui verrà inserita la riga.    <ul>       <li><code>table</code>: tabella da partizionare.</li>       <li><code>column</code>: colonna di cui eseguire l'hashing per determinare la tabella restituita in cui si trova la riga.</li>       <li><code>groups</code>: numero di tabelle in cui verrà partizionata la tabella di input.</li>       <li><code>hash</code>: funzione applicata per ottenere un valore hash.</li>    </ul>  
 

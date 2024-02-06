@@ -5,8 +5,6 @@ title: Table.IsEmpty
 # Table.IsEmpty
 
 
-## Description
-
 テーブルに行が含まれているかどうかを示します。
 
 
@@ -19,7 +17,7 @@ Table.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> に行が含まれているかどうかを示します。行が存在しない (つまり、テーブルが空の) 場合は <code>true</code>、それ以外の場合は <code>false</code> を返します。
 

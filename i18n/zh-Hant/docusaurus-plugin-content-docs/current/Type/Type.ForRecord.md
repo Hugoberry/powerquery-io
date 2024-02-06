@@ -5,8 +5,6 @@ title: Type.ForRecord
 # Type.ForRecord
 
 
-## Description
-
 使用欄位的特定類型條件約束，傳回代表記錄的類型。
 
 
@@ -20,7 +18,7 @@ Type.ForRecord(
 ```
 
 
-## Details
+## Remarks
 
 使用欄位的特定類型條件約束，傳回代表記錄的類型。
 

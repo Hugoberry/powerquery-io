@@ -5,8 +5,6 @@ title: Date.EndOfWeek
 # Date.EndOfWeek
 
 
-## Description
-
 Returnerer slutningen af ugen.
 
 
@@ -20,7 +18,7 @@ Date.EndOfWeek(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer slutningen af den uge, der indeholder <code>dateTime</code>.      Denne funktion bruger en valgfri <code>Day</code>, <code>firstDayOfWeek</code>, til at angive som den første dag i ugen for denne relative beregning. Standardværdien er <code>Day.Sunday</code>.      <ul>      <li><code>dateTime</code>: En værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>, som den sidste dag i ugen beregnes ud fra</li>      <li><code>firstDayOfWeek</code>:      <i>[Valgfri]</i> En <code>Day.Type</code> værdi, der repræsenterer den første dag i ugen. Mulige værdier er <code>Day.Sunday</code>, <code>Day.Monday</code>, <code>Day.Tuesday</code>, <code>Day.Wednesday</code>, <code>Day.Thursday</code>, <code>Day.Friday</code> og <code>Day.Saturday.</code> . Standardværdien er <code>Day.Sunday</code>.</li>      </ul>
 

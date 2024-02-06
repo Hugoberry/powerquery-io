@@ -5,8 +5,6 @@ title: Table.ExpandRecordColumn
 # Table.ExpandRecordColumn
 
 
-## Description
-
 将记录列扩展为具有每个值的列。
 
 
@@ -22,7 +20,7 @@ Table.ExpandRecordColumn(
 ```
 
 
-## Details
+## Remarks
 
 给定输入 <code>table</code> 中的 <code>column</code> 条记录后，创建一个表，其中针对记录中的每个字段都有一列。也可以指定 <code>newColumnNames</code>，以确保新表中的各列具有唯一名称。    <ul>        <li><code>table</code>: 原始表以及要扩展的记录列。</li>        <li><code>column</code>: 要扩展的列。</li>        <li><code>fieldNames</code>: 要扩展到表中各列的字段列表。</li>        <li><code>newColumnNames</code>: 给予新列的列名的列表。新列名不能与新表中的任何列重复。</li>    </ul>
 

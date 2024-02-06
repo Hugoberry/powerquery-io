@@ -5,8 +5,6 @@ title: List.StandardDeviation
 # List.StandardDeviation
 
 
-## Description
-
 मानक विचलन का नमूना आधारित अनुमान लौटाता है.
 
 
@@ -19,7 +17,7 @@ List.StandardDeviation(
 ```
 
 
-## Details
+## Remarks
 
 सूची <code>numbersList</code> में मौजूद मानों के मानक विचलन का नमूना आधारित अनुमान लौटाता है.    यदि <code>numbersList</code> संख्याओं की एक सूची है, तो एक संख्या लौटाई जाती है.    एक रिक्त सूची या उन आइटमों की सूची, जिसका प्रकार <code>संख्या</code> नहीं है, पर एक अपवाद लौटाया जाता है.
 

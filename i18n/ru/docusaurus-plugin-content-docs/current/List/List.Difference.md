@@ -5,8 +5,6 @@ title: List.Difference
 # List.Difference
 
 
-## Description
-
 Возвращает разницу между двумя данными списками.
 
 
@@ -21,7 +19,7 @@ List.Difference(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает элементы в списке <code>list1</code>, которых нет в списке <code>list2</code>. Повторяющиеся значения поддерживаются.    Можно указать необязательное значение критерия уравнения <code>equationCriteria</code> для управления проверкой на равенство. 
 

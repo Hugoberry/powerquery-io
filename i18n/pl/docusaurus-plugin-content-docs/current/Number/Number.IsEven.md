@@ -5,8 +5,6 @@ title: Number.IsEven
 # Number.IsEven
 
 
-## Description
-
 Wskazuje, czy wartość jest parzysta.
 
 
@@ -19,7 +17,7 @@ Number.IsEven(
 ```
 
 
-## Details
+## Remarks
 
 Wskazuje, czy wartość <code>number</code> jest parzysta, zwracając wartość <code>true</code>, jeśli jest, i wartość <code>false</code>, jeśli nie jest.
 

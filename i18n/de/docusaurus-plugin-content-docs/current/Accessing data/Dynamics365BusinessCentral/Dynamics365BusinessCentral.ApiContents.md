@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.ApiContents
 # Dynamics365BusinessCentral.ApiContents
 
 
-## Description
-
 Geben Sie Ihre Dynamics 365 Business Central-Umgebung und Ihr Unternehmen ein.
 
 
@@ -21,7 +19,7 @@ Dynamics365BusinessCentral.ApiContents(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Tabelle mit relevanten Dynamics 365 Business Central-Daten zurück. 
 

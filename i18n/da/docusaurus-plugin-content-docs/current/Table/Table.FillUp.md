@@ -5,8 +5,6 @@ title: Table.FillUp
 # Table.FillUp
 
 
-## Description
-
 Overfører værdien i en celle til cellerne med null-værdier ovenfor i kolonnen.
 
 
@@ -20,7 +18,7 @@ Table.FillUp(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel fra den angivne <code>table</code>, hvor værdien af den næste celle overføres til cellerne med null-værdier ovenfor i den angivne <code>columns</code>.
 

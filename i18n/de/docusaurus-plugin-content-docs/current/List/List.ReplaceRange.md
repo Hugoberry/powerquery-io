@@ -5,8 +5,6 @@ title: List.ReplaceRange
 # List.ReplaceRange
 
 
-## Description
-
 Ersetzt die angegebene Anzahl von Werten ab einer bestimmten Position durch die Ersatzwerte.
 
 
@@ -22,7 +20,7 @@ List.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 Ersetzt <code>count</code> Werte in "<code>list</code>" ab der angegebenen Position (<code>index</code>) durch die Liste "<code>replaceWith</code>".
 

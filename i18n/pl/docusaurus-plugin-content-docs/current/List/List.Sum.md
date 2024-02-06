@@ -5,8 +5,6 @@ title: List.Sum
 # List.Sum
 
 
-## Description
-
 Zwraca sumę elementów na liście.
 
 
@@ -20,7 +18,7 @@ List.Sum(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca sumę wartości innych niż null z listy <code>list</code>.  Zwraca wartość null, jeśli na liście nie znajdują się wartości inne niż null.
 

@@ -5,8 +5,6 @@ title: Marketo.Activities
 # Marketo.Activities
 
 
-## Description
-
 Возвращает таблицу с ведущими действиями.
 
 
@@ -21,7 +19,7 @@ Marketo.Activities(
 ```
 
 
-## Details
+## Remarks
 
 Вызывает конечную точку Marketo REST API по ссылке <code>url</code>/rest/v1/activities.json. Возвращаются все действия в списке <code>activityIds</code>, которые происходили с <code>startTime</code>.
 

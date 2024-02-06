@@ -5,8 +5,6 @@ title: Table.Transpose
 # Table.Transpose
 
 
-## Description
-
 將資料行轉成資料列，而將資料列轉成資料行。
 
 
@@ -20,7 +18,7 @@ Table.Transpose(
 ```
 
 
-## Details
+## Remarks
 
 將資料行轉成資料列，而將資料列轉成資料行。
 

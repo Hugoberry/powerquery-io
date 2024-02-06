@@ -5,8 +5,6 @@ title: List.Distinct
 # List.Distinct
 
 
-## Description
-
 返回删除了重复项的值列表。
 
 
@@ -20,7 +18,7 @@ List.Distinct(
 ```
 
 
-## Details
+## Remarks
 
 返回包含列表 <code>list</code> 中的所有值且删除了重复项的列表。如果列表为空，则结果为空列表。
 

@@ -5,8 +5,6 @@ title: Character.FromNumber
 # Character.FromNumber
 
 
-## Description
-
 Converteert een getal naar tekst.
 
 
@@ -19,7 +17,7 @@ Character.FromNumber(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het tekenequivalent van het getal.<br />    <br />    De opgegeven <code>number</code> moet een 21-bits Unicode-codepunt zijn.
 

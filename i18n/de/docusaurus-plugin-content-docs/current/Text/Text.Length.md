@@ -5,8 +5,6 @@ title: Text.Length
 # Text.Length
 
 
-## Description
-
 Gibt die Zeichenanzahl zurück.
 
 
@@ -19,7 +17,7 @@ Text.Length(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die Anzahl von Zeichen im Text "<code>text</code>" zurück.
 

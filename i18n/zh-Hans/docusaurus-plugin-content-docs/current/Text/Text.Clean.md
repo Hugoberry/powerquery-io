@@ -5,8 +5,6 @@ title: Text.Clean
 # Text.Clean
 
 
-## Description
-
 返回所有控制字符均已删除的文本值。
 
 
@@ -19,7 +17,7 @@ Text.Clean(
 ```
 
 
-## Details
+## Remarks
 
 返回 <code>text</code> 的所有控制字符均已删除的文本值。
 

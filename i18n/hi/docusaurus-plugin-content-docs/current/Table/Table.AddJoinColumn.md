@@ -5,8 +5,6 @@ title: Table.AddJoinColumn
 # Table.AddJoinColumn
 
 
-## Description
-
 प्रदत्त स्तंभों पर तालिकाओं के बीच एक जॉइन करता है और एक नए स्तंभ में जॉइन परिणाम देता है.
 
 
@@ -23,7 +21,7 @@ Table.AddJoinColumn(
 ```
 
 
-## Details
+## Remarks
 
 <code>key1</code> (<code>table1</code> के लिए) और <code>key2</code> (<code>table2</code> के लिए) द्वारा चयनित कुंजी स्तंभ के मानों की गुणवत्ता पर आधारित <code>table1</code> की पंक्तियों को <code>table2</code> की पंक्तियों के साथ जॉइन करता है. परिणामों को <code>newColumnName</code> नाम के स्तंभ में दर्ज किया जाता है.यह फ़ंक्शन, LeftOuter के JoinKind के साथ Table.Join के समान व्यवहार करता है इसके अलावा जॉइन परिणामों को फ़्लैटेड की तुलना में नेस्टेड फ़ैशन में प्रस्तुत किया जाता है.
 

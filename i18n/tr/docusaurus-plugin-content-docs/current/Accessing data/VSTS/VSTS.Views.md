@@ -5,8 +5,6 @@ title: VSTS.Views
 # VSTS.Views
 
 
-## Description
-
 Kuruluşu ve proje adlarını girin.
 
 
@@ -22,7 +20,7 @@ VSTS.Views(
 ```
 
 
-## Details
+## Remarks
 
 Azure DevOps tarafından sunulan bir OData akışları tablosu döndürür.
 

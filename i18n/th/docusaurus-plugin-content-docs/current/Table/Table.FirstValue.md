@@ -5,8 +5,6 @@ title: Table.FirstValue
 # Table.FirstValue
 
 
-## Description
-
 ส่งคืนคอลัมน์แรกของแถวแรกจากตาราง หรือค่าเริ่มต้นตามที่ระบุไว้
 
 
@@ -20,7 +18,7 @@ Table.FirstValue(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนคอลัมน์แรกของแถวแรกจากตาราง <code>table</code> หรือค่าเริ่มต้นตามที่ระบุไว้
 

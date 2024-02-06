@@ -5,8 +5,6 @@ title: Date.From
 # Date.From
 
 
-## Description
-
 Verilen değerden tarih oluşturur.
 
 
@@ -20,7 +18,7 @@ Date.From(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>value</code> değerinden bir <code>date</code> değeri döndürür. Ayrıca, isteğe bağlı bir <code>culture</code> sağlanabilir (ör. "tr-TR").Verilen <code>value</code> <code>null</code> ise <code>Date.From</code>, <code>null</code> döndürür. Verilen <code>value</code> <code>date</code> ise <code>value</code> döndürülür. Aşağıdaki türde olan değerler bir <code>date</code> değerine dönüştürülebilir:      <ul>        <li><code>text</code>: Metin gösteriminden bir <code>date</code> değeri. Ayrıntılar için bkz. <code>Date.FromText</code>.</li>        <li><code>datetime</code>: <code>value</code> değerinin tarih bileşeni.</li>        <li><code>datetimezone</code>: <code>value</code> değerinin yerel tarih saat eşdeğerinin tarih bileşeni.</li>        <li><code>number</code>: <code>value</code> ile ifade edilen OLE Otomasyon Tarihinin tarih saat eşdeğerinin tarih bileşeni.</li>      </ul><code>value</code> başka bir türde olduğunda hata döndürülür.
 

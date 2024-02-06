@@ -5,8 +5,6 @@ title: Number.Combinations
 # Number.Combinations
 
 
-## Description
-
 Returnerer antallet af entydige kombinationer.
 
 
@@ -20,7 +18,7 @@ Number.Combinations(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer antallet af entydige kombinationer fra en liste over elementer, <code>setSize</code>, med den angivne kombinationsstørrelse, <code>combinationSize</code>.<ul>    <li><code>setSize</code>: Antallet af elementer på listen.</li>    <li><code>combinationSize</code>: Antallet af elementer i de enkelte kombinationer.</li></ul>
 

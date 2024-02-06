@@ -5,8 +5,6 @@ title: Record.AddField
 # Record.AddField
 
 
-## Description
-
 Lägger till ett fält i en post.
 
 
@@ -22,7 +20,7 @@ Record.AddField(
 ```
 
 
-## Details
+## Remarks
 
 Lägger till ett fält i en post, <code>record</code>, baserat på namnet på fältet <code>fieldName</code> och värdet <code>value</code>.
 

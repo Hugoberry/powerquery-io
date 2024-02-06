@@ -5,8 +5,6 @@ title: Text.Format
 # Text.Format
 
 
-## Description
-
 Retourne le texte mis en forme à partir d&#39;une chaîne de format et d&#39;arguments.
 
 
@@ -21,7 +19,7 @@ Text.Format(
 ```
 
 
-## Details
+## Remarks
 
 Retourne le texte mis en forme qui est créé par l'application <code>arguments</code> d'une liste ou d'un enregistrement vers une chaîne de format <code>formatString</code>. Un <code>culture</code> facultatif peut éventuellement être fourni (par exemple, "fr-fr").
 

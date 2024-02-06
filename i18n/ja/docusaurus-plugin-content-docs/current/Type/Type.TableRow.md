@@ -5,8 +5,6 @@ title: Type.TableRow
 # Type.TableRow
 
 
-## Description
-
 テーブル タイプの列のタイプを返します。
 
 
@@ -19,7 +17,7 @@ Type.TableRow(
 ```
 
 
-## Details
+## Remarks
 
 指定されたテーブル タイプの行のタイプを返します。結果は常にレコード タイプです。
 

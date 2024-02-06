@@ -5,8 +5,6 @@ title: List.PositionOf
 # List.PositionOf
 
 
-## Description
-
 Retourneert de verschuiving of verschuivingen van een waarde in een lijst.
 
 
@@ -22,7 +20,7 @@ List.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt de offset geretourneerd waarbij de waarde <code>value</code> wordt weergegeven in de lijst <code>list</code>. Retourneert -1 als de waarde niet wordt weergegeven. Een optionele herhalingsparameter <code>occurrence</code> kan worden opgegeven.<ul> <li><code>occurrence</code>: het maximumaantal herhalingen dat moet worden gerapporteerd.</li></ul>
 

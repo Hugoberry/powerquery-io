@@ -5,8 +5,6 @@ title: Time.ToText
 # Time.ToText
 
 
-## Description
-
 Returnerer en tekstrepræsentation for klokkeslætsværdien.
 
 
@@ -21,7 +19,7 @@ Time.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tekstrepræsentation af <code>time</code>. Der kan angives en valgfri <code>record</code> parameter, <code>options</code>, for at angive yderligere egenskaber. <code>culture</code> bruges kun til ældre arbejdsprocesser. <code>The record</code> kan indeholde følgende felter:<ul>   <li><code>Format</code>: En <code>tekstværdi</code>, som angiver det format, der skal bruges. Du kan få flere oplysninger ved at gå til https://go.microsoft.com/fwlink/?linkid=2180104 og https://go.microsoft.com/fwlink/?linkid=2180105. Hvis du udelader dette felt eller angiver <code>null</code> medfører det, at datoen formateres ved hjælp af den standard, der er defineret af <code>Culture</code>.</li>   <li><code>Culture</code>: Når <code>Format</code> ikke er null,  <code>Culture</code> styrer nogle formatangivelser. For eksempel i <code>"en-US"</code> <code>"tt"</code> er <code>"AM" eller "PM"</code> i <code>"ar-EG"</code> <code>"tt"</code> er <code>"ص" eller "م"</code>. Når <code>Format</code> er <code>null</code>, styrer <code>Culture</code> det standardformat, der skal bruges. Når <code>Culture</code> <code>null</code> eller udelades, bruges <code>Culture.Current</code>.</li></ul>Hvis du vil understøtte ældre arbejdsprocesser, kan <code>options</code> og <code>culture</code> også være tekstværdier. Dette har samme funktionsmåde, som hvis <code>options</code><code> = [Format = <code>options</code>, Culture = <code>culture</code>]</code>.
 

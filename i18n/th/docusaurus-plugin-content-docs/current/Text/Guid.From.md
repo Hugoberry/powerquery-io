@@ -5,8 +5,6 @@ title: Guid.From
 # Guid.From
 
 
-## Description
-
 ส่งกลับค่า guid จากค่าที่กำหนด
 
 
@@ -19,7 +17,7 @@ Guid.From(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่า <code>Guid.Type</code> จาก <code>value</code> ที่กำหนด ถ้า <code>value</code> ที่กำหนดเป็น <code>null</code> <code>Guid.From</code> จะส่งกลับค่า <code>null</code>  จะมีดำเนินการตรวจสอบเพื่อกำหนดว่า <code>value</code> ที่กำหนดอยู่ในรูปแบบที่ยอมรับได้หรือไม่ รูปแบบที่ยอมรับได้มีอยู่ในตัวอย่าง
 

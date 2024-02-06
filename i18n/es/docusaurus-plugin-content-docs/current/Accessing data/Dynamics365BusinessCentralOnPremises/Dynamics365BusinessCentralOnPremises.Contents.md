@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentralOnPremises.Contents
 # Dynamics365BusinessCentralOnPremises.Contents
 
 
-## Description
-
 Escriba la URL del punto de conexión de su servicio OData para Dynamics 365 Business Central (local).
 
 
@@ -20,7 +18,7 @@ Dynamics365BusinessCentralOnPremises.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una tabla con los datos pertinentes de Dynamics 365 Business Central (local). 
 

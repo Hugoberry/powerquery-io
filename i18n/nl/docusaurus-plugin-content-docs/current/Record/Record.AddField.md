@@ -5,8 +5,6 @@ title: Record.AddField
 # Record.AddField
 
 
-## Description
-
 Voegt een veld aan een record toe.
 
 
@@ -22,7 +20,7 @@ Record.AddField(
 ```
 
 
-## Details
+## Remarks
 
 Voegt een veld aan een record <code>record</code> toe op basis van de naam van het veld <code>fieldName</code> en de waarde <code>value</code>.
 

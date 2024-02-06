@@ -5,8 +5,6 @@ title: Text.Insert
 # Text.Insert
 
 
-## Description
-
 แทรกค่าข้อความหนึ่งลงในอีกค่าในตำแหน่งที่กำหนด
 
 
@@ -21,7 +19,7 @@ Text.Insert(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลลัพธ์ของการแทรกค่าข้อความ <code>newText</code> ลงในค่าข้อความ <code>text</code> ที่ตำแหน่ง <code>offset</code> ตำแหน่งเริ่มต้นที่ตัวเลข 0
 

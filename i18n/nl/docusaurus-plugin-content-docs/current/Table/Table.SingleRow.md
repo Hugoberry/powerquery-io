@@ -5,8 +5,6 @@ title: Table.SingleRow
 # Table.SingleRow
 
 
-## Description
-
 Retourneert één rij uit de tabel.
 
 
@@ -19,7 +17,7 @@ Table.SingleRow(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de enkele rij in de ene rij <code>table</code>. Als er in de <code>table</code> meer rijen staan, wordt er een uitzondering gegenereerd.
 

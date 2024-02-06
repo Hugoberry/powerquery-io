@@ -5,8 +5,6 @@ title: Number.IsOdd
 # Number.IsOdd
 
 
-## Description
-
 Indica se o valor é ímpar.
 
 
@@ -19,7 +17,7 @@ Number.IsOdd(
 ```
 
 
-## Details
+## Remarks
 
 Indica se o valor é ímpar. Devolve <code>true</code> se <code>number</code> for um número ímpar; caso contrário, devolve <code>false</code>.
 

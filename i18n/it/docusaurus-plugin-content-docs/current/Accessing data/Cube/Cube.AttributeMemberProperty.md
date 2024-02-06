@@ -5,8 +5,6 @@ title: Cube.AttributeMemberProperty
 # Cube.AttributeMemberProperty
 
 
-## Description
-
 Restituisce una proprietà di un attributo dimensione.
 
 
@@ -20,7 +18,7 @@ Cube.AttributeMemberProperty(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce la proprietà <code>propertyName</code> dell'attributo dimensione <code>attribute</code>.
 

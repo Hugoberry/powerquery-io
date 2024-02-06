@@ -5,8 +5,6 @@ title: Number.Ln
 # Number.Ln
 
 
-## Description
-
 数値の自然対数を返します。
 
 
@@ -19,7 +17,7 @@ Number.Ln(
 ```
 
 
-## Details
+## Remarks
 
 数値 <code>number</code> の自然対数を返します。<code>number</code> が NULL の場合、<code>Number.Ln</code> は NULL を返します。
 

@@ -5,8 +5,6 @@ title: Diagnostics.Trace
 # Diagnostics.Trace
 
 
-## Description
-
 Schreibt einen Ablaufverfolgungseintrag, wenn die Ablaufverfolgung aktiviert ist, und gibt den Wert zurück.
 
 
@@ -22,7 +20,7 @@ Diagnostics.Trace(
 ```
 
 
-## Details
+## Remarks
 
 Schreibt einen Ablaufverfolgungseintrag "<code>message</code>", wenn die Ablaufverfolgung aktiviert ist, und gibt "<code>value</code>" zurück. Ein optionaler Parameter "<code>delayed</code>" gibt an, ob die Auswertung von "<code>value</code>" verzögert werden soll, bis die Nachricht nachverfolgt wurde. "<code>traceLevel</code>" kann einen der folgenden Werte annehmen:    <code>TraceLevel.Critical</code>    <code>TraceLevel.Error</code>,    <code>TraceLevel.Warning</code>,    <code>TraceLevel.Information</code>,    <code>TraceLevel.Verbose</code>.  
 

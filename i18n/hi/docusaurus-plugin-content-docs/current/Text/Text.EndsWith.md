@@ -5,8 +5,6 @@ title: Text.EndsWith
 # Text.EndsWith
 
 
-## Description
-
 इंगित करता है कि क्या पाठ निर्दिष्ट मान पर समाप्त होता है.
 
 
@@ -21,7 +19,7 @@ Text.EndsWith(
 ```
 
 
-## Details
+## Remarks
 
 बताता है कि दिया गया पाठ, <code>text</code>, निर्दिष्ट मान से समाप्त होता है या नहीं, <code>substring</code>. संकेत केस संवेदनशील है.      <div>        <code>comparer</code> एक <code>Comparer</code> है जिसका तुलना को नियंत्रित करने के लिए उपयोग किया जाता है. तुलनाकर्ता केस-असंवेदनशील या कल्चर और लोकेल-संवेदी तुलना प्रदान करने के लिए उपयोग किए जा सकते हैं.      </div>      <div>          निम्नलिखित बिल्ट-इन तुलनाकर्ता सूत्र भाषा में उपलब्ध है:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: सटीक क्रम तुलना पूरी करने के लिए उपयोग किया गया</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: सटीक क्रम केस-असंवेदनशील तुलना पूरी करने के लिए उपयोग किया गया</li>        <li> <code>Comparer.FromCulture</code>: कल्चर-संवेदी तुलना करने के लिए उपयोग किया गया</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Table.ToRecords
 # Table.ToRecords
 
 
-## Description
-
 तालिका को रिकॉर्ड की सूची में रूपांतरित करता है.
 
 
@@ -19,7 +17,7 @@ Table.ToRecords(
 ```
 
 
-## Details
+## Remarks
 
 तालिका, <code>table</code>, को रिकॉर्ड की सूची में रूपांतरित करता है.
 

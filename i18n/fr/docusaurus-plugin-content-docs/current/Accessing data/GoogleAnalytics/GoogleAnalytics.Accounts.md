@@ -5,8 +5,6 @@ title: GoogleAnalytics.Accounts
 # GoogleAnalytics.Accounts
 
 
-## Description
-
 Retourne des comptes Google Analytics.
 
 
@@ -19,7 +17,7 @@ GoogleAnalytics.Accounts(
 ```
 
 
-## Details
+## Remarks
 
 Retourne des comptes Google Analytics qui sont accessibles via les informations d'identification actuelles.
 

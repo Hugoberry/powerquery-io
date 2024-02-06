@@ -5,8 +5,6 @@ title: Table.FromRows
 # Table.FromRows
 
 
-## Description
-
 Satır değerlerinin ve isteğe bağlı sütunların bulunduğu listeden bir tablo oluşturur
 
 
@@ -20,7 +18,7 @@ Table.FromRows(
 ```
 
 
-## Details
+## Remarks
 
 <code>rows</code> listesinden listenin her öğesinin tek bir satır için sütun değerlerini içerdiği bir tablo oluşturur. <code>columns</code> için sütun adlarının isteğe bağlı bir listesi, tablo türü veya sütun sayısı sağlanabilir.
 

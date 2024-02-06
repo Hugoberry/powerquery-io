@@ -5,8 +5,6 @@ title: Table.ReverseRows
 # Table.ReverseRows
 
 
-## Description
-
 Retourneert een tabel met de rijen in de omgekeerde volgorde.
 
 
@@ -19,7 +17,7 @@ Table.ReverseRows(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een tabel met de rijen vanuit de invoer <code>table</code> in de omgekeerde volgorde.
 

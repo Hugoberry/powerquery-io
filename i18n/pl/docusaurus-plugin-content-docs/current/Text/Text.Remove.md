@@ -5,8 +5,6 @@ title: Text.Remove
 # Text.Remove
 
 
-## Description
-
 Usuwa wszystkie wystąpienia danego znaku lub listy znaków z wejściowej wartości tekstowej.
 
 
@@ -20,7 +18,7 @@ Text.Remove(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca kopię wartości tekstowej <code>text</code>, z której zostały usunięte wszystkie znaki od <code>removeChars</code>.  
 

@@ -5,8 +5,6 @@ title: Number.RoundUp
 # Number.RoundUp
 
 
-## Description
-
 Zwraca następną największą liczbę. Można określić liczbę miejsc po przecinku.
 
 
@@ -20,7 +18,7 @@ Number.RoundUp(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wynik zaokrąglenia liczby <code>number</code> w górę do następnej najwyższej liczby całkowitej. Jeśli parametr <code>number</code> ma wartość null, to funkcja zwróci wartość null. Jeśli parametr <code>digits</code> jest określony, liczba <code>number</code> jest zaokrąglana do określonej liczby miejsc po przecinku.
 

@@ -5,8 +5,6 @@ title: Binary.From
 # Binary.From
 
 
-## Description
-
 Создает двоичное значение из заданного значения
 
 
@@ -20,7 +18,7 @@ Binary.From(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает значение <code>binary</code>, полученное из предоставленного значения <code>value</code>. Если данное <code>value</code> равно <code>NULL</code>, то <code>Binary.From</code> возвращает <code>NULL</code>. Если данное <code>value</code> представляет собой значение <code>binary</code>, то <code>value</code> и возвращается. Преобразовать в <code>binary</code> можно значения следующих типов:      <ul>        <li><code>text</code>. Значение <code>binary</code> берется из текстового представления. Подробнее см. <code>Binary.FromText</code>.</li>      </ul>Если <code>value</code> имеет какой-либо другой тип, возвращается ошибка.
 

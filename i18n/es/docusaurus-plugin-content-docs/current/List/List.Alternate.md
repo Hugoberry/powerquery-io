@@ -5,8 +5,6 @@ title: List.Alternate
 # List.Alternate
 
 
-## Description
-
 Devuelve una lista formada por todos los elementos de desplazamiento con numeración impar de una lista.
 
 
@@ -22,7 +20,7 @@ List.Alternate(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una lista formada por todos los elementos de desplazamiento con numeración impar de una lista. Alterna entre tomar y omitir los valores de la lista <code>list</code> en función de los parámetros.    <ul>    <li><code>count</code>: especifica el número de valores que se omiten cada vez.</li>    <li><code>repeatInterval</code>: un intervalo opcional de repetición para indicar cuántos valores se agregan entre los valores omitidos.</li>    <li><code>offset</code>: un parámetro de desplazamiento opcional para comenzar a omitir los valores en el desplazamiento inicial.</li>    </ul>
 

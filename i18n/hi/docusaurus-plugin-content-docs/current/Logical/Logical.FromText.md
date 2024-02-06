@@ -5,8 +5,6 @@ title: Logical.FromText
 # Logical.FromText
 
 
-## Description
-
 पाठ मानों &#34;true&#34; और &#34;false&#34; से एक तार्किक मान बनाता है.
 
 
@@ -19,7 +17,7 @@ Logical.FromText(
 ```
 
 
-## Details
+## Remarks
 
 पाठ मान <code>text</code>, से एक तार्किक मान "true" या "false" बनाता है. अगर <code>text</code> में एक भिन्न स्ट्रिंग है, तो एक अपवाद दिखाया जाता है. पाठ मान <code>text</code>, केस संवेदी है.
 

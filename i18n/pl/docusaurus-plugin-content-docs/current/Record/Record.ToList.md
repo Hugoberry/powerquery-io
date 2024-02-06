@@ -5,8 +5,6 @@ title: Record.ToList
 # Record.ToList
 
 
-## Description
-
 Zwraca listę wartości zawierającą wartości pól rekordu wejściowego.
 
 
@@ -19,7 +17,7 @@ Record.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca listę wartości zawierającą wartości pól z rekordu wejściowego <code>record</code>.
 

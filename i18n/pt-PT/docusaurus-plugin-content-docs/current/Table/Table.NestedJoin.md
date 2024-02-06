@@ -5,8 +5,6 @@ title: Table.NestedJoin
 # Table.NestedJoin
 
 
-## Description
-
 Efetua uma junção entre as tabelas nas colunas fornecidas e produz o resultado da junção numa nova coluna.
 
 
@@ -25,7 +23,7 @@ Table.NestedJoin(
 ```
 
 
-## Details
+## Remarks
 
 Associa as linhas de <code>table1</code> com as linhas de <code>table2</code> com base na igualdade dos valores das colunas chave selecionadas por <code>key1</code> (para <code>table1</code>) e <code>key2</code> (para <code>table2</code>). Os resultados são introduzidos na coluna com o nome <code>newColumnName</code>.<br />O <code>joinKind</code> opcional especifica o tipo de associação a efetuar. Por predefinição, é efetuada uma associação externa à esquerda se não for especificado um <code>joinKind</code>.<br />Pode ser incluído um conjunto otimizado de <code>keyEqualityComparers</code> para especificar como comparar as colunas chave. Atualmente, esta funcionalidade destina-se apenas a utilização interna.<br />  
 

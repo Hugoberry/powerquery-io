@@ -5,8 +5,6 @@ title: Splitter.SplitTextByDelimiter
 # Splitter.SplitTextByDelimiter
 
 
-## Description
-
 返回一个函数，它根据指定的分隔符将文本拆分为文本列表。
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 返回一个函数，它根据指定的分隔符将文本拆分为文本列表。
 

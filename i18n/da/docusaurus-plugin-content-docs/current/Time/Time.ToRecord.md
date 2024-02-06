@@ -5,8 +5,6 @@ title: Time.ToRecord
 # Time.ToRecord
 
 
-## Description
-
 Returnerer en post, der indeholder delene fra klokkeslætsværdien.
 
 
@@ -19,7 +17,7 @@ Time.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en post, der indeholder delene fra en bestemt klokkeslætsværdi, <code>time</code>. <ul>        <li><code>time</code>: En værdi af typen <code>time</code>, som delenes post skal beregnes ud fra.</li>      </ul>
 

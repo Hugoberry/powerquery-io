@@ -5,8 +5,6 @@ title: Table.ExpandListColumn
 # Table.ExpandListColumn
 
 
-## Description
-
 Cho một cột danh sách trong một bảng, hãy tạo một bản sao của một hàng cho mỗi giá trị trong danh sách.
 
 
@@ -20,7 +18,7 @@ Table.ExpandListColumn(
 ```
 
 
-## Details
+## Remarks
 
 Cho <code>table</code> trong đó <code>column</code> là danh sách giá trị, hãy tách danh sách này thành một hàng cho mỗi giá trị. Giá trị trong các cột khác được sao chép trong từng hàng mới được tạo.
 

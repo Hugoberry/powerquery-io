@@ -5,8 +5,6 @@ title: VSTS.Views
 # VSTS.Views
 
 
-## Description
-
 ใส่ชื่อองค์กรและโครงการ
 
 
@@ -22,7 +20,7 @@ VSTS.Views(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางฟีด OData ที่เสนอโดย Azure DevOps
 

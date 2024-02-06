@@ -5,8 +5,6 @@ title: Table.Split
 # Table.Split
 
 
-## Description
-
 Unterteilt die angegebene Tabelle anhand der angegebenen Seitengröße in eine Liste von Tabellen.
 
 
@@ -20,7 +18,7 @@ Table.Split(
 ```
 
 
-## Details
+## Remarks
 
 Unterteilt <code>table</code> in eine Liste von Tabellen. Hierbei ist das erste Element der Liste eine Tabelle, die die ersten <code>pageSize</code> Zeilen aus    der Quelltabelle enthält. Das nächste Element der Liste ist eine Tabelle mit den nächsten <code>pageSize</code> Zeilen aus der Quelltabelle usw..
 

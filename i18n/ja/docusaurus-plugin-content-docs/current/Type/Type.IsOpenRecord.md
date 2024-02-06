@@ -5,8 +5,6 @@ title: Type.IsOpenRecord
 # Type.IsOpenRecord
 
 
-## Description
-
 レコード型が OPEN かどうかを返します。
 
 
@@ -19,7 +17,7 @@ Type.IsOpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 レコード <code>type</code> が OPEN かどうかを示す <code>logical</code> を返します。
 

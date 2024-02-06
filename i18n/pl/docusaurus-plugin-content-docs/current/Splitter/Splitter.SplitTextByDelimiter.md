@@ -5,8 +5,6 @@ title: Splitter.SplitTextByDelimiter
 # Splitter.SplitTextByDelimiter
 
 
-## Description
-
 Zwraca funkcję dzielącą tekst na listę wartości tekstowych w miejscach występowania określonego ogranicznika.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca funkcję dzielącą tekst na listę wartości tekstowych w miejscach występowania określonego ogranicznika.
 

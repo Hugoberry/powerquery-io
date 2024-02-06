@@ -5,8 +5,6 @@ title: Type.AddTableKey
 # Type.AddTableKey
 
 
-## Description
-
 向给定表类型添加键。
 
 
@@ -21,7 +19,7 @@ Type.AddTableKey(
 ```
 
 
-## Details
+## Remarks
 
 向给定表类型添加键。
 

@@ -5,8 +5,6 @@ title: Date.AddQuarters
 # Date.AddQuarters
 
 
-## Description
-
 เพิ่มไตรมาสที่ระบุลงในวันที่
 
 
@@ -20,7 +18,7 @@ Date.AddQuarters(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลลัพธ์ <code>date</code>, <code>datetime</code> หรือ <code>datetimezone</code> จากการเพิ่ม <code>numberOfQuarters</code> ไตรมาสลงในค่า <code>datetime</code> <code>dateTime</code>      <ul>      <li><code>dateTime</code>: ค่า <code>date</code>, <code>datetime</code> หรือ <code>datetimezone</code> ที่ไตรมาสถูกเพิ่ม</li>      <li><code>numberOfQuarters</code>: จำนวนไตรมาสที่จะเพิ่ม</li>      </ul>
 

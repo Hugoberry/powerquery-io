@@ -5,8 +5,6 @@ title: Table.AddRankColumn
 # Table.AddRankColumn
 
 
-## Description
-
 Fügt eine Spalte mit der Rangfolge einer oder mehrerer anderer Spalten an.
 
 
@@ -22,7 +20,7 @@ Table.AddRankColumn(
 ```
 
 
-## Details
+## Remarks
 
 Fügt eine Spalte mit dem Namen <code>newColumnName</code> an die <code>table</code> mit der Rangfolge einer oder mehrerer anderer Spalten an, die von <code>comparisonCriteria</code> beschrieben werden.Die RankKind-Option in <code>options</code> kann von fortgeschrittenen Benutzern verwendet werden, um eine spezifischere Rangfolgemethode auszuwählen.
 

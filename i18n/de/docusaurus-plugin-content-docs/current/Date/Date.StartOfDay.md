@@ -5,8 +5,6 @@ title: Date.StartOfDay
 # Date.StartOfDay
 
 
-## Description
-
 Gibt den Beginn des Tages zurück.
 
 
@@ -19,7 +17,7 @@ Date.StartOfDay(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Beginn des Tags, der durch <code>dateTime</code> dargestellt wird, zurück.    <code>dateTime</code> muss ein <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert sein.
 

@@ -5,8 +5,6 @@ title: Cube.Measures
 # Cube.Measures
 
 
-## Description
-
 Returnerer en tabel, der indeholder sættet af tilgængelige målinger.
 
 
@@ -19,7 +17,7 @@ Cube.Measures(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel, der indeholder sættet af tilgængelige målinger i <code>cube</code>.     De enkelte målinger vises som en funktion. Målinger kan anvendes på kuben ved hjælp af Cube.AddMeasureColumn.
 

@@ -5,8 +5,6 @@ title: Type.IsNullable
 # Type.IsNullable
 
 
-## Description
-
 Trả về true nếu loại là loại có thể vô giá trị; nếu không sẽ là false.
 
 
@@ -19,7 +17,7 @@ Type.IsNullable(
 ```
 
 
-## Details
+## Remarks
 
 Trả về <code>true</code> nếu loại là loại <code>có thể vô giá trị</code>; nếu không sẽ là <code>false</code>.
 

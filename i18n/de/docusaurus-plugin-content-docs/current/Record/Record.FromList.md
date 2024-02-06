@@ -5,8 +5,6 @@ title: Record.FromList
 # Record.FromList
 
 
-## Description
-
 Gibt einen Datensatz basierend auf einer Liste von Feldwerten und einer Gruppe von Feldern zurück.
 
 
@@ -20,7 +18,7 @@ Record.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen Datensatz basierend auf einem/r <code>list</code> von Feldwerten und einer Gruppe von Feldern zurück.  <code>fields</code> kann entweder durch eine Liste von Textwerten oder einen Datensatztyp angegeben werden.  Ein Fehler wird ausgegeben, wenn die Felder nicht eindeutig sind.
 

@@ -5,8 +5,6 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-## Description
-
 Smartsheet API से पत्रकों, रिपोर्ट्स, फ़ोल्डर्स और कार्यस्थानों की एक तालिका लौटाता है
 
 
@@ -19,7 +17,7 @@ Smartsheet.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Smartsheet API से उपलब्ध पत्रकों, रिपोर्ट्स, फ़ोल्डर्स और कार्यस्थानों की एक नेस्टेड तालिका लौटाता है.
 

@@ -5,8 +5,6 @@ title: Table.PrefixColumns
 # Table.PrefixColumns
 
 
-## Description
-
 返回一个表，其中所有列均以给定的文本为前缀。
 
 
@@ -20,7 +18,7 @@ Table.PrefixColumns(
 ```
 
 
-## Details
+## Remarks
 
 返回一个表，其中来自所提供的 <code>table</code> 中的所有列名均以给定的文本 <code>prefix</code> 为前缀，另加一个采用格式 <code>prefix</code><code>.ColumnName</code> 的句点。
 

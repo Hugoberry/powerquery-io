@@ -5,8 +5,6 @@ title: List.SingleOrDefault
 # List.SingleOrDefault
 
 
-## Description
-
 為長度 1 的清單傳回一個清單項目，並為空的清單傳回預設值。
 
 
@@ -20,7 +18,7 @@ List.SingleOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 如果清單 <code>list</code> 中只有一個項目，即傳回該項目。    如果清單是空的，則除非指定了選擇性的 <code>default</code>，否則函數會傳回 null。如果清單中不止一個項目，函數會傳回錯誤。
 

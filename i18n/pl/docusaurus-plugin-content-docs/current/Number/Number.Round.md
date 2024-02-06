@@ -5,8 +5,6 @@ title: Number.Round
 # Number.Round
 
 
-## Description
-
 Zwraca zaokrągloną liczbę. Można określić liczbę cyfr i tryb zaokrąglania.
 
 
@@ -21,7 +19,7 @@ Number.Round(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wynik zaokrąglenia <code>number</code> do najbliższej liczby. Jeśli <code>number</code> ma wartość null, funkcja <code>Number.Round</code> zwraca wartość null.<br />      <br />      Domyślnie wartość <code>number</code> jest zaokrąglana do najbliższej liczby całkowitej, a powiązania są przerywane przez zaokrąglenie do najbliższej liczby parzystej (przy użyciu funkcji <code>RoundingMode.ToEven</code>, zwanego także „zaokrągleniem bankowym”.<br />      <br />      Te ustawienia domyślne można jednak zastąpić następującymi parametrami opcjonalnymi.       <ul>        <li><code>digits</code>: powoduje zaokrąglanie wartości <code>number</code> do określonej liczby dziesiętnej.</li>        <li><code>roundingMode</code>: zastępuje domyślne zachowanie przerwania połączenia, gdy wartość <code>number</code> znajduje się w punkcie środkowym między dwiema potencjalnie zaokrąglonymi wartościami      (zobacz funkcję <code>RoundingMode.Type</code> pod kątem możliwych wartości).</li>      </ul>
 

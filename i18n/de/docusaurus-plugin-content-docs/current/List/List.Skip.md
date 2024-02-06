@@ -5,8 +5,6 @@ title: List.Skip
 # List.Skip
 
 
-## Description
-
 Gibt eine Liste zurück, in der die angegebene Anzahl von Elementen am Listenanfang übersprungen wird.
 
 
@@ -20,7 +18,7 @@ List.Skip(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Liste zurück, in der das erste Element der Liste "<code>list</code>" übersprungen wird. Ist die Liste "<code>list</code>" leer, wird eine leere Liste zurückgegeben.Diese Funktion akzeptiert einen optionalen Parameter (<code>countOrCondition</code>) zum Überspringen mehrerer Werte, wie in der folgenden Liste erläutert: <ul> <li>Bei Angabe einer Zahl wird die entsprechende Anzahl von Elementen übersprungen. </li> <li>Bei Angabe einer Bedingung beginnt die Liste mit dem ersten Element aus "<code>list</code>", das die Kriterien erfüllt. Erfüllt ein Element die Bedingung nicht, werden ab diesem Punkt keine weiteren Elemente berücksichtigt. </li> <li>Ist dieser Parameter NULL, wird das Standardverhalten verwendet. </li> </ul>
 

@@ -5,8 +5,6 @@ title: Table.AddJoinColumn
 # Table.AddJoinColumn
 
 
-## Description
-
 Thực hiện nối các bảng trên các cột được cung cấp và cho ra kết quả nối trong một cột mới.
 
 
@@ -23,7 +21,7 @@ Table.AddJoinColumn(
 ```
 
 
-## Details
+## Remarks
 
 Nối các hàng của <code>table1</code> với các hàng của <code>table2</code> dựa trên đẳng thức của các giá trị của các cột khóa được chọn bởi <code>key1</code> (cho <code>table1</code>) và <code>key2</code> (cho <code>table2</code>). Kết quả được nhập vào cột có tên <code>newColumnName</code>.Hàm này hoạt động tương tự như Table.Join với JoinKind là LeftOuter ngoại trừ kết quả nối được trình bày theo kiểu lồng nhau chứ không phải kiểu làm phẳng.
 

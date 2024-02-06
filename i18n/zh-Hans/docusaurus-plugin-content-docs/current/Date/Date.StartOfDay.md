@@ -5,8 +5,6 @@ title: Date.StartOfDay
 # Date.StartOfDay
 
 
-## Description
-
 返回天开始值。
 
 
@@ -19,7 +17,7 @@ Date.StartOfDay(
 ```
 
 
-## Details
+## Remarks
 
 返回 <code>dateTime</code> 表示的天开始值。    <code>dateTime</code> 必须是 <code>date</code>、<code>datetime</code>或<code>datetimezone</code>值。
 

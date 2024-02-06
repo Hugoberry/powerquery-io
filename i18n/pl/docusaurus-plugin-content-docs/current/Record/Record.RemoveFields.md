@@ -5,8 +5,6 @@ title: Record.RemoveFields
 # Record.RemoveFields
 
 
-## Description
-
 Usuwa określone pola z rekordu wejściowego.
 
 
@@ -21,7 +19,7 @@ Record.RemoveFields(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca rekord powstały przez usunięcie z rekordu wejściowego <code>record</code> wszystkich pól określonych na liście <code>fields</code>. Jeśli określone pole nie istnieje, jest zwracany wyjątek.
 

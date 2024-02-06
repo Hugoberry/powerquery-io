@@ -5,8 +5,6 @@ title: BinaryFormat.Transform
 # BinaryFormat.Transform
 
 
-## Description
-
 Başka bir ikili biçimi tarafından okunan değerleri dönüştüren bir ikili biçimini döndürür.
 
 
@@ -20,7 +18,7 @@ BinaryFormat.Transform(
 ```
 
 
-## Details
+## Remarks
 
 Başka bir ikili biçimi tarafından okunan değerleri dönüştüren bir ikili biçimini döndürür.  <code>binaryFormat</code> parametresi değeri okumak için kullanılacak ikili biçimi belirtir.  <code>function</code> okunan değerle çağrılır ve dönüştürülen değeri döndürür.
 

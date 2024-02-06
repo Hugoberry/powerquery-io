@@ -5,8 +5,6 @@ title: List.PositionOfAny
 # List.PositionOfAny
 
 
-## Description
-
 Devolve o primeiro desvio de um valor numa lista.
 
 
@@ -22,7 +20,7 @@ List.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o desvio na lista <code>list</code> da primeira ocorrência de um valor numa lista <code>values</code>. Devolve -1 se não for encontrada nenhuma ocorrência.    É possível especificar um parâmetro de ocorrência opcional <code>occurrence</code>.<ul>   <li><code>occurrence</code>: o número máximo de ocorrências que podem ser devolvidas.</li></ul>
 

@@ -5,8 +5,6 @@ title: Table.Column
 # Table.Column
 
 
-## Description
-
 將資料表中的指定資料行傳回成清單。
 
 
@@ -20,7 +18,7 @@ Table.Column(
 ```
 
 
-## Details
+## Remarks
 
 將資料表 <code>table</code> 中 <code>column</code> 所指定的資料行傳回成清單。
 

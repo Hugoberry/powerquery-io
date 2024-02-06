@@ -5,8 +5,6 @@ title: Record.RemoveFields
 # Record.RemoveFields
 
 
-## Description
-
 Удаляет указанные поля из входной записи.
 
 
@@ -21,7 +19,7 @@ Record.RemoveFields(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает запись, которая удаляет все поля, указанные в списке <code>fields</code>, из входных данных <code>record</code>. Если указанное поле не существует, возникает исключение.
 

@@ -5,8 +5,6 @@ title: Table.RemoveColumns
 # Table.RemoveColumns
 
 
-## Description
-
 Verwijdert de opgegeven kolommen.
 
 
@@ -21,7 +19,7 @@ Table.RemoveColumns(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee verwijdert u de opgegeven <code>columns</code> uit de aangeleverde <code>table</code>.    Als de opgegeven kolom niet bestaat, wordt er een fout gegenereerd, tenzij de optionele parameter <code>missingField</code> een alternatief gedrag opgeeft (bijvoorbeeld <code>MissingField.UseNull</code> of <code>MissingField.Ignore</code>).
 

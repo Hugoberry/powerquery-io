@@ -5,8 +5,6 @@ title: Date.EndOfQuarter
 # Date.EndOfQuarter
 
 
-## Description
-
 Returnerer slutningen af kvartalet.
 
 
@@ -19,7 +17,7 @@ Date.EndOfQuarter(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer slutningen af det kvartal, der indeholder <code>dateTime</code>. Oplysninger om tidszone bevares.      <ul>      <li><code>dateTime</code>: En værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>, som slutningen af kvartalet beregnes ud fra.</li>      </ul>
 

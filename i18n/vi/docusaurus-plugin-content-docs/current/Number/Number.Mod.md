@@ -5,8 +5,6 @@ title: Number.Mod
 # Number.Mod
 
 
-## Description
-
 Số nguyên chia hai số và trả về số dư.
 
 
@@ -21,7 +19,7 @@ Number.Mod(
 ```
 
 
-## Details
+## Remarks
 
 Trả về số dư trong kết quả chia số nguyên của <code>number</code> cho <code>divisor</code>.    Nếu <code>number</code> hoặc <code>divisor</code> là giá trị null thì <code>Number.Mod</code> trả về giá trị null.      <ul>        <li><code>number</code>: Số bị chia.</li>        <li><code>divisor</code>: Số chia.</li>      </ul>
 

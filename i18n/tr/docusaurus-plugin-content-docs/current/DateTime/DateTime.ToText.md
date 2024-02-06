@@ -5,8 +5,6 @@ title: DateTime.ToText
 # DateTime.ToText
 
 
-## Description
-
 datetime değerinin metinsel gösterimini döndürür.
 
 
@@ -21,7 +19,7 @@ DateTime.ToText(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> öğesinin metin gösterimini döndürür. Ek özellikleri belirtmek için isteğe bağlı bir <code>record</code> parametresi (<code>options</code>) sağlanabilir. <code>culture</code> yalnızca eski iş akışları için kullanılır. <code>Record</code> şu alanları içerebilir:<ul>   <li><code>Format</code>: Kullanılacak biçimi gösteren <code>text</code> değeri. Diğer ayrıntılar için https://go.microsoft.com/fwlink/?linkid=2180104 ve https://go.microsoft.com/fwlink/?linkid=2180105 adreslerine gidin. Bu alanın atlanması veya <code>null</code> sağlanması, tarihin <code>Culture</code> tarafından tanımlanan varsayılan kullanılarak biçimlendirilmesiyle sonuçlanır.</li>   <li><code>Culture</code>: <code>Format</code> null olmadığında <code>Culture</code> bazı biçim tanımlayıcılarını denetler. Örneğin, <code>"tr-TR"</code> için <code>"MMM"</code> <code>"Oca", "Şub", "Mar", ...</code> iken <code>"ru-RU"</code> için <code>"MMM"</code> <code>"янв", "фев", "мар", ...</code> olur. <code>Format</code> <code>null</code> olduğunda, kullanılacak varsayılan biçimi <code>Culture</code> denetler. <code>Culture</code> <code>null</code> olduğunda veya atlandığında <code>Culture.Current</code> kullanılır.</li></ul>Eski iş akışlarını desteklemek için <code>options</code> ve <code>culture</code> metin değerleri de olabilir. Bunun davranışı <code>options</code><code> = [Format = <code>options</code>, Culture = <code>culture</code>]</code> ile aynıdır.
 

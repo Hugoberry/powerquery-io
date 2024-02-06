@@ -5,8 +5,6 @@ title: BinaryFormat.Single
 # BinaryFormat.Single
 
 
-## Description
-
 读取 4 字节 IEEE 单精度浮点值的二进制格式。
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Single(
 ```
 
 
-## Details
+## Remarks
 
 读取 4 字节 IEEE 单精度浮点值的二进制格式。
 

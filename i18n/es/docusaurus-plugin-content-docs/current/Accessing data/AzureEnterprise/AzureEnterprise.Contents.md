@@ -5,8 +5,6 @@ title: AzureEnterprise.Contents
 # AzureEnterprise.Contents
 
 
-## Description
-
 Escriba la dirección URL del punto de conexión de la API de REST de Azure Enterprise que se ha asociado a su inscripción
 
 
@@ -20,7 +18,7 @@ AzureEnterprise.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve los resultados binarios de la llamada a la dirección URL que se ha proporcionado para la API de Azure Enterprise.
 

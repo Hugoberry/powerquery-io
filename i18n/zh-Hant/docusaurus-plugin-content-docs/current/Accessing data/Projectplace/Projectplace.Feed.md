@@ -5,8 +5,6 @@ title: Projectplace.Feed
 # Projectplace.Feed
 
 
-## Description
-
 請輸入您 Planview Projectplace 帳戶的 URL。
 
 
@@ -19,7 +17,7 @@ Projectplace.Feed(
 ```
 
 
-## Details
+## Remarks
 
 傳回具有相關 Planview Projectplace 資料的資料表。
 

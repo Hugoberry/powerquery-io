@@ -5,8 +5,6 @@ title: Table.IsEmpty
 # Table.IsEmpty
 
 
-## Description
-
 Wskazuje, czy tabela zawiera jakiekolwiek wiersze.
 
 
@@ -19,7 +17,7 @@ Table.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 Wskazuje, czy tabela <code>table</code> zawiera jakiekolwiek wiersze. Zwraca wartość <code>true</code>, jeśli tabela nie zawiera żadnych wierszy (jest pusta); w przeciwnym razie zwraca wartość <code>false</code>.
 

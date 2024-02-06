@@ -5,8 +5,6 @@ title: BinaryFormat.Byte
 # BinaryFormat.Byte
 
 
-## Description
-
 รูปแบบไบนารีที่อ่านจำนวนเต็มที่ไม่มีเครื่องหมาย 8 บิต
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Byte(
 ```
 
 
-## Details
+## Remarks
 
 รูปแบบไบนารีที่อ่านจำนวนเต็มที่ไม่มีเครื่องหมาย 8 บิต
 

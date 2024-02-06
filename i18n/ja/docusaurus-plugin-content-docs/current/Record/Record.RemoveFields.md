@@ -5,8 +5,6 @@ title: Record.RemoveFields
 # Record.RemoveFields
 
 
-## Description
-
 指定されたフィールドを入力レコードから削除します。
 
 
@@ -21,7 +19,7 @@ Record.RemoveFields(
 ```
 
 
-## Details
+## Remarks
 
 入力 <code>record</code> からリスト <code>fields</code> で指定されたすべてのフィールドを削除したレコードを返します。指定されたフィールド名が存在しなかった場合は、例外がスローされます。
 

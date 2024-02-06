@@ -18,7 +18,7 @@ VivaInsights.Data(
 ```
 
 
-## Details
+## Remarks
 
 Importez les données d'attribut et les métriques toutes les semaines à partir du service Analyse du temps de travail.
 

@@ -5,8 +5,6 @@ title: Number.Log
 # Number.Log
 
 
-## Description
-
 Returnerer logaritmen for tallet til det grundtal, du angiver (standard er e).
 
 
@@ -20,7 +18,7 @@ Number.Log(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer logaritmen for et tal, <code>number</code>, til det angivne grundtal <code>base</code>. Hvis <code>base</code> ikke er angivet, er standardværdien Number.E.    Hvis <code>number</code> er null, returnerer <code>Number.Log</code> null.
 

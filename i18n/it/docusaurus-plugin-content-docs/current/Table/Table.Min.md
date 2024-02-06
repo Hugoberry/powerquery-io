@@ -5,8 +5,6 @@ title: Table.Min
 # Table.Min
 
 
-## Description
-
 Restituisce la riga più piccola o un valore predefinito mediante i criteri specificati.
 
 
@@ -21,7 +19,7 @@ Table.Min(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce la riga più piccola in <code>table</code>, dato <code>comparisonCriteria</code>. Se la tabella è vuota, verrà restituito il valore facoltativo <code>default</code>.
 

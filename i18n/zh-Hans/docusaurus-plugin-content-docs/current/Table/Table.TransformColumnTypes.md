@@ -5,8 +5,6 @@ title: Table.TransformColumnTypes
 # Table.TransformColumnTypes
 
 
-## Description
-
 使用特定的区域性应用格式 \{ column, type } 的类型转换。
 
 
@@ -21,7 +19,7 @@ Table.TransformColumnTypes(
 ```
 
 
-## Details
+## Remarks
 
 通过对在参数 <code>typeTransformations</code> 中指定的列应用转换操作(其中格式为 \{ column name, type name})，使用可选参数 <code>culture</code> 中的指定区域性(例如 "en-US")，从输入 <code>table</code> 中返回一个表。    如果该列不存在，则引发异常。
 

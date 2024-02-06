@@ -5,8 +5,6 @@ title: Date.AddDays
 # Date.AddDays
 
 
-## Description
-
 將日期加上指定的天數。
 
 
@@ -20,7 +18,7 @@ Date.AddDays(
 ```
 
 
-## Details
+## Remarks
 
 傳回將 <code>datetime</code> 值 <code>dateTime</code> 加上 <code>numberOfDays</code> 天後所產生的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code>。      <ul>      <li><code>dateTime</code>: 要加上天數的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值。</li>      <li><code>numberOfDays</code>: 要加上的天數。</li>      </ul>
 

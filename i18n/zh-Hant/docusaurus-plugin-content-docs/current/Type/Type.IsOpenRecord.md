@@ -5,8 +5,6 @@ title: Type.IsOpenRecord
 # Type.IsOpenRecord
 
 
-## Description
-
 傳回記錄類型是否開啟。
 
 
@@ -19,7 +17,7 @@ Type.IsOpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 傳回 <code>logical</code> 表示記錄 <code>type</code> 是否開啟。
 

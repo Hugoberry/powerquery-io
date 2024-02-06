@@ -5,8 +5,6 @@ title: Value.RemoveMetadata
 # Value.RemoveMetadata
 
 
-## Description
-
 Rozdziela wprowadzane metadane.
 
 
@@ -20,7 +18,7 @@ Value.RemoveMetadata(
 ```
 
 
-## Details
+## Remarks
 
 Rozdziela wprowadzane metadane.
 

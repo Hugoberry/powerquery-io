@@ -5,8 +5,6 @@ title: VSTS.Views
 # VSTS.Views
 
 
-## Description
-
 Entrez les noms de l&#39;organisation et du projet.
 
 
@@ -22,7 +20,7 @@ VSTS.Views(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une table de flux OData offerts par Azure DevOps.
 

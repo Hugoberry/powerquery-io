@@ -5,8 +5,6 @@ title: Table.Max
 # Table.Max
 
 
-## Description
-
 Retourneert met behulp van de opgegeven criteria de grootste rij of de standaardwaarde.
 
 
@@ -21,7 +19,7 @@ Table.Max(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert aan de hand van de <code>comparisonCriteria</code> de grootste rij in de <code>table</code>. Als de tabel leeg is, wordt de optionele waarde <code>default</code> geretourneerd. 
 

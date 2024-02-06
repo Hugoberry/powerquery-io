@@ -5,8 +5,6 @@ title: DateTimeZone.ToLocal
 # DateTimeZone.ToLocal
 
 
-## Description
-
 Konwertuje składnik strefy czasowej na lokalną strefę czasową.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToLocal(
 ```
 
 
-## Details
+## Remarks
 
 Zmienia informacje dotyczące strefy czasowej w wartości typu datetimezone <code>dateTimeZone</code> na informacje dotyczące lokalnej strefy czasowej.    Jeśli wartość <code>dateTimeZone</code> nie ma składnika strefy czasowej, dodawane są informacje dotyczące lokalnej strefy czasowej.
 

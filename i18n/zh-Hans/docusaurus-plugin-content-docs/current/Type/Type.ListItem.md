@@ -5,8 +5,6 @@ title: Type.ListItem
 # Type.ListItem
 
 
-## Description
-
 从列表类型中返回项类型。
 
 
@@ -19,7 +17,7 @@ Type.ListItem(
 ```
 
 
-## Details
+## Remarks
 
 从列表 <code>type</code> 中返回项类型。
 

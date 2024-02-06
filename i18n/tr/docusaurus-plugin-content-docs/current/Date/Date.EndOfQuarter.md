@@ -5,8 +5,6 @@ title: Date.EndOfQuarter
 # Date.EndOfQuarter
 
 
-## Description
-
 Çeyrek sonunu döndürür.
 
 
@@ -19,7 +17,7 @@ Date.EndOfQuarter(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> içeren çeyrek sonunu döndürür. Saat dilimi bilgileri korunur.      <ul>      <li><code>dateTime</code>: Kendisinden itibaren çeyreğin sonunun hesaplandığı <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      </ul>
 

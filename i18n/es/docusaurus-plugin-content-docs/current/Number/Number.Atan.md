@@ -5,8 +5,6 @@ title: Number.Atan
 # Number.Atan
 
 
-## Description
-
 Devuelve el arco tangente del número.
 
 
@@ -19,7 +17,7 @@ Number.Atan(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve el arco tangente de <code>number</code>.
 

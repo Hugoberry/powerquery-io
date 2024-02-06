@@ -5,8 +5,6 @@ title: List.Positions
 # List.Positions
 
 
-## Description
-
 Zwraca listę przesunięć wartości wejściowej.
 
 
@@ -19,7 +17,7 @@ List.Positions(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca listę przesunięć wejściowej listy <code>list</code>.    Gdy w celu zmiany listy jest używana funkcja List.Transform, można użyć listy pozycji, aby umożliwić funkcji przekształcenia dostęp do odpowiedniej pozycji.
 

@@ -5,8 +5,6 @@ title: DateTime.IsInCurrentSecond
 # DateTime.IsInCurrentSecond
 
 
-## Description
-
 Gibt an, ob dieser datetime-Wert während der aktuellen Sekunde auftritt, die vom aktuellen Datum und der aktuellen Uhrzeit des Systems festgelegt wird.
 
 
@@ -19,7 +17,7 @@ DateTime.IsInCurrentSecond(
 ```
 
 
-## Details
+## Remarks
 
 Gibt an, ob der angegebene datetime-Wert <code>dateTime</code> während der aktuellen Sekunde auftritt, die vom aktuellen Datum und der aktuellen Uhrzeit des Systems festgelegt wird.      <ul>      <li><code>dateTime</code>: Ein auszuwertender <code>datetime</code>- oder <code>datetimezone</code>-Wert.</li>      </ul>
 

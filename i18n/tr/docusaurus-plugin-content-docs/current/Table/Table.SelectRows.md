@@ -5,8 +5,6 @@ title: Table.SelectRows
 # Table.SelectRows
 
 
-## Description
-
 Koşul işlevini karşılayan satırları seçer.
 
 
@@ -20,7 +18,7 @@ Table.SelectRows(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> öğesinden <code>condition</code> seçimi ile eşleşen satır tablosu döndürür.
 

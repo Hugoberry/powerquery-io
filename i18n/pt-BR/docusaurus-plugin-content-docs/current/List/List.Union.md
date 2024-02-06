@@ -5,8 +5,6 @@ title: List.Union
 # List.Union
 
 
-## Description
-
 Retorna a união dos valores de lista encontrados na entrada.
 
 
@@ -20,7 +18,7 @@ List.Union(
 ```
 
 
-## Details
+## Remarks
 
 Assume uma lista das listas <code>lists</code>, une os itens nas listas individuais e as retorna na lista de saída. Consequentemente, a lista retornada conterá todos os itens em qualquer lista de entrada.    Esta operação mantém a semântica tipo Bag tradicional, para que os valores duplicados sejam correspondentes como parte da União.    Um valor de critérios de equação opcional, <code>equationCriteria</code>, pode ser especificado para controlar o teste de igualdade. 
 

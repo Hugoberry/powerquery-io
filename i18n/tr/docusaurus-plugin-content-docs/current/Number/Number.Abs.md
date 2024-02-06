@@ -5,8 +5,6 @@ title: Number.Abs
 # Number.Abs
 
 
-## Description
-
 Sayının mutlak değerini döndürür.
 
 
@@ -19,7 +17,7 @@ Number.Abs(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> öğesinin mutlak değerini döndürür. <code>number</code> null ise <code>Number.Abs</code> null döndürür.    <ul>        <li><code>number</code>: Mutlak değeri hesaplanacak olan <code>sayı</code>.</li>      </ul>
 

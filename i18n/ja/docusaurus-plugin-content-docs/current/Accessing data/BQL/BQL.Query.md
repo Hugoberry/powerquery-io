@@ -5,8 +5,6 @@ title: BQL.Query
 # BQL.Query
 
 
-## Description
-
 ﾌﾞﾙｰﾑﾊﾞｰｸﾞ･ﾃﾞｰﾀ取得に使用
 
 

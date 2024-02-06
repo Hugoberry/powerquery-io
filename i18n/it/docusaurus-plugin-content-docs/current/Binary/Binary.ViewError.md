@@ -5,8 +5,6 @@ title: Binary.ViewError
 # Binary.ViewError
 
 
-## Description
-
 Crea un record di errore modificato che non attiva un fallback quando viene generato da un gestore definito in una vista (tramite Binary.View).
 
 
@@ -19,7 +17,7 @@ Binary.ViewError(
 ```
 
 
-## Details
+## Remarks
 
 Crea un record di errore modificato da <code>errorRecord</code> che non attiva un fallback quando viene generato da un gestore definito in una vista (tramite Binary.View).
 

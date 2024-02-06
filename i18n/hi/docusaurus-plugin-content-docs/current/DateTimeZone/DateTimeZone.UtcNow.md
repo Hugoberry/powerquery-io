@@ -5,8 +5,6 @@ title: DateTimeZone.UtcNow
 # DateTimeZone.UtcNow
 
 
-## Description
-
 वर्तमान दिनांक और समय को UTC (GMT समय क्षेत्र) में लौटाता है.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.UtcNow(
 ```
 
 
-## Details
+## Remarks
 
 वर्तमान दिनांक और समय को UTC (GMT समय क्षेत्र) में लौटाता है.
 

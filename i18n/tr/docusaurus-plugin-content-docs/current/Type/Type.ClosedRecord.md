@@ -5,8 +5,6 @@ title: Type.ClosedRecord
 # Type.ClosedRecord
 
 
-## Description
-
 Verilen kayıt türünün kapalı bir sürümünü (veya zaten kapalıysa aynı türü) döndürür.
 
 
@@ -19,7 +17,7 @@ Type.ClosedRecord(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>record</code> <code>type</code> türünün kapalı bir sürümünü (veya zaten kapalıysa aynı) türü döndürür).
 

@@ -5,8 +5,6 @@ title: Table.Range
 # Table.Range
 
 
-## Description
-
 Retourneert de rijen die beginnen bij de opgegeven verschuiving.
 
 
@@ -21,7 +19,7 @@ Table.Range(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de rijen vanaf de <code>table</code> die beginnen bij de opgegeven <code>offset</code>. Een optionele parameter, <code>count</code>, bepaalt hoeveel rijen er worden geretourneerd. Standaard worden alle rijen na de verschuiving geretourneerd.
 

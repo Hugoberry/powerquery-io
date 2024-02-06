@@ -5,8 +5,6 @@ title: Record.HasFields
 # Record.HasFields
 
 
-## Description
-
 Geeft aan of de opgegeven velden in de record staan.
 
 
@@ -20,7 +18,7 @@ Record.HasFields(
 ```
 
 
-## Details
+## Remarks
 
 Geeft aan of in de record <code>record</code> de velden staan die zijn opgegeven in <code>fields</code>, door een logische waarde (true of false) te retourneren.    Er kunnen met behulp van een lijst meerdere veldwaarden worden opgegeven.
 

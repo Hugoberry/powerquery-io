@@ -5,8 +5,6 @@ title: Text.SplitAny
 # Text.SplitAny
 
 
-## Description
-
 Zwraca listę wartości tekstowych powstałą w wyniku wykonania podziału przy dowolnym ze znaków w ograniczniku.
 
 
@@ -20,7 +18,7 @@ Text.SplitAny(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca listę wartości tekstowych powstałą w wyniku wykonania podziału wartości tekstowej <code>text</code> przy użyciu dowolnego ze znaków w określonym ograniczniku <code>separators</code>.
 

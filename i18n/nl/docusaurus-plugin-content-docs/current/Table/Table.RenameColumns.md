@@ -5,8 +5,6 @@ title: Table.RenameColumns
 # Table.RenameColumns
 
 
-## Description
-
 Past naamswijzigingen toe in de vorm \{old, new}.
 
 
@@ -21,7 +19,7 @@ Table.RenameColumns(
 ```
 
 
-## Details
+## Remarks
 
 Voert de opgegeven naamswijzigingen door in de kolommen in tabel <code>table</code>. Een vervanging <code>renames</code> bestaat uit een lijst met twee waarden, de oude kolomnaam en de nieuwe kolomnaam, die worden aangeleverd als een lijst.    Als de kolom niet bestaat, wordt er een uitzondering gegenereerd tenzij er door de optionele <code>missingField</code> een alternatief wordt opgegeven (bijvoorbeeld <code>MissingField.UseNull</code> of <code>MissingField.Ignore</code>).
 

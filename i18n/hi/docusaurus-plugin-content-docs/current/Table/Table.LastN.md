@@ -5,8 +5,6 @@ title: Table.LastN
 # Table.LastN
 
 
-## Description
-
 निर्दिष्ट संख्या के बराबर अंतिम पंक्तियाँ लौटाता है.
 
 
@@ -20,7 +18,7 @@ Table.LastN(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> के मान के आधार पर, तालिका, <code>table</code>, की अंतिम पंक्तियाँ लौटाता है:    <ul>    <li> यदि <code>countOrCondition</code> एक संख्या है, तो उतनी ही पंक्तियाँ स्थिति (समाप्ति - <code>countOrCondition</code>) के आरंभ से लौटाई जाएँगी. </li>    <li> यदि <code>countOrCondition</code> एक शर्त है, तो किसी पंक्ति के शर्त पूरा न करने तक, शर्त को पूरा करने वाली पंक्तियों को आरोही स्थिति में लौटाया जाएगा.</li></ul>
 

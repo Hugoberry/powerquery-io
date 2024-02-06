@@ -5,8 +5,6 @@ title: Kusto.Contents
 # Kusto.Contents
 
 
-## Description
-
 Importa dados do Azure Data Explorer (Kusto)
 
 
@@ -22,7 +20,7 @@ Kusto.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Importa dados da sua instância do Azure Data Explorer (Kusto)
 

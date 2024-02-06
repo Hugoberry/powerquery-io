@@ -5,8 +5,6 @@ title: List.Buffer
 # List.Buffer
 
 
-## Description
-
 Помещает список в буфер.
 
 
@@ -19,7 +17,7 @@ List.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Помещает список <code>list</code> в буфер в памяти. Результат вызова - стабильный список.
 

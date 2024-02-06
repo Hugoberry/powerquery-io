@@ -5,8 +5,6 @@ title: Type.Is
 # Type.Is
 
 
-## Description
-
 Xác định giá trị của loại đầu tiên luôn tương thích với loại thứ hai.
 
 
@@ -20,7 +18,7 @@ Type.Is(
 ```
 
 
-## Details
+## Remarks
 
 Xác định xem giá trị của <code>type1</code> có luôn tương thích với <code>type2</code> hay không.
 

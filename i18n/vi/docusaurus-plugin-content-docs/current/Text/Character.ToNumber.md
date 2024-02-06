@@ -5,8 +5,6 @@ title: Character.ToNumber
 # Character.ToNumber
 
 
-## Description
-
 Chuyển đổi một ký tự thành giá trị số.
 
 
@@ -19,7 +17,7 @@ Character.ToNumber(
 ```
 
 
-## Details
+## Remarks
 
 Trả về số tương đương với <code>character</code>.<br />    <br />    Kết quả sẽ là điểm mã Unicode 21 bit được biểu thị bằng ký tự được cung cấp hoặc cặp thay thế.  
 

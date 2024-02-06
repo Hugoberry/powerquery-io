@@ -5,8 +5,6 @@ title: Date.DayOfWeekName
 # Date.DayOfWeekName
 
 
-## Description
-
 Retorna o nome do dia da semana.
 
 
@@ -20,7 +18,7 @@ Date.DayOfWeekName(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o dia do nome da semana para o <code>date</code> fornecido. Um <code>culture</code> opcional também pode ser fornecido (por exemplo, "en-US").
 

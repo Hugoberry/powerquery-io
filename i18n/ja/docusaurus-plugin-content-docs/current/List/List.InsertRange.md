@@ -5,8 +5,6 @@ title: List.InsertRange
 # List.InsertRange
 
 
-## Description
-
 リストの指定されたインデックス位置に値を挿入します。
 
 
@@ -21,7 +19,7 @@ List.InsertRange(
 ```
 
 
-## Details
+## Remarks
 
 <code>values</code> の値を <code>list</code> の <code>index</code> の位置に挿入することによって生成される新しいリストを返します。リスト内の最初の位置はインデックス 0 になります。      <ul>        <li><code>list</code>: 値の挿入先のリスト。</li>        <li><code>index</code>: 値の挿入先のリスト (<code>list</code>) 内の位置を示すインデックス。リスト内の最初の位置はインデックス 0 になります。</li>        <li><code>values</code>: <code>list</code> に挿入される値のリスト。</li>      </ul>
 

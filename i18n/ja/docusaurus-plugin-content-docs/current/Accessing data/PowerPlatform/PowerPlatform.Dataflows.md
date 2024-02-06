@@ -5,8 +5,6 @@ title: PowerPlatform.Dataflows
 # PowerPlatform.Dataflows
 
 
-## Description
-
 データフローからデータをインポートします
 
 
@@ -19,7 +17,7 @@ PowerPlatform.Dataflows(
 ```
 
 
-## Details
+## Remarks
 
 アクセスできるすべてのデータフローに接続して、使用するエンティティを選択します
 

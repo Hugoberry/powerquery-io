@@ -5,8 +5,6 @@ title: Web.Page
 # Web.Page
 
 
-## Description
-
 Retorna o conteúdo do documento HTML decomposto em suas estruturas constitutivas, bem como uma representação do documento completo e respectivo texto após a remoção das marcas.
 
 
@@ -19,7 +17,7 @@ Web.Page(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o conteúdo do documento HTML decomposto em suas estruturas constitutivas, bem como uma representação do documento completo e respectivo texto após a remoção das marcas.
 

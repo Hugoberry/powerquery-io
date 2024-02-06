@@ -5,8 +5,6 @@ title: Binary.Length
 # Binary.Length
 
 
-## Description
-
 Gibt die Zeichenanzahl zurück.
 
 
@@ -19,7 +17,7 @@ Binary.Length(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die Zeichenanzahl zurück.
 

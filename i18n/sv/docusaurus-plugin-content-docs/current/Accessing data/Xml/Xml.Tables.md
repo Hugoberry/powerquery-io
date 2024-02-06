@@ -5,8 +5,6 @@ title: Xml.Tables
 # Xml.Tables
 
 
-## Description
-
 Returnerar innehållet i XML-dokumentet som en kapslad samling utplattade tabeller.
 
 
@@ -21,7 +19,7 @@ Xml.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar innehållet i XML-dokumentet som en kapslad samling utplattade tabeller.
 

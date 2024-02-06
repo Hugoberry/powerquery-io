@@ -5,8 +5,6 @@ title: Table.FindText
 # Table.FindText
 
 
-## Description
-
 Zwraca wszystkie wiersze z tabeli, które zawierają dany tekst.
 
 
@@ -20,7 +18,7 @@ Table.FindText(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wiersze z tabeli <code>table</code>, które zawierają tekst <code>text</code>. Jeśli tekst nie zostanie znaleziony, zostanie zwrócony pusty tekst.
 

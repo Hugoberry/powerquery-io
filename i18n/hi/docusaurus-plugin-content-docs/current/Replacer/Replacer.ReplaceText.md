@@ -5,8 +5,6 @@ title: Replacer.ReplaceText
 # Replacer.ReplaceText
 
 
-## Description
-
 पाठ को प्रदान किए गए इनपुट के साथ प्रतिस्थापित करता है.
 
 
@@ -21,7 +19,7 @@ Replacer.ReplaceText(
 ```
 
 
-## Details
+## Remarks
 
 मूल <code>text</code> के <code>old</code> पाठ को <code>new</code> पाठ के साथ प्रतिस्थापित करता है. इस प्रतिस्थापक का उपयोग <code>List.ReplaceValue</code> और <code>Table.ReplaceValue</code> में किया जा सकता है.
 

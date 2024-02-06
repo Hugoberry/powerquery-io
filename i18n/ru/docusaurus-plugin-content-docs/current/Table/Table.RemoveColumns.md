@@ -5,8 +5,6 @@ title: Table.RemoveColumns
 # Table.RemoveColumns
 
 
-## Description
-
 Удаляет указанные столбцы.
 
 
@@ -21,7 +19,7 @@ Table.RemoveColumns(
 ```
 
 
-## Details
+## Remarks
 
 Удаляет указанный <code>columns</code> из предоставленной <code>table</code>.    Когда указанный столбец не существует, возникает ошибка, если необязательным параметром <code>missingField</code> не задано альтернативное поведение (например, <code>MissingField.UseNull</code> или <code>MissingField.Ignore</code>).
 

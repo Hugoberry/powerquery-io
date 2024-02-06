@@ -5,8 +5,6 @@ title: Text.Lower
 # Text.Lower
 
 
-## Description
-
 Converteert alle tekens naar kleine letters.
 
 
@@ -20,7 +18,7 @@ Text.Lower(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt het resultaat geretourneerd van de conversie van alle tekens in <code>text</code> naar kleine letters. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
 

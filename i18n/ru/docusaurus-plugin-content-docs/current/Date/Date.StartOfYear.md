@@ -5,8 +5,6 @@ title: Date.StartOfYear
 # Date.StartOfYear
 
 
-## Description
-
 Возвращает начало года.
 
 
@@ -19,7 +17,7 @@ Date.StartOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает начало года, который содержит <code>dateTime</code>.    <code>dateTime</code> должно быть значением <code>date</code>, <code>datetime</code> или <code>datetimezone</code>.
 

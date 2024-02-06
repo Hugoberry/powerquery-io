@@ -5,8 +5,6 @@ title: Type.ReplaceFacets
 # Type.ReplaceFacets
 
 
-## Description
-
 Thay thế các khía cạnh của một loại.
 
 
@@ -20,7 +18,7 @@ Type.ReplaceFacets(
 ```
 
 
-## Details
+## Remarks
 
 Thay thế các khía cạnh của <code>type</code> bằng các khía cạnh chứa trong bản ghi <code>facets</code>.
 

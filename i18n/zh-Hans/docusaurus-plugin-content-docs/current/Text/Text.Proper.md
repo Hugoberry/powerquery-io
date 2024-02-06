@@ -5,8 +5,6 @@ title: Text.Proper
 # Text.Proper
 
 
-## Description
-
 使每个字词的第一个字母为大写。
 
 
@@ -20,7 +18,7 @@ Text.Proper(
 ```
 
 
-## Details
+## Remarks
 
 返回只使文本值 <code>text</code> 中每个字词的第一个字符大写的结果。所有其他字母均以小写返回。还可提供可选的 <code>culture</code> (例如 "en-US")。
 

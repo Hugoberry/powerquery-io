@@ -5,8 +5,6 @@ title: Text.Remove
 # Text.Remove
 
 
-## Description
-
 Loại bỏ tất cả những lần xuất hiện của giá trị hoặc danh sách ký tự cụ thể khỏi giá trị văn bản đầu vào.
 
 
@@ -20,7 +18,7 @@ Text.Remove(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bản sao của giá trị văn bản <code>text</code> đã loại bỏ tất cả ký tự khỏi <code>removeChars</code>.  
 

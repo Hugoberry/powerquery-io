@@ -5,8 +5,6 @@ title: DateTime.LocalNow
 # DateTime.LocalNow
 
 
-## Description
-
 Возвращает текущую дату и время в местном часовом поясе.
 
 
@@ -19,7 +17,7 @@ DateTime.LocalNow(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает значение <code>datetime</code>, равное текущей дате и времени в системе.
 

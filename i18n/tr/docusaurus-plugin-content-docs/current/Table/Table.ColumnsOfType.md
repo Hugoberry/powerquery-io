@@ -5,8 +5,6 @@ title: Table.ColumnsOfType
 # Table.ColumnsOfType
 
 
-## Description
-
 Sütunların, belirtilen türlerle eşleşen adlarıyla bir liste döndürür.
 
 
@@ -20,7 +18,7 @@ Table.ColumnsOfType(
 ```
 
 
-## Details
+## Remarks
 
 <code>listOfTypes</code> içinde belirtilen türlerle eşleşen <code>table</code> tablosunadki sütunların adlarıyla bir liste döndürür.
 

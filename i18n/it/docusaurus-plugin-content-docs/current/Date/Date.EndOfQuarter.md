@@ -5,8 +5,6 @@ title: Date.EndOfQuarter
 # Date.EndOfQuarter
 
 
-## Description
-
 Restituisce la fine del trimestre.
 
 
@@ -19,7 +17,7 @@ Date.EndOfQuarter(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce la fine del trimestre contenente <code>dateTime</code>. Le informazioni sul fuso orario vengono mantenute.      <ul>        <li><code>dateTime</code>: valore <code>date</code>, <code>datetime</code> o <code>datetimezone</code> da cui viene calcolata la fine del trimestre.</li>      </ul>
 

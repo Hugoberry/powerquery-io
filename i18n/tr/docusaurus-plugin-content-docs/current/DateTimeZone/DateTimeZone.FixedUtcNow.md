@@ -5,8 +5,6 @@ title: DateTimeZone.FixedUtcNow
 # DateTimeZone.FixedUtcNow
 
 
-## Description
-
 UTC (GMT saat dilimi) biçiminde geçerli tarih ve saati döndürür. Bu değer sabittir ve sonraki çağrılarla değişmez.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.FixedUtcNow(
 ```
 
 
-## Details
+## Remarks
 
 UTC (GMT saat dilimi) biçiminde geçerli tarih ve saati döndürür. Bu değer sabittir ve sonraki çağrılarla değişmez.
 

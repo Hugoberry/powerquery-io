@@ -5,8 +5,6 @@ title: List.MatchesAny
 # List.MatchesAny
 
 
-## Description
-
 Возвращает значение true, если функции условия соответствует любое значение.
 
 
@@ -20,7 +18,7 @@ List.MatchesAny(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает <code>true</code>, если функции условия <code>condition</code> соответствует любое значение в списке <code>list</code>, в противном случае возвращает значение <code>false</code>.
 

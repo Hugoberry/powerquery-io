@@ -5,8 +5,6 @@ title: DateTimeZone.FromFileTime
 # DateTimeZone.FromFileTime
 
 
-## Description
-
 64 bit uzunluğundaki bir sayıdan datetimezone oluşturur.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.FromFileTime(
 ```
 
 
-## Details
+## Remarks
 
 <code>fileTime</code> değerinden bir <code>datetimezone</code> değeri oluşturur ve bu değeri yerel saat dilimine dönüştürür. filetime, 1 Ocak 1601 M.S. (C.E.) Eşgüdümlü Evrensel Saat (UTC) ile gece 12:00'den itibaren geçen 100 nanosaniyelik aralık sayısını temsil eden bir Windows dosya zamanı değeridir.    
 

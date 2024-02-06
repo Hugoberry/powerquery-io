@@ -5,8 +5,6 @@ title: DateTimeZone.ToUtc
 # DateTimeZone.ToUtc
 
 
-## Description
-
 Chuyển đổi cấu phần múi giờ thành múi giờ UTC.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToUtc(
 ```
 
 
-## Details
+## Remarks
 
 Thay đổi thông tin múi giờ của giá trị ngày giờ <code>dateTimeZone</code> thành thông tin múi giờ UTC hoặc Thời gian Quốc tế.    Nếu <code>dateTimeZone</code> không có cấu phần múi giờ thì thông tin múi giờ UTC được thêm.
 

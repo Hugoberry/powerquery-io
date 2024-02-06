@@ -5,8 +5,6 @@ title: Combiner.CombineTextByLengths
 # Combiner.CombineTextByLengths
 
 
-## Description
-
 傳回函式，其會使用指定的長度結合文字清單。
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByLengths(
 ```
 
 
-## Details
+## Remarks
 
 傳回函式，其會使用指定的長度結合文字值清單為單一文字值。
 

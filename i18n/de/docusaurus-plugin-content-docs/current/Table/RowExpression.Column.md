@@ -5,8 +5,6 @@ title: RowExpression.Column
 # RowExpression.Column
 
 
-## Description
-
 Gibt eine abstrakte Syntaxstruktur (Abstract Syntax Tree, AST) zurück, welche den Zugriff auf eine Spalte innerhalb eines Zeilenausdrucks darstellt.
 
 
@@ -19,7 +17,7 @@ RowExpression.Column(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine abstrakte Syntaxstruktur (Abstract Syntax Tree, AST) zurück, die den Zugriff auf die Spalte <code>columnName</code> der Zeile innerhalb eines Zeilenausdrucks darstellt.
 

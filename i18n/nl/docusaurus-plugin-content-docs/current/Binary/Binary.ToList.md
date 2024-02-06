@@ -5,8 +5,6 @@ title: Binary.ToList
 # Binary.ToList
 
 
-## Description
-
 Zet een binaire waarde om in een lijst met getallen.
 
 
@@ -19,7 +17,7 @@ Binary.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Zet een binaire waarde om in een lijst met getallen.
 

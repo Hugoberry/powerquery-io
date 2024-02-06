@@ -5,8 +5,6 @@ title: Type.ClosedRecord
 # Type.ClosedRecord
 
 
-## Description
-
 ส่งกลับเวอร์ชันปิดของประเภทระเบียนที่ระบุ (หรือประเภทเดียวกัน ถ้าปิดแล้ว)
 
 
@@ -19,7 +17,7 @@ Type.ClosedRecord(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับเวอร์ชันปิดของ <code>record</code> <code>type</code> ที่ระบุ (หรือประเภทเดียวกัน ถ้าปิดแล้ว)
 

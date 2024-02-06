@@ -5,8 +5,6 @@ title: Date.IsInPreviousWeek
 # Date.IsInPreviousWeek
 
 
-## Description
-
 Indica se questo valore date rientra nella settimana precedente, come determinato dalla data e dall&#39;ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nella settimana corrente.
 
 
@@ -19,7 +17,7 @@ Date.IsInPreviousWeek(
 ```
 
 
-## Details
+## Remarks
 
 Indica se il valore datetime specificato <code>dateTime</code> rientra nella settimana precedente, come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nella settimana corrente.      <ul>      <li><code>dateTime</code>: valore <code>date</code>, <code>datetime</code> o <code>datetimezone</code>.</li>      </ul>
 

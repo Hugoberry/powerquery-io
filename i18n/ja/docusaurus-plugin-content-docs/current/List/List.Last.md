@@ -5,8 +5,6 @@ title: List.Last
 # List.Last
 
 
-## Description
-
 リスト内の最後の値を返します。リストが空の場合、指定された既定値を返します。
 
 
@@ -20,7 +18,7 @@ List.Last(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>list</code> 内の最後の項目を返します。リストが空の場合、省略可能な既定値 <code>defaultValue</code> を返します。    リストが空で、かつ既定値が指定されていない場合、この関数は <code>null</code> を返します。
 

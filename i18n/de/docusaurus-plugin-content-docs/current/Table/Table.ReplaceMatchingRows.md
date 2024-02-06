@@ -5,8 +5,6 @@ title: Table.ReplaceMatchingRows
 # Table.ReplaceMatchingRows
 
 
-## Description
-
 Ersetzt alle angegebenen Zeilen durch die bereitgestellten Zeilen.
 
 
@@ -21,7 +19,7 @@ Table.ReplaceMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 Ersetzt alle angegebenen Zeilen im Element vom Typ "<code>table</code>" durch die bereitgestellten Zeilen. Die zu ersetzenden Zeilen und die Ersetzungen werden in "<code>replacements</code>" im Format "\{old, new}" angegeben.    Der Vergleich zwischen den Zeilen der Tabelle kann mithilfe eines optionalen Parameters (<code>equationCriteria</code>) gesteuert werden.
 

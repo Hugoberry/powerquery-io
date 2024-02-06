@@ -5,8 +5,6 @@ title: Text.EndsWith
 # Text.EndsWith
 
 
-## Description
-
 Cho biết văn bản có kết thúc bằng giá trị được chỉ định hay không.
 
 
@@ -21,7 +19,7 @@ Text.EndsWith(
 ```
 
 
-## Details
+## Remarks
 
 Cho biết văn bản đã chọn, <code>text</code>, có kết thúc bằng giá trị được chỉ định, <code>substring</code> hay không. Thông tin chỉ thị có phân biệt chữ hoa/chữ thường.      <div>        <code>comparer</code> là <code>Trình so sánh</code> dùng để kiểm soát phép so sánh. Có thể dùng các trình so sánh để cung cấp phép so sánh không phân biệt chữ hoa/chữ thường và có nhận thức về văn hóa và ngôn ngư.      </div>      <div>        Các trình so sánh cài sẵn sau đây được cung cấp bằng ngôn ngữ công thức:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: Dùng để tiến hành so sánh theo thứ tự chính xác</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: Dùng để tiến hành so sánh không phân biệt chữ hoa chữ thường theo thứ tự chính xác</li>        <li> <code>Comparer.FromCulture</code>: Dùng để tiến hành so sánh có nhận thức về văn hóa</li>      </ul>
 

@@ -5,8 +5,6 @@ title: List.Average
 # List.Average
 
 
-## Description
-
 傳回值的平均值。適用於數字、日期、datetime、datetimezone 和工期值。
 
 
@@ -20,7 +18,7 @@ List.Average(
 ```
 
 
-## Details
+## Remarks
 
 傳回清單 <code>list</code> 中項目的平均值。結果的資料類型與清單中的值相同。只適用於數字、日期、時間、datetime、datetimezone 和工期值。    如果清單是空的，即傳回 Null。
 

@@ -5,8 +5,6 @@ title: Record.FieldNames
 # Record.FieldNames
 
 
-## Description
-
 Retourne les noms des champs.
 
 
@@ -19,7 +17,7 @@ Record.FieldNames(
 ```
 
 
-## Details
+## Remarks
 
 Retourne les noms des champs dans l'enregistrement <code>record</code> sous la forme d'un texte.
 

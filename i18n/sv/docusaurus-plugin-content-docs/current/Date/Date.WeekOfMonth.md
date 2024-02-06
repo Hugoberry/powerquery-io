@@ -5,8 +5,6 @@ title: Date.WeekOfMonth
 # Date.WeekOfMonth
 
 
-## Description
-
 Returnerar ett tal från 1 till 6 som anger vilken vecka i månaden som datumet infaller under.
 
 
@@ -20,7 +18,7 @@ Date.WeekOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett tal från 1 till 6 som anger vilken vecka i månaden som datumet <code>dateTime</code> infaller i. <ul>        <li><code>dateTime</code>: Ett <code>datetime</code>-värde från vilken vecka-i-månaden fastställs.</li>      </ul>
 

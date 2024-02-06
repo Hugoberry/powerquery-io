@@ -5,8 +5,6 @@ title: Number.IsOdd
 # Number.IsOdd
 
 
-## Description
-
 値が奇数かどうかを示します。
 
 
@@ -19,7 +17,7 @@ Number.IsOdd(
 ```
 
 
-## Details
+## Remarks
 
 値が奇数かどうかを示します。<code>number</code> が奇数の場合は <code>true</code> を返し、それ以外の場合は <code>false</code> を返します。
 

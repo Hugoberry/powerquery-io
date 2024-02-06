@@ -5,8 +5,6 @@ title: Table.Max
 # Table.Max
 
 
-## Description
-
 दिए गए मापदंड का उपयोग करके सबसे बड़ी पंक्ति या डिफ़ॉल्ट मान लौटाता है.
 
 
@@ -21,7 +19,7 @@ Table.Max(
 ```
 
 
-## Details
+## Remarks
 
 दिया गया <code>comparisonCriteria</code> का उपयोग करके, <code>table</code> की सबसे पड़ी पंक्ति लौटाता है. यदि तालिका रिक्त होती है, तो वैकल्पिक <code>default</code> मान लौटाया जाता है. 
 

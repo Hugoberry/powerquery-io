@@ -5,8 +5,6 @@ title: Table.ToList
 # Table.ToList
 
 
-## Description
-
 Konverterer en tabel til en liste ved at anvende den angivne samlefunktion på hver række med værdier i tabellen.
 
 
@@ -20,7 +18,7 @@ Table.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Konverterer en tabel til en liste ved at anvende den angivne samlefunktion på hver række med værdier i tabellen.
 

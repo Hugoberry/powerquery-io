@@ -5,8 +5,6 @@ title: Table.FromList
 # Table.FromList
 
 
-## Description
-
 Konwertuje listę na tabelę, stosując określoną funkcję podziału do każdego elementu listy.
 
 
@@ -23,7 +21,7 @@ Table.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Konwertuje listę <code>list</code> na tabelę, stosując opcjonalną funkcję podziału <code>splitter</code> do każdego elementu listy. Domyślnie lista jest traktowana jako lista wartości tekstowych rozdzielonych przecinkami. Wartość opcjonalnego parametru <code>columns</code> może być liczbą kolumn, listą kolumn lub typem tabeli. Można także określić opcjonalne parametry <code>default</code> i <code>extraValues</code>.
 

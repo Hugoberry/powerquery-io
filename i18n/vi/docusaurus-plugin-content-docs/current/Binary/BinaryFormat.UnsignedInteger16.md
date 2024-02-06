@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger16
 # BinaryFormat.UnsignedInteger16
 
 
-## Description
-
 Một định dạng nhị phân đọc một số nguyên không dấu 16 bit.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger16(
 ```
 
 
-## Details
+## Remarks
 
 Một định dạng nhị phân đọc một số nguyên không dấu 16 bit.
 

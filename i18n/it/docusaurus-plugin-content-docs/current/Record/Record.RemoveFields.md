@@ -5,8 +5,6 @@ title: Record.RemoveFields
 # Record.RemoveFields
 
 
-## Description
-
 Rimuove i campi specificati dal record di input.
 
 
@@ -21,7 +19,7 @@ Record.RemoveFields(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un record che rimuove tutti i campi specificati nell'elenco <code>fields</code> dell'input <code>record</code>. Se il campo specificato non esiste, viene generata un'eccezione.
 

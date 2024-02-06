@@ -5,8 +5,6 @@ title: Web.BrowserContents
 # Web.BrowserContents
 
 
-## Description
-
 Zwraca kod HTML dla określonego adresu URL w przypadku wyświetlenia w przeglądarce sieci Web.
 
 
@@ -20,7 +18,7 @@ Web.BrowserContents(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca kod HTML dla określonego elementu <code>url</code> w sposób, w jaki widzi go przeglądarka internetowa. Można podać opcjonalny parametr rekordu, <code>options</code>, aby określić dodatkowe właściwości. Rekord może zawierać następujące pola: <ul> <li><code>ApiKeyName</code>: Jeśli w witrynie docelowej jest używany klucz interfejsu API, za pomocą tego parametru można określić nazwę (nie wartość) parametru klucza, który musi być używany w adresie URL. Rzeczywista wartość klucza jest udostępniana w poświadczeniu.</li> <li><code>WaitFor</code>: określa warunek oczekiwania przed pobraniem kodu HTML, oprócz oczekiwania na załadowanie strony (co jest zawsze wykonywane). Może to być rekord zawierający pola limitu czasu i/lub selektora. Jeśli zostanie określony tylko limit czasu, funkcja będzie czekać przez określony czas przed pobraniem kodu HTML. Jeśli zostanie określony zarówno selektor, jak i limit czasu, a limit czasu upłynie, zanim selektor będzie istniał na stronie, zostanie zgłoszony błąd. Jeśli wybrano selektor bez limitu czasu, zostanie zastosowany domyślny limit czasu wynoszący 30 sekund.</li> </ul>    
 

@@ -5,8 +5,6 @@ title: Text.Select
 # Text.Select
 
 
-## Description
-
 Markerar alla förekomster av det givna tecknet eller listan med tecken från indatatextvärdet.
 
 
@@ -20,7 +18,7 @@ Text.Select(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en kopia av textvärdet <code>text</code> där alla tecken som inte finns i <code>selectChars</code> har tagits bort.  
 

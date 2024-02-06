@@ -5,8 +5,6 @@ title: MailChimp.Collection
 # MailChimp.Collection
 
 
-## Description
-
 MailChimp uç noktasına ait verilerin yer aldığı bir tabloyu döndürür.
 
 
@@ -20,7 +18,7 @@ MailChimp.Collection(
 ```
 
 
-## Details
+## Remarks
 
 MailChimp API'sine çağrıda bulunur ve sonuç veri kümesini tablo olarak döndürür. Tüm sonuçları otomatik olarak sayfalara ayırır. Kök uç noktanın ve JSON yanıtındaki ana entityName öğesinin eşleşmediği API uç noktaları için isteğe bağlı entityName parametresi kullanılabilir.
 

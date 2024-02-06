@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger32
 # BinaryFormat.UnsignedInteger32
 
 
-## Description
-
 Bir 32 bit işaretsiz tamsayıyı okuyan ikili biçimi.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger32(
 ```
 
 
-## Details
+## Remarks
 
 Bir 32 bit işaretsiz tamsayıyı okuyan ikili biçimi.
 

@@ -5,8 +5,6 @@ title: Text.Trim
 # Text.Trim
 
 
-## Description
-
 Quita todos los espacios en blanco iniciales y finales.
 
 
@@ -20,7 +18,7 @@ Text.Trim(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve el resultado de quitar todos los espacios en blanco iniciales y finales del valor de texto <code>text</code>.
 

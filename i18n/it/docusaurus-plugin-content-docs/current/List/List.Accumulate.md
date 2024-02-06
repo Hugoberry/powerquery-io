@@ -5,8 +5,6 @@ title: List.Accumulate
 # List.Accumulate
 
 
-## Description
-
 Accumula un valore di riepilogo dagli elementi dell&#39;elenco.
 
 
@@ -21,7 +19,7 @@ List.Accumulate(
 ```
 
 
-## Details
+## Remarks
 
 Accumula un valore di riepilogo dagli elementi dell'elenco <code>list</code>, usando <code>accumulator</code>.    È possibile impostare un parametro facoltativo <code>seed</code> del valore di inizializzazione.
 

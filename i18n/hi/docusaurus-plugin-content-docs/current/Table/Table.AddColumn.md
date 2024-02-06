@@ -5,8 +5,6 @@ title: Table.AddColumn
 # Table.AddColumn
 
 
-## Description
-
 निर्दिष्ट नाम का स्तंभ जोड़ता है. इनपुट के रूप में ली गई प्रत्येक पंक्ति के साथ निर्दिष्ट चयन फ़ंक्शन का उपयोग करके मान को संगणित किया जाता है.
 
 
@@ -22,7 +20,7 @@ Table.AddColumn(
 ```
 
 
-## Details
+## Remarks
 
 तालिका <code>table</code> में <code>newColumnName</code> नाम का स्तंभ जोड़ता है. इनपुट के रूप ली गई प्रत्येक पंक्ति के साथ निर्दिष्ट चयन फ़ंक्शन <code>columnGenerator</code> का उपयोग करके स्तंभ के लिए मान को संगणित किया जाता है.
 

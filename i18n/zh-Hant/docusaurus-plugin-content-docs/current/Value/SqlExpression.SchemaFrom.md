@@ -5,8 +5,6 @@ title: SqlExpression.SchemaFrom
 # SqlExpression.SchemaFrom
 
 
-## Description
-
 此函式僅供內部使用。
 
 
@@ -19,7 +17,7 @@ SqlExpression.SchemaFrom(
 ```
 
 
-## Details
+## Remarks
 
 此函式僅供內部使用。
 

@@ -5,8 +5,6 @@ title: Value.Lineage
 # Value.Lineage
 
 
-## Description
-
 Hàm này chỉ nhằm mục đích sử dụng nội bộ.
 
 
@@ -19,7 +17,7 @@ Value.Lineage(
 ```
 
 
-## Details
+## Remarks
 
 Hàm này chỉ nhằm mục đích sử dụng nội bộ.
 

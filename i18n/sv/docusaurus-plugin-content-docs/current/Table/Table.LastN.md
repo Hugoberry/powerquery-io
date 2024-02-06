@@ -5,8 +5,6 @@ title: Table.LastN
 # Table.LastN
 
 
-## Description
-
 Returnerar det sista angivna antalet rader.
 
 
@@ -20,7 +18,7 @@ Table.LastN(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar den eller de sista raderna från tabellen <code>table</code>, beroende på värdet för <code>countOrCondition</code>:    <ul>    <li> Om <code>countOrCondition</code> är ett tal returneras så många rader med början från positionen (slutet - <code>countOrCondition</code>). </li>    <li> Om <code>countOrCondition</code> är ett villkor returneras de rader som uppfyller villkoret i stigande ordning tills en rad inte uppfyller villkoret.</li></ul>
 

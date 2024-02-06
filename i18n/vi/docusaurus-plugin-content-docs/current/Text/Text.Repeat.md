@@ -5,8 +5,6 @@ title: Text.Repeat
 # Text.Repeat
 
 
-## Description
-
 Trả về một giá trị văn bản bao gồm văn bản đầu vào được lặp lại ở số lần được chỉ định.
 
 
@@ -20,7 +18,7 @@ Text.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một giá trị văn bản bao gồm văn bản đầu vào <code>text</code> được lặp lại <code>count</code> lần.
 

@@ -5,8 +5,6 @@ title: Date.EndOfWeek
 # Date.EndOfWeek
 
 
-## Description
-
 सप्ताह का अंत लौटाता है.
 
 
@@ -20,7 +18,7 @@ Date.EndOfWeek(
 ```
 
 
-## Details
+## Remarks
 
 उस सप्ताह के अंत में लौटाता है जिसमें <code>dateTime</code> होता है.    यह फ़ंक्शन इस सापेक्षिक परिकलन के लिए सप्ताह का पहला दिन सेट करने हेतु एक वैकल्पिक <code>Day</code> <code>firstDayOfWeek</code> लेता है. डिफ़ॉल्ट मान <code>Day.Sunday</code> है.      <ul>        <li><code>dateTime</code>: एक ऐसा <code>date</code>, <code>datetime</code> या <code>datetimezone</code> मान, जिससे सप्ताह के अंतिम दिन का परिकलन किया जाता है</li>        <li><code>firstDayOfWeek</code>: <i>[वैकल्पिक]</i> सप्ताह के पहले दिन को दर्शाने वाला <code>Day.Type</code> मान संभावित मान <code>Day.Sunday</code>, <code>Day.Monday</code>, <code>Day.Tuesday</code>, <code>Day.Wednesday</code>, <code>Day.Thursday</code>, <code>Day.Friday</code> और <code>Day.Saturday.</code> हैं. डिफ़ॉल्ट मान <code>Day.Sunday</code> है.</li>      </ul>
 

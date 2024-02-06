@@ -5,8 +5,6 @@ title: Table.SelectRowsWithErrors
 # Table.SelectRowsWithErrors
 
 
-## Description
-
 Returnerar en tabell med bara de rader i indatatabellen som innehåller ett fel i minst en av cellerna. Om en kolumnlista anges genomsöks bara cellerna i de angivna kolumnerna efter fel.
 
 
@@ -20,7 +18,7 @@ Table.SelectRowsWithErrors(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell med bara de rader i indatatabellen som innehåller ett fel i minst en av cellerna. Om en kolumnlista anges genomsöks bara cellerna i de angivna kolumnerna efter fel.
 

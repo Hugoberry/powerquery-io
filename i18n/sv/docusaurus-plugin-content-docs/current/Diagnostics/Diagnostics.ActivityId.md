@@ -5,8 +5,6 @@ title: Diagnostics.ActivityId
 # Diagnostics.ActivityId
 
 
-## Description
-
 Returnerar en täckande identifierare för den utvärdering som körs.
 
 
@@ -19,7 +17,7 @@ Diagnostics.ActivityId(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en täckande identifierare för den utvärdering som körs.
 

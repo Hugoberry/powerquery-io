@@ -5,8 +5,6 @@ title: RData.FromBinary
 # RData.FromBinary
 
 
-## Description
-
 Returnerer en post for datarammer fra RData-filen.
 
 
@@ -19,7 +17,7 @@ RData.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en post for datarammer fra RData-filen.
 

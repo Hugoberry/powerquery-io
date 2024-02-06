@@ -5,8 +5,6 @@ title: Geometry.ToWellKnownText
 # Geometry.ToWellKnownText
 
 
-## Description
-
 Converte un valore di punto geometrico strutturato nella relativa rappresentazione WKT (well-known text).
 
 
@@ -20,7 +18,7 @@ Geometry.ToWellKnownText(
 ```
 
 
-## Details
+## Remarks
 
 Converte un valore di punto geometrico strutturato nella relativa rappresentazione WKT (well-known text), come definito dall'Open Geospatial Consortium (OGC). È anche il formato di serializzazione usato da molti database, incluso SQL Server.
 

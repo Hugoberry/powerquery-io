@@ -5,8 +5,6 @@ title: DateTime.ToRecord
 # DateTime.ToRecord
 
 
-## Description
-
 Возвращает запись, содержащую части значения datetime.
 
 
@@ -19,7 +17,7 @@ DateTime.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает запись, содержащую части заданного значения datetime, <code>dateTime</code>. <ul>        <li><code>dateTime</code>: значение <code>datetime</code>, для которого необходимо вычислить запись частей.</li>      </ul>
 

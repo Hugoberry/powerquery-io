@@ -5,8 +5,6 @@ title: List.DateTimes
 # List.DateTimes
 
 
-## Description
-
 Generuje listę wartości typu datetime, używając podanej wartości początkowej, liczby wartości oraz przyrostowej wartości czasu trwania.
 
 
@@ -21,7 +19,7 @@ List.DateTimes(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca listę wartości typu <code>datetime</code> o rozmiarze <code>count</code>, rozpoczynając od wartości <code>start</code>. Podany przyrost (<code>step</code>) to wartość typu <code>duration</code> dodawana do każdej wartości.
 

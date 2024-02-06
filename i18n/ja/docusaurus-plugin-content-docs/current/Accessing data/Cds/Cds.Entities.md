@@ -16,7 +16,7 @@ Cds.Entities(
 ```
 
 
-## Details
+## Remarks
 
 ご使用の Common Data Service インスタンスに接続します (Dynamics 365 および PowerApps)。
 

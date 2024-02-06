@@ -5,8 +5,6 @@ title: Value.Equals
 # Value.Equals
 
 
-## Description
-
 Devuelve si dos valores son iguales.
 
 
@@ -21,7 +19,7 @@ Value.Equals(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve true si el valor <code>value1</code> es igual que el valor <code>value2</code>; false, en caso contrario.
 

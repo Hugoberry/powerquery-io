@@ -5,8 +5,6 @@ title: Table.ContainsAny
 # Table.ContainsAny
 
 
-## Description
-
 Anger om någon av de angivna posterna visas som rader i tabellen.
 
 
@@ -21,7 +19,7 @@ Table.ContainsAny(
 ```
 
 
-## Details
+## Remarks
 
 Anger om någon av de angivna posterna i listan med poster, <code>rows</code>, visas som rader i <code>table</code>.    En valfri parameter, <code>equationCriteria</code>, kan anges för att hantera jämförelsen mellan raderna i tabellen.
 

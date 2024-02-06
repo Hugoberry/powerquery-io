@@ -15,7 +15,7 @@ Synapse.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Trình kết nối PQ cho không gian làm việc Azure Synapse Analytics
 

@@ -5,8 +5,6 @@ title: Record.Combine
 # Record.Combine
 
 
-## Description
-
 Fasst die Datensätze in der angegebenen Liste zusammen.
 
 
@@ -19,7 +17,7 @@ Record.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Fasst die Datensätze im angegebenen Element vom Typ "<code>records</code>" zusammen. Enthält das Element vom Typ "<code>records</code>" datensatzfremde Werte, wird ein Fehler zurückgegeben.
 

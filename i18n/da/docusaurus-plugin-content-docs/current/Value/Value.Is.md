@@ -5,8 +5,6 @@ title: Value.Is
 # Value.Is
 
 
-## Description
-
 Bestemmer, om en værdi er kompatibel med den angivne type.
 
 
@@ -20,7 +18,7 @@ Value.Is(
 ```
 
 
-## Details
+## Remarks
 
 Bestemmer, om en værdi er kompatibel med den angivne type. Dette svarer til operatoren "is" i M med undtagelse af, at det kan acceptere referencer for identifikator-type, f. eks. Number.Type.
 

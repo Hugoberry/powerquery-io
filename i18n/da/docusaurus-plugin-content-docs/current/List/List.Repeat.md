@@ -5,8 +5,6 @@ title: List.Repeat
 # List.Repeat
 
 
-## Description
-
 Returnerer en liste, der tæller gentagelser på den oprindelige liste.
 
 
@@ -20,7 +18,7 @@ List.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en liste, der indeholder <code>count</code> gentagelser fra den oprindelige liste, <code>list</code>.
 

@@ -5,8 +5,6 @@ title: List.Intersect
 # List.Intersect
 
 
-## Description
-
 Trả về giao điểm của các giá trị danh sách tìm được ở đầu vào.
 
 
@@ -20,7 +18,7 @@ List.Intersect(
 ```
 
 
-## Details
+## Remarks
 
 Trả về giao điểm của các giá trị danh sách tìm được trong danh sách đầu vào <code>lists</code>. Có thể chỉ định tham số tùy chọn <code>equationCriteria</code>.
 

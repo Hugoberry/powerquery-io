@@ -5,8 +5,6 @@ title: Uri.EscapeDataString
 # Uri.EscapeDataString
 
 
-## Description
-
 依據 RFC 3986 將特殊字元編碼。
 
 
@@ -19,7 +17,7 @@ Uri.EscapeDataString(
 ```
 
 
-## Details
+## Remarks
 
 依據 RFC 3986 將輸入 <code>data</code> 中的特殊字元編碼。
 

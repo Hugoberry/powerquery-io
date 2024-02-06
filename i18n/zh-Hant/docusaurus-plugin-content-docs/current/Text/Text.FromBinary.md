@@ -5,8 +5,6 @@ title: Text.FromBinary
 # Text.FromBinary
 
 
-## Description
-
 將二進位格式的資料解碼成文字。
 
 
@@ -20,7 +18,7 @@ Text.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 使用 <code>encoding</code> 類型，將二進位值的資料 <code>binary</code> 解碼成文字值。
 

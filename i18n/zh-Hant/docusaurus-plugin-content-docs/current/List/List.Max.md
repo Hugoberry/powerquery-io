@@ -5,8 +5,6 @@ title: List.Max
 # List.Max
 
 
-## Description
-
 傳回最大值，或針對空的清單傳回預設值。
 
 
@@ -22,7 +20,7 @@ List.Max(
 ```
 
 
-## Details
+## Remarks
 
 傳回清單 <code>list</code> 中最大的項目，如果清單是空的，則傳回選擇性的預設值 <code>default</code>。    可指定選擇性的 comparisonCriteria 值 <code>comparisonCriteria</code>，以決定清單中項目的比較方式。如果這個參數是 null，則使用預設比較子。
 

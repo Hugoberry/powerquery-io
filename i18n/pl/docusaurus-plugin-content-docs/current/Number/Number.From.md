@@ -5,8 +5,6 @@ title: Number.From
 # Number.From
 
 
-## Description
-
 Tworzy liczbę na podstawie danej wartości.
 
 
@@ -20,7 +18,7 @@ Number.From(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wartość typu <code>number</code> z danej wartości parametru <code>value</code>. Można także określić opcjonalny parametr <code>culture</code> (na przykład „en-US”).Jeśli dany parametr <code>value</code> ma wartość <code>null</code>, funkcja <code>Number.From</code> zwraca wartość <code>null</code>.  Jeśli dany parametr <code>value</code> ma wartość typu <code>number</code>, zwracana jest wartość <code>value</code>. Na wartość typu <code>number</code> można konwertować wartości następujących typów:      <ul>        <li><code>text</code>: wartość typu <code>number</code> z reprezentacji tekstowej. Obsługiwane są typowe formaty tekstowe („15”, „3 423,10”, „5,0E-10”). Zobacz opis funkcji <code>Number.FromText</code>, aby uzyskać szczegółowe informacje.</li>        <li><code>logical</code>: 1 dla wartości <code>true</code>, 0 dla wartości <code>false</code>.</li>        <li><code>datetime</code>: liczba zmiennoprzecinkowa o podwójnej precyzji, która zawiera odpowiednik daty automatyzacji łączenia i osadzania obiektów.</li>        <li><code>datetimezone</code>: liczba zmiennoprzecinkowa o podwójnej precyzji, która zawiera odpowiednik daty automatyzacji łączenia i osadzania obiektów dla lokalnej daty i godziny określonej w parametrze <code>value</code>.</li>        <li><code>date</code>: liczba zmiennoprzecinkowa o podwójnej precyzji, która zawiera odpowiednik daty automatyzacji łączenia i osadzania obiektów.</li>        <li><code>time</code>: wartość wyrażona w ułamkowych dniach.</li>        <li><code>duration</code>: wartość wyrażona w całych i ułamkowych dniach.</li>      </ul>Jeśli wartość parametru <code>value</code> jest innego typu, jest zwracany błąd.
 

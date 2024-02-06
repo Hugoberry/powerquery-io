@@ -5,8 +5,6 @@ title: Table.ColumnsOfType
 # Table.ColumnsOfType
 
 
-## Description
-
 Returnerar en lista med namnen på de kolumner som matchar de angivna typerna.
 
 
@@ -20,7 +18,7 @@ Table.ColumnsOfType(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en lista med namnen på de kolumner från tabellen <code>table</code> som matchar de angivna typerna i <code>listOfTypes</code>.
 

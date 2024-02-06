@@ -5,8 +5,6 @@ title: Value.Metadata
 # Value.Metadata
 
 
-## Description
-
 Zwraca rekord zawierający metadane wartości wejściowej.
 
 
@@ -19,7 +17,7 @@ Value.Metadata(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca rekord zawierający metadane wartości wejściowej.
 

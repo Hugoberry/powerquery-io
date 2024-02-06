@@ -5,8 +5,6 @@ title: Record.ReorderFields
 # Record.ReorderFields
 
 
-## Description
-
 Zmienia kolejność określonych pól na nową kolejność.
 
 
@@ -21,7 +19,7 @@ Record.ReorderFields(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca rekord po zmianie kolejności pól w rekordzie <code>record</code> na kolejność pól określoną na liście <code>fieldOrder</code>. Wartości pól są zachowywane, a pola niewymienione na liście <code>fieldOrder</code> pozostają na oryginalnych pozycjach.
 

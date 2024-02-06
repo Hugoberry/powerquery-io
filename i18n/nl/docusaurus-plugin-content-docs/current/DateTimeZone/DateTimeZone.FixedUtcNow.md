@@ -5,8 +5,6 @@ title: DateTimeZone.FixedUtcNow
 # DateTimeZone.FixedUtcNow
 
 
-## Description
-
 Retourneert de huidige datum en tijd in UTC (de GMT-tijdzone). Deze waarde is vast en verandert niet met opeenvolgende aanroepen.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.FixedUtcNow(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de huidige datum en tijd in UTC (de GMT-tijdzone). Deze waarde is vast en verandert niet met opeenvolgende aanroepen.
 

@@ -5,8 +5,6 @@ title: GeographyPoint.From
 # GeographyPoint.From
 
 
-## Description
-
 Hiermit wird ein Datensatz erstellt, der einen geografischen Punkt anhand seiner Bestandteile darstellt.
 
 
@@ -23,7 +21,7 @@ GeographyPoint.From(
 ```
 
 
-## Details
+## Remarks
 
 Hiermit wird ein Datensatz erstellt, der einen geografischen Punkt anhand seiner Bestandteile darstellt, z. B. Längengrad, Breitengrad und – sofern vorhanden – Höhe über NN (Z) und Maßeinheit (M). Anstelle des Standardwerts (4326) kann eine optionale Raumbezugskennung (SRID) angegeben werden.
 

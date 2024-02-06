@@ -5,8 +5,6 @@ title: VSTS.Feed
 # VSTS.Feed
 
 
-## Description
-
 Feed dos Serviços do Azure DevOps
 
 
@@ -20,7 +18,7 @@ VSTS.Feed(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma tabela de feeds OData oferecida pelo Azure DevOps.
 

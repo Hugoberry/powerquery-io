@@ -5,8 +5,6 @@ title: Combiner.CombineTextByDelimiter
 # Combiner.CombineTextByDelimiter
 
 
-## Description
-
 指定された区切り記号を使用してテキストのリストに結合する関数を返します。
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 指定された区切り記号を使用してテキス値トのリストを 1 つのテキスト値に結合する関数を返します。
 

@@ -5,8 +5,6 @@ title: List.ContainsAny
 # List.ContainsAny
 
 
-## Description
-
 Angiver, om en liste indeholder en af værdierne på en anden liste.
 
 
@@ -21,7 +19,7 @@ List.ContainsAny(
 ```
 
 
-## Details
+## Remarks
 
 Angiver, om listen <code>list</code> indeholder en af værdierne på en anden liste, <code>values</code>.        Returnerer true, hvis værdien blev fundet på listen. Ellers returneres false. Du kan angive en valgfri kriterieværdi for ligningen, <code>equationCriteria</code>, for at styre kvalitetstesten. 
 

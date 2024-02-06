@@ -5,8 +5,6 @@ title: List.Alternate
 # List.Alternate
 
 
-## Description
-
 傳回由清單中所有奇數位移項目所組成的清單。
 
 
@@ -22,7 +20,7 @@ List.Alternate(
 ```
 
 
-## Details
+## Remarks
 
 傳回由清單中所有奇數位移項目所組成的清單。根據參數，交替接受和略過清單 <code>list</code> 中的值。    <ul>    <li><code>count</code>: 指定每次略過的值數目。</li>    <li><code>repeatInterval</code>: 選擇性的重複間隔可指出要在略過的值之間加入多少值。</li>    <li><code>offset</code>: 選擇性的位移參數可開始略過開頭位移處的值。</li>    </ul>
 

@@ -5,8 +5,6 @@ title: Binary.Combine
 # Binary.Combine
 
 
-## Description
-
 Combineert een lijst met binaire waarden tot een enkele binaire waarde.
 
 
@@ -19,7 +17,7 @@ Binary.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Combineert een lijst met binaire waarden tot een enkele binaire waarde.
 

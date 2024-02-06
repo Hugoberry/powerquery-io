@@ -5,8 +5,6 @@ title: SapBusinessWarehouse.Cubes
 # SapBusinessWarehouse.Cubes
 
 
-## Description
-
 Возвращает инфокубы и запросы в системе SAP Business Warehouse, сгруппированные по инфообласти.
 
 
@@ -23,7 +21,7 @@ SapBusinessWarehouse.Cubes(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу инфокубов и запросов, сгруппированных по инфообласти, из экземпляра SAP Business Warehouse на сервере <code>server</code> с номером системы <code>systemNumberOrSystemId</code> и идентификатором клиента <code>clientId</code>. Необязательный параметр записи <code>optionsOrLogonGroup</code> может быть указан для управления следующими параметрами:        
 

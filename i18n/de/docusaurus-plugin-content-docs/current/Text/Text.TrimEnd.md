@@ -5,8 +5,6 @@ title: Text.TrimEnd
 # Text.TrimEnd
 
 
-## Description
-
 Entfernt alle nachfolgenden Leerzeichen.
 
 
@@ -20,7 +18,7 @@ Text.TrimEnd(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das Ergebnis des Entfernens aller nachfolgenden Leerzeichen aus dem Textwert "<code>text</code>" zurück.
 

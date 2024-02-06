@@ -5,8 +5,6 @@ title: Function.Invoke
 # Function.Invoke
 
 
-## Description
-
 Richiama la funzione specificata
 
 
@@ -20,7 +18,7 @@ Function.Invoke(
 ```
 
 
-## Details
+## Remarks
 
 Richiama la funzione specificata utilizzando l'elenco di argomenti specificato e restituisce il risultato.
 

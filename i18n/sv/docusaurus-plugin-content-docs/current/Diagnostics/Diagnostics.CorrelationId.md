@@ -5,8 +5,6 @@ title: Diagnostics.CorrelationId
 # Diagnostics.CorrelationId
 
 
-## Description
-
 Returnerar en täckande identifierare för att korrelera inkommande begäranden med utgående.
 
 
@@ -19,7 +17,7 @@ Diagnostics.CorrelationId(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en täckande identifierare för att korrelera inkommande begäranden med utgående.
 

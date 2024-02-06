@@ -5,8 +5,6 @@ title: Number.RoundAwayFromZero
 # Number.RoundAwayFromZero
 
 
-## Description
-
 Zwraca wynik zaokrąglenia liczby dodatniej w górę lub liczby ujemnej w dół. Można określić liczbę miejsc po przecinku.
 
 
@@ -20,7 +18,7 @@ Number.RoundAwayFromZero(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wynik zaokrąglenia liczby <code>number</code> w zależności od jej znaku. Ta funkcja zaokrągla liczby dodatnie w górę, a liczby ujemne w dół.    Jeśli parametr <code>digits</code> jest określony, liczba <code>number</code> jest zaokrąglana do liczby miejsc po przecinku określonej przez parametr <code>digits</code>.  
 

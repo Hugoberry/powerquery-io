@@ -5,8 +5,6 @@ title: Table.SplitColumn
 # Table.SplitColumn
 
 
-## Description
-
 Splitst met behulp van de opgegeven splitsfunctie de opgegeven kolommen op in een set aanvullende kolommen.
 
 
@@ -24,7 +22,7 @@ Table.SplitColumn(
 ```
 
 
-## Details
+## Remarks
 
 Splitst met behulp van de opgegeven splitsfunctie de opgegeven kolommen op in een set aanvullende kolommen.
 

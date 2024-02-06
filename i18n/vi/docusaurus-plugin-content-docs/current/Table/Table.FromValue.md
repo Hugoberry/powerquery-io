@@ -5,8 +5,6 @@ title: Table.FromValue
 # Table.FromValue
 
 
-## Description
-
 Tạo một bảng với một cột từ (các) giá trị cho sẵn.
 
 
@@ -20,7 +18,7 @@ Table.FromValue(
 ```
 
 
-## Details
+## Remarks
 
 Tạo bảng có cột chứa giá trị hoặc danh sách giá trị đã cung cấp, <code>value</code>. Tham số bản ghi tùy chọn, <code>options</code>, có thể được chỉ định để kiểm soát các tùy chọn sau:    <ul>    <li> <code>DefaultColumnName</code> : Tên cột được sử dụng khi xây dựng bảng từ một giá trị danh sách hoặc giá trị vô hướng.</li>    </ul>  
 

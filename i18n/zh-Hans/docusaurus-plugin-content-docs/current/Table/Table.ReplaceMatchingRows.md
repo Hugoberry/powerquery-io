@@ -5,8 +5,6 @@ title: Table.ReplaceMatchingRows
 # Table.ReplaceMatchingRows
 
 
-## Description
-
 使用提供的行替换所有指定的行。
 
 
@@ -21,7 +19,7 @@ Table.ReplaceMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 使用提供的行替换 <code>table</code> 中所有指定的行。要替换的行以及替换项在 <code>replacements</code> 中使用 \{old, new} 格式指定。    可以指定一个可选 <code>equationCriteria</code> 参数，以控制表各行之间的比较。
 

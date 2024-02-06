@@ -5,8 +5,6 @@ title: Time.Hour
 # Time.Hour
 
 
-## Description
-
 Returnerer timekomponenten.
 
 
@@ -19,7 +17,7 @@ Time.Hour(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer timekomponenten af den angivne værdi af typen <code>time</code>, <code>datetime</code> eller <code>datetimezone</code>, <code>dateTime</code>.
 

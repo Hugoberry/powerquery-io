@@ -5,8 +5,6 @@ title: Table.TransformColumnNames
 # Table.TransformColumnNames
 
 
-## Description
-
 Trasforma i nomi di colonna usando la funzione specificata.
 
 
@@ -21,7 +19,7 @@ Table.TransformColumnNames(
 ```
 
 
-## Details
+## Remarks
 
 Trasforma i nomi di colonna usando la funzione <code>nameGenerator</code> specificata. Opzioni valide: <div> <code>MaxLength</code> specifica la lunghezza massima dei nomi delle nuove colonne. Se la funzione specificata restituisce un nome di colonna più lungo, il nome lungo verrà tagliato. </div> <div> <code>Operatore di confronto</code> viene usato per controllare il confronto durante la generazione di nuovi nomi di colonna. Gli operatori di confronto possono essere usati per fornire confronti con distinzione tra maiuscole e minuscole oppure confronti in grado di riconoscere le impostazioni cultura e locali. </div> <div> Nel linguaggio delle formule sono disponibili gli operatori di confronto predefiniti seguenti: </div> <ul> <li><code>Comparer.Ordinal</code>:  usato per eseguire un confronto ordinale esatto</li> <li><code>Comparer.OrdinalIgnoreCase</code>: usato per eseguire un confronto ordinale esatto senza distinzione tra maiuscole e minuscole</li> <li><code>Comparer.FromCulture</code>: usato per eseguire un confronto in grado di riconoscere le impostazioni cultura e locali</li> </ul>
 

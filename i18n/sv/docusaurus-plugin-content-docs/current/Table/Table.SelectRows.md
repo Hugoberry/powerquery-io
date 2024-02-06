@@ -5,8 +5,6 @@ title: Table.SelectRows
 # Table.SelectRows
 
 
-## Description
-
 Markerar de rader som uppfyller villkorsfunktionen.
 
 
@@ -20,7 +18,7 @@ Table.SelectRows(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell med rader från <code>table</code> som matchar <code>condition</code> som valts.
 

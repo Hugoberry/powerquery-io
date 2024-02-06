@@ -5,8 +5,6 @@ title: Cube.ApplyParameter
 # Cube.ApplyParameter
 
 
-## Description
-
 Zwraca moduł po zastosowaniu do niego parametru.
 
 
@@ -21,7 +19,7 @@ Cube.ApplyParameter(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca moduł po zastosowaniu parametru <code>parameter</code> z wartością <code>arguments</code> do <code>cube</code>.
 

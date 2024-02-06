@@ -5,8 +5,6 @@ title: HdInsight.Containers
 # HdInsight.Containers
 
 
-## Description
-
 Returnerar en navigeringstabell som innehåller de containrar som påträffats i det angivna kontot från ett Azure Storage-valv.
 
 
@@ -19,7 +17,7 @@ HdInsight.Containers(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en navigeringstabell som innehåller en rad för varje container som påträffats på kontots URL, <code>account</code>, från ett Azure Storage-valv. Varje rad innehåller en länk till containerblobarna.
 

@@ -5,8 +5,6 @@ title: Splitter.SplitTextByEachDelimiter
 # Splitter.SplitTextByEachDelimiter
 
 
-## Description
-
 ส่งกลับฟังก์ชันที่แยกข้อความออกเป็นรายการของข้อความที่ตัวคั่นแต่ละตัวที่ระบุตามลำดับ
 
 
@@ -21,7 +19,7 @@ Splitter.SplitTextByEachDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับฟังก์ชันที่แยกข้อความออกเป็นรายการของข้อความที่ตัวคั่นแต่ละตัวที่ระบุตามลำดับ
 

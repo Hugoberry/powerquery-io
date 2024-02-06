@@ -5,8 +5,6 @@ title: Value.Expression
 # Value.Expression
 
 
-## Description
-
 Gibt eine abstrakte Syntaxstruktur (Abstract Syntax Tree, AST) zurück, die den Ausdruck des Werts darstellt.
 
 
@@ -19,7 +17,7 @@ Value.Expression(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine abstrakte Syntaxstruktur (Abstract Syntax Tree, AST) zurück, die den Ausdruck des Werts darstellt.
 

@@ -5,8 +5,6 @@ title: Record.SelectFields
 # Record.SelectFields
 
 
-## Description
-
 Yalnızca belirtilen alanları içeren bir kayıt döndürür.
 
 
@@ -21,7 +19,7 @@ Record.SelectFields(
 ```
 
 
-## Details
+## Remarks
 
 <code>record</code> girdisinden yalnızca <code>fields</code> listesinde belirtilen alanları içeren bir kayıt döndürür.
 

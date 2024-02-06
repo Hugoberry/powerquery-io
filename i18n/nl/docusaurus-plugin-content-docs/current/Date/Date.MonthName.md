@@ -5,8 +5,6 @@ title: Date.MonthName
 # Date.MonthName
 
 
-## Description
-
 Hiermee wordt de naam van het maandonderdeel geretourneerd.
 
 
@@ -20,7 +18,7 @@ Date.MonthName(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt de naam van het maandonderdeel geretourneerd voor de opgegeven <code>date</code>. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
 

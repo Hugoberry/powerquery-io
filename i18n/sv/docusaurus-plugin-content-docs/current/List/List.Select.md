@@ -5,8 +5,6 @@ title: List.Select
 # List.Select
 
 
-## Description
-
 Returnerar en lista med värden som matchar villkoret.
 
 
@@ -20,7 +18,7 @@ List.Select(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en lista med värden från listan <code>list</code> som matchar urvalsvillkoret <code>selection</code>.
 

@@ -5,8 +5,6 @@ title: Number.IsOdd
 # Number.IsOdd
 
 
-## Description
-
 Angiver, om værdien er et ulige tal.
 
 
@@ -19,7 +17,7 @@ Number.IsOdd(
 ```
 
 
-## Details
+## Remarks
 
 Angiver, om værdien er et ulige tal. Returnerer <code>true</code>, hvis <code>number</code> er et ulige tal. Ellers returneres <code>false</code>.
 

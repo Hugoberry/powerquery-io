@@ -5,8 +5,6 @@ title: List.Numbers
 # List.Numbers
 
 
-## Description
-
 Returnerar en lista med tal baserat på ett ursprungligt värde, antal och ett valfritt ökningsvärde.
 
 
@@ -21,7 +19,7 @@ List.Numbers(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en lista med tal baserat på ett ursprungligt värde, antal och ett valfritt ökningsvärde. Standardökningsvärdet är 1.<ul>   <li><code>start</code>: Det ursprungliga värdet i listan.</li>   <li><code>count</code>: Antalet värden som ska skapas.</li>   <li><code>increment</code>: <i>[Valfritt]</i> Värdet som du vill öka med. Om inget anges ökas värdena med 1.</li></ul>
 

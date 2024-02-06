@@ -5,8 +5,6 @@ title: RowExpression.Column
 # RowExpression.Column
 
 
-## Description
-
 Возвращает абстрактное синтаксическое дерево (AST), представляющее доступ к столбцу в выражении строки.
 
 
@@ -19,7 +17,7 @@ RowExpression.Column(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает абстрактное синтаксическое дерево (AST), представляющее доступ к столбцу <code>columnName</code> строки в выражении строки.
 

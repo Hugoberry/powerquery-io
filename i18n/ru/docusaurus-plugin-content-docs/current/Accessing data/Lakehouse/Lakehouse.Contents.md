@@ -5,8 +5,6 @@ title: Lakehouse.Contents
 # Lakehouse.Contents
 
 
-## Description
-
 Импорт данных из Lakehouse
 
 
@@ -19,7 +17,7 @@ Lakehouse.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Подключитесь ко всем Lakehouses, к которым у вас есть доступ, и выберите объекты для использования
 

@@ -5,8 +5,6 @@ title: Progress.DataSourceProgress
 # Progress.DataSourceProgress
 
 
-## Description
-
 Esta função destina-se apenas a utilização interna.
 
 
@@ -19,7 +17,7 @@ Progress.DataSourceProgress(
 ```
 
 
-## Details
+## Remarks
 
 Esta função destina-se apenas a utilização interna.
 

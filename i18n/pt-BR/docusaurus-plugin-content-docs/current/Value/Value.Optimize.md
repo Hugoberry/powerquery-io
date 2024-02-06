@@ -5,8 +5,6 @@ title: Value.Optimize
 # Value.Optimize
 
 
-## Description
-
 Sinaliza Value.Expression para retornar a expressão otimizada para um valor.
 
 
@@ -19,7 +17,7 @@ Value.Optimize(
 ```
 
 
-## Details
+## Remarks
 
 Quando usado em Value.Expression, se <code>value</code> representa uma consulta que pode ser otimizada, esta função indica que a expressão otimizada deve ser retornada. Caso contrário, o <code>value</code> será passado sem efeito.
 

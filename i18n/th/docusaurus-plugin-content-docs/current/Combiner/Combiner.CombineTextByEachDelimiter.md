@@ -5,8 +5,6 @@ title: Combiner.CombineTextByEachDelimiter
 # Combiner.CombineTextByEachDelimiter
 
 
-## Description
-
 ส่งกลับฟังก์ชันที่รวมรายการข้อความโดยใช้ลำดับตัวคั่น
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByEachDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับฟังก์ชันที่รวมรายการของค่าข้อความเป็นค่าข้อความเดียวโดยใช้ลำดับตัวคั่น
 

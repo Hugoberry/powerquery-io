@@ -5,8 +5,6 @@ title: Table.SelectRowsWithErrors
 # Table.SelectRowsWithErrors
 
 
-## Description
-
 少なくとも 1 つのセルにエラーがある、入力テーブルの行を含むテーブルを返します。列リストを指定した場合、指定した列のセルのみ、エラーの有無が確認されます。
 
 
@@ -20,7 +18,7 @@ Table.SelectRowsWithErrors(
 ```
 
 
-## Details
+## Remarks
 
 少なくとも 1 つのセルにエラーがある、入力テーブルの行を含むテーブルを返します。列リストを指定した場合、指定した列のセルのみ、エラーの有無が確認されます。
 

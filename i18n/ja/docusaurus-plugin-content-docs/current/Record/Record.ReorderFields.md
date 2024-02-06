@@ -5,8 +5,6 @@ title: Record.ReorderFields
 # Record.ReorderFields
 
 
-## Description
-
 指定されたフィールドを新しい順序で並べ替えます。
 
 
@@ -21,7 +19,7 @@ Record.ReorderFields(
 ```
 
 
-## Details
+## Remarks
 
 <code>record</code> 内のフィールドを、リスト <code>fieldOrder</code> で指定されたフィールドの順序で並べ替えたレコードを返します。フィールド値は維持され、<code>fieldOrder</code> に含まれていないフィールドは元の位置のままになります。
 

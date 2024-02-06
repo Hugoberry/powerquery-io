@@ -5,8 +5,6 @@ title: List.TransformMany
 # List.TransformMany
 
 
-## Description
-
 傳回清單，它的項目是使用指定的函數，從輸入清單轉換而成。
 
 
@@ -21,7 +19,7 @@ List.TransformMany(
 ```
 
 
-## Details
+## Remarks
 
 傳回從輸入清單投射元素的清單。<br />    <br /><code>collectionTransform</code> 函數會將每個元素轉換成中繼清單，而 <code>resultTransform</code> 函數會從中繼清單接收原始元素和項目，以建構最終結果。<br />    <br /><code>collectionTransform</code> 函數的簽章 <code> (x 任意) 作為清單 => ...</code>)， 其中<code>x</code> 是 <code>list</code> 中的元素。<code>resultTransform</code> 函數會投影結果的圖形，且簽章 <code> (x 任意，y 任意) 任意 => ...</code>, 其中 <code>x</code> 是 <code>list</code> 中的元素，而 <code>y</code> 是將 <code>x</code> 傳遞至 <code>collectionTransform</code> 所產生之清單中的元素 。
 

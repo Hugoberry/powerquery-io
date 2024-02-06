@@ -5,8 +5,6 @@ title: Marketo.Leads
 # Marketo.Leads
 
 
-## Description
-
 ส่งคืนค่าตารางพร้อมรายละเอียดลูกค้าที่สนใจ
 
 
@@ -21,7 +19,7 @@ Marketo.Leads(
 ```
 
 
-## Details
+## Remarks
 
 เรียกใช้ Marketo REST API Endpoint ที่ <code>url</code>/rest/v1/leads.json ส่งคืนข้อมูลลูกค้าที่สนใจทั้งหมดอยู่ในรายการ <code>leadIds</code>
 

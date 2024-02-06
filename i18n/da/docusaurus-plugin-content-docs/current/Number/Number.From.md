@@ -5,8 +5,6 @@ title: Number.From
 # Number.From
 
 
-## Description
-
 Opretter et tal ud fra den angivne værdi.
 
 
@@ -20,7 +18,7 @@ Number.From(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en værdi af typen <code>number</code> ud fra den angivne <code>value</code>. Der kan også angives en valgfri <code>culture</code> (f.eks. "en-US").Hvis den angivne <code>value</code> er <code>null</code>, vil <code>Number.From</code> returnere <code>null</code>. Hvis den angivne <code>value</code> er <code>number</code>, returneres <code>value</code>. Værdier af følgende typer kan konverteres til en værdi af typen <code>number</code>:      <ul>        <li><code>text</code>: En værdi af typen <code>number</code> fra en tekstrepræsentation. Almindelige tekstformater håndteres (15", "3,423.10", "5.0E-10"). Se <code>Number.FromText</code> for at få flere oplysninger.</li>        <li><code>logical</code>: 1 for <code>true</code>, 0 for <code>false</code>.</li>        <li><code>datetime</code>: Et reelt tal med dobbeltpræcision, der indeholder en OLE Automation-datoækvivalens.</li>        <li><code>datetimezone</code>: Et reelt tal med dobbeltpræcision, der indeholder en OLE Automation-datoækvivalens for den lokale dato og det lokale klokkeslæt, <code>value</code>.</li>        <li><code>date</code>: Et reelt tal med dobbeltpræcision, der indeholder en OLE Automation-datoækvivalens.</li>        <li><code>time</code>:  Udtrykt i brøkdage.</li>        <li><code>duration</code>: Udtrykt i hele dage og brøkdage.</li>      </ul>Hvis <code>value</code> er af en anden type, returneres der en fejl.
 

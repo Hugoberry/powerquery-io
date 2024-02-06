@@ -5,8 +5,6 @@ title: Table.ColumnsOfType
 # Table.ColumnsOfType
 
 
-## Description
-
 ส่งกลับรายการพร้อมชื่อของคอลัมน์ซึ่งตรงกันกับชนิดที่ระบุไว้
 
 
@@ -20,7 +18,7 @@ Table.ColumnsOfType(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับรายการพร้อมชื่อของคอลัมน์จากตาราง <code>table</code> ซึ่งตรงกันกับชนิดที่ระบุไว้ใน <code>listOfTypes</code>
 

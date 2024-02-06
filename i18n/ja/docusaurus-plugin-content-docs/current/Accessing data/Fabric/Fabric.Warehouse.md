@@ -5,8 +5,6 @@ title: Fabric.Warehouse
 # Fabric.Warehouse
 
 
-## Description
-
 ウェアハウスからデータをインポートします
 
 
@@ -19,7 +17,7 @@ Fabric.Warehouse(
 ```
 
 
-## Details
+## Remarks
 
 ウェアハウスからデータをインポートします
 

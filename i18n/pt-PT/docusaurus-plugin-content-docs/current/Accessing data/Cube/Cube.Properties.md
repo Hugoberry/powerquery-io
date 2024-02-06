@@ -5,8 +5,6 @@ title: Cube.Properties
 # Cube.Properties
 
 
-## Description
-
 Devolve uma tabela que contém o conjunto de propriedades disponíveis para as dimensões que são expandidas no cubo.
 
 
@@ -19,7 +17,7 @@ Cube.Properties(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma tabela que contém o conjunto de propriedades disponíveis para as dimensões que são expandidas no cubo.
 

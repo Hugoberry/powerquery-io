@@ -5,8 +5,6 @@ title: DynamicsNav.Contents
 # DynamicsNav.Contents
 
 
-## Description
-
 अपने Dynamics NAV Odata सेवा समाप्ति बिंदु का URL दर्ज करें.
 
 
@@ -20,7 +18,7 @@ DynamicsNav.Contents(
 ```
 
 
-## Details
+## Remarks
 
 प्रासंगिक Dynamics NAV डेटा के साथ तालिका लौटाता है. 
 

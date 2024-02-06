@@ -5,8 +5,6 @@ title: Text.Range
 # Text.Range
 
 
-## Description
-
 Devolve a subcadeia encontrada no desvio.
 
 
@@ -21,7 +19,7 @@ Text.Range(
 ```
 
 
-## Details
+## Remarks
 
 Devolve a subcadeia do texto <code>text</code> encontrada no desvio <code>offset</code>.    É possível incluir um parâmetro opcional, <code>count</code>, para especificar o número de carateres a devolver. Gera um erro se não existirem carateres suficientes.
 

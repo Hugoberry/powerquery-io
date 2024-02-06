@@ -5,8 +5,6 @@ title: BinaryFormat.ByteOrder
 # BinaryFormat.ByteOrder
 
 
-## Description
-
 Retourneert een binaire indeling met de bytevolgorde die is opgegeven door een functie.
 
 
@@ -20,7 +18,7 @@ BinaryFormat.ByteOrder(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een binaire indeling met de bytevolgorde die is opgegeven door <code>binaryFormat</code>.  De standaard-bytevolgorde is <code>ByteOrder.BigEndian</code>.
 

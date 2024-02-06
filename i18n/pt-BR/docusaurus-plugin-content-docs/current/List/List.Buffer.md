@@ -5,8 +5,6 @@ title: List.Buffer
 # List.Buffer
 
 
-## Description
-
 Armazena uma lista em buffer.
 
 
@@ -19,7 +17,7 @@ List.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Armazena a lista <code>list</code> em buffer na memória. O resultado desta chamada é uma lista estável.
 

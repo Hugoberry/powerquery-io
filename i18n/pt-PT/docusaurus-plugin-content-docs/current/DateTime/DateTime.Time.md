@@ -5,8 +5,6 @@ title: DateTime.Time
 # DateTime.Time
 
 
-## Description
-
 Devolve a parte que corresponde à hora do valor datetime especificado.
 
 
@@ -19,7 +17,7 @@ DateTime.Time(
 ```
 
 
-## Details
+## Remarks
 
 Devolve a parte que corresponde à hora do valor datetime especificado, <code>dateTime</code>.
 

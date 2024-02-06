@@ -5,8 +5,6 @@ title: List.RemoveFirstN
 # List.RemoveFirstN
 
 
-## Description
-
 Returnerer en liste, der springer det angivne antal elementer over i starten af listen.
 
 
@@ -20,7 +18,7 @@ List.RemoveFirstN(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en liste, der fjerner første element på listen <code>list</code>. Hvis <code>list</code> er en tom liste, returneres der en tom liste.Denne funktion bruger en valgfri parameter, <code>countOrCondition</code>, for at understøtte fjernelse af flere værdier som anført nedenfor. <ul> <li>Hvis der er angivet et tal, fjernes elementer op til det angivne antal. </li> <li>Hvis der er angivet en betingelse, starter den returnerede liste med det første element i <code>list</code>, der opfylder kriterierne. Når et element ikke opfylder betingelsen, tages der ikke flere elementer med i betragtning. </li> <li>Hvis denne parameter er null, anvendes standardfunktionsmåden. </li> </ul>
 

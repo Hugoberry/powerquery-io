@@ -5,8 +5,6 @@ title: Binary.FromText
 # Binary.FromText
 
 
-## Description
-
 将来自文本格式的数据解码为二进制值。
 
 
@@ -20,7 +18,7 @@ Binary.FromText(
 ```
 
 
-## Details
+## Remarks
 
 返回将文本值 <code>text</code> 转换为二进制值(<code>number</code> 的列表)的结果。可以指定 <code>encoding</code> 以便指示在文本值中使用的编码。      以下 <code>BinaryEncoding</code> 值可用于 <code>encoding</code>。      <ul>        <li><code>BinaryEncoding.Base64</code>: Base 64 编码</li>        <li><code>BinaryEncoding.Hex</code>: 十六进制编码</li>      </ul>
 

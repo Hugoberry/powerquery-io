@@ -5,8 +5,6 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-## Description
-
 Attribue de nouveaux noms à partir d&#39;une liste dans le formulaire \{ old, new }.
 
 
@@ -21,7 +19,7 @@ Record.RenameFields(
 ```
 
 
-## Details
+## Remarks
 
 Retourne un enregistrement après avoir renommé les champs dans l'entrée <code>record</code> avec les nouveaux noms des champs spécifiés dans la liste <code>renames</code>. En cas de renommages multiples, une liste imbriquée peut être utilisé (\{ \{old1, new1}, \{old2, new2} }.
 

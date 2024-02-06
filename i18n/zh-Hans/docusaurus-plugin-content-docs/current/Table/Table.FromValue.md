@@ -5,8 +5,6 @@ title: Table.FromValue
 # Table.FromValue
 
 
-## Description
-
 从提供的值创建具有一列的表。
 
 
@@ -20,7 +18,7 @@ Table.FromValue(
 ```
 
 
-## Details
+## Remarks
 
 使用包含提供的值或值列表 <code>value</code> 的列创建表。可选记录参数 <code>options</code> 可以指定为控制以下选项:    <ul>    <li> <code>DefaultColumnName</code> : 从列表或标量值构造表时使用的列名。</li>    </ul>  
 

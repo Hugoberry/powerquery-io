@@ -5,8 +5,6 @@ title: Record.FromTable
 # Record.FromTable
 
 
-## Description
-
 Erstellt einen Datensatz auf der Grundlage einer Tabelle im Format &#34;\{[Name = name, Value = value]}&#34;.
 
 
@@ -19,7 +17,7 @@ Record.FromTable(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen Datensatz auf der Grundlage einer Datensatztabelle (<code>table</code>) mit Feld- und Wertnamen (<code>\{[Name = name, Value = value]}</code>) zurück. Sind die Feldnamen nicht eindeutig, wird eine Ausnahme ausgelöst.
 

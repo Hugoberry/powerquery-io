@@ -5,8 +5,6 @@ title: Table.DemoteHeaders
 # Table.DemoteHeaders
 
 
-## Description
-
 Rebaixa os cabeçalhos de coluna para a primeira linha de valores.
 
 
@@ -19,7 +17,7 @@ Table.DemoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Rebaixa os cabeçalhos de coluna (por exemplo, os nomes de coluna) para a primeira linha de valores. Os nomes de coluna padrão são "Coluna1", "Coluna2" e assim por diante.
 

@@ -5,8 +5,6 @@ title: Date.EndOfYear
 # Date.EndOfYear
 
 
-## Description
-
 Restituisce la fine dell’anno.
 
 
@@ -19,7 +17,7 @@ Date.EndOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce la fine dell'anno contenente <code>dateTime</code>, inclusi i secondi frazionari. Le informazioni del fuso orario sono mantenute.      <ul>        <li><code>dateTime</code>: valore <code>date</code>, <code>datetime</code> o <code>datetimezone</code> da cui viene calcolata la fine dell'anno.</li>      </ul>
 

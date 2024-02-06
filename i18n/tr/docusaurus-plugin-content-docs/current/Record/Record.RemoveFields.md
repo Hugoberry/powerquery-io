@@ -5,8 +5,6 @@ title: Record.RemoveFields
 # Record.RemoveFields
 
 
-## Description
-
 Belirtilen alanları girdi kaydından kaldırır.
 
 
@@ -21,7 +19,7 @@ Record.RemoveFields(
 ```
 
 
-## Details
+## Remarks
 
 <code>fields</code> listesinde belirtilen tüm alanları <code>record</code> girdisinden kaldıran bir kayıt döndürür. Belirtilen alan yoksa, özel durum oluşur.
 

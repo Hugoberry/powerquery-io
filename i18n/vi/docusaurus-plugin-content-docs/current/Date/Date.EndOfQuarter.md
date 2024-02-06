@@ -5,8 +5,6 @@ title: Date.EndOfQuarter
 # Date.EndOfQuarter
 
 
-## Description
-
 Trả về thời gian cuối quý.
 
 
@@ -19,7 +17,7 @@ Date.EndOfQuarter(
 ```
 
 
-## Details
+## Remarks
 
 Trả về thời gian cuối quý chứa <code>dateTime</code>. Thông tin múi giờ được bảo toàn.      <ul>      <li><code>dateTime</code>: Giá trị <code>date</code>, <code>datetime</code> hoặc <code>datetimezone</code> mà từ đó tính toán ra thời gian cuối quý.</li>      </ul>
 

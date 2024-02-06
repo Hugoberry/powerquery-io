@@ -5,8 +5,6 @@ title: Value.Is
 # Value.Is
 
 
-## Description
-
 Değerin belirtilen türle uyumlu olup olmadığını belirler.
 
 
@@ -20,7 +18,7 @@ Value.Is(
 ```
 
 
-## Details
+## Remarks
 
 Değerin belirtilen türle uyumlu olup olmadığını belirler. Bu, Number.Type gibi tanımlayıcı türü başvurularını kabul edebilmesi dışında M'deki "is" operatörüne eşdeğerdir.
 

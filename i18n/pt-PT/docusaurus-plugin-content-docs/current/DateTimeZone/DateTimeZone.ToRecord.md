@@ -5,8 +5,6 @@ title: DateTimeZone.ToRecord
 # DateTimeZone.ToRecord
 
 
-## Description
-
 Devolve um registo que contém as partes do valor datetimezone.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um registo que contém as partes do valor datetimezone especificado, <code>dateTimeZone</code>. <ul>        <li><code>dateTimeZone</code>: um valor <code>datetimezone</code> a partir do qual o registo das partes correspondentes deverá ser calculado.</li>      </ul>
 

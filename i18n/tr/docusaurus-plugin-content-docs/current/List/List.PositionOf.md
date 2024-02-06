@@ -5,8 +5,6 @@ title: List.PositionOf
 # List.PositionOf
 
 
-## Description
-
 Bir listedeki bir değerin uzaklıklarını döndürür.
 
 
@@ -22,7 +20,7 @@ List.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesinde <code>value</code> değerinin göründüğü uzaklığı döndürür. Değer görünmüyorsa -1 döndürülür.    <code>occurrence</code> isteğe bağlı oluşum parametresi de belirtilebilir.<ul>   <li><code>occurrence</code>: Bildirilecek oluşum sayısı üst sınırı.</li></ul>
 

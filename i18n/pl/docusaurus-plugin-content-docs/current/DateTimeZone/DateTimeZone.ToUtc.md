@@ -5,8 +5,6 @@ title: DateTimeZone.ToUtc
 # DateTimeZone.ToUtc
 
 
-## Description
-
 Konwertuje składnik strefy czasowej na strefę czasową UTC.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToUtc(
 ```
 
 
-## Details
+## Remarks
 
 Zmienia informacje dotyczące strefy czasowej w wartości typu datetime <code>dateTimeZone</code> na informacje dotyczące strefy czasowej czasu uniwersalnego (UTC).    Jeśli wartość <code>dateTimeZone</code> nie ma składnika strefy czasowej, dodawane są informacje dotyczące strefy czasowej UTC.
 

@@ -5,8 +5,6 @@ title: Table.ContainsAny
 # Table.ContainsAny
 
 
-## Description
-
 Wskazuje, czy dowolny z określonych rekordów występuje jako wiersz w tabeli.
 
 
@@ -21,7 +19,7 @@ Table.ContainsAny(
 ```
 
 
-## Details
+## Remarks
 
 Wskazuje, czy dowolny z rekordów określonych na liście rekordów <code>rows</code> występuje jako wiersz w tabeli <code>table</code>.    Opcjonalny parametr <code>equationCriteria</code> można określić, aby sterować porównywaniem wierszy tabeli.
 

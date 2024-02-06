@@ -5,8 +5,6 @@ title: Table.PrefixColumns
 # Table.PrefixColumns
 
 
-## Description
-
 Zwraca tabelę, w której do wszystkich kolumn został dodany prefiks składający się z podanego tekstu.
 
 
@@ -20,7 +18,7 @@ Table.PrefixColumns(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę, w której nazwy wszystkich kolumn z tabeli <code>table</code> są poprzedzane prefiksem w postaci podanego tekstu <code>prefix</code> oraz kropką w formie <code><code>prefix</code>.NazwaKolumny</code>.
 

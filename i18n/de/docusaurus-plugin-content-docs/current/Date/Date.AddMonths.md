@@ -5,8 +5,6 @@ title: Date.AddMonths
 # Date.AddMonths
 
 
-## Description
-
 Addiert die angegebenen Monate zum Datum.
 
 
@@ -20,7 +18,7 @@ Date.AddMonths(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Ergebnis der Addition von <code>numberOfMonths</code> Monaten zum <code>datetime</code>-Wert "<code>dateTime</code>" zurück.      <ul>        <li><code>dateTime</code>: Der <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert, zu dem Monate addiert werden.</li>        <li><code>numberOfMonths</code>: Die Anzahl der zu addierenden Monate.</li>      </ul>
 

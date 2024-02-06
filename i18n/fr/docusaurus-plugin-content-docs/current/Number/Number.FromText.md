@@ -5,8 +5,6 @@ title: Number.FromText
 # Number.FromText
 
 
-## Description
-
 Crée des numéros à partir des formats de texte communs (&#34; 15 &#34;, &#34; 3,423.10 &#34;, &#34; 5.0E-10 &#34;).
 
 
@@ -20,7 +18,7 @@ Number.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une valeur <code>number</code> à partir de la valeur de texte <code>text</code> spécifiée. <ul>  <li><code>text</code> : représentation texte d’une valeur de nombre. La représentation doit être dans un format numérique courant, tel que " 15 ", " 3,423.10 " ou " 5.0E-10 ".</li>  <li><code>culture</code> : une culture facultative qui contrôle la façon dont <code>text</code> est interprété (par exemple, "fr-fr").</li> </ul>
 

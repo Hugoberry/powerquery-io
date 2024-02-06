@@ -5,8 +5,6 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-## Description
-
 以 \{ old, new } 的格式套用清單中的重新命名。
 
 
@@ -21,7 +19,7 @@ Record.RenameFields(
 ```
 
 
-## Details
+## Remarks
 
 將輸入 <code>record</code> 中的欄位重新命名為清單 <code>renames</code> 中指定的新欄位名稱之後，傳回記錄。如果有多個重新命名，可能會使用巢狀清單 (\{ \{old1, new1}, \{old2, new2} }。
 

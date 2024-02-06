@@ -5,8 +5,6 @@ title: PowerPlatform.Dataflows
 # PowerPlatform.Dataflows
 
 
-## Description
-
 Importuj dane z przepływu danych
 
 
@@ -19,7 +17,7 @@ PowerPlatform.Dataflows(
 ```
 
 
-## Details
+## Remarks
 
 Nawiąż połączenie z wszystkimi przepływami danych, do których masz dostęp, i wybierz jednostki, których chcesz użyć
 

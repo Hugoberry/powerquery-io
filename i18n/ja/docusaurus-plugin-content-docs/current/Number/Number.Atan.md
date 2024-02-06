@@ -5,8 +5,6 @@ title: Number.Atan
 # Number.Atan
 
 
-## Description
-
 数値のアークタンジェントを返します。
 
 
@@ -19,7 +17,7 @@ Number.Atan(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> のアークタンジェントを返します。
 

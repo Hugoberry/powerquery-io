@@ -5,8 +5,6 @@ title: Table.Column
 # Table.Column
 
 
-## Description
-
 Gibt eine angegebene Spalte mit Daten aus der Tabelle als Liste zurück.
 
 
@@ -20,7 +18,7 @@ Table.Column(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die durch "<code>column</code>" angegebene Spalte mit Daten aus der Tabelle "<code>table</code>" als Liste zurück.
 

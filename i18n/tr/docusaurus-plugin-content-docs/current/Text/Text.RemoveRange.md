@@ -5,8 +5,6 @@ title: Text.RemoveRange
 # Text.RemoveRange
 
 
-## Description
-
 Verilen uzaklıkta başlayan belirli sayıda karakteri kaldırır
 
 
@@ -21,7 +19,7 @@ Text.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> metin değerinin <code>offset</code> konumundaki tüm karakterler kaldırılmış şekilde kopyasını döndürür.    Kaldırılacak karakter sayısını belirtmek üzere <code>count</code> isteğe bağlı parametresi kullanılabilir. <code>count</code> varsayılan değeri 1'dir. Konum değerleri 0'dan başlar.
 

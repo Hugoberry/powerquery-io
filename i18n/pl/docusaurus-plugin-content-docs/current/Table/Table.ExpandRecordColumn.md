@@ -5,8 +5,6 @@ title: Table.ExpandRecordColumn
 # Table.ExpandRecordColumn
 
 
-## Description
-
 Rozwija kolumnę rekordów na kolumny zawierające wartości każdego z nich.
 
 
@@ -22,7 +20,7 @@ Table.ExpandRecordColumn(
 ```
 
 
-## Details
+## Remarks
 
 Używając kolumny rekordów <code>column</code> w tabeli wejściowej <code>table</code>, tworzy tabelę zawierającą kolumnę dla każdego pola w rekordzie. Opcjonalnie można określić parametr <code>newColumnNames</code> w celu zagwarantowania unikatowości nazw kolumn w nowej tabeli.    <ul>        <li><code>table</code>: Oryginalna tabela z kolumną rekordów do rozwinięcia. </li>        <li><code>column</code>: Kolumna do rozwinięcia.</li>        <li><code>fieldNames</code>: Lista pól do rozwinięcia jako kolumny w tabeli.</li>        <li><code>newColumnNames</code>: Lista nazw, które zostaną nadane nowym kolumnom. Nazwy nowych kolumn nie mogą stanowić duplikatów nazw kolumn w nowej tabeli.</li>    </ul>
 

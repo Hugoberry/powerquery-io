@@ -5,8 +5,6 @@ title: Number.IsOdd
 # Number.IsOdd
 
 
-## Description
-
 Указывает, нечетно ли число.
 
 
@@ -19,7 +17,7 @@ Number.IsOdd(
 ```
 
 
-## Details
+## Remarks
 
 Указывает, нечетно ли число. Возвращает <code>true</code>, если <code>number</code> - нечетное число, <code>false</code> - в противном случае.
 

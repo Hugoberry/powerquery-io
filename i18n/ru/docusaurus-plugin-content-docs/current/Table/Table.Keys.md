@@ -5,8 +5,6 @@ title: Table.Keys
 # Table.Keys
 
 
-## Description
-
 Возвращает ключи указанной таблицы.
 
 
@@ -19,7 +17,7 @@ Table.Keys(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает ключи указанной таблицы.
 

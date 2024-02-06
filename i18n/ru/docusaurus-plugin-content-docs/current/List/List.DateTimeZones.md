@@ -5,8 +5,6 @@ title: List.DateTimeZones
 # List.DateTimeZones
 
 
-## Description
-
 Формирует список значений datetimezone на основе первоначального значения, количества и значения приращения даты.
 
 
@@ -21,7 +19,7 @@ List.DateTimeZones(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает список значений <code>datetimezone</code> размера <code>count</code>, начиная с <code>start</code>. Данное значение приращения <code>step</code> является значением <code>duration</code>, которое добавляется к каждому значению.
 

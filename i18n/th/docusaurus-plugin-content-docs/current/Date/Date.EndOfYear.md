@@ -5,8 +5,6 @@ title: Date.EndOfYear
 # Date.EndOfYear
 
 
-## Description
-
 ส่งกลับจุดสิ้นสุดของปี
 
 
@@ -19,7 +17,7 @@ Date.EndOfYear(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับจุดสิ้นสุดของปีที่มี <code>dateTime</code> รวมถึงเศษส่วนวินาที ข้อมูลโซนเวลาจะถูกเก็บไว้      <ul>      <li><code>dateTime</code>: ค่า<code>วันที่</code> <code>วันที่เวลา</code> หรือ<code>โซนวันที่เวลา</code>ที่คํานวณว่ามีจุดสิ้นสุดของปีใดบ้าง</li>      </ul>
 

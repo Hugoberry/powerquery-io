@@ -5,8 +5,6 @@ title: DateTimeZone.ZoneHours
 # DateTimeZone.ZoneHours
 
 
-## Description
-
 मान का समय क्षेत्र बदलता है.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ZoneHours(
 ```
 
 
-## Details
+## Remarks
 
 मान का समय क्षेत्र बदलता है.
 

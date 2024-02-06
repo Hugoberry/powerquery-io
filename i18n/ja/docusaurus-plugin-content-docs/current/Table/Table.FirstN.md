@@ -5,8 +5,6 @@ title: Table.FirstN
 # Table.FirstN
 
 
-## Description
-
 先頭から指定された数の行を返します。
 
 
@@ -20,7 +18,7 @@ Table.FirstN(
 ```
 
 
-## Details
+## Remarks
 
 <code>countOrCondition</code> の値に応じて、テーブル <code>table</code> の先頭から行を返します:    <ul>    <li> <code>countOrCondition</code> が数値の場合は、(先頭から) その数の行を返します。</li>    <li> <code>countOrCondition</code> が条件の場合は、その条件を満たさない行の手前までの条件を満たす行を返します。</li></ul>
 

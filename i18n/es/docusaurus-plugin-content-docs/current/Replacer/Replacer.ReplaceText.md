@@ -5,8 +5,6 @@ title: Replacer.ReplaceText
 # Replacer.ReplaceText
 
 
-## Description
-
 Reemplaza el texto dentro de la entrada proporcionada.
 
 
@@ -21,7 +19,7 @@ Replacer.ReplaceText(
 ```
 
 
-## Details
+## Remarks
 
 Reemplaza el texto <code>old</code> del original <code>text</code> con el texto <code>new</code>. Esta función sustituto se puede usar en <code>List.ReplaceValue</code> y <code>Table.ReplaceValue</code>.
 

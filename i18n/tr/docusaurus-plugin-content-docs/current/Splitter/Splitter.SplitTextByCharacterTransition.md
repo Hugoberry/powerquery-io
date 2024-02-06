@@ -5,8 +5,6 @@ title: Splitter.SplitTextByCharacterTransition
 # Splitter.SplitTextByCharacterTransition
 
 
-## Description
-
 Bir karakter türünden diğerine geçişe göre metni metin listesine ayıran bir işlev döndürür. \{0} ve \{1} parametreleri bir karakter listesi olabilir veya bir karakteri alıp true/false döndüren bir işlev olabilir.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByCharacterTransition(
 ```
 
 
-## Details
+## Remarks
 
 Bir karakter türünden diğerine geçişe göre metni metin listesine ayıran bir işlev döndürür. <code>before</code> ve <code>after</code> parametreleri bir karakter listesi olabilir veya bir karakteri alıp true/false döndüren bir işlev olabilir.
 

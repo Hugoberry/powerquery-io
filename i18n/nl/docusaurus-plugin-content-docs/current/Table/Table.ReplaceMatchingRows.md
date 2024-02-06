@@ -5,8 +5,6 @@ title: Table.ReplaceMatchingRows
 # Table.ReplaceMatchingRows
 
 
-## Description
-
 Vervangt alle opgegeven rijen door de aangeleverde rij of rijen.
 
 
@@ -21,7 +19,7 @@ Table.ReplaceMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee worden alle opgegeven rijen vervangen in de <code>table</code> door de opgegeven rijen. De rijen die moeten worden vervangen en de vervangingen worden opgegeven in <code>replacements</code>, met behulp van \{old, new}-opmaak. Een optionele <code>equationCriteria</code>-parameter kan worden opgegeven voor het aansturen van de vergelijking tussen de rijen van de tabel.
 

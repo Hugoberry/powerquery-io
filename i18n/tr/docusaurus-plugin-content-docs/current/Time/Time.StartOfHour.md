@@ -5,8 +5,6 @@ title: Time.StartOfHour
 # Time.StartOfHour
 
 
-## Description
-
 Saat başlangıcını döndürür.
 
 
@@ -19,7 +17,7 @@ Time.StartOfHour(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> tarafından temsil edilen saat başlangıcını döndürür.    <code>dateTime</code>, bir <code>time</code>, <code>datetime</code> veya <code>datetimezone</code> değeri olmalıdır.
 

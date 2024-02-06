@@ -5,8 +5,6 @@ title: Table.ReorderColumns
 # Table.ReorderColumns
 
 
-## Description
-
 傳回資料表，其中資料行會按照指定的順序排列。
 
 
@@ -21,7 +19,7 @@ Table.ReorderColumns(
 ```
 
 
-## Details
+## Remarks
 
 根據輸入 <code>table</code> 傳回資料表，其中資料行會按照 <code>columnOrder</code> 指定的順序排列。清單中未指定之資料行將不會重新排列。     如果資料行不存在，就會擲回例外狀況，除非選擇性參數 <code>missingField</code> 指定了替代方案 (例如 <code>MissingField.UseNull</code> 或 <code>MissingField.Ignore</code>)。
 

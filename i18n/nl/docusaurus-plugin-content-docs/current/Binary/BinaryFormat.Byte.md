@@ -5,8 +5,6 @@ title: BinaryFormat.Byte
 # BinaryFormat.Byte
 
 
-## Description
-
 Een binaire indeling die een 8-bits geheel getal zonder teken leest.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Byte(
 ```
 
 
-## Details
+## Remarks
 
 Een binaire indeling die een 8-bits geheel getal zonder teken leest.
 

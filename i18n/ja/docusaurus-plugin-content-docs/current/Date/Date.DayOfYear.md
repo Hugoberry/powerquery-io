@@ -5,8 +5,6 @@ title: Date.DayOfYear
 # Date.DayOfYear
 
 
-## Description
-
 年の通算日を表す 1 ～ 366 の数値を返します。
 
 
@@ -19,7 +17,7 @@ Date.DayOfYear(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値 (<code>dateTime</code>) の、年の通算日を表す数値を返します。
 

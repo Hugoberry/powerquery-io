@@ -5,8 +5,6 @@ title: Record.FromList
 # Record.FromList
 
 
-## Description
-
 フィールド値のリストとフィールドのセットが指定されたときに、レコードを返します。
 
 
@@ -20,7 +18,7 @@ Record.FromList(
 ```
 
 
-## Details
+## Remarks
 
 フィールド値の <code>list</code> とフィールドのセットが指定されたときに、レコードを返します。<code>fields</code> はテキスト値のリストか、レコードの型で指定できます。フィールドが一意ではない場合は、エラーがスローされます。
 

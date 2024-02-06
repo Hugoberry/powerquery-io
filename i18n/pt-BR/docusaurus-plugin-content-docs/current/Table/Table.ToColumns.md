@@ -5,8 +5,6 @@ title: Table.ToColumns
 # Table.ToColumns
 
 
-## Description
-
 Cria uma lista de listas aninhadas de valores de coluna a partir de uma tabela.
 
 
@@ -19,7 +17,7 @@ Table.ToColumns(
 ```
 
 
-## Details
+## Remarks
 
 Cria uma lista de listas aninhadas a partir da tabela, <code>table</code>.  Cada item de lista é uma lista interna que contém os valores de coluna.
 

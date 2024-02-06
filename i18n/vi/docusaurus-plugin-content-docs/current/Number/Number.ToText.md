@@ -5,8 +5,6 @@ title: Number.ToText
 # Number.ToText
 
 
-## Description
-
 Chuyển đổi số đã cho thành văn bản.
 
 
@@ -21,7 +19,7 @@ Number.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Chuyển đổi giá trị dạng số <code>number</code> thành giá trị văn bản theo định dạng được chỉ định bởi <code>format</code>.<br />    <br />    Định dạng là một giá trị văn bản cho biết cách chuyển đổi số. Để biết thêm chi tiết về các giá trị định dạng được hỗ trợ, hãy đi đến https://go.microsoft.com/fwlink/?linkid=2241210 và https://go.microsoft.com/fwlink/?linkid=2240884.<br />    <br />    Ngoài ra, có thể cung cấp tùy chọn <code>culture</code> (ví dụ: "en-US") để kiểm soát hoạt động phụ thuộc vào văn hóa của <code>format</code>.
 

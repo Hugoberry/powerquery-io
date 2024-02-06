@@ -5,8 +5,6 @@ title: Expression.Constant
 # Expression.Constant
 
 
-## Description
-
 Returnerar M-källkodrepresentationen för ett konstantvärde.
 
 
@@ -19,7 +17,7 @@ Expression.Constant(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar M-källkodrepresentationen för ett konstantvärde.
 

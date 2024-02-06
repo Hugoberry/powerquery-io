@@ -5,8 +5,6 @@ title: AzureDevOpsServer.AccountContents
 # AzureDevOpsServer.AccountContents
 
 
-## Description
-
 Voer de URL van de Azure DevOps Analytics-service in.
 
 
@@ -20,7 +18,7 @@ AzureDevOpsServer.AccountContents(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt de inhoud die is gedownload via de URL van de Azure DevOps Analytics-service, geretourneerd als binaire waarde. Deze functie gebruikt verschillende aanmeldgegevens voor verschillende organisaties.
 

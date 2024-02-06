@@ -5,8 +5,6 @@ title: List.Max
 # List.Max
 
 
-## Description
-
 Returnerer den største værdi eller standardværdien, hvis listen er tom.
 
 
@@ -22,7 +20,7 @@ List.Max(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer den største værdi på listen <code>list</code> eller den valgfrie standardværdi <code>default</code>, hvis listen er tom.     Du kan angive en valgfri værdi af typen comparisonCriteria, <code>comparisonCriteria</code>, for at bestemme, hvordan elementerne på listen skal sammenlignes. Hvis denne parameter er null, bruges standardfunktionen til sammenligning.
 

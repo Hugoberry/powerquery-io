@@ -5,8 +5,6 @@ title: Text.Repeat
 # Text.Repeat
 
 
-## Description
-
 Gibt einen Textwert mit der angegebenen Anzahl von Wiederholungen des Eingabetexts zurück.
 
 
@@ -20,7 +18,7 @@ Text.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen Textwert zurück, der <code>count</code> Wiederholungen des Eingabetexts "<code>text</code>" enthält.
 

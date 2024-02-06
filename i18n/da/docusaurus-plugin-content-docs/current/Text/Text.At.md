@@ -5,8 +5,6 @@ title: Text.At
 # Text.At
 
 
-## Description
-
 Returnerer tegnene ved den angivne position.
 
 
@@ -20,7 +18,7 @@ Text.At(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer tegnet i tekstværdien, <code>text</code>, ved positionen <code>index</code>. Det første tegn i teksten er ved position 0.
 

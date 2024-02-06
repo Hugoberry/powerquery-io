@@ -5,8 +5,6 @@ title: Text.Remove
 # Text.Remove
 
 
-## Description
-
 從輸入文字值中移除所有出現的指定字元或字元清單。
 
 
@@ -20,7 +18,7 @@ Text.Remove(
 ```
 
 
-## Details
+## Remarks
 
 傳回文字值 <code>text</code> 的複本，並移除 <code>removeChars</code> 的所有字元。
 

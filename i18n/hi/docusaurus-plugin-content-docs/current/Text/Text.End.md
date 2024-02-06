@@ -5,8 +5,6 @@ title: Text.End
 # Text.End
 
 
-## Description
-
 पाठ के अंतिम वर्ण लौटाता है.
 
 
@@ -20,7 +18,7 @@ Text.End(
 ```
 
 
-## Details
+## Remarks
 
 एक <code>text</code> मान लौटाता है जो <code>text</code> मान <code>text</code> का अंतिम <code>count</code> वर्ण है.
 

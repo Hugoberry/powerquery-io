@@ -5,8 +5,6 @@ title: Table.ReplaceKeys
 # Table.ReplaceKeys
 
 
-## Description
-
 Ersetzt die Schlüssel der angegebenen Tabelle.
 
 
@@ -20,7 +18,7 @@ Table.ReplaceKeys(
 ```
 
 
-## Details
+## Remarks
 
 Ersetzt die Schlüssel der angegebenen Tabelle.
 

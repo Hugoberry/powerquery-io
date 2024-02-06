@@ -5,8 +5,6 @@ title: DateTime.Date
 # DateTime.Date
 
 
-## Description
-
 Verili bir date, datetime, or datetimezone değerinin tarih bileşenini döndürür.
 
 
@@ -19,7 +17,7 @@ DateTime.Date(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> değerinin, verilen <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değerinin tarih bileşenini döndürür.
 

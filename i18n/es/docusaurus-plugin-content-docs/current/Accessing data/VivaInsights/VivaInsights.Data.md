@@ -18,7 +18,7 @@ VivaInsights.Data(
 ```
 
 
-## Details
+## Remarks
 
 Importe datos de atributos y métricas semanales de Workplace Analytics.
 

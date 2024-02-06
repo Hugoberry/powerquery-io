@@ -5,8 +5,6 @@ title: Cube.Transform
 # Cube.Transform
 
 
-## Description
-
 应用多维数据集函数列表。
 
 
@@ -20,7 +18,7 @@ Cube.Transform(
 ```
 
 
-## Details
+## Remarks
 
 在 <code>cube</code> 上应用多维数据集函数列表 <code>transforms</code>。
 

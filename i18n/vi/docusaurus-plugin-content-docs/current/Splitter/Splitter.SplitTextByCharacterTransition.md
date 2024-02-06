@@ -5,8 +5,6 @@ title: Splitter.SplitTextByCharacterTransition
 # Splitter.SplitTextByCharacterTransition
 
 
-## Description
-
 Trả về một hàm tách văn bản thành danh sách văn bản bằng cách chuyển loại ký tự này thành loại ký tự khác. Các tham số \{0} và \{1} có thể là danh sách các ký tự hoặc hàm nhận một ký tự và trả về giá trị true/false.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByCharacterTransition(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một hàm tách văn bản thành danh sách văn bản bằng cách chuyển loại ký tự này thành loại ký tự khác. Các tham số <code>before</code> và <code>after</code> có thể là danh sách các ký tự hoặc hàm nhận một ký tự và trả về giá trị true/false.
 

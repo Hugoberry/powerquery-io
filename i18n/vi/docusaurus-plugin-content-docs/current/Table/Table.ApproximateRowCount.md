@@ -5,8 +5,6 @@ title: Table.ApproximateRowCount
 # Table.ApproximateRowCount
 
 
-## Description
-
 Trả về số lượng hàng gần đúng trong bảng.
 
 
@@ -19,7 +17,7 @@ Table.ApproximateRowCount(
 ```
 
 
-## Details
+## Remarks
 
 Trả về số lượng hàng xấp xỉ <code>table</code> hoặc lỗi nếu nguồn dữ liệu không hỗ trợ giá trị ước lượng.
 

@@ -5,8 +5,6 @@ title: Hdfs.Contents
 # Hdfs.Contents
 
 
-## Description
-
 Hadoop ファイル システムの、指定されたフォルダー内にあるファイルおよびフォルダーのプロパティとコンテンツを含むテーブルを返します。
 
 
@@ -19,7 +17,7 @@ Hdfs.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Hadoop ファイル システムの、フォルダー URL <code>url</code> にあるフォルダーおよびファイルごとの行を含むテーブルを返します。各行には、フォルダーまたはファイルのプロパティと、そのコンテンツへのリンクが含まれます。
 

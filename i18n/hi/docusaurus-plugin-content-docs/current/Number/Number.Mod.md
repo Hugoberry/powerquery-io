@@ -5,8 +5,6 @@ title: Number.Mod
 # Number.Mod
 
 
-## Description
-
 पूर्णांक, दो संख्याओं को विभाजित करता है और शेषफल लौटाता है.
 
 
@@ -21,7 +19,7 @@ Number.Mod(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> का <code>divisor</code> से पूर्णांक विभाजन करने के परिणामस्वरूप प्राप्त शेषफल लौटाता है.    यदि <code>number</code> या <code>divisor</code> नल हैं, तो <code>Number.Mod</code> नल लौटाता है.      <ul>        <li><code>number</code>: भाज्य.</li>        <li><code>divisor</code>: भाजक.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: IdentityProvider.Default
 # IdentityProvider.Default
 
 
-## Description
-
 Udbyder af standardidentitet for den aktuelle vært.
 
 
@@ -19,7 +17,7 @@ IdentityProvider.Default(
 ```
 
 
-## Details
+## Remarks
 
 Udbyder af standardidentitet for den aktuelle vært.
 

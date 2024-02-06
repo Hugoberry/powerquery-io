@@ -5,8 +5,6 @@ title: List.PositionOfAny
 # List.PositionOfAny
 
 
-## Description
-
 Zwraca pierwsze przesunięcie wartości na liście.
 
 
@@ -22,7 +20,7 @@ List.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca przesunięcie na liście <code>list</code> pierwszego wystąpienia wartości z listy <code>values</code>. Jeśli nie zostanie znalezione wystąpienie tej wartości, zwraca -1.    Można określić opcjonalny parametr wystąpienia (<code>occurrence</code>).<ul>   <li><code>occurrence</code>: maksymalna liczba wystąpień, które można zwrócić.</li></ul>
 

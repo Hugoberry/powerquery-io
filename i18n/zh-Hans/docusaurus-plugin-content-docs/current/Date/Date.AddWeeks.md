@@ -5,8 +5,6 @@ title: Date.AddWeeks
 # Date.AddWeeks
 
 
-## Description
-
 将指定星期数添加到该日期。
 
 
@@ -20,7 +18,7 @@ Date.AddWeeks(
 ```
 
 
-## Details
+## Remarks
 
 通过将 <code>numberOfWeeks</code> 个星期添加到 <code>datetime</code> 值 <code>dateTime</code>，返回 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 结果。      <ul>      <li><code>dateTime</code>: 星期数要添加到的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值。</li>      <li><code>numberOfWeeks</code>: 要添加的星期数。</li>      </ul>
 

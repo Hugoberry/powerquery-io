@@ -5,8 +5,6 @@ title: Number.Tanh
 # Number.Tanh
 
 
-## Description
-
 Devuelve la tangente hiperbólica del número.
 
 
@@ -19,7 +17,7 @@ Number.Tanh(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve la tangente hiperbólica de <code>number</code>.
 

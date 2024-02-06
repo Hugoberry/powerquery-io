@@ -5,8 +5,6 @@ title: Character.ToNumber
 # Character.ToNumber
 
 
-## Description
-
 Converteert een teken naar een getalwaarde.
 
 
@@ -19,7 +17,7 @@ Character.ToNumber(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het getalequivalent van de <code>character</code>.<br />    <br />    Het resultaat is het 21 bits Unicode-codepunt dat wordt vertegenwoordigd door het opgegeven teken of surrogaatpaar.  
 

@@ -5,8 +5,6 @@ title: Cube.AttributeMemberId
 # Cube.AttributeMemberId
 
 
-## Description
-
 सदस्य गुण मान से अद्वितीय सदस्य पहचानकर्ता लौटाता है.
 
 
@@ -19,7 +17,7 @@ Cube.AttributeMemberId(
 ```
 
 
-## Details
+## Remarks
 
 सदस्य गुण मान से अद्वितीय सदस्य पहचानकर्ता लौटाता है. <code>attribute</code>. किसी अन्य मान के लिए नल लौटाता है.
 

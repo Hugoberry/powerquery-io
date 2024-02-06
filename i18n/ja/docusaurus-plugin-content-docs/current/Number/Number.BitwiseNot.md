@@ -5,8 +5,6 @@ title: Number.BitwiseNot
 # Number.BitwiseNot
 
 
-## Description
-
 入力の各ビットを反転したビットで構成されるバイトを返します。
 
 
@@ -19,7 +17,7 @@ Number.BitwiseNot(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> にビットごとの NOT 演算を行った結果を返します。
 

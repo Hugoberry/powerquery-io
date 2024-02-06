@@ -5,8 +5,6 @@ title: Value.Divide
 # Value.Divide
 
 
-## Description
-
 Retourne le résultat de la division de la première valeur par la seconde.
 
 
@@ -21,7 +19,7 @@ Value.Divide(
 ```
 
 
-## Details
+## Remarks
 
 Retourne le résultat de la division de <code>value1</code> par <code>value2</code>. Un paramètre facultatif, <code>precision</code>, peut être spécifié ; par défaut <code>Precision.Double</code> est utilisé.
 

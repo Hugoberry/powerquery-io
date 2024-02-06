@@ -5,8 +5,6 @@ title: Expression.Evaluate
 # Expression.Evaluate
 
 
-## Description
-
 M 式の評価結果を返します。
 
 
@@ -20,7 +18,7 @@ Expression.Evaluate(
 ```
 
 
-## Details
+## Remarks
 
 M 式 <code>document</code> の評価結果を返します。参照できる使用可能な識別子は <code>environment</code> によって定義されます。
 

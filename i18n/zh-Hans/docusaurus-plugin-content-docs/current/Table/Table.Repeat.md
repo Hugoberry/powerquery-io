@@ -5,8 +5,6 @@ title: Table.Repeat
 # Table.Repeat
 
 
-## Description
-
 对表行重复指定的次数。
 
 
@@ -20,7 +18,7 @@ Table.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 从输入 <code>table</code> 返回一个表，其中的列重复了指定的 <code>count</code> 次。
 

@@ -5,8 +5,6 @@ title: Date.EndOfQuarter
 # Date.EndOfQuarter
 
 
-## Description
-
 傳回季度結束時間。
 
 
@@ -19,7 +17,7 @@ Date.EndOfQuarter(
 ```
 
 
-## Details
+## Remarks
 
 傳回包含 <code>dateTime</code> 的季度結束時間。會保留時區資訊。      <ul>        <li><code>dateTime</code>: 要用來計算季度結束時間的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值</li>      </ul>
 

@@ -5,8 +5,6 @@ title: List.Positions
 # List.Positions
 
 
-## Description
-
 Returnerer en liste over forskydninger for inputtet.
 
 
@@ -19,7 +17,7 @@ List.Positions(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en liste over forskydninger for inputlisten <code>list</code>.    Når du bruger List.Transform til at ændre en liste, kan listen over positioner bruges til at give transformationens adgang til positionen.
 

@@ -5,8 +5,6 @@ title: Table.ContainsAny
 # Table.ContainsAny
 
 
-## Description
-
 Angiver, om nogen af de angivne poster vises som rækker i tabellen.
 
 
@@ -21,7 +19,7 @@ Table.ContainsAny(
 ```
 
 
-## Details
+## Remarks
 
 Angiver, om nogen af de angivne poster på listen over poster <code>rows</code> vises som rækker i tabellen <code>table</code>.    Der kan angives en valgfri parameter <code>equationCriteria</code> for at styre sammenligningen mellem rækkerne i tabellen.
 

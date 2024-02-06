@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.EnvironmentContents
 # Dynamics365BusinessCentral.EnvironmentContents
 
 
-## Description
-
 Ange Dynamics 365 Business Central-miljö och -företag.
 
 
@@ -20,7 +18,7 @@ Dynamics365BusinessCentral.EnvironmentContents(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell med relevanta Dynamics 365 Business Central-data. 
 

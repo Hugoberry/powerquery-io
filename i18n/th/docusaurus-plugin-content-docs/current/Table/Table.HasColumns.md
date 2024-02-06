@@ -5,8 +5,6 @@ title: Table.HasColumns
 # Table.HasColumns
 
 
-## Description
-
 ระบุว่าตารางมีคอลัมน์ที่ระบุหรือไม่
 
 
@@ -20,7 +18,7 @@ Table.HasColumns(
 ```
 
 
-## Details
+## Remarks
 
 ระบุว่า <code>table</code> มีคอลัมน์ที่ระบุ <code>columns</code> หรือไม่ ส่งกลับ <code>true</code> ถ้าตารางมีคอลัมน์ดังกล่าว และ <code>false</code> ถ้าไม่มี
 

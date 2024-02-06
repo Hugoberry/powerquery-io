@@ -17,7 +17,7 @@ DataWorld.Dataset(
 ```
 
 
-## Details
+## Remarks
 
 Data.World'den bir veri kümesi alır
 

@@ -5,8 +5,6 @@ title: Table.DuplicateColumn
 # Table.DuplicateColumn
 
 
-## Description
-
 Dupliceert een kolom met de opgegeven naam. De waarden en het type worden uit de bronkolom gekopieerd.
 
 
@@ -22,7 +20,7 @@ Table.DuplicateColumn(
 ```
 
 
-## Details
+## Remarks
 
 De kolom genaamd <code>columnName</code> naar de tabel <code>table</code> dupliceren. De waarden en het type worden uit kolom <code>newColumnName</code> naar kolom <code>columnName</code> gekopieerd.
 

@@ -5,8 +5,6 @@ title: Text.PositionOfAny
 # Text.PositionOfAny
 
 
-## Description
-
 Возвращает первую позицию любого из перечисленных символов в текстовом значении (-1, если не найдено).
 
 
@@ -21,7 +19,7 @@ Text.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает первую позицию любого символа из списка <code>characters</code>, обнаруженного в <code>text</code>.    Для указания возвращаемой позиции вхождения может использоваться необязательный параметр <code>occurrence</code>.
 

@@ -5,8 +5,6 @@ title: List.Covariance
 # List.Covariance
 
 
-## Description
-
 返回两个数值列表之间的协方差。
 
 
@@ -20,7 +18,7 @@ List.Covariance(
 ```
 
 
-## Details
+## Remarks
 
 返回两个列表 <code>numberList1</code> 和 <code>numberList2</code> 之间的协方差。<code>numberList1</code> 和 <code>numberList2</code> 必须包含相同数目的 <code>number</code> 值。
 

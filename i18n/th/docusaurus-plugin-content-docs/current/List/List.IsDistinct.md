@@ -5,8 +5,6 @@ title: List.IsDistinct
 # List.IsDistinct
 
 
-## Description
-
 ระบุว่ามีค่าซ้ำในรายการหรือไม่
 
 
@@ -20,7 +18,7 @@ List.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่าเชิงตรรกะว่ามีค่าซ้ำในรายการหรือไม่ <code>list</code>; <code>true</code> ถ้ารายการไม่ซ้ำ <code>false</code> ถ้ามีค่าซ้ำ 
 

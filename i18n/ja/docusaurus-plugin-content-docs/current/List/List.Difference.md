@@ -5,8 +5,6 @@ title: List.Difference
 # List.Difference
 
 
-## Description
-
 指定された 2 つのリストの相違を返します。
 
 
@@ -21,7 +19,7 @@ List.Difference(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>list1</code> 内の、リスト <code>list2</code> に含まれていない項目を返します。重複する値がサポートされています。    省略可能な数式条件値 <code>equationCriteria</code> を指定して、値が等しいかどうかのテストを制御できます。
 

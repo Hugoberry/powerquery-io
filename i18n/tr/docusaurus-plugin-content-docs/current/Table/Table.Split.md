@@ -5,8 +5,6 @@ title: Table.Split
 # Table.Split
 
 
-## Description
-
 Belirtilen sayfa boyutunu kullanarak belirtilen tabloyu bir tablolar listesine ayırır.
 
 
@@ -20,7 +18,7 @@ Table.Split(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> öğesini; listenin ilk öğesinin kaynak tablodaki ilk <code>pageSize</code> satırı barındıran bir tablo olduğu, sonraki öğenin ise    kaynak listeden sonraki <code>pageSize</code> satırı barındıran bir tablo olduğu ve bu şekilde devam eden bir tablolar listesine ayırır.
 

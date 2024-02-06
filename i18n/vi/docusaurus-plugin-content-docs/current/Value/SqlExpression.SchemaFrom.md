@@ -5,8 +5,6 @@ title: SqlExpression.SchemaFrom
 # SqlExpression.SchemaFrom
 
 
-## Description
-
 Hàm này chỉ nhằm mục đích sử dụng nội bộ.
 
 
@@ -19,7 +17,7 @@ SqlExpression.SchemaFrom(
 ```
 
 
-## Details
+## Remarks
 
 Hàm này chỉ nhằm mục đích sử dụng nội bộ.
 

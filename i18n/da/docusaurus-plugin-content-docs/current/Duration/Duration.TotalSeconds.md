@@ -5,8 +5,6 @@ title: Duration.TotalSeconds
 # Duration.TotalSeconds
 
 
-## Description
-
 Returnerer det samlede antal sekunder, denne varighed strækker sig over.
 
 
@@ -19,7 +17,7 @@ Duration.TotalSeconds(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer det samlede antal sekunder spændt over <code>duration</code>.
 

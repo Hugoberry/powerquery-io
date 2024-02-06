@@ -5,8 +5,6 @@ title: Record.ToTable
 # Record.ToTable
 
 
-## Description
-
 Her satırın alan adı ve girdi kaydının değerini içerdiği bir tablo döndürür.
 
 
@@ -19,7 +17,7 @@ Record.ToTable(
 ```
 
 
-## Details
+## Remarks
 
 <code>record</code> içindeki her alan için birer satır içerecek şekilde <code>Name</code> ve <code>Value</code> sütunlarını içeren bir tablo döndürür.
 

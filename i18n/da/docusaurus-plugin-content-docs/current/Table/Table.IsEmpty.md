@@ -5,8 +5,6 @@ title: Table.IsEmpty
 # Table.IsEmpty
 
 
-## Description
-
 Angiver, om tabellen indeholder rækker.
 
 
@@ -19,7 +17,7 @@ Table.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 Angiver, om <code>table</code> indeholder rækker. Returnerer <code>true</code>, hvis der ikke er nogen rækker (dvs. tabellen er tom). Ellers returneres <code>false</code>.
 

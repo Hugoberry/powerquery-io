@@ -5,8 +5,6 @@ title: Record.AddField
 # Record.AddField
 
 
-## Description
-
 Thêm trường vào bản ghi.
 
 
@@ -22,7 +20,7 @@ Record.AddField(
 ```
 
 
-## Details
+## Remarks
 
 Thêm trường vào bản ghi <code>record</code> khi được cho sẵn tên của trường là <code>fieldName</code> và giá trị <code>value</code>.
 

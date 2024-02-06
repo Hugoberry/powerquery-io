@@ -5,8 +5,6 @@ title: Table.FromColumns
 # Table.FromColumns
 
 
-## Description
-
 Crea una tabla a partir de una lista de columnas y de valores especificados.
 
 
@@ -20,7 +18,7 @@ Table.FromColumns(
 ```
 
 
-## Details
+## Remarks
 
 Crea una tabla de tipo <code>columns</code> a partir de una lista <code>lists</code> que contiene listas anidadas con los nombres de columna y los valores.    Si algunas columnas tienen más valores que otras, los valores que faltan se llenarán con el valor predeterminado ("null") si las columnas admiten valores "null".
 

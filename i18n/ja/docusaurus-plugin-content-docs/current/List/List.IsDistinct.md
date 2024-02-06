@@ -5,8 +5,6 @@ title: List.IsDistinct
 # List.IsDistinct
 
 
-## Description
-
 リストに重複があるかどうかを示します。
 
 
@@ -20,7 +18,7 @@ List.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>list</code> に重複があるかどうかを示す論理値を返します。リストが一意の場合は <code>true</code>、重複する値がある場合は <code>false</code> を返します。
 

@@ -5,8 +5,6 @@ title: Table.ToList
 # Table.ToList
 
 
-## Description
-
 指定された結合関数をテーブルの各行の値に適用してテーブルをリストに変換します。
 
 
@@ -20,7 +18,7 @@ Table.ToList(
 ```
 
 
-## Details
+## Remarks
 
 指定された結合関数をテーブルの各行の値に適用してテーブルをリストに変換します。
 

@@ -5,8 +5,6 @@ title: Time.EndOfHour
 # Time.EndOfHour
 
 
-## Description
-
 Trả về thời gian cuối giờ.
 
 
@@ -19,7 +17,7 @@ Time.EndOfHour(
 ```
 
 
-## Details
+## Remarks
 
 Trả về thời gian cuối giờ được biểu thị bằng <code>dateTime</code>, bao gồm cả số giây ở dạng phân số. Thông tin múi giờ được bảo toàn.      <ul>        <li><code>dateTime</code>: Giá trị <code>time</code>, <code>datetime</code> hoặc <code>datetimezone</code> mà từ đó tính toán ra thời gian cuối giờ.</li>      </ul>
 

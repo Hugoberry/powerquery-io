@@ -5,8 +5,6 @@ title: List.Single
 # List.Single
 
 
-## Description
-
 Retourneert het enige lijstitem voor een lijst met lengte 1. In alle andere gevallen wordt er een uitzondering gegenereerd.
 
 
@@ -19,7 +17,7 @@ List.Single(
 ```
 
 
-## Details
+## Remarks
 
 Als er maar één item in de lijst <code>list</code> staat, wordt dat item geretourneerd. Als er meer dan één item in de lijst staat of de lijst leeg is, retourneert functie geeft een uitzondering.
 

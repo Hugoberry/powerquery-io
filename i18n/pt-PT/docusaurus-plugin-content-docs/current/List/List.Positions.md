@@ -5,8 +5,6 @@ title: List.Positions
 # List.Positions
 
 
-## Description
-
 Devolve uma lista de desvios para a entrada.
 
 
@@ -19,7 +17,7 @@ List.Positions(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma lista de desvios para a lista de entrada <code>list</code>.    Quando utilizar List.Transform para alterar uma lista, é possível utilizar a lista de posições para fornecer o acesso de transformação à posição.
 

@@ -5,8 +5,6 @@ title: Number.BitwiseXor
 # Number.BitwiseXor
 
 
-## Description
-
 Devolve o resultado da execução de uma operação &#34;XOR&#34; (Exclusive-OR) bit a bit entre as duas entradas.
 
 
@@ -20,7 +18,7 @@ Number.BitwiseXor(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o resultado da execução de uma operação "XOR" (Exclusive-OR) bit a bit entre <code>number1</code> e <code>number2</code>.
 

@@ -5,8 +5,6 @@ title: DeltaLake.Table
 # DeltaLake.Table
 
 
-## Description
-
 Restituisce il contenuto della tabella Delta Lake.
 
 
@@ -20,7 +18,7 @@ DeltaLake.Table(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il contenuto della tabella Delta Lake.
 

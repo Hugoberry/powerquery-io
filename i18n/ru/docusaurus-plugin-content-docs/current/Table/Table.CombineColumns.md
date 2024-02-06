@@ -5,8 +5,6 @@ title: Table.CombineColumns
 # Table.CombineColumns
 
 
-## Description
-
 Объединяет указанные столбцы в новый столбец с помощью заданной функции объединения.
 
 
@@ -22,7 +20,7 @@ Table.CombineColumns(
 ```
 
 
-## Details
+## Remarks
 
 Объединяет указанные столбцы в новый столбец с помощью заданной функции объединения.
 

@@ -5,8 +5,6 @@ title: DateTimeZone.ZoneHours
 # DateTimeZone.ZoneHours
 
 
-## Description
-
 เปลี่ยนโซนเวลาของค่า
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ZoneHours(
 ```
 
 
-## Details
+## Remarks
 
 เปลี่ยนโซนเวลาของค่า
 

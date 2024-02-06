@@ -5,8 +5,6 @@ title: Table.MinN
 # Table.MinN
 
 
-## Description
-
 使用给定条件返回最小值行。
 
 
@@ -21,7 +19,7 @@ Table.MinN(
 ```
 
 
-## Details
+## Remarks
 
 在给定 <code>comparisonCriteria</code> 的情况下，返回 <code>table</code> 中的最小值行。在对行排序后，必须指定 <code>countOrCondition</code> 参数以进一步筛选结果。注意，排序算法无法保证固定的排序结果。<code>countOrCondition</code> 参数可以采用多种格式:    <ul>        <li> 如果指定一个数，则返回以升序排序的、最多包含 <code>countOrCondition</code> 项的列表。</li>        <li> 如果指定条件，则返回最初满足该条件的项列表。如果某个项不满足该条件，则不再考虑其他项。</li> </ul>
 

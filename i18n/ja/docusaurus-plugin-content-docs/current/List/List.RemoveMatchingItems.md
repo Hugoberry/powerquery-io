@@ -5,8 +5,6 @@ title: List.RemoveMatchingItems
 # List.RemoveMatchingItems
 
 
-## Description
-
 入力値のすべての出現を削除します。
 
 
@@ -21,7 +19,7 @@ List.RemoveMatchingItems(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>list1</code> から、<code>list2</code> に指定された値のすべての出現を削除します。<code>list2</code> の値が <code>list1</code> に存在しない場合、元のリストが返されます。    省略可能な数式条件値 <code>equationCriteria</code> を指定して、値が等しいかどうかのテストを制御できます。
 

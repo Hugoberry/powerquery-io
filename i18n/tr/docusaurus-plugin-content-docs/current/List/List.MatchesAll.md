@@ -5,8 +5,6 @@ title: List.MatchesAll
 # List.MatchesAll
 
 
-## Description
-
 Koşul işlevi listedeki tüm değerler tarafından sağlanıyorsa doğru değerini döndürür.
 
 
@@ -20,7 +18,7 @@ List.MatchesAll(
 ```
 
 
-## Details
+## Remarks
 
 <code>condition</code> koşul işlevi <code>list</code> listesindeki tüm değerler tarafından sağlanıyorsa <code>true</code> değerini, aksi halde <code>false</code> değerini döndürür.
 

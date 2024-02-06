@@ -5,8 +5,6 @@ title: Duration.Days
 # Duration.Days
 
 
-## Description
-
 ส่งกลับส่วนวันของระยะเวลา
 
 
@@ -19,7 +17,7 @@ Duration.Days(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับส่วนวันของ <code>duration</code>
 

@@ -5,8 +5,6 @@ title: Text.Range
 # Text.Range
 
 
-## Description
-
 Retorna a subcadeia de caracteres encontrada no deslocamento.
 
 
@@ -21,7 +19,7 @@ Text.Range(
 ```
 
 
-## Details
+## Remarks
 
 Retorna a subcadeia de caracteres do texto <code>text</code> encontrada no deslocamento <code>offset</code>.    Um parâmetro <code>count</code> opcional pode ser incluído para especificar quantos caracteres serão retornados. Se não houver caracteres suficientes, será gerado um erro.
 

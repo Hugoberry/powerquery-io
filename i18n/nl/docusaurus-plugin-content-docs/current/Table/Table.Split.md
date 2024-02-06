@@ -5,8 +5,6 @@ title: Table.Split
 # Table.Split
 
 
-## Description
-
 Hiermee wordt de opgegeven tabel gesplitst in een lijst met tabellen met het opgegeven paginaformaat.
 
 
@@ -20,7 +18,7 @@ Table.Split(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt <code>table</code> gesplitst in een lijst met tabellen, waarbij het eerste element van de lijst een tabel is met de eerste <code>pageSize</code> rijen uit    de brontabel, het volgende element van de lijst is een tabel met de volgende <code>pageSize</code> rijen uit de brontabel, enzovoort.
 

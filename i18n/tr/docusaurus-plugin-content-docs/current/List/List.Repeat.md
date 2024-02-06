@@ -5,8 +5,6 @@ title: List.Repeat
 # List.Repeat
 
 
-## Description
-
 Asıl listenin sayı tekrarları olan bir liste döndürür.
 
 
@@ -20,7 +18,7 @@ List.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> asıl listesinin <code>count</code> tekrarları olan bir liste döndürür.
 

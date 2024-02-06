@@ -5,8 +5,6 @@ title: Date.AddQuarters
 # Date.AddQuarters
 
 
-## Description
-
 將日期加上指定的季數。
 
 
@@ -20,7 +18,7 @@ Date.AddQuarters(
 ```
 
 
-## Details
+## Remarks
 
 傳回將 <code>datetime</code> 值 <code>dateTime</code> 加上 <code>numberOfQuarters</code> 季後所產生的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code>。      <ul>      <li><code>dateTime</code>: 要加上季數的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值。</li>      <li><code>numberOfQuarters</code>: 要加上的季數。</li>      </ul>
 

@@ -5,8 +5,6 @@ title: List.MatchesAll
 # List.MatchesAll
 
 
-## Description
-
 リスト内のすべての値によって条件関数が満たされる場合、true を返します。
 
 
@@ -20,7 +18,7 @@ List.MatchesAll(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>list</code> 内のすべての値によって条件関数 <code>condition</code> が満たされる場合は <code>true</code>、それ以外の場合は <code>false</code> を返します。
 

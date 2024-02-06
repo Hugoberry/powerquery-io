@@ -5,8 +5,6 @@ title: Kusto.Contents
 # Kusto.Contents
 
 
-## Description
-
 从 Azure 数据资源管理器(Kusto)导入数据
 
 
@@ -22,7 +20,7 @@ Kusto.Contents(
 ```
 
 
-## Details
+## Remarks
 
 从 Azure 数据资源管理器(Kusto)实例导入数据
 

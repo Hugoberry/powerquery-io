@@ -5,8 +5,6 @@ title: Time.Minute
 # Time.Minute
 
 
-## Description
-
 分部分を返します。
 
 
@@ -19,7 +17,7 @@ Time.Minute(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>time</code>、<code>datetime</code>、または <code>datetimezone</code> 値 (<code>dateTime</code>) の分部分を返します。
 

@@ -5,8 +5,6 @@ title: List.Product
 # List.Product
 
 
-## Description
-
 Gibt das Produkt der Zahlen in der Liste zurück.
 
 
@@ -20,7 +18,7 @@ List.Product(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das Produkt der Zahlen ungleich null in der Liste "<code>numbersList</code>" zurück. Enthält die Liste keine Werte ungleich null, wird NULL zurückgegeben.
 

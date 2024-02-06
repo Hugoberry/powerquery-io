@@ -5,8 +5,6 @@ title: DateTime.FromFileTime
 # DateTime.FromFileTime
 
 
-## Description
-
 64 bit uzunluğundaki bir sayıdan datetime oluşturur.
 
 
@@ -19,7 +17,7 @@ DateTime.FromFileTime(
 ```
 
 
-## Details
+## Remarks
 
 <code>fileTime</code> değerinden <code>datetime</code> oluşturur ve bunu yerel saat dilimine dönüştürür. Dosya zamanı, 1 Ocak 1601 gece yarısı 12:00'den bu yana 100 nano saniyelik aralıkların sayısını temsil eden bir Windows dosya zamanı değeridir. (C.E.) Eşgüdümlü Evrensel Saat (UTC).
 

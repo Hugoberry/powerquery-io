@@ -5,8 +5,6 @@ title: Number.Ln
 # Number.Ln
 
 
-## Description
-
 Retourne le logarithme népérien du nombre.
 
 
@@ -19,7 +17,7 @@ Number.Ln(
 ```
 
 
-## Details
+## Remarks
 
 Retourne le logarithme népérien d'un nombre, <code>number</code>. Si <code>number</code> a la valeur null, <code>Number.Ln</code> retourne null.
 

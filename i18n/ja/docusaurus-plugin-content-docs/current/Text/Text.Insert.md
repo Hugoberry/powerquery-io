@@ -5,8 +5,6 @@ title: Text.Insert
 # Text.Insert
 
 
-## Description
-
 テキスト値を指定された位置の別のテキスト値に挿入します。
 
 
@@ -21,7 +19,7 @@ Text.Insert(
 ```
 
 
-## Details
+## Remarks
 
 位置 <code>offset</code> のテキスト値 <code>text</code> にテキスト値 <code>newText</code> を挿入した結果を返します。位置は 0 から始まります。
 

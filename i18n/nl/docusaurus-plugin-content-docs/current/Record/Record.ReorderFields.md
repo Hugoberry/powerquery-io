@@ -5,8 +5,6 @@ title: Record.ReorderFields
 # Record.ReorderFields
 
 
-## Description
-
 De volgorde van de opgegeven velden in de nieuwe volgorde wijzigen.
 
 
@@ -21,7 +19,7 @@ Record.ReorderFields(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een record na het wijzigen van de volgorde van de velden in <code>record</code> in de volgorde van de velden zoals opgegeven in de lijst <code>fieldOrder</code>. De veldnamen worden niet gewijzigd en de velden die niet in <code>fieldOrder</code> staan, veranderen niet van plaats.
 

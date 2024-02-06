@@ -5,8 +5,6 @@ title: BinaryFormat.Group
 # BinaryFormat.Group
 
 
-## Description
-
 Devuelve un formato binario que lee un grupo de elementos.
 
 
@@ -22,7 +20,7 @@ BinaryFormat.Group(
 ```
 
 
-## Details
+## Remarks
 
 Los parámetros son los siguientes:<ul><li>El parámetro <code>binaryFormat</code> especifica el formato binario del valor de clave.</li><li>El parámetro <code>group</code> proporciona información sobre el grupo de elementos conocidos.</li><li>El parámetro opcional <code>extra</code> puede utilizarse para especificar una función que devolverá un valor de formato binario para el valor seguido de cualquier clave inesperada.  Si el parámetro <code>extra</code> no está especificado, entonces se producirá un error si existen valores de clave inesperados.</li></ul>El parámetro <code>group</code> especifica una lista de definiciones de elementos.  Cada definición de elemento es una lista que contiene 3-5 valores, según lo indicado a continuación:<ul><li>Valor de clave.  El valor de la clave que se corresponde con el elemento.  Debe ser único dentro del conjunto de elementos.</li><li>Formato de elemento.  El formato binario que se corresponde con el valor del elemento.  Esto permite que cada elemento tenga un formato distinto. </li><li>Repetición del elemento.  El valor <code>BinaryOccurrence.Type</code> con el número de veces que se espera que aparezca el elemento en el grupo.   Los elementos requeridos que no están presentes provocan un error.  Los elementos duplicados requeridos u opcionales se tratan como valores de clave imprevistos.</li><li>Valor predeterminado del elemento (opcional).  Si el valor predeterminado del elemento aparece en la lista de definiciones de elementos y no es nulo, entonces se empleará este en lugar del valor predeterminado.  El valor predeterminado para elementos repetidos u opcionales es nulo y el valor predeterminado para valores repetidos es una lista vacía \{ }.</li><li>Transformación de valores de elementos (opcional).   Si la función de transformación de valores de elementos está presente en la lista de definiciones de elementos y no es nula, entonces se llamará a esta función para transformar el valor del elemento antes de que sea devuelto.  Solo se llamará a la función de transformación si el elemento aparece en la entrada (nunca será llamada con el valor predeterminado). </li></ul>
 

@@ -5,8 +5,6 @@ title: List.Distinct
 # List.Distinct
 
 
-## Description
-
 Retourneert een lijst met de waarden waarin dubbele waarden zijn verwijderd.
 
 
@@ -20,7 +18,7 @@ List.Distinct(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een lijst die alle waarden in de lijst <code>list</code> bevat en waarin dubbele waarden zijn verwijderd. Als de lijst leeg is, is het resultaat een lege lijst.
 

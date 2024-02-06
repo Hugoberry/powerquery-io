@@ -5,8 +5,6 @@ title: BinaryFormat.SignedInteger32
 # BinaryFormat.SignedInteger32
 
 
-## Description
-
 Một định dạng nhị phân đọc một số nguyên có dấu 32 bit.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.SignedInteger32(
 ```
 
 
-## Details
+## Remarks
 
 Một định dạng nhị phân đọc một số nguyên có dấu 32 bit.
 

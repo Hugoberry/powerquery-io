@@ -5,8 +5,6 @@ title: Date.StartOfQuarter
 # Date.StartOfQuarter
 
 
-## Description
-
 四半期の最初の日付を返します。
 
 
@@ -19,7 +17,7 @@ Date.StartOfQuarter(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> を含む四半期の最初の日付を返します。    <code>dateTime</code> は、<code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値である必要があります。
 

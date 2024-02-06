@@ -5,8 +5,6 @@ title: Table.SelectRows
 # Table.SelectRows
 
 
-## Description
-
 Выбирает строки, удовлетворяющие функции условия.
 
 
@@ -20,7 +18,7 @@ Table.SelectRows(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу строк из <code>table</code>, согласующуюся с выбором <code>condition</code>.
 

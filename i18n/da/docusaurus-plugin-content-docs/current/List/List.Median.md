@@ -5,8 +5,6 @@ title: List.Median
 # List.Median
 
 
-## Description
-
 Returnerer medianværdien på listen.
 
 
@@ -20,7 +18,7 @@ List.Median(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer medianelementet på listen <code>list</code>. Denne funktion returnerer <code>null</code>, hvis listen ikke indeholder værdier, som ikke er <code>null</code>.     Hvis der er et lige antal elementer, vælger funktionen det mindste af de to medianelementer, medmindre listen    udelukkende består af dato/klokkeslæt, varigheder, tal eller klokkeslæt, i hvilket tilfælde den returnerer gennemsnittet af de to elementer.
 

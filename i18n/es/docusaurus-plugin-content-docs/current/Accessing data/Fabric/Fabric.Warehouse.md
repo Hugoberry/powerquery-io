@@ -5,8 +5,6 @@ title: Fabric.Warehouse
 # Fabric.Warehouse
 
 
-## Description
-
 Importa datos de almacenamiento
 
 
@@ -19,7 +17,7 @@ Fabric.Warehouse(
 ```
 
 
-## Details
+## Remarks
 
 Importa datos de almacenamiento
 

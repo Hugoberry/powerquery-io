@@ -5,8 +5,6 @@ title: Uri.BuildQueryString
 # Uri.BuildQueryString
 
 
-## Description
-
 將記錄組合至 URI 查詢字串中。
 
 
@@ -19,7 +17,7 @@ Uri.BuildQueryString(
 ```
 
 
-## Details
+## Remarks
 
 將記錄 <code>query</code> 組合至 URI 查詢字串中，依需要逸出字元。
 

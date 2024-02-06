@@ -5,8 +5,6 @@ title: List.Intersect
 # List.Intersect
 
 
-## Description
-
 Returnerar skärningen för listvärdena i indata.
 
 
@@ -20,7 +18,7 @@ List.Intersect(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar skärningen för listvärdena i indatalistan <code>lists</code>. En valfri parameter, <code>equationCriteria</code>, kan användas.
 

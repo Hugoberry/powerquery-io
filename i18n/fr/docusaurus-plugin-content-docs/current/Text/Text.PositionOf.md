@@ -5,8 +5,6 @@ title: Text.PositionOf
 # Text.PositionOf
 
 
-## Description
-
 Retourne la première position de la valeur (- 1 si introuvable).
 
 
@@ -22,7 +20,7 @@ Text.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Retourne la position de l’occurrence spécifiée de la valeur de texte <code>substring</code> trouvée dans <code>text</code>.    Un paramètre facultatif <code>occurrence</code> peut être utilisé pour spécifier la position d’occurrence à retourner (première occurrence par défaut).    Retourne -1 si <code>substring</code> est introuvable.       <div>        <code>comparer</code> est un <code>comparateur</code> utilisé pour contrôler la comparaison. Les comparateurs peuvent être utilisés pour fournir des comparaisons ne respectant pas la casse ou de culture et prenant en charge les paramètres régionaux.      </div>      <div>        Les comparateurs intégrés suivants sont disponibles dans le langage de formule :      </div>      <ul>        <li><code>Comparer.Ordinal</code> : Utilisé pour effectuer une opération exacte ou de comparaison ordinale</li>        <li><code> Comparer.OrdinalIgnoreCase </code> : utilisé pour effectuer une comparaison exacte ne respectant pas la casse</li>        <li> <code>Comparer.FromCulture</code> : utilisé pour effectuer une comparaison prenant en compte la culture</li>      </ul>
 

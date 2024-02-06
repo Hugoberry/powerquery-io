@@ -5,8 +5,6 @@ title: List.Times
 # List.Times
 
 
-## Description
-
 Generiert eine Liste mit time-Werten auf der Grundlage eines Anfangswerts, einer Anzahl und eines inkrementellen duration-Werts.
 
 
@@ -21,7 +19,7 @@ List.Times(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Liste mit <code>time</code>-Werten der Größe "<code>count</code>" ab "<code>start</code>" zurück. Das angegebene Inkrement (<code>step</code>) ist ein <code>duration</code>-Wert, der zu den einzelnen Werten addiert wird.
 

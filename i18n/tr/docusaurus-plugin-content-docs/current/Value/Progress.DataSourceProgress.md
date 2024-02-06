@@ -5,8 +5,6 @@ title: Progress.DataSourceProgress
 # Progress.DataSourceProgress
 
 
-## Description
-
 Bu işlev, yalnızca iç kullanıma yöneliktir.
 
 
@@ -19,7 +17,7 @@ Progress.DataSourceProgress(
 ```
 
 
-## Details
+## Remarks
 
 Bu işlev, yalnızca iç kullanıma yöneliktir.
 

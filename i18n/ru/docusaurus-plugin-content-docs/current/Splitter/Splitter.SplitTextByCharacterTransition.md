@@ -5,8 +5,6 @@ title: Splitter.SplitTextByCharacterTransition
 # Splitter.SplitTextByCharacterTransition
 
 
-## Description
-
 Возвращает функцию, которая разделяет текст по спискам в соответствии с переходом одного типа символа в другой. Параметры \{0} и \{1} могут быть списком символов или функцией, которая принимает символ и возвращает значение True или False.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByCharacterTransition(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает функцию, которая разделяет текст по спискам в соответствии с переходом одного типа символа в другой. Параметры <code>before</code> и <code>after</code> могут быть списком символов или функцией, которая принимает символ и возвращает значение True или False.
 

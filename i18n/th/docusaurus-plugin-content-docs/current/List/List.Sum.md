@@ -5,8 +5,6 @@ title: List.Sum
 # List.Sum
 
 
-## Description
-
 ส่งกลับผลรวมของข้อมูลในรายการ
 
 
@@ -20,7 +18,7 @@ List.Sum(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลรวมของค่าที่ไม่ใช่ null ในรายการ <code>list</code>  ส่งกลับ nulll ถ้าไม่มีค่าที่ไม่ใช่ null ในรายการ
 

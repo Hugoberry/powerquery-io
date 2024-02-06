@@ -5,8 +5,6 @@ title: List.Contains
 # List.Contains
 
 
-## Description
-
 指示列表是否包含值。
 
 
@@ -21,7 +19,7 @@ List.Contains(
 ```
 
 
-## Details
+## Remarks
 
 指示列表 <code>list</code> 是否包含值 <code>value</code>。    如果在列表中找到值，则为 true；否则为 false。可以指定一个可选相等条件值 <code>equationCriteria</code> 来控制相等测试。 
 

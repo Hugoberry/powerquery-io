@@ -5,8 +5,6 @@ title: List.Union
 # List.Union
 
 
-## Description
-
 Gibt die Vereinigungsmenge der Listenwerte aus der Eingabe zurück.
 
 
@@ -20,7 +18,7 @@ List.Union(
 ```
 
 
-## Details
+## Remarks
 
 Akzeptiert eine Liste mit Listen (<code>lists</code>), vereinigt die Elemente der einzelnen Listen und gibt sie in der Ausgabeliste zurück. Das Ergebnis ist eine Liste mit allen Elementen aus sämtlichen Eingabelisten.    Da bei diesem Vorgang die herkömmliche Behältersemantik erhalten bleibt, werden Duplikatwerte im Rahmen der Vereinigung abgeglichen.    Zum Steuern der Gleichheitsüberprüfung kann ein optionales Gleichungskriterium (<code>equationCriteria</code>) angegeben werden. 
 

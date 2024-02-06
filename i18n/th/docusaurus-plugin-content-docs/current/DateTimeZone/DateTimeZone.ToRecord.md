@@ -5,8 +5,6 @@ title: DateTimeZone.ToRecord
 # DateTimeZone.ToRecord
 
 
-## Description
-
 ส่งกลับระเบียนที่มีส่วนของค่าโซนวันที่เวลา
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับระเบียนที่มีส่วนของค่าโซนวันที่เวลาที่ระบุ <code>dateTimeZone</code> <ul>        <li><code>dateTimeZone</code>: ค่า<code>โซนวันที่เวลา</code>สำหรับเริ่มคำนวณระเบียนของส่วนประกอบดังกล่าว</li>      </ul>
 

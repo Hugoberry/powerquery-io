@@ -5,8 +5,6 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-## Description
-
 從 Smartsheet API 傳回內含工作表、報表、資料夾與工作區的資料表
 
 
@@ -19,7 +17,7 @@ Smartsheet.Tables(
 ```
 
 
-## Details
+## Remarks
 
 從 Smartsheet API 傳回內含可用工作表、報表、資料表與工作區的巢狀資料表。
 

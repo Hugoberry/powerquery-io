@@ -5,8 +5,6 @@ title: Table.Pivot
 # Table.Pivot
 
 
-## Description
-
 Dado um par de colunas que representam pares de atributo/valor, gira os dados na coluna de atributo para um título de coluna.
 
 
@@ -23,7 +21,7 @@ Table.Pivot(
 ```
 
 
-## Details
+## Remarks
 
 Dado um par de colunas que representam pares de atributo/valor, gira os dados na coluna de atributo para um título de coluna.
 

@@ -5,8 +5,6 @@ title: Uri.Parts
 # Uri.Parts
 
 
-## Description
-
 Zwraca części wejściowego bezwzględnego identyfikatora URI jako rekord.
 
 
@@ -19,7 +17,7 @@ Uri.Parts(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca części wejściowego identyfikatora <code>absoluteUri</code> jako rekord zawierający wartości, takie jak Scheme, Host, Port, Path, Query, Fragment, UserName i Password.
 

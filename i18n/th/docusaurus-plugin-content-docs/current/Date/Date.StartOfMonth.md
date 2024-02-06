@@ -5,8 +5,6 @@ title: Date.StartOfMonth
 # Date.StartOfMonth
 
 
-## Description
-
 ส่งกลับจุดเริ่มต้นของเดือน
 
 
@@ -19,7 +17,7 @@ Date.StartOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับจุดเริ่มต้นของเดือนที่มี <code>dateTime</code>    <code>dateTime</code> ต้องเป็นค่า<code>วันที่</code>หรือ <code>วันที่เวลา</code>
 

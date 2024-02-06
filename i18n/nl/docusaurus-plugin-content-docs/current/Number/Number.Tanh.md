@@ -5,8 +5,6 @@ title: Number.Tanh
 # Number.Tanh
 
 
-## Description
-
 Retourneert de hyperbolische tangens van het getal.
 
 
@@ -19,7 +17,7 @@ Number.Tanh(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de hyperbolische tangens van <code>number</code>.
 

@@ -5,8 +5,6 @@ title: Binary.Decompress
 # Binary.Decompress
 
 
-## Description
-
 使用指定的壓縮類型將二進位值解壓縮。
 
 
@@ -20,7 +18,7 @@ Binary.Decompress(
 ```
 
 
-## Details
+## Remarks
 
 使用指定的壓縮類型解壓縮二進位值。此呼叫的結果為輸入的解壓縮複本。壓縮類型包括:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
 

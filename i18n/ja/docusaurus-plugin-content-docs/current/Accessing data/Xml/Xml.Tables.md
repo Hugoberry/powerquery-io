@@ -5,8 +5,6 @@ title: Xml.Tables
 # Xml.Tables
 
 
-## Description
-
 フラット化されたテーブルの入れ子のコレクションとして XML ドキュメントのコンテンツを返します。
 
 
@@ -21,7 +19,7 @@ Xml.Tables(
 ```
 
 
-## Details
+## Remarks
 
 フラット化されたテーブルの入れ子のコレクションとして XML ドキュメントのコンテンツを返します。
 

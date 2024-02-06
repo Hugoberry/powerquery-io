@@ -5,8 +5,6 @@ title: Marketo.Leads
 # Marketo.Leads
 
 
-## Description
-
 लीड विवरण वाली एक तालिका लौटाता है.
 
 
@@ -21,7 +19,7 @@ Marketo.Leads(
 ```
 
 
-## Details
+## Remarks
 
 <code>url</code>/rest/v1/leads.json पर Marketo REST API एंडपॉइंट को कॉल करता है. सूची <code>leadIds</code> के सभी लीड लौटा दिए गए हैं.
 

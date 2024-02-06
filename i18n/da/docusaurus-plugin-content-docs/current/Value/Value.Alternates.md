@@ -5,8 +5,6 @@ title: Value.Alternates
 # Value.Alternates
 
 
-## Description
-
 Udtrykker alternative forespørgselsplaner.
 
 
@@ -19,7 +17,7 @@ Value.Alternates(
 ```
 
 
-## Details
+## Remarks
 
 Udtrykker alternative forespørgselsplaner i et forespørgselsplanudtryk, der er opnået via Value.Expression(Value.Optimize(...)). Ikke beregnet til andre formål.
 

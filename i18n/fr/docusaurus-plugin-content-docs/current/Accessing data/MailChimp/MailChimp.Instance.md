@@ -5,8 +5,6 @@ title: MailChimp.Instance
 # MailChimp.Instance
 
 
-## Description
-
 Retourne des résultats de réponse bruts d&#39;un point de terminaison de l&#39;API MailChimp.
 
 
@@ -19,7 +17,7 @@ MailChimp.Instance(
 ```
 
 
-## Details
+## Remarks
 
 Appelle l'API MailChimp et retourne la réponse brute.
 

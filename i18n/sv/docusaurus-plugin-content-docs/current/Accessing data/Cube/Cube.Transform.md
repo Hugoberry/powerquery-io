@@ -5,8 +5,6 @@ title: Cube.Transform
 # Cube.Transform
 
 
-## Description
-
 Tillämpar en lista med kubfunktioner.
 
 
@@ -20,7 +18,7 @@ Cube.Transform(
 ```
 
 
-## Details
+## Remarks
 
 Tillämpar en lista med kubfunktioner (<code>transforms</code>) på <code>cube</code>.
 

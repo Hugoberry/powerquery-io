@@ -5,8 +5,6 @@ title: Time.Second
 # Time.Second
 
 
-## Description
-
 秒部分を返します。
 
 
@@ -19,7 +17,7 @@ Time.Second(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>time</code>、<code>datetime</code>、または <code>datetimezone</code> 値 (<code>dateTime</code>) の秒部分を返します。
 

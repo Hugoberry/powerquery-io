@@ -5,8 +5,6 @@ title: Table.Keys
 # Table.Keys
 
 
-## Description
-
 返回指定表的键。
 
 
@@ -19,7 +17,7 @@ Table.Keys(
 ```
 
 
-## Details
+## Remarks
 
 返回指定表的键。
 

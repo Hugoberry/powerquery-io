@@ -5,8 +5,6 @@ title: Splitter.SplitTextByRanges
 # Splitter.SplitTextByRanges
 
 
-## Description
-
 ส่งกลับฟังก์ชันที่แยกข้อความออกเป็นรายการของข้อความตามออฟเซตและความยาวที่ระบุ
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับฟังก์ชันที่แยกข้อความออกเป็นรายการข้อความตามออฟเซตและความยาวที่ระบุ ความยาว null บ่งชี้ว่าควรรวมข้อมูลป้อนเข้าที่เหลือทั้งหมด
 

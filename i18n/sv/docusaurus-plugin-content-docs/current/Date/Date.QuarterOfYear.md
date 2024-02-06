@@ -5,8 +5,6 @@ title: Date.QuarterOfYear
 # Date.QuarterOfYear
 
 
-## Description
-
 Returnerar ett tal som anger vilket kvartal på året som datumet infaller under.
 
 
@@ -19,7 +17,7 @@ Date.QuarterOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett tal från 1 till 4 som anger vilket kvartal på året som datumet <code>dateTime</code> infaller under. <code>dateTime</code> kan vara ett <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde.
 

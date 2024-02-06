@@ -5,8 +5,6 @@ title: Table.FromColumns
 # Table.FromColumns
 
 
-## Description
-
 列と指定した値のリストからテーブルを作成します。
 
 
@@ -20,7 +18,7 @@ Table.FromColumns(
 ```
 
 
-## Details
+## Remarks
 
 列名と値を含む入れ子になったリストを含むリスト <code>lists</code> から <code>columns</code> 型のテーブルを作成します。    一部の列の値が他の列よりも多い場合、NULL 許容列では足りない値が既定値の 'NULL' で埋められます。
 

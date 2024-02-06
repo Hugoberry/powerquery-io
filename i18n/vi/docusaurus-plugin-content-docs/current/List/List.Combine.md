@@ -5,8 +5,6 @@ title: List.Combine
 # List.Combine
 
 
-## Description
-
 Trả về một danh sách duy nhất bằng cách kết hợp nhiều danh sách.
 
 
@@ -19,7 +17,7 @@ List.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Lấy một danh sách bao gồm các danh sách <code>lists</code> và hợp nhất các danh sách đó thành một danh sách mới.
 

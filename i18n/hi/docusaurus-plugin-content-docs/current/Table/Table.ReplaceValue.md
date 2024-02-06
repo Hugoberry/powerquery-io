@@ -5,8 +5,6 @@ title: Table.ReplaceValue
 # Table.ReplaceValue
 
 
-## Description
-
 निर्दिष्ट स्तंभों में एक मान को दूसरे से बदलता है.
 
 
@@ -23,7 +21,7 @@ Table.ReplaceValue(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> के निर्दिष्ट स्तंभों में <code>oldValue</code> को <code>newValue</code> से बदलता है.
 

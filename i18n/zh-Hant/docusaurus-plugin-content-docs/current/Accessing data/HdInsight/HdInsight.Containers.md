@@ -5,8 +5,6 @@ title: HdInsight.Containers
 # HdInsight.Containers
 
 
-## Description
-
 傳回導覽表格，內含在 Azure 儲存庫的指定帳戶中找到的容器。
 
 
@@ -19,7 +17,7 @@ HdInsight.Containers(
 ```
 
 
-## Details
+## Remarks
 
 傳回導覽表格，內含在 Azure 儲存庫的帳戶 URL <code>account</code> 中找到的每個容器各一列。每一列包含容器 Blob 的連結。
 

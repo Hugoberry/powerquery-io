@@ -5,8 +5,6 @@ title: Cube.ApplyParameter
 # Cube.ApplyParameter
 
 
-## Description
-
 ส่งคืนคิวบ์หลังจากกำหนดใช้พารามิเตอร์
 
 
@@ -21,7 +19,7 @@ Cube.ApplyParameter(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนคิวบ์หลังจากกำหนดใช้ <code>parameter</code> ด้วย <code>arguments</code> เป็น <code>cube</code>
 

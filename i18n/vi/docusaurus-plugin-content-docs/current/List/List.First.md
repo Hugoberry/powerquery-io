@@ -5,8 +5,6 @@ title: List.First
 # List.First
 
 
-## Description
-
 Trả về giá trị đầu tiên của danh sách hoặc giá trị mặc định được chỉ định nếu trống.
 
 
@@ -20,7 +18,7 @@ List.First(
 ```
 
 
-## Details
+## Remarks
 
 Trả về mục đầu tiên trong danh sách <code>list</code> hoặc giá trị mặc định tùy chọn <code>defaultValue</code> nếu danh sách này trống.    Nếu danh sách trống và một giá trị mặc định không được chỉ định thì hàm trả về <code>null</code>.
 

@@ -5,8 +5,6 @@ title: Uri.Parts
 # Uri.Parts
 
 
-## Description
-
 Retourneert de onderdelen van de absolute URI van de invoer als een record.
 
 
@@ -19,7 +17,7 @@ Uri.Parts(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de onderdelen van de invoer <code>absoluteUri</code> als een record, met waarden zoals schema, host, poort, pad, query, fragment, gebruikersnaam en wachtwoord.
 

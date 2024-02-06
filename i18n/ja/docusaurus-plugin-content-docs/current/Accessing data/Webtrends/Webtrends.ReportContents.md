@@ -5,8 +5,6 @@ title: Webtrends.ReportContents
 # Webtrends.ReportContents
 
 
-## Description
-
 Webtrends からレポート コンテンツを含むテーブルを返します。
 
 
@@ -22,7 +20,7 @@ Webtrends.ReportContents(
 ```
 
 
-## Details
+## Remarks
 
 指定された Webtrends レポート エンドポイントへの呼び出しを実行して、すべてのデータをテーブルとして返します。
 

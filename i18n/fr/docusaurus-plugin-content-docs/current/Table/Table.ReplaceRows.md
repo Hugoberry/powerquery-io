@@ -5,8 +5,6 @@ title: Table.ReplaceRows
 # Table.ReplaceRows
 
 
-## Description
-
 Remplace la plage de lignes spécifiée par les lignes fournies.
 
 
@@ -22,7 +20,7 @@ Table.ReplaceRows(
 ```
 
 
-## Details
+## Remarks
 
 Remplace le nombre de lignes spécifié, <code>count</code>, dans l'entrée <code>table</code> avec le <code>rows</code> spécifié, démarrant après <code>offset</code>. Le paramètre <code>rows</code> est une liste d'enregistrements.    <ul>       <li><code>table</code> : table où le remplacement est effectué.</li>       <li><code>offset</code> : nombre de lignes à ignorer avant d'effectuer le remplacement.</li>       <li><code>count</code> : nombre de lignes à remplacer.</li>       <li><code>rows</code> : liste des enregistrements de ligne à insérer dans <code>table</code> à l'emplacement spécifié par <code>offset</code>.</li>    </ul>
 

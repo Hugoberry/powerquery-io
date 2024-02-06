@@ -5,8 +5,6 @@ title: Date.EndOfYear
 # Date.EndOfYear
 
 
-## Description
-
 Yıl sonunu döndürür.
 
 
@@ -19,7 +17,7 @@ Date.EndOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Kesirlik saniyeler dahil olmak üzere <code>dateTime</code> içeren yıl sonunu döndürür. Saat dilimi bilgileri korunur.      <ul>        <li><code>dateTime</code>: Kendisinden itibaren yılın sonunun hesaplandığı <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      </ul>
 

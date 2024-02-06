@@ -5,8 +5,6 @@ title: Table.Keys
 # Table.Keys
 
 
-## Description
-
 Belirtilen tablonun anahtarlarını döndürür.
 
 
@@ -19,7 +17,7 @@ Table.Keys(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen tablonun anahtarlarını döndürür.
 

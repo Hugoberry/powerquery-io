@@ -5,8 +5,6 @@ title: Odbc.InferOptions
 # Odbc.InferOptions
 
 
-## Description
-
 Trả về kết quả của thao tác cố suy ra các tính năng SQL cho trình điều khiển SQL.
 
 
@@ -19,7 +17,7 @@ Odbc.InferOptions(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả của thao tác cố suy ra các tính năng của SQL với chuỗi kết nối <code>connectionString</code> sử dụng ODBC. <code>connectionString</code> có thể là văn bản hoặc bản ghi của các cặp giá trị thuộc tính. Giá trị thuộc tính có thể là văn bản hoặc số.
 

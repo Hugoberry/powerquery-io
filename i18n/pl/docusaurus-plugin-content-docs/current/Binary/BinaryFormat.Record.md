@@ -5,8 +5,6 @@ title: BinaryFormat.Record
 # BinaryFormat.Record
 
 
-## Description
-
 Zwraca format binarny odczytujący rekord.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Record(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca format binarny odczytujący rekord.  Parametr <code>record</code> określa format rekordu.  Każde pole w rekordzie może mieć inny format binarny.  Jeśli pole zawiera wartość, która nie jest wartością formatu binarnego, nie są odczytywane dane dla tego pola, a wartość pola jest powtarzana w wyniku.
 

@@ -5,8 +5,6 @@ title: Uri.BuildQueryString
 # Uri.BuildQueryString
 
 
-## Description
-
 Datensatz als URI-Abfragezeichenfolge zusammenstellen.
 
 
@@ -19,7 +17,7 @@ Uri.BuildQueryString(
 ```
 
 
-## Details
+## Remarks
 
 Stellen Sie den Datensatz '<code>query</code>' als URI-Abfragezeichenfolge zusammen, und kommentieren Sie Zeichen dabei wie erforderlich aus.
 

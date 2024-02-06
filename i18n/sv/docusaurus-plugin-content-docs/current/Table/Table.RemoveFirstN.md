@@ -5,8 +5,6 @@ title: Table.RemoveFirstN
 # Table.RemoveFirstN
 
 
-## Description
-
 Returnerar en tabell där det första angivna antalet rader hoppas över.
 
 
@@ -20,7 +18,7 @@ Table.RemoveFirstN(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell som inte innehåller det första angivna antalet rader, <code>countOrCondition</code>, i tabellen <code>table</code>.     Hur många rader som tas bort beror på den valfria parametern <code>countOrCondition</code>.    <ul>    <li> Om <code>countOrCondition</code> utelämnas tas bara den första raden bort. </li>    <li> Om <code>countOrCondition</code> är ett tal, tas så många rader (med början uppifrån) bort. </li>    <li> Om <code>countOrCondition</code> är ett villkor tas de rader som uppfyller villkoret bort tills en rad inte uppfyller villkoret.</li>    </ul>
 

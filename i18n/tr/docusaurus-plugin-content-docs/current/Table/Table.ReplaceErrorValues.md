@@ -5,8 +5,6 @@ title: Table.ReplaceErrorValues
 # Table.ReplaceErrorValues
 
 
-## Description
-
 Belirtilen sütunlardaki hata değerlerini ilgili belirtilen değerle değiştirir.
 
 
@@ -20,7 +18,7 @@ Table.ReplaceErrorValues(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen <code>table</code> sütunlarındaki hata değerlerini <code>errorReplacement</code> listesindeki yeni değerlerle değiştirir. Listenin biçimi \{\{column1, value1}, …}. Sütun başına yalnızca bir değiştirme değeri bulunabilir, sütunun birden fazla kez belirtilmesi hataya neden olur.
 

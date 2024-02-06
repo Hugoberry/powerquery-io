@@ -5,8 +5,6 @@ title: Table.DuplicateColumn
 # Table.DuplicateColumn
 
 
-## Description
-
 ทำซ้ำคอลัมน์ซึ่งมีชื่อที่ระบุ ค่าและชนิดจะถูกคัดลอกจากคอลัมน์ต้นทาง
 
 
@@ -22,7 +20,7 @@ Table.DuplicateColumn(
 ```
 
 
-## Details
+## Remarks
 
 ทำซ้ำคอลัมน์ที่ชื่อ <code>columnName</code> ไปยังตาราง <code>table</code> ค่าและชนิดสำหรับคอลัมน์ <code>newColumnName</code> จะถูกคัดลอกจากคอลัมน์ <code>columnName</code>
 

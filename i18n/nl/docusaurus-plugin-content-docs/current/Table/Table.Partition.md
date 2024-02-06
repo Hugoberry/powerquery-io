@@ -5,8 +5,6 @@ title: Table.Partition
 # Table.Partition
 
 
-## Description
-
 Maakt van de tabel partities in een lijst tabellen op basis van het aantal opgegeven groepen en de opgegeven kolom.
 
 
@@ -22,7 +20,7 @@ Table.Partition(
 ```
 
 
-## Details
+## Remarks
 
 Partitioneert de <code>table</code> in een lijst met <code>groups</code> tabellen op basis van de waarde van de <code>column</code> en een functie <code>hash</code>.    De functie <code>hash</code> wordt toegepast op de waarde van de rij <code>column</code> om een hash-waarde voor de rij te verkrijgen. De hash-waardemodulus <code>groups</code> bepaalt in welke van de geretourneerde tabellen de rij wordt geplaatst.    <ul>       <li><code>table</code>: de tabel die wordt gepartitioneerd.</li>       <li><code>column</code>: de kolom waarop de hash-bewerking wordt uitgevoerd, om te bepalen in welke geretourneerde tabel de rij wordt geplaatst.</li>       <li><code>groups</code>: het aantal tabellen waarin de invoertabel wordt gepartitioneerd.</li>       <li><code>hash</code>: de functie die wordt toegepast om een hash-waarde te verkrijgen.</li>    </ul>  
 

@@ -5,8 +5,6 @@ title: Table.SplitAt
 # Table.SplitAt
 
 
-## Description
-
 Returnerer en liste, der indeholder de første antal angivne rækker og de resterende rækker.
 
 
@@ -20,7 +18,7 @@ Table.SplitAt(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en liste, der indeholder to tabeller: en tabel med de første N rækker af <code>table</code> (som angivet af <code>count</code>) og en tabel, der indeholder de resterende rækker af <code>table</code>.Hvis tabellerne på den viste liste optælles nøjagtigt én gang og i rækkefølge, optæller funktionen <code>table</code> én gang.
 

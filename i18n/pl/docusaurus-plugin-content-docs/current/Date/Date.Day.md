@@ -5,8 +5,6 @@ title: Date.Day
 # Date.Day
 
 
-## Description
-
 Zwraca składnik dni.
 
 
@@ -19,7 +17,7 @@ Date.Day(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca składnik dni z danej wartości typu <code>date</code>, <code>datetime</code> lub <code>datetimezone</code>.      <ul>        <li><code>dateTime</code>: wartość typu <code>date</code>, <code>datetime</code> lub <code>datetimezone</code>, z której jest wyodrębniany składnik dni.</li>      </ul>
 

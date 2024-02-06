@@ -5,8 +5,6 @@ title: Number.Factorial
 # Number.Factorial
 
 
-## Description
-
 Zwraca silnię liczby.
 
 
@@ -19,7 +17,7 @@ Number.Factorial(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca silnię liczby <code>number</code>.
 

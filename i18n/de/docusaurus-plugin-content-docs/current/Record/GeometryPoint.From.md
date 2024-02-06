@@ -5,8 +5,6 @@ title: GeometryPoint.From
 # GeometryPoint.From
 
 
-## Description
-
 Hiermit wird ein Datensatz erstellt, der einen geometrischen Punkt anhand seiner Bestandteile darstellt.
 
 
@@ -23,7 +21,7 @@ GeometryPoint.From(
 ```
 
 
-## Details
+## Remarks
 
 Hiermit wird ein Datensatz erstellt, der einen geometrischen Punkt anhand seiner Bestandteile darstellt, z. B. X-Koordinate, Y-Koordinate und – sofern vorhanden – Z-Koordinate (Z) und Maßeinheit (M). Anstelle des Standardwerts (0) kann eine optionale Raumbezugskennung (SRID) angegeben werden.
 

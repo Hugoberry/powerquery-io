@@ -5,8 +5,6 @@ title: Xml.Document
 # Xml.Document
 
 
-## Description
-
 Returnerer indholdet af XML-dokumentet som en hierarkisk tabel.
 
 
@@ -20,7 +18,7 @@ Xml.Document(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer indholdet af XML-dokumentet som en hierarkisk tabel.
 

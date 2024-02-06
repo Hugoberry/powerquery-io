@@ -5,8 +5,6 @@ title: Webtrends.Tables
 # Webtrends.Tables
 
 
-## Description
-
 กรอกรหัสโปรไฟล์ที่เกียวข้องกับบัญชี Webtrends ของคุณ
 
 
@@ -21,7 +19,7 @@ Webtrends.Tables(
 ```
 
 
-## Details
+## Remarks
 
 นำกลับตารางพร้อมด้วยข้อมูล Webtrends ที่เกี่ยวข้อง
 

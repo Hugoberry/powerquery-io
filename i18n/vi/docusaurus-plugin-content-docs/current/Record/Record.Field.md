@@ -5,8 +5,6 @@ title: Record.Field
 # Record.Field
 
 
-## Description
-
 Trả về giá trị của trường được chỉ định trong bản ghi.
 
 
@@ -20,7 +18,7 @@ Record.Field(
 ```
 
 
-## Details
+## Remarks
 
 Trả về giá trị của <code>field</code> được chỉ định trong <code>record</code>. Nếu không tìm thấy trường này thì một ngoại lệ được đưa ra.
 

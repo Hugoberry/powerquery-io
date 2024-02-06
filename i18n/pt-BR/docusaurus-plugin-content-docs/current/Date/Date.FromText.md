@@ -5,8 +5,6 @@ title: Date.FromText
 # Date.FromText
 
 
-## Description
-
 Cria uma Data a partir de Formatos de data locais, universais e personalizados.
 
 
@@ -20,7 +18,7 @@ Date.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Cria um valor <code>date</code> a partir de uma representação textual, <code>text</code>. Um parâmetro opcional <code>record</code>, <code>options</code>, pode ser fornecido para especificar propriedades adicionais. O <code>record</code> pode conter os seguintes campos:<ul>   <li><code>Format</code>: Um valor <code>text</code > indica o formato a ser usado. Para obter mais detalhes, acesse https://go.microsoft.com/fwlink/?linkid=2180104 e https://go.microsoft.com/fwlink/?linkid=2180105. Omitir este campo ou fornecer <code>null</code> resultará na análise da data usando o melhor esforço possível.</li> <li><code>Culture</code>: Quando <code> Format</code> não é nulo, <code>Culture</code> controla alguns especificadores de formato. Por exemplo, em <code>"en-US"</code> <code>"MMM"</code> é <code>"Jan", "Feb", "Mar", ...</code>, enquanto em <code>"ru-RU"</code> <code>"MMM"</code> é <code>"янв", "фев", "мар", ...</code>. Quando <code>Format</code> é <code>null</code>, <code>Culture</code> controla o formato padrão a ser usado. Quando <code>Culture</code> é <code>null</code> ou omitido, <code>Culture.Current</code> é usado.</li></ul>Para oferecer suporte a fluxos de trabalho legados, <code>options</code> também pode ser um valor de texto. Isso tem o mesmo comportamento como se <code>options</code><code> = [Format = null, Culture = <code>options</code>]</code>.
 

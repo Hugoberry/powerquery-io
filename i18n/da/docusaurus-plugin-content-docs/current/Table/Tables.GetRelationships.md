@@ -5,8 +5,6 @@ title: Tables.GetRelationships
 # Tables.GetRelationships
 
 
-## Description
-
 Henter relationerne i et tabelsæt.
 
 
@@ -20,7 +18,7 @@ Tables.GetRelationships(
 ```
 
 
-## Details
+## Remarks
 
 Henter relationerne i et tabelsæt. Sættet <code>tables</code> is formodes at have en struktur, der ligner den i en navigationstabel. Den kolonne, der er defineret af <code>dataColumn</code>, indeholder de faktiske datatabeller.
 

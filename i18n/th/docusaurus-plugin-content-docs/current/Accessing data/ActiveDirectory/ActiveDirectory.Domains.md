@@ -5,8 +5,6 @@ title: ActiveDirectory.Domains
 # ActiveDirectory.Domains
 
 
-## Description
-
 ส่งกลับรายการโดเมน Active Directory ในฟอเรสต์เดียวกับโดเมนที่ระบุหรือรายการโดเมนของเครื่องปัจจุบันหากไม่มีการระบุโดเมน
 
 
@@ -19,7 +17,7 @@ ActiveDirectory.Domains(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับรายการโดเมน Active Directory ในฟอเรสต์เดียวกับโดเมนที่ระบุหรือรายการโดเมนของเครื่องปัจจุบันหากไม่มีการระบุโดเมน
 

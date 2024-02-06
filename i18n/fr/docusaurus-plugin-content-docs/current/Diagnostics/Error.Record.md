@@ -5,8 +5,6 @@ title: Error.Record
 # Error.Record
 
 
-## Description
-
 Retourne un enregistrement d&#39;erreur à partir des valeurs de texte fournies, contenant la raison, un message et les détails.
 
 
@@ -22,7 +20,7 @@ Error.Record(
 ```
 
 
-## Details
+## Remarks
 
 Retourne un enregistrement d'erreur à partir des valeurs de texte fournies, contenant la raison, un message et les détails.
 

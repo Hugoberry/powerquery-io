@@ -5,8 +5,6 @@ title: List.Modes
 # List.Modes
 
 
-## Description
-
 Returnerar en lista med de vanligast förekommande värdena i listan.
 
 
@@ -20,7 +18,7 @@ List.Modes(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar objektet som förekommer oftast i listan, <code>list</code>. Om listan är tom genereras ett undantag. Om flera objekt förekommer med samma maxfrekvens väljs det sista.    Ett valfritt <code>comparisonCriteria</code>-värde, <code>equationCriteria</code>, kan anges för att hantera likhetstestning. 
 

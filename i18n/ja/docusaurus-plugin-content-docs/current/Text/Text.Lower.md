@@ -5,8 +5,6 @@ title: Text.Lower
 # Text.Lower
 
 
-## Description
-
 すべての文字を小文字に変換します。
 
 
@@ -20,7 +18,7 @@ Text.Lower(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> 内のすべての文字を小文字に変換した結果を返します。省略可能な <code>culture</code> を指定することもできます (例: "en-US")。
 

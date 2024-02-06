@@ -5,8 +5,6 @@ title: Type.IsNullable
 # Type.IsNullable
 
 
-## Description
-
 如果类型是可空类型则返回 True；否则，返回 False。
 
 
@@ -19,7 +17,7 @@ Type.IsNullable(
 ```
 
 
-## Details
+## Remarks
 
 如果类型是 <code>nullable</code> 类型则返回 <code>true</code>；否则，返回 <code>false</code>。
 

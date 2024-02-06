@@ -5,8 +5,6 @@ title: Table.Unpivot
 # Table.Unpivot
 
 
-## Description
-
 Converte un set di colonne di una tabella in coppie attributo-valore.
 
 
@@ -22,7 +20,7 @@ Table.Unpivot(
 ```
 
 
-## Details
+## Remarks
 
 Converte un set di colonne di una tabella in coppie attributo-valore, insieme al resto dei valori di ogni riga.
 

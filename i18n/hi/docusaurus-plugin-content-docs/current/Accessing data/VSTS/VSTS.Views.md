@@ -5,8 +5,6 @@ title: VSTS.Views
 # VSTS.Views
 
 
-## Description
-
 खाता और प्रोजेक्ट के नाम दर्ज करें.
 
 
@@ -22,7 +20,7 @@ VSTS.Views(
 ```
 
 
-## Details
+## Remarks
 
 Azure DevOps द्वारा प्रस्तावित OData फ़ीड्स की तालिका लौटाता है.
 

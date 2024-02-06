@@ -5,8 +5,6 @@ title: AzureDevOpsServer.Views
 # AzureDevOpsServer.Views
 
 
-## Description
-
 Введите название организации и проекта.
 
 
@@ -22,7 +20,7 @@ AzureDevOpsServer.Views(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу веб-каналов OData, предлагаемых Azure DevOps.
 

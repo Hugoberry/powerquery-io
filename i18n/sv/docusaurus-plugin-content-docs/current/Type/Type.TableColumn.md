@@ -5,8 +5,6 @@ title: Type.TableColumn
 # Type.TableColumn
 
 
-## Description
-
 Returnerar typen för en kolumn i en tabell.
 
 
@@ -20,7 +18,7 @@ Type.TableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar typen för kolumnen <code>column</code> i tabelltypen <code>tableType</code>.
 

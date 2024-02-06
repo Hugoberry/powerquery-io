@@ -5,8 +5,6 @@ title: Marketo.Activities
 # Marketo.Activities
 
 
-## Description
-
 ส่งคืนค่าตารางพร้อมกิจกรรมสำหรับลูกค้าที่สนใจ
 
 
@@ -21,7 +19,7 @@ Marketo.Activities(
 ```
 
 
-## Details
+## Remarks
 
 เรียกใช้ Marketo REST API Endpoint ที่ <code>url</code>/rest/v1/activities.json กิจกรรมทั้งหมดอยู่ในรายการ <code>activityIds</code> ซึ่งเกิดขึ้นนับจากส่งคืนค่า <code>startTime</code>
 

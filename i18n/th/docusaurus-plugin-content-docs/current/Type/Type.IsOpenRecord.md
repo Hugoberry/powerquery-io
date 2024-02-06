@@ -5,8 +5,6 @@ title: Type.IsOpenRecord
 # Type.IsOpenRecord
 
 
-## Description
-
 ส่งกลับว่าประเภทระเบียนเปิดอยู่หรือไม่
 
 
@@ -19,7 +17,7 @@ Type.IsOpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับ <code>logical</code>ที่ระบุว่า <code>type</code> เปิดอยู่หรือไม่
 

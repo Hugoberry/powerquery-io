@@ -5,8 +5,6 @@ title: Table.InsertRows
 # Table.InsertRows
 
 
-## Description
-
 Вставляет список строк в таблицу в указанной позиции.
 
 
@@ -21,7 +19,7 @@ Table.InsertRows(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу со списком строк <code>rows</code>, вставленных в <code>table</code> в заданной позиции <code>offset</code>. Каждый столбец строки для вставки должен соответствовать типам столбцов таблицы.
 

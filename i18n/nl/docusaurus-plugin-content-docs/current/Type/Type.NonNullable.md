@@ -5,8 +5,6 @@ title: Type.NonNullable
 # Type.NonNullable
 
 
-## Description
-
 Retourneert het type waarvoor geen null-waarde is toegestaan voor een type.
 
 
@@ -19,7 +17,7 @@ Type.NonNullable(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het type waarvoor geen <code>null-waarde is toegestaan</code> voor <code>type</code>.
 

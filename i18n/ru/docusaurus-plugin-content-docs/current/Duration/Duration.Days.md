@@ -5,8 +5,6 @@ title: Duration.Days
 # Duration.Days
 
 
-## Description
-
 Возвращает дневную часть длительности.
 
 
@@ -19,7 +17,7 @@ Duration.Days(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает дневную часть<code>duration</code>.
 

@@ -5,8 +5,6 @@ title: Date.IsInPreviousNMonths
 # Date.IsInPreviousNMonths
 
 
-## Description
-
 Wskazuje, czy ta data przypada w ciągu poprzednich miesięcy określonych zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącego miesiąca.
 
 
@@ -20,7 +18,7 @@ Date.IsInPreviousNMonths(
 ```
 
 
-## Details
+## Remarks
 
 Wskazuje, czy dana wartość daty/godziny <code>dateTime</code> przypada w ciągu poprzednich miesięcy określonych zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącego miesiąca.      <ul>      <li><code>dateTime</code>: wartość <code>date</code>, <code>datetime</code> lub <code>datetimezone</code> do oszacowania.</li>      <li><code>months</code>: liczba miesięcy.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: List.Accumulate
 # List.Accumulate
 
 
-## Description
-
 สะสมค่าสรุปจากข้อมูลในรายการ
 
 
@@ -21,7 +19,7 @@ List.Accumulate(
 ```
 
 
-## Details
+## Remarks
 
 สะสมค่าสรุปจากข้อมูลในรายการ <code>list</code> โดยใช้ <code>accumulator</code>    สามารถตั้งค่าพารามิเตอร์ Seed <code>seed</code> ที่เลือกได้
 

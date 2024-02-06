@@ -5,8 +5,6 @@ title: Table.FillUp
 # Table.FillUp
 
 
-## Description
-
 เผยแพร่ค่าของเซลล์ไปยังเซลล์ที่มีค่าเป็น Null ด้านบนในคอลัมน์
 
 
@@ -20,7 +18,7 @@ Table.FillUp(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางหนึ่งจาก <code>table</code> ที่ระบุซึ่งมีการเผยแพร่ค่าของเซลล์ถัดไปไปยังเซลล์ที่มีค่า Null ด้านบน <code>columns</code> ที่ระบุ
 

@@ -5,8 +5,6 @@ title: List.Numbers
 # List.Numbers
 
 
-## Description
-
 Restituisce un elenco di numeri corrispondenti a un valore iniziale, un conteggio e un valore incrementale facoltativo.
 
 
@@ -21,7 +19,7 @@ List.Numbers(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un elenco di numeri corrispondenti a un valore iniziale, un conteggio e un valore incrementale facoltativo. Il valore incrementale predefinito è 1.<ul>   <li><code>start</code>: il valore iniziale dell'elenco.</li>   <li><code>count</code>: il numero di valori da creare.</li>   <li><code>increment</code>: <i>[Facoltativo]</i> il valore incrementale da utilizzare. Se omesso, i valori vengono incrementati di 1.</li></ul>
 

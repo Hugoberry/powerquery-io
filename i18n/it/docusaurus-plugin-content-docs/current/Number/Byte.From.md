@@ -5,8 +5,6 @@ title: Byte.From
 # Byte.From
 
 
-## Description
-
 Crea un valore integer a 8 bit dal valore dato.
 
 
@@ -21,7 +19,7 @@ Byte.From(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un valore <code>numerico</code> integer a 8 bit del dato <code>value</code>. Se il dato <code>value</code> è <code>null</code>, <code>Byte.From</code> restituisce <code>null</code>. Se il dato <code>value</code> è un <code>numero</code> all'interno dell'intervallo di un integer a 8 bit senza una parte frazionaria, viene restituito <code>value</code>. Se ha una parte frazionaria, il numero viene arrotondato con la modalità di arrotondamento specificata. La modalità di arrotondamento predefinita è <code>RoundingMode.ToEven</code>. Se <code>value</code> è di qualsiasi altro tipo, verrà prima convertito in <code>numero</code> usando <code>Number.FromText</code>. Per le modalità di arrotondamento disponibili, vedere <code>Number.Round</code>. È anche possibile specificare un valore <code>culture</code> opzionale (per esempio, "it-IT").
 

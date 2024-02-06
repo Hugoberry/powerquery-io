@@ -5,8 +5,6 @@ title: Table.Keys
 # Table.Keys
 
 
-## Description
-
 निर्दिष्ट तालिका की कुंजियाँ वापस करता है.
 
 
@@ -19,7 +17,7 @@ Table.Keys(
 ```
 
 
-## Details
+## Remarks
 
 निर्दिष्ट तालिका की कुंजियाँ वापस करता है.
 

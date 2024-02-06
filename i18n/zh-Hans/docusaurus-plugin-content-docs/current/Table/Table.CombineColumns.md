@@ -5,8 +5,6 @@ title: Table.CombineColumns
 # Table.CombineColumns
 
 
-## Description
-
 使用指定的组合程序函数将指定的列组合为一个新列。
 
 
@@ -22,7 +20,7 @@ Table.CombineColumns(
 ```
 
 
-## Details
+## Remarks
 
 使用指定的组合程序函数将指定的列组合为一个新列。
 

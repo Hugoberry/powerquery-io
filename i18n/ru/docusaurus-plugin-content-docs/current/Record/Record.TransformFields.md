@@ -5,8 +5,6 @@ title: Record.TransformFields
 # Record.TransformFields
 
 
-## Description
-
 Возвращает запись после применения указанных преобразований.
 
 
@@ -21,7 +19,7 @@ Record.TransformFields(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает запись после применения преобразований, указанных в списке <code>transformOperations</code>, в <code>record</code>.    Одновременно может быть преобразовано одно поле или несколько.      <div>В случае одного преобразуемого поля предполагается, что <code>transformOperations</code> — список с двумя элементами. Первый элемент в <code>transformOperations</code> указывает имя поля, а второй элемент в <code>transformOperations</code> указывает функцию, используемую для преобразования. Например, <code>\{"Quantity", Number.FromText}</code></div>      <div>В случае преобразования нескольких полей предполагается, что <code>transformOperations</code> — список списков, где каждый внутренний список представляет собой пару из имени поля и операции преобразования. Например, <code>\{\{"Quantity",Number.FromText},\{"UnitPrice", Number.FromText}}</code></div>
 

@@ -5,8 +5,6 @@ title: Table.AddKey
 # Table.AddKey
 
 
-## Description
-
 Hiermee voegt u een sleutel toe aan een tabel.
 
 
@@ -21,7 +19,7 @@ Table.AddKey(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee voegt u een sleutel toe <code>table</code>, waarbij <code>columns</code> de lijst is met kolomnamen waarmee de sleutel wordt gedefinieerd en <code>isPrimary</code> geeft aan of de sleutel primair is.
 

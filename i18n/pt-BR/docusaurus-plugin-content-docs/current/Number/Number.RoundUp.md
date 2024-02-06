@@ -5,8 +5,6 @@ title: Number.RoundUp
 # Number.RoundUp
 
 
-## Description
-
 Retorna o próximo número mais alto. O número de dígitos pode ser especificado.
 
 
@@ -20,7 +18,7 @@ Number.RoundUp(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o resultado do arredondamento <code>number</code> para o próximo inteiro mais alto. Se <code>number</code> for nulo, esta função retornará nulo.    Se <code>digits</code> for fornecido, <code>number</code> será arredondado para o número especificado de dígitos decimais.  
 

@@ -5,8 +5,6 @@ title: Number.RoundAwayFromZero
 # Number.RoundAwayFromZero
 
 
-## Description
-
 Retourneert het resultaat van het naar boven afronden van positieve getallen en het naar beneden afronden van negatieve getallen. Het aantal cijfers kan worden opgegeven.
 
 
@@ -20,7 +18,7 @@ Number.RoundAwayFromZero(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het resultaat van het afronden van <code>number</code> op basis van het teken bij het getal. Deze functie rondt positieve getallen naar boven en negatieve getallen naar beneden af.    Als <code>digits</code> is opgegeven, wordt <code>number</code> afgerond naar het <code>digits</code> aantal decimale cijfers.  
 

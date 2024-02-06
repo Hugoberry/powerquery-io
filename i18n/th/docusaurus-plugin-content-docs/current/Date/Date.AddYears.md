@@ -5,8 +5,6 @@ title: Date.AddYears
 # Date.AddYears
 
 
-## Description
-
 เพิ่มปีที่ระบุลงในวันที่
 
 
@@ -20,7 +18,7 @@ Date.AddYears(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลลัพธ์ <code>วันที่</code>, <code>วันที่เวลา</code> หรือ <code>โซนวันที่เวลา</code> ของการเพิ่ม <code>numberOfYears</code> ลงในค่า <code>วันที่เวลา</code> <code>dateTime</code>      <ul>        <li><code>dateTime</code>: ค่า <code>วันที่</code>, <code>วันที่เวลา</code> หรือ <code>โซนวันที่เวลา</code> ที่เพิ่มปี</li>        <li><code>numberOfYears</code>: จำนวนปีที่จะเพิ่ม</li>      </ul>
 

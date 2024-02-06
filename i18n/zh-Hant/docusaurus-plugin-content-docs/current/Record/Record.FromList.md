@@ -5,8 +5,6 @@ title: Record.FromList
 # Record.FromList
 
 
-## Description
-
 已知欄位值清單和一組欄位，傳回記錄。
 
 
@@ -20,7 +18,7 @@ Record.FromList(
 ```
 
 
-## Details
+## Remarks
 
 已知欄位值 <code>list</code> 和一組欄位，傳回記錄。<code>fields</code> 可以指定為文字值清單或記錄類型。如果欄位不是唯一的，則擲回錯誤。
 

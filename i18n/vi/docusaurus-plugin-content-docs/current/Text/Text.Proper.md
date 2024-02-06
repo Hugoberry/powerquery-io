@@ -5,8 +5,6 @@ title: Text.Proper
 # Text.Proper
 
 
-## Description
-
 Viết hoa chữ cài đầu tiên của mỗi từ.
 
 
@@ -20,7 +18,7 @@ Text.Proper(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả chỉ viết hoa chữ cái đầu tiên của mỗi từ trong giá trị văn bản <code>text</code>. Tất cả chữ cái khác được trả về ở dạng chữ thường. <code>culture</code> tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
 

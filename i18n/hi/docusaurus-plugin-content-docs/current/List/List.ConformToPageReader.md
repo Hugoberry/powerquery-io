@@ -5,8 +5,6 @@ title: List.ConformToPageReader
 # List.ConformToPageReader
 
 
-## Description
-
 यह फ़ंक्शन केवल आंतरिक उपयोग के लिए है.
 
 
@@ -20,7 +18,7 @@ List.ConformToPageReader(
 ```
 
 
-## Details
+## Remarks
 
 यह फ़ंक्शन केवल आंतरिक उपयोग के लिए है.
 

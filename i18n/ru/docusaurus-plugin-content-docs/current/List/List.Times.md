@@ -5,8 +5,6 @@ title: List.Times
 # List.Times
 
 
-## Description
-
 Формирует список значений time на основе первоначального значения, количества и значения приращения.
 
 
@@ -21,7 +19,7 @@ List.Times(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает список значений <code>time</code> с размером <code>count</code>, начиная с <code>start</code>. Данное значение приращения <code>step</code> является значением <code>duration</code>, которое добавляется к каждому значению.
 

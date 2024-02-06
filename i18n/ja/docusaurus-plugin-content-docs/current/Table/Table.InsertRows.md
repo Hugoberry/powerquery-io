@@ -5,8 +5,6 @@ title: Table.InsertRows
 # Table.InsertRows
 
 
-## Description
-
 テーブルの指定された位置に行のリストを挿入します。
 
 
@@ -21,7 +19,7 @@ Table.InsertRows(
 ```
 
 
-## Details
+## Remarks
 
 <code>rows</code> の指定された位置 <code>table</code> に行のリスト <code>offset</code> を挿入したテーブルを返します。挿入する行の各列とテーブルの列の型が一致する必要があります。
 

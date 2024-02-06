@@ -5,8 +5,6 @@ title: Table.Pivot
 # Table.Pivot
 
 
-## Description
-
 Wandelt bei Angabe eines Spaltenpaars, das Attribut-Wert-Paare darstellt, die Daten in der Attributspalte in Spaltenüberschriften um.
 
 
@@ -23,7 +21,7 @@ Table.Pivot(
 ```
 
 
-## Details
+## Remarks
 
 Wandelt bei Angabe eines Spaltenpaars, das Attribut-Wert-Paare darstellt, die Daten in der Attributspalte in Spaltenüberschriften um.
 

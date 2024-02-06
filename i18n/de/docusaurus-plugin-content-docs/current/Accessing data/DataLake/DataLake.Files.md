@@ -5,8 +5,6 @@ title: DataLake.Files
 # DataLake.Files
 
 
-## Description
-
 Geben Sie die URL Ihres Azure Data Lake Storage-Kontos ein.
 
 
@@ -20,7 +18,7 @@ DataLake.Files(
 ```
 
 
-## Details
+## Remarks
 
 Hiermit wird eine Tabelle aus Azure Data Lake Storage Gen1 zurückgegeben, die jeweils eine Zeile für jede Datei enthält, die unter der Adresse <code>URL</code> gefunden wird. Jede Zeile enthält die Eigenschaften der Datei und einen Link zu deren Inhalt.
 

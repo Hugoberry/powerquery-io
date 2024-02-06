@@ -5,8 +5,6 @@ title: BinaryFormat.Single
 # BinaryFormat.Single
 
 
-## Description
-
 Formato binario que lee un valor de coma flotante de precisión simple IEEE de 4 bytes.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Single(
 ```
 
 
-## Details
+## Remarks
 
 Formato binario que lee un valor de coma flotante de precisión simple IEEE de 4 bytes.
 

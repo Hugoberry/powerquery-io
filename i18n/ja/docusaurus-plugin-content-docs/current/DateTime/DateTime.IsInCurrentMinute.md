@@ -5,8 +5,6 @@ title: DateTime.IsInCurrentMinute
 # DateTime.IsInCurrentMinute
 
 
-## Description
-
 システム上の現在の日時によって決定される現在の分に、この datetime が含まれるかどうかを示します。
 
 
@@ -19,7 +17,7 @@ DateTime.IsInCurrentMinute(
 ```
 
 
-## Details
+## Remarks
 
 システム上の現在の日時によって決定される現在の分に、指定された datetime の値 <code>dateTime</code> が含まれるかどうかを示します。      <ul>      <li><code>dateTime</code>: 評価する <code>datetime</code> または <code>datetimezone</code> 値。</li>      </ul>
 

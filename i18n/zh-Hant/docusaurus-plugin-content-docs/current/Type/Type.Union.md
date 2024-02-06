@@ -5,8 +5,6 @@ title: Type.Union
 # Type.Union
 
 
-## Description
-
 傳回類型清單的聯集。
 
 
@@ -19,7 +17,7 @@ Type.Union(
 ```
 
 
-## Details
+## Remarks
 
 傳回 <code>types</code> 中的類型聯集。
 

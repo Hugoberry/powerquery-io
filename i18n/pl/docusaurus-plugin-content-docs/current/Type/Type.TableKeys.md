@@ -5,8 +5,6 @@ title: Type.TableKeys
 # Type.TableKeys
 
 
-## Description
-
 Zwraca listę kluczy, która może być pusta, tabeli danego typu.
 
 
@@ -19,7 +17,7 @@ Type.TableKeys(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca być może pustą listę kluczy dla danego typu tabeli.<br />    <br />    Każdy klucz jest definiowany przy użyciu rekordu w następującej postaci:    <ul>      <li>        <code>Kolumny</code>: lista nazw kolumn, która definiuje klucz      </li>      <li>        <code>Podstawowy</code>: <code>true</code>, jeśli klucz jest kluczem podstawowym; w przeciwnym razie <code>false</code>      </li>    </ul>    
 

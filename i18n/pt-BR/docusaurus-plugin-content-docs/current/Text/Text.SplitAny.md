@@ -5,8 +5,6 @@ title: Text.SplitAny
 # Text.SplitAny
 
 
-## Description
-
 Retorna uma lista de valores de texto, divididos em qualquer caractere do delimitador.
 
 
@@ -20,7 +18,7 @@ Text.SplitAny(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma lista de valores de texto resultantes da divisão de um valor de texto <code>text</code> com base em qualquer caractere no delimitador especificado, <code>separators</code>.
 

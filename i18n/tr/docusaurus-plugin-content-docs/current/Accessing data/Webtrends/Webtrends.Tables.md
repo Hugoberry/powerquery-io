@@ -5,8 +5,6 @@ title: Webtrends.Tables
 # Webtrends.Tables
 
 
-## Description
-
 Webtrends hesabınızla ilişkilendirilen Profil Kimliğinizi girin.
 
 
@@ -21,7 +19,7 @@ Webtrends.Tables(
 ```
 
 
-## Details
+## Remarks
 
 İlgili Webtrends verilerinin yer aldığı bir tablo döndürür.
 

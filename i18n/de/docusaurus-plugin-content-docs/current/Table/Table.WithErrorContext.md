@@ -5,8 +5,6 @@ title: Table.WithErrorContext
 # Table.WithErrorContext
 
 
-## Description
-
 Diese Funktion ist nur für den internen Gebrauch bestimmt.
 
 
@@ -20,7 +18,7 @@ Table.WithErrorContext(
 ```
 
 
-## Details
+## Remarks
 
 Diese Funktion ist nur für den internen Gebrauch bestimmt.
 

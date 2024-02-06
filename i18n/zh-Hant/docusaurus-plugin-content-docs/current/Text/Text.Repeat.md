@@ -5,8 +5,6 @@ title: Text.Repeat
 # Text.Repeat
 
 
-## Description
-
 傳回由輸入文字重複指定次數所組成的文字值。
 
 
@@ -20,7 +18,7 @@ Text.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 傳回由輸入文字 <code>text</code> 重複 <code>count</code> 次所組成的文字值。
 

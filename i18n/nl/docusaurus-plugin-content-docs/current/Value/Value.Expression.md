@@ -5,8 +5,6 @@ title: Value.Expression
 # Value.Expression
 
 
-## Description
-
 Retourneert een abstracte syntaxisstructuur (AST) die de expressie van de waarde vertegenwoordigt.
 
 
@@ -19,7 +17,7 @@ Value.Expression(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een abstracte syntaxisstructuur (AST) die de expressie van de waarde vertegenwoordigt
 

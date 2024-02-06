@@ -5,8 +5,6 @@ title: Date.DayOfWeek
 # Date.DayOfWeek
 
 
-## Description
-
 Hiermee wordt een getal (van 0 tot en met 6) geretourneerd waarmee de dag van de week wordt aangegeven van de opgegeven waarde.
 
 
@@ -20,7 +18,7 @@ Date.DayOfWeek(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een getal (van 0 tot en met 6) geretourneerd waarmee de dag van de week wordt aangeduid van de opgegeven <code>dateTime</code>.  <ul>        <li><code>dateTime</code>: Een waarde voor <code>date</code>, <code>datetime</code> of <code>datetimezone</code>.</li>        <li><code>firstDayOfWeek</code>: Een waarde voor <code>Day</code> waarmee wordt aangegeven welke dag moet worden gezien als de eerste dag van de week. Toegestane waarden zijn Day.Sunday, Day.Monday, Day.Tuesday, Day.Wednesday, Day.Thursday, Day.Friday en Day.Saturday. Als deze waarde niet wordt opgegeven, wordt een cultuurafhankelijke standaard gebruikt.</li>      </ul>
 

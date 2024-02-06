@@ -5,8 +5,6 @@ title: File.Contents
 # File.Contents
 
 
-## Description
-
 Devuelve el contenido del archivo especificado como binario.
 
 
@@ -20,7 +18,7 @@ File.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve el contenido del archivo, <code>path</code>, como binario. El parámetro <code>options</code> está pensado actualmente solo para uso interno.
 

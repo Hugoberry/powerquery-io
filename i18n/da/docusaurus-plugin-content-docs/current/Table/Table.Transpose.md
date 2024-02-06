@@ -5,8 +5,6 @@ title: Table.Transpose
 # Table.Transpose
 
 
-## Description
-
 Ændrer kolonner til rækker og rækker til kolonner.
 
 
@@ -20,7 +18,7 @@ Table.Transpose(
 ```
 
 
-## Details
+## Remarks
 
 Ændrer kolonner til rækker og rækker til kolonner.
 

@@ -5,8 +5,6 @@ title: Uri.Combine
 # Uri.Combine
 
 
-## Description
-
 ส่งกลับ URI แบบสัมบูรณ์ที่ได้จากการรวม URI พื้นฐานของค่าที่ป้อนและ URI ที่เกี่ยวข้อง
 
 
@@ -20,7 +18,7 @@ Uri.Combine(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับ URI แบบสัมบูรณ์ที่ได้จากการรวมค่าที่ป้อน <code>baseUri</code> และ <code>relativeUri</code>
 

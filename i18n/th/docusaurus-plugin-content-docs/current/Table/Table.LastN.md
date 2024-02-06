@@ -5,8 +5,6 @@ title: Table.LastN
 # Table.LastN
 
 
-## Description
-
 ส่งกลับจำนวนแถวล่าสุดที่ระบุ
 
 
@@ -20,7 +18,7 @@ Table.LastN(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับแถวสุดท้ายจากตาราง <code>table</code> โดยขึ้นอยู่กับค่าของ <code>countOrCondition</code>:    <ul>    <li> ถ้า <code>countOrCondition</code> เป็นตัวเลข จะมีการส่งกลับแถวจำนวนมากดังกล่าวโดยเริ่มจากตำแหน่ง (สิ้นสุด - <code>countOrCondition</code>) </li>    <li> ถ้า <code>countOrCondition</code> เป็นเงื่อนไข แถวที่ตรงกับเงื่อนไขจะถูกส่งกลับในตำแหน่งจากน้อยไปหามากจนกว่าแถวจะไม่เป็นไปตามเงื่อนไข</li></ul>
 

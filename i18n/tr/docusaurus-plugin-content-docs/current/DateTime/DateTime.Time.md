@@ -5,8 +5,6 @@ title: DateTime.Time
 # DateTime.Time
 
 
-## Description
-
 Verilen datetime değerinin saat bölümünü döndürür.
 
 
@@ -19,7 +17,7 @@ DateTime.Time(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> verilen datetime değerinin saat bölümünü döndürür.
 

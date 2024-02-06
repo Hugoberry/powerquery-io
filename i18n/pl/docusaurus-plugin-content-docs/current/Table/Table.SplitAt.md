@@ -5,8 +5,6 @@ title: Table.SplitAt
 # Table.SplitAt
 
 
-## Description
-
 Zwraca listę zawierającą określonych wierszy pierwszego zliczania i pozostałe wiersze.
 
 
@@ -20,7 +18,7 @@ Table.SplitAt(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca listę zawierającą dwie tabele: tabelę z pierwszymi N wierszami <code>table</code> (określonymi przez <code>count</code>) oraz tabelę zawierającą pozostałe wiersze <code>table</code>.Jeśli tabele listy wynikowej zostaną właściwie wyliczone za pierwszym razem i w odpowiedniej kolejności, funkcja wyliczy <code>table</code> tylko raz.
 

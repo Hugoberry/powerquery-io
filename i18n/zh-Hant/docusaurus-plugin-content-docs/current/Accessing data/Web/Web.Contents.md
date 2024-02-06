@@ -5,8 +5,6 @@ title: Web.Contents
 # Web.Contents
 
 
-## Description
-
 將從 URL 下載的內容傳回成二進位。
 
 
@@ -20,7 +18,7 @@ Web.Contents(
 ```
 
 
-## Details
+## Remarks
 
 以二進位形式傳回從 <code>url</code> 下載的內容。可提供選擇性記錄參數 <code>options</code> 以指定其他屬性。記錄可以包含下欄欄位:    <ul><li><code>Query</code> : 以程式設計方式將查詢參數新增至 URL 中，無須擔心逸出。</li><li><code>ApiKeyName</code> : 若目標網站採用 API 金鑰的概念，則可使用此參數來指定 URL 中必須使用的金鑰參數名稱 (而非值)。系統會在認證中提供實際的金鑰值。</li><li><code>Headers</code> : 將此值指定為記錄，會為 HTTP 要求提供其他標頭。</li><li><code>Timeout</code> : 將此值指定為持續時間，會變更 HTTP 要求的逾時時間。預設值為 100 秒。</li><li><code>ExcludedFromCacheKey</code> : 將此值指定為清單，會在計算快取資料時排除這些 HTTP 標頭金鑰。</li><li><code>IsRetry</code> : 將此邏輯值指定為 true 時，會在擷取資料時忽略快取中的任何現有回應。</li><li><code>ManualStatusHandling</code> : 將此值指定為清單，會防止針對回應具有以下任一狀態碼的 HTTP 要求進行任何內建處理。</li><li><code>RelativePath</code> : 將此值指定為文字，會在提出要求前將其附加到基底 URL。</li><li><code>Content</code> : 指定此值會將 Web 要求從 GET 變更為 POST，方法是使用選項值作為 POST 的內容。</li></ul>    HTTP 要求會以 GET (未指定內容時) 或 POST (有內容時) 形式進行。POST 要求只能匿名進行。    <br />    HTTP 回應的標頭可以二進位結果上的中繼資料形式取得。除了自訂資料連線器內容以外，只能取得回應標頭的子集 (基於安全性理由)。    
 

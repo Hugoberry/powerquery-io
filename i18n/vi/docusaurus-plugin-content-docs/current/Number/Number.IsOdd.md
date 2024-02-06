@@ -5,8 +5,6 @@ title: Number.IsOdd
 # Number.IsOdd
 
 
-## Description
-
 Cho biết giá trị có lẻ hay không.
 
 
@@ -19,7 +17,7 @@ Number.IsOdd(
 ```
 
 
-## Details
+## Remarks
 
 Cho biết giá trị có lẻ hay không. Trả về <code>true</code> nếu <code>number</code> là số lẻ, <code>false</code> nếu ngược lại.
 

@@ -5,8 +5,6 @@ title: Guid.From
 # Guid.From
 
 
-## Description
-
 返回给定值的 guid 值。
 
 
@@ -19,7 +17,7 @@ Guid.From(
 ```
 
 
-## Details
+## Remarks
 
 从给定的 <code>value</code> 返回 <code>Guid.Type</code> 值。如果给定的 <code>value</code> 为 <code>null</code>，则 <code>Guid.From</code> 返回 <code>null</code>。将执行检查以确定给定的 <code>value</code> 是否采用了可接受的格式。示例中提供了可接受的格式。
 

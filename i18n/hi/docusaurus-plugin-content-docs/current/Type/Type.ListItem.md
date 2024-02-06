@@ -5,8 +5,6 @@ title: Type.ListItem
 # Type.ListItem
 
 
-## Description
-
 सूची प्रकार से आइटम प्रकार लौटाता है.
 
 
@@ -19,7 +17,7 @@ Type.ListItem(
 ```
 
 
-## Details
+## Remarks
 
 सूची <code>type</code> से आइटम प्रकार लौटाता है.
 

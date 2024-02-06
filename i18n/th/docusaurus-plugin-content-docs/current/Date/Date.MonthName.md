@@ -5,8 +5,6 @@ title: Date.MonthName
 # Date.MonthName
 
 
-## Description
-
 คืนค่าชื่อของคอมโพเนนท์เดือน
 
 
@@ -20,7 +18,7 @@ Date.MonthName(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับคอมโพเนนต์ชื่อของเดือนสำหรับ <code>date</code> ที่ระบุ อาจมีการระบุ <code>culture</code> เพิ่มเติม (ตัวอย่างเช่น "en-US")
 

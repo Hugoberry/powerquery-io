@@ -5,8 +5,6 @@ title: List.AnyTrue
 # List.AnyTrue
 
 
-## Description
-
 Zwraca wartość true, jeśli dowolne wyrażenie ma wartość true.
 
 
@@ -19,7 +17,7 @@ List.AnyTrue(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wartość true, jeśli dowolne wyrażenie na liście <code>list</code> ma wartość true.
 

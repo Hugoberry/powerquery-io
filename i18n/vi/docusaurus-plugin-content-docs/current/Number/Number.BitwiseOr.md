@@ -5,8 +5,6 @@ title: Number.BitwiseOr
 # Number.BitwiseOr
 
 
-## Description
-
 Trả về kết quả thực hiện tác vụ &#34;Or&#34; theo bit giữa hai đầu vào.
 
 
@@ -20,7 +18,7 @@ Number.BitwiseOr(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả thực hiện tác vụ "Or" theo bit giữa <code>number1</code> và <code>number2</code>.
 

@@ -5,8 +5,6 @@ title: Table.FirstN
 # Table.FirstN
 
 
-## Description
-
 Devolve as primeiras linhas de contagem especificadas.
 
 
@@ -20,7 +18,7 @@ Table.FirstN(
 ```
 
 
-## Details
+## Remarks
 
 Devolve as primeiras linhas da tabela <code>table</code>, dependendo do valor de <code>countOrCondition</code>:    <ul>    <li> Se <code>countOrCondition</code> for um número, será devolvido esse número de linhas (a partir do início). </li>    <li> Se <code>countOrCondition</code> for uma condição, serão devolvidas as linhas que satisfaçam a condição até que uma linha não satisfaça a condição.</li></ul>
 

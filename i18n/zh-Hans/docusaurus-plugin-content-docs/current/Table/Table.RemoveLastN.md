@@ -5,8 +5,6 @@ title: Table.RemoveLastN
 # Table.RemoveLastN
 
 
-## Description
-
 返回一个表，其中删除了最后 N 行。
 
 
@@ -20,7 +18,7 @@ Table.RemoveLastN(
 ```
 
 
-## Details
+## Remarks
 
 返回一个表，该表不包含表 <code>table</code> 的最后 <code>countOrCondition</code> 行。        删除的行数依赖于可选参数 <code>countOrCondition</code>。    <ul>    <li> 如果忽略 <code>countOrCondition</code>，则只删除最后一行。</li>    <li> 如果 <code>countOrCondition</code> 为数字，则将删除该数字那么多的行(从底部开始)。</li>    <li> 如果 <code>countOrCondition</code> 是条件，将删除满足此条件的行，直到行不满足条件为止。</li>    </ul>
 

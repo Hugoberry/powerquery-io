@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentralOnPremises.Contents
 # Dynamics365BusinessCentralOnPremises.Contents
 
 
-## Description
-
 Insira a URL do ponto de extremidade de serviço do OData do Dynamics 365 Business Central (local).
 
 
@@ -20,7 +18,7 @@ Dynamics365BusinessCentralOnPremises.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma tabela com os dados relevantes do Dynamics 365 Business Central (local). 
 

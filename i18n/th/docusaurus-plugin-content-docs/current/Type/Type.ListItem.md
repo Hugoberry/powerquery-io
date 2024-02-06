@@ -5,8 +5,6 @@ title: Type.ListItem
 # Type.ListItem
 
 
-## Description
-
 ส่งกลับประเภทรายการจากประเภทรายการ
 
 
@@ -19,7 +17,7 @@ Type.ListItem(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับประเภทรายการจากรายการ <code>type</code>.
 

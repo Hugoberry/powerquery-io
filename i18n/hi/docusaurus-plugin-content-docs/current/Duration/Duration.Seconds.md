@@ -5,8 +5,6 @@ title: Duration.Seconds
 # Duration.Seconds
 
 
-## Description
-
 अवधि का सेकंडों वाला भाग लौटाता है.
 
 
@@ -19,7 +17,7 @@ Duration.Seconds(
 ```
 
 
-## Details
+## Remarks
 
 <code>duration</code> का सेकंडों वाला भाग लौटाता है.
 

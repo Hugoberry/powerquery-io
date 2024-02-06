@@ -5,8 +5,6 @@ title: File.Contents
 # File.Contents
 
 
-## Description
-
 Returnerer indholdet af den angivne fil som binært.
 
 
@@ -20,7 +18,7 @@ File.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer indholdet af filen, <code>path</code>, som binært. Parameteren <code>options</code> er i øjeblikket kun beregnet til intern brug.
 

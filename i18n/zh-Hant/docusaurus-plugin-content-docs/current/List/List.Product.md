@@ -5,8 +5,6 @@ title: List.Product
 # List.Product
 
 
-## Description
-
 傳回清單中數字的乘積。
 
 
@@ -20,7 +18,7 @@ List.Product(
 ```
 
 
-## Details
+## Remarks
 
 傳回清單 <code>numbersList</code> 中非 null 數字的乘積。如果清單中沒有非 Null 值，則傳回 Null。
 

@@ -5,8 +5,6 @@ title: Table.FirstValue
 # Table.FirstValue
 
 
-## Description
-
 Trả về cột đầu tiên của hàng đầu tiên trong bảng hoặc giá trị mặc định đã chỉ định.
 
 
@@ -20,7 +18,7 @@ Table.FirstValue(
 ```
 
 
-## Details
+## Remarks
 
 Trả về cột đầu tiên của hàng đầu tiên trong bảng <code>table</code> hoặc giá trị mặc định đã chỉ định.
 

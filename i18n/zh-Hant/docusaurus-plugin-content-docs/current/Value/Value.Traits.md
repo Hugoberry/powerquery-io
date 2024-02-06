@@ -5,8 +5,6 @@ title: Value.Traits
 # Value.Traits
 
 
-## Description
-
 此函式僅供內部使用。
 
 
@@ -19,7 +17,7 @@ Value.Traits(
 ```
 
 
-## Details
+## Remarks
 
 此函式僅供內部使用。
 

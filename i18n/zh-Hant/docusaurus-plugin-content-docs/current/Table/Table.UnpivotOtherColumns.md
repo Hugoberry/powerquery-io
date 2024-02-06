@@ -5,8 +5,6 @@ title: Table.UnpivotOtherColumns
 # Table.UnpivotOtherColumns
 
 
-## Description
-
 將指定的集合以外的所有資料行轉譯為屬性/值組。
 
 
@@ -22,7 +20,7 @@ Table.UnpivotOtherColumns(
 ```
 
 
-## Details
+## Remarks
 
 將指定集合以外的所有資料行，翻譯為成對的「屬性/值」，並與每個資料列中其餘的值合併。
 

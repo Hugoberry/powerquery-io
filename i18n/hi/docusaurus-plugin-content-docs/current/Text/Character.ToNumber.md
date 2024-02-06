@@ -5,8 +5,6 @@ title: Character.ToNumber
 # Character.ToNumber
 
 
-## Description
-
 वर्ण को संख्या मान में रूपांतरित करता है.
 
 
@@ -19,7 +17,7 @@ Character.ToNumber(
 ```
 
 
-## Details
+## Remarks
 
 <code>character</code> के समतुल्य संख्या लौटाता है.<br />    <br />    परिणाम 21-बिट यूनिकोड कोड बिंदु होगा जो उपलब्ध कराए गए चरित्र या सरोगेट जोड़ी द्वारा दर्शाया जाएगा.  
 

@@ -5,8 +5,6 @@ title: List.Durations
 # List.Durations
 
 
-## Description
-
 给定初始值、计数和增量 duration 值来生成 duration 值的列表。
 
 
@@ -21,7 +19,7 @@ List.Durations(
 ```
 
 
-## Details
+## Remarks
 
 返回 <code>count</code> <code>duration</code> 值的列表，从 <code>start</code> 开始，以给定的 <code>duration</code> <code>step</code> 为增量。
 

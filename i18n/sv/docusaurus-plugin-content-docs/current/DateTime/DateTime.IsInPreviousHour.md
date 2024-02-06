@@ -5,8 +5,6 @@ title: DateTime.IsInPreviousHour
 # DateTime.IsInPreviousHour
 
 
-## Description
-
 Indikerar om denna datetime infaller under den föregående timmen enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar falskt om den skickas ett värde som infaller inom den aktuella timmen.
 
 
@@ -19,7 +17,7 @@ DateTime.IsInPreviousHour(
 ```
 
 
-## Details
+## Remarks
 
 Indikerar om angivet datetime-värde <code>dateTime</code> infaller under föregående timme enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar false om den skickas ett värde som infaller under den aktuella timmen.      <ul>      <li><code>dateTime</code>: Ett <code>datetime</code>- eller <code>datetimezone</code>-värde som ska utvärderas.</li>      </ul>
 

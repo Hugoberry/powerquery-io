@@ -5,8 +5,6 @@ title: Splitter.SplitTextByRanges
 # Splitter.SplitTextByRanges
 
 
-## Description
-
 Bir metin listesine belirtilen uzaklığa göre metin ayıran bir işlev döndürür.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 Metni belirtilen uzaklıklara ve uzunluklara göre bölerek metin listesi oluşturan bir işlev döndürür. Uzunluk değerinin null olarak belirlenmesi, girişin kalan kısmının çıktı değerine dahil edilmesi gerektiğini belirtir.
 

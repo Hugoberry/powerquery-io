@@ -5,8 +5,6 @@ title: Table.ReplaceRows
 # Table.ReplaceRows
 
 
-## Description
-
 Erstatter det angivne rækkeområde med den eller de leverede rækker.
 
 
@@ -22,7 +20,7 @@ Table.ReplaceRows(
 ```
 
 
-## Details
+## Remarks
 
 Erstatter et angivet antal rækker, <code>count</code>, i inputtet <code>table</code> med de angivne <code>rows</code>, med start ved <code>offset</code>. Parameteren <code>rows</code> er en liste over poster.    <ul>       <li><code>table</code>: Den tabel, hvor erstatningen udføres.</li>       <li><code>offset</code>: Det antal rækker, der skal springes over, før erstatningen udføres.</li>       <li><code>count</code>: Det antal rækker, der skal erstattes.</li>       <li><code>rows</code>: Den liste over rækker, der skal indsættes i <code>table</code> på den position, der er angivet af <code>offset</code>.</li>    </ul>
 

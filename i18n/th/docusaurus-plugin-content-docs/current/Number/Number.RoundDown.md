@@ -5,8 +5,6 @@ title: Number.RoundDown
 # Number.RoundDown
 
 
-## Description
-
 ส่งคืนตัวเลขก่อนหน้าที่มีค่าสูงที่สุด สามารถระบุจำนวนหลัก
 
 
@@ -20,7 +18,7 @@ Number.RoundDown(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลลัพธ์ของการปัดเศษ <code>number</code> ลงเป็นจํานวนเต็มสูงสุดก่อนหน้า ถ้า <code>number</code> เป็น null ฟังก์ชันนี้จะส่งกลับ null ถ้ามีการระบุ <code>digits</code> <code>number</code> จะถูกปัดเศษเป็นจํานวนหลักทศนิยมที่ระบุ  
 

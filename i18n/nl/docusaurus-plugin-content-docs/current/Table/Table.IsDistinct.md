@@ -5,8 +5,6 @@ title: Table.IsDistinct
 # Table.IsDistinct
 
 
-## Description
-
 Geeft aan of de tabel alleen unieke rijen (geen duplicaten) bevat.
 
 
@@ -20,7 +18,7 @@ Table.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 Geeft aan of de <code>table</code> alleen unieke rijen (geen duplicaten) bevat. Retourneert <code>true</code> als de rijen uniek zijn. Als er dubbele rijen in de tabel staan, wordt <code>false</code> geretourneerd.    Een optionele parameter <code>comparisonCriteria</code> geeft aan van welke kolommen in de tabel wordt gezocht naar kopieën van die kolommen. Als <code>comparisonCriteria</code> niet is opgegeven, worden alle kolommen getest.
 

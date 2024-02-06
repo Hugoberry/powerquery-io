@@ -5,8 +5,6 @@ title: Text.StartsWith
 # Text.StartsWith
 
 
-## Description
-
 Anger om texten börjar med ett angivet värde.
 
 
@@ -21,7 +19,7 @@ Text.StartsWith(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar sant om textvärdet <code>text</code> inleds med textvärdet <code>substring</code>.      <ul>        <li><code>text</code>: <i></i> Ett <code>text</code>-värde som det ska sökas efter</li>        <li><code>substring</code>: <i></i> Ett <code>text</code>-värde som är den delsträng som ska sökas efter i <code>substring</code></li>        <li><code>comparer</code>: <i>[Valfritt]</i> En <code>Comparer</code> som används för att kontrollera jämförelsen. <code>Comparer.OrdinalIgnoreCase</code> kan till exempel användas för att genomföra skiftlägesokänsliga sökningar</li>      </ul>      <div>        <code>comparer</code> är en <code>Comparer</code> som används för att kontrollera jämförelsen. Jämförelsefunktioner kan användas för att tillhandahålla skiftlägesokänsliga eller kultur- och språkmedvetna jämförelser.      </div>      <div>        Följande inbyggda jämförelsefunktioner är tillgängliga i formelspråket      </div>      <ul>        <li><code>Comparer.Ordinal</code>: Används för att genomföra en exakt ordningstalsjämförelse</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: Används för att genomföra en exakt skiftlägesokänslig ordningstalsjämförelse</li>        <li><code>Comparer.FromCulture</code>: Används för att genomföra en kulturmedveten jämförelse</li>      </ul>
 

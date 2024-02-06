@@ -5,8 +5,6 @@ title: Marketo.Leads
 # Marketo.Leads
 
 
-## Description
-
 Gibt eine Tabelle mit Leaddetails zurück.
 
 
@@ -21,7 +19,7 @@ Marketo.Leads(
 ```
 
 
-## Details
+## Remarks
 
 Ruft den Marketo-REST-API-Endpunkt unter <code>url</code>/rest/v1/activities.json auf. Es werden alle Leads in Liste <code>leadIds</code> zurückgegeben.
 

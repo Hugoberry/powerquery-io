@@ -5,8 +5,6 @@ title: Table.ContainsAny
 # Table.ContainsAny
 
 
-## Description
-
 Gibt an, ob mindestens einer der angegebenen Datensätze als Zeile in der Tabelle vorkommt.
 
 
@@ -21,7 +19,7 @@ Table.ContainsAny(
 ```
 
 
-## Details
+## Remarks
 
 Gibt an, ob mindestens einer der angegebenen Datensätze in der Liste mit Datensätzen (<code>rows</code>) als Zeile in "<code>table</code>" vorkommt.    Der Vergleich zwischen den Zeilen der Tabelle kann mithilfe eines optionalen Parameters (<code>equationCriteria</code>) gesteuert werden.
 

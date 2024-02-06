@@ -5,8 +5,6 @@ title: Text.Replace
 # Text.Replace
 
 
-## Description
-
 テキスト内で出現する指定されたサブストリングをすべて置き換えます。
 
 
@@ -21,7 +19,7 @@ Text.Replace(
 ```
 
 
-## Details
+## Remarks
 
 テキスト値 <code>text</code> に出現するすべてのテキスト値 <code>old</code> をテキスト値 <code>new</code> に置き換えた結果を返します。この関数では大文字と小文字が区別されます。
 

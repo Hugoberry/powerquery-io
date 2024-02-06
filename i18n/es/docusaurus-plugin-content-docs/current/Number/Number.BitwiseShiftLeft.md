@@ -5,8 +5,6 @@ title: Number.BitwiseShiftLeft
 # Number.BitwiseShiftLeft
 
 
-## Description
-
 Desplaza los bits establecidos a la izquierda.
 
 
@@ -20,7 +18,7 @@ Number.BitwiseShiftLeft(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve el resultado de realizar un desplazamiento bit a bit a la izquierda en <code>number1</code>, el número especificado de bits <code>number2</code>.
 

@@ -5,8 +5,6 @@ title: List.Accumulate
 # List.Accumulate
 
 
-## Description
-
 Acumula um valor de resumo dos itens existentes na lista.
 
 
@@ -21,7 +19,7 @@ List.Accumulate(
 ```
 
 
-## Details
+## Remarks
 
 Acumula um valor de resumo dos itens existentes na lista <code>list</code>, utilizando <code>accumulator</code>.    É possível definir um parâmetro de seed opcional, <code>seed</code>.
 

@@ -5,8 +5,6 @@ title: Table.Column
 # Table.Column
 
 
-## Description
-
 ส่งกลับคอลัมน์ที่ระบุของข้อมูลจากตารางในรูปแบบรายการ
 
 
@@ -20,7 +18,7 @@ Table.Column(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับคอลัมน์ข้อมูลที่ระบุโดย <code>column</code> จากตาราง <code>table</code> ในรูปแบบรายการ
 

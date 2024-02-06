@@ -5,8 +5,6 @@ title: Table.ReplaceRows
 # Table.ReplaceRows
 
 
-## Description
-
 Заменяет указанный диапазон строк предоставленными строками.
 
 
@@ -22,7 +20,7 @@ Table.ReplaceRows(
 ```
 
 
-## Details
+## Remarks
 
 Заменяет указанное количество строк <code>count</code> во входных данных <code>table</code> заданными в <code>rows</code>, начиная с <code>offset</code>. Параметр <code>rows</code> представляет собой список записей.    <ul>       <li><code>table</code>: таблица, в которой выполняется замена.</li>       <li><code>offset</code>: количество строк, которые следует пропустить, прежде чем выполнять замену.</li>       <li><code>count</code>: количество строк для замены.</li>       <li><code>rows</code>: список записей строк, вставляемых в <code>table</code> в расположении, заданном <code>offset</code>.</li>    </ul>
 

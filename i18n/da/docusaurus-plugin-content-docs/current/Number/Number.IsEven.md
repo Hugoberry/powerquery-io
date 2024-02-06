@@ -5,8 +5,6 @@ title: Number.IsEven
 # Number.IsEven
 
 
-## Description
-
 Angiver, om værdien er et lige tal.
 
 
@@ -19,7 +17,7 @@ Number.IsEven(
 ```
 
 
-## Details
+## Remarks
 
 Angiver, om værdien, <code>number</code>, er et lige tal, ved at returnere <code>true</code>, hvis det er et lige tal. Ellers returneres <code>false</code>.
 

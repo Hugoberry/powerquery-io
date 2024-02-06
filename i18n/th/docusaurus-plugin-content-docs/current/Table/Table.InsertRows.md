@@ -5,8 +5,6 @@ title: Table.InsertRows
 # Table.InsertRows
 
 
-## Description
-
 แทรกรายการแถวลงในตารางในตำแหน่งที่ระบุ
 
 
@@ -21,7 +19,7 @@ Table.InsertRows(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางที่มีรายการแถว <code>rows</code> ซึ่งถูกแทรกลงใน <code>table</code> ในตำแหน่งที่ระบุ <code>offset</code> แต่ละคอลัมน์ในแถวที่จะแทรกต้องตรงกับชนิดคอลัมน์ของตาราง
 

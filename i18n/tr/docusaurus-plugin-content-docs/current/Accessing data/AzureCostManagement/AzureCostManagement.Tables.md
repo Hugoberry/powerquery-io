@@ -5,8 +5,6 @@ title: AzureCostManagement.Tables
 # AzureCostManagement.Tables
 
 
-## Description
-
 Azure Maliyet Yönetimi
 
 
@@ -22,7 +20,7 @@ AzureCostManagement.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Azure Maliyet Yönetimi
 

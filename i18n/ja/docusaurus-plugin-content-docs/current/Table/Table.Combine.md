@@ -5,8 +5,6 @@ title: Table.Combine
 # Table.Combine
 
 
-## Description
-
 一連のテーブルを結合したテーブルを返します。
 
 
@@ -20,7 +18,7 @@ Table.Combine(
 ```
 
 
-## Details
+## Remarks
 
 テーブルの一覧 <code>tables</code> のマージ結果となるテーブルを返します。結果として返されるテーブルの行の型の構造は <code>columns</code> によって定義されますが、<code>columns</code> が指定されていない場合は、入力の型の論理和になります。
 

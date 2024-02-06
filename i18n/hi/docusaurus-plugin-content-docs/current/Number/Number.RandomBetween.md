@@ -5,8 +5,6 @@ title: Number.RandomBetween
 # Number.RandomBetween
 
 
-## Description
-
 दो संख्याओं के बीच की यादृच्छिक संख्या लौटाता है.
 
 
@@ -20,7 +18,7 @@ Number.RandomBetween(
 ```
 
 
-## Details
+## Remarks
 
 <code>bottom</code> और <code>top</code> के बीच की यादृच्छिक संख्या लौटाता है.
 

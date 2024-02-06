@@ -5,8 +5,6 @@ title: Date.Month
 # Date.Month
 
 
-## Description
-
 Returnerar månadskomponenten.
 
 
@@ -19,7 +17,7 @@ Date.Month(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar månadskomponenten för angivet <code>datetime</code>-värde, <code>dateTime</code>.
 

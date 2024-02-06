@@ -5,8 +5,6 @@ title: SapBusinessWarehouse.Cubes
 # SapBusinessWarehouse.Cubes
 
 
-## Description
-
 Retourneert de InfoCubes en query&#39;s in een SAP Business Warehouse-systeem, gegroepeerd op InfoArea.
 
 
@@ -23,7 +21,7 @@ SapBusinessWarehouse.Cubes(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tabel met InfoCubes en query's geretourneerd, gegroepeerd op InfoArea, uit een SAP Business Warehouse-exemplaar op server <code>server</code> met systeemnummer <code>systemNumberOrSystemId</code> en client-id <code>clientId</code>. U kunt een optionele recordparameter, <code>optionsOrLogonGroup</code>, opgeven om de volgende opties te bepalen:        
 

@@ -5,8 +5,6 @@ title: Value.Traits
 # Value.Traits
 
 
-## Description
-
 Bu işlev, yalnızca iç kullanıma yöneliktir.
 
 
@@ -19,7 +17,7 @@ Value.Traits(
 ```
 
 
-## Details
+## Remarks
 
 Bu işlev, yalnızca iç kullanıma yöneliktir.
 

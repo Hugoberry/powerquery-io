@@ -5,8 +5,6 @@ title: Lines.ToText
 # Lines.ToText
 
 
-## Description
-
 Konverterer en liste med tekst til en enkelt tekst.  Den angivne lineSeparator tilføjes på hver linje.  Hvis den ikke er angivet, bruges tegnene for vognretur og linjeskift.
 
 
@@ -20,7 +18,7 @@ Lines.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Konverterer en liste med tekst til en enkelt tekst.  Den angivne lineSeparator tilføjes på hver linje.  Hvis den ikke er angivet, bruges tegnene for vognretur og linjeskift.
 

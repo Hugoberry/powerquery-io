@@ -16,7 +16,7 @@ Cds.Entities(
 ```
 
 
-## Details
+## Remarks
 
 Hiermit stellen Sie eine Verbindung mit Ihrer Common Data Service-Instanz her (Dynamics 365 und PowerApps).
 

@@ -5,8 +5,6 @@ title: Text.ReplaceRange
 # Text.ReplaceRange
 
 
-## Description
-
 Tar bort ett teckenintervall och infogar ett nytt värde vid en angiven position.
 
 
@@ -22,7 +20,7 @@ Text.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar resultatet från borttagningen av ett antal tecken, <code>count</code>, från textvärdet <code>text</code> med början vid position <code>offset</code> och den efterföljande infogningen av textvärdet <code>newText</code> vid samma position i <code>text</code>.
 

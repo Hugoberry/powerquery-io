@@ -5,8 +5,6 @@ title: SapBusinessWarehouse.Cubes
 # SapBusinessWarehouse.Cubes
 
 
-## Description
-
 Restituisce gli InfoCube e le query raggruppati per InfoArea in un sistema SAP Business Warehouse.
 
 
@@ -23,7 +21,7 @@ SapBusinessWarehouse.Cubes(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una tabella di InfoCube e query raggruppati per InfoArea da un'istanza di SAP Business Warehouse nel server <code>server</code> con numero sistema <code>systemNumberOrSystemId</code> e ID client <code>clientId</code>. È possibile specificare un parametro di record facoltativo, <code>optionsOrLogonGroup</code>, per controllare le opzioni seguenti:        
 

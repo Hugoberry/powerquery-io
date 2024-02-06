@@ -5,8 +5,6 @@ title: Table.ToRows
 # Table.ToRows
 
 
-## Description
-
 根據資料表建立資料列值巢狀清單的清單。
 
 
@@ -19,7 +17,7 @@ Table.ToRows(
 ```
 
 
-## Details
+## Remarks
 
 根據資料表 <code>table</code> 建立巢狀清單的清單。每個清單項目都是包含資料列值的內部清單。
 

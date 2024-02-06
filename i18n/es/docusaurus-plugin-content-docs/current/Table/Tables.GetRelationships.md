@@ -5,8 +5,6 @@ title: Tables.GetRelationships
 # Tables.GetRelationships
 
 
-## Description
-
 Obtiene las relaciones entre un conjunto de tablas.
 
 
@@ -20,7 +18,7 @@ Tables.GetRelationships(
 ```
 
 
-## Details
+## Remarks
 
 Obtiene las relaciones entre un conjunto de tablas. Se presupone que el conjunto <code>tables</code> tiene una estructura similar a la de una tabla de navegación. La columna definida por <code>dataColumn</code> contiene las tablas de datos reales.
 

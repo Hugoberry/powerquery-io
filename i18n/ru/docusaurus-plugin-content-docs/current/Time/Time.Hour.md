@@ -5,8 +5,6 @@ title: Time.Hour
 # Time.Hour
 
 
-## Description
-
 Возвращает компонент часов.
 
 
@@ -19,7 +17,7 @@ Time.Hour(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает компонент часов заданного значения <code>time</code>, <code>datetime</code> или <code>datetimezone</code>, <code>dateTime</code>.
 

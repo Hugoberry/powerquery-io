@@ -5,8 +5,6 @@ title: Table.CombineColumns
 # Table.CombineColumns
 
 
-## Description
-
 指定された結合関数を使用して、指定された列を新しい列に結合します。
 
 
@@ -22,7 +20,7 @@ Table.CombineColumns(
 ```
 
 
-## Details
+## Remarks
 
 指定された結合関数を使用して、指定された列を新しい列に結合します。
 

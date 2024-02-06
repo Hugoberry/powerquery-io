@@ -5,8 +5,6 @@ title: Int32.From
 # Int32.From
 
 
-## Description
-
 Создает 32-разрядное целое число по заданному значению.
 
 
@@ -21,7 +19,7 @@ Int32.From(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает 32-разрядное целочисленное значение <code>number</code>, полученное из предоставленного значения <code>value</code>. Если данное <code>value</code> равно <code>NULL</code>, то <code>Int32.From</code> возвращает <code>NULL</code>. Если данное <code>value</code> представляет собой <code>number</code> в диапазоне 32-разрядных целых чисел и не имеет дробной части, то <code>value</code> и возвращается. При наличии дробной части число округляется в соответствии с указанным режимом. Режим округления по умолчанию — <code>RoundingMode.ToEven</code>. Если <code>value</code> имеет какой-либо другой тип, сначала выполняется преобразование в <code>number</code> с помощью <code>Number.FromText</code>. Доступные режимы округления см. в описании <code>Number.Round</code>. При необходимости можно также указать <code>culture</code> (например, "ru-RU").
 

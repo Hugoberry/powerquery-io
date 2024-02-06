@@ -5,8 +5,6 @@ title: Number.Combinations
 # Number.Combinations
 
 
-## Description
-
 Restituisce il numero di combinazioni univoche.
 
 
@@ -20,7 +18,7 @@ Number.Combinations(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il numero di combinazioni univoche da un elenco di elementi, <code>setSize</code>, con la dimensione di combinazione specificata <code>combinationSize</code>.<ul>    <li><code>setSize</code>: il numero degli elementi nell'elenco.</li>    <li><code>combinationSize</code>: il numero degli elementi in ogni combinazione.</li></ul>
 

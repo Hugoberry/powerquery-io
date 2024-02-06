@@ -5,8 +5,6 @@ title: Table.DemoteHeaders
 # Table.DemoteHeaders
 
 
-## Description
-
 ลดระดับส่วนหัวของคอลัมน์ลงเป็นแถวแรกของค่า
 
 
@@ -19,7 +17,7 @@ Table.DemoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 ลดระดับส่วนหัวของคอลัมน์ (เช่น ชื่อคอลัมน์) ลงเป็นแถวแรกของค่า ชื่อคอลัมน์เริ่มต้นได้แก่ "Column1", "Column2" เป็นต้น
 

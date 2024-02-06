@@ -5,8 +5,6 @@ title: Table.Pivot
 # Table.Pivot
 
 
-## Description
-
 Roterar data i attributkolumnen till en kolumnrubrik baserat på ett kolumnpar som representerar attribut-värde-par.
 
 
@@ -23,7 +21,7 @@ Table.Pivot(
 ```
 
 
-## Details
+## Remarks
 
 Roterar data i attributkolumnen till en kolumnrubrik baserat på ett kolumnpar som representerar attribut-värde-par.
 

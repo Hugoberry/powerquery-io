@@ -5,8 +5,6 @@ title: Binary.Compress
 # Binary.Compress
 
 
-## Description
-
 Comprime um valor binário usando o tipo de compressão indicado.
 
 
@@ -20,7 +18,7 @@ Binary.Compress(
 ```
 
 
-## Details
+## Remarks
 
 Comprime um valor binário usando o tipo de compressão indicado. O resultado desta chamada é uma cópia compactada da entrada. Os tipos de compactação incluem:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
 

@@ -5,8 +5,6 @@ title: List.MatchesAny
 # List.MatchesAny
 
 
-## Description
-
 Retourneert &#39;true&#39; als er door een willekeurige waarde wordt voldaan aan de voorwaardefunctie.
 
 
@@ -20,7 +18,7 @@ List.MatchesAny(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert <code>true</code> als er door een van de waarden uit de lijst <code>list</code> wordt voldaan aan de voorwaardefunctie, <code>condition</code>, of retourneert <code>false</code> als dat niet het geval is.
 

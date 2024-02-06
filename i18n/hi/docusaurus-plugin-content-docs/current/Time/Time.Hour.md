@@ -5,8 +5,6 @@ title: Time.Hour
 # Time.Hour
 
 
-## Description
-
 घंटा घटक लौटाता है.
 
 
@@ -19,7 +17,7 @@ Time.Hour(
 ```
 
 
-## Details
+## Remarks
 
 प्रदान किए गए <code>time</code>, <code>datetime</code>, या <code>datetimezone</code> मान का घंटा घटक लौटाता है, <code>dateTime</code>.
 

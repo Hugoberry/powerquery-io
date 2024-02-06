@@ -5,8 +5,6 @@ title: List.Alternate
 # List.Alternate
 
 
-## Description
-
 Retourneert een lijst die bestaat uit alle oneven intervalelementen in een lijst.
 
 
@@ -22,7 +20,7 @@ List.Alternate(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een lijst die bestaat uit alle oneven intervalelementen in een lijst. Wisselt af tussen het gebruiken en overslaan van waarden uit de lijst <code>list</code> afhankelijk van de parameters.    <ul>    <li><code>count</code>: specificeert het aantal waarden dat elke keer wordt overgeslagen.</li>    <li><code>repeatInterval</code>: een optioneel herhalingsinterval om aan te geven hoeveel waarden tussen de overgeslagen waarden worden toegevoegd.</li>    <li><code>offset</code>: een optieparameter voor intervallen om met het overslaan van waarden te beginnen bij het eerste interval.</li>    </ul>
 

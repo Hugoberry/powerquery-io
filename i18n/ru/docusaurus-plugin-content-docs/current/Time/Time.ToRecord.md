@@ -5,8 +5,6 @@ title: Time.ToRecord
 # Time.ToRecord
 
 
-## Description
-
 Возвращает запись, содержащую части значения Time.
 
 
@@ -19,7 +17,7 @@ Time.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает запись, содержащую части заданного значения времени, <code>time</code>. <ul>        <li><code>time</code>: значение <code>time</code>, для которого необходимо вычислить запись частей.</li>      </ul>
 

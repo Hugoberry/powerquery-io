@@ -5,8 +5,6 @@ title: IdentityProvider.Default
 # IdentityProvider.Default
 
 
-## Description
-
 Domyślny dostawca tożsamości dla bieżącego hosta.
 
 
@@ -19,7 +17,7 @@ IdentityProvider.Default(
 ```
 
 
-## Details
+## Remarks
 
 Domyślny dostawca tożsamości dla bieżącego hosta.
 

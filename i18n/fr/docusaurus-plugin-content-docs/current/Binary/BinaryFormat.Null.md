@@ -5,8 +5,6 @@ title: BinaryFormat.Null
 # BinaryFormat.Null
 
 
-## Description
-
 Format binaire qui lit zéro octets et retourne une valeur null.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Null(
 ```
 
 
-## Details
+## Remarks
 
 Format binaire qui lit zéro octets et retourne une valeur null.
 

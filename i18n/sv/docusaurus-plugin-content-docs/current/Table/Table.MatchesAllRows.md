@@ -5,8 +5,6 @@ title: Table.MatchesAllRows
 # Table.MatchesAllRows
 
 
-## Description
-
 Anger om alla raderna i tabellen uppfyller det angivna villkoret.
 
 
@@ -20,7 +18,7 @@ Table.MatchesAllRows(
 ```
 
 
-## Details
+## Remarks
 
 Anger om alla raderna i <code>table</code> matchar angivet <code>condition</code>. Returnerar <code>true</code> om alla raderna matchar. Annars returneras <code>false</code>.
 

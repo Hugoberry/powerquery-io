@@ -5,8 +5,6 @@ title: Record.Field
 # Record.Field
 
 
-## Description
-
 Gibt den Wert des angegebenen Felds in einem Datensatz zurück.
 
 
@@ -20,7 +18,7 @@ Record.Field(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Wert des angegebenen Elements vom Typ "<code>field</code>" in "<code>record</code>" zurück. Wird das Feld nicht gefunden, wird eine Ausnahme ausgelöst.
 

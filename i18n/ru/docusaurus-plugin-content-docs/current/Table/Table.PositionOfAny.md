@@ -5,8 +5,6 @@ title: Table.PositionOfAny
 # Table.PositionOfAny
 
 
-## Description
-
 Возвращает позиции любой из указанных строк в таблице.
 
 
@@ -22,7 +20,7 @@ Table.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает позиции строк из <code>table</code> от первого вхождения в списке <code>rows</code>. Возвращает значение –1, если вхождение не найдено.    <ul>    <li><code>table</code>: входная таблица.</li>       <li><code>rows</code>:  список строк в таблице для поиска позиций.</li>       <li><code>occurrence</code>: <i>[необязательно]</i> указывает, какие вхождения строки возвращать.</li>       <li><code>equationCriteria</code>: <i>[необязательно]</i> управляет сравнением строк таблицы.</li>    </ul>    
 

@@ -5,8 +5,6 @@ title: Type.TableRow
 # Type.TableRow
 
 
-## Description
-
 Devolve o tipo de linha do tipo de tabela.
 
 
@@ -19,7 +17,7 @@ Type.TableRow(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o tipo de linha do tipo de tabela especificado. O resultado será sempre um tipo de gravação.
 

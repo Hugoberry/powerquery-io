@@ -5,8 +5,6 @@ title: Cube.Transform
 # Cube.Transform
 
 
-## Description
-
 Past een lijst met kubusfuncties toe.
 
 
@@ -20,7 +18,7 @@ Cube.Transform(
 ```
 
 
-## Details
+## Remarks
 
 Past de lijst met kubusfuncties <code>transforms</code> op de <code>cube</code>.
 

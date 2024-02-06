@@ -5,8 +5,6 @@ title: Duration.TotalHours
 # Duration.TotalHours
 
 
-## Description
-
 -ส่งกลับชั่วโมงทั้งหมดที่ระยะเวลานี้ขยาย
 
 
@@ -19,7 +17,7 @@ Duration.TotalHours(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับชั่วโมงทั้งหมดที่ขยายโดย <code>duration</code>
 

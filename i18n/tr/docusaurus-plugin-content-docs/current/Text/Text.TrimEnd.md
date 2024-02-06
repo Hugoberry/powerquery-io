@@ -5,8 +5,6 @@ title: Text.TrimEnd
 # Text.TrimEnd
 
 
-## Description
-
 Tüm sonraki boşlukları kaldırır.
 
 
@@ -20,7 +18,7 @@ Text.TrimEnd(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> metin değerinden tüm sonraki boşlukları kaldırmanın sonucunu döndürür.
 

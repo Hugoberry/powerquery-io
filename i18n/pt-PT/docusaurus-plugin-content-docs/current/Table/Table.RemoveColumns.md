@@ -5,8 +5,6 @@ title: Table.RemoveColumns
 # Table.RemoveColumns
 
 
-## Description
-
 Remove as colunas especificadas.
 
 
@@ -21,7 +19,7 @@ Table.RemoveColumns(
 ```
 
 
-## Details
+## Remarks
 
 Remove a <code>columns</code> especificada do <code>table</code> fornecido.    Se a coluna especificada não existir, é gerado um erro a menos que o parâmetro opcional <code>missingField</code> especifique um comportamento alternativo (por ex.: <code>MissingField.UseNull</code> ou <code>MissingField.Ignore</code>).
 

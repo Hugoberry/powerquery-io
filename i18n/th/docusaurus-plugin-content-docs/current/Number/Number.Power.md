@@ -5,8 +5,6 @@ title: Number.Power
 # Number.Power
 
 
-## Description
-
 ยกกำลังตัวเลขด้วยตัวเลขที่ระบุ
 
 
@@ -20,7 +18,7 @@ Number.Power(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนผลลัพธ์ของการยกกำลัง <code>number</code> ด้วยเลข <code>power</code>    ถ้า <code>number</code> หรือ <code>power</code> เป็น null <code>ตัวเลข.Power</code> จะส่งคืนค่าเป็น null      <ul>        <li><code>number</code>: เลขฐาน</li>        <li><code>power</code>: เลขชี้กำลัง</li>      </ul>
 

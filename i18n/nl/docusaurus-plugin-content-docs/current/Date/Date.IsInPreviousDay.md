@@ -5,8 +5,6 @@ title: Date.IsInPreviousDay
 # Date.IsInPreviousDay
 
 
-## Description
-
 Hiermee wordt aangegeven of deze datum plaatsvindt gedurende de voorgaande dag volgens de huidige datum en tijd op het systeem. Houd er rekening mee dat deze functie onwaar retourneert als een waarde wordt doorgegeven die in de huidige dag valt.
 
 
@@ -19,7 +17,7 @@ Date.IsInPreviousDay(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt aangegeven of de opgegeven datetime-waarde <code>dateTime</code> plaatsvindt gedurende de voorgaande dag volgens de huidige datum en tijd op het systeem. Houd er rekening mee dat deze functie onwaar retourneert als een waarde wordt doorgegeven die in de huidige dag valt.      <ul>      <li><code>dateTime</code>: Een <code>date</code>-, <code>datetime</code>- of <code>datetimezone</code>-waarde die moet worden geëvalueerd.</li>      </ul>
 

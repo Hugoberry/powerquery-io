@@ -5,8 +5,6 @@ title: AzureEnterprise.Tables
 # AzureEnterprise.Tables
 
 
-## Description
-
 加入契約に関連付けられた Azure エンタープライズ REST API エンドポイントの URL を入力します
 
 
@@ -19,7 +17,7 @@ AzureEnterprise.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Azure エンタープライズ API で使用可能なレポートと月の一覧を返します
 

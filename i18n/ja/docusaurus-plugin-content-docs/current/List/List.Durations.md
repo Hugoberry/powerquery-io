@@ -5,8 +5,6 @@ title: List.Durations
 # List.Durations
 
 
-## Description
-
 指定された初期値、数、および増分期間値に基づいて、期間値のリストを生成します。
 
 
@@ -21,7 +19,7 @@ List.Durations(
 ```
 
 
-## Details
+## Remarks
 
 <code>start</code> で始まり、指定された <code>duration</code> <code>step</code> で増分される <code>count</code> 個の <code>duration</code> 値のリストを返します。
 

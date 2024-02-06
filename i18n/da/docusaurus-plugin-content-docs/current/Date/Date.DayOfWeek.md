@@ -5,8 +5,6 @@ title: Date.DayOfWeek
 # Date.DayOfWeek
 
 
-## Description
-
 Returnerer et tal (fra 0 til 6), som angiver ugedagen for den angivne værdi.
 
 
@@ -20,7 +18,7 @@ Date.DayOfWeek(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer et tal (fra 0 til 6), som angiver ugedagen for den angivne <code>dateTime</code>.  <ul>        <li><code>dateTime</code>: En <code>date</code>-, <code>datetime</code>-, eller <code>datetimezone</code>-værdi.</li>        <li><code>firstDayOfWeek</code>: En <code>Day</code>-værdi, som angiver den dag, der skal opfattes som den første dag i ugen. Tilladte værdier er Day.Sunday, Day.Monday, Day.Tuesday, Day.Wednesday, Day.Thursday, Day.Friday eller Day.Saturday. Hvis denne ikke angives, vil en kulturafhængig standard blive anvendt.</li>      </ul>
 

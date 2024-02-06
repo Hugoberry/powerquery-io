@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.EnvironmentContents
 # Dynamics365BusinessCentral.EnvironmentContents
 
 
-## Description
-
 Вход в вашу среду Dynamics 365 Business Central и в вашу организацию.
 
 
@@ -20,7 +18,7 @@ Dynamics365BusinessCentral.EnvironmentContents(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу с нужными данными Dynamics 365 Business Central. 
 

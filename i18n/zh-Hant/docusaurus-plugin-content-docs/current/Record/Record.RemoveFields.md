@@ -5,8 +5,6 @@ title: Record.RemoveFields
 # Record.RemoveFields
 
 
-## Description
-
 從輸入記錄移除指定的欄位。
 
 
@@ -21,7 +19,7 @@ Record.RemoveFields(
 ```
 
 
-## Details
+## Remarks
 
 傳回從輸入 <code>record</code> 中移除清單 <code>fields</code> 所指定之所有欄位的記錄。如果指定的欄位不存在，則擲回例外狀況。
 

@@ -5,8 +5,6 @@ title: Table.StopFolding
 # Table.StopFolding
 
 
-## Description
-
 ป้องกันไม่ให้มีการเรียกใช้การดําเนินการแบบดาวน์สตรีมกับแหล่งข้อมูลต้นฉบับ
 
 
@@ -19,7 +17,7 @@ Table.StopFolding(
 ```
 
 
-## Details
+## Remarks
 
 ป้องกันไม่ให้มีการเรียกใช้การดําเนินการแบบดาวน์สตรีมกับแหล่งข้อมูลต้นฉบับใน <code>table</code>
 

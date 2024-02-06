@@ -5,8 +5,6 @@ title: Text.Replace
 # Text.Replace
 
 
-## Description
-
 Reemplaza todas las coincidencias de la subcadena dada en el texto.
 
 
@@ -21,7 +19,7 @@ Text.Replace(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve el resultado de reemplazar las coincidencias del valor de texto <code>old</code> en el valor de texto <code>text</code> con el valor de texto <code>new</code>. Esta función distingue mayúsculas y minúsculas.
 

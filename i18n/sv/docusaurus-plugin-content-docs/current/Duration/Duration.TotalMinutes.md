@@ -5,8 +5,6 @@ title: Duration.TotalMinutes
 # Duration.TotalMinutes
 
 
-## Description
-
 Returnerar totalt antal minuter som varaktigheten omfattar.
 
 
@@ -19,7 +17,7 @@ Duration.TotalMinutes(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar det totala antalet minuter som omfattas av <code>duration</code>.
 

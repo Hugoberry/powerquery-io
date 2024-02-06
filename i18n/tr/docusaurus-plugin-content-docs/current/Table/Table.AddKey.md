@@ -5,8 +5,6 @@ title: Table.AddKey
 # Table.AddKey
 
 
-## Description
-
 Tabloya anahtar ekler.
 
 
@@ -21,7 +19,7 @@ Table.AddKey(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> öğesine bir anahtar ekler, burada <code>columns</code> anahtarı tanımlayan sütun adlarının listesidir ve <code>isPrimary</code>, anahtarın birincil olup olmadığını belirtir.
 

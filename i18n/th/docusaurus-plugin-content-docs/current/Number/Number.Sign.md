@@ -5,8 +5,6 @@ title: Number.Sign
 # Number.Sign
 
 
-## Description
-
 ส่งกลับ 1 ถ้าจำนวนเป็นบวก -1 ถ้าจำนวนเป็นลบ และ 0 ถ้าเป็นจำนวนศูนย์
 
 
@@ -19,7 +17,7 @@ Number.Sign(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับ 1 ถ้า <code>number</code> เป็นจำนวนบวก -1 ถ้าจำนวนเป็นลบ และ 0 ถ้าเป็นจำนวนศูนย์    ถ้า <code>number</code> เป็น null <code>Number.Sign</code> จะส่งกลับ null
 

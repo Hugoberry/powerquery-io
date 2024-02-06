@@ -5,8 +5,6 @@ title: Type.FunctionParameters
 # Type.FunctionParameters
 
 
-## Description
-
 Bir işlev türünün parametrelerinin adına ayarlanan alan değerleriyle ve bunların karşılık gelen türlerine ayarlanan değerleriyle bir kayıt döndürür.
 
 
@@ -19,7 +17,7 @@ Type.FunctionParameters(
 ```
 
 
-## Details
+## Remarks
 
 <code>type</code> parametrelerinin adına ayarlanan alan değerleriyle ve bunların karşılık gelen türlerine ayarlanan değerleriyle bir kayıt döndürür.
 

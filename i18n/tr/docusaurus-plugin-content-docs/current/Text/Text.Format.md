@@ -5,8 +5,6 @@ title: Text.Format
 # Text.Format
 
 
-## Description
-
 Biçim dizesinden veya bağımsız değişkenlerden biçimlendirilmiş metin döndürür.
 
 
@@ -21,7 +19,7 @@ Text.Format(
 ```
 
 
-## Details
+## Remarks
 
 <code>formatString</code> biçim dizesine listeden veya kayıttan <code>arguments</code> uygulanarak oluşturulan biçimlendirilmiş metni döndürür. Ayrıca, isteğe bağlı bir <code>culture</code> sağlanabilir (ör. "tr-TR").
 

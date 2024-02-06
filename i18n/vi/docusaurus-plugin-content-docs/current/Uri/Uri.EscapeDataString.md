@@ -5,8 +5,6 @@ title: Uri.EscapeDataString
 # Uri.EscapeDataString
 
 
-## Description
-
 Mã hóa các ký tự đặc biệt theo RFC 3986.
 
 
@@ -19,7 +17,7 @@ Uri.EscapeDataString(
 ```
 
 
-## Details
+## Remarks
 
 Mã hóa các ký tự đặc biệt trong đầu vào <code>data</code> theo các quy tắc RFC 3986.
 

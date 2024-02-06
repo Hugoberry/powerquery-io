@@ -5,8 +5,6 @@ title: Splitter.SplitTextByPositions
 # Splitter.SplitTextByPositions
 
 
-## Description
-
 傳回函數，這個函數會在每個指定的位置，將文字分割成文字清單。
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByPositions(
 ```
 
 
-## Details
+## Remarks
 
 傳回函數，這個函數會在每個指定的位置，將文字分割成文字清單。
 

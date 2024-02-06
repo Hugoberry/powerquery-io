@@ -5,8 +5,6 @@ title: Table.TransformColumns
 # Table.TransformColumns
 
 
-## Description
-
 แปลงค่าของคอลัมน์อย่างน้อยหนึ่งคอลัมน์
 
 
@@ -22,7 +20,7 @@ Table.TransformColumns(
 ```
 
 
-## Details
+## Remarks
 
 แปลง <code>table</code> โดยนําการดําเนินการแต่ละคอลัมน์ที่แสดงอยู่ใน <code>transformOperations</code> ไปใช้ (โดยที่รูปแบบคือ \{ column name, transformation } หรือ \{ column name, transformation, new column type })    ถ้ามีการระบุ <code>defaultTransformation</code> คอลัมน์นั้นจะถูกนําไปใช้กับคอลัมน์ทั้งหมดที่ไม่ได้แสดงอยู่ใน <code>transformOperations</code>     ถ้าไม่มีคอลัมน์ที่แสดงอยู่ใน <code>transformOperations</code> ข้อยกเว้นจะเกิดขึ้น เว้นแต่ว่าพารามิเตอร์ที่เลือกได้ <code>missingField</code> ระบุทางเลือก (ตัวอย่างเช่น <code>MissingField.UseNull</code> or <code>MissingField.Ignore</code>)
 

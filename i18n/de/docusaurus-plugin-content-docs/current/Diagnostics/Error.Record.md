@@ -5,8 +5,6 @@ title: Error.Record
 # Error.Record
 
 
-## Description
-
 Gibt auf der Grundlage der angegebenen Textwerte für Ursache, Nachricht und Details einen Fehlerdatensatz zurück.
 
 
@@ -22,7 +20,7 @@ Error.Record(
 ```
 
 
-## Details
+## Remarks
 
 Gibt auf der Grundlage der angegebenen Textwerte für Ursache, Nachricht und Details einen Fehlerdatensatz zurück.
 

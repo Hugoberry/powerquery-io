@@ -5,8 +5,6 @@ title: Character.FromNumber
 # Character.FromNumber
 
 
-## Description
-
 Chuyển đổi số thành ký tự văn bản.
 
 
@@ -19,7 +17,7 @@ Character.FromNumber(
 ```
 
 
-## Details
+## Remarks
 
 Trả về ký tự tương đương với số.<br />    <br />    <code>number</code> được cung cấp phải là điểm mã Unicode 21 bit.
 

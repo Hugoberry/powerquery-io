@@ -5,8 +5,6 @@ title: Value.NullableEquals
 # Value.NullableEquals
 
 
-## Description
-
 Returnerer, om de to værdier er ens.
 
 
@@ -21,7 +19,7 @@ Value.NullableEquals(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer null, hvis argumentet '<code>value1</code>' eller '<code>value2</code>' er null. Ellers returneres Value.Equals-ækvivalenten.
 

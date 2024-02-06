@@ -5,8 +5,6 @@ title: List.Repeat
 # List.Repeat
 
 
-## Description
-
 傳回清單，此清單是將原始清單重複計數 (count) 次。
 
 
@@ -20,7 +18,7 @@ List.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 傳回清單，此清單是將原始清單 <code>list</code> 重複 <code>count</code> 次。
 

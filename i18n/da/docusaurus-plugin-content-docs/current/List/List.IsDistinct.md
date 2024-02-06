@@ -5,8 +5,6 @@ title: List.IsDistinct
 # List.IsDistinct
 
 
-## Description
-
 Angiver, om listen indeholder dublerede værdier.
 
 
@@ -20,7 +18,7 @@ List.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en logisk værdi, der angiver, om der er dublerede værdier på listen <code>list</code>: <code>true</code>, hvis listen er entydig, og <code>false</code>, hvis der er dublerede værdier. 
 

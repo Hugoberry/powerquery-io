@@ -5,8 +5,6 @@ title: List.ReplaceMatchingItems
 # List.ReplaceMatchingItems
 
 
-## Description
-
 Applique chaque remplacement de \{ old, new }.
 
 
@@ -21,7 +19,7 @@ List.ReplaceMatchingItems(
 ```
 
 
-## Details
+## Remarks
 
 Effectue les remplacements spécifiés dans la liste <code>list</code>. Une opération de remplacement <code>replacements</code> comprend une liste de deux valeurs, l'ancienne et la nouvelle valeur, fournies dans une liste.    La valeur du critère d'équation facultatif, <code>equationCriteria</code>, peut être spécifiée pour contrôler le test d'égalité.
 

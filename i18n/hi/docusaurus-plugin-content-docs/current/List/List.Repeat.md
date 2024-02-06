@@ -5,8 +5,6 @@ title: List.Repeat
 # List.Repeat
 
 
-## Description
-
 एक ऐसी सूची लौटाता है जिसमें मूल सूची की गणना पुनरावृत्तियाँ होती हैं.
 
 
@@ -20,7 +18,7 @@ List.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 एक ऐसी सूची लौटाता है जिसमें मूल सूची, <code>list</code>, की <code>count</code> पुनरावृत्तियाँ होती हैं.
 

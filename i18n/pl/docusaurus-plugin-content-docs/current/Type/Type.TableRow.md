@@ -5,8 +5,6 @@ title: Type.TableRow
 # Type.TableRow
 
 
-## Description
-
 Zwraca typ wiersza dla typu tabeli typu.
 
 
@@ -19,7 +17,7 @@ Type.TableRow(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca typ wiersza dla określonego typu tabeli. Wynik będzie zawsze typem rekordu.
 

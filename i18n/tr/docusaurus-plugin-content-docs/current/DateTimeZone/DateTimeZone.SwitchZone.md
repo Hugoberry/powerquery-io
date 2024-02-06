@@ -5,8 +5,6 @@ title: DateTimeZone.SwitchZone
 # DateTimeZone.SwitchZone
 
 
-## Description
-
 Değerin saat dilimini değiştirir.
 
 
@@ -21,7 +19,7 @@ DateTimeZone.SwitchZone(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTimeZone</code> datetimezone değerindeki saat dilimi bilgilerini <code>timezoneHours</code> ve isteğe bağlı olarak <code>timezoneMinutes</code> tarafından sağlanan yeni saat dilimi bilgileri ile değiştirir.    <code>dateTimeZone</code> bir saat dilimi bileşenine sahip değilse, bir özel durum oluşur.
 

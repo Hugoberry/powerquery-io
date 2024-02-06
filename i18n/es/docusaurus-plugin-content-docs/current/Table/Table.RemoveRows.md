@@ -5,8 +5,6 @@ title: Table.RemoveRows
 # Table.RemoveRows
 
 
-## Description
-
 Quita el número especificado de filas.
 
 
@@ -21,7 +19,7 @@ Table.RemoveRows(
 ```
 
 
-## Details
+## Remarks
 
 Quita <code>count</code> de las filas a partir del principio de <code>table</code>, empezando en la <code>offset</code> especificada. Se usa el recuento predeterminado de 1 si el parámetro <code>count</code> no se proporciona. 
 

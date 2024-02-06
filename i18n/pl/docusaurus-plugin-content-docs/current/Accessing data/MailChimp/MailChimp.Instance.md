@@ -5,8 +5,6 @@ title: MailChimp.Instance
 # MailChimp.Instance
 
 
-## Description
-
 Zwraca nieprzetworzone wyniki odpowiedzi z punktu końcowego interfejsu API usługi MailChimp.
 
 
@@ -19,7 +17,7 @@ MailChimp.Instance(
 ```
 
 
-## Details
+## Remarks
 
 Wywołuje interfejs API usługi MailChimp i zwraca nieprzetworzoną odpowiedź.
 

@@ -5,8 +5,6 @@ title: DateTimeZone.FromFileTime
 # DateTimeZone.FromFileTime
 
 
-## Description
-
 Tworzy wartość typu datetimezone na podstawie 64-bitowej liczby typu long.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.FromFileTime(
 ```
 
 
-## Details
+## Remarks
 
 Tworzy wartość typu <code>datetimezone</code> na podstawie wartości <code>fileTime</code> i konwertuje ją na lokalną strefę czasową. Wartość filetime to wartość godziny pliku systemu Windows odpowiadająca liczbie 100-nanosekundowych interwałów, które upłynęły od godz. 00:00 w dniu 1 stycznia 1601 r. uniwersalnego czasu koordynowanego (UTC).    
 

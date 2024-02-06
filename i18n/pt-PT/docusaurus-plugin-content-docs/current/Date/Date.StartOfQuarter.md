@@ -5,8 +5,6 @@ title: Date.StartOfQuarter
 # Date.StartOfQuarter
 
 
-## Description
-
 Devolve o início do trimestre.
 
 
@@ -19,7 +17,7 @@ Date.StartOfQuarter(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o início do trimestre que contém <code>dateTime</code>.      <code>dateTime</code> tem de ser um valor <code>date</code>, <code>datetime</code> ou <code>datetimezone</code>.
 

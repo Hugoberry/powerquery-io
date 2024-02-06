@@ -5,8 +5,6 @@ title: Number.Permutations
 # Number.Permutations
 
 
-## Description
-
 Returnerar antalet permutationer.
 
 
@@ -20,7 +18,7 @@ Number.Permutations(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar antalet permutationer som kan genereras från ett antal objekt, <code>setSize</code>, med en angiven permutationsstorlek, <code>permutationSize</code>.
 

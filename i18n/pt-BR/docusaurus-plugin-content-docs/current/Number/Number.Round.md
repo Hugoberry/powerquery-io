@@ -5,8 +5,6 @@ title: Number.Round
 # Number.Round
 
 
-## Description
-
 Retorna o número arredondado. O número de dígitos e o modo de arredondamento podem ser especificados.
 
 
@@ -21,7 +19,7 @@ Number.Round(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o resultado do arredondamento <code>number</code> até o número mais próximo. Se <code>number</code> for nulo, <code>Number.Round</code> retornará nulo.<br />      <br />      Por padrão, <code>number</code> é arredondado para o número inteiro mais próximo e os empates são quebrados arredondando para o número par mais próximo (usando <code>RoundingMode.ToEven</code>, também conhecido como "arredondamento bancário").<br />      <br />      No entanto, esses padrões podem ser substituídos pelos parâmetros opcionais a seguir.      <ul>        <li><code>digits</code>: faz com que <code>number</code> seja arredondado para o número de dígitos decimais especificado.</li>        <li><code>roundingMode</code>: substitui o comportamento de desempate padrão quando <code>number</code> está no ponto médio entre dois valores arredondados potenciais      (confira <code>RoundingMode.Type</code> para possíveis valores).</li>      </ul>
 

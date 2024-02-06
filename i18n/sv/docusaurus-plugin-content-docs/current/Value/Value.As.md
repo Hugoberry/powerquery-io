@@ -5,8 +5,6 @@ title: Value.As
 # Value.As
 
 
-## Description
-
 Returnerar värdet om det är kompatibelt med den angivna typen.
 
 
@@ -20,7 +18,7 @@ Value.As(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar värdet om det är kompatibelt med den angivna typen. Detta motsvarar operatorn "som" i M, med undantaget att den kan acceptera referenser för identifieringstyp som Number.Type.
 

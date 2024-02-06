@@ -5,8 +5,6 @@ title: Text.At
 # Text.At
 
 
-## Description
-
 Retourneert het teken op de opgegeven positie.
 
 
@@ -20,7 +18,7 @@ Text.At(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het teken in de tekstwaarde <code>text</code> op positie <code>index</code>. Het eerste teken in de tekst staat op positie 0.
 

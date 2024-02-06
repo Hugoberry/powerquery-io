@@ -5,8 +5,6 @@ title: Number.Exp
 # Number.Exp
 
 
-## Description
-
 Upphöjer e med angivet tal.
 
 
@@ -19,7 +17,7 @@ Number.Exp(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar resultatet från att e upphöjs till <code>number</code> (exponentialfunktion).      <ul>        <li><code>number</code>: Ett <code>number</code> som exponentialfunktionen ska beräknas från. Om <code>number</code> är null returnerar <code>Number.Exp</code> null. </li>      </ul>
 

@@ -5,8 +5,6 @@ title: Text.TrimStart
 # Text.TrimStart
 
 
-## Description
-
 Verwijdert alle voorloopspaties.
 
 
@@ -20,7 +18,7 @@ Text.TrimStart(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het resultaat van het verwijderen van alle voorloopspaties uit de tekstwaarde <code>text</code>.
 

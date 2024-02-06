@@ -5,8 +5,6 @@ title: Record.TransformFields
 # Record.TransformFields
 
 
-## Description
-
 Gibt einen Datensatz nach Anwendung der angegebenen Transformationen zurück.
 
 
@@ -21,7 +19,7 @@ Record.TransformFields(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen Datensatz zurück, nachdem die in der Liste "<code>transformOperations</code>" angegebenen Transformationen auf "<code>record</code>" angewendet wurden.    Mehrere Felder können gleichzeitig transformiert werden.      <div>Wird nur ein einzelnes Feld transformiert, wird für "<code>transformOperations</code>" eine Liste mit zwei Elementen erwartet. Das erste Element in "<code>transformOperations</code>" gibt einen Feldnamen an. Das zweite Element in "<code>transformOperations</code>" gibt die gewünschte Transformationsfunktion an. Beispiel: <code>\{"Quantity", Number.FromText}</code></div>      <div>Werden mehrere Felder transformiert, wird für "<code>transformOperations</code>" eine Liste mit Listen erwartet, wobei es sich bei den enthaltenen Listen jeweils um ein Paar aus Feldname und Transformationsvorgang handeln muss. Beispiel: <code>\{\{"Quantity",Number.FromText},\{"UnitPrice", Number.FromText}}</code></div>
 

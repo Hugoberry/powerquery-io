@@ -5,8 +5,6 @@ title: List.RemoveLastN
 # List.RemoveLastN
 
 
-## Description
-
 Zwraca listę, z której usunięto określoną liczbę elementów znajdujących się na końcu listy.
 
 
@@ -20,7 +18,7 @@ List.RemoveLastN(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca listę, z której usunięto ostatnich <code>countOrCondition</code> elementów znajdujących się na końcu listy <code>list</code>. Jeśli lista <code>list</code> zawiera mniej elementów niż <code>countOrCondition</code>, zwracana jest pusta lista. <ul> <li>Jeśli jest określona liczba, zostanie usuniętych maksymalnie tyle elementów, ile wynosi ta liczba. </li> <li>Jeśli jest określony warunek, zwracana lista kończy się pierwszym elementem od końca listy <code>list</code>, który spełnia kryteria. Gdy zostanie znaleziony element, który nie spełnia warunku, nie będą analizowane dalsze elementy. </li> <li>Jeśli ten parametr ma wartość null, usuwany jest tylko jeden element. </li> </ul>
 

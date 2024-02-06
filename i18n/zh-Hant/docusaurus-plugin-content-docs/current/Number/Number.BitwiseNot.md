@@ -5,8 +5,6 @@ title: Number.BitwiseNot
 # Number.BitwiseNot
 
 
-## Description
-
 傳回一個位元組，它的每個位元都是輸入的相反。
 
 
@@ -19,7 +17,7 @@ Number.BitwiseNot(
 ```
 
 
-## Details
+## Remarks
 
 傳回對 <code>number</code> 執行位元 "Not" 運算的結果。
 

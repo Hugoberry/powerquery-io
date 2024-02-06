@@ -5,8 +5,6 @@ title: Table.ToRecords
 # Table.ToRecords
 
 
-## Description
-
 Converte uma tabela a uma lista de registros.
 
 
@@ -19,7 +17,7 @@ Table.ToRecords(
 ```
 
 
-## Details
+## Remarks
 
 Converte uma tabela, <code>table</code>, a uma lista de registros.
 

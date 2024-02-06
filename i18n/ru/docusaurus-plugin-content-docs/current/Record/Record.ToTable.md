@@ -5,8 +5,6 @@ title: Record.ToTable
 # Record.ToTable
 
 
-## Description
-
 Возвращает таблицу, где каждая строка представляет имя поля и значение входной записи.
 
 
@@ -19,7 +17,7 @@ Record.ToTable(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу, содержащую столбцы <code>Name</code> и <code>Value</code> со строкой для каждого поля в <code>record</code>.
 

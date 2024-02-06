@@ -5,8 +5,6 @@ title: Date.StartOfQuarter
 # Date.StartOfQuarter
 
 
-## Description
-
 Trả về thời gian đầu quý.
 
 
@@ -19,7 +17,7 @@ Date.StartOfQuarter(
 ```
 
 
-## Details
+## Remarks
 
 Trả về thời gian đầu quý chứa <code>dateTime</code>.    <code>dateTime</code> phải là giá trị <code>date</code>, <code>datetime</code> hoặc <code>datetimezone</code>.
 

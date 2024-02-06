@@ -5,8 +5,6 @@ title: DateTimeZone.SwitchZone
 # DateTimeZone.SwitchZone
 
 
-## Description
-
 Modifica il fuso orario del valore.
 
 
@@ -21,7 +19,7 @@ DateTimeZone.SwitchZone(
 ```
 
 
-## Details
+## Remarks
 
 Modifica le informazioni del fuso orario nel valore <code>dateTimeZone</code> di datetimezone impostando le nuove informazioni del fuso orario specificate da <code>timezoneHours</code> e facoltativamente <code>timezoneMinutes</code>.    Se <code>dateTimeZone</code> non è un componente del fuso orario, viene generata un'eccezione.
 

@@ -5,8 +5,6 @@ title: Uri.Combine
 # Uri.Combine
 
 
-## Description
-
 Devolve um URI absoluto que é a combinação do URI base e do URI relativo de entrada.
 
 
@@ -20,7 +18,7 @@ Uri.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um URI absoluto que é a combinação do <code>baseUri</code> e <code>relativeUri</code> de entrada.
 

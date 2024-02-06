@@ -5,8 +5,6 @@ title: Web.BrowserContents
 # Web.BrowserContents
 
 
-## Description
-
 Returnerer HTML-koden for den angivne URL-adresse, sådan som den vises i en webbrowser.
 
 
@@ -20,7 +18,7 @@ Web.BrowserContents(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer HTML-koden for den angivne <code>url</code>, som vist af en webbrowser. Et valgfrit optagelsesparameter, <code>options</code>, kan angives for at vælge yderligere egenskaber. Posten kan indeholde følgende felter:      <ul>        <li><code>ApiKeyName</code>: Hvis målwebstedet har et begreb om en API-nøgle, kan denne parameter bruges til at angive navnet (ikke værdien) på nøgleparameteren, der skal bruges i URL-adressen. Den faktiske nøgleværdi angives i legitimationsoplysningerne.</li>     <li><code>WaitFor</code>: angiver en betingelse, der skal ventes på, før der downloades HTML, udover at der ventes på, at siden for at indlæse (hvilket altid sker). Kan være en post, der indeholder Timeout- og/eller Selector-felter. Hvis der kun er angivet en Timeout, venter funktionen det tidsrum, der er angivet, før der downloades HTML. Hvis der både er angivet en Selector og Timeout, og timeouten forløber, før der findes en Selector på siden, udløses der en fejl. Hvis der er angivet en Selector uden Timeout, anvendes en standard Timeout på 30 sekunder.</li>      </ul>    
 

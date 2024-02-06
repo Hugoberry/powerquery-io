@@ -5,8 +5,6 @@ title: Table.PositionOf
 # Table.PositionOf
 
 
-## Description
-
 Devuelve la posición o las posiciones de la fila en la tabla.
 
 
@@ -22,7 +20,7 @@ Table.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve la posición de la fila de la primera repetición de <code>row</code> en la <code>table</code> especificada. Devuelve -1 si no se encuentra ninguna repetición.    <ul>       <li><code>table</code>: la tabla de entrada.</li>       <li><code>row</code>: la fila de la tabla en la que buscar las posiciones.</li>       <li><code>occurrence</code>: <i>[opcional]</i> especifica las repeticiones de la fila que se devolverán.</li>       <li><code>equationCriteria</code>: <i>[opcional]</i> controla la comparación entre las filas de la tabla.</li>    </ul>    
 

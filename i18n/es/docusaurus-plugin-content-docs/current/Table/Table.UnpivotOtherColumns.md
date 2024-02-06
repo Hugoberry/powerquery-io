@@ -5,8 +5,6 @@ title: Table.UnpivotOtherColumns
 # Table.UnpivotOtherColumns
 
 
-## Description
-
 Traduce todas las columnas distintas de un conjunto especificado en pares de atributo-valor.
 
 
@@ -22,7 +20,7 @@ Table.UnpivotOtherColumns(
 ```
 
 
-## Details
+## Remarks
 
 Traduce todas las columnas distintas de un conjunto especificado en pares de atributo-valor, combinados con el resto de los valores de cada fila.
 

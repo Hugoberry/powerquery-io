@@ -5,8 +5,6 @@ title: MailChimp.TablesV2
 # MailChimp.TablesV2
 
 
-## Description
-
 Возвращает таблицу с ключевыми данными MailChimp.
 
 
@@ -19,7 +17,7 @@ MailChimp.TablesV2(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу с ключевыми данными MailChimp.
 

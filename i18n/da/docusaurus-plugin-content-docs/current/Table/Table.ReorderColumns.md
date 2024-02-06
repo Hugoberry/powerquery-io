@@ -5,8 +5,6 @@ title: Table.ReorderColumns
 # Table.ReorderColumns
 
 
-## Description
-
 Returnerer en tabel med kolonnerne i den angivne rækkefølge.
 
 
@@ -21,7 +19,7 @@ Table.ReorderColumns(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel fra inputtet <code>table</code> med kolonnerne i den rækkefølge, der er angivet af <code>columnOrder</code>. Rækkefølgen ændres ikke for kolonner, der ikke er angivet på listen.     Hvis kolonnen ikke findes, udløses der en undtagelse, medmindre den valgfrie parameter <code>missingField</code> angiver et alternativ (f.eks. <code>MissingField.UseNull</code> eller <code>MissingField.Ignore</code>).
 

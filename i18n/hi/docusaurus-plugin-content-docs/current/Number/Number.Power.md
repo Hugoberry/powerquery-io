@@ -5,8 +5,6 @@ title: Number.Power
 # Number.Power
 
 
-## Description
-
 किसी संख्या को दी गई घात तक बढ़ाता है.
 
 
@@ -20,7 +18,7 @@ Number.Power(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> को <code>power</code> की घात तक बढ़ाने का परिणाम लौटाता है.    यदि <code>number</code> या <code>power</code> नल हैं, तो <code>Number.Power</code> नल लौटाता है.      <ul>        <li><code>number</code>: मूल.</li>        <li><code>power</code>: घातांक.</li>      </ul>
 

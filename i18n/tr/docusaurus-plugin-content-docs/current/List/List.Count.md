@@ -5,8 +5,6 @@ title: List.Count
 # List.Count
 
 
-## Description
-
 Listedeki öğe sayısını döndürür.
 
 
@@ -19,7 +17,7 @@ List.Count(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesindeki öğe sayısını döndürür.
 

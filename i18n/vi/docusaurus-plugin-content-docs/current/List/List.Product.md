@@ -5,8 +5,6 @@ title: List.Product
 # List.Product
 
 
-## Description
-
 Trả về tích của các số trong danh sách.
 
 
@@ -20,7 +18,7 @@ List.Product(
 ```
 
 
-## Details
+## Remarks
 
 Trả về tích của các số không rỗng trong danh sách <code>numbersList</code>. Trả về giá trị rỗng nếu không có giá trị nào trong danh sách là giá trị không rỗng.
 

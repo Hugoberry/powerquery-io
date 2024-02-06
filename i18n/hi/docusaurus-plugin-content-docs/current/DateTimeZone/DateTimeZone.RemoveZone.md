@@ -5,8 +5,6 @@ title: DateTimeZone.RemoveZone
 # DateTimeZone.RemoveZone
 
 
-## Description
-
 समय क्षेत्र जानकारी को दिए गए datetimezone मान से निकाल देता है.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.RemoveZone(
 ```
 
 
-## Details
+## Remarks
 
 समय क्षेत्र जानकारी को निकालकर <code>dateTimeZone</code> से #datetime मान लौटाता है.
 

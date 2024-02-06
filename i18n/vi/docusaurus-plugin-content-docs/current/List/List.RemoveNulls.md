@@ -5,8 +5,6 @@ title: List.RemoveNulls
 # List.RemoveNulls
 
 
-## Description
-
 Loại bỏ tất cả giá trị &#34;rỗng&#34; khỏi danh sách được chỉ định.
 
 
@@ -19,7 +17,7 @@ List.RemoveNulls(
 ```
 
 
-## Details
+## Remarks
 
 Loại bỏ tất cả những lần xuất hiện của giá trị "rỗng" trong <code>list</code>. Nếu không có giá trị 'rỗng' nào trong danh sách thì danh sách gốc được trả về.
 

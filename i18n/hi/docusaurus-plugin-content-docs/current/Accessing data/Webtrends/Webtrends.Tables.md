@@ -5,8 +5,6 @@ title: Webtrends.Tables
 # Webtrends.Tables
 
 
-## Description
-
 अपने Webtrends खाते से संबद्ध प्रोफ़ाइल ID दर्ज करें.
 
 
@@ -21,7 +19,7 @@ Webtrends.Tables(
 ```
 
 
-## Details
+## Remarks
 
 प्रासंगिक Webtrends डेटा वाली एक तालिका लौटाता है.
 

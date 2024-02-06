@@ -5,8 +5,6 @@ title: Type.AddTableKey
 # Type.AddTableKey
 
 
-## Description
-
 เพิ่มคีย์ลงในชนิดตารางที่กำหนด
 
 
@@ -21,7 +19,7 @@ Type.AddTableKey(
 ```
 
 
-## Details
+## Remarks
 
 เพิ่มคีย์ลงในชนิดตารางที่กำหนด
 

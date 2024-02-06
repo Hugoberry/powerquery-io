@@ -5,8 +5,6 @@ title: List.Numbers
 # List.Numbers
 
 
-## Description
-
 给定初始值、计数和可选的增量值来返回数的列表。
 
 
@@ -21,7 +19,7 @@ List.Numbers(
 ```
 
 
-## Details
+## Remarks
 
 给定初始值、计数和可选的增量值来返回数的列表。默认增量值为 1。<ul>   <li><code>start</code>: 列表中的初始值。</li>   <li><code>count</code>: 要创建的值数。</li>   <li><code>increment</code>: <i>[可选]</i> 要按其递增的值。如果省略，则按 1 递增值。</li></ul>
 

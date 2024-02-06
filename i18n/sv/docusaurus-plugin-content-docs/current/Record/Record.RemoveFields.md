@@ -5,8 +5,6 @@ title: Record.RemoveFields
 # Record.RemoveFields
 
 
-## Description
-
 Tar bort det eller de angivna fälten från indataposten.
 
 
@@ -21,7 +19,7 @@ Record.RemoveFields(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en post som tar bort alla fält som anges i listan <code>fields</code> från indataposten <code>record</code>. Om det angivna fältet inte finns genereras ett undantag.
 

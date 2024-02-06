@@ -5,8 +5,6 @@ title: Value.As
 # Value.As
 
 
-## Description
-
 Returnerer værdien, hvis den er kompatibel med den angivne type.
 
 
@@ -20,7 +18,7 @@ Value.As(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer værdien, hvis den er kompatibel med den angivne type. Dette svarer til operatoren "as" i M med undtagelse af, at det kan acceptere referencer for identifikator-type, f. eks. Number.Type.
 

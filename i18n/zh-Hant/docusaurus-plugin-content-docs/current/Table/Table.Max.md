@@ -5,8 +5,6 @@ title: Table.Max
 # Table.Max
 
 
-## Description
-
 使用指定的準則傳回最大的資料列或預設值。
 
 
@@ -21,7 +19,7 @@ Table.Max(
 ```
 
 
-## Details
+## Remarks
 
 指定 <code>comparisonCriteria</code> 之後，傳回 <code>table</code> 中最大的資料列。如果資料表是空的，就會傳回選擇性 <code>default</code> 值。
 

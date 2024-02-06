@@ -5,8 +5,6 @@ title: List.Product
 # List.Product
 
 
-## Description
-
 Zwraca iloczyn liczb z listy.
 
 
@@ -20,7 +18,7 @@ List.Product(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca iloczyn liczb innych niż null z listy <code>numbersList</code>. Zwraca wartość null, jeśli na liście nie znajdują się wartości inne niż null.
 

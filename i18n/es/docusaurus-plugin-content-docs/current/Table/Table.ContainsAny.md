@@ -5,8 +5,6 @@ title: Table.ContainsAny
 # Table.ContainsAny
 
 
-## Description
-
 Indica si alguno de los registros especificados aparece como filas en la tabla.
 
 
@@ -21,7 +19,7 @@ Table.ContainsAny(
 ```
 
 
-## Details
+## Remarks
 
 Indica si alguno de los registros especificados en la lista de registros <code>rows</code> aparece como filas en <code>table</code>.    Se puede especificar un parámetro <code>equationCriteria</code> opcional para controlar la comparación entre las filas de la tabla.
 

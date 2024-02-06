@@ -5,8 +5,6 @@ title: Expression.Evaluate
 # Expression.Evaluate
 
 
-## Description
-
 Gibt das Ergebnis der Auswertung eines M-Ausdrucks zurück.
 
 
@@ -20,7 +18,7 @@ Expression.Evaluate(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das Ergebnis der Auswertung eines M-Ausdrucks "<code>document</code>" mit den verfügbaren Bezeichnern zurück, auf die durch <code>environment</code> verwiesen werden kann.
 

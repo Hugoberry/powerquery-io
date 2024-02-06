@@ -5,8 +5,6 @@ title: DateTime.Date
 # DateTime.Date
 
 
-## Description
-
 Restituisce il componente data del valore date, datetime o datetimezone specificato.
 
 
@@ -19,7 +17,7 @@ DateTime.Date(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il componente data di <code>dateTime</code>, il valore <code>date</code>, <code>datetime</code> o <code>datetimezone</code> specificato.
 

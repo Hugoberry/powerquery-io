@@ -5,8 +5,6 @@ title: Twilio.Tables
 # Twilio.Tables
 
 
-## Description
-
 Voer het aantal maanden aan historische Twilio-gegevens in dat u wilt ontvangen.
 
 
@@ -19,7 +17,7 @@ Twilio.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tabel met relevante Twilio-gegevens geretourneerd.
 

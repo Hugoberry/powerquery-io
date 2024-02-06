@@ -5,8 +5,6 @@ title: List.Random
 # List.Random
 
 
-## Description
-
 Zwraca listę liczb losowych.
 
 
@@ -20,7 +18,7 @@ List.Random(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca listę losowych liczb z zakresu od 0 do 1, używając liczby wartości do wygenerowania opcjonalnej wartości inicjatora.<ul>   <li><code>count</code>: liczba losowych wartości do wygenerowania.</li>   <li><code>seed</code>: <i>[Parametr opcjonalny]</i> Wartość liczbowa używana w celu zainicjowania generatora liczb losowych. Jeśli ten parametr zostanie pominięty, przy każdym wywołaniu tej funkcji będzie generowana unikatowa lista losowych liczb. Jeśli zostanie określona wartość liczbowa inicjatora, przy każdym wywołaniu tej funkcji będzie generowana taka sama lista liczb losowych.</li></ul>
 

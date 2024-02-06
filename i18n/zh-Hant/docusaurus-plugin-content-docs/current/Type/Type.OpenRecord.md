@@ -5,8 +5,6 @@ title: Type.OpenRecord
 # Type.OpenRecord
 
 
-## Description
-
 傳回指定記錄類型的開放版本 (如果已經是開放版本，則要是相同類型)。
 
 
@@ -19,7 +17,7 @@ Type.OpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 傳回指定 <code>record</code> <code>type</code> 的開放版本 (如果已經是開放版本，則要是相同類型)。
 

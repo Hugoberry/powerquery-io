@@ -5,8 +5,6 @@ title: Table.ToColumns
 # Table.ToColumns
 
 
-## Description
-
 Crea un elenco di elenchi annidati di valori di colonna da una tabella.
 
 
@@ -19,7 +17,7 @@ Table.ToColumns(
 ```
 
 
-## Details
+## Remarks
 
 Crea un elenco di elenchi annidati dalla tabella <code>table</code>.  Ogni voce di elenco è un elenco interno contenente i valori di colonna.
 

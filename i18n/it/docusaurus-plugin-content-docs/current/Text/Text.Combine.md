@@ -5,8 +5,6 @@ title: Text.Combine
 # Text.Combine
 
 
-## Description
-
 Concatena un elenco di valori di testo in un unico valore di testo.
 
 
@@ -20,7 +18,7 @@ Text.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il risultato della combinazione dell'elenco di valori di testo, <code>texts</code>, in un singolo valore di testo. Tutti i valori <code>null</code> presenti in <code>texts</code> vengono ignorati.    È possibile specificare un <code>separator</code> facoltativo utilizzato nel testo combinato finale.
 

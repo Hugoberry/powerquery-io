@@ -5,8 +5,6 @@ title: List.LastN
 # List.LastN
 
 
-## Description
-
 Listedeki son değeri döndürür.  Döndürülecek değer sayısı veya belirleyici bir şart isteğe bağlı olarak belirtilebilir.
 
 
@@ -20,7 +18,7 @@ List.LastN(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesindeki son öğeyi döndürür. Liste boşsa bir özel durum oluşur. Bu işlev birden çok öğe veya filtre öğesini desteklemek üzere isteğe bağlı bir <code>countOrCondition</code> parametresini alır. <code>countOrCondition</code> üç yolla belirtilebilir: <ul>  <li>Sayı belirtilirse, bu sayı kadar öğe döndürülür. </li>  <li>Koşul belirtilirse, listenin sonundan başlayarak bu koşulu sağlayan tüm öğeler döndürülür. Tüm öğeler koşulu sağlamadığında, başka öğe değerlendirilmez. </li>  <li>Parametre null ise, listedeki son öğe döndürülür.</li> </ul>
 

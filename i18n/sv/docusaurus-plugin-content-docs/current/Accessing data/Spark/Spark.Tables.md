@@ -5,8 +5,6 @@ title: Spark.Tables
 # Spark.Tables
 
 
-## Description
-
 Returnerar en tabell som listar tabellerna för det angivna Spark-klustret.
 
 
@@ -21,7 +19,7 @@ Spark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell som listar tabellerna i Spark-klustret <code>host</code> med <code>protocol</code>.  Giltiga protokoll är:SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
 

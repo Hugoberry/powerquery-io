@@ -5,8 +5,6 @@ title: Table.TransformRows
 # Table.TransformRows
 
 
-## Description
-
 使用指定的转换函数转换表的行。
 
 
@@ -20,7 +18,7 @@ Table.TransformRows(
 ```
 
 
-## Details
+## Remarks
 
 通过将 <code>transform</code> 操作应用于 <code>table</code> 中的每一行来创建<code>列表</code>。
 

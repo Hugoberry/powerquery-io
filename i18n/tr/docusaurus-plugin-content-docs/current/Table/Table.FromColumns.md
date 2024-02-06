@@ -5,8 +5,6 @@ title: Table.FromColumns
 # Table.FromColumns
 
 
-## Description
-
 Bir sütun listesinden ve belirtilen değerlerden tablo oluşturur.
 
 
@@ -20,7 +18,7 @@ Table.FromColumns(
 ```
 
 
-## Details
+## Remarks
 
 <code>lists</code> listesinden <code>columns</code> türünde, sütun adlarını ve değerlerini içeren iç içe yerleştirilmiş listeleri bulunduran bir tablo oluşturur.    Bazı sütunlarda diğerlerinden daha fazla değer varsa, eksik değerler sütunlar null atanabilir ise varsayılan değer olan 'null' ile doldurulur.
 

@@ -5,8 +5,6 @@ title: File.Contents
 # File.Contents
 
 
-## Description
-
 ส่งกลับเนื้อหาของแฟ้มที่ระบุเป็นไบนารี
 
 
@@ -20,7 +18,7 @@ File.Contents(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับเนื้อหาของไฟล์ <code>path</code> เป็นไบนารี พารามิเตอร์ <code>options</code> มีไว้สําหรับใช้ภายในเท่านั้นในขณะนี้
 

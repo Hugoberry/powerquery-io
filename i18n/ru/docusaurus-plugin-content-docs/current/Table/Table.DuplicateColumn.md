@@ -5,8 +5,6 @@ title: Table.DuplicateColumn
 # Table.DuplicateColumn
 
 
-## Description
-
 Повторяет столбец с указанным именем. Значения и тип копируются из исходного столбца.
 
 
@@ -22,7 +20,7 @@ Table.DuplicateColumn(
 ```
 
 
-## Details
+## Remarks
 
 Повторять столбец с именем <code>columnName</code> в таблице <code>table</code>. Значения и тип данных для столбца <code>newColumnName</code> копируются из столбца <code>columnName</code>.
 

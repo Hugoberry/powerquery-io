@@ -5,8 +5,6 @@ title: Table.FromRecords
 # Table.FromRecords
 
 
-## Description
-
 Bir kayıt listesini tabloya dönüştürür.
 
 
@@ -21,7 +19,7 @@ Table.FromRecords(
 ```
 
 
-## Details
+## Remarks
 
 <code>records</code> kayıt listesini tabloya dönüştürür.
 

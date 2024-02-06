@@ -5,8 +5,6 @@ title: BinaryFormat.List
 # BinaryFormat.List
 
 
-## Description
-
 Retorna um formato binário que lê uma sequência de itens e retorna uma lista.
 
 
@@ -20,7 +18,7 @@ BinaryFormat.List(
 ```
 
 
-## Details
+## Remarks
 
 Retorna um formato binário que lê uma sequência de itens e retorna uma <code>lista</code>.  O <code>binaryFormat</code> parâmetro especifica o formato binário de cada item.  Há três formas de determinar o número de itens lidos: <ul><li>Se o <code>countOrCondition</code> não for especificado, o formato binário será lido até que não haja mais itens.</li><li>Se o <code>countOrCondition</code> for um número, o formato binário lerá muitos itens.</li><li>Se o <code>countOrCondition</code> for uma função, essa função será invocada para cada item lido.  A função retorna verdadeiro para continuar e falso para interromper a leitura de itens.  O item final é incluído na lista.</li><li>Se o <code>countOrCondition</code> for um formato binário, a contagem de itens deverá preceder a lista e o formato especificado será usado para ler a contagem.</li></ul>
 

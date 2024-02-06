@@ -5,8 +5,6 @@ title: List.Numbers
 # List.Numbers
 
 
-## Description
-
 Devolve uma lista de números a partir de um valor inicial, uma contagem e um valor de incremento opcional.
 
 
@@ -21,7 +19,7 @@ List.Numbers(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma lista de números a partir de um valor inicial, uma contagem e um valor de incremento opcional. O valor de incremento predefinido é 1.<ul>   <li><code>start</code>: o valor inicial na lista.</li>   <li><code>count</code>: o número de valores a criar.</li>   <li><code>increment</code>: <i>[Opcional]</i> O valor a incrementar. Se for omitido, os valores são incrementados por 1.</li></ul>
 

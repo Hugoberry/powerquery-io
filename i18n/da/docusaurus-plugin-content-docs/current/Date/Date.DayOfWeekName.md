@@ -5,8 +5,6 @@ title: Date.DayOfWeekName
 # Date.DayOfWeekName
 
 
-## Description
-
 Returnerer navnet på ugedagen.
 
 
@@ -20,7 +18,7 @@ Date.DayOfWeekName(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer ugedagens navn for den angivne <code>date</code>. Der kan også angives en valgfri <code>culture</code> (f. eks. "en-US").
 

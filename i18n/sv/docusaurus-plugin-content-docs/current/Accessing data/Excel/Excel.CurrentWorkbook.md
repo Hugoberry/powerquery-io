@@ -5,8 +5,6 @@ title: Excel.CurrentWorkbook
 # Excel.CurrentWorkbook
 
 
-## Description
-
 Returnerar innehållet i den aktuella Excel-arbetsboken.
 
 
@@ -19,7 +17,7 @@ Excel.CurrentWorkbook(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar innehållet i den aktuella Excel-arbetsboken. Den returnerar tabeller, namngivna områden och dynamiska matriser. Till skillnad från <code>Excel.Workbook</code> returneras inte blad.
 

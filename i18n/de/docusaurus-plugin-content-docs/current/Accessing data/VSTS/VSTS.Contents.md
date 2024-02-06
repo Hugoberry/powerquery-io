@@ -5,8 +5,6 @@ title: VSTS.Contents
 # VSTS.Contents
 
 
-## Description
-
 Hiermit wird die URL für Ihren Azure DevOps Analytics-Dienst eingegeben.
 
 
@@ -20,7 +18,7 @@ VSTS.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Hiermit werden die über die Azure DevOps Analytics-Dienst-URL heruntergeladenen Inhalte als Binärwert zurückgegeben. Diese Funktion verwendet globale Anmeldeinformationen für alle zugänglichen Organisationen.
 

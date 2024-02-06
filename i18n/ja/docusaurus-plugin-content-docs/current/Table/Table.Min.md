@@ -5,8 +5,6 @@ title: Table.Min
 # Table.Min
 
 
-## Description
-
 指定された条件を使用して、最小の行または既定値を返します。
 
 
@@ -21,7 +19,7 @@ Table.Min(
 ```
 
 
-## Details
+## Remarks
 
 <code>comparisonCriteria</code> に基づいて <code>table</code> の最小の行を返します。テーブルが空の場合は、省略可能な <code>default</code> 値を返します。
 

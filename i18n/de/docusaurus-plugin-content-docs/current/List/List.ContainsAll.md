@@ -5,8 +5,6 @@ title: List.ContainsAll
 # List.ContainsAll
 
 
-## Description
-
 Gibt an, ob eine Liste alle Werte aus einer anderen Liste enthält.
 
 
@@ -21,7 +19,7 @@ List.ContainsAll(
 ```
 
 
-## Details
+## Remarks
 
 Gibt an, ob die Liste "<code>list</code>" alle Werte aus einer anderen Liste (<code>values</code>) enthält.    Gibt "true" zurück, wenn der Wert in der Liste gefunden wird. Andernfalls wird "false" zurückgegeben. Zum Steuern der Gleichheitsüberprüfung kann ein optionales Gleichungskriterium (<code>equationCriteria</code>) angegeben werden. 
 

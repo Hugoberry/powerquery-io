@@ -5,8 +5,6 @@ title: Duration.FromText
 # Duration.FromText
 
 
-## Description
-
 Metinsel geçen zaman biçimlerinden bir süre değeri döndürür (g.s:d:s).
 
 
@@ -19,7 +17,7 @@ Duration.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen metinden (<code>text</code>) bir süre değeri döndürür. Şu biçimler bu işlev tarafından ayrıştırılabilir: <ul>        <li>(-)hh:mm(:ss(.ff)) </li>        <li>(-)ddd(.hh:mm(:ss(.ff))) </li> </ul>        <br />        (Tüm aralıklar dahildir)<br />        ddd: Gün sayısı.<br />        hh: 0 ila 23 arasında saat sayısı.<br />        mm: 0 ila 59 arasında dakika sayısı.<br />        ss: 0 ila 59 arasında saniye sayısı.<br />        ff: 0 ila 9999999 arasında kesirli saniye sayısı.
 

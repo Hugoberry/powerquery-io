@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.EnvironmentContents
 # Dynamics365BusinessCentral.EnvironmentContents
 
 
-## Description
-
 Wprowadź środowisko i firmę na potrzeby usługi Dynamics 365 Business Central.
 
 
@@ -20,7 +18,7 @@ Dynamics365BusinessCentral.EnvironmentContents(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę zawierającą odpowiednie dane usługi Dynamics 365 Business Central. 
 

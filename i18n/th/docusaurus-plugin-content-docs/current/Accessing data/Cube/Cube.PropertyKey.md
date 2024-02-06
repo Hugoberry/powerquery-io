@@ -5,8 +5,6 @@ title: Cube.PropertyKey
 # Cube.PropertyKey
 
 
-## Description
-
 ส่งกลับคีย์ของคุณสมบัติ
 
 
@@ -19,7 +17,7 @@ Cube.PropertyKey(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับคีย์ของคุณสมบัติ <code>property</code>
 

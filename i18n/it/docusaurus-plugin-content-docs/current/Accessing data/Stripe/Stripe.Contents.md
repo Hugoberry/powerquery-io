@@ -5,8 +5,6 @@ title: Stripe.Contents
 # Stripe.Contents
 
 
-## Description
-
 Effettua una chiamata all&#39;API Stripe con l&#39;opzione per limitare il numero di chiamate API effettuate.
 
 
@@ -21,7 +19,7 @@ Stripe.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Effettua una chiamata all'API Stripe all'indirizzo https://api.stripe.com/v1/<code>method</code>, con il record facoltativo <code>query</code> passato come parametri aggiuntivi e l'opzione facoltativa <code>pageLimit</code> come limite per il numero di richieste API. I dati più recenti vengono restituiti per primi. Se l'opzione <code>pageLimit</code> non è specificata, vengono restituiti tutti i dati. Versione di Stripe usata: 2015-10-16.
 

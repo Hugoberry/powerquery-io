@@ -5,8 +5,6 @@ title: Value.Alternates
 # Value.Alternates
 
 
-## Description
-
 Ausdruck für alternative Abfragepläne.
 
 
@@ -19,7 +17,7 @@ Value.Alternates(
 ```
 
 
-## Details
+## Remarks
 
 Ausdruck für alternative Abfragepläne innerhalb eines Abfrageplanausdrucks, der über "Value.Expression(Value.Optimize(...))" abgerufen wurde. Nicht für andere Verwendungszwecke vorgesehen.
 

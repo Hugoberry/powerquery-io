@@ -5,8 +5,6 @@ title: Text.From
 # Text.From
 
 
-## Description
-
 Crea un valor de texto a partir del valor dado.
 
 
@@ -20,7 +18,7 @@ Text.From(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve la representación de texto de <code>value</code>. <code>value</code> puede ser un valor <code>number</code>, <code>date</code>, <code>time</code>, <code>datetime</code>, <code>datetimezone</code>, <code>logical</code>, <code>duration</code> o <code>binary</code>.    Si el valor dado es "null", <code>Text.From</code> devuelve "null". También se puede proporcionar un parámetro <code>culture</code> opcional (por ejemplo, "es-ES").
 

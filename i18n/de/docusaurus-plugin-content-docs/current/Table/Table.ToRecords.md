@@ -5,8 +5,6 @@ title: Table.ToRecords
 # Table.ToRecords
 
 
-## Description
-
 Konvertiert eine Tabelle in eine Liste mit Datensätzen.
 
 
@@ -19,7 +17,7 @@ Table.ToRecords(
 ```
 
 
-## Details
+## Remarks
 
 Konvertiert eine Tabelle (<code>table</code>) in eine Liste mit Datensätzen.
 

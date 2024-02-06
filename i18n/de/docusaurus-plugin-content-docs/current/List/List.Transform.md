@@ -5,8 +5,6 @@ title: List.Transform
 # List.Transform
 
 
-## Description
-
 Gibt eine neue Liste mit Werten zurück, die auf der Grundlage dieser Liste berechnet wurden.
 
 
@@ -20,7 +18,7 @@ List.Transform(
 ```
 
 
-## Details
+## Remarks
 
 Gibt durch Anwenden der Transformationsfunktion "<code>transform</code>" auf die Liste "<code>list</code>" eine neue Liste mit Werten zurück.
 

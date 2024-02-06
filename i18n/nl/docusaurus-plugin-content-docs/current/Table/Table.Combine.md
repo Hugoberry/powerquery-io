@@ -5,8 +5,6 @@ title: Table.Combine
 # Table.Combine
 
 
-## Description
-
 Retourneert een tabel die het resultaat is van de samenvoeging van een lijst met tabellen.
 
 
@@ -20,7 +18,7 @@ Table.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tabel geretourneerd die het resultaat is van de samenvoeging van een lijst met tabellen, <code>tables</code>. De resulterende tabel heeft een type rijstructuur die is gedefinieerd door <code>columns</code> of door een samenvoeging van de invoertypen als <code>columns</code> niet is opgegeven.
 

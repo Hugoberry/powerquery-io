@@ -5,8 +5,6 @@ title: List.PositionOfAny
 # List.PositionOfAny
 
 
-## Description
-
 Returnerer første forskydning for en værdi på en liste.
 
 
@@ -22,7 +20,7 @@ List.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer forskydningen på listen <code>list</code> for første forekomst af en værdi på en liste <code>values</code>. Returnerer -1, hvis der ikke blev fundet nogen forekomster.    Du kan angive en valgfri forekomstparameter, <code>occurrence</code>.<ul>   <li><code>occurrence</code>: Det højeste antal forekomster, der kan returneres.</li></ul>
 

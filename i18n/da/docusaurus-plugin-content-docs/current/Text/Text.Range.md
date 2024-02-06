@@ -5,8 +5,6 @@ title: Text.Range
 # Text.Range
 
 
-## Description
-
 Returnerer et undersæt, der blev fundet ved en forskydning.
 
 
@@ -21,7 +19,7 @@ Text.Range(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer understrengen fra teksten <code>text</code>, der blev fundet ved forskydningen <code>offset</code>.    Der kan inkluderes en valgfri parameter, <code>count</code>, for at angive, hvor mange tegn der skal returneres. Hvis der ikke er tegn nok, genereres der en fejl.
 

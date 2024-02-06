@@ -5,8 +5,6 @@ title: Table.Last
 # Table.Last
 
 
-## Description
-
 ส่งกลับแถวสุดท้ายหรือค่าเริ่มต้นที่ระบุ
 
 
@@ -20,7 +18,7 @@ Table.Last(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับแถวสุดท้ายของ <code>table</code> หรือค่าเริ่มต้นที่เลือกได้ <code>default</code> ถ้าตารางว่างเปล่า
 

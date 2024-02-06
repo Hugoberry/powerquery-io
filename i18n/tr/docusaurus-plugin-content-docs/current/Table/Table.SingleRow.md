@@ -5,8 +5,6 @@ title: Table.SingleRow
 # Table.SingleRow
 
 
-## Description
-
 Tablodaki tek bir satırı döndürür.
 
 
@@ -19,7 +17,7 @@ Table.SingleRow(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> satırındaki tek bir satırı döndürür. <code>table</code> birden fazla satır içeriyorsa, özel durum oluşur.
 

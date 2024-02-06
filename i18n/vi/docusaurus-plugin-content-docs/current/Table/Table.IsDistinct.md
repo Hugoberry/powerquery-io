@@ -5,8 +5,6 @@ title: Table.IsDistinct
 # Table.IsDistinct
 
 
-## Description
-
 Cho biết bảng chỉ chứa các hàng riêng biệt (không trùng lặp) hay không.
 
 
@@ -20,7 +18,7 @@ Table.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 Cho biết <code>table</code> chỉ chứa các hàng riêng biệt (không trùng lặp) hay không. Trả về <code>true</code> nếu các hàng riêng biệt, <code>false</code> nếu ngược lại.    Tham số tùy chọn <code>comparisonCriteria</code> chỉ định cột nào của bảng được kiểm tra tính trùng lặp. Nếu <code>comparisonCriteria</code> không được chỉ định thì tất cả các cột đều được kiểm tra.
 

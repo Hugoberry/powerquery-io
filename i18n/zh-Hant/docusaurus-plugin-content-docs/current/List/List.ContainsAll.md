@@ -5,8 +5,6 @@ title: List.ContainsAll
 # List.ContainsAll
 
 
-## Description
-
 指出清單是否包含另一個清單中的所有值。
 
 
@@ -21,7 +19,7 @@ List.ContainsAll(
 ```
 
 
-## Details
+## Remarks
 
 指出清單 <code>list</code> 是否包含另一個清單 <code>values</code> 中的所有值。    如果在清單中找到值，即傳回 True，否則傳回 False。可指定選擇性的等式條件值 <code>equationCriteria</code>，以控制等號比較測試。
 

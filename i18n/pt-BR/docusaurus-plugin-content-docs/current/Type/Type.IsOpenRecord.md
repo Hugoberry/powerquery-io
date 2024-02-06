@@ -5,8 +5,6 @@ title: Type.IsOpenRecord
 # Type.IsOpenRecord
 
 
-## Description
-
 Retorna se um tipo de registro for aberto.
 
 
@@ -19,7 +17,7 @@ Type.IsOpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma <code>lógico</code> indicando se um registro <code>type</code> é aberto.
 

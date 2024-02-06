@@ -5,8 +5,6 @@ title: Number.IsNaN
 # Number.IsNaN
 
 
-## Description
-
 Anger om värdet är NaN (inte ett tal).
 
 
@@ -19,7 +17,7 @@ Number.IsNaN(
 ```
 
 
-## Details
+## Remarks
 
 Anger om värdet är NaN (inte ett tal). Returnerar <code>true</code> om <code>number</code> är <code>Number.IsNaN</code> och annars <code>false</code>.
 

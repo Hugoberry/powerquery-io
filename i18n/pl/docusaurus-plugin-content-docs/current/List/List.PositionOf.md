@@ -5,8 +5,6 @@ title: List.PositionOf
 # List.PositionOf
 
 
-## Description
-
 Zwraca przesunięcia wartości na liście.
 
 
@@ -22,7 +20,7 @@ List.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca przesunięcie, przy którym wartość <code>value</code> występuje na liście <code>list</code>. Zwraca -1, jeśli wartość nie występuje na tej liście.    Można określić opcjonalny parametr wystąpienia (<code>occurrence</code>).<ul>   <li><code>occurrence</code>: maksymalna liczba wystąpień, które mają być zgłaszane.</li></ul>
 

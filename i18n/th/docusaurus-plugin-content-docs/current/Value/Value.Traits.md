@@ -5,8 +5,6 @@ title: Value.Traits
 # Value.Traits
 
 
-## Description
-
 ฟังก์ชันนี้มีไว้สําหรับการใช้งานภายในเท่านั้น
 
 
@@ -19,7 +17,7 @@ Value.Traits(
 ```
 
 
-## Details
+## Remarks
 
 ฟังก์ชันนี้มีไว้สําหรับการใช้งานภายในเท่านั้น
 

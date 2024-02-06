@@ -5,8 +5,6 @@ title: Duration.TotalMinutes
 # Duration.TotalMinutes
 
 
-## Description
-
 Bu sürenin kapsadığı toplam dakikayı döndürür.
 
 
@@ -19,7 +17,7 @@ Duration.TotalMinutes(
 ```
 
 
-## Details
+## Remarks
 
 <code>duration</code> değerine yayılan toplam dakikayı döndürür.
 

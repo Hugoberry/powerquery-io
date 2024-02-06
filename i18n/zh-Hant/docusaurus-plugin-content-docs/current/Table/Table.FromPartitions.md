@@ -5,8 +5,6 @@ title: Table.FromPartitions
 # Table.FromPartitions
 
 
-## Description
-
 傳回結合一組分割資料表結果的資料表。
 
 
@@ -21,7 +19,7 @@ Table.FromPartitions(
 ```
 
 
-## Details
+## Remarks
 
 傳回資料表，其為結合一組已分割表格 <code>partitions</code> 的結果。<code>partitionColumn</code> 為要新增的資料行名稱。資料行值預設為 <code>any</code>，但可由 <code>partitionColumnType</code> 指定。
 

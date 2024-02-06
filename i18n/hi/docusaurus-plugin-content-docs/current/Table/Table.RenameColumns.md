@@ -5,8 +5,6 @@ title: Table.RenameColumns
 # Table.RenameColumns
 
 
-## Description
-
 फ़ॉर्म \{old, new} के नाम बदलता है.
 
 
@@ -21,7 +19,7 @@ Table.RenameColumns(
 ```
 
 
-## Details
+## Remarks
 
 तालिका <code>table</code> में स्तंभों पर दिए गए बदले हुए नाम लागू करता है. एक प्रतिस्थापन कार्रवाई <code>renames</code> की सूची में प्रदान किए गए दो मानों, पुराना स्तंभ नाम और नया स्तंभ नाम, की सूची होती है.    यदि स्तंभ मौजूद नहीं होता है, तो जब तक वैकल्पिक पैरामीटर <code>missingField</code> कोई विकल्प निर्दिष्ट नहीं कर देता एक अपवाद दिखाया जाता है (उदाहरण <code>MissingField.UseNull</code> या <code>MissingField.Ignore</code>).
 

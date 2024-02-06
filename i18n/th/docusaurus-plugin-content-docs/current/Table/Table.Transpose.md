@@ -5,8 +5,6 @@ title: Table.Transpose
 # Table.Transpose
 
 
-## Description
-
 เปลี่ยนคอลัมน์ให้เป็นแถวและเปลี่ยนแถวให้เป็นคอลัมน์
 
 
@@ -20,7 +18,7 @@ Table.Transpose(
 ```
 
 
-## Details
+## Remarks
 
 เปลี่ยนคอลัมน์ให้เป็นแถวและเปลี่ยนแถวให้เป็นคอลัมน์
 

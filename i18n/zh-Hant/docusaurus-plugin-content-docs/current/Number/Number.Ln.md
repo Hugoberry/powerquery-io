@@ -5,8 +5,6 @@ title: Number.Ln
 # Number.Ln
 
 
-## Description
-
 傳回數字的自然對數。
 
 
@@ -19,7 +17,7 @@ Number.Ln(
 ```
 
 
-## Details
+## Remarks
 
 傳回數字 <code>number</code> 的自然對數。如果 <code>number</code> 為 Null，<code>Number.Ln</code> 會傳回 Null。
 

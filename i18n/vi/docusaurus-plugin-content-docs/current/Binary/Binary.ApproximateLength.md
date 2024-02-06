@@ -5,8 +5,6 @@ title: Binary.ApproximateLength
 # Binary.ApproximateLength
 
 
-## Description
-
 Trả về độ dài gần đúng của nhị phân.
 
 
@@ -19,7 +17,7 @@ Binary.ApproximateLength(
 ```
 
 
-## Details
+## Remarks
 
 Trả về độ dài gần đúng của <code>binary</code> hoặc lỗi nếu nguồn dữ liệu không hỗ trợ độ dài gần đúng.
 

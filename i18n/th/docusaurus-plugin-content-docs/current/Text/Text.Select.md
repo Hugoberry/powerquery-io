@@ -5,8 +5,6 @@ title: Text.Select
 # Text.Select
 
 
-## Description
-
 เลือกการปรากฏทั้งหมดสำหรับอักขระหรือรายการอักขระที่กำหนดให้จากค่าข้อความที่ป้อนเข้า
 
 
@@ -20,7 +18,7 @@ Text.Select(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับสำเนาของค่าข้อความ <code>text</code> ที่เอาอักขระทั้งหมดที่ไม่อยู่ใน <code>selectChars</code> ออก
 

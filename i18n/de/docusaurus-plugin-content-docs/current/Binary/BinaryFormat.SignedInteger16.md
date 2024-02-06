@@ -5,8 +5,6 @@ title: BinaryFormat.SignedInteger16
 # BinaryFormat.SignedInteger16
 
 
-## Description
-
 Ein Binärformat, das eine 16-Bit-Ganzzahl mit Vorzeichen liest.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.SignedInteger16(
 ```
 
 
-## Details
+## Remarks
 
 Ein Binärformat, das eine 16-Bit-Ganzzahl mit Vorzeichen liest.
 

@@ -5,8 +5,6 @@ title: Binary.Range
 # Binary.Range
 
 
-## Description
-
 傳回二進位值從位移處開始的子集。
 
 
@@ -21,7 +19,7 @@ Binary.Range(
 ```
 
 
-## Details
+## Remarks
 
 傳回二進位值從位移 <code>binary</code> 開始的子集。選擇性參數 <code>offset</code> 會設定子集的長度上限。
 

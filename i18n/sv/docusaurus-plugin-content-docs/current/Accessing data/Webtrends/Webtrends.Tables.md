@@ -5,8 +5,6 @@ title: Webtrends.Tables
 # Webtrends.Tables
 
 
-## Description
-
 Ange det profil-ID som är kopplat till ditt Webtrends-konto.
 
 
@@ -21,7 +19,7 @@ Webtrends.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell med relevanta Webtrends-data.
 

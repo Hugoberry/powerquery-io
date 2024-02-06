@@ -5,8 +5,6 @@ title: Currency.From
 # Currency.From
 
 
-## Description
-
 Zwraca wartość waluty dla danej wartości.
 
 
@@ -21,7 +19,7 @@ Currency.From(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wartość typu <code>currency</code> dla danej wartości: <code>value</code>. Jeśli dana wartość <code>value</code> to <code>null</code>, funkcja <code>Currency.From</code> zwraca wartość <code>null</code>. Jeśli typ danej wartości <code>value</code> to <code>number</code>, czyli liczba z zakresu waluty, część ułamkowa wartości <code>value</code> jest zaokrąglana do 4 miejsc po przecinku i zwracana. Jeśli wartość <code>value</code> jest wartością innego typu, zostanie ona najpierw przekonwertowana na wartość typu <code>number</code> przy użyciu funkcji <code>Number.FromText</code>. Poprawny zakres wartości waluty to <code>-922 337 203 685 477,5808</code>–<code>922 337 203 685 477,5807</code>. Zobacz opis funkcji <code>Number.Round</code>, aby uzyskać listę dostępnych trybów zaokrąglania. Ustawienie domyślne to <code>RoundingMode.ToEven</code>. Można także określić opcjonalny parametr <code>culture</code> (na przykład „en-US”).
 

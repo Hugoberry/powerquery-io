@@ -5,8 +5,6 @@ title: Html.Table
 # Html.Table
 
 
-## Description
-
 Returnerar en tabell som innehåller resultatet av att köra de angivna CSS-väljare mot angiven HTML.
 
 
@@ -21,7 +19,7 @@ Html.Table(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell som innehåller resultatet av en körning av de angivna CSS-väljarna mot tillhandahållna <code>html</code>. Ytterligare egenskaper kan anges genom att en valfri postparameter, <code>options</code>, tillhandahålls. Posten kan innehålla följande fält:    <ul><li><code>RowSelector</code></li></ul>    
 

@@ -5,8 +5,6 @@ title: Table.AddKey
 # Table.AddKey
 
 
-## Description
-
 Добавляет ключ в таблицу.
 
 
@@ -21,7 +19,7 @@ Table.AddKey(
 ```
 
 
-## Details
+## Remarks
 
 Добавляет ключ в <code>table</code>, где <code>columns</code> — список имен столбцов, определяющих ключ, а <code>isPrimary</code> указывает, является ли ключ первичным.
 

@@ -5,8 +5,6 @@ title: Number.Log10
 # Number.Log10
 
 
-## Description
-
 Trả về lô-ga-rít cơ số 10 của số.
 
 
@@ -19,7 +17,7 @@ Number.Log10(
 ```
 
 
-## Details
+## Remarks
 
 Trả về lô-ga-rít cơ số 10 của số <code>number</code>. Nếu <code>number</code> là giá trị rỗng thì <code>Number.Log10</code> sẽ trả về giá trị rỗng.
 

@@ -5,8 +5,6 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-## Description
-
 Cambia el nombre de los elementos de una lista con el formato \{ old, new }.
 
 
@@ -21,7 +19,7 @@ Record.RenameFields(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un registro después de cambiar el nombre de los campos en la entrada <code>record</code> por los nuevos nombres de campo especificados en la lista <code>renames</code>. Para cambiar varios nombres, se puede usar una lista anidada (\{ \{old1, new1}, \{old2, new2} }.
 

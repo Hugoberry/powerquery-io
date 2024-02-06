@@ -5,8 +5,6 @@ title: Table.FindText
 # Table.FindText
 
 
-## Description
-
 Restituisce tutte le righe che contengono il testo specificato nella tabella.
 
 
@@ -20,7 +18,7 @@ Table.FindText(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce le righe nella tabella <code>table</code> che contengono il testo <code>text</code>. Se il testo non viene trovato, verrà restituita una tabella vuota.
 

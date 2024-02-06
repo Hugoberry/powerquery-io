@@ -5,8 +5,6 @@ title: Text.Replace
 # Text.Replace
 
 
-## Description
-
 Thay thế tất cả những lần xuất hiện của chuỗi con cụ thể trong văn bản.
 
 
@@ -21,7 +19,7 @@ Text.Replace(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả thay thế tất cả những lần xuất hiện của giá trị văn bản <code>old</code> trong giá trị văn bản <code>text</code> bằng giá trị văn bản <code>new</code>. Hàm này phân biệt chữ hoa/chữ thường.
 

@@ -5,8 +5,6 @@ title: Date.IsInPreviousQuarter
 # Date.IsInPreviousQuarter
 
 
-## Description
-
 Anger om det här datumet infaller under det föregående kvartalet enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar falskt om den skickas ett värde som infaller under det aktuella kvartalet.
 
 
@@ -19,7 +17,7 @@ Date.IsInPreviousQuarter(
 ```
 
 
-## Details
+## Remarks
 
 Indikerar om angivet datetime-värde <code>dateTime</code> infaller under det föregående kvartalet enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar falskt om den skickas ett värde som infaller under det aktuella kvartalet.      <ul>      <li><code>dateTime</code>: Ett <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde som ska utvärderas.</li>      </ul>
 

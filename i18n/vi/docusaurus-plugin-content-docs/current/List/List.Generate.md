@@ -5,8 +5,6 @@ title: List.Generate
 # List.Generate
 
 
-## Description
-
 Tạo danh sách giá trị.
 
 
@@ -22,7 +20,7 @@ List.Generate(
 ```
 
 
-## Details
+## Remarks
 
 Tạo một danh sách giá trị bằng các hàm được cung cấp. Hàm <code>initial</code> tạo giá trị ứng viên ban đầu mà sau đó được kiểm tra dựa trên <code>condition</code>.    Nếu giá trị ứng viên được chấp nhận thì giá trị đó sẽ trở về trong danh sách kết quả và giá trị ứng viên tiếp theo sẽ được tạo bằng cách chuyển giá trị mới chấp nhận sang <code>next</code>.    Sau khi một giá trị ứng viên không khớp với <code>condition</code>, quy trình tạo danh sách sẽ dừng.    Một tham số tùy chọn, <code>selector</code>, có thể được cung cấp để chuyển đổi các mục trong danh sách kết quả.
 

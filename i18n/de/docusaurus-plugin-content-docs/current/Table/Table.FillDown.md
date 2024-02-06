@@ -5,8 +5,6 @@ title: Table.FillDown
 # Table.FillDown
 
 
-## Description
-
 Verteilt den Wert einer vorherigen Zelle auf die darunter liegenden Zellen mit NULL-Wert in der Spalte.
 
 
@@ -20,7 +18,7 @@ Table.FillDown(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Tabelle auf der Grundlage des angegebenen Elements vom Typ '<code>table</code>' zurück, wobei der Wert einer vorherigen Zelle an die darunter liegenden Zellen mit NULL-Wert im angegebenen Element vom Typ '<code>columns</code>' weitergegeben wird.
 

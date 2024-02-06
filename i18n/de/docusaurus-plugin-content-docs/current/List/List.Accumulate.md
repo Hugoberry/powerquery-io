@@ -5,8 +5,6 @@ title: List.Accumulate
 # List.Accumulate
 
 
-## Description
-
 Bildet einen Zusammenfassungswert auf der Grundlage der Elemente in der Liste.
 
 
@@ -21,7 +19,7 @@ List.Accumulate(
 ```
 
 
-## Details
+## Remarks
 
 Bildet einen Zusammenfassungswert auf der Grundlage der Elemente in der Liste "<code>list</code>" (unter Verwendung von "<code>accumulator</code>").    Gegebenenfalls kann ein optionaler Seedparameter (<code>seed</code>) festgelegt werden.
 

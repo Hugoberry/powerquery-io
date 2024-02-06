@@ -5,8 +5,6 @@ title: List.Range
 # List.Range
 
 
-## Description
-
 Retourne un sous-ensemble de liste démarrant à un décalage.
 
 
@@ -21,7 +19,7 @@ List.Range(
 ```
 
 
-## Details
+## Remarks
 
 Retourne un sous-ensemble de liste démarrant au décalage <code>list</code>. Un paramètre facultatif, <code>offset</code>, définit le nombre maximum d'éléments dans le sous-ensemble.
 

@@ -5,8 +5,6 @@ title: Stripe.Tables
 # Stripe.Tables
 
 
-## Description
-
 Devolve uma tabela que apresenta as funções e tabelas disponíveis do Stripe.
 
 
@@ -19,7 +17,7 @@ Stripe.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma tabela que apresenta as funções e tabelas disponíveis do Stripe.
 

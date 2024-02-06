@@ -5,8 +5,6 @@ title: Table.RemoveRows
 # Table.RemoveRows
 
 
-## Description
-
 Usuwa określoną liczbę wierszy.
 
 
@@ -21,7 +19,7 @@ Table.RemoveRows(
 ```
 
 
-## Details
+## Remarks
 
 Usuwa <code>count</code> wierszy od początku tabeli <code>table</code>, zaczynając od określonego przesunięcia <code>offset</code>. Jeśli nie zostanie określony parametr <code>count</code>, jest używana domyślna liczba wierszy równa 1. 
 

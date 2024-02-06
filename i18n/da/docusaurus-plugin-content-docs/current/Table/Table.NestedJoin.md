@@ -5,8 +5,6 @@ title: Table.NestedJoin
 # Table.NestedJoin
 
 
-## Description
-
 Udfører en joinforbindelse mellem tabeller på angivne kolonner og opretter joinresultatet i en ny kolonne.
 
 
@@ -25,7 +23,7 @@ Table.NestedJoin(
 ```
 
 
-## Details
+## Remarks
 
 Joinforbinder rækkerne i <code>table1</code> med rækkerne i <code>table2</code> på baggrund af ligheden mellem værdier i de nøglekolonner, der er valgt af <code>key1</code> (for <code>table1</code>) og <code>key2</code> (for <code>table2</code>). Resultaterne angives i den kolonne, der hedder <code>newColumnName</code>.<br />Den valgfrie værdi <code>joinKind</code> angiver typen af joinforbindelse, der skal udføres. Der udføres som standard en venstre ydre joinforbindelse, hvis der ikke er angivet en <code>joinKind</code>.<br />Et valgfrit sæt af <code>keyEqualityComparers</code> kan inkluderes for at angive, hvordan nøglekolonnerne skal sammenlignes. Denne funktion er i øjeblikket kun tiltænkt intern brug.<br />  
 

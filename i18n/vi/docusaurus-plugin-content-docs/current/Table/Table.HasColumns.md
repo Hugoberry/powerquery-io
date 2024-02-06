@@ -5,8 +5,6 @@ title: Table.HasColumns
 # Table.HasColumns
 
 
-## Description
-
 Cho biết bảng có chứa (các) cột được chỉ định hay không.
 
 
@@ -20,7 +18,7 @@ Table.HasColumns(
 ```
 
 
-## Details
+## Remarks
 
 Cho biết <code>table</code> có chứa (các) cột được chỉ định <code>columns</code> hay không. Trả về <code>true</code> nếu bảng chứa (các) cột, <code>false</code> nếu ngược lại.
 

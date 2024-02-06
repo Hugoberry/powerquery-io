@@ -5,8 +5,6 @@ title: Value.NullableEquals
 # Value.NullableEquals
 
 
-## Description
-
 Devolve se dois valores são iguais.
 
 
@@ -21,7 +19,7 @@ Value.NullableEquals(
 ```
 
 
-## Details
+## Remarks
 
 Devolve nulo se um dos argumentos '<code>value1</code>', '<code>value2</code>' for nulo; caso contrário, é equivalente a Value.Equals.
 

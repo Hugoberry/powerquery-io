@@ -5,8 +5,6 @@ title: Table.AddRankColumn
 # Table.AddRankColumn
 
 
-## Description
-
 स्तंभ को एक या अधिक स्तंभों की रैंकिंग के साथ जोड़ता है.
 
 
@@ -22,7 +20,7 @@ Table.AddRankColumn(
 ```
 
 
-## Details
+## Remarks
 
 <code>comparisonCriteria</code>द्वारा वर्णित एक या अधिक स्तंभों की रैंकिंग के साथ <code>table</code> में <code>newColumnName</code> नाम का स्तंभ जोड़ता है.<code>options</code> में RankKind विकल्प का उपयोग उन्नत उपयोगकर्ताओं द्वारा अधिक-विशिष्ट रैंकिंग पद्धति चुनने के लिए किया जा सकता है.
 

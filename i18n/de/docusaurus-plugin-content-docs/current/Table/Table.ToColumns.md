@@ -5,8 +5,6 @@ title: Table.ToColumns
 # Table.ToColumns
 
 
-## Description
-
 Erstellt eine Liste mit geschachtelten Listen mit Spaltenwerten aus einer Tabelle.
 
 
@@ -19,7 +17,7 @@ Table.ToColumns(
 ```
 
 
-## Details
+## Remarks
 
 Erstellt eine Liste mit geschachtelten Listen aus der Tabelle "<code>table</code>".  Jedes Listenelement ist eine innere Liste mit den Spaltenwerten.
 

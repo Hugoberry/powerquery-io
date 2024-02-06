@@ -5,8 +5,6 @@ title: Cdm.MapToEntity
 # Cdm.MapToEntity
 
 
-## Description
-
 Gibt eine Tabelle mit Spalten zurück, die den Attributen einer Entität im Common Data Model (einschließlich Datentypen) zugeordnet sind.
 
 
@@ -22,7 +20,7 @@ Cdm.MapToEntity(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Tabelle mit Spalten zurück, die den Attributen einer Entität im Common Data Model (einschließlich Datentypen) zugeordnet sind. Spalten aus der Entitätsdefinition werden hinzugefügt, falls sie nicht zugeordnet sind, und alle nicht zugeordneten Spalten werden entfernt.
 

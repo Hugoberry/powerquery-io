@@ -5,8 +5,6 @@ title: Number.Log10
 # Number.Log10
 
 
-## Description
-
 Zwraca logarytm dziesiętny liczby.
 
 
@@ -19,7 +17,7 @@ Number.Log10(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca logarytm dziesiętny liczby <code>number</code>. Jeśli parametr <code>number</code> ma wartość null, funkcja <code>Number.Log10</code> zwraca wartość null.
 

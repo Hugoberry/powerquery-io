@@ -5,8 +5,6 @@ title: List.PositionOf
 # List.PositionOf
 
 
-## Description
-
 Retourne les décalages d&#39;une valeur dans une liste.
 
 
@@ -22,7 +20,7 @@ List.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Retourne le décalage auquel la valeur <code>value</code> apparaît dans la liste <code>list</code>. Retourne -1 si la valeur n'apparaît pas.    Un paramètre d'occurrence facultatif, <code>occurrence</code>, peut être spécifié.<ul>   <li><code>occurrence</code> : nombre maximal d'occurrences à signaler.</li></ul>
 

@@ -5,8 +5,6 @@ title: List.Select
 # List.Select
 
 
-## Description
-
 शर्त से मेल खाने वाले मानों की एक सूची लौटाता है.
 
 
@@ -20,7 +18,7 @@ List.Select(
 ```
 
 
-## Details
+## Remarks
 
 सूची <code>list</code> के उन मानों को लौटाता है, जो चयन शर्त <code>selection</code> से मेल खाते हैं.
 

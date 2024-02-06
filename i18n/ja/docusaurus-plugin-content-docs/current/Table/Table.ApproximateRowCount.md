@@ -5,8 +5,6 @@ title: Table.ApproximateRowCount
 # Table.ApproximateRowCount
 
 
-## Description
-
 テーブル内の行の概数を返します。
 
 
@@ -19,7 +17,7 @@ Table.ApproximateRowCount(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code>内のおおよその行数を返します。データ ソースが近似をサポートしていない場合はエラーを返します。
 

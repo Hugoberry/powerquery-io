@@ -5,8 +5,6 @@ title: BinaryFormat.7BitEncodedUnsignedInteger
 # BinaryFormat.7BitEncodedUnsignedInteger
 
 
-## Description
-
 Ein Binärformat, das eine 64-Bit-Ganzzahl ohne Vorzeichen liest, die mit einer 7-Bit-Codierung mit variabler Länge codiert wurde.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.7BitEncodedUnsignedInteger(
 ```
 
 
-## Details
+## Remarks
 
 Ein Binärformat, das eine 64-Bit-Ganzzahl ohne Vorzeichen liest, die mit einer 7-Bit-Codierung mit variabler Länge codiert wurde.
 

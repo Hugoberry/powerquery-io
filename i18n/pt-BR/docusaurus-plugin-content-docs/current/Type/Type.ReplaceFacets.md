@@ -5,8 +5,6 @@ title: Type.ReplaceFacets
 # Type.ReplaceFacets
 
 
-## Description
-
 Substitui as facetas de um tipo.
 
 
@@ -20,7 +18,7 @@ Type.ReplaceFacets(
 ```
 
 
-## Details
+## Remarks
 
 Substitui as facetas de <code>type</code> pelas facetas contidas no registro <code>facets</code>.
 

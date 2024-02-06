@@ -5,8 +5,6 @@ title: Guid.From
 # Guid.From
 
 
-## Description
-
 傳回指定值的 GUID 值。
 
 
@@ -19,7 +17,7 @@ Guid.From(
 ```
 
 
-## Details
+## Remarks
 
 傳回指定 <code>value</code> 的 <code>Guid.Type</code> 值。若指定的 <code>value</code> 是 <code>null</code>，則 <code>Guid.From</code> 會傳回 <code>null</code>。指定的 <code>value</code> 將經過檢查，以判斷其是否為可接受的格式。範例中提供可接受的格式。
 

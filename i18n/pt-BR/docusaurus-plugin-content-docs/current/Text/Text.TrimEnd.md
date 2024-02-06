@@ -5,8 +5,6 @@ title: Text.TrimEnd
 # Text.TrimEnd
 
 
-## Description
-
 Remove todos os espaços em branco à direita.
 
 
@@ -20,7 +18,7 @@ Text.TrimEnd(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o resultado da remoção de todos os espaços em branco à direita do valor de texto <code>text</code>.
 

@@ -5,8 +5,6 @@ title: List.Buffer
 # List.Buffer
 
 
-## Description
-
 リストをバッファー処理します。
 
 
@@ -19,7 +17,7 @@ List.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>list</code> をメモリにバッファー処理します。この呼び出しの結果は、安定したリストです。
 

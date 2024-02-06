@@ -5,8 +5,6 @@ title: Table.FromValue
 # Table.FromValue
 
 
-## Description
-
 Maakt een tabel met een kolom van de opgegeven waarde(n).
 
 
@@ -20,7 +18,7 @@ Table.FromValue(
 ```
 
 
-## Details
+## Remarks
 
 Maakt een tabel met een kolom waarin de opgegeven waarde of lijst met waarden <code>value</code> staat. Er kan een optionele recordparameter, <code>options</code>, worden opgegeven om de volgende opties te bepalen:    <ul>    <li> <code>DefaultColumnName</code> : de kolomnaam die wordt gebruikt bij het maken van een tabel van een lijst of scalaire waarde.</li>    </ul>  
 

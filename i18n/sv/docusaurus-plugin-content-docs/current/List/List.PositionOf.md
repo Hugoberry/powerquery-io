@@ -5,8 +5,6 @@ title: List.PositionOf
 # List.PositionOf
 
 
-## Description
-
 Returnerar förskjutningen eller förskjutningarna för ett värde i en lista.
 
 
@@ -22,7 +20,7 @@ List.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar förskjutningen där värdet <code>value</code> förekommer i listan <code>list</code>. Returnerar -1 om värdet inte hittas.    En valfri förekomstparameter (<code>occurrence</code>) kan anges.<ul>   <li><code>occurrence</code>: Det högsta antalet förekomster som ska rapporteras.</li></ul>
 

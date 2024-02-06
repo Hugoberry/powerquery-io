@@ -5,8 +5,6 @@ title: Number.RoundUp
 # Number.RoundUp
 
 
-## Description
-
 次に大きい数値を返します。桁数は指定できます。
 
 
@@ -20,7 +18,7 @@ Number.RoundUp(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> を次に大きい整数に丸めた結果を返します。<code>number</code> が null 値の場合、この関数は null 値を返します。    <code>digits</code> が指定された場合、<code>number</code> は小数点以下の指定の桁数に丸められます。  
 

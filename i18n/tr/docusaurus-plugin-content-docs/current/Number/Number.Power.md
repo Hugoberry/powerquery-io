@@ -5,8 +5,6 @@ title: Number.Power
 # Number.Power
 
 
-## Description
-
 Bir sayıyı verilen üsse yükseltir.
 
 
@@ -20,7 +18,7 @@ Number.Power(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> öğesini <code>power</code> üssüne yükseltme işleminin sonucunu döndürür.    <code>number</code> veya <code>power</code> null ise <code>Number.Power</code> null döndürür.      <ul>        <li><code>number</code>: Taban.</li>        <li><code>power</code>: Üs.</li>      </ul>
 

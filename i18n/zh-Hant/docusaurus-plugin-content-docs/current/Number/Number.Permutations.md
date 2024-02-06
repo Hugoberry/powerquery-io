@@ -5,8 +5,6 @@ title: Number.Permutations
 # Number.Permutations
 
 
-## Description
-
 傳回排列數。
 
 
@@ -20,7 +18,7 @@ Number.Permutations(
 ```
 
 
-## Details
+## Remarks
 
 依據指定的排列大小 <code>permutationSize</code>，傳回可從項目數 <code>setSize</code> 產生的排列數。
 

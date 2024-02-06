@@ -5,8 +5,6 @@ title: Table.ToList
 # Table.ToList
 
 
-## Description
-
 通过将指定的组合函数应用于表中的每一行值，将表转换为列表。
 
 
@@ -20,7 +18,7 @@ Table.ToList(
 ```
 
 
-## Details
+## Remarks
 
 通过将指定的组合函数应用于表中的每一行值，将表转换为列表。
 

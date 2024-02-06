@@ -5,8 +5,6 @@ title: Table.PositionOfAny
 # Table.PositionOfAny
 
 
-## Description
-
 Devolve as posições de qualquer uma das linhas especificadas na tabela.
 
 
@@ -22,7 +20,7 @@ Table.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Devolve as posições de linhas de <code>table</code> da primeira ocorrência de <code>rows</code> na lista. Devolve -1 se não for encontrada nenhuma ocorrência.    <ul>    <li><code>table</code>: a tabela de entrada.</li>       <li><code>rows</code>: a lista de linhas cujas posições pretende localizar na tabela.</li>       <li><code>occurrence</code>: <i>[Opcional]</i> Especifica as ocorrências da linha a devolver.</li>       <li><code>equationCriteria</code>: <i>[Opcional]</i> Controla a comparação entre as linhas da tabela.</li>    </ul>    
 

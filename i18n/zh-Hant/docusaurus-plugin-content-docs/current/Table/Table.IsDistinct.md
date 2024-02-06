@@ -5,8 +5,6 @@ title: Table.IsDistinct
 # Table.IsDistinct
 
 
-## Description
-
 指出資料表是否只包含相異資料列 (沒有重複項目)。
 
 
@@ -20,7 +18,7 @@ Table.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 指出 <code>table</code> 是否只包含相異資料列 (沒有重複項目)。如果資料列相異，則傳回 <code>true</code>，否則傳回 <code>false</code>。    選擇性參數 <code>comparisonCriteria</code> 可指定要測試是否有重複情況的資料表資料行。如果未指定 <code>comparisonCriteria</code>，則會測試所有資料行。
 

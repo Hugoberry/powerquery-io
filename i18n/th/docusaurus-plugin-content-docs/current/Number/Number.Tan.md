@@ -5,8 +5,6 @@ title: Number.Tan
 # Number.Tan
 
 
-## Description
-
 ส่งกลับค่าแทนเจนต์ของตัวเลข
 
 
@@ -19,7 +17,7 @@ Number.Tan(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่าแทนเจนต์ของ <code>number</code>
 

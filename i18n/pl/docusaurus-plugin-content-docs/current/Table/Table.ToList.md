@@ -5,8 +5,6 @@ title: Table.ToList
 # Table.ToList
 
 
-## Description
-
 Konwertuje tabelę na listę, stosując określoną funkcję łączenia do każdego wiersza wartości w tabeli.
 
 
@@ -20,7 +18,7 @@ Table.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Konwertuje tabelę na listę, stosując określoną funkcję łączenia do każdego wiersza wartości w tabeli.
 

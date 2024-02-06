@@ -5,8 +5,6 @@ title: DateTime.From
 # DateTime.From
 
 
-## Description
-
 Maakt een datum-/tijd van de opgegeven waarde.
 
 
@@ -20,7 +18,7 @@ DateTime.From(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een <code>datetime</code>-waarde geretourneerd van de opgegeven waarde <code>value</code>. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).Als de opgegeven waarde <code>value</code> <code>null</code> is, wordt door <code>DateTime.From</code> <code>null</code> geretourneerd. Als de opgegeven waarde <code>value</code> <code>datetime</code> is, wordt <code>value</code> geretourneerd. Waarden van de volgende typen kunnen worden omgezet naar een <code>datetime</code>-waarde: <ul> <li><code>text</code>: een <code>datetime</code>-waarde van de tekstweergave. Raadpleeg <code>DateTimeZone.FromText</code> voor meer informatie.</li> <li><code>date</code>: een <code>datetime</code> met <code>value</code> als het datumcomponent en <code>12:00:00 AM</code> als het tijdcomponent.</li> <li><code>datetimezone</code>: het lokale <code>datetime</code>-equivalent van <code>value</code>.</li> <li><code>time</code>: een <code>datetime</code> met het datumequivalent van de OLE-automatiseringsdatum van <code>0</code> als het datumcomponent en <code>value</code> als het tijdcomponent.</li> <li><code>number</code>: een <code>datetime</code>-equivalent van de OLE-automatiseringsdatum die wordt uitgedrukt door <code>value</code>. </li> </ul>Als <code>value</code> van een ander type is, wordt er een fout geretourneerd.
 

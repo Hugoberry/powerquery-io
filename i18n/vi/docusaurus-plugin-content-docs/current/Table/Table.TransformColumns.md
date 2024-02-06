@@ -5,8 +5,6 @@ title: Table.TransformColumns
 # Table.TransformColumns
 
 
-## Description
-
 Chuyển đổi các giá trị của một hoặc nhiều cột.
 
 
@@ -22,7 +20,7 @@ Table.TransformColumns(
 ```
 
 
-## Details
+## Remarks
 
 Chuyển đổi <code>table</code> bằng cách áp dụng mỗi phép toán trong cột được liệt kê trong <code>transformOperations</code> (với dạng thức là \{ column name, transformation } hoặc \{ column name, transformation, new column type }).    Nếu <code>defaultTransformation</code> được chỉ định, giá trị này sẽ áp dụng cho tất cả các cột không được liệt kê trong <code>transformOperations</code>.    Nếu một cột được liệt kê trong <code>transformOperations</code> không tồn tại, một ngoại lệ sẽ được đưa ra trừ khi tham số tùy chọn <code>missingField</code> chỉ định một giá trị thay thế (ví dụ: <code>MissingField.UseNull</code> hoặc <code>MissingField.Ignore</code>).
 

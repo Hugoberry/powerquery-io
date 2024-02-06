@@ -5,8 +5,6 @@ title: Number.Combinations
 # Number.Combinations
 
 
-## Description
-
 Возвращает определенное количество уникальных сочетаний.
 
 
@@ -20,7 +18,7 @@ Number.Combinations(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает определенное количество уникальных сочетаний из элементов списка <code>setSize</code> с указанным размером сочетания <code>combinationSize</code>.<ul>    <li><code>setSize</code>: Количество элементов в списке.</li>    <li><code>combinationSize</code>: Количество элементов в каждом сочетании.</li></ul>
 

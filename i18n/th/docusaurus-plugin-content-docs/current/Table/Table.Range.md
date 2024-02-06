@@ -5,8 +5,6 @@ title: Table.Range
 # Table.Range
 
 
-## Description
-
 ส่งกลับแถวโดยเริ่มต้นที่ออฟเซตที่ระบุ
 
 
@@ -21,7 +19,7 @@ Table.Range(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับแถวจาก <code>table</code> โดยเริ่มต้นที่ <code>offset</code> ที่ระบุ พารามิเตอร์ที่เลือกได้ <code>count</code> ระบุจำนวนแถวที่จะส่งกลับ ตามค่าเริ่มต้น ทุกแถวหลังจากออฟเซตจะถูกส่งกลับ
 

@@ -5,8 +5,6 @@ title: BinaryFormat.Byte
 # BinaryFormat.Byte
 
 
-## Description
-
 一種二進位格式，可讀取 8 位元不帶正負號的整數。
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Byte(
 ```
 
 
-## Details
+## Remarks
 
 一種二進位格式，可讀取 8 位元不帶正負號的整數。
 

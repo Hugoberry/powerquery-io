@@ -5,8 +5,6 @@ title: Text.Proper
 # Text.Proper
 
 
-## Description
-
 Schreibt den ersten Buchstaben jedes Worts groß.
 
 
@@ -20,7 +18,7 @@ Text.Proper(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das Ergebnis zurück, das entsteht, wenn lediglich der erste Buchstabe jedes Worts im Textwert "<code>text</code>" großgeschrieben wird. Alle anderen Buchstaben werden in Kleinschreibung zurückgegeben. Optional kann auch ein Element vom Typ "<code>culture</code>" angegeben werden (Beispiel: "de-DE").
 

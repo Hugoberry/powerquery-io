@@ -5,8 +5,6 @@ title: Table.AddIndexColumn
 # Table.AddIndexColumn
 
 
-## Description
-
 Chắp thêm một cột có các giá trị vị trí rõ ràng.
 
 
@@ -23,7 +21,7 @@ Table.AddIndexColumn(
 ```
 
 
-## Details
+## Remarks
 
 Chắp thêm một cột có tên <code>newColumnName</code> vào <code>table</code> với các giá trị vị trí rõ ràng.    Một giá trị tùy chọn, <code>initialValue</code>, giá trị chỉ mục ban đầu. Giá trị tùy chọn <code>increment</code> chỉ định số lượng tăng mỗi giá trị chỉ mục.
 

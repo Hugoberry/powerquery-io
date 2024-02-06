@@ -5,8 +5,6 @@ title: Date.IsInYearToDate
 # Date.IsInYearToDate
 
 
-## Description
-
 Cho biết ngày này có rơi vào năm hiện tại hay không và vào đúng hay trước ngày hiện tại, như được xác định bởi ngày và giờ hiện tại trên hệ thống.
 
 
@@ -19,7 +17,7 @@ Date.IsInYearToDate(
 ```
 
 
-## Details
+## Remarks
 
 Cho biết giá trị datetime cho sẵn <code>dateTime</code> có rơi vào năm hiện tại hay không và vào đúng hay trước ngày hiện tại, như được xác định bởi ngày và giờ hiện tại trên hệ thống.      <ul>      <li><code>dateTime</code>: Một giá trị <code>date</code>, <code>datetime</code> hoặc <code>datetimezone</code> sẽ được đánh giá.</li>      </ul>
 

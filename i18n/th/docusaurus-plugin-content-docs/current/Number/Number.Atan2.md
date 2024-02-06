@@ -5,8 +5,6 @@ title: Number.Atan2
 # Number.Atan2
 
 
-## Description
-
 ส่งกลับค่าอาร์กแทนเจนต์ของการหารสองจำนวน
 
 
@@ -20,7 +18,7 @@ Number.Atan2(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่าอาร์กแทนเจนต์ของการหารสองจำนวน ได้แก่ <code>y</code> และ <code>x</code> การหารจะเขียนโครงสร้างได้เป็น <code>y</code>/<code>x</code>
 

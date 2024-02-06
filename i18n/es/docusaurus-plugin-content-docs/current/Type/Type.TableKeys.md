@@ -5,8 +5,6 @@ title: Type.TableKeys
 # Type.TableKeys
 
 
-## Description
-
 Devuelve la lista posiblemente vacía de claves para el tipo de tabla dado.
 
 
@@ -19,7 +17,7 @@ Type.TableKeys(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve la lista posiblemente vacía de claves para el tipo de tabla proporcionado.<br />    <br />    Cada clave se define mediante un registro de la siguiente forma:    <ul>      <li>        <code>Columnas</code>: una lista de los nombres de columna que definen la clave      </li>      <li>        <code>Principal</code>: <code>true</code> si la clave es la clave principal de la tabla; de lo contrario, <code>false</code>      </li>    </ul>    
 

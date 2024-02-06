@@ -5,8 +5,6 @@ title: Date.ToRecord
 # Date.ToRecord
 
 
-## Description
-
 Restituisce un record contenente le parti del valore date.
 
 
@@ -19,7 +17,7 @@ Date.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce record contenente le parti del valore di date specificato <code>date</code>. <ul>        <li><code>date</code>: valore <code>date</code> da cui deve essere calcolato il record delle parti.</li>      </ul>
 

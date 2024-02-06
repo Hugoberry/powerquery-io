@@ -5,8 +5,6 @@ title: Table.InsertRows
 # Table.InsertRows
 
 
-## Description
-
 Voegt een lijst met rijen op de opgegeven positie in de tabel in.
 
 
@@ -21,7 +19,7 @@ Table.InsertRows(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een tabel met de lijst rijen, <code>rows</code>, die wordt ingevoegd in de <code>table</code> op de opgegeven positie, <code>offset</code>. Elke kolom die in de rij wordt ingevoegd, moet overeenkomen met de kolomtypen van de tabel.
 

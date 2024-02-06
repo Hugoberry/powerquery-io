@@ -5,8 +5,6 @@ title: List.Reverse
 # List.Reverse
 
 
-## Description
-
 Inverte a ordem dos valores na lista.
 
 
@@ -19,7 +17,7 @@ List.Reverse(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma lista com os valores existentes na lista <code>list</code> por ordem inversa.
 

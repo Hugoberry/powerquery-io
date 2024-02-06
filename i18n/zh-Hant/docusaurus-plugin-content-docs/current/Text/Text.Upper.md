@@ -5,8 +5,6 @@ title: Text.Upper
 # Text.Upper
 
 
-## Description
-
 將所有字元轉換成大寫。
 
 
@@ -20,7 +18,7 @@ Text.Upper(
 ```
 
 
-## Details
+## Remarks
 
 傳回將 <code>text</code> 中所有字元轉換成大寫的結果。也可提供選用的 <code>culture</code> (例如 "en-US")。
 

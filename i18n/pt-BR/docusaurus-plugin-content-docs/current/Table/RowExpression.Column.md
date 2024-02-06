@@ -5,8 +5,6 @@ title: RowExpression.Column
 # RowExpression.Column
 
 
-## Description
-
 Retorna uma árvore de sintaxe abstrata (AST) que representa o acesso a uma coluna em uma expressão de linha.
 
 
@@ -19,7 +17,7 @@ RowExpression.Column(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma árvore de sintaxe abstrata (AST) que representa o acesso à coluna <code>columnName</code> da linha em uma expressão de linha.
 

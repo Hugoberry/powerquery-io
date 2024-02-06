@@ -5,8 +5,6 @@ title: Table.PositionOfAny
 # Table.PositionOfAny
 
 
-## Description
-
 ส่งกลับตำแหน่งหรือหลายตำแหน่งของแถวที่ระบุแถวใดแถวหนึ่งภายในตาราง
 
 
@@ -22,7 +20,7 @@ Table.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนตำแหน่งแถวจาก <code>table</code> ของการปรากฏครั้งแรกของรายการ <code>rows</code> ส่งคืน -1 ถ้าไม่พบเหตุการณ์    <ul>       <li><code>table</code>: ตารางค่าที่ป้อน</li>       <li><code>rows</code>: รายการของแถวในตารางที่จะค้นหาตำแหน่ง</li>       <li><code>occurrence</code>: <i>[ระบุหรือไม่ก็ได้]</i> ระบุการปรากฏของแถวที่จะส่งกลับ</li>       <li><code>equationCriteria</code>: <i>[ระบุหรือไม่ก็ได้]</i> ควบคุมการเปรียบเทียบระหว่างแถวของตาราง</li>    </ul>    
 

@@ -5,8 +5,6 @@ title: BinaryFormat.Record
 # BinaryFormat.Record
 
 
-## Description
-
 レコードを読み取るバイナリ形式を返します。
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Record(
 ```
 
 
-## Details
+## Remarks
 
 レコードを読み取るバイナリ形式を返します。<code>record</code> パラメーターは、レコードの形式を指定します。レコードの各フィールドは、異なるバイナリ形式にすることができます。フィールドにバイナリ形式値でない値が含まれている場合、そのフィールドからはデータが読み取られず、フィールド値は結果にエコーされます。
 

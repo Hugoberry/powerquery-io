@@ -5,8 +5,6 @@ title: Table.DemoteHeaders
 # Table.DemoteHeaders
 
 
-## Description
-
 Abbassa di livello le intestazioni di colonna nella prima riga di valori.
 
 
@@ -19,7 +17,7 @@ Table.DemoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Abbassa di livello le intestazioni di colonna, ad esempio i nomi di colonna, nella prima riga di valori. I nomi di colonna predefiniti sono "Column1", "Column2" e così via.
 

@@ -5,8 +5,6 @@ title: Diagnostics.Trace
 # Diagnostics.Trace
 
 
-## Description
-
 Écrit une entrée de trace, si le traçage est activé, puis retourne la valeur.
 
 
@@ -22,7 +20,7 @@ Diagnostics.Trace(
 ```
 
 
-## Details
+## Remarks
 
 Écrit une trace <code>message</code>, si le traçage est activé, puis retourne <code>value</code>. Le paramètre optionnel <code>delayed</code> spécifie si l'évaluation de <code>value</code> doit être retardée jusqu'à ce que le message soit tracé. <code>traceLevel</code> peut prendre l'une des valeurs suivantes :    <code>TraceLevel.Critical</code>    <code>TraceLevel.Error</code>,    <code>TraceLevel.Warning</code>,    <code>TraceLevel.Information</code>,    <code>TraceLevel.Verbose</code>.  
 

@@ -5,8 +5,6 @@ title: Date.AddDays
 # Date.AddDays
 
 
-## Description
-
 निर्दिष्ट दिनों को दिनांक में जोड़ता है.
 
 
@@ -20,7 +18,7 @@ Date.AddDays(
 ```
 
 
-## Details
+## Remarks
 
 <code>datetime</code> मान <code>dateTime</code> में <code>numberOfDays</code> दिन जोड़ने से आने वाला <code>date</code>, <code>datetime</code> या <code>datetimezone</code> परिणाम लौटाता है.      <ul>      <li><code>dateTime</code>: <code>date</code>, <code>datetime</code> या <code>datetimezone</code> वे मान हैं जिनमें दिनों को जोड़ा जा रहा है.</li>      <li><code>numberOfDays</code>: जोड़ने के लिए दिनों की संख्या.</li>      </ul>
 

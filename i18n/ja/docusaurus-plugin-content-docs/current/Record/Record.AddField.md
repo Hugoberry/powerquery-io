@@ -5,8 +5,6 @@ title: Record.AddField
 # Record.AddField
 
 
-## Description
-
 レコードにフィールドを追加します。
 
 
@@ -22,7 +20,7 @@ Record.AddField(
 ```
 
 
-## Details
+## Remarks
 
 レコード <code>record</code> にフィールド名 <code>fieldName</code>、値 <code>value</code> のフィールドを追加します。
 

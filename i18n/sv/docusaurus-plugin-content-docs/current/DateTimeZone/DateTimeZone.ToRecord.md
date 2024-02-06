@@ -5,8 +5,6 @@ title: DateTimeZone.ToRecord
 # DateTimeZone.ToRecord
 
 
-## Description
-
 Returnerar en post som innehåller delarna i datetimezone-värdet.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en post som innehåller delarna i det angivna datetimezone-värdet <code>dateTimeZone</code>. <ul>        <li><code>dateTimeZone</code>: Ett <code>datetimezone</code>-värde som posten med värdets delar ska beräknas från.</li>      </ul>
 

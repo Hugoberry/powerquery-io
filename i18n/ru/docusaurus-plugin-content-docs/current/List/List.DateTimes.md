@@ -5,8 +5,6 @@ title: List.DateTimes
 # List.DateTimes
 
 
-## Description
-
 Формирует список значений дат на основе первоначального значения, количества и значения приращения даты.
 
 
@@ -21,7 +19,7 @@ List.DateTimes(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает список значений <code>datetime</code> размера <code>count</code>, начиная с <code>start</code>. Данное значение приращения <code>step</code> является значением <code>duration</code>, которое добавляется к каждому значению.
 

@@ -5,8 +5,6 @@ title: List.Min
 # List.Min
 
 
-## Description
-
 Retornará o valor mínimo ou o valor padrão, se a lista estiver vazia.
 
 
@@ -22,7 +20,7 @@ List.Min(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o item mínimo da lista <code>list</code> ou o valor padrão <code>default</code> opcional, caso a lista esteja vazia.    Um valor comparisonCriteria opcional <code>comparisonCriteria</code> pode ser especificado para determinar como comparar os itens na lista. Se esse parâmetro for nulo, o comparador padrão será usado.
 

@@ -5,8 +5,6 @@ title: Date.IsInPreviousDay
 # Date.IsInPreviousDay
 
 
-## Description
-
 Wskazuje, czy ta data przypada w poprzednim dniu określonym zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że ta funkcja zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącego dnia.
 
 
@@ -19,7 +17,7 @@ Date.IsInPreviousDay(
 ```
 
 
-## Details
+## Remarks
 
 Wskazuje, czy dana wartość daty/godziny <code>dateTime</code> przypada w poprzednim dniu określonym zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w bieżącym dniu.      <ul>      <li><code>dateTime</code>: wartość <code>date</code>, <code>datetime</code> lub <code>datetimezone</code> do oszacowania.</li>      </ul>
 

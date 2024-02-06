@@ -5,8 +5,6 @@ title: Number.Acos
 # Number.Acos
 
 
-## Description
-
 Zwraca arcus cosinus liczby.
 
 
@@ -19,7 +17,7 @@ Number.Acos(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca arcus cosinus liczby <code>number</code>.
 

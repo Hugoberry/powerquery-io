@@ -5,8 +5,6 @@ title: Comparer.Ordinal
 # Comparer.Ordinal
 
 
-## Description
-
 Returnerer en sammenligningsfunktion, som bruger regler for ordenstal til sammenligning af værdier.
 
 
@@ -20,7 +18,7 @@ Comparer.Ordinal(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en sammenligningsfunktion, der bruger ordensregler til at sammenligne de angivne værdier <code>x</code> og <code>y</code>.<br />      <br />      En sammenligningsfunktion accepterer to argumenter og returnerer -1, 0 eller 1 baseret på, om den første værdi er mindre end, lig med eller større end den anden.    
 

@@ -5,8 +5,6 @@ title: Cube.MeasureProperty
 # Cube.MeasureProperty
 
 
-## Description
-
 Bir ölçünün bir özelliğini (hücre özelliği) döndürür.
 
 
@@ -20,7 +18,7 @@ Cube.MeasureProperty(
 ```
 
 
-## Details
+## Remarks
 
 <code>measure</code> ölçüsünün <code>propertyName</code> özelliğini döndürür.
 

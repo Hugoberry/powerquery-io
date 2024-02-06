@@ -5,8 +5,6 @@ title: Table.AddIndexColumn
 # Table.AddIndexColumn
 
 
-## Description
-
 Voegt een kolom met expliciete positiewaarden bij.
 
 
@@ -23,7 +21,7 @@ Table.AddIndexColumn(
 ```
 
 
-## Details
+## Remarks
 
 Voegt een kolom genaamd <code>newColumnName</code> toe aan <code>table</code> met expliciete positiewaarden.    Een optionele waarde, <code>initialValue</code>, de aanvankelijke indexwaarde. Een optionele waarde, <code>increment</code>, geeft aan met hoeveel elke indexwaarde steeds wordt verhoogd.
 

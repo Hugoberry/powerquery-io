@@ -5,8 +5,6 @@ title: Table.IsDistinct
 # Table.IsDistinct
 
 
-## Description
-
 指示表是否仅包含非重复行(没有重复项)。
 
 
@@ -20,7 +18,7 @@ Table.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 指示 <code>table</code> 是否仅包含非重复行(没有重复项)。如果行为非重复行，则返回 <code>true</code>；否则返回 <code>false</code>。    可选参数 <code>comparisonCriteria</code> 指定对表中的哪些列进行测试以确定是否具有重复项。如果未指定 <code>comparisonCriteria</code>，则测试所有列。
 

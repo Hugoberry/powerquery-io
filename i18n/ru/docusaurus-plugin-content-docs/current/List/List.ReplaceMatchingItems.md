@@ -5,8 +5,6 @@ title: List.ReplaceMatchingItems
 # List.ReplaceMatchingItems
 
 
-## Description
-
 Применяет все замены вида \{ old, new }.
 
 
@@ -21,7 +19,7 @@ List.ReplaceMatchingItems(
 ```
 
 
-## Details
+## Remarks
 
 Выполняет заданные замены в списке <code>list</code>. В операции замены <code>replacements</code> применяется список из пар значений, старого и нового.    Необязательное значение критерия уравнения <code>equationCriteria</code> можно указать для управления проверкой на равенство.
 

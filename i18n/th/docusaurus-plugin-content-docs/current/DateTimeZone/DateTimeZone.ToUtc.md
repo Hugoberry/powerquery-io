@@ -5,8 +5,6 @@ title: DateTimeZone.ToUtc
 # DateTimeZone.ToUtc
 
 
-## Description
-
 แปลงคอมโพเนนต์โซนเวลาเป็นโซนเวลา UTC
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToUtc(
 ```
 
 
-## Details
+## Remarks
 
 เปลี่ยนแปลงข้อมูลโซนเวลาของค่าวันที่เวลา <code>dateTimeZone</code> เป็นข้อมูลโซนเวลา UTC หรือเวลาสากล    ถ้า <code>dateTimeZone</code> ไม่มีคอมโพเนนต์โซนเวลา ข้อมูลโซนเวลา UTC จะถูกเพิ่ม
 

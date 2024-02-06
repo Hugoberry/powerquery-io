@@ -5,8 +5,6 @@ title: Comparer.FromCulture
 # Comparer.FromCulture
 
 
-## Description
-
 根据指定的区域性和区分大小写返回比较器函数。
 
 
@@ -20,7 +18,7 @@ Comparer.FromCulture(
 ```
 
 
-## Details
+## Remarks
 
 返回比较器函数，该函数使用 <code>culture</code> 和 <code>ignoreCase</code> 指定的区分大小写来执行比较。<br />      <br />      比较器函数接受两个参数，并根据第一个值是小于、等于还是大于第二个值返回 -1、0 或 1。<br />      <br />      <code>ignoreCase</code> 的默认值为 false。<code>culture</code> 应为 .NET framework 支持的区域设置之一(例如，"en-US")。    
 

@@ -5,8 +5,6 @@ title: Date.EndOfWeek
 # Date.EndOfWeek
 
 
-## Description
-
 Trả về thời gian cuối tuần.
 
 
@@ -20,7 +18,7 @@ Date.EndOfWeek(
 ```
 
 
-## Details
+## Remarks
 
 Trả về thời gian cuối tuần chứa <code>dateTime</code>.    Hàm này lấy <code>Day</code> tùy chọn, <code>firstDayOfWeek</code>, để đặt làm ngày đầu tiên trong tuần cho phép tính tương đối này. Giá trị mặc định là <code>Day.Sunday</code>.      <ul>        <li><code>dateTime</code>: Giá trị <code>date</code>, <code>datetime</code> hoặc <code>datetimezone</code> mà từ đó tính toán ra ngày cuối của tuần</li>        <li><code>firstDayOfWeek</code>: <i>[Tùy chọn]</i> Giá trị <code>Day.Type</code> biểu thị ngày đầu tiên trong tuần. Các giá trị có thể có là <code>Day.Sunday</code>, <code>Day.Monday</code>, <code>Day.Tuesday</code>, <code>Day.Wednesday</code>, <code>Day.Thursday</code>, <code>Day.Friday</code> và <code>Day.Saturday.</code> .Giá trị mặc định là <code>Day.Sunday</code>.</li>      </ul>
 

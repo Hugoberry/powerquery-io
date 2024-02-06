@@ -5,8 +5,6 @@ title: Table.LastN
 # Table.LastN
 
 
-## Description
-
 Gibt die angegebene Anzahl der letzten Zeilen zurück.
 
 
@@ -20,7 +18,7 @@ Table.LastN(
 ```
 
 
-## Details
+## Remarks
 
 Gibt abhängig vom <code>countOrCondition</code>-Wert die letzte(n) Zeile(n) aus der Tabelle '<code>table</code>' zurück:    <ul>    <li> Ist "<code>countOrCondition</code>" eine Zahl, wird die entsprechende Anzahl von Zeilen ab der Position "(end - <code>countOrCondition</code>)" zurückgegeben. </li>    <li> Ist "<code>countOrCondition</code>" eine Bedingung, werden in aufsteigender Richtung so lange Zeilen zurückgegeben, die die Bedingung erfüllen, bis eine Zeile die Bedingung nicht erfüllt.</li></ul>
 

@@ -5,8 +5,6 @@ title: List.Split
 # List.Split
 
 
-## Description
-
 Divide a lista especificada numa lista de listas com o tamanho de página especificado.
 
 
@@ -20,7 +18,7 @@ List.Split(
 ```
 
 
-## Details
+## Remarks
 
 Divide <code>list</code> numa lista de listas em que o primeiro elemento da lista de resultados é uma lista que contém os primeiros <code>pageSize</code> elementos da    lista de origem, o elemento seguinte da lista de resultados é uma lista que contém os <code>pageSize</code> elementos seguintes da lista de origem, etc.
 

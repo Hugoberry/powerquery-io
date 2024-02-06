@@ -5,8 +5,6 @@ title: List.Single
 # List.Single
 
 
-## Description
-
 Bir birim uzunluktaki bir liste için bir liste öğesi döndürür, aksi halde özel durum atar.
 
 
@@ -19,7 +17,7 @@ List.Single(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesinde yalnızca bir öğe varsa bu öğeyi döndürür.    Listede birden çok öğe varsa veya liste boşsa işlev bir özel durum döndürür.
 

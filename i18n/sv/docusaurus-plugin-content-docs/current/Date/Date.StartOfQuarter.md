@@ -5,8 +5,6 @@ title: Date.StartOfQuarter
 # Date.StartOfQuarter
 
 
-## Description
-
 Returnerar början på kvartalet.
 
 
@@ -19,7 +17,7 @@ Date.StartOfQuarter(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar början på kvartalet som innehåller <code>dateTime</code>.      <code>dateTime</code> måste vara ett <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde.
 

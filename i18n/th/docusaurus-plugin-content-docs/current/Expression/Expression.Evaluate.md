@@ -5,8 +5,6 @@ title: Expression.Evaluate
 # Expression.Evaluate
 
 
-## Description
-
 ส่งกลับผลลัพธ์ของการประเมินนิพจน์ M
 
 
@@ -20,7 +18,7 @@ Expression.Evaluate(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลลัพธ์ของการประเมินนิพจน์ M <code>document</code> ด้วยตัวระบุที่พร้อมใช้งานซึ่งสามารถอ้างอิงและกำหนดได้โดย <code>environment</code>
 

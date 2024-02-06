@@ -5,8 +5,6 @@ title: List.IsEmpty
 # List.IsEmpty
 
 
-## Description
-
 Returnerar true om listan är tom.
 
 
@@ -19,7 +17,7 @@ List.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar <code>true</code> om listan, <code>list</code>, inte innehåller några värden (längd 0). Om listan innehåller värden (längd > 0) returneras <code>false</code>.
 

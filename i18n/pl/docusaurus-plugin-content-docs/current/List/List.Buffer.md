@@ -5,8 +5,6 @@ title: List.Buffer
 # List.Buffer
 
 
-## Description
-
 Buforuje listę.
 
 
@@ -19,7 +17,7 @@ List.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Buforuje listę <code>list</code> w pamięci. Wynikiem tego wywołania jest stabilna lista.
 

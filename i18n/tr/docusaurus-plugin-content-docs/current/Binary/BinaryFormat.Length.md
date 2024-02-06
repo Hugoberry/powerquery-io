@@ -5,8 +5,6 @@ title: BinaryFormat.Length
 # BinaryFormat.Length
 
 
-## Description
-
 Okunabilecek veri miktarını sınırlayan bir ikili biçimi döndürür.
 
 
@@ -20,7 +18,7 @@ BinaryFormat.Length(
 ```
 
 
-## Details
+## Remarks
 
 Okunabilecek veri miktarını sınırlayan bir ikili biçim döndürür. Verilerin sonuna kadar okumak için hem <code>BinaryFormat.List</code> hem de <code>BinaryFormat.Binary</code> kullanılabilir. <code>BinaryFormat.Length</code>, okunan bayt sayısını sınırlamak için kullanılabilir. <code>binaryFormat</code> parametresi, sınırlandırılacak ikili formatı belirtir. <code>length</code> parametresi okunacak bayt sayısını belirtir. <code>length</code> parametresi, bir sayı değeri veya okunan değerden önce görünen uzunluk değerinin biçimini belirten bir ikili biçim değeri olabilir.
 

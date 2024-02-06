@@ -15,7 +15,7 @@ SparkPost.GetList(
 ```
 
 
-## Details
+## Remarks
 
 Ta funkcja umożliwia wywołanie dowolnego z punktów końcowych „Lists” dostępnego w interfejsie API SparkPost w wersji 1. W przypadku wywoływania interfejsu API SparkPost przy użyciu tej funkcji należy pamiętać, że interfejs API SparkPost ma ścisły limit szybkości interfejsu API. Jeśli z serwera SparkPost jest zwracany kod stanu 429, oznacza to, że osiągnięto limit szybkości i trzeba chwilę poczekać przed wykonaniem kolejnych wywołań.
 

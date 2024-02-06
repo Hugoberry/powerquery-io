@@ -5,8 +5,6 @@ title: Xml.Document
 # Xml.Document
 
 
-## Description
-
 階層テーブルとして XML ドキュメントのコンテンツを返します。
 
 
@@ -20,7 +18,7 @@ Xml.Document(
 ```
 
 
-## Details
+## Remarks
 
 階層テーブルとして XML ドキュメントのコンテンツを返します。
 

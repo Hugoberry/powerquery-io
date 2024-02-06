@@ -5,8 +5,6 @@ title: Smartsheet.Content
 # Smartsheet.Content
 
 
-## Description
-
 น้ำกลับข้อมูลตารางจากจุดแสดงผลดัชนีของ Smartsheet
 
 
@@ -19,7 +17,7 @@ Smartsheet.Content(
 ```
 
 
-## Details
+## Remarks
 
 เรียกหา Smartsheet 2.0 REST API ที่จุดแสดงผลเฉพาะและเปลี่ยนส่วนประกอบของข้อมูลที่ถูกนำกลับไปยังตาราง
 

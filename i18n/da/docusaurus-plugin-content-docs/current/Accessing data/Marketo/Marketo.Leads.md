@@ -5,8 +5,6 @@ title: Marketo.Leads
 # Marketo.Leads
 
 
-## Description
-
 Returnerer en tabel med oplysninger om kundeemner.
 
 
@@ -21,7 +19,7 @@ Marketo.Leads(
 ```
 
 
-## Details
+## Remarks
 
 Foretager et kald til Marketo REST API-slutpunktet på <code>url</code>/rest/v1/leads.json. Alle kundeemner på listen <code>leadIds</code> returneres.
 

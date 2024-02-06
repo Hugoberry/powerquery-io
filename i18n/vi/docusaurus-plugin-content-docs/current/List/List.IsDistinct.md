@@ -5,8 +5,6 @@ title: List.IsDistinct
 # List.IsDistinct
 
 
-## Description
-
 Cho biết có giá trị trùng lặp trong danh sách hay không.
 
 
@@ -20,7 +18,7 @@ List.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 Trả về giá trị lôgic có hay không có giá trị trùng lặp trong danh sách <code>list</code>; <code>true</code> nếu danh sách chứa các giá trị khác biệt, <code>false</code> nếu có giá trị trùng lặp. 
 

@@ -5,8 +5,6 @@ title: SparkPost.GetTable
 # SparkPost.GetTable
 
 
-## Description
-
 SparkPost API&#39;sinden (v1) ölçümlerin yer aldığı bir tablo döndürür
 
 
@@ -22,7 +20,7 @@ SparkPost.GetTable(
 ```
 
 
-## Details
+## Remarks
 
 Bu işlev, SparkPost API v1'in "Metrics" uç noktasından veri almak için kullanılabilir. Bu bağlayıcıyı kullanarak bu tabloları yenilerken veya SparkPost API'sine çağrı yaparken SparkPost API'sinin kesin bir API hız sınırı olduğunu unutmayın. SparkPost sunucusundan 429 durum kodunun döndürüldüğünü görürseniz hız sınırına ulaştınız demektir ve başka çağrı yapmadan önce birkaç saniye beklemeniz gerekir. Gün sayısı parametresi için bir değer seçerken API'nin yalnızca 6 aylık veri depoladığını akılda tutun.
 

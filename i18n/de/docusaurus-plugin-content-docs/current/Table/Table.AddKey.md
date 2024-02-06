@@ -5,8 +5,6 @@ title: Table.AddKey
 # Table.AddKey
 
 
-## Description
-
 Fügt einer Tabelle einen Schlüssel hinzu.
 
 
@@ -21,7 +19,7 @@ Table.AddKey(
 ```
 
 
-## Details
+## Remarks
 
 Fügt <code>table</code> einen Schlüssel hinzu, wobei <code>columns</code> die Liste der Spaltennamen ist, die den Schlüssel definiert, und <code>isPrimary</code> gibt an, ob es sich um den Primärschlüssel handelt.
 

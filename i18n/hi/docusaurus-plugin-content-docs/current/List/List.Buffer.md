@@ -5,8 +5,6 @@ title: List.Buffer
 # List.Buffer
 
 
-## Description
-
 किसी सूची को बफ़र करता है.
 
 
@@ -19,7 +17,7 @@ List.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 सूची <code>list</code> को स्मृति में बफ़र करता है. इस कॉल का परिणाम एक स्थिर सूची है.
 

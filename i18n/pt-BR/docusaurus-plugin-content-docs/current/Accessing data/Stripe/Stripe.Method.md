@@ -5,8 +5,6 @@ title: Stripe.Method
 # Stripe.Method
 
 
-## Description
-
 Realiza uma chamada à API da Faixa.
 
 
@@ -21,7 +19,7 @@ Stripe.Method(
 ```
 
 
-## Details
+## Remarks
 
 Realiza uma chamada para a API da faixa em https://api.stripe.com/v1/<code>método</code>, com registro <code>additionalParameters</code> considerado como parâmetros aditcionais e lista <code>ColumnNames</code> de nomes de coluna esperados. A Versão da Faixa 2015-10-16 é usada.
 

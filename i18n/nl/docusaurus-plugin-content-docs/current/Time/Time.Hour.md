@@ -5,8 +5,6 @@ title: Time.Hour
 # Time.Hour
 
 
-## Description
-
 Retourneert het uurgedeelte.
 
 
@@ -19,7 +17,7 @@ Time.Hour(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het uurgedeelte van de opgegeven waarde <code>dateTime</code> voor <code>time</code>, <code>datetime</code> of <code>datetimezone</code>.
 

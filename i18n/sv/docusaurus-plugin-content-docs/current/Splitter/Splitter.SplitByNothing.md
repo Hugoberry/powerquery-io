@@ -5,8 +5,6 @@ title: Splitter.SplitByNothing
 # Splitter.SplitByNothing
 
 
-## Description
-
 Returnerar en funktion som inte delar upp text och som returnerar sitt argument som en enda elementlista.
 
 
@@ -19,7 +17,7 @@ Splitter.SplitByNothing(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en funktion som inte delar upp text och som returnerar sitt argument som en enda elementlista.
 

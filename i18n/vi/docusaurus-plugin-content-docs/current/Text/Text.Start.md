@@ -5,8 +5,6 @@ title: Text.Start
 # Text.Start
 
 
-## Description
-
 Trả về phần đầu văn bản.
 
 
@@ -20,7 +18,7 @@ Text.Start(
 ```
 
 
-## Details
+## Remarks
 
 Trả về <code>count</code> ký tự đầu tiên của <code>text</code> ở dạng giá trị văn bản.
 

@@ -5,8 +5,6 @@ title: BinaryFormat.Single
 # BinaryFormat.Single
 
 
-## Description
-
 Một định dạng nhị phân đọc giá trị dấu chấm động có độ chính xác đơn IEEE 4 byte.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Single(
 ```
 
 
-## Details
+## Remarks
 
 Một định dạng nhị phân đọc giá trị dấu chấm động có độ chính xác đơn IEEE 4 byte.
 

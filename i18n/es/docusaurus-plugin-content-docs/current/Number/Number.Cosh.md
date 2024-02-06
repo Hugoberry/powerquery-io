@@ -5,8 +5,6 @@ title: Number.Cosh
 # Number.Cosh
 
 
-## Description
-
 Devuelve el coseno hiperbólico del número.
 
 
@@ -19,7 +17,7 @@ Number.Cosh(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve el coseno hiperbólico de <code>number</code>.
 

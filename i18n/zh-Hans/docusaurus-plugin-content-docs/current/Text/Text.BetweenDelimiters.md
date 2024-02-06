@@ -5,8 +5,6 @@ title: Text.BetweenDelimiters
 # Text.BetweenDelimiters
 
 
-## Description
-
 Text.BetweenDelimiters
 
 
@@ -23,7 +21,7 @@ Text.BetweenDelimiters(
 ```
 
 
-## Details
+## Remarks
 
 返回 <code>text</code> 中位于指定的 <code>startDelimiter</code> 和 <code>endDelimiter</code> 之间的部分。    可选数字 <code>startIndex</code> 指示要考虑哪一次出现的 <code>startDelimiter</code>。    可选列表 <code>startIndex</code> 指示要考虑哪一次出现的 <code>startDelimiter</code>，以及应从输入的开头还是结尾编制索引。    <code>endIndex</code> 类似，不同之处在于，相对于 <code>startIndex</code> 编制索引。
 

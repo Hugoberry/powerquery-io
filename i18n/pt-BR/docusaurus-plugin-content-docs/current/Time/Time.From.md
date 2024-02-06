@@ -5,8 +5,6 @@ title: Time.From
 # Time.From
 
 
-## Description
-
 Cria uma hora a partir do valor especificado.
 
 
@@ -20,7 +18,7 @@ Time.From(
 ```
 
 
-## Details
+## Remarks
 
 Retorna um valor <code>time</code> com base no <code>value</code> especificado. Um <code>culture</code> opcional também pode ser fornecido (por exemplo, "en-US").Se o <code>value</code> especificado for <code>null</code>, <code>Time.From</code> retornará <code>null</code>. Se o <code>value</code> especificado for <code>time</code>, <code>value</code> será retornado. Os valores dos seguintes tipos podem ser convertidos em um valor <code>time</code>:      <ul>        <li><code>text</code>: um valor <code>time</code> da representação textual. Confira <code>Time.FromText</code> para obter informações detalhadas.</li>        <li><code>datetime</code>: o componente de hora do <code>value</code>.</li>        <li><code>datetimezone</code>: o componente de hora do equivalente de datetime local <code>value</code>.</li>        <li><code>number</code>: um equivalente de <code>time</code> para o número de dias fracionários expressos por <code>value</code>. Se <code>value</code> for negativo ou superior ou igual a 1, um erro será retornado.</li>      </ul>Se <code>value</code> for de qualquer outro tipo, um erro será retornado.
 

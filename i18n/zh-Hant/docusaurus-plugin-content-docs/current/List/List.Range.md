@@ -5,8 +5,6 @@ title: List.Range
 # List.Range
 
 
-## Description
-
 傳回清單從位移處開始的子集。
 
 
@@ -21,7 +19,7 @@ List.Range(
 ```
 
 
-## Details
+## Remarks
 
 傳回清單從位移 <code>list</code> 開始的子集。選擇性的參數 <code>offset</code> 可設定子集中的最大項目數目。
 

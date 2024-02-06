@@ -5,8 +5,6 @@ title: AzureDevOpsServer.Views
 # AzureDevOpsServer.Views
 
 
-## Description
-
 輸入組織和專案名稱。
 
 
@@ -22,7 +20,7 @@ AzureDevOpsServer.Views(
 ```
 
 
-## Details
+## Remarks
 
 傳回 Azure DevOps 提供的 OData 摘要資料表。
 

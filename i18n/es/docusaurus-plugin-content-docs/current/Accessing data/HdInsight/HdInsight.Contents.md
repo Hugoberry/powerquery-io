@@ -5,8 +5,6 @@ title: HdInsight.Contents
 # HdInsight.Contents
 
 
-## Description
-
 Devuelve una tabla de navegación que contiene los contenedores encontrados en la cuenta especificada de un depósito de Azure.
 
 
@@ -19,7 +17,7 @@ HdInsight.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una tabla de navegación que contiene una fila por cada contenedor encontrado en la dirección URL de la cuenta, <code>account</code>, de un depósito de Azure. Cada fila contiene un vínculo a los blobs del contenedor.
 

@@ -5,8 +5,6 @@ title: Splitter.SplitTextByLengths
 # Splitter.SplitTextByLengths
 
 
-## Description
-
 返回一个函数，它按每个指定的长度将文本拆分为文本列表。
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByLengths(
 ```
 
 
-## Details
+## Remarks
 
 返回一个函数，它按每个指定的长度将文本拆分为文本列表。
 

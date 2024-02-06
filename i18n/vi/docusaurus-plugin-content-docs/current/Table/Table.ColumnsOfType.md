@@ -5,8 +5,6 @@ title: Table.ColumnsOfType
 # Table.ColumnsOfType
 
 
-## Description
-
 Trả về danh sách tên các cột phù hợp với những loại đã chỉ định.
 
 
@@ -20,7 +18,7 @@ Table.ColumnsOfType(
 ```
 
 
-## Details
+## Remarks
 
 Trả về danh sách tên các cột từ bảng <code>table</code> phù hợp với những loại được chỉ định trong <code>listOfTypes</code>.
 

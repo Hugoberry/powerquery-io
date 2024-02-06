@@ -5,8 +5,6 @@ title: List.Difference
 # List.Difference
 
 
-## Description
-
 Restituisce la differenza dei due elenchi specificati.
 
 
@@ -21,7 +19,7 @@ List.Difference(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce gli elementi dell'elenco <code>list1</code> che non sono presenti nell'elenco <code>list2</code>. I valori duplicati sono supportati.    È possibile specificare un valore dei criteri di equazione facoltativo, <code>equationCriteria</code>, per verificare il test di uguaglianza. 
 

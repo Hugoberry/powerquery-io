@@ -5,8 +5,6 @@ title: DateTime.Time
 # DateTime.Time
 
 
-## Description
-
 Returnerer klokkeslætsdelen for den angivne værdi af typen datetime.
 
 
@@ -19,7 +17,7 @@ DateTime.Time(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer klokkeslætsdelen for den angivne værdi af typen datetime, <code>dateTime</code>.
 

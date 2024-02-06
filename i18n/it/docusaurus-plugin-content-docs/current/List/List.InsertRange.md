@@ -5,8 +5,6 @@ title: List.InsertRange
 # List.InsertRange
 
 
-## Description
-
 Inserisce i valori in un elenco in corrispondenza dell&#39;indice specificato.
 
 
@@ -21,7 +19,7 @@ List.InsertRange(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un nuovo elenco prodotto dall'inserimento dei valori di <code>values</code> in <code>list</code> in corrispondenza di <code>index</code>. La prima posizione dell'elenco è in corrispondenza dell'indice 0.      <ul>        <li><code>list</code>: elenco di destinazione in cui devono essere inseriti i valori.</li>        <li><code>index</code>: l'indice dell'elenco di destinazione (<code>list</code>) in cui devono essere inseriti i valori. La prima posizione dell'elenco è in corrispondenza dell'indice 0.</li>        <li><code>values</code>: l'elenco dei valori che devono essere inseriti in <code>list</code>.</li>      </ul>
 

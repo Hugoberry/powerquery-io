@@ -5,8 +5,6 @@ title: Splitter.SplitTextByRepeatedLengths
 # Splitter.SplitTextByRepeatedLengths
 
 
-## Description
-
 Возвращает функцию, которая разбивает текст на текстовый список в цикле, после каждого отрезка указанной длины.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByRepeatedLengths(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает функцию, которая разбивает текст на текстовый список в цикле, после каждого отрезка указанной длины.
 

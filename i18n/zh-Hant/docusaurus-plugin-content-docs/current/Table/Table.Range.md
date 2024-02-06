@@ -5,8 +5,6 @@ title: Table.Range
 # Table.Range
 
 
-## Description
-
 傳回資料列，從指定的位移開始。
 
 
@@ -21,7 +19,7 @@ Table.Range(
 ```
 
 
-## Details
+## Remarks
 
 傳回 <code>table</code> 中的資料列，從指定的 <code>offset</code> 開始。選擇性參數 <code>count</code> 會指定要傳回的資料列數目。根據預設，系統會傳回該位移之後的所有資料列。
 

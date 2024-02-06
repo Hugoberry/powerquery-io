@@ -5,8 +5,6 @@ title: Time.StartOfHour
 # Time.StartOfHour
 
 
-## Description
-
 ส่งกลับจุดเริ่มต้นของชั่วโมง
 
 
@@ -19,7 +17,7 @@ Time.StartOfHour(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับจุดเริ่มต้นของชั่วโมงที่แสดงโดย <code>dateTime</code>    <code>dateTime</code> ต้องเป็นค่า<code>วันที่</code> <code>วันที่เวลา</code> หรือ<code>โซนวันที่เวลา</code>
 

@@ -5,8 +5,6 @@ title: Type.AddTableKey
 # Type.AddTableKey
 
 
-## Description
-
 Adiciona uma chave ao tipo de tabela especificado.
 
 
@@ -21,7 +19,7 @@ Type.AddTableKey(
 ```
 
 
-## Details
+## Remarks
 
 Adiciona uma chave ao tipo de tabela especificado.
 

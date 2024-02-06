@@ -5,8 +5,6 @@ title: Text.FromBinary
 # Text.FromBinary
 
 
-## Description
-
 Bir ikili biçimindeki verilerin kodunu metin olarak çözer.
 
 
@@ -20,7 +18,7 @@ Text.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 <code>encoding</code> türünü kullanarak bir ikili değerinden <code>binary</code> verisinin kodunu metin değeri olarak çözer.
 

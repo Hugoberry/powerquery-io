@@ -5,8 +5,6 @@ title: Table.MatchesAnyRows
 # Table.MatchesAnyRows
 
 
-## Description
-
 Gibt an, ob mindestens eine der Zeilen in der Tabelle die angegebene Bedingung erfüllt.
 
 
@@ -20,7 +18,7 @@ Table.MatchesAnyRows(
 ```
 
 
-## Details
+## Remarks
 
 Gibt an, ob mindestens eine der Zeilen im Element vom Typ "<code>table</code>" die Angabe "<code>condition</code>" erfüllt. Gibt <code>true</code> zurück, falls mindestens eine der Zeilen die Bedingung erfüllt. Andernfalls wird <code>false</code> zurückgegeben.
 

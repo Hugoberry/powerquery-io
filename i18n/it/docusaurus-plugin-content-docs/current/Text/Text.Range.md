@@ -5,8 +5,6 @@ title: Text.Range
 # Text.Range
 
 
-## Description
-
 Restituisce la sottostringa trovata in corrispondenza dell&#39;offset.
 
 
@@ -21,7 +19,7 @@ Text.Range(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce la sottostringa dal testo <code>text</code> trovata in corrispondenza dell'offset <code>offset</code>.    Facoltativamente, è possibile includere il parametro <code>count</code> per specificare il numero di caratteri da restituire. Genera un errore se il numero di caratteri non è sufficiente.
 

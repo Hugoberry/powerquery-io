@@ -5,8 +5,6 @@ title: Diagnostics.CorrelationId
 # Diagnostics.CorrelationId
 
 
-## Description
-
 आने वाले अनुरोधों को आउटगोइंग अनुरोधों के साथ सहसंबंधित करने के लिए एक अपारदर्शी पहचानकर्ता लौटाता है.
 
 
@@ -19,7 +17,7 @@ Diagnostics.CorrelationId(
 ```
 
 
-## Details
+## Remarks
 
 आने वाले अनुरोधों को आउटगोइंग अनुरोधों के साथ सहसंबंधित करने के लिए एक अपारदर्शी पहचानकर्ता लौटाता है.
 

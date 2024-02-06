@@ -5,8 +5,6 @@ title: Number.RandomBetween
 # Number.RandomBetween
 
 
-## Description
-
 İki sayı arasında rastgele bir sayı döndürür.
 
 
@@ -20,7 +18,7 @@ Number.RandomBetween(
 ```
 
 
-## Details
+## Remarks
 
 <code>bottom</code> ve <code>top</code> arasında rastgele bir sayı döndürür.
 

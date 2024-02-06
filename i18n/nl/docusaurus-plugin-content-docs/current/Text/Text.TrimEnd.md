@@ -5,8 +5,6 @@ title: Text.TrimEnd
 # Text.TrimEnd
 
 
-## Description
-
 Verwijdert alle volgspaties.
 
 
@@ -20,7 +18,7 @@ Text.TrimEnd(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het resultaat van het verwijderen van alle volgspaties uit de tekstwaarde <code>text</code>.
 

@@ -5,8 +5,6 @@ title: Value.Alternates
 # Value.Alternates
 
 
-## Description
-
 Thể hiện kế hoạch truy vấn thay thế.
 
 
@@ -19,7 +17,7 @@ Value.Alternates(
 ```
 
 
-## Details
+## Remarks
 
 Thể hiện kế hoạch truy vấn thay thế trong biểu thức kế hoạch truy vấn nhận được qua Value.Expression(Value.Optimize(...)). Không dành cho mục đích sử dụng khác.
 

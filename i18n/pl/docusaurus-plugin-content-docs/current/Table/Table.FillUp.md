@@ -5,8 +5,6 @@ title: Table.FillUp
 # Table.FillUp
 
 
-## Description
-
 Propaguje wartość komórki do komórek zawierających wartości null, które znajdują się w tej samej kolumnie powyżej.
 
 
@@ -20,7 +18,7 @@ Table.FillUp(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę z tabeli określonej w parametrze <code>table</code>, w której wartość następnej komórki jest propagowana do znajdujących się nad nią komórek o wartości null w kolumnie określonej w parametrze <code>columns</code>.
 

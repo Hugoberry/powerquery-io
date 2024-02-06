@@ -5,8 +5,6 @@ title: List.ReplaceMatchingItems
 # List.ReplaceMatchingItems
 
 
-## Description
-
 套用 \{ old, new } 的每個取代。
 
 
@@ -21,7 +19,7 @@ List.ReplaceMatchingItems(
 ```
 
 
-## Details
+## Remarks
 
 對清單 <code>list</code> 執行指定的取代。取代作業 <code>replacements</code> 是由清單中提供的兩個值 (舊值和新值) 清單組成。    可指定選擇性的等式條件值 <code>equationCriteria</code>，以控制等號比較測試。
 

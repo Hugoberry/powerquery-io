@@ -5,8 +5,6 @@ title: Table.First
 # Table.First
 
 
-## Description
-
 Restituisce la prima riga o un valore predefinito specificato.
 
 
@@ -20,7 +18,7 @@ Table.First(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce la prima riga di <code>table</code> o il valore predefinito facoltativo <code>default</code>, se la tabella è vuota.
 

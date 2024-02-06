@@ -5,8 +5,6 @@ title: List.RemoveLastN
 # List.RemoveLastN
 
 
-## Description
-
 Belirtilen sayıda öğeyi listenin sonundan kaldıran bir liste döndürür.
 
 
@@ -20,7 +18,7 @@ List.RemoveLastN(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen son <code>countOrCondition</code> öğeyi listenin sonundan kaldıran bir <code>list</code> listesi döndürür. <code>list</code>, <code>countOrCondition</code> altında öğeye sahipse boş bir liste döndürülür. <ul> <li>Sayı belirtilirse, bu sayı kadar öğe kaldırılır. </li> <li>Bir koşul belirtilmişse, döndürülen liste <code>list</code> içinde ölçütle eşleşen alttaki ilk öğe ile biter. Tüm öğeler koşulu sağlamadığında, başka öğe değerlendirilmez. </li> <li>Bu parametre null ise yalnızca bir öğe kaldırılır. </li> </ul>
 

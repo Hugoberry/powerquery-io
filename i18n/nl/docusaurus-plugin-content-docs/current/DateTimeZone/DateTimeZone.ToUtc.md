@@ -5,8 +5,6 @@ title: DateTimeZone.ToUtc
 # DateTimeZone.ToUtc
 
 
-## Description
-
 Zet het tijdzonegedeelte om naar de UTC-tijdzone.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToUtc(
 ```
 
 
-## Details
+## Remarks
 
 Wijzigt informatie over de tijdzone van de datum-/tijdwaarde <code>dateTimeZone</code> in informatie over de UTC- of Universal Time-tijdzone.    Als <code>dateTimeZone</code> geen tijdzonegedeelte heeft, wordt de informatie over de UTC-tijdzone toegevoegd.
 

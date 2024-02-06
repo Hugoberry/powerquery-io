@@ -5,8 +5,6 @@ title: Table.SplitColumn
 # Table.SplitColumn
 
 
-## Description
-
 Teilt die angegebenen Spalten unter Verwendung der angegebenen Aufteilungsfunktion in eine Gruppe zusätzlicher Spalten auf.
 
 
@@ -24,7 +22,7 @@ Table.SplitColumn(
 ```
 
 
-## Details
+## Remarks
 
 Teilt die angegebenen Spalten unter Verwendung der angegebenen Aufteilungsfunktion in eine Gruppe zusätzlicher Spalten auf.
 

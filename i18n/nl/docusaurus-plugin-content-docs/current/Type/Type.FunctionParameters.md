@@ -5,8 +5,6 @@ title: Type.FunctionParameters
 # Type.FunctionParameters
 
 
-## Description
-
 Retourneert een record met veldwaarden die zijn ingesteld op de naam van de parameters van een functietype, waarbij hun waarden zijn ingesteld op de overeenkomende typen.
 
 
@@ -19,7 +17,7 @@ Type.FunctionParameters(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een record met veldwaarden die zijn ingesteld op de naam van de parameters van <code>type</code>, waarbij hun waarden zijn ingesteld op de overeenkomende typen.
 

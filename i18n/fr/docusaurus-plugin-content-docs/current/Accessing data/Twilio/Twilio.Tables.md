@@ -5,8 +5,6 @@ title: Twilio.Tables
 # Twilio.Tables
 
 
-## Description
-
 Entrez le nombre de mois des données Twilio historiques à récupérer.
 
 
@@ -19,7 +17,7 @@ Twilio.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une table avec les données Twilio appropriées.
 

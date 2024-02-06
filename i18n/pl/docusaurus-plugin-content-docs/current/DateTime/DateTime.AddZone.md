@@ -5,8 +5,6 @@ title: DateTime.AddZone
 # DateTime.AddZone
 
 
-## Description
-
 Dodaje informacje o strefie czasowej do wartości daty/godziny.
 
 
@@ -21,7 +19,7 @@ DateTime.AddZone(
 ```
 
 
-## Details
+## Remarks
 
 Dodaje informacje o strefie czasowej do wartości <code>dateTime</code>. Informacje o strefie czasowej obejmują <code>timezoneHours</code> i opcjonalnie <code>timezoneMinutes</code>, które określają żądane przesunięcie od czasu UTC.
 

@@ -15,7 +15,7 @@ SparkPost.GetList(
 ```
 
 
-## Details
+## Remarks
 
 Bu işlev, SparkPost API v1 "Lists" uç noktalarından herhangi birini çağırmak için kullanılabilir. Bu işlevi kullanarak SparkPost API'sine çağrı yaparken SparkPost API'sinin kesin bir API hız sınırı olduğunu unutmayın. SparkPost sunucusundan 429 durum kodunun döndürüldüğünü görürseniz hız sınırına ulaştınız demektir ve başka çağrı yapmadan önce birkaç saniye beklemeniz gerekir.
 

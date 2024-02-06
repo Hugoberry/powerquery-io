@@ -5,8 +5,6 @@ title: Expression.Constant
 # Expression.Constant
 
 
-## Description
-
 Hiermee wordt de M-broncodeweergave van een constante waarde geretourneerd.
 
 
@@ -19,7 +17,7 @@ Expression.Constant(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt de M-broncodeweergave van een constante waarde geretourneerd.
 

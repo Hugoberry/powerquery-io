@@ -5,8 +5,6 @@ title: Text.AfterDelimiter
 # Text.AfterDelimiter
 
 
-## Description
-
 Text.AfterDelimiter
 
 
@@ -21,7 +19,7 @@ Text.AfterDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 返回指定的 <code>delimiter</code> 之后的 <code>text</code> 部分。    可选数字 <code>index</code> 指示要考虑哪一次出现的 <code>delimiter</code>。    可选列表 <code>index</code> 指示要考虑哪一次出现的 <code>delimiter</code>，以及应从输入的开头还是结尾编制索引。
 

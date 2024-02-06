@@ -5,8 +5,6 @@ title: Table.PrefixColumns
 # Table.PrefixColumns
 
 
-## Description
-
 Trả về một bảng trong đó tất cả các cột đều đã được thêm tiền tố là văn bản cho sẵn.
 
 
@@ -20,7 +18,7 @@ Table.PrefixColumns(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bảng trong đó tất cả tên cột từ <code>table</code> cho sẵn đều được thêm tiền tố là văn bản <code>prefix</code> cho sẵn cùng với một dấu chấm ở dạng <code><code>prefix</code>.ColumnName</code>.
 

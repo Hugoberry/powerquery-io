@@ -5,8 +5,6 @@ title: SqlExpression.ToExpression
 # SqlExpression.ToExpression
 
 
-## Description
-
 Convertit la requête SQL fournie en code M. Cette fonction est destinée à un usage interne uniquement.
 
 
@@ -20,7 +18,7 @@ SqlExpression.ToExpression(
 ```
 
 
-## Details
+## Remarks
 
 Convertit la <code>sql</code> requête fournie en code M, avec les identifiants disponibles définis par <code>environment</code>. Cette fonction est destinée à un usage interne uniquement.
 

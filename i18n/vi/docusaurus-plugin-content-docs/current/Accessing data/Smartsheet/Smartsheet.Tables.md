@@ -5,8 +5,6 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-## Description
-
 Trả về bảng bao gồm các trang tính, báo cáo, thư mục và không gian làm việc từ API Smartsheet
 
 
@@ -19,7 +17,7 @@ Smartsheet.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Trả về bảng lồng nhau bao gồm các trang tính, báo cáo, thư mục và không gian làm việc sẵn có từ API Smartsheet.
 

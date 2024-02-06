@@ -5,8 +5,6 @@ title: Binary.Split
 # Binary.Split
 
 
-## Description
-
 Belirtilen sayfa boyutunu kullanarak belirtilen ikiliyi bir ikililer listesine ayırır.
 
 
@@ -20,7 +18,7 @@ Binary.Split(
 ```
 
 
-## Details
+## Remarks
 
 <code>binary</code> öğesini; çıkış listesinin ilk öğesinin kaynak ikilideki ilk <code>pageSize</code> baytı barındıran bir ikili olduğu, sonraki öğenin ise    kaynak ikiliden sonraki <code>pageSize</code> baytı barındıran bir ikili olduğu ve bu şekilde devam eden bir ikili listesine ayırır.
 

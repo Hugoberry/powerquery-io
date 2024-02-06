@@ -5,8 +5,6 @@ title: Table.ExpandTableColumn
 # Table.ExpandTableColumn
 
 
-## Description
-
 Expanderar en kolumn med poster eller en kolumn med tabeller till flera kolumner i den övergripande tabellen.
 
 
@@ -22,7 +20,7 @@ Table.ExpandTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Expanderar tabeller i <code>table</code>[<code>column</code>] till flera rader och kolumner. <code>columnNames</code> används för att välja de kolumner som ska expanderas från den inre tabellen. Använd <code>newColumnNames</code> för att undvika konflikter mellan befintliga och nya kolumner.
 

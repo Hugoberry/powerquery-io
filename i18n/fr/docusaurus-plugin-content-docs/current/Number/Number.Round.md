@@ -5,8 +5,6 @@ title: Number.Round
 # Number.Round
 
 
-## Description
-
 Retourne le nombre arrondi. Le nombre de chiffres et le mode d&#39;arrondi peut être spécifié.
 
 
@@ -21,7 +19,7 @@ Number.Round(
 ```
 
 
-## Details
+## Remarks
 
 Retourne le résultat de l’arrondi <code>number</code> au nombre le plus proche. Si <code>number</code> a la valeur null, <code>Number.Round</code> retourne null. <br />      <br /> Par défaut, <code>number</code> est arrondi à l’entier le plus proche, et les liens sont rompus en arrondissant au nombre pair le plus proche (à l’aide de <code>RoundingMode.ToEven</code>, également appelé "arrondi bancaire"). <br />      <br />      Toutefois, ces valeurs par défaut peuvent être remplacées par les paramètres facultatifs suivants.       <ul>        <li><code>digits</code>Causes<code>number</code>: entraîne l’arrondissement au nombre spécifié de chiffres décimaux. </li>        <li><code>roundingMode</code>: remplace le comportement de liaison par défaut lorsque <code>number</code> est au niveau du milieu entre deux valeurs arrondies potentielles      (référez-vous à<code>RoundingMode.Type</code> pour connaître les valeurs possibles). </li>      </ul>
 

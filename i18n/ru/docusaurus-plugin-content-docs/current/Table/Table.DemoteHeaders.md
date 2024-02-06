@@ -5,8 +5,6 @@ title: Table.DemoteHeaders
 # Table.DemoteHeaders
 
 
-## Description
-
 Переносит заголовки столбцов в первую строку значений.
 
 
@@ -19,7 +17,7 @@ Table.DemoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Переносит заголовки столбцов (т. е. имена столбцов) в первую строку значений. Имена столбцов по умолчанию - "Column1", "Column2" и т. д.
 

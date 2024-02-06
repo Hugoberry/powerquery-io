@@ -5,8 +5,6 @@ title: Binary.Decompress
 # Binary.Decompress
 
 
-## Description
-
 Descomprime um valor binário utilizando o tipo de compressão indicado.
 
 
@@ -20,7 +18,7 @@ Binary.Decompress(
 ```
 
 
-## Details
+## Remarks
 
 Descomprime um valor binário utilizando o tipo de compressão indicado.  O resultado desta chamada é uma cópia descomprimida da entrada. Os tipos de compressão incluem:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
 

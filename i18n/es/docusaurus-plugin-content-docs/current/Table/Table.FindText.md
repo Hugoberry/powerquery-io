@@ -5,8 +5,6 @@ title: Table.FindText
 # Table.FindText
 
 
-## Description
-
 Devuelve todas las filas que contienen el texto indicado en la tabla.
 
 
@@ -20,7 +18,7 @@ Table.FindText(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve las filas de la tabla <code>table</code> que contienen el texto <code>text</code>. Si no se encuentra el texto, se devuelve una tabla vacía.
 

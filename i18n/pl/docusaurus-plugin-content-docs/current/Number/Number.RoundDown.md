@@ -5,8 +5,6 @@ title: Number.RoundDown
 # Number.RoundDown
 
 
-## Description
-
 Zwraca poprzednią największą liczbę. Można określić liczbę miejsc po przecinku.
 
 
@@ -20,7 +18,7 @@ Number.RoundDown(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wynik zaokrąglenia liczby <code>number</code> w dół do poprzedniej największej liczby całkowitej. Jeśli parametr <code>number</code> ma wartość null, funkcja zwróci wartość null.     Jeśli parametr <code>digits</code> jest określony, liczba <code>number</code> jest zaokrąglana do określonej liczby miejsc po przecinku.
 

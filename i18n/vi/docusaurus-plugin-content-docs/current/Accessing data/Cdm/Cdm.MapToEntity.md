@@ -5,8 +5,6 @@ title: Cdm.MapToEntity
 # Cdm.MapToEntity
 
 
-## Description
-
 Trả về một bảng có các cột được ánh xạ tới các thuộc tính của một thực thể trong Common Data Model, bao gồm các loại dữ liệu.
 
 
@@ -22,7 +20,7 @@ Cdm.MapToEntity(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bảng có các cột được ánh xạ tới các thuộc tính của một thực thể trong Common Data Model, bao gồm các loại dữ liệu. Các cột từ định nghĩa thực thể sẽ được thêm nếu không được ánh xạ và mọi cột chưa được ánh xạ sẽ bị loại bỏ.
 

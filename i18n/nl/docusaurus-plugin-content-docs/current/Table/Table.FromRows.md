@@ -5,8 +5,6 @@ title: Table.FromRows
 # Table.FromRows
 
 
-## Description
-
 Hiermee maakt u een tabel op basis van een lijst met rijwaarden en optionele kolommen
 
 
@@ -20,7 +18,7 @@ Table.FromRows(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee maakt u een tabel op basis van de lijst <code>rows</code>, waarbij elk element van de lijst een interne lijst is die de kolomwaarden voor één rij bevat. Voor <code>columns</code> kunt u een optionele lijst met kolomnamen, een tabeltype of een aantal kolommen opgeven.
 

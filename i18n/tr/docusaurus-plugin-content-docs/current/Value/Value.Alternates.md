@@ -5,8 +5,6 @@ title: Value.Alternates
 # Value.Alternates
 
 
-## Description
-
 Alternatif sorgu planlarını ifade eder.
 
 
@@ -19,7 +17,7 @@ Value.Alternates(
 ```
 
 
-## Details
+## Remarks
 
 Value.Expression(Value.Optimize(...)) aracılığıyla edinilen bir sorgu planı ifadesi içindeki alternatif sorgu planlarını ifade eder. Diğer kullanımlar için tasarlanmamıştır.
 

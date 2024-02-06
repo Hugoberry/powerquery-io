@@ -5,8 +5,6 @@ title: List.RemoveLastN
 # List.RemoveLastN
 
 
-## Description
-
 返回一个列表，它从列表末尾删除指定数目的元素。
 
 
@@ -20,7 +18,7 @@ List.RemoveLastN(
 ```
 
 
-## Details
+## Remarks
 
 返回一个列表，它从列表 <code>list</code> 末尾删除最后 <code>countOrCondition</code> 个元素。如果 <code>list</code> 中的元素少于 <code>countOrCondition</code> 个，则返回空列表。 <ul> <li>如果指定一个数字，则最多删除这么多项。</li> <li>如果指定条件，则返回的列表以 <code>list</code> 中满足条件的倒数第一个元素结尾。一旦某个项不满足该条件，则不再考虑其他项。</li> <li>如果此参数为 null，则仅删除一项。</li> </ul>
 

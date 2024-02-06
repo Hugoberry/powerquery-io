@@ -5,8 +5,6 @@ title: Binary.Range
 # Binary.Range
 
 
-## Description
-
 ส่งกลับชุดย่อยของค่าไบนารีที่เริ่มต้นที่ออฟเซต
 
 
@@ -21,7 +19,7 @@ Binary.Range(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับชุดย่อยของค่าไบนารีที่เริ่มต้นที่ออฟเซต <code>binary</code> พารามิเตอร์ <code>offset</code> ที่เลือกได้จะกำหนดความยาวสูงสุดของชุดย่อย
 

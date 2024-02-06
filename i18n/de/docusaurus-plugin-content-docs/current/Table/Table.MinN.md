@@ -5,8 +5,6 @@ title: Table.MinN
 # Table.MinN
 
 
-## Description
-
 Gibt anhand der angegebenen Kriterien die kleinsten Zeilen zurück.
 
 
@@ -21,7 +19,7 @@ Table.MinN(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die kleinsten Zeilen im Element vom Typ "<code>table</code>" anhand von "<code>comparisonCriteria</code>" zurück. Nach dem Sortieren der Zeilen muss zur weiteren Filterung des Ergebnisses der Parameter "<code>countOrCondition</code>" angegeben werden. Beachten Sie, dass der Sortieralgorithmus kein festes sortiertes Ergebnis gewährleisten kann. Mögliche Formate für den Parameter "<code>countOrCondition</code>":    <ul>        <li>Bei Angabe einer Zahl wird eine Liste mit bis zu <code>countOrCondition</code> Elementen in aufsteigender Reihenfolge zurückgegeben. </li>        <li> Bei Angabe einer Bedingung wird eine Liste mit Elementen zurückgegeben, die die Bedingung erfüllen. Erfüllt ein Element die Bedingung nicht, werden ab diesem Punkt keine weiteren Elemente berücksichtigt. </li> </ul>
 

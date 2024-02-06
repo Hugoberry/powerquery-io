@@ -5,8 +5,6 @@ title: List.Select
 # List.Select
 
 
-## Description
-
 Gibt eine Liste mit Werten zurück, die die Bedingung erfüllen.
 
 
@@ -20,7 +18,7 @@ List.Select(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Liste mit Werten aus der Liste "<code>list</code>" zurück, die die Auswahlbedingung "<code>selection</code>" erfüllen.
 

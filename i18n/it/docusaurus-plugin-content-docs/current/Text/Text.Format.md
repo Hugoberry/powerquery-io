@@ -5,8 +5,6 @@ title: Text.Format
 # Text.Format
 
 
-## Description
-
 Restituisce testo formattato da una stringa di formato e dagli argomenti.
 
 
@@ -21,7 +19,7 @@ Text.Format(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce testo formattato che viene creato applicando <code>arguments</code> da un elenco o record a una stringa di formato <code>formatString</code>. È anche possibile specificare un valore <code>culture</code> facoltativo, ad esempio "it-IT".
 

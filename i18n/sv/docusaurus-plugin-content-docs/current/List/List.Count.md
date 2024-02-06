@@ -5,8 +5,6 @@ title: List.Count
 # List.Count
 
 
-## Description
-
 Returnerar antalet objekt i listan.
 
 
@@ -19,7 +17,7 @@ List.Count(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar antalet objekt i listan <code>list</code>.
 

@@ -5,8 +5,6 @@ title: List.Covariance
 # List.Covariance
 
 
-## Description
-
 Devolve a covariância entre as duas listas de números.
 
 
@@ -20,7 +18,7 @@ List.Covariance(
 ```
 
 
-## Details
+## Remarks
 
 Devolve a covariância entre duas listas, <code>numberList1</code> e <code>numberList2</code>. <code>numberList1</code> e <code>numberList2</code> têm de conter o mesmo número de valores <code>number</code>.
 

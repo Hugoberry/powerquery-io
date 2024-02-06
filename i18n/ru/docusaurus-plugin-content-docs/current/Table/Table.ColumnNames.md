@@ -5,8 +5,6 @@ title: Table.ColumnNames
 # Table.ColumnNames
 
 
-## Description
-
 Возвращает имена столбцов в виде списка.
 
 
@@ -19,7 +17,7 @@ Table.ColumnNames(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает имена столбцов в таблице <code>table</code> в виде текстового списка.
 

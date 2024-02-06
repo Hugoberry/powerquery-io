@@ -5,8 +5,6 @@ title: Date.IsInCurrentYear
 # Date.IsInCurrentYear
 
 
-## Description
-
 Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob dieses Datum im aktuellen Jahr liegt.
 
 
@@ -19,7 +17,7 @@ Date.IsInCurrentYear(
 ```
 
 
-## Details
+## Remarks
 
 Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob der angegebene datetime-Wert '<code>dateTime</code>' im aktuellen Jahr liegt.      <ul>      <li><code>dateTime</code>: Ein auszuwertender <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert.</li>      </ul>
 

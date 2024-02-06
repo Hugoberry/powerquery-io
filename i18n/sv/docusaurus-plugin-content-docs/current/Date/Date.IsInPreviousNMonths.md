@@ -5,8 +5,6 @@ title: Date.IsInPreviousNMonths
 # Date.IsInPreviousNMonths
 
 
-## Description
-
 Anger om det här datumet infaller under det föregående antalet månader enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar falskt om den skickas ett värde som infaller inom den aktuella månaden.
 
 
@@ -20,7 +18,7 @@ Date.IsInPreviousNMonths(
 ```
 
 
-## Details
+## Remarks
 
 Indikerar om angivet datetime-värde <code>dateTime</code> infaller under det föregående antalet månader enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar falskt när den skickas ett värde som infaller inom den aktuella månaden.      <ul>      <li><code>dateTime</code>: Ett <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde som ska utvärderas.</li>      <li><code>months</code>: Antalet månader.</li>      </ul>
 

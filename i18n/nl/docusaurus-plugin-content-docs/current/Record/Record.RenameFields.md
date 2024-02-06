@@ -5,8 +5,6 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-## Description
-
 Past naamswijzigingen vanuit een lijst toe in de vorm \{ old, new }.
 
 
@@ -21,7 +19,7 @@ Record.RenameFields(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een record na het wijzigen van veldnamen in de invoer <code>record</code> naar de nieuwe veldnamen die zijn opgegeven in de lijst <code>renames</code>. Bij het wijzigen van meerdere veldnamen kan een geneste lijst (\{ \{old1, new1}, \{old2, new2} } worden gebruikt.
 

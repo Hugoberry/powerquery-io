@@ -5,8 +5,6 @@ title: Number.Power
 # Number.Power
 
 
-## Description
-
 Upphöjer ett tal till angivet tal.
 
 
@@ -20,7 +18,7 @@ Number.Power(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar resultatet från att <code>number</code> upphöjs till <code>power</code>.    Om <code>number</code> eller <code>power</code> är null returnerar <code>Number.Power</code> null.      <ul>        <li><code>number</code>: Basen.</li>        <li><code>power</code>: Exponenten.</li>      </ul>
 

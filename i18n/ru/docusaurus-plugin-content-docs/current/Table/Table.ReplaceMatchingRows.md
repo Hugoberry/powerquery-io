@@ -5,8 +5,6 @@ title: Table.ReplaceMatchingRows
 # Table.ReplaceMatchingRows
 
 
-## Description
-
 Заменяет все указанные строки предоставленными строками.
 
 
@@ -21,7 +19,7 @@ Table.ReplaceMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 Заменяет все указанные строки в <code>table</code> предоставленными строками. Строки, которые необходимо заменить, и сами замены определяются в <code>replacements</code> с использованием формата \{old, new}.    Для управления сравнением строк таблицы может быть указан необязательный параметр <code>equationCriteria</code>.
 

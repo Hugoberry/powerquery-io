@@ -5,8 +5,6 @@ title: Table.SelectColumns
 # Table.SelectColumns
 
 
-## Description
-
 指定された列のみを含むテーブルを返します。
 
 
@@ -21,7 +19,7 @@ Table.SelectColumns(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>columns</code> のみを含む <code>table</code> を返します。    <ul>       <li><code>table</code>: 指定のテーブル。</li>       <li><code>columns</code>: 返されるテーブル <code>table</code> の列の一覧。返されるテーブル内の列は、<code>columns</code> に一覧表示されている順序になります。</li>       <li><code>missingField</code>: <i>(Optional)</i> 列が存在しない場合の処理。例: <code>MissingField.UseNull</code> または <code>MissingField.Ignore</code>。    </li></ul>
 

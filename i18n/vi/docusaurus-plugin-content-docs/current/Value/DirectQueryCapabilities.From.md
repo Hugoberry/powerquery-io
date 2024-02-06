@@ -5,8 +5,6 @@ title: DirectQueryCapabilities.From
 # DirectQueryCapabilities.From
 
 
-## Description
-
 Hàm này chỉ nhằm mục đích sử dụng nội bộ.
 
 
@@ -19,7 +17,7 @@ DirectQueryCapabilities.From(
 ```
 
 
-## Details
+## Remarks
 
 Hàm này chỉ nhằm mục đích sử dụng nội bộ.
 

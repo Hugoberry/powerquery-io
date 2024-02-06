@@ -5,8 +5,6 @@ title: Cdm.MapToEntity
 # Cdm.MapToEntity
 
 
-## Description
-
 データ型を含め、Common Data Model のエンティティの属性にマッピングされた列を含むテーブルを返します。
 
 
@@ -22,7 +20,7 @@ Cdm.MapToEntity(
 ```
 
 
-## Details
+## Remarks
 
 データ型を含め、Common Data Model のエンティティの属性にマッピングされた列を含むテーブルを返します。マッピングされていない場合はエンティティ定義からの列が追加され、マッピングされていない列はすべて削除されます。
 

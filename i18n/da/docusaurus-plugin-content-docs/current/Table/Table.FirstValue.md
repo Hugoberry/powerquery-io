@@ -5,8 +5,6 @@ title: Table.FirstValue
 # Table.FirstValue
 
 
-## Description
-
 Returnerer den første kolonne i den første række for tabellen eller en angivet standardværdi.
 
 
@@ -20,7 +18,7 @@ Table.FirstValue(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer den første kolonne i den første række for tabellen <code>table</code> eller en angivet standardværdi.
 

@@ -5,8 +5,6 @@ title: List.AnyTrue
 # List.AnyTrue
 
 
-## Description
-
 いずれかの式が true の場合に true を返します。
 
 
@@ -19,7 +17,7 @@ List.AnyTrue(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>list</code> 内のいずれかの式が true の場合に true を返します。
 

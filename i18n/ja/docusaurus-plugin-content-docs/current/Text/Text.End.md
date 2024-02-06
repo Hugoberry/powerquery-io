@@ -5,8 +5,6 @@ title: Text.End
 # Text.End
 
 
-## Description
-
 テキストの最後の文字を返します。
 
 
@@ -20,7 +18,7 @@ Text.End(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> 値 <code>text</code> の最後の <code>count</code> 文字である <code>text</code> 値を返します。
 

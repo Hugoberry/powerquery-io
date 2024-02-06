@@ -5,8 +5,6 @@ title: List.Range
 # List.Range
 
 
-## Description
-
 Devuelve un subconjunto de la lista comenzando en un desplazamiento.
 
 
@@ -21,7 +19,7 @@ List.Range(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un subconjunto de la lista comenzando en el desplazamiento <code>list</code>. Un parámetro opcional, <code>offset</code>, establece el número máximo de elementos del subconjunto.
 

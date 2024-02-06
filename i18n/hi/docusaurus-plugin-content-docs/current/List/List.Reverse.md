@@ -5,8 +5,6 @@ title: List.Reverse
 # List.Reverse
 
 
-## Description
-
 सूची के मानों का क्रम उलटा करता है.
 
 
@@ -19,7 +17,7 @@ List.Reverse(
 ```
 
 
-## Details
+## Remarks
 
 सूची <code>list</code> के मानों वाली एक सूची उलटे क्रम में लौटाता है.
 

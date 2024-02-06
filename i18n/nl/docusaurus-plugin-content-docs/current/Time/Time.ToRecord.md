@@ -5,8 +5,6 @@ title: Time.ToRecord
 # Time.ToRecord
 
 
-## Description
-
 Retourneert een record die onderdelen van de tijdwaarde bevat.
 
 
@@ -19,7 +17,7 @@ Time.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een record met de onderdelen van de opgegeven Time-waarde, <code>time</code> geretourneerd. <ul> <li><code>time</code>: een <code>time</code>-waarde op basis waarvan de record of de onderdelen daarvan moeten worden berekend.</li> </ul>
 

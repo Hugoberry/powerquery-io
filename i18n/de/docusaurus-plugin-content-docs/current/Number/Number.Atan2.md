@@ -5,8 +5,6 @@ title: Number.Atan2
 # Number.Atan2
 
 
-## Description
-
 Gibt den Arkustangens der Division der beiden Zahlen zurück.
 
 
@@ -20,7 +18,7 @@ Number.Atan2(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Arkustangens der Division der beiden Zahlen (<code>y</code> und <code>x</code>) zurück. Die Division wird als "<code>y</code>/<code>x</code>" konstruiert.
 

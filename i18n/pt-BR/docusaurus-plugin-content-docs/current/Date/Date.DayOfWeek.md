@@ -5,8 +5,6 @@ title: Date.DayOfWeek
 # Date.DayOfWeek
 
 
-## Description
-
 Retorna um número (de 0 a 6) que indica o dia da semana do valor fornecido.
 
 
@@ -20,7 +18,7 @@ Date.DayOfWeek(
 ```
 
 
-## Details
+## Remarks
 
 Retorna um número (de 0 a 6) que indica o dia da semana do <code>dateTime</code> fornecido.  <ul>        <li><code>dateTime</code>: Um valor de <code>date</code>, <code>datetime</code> ou <code>datetimezone</code>.</li>        <li><code>firstDayOfWeek</code>: Um valor de <code>Day</code> que indica qual dia deve ser considerado como o primeiro dia da semana. Os valores permitidos são Day.Sunday, Day.Monday, Day.Tuesday, Day.Wednesday, Day.Thursday, Day.Friday ou Day.Saturday. Se o valor não for especificado, um padrão dependente da cultura será usado.</li>      </ul>
 

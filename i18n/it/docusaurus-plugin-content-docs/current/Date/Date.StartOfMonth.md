@@ -5,8 +5,6 @@ title: Date.StartOfMonth
 # Date.StartOfMonth
 
 
-## Description
-
 Restituisce l&#39;inizio del mese.
 
 
@@ -19,7 +17,7 @@ Date.StartOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce l'inizio del mese contenente <code>dateTime</code>.    <code>dateTime</code> deve essere un valore <code>date</code> o <code>datetime</code>.
 

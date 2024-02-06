@@ -5,8 +5,6 @@ title: Text.TrimEnd
 # Text.TrimEnd
 
 
-## Description
-
 Tar bort alla avslutande blanksteg.
 
 
@@ -20,7 +18,7 @@ Text.TrimEnd(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar resultatet från borttagningen av alla avslutande blanksteg från textvärdet <code>text</code>.
 

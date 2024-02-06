@@ -5,8 +5,6 @@ title: Geometry.FromWellKnownText
 # Geometry.FromWellKnownText
 
 
-## Description
-
 Преобразует текст, представляющий геометрическое значение в формате Well-Known Text (WKT), в структурированную запись.
 
 
@@ -19,7 +17,7 @@ Geometry.FromWellKnownText(
 ```
 
 
-## Details
+## Remarks
 
 Преобразует текст, представляющий геометрическое значение в формате Well-Known Text (WKT), в структурированную запись. WKT — это стандартный формат от организации Open Geospatial Consortium (OGC), который часто используется для сериализации в базах данных, включая SQL Server.
 

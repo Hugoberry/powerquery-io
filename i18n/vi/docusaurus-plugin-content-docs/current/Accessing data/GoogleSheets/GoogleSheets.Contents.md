@@ -5,8 +5,6 @@ title: GoogleSheets.Contents
 # GoogleSheets.Contents
 
 
-## Description
-
 Nhập dữ liệu từ Google Trang tính
 
 
@@ -19,7 +17,7 @@ GoogleSheets.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Nhập dữ liệu từ Google Trang tính
 

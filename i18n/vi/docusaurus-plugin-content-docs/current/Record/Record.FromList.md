@@ -5,8 +5,6 @@ title: Record.FromList
 # Record.FromList
 
 
-## Description
-
 Trả về một bản ghi khi được cho sẵn danh sách giá trị trường và tập hợp trường.
 
 
@@ -20,7 +18,7 @@ Record.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bản ghi khi được cho sẵn <code>list</code> giá trị trường và tập hợp trường.  Có thể chỉ định <code>fields</code> bằng danh sách giá trị văn bản hoặc loại bản ghi.  Lỗi được đưa ra nếu các trường không phải là duy nhất.
 

@@ -5,8 +5,6 @@ title: List.IsDistinct
 # List.IsDistinct
 
 
-## Description
-
 Geeft aan waar er dubbele waarden in de lijst staan.
 
 
@@ -20,7 +18,7 @@ List.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een logische waarde als er dubbele waarden in de lijst <code>list</code> staan; <code>true</code> als de lijst uniek is, <code>false</code> als er dubbele waarden in de lijst staan. 
 

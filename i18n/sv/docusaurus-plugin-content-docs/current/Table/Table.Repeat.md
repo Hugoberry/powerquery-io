@@ -5,8 +5,6 @@ title: Table.Repeat
 # Table.Repeat
 
 
-## Description
-
 Upprepar raderna i tabellen angivet antal gånger.
 
 
@@ -20,7 +18,7 @@ Table.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell där raderna från angivna indata, <code>table</code>, upprepas <code>count</code> gånger.
 

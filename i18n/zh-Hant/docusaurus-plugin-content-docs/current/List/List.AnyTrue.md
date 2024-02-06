@@ -5,8 +5,6 @@ title: List.AnyTrue
 # List.AnyTrue
 
 
-## Description
-
 如果任何運算式是 True，即傳回 True。
 
 
@@ -19,7 +17,7 @@ List.AnyTrue(
 ```
 
 
-## Details
+## Remarks
 
 如果清單 <code>list</code> 中的任何運算式是 True，即傳回 True。
 

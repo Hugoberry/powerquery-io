@@ -5,8 +5,6 @@ title: Text.SplitAny
 # Text.SplitAny
 
 
-## Description
-
 ส่งกลับรายการค่าข้อความที่แยกบนอักขระใดๆ ในตัวคั่น
 
 
@@ -20,7 +18,7 @@ Text.SplitAny(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับรายการค่าข้อความที่เป็นผลลัพธ์จากการแยกค่าข้อความ <code>text</code> ตามอักขระใดๆ ในตัวคั่นที่ระบุ <code>separators</code>
 

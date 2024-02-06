@@ -5,8 +5,6 @@ title: Table.ToList
 # Table.ToList
 
 
-## Description
-
 Bir tabloyu belirtilen ayırma işlevini tablodaki her değer satırına uygulayarak bir listeye dönüştürür.
 
 
@@ -20,7 +18,7 @@ Table.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Bir tabloyu belirtilen ayırma işlevini tablodaki her değer satırına uygulayarak bir listeye dönüştürür.
 

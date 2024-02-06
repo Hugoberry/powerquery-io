@@ -5,8 +5,6 @@ title: Table.PartitionValues
 # Table.PartitionValues
 
 
-## Description
-
 テーブルをパーティション分割する方法に関する情報を返します。
 
 
@@ -19,7 +17,7 @@ Table.PartitionValues(
 ```
 
 
-## Details
+## Remarks
 
 テーブルをパーティション分割する方法に関する情報を返します。元のテーブルで各列がパーティション列であるテーブルが返されます。各行は元のテーブル内のパーティションに対応します。
 

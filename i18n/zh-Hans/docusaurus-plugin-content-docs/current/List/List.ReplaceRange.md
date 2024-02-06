@@ -5,8 +5,6 @@ title: List.ReplaceRange
 # List.ReplaceRange
 
 
-## Description
-
 从特定位置开始使用替换值替换指定数目的值。
 
 
@@ -22,7 +20,7 @@ List.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 从指定的位置 <code>index</code> 开始使用列表 <code>replaceWith</code> 替换 <code>list</code> 中的 <code>count</code> 个值。
 

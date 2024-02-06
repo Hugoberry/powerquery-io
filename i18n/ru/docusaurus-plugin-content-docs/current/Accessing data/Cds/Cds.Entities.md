@@ -16,7 +16,7 @@ Cds.Entities(
 ```
 
 
-## Details
+## Remarks
 
 Подключение к экземпляру Common Data Service (Dynamics 365 и PowerApps).
 

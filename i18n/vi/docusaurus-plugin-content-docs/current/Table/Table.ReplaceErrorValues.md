@@ -5,8 +5,6 @@ title: Table.ReplaceErrorValues
 # Table.ReplaceErrorValues
 
 
-## Description
-
 Thay thế giá trị lỗi trong cột được chỉ định bằng giá trị chỉ định tương ứng.
 
 
@@ -20,7 +18,7 @@ Table.ReplaceErrorValues(
 ```
 
 
-## Details
+## Remarks
 
 Thay thế giá trị lỗi trong cột được chỉ định của <code>table</code> bằng giá trị mới trong danh sách <code>errorReplacement</code>. Định dạng của danh sách là \{\{column1, value1}, …}. Có thể chỉ có một giá trị thay thế mỗi cột, chỉ định cột nhiều lần sẽ dẫn đến lỗi.
 

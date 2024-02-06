@@ -5,8 +5,6 @@ title: Table.AddColumn
 # Table.AddColumn
 
 
-## Description
-
 เพิ่มคอลัมน์ซึ่งมีชื่อที่ระบุ ค่าจะคำนวณโดยใช้ฟังก์ชันการเลือกที่ระบุซึ่งใช้แต่ละแถวเป็นค่าที่ป้อน
 
 
@@ -22,7 +20,7 @@ Table.AddColumn(
 ```
 
 
-## Details
+## Remarks
 
 เพิ่มคอลัมน์ที่ชื่อ <code>newColumnName</code> ลงในตาราง <code>table</code> ค่าสำหรับคอลัมน์จะคำนวณโดยใช้ฟังก์ชันการเลือกที่ระบุ <code>columnGenerator</code> ซึ่งใช้แต่ละแถวเป็นค่าที่ป้อน
 

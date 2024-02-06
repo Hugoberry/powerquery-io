@@ -5,8 +5,6 @@ title: Stripe.Contents
 # Stripe.Contents
 
 
-## Description
-
 เรียกใช้ Stripe API พร้อมตัวเลือกในการจำกัดจำนวนการเรียกใช้ API
 
 
@@ -21,7 +19,7 @@ Stripe.Contents(
 ```
 
 
-## Details
+## Remarks
 
 เรียกใช้ Stripe API ที่ https://api.stripe.com/v1/<code>method</code> พร้อมส่งผ่านระเบียน <code>query</code> ทางเลือกเป็นเช่นพารามิเตอร์เพิ่มเติม และ <code>pageLimit</code> ทางเลือกเป็นเช่นขีดจำกัดสำหรับจำนวนคำขอ API จะมีการส่งคืนค่าข้อมูลล่าสุดก่อน หากไม่มีการระบุ <code>pageLimit</code> จะมีการส่งคืนค่าข้อมูลทั้งหมด มีการใช้ Stripe เวอร์ชัน 2015-10-16
 

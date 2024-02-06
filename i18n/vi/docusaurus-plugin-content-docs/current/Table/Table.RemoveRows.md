@@ -5,8 +5,6 @@ title: Table.RemoveRows
 # Table.RemoveRows
 
 
-## Description
-
 Loại bỏ số lượng hàng được chỉ định.
 
 
@@ -21,7 +19,7 @@ Table.RemoveRows(
 ```
 
 
-## Details
+## Remarks
 
 Loại bỏ <code>count</code> hàng khỏi phần đầu của <code>table</code>, bắt đầu tại <code>offset</code> được chỉ định. Tổng số mặc định 1 được sử dụng nếu tham số <code>count</code> không được cung cấp. 
 

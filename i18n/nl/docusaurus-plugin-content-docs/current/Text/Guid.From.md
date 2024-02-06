@@ -5,8 +5,6 @@ title: Guid.From
 # Guid.From
 
 
-## Description
-
 Hiermee wordt een guid-waarde geretourneerd voor een opgegeven waarde.
 
 
@@ -19,7 +17,7 @@ Guid.From(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een <code>Guid.Type</code>-waarde geretourneerd van de opgegeven <code>value</code>. Als de opgegeven <code>value</code> <code>null</code> is, retourneert <code>Guid.From</code> de waarde <code>null</code>. Er wordt een controle uitgevoerd om te bepalen of de opgegeven <code>value</code> een acceptabele indeling heeft. Acceptabele indelingen zijn opgegeven in de voorbeelden.
 

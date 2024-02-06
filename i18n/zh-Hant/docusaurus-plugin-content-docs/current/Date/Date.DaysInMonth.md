@@ -5,8 +5,6 @@ title: Date.DaysInMonth
 # Date.DaysInMonth
 
 
-## Description
-
 傳回 28 到 31 的數字，指出當月天數。
 
 
@@ -19,7 +17,7 @@ Date.DaysInMonth(
 ```
 
 
-## Details
+## Remarks
 
 傳回 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值 <code>dateTime</code> 中當月的天數。 <ul>        <li><code>dateTime</code>: 要傳回當月天數的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值。</li>      </ul>
 

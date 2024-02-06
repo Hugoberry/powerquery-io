@@ -5,8 +5,6 @@ title: Duration.Hours
 # Duration.Hours
 
 
-## Description
-
 Gibt den Stundenanteil einer Dauer zurück.
 
 
@@ -19,7 +17,7 @@ Duration.Hours(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Stundenbereich von <code>duration</code> zurück.
 

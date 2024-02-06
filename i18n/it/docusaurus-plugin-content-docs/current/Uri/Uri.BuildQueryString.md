@@ -5,8 +5,6 @@ title: Uri.BuildQueryString
 # Uri.BuildQueryString
 
 
-## Description
-
 Assemblare un record in una stringa di query URI.
 
 
@@ -19,7 +17,7 @@ Uri.BuildQueryString(
 ```
 
 
-## Details
+## Remarks
 
 Assemblare il record <code>query</code> in una stringa di query URI, usando i caratteri di escape appropriati.
 

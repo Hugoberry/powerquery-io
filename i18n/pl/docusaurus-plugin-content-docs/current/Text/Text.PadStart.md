@@ -5,8 +5,6 @@ title: Text.PadStart
 # Text.PadStart
 
 
-## Description
-
 Zwraca tekst o określonej długości, dopełniając początek danego tekstu.
 
 
@@ -21,7 +19,7 @@ Text.PadStart(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wartość typu <code>text</code> o długości <code>count</code> powstałą w wyniku dopełnienia spacjami początku wartości tekstowej <code>text</code>.    Za pomocą opcjonalnego parametru <code>character</code> można określić znak, który będzie używany do dopełniania. Domyślnie znakiem używanym do dopełniania jest spacja.
 

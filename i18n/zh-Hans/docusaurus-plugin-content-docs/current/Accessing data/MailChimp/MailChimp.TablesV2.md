@@ -5,8 +5,6 @@ title: MailChimp.TablesV2
 # MailChimp.TablesV2
 
 
-## Description
-
 返回包含关键 MailChimp 数据的表。
 
 
@@ -19,7 +17,7 @@ MailChimp.TablesV2(
 ```
 
 
-## Details
+## Remarks
 
 返回包含关键 MailChimp 数据的表。
 

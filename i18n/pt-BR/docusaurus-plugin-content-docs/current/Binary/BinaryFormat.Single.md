@@ -5,8 +5,6 @@ title: BinaryFormat.Single
 # BinaryFormat.Single
 
 
-## Description
-
 Um formato binário que lê um valor de ponto flutuante de precisão única IEEE de 4 bytes.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Single(
 ```
 
 
-## Details
+## Remarks
 
 Um formato binário que lê um valor de ponto flutuante de precisão única IEEE de 4 bytes.
 

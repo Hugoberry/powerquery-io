@@ -5,8 +5,6 @@ title: MailChimp.Instance
 # MailChimp.Instance
 
 
-## Description
-
 Trả về kết quả phản hồi thô từ điểm cuối API MailChimp.
 
 
@@ -19,7 +17,7 @@ MailChimp.Instance(
 ```
 
 
-## Details
+## Remarks
 
 Thực hiện lệnh gọi đến API MailChimp và trả về phản hồi thô.
 

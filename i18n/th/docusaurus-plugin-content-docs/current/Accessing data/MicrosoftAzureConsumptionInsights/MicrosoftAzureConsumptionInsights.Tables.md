@@ -5,8 +5,6 @@ title: MicrosoftAzureConsumptionInsights.Tables
 # MicrosoftAzureConsumptionInsights.Tables
 
 
-## Description
-
 ข้อมูลรายจ่ายเชิงลึกของ Microsoft Azure
 
 
@@ -20,7 +18,7 @@ MicrosoftAzureConsumptionInsights.Tables(
 ```
 
 
-## Details
+## Remarks
 
 ข้อมูลรายจ่ายเชิงลึกของ Microsoft Azure
 

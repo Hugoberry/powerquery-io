@@ -5,8 +5,6 @@ title: Int64.From
 # Int64.From
 
 
-## Description
-
 Создает 64-разрядное целое значение из данного значения.
 
 
@@ -21,7 +19,7 @@ Int64.From(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает 64-разрядное целочисленное значение <code>number</code>, полученное из предоставленного значения <code>value</code>. Если данное <code>value</code> равно <code>NULL</code>, то <code>Int64.From</code> возвращает <code>NULL</code>. Если данное <code>value</code> представляет собой <code>number</code> в диапазоне 64-разрядных целых чисел и не имеет дробной части, то <code>value</code> и возвращается. При наличии дробной части число округляется в соответствии с указанным режимом. Режим округления по умолчанию — <code>RoundingMode.ToEven</code>. Если <code>value</code> имеет какой-либо другой тип, сначала выполняется преобразование в <code>number</code> с помощью <code>Number.FromText</code>. Доступные режимы округления см. в описании <code>Number.Round</code>. При необходимости можно также указать <code>culture</code> (например, "ru-RU").
 

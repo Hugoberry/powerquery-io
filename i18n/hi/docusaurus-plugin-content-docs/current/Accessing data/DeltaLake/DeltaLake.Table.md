@@ -5,8 +5,6 @@ title: DeltaLake.Table
 # DeltaLake.Table
 
 
-## Description
-
 डेल्टा लेक तालिका की सामग्री लौटाता है.
 
 
@@ -20,7 +18,7 @@ DeltaLake.Table(
 ```
 
 
-## Details
+## Remarks
 
 डेल्टा लेक तालिका की सामग्री लौटाता है.
 

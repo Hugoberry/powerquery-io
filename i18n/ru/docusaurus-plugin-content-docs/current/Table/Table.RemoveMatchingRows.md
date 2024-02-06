@@ -5,8 +5,6 @@ title: Table.RemoveMatchingRows
 # Table.RemoveMatchingRows
 
 
-## Description
-
 Удаляет все вхождения указанных строк из таблицы.
 
 
@@ -21,7 +19,7 @@ Table.RemoveMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 Удаляет все вхождения указанных <code>rows</code> из <code>table</code>.    Для управления сравнением строк таблицы может быть указан необязательный параметр <code>equationCriteria</code>.
 

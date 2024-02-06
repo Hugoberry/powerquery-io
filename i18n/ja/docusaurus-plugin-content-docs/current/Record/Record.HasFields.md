@@ -5,8 +5,6 @@ title: Record.HasFields
 # Record.HasFields
 
 
-## Description
-
 指定されたフィールドがレコードに存在するかどうかを示します。
 
 
@@ -20,7 +18,7 @@ Record.HasFields(
 ```
 
 
-## Details
+## Remarks
 
 <code>fields</code> で指定されたフィールドがレコード <code>record</code> に存在するかどうかを示す論理値 (true または false) を返します。    リストを使用すると、複数のフィールド値を指定できます。
 

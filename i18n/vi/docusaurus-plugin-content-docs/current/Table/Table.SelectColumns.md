@@ -5,8 +5,6 @@ title: Table.SelectColumns
 # Table.SelectColumns
 
 
-## Description
-
 Trả về một bảng chỉ có các cột được chỉ định.
 
 
@@ -21,7 +19,7 @@ Table.SelectColumns(
 ```
 
 
-## Details
+## Remarks
 
 Trả về <code>table</code> chỉ có <code>columns</code> được chỉ định.    <ul>       <li><code>table</code>: Bảng được cung cấp.</li>       <li><code>columns</code>: Danh sách các cột từ bảng <code>table</code> sẽ trả về. Các cột trong bảng được trả về sắp xếp theo thứ tự được liệt kê trong <code>columns</code>.</li>       <li><code>missingField</code>: <i>(Tùy chọn)</i> Nên làm gì nếu cột không tồn tại.  Ví dụ: <code>MissingField.UseNull</code> hoặc <code>MissingField.Ignore</code>.    </li></ul>
 

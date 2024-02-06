@@ -5,8 +5,6 @@ title: Value.Metadata
 # Value.Metadata
 
 
-## Description
-
 Gibt einen Datensatz mit den Metadaten der Eingabe zurück.
 
 
@@ -19,7 +17,7 @@ Value.Metadata(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen Datensatz mit den Metadaten der Eingabe zurück.
 

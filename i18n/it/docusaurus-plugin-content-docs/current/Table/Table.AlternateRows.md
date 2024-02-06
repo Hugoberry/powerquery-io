@@ -5,8 +5,6 @@ title: Table.AlternateRows
 # Table.AlternateRows
 
 
-## Description
-
 Mantiene l&#39;offset iniziale, quindi accetta e ignora alternativamente le righe seguenti.
 
 
@@ -22,7 +20,7 @@ Table.AlternateRows(
 ```
 
 
-## Details
+## Remarks
 
 Mantiene l'offset iniziale, quindi accetta e ignora alternativamente le righe seguenti.    <ul>       <li><code>table</code>: tabella di input.</li>       <li><code>offset</code>: numero di righe da mantenere prima di avviare le iterazioni.</li>       <li><code>skip</code>: numero di righe da rimuovere in ogni iterazione.</li>       <li><code>take</code>: numero di righe da mantenere in ogni iterazione.</li>    </ul>    
 

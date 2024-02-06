@@ -5,8 +5,6 @@ title: Value.Expression
 # Value.Expression
 
 
-## Description
-
 मान के व्यंजक का प्रतिनिधित्व करने वाला सारांश सिंटेक्स ट्री (AST) वापस करता है.
 
 
@@ -19,7 +17,7 @@ Value.Expression(
 ```
 
 
-## Details
+## Remarks
 
 मान के व्यंजक का प्रतिनिधित्व करने वाला सारांश सिंटेक्स ट्री (AST) वापस करता है.
 

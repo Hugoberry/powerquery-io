@@ -5,8 +5,6 @@ title: Splitter.SplitByNothing
 # Splitter.SplitByNothing
 
 
-## Description
-
 Restituisce una funzione che non effettua la suddivisione e restituisce il relativo argomento come elenco di un singolo elemento.
 
 
@@ -19,7 +17,7 @@ Splitter.SplitByNothing(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una funzione che non effettua la suddivisione e restituisce il relativo argomento come elenco di un singolo elemento.
 

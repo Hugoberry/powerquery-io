@@ -5,8 +5,6 @@ title: List.RemoveFirstN
 # List.RemoveFirstN
 
 
-## Description
-
 Devolve uma lista que ignora o número especificado de elementos existente no início da lista.
 
 
@@ -20,7 +18,7 @@ List.RemoveFirstN(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma lista que remove o primeiro elemento da lista <code>list</code>. Se <code>list</code> for uma lista vazia, é devolvida uma lista vazia.Esta função utiliza um parâmetro opcional, <code>countOrCondition</code>, para suportar a remoção de vários valores, conforme listado abaixo. <ul> <li>Se for especificado um número, é removido até esse número de itens. </li> <li>Se for especificada uma condição, a lista devolvida começa pelo primeiro elemento de <code>list</code> que satisfaça os critérios. Quando um item não satisfizer a condição, não serão considerados mais itens. </li> <li>Se este parâmetro for nulo, será observado o comportamento predefinido. </li> </ul>
 

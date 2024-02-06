@@ -5,8 +5,6 @@ title: Text.Select
 # Text.Select
 
 
-## Description
-
 Verilen karakterin veya karakter listesinin girdi metin değerindeki tüm oluşumlarını seçerer.
 
 
@@ -20,7 +18,7 @@ Text.Select(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> metin değerinin <code>selectChars</code> konumundaki tüm karakterler kaldırılmamış şekilde kopyasını döndürür.  
 

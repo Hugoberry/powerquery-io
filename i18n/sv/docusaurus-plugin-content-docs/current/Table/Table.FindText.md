@@ -5,8 +5,6 @@ title: Table.FindText
 # Table.FindText
 
 
-## Description
-
 Returnerar alla raderna som innehåller angiven text i tabellen.
 
 
@@ -20,7 +18,7 @@ Table.FindText(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar raderna i tabellen <code>table</code> som innehåller texten <code>text</code>. Om texten inte hittas returneras en tom tabell.
 

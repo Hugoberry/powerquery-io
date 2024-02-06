@@ -5,8 +5,6 @@ title: Date.EndOfWeek
 # Date.EndOfWeek
 
 
-## Description
-
 返回周结束值。
 
 
@@ -20,7 +18,7 @@ Date.EndOfWeek(
 ```
 
 
-## Details
+## Remarks
 
 返回包含 <code>dateTime</code> 的周结束值。此函数取可选的 <code>Day</code> <code>firstDayOfWeek</code>，从而设置为此相对计算的一周的第一天。默认值为<code>Day.Sunday</code>。      <ul>        <li><code>dateTime</code>: 从中计算一周最后一天的<code>date</code>、<code>datetime</code>或<code>datetimezone</code>值</li>        <li><code>firstDayOfWeek</code>: <i>[可选]</i>表示一周第一天的<code>Day.Type</code>值。可能的值为 <code>Day.Sunday</code>、<code>Day.Monday</code>、<code>Day.Tuesday</code>、<code>Day.Wednesday</code>、<code>Day.Thursday</code>、<code>Day.Friday</code>和<code>Day.Saturday.</code>。默认值为<code>Day.Sunday</code>。</li>      </ul>
 

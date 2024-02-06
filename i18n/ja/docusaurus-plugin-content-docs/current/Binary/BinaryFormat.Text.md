@@ -5,8 +5,6 @@ title: BinaryFormat.Text
 # BinaryFormat.Text
 
 
-## Description
-
 テキスト値を読み取るバイナリ形式を返します。
 
 
@@ -20,7 +18,7 @@ BinaryFormat.Text(
 ```
 
 
-## Details
+## Remarks
 
 テキスト値を読み取るバイナリ形式を返します。<code>length</code> は、デコードするバイト数か、テキストの前にある長さのバイナリ形式を指定します。省略可能な <code>encoding</code> 値は、テキストのエンコードを指定します。<code>encoding</code> が指定されない場合、エンコードは Unicode のバイト オーダー マークから判断されます。バイト オーダー マークがない場合は、<code>TextEncoding.Utf8</code> が使用されます。
 

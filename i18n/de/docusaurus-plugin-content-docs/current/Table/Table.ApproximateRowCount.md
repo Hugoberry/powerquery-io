@@ -5,8 +5,6 @@ title: Table.ApproximateRowCount
 # Table.ApproximateRowCount
 
 
-## Description
-
 Gibt die ungefähre Anzahl der Zeilen in der Tabelle zurück.
 
 
@@ -19,7 +17,7 @@ Table.ApproximateRowCount(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die ungefähre Anzahl von Zeilen im <code>table</code> zurück, oder einen Fehler, wenn die Datenquelle keine Näherung unterstützt.
 

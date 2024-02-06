@@ -5,8 +5,6 @@ title: Date.IsInNextNQuarters
 # Date.IsInNextNQuarters
 
 
-## Description
-
 指出此日期是否會在以目前系統日期和時間決定的下幾季發生。請注意，傳遞會在當季發生的值時，此函式會傳回 false。
 
 
@@ -20,7 +18,7 @@ Date.IsInNextNQuarters(
 ```
 
 
-## Details
+## Remarks
 
 指出指定的日期時間值 <code>dateTime</code> 是否會在以目前系統日期和時間決定的下幾季發生。請注意，傳遞會在當季發生的值時，此函式會傳回 false。      <ul>      <li><code>dateTime</code>: 要評估的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值。</li>      <li><code>quarters</code>: 季數。</li>      </ul>
 

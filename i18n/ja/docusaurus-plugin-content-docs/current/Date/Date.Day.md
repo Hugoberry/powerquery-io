@@ -5,8 +5,6 @@ title: Date.Day
 # Date.Day
 
 
-## Description
-
 日付部分を返します。
 
 
@@ -19,7 +17,7 @@ Date.Day(
 ```
 
 
-## Details
+## Remarks
 
 <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値の日付部分を返します。      <ul>        <li><code>dateTime</code>: 日付部分を抽出する <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値。</li>      </ul>
 

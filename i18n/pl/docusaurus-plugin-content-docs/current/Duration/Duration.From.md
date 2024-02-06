@@ -5,8 +5,6 @@ title: Duration.From
 # Duration.From
 
 
-## Description
-
 Tworzy wartość typu duration na podstawie danej wartości.
 
 
@@ -19,7 +17,7 @@ Duration.From(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wartość typu <code>duration</code> z danej wartości parametru <code>value</code>. Jeśli dany parametr <code>value</code> ma wartość <code>null</code>, funkcja <code>Duration.From</code> zwraca wartość <code>null</code>.  Jeśli dany parametr <code>value</code> ma wartość typu <code>duration</code>, zwracana jest wartość <code>value</code>. Na wartość typu <code>duration</code> można konwertować wartości następujących typów:      <ul>        <li><code>text</code>: wartość typu <code>duration</code> z tekstowej formy zapisu czasu, który upłynął (d.g:m:s). Zobacz opis funkcji <code>Duration.FromText</code>, aby uzyskać szczegółowe informacje.</li>        <li><code>number</code>: odpowiednik wartości typu <code>duration</code> dla liczby całych i ułamkowych dni wyrażonej przez wartość <code>value</code>.</li>      </ul>Jeśli wartość parametru <code>value</code> jest innego typu, jest zwracany błąd.
 

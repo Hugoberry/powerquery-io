@@ -5,8 +5,6 @@ title: Identity.IsMemberOf
 # Identity.IsMemberOf
 
 
-## Description
-
 Określa, czy tożsamość należy do kolekcji tożsamości.
 
 
@@ -20,7 +18,7 @@ Identity.IsMemberOf(
 ```
 
 
-## Details
+## Remarks
 
 Określa, czy tożsamość należy do kolekcji tożsamości.
 

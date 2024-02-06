@@ -5,8 +5,6 @@ title: Kusto.Contents
 # Kusto.Contents
 
 
-## Description
-
 從 Azure 資料總管 (Kusto) 匯入資料
 
 
@@ -22,7 +20,7 @@ Kusto.Contents(
 ```
 
 
-## Details
+## Remarks
 
 從您的 Azure 資料總管 (Kusto) 執行個體匯入資料
 

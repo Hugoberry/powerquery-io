@@ -5,8 +5,6 @@ title: Text.Split
 # Text.Split
 
 
-## Description
-
 基于指定的分隔符将文本拆分为文本值列表。
 
 
@@ -20,7 +18,7 @@ Text.Split(
 ```
 
 
-## Details
+## Remarks
 
 返回根据指定的分隔符 <code>separator</code> 拆分文本值 <code>text</code> 而得到的文本值列表。
 

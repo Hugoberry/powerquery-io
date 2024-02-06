@@ -5,8 +5,6 @@ title: BinaryFormat.Double
 # BinaryFormat.Double
 
 
-## Description
-
 Formato binario che legge un valore a virgola mobile a precisione doppia IEEE a 8 byte.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Double(
 ```
 
 
-## Details
+## Remarks
 
 Formato binario che legge un valore a virgola mobile a precisione doppia IEEE a 8 byte.
 

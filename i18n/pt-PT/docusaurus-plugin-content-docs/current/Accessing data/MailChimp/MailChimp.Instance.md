@@ -5,8 +5,6 @@ title: MailChimp.Instance
 # MailChimp.Instance
 
 
-## Description
-
 Devolve resultados de resposta não processados de um ponto final de API do MailChimp.
 
 
@@ -19,7 +17,7 @@ MailChimp.Instance(
 ```
 
 
-## Details
+## Remarks
 
 Efetua uma camada à API do MailChimp e devolve a resposta não processada.
 

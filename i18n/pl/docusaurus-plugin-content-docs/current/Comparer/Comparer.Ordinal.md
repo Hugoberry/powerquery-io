@@ -5,8 +5,6 @@ title: Comparer.Ordinal
 # Comparer.Ordinal
 
 
-## Description
-
 Zwraca funkcję porównania, która porównuje wartości przy użyciu reguł liczb porządkowych.
 
 
@@ -20,7 +18,7 @@ Comparer.Ordinal(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca funkcję porównującą, która używa reguł porządkowych do porównywania podanych wartości <code>x</code> i <code>y</code><br />      <br />      Funkcja porównująca akceptuje dwa argumenty i zwraca wartość -1, 0 lub 1 na podstawie tego, czy pierwsza wartość jest mniejsza niż, równa lub większa od drugiej.    
 

@@ -5,8 +5,6 @@ title: RData.FromBinary
 # RData.FromBinary
 
 
-## Description
-
 Возвращает запись кадров данных из файла RData.
 
 
@@ -19,7 +17,7 @@ RData.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает запись кадров данных из файла RData.
 

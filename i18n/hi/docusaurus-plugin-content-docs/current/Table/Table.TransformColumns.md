@@ -5,8 +5,6 @@ title: Table.TransformColumns
 # Table.TransformColumns
 
 
-## Description
-
 एक या अधिक स्तंभों के मानों को रूपांतरित करता है.
 
 
@@ -22,7 +20,7 @@ Table.TransformColumns(
 ```
 
 
-## Details
+## Remarks
 
 <code>transformOperations</code> में सूचीबद्ध प्रत्येक स्तंभ कार्रवाई लागू करके <code>table</code> को रूपांतरित करता है (जहाँ स्वरूप \{ column name, transformation } या \{ column name, transformation, new column type }).    यदि कोई <code>defaultTransformation</code> निर्दिष्ट है, तो वह उन सभी स्तंभों पर लागू किया जाएगा जो <code>transformOperations</code> में सूचीबद्ध नहीं हैं.    यदि <code>transformOperations</code> में सूचीबद्ध कोई स्तंभ मौजूद नहीं है, तो एक अपवाद दिया जाता है जब तक कि वैकल्पिक पैरामीटर <code>missingField</code> द्वारा कोई विकल्प (उदाहरण के लिए, <code>MissingField.UseNull</code> या <code>MissingField.Ignore</code>) निर्दिष्ट नहीं किया जाता है.
 

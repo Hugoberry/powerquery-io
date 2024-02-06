@@ -5,8 +5,6 @@ title: Text.Middle
 # Text.Middle
 
 
-## Description
-
 Zwraca podciąg do określonej długości.
 
 
@@ -21,7 +19,7 @@ Text.Middle(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca ciąg o długości <code>count</code> znaków lub do końca elementu <code>text</code> przy przesunięciu <code>start</code>.
 

@@ -5,8 +5,6 @@ title: Date.IsInYearToDate
 # Date.IsInYearToDate
 
 
-## Description
-
 Bu tarihin sistemdeki geçerli tarih ve saat tarafından belirlendiği şekilde, geçerli yıl sırasında oluşup oluşmadığını ve geçerli gün içinde veya ondan önce olup olmadığını gösterir.
 
 
@@ -19,7 +17,7 @@ Date.IsInYearToDate(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> verilen datetime değerinin sistemdeki geçerli tarih ve saat tarafından belirlendiği şekilde, geçerli yıl sırasında oluşup oluşmadığını ve geçerli gün içinde veya ondan önce olup olmadığını gösterir.      <ul>      <li><code>dateTime</code>: Değerlendirilecek <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      </ul>
 

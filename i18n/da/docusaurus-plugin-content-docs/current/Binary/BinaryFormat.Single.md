@@ -5,8 +5,6 @@ title: BinaryFormat.Single
 # BinaryFormat.Single
 
 
-## Description
-
 Et binært format, der læser et 4-byte IEEE-enkeltpræcisions reelt tal.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Single(
 ```
 
 
-## Details
+## Remarks
 
 Et binært format, der læser et 4-byte IEEE-enkeltpræcisions reelt tal.
 

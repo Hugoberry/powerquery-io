@@ -5,8 +5,6 @@ title: Table.ReplaceMatchingRows
 # Table.ReplaceMatchingRows
 
 
-## Description
-
 Thay thế tất cả các hàng được chỉ định bằng (các) hàng được cung cấp.
 
 
@@ -21,7 +19,7 @@ Table.ReplaceMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 Thay thế tất cả các hàng được chỉ định trong <code>table</code> bằng (các) hàng được cung cấp. Các hàng sẽ thay thế và các thay thế được chỉ định trong <code>replacements</code>, sử dụng định dạng \{old, new}.    Có thể chỉ định tham số <code>equationCriteria</code> tùy chọn để kiểm soát phép so sánh giữa các hàng của bảng.
 

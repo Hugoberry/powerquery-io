@@ -5,8 +5,6 @@ title: Table.PositionOf
 # Table.PositionOf
 
 
-## Description
-
 Tablodaki satırın konum veya konumlarını döndürür.
 
 
@@ -22,7 +20,7 @@ Table.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen <code>table</code> öğesinde <code>row</code> öğesinin ilk oluşumuna ait satır konumunu döndürür. Hiçbir oluşum bulunmadıysa -1 döndürülür.    <ul>       <li><code>table</code>: Girdi tablosu.</li>       <li><code>row</code>: Tabloda konumun bulunacağı satır.</li>       <li><code>occurrence</code>: <i>[Optional]</i> Satırın hangi oluşumlarının döndürüleceğini belirtir.</li>       <li><code>equationCriteria</code>: <i>[Optional]</i> Tablo satırları arasındaki karşılaştırmayı denetler.</li>    </ul>    
 

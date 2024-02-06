@@ -5,8 +5,6 @@ title: Error.Record
 # Error.Record
 
 
-## Description
-
 Trả về một bản ghi lỗi từ các giá trị văn bản được cung cấp về lý do, nội dung và chi tiết.
 
 
@@ -22,7 +20,7 @@ Error.Record(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bản ghi lỗi từ các giá trị văn bản được cung cấp về lý do, nội dung và chi tiết.
 

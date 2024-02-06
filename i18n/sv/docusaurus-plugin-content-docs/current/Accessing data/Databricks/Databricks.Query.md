@@ -17,7 +17,7 @@ Databricks.Query(
 ```
 
 
-## Details
+## Remarks
 
 Definiera en Databricks-datakälla för körning av SQL-frågor
 

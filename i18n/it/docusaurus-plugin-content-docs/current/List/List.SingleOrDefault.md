@@ -5,8 +5,6 @@ title: List.SingleOrDefault
 # List.SingleOrDefault
 
 
-## Description
-
 Restituisce un elemento per un elenco di lunghezza uno e il valore predefinito per un elenco vuoto.
 
 
@@ -20,7 +18,7 @@ List.SingleOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 Se è presente un solo elemento nell'elenco <code>list</code>, restituisce tale elemento.    Se l'elenco è vuoto, la funzione restituisce Null a meno che non sia specificato l'elemento facoltativo <code>default</code>. Se è presente più di un elemento nell'elenco, la funzione restituisce un errore.
 

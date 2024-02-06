@@ -5,8 +5,6 @@ title: Record.ToList
 # Record.ToList
 
 
-## Description
-
 Returnerer en liste over værdier, der indeholder feltværdierne fra inputposten.
 
 
@@ -19,7 +17,7 @@ Record.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en liste over værdier, der indeholder feltværdierne fra inputtet <code>record</code>.
 

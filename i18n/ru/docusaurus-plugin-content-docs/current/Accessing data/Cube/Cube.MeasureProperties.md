@@ -5,8 +5,6 @@ title: Cube.MeasureProperties
 # Cube.MeasureProperties
 
 
-## Description
-
 Возвращает таблицу с набором доступных свойств мер, которые расширяются в кубе.
 
 
@@ -19,7 +17,7 @@ Cube.MeasureProperties(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу с набором доступных свойств мер, которые расширяются в кубе.
 

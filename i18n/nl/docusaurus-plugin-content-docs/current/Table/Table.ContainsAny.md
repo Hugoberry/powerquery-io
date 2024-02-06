@@ -5,8 +5,6 @@ title: Table.ContainsAny
 # Table.ContainsAny
 
 
-## Description
-
 Geeft aan of willekeurig welke van de opgegeven records als rijen in de tabel worden weergegeven.
 
 
@@ -21,7 +19,7 @@ Table.ContainsAny(
 ```
 
 
-## Details
+## Remarks
 
 Geeft aan of willekeurig welke van de opgegeven records in de lijst met records <code>rows</code> als rijen in de <code>table</code> worden weergegeven.    Er kan een optionele parameter <code>equationCriteria</code> worden opgegeven voor het aansturen van de vergelijking tussen de rijen van de tabel.
 

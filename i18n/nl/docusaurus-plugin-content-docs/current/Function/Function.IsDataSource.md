@@ -5,8 +5,6 @@ title: Function.IsDataSource
 # Function.IsDataSource
 
 
-## Description
-
 Wordt geretourneerd onafhankelijk van het feit of een bepaalde functie wordt beschouwd als gegevensbron.
 
 
@@ -19,7 +17,7 @@ Function.IsDataSource(
 ```
 
 
-## Details
+## Remarks
 
 Wordt geretourneerd onafhankelijk van het feit of <code>function</code> wordt beschouwd als gegevensbron.
 

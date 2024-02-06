@@ -5,8 +5,6 @@ title: Text.From
 # Text.From
 
 
-## Description
-
 根據指定的值建立文字值。
 
 
@@ -20,7 +18,7 @@ Text.From(
 ```
 
 
-## Details
+## Remarks
 
 傳回 <code>value</code> 的文字表示法。<code>value</code> 可以是 <code>number</code>、<code>date</code>、<code>time</code>、<code>datetime</code>、<code>datetimezone</code>、<code>logical</code>、<code>duration</code> 或 <code>binary</code> 值。    如果指定的值為 null，則 <code>Text.From</code> 會傳回 null。也可提供選用的 <code>culture</code> (例如 "en-US")。
 

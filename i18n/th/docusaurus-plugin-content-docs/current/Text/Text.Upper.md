@@ -5,8 +5,6 @@ title: Text.Upper
 # Text.Upper
 
 
-## Description
-
 แปลงอักขระทั้งหมดเป็นตัวพิมพ์ใหญ่
 
 
@@ -20,7 +18,7 @@ Text.Upper(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลลัพธ์ของการแปลงอักขระทั้งหมดใน <code>text</code> เป็นตัวพิมพ์ใหญ่ อาจมีการระบุ <code>culture</code> เพิ่มเติม (ตัวอย่างเช่น "en-US")
 

@@ -5,8 +5,6 @@ title: List.NonNullCount
 # List.NonNullCount
 
 
-## Description
-
 Zwraca liczbę elementów na liście, które mają wartość inną niż null.
 
 
@@ -19,7 +17,7 @@ List.NonNullCount(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca liczbę elementów na liście <code>list</code>, które mają wartość inną niż null.
 

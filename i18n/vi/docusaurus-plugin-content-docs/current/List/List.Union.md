@@ -5,8 +5,6 @@ title: List.Union
 # List.Union
 
 
-## Description
-
 Trả về tổ hợp giá trị danh sách tìm được trong đầu vào.
 
 
@@ -20,7 +18,7 @@ List.Union(
 ```
 
 
-## Details
+## Remarks
 
 Lấy một danh sách chứa các danh sách <code>lists</code>, hợp nhất các mục trong các danh sách riêng lẻ và trả chúng về trong danh sách đầu ra. Kết quả là danh sách trả về chứa tất cả các mục trong mọi danh sách đầu ra.    Tác vụ này duy trì ngữ nghĩa túi lặp nên các giá trị trùng lặp có thể trùng khớp như một phần của Tập hợp.    Có thể chỉ định giá trị tiêu chí phương trình tùy chọn, <code>equationCriteria</code>, để kiểm soát việc kiểm tra đẳng thức. 
 

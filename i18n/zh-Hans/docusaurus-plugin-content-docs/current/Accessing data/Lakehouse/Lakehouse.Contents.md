@@ -5,8 +5,6 @@ title: Lakehouse.Contents
 # Lakehouse.Contents
 
 
-## Description
-
 从湖屋导入数据
 
 
@@ -19,7 +17,7 @@ Lakehouse.Contents(
 ```
 
 
-## Details
+## Remarks
 
 连接到你有权访问的所有湖屋，并选择要使用的实体。
 

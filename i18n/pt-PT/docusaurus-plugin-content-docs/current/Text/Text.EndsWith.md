@@ -5,8 +5,6 @@ title: Text.EndsWith
 # Text.EndsWith
 
 
-## Description
-
 Indica se o texto termina no valor especificado.
 
 
@@ -21,7 +19,7 @@ Text.EndsWith(
 ```
 
 
-## Details
+## Remarks
 
 Indica se o texto especificado, <code>text</code>, termina com o valor especificado, <code>substring</code>. A indicação é sensível a maiúsculas e minúsculas.      <div>         <code>comparer</code>é um <code>Comparer</code> que é utilizado no controlo da comparação. Os comparadores podem ser utilizados para fornecer comparações não sensíveis a maiúsculas/minúsculas ou baseadas na cultura ou na região.      </div>      <div>        Os comparadores incorporados seguintes estão disponíveis na linguagem da fórmula:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: utilizado para executar uma comparação ordinal exata</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: utilizado para executar uma comparação ordinal exata não sensível a maiúsculas/minúsculas</li>        <li> <code>Comparer.FromCulture</code>: utilizado para executar uma comparação baseada na cultura</li>      </ul>
 

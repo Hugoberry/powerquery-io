@@ -5,8 +5,6 @@ title: DateTime.IsInCurrentMinute
 # DateTime.IsInCurrentMinute
 
 
-## Description
-
 ระบุว่า datetime นี้จะแสดงในช่วงระหว่างนาทีปัจจุบัน ดังที่มีการกำหนดไว้โดยใช้วันที่และเวลาปัจจุบันจากระบบหรือไม่
 
 
@@ -19,7 +17,7 @@ DateTime.IsInCurrentMinute(
 ```
 
 
-## Details
+## Remarks
 
 ระบุว่า ค่า datetime ที่กำหนดไว้ <code>dateTime</code> จะแสดงในช่วงระหว่างนาทีปัจจุบัน ดังที่มีการกำหนดไว้โดยใช้วันที่และเวลาปัจจุบันจากระบบหรือไม่      <ul>      <li><code>dateTime</code>: จะมีการประเมินผลค่า <code>datetime</code> หรือ <code>datetimezone</code></li>      </ul>
 

@@ -5,8 +5,6 @@ title: Text.At
 # Text.At
 
 
-## Description
-
 Gibt das Zeichen an der angegebenen Position zurück.
 
 
@@ -20,7 +18,7 @@ Text.At(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das Zeichen im Textwert (<code>text</code>) an der Position <code>index</code> zurück. Das erste Zeichen im Text befindet sich an Position 0.
 

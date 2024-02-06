@@ -5,8 +5,6 @@ title: Combiner.CombineTextByPositions
 # Combiner.CombineTextByPositions
 
 
-## Description
-
 指定された出力位置を使用してテキストのリストに結合する関数を返します。
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByPositions(
 ```
 
 
-## Details
+## Remarks
 
 指定した出力位置を使用して、テキスト値のリストを 1 つのテキスト値に結合する関数を返します。
 

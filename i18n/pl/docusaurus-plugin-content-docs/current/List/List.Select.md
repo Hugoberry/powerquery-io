@@ -5,8 +5,6 @@ title: List.Select
 # List.Select
 
 
-## Description
-
 Zwraca listę wartości spełniających warunek.
 
 
@@ -20,7 +18,7 @@ List.Select(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca listę wartości z listy <code>list</code>, które spełniają warunek wyboru <code>selection</code>.
 

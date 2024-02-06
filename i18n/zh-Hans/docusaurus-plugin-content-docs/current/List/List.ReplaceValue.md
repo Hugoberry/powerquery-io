@@ -5,8 +5,6 @@ title: List.ReplaceValue
 # List.ReplaceValue
 
 
-## Description
-
 在列表中搜索指定的值并替换它。
 
 
@@ -22,7 +20,7 @@ List.ReplaceValue(
 ```
 
 
-## Details
+## Remarks
 
 在值列表 <code>list</code> 中搜索值 <code>oldValue</code>，每次找到后使用替换值 <code>newValue</code> 替换它。
 

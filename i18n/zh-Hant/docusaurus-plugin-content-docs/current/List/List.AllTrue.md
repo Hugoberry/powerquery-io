@@ -5,8 +5,6 @@ title: List.AllTrue
 # List.AllTrue
 
 
-## Description
-
 如果所有運算式都是 True，即傳回 True。
 
 
@@ -19,7 +17,7 @@ List.AllTrue(
 ```
 
 
-## Details
+## Remarks
 
 如果清單 <code>list</code> 中的所有運算式都是 True，即傳回 True。
 

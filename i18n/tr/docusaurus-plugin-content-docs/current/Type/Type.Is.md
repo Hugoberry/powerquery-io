@@ -5,8 +5,6 @@ title: Type.Is
 # Type.Is
 
 
-## Description
-
 İlk türün değerinin her zaman ikinci türle uyumlu olup olmadığını belirler.
 
 
@@ -20,7 +18,7 @@ Type.Is(
 ```
 
 
-## Details
+## Remarks
 
 <code>type1</code> değerinin her zaman <code>type2</code> ile uyumlu olup olmayacağını belirler.
 

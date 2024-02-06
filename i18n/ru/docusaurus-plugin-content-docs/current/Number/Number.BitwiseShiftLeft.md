@@ -5,8 +5,6 @@ title: Number.BitwiseShiftLeft
 # Number.BitwiseShiftLeft
 
 
-## Description
-
 Сдвигает набор битов влево.
 
 
@@ -20,7 +18,7 @@ Number.BitwiseShiftLeft(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает результат выполнения побитового сдвига влево над <code>number1</code> на указанное число битов <code>number2</code>.
 

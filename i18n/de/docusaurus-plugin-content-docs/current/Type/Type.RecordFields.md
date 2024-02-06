@@ -5,8 +5,6 @@ title: Type.RecordFields
 # Type.RecordFields
 
 
-## Description
-
 Gibt einen Datensatz zurück, der die Felder eines Datensatztyps beschreibt, wobei jedes Feld des zurückgegebenen Datensatztyps einen entsprechenden Namen und Wert aufweist.
 
 
@@ -19,7 +17,7 @@ Type.RecordFields(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen Datensatz zurück, der die Felder eines Datensatzes <code>type</code> beschreibt. Jedes Feld des zurückgegebenen Datensatztyps weist einen entsprechenden Namen und Wert in der Form des Datensatzes <code>[ Type = type, Optional = logical ]</code> auf.
 

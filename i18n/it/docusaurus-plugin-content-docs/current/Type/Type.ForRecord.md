@@ -5,8 +5,6 @@ title: Type.ForRecord
 # Type.ForRecord
 
 
-## Description
-
 Restituisce un tipo che rappresenta i record con vincoli specifici per il tipo nei campi.
 
 
@@ -20,7 +18,7 @@ Type.ForRecord(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un tipo che rappresenta i record con vincoli specifici per il tipo nei campi.
 

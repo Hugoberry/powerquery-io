@@ -5,8 +5,6 @@ title: BinaryFormat.Text
 # BinaryFormat.Text
 
 
-## Description
-
 返回读取文本值的二进制格式。
 
 
@@ -20,7 +18,7 @@ BinaryFormat.Text(
 ```
 
 
-## Details
+## Remarks
 
 返回读取文本值的二进制格式。 <code>length</code> 指定要解码的字节数，或者指定文本之前长度的二进制格式。可选的 <code>encoding</code> 值指定文本的编码。如果未指定 <code>encoding</code>，则根据 Unicode 字节顺序标记确定该编码。如果不存在字节顺序标记，则使用 <code>TextEncoding.Utf8</code>。
 

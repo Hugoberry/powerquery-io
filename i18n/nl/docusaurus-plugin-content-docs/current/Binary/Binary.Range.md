@@ -5,8 +5,6 @@ title: Binary.Range
 # Binary.Range
 
 
-## Description
-
 Hiermee wordt een subset van de binaire waarde geretourneerd, te beginnen bij een marge.
 
 
@@ -21,7 +19,7 @@ Binary.Range(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een subset van de binaire waarde geretourneerd, te beginnen bij de marge <code>binary</code>. Met een optionele parameter, <code>offset</code>, wordt de maximale lengte van de subset ingesteld.
 

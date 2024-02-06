@@ -5,8 +5,6 @@ title: Text.Start
 # Text.Start
 
 
-## Description
-
 Metnin başlangıcını döndürür
 
 
@@ -20,7 +18,7 @@ Text.Start(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> öğesinin ilk <code>count</code> karakterini metin değeri olarak döndürür.
 

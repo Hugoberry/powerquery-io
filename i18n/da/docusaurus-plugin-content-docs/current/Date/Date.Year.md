@@ -5,8 +5,6 @@ title: Date.Year
 # Date.Year
 
 
-## Description
-
 Returnerer årskomponenten.
 
 
@@ -19,7 +17,7 @@ Date.Year(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer årskomponenten for den angivne værdi af typen <code>datetime</code>, <code>dateTime</code>.
 

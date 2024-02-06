@@ -5,8 +5,6 @@ title: Table.First
 # Table.First
 
 
-## Description
-
 傳回第一個資料列或指定的預設值。
 
 
@@ -20,7 +18,7 @@ Table.First(
 ```
 
 
-## Details
+## Remarks
 
 傳回 <code>table</code> 的第一個資料列，如果資料表是空的，則傳回選擇性的預設值 <code>default</code>。
 

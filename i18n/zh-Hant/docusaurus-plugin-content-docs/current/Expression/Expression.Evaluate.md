@@ -5,8 +5,6 @@ title: Expression.Evaluate
 # Expression.Evaluate
 
 
-## Description
-
 傳回評估 M 運算式的結果。
 
 
@@ -20,7 +18,7 @@ Expression.Evaluate(
 ```
 
 
-## Details
+## Remarks
 
 傳回評估 M 運算式 <code>document</code> 的結果，以及 <code>environment</code> 所定義可參考的可用識別碼。
 

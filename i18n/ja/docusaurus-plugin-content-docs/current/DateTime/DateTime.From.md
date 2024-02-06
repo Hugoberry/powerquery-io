@@ -5,8 +5,6 @@ title: DateTime.From
 # DateTime.From
 
 
-## Description
-
 指定された値から datetime を作成します。
 
 
@@ -20,7 +18,7 @@ DateTime.From(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>value</code> から <code>datetime</code> 値を返します。省略可能な <code>culture</code> を指定することもできます (例: "en-US")。指定された <code>value</code> が <code>null</code> の場合、<code>DateTime.From</code> は <code>null</code> を返します。指定された <code>value</code> が <code>datetime</code> の場合、<code>value</code> が返されます。次の型の値を <code>datetime</code> 値に変換できます:      <ul>        <li><code>text</code>: テキスト形式の表記からの <code>datetime</code> 値。詳細については <code>DateTime.FromText</code> を参照してください。</li>        <li><code>date</code>: 日付部分が <code>value</code>、時刻部分が <code>12:00:00 AM</code> の <code>datetime</code>。</li>        <li><code>datetimezone</code>: <code>value</code> に相当するローカルの <code>datetime</code>。</li>        <li><code>time</code>: 日付部分が <code>0</code>、時刻部分が <code>value</code> の OLE オートメーション日付に相当する日付 の <code>datetime</code>。</li>        <li><code>number</code>: <code>value</code> で表される OLE オートメーション日付に相当する <code>datetime</code>。</li>      </ul><code>value</code> が他の型の場合、エラーが返されます。
 

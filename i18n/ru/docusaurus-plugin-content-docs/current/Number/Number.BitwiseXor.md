@@ -5,8 +5,6 @@ title: Number.BitwiseXor
 # Number.BitwiseXor
 
 
-## Description
-
 Возвращает результат выполнения побитовой операции XOR (исключающее ИЛИ) с двумя входными значениями.
 
 
@@ -20,7 +18,7 @@ Number.BitwiseXor(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает результат выполнения побитовой операции XOR (исключающее ИЛИ) со значениями <code>number1</code> и <code>number2</code>.
 

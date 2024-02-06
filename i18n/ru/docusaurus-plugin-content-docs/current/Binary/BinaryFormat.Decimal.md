@@ -5,8 +5,6 @@ title: BinaryFormat.Decimal
 # BinaryFormat.Decimal
 
 
-## Description
-
 Двоичный формат, который считывает 16-байтовое десятичное значение .NET.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Decimal(
 ```
 
 
-## Details
+## Remarks
 
 Двоичный формат, который считывает 16-байтовое десятичное значение .NET.
 

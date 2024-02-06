@@ -5,8 +5,6 @@ title: Number.BitwiseAnd
 # Number.BitwiseAnd
 
 
-## Description
-
 Zwraca wynik wykonania bitowej opcji AND na dwóch wartościach wejściowych.
 
 
@@ -20,7 +18,7 @@ Number.BitwiseAnd(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wynik wykonania bitowej opcji AND na wartościach <code>number1</code> i <code>number2</code>.
 

@@ -5,8 +5,6 @@ title: Table.InsertRows
 # Table.InsertRows
 
 
-## Description
-
 Bir tabloya belirtilen konumda bir satır listesi ekler.
 
 
@@ -21,7 +19,7 @@ Table.InsertRows(
 ```
 
 
-## Details
+## Remarks
 
 <code>rows</code> verilen konumunda <code>table</code> içine eklenen <code>offset</code> satır listesini içeren bir tablo döndürür. Eklenecek satırdaki her sütun, tablonun sütun türleri ile eşleşmelidir.
 

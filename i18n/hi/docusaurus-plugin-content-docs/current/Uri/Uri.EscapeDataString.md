@@ -5,8 +5,6 @@ title: Uri.EscapeDataString
 # Uri.EscapeDataString
 
 
-## Description
-
 RFC 3986 के अनुसार विशेष वर्णों को एन्कोड करता है.
 
 
@@ -19,7 +17,7 @@ Uri.EscapeDataString(
 ```
 
 
-## Details
+## Remarks
 
 RFC 3986 के नियमों के अनुसार इनपुट <code>data</code> में विशेष वर्णों को एन्कोड करता है.
 

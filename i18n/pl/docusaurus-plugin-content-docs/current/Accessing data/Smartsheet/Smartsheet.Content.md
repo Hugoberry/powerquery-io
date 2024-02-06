@@ -5,8 +5,6 @@ title: Smartsheet.Content
 # Smartsheet.Content
 
 
-## Description
-
 Zwraca tabelę danych z punktu końcowego indeksu narzędzia Smartsheet.
 
 
@@ -19,7 +17,7 @@ Smartsheet.Content(
 ```
 
 
-## Details
+## Remarks
 
 Tworzy wywołanie interfejsu API REST narzędzia Smartsheet 2.0 w określonym punkcie końcowym i przekształca zwrócony element danych w tabelę.
 

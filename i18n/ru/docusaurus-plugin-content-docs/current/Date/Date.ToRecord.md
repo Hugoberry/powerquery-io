@@ -5,8 +5,6 @@ title: Date.ToRecord
 # Date.ToRecord
 
 
-## Description
-
 Возвращает запись, содержащую части значения даты.
 
 
@@ -19,7 +17,7 @@ Date.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает запись, содержащую части заданного значения даты, <code>date</code>. <ul>        <li><code>date</code>: значение <code>date</code>, для которого необходимо вычислить запись частей.</li>      </ul>
 

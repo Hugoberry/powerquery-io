@@ -5,8 +5,6 @@ title: Xml.Tables
 # Xml.Tables
 
 
-## Description
-
 Retourneert de inhoud van het XML-document als een geneste verzameling platgemaakte tabellen.
 
 
@@ -21,7 +19,7 @@ Xml.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de inhoud van het XML-document als een geneste verzameling platgemaakte tabellen.
 

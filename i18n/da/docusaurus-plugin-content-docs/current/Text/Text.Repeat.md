@@ -5,8 +5,6 @@ title: Text.Repeat
 # Text.Repeat
 
 
-## Description
-
 Returnerer en tekstværdi, der består af inputteksten gentaget et angivet antal gange.
 
 
@@ -20,7 +18,7 @@ Text.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tekstværdi, der består af inputteksten <code>text</code> gentaget <code>count</code> gange.
 

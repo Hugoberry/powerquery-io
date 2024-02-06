@@ -5,8 +5,6 @@ title: Number.Mod
 # Number.Mod
 
 
-## Description
-
 Tamsayı iki sayıyı böler ve kalanı döndürür.
 
 
@@ -21,7 +19,7 @@ Number.Mod(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> değerinin <code>divisor</code> değerine tamsayı bölümünden kalanı döndürür.    <code>number</code> veya <code>divisor</code> null ise <code>Number.Mod</code> null döndürür.      <ul>        <li><code>number</code>: Bölünen.</li>        <li><code>divisor</code>: Bölen.</li>      </ul>
 

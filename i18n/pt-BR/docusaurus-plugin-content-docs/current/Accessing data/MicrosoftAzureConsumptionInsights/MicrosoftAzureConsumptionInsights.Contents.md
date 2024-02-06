@@ -5,8 +5,6 @@ title: MicrosoftAzureConsumptionInsights.Contents
 # MicrosoftAzureConsumptionInsights.Contents
 
 
-## Description
-
 Forneça funções de consulta avançada.
 
 
@@ -20,7 +18,7 @@ MicrosoftAzureConsumptionInsights.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Forneça funções de consulta avançada.
 

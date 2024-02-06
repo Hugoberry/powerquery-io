@@ -5,8 +5,6 @@ title: RData.FromBinary
 # RData.FromBinary
 
 
-## Description
-
 Devolve um registo de pacotes de dados do ficheiro RData.
 
 
@@ -19,7 +17,7 @@ RData.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um registo de pacotes de dados do ficheiro RData.
 

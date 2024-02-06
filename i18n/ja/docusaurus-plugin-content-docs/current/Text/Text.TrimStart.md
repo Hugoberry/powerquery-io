@@ -5,8 +5,6 @@ title: Text.TrimStart
 # Text.TrimStart
 
 
-## Description
-
 先頭の空白をすべて削除します。
 
 
@@ -20,7 +18,7 @@ Text.TrimStart(
 ```
 
 
-## Details
+## Remarks
 
 テキスト値 <code>text</code> から先頭の空白をすべて削除した結果を返します。
 

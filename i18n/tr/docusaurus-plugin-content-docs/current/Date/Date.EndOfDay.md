@@ -5,8 +5,6 @@ title: Date.EndOfDay
 # Date.EndOfDay
 
 
-## Description
-
 Gün sonunu döndürür.
 
 
@@ -19,7 +17,7 @@ Date.EndOfDay(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> tarafından temsil edilen gün sonunu döndürür. Saat dilimi bilgileri korunur.      <ul>      <li><code>dateTime</code>: Kendisinden itibaren günün sonunun hesaplandığı <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      </ul>
 

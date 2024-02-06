@@ -5,8 +5,6 @@ title: Date.EndOfWeek
 # Date.EndOfWeek
 
 
-## Description
-
 Возвращает конец недели.
 
 
@@ -20,7 +18,7 @@ Date.EndOfWeek(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает конец недели, которая содержит <code>dateTime</code>.    Эта функция принимает необязательное значение <code>Day</code>, <code>firstDayOfWeek</code>, для установки первого дня недели для относительного вычисления. Значение по умолчанию: <code>Day.Sunday</code>.      <ul>        <li><code>dateTime</code>: значение <code>date</code>, <code>datetime</code> или <code>datetimezone</code>, на основе которого вычисляется последний день недели.</li>        <li><code>firstDayOfWeek</code>: <i>[Необязательно]</i> Значение <code>Day.Type</code>, представляющее первый день недели. Допустимые значения: <code>Day.Sunday</code>, <code>Day.Monday</code>, <code>Day.Tuesday</code>, <code>Day.Wednesday</code>, <code>Day.Thursday</code>, <code>Day.Friday</code> и <code>Day.Saturday.</code>. Значение по умолчанию — <code>Day.Sunday</code>.</li>      </ul>
 

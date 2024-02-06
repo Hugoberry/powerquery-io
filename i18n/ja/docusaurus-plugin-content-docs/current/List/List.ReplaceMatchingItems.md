@@ -5,8 +5,6 @@ title: List.ReplaceMatchingItems
 # List.ReplaceMatchingItems
 
 
-## Description
-
 \{ old, new } の置換をそれぞれ適用します。
 
 
@@ -21,7 +19,7 @@ List.ReplaceMatchingItems(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>list</code> に対して指定された置換を実行します。置換操作 <code>replacements</code> は、古い値と新しい値という 2 つの値のリストで構成されます。これはリストで指定されます。    省略可能な数式条件値 <code>equationCriteria</code> を指定して、値が等しいかどうかのテストを制御できます。
 

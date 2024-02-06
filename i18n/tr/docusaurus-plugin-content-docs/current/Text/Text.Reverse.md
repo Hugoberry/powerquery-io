@@ -5,8 +5,6 @@ title: Text.Reverse
 # Text.Reverse
 
 
-## Description
-
 Text.Reverse
 
 
@@ -19,7 +17,7 @@ Text.Reverse(
 ```
 
 
-## Details
+## Remarks
 
 Sağlanan <code>text</code> değerini tersine çevirir.
 

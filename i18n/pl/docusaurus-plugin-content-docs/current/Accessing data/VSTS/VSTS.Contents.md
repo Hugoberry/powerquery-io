@@ -5,8 +5,6 @@ title: VSTS.Contents
 # VSTS.Contents
 
 
-## Description
-
 Wprowadź adres URL usługi analiz Azure DevOps.
 
 
@@ -20,7 +18,7 @@ VSTS.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca zawartość pobraną jako wartość binarną przy użyciu adresu URL usługi analiz Azure DevOps. Funkcja ta korzysta z poświadczeń globalnych dla wszystkich dostępnych organizacji.
 

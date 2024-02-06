@@ -5,8 +5,6 @@ title: Table.DuplicateColumn
 # Table.DuplicateColumn
 
 
-## Description
-
 Belirtilen ada sahip bir sütunu çoğaltır. Değerler ve tür kaynak sütundan kopyalanır.
 
 
@@ -22,7 +20,7 @@ Table.DuplicateColumn(
 ```
 
 
-## Details
+## Remarks
 
 <code>columnName</code> adlı bir sütunu <code>table</code> tablosuna çoğaltır. <code>newColumnName</code> sütununa ait değerler ve tür <code>columnName</code> sütunundan kopyalanır.
 

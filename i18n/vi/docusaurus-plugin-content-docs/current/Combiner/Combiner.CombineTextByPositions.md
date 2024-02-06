@@ -5,8 +5,6 @@ title: Combiner.CombineTextByPositions
 # Combiner.CombineTextByPositions
 
 
-## Description
-
 Trả về một hàm kết hợp một danh sách văn bản bằng cách sử dụng các vị trí đầu ra được chỉ định.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByPositions(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một hàm kết hợp một danh sách giá trị văn bản thành một giá trị văn bản đơn bằng cách sử dụng vị trí đầu ra được chỉ định.
 

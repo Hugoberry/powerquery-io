@@ -5,8 +5,6 @@ title: Table.FromValue
 # Table.FromValue
 
 
-## Description
-
 Crea una tabla con una columna a partir de los valores suministrados.
 
 
@@ -20,7 +18,7 @@ Table.FromValue(
 ```
 
 
-## Details
+## Remarks
 
 Crea una tabla con una columna que contiene el valor o la lista de valores <code>value</code> proporcionados. Se puede especificar una parámetro de registro opcional, <code>options</code>, para controlar las siguientes opciones:    <ul>    <li> <code>DefaultColumnName</code>: el nombre de la columna usada al crear una tabla a partir de una lista o valor escalar.</li>    </ul>  
 

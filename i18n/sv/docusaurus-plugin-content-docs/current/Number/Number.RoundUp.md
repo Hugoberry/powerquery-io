@@ -5,8 +5,6 @@ title: Number.RoundUp
 # Number.RoundUp
 
 
-## Description
-
 Returnerar nästa största heltal. Antalet siffror kan specificeras.
 
 
@@ -20,7 +18,7 @@ Number.RoundUp(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar resultatet av avrundning <code>number</code> upp till nästa högsta heltal. Om <code>number</code> är null returnerar den här funktionen null. Om <code>digits</code> anges avrundas <code>number</code> till det angivna antalet decimaler.
 

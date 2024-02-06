@@ -5,8 +5,6 @@ title: List.RemoveMatchingItems
 # List.RemoveMatchingItems
 
 
-## Description
-
 Verwijdert alle instanties van de invoerwaarden.
 
 
@@ -21,7 +19,7 @@ List.RemoveMatchingItems(
 ```
 
 
-## Details
+## Remarks
 
 Verwijdert alle instanties van de opgegeven waarden in <code>list2</code> uit de lijst <code>list1</code>. Als de waarden in <code>list2</code> niet in <code>list1</code> staan, wordt de oorspronkelijke lijst geretourneerd.    Er kan een optionele waarde voor de vergelijkingsvoorwaarde, <code>equationCriteria</code>, voor het controleren van de gelijkheidstest worden opgegeven. 
 

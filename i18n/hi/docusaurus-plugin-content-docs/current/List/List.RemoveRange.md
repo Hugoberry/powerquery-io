@@ -5,8 +5,6 @@ title: List.RemoveRange
 # List.RemoveRange
 
 
-## Description
-
 निर्दिष्ट स्थिति पर प्रारंभ होने वाले मानों की गणना संख्या निकालता है.
 
 
@@ -21,7 +19,7 @@ List.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 निर्दिष्ट स्थिति, <code>index</code>, पर प्रारंभ होने वाले <code>list</code> के <code>count</code> मान निकालता है.
 

@@ -5,8 +5,6 @@ title: Text.Start
 # Text.Start
 
 
-## Description
-
 पाठ का प्रारंभ लौटाता है.
 
 
@@ -20,7 +18,7 @@ Text.Start(
 ```
 
 
-## Details
+## Remarks
 
 पाठ मान के रूप में <code>text</code> के प्रथम <code>count</code> वर्ण लौटाता है.
 

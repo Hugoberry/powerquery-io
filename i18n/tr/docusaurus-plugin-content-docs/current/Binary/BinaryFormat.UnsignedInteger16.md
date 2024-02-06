@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger16
 # BinaryFormat.UnsignedInteger16
 
 
-## Description
-
 Bir 16 bit işaretsiz tamsayıyı okuyan ikili biçimi.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger16(
 ```
 
 
-## Details
+## Remarks
 
 Bir 16 bit işaretsiz tamsayıyı okuyan ikili biçimi.
 

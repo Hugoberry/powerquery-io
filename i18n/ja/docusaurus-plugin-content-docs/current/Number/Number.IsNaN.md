@@ -5,8 +5,6 @@ title: Number.IsNaN
 # Number.IsNaN
 
 
-## Description
-
 値が NaN (非数) かどうかを示します。
 
 
@@ -19,7 +17,7 @@ Number.IsNaN(
 ```
 
 
-## Details
+## Remarks
 
 値が NaN (非数) かどうかを示します。<code>number</code> が <code>Number.IsNaN</code> と等しい場合は <code>true</code> を返し、それ以外の場合は <code>false</code> を返します。
 

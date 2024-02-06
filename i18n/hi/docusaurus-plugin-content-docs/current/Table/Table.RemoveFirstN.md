@@ -5,8 +5,6 @@ title: Table.RemoveFirstN
 # Table.RemoveFirstN
 
 
-## Description
-
 छोड़ी गई प्रथम गणना पंक्तियों के साथ एक तालिका लौटाता है.
 
 
@@ -20,7 +18,7 @@ Table.RemoveFirstN(
 ```
 
 
-## Details
+## Remarks
 
 ऐसी तालिका लौटाता है, जिसमें तालिका <code>table</code> की पंक्तियों <code>countOrCondition</code> की प्रथम निर्दिष्ट संख्या नहीं होती है.    निकाली गई पंक्तियों की संख्या वैकल्पिक पैरामीटर <code>countOrCondition</code> पर निर्भर होती है.    <ul>    <li> यदि <code>countOrCondition</code> को छोड़ा जाता है, तो केवल प्रथम पंक्ति निकाली जाती है. </li>    <li> यदि <code>countOrCondition</code> कोई संख्या हो, तो उतनी पंक्तियाँ (शीर्ष से प्रारंभ करते हुए) निकाल दी जाएँगी. </li>    <li> यदि <code>countOrCondition</code> कोई शर्त हो, तो किसी एक पंक्ति के शर्त पूरा न करने तक, शर्त को पूरा करने वाली पंक्तियों को निकाल दिया जाएगा.</li>    </ul>
 

@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentralOnPremises.Contents
 # Dynamics365BusinessCentralOnPremises.Contents
 
 
-## Description
-
 Введите URL-адрес конечной точки службы OData Dynamics 365 Business Central (локальный).
 
 
@@ -20,7 +18,7 @@ Dynamics365BusinessCentralOnPremises.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу с нужными данными Dynamics 365 Business Central. 
 

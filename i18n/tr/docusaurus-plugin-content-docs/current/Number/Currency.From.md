@@ -5,8 +5,6 @@ title: Currency.From
 # Currency.From
 
 
-## Description
-
 Verilen değerden bir para birimi değeri döndürür.
 
 
@@ -21,7 +19,7 @@ Currency.From(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>value</code> değerinden bir <code>currency</code> değeri döndürür. Verilen <code>value</code> değeri <code>null</code> olduğunda <code>Currency.From</code> <code>null</code> döndürür. Verilen <code>value</code>, para birimi aralığında <code>number</code> olduğunda <code>value</code> değerinin kesir kısmı, 4 basamaklı bir ondalık sayıya yuvarlanarak döndürülür. <code>value</code> başka bir türde olduğunda önce <code>Number.FromText</code> kullanılarak <code>number</code> türüne dönüştürülür. Para birimi için geçerli aralık <code>-922.337.203.685.477,5808</code> - <code>922.337.203.685.477,5807</code> aralığıdır. Kullanılabilir yuvarlama modları için bkz. <code>Number.Round</code>. Varsayılan mod <code>RoundingMode.ToEven</code> modudur. Ayrıca, isteğe bağlı bir <code>culture</code> sağlanabilir (ör. "tr-TR").
 

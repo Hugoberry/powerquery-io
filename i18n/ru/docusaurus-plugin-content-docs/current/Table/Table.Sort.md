@@ -5,8 +5,6 @@ title: Table.Sort
 # Table.Sort
 
 
-## Description
-
 Сортирует таблицу по одному или нескольким именам столбцов и условиям сравнения.
 
 
@@ -20,7 +18,7 @@ Table.Sort(
 ```
 
 
-## Details
+## Remarks
 
 Сортирует <code>table</code>, используя список из одного или нескольких имен столбцов и необязательного параметра <code>comparisonCriteria</code> в форме \{ \{ col1, comparisonCriteria }, \{col2} }.
 

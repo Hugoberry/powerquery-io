@@ -5,8 +5,6 @@ title: Table.FromRows
 # Table.FromRows
 
 
-## Description
-
 行の値と列 (省略可能) のリストからテーブルを作成します
 
 
@@ -20,7 +18,7 @@ Table.FromRows(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>rows</code> からテーブルを作成します。リストの各要素は、1 つの行の列値を含む内側リストです。省略可能な列名のリスト、テーブル型、または列の数を <code>columns</code> に指定できます。
 

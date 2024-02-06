@@ -5,8 +5,6 @@ title: Date.MonthName
 # Date.MonthName
 
 
-## Description
-
 Возвращает название компонента месяца.
 
 
@@ -20,7 +18,7 @@ Date.MonthName(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает название месяца для указанного значения <code>date</code>. Также может быть указан необязательный параметр <code>culture</code> (например, "ru-RU").
 

@@ -5,8 +5,6 @@ title: Time.EndOfHour
 # Time.EndOfHour
 
 
-## Description
-
 Retourneert het einde van het uur.
 
 
@@ -19,7 +17,7 @@ Time.EndOfHour(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het einde van het uur dat wordt vertegenwoordigd door <code>dateTime</code>, inclusief fractionele seconden. Informatie over de tijdzone blijft behouden. <ul> <li><code>dateTime</code>: een <code>tijdstip</code>, <code>datum/tijd</code> of <code>datum/tijdzone</code> waarmee het einde van het uur wordt berekend.</li> </ul>
 

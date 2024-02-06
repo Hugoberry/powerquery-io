@@ -5,8 +5,6 @@ title: Number.Sqrt
 # Number.Sqrt
 
 
-## Description
-
 Zwraca pierwiastek kwadratowy liczby.
 
 
@@ -19,7 +17,7 @@ Number.Sqrt(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca pierwiastek kwadratowy liczby <code>number</code>.    Jeśli parametr <code>number</code> ma wartość null, funkcja <code>Number.Sqrt</code> zwraca wartość null. Jeśli ma wartość ujemną, jest zwracana wartość typu <code>Number.NaN</code> (nieliczbowa).
 

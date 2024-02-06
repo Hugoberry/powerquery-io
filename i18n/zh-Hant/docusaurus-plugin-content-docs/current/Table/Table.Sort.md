@@ -5,8 +5,6 @@ title: Table.Sort
 # Table.Sort
 
 
-## Description
-
 使用一個或多個資料行名稱和比較準則來排序資料表。
 
 
@@ -20,7 +18,7 @@ Table.Sort(
 ```
 
 
-## Details
+## Remarks
 
 以 \{ \{ col1, comparisonCriteria }, \{col2} } 的格式，使用一個或多個資料行名稱與選擇性 <code>comparisonCriteria</code> 的清單來排序 <code>table</code>。
 

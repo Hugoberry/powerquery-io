@@ -5,8 +5,6 @@ title: Table.ContainsAny
 # Table.ContainsAny
 
 
-## Description
-
 指定されたいずれかのレコードがテーブルに行として含まれているかどうかを示します。
 
 
@@ -21,7 +19,7 @@ Table.ContainsAny(
 ```
 
 
-## Details
+## Remarks
 
 レコードのリスト <code>rows</code> で指定されたいずれかのレコードが <code>table</code> に行として含まれているかどうかを示します。    省略可能なパラメーター <code>equationCriteria</code> を指定すると、テーブルの行と行の比較を制御できます。
 

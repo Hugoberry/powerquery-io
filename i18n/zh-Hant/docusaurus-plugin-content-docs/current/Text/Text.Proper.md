@@ -5,8 +5,6 @@ title: Text.Proper
 # Text.Proper
 
 
-## Description
-
 將每個字的第一個字母變成大寫。
 
 
@@ -20,7 +18,7 @@ Text.Proper(
 ```
 
 
-## Details
+## Remarks
 
 傳回只將文字值 <code>text</code> 中每個字第一個字母變成大寫的結果。所有其他字母都以小寫格式傳回。也可提供選用的 <code>culture</code> (例如 "en-US")。
 

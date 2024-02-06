@@ -5,8 +5,6 @@ title: DateTimeZone.ToRecord
 # DateTimeZone.ToRecord
 
 
-## Description
-
 datetimezone 値の部分を含むレコードを返します。
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 指定された datetimezone 値 (<code>dateTimeZone</code>) の部分を含むレコードを返します。 <ul>        <li><code>dateTimeZone</code>: その部分のレコードが計算される <code>datetimezone</code> 値。</li>      </ul>
 

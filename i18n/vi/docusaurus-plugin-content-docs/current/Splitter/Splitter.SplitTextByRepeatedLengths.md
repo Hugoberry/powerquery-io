@@ -5,8 +5,6 @@ title: Splitter.SplitTextByRepeatedLengths
 # Splitter.SplitTextByRepeatedLengths
 
 
-## Description
-
 Trả về một hàm tách văn bản thành một danh sách văn bản sau độ dài được chỉ định lặp đi lặp lại.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByRepeatedLengths(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một hàm tách văn bản thành một danh sách văn bản sau độ dài được chỉ định lặp đi lặp lại.
 

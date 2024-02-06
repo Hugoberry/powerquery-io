@@ -5,8 +5,6 @@ title: Webtrends.KeyMetrics
 # Webtrends.KeyMetrics
 
 
-## Description
-
 Devolve uma tabela com métricas-chave do Webtrends.
 
 
@@ -21,7 +19,7 @@ Webtrends.KeyMetrics(
 ```
 
 
-## Details
+## Remarks
 
 Efetua uma chamada ao ponto final do Webtrends KeyMetrics e devolve todos os dados em tabela.
 

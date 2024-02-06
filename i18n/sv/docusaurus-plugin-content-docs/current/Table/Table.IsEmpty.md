@@ -5,8 +5,6 @@ title: Table.IsEmpty
 # Table.IsEmpty
 
 
-## Description
-
 Anger om tabellen innehåller några rader.
 
 
@@ -19,7 +17,7 @@ Table.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 Anger om <code>table</code> innehåller några rader. Returnerar <code>true</code> om det inte finns några rader (tabellen är tom, med andra ord). Annars returneras <code>false</code>.
 

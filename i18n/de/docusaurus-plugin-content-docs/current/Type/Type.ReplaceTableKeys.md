@@ -5,8 +5,6 @@ title: Type.ReplaceTableKeys
 # Type.ReplaceTableKeys
 
 
-## Description
-
 Gibt einen neuen Tabellentyp zurück, in dem alle Schlüssel durch die Schlüssel aus der angegebenen Liste ersetzt wurden.
 
 
@@ -20,7 +18,7 @@ Type.ReplaceTableKeys(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen neuen Tabellentyp zurück, in dem alle Schlüssel durch die Schlüssel aus der angegebenen Liste ersetzt wurden.<br />    <br />    Jeder Schlüssel wird mithilfe eines Datensatzes in der folgenden Form definiert:    <ul>      <li>        <code>Spalten</code>: eine Liste der Spaltennamen, die den Schlüssel definieren.      </li>      <li>        <code>Primär</code>: <code>true</code>, wenn der Schlüssel der Primärschlüssel der Tabelle ist; andernfalls <code>false</code>      </li>    </ul>    Die angegebene Schlüsselliste wird überprüft, um sicherzustellen, dass nicht mehr als ein Primärschlüssel definiert ist und dass alle Schlüsselspaltennamen für den Tabellentyp vorhanden sind.    
 

@@ -15,7 +15,7 @@ PowerBI.Dataflows(
 ```
 
 
-## Details
+## Remarks
 
 Stellen Sie eine Verbindung mit allen Power BI-Dataflows her, auf die Sie zugreifen können, und wählen Sie die Entitäten, die Sie verwenden möchten.
 

@@ -5,8 +5,6 @@ title: List.DateTimeZones
 # List.DateTimeZones
 
 
-## Description
-
 已知初始值、計數和累加持續時間值，產生 datetimezone 值的清單。
 
 
@@ -21,7 +19,7 @@ List.DateTimeZones(
 ```
 
 
-## Details
+## Remarks
 
 傳回大小為 <code>count</code> 的 <code>datetimezone</code> 值清單，從 <code>start</code> 開始。指定的增量 <code>step</code> 是要加到每個值的 <code>duration</code> 值。
 

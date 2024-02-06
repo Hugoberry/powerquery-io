@@ -5,8 +5,6 @@ title: Table.Repeat
 # Table.Repeat
 
 
-## Description
-
 Tablonun satırlarını belirtilen sayıda yineler.
 
 
@@ -20,7 +18,7 @@ Table.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> girdisinden belirtilen <code>count</code> sayıda yinelenen sütunları içeren bir tablo döndürür.
 

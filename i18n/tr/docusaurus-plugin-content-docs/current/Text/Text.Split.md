@@ -5,8 +5,6 @@ title: Text.Split
 # Text.Split
 
 
-## Description
-
 Metni belirtilen sınırlayıcıya dayalı olarak bir metin değerleri listesine ayırır.
 
 
@@ -20,7 +18,7 @@ Text.Split(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> metin değerini <code>separator</code> belirtilen sınırlayıcısına dayalı olarak ayırmanın sonucu olan metin değerleri listesini döndürür.
 

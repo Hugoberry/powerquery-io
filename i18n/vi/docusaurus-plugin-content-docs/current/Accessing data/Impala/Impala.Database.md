@@ -5,8 +5,6 @@ title: Impala.Database
 # Impala.Database
 
 
-## Description
-
 Nhập dữ liệu từ cụm Impala
 
 
@@ -20,7 +18,7 @@ Impala.Database(
 ```
 
 
-## Details
+## Remarks
 
 Nhập dữ liệu từ cụm Impala <code>server</code>. Nếu bạn chưa chỉ định cổng thì cổng mặc định 21050 sẽ được sử dụng.
 

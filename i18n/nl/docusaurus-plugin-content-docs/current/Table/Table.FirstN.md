@@ -5,8 +5,6 @@ title: Table.FirstN
 # Table.FirstN
 
 
-## Description
-
 Retourneert het eerste aantal opgegeven rijen.
 
 
@@ -20,7 +18,7 @@ Table.FirstN(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de eerste rij(en) van de tabel <code>table</code>, afhankelijk van de waarde van <code>countOrCondition</code>:    <ul>    <li> Als <code>countOrCondition</code> een getal is, wordt dat aantal rijen (vanaf het begin) geretourneerd. </li>    <li> Als <code>countOrCondition</code> een voorwaarde is, worden de rijen geretourneerd die voldoen aan de voorwaarde, en stopt het retourneren bij een rij die niet aan de voorwaarde voldoet.</li></ul>
 

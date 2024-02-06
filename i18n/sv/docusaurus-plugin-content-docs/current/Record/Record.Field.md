@@ -5,8 +5,6 @@ title: Record.Field
 # Record.Field
 
 
-## Description
-
 Returnerar värdet för det angivna fältet i en post.
 
 
@@ -20,7 +18,7 @@ Record.Field(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar värdet för angivet <code>field</code> i <code>record</code>. Om fältet inte hittas genereras ett undantag.
 

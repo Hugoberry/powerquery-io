@@ -5,8 +5,6 @@ title: Table.AddColumn
 # Table.AddColumn
 
 
-## Description
-
 Fügt eine Spalte mit dem angegebenen Namen hinzu. Der Wert wird anhand der angegebenen Auswahlfunktion berechnet, wobei die einzelnen Zeilen jeweils als Eingabe herangezogen werden.
 
 
@@ -22,7 +20,7 @@ Table.AddColumn(
 ```
 
 
-## Details
+## Remarks
 
 Fügt der Tabelle "<code>table</code>" eine Spalte mit der Bezeichnung "<code>newColumnName</code>" hinzu. Die Werte für die Spalte werden anhand der angegebenen Auswahlfunktion "<code>columnGenerator</code>" berechnet, wobei die einzelnen Zeilen jeweils als Eingabe herangezogen werden.
 

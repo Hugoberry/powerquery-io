@@ -5,8 +5,6 @@ title: Expression.Constant
 # Expression.Constant
 
 
-## Description
-
 Returnerer M-kildekoderepræsentationen for en konstant værdi.
 
 
@@ -19,7 +17,7 @@ Expression.Constant(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer M-kildekoderepræsentationen for en konstant værdi.
 

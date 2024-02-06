@@ -5,8 +5,6 @@ title: List.Last
 # List.Last
 
 
-## Description
-
 Returnerer den sidste værdi på listen eller den angivne standard, hvis listen er tom.
 
 
@@ -20,7 +18,7 @@ List.Last(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer det sidste element på listen <code>list</code> eller den valgfrie standardværdi, <code>defaultValue</code>, hvis listen er tom.    Hvis listen er tom, og der ikke er angivet en standardværdi, returnerer funktionen <code>null</code>.
 

@@ -5,8 +5,6 @@ title: Date.AddDays
 # Date.AddDays
 
 
-## Description
-
 Thêm các ngày được chỉ định vào ngày.
 
 
@@ -20,7 +18,7 @@ Date.AddDays(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả <code>date</code>, <code>datetime</code> hoặc <code>datetimezone</code> khi thêm <code>numberOfDays</code> ngày vào giá trị <code>datetime</code><code>dateTime</code>.      <ul>      <li><code>dateTime</code>: Giá trị <code>date</code>, <code>datetime</code> hoặc <code>datetimezone</code> mà các ngày đang được thêm.</li>      <li><code>numberOfDays</code>: Số ngày sẽ thêm.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: DateTime.ToRecord
 # DateTime.ToRecord
 
 
-## Description
-
 Retourneert een record die onderdelen van de datum-/tijdwaarde bevat.
 
 
@@ -19,7 +17,7 @@ DateTime.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een record geretourneerd met de onderdelen van de opgegeven datetime-waarde, <code>dateTime</code>. <ul> <li><code>dateTime</code>: een <code>datetime</code>-waarde op basis waarvan de record of de onderdelen daarvan moeten worden berekend.</li> </ul>
 

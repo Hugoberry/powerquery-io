@@ -5,8 +5,6 @@ title: Text.RemoveRange
 # Text.RemoveRange
 
 
-## Description
-
 Quita un número de caracteres a partir del desplazamiento dado
 
 
@@ -21,7 +19,7 @@ Text.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una copia del valor de texto <code>text</code> con todos los caracteres desde la posición <code>offset</code> quitados.    Se puede usar un parámetro opcional (<code>count</code>) para especificar el número de caracteres que se van a quitar. El valor predeterminado de <code>count</code> es 1. Los valores de posición empiezan en 0.
 

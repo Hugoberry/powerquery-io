@@ -5,8 +5,6 @@ title: Stripe.Contents
 # Stripe.Contents
 
 
-## Description
-
 Hiermee wordt de Stripe API aangeroepen, met de mogelijkheid om het aantal uitgevoerde API-aanroepen te beperken.
 
 
@@ -21,7 +19,7 @@ Stripe.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt de Stripe API op https://api.stripe.com/v1/<code>method</code> aangeroepen, waarbij de optionele record <code>query</code> wordt doorgegeven als aanvullende parameters en het optionele item <code>pageLimit</code> als beperking voor het aantal API-aanvragen. De meest recente gegevens worden als eerste geretourneerd. Als <code>pageLimit</code> niet is opgegeven, worden alle gegevens geretourneerd. Stripe-versie 2015-10-16 wordt gebruikt.
 

@@ -5,8 +5,6 @@ title: Number.Sign
 # Number.Sign
 
 
-## Description
-
 Sayı pozitifse 1, negatifse -1 ve sıfırsa 0 döndürür.
 
 
@@ -19,7 +17,7 @@ Number.Sign(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> pozitif bir sayı ise 1, negatif sayı ise -1 ve sıfırsa 0 döndürür.    <code>number</code> null ise <code>Number.Sign</code> null döndürür.
 

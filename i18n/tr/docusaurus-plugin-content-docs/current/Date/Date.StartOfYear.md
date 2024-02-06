@@ -5,8 +5,6 @@ title: Date.StartOfYear
 # Date.StartOfYear
 
 
-## Description
-
 Yıl başlangıcını döndürür.
 
 
@@ -19,7 +17,7 @@ Date.StartOfYear(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> içeren yıl başlangıcını döndürür.    <code>dateTime</code>, bir <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri olmalıdır.
 

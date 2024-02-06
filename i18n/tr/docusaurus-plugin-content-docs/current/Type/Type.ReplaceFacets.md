@@ -5,8 +5,6 @@ title: Type.ReplaceFacets
 # Type.ReplaceFacets
 
 
-## Description
-
 Bir türe ilişkin modelleri değiştirir.
 
 
@@ -20,7 +18,7 @@ Type.ReplaceFacets(
 ```
 
 
-## Details
+## Remarks
 
 <code>type</code> modellerini <code>facets</code> kaydında bulunan modellerle değiştirir.
 

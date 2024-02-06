@@ -5,8 +5,6 @@ title: AzureEnterprise.Contents
 # AzureEnterprise.Contents
 
 
-## Description
-
 Geben Sie die URL des Azure Enterprise-REST-API-Endpunkts an, der Ihrer Registrierung zugeordnet ist.
 
 
@@ -20,7 +18,7 @@ AzureEnterprise.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die binären Ergebnisse des Aufrufs an die URL zurück, die für die Azure Enterprise-API angegeben wurde.
 

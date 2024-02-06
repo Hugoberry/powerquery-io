@@ -5,8 +5,6 @@ title: Table.Max
 # Table.Max
 
 
-## Description
-
 En büyük satırı veya varsayılan değeri, verilen ölçütü kullanarak döndürür.
 
 
@@ -21,7 +19,7 @@ Table.Max(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> içindeki en büyük satırı verilen <code>comparisonCriteria</code> öğesini kullanarak döndürür. Tablo boşsa, isteğe bağlı <code>default</code> değeri döndürülür. 
 

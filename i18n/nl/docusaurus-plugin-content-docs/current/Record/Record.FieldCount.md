@@ -5,8 +5,6 @@ title: Record.FieldCount
 # Record.FieldCount
 
 
-## Description
-
 Retourneert het aantal velden uit de record.
 
 
@@ -19,7 +17,7 @@ Record.FieldCount(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het aantal velden uit de record <code>record</code>.
 

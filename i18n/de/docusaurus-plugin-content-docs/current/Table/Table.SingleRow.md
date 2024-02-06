@@ -5,8 +5,6 @@ title: Table.SingleRow
 # Table.SingleRow
 
 
-## Description
-
 Gibt die einzelne Zeile in der Tabelle zurück.
 
 
@@ -19,7 +17,7 @@ Table.SingleRow(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die einzelne Zeile im einzeiligen Element vom Typ "<code>table</code>" zurück. Enthält das Element vom Typ "<code>table</code>" mehrere Zeilen, wird eine Ausnahme ausgelöst.
 

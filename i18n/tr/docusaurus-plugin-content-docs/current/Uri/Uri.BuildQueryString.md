@@ -5,8 +5,6 @@ title: Uri.BuildQueryString
 # Uri.BuildQueryString
 
 
-## Description
-
 Bir kaydı bir URI sorgu dizesinde derleyin.
 
 
@@ -19,7 +17,7 @@ Uri.BuildQueryString(
 ```
 
 
-## Details
+## Remarks
 
 <code>query</code> kaydını bir URI sorgu dizesinde derleyin ve gerekirse karakterleri atlayın.
 

@@ -5,8 +5,6 @@ title: DateTimeZone.ToUtc
 # DateTimeZone.ToUtc
 
 
-## Description
-
 タイム ゾーン部分を UTC タイム ゾーンに変換します。
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToUtc(
 ```
 
 
-## Details
+## Remarks
 
 datetime 値 <code>dateTimeZone</code> のタイム ゾーン情報を UTC またはグリニッジ標準時タイム ゾーン情報に変更します。    <code>dateTimeZone</code> にタイム ゾーン部分がない場合は、UTC タイム ゾーン情報が追加されます。
 

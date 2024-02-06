@@ -5,8 +5,6 @@ title: Table.FromList
 # Table.FromList
 
 
-## Description
-
 指定された分割関数をリストの各項目に適用してリストをテーブルに変換します。
 
 
@@ -23,7 +21,7 @@ Table.FromList(
 ```
 
 
-## Details
+## Remarks
 
 省略可能な分割関数 <code>splitter</code> をリストの各アイテムに適用してリスト <code>list</code> をテーブルに変換します。既定では、リストはコンマで区切られたテキスト値のリストであると見なされます。省略可能な <code>columns</code> は、列の数、列のリスト、TableType のいずれかです。省略可能な <code>default</code> および <code>extraValues</code> を指定することもできます。
 

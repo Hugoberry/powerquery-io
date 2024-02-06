@@ -5,8 +5,6 @@ title: List.Select
 # List.Select
 
 
-## Description
-
 傳回符合條件的值清單。
 
 
@@ -20,7 +18,7 @@ List.Select(
 ```
 
 
-## Details
+## Remarks
 
 根據清單 <code>list</code> 傳回符合選取條件 <code>selection</code> 的值清單。
 

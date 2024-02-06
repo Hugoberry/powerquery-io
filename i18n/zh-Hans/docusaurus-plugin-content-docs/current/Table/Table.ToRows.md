@@ -5,8 +5,6 @@ title: Table.ToRows
 # Table.ToRows
 
 
-## Description
-
 从表中创建行值的嵌套列表的列表。
 
 
@@ -19,7 +17,7 @@ Table.ToRows(
 ```
 
 
-## Details
+## Remarks
 
 从表 <code>table</code> 中创建嵌套表的列表。 每个列表项都是一个包含行值的内部列表。
 

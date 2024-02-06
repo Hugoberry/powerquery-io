@@ -5,8 +5,6 @@ title: Table.Column
 # Table.Column
 
 
-## Description
-
 Restituisce una colonna di dati specificata dalla tabella come elenco.
 
 
@@ -20,7 +18,7 @@ Table.Column(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce la colonna di dati specificata da <code>column</code> dalla tabella <code>table</code> come elenco.
 

@@ -5,8 +5,6 @@ title: Number.Sqrt
 # Number.Sqrt
 
 
-## Description
-
 संख्‍या का वर्गमूल लौटाता है.
 
 
@@ -19,7 +17,7 @@ Number.Sqrt(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> का वर्गमूल लौटाता है.    यदि <code>number</code> नल है, तो <code>Number.Sqrt</code> नल लौटाता है. यदि यह एक ऋणात्मक मान है, तो <code>Number.NaN</code> (संख्या नहीं) लौटाया जाता है.
 

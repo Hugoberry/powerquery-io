@@ -5,8 +5,6 @@ title: Table.ContainsAll
 # Table.ContainsAll
 
 
-## Description
-
 Indica se todos os registros especificados serão exibidos como linhas na tabela.
 
 
@@ -21,7 +19,7 @@ Table.ContainsAll(
 ```
 
 
-## Details
+## Remarks
 
 Indica se todos os registros especificados da lista de registros <code>rows</code> serão exibidos como linhas na <code>table</code>.    Um parâmetro <code>equationCriteria</code> opcional pode ser especificado para controlar a comparação entre as linhas da tabela.
 

@@ -5,8 +5,6 @@ title: Number.Atan2
 # Number.Atan2
 
 
-## Description
-
 Devolve o arco de tangente da divisão dos dois números.
 
 
@@ -20,7 +18,7 @@ Number.Atan2(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o arco de tangente da divisão dos dois números, <code>y</code> e <code>x</code>. A divisão será construída como <code>y</code>/<code>x</code>.
 

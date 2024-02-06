@@ -18,7 +18,7 @@ WorkplaceAnalytics.Data(
 ```
 
 
-## Details
+## Remarks
 
 นำเข้าเมตริกรายสัปดาห์และข้อมูลแอตทริบิวต์จาก Workplace Analytics
 

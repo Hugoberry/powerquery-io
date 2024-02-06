@@ -5,8 +5,6 @@ title: Impala.Database
 # Impala.Database
 
 
-## Description
-
 Importér data fra en Impala-klynge
 
 
@@ -20,7 +18,7 @@ Impala.Database(
 ```
 
 
-## Details
+## Remarks
 
 Importér data fra en Impala-klynge <code>server</code>. Hvis der ikke er angivet en port, anvendes standardporten 21050.
 

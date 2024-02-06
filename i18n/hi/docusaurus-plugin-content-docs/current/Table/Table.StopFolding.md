@@ -5,8 +5,6 @@ title: Table.StopFolding
 # Table.StopFolding
 
 
-## Description
-
 किसी भी डाउनस्ट्रीम कार्रवाई को डेटा के मूल स्रोत के विरुद्ध चलने से रोकता है.
 
 
@@ -19,7 +17,7 @@ Table.StopFolding(
 ```
 
 
-## Details
+## Remarks
 
 किसी भी डाउनस्ट्रीम कार्रवाई को <code>table</code> में डेटा के मूल स्रोत के विरुद्ध चलाए जाने से रोकता है.
 

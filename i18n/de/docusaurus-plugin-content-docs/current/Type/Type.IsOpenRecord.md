@@ -5,8 +5,6 @@ title: Type.IsOpenRecord
 # Type.IsOpenRecord
 
 
-## Description
-
 Gibt zurück, ob ein Datensatztyp geöffnet ist.
 
 
@@ -19,7 +17,7 @@ Type.IsOpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen <code>logischen</code> Wert zurück, der angibt, ob ein Datensatz <code>type</code> geöffnet ist.
 

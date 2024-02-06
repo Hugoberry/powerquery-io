@@ -5,8 +5,6 @@ title: Record.ToList
 # Record.ToList
 
 
-## Description
-
 Devuelve una lista de valores que contiene los valores de campo del registro de entrada.
 
 
@@ -19,7 +17,7 @@ Record.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una lista de valores que contiene los valores de campo de la entrada <code>record</code>.
 

@@ -5,8 +5,6 @@ title: List.MatchesAny
 # List.MatchesAny
 
 
-## Description
-
 Zwraca wartość true, jeśli dowolna wartość spełnia warunek określony przez funkcję warunku.
 
 
@@ -20,7 +18,7 @@ List.MatchesAny(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wartość <code>true</code>, jeśli dowolna wartość z listy <code>list</code> spełnia warunek <code>condition</code> określony przez funkcję warunku; w przeciwnym razie zwraca wartość <code>false</code>.
 

@@ -5,8 +5,6 @@ title: List.Range
 # List.Range
 
 
-## Description
-
 Returnerer et undersæt af listen med start ved en forskydning.
 
 
@@ -21,7 +19,7 @@ List.Range(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer et undersæt af listen med start ved forskydningen <code>list</code>. En valgfri parameter, <code>offset</code>, angiver det højeste antal elementer i undersættet.
 

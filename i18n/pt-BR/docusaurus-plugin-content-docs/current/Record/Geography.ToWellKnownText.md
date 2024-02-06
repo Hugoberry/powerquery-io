@@ -5,8 +5,6 @@ title: Geography.ToWellKnownText
 # Geography.ToWellKnownText
 
 
-## Description
-
 Converte um valor de ponto geográfico estruturado em sua representação WKT (Texto Bem Conhecido).
 
 
@@ -20,7 +18,7 @@ Geography.ToWellKnownText(
 ```
 
 
-## Details
+## Remarks
 
 Converte um valor de ponto geográfico estruturado em sua representação WKT (Texto Bem Conhecido), formato de serialização usado por muitos bancos de dados, incluindo SQL Server, conforme definido pelo OGC (Open Geospatial Consortium).
 

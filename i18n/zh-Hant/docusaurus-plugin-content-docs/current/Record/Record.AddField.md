@@ -5,8 +5,6 @@ title: Record.AddField
 # Record.AddField
 
 
-## Description
-
 在記錄中加入欄位。
 
 
@@ -22,7 +20,7 @@ Record.AddField(
 ```
 
 
-## Details
+## Remarks
 
 指定欄位的名稱 <code>fieldName</code> 和值 <code>value</code>，在記錄 <code>record</code> 中加入欄位。
 

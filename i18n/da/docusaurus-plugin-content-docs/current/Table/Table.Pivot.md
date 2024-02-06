@@ -5,8 +5,6 @@ title: Table.Pivot
 # Table.Pivot
 
 
-## Description
-
 Hvis der er et kolonnepar, der repræsenterer attribut/værdi-par, roteres dataene i attributkolonnen til en kolonneoverskrift.
 
 
@@ -23,7 +21,7 @@ Table.Pivot(
 ```
 
 
-## Details
+## Remarks
 
 Hvis der er et kolonnepar, der repræsenterer attribut/værdi-par, roteres dataene i attributkolonnen til en kolonneoverskrift.
 

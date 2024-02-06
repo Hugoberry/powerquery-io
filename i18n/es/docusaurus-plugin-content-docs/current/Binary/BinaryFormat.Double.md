@@ -5,8 +5,6 @@ title: BinaryFormat.Double
 # BinaryFormat.Double
 
 
-## Description
-
 Formato binario que lee un valor de coma flotante de doble precisión IEEE de 8 bytes.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Double(
 ```
 
 
-## Details
+## Remarks
 
 Formato binario que lee un valor de coma flotante de doble precisión IEEE de 8 bytes.
 

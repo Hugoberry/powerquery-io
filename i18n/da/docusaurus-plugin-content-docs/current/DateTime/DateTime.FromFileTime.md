@@ -5,8 +5,6 @@ title: DateTime.FromFileTime
 # DateTime.FromFileTime
 
 
-## Description
-
 Opretter en dato og et klokkeslæt ud fra et 64-bit langt tal.
 
 
@@ -19,7 +17,7 @@ DateTime.FromFileTime(
 ```
 
 
-## Details
+## Remarks
 
 Opretter en værdi for <code>datetime</code> ud fra <code>fileTime</code>-værdien og konverterer den til den lokale tidszone. filetime er en værdi for filklokkeslæt i Windows, der repræsenterer det antal intervaller med 100 nanosekunder, der er gået siden 24:00 midnat, d. 1. januar 1601 A.D. (C.E.) Coordinated Universal Time (UTC).
 

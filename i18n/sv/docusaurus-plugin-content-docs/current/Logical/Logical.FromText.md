@@ -5,8 +5,6 @@ title: Logical.FromText
 # Logical.FromText
 
 
-## Description
-
 Skapar ett logiskt värde från textvärdena &#34;true&#34; och &#34;false&#34;.
 
 
@@ -19,7 +17,7 @@ Logical.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Skapar ett logiskt värde från textvärdet <code>text</code>, antingen "true" eller "false". Om <code>text</code> innehåller en annan sträng genereras ett undantag. Textvärdet <code>text</code> är skiftlägeskänsligt.
 

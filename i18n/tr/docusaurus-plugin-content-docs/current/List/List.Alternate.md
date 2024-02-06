@@ -5,8 +5,6 @@ title: List.Alternate
 # List.Alternate
 
 
-## Description
-
 Bir listedeki tüm tek sayılı uzaklık öğelerinden oluşan bir liste döndürür.
 
 
@@ -22,7 +20,7 @@ List.Alternate(
 ```
 
 
-## Details
+## Remarks
 
 Bir listedeki tüm tek sayılı uzaklık öğelerinden oluşan bir liste döndürür. Parametrelere bağlı olarak <code>list</code> listesindeki değerleri alma veya atlama arasında geçiş yapar.    <ul>    <li><code>count</code>: Her defasında atlanan değerlerin sayısını belirtir.</li>    <li><code>repeatInterval</code>: Atlanan değerler arasına kaç değerin eklendiğini belirtmeye yönelik isteğe bağlı bir yineleme aralığı.</li>    <li><code>offset</code>: İlk uzaklıktaki değerleri atlamaya başlamaya yönelik bir isteğe bağlı uzaklık parametresi.</li>    </ul>
 

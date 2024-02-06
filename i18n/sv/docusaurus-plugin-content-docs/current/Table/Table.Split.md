@@ -5,8 +5,6 @@ title: Table.Split
 # Table.Split
 
 
-## Description
-
 Delar upp den angivna tabellen i en lista över tabeller med hjälp av den angivna sidstorleken.
 
 
@@ -20,7 +18,7 @@ Table.Split(
 ```
 
 
-## Details
+## Remarks
 
 Delar upp <code>table</code> i en lista med tabeller där det första elementet i listan är en tabell som innehåller de första <code>pageSize</code> raderna från    källtabellen, nästa element i listan är en tabell med de följande <code>pageSize</code> raderna från källtabellen osv.
 

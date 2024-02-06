@@ -5,8 +5,6 @@ title: Text.AfterDelimiter
 # Text.AfterDelimiter
 
 
-## Description
-
 Text.AfterDelimiter
 
 
@@ -21,7 +19,7 @@ Text.AfterDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca część elementu <code>text</code> po określonym elemencie <code>delimiter</code>.    Opcjonalna liczba <code>index</code> wskazuje, które wystąpienie elementu <code>delimiter</code> ma zostać uwzględnione.    Opcjonalna lista <code>index</code> wskazuje, które wystąpienie elementu <code>delimiter</code> ma zostać uwzględnione oraz czy indeksowanie ma być rozpoczynane od początku elementu wejściowego.
 

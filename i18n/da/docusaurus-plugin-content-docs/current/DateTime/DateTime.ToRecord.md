@@ -5,8 +5,6 @@ title: DateTime.ToRecord
 # DateTime.ToRecord
 
 
-## Description
-
 Returnerer en post, der indeholder delene fra værdien af typen datetime.
 
 
@@ -19,7 +17,7 @@ DateTime.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en post, der indeholder delene fra en bestemt værdi af typen datetime, <code>dateTime</code>. <ul>        <li><code>dateTime</code>: En værdi af typen <code>datetime</code>, som delenes post skal beregnes ud fra.</li>      </ul>
 

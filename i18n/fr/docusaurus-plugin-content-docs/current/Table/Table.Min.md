@@ -5,8 +5,6 @@ title: Table.Min
 # Table.Min
 
 
-## Description
-
 Retourne la plus petite ligne ou une valeur par défaut à l&#39;aide des critères fournis.
 
 
@@ -21,7 +19,7 @@ Table.Min(
 ```
 
 
-## Details
+## Remarks
 
 Retourne la plus petite ligne dans <code>table</code> en fonction de <code>comparisonCriteria</code>. Si la table est vide, la valeur <code>default</code> facultative est retournée.
 

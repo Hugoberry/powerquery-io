@@ -5,8 +5,6 @@ title: List.Percentile
 # List.Percentile
 
 
-## Description
-
 Gibt mindestens ein Stichprobenperzentil zurück, das den angegebenen Wahrscheinlichkeiten entspricht.
 
 
@@ -21,7 +19,7 @@ List.Percentile(
 ```
 
 
-## Details
+## Remarks
 
 Gibt mindestens ein Stichprobenperzentil der Liste "<code>list</code>" zurück. Wenn der Wert "<code>percentiles</code>" eine Zahl zwischen 0,0 und 1,0 ist, wird er als Perzentil behandelt, und das Ergebnis ist    ein einzelner Wert, der dieser Wahrscheinlichkeit entspricht. Wenn der Wert "<code>percentiles</code>" eine Zahlenliste mit Werten zwischen 0,0 und 1,0 ist, ist das Ergebnis eine Liste von Perzentilen    entsprechend der Wahrscheinlichkeit der Eingabe. Die PercentileMode-Option in "<code>options</code>" kann von fortgeschrittenen Benutzern verwendet werden, um eine spezifischere Interpolationsmethode auszuwählen, wird aber für die meisten Verwendungszwecke nicht empfohlen.    Die vordefinierten Symbole <code>PercentileMode.ExcelInc</code> und <code>PercentileMode.ExcelExc</code> entsprechen den von den Excel-Funktionen verwendeten Interpolationsmethoden    <code>PERCENTILE.INC</code> und <code>PERCENTILE.EXC</code>. Das Standardverhalten entspricht <code>PercentileMode.ExcelInc</code>. Die Symbole    <code>PercentileMode.SqlCont</code> und <code>PercentileMode.SqlDisc</code> entsprechen dem SQL Server-Verhalten für <code>PERCENTILE_CONT</code> bzw.    <code>PERCENTILE_DISC</code>.  
 

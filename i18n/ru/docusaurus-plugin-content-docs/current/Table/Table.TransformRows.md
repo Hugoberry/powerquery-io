@@ -5,8 +5,6 @@ title: Table.TransformRows
 # Table.TransformRows
 
 
-## Description
-
 Преобразует строки таблицы с помощью заданной функции преобразования.
 
 
@@ -20,7 +18,7 @@ Table.TransformRows(
 ```
 
 
-## Details
+## Remarks
 
 Создает <code>список</code>, применяя операцию <code>transform</code> к каждой строке в <code>table</code>.
 

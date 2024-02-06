@@ -5,8 +5,6 @@ title: Uri.BuildQueryString
 # Uri.BuildQueryString
 
 
-## Description
-
 Monte um registro em uma cadeia de caracteres de consulta da URI.
 
 
@@ -19,7 +17,7 @@ Uri.BuildQueryString(
 ```
 
 
-## Details
+## Remarks
 
 Monte o registro <code>query</code> em uma cadeia de caracteres de consulta da URI, liberando caracteres conforme necessário.
 

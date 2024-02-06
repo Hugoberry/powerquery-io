@@ -5,8 +5,6 @@ title: Time.ToText
 # Time.ToText
 
 
-## Description
-
 Returnerar en textrepresentation av tidsvärdet.
 
 
@@ -21,7 +19,7 @@ Time.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en textrepresentation av <code>time</code>. En valfri <code>post</code> parameter, <code>options</code>, kan tillhandahållas för att ange ytterligare egenskaper. <code>culture</code> används endast för äldre arbetsflöden. Den <code>posten</code> kan innehålla följande fält: <ul>   <li><code>Format-</code>: Ett <code>textvärde</code> som anger vilket format som ska användas. Mer information finns på https://go.microsoft.com/fwlink/?linkid=2180104 och https://go.microsoft.com/fwlink/?linkid=2180105. Om du utelämnar det här fältet eller anger <code>1 null-</code> formateras datumet med standardvärdet som definieras i <code>Culture</code>.</li>   <li><code>Culture</code>: Om <code>Format</code> inte är null styr <code>Culture</code> vissa formatspecificerare. Exempel: I <code>"en-US"</code> <code>"tt"</code> <code>"AM" eller "PM"</code>, i <code>"ar-EG"</code> <code>"tt"</code> är <code>"ص" eller "Wb"</code> När <code>Format</code> är <code>null</code> styr <code>Culture</code> standardformatet som ska användas. När <code>Culture</code> är <code>null</code> eller omitteras används <code>Culture.Nuvarande</code>.</li></ul>Om du vill stödja äldre arbetsflöden kan <code>options</code> och <code>culture</code> också vara textvärden. Detta har samma beteende som om <code>options</code><code> = [Format = <code>options</code>, Culture = <code>culture</code>]</code>.
 

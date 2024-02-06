@@ -5,8 +5,6 @@ title: Table.AlternateRows
 # Table.AlternateRows
 
 
-## Description
-
 İlk uzaklığı korur ve sonraki satırları almayı ve atlamayı değiştirir.
 
 
@@ -22,7 +20,7 @@ Table.AlternateRows(
 ```
 
 
-## Details
+## Remarks
 
 İlk uzaklığı korur ve sonraki satırları almayı ve atlamayı değiştirir.    <ul>       <li><code>table</code>: Giriş tablosu.</li>       <li><code>offset</code>: Döngüleri başlatmadan önce saklanacak satır sayısı.</li>       <li><code>skip</code>: Her döngüde kaldırılacak satır sayısı.</li>       <li><code>take</code>: Her döngüde saklanacak satır sayısı.</li>    </ul>    
 

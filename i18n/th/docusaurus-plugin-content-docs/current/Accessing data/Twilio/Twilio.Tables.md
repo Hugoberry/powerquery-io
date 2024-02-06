@@ -5,8 +5,6 @@ title: Twilio.Tables
 # Twilio.Tables
 
 
-## Description
-
 กรอกจำนวนเดือนของข้อมูล Twilio ตามประวัติเพื่อดึงข้อมูล
 
 
@@ -19,7 +17,7 @@ Twilio.Tables(
 ```
 
 
-## Details
+## Remarks
 
 กลับไปยังตารางพร้อมด้วยข้อมูล Twilio ที่เกี่ยวข้อง
 

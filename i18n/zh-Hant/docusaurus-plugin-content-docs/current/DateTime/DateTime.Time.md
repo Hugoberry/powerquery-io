@@ -5,8 +5,6 @@ title: DateTime.Time
 # DateTime.Time
 
 
-## Description
-
 傳回指定之 datetime 值的時間部分。
 
 
@@ -19,7 +17,7 @@ DateTime.Time(
 ```
 
 
-## Details
+## Remarks
 
 傳回指定之 datetime 值 <code>dateTime</code> 的時間部分。
 

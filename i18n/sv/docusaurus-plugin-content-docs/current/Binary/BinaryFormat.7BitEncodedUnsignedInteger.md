@@ -5,8 +5,6 @@ title: BinaryFormat.7BitEncodedUnsignedInteger
 # BinaryFormat.7BitEncodedUnsignedInteger
 
 
-## Description
-
 Ett binärformat som läser ett 64-bitars heltal utan tecken som kodats med 7-bitars kodning med variabel längd.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.7BitEncodedUnsignedInteger(
 ```
 
 
-## Details
+## Remarks
 
 Ett binärformat som läser ett 64-bitars heltal utan tecken som kodats med 7-bitars kodning med variabel längd.
 

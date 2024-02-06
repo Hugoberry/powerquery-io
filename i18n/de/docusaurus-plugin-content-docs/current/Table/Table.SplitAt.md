@@ -5,8 +5,6 @@ title: Table.SplitAt
 # Table.SplitAt
 
 
-## Description
-
 Gibt eine Liste zurück, welche die ersten angegebenen zu zählenden Zeilen und die restlichen Zeilen enthält.
 
 
@@ -20,7 +18,7 @@ Table.SplitAt(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Liste mit zwei Tabellen zurück: eine Tabelle mit den ersten N Zeilen von <code>table</code> (wie in <code>count</code> angegeben) und eine Tabelle, welche die restlichen Zeilen von <code>table</code> enthält.Wenn die Tabellen der resultierenden Liste genau einmal und in der Reihenfolge aufgezählt werden, zählt die Funktion <code>table</code> nur einmal auf.
 

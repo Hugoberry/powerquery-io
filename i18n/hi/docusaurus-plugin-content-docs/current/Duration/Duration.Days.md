@@ -5,8 +5,6 @@ title: Duration.Days
 # Duration.Days
 
 
-## Description
-
 अवधि का दिनों वाला भाग लौटाता है.
 
 
@@ -19,7 +17,7 @@ Duration.Days(
 ```
 
 
-## Details
+## Remarks
 
 <code>duration</code> का दिनों वाला भाग लौटाता है.
 

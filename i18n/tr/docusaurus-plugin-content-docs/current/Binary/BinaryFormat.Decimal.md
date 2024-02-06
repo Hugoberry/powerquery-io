@@ -5,8 +5,6 @@ title: BinaryFormat.Decimal
 # BinaryFormat.Decimal
 
 
-## Description
-
 Bir .NET 16 bayt ondalık değeri okuyan ikili biçimi.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Decimal(
 ```
 
 
-## Details
+## Remarks
 
 Bir .NET 16 bayt ondalık değeri okuyan ikili biçimi.
 

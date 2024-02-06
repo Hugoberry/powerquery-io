@@ -5,8 +5,6 @@ title: Table.SelectColumns
 # Table.SelectColumns
 
 
-## Description
-
 Возвращает таблицу, содержащую только определенные столбцы.
 
 
@@ -21,7 +19,7 @@ Table.SelectColumns(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает <code>table</code> только с указанными <code>columns</code>.    <ul>       <li><code>table</code>: предоставленная таблица.</li>       <li><code>columns</code>: список столбцов из таблицы <code>table</code>, которые должны быть возвращены. Столбцы в возвращаемой таблице содержатся в порядке, указанном параметром <code>columns</code>.</li>       <li><code>missingField</code>: <i>(необязательно)</i> что делать, если столбец не существует.  Пример: <code>MissingField.UseNull</code> или <code>MissingField.Ignore</code>.    </li></ul>
 

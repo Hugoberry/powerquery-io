@@ -5,8 +5,6 @@ title: Table.First
 # Table.First
 
 
-## Description
-
 Returnerar den första raden eller ett angivet standardvärde.
 
 
@@ -20,7 +18,7 @@ Table.First(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar den första raden i <code>table</code> eller ett valfritt standardvärde, <code>default</code> om tabellen är tom.
 

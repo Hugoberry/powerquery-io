@@ -5,8 +5,6 @@ title: VSTS.Feed
 # VSTS.Feed
 
 
-## Description
-
 ฟีดบริการ Azure DevOps
 
 
@@ -20,7 +18,7 @@ VSTS.Feed(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางฟีด OData ที่เสนอโดย Azure DevOps
 

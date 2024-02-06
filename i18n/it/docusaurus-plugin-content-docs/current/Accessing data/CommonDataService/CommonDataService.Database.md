@@ -16,7 +16,7 @@ CommonDataService.Database(
 ```
 
 
-## Details
+## Remarks
 
 Consente di connettersi all'istanza di Dataverse (Dynamics 365 e PowerApps).
 

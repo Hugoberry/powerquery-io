@@ -5,8 +5,6 @@ title: List.Intersect
 # List.Intersect
 
 
-## Description
-
 इनपुट में पाए गए सूची मानों का प्रतिच्छेदन लौटाता है.
 
 
@@ -20,7 +18,7 @@ List.Intersect(
 ```
 
 
-## Details
+## Remarks
 
 इनपुट सूची <code>lists</code> में पाए गए सूची मानों का प्रतिच्छेदन लौटाता है. एक वैकल्पिक पैरामीटर, <code>equationCriteria</code>, निर्दिष्ट किया जा सकता है.
 

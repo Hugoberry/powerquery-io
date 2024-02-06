@@ -5,8 +5,6 @@ title: Replacer.ReplaceText
 # Replacer.ReplaceText
 
 
-## Description
-
 Ersätter text i angivna indata.
 
 
@@ -21,7 +19,7 @@ Replacer.ReplaceText(
 ```
 
 
-## Details
+## Remarks
 
 Ersätter texten <code>old</code> i ursprungliga <code>text</code> med texten <code>new</code>. Den här ersättningsfunktionen kan användas i <code>List.ReplaceValue</code> och <code>Table.ReplaceValue</code>.
 

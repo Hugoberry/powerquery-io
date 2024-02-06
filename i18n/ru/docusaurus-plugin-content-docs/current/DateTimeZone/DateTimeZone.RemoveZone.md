@@ -5,8 +5,6 @@ title: DateTimeZone.RemoveZone
 # DateTimeZone.RemoveZone
 
 
-## Description
-
 Удаляет данные о часовом поясе из заданного значения datetimezone.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.RemoveZone(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает значение #datetime из <code>dateTimeZone</code> с удаленными данными часового пояса.
 

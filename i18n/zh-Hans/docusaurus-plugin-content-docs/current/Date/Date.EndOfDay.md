@@ -5,8 +5,6 @@ title: Date.EndOfDay
 # Date.EndOfDay
 
 
-## Description
-
 返回天结束值。
 
 
@@ -19,7 +17,7 @@ Date.EndOfDay(
 ```
 
 
-## Details
+## Remarks
 
 返回 <code>dateTime</code> 表示的天结束值。保留时区信息。 <ul> <li><code>dateTime</code>: 从中计算天结束值的<code>date</code>、<code>datetime</code>或 <code>datetimezone</code>值</li>      </ul>
 

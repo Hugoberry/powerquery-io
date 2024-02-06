@@ -5,8 +5,6 @@ title: AzureSpark.Tables
 # AzureSpark.Tables
 
 
-## Description
-
 Elenca le tabelle in un&#39;istanza di Azure Spark.
 
 
@@ -20,7 +18,7 @@ AzureSpark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Elenca le tabelle in un'istanza di Azure Spark.
 

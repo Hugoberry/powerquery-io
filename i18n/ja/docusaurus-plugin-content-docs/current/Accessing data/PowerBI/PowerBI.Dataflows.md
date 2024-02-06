@@ -15,7 +15,7 @@ PowerBI.Dataflows(
 ```
 
 
-## Details
+## Remarks
 
 アクセス権があるすべての Power BI データフローに接続して、使用するエンティティを選択してください。
 

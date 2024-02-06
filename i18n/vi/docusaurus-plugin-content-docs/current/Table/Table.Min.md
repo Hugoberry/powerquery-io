@@ -5,8 +5,6 @@ title: Table.Min
 # Table.Min
 
 
-## Description
-
 Trả về hàng nhỏ nhất hoặc một giá trị mặc định sử dụng tiêu chí cho sẵn.
 
 
@@ -21,7 +19,7 @@ Table.Min(
 ```
 
 
-## Details
+## Remarks
 
 Trả về hàng nhỏ nhất trong <code>table</code> khi được cho sẵn <code>comparisonCriteria</code>. Nếu bảng trống thì giá trị <code>default</code> tùy chọn được trả về.
 

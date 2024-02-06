@@ -5,8 +5,6 @@ title: BinaryFormat.Length
 # BinaryFormat.Length
 
 
-## Description
-
 読み取ることができるデータの量を制限するバイナリ形式を返します。
 
 
@@ -20,7 +18,7 @@ BinaryFormat.Length(
 ```
 
 
-## Details
+## Remarks
 
 読み取ることができるデータの量を制限するバイナリ形式を返します。データの末尾まで読み取るには、<code>BinaryFormat.List</code> および <code>BinaryFormat.Binary</code> を使用することができます。読み取るバイト数を制限するには、<code>BinaryFormat.Length</code> を使用できます。<code>binaryFormat</code> パラメーターは、制限するバイナリ形式を指定します。<code>length</code> パラメーターは、読み取るバイト数を指定します。<code>length</code> パラメーターでは、数値か、読み取る値の前にある長さの値の形式を指定するバイナリ形式値を指定できます。
 

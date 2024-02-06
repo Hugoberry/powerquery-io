@@ -5,8 +5,6 @@ title: Cube.MeasureProperty
 # Cube.MeasureProperty
 
 
-## Description
-
 メジャー (セル プロパティ) のプロパティを返します。
 
 
@@ -20,7 +18,7 @@ Cube.MeasureProperty(
 ```
 
 
-## Details
+## Remarks
 
 メジャー <code>measure</code> のプロパティ <code>propertyName</code> を返します。
 

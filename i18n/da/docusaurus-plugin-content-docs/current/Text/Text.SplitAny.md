@@ -5,8 +5,6 @@ title: Text.SplitAny
 # Text.SplitAny
 
 
-## Description
-
 Returnerer en liste over tekstværdier, hvor tegnene er opdelt ved hjælp af afgrænseren.
 
 
@@ -20,7 +18,7 @@ Text.SplitAny(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en liste over tekstværdier som et resultat af at opdele en tekstværdi <code>text</code> ved hjælp af et hvilket som helst tegn i den angivne afgrænser, <code>separators</code>.
 

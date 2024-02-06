@@ -5,8 +5,6 @@ title: List.StandardDeviation
 # List.StandardDeviation
 
 
-## Description
-
 Returnerer et estimat, der er baseret på et eksempel, af standardafvigelsen.
 
 
@@ -19,7 +17,7 @@ List.StandardDeviation(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer et estimat, der er baseret på et eksempel, af værdierne på listen <code>numbersList</code>.    Hvis <code>numbersList</code> er en liste over tal, returneres der et tal.     Der udløses en undtagelse for en tom liste eller for en liste over elementer, der ikke er af typen <code>number</code>.
 

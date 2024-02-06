@@ -5,8 +5,6 @@ title: Table.FromList
 # Table.FromList
 
 
-## Description
-
 Converte uma lista em tabela aplicando a função de divisão especificada a cada item da lista.
 
 
@@ -23,7 +21,7 @@ Table.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Converte uma lista, <code>list</code>, em tabela aplicando a função de divisão opcional, <code>splitter</code>, a cada item da lista. Por padrão, a lista é considerada uma lista de valores de texto divididos por vírgula. O <code>columns</code> opcional pode ser o número de colunas, uma lista de colunas ou um TableType. <code>default</code> e <code>extraValues</code> opcionais também podem ser especificados.
 

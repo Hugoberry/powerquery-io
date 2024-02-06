@@ -5,8 +5,6 @@ title: Type.FunctionParameters
 # Type.FunctionParameters
 
 
-## Description
-
 Trả về bản ghi có các giá trị trường đã đặt cho tên tham số của một loại hàm và giá trị của chúng được đặt cho loại tương ứng.
 
 
@@ -19,7 +17,7 @@ Type.FunctionParameters(
 ```
 
 
-## Details
+## Remarks
 
 Trả về bản ghi có các giá trị trường đã đặt cho tên tham số của <code>type</code> và giá trị của chúng được đặt cho loại tương ứng.
 

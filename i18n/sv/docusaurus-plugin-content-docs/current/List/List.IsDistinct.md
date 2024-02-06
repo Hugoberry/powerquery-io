@@ -5,8 +5,6 @@ title: List.IsDistinct
 # List.IsDistinct
 
 
-## Description
-
 Anger om det finns dubbletter i listan.
 
 
@@ -20,7 +18,7 @@ List.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett logiskt värde om det finns dubbletter i listan <code>list</code>; <code>true</code> om listan är distinkt, <code>false</code> om det finns dubblettvärden. 
 

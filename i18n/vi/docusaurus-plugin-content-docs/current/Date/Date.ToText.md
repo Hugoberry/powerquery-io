@@ -5,8 +5,6 @@ title: Date.ToText
 # Date.ToText
 
 
-## Description
-
 Trả về một cách biểu diễn văn bản của giá trị ngày.
 
 
@@ -21,7 +19,7 @@ Date.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Trả về dạng biểu diễn văn bản của <code>date</code>. Một tham số <code>record</code> tùy chọn, <code>options</code>, có thể được cung cấp để chỉ định các thuộc tính bổ sung. <code>culture</code> chỉ được sử dụng cho các quy trình làm việc cũ. <code>record</code> có thể chứa các trường sau:<ul>   <li><code>Format</code>: Giá trị <code>text</code> cho biết định dạng cần sử dụng. Để biết thêm chi tiết, hãy truy nhập https://go.microsoft.com/fwlink/?linkid=2180104 và https://go.microsoft.com/fwlink/?linkid=2180105. Việc bỏ qua trường này hoặc cung cấp giá trị <code>null</code> sẽ dẫn đến định dạng ngày bằng giá trị mặc định do <code>Culture</code>.</li>   <li><code>Culture</code> xác định: Khi <code>Format</code> không phải là null, <code>Culture</code> sẽ kiểm soát một số bộ xác định định dạng. Ví dụ, trong <code>"en-US"</code> <code>"MMM"</code> là <code>"Jan", "Feb", "Mar", ...</code> còn trong <code>"ru-RU"</code> <code>"MMM"</code> là <code>"янв", "фев", "мар", ...</code>. Khi <code>Format</code> là <code>null</code>, <code>Culture</code> sẽ kiểm soát định dạng mặc định cần sử dụng. Khi <code>Culture</code> là <code>null</code> hoặc bị bỏ qua, <code>Culture.Current</code> sẽ được sử dụng.</li></ul>Để hỗ trợ các quy trình làm việc cũ, <code>options</code> và <code>culture</code> cũng có thể là các giá trị văn bản. Giá trị này có cùng hành vi giống như <code>options</code><code> = [Format = <code>options</code>, Culture = <code>culture</code>]</code>.
 

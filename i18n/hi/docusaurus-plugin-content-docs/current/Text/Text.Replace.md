@@ -5,8 +5,6 @@ title: Text.Replace
 # Text.Replace
 
 
-## Description
-
 पाठ में दी गई सबस्ट्रिंग की सभी आवृत्तियों को प्रतिस्थापित करता है.
 
 
@@ -21,7 +19,7 @@ Text.Replace(
 ```
 
 
-## Details
+## Remarks
 
 पाठ मान <code>text</code> में पाठ मान <code>old</code> की सभी आवृत्तियों को पाठ मान <code>new</code> से प्रस्थापित करने का परिणाम लौटाता है. यह फ़ंक्शन केस संवेदी है.
 

@@ -5,8 +5,6 @@ title: Comparer.OrdinalIgnoreCase
 # Comparer.OrdinalIgnoreCase
 
 
-## Description
-
 傳回不區分大小寫的比較子函數，該函數會使用序數規則來比較值。
 
 
@@ -20,7 +18,7 @@ Comparer.OrdinalIgnoreCase(
 ```
 
 
-## Details
+## Remarks
 
 傳回不區分大小寫的比較子函數，此函數會使用序數規則來比較提供的值 <code>x</code> 和 <code>y</code>。<br />        <br />        比較函數會接受兩個引數，並根據第一個值小於、等於或大於第二個值，來傳回 -1、0 或 1。    
 

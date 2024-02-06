@@ -5,8 +5,6 @@ title: List.NonNullCount
 # List.NonNullCount
 
 
-## Description
-
 リスト内の NULL 以外の項目の数を返します。
 
 
@@ -19,7 +17,7 @@ List.NonNullCount(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>list</code> 内の NULL 以外の項目の数を返します。
 

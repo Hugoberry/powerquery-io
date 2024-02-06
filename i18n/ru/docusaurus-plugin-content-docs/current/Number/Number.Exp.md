@@ -5,8 +5,6 @@ title: Number.Exp
 # Number.Exp
 
 
-## Description
-
 Возводит e в заданную степень.
 
 
@@ -19,7 +17,7 @@ Number.Exp(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает результат возведения e в степень <code>number</code> (экспонента).      <ul>        <li><code>number</code>: значение <code>number</code>, для которого вычисляется экспонента. Если <code>number</code> имеет значение NULL, <code>Number.Exp</code> возвращает NULL. </li>      </ul>
 

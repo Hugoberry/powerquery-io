@@ -17,7 +17,7 @@ DatabricksMultiCloud.Query(
 ```
 
 
-## Details
+## Remarks
 
 SQL क्वेरी चलाने के लिए Databricks डेटा स्रोत निर्धारित करें
 

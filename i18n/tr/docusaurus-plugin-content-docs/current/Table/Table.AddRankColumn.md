@@ -5,8 +5,6 @@ title: Table.AddRankColumn
 # Table.AddRankColumn
 
 
-## Description
-
 Bir sütunu bir veya daha fazla sütunun sıralamasıyla ekler.
 
 
@@ -22,7 +20,7 @@ Table.AddRankColumn(
 ```
 
 
-## Details
+## Remarks
 
 <code>newColumnName</code> adlı bir kolonu <code>table</code>sütununa <code>comparisonCriteria</code> tarafından açıklanan bir veya daha fazla sütunun sıralamasıyla ekler.<code>options</code> öğesindeki RankKind seçeneği, gelişmiş kullanıcılar tarafından daha belirli bir sıralama yöntemi seçmek için kullanılabilir.
 

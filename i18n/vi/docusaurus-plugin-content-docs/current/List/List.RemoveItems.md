@@ -5,8 +5,6 @@ title: List.RemoveItems
 # List.RemoveItems
 
 
-## Description
-
 Loại bỏ các mục trong danh list1 có trong danh sách.
 
 
@@ -20,7 +18,7 @@ List.RemoveItems(
 ```
 
 
-## Details
+## Remarks
 
 Loại bỏ tất cả những lần xuất hiện của giá trị cụ thể trong <code>list2</code> khỏi <code>list1</code>. Nếu các giá trị trong <code>list2</code> không tồn tại trong <code>list1</code> thì danh sách ban đầu được trả về.
 

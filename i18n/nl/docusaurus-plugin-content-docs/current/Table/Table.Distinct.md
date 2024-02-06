@@ -5,8 +5,6 @@ title: Table.Distinct
 # Table.Distinct
 
 
-## Description
-
 Verwijdert dubbele rijen uit de tabel.
 
 
@@ -20,7 +18,7 @@ Table.Distinct(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee verwijdert u dubbele rijen uit de tabel.    Een optionele parameter, <code>equationCriteria</code>, geeft aan welke kolommen van de tabel worden getest op duplicatie. Als <code>equationCriteria</code> niet is opgegeven, worden alle kolommen getest.<br />    <br />    Omdat Power Query soms bepaalde bewerkingen offloadt naar back-endgegevensbronnen (ook wel 'folding' genoemd) en soms ook query's optimaliseert door     bewerkingen over te slaan die niet strikt noodzakelijk zijn,  over het algemeen is er geen garantie welke specifieke duplicaat behouden blijft.    U kunt er bijvoorbeeld niet van uitgaan dat de eerste rij met een unieke set kolomwaarden behouden blijft en rijen verder omlaag in de tabel worden verwijderd.    Als u wilt dat de dubbele verwijdering voorspelbaar werkt, buffert u eerst de tabel met <code>Table.Buffer</code>.
 

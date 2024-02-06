@@ -5,8 +5,6 @@ title: Text.AfterDelimiter
 # Text.AfterDelimiter
 
 
-## Description
-
 Text.AfterDelimiter
 
 
@@ -21,7 +19,7 @@ Text.AfterDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Retorna a porção de <code>text</code> depois do <code>delimiter</code> especificado.    Um valor numérico opcional <code>index</code> indica a ocorrência do <code>delimiter</code> que deve ser considerada.    Uma lista opcional <code>index</code> indica a ocorrência do <code>delimiter</code> que deve ser considerada, assim como se a indexação deve ser feita a partir do início ou do final da entrada.
 

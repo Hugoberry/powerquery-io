@@ -5,8 +5,6 @@ title: Combiner.CombineTextByPositions
 # Combiner.CombineTextByPositions
 
 
-## Description
-
 ऐसा फ़ंक्शन लौटाता है जो निर्दिष्ट आउटपुट स्थितियों का उपयोग करके टेक्स्ट की सूची को संयोजित करता है.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByPositions(
 ```
 
 
-## Details
+## Remarks
 
 ऐसा फ़ंक्शन लौटाता है जो निर्दिष्ट आउटपुट स्थितियों का उपयोग करके टेक्स्ट मानों की सूची को सिंगल टेक्स्ट मान में संयोजित करता है.
 

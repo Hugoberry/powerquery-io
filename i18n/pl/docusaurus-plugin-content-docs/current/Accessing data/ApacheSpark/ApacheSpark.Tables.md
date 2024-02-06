@@ -5,8 +5,6 @@ title: ApacheSpark.Tables
 # ApacheSpark.Tables
 
 
-## Description
-
 Zwraca tabelę z listą tabel w określonym klastrze platformy Spark.
 
 
@@ -21,7 +19,7 @@ ApacheSpark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę z listą tabel w elemencie <code>host</code> klastra platformy Spark używającego elementu <code>protocol</code>. Prawidłowe protokoły:SparkProtocol.Standard, SparkProtocol.HTTP
 

@@ -5,8 +5,6 @@ title: Cube.Measures
 # Cube.Measures
 
 
-## Description
-
 Kullanılabilir ölçüler kümesini içeren bir tablo döndürür.
 
 
@@ -19,7 +17,7 @@ Cube.Measures(
 ```
 
 
-## Details
+## Remarks
 
 <code>cube</code> içindeki kullanılabilir ölçüler kümesini içeren bir tablo döndürür.    Her ölçü bir işlev olarak sunulur. Ölçüler, Cube.AddMeasureColumn kullanılarak küpe uygulanabilir.
 

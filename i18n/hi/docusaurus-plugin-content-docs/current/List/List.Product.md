@@ -5,8 +5,6 @@ title: List.Product
 # List.Product
 
 
-## Description
-
 सूची की संख्याओं का उत्पाद लौटाता है.
 
 
@@ -20,7 +18,7 @@ List.Product(
 ```
 
 
-## Details
+## Remarks
 
 सूची, <code>numbersList</code> की गैर-नल संख्याओं का उत्पाद लौटाता है. सूची में गैर-नल मान न होने पर नल लौटाता है.
 

@@ -5,8 +5,6 @@ title: Splitter.SplitTextByWhitespace
 # Splitter.SplitTextByWhitespace
 
 
-## Description
-
 返回一个函数，它在空白处将文本拆分为文本列表。
 
 
@@ -19,7 +17,7 @@ Splitter.SplitTextByWhitespace(
 ```
 
 
-## Details
+## Remarks
 
 返回一个函数，它在空白处将文本拆分为文本列表。
 

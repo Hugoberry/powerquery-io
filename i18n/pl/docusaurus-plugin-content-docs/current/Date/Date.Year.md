@@ -5,8 +5,6 @@ title: Date.Year
 # Date.Year
 
 
-## Description
-
 Zwraca składnik roku.
 
 
@@ -19,7 +17,7 @@ Date.Year(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca składnik roku z wartości typu <code>datetime</code> dostarczonej w parametrze <code>dateTime</code>.
 

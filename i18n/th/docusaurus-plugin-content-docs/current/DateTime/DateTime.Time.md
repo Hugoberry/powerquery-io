@@ -5,8 +5,6 @@ title: DateTime.Time
 # DateTime.Time
 
 
-## Description
-
 ส่งกลับส่วนเวลาของค่าวันที่เวลาที่กำหนด
 
 
@@ -19,7 +17,7 @@ DateTime.Time(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับส่วนเวลาของค่าวันที่เวลาที่กำหนด <code>dateTime</code>
 

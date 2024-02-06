@@ -5,8 +5,6 @@ title: Marketo.Tables
 # Marketo.Tables
 
 
-## Description
-
 アカウントに関連付けられている Marketo REST API エンドポイントの URL を入力します。
 
 
@@ -20,7 +18,7 @@ Marketo.Tables(
 ```
 
 
-## Details
+## Remarks
 
 関連する Marketo データのテーブルを返します。
 

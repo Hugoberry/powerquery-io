@@ -5,8 +5,6 @@ title: BinaryFormat.Byte
 # BinaryFormat.Byte
 
 
-## Description
-
 Một định dạng nhị phân đọc một số nguyên không dấu 8 bit.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Byte(
 ```
 
 
-## Details
+## Remarks
 
 Một định dạng nhị phân đọc một số nguyên không dấu 8 bit.
 

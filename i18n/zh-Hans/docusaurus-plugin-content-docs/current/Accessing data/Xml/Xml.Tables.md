@@ -5,8 +5,6 @@ title: Xml.Tables
 # Xml.Tables
 
 
-## Description
-
 返回 XML 文档的内容作为平展表的嵌套集合。
 
 
@@ -21,7 +19,7 @@ Xml.Tables(
 ```
 
 
-## Details
+## Remarks
 
 返回 XML 文档的内容作为平展表的嵌套集合。
 

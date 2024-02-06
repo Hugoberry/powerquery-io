@@ -5,8 +5,6 @@ title: Text.PositionOfAny
 # Text.PositionOfAny
 
 
-## Description
-
 Trả về vị trí đầu tiên trong giá trị văn bản của ký tự bất kỳ được liệt kê (-1 nếu không tìm thấy).
 
 
@@ -21,7 +19,7 @@ Text.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Trả về vị trí đầu tiên của ký tự bất kỳ trong danh sách <code>characters</code> tìm được trong <code>text</code>.    Có thể sử dụng tham số tùy chọn <code>occurrence</code> để chỉ định trả về vị trí xuất hiện nào.
 

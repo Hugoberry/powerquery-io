@@ -5,8 +5,6 @@ title: Number.BitwiseAnd
 # Number.BitwiseAnd
 
 
-## Description
-
 ส่งกลับผลลัพธ์ของการดำเนินการในระดับบิต &#34;And&#34; ระหว่างค่าที่ป้อนสองรายการ
 
 
@@ -20,7 +18,7 @@ Number.BitwiseAnd(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลลัพธ์ของการดำเนินการในระดับบิต "And" ระหว่าง <code>number1</code> กับ <code>number2</code>
 

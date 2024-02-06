@@ -5,8 +5,6 @@ title: Table.ToColumns
 # Table.ToColumns
 
 
-## Description
-
 Tạo một danh sách chứa các danh sách lồng nhau bao gồm các giá trị cột từ bảng.
 
 
@@ -19,7 +17,7 @@ Table.ToColumns(
 ```
 
 
-## Details
+## Remarks
 
 Tạo một danh sách chứa các danh sách lồng nhau từ bảng <code>table</code>.  Mỗi mục danh sách là một danh sách bên trong chứa các giá trị cột.
 

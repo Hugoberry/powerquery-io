@@ -5,8 +5,6 @@ title: Table.RemoveMatchingRows
 # Table.RemoveMatchingRows
 
 
-## Description
-
 Verwijdert alle instanties van de opgegeven rijen uit de tabel.
 
 
@@ -21,7 +19,7 @@ Table.RemoveMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee worden alle herhalingen van de opgegeven <code>rows</code> van de <code>table</code> verwijderd. Een optionele parameter <code>equationCriteria</code> kan worden opgegeven voor het aansturen van de vergelijking tussen de rijen van de tabel.
 

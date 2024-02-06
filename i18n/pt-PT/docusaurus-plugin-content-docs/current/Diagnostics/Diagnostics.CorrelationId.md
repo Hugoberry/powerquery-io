@@ -5,8 +5,6 @@ title: Diagnostics.CorrelationId
 # Diagnostics.CorrelationId
 
 
-## Description
-
 Devolve um identificador opaco para correlacionar pedidos recebidos com pedidos enviados.
 
 
@@ -19,7 +17,7 @@ Diagnostics.CorrelationId(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um identificador opaco para correlacionar pedidos recebidos com pedidos enviados.
 

@@ -5,8 +5,6 @@ title: DateTime.ToRecord
 # DateTime.ToRecord
 
 
-## Description
-
 datetime değerinin parçalarını içeren bir kayıt döndürür.
 
 
@@ -19,7 +17,7 @@ DateTime.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>dateTime</code> datetime değerinin parçalarını içeren bir kayıt döndürür. <ul>        <li><code>dateTime</code>: Parçalarının kaydının hesaplanacağı bir <code>datetime</code>değeri.</li>      </ul>
 

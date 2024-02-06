@@ -5,8 +5,6 @@ title: DateTimeZone.FromFileTime
 # DateTimeZone.FromFileTime
 
 
-## Description
-
 64 ビット長の数値から datetimezone を作成します。
 
 
@@ -19,7 +17,7 @@ DateTimeZone.FromFileTime(
 ```
 
 
-## Details
+## Remarks
 
 <code>fileTime</code> の値から <code>datetimezone</code> の値を作成し、ローカル タイム ゾーンに変換します。filetime は Windows ファイル時間値であり、西暦 1601 年 1 月 1 日の深夜 12:00 からの経過時間を 100 ナノ秒間隔で表します。年月日はキリスト紀元で、時刻は協定世界時 (UTC) です。    
 

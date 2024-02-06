@@ -5,8 +5,6 @@ title: Kusto.Contents
 # Kusto.Contents
 
 
-## Description
-
 Azure Veri Gezgini&#39;nden (Kusto) verileri içeri aktarır
 
 
@@ -22,7 +20,7 @@ Kusto.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Azure Veri Gezgini (Kusto) örneğinizden verileri içeri aktarır
 

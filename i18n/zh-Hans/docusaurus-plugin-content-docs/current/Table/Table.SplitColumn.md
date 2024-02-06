@@ -5,8 +5,6 @@ title: Table.SplitColumn
 # Table.SplitColumn
 
 
-## Description
-
 使用指定的拆分器功能，将指定的列拆分为一组其他列。
 
 
@@ -24,7 +22,7 @@ Table.SplitColumn(
 ```
 
 
-## Details
+## Remarks
 
 使用指定的拆分器功能，将指定的列拆分为一组其他列。
 

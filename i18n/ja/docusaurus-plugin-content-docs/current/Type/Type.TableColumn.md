@@ -5,8 +5,6 @@ title: Type.TableColumn
 # Type.TableColumn
 
 
-## Description
-
 テーブル内の列の型を返します。
 
 
@@ -20,7 +18,7 @@ Type.TableColumn(
 ```
 
 
-## Details
+## Remarks
 
 テーブルの種類 <code>tableType</code> で列 <code>column</code> の型を返します。
 

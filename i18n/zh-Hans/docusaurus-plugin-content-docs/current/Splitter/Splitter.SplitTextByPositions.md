@@ -5,8 +5,6 @@ title: Splitter.SplitTextByPositions
 # Splitter.SplitTextByPositions
 
 
-## Description
-
 返回一个函数，它在每个指定的位置将文本拆分为文本列表。
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByPositions(
 ```
 
 
-## Details
+## Remarks
 
 返回一个函数，它在每个指定的位置将文本拆分为文本列表。
 

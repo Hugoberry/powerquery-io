@@ -5,8 +5,6 @@ title: Table.PositionOfAny
 # Table.PositionOfAny
 
 
-## Description
-
 Retorna uma ou mais posições de qualquer linha especificada na tabela.
 
 
@@ -22,7 +20,7 @@ Table.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Retorna as posições de linha da <code>table</code> da primeira ocorrência da lista de <code>rows</code>. Retorna -1 caso nenhuma ocorrência seja encontrada.    <ul>    <li><code>table</code>: a tabela de entrada.</li>       <li><code>rows</code>:  a lista de linhas da tabela cujas posições serão localizadas.</li>       <li><code>occurrence</code>: <i>[opcional]</i> especifica quais ocorrências da linha serão retornadas.</li>       <li><code>equationCriteria</code>: <i>[opcional]</i> controla a comparação entre as linhas da tabela.</li>    </ul>    
 

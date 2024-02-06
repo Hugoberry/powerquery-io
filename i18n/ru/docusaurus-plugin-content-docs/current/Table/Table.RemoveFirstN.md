@@ -5,8 +5,6 @@ title: Table.RemoveFirstN
 # Table.RemoveFirstN
 
 
-## Description
-
 Возвращает таблицу с пропущенным определенным количеством строк в начале.
 
 
@@ -20,7 +18,7 @@ Table.RemoveFirstN(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу, не содержащую указанное число первых строк (<code>countOrCondition</code>) в таблице <code>table</code>.    Количество удаленных строк зависит от необязательного параметра <code>countOrCondition</code>.    <ul>    <li> Если <code>countOrCondition</code> не указано, удаляется только первая строка. </li>    <li> Если <code>countOrCondition</code> — число, удаляется соответствующее количество строк (с начала). </li>    <li> Если <code>countOrCondition</code> — условие, будут удалены строки, соответствующие условию, до первой строки, не соответствующей условию.</li>    </ul>
 

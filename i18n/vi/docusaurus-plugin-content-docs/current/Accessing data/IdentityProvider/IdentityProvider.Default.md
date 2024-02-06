@@ -5,8 +5,6 @@ title: IdentityProvider.Default
 # IdentityProvider.Default
 
 
-## Description
-
 Nhà cung cấp danh tính mặc định cho máy chủ hiện tại.
 
 
@@ -19,7 +17,7 @@ IdentityProvider.Default(
 ```
 
 
-## Details
+## Remarks
 
 Nhà cung cấp danh tính mặc định cho máy chủ hiện tại.
 

@@ -5,8 +5,6 @@ title: List.Transform
 # List.Transform
 
 
-## Description
-
 傳回根據此清單所導出的新值清單。
 
 
@@ -20,7 +18,7 @@ List.Transform(
 ```
 
 
-## Details
+## Remarks
 
 對清單 <code>list</code> 套用轉換函數 <code>transform</code>，以傳回新的值清單。
 

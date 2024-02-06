@@ -5,8 +5,6 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-## Description
-
 \{ old, new } という形式のリストを使用して、名前の変更を適用します。
 
 
@@ -21,7 +19,7 @@ Record.RenameFields(
 ```
 
 
-## Details
+## Remarks
 
 入力 <code>record</code> 内のフィールドの名前を、リスト <code>renames</code> で指定された新しいフィールド名に変更したレコードを返します。複数の名前を変更する場合は、入れ子になったリスト (\{ \{old1, new1}, \{old2, new2} }) を使用します。
 

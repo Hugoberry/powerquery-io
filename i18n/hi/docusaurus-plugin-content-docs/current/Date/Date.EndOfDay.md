@@ -5,8 +5,6 @@ title: Date.EndOfDay
 # Date.EndOfDay
 
 
-## Description
-
 दिन के अंत में लौटाता है.
 
 
@@ -19,7 +17,7 @@ Date.EndOfDay(
 ```
 
 
-## Details
+## Remarks
 
 उस दिन के अंत में लौटाता है जिसमें <code>dateTime</code> है. समय क्षेत्र की जानकारी संरक्षित है.       <ul>      <li><code>dateTime</code>: एक <code>date</code>, <code>datetime</code> या <code>datetimezone</code> मान जिससे महीने की समाप्ति की गणना की जाती है.</li>      </ul>
 

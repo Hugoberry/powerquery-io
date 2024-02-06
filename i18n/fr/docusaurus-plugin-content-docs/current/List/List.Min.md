@@ -5,8 +5,6 @@ title: List.Min
 # List.Min
 
 
-## Description
-
 Retourne la valeur minimale ou la valeur par défaut pour une liste vide.
 
 
@@ -22,7 +20,7 @@ List.Min(
 ```
 
 
-## Details
+## Remarks
 
 Retourne l'élément minimal dans la liste <code>list</code>, ou la valeur par défaut facultative <code>default</code>, si la liste est vide.    La valeur comparisonCriteria facultative, <code>comparisonCriteria</code>, peut être spécifiée pour déterminer comment comparer les éléments dans la liste. Si ce paramètre a la valeur null, le comparateur par défaut est utilisé.
 

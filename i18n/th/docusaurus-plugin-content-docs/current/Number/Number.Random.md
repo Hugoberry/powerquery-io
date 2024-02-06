@@ -5,8 +5,6 @@ title: Number.Random
 # Number.Random
 
 
-## Description
-
 ส่งกลับตัวเลขสุ่ม
 
 
@@ -19,7 +17,7 @@ Number.Random(
 ```
 
 
-## Details
+## Remarks
 
 คืนค่าตัวเลขสุ่มระหว่าง 0 และ 1
 

@@ -5,8 +5,6 @@ title: List.IsEmpty
 # List.IsEmpty
 
 
-## Description
-
 Zwraca wartość true, jeśli lista jest pusta.
 
 
@@ -19,7 +17,7 @@ List.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wartość <code>true</code>, jeśli lista <code>list</code> nie zawiera wartości (ma długość 0). Jeśli lista zawiera wartości (długość większa od 0), zwraca wartość <code>false</code>.
 

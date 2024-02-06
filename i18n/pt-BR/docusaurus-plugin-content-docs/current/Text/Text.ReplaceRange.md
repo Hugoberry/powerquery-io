@@ -5,8 +5,6 @@ title: Text.ReplaceRange
 # Text.ReplaceRange
 
 
-## Description
-
 Remove um intervalo de caracteres e insere um valor em uma posição especificada.
 
 
@@ -22,7 +20,7 @@ Text.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o resultado da remoção de um número de caracteres, <code>count</code>, do valor de texto <code>text</code> começando na posição <code>offset</code> e inserindo o valor de texto <code>newText</code> na mesma posição em <code>text</code>.
 

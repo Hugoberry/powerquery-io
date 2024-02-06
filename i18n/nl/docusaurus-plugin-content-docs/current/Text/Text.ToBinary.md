@@ -5,8 +5,6 @@ title: Text.ToBinary
 # Text.ToBinary
 
 
-## Description
-
 Codeert tekst in een binaire vorm.
 
 
@@ -21,7 +19,7 @@ Text.ToBinary(
 ```
 
 
-## Details
+## Remarks
 
 Codeert met behulp van de opgegeven <code>encoding</code> de opgegeven tekstwaarde, <code>text</code>, naar een binaire waarde.
 

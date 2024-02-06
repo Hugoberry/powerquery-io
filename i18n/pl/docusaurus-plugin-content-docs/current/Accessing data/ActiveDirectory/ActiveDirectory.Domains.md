@@ -5,8 +5,6 @@ title: ActiveDirectory.Domains
 # ActiveDirectory.Domains
 
 
-## Description
-
 Zwraca listę domen usługi Active Directory znajdujących się w tym samym lesie co określona domena lub domena aktualnie używanego komputera, jeśli domena nie zostanie określona.
 
 
@@ -19,7 +17,7 @@ ActiveDirectory.Domains(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca listę domen usługi Active Directory znajdujących się w tym samym lesie co określona domena lub domena aktualnie używanego komputera, jeśli domena nie zostanie określona.
 

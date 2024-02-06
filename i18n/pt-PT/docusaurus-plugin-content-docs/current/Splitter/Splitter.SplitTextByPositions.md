@@ -5,8 +5,6 @@ title: Splitter.SplitTextByPositions
 # Splitter.SplitTextByPositions
 
 
-## Description
-
 Devolve uma função que divide texto numa lista de texto em cada posição especificada.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByPositions(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma função que divide texto numa lista de texto em cada posição especificada.
 

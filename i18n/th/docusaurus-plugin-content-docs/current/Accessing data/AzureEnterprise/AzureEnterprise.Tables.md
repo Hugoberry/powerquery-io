@@ -5,8 +5,6 @@ title: AzureEnterprise.Tables
 # AzureEnterprise.Tables
 
 
-## Description
-
 ป้อน URL ของจุดสิ้นสุด Azure Enterprise REST API ที่เชื่อมโยงกับการลงทะเบียนของคุณ
 
 
@@ -19,7 +17,7 @@ AzureEnterprise.Tables(
 ```
 
 
-## Details
+## Remarks
 
 คืนค่ารายการของรายงานและเดือนที่มีจาก Azure Enterprise API
 

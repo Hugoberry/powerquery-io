@@ -5,8 +5,6 @@ title: List.Count
 # List.Count
 
 
-## Description
-
 Devolve o número de itens existentes na lista.
 
 
@@ -19,7 +17,7 @@ List.Count(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o número de itens existentes na lista <code>list</code>.
 

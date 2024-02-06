@@ -5,8 +5,6 @@ title: Comparer.Ordinal
 # Comparer.Ordinal
 
 
-## Description
-
 Retorna uma função de comparador que usa regras do Ordinal para comparar valores.
 
 
@@ -20,7 +18,7 @@ Comparer.Ordinal(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma função de comparador que usa regras Ordinais para comparar os valores <code>x</code> e <code>y</code> fornecidos.<br />      <br />      Uma função de comparador aceita dois argumentos e retorna -1, 0 ou 1 se o primeiro valor for menor, igual ou maior que o segundo.    
 

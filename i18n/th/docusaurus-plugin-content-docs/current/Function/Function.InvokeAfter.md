@@ -5,8 +5,6 @@ title: Function.InvokeAfter
 # Function.InvokeAfter
 
 
-## Description
-
 เรียกฟังก์ชันที่กำหนดไว้หลังผ่านระยะเวลาที่ระบุไว้
 
 
@@ -20,7 +18,7 @@ Function.InvokeAfter(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลลัพธ์ของการเรียก <code>function</code> หลังผ่านระยะเวลา <code>delay</code>
 

@@ -5,8 +5,6 @@ title: Table.FromPartitions
 # Table.FromPartitions
 
 
-## Description
-
 パーティション分割されたテーブルのセットを結合したテーブルを返します。
 
 
@@ -21,7 +19,7 @@ Table.FromPartitions(
 ```
 
 
-## Details
+## Remarks
 
 パーティション分割されたテーブル <code>partitions</code> のセットを連結させた結果のテーブルを返します。<code>partitionColumn</code> は追加する列の名前です。既定の列の型は <code>any</code> ですが、<code>partitionColumnType</code> によって指定できます。
 

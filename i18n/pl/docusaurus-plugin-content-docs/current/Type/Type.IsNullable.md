@@ -5,8 +5,6 @@ title: Type.IsNullable
 # Type.IsNullable
 
 
-## Description
-
 Zwraca wartość true, jeśli typ może mieć wartość null; w przeciwnym razie zwraca wartość false.
 
 
@@ -19,7 +17,7 @@ Type.IsNullable(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wartość <code>true</code>, jeśli typ to <code>nullable</code>; w przeciwnym razie zwraca wartość <code>false</code>.
 

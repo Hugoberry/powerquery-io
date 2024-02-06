@@ -5,8 +5,6 @@ title: Table.SingleRow
 # Table.SingleRow
 
 
-## Description
-
 Restituisce l&#39;unica riga della tabella.
 
 
@@ -19,7 +17,7 @@ Table.SingleRow(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce l'unica riga di <code>table</code> a una sola riga. Se <code>table</code> contiene più di una riga, verrà generata un'eccezione.
 

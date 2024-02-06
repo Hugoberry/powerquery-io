@@ -5,8 +5,6 @@ title: Currency.From
 # Currency.From
 
 
-## Description
-
 Gibt einen currency-Wert aus dem angegebenen Wert zurück.
 
 
@@ -21,7 +19,7 @@ Currency.From(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen <code>currency</code>-Wert aus dem angegebenen <code>value</code>-Wert zurück. Wenn der angegebene <code>value</code>-Wert <code>null</code> ist, gibt <code>Currency.From</code> <code>null</code> zurück. Wenn der angegebene <code>value</code>-Wert <code>number</code> innerhalb des Währungsbereichs ist, wird der Bruchteil von „<code>value</code>“ auf 4 Dezimalstellen gerundet und zurückgegeben. Wenn der angegebene <code>value</code>-Wert einen anderen Typ aufweist, wird er erst mit <code>Number.FromText</code> in einen <code>number</code>-Wert konvertiert. Der gültige Währungsbereich ist <code>-922.337.203.685.477,5808</code> bis <code>922.337.203.685.477,5807</code>. Die verfügbaren Rundungsmodi finden Sie unter <code>Number.Round</code>. Die Standardeinstellung lautet <code>RoundingMode.ToEven</code>. Optional kann auch ein Element vom Typ „<code>culture</code>“ angegeben werden (Beispiel: „de-DE“).
 

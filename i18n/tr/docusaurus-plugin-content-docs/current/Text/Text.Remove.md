@@ -5,8 +5,6 @@ title: Text.Remove
 # Text.Remove
 
 
-## Description
-
 Verilen karakterin veya karakter listesinin girdi metin değerindeki tüm oluşumlarını kaldırır.
 
 
@@ -20,7 +18,7 @@ Text.Remove(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> metin değerinin <code>removeChars</code> konumundaki tüm karakterler kaldırılmış şekilde kopyasını döndürür.  
 

@@ -5,8 +5,6 @@ title: Text.Select
 # Text.Select
 
 
-## Description
-
 從輸入文字值中選取所有出現的指定字元或字元清單。
 
 
@@ -20,7 +18,7 @@ Text.Select(
 ```
 
 
-## Details
+## Remarks
 
 傳回文字值 <code>text</code> 的複本，並移除不在 <code>selectChars</code> 內的所有字元。  
 

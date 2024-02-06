@@ -5,8 +5,6 @@ title: Stripe.Tables
 # Stripe.Tables
 
 
-## Description
-
 Retorna uma tabela listando as tabelas e funções disponíveis para a Faixa.
 
 
@@ -19,7 +17,7 @@ Stripe.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma tabela listando as tabelas e funções disponíveis para a Faixa.
 

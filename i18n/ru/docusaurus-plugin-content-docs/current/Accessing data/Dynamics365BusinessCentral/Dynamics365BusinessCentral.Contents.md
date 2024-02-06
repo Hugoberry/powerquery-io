@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.Contents
 # Dynamics365BusinessCentral.Contents
 
 
-## Description
-
 Вход в вашу среду Dynamics 365 Business Central и в вашу организацию.
 
 
@@ -19,7 +17,7 @@ Dynamics365BusinessCentral.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу с нужными данными Dynamics 365 Business Central. 
 

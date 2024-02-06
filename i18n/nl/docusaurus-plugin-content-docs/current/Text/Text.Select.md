@@ -5,8 +5,6 @@ title: Text.Select
 # Text.Select
 
 
-## Description
-
 Hiermee worden alle instanties van het opgegeven teken of de lijst met tekens uit de invoertekstwaarde geselecteerd.
 
 
@@ -20,7 +18,7 @@ Text.Select(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een kopie van de tekstwaarde <code>text</code> geretourneerd waarbij alle tekens die niet in <code>selectChars</code> voorkomen worden verwijderd.  
 

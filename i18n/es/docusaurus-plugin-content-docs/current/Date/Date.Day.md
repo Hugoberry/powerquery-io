@@ -5,8 +5,6 @@ title: Date.Day
 # Date.Day
 
 
-## Description
-
 Devuelve el componente del día.
 
 
@@ -19,7 +17,7 @@ Date.Day(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve el componente de día de un valor <code>date</code>, <code>datetime</code> o <code>datetimezone</code>.      <ul>        <li><code>dateTime</code>: un valor <code>date</code>, <code>datetime</code> o <code>datetimezone</code> a partir del que se extrae el componente del día.</li>      </ul>
 

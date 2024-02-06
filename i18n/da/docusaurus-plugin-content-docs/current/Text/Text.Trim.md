@@ -5,8 +5,6 @@ title: Text.Trim
 # Text.Trim
 
 
-## Description
-
 Fjerner alle foranstillede og efterstillede mellemrum.
 
 
@@ -20,7 +18,7 @@ Text.Trim(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer resultatet af at fjerne alle foranstillede og efterstillede mellemrum fra tekstværdien <code>text</code>.
 

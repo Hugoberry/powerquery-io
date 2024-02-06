@@ -5,8 +5,6 @@ title: Time.From
 # Time.From
 
 
-## Description
-
 Создает значение времени из заданного значения.
 
 
@@ -20,7 +18,7 @@ Time.From(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает значение <code>time</code>, полученное из предоставленного значения <code>value</code>. Также можно указать необязательный параметр <code>culture</code> (например, "ru-RU").Если данное <code>value</code> равно <code>NULL</code>, то <code>Time.From</code> возвращает <code>NULL</code>. Если данное <code>value</code> представляет собой <code>time</code>, то <code>value</code> и будет возвращено. Преобразовать в <code>time</code> можно значения следующих типов:      <ul>        <li><code>text</code>. Значение <code>time</code> берется из текстового представления. Подробнее см. <code>Time.FromText</code>.</li>        <li><code>datetime</code>. Будет использован компонент времени из <code>value</code>.</li>        <li><code>datetimezone</code>. Будет взят компонент времени из datetime-эквивалента <code>value</code> по местному времени.</li>        <li><code>number</code>. Значение <code>time</code> будет эквивалентно доле дня (дроби), выражаемой <code>value</code>. Если значение <code>value</code> отрицательное либо равно единице или выше, возвращается ошибка.</li>      </ul>Если <code>value</code> имеет какой-либо другой тип, возвращается ошибка.
 

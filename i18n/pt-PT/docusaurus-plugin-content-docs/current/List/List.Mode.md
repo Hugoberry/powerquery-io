@@ -5,8 +5,6 @@ title: List.Mode
 # List.Mode
 
 
-## Description
-
 Devolve o valor mais frequente da lista.
 
 
@@ -20,7 +18,7 @@ List.Mode(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o item que aparece mais frequentemente na lista, <code>list</code>. Se a lista estiver vazia, é emitida uma exceção. Se existirem vários itens com a mesma frequência máxima, é escolhido o último.    É possível especificar um valor de <code>comparisonCriteria</code> opcional, <code>equationCriteria</code>, para controlar o teste de igualdade. 
 

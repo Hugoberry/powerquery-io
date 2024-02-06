@@ -5,8 +5,6 @@ title: Marketo.Tables
 # Marketo.Tables
 
 
-## Description
-
 Voer de URL in van het Marketo REST API-eindpunt dat is gekoppeld aan uw account.
 
 
@@ -20,7 +18,7 @@ Marketo.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tabel met de relevante Marketo-gegevens opgehaald.
 

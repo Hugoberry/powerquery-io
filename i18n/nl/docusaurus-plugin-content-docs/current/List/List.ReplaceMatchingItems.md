@@ -5,8 +5,6 @@ title: List.ReplaceMatchingItems
 # List.ReplaceMatchingItems
 
 
-## Description
-
 Past elke vervanging van \{ old, new } toe.
 
 
@@ -21,7 +19,7 @@ List.ReplaceMatchingItems(
 ```
 
 
-## Details
+## Remarks
 
 Voert de opgegeven vervangingen door in de lijst <code>list</code>. Een vervanging <code>replacements</code> bestaat uit een lijst met twee waarden, de oude waarde en de nieuwe waarde, die worden aangeleverd als een lijst.    Er kan een optionele waarde voor de vergelijkingsvoorwaarde, <code>equationCriteria</code>, voor het controleren van de gelijkheidstest worden opgegeven.
 

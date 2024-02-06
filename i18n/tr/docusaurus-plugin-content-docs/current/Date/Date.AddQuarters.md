@@ -5,8 +5,6 @@ title: Date.AddQuarters
 # Date.AddQuarters
 
 
-## Description
-
 Belirtilen çeyrekleri tarihe ekler.
 
 
@@ -20,7 +18,7 @@ Date.AddQuarters(
 ```
 
 
-## Details
+## Remarks
 
 <code>numberOfQuarters</code> çeyreği <code>datetime</code> değeri olan <code>dateTime</code> öğesine eklemeden <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> sonucunu döndürür.      <ul>      <li><code>dateTime</code>: Çeyreklerin eklendiği <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      <li><code>numberOfQuarters</code>: Eklenecek çeyrek sayısı.</li>      </ul>
 

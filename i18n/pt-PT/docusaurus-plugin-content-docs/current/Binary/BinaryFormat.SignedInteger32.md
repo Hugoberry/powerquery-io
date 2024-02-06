@@ -5,8 +5,6 @@ title: BinaryFormat.SignedInteger32
 # BinaryFormat.SignedInteger32
 
 
-## Description
-
 Um formato binário que lê um número inteiro com sinal de 32 bits.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.SignedInteger32(
 ```
 
 
-## Details
+## Remarks
 
 Um formato binário que lê um número inteiro com sinal de 32 bits.
 

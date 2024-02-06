@@ -5,8 +5,6 @@ title: Duration.TotalDays
 # Duration.TotalDays
 
 
-## Description
-
 ส่งกลับวันทั้งหมดที่ระยะเวลานี้ขยาย
 
 
@@ -19,7 +17,7 @@ Duration.TotalDays(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับจํานวนวันทั้งหมดที่ขยายโดย <code>duration</code>
 

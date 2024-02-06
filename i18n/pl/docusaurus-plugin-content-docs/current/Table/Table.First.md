@@ -5,8 +5,6 @@ title: Table.First
 # Table.First
 
 
-## Description
-
 Zwraca pierwszy wiersz lub określoną wartość domyślną.
 
 
@@ -20,7 +18,7 @@ Table.First(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca pierwszy wiersz z tabeli <code>table</code> lub opcjonalną wartość domyślną <code>default</code>, gdy tabela jest pusta.
 

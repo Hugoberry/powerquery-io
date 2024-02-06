@@ -5,8 +5,6 @@ title: List.Generate
 # List.Generate
 
 
-## Description
-
 Gera uma lista de valores.
 
 
@@ -22,7 +20,7 @@ List.Generate(
 ```
 
 
-## Details
+## Remarks
 
 Gera uma lista de valores usando as funções fornecidas. A função <code>initial</code> gera um valor candidato inicial, que é então testado em relação a <code>condition</code>.    Se o valor candidato for aprovado, ele será retornado como parte da lista resultante e o próximo valor candidato será gerado passando o valor recém-aprovado para <code>next</code>.    Uma vez que um valor candidato não corresponda com <code>condition</code>, o processo de geração de lista será interrompido.    Um parâmetro opcional, <code>selector</code>, também pode ser fornecido para transformar os itens na lista resultante.
 

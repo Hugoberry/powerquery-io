@@ -5,8 +5,6 @@ title: Table.PositionOfAny
 # Table.PositionOfAny
 
 
-## Description
-
 Devuelve la posición o las posiciones de alguna de las filas especificadas dentro de la tabla.
 
 
@@ -22,7 +20,7 @@ Table.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve las posiciones de las filas de <code>table</code> de la primera repetición de la lista de <code>rows</code>. Devuelve -1 si no se encuentra ninguna repetición.    <ul>    <li><code>table</code>: la tabla de entrada.</li>       <li><code>rows</code>: la lista de filas de la tabla en las que buscar las posiciones.</li>       <li><code>occurrence</code>: <i>[opcional]</i> especifica las repeticiones de la fila que se devolverán.</li>       <li><code>equationCriteria</code>: <i>[opcional]</i> controla la comparación entre las filas de la tabla.</li>    </ul>    
 

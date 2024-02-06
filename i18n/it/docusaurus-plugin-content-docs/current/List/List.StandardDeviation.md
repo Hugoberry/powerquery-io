@@ -5,8 +5,6 @@ title: List.StandardDeviation
 # List.StandardDeviation
 
 
-## Description
-
 Restituisce una stima della deviazione standard sulla base di un campione.
 
 
@@ -19,7 +17,7 @@ List.StandardDeviation(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una stima sulla base di un campione della deviazione standard dei valori nell'elenco <code>numbersList</code>.    Se <code>numbersList</code> è un elenco di numeri, viene restituito un numero.    Viene generata un'eccezione per un elenco vuoto o un elenco di elementi che non sono di tipo <code>number</code>.
 

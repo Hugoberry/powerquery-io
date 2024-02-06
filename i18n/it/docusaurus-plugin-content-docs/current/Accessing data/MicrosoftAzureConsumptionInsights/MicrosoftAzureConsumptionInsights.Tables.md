@@ -5,8 +5,6 @@ title: MicrosoftAzureConsumptionInsights.Tables
 # MicrosoftAzureConsumptionInsights.Tables
 
 
-## Description
-
 Informazioni dettagliate sul consumo di Microsoft Azure
 
 
@@ -20,7 +18,7 @@ MicrosoftAzureConsumptionInsights.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Informazioni dettagliate sul consumo di Microsoft Azure
 

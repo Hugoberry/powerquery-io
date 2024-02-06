@@ -5,8 +5,6 @@ title: Table.Join
 # Table.Join
 
 
-## Description
-
 Tworzy sprzężenie wierszy z dwóch tabel, które pasują do siebie na podstawie danych kluczy.
 
 
@@ -25,7 +23,7 @@ Table.Join(
 ```
 
 
-## Details
+## Remarks
 
 Łączy wiersze z <code>table1</code> z wierszami z <code>table2</code> na podstawie równości wartości kolumn kluczowych wybranych przez <code>key1</code> (dla <code>table1</code> ) i <code>key2</code> (dla <code>table2</code>).<br /> Domyślnie wykonywane jest sprzężenie wewnętrzne, jednak opcjonalnie <code>joinKind</code> można określić typ sprzężenia. Opcje obejmują:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br /> Opcjonalny zestaw <code>keyEqualityComparers</code> może być dołączony w celu określenia sposobu porównywania kluczowych kolumn. Ten parametr jest obecnie przeznaczony tylko do użytku wewnętrznego.<br />
 

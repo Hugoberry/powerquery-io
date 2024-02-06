@@ -5,8 +5,6 @@ title: Table.StopFolding
 # Table.StopFolding
 
 
-## Description
-
 Impede que operações downstream sejam executadas em relação à fonte original dos dados.
 
 
@@ -19,7 +17,7 @@ Table.StopFolding(
 ```
 
 
-## Details
+## Remarks
 
 Impede que operações downstream sejam executadas em relação à fonte original dos dados no <code>table</code>.
 

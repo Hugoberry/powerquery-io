@@ -5,8 +5,6 @@ title: List.StandardDeviation
 # List.StandardDeviation
 
 
-## Description
-
 Zwraca próbkę opartą na szacowaniu odchylenia standardowego.
 
 
@@ -19,7 +17,7 @@ List.StandardDeviation(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wartość szacunkową odchylenia standardowego wartości z listy <code>numbersList</code> opartą na próbkach.    Jeśli lista <code>numbersList</code> zawiera liczby, zwracana jest liczba.    Gdy lista jest pusta lub zawiera elementy, które nie są wartościami typu <code>number</code>, jest zwracany wyjątek.
 

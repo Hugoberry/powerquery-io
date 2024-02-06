@@ -16,7 +16,7 @@ Cds.Entities(
 ```
 
 
-## Details
+## Remarks
 
 Połącz się z wystąpieniem usługi Common Data Service (usługi Dynamics 365 i PowerApps).
 

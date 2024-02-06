@@ -5,8 +5,6 @@ title: Number.Log10
 # Number.Log10
 
 
-## Description
-
 Returnerar 10-logaritmen för talet.
 
 
@@ -19,7 +17,7 @@ Number.Log10(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar 10-logaritmen för ett tal, <code>number</code>. Om <code>number</code> är null så returnerar <code>Number.Log10</code> null.
 

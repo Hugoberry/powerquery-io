@@ -5,8 +5,6 @@ title: List.RemoveItems
 # List.RemoveItems
 
 
-## Description
-
 Tar bort objekt från list1 som finns i listan.
 
 
@@ -20,7 +18,7 @@ List.RemoveItems(
 ```
 
 
-## Details
+## Remarks
 
 Tar bort alla förekomster av de angivna värdena i <code>list2</code> från <code>list1</code>. Om värdena i <code>list2</code> inte finns i <code>list1</code> returneras den ursprungliga listan.
 

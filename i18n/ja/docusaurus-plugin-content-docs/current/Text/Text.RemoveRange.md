@@ -5,8 +5,6 @@ title: Text.RemoveRange
 # Text.RemoveRange
 
 
-## Description
-
 指定されたオフセットから始まる文字の数を削除します
 
 
@@ -21,7 +19,7 @@ Text.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 位置 <code>offset</code> からすべての文字を削除したうえで、テキスト値 <code>text</code> のコピーを返します。    省略可能なパラメーター <code>count</code> を使用すると、削除する文字の数を指定できます。<code>count</code> の既定値は 1 です。位置の値は 0 から始まります。
 

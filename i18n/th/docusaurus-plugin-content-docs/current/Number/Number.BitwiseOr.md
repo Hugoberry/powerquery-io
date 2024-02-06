@@ -5,8 +5,6 @@ title: Number.BitwiseOr
 # Number.BitwiseOr
 
 
-## Description
-
 ส่งกลับผลลัพธ์ของการดำเนินการในระดับบิต &#34;Or&#34; ระหว่างค่าที่ป้อนสองรายการ
 
 
@@ -20,7 +18,7 @@ Number.BitwiseOr(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลลัพธ์ของการดำเนินการในระดับบิต "Or" ระหว่าง <code>number1</code> กับ <code>number2</code>
 

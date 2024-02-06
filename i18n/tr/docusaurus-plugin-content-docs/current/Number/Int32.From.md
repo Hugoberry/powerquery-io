@@ -5,8 +5,6 @@ title: Int32.From
 # Int32.From
 
 
-## Description
-
 Verilen değerden 32 bit tam sayı oluşturur.
 
 
@@ -21,7 +19,7 @@ Int32.From(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>value</code> değerinden 32 bitlik bir tamsayı <code>number</code> değeri döndürür. Verilen <code>value</code> değeri <code>null</code> olduğunda, <code>Int32.From</code> <code>null</code> döndürür. Verilen <code>value</code> değeri kesirli kısmı olmayan 32 bitlik tamsayı aralığında bir <code>number</code> olduğunda <code>value</code> döndürülür. Kesirli kısmı varsa, sayı belirtilen yuvarlama moduyla yuvarlanır. Varsayılan yuvarlama modu <code>RoundingMode.ToEven</code> modudur. <code>value</code> başka herhangi bir türde olduğunda, önce <code>Number.FromText</code> kullanılarak <code>number</code> türüne dönüştürülür. Kullanılabilir yuvarlama modları için bkz. <code>Number.Round</code>. Ayrıca isteğe bağlı <code>culture</code> sağlanabilir (örneğin, "tr-TR").
 

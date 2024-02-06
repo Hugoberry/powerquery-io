@@ -5,8 +5,6 @@ title: Table.RemoveColumns
 # Table.RemoveColumns
 
 
-## Description
-
 Entfernt die angegebenen Spalten.
 
 
@@ -21,7 +19,7 @@ Table.RemoveColumns(
 ```
 
 
-## Details
+## Remarks
 
 Entfernt das angegebene <code>columns</code> aus dem angegebenen <code>table</code>.    Wenn die angegebene Spalte nicht existiert, wird ein Fehler ausgelöst, es sei denn, der optionale Parameter <code>missingField</code> gibt ein alternatives Verhalten an (zum Beispiel, <code>MissingField.UseNull</code> oder <code>MissingField.Ignore</code>).
 

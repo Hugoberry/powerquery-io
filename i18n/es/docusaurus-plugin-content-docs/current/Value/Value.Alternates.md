@@ -5,8 +5,6 @@ title: Value.Alternates
 # Value.Alternates
 
 
-## Description
-
 Expresa los planes de consultas alternativos.
 
 
@@ -19,7 +17,7 @@ Value.Alternates(
 ```
 
 
-## Details
+## Remarks
 
 Expresa los planes de consultas alternativos en una expresión de plan de consulta obtenida a través de Value.Expression(Value.Optimize(...)). No se ha diseñado para otros usos.
 

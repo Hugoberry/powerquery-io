@@ -5,8 +5,6 @@ title: Identity.IsMemberOf
 # Identity.IsMemberOf
 
 
-## Description
-
 निर्धारित करता है कि क्या कोई पहचान किसी पहचान संग्रह का एक सदस्य है.
 
 
@@ -20,7 +18,7 @@ Identity.IsMemberOf(
 ```
 
 
-## Details
+## Remarks
 
 निर्धारित करता है कि क्या कोई पहचान किसी पहचान संग्रह का एक सदस्य है.
 

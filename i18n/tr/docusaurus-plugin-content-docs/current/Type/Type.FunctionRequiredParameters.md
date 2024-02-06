@@ -5,8 +5,6 @@ title: Type.FunctionRequiredParameters
 # Type.FunctionRequiredParameters
 
 
-## Description
-
 İşlev türünü çalıştırılabilmesi için gereken minimum parametre sayısını belirten bir sayı döndürür.
 
 
@@ -19,7 +17,7 @@ Type.FunctionRequiredParameters(
 ```
 
 
-## Details
+## Remarks
 
 İşlevin <code>type</code> girişinin çalıştırılabilmesi için gereken minimum parametre sayısını belirten bir sayı döndürür.
 

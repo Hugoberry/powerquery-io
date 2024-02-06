@@ -5,8 +5,6 @@ title: DateTime.IsInCurrentHour
 # DateTime.IsInCurrentHour
 
 
-## Description
-
 Указывает, наступает ли данный момент времени в течение текущего часа, по расчету на основе текущей системной даты и времени.
 
 
@@ -19,7 +17,7 @@ DateTime.IsInCurrentHour(
 ```
 
 
-## Details
+## Remarks
 
 Указывает, наступает ли данный момент времени (<code>dateTime</code>) в течение текущего часа, по расчету на основе текущей системной даты и времени.      <ul>      <li><code>dateTime</code>: вычисляемое значение <code>datetime</code> или <code>datetimezone</code>.</li>      </ul>
 

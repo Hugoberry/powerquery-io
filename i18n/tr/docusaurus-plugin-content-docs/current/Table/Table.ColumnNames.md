@@ -5,8 +5,6 @@ title: Table.ColumnNames
 # Table.ColumnNames
 
 
-## Description
-
 Sütun adlarını liste olarak döndürür.
 
 
@@ -19,7 +17,7 @@ Table.ColumnNames(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> tablosundaki sütun adlarını metin listesi olarak döndürür.
 

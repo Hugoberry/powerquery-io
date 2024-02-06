@@ -5,8 +5,6 @@ title: Number.ToText
 # Number.ToText
 
 
-## Description
-
 將指定的數字轉換成文字。
 
 
@@ -21,7 +19,7 @@ Number.ToText(
 ```
 
 
-## Details
+## Remarks
 
 根據 <code>format</code> 指定的格式將數值 <code>number</code> 轉換成文字值。<br />    <br />    此格式是文字值，表示數字的轉換方式。如需支援格式值的詳細資料，請移至 https://go.microsoft.com/fwlink/?linkid=2241210 和 https://go.microsoft.com/fwlink/?linkid=2240884。<br />    <br />    也可能提供選用的 <code>culture</code> (例如「en-US」) 以控制 <code>format</code> 的文化相依行為。
 

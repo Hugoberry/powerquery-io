@@ -5,8 +5,6 @@ title: List.Single
 # List.Single
 
 
-## Description
-
 Returnerer ét listeelement for en liste med længden én. Ellers udløses der en undtagelse.
 
 
@@ -19,7 +17,7 @@ List.Single(
 ```
 
 
-## Details
+## Remarks
 
 Hvis der kun er ét element på listen <code>list</code>, returneres dette element.    Hvis der er mere end ét element, eller listen er tom, udløser funktionen en undtagelse.
 

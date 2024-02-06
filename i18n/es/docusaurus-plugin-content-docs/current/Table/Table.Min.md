@@ -5,8 +5,6 @@ title: Table.Min
 # Table.Min
 
 
-## Description
-
 Devuelve el valor predeterminado o la fila menor con los criterios dados.
 
 
@@ -21,7 +19,7 @@ Table.Min(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve las filas mayores de <code>table</code>, dado el <code>comparisonCriteria</code>. Si la tabla está vacía, se devuelve un valor <code>default</code> opcional.
 

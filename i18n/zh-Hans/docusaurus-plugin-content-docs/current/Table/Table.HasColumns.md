@@ -5,8 +5,6 @@ title: Table.HasColumns
 # Table.HasColumns
 
 
-## Description
-
 指示表是否包含指定的列。
 
 
@@ -20,7 +18,7 @@ Table.HasColumns(
 ```
 
 
-## Details
+## Remarks
 
 指示 <code>table</code> 是否包含指定的列 <code>columns</code>。如果表包含此列或这些列，则返回 <code>true</code>，否则返回 <code>false</code>。
 

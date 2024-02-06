@@ -5,8 +5,6 @@ title: DateTimeZone.ToUtc
 # DateTimeZone.ToUtc
 
 
-## Description
-
 Преобразует компонент часового пояса в часовой пояс в формате UTC.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToUtc(
 ```
 
 
-## Details
+## Remarks
 
 Изменяет данные о часовом значения даты и времени <code>dateTimeZone</code> в данные часового пояса в формате UTC или всемирного времени.    Если <code>dateTimeZone</code> не содержит компонента часового пояса, будут добавлены данные часового пояса UTC.
 

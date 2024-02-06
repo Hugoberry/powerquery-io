@@ -5,8 +5,6 @@ title: Type.ReplaceFacets
 # Type.ReplaceFacets
 
 
-## Description
-
 種類のファセットを置換します。
 
 
@@ -20,7 +18,7 @@ Type.ReplaceFacets(
 ```
 
 
-## Details
+## Remarks
 
 <code>type</code> のファセットをレコード <code>facets</code> に含まれるファセットで置換します。
 

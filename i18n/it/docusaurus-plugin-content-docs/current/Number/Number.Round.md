@@ -5,8 +5,6 @@ title: Number.Round
 # Number.Round
 
 
-## Description
-
 Restituisce il numero arrotondato. È possibile specificare il numero di cifre e la modalità di arrotondamento.
 
 
@@ -21,7 +19,7 @@ Number.Round(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il risultato dell'arrotondamento di <code>number</code> al numero più vicino. Se <code>number</code> è Null, <code>Number.Round</code> restituisce Null.<br />      <br />      Per impostazione predefinita, <code>number</code> viene arrotondato all'intero più vicino e i legami vengono interrotti mediante l'arrotondamento al numero pari più vicino con <code>RoundingMode.ToEven</code>.<br />      <br />      È tuttavia possibile eseguire l'override di queste impostazioni predefinite con i parametri facoltativi seguenti.      <ul>        <li><code>digits</code>: fa in modo che <code>number</code> venga arrotondato al numero specificato di cifre decimali.</li>        <li><code>roundingMode</code>: esegue l'override del comportamento predefinito di interruzione dei legami quando <code>number</code> si trova in corrispondenza del punto intermedio tra due potenziali valori arrotondati.      (Per i possibili valori, vedere <code>RoundingMode.Type</code>).</li>      </ul>
 

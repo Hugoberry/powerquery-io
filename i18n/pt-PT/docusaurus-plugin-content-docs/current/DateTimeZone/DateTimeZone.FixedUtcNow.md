@@ -5,8 +5,6 @@ title: DateTimeZone.FixedUtcNow
 # DateTimeZone.FixedUtcNow
 
 
-## Description
-
 Devolve a data e hora atuais em UTC (o fuso horário GMT). Este valor é fixo e não mudará com as chamadas sucessivas.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.FixedUtcNow(
 ```
 
 
-## Details
+## Remarks
 
 Devolve a data e hora atuais em UTC (o fuso horário GMT). Este valor é fixo e não mudará com as chamadas sucessivas.
 

@@ -5,8 +5,6 @@ title: DateTimeZone.ToRecord
 # DateTimeZone.ToRecord
 
 
-## Description
-
 Gibt einen Datensatz mit den Teilen des datetimezone-Werts zurück.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen Datensatz mit den Teilen des angegebenen datetimezone-Werts (<code>dateTimeZone</code>) zurück. <ul>        <li><code>dateTimeZone</code>: Ein <code>datetimezone</code>-Wert, auf dessen Grundlage der Datensatz mit den zugehörigen Teilen berechnet werden soll.</li>      </ul>
 

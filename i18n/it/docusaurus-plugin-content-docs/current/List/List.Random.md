@@ -5,8 +5,6 @@ title: List.Random
 # List.Random
 
 
-## Description
-
 Restituisce un elenco di numeri casuali.
 
 
@@ -20,7 +18,7 @@ List.Random(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un elenco di numeri casuali compresi tra 0 e 1 corrispondenti al numero di valori da generare e un valore di inizializzazione facoltativo.<ul>   <li><code>count</code>: numero di valori causali da generare.</li>   <li><code>seed</code>: <i>[Facoltativo]</i> valore numerico usato per inizializzare il generatore di numeri casuali. Se omesso, viene generato un elenco univoco di numeri casuali ogni volta che si chiama la funzione. Se si specifica il valore di inizializzazione con un numero, ogni chiamata alla funzione genera lo stesso elenco di numeri casuali.</li></ul>
 

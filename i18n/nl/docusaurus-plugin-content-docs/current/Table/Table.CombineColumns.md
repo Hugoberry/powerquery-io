@@ -5,8 +5,6 @@ title: Table.CombineColumns
 # Table.CombineColumns
 
 
-## Description
-
 Voegt met behulp van de opgegeven combinatiefunctie de opgegeven kolommen samen tot een nieuwe kolom.
 
 
@@ -22,7 +20,7 @@ Table.CombineColumns(
 ```
 
 
-## Details
+## Remarks
 
 Voegt met behulp van de opgegeven combinatiefunctie de opgegeven kolommen samen tot een nieuwe kolom.
 

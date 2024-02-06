@@ -5,8 +5,6 @@ title: Smartsheet.Content
 # Smartsheet.Content
 
 
-## Description
-
 Retorna uma tabela de dados de um ponto de extremidade de índice do Smartsheet.
 
 
@@ -19,7 +17,7 @@ Smartsheet.Content(
 ```
 
 
-## Details
+## Remarks
 
 Efetua uma chamada à API REST do Smartsheet 2.0 no ponto de extremidade especificado e transforma o elemento de dados retornado em uma tabela.
 

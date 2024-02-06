@@ -5,8 +5,6 @@ title: Date.IsLeapYear
 # Date.IsLeapYear
 
 
-## Description
-
 इंगित करता है कि क्या यह दिनांक एक लीप वर्ष में आता है.
 
 
@@ -19,7 +17,7 @@ Date.IsLeapYear(
 ```
 
 
-## Details
+## Remarks
 
 इंगित करता है कि दिया गया <code>dateTime</code> datetime मान किसी लीप वर्ष में तो नहीं आता है. <ul>        <li><code>dateTime</code>: मूल्यांकन करने के लिए <code>तिथि</code>, <code>datetime</code> या <code>datetimezone</code> मान.</li>      </ul>
 

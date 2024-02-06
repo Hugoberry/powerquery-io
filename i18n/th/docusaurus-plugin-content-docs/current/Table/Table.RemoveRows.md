@@ -5,8 +5,6 @@ title: Table.RemoveRows
 # Table.RemoveRows
 
 
-## Description
-
 เอาจำนวนแถวที่ระบุออก
 
 
@@ -21,7 +19,7 @@ Table.RemoveRows(
 ```
 
 
-## Details
+## Remarks
 
 เอา <code>count</code> ของแถวออกจากจุดเริ่มต้นของ <code>table</code> โดยเริ่มต้นที่ <code>offset</code> ที่ระบุ จำนวนเริ่มต้นของ 1 จะถูกใช้ถ้าไม่ได้ระบุพารามิเตอร์ <code>count</code> 
 

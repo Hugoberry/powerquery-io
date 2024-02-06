@@ -5,8 +5,6 @@ title: Table.ExpandTableColumn
 # Table.ExpandTableColumn
 
 
-## Description
-
 तालिकाओं के स्तंभ को तालिकाओं के एकाधिक स्तंभों में एग्रीगेट करता है.
 
 
@@ -22,7 +20,7 @@ Table.ExpandTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code>[<code>column</code>] की तालिकाओं को एकाधिक पंक्तियों और स्तंभों में विभाजित करता है. आंतरिक तालिका से विस्तृत करने के लिए स्तंभों का चयन करने हेतु <code>columnNames</code> का उपयोग किया जाता है. मौजूदा स्तंभों और नए स्तंभों के बीच विरोध से बचने के लिए <code>newColumnNames</code> निर्दिष्ट करें.
 

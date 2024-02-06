@@ -5,8 +5,6 @@ title: Table.Split
 # Table.Split
 
 
-## Description
-
 Opdeler den angivne tabel til en liste med tabeller ved hjælp af den angivne sidestørrelse.
 
 
@@ -20,7 +18,7 @@ Table.Split(
 ```
 
 
-## Details
+## Remarks
 
 Opdeler <code>table</code> til en liste med tabeller, hvor det første element på listen er en tabel, der indeholder de første <code>pageSize</code> rækker fra    kildetabellen. Det næste element på listen er en tabel, der indeholder de næste <code>pageSize</code> rækker fra kildetabellen osv.
 

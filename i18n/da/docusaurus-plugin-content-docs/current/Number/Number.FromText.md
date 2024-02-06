@@ -5,8 +5,6 @@ title: Number.FromText
 # Number.FromText
 
 
-## Description
-
 Opretter tal ud fra almindelige tekstformater (15&#34;, &#34;3,423.10&#34;, &#34;5.0E-10&#34;).
 
 
@@ -20,7 +18,7 @@ Number.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en værdi af typen <code>number</code> ud fra den angivne tekstværdi, <code>text</code>. <ul>  <li><code>text</code>: Tekstrepræsentationen for en talværdi. Repræsentationen skal være i et almindelige talformat, som f.eks. "15", "3,423.10", "5.0E-10".</li>  <li><code>culture</code>: En valgfri kultur, der styrer, hvordan <code>text</code> fortolkes (f.eks. "en-US").</li> </ul>
 

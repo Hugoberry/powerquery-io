@@ -5,8 +5,6 @@ title: Table.AlternateRows
 # Table.AlternateRows
 
 
-## Description
-
 初期オフセットを保持し、それ以降の行を交互に保持またはスキップします。
 
 
@@ -22,7 +20,7 @@ Table.AlternateRows(
 ```
 
 
-## Details
+## Remarks
 
 初期オフセットを保持し、それ以降の行を交互に保持またはスキップします。    <ul>       <li><code>table</code>: 入力テーブル。</li>       <li><code>offset</code>: 繰り返しを開始する前に保持する行数。</li>       <li><code>skip</code>: 繰り返しごとに削除する行数。</li>       <li><code>take</code>: 繰り返しごとに保持する行数。</li>    </ul>    
 

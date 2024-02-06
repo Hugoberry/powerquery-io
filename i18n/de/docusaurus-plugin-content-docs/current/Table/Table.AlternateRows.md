@@ -5,8 +5,6 @@ title: Table.AlternateRows
 # Table.AlternateRows
 
 
-## Description
-
 Behält den Ausgangsoffset bei und wechselt dann zwischen Verwendung und Überspringung der anschließenden Zeilen.
 
 
@@ -22,7 +20,7 @@ Table.AlternateRows(
 ```
 
 
-## Details
+## Remarks
 
 Behält den Ausgangsoffset bei und wechselt dann zwischen Verwendung und Überspringung der anschließenden Zeilen.    <ul>       <li><code>table</code>: Die Eingabetabelle.</li>       <li><code>offset</code>: Die Anzahl der beizubehaltenden Zeilen bis zum Beginn der Iterationen.</li>       <li><code>skip</code>: Die Anzahl von Zeilen, die pro Iteration entfernt werden sollen.</li>       <li><code>take</code>: Die Anzahl von Zeilen, die pro Iteration erhalten bleiben sollen.</li>    </ul>    
 

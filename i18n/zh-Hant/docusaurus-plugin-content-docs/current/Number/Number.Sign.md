@@ -5,8 +5,6 @@ title: Number.Sign
 # Number.Sign
 
 
-## Description
-
 如果數字是正數，傳回 1，如果是負數，傳回 -1，如果是零，則傳回 0。
 
 
@@ -19,7 +17,7 @@ Number.Sign(
 ```
 
 
-## Details
+## Remarks
 
 如果 <code>number</code> 是正數，傳回 1; 如果是負數，傳回 -1; 如果是零，則傳回 0。    如果 <code>number</code> 是 Null，<code>Number.Sign</code> 會傳回 Null。
 

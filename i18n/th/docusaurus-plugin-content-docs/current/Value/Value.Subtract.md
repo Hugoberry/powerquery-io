@@ -5,8 +5,6 @@ title: Value.Subtract
 # Value.Subtract
 
 
-## Description
-
 ส่งกลับผลต่างของสองค่า
 
 
@@ -21,7 +19,7 @@ Value.Subtract(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลต่างของ <code>value1</code> และ <code>value2</code> พารามิเตอร์ <code>precision</code> ที่เลือกได้อาจถูกระบุไว้ ตามค่าเริ่มต้น จะมีการใช้ <code>Precision.Double</code>
 

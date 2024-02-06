@@ -5,8 +5,6 @@ title: Xml.Tables
 # Xml.Tables
 
 
-## Description
-
 Gibt den Inhalt des XML-Dokuments als geschachtelte Auflistung vereinfachter Tabellen zurück.
 
 
@@ -21,7 +19,7 @@ Xml.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Inhalt des XML-Dokuments als geschachtelte Auflistung vereinfachter Tabellen zurück.
 

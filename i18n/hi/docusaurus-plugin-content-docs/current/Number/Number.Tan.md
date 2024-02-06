@@ -5,8 +5,6 @@ title: Number.Tan
 # Number.Tan
 
 
-## Description
-
 संख्या की स्पर्श रेखा लौटाता है.
 
 
@@ -19,7 +17,7 @@ Number.Tan(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> की स्पर्श रेखा लौटाता है.
 

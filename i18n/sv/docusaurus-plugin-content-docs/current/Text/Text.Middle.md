@@ -5,8 +5,6 @@ title: Text.Middle
 # Text.Middle
 
 
-## Description
-
 Returnerar delsträngen upp till en viss längd.
 
 
@@ -21,7 +19,7 @@ Text.Middle(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar <code>count</code> tecken, eller genom slutet av <code>text</code>, vid förskjutningen <code>start</code>.
 

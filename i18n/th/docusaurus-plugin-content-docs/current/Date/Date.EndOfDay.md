@@ -5,8 +5,6 @@ title: Date.EndOfDay
 # Date.EndOfDay
 
 
-## Description
-
 ส่งกลับจุดสิ้นสุดของวัน
 
 
@@ -19,7 +17,7 @@ Date.EndOfDay(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับจุดสิ้นสุดของวันที่แสดงโดย <code>dateTime</code> ข้อมูลโซนเวลาจะถูกเก็บไว้ <ul> <li><code>dateTime</code>: ค่า<code>วันที่</code> <code>วันที่เวลา</code> หรือ<code>โซนวันที่เวลา</code>ที่คํานวณว่ามีจุดสิ้นสุดของวันใดบ้าง</li>      </ul>
 

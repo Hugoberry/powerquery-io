@@ -5,8 +5,6 @@ title: Binary.ApproximateLength
 # Binary.ApproximateLength
 
 
-## Description
-
 返回二进制文件的近似长度。
 
 
@@ -19,7 +17,7 @@ Binary.ApproximateLength(
 ```
 
 
-## Details
+## Remarks
 
 返回 <code>binary</code> 的近似长度，或者如果数据源不支持近似长度，则返回错误。
 

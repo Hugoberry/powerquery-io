@@ -5,8 +5,6 @@ title: Splitter.SplitTextByCharacterTransition
 # Splitter.SplitTextByCharacterTransition
 
 
-## Description
-
 ある種類の文字を別の種類に移行する処理に応じてテキストをテキストの一覧に分割する関数を返します。\{0} と \{1} のパラメーターは文字の一覧とすることもできますし、文字を取り、true/false を返す関数とすることもできます。
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByCharacterTransition(
 ```
 
 
-## Details
+## Remarks
 
 ある種類の文字を別の種類に移行する処理に応じてテキストをテキストの一覧に分割する関数を返します。<code>before</code> と <code>after</code> のパラメーターは文字の一覧とすることもできますし、文字を取り、true/false を返す関数とすることもできます。
 

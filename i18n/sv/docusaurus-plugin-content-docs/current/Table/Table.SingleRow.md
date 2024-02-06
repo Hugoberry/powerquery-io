@@ -5,8 +5,6 @@ title: Table.SingleRow
 # Table.SingleRow
 
 
-## Description
-
 Returnerar den enstaka raden i tabellen.
 
 
@@ -19,7 +17,7 @@ Table.SingleRow(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar den enstaka raden i <code>table</code> med en rad. Om <code>table</code> har mer än en rad genereras ett undantag.
 

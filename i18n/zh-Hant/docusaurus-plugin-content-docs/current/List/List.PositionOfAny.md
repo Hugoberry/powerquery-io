@@ -5,8 +5,6 @@ title: List.PositionOfAny
 # List.PositionOfAny
 
 
-## Description
-
 傳回清單中值的第一個位移。
 
 
@@ -22,7 +20,7 @@ List.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 傳回清單 <code>values</code> 中某值第一次出現在清單 <code>list</code> 中的位移。如果找不到發生次數，則傳回 -1。    可指定選擇性的出現次數參數 <code>occurrence</code>。<ul>   <li><code>occurrence</code>: 可傳回的最大發生次數。</li></ul>
 

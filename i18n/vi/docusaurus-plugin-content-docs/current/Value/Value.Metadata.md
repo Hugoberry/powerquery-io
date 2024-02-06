@@ -5,8 +5,6 @@ title: Value.Metadata
 # Value.Metadata
 
 
-## Description
-
 Trả về một bản ghi chứa siêu dữ liệu của đầu vào.
 
 
@@ -19,7 +17,7 @@ Value.Metadata(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bản ghi chứa siêu dữ liệu của đầu vào.
 

@@ -5,8 +5,6 @@ title: Table.Repeat
 # Table.Repeat
 
 
-## Description
-
 Gentag rækkerne i tabellerne et angivet antal gange.
 
 
@@ -20,7 +18,7 @@ Table.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel med rækkerne fra inputtet <code>table</code> gentaget de angivne <code>count</code> gange.
 

@@ -5,8 +5,6 @@ title: Text.ToList
 # Text.ToList
 
 
-## Description
-
 Verilen metin değerinden bir karakter değerleri listesi döndürür.
 
 
@@ -19,7 +17,7 @@ Text.ToList(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> verilen metin değerinden bir karakter değerleri listesi döndürür.
 

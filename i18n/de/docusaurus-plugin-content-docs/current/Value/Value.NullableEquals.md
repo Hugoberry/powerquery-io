@@ -5,8 +5,6 @@ title: Value.NullableEquals
 # Value.NullableEquals
 
 
-## Description
-
 Gibt zurück, ob zwei Werte gleich sind.
 
 
@@ -21,7 +19,7 @@ Value.NullableEquals(
 ```
 
 
-## Details
+## Remarks
 
 Gibt NULL zurück, wenn beide Argumente ('<code>value1</code>'/'<code>value2</code>') NULL sind, andernfalls gleichwertig mit Value.Equals.
 

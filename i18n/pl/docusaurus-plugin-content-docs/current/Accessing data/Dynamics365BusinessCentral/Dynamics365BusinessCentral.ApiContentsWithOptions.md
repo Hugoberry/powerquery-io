@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.ApiContentsWithOptions
 # Dynamics365BusinessCentral.ApiContentsWithOptions
 
 
-## Description
-
 Wprowadź środowisko i firmę na potrzeby usługi Dynamics 365 Business Central.
 
 
@@ -22,7 +20,7 @@ Dynamics365BusinessCentral.ApiContentsWithOptions(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę zawierającą odpowiednie dane usługi Dynamics 365 Business Central. 
 

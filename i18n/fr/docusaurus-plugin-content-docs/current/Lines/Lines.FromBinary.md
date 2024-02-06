@@ -5,8 +5,6 @@ title: Lines.FromBinary
 # Lines.FromBinary
 
 
-## Description
-
 Convertit une valeur binaire en une liste de valeurs de texte fractionnées au niveau des sauts de lignes. Si un style de guillemets est spécifié, les sauts de ligne peuvent apparaître entre guillemets. Si includeLineSeparators a la valeur true, les caractères de saut de ligne sont inclus dans le texte.
 
 
@@ -22,7 +20,7 @@ Lines.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 Convertit une valeur binaire en une liste de valeurs de texte fractionnées au niveau des sauts de lignes. Si un style de guillemets est spécifié, les sauts de ligne peuvent apparaître entre guillemets. Si includeLineSeparators a la valeur true, les caractères de saut de ligne sont inclus dans le texte.
 

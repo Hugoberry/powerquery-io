@@ -5,8 +5,6 @@ title: List.Dates
 # List.Dates
 
 
-## Description
-
 Genera una lista de valores date dados un valor inicial, un recuento y un valor de duración incremental.
 
 
@@ -21,7 +19,7 @@ List.Dates(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una lista de valores <code>date</code> de tamaño <code>count</code>, a partir de <code>start</code>. El incremento especificado, <code>step</code>, es un valor <code>duration</code> que se agrega a cada valor.
 

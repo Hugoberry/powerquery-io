@@ -5,8 +5,6 @@ title: Table.FillUp
 # Table.FillUp
 
 
-## Description
-
 列の上の NULL 値セルにセル値を反映します。
 
 
@@ -20,7 +18,7 @@ Table.FillUp(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>table</code> から、指定された <code>columns</code> の上の NULL 値セルに次のセル値を反映したテーブルを返します。
 

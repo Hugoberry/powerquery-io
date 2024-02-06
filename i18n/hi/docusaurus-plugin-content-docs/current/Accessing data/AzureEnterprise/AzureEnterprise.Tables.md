@@ -5,8 +5,6 @@ title: AzureEnterprise.Tables
 # AzureEnterprise.Tables
 
 
-## Description
-
 अपने नामांकन से संबंधित Azure Enterprise REST API समाप्ति बिंदु का URL दर्ज करें
 
 
@@ -19,7 +17,7 @@ AzureEnterprise.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Azure Enterprise API से उपलब्ध रिपोर्ट और महिनों की सूची लौटाता है
 

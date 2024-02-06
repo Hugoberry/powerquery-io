@@ -5,8 +5,6 @@ title: Value.Is
 # Value.Is
 
 
-## Description
-
 Xác định giá trị có tương thích với loại được chỉ định hay không.
 
 
@@ -20,7 +18,7 @@ Value.Is(
 ```
 
 
-## Details
+## Remarks
 
 Xác định xem giá trị có tương thích với loại được chỉ định hay không. Cách này tương đương với toán tử “là” trong M, với ngoại lệ là có thể chấp nhận các thuộc tính loại mã định danh như Number.Type.
 

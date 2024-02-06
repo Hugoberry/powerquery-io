@@ -5,8 +5,6 @@ title: Diagnostics.CorrelationId
 # Diagnostics.CorrelationId
 
 
-## Description
-
 Returnerer en uigennemsigtig identifikator for at korrelere indgående anmodninger med udgående anmodninger.
 
 
@@ -19,7 +17,7 @@ Diagnostics.CorrelationId(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en uigennemsigtig identifikator for at korrelere indgående anmodninger med udgående anmodninger.
 

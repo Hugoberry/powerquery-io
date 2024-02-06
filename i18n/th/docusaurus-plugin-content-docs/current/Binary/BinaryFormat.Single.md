@@ -5,8 +5,6 @@ title: BinaryFormat.Single
 # BinaryFormat.Single
 
 
-## Description
-
 รูปแบบไบนารีที่อ่านค่าเลขทศนิยมลอยตัวแบบ IEEE Single-Precision 4 ไบต์
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Single(
 ```
 
 
-## Details
+## Remarks
 
 รูปแบบไบนารีที่อ่านค่าเลขทศนิยมลอยตัวแบบ IEEE Single-Precision 4 ไบต์
 

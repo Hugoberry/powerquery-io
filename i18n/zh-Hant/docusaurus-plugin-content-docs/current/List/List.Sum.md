@@ -5,8 +5,6 @@ title: List.Sum
 # List.Sum
 
 
-## Description
-
 傳回清單中項目的總和。
 
 
@@ -20,7 +18,7 @@ List.Sum(
 ```
 
 
-## Details
+## Remarks
 
 傳回清單 <code>list</code> 中非 null 值的總和。如果清單中沒有非 Null 值，則傳回 Null。
 

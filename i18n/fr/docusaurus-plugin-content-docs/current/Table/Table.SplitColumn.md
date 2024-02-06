@@ -5,8 +5,6 @@ title: Table.SplitColumn
 # Table.SplitColumn
 
 
-## Description
-
 Fractionne les colonnes spécifiées dans un ensemble de colonnes supplémentaires à l&#39;aide de la fonction de fractionnement spécifiée.
 
 
@@ -24,7 +22,7 @@ Table.SplitColumn(
 ```
 
 
-## Details
+## Remarks
 
 Fractionne les colonnes spécifiées dans un ensemble de colonnes supplémentaires à l'aide de la fonction de fractionnement spécifiée.
 

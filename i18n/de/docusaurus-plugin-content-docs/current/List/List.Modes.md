@@ -5,8 +5,6 @@ title: List.Modes
 # List.Modes
 
 
-## Description
-
 Gibt eine Liste mit den Werten zurück, die in der Liste am häufigsten vorkommen.
 
 
@@ -20,7 +18,7 @@ List.Modes(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das Element zurück, das in der Liste "<code>list</code>" am häufigsten vorkommt. Ist die Liste leer, wird eine Ausnahme ausgelöst. Sind mehrere Elemente mit der gleichen maximalen Häufigkeit vorhanden, wird das letzte Element ausgewählt.    Die Gleichheitsüberprüfung kann mit einem optionalen <code>comparisonCriteria</code>-Wert (<code>equationCriteria</code>) gesteuert werden. 
 

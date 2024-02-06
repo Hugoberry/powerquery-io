@@ -5,8 +5,6 @@ title: RowExpression.Column
 # RowExpression.Column
 
 
-## Description
-
 Satır ifadesinde sütuna erişimi temsil eden bir soyut söz dizimi ağacı (AST) döndürür.
 
 
@@ -19,7 +17,7 @@ RowExpression.Column(
 ```
 
 
-## Details
+## Remarks
 
 Satır ifadesinde satırın <code>columnName</code> sütununa erişimi temsil eden bir soyut söz dizimi ağacını (AST) döndürür.
 

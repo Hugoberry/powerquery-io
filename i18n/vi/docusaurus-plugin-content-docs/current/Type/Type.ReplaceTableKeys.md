@@ -5,8 +5,6 @@ title: Type.ReplaceTableKeys
 # Type.ReplaceTableKeys
 
 
-## Description
-
 Trả về một loại bảng mới với tất cả các khóa được thay thế bằng danh sách khóa được chỉ định.
 
 
@@ -20,7 +18,7 @@ Type.ReplaceTableKeys(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một loại bảng mới với tất cả các khóa được thay thế bằng danh sách khóa được chỉ định.<br />    <br />    Mỗi khóa được xác định bằng một bản ghi ở dạng sau:    <ul>      <li>        <code>Cột</code>: danh sách tên cột xác định khóa      </li>      <li>        <code>Chính</code>: <code>đúng</code> nếu khóa là khóa chính của bảng; nếu không, <code>sai</code>      </li>    </ul>    Xác thực danh sách khóa được chỉ định để đảm bảo rằng không xác định nhiều hơn một khóa chính và tất cả các tên cột khoá đều tồn tại trên loại bảng.    
 

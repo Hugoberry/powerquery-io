@@ -5,8 +5,6 @@ title: Table.ExpandTableColumn
 # Table.ExpandTableColumn
 
 
-## Description
-
 Expande uma coluna de registros ou uma coluna de tabelas em várias colunas na tabela que as contém.
 
 
@@ -22,7 +20,7 @@ Table.ExpandTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Expande tabelas em <code>table</code>[<code>column</code>] em várias linhas e colunas. <code>columnNames</code> é usado para selecionar as colunas a serem expandidas na tabela interna. Especifique <code>newColumnNames</code> para evitar conflitos entre as colunas existentes e as colunas novas.
 

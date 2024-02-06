@@ -5,8 +5,6 @@ title: Number.BitwiseAnd
 # Number.BitwiseAnd
 
 
-## Description
-
 दो इनपुट के बीच बिटवाइज़ &#34;And&#34; कार्रवाई के निष्पादन का परिणाम लौटाता है.
 
 
@@ -20,7 +18,7 @@ Number.BitwiseAnd(
 ```
 
 
-## Details
+## Remarks
 
 <code>number1</code> और <code>number2</code> के बीच बिटवाइज़ "And" कार्रवाई के निष्पादन का परिणाम लौटाता है.
 

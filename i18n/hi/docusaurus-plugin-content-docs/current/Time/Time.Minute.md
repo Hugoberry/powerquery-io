@@ -5,8 +5,6 @@ title: Time.Minute
 # Time.Minute
 
 
-## Description
-
 मिनट घटक लौटाता है.
 
 
@@ -19,7 +17,7 @@ Time.Minute(
 ```
 
 
-## Details
+## Remarks
 
 प्रदान किए गए <code>time</code>, <code>datetime</code>, या <code>datetimezone</code> मान का मिनट घटक लौटाता है, <code>dateTime</code>.
 

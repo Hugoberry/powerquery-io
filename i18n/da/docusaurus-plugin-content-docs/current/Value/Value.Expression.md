@@ -5,8 +5,6 @@ title: Value.Expression
 # Value.Expression
 
 
-## Description
-
 Returnerer et abstrakt syntakstræ (AST), der repræsenterer værdiens udtryk.
 
 
@@ -19,7 +17,7 @@ Value.Expression(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer et abstrakt syntakstræ (AST), der repræsenterer værdiens udtryk
 

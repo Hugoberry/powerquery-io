@@ -5,8 +5,6 @@ title: List.NonNullCount
 # List.NonNullCount
 
 
-## Description
-
 Trả về số lượng các giá trị không rỗng trong danh sách.
 
 
@@ -19,7 +17,7 @@ List.NonNullCount(
 ```
 
 
-## Details
+## Remarks
 
 Trả về số lượng các giá trị không rỗng trong danh sách <code>list</code>.
 

@@ -5,8 +5,6 @@ title: Type.RecordFields
 # Type.RecordFields
 
 
-## Description
-
 Devuelve un registro que describe los campos de un tipo de registro, y cada campo del tipo de registro devuelto tiene un nombre y un valor correspondientes.
 
 
@@ -19,7 +17,7 @@ Type.RecordFields(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un registro que describe los campos de un registro <code>type</code>. Cada campo del tipo de registro tiene un nombre y un valor correspondientes, en forma de un registro <code>[ Type = type, Optional = logical ]</code>.
 

@@ -5,8 +5,6 @@ title: Text.Select
 # Text.Select
 
 
-## Description
-
 Выделяет все вхождения заданного символа или списка символов из входного текстового значения.
 
 
@@ -20,7 +18,7 @@ Text.Select(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает копию текстового значения <code>text</code>, из которой удалены все символы, которых нет в <code>selectChars</code>.  
 

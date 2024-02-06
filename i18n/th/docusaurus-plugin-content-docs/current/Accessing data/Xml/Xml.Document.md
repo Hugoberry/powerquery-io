@@ -5,8 +5,6 @@ title: Xml.Document
 # Xml.Document
 
 
-## Description
-
 ส่งกลับเนื้อหาของเอกสาร XML เป็นตารางลำดับชั้น
 
 
@@ -20,7 +18,7 @@ Xml.Document(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับเนื้อหาของเอกสาร XML เป็นตารางลำดับชั้น
 

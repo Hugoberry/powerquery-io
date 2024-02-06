@@ -5,8 +5,6 @@ title: List.Median
 # List.Median
 
 
-## Description
-
 返回列表中的中位数值。
 
 
@@ -20,7 +18,7 @@ List.Median(
 ```
 
 
-## Details
+## Remarks
 
 返回列表 <code>list</code> 的中位数项。如果列表包含非 <code>null</code> 值，则此函数返回 <code>null</code>。    如果具有偶数项，则函数选择两个中位数项中的较小者，除非列表    完全由日期时间、持续时间、数字或时间组成，在这种情况下，函数返回两个项的平均值。
 

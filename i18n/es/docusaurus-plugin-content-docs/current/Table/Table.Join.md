@@ -5,8 +5,6 @@ title: Table.Join
 # Table.Join
 
 
-## Description
-
 Combina las filas de las dos tablas que coinciden según las claves dadas.
 
 
@@ -25,7 +23,7 @@ Table.Join(
 ```
 
 
-## Details
+## Remarks
 
 Combina las filas de <code>table1</code> con las filas de <code>table2</code> según la igualdad de los valores de las columnas clave seleccionadas por <code>key1</code> (para <code>table1</code>) y <code>key2</code> (para <code>table2</code>).<br />De manera predeterminada, se realiza una combinación interna, pero se puede incluir un valor <code>joinKind</code> opcional para especificar el tipo de combinación. Algunas opciones son las siguientes:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Se puede incluir un conjunto de <code>keyEqualityComparers</code> opcional para especificar cómo comparar las columnas de clave. Actualmente, esta característica solo está diseñada para uso interno.<br />
 

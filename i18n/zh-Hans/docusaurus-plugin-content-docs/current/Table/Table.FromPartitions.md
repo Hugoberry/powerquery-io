@@ -5,8 +5,6 @@ title: Table.FromPartitions
 # Table.FromPartitions
 
 
-## Description
-
 返回作为组合一组分区表的结果的表。
 
 
@@ -21,7 +19,7 @@ Table.FromPartitions(
 ```
 
 
-## Details
+## Remarks
 
 返回为组合分区表 <code>partitions</code> 集的结果的表。<code>partitionColumn</code> 是要添加的列名称。列类型默认为 <code>any</code>，但可以由 <code>partitionColumnType</code> 指定。
 

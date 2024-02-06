@@ -15,7 +15,7 @@ SparkPost.GetList(
 ```
 
 
-## Details
+## Remarks
 
 Den här funktionen kan användas för att anropa någon av de Listor-slutpunkter som erbjuds av SparkPost API v1. När du gör anrop till SparkPost API:t med den här funktionen så bör du tänka på att SparkPost API:t har en strik hastighetsbegränsning. Om du ser statuskod 429 returnerad från SparkPost-servern så har du uppnått hastighetsgränsen och kommer att behöva vänta en stund innan du gör några fler anrop.
 

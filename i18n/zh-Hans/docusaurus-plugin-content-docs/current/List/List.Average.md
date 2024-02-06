@@ -5,8 +5,6 @@ title: List.Average
 # List.Average
 
 
-## Description
-
 返回值的平均值。处理 number、date、datetime、datetimezone 和 duration 值。
 
 
@@ -20,7 +18,7 @@ List.Average(
 ```
 
 
-## Details
+## Remarks
 
 返回列表 <code>list</code> 中项的平均值。采用与列表中的值所属的同一数据类型给出结果。仅处理 number、date、time、datetime、datetimezone 和 duration 值。    如果列表为空，则返回 null。
 

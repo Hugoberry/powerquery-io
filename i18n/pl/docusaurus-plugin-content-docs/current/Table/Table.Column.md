@@ -5,8 +5,6 @@ title: Table.Column
 # Table.Column
 
 
-## Description
-
 Zwraca określoną kolumnę danych z tabeli jako listę.
 
 
@@ -20,7 +18,7 @@ Table.Column(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca w postaci listy kolumnę danych (określoną przez parametr <code>column</code>) z tabeli <code>table</code>.
 

@@ -5,8 +5,6 @@ title: Table.ConformToPageReader
 # Table.ConformToPageReader
 
 
-## Description
-
 Hàm này chỉ nhằm mục đích sử dụng nội bộ.
 
 
@@ -20,7 +18,7 @@ Table.ConformToPageReader(
 ```
 
 
-## Details
+## Remarks
 
 Hàm này chỉ nhằm mục đích sử dụng nội bộ.
 

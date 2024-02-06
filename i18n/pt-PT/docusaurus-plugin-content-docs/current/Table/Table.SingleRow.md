@@ -5,8 +5,6 @@ title: Table.SingleRow
 # Table.SingleRow
 
 
-## Description
-
 Devolve a única linha na tabela.
 
 
@@ -19,7 +17,7 @@ Table.SingleRow(
 ```
 
 
-## Details
+## Remarks
 
 Devolve a única linha na linha <code>table</code>. Se <code>table</code> tiver mais de uma linha, é emitida uma exceção.
 

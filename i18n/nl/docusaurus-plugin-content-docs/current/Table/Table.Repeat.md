@@ -5,8 +5,6 @@ title: Table.Repeat
 # Table.Repeat
 
 
-## Description
-
 Herhaalt de rijen van de tabel het opgeven aantal malen.
 
 
@@ -20,7 +18,7 @@ Table.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een tabel met de rijen vanuit de invoer <code>table</code> de opgegeven <code>count</code> keer.
 

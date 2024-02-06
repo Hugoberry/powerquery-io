@@ -5,8 +5,6 @@ title: List.Mode
 # List.Mode
 
 
-## Description
-
 リスト内で出現回数が最も多い値を返します。
 
 
@@ -20,7 +18,7 @@ List.Mode(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>list</code> 内で出現回数が最も多い項目を返します。リストが空の場合、例外がスローされます。出現回数が最も多い項目が複数ある場合、最後の項目が選択されます。    省略可能な <code>comparisonCriteria</code> 値 <code>equationCriteria</code> を指定して、値が等しいかどうかのテストを制御できます。
 

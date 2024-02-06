@@ -5,8 +5,6 @@ title: Table.TransformColumnNames
 # Table.TransformColumnNames
 
 
-## Description
-
 Verilen işlevi kullanarak sütun adlarını dönüştürür.
 
 
@@ -21,7 +19,7 @@ Table.TransformColumnNames(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>nameGenerator</code> işlevini kullanarak sütun adlarını dönüştürür. Geçerli seçenekler:    <div>      <code>MaxLength</code>, yeni sütun adlarının uzunluk üst sınırını belirtir. Verilen işlev daha uzun bir sütun adına neden oluyorsa uzun ad kısaltılır.    </div>    <div>      <code>Karşılaştırıcı</code>, yeni sütun adları oluşturulurken karşılaştırmanın denetlenmesi için kullanılır. Karşılaştırıcılar, büyük/küçük harfe duyarlı olmayan veya kültüre ve yerel ayara duyarlı karşılaştırmaların sağlanması için kullanılabilir.    </div>    <div>      Aşağıdaki yerleşik karşılaştırıcılar, formül dilinde kullanılabilir:    </div>    <ul>      <li><code>Comparer.Ordinal</code>: Tam sıralı karşılaştırma gerçekleştirilmesi için kullanılır</li>      <li><code>Comparer.OrdinalIgnoreCase</code>: Tam sıralı, büyük/küçük harfe duyarlı olmayan karşılaştırma gerçekleştirilmesi için kullanılır</li>      <li> <code>Comparer.FromCulture</code>: Kültüre duyarlı karşılaştırma gerçekleştirilmesi için kullanılır</li>    </ul>    
 

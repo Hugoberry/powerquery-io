@@ -5,8 +5,6 @@ title: Web.Page
 # Web.Page
 
 
-## Description
-
 Devolve os conteúdos do documento HTML divididos nas estruturas que o compõem, bem como uma representação do documento completo e do respetivo texto após a remoção dos tags.
 
 
@@ -19,7 +17,7 @@ Web.Page(
 ```
 
 
-## Details
+## Remarks
 
 Devolve os conteúdos do documento HTML divididos nas estruturas que o compõem, bem como uma representação do documento completo e do respetivo texto após a remoção dos tags.
 

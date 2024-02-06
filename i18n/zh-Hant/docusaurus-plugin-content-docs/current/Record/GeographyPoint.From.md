@@ -5,8 +5,6 @@ title: GeographyPoint.From
 # GeographyPoint.From
 
 
-## Description
-
 從組件建立代表地理點的記錄。
 
 
@@ -23,7 +21,7 @@ GeographyPoint.From(
 ```
 
 
-## Details
+## Remarks
 
 從地理點的構成組件建立代表該點的記錄，例如經度、緯度，及高度 (Z) 和量值 (M) (若有的話)。若與預設值 (4326) 不同，則可以指定選擇性空間參考識別碼 (SRID)。
 

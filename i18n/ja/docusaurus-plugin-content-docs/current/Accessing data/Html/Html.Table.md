@@ -5,8 +5,6 @@ title: Html.Table
 # Html.Table
 
 
-## Description
-
 指定された HTML に対して指定された CSS セレクターを実行した結果を含むテーブルを返します。
 
 
@@ -21,7 +19,7 @@ Html.Table(
 ```
 
 
-## Details
+## Remarks
 
 提供された <code>html</code> に対して指定された CSS セレクターを実行した結果を含むテーブルを返します。省略可能なレコード パラメーター <code>options</code> が追加のプロパティを指定するために提供されることがあります。レコードには、次のフィールドを含めることができます。    <ul><li><code>RowSelector</code></li></ul>    
 

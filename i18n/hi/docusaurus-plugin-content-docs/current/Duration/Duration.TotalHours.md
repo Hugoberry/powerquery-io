@@ -5,8 +5,6 @@ title: Duration.TotalHours
 # Duration.TotalHours
 
 
-## Description
-
 इस अवधि विस्तार के कुल घंटे लौटाता है.
 
 
@@ -19,7 +17,7 @@ Duration.TotalHours(
 ```
 
 
-## Details
+## Remarks
 
 <code>duration</code> द्वारा विस्तारित कुल घंटे लौटाता है.
 

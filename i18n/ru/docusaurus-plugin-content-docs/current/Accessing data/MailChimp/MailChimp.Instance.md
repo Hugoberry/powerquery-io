@@ -5,8 +5,6 @@ title: MailChimp.Instance
 # MailChimp.Instance
 
 
-## Description
-
 Возвращает необработанные результаты ответа от конечной точки API MailChimp.
 
 
@@ -19,7 +17,7 @@ MailChimp.Instance(
 ```
 
 
-## Details
+## Remarks
 
 Делает вызов API MailChimp и возвращает необработанный ответ.
 

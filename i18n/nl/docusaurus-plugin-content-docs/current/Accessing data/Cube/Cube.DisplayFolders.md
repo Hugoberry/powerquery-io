@@ -5,8 +5,6 @@ title: Cube.DisplayFolders
 # Cube.DisplayFolders
 
 
-## Description
-
 Retourneert een geneste boomstructuur van tabellen die de weergavemaphiërarchie van de objecten voorstellen (bijvoorbeeld dimensies en metingen).
 
 
@@ -19,7 +17,7 @@ Cube.DisplayFolders(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een geneste boomstructuur van tabellen die de weergavemaphiërarchie van de objecten voorstellen (bijvoorbeeld dimensies en metingen) die beschikbaar zijn voor gebruik in de <code>cube</code>.
 

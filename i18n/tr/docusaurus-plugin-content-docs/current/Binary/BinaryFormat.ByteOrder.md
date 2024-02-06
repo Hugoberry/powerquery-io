@@ -5,8 +5,6 @@ title: BinaryFormat.ByteOrder
 # BinaryFormat.ByteOrder
 
 
-## Description
-
 Bir işlev tarafından belirtilen bayt sırasına sahip ikili biçimi döndürür.
 
 
@@ -20,7 +18,7 @@ BinaryFormat.ByteOrder(
 ```
 
 
-## Details
+## Remarks
 
 <code>binaryFormat</code> tarafından belirtilen bayt sırasına sahip bir ikili biçimi döndürür.  Varsayılan bayt sırası: <code>ByteOrder.BigEndian</code>.
 

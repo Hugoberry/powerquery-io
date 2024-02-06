@@ -5,8 +5,6 @@ title: Currency.From
 # Currency.From
 
 
-## Description
-
 Возвращает значение валюты для заданного значения.
 
 
@@ -21,7 +19,7 @@ Currency.From(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает значение <code>currency</code>, полученное из предоставленного значения <code>value</code>. Если данное <code>value</code> равно <code>NULL</code>, то <code>Currency.From</code> возвращает <code>NULL</code>. Если данное <code>value</code> представляет собой <code>number</code> в пределах диапазона currency, то возвращается <code>value</code> с округлением до четвертого знака дробной части. Если <code>value</code> имеет какой-либо другой тип, то значение сначала преобразуется в <code>number</code> с помощью <code>Number.FromText</code>. Допустимый диапазон для currency: от <code>-922,337,203,685,477.5808</code> до <code>922,337,203,685,477.5807</code>. Доступные режимы округления см. в описании <code>Number.Round</code>. По умолчанию используется <code>RoundingMode.ToEven</code>. При необходимости можно также указать <code>culture</code> (например, "ru-RU").
 

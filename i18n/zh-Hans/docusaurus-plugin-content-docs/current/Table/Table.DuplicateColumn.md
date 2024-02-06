@@ -5,8 +5,6 @@ title: Table.DuplicateColumn
 # Table.DuplicateColumn
 
 
-## Description
-
 复制具有指定名称的列。从源列复制值和类型。
 
 
@@ -22,7 +20,7 @@ Table.DuplicateColumn(
 ```
 
 
-## Details
+## Remarks
 
 将名为 <code>columnName</code> 的列复制到表 <code>table</code>。列 <code>newColumnName</code> 的值和类型从列 <code>columnName</code> 复制。
 

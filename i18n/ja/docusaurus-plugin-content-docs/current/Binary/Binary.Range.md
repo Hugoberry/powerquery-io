@@ -5,8 +5,6 @@ title: Binary.Range
 # Binary.Range
 
 
-## Description
-
 オフセットで始まるバイナリ値のサブセットを返します。
 
 
@@ -21,7 +19,7 @@ Binary.Range(
 ```
 
 
-## Details
+## Remarks
 
 オフセット <code>binary</code> で始まるバイナリ値のサブセットを返します。省略可能なパラメーター <code>offset</code> では、そのサブセットの最大長を設定します。
 

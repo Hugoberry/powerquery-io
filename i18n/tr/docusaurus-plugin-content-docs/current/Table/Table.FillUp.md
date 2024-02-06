@@ -5,8 +5,6 @@ title: Table.FillUp
 # Table.FillUp
 
 
-## Description
-
 Bir hücrenin değerini bir sütunda yukarıdaki null değerli hücrelere yayar.
 
 
@@ -20,7 +18,7 @@ Table.FillUp(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen <code>table</code> öğesinden sonraki hücrenin belirtilen <code>columns</code> içinde yukarıdaki null değerli hücrelere yayıldığı bir tablo döndürür.
 

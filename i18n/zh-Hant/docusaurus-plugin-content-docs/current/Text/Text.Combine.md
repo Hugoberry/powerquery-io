@@ -5,8 +5,6 @@ title: Text.Combine
 # Text.Combine
 
 
-## Description
-
 將文字值的清單串連成一個文字值。
 
 
@@ -20,7 +18,7 @@ Text.Combine(
 ```
 
 
-## Details
+## Remarks
 
 傳回將文字值清單 <code>texts</code> 結合成單一文字值的結果。會忽略 <code>texts</code> 中出現的任何 <code>null</code> 值。    可以指定在最終結合文字中使用的選用 <code>separator</code>。
 

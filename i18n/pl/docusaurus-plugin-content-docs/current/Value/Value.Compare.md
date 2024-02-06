@@ -5,8 +5,6 @@ title: Value.Compare
 # Value.Compare
 
 
-## Description
-
 Zwraca wartość -1, 0 lub 1 w zależności od tego, czy pierwsza wartość jest mniejsza, równa lub większa od drugiej.
 
 
@@ -21,7 +19,7 @@ Value.Compare(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wartość -1, 0 lub 1 w zależności od tego, czy pierwsza wartość jest mniejsza, równa lub większa od drugiej.
 

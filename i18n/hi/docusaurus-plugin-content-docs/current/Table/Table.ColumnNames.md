@@ -5,8 +5,6 @@ title: Table.ColumnNames
 # Table.ColumnNames
 
 
-## Description
-
 स्तंभ नामों को एक सूची के रूप में लौटाता है.
 
 
@@ -19,7 +17,7 @@ Table.ColumnNames(
 ```
 
 
-## Details
+## Remarks
 
 तालिका <code>table</code> में मौजूद स्तंभ नामों को पाठ की सूची के रूप में लौटाता है.
 

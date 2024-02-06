@@ -5,8 +5,6 @@ title: GoogleAnalytics.Accounts
 # GoogleAnalytics.Accounts
 
 
-## Description
-
 Google Analytics hesaplarını döndürür.
 
 
@@ -19,7 +17,7 @@ GoogleAnalytics.Accounts(
 ```
 
 
-## Details
+## Remarks
 
 Mevcut kimlik bilgisinden erişilebilen Google Analytics hesaplarını döndürür.
 

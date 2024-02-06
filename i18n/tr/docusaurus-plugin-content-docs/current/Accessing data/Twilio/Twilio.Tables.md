@@ -5,8 +5,6 @@ title: Twilio.Tables
 # Twilio.Tables
 
 
-## Description
-
 Geçmişteki kaç aya ait Twilio verilerinin alınacağını belirtin.
 
 
@@ -19,7 +17,7 @@ Twilio.Tables(
 ```
 
 
-## Details
+## Remarks
 
 İlgili Twilio verilerinin bulunduğu bir tablo döndürür.
 

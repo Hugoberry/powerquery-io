@@ -5,8 +5,6 @@ title: BinaryFormat.SignedInteger64
 # BinaryFormat.SignedInteger64
 
 
-## Description
-
 Format binarny odczytujący 64-bitową liczbę całkowitą ze znakiem.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.SignedInteger64(
 ```
 
 
-## Details
+## Remarks
 
 Format binarny odczytujący 64-bitową liczbę całkowitą ze znakiem.
 

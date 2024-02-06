@@ -5,8 +5,6 @@ title: Table.Group
 # Table.Group
 
 
-## Description
-
 Agrupa linhas na tabela que têm a mesma chave.
 
 
@@ -23,7 +21,7 @@ Table.Group(
 ```
 
 
-## Details
+## Remarks
 
 Agrupar as linhas de <code>table</code> pelas colunas-chave definidas por <code>key</code>. O <code>key</code> pode ser um único nome de coluna ou uma lista de nomes de coluna.    Para cada grupo, um registro é construído contendo as colunas-chave (e seus valores), junto com quaisquer colunas agregadas especificadas por <code>aggregatedColumns</code>.    Opcionalmente, <code>groupKind</code> e <code>comparer</code> também podem ser especificadas.<br />    <br />    Se os dados já estiverem classificados pelas colunas-chave, então um <code>groupKind</code> de GroupKind.Local pode ser fornecido. Isso pode melhorar o desempenho do agrupamento em certos casos,    uma vez que todas as linhas com um determinado conjunto de valores-chave são consideradas contíguas.<br />    <br />    Ao passar por um <code>comparer</code>, observe que se ele trata chaves diferentes como iguais, uma linha pode ser colocada em um grupo cujas chaves diferem das suas.<br />    <br />    Essa função não garante a ordem das linhas que retorna.  
 

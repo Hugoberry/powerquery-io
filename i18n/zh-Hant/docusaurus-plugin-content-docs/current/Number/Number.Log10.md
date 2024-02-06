@@ -5,8 +5,6 @@ title: Number.Log10
 # Number.Log10
 
 
-## Description
-
 傳回數字以 10 為底數的對數。
 
 
@@ -19,7 +17,7 @@ Number.Log10(
 ```
 
 
-## Details
+## Remarks
 
 傳回數字 <code>number</code> 以 10 為底數的對數。若 <code>number</code> 為 Null，<code>Number.Log10</code> 會傳回 Null。
 

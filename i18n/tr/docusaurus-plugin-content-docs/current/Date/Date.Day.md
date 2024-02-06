@@ -5,8 +5,6 @@ title: Date.Day
 # Date.Day
 
 
-## Description
-
 Gün bileşenini döndürür.
 
 
@@ -19,7 +17,7 @@ Date.Day(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değerinin gün bileşenini döndürür.      <ul>        <li><code>dateTime</code>: Gün bileşeninin ayıklandığı bir <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      </ul>
 

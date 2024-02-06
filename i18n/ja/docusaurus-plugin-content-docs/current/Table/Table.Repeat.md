@@ -5,8 +5,6 @@ title: Table.Repeat
 # Table.Repeat
 
 
-## Description
-
 テーブルの行を指定回数だけ繰り返します。
 
 
@@ -20,7 +18,7 @@ Table.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 <code>count</code> 回繰り返された行を含むテーブルを、入力 <code>table</code> から返します。
 

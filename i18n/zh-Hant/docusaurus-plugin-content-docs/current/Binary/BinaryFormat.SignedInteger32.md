@@ -5,8 +5,6 @@ title: BinaryFormat.SignedInteger32
 # BinaryFormat.SignedInteger32
 
 
-## Description
-
 一種二進位格式，可讀取 32 位元帶正負號的整數。
 
 
@@ -19,7 +17,7 @@ BinaryFormat.SignedInteger32(
 ```
 
 
-## Details
+## Remarks
 
 一種二進位格式，可讀取 32 位元帶正負號的整數。
 

@@ -5,8 +5,6 @@ title: DynamicsNav.Contents
 # DynamicsNav.Contents
 
 
-## Description
-
 輸入您 Dynamics NAV OData 服務端點的 URL。
 
 
@@ -20,7 +18,7 @@ DynamicsNav.Contents(
 ```
 
 
-## Details
+## Remarks
 
 傳回內含相關 Dynamics NAV 資料的資料表。 
 

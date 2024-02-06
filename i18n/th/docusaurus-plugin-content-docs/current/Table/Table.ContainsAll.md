@@ -5,8 +5,6 @@ title: Table.ContainsAll
 # Table.ContainsAll
 
 
-## Description
-
 แสดงว่าจะให้ทุกระเบียนที่ระบุปรากฏเป็นแถวในตารางหรือไม่
 
 
@@ -21,7 +19,7 @@ Table.ContainsAll(
 ```
 
 
-## Details
+## Remarks
 
 แสดงว่าจะให้ทุกระเบียนที่ระบุในรายการระเบียน <code>rows</code> ปรากฏเป็นแถวใน <code>table</code> หรือไม่    พารามิเตอร์ที่เลือกได้ <code>equationCriteria</code> อาจถูกระบุเพื่อควบคุมการเปรียบเทียบระหว่างแถวของตาราง
 

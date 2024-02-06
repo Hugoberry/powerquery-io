@@ -5,8 +5,6 @@ title: Web.Page
 # Web.Page
 
 
-## Description
-
 HTML belgesinin içeriğini destekçi yapılarına ayrılmış şekilde ve tam belgenin gösterimini ve etiketler kaldırıldıktan sonraki metnini döndürür.
 
 
@@ -19,7 +17,7 @@ Web.Page(
 ```
 
 
-## Details
+## Remarks
 
 HTML belgesinin içeriğini destekçi yapılarına ayrılmış şekilde ve tam belgenin gösterimini ve etiketler kaldırıldıktan sonraki metnini döndürür.
 

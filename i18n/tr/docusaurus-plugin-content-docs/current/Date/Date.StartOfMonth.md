@@ -5,8 +5,6 @@ title: Date.StartOfMonth
 # Date.StartOfMonth
 
 
-## Description
-
 Ay başlangıcını döndürür.
 
 
@@ -19,7 +17,7 @@ Date.StartOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> içeren ay başlangıcını döndürür.     <code>dateTime</code>, bir <code>date</code> veya <code>datetime</code> değeri olmalıdır.
 

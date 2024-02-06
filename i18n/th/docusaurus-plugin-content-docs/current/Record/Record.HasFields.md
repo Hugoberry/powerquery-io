@@ -5,8 +5,6 @@ title: Record.HasFields
 # Record.HasFields
 
 
-## Description
-
 ระบุว่าระเบียนมีเขตข้อมูลที่ระบุหรือไม่
 
 
@@ -20,7 +18,7 @@ Record.HasFields(
 ```
 
 
-## Details
+## Remarks
 
 ระบุว่าระเบียน <code>record</code> มีเขตข้อมูลที่ระบุใน <code>fields</code> หรือไม่โดยการส่งกลับค่าตรรกะ (true หรือ false)    ค่าเขตข้อมูลหลายค่าสามารถระบุได้โดยใช้รายการเดียว
 

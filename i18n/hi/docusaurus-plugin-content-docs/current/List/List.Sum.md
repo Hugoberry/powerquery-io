@@ -5,8 +5,6 @@ title: List.Sum
 # List.Sum
 
 
-## Description
-
 सूची के आइटमों का योग लौटाता है.
 
 
@@ -20,7 +18,7 @@ List.Sum(
 ```
 
 
-## Details
+## Remarks
 
 सूची, <code>list</code> के गैर-नल मानों का योग लौटाता है.  सूची में गैर-नल मान न होने पर नल लौटाता है.
 

@@ -5,8 +5,6 @@ title: Type.FunctionReturn
 # Type.FunctionReturn
 
 
-## Description
-
 ส่งกลับประเภทที่ส่งกลับโดยประเภทฟังก์ชัน
 
 
@@ -19,7 +17,7 @@ Type.FunctionReturn(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับประเภทที่ส่งกลับโดยฟังก์ชัน <code>type</code>
 

@@ -5,8 +5,6 @@ title: Text.AfterDelimiter
 # Text.AfterDelimiter
 
 
-## Description
-
 Text.AfterDelimiter
 
 
@@ -21,7 +19,7 @@ Text.AfterDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen <code>delimiter</code> değerinden sonraki <code>text</code> bölümünü döndürür.    İsteğe bağlı bir sayısal <code>index</code> hangi <code>delimiter</code> oluşumunun hesaba katılması gerektiğini belirtir.    İsteğe bağlı bir liste <code>index</code> hangi <code>delimiter</code> oluşumunun hesaba katılması gerektiğini ve dizin oluşturmanın girişin başından mı sonundan mı başlaması gerektiğini belirtir.
 

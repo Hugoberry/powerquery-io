@@ -5,8 +5,6 @@ title: Logical.ToText
 # Logical.ToText
 
 
-## Description
-
 Returnerar texten &#34;true&#34; eller &#34;false&#34; baserat på ett logiskt värde.
 
 
@@ -19,7 +17,7 @@ Logical.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Skapar ett textvärde från det logiska värdet <code>logicalValue</code>, antingen <code>true</code> eller <code>false</code>. Om <code>logicalValue</code> inte är ett logiskt värde genereras ett undantag.
 

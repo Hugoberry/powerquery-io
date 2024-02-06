@@ -5,8 +5,6 @@ title: Table.Pivot
 # Table.Pivot
 
 
-## Description
-
 Dado un par de columnas que representan parejas atributo-valor, rota los datos de la columna de atributo en los encabezados de columna.
 
 
@@ -23,7 +21,7 @@ Table.Pivot(
 ```
 
 
-## Details
+## Remarks
 
 Dado un par de columnas que representan parejas atributo-valor, rota los datos de la columna de atributo en los encabezados de columna.
 

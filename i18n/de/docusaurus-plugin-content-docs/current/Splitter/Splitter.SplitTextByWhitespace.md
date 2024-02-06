@@ -5,8 +5,6 @@ title: Splitter.SplitTextByWhitespace
 # Splitter.SplitTextByWhitespace
 
 
-## Description
-
 Gibt eine Funktion zurück, die Text an den Leerzeichen zu einer Liste mit Text aufteilt.
 
 
@@ -19,7 +17,7 @@ Splitter.SplitTextByWhitespace(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Funktion zurück, die Text an den Leerzeichen zu einer Liste mit Text aufteilt.
 

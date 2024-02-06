@@ -5,8 +5,6 @@ title: Number.Abs
 # Number.Abs
 
 
-## Description
-
 数値の絶対値を返します。
 
 
@@ -19,7 +17,7 @@ Number.Abs(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> の絶対値を返します。<code>number</code> が null の場合、<code>Number.Abs</code> は null を返します。    <ul>        <li><code>number</code>: 絶対値を計算する対象の <code>number</code>。</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Text.BetweenDelimiters
 # Text.BetweenDelimiters
 
 
-## Description
-
 Text.BetweenDelimiters
 
 
@@ -23,7 +21,7 @@ Text.BetweenDelimiters(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca część elementu <code>text</code> po określonych elementach <code>startDelimiter</code> i <code>endDelimiter</code>.    Opcjonalna liczba <code>startIndex</code> wskazuje, które wystąpienie elementu <code>startDelimiter</code> ma zostać uwzględnione.    Opcjonalna lista <code>startIndex</code> wskazuje, które wystąpienie elementu <code>startDelimiter</code> ma zostać uwzględnione oraz czy indeksowanie ma być rozpoczynane od początku elementu wejściowego.    Element <code>endIndex</code> jest podobny, ale w jego przypadku indeksowanie jest wykonywane względem elementu <code>startIndex</code>.
 

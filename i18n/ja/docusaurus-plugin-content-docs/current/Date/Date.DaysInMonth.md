@@ -5,8 +5,6 @@ title: Date.DaysInMonth
 # Date.DaysInMonth
 
 
-## Description
-
 月の日数を表す 28 ～ 31 の数値を返します。
 
 
@@ -19,7 +17,7 @@ Date.DaysInMonth(
 ```
 
 
-## Details
+## Remarks
 
 <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値 <code>dateTime</code> での月の日数を返します。 <ul>        <li><code>dateTime</code>: 月の日数が返される <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値。</li>      </ul>
 

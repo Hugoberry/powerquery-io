@@ -5,8 +5,6 @@ title: Text.BeforeDelimiter
 # Text.BeforeDelimiter
 
 
-## Description
-
 Text.BeforeDelimiter
 
 
@@ -21,7 +19,7 @@ Text.BeforeDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 निर्दिष्ट <code>delimiter</code> से पहले <code>text</code> का भाग लौटाता है.    एक वैकल्पिक संख्यिक <code>index</code> इंगित करता है कि <code>delimiter</code> की किस आवृत्ति पर विचार करना चाहिए.    एक वैकल्पिक सूची <code>index</code> इंगित करती है कि <code>delimiter</code> की किस आवृत्ति पर विचार किया जाना चाहिए, साथ ही साथ यह कि इनपुट के प्रारंभ या उसकी समाप्ति से अनुक्रमणिका संपन्न करना चाहिए या नहीं.
 

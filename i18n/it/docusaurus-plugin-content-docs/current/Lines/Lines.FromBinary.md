@@ -5,8 +5,6 @@ title: Lines.FromBinary
 # Lines.FromBinary
 
 
-## Description
-
 Converte un valore binario in un elenco di valori di testo suddivisi in corrispondenza delle interruzioni linee. Se si specifica uno stile della virgoletta, le interruzioni di riga possono essere visualizzate tra virgolette. Se includeLineSeparators è true, i caratteri di interruzione di riga vengono inclusi nel testo.
 
 
@@ -22,7 +20,7 @@ Lines.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 Converte un valore binario in un elenco di valori di testo suddivisi in corrispondenza delle interruzioni linee. Se si specifica uno stile della virgoletta, le interruzioni di riga possono essere visualizzate tra virgolette. Se includeLineSeparators è true, i caratteri di interruzione di riga vengono inclusi nel testo.
 

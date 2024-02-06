@@ -5,8 +5,6 @@ title: Webtrends.ReportContents
 # Webtrends.ReportContents
 
 
-## Description
-
 นำกลับตารางพร้อมด้วยเนื้อหารายงานจาก Webtrends
 
 
@@ -22,7 +20,7 @@ Webtrends.ReportContents(
 ```
 
 
-## Details
+## Remarks
 
 เรียกหาจุดแสดงผลการรายงาน Webtrends ที่ให้ไว้ และนำกลับข้อมูลทั้งหมดเป็นตาราง
 

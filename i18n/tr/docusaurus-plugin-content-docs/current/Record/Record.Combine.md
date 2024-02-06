@@ -5,8 +5,6 @@ title: Record.Combine
 # Record.Combine
 
 
-## Description
-
 Verilen listedeki kayıtları birleştirir.
 
 
@@ -19,7 +17,7 @@ Record.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>records</code> içindeki kayıtları birleştirir. <code>records</code> kayıt olmayan değerler içeriyorsa hata döndürülür.
 

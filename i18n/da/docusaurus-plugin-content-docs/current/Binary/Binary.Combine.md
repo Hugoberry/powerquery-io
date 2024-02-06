@@ -5,8 +5,6 @@ title: Binary.Combine
 # Binary.Combine
 
 
-## Description
-
 Kombinerer en liste over binære til en enkelt binær.
 
 
@@ -19,7 +17,7 @@ Binary.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Kombinerer en liste over binære til en enkelt binær.
 

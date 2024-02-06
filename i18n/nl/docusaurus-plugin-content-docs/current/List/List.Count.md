@@ -5,8 +5,6 @@ title: List.Count
 # List.Count
 
 
-## Description
-
 Retourneert het aantal items in de lijst.
 
 
@@ -19,7 +17,7 @@ List.Count(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het aantal items in de lijst <code>list</code>.
 

@@ -5,8 +5,6 @@ title: Number.RandomBetween
 # Number.RandomBetween
 
 
-## Description
-
 Devolve um número aleatório entre dois números.
 
 
@@ -20,7 +18,7 @@ Number.RandomBetween(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um número aleatório entre <code>bottom</code> e <code>top</code>.
 

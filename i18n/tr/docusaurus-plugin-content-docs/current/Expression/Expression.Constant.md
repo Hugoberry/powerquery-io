@@ -5,8 +5,6 @@ title: Expression.Constant
 # Expression.Constant
 
 
-## Description
-
 Sabit bir değerin M kaynak kodu gösterimini döndürür.
 
 
@@ -19,7 +17,7 @@ Expression.Constant(
 ```
 
 
-## Details
+## Remarks
 
 Sabit bir değerin M kaynak kodu gösterimini döndürür.
 

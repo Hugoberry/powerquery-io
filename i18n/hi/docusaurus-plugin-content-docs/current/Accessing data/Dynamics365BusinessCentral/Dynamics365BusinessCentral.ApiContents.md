@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.ApiContents
 # Dynamics365BusinessCentral.ApiContents
 
 
-## Description
-
 अपना Dynamics 365 Business Central परिवेश और कंपनी दर्ज करें.
 
 
@@ -21,7 +19,7 @@ Dynamics365BusinessCentral.ApiContents(
 ```
 
 
-## Details
+## Remarks
 
 प्रासंगिक Dynamics 365 Business Central डेटा वाली तालिका वापस करता है. 
 

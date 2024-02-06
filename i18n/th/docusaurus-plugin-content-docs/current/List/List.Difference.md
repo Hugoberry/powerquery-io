@@ -5,8 +5,6 @@ title: List.Difference
 # List.Difference
 
 
-## Description
-
 ส่งกลับความแตกต่างของสองรายการที่ระบุ
 
 
@@ -21,7 +19,7 @@ List.Difference(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนข้อมูลในรายการ <code>list1</code> ที่ไม่ปรากฏในรายการ <code>list2</code> สนับสนุนค่าซ้ำ    โดยสามารถระบุค่าเกณฑ์สมการที่เลือกได้ <code>equationCriteria</code> เพื่อควบคุมการทดสอบความเท่ากัน 
 

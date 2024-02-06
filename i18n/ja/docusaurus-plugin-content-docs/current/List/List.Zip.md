@@ -5,8 +5,6 @@ title: List.Zip
 # List.Zip
 
 
-## Description
-
 複数のリストで同じ位置にある項目を結合することによって、リストのリストを返します。
 
 
@@ -19,7 +17,7 @@ List.Zip(
 ```
 
 
-## Details
+## Remarks
 
 リストのリスト <code>lists</code> を取り、同じ位置にある項目を結合したリストのリストを返します。
 

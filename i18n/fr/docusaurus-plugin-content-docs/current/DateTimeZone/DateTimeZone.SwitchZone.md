@@ -5,8 +5,6 @@ title: DateTimeZone.SwitchZone
 # DateTimeZone.SwitchZone
 
 
-## Description
-
 Modifie le fuseau horaire de la valeur.
 
 
@@ -21,7 +19,7 @@ DateTimeZone.SwitchZone(
 ```
 
 
-## Details
+## Remarks
 
 Remplace les informations de fuseau horaire de la valeur datetimezone <code>dateTimeZone</code> par les nouvelles informations de fuseau horaire fournies par <code>timezoneHours</code> et, au besoin, par <code>timezoneMinutes</code>.    Si <code>dateTimeZone</code> n'a pas de composant de fuseau horaire, une exception est levée.
 

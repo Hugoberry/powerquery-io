@@ -5,8 +5,6 @@ title: Text.TrimEnd
 # Text.TrimEnd
 
 
-## Description
-
 Supprime tous les espaces de fin.
 
 
@@ -20,7 +18,7 @@ Text.TrimEnd(
 ```
 
 
-## Details
+## Remarks
 
 Retourne le résultat de la suppression de tous les espaces de fin d'une valeur de texte <code>text</code>.
 

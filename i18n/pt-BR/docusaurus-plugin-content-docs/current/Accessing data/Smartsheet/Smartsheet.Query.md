@@ -5,8 +5,6 @@ title: Smartsheet.Query
 # Smartsheet.Query
 
 
-## Description
-
 Retorna um resultado JSON da API do Smartsheet
 
 
@@ -21,7 +19,7 @@ Smartsheet.Query(
 ```
 
 
-## Details
+## Remarks
 
 Efetua uma chamada à API REST do Smartsheet 2.0 no ponto de extremidade especificado e retorna resultados como um registro JSON.
 

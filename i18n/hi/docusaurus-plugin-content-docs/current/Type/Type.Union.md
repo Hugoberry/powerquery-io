@@ -5,8 +5,6 @@ title: Type.Union
 # Type.Union
 
 
-## Description
-
 सूची के प्रकारों का समुच्चय लौटाता है.
 
 
@@ -19,7 +17,7 @@ Type.Union(
 ```
 
 
-## Details
+## Remarks
 
 <code>types</code> में प्रकारों का समुच्चय लौटाता है.
 

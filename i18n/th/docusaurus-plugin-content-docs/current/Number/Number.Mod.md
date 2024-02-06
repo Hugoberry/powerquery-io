@@ -5,8 +5,6 @@ title: Number.Mod
 # Number.Mod
 
 
-## Description
-
 จำนวนเต็มหารสองจำนวนและส่งกลับเศษที่เหลือ
 
 
@@ -21,7 +19,7 @@ Number.Mod(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนเศษที่เหลือที่เป็นผลจากการหารจำนวนเต็ม <code>number</code> ด้วย <code>divisor</code>     ถ้า <code>number</code> หรือ <code>divisor</code> เป็น null <code>ตัวเลข.Mod</code> จะส่งคืนค่าเป็น null      <ul>        <li><code>number</code>: ตัวตั้ง</li>        <li><code>divisor</code>: ตัวหาร</li>      </ul>
 

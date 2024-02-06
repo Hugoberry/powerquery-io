@@ -5,8 +5,6 @@ title: List.Percentile
 # List.Percentile
 
 
-## Description
-
 Verilen olasılıklara karşılık gelen bir veya daha fazla örnek yüzdebirlik değeri döndürür.
 
 
@@ -21,7 +19,7 @@ List.Percentile(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesinin bir veya daha fazla örnek yüzdebirlik değerini döndürür. <code>percentiles</code> değeri 0,0 ile 1,0 arasında bir sayıysa yüzdebirlik olarak değerlendirilir ve sonuç, olasılığa karşılık gelen    tek bir değer olur. <code>percentiles</code> değeri 0,0 ile 1,0 arasındaki değerlere sahip sayıların bir listesiyse sonuç, giriş olasılığına karşılık gelen    yüzdebirliklerin bir listesi olur. İleri düzey kullanıcılar, daha belirgin bir ilişkilendirme yöntemi seçmek için <code>options</code> içindeki PercentileMode seçeneğini kullanabilir ancak bu, çoğu kullanım için önerilmez.    Önceden tanımlanan <code>PercentileMode.ExcelInc</code> ve <code>PercentileMode.ExcelExc</code> sembolleri,     <code>YÜZDEBİRLİK.DHL</code> ve <code>YÜZDEBİRLİK.HRC</code> Excel işlevleri tarafından kullanılan ilişkilendirme yöntemleriyle eşleşir. Varsayılan davranış <code>PercentileMode.ExcelInc</code> ile eşleşir.    <code>PercentileMode.SqlCont</code> ve <code>PercentileMode.SqlDisc</code> sembolleri sırasıyla <code>PERCENTILE_CONT</code> ve    <code>PERCENTILE_DISC</code> için SQL Server davranışıyla eşleşir.  
 

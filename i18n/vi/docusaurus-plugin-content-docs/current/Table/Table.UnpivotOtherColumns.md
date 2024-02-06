@@ -5,8 +5,6 @@ title: Table.UnpivotOtherColumns
 # Table.UnpivotOtherColumns
 
 
-## Description
-
 Dịch tất cả các cột trừ bộ được chỉ định thành các cặp thuộc tính - giá trị.
 
 
@@ -22,7 +20,7 @@ Table.UnpivotOtherColumns(
 ```
 
 
-## Details
+## Remarks
 
 Dịch tất cả các cột trừ bộ được chỉ định thành các cặp thuộc tính - giá trị, kết hợp với các giá trị còn lại trong mỗi hàng.
 

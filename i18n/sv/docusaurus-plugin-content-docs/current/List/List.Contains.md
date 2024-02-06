@@ -5,8 +5,6 @@ title: List.Contains
 # List.Contains
 
 
-## Description
-
 Anger om listan innehåller värdet.
 
 
@@ -21,7 +19,7 @@ List.Contains(
 ```
 
 
-## Details
+## Remarks
 
 Anger om listan <code>list</code> innehåller värdet <code>value</code>.     Returnerar sant om värdet finns i listan. Annars returneras falskt. Ett valfritt ekvationskriterievärde, <code>equationCriteria</code>, kan anges för att hantera likhetstestning. 
 

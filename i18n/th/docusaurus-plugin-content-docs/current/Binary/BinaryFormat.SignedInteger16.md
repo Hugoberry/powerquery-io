@@ -5,8 +5,6 @@ title: BinaryFormat.SignedInteger16
 # BinaryFormat.SignedInteger16
 
 
-## Description
-
 รูปแบบไบนารีที่อ่านจำนวนเต็มที่มีเครื่องหมาย 16 บิต
 
 
@@ -19,7 +17,7 @@ BinaryFormat.SignedInteger16(
 ```
 
 
-## Details
+## Remarks
 
 รูปแบบไบนารีที่อ่านจำนวนเต็มที่มีเครื่องหมาย 16 บิต
 

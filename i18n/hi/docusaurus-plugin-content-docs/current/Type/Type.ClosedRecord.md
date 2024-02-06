@@ -5,8 +5,6 @@ title: Type.ClosedRecord
 # Type.ClosedRecord
 
 
-## Description
-
 दिए गए रिकॉर्ड प्रकार (या समान प्रकार, यदि वह पहले से बंद हो) का बंद संस्‍करण लौटाता है.
 
 
@@ -19,7 +17,7 @@ Type.ClosedRecord(
 ```
 
 
-## Details
+## Remarks
 
 दिए गए <code>रिकॉर्ड</code> <code>type</code> (या समान प्रकार, यदि पहले से बंद हो) का बंद संस्‍करण लौटाता है.
 

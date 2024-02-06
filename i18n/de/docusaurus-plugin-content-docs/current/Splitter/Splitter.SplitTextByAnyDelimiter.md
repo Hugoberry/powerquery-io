@@ -5,8 +5,6 @@ title: Splitter.SplitTextByAnyDelimiter
 # Splitter.SplitTextByAnyDelimiter
 
 
-## Description
-
 Gibt eine Funktion zurück, die Text an den angegebenen Trennzeichen in eine Liste mit Text aufteilt.
 
 
@@ -21,7 +19,7 @@ Splitter.SplitTextByAnyDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Funktion zurück, die Text an den angegebenen Trennzeichen in eine Liste mit Text aufteilt.
 

@@ -5,8 +5,6 @@ title: Type.RecordFields
 # Type.RecordFields
 
 
-## Description
-
 Retourneert een record waarin de velden van een recordtype worden beschreven en waarbij elk veld van het geretourneerde recordtype een corresponderende naam en waarde heeft.
 
 
@@ -19,7 +17,7 @@ Type.RecordFields(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een record waarin de velden van een record <code>type</code> worden beschreven. Elk veld van het geretourneerde recordtype heeft een corresponderende naam en waarde, in de vorm van een record <code>[ Type = type, Optioneel = logische waarde ]</code>.
 

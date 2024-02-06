@@ -5,8 +5,6 @@ title: Cube.Measures
 # Cube.Measures
 
 
-## Description
-
 Возвращает таблицу, содержащую набор доступных мер.
 
 
@@ -19,7 +17,7 @@ Cube.Measures(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу, содержащую набор доступных мер в пределах <code>cube</code>.    Каждая мера представлена функцией. Меры могут применяться к кубу с помощью метода Cube.AddMeasureColumn.
 

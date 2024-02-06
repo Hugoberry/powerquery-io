@@ -5,8 +5,6 @@ title: Table.MaxN
 # Table.MaxN
 
 
-## Description
-
 Trả về (các) hàng lớn nhất sử dụng tiêu chí cho sẵn.
 
 
@@ -21,7 +19,7 @@ Table.MaxN(
 ```
 
 
-## Details
+## Remarks
 
 Trả về (các) hàng lớn nhất trong <code>table</code>, khi được cho sẵn <code>comparisonCriteria</code>.    Sau khi sắp xếp các hàng, phải chỉ định tham số <code>countOrCondition</code> để lọc thêm kết quả. Lưu ý: thuật toán sắp xếp không thể đảm bảo kết quả sắp xếp cố định. Tham số <code>countOrCondition</code> có thể có nhiều dạng:    <ul>        <li> Nếu một số được chỉ định, một danh sách tối đa <code>countOrCondition</code> mục theo thứ tự tăng dần được trả về. </li>        <li> Nếu một điều kiện được chỉ định, một danh sách các mục đáp ứng điều kiện được trả về. Khi một mục không đáp ứng điều kiện, không có mục nào khác được xem xét. </li> </ul>
 

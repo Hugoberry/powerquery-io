@@ -5,8 +5,6 @@ title: List.InsertRange
 # List.InsertRange
 
 
-## Description
-
 Infogar värden i en lista vid angivet index.
 
 
@@ -21,7 +19,7 @@ List.InsertRange(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en ny lista som genereras genom att värdena i <code>values</code> infogas i <code>list</code> vid <code>index</code>. Den första positionen i listan är vid index 0.      <ul>        <li><code>list</code>: Mållistan där värdena ska infogas.</li>        <li><code>index</code>: Indexet för mållistan (<code>list</code>) där värdena ska infogas. Den första positionen i listan är vid index 0.</li>        <li><code>values</code>: Listan med värden som ska infogas i <code>list</code>.</li>      </ul>
 

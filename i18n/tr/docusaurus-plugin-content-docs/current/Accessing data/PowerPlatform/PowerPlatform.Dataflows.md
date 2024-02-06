@@ -5,8 +5,6 @@ title: PowerPlatform.Dataflows
 # PowerPlatform.Dataflows
 
 
-## Description
-
 Bir veri akışından içeri veri aktarın
 
 
@@ -19,7 +17,7 @@ PowerPlatform.Dataflows(
 ```
 
 
-## Details
+## Remarks
 
 Erişiminiz olan tüm veri akışlarına bağlanın ve kullanmak istediğiniz varlıkları seçin
 

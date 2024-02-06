@@ -5,8 +5,6 @@ title: BinaryFormat.7BitEncodedSignedInteger
 # BinaryFormat.7BitEncodedSignedInteger
 
 
-## Description
-
 Двоичный формат, который считывает 64-разрядное целое число со знаком, зашифрованное с использованием 7-разрядной кодировки с переменной длиной.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.7BitEncodedSignedInteger(
 ```
 
 
-## Details
+## Remarks
 
 Двоичный формат, который считывает 64-разрядное целое число со знаком, зашифрованное с использованием 7-разрядной кодировки с переменной длиной.
 

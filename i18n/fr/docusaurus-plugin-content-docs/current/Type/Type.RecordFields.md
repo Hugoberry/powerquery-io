@@ -5,8 +5,6 @@ title: Type.RecordFields
 # Type.RecordFields
 
 
-## Description
-
 Retourne un enregistrement décrivant les champs d&#39;un type d&#39;enregistrement avec chaque champ du type d&#39;enregistrement retourné ayant un nom et une valeur correspondants.
 
 
@@ -19,7 +17,7 @@ Type.RecordFields(
 ```
 
 
-## Details
+## Remarks
 
 Retourne un enregistrement qui décrit les champs d'un enregistrement <code>type</code>. Chaque champ du type d'enregistrement retourné a un nom et une valeur correspondants, sous la forme d'un enregistrement <code>[ Type = type, Optional = logical ]</code>.
 

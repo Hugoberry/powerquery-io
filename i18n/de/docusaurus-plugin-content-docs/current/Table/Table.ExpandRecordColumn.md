@@ -5,8 +5,6 @@ title: Table.ExpandRecordColumn
 # Table.ExpandRecordColumn
 
 
-## Description
-
 Erweitert eine Spalte mit Datensätzen in Spalten mit den einzelnen Werten.
 
 
@@ -22,7 +20,7 @@ Table.ExpandRecordColumn(
 ```
 
 
-## Details
+## Remarks
 
 Erstellt auf der Grundlage des Elements vom Typ "<code>column</code>" mit Datensätzen aus der Eingabe "<code>table</code>" eine Tabelle mit Spalten für die einzelnen Felder des Datensatzes. Optional kann durch Angabe von "<code>newColumnNames</code>" die Verwendung eindeutiger Spaltennamen in der neuen Tabelle sichergestellt werden.    <ul>        <li><code>table</code>: Die ursprüngliche Tabelle mit der zu erweiternden Datensatzspalte. </li>        <li><code>column</code>: Die zu erweiternde Spalte.</li>        <li><code>fieldNames</code>: Die Liste mit Feldern, die zu Spalten in der Tabelle erweitert werden sollen.</li>        <li><code>newColumnNames</code>: Die Liste mit den Spaltennamen für die neuen Spalten. Die neuen Spaltennamen dürfen nicht zu Duplikaten der Spalten in der neuen Tabelle führen.</li>    </ul>
 

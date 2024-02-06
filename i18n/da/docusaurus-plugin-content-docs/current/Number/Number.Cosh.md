@@ -5,8 +5,6 @@ title: Number.Cosh
 # Number.Cosh
 
 
-## Description
-
 Returnerer den hyperbolske cosinus til tallet.
 
 
@@ -19,7 +17,7 @@ Number.Cosh(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer den hyperbolske cosinus til <code>number</code>.
 

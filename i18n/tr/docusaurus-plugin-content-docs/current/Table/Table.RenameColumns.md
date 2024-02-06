@@ -5,8 +5,6 @@ title: Table.RenameColumns
 # Table.RenameColumns
 
 
-## Description
-
 \{old, new} biçimindeki yeniden adlandırmaları uygular.
 
 
@@ -21,7 +19,7 @@ Table.RenameColumns(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> tablosunda verilen yeniden adlandırmaları sütunlara uygular. <code>renames</code> değiştirme işlemi bir listede sağlanan eski ve yeni sütun adı olmak üzere iki değer içeren bir listeden oluşur.    Sütun yoksa, <code>missingField</code> isteğe bağlı parametresi bir alternatif belirtmediği sürece özel durum oluşur (örn. <code>MissingField.UseNull</code> veya <code>MissingField.Ignore</code>).
 

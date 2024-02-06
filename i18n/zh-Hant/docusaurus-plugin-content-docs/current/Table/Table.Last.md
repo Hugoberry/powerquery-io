@@ -5,8 +5,6 @@ title: Table.Last
 # Table.Last
 
 
-## Description
-
 傳回最後一個資料列或指定的預設值。
 
 
@@ -20,7 +18,7 @@ Table.Last(
 ```
 
 
-## Details
+## Remarks
 
 傳回 <code>table</code> 的最後一個資料列，如果資料表是空的，則傳回選擇性的預設值 <code>default</code>。
 

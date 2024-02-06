@@ -5,8 +5,6 @@ title: Cube.Transform
 # Cube.Transform
 
 
-## Description
-
 Küp işlevleri listesini uygular.
 
 
@@ -20,7 +18,7 @@ Cube.Transform(
 ```
 
 
-## Details
+## Remarks
 
 <code>cube</code> üzerinde, <code>transforms</code> küp işlevleri listesini uygular.
 

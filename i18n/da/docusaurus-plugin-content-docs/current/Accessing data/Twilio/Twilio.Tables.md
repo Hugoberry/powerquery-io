@@ -5,8 +5,6 @@ title: Twilio.Tables
 # Twilio.Tables
 
 
-## Description
-
 Angiv antallet af måneder, som der skal hentes historiske Twilio-data for.
 
 
@@ -19,7 +17,7 @@ Twilio.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel med relevante Twilio-data.
 

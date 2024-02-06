@@ -5,8 +5,6 @@ title: List.RemoveItems
 # List.RemoveItems
 
 
-## Description
-
 list1 から、リストに存在する項目を削除します。
 
 
@@ -20,7 +18,7 @@ List.RemoveItems(
 ```
 
 
-## Details
+## Remarks
 
 <code>list1</code> から、<code>list2</code> に指定された値のすべての出現を削除します。<code>list2</code> の値が <code>list1</code> に存在しない場合、元のリストが返されます。
 

@@ -5,8 +5,6 @@ title: Date.WeekOfMonth
 # Date.WeekOfMonth
 
 
-## Description
-
 ส่งกลับตัวเลขตั้งแต่ 1 ถึง 6 ที่ระบุสัปดาห์ของเดือนที่มีวันที่นี้อยู่
 
 
@@ -20,7 +18,7 @@ Date.WeekOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตัวเลขตั้งแต่ 1 ถึง 6 ที่ระบุสัปดาห์ของเดือนที่มีวันที่ <code>dateTime</code> อยู่ <ul>        <li><code>dateTime</code>: ค่า<code>วันที่เวลา</code>ที่สัปดาห์ของเดือนถูกกำหนดไว้</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Value.Compare
 # Value.Compare
 
 
-## Description
-
 İlk değerin ikinciden küçük, ona eşit veya ondan büyük olup olmamasına göre -1, 0 veya 1 döndürür.
 
 
@@ -21,7 +19,7 @@ Value.Compare(
 ```
 
 
-## Details
+## Remarks
 
 İlk değerin ikinciden küçük, ona eşit veya ondan büyük olup olmamasına göre -1, 0 veya 1 döndürür.
 

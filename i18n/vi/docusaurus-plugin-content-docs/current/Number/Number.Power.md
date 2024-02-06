@@ -5,8 +5,6 @@ title: Number.Power
 # Number.Power
 
 
-## Description
-
 Tăng một số lên lũy thừa cho sẵn.
 
 
@@ -20,7 +18,7 @@ Number.Power(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả sau khi đưa <code>number</code> lên lũy thừa <code>power</code>.    Nếu <code>number</code> hoặc <code>power</code> là giá trị null thì <code>Number.Power</code> trả về giá trị null.      <ul>        <li><code>number</code>: Cơ số.</li>        <li><code>power</code>: Số mũ.</li>      </ul>
 

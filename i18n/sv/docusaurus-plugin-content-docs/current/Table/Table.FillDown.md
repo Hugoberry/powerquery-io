@@ -5,8 +5,6 @@ title: Table.FillDown
 # Table.FillDown
 
 
-## Description
-
 Sprider värdet från en föregående cell till cellerna med null-värden nedanför i kolumnen.
 
 
@@ -20,7 +18,7 @@ Table.FillDown(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell från angiven <code>table</code> där föregående cells värde sprids till cellerna med null-värden nedanför i angiven <code>columns</code>.
 

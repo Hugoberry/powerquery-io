@@ -5,8 +5,6 @@ title: BinaryFormat.SignedInteger32
 # BinaryFormat.SignedInteger32
 
 
-## Description
-
 Ein Binärformat, das eine 32-Bit-Ganzzahl mit Vorzeichen liest.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.SignedInteger32(
 ```
 
 
-## Details
+## Remarks
 
 Ein Binärformat, das eine 32-Bit-Ganzzahl mit Vorzeichen liest.
 

@@ -5,8 +5,6 @@ title: Table.Sort
 # Table.Sort
 
 
-## Description
-
 使用一个或多个列名以及比较条件对表排序。
 
 
@@ -20,7 +18,7 @@ Table.Sort(
 ```
 
 
-## Details
+## Remarks
 
 使用一个或多个列名的列表和可选的 <code>comparisonCriteria</code> (格式为 \{ \{ col1, comparisonCriteria }, \{col2} })对 <code>table</code> 排序。
 

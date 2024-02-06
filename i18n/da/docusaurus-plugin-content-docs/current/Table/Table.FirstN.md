@@ -5,8 +5,6 @@ title: Table.FirstN
 # Table.FirstN
 
 
-## Description
-
 Returnerer det første antal angivne rækker.
 
 
@@ -20,7 +18,7 @@ Table.FirstN(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer den eller de første rækker i tabellen <code>table</code>, afhængigt af værdien i <code>countOrCondition</code>:    <ul>    <li> Hvis <code>countOrCondition</code> er et tal, returneres der så mange rækker (med start fra toppen). </li>    <li> Hvis <code>countOrCondition</code> er en betingelse, returneres de rækker, der overholder betingelsen, indtil en række ikke overholder betingelsen.</li></ul>
 

@@ -5,8 +5,6 @@ title: Table.ApproximateRowCount
 # Table.ApproximateRowCount
 
 
-## Description
-
 Devuelve el número aproximado de filas de la tabla.
 
 
@@ -19,7 +17,7 @@ Table.ApproximateRowCount(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve el número aproximado de filas del <code>table</code>, o un error si el origen de datos no admite la aproximación.
 

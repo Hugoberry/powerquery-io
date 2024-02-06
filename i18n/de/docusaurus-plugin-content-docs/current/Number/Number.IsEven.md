@@ -5,8 +5,6 @@ title: Number.IsEven
 # Number.IsEven
 
 
-## Description
-
 Gibt an, ob es sich um einen geraden Wert handelt.
 
 
@@ -19,7 +17,7 @@ Number.IsEven(
 ```
 
 
-## Details
+## Remarks
 
 Gibt an, ob es sich bei dem Wert "<code>number</code>" um einen geraden Wert handelt (<code>true</code>) oder nicht (<code>false</code>).
 

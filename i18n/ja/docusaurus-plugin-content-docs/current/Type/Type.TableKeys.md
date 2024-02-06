@@ -5,8 +5,6 @@ title: Type.TableKeys
 # Type.TableKeys
 
 
-## Description
-
 指定されたテーブル型のキーの一覧を返します。この一覧は空である可能性があります。
 
 
@@ -19,7 +17,7 @@ Type.TableKeys(
 ```
 
 
-## Details
+## Remarks
 
 指定されたテーブル型のキーの一覧を返します。この一覧は空である可能性があります。<br />    <br />    各キーは、次の形式のレコードを使用して定義されます。    <ul>      <li>        <code>Columns</code>: キーを定義する列名の一覧      </li>      <li>        <code>Primary</code>: キーがテーブルのプライマリ キーの場合は <code>true</code>、それ以外の場合は <code>false</code>      </li>    </ul>    
 

@@ -5,8 +5,6 @@ title: Table.Min
 # Table.Min
 
 
-## Description
-
 Zwraca najmniejszy wiersz lub wartość domyślną, używając podanych kryteriów.
 
 
@@ -21,7 +19,7 @@ Table.Min(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca najmniejszy wiersz w tabeli <code>table</code>, używając podanych kryteriów <code>comparisonCriteria</code>. Jeśli tabela jest pusta, jest zwracana opcjonalna wartość <code>default</code>.
 

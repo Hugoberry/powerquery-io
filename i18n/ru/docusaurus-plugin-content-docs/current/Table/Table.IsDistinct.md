@@ -5,8 +5,6 @@ title: Table.IsDistinct
 # Table.IsDistinct
 
 
-## Description
-
 Указывает, содержит ли таблица только уникальные строки (без повторений).
 
 
@@ -20,7 +18,7 @@ Table.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 Указывает, содержит ли "<code>table</code>" только уникальные строки (без повторений). Возвращает значение <code>true</code>, если строки уникальны, и <code>false</code> в противном случае.    Необязательный параметр "<code>comparisonCriteria</code>" определяет, какие столбцы таблицы проверяются на наличие повторов. Если "<code>comparisonCriteria</code>" не задан, проверяются все столбцы.
 

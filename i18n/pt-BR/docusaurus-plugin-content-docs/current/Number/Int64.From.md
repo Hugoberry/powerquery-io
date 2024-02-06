@@ -5,8 +5,6 @@ title: Int64.From
 # Int64.From
 
 
-## Description
-
 Cria um número inteiro de 64 bits a partir de um valor fornecido.
 
 
@@ -21,7 +19,7 @@ Int64.From(
 ```
 
 
-## Details
+## Remarks
 
 Retorna um valor <code>number</code> inteiro de 64 bits com base no <code>value</code> especificado. Se o <code>value</code> especificado for <code>null</code>, <code>Int64.From</code> retornará <code>null</code>. Se o <code>value</code> especificado for <code>number</code> dentro do intervalo de número inteiro de 64 bits sem uma parte fracionária, <code>value</code> será retornado. Se tiver uma parte fracionária, então o número será arredondado com o modo de arredondamento especificado. O modo de arredondamento padrão é <code>RoundingMode.ToEven</code>. Se <code>value</code> for qualquer outro tipo, será convertido primeiro para um <code>number</code> usando <code>Number.FromText</code>. Confira <code>Number.Round</code> para os modos de arredondamento disponíveis. Um <code>culture</code> opcional também pode ser fornecido (por exemplo, "pt-BR").
 

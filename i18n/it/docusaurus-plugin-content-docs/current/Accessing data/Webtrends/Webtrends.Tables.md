@@ -5,8 +5,6 @@ title: Webtrends.Tables
 # Webtrends.Tables
 
 
-## Description
-
 Immettere l&#39;ID profilo associato all&#39;account Webtrends.
 
 
@@ -21,7 +19,7 @@ Webtrends.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una tabella con i dati Webtrends pertinenti.
 

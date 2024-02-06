@@ -5,8 +5,6 @@ title: Type.ForRecord
 # Type.ForRecord
 
 
-## Description
-
 フィールドに対して特定の型の制約を持つレコードを表す型を返します。
 
 
@@ -20,7 +18,7 @@ Type.ForRecord(
 ```
 
 
-## Details
+## Remarks
 
 フィールドに対して特定の型の制約を持つレコードを表す型を返します。
 

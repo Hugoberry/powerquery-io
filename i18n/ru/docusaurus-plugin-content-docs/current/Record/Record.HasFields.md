@@ -5,8 +5,6 @@ title: Record.HasFields
 # Record.HasFields
 
 
-## Description
-
 Указывает, содержит ли запись указанные поля.
 
 
@@ -20,7 +18,7 @@ Record.HasFields(
 ```
 
 
-## Details
+## Remarks
 
 Указывает, содержит ли запись <code>record</code> поля, заданные в <code>fields</code>, возвращая логическое значение (true или false).    Значения нескольких полей можно указать с помощью списка.
 

@@ -5,8 +5,6 @@ title: Text.RemoveRange
 # Text.RemoveRange
 
 
-## Description
-
 Fjerner et antal tegn med start ved den angivne forskydning.
 
 
@@ -21,7 +19,7 @@ Text.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en kopi af tekstværdien <code>text</code>, hvor alle tegn fra position <code>offset</code> er fjernet.    Der kan bruges en valgfri parameter, <code>count</code>, til at angive antallet af tegn, der skal fjernes. Standardværdien for <code>count</code> er 1. Positionsværdier starter ved 0.
 

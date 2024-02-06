@@ -5,8 +5,6 @@ title: Table.AlternateRows
 # Table.AlternateRows
 
 
-## Description
-
 Conserve le décalage initial puis accepte et ignore de façon alternée les lignes suivantes.
 
 
@@ -22,7 +20,7 @@ Table.AlternateRows(
 ```
 
 
-## Details
+## Remarks
 
 Conserve le décalage initial puis accepte et ignore de façon alternée les lignes suivantes.    <ul>       <li><code>table</code> : table d'entrée.</li>       <li><code>offset</code> : nombre de lignes à conserver avant de démarrer les itérations.</li>       <li><code>skip</code> : nombre de lignes à supprimer dans chaque itération.</li>       <li><code>take</code> : nombre de lignes à conserver dans chaque itération.</li>    </ul>    
 

@@ -5,8 +5,6 @@ title: Date.Year
 # Date.Year
 
 
-## Description
-
 वर्ष घटक लौटाता है.
 
 
@@ -19,7 +17,7 @@ Date.Year(
 ```
 
 
-## Details
+## Remarks
 
 प्रदान किए गए <code>datetime</code> मान, <code>dateTime</code> का वर्ष घटक लौटाता है.
 

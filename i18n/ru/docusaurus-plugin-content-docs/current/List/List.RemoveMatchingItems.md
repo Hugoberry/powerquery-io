@@ -5,8 +5,6 @@ title: List.RemoveMatchingItems
 # List.RemoveMatchingItems
 
 
-## Description
-
 Удаляет все вхождения входных значений.
 
 
@@ -21,7 +19,7 @@ List.RemoveMatchingItems(
 ```
 
 
-## Details
+## Remarks
 
 Удаляет все вхождения значений, заданных в списке <code>list2</code>, из списка <code>list1</code>. Если значения в <code>list2</code> не существуют в <code>list1</code>, то возвращается исходный список.    Необязательное значение критерия уравнения <code>equationCriteria</code> можно указать для управления проверкой на равенство. 
 

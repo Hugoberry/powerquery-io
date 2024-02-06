@@ -5,8 +5,6 @@ title: Table.Last
 # Table.Last
 
 
-## Description
-
 Trả về hàng cuối cùng hoặc một giá trị mặc định được chỉ định.
 
 
@@ -20,7 +18,7 @@ Table.Last(
 ```
 
 
-## Details
+## Remarks
 
 Trả về hàng cuối cùng của <code>table</code> hoặc giá trị mặc định tùy chọn <code>default</code> nếu bảng trống.
 

@@ -5,8 +5,6 @@ title: BinaryFormat.Null
 # BinaryFormat.Null
 
 
-## Description
-
 0 バイトを読み取り、null を返すバイナリ形式。
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Null(
 ```
 
 
-## Details
+## Remarks
 
 0 バイトを読み取り、null を返すバイナリ形式。
 

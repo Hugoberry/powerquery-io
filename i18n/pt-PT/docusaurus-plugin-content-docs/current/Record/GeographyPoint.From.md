@@ -5,8 +5,6 @@ title: GeographyPoint.From
 # GeographyPoint.From
 
 
-## Description
-
 Cria um registo que representa um ponto geográfico a partir das partes que o constituem.
 
 
@@ -23,7 +21,7 @@ GeographyPoint.From(
 ```
 
 
-## Details
+## Remarks
 
 Cria um registo que representa um ponto geográfico a partir das partes que o constituem, como longitude, latitude e, se presente, elevação (Z) e medida (M). Pode ser indicado um identificador de referência espacial (SRID) opcional, se for diferente do valor predefinido (4326).
 

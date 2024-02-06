@@ -5,8 +5,6 @@ title: Web.BrowserContents
 # Web.BrowserContents
 
 
-## Description
-
 Restituisce il codice HTML per l&#39;URL specificato, come visualizzato da un Web browser.
 
 
@@ -20,7 +18,7 @@ Web.BrowserContents(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il codice HTML per il <code>url</code> specificato, visualizzato da un Web browser. È possibile specificare un parametro di record facoltativo, <code>options</code>, per specificare proprietà aggiuntive. Il record può contenere i campi seguenti: <ul> <li><code>ApiKeyName</code>: se il sito di destinazione presenta una nozione di una chiave API, questo parametro può essere usato per specificare il nome (non il valore) del parametro chiave che deve essere usato nell'URL. Il valore chiave effettivo viene fornito nelle credenziali.</li> <li><code>WaitFor</code>: specifica una condizione da attendere prima di scaricare il codice HTML, oltre ad attendere il caricamento della pagina ( operazione sempre eseguita). Può essere un record contenente i campi Timeout e/o Selettore. Se viene specificato solo un timeout, la funzione attenderà la quantità di tempo specificata prima di scaricare il codice HTML. Se vengono specificati sia un selettore che un timeout e il timeout è trascorso prima che il selettore si manifesti nella pagina, verrà generato un errore. Se si specifica un selettore senza timeout, viene applicato un timeout predefinito di 30 secondi.</li>      </ul>    
 

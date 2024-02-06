@@ -5,8 +5,6 @@ title: Text.Upper
 # Text.Upper
 
 
-## Description
-
 Konwertuje wszystkie znaki na wielkie litery.
 
 
@@ -20,7 +18,7 @@ Text.Upper(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wynik konwersji wszystkich znaków w elemencie <code>text</code> na wielkie litery. Można także określić opcjonalny parametr <code>culture</code> (na przykład „en-US”).
 

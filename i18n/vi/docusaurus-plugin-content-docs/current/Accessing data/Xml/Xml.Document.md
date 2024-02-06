@@ -5,8 +5,6 @@ title: Xml.Document
 # Xml.Document
 
 
-## Description
-
 Trả về nội dung của tài liệu XML ở dạng bảng phân cấp.
 
 
@@ -20,7 +18,7 @@ Xml.Document(
 ```
 
 
-## Details
+## Remarks
 
 Trả về nội dung của tài liệu XML ở dạng bảng phân cấp.
 

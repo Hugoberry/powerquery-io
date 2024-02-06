@@ -5,8 +5,6 @@ title: Table.Contains
 # Table.Contains
 
 
-## Description
-
 Indique si l&#39;enregistrement spécifié s&#39;affiche sous la forme d&#39;une ligne dans la table.
 
 
@@ -21,7 +19,7 @@ Table.Contains(
 ```
 
 
-## Details
+## Remarks
 
 Indique si l'enregistrement spécifié <code>row</code> s'affiche sous la forme d'une ligne dans <code>table</code>.    Un paramètre facultatif <code>equationCriteria</code> peut être spécifié pour contrôler la comparaison entre les lignes de la table.
 

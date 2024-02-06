@@ -5,8 +5,6 @@ title: Int8.From
 # Int8.From
 
 
-## Description
-
 Maakt een 8-bits geheel getal met teken van de opgegeven waarde.
 
 
@@ -21,7 +19,7 @@ Int8.From(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een ondertekende 8-bits <code>number</code>-waarde geretourneerd als geheel getal met teken uit opgegeven <code>value</code>. Als de opgegeven <code>value</code> de waarde <code>null</code> heeft, wordt door <code>Int8.From</code> de waarde <code>null</code> geretourneerd. Als de opgegeven <code>value</code> een <code>number</code>-waarde heeft binnen het bereik van een ondertekend 8-bits geheel getal met teken zonder een fractioneel deel, wordt <code>value</code> geretourneerd. Als het getal een fractioneel deel heeft, wordt het afgerond met de opgegeven afrondingsmodus. De standaardafrondingsmodus is <code>RoundingMode.ToEven</code>. Als <code>value</code> van een ander type is, wordt deze eerst geconverteerd naar een <code>nummer</code> met behulp van <code>Number.FromText</code>. Raadpleeg <code>Number.Round</code> voor de beschikbare afrondingsmodi. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
 

@@ -5,8 +5,6 @@ title: DateTime.Date
 # DateTime.Date
 
 
-## Description
-
 指定された date、datetime、または datetimezone 値の日付部分を返します。
 
 
@@ -19,7 +17,7 @@ DateTime.Date(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code>、指定された <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値の日付部分を返します。
 

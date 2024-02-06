@@ -5,8 +5,6 @@ title: IdentityProvider.Default
 # IdentityProvider.Default
 
 
-## Description
-
 Geçerli konak için varsayılan kimlik sağlayıcısı.
 
 
@@ -19,7 +17,7 @@ IdentityProvider.Default(
 ```
 
 
-## Details
+## Remarks
 
 Geçerli konak için varsayılan kimlik sağlayıcısı.
 

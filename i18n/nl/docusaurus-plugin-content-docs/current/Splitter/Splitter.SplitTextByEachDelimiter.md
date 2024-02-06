@@ -5,8 +5,6 @@ title: Splitter.SplitTextByEachDelimiter
 # Splitter.SplitTextByEachDelimiter
 
 
-## Description
-
 Retourneert een functie die bij elk opgegeven scheidingsteken in de reeks tekst splitst in een lijst met tekst.
 
 
@@ -21,7 +19,7 @@ Splitter.SplitTextByEachDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een functie die bij elk opgegeven scheidingsteken in de reeks tekst splitst in een lijst met tekst.
 

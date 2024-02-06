@@ -5,8 +5,6 @@ title: Number.Log
 # Number.Log
 
 
-## Description
-
 निर्दिष्ट आधार (डिफ़ॉल्ट e) की संख्या का लघुगणक लौटाता है.
 
 
@@ -20,7 +18,7 @@ Number.Log(
 ```
 
 
-## Details
+## Remarks
 
 निर्दिष्ट <code>base</code> आधार के लिए एक संख्या <code>number</code> का लघुगणक लौटाता है. यदि <code>base</code> निर्दिष्ट नहीं है, तो डिफ़ॉल्ट मान Number.E होता है.    यदि <code>number</code> नल है, तो <code>Number.Log</code> नल लौटाता है.
 

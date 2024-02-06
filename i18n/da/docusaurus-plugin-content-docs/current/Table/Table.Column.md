@@ -5,8 +5,6 @@ title: Table.Column
 # Table.Column
 
 
-## Description
-
 Returnerer en angivet kolonne med data fra tabellen som en liste.
 
 
@@ -20,7 +18,7 @@ Table.Column(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer den kolonne med data, der er angivet af <code>column</code>, fra tabellen <code>table</code> som en liste.
 

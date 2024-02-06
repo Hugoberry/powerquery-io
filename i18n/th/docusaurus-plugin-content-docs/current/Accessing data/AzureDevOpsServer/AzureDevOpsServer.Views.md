@@ -5,8 +5,6 @@ title: AzureDevOpsServer.Views
 # AzureDevOpsServer.Views
 
 
-## Description
-
 ใส่ชื่อองค์กรและโครงการ
 
 
@@ -22,7 +20,7 @@ AzureDevOpsServer.Views(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางฟีด OData ที่เสนอโดย Azure DevOps
 

@@ -5,8 +5,6 @@ title: Text.Split
 # Text.Split
 
 
-## Description
-
 แยกข้อความออกเป็นรายการค่าข้อความตามตัวคั่นที่ระบุ
 
 
@@ -20,7 +18,7 @@ Text.Split(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับรายการค่าข้อความที่เป็นผลลัพธ์จากการแยกค่าข้อความ <code>text</code> ตามตัวคั่นที่ระบุ <code>separator</code>
 

@@ -5,8 +5,6 @@ title: Text.Upper
 # Text.Upper
 
 
-## Description
-
 Konverterer alle tegn til store bogstaver.
 
 
@@ -20,7 +18,7 @@ Text.Upper(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer resultatet af at konvertere alle tegn i <code>text</code> til store bogstaver. Der kan også angives en valgfri <code>culture</code> (f. eks. "en-US").
 

@@ -5,8 +5,6 @@ title: Table.AlternateRows
 # Table.AlternateRows
 
 
-## Description
-
 รักษาออฟเซตเริ่มต้นแล้วเปลี่ยนแปลงโดยใช้และข้ามแถวดังต่อไปนี้
 
 
@@ -22,7 +20,7 @@ Table.AlternateRows(
 ```
 
 
-## Details
+## Remarks
 
 รักษาออฟเซตเริ่มต้นแล้วเปลี่ยนแปลงโดยใช้และข้ามแถวดังต่อไปนี้    <ul>       <li><code>table</code>: ตารางค่าที่ป้อน</li>       <li><code>offset</code>: จำนวนแถวที่จะรักษาไว้ก่อนเริ่มการคำนวณซ้ำ</li>       <li><code>skip</code>: จำนวนแถวที่จะเอาออกในการคำนวณซ้ำแต่ละครั้ง</li>       <li><code>take</code>: จำนวนแถวที่จะรักษาไว้ในการคำนวณซ้ำแต่ละครั้ง</li>    </ul>    
 

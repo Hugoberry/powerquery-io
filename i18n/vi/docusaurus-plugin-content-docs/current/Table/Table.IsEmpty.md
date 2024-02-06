@@ -5,8 +5,6 @@ title: Table.IsEmpty
 # Table.IsEmpty
 
 
-## Description
-
 Cho biết bảng có chứa hàng hay không.
 
 
@@ -19,7 +17,7 @@ Table.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 Cho biết <code>table</code> có chứa hàng hay không. Trả về <code>true</code> nếu không có hàng nào (tức là bảng trống), <code>false</code> nếu ngược lại.
 

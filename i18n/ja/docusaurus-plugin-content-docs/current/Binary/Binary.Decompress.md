@@ -5,8 +5,6 @@ title: Binary.Decompress
 # Binary.Decompress
 
 
-## Description
-
 指定された圧縮の種類を使用して、バイナリ値の圧縮を解除します。
 
 
@@ -20,7 +18,7 @@ Binary.Decompress(
 ```
 
 
-## Details
+## Remarks
 
 指定された圧縮の種類を使用して、バイナリ値の圧縮を解除します。この呼び出しの結果は、圧縮が解除された入力のコピーです。圧縮の種類には次のものがあります。  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
 

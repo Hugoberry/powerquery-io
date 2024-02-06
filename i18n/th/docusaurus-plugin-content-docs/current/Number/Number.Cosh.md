@@ -5,8 +5,6 @@ title: Number.Cosh
 # Number.Cosh
 
 
-## Description
-
 ส่งกลับค่าไฮเพอร์โบลิกโคไซน์ของตัวเลข
 
 
@@ -19,7 +17,7 @@ Number.Cosh(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่าไฮเพอร์โบลิกโคไซน์ของ <code>number</code>
 

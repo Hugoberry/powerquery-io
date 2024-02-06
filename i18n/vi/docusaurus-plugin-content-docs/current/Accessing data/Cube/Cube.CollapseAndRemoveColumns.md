@@ -5,8 +5,6 @@ title: Cube.CollapseAndRemoveColumns
 # Cube.CollapseAndRemoveColumns
 
 
-## Description
-
 Thay đổi chi tiết kích thước của ngữ cảnh bộ lọc cho cube bằng cách thu hẹp thuộc tính được ánh xạ cho các cột được chỉ định.
 
 
@@ -20,7 +18,7 @@ Cube.CollapseAndRemoveColumns(
 ```
 
 
-## Details
+## Remarks
 
 Thay đổi chi tiết kích thước của ngữ cảnh bộ lọc cho <code>cube</code> bằng cách thu hẹp thuộc tính được ánh xạ cho các cột được chỉ định <code>columnNames</code>. Cột cũng bị xóa khỏi chế độ xem dạng bảng của cube.
 

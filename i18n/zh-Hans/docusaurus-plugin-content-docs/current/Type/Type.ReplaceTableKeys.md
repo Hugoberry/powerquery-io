@@ -5,8 +5,6 @@ title: Type.ReplaceTableKeys
 # Type.ReplaceTableKeys
 
 
-## Description
-
 返回所有键均由指定的键列表替换的新的表类型。
 
 
@@ -20,7 +18,7 @@ Type.ReplaceTableKeys(
 ```
 
 
-## Details
+## Remarks
 
 使用指定的键列表替换所有键，并返回一个新的表类型。<br />    <br />    每个键都使用以下形式的记录进行定义:    <ul>      <li>        <code>Columns</code>: 定义键的列名列表      </li>      <li>        <code>Primary</code>: 如果该键是表的主键，则为 <code>true</code>；否则, <code>false</code>      </li>    </ul>    验证指定的键列表，以确保定义的主键不超过一个，并且表类型中存在所有键列名。    
 

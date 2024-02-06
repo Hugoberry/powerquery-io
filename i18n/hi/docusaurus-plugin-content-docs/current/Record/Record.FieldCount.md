@@ -5,8 +5,6 @@ title: Record.FieldCount
 # Record.FieldCount
 
 
-## Description
-
 रिकॉर्ड की फ़ील्ड की संख्या लौटाता है.
 
 
@@ -19,7 +17,7 @@ Record.FieldCount(
 ```
 
 
-## Details
+## Remarks
 
 रिकॉर्ड <code>record</code> की फ़ील्ड की संख्या लौटाता है.
 

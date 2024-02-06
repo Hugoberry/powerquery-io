@@ -5,8 +5,6 @@ title: List.ReplaceValue
 # List.ReplaceValue
 
 
-## Description
-
 リスト内で指定された値を検索し、置き換えます。
 
 
@@ -22,7 +20,7 @@ List.ReplaceValue(
 ```
 
 
-## Details
+## Remarks
 
 値のリスト <code>list</code> 内で値 <code>oldValue</code> を検索し、それぞれの出現を置換値 <code>newValue</code> に置き換えます。
 

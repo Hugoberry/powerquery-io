@@ -5,8 +5,6 @@ title: Single.From
 # Single.From
 
 
-## Description
-
 指定された値から Single (単精度浮動小数点数) を作成します。
 
 
@@ -20,7 +18,7 @@ Single.From(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>value</code> から単精度浮動小数点型の <code>number</code> 値を作成します。指定された <code>value</code> が <code>null</code> である場合、<code>Single.From</code> は <code>null</code> を返します。指定された <code>value</code> が単精度浮動小数点型の範囲内の <code>number</code> である場合、<code>value</code> が返され、それ以外の場合にはエラーが返されます。<code>value</code> がそれ以外の型である場合には、まずは <code>Number.FromText</code> を参照して <code>number</code> 値に変換されます。省略可能な <code>culture</code> を指定することもできます (例: "en-US")。
 

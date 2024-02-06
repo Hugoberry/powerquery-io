@@ -18,7 +18,7 @@ VivaInsights.Data(
 ```
 
 
-## Details
+## Remarks
 
 Importera vecko mått- och attributdata veckovis från arbetsyteanalysen.
 

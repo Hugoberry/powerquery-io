@@ -5,8 +5,6 @@ title: Text.Format
 # Text.Format
 
 
-## Description
-
 फ़ॉर्मेट स्ट्रिंग और तर्कों से फ़ॉर्मेट किया गया पाठ लौटाता है.
 
 
@@ -21,7 +19,7 @@ Text.Format(
 ```
 
 
-## Details
+## Remarks
 
 ऐसा फ़ॉर्मेट किया गया पाठ लौटाता है, जिसे स्ट्रिंग <code>formatString</code> को फ़ॉर्मेट करने के लिए सूची या रिकॉर्ड से <code>arguments</code> को लागू करके बनाया गया है. वैकल्पिक <code>culture</code> प्रदान किया जा सकता है (उदाहरण के लिए, "en-US").
 

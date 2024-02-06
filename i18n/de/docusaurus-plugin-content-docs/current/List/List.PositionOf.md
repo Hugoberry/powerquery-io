@@ -5,8 +5,6 @@ title: List.PositionOf
 # List.PositionOf
 
 
-## Description
-
 Gibt die Offsets eines Werts in einer Liste zurück.
 
 
@@ -22,7 +20,7 @@ List.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Offset zurück, an dem der Wert "<code>value</code>" in der Liste "<code>list</code>" erscheint. Ist der Wert nicht vorhanden, wird "-1" zurückgegeben.    Ein optionaler occurrence-Parameter (<code>occurrence</code>) kann angegeben werden.<ul>   <li><code>occurrence</code>: Die maximale Anzahl der zu meldenden Vorkommen.</li></ul>
 

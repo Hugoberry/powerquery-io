@@ -5,8 +5,6 @@ title: List.FindText
 # List.FindText
 
 
-## Description
-
 指定されたテキストを含む (レコード フィールドを含む) 値のリストを返します。
 
 
@@ -20,7 +18,7 @@ List.FindText(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>list</code> から、値 <code>text</code> が含まれる値のリストを返します。
 

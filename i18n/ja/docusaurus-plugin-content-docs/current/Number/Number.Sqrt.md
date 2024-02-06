@@ -5,8 +5,6 @@ title: Number.Sqrt
 # Number.Sqrt
 
 
-## Description
-
 数値の平方根を返します。
 
 
@@ -19,7 +17,7 @@ Number.Sqrt(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> の平方根を返します。    <code>number</code> が null の場合、<code>Number.Sqrt</code> は null を返します。負の値の場合は、<code>Number.NaN</code> を返します (数値ではありません)。
 

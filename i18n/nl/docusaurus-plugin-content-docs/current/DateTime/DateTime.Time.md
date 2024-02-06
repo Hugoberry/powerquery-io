@@ -5,8 +5,6 @@ title: DateTime.Time
 # DateTime.Time
 
 
-## Description
-
 Retourneert het tijdgedeelte van de opgegeven datum-/tijdwaarde.
 
 
@@ -19,7 +17,7 @@ DateTime.Time(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het tijdgedeelte van de opgegeven datum-/tijdwaarde, <code>dateTime</code>.
 

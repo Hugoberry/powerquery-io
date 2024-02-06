@@ -17,7 +17,7 @@ Databricks.Query(
 ```
 
 
-## Details
+## Remarks
 
 กําหนดแหล่งข้อมูล Databricks สําหรับการเรียกใช้แบบสอบถาม SQL
 

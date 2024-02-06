@@ -5,8 +5,6 @@ title: Record.RemoveFields
 # Record.RemoveFields
 
 
-## Description
-
 从输入记录中删除指定的字段。
 
 
@@ -21,7 +19,7 @@ Record.RemoveFields(
 ```
 
 
-## Details
+## Remarks
 
 返回一个记录，该记录从输入 <code>record</code> 中删除列表 <code>fields</code> 中指定的所有字段。如果指定的字段不存在，将引发异常。
 

@@ -5,8 +5,6 @@ title: Table.PositionOfAny
 # Table.PositionOfAny
 
 
-## Description
-
 返回任何指定的行在表中的一个或多个位置。
 
 
@@ -22,7 +20,7 @@ Table.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 返回 <code>rows</code> 的列表在 <code>table</code> 中第一次出现的行位置。如果找不到该值，则返回 -1。    <ul>    <li><code>table</code>: 输入表。</li>       <li><code>rows</code>: 表中要查找其位置的行列表。</li>       <li><code>occurrence</code>: <i>[可选]</i> 指定要返回的行的出现次数。</li>       <li><code>equationCriteria</code>: <i>[可选]</i> 控制表行之间的比较。</li>    </ul>    
 

@@ -5,8 +5,6 @@ title: Table.TransformColumnTypes
 # Table.TransformColumnTypes
 
 
-## Description
-
 Past met behulp van een specifieke cultuur type transformatie(s) in de notatie \{ column, type } toe.
 
 
@@ -21,7 +19,7 @@ Table.TransformColumnTypes(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tabel van de uitvoer <code>table</code> geretourneerd door de transformatiebewerking toe te passen op de kolommen die zijn opgegeven in de parameter <code>typeTransformations</code> (in de notatie \{ column name, type name}) met behulp van de opgegeven cultuur in de optionele parameter <code>culture</code> (bijvoorbeeld: nl-NL). Als de kolom niet bestaat, wordt er een uitzondering gegenereerd.
 

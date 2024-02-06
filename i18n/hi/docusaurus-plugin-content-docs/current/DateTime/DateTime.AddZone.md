@@ -5,8 +5,6 @@ title: DateTime.AddZone
 # DateTime.AddZone
 
 
-## Description
-
 datetime मान में समय क्षेत्र की जानकारी जोड़ता है.
 
 
@@ -21,7 +19,7 @@ DateTime.AddZone(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> मान में समय क्षेत्र की जानकारी जोड़ता है. समय क्षेत्र की जानकारी में <code>timezoneHours</code> और वैकल्पिक रूप से <code>timezoneMinutes</code> शामिल है, जो UTC समय से इच्छित ऑफ़सेट निर्दिष्ट करता है.
 

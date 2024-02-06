@@ -5,8 +5,6 @@ title: Date.IsInCurrentDay
 # Date.IsInCurrentDay
 
 
-## Description
-
 Указывает, приходится ли эта дата на текущий день, что определяется текущей датой и временем в системе.
 
 
@@ -19,7 +17,7 @@ Date.IsInCurrentDay(
 ```
 
 
-## Details
+## Remarks
 
 Указывает, приходится заданное значение datetime <code>dateTime</code> на текущий день, что определяется текущей датой и временем в системе.      <ul>      <li><code>dateTime</code>: значение <code>date</code>, <code>datetime</code> или <code>datetimezone</code>, которое необходимо оценить.</li>      </ul>
 

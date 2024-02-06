@@ -5,8 +5,6 @@ title: Type.TableColumn
 # Type.TableColumn
 
 
-## Description
-
 ส่งกลับชนิดของคอลัมน์ในตาราง
 
 
@@ -20,7 +18,7 @@ Type.TableColumn(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับชนิดของคอลัมน์ <code>column</code> ในชนิดตาราง <code>tableType</code>
 

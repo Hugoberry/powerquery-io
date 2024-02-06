@@ -5,8 +5,6 @@ title: Text.ToBinary
 # Text.ToBinary
 
 
-## Description
-
 Mã hóa văn bản thành dạng thức nhị phân.
 
 
@@ -21,7 +19,7 @@ Text.ToBinary(
 ```
 
 
-## Details
+## Remarks
 
 Mã hóa giá trị văn bản cho sẵn <code>text</code> thành giá trị nhị phân bằng cách sử dụng <code>encoding</code> được chỉ định.
 

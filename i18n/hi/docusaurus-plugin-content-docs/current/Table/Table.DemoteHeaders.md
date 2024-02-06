@@ -5,8 +5,6 @@ title: Table.DemoteHeaders
 # Table.DemoteHeaders
 
 
-## Description
-
 स्तंभ शीर्षलेखों को मानों की पहली पंक्ति में अवनत करता है.
 
 
@@ -19,7 +17,7 @@ Table.DemoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 स्तंभ शीर्षलेखों (अर्थात् स्तंभ नाम) को मानों की पहली पंक्ति में अवनत करता है.
 

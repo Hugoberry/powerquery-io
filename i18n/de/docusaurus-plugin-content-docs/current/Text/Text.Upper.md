@@ -5,8 +5,6 @@ title: Text.Upper
 # Text.Upper
 
 
-## Description
-
 Konvertiert alle Zeichen in Großschreibung.
 
 
@@ -20,7 +18,7 @@ Text.Upper(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das Ergebnis der Konvertierung aller Zeichen in "<code>text</code>" in Großbuchstaben zurück. Optional kann auch ein Element vom Typ "<code>culture</code>" angegeben werden (Beispiel: "de-DE").
 

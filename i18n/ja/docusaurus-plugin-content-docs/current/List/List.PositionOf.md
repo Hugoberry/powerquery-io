@@ -5,8 +5,6 @@ title: List.PositionOf
 # List.PositionOf
 
 
-## Description
-
 リスト内の値のオフセットを返します。
 
 
@@ -22,7 +20,7 @@ List.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 値 <code>list</code> がリスト <code>value</code> に出現するオフセットを返します。値が出現しない場合は -1 を返します。    省略可能な出現パラメーター <code>occurrence</code> を指定できます。<ul>   <li><code>occurrence</code>: 報告する出現の最大数。</li></ul> 
 

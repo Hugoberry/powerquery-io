@@ -5,8 +5,6 @@ title: Table.Range
 # Table.Range
 
 
-## Description
-
 Retorna as linhas que começam no deslocamento especificado.
 
 
@@ -21,7 +19,7 @@ Table.Range(
 ```
 
 
-## Details
+## Remarks
 
 Retorna as linhas da <code>table</code> que começam no <code>offset</code> especificado. Um parâmetro opcional, <code>count</code>, especifica quantas linhas serão retornadas. Por padrão, todas as linhas após o deslocamento são retornadas.
 

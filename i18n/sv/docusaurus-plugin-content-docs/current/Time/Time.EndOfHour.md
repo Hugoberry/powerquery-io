@@ -5,8 +5,6 @@ title: Time.EndOfHour
 # Time.EndOfHour
 
 
-## Description
-
 Returnerar timmens slut.
 
 
@@ -19,7 +17,7 @@ Time.EndOfHour(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar slutet av timmen som representeras av <code>dateTime</code>, inklusive fraktionella sekunder. Informationen om tidszonen bevaras.      <ul>        <li><code>dateTime</code>: Ett <code>time</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde som årets slut beräknas från.</li>      </ul>
 

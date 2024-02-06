@@ -5,8 +5,6 @@ title: List.Transform
 # List.Transform
 
 
-## Description
-
 ส่งกลับรายการค่าใหม่ที่คำนวณจากรายการนี้
 
 
@@ -20,7 +18,7 @@ List.Transform(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับรายการค่าใหม่โดยการนำฟังก์ชันการแปลง <code>transform</code> ไปใช้กับรายการ <code>list</code>
 

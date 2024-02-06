@@ -5,8 +5,6 @@ title: RData.FromBinary
 # RData.FromBinary
 
 
-## Description
-
 RData ファイルからデータ フレームのレコードを返します。
 
 
@@ -19,7 +17,7 @@ RData.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 RData ファイルからデータ フレームのレコードを返します。
 

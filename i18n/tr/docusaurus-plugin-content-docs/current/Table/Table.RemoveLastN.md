@@ -5,8 +5,6 @@ title: Table.RemoveLastN
 # Table.RemoveLastN
 
 
-## Description
-
 Son N satırları kaldıran bir tablo döndürür.
 
 
@@ -20,7 +18,7 @@ Table.RemoveLastN(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> tablosunun son <code>countOrCondition</code> satırını içermeyen bir tablo döndürür.        Kaldırılan satır sayısı <code>countOrCondition</code> isteğe bağlı parametresine bağlıdır.    <ul>    <li> <code>countOrCondition</code> dahil edilmezse yalnızca son satır kaldırılır. </li>    <li> <code>countOrCondition</code> bir sayı ise bu sayıda satır (alttan başlayarak) kaldırılır. </li>    <li> <code>countOrCondition</code> bir koşul ise koşulu sağlayan satırlar, herhangi bir satır koşulu sağlamayana kadar kaldırılır.</li>    </ul>
 

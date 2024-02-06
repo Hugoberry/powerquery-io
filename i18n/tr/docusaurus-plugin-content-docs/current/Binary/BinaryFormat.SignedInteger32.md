@@ -5,8 +5,6 @@ title: BinaryFormat.SignedInteger32
 # BinaryFormat.SignedInteger32
 
 
-## Description
-
 Bir 32 bit işaretli tamsayıyı okuyan ikili biçimi.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.SignedInteger32(
 ```
 
 
-## Details
+## Remarks
 
 Bir 32 bit işaretli tamsayıyı okuyan ikili biçimi.
 

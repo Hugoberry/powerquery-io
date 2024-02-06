@@ -5,8 +5,6 @@ title: Table.FillDown
 # Table.FillDown
 
 
-## Description
-
 将前一个单元的值传播到该列中下面的值为 Null 的单元中。
 
 
@@ -20,7 +18,7 @@ Table.FillDown(
 ```
 
 
-## Details
+## Remarks
 
 从指定的 <code>table</code> 中返回一个表，其中前一个单元的值传播到指定的 <code>columns</code> 下值为 Null 的单元。
 

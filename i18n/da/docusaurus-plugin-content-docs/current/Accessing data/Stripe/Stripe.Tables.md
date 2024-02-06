@@ -5,8 +5,6 @@ title: Stripe.Tables
 # Stripe.Tables
 
 
-## Description
-
 Returnerer en tabel med de tilgængelige Stripe-tabeller og -funktioner.
 
 
@@ -19,7 +17,7 @@ Stripe.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel med de tilgængelige Stripe-tabeller og -funktioner.
 

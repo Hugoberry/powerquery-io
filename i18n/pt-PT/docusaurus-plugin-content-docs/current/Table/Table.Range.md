@@ -5,8 +5,6 @@ title: Table.Range
 # Table.Range
 
 
-## Description
-
 Devolve as linhas que comecem no desvio especificado.
 
 
@@ -21,7 +19,7 @@ Table.Range(
 ```
 
 
-## Details
+## Remarks
 
 Devolve as linhas de <code>table</code> que comecem no <code>offset</code> especificado. Um parâmetro opcional, <code>count</code>, especifica o número de linhas a devolver. Por predefinição, são devolvidas todas as linhas após o desvio.
 

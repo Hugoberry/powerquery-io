@@ -18,7 +18,7 @@ WorkplaceAnalytics.Data(
 ```
 
 
-## Details
+## Remarks
 
 Nhập số liệu hàng tuần và dữ liệu thuộc tính từ Workplace Analytics.
 

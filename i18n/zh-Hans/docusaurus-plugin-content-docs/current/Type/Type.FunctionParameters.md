@@ -5,8 +5,6 @@ title: Type.FunctionParameters
 # Type.FunctionParameters
 
 
-## Description
-
 返回带有字段值的记录以设置函数类型的参数名称，其值设置为对应类型。
 
 
@@ -19,7 +17,7 @@ Type.FunctionParameters(
 ```
 
 
-## Details
+## Remarks
 
 返回带有字段值的记录以设置 <code>type</code> 的参数名称，其值设置为对应类型。
 

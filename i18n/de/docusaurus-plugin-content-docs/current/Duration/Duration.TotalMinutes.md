@@ -5,8 +5,6 @@ title: Duration.TotalMinutes
 # Duration.TotalMinutes
 
 
-## Description
-
 Gibt die Gesamtanzahl von Minuten für diese Dauer zurück.
 
 
@@ -19,7 +17,7 @@ Duration.TotalMinutes(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die Gesamtanzahl von Minuten zurück, die von <code>duration</code> umfasst werden.
 

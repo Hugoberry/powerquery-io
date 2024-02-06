@@ -5,8 +5,6 @@ title: Table.HasColumns
 # Table.HasColumns
 
 
-## Description
-
 Указывает, содержит ли таблица указанные столбцы.
 
 
@@ -20,7 +18,7 @@ Table.HasColumns(
 ```
 
 
-## Details
+## Remarks
 
 Указывает, содержит ли <code>table</code> указанные столбцы <code>columns</code>. Возвращает значение <code>true</code>, если таблица содержит эти столбцы. В противном случае возвращается значение <code>false</code>.
 

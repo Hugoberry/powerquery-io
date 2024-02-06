@@ -5,8 +5,6 @@ title: Expression.Constant
 # Expression.Constant
 
 
-## Description
-
 Gibt die M-Quellcodedarstellung eines konstanten Werts zurück.
 
 
@@ -19,7 +17,7 @@ Expression.Constant(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die M-Quellcodedarstellung eines konstanten Werts zurück.
 

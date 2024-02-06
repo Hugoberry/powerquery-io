@@ -5,8 +5,6 @@ title: List.FindText
 # List.FindText
 
 
-## Description
-
 傳回包含指定之文字的值清單 (包括記錄欄位)。
 
 
@@ -20,7 +18,7 @@ List.FindText(
 ```
 
 
-## Details
+## Remarks
 
 傳回清單 <code>list</code> 中包含值 <code>text</code> 的值清單。
 

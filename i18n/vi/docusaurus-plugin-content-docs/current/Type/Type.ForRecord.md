@@ -5,8 +5,6 @@ title: Type.ForRecord
 # Type.ForRecord
 
 
-## Description
-
 Trả về một loại biểu thị bản ghi có ràng buộc loại cụ thể về trường.
 
 
@@ -20,7 +18,7 @@ Type.ForRecord(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một loại biểu thị bản ghi có ràng buộc loại cụ thể về trường.
 

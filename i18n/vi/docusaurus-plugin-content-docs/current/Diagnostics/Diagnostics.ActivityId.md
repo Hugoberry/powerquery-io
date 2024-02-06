@@ -5,8 +5,6 @@ title: Diagnostics.ActivityId
 # Diagnostics.ActivityId
 
 
-## Description
-
 Trả về mã định danh không rõ cho đánh giá hiện đang chạy.
 
 
@@ -19,7 +17,7 @@ Diagnostics.ActivityId(
 ```
 
 
-## Details
+## Remarks
 
 Trả về mã định danh không rõ cho đánh giá hiện đang chạy.
 

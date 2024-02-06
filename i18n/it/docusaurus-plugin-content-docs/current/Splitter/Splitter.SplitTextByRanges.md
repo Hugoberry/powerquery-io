@@ -5,8 +5,6 @@ title: Splitter.SplitTextByRanges
 # Splitter.SplitTextByRanges
 
 
-## Description
-
 Restituisce una funzione che suddivide il testo in un elenco di testo in base alle lunghezze e agli offset specificati.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una funzione che divide il testo in un elenco di testo in base agli offset e alle lunghezze specificati. La lunghezza Null indica che tutti gli input rimanenti devono essere inclusi.
 

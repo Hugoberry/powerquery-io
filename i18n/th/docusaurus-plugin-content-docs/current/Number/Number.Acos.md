@@ -5,8 +5,6 @@ title: Number.Acos
 # Number.Acos
 
 
-## Description
-
 ส่งกลับค่าอาร์กโคไซน์ของตัวเลข
 
 
@@ -19,7 +17,7 @@ Number.Acos(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่าอาร์กโคไซน์ของ <code>number</code>
 

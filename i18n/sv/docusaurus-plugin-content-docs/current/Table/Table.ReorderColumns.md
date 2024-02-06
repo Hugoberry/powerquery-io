@@ -5,8 +5,6 @@ title: Table.ReorderColumns
 # Table.ReorderColumns
 
 
-## Description
-
 Returnerar en tabell med kolumnerna i angiven ordning.
 
 
@@ -21,7 +19,7 @@ Table.ReorderColumns(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell från indata, <code>table</code>, med kolumnerna i ordningen som anges av <code>columnOrder</code>. Ordningen för kolumner som inte anges i listan ändras inte.     Om kolumnen inte finns genereras ett undantag såvida inte den valfria parametern <code>missingField</code> anger ett alternativ (t.ex. <code>MissingField.UseNull</code> eller <code>MissingField.Ignore</code>).
 

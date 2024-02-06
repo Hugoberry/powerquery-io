@@ -5,8 +5,6 @@ title: Table.AddIndexColumn
 # Table.AddIndexColumn
 
 
-## Description
-
 Tilføjer en kolonne med eksplicitte placeringsværdier.
 
 
@@ -23,7 +21,7 @@ Table.AddIndexColumn(
 ```
 
 
-## Details
+## Remarks
 
 Føjer en kolonne med navnet <code>newColumnName</code> til <code>table</code> med eksplicitte placeringsværdier.    En valgfri værdi, <code>initialValue</code>, den indledende indeksværdi. En valgfri værdi, <code>increment</code>, angiver, hvor meget de enkelte indeksværdier skal øges med.
 

@@ -5,8 +5,6 @@ title: Number.RoundDown
 # Number.RoundDown
 
 
-## Description
-
 傳回前一個最大數字。您可以指定位數。
 
 
@@ -20,7 +18,7 @@ Number.RoundDown(
 ```
 
 
-## Details
+## Remarks
 
 會四捨五入到 <code>number</code> 上一個最高整數。如果 <code>number</code> 為 Null，此函數會返回 Null。    如果提供 <code>digits</code>，則 <code>number</code> 會四捨五入到指定的小數位數。
 

@@ -5,8 +5,6 @@ title: Fabric.Warehouse
 # Fabric.Warehouse
 
 
-## Description
-
 นำเข้าข้อมูลจากคลังข้อมูล
 
 
@@ -19,7 +17,7 @@ Fabric.Warehouse(
 ```
 
 
-## Details
+## Remarks
 
 นำเข้าข้อมูลจากคลังข้อมูล
 

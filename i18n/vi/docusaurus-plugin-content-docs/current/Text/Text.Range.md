@@ -5,8 +5,6 @@ title: Text.Range
 # Text.Range
 
 
-## Description
-
 Trả về chuỗi con tìm được tại phần bù.
 
 
@@ -21,7 +19,7 @@ Text.Range(
 ```
 
 
-## Details
+## Remarks
 
 Trả về chuỗi con từ văn bản <code>text</code> tìm được tại phần bù <code>offset</code>.    Có thể bao gồm tham số tùy chọn <code>count</code> để chỉ định số lượng ký tự sẽ trả về. Xuất hiện lỗi nếu không có đủ ký tự.
 

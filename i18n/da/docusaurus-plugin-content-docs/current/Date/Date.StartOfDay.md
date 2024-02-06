@@ -5,8 +5,6 @@ title: Date.StartOfDay
 # Date.StartOfDay
 
 
-## Description
-
 Returnerer starten af dagen.
 
 
@@ -19,7 +17,7 @@ Date.StartOfDay(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer starten på den dag, der repræsenteres af <code>dateTime</code>.    <code>dateTime</code> skal være en værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>.
 

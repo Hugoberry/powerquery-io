@@ -5,8 +5,6 @@ title: BinaryFormat.Double
 # BinaryFormat.Double
 
 
-## Description
-
 Ett binärformat som läser ett 8-bytes IEEE-flyttal med dubbel precision.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Double(
 ```
 
 
-## Details
+## Remarks
 
 Ett binärformat som läser ett 8-bytes IEEE-flyttal med dubbel precision.
 

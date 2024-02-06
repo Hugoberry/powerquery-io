@@ -5,8 +5,6 @@ title: BinaryFormat.ByteOrder
 # BinaryFormat.ByteOrder
 
 
-## Description
-
 Gibt ein Binärformat mit der durch eine Funktion angegebenen Bytereihenfolge zurück.
 
 
@@ -20,7 +18,7 @@ BinaryFormat.ByteOrder(
 ```
 
 
-## Details
+## Remarks
 
 Gibt ein Binärformat mit der durch "<code>binaryFormat</code>" angegebenen Bytereihenfolge zurück.  Die standardmäßige Bytereihenfolge lautet <code>ByteOrder.BigEndian</code>.
 

@@ -5,8 +5,6 @@ title: Character.FromNumber
 # Character.FromNumber
 
 
-## Description
-
 Bir sayıyı metin karakterine dönüştürür.
 
 
@@ -19,7 +17,7 @@ Character.FromNumber(
 ```
 
 
-## Details
+## Remarks
 
 Sayı ile denk olan karakteri döndürür.<br />    <br />    Sağlanan <code>number</code> 21 bit Unicode kod noktası olması gerekir.
 

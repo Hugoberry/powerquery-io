@@ -5,8 +5,6 @@ title: Web.Page
 # Web.Page
 
 
-## Description
-
 返回 HTML 文档的内容(分解为其组成结构)，以及完整文档的表示形式及其删除标记后的文本。
 
 
@@ -19,7 +17,7 @@ Web.Page(
 ```
 
 
-## Details
+## Remarks
 
 返回 HTML 文档的内容(分解为其组成结构)，以及完整文档的表示形式及其删除标记后的文本。
 

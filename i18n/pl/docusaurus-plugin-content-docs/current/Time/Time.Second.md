@@ -5,8 +5,6 @@ title: Time.Second
 # Time.Second
 
 
-## Description
-
 Zwraca składnik sekundy.
 
 
@@ -19,7 +17,7 @@ Time.Second(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca składnik sekundy z wartości typu <code>time</code>, <code>datetime</code> lub <code>datetimezone</code> dostarczonej w parametrze <code>dateTime</code>.
 

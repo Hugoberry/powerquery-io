@@ -5,8 +5,6 @@ title: Table.AlternateRows
 # Table.AlternateRows
 
 
-## Description
-
 Conserva el desplazamiento inicial y entonces alterna entre tomar y saltar las siguientes filas.
 
 
@@ -22,7 +20,7 @@ Table.AlternateRows(
 ```
 
 
-## Details
+## Remarks
 
 Conserva el desplazamiento inicial y entonces alterna entre tomar y saltar las siguientes filas.    <ul>       <li><code>table</code>: la tabla de entrada.</li>       <li><code>offset</code>: el número de filas que desea conservar antes de iniciar las iteraciones.</li>       <li><code>skip</code>: el número de filas que desea quitar en cada iteración.</li>       <li><code>take</code>: el número de filas que desea conservar en cada iteración.</li>    </ul>    
 

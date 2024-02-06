@@ -5,8 +5,6 @@ title: Text.AfterDelimiter
 # Text.AfterDelimiter
 
 
-## Description
-
 Text.AfterDelimiter
 
 
@@ -21,7 +19,7 @@ Text.AfterDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer andelen af <code>text</code> efter den angivne <code>delimiter</code>.    En valgfri numerisk værdi, <code>index</code>, angiver, hvilken forekomst af <code>delimiter</code> der skal tages i betragtning.    En valgfri liste, <code>index</code>, angiver, hvilken forekomst af <code>delimiter</code> der skal tages i betragtning, samt om indeksering skal foretages fra starten eller slutningen af inputtet.
 

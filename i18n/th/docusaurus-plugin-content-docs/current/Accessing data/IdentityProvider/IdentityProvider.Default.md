@@ -5,8 +5,6 @@ title: IdentityProvider.Default
 # IdentityProvider.Default
 
 
-## Description
-
 ผู้ให้บริการข้อมูลประจำตัวตัวเริ่มต้นสำหรับโฮสต์ปัจจุบัน
 
 
@@ -19,7 +17,7 @@ IdentityProvider.Default(
 ```
 
 
-## Details
+## Remarks
 
 ผู้ให้บริการข้อมูลประจำตัวตัวเริ่มต้นสำหรับโฮสต์ปัจจุบัน
 

@@ -5,8 +5,6 @@ title: Text.Trim
 # Text.Trim
 
 
-## Description
-
 Usuwa wszystkie spacje wiodące i końcowe.
 
 
@@ -20,7 +18,7 @@ Text.Trim(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wynik usunięcia wszystkich spacji wiodących i końcowych z wartości tekstowej <code>text</code>.
 

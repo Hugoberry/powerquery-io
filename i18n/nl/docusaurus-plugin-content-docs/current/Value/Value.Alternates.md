@@ -5,8 +5,6 @@ title: Value.Alternates
 # Value.Alternates
 
 
-## Description
-
 Hiermee worden alternatieve queryplannen uitgedrukt.
 
 
@@ -19,7 +17,7 @@ Value.Alternates(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee worden alternatieve queryplannen uitgedrukt in een queryplan-expressie met de waarde Value.Expression(Value.Optimize(...)). Niet bestemd voor andere doeleinden.
 

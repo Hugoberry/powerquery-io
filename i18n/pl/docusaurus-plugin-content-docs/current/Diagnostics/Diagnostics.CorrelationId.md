@@ -5,8 +5,6 @@ title: Diagnostics.CorrelationId
 # Diagnostics.CorrelationId
 
 
-## Description
-
 Zwraca nieprzezroczysty identyfikator, aby skorelować żądania przychodzące z żądaniami wychodzącymi.
 
 
@@ -19,7 +17,7 @@ Diagnostics.CorrelationId(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca nieprzezroczysty identyfikator, aby skorelować żądania przychodzące z żądaniami wychodzącymi.
 

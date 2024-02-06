@@ -5,8 +5,6 @@ title: Number.RandomBetween
 # Number.RandomBetween
 
 
-## Description
-
 Zwraca liczbę losową z zakresu między dwiema liczbami.
 
 
@@ -20,7 +18,7 @@ Number.RandomBetween(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca liczbę losową z zakresu od <code>bottom</code> do <code>top</code>.
 

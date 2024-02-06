@@ -5,8 +5,6 @@ title: Value.As
 # Value.As
 
 
-## Description
-
 如果值与指定类型兼容，则返回该值。
 
 
@@ -20,7 +18,7 @@ Value.As(
 ```
 
 
-## Details
+## Remarks
 
 如果值与指定类型兼容，则返回该值。这等效于 M 中的 “as” 运算符，例外情况是其可以接受标识符类型引用(如 Number.Type)。
 

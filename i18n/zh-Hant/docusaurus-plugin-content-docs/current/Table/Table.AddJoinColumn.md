@@ -5,8 +5,6 @@ title: Table.AddJoinColumn
 # Table.AddJoinColumn
 
 
-## Description
-
 針對提供的資料行執行資料表之間的聯結，並且在新的資料行中產生聯結結果。
 
 
@@ -23,7 +21,7 @@ Table.AddJoinColumn(
 ```
 
 
-## Details
+## Remarks
 
 根據 <code>key1</code> (代表 <code>table1</code>) 和 <code>key2</code> (代表 <code>table2</code>) 所選取之索引鍵資料行的值是否相等，聯結 <code>table1</code> 的資料列與 <code>table2</code> 的資料列。結果會輸入名為 <code>newColumnName</code> 的資料行中。這個函數的行為與 JoinKind 為 LeftOuter 的 Table.Join 很相似，不同之處在於，聯結結果是以巢狀而非以壓平合併方式呈現。
 

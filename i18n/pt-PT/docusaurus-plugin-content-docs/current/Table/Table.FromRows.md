@@ -5,8 +5,6 @@ title: Table.FromRows
 # Table.FromRows
 
 
-## Description
-
 Cria uma tabela a partir de uma lista de valores de linha e colunas opcionais
 
 
@@ -20,7 +18,7 @@ Table.FromRows(
 ```
 
 
-## Details
+## Remarks
 
 Cria uma tabela a partir da lista <code>rows</code>, em que cada elemento da lista é uma lista interna que contém os valores de coluna de uma linha. É possível fornecer uma lista opcional de nomes de coluna, um tipo de tabela ou um número de colunas para <code>columns</code>.
 

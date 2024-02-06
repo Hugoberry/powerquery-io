@@ -5,8 +5,6 @@ title: List.Accumulate
 # List.Accumulate
 
 
-## Description
-
 Tích lũy một giá trị tóm tắt từ các mục trong danh sách.
 
 
@@ -21,7 +19,7 @@ List.Accumulate(
 ```
 
 
-## Details
+## Remarks
 
 Tích lũy một giá trị tóm tắt từ các mục trong danh sách <code>list</code> bằng cách sử dụng <code>accumulator</code>.    Có thể đặt một tham số dữ liệu nền tùy chọn <code>seed</code>.
 

@@ -18,7 +18,7 @@ WorkplaceAnalytics.Data(
 ```
 
 
-## Details
+## Remarks
 
 从工作区分析导入每周指标和属性数据。
 

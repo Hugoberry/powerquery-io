@@ -5,8 +5,6 @@ title: Table.Unpivot
 # Table.Unpivot
 
 
-## Description
-
 Wykonuje translację zestawu kolumn w tabeli na pary atrybut-wartość.
 
 
@@ -22,7 +20,7 @@ Table.Unpivot(
 ```
 
 
-## Details
+## Remarks
 
 Wykonuje translację zestawu kolumn w tabeli na pary atrybut-wartość połączone z resztą wartości w każdym wierszu.
 

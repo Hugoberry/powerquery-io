@@ -5,8 +5,6 @@ title: DynamicsNav.Contents
 # DynamicsNav.Contents
 
 
-## Description
-
 Insira a URL do ponto de extremidade de serviço do Dynamics NAV OData.
 
 
@@ -20,7 +18,7 @@ DynamicsNav.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma tabela com os dados relevantes do Dynamics NAV. 
 

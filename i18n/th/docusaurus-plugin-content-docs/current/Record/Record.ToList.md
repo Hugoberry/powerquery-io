@@ -5,8 +5,6 @@ title: Record.ToList
 # Record.ToList
 
 
-## Description
-
 ส่งกลับรายการของค่าที่ประกอบด้วยค่าเขตข้อมูลของระเบียนที่ป้อน
 
 
@@ -19,7 +17,7 @@ Record.ToList(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับรายการของค่าที่ประกอบด้วยค่าเขตข้อมูลจากค่าที่ป้อน <code>record</code>
 

@@ -5,8 +5,6 @@ title: Impala.Database
 # Impala.Database
 
 
-## Description
-
 Importa datos de un clúster de Impala
 
 
@@ -20,7 +18,7 @@ Impala.Database(
 ```
 
 
-## Details
+## Remarks
 
 Importa datos de un clúster de Impala <code>server</code>. Se no se ha especificado ningún puerto, el puerto predeterminado que se usará será 21050.
 

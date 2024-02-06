@@ -5,8 +5,6 @@ title: Diagnostics.CorrelationId
 # Diagnostics.CorrelationId
 
 
-## Description
-
 Restituisce un identificatore opaco per correlare le richieste in ingresso con quelle in uscita.
 
 
@@ -19,7 +17,7 @@ Diagnostics.CorrelationId(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un identificatore opaco per correlare le richieste in ingresso con quelle in uscita.
 

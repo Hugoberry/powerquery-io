@@ -5,8 +5,6 @@ title: Splitter.SplitTextByLengths
 # Splitter.SplitTextByLengths
 
 
-## Description
-
 Returnerer en funktion, der opdeler tekst på en liste med tekst ved alle de angivne længder.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByLengths(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en funktion, der opdeler tekst på en liste med tekst ved alle de angivne længder.
 

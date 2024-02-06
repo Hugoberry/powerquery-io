@@ -5,8 +5,6 @@ title: Date.ToRecord
 # Date.ToRecord
 
 
-## Description
-
 वह रिकॉर्ड लौटाता है, जिसमें दिनांक मान के भाग शामिल हैं.
 
 
@@ -19,7 +17,7 @@ Date.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 वह रिकॉर्ड लौटाता है, जिसमें दिए गए तिथि मान <code>date</code> के भाग शामिल हैं. <ul>        <li><code>date</code>: एक ऐसा <code>तिथि</code> मान, जिससे उसके भागों के रिकॉर्ड को परिकलित किया जाना है.</li>      </ul>
 

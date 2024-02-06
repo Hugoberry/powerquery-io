@@ -5,8 +5,6 @@ title: SapBusinessWarehouse.Cubes
 # SapBusinessWarehouse.Cubes
 
 
-## Description
-
 Zwraca moduły informacji (InfoCube) i zapytania w systemie SAP Business Warehouse pogrupowane według obszaru informacji (InfoArea).
 
 
@@ -23,7 +21,7 @@ SapBusinessWarehouse.Cubes(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę modułów informacji (InfoCube) i zapytania pogrupowane według obszaru informacji (InfoArea) z wystąpienia oprogramowania SAP Business Warehouse na serwerze <code>server</code> o numerze systemu <code>systemNumberOrSystemId</code> i identyfikatorze klienta <code>clientId</code>. Opcjonalny parametr rekordu (<code>optionsOrLogonGroup</code>) pozwala określić następujące opcje:        
 

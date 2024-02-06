@@ -5,8 +5,6 @@ title: BinaryFormat.Decimal
 # BinaryFormat.Decimal
 
 
-## Description
-
 .NET 16 バイト 10 進値を読み取るバイナリ形式です。
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Decimal(
 ```
 
 
-## Details
+## Remarks
 
 .NET 16 バイト 10 進値を読み取るバイナリ形式です。
 

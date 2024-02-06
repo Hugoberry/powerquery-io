@@ -5,8 +5,6 @@ title: List.Durations
 # List.Durations
 
 
-## Description
-
 Opretter en liste over værdier af typen duration med en indledende værdi for værdi, antal og stigende varighed.
 
 
@@ -21,7 +19,7 @@ List.Durations(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en liste over værdier af typen <code>count</code> <code>duration</code> med start ved <code>start</code> og med en stigning på den angivne <code>duration</code> <code>step</code>.
 

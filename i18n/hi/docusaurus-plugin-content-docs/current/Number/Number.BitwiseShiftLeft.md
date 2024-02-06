@@ -5,8 +5,6 @@ title: Number.BitwiseShiftLeft
 # Number.BitwiseShiftLeft
 
 
-## Description
-
 बिट सेट को बाएँ शिफ़्ट करता है.
 
 
@@ -20,7 +18,7 @@ Number.BitwiseShiftLeft(
 ```
 
 
-## Details
+## Remarks
 
 बिट <code>number2</code> की संख्या निर्दिष्ट करके, <code>number1</code> पर बिटवाइज़ बाएँ शिफ़्ट करें के निष्पादन का परिणाम लौटाता है.
 

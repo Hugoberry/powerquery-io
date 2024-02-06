@@ -5,8 +5,6 @@ title: Embedded.Value
 # Embedded.Value
 
 
-## Description
-
 Bir ekli karmadaki bir değere ad ile erişir.
 
 
@@ -20,7 +18,7 @@ Embedded.Value(
 ```
 
 
-## Details
+## Remarks
 
 Bir ekli karmadaki bir değere ad ile erişir.
 

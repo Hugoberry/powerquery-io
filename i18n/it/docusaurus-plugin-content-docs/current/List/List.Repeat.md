@@ -5,8 +5,6 @@ title: List.Repeat
 # List.Repeat
 
 
-## Description
-
 Restituisce un elenco che è costituito dal conteggio delle ripetizioni dell&#39;elenco originale.
 
 
@@ -20,7 +18,7 @@ List.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un elenco che è costituito dalle <code>count</code> ripetizioni dell'elenco originale <code>list</code>.
 

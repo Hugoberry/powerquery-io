@@ -5,8 +5,6 @@ title: Splitter.SplitTextByWhitespace
 # Splitter.SplitTextByWhitespace
 
 
-## Description
-
 ऐसा फ़ंक्शन लौटाता है जो सफेद रिक्ति पर पाठ को पाठ की सूची में विभाजित करता है.
 
 
@@ -19,7 +17,7 @@ Splitter.SplitTextByWhitespace(
 ```
 
 
-## Details
+## Remarks
 
 ऐसा फ़ंक्शन लौटाता है जो सफेद रिक्ति पर पाठ को पाठ की सूची में विभाजित करता है.
 

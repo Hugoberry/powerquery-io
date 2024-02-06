@@ -5,8 +5,6 @@ title: Embedded.Value
 # Embedded.Value
 
 
-## Description
-
 Använder ett värde baserat på namnet i ett inbäddat kombinationsprogram (mashup).
 
 
@@ -20,7 +18,7 @@ Embedded.Value(
 ```
 
 
-## Details
+## Remarks
 
 Använder ett värde baserat på namnet i ett inbäddat kombinationsprogram (mashup).
 

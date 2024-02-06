@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.EnvironmentContents
 # Dynamics365BusinessCentral.EnvironmentContents
 
 
-## Description
-
 Voer uw Dynamics 365 Business Central-omgeving en bedrijf in.
 
 
@@ -20,7 +18,7 @@ Dynamics365BusinessCentral.EnvironmentContents(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tabel met relevante Dynamics 365 Business Central-gegevens geretourneerd. 
 

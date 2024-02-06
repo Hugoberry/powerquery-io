@@ -5,8 +5,6 @@ title: Number.Asin
 # Number.Asin
 
 
-## Description
-
 Gibt den Arkussinus der Zahl zurück.
 
 
@@ -19,7 +17,7 @@ Number.Asin(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Arkussinus von <code>number</code> zurück.
 

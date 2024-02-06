@@ -5,8 +5,6 @@ title: Comparer.Ordinal
 # Comparer.Ordinal
 
 
-## Description
-
 Restituisce una funzione operatore di confronto che usa regole ordinali per confrontare i valori.
 
 
@@ -20,7 +18,7 @@ Comparer.Ordinal(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una funzione di confronto che utilizza regole ordinali per confrontare i valori specificati <code>x</code> e <code>y</code>.<br />        <br />        Una funzione di confronto accetta due argomenti e restituisce -1, 0 o 1 a seconda che il primo valore sia minore, uguale o maggiore del secondo.    
 

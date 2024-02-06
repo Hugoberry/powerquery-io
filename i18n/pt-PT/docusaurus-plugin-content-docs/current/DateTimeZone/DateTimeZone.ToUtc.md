@@ -5,8 +5,6 @@ title: DateTimeZone.ToUtc
 # DateTimeZone.ToUtc
 
 
-## Description
-
 Converte o componente de fuso horário para o fuso horário UTC.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToUtc(
 ```
 
 
-## Details
+## Remarks
 
 Altera as informações de fuso horário do valor datetime <code>dateTimeZone</code> para as informações de fuso horário UTC ou Hora Universal Coordenada.    Se <code>dateTimeZone</code> não tiver um componente de fuso horário, serão adicionadas as informações de fuso horário UTC.
 

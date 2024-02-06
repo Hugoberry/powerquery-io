@@ -5,8 +5,6 @@ title: Table.FindText
 # Table.FindText
 
 
-## Description
-
 Trả về tất cả các hàng chứa văn bản cho sẵn trong bảng.
 
 
@@ -20,7 +18,7 @@ Table.FindText(
 ```
 
 
-## Details
+## Remarks
 
 Trả về các hàng trong bảng <code>table</code> chứa văn bản <code>text</code>. Nếu không tìm thấy văn bản này thì một bảng trống được trả về.
 

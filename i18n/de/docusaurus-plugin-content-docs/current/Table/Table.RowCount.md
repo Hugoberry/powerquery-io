@@ -5,8 +5,6 @@ title: Table.RowCount
 # Table.RowCount
 
 
-## Description
-
 Gibt die Anzahl von Zeilen in der Tabelle zurück.
 
 
@@ -19,7 +17,7 @@ Table.RowCount(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die Anzahl von Zeilen im Element vom Typ "<code>table</code>" zurück.
 

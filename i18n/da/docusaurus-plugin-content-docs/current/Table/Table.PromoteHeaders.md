@@ -5,8 +5,6 @@ title: Table.PromoteHeaders
 # Table.PromoteHeaders
 
 
-## Description
-
 Hæver første række med værdier til de nye kolonneoverskrifter (f.eks. kolonnenavne).
 
 
@@ -20,7 +18,7 @@ Table.PromoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Hæver den første række af værdier til de nye kolonneoverskrifter (f.eks. kolonnenavne). Som standard hæves kun tekst- og talværdier til overskrifter. Gyldige indstillinger:    <div>      <code>PromoteAllScalars</code>: Hvis de er angivet til <code>sand</code>, hæves alle skalarværdier i første række til overskrifter ved hjælp af <code>Kultur</code>, og hvis den er angivet (ellers benyttes aktuelle landestandard for dokument).    For værdier, der ikke kan konverteres til tekst, anvendes et standardkolonnenavn.    </div>    <div>    <code>Kultur</code>: Et kulturnavn, der angiver kulturen for dataene.    </div>  
 

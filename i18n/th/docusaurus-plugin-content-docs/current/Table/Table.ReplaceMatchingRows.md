@@ -5,8 +5,6 @@ title: Table.ReplaceMatchingRows
 # Table.ReplaceMatchingRows
 
 
-## Description
-
 แทนที่แถวที่ระบุทั้งหมดด้วยแถวที่กำหนดให้
 
 
@@ -21,7 +19,7 @@ Table.ReplaceMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 แทนที่แถวที่ระบุทั้งหมดใน <code>table</code> ด้วยแถวที่กำหนดให้ แถวที่จะแทนที่และการแทนที่จะถูกระบุใน <code>replacements</code> โดยใช้การจัดรูปแบบ \{old, new}    พารามิเตอร์ที่เลือกได้ <code>equationCriteria</code> อาจถูกระบุเพื่อควบคุมการเปรียบเทียบระหว่างแถวของตาราง
 

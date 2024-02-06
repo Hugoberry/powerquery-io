@@ -5,8 +5,6 @@ title: DateTimeZone.UtcNow
 # DateTimeZone.UtcNow
 
 
-## Description
-
 傳回 UTC (GMT 時區) 的目前日期和時間。
 
 
@@ -19,7 +17,7 @@ DateTimeZone.UtcNow(
 ```
 
 
-## Details
+## Remarks
 
 傳回 UTC (GMT 時區) 的目前日期和時間。
 

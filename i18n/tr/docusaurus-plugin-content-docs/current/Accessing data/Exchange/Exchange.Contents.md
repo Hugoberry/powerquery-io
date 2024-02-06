@@ -5,8 +5,6 @@ title: Exchange.Contents
 # Exchange.Contents
 
 
-## Description
-
 Microsoft Exchange hesabından bir içindekiler tablosu döndürür.
 
 
@@ -19,7 +17,7 @@ Exchange.Contents(
 ```
 
 
-## Details
+## Remarks
 
 <code>mailboxAddress</code> Microsoft Exchange hesabına ilişkin bir içerik tablosu döndürür. <code>mailboxAddress</code> belirtilmediği takdirde, kimlik bilgilerine ilişkin varsayılan hesap kullanılır.
 

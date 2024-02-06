@@ -5,8 +5,6 @@ title: Table.SelectRowsWithErrors
 # Table.SelectRowsWithErrors
 
 
-## Description
-
 返回一个表，其中只具有输入表中的在至少一个单元中包含错误的那些行。如果指定了列列表，则只检查指定列中的单元内是否有错误。
 
 
@@ -20,7 +18,7 @@ Table.SelectRowsWithErrors(
 ```
 
 
-## Details
+## Remarks
 
 返回一个表，其中只具有输入表中的在至少一个单元中包含错误的那些行。如果指定了列列表，则只检查指定列中的单元内是否有错误。
 

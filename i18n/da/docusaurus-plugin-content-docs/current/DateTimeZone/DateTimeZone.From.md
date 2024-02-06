@@ -5,8 +5,6 @@ title: DateTimeZone.From
 # DateTimeZone.From
 
 
-## Description
-
 Opretter en datetimezone ud fra den angivne værdi.
 
 
@@ -20,7 +18,7 @@ DateTimeZone.From(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en værdi af typen <code>datetimezone</code> fra den angivne <code>value</code>. Der kan også angives en valgfri <code>culture</code> (f.eks. "en-US").Hvis den angivne <code>value</code> er <code>null</code>, returnerer <code>DateTimeZone.From</code> <code>null</code>. Hvis den angivne <code>value</code> er <code>datetimezone</code>, returneres <code>value</code>. Værdier af følgende typer kan konverteres til en <code>datetimezone</code> værdi:      <ul>      <li><code>text</code>: En <code>datetimezone</code> værdi fra tekstrepræsentation. Se <code>DateTimeZone.FromText</code> for oplysninger..</li>      <li><code>date</code>: En <code>datetimezone</code> med <code>value</code> som datokomponenten,<code>12:00:00</code> som tidskomponenten og forskydningen, der svarer til den lokale tidszone.</li>        <li><code>datetime</code>: En <code>datetimezone</code> med <code>value</code> som datetime og den forskydning, der svarer til den lokale tidszone.</li>      <li><code>time</code>: En <code>datetimezone</code> med den dato, der svarer til OLE Automation-datoen for <code>0</code> som datokomponenten, <code>value</code> som tidskomponenten og den forskydning, der svarer til den lokale tidszone.</li>      <li><code>number</code>: En <code>datetimezone</code> med den datetime, der svarer til OLE Automation-datoen udtrykt i <code>value</code> og den forskydning, der svarer til den lokale tidszone.</li>      </ul>Hvis <code>value</code> er af en anden type, returneres der en fejl.
 

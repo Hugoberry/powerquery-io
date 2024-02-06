@@ -5,8 +5,6 @@ title: Value.Metadata
 # Value.Metadata
 
 
-## Description
-
 Girdinin meta verilerini içeren bir kayıt döndürür.
 
 
@@ -19,7 +17,7 @@ Value.Metadata(
 ```
 
 
-## Details
+## Remarks
 
 Girdinin meta verilerini içeren bir kayıt döndürür.
 

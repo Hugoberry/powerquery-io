@@ -5,8 +5,6 @@ title: Text.Middle
 # Text.Middle
 
 
-## Description
-
 Gibt die Teilzeichenfolge bis zu einer bestimmten Länge zurück.
 
 
@@ -21,7 +19,7 @@ Text.Middle(
 ```
 
 
-## Details
+## Remarks
 
 Gibt <code>count</code> Zeichen oder alle bis zum Ende <code>text</code> zurück; beim Offset <code>start</code>.
 

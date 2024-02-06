@@ -5,8 +5,6 @@ title: List.Buffer
 # List.Buffer
 
 
-## Description
-
 Buffrar en lista.
 
 
@@ -19,7 +17,7 @@ List.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Buffrar listan <code>list</code> i minnet. Resultatet från det här anropet är en stabil lista.
 

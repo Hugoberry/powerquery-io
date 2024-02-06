@@ -5,8 +5,6 @@ title: Stripe.Tables
 # Stripe.Tables
 
 
-## Description
-
 उपलब्ध Stripe तालिकाओं और प्रकार्यों को सूचीबद्ध करने वाली एक तालिका लौटाता है.
 
 
@@ -19,7 +17,7 @@ Stripe.Tables(
 ```
 
 
-## Details
+## Remarks
 
 उपलब्ध Stripe तालिकाओं और प्रकार्यों को सूचीबद्ध करने वाली एक तालिका लौटाता है.
 

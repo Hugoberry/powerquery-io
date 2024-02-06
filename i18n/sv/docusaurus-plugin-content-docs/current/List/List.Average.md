@@ -5,8 +5,6 @@ title: List.Average
 # List.Average
 
 
-## Description
-
 Returnerar medelvärdet av värdena. Kan användas med number-, date-, datetime-, datetimezone- och duration-värden.
 
 
@@ -20,7 +18,7 @@ List.Average(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar medelvärdet för objekten i listan, <code>list</code>. Resultatet returneras med samma datatype som värdena i listan. Kan endast användas med number-, date-, time-, datetime-, datetimezone- och duration-värden.    Om listan är tom returneras null.
 

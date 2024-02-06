@@ -5,8 +5,6 @@ title: RowExpression.Column
 # RowExpression.Column
 
 
-## Description
-
 Trả về một cây cú pháp trừu tượng biểu thị quyền truy nhập vào một cột trong biểu thức hàng.
 
 
@@ -19,7 +17,7 @@ RowExpression.Column(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một cây cú pháp trừu tượng (AST) biểu thị quyền truy nhập vào cột <code>columnName</code> của hàng trong một biểu thức hàng.
 

@@ -5,8 +5,6 @@ title: Logical.FromText
 # Logical.FromText
 
 
-## Description
-
 テキスト値 &#34;true&#34; および &#34;false&#34; から論理値を作成します。
 
 
@@ -19,7 +17,7 @@ Logical.FromText(
 ```
 
 
-## Details
+## Remarks
 
 テキスト値 <code>text</code> ("true" または "false") から論理値を作成します。<code>text</code> に別の文字列が含まれている場合は、例外がスローされます。テキスト値 <code>text</code> では、大文字と小文字が区別されます。
 

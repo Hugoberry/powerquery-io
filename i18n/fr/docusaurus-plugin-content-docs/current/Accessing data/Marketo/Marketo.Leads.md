@@ -5,8 +5,6 @@ title: Marketo.Leads
 # Marketo.Leads
 
 
-## Description
-
 Retourne une table avec les détails des prospects.
 
 
@@ -21,7 +19,7 @@ Marketo.Leads(
 ```
 
 
-## Details
+## Remarks
 
 Effectue un appel au point de terminaison de l'API REST Marketo de <code>url</code>/rest/v1/activities.json. Tous les prospects de la liste <code>leadIds</code> sont retournés.
 

@@ -5,8 +5,6 @@ title: Text.Combine
 # Text.Combine
 
 
-## Description
-
 Bir metin değeri listesini tek bir metin değerine birleştirir.
 
 
@@ -20,7 +18,7 @@ Text.Combine(
 ```
 
 
-## Details
+## Remarks
 
 <code>texts</code> metin değerleri listesini tek bir metin değeri olarak birleştirmenin sonucunu döndürür. <code>texts</code> içindeki tüm <code>null</code> değerleri yoksayılır.    Birleştirilmiş son metinde kullanılan isteğe bağlı bir <code>separator</code> belirtilebilir.
 

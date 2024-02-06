@@ -5,8 +5,6 @@ title: List.ReplaceRange
 # List.ReplaceRange
 
 
-## Description
-
 Thay thế tổng số các giá trị bắt đầu tại vị trí bằng các giá trị thay thế.
 
 
@@ -22,7 +20,7 @@ List.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 Thay thế <code>count</code> giá trị trong <code>list</code> bằng danh sách <code>replaceWith</code>, bắt đầu tại vị trí cụ thể là <code>index</code>.
 

@@ -5,8 +5,6 @@ title: Binary.Compress
 # Binary.Compress
 
 
-## Description
-
 Komprimerar ett binärt värde med hjälp av den givna komprimeringstypen.
 
 
@@ -20,7 +18,7 @@ Binary.Compress(
 ```
 
 
-## Details
+## Remarks
 
 Komprimerar ett binärt värde med hjälp av den givna komprimeringstypen. Resultatet av det här anropet är en komprimerad kopia av indata. Komprimeringstyperna inkluderar:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
 

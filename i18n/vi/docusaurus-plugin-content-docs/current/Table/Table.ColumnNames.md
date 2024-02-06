@@ -5,8 +5,6 @@ title: Table.ColumnNames
 # Table.ColumnNames
 
 
-## Description
-
 Trả về các tên cột ở dạng danh sách.
 
 
@@ -19,7 +17,7 @@ Table.ColumnNames(
 ```
 
 
-## Details
+## Remarks
 
 Trả về các tên cột trong bảng <code>table</code> ở dạng danh sách văn bản.
 

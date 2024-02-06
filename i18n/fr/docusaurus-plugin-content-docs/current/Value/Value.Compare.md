@@ -5,8 +5,6 @@ title: Value.Compare
 # Value.Compare
 
 
-## Description
-
 Retourne -1, 0 ou 1 selon que la première valeur est inférieure, égale ou supérieure à la seconde.
 
 
@@ -21,7 +19,7 @@ Value.Compare(
 ```
 
 
-## Details
+## Remarks
 
 Retourne -1, 0 ou 1 selon que la première valeur est inférieure, égale ou supérieure à la seconde.
 

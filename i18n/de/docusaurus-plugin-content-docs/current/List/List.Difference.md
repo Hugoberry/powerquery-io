@@ -5,8 +5,6 @@ title: List.Difference
 # List.Difference
 
 
-## Description
-
 Gibt den Unterschied zwischen den beiden angegebenen Listen zurück.
 
 
@@ -21,7 +19,7 @@ List.Difference(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die Elemente aus der Liste "<code>list1</code>" zurück, die nicht in der Liste "<code>list2</code>" enthalten sind. Doppelte Werte werden unterstützt.    Zum Steuern der Gleichheitsüberprüfung kann ein optionales Gleichungskriterium (<code>equationCriteria</code>) angegeben werden. 
 

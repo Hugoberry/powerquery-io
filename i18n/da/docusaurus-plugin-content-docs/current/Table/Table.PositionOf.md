@@ -5,8 +5,6 @@ title: Table.PositionOf
 # Table.PositionOf
 
 
-## Description
-
 Returnerer den eller de angivne positioner for rækken i tabellen.
 
 
@@ -22,7 +20,7 @@ Table.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer rækkepositionen af den første forekomst af <code>row</code> i den angivne <code>table</code>. Returnerer -1, hvis der ikke blev fundet nogen forekomster.    <ul>       <li><code>table</code>: Inputtabellen.</li>       <li><code>row</code>: Den række i tabellen, der skal findes en position for.</li>       <li><code>occurrence</code>: <i>[Valgfrit]</i> Angiver, hvilke forekomster af rækken der skal returneres.</li>       <li><code>equationCriteria</code>: <i>[Valgfrit]</i> Styrer sammenligningen mellem tabelrækkerne.</li>    </ul>    
 

@@ -5,8 +5,6 @@ title: List.RemoveItems
 # List.RemoveItems
 
 
-## Description
-
 Listede mevcut olan öğeleri list1&#39;den kaldırır.
 
 
@@ -20,7 +18,7 @@ List.RemoveItems(
 ```
 
 
-## Details
+## Remarks
 
 <code>list2</code> içindeki verilen değerleri <code>list1</code> öğesinden kaldırır. <code>list2</code> içindeki değerler <code>list1</code> içinde yoksa, asıl liste döndürülür.
 

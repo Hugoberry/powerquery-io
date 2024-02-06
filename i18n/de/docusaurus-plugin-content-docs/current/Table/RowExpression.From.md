@@ -5,8 +5,6 @@ title: RowExpression.From
 # RowExpression.From
 
 
-## Description
-
 Gibt die abstrakte Syntaxstruktur (Abstract Syntax Tree, AST) für den Text einer Funktion zurück.
 
 
@@ -19,7 +17,7 @@ RowExpression.From(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die abstrakte Syntaxstruktur (Abstract Syntax Tree, AST) für den Text von <code>function</code> zurück, normalisiert in einen <i>Zeilenausdruck</i>:<ul>  <li>Die Funktion muss ein Lambdaausdruck mit einem Argument sein.</li>  <li>Alle Verweise auf den Funktionsparameter werden durch <code>RowExpression.Row</code> ersetzt.</li>  <li>Alle Verweise auf Spalten werden durch <code>RowExpression.Column(<i>columnName</i>)</code> ersetzt.</li>  <li>Die AST-Angabe wird vereinfacht, damit sie nur Knoten der folgenden Typen enthält:    <ul>      <li><code>Constant</code></li>      <li><code>Invocation</code></li>      <li><code>Unary</code></li>      <li><code>Binary</code></li>      <li><code>If</code></li>      <li><code>FieldAccess</code></li>    </ul>  </li></ul><br /><br />Es wird ein Fehler ausgelöst, wenn keine Zeilenausdruck-AST-Angabe für den Textkörper von <code>function</code> zurückgegeben werden kann.<br />
 

@@ -5,8 +5,6 @@ title: Value.Equals
 # Value.Equals
 
 
-## Description
-
 İki değerin eşit olup olmadığını döndürür.
 
 
@@ -21,7 +19,7 @@ Value.Equals(
 ```
 
 
-## Details
+## Remarks
 
 <code>value1</code> değeri <code>value2</code> değerine eşitse doğru, aksi halde yanlış değerini döndürür.
 

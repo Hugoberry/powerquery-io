@@ -5,8 +5,6 @@ title: Table.Combine
 # Table.Combine
 
 
-## Description
-
 ส่งกลับตารางที่เป็นผลลัพธ์ของการผสานรายการตาราง
 
 
@@ -20,7 +18,7 @@ Table.Combine(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางที่เป็นผลลัพธ์ของการผสานรายการตาราง <code>tables</code> ตารางที่เป็นผลลัพธ์จะมีโครงสร้างชนิดแถวที่กำหนดโดย <code>columns</code> หรือ ยูเนียนของชนิดข้อมูลป้อนเข้าหากไม่ได้ระบุ <code>columns</code> ไว้
 

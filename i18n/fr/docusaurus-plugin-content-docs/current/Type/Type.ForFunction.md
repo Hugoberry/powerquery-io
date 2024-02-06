@@ -5,8 +5,6 @@ title: Type.ForFunction
 # Type.ForFunction
 
 
-## Description
-
 Retourne un type qui représente les fonctions avec les contraintes de paramètre et de type de retour spécifiques.
 
 
@@ -20,7 +18,7 @@ Type.ForFunction(
 ```
 
 
-## Details
+## Remarks
 
 Crée un <code>function type</code> à partir de <code>signature</code>, un enregistrement de <code>ReturnType</code> et <code>Parameters</code>, et <code>min</code>, le nombre minimum d'arguments requis pour appeler la fonction.
 

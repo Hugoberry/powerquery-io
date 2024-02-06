@@ -5,8 +5,6 @@ title: Text.Repeat
 # Text.Repeat
 
 
-## Description
-
 Retourneert een tekstwaarde die bestaat uit de invoertekst en die een bepaalde aantal malen wordt herhaald.
 
 
@@ -20,7 +18,7 @@ Text.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een tekstwaarde die bestaat uit de invoertekst <code>text</code> en die <code>count</code> malen wordt herhaald.
 

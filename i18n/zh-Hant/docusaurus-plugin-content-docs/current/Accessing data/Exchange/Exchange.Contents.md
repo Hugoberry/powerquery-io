@@ -5,8 +5,6 @@ title: Exchange.Contents
 # Exchange.Contents
 
 
-## Description
-
 傳回來自 Microsoft Exchange 帳戶的目錄。
 
 
@@ -19,7 +17,7 @@ Exchange.Contents(
 ```
 
 
-## Details
+## Remarks
 
 從 Microsoft Exchange 帳戶 <code>mailboxAddress</code> 傳回內容的資料表。如果未指定 <code>mailboxAddress</code>，將會使用認證的預設帳戶。
 

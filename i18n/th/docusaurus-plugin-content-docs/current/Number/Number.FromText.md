@@ -5,8 +5,6 @@ title: Number.FromText
 # Number.FromText
 
 
-## Description
-
 สร้างตัวเลขจากรูปแบบข้อความทั่วไป (&#34;15&#34;, &#34;3,423.10&#34;, &#34;5.0E-10&#34;)
 
 
@@ -20,7 +18,7 @@ Number.FromText(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่า <code>number</code> จากค่าข้อความที่กำหนดให้ <code>text</code> <ul>  <li><code>text</code>: การแสดงข้อความของค่าตัวเลข การนำเสนอต้องอยู่ในรูปแบบตัวเลขทั่วไป เช่น "15", "3,423.10", "5.0E-10"</li>  <li><code>culture</code>: วัฒนธรรมเพิ่มเติมที่จะควบคุมวิธีที่ <code>text</code> ใช้ตีความ (ตัวอย่างเช่น "en-US")</li> </ul>
 

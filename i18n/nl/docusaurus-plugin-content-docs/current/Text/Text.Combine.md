@@ -5,8 +5,6 @@ title: Text.Combine
 # Text.Combine
 
 
-## Description
-
 Voegt een lijst met tekstwaarden samen tot één tekstwaarde.
 
 
@@ -20,7 +18,7 @@ Text.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het resultaat van het combineren van de lijst met tekstwaarden, <code>texts</code>, in één tekstwaarde. Alle <code>null</code> -waarden in <code>texts</code> worden genegeerd.    Er kan een optionele <code>separator</code> worden opgegeven die in de uiteindelijke gecombineerde tekst wordt gebruikt.
 

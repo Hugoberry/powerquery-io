@@ -5,8 +5,6 @@ title: Twilio.Tables
 # Twilio.Tables
 
 
-## Description
-
 Введите число месяцев, за которые извлекаются исторические данные Twilio.
 
 
@@ -19,7 +17,7 @@ Twilio.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу с актуальными данными Twilio.
 

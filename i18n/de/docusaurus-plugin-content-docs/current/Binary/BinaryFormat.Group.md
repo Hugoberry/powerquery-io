@@ -5,8 +5,6 @@ title: BinaryFormat.Group
 # BinaryFormat.Group
 
 
-## Description
-
 Gibt ein Binärformat zurück, das eine Gruppe von Elementen liest.
 
 
@@ -22,7 +20,7 @@ BinaryFormat.Group(
 ```
 
 
-## Details
+## Remarks
 
 Die Parameter lauten wie folgt:<ul><li>Der Parameter <code>binaryFormat</code> gibt das Binärformat des Schlüsselwerts an.</li><li>Der Parameter <code>group</code> bietet Informationen zur Gruppe der bekannten Elemente.</li><li>Der optionale Parameter <code>extra</code> kann verwendet werden, um eine Funktion anzugeben, die einen Binärformatwert für den Wert nach einem unerwarteten Schlüssel zurückgibt. Wenn der Parameter <code>extra</code> nicht angegeben wird, tritt bei unerwarteten Schlüsselwerten ein Fehler auf.</li></ul>Der Parameter <code>group</code> gibt eine Liste mit Elementdefinitionen an. Jede Elementdefinition ist eine Liste mit 3 bis 5 Werten:<ul><li>Schlüsselwert: Der Wert des Schlüssels, der dem Element entspricht. Dieser muss in der Gruppe von Elementen eindeutig sein.</li><li>Elementformat. Das Binärformat, das dem Wert des Elements entspricht. Dies ermöglicht, dass jedes Element ein anderes Format aufweist. </li><li>Elementvorkommen. Der <code>BinaryOccurrence.Type</code>-Wert, der angibt, wie oft das Element erwartungsgemäß in der Gruppe angezeigt wird. Erforderliche Elemente, die nicht vorhanden sind, verursachen einen Fehler. Erforderliche oder optionale Duplikatelemente werden wie nicht behandelte Schlüsselwerte behandelt.</li><li>Standardelementwert (optional). Wenn der Standardelementwert in der Elementdefinitionsliste angezeigt wird und nicht NULL ist, wird dieser Wert anstelle des Standardwerts angezeigt. Der Standardwert für wiederkehrende oder optionale Elemente ist NULL. Der Standardwert für wiederkehrende Werte ist eine leere Liste \{ }.</li><li>Elementwerttransformation (optional). Wenn die Funktion für die Elementwerttransformation in der Elementdefinitionsliste vorhanden und nicht NULL ist, wird sie aufgerufen, um den Elementwert zu transformieren, bevor er zurückgegeben wird. Die Transformationsfunktion wird nur aufgerufen, wenn das Element in der Eingabe vorhanden ist. (Es wird nie mit dem Standardwert aufgerufen.) </li></ul>
 

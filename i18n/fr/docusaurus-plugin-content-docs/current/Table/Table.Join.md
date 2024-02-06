@@ -5,8 +5,6 @@ title: Table.Join
 # Table.Join
 
 
-## Description
-
 Joint les lignes de deux tables qui correspondent en fonction des clés spécifiées.
 
 
@@ -25,7 +23,7 @@ Table.Join(
 ```
 
 
-## Details
+## Remarks
 
 Joint les lignes de <code>table1</code> aux lignes de <code>table2</code> en fonction de l'égalité des valeurs des colonnes clés sélectionnées par <code>key1</code> (pour <code>table1</code>) et par <code>key2</code> (pour <code>table2</code>).<br />Par défaut, une jointure interne est effectuée, mais vous pouvez inclure un <code>joinKind</code> facultatif pour spécifier le type de jointure. Les options sont les suivantes :    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Vous pouvez inclure un ensemble facultatif de <code>keyEqualityComparers</code> pour spécifier comment comparer les colonnes clés. Ce paramètre est actuellement réservé à une utilisation interne.<br />
 

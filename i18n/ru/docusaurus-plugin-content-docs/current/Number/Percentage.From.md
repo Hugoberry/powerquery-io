@@ -5,8 +5,6 @@ title: Percentage.From
 # Percentage.From
 
 
-## Description
-
 Возвращает значение процента от заданного значения.
 
 
@@ -20,7 +18,7 @@ Percentage.From(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает значение <code>percentage</code>, полученное из предоставленного значения <code>value</code>. Если данное <code>value</code> равно <code>NULL</code>, то <code>Percentage.From</code> возвращает <code>NULL</code>. Если данное <code>value</code> представляет собой <code>text</code> с конечным символом процентов, то возвращается преобразованное десятичное значение. В противном случае значение преобразуется в <code>number</code> с помощью <code>Number.From</code>. При необходимости можно также указать <code>culture</code> (например, "ru-RU").
 

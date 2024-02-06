@@ -5,8 +5,6 @@ title: List.FirstN
 # List.FirstN
 
 
-## Description
-
 Devolve o primeiro conjunto de itens existentes na lista, especificando a quantidade de itens a devolver ou uma condição de qualificação.
 
 
@@ -20,7 +18,7 @@ List.FirstN(
 ```
 
 
-## Details
+## Remarks
 
  <ul>  <li>Se for especificado um número, são devolvidos tantos itens quanto esse número. </li>  <li>Se for especificada uma condição, são devolvidos todos os itens que satisfizerem a condição inicialmente. Quando um item não satisfizer a condição, não serão considerados mais itens. </li> </ul>
 

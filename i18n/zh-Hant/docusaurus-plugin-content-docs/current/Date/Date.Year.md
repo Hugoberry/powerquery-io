@@ -5,8 +5,6 @@ title: Date.Year
 # Date.Year
 
 
-## Description
-
 傳回年元件。
 
 
@@ -19,7 +17,7 @@ Date.Year(
 ```
 
 
-## Details
+## Remarks
 
 傳回提供的 <code>datetime</code> 值 <code>dateTime</code> 的年元件。
 

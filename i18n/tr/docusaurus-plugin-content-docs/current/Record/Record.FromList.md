@@ -5,8 +5,6 @@ title: Record.FromList
 # Record.FromList
 
 
-## Description
-
 Verilen alan değeri listesi ve alan kümesinden bir kaydı döndürür.
 
 
@@ -20,7 +18,7 @@ Record.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Verilen alan değeri <code>list</code> öğesinden ve alan kümesinden bir kaydı döndürür.  <code>fields</code> metin değeri listesi veya kayıt türü ile belirtilebilir.  Alanlar benzersiz değilse, hata oluşur.
 

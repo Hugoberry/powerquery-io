@@ -5,8 +5,6 @@ title: Table.CombineColumns
 # Table.CombineColumns
 
 
-## Description
-
 Associe les colonnes spécifiées dans une nouvelle colonne à l&#39;aide de la fonction d&#39;association spécifiée.
 
 
@@ -22,7 +20,7 @@ Table.CombineColumns(
 ```
 
 
-## Details
+## Remarks
 
 Associe les colonnes spécifiées dans une nouvelle colonne à l'aide de la fonction d'association spécifiée.
 

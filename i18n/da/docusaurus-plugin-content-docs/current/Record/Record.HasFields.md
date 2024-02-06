@@ -5,8 +5,6 @@ title: Record.HasFields
 # Record.HasFields
 
 
-## Description
-
 Angiver, om posten indeholder angivne felter.
 
 
@@ -20,7 +18,7 @@ Record.HasFields(
 ```
 
 
-## Details
+## Remarks
 
 Angiver, om posten <code>record</code> indeholder de felter, der er angivet i <code>fields</code>, ved at returnere en logisk værdi (true eller false).    Der kan angives flere feltværdier ved hjælp af en liste.
 

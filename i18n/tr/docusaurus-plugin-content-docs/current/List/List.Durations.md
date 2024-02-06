@@ -5,8 +5,6 @@ title: List.Durations
 # List.Durations
 
 
-## Description
-
 Verilen ilk değer, sayı ve artımlı duration değerinden duration değer listesi oluşturur.
 
 
@@ -21,7 +19,7 @@ List.Durations(
 ```
 
 
-## Details
+## Remarks
 
 <code>start</code> ile başlayan ve verilen <code>duration</code> <code>step</code> ile artan bir <code>count</code> <code>duration</code> değer listesi döndürür.
 

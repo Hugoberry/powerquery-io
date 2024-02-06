@@ -5,8 +5,6 @@ title: Twilio.Tables
 # Twilio.Tables
 
 
-## Description
-
 Geben Sie die Anzahl von Monaten ein, für die Twilio-Verlaufsdaten abgerufen werden sollen.
 
 
@@ -19,7 +17,7 @@ Twilio.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Tabelle mit relevanten Twilio-Daten zurück.
 

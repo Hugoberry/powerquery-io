@@ -5,8 +5,6 @@ title: Table.TransformRows
 # Table.TransformRows
 
 
-## Description
-
 指定された変換関数を使用してテーブルの行を変換します。
 
 
@@ -20,7 +18,7 @@ Table.TransformRows(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> の各行に <code>transform</code> 操作を適用して、<code>リスト</code>を作成します。
 

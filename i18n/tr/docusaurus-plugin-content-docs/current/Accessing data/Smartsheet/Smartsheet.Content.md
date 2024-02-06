@@ -5,8 +5,6 @@ title: Smartsheet.Content
 # Smartsheet.Content
 
 
-## Description
-
 Smartsheet dizin uç noktasına ilişkin verilerin yer aldığı bir tablo döndürür.
 
 
@@ -19,7 +17,7 @@ Smartsheet.Content(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen uç noktadan Smartsheet 2.0 REST API'sine çağrıda bulunur ve bir tabloya döndürülen veri öğesini dönüştürür.
 

@@ -5,8 +5,6 @@ title: Table.AddIndexColumn
 # Table.AddIndexColumn
 
 
-## Description
-
 Açık konum değerlerine sahip bir sütun ekler.
 
 
@@ -23,7 +21,7 @@ Table.AddIndexColumn(
 ```
 
 
-## Details
+## Remarks
 
 <code>newColumnName</code> adlı bir sütunu, <code>table</code> öğesine açık konum değerleri ile ekler.    <code>initialValue</code> isteğe bağlı değeri ilk dizin değerini belirtir. <code>increment</code> isteğe bağlı değeri, her dizin değerinin ne kadar artırılacağını belirtir.
 

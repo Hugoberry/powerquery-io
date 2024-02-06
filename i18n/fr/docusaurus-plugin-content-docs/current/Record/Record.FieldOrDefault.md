@@ -5,8 +5,6 @@ title: Record.FieldOrDefault
 # Record.FieldOrDefault
 
 
-## Description
-
 Retourne la valeur du champ spécifié dans un enregistrement ou la valeur par défaut si le champ est introuvable.
 
 
@@ -21,7 +19,7 @@ Record.FieldOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 Retourne la valeur du champ spécifié <code>field</code> dans l'enregistrement <code>record</code>. Si le champ est introuvable, la valeur <code>defaultValue</code> facultative est retournée.
 

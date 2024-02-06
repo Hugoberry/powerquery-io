@@ -5,8 +5,6 @@ title: Date.WeekOfMonth
 # Date.WeekOfMonth
 
 
-## Description
-
 Zwraca liczbę z zakresu od 1 do 6 wskazującą, w którym tygodniu miesiąca przypada ta data.
 
 
@@ -20,7 +18,7 @@ Date.WeekOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca liczbę z zakresu od 1 do 6 wskazującą, w którym tygodniu miesiąca wypada data <code>dateTime</code>. <ul> <li><code>dateTime</code>: wartość <code>data/godzina</code>, dla której jest określany tydzień miesiąca.</li></ul>
 

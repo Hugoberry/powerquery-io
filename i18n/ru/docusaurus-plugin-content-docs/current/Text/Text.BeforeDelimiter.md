@@ -5,8 +5,6 @@ title: Text.BeforeDelimiter
 # Text.BeforeDelimiter
 
 
-## Description
-
 Text.BeforeDelimiter
 
 
@@ -21,7 +19,7 @@ Text.BeforeDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает часть <code>text</code> перед указанным <code>delimiter</code>.    Необязательный числовой <code>index</code> указывает, какое вхождение <code>delimiter</code> следует рассматривать.    Необязательный список <code>index</code> указывает, какое вхождение <code>delimiter</code> следует рассматривать, а также откуда вести индексацию — с начала или с конца входных данных.
 

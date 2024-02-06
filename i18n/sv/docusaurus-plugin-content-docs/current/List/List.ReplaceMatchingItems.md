@@ -5,8 +5,6 @@ title: List.ReplaceMatchingItems
 # List.ReplaceMatchingItems
 
 
-## Description
-
 Tillämpar varje ersättning av \{ old, new }.
 
 
@@ -21,7 +19,7 @@ List.ReplaceMatchingItems(
 ```
 
 
-## Details
+## Remarks
 
 Utför angivna ersättningar för listan <code>list</code>. En ersättningsåtgärd, <code>replacements</code>, består av en lista med två värden, det gamla värdet och det nya värdet, som anges i en lista.    Ett valfritt ekvationsvillkorsvärde, <code>equationCriteria</code>, kan anges för att hantera likhetstestning.
 

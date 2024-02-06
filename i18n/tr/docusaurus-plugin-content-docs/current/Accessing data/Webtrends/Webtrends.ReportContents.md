@@ -5,8 +5,6 @@ title: Webtrends.ReportContents
 # Webtrends.ReportContents
 
 
-## Description
-
 Webtrends&#39;e ilişkin rapor içeriğinin yer aldığı bir tablo döndürür.
 
 
@@ -22,7 +20,7 @@ Webtrends.ReportContents(
 ```
 
 
-## Details
+## Remarks
 
 Belirlenen Webtrends raporlama uç noktasına çağrıda bulunur ve tüm verileri bir tablo olarak döndürür.
 

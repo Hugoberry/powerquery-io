@@ -5,8 +5,6 @@ title: Table.Sort
 # Table.Sort
 
 
-## Description
-
 Ordena a tabela utilizando um ou mais nomes de coluna e critérios de comparação.
 
 
@@ -20,7 +18,7 @@ Table.Sort(
 ```
 
 
-## Details
+## Remarks
 
 Ordena <code>table</code> utilizando a lista com um ou mais nomes de colunas e <code>comparisonCriteria</code> opcional, no formato \{ \{ col1, comparisonCriteria }, \{col2} }.
 

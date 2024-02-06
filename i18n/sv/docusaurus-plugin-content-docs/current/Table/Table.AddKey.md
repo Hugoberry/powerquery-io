@@ -5,8 +5,6 @@ title: Table.AddKey
 # Table.AddKey
 
 
-## Description
-
 Lägger till en nyckel för angiven tabelltyp.
 
 
@@ -21,7 +19,7 @@ Table.AddKey(
 ```
 
 
-## Details
+## Remarks
 
 Lägg till en nyckel i <code>table</code>, där <code>columns</code> är en del av kolumnnamnen som definierar nyckeln och <code>isPrimary</code> anger om nyckeln är primär.
 

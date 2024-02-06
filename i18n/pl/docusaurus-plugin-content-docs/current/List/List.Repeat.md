@@ -5,8 +5,6 @@ title: List.Repeat
 # List.Repeat
 
 
-## Description
-
 Zwraca listę zawierającą liczbę powtórzeń oryginalnej listy.
 
 
@@ -20,7 +18,7 @@ List.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca listę zawierającą <code>count</code> powtórzeń oryginalnej listy <code>list</code>.
 

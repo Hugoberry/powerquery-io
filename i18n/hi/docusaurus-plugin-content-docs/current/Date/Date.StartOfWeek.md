@@ -5,8 +5,6 @@ title: Date.StartOfWeek
 # Date.StartOfWeek
 
 
-## Description
-
 सप्ताह की शुरुआत दिखाता है.
 
 
@@ -20,7 +18,7 @@ Date.StartOfWeek(
 ```
 
 
-## Details
+## Remarks
 
 उस हफ़्ते के प्रारंभ में लौटाता है जिसमें <code>dateTime</code> है.    <code>dateTime</code> एक <code>date</code>, <code>datetime</code>, या <code>datetimezone</code> मान होना चाहिए.
 

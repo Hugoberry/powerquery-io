@@ -5,8 +5,6 @@ title: Date.DayOfYear
 # Date.DayOfYear
 
 
-## Description
-
 Devolve um número entre 1 e 366 que representa o dia do ano.
 
 
@@ -19,7 +17,7 @@ Date.DayOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um número que representa o dia do ano no valor <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> fornecido, <code>dateTime</code>.
 

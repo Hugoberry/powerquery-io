@@ -5,8 +5,6 @@ title: Uri.EscapeDataString
 # Uri.EscapeDataString
 
 
-## Description
-
 Kodar specialtecken enligt RFC 3986.
 
 
@@ -19,7 +17,7 @@ Uri.EscapeDataString(
 ```
 
 
-## Details
+## Remarks
 
 Kodar specialtecken i indata <code>data</code> enligt reglerna i RFC 3986.
 

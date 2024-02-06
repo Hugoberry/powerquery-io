@@ -5,8 +5,6 @@ title: List.Dates
 # List.Dates
 
 
-## Description
-
 Verilen ilk değer, sayı ve artımlı duration değerinden date değer listesi oluşturur.
 
 
@@ -21,7 +19,7 @@ List.Dates(
 ```
 
 
-## Details
+## Remarks
 
 <code>count</code> boyutunda <code>start</code> konumunda başlayan bir <code>date</code> değer listesi döndürür. <code>step</code> verilen artışı her değere eklenen bir <code>duration</code> değeridir.
 

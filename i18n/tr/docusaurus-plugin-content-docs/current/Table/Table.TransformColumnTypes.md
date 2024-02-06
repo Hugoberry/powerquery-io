@@ -5,8 +5,6 @@ title: Table.TransformColumnTypes
 # Table.TransformColumnTypes
 
 
-## Description
-
 Belirtilen bir kültürü kullanarak \{ column, type } biçimindeki tür dönüşümünü uygular.
 
 
@@ -21,7 +19,7 @@ Table.TransformColumnTypes(
 ```
 
 
-## Details
+## Remarks
 
 İsteğe bağlı <code>table</code> parametresinde belirtilen kültürü (ör. "tr-TR") kullanarak, <code>typeTransformations</code> girişinin dönüştürme işlemini <code>culture</code> parametresinde (biçim \{ column name, type name} olacak şekilde) belirtilen sütunlara uygulayarak bir tablo döndürür.    Sütun yoksa, özel durum oluşturulur.
 

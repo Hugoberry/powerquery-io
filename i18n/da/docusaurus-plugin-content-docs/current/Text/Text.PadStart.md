@@ -5,8 +5,6 @@ title: Text.PadStart
 # Text.PadStart
 
 
-## Description
-
 Returnerer teksten i en angivet længde ved at udfylde starten af den angivne tekst.
 
 
@@ -21,7 +19,7 @@ Text.PadStart(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en værdi af typen <code>text</code>, der er udfyldt til længden <code>count</code>, ved at indsætte mellemrum i starten af tekstværdien <code>text</code>.    Der kan bruges et valgfrit tegn <code>character</code> til at angive det tegn, der skal bruges til udfyldning. Standardtegnet for udfyldning er et mellemrum.
 

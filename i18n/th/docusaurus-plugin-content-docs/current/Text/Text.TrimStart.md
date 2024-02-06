@@ -5,8 +5,6 @@ title: Text.TrimStart
 # Text.TrimStart
 
 
-## Description
-
 เอาช่องว่างนำหน้าทั้งหมดออก
 
 
@@ -20,7 +18,7 @@ Text.TrimStart(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลลัพธ์ของการเอาช่องว่างนำหน้าทั้งหมดออกจากค่าข้อความ <code>text</code>
 

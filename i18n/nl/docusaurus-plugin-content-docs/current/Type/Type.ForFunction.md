@@ -5,8 +5,6 @@ title: Type.ForFunction
 # Type.ForFunction
 
 
-## Description
-
 Retourneert een type dat functies met specifieke typebeperkingen voor parameters en retouren vertegenwoordigt.
 
 
@@ -20,7 +18,7 @@ Type.ForFunction(
 ```
 
 
-## Details
+## Remarks
 
 Maakt een <code>functietype</code> van <code>signature</code>, een record van <code>ReturnType</code> en <code>Parameters</code>, en <code>min</code>, het minimumaantal argumenten dat is vereist om de functie aan te roepen.
 

@@ -5,8 +5,6 @@ title: Table.IsEmpty
 # Table.IsEmpty
 
 
-## Description
-
 Indicare se la tabella contiene righe.
 
 
@@ -19,7 +17,7 @@ Table.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 Indica se <code>table</code> contiene righe. Restituisce <code>true</code> se non sono presenti righe, ad esempio se la tabella è vuota, in caso contrario <code>false</code>.
 

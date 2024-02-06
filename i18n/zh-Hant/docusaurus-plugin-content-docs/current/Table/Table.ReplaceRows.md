@@ -5,8 +5,6 @@ title: Table.ReplaceRows
 # Table.ReplaceRows
 
 
-## Description
-
 以提供的資料列取代指定範圍的資料列。
 
 
@@ -22,7 +20,7 @@ Table.ReplaceRows(
 ```
 
 
-## Details
+## Remarks
 
 以指定的 <code>rows</code> 取代輸入 <code>table</code> 中指定數目的資料列 <code>count</code>，從 <code>offset</code> 之後開始。<code>rows</code> 參數是記錄的清單。    <ul>       <li><code>table</code>: 執行取代的資料表。</li>       <li><code>offset</code>: 要在進行取代之前略過的資料列數目。</li>       <li><code>count</code>: 要取代的資料列數目。</li>       <li><code>rows</code>: 要依照 <code>offset</code> 指定的位置插入 <code>table</code> 中的資料列記錄清單。</li>    </ul>
 

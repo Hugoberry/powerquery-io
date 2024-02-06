@@ -5,8 +5,6 @@ title: Cube.Properties
 # Cube.Properties
 
 
-## Description
-
 返回一个表，该表包含在多维数据集中扩展的维度的可用属性集。
 
 
@@ -19,7 +17,7 @@ Cube.Properties(
 ```
 
 
-## Details
+## Remarks
 
 返回一个表，该表包含在多维数据集中扩展的维度的可用属性集。
 

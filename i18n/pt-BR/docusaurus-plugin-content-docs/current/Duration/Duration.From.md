@@ -5,8 +5,6 @@ title: Duration.From
 # Duration.From
 
 
-## Description
-
 Cria uma duração a partir do valor especificado.
 
 
@@ -19,7 +17,7 @@ Duration.From(
 ```
 
 
-## Details
+## Remarks
 
 Retorna um valor <code>duration</code> com base no <code>value</code> especificado. Se o <code>value</code> especificado for <code>null</code>, <code>Duration.From</code> retornará <code>null</code>. Se o <code>value</code> especificado for <code>duration</code>, <code>value</code> será retornado. Os valores dos tipos a seguir podem ser convertidos em um valor <code>duration</code>:      <ul>        <li><code>text</code>: um valor <code>duration</code> com base no formato textual de tempo decorrido (d.h:m:s). Consulte <code>Duration.FromText</code> para obter informações detalhadas.</li>        <li><code>number</code>: um equivalente de <code>duration</code> para o número de dias inteiros e fracionários expressos por <code>value</code>.</li>      </ul>Se <code>value</code> for de qualquer outro tipo, um erro será retornado.
 

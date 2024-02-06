@@ -5,8 +5,6 @@ title: Splitter.SplitTextByEachDelimiter
 # Splitter.SplitTextByEachDelimiter
 
 
-## Description
-
 指定された各区切り記号で順番にテキストを一連のテキストに分割する関数を返します。
 
 
@@ -21,7 +19,7 @@ Splitter.SplitTextByEachDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 指定された各区切り記号で順番にテキストを一連のテキストに分割する関数を返します。
 

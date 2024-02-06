@@ -5,8 +5,6 @@ title: Duration.TotalHours
 # Duration.TotalHours
 
 
-## Description
-
 Returnerer det samlede antal timer, denne varighed strækker sig over.
 
 
@@ -19,7 +17,7 @@ Duration.TotalHours(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer det samlede antal timer spændt over <code>duration</code>.
 

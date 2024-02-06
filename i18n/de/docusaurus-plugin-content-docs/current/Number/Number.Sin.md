@@ -5,8 +5,6 @@ title: Number.Sin
 # Number.Sin
 
 
-## Description
-
 Gibt den Sinus der Zahl zurück.
 
 
@@ -19,7 +17,7 @@ Number.Sin(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Sinus von <code>number</code> zurück.
 

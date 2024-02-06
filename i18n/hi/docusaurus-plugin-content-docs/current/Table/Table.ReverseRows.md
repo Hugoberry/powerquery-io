@@ -5,8 +5,6 @@ title: Table.ReverseRows
 # Table.ReverseRows
 
 
-## Description
-
 उलटे क्रम में पंक्तियों के साथ एक तालिका लौटाता है.
 
 
@@ -19,7 +17,7 @@ Table.ReverseRows(
 ```
 
 
-## Details
+## Remarks
 
 इनपुट <code>table</code> से उलटे क्रम में पंक्तियों के साथ एक तालिका लौटाता है.
 

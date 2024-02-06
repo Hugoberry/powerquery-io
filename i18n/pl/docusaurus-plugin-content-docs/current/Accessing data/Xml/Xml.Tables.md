@@ -5,8 +5,6 @@ title: Xml.Tables
 # Xml.Tables
 
 
-## Description
-
 Zwraca zawartość dokumentu w formacie XML jako zagnieżdżoną kolekcję spłaszczonych tabel.
 
 
@@ -21,7 +19,7 @@ Xml.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca zawartość dokumentu w formacie XML jako zagnieżdżoną kolekcję spłaszczonych tabel.
 

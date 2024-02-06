@@ -5,8 +5,6 @@ title: Date.DaysInMonth
 # Date.DaysInMonth
 
 
-## Description
-
 Returnerer et tal fra 28-31, som angiver antallet af dage i måneden.
 
 
@@ -19,7 +17,7 @@ Date.DaysInMonth(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer antallet af dage i måneden i værdien af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>, <code>dateTime</code>. <ul>        <li><code>dateTime</code>: En værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>, som antallet af dage i måneden returneres for.</li>      </ul>
 

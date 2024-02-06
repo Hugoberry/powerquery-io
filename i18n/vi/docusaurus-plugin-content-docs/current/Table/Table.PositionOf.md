@@ -5,8 +5,6 @@ title: Table.PositionOf
 # Table.PositionOf
 
 
-## Description
-
 Trả về (các) vị trí của hàng trong bảng.
 
 
@@ -22,7 +20,7 @@ Table.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Trả về vị trí hàng của lần xuất hiện đầu tiên của <code>row</code> trong <code>table</code> được chỉ định. Trả về -1 nếu không tìm thấy lần xuất hiện nào.    <ul>       <li><code>table</code>: Bảng đầu vào.</li>       <li><code>row</code>: Hàng trong bảng sẽ tìm vị trí.</li>       <li><code>occurrence</code>: <i>[Tùy chọn]</i> Chỉ định trả về lần xuất hiện nào của hàng.</li>       <li><code>equationCriteria</code>: <i>[Tùy chọn]</i> kiểm soát phép so sánh giữa các hàng của bảng.</li>    </ul>    
 

@@ -5,8 +5,6 @@ title: Record.ToTable
 # Record.ToTable
 
 
-## Description
-
 Retorna uma tabela com cada linha sendo um nome de campo e valor do registro de entrada.
 
 
@@ -19,7 +17,7 @@ Record.ToTable(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma tabela que contém as colunas <code>Name</code> e <code>Value</code> com uma linha para cada campo em <code>record</code>.
 

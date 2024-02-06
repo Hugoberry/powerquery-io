@@ -5,8 +5,6 @@ title: Table.ExpandListColumn
 # Table.ExpandListColumn
 
 
-## Description
-
 Erstellt auf der Grundlage einer Spalte mit Listen in einer Tabelle je eine Zeilenkopie für die einzelnen Werte in der Liste.
 
 
@@ -20,7 +18,7 @@ Table.ExpandListColumn(
 ```
 
 
-## Details
+## Remarks
 
 Teilt die Liste auf der Grundlage eines Elements vom Typ "<code>table</code>" (wobei "<code>column</code>" eine Liste mit Werten ist) in jeweils eine Zeile pro Wert auf. Die Werte in den anderen Spalten werden in jeder neu erstellten Zeile dupliziert.
 

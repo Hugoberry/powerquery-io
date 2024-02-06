@@ -5,8 +5,6 @@ title: Table.UnpivotOtherColumns
 # Table.UnpivotOtherColumns
 
 
-## Description
-
 Convertit toutes les colonnes autres qu&#39;un jeu spécifié en paires attribut-valeur.
 
 
@@ -22,7 +20,7 @@ Table.UnpivotOtherColumns(
 ```
 
 
-## Details
+## Remarks
 
 Convertit toutes les colonnes autres qu'un jeu spécifié en paires attribut-valeur, associées aux autres valeurs de chaque ligne.
 

@@ -5,8 +5,6 @@ title: List.Min
 # List.Min
 
 
-## Description
-
 Bir boş listenin en küçük veya varsayılan değerini döndürür.
 
 
@@ -22,7 +20,7 @@ List.Min(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesindeki en küçük öğeyi veya liste boşsa <code>default</code> isteğe bağlı varsayılan değerini döndürür.    <code>comparisonCriteria</code> isteğe bağlı comparisonCriteria değeri, listedeki öğelerin nasıl karşılaştırılacağını belirlemek için belirtilebilir. Bu parametre null ise varsayılan karşılaştırıcı kullanılır.
 

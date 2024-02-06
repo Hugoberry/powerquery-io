@@ -5,8 +5,6 @@ title: BinaryFormat.Record
 # BinaryFormat.Record
 
 
-## Description
-
 Returnerar ett binärformat som läser en post.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Record(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett binärformat som läser en post. Parametern <code>record</code> anger formatet för posten. Fälten i posten kan ha olika binärformat. Om ett fält innehåller ett värde som inte är ett värde i binärformat läses inga data för det fältet och fältvärdet skickas som ett eko till resultatet.
 

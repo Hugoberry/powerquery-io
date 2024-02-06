@@ -5,8 +5,6 @@ title: Binary.ApproximateLength
 # Binary.ApproximateLength
 
 
-## Description
-
 Retourneert de geschatte lengte van het binaire bestand.
 
 
@@ -19,7 +17,7 @@ Binary.ApproximateLength(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de geschatte lengte van <code>binary</code>of een fout als de gegevensbron geen geschatte lengte ondersteunt.
 

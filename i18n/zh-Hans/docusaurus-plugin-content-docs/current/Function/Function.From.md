@@ -5,8 +5,6 @@ title: Function.From
 # Function.From
 
 
-## Description
-
 除了创建采用单个列表实参的函数之外，还创建一个采用特定形参签名的函数
 
 
@@ -20,7 +18,7 @@ Function.From(
 ```
 
 
-## Details
+## Remarks
 
 采用一元函数 <code>function</code> 并创建一个类型为 <code>functionType</code> 的新函数，用于构造其参数列表，并将其传递给 <code>function</code>。
 

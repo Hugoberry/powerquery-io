@@ -5,8 +5,6 @@ title: Number.Mod
 # Number.Mod
 
 
-## Description
-
 Heltallet dividerer to tal og returnerer resten.
 
 
@@ -21,7 +19,7 @@ Number.Mod(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer den rest, der er tilbage efter at have divideret <code>number</code> med <code>divisor</code> for et heltal.    Hvis <code>number</code> eller <code>divisor</code> er null, returnerer <code>Number.Mod</code> null.      <ul>        <li><code>number</code>: Dividenden.</li>        <li><code>divisor</code>: Divisoren.</li>      </ul>
 

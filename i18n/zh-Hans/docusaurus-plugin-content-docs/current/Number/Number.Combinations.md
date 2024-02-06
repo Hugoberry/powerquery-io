@@ -5,8 +5,6 @@ title: Number.Combinations
 # Number.Combinations
 
 
-## Description
-
 返回唯一组合的数目。
 
 
@@ -20,7 +18,7 @@ Number.Combinations(
 ```
 
 
-## Details
+## Remarks
 
 从项列表 <code>setSize</code> 返回具有指定组合大小 <code>combinationSize</code> 的唯一组合数目。<ul>    <li><code>setSize</code>: 列表中的项数。</li>    <li><code>combinationSize</code>: 每个组合中的项数。</li></ul>
 

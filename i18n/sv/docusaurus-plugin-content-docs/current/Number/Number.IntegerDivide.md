@@ -5,8 +5,6 @@ title: Number.IntegerDivide
 # Number.IntegerDivide
 
 
-## Description
-
 Dividerar två tal och returnerar heltalsdelen av resultatet.
 
 
@@ -21,7 +19,7 @@ Number.IntegerDivide(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar heltalsdelen av resultatet från divisionen av ett tal, <code>number1</code>, med ett annat tal, <code>number2</code>.    Om <code>number1</code> eller <code>number2</code> är null returnerar <code>Number.IntegerDivide</code> null.      <ul>        <li><code>number1</code>: Täljaren.</li>        <li><code>number2</code>: Nämnaren.</li>      </ul>
 

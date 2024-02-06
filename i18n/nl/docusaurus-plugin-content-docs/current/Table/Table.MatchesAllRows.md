@@ -5,8 +5,6 @@ title: Table.MatchesAllRows
 # Table.MatchesAllRows
 
 
-## Description
-
 Geeft aan of alle rijen in de tabel aan de opgegeven voorwaarde voldoen.
 
 
@@ -20,7 +18,7 @@ Table.MatchesAllRows(
 ```
 
 
-## Details
+## Remarks
 
 Geeft aan of alle rijen in de <code>table</code> aan de opgegeven <code>condition</code> voldoen. Retourneert <code>true</code> als alle rijen overeenkomen en <code>false</code> als dat niet het geval is.
 

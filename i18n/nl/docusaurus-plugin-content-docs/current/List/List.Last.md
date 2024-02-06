@@ -5,8 +5,6 @@ title: List.Last
 # List.Last
 
 
-## Description
-
 Retourneert de laatste waarde van de lijst of de opgegeven standaardwaarde als de lijst leeg is.
 
 
@@ -20,7 +18,7 @@ List.Last(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het laatste item uit de lijst <code>list</code> of de optionele standaardwaarde <code>defaultValue</code> als de lijst leeg is.    Als de lijst leeg is en er is geen standaardwaarde opgegeven, wordt <code>null</code> door de functie geretourneerd.
 

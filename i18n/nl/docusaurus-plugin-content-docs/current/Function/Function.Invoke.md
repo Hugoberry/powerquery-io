@@ -5,8 +5,6 @@ title: Function.Invoke
 # Function.Invoke
 
 
-## Description
-
 Roept de opgegeven functie aan
 
 
@@ -20,7 +18,7 @@ Function.Invoke(
 ```
 
 
-## Details
+## Remarks
 
 Roept de opgegeven functie aan met behulp van de opgegeven lijst met argumenten en retourneert het resultaat.
 

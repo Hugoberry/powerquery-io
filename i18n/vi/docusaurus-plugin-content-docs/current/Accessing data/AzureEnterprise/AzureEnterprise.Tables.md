@@ -5,8 +5,6 @@ title: AzureEnterprise.Tables
 # AzureEnterprise.Tables
 
 
-## Description
-
 Nhập URL của điểm cuối API REST Azure Enterprise được liên kết với đăng ký của bạn
 
 
@@ -19,7 +17,7 @@ AzureEnterprise.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Trả về danh sách báo cáo và tháng có sẵn từ API Azure Enterprise
 

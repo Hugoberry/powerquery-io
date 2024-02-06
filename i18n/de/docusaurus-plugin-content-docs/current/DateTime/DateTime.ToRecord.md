@@ -5,8 +5,6 @@ title: DateTime.ToRecord
 # DateTime.ToRecord
 
 
-## Description
-
 Gibt einen Datensatz mit den Teilen des datetime-Werts zurück.
 
 
@@ -19,7 +17,7 @@ DateTime.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen Datensatz mit den Teilen des angegebenen datetime-Werts (<code>dateTime</code>) zurück. <ul>        <li><code>dateTime</code>: Ein <code>datetime</code>-Wert, auf dessen Grundlage der Datensatz mit den zugehörigen Teilen berechnet werden soll.</li>      </ul>
 

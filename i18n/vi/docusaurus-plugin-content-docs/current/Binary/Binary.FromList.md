@@ -5,8 +5,6 @@ title: Binary.FromList
 # Binary.FromList
 
 
-## Description
-
 Kết hợp danh sách các số thành một giá trị nhị phân.
 
 
@@ -19,7 +17,7 @@ Binary.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Kết hợp danh sách các số thành một giá trị nhị phân.
 

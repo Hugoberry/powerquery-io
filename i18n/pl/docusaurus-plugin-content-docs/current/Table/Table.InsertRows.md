@@ -5,8 +5,6 @@ title: Table.InsertRows
 # Table.InsertRows
 
 
-## Description
-
 Wstawia listę wierszy do tabeli na określonej pozycji.
 
 
@@ -21,7 +19,7 @@ Table.InsertRows(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę z listą wierszy <code>rows</code>, wstawioną do <code>table</code> na danej pozycji <code>offset</code>. Każda kolumna w wierszu do wstawienia musi być zgodna z typami kolumn tabeli.
 

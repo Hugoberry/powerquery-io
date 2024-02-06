@@ -5,8 +5,6 @@ title: Webtrends.ReportContents
 # Webtrends.ReportContents
 
 
-## Description
-
 从 Webtrends 返回包含报表内容的表。
 
 
@@ -22,7 +20,7 @@ Webtrends.ReportContents(
 ```
 
 
-## Details
+## Remarks
 
 调用给定的 Webtrends 报表终结点，并将所有数据作为表返回。
 

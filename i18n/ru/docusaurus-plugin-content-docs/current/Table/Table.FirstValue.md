@@ -5,8 +5,6 @@ title: Table.FirstValue
 # Table.FirstValue
 
 
-## Description
-
 Возвращает первый столбец первой строки таблицы или указанное значение по умолчанию.
 
 
@@ -20,7 +18,7 @@ Table.FirstValue(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает первый столбец первой строки таблицы <code>table</code> или указанное значение по умолчанию.
 

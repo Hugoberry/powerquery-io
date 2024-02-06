@@ -5,8 +5,6 @@ title: Table.PrefixColumns
 # Table.PrefixColumns
 
 
-## Description
-
 Возвращает таблицу, где для всех столбцов задан определенный текст в качестве префикса.
 
 
@@ -20,7 +18,7 @@ Table.PrefixColumns(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу, где все имена столбцов из предоставленной "<code>table</code>" имеют в качестве префикса заданный текст (<code>prefix</code>), а также точку в формате <code>prefix</code><code>.ColumnName</code>.
 

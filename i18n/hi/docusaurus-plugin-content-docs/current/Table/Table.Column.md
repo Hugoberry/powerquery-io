@@ -5,8 +5,6 @@ title: Table.Column
 # Table.Column
 
 
-## Description
-
 तालिका से डेटा का एक निर्दिष्ट स्तंभ, सूची के रूप में लौटाता है.
 
 
@@ -20,7 +18,7 @@ Table.Column(
 ```
 
 
-## Details
+## Remarks
 
 तालिका <code>table</code> से <code>column</code> द्वारा निर्दिष्ट डेटा का स्तंभ, सूची के रूप में लौटाता है.
 

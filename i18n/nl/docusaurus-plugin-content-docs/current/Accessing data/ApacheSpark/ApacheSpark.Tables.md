@@ -5,8 +5,6 @@ title: ApacheSpark.Tables
 # ApacheSpark.Tables
 
 
-## Description
-
 Hiermee wordt een tabel geretourneerd waarin de tabellen voor het opgegeven Spark-cluster worden weergegeven.
 
 
@@ -21,7 +19,7 @@ ApacheSpark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tabel geretourneerd met de tabellen voor de <code>host</code> van het Spark-cluster die <code>protocol</code> gebruikt. Geldige protocollen zijn:SparkProtocol.Standard, SparkProtocol.HTTP
 

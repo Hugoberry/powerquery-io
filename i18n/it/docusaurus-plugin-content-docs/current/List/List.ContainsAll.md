@@ -5,8 +5,6 @@ title: List.ContainsAll
 # List.ContainsAll
 
 
-## Description
-
 Indica se un elenco include tutti i valori di un altro elenco.
 
 
@@ -21,7 +19,7 @@ List.ContainsAll(
 ```
 
 
-## Details
+## Remarks
 
 Indica se l'elenco <code>list</code> include tutti i valori dell'altro elenco <code>values</code>.    Restituisce true se il valore viene trovato nell'elenco, in caso contrario false. È possibile specificare un valore dei criteri di equazione facoltativo, <code>equationCriteria</code>, per verificare il test di uguaglianza. 
 

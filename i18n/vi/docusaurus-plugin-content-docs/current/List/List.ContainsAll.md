@@ -5,8 +5,6 @@ title: List.ContainsAll
 # List.ContainsAll
 
 
-## Description
-
 Cho biết nơi một danh sách bao gồm tất cả các giá trị trong một danh sách khác.
 
 
@@ -21,7 +19,7 @@ List.ContainsAll(
 ```
 
 
-## Details
+## Remarks
 
 Cho biết danh sách <code>list</code> có chứa tất cả các giá trị trong một danh sách khác, <code>values</code>, hay không.    Trả về true nếu tìm thấy giá trị trong danh sách, false nếu ngược lại. Có thể chỉ định giá trị tiêu chí phương trình tùy chọn, <code>equationCriteria</code>, để kiểm soát việc kiểm tra đẳng thức. 
 

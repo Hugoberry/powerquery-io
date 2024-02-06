@@ -5,8 +5,6 @@ title: DateTimeZone.ToRecord
 # DateTimeZone.ToRecord
 
 
-## Description
-
 Trả về một bản ghi chứa các phần của giá trị datetimezone.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Trả về bản ghi có chứa các phần của giá trị datetimezone đã cho, <code>dateTimeZone</code>. <ul>        <li><code>dateTimeZone</code>: Giá trị <code>datetimezone</code> cho bản ghi có chứa các phần được tính toán.</li>      </ul>
 

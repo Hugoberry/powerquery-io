@@ -5,8 +5,6 @@ title: Table.ContainsAny
 # Table.ContainsAny
 
 
-## Description
-
 指示任何指定的记录是否显示为表中的各行。
 
 
@@ -21,7 +19,7 @@ Table.ContainsAny(
 ```
 
 
-## Details
+## Remarks
 
 指示记录列表 <code>rows</code> 中任何指定的记录是否显示为 <code>table</code> 中的各行。    可以指定一个可选参数 <code>equationCriteria</code>，以控制表各行之间的比较。
 

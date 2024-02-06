@@ -5,8 +5,6 @@ title: Text.Upper
 # Text.Upper
 
 
-## Description
-
 सभी वर्णों को अपरकेस में कनवर्ट करता है.
 
 
@@ -20,7 +18,7 @@ Text.Upper(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> के सभी वर्णों को अपरकेस में रूपांतरित करने वाला परिणाम लौटाता है. वैकल्पिक <code>culture</code> भी प्रदान किया जा सकता है (उदाहरण के लिए, "en-US").
 

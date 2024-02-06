@@ -5,8 +5,6 @@ title: Table.RemoveMatchingRows
 # Table.RemoveMatchingRows
 
 
-## Description
-
 Rimuove tutte le occorrenze delle righe specificate dalla tabella.
 
 
@@ -21,7 +19,7 @@ Table.RemoveMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 Rimuove tutte le occorrenze di <code>rows</code> da <code>table</code>.    Facoltativamente, è possibile specificare il parametro <code>equationCriteria</code> per controllare il confronto tra le righe della tabella.
 

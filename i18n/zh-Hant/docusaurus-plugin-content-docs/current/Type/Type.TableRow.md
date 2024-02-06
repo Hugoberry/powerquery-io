@@ -5,8 +5,6 @@ title: Type.TableRow
 # Type.TableRow
 
 
-## Description
-
 傳回資料表類型的資料列類型。
 
 
@@ -19,7 +17,7 @@ Type.TableRow(
 ```
 
 
-## Details
+## Remarks
 
 傳回指定資料表類型的資料列類型。結果永遠會是記錄類型。
 

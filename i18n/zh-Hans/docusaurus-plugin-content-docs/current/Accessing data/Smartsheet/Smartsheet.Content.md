@@ -5,8 +5,6 @@ title: Smartsheet.Content
 # Smartsheet.Content
 
 
-## Description
-
 从 Smartsheet 索引终结点返回数据表。
 
 
@@ -19,7 +17,7 @@ Smartsheet.Content(
 ```
 
 
-## Details
+## Remarks
 
 在指定终结点调用 Smartsheet 2.0 REST API，并将返回的数据元素转换为表。
 

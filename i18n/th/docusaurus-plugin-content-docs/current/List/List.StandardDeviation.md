@@ -5,8 +5,6 @@ title: List.StandardDeviation
 # List.StandardDeviation
 
 
-## Description
-
 ส่งกลับการประมาณค่าเบี่ยงมาตรฐานโดยอิงตามตัวอย่าง
 
 
@@ -19,7 +17,7 @@ List.StandardDeviation(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนตัวอย่างที่อิงตามการประมาณค่าเบี่ยงเบนมาตรฐานของค่าในรายการ <code>numbersList</code>    ถ้า <code>numbersList</code> เป็นรายการจำนวน จะมีการส่งคืนจำนวน    เกิดข้อยกเว้นขึ้นกับรายการที่ว่างเปล่าหรือรายการข้อมูลที่ไม่ใช่ชนิด <code>ตัวเลข</code>
 

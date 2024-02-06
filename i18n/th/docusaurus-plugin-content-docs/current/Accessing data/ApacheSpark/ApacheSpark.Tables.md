@@ -5,8 +5,6 @@ title: ApacheSpark.Tables
 # ApacheSpark.Tables
 
 
-## Description
-
 ส่งคืนค่าตารางที่แสดงตารางสำหรับคลัสเตอร์ Spark ที่ระบุไว้
 
 
@@ -21,7 +19,7 @@ ApacheSpark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนค่าตารางที่แสดงตารางสำหรับคลัสเตอร์ Spark <code>โฮสต์</code> โดยใช้ <code>โปรโตคอล</code> โปรโตคอลที่ถูกต้องคือ:SparkProtocol.Standard, SparkProtocol.HTTP
 

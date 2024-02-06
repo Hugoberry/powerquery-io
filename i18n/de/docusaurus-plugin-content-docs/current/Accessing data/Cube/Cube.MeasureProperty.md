@@ -5,8 +5,6 @@ title: Cube.MeasureProperty
 # Cube.MeasureProperty
 
 
-## Description
-
 Gibt eine Eigenschaft eines Measures (Zelleigenschaft) zurück.
 
 
@@ -20,7 +18,7 @@ Cube.MeasureProperty(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die Eigenschaft "<code>propertyName</code>" des Measures "<code>measure</code>" zurück.
 

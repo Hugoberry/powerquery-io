@@ -5,8 +5,6 @@ title: Text.TrimEnd
 # Text.TrimEnd
 
 
-## Description
-
 เอาช่องว่างต่อท้ายทั้งหมดออก
 
 
@@ -20,7 +18,7 @@ Text.TrimEnd(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลลัพธ์ของการเอาช่องว่างต่อท้ายทั้งหมดออกจากค่าข้อความ <code>text</code>
 

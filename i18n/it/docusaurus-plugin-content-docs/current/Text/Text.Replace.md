@@ -5,8 +5,6 @@ title: Text.Replace
 # Text.Replace
 
 
-## Description
-
 Sostituisce tutte le occorrenze della sottostringa specificata nel testo.
 
 
@@ -21,7 +19,7 @@ Text.Replace(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il risultato della sostituzione di tutte le occorrenze del valore di testo <code>old</code> nel valore di testo <code>text</code> con il valore di testo <code>new</code>. Per questa funzione viene applicata la distinzione tra maiuscole e minuscole.
 

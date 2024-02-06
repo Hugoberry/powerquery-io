@@ -5,8 +5,6 @@ title: Table.Transpose
 # Table.Transpose
 
 
-## Description
-
 स्तंभों को पंक्तियों में और पंक्तियों को स्तंभों में बदलता है.
 
 
@@ -20,7 +18,7 @@ Table.Transpose(
 ```
 
 
-## Details
+## Remarks
 
 स्तंभों को पंक्तियों में और पंक्तियों को स्तंभों में बदलता है.
 

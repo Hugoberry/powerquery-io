@@ -5,8 +5,6 @@ title: Record.FromTable
 # Record.FromTable
 
 
-## Description
-
 Cria um registro de uma tabela no formato \{[Name = name, Value = value]}.
 
 
@@ -19,7 +17,7 @@ Record.FromTable(
 ```
 
 
-## Details
+## Remarks
 
 Retorna um registro de uma tabela de registros <code>table</code> que contêm nomes de campo e nomes de valor <code>\{[Name = name, Value = value]}</code>. Uma exceção será lançada se os nomes de campo não forem exclusivos.
 

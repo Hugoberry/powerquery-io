@@ -5,8 +5,6 @@ title: List.Mode
 # List.Mode
 
 
-## Description
-
 Returnerer den hyppigste værdi på listen.
 
 
@@ -20,7 +18,7 @@ List.Mode(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer det element, der vises mest hyppigt på listen, <code>list</code>. Hvis listen er tom, udløses der en undtagelse. Hvis der vises flere elementer med samme maksimumhyppighed, vælges den sidste.    Du kan angive en valgfri værdi af typen <code>comparisonCriteria</code>, <code>equationCriteria</code>, for at styre kvalitetstesten. 
 

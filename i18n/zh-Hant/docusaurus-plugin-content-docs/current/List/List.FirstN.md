@@ -5,8 +5,6 @@ title: List.FirstN
 # List.FirstN
 
 
-## Description
-
 指定要傳回的項目數或限定條件，以傳回清單中的第一組項目。
 
 
@@ -20,7 +18,7 @@ List.FirstN(
 ```
 
 
-## Details
+## Remarks
 
  <ul>  <li>如果指定了數字，最多傳回該數量的項目。</li>  <li>如果指定了條件，則傳回最初符合條件的所有項目。一旦有項目不符合條件，就不再考慮其他項目。</li> </ul>
 

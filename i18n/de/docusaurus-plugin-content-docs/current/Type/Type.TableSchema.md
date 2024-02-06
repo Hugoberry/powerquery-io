@@ -5,8 +5,6 @@ title: Type.TableSchema
 # Type.TableSchema
 
 
-## Description
-
 Gibt eine Tabelle mit einer Beschreibung der Spalten (d. h. das Schema) des angegebenen Tabellentyps zurück.
 
 
@@ -19,7 +17,7 @@ Type.TableSchema(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Tabelle mit einer Beschreibung der Spalten von „<code>tableType</code>“ zurück.<br />Eine Beschreibung der resultierenden Tabelle finden Sie in der Dokumentation zu <code>Table.Schema</code>.<br />
 

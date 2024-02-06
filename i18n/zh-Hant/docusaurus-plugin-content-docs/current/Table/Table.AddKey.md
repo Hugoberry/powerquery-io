@@ -5,8 +5,6 @@ title: Table.AddKey
 # Table.AddKey
 
 
-## Description
-
 將索引鍵加入至指定的資料表類型。
 
 
@@ -21,7 +19,7 @@ Table.AddKey(
 ```
 
 
-## Details
+## Remarks
 
 將索引鍵加入至 <code>table</code>、指定的 <code>columns</code> 是定義索引鍵之資料行名稱的子集，而且 <code>isPrimary</code> 會指定該索引鍵是否為主索引鍵。
 

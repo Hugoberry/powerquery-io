@@ -5,8 +5,6 @@ title: Guid.From
 # Guid.From
 
 
-## Description
-
 Returnerar ett GUID-värde från det givna värdet.
 
 
@@ -19,7 +17,7 @@ Guid.From(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett <code>Guid.Type</code>-värde från angivna <code>value</code>. Om det angivna <code>value</code> är <code>null</code>, så returnerar<code>Guid.From</code> <code>null</code>. En kontroll utförs för att avgöra om det angivna <code>value</code> har ett acceptabelt format. Acceptabla format anges i exemplen.
 

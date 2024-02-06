@@ -5,8 +5,6 @@ title: Table.RemoveColumns
 # Table.RemoveColumns
 
 
-## Description
-
 指定された列を削除します。
 
 
@@ -21,7 +19,7 @@ Table.RemoveColumns(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>table</code> から、指定された <code>columns</code> を削除します。    指定された列が存在しない場合は、省略可能なパラメーターの <code>missingField</code> で代替動作 (<code>MissingField.UseNull</code>、<code>MissingField.Ignore</code> など) が指定されていない限り、エラーが発生します。
 

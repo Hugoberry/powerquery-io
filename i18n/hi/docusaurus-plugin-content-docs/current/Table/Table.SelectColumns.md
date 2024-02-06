@@ -5,8 +5,6 @@ title: Table.SelectColumns
 # Table.SelectColumns
 
 
-## Description
-
 केवल निर्दिष्ट स्तंभों के साथ एक तालिका लौटाता है.
 
 
@@ -21,7 +19,7 @@ Table.SelectColumns(
 ```
 
 
-## Details
+## Remarks
 
 केवल निर्दिष्ट <code>columns</code> के साथ <code>table</code> लौटाता है.    <ul>       <li><code>table</code>: प्रदान की गई तालिका.</li>       <li><code>columns</code>: वापस करने के लिए तालिका <code>table</code> से कालम की सूची. <code>columns</code> में सूचीबद्ध ऑर्डर में वापस की गई तालिका में कालम.</li>       <li><code>missingField</code>: <i>(Optional)</i> कालम न होने पर क्या करें.  उदाहरण: <code>MissingField.UseNull</code> या <code>MissingField.Ignore</code>.    </li></ul>
 

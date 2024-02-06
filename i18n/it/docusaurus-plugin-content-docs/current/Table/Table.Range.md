@@ -5,8 +5,6 @@ title: Table.Range
 # Table.Range
 
 
-## Description
-
 Restituisce le righe a partire dall&#39;offset specificato.
 
 
@@ -21,7 +19,7 @@ Table.Range(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce le righe da <code>table</code> a partire da <code>offset</code>. Il parametro facoltativo <code>count</code> specifica il numero di righe da restituire. Per impostazione predefinita, vengono restituite tutte le righe dopo l'offset.
 

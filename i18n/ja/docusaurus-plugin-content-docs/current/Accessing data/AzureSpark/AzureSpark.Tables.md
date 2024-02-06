@@ -5,8 +5,6 @@ title: AzureSpark.Tables
 # AzureSpark.Tables
 
 
-## Description
-
 Azure Spark インスタンス内のテーブルを一覧表示します。
 
 
@@ -20,7 +18,7 @@ AzureSpark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Azure Spark インスタンス内のテーブルを一覧表示します。
 

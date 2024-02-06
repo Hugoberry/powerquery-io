@@ -5,8 +5,6 @@ title: Date.MonthName
 # Date.MonthName
 
 
-## Description
-
 Trả về tên cấu phần tháng.
 
 
@@ -20,7 +18,7 @@ Date.MonthName(
 ```
 
 
-## Details
+## Remarks
 
 Trả về tên cấu phần tháng cho <code>date</code> được cung cấp. <code>culture</code> tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
 

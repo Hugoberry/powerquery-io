@@ -5,8 +5,6 @@ title: List.ReplaceRange
 # List.ReplaceRange
 
 
-## Description
-
 स्थिति पर प्रारंभ होने वाले मानों की गणना संख्या को प्रतिस्थापन मानों के साथ प्रतिस्थापित करता है.
 
 
@@ -22,7 +20,7 @@ List.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> के <code>count</code> मानों को निर्दिष्ट स्थिति, <code>index</code> पर प्रारंभ होने वाली सूची <code>replaceWith</code>, के साथ प्रतिस्थापित करता है.
 

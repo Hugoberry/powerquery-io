@@ -5,8 +5,6 @@ title: Table.ToRows
 # Table.ToRows
 
 
-## Description
-
 Tworzy listę zagnieżdżonych list wartości wierszy na podstawie tabeli.
 
 
@@ -19,7 +17,7 @@ Table.ToRows(
 ```
 
 
-## Details
+## Remarks
 
 Tworzy listę zagnieżdżonych list na podstawie tabeli <code>table</code>.  Każdy element tej listy to lista wewnętrzna zawierająca wartości wiersza.
 

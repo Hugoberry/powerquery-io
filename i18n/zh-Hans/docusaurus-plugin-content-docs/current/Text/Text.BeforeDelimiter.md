@@ -5,8 +5,6 @@ title: Text.BeforeDelimiter
 # Text.BeforeDelimiter
 
 
-## Description
-
 Text.BeforeDelimiter
 
 
@@ -21,7 +19,7 @@ Text.BeforeDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 返回 <code>text</code> 中位于指定的 <code>delimiter</code> 之前的部分。    可选数字 <code>index</code> 指示要考虑哪一次出现的 <code>delimiter</code>。    可选列表 <code>index</code> 指示要考虑哪一次出现的 <code>delimiter</code>，以及应从输入的开头还是结尾编制索引。
 

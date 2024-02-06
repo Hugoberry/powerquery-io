@@ -5,8 +5,6 @@ title: BinaryFormat.7BitEncodedUnsignedInteger
 # BinaryFormat.7BitEncodedUnsignedInteger
 
 
-## Description
-
 7 bit değişken uzunlukta kodlama kullanılarak kodlanan bir 64 bit işaretsiz tamsayıyı okuyan bir ikili biçimi.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.7BitEncodedUnsignedInteger(
 ```
 
 
-## Details
+## Remarks
 
 7 bit değişken uzunlukta kodlama kullanılarak kodlanan bir 64 bit işaretsiz tamsayıyı okuyan bir ikili biçimi.
 

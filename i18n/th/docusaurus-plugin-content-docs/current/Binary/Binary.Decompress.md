@@ -5,8 +5,6 @@ title: Binary.Decompress
 # Binary.Decompress
 
 
-## Description
-
 ขยายค่าไบนารีโดยใช้ชนิดการบีบอัดที่ระบุ
 
 
@@ -20,7 +18,7 @@ Binary.Decompress(
 ```
 
 
-## Details
+## Remarks
 
 ขยายค่าไบนารีโดยใช้ชนิดการบีบอัดที่ระบุ  ผลลัพธ์ของการเรียกนี้คือสำเนาที่ถูกขยายของข้อมูลป้อนเข้า ชนิดการบีบอัดประกอบด้วย:   <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>       </ul>
 

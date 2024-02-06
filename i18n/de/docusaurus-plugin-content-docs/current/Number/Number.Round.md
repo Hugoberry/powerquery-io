@@ -5,8 +5,6 @@ title: Number.Round
 # Number.Round
 
 
-## Description
-
 Gibt die gerundete Zahl zurück. Dezimalstellenanzahl und Rundungsmodus können angegeben werden.
 
 
@@ -21,7 +19,7 @@ Number.Round(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das Ergebnis der Rundung von <code>number</code> auf die nächste Zahl zurück. Wenn <code>number</code> NULL ist, gibt <code>Number.Round</code> NULL zurück.<br />      <br />      Standardmäßig wird <code>number</code> auf die nächste ganze Zahl gerundet, und Gleichstände werden durch Rundung auf die nächste gerade Zahl aufgelöst (unter Verwendung von <code>RoundingMode.ToEven</code>, auch bekannt als „unverzerrte Rundung“).<br />      <br />      Diese Standardwerte können jedoch über die folgenden optionalen Parameter überschrieben werden.       <ul>        <li><code>digits</code>: Bewirkt, dass <code>number</code> auf die angegebene Anzahl von Dezimalstellen gerundet wird.</li>        <li><code>roundingMode</code>: Überschreibt das Standardverhalten zur Auflösung von Gleichständen, wenn sich <code>number</code> in der Mitte zwischen zwei möglichen gerundeten Werten befindet.      (siehe <code>RoundingMode.Type</code> für mögliche Werte).</li>      </ul>
 

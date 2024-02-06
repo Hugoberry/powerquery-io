@@ -5,8 +5,6 @@ title: Identity.IsMemberOf
 # Identity.IsMemberOf
 
 
-## Description
-
 決定身分識別是否為身分識別集合的成員。
 
 
@@ -20,7 +18,7 @@ Identity.IsMemberOf(
 ```
 
 
-## Details
+## Remarks
 
 決定身分識別是否為身分識別集合的成員。
 

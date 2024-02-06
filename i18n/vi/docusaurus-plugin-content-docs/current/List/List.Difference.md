@@ -5,8 +5,6 @@ title: List.Difference
 # List.Difference
 
 
-## Description
-
 Trả về chênh lệch giữa hai danh sách cho sẵn.
 
 
@@ -21,7 +19,7 @@ List.Difference(
 ```
 
 
-## Details
+## Remarks
 
 Trả về các mục trong danh sách <code>list1</code> không xuất hiện trong danh sách <code>list2</code>. Các giá trị trùng lặp được hỗ trợ.    Có thể chỉ định giá trị tiêu chí phương trình tùy chọn, <code>equationCriteria</code>, để kiểm soát việc kiểm tra đẳng thức. 
 

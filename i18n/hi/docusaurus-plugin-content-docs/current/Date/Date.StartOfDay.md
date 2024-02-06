@@ -5,8 +5,6 @@ title: Date.StartOfDay
 # Date.StartOfDay
 
 
-## Description
-
 दिन के शुरू में लौटाता है.
 
 
@@ -19,7 +17,7 @@ Date.StartOfDay(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> द्वारा दर्शाए गए दिन की शुरुआत में लौटाता है.    <code>dateTime</code> का एक <code>date</code>, <code>datetime</code> या <code>datetimezone</code> मान होना अनिवार्य है.
 

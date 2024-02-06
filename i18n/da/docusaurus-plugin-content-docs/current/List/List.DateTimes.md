@@ -5,8 +5,6 @@ title: List.DateTimes
 # List.DateTimes
 
 
-## Description
-
 Opretter en liste over værdier af typen datetime med en indledende værdi for værdi, antal og stigende varighed.
 
 
@@ -21,7 +19,7 @@ List.DateTimes(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en liste over værdier af typen <code>datetime</code> i størrelsen <code>count</code> og med start ved <code>start</code>. Den angivne stigning, <code>step</code>, er en værdi af typen <code>duration</code>, der lægges til alle værdier.
 

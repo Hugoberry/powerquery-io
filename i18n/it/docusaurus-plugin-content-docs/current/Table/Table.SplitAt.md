@@ -5,8 +5,6 @@ title: Table.SplitAt
 # Table.SplitAt
 
 
-## Description
-
 Restituisce un elenco che contiene le prime righe del conteggio specificate e le righe rimanenti.
 
 
@@ -20,7 +18,7 @@ Table.SplitAt(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un elenco che contiene due tabelle, una con le prime N righe di <code>table</code> (come specificato da <code>count</code>) e una che contiene le righe rimanenti di <code>table</code>.Se le tabelle dell'elenco risultante vengono enumerate esattamente una volta e nell'ordine, la funzione enumererà <code>table</code> una sola volta.
 

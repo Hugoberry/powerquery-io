@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger64
 # BinaryFormat.UnsignedInteger64
 
 
-## Description
-
 รูปแบบไบนารีที่อ่านจำนวนเต็มที่ไม่มีเครื่องหมาย 64 บิต
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger64(
 ```
 
 
-## Details
+## Remarks
 
 รูปแบบไบนารีที่อ่านจำนวนเต็มที่ไม่มีเครื่องหมาย 64 บิต
 

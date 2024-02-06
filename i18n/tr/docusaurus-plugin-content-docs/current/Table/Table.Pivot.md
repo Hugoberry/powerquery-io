@@ -5,8 +5,6 @@ title: Table.Pivot
 # Table.Pivot
 
 
-## Description
-
 Öznitelik değer çiftlerini temsil eden sütun çiftleri ile öznitelik sütunundaki verileri bir sütun başlığı olarak döndürür.
 
 
@@ -23,7 +21,7 @@ Table.Pivot(
 ```
 
 
-## Details
+## Remarks
 
 Öznitelik değer çiftlerini temsil eden sütun çiftleri ile öznitelik sütunundaki verileri bir sütun başlığı olarak döndürür.
 

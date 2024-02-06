@@ -5,8 +5,6 @@ title: List.Contains
 # List.Contains
 
 
-## Description
-
 इंगित करता है कि क्या सूची में मान है.
 
 
@@ -21,7 +19,7 @@ List.Contains(
 ```
 
 
-## Details
+## Remarks
 
 इंगित करता है कि <code>list</code> सूची में <code>value</code> मान शामिल है या नहीं.    यदि मान सूची में पाया जाता है, तो सत्य अन्यथा गलत लौटाता है. समानता परीक्षण नियंत्रित करने के लिए एक वैकल्पिक समीकरण मानदंड मान <code>equationCriteria</code> निर्दिष्ट किया जा सकता है. 
 

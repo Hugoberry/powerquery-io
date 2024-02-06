@@ -5,8 +5,6 @@ title: DateTime.AddZone
 # DateTime.AddZone
 
 
-## Description
-
 Добавляет сведения о часовом поясе в значение даты и времени.
 
 
@@ -21,7 +19,7 @@ DateTime.AddZone(
 ```
 
 
-## Details
+## Remarks
 
 Добавляет сведения о часовом поясе в значение <code>dateTime</code>. Сведения о часовом поясе включают <code>timezoneHours</code> и <code>timezoneMinutes</code> (необязательно), которые указывают желаемое смещение от времени в формате UTC.
 

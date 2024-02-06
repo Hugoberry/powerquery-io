@@ -5,8 +5,6 @@ title: Table.ReplaceMatchingRows
 # Table.ReplaceMatchingRows
 
 
-## Description
-
 Erstatter alle de angivne rækker med den eller de leverede rækker.
 
 
@@ -21,7 +19,7 @@ Table.ReplaceMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 Erstatter alle de angivne rækker i <code>table</code> med de leverede. De rækker, der skal erstattes, og erstatningerne er angivet i <code>replacements</code> i formatet \{old, new}.    Der kan angives en valgfri parameter af typen <code>equationCriteria</code> for at styre sammenligningen mellem rækkerne i tabellen.
 

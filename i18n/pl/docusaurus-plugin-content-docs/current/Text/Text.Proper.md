@@ -5,8 +5,6 @@ title: Text.Proper
 # Text.Proper
 
 
-## Description
-
 Zamienia pierwszą literę każdego wyrazu na wielką.
 
 
@@ -20,7 +18,7 @@ Text.Proper(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wynik zamiany na wielką literę pierwszej litery każdego wyrazu w wartości tekstowej <code>text</code>. Wszystkie inne litery w zwracanej wartości są małymi literami. Można także określić opcjonalny parametr <code>culture</code> (na przykład „en-US”).
 

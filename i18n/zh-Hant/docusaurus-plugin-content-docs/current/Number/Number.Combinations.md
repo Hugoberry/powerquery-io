@@ -5,8 +5,6 @@ title: Number.Combinations
 # Number.Combinations
 
 
-## Description
-
 傳回唯一組合的數目。
 
 
@@ -20,7 +18,7 @@ Number.Combinations(
 ```
 
 
-## Details
+## Remarks
 
 根據項目清單 <code>setSize</code>，傳回指定之組合大小 <code>combinationSize</code> 的唯一組合數目。<ul>    <li><code>setSize</code>: 清單中的項目數目。</li>    <li><code>combinationSize</code>: 每個組合中的項目數目。</li></ul>
 

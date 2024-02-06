@@ -5,8 +5,6 @@ title: Table.ExpandTableColumn
 # Table.ExpandTableColumn
 
 
-## Description
-
 Développe une colonne d&#39;enregistrements ou une colonne de tables en plusieurs colonnes dans la table conteneur.
 
 
@@ -22,7 +20,7 @@ Table.ExpandTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Développe les tables dans <code>table</code>[<code>column</code>] en plusieurs lignes et colonnes. <code>columnNames</code> est utilisé pour sélectionner les colonnes à développer à partir d'une table interne. Spécifie <code>newColumnNames</code> pour éviter les conflits entre des colonnes existantes et de nouvelles colonnes.
 

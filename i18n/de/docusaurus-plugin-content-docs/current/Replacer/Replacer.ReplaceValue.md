@@ -5,8 +5,6 @@ title: Replacer.ReplaceValue
 # Replacer.ReplaceValue
 
 
-## Description
-
 Ersetzt Werte innerhalb der angegebenen Eingabe.
 
 
@@ -21,7 +19,7 @@ Replacer.ReplaceValue(
 ```
 
 
-## Details
+## Remarks
 
 Ersetzt den Wert "<code>old</code>" in der ursprünglichen Eingabe "<code>value</code>" durch den Wert "<code>new</code>". Diese Ersetzungsfunktion kann in <code>List.ReplaceValue</code> und <code>Table.ReplaceValue</code> verwendet werden.
 

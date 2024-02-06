@@ -5,8 +5,6 @@ title: Text.Remove
 # Text.Remove
 
 
-## Description
-
 Удаляет все вхождения заданного символа или списка символов из входного текстового значения.
 
 
@@ -20,7 +18,7 @@ Text.Remove(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает копию текстового значения <code>text</code>, в которой удалены все символы с <code>removeChars</code>.  
 

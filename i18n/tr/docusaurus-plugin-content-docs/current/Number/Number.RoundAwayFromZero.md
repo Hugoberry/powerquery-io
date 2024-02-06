@@ -5,8 +5,6 @@ title: Number.RoundAwayFromZero
 # Number.RoundAwayFromZero
 
 
-## Description
-
 Pozitif sayıları yukarı yuvarlama ve negatif sayıları aşağı yuvarlama sonucunu döndürür. Basamakların sayısı belirlenebilir.
 
 
@@ -20,7 +18,7 @@ Number.RoundAwayFromZero(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> yuvarlamasının sonucunu, sayının işaretine göre döndürür. Bu işlev pozitif sayıları yukarı, negatif sayıları ise aşağı yuvarlar.    <code>digits</code> belirlenirse, <code>number</code> değeri, <code>digits</code> değerinin onlu basamak sayısına yuvarlanır.  
 

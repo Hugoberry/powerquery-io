@@ -5,8 +5,6 @@ title: List.Dates
 # List.Dates
 
 
-## Description
-
 Generiert eine Liste mit date-Werten auf der Grundlage eines Anfangswerts, einer Anzahl und eines inkrementellen duration-Werts.
 
 
@@ -21,7 +19,7 @@ List.Dates(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Liste mit <code>date</code>-Werten der Größe "<code>count</code>" ab "<code>start</code>" zurück. Das angegebene Inkrement (<code>step</code>) ist ein <code>duration</code>-Wert, der zu den einzelnen Werten addiert wird.
 

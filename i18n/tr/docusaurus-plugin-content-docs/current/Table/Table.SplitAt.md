@@ -5,8 +5,6 @@ title: Table.SplitAt
 # Table.SplitAt
 
 
-## Description
-
 Belirtilen ilk sayı satırlarını ve kalan satırları içeren bir liste döndürür.
 
 
@@ -20,7 +18,7 @@ Table.SplitAt(
 ```
 
 
-## Details
+## Remarks
 
 İki tablo içeren bir liste geri gönderir: <code>table</code> öğesinin ilk N satırını içeren bir tablo ( <code>count</code> tarafından belirtildiği gibi) ve <code>table</code> öğesinin kalan satırlarını içeren bir tablo.Elde edilen listedeki tablolar tam olarak bir kez ve sırayla listeleniyorsa, işlev <code>table</code> öğesini yalnızca bir kez listeler.
 

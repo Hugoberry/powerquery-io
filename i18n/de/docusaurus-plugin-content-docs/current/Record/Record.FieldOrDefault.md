@@ -5,8 +5,6 @@ title: Record.FieldOrDefault
 # Record.FieldOrDefault
 
 
-## Description
-
 Gibt den Wert des angegebenen Felds in einem Datensatz zurück. Wird das Feld nicht gefunden, wird der Standardwert zurückgegeben.
 
 
@@ -21,7 +19,7 @@ Record.FieldOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Wert des angegebenen Felds (<code>field</code>) im Datensatz "<code>record</code>" zurück. Wird das Feld nicht gefunden, wird der optionale Wert "<code>defaultValue</code>" zurückgegeben.
 

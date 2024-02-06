@@ -5,8 +5,6 @@ title: Table.AddKey
 # Table.AddKey
 
 
-## Description
-
 Thêm một khóa vào bảng.
 
 
@@ -21,7 +19,7 @@ Table.AddKey(
 ```
 
 
-## Details
+## Remarks
 
 Thêm một khóa vào <code>table</code>, trong đó <code>columns</code> là danh sách bao gồm các tên cột xác định khóa và <code>isPrimary</code> chỉ định đó có phải là khóa chính không.
 

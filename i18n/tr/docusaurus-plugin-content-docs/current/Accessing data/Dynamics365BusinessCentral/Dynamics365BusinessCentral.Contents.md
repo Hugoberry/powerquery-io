@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.Contents
 # Dynamics365BusinessCentral.Contents
 
 
-## Description
-
 Dynamics 365 Business Central ortamınızı ve şirketinizi girin.
 
 
@@ -19,7 +17,7 @@ Dynamics365BusinessCentral.Contents(
 ```
 
 
-## Details
+## Remarks
 
 İlgili Dynamics 365 Business Central verilerinin bulunduğu bir tablo döndürür. 
 

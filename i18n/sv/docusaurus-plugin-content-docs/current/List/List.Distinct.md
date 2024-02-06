@@ -5,8 +5,6 @@ title: List.Distinct
 # List.Distinct
 
 
-## Description
-
 Returnerar en lista med värden med borttagna dubbletter.
 
 
@@ -20,7 +18,7 @@ List.Distinct(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en lista som innehåller alla värdena i listan <code>list</code> med borttagna dubbletter. Om listan är tom är resultatet en tom lista.
 

@@ -17,7 +17,7 @@ DataWorld.Dataset(
 ```
 
 
-## Details
+## Remarks
 
 Permite recuperar un conjunto de datos de Data.World.
 

@@ -5,8 +5,6 @@ title: DateTimeZone.SwitchZone
 # DateTimeZone.SwitchZone
 
 
-## Description
-
 Cambia la zona horaria del valor.
 
 
@@ -21,7 +19,7 @@ DateTimeZone.SwitchZone(
 ```
 
 
-## Details
+## Remarks
 
 Cambia la información de zona horaria al valor de datetimezone <code>dateTimeZone</code> para la nueva información de zona horaria proporcionada por <code>timezoneHours</code> y, opcionalmente, <code>timezoneMinutes</code>.    Si <code>dateTimeZone</code> no tiene un componente de zona horaria, se inicia una excepción.
 

@@ -5,8 +5,6 @@ title: File.Contents
 # File.Contents
 
 
-## Description
-
 Belirtilen dosyanın içeriğini ikili olarak döndürür.
 
 
@@ -20,7 +18,7 @@ File.Contents(
 ```
 
 
-## Details
+## Remarks
 
 <code>path</code> dosyasının içeriğini ikili olarak döndürür. <code>options</code> parametresi şu anda yalnızca dahili kullanıma yöneliktir.
 

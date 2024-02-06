@@ -5,8 +5,6 @@ title: Marketo.Activities
 # Marketo.Activities
 
 
-## Description
-
 Trả về bảng có các hoạt động của khách hàng tiềm năng.
 
 
@@ -21,7 +19,7 @@ Marketo.Activities(
 ```
 
 
-## Details
+## Remarks
 
 Gọi tới điểm cuối API Marketo REST tại <code>url</code>/rest/v1/activities.json. Tất cả hoạt động trong danh sách <code>activityIds</code> đã diễn ra kể từ khi trả về <code>startTime</code>.
 

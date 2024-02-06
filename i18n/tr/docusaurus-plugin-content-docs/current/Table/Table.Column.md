@@ -5,8 +5,6 @@ title: Table.Column
 # Table.Column
 
 
-## Description
-
 Tablodan belirtilen veri sütununu liste olarak döndürür.
 
 
@@ -20,7 +18,7 @@ Table.Column(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> tablosundan <code>column</code> tarafından belirtilen veri sütununu liste olarak döndürür.
 

@@ -5,8 +5,6 @@ title: BinaryFormat.Double
 # BinaryFormat.Double
 
 
-## Description
-
 Một định dạng nhị phân đọc giá trị dấu chấm động có độ chính xác kép IEEE 8 byte.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Double(
 ```
 
 
-## Details
+## Remarks
 
 Một định dạng nhị phân đọc giá trị dấu chấm động có độ chính xác kép IEEE 8 byte.
 

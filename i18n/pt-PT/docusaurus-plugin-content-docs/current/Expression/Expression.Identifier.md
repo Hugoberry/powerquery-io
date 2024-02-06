@@ -5,8 +5,6 @@ title: Expression.Identifier
 # Expression.Identifier
 
 
-## Description
-
 Devolve a representação do código fonte M de um identificador.
 
 
@@ -19,7 +17,7 @@ Expression.Identifier(
 ```
 
 
-## Details
+## Remarks
 
 Devolve a representação do código fonte M de um identificador <code>name</code>.
 

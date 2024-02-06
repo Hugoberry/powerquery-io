@@ -5,8 +5,6 @@ title: Date.EndOfWeek
 # Date.EndOfWeek
 
 
-## Description
-
 Retorna o final da semana.
 
 
@@ -20,7 +18,7 @@ Date.EndOfWeek(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o final da semana que contém <code>dateTime</code>.    Esta função recebe um opcional <code>Day</code>, <code>firstDayOfWeek</code>, para definir como o primeiro dia da semana para este cálculo relativo. o valor padrão é <code>Day.Sunday</code>.      <ul>        <li><code>dateTime</code>: um valor <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> valor a partir do qual o último dia da semana é calculado</li>        <li><code>firstDayOfWeek</code>: <i>[Optional]</i> um valor <code>Day.Type</code> representando o primeiro dia da semana. Os valores possíveis são <code>Day.Sunday</code>, <code>Day.Monday</code>, <code>Day.Tuesday</code>, <code>Day.Wednesday</code>, <code>Day.Thursday</code>, <code>Day.Friday</code> e <code>Day.Saturday.</code> . O valor padrão é <code>Day.Sunday</code>.</li>      </ul>
 

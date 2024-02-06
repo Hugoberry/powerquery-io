@@ -5,8 +5,6 @@ title: Function.From
 # Function.From
 
 
-## Description
-
 1 つのリスト引数を取得する関数の上に特定のパラメーターのシグネチャを持つ関数を作成します。
 
 
@@ -20,7 +18,7 @@ Function.From(
 ```
 
 
-## Details
+## Remarks
 
 単項の関数 <code>function</code> を取得し、<code>functionType</code> の種類の新しい関数を作成します。これは、その引数からリストを構築して、それを <code>function</code> に渡します。
 

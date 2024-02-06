@@ -5,8 +5,6 @@ title: Record.SelectFields
 # Record.SelectFields
 
 
-## Description
-
 Возвращает запись, которая содержит только заданные поля.
 
 
@@ -21,7 +19,7 @@ Record.SelectFields(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает запись, которая включает только поля, указанные в списке <code>fields</code>, из входных данных <code>record</code>.
 

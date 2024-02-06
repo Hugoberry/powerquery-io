@@ -5,8 +5,6 @@ title: VSTS.AccountContents
 # VSTS.AccountContents
 
 
-## Description
-
 Azure DevOps Analytics Hizmetinizin Url&#39;sini girin.
 
 
@@ -20,7 +18,7 @@ VSTS.AccountContents(
 ```
 
 
-## Details
+## Remarks
 
 Azure DevOps Analytics Hizmeti URL'sinden indirilen içeriği ikili değer olarak döndürür. Bu işlev, farklı kuruluşlar için farklı kimlik bilgileri kullanır.
 

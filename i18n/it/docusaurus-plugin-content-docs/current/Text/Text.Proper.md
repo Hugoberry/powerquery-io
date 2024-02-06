@@ -5,8 +5,6 @@ title: Text.Proper
 # Text.Proper
 
 
-## Description
-
 Converte in maiuscolo la prima lettera di ogni parola.
 
 
@@ -20,7 +18,7 @@ Text.Proper(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il risultato della conversione in maiuscolo solo della prima lettera di ogni parola nel valore di testo <code>text</code>. Tutte le altre lettere vengono restituite in minuscolo. È anche possibile specificare un valore <code>culture</code> facoltativo, ad esempio "it-IT".
 

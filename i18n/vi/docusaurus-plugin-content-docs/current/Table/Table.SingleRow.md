@@ -5,8 +5,6 @@ title: Table.SingleRow
 # Table.SingleRow
 
 
-## Description
-
 Trả về hàng duy nhất trong bảng.
 
 
@@ -19,7 +17,7 @@ Table.SingleRow(
 ```
 
 
-## Details
+## Remarks
 
 Trả về hàng duy nhất trong một hàng <code>table</code>. Nếu <code>table</code> có nhiều hàng thì một ngoại lệ được đưa ra.
 

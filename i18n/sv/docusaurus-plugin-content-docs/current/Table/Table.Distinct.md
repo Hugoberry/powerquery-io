@@ -5,8 +5,6 @@ title: Table.Distinct
 # Table.Distinct
 
 
-## Description
-
 Tar bort dubblettrader i tabellen.
 
 
@@ -20,7 +18,7 @@ Table.Distinct(
 ```
 
 
-## Details
+## Remarks
 
 Tar bort dubblettrader från tabellen. En valfri parameter, <code>equationCriteria</code>, anger vilka kolumner i tabellen som testas för duplicering. Om <code>equationCriteria</code> inte anges testas alla kolumner.<br /> <br /> Eftersom Power Query ibland avlastar vissa åtgärder till serverdelsdatakällor (kallas "vikning") och även ibland optimerar frågor genom att  hoppa över åtgärder som inte är absolut nödvändiga,  i allmänhet finns det ingen garanti för vilken specifik dubblett som ska bevaras. Du kan till exempel inte förutsätta att den första raden med en unik uppsättning kolumnvärden finns kvar och att rader längre ned i tabellen tas bort. Om du vill att dubblettborttagningen ska fungera förutsägbart buffrar du först tabellen med <code>Table.Buffer</code>.
 

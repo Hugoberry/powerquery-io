@@ -5,8 +5,6 @@ title: VSTS.AccountContents
 # VSTS.AccountContents
 
 
-## Description
-
 Especifique la URL del servicio Analytics de Azure DevOps.
 
 
@@ -20,7 +18,7 @@ VSTS.AccountContents(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve el contenido descargado de la dirección URL del servicio Analytics de Azure DevOps como valor binario. Esta función utiliza credenciales diferentes para cada organización.
 

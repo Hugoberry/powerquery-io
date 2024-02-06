@@ -5,8 +5,6 @@ title: Duration.Minutes
 # Duration.Minutes
 
 
-## Description
-
 Gibt den Minutenanteil einer Dauer zurück.
 
 
@@ -19,7 +17,7 @@ Duration.Minutes(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Minutenanteil von <code>duration</code> zurück.
 

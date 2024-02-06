@@ -5,8 +5,6 @@ title: Binary.Buffer
 # Binary.Buffer
 
 
-## Description
-
 Buffrar binärvärdet i minne.
 
 
@@ -19,7 +17,7 @@ Binary.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Buffrar binärvärdet i minne. Resultatet av detta anrop är ett stabilt binärvärde, vilket betyder att det har en deterministisk längd och byteordning.
 

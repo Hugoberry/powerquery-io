@@ -5,8 +5,6 @@ title: Excel.CurrentWorkbook
 # Excel.CurrentWorkbook
 
 
-## Description
-
 Возвращает содержимое текущей книги Excel.
 
 
@@ -19,7 +17,7 @@ Excel.CurrentWorkbook(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает содержимое текущей книги Excel. Возвращает таблицы, именованные диапазоны и динамические массивы. Не возвращает листы, в отличие от <code>Excel.Workbook</code>.
 

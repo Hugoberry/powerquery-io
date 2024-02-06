@@ -5,8 +5,6 @@ title: Number.Log10
 # Number.Log10
 
 
-## Description
-
 数値の 10 を底とする対数を返します。
 
 
@@ -19,7 +17,7 @@ Number.Log10(
 ```
 
 
-## Details
+## Remarks
 
 数値 <code>number</code> の 10 を底とする対数を返します。<code>number</code> が NULL の場合、<code>Number.Log10</code> は NULL を返します。
 

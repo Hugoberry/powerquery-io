@@ -5,8 +5,6 @@ title: Spark.Tables
 # Spark.Tables
 
 
-## Description
-
 Retorna uma tabela que lista as tabelas do cluster do Spark especificado.
 
 
@@ -21,7 +19,7 @@ Spark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma tabela que lista as tabelas do cluster <code>host</code> do Spark usando <code>protocol</code>. Os protocolos válidos são:SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
 

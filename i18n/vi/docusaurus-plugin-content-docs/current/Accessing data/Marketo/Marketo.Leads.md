@@ -5,8 +5,6 @@ title: Marketo.Leads
 # Marketo.Leads
 
 
-## Description
-
 Trả về bảng có chi tiết về khách hàng tiềm năng.
 
 
@@ -21,7 +19,7 @@ Marketo.Leads(
 ```
 
 
-## Details
+## Remarks
 
 Gọi tới điểm cuối API Marketo REST tại <code>url</code>/rest/v1/leads.json. Tất cả khách hàng tiềm năng trong danh sách kể từ khi trả về <code>leadIds</code>.
 

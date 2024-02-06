@@ -5,8 +5,6 @@ title: List.IsDistinct
 # List.IsDistinct
 
 
-## Description
-
 इंगित करता है कि क्या सूची में डुप्लिकेट हैं.
 
 
@@ -20,7 +18,7 @@ List.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 सूची <code>list</code> में जहाँ भी डुप्लिकेट होते हैं वहाँ एक लॉजिकल मान लौटाता है; <code>true</code> अगर सूची विशिष्ट है, <code>false</code> अगर इसमें डुप्लिकेट मान हैं. 
 

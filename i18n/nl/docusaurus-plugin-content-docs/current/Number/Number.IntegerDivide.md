@@ -5,8 +5,6 @@ title: Number.IntegerDivide
 # Number.IntegerDivide
 
 
-## Description
-
 Deelt twee getallen en retourneert het gehele getal van de uitkomst als resultaat.
 
 
@@ -21,7 +19,7 @@ Number.IntegerDivide(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt het deel met het gehele getal geretourneerd van het resultaat van het delen van een getal, <code>number1</code>, door een ander getal, <code>number2</code>. Als <code>number1</code> of <code>number2</code> null zijn, retourneert <code>Number.IntegerDivide</code> null. <ul> <li><code>number1</code>: de noemer.</li> <li><code>number2</code>: de deler.</li> </ul>
 

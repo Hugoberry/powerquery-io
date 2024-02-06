@@ -5,8 +5,6 @@ title: Number.IsEven
 # Number.IsEven
 
 
-## Description
-
 अगर मान सम है, तो संकेत देता है.
 
 
@@ -19,7 +17,7 @@ Number.IsEven(
 ```
 
 
-## Details
+## Remarks
 
 अगर मान सम है, तो <code>true</code> अन्यथा <code>false</code> लौटाकर संकेत देता है कि मान, <code>number</code>, सम है.
 

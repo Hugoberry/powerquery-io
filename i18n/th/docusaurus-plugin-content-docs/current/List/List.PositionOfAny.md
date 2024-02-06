@@ -5,8 +5,6 @@ title: List.PositionOfAny
 # List.PositionOfAny
 
 
-## Description
-
 ส่งกลับออฟเซตแรกของค่าในรายการ
 
 
@@ -22,7 +20,7 @@ List.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับออฟเซตในรายการ <code>list</code> ของการเกิดเหตุการณ์ครั้งแรกของค่าในรายการ <code>values</code> ส่งกลับ -1 ถ้าไม่พบการปรากฏ    สามารถระบุพารามิเตอร์การปรากฏ <code>occurrence</code> ที่เลือกได้<ul>   <li><code>occurrence</code>: จำนวนสูงสุดของเหตุการณ์ที่สามารถส่งกลับได้</li></ul>
 

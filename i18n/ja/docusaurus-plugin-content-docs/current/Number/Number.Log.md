@@ -5,8 +5,6 @@ title: Number.Log
 # Number.Log
 
 
-## Description
-
 指定された数値 (既定値は e) を底とする数値の対数を返します。
 
 
@@ -20,7 +18,7 @@ Number.Log(
 ```
 
 
-## Details
+## Remarks
 
 数値 <code>number</code> の、指定された <code>base</code> を底とする対数を返します。<code>base</code> を指定しなかった場合、既定値は Number.E です。    <code>number</code> が null の場合、<code>Number.Log</code> は null を返します。
 

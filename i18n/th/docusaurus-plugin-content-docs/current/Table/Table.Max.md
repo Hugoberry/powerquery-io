@@ -5,8 +5,6 @@ title: Table.Max
 # Table.Max
 
 
-## Description
-
 ส่งกลับแถวที่ใหญ่ที่สุดหรือค่าเริ่มต้นโดยใช้เกณฑ์ที่กำหนด
 
 
@@ -21,7 +19,7 @@ Table.Max(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับแถวที่ใหญ่ที่สุดใน <code>table</code> โดยกำหนดให้มี <code>comparisonCriteria</code> ถ้าตารางว่างเปล่า จะมีการส่งกลับค่าที่เลือกได้ <code>default</code> 
 

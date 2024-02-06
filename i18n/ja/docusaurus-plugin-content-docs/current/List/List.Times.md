@@ -5,8 +5,6 @@ title: List.Times
 # List.Times
 
 
-## Description
-
 指定された初期値、数、および増分期間値に基づいて、time 値のリストを生成します。
 
 
@@ -21,7 +19,7 @@ List.Times(
 ```
 
 
-## Details
+## Remarks
 
 <code>start</code> で始まりサイズが <code>count</code> の <code>time</code> 値のリストを返します。指定された増分 <code>step</code> は、すべての値に追加される <code>duration</code> 値です。
 

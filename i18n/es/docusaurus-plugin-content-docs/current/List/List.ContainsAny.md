@@ -5,8 +5,6 @@ title: List.ContainsAny
 # List.ContainsAny
 
 
-## Description
-
 Indica dónde incluye una lista alguno de los valores de otra lista.
 
 
@@ -21,7 +19,7 @@ List.ContainsAny(
 ```
 
 
-## Details
+## Remarks
 
 Indica si la lista <code>list</code> incluye alguno de los valores de otra lista <code>values</code>.        Devuelve true si el valor se encuentra en la lista y false en caso contrario. Se puede especificar un valor opcional de criterios de ecuación, <code>equationCriteria</code>, para controlar la igualdad de las pruebas. 
 

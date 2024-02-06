@@ -5,8 +5,6 @@ title: BinaryFormat.Double
 # BinaryFormat.Double
 
 
-## Description
-
 Format binaire qui lit une valeur à virgule flottante double précision IEEE de 8 octets.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Double(
 ```
 
 
-## Details
+## Remarks
 
 Format binaire qui lit une valeur à virgule flottante double précision IEEE de 8 octets.
 

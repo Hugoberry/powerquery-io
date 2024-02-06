@@ -5,8 +5,6 @@ title: Table.MatchesAllRows
 # Table.MatchesAllRows
 
 
-## Description
-
 Wskazuje, czy wszystkie wiersze tabeli spełniają dany warunek.
 
 
@@ -20,7 +18,7 @@ Table.MatchesAllRows(
 ```
 
 
-## Details
+## Remarks
 
 Wskazuje, czy wszystkie wiersze tabeli <code>table</code> spełniają dany warunek <code>condition</code>. Zwraca wartość <code>true</code>, jeśli wszystkie wiersze spełniają warunek; w przeciwnym razie zwraca wartość <code>false</code>.
 

@@ -5,8 +5,6 @@ title: Date.StartOfDay
 # Date.StartOfDay
 
 
-## Description
-
 Retourneert het begin van de dag.
 
 
@@ -19,7 +17,7 @@ Date.StartOfDay(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het begin van de dag vertegenwoordigd door <code>dateTime</code>. <code>dateTime</code> moet een <code>datum</code>-, <code>datum/tijd</code>- of <code>datum/tijdzone</code>-waarde zijn.
 

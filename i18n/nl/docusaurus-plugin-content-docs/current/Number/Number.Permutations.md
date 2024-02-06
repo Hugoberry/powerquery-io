@@ -5,8 +5,6 @@ title: Number.Permutations
 # Number.Permutations
 
 
-## Description
-
 Retourneert het aantal permutaties.
 
 
@@ -20,7 +18,7 @@ Number.Permutations(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het aantal permutaties dat kan worden gegenereerd van een aantal items, <code>setSize</code>, met een opgegeven permutatiegrootte, <code>permutationSize</code>.
 

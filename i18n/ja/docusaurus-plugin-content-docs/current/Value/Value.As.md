@@ -5,8 +5,6 @@ title: Value.As
 # Value.As
 
 
-## Description
-
 指定された型と互換性がある場合に値を返します。
 
 
@@ -20,7 +18,7 @@ Value.As(
 ```
 
 
-## Details
+## Remarks
 
 指定された型と互換性がある場合は値を返します。これは、M の "is" 演算子に相当しますが、例外として、識別子型の参照 (Number.Type など) を受け入れることができます。
 

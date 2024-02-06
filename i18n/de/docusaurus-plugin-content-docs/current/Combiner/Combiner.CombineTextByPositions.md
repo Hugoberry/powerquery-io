@@ -5,8 +5,6 @@ title: Combiner.CombineTextByPositions
 # Combiner.CombineTextByPositions
 
 
-## Description
-
 Gibt eine Funktion zurück, die eine Liste von Text unter Verwendung der angegebenen Ausgabepositionen kombiniert.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByPositions(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Funktion zurück, die eine Liste von Textwerten unter Verwendung der angegebenen Ausgabepositionen zu einem einzelnen Textwert kombiniert.
 

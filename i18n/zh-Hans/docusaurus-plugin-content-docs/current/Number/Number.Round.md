@@ -5,8 +5,6 @@ title: Number.Round
 # Number.Round
 
 
-## Description
-
 返回舍入的数。可以指定位数和舍入模式。
 
 
@@ -21,7 +19,7 @@ Number.Round(
 ```
 
 
-## Details
+## Remarks
 
 返回将 <code>number</code> 四舍五入到最接近的数的结果。如果 <code>number</code> 为 null，则 <code>Number.Round</code> 返回 null。<br />      <br />      默认情况下，<code>number</code> 舍入到最接近的整数，并通过舍入到最接近的偶数(使用 <code>RoundingMode.ToEven</code>，也称为“银行家舍入法”)断开联系。<br />      <br />      但可通过以下可选参数覆盖这些默认值。      <ul>        <li><code>digits</code>: 导致 <code>number</code> 四舍五入到指定的小数位数.</li>        <li><code>roundingMode</code>: 在 <code>number</code> 位于两个可能的舍入值之间的中间点时，替代默认的断开联系行为       (有关可能值的信息，请参阅 <code>RoundingMode.Type</code>)。</li>      </ul>
 

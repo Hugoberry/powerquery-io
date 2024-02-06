@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.Contents
 # Dynamics365BusinessCentral.Contents
 
 
-## Description
-
 Geben Sie Ihre Dynamics 365 Business Central-Umgebung und Ihr Unternehmen ein.
 
 
@@ -19,7 +17,7 @@ Dynamics365BusinessCentral.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Tabelle mit relevanten Dynamics 365 Business Central-Daten zurück. 
 

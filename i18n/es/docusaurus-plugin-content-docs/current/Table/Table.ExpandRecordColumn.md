@@ -5,8 +5,6 @@ title: Table.ExpandRecordColumn
 # Table.ExpandRecordColumn
 
 
-## Description
-
 Expande una columna de registros en columnas con cada uno de los valores.
 
 
@@ -22,7 +20,7 @@ Table.ExpandRecordColumn(
 ```
 
 
-## Details
+## Remarks
 
 Dado el <code>column</code> de registros de la entrada <code>table</code>, crea una tabla con una columna para cada campo del registro. Opcionalmente, puede especificarse <code>newColumnNames</code> para proteger los nombres únicos de las columnas de la nueva tabla.    <ul>        <li><code>table</code>: la tabla original con la columna de registros que se va a expandir. </li>        <li><code>column</code>: la columna que se va a expandir.</li>        <li><code>fieldNames</code>: la lista de campos que se van a expandir en columnas de la tabla.</li>        <li><code>newColumnNames</code>: la lista de nombres de columna que asignar a las nuevas columnas. Los nombres de nuevas columnas no pueden duplicar ninguna columna en la nueva tabla.</li>    </ul>
 

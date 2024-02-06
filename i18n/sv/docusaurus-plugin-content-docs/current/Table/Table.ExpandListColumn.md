@@ -5,8 +5,6 @@ title: Table.ExpandListColumn
 # Table.ExpandListColumn
 
 
-## Description
-
 Skapa en kopia av en rad för varje värde i dess lista baserat på en kolumn med listor i en tabell.
 
 
@@ -20,7 +18,7 @@ Table.ExpandListColumn(
 ```
 
 
-## Details
+## Remarks
 
 Baserat på en <code>table</code>, där en <code>column</code> är en lista med värden, delas listan upp i en rad för varje värde. Värdena i de övriga kolumnerna dupliceras i varje ny rad som skapas.
 

@@ -5,8 +5,6 @@ title: Date.WeekOfYear
 # Date.WeekOfYear
 
 
-## Description
-
 ส่งกลับตัวเลข 1 ถึง 54 ที่ระบุสัปดาห์ของปีที่วันที่นี้ตกอยู่ในสัปดาห์นั้น
 
 
@@ -20,7 +18,7 @@ Date.WeekOfYear(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตัวเลขตั้งแต่ 1 ถึง 54 ที่ระบุสัปดาห์ของปีที่ตรงกับวันที่ <code>dateTime</code> <ul>        <li><code>dateTime</code>: ค่า <code>datetime</code> สำหรับสัปดาห์ของปีถูกกำหนด</li>        <li><code>firstDayOfWeek</code>: ค่า <code>Day.Type</code> เพิ่มเติมที่ระบุวันที่ถือว่าเป็นวันเริ่มต้นของสัปดาห์ใหม่ (ตัวอย่างเช่น <code>Day.Sunday</code>) ถ้าไม่ได้ระบุ ระบบจะใช้ค่าเริ่มต้นที่อิงตามวัฒนธรรม</li>      </ul>
 

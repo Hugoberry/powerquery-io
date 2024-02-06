@@ -5,8 +5,6 @@ title: Twilio.Tables
 # Twilio.Tables
 
 
-## Description
-
 Wprowadź liczbę miesięcy, z których mają zostać pobrane dane historyczne usługi Twilio.
 
 
@@ -19,7 +17,7 @@ Twilio.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę z właściwymi danymi usługi Twilio.
 

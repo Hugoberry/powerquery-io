@@ -5,8 +5,6 @@ title: Int64.From
 # Int64.From
 
 
-## Description
-
 從給定的值建立 64 位元整數。
 
 
@@ -21,7 +19,7 @@ Int64.From(
 ```
 
 
-## Details
+## Remarks
 
 從指定的 <code>value</code> 傳回 64 位元整數 <code>number</code> 值。若指定的 <code>value</code> 是 <code>null</code>，則 <code>Int64.From</code> 會傳回 <code>null</code>。若指定的 <code>value</code> 是位於 64 位元整數範圍內且無任何小數點位數部分的 <code>number</code>，則會傳回 <code>value</code>。若有小數點位數部分，則會使用指定的四捨五入模式模式將該數字四捨五入。預設的四捨五入模式為 <code>RoundingMode.ToEven</code>。若指定的 <code>value</code> 是任何其他類型，則會先使用 <code>Number.FromText</code> 將其轉換成 <code>number</code>。如需可用的四捨五入模式，請參閱 <code>Number.Round</code>。也可能會提供選用的 <code>culture</code> (例如 "en-US")。
 

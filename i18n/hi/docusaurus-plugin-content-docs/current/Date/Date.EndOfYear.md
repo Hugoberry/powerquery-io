@@ -5,8 +5,6 @@ title: Date.EndOfYear
 # Date.EndOfYear
 
 
-## Description
-
 वर्ष के अंत में लौटाता है.
 
 
@@ -19,7 +17,7 @@ Date.EndOfYear(
 ```
 
 
-## Details
+## Remarks
 
 उस साल के अंत में लौटाता है, जिसमें भिन्नात्मक सेकंड सहित <code>dateTime</code> होता है. समय क्षेत्र की जानकारी संरक्षित है.      <ul>        <li><code>dateTime</code>: एक ऐसा <code>date</code>, <code>datetime</code> या <code>datetimezone</code> मान, जिससे वर्ष की समाप्ति का परिकलन किया जाता है.</li>      </ul>
 

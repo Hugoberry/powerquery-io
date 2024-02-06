@@ -5,8 +5,6 @@ title: List.Intersect
 # List.Intersect
 
 
-## Description
-
 Restituisce l&#39;intersezione dei valori di elenco trovati nell&#39;input.
 
 
@@ -20,7 +18,7 @@ List.Intersect(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce l'intersezione dei valori di elenco trovati nell'elenco di input <code>lists</code>. È possibile specificare il parametro facoltativo <code>equationCriteria</code>.
 

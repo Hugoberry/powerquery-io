@@ -5,8 +5,6 @@ title: List.Accumulate
 # List.Accumulate
 
 
-## Description
-
 从列表中的项累积汇总值。
 
 
@@ -21,7 +19,7 @@ List.Accumulate(
 ```
 
 
-## Details
+## Remarks
 
 使用 <code>accumulator</code> 从列表 <code>list</code> 中的项累积汇总值。    可以设置可选的种子参数 <code>seed</code>。
 

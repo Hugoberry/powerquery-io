@@ -5,8 +5,6 @@ title: DateTimeZone.ToUtc
 # DateTimeZone.ToUtc
 
 
-## Description
-
 Convertit le composant de fuseau en fuseau horaire UTC.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToUtc(
 ```
 
 
-## Details
+## Remarks
 
 Modifie les informations de fuseau de la valeur datetime <code>dateTimeZone</code> en informations de fuseau horaire UTC ou de temps universel.    Si <code>dateTimeZone</code> n'a pas de composant de fuseau horaire, les informations de fuseau UTC sont ajoutées.
 

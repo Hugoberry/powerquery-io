@@ -5,8 +5,6 @@ title: List.FirstN
 # List.FirstN
 
 
-## Description
-
 Restituisce il primo set di elementi dell&#39;elenco specificando quanti elementi devono essere restituiti o una condizione idonea.
 
 
@@ -20,7 +18,7 @@ List.FirstN(
 ```
 
 
-## Details
+## Remarks
 
  <ul>  <li>Se viene specificato un numero, indica il numero massimo di elementi restituiti. </li>  <li>Se viene specificata una condizione, vengono restituiti tutti gli elementi che soddisfano inizialmente la condizione. Se un elemento non soddisfa la condizione, non vengono considerati altri elementi. </li> </ul>
 

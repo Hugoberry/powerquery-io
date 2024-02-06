@@ -5,8 +5,6 @@ title: Text.Combine
 # Text.Combine
 
 
-## Description
-
 一連のテキスト値を 1 つのテキスト値に連結します。
 
 
@@ -20,7 +18,7 @@ Text.Combine(
 ```
 
 
-## Details
+## Remarks
 
 テキスト値のリスト (<code>texts</code>) を 1 つのテキスト値に結合した結果を返します。<code>texts</code> の中に <code>null</code> 値がある場合、それらはすべて無視されます。    最終的な結合テキスト内で使用する <code>separator</code> を指定できます (省略可能)。
 

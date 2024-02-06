@@ -5,8 +5,6 @@ title: Text.Middle
 # Text.Middle
 
 
-## Description
-
 Retourne la sous-chaîne jusqu&#39;à une longueur spécifique.
 
 
@@ -21,7 +19,7 @@ Text.Middle(
 ```
 
 
-## Details
+## Remarks
 
 Retourne <code>count</code> caractères, ou jusqu'à la fin de <code>text</code>, au décalage <code>start</code>.
 

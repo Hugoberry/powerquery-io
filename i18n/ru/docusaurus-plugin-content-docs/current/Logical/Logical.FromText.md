@@ -5,8 +5,6 @@ title: Logical.FromText
 # Logical.FromText
 
 
-## Description
-
 Создает логическое значение из текстовых значений true и false.
 
 
@@ -19,7 +17,7 @@ Logical.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Создает логическое значение из текстового значения <code>text</code>, которое может быть равно true или false. Если <code>text</code> содержит другую строку, возникает исключение. В текстовом значении <code>text</code> не учитывается регистр.
 

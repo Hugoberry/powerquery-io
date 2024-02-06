@@ -5,8 +5,6 @@ title: Date.EndOfYear
 # Date.EndOfYear
 
 
-## Description
-
 Trả về thời gian cuối năm.
 
 
@@ -19,7 +17,7 @@ Date.EndOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Trả về thời gian cuối năm chứa <code>dateTime</code>, bao gồm cả số giây ở dạng phân số. Thông tin múi giờ được bảo toàn.      <ul>        <li><code>dateTime</code>: Giá trị <code>date</code>, <code>datetime</code> hoặc <code>datetimezone</code> mà từ đó tính toán ra thời gian cuối năm.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: BinaryFormat.Byte
 # BinaryFormat.Byte
 
 
-## Description
-
 बाइनरी स्वरूप जो 8-बिट अहस्ताक्षरित पूर्णांक को पढ़ता है.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Byte(
 ```
 
 
-## Details
+## Remarks
 
 बाइनरी स्वरूप जो 8-बिट अहस्ताक्षरित पूर्णांक को पढ़ता है.
 

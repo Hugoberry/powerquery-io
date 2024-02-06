@@ -5,8 +5,6 @@ title: Function.InvokeAfter
 # Function.InvokeAfter
 
 
-## Description
-
 经过指定的持续时间后，调用给定的函数。
 
 
@@ -20,7 +18,7 @@ Function.InvokeAfter(
 ```
 
 
-## Details
+## Remarks
 
 经过持续时间 <code>delay</code> 后，返回调用 <code>function</code> 的结果。
 

@@ -5,8 +5,6 @@ title: Text.TrimStart
 # Text.TrimStart
 
 
-## Description
-
 अगले सभी सफेद रिक्त स्थान निकालता है.
 
 
@@ -20,7 +18,7 @@ Text.TrimStart(
 ```
 
 
-## Details
+## Remarks
 
 पाठ मान <code>text</code> से निकाले गए सभी अगले सफेद रिक्त स्थान का परिणाम लौटाता है.
 

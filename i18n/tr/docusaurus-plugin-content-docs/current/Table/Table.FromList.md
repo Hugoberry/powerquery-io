@@ -5,8 +5,6 @@ title: Table.FromList
 # Table.FromList
 
 
-## Description
-
 Bir listeyi belirtilen ayırma işlevini listedeki her öğeye uygulayarak bir tabloya dönüştürür.
 
 
@@ -23,7 +21,7 @@ Table.FromList(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesini <code>splitter</code> isteğe bağlı ayırma işlevini listedeki her öğeye uygulayarak bir tabloya dönüştürür. Varsayılan olarak, listenin virgülle ayrılmış metin değerleri listesi olduğu varsayılır. İsteğe bağlı <code>columns</code> sütun sayısı, sütun listesi veya bir TableType olabilir. İsteğe bağlı <code>default</code> ve <code>extraValues</code> belirtilebilir.
 

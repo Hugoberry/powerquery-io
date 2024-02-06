@@ -5,8 +5,6 @@ title: List.Random
 # List.Random
 
 
-## Description
-
 Trả về danh sách số ngẫu nhiên.
 
 
@@ -20,7 +18,7 @@ List.Random(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một danh sách số ngẫu nhiên nằm trong khoảng từ 0 đến 1 khi được cho sẵn số lượng các giá trị sẽ tạo và một giá trị dữ liệu nền tùy chọn.<ul>   <li><code>count</code>: Số lượng giá trị ngẫu nhiên để tạo.</li>   <li><code>seed</code>:  <i>[Tùy chọn]</i> Một giá trị số dùng để tạo trình tạo số ngẫu nhiên.  Nếu bị bỏ qua thì một danh sách duy nhất bao gồm các số ngẫu nhiên sẽ được tạo mỗi lần bạn gọi hàm.  Nếu bạn chỉ định giá trị dữ liệu nền bằng một số thì mọi lệnh gọi tới hàm sẽ tạo ra danh sách số ngẫu nhiên tương tự.</li></ul>
 

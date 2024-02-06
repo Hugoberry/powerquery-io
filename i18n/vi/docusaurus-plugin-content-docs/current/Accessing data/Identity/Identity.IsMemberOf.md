@@ -5,8 +5,6 @@ title: Identity.IsMemberOf
 # Identity.IsMemberOf
 
 
-## Description
-
 Xác định danh tính có nằm trong bộ sưu tập danh tính hay không.
 
 
@@ -20,7 +18,7 @@ Identity.IsMemberOf(
 ```
 
 
-## Details
+## Remarks
 
 Xác định danh tính có nằm trong bộ sưu tập danh tính hay không.
 

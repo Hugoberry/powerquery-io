@@ -5,8 +5,6 @@ title: BinaryFormat.7BitEncodedUnsignedInteger
 # BinaryFormat.7BitEncodedUnsignedInteger
 
 
-## Description
-
 Een binaire indeling die een 64-bits geheel getal zonder teken leest dat is gecodeerd met een 7-bits codering met variabele lengte.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.7BitEncodedUnsignedInteger(
 ```
 
 
-## Details
+## Remarks
 
 Een binaire indeling die een 64-bits geheel getal zonder teken leest dat is gecodeerd met een 7-bits codering met variabele lengte.
 

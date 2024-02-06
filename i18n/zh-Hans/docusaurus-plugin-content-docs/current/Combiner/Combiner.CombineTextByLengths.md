@@ -5,8 +5,6 @@ title: Combiner.CombineTextByLengths
 # Combiner.CombineTextByLengths
 
 
-## Description
-
 返回一个函数，它使用指定的长度将文本列表合并。
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByLengths(
 ```
 
 
-## Details
+## Remarks
 
 返回一个函数，它使用指定的长度将文本值列表合并成单个文本值。
 

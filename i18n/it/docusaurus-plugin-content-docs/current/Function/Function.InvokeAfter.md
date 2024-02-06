@@ -5,8 +5,6 @@ title: Function.InvokeAfter
 # Function.InvokeAfter
 
 
-## Description
-
 Richiama la funzione specificata una volta trascorsa la durata specificata.
 
 
@@ -20,7 +18,7 @@ Function.InvokeAfter(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il risultato della richiamata di <code>function</code> una volta trascorsa la durata <code>delay</code>.
 

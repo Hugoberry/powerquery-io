@@ -5,8 +5,6 @@ title: Number.Abs
 # Number.Abs
 
 
-## Description
-
 Trả về giá trị tuyệt đối của số.
 
 
@@ -19,7 +17,7 @@ Number.Abs(
 ```
 
 
-## Details
+## Remarks
 
 Trả về giá trị tuyệt đối của <code>number</code>. Nếu <code>number</code> là null, <code>Number.Abs</code> sẽ trả về null.    <ul>        <li><code>number</code>: <code>number</code> cho giá trị tuyệt đối cần tính.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Number.Sinh
 # Number.Sinh
 
 
-## Description
-
 Gibt den hyperbolischen Sinus der Zahl zurück.
 
 
@@ -19,7 +17,7 @@ Number.Sinh(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den hyperbolischen Sinus von <code>number</code> zurück.
 

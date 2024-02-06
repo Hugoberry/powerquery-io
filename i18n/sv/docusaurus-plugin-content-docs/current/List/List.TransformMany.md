@@ -5,8 +5,6 @@ title: List.TransformMany
 # List.TransformMany
 
 
-## Description
-
 Returnerar en lista vars element omvandlas från indatalistan med hjälp av angivna funktioner.
 
 
@@ -21,7 +19,7 @@ List.TransformMany(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en lista vars element projiceras från indatalistan.<br />    <br />    Funktionen <code>collectionTransform</code> omvandlar varje element till en mellanliggande lista och funktionen <code>resultTransform</code> tar emot originalelementet samt ett objekt från den mellanliggande listan för att skapa det slutliga resultatet.<br />    <br />    Funktionen <code>collectionTransform</code> har signaturen <code>(x as any) som lista => ...</code>,  där <code>x</code> är ett element i <code>list</code>.    Funktionen <code>resultTransform</code> projicerar resultatets form och har signaturen <code>(x som vilken som helst, y som någon) som alla => ... </code>, där <code>x</code> är ett element i <code>list</code> och <code>y</code> är ett element från listan som genereras genom att skicka <code>x</code> till <code>collectionTransform</code>.
 

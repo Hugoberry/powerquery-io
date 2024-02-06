@@ -5,8 +5,6 @@ title: Date.QuarterOfYear
 # Date.QuarterOfYear
 
 
-## Description
-
 Devolve um número que indica o trimestre do ano em que a data recai.
 
 
@@ -19,7 +17,7 @@ Date.QuarterOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um número de 1 a 4 que indica o trimestre do ano em que a data <code>dateTime</code> recai. <code>dateTime</code> pode ser um valor <code>date</code>, <code>datetime</code> ou <code>datetimezone</code>.
 

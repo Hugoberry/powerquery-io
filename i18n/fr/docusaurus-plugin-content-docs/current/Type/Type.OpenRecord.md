@@ -5,8 +5,6 @@ title: Type.OpenRecord
 # Type.OpenRecord
 
 
-## Description
-
 Retourne une version ouverte du type d&#39;enregistrement donné (ou le même type, s&#39;il est déjà ouvert).
 
 
@@ -19,7 +17,7 @@ Type.OpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une version ouverte du <code>record</code> <code>type</code> donné (ou le même type, s'il est déjà ouvert).
 

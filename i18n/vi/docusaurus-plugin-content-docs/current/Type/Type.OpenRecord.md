@@ -5,8 +5,6 @@ title: Type.OpenRecord
 # Type.OpenRecord
 
 
-## Description
-
 Trả về phiên bản mở của loại bản ghi cho sẵn (hoặc cùng loại nếu đã mở).
 
 
@@ -19,7 +17,7 @@ Type.OpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 Trả về phiên bản mở của <code>bản ghi</code> <code>type</code> cho sẵn (hoặc cùng loại nếu đã mở).
 

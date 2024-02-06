@@ -5,8 +5,6 @@ title: Time.ToRecord
 # Time.ToRecord
 
 
-## Description
-
 時刻値の部分を含むレコードを返します。
 
 
@@ -19,7 +17,7 @@ Time.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 指定された Time 値 (<code>time</code>) の部分を含むレコードを返します。 <ul>        <li><code>time</code>: その部分のレコードが計算される <code>time</code> 値。</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Number.RoundDown
 # Number.RoundDown
 
 
-## Description
-
 पिछली सबसे बड़ी संख्या लौटाता है. अंकों की संख्या निर्दिष्ट की जा सकती है.
 
 
@@ -20,7 +18,7 @@ Number.RoundDown(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> नीचे वाले पिछले उच्चतम पूर्णांक तक पूर्णांक बनाने का परिणाम लौटाता है. यदि <code>number</code> नल है, तो यह फ़ंक्शन नल लौटाता है. यदि <code>digits</code> प्रदान किया जाता है, तो <code>number</code> को निर्दिष्ट दशमलव अंकों तक पूर्णांक बना दिया जाता है. 
 

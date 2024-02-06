@@ -5,8 +5,6 @@ title: Text.Replace
 # Text.Replace
 
 
-## Description
-
 Zamienia wszystkie wystąpienia danego podciągu w tekście.
 
 
@@ -21,7 +19,7 @@ Text.Replace(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wynik zamiany wszystkich wystąpień wartości tekstowej <code>old</code> w wartości tekstowej <code>text</code> na wartość tekstową <code>new</code>. Ta funkcja rozróżnia wielkość liter.
 

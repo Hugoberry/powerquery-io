@@ -5,8 +5,6 @@ title: Table.SelectRows
 # Table.SelectRows
 
 
-## Description
-
 उन पंक्तियों को चुनता है जो शर्त फ़ंक्शन को पूरा करती हैं.
 
 
@@ -20,7 +18,7 @@ Table.SelectRows(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> से उन पंक्तियों की तालिका को लौटाता है, जो चयन <code>condition</code> से मेल खाती हैं.
 

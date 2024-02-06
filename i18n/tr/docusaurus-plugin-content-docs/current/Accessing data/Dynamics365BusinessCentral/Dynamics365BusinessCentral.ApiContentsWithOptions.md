@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.ApiContentsWithOptions
 # Dynamics365BusinessCentral.ApiContentsWithOptions
 
 
-## Description
-
 Dynamics 365 Business Central ortamınızı ve şirketinizi girin.
 
 
@@ -22,7 +20,7 @@ Dynamics365BusinessCentral.ApiContentsWithOptions(
 ```
 
 
-## Details
+## Remarks
 
 İlgili Dynamics 365 Business Central verilerinin bulunduğu bir tablo döndürür. 
 

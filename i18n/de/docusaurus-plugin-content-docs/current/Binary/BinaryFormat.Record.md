@@ -5,8 +5,6 @@ title: BinaryFormat.Record
 # BinaryFormat.Record
 
 
-## Description
-
 Gibt ein Binärformat zurück, das einen Datensatz liest.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Record(
 ```
 
 
-## Details
+## Remarks
 
 Gibt ein Binärformat zurück, das einen Datensatz liest.  Der Parameter "<code>record</code>" gibt das Format des Datensatzes an.  Jedes Feld im Datensatz kann ein anderes Binärformat besitzen.  Enthält ein Feld einen Wert, bei dem es sich nicht um einen Binärformatwert handelt, werden für dieses Feld keine Daten gelesen, und der Feldwert wird im Ergebnis ausgegeben.
 

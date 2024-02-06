@@ -5,8 +5,6 @@ title: Number.BitwiseShiftRight
 # Number.BitwiseShiftRight
 
 
-## Description
-
 Сдвигает заданные биты вправо.
 
 
@@ -20,7 +18,7 @@ Number.BitwiseShiftRight(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает результат выполнения побитового сдвига вправо над <code>number1</code> на указанное число битов <code>number2</code>.
 

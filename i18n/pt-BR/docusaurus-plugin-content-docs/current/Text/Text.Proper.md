@@ -5,8 +5,6 @@ title: Text.Proper
 # Text.Proper
 
 
-## Description
-
 Coloque a primeira letra de cada palavra em maiúscula.
 
 
@@ -20,7 +18,7 @@ Text.Proper(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o resultado do uso de maiúsculas somente da primeira letra de cada palavra no valor de texto <code>text</code>. Todas as outras letras são retornadas em minúsculas. Um <code>culture</code> opcional também pode ser fornecido (por exemplo, "en-US").
 

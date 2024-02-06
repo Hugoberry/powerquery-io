@@ -5,8 +5,6 @@ title: List.Select
 # List.Select
 
 
-## Description
-
 Koşulu sağlayan bir değer listesi döndürür.
 
 
@@ -20,7 +18,7 @@ List.Select(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesinden <code>selection</code> seçim koşulu ile eşleşen değerlerin listesini döndürür.
 

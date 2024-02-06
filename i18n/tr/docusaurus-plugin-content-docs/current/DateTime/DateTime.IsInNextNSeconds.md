@@ -5,8 +5,6 @@ title: DateTime.IsInNextNSeconds
 # DateTime.IsInNextNSeconds
 
 
-## Description
-
 Bu tarih saatin, sistemdeki geçerli tarih ve saat ile belirlendiği şekilde, sonraki birkaç saniye içinde olup olmadığını gösterir. Geçerli saniye içinde olan bir değer geçirildiğinde bu işlevin false döndürdüğünü unutmayın.
 
 
@@ -20,7 +18,7 @@ DateTime.IsInNextNSeconds(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>dateTime</code> tarih saat değerinin, sistemdeki geçerli tarih ve saat tarafından belirlendiği şekilde, sonraki birkaç saniye içinde olup olmadığını gösterir. Geçerli saniye içinde olan bir değer geçirildiğinde bu işlevin false döndürdüğünü unutmayın.      <ul>      <li><code>dateTime</code>: Değerlendirilecek <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      <li><code>seconds</code>: Saniye sayısı.</li>      </ul>
 

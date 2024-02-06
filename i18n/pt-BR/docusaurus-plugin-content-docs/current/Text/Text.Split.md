@@ -5,8 +5,6 @@ title: Text.Split
 # Text.Split
 
 
-## Description
-
 Divide o texto em uma lista de valores de texto com base em um delimitador especificado.
 
 
@@ -20,7 +18,7 @@ Text.Split(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma lista de valores de texto resultantes da divisão de um valor de texto <code>text</code> com base no delimitador especificado, <code>separator</code>.
 

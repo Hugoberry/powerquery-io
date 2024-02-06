@@ -5,8 +5,6 @@ title: Time.FromText
 # Time.FromText
 
 
-## Description
-
 Cria uma Hora a partir dos formatos de Hora locais, universais e personalizados.
 
 
@@ -20,7 +18,7 @@ Time.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Cria um valor <code>time</code> a partir de uma representação textual, <code>text</code>. Pode ser fornecido um parâmetro <code>record</code> opcional, <code>options</code>, para especificar propriedades adicionais. O <code>record</code> pode conter os seguintes campos:<ul>   <li><code>Format</code>: Um valor de <code>text</code> que indica o formato a utilizar. Aceda a https://go.microsoft.com/fwlink/?linkid=2180104 e https://go.microsoft.com/fwlink/?linkid=2180105. Omitir este campo ou fornecer <code>null</code> resultará na análise da hora com o melhor esforço.</li>   <li><code>Culture</code>: Quando o <code>Format</code> não é nulo, a <code>Culture</code> controla alguns especificadores de formato. Por exemplo, em <code>"en-US"</code>, <code>"tt"</code> é <code>"AM" ou "PM"</code>, ao passo que em <code>"ar-EG"</code>, <code>"tt"</code> é <code>"ص" ou "م"</code>. Quando <code>Format</code> é <code>null</code>, <code>Culture</code> controla o formato a utilizar. Quando <code>Culture</code> é <code>null</code> ou omitido, é utilizado <code>Culture.Current</code>.</li></ul>Para suportar fluxos de trabalho legados, <code>options</code> poderá também ser um valor de texto. O comportamento é idêntico ao caso em que <code>options</code><code> = [Format = null, Culture = <code>options</code>]</code>.
 

@@ -5,8 +5,6 @@ title: Duration.ToRecord
 # Duration.ToRecord
 
 
-## Description
-
 Sürenin parçalarını içeren bir kayıt döndürür.
 
 
@@ -19,7 +17,7 @@ Duration.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 <code>duration</code> süre değerinin parçalarını içeren bir kayıt döndürür.  <ul>        <li><code>duration</code>: Kaydın oluşturulduğu <code>duration</code>.</li>      </ul>
 

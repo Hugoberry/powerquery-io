@@ -5,8 +5,6 @@ title: Table.IsEmpty
 # Table.IsEmpty
 
 
-## Description
-
 Indica se a tabela contém quaisquer linhas.
 
 
@@ -19,7 +17,7 @@ Table.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 Indica se <code>table</code> contém quaisquer linhas. Devolve <code>true</code> se não existirem linhas (ou seja, se a tabela estiver vazia); caso contrário, devolve <code>false</code>.
 

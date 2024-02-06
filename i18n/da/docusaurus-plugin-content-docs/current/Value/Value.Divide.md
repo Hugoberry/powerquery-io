@@ -5,8 +5,6 @@ title: Value.Divide
 # Value.Divide
 
 
-## Description
-
 Returnerer resultatet af at dividere første værdi med den anden.
 
 
@@ -21,7 +19,7 @@ Value.Divide(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer resultatet af at dividere <code>value1</code> med <code>value2</code>. Der kan angives en valgfri parameter, <code>precision</code>. <code>Precision.Double</code> bruges som standard.
 

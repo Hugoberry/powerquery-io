@@ -5,8 +5,6 @@ title: Text.Middle
 # Text.Middle
 
 
-## Description
-
 指定の長さまでのサブ文字列を返します。
 
 
@@ -21,7 +19,7 @@ Text.Middle(
 ```
 
 
-## Details
+## Remarks
 
 オフセット <code>start</code> で <code>count</code> 文字または <code>text</code> の末尾までを返します。
 

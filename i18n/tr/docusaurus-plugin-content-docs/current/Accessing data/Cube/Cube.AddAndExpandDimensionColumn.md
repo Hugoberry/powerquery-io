@@ -5,8 +5,6 @@ title: Cube.AddAndExpandDimensionColumn
 # Cube.AddAndExpandDimensionColumn
 
 
-## Description
-
 Belirtilen boyut tablosunu küpün filtre bağlamıyla birleştirir ve belirtilen boyut öznitelikleri kümesini genişleterek filtre bağlamının boyut parçalı yapısını değiştirir.
 
 
@@ -22,7 +20,7 @@ Cube.AddAndExpandDimensionColumn(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen <code>dimensionSelector</code> boyut tablosunu küpün <code>cube</code> filtre bağlamıyla birleştirir ve belirtilen boyut öznitelikleri <code>attributeNames</code> kümesini genişleterek boyut parçalı yapısını değiştirir. Boyut öznitelikleri, <code>newColumnNames</code> olarak veya belirtilmemişse <code>attributeNames</code> olarak adlandırılmış sütunlarla tablo görünümüne eklenir.
 

@@ -5,8 +5,6 @@ title: DateTime.IsInPreviousSecond
 # DateTime.IsInPreviousSecond
 
 
-## Description
-
 Indica se este datetime ocorre durante o segundo anterior, conforme a determinação da data e hora atuais no sistema. Observe que essa função retornará false quando for passado um valor que ocorra no segundo atual.
 
 
@@ -19,7 +17,7 @@ DateTime.IsInPreviousSecond(
 ```
 
 
-## Details
+## Remarks
 
 Indica se o valor de datetime especificado <code>dateTime</code> ocorre durante o segundo anterior, conforme a determinação da data e hora atuais no sistema. Observe que essa função retornará false quando for passado um valor que ocorra no segundo atual.      <ul>      <li><code>dateTime</code>: um valor de <code>datetime</code> ou <code>datetimezone</code> a ser avaliado.</li>      </ul>
 

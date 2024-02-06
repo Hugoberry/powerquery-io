@@ -5,8 +5,6 @@ title: Binary.Range
 # Binary.Range
 
 
-## Description
-
 Zwraca podzbiór wartości binarnej rozpoczynający się od przesunięcia.
 
 
@@ -21,7 +19,7 @@ Binary.Range(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca podzbiór wartości binarnej rozpoczynający się od przesunięcia <code>binary</code>. Opcjonalny parametr, <code>offset</code>, określa maksymalną długość podzbioru.
 

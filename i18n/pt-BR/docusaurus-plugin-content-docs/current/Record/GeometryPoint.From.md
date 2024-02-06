@@ -5,8 +5,6 @@ title: GeometryPoint.From
 # GeometryPoint.From
 
 
-## Description
-
 Cria um registro que representa um ponto geométrico das partes.
 
 
@@ -23,7 +21,7 @@ GeometryPoint.From(
 ```
 
 
-## Details
+## Remarks
 
 Cria um registro que representa um ponto geométrico das partes constituintes, como coordenada X, coordenada Y e, se estiver presente, coordenada Z e M (medida). Um SRID (identificador de referência espacial) opcional poderá ser fornecido se for diferente do valor padrão (0).
 

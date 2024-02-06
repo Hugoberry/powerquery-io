@@ -5,8 +5,6 @@ title: Webtrends.Tables
 # Webtrends.Tables
 
 
-## Description
-
 Webtrends アカウントに関連付けられているプロファイル IDを入力します。
 
 
@@ -21,7 +19,7 @@ Webtrends.Tables(
 ```
 
 
-## Details
+## Remarks
 
 関連する Webtrends データを含むテーブルを返します。
 

@@ -5,8 +5,6 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-## Description
-
 Áp dụng đổi tên từ một danh sách có dạng \{ old, new }.
 
 
@@ -21,7 +19,7 @@ Record.RenameFields(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bản ghi sau khi đổi tên trường trong đầu vào <code>record</code> thành tên trường mới được chỉ định trong danh sách <code>renames</code>. Để đổi tên nhiều lần, có thể sử dụng danh sách lồng nhau (\{ \{old1, new1}, \{old2, new2} }.
 

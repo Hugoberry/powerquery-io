@@ -5,8 +5,6 @@ title: Html.Table
 # Html.Table
 
 
-## Description
-
 Belirtilen CSS seçicilerini sağlanan HTML&#39;ye göre çalıştırmanın sonuçlarını içeren bir tablo döndürür.
 
 
@@ -21,7 +19,7 @@ Html.Table(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen CSS seçicisini verilen <code>html</code> öğesine karşı çalıştırmanın sonuçlarını içeren bir tablo döndürür. Ek özellikleri belirtmek için isteğe bağlı bir kayıt parametresi <code>options</code> sağlanabilir. Kayıt, aşağıdaki alanları içerebilir:     <ul><li><code>RowSelector</code></li></ul>    
 

@@ -5,8 +5,6 @@ title: Table.FindText
 # Table.FindText
 
 
-## Description
-
 返回表中包含给定文本的所有行。
 
 
@@ -20,7 +18,7 @@ Table.FindText(
 ```
 
 
-## Details
+## Remarks
 
 返回表 <code>table</code> 中包含文本 <code>text</code> 的行。如果找不到文本，则返回空表。
 

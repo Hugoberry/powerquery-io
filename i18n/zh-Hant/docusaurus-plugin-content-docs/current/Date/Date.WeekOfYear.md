@@ -5,8 +5,6 @@ title: Date.WeekOfYear
 # Date.WeekOfYear
 
 
-## Description
-
 傳回 1 到 54 的數字，指出這個日期落在年度的哪一週。
 
 
@@ -20,7 +18,7 @@ Date.WeekOfYear(
 ```
 
 
-## Details
+## Remarks
 
 傳回介於 1 至 54 之間的數字，指出日期 <code>dateTime</code> 落在該年的哪一週。 <ul>        <li><code>dateTime</code>: <code>datetime</code> 值決定該年哪一週。</li>        <li><code>firstDayOfWeek</code>: 選用的 <code>Day.Type</code> 值指出哪一天為新一週的起始日 (例如 <code>Day.Sunday</code>)。若未指定，會使用依文化特性決定的預設。</li>      </ul>
 

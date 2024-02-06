@@ -5,8 +5,6 @@ title: Function.From
 # Function.From
 
 
-## Description
-
 Erstellt eine Funktion mit einer bestimmten Parametersignatur basierend auf einer Funktion, die ein einzelnes Listenargument verwendet.
 
 
@@ -20,7 +18,7 @@ Function.From(
 ```
 
 
-## Details
+## Remarks
 
 Erstellt anhand einer unären Funktion "<code>function</code>" eine neue Funktion des Typs "<code>functionType</code>", die eine Liste aus ihren Argumenten zusammenstellt und an "<code>function</code>" übergibt.
 

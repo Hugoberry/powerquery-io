@@ -5,8 +5,6 @@ title: Time.ToText
 # Time.ToText
 
 
-## Description
-
 Retourneert een tekstweergave van de tijdwaarde.
 
 
@@ -21,7 +19,7 @@ Time.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tekstweergave van <code>time</code> geretourneerd. Er kan een optionele <code>record</code>-parameter, <code>options</code>, worden opgegeven om aanvullende eigenschappen op te geven. <code>culture</code> wordt alleen gebruikt voor verouderde werkstromen. De <code>record</code> kan de volgende velden bevatten:<ul>   <li><code>Format</code>: een <code>tekst</code>waarde die de indeling aangeeft die moet worden gebruikt. Ga naar https://go.microsoft.com/fwlink/?linkid=2180104 en https://go.microsoft.com/fwlink/?linkid=2180105 voor meer informatie. Als u dit veld weglaat of <code>nul</code> opgeeft, wordt de datum opgemaakt aan de hand van de standaardwaarde die is gedefinieerd door <code>Culture</code>.</li>   <li><code>Culture</code>: als <code>Format</code> niet nul is, worden bepaalde indelingsaanduidingen bepaald door <code>Culture</code>. Voor <code>'en-US'</code> staat <code>"tt"</code> bijvoorbeeld voor <code>'AM' of 'PM'</code>, terwijl voor <code>'ar-EG'</code> <code>"tt"</code> staat voor <code>'ص' of 'م'</code>. Als <code>Format</code> gelijk is aan <code>nul</code>, bepaalt <code>Culture</code> de standaardindeling die moet worden gebruikt. Als <code>Culture</code> de waarde <code>nul</code> heeft of niet wordt gebruikt, wordt <code>Culture.Current</code> gebruikt.</li></ul>Als u oudere werkstromen wilt ondersteunen, kunnen <code>options</code> en <code>culture</code> ook tekstwaarden zijn. Dit vertoont hetzelfde gedrag als <code>options</code><code> = [Format = <code>options</code>, Culture = <code>culture</code>]</code>.
 

@@ -5,8 +5,6 @@ title: Table.FromColumns
 # Table.FromColumns
 
 
-## Description
-
 根據資料行與指定值的清單建立資料表。
 
 
@@ -20,7 +18,7 @@ Table.FromColumns(
 ```
 
 
-## Details
+## Remarks
 
 根據清單 <code>lists</code> 建立 <code>columns</code> 類型的資料表，該清單包含具有資料行名稱與值的巢狀清單。    如果部分資料行的值超過其他資料行，而且資料行可為 Null，則遺漏的值就會填入預設值 'null'。
 

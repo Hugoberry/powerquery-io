@@ -5,8 +5,6 @@ title: List.Select
 # List.Select
 
 
-## Description
-
 Devuelve una lista de valores que cumplen la condición.
 
 
@@ -20,7 +18,7 @@ List.Select(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una lista de valores de la lista <code>list</code>, que coincide con la condición de selección <code>selection</code>.
 

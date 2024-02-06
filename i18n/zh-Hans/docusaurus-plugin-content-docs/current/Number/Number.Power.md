@@ -5,8 +5,6 @@ title: Number.Power
 # Number.Power
 
 
-## Description
-
 计算某个数的指定次幂。
 
 
@@ -20,7 +18,7 @@ Number.Power(
 ```
 
 
-## Details
+## Remarks
 
 返回计算 <code>number</code> 的 <code>power</code> 次幂所得的结果。    如果 <code>number</code> 或 <code>power</code> 为 null，则 <code>Number.Power</code> 返回 null。      <ul>        <li><code>number</code>: 底数。</li>        <li><code>power</code>: 指数。</li>      </ul>
 

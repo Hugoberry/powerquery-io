@@ -5,8 +5,6 @@ title: Table.ExpandRecordColumn
 # Table.ExpandRecordColumn
 
 
-## Description
-
 Bir kayıt sütununu her değeri içeren sütunlar olarak genişletir.
 
 
@@ -22,7 +20,7 @@ Table.ExpandRecordColumn(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> girdisinde kayıtlara ait verilen <code>column</code> ile kayıttaki her alan için bir sütun içeren bir tablo oluşturur. İsteğe bağlı olarak, yeni tabloda sütunlara ait benzersiz adların olduğundan emin olmak için <code>newColumnNames</code> belirtilebilir.    <ul>        <li><code>table</code>: Genişletilecek kayıt sütununu içeren asıl tablo. </li>        <li><code>column</code>: Genişletilecek sütun.</li>        <li><code>fieldNames</code>: Tabloda sütunlar halinde genişletilecek alan listesi.</li>        <li><code>newColumnNames</code>: Yeni sütunlara verilecek sütun adları listesi. Yeni sütun adları yeni tablodaki hiçbir sütunu çoğaltamaz.</li>    </ul>
 

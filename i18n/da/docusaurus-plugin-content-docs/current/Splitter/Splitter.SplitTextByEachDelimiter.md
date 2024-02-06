@@ -5,8 +5,6 @@ title: Splitter.SplitTextByEachDelimiter
 # Splitter.SplitTextByEachDelimiter
 
 
-## Description
-
 Returnerer en funktion, der opdeler tekst på en liste med tekst ved alle de angivne afgrænsere i rækkefølge.
 
 
@@ -21,7 +19,7 @@ Splitter.SplitTextByEachDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en funktion, der opdeler tekst på en liste med tekst ved alle de angivne afgrænsere i rækkefølge.
 

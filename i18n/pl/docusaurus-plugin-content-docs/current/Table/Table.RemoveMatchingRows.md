@@ -5,8 +5,6 @@ title: Table.RemoveMatchingRows
 # Table.RemoveMatchingRows
 
 
-## Description
-
 Usuwa wszystkie wystąpienia określonych wierszy z tabeli.
 
 
@@ -21,7 +19,7 @@ Table.RemoveMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 Usuwa wszystkie wystąpienia określonych wierszy <code>rows</code> z tabeli <code>table</code>.    Można określić opcjonalny parametr <code>equationCriteria</code>, aby sterować porównywaniem wierszy tabeli.
 

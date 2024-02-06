@@ -5,8 +5,6 @@ title: Function.Invoke
 # Function.Invoke
 
 
-## Description
-
 Gọi ra hàm cho sẵn
 
 
@@ -20,7 +18,7 @@ Function.Invoke(
 ```
 
 
-## Details
+## Remarks
 
 Gọi ra hàm cho sẵn bằng cách sử dụng danh sách đối số được chỉ định và trả về kết quả.
 

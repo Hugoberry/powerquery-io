@@ -5,8 +5,6 @@ title: DateTime.Time
 # DateTime.Time
 
 
-## Description
-
 Trả về phần thời gian của giá trị datetime cho sẵn.
 
 
@@ -19,7 +17,7 @@ DateTime.Time(
 ```
 
 
-## Details
+## Remarks
 
 Trả về phần thời gian của giá trị datetime cho sẵn, <code>dateTime</code>.
 

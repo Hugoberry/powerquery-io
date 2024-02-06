@@ -5,8 +5,6 @@ title: Table.SplitColumn
 # Table.SplitColumn
 
 
-## Description
-
 Belirtilen sütunları belirtilen bölücü işlevi kullanarak ek sütun kümelerine ayırır.
 
 
@@ -24,7 +22,7 @@ Table.SplitColumn(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen sütunları belirtilen bölücü işlevi kullanarak ek sütun kümelerine ayırır.
 

@@ -5,8 +5,6 @@ title: Date.AddQuarters
 # Date.AddQuarters
 
 
-## Description
-
 Добавляет указанные кварталы к дате.
 
 
@@ -20,7 +18,7 @@ Date.AddQuarters(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает результат <code>date</code>, <code>datetime</code> или <code>datetimezone</code> после добавления <code>numberOfQuarters</code> кварталов к значению <code>datetime</code>, <code>dateTime</code>.      <ul>      <li><code>dateTime</code>: значение <code>date</code>, <code>datetime</code> или <code>datetimezone</code>, к которому добавляются кварталы.</li>      <li><code>numberOfQuarters</code>: число кварталов, которое нужно добавить.</li>      </ul>
 

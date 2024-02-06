@@ -5,8 +5,6 @@ title: Marketo.Leads
 # Marketo.Leads
 
 
-## Description
-
 傳回包含潛在客戶詳細資料的資料表。
 
 
@@ -21,7 +19,7 @@ Marketo.Leads(
 ```
 
 
-## Details
+## Remarks
 
 在 <code>url</code>/rest/v1/leads.json 呼叫 Marketo REST API 端點。所有潛在客戶都會透過清單 <code>leadIds</code> 傳回。
 

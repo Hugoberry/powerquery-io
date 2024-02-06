@@ -5,8 +5,6 @@ title: List.Distinct
 # List.Distinct
 
 
-## Description
-
 Returnerer en liste over værdier, hvor dublerede værdier er fjernet.
 
 
@@ -20,7 +18,7 @@ List.Distinct(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en liste, som indeholder alle værdier på listen <code>list</code>, hvor dublerede værdier er fjernet. Hvis listen er tom, er resultatet en tom liste.
 

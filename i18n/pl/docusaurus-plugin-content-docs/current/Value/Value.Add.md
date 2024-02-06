@@ -5,8 +5,6 @@ title: Value.Add
 # Value.Add
 
 
-## Description
-
 Zwraca sumę dwóch wartości.
 
 
@@ -21,7 +19,7 @@ Value.Add(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca sumę wartości <code>value1</code> i <code>value2</code>. Można określić opcjonalny parametr <code>precision</code>; domyślnie jest używana wartość <code>Precision.Double</code>.
 

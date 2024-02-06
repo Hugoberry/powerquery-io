@@ -5,8 +5,6 @@ title: Number.IsEven
 # Number.IsEven
 
 
-## Description
-
 Değerin çift olup olmadığını gösterir.
 
 
@@ -19,7 +17,7 @@ Number.IsEven(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> değeri çift ise <code>true</code>, aksi halde <code>false</code> döndürerek değerin çift olup olmadığını gösterir.
 

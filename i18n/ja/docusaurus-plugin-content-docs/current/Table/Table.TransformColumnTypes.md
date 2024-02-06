@@ -5,8 +5,6 @@ title: Table.TransformColumnTypes
 # Table.TransformColumnTypes
 
 
-## Description
-
 特定のカルチャを使用して、\{ column, type } という形式の型変換を適用します。
 
 
@@ -21,7 +19,7 @@ Table.TransformColumnTypes(
 ```
 
 
-## Details
+## Remarks
 
 省略可能なパラメーター <code>culture</code> で指定されたカルチャ (例: "en-US") を使用して、パラメーター <code>typeTransformations</code> で指定された列に変換操作を適用する (形式は \{ column name, type name}) ことで、入力 <code>table</code> からテーブルを返します。    列が存在しない場合、例外がスローされます。
 

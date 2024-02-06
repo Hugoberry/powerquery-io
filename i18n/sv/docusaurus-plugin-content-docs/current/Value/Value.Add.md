@@ -5,8 +5,6 @@ title: Value.Add
 # Value.Add
 
 
-## Description
-
 Returnerar summan av de två värdena.
 
 
@@ -21,7 +19,7 @@ Value.Add(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar summan av <code>value1</code> och <code>value2</code>. En valfri <code>precision</code>-parameter kan anges. <code>Precision.Double</code> används som standard.
 

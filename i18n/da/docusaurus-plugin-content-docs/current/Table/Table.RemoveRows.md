@@ -5,8 +5,6 @@ title: Table.RemoveRows
 # Table.RemoveRows
 
 
-## Description
-
 Fjerner det angivne antal rækker.
 
 
@@ -21,7 +19,7 @@ Table.RemoveRows(
 ```
 
 
-## Details
+## Remarks
 
 Fjerner <code>count</code> af rækkerne fra starten af <code>table</code> med start ved den angivne <code>offset</code>. Standardantallet 1 bruges, hvis parameteren <code>count</code> ikke er angivet. 
 

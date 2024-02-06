@@ -5,8 +5,6 @@ title: Diagnostics.ActivityId
 # Diagnostics.ActivityId
 
 
-## Description
-
 ส่งคืนตัวระบุแบบย่อสำหรับการประเมินที่ใช้งานอยู่ในปัจจุบัน
 
 
@@ -19,7 +17,7 @@ Diagnostics.ActivityId(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนตัวระบุแบบย่อสำหรับการประเมินที่ใช้งานอยู่ในปัจจุบัน
 

@@ -5,8 +5,6 @@ title: Splitter.SplitTextByRanges
 # Splitter.SplitTextByRanges
 
 
-## Description
-
 Retourne une fonction qui fractionne le texte en une liste de textes selon les décalages et les longueurs spécifiés.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une fonction qui fractionne le texte en une liste de textes en fonction des décalages et des longueurs spécifiés. Une longueur null indique que toutes les entrées restantes doivent être incluses.
 

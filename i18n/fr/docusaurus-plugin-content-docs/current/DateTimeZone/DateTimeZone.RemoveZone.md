@@ -5,8 +5,6 @@ title: DateTimeZone.RemoveZone
 # DateTimeZone.RemoveZone
 
 
-## Description
-
 Supprime les informations de fuseau horaire de la valeur datetimezone spécifiée.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.RemoveZone(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une valeur #datetime de <code>dateTimeZone</code> avec les informations de fuseau horaire supprimées.
 

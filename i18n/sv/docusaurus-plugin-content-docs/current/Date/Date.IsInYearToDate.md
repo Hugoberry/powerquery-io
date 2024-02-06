@@ -5,8 +5,6 @@ title: Date.IsInYearToDate
 # Date.IsInYearToDate
 
 
-## Description
-
 Anger om det här datumet infaller under det aktuella året och på eller före dagens datum, baserat på systemets aktuella datum och tid.
 
 
@@ -19,7 +17,7 @@ Date.IsInYearToDate(
 ```
 
 
-## Details
+## Remarks
 
 Anger om det angivna datetime-värdet <code>dateTime</code> infaller under det aktuella året och på eller före dagens datum, baserat på systemets aktuella datum och tid.      <ul>      <li><code>dateTime</code>: Ett <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde som ska utvärderas.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Table.ColumnsOfType
 # Table.ColumnsOfType
 
 
-## Description
-
 傳回符合指定類型的資料行名稱清單。
 
 
@@ -20,7 +18,7 @@ Table.ColumnsOfType(
 ```
 
 
-## Details
+## Remarks
 
 傳回符合 <code>listOfTypes</code> 中指定類型的資料表 <code>table</code> 中資料行的名稱清單。
 

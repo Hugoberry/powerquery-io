@@ -5,8 +5,6 @@ title: List.SingleOrDefault
 # List.SingleOrDefault
 
 
-## Description
-
 Gibt das Listenelement für eine Liste mit der Länge 1 zurück. Ist die Liste leer, wird der Standardwert zurückgegeben.
 
 
@@ -20,7 +18,7 @@ List.SingleOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 Enthält die Liste "<code>list</code>" nur ein Element, wird dieses zurückgegeben.    Ist die Liste leer, gibt die Funktion NULL zurück, sofern kein optionaler Wert (<code>default</code>) angegeben wurde. Enthält die Liste mehrere Elemente, gibt die Funktion einen Fehler zurück.
 

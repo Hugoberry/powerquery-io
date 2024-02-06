@@ -5,8 +5,6 @@ title: Int8.From
 # Int8.From
 
 
-## Description
-
 สร้างจำนวนเต็ม 8 บิตที่มีเครื่องหมายจากค่าที่กำหนดไว้
 
 
@@ -21,7 +19,7 @@ Int8.From(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่า <code>number</code> จํานวนเต็ม 8 บิตที่มีเครื่องหมายจาก <code>value</code> ที่กำหนด ถ้า <code>value</code> ที่กำหนดเป็น <code>null</code> <code>Int8.From</code> จะส่งกลับ <code>null</code> ถ้า <code>value</code> ที่กำหนดเป็น <code>number</code> ภายในช่วงของจํานวนเต็ม 8 บิตที่มีเครื่องหมายโดยไม่มีเศษส่วน ระบบจะส่งกลับ <code>value</code> ถ้ามีเศษส่วน ระบบจะปัดเศษตัวเลขดังกล่าวตามโหมดการปัดเศษที่ระบุไว้ โหมดการปัดเศษเริ่มต้นคือ <code>RoundingMode.ToEven</code> ถ้า <code>value</code> เป็นชนิดอื่น ระบบจะแปลงเป็น <code>number</code> ก่อน โดยใช้ <code>Number.FromText</code> โปรดดู <code>Number.Round</code> สําหรับโหมดการปัดเศษที่ใช้งานได้ อาจมี <code>culture</code> เพิ่มเติม (ตัวอย่างเช่น "en-US")
 

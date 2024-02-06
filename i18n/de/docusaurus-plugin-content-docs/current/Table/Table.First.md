@@ -5,8 +5,6 @@ title: Table.First
 # Table.First
 
 
-## Description
-
 Gibt die erste Zeile oder einen angegebenen Standardwert zurück.
 
 
@@ -20,7 +18,7 @@ Table.First(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die erste Zeile des Elements vom Typ "<code>table</code>" zurück. Ist die Tabelle leer, wird ein optionaler Standardwert (<code>default</code>) zurückgegeben.
 

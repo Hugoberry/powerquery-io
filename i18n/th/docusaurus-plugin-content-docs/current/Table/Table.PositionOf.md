@@ -5,8 +5,6 @@ title: Table.PositionOf
 # Table.PositionOf
 
 
-## Description
-
 ส่งกลับตำแหน่งหรือหลายตำแหน่งของแถวภายในตาราง
 
 
@@ -22,7 +20,7 @@ Table.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนตำแหน่งแถวของเหตุการณ์ครั้งแรกของ <code>row</code> ใน <code>table</code> ที่ระบุ ส่งคืน -1 ถ้าไม่พบเหตุการณ์    <ul>       <li><code>table</code>: ตารางค่าที่ป้อน</li>       <li><code>row</code>: แถวในตารางที่จะค้นหาตำแหน่ง</li>       <li><code>occurrence</code>: <i>[ระบุหรือไม่ก็ได้]</i> ระบุการปรากฏของแถวที่จะส่งกลับ</li>       <li><code>equationCriteria</code>: <i>[ระบุหรือไม่ก็ได้]</i> ควบคุมการเปรียบเทียบระหว่างแถวของตาราง</li>    </ul>    
 

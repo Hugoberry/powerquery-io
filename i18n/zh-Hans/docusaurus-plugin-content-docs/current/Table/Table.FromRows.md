@@ -5,8 +5,6 @@ title: Table.FromRows
 # Table.FromRows
 
 
-## Description
-
 从行值列表和可选列创建一个表
 
 
@@ -20,7 +18,7 @@ Table.FromRows(
 ```
 
 
-## Details
+## Remarks
 
 从列表 <code>rows</code> 创建一个表，其中该列表的每个元素都是一个包含用于单一行的列值的内部列表。可以为 <code>columns</code> 提供可选的列名列表、表类型或若干列。
 

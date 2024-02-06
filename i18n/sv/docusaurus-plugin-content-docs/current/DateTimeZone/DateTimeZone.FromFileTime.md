@@ -5,8 +5,6 @@ title: DateTimeZone.FromFileTime
 # DateTimeZone.FromFileTime
 
 
-## Description
-
 Skapar ett datetimezone-värde från ett 64 bitars tal av typen long.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.FromFileTime(
 ```
 
 
-## Details
+## Remarks
 
 Skapar ett <code>datetimezone</code>-värde från <code>fileTime</code>-värdet och konverterar det till den lokala tidszonen. Filetime-värdet är ett Windows-filtidsvärde som representerar antalet intervall om 100 nanosekunder som har förflutit sedan midnatt den 1 januari 1601 e. Kr. (C.E.) Coordinated Universal Time (UTC).
 

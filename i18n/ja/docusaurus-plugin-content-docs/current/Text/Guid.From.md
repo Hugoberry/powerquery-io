@@ -5,8 +5,6 @@ title: Guid.From
 # Guid.From
 
 
-## Description
-
 指定された値から GUID 値を返します。
 
 
@@ -19,7 +17,7 @@ Guid.From(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>value</code> から <code>Guid.Type</code> の値を返します。指定された <code>value</code> が <code>null</code> の場合、<code>Guid.From</code> は <code>null</code> を返します。 指定された <code>value</code> が使用可能な形式かどうかを判断するためのチェックが行われます。使用可能な形式については例をご覧ください。
 

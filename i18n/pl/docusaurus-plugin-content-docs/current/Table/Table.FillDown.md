@@ -5,8 +5,6 @@ title: Table.FillDown
 # Table.FillDown
 
 
-## Description
-
 Propaguje wartość poprzedniej komórki do komórek zawierających wartości null, które znajdują się w tej samej kolumnie poniżej.
 
 
@@ -20,7 +18,7 @@ Table.FillDown(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę z tabeli określonej w parametrze <code>table</code>, w której wartość poprzedniej komórki jest propagowana do znajdujących się pod nią komórek o wartości null w kolumnie określonej w parametrze <code>columns</code>.
 

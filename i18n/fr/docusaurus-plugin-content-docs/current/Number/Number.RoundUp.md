@@ -5,8 +5,6 @@ title: Number.RoundUp
 # Number.RoundUp
 
 
-## Description
-
 Retourne le nombre supérieur suivant. Le nombre de chiffres peut être spécifié.
 
 
@@ -20,7 +18,7 @@ Number.RoundUp(
 ```
 
 
-## Details
+## Remarks
 
 Renvoie le résultat de l'arrondi <code>number</code> à l'entier supérieur suivant. Si <code>number</code> est null, cette fonction renvoie null.    Si <code>digits</code> est fourni, <code>number</code> est arrondi au nombre de chiffres décimaux spécifié.  
 

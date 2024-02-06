@@ -5,8 +5,6 @@ title: Table.TransformColumnNames
 # Table.TransformColumnNames
 
 
-## Description
-
 Transformerar kolumnnamn genom att använda den givna funktionen.
 
 
@@ -21,7 +19,7 @@ Table.TransformColumnNames(
 ```
 
 
-## Details
+## Remarks
 
 Transformerar kolumnnamn genom att använda den givna <code>nameGenerator</code>-funktionen. Giltiga alternativ:    <div>      <code>MaxLength</code> anger maxlängden för nya kolumnnamn. Om den givna funktionen resulterar i ett längre kolumnnamn kommer det långa namnet att trimmas.    </div>    <div>      <code>Comparer</code> används för att styra jämförelsen samtidigt som nya kolumnnamn genereras. Jämförelsefunktioner kan användas för att tillhandahålla skiftlägesokänsliga eller kultur- och språkmedvetna jämförelser.    </div>    <div>      Följande inbyggda jämförelsefunktioner är tillgängliga i formelspråket:    </div>    <ul>      <li><code>Comparer.Ordinal</code>: Används för att genomföra en exakt ordningstalsjämförelse</li>      <li><code>Comparer.OrdinalIgnoreCase</code>: Används för att genomföra en exakt skiftlägesokänslig ordningstalsjämförelse</li>      <li> <code>Comparer.FromCulture</code>: Används för att genomföra en kulturmedveten jämförelse</li>    </ul>    
 

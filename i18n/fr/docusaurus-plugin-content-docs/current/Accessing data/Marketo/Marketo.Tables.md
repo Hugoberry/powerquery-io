@@ -5,8 +5,6 @@ title: Marketo.Tables
 # Marketo.Tables
 
 
-## Description
-
 Entrez l&#39;URL du point de terminaison de l&#39;API REST Marketo associé à votre compte.
 
 
@@ -20,7 +18,7 @@ Marketo.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une table avec les données Marketo appropriées.
 

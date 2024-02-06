@@ -5,8 +5,6 @@ title: Error.Record
 # Error.Record
 
 
-## Description
-
 Zwraca rekord błędu z dostarczonych wartości tekstowych określających przyczynę, komunikat i szczegóły.
 
 
@@ -22,7 +20,7 @@ Error.Record(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca rekord błędu z dostarczonych wartości tekstowych określających przyczynę, komunikat i szczegóły.
 

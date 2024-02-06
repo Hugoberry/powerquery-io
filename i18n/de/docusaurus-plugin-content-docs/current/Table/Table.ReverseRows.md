@@ -5,8 +5,6 @@ title: Table.ReverseRows
 # Table.ReverseRows
 
 
-## Description
-
 Gibt eine Tabelle zurück, deren Zeilen in umgekehrter Reihenfolge sortiert wurden.
 
 
@@ -19,7 +17,7 @@ Table.ReverseRows(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Tabelle zurück, bei der die Zeilen aus der Eingabe "<code>table</code>" in umgekehrter Reihenfolge sortiert wurden.
 

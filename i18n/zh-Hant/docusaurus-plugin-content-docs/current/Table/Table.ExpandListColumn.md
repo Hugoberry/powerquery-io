@@ -5,8 +5,6 @@ title: Table.ExpandListColumn
 # Table.ExpandListColumn
 
 
-## Description
-
 指定資料表中的清單資料行之後，針對其清單中的每個值建立一個資料列複本。
 
 
@@ -20,7 +18,7 @@ Table.ExpandListColumn(
 ```
 
 
-## Details
+## Remarks
 
 指定 <code>table</code> 之後，其中 <code>column</code> 是值的清單，將清單分割成每個值各一個資料列。其他資料行中的值會複製到每個新建立的資料列中。
 

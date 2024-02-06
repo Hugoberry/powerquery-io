@@ -5,8 +5,6 @@ title: Binary.FromText
 # Binary.FromText
 
 
-## Description
-
 Afkoder data fra en tekstformular til binær.
 
 
@@ -20,7 +18,7 @@ Binary.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer resultatet af at konvertere tekstværdien <code>text</code> til en binær (liste over <code>number</code>-værdier). <code>encoding</code> kan specificeres for at angive den kodning, der bruges i tekstværdien.      Følgende <code>BinaryEncoding</code>-værdier kan bruges til <code>encoding</code>.      <ul>        <li><code>BinaryEncoding.Base64</code>: Base 64-kodning</li>        <li><code>BinaryEncoding.Hex</code>: Hex-kodning</li>      </ul>
 

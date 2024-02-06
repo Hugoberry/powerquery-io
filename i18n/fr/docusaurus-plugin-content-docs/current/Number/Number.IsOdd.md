@@ -5,8 +5,6 @@ title: Number.IsOdd
 # Number.IsOdd
 
 
-## Description
-
 Indique si la valeur est impaire.
 
 
@@ -19,7 +17,7 @@ Number.IsOdd(
 ```
 
 
-## Details
+## Remarks
 
 Indique si la valeur est impaire. Retourne <code>true</code> si <code>number</code> est un nombre impair, sinon <code>false</code>.
 

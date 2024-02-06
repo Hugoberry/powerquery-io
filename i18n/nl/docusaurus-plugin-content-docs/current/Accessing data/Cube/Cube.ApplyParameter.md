@@ -5,8 +5,6 @@ title: Cube.ApplyParameter
 # Cube.ApplyParameter
 
 
-## Description
-
 Retourneert een kubus nadat er een parameter op is toegepast.
 
 
@@ -21,7 +19,7 @@ Cube.ApplyParameter(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een kubus nadat <code>parameter</code> met <code>arguments</code> op <code>cube</code> is toegepast.
 

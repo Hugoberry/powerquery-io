@@ -5,8 +5,6 @@ title: Record.TransformFields
 # Record.TransformFields
 
 
-## Description
-
 套用指定的轉換之後，傳回記錄。
 
 
@@ -21,7 +19,7 @@ Record.TransformFields(
 ```
 
 
-## Details
+## Remarks
 
 將清單 <code>transformOperations</code> 中指定的轉換套用至 <code>record</code> 之後，傳回記錄。    一個或多個欄位可能會在指定的時間轉換。      <div>如果轉換單一欄位，<code>transformOperations</code> 就應該是包含兩個項目的清單。<code>transformOperations</code> 中的第一個項目會指定欄位名稱，而 <code>transformOperations</code> 中的第二個項目會指定要用於轉換的函數。例如 <code>\{"Quantity", Number.FromText}</code></div>      <div>如果轉換多個欄位，<code>transformOperations</code> 就應該是包含多份清單的清單，其中每個內部清單都是欄位名稱與轉換作業的配對。例如 <code>\{\{"Quantity",Number.FromText},\{"UnitPrice", Number.FromText}}</code></div>
 

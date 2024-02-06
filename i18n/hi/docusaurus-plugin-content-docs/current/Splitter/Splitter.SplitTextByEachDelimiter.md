@@ -5,8 +5,6 @@ title: Splitter.SplitTextByEachDelimiter
 # Splitter.SplitTextByEachDelimiter
 
 
-## Description
-
 ऐसा फ़ंक्शन लौटाता है जो अनुक्रम में प्रत्येक निर्दिष्ट डीलिमीटर पर पाठ को पाठ की सूची में विभाजित करता है.
 
 
@@ -21,7 +19,7 @@ Splitter.SplitTextByEachDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 ऐसा फ़ंक्शन लौटाता है जो अनुक्रम में प्रत्येक निर्दिष्ट डीलिमीटर पर पाठ को पाठ की सूची में विभाजित करता है.
 

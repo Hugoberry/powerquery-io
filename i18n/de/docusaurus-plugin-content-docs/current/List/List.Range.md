@@ -5,8 +5,6 @@ title: List.Range
 # List.Range
 
 
-## Description
-
 Gibt eine Teilmenge der Liste ab einem Offset zurück.
 
 
@@ -21,7 +19,7 @@ List.Range(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Teilmenge der Liste ab dem Offset "<code>list</code>" zurück. Die maximale Anzahl von Elementen in der Teilmenge kann mithilfe eines optionalen Parameters (<code>offset</code>) festgelegt werden.
 

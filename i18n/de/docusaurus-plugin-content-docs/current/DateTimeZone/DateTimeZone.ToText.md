@@ -5,8 +5,6 @@ title: DateTimeZone.ToText
 # DateTimeZone.ToText
 
 
-## Description
-
 Gibt eine Textdarstellung des datetimezone-Werts zurück.
 
 
@@ -21,7 +19,7 @@ DateTimeZone.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Textdarstellung von <code>dateTimeZone</code> zurück. Ein optionaler <code>record</code>-Parameter, <code>options</code>, kann angegeben werden, um zusätzliche Eigenschaften anzugeben. <code>culture</code> wird nur für Legacyworkflows verwendet. <code>record</code> kann die folgenden Felder enthalten:<ul>   <li><code>Format</code>: Ein <code>text</code>-Wert, der das zu verwendende Format angibt. Weitere Details finden Sie unter https://go.microsoft.com/fwlink/?linkid=2180104 und https://go.microsoft.com/fwlink/?linkid=2180105. Wenn Sie dieses Feld auslassen oder <code>null</code> angeben, wird das Datum mit dem durch <code>Culture</code> definierten Standard formatiert.</li>   <li><code>Culture</code>: Wenn <code>Format</code> nicht null ist, bestimmt <code>Culture</code> manche Formatbezeichner. Zum Beispiel, ist in <code>"en-US"</code> <code>"MMM"</code>  <code>"Jan", "Feb", "Mar", ...</code>, whärend in <code>"ru-RU"</code> <code>"MMM"</code> <code>"янв", "фев", "мар", ...</code> ist. Wenn <code>Format</code> <code>null</code> ist, bestimmt <code>Culture</code> das zu verwendende Standardformat. Wenn <code>Culture</code> <code>null</code> ist oder ausgelassen wird, wird <code>Culture.Current</code> verwendet.</li></ul>Zur Unterstützung von Legacyworkflows können <code>options</code> und <code>culture</code> auch Textwerte sein. Dies führt zum gleichen Verhalten wie <code>options</code><code> = [Format = <code>options</code>, Culture = <code>culture</code>]</code>.
 

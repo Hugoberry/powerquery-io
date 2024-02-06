@@ -5,8 +5,6 @@ title: Text.AfterDelimiter
 # Text.AfterDelimiter
 
 
-## Description
-
 Text.AfterDelimiter
 
 
@@ -21,7 +19,7 @@ Text.AfterDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Trả về phần của <code>text</code> sau <code>delimiter</code> được chỉ định.    <code>index</code> dạng số tùy chọn cho biết lần xuất hiện nào của <code>delimiter</code> sẽ được xem xét.    Danh sách tùy chọn <code>index</code> cho biết lần xuất hiện nào của <code>delimiter</code> sẽ được xem xét cũng như việc đánh chỉ mục có được thực hiện tính từ phần đầu hoặc cuối của đầu vào hay không.
 

@@ -5,8 +5,6 @@ title: Binary.Buffer
 # Binary.Buffer
 
 
-## Description
-
 Tải giá trị nhị phân trong bộ nhớ.
 
 
@@ -19,7 +17,7 @@ Binary.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Đệm giá trị nhị phân trong bộ nhớ. Kết quả của thao tác gọi này là một giá trị nhị phân ổn định, tức là giá trị đó có độ dài và trật tự byte tất định. 
 

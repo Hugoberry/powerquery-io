@@ -5,8 +5,6 @@ title: Soda.Feed
 # Soda.Feed
 
 
-## Description
-
 Retorna uma tabela do conteúdo na URL especificada formatada de acordo com a API SODA 2.0.
 
 
@@ -19,7 +17,7 @@ Soda.Feed(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma tabela do conteúdo na URL <code>url</code> especificada formatada de acordo com a API SODA 2.0. A URL deve apontar para uma fonte válida, compatível com SODA, que termina em uma extensão .csv.
 

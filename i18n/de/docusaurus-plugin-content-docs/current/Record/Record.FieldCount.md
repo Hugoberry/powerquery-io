@@ -5,8 +5,6 @@ title: Record.FieldCount
 # Record.FieldCount
 
 
-## Description
-
 Gibt die Anzahl von Feldern im Datensatz zurück.
 
 
@@ -19,7 +17,7 @@ Record.FieldCount(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die Anzahl von Feldern im Datensatz "<code>record</code>" zurück.
 

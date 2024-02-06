@@ -5,8 +5,6 @@ title: Text.Start
 # Text.Start
 
 
-## Description
-
 傳回文字的開頭。
 
 
@@ -20,7 +18,7 @@ Text.Start(
 ```
 
 
-## Details
+## Remarks
 
 將 <code>text</code> 的前 <code>count</code> 個字元傳回成文字值。
 

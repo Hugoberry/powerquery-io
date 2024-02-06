@@ -5,8 +5,6 @@ title: Geometry.ToWellKnownText
 # Geometry.ToWellKnownText
 
 
-## Description
-
 Traduz um valor de ponto geométrico estruturado na sua representação de Well-Known Text (WKT).
 
 
@@ -20,7 +18,7 @@ Geometry.ToWellKnownText(
 ```
 
 
-## Details
+## Remarks
 
 Traduz um valor de ponto geométrico estruturado na sua representação de Well-Known Text (WKT), tal como definido pelo Open Geospatial Consortium (OGC), também o formato de serialização utilizado por muitas bases de dados, incluindo o SQL Server.
 

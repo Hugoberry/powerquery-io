@@ -5,8 +5,6 @@ title: BQL.Query
 # BQL.Query
 
 
-## Description
-
 Utilisé pour récupérer des données Bloomberg
 
 

@@ -5,8 +5,6 @@ title: Table.PromoteHeaders
 # Table.PromoteHeaders
 
 
-## Description
-
 Verplaatst de eerste rij met waarden omhoog zodat die de nieuwe kolomkoppen (d.w.z. kolomnamen) worden.
 
 
@@ -20,7 +18,7 @@ Table.PromoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Verplaatst de eerste rij met waarden omhoog zodat die de nieuwe kolomkoppen (d.w.z. kolomnamen) worden. Standaard worden alleen tekst- of getalswaarden omhoog verplaatst naar kolomkoppen. Geldige opties:    <div>      <code>PromoteAllScalars</code>: als deze optie is ingesteld op <code>true</code>, worden alle scalaire waarden in de eerste rij omhoog verplaatst naar kolomkoppen op basis van <code>Culture</code>, indien opgegeven (of de huidige landinstelling van het document).    Voor waarden die niet naar tekst kunnen worden geconverteerd, wordt een standaardkolomnaam gebruikt.    </div>    <div>    <code>Culture</code>: een cultuurnaam die de cultuur voor de gegevens aangeeft.    </div>  
 

@@ -5,8 +5,6 @@ title: Table.PartitionValues
 # Table.PartitionValues
 
 
-## Description
-
 Gibt Informationen zur Partitionierung einer Tabelle zurück.
 
 
@@ -19,7 +17,7 @@ Table.PartitionValues(
 ```
 
 
-## Details
+## Remarks
 
 Gibt Informationen zur Partitionierung einer Tabelle zurück.  Es wird eine Tabelle zurückgegeben, in der jede Spalte einer Partitionsspalte und jede Zeile einer Partition in der ursprünglichen Tabelle entspricht.
 

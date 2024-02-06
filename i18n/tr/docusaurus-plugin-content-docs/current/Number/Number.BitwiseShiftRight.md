@@ -5,8 +5,6 @@ title: Number.BitwiseShiftRight
 # Number.BitwiseShiftRight
 
 
-## Description
-
 Bit kümesini sağa kaydırır.
 
 
@@ -20,7 +18,7 @@ Number.BitwiseShiftRight(
 ```
 
 
-## Details
+## Remarks
 
 <code>number1</code> üzerinde <code>number2</code> belirtilen bit sayısı kadar sağa bit tabanlı kaydırma gerçekleştirmenin sonucunun döndürür.
 

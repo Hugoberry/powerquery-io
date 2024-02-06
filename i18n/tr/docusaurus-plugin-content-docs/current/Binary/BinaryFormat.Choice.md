@@ -5,8 +5,6 @@ title: BinaryFormat.Choice
 # BinaryFormat.Choice
 
 
-## Description
-
 Zaten kullanılan bir değere dayalı olan bir sonraki ikili biçimi seçen bir ikili biçimi döndürür.
 
 
@@ -22,7 +20,7 @@ BinaryFormat.Choice(
 ```
 
 
-## Details
+## Remarks
 
 Zaten kullanılan bir değere dayalı olan bir sonraki ikili biçimi seçen bir ikili biçimi döndürür.  Bu işlev tarafından oluşturulan ikili biçim değeri şu aşamalarda çalışır:<ul><li> <code>binaryFormat</code> parametresi tarafından belirtilen ikili biçimi bir değer okumak için kullanılır.</li><li>Değer <code>chooseFunction</code> parametresi tarafından belirtilen seçim işlevine geçirilir.</li><li>Seçim işlevi değeri denetler ve ikinci bir ikili biçimi döndürür.</li><li>İkinci ikili biçimi ikinci bir değeri okumak için kullanılır.</li><li>Birleştirme işlevi belirtilirse, birinci ve ikinci değerler birleştirme işlevine geçirilir ve sonuç değeri döndürülür.</li><li>Birleştirme işlevi belirtilmezse, ikinci değer döndürülür.</li><li>İkinci değer döndürülür.</li></ul>İsteğe bağlı <code>type</code> parametresi, seçim işlevi tarafından döndürülecek ikili biçiminin türünü belirtir.  <code>type any</code>, <code>type list</code> veya <code>type binary</code> belirtilebilir.  <code>type</code> parametresi belirtilmezse, <code>type any</code> kullanılır.   <code>type list</code> veya <code>type binary</code> kullanılırsa, sistem arabelleğe alınan bir değer yerine akış yapan bir <code>binary</code> veya <code>list</code> değeri döndürebilir; bu, biçimi okumak için gerekli bellek miktarını azaltabilir.
 

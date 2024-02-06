@@ -5,8 +5,6 @@ title: Table.UnpivotOtherColumns
 # Table.UnpivotOtherColumns
 
 
-## Description
-
 Übersetzt alle Spalten außer einem angegebenen Satz in Attribut/Wert-Paare.
 
 
@@ -22,7 +20,7 @@ Table.UnpivotOtherColumns(
 ```
 
 
-## Details
+## Remarks
 
 Übersetzt alle Spalten mit Ausnahme eines angegebenen Satzes in Attribut-Wert-Paare in Kombination mit den restlichen Werten in jeder Zeile.
 

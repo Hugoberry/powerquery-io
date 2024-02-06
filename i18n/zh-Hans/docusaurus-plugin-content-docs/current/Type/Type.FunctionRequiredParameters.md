@@ -5,8 +5,6 @@ title: Type.FunctionRequiredParameters
 # Type.FunctionRequiredParameters
 
 
-## Description
-
 返回一个数字，表明调用函数的类型所需参数的最小数量。
 
 
@@ -19,7 +17,7 @@ Type.FunctionRequiredParameters(
 ```
 
 
-## Details
+## Remarks
 
 返回一个数字，表明调用函数的输入 <code>type</code> 所需参数的最小数量。
 

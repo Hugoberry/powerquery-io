@@ -5,8 +5,6 @@ title: List.AllTrue
 # List.AllTrue
 
 
-## Description
-
 ส่งกลับเป็น true ถ้านิพจน์ทั้งหมดเป็น true
 
 
@@ -19,7 +17,7 @@ List.AllTrue(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับเป็น true ถ้านิพจน์ทั้งหมดในรายการ <code>list</code> เป็น true
 

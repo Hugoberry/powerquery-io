@@ -5,8 +5,6 @@ title: Number.IsOdd
 # Number.IsOdd
 
 
-## Description
-
 Gibt an, ob es sich um einen ungeraden Wert handelt.
 
 
@@ -19,7 +17,7 @@ Number.IsOdd(
 ```
 
 
-## Details
+## Remarks
 
 Gibt an, ob es sich um einen ungeraden Wert handelt. Gibt <code>true</code> zurück, wenn "<code>number</code>" eine ungerade Zahl ist. Andernfalls wird <code>false</code> zurückgegeben.
 

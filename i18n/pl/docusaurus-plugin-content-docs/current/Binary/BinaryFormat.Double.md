@@ -5,8 +5,6 @@ title: BinaryFormat.Double
 # BinaryFormat.Double
 
 
-## Description
-
 Format binarny odczytujący 8-bajtową wartość zmiennoprzecinkową o podwójnej precyzji, która jest zgodna ze standardem IEEE.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Double(
 ```
 
 
-## Details
+## Remarks
 
 Format binarny odczytujący 8-bajtową wartość zmiennoprzecinkową o podwójnej precyzji, która jest zgodna ze standardem IEEE.
 

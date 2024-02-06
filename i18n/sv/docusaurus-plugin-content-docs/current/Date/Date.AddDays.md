@@ -5,8 +5,6 @@ title: Date.AddDays
 # Date.AddDays
 
 
-## Description
-
 Lägger till angivna dagar i datumet.
 
 
@@ -20,7 +18,7 @@ Date.AddDays(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-resultatet när <code>numberOfDays</code> dagar har lagts till i <code>datetime</code>-värdet <code>dateTime</code>.      <ul>      <li><code>dateTime</code>: <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värdet som dagar läggs till i.</li>      <li><code>numberOfDays</code>: Antalet dagar som ska läggas till.</li>      </ul>
 

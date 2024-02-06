@@ -5,8 +5,6 @@ title: Number.RoundDown
 # Number.RoundDown
 
 
-## Description
-
 Trả về số cao nhất đằng trước. Số chữ số có thể được chỉ định.
 
 
@@ -20,7 +18,7 @@ Number.RoundDown(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả làm tròn <code>number</code> xuống số nguyên cao nhất đằng trước. Nếu <code>number</code> là null, hàm này sẽ trả về giá trị null.    Nếu <code>digits</code> được cung cấp, <code>number</code> sẽ được làm tròn đến số đã chỉ định của số thập phân.  
 

@@ -5,8 +5,6 @@ title: Table.RowCount
 # Table.RowCount
 
 
-## Description
-
 तालिका की पंक्तियों की संख्या लौटाता है.
 
 
@@ -19,7 +17,7 @@ Table.RowCount(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> की पंक्तियों की संख्या लौटाता है.
 

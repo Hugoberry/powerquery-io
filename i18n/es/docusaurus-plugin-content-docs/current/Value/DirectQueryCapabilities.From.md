@@ -5,8 +5,6 @@ title: DirectQueryCapabilities.From
 # DirectQueryCapabilities.From
 
 
-## Description
-
 Esta función solo está pensada para uso interno.
 
 
@@ -19,7 +17,7 @@ DirectQueryCapabilities.From(
 ```
 
 
-## Details
+## Remarks
 
 Esta función solo está pensada para uso interno.
 

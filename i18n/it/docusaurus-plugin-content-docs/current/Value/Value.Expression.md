@@ -5,8 +5,6 @@ title: Value.Expression
 # Value.Expression
 
 
-## Description
-
 Restituisce un albero della sintassi astratta (AST) che rappresenta l&#39;espressione del valore.
 
 
@@ -19,7 +17,7 @@ Value.Expression(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un albero della sintassi astratta (AST) che rappresenta l'espressione del valore
 

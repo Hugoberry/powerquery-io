@@ -5,8 +5,6 @@ title: Table.Pivot
 # Table.Pivot
 
 
-## Description
-
 Używając pary kolumn reprezentujących pary atrybut-wartość, obraca dane w kolumnie atrybutów tak, że stają się one nagłówkami kolumn.
 
 
@@ -23,7 +21,7 @@ Table.Pivot(
 ```
 
 
-## Details
+## Remarks
 
 Używając pary kolumn reprezentujących pary atrybut-wartość, obraca dane w kolumnie atrybutów tak, że stają się one nagłówkami kolumn.
 

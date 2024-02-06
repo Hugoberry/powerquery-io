@@ -5,8 +5,6 @@ title: Table.Column
 # Table.Column
 
 
-## Description
-
 Retourneert een opgegeven kolom met gegevens vanuit de tabel als een lijst.
 
 
@@ -20,7 +18,7 @@ Table.Column(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de door <code>column</code> opgegeven kolom met gegevens vanuit de tabel <code>table</code> als een lijst.
 

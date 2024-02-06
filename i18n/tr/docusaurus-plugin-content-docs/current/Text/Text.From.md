@@ -5,8 +5,6 @@ title: Text.From
 # Text.From
 
 
-## Description
-
 Verilen değerden bir metin değeri oluşturur.
 
 
@@ -20,7 +18,7 @@ Text.From(
 ```
 
 
-## Details
+## Remarks
 
 <code>value</code> değerinin metin gösterimini döndürür. <code>value</code> bir <code>number</code>, <code>date</code>, <code>time</code>, <code>datetime</code>, <code>datetimezone</code>, <code>logical</code>, <code>duration</code> veya <code>binary</code> olabilir.    Verilen değer null ise <code>Text.From</code> null döndürür. Ayrıca, isteğe bağlı bir <code>culture</code> sağlanabilir (ör. "tr-TR").
 

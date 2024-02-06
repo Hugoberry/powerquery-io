@@ -5,8 +5,6 @@ title: Text.TrimEnd
 # Text.TrimEnd
 
 
-## Description
-
 पिछले सभी सफेद रिक्त स्थान निकालता है.
 
 
@@ -20,7 +18,7 @@ Text.TrimEnd(
 ```
 
 
-## Details
+## Remarks
 
 पाठ मान <code>text</code> से निकाले गए सभी पिछले सफेद रिक्त स्थान का परिणाम लौटाता है.
 

@@ -5,8 +5,6 @@ title: Duration.ToRecord
 # Duration.ToRecord
 
 
-## Description
-
 Gibt einen Datensatz mit den Teilen der Dauer zurück.
 
 
@@ -19,7 +17,7 @@ Duration.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen Datensatz mit den Teilen des duration-Werts "<code>duration</code>" zurück.  <ul>        <li><code>duration</code>: Ein <code>duration</code>-Wert, auf dessen Grundlage der Datensatz erstellt wird.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Text.At
 # Text.At
 
 
-## Description
-
 ส่งกลับอักขระในตำแหน่งที่ระบุ
 
 
@@ -20,7 +18,7 @@ Text.At(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับอักขระในค่าข้อความ <code>text</code> ที่ตำแหน่ง <code>index</code> อักขระแรกในข้อความอยู่ที่ตำแหน่ง 0
 

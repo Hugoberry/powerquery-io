@@ -5,8 +5,6 @@ title: Date.IsInNextQuarter
 # Date.IsInNextQuarter
 
 
-## Description
-
 Indica si esta fecha se produce durante el trimestre siguiente, determinado por la fecha y hora actual del sistema. Tenga en cuenta que esta función devuelve false cuando se pasa un valor que está dentro del trimestre actual.
 
 
@@ -19,7 +17,7 @@ Date.IsInNextQuarter(
 ```
 
 
-## Details
+## Remarks
 
 Indica si el valor datetime proporcionado <code>dateTime</code> se produce durante el trimestre siguiente, determinado por la fecha y hora actual del sistema. Tenga en cuenta que esta función devuelve false cuando se pasa un valor que está dentro del trimestre actual.      <ul>      <li><code>dateTime</code>: un valor <code>date</code>, <code>datetime</code> o <code>datetimezone</code> que se va a evaluar.</li>      </ul>
 

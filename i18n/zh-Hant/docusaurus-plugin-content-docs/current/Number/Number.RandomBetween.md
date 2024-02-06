@@ -5,8 +5,6 @@ title: Number.RandomBetween
 # Number.RandomBetween
 
 
-## Description
-
 傳回兩個數字之間的亂數。
 
 
@@ -20,7 +18,7 @@ Number.RandomBetween(
 ```
 
 
-## Details
+## Remarks
 
 傳回 <code>bottom</code> 到 <code>top</code> 之間的亂數。
 

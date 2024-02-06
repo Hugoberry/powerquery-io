@@ -5,8 +5,6 @@ title: Splitter.SplitTextByWhitespace
 # Splitter.SplitTextByWhitespace
 
 
-## Description
-
 Returnerar en funktion som delar upp text i en lista med text vid blanksteg.
 
 
@@ -19,7 +17,7 @@ Splitter.SplitTextByWhitespace(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en funktion som delar upp text i en lista med text vid blanksteg.
 

@@ -5,8 +5,6 @@ title: List.Sum
 # List.Sum
 
 
-## Description
-
 リスト内の項目の合計を返します。
 
 
@@ -20,7 +18,7 @@ List.Sum(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>list</code> 内の NULL 以外の値の合計を返します。リストに NULL 以外の値がない場合、NULL を返します。
 

@@ -5,8 +5,6 @@ title: Diagnostics.CorrelationId
 # Diagnostics.CorrelationId
 
 
-## Description
-
 Gibt einen nicht transparenten Bezeichner zurück, um eingehende Anforderungen mit ausgehenden Anforderungen zu korrelieren.
 
 
@@ -19,7 +17,7 @@ Diagnostics.CorrelationId(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen nicht transparenten Bezeichner zurück, um eingehende Anforderungen mit ausgehenden Anforderungen zu korrelieren.
 

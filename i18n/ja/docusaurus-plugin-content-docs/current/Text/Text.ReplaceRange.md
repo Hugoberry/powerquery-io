@@ -5,8 +5,6 @@ title: Text.ReplaceRange
 # Text.ReplaceRange
 
 
-## Description
-
 文字の範囲を削除し、指定された位置に新しい値を挿入します。
 
 
@@ -22,7 +20,7 @@ Text.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 テキスト値 <code>text</code> の位置 <code>offset</code> から <code>count</code> 文字削除し、<code>text</code> の同じ位置にテキスト値 <code>newText</code> を挿入した結果を返します。
 

@@ -5,8 +5,6 @@ title: Type.ReplaceTableKeys
 # Type.ReplaceTableKeys
 
 
-## Description
-
 Restituisce un nuovo tipo di tabella con tutte le chiavi sostituite dall&#39;elenco di chiavi specificato.
 
 
@@ -20,7 +18,7 @@ Type.ReplaceTableKeys(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un nuovo tipo di tabella con tutte le chiavi sostituite dall'elenco di chiavi specificato.<br />    <br />    Ogni chiave è definita usando un record nel formato seguente:    <ul>      <li>        <code>Columns</code>: un elenco di nomi di colonne che definiscono la chiave      </li>      <li>        <code>Primary</code>: <code>true</code> se la chiave è la chiave primaria della tabella; altrimenti, <code>false</code>      </li>    </ul>    L'elenco specificato di chiavi viene convalidato per garantire che non siano definite più chiavi primarie e che nel tipo di tabella ci siano tutti i nomi di colonna chiave.    
 

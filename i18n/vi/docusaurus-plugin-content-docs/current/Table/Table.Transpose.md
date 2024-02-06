@@ -5,8 +5,6 @@ title: Table.Transpose
 # Table.Transpose
 
 
-## Description
-
 Chuyển đổi cột thành hàng và hàng thành cột.
 
 
@@ -20,7 +18,7 @@ Table.Transpose(
 ```
 
 
-## Details
+## Remarks
 
 Chuyển đổi cột thành hàng và hàng thành cột.
 

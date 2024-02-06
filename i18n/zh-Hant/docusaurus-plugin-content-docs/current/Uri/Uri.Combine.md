@@ -5,8 +5,6 @@ title: Uri.Combine
 # Uri.Combine
 
 
-## Description
-
 傳回結合輸入基底 URI 與相對 URI 的絕對 URI。
 
 
@@ -20,7 +18,7 @@ Uri.Combine(
 ```
 
 
-## Details
+## Remarks
 
 傳回結合輸入 <code>baseUri</code> 與 <code>relativeUri</code> 的絕對 URI。
 

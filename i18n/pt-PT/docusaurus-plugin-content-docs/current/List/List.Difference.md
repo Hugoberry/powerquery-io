@@ -5,8 +5,6 @@ title: List.Difference
 # List.Difference
 
 
-## Description
-
 Devolve a diferença das duas listas especificadas.
 
 
@@ -21,7 +19,7 @@ List.Difference(
 ```
 
 
-## Details
+## Remarks
 
 Devolve os itens existentes na lista <code>list1</code> que não aparecem na lista <code>list2</code>. Os valores duplicados são suportados.    É possível especificar um valor de critério de equação opcional, <code>equationCriteria</code>, para controlar o teste de igualdade. 
 

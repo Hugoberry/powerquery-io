@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.EnvironmentContents
 # Dynamics365BusinessCentral.EnvironmentContents
 
 
-## Description
-
 Dynamics 365 Business Central ortamınızı ve şirketinizi girin.
 
 
@@ -20,7 +18,7 @@ Dynamics365BusinessCentral.EnvironmentContents(
 ```
 
 
-## Details
+## Remarks
 
 İlgili Dynamics 365 Business Central verilerinin bulunduğu bir tablo döndürür. 
 

@@ -5,8 +5,6 @@ title: DateTime.AddZone
 # DateTime.AddZone
 
 
-## Description
-
 タイム ゾーン情報を datetime 値に追加します。
 
 
@@ -21,7 +19,7 @@ DateTime.AddZone(
 ```
 
 
-## Details
+## Remarks
 
 タイム ゾーン情報を <code>dateTime</code> 値に追加します。タイムゾーン情報には <code>timezoneHours</code> が含まれており、必要に応じて <code>timezoneMinutes</code> が含まれます。これにより、UTC 時刻からのオフセットが指定されます。
 

@@ -5,8 +5,6 @@ title: List.Combine
 # List.Combine
 
 
-## Description
-
 通过合并多个列表来返回一个列表。
 
 
@@ -19,7 +17,7 @@ List.Combine(
 ```
 
 
-## Details
+## Remarks
 
 提取列表的列表 <code>lists</code> 并将它们合并为一个新列表。
 

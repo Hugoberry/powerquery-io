@@ -5,8 +5,6 @@ title: Text.Select
 # Text.Select
 
 
-## Description
-
 Chọn tất cả các lần xuất hiện của ký tự hoặc danh sách ký tự cụ thể từ giá trị văn bản đầu vào.
 
 
@@ -20,7 +18,7 @@ Text.Select(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bản sao của giá trị văn bản <code>text</code> đã loại bỏ tất cả ký tự không nằm trong <code>selectChars</code>.  
 

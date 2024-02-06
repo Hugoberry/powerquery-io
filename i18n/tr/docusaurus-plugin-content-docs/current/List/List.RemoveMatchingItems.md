@@ -5,8 +5,6 @@ title: List.RemoveMatchingItems
 # List.RemoveMatchingItems
 
 
-## Description
-
 Girdi değerlerinin tüm oluşumlarını kaldırır.
 
 
@@ -21,7 +19,7 @@ List.RemoveMatchingItems(
 ```
 
 
-## Details
+## Remarks
 
 <code>list2</code> içindeki verilen değerleri <code>list1</code> listesinden kaldırır. <code>list2</code> içindeki değerler <code>list1</code> içinde yoksa, asıl liste döndürülür.    Eşitlik sınamasını denetlemek için <code>equationCriteria</code> isteğe bağlı eşitlik ölçüt değeri belirtilebilir. 
 

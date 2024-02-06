@@ -5,8 +5,6 @@ title: Type.OpenRecord
 # Type.OpenRecord
 
 
-## Description
-
 Retourneert een geopende versie van het gegeven recordtype (of hetzelfde type indien dit reeds is geopend).
 
 
@@ -19,7 +17,7 @@ Type.OpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een geopende versie van het gegeven <code>record</code> <code>type</code> (of hetzelfde type indien dit reeds is geopend).
 

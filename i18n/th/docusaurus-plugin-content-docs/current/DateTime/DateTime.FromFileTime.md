@@ -5,8 +5,6 @@ title: DateTime.FromFileTime
 # DateTime.FromFileTime
 
 
-## Description
-
 สร้างวันที่เวลาจากตัวเลขความยาว 64 บิต
 
 
@@ -19,7 +17,7 @@ DateTime.FromFileTime(
 ```
 
 
-## Details
+## Remarks
 
 สร้างค่า <code>datetime</code> จากค่า <code>fileTime</code> และแปลงเป็นโซนเวลาในท้องถิ่น เวลาแฟ้มคือค่าเวลาของแฟ้ม Windows ที่แสดงตัวเลขช่วงเวลา 100 นาโนวินาทีที่ใช้ไปตั้งแต่เที่ยงคืนเวลา 12:00 วันที่ 1 มกราคม ค.ศ. 1601 (C.E.) เวลามาตรฐานสากล (UTC)
 

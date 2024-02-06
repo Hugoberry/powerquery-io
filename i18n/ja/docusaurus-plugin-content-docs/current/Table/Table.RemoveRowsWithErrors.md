@@ -5,8 +5,6 @@ title: Table.RemoveRowsWithErrors
 # Table.RemoveRowsWithErrors
 
 
-## Description
-
 少なくとも 1 つのセルにエラーがあり、入力テーブルから削除された行を含むテーブルを返します。列リストを指定した場合、指定した列のセルのみ、エラーの有無が確認されます。
 
 
@@ -20,7 +18,7 @@ Table.RemoveRowsWithErrors(
 ```
 
 
-## Details
+## Remarks
 
 少なくとも 1 つのセルにエラーがあり、入力テーブルから削除された行を含むテーブルを返します。列リストを指定した場合、指定した列のセルのみ、エラーの有無が確認されます。
 

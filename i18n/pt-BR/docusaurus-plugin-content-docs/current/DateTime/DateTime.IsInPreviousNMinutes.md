@@ -5,8 +5,6 @@ title: DateTime.IsInPreviousNMinutes
 # DateTime.IsInPreviousNMinutes
 
 
-## Description
-
 Indica se este datetime ocorre durante o número de minutos anterior, conforme a determinação da data e hora atuais no sistema. Observe que essa função retornará false quando for passado um valor que ocorra no minuto atual.
 
 
@@ -20,7 +18,7 @@ DateTime.IsInPreviousNMinutes(
 ```
 
 
-## Details
+## Remarks
 
 Indica se o valor de datetime especificado <code>dateTime</code> ocorre durante o número de minutos anterior, conforme a determinação da data e hora atuais no sistema. Observe que essa função retornará false quando for passado um valor que ocorra no minuto atual.      <ul>      <li><code>dateTime</code>: um valor de <code>datetime</code> ou <code>datetimezone</code> a ser avaliado.</li>      <li><code>minutes</code>: o número de minutos.</li>      </ul>
 

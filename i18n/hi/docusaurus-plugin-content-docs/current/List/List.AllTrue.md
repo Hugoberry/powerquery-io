@@ -5,8 +5,6 @@ title: List.AllTrue
 # List.AllTrue
 
 
-## Description
-
 अगर सभी व्यंजक true हैं, तो true लौटाता है.
 
 
@@ -19,7 +17,7 @@ List.AllTrue(
 ```
 
 
-## Details
+## Remarks
 
 अगर सूची <code>list</code> के सभी व्यंजक true हैं, तो true लौटाता है.
 

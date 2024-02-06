@@ -5,8 +5,6 @@ title: List.RemoveLastN
 # List.RemoveLastN
 
 
-## Description
-
 Returnerer en liste, der fjerner det angivne antal elementer fra slutningen af listen.
 
 
@@ -20,7 +18,7 @@ List.RemoveLastN(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en liste, der fjerner de sidste <code>countOrCondition</code> elementer fra slutningen af listen <code>list</code>. Hvis <code>list</code> indeholder mindre end <code>countOrCondition</code> elementer, returneres der en tom liste. <ul> <li>Hvis der er angivet et tal, fjernes elementer op til det angivne antal. </li> <li>Hvis der er angivet en betingelse, slutter den returnerede liste med det første element nederst i <code>list</code>, der opfylder kriterierne. Når et element ikke opfylder betingelsen, tages der ikke flere elementer med i betragtning. </li> <li>Hvis denne parameter er null, fjernes der kun ét element. </li> </ul>
 

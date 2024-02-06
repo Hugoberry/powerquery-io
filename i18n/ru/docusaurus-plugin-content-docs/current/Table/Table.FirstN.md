@@ -5,8 +5,6 @@ title: Table.FirstN
 # Table.FirstN
 
 
-## Description
-
 Возвращает указанное количество строк от начала.
 
 
@@ -20,7 +18,7 @@ Table.FirstN(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает первые строки таблицы <code>table</code> в зависимости от значения <code>countOrCondition</code>:    <ul>    <li> Если <code>countOrCondition</code> является числом, то указывает, сколько строк возвращается (начиная с верхней). </li>    <li> Если <code>countOrCondition</code> является условием, то строки возвращаются до тех пор, пока не будет достигнута строка, не удовлетворяющая условию.</li></ul>
 

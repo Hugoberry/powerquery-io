@@ -5,8 +5,6 @@ title: Stripe.Contents
 # Stripe.Contents
 
 
-## Description
-
 Ruft die Stripe-API auf, mit der Option zur Einschränkung der Anzahl von API-Aufrufen.
 
 
@@ -21,7 +19,7 @@ Stripe.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Ruft die Stripe-API unter https://api.stripe.com/v1/<code>method</code> auf, wobei der optionale Datensatz <code>query</code> als zusätzlicher Parameter und der optionale Wert <code>pageLimit</code> als Grenzwert für die Anzahl von API-Anforderungen übergeben werden. Die neuesten Daten werden zuerst zurückgegeben. Wenn <code>pageLimit</code> nicht angegeben wird, werden alle Daten zurückgegeben. Es wird Stripe-Version 2015-10-16 verwendet.
 

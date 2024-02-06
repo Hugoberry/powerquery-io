@@ -5,8 +5,6 @@ title: Type.OpenRecord
 # Type.OpenRecord
 
 
-## Description
-
 指定されたレコード型の開かれたバージョンを返します (既に開かれている場合は同じ型)。
 
 
@@ -19,7 +17,7 @@ Type.OpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>record</code> の開かれたバージョン <code>type</code> を返します (既に開かれている場合は同じ型)。
 

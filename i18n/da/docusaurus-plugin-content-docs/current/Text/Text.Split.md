@@ -5,8 +5,6 @@ title: Text.Split
 # Text.Split
 
 
-## Description
-
 Opdeler tekst i en liste over tekstværdier ved hjælp af en angivet afgrænser.
 
 
@@ -20,7 +18,7 @@ Text.Split(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en liste over tekstværdier som et resultat af at opdele en tekstværdi <code>text</code> ved hjælp af den angivne afgrænser, <code>separator</code>.
 

@@ -5,8 +5,6 @@ title: Table.MinN
 # Table.MinN
 
 
-## Description
-
 Returnerar den eller de minsta raderna baserat på angivet villkor.
 
 
@@ -21,7 +19,7 @@ Table.MinN(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar den eller de minsta raderna i <code>table</code> baserat på angivet <code>comparisonCriteria</code>. När raderna har sorterats måste parametern <code>countOrCondition</code> användas om du vill filtrera resultatet ytterligare. Parametern <code>countOrCondition</code> kan ha olika form:    <ul>        <li> Om ett tal anges returneras en lista med upp till <code>countOrCondition</code> objekt i stigande ordning. </li>        <li> Om ett villkor anges returneras en lista med objekt som inledningsvis uppfyller villkoret. Om ett objekt inte uppfyller villkoret utvärderas inga fler objekt. </li> </ul>
 

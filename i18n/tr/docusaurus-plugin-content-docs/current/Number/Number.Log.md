@@ -5,8 +5,6 @@ title: Number.Log
 # Number.Log
 
 
-## Description
-
 Sayının belirtilen tabanda (varsayılan e) logaritmasını döndürür.
 
 
@@ -20,7 +18,7 @@ Number.Log(
 ```
 
 
-## Details
+## Remarks
 
 Bir sayının (<code>number</code>) belirtilen <code>base</code> tabanında logaritmasını döndürür. <code>base</code> belirtilmediyse varsayılan değer Number.E değeridir.    <code>number</code> null ise <code>Number.Log</code>, null döndürür.
 

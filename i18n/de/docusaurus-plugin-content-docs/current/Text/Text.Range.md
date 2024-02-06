@@ -5,8 +5,6 @@ title: Text.Range
 # Text.Range
 
 
-## Description
-
 Gibt die am Offset gefundene Teilzeichenfolge zurück.
 
 
@@ -21,7 +19,7 @@ Text.Range(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die am Offset <code>offset</code> gefundene Teilzeichenfolge aus dem Text "<code>text</code>" zurück.    Mithilfe eines optionalen Parameters (<code>count</code>) kann die Anzahl der zurückzugebenden Zeichen angegeben werden. Löst einen Fehler aus, wenn nicht genug Zeichen vorhanden sind.
 

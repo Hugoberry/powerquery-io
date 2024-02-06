@@ -5,8 +5,6 @@ title: Table.DemoteHeaders
 # Table.DemoteHeaders
 
 
-## Description
-
 將資料行標頭降階為第一個資料列的值。
 
 
@@ -19,7 +17,7 @@ Table.DemoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 將資料行標頭 (亦即 資料行名稱) 降階為第一個資料列的值。預設資料行名稱是 "Column1"、"Column2"，依此類推。
 

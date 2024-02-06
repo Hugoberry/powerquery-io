@@ -5,8 +5,6 @@ title: Number.RoundUp
 # Number.RoundUp
 
 
-## Description
-
 En yüksek bir sonraki sayıyı döndürür. Basamakların sayısı belirlenebilir.
 
 
@@ -20,7 +18,7 @@ Number.RoundUp(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> sayısının yukarı yuvarlama sonucunu sonraki en yüksek tamsayıya döndürür. <code>number</code> null ise bu işlev null değerini döndürür.    <code>digits</code> belirtilmişse <code>number</code> belirtilen ondalık basamak sayısına yuvarlanır.  
 

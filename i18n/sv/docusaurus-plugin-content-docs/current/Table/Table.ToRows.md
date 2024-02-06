@@ -5,8 +5,6 @@ title: Table.ToRows
 # Table.ToRows
 
 
-## Description
-
 Skapar en lista med kapslade med radvärden från en tabell.
 
 
@@ -19,7 +17,7 @@ Table.ToRows(
 ```
 
 
-## Details
+## Remarks
 
 Skapar en lista med kapslade listor från tabellen, <code>table</code>. Varje listpost är en inre lista som innehåller radvärdena.
 

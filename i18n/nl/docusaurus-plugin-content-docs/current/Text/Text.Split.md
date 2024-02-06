@@ -5,8 +5,6 @@ title: Text.Split
 # Text.Split
 
 
-## Description
-
 Splitst tekst in een lijst tekstwaarden op basis van een opgegeven scheidingsteken.
 
 
@@ -20,7 +18,7 @@ Text.Split(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een lijst met tekstwaarden die het resultaat is van het splitsen van een tekstwaarde <code>text</code> op basis van het opgegeven scheidingsteken, <code>separator</code>.
 

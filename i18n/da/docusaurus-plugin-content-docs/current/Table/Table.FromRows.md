@@ -5,8 +5,6 @@ title: Table.FromRows
 # Table.FromRows
 
 
-## Description
-
 Opretter en tabel ud fra en liste over rækkeværdier og valgfri kolonner.
 
 
@@ -20,7 +18,7 @@ Table.FromRows(
 ```
 
 
-## Details
+## Remarks
 
 Opretter en tabel ud fra listen <code>rows</code>, hvor de enkelte elementer på listen er en indre liste, der indeholder kolonneværdier for en enkelt række. Der kan angives en valgfri liste over kolonnenavne, en tabeltype eller et antal kolonner for <code>columns</code>.
 

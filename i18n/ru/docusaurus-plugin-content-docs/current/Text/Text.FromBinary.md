@@ -5,8 +5,6 @@ title: Text.FromBinary
 # Text.FromBinary
 
 
-## Description
-
 Декодирует данные из двоичного формата в текстовый.
 
 
@@ -20,7 +18,7 @@ Text.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 Декодирует данные <code>binary</code> из двоичного значения в текстовое, используя тип <code>encoding</code>.
 

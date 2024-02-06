@@ -5,8 +5,6 @@ title: List.Positions
 # List.Positions
 
 
-## Description
-
 Trả về một danh sách phần bù cho đầu vào.
 
 
@@ -19,7 +17,7 @@ List.Positions(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một danh sách phần bù cho danh sách đầu vào <code>list</code>.    Khi sử dụng List.Transform để thay đổi một danh sách thì danh sách vị trí có thể dùng để cấp quyền truy cập chuyển đổi đối với vị trí.
 

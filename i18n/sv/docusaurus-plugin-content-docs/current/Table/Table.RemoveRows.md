@@ -5,8 +5,6 @@ title: Table.RemoveRows
 # Table.RemoveRows
 
 
-## Description
-
 Tar bort angivet antal rader.
 
 
@@ -21,7 +19,7 @@ Table.RemoveRows(
 ```
 
 
-## Details
+## Remarks
 
 Tar bort <code>count</code> rader från början av <code>table</code>, med början vid angiven <code>offset</code>. Standardantalet 1 används om parametern <code>count</code> inte anges. 
 

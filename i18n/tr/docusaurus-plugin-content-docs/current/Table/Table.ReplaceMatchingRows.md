@@ -5,8 +5,6 @@ title: Table.ReplaceMatchingRows
 # Table.ReplaceMatchingRows
 
 
-## Description
-
 Tüm belirtilen satırları sağlanan satırlarla değiştirir.
 
 
@@ -21,7 +19,7 @@ Table.ReplaceMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> içindeki tüm belirtilen satırları sağlanan satırlarla değiştirir. Değiştirilecek satırlar ve değiştirmeler, <code>replacements</code> içinde \{old, new} biçimi kullanılarak belirtilir.    Tablonun satırları arasındaki karşılaştırmayı denetlemek üzere <code>equationCriteria</code> isteğe bağlı parametresi belirtilebilir.
 

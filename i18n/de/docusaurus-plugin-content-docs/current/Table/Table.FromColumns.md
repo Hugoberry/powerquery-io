@@ -5,8 +5,6 @@ title: Table.FromColumns
 # Table.FromColumns
 
 
-## Description
-
 Erstellt eine Tabelle auf der Grundlage einer Liste mit Spalten und angegebenen Werten.
 
 
@@ -20,7 +18,7 @@ Table.FromColumns(
 ```
 
 
-## Details
+## Remarks
 
 Erstellt eine Tabelle vom Typ "<code>columns</code>" auf der Grundlage einer Liste (<code>lists</code>), die geschachtelte Listen mit Spaltennamen und -werten enthält.    Besitzen einige Spalten mehr Werte als andere, werden die fehlenden Werte mit dem Standardwert NULL ausgefüllt, sofern die Spalten NULL-Werte zulassen.
 

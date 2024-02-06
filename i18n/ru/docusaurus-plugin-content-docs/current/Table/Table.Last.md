@@ -5,8 +5,6 @@ title: Table.Last
 # Table.Last
 
 
-## Description
-
 Возвращает последнюю строку или указанное значение по умолчанию.
 
 
@@ -20,7 +18,7 @@ Table.Last(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает последнюю строку из <code>table</code> или необязательное значение по умолчанию <code>default</code>, если таблица пуста.
 

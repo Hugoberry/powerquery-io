@@ -5,8 +5,6 @@ title: Cube.MeasureProperty
 # Cube.MeasureProperty
 
 
-## Description
-
 किसी माप का गुण (कक्ष गुण) लौटाता है.
 
 
@@ -20,7 +18,7 @@ Cube.MeasureProperty(
 ```
 
 
-## Details
+## Remarks
 
 <code>measure</code> माप का <code>propertyName</code> गुण लौटाता है.
 

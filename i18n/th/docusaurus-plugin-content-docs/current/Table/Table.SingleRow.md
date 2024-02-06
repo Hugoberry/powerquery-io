@@ -5,8 +5,6 @@ title: Table.SingleRow
 # Table.SingleRow
 
 
-## Description
-
 ส่งกลับแถวเดียวในตาราง
 
 
@@ -19,7 +17,7 @@ Table.SingleRow(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับแถวเดียวในหนึ่งแถว <code>table</code> ถ้า <code>table</code> มีมากกว่าหนึ่งแถว ระบบจะแสดงข้อยกเว้น
 

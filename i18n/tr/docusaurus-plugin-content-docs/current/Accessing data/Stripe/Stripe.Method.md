@@ -5,8 +5,6 @@ title: Stripe.Method
 # Stripe.Method
 
 
-## Description
-
 Stripe API&#39;ine çağrıda bulunur.
 
 
@@ -21,7 +19,7 @@ Stripe.Method(
 ```
 
 
-## Details
+## Remarks
 
 Ek parametre olarak geçirilen isteğe bağlı <code>additionalParameters</code> kaydı ve beklenen sütun adlarına ilişkin <code>ColumnNames</code> listesi ile birlikte https://api.stripe.com/v1/<code>method</code> üzerinde bulunan Stripe API'sine çağrıda bulunur. 2015-10-16 Stripe Sürümü kullanılmaktadır.
 

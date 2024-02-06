@@ -5,8 +5,6 @@ title: DateTimeZone.UtcNow
 # DateTimeZone.UtcNow
 
 
-## Description
-
 ส่งกลับวันที่และเวลาในโซนเวลาใน UTC (โซนเวลา GMT)
 
 
@@ -19,7 +17,7 @@ DateTimeZone.UtcNow(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับวันที่และเวลาในโซนเวลาใน UTC (โซนเวลา GMT)
 

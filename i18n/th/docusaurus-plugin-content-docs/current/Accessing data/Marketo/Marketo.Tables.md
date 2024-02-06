@@ -5,8 +5,6 @@ title: Marketo.Tables
 # Marketo.Tables
 
 
-## Description
-
 กรอก URL ของ จุดยุติ Marketo REST API ที่เกี่ยวข้องกับบัญชีของคุณ
 
 
@@ -20,7 +18,7 @@ Marketo.Tables(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนค่าตารางพร้อมข้อมูล Marketo ที่เกี่ยวข้อง
 

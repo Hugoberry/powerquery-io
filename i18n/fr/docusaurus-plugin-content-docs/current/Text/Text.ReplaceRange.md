@@ -5,8 +5,6 @@ title: Text.ReplaceRange
 # Text.ReplaceRange
 
 
-## Description
-
 Supprime une plage de caractères et insère une nouvelle valeur à la position spécifiée.
 
 
@@ -22,7 +20,7 @@ Text.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 Retourne le résultat de la suppression d'un certain nombre de caractères, <code>count</code>, de la valeur de texte <code>text</code> en démarrant à la position <code>offset</code> puis en insérant la valeur de texte <code>newText</code> à la même position dans <code>text</code>.
 

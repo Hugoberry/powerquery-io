@@ -5,8 +5,6 @@ title: List.ReplaceMatchingItems
 # List.ReplaceMatchingItems
 
 
-## Description
-
 Wendet jede Ersetzung vom Typ &#34;\{ old, new }&#34; an.
 
 
@@ -21,7 +19,7 @@ List.ReplaceMatchingItems(
 ```
 
 
-## Details
+## Remarks
 
 Nimmt die angegebenen Ersetzungen in der Liste "<code>list</code>" vor. Ein Ersetzungsvorgang (<code>replacements</code>) besteht aus einer Liste mit zwei Werten (alter und neuer Wert), die in einer Liste bereitgestellt wird.    Zum Steuern der Gleichheitsüberprüfung kann ein optionales Gleichungskriterium (<code>equationCriteria</code>) angegeben werden.
 

@@ -5,8 +5,6 @@ title: Number.Log10
 # Number.Log10
 
 
-## Description
-
 Возвращает десятичный логарифм числа.
 
 
@@ -19,7 +17,7 @@ Number.Log10(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает десятичный логарифм числа <code>number</code>. Если <code>number</code> имеет значение NULL, <code>Number.Log10</code> возвращает NULL.
 

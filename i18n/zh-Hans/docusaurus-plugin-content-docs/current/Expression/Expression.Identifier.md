@@ -5,8 +5,6 @@ title: Expression.Identifier
 # Expression.Identifier
 
 
-## Description
-
 返回标识符的 M 源代码表示形式。
 
 
@@ -19,7 +17,7 @@ Expression.Identifier(
 ```
 
 
-## Details
+## Remarks
 
 返回标识符 <code>name</code> 的 M 源代码表示形式。
 

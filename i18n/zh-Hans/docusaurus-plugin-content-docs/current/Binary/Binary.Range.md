@@ -5,8 +5,6 @@ title: Binary.Range
 # Binary.Range
 
 
-## Description
-
 返回从偏移量开始的二进制值的子集。
 
 
@@ -21,7 +19,7 @@ Binary.Range(
 ```
 
 
-## Details
+## Remarks
 
 返回从偏移量 <code>binary</code> 开始的二进制值的子集。可选参数 <code>offset</code> 用于设置该子集的最大长度。
 

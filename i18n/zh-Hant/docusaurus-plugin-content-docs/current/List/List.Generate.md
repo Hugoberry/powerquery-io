@@ -5,8 +5,6 @@ title: List.Generate
 # List.Generate
 
 
-## Description
-
 產生值清單。
 
 
@@ -22,7 +20,7 @@ List.Generate(
 ```
 
 
-## Details
+## Remarks
 
 使用提供的函數產生值清單。<code>initial</code>函數會產生起始候選值，然後針對<code>condition</code>測試。    如果候選值已核准，則會作為結果清單的一部分傳回，而下一個候選值則會透過將新核准的值傳遞給<code>next</code>而產生。    一旦候選值無法比對<code>condition</code>，清單產生流程就會停止。    也可以提供選擇性參數 <code>selector</code>，以轉換結果清單中的項目。
 

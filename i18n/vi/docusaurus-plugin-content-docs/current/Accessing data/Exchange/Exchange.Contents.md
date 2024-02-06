@@ -5,8 +5,6 @@ title: Exchange.Contents
 # Exchange.Contents
 
 
-## Description
-
 Trả lại bảng mục lục từ tài khoản Microsoft Exchange.
 
 
@@ -19,7 +17,7 @@ Exchange.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bảng nội dung từ tài khoản Microsoft Exchange <code>mailboxAddress</code>. Nếu <code>mailboxAddress</code> không được chỉ định thì tài khoản mặc định cho thông tin đăng nhập sẽ được sử dụng.
 

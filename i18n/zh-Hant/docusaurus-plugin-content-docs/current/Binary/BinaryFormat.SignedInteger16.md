@@ -5,8 +5,6 @@ title: BinaryFormat.SignedInteger16
 # BinaryFormat.SignedInteger16
 
 
-## Description
-
 一種二進位格式，可讀取 16 位元帶正負號的整數。
 
 
@@ -19,7 +17,7 @@ BinaryFormat.SignedInteger16(
 ```
 
 
-## Details
+## Remarks
 
 一種二進位格式，可讀取 16 位元帶正負號的整數。
 

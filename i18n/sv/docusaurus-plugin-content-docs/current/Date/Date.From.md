@@ -5,8 +5,6 @@ title: Date.From
 # Date.From
 
 
-## Description
-
 Skapar ett datumvärde från det angivna värdet.
 
 
@@ -20,7 +18,7 @@ Date.From(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett <code>date</code>-värde från angiven <code>value</code>. En valfri <code>culture</code> kan även anges (till exempel, "en-US").Om <code>value</code> är <code>null</code> returnerar <code>Date.From</code> <code>null</code>. Om <code>value</code> är <code>date</code> returneras <code>value</code>. Värden av följande typer kan konverteras till ett <code>date</code>-värde:      <ul>        <li><code>text</code>: Ett <code>date</code>-värde från textrepresentationen. Mer information finns under <code>Date.FromText</code>.</li>        <li><code>datetime</code>: Datumkomponenten för <code>value</code>.</li>        <li><code>datetimezone</code>: Datumkomponenten för det lokala datetime-värdet som motsvarar <code>value</code>.</li>        <li><code>number</code>: Datumkomponenten för datetime-värdet motsvarande OLE-automationsdatumet uttryckt med <code>value</code>.</li>      </ul>Om <code>value</code> hör till en annan typ returneras ett fel.
 

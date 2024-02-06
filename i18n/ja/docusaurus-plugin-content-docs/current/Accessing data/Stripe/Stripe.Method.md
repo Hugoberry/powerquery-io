@@ -5,8 +5,6 @@ title: Stripe.Method
 # Stripe.Method
 
 
-## Description
-
 Stripe API に対して呼び出しを行います。
 
 
@@ -21,7 +19,7 @@ Stripe.Method(
 ```
 
 
-## Details
+## Remarks
 
 https://api.stripe.com/v1/<code>method</code> の Stripe API に対して呼び出しを行います。追加のパラメーターとして渡されるオプションのレコード <code>additionalParameters</code> と、予測される列名のリスト <code>ColumnNames</code> を指定します。Stripe バージョン 2015-10-16 が使用されます。
 

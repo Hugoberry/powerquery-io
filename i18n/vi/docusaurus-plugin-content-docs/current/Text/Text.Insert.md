@@ -5,8 +5,6 @@ title: Text.Insert
 # Text.Insert
 
 
-## Description
-
 Chèn một giá trị văn bản vào một giá trị khác tại một vị trí cho sẵn.
 
 
@@ -21,7 +19,7 @@ Text.Insert(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả chèn giá trị văn bản <code>newText</code> vào một giá trị văn bản <code>text</code> tại vị trí <code>offset</code>. Vị trí bắt đầu tại số 0.
 

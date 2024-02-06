@@ -5,8 +5,6 @@ title: Table.TransformRows
 # Table.TransformRows
 
 
-## Description
-
 使用指定的轉換函數來轉換資料表的資料列。
 
 
@@ -20,7 +18,7 @@ Table.TransformRows(
 ```
 
 
-## Details
+## Remarks
 
 將<code>transform</code>作業套用至<code>table</code>中的每個資料列，以建立 <code>清單</code>。
 

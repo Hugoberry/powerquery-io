@@ -5,8 +5,6 @@ title: DateTimeZone.SwitchZone
 # DateTimeZone.SwitchZone
 
 
-## Description
-
 Thay đổi múi giờ của giá trị.
 
 
@@ -21,7 +19,7 @@ DateTimeZone.SwitchZone(
 ```
 
 
-## Details
+## Remarks
 
 Thay đổi thông tin múi giờ về giá trị datetimezone <code>dateTimeZone</code> thành thông tin múi giờ mới do <code>timezoneHours</code> cung cấp và <code>timezoneMinutes</code> tùy chọn.    Nếu <code>dateTimeZone</code> không có cấu phần múi giờ thì một ngoại lệ được đưa ra.
 

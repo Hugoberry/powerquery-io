@@ -5,8 +5,6 @@ title: Character.FromNumber
 # Character.FromNumber
 
 
-## Description
-
 將數字轉換成文字字元。
 
 
@@ -19,7 +17,7 @@ Character.FromNumber(
 ```
 
 
-## Details
+## Remarks
 
 傳回數字的同等字元。<br />    <br />    提供的 <code>number</code> 應該為 21 位元 Unicode 字碼元素。
 

@@ -5,8 +5,6 @@ title: Value.Multiply
 # Value.Multiply
 
 
-## Description
-
 Returnerer produktet af de to værdier.
 
 
@@ -21,7 +19,7 @@ Value.Multiply(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer produktet af multiplicering af <code>value1</code> med <code>value2</code>. Der kan angives en valgfri parameter, <code>precision</code>. <code>Precision.Double</code> bruges som standard.
 

@@ -5,8 +5,6 @@ title: Double.From
 # Double.From
 
 
-## Description
-
 Opretter et dobbeltpræcisions flydende tal ud fra den angivne værdi.
 
 
@@ -20,7 +18,7 @@ Double.From(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en værdi af typen Double <code>number</code> fra den angivne <code>value</code>. Hvis den angivne <code>value</code> er <code>null</code>, returnerer <code>Double.From</code> <code>null</code>.  Hvis den angivne <code>value</code> er <code>number</code> inden for området double, returneres <code>value</code>, ellers returneres der en fejl. Hvis <code>value</code> er af en anden type, konverteres den først til en <code>number</code> ved hjælp af <code>Number.FromText</code>. Der kan også angives en valgfri <code>culture</code> (f.eks. "en-US").
 

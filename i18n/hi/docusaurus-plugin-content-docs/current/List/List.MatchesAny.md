@@ -5,8 +5,6 @@ title: List.MatchesAny
 # List.MatchesAny
 
 
-## Description
-
 अगर शर्त फ़ंक्शन किसी भी मान से संतुष्ट है तो true लौटाता है.
 
 
@@ -20,7 +18,7 @@ List.MatchesAny(
 ```
 
 
-## Details
+## Remarks
 
 अगर शर्त फ़ंक्शन, <code>condition</code>, सूची <code>list</code> के किसी भी मान से संतुष्ट है तो <code>true</code> अन्यथा <code>false</code> लौटाता है.
 

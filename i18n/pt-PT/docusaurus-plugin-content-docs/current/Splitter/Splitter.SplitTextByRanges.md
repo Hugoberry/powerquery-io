@@ -5,8 +5,6 @@ title: Splitter.SplitTextByRanges
 # Splitter.SplitTextByRanges
 
 
-## Description
-
 Devolve uma função que divide texto numa lista de texto de acordo com os desvios e os comprimentos especificados.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma função que divide o texto numa lista de texto de acordo com os desvios e comprimentos especificados. Um comprimento nulo indica que todas as entradas restantes deverão ser incluídas.
 

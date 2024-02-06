@@ -5,8 +5,6 @@ title: Binary.ApproximateLength
 # Binary.ApproximateLength
 
 
-## Description
-
 傳回二進位的近似長度。
 
 
@@ -19,7 +17,7 @@ Binary.ApproximateLength(
 ```
 
 
-## Details
+## Remarks
 
 傳回 <code>binary</code> 中的近似長度，如果資料來源不支援近似長度，則傳回錯誤。
 

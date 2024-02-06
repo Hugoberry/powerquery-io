@@ -5,8 +5,6 @@ title: List.Random
 # List.Random
 
 
-## Description
-
 Devolve uma lista de números aleatórios.
 
 
@@ -20,7 +18,7 @@ List.Random(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma lista de números aleatórios entre 0 e 1 a partir do número de valores a gerar e um valor de seed opcional.<ul>   <li><code>count</code>: O número de valores aleatórios a gerar.</li>   <li><code>seed</code>:  <i>[Opcional]</i> Um valor numérico utilizado para o seed do gerador de números aleatórios. Se for omitido, é gerada uma lista exclusiva de números aleatórios sempre que chamar a função. Se especificar o valor de seed com um número, cada chamada à função gera a mesma lista de números aleatórios.</li></ul>
 

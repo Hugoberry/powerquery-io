@@ -5,8 +5,6 @@ title: Cube.Transform
 # Cube.Transform
 
 
-## Description
-
 Aplica una lista de funciones de cubo.
 
 
@@ -20,7 +18,7 @@ Cube.Transform(
 ```
 
 
-## Details
+## Remarks
 
 Aplica la lista de funciones de cubo, <code>transforms</code>, en el <code>cube</code>.
 

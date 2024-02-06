@@ -5,8 +5,6 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-## Description
-
 Zwraca tabelę arkuszy, raportów, folderów i obszarów roboczych z interfejsu API narzędzia Smartsheet
 
 
@@ -19,7 +17,7 @@ Smartsheet.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca zagnieżdżoną tabelę dostępnych arkuszy, raportów, folderów i obszarów roboczych z interfejsu API narzędzia Smartsheet.
 

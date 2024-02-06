@@ -5,8 +5,6 @@ title: Xml.Tables
 # Xml.Tables
 
 
-## Description
-
 Returnerer indholdet af XML-dokumentet som en indlejret samling flade tabeller.
 
 
@@ -21,7 +19,7 @@ Xml.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer indholdet af XML-dokumentet som en indlejret samling flade tabeller.
 

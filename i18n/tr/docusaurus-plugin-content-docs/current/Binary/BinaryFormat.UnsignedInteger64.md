@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger64
 # BinaryFormat.UnsignedInteger64
 
 
-## Description
-
 Bir 64 bit işaretsiz tamsayıyı okuyan ikili biçimi.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger64(
 ```
 
 
-## Details
+## Remarks
 
 Bir 64 bit işaretsiz tamsayıyı okuyan ikili biçimi.
 

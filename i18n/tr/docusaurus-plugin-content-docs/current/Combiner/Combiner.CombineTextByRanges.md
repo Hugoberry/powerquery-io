@@ -5,8 +5,6 @@ title: Combiner.CombineTextByRanges
 # Combiner.CombineTextByRanges
 
 
-## Description
-
 Belirtilen konum ve uzunlukları kullanarak bir metin listesini birleştiren bir işlev döndürür.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen çıktı konumlarını ve uzunluklarını kullanarak metin değerleri listesini tek bir metin değerinde birleştiren bir işlev döndürür. Uzunluk değerinin null olarak belirlenmesi, metin değerinin tamamının çıktı değerine dahil edilmesi gerektiğini belirtir.
 

@@ -5,8 +5,6 @@ title: List.Numbers
 # List.Numbers
 
 
-## Description
-
 已知初始值、計數和選擇性的遞增值，產生數字清單。
 
 
@@ -21,7 +19,7 @@ List.Numbers(
 ```
 
 
-## Details
+## Remarks
 
 已知初始值、計數和選擇性的遞增值，產生數字清單。預設遞增值是 1。<ul>   <li><code>start</code>: 清單中的初始值。</li>   <li><code>count</code>: 要建立的值數目。</li>   <li><code>increment</code>: <i></i>[選擇性] 做為遞增依據的值。如果省略值，則遞增 1。</li></ul>
 

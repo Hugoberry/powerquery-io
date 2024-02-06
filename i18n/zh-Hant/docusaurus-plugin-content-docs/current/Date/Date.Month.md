@@ -5,8 +5,6 @@ title: Date.Month
 # Date.Month
 
 
-## Description
-
 傳回月元件。
 
 
@@ -19,7 +17,7 @@ Date.Month(
 ```
 
 
-## Details
+## Remarks
 
 傳回提供的 <code>datetime</code> 值 <code>dateTime</code> 的月元件。
 

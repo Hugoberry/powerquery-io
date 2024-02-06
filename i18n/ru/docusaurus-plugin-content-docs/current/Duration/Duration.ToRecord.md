@@ -5,8 +5,6 @@ title: Duration.ToRecord
 # Duration.ToRecord
 
 
-## Description
-
 Возвращает запись, содержащую части длительности.
 
 
@@ -19,7 +17,7 @@ Duration.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает запись, содержащую части значения длительности, <code>duration</code>.  <ul>        <li><code>duration</code>: значение <code>duration</code>, на основе которого создается запись.</li>      </ul>
 

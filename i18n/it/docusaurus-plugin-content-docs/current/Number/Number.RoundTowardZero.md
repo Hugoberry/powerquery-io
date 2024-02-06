@@ -5,8 +5,6 @@ title: Number.RoundTowardZero
 # Number.RoundTowardZero
 
 
-## Description
-
 Restituisce il risultato dell&#39;arrotondamento dei numeri positivi per difetto e dei numeri negativi per eccesso. È possibile specificare il numero di cifre.
 
 
@@ -20,7 +18,7 @@ Number.RoundTowardZero(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il risultato dell'arrotondamento di <code>number</code> in base al segno del numero. Questa funzione arrotonda i numeri positivi per difetto e i numeri negativi per eccesso.    Se è specificato <code>digits</code>, <code>number</code> viene arrotondato al numero di cifre decimali di <code>digits</code>.  
 

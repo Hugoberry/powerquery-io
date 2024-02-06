@@ -5,8 +5,6 @@ title: Lines.ToBinary
 # Lines.ToBinary
 
 
-## Description
-
 Konverterar en lista med text till ett binärvärde med angiven kodning och lineSeparator. Angiven lineSeparator läggs till för varje rad. Om den inte anges används retur- och radmatningstecknen.
 
 
@@ -22,7 +20,7 @@ Lines.ToBinary(
 ```
 
 
-## Details
+## Remarks
 
 Konverterar en lista med text till ett binärvärde med angiven kodning och lineSeparator. Angiven lineSeparator läggs till för varje rad. Om den inte anges används retur- och radmatningstecknen.
 

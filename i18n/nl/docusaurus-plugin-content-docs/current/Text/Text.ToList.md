@@ -5,8 +5,6 @@ title: Text.ToList
 # Text.ToList
 
 
-## Description
-
 Retourneert een lijst met tekenwaarden uit de opgegeven tekstwaarde.
 
 
@@ -19,7 +17,7 @@ Text.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een lijst met tekenwaarden uit de opgegeven tekstwaarde <code>text</code>.
 

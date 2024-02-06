@@ -5,8 +5,6 @@ title: Table.Max
 # Table.Max
 
 
-## Description
-
 Returnerar den största raden eller standardvärdet baserat på angivet villkor.
 
 
@@ -21,7 +19,7 @@ Table.Max(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar den största raden i <code>table</code> baserat på angivet <code>comparisonCriteria</code>. Om tabellen är tom returneras det valfria värdet <code>default</code>. 
 

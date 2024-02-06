@@ -5,8 +5,6 @@ title: Number.Random
 # Number.Random
 
 
-## Description
-
 Gibt eine Zufallszahl zurück.
 
 
@@ -19,7 +17,7 @@ Number.Random(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Zufallszahl zwischen 0 und 1 zurück.
 

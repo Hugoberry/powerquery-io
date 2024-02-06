@@ -5,8 +5,6 @@ title: Guid.From
 # Guid.From
 
 
-## Description
-
 Trả về giá trị guid từ giá trị đã cho.
 
 
@@ -19,7 +17,7 @@ Guid.From(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một giá trị <code>Guid.Type</code> từ <code>value</code> đã cho. Nếu <code>value</code> đã cho là <code>null</code>, thì <code>Guid.From</code> sẽ trả về <code>null</code>. Thao tác kiểm tra sẽ được thực hiện để xác định <code>value</code> đã cho có ở định dạng được chấp nhận hay không. Hãy xem ví dụ về các định dạng được chấp nhận.
 

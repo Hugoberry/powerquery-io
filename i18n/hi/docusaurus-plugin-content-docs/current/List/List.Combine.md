@@ -5,8 +5,6 @@ title: List.Combine
 # List.Combine
 
 
-## Description
-
 एकाधिक सूचियाँ संयोजित करके एकल सूची लौटाता है.
 
 
@@ -19,7 +17,7 @@ List.Combine(
 ```
 
 
-## Details
+## Remarks
 
 सूचियों, <code>lists</code>, की एक सूची लेता है और उन्हें एक एकल नई सूची में मर्ज करता है.
 

@@ -5,8 +5,6 @@ title: Binary.FromText
 # Binary.FromText
 
 
-## Description
-
 テキスト形式のデータをバイナリにデコードします。
 
 
@@ -20,7 +18,7 @@ Binary.FromText(
 ```
 
 
-## Details
+## Remarks
 
 テキスト値 <code>text</code> をバイナリ (<code>number</code> のリスト) に変換した結果を返します。テキスト値で使用されているエンコードを示すために、<code>encoding</code> を指定することができます。      <code>encoding</code> には次の <code>BinaryEncoding</code> 値を使用できます。      <ul>        <li><code>BinaryEncoding.Base64</code>: Base 64 エンコード</li>        <li><code>BinaryEncoding.Hex</code>: 16 進数エンコード</li>      </ul>
 

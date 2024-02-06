@@ -5,8 +5,6 @@ title: Text.ToBinary
 # Text.ToBinary
 
 
-## Description
-
 將文字編碼成二進位格式。
 
 
@@ -21,7 +19,7 @@ Text.ToBinary(
 ```
 
 
-## Details
+## Remarks
 
 使用指定的 <code>encoding</code>，將指定的文字值 <code>text</code> 編碼成二進位值。
 

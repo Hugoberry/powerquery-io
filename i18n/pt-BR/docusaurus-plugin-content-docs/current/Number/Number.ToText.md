@@ -5,8 +5,6 @@ title: Number.ToText
 # Number.ToText
 
 
-## Description
-
 Converte o número fornecido em texto.
 
 
@@ -21,7 +19,7 @@ Number.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Converte o valor numérico <code>number</code> em um valor de texto de acordo com o formato especificado por <code>format</code>.<br />    <br />     O formato é um valor de texto que indica como o número deve ser convertido. Para obter mais detalhes sobre os valores de formato com suporte, acesse https://go.microsoft.com/fwlink/?linkid=2241210 e https://go.microsoft.com/fwlink/?linkid=2240884.<br />    <br />    Um <code>culture</code> opcional também pode ser fornecido (por exemplo, "en-US") para controlar o comportamento dependente da cultura de <code>format</code>.
 

@@ -5,8 +5,6 @@ title: GeometryPoint.From
 # GeometryPoint.From
 
 
-## Description
-
 Parçalardan geometrik noktayı temsil eden bir kayıt oluşturur.
 
 
@@ -23,7 +21,7 @@ GeometryPoint.From(
 ```
 
 
-## Details
+## Remarks
 
 X koordinatı, Y koordinatı, varsa Z koordinatı ve ölçü (M) gibi bileşen parçalarından geometrik noktayı temsil eden bir kayıt oluşturur. Varsayılan değerden (0) farklı olduğunda isteğe bağlı bir uzamsal başvuru tanımlayıcısı (SRID) verilebilir.
 

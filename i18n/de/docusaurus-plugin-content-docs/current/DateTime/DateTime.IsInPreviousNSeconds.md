@@ -5,8 +5,6 @@ title: DateTime.IsInPreviousNSeconds
 # DateTime.IsInPreviousNSeconds
 
 
-## Description
-
 Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob dieser datetime-Wert während der vorherigen Anzahl von Sekunden auftritt. Beachten Sie, dass diese Funktion FALSE zurückgibt, wenn der übergebene Wert innerhalb der aktuellen Sekunde auftritt.
 
 
@@ -20,7 +18,7 @@ DateTime.IsInPreviousNSeconds(
 ```
 
 
-## Details
+## Remarks
 
 Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob der angegebene datetime-Wert <code>dateTime</code> während der vorherigen Anzahl von Sekunden auftritt. Beachten Sie, dass diese Funktion FALSE zurückgibt, wenn der übergebene Wert innerhalb der aktuellen Sekunde auftritt.      <ul>      <li><code>dateTime</code>: Ein auszuwertender <code>datetime</code>- oder <code>datetimezone</code>-Wert.</li>      <li><code>seconds</code>: Die Anzahl der Sekunden.</li>      </ul>
 

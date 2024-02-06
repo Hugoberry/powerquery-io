@@ -5,8 +5,6 @@ title: Cube.AttributeMemberId
 # Cube.AttributeMemberId
 
 
-## Description
-
 从成员属性值返回唯一的成员标识符。 
 
 
@@ -19,7 +17,7 @@ Cube.AttributeMemberId(
 ```
 
 
-## Details
+## Remarks
 
 从成员属性值返回唯一的成员标识符。<code>attribute</code>。对其他值返回 null。 
 

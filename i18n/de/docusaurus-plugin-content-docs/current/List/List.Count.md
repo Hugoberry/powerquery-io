@@ -5,8 +5,6 @@ title: List.Count
 # List.Count
 
 
-## Description
-
 Gibt die Anzahl von Elementen in der Liste zurück.
 
 
@@ -19,7 +17,7 @@ List.Count(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die Anzahl von Elementen in der Liste "<code>list</code>" zurück.
 

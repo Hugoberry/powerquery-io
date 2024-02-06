@@ -5,8 +5,6 @@ title: Number.IsEven
 # Number.IsEven
 
 
-## Description
-
 ระบุว่าค่าเป็นเลขคู่หรือไม่
 
 
@@ -19,7 +17,7 @@ Number.IsEven(
 ```
 
 
-## Details
+## Remarks
 
 ระบุว่าค่า <code>number</code> เป็นเลขคู่หรือไม่โดยส่งกลับ <code>true</code> ถ้าเป็นเลขคู่ และ <code>false</code> ถ้าไม่ใช่
 

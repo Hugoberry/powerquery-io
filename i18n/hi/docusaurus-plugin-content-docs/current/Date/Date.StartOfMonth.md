@@ -5,8 +5,6 @@ title: Date.StartOfMonth
 # Date.StartOfMonth
 
 
-## Description
-
 महीने के शुरू में लौटाता है.
 
 
@@ -19,7 +17,7 @@ Date.StartOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 उस महीने क शुरू में लौटाता है जिसमें <code>dateTime</code> है. <code>dateTime</code> एक <code>date</code> या <code>datetime</code> मान होना चाहिए.
 

@@ -5,8 +5,6 @@ title: Table.Range
 # Table.Range
 
 
-## Description
-
 Returnerar raderna som börjar vid angiven förskjutning.
 
 
@@ -21,7 +19,7 @@ Table.Range(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar raderna från <code>table</code> med början vid angiven <code>offset</code>. En valfri parameter, <code>count</code>, anger hur många rader som ska returneras. Som standard returneras alla rader efter förskjutningen.
 

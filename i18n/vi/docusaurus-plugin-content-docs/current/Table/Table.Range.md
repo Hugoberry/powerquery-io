@@ -5,8 +5,6 @@ title: Table.Range
 # Table.Range
 
 
-## Description
-
 Trả về các hàng bắt đầu tại phần bù được chỉ định.
 
 
@@ -21,7 +19,7 @@ Table.Range(
 ```
 
 
-## Details
+## Remarks
 
 Trả về các hàng từ <code>table</code> bắt đầu tại <code>offset</code> được chỉ định. Tham số tùy chọn <code>count</code> chỉ định số lượng hàng sẽ trả về. Theo mặc định, tất cả các hàng sau phần bù đều được trả về.
 

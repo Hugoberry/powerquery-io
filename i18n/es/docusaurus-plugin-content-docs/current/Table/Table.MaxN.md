@@ -5,8 +5,6 @@ title: Table.MaxN
 # Table.MaxN
 
 
-## Description
-
 Devuelve las filas mayores con los criterios dados.
 
 
@@ -21,7 +19,7 @@ Table.MaxN(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve las filas mayores de <code>table</code>, dados el <code>comparisonCriteria</code>.    Después de ordenar las filas, es necesario especificar el parámetro <code>countOrCondition</code> para filtrar aún más el resultado. Tenga en cuenta que el algoritmo de ordenación no puede garantizar un resultado ordenado fijo. El parámetro <code>countOrCondition</code> puede adoptar varios formatos:    <ul>        <li>Si se especifica un número, se devuelve una lista de hasta <code>countOrCondition</code> elementos en orden ascendente. </li>        <li>Si se especifica una condición, se devuelve una lista de los elementos que cumplen inicialmente la condición. Si un elemento no cumple la condición, no se considerarán más elementos. </li> </ul>
 

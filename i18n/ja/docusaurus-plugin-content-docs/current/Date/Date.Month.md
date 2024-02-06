@@ -5,8 +5,6 @@ title: Date.Month
 # Date.Month
 
 
-## Description
-
 月部分を返します。
 
 
@@ -19,7 +17,7 @@ Date.Month(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>datetime</code> 値 (<code>dateTime</code>) の月部分を返します。
 

@@ -5,8 +5,6 @@ title: Table.MatchesAnyRows
 # Table.MatchesAnyRows
 
 
-## Description
-
 Anger om någon av raderna i tabellen uppfyller det angivna villkoret.
 
 
@@ -20,7 +18,7 @@ Table.MatchesAnyRows(
 ```
 
 
-## Details
+## Remarks
 
 Anger om någon av raderna i <code>table</code> matchar angivet <code>condition</code>. Returnerar <code>true</code> om någon av raderna matchar. Annars returneras <code>false</code>.
 

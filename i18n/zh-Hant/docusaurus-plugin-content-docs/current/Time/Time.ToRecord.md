@@ -5,8 +5,6 @@ title: Time.ToRecord
 # Time.ToRecord
 
 
-## Description
-
 傳回一筆包含時間值各部分的記錄。
 
 
@@ -19,7 +17,7 @@ Time.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 傳回記錄，內含指定的 time 值 <code>time</code> 各部分。 <ul>        <li><code>time</code>: 要將其各部分計算成記錄的 <code>time</code> 值。</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Number.Log
 # Number.Log
 
 
-## Description
-
 Trả về logarit của số cho cơ số được chỉ định (mặc định là e).
 
 
@@ -20,7 +18,7 @@ Number.Log(
 ```
 
 
-## Details
+## Remarks
 
 Trả về lô-ga-rít của số <code>number</code> cho cơ số <code>base</code> được chỉ định. Nếu <code>base</code> không được chỉ định, giá trị mặc định sẽ là Number.E.    Nếu <code>number</code> là giá trị null thì <code>Number.Log</code> sẽ trả về giá trị null.
 

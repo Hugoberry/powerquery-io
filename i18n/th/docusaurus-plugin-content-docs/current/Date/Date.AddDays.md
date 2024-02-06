@@ -5,8 +5,6 @@ title: Date.AddDays
 # Date.AddDays
 
 
-## Description
-
 เพิ่มวันที่ระบุลงในวันที่
 
 
@@ -20,7 +18,7 @@ Date.AddDays(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลลัพธ์ <code>date</code>, <code>datetime</code> หรือ <code>datetimezone</code> จากการเพิ่ม <code>numberOfDays</code> วันลงในค่า <code>datetime</code> <code>dateTime</code>      <ul>      <li><code>dateTime</code>: ค่า <code>date</code>, <code>datetime</code> หรือ <code>datetimezone</code> ที่วันถูกเพิ่ม</li>      <li><code>numberOfDays</code>: จำนวนวันที่จะเพิ่ม</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Type.ForRecord
 # Type.ForRecord
 
 
-## Description
-
 Zwraca typ reprezentujący rekordy z określonymi ograniczeniami dotyczącymi typów w polach.
 
 
@@ -20,7 +18,7 @@ Type.ForRecord(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca typ reprezentujący rekordy z określonymi ograniczeniami dotyczącymi typów w polach.
 

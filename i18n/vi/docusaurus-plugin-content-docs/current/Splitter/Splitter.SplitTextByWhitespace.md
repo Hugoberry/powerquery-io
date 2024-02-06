@@ -5,8 +5,6 @@ title: Splitter.SplitTextByWhitespace
 # Splitter.SplitTextByWhitespace
 
 
-## Description
-
 Trả về một hàm tách văn bản thành một danh sách văn bản tại dấu cách.
 
 
@@ -19,7 +17,7 @@ Splitter.SplitTextByWhitespace(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một hàm tách văn bản thành một danh sách văn bản tại dấu cách.
 

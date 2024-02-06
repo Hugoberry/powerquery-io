@@ -5,8 +5,6 @@ title: Web.Page
 # Web.Page
 
 
-## Description
-
 Gibt die Inhalte des HTML-Dokuments (aufgeschlüsselt nach den einzelnen Strukturen) sowie eine Darstellung des vollständigen Dokuments und des zugehörigen Texts nach dem Entfernen der Tags zurück.
 
 
@@ -19,7 +17,7 @@ Web.Page(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die Inhalte des HTML-Dokuments (aufgeschlüsselt nach den einzelnen Strukturen) sowie eine Darstellung des vollständigen Dokuments und des zugehörigen Texts nach dem Entfernen der Tags zurück.
 

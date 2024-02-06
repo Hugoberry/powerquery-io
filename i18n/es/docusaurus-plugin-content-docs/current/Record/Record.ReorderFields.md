@@ -5,8 +5,6 @@ title: Record.ReorderFields
 # Record.ReorderFields
 
 
-## Description
-
 Reordena los campos especificados en el nuevo orden.
 
 
@@ -21,7 +19,7 @@ Record.ReorderFields(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un registro después de cambiar el orden de los campos de <code>record</code> por el orden de campos especificado en la lista <code>fieldOrder</code>. Se mantienen los valores de campo y los campos no mostrados en <code>fieldOrder</code> se quedan en su posición original.
 

@@ -5,8 +5,6 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-## Description
-
 นำการเปลี่ยนชื่อจากรายการในฟอร์ม \{ old, new } ไปใช้
 
 
@@ -21,7 +19,7 @@ Record.RenameFields(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับระเบียนหลังจากเปลี่ยนชื่อเขตข้อมูลในค่าที่ป้อน <code>record</code> เป็นชื่อเขตข้อมูลใหม่ที่ระบุในรายการ <code>renames</code> สำหรับการเปลี่ยนชื่อหลายรายการ สามารถใช้รายการที่ซ้อนกันได้ (\{ \{old1, new1}, \{old2, new2} }
 

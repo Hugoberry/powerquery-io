@@ -5,8 +5,6 @@ title: Number.Atan
 # Number.Atan
 
 
-## Description
-
 संख्या का आर्कटेंजेंट लौटाता है.
 
 
@@ -19,7 +17,7 @@ Number.Atan(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> का आर्कटेंजेंट लौटाता है.
 

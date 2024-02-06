@@ -5,8 +5,6 @@ title: Webtrends.Tables
 # Webtrends.Tables
 
 
-## Description
-
 Nhập ID Hồ sơ được liên kết với tài khoản Webtrends của bạn.
 
 
@@ -21,7 +19,7 @@ Webtrends.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Trả về bảng bao gồm dữ liệu Webtrends có liên quan.
 

@@ -5,8 +5,6 @@ title: List.Combine
 # List.Combine
 
 
-## Description
-
 複数のリストを組み合わせて 1 つのリストを返します。
 
 
@@ -19,7 +17,7 @@ List.Combine(
 ```
 
 
-## Details
+## Remarks
 
 一連のリスト <code>lists</code> を受け取り、それらを 1 つの新しいリストにマージします。
 

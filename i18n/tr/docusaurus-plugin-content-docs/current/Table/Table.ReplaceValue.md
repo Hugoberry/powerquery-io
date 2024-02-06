@@ -5,8 +5,6 @@ title: Table.ReplaceValue
 # Table.ReplaceValue
 
 
-## Description
-
 Seçili sütunlardaki bir değeri belirtilen değerle değiştirir.
 
 
@@ -23,7 +21,7 @@ Table.ReplaceValue(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen <code>table</code> sütunlarında <code>oldValue</code> öğesini <code>newValue</code> ile değiştirir.
 

@@ -5,8 +5,6 @@ title: Stripe.Method
 # Stripe.Method
 
 
-## Description
-
 Effettua una chiamata all&#39;API Stripe.
 
 
@@ -21,7 +19,7 @@ Stripe.Method(
 ```
 
 
-## Details
+## Remarks
 
 Effettua una chiamata all'API Stripe all'indirizzo https://api.stripe.com/v1/<code>method</code>, con il record <code>additionalParameters</code> passato come parametri facoltativi e l'elenco <code>ColumnNames</code> dei nomi di colonna previsti. Versione di Stripe usata: 2015-10-16.
 

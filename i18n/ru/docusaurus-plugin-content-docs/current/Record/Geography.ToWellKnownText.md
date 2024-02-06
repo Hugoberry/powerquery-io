@@ -5,8 +5,6 @@ title: Geography.ToWellKnownText
 # Geography.ToWellKnownText
 
 
-## Description
-
 Преобразует значение структурированной географической точки в представление формата Well-Known Text (WKT).
 
 
@@ -20,7 +18,7 @@ Geography.ToWellKnownText(
 ```
 
 
-## Details
+## Remarks
 
 Преобразует значение структурированной географической точки в представление формата Well-Known Text (WKT), определяемого организацией Open Geospatial Consortium (OGC), который используется для сериализации во многих базах данных, включая SQL Server.
 

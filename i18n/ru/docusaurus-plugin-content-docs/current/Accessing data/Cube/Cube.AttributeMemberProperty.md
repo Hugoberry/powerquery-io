@@ -5,8 +5,6 @@ title: Cube.AttributeMemberProperty
 # Cube.AttributeMemberProperty
 
 
-## Description
-
 Возвращает свойство атрибута измерения.
 
 
@@ -20,7 +18,7 @@ Cube.AttributeMemberProperty(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает свойство <code>propertyName</code> атрибута измерения <code>attribute</code>.
 

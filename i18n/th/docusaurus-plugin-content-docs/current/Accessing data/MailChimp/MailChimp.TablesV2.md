@@ -5,8 +5,6 @@ title: MailChimp.TablesV2
 # MailChimp.TablesV2
 
 
-## Description
-
 คืนค่าตารางพร้อมข้อมูล MailChimp ที่สำคัญ
 
 
@@ -19,7 +17,7 @@ MailChimp.TablesV2(
 ```
 
 
-## Details
+## Remarks
 
 คืนค่าตารางพร้อมข้อมูล MailChimp ที่สำคัญ
 

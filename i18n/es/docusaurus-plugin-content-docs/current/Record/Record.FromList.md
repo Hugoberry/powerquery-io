@@ -5,8 +5,6 @@ title: Record.FromList
 # Record.FromList
 
 
-## Description
-
 Devuelve un registro dada una lista de valores de campo y un conjunto de campos.
 
 
@@ -20,7 +18,7 @@ Record.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un registro dado una <code>list</code> de valores de campo y un conjunto de campos.  El <code>fields</code> puede especificarse mediante una lista de valores de texto o un tipo de registro.  Se arroja un error si los campos no son únicos.
 

@@ -5,8 +5,6 @@ title: List.Accumulate
 # List.Accumulate
 
 
-## Description
-
 リスト内のアイテムから要約値を収集します。
 
 
@@ -21,7 +19,7 @@ List.Accumulate(
 ```
 
 
-## Details
+## Remarks
 
 <code>accumulator</code> を使用して、リスト <code>list</code> 内のアイテムから要約値を収集します。    省略可能なシード パラメーター <code>seed</code> を設定することもできます。
 

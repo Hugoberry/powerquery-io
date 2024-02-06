@@ -5,8 +5,6 @@ title: Table.Join
 # Table.Join
 
 
-## Description
-
 Соединяет строки из двух таблиц, которые согласуются по заданным ключам.
 
 
@@ -25,7 +23,7 @@ Table.Join(
 ```
 
 
-## Details
+## Remarks
 
 Соединяет строки таблицы <code>table1</code> со строками таблицы <code>table2</code> с учетом тождественности значений ключевых столбцов, выбранных в <code>key1</code> (для <code>table1</code>) и в <code>key2</code> (для <code>table2</code>).<br />По умолчанию выполняется внутреннее соединение, но можно включить необязательный параметр <code>joinKind</code> для указания типа соединения. Возможны следующие значения.    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Необязательный набор <code>keyEqualityComparers</code> может быть включен для указания способа сравнения ключевых столбцов. Сейчас этот параметр предназначен только для внутреннего использования.<br />
 

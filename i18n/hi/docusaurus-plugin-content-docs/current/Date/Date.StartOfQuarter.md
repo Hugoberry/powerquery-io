@@ -5,8 +5,6 @@ title: Date.StartOfQuarter
 # Date.StartOfQuarter
 
 
-## Description
-
 तिमाही के शुरू में लौटाता है.
 
 
@@ -19,7 +17,7 @@ Date.StartOfQuarter(
 ```
 
 
-## Details
+## Remarks
 
 उस तिमाही के प्रारंभ में लौटाता है जिसमें <code>dateTime</code> है.      <code>dateTime</code> एक <code>date</code>, <code>datetime</code>, या <code>datetimezone</code> मान होना चाहिए.
 

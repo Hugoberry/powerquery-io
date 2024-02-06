@@ -5,8 +5,6 @@ title: Embedded.Value
 # Embedded.Value
 
 
-## Description
-
 埋め込まれたマッシュアップ内の値に名前でアクセスします。
 
 
@@ -20,7 +18,7 @@ Embedded.Value(
 ```
 
 
-## Details
+## Remarks
 
 埋め込まれたマッシュアップ内の値に名前でアクセスします。
 

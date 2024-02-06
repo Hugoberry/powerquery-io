@@ -5,8 +5,6 @@ title: Number.IsNaN
 # Number.IsNaN
 
 
-## Description
-
 Wskazuje, czy wartość jest wartością typu NaN (nieliczbową).
 
 
@@ -19,7 +17,7 @@ Number.IsNaN(
 ```
 
 
-## Details
+## Remarks
 
 Wskazuje, czy wartość jest wartością typu NaN (nieliczbową). Zwraca wartość <code>true</code>, jeśli wartość <code>number</code> jest odpowiednikiem wartości typu <code>Number.IsNaN</code>; w przeciwnym razie zwraca wartość <code>false</code>.
 

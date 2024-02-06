@@ -5,8 +5,6 @@ title: List.NonNullCount
 # List.NonNullCount
 
 
-## Description
-
 Retourneert het aantal items uit de lijst die niet gelijk zijn aan nul.
 
 
@@ -19,7 +17,7 @@ List.NonNullCount(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het aantal items uit de lijst <code>list</code> die niet gelijk zijn aan nul.
 

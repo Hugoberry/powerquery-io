@@ -5,8 +5,6 @@ title: Text.AfterDelimiter
 # Text.AfterDelimiter
 
 
-## Description
-
 Text.AfterDelimiter
 
 
@@ -21,7 +19,7 @@ Text.AfterDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 指定した <code>delimiter</code> の後の <code>text</code> の部分を返します。    省略可能な数値 <code>index</code> は、想定される <code>delimiter</code> の回数を示します。    省略可能なリスト <code>index</code> は、想定される <code>delimiter</code> の回数、およびインデックス作成を入力の先頭または末尾のどちらからで行うかを示しています。
 

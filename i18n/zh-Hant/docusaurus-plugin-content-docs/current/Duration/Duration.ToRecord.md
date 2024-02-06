@@ -5,8 +5,6 @@ title: Duration.ToRecord
 # Duration.ToRecord
 
 
-## Description
-
 傳回一筆包含持續時間各部分的記錄。
 
 
@@ -19,7 +17,7 @@ Duration.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 傳回包含持續時間值 <code>duration</code> 各部分的記錄。  <ul>        <li><code>duration</code>: 要建立記錄的 <code>duration</code>。</li>      </ul>
 

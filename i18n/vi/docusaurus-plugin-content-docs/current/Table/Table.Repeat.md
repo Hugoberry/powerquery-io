@@ -5,8 +5,6 @@ title: Table.Repeat
 # Table.Repeat
 
 
-## Description
-
 Lặp lại các hàng của các bảng với số lần được chỉ định.
 
 
@@ -20,7 +18,7 @@ Table.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bảng có các hàng từ đầu vào <code>table</code> lặp lại số lần <code>count</code> được chỉ định.
 

@@ -5,8 +5,6 @@ title: Combiner.CombineTextByLengths
 # Combiner.CombineTextByLengths
 
 
-## Description
-
 Restituisce una funzione che combina un elenco di testo utilizzando le lunghezze specificate.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByLengths(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una funzione che combina un elenco di valori di testo in un singolo valore di testo utilizzando le lunghezze specificate.
 

@@ -5,8 +5,6 @@ title: List.InsertRange
 # List.InsertRange
 
 
-## Description
-
 將值插入清單中指定的索引位置。
 
 
@@ -21,7 +19,7 @@ List.InsertRange(
 ```
 
 
-## Details
+## Remarks
 
 將 <code>values</code> 中的值插入 <code>list</code> 的 <code>index</code> 位置，以傳回所產生的新清單。清單中的第一個位置在索引 0 處。      <ul>        <li><code>list</code>: 要插入值的目標清單。</li>        <li><code>index</code>: 目標清單 (<code>list</code>) 中要插入值的索引位置。清單中的第一個位置在索引 0 處。</li>        <li><code>values</code>: 要插入 <code>list</code> 的值清單。</li>      </ul>
 

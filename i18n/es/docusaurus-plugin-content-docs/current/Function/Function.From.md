@@ -5,8 +5,6 @@ title: Function.From
 # Function.From
 
 
-## Description
-
 Crea una función con una firma de parámetro específica agregada a una función que utiliza un único argumento de lista.
 
 
@@ -20,7 +18,7 @@ Function.From(
 ```
 
 
-## Details
+## Remarks
 
 Utiliza una función de unario <code>function</code> y crea una función nueva con el tipo <code>functionType</code>, que construye una lista a partir de sus argumentos y la pasa a <code>function</code>.
 

@@ -5,8 +5,6 @@ title: Type.TableColumn
 # Type.TableColumn
 
 
-## Description
-
 Возвращает тип столбца в таблице.
 
 
@@ -20,7 +18,7 @@ Type.TableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает тип столбца <code>column</code> в типе таблицы <code>tableType</code>.
 

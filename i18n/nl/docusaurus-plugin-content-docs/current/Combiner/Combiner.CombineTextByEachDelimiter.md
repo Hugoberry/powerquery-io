@@ -5,8 +5,6 @@ title: Combiner.CombineTextByEachDelimiter
 # Combiner.CombineTextByEachDelimiter
 
 
-## Description
-
 Retourneert een functie die een lijst met tekst combineert met behulp van een reeks scheidingstekens.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByEachDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een functie die een lijst met tekstwaarden combineert tot één tekstwaarde met behulp van een reeks scheidingstekens.
 

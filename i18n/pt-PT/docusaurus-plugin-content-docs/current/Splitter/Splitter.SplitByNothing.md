@@ -5,8 +5,6 @@ title: Splitter.SplitByNothing
 # Splitter.SplitByNothing
 
 
-## Description
-
 Devolve uma função que não efetua divisões, devolvendo o respetivo argumento como uma lista de elemento único.
 
 
@@ -19,7 +17,7 @@ Splitter.SplitByNothing(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma função que não efetua divisões, devolvendo o respetivo argumento como uma lista de elemento único.
 

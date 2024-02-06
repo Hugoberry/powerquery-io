@@ -5,8 +5,6 @@ title: Table.AlternateRows
 # Table.AlternateRows
 
 
-## Description
-
 Houdt de aanvankelijke verschuiving aan en wisselt vervolgens tussen het accepteren en overslaan van de volgende rijen:
 
 
@@ -22,7 +20,7 @@ Table.AlternateRows(
 ```
 
 
-## Details
+## Remarks
 
 Houdt de aanvankelijke verschuiving aan en wisselt vervolgens tussen het accepteren en overslaan van de volgende rijen:    <ul>       <li><code>table</code>: de invoertabel.</li>       <li><code>offset</code>: het aantal rijen dat moet worden aangehouden voordat er met de herhalingen wordt begonnen.</li>       <li><code>skip</code>: het aantal rijen dat bij elke herhaling moet worden verwijderd.</li>       <li><code>take</code>: het aantal rijen dat bij elke herhaling moet worden bewaard.</li>    </ul>    
 

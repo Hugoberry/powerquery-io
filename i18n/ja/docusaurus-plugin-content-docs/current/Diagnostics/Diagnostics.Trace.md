@@ -5,8 +5,6 @@ title: Diagnostics.Trace
 # Diagnostics.Trace
 
 
-## Description
-
 トレースが有効になっていて値を返す場合は、トレース エントリを記述します。
 
 
@@ -22,7 +20,7 @@ Diagnostics.Trace(
 ```
 
 
-## Details
+## Remarks
 
 トレースが有効になっていて <code>value</code> を返す場合は、トレース <code>message</code> を記述します。オプション パラメーター <code>delayed</code> は、メッセージがトレースされるまで <code>value</code> の評価を遅らせるかどうかを指定します。<code>traceLevel</code> には次のいずれかの値を指定できます:    <code>TraceLevel.Critical</code>、    <code>TraceLevel.Error</code>、    <code>TraceLevel.Warning</code>、    <code>TraceLevel.Information</code>、    <code>TraceLevel.Verbose</code>。  
 

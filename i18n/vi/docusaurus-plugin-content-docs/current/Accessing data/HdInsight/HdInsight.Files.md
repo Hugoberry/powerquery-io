@@ -5,8 +5,6 @@ title: HdInsight.Files
 # HdInsight.Files
 
 
-## Description
-
 Trả về một bảng chứa thuộc tính và nội dung của các blob có trong vùng chứa chỉ định từ ngăn lưu trữ Azure.
 
 
@@ -20,7 +18,7 @@ HdInsight.Files(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bảng chứa một hàng cho mỗi tệp blob có trong URL của vùng chứa, <code>account</code>, từ ngăn lưu trữ Azure. Mỗi hàng chứa thuộc tính của tệp và liên kết đến nội dung của tệp đó.
 

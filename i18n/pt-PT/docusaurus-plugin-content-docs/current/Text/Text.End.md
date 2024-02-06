@@ -5,8 +5,6 @@ title: Text.End
 # Text.End
 
 
-## Description
-
 Devolve os últimos carateres do texto.
 
 
@@ -20,7 +18,7 @@ Text.End(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um valor <code>text</code> que corresponde aos últimos <code>count</code> carateres do valor <code>text</code> <code>text</code>.
 

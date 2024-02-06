@@ -5,8 +5,6 @@ title: Table.Skip
 # Table.Skip
 
 
-## Description
-
 ส่งกลับตารางซึ่งมีแถวจำนวนแรกที่ถูกข้ามไป
 
 
@@ -20,7 +18,7 @@ Table.Skip(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางที่ไม่มีจำนวนแถวแรกที่ระบุ <code>countOrCondition</code> ของตาราง <code>table</code>    จำนวนแถวที่ข้ามโดยขึ้นอยู่กับพารามิเตอร์ที่เลือกได้ <code>countOrCondition</code>    <ul>    <li> ถ้า <code>countOrCondition</code> ถูกเว้นไว้ จะมีการข้ามเฉพาะแถวแรก </li>    <li> ถ้า <code>countOrCondition</code> เป็นตัวเลข จะมีการข้ามแถวจำนวนมากดังกล่าว (เริ่มต้นที่ด้านบน) </li>    <li> ถ้า <code>countOrCondition</code> เป็นเงื่อนไข แถวที่ตรงกับเงื่อนไขจะถูกข้ามจนกว่าแถวจะไม่เป็นไปตามเงื่อนไข</li>    </ul>
 

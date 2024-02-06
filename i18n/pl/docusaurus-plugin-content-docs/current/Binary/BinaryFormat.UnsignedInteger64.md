@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger64
 # BinaryFormat.UnsignedInteger64
 
 
-## Description
-
 Format binarny odczytujący 64-bitową liczbę całkowitą bez znaku.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger64(
 ```
 
 
-## Details
+## Remarks
 
 Format binarny odczytujący 64-bitową liczbę całkowitą bez znaku.
 

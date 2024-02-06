@@ -5,8 +5,6 @@ title: Number.Exp
 # Number.Exp
 
 
-## Description
-
 e değerini verilen üsse yükseltir.
 
 
@@ -19,7 +17,7 @@ Number.Exp(
 ```
 
 
-## Details
+## Remarks
 
 e değerini <code>number</code> üssüne yükseltme işleminin sonucunu döndürür (üstel işlev)      <ul>        <li><code>number</code>: Üstel işlevi hesaplanacak olan <code>sayı</code>. <code>number</code> null ise <code>Number.Exp</code> null döndürür. </li>      </ul>
 

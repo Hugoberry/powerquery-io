@@ -5,8 +5,6 @@ title: List.PositionOfAny
 # List.PositionOfAny
 
 
-## Description
-
 Bir listedeki bir değerin ilk uzaklığını döndürür.
 
 
@@ -22,7 +20,7 @@ List.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 <code>values</code> listesindeki bir değerin ilk örneğinin <code>list</code> listesindeki uzaklığını döndürür. Hiçbir oluşum bulunmadıysa -1 döndürür.    <code>occurrence</code> isteğe bağlı oluşum parametresi de belirtilebilir.<ul>   <li><code>occurrence</code>: Döndürülebilecek oluşum sayısı üst sınırı.</li></ul>
 

@@ -5,8 +5,6 @@ title: Table.RenameColumns
 # Table.RenameColumns
 
 
-## Description
-
 Anvender nye navne i formatet \{old, new}.
 
 
@@ -21,7 +19,7 @@ Table.RenameColumns(
 ```
 
 
-## Details
+## Remarks
 
 Udfører de angivne omdøbninger på kolonnerne i tabellen <code>table</code>. En erstatningshandling <code>renames</code> består af en liste med to værdier, det gamle kolonnenavn og det nye kolonnenavn, som findes på en liste.    Hvis kolonnen ikke findes, udløses der en undtagelse, medmindre den valgfrie parameter <code>missingField</code> angiver et alternativ (f.eks. <code>MissingField.UseNull</code> eller <code>MissingField.Ignore</code>).
 

@@ -5,8 +5,6 @@ title: Type.TableColumn
 # Type.TableColumn
 
 
-## Description
-
 Retourneert het type van een kolom in een tabel.
 
 
@@ -20,7 +18,7 @@ Type.TableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het type van de kolom <code>column</code> in het tabeltype <code>tableType</code>.
 

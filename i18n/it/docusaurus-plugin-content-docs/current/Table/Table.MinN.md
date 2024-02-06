@@ -5,8 +5,6 @@ title: Table.MinN
 # Table.MinN
 
 
-## Description
-
 Restituisce la riga o le righe più piccole mediante i criteri specificati.
 
 
@@ -21,7 +19,7 @@ Table.MinN(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce la riga o le righe più piccole in <code>table</code>, dato <code>comparisonCriteria</code>. Dopo aver ordinato le righe, specificare il parametro <code>countOrCondition</code> per filtrare ulteriormente i risultati. Si noti che l'algoritmo di ordinamento non può garantire un risultato ordinato fisso. Il parametro <code>countOrCondition</code> accetta più formati:    <ul>        <li> Se viene specificato un numero, viene restituito un elenco di un massimo di <code>countOrCondition</code> elementi in ordine crescente. </li>        <li> Se viene specificata una condizione, viene restituito un elenco di elementi che soddisfano inizialmente la condizione. Se un elemento non soddisfa la condizione, non vengono considerati altri elementi. </li> </ul>
 

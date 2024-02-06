@@ -5,8 +5,6 @@ title: Expression.Identifier
 # Expression.Identifier
 
 
-## Description
-
 Bir tanımlayıcının M kaynak kodu gösterimini döndürür.
 
 
@@ -19,7 +17,7 @@ Expression.Identifier(
 ```
 
 
-## Details
+## Remarks
 
 Bir tanımlayıcının <code>name</code> M kaynak kodu gösterimini döndürür.
 

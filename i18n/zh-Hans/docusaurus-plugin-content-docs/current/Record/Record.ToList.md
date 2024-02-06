@@ -5,8 +5,6 @@ title: Record.ToList
 # Record.ToList
 
 
-## Description
-
 返回包含输入记录字段值的值列表。
 
 
@@ -19,7 +17,7 @@ Record.ToList(
 ```
 
 
-## Details
+## Remarks
 
 返回包含输入 <code>record</code> 中的字段值的值列表。
 

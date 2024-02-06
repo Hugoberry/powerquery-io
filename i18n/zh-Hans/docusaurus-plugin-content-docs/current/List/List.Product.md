@@ -5,8 +5,6 @@ title: List.Product
 # List.Product
 
 
-## Description
-
 返回列表中的数的乘积。
 
 
@@ -20,7 +18,7 @@ List.Product(
 ```
 
 
-## Details
+## Remarks
 
 返回列表 <code>numbersList</code> 中的非 null 数的乘积。如果列表中没有非 null 值，则返回 null。
 

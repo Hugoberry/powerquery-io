@@ -5,8 +5,6 @@ title: Table.Join
 # Table.Join
 
 
-## Description
-
 รวมแถวจากสองตารางที่ตรงกันตามคีย์ที่กำหนด
 
 
@@ -25,7 +23,7 @@ Table.Join(
 ```
 
 
-## Details
+## Remarks
 
 รวมแถวของ <code>table1</code> กับแถวของ <code>table2</code> ตามความเท่ากันของค่าของคอลัมน์หลักที่เลือกโดย <code>key1</code> (สําหรับ <code>table1</code>) และ <code>key2</code> (สําหรับ <code>table2</code>) <br />ตามค่าเริ่มต้น มีการดําเนินการรวมภายใน อย่างไรก็ตาม อาจมีการรวม <code>joinKind</code> เพิ่มเติมเพื่อระบุชนิดของการรวม ตัวเลือกประกอบด้วย: <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br /> อาจมีการรวมชุด <code>keyEqualityComparers</code> เพิ่มเติมเพื่อระบุวิธีการเปรียบเทียบคอลัมน์หลัก พารามิเตอร์นี้มีไว้สําหรับใช้ภายในเท่านั้น<br />
 

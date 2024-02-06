@@ -5,8 +5,6 @@ title: List.Difference
 # List.Difference
 
 
-## Description
-
 返回两个给定列表的差。
 
 
@@ -21,7 +19,7 @@ List.Difference(
 ```
 
 
-## Details
+## Remarks
 
 返回未出现在列表 <code>list2</code> 中的列表 <code>list1</code> 中的项。支持重复的值。    可以指定一个可选相等条件值 <code>equationCriteria</code> 来控制相等测试。 
 

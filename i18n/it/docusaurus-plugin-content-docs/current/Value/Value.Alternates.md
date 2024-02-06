@@ -5,8 +5,6 @@ title: Value.Alternates
 # Value.Alternates
 
 
-## Description
-
 Esprime piani di query alternativi.
 
 
@@ -19,7 +17,7 @@ Value.Alternates(
 ```
 
 
-## Details
+## Remarks
 
 Esprime piani di query alternativi all'interno di un'espressione del piano di query ottenuta tramite Value.Expression(Value.Optimize(...)). Non destinata ad altri usi.
 

@@ -5,8 +5,6 @@ title: Comparer.Ordinal
 # Comparer.Ordinal
 
 
-## Description
-
 Gibt eine Vergleichsfunktion zurück, die Aufzählungsregeln für den Vergleich von Werten verwendet.
 
 
@@ -20,7 +18,7 @@ Comparer.Ordinal(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Vergleichsfunktion zurück, die Ordinalregeln verwendet, um die angegebenen Werte <code>x</code> und <code>y</code> zu vergleichen.<br />        <br />        Eine Vergleichsfunktion akzeptiert zwei Argumente und gibt -1, 0 oder 1 zurück, je nachdem, ob der erste Wert im Vergleich zum zweiten kleiner, gleich oder größer ist.    
 

@@ -5,8 +5,6 @@ title: List.Alternate
 # List.Alternate
 
 
-## Description
-
 Devolve uma lista composta por todos os elementos de desvio com numeração ímpar existentes numa lista.
 
 
@@ -22,7 +20,7 @@ List.Alternate(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma lista composta por todos os elementos de desvio com numeração ímpar existentes numa lista. Alterna entre tomar e ignorar valores da lista <code>list</code> consoante os parâmetros.    <ul>    <li><code>count</code>: especifica o número de valores que são ignorados de cada vez.</li>    <li><code>repeatInterval</code>: um intervalo de repetição opcional para indicar quantos valores são adicionados entre os valores ignorados.</li>    <li><code>offset</code>: um parâmetro de desvio opcional para começar a ignorar os valores no desvio inicial.</li>    </ul>
 

@@ -5,8 +5,6 @@ title: Duration.Seconds
 # Duration.Seconds
 
 
-## Description
-
 Gibt den Sekundenanteil einer Dauer zurück.
 
 
@@ -19,7 +17,7 @@ Duration.Seconds(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Sekundenanteil von <code>duration</code> zurück.
 

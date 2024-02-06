@@ -5,8 +5,6 @@ title: Table.Unpivot
 # Table.Unpivot
 
 
-## Description
-
 Converte um conjunto de colunas existentes numa tabela em pares atributo-valor.
 
 
@@ -22,7 +20,7 @@ Table.Unpivot(
 ```
 
 
-## Details
+## Remarks
 
 Converte um conjunto de colunas existentes numa tabela em pares atributo-valor, combinado com o resto dos valores em cada linha.
 

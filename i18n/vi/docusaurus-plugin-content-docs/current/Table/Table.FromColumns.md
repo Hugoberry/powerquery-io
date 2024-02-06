@@ -5,8 +5,6 @@ title: Table.FromColumns
 # Table.FromColumns
 
 
-## Description
-
 Tạo một bảng từ danh sách cột và giá trị được chỉ định.
 
 
@@ -20,7 +18,7 @@ Table.FromColumns(
 ```
 
 
-## Details
+## Remarks
 
 Tạo một bảng thuộc loại <code>columns</code> từ danh sách <code>lists</code> chứa các danh sách lồng nhau với các tên cột và giá trị.    Nếu một số cột có nhiều giá trị hơn các cột khác thì giá trị bị thiếu sẽ được điền bằng giá trị mặc định là 'giá trị null' nếu các cột có thể có giá trị rỗng.
 

@@ -5,8 +5,6 @@ title: Binary.Range
 # Binary.Range
 
 
-## Description
-
 Gibt eine Teilmenge des Binärwerts ab einem Offset zurück.
 
 
@@ -21,7 +19,7 @@ Binary.Range(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Teilmenge des Binärwerts ab dem Offset "<code>binary</code>" zurück. Die maximale Länge der Teilmenge kann mithilfe eines optionalen Parameters (<code>offset</code>) festgelegt werden.
 

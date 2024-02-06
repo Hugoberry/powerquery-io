@@ -5,8 +5,6 @@ title: Text.Select
 # Text.Select
 
 
-## Description
-
 Hiermit werden alle Vorkommen des angegebenen Zeichens oder einer Liste von Zeichen aus dem Eingabetextwert ausgewählt.
 
 
@@ -20,7 +18,7 @@ Text.Select(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Kopie des Textwerts "<code>text</code>" zurück, in der alle nicht in "<code>selectChars</code>" enthaltenen Zeichen entfernt wurden.  
 

@@ -5,8 +5,6 @@ title: Table.FillDown
 # Table.FillDown
 
 
-## Description
-
 เผยแพร่ค่าของเซลล์ก่อนหน้าไปยังเซลล์ที่มีค่าเป็น Null ด้านล่างในคอลัมน์
 
 
@@ -20,7 +18,7 @@ Table.FillDown(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางหนึ่งจาก <code>table</code> ที่ระบุซึ่งมีการเผยแพร่ค่าของเซลล์ก่อนหน้าไปยังเซลล์ที่มีค่า Null ด้านล่าง <code>columns</code> ที่ระบุ
 

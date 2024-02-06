@@ -5,8 +5,6 @@ title: Table.SelectRows
 # Table.SelectRows
 
 
-## Description
-
 Sélectionne des lignes qui correspondent à la fonction de condition.
 
 
@@ -20,7 +18,7 @@ Table.SelectRows(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une table de lignes depuis <code>table</code>, qui correspond à la sélection <code>condition</code>.
 

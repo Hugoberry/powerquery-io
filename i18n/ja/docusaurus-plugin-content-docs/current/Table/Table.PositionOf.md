@@ -5,8 +5,6 @@ title: Table.PositionOf
 # Table.PositionOf
 
 
-## Description
-
 テーブル内の行の位置を返します。
 
 
@@ -22,7 +20,7 @@ Table.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>table</code> で最初に出現する <code>row</code> の行の位置を返します。1 つも出現しない場合は -1 を返します。    <ul>       <li><code>table</code>: 入力テーブル。</li>       <li><code>row</code>: 位置を調べるテーブル内の行。</li>       <li><code>occurrence</code>: <i>[省略可能]</i> 出現するどの行を返すかを指定します。</li>       <li><code>equationCriteria</code>: <i>[省略可能]</i> テーブルの行と行の比較を制御します。</li>    </ul>    
 

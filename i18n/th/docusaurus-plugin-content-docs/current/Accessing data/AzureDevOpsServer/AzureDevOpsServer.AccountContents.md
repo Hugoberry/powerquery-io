@@ -5,8 +5,6 @@ title: AzureDevOpsServer.AccountContents
 # AzureDevOpsServer.AccountContents
 
 
-## Description
-
 ใส่ URL ของ Azure DevOps Analytics Service ของคุณ
 
 
@@ -20,7 +18,7 @@ AzureDevOpsServer.AccountContents(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับเนื้อหาที่ดาวน์โหลดจาก URL ของ Azure DevOps Analytics Service เป็นค่าไบนารี ฟังก์ชันนี้จะใช้ข้อมูลประจำตัวที่แตกต่างกันสำหรับองค์กรที่แตกต่างกัน
 

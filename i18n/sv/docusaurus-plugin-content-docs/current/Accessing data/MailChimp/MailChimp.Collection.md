@@ -5,8 +5,6 @@ title: MailChimp.Collection
 # MailChimp.Collection
 
 
-## Description
-
 Returnerar en tabell med data från en MailChimp-slutpunkt.
 
 
@@ -20,7 +18,7 @@ MailChimp.Collection(
 ```
 
 
-## Details
+## Remarks
 
 Anropar MailChimp API:n och returnerar den resulterande datauppsättningen som en tabell. Bläddrar automatiskt igenom alla resultat. entityName-parametern som är valfri, kan användas för API-slutpunkter där rot-slutpunkten och huvudsakliga entityName i JSON-responsen inte matchar.
 

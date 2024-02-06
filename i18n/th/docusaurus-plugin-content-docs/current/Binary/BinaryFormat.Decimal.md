@@ -5,8 +5,6 @@ title: BinaryFormat.Decimal
 # BinaryFormat.Decimal
 
 
-## Description
-
 รูปแบบไบนารีที่อ่านค่าทศนิยม .NET 16 ไบต์
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Decimal(
 ```
 
 
-## Details
+## Remarks
 
 รูปแบบไบนารีที่อ่านค่าทศนิยม .NET 16 ไบต์
 

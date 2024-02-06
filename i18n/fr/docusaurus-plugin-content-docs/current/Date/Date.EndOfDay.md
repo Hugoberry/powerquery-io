@@ -5,8 +5,6 @@ title: Date.EndOfDay
 # Date.EndOfDay
 
 
-## Description
-
 Renvoie la fin de la journée.
 
 
@@ -19,7 +17,7 @@ Date.EndOfDay(
 ```
 
 
-## Details
+## Remarks
 
 Renvoie la fin de la journée représentée par <code>dateTime</code>. Les informations de fuseau horaire sont conservées.      <ul>        <li><code>dateTime</code> : une valeur <code>date</code>, <code>datetime</code>, ou <code>datetimezone</code> à partir de laquelle la fin de la journée est calculée.</li>      </ul>
 

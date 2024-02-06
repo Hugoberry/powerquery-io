@@ -5,8 +5,6 @@ title: Binary.Buffer
 # Binary.Buffer
 
 
-## Description
-
 缓冲内存中的二进制值。
 
 
@@ -19,7 +17,7 @@ Binary.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 缓冲内存中的二进制值。 此调用的结果是一个稳定的二进制值，这意味着它将具有确定的字节长度和顺序。
 

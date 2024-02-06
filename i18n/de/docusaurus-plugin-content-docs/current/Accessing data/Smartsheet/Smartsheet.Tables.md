@@ -5,8 +5,6 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-## Description
-
 Gibt eine Tabelle mit Arbeitsblättern, Berichten, Ordnern und Arbeitsbereichen aus der Smartsheet-API zurück.
 
 
@@ -19,7 +17,7 @@ Smartsheet.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine geschachtelte Tabelle der verfügbaren Arbeitsblätter, Ordner und Arbeitsbereiche aus der Smartsheet-API zurück.
 

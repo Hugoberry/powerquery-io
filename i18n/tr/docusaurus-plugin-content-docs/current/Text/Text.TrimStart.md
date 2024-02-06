@@ -5,8 +5,6 @@ title: Text.TrimStart
 # Text.TrimStart
 
 
-## Description
-
 Tüm öndeki boşlukları kaldırır.
 
 
@@ -20,7 +18,7 @@ Text.TrimStart(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> metin değerinden tüm öndeki boşlukları kaldırmanın sonucunu döndürür.
 

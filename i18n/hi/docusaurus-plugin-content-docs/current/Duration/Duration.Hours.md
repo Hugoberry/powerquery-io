@@ -5,8 +5,6 @@ title: Duration.Hours
 # Duration.Hours
 
 
-## Description
-
 अवधि का घंटों वाला भाग लौटाता है.
 
 
@@ -19,7 +17,7 @@ Duration.Hours(
 ```
 
 
-## Details
+## Remarks
 
 <code>duration</code> का घंटों वाला भाग लौटाता है.
 

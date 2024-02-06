@@ -5,8 +5,6 @@ title: Text.Start
 # Text.Start
 
 
-## Description
-
 テキストの先頭を返します。
 
 
@@ -20,7 +18,7 @@ Text.Start(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> の最初の <code>count</code> 文字をテキスト値として返します。
 

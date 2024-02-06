@@ -5,8 +5,6 @@ title: Date.WeekOfMonth
 # Date.WeekOfMonth
 
 
-## Description
-
 返回 1 到 6 之间的数字，指示此日期位于当月的哪一周。
 
 
@@ -20,7 +18,7 @@ Date.WeekOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 返回 1 到 6 之间的数字，指示日期 <code>dateTime</code> 位于当月的哪一周。 <ul> <li><code>dateTime</code>: 已确定当月周数的<code>日期/时间</code>值。</li>      </ul>
 

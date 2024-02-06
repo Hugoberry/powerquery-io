@@ -5,8 +5,6 @@ title: Text.ToList
 # Text.ToList
 
 
-## Description
-
 Retorna uma lista de valores de caractere do valor de texto especificado.
 
 
@@ -19,7 +17,7 @@ Text.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma lista de valores de caractere do valor de texto especificado <code>text</code>.
 

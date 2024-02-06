@@ -5,8 +5,6 @@ title: Record.AddField
 # Record.AddField
 
 
-## Description
-
 เพิ่มเขตข้อมูลลงในระเบียน
 
 
@@ -22,7 +20,7 @@ Record.AddField(
 ```
 
 
-## Details
+## Remarks
 
 เพิ่มเขตข้อมูลลงในระเบียน <code>record</code> โดยกำหนดให้มีชื่อเขตข้อมูล <code>fieldName</code> และค่า <code>value</code>
 

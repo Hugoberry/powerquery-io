@@ -15,7 +15,7 @@ PowerBI.Dataflows(
 ```
 
 
-## Details
+## Remarks
 
 Erişiminiz olan tüm Power BI veri akışlarına bağlanın ve kullanmak istediğiniz varlıkları seçin.
 

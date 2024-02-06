@@ -5,8 +5,6 @@ title: Table.SelectRowsWithErrors
 # Table.SelectRowsWithErrors
 
 
-## Description
-
 Gibt eine Tabelle zurück, die nur die Zeilen aus der Eingabetabelle enthält, die in mindestens einer der Zellen einen Fehler enthalten. Bei Angabe einer Spaltenliste werden nur die Zellen der angegebenen Spalten auf Fehler geprüft.
 
 
@@ -20,7 +18,7 @@ Table.SelectRowsWithErrors(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Tabelle zurück, die nur die Zeilen aus der Eingabetabelle enthält, die in mindestens einer der Zellen einen Fehler enthalten. Bei Angabe einer Spaltenliste werden nur die Zellen der angegebenen Spalten auf Fehler geprüft.
 

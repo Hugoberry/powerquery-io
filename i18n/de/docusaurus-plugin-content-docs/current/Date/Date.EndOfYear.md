@@ -5,8 +5,6 @@ title: Date.EndOfYear
 # Date.EndOfYear
 
 
-## Description
-
 Gibt das Ende des Jahres zurück.
 
 
@@ -19,7 +17,7 @@ Date.EndOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das Ende des Jahres, das <code>dateTime</code> enthält, zurück (einschließlich Sekundenbruchteilen). Die Zeitzoneninformationen bleiben erhalten.      <ul>        <li><code>dateTime</code>: Ein <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert, auf dessen Grundlage das Ende des Jahres berechnet wird.</li>      </ul>
 

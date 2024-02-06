@@ -5,8 +5,6 @@ title: Table.FirstN
 # Table.FirstN
 
 
-## Description
-
 Returnerar så många första rader som angetts.
 
 
@@ -20,7 +18,7 @@ Table.FirstN(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar den eller de första raderna i tabellen <code>table</code>, beroende på värdet för <code>countOrCondition</code>:    <ul>    <li> Om <code>countOrCondition</code> är ett tal returneras så många rader (med början ovanifrån). </li>    <li> Om <code>countOrCondition</code> är ett villkor returneras de rader som uppfyller villkoret tills en rad inte uppfyller villkoret.</li></ul>
 

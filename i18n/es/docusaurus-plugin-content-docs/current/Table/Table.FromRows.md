@@ -5,8 +5,6 @@ title: Table.FromRows
 # Table.FromRows
 
 
-## Description
-
 Crea una tabla a partir de una lista de valores de fila y columnas opcionales.
 
 
@@ -20,7 +18,7 @@ Table.FromRows(
 ```
 
 
-## Details
+## Remarks
 
 Crea una tabla a partir de la lista <code>rows</code> en la que cada elemento de esta es una lista interna que contiene los valores de columna para una sola fila. Se ha podido proporcionar una lista opcional de nombres de columna, un tipo de tabla o un número de columnas para <code>columns</code>.
 

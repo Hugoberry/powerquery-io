@@ -5,8 +5,6 @@ title: Date.QuarterOfYear
 # Date.QuarterOfYear
 
 
-## Description
-
 वह संख्या लौटाता है जो यह इंगित करती है कि दिनांक वर्ष की कौन सी तिमाही आता है.
 
 
@@ -19,7 +17,7 @@ Date.QuarterOfYear(
 ```
 
 
-## Details
+## Remarks
 
 1 से 4 तक संख्या लौटाता है जो यह इंगित करती है कि दिनांक वर्ष <code>dateTime</code> की कौन सी तिमाही में आता है. <code>dateTime</code>, एक <code>date</code>, <code>datetime</code> या <code>datetimezone</code> मान हो सकता है.
 

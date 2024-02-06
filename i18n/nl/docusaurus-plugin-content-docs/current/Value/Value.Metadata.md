@@ -5,8 +5,6 @@ title: Value.Metadata
 # Value.Metadata
 
 
-## Description
-
 Retourneert een record die de metagegevens van de invoer bevat.
 
 
@@ -19,7 +17,7 @@ Value.Metadata(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een record die de metagegevens van de invoer bevat.
 

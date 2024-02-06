@@ -5,8 +5,6 @@ title: Table.StopFolding
 # Table.StopFolding
 
 
-## Description
-
 Verilerin özgün kaynağında herhangi bir aşağı akış işleminin çalıştırılmasını önler.
 
 
@@ -19,7 +17,7 @@ Table.StopFolding(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> içindeki verilerin özgün kaynağında herhangi bir aşağı akış işleminin çalıştırılmasını önler.
 

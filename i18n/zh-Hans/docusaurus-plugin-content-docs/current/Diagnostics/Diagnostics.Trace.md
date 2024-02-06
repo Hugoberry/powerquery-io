@@ -5,8 +5,6 @@ title: Diagnostics.Trace
 # Diagnostics.Trace
 
 
-## Description
-
 写入跟踪条目(如果已启用跟踪的话)并返回值。
 
 
@@ -22,7 +20,7 @@ Diagnostics.Trace(
 ```
 
 
-## Details
+## Remarks
 
 写入跟踪 <code>message</code> (如果已启用跟踪的话)并返回 <code>value</code>。可选参数 <code>delayed</code> 指定了是否延迟计算 <code>value</code> 直到跟踪到消息。<code>traceLevel</code> 可取以下任一值:    <code>TraceLevel.Critical</code>    <code>TraceLevel.Error</code>、    <code>TraceLevel.Warning</code>、    <code>TraceLevel.Information</code>、    <code>TraceLevel.Verbose</code>。  
 

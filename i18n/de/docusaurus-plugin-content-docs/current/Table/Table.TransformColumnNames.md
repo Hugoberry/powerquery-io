@@ -5,8 +5,6 @@ title: Table.TransformColumnNames
 # Table.TransformColumnNames
 
 
-## Description
-
 Transformiert Spaltennamen unter Verwendung der angegebenen Funktion.
 
 
@@ -21,7 +19,7 @@ Table.TransformColumnNames(
 ```
 
 
-## Details
+## Remarks
 
 Transformiert Spaltennamen mithilfe der angegebenen <code>nameGenerator</code>-Funktion. Gültige Optionen:    <div>      <code>MaxLength</code> gibt die maximale Länge neuer Spaltennamen an. Wenn die angegebene Funktion in einem längeren Spaltennamen resultiert, wird der lange Name gekürzt.    </div>    <div>      <code>Comparer</code> (Vergleichsfunktion) wird verwendet, um den Vergleich beim Generieren neuer Spaltennamen zu steuern. Vergleichsfunktionen können verwendet werden, um Vergleiche ohne Berücksichtigung der Groß-/Kleinschreibung oder mit Berücksichtigung von Kultur und Gebietsschema bereitzustellen.    </div>    <div>      Die folgenden integrierten Vergleichsfunktionen sind in der Formelsprache verfügbar:    </div>    <ul>      <li><code>Comparer.Ordinal</code>: Wird verwendet, um einen exakten Ordinalvergleich durchzuführen</li>      <li><code>Comparer.OrdinalIgnoreCase</code>: Wird verwendet, um einen exakten Ordinalvergleich ohne Berücksichtigung der Groß-/Kleinschreibung durchzuführen</li>      <li> <code>Comparer.FromCulture</code>: Wird verwendet, um einen Vergleich mit Berücksichtigung der Kultur durchzuführen</li>    </ul>     
 

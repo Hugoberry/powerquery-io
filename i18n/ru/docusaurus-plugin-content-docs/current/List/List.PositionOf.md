@@ -5,8 +5,6 @@ title: List.PositionOf
 # List.PositionOf
 
 
-## Description
-
 Возвращает смещение значения в списке.
 
 
@@ -22,7 +20,7 @@ List.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает смещение, на котором значение <code>value</code> появляется в списке <code>list</code>. Возвращает –1, если значение не найдено.    Можно указать необязательный параметр вхождения <code>occurrence</code>.<ul>   <li><code>occurrence</code>: максимальное количество вхождений, которые могут быть возвращены.</li></ul>
 

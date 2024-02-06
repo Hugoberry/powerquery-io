@@ -5,8 +5,6 @@ title: Cube.MeasureProperties
 # Cube.MeasureProperties
 
 
-## Description
-
 घन में विस्तृत उपलब्ध माप गुणों के सेट वाली तालिका लौटाता है.
 
 
@@ -19,7 +17,7 @@ Cube.MeasureProperties(
 ```
 
 
-## Details
+## Remarks
 
 क्यूब में विस्तृत मापों के लिए उपलब्ध गुणों के सेट वाली एक तालिका लौटाता है.
 

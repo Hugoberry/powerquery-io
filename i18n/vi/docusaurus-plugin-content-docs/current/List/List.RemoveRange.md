@@ -5,8 +5,6 @@ title: List.RemoveRange
 # List.RemoveRange
 
 
-## Description
-
 Loại bỏ tính số lượng giá trị bắt đầu tại một vị trí được chỉ định.
 
 
@@ -21,7 +19,7 @@ List.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 Loại bỏ <code>count</code> giá trị trong <code>list</code> bắt đầu tại vị trí được chỉ định, <code>index</code>.
 

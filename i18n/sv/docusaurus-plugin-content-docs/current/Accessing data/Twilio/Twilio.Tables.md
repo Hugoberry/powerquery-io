@@ -5,8 +5,6 @@ title: Twilio.Tables
 # Twilio.Tables
 
 
-## Description
-
 Ange hur många månader av historikdata från Twilio som ska hämtas.
 
 
@@ -19,7 +17,7 @@ Twilio.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell med relevanta Twilio-data.
 

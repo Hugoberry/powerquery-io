@@ -5,8 +5,6 @@ title: Text.PadStart
 # Text.PadStart
 
 
-## Description
-
 Retorna o texto de um comprimento especificado preenchendo o início do texto especificado.
 
 
@@ -21,7 +19,7 @@ Text.PadStart(
 ```
 
 
-## Details
+## Remarks
 
 Retorna um valor <code>text</code> preenchido até o comprimento <code>count</code> inserindo espaços no início do valor de texto <code>text</code>.     Um caractere <code>character</code> opcional pode ser usado para especificar o caractere usado no preenchimento. O caractere de preenchimento padrão é um espaço.
 

@@ -5,8 +5,6 @@ title: Table.ReplaceRows
 # Table.ReplaceRows
 
 
-## Description
-
 Thay thế phạm vi hàng được chỉ định bằng (các) hàng được cung cấp.
 
 
@@ -22,7 +20,7 @@ Table.ReplaceRows(
 ```
 
 
-## Details
+## Remarks
 
 Thay thế số lượng hàng được chỉ định <code>count</code> trong đầu vào <code>table</code> bằng <code>rows</code> được chỉ định bắt đầu sau <code>offset</code>. Tham số <code>rows</code> là danh sách bản ghi.    <ul>       <li><code>table</code>: Bảng nơi thực hiện thay thế.</li>       <li><code>offset</code>: Số lượng hàng sẽ bỏ qua trước khi thực hiện thay thế.</li>       <li><code>count</code>: Số lượng hàng sẽ thay thế.</li>       <li><code>rows</code>: Danh sách các bản ghi hàng sẽ chèn vào <code>table</code> tại vị trí do <code>offset</code> chỉ định.</li>    </ul>
 

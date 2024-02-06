@@ -5,8 +5,6 @@ title: List.Intersect
 # List.Intersect
 
 
-## Description
-
 ส่งกลับส่วนที่ซ้ำกันของค่ารายการที่พบในค่าที่ป้อน
 
 
@@ -20,7 +18,7 @@ List.Intersect(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับส่วนที่ซ้ำกันของค่ารายการที่พบในรายการค่าที่ป้อน <code>lists</code> พารามิเตอร์ที่เลือกได้ <code>equationCriteria</code> สามารถระบุได้
 

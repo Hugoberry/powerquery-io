@@ -5,8 +5,6 @@ title: Combiner.CombineTextByLengths
 # Combiner.CombineTextByLengths
 
 
-## Description
-
 指定された長さを使用してテキストのリストに結合する関数を返します。
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByLengths(
 ```
 
 
-## Details
+## Remarks
 
 指定された長さを使用してテキス値トのリストを 1 つのテキスト値に結合する関数を返します。
 

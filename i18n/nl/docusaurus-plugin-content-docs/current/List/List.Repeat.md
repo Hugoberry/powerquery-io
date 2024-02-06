@@ -5,8 +5,6 @@ title: List.Repeat
 # List.Repeat
 
 
-## Description
-
 Retourneert een lijst die een aantal herhalingen van de oorspronkelijke lijst is.
 
 
@@ -20,7 +18,7 @@ List.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een lijst die <code>count</code> herhalingen van de oorspronkelijke lijst <code>list</code> is.
 

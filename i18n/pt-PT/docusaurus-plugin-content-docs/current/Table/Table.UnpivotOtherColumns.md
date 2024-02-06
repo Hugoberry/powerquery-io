@@ -5,8 +5,6 @@ title: Table.UnpivotOtherColumns
 # Table.UnpivotOtherColumns
 
 
-## Description
-
 Converte todas as colunas exceto um conjunto especificado em pares atributo-valor.
 
 
@@ -22,7 +20,7 @@ Table.UnpivotOtherColumns(
 ```
 
 
-## Details
+## Remarks
 
 Converte todas as colunas, exceto um conjunto especificado, em pares atributo-valor, combinados com os restantes valores em cada linha.
 

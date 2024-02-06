@@ -5,8 +5,6 @@ title: Type.OpenRecord
 # Type.OpenRecord
 
 
-## Description
-
 Devolve uma versão aberta do tipo de registo fornecido (ou do mesmo tipo, se já estiver aberto).
 
 
@@ -19,7 +17,7 @@ Type.OpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma versão aberta do <code>record</code> <code>type</code> fornecido (ou do mesmo tipo, se já estiver aberto).
 

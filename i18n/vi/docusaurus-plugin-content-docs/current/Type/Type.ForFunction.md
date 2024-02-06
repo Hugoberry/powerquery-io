@@ -5,8 +5,6 @@ title: Type.ForFunction
 # Type.ForFunction
 
 
-## Description
-
 Trả về một loại biểu thị các hàm có tham số cụ thể và trả về ràng buộc loại.
 
 
@@ -20,7 +18,7 @@ Type.ForFunction(
 ```
 
 
-## Details
+## Remarks
 
 Tạo <code>loại hàm</code> từ <code>signature</code>, bản ghi của <code>ReturnType</code> và <code>Tham số</code> và <code>min</code>, số nhỏ nhất của đối số cần để gọi hàm.
 

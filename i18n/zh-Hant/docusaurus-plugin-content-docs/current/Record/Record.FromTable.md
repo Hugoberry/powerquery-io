@@ -5,8 +5,6 @@ title: Record.FromTable
 # Record.FromTable
 
 
-## Description
-
 根據 \{[Name = name, Value = value]} 格式的表格建立記錄。
 
 
@@ -19,7 +17,7 @@ Record.FromTable(
 ```
 
 
-## Details
+## Remarks
 
 根據記錄表 <code>table</code> 傳回記錄，表中包含欄位名稱和值名稱 <code>\{[Name = name, Value = value]}</code>。如果欄位名稱不是唯一的，則擲回例外狀況。
 

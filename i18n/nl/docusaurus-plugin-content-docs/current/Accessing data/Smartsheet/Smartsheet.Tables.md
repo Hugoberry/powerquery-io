@@ -5,8 +5,6 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-## Description
-
 Hiermee wordt een tabel met bladen, rapporten, mappen en werkruimten geretourneerd via de Smartsheet-API
 
 
@@ -19,7 +17,7 @@ Smartsheet.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een geneste tabel met beschikbare bladen, rapporten, mappen en werkruimten geretourneerd via de Smartsheet-API.
 

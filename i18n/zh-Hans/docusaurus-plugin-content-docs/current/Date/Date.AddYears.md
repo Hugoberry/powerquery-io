@@ -5,8 +5,6 @@ title: Date.AddYears
 # Date.AddYears
 
 
-## Description
-
 将指定年份数添加到该日期。
 
 
@@ -20,7 +18,7 @@ Date.AddYears(
 ```
 
 
-## Details
+## Remarks
 
 返回将 <code>numberOfYears</code> 添加到 <code>datetime</code> 值 <code>dateTime</code> 的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 结果。      <ul>        <li><code>dateTime</code>: 要将年份数添加到其中的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值。</li>        <li><code>numberOfYears</code>: 要添加的年份数。</li>      </ul>
 

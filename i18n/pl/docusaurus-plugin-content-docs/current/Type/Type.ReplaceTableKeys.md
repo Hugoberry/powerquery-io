@@ -5,8 +5,6 @@ title: Type.ReplaceTableKeys
 # Type.ReplaceTableKeys
 
 
-## Description
-
 Zwraca nowy typ tabeli, w którym wszystkie klucze zostały zastąpione kluczami z określonej listy kluczy.
 
 
@@ -20,7 +18,7 @@ Type.ReplaceTableKeys(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca nowy typ tabeli, w którym wszystkie klucze zostały zastąpione kluczami z określonej listy kluczy.<br />    <br />    Każdy klucz jest definiowany przy użyciu rekordu w następującej postaci:    <ul>      <li>        <code>Kolumny</code>: lista nazw kolumn, która definiuje klucz      </li>      <li>        <code>Podstawowy</code>: <code>true</code>, jeśli klucz jest kluczem podstawowym; w przeciwnym razie <code>false</code>      </li>    </ul>    Określona lista kluczy jest weryfikowana w celu zapewnienia, że nie zdefiniowano więcej niż jednego klucza podstawowego i że wszystkie nazwy kolumn kluczy istnieją w typie tabeli.    
 

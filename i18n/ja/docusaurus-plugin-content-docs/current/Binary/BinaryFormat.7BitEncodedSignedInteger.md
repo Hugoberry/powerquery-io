@@ -5,8 +5,6 @@ title: BinaryFormat.7BitEncodedSignedInteger
 # BinaryFormat.7BitEncodedSignedInteger
 
 
-## Description
-
 7 ビットの可変長エンコーディングを使用してエンコードされた 64 ビット符号付き整数を読み取るバイナリ形式です。
 
 
@@ -19,7 +17,7 @@ BinaryFormat.7BitEncodedSignedInteger(
 ```
 
 
-## Details
+## Remarks
 
 7 ビットの可変長エンコーディングを使用してエンコードされた 64 ビット符号付き整数を読み取るバイナリ形式です。
 

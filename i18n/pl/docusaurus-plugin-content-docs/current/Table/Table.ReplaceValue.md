@@ -5,8 +5,6 @@ title: Table.ReplaceValue
 # Table.ReplaceValue
 
 
-## Description
-
 Zamienia jedną wartość na inną w określonych kolumnach.
 
 
@@ -23,7 +21,7 @@ Table.ReplaceValue(
 ```
 
 
-## Details
+## Remarks
 
 Zamienia wartość <code>oldValue</code> na wartość <code>newValue</code> w określonych kolumnach tabeli <code>table</code>.
 

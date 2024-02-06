@@ -5,8 +5,6 @@ title: Table.StopFolding
 # Table.StopFolding
 
 
-## Description
-
 防止任何下游操作针对原始数据源运行。
 
 
@@ -19,7 +17,7 @@ Table.StopFolding(
 ```
 
 
-## Details
+## Remarks
 
 防止任何下游操作针对 <code>table</code> 中的原始数据源运行。
 

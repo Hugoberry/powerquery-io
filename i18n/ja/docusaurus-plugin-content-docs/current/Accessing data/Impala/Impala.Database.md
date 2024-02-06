@@ -5,8 +5,6 @@ title: Impala.Database
 # Impala.Database
 
 
-## Description
-
 Impala クラスターからデータをインポートします
 
 
@@ -20,7 +18,7 @@ Impala.Database(
 ```
 
 
-## Details
+## Remarks
 
 Impala クラスター <code>server</code> からデータをインポートします。ポートが指定されていない場合、既定のポート 21050 を使用します。
 

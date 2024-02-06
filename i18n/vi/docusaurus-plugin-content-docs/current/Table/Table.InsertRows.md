@@ -5,8 +5,6 @@ title: Table.InsertRows
 # Table.InsertRows
 
 
-## Description
-
 Chèn danh sách hàng vào bảng tại vị trí được chỉ định.
 
 
@@ -21,7 +19,7 @@ Table.InsertRows(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bảng có danh sách các hàng, <code>rows</code>, được chèn vào <code>table</code> tại vị trí định sẵn, <code>offset</code>. Mỗi cột trong hàng sẽ chèn phải khớp với loại cột của bảng.
 

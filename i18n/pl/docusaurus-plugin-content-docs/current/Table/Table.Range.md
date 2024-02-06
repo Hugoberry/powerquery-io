@@ -5,8 +5,6 @@ title: Table.Range
 # Table.Range
 
 
-## Description
-
 Zwraca wiersze, rozpoczynając od określonego przesunięcia.
 
 
@@ -21,7 +19,7 @@ Table.Range(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wiersze z tabeli <code>table</code>, rozpoczynając od określonego przesunięcia <code>offset</code>. Opcjonalny parametr <code>count</code> określa, ile wierszy ma zostać zwróconych. Domyślnie zwracane są wszystkie wiersze po danym przesunięciu.
 

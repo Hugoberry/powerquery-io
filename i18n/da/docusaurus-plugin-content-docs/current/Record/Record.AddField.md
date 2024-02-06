@@ -5,8 +5,6 @@ title: Record.AddField
 # Record.AddField
 
 
-## Description
-
 Føjer et felt til en post.
 
 
@@ -22,7 +20,7 @@ Record.AddField(
 ```
 
 
-## Details
+## Remarks
 
 Føjer et felt til en post <code>record</code> med navnet på feltet <code>fieldName</code> og værdien <code>value</code>.
 

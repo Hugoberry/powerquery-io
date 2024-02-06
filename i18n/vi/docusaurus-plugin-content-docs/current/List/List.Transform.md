@@ -5,8 +5,6 @@ title: List.Transform
 # List.Transform
 
 
-## Description
-
 Trả về một danh sách mới chứa các giá trị được tính từ danh sách này.
 
 
@@ -20,7 +18,7 @@ List.Transform(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một danh sách giá trị mới bằng cách áp dụng hàm chuyển đổi <code>transform</code> cho danh sách <code>list</code>.
 

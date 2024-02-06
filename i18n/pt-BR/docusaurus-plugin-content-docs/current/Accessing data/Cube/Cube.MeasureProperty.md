@@ -5,8 +5,6 @@ title: Cube.MeasureProperty
 # Cube.MeasureProperty
 
 
-## Description
-
 Retorna uma propriedade de uma medida (propriedade de célula).
 
 
@@ -20,7 +18,7 @@ Cube.MeasureProperty(
 ```
 
 
-## Details
+## Remarks
 
 Retorna a propriedade <code>propertyName</code> da medida <code>measure</code>.
 

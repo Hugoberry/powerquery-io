@@ -5,8 +5,6 @@ title: DateTime.LocalNow
 # DateTime.LocalNow
 
 
-## Description
-
 Zwraca bieżącą datę i godzinę w lokalnej strefie czasowej.
 
 
@@ -19,7 +17,7 @@ DateTime.LocalNow(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wartość typu <code>datetime</code> reprezentującą aktualną datę i godzinę ustawioną w systemie.
 

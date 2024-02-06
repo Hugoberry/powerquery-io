@@ -5,8 +5,6 @@ title: Decimal.From
 # Decimal.From
 
 
-## Description
-
 สร้างทศนิยมจากค่าที่กำหนดไว้
 
 
@@ -20,7 +18,7 @@ Decimal.From(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่า <code>number</code> ที่เป็นทศนิยมจาก <code>value</code> ที่กำหนด ถ้า <code>value</code> ที่กำหนดเป็น <code>null</code> <code>Decimal.From</code> จะส่งกลับ <code>null</code> ถ้า <code>value</code> ที่กำหนดเป็น <code>number</code> ภายในช่วงที่เป็นทศนิยม ระบบจะส่งกลับ <code>value</code> มิฉะนั้นจะส่งกลับข้อผิดพลาด ถ้า <code>value</code> เป็นชนิดอื่น ระบบจะแปลงเป็น <code>number</code> ก่อน โดยใช้ <code>Number.FromText</code> อาจมี <code>culture</code> เพิ่มเติม (ตัวอย่างเช่น "en-US")
 

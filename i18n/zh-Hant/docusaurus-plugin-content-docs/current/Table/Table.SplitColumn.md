@@ -5,8 +5,6 @@ title: Table.SplitColumn
 # Table.SplitColumn
 
 
-## Description
-
 使用指定的分隔器函數，將指定的資料行分割成一組額外的資料行。
 
 
@@ -24,7 +22,7 @@ Table.SplitColumn(
 ```
 
 
-## Details
+## Remarks
 
 使用指定的分隔器函數，將指定的資料行分割成一組額外的資料行。
 

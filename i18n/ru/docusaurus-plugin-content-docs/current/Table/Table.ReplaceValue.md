@@ -5,8 +5,6 @@ title: Table.ReplaceValue
 # Table.ReplaceValue
 
 
-## Description
-
 Заменяет одно значение другим в указанных столбцах.
 
 
@@ -23,7 +21,7 @@ Table.ReplaceValue(
 ```
 
 
-## Details
+## Remarks
 
 Заменяет <code>oldValue</code> на <code>newValue</code> в указанных столбцах таблицы <code>table</code>.
 

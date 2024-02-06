@@ -5,8 +5,6 @@ title: List.FirstN
 # List.FirstN
 
 
-## Description
-
 Gibt die erste Gruppe von Elementen in der Liste zurück. Hierzu wird entweder die zurückzugebende Anzahl oder eine qualifizierende Bedingung angegeben.
 
 
@@ -20,7 +18,7 @@ List.FirstN(
 ```
 
 
-## Details
+## Remarks
 
  <ul>  <li>Bei Angabe einer Zahl wird die entsprechende Anzahl von Elementen zurückgegeben. </li>  <li>Bei Angabe einer Bedingung werden alle Elemente zurückgegeben, die die Bedingung erfüllen. Erfüllt ein Element die Bedingung nicht, werden ab diesem Punkt keine weiteren Elemente berücksichtigt. </li> </ul>
 

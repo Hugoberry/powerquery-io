@@ -5,8 +5,6 @@ title: Cube.Properties
 # Cube.Properties
 
 
-## Description
-
 Retourne une table contenant l&#39;ensemble des propriétés disponibles pour les dimensions développées dans le cube.
 
 
@@ -19,7 +17,7 @@ Cube.Properties(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une table contenant l'ensemble des propriétés disponibles pour les dimensions développées dans le cube.
 

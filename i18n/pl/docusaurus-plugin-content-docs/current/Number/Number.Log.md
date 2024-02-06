@@ -5,8 +5,6 @@ title: Number.Log
 # Number.Log
 
 
-## Description
-
 Zwraca logarytm o określonej podstawie (domyślnie jest to liczba e) z danej liczby.
 
 
@@ -20,7 +18,7 @@ Number.Log(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca logarytm o określonej podstawie <code>base</code> z liczby <code>number</code>. Jeśli parametr <code>base</code> nie zostanie określony, będzie używana wartość domyślna Number.E.    Jeśli parametr <code>number</code> ma wartość null, funkcja <code>Number.Log</code> zwraca wartość null.
 

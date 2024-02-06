@@ -5,8 +5,6 @@ title: Type.IsNullable
 # Type.IsNullable
 
 
-## Description
-
 Bir tür boş değer atanabilir türde ise true değerini döndürür; aksi takdirde false değerini döndürür.
 
 
@@ -19,7 +17,7 @@ Type.IsNullable(
 ```
 
 
-## Details
+## Remarks
 
 Bir tür <code>nullable</code> tipinde ise <code>true</code> değerini döndürür; aksi takdirde <code>false</code> değerini döndürür.
 

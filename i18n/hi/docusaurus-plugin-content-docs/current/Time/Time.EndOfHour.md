@@ -5,8 +5,6 @@ title: Time.EndOfHour
 # Time.EndOfHour
 
 
-## Description
-
 घंटे का अंत लौटाता है.
 
 
@@ -19,7 +17,7 @@ Time.EndOfHour(
 ```
 
 
-## Details
+## Remarks
 
 आंशिक सेकंड सहित, <code>dateTime</code> द्वारा दर्शाए गए घंटे के अंत में लौटाता है. समय क्षेत्र की जानकारी संरक्षित है.      <ul>        <li><code>dateTime</code>: एक ऐसा <code>time</code>, <code>datetime</code> या <code>datetimezone</code> मान, जिससे घंटे की समाप्ति का परिकलन किया जाता है.</li>      </ul>
 

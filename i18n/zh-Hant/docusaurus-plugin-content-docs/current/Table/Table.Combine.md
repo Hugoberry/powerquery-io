@@ -5,8 +5,6 @@ title: Table.Combine
 # Table.Combine
 
 
-## Description
-
 傳回代表資料表清單合併結果的資料表。
 
 
@@ -20,7 +18,7 @@ Table.Combine(
 ```
 
 
-## Details
+## Remarks
 
 傳回合併一串資料表後所產生的資料表，<code>tables</code>。產生的資料表會具有由 <code>columns</code> 或輸入類型等位 (若 <code>columns</code> 未指定) 所定義的資料列類型結構。
 

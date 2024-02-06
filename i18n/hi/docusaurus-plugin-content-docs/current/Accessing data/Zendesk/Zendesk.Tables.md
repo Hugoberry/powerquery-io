@@ -5,8 +5,6 @@ title: Zendesk.Tables
 # Zendesk.Tables
 
 
-## Description
-
 अपने Zendesk खाते का URL डालें.
 
 
@@ -19,7 +17,7 @@ Zendesk.Tables(
 ```
 
 
-## Details
+## Remarks
 
 प्रासंगिक Zendesk डेटा के साथ तालिका लौटाता है.
 

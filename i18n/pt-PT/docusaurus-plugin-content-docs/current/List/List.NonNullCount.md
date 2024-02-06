@@ -5,8 +5,6 @@ title: List.NonNullCount
 # List.NonNullCount
 
 
-## Description
-
 Devolve o número de itens não nulos existentes na lista.
 
 
@@ -19,7 +17,7 @@ List.NonNullCount(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o número de itens não nulos existentes na lista <code>list</code>.
 

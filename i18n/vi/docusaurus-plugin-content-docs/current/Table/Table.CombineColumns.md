@@ -5,8 +5,6 @@ title: Table.CombineColumns
 # Table.CombineColumns
 
 
-## Description
-
 Kết hợp các cột được chỉ định thành một cột mới bằng hàm kết hợp được chỉ định.
 
 
@@ -22,7 +20,7 @@ Table.CombineColumns(
 ```
 
 
-## Details
+## Remarks
 
 Kết hợp các cột được chỉ định thành một cột mới bằng hàm kết hợp được chỉ định.
 

@@ -5,8 +5,6 @@ title: List.Random
 # List.Random
 
 
-## Description
-
 Returnerer en liste over tilfældige tal.
 
 
@@ -20,7 +18,7 @@ List.Random(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en liste over tilfældige tal mellem 0 og 1 med det antal værdier, der skal genereres, og en valgfri seed-værdi.<ul>   <li><code>count</code>: Det antal tilfældige værdier, der skal genereres.</li>   <li><code>seed</code>:  <i>[Valgfrit]</i> En numerisk værdi, der bruges som basistal for generatoren af tilfældige tal.  Hvis den udelades, genereres der en entydig liste over tilfældige tal, hver gang du kalder funktionen.  Hvis du angiver basisværdien med et tal, genererer alle kald til funktionen den samme liste over tilfældige tal.</li></ul>
 

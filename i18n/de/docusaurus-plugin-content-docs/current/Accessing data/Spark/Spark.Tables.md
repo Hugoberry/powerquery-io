@@ -5,8 +5,6 @@ title: Spark.Tables
 # Spark.Tables
 
 
-## Description
-
 Gibt eine Tabellenauflistung der Tabellen auf dem angegebenen Spark-Cluster zurück.
 
 
@@ -21,7 +19,7 @@ Spark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Tabellenauflistung der Tabellen auf dem angegebenen Spark-Cluster <code>host</code> mithilfe von <code>protocol</code> zurück.  Die folgenden Protokolle sind gültig:Nr. [validProtocols]
 

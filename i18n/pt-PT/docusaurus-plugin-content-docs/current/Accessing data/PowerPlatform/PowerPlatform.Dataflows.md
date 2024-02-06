@@ -5,8 +5,6 @@ title: PowerPlatform.Dataflows
 # PowerPlatform.Dataflows
 
 
-## Description
-
 Importar dados a partir de um fluxo de dados
 
 
@@ -19,7 +17,7 @@ PowerPlatform.Dataflows(
 ```
 
 
-## Details
+## Remarks
 
 Ligue-se a todos os fluxos de dados aos quais tem acesso e escolha as entidades que gostaria de utilizar
 

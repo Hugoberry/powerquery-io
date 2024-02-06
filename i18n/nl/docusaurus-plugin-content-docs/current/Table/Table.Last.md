@@ -5,8 +5,6 @@ title: Table.Last
 # Table.Last
 
 
-## Description
-
 Retourneert de laatste rij of een opgegeven standaardwaarde.
 
 
@@ -20,7 +18,7 @@ Table.Last(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de laatste rij van de <code>table</code> of een optionele standaardwaarde, <code>default</code>, als de tabel leeg is.
 

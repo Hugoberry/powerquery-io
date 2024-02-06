@@ -5,8 +5,6 @@ title: Cdm.MapToEntity
 # Cdm.MapToEntity
 
 
-## Description
-
 Zwraca tabelę z kolumnami zamapowanymi na atrybuty jednostki w modelu Common Data Model, w tym typy danych.
 
 
@@ -22,7 +20,7 @@ Cdm.MapToEntity(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę z kolumnami zamapowanymi na atrybuty jednostki w modelu Common Data Model, w tym typy danych. Kolumny z definicji jednostki, jeśli nie będą zamapowane, zostaną dodane, a wszystkie niezamapowane kolumny zostaną usunięte.
 

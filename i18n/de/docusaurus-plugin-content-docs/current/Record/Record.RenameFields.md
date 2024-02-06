@@ -5,8 +5,6 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-## Description
-
 Wendet Umbenennungen aus einer Liste im Format &#34;\{ old, new }&#34; an.
 
 
@@ -21,7 +19,7 @@ Record.RenameFields(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen Datensatz zurück, nachdem Felder aus der Eingabe "<code>record</code>" mit den neuen Feldnamen aus der Liste "<code>renames</code>" versehen wurden. Für mehrere Umbenennungen kann eine geschachtelte Liste \{ \{old1, new1}, \{old2, new2} } verwendet werden.
 

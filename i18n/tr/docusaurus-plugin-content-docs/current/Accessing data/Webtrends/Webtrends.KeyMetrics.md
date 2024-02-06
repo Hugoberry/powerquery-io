@@ -5,8 +5,6 @@ title: Webtrends.KeyMetrics
 # Webtrends.KeyMetrics
 
 
-## Description
-
 Webtrends ile ilgili ana ölçümlerin yer aldığı bir tablo döndürür.
 
 
@@ -21,7 +19,7 @@ Webtrends.KeyMetrics(
 ```
 
 
-## Details
+## Remarks
 
 Webtrends KeyMetrics uç noktasına çağrıda bulunur ve tüm verileri bir tablo olarak döndürür.
 

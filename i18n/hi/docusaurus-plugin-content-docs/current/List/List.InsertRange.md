@@ -5,8 +5,6 @@ title: List.InsertRange
 # List.InsertRange
 
 
-## Description
-
 दी गई अनुक्रमणिका की किसी सूची में मान सम्मिलित करता है.
 
 
@@ -21,7 +19,7 @@ List.InsertRange(
 ```
 
 
-## Details
+## Remarks
 
 <code>values</code> के मानों को <code>index</code> के <code>list</code> में सम्मिलित करने से उत्पन्न एक नई सूची लौटाता है. सूची की पहली स्थिति, अनुक्रमणिका 0 में है.      <ul>        <li><code>list</code>: वह लक्ष्य सूची जहाँ मानों को सम्मिलित करना है.</li>        <li><code>index</code>: वह लक्ष्य सूची की वह अनुक्रमणिका (<code>list</code>) जहाँ मानों को सम्मिलित करना है. सूची की पहली स्थिति, अनुक्रमणिका 0 में है.</li>        <li><code>values</code>: उन मानों की सूची जिन्हें <code>list</code> में सम्मिलित करना है.</li>      </ul>
 

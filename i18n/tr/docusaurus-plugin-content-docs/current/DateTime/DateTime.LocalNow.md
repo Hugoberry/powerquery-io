@@ -5,8 +5,6 @@ title: DateTime.LocalNow
 # DateTime.LocalNow
 
 
-## Description
-
 Yerel saat dilimindeki geçerli tarih ve saati döndürür.
 
 
@@ -19,7 +17,7 @@ DateTime.LocalNow(
 ```
 
 
-## Details
+## Remarks
 
 Sistemdeki geçerli tarih ve saate ayarlanan bir <code>datetime</code> değeri döndürür.
 

@@ -5,8 +5,6 @@ title: Table.ApproximateRowCount
 # Table.ApproximateRowCount
 
 
-## Description
-
 Returnerar det ungefärliga antalet rader i tabellen.
 
 
@@ -19,7 +17,7 @@ Table.ApproximateRowCount(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar det ungefärliga antalet rader i <code>table</code>, eller ett fel om datakällan inte stöder uppskattning.
 

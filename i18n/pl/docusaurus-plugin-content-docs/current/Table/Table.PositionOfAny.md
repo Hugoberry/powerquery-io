@@ -5,8 +5,6 @@ title: Table.PositionOfAny
 # Table.PositionOfAny
 
 
-## Description
-
 Zwraca pozycję/pozycje dowolnego z określonych wierszy w tabeli.
 
 
@@ -22,7 +20,7 @@ Table.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca pozycję/pozycje wiersza/wierszy z tabeli <code>table</code> dla pierwszego wystąpienia listy <code>rows</code>. Jeśli nie zostanie znalezione wystąpienie tej wartości, zwraca -1.    <ul>    <li><code>table</code>: Tabela wejściowa.</li>       <li><code>rows</code>: Lista wierszy w tabeli, których pozycje mają zostać znalezione.</li>       <li><code>occurrence</code>: <i>[Parametr opcjonalny]</i> Określa, które wystąpienie wiersza ma zostać zwrócone.</li>       <li><code>equationCriteria</code>: <i>[Parametr opcjonalny]</i> Steruje porównywaniem wierszy tabeli.</li>    </ul>    
 

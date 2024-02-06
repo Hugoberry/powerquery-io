@@ -5,8 +5,6 @@ title: Table.FillUp
 # Table.FillUp
 
 
-## Description
-
 Sprider värdet från en cell till cellerna med null-värden ovanför i kolumnen.
 
 
@@ -20,7 +18,7 @@ Table.FillUp(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell från angiven <code>table</code> där nästa cells värde sprids till cellerna med null-värden ovanför i angiven <code>columns</code>.
 

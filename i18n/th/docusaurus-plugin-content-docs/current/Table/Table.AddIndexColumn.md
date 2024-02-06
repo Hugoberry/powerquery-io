@@ -5,8 +5,6 @@ title: Table.AddIndexColumn
 # Table.AddIndexColumn
 
 
-## Description
-
 เพิ่มคอลัมน์ซึ่งมีค่าตำแหน่งที่ชัดเจน
 
 
@@ -23,7 +21,7 @@ Table.AddIndexColumn(
 ```
 
 
-## Details
+## Remarks
 
 เพิ่มคอลัมน์ที่ชื่อ <code>newColumnName</code> เข้ากับ <code>table</code> ด้วยค่าตำแหน่งที่ชัดเจน    ค่าที่เลือกได้ <code>initialValue</code> เป็นค่าดัชนีเริ่มต้น ค่าที่เลือกได้ <code>increment</code> ระบุจำนวนที่จะเพิ่มหน่วยให้กับแต่ละค่าดัชนี
 

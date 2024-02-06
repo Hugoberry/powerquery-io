@@ -5,8 +5,6 @@ title: Date.EndOfYear
 # Date.EndOfYear
 
 
-## Description
-
 Returnerer slutningen af året.
 
 
@@ -19,7 +17,7 @@ Date.EndOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer slutningen af det år, der indeholder <code>dateTime</code>, herunder brøkdele af sekunder. oplysninger om tidszone bevares.      <ul>      <li><code>dateTime</code>: En værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code> som årets slutning beregnes ud fra.</li>      </ul>
 

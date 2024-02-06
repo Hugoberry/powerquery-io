@@ -5,8 +5,6 @@ title: Type.ClosedRecord
 # Type.ClosedRecord
 
 
-## Description
-
 返回给定记录类型(或同一类型，如果其已关闭)的已关闭版本。
 
 
@@ -19,7 +17,7 @@ Type.ClosedRecord(
 ```
 
 
-## Details
+## Remarks
 
 返回给定 <code>record</code> <code>type</code> (或同一类型，如果其已关闭)的已关闭版本。
 

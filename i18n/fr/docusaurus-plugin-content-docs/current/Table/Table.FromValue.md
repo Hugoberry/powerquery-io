@@ -5,8 +5,6 @@ title: Table.FromValue
 # Table.FromValue
 
 
-## Description
-
 Crée une table avec une colonne à partir de la valeur ou des valeurs fournies.
 
 
@@ -20,7 +18,7 @@ Table.FromValue(
 ```
 
 
-## Details
+## Remarks
 
 Crée une table avec une colonne contenant la valeur fournie ou une liste de valeurs <code>value</code>. Le paramètre d'enregistrement facultatif <code>options</code> peut être spécifié pour contrôler les options suivantes :    <ul>    <li> <code>DefaultColumnName</code> : nom de colonne utilisé pendant la création de la table à partir d'une liste ou d'une valeur scalaire.</li>    </ul>  
 

@@ -5,8 +5,6 @@ title: List.First
 # List.First
 
 
-## Description
-
 Zwraca pierwszą wartość z listy lub określoną wartość domyślną, gdy lista jest pusta.
 
 
@@ -20,7 +18,7 @@ List.First(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca pierwszy element z listy <code>list</code> lub opcjonalną wartość domyślną <code>defaultValue</code>, gdy lista jest pusta.    Jeśli lista jest pusta i nie określono wartości domyślnej, funkcja zwraca wartość <code>null</code>.
 

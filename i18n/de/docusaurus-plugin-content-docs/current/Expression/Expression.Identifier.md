@@ -5,8 +5,6 @@ title: Expression.Identifier
 # Expression.Identifier
 
 
-## Description
-
 Gibt die M-Quellcodedarstellung eines Bezeichners zurück.
 
 
@@ -19,7 +17,7 @@ Expression.Identifier(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die M-Quellcodedarstellung eines Bezeichners "<code>name</code>" zurück.
 

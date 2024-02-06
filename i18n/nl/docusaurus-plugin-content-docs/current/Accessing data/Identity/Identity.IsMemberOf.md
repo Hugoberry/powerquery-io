@@ -5,8 +5,6 @@ title: Identity.IsMemberOf
 # Identity.IsMemberOf
 
 
-## Description
-
 Hiermee wordt bepaald of een id lid is van een identiteits-verzameling.
 
 
@@ -20,7 +18,7 @@ Identity.IsMemberOf(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt bepaald of een id lid is van een identiteits-verzameling.
 

@@ -5,8 +5,6 @@ title: Table.ToRows
 # Table.ToRows
 
 
-## Description
-
 Crea una lista de listas anidadas de valores de fila a partir de una tabla.
 
 
@@ -19,7 +17,7 @@ Table.ToRows(
 ```
 
 
-## Details
+## Remarks
 
 Crea una lista de listas anidadas a partir de la tabla <code>table</code>.  Cada elemento de lista es una lista interna que contiene los valores de fila.
 

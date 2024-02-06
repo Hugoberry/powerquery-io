@@ -5,8 +5,6 @@ title: List.StandardDeviation
 # List.StandardDeviation
 
 
-## Description
-
 Возвращает основанную на выборке оценку стандартного отклонения.
 
 
@@ -19,7 +17,7 @@ List.StandardDeviation(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает основанную на выборке оценку стандартного отклонения значений в списке <code>numbersList</code>.    Если <code>numbersList</code> — список чисел, возвращается число.    Исключение возникает при пустом списке или списке элементов, не имеющих тип <code>number</code>.
 

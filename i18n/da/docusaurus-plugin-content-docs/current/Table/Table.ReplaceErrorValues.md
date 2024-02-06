@@ -5,8 +5,6 @@ title: Table.ReplaceErrorValues
 # Table.ReplaceErrorValues
 
 
-## Description
-
 Erstatter fejlværdierne i de angivne kolonner med den tilsvarende angivne værdi.
 
 
@@ -20,7 +18,7 @@ Table.ReplaceErrorValues(
 ```
 
 
-## Details
+## Remarks
 
 Erstatter fejlværdierne i de angivne kolonner i <code>table</code> med de nye værdier på listen <code>errorReplacement</code>. Formatet for listen er \{\{column1, value1}, …}. Der må kun være én erstatningsværdi pr. kolonne. Hvis kolonnen angives flere gange, medfører det en fejl.
 

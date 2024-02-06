@@ -5,8 +5,6 @@ title: Table.Combine
 # Table.Combine
 
 
-## Description
-
 Trả về một bảng là kết quả hợp nhất một danh sách các bảng.
 
 
@@ -20,7 +18,7 @@ Table.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bảng là kết quả hợp nhất một danh sách các bảng, <code>tables</code>. Bảng kết quả sẽ có cấu trúc loại hàng được xác định bởi <code>columns</code> hoặc tập hợp các loại đầu vào nếu <code>columns</code> không được chỉ định.
 

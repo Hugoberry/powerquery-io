@@ -5,8 +5,6 @@ title: Expression.Evaluate
 # Expression.Evaluate
 
 
-## Description
-
 返回 M 表达式的计算结果。
 
 
@@ -20,7 +18,7 @@ Expression.Evaluate(
 ```
 
 
-## Details
+## Remarks
 
 返回 M 表达式 <code>document</code> 的计算结果，其中可用的标识符可以由 <code>environment</code> 进行引用和定义。
 

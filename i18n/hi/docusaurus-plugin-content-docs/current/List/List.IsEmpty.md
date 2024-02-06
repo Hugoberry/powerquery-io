@@ -5,8 +5,6 @@ title: List.IsEmpty
 # List.IsEmpty
 
 
-## Description
-
 अगर सूची रिक्त है, तो true लौटाता है.
 
 
@@ -19,7 +17,7 @@ List.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 अगर सूची, <code>list</code>, में कोई मान लंबाई 0) नहीं है, तो <code>true</code> लौटाता है. अगर सूची में मान (लंबाई > 0) हैं, तो <code>false</code> लौटाता है.
 

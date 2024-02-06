@@ -5,8 +5,6 @@ title: Type.OpenRecord
 # Type.OpenRecord
 
 
-## Description
-
 Возвращает открытую версию данного типа записи (или такой же тип, если запись уже является открытой).
 
 
@@ -19,7 +17,7 @@ Type.OpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает открытую версию данной записи <code>record</code> <code>type</code> (или такой же тип, если запись уже является открытой).
 

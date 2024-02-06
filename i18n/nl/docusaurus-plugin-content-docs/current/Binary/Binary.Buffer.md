@@ -5,8 +5,6 @@ title: Binary.Buffer
 # Binary.Buffer
 
 
-## Description
-
 Buffert de binaire waarde in het geheugen.
 
 
@@ -19,7 +17,7 @@ Binary.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Buffert de binaire waarde in het geheugen. Het resultaat van deze aanroep is een stabiele binaire waarde, wat inhoudt dat deze een deterministische lengte en volgorde van de bytes heeft.
 

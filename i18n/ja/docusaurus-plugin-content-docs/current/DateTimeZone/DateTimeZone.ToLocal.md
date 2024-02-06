@@ -5,8 +5,6 @@ title: DateTimeZone.ToLocal
 # DateTimeZone.ToLocal
 
 
-## Description
-
 タイム ゾーン部分をローカル タイム ゾーンに変換します。
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToLocal(
 ```
 
 
-## Details
+## Remarks
 
 datetimezone 値 <code>dateTimeZone</code> のタイム ゾーン情報をローカル タイム ゾーン情報に変更します。    <code>dateTimeZone</code> にタイム ゾーン部分がない場合は、ローカル タイム ゾーン情報が追加されます。
 

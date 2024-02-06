@@ -5,8 +5,6 @@ title: Text.Repeat
 # Text.Repeat
 
 
-## Description
-
 ส่งกลับค่าข้อความที่เรียบเรียงของข้อความป้อนเข้าที่ทำซ้ำตามจำนวนครั้งที่ระบุ
 
 
@@ -20,7 +18,7 @@ Text.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่าข้อความที่เรียบเรียงของข้อความป้อนเข้า <code>text</code> ที่ทำซ้ำ <code>count</code> ครั้ง
 

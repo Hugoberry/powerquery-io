@@ -5,8 +5,6 @@ title: MailChimp.Instance
 # MailChimp.Instance
 
 
-## Description
-
 Gibt unverarbeitete Antwortergebnisse von einem MailChimp-API-Endpunkt zurück.
 
 
@@ -19,7 +17,7 @@ MailChimp.Instance(
 ```
 
 
-## Details
+## Remarks
 
 Sendet einen Aufruf an die MailChimp-API und gibt die unverarbeitete Antwort zurück.
 

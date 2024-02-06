@@ -5,8 +5,6 @@ title: Geometry.ToWellKnownText
 # Geometry.ToWellKnownText
 
 
-## Description
-
 Oversætter en struktureret geometrisk punktværdi til formatet Well-Known Text (WKT).
 
 
@@ -20,7 +18,7 @@ Geometry.ToWellKnownText(
 ```
 
 
-## Details
+## Remarks
 
 Oversætter en struktureret geometrisk punktværdi til formatet Well-Known Text (WKT) som defineret af Open Geospatial Consortium (OGC), også det serialiseringsfunktionen, der bruges af mange databaser, herunder SQL Server.
 

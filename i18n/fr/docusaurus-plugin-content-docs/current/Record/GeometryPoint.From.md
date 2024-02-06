@@ -5,8 +5,6 @@ title: GeometryPoint.From
 # GeometryPoint.From
 
 
-## Description
-
 Crée un enregistrement représentant un point géométrique à partir des parties constituantes.
 
 
@@ -23,7 +21,7 @@ GeometryPoint.From(
 ```
 
 
-## Details
+## Remarks
 
 Crée un enregistrement représentant un point géographique à partir de ses parties constituantes, telles que les coordonnées X et Y et, le cas échéant, les coordonnées (Z) et la mesure (M). Un ID de référence spatial (SRID) facultatif peut être fourni s’il est différent de la valeur par défaut (0).
 

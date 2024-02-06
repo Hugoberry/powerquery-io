@@ -5,8 +5,6 @@ title: Record.FromTable
 # Record.FromTable
 
 
-## Description
-
 Создает запись из таблицы в форме \{[Name = name, Value = value]}.
 
 
@@ -19,7 +17,7 @@ Record.FromTable(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает запись из таблицы записей <code>table</code>, которая содержит имена полей и имена значений <code>\{[Name = name, Value = value]}</code>. Если имена полей неуникальны, вызывает исключение.
 

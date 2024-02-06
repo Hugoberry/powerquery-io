@@ -5,8 +5,6 @@ title: DateTime.ToRecord
 # DateTime.ToRecord
 
 
-## Description
-
 Zwraca rekord zawierający części wartości typu datetime.
 
 
@@ -19,7 +17,7 @@ DateTime.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca rekord zawierający części danej wartości typu datetime (<code>dateTime</code>). <ul>        <li><code>dateTime</code>: wartość typu <code>datetime</code>, na podstawie części której jest tworzony rekord.</li>      </ul>
 

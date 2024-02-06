@@ -5,8 +5,6 @@ title: Table.Transpose
 # Table.Transpose
 
 
-## Description
-
 Zamienia kolumny w wiersze i wiersze w kolumny.
 
 
@@ -20,7 +18,7 @@ Table.Transpose(
 ```
 
 
-## Details
+## Remarks
 
 Zamienia kolumny w wiersze i wiersze w kolumny.
 

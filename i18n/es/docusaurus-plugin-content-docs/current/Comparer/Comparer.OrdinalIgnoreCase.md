@@ -5,8 +5,6 @@ title: Comparer.OrdinalIgnoreCase
 # Comparer.OrdinalIgnoreCase
 
 
-## Description
-
 Devuelve una función de comparador que no distingue mayúsculas de minúsculas y que usa reglas ordinales para comparar valores.
 
 
@@ -20,7 +18,7 @@ Comparer.OrdinalIgnoreCase(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una función comparadora que no distingue entre mayúsculas y minúsculas y que utiliza reglas ordinales para comparar los valores proporcionados <code>x</code> y <code>y</code>.<br />        <br />        Una función comparadora acepta dos argumentos y devuelve -1, 0 o 1 en función de si el primer valor es menor, igual o mayor que el segundo.    
 

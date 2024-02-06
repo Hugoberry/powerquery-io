@@ -5,8 +5,6 @@ title: Table.ReplaceMatchingRows
 # Table.ReplaceMatchingRows
 
 
-## Description
-
 Zamienia wszystkie określone wiersze na dostarczone wiersze.
 
 
@@ -21,7 +19,7 @@ Table.ReplaceMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 Zamienia wszystkie określone wiersze w tabeli <code>table</code> na dostarczone wiersze. Wiersze przeznaczone do zamiany oraz wiersze zastępcze są określone w parametrze <code>replacements</code> przy użyciu formatowania \{old, new}.    Opcjonalny parametr <code>equationCriteria</code> można określić, aby sterować porównywaniem wierszy tabeli.
 

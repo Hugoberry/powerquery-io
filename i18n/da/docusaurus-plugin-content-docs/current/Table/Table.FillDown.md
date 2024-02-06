@@ -5,8 +5,6 @@ title: Table.FillDown
 # Table.FillDown
 
 
-## Description
-
 Overfører værdien af en tidligere celle til cellerne med null-værdier nedenfor i kolonnen.
 
 
@@ -20,7 +18,7 @@ Table.FillDown(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel fra den angivne <code>table</code>, hvor værdien af en tidligere celle overføres til cellerne med null-værdier nedenfor i den angivne <code>columns</code>.
 

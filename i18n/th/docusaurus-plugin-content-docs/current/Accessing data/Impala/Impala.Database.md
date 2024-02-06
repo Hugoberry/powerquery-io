@@ -5,8 +5,6 @@ title: Impala.Database
 # Impala.Database
 
 
-## Description
-
 นำเข้าข้อมูลจากคลัสเตอร์ Impala
 
 
@@ -20,7 +18,7 @@ Impala.Database(
 ```
 
 
-## Details
+## Remarks
 
 นำเข้าข้อมูลจากคลัสเตอร์ Impala <code>server</code> หากไม่ระบุพอร์ต ระบบจะใช้พอร์ตเริ่มต้น 21050
 

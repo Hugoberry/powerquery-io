@@ -5,8 +5,6 @@ title: Text.Reverse
 # Text.Reverse
 
 
-## Description
-
 Text.Reverse
 
 
@@ -19,7 +17,7 @@ Text.Reverse(
 ```
 
 
-## Details
+## Remarks
 
 反轉提供的 <code>text</code>。
 

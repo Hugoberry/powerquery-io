@@ -5,8 +5,6 @@ title: Table.StopFolding
 # Table.StopFolding
 
 
-## Description
-
 Ngăn mọi thao tác xuôi dòng chạy dựa trên nguồn dữ liệu gốc.
 
 
@@ -19,7 +17,7 @@ Table.StopFolding(
 ```
 
 
-## Details
+## Remarks
 
 Ngăn mọi thao tác xuôi dòng chạy dựa trên nguồn dữ liệu gốc trong <code>table</code>.
 

@@ -5,8 +5,6 @@ title: BinaryFormat.Double
 # BinaryFormat.Double
 
 
-## Description
-
 Bir 8 bayt IEEE çift duyarlıklı kayan noktalı değeri okuyan bir ikili biçimi.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Double(
 ```
 
 
-## Details
+## Remarks
 
 Bir 8 bayt IEEE çift duyarlıklı kayan noktalı değeri okuyan bir ikili biçimi.
 

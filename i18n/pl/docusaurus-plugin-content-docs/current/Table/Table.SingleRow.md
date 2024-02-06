@@ -5,8 +5,6 @@ title: Table.SingleRow
 # Table.SingleRow
 
 
-## Description
-
 Zwraca jeden wiersz z tabeli.
 
 
@@ -19,7 +17,7 @@ Table.SingleRow(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca jeden wiersz w jednym wierszu tabeli <code>table</code>. Jeśli tabela <code>table</code> zawiera więcej niż jeden wiersz, jest zgłaszany wyjątek.
 

@@ -5,8 +5,6 @@ title: List.Percentile
 # List.Percentile
 
 
-## Description
-
 Returnerer en eller flere eksempelpercentiler, der svarer til de angivne sandsynligheder.
 
 
@@ -21,7 +19,7 @@ List.Percentile(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en eller flere eksempelfraktiler for listen <code>list</code>. Hvis værdien <code>percentiles</code> er et tal mellem 0,0 og 1,0, behandles det som en fraktil, og resultatet bliver    en enkelt værdi, der svarer til sandsynligheden. Hvis værdien <code>percentiles</code> er en liste med tal med værdier mellem 0,0 og 1,0, vil resultatet være en liste over percentiler    svarende til inputsandsynligheden. Indstillingen PercentileMode i <code>options</code> kan bruges af erfarne brugere til at vælge en mere specifik interpolationsmetode, men det anbefales ikke til de fleste formål.    De foruddefinerede symboler <code>PercentileMode.ExcelInc</code> og <code>PercentileMode.ExcelExc</code> passer til de interpolationsmetoder, der bruges af Excel-funktionerne    <code>PERCENTILE.INC</code> og <code>PERCENTILE.EXC</code>. Standardfunktionsmåden svarer til <code>PercentileMode.ExcelInc</code>. Symbolerne    <code>PercentileMode.SqlCont</code> og <code>PercentileMode.SqlDisc</code> stemmer overens med SQL Server-adfærden for henholdsvis <code>PERCENTILE_CONT</code> og    <code>PERCENTILE_DISC</code>.  
 

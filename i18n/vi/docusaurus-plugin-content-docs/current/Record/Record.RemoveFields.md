@@ -5,8 +5,6 @@ title: Record.RemoveFields
 # Record.RemoveFields
 
 
-## Description
-
 Loại bỏ (các) trường được chỉ định từ bản ghi đầu vào.
 
 
@@ -21,7 +19,7 @@ Record.RemoveFields(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bản ghi loại bỏ tất cả các trường được chỉ định trong danh sách <code>fields</code> khỏi đầu vào <code>record</code>. Nếu trường được chỉ định không tồn tại thì một ngoại lệ được đưa ra.
 

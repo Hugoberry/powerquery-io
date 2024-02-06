@@ -5,8 +5,6 @@ title: Impala.Database
 # Impala.Database
 
 
-## Description
-
 Импорт данных из кластера Impala
 
 
@@ -20,7 +18,7 @@ Impala.Database(
 ```
 
 
-## Details
+## Remarks
 
 Импорт данных из кластера Impala <code>№ \{0}</code>. Если порт не указан, используется стандартный порт, 21050.
 

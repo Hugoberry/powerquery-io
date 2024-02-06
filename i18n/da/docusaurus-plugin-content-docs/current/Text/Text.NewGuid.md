@@ -5,8 +5,6 @@ title: Text.NewGuid
 # Text.NewGuid
 
 
-## Description
-
 Returnerer et nyt tilfældigt GUID (Globally Unique Identifier).
 
 
@@ -19,7 +17,7 @@ Text.NewGuid(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer et nyt tilfældigt GUID (Globally Unique Identifier).
 

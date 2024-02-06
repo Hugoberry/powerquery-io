@@ -5,8 +5,6 @@ title: Table.ToRows
 # Table.ToRows
 
 
-## Description
-
 Maakt een lijst met geneste lijsten met rijwaarden uit een tabel.
 
 
@@ -19,7 +17,7 @@ Table.ToRows(
 ```
 
 
-## Details
+## Remarks
 
 Maakt een lijst met geneste lijsten van de tabel, <code>table</code>.  Elk lijstitem is een interne lijst met de rijwaarden.
 

@@ -5,8 +5,6 @@ title: Table.FromList
 # Table.FromList
 
 
-## Description
-
 Konvertiert eine Liste in eine Tabelle, indem die angegebene Aufteilungsfunktion auf alle Elemente in der Liste angewendet wird.
 
 
@@ -23,7 +21,7 @@ Table.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Konvertiert eine Liste (<code>list</code>) in eine Tabelle, indem die optionale Aufteilungsfunktion (<code>splitter</code>) auf alle Elemente in der Liste angewendet wird. Standardmäßig wird von einer Liste mit kommagetrennten Textwerten ausgegangen. Optional kann <code>columns</code> die Anzahl von Spalten, eine Liste von Spalten oder ein TableType sein. Optional können auch <code>default</code> und <code>extraValues</code> angegeben werden.
 

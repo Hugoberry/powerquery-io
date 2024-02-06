@@ -5,8 +5,6 @@ title: Date.DayOfYear
 # Date.DayOfYear
 
 
-## Description
-
 Returnerer et tal fra 1-366, som angiver dagen i året.
 
 
@@ -19,7 +17,7 @@ Date.DayOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer et tal, der repræsenterer året i den angivne værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>, <code>dateTime</code>.
 

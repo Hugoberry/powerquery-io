@@ -5,8 +5,6 @@ title: Lines.ToText
 # Lines.ToText
 
 
-## Description
-
 Konvertiert eine Liste mit Text in einen einzelnen Text.  Das angegebene Zeilentrennzeichen wird an jede Zeile angefügt.  Ohne Angabe werden das Wagenrücklauf- und das Zeilenvorschubzeichen verwendet.
 
 
@@ -20,7 +18,7 @@ Lines.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Konvertiert eine Liste mit Text in einen einzelnen Text.  Das angegebene Zeilentrennzeichen wird an jede Zeile angefügt.  Ohne Angabe werden das Wagenrücklauf- und das Zeilenvorschubzeichen verwendet.
 

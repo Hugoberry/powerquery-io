@@ -5,8 +5,6 @@ title: DateTimeZone.ToRecord
 # DateTimeZone.ToRecord
 
 
-## Description
-
 Zwraca rekord zawierający części wartości typu datetimezone.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca rekord zawierający części danej wartości typu datetimezone (<code>dateTimeZone</code>). <ul>        <li><code>dateTimeZone</code>: wartość typu <code>datetimezone</code>, na podstawie części której jest tworzony rekord.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Table.DuplicateColumn
 # Table.DuplicateColumn
 
 
-## Description
-
 Erstellt von einer Spalte mit dem angegebenen Namen ein Duplikat. Die Werte und der Typ werden aus der Quellspalte kopiert.
 
 
@@ -22,7 +20,7 @@ Table.DuplicateColumn(
 ```
 
 
-## Details
+## Remarks
 
 Erstellt von der Spalte mit dem Namen '<code>columnName</code>' ein Duplikat in der Tabelle '<code>table</code>'. Die Werte und der Typ für die Spalte '<code>newColumnName</code>' werden aus der Spalte '<code>columnName</code>' kopiert.
 

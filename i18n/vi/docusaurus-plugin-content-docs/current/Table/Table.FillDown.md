@@ -5,8 +5,6 @@ title: Table.FillDown
 # Table.FillDown
 
 
-## Description
-
 Phân bố giá trị của ô trước thành các ô có giá trị rỗng ở dưới trong cột.
 
 
@@ -20,7 +18,7 @@ Table.FillDown(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bảng từ <code>table</code> được chỉ định trong đó giá trị của ô trước được phân bố tới các ô có giá trị rỗng ở dưới trong <code>columns</code> được chỉ định.
 

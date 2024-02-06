@@ -5,8 +5,6 @@ title: AzureSpark.Tables
 # AzureSpark.Tables
 
 
-## Description
-
 Azure स्पार्क इंस्टैंस में तालिकाओं को सूचीबद्ध करें.
 
 
@@ -20,7 +18,7 @@ AzureSpark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Azure स्पार्क इंस्टैंस में तालिकाओं को सूचीबद्ध करें.
 

@@ -5,8 +5,6 @@ title: List.Average
 # List.Average
 
 
-## Description
-
 Retourneert het gemiddelde van de waarden. Werkt met waarden voor getal, datum, datum/tijd, datum-/tijdzone en duur.
 
 
@@ -20,7 +18,7 @@ List.Average(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de gemiddelde waarde van de items in de lijst, <code>list</code>. Het resultaat wordt gegeven in hetzelfde gegevenstype als de waarden in de lijst. Werkt alleen met waarden voor getal, datum, tijd, datum/tijd, datum-/tijdzone en duur.    Als de lijst leeg is, wordt null geretourneerd.
 

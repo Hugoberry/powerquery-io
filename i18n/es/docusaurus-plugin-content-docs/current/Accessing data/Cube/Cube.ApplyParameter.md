@@ -5,8 +5,6 @@ title: Cube.ApplyParameter
 # Cube.ApplyParameter
 
 
-## Description
-
 Devuelve un cubo tras aplicarle un parámetro.
 
 
@@ -21,7 +19,7 @@ Cube.ApplyParameter(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un cubo tras aplicarle <code>parameter</code> con <code>arguments</code> a <code>cube</code>.
 

@@ -5,8 +5,6 @@ title: Date.DayOfWeekName
 # Date.DayOfWeekName
 
 
-## Description
-
 返回星期几。
 
 
@@ -20,7 +18,7 @@ Date.DayOfWeekName(
 ```
 
 
-## Details
+## Remarks
 
 返回所提供的 <code>date</code> 的星期几名称。还可提供可选的 <code>culture</code> (例如 "en-US")。
 

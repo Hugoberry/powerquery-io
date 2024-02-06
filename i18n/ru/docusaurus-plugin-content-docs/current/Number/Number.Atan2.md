@@ -5,8 +5,6 @@ title: Number.Atan2
 # Number.Atan2
 
 
-## Description
-
 Возвращает арктангенс частного от деления двух чисел.
 
 
@@ -20,7 +18,7 @@ Number.Atan2(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает арктангенс частного от деления двух чисел, <code>y</code> и <code>x</code>. Деление будет построено как <code>y</code>/<code>x</code>.
 

@@ -5,8 +5,6 @@ title: List.Min
 # List.Min
 
 
-## Description
-
 Gibt den kleinsten Wert zurück. Ist die Liste leer, wird der Standardwert zurückgegeben.
 
 
@@ -22,7 +20,7 @@ List.Min(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das kleinste Element in der Liste "<code>list</code>" zurück. Ist die Liste leer, wird der optionale Standardwert "<code>default</code>" zurückgegeben.    Ein optionaler comparisonCriteria-Wert (<code>comparisonCriteria</code>) kann angegeben werden, um zu bestimmen, wie die Elemente in der Liste verglichen werden sollen. Ist dieser Parameter NULL, wird die standardmäßige Vergleichsfunktion verwendet.
 

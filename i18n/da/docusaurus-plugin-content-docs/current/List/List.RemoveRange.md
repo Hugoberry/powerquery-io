@@ -5,8 +5,6 @@ title: List.RemoveRange
 # List.RemoveRange
 
 
-## Description
-
 Fjerner antallet af talte værdier med start ved den angivne position.
 
 
@@ -21,7 +19,7 @@ List.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 Fjerner <code>count</code> værdier i <code>list</code> med start ved den angivne position, <code>index</code>.
 

@@ -5,8 +5,6 @@ title: Text.Remove
 # Text.Remove
 
 
-## Description
-
 Entfernt alle Vorkommen des angegebenen Zeichens oder der angegebenen Liste mit Zeichen aus dem Eingabetextwert.
 
 
@@ -20,7 +18,7 @@ Text.Remove(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Kopie des Textwerts "<code>text</code>" zurück, in der alle Zeichen aus "<code>removeChars</code>" entfernt wurden.  
 

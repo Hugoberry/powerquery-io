@@ -5,8 +5,6 @@ title: AzureEnterprise.Contents
 # AzureEnterprise.Contents
 
 
-## Description
-
 輸入與您的註冊相關聯的 Azure 企業版 REST API 端點 URL
 
 
@@ -20,7 +18,7 @@ AzureEnterprise.Contents(
 ```
 
 
-## Details
+## Remarks
 
 傳回對 URL 呼叫的二進位結果，該 URL 是針對 Azure 企業版 API 所提供的。
 

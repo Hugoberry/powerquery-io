@@ -5,8 +5,6 @@ title: Text.Middle
 # Text.Middle
 
 
-## Description
-
 傳回特定長度以內的子字串。
 
 
@@ -21,7 +19,7 @@ Text.Middle(
 ```
 
 
-## Details
+## Remarks
 
 在位移 <code>start</code> 的位置傳回 <code>count</code> 個字元，或傳回一直到 <code>text</code> 的結尾。
 

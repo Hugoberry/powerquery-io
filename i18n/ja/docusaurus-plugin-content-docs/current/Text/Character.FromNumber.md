@@ -5,8 +5,6 @@ title: Character.FromNumber
 # Character.FromNumber
 
 
-## Description
-
 数値をテキスト文字に変換します。
 
 
@@ -19,7 +17,7 @@ Character.FromNumber(
 ```
 
 
-## Details
+## Remarks
 
 数値に対応する文字を返します。<br />    <br />    指定された <code>number</code> は 21 ビットの Unicode コード ポイントである必要があります。
 

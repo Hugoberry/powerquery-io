@@ -5,8 +5,6 @@ title: Table.Column
 # Table.Column
 
 
-## Description
-
 テーブルの指定された列のデータをリストとして返します。
 
 
@@ -20,7 +18,7 @@ Table.Column(
 ```
 
 
-## Details
+## Remarks
 
 テーブル <code>table</code> 内の <code>column</code> で指定された列のデータをリストとして返します。
 

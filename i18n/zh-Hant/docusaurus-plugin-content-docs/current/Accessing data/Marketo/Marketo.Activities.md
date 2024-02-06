@@ -5,8 +5,6 @@ title: Marketo.Activities
 # Marketo.Activities
 
 
-## Description
-
 傳回包含潛在客戶活動的資料表。
 
 
@@ -21,7 +19,7 @@ Marketo.Activities(
 ```
 
 
-## Details
+## Remarks
 
 在 <code>url</code>/rest/v1/activities.json 呼叫 Marketo REST API 端點。所有自 <code>startTime</code> 起所發生的活動，都會透過清單 <code>activityIds</code> 傳回。
 

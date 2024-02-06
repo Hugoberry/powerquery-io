@@ -5,8 +5,6 @@ title: DateTime.Date
 # DateTime.Date
 
 
-## Description
-
 返回给定 date、datetime 或 datetimezone 值的日期部分。
 
 
@@ -19,7 +17,7 @@ DateTime.Date(
 ```
 
 
-## Details
+## Remarks
 
 返回 <code>dateTime</code> 以及给定 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值的日期部分。
 

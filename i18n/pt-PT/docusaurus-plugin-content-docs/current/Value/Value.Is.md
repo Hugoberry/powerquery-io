@@ -5,8 +5,6 @@ title: Value.Is
 # Value.Is
 
 
-## Description
-
 Determina se um valor é compatível com o tipo especificado.
 
 
@@ -20,7 +18,7 @@ Value.Is(
 ```
 
 
-## Details
+## Remarks
 
 Determina se um valor é compatível com o tipo especificado. Isto é equivalente ao operador "is" em M, com a exceção de que pode aceitar referências de tipo de identificador, tais como Number.Type.
 

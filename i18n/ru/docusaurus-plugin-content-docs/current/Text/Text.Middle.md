@@ -5,8 +5,6 @@ title: Text.Middle
 # Text.Middle
 
 
-## Description
-
 Возвращает подстроку до заданной длины.
 
 
@@ -21,7 +19,7 @@ Text.Middle(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает символы (<code>count</code> шт.) или идет до конца "<code>text</code>"; при смещении <code>start</code>.
 

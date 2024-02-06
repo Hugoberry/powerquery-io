@@ -5,8 +5,6 @@ title: BinaryFormat.Group
 # BinaryFormat.Group
 
 
-## Description
-
 Bir öğe grubunu okuyan ikili biçimi döndürür.
 
 
@@ -22,7 +20,7 @@ BinaryFormat.Group(
 ```
 
 
-## Details
+## Remarks
 
 Parametreler şu şekildedir:<ul><li><code>binaryFormat</code> parametresi, anahtar değerinin ikili biçimini belirtir.</li><li><code>group</code> parametresi, bilinen öğeler grubu hakkında bilgi verir.</li><li>İsteğe bağlı <code>extra</code> parametresi, beklenmeyen herhangi bir anahtarı takip eden değer için ikili bir biçim değeri döndürecek olan bir işlevin belirtilmesine yönelik kullanılabilir.  <code>extra</code> parametresi belirtilmezse, beklenmeyen anahtar değerlerin olması durumunda bir hata oluşur.</li></ul><code>group</code> parametresi, öğe tanımlarının bir listesini belirtir.  Her öğe tanımı aşağıdaki gibi 3-5 değer içeren bir listedir:<ul><li>Anahtar değer.  Anahtarın, öğeye karşılık gelen değeri.  Bu, öğeler kümesinde benzersiz olmalıdır.</li><li>Öğe biçimi.  Öğenin değerine karşılık gelen ikili biçim.  Bu, her öğenin farklı bir biçime sahip olmasını sağlar. </li><li>Öğe yinelemesi.  Öğenin, grupta kaç kez görünmesinin beklendiğine ilişkin <code>BinaryOccurrence.Type</code> değeri.   Mevcut olmayan gerekli öğeler hataya neden olur.  Gerekli veya isteğe bağlı yinelenen öğeler, beklenmeyen anahtar değerler gibi işlenir.</li><li>Varsayılan öğe değeri (isteğe bağlı).  Varsayılan öğe değeri, öğe tanımlama listesinde görünüyorsa ve null değilse varsayılanın yerine kullanılır.  Tekrarlayan veya isteğe bağlı öğeler için varsayılan değer null, tekrarlayan değerler için de boş bir listedir \{ }.</li><li>Öğe değeri dönüştürme (isteğe bağlı).   Öğe değeri dönüştürme işlevi, öğe tanımı listesinde mevcutsa ve null değilse döndürülmeden önce öğeyi dönüştürmesi için çağrılır.  Dönüştürme işlevi yalnızca öğe girişte görünüyorsa çağrılır (varsayılan değerle hiçbir zaman çağrılmaz). </li></ul>
 

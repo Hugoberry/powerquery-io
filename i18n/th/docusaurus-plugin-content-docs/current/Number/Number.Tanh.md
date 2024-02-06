@@ -5,8 +5,6 @@ title: Number.Tanh
 # Number.Tanh
 
 
-## Description
-
 ส่งกลับค่าไฮเพอร์โบลิกแทนเจนต์ของตัวเลข
 
 
@@ -19,7 +17,7 @@ Number.Tanh(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่าไฮเพอร์โบลิกแทนเจนต์ของ <code>number</code>
 

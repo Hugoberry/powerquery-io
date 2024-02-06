@@ -5,8 +5,6 @@ title: Value.Add
 # Value.Add
 
 
-## Description
-
 ส่งกลับผลรวมของสองค่า
 
 
@@ -21,7 +19,7 @@ Value.Add(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลรวมของ <code>value1</code> และ <code>value2</code> พารามิเตอร์ <code>precision</code> ที่เลือกได้อาจถูกระบุไว้ ตามค่าเริ่มต้น จะมีการใช้ <code>Precision.Double</code>
 

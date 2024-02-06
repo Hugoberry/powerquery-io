@@ -5,8 +5,6 @@ title: Xml.Document
 # Xml.Document
 
 
-## Description
-
 Gibt den Inhalt des XML-Dokuments als hierarchische Tabelle zurück.
 
 
@@ -20,7 +18,7 @@ Xml.Document(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Inhalt des XML-Dokuments als hierarchische Tabelle zurück.
 

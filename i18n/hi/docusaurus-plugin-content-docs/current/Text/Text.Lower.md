@@ -5,8 +5,6 @@ title: Text.Lower
 # Text.Lower
 
 
-## Description
-
 सभी वर्णों को लोअरकेस में रूपांतरित करता है.
 
 
@@ -20,7 +18,7 @@ Text.Lower(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> के सभी वर्णों को लोअरकेस में रूपांतरित करने वाला परिणाम लौटाता है. वैकल्पिक <code>culture</code> भी प्रदान किया जा सकता है (उदाहरण के लिए, "en-US").
 

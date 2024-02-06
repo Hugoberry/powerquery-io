@@ -5,8 +5,6 @@ title: Table.Buffer
 # Table.Buffer
 
 
-## Description
-
 Bufferlagrer en tabel i hukommelsen, så den ikke modtager eksterne ændringer under evaluering.
 
 
@@ -20,7 +18,7 @@ Table.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Bufferlagrer en tabel i hukommelsen, så den isoleres fra eksterne ændringer under evaluering.    Bufferlagringen er flad. Det gennemtvinger evaluering af skalarcelleværdier, men bevarer ikke-skalarværdier (poster, lister, tabeller osv.), som de er.    <br />    <br />    Bemærk, at brug af denne funktion muligvis eller måske ikke får dine forespørgsler til at køre hurtigere. I nogle tilfælde kan det få dine forespørgsler til at køre langsommere på grund af den tilføjede     omkostninger ved at læse alle dataene og gemme dem i hukommelsen samt det faktum, at bufferlagring forhindrer downstreamfoldning. Hvis dataene ikke behøver at være   bufferlagrede, men du blot ønsker at forhindre downstream foldning, skal du i stedet bruge <code>Table.StopFolding</code>.
 

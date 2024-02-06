@@ -5,8 +5,6 @@ title: BinaryFormat.Record
 # BinaryFormat.Record
 
 
-## Description
-
 Devuelve un formato binario que lee un registro.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Record(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un formato binario que lee un registro.  El parámetro <code>record</code> especifica el formato del registro.  Cada campo del registro puede tener otro formato binario.  Si un campo contiene un valor que no es un valor de formato binario, no se lee ningún dato para ese campo y el valor de campo se muestra en el resultado.
 

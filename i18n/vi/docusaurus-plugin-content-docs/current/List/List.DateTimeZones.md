@@ -5,8 +5,6 @@ title: List.DateTimeZones
 # List.DateTimeZones
 
 
-## Description
-
 Tạo danh sách các giá trị datetimezone được cho sẵn một giá trị ban đầu, tổng cộng và giá thị thời lượng tăng dần.
 
 
@@ -21,7 +19,7 @@ List.DateTimeZones(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một danh sách giá trị <code>datetimezone</code> có kích cỡ là <code>count</code>, bắt đầu tại <code>start</code>. Số gia cho sẵn, <code>step</code>, là giá trị <code>duration</code> được thêm vào mọi giá trị.
 

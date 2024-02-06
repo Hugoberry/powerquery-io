@@ -5,8 +5,6 @@ title: Number.RoundAwayFromZero
 # Number.RoundAwayFromZero
 
 
-## Description
-
 ส่งคืนผลลัพธ์การปัดเศษขึ้นสำหรับค่าบวกและการปัดเศษลงสำหรับค่าลบ สามารถระบุจำนวนหลัก
 
 
@@ -20,7 +18,7 @@ Number.RoundAwayFromZero(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนผลลัพธ์ของการปัดเศษ <code>number</code> ตามเครื่องหมายของตัวเลข ฟังก์ชันนี้จะปัดเศษขึ้นสำหรับค่าบวกและปัดเศษลงสำหรับค่าลบ    ถ้ามีการระบุเป็น <code>digits</code> จะมีการปัดเศษ <code>number</code> เป็นเลขทศนิยม <code>digits</code> หลัก  
 

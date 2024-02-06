@@ -5,8 +5,6 @@ title: Binary.Decompress
 # Binary.Decompress
 
 
-## Description
-
 Sıkıştırılmış bir ikili değeri belirtilen sıkıştırma türünü kullanarak genişletir.
 
 
@@ -20,7 +18,7 @@ Binary.Decompress(
 ```
 
 
-## Details
+## Remarks
 
 Bir ikili değerin sıkıştırmasını belirtilen sıkıştırma türünü kullanarak açar. Bu çağrının sonucu girdinin sıkıştırılmamış bir kopyasıdır. Sıkıştırma türleri şunları kapsar:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
 

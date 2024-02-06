@@ -5,8 +5,6 @@ title: Number.Exp
 # Number.Exp
 
 
-## Description
-
 Verheft e tot de opgegeven macht.
 
 
@@ -19,7 +17,7 @@ Number.Exp(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt het resultaat van he verheffen van e tot de macht <code>number</code> (exponential function) geretourneerd. <ul> <li><code>number</code>: een <code>number</code> waarvoor de exponentiële functie moet worden berekend. Als <code>number</code> null is, retourneert <code>Number.Exp</code> null. </li> </ul>
 

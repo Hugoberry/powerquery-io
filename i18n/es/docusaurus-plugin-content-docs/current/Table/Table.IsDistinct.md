@@ -5,8 +5,6 @@ title: Table.IsDistinct
 # Table.IsDistinct
 
 
-## Description
-
 Indica si la tabla contiene solo filas distintas (sin duplicados).
 
 
@@ -20,7 +18,7 @@ Table.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 Indica si la <code>table</code> contiene solo filas distintas (sin duplicados). Devuelve <code>true</code> si las filas son distintas, <code>false</code> en caso contrario.    Un parámetro opcional, <code>comparisonCriteria</code>, especifica en qué columnas de la tabla se comprueba si hay duplicación. Si no se especifica <code>comparisonCriteria</code>, se comprueban todas las columnas.
 

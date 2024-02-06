@@ -5,8 +5,6 @@ title: BinaryFormat.Choice
 # BinaryFormat.Choice
 
 
-## Description
-
 既に読み取られた値に基づいて次のバイナリ形式を選択するバイナリ形式を返します。
 
 
@@ -22,7 +20,7 @@ BinaryFormat.Choice(
 ```
 
 
-## Details
+## Remarks
 
 既に読み取られた値に基づいて次のバイナリ形式を選択するバイナリ形式を返します。この関数によって生成されるバイナリ形式の値は、以下のステージで機能します。<ul><li><code>binaryFormat</code> パラメーターで指定されたバイナリ形式が、値を読み取るために使用されます。</li><li><code>chooseFunction</code> パラメーターで指定された選択関数に値が渡されます。</li><li>選択関数は値を調べ、2 番目のバイナリ形式を返します。</li><li>2 番目のバイナリ形式が、2 番目の値を読み取るために使用されます。</li><li>結合関数を指定した場合は、最初の値と 2 番目の値が結合関数に渡され、結果値が返されます。</li><li>結合関数が指定されない場合は、2 番目の値が返されます。</li><li>2 番目の値が返されます。</li></ul>省略可能な <code>type</code> パラメーターは、選択関数から返されるバイナリ形式の種類を示します。指定できる値は、<code>type any</code>、<code>type list</code>、または <code>type binary</code> です。<code>type</code> パラメーターが指定されない場合は、<code>type any</code> が使用されます。<code>type list</code> または <code>type binary</code> が使用されると、システムはバッファー処理された値ではなく、ストリーミングの <code>binary</code> または <code>list</code> の値を返せる場合があります。そうすることで、形式を読み取るために必要なメモリの量を減らすことができます。
 

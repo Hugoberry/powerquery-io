@@ -5,8 +5,6 @@ title: Duration.TotalDays
 # Duration.TotalDays
 
 
-## Description
-
 इस अवधि विस्तार के कुल दिन लौटाता है.
 
 
@@ -19,7 +17,7 @@ Duration.TotalDays(
 ```
 
 
-## Details
+## Remarks
 
 <code>duration</code> द्वारा विस्तारित कुल दिन लौटाता है.
 

@@ -5,8 +5,6 @@ title: List.FindText
 # List.FindText
 
 
-## Description
-
 मानों (रिकॉर्ड फ़ील्ड सहित) की ऐसी सूची लौटाता है जिसमें निर्दिष्ट पाठ होता है.
 
 
@@ -20,7 +18,7 @@ List.FindText(
 ```
 
 
-## Details
+## Remarks
 
 उस सूची <code>list</code> से मानों की सूची लौटाता है जिसमें मान <code>text</code> होता है.
 

@@ -5,8 +5,6 @@ title: Identity.IsMemberOf
 # Identity.IsMemberOf
 
 
-## Description
-
 กำหนดว่าข้อมูลประจำตัวเป็นสมาชิกของคอลเลกชันข้อมูลประจำตัวหรือไม่
 
 
@@ -20,7 +18,7 @@ Identity.IsMemberOf(
 ```
 
 
-## Details
+## Remarks
 
 กำหนดว่าข้อมูลประจำตัวเป็นสมาชิกของคอลเลกชันข้อมูลประจำตัวหรือไม่
 

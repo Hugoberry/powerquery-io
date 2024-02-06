@@ -5,8 +5,6 @@ title: Record.FieldOrDefault
 # Record.FieldOrDefault
 
 
-## Description
-
 किसी रिकॉर्ड में निर्दिष्ट फ़ील्ड का मान या फ़ील्ड न मिलने पर डिफ़ॉल्ट मान लौटाता है.
 
 
@@ -21,7 +19,7 @@ Record.FieldOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 रिकॉर्ड <code>record</code> में निर्दिष्ट फ़ील्ड <code>field</code> का मान लौटाता है. अगर फ़ील्ड नहीं मिलती, तो वैकल्पिक <code>defaultValue</code> को लौटाया जाता है.
 

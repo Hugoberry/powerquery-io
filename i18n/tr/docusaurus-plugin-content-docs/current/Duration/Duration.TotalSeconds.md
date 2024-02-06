@@ -5,8 +5,6 @@ title: Duration.TotalSeconds
 # Duration.TotalSeconds
 
 
-## Description
-
 Bu sürenin kapsadığı toplam saniyeyi döndürür.
 
 
@@ -19,7 +17,7 @@ Duration.TotalSeconds(
 ```
 
 
-## Details
+## Remarks
 
 <code>duration</code> değerine yayılan toplam saniyeyi döndürür.
 

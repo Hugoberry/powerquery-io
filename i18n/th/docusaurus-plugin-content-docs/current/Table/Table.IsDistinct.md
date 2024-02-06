@@ -5,8 +5,6 @@ title: Table.IsDistinct
 # Table.IsDistinct
 
 
-## Description
-
 ระบุว่าตารางมีเฉพาะแถวที่กำหนดไว้ (ไม่ซ้ำซ้อน) หรือไม่
 
 
@@ -20,7 +18,7 @@ Table.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 ระบุว่า <code>table</code> มีเฉพาะแถวที่ไม่ซ้ำ (ไม่ซ้ำซ้อน) หรือไม่ ส่งคืน <code>true</code> หากแถวไม่ซ้ำกัน และ <code>false</code> หากผลลัพธ์เป็นอื่น    พารามิเตอร์ทางเลือก <code>comparisonCriteria</code> ระบุว่าจะมีการทดสอบความซ้ำซ้อนที่คอลัมน์ใดของตาราง หากไม่มีการระบุ <code>comparisonCriteria</code> จะมีการทดสอบคอลัมน์ทั้งหมด
 

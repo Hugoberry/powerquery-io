@@ -5,8 +5,6 @@ title: Type.TableKeys
 # Type.TableKeys
 
 
-## Description
-
 Gibt die möglicherweise leere Liste mit Schlüsseln für den angegebenen Tabellentyp zurück.
 
 
@@ -19,7 +17,7 @@ Type.TableKeys(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die möglicherweise leere Liste mit Schlüsseln für den angegebenen Tabellentyp zurück.<br />    <br />    Jeder Schlüssel wird mithilfe eines Datensatzes in der folgenden Form definiert:    <ul>      <li>        <code>Spalten</code>: eine Liste der Spaltennamen, die den Schlüssel definieren.      </li>      <li>        <code>Primär</code>: <code>true</code>, wenn der Schlüssel der Primärschlüssel der Tabelle ist; andernfalls <code>false</code>      </li>    </ul>    
 

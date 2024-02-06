@@ -5,8 +5,6 @@ title: Table.FromRows
 # Table.FromRows
 
 
-## Description
-
 Erstellt eine Tabelle auf der Grundlage einer Liste mit Zeilenwerten und optionalen Spalten.
 
 
@@ -20,7 +18,7 @@ Table.FromRows(
 ```
 
 
-## Details
+## Remarks
 
 Erstellt eine Tabelle auf der Grundlage der Liste "<code>rows</code>", in der die einzelnen Elemente der Liste eine interne Liste mit den Spaltenwerten für eine einzelne Zeile bilden. Eine optionale Liste mit Spaltennamen, ein Tabellentyp oder eine Reihe von Spalten kann für "<code>columns</code>" angegeben werden.
 

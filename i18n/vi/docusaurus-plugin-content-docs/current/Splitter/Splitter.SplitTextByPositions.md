@@ -5,8 +5,6 @@ title: Splitter.SplitTextByPositions
 # Splitter.SplitTextByPositions
 
 
-## Description
-
 Trả về một hàm tách văn bản thành một danh sách văn bản tại mỗi vị trí được chỉ định.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByPositions(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một hàm tách văn bản thành một danh sách văn bản tại mỗi vị trí được chỉ định.
 

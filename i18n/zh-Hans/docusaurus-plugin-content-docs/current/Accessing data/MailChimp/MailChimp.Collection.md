@@ -5,8 +5,6 @@ title: MailChimp.Collection
 # MailChimp.Collection
 
 
-## Description
-
 返回包含 MailChimp 终结点中数据的表。
 
 
@@ -20,7 +18,7 @@ MailChimp.Collection(
 ```
 
 
-## Details
+## Remarks
 
 调用 MailChimp API 并将结果数据集作为表返回。自动对所有结果进行分页。当根终结点和 JSON 响应中的主要 entityName 不匹配时，可以对 API 终结点使用可选的 entityName 参数。
 

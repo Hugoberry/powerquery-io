@@ -5,8 +5,6 @@ title: Cdm.MapToEntity
 # Cdm.MapToEntity
 
 
-## Description
-
 Devolve uma tabela com colunas mapeadas aos atributos de uma entidade no Common Data Model, incluindo tipos de dados.
 
 
@@ -22,7 +20,7 @@ Cdm.MapToEntity(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma tabela com colunas mapeadas aos atributos de uma entidade no Common Data Model, incluindo tipos de dados. As colunas da definição de entidade serão adicionadas se não forem mapeadas e quaisquer colunas não mapeadas serão removidas.
 

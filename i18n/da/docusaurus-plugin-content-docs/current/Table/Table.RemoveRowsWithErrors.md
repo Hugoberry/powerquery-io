@@ -5,8 +5,6 @@ title: Table.RemoveRowsWithErrors
 # Table.RemoveRowsWithErrors
 
 
-## Description
-
 Returnerer en tabel, hvor rækkerne er fjernet fra den inputtabel, der indeholder en fejl i mindst en af cellerne. Hvis der er angivet en kolonneliste, er det kun cellerne i de angivne kolonner, der undersøges for fejl.
 
 
@@ -20,7 +18,7 @@ Table.RemoveRowsWithErrors(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel, hvor rækkerne er fjernet fra den inputtabel, der indeholder en fejl i mindst en af cellerne. Hvis der er angivet en kolonneliste, er det kun cellerne i de angivne kolonner, der undersøges for fejl.
 

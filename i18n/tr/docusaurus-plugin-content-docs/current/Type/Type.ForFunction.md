@@ -5,8 +5,6 @@ title: Type.ForFunction
 # Type.ForFunction
 
 
-## Description
-
 Belirli bir parametreyle ve döndürülen tür kısıtlamalarıyla işlevleri temsil eden bir tür döndürür.
 
 
@@ -20,7 +18,7 @@ Type.ForFunction(
 ```
 
 
-## Details
+## Remarks
 
 Bir <code>function type</code> oluşturur, bunu <code>signature</code>, <code>ReturnType</code> ve <code>Parameters</code> ve <code>min</code>, işlevin çalıştırılabilmesi için gerekli olan minimum sayıda bağımsız değişkenden gerçekleştirir.
 

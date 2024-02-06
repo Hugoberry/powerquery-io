@@ -5,8 +5,6 @@ title: Number.BitwiseShiftRight
 # Number.BitwiseShiftRight
 
 
-## Description
-
 ビットを右へシフトします。
 
 
@@ -20,7 +18,7 @@ Number.BitwiseShiftRight(
 ```
 
 
-## Details
+## Remarks
 
 指定されたビット数 <code>number2</code> のビットごとの右シフトを <code>number1</code> に対して実行した結果を返します。
 

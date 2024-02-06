@@ -5,8 +5,6 @@ title: Odbc.InferOptions
 # Odbc.InferOptions
 
 
-## Description
-
 Bir ODBC sürücüsü için SQL yeteneklerini çıkarsama denemesinin sonucunu döndürür.
 
 
@@ -19,7 +17,7 @@ Odbc.InferOptions(
 ```
 
 
-## Details
+## Remarks
 
 <code>connectionString</code> dizesiyle ODBC kullanarak SQL yeteneklerini çıkarsama denemesinin sonucunu döndürür. <code>connectionString</code> metin veya özellik değeri çiftlerinin kaydı olabilir. Özellik değerleri metin veya sayı olabilir.
 

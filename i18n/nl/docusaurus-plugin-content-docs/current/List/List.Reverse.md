@@ -5,8 +5,6 @@ title: List.Reverse
 # List.Reverse
 
 
-## Description
-
 Keert de volgorde van waarden in de lijst om.
 
 
@@ -19,7 +17,7 @@ List.Reverse(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een lijst met de waarden in de lijst <code>list</code> in omgekeerde volgorde.
 

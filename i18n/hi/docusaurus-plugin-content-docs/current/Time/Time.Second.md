@@ -5,8 +5,6 @@ title: Time.Second
 # Time.Second
 
 
-## Description
-
 सेकंड घटक लौटाता है.
 
 
@@ -19,7 +17,7 @@ Time.Second(
 ```
 
 
-## Details
+## Remarks
 
 प्रदान किए गए <code>time</code>, <code>datetime</code>, या <code>datetimezone</code> मान का सेकंड घटक लौटाता है, <code>dateTime</code>.
 

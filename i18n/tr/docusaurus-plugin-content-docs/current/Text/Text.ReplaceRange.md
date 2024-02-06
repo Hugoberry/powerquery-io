@@ -5,8 +5,6 @@ title: Text.ReplaceRange
 # Text.ReplaceRange
 
 
-## Description
-
 Bir aralıktaki karakterleri kaldırır ve belirtilen konumda yeni bir değer ekler.
 
 
@@ -22,7 +20,7 @@ Text.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> metin değerinden <code>offset</code> konumunda <code>count</code> karakteri kaldırmanın ve <code>text</code> içindeki aynı konuma <code>newText</code> metin değerini eklemenin sonucunu döndürür.
 

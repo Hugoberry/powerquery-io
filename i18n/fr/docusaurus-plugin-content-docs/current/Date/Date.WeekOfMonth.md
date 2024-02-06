@@ -5,8 +5,6 @@ title: Date.WeekOfMonth
 # Date.WeekOfMonth
 
 
-## Description
-
 Retourne un nombre compris entre 1 et 6 qui indique dans quelle semaine du mois cette date se situe.
 
 
@@ -20,7 +18,7 @@ Date.WeekOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 Retourne un nombre compris entre 1 et 6 qui indique dans quelle semaine du mois de la date <code>dateTime</code> se situe. <ul>        <li><code>dateTime</code>: valeur <code>datetime</code> pour laquelle la semaine du mois est déterminée.</li>      </ul>
 

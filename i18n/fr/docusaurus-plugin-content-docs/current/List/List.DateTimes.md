@@ -5,8 +5,6 @@ title: List.DateTimes
 # List.DateTimes
 
 
-## Description
-
 Génère une liste de valeurs datetime en fonction d&#39;une valeur initiale, d&#39;un nombre et d&#39;une valeur de durée incrémentielle.
 
 
@@ -21,7 +19,7 @@ List.DateTimes(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une liste de valeurs <code>datetime</code> de taille <code>count</code>, démarrant par <code>start</code>. L'incrément spécifié, <code>step</code>, est une valeur <code>duration</code> qui est ajoutée à chaque valeur.
 

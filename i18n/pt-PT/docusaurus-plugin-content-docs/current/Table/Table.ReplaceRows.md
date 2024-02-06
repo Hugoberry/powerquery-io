@@ -5,8 +5,6 @@ title: Table.ReplaceRows
 # Table.ReplaceRows
 
 
-## Description
-
 Substitui o intervalo de linhas especificado pelas linhas fornecidas.
 
 
@@ -22,7 +20,7 @@ Table.ReplaceRows(
 ```
 
 
-## Details
+## Remarks
 
 Substitui um número de linhas especificado, <code>count</code>, na entrada <code>table</code>, pelo <code>rows</code> especificado, começando depois de <code>offset</code>. O parâmetro <code>rows</code> é uma lista de registos.    <ul>       <li><code>table</code>: a tabela em que a substituição é efetuada.</li>       <li><code>offset</code>: o número de linhas a ignorar antes de efetuar a substituição.</li>       <li><code>count</code>: o número de linhas a substituir.</li>       <li><code>rows</code>: a lista de registos de linha a inserir em <code>table</code> na localização especificada por <code>offset</code>.</li>    </ul>
 

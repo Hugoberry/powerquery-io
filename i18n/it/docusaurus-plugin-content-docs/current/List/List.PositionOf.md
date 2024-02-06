@@ -5,8 +5,6 @@ title: List.PositionOf
 # List.PositionOf
 
 
-## Description
-
 Restituisce gli offset di un valore in un elenco.
 
 
@@ -22,7 +20,7 @@ List.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce l'offset in cui è presente il valore <code>value</code> nell'elenco <code>list</code>. Restituisce -1 se il valore non è presente.    È possibile specificare il parametro di occorrenza facoltativo <code>occurrence</code>.<ul>   <li><code>occurrence</code>: numero massimo di occorrenze da restituire.</li></ul>
 

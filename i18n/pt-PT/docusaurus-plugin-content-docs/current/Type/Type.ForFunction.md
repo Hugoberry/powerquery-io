@@ -5,8 +5,6 @@ title: Type.ForFunction
 # Type.ForFunction
 
 
-## Description
-
 Devolve um tipo que representa funções com restrições de parâmetro e tipo de retorno específicas.
 
 
@@ -20,7 +18,7 @@ Type.ForFunction(
 ```
 
 
-## Details
+## Remarks
 
 Cria um <code>function type</code> a partir de <code>signature</code>, um registo de <code>ReturnType</code> e <code>Parameters</code> e <code>min</code>, o número mínimo de argumentos necessários para invocar a função.
 

@@ -5,8 +5,6 @@ title: VSTS.Views
 # VSTS.Views
 
 
-## Description
-
 Consente di immettere i nomi di progetto e organizzazione.
 
 
@@ -22,7 +20,7 @@ VSTS.Views(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una tabella di feed OData offerti da Azure DevOps.
 

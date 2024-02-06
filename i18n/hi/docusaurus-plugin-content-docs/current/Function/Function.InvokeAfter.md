@@ -5,8 +5,6 @@ title: Function.InvokeAfter
 # Function.InvokeAfter
 
 
-## Description
-
 निर्दिष्ट अवधि के गुज़र जाने के बाद दिए गए फ़ंक्शन को इनवोक करता है.
 
 
@@ -20,7 +18,7 @@ Function.InvokeAfter(
 ```
 
 
-## Details
+## Remarks
 
 अवधि <code>delay</code> के गुज़र जाने के बाद <code>function</code> इनवोक करने का परिणाम लौटाता है.
 

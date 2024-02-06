@@ -5,8 +5,6 @@ title: Date.ToRecord
 # Date.ToRecord
 
 
-## Description
-
 Tarih değerinin parçalarını içeren bir kayıt döndürür.
 
 
@@ -19,7 +17,7 @@ Date.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>date</code> tarih değerinin parçalarını içeren bir kayıt döndürür. <ul>        <li><code>date</code>: Parçalarının kaydının hesaplanacağı bir <code>date</code>değeri.</li>      </ul>
 

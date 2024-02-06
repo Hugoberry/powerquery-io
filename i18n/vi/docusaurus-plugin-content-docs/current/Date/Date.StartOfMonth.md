@@ -5,8 +5,6 @@ title: Date.StartOfMonth
 # Date.StartOfMonth
 
 
-## Description
-
 Trả về thời gian đầu tháng.
 
 
@@ -19,7 +17,7 @@ Date.StartOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 Trả về thời gian đầu tháng chứa <code>dateTime</code>.    <code>dateTime</code> phải là giá trị <code>date</code> hoặc <code>datetime</code>.
 

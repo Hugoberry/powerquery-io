@@ -5,8 +5,6 @@ title: Table.PrefixColumns
 # Table.PrefixColumns
 
 
-## Description
-
 Restituisce una tabella in cui le colonne sono state precedute tutte dal testo specificato.
 
 
@@ -20,7 +18,7 @@ Table.PrefixColumns(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una tabella in cui tutti i nomi di colonna da <code>table</code> sono preceduti dal testo specificato <code>prefix</code> e da un punto nel formato <code>prefix</code><code>.ColumnName</code>.
 

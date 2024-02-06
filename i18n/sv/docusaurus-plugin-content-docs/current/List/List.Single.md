@@ -5,8 +5,6 @@ title: List.Single
 # List.Single
 
 
-## Description
-
 Returnerar det enstaka listobjektet för en lista med längden ett. Annars genereras ett undantag.
 
 
@@ -19,7 +17,7 @@ List.Single(
 ```
 
 
-## Details
+## Remarks
 
 Om det bara finns ett objekt i listan returnerar <code>list</code> det objektet.    Om det finns mer än ett objekt eller om listan är tom, genererar funktionen ett undantag.
 

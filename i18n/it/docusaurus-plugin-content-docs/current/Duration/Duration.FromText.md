@@ -5,8 +5,6 @@ title: Duration.FromText
 # Duration.FromText
 
 
-## Description
-
 Restituisce un valore della durata da rappresentazioni testuali in formato di tempo trascorso (d.h:m:s).
 
 
@@ -19,7 +17,7 @@ Duration.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un valore di durata dal testo specificato, <code>text</code>. Questa funzione può analizzare i formati seguenti: <ul>        <li>(-)hh:mm(:ss(.ff)) </li>        <li>(-)ggg(.hh:mm(:ss(.ff))) </li> </ul>        <br />        (Tutti gli intervalli sono inclusivi)<br />        ggg: numero di giorni.<br />        hh: numero di ore, compreso tra 0 e 23.<br />        mm: numero di minuti, compreso tra 0 e 59.<br />        ss: numero di secondi, compreso tra 0 e 59.<br />        ff: frazione di secondi, compreso tra 0 e 9999999.
 

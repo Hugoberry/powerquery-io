@@ -5,8 +5,6 @@ title: ItemExpression.From
 # ItemExpression.From
 
 
-## Description
-
 Возвращает абстрактное синтаксическое дерево (AST) для текста функции.
 
 
@@ -19,7 +17,7 @@ ItemExpression.From(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает абстрактное синтаксическое дерево (AST) для текста <code>function</code>, нормализованное в <i>выражение элемента</i>:<ul>  <li>Функция должна быть лямбда-выражением с одним аргументом.</li>  <li>Все ссылки на параметр функции заменяются на <code>ItemExpression.Item</code>.</li>  <li>Дерево AST будет упрощенным и будет содержать только узлы следующих типов:    <ul>      <li><code>Constant</code></li>      <li><code>Invocation</code></li>      <li><code>Unary</code></li>      <li><code>Binary</code></li>      <li><code>If</code></li>      <li><code>FieldAccess</code></li>    </ul>  </li></ul><br /><br />Если для текста <code>function</code> невозможно вернуть AST в виде выражения элемента, выдается ошибка.<br />
 

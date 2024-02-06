@@ -5,8 +5,6 @@ title: Table.FirstN
 # Table.FirstN
 
 
-## Description
-
 Zwraca określoną liczbę pierwszych wierszy tabeli.
 
 
@@ -20,7 +18,7 @@ Table.FirstN(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca pierwsze wiersze z tabeli <code>table</code>, w zależności od wartości parametru <code>countOrCondition</code>:    <ul>    <li> Jeśli parametr <code>countOrCondition</code> jest liczbą, określa liczbę wierszy (licząc od góry), które zostaną zwrócone. </li>    <li>Jeśli parametr <code>countOrCondition</code> jest warunkiem, będą zwracane wiersze spełniające ten warunek, aż do wiersza, który go nie spełnia.</li></ul>
 

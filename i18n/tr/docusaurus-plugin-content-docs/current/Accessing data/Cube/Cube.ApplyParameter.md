@@ -5,8 +5,6 @@ title: Cube.ApplyParameter
 # Cube.ApplyParameter
 
 
-## Description
-
 Parametre uygulandıktan sonra bir küp döndürür.
 
 
@@ -21,7 +19,7 @@ Cube.ApplyParameter(
 ```
 
 
-## Details
+## Remarks
 
 <code>cube</code> öğesine <code>arguments</code> ile <code>parameter</code> uygulandıktan sonra bir küp döndürür.
 

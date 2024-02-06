@@ -5,8 +5,6 @@ title: Table.PrefixColumns
 # Table.PrefixColumns
 
 
-## Description
-
 すべての列にプレフィックスとして指定のテキストが付いているテーブルを返します。
 
 
@@ -20,7 +18,7 @@ Table.PrefixColumns(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>table</code> からのすべての列名にプレフィックスとして指定のテキスト (<code>prefix</code>) とピリオドが <code>prefix</code><code>.ColumnName</code> という形式で付いているテーブルを返します。
 

@@ -5,8 +5,6 @@ title: Comparer.FromCulture
 # Comparer.FromCulture
 
 
-## Description
-
 Zwraca funkcję porównującą na podstawie określonej kultury i wielkości liter.
 
 
@@ -20,7 +18,7 @@ Comparer.FromCulture(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca funkcję porównującą, która używa <code>culture</code> i funkcji uwzględniania wielkości liter określonej przez <code>ignoreCase</code> w celu wykonywania porównań.<br />      <br />      Funkcja porównująca akceptuje dwa argumenty i zwraca wartość -1, 0 lub 1 w zależności od tego, czy pierwsza wartość jest mniejsza niż, równa lub większa niż druga.<br />      <br />      Wartość domyślna dla <code>ignoreCase</code> to false. Wartość <code>culture</code> powinna być jedną z ustawień regionalnych obsługiwanych przez strukturę platformy .NET (na przykład „en-US”).    
 

@@ -5,8 +5,6 @@ title: List.Union
 # List.Union
 
 
-## Description
-
 傳回出現在輸入中的清單值聯集。
 
 
@@ -20,7 +18,7 @@ List.Union(
 ```
 
 
-## Details
+## Remarks
 
 接受一連串的清單 <code>lists</code>，取得個別清單中項目的聯合，然後以輸出清單傳回。因此，傳回的清單中會包含任何輸入清單中的所有項目。    這項作業保持傳統 Bag 語意，所以聯合中會比對重複的值。    可指定選擇性的方程式條件值 <code>equationCriteria</code>，以控制等號比較測試。 
 

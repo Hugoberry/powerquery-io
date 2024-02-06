@@ -5,8 +5,6 @@ title: Text.Clean
 # Text.Clean
 
 
-## Description
-
 制御文字をすべて削除したテキスト値を返します。
 
 
@@ -19,7 +17,7 @@ Text.Clean(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> の制御文字をすべて削除した 1 つテキスト値を返します。
 

@@ -5,8 +5,6 @@ title: Value.Multiply
 # Value.Multiply
 
 
-## Description
-
 Zwraca iloczyn dwóch wartości.
 
 
@@ -21,7 +19,7 @@ Value.Multiply(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca iloczyn z mnożenia wartości <code>value1</code> i <code>value2</code>. Można określić opcjonalny parametr <code>precision</code>; domyślnie jest używana wartość <code>Precision.Double</code>.
 

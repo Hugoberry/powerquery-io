@@ -5,8 +5,6 @@ title: Text.ToList
 # Text.ToList
 
 
-## Description
-
 Zwraca listę wartości znakowych z danej wartości tekstowej.
 
 
@@ -19,7 +17,7 @@ Text.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca listę wartości znakowych z danej wartości tekstowej <code>text</code>.
 

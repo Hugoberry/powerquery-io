@@ -5,8 +5,6 @@ title: Table.RemoveRowsWithErrors
 # Table.RemoveRowsWithErrors
 
 
-## Description
-
 Returnerar en tabell där de rader från indatatabellen som innehåller ett fel i minst en av cellerna har tagits bort. Om en kolumnlista anges genomsöks bara cellerna i de angivna kolumnerna efter fel.
 
 
@@ -20,7 +18,7 @@ Table.RemoveRowsWithErrors(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell där de rader från indatatabellen som innehåller ett fel i minst en av cellerna har tagits bort. Om en kolumnlista anges genomsöks bara cellerna i de angivna kolumnerna efter fel.
 

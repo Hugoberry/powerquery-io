@@ -5,8 +5,6 @@ title: Text.BeforeDelimiter
 # Text.BeforeDelimiter
 
 
-## Description
-
 Text.BeforeDelimiter
 
 
@@ -21,7 +19,7 @@ Text.BeforeDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen <code>delimiter</code> değerinden önceki <code>text</code> bölümünü döndürür.    İsteğe bağlı bir sayısal <code>index</code> hangi <code>delimiter</code> oluşumunun hesaba katılması gerektiğini belirtir.    İsteğe bağlı bir liste <code>index</code> hangi <code>delimiter</code> oluşumunun hesaba katılması gerektiğini ve dizin oluşturmanın girişin başından mı sonundan mı başlaması gerektiğini belirtir.
 

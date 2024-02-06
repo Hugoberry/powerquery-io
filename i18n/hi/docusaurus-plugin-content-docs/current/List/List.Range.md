@@ -5,8 +5,6 @@ title: List.Range
 # List.Range
 
 
-## Description
-
 ऑफ़सेट पर शुरू होने वाली सूची का सबसेट लौटाता है.
 
 
@@ -21,7 +19,7 @@ List.Range(
 ```
 
 
-## Details
+## Remarks
 
 ऑफ़सेट <code>list</code> पर शुरू होने वाली सूची का सबसेट लौटाता है. एक वैकल्पिक पैरामीटर, <code>offset</code>, सबसेट के आइटमों की अधिकतम संख्या सेट करता है.
 

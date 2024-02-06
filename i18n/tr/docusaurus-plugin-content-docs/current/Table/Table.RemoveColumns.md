@@ -5,8 +5,6 @@ title: Table.RemoveColumns
 # Table.RemoveColumns
 
 
-## Description
-
 Belirtilen sütunları kaldırır.
 
 
@@ -21,7 +19,7 @@ Table.RemoveColumns(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen <code>columns</code> öğesini sağlanan <code>table</code> öğesinden kaldırır.    Belirtilen sütun yoksa, <code>missingField</code> isteğe bağlı parametresi bir alternatif davranış belirtmediği sürece hata oluşur (örneğin <code>MissingField.UseNull</code> veya <code>MissingField.Ignore</code>).
 

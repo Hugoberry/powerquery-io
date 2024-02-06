@@ -5,8 +5,6 @@ title: Table.SelectRows
 # Table.SelectRows
 
 
-## Description
-
 選取符合條件函數的資料列。
 
 
@@ -20,7 +18,7 @@ Table.SelectRows(
 ```
 
 
-## Details
+## Remarks
 
 傳回 <code>table</code> 中符合選取範圍 <code>condition</code> 的資料列資料表。
 

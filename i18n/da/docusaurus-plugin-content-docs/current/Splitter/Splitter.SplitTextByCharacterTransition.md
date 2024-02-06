@@ -5,8 +5,6 @@ title: Splitter.SplitTextByCharacterTransition
 # Splitter.SplitTextByCharacterTransition
 
 
-## Description
-
 Returnerer en funktion, der opdeler tekst på en liste med tekst i overensstemmelse med en overgang fra én slags tegn til et andet. Parametrene \{0} og \{1} kan enten være en liste over tegn eller en funktion, som tager et tegn og returnerer true/false.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByCharacterTransition(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en funktion, der opdeler tekst på en liste med tekst i overensstemmelse med en overgang fra én slags tegn til et andet. Parametrene <code>before</code> og <code>after</code> kan enten være en liste over tegn eller en funktion, som tager et tegn og returnerer true/false.
 

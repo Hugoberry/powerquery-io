@@ -5,8 +5,6 @@ title: Text.BetweenDelimiters
 # Text.BetweenDelimiters
 
 
-## Description
-
 Text.BetweenDelimiters
 
 
@@ -23,7 +21,7 @@ Text.BetweenDelimiters(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen <code>startDelimiter</code> ile <code>endDelimiter</code> değeri arasındaki <code>text</code> bölümünü döndürür.    İsteğe bağlı bir sayısal <code>startIndex</code> hangi <code>startDelimiter</code> oluşumunun hesaba katılması gerektiğini belirtir.    İsteğe bağlı bir liste <code>startIndex</code> hangi <code>startDelimiter</code> oluşumunun hesaba katılması gerektiğini ve dizin oluşturmanın girişin başından mı sonundan mı başlaması gerektiğini belirtir.    <code>endIndex</code> buna benzer, ancak dizin oluşturma <code>startIndex</code> değeriyle göreli olarak yapılır.
 

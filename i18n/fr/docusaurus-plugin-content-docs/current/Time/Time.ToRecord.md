@@ -5,8 +5,6 @@ title: Time.ToRecord
 # Time.ToRecord
 
 
-## Description
-
 Retourne un enregistrement qui contient les parties de la valeur d&#39;heure.
 
 
@@ -19,7 +17,7 @@ Time.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Retourne un enregistrement qui contient les parties de la valeur d'heure spécifiée, <code>time</code>. <ul>        <li><code>time</code> : valeur <code>time</code> à partir de laquelle l'enregistrement des parties doit être calculé.</li>      </ul>
 

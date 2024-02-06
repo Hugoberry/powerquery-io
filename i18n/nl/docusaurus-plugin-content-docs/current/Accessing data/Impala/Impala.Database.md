@@ -5,8 +5,6 @@ title: Impala.Database
 # Impala.Database
 
 
-## Description
-
 Gegevens importeren uit een Impala-cluster
 
 
@@ -20,7 +18,7 @@ Impala.Database(
 ```
 
 
-## Details
+## Remarks
 
 Gegevens importeren uit een Impala-cluster <code>server</code>. Als er geen poort is opgegeven, wordt de standaardpoort 21050 gebruikt.
 

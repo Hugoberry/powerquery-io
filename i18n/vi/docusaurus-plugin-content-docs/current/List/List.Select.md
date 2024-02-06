@@ -5,8 +5,6 @@ title: List.Select
 # List.Select
 
 
-## Description
-
 Trả về một danh sách giá trị phù hợp với điều kiện.
 
 
@@ -20,7 +18,7 @@ List.Select(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một danh sách giá trị từ danh sách <code>list</code> khớp với điều kiện lựa chọn <code>selection</code>.
 

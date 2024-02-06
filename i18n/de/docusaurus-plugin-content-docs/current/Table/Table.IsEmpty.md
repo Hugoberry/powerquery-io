@@ -5,8 +5,6 @@ title: Table.IsEmpty
 # Table.IsEmpty
 
 
-## Description
-
 Gibt an, ob die Tabelle Zeilen enthält.
 
 
@@ -19,7 +17,7 @@ Table.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 Gibt an, ob das Element vom Typ "<code>table</code>" Zeilen enthält. Gibt <code>true</code> zurück, falls keine Zeilen vorhanden sind (die Tabelle also leer ist). Andernfalls wird <code>false</code> zurückgegeben.
 

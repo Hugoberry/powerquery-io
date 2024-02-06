@@ -5,8 +5,6 @@ title: BinaryFormat.Byte
 # BinaryFormat.Byte
 
 
-## Description
-
 Ein Binärformat, das eine 8-Bit-Ganzzahl ohne Vorzeichen liest.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Byte(
 ```
 
 
-## Details
+## Remarks
 
 Ein Binärformat, das eine 8-Bit-Ganzzahl ohne Vorzeichen liest.
 

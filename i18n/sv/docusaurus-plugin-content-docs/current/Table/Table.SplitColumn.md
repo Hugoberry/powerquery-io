@@ -5,8 +5,6 @@ title: Table.SplitColumn
 # Table.SplitColumn
 
 
-## Description
-
 Delar de angivna kolumnerna i en uppsättning ytterligare kolumner med hjälp av den angivna delningsfunktionen.
 
 
@@ -24,7 +22,7 @@ Table.SplitColumn(
 ```
 
 
-## Details
+## Remarks
 
 Delar de angivna kolumnerna i en uppsättning ytterligare kolumner med hjälp av den angivna delningsfunktionen.
 

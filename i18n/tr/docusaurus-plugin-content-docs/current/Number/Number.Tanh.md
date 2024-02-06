@@ -5,8 +5,6 @@ title: Number.Tanh
 # Number.Tanh
 
 
-## Description
-
 Sayının hiperbolik tanjantını döndürür.
 
 
@@ -19,7 +17,7 @@ Number.Tanh(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> değerinin hiperbolik tanjantını döndürür.
 

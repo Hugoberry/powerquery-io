@@ -5,8 +5,6 @@ title: List.MatchesAny
 # List.MatchesAny
 
 
-## Description
-
 Returnerar true om något av värdena uppfyller condition-funktionen.
 
 
@@ -20,7 +18,7 @@ List.MatchesAny(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar <code>true</code> om något av värdena i listan <code>list</code> uppfyller condition-funktionen, <code>condition</code>. Annars returneras <code>false</code>.
 

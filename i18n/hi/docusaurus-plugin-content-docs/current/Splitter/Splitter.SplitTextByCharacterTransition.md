@@ -5,8 +5,6 @@ title: Splitter.SplitTextByCharacterTransition
 # Splitter.SplitTextByCharacterTransition
 
 
-## Description
-
 एक प्रकार के वर्ण से दूसरे प्रकार के वर्ण में अवस्थांतर के अनुसार, पाठ को पाठ की सूची में विभाजित करने वाले फ़ंक्शन को लौटाता है. \{0} और \{1} पैरामीटर या तो वर्णों की सूची हो सकते हैं या एक ऐसा फ़ंक्शन जो किसी वर्ण को लेता है और true/false लौटाता है.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByCharacterTransition(
 ```
 
 
-## Details
+## Remarks
 
 एक प्रकार के वर्ण से दूसरे प्रकार के वर्ण में अवस्थांतर के अनुसार, पाठ को पाठ की सूची में विभाजित करने वाले फ़ंक्शन को लौटाता है. <code>before</code> और <code>after</code> पैरामीटर या तो वर्णों की सूची हो सकते हैं या एक ऐसा फ़ंक्शन जो किसी वर्ण को लेता है और true/false लौटाता है.
 

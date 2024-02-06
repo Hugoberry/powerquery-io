@@ -5,8 +5,6 @@ title: Expression.Identifier
 # Expression.Identifier
 
 
-## Description
-
 Hiermee wordt de M-broncodeweergave van een id geretourneerd.
 
 
@@ -19,7 +17,7 @@ Expression.Identifier(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt de M-broncodeweergave van de id <code>name</code> geretourneerd.
 

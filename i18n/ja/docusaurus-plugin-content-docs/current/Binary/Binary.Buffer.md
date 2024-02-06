@@ -5,8 +5,6 @@ title: Binary.Buffer
 # Binary.Buffer
 
 
-## Description
-
 バイナリ値をメモリにバッファー処理します。
 
 
@@ -19,7 +17,7 @@ Binary.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 バイナリ値をメモリにバッファー処理します。この呼び出しの結果は、安定したバイナリ値です。つまり、長さとバイト順が決まっています。
 

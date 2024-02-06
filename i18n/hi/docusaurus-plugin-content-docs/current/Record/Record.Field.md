@@ -5,8 +5,6 @@ title: Record.Field
 # Record.Field
 
 
-## Description
-
 किसी रिकॉर्ड में निर्दिष्ट फ़ील्ड का मान लौटाता है.
 
 
@@ -20,7 +18,7 @@ Record.Field(
 ```
 
 
-## Details
+## Remarks
 
 <code>record</code> में निर्दिष्ट <code>field</code> का मान लौटाता है. अगर फ़ील्ड नहीं मिलता, तो एक अपवाद दिखाया जाता है.
 

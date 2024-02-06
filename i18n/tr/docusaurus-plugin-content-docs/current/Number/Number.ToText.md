@@ -5,8 +5,6 @@ title: Number.ToText
 # Number.ToText
 
 
-## Description
-
 Belirtilen sayıyı metne dönüştürür.
 
 
@@ -21,7 +19,7 @@ Number.ToText(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> sayısal değerini <code>format</code> ile belirtilen biçime göre bir metin değerine döndürür.<br />    <br />    Biçim, sayının nasıl dönüştürülmesi gerektiğini gösteren bir metin değeridir. Desteklenen biçim değerleri hakkında daha fazla ayrıntı için https://go.microsoft.com/fwlink/?linkid=2241210 ve https://go.microsoft.com/fwlink/?linkid=2240884 sayfalarına gidin.<br />    <br />   <code>format</code> değerinin kültüre bağlı davranışını kontrol etmek için isteğe bağlı bir <code>culture</code> (örneğin, “tr-TR”) sağlanabilir.
 

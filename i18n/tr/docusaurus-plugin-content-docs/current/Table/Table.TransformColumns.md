@@ -5,8 +5,6 @@ title: Table.TransformColumns
 # Table.TransformColumns
 
 
-## Description
-
 Bir veya daha fazla sütunun değerlerini dönüştürür.
 
 
@@ -22,7 +20,7 @@ Table.TransformColumns(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> (Biçim \{ column name, transformation } veya \{ column name, transformation, new column type } olacak şekilde) <code>transformOperations</code> üzerinde listelenen her sütun işlemini uygulayarak bu işlemi dönüştürür. Bir <code>defaultTransformation</code> belirtilirse, <code>transformOperations</code> üzerinde listelenmeyen tüm sütunlara uygulanır. <code>transformOperations</code> üzerinde listelenen bir sütun yoksa, isteğe bağlı <code>missingField</code> parametresi bir alternatif belirtmediği sürece özel durum oluşur (örneğin, <code>MissingField.UseNull</code> veya <code>MissingField.Ignore</code>).
 

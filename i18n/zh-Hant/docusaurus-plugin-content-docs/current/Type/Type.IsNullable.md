@@ -5,8 +5,6 @@ title: Type.IsNullable
 # Type.IsNullable
 
 
-## Description
-
 若類型為可為 Null 類型時傳回 true；否則傳回 false。
 
 
@@ -19,7 +17,7 @@ Type.IsNullable(
 ```
 
 
-## Details
+## Remarks
 
 若類型為 <code>nullable</code> 類型時傳回 <code>true</code>；否則為 <code>false</code>。
 

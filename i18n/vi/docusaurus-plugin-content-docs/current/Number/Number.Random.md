@@ -5,8 +5,6 @@ title: Number.Random
 # Number.Random
 
 
-## Description
-
 Trả về một số ngẫu nhiên.
 
 
@@ -19,7 +17,7 @@ Number.Random(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một số ngẫu nhiên nằm trong khoảng từ 0 đến 1.
 

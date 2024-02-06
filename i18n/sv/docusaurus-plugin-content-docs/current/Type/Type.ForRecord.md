@@ -5,8 +5,6 @@ title: Type.ForRecord
 # Type.ForRecord
 
 
-## Description
-
 Returnerar en typ som representerar poster med särskilda typbegränsningar på fält.
 
 
@@ -20,7 +18,7 @@ Type.ForRecord(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en typ som representerar poster med särskilda typbegränsningar på fält.
 

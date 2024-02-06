@@ -5,8 +5,6 @@ title: Table.Contains
 # Table.Contains
 
 
-## Description
-
 Cho biết bản ghi được chỉ định có xuất hiện ở dạng một hàng trong bảng hay không.
 
 
@@ -21,7 +19,7 @@ Table.Contains(
 ```
 
 
-## Details
+## Remarks
 
 Cho biết bản ghi được chỉ định <code>row</code> có xuất hiện ở dạng một hàng trong <code>table</code> hay không.    Có thể chỉ định tham số tùy chọn <code>equationCriteria</code> để kiểm soát phép so sánh giữa các hàng của bảng.
 

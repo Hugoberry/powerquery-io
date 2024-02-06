@@ -5,8 +5,6 @@ title: VSTS.Views
 # VSTS.Views
 
 
-## Description
-
 Wprowadź nazwę organizacji i projektu.
 
 
@@ -22,7 +20,7 @@ VSTS.Views(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę źródeł danych OData udostępnianych przez usługę Azure DevOps.
 

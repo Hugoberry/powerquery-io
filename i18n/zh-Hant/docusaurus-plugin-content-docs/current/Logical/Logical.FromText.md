@@ -5,8 +5,6 @@ title: Logical.FromText
 # Logical.FromText
 
 
-## Description
-
 根據文字值 &#34;true&#34; 和 &#34;false&#34; 建立邏輯值。
 
 
@@ -19,7 +17,7 @@ Logical.FromText(
 ```
 
 
-## Details
+## Remarks
 
 根據文字值 <code>text</code> ("true" 或 "false") 建立邏輯值。如果 <code>text</code> 包含不同字串，則擲回例外狀況。文字值 <code>text</code> 不區分大小寫。
 

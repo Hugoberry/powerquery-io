@@ -5,8 +5,6 @@ title: Cube.ReplaceDimensions
 # Cube.ReplaceDimensions
 
 
-## Description
-
 Cube.Dimensions tarafından döndürülen boyutlar kümesinin yerini alır.
 
 
@@ -20,7 +18,7 @@ Cube.ReplaceDimensions(
 ```
 
 
-## Details
+## Remarks
 
 <code>Cube.Dimensions</code> tarafından döndürülen boyutlar kümesinin yerini alır.    Örneğin, bu işlev bir boyut özniteliğine bir kimlik sütunu eklemek için kullanılabilir, böylece veri kaynağı görüntülenen değer yerine kimliğe göre gruplandırılabilir.
 

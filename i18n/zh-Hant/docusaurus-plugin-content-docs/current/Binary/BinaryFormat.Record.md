@@ -5,8 +5,6 @@ title: BinaryFormat.Record
 # BinaryFormat.Record
 
 
-## Description
-
 傳回讀取記錄的二進位格式。
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Record(
 ```
 
 
-## Details
+## Remarks
 
 傳回讀取記錄的二進位格式。<code>record</code> 參數指定記錄的格式。記錄的每個欄位可以具有不同的二進位格式。如果欄位包含的值不是二進位格式值，則不讀取該欄位的資料，直接將欄位值傳到結果。
 

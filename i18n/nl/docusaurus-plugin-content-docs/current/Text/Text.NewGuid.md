@@ -5,8 +5,6 @@ title: Text.NewGuid
 # Text.NewGuid
 
 
-## Description
-
 Retourneert een nieuwe willekeurige GUID (globally unique identifier).
 
 
@@ -19,7 +17,7 @@ Text.NewGuid(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een nieuwe willekeurige GUID (globally unique identifier).
 

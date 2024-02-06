@@ -5,8 +5,6 @@ title: Date.EndOfYear
 # Date.EndOfYear
 
 
-## Description
-
 年の最後の日付を返します。
 
 
@@ -19,7 +17,7 @@ Date.EndOfYear(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> を含む年の最後の日付を、小数秒も含めて返します。タイム ゾーン情報は保持されます。      <ul>        <li><code>dateTime</code>: 年の終わりを計算する <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値。</li>      </ul>
 

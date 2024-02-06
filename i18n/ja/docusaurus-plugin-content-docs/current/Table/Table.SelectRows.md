@@ -5,8 +5,6 @@ title: Table.SelectRows
 # Table.SelectRows
 
 
-## Description
-
 条件関数を満たす行を選択します。
 
 
@@ -20,7 +18,7 @@ Table.SelectRows(
 ```
 
 
-## Details
+## Remarks
 
 選択 <code>condition</code> と一致する行のテーブルを <code>table</code> から返します。
 

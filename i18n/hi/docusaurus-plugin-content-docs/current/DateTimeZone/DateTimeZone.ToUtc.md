@@ -5,8 +5,6 @@ title: DateTimeZone.ToUtc
 # DateTimeZone.ToUtc
 
 
-## Description
-
 समय क्षेत्र घटक को UTC समय क्षेत्र में रूपांतरित करता है.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToUtc(
 ```
 
 
-## Details
+## Remarks
 
 datetime मान <code>dateTimeZone</code> की समय क्षेत्र जानकारी को UTC या वैश्विक समय समय क्षेत्र जानकारी में परिवर्तित करता है.    अगर <code>dateTimeZone</code> में कोई समय क्षेत्र घटक नहीं है, तो UTC समय क्षेत्र जानकारी जोड़ी जाती है.
 

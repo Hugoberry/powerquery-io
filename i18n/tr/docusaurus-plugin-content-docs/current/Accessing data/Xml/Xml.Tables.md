@@ -5,8 +5,6 @@ title: Xml.Tables
 # Xml.Tables
 
 
-## Description
-
 XML belgesinin içeriğini düzleştirilmiş tablolara yönelik bir iç içe yerleştirilmiş koleksiyon olarak döndürür.
 
 
@@ -21,7 +19,7 @@ Xml.Tables(
 ```
 
 
-## Details
+## Remarks
 
 XML belgesinin içeriğini düzleştirilmiş tablolara yönelik bir iç içe yerleştirilmiş koleksiyon olarak döndürür.
 

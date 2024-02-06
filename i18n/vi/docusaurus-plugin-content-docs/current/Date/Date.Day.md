@@ -5,8 +5,6 @@ title: Date.Day
 # Date.Day
 
 
-## Description
-
 Trả về cấu phần ngày.
 
 
@@ -19,7 +17,7 @@ Date.Day(
 ```
 
 
-## Details
+## Remarks
 
 Trả về cấu phần ngày của giá trị <code>date</code>, <code>datetime</code>, hoặc <code>datetimezone</code>.      <ul>        <li><code>dateTime</code>: Giá trị <code>date</code>, <code>datetime</code>, hoặc <code>datetimezone</code> mà từ đó cấu phần ngày được trích xuất.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Text.Trim
 # Text.Trim
 
 
-## Description
-
 Tüm öndeki ve sondaki boşlukları kaldırır.
 
 
@@ -20,7 +18,7 @@ Text.Trim(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> metin değerinden tüm öndeki ve sonraki boşlukları kaldırmanın sonucunu döndürür.
 

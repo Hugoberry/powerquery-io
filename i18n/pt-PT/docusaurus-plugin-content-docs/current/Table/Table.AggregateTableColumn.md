@@ -5,8 +5,6 @@ title: Table.AggregateTableColumn
 # Table.AggregateTableColumn
 
 
-## Description
-
 Agrega uma coluna de tabelas a várias colunas na tabela contentora.
 
 
@@ -21,7 +19,7 @@ Table.AggregateTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Agrega tabelas em <code>table</code>[<code>column</code>] a várias colunas que contém valores agregados para as tabelas. <code>aggregations</code> é utilizado para especificar as colunas que contêm as tabelas a agregar, as funções de agregação a aplicar às tabelas para gerar os respetivos valores e os nomes das colunas de agregação a criar.
 

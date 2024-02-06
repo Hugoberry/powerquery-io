@@ -5,8 +5,6 @@ title: Record.FromList
 # Record.FromList
 
 
-## Description
-
 Returnerar en post baserat på listan med fältvärden och en uppsättning fält.
 
 
@@ -20,7 +18,7 @@ Record.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en post baserat på <code>list</code> med fältvärden och en uppsättning fält. <code>fields</code> kan anges antingen med en lista med textvärden eller med en posttyp. Ett fel genereras om fälten inte är unika.
 

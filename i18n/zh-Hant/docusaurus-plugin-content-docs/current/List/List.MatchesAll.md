@@ -5,8 +5,6 @@ title: List.MatchesAll
 # List.MatchesAll
 
 
-## Description
-
 如果清單中的所有值都符合條件函數，即傳回 True。
 
 
@@ -20,7 +18,7 @@ List.MatchesAll(
 ```
 
 
-## Details
+## Remarks
 
 如果清單 <code>list</code> 中的所有值都符合條件函數 <code>condition</code>，即傳回 <code>true</code>，否則傳回 <code>false</code>。
 

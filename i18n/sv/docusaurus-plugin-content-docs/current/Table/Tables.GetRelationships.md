@@ -5,8 +5,6 @@ title: Tables.GetRelationships
 # Tables.GetRelationships
 
 
-## Description
-
 Hämtar relationerna från en uppsättning tabeller.
 
 
@@ -20,7 +18,7 @@ Tables.GetRelationships(
 ```
 
 
-## Details
+## Remarks
 
 Hämtar relationerna från en uppsättning tabeller. Uppsättningen <code>tables</code> antas ha en struktur liknande den i en navigeringstabell. Kolumnen som definieras av <code>dataColumn</code> innehåller de faktiska datatabellerna.
 

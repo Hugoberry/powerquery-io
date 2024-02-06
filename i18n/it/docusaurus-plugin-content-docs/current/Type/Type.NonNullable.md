@@ -5,8 +5,6 @@ title: Type.NonNullable
 # Type.NonNullable
 
 
-## Description
-
 Restituisce il tipo non nullable da un tipo.
 
 
@@ -19,7 +17,7 @@ Type.NonNullable(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il tipo non <code>nullable</code> da <code>type</code>.
 

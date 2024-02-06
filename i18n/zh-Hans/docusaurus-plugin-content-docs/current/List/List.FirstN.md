@@ -5,8 +5,6 @@ title: List.FirstN
 # List.FirstN
 
 
-## Description
-
 通过指定要返回的项数或限定条件来返回列表中的第一组项。
 
 
@@ -20,7 +18,7 @@ List.FirstN(
 ```
 
 
-## Details
+## Remarks
 
  <ul>  <li>如果指定一个数，则最多返回这么多项。</li>  <li>如果指定一个条件，则返回最初满足该条件的所有项。一旦某个项不满足该条件，则不再考虑其他项。</li> </ul>
 

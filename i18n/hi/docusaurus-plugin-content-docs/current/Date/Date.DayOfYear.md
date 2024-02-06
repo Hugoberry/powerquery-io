@@ -5,8 +5,6 @@ title: Date.DayOfYear
 # Date.DayOfYear
 
 
-## Description
-
 वर्ष के दिन का प्रतिनिधित्व करने वाली 1 से 366 तक की कोई संख्या लौटाता है.
 
 
@@ -19,7 +17,7 @@ Date.DayOfYear(
 ```
 
 
-## Details
+## Remarks
 
 प्रदान किए गए <code>date</code>, <code>datetime</code> या <code>datetimezone</code> मान, <code>dateTime</code> में वर्ष के दिन का प्रतिनिधित्व करने वाली कोई संख्या लौटाता है.
 

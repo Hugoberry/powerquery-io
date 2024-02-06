@@ -5,8 +5,6 @@ title: Record.FromTable
 # Record.FromTable
 
 
-## Description
-
 किसी तालिका से \{[Name = name, Value = value]} के रूप में एक रिकॉर्ड बनाता है.
 
 
@@ -19,7 +17,7 @@ Record.FromTable(
 ```
 
 
-## Details
+## Remarks
 
 रिकॉर्ड की तालिका <code>table</code> से एक रिकॉर्ड लौटाता है, जिसमें फ़ील्ड नाम और मान नाम <code>\{[Name = name, Value = value]}</code> होते हैं. अगर फ़ील्ड नाम अद्वितीय नहीं हैं, तो एक अपवाद दिखाया जाता है.
 

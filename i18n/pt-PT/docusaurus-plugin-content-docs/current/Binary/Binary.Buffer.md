@@ -5,8 +5,6 @@ title: Binary.Buffer
 # Binary.Buffer
 
 
-## Description
-
 Coloca o valor binário na memória intermédia.
 
 
@@ -19,7 +17,7 @@ Binary.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Coloca o valor binário na memória intermédia. O resultado desta chamada é um valor binário estável, o que significa que terá um comprimento determinista e uma ordem de bytes.
 

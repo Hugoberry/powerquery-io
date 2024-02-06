@@ -5,8 +5,6 @@ title: Date.StartOfMonth
 # Date.StartOfMonth
 
 
-## Description
-
 返回月开始值。
 
 
@@ -19,7 +17,7 @@ Date.StartOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 返回包含 <code>dateTime</code> 的月开始值。    <code>dateTime</code> 必须为<code>date</code>或<code>datetime</code>值。
 

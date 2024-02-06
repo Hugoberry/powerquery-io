@@ -5,8 +5,6 @@ title: Table.ApproximateRowCount
 # Table.ApproximateRowCount
 
 
-## Description
-
 Returnerer det omtrentlige antal af rækker i tabellen.
 
 
@@ -19,7 +17,7 @@ Table.ApproximateRowCount(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer det omtrentlige antal rækker i <code>table</code>, eller en fejl, hvis datakilden ikke understøtter tilnærmelsen.
 

@@ -5,8 +5,6 @@ title: Table.FillDown
 # Table.FillDown
 
 
-## Description
-
 पिछले कक्ष के मान को नीचे स्तंभ में नल मान वाले कक्षों में वितरित करता है.
 
 
@@ -20,7 +18,7 @@ Table.FillDown(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> निर्दिष्ट से एक तालिका लौटाता है, जिसमें पिछले कक्ष के मान को <code>columns</code> निर्दिष्ट में नीचे दिए गए नल-मान वाले कक्षों में वितरित किया जाता है.
 

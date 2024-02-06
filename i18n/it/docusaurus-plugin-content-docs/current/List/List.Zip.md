@@ -5,8 +5,6 @@ title: List.Zip
 # List.Zip
 
 
-## Description
-
 Restituisce un elenco di elenchi combinando elementi nella stessa posizione in più elenchi.
 
 
@@ -19,7 +17,7 @@ List.Zip(
 ```
 
 
-## Details
+## Remarks
 
 Acquisisce un elenco di elenchi, <code>lists</code>, e restituisce un elenco di elenchi combinando elementi nella stessa posizione.
 

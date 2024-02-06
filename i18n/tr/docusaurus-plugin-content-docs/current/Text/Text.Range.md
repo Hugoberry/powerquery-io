@@ -5,8 +5,6 @@ title: Text.Range
 # Text.Range
 
 
-## Description
-
 Uzaklıkta bulunan alt dizeyi döndürür.
 
 
@@ -21,7 +19,7 @@ Text.Range(
 ```
 
 
-## Details
+## Remarks
 
 <code>offset</code> uzaklığında bulunan <code>text</code> metninden alt dizeyi döndürür.    Kaç karakterin döndürüleceğini belirtmek için isteğe bağlı bir <code>count</code> parametresi eklenebilir. Yeterli sayıda karakter bulunmazsa hata verir.
 

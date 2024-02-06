@@ -5,8 +5,6 @@ title: Binary.ToList
 # Binary.ToList
 
 
-## Description
-
 Chuyển đổi một giá trị nhị phần thành một danh sách số.
 
 
@@ -19,7 +17,7 @@ Binary.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Chuyển đổi một giá trị nhị phần thành một danh sách số.
 

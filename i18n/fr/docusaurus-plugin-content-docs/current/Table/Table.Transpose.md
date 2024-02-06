@@ -5,8 +5,6 @@ title: Table.Transpose
 # Table.Transpose
 
 
-## Description
-
 Convertit les colonnes en lignes et les lignes en colonnes.
 
 
@@ -20,7 +18,7 @@ Table.Transpose(
 ```
 
 
-## Details
+## Remarks
 
 Convertit les colonnes en lignes et les lignes en colonnes.
 

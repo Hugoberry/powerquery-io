@@ -5,8 +5,6 @@ title: Record.ToTable
 # Record.ToTable
 
 
-## Description
-
 Trả về một bảng trong đó mỗi hàng là một tên trường và giá trị của bản ghi đầu vào.
 
 
@@ -19,7 +17,7 @@ Record.ToTable(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bảng chứa các cột <code>Name</code> và <code>Value</code> với một hàng cho mỗi trường trong <code>record</code>.
 

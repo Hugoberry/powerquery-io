@@ -5,8 +5,6 @@ title: Replacer.ReplaceValue
 # Replacer.ReplaceValue
 
 
-## Description
-
 Thay thế các giá trị trong đầu vào được cung cấp.
 
 
@@ -21,7 +19,7 @@ Replacer.ReplaceValue(
 ```
 
 
-## Details
+## Remarks
 
 Thay thế giá trị <code>old</code> trong <code>value</code> gốc bằng giá trị <code>new</code>. Có thể sử dụng hàm thay thế này trong <code>List.ReplaceValue</code> và <code>Table.ReplaceValue</code>.
 

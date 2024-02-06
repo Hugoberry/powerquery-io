@@ -5,8 +5,6 @@ title: List.Accumulate
 # List.Accumulate
 
 
-## Description
-
 Stelt een totale waarde samen van de items in de lijst.
 
 
@@ -21,7 +19,7 @@ List.Accumulate(
 ```
 
 
-## Details
+## Remarks
 
 Stelt een totale waarde samen van de items in de lijst <code>list</code>, met behulp van <code>accumulator</code>.    Een optionele seedparameter, <code>seed</code>, kan worden ingesteld.
 

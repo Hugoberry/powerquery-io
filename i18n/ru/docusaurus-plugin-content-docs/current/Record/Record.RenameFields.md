@@ -5,8 +5,6 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-## Description
-
 Применяет переименования из списка в форме \{ old, new }.
 
 
@@ -21,7 +19,7 @@ Record.RenameFields(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает запись после присвоения полям во входных данных <code>record</code> новых имен, указанных в списке <code>renames</code>. Для нескольких переименований можно использовать вложенный список (\{ \{старое1, новое1}, \{старое2, новое2} }.
 

@@ -5,8 +5,6 @@ title: Cube.AttributeMemberId
 # Cube.AttributeMemberId
 
 
-## Description
-
 members özellik değerindeki benzersiz üye tanımlayıcısını döndürür.
 
 
@@ -19,7 +17,7 @@ Cube.AttributeMemberId(
 ```
 
 
-## Details
+## Remarks
 
 Bir member özellik değerindeki benzersiz üye tanımlayıcısını döndürür. <code>attribute</code>. Diğer tüm değerler için null döndürür.
 

@@ -5,8 +5,6 @@ title: Type.TableRow
 # Type.TableRow
 
 
-## Description
-
 Gibt den Zeilentyp des Tabellentyps zurück.
 
 
@@ -19,7 +17,7 @@ Type.TableRow(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Zeilentyp des angegebenen Tabellentyps zurück. Das Ergebnis ist immer ein Datensatztyp.
 

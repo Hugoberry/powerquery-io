@@ -5,8 +5,6 @@ title: Excel.Workbook
 # Excel.Workbook
 
 
-## Description
-
 Excel ブックの内容を返します。
 
 
@@ -21,7 +19,7 @@ Excel.Workbook(
 ```
 
 
-## Details
+## Remarks
 
 Excel ブックのコンテンツを返します。    <ul>     <li><code>useHeaders</code> は null か、返される各テーブルの先頭行をヘッダーまたはオプション レコードとして扱うかどうかを示す論理 (true/false) 値にできます。既定値: false。</li>     <li><code>delayTypes</code> は null か、または返される各テーブルの列を型指定しないままにしておくかどうかを示す論理 (true/false) 値です。既定値: false。</li>    </ul>    <code>useHeaders</code> でレコードが指定されている (そして <code>delayTypes</code> が null ) の場合、次のレコード フィールドが提供されている可能性があります:    <ul>     <li> <code>UseHeaders</code>: null か、または返される各テーブルの先頭行をヘッダーとして扱うかどうかを示す論理 (true/false) 値にできます。既定値: false。</li>     <li> <code>DelayTypes</code>: null か、または返される各テーブルの列を型指定しないでおくかどうかを示す論理 (true/false) 値にできます。既定値: false。</li>     <li> <code>InferSheetDimensions</code>: null か、またはデータを含むワークシートの領域を (ファイルからディメンションのメタデータを読み取るのではなく) ワークシート自体を読み取ることによって推論する必要があるかどうかを示す論理 (true/false) 値にできます。これは、ディメンションのメタデータが正しくない場合に役立ちます。このオプションは、従来の Excel ファイルではなく、Open XML Excel ファイルでのみサポートされているのでご注意ください。既定値: false。</li>    </ul>    
 

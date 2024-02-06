@@ -5,8 +5,6 @@ title: Record.FieldOrDefault
 # Record.FieldOrDefault
 
 
-## Description
-
 返回记录中指定字段的值，如果未找到该字段，则返回默认值。
 
 
@@ -21,7 +19,7 @@ Record.FieldOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 返回记录 <code>record</code> 中指定字段 <code>field</code> 的值。如果未找到该字段，则返回可选的 <code>defaultValue</code>。
 

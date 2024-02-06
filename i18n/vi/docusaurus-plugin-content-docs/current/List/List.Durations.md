@@ -5,8 +5,6 @@ title: List.Durations
 # List.Durations
 
 
-## Description
-
 Tạo một danh sách chứa các giá trị khoảng thời gian khi được cho sẵn một giá trị ban đầu, tổng cộng và giá trị khoảng thời gian tăng dần.
 
 
@@ -21,7 +19,7 @@ List.Durations(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một danh sách giá trị <code>count</code> <code>duration</code>, bắt đầu tại <code>start</code> và tăng theo số gia <code>duration</code> <code>step</code> cho sẵn.
 

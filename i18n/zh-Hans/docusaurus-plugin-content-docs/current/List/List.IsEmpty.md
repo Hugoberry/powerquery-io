@@ -5,8 +5,6 @@ title: List.IsEmpty
 # List.IsEmpty
 
 
-## Description
-
 如果列表为空，则返回 true。
 
 
@@ -19,7 +17,7 @@ List.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 如果列表 <code>list</code> 不包含值(长度为 0)，则返回 <code>true</code>。如果列表包含值(长度 > 0)，则返回 <code>false</code>。
 

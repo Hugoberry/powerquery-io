@@ -5,8 +5,6 @@ title: Table.ToColumns
 # Table.ToColumns
 
 
-## Description
-
 Bir tablodan sütun değerlerine yönelik iç içe yerleştirilmiş tablo listesi oluşturur.
 
 
@@ -19,7 +17,7 @@ Table.ToColumns(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> tablosundan iç içe yerleştirilmiş tablo listesi oluşturur.  Her liste öğesi, sütun değerlerini içeren bir iç listedir.
 

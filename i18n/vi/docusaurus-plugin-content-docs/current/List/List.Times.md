@@ -5,8 +5,6 @@ title: List.Times
 # List.Times
 
 
-## Description
-
 Tạo danh sách các giá trị time được cho sẵn một giá trị ban đầu, tổng cộng và giá thị thời lượng tăng dần.
 
 
@@ -21,7 +19,7 @@ List.Times(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một danh sách giá trị <code>time</code> có kích cỡ là <code>count</code>, bắt đầu tại <code>start</code>. Số gia cho sẵn, <code>step</code>, là giá trị <code>duration</code> được thêm vào mọi giá trị.
 

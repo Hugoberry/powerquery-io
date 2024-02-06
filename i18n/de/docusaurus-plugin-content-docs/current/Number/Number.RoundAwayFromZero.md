@@ -5,8 +5,6 @@ title: Number.RoundAwayFromZero
 # Number.RoundAwayFromZero
 
 
-## Description
-
 Gibt das Ergebnis der Aufrundung positiver Zahlen und der Abrundung negativer Zahlen zurück. Die Anzahl der Dezimalstellen kann angegeben werden.
 
 
@@ -20,7 +18,7 @@ Number.RoundAwayFromZero(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das Ergebnis der Rundung von <code>number</code> auf der Grundlage des Vorzeichens zurück. Positive Zahlen werden aufgerundet, negative Zahlen abgerundet.    Wenn <code>digits</code> angegeben wird, wird <code>number</code> auf die Anzahl <code>digits</code> der Dezimalstellen gerundet.  
 

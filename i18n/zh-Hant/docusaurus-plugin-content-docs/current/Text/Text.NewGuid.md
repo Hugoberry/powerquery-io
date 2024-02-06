@@ -5,8 +5,6 @@ title: Text.NewGuid
 # Text.NewGuid
 
 
-## Description
-
 傳回新的隨機全域唯一識別碼 (GUID)。
 
 
@@ -19,7 +17,7 @@ Text.NewGuid(
 ```
 
 
-## Details
+## Remarks
 
 傳回新的隨機全域唯一識別碼 (GUID)。
 

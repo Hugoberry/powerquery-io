@@ -5,8 +5,6 @@ title: Text.RemoveRange
 # Text.RemoveRange
 
 
-## Description
-
 Remove uma contagem de caracteres começando no deslocamento especificado
 
 
@@ -21,7 +19,7 @@ Text.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma cópia do valor de texto <code>text</code> com todos os caracteres na posição <code>offset</code> removida.    Um parâmetro <code>count</code> opcional pode ser usado para especificar o número de caracteres a serem removidos. O valor padrão de <code>count</code> é 1. Os valores de posição começam em 0.
 

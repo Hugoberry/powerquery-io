@@ -16,7 +16,7 @@ CommonDataService.Database(
 ```
 
 
-## Details
+## Remarks
 
 Kết nối với phiên bản Dataverse của bạn (Dynamics 365 và PowerApps).
 

@@ -5,8 +5,6 @@ title: List.TransformMany
 # List.TransformMany
 
 
-## Description
-
 Öğeleri girdi listesinden belirtilen işlevler kullanılarak dönüştürülen listeyi döndürür.
 
 
@@ -21,7 +19,7 @@ List.TransformMany(
 ```
 
 
-## Details
+## Remarks
 
 Öğeleri giriş listesinden yansıtılan bir liste döndürür.<br />    <br />    <code>collectionTransform</code> işlevi her öğeyi bir ara listeye dönüştürür ve <code>resultTransform</code> işlevi nihai sonucu oluşturmak amacıyla orijinal öğenin yanı sıra ara listeden bir öğe alır.<br />    <br />    <code>collectionTransform</code> işlevi, <code>(x as any) as list => ...</code> imzasını içerir, burada <code>x</code>, <code>list</code> konumunda bulunan bir öğedir.    <code>resultTransform</code> işlevi sonucun şeklini yansıtır ve <code>(x as any, y as any) as any => ...</code> imzasını içerir, burada <code>x</code>, <code>list</code> konumunda bulunan bir öğedir ve <code>y</code>, <code>x</code> öğesi <code>collectionTransform</code> konumuna aktarılarak oluşturulan listeden alınan bir öğedir.
 

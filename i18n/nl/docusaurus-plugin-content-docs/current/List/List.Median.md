@@ -5,8 +5,6 @@ title: List.Median
 # List.Median
 
 
-## Description
-
 Retourneert de mediaanwaarde uit de lijst.
 
 
@@ -20,7 +18,7 @@ List.Median(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt het mediaanitem in de lijst <code>list</code> als resultaat geretourneerd. Deze functie retourneert <code>null</code> als de lijst geen andere waarden dan <code>null</code> bevat. Als er een even aantal items is, kiest de functie de kleinste van de twee mediaanitems, tenzij de lijst uitsluitend bestaat uit waarden voor datum/tijd, duur, getallen of tijden. In dat geval wordt het gemiddelde van de twee items berekend.
 

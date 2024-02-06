@@ -5,8 +5,6 @@ title: Text.Remove
 # Text.Remove
 
 
-## Description
-
 入力テキスト値から、指定された文字または一連の文字をすべて削除します。
 
 
@@ -20,7 +18,7 @@ Text.Remove(
 ```
 
 
-## Details
+## Remarks
 
 <code>removeChars</code> からすべての文字を削除したうえで、テキスト値 <code>text</code> のコピーを返します。
 

@@ -5,8 +5,6 @@ title: AzureEnterprise.Contents
 # AzureEnterprise.Contents
 
 
-## Description
-
 Kaydınızla ilişkilendirilen Azure Kurumsal REST API uç noktasının URL&#39;sini girin
 
 
@@ -20,7 +18,7 @@ AzureEnterprise.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Azure Kurumsal API'si için sağlanmış URL'ye yapılan çağrının ikili sonuçlarını döndürür.
 

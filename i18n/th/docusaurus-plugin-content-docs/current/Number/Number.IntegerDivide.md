@@ -5,8 +5,6 @@ title: Number.IntegerDivide
 # Number.IntegerDivide
 
 
-## Description
-
 หารสองจำนวนและส่งกลับจำนวนเต็มของผลลัพธ์
 
 
@@ -21,7 +19,7 @@ Number.IntegerDivide(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนจำนวนเต็มของผลลัพธ์จากการหารตัวเลข <code>number1</code> โดยตัวเลขอีกตัวหนึ่ง <code>number2</code>    ถ้า <code>number1</code> หรือ <code>number2</code> เป็น null <code>ตัวเลข.หารจำนวนเต็ม</code> จะส่งคืนค่าเป็น null      <ul>        <li><code>number1</code>: ตัวตั้ง</li>        <li><code>number2</code>: ตัวหาร</li>      </ul>
 

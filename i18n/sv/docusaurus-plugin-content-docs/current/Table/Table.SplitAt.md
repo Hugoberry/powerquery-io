@@ -5,8 +5,6 @@ title: Table.SplitAt
 # Table.SplitAt
 
 
-## Description
-
 Returnerar en lista som innehåller det första antal rader som anges och de återstående raderna.
 
 
@@ -20,7 +18,7 @@ Table.SplitAt(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en lista som innehåller två tabeller: en tabell med de första N raderna i <code>table</code> (som anges av <code>count</code>) och en tabell som innehåller de återstående raderna i <code>table</code>.Om tabellerna i den resulterande listan räknas upp en gång och i ordning räknar funktionen upp <code>table</code> bara en gång.
 

@@ -5,8 +5,6 @@ title: Date.ToRecord
 # Date.ToRecord
 
 
-## Description
-
 Zwraca rekord zawierający części wartości typu date.
 
 
@@ -19,7 +17,7 @@ Date.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca rekord zawierający części danej wartości typu date (<code>date</code>). <ul>        <li><code>date</code>: wartość typu <code>date</code>, na podstawie części której jest tworzony rekord.</li>      </ul>
 

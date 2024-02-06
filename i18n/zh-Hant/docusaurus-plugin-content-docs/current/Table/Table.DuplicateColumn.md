@@ -5,8 +5,6 @@ title: Table.DuplicateColumn
 # Table.DuplicateColumn
 
 
-## Description
-
 複製具有指定名稱的資料行。值和類型是從來源資料行複製的。
 
 
@@ -22,7 +20,7 @@ Table.DuplicateColumn(
 ```
 
 
-## Details
+## Remarks
 
 將名為 <code>columnName</code> 的資料行複製到資料表 <code>table</code>。資料行 <code>newColumnName</code> 的值和類型是從資料行 <code>columnName</code> 複製的。
 

@@ -5,8 +5,6 @@ title: Smartsheet.Query
 # Smartsheet.Query
 
 
-## Description
-
 Hiermee wordt een JSON-resultaat geretourneerd via de Smartsheet-API
 
 
@@ -21,7 +19,7 @@ Smartsheet.Query(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een aanroep verzonden naar de Smartsheet 2.0 REST API op het opgegeven eindpunt en worden de resultaten geretourneerd als JSON-record.
 

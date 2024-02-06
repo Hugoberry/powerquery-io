@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.Contents
 # Dynamics365BusinessCentral.Contents
 
 
-## Description
-
 Voer uw Dynamics 365 Business Central-omgeving en bedrijf in.
 
 
@@ -19,7 +17,7 @@ Dynamics365BusinessCentral.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tabel met relevante Dynamics 365 Business Central-gegevens geretourneerd. 
 

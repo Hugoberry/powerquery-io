@@ -5,8 +5,6 @@ title: List.RemoveRange
 # List.RemoveRange
 
 
-## Description
-
 Değerlerin count sayısını belirtilen konumdan başlayarak kaldırır.
 
 
@@ -21,7 +19,7 @@ List.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> içindeki <code>count</code> değeri belirtilen <code>index</code> konumundan başlayarak kaldırır.
 

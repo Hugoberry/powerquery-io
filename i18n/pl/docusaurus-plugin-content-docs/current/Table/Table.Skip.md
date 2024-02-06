@@ -5,8 +5,6 @@ title: Table.Skip
 # Table.Skip
 
 
-## Description
-
 Zwraca tabelę powstałą w wyniku pominięcia określonej liczby pierwszych wierszy z innej tabeli.
 
 
@@ -20,7 +18,7 @@ Table.Skip(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę, która nie zawiera określonej liczby pierwszych wierszy (<code>countOrCondition</code>) z tabeli <code>table</code>.     Liczba pominiętych wierszy jest zależna od opcjonalnego parametru <code>countOrCondition</code>.     <ul>    <li> Pominięcie parametru <code>countOrCondition</code> spowoduje pominięcie tylko pierwszego wiersza. </li>    <li> Jeśli parametr <code>countOrCondition</code> jest liczbą, określa liczbę wierszy (licząc od góry), które zostaną pominięte. </li>    <li>Jeśli parametr <code>countOrCondition</code> jest warunkiem, będą pomijane wiersze spełniające ten warunek, aż do wiersza, który go nie spełnia.</li>    </ul>
 

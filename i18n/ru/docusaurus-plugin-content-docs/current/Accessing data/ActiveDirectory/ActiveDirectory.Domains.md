@@ -5,8 +5,6 @@ title: ActiveDirectory.Domains
 # ActiveDirectory.Domains
 
 
-## Description
-
 Возвращает список доменов Active Directory в том же лесу, что и указанный домен, или из домена текущего компьютера, если значение не указано.
 
 
@@ -19,7 +17,7 @@ ActiveDirectory.Domains(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает список доменов Active Directory в том же лесу, что и указанный домен, или из домена текущего компьютера, если значение не указано.
 

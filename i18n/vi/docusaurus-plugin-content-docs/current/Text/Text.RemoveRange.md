@@ -5,8 +5,6 @@ title: Text.RemoveRange
 # Text.RemoveRange
 
 
-## Description
-
 Loại bố số lượng ký tự bắt đầu tại phần bù cho sẵn
 
 
@@ -21,7 +19,7 @@ Text.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bản sao của giá trị văn bản <code>text</code> đã loại bỏ tất cả ký tự khỏi vị trí <code>offset</code>.    Có thể dùng tham số tùy chọn <code>count</code> để chỉ định số lượng ký tự sẽ loại bỏ. Giá trị mặc định của <code>count</code> là 1. Giá trị vị trí bắt đầu tại 0.
 

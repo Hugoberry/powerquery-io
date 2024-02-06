@@ -5,8 +5,6 @@ title: List.Zip
 # List.Zip
 
 
-## Description
-
 Trả về danh sách các danh sách bằng cách kết hợp các mục ở cùng một vị trí trong nhiều danh sách.
 
 
@@ -19,7 +17,7 @@ List.Zip(
 ```
 
 
-## Details
+## Remarks
 
 Lấy danh sách các danh sách, <code>lists</code> và trả về danh sách các danh sách kết hợp các mục ở cùng một vị trí.
 

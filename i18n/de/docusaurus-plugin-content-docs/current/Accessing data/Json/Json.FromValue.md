@@ -5,8 +5,6 @@ title: Json.FromValue
 # Json.FromValue
 
 
-## Description
-
 Generiert eine JSON-Darstellung für einen vorgegebenen Wert.
 
 
@@ -20,7 +18,7 @@ Json.FromValue(
 ```
 
 
-## Details
+## Remarks
 
 Generiert eine JSON-Darstellung eines angegebenen Werts "<code>value</code>" mit der durch "<code>encoding</code>" angegebenen Textcodierung. Wenn "<code>encoding</code>" nicht angegeben wird, wird UTF8 verwendet. Werte werden wie folgt dargestellt:<br /> <ul>        <li>NULL-, Text- und logische Werte werden als die entsprechenden JSON-Typen dargestellt.</li>        <li>Zahlen werden als Zahlen in JSON dargestellt. Nur <code>#infinity</code>, <code>-#infinity</code> und <code>#nan</code> werden in NULL konvertiert.</li>        <li>Listen werden als JSON-Arrays dargestellt.</li>        <li>Datensätze werden als JSON-Objekte dargestellt</li>        <li>Tabellen werden als ein Array von Objekten dargestellt.</li>        <li>Datums- und Uhrzeitangaben, datetime-, datetimezones-Werte und Dauerangaben werden als ISO-8601-Text dargestellt.</li>        <li>Binärwerte werden als base-64-codierter Text dargestellt.</li>        <li>Typen und Funktionen generieren einen Fehler.</li> </ul>    
 

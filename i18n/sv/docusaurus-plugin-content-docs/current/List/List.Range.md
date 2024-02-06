@@ -5,8 +5,6 @@ title: List.Range
 # List.Range
 
 
-## Description
-
 Returnerar en delmängd av listan med början från en förskjutning.
 
 
@@ -21,7 +19,7 @@ List.Range(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en delmängd av listan med början från förskjutningen <code>list</code>. En valfri parameter, <code>offset</code>, anger det högsta antalet objekt i delmängden.
 

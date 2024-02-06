@@ -5,8 +5,6 @@ title: List.Distinct
 # List.Distinct
 
 
-## Description
-
 重複が削除された値のリストを返します。
 
 
@@ -20,7 +18,7 @@ List.Distinct(
 ```
 
 
-## Details
+## Remarks
 
 重複が削除された、リスト <code>list</code> 内のすべての値を含むリストを返します。リストが空の場合、結果は空のリストになります。
 

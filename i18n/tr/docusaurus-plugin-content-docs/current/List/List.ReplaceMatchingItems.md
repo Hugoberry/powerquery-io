@@ -5,8 +5,6 @@ title: List.ReplaceMatchingItems
 # List.ReplaceMatchingItems
 
 
-## Description
-
 Her \{ old, new } değişimini uygular.
 
 
@@ -21,7 +19,7 @@ List.ReplaceMatchingItems(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesine verilen değişiklikleri uygular. <code>replacements</code> değiştirme işlemi bir listede sağlanan eski ve yeni değer olmak üzere iki değer içeren bir listeden oluşur.    Eşitlik sınamasını denetlemek için <code>equationCriteria</code> isteğe bağlı eşitlik ölçüt değeri belirtilebilir.
 

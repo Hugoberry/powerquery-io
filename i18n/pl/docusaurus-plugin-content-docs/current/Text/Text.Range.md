@@ -5,8 +5,6 @@ title: Text.Range
 # Text.Range
 
 
-## Description
-
 Zwraca podciąg znaleziony przy przesunięciu.
 
 
@@ -21,7 +19,7 @@ Text.Range(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca podciąg z tekstu <code>text</code> znaleziony przy przesunięciu <code>offset</code>.    Możesz dołączyć opcjonalny parametr <code>count</code>, aby określić liczbę zwracanych znaków. Zgłasza błąd w przypadku zbyt małej liczby znaków.
 

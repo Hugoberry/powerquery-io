@@ -5,8 +5,6 @@ title: AzureSpark.Tables
 # AzureSpark.Tables
 
 
-## Description
-
 Geef de tabellen in een Azure Spark-exemplaar weer.
 
 
@@ -20,7 +18,7 @@ AzureSpark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Geef de tabellen in een Azure Spark-exemplaar weer.
 

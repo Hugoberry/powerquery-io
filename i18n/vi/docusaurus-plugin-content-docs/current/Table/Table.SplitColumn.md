@@ -5,8 +5,6 @@ title: Table.SplitColumn
 # Table.SplitColumn
 
 
-## Description
-
 Tách các cột được chỉ định thành một tập hợp cột bổ sung bằng chức năng tách được chỉ định.
 
 
@@ -24,7 +22,7 @@ Table.SplitColumn(
 ```
 
 
-## Details
+## Remarks
 
 Tách các cột được chỉ định thành một tập hợp cột bổ sung bằng chức năng tách được chỉ định.
 

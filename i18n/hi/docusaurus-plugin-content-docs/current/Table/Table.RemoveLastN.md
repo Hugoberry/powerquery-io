@@ -5,8 +5,6 @@ title: Table.RemoveLastN
 # Table.RemoveLastN
 
 
-## Description
-
 अंतिम N पंक्तियों के साथ एक तालिका लौटाता है.
 
 
@@ -20,7 +18,7 @@ Table.RemoveLastN(
 ```
 
 
-## Details
+## Remarks
 
 ऐसी तालिका लौटाता है, जिसमें तालिका <code>table</code> की अंतिम <code>countOrCondition</code> पंक्तियाँ नहीं होती हैं.        निकाली गई पंक्तियों की संख्या वैकल्पिक पैरामीटर <code>countOrCondition</code> पर निर्भर होती है.    <ul>    <li> यदि <code>countOrCondition</code> को छोड़ा जाता है, तो केवल अंतिम पंक्ति निकाली जाती है. </li>    <li> यदि <code>countOrCondition</code> कोई संख्या हो, तो उतनी पंक्तियाँ (नीचे से प्रारंभ करते हुए) निकाल दी जाएँगी. </li>    <li> यदि <code>countOrCondition</code> कोई शर्त हो, तो किसी पंक्ति के शर्त पूरा न करने तक, शर्त को पूरा करने वाली पंक्तियों को निकाल दिया जाएगा.</li>    </ul>
 

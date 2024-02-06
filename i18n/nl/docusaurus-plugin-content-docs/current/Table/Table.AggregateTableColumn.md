@@ -5,8 +5,6 @@ title: Table.AggregateTableColumn
 # Table.AggregateTableColumn
 
 
-## Description
-
 Maakt een aggregatie van een kolom met tabellen in meerdere kolommen in de tabel die optreedt als container.
 
 
@@ -21,7 +19,7 @@ Table.AggregateTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Maakt een aggregatie van tabellen in <code>table</code>[<code>column</code>] in meerdere kolommen waarin aggregatiewaarden voor de tabellen staan. <code>aggregations</code> wordt gebruikt voor het opgeven van de kolommen die de te aggregeren tabellen bevatten, de aggregatiefuncties die moeten worden toegepast op de tabellen om de waarden voor die tabellen te generen, en de namen van de aggregatietabellen die moeten worden gemaakt.
 

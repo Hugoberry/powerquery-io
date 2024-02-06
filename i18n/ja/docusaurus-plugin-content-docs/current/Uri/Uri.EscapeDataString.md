@@ -5,8 +5,6 @@ title: Uri.EscapeDataString
 # Uri.EscapeDataString
 
 
-## Description
-
 RFC 3986 に準拠して特殊文字をエンコードします。
 
 
@@ -19,7 +17,7 @@ Uri.EscapeDataString(
 ```
 
 
-## Details
+## Remarks
 
 入力 <code>data</code> に含まれている特殊文字を RFC 3986 の規則に則ってエンコードします。
 

@@ -5,8 +5,6 @@ title: DateTime.ToRecord
 # DateTime.ToRecord
 
 
-## Description
-
 Returnerar en post som innehåller delarna i datetime-värdet.
 
 
@@ -19,7 +17,7 @@ DateTime.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en post som innehåller delarna i det angivna datetime-värdet <code>dateTime</code>. <ul>        <li><code>dateTime</code>: Ett <code>datetime</code>-värde som posten med värdets delar ska beräknas från.</li>      </ul>
 

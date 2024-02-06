@@ -5,8 +5,6 @@ title: DateTime.Date
 # DateTime.Date
 
 
-## Description
-
 ส่งกลับคอมโพเนนต์วันที่ของค่าวันที่ เวลาของวันที่ หรือโซนเวลาของวันที่ที่ระบุ
 
 
@@ -19,7 +17,7 @@ DateTime.Date(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับคอมโพเนนต์วันที่ของ <code>dateTime</code> ค่า <code>date</code>, <code>datetime</code>  หรือ <code>datetimezone</code> ที่ระบุ
 

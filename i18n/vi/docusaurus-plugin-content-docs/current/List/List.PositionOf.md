@@ -5,8 +5,6 @@ title: List.PositionOf
 # List.PositionOf
 
 
-## Description
-
 Trả về (các) phần bù của một giá trị trong một danh sách.
 
 
@@ -22,7 +20,7 @@ List.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Trả về phần bù tại đó giá trị <code>value</code> xuất hiện trong danh sách <code>list</code>. Trả về -1 nếu giá trị không xuất hiện.    Có thể chỉ định tham số lần xuất hiện tùy chọn <code>occurrence</code>.<ul>   <li><code>occurrence</code>: Số lần xuất hiện tối đa để báo cáo.</li></ul>
 

@@ -5,8 +5,6 @@ title: Table.ContainsAll
 # Table.ContainsAll
 
 
-## Description
-
 Wskazuje, czy wszystkie określone rekordy występują jako wiersze w tabeli.
 
 
@@ -21,7 +19,7 @@ Table.ContainsAll(
 ```
 
 
-## Details
+## Remarks
 
 Wskazuje, czy wszystkie rekordy określone na liście rekordów <code>rows</code> występują jako wiersze w tabeli <code>table</code>.    Opcjonalny parametr <code>equationCriteria</code> można określić, aby sterować porównywaniem wierszy tabeli.
 

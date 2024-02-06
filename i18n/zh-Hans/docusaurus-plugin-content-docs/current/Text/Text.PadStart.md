@@ -5,8 +5,6 @@ title: Text.PadStart
 # Text.PadStart
 
 
-## Description
-
 通过填充给定文本的开头，返回指定长度的文本。
 
 
@@ -21,7 +19,7 @@ Text.PadStart(
 ```
 
 
-## Details
+## Remarks
 
 通过在文本值 <code>text</code> 的开头插入空格，返回填充到长度 <code>count</code> 的 <code>text</code> 值。    可选字符 <code>character</code> 可用于指定用于填充的字符。默认的填充字符是空格。
 

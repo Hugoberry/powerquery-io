@@ -5,8 +5,6 @@ title: Excel.Workbook
 # Excel.Workbook
 
 
-## Description
-
 Devolve o conteúdo do livro Excel.
 
 
@@ -21,7 +19,7 @@ Excel.Workbook(
 ```
 
 
-## Details
+## Remarks
 
 Devolve os conteúdos do livro Excel.    <ul>     <li> <code>useHeaders</code> pode ser nulo, um valor lógico (verdadeiro/falso) que indica se a primeira linha de cada tabela devolvida deve ser tratada como cabeçalho, ou um registo de opções. Predefinição: falso.</li>     <li> <code>delayTypes</code> pode ser nulo ou lógico um valor (verdadeiro/falso) que indica se as colunas de cada tabela devolvida devem ser deixadas sem tipo. Predefinição: falso.</li>    </ul>    Se for especificado um registo para <code>useHeaders</code> (e <code>delayTypes</code> for nulo), podem ser fornecidos os seguintes campos de registo:    <ul>     <li> <code>UseHeaders</code>: Pode ser nulo ou lógico um valor (verdadeiro/falso) que indica se a primeira linha de cada tabela devolvida deve ser tratada como cabeçalho. Predefinição: falso.</li>     <li> <code>DelayTypes</code>: pode ser nulo ou lógico um valor (verdadeiro/falso) que indica se as colunas de cada tabela devolvida devem ser deixadas sem tipo. Predefinição: falso.</li>     <li> <code>InferSheetDimensions</code>: pode ser nulo ou lógico um valor (verdadeiro/falso) que indica se a área de uma folha de cálculo que contenha dados deve ser inferida ao ler a própria folha de cálculo, em vez de ao ler os metadados de dimensões do ficheiro. Pode ser útil nos casos em que os metadados de dimensões estão incorretos. Tenha em atenção que esta opção só é suportada para ficheiros Excel Open XML e não para ficheiros Excel legados. Predefinição: falso.</li>    </ul>    
 

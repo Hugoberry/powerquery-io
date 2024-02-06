@@ -5,8 +5,6 @@ title: Number.Permutations
 # Number.Permutations
 
 
-## Description
-
 順列の数を返します。
 
 
@@ -20,7 +18,7 @@ Number.Permutations(
 ```
 
 
-## Details
+## Remarks
 
 項目数 <code>setSize</code> と指定された順列のサイズ <code>permutationSize</code> から生成できる順列の数を返します。
 

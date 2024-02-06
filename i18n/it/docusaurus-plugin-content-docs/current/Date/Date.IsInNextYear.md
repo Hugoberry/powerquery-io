@@ -5,8 +5,6 @@ title: Date.IsInNextYear
 # Date.IsInNextYear
 
 
-## Description
-
 Indica se questo valore date rientra nell&#39;anno successivo, come determinato dalla data e dall&#39;ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nell&#39;anno corrente.
 
 
@@ -19,7 +17,7 @@ Date.IsInNextYear(
 ```
 
 
-## Details
+## Remarks
 
 Indica se il valore datetime specificato <code>dateTime</code> rientra nell'anno successivo, come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nell'anno corrente.      <ul>      <li><code>dateTime</code>: valore <code>date</code>, <code>datetime</code> o <code>datetimezone</code>.</li>      </ul>
 

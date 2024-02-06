@@ -5,8 +5,6 @@ title: Number.BitwiseShiftLeft
 # Number.BitwiseShiftLeft
 
 
-## Description
-
 Skifter bitsættet til venstre.
 
 
@@ -20,7 +18,7 @@ Number.BitwiseShiftLeft(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer resultatet af at udføre et bitvis skift til venstre på <code>number1</code> med det angivne antal bit <code>number2</code>.
 

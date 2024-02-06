@@ -5,8 +5,6 @@ title: List.StandardDeviation
 # List.StandardDeviation
 
 
-## Description
-
 Trả về ước tính dựa trên mẫu của độ lệch chuẩn.
 
 
@@ -19,7 +17,7 @@ List.StandardDeviation(
 ```
 
 
-## Details
+## Remarks
 
 Trả về ước tính dựa trên mẫu của độ lệch chuẩn của các giá trị trong danh sách <code>numbersList</code>.    Nếu <code>numbersList</code> là danh sách số thì một số được trả về.    Một ngoại lệ được đưa ra trên một danh sách trống hoặc một danh sách mục không thuộc loại <code>number</code>.
 

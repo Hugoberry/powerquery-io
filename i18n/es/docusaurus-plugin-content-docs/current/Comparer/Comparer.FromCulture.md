@@ -5,8 +5,6 @@ title: Comparer.FromCulture
 # Comparer.FromCulture
 
 
-## Description
-
 Devuelve una función comparadora basada en la cultura y la distinción entre mayúsculas y minúsculas especificadas.
 
 
@@ -20,7 +18,7 @@ Comparer.FromCulture(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una función comparadora que utiliza la <code>culture</code> y la distinción entre mayúsculas y minúsculas especificada por <code>ignoreCase</code> para realizar las comparaciones..<br />      <br />      Una función comparadora acepta dos argumentos y devuelve -1, 0 o 1 en función de si el primer valor es menor, igual o mayor que el segundo.<br />      <br />      El valor por defecto para <code>ignoreCase</code> es false. El <code>culture</code> debe ser una de las localizaciones soportadas por el framework .NET (por ejemplo, "en-US").    
 

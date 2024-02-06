@@ -5,8 +5,6 @@ title: GoogleAnalytics.Accounts
 # GoogleAnalytics.Accounts
 
 
-## Description
-
 ส่งคืนบัญชี Google Analytics
 
 
@@ -19,7 +17,7 @@ GoogleAnalytics.Accounts(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนบัญชี Google Analytics ซึ่งสามารถเข้าถึงจากข้อมูลประจำตัวปัจจุบัน
 

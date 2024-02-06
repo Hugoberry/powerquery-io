@@ -5,8 +5,6 @@ title: RowExpression.Column
 # RowExpression.Column
 
 
-## Description
-
 ส่งกลับทรีไวยากรณ์เชิงนามธรรม (AST) ที่แสดงการเข้าถึงคอลัมน์ภายในนิพจน์แถว
 
 
@@ -19,7 +17,7 @@ RowExpression.Column(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับทรีไวยากรณ์เชิงนามธรรม (AST) ที่แสดงการเข้าถึง <code>columnName</code> คอลัมน์ของแถวภายในนิพจน์แถว
 

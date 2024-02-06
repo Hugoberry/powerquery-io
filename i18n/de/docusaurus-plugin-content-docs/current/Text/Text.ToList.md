@@ -5,8 +5,6 @@ title: Text.ToList
 # Text.ToList
 
 
-## Description
-
 Gibt eine Liste mit Zeichenwerten auf der Grundlage des angegebenen Textwerts zurück.
 
 
@@ -19,7 +17,7 @@ Text.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Liste mit Zeichenwerten auf der Grundlage des angegebenen Textwerts (<code>text</code>) zurück.
 

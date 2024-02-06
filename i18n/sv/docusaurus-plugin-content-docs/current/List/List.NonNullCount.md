@@ -5,8 +5,6 @@ title: List.NonNullCount
 # List.NonNullCount
 
 
-## Description
-
 Returnerar antalet objekt i listan som inte är noll.
 
 
@@ -19,7 +17,7 @@ List.NonNullCount(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar antalet objekt i listan <code>list</code> som inte är noll.
 

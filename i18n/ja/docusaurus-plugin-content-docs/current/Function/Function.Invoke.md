@@ -5,8 +5,6 @@ title: Function.Invoke
 # Function.Invoke
 
 
-## Description
-
 指定された関数を呼び出します
 
 
@@ -20,7 +18,7 @@ Function.Invoke(
 ```
 
 
-## Details
+## Remarks
 
 指定された引数のリストを使用して特定の関数を呼び出し、結果を返します。
 

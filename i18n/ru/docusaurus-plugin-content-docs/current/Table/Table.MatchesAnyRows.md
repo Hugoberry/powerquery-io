@@ -5,8 +5,6 @@ title: Table.MatchesAnyRows
 # Table.MatchesAnyRows
 
 
-## Description
-
 Указывает, соответствует ли какая-либо строка в таблице заданному условию.
 
 
@@ -20,7 +18,7 @@ Table.MatchesAnyRows(
 ```
 
 
-## Details
+## Remarks
 
 Указывает, есть ли в <code>table</code> строка, соответствующая заданному <code>condition</code>. Возвращает <code>true</code>, если хотя бы одна строка соответствует условию, <code>false</code> - в противном случае.
 

@@ -5,8 +5,6 @@ title: Table.DemoteHeaders
 # Table.DemoteHeaders
 
 
-## Description
-
 Sütun üst bilgilerinin düzeyini ilk değer satırına düşürür.
 
 
@@ -19,7 +17,7 @@ Table.DemoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Sütun üst bilgilerinin düzeyini (örn. sütun başlıkları) ilk değer satırına düşürür. Varsayılan sütun adları "Column1", "Column2" vb. şekildedir.
 

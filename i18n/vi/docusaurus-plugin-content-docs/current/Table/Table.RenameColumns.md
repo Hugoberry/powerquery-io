@@ -5,8 +5,6 @@ title: Table.RenameColumns
 # Table.RenameColumns
 
 
-## Description
-
 Áp dụng (các) tác vụ đổi tên có dạng \{old, new}.
 
 
@@ -21,7 +19,7 @@ Table.RenameColumns(
 ```
 
 
-## Details
+## Remarks
 
 Thực hiện các tác vụ đổi tên cho sẵn đối với các cột trong bảng <code>table</code>. Tác vụ thay thế <code>renames</code> bao gồm một danh sách có hai giá trị là tên cột cũ và tên cột mới, được cung cấp trong một danh sách.    Nếu cột này không tồn tại thì một ngoại lệ được đưa ra trừ khi tham số tùy chọn <code>missingField</code> chỉ định một thay thế (ví dụ: <code>MissingField.UseNull</code> hoặc <code>MissingField.Ignore</code>).
 

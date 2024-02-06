@@ -5,8 +5,6 @@ title: Table.UnpivotOtherColumns
 # Table.UnpivotOtherColumns
 
 
-## Description
-
 Zet alle kolommen behalve een opgegeven set om in paren met kenmerken en waarden.
 
 
@@ -22,7 +20,7 @@ Table.UnpivotOtherColumns(
 ```
 
 
-## Details
+## Remarks
 
 Zet alle kolommen behalve een opgegeven set om in paren met kenmerken en waarden, gecombineerd met de rest van de waarden in elke rij.
 

@@ -5,8 +5,6 @@ title: Table.FillUp
 # Table.FillUp
 
 
-## Description
-
 Phân bố giá trị của ô tới các ô có giá trị rỗng ở phía trên trong cột.
 
 
@@ -20,7 +18,7 @@ Table.FillUp(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bảng từ <code>table</code> được chỉ định trong đó giá trị của ô tiếp theo được phân bố tới các ô có giá trị rỗng ở phía trên trong <code>columns</code> được chỉ định.
 

@@ -5,8 +5,6 @@ title: Text.PositionOfAny
 # Text.PositionOfAny
 
 
-## Description
-
 Listelenen herhangi bir karakterin metin değerindeki ilk konumunu döndürür (bulunmazsa -1).
 
 
@@ -21,7 +19,7 @@ Text.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> öğesinde bulunan <code>characters</code> listesindeki herhangi bir karakterin ilk konumunu döndürür.    Döndürülecek oluşum konumunu belirtmek üzere isteğe bağlı <code>occurrence</code> parametresi kullanılabilir.
 

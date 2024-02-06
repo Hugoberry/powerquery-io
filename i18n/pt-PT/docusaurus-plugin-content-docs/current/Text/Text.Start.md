@@ -5,8 +5,6 @@ title: Text.Start
 # Text.Start
 
 
-## Description
-
 Devolve o início do texto.
 
 
@@ -20,7 +18,7 @@ Text.Start(
 ```
 
 
-## Details
+## Remarks
 
 Devolve os primeiros <code>count</code> carateres de <code>text</code> como um valor de texto.
 

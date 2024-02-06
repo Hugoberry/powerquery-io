@@ -5,8 +5,6 @@ title: Type.ForRecord
 # Type.ForRecord
 
 
-## Description
-
 Devuelve un tipo que representa los registros con campos o restricciones de tipos específicos.
 
 
@@ -20,7 +18,7 @@ Type.ForRecord(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un tipo que representa los registros con campos o restricciones de tipos específicos.
 

@@ -5,8 +5,6 @@ title: Record.FieldOrDefault
 # Record.FieldOrDefault
 
 
-## Description
-
 ส่งกลับค่าของเขตข้อมูลที่ระบุในระเบียนหรือค่าเริ่มต้น ถ้าไม่พบเขตข้อมูล
 
 
@@ -21,7 +19,7 @@ Record.FieldOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่าของเขตข้อมูลที่ระบุ <code>field</code> ในระเบียน <code>record</code> ถ้าไม่พบเขตข้อมูล จะมีการส่งกลับ <code>defaultValue</code> ที่เป็นทางเลือก
 

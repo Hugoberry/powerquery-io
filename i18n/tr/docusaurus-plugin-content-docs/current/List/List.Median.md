@@ -5,8 +5,6 @@ title: List.Median
 # List.Median
 
 
-## Description
-
 Listedeki medyan değerini döndürür.
 
 
@@ -20,7 +18,7 @@ List.Median(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesinin ortanca öğesini döndürür. Liste <code>null</code> olmayan bir değer içermiyorsa bu işlev <code>null</code> döndürür.    Çift sayıda öğe varsa liste yalnızca tarih ve saat, süre, sayı veya saatlerden oluşmadığı sürece işlev iki ortanca öğeden daha küçük olanı seçer,    aksi takdirde iki öğenin ortalamasını döndürür.
 

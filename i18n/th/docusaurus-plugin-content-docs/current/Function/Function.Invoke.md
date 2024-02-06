@@ -5,8 +5,6 @@ title: Function.Invoke
 # Function.Invoke
 
 
-## Description
-
 เรียกใช้ฟังก์ชันที่ระบุ
 
 
@@ -20,7 +18,7 @@ Function.Invoke(
 ```
 
 
-## Details
+## Remarks
 
 เรียกใช้ฟังก์ชันที่ระบุโดยใช้รายการที่ระบุของอาร์กิวเมนต์และส่งกลับผลลัพธ์
 

@@ -5,8 +5,6 @@ title: Text.At
 # Text.At
 
 
-## Description
-
 Belirtilen konumdaki karakteri döndürür.
 
 
@@ -20,7 +18,7 @@ Text.At(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> metin değerindeki, <code>index</code> konumundaki karakteri döndürür. Metindeki ilk karakter 0 konumundadır.
 

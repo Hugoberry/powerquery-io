@@ -5,8 +5,6 @@ title: Record.AddField
 # Record.AddField
 
 
-## Description
-
 将字段添加到记录。
 
 
@@ -22,7 +20,7 @@ Record.AddField(
 ```
 
 
-## Details
+## Remarks
 
 给定字段 <code>fieldName</code> 的名称和值 <code>value</code>，将字段添加到记录 <code>record</code>。
 

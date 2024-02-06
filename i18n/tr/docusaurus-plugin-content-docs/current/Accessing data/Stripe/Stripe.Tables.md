@@ -5,8 +5,6 @@ title: Stripe.Tables
 # Stripe.Tables
 
 
-## Description
-
 Mevcut Stripe tablolarının ve işlevlerinin listelendiği bir tablo döndürür.
 
 
@@ -19,7 +17,7 @@ Stripe.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Mevcut Stripe tablolarının ve işlevlerinin listelendiği bir tablo döndürür.
 

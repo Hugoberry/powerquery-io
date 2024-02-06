@@ -5,8 +5,6 @@ title: Table.MatchesAnyRows
 # Table.MatchesAnyRows
 
 
-## Description
-
 Cho biết có hàng nào trong bảng đáp ứng điều kiện cho sẵn hay không.
 
 
@@ -20,7 +18,7 @@ Table.MatchesAnyRows(
 ```
 
 
-## Details
+## Remarks
 
 Cho biết có hàng nào trong <code>table</code> khớp với <code>condition</code> cho sẵn hay không. Trả về <code>true</code> nếu có hàng khớp, <code>false</code> nếu ngược lại.
 

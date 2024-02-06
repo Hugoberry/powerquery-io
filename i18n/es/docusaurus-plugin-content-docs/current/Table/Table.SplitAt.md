@@ -5,8 +5,6 @@ title: Table.SplitAt
 # Table.SplitAt
 
 
-## Description
-
 Devuelve una lista que contiene las primeras filas de recuento especificadas y las filas restantes.
 
 
@@ -20,7 +18,7 @@ Table.SplitAt(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una lista que contiene dos tablas: una tabla con las primeras N filas de <code>table</code> (según lo especificado por <code>count</code>) y una tabla que contiene las filas restantes de <code>table</code>.. Si las tablas de la lista resultante se enumeran exactamente una vez y en orden, la función <code>table</code> enumerará sólo una vez.
 

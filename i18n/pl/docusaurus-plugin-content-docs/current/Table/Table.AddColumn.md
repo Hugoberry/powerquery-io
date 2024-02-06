@@ -5,8 +5,6 @@ title: Table.AddColumn
 # Table.AddColumn
 
 
-## Description
-
 Dodaje kolumnę o określonej nazwie. Wartość jest obliczana przy użyciu określonej funkcji wyboru wykonywanej na każdym wierszu wejściowym.
 
 
@@ -22,7 +20,7 @@ Table.AddColumn(
 ```
 
 
-## Details
+## Remarks
 
 Dodaje kolumnę o nazwie <code>newColumnName</code> do tabeli <code>table</code>. Wartości kolumny są obliczane przy użyciu określonej funkcji wyboru <code>columnGenerator</code> wykonywanej na każdym wierszu wejściowym.
 

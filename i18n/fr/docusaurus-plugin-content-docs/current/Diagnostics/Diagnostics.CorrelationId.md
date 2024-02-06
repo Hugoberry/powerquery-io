@@ -5,8 +5,6 @@ title: Diagnostics.CorrelationId
 # Diagnostics.CorrelationId
 
 
-## Description
-
 Renvoie un identifiant opaque permettant d’établir une corrélation entre les requêtes entrantes et les demandes sortantes.
 
 
@@ -19,7 +17,7 @@ Diagnostics.CorrelationId(
 ```
 
 
-## Details
+## Remarks
 
 Renvoie un identifiant opaque permettant d’établir une corrélation entre les requêtes entrantes et les demandes sortantes.
 

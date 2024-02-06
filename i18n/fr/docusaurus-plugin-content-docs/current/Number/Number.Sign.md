@@ -5,8 +5,6 @@ title: Number.Sign
 # Number.Sign
 
 
-## Description
-
 Retourne 1 si le nombre est positif, -1 s&#39;il est négatif, et 0 s&#39;il est zéro.
 
 
@@ -19,7 +17,7 @@ Number.Sign(
 ```
 
 
-## Details
+## Remarks
 
 Retourne 1 si <code>number</code> est un nombre est positif, -1 s'il est négatif, et 0 s'il est zéro.    Si <code>number</code> a la valeur null, <code>Number.Sign</code> retourne null.
 

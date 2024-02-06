@@ -5,8 +5,6 @@ title: Stripe.Method
 # Stripe.Method
 
 
-## Description
-
 Foretager et kald til Stripe-API&#39;en.
 
 
@@ -21,7 +19,7 @@ Stripe.Method(
 ```
 
 
-## Details
+## Remarks
 
 Foretager et opkald til Stripe-API'en på https://api.stripe.com/v1/<code>metode</code>, hvor posten <code>additionalParameters</code> er godkendt som yderligere parametre og listen <code>ColumnNames</code> viser de forventede kolonnenavne. Stripe-version 2015-10-16 anvendes.
 

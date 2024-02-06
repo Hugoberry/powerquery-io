@@ -5,8 +5,6 @@ title: Table.PositionOfAny
 # Table.PositionOfAny
 
 
-## Description
-
 テーブル内の指定されたいずれかの行の位置を返します。
 
 
@@ -22,7 +20,7 @@ Table.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 最初に出現する <code>rows</code> の一覧の <code>table</code> から行の位置を返します。1 つも出現しない場合は -1 を返します。    <ul>    <li><code>table</code>: 入力テーブル。</li>       <li><code>rows</code>: 位置を調べるテーブル内の行の一覧。</li>       <li><code>occurrence</code>: <i>[省略可能]</i> 出現するどの行を返すかを指定します。</li>       <li><code>equationCriteria</code>: <i>[省略可能]</i> テーブルの行と行の比較を制御します。</li>    </ul>    
 

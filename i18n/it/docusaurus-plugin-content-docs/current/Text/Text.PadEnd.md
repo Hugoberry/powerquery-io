@@ -5,8 +5,6 @@ title: Text.PadEnd
 # Text.PadEnd
 
 
-## Description
-
 Restituisce il testo della lunghezza specificata riempiendo la fine del testo specificato.
 
 
@@ -21,7 +19,7 @@ Text.PadEnd(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il valore <code>text</code> riempito fino al raggiungimento della lunghezza <code>count</code> inserendo spazi alla fine del valore di testo <code>text</code>.    Facoltativamente, è possibile usare il carattere <code>character</code> per specificare il carattere usato per il riempimento. Il carattere di riempimento predefinito è uno spazio.
 

@@ -5,8 +5,6 @@ title: Record.SelectFields
 # Record.SelectFields
 
 
-## Description
-
 傳回只包含指定欄位的記錄。
 
 
@@ -21,7 +19,7 @@ Record.SelectFields(
 ```
 
 
-## Details
+## Remarks
 
 根據輸入 <code>record</code> 傳回只包含清單 <code>fields</code> 中指定之欄位的記錄。
 

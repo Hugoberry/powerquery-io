@@ -5,8 +5,6 @@ title: Text.SplitAny
 # Text.SplitAny
 
 
-## Description
-
 Gibt eine Liste mit Textwerten zurück – geteilt an jedem der Zeichen des Trennzeichens.
 
 
@@ -20,7 +18,7 @@ Text.SplitAny(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Liste mit Textwerten zurück, für die ein Textwert (<code>text</code>) auf der Grundlage der Zeichen des angegebenen Trennzeichens (<code>separators</code>) aufgeteilt wurde.
 

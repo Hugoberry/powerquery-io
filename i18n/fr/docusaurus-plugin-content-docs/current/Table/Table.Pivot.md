@@ -5,8 +5,6 @@ title: Table.Pivot
 # Table.Pivot
 
 
-## Description
-
 En fonction d&#39;une paire de colonnes représentant des paires attribut-valeur, fait pivoter les données de la colonne d&#39;attribut dans les en-têtes de colonne.
 
 
@@ -23,7 +21,7 @@ Table.Pivot(
 ```
 
 
-## Details
+## Remarks
 
 En fonction d'une paire de colonnes représentant des paires attribut-valeur, fait pivoter les données de la colonne d'attribut dans les en-têtes de colonne.
 

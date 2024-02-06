@@ -5,8 +5,6 @@ title: Json.Document
 # Json.Document
 
 
-## Description
-
 ส่งกลับเนื้อหาของเอกสาร JSON
 
 
@@ -20,7 +18,7 @@ Json.Document(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับเนื้อหาของเอกสาร JSON
 

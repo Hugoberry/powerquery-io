@@ -5,8 +5,6 @@ title: Number.Abs
 # Number.Abs
 
 
-## Description
-
 Retorna o valor absoluto do número.
 
 
@@ -19,7 +17,7 @@ Number.Abs(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o valor absoluto de <code>number</code>. Se <code>number</code> for nulo, <code>Number.Abs</code> retornará nulo.    <ul>        <li><code>number</code>: um <code>number</code> cujo valor absoluto deve ser calculado.</li>      </ul>
 

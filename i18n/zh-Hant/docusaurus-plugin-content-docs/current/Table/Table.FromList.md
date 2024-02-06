@@ -5,8 +5,6 @@ title: Table.FromList
 # Table.FromList
 
 
-## Description
-
 將指定的分割函數套用至清單中的每個項目，藉以將清單轉換成資料表。
 
 
@@ -23,7 +21,7 @@ Table.FromList(
 ```
 
 
-## Details
+## Remarks
 
 將選擇性分割函數 <code>splitter</code> 套用至清單 <code>list</code> 中的每個項目，藉以將清單轉換成資料表。根據預設，清單會被視為以逗號分隔的文字值清單。選擇性 <code>columns</code> 可能是資料行的數目、資料行清單或 TableType。也可指定選擇性 <code>default</code> 和 <code>extraValues</code>。
 

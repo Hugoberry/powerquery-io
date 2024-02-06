@@ -5,8 +5,6 @@ title: List.Single
 # List.Single
 
 
-## Description
-
 長さが 1 のリストに対して 1 つのリスト項目を返し、それ以外の場合は例外をスローします。
 
 
@@ -19,7 +17,7 @@ List.Single(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>list</code> に含まれる項目が 1 つしかない場合は、その項目を返します。    複数の項目が存在するか、リストが空の場合、この関数は例外をスローします。
 

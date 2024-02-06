@@ -5,8 +5,6 @@ title: Uri.EscapeDataString
 # Uri.EscapeDataString
 
 
-## Description
-
 Özel karakterleri RFC 3986 kurallarına göre kodlar.
 
 
@@ -19,7 +17,7 @@ Uri.EscapeDataString(
 ```
 
 
-## Details
+## Remarks
 
 <code>data</code> girişindeki özel karakterleri RFC 3986 kurallarına göre kodlar.
 

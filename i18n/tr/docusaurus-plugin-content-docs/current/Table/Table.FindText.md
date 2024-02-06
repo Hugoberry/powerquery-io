@@ -5,8 +5,6 @@ title: Table.FindText
 # Table.FindText
 
 
-## Description
-
 Bir tabloda verilen metni içeren tüm sütunları döndürür.
 
 
@@ -20,7 +18,7 @@ Table.FindText(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> tablosunda <code>text</code> metnini içeren sütunları döndürür. Metin bulunmazsa, boş bir tablo döndürülür.
 

@@ -5,8 +5,6 @@ title: Text.Repeat
 # Text.Repeat
 
 
-## Description
-
 指定の回数繰り返された入力テキストで構成されるテキスト値を返します。
 
 
@@ -20,7 +18,7 @@ Text.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 <code>count</code> 回繰り返された入力テキスト <code>text</code> で構成されるテキスト値を返します。
 

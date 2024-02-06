@@ -5,8 +5,6 @@ title: Table.ToColumns
 # Table.ToColumns
 
 
-## Description
-
 Skapar en lista med kapslade listor med kolumnvärden från en tabell.
 
 
@@ -19,7 +17,7 @@ Table.ToColumns(
 ```
 
 
-## Details
+## Remarks
 
 Skapar en lista med kapslade listor från tabellen, <code>table</code>. Varje listpost är en inre lista som innehåller kolumnvärdena.
 

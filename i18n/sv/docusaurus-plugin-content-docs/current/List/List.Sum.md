@@ -5,8 +5,6 @@ title: List.Sum
 # List.Sum
 
 
-## Description
-
 Returnerar summan av objekten i listan.
 
 
@@ -20,7 +18,7 @@ List.Sum(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar summan av värdena i listan, <code>list</code>, som inte är null. Returnerar null om det inte finns några värden som inte är null i listan.
 

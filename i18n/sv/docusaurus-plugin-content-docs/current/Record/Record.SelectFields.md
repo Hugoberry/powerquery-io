@@ -5,8 +5,6 @@ title: Record.SelectFields
 # Record.SelectFields
 
 
-## Description
-
 Returnerar en post som bara innehåller de angivna fälten.
 
 
@@ -21,7 +19,7 @@ Record.SelectFields(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en post som bara innehåller fälten som anges i listan <code>fields</code> från indataposten <code>record</code>.
 

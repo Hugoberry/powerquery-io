@@ -5,8 +5,6 @@ title: List.Single
 # List.Single
 
 
-## Description
-
 Zwraca jeden element z listy, jeśli lista ma długość 1; w przeciwnym razie zwraca wyjątek.
 
 
@@ -19,7 +17,7 @@ List.Single(
 ```
 
 
-## Details
+## Remarks
 
 Jeśli na liście <code>list</code> znajduje się tylko jeden element, zwraca ten element.    Jeśli na liście znajduje się więcej niż jeden element lub lista jest pusta, funkcja zwraca wyjątek.
 

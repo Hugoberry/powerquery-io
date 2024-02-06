@@ -5,8 +5,6 @@ title: List.RemoveItems
 # List.RemoveItems
 
 
-## Description
-
 Fjerner elementer fra liste1, der findes på listen.
 
 
@@ -20,7 +18,7 @@ List.RemoveItems(
 ```
 
 
-## Details
+## Remarks
 
 Fjerner alle forekomster af de angivne værdier i <code>list2</code> fra <code>list1</code>. Hvis værdierne i <code>list2</code> ikke findes i <code>list1</code>, returneres den oprindelige liste.
 

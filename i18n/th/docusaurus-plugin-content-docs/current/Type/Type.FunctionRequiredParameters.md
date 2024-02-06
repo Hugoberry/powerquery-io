@@ -5,8 +5,6 @@ title: Type.FunctionRequiredParameters
 # Type.FunctionRequiredParameters
 
 
-## Description
-
 ส่งกลับจำนวนที่ระบุจำนวนขั้นต่ำของพารามิเตอร์ที่ต้องใช้เพื่อเรียกประเภทฟังก์ชันนั้น
 
 
@@ -19,7 +17,7 @@ Type.FunctionRequiredParameters(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับจำนวนที่ระบุจำนวนขั้นต่ำของพารามิเตอร์ที่ต้องใช้เพื่อเรียกอินพุต <code>type</code> ของฟังก์ชัน
 

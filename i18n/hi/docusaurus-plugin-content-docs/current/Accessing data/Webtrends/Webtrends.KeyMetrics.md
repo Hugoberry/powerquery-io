@@ -5,8 +5,6 @@ title: Webtrends.KeyMetrics
 # Webtrends.KeyMetrics
 
 
-## Description
-
 कुंजी Webtrends मैट्रिक्स वाली तालिका लौटाता है.
 
 
@@ -21,7 +19,7 @@ Webtrends.KeyMetrics(
 ```
 
 
-## Details
+## Remarks
 
 Webtrends KeyMetrics समाप्ति बिंदु के लिए कॉल करता है और समस्त डेटा को एक तालिका के रूप में लौटाता है.
 

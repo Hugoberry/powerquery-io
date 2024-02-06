@@ -5,8 +5,6 @@ title: Text.Remove
 # Text.Remove
 
 
-## Description
-
 Quita todas las coincidencias del carácter o de la lista de caracteres especificados del valor de texto de entrada.
 
 
@@ -20,7 +18,7 @@ Text.Remove(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una copia del valor de texto <code>text</code> con todos los caracteres desde <code>removeChars</code> quitados.  
 

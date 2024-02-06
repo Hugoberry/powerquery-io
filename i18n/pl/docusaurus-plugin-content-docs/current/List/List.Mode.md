@@ -5,8 +5,6 @@ title: List.Mode
 # List.Mode
 
 
-## Description
-
 Zwraca wartość, która najczęściej występuje na liście.
 
 
@@ -20,7 +18,7 @@ List.Mode(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca element najczęściej występujący na liście <code>list</code>. Jeśli lista jest pusta, jest zwracany wyjątek. Jeśli wiele elementów ma taką samą częstotliwość występowania, jest wybierany ostatni z nich.    W celu sterowania testowaniem jakości można określić opcjonalną wartość <code>comparisonCriteria</code>: <code>equationCriteria</code>. 
 

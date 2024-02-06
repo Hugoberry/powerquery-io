@@ -5,8 +5,6 @@ title: Table.PrefixColumns
 # Table.PrefixColumns
 
 
-## Description
-
 Sütunların tümünün verilen metin ile başladığı bir tablo döndürür.
 
 
@@ -20,7 +18,7 @@ Table.PrefixColumns(
 ```
 
 
-## Details
+## Remarks
 
 Sağlanan <code>table</code> öğesine ilişkin tüm sütun adlarının başına ön ek olarak, verilen <code>prefix</code> metninin ve <code>prefix</code><code>.ColumnName</code> formunda bir nokta getirilen bir tablo döndürür.
 

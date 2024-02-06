@@ -5,8 +5,6 @@ title: Duration.TotalSeconds
 # Duration.TotalSeconds
 
 
-## Description
-
 Retourneert het totale aantal seconden waaruit deze duur bestaat.
 
 
@@ -19,7 +17,7 @@ Duration.TotalSeconds(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het totale aantal seconden dat door <code>duration</code> is overspannen.
 

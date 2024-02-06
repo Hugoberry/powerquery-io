@@ -5,8 +5,6 @@ title: Table.LastN
 # Table.LastN
 
 
-## Description
-
 Devolve o último número de linhas especificado.
 
 
@@ -20,7 +18,7 @@ Table.LastN(
 ```
 
 
-## Details
+## Remarks
 
 Devolve as últimas linhas da tabela <code>table</code>, dependendo do valor de <code>countOrCondition</code>:    <ul>    <li> Se <code>countOrCondition</code> for um número, será devolvido esse número de linhas a partir da posição (fim - <code>countOrCondition</code>). </li>    <li> Se <code>countOrCondition</code> for uma condição, serão devolvidas em posição ascendente as linhas que satisfaçam a condição até que uma linha não satisfaça a condição.</li></ul>
 

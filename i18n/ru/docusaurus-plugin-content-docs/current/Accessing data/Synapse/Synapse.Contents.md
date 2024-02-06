@@ -15,7 +15,7 @@ Synapse.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Соединитель PQ для рабочей области Azure Synapse Analytics
 

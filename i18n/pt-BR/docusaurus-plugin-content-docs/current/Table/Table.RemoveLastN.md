@@ -5,8 +5,6 @@ title: Table.RemoveLastN
 # Table.RemoveLastN
 
 
-## Description
-
 Retorna uma tabela com as N últimas linhas removidas.
 
 
@@ -20,7 +18,7 @@ Table.RemoveLastN(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma tabela que não contém as <code>countOrCondition</code> últimas linhas da tabela <code>table</code>.        O número de linhas removidas depende do parâmetro opcional <code>countOrCondition</code>.    <ul>    <li> Se <code>countOrCondition</code> for omitido, somente a última linha será removida. </li>    <li> Se <code>countOrCondition</code> for um número, essas várias linhas (começando na parte inferior) serão removidas. </li>    <li> Se <code>countOrCondition</code> for uma condição, as linhas que atenderem à condição serão removidas até que uma linha não esteja em conformidade com a condição.</li>    </ul>
 

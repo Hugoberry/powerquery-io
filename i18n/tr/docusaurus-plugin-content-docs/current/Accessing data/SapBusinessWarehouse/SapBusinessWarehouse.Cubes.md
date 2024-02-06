@@ -5,8 +5,6 @@ title: SapBusinessWarehouse.Cubes
 # SapBusinessWarehouse.Cubes
 
 
-## Description
-
 SAP Business Warehouse sisteminde InfoArea tarafından gruplandırılan InfoCubes ve sorguları döndürür.
 
 
@@ -23,7 +21,7 @@ SapBusinessWarehouse.Cubes(
 ```
 
 
-## Details
+## Remarks
 
 <code>server</code> sunucusundaki (sistem numarası: <code>systemNumberOrSystemId</code>, İstemci Kimliği: <code>clientId</code>) SAP Business Warehouse örneğinden InfoArea tarafından gruplandırılan InfoCubes ve sorguların bir tablosunu döndürür. <code>optionsOrLogonGroup</code>, isteğe bağlı bir kayıt parametresi olarak şu seçenekleri denetlemek üzere belirtilebilir:        
 

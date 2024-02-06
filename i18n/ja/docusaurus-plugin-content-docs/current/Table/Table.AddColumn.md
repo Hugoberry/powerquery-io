@@ -5,8 +5,6 @@ title: Table.AddColumn
 # Table.AddColumn
 
 
-## Description
-
 指定された名前の列を追加します。入力として受け取った行ごとに、指定された選択関数を使用して値を計算します。
 
 
@@ -22,7 +20,7 @@ Table.AddColumn(
 ```
 
 
-## Details
+## Remarks
 
 テーブル <code>table</code> に <code>newColumnName</code> という名前の列を追加します。入力として受け取った行ごとに、指定された選択関数 <code>columnGenerator</code> を使用して列の値を計算します。
 

@@ -5,8 +5,6 @@ title: Xml.Document
 # Xml.Document
 
 
-## Description
-
 Возвращает содержимое XML-документа в виде иерархической таблицы.
 
 
@@ -20,7 +18,7 @@ Xml.Document(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает содержимое XML-документа в виде иерархической таблицы.
 

@@ -5,8 +5,6 @@ title: Cube.AttributeMemberProperty
 # Cube.AttributeMemberProperty
 
 
-## Description
-
 ส่งกลับคุณสมบัติของแอตทริบิวต์มิติ
 
 
@@ -20,7 +18,7 @@ Cube.AttributeMemberProperty(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับคุณสมบัติ <code>propertyName</code> ของแอตทริบิวต์มิติ <code>attribute</code>
 

@@ -5,8 +5,6 @@ title: Table.Transpose
 # Table.Transpose
 
 
-## Description
-
 Wandelt Spalten in Zeilen und Zeilen in Spalten um.
 
 
@@ -20,7 +18,7 @@ Table.Transpose(
 ```
 
 
-## Details
+## Remarks
 
 Wandelt Spalten in Zeilen und Zeilen in Spalten um.
 

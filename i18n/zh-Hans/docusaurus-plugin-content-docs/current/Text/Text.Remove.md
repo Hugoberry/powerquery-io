@@ -5,8 +5,6 @@ title: Text.Remove
 # Text.Remove
 
 
-## Description
-
 从输入字符文本值中删除所出现的所有给定字符或字符列表。
 
 
@@ -20,7 +18,7 @@ Text.Remove(
 ```
 
 
-## Details
+## Remarks
 
 返回文本值 <code>text</code> 已删除了 <code>removeChars</code> 的所有字符的副本。 
 

@@ -5,8 +5,6 @@ title: Number.BitwiseShiftLeft
 # Number.BitwiseShiftLeft
 
 
-## Description
-
 เลื่อนชุดบิตที่กำหนดไปทางซ้าย
 
 
@@ -20,7 +18,7 @@ Number.BitwiseShiftLeft(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลลัพธ์ของการดำเนินการเลื่อนบิตไปทางซ้ายใน <code>number1</code> ตามจำนวนบิต <code>number2</code> ที่ระบุ
 

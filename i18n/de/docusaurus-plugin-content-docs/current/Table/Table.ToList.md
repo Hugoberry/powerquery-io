@@ -5,8 +5,6 @@ title: Table.ToList
 # Table.ToList
 
 
-## Description
-
 Konvertiert eine Tabelle in eine Liste, indem die angegebene Kombinationsfunktion auf die einzelnen Zeilen mit Werten in der Tabelle angewendet wird.
 
 
@@ -20,7 +18,7 @@ Table.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Konvertiert eine Tabelle in eine Liste, indem die angegebene Kombinationsfunktion auf die einzelnen Zeilen mit Werten in der Tabelle angewendet wird.
 

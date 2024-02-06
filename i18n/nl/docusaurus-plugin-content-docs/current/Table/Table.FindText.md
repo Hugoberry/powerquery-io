@@ -5,8 +5,6 @@ title: Table.FindText
 # Table.FindText
 
 
-## Description
-
 Retourneert uit de tabel alle rijen die de opgegeven tekst bevatten.
 
 
@@ -20,7 +18,7 @@ Table.FindText(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert uit de tabel <code>table</code> de rijen die de opgegeven tekst <code>text</code> bevatten. Als de tekst niet wordt gevonden, wordt er een lege tabel geretourneerd.
 

@@ -5,8 +5,6 @@ title: Type.ReplaceTableKeys
 # Type.ReplaceTableKeys
 
 
-## Description
-
 Tüm anahtarlarının belirtilen anahtar listesi ile değiştirildiği yeni bir tablo döndürür.
 
 
@@ -20,7 +18,7 @@ Type.ReplaceTableKeys(
 ```
 
 
-## Details
+## Remarks
 
 Tüm anahtarların belirtilen anahtar listesiyle değiştirilmesiyle yeni bir tablo türü döndürür.<br />    <br />    Her anahtar aşağıdaki formda bir kayıt kullanılarak tanımlanır:    <ul>      <li>        <code>Columns</code>: anahtar adını tanımlayan sütun adlarının listesi      </li>      <li>        Anahtar tablonun birincil anahtarı ise, <code>Primary</code>: <code>true</code>; aksi halde, <code>false</code>      </li>    </ul>    Belirtilen anahtar listesi, en fazla bir birincil anahtar tanımlandığından ve tüm anahtar sütun adlarının tablo türünde mevcut olduğundan emin olmak için doğrulanır.    
 

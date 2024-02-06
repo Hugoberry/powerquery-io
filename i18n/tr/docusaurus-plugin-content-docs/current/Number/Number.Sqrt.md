@@ -5,8 +5,6 @@ title: Number.Sqrt
 # Number.Sqrt
 
 
-## Description
-
 Sayının kare kökünü döndürür.
 
 
@@ -19,7 +17,7 @@ Number.Sqrt(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> sayısının kare kökünü döndürür.    <code>number</code> null ise <code>Number.Sqrt</code> null döndürür. Negatif bir değer ise <code>Number.NaN</code> döndürülür (Sayı değil).
 

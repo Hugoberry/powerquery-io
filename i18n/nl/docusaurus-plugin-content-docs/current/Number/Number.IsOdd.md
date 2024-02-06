@@ -5,8 +5,6 @@ title: Number.IsOdd
 # Number.IsOdd
 
 
-## Description
-
 Geeft aan of de waarde een oneven getal is.
 
 
@@ -19,7 +17,7 @@ Number.IsOdd(
 ```
 
 
-## Details
+## Remarks
 
 Geeft aan of de waarde een oneven getal is. Retourneert <code>true</code> als <code>number</code> een oneven getal is en <code>false</code> als dat niet het geval is.
 

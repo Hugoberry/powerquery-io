@@ -5,8 +5,6 @@ title: Marketo.Leads
 # Marketo.Leads
 
 
-## Description
-
 Возвращает таблицу с ведущими сведениями.
 
 
@@ -21,7 +19,7 @@ Marketo.Leads(
 ```
 
 
-## Details
+## Remarks
 
 Вызывает конечную точку Marketo REST API по адресу <code>url</code>/rest/v1/leads.json. Возвращаются все ведущие элементы в списке <code>leadIds</code>.
 

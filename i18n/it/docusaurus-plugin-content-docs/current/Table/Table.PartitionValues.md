@@ -5,8 +5,6 @@ title: Table.PartitionValues
 # Table.PartitionValues
 
 
-## Description
-
 Restituisce le informazioni su come una tabella viene partizionata.
 
 
@@ -19,7 +17,7 @@ Table.PartitionValues(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce le informazioni su come una tabella viene partizionata.  Viene restituita una tabella in cui ogni colonna è una colonna di partizione della tabella originale e ogni riga corrisponde a una partizione nella tabella originale.
 

@@ -5,8 +5,6 @@ title: Splitter.SplitByNothing
 # Splitter.SplitByNothing
 
 
-## Description
-
 ऐसा फ़ंक्शन लौटाता है जो इसके तर्क को एकल तत्व सूची के रूप में लौटाते हुए कोई विभाजित नहीं करता है.
 
 
@@ -19,7 +17,7 @@ Splitter.SplitByNothing(
 ```
 
 
-## Details
+## Remarks
 
 ऐसा फ़ंक्शन लौटाता है जो इसके तर्क को एकल तत्व सूची के रूप में लौटाते हुए कोई विभाजित नहीं करता है.
 

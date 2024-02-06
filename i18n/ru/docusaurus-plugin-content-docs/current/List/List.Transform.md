@@ -5,8 +5,6 @@ title: List.Transform
 # List.Transform
 
 
-## Description
-
 Возвращает новый список значений, вычисленных для этого списка.
 
 
@@ -20,7 +18,7 @@ List.Transform(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает новый список значений, применяя функцию преобразования <code>transform</code> к списку <code>list</code>.
 

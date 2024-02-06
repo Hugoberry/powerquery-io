@@ -5,8 +5,6 @@ title: Value.RemoveMetadata
 # Value.RemoveMetadata
 
 
-## Description
-
 ตัดส่วนค่าที่ป้อนของ Metadata
 
 
@@ -20,7 +18,7 @@ Value.RemoveMetadata(
 ```
 
 
-## Details
+## Remarks
 
 ตัดส่วนค่าที่ป้อนของ Metadata
 

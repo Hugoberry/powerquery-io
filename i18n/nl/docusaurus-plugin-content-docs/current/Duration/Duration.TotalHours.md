@@ -5,8 +5,6 @@ title: Duration.TotalHours
 # Duration.TotalHours
 
 
-## Description
-
 Retourneert het totale aantal uren waaruit deze duur bestaat.
 
 
@@ -19,7 +17,7 @@ Duration.TotalHours(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het totale aantal uren dat is verdeeld door <code>duration</code>.
 

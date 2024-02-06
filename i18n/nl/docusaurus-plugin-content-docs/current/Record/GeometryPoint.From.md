@@ -5,8 +5,6 @@ title: GeometryPoint.From
 # GeometryPoint.From
 
 
-## Description
-
 Hiermee wordt een record gemaakt die een geometrisch punt op basis van onderdelen aangeeft.
 
 
@@ -23,7 +21,7 @@ GeometryPoint.From(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een record gemaakt die een geometrisch punt aangeeft op basis van de samenstellende onderdelen, zoals X-coördinaat, Y-coördinaat en, indien aanwezig, Z-coördinaat en meting (M). Er kan een optionele ruimtelijke referentie-id (SRID) worden opgegeven als deze afwijkt van de standaardwaarde (0).
 

@@ -5,8 +5,6 @@ title: List.First
 # List.First
 
 
-## Description
-
 Retourneert de eerste waarde van de lijst of de opgegeven standaardwaarde als de lijst leeg is.
 
 
@@ -20,7 +18,7 @@ List.First(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het eerste item uit de lijst <code>list</code> of de optionele standaardwaarde <code>defaultValue</code> als de lijst leeg is.    Als de lijst leeg is en er geen standaardwaarde is opgegeven, wordt <code>null</code> door de functie geretourneerd.
 

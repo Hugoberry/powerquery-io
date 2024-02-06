@@ -5,8 +5,6 @@ title: Cube.MeasureProperty
 # Cube.MeasureProperty
 
 
-## Description
-
 Returnerer en målingsegenskab (celleegenskab).
 
 
@@ -20,7 +18,7 @@ Cube.MeasureProperty(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer egenskaben <code>propertyName</code> for målingen <code>measure</code>.
 

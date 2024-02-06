@@ -5,8 +5,6 @@ title: Expression.Evaluate
 # Expression.Evaluate
 
 
-## Description
-
 किसी M व्यंजक के मूल्यांकन का परिणाम लौटाता है.
 
 
@@ -20,7 +18,7 @@ Expression.Evaluate(
 ```
 
 
-## Details
+## Remarks
 
 ऐसे उपलब्ध पहचानकर्ताओं के साथ M व्यंजक <code>document</code> के मूल्यांकन का परिणाम लौटाता है, जिन्हें <code>environment</code> द्वारा परिभाषित रूप से संदर्भित किया जा सकता है.
 

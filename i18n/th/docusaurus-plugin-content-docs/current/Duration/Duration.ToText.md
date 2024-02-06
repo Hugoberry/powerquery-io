@@ -5,8 +5,6 @@ title: Duration.ToText
 # Duration.ToText
 
 
-## Description
-
 ส่งกลับข้อความของรูปแบบ &#34;d.h:m:s&#34;
 
 
@@ -20,7 +18,7 @@ Duration.ToText(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับการแสดงข้อความในรูปแบบ "day.hour:mins:sec" ของค่าระยะเวลาที่ระบุ <code>duration</code>. <ul>        <li><code>duration</code>: A <code>ระยะเวลา</code> จากค่าที่มีการคำนวณการแสดงข้อความ</li>  <li><code>format</code>: <i>[ระบุหรือไม่ก็ได้]</i>ไม่สนับสนุน จะส่งข้อผิดพลาดหากไม่เป็น null</li>      </ul>
 

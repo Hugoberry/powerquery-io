@@ -5,8 +5,6 @@ title: List.MatchesAny
 # List.MatchesAny
 
 
-## Description
-
 Trả về true nếu giá trị bất kỳ đáp ứng hàm điều kiện.
 
 
@@ -20,7 +18,7 @@ List.MatchesAny(
 ```
 
 
-## Details
+## Remarks
 
 Trả về <code>true</code> nếu hàm điều kiện <code>condition</code> được đáp ứng bởi giá trị bất kỳ trong danh sách <code>list</code>, nếu không trả về <code>false</code>.
 

@@ -5,8 +5,6 @@ title: List.Numbers
 # List.Numbers
 
 
-## Description
-
 Returnerer en liste over tal med en indledende værdi for værdi, antal og valgfri forøgelse.
 
 
@@ -21,7 +19,7 @@ List.Numbers(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en liste over tal med en indledende værdi for værdi, antal og valgfri forøgelse. Standardværdien for forøgelse er 1.<ul>   <li><code>start</code>: Den første værdi på listen.</li>   <li><code>count</code>: Det antal værdier, der skal oprettes.</li>   <li><code>increment</code>: <i>[Valgfrit]</i> Den værdi, der skal øges med. Hvis den udelades, øges værdier med 1.</li></ul>
 

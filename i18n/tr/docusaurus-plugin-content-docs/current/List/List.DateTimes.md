@@ -5,8 +5,6 @@ title: List.DateTimes
 # List.DateTimes
 
 
-## Description
-
 Verilen ilk değer, sayı ve artımlı duration değerinden datetime değer listesi oluşturur.
 
 
@@ -21,7 +19,7 @@ List.DateTimes(
 ```
 
 
-## Details
+## Remarks
 
 <code>count</code> boyutunda <code>start</code> konumunda başlayan bir <code>datetime</code> değer listesi döndürür. <code>step</code> verilen artışı her değere eklenen bir <code>duration</code> değeridir.
 

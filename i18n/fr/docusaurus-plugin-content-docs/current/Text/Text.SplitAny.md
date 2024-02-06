@@ -5,8 +5,6 @@ title: Text.SplitAny
 # Text.SplitAny
 
 
-## Description
-
 Retourne une liste de valeurs de texte, fractionnées selon un certain nombre de caractères à l&#39;aide du séparateur.
 
 
@@ -20,7 +18,7 @@ Text.SplitAny(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une liste de valeurs de texte résultant du fractionnement d'une valeur de texte <code>text</code> selon un certain nombre de caractères dans le séparateur spécifié, <code>separators</code>.
 

@@ -5,8 +5,6 @@ title: Text.Select
 # Text.Select
 
 
-## Description
-
 入力テキスト値に出現する指定された文字または一連の文字をすべて選択します。
 
 
@@ -20,7 +18,7 @@ Text.Select(
 ```
 
 
-## Details
+## Remarks
 
 <code>selectChars</code> に含まれていないすべての文字を削除したうえで、テキスト値 <code>text</code> のコピーを返します。
 

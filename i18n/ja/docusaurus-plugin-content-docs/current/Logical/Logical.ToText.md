@@ -5,8 +5,6 @@ title: Logical.ToText
 # Logical.ToText
 
 
-## Description
-
 指定された論理値に基づいて、テキスト &#34;true&#34; または &#34;false&#34; を返します。
 
 
@@ -19,7 +17,7 @@ Logical.ToText(
 ```
 
 
-## Details
+## Remarks
 
 論理値 <code>logicalValue</code> (<code>true</code> または <code>false</code>) からテキスト値を作成します。<code>logicalValue</code> が論理値でない場合は、例外がスローされます。
 

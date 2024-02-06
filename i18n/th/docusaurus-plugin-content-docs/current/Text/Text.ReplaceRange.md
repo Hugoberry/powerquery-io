@@ -5,8 +5,6 @@ title: Text.ReplaceRange
 # Text.ReplaceRange
 
 
-## Description
-
 เอาช่วงอักขระออกและแทรกค่าใหม่ในตำแหน่งที่ระบุ
 
 
@@ -22,7 +20,7 @@ Text.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลลัพธ์ของการเอาจำนวนอักขระออก <code>count</code> จากค่าข้อความ <code>text</code> โดยเริ่มต้นที่ตำแหน่ง <code>offset</code> ตามด้วยการแทรกค่าข้อความ <code>newText</code> ที่ตำแหน่งเดิมใน <code>text</code>
 

@@ -5,8 +5,6 @@ title: Number.Sqrt
 # Number.Sqrt
 
 
-## Description
-
 Trả về căn bậc hai của số.
 
 
@@ -19,7 +17,7 @@ Number.Sqrt(
 ```
 
 
-## Details
+## Remarks
 
 Trả về căn bậc hai của <code>number</code>.    Nếu <code>number</code> là giá trị null thì <code>Number.Sqrt</code> trả về giá trị null. Nếu là giá trị âm thì <code>Number.NaN</code> được trả về (không phải số).
 

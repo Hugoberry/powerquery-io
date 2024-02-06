@@ -5,8 +5,6 @@ title: Splitter.SplitTextByLengths
 # Splitter.SplitTextByLengths
 
 
-## Description
-
 指定された各長さでテキストを一連のテキストに分割する関数を返します。
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByLengths(
 ```
 
 
-## Details
+## Remarks
 
 指定された各長さでテキストを一連のテキストに分割する関数を返します。
 

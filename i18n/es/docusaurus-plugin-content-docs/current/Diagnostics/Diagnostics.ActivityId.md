@@ -5,8 +5,6 @@ title: Diagnostics.ActivityId
 # Diagnostics.ActivityId
 
 
-## Description
-
 Devuelve un identificador opaco para la evaluación que se está ejecutando actualmente.
 
 
@@ -19,7 +17,7 @@ Diagnostics.ActivityId(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un identificador opaco para la evaluación que se está ejecutando actualmente.
 

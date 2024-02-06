@@ -5,8 +5,6 @@ title: Character.ToNumber
 # Character.ToNumber
 
 
-## Description
-
 文字を数値に変換します。
 
 
@@ -19,7 +17,7 @@ Character.ToNumber(
 ```
 
 
-## Details
+## Remarks
 
 <code>character</code> と等価の数値を返します。<br />    <br />    結果は、指定された文字またはサロゲート ペアで表される 21 ビットの Unicode コード ポイントになります。  
 

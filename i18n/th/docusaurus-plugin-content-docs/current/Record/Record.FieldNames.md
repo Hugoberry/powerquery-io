@@ -5,8 +5,6 @@ title: Record.FieldNames
 # Record.FieldNames
 
 
-## Description
-
 ส่งกลับชื่อเขตข้อมูล
 
 
@@ -19,7 +17,7 @@ Record.FieldNames(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับชื่อเขตข้อมูลในระเบียน <code>record</code> เป็นข้อความ
 

@@ -5,8 +5,6 @@ title: List.MatchesAny
 # List.MatchesAny
 
 
-## Description
-
 Retornará true se a função condition for atendida por qualquer valor.
 
 
@@ -20,7 +18,7 @@ List.MatchesAny(
 ```
 
 
-## Details
+## Remarks
 
 Retornará <code>true</code> se a função condition <code>condition</code> for atendida por qualquer valor da lista <code>list</code>; do contrário, <code>false</code> será retornado.
 

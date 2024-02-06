@@ -5,8 +5,6 @@ title: Number.IsEven
 # Number.IsEven
 
 
-## Description
-
 値が偶数かどうかを示します。
 
 
@@ -19,7 +17,7 @@ Number.IsEven(
 ```
 
 
-## Details
+## Remarks
 
 値が偶数かどうかを示します。値 <code>number</code> が偶数の場合は <code>true</code> を返し、それ以外の場合は <code>false</code> を返します。
 

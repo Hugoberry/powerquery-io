@@ -5,8 +5,6 @@ title: Table.SelectRows
 # Table.SelectRows
 
 
-## Description
-
 Selecciona las filas que cumplen la función de la condición.
 
 
@@ -20,7 +18,7 @@ Table.SelectRows(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una tabla de filas de la <code>table</code>, que coincide con la selección <code>condition</code>.
 

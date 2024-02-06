@@ -5,8 +5,6 @@ title: Function.From
 # Function.From
 
 
-## Description
-
 在使用單一清單引數的函式上建立具有特定參數簽章的函式
 
 
@@ -20,7 +18,7 @@ Function.From(
 ```
 
 
-## Details
+## Remarks
 
 使用一元函式 <code>function</code>，並建立類型為 <code>functionType</code> 的新函式，利用其引數建構清單，再將該新函式傳遞至 <code>function</code>。
 

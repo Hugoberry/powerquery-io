@@ -5,8 +5,6 @@ title: Value.As
 # Value.As
 
 
-## Description
-
 Retorna o valor se for compatível com o tipo especificado.
 
 
@@ -20,7 +18,7 @@ Value.As(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o valor se for compatível com o tipo especificado. Isso é equivalente ao operador "as" em M, com a exceção de que pode aceitar referências de tipo de identificador, como Number.Type.
 

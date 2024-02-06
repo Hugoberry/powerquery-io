@@ -5,8 +5,6 @@ title: Number.RoundAwayFromZero
 # Number.RoundAwayFromZero
 
 
-## Description
-
 傳回結果時，將正數捨入並將負數捨去。您可以可指定位數。
 
 
@@ -20,7 +18,7 @@ Number.RoundAwayFromZero(
 ```
 
 
-## Details
+## Remarks
 
 傳回結果時，依據數字的正負號將 <code>number</code> 四捨五入。此函數會將正數捨入並將負數捨去。   若指定 <code>digits</code>，<code>number</code> 會四捨五入成 <code>digits</code> 位小數位數。  
 

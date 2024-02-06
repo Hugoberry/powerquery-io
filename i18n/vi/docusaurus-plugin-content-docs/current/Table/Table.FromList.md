@@ -5,8 +5,6 @@ title: Table.FromList
 # Table.FromList
 
 
-## Description
-
 Chuyển đổi một danh sách thành một bảng bằng cách áp dụng hàm tách được chỉ định cho mỗi mục trong danh sách.
 
 
@@ -23,7 +21,7 @@ Table.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Chuyển đổi danh sách <code>list</code> thành một bảng bằng cách áp dụng hàm tách tùy chọn <code>splitter</code> cho mỗi mục trong danh sách. Theo mặc định, danh sách được giả định là danh sách giá trị văn bản được tách bằng dấu phẩy. <code>columns</code> tùy chọn có thể là số lượng cột, danh sách cột hoặc TableType. <code>default</code> và <code>extraValues</code> tùy chọn cũng có thể được chỉ định.
 

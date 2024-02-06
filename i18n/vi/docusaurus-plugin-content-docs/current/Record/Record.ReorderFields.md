@@ -5,8 +5,6 @@ title: Record.ReorderFields
 # Record.ReorderFields
 
 
-## Description
-
 Sắp xếp lại (các) trường được chỉ định theo thứ tự mới.
 
 
@@ -21,7 +19,7 @@ Record.ReorderFields(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bản ghi sau khi phân loại lại các trường trong <code>record</code> theo thứ tự trường được chỉ định trong danh sách <code>fieldOrder</code>. Các giá trị trường được duy trì và các trường không được liệt kê trong <code>fieldOrder</code> được để lại ở vị trí ban đầu.
 

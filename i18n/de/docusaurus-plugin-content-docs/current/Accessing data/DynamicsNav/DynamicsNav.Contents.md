@@ -5,8 +5,6 @@ title: DynamicsNav.Contents
 # DynamicsNav.Contents
 
 
-## Description
-
 Geben Sie die URL für Ihren Dynamics NAV-OData-Dienstendpunkt ein.
 
 
@@ -20,7 +18,7 @@ DynamicsNav.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Tabelle mit relevanten Dynamics NAV-Daten zurück. 
 

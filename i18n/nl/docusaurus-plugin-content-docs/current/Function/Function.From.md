@@ -5,8 +5,6 @@ title: Function.From
 # Function.From
 
 
-## Description
-
 Hiermee maakt u een functie met een specifieke parameterhandtekening op een functie die een enkel lijstargument nodig heeft
 
 
@@ -20,7 +18,7 @@ Function.From(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee neemt u een unaire functie <code>function</code> en maakt u een nieuwe functie van het type <code>functionType</code> die een lijst met argumenten opbouwt en deze doorgeeft aan <code>function</code>.
 

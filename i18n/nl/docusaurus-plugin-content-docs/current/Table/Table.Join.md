@@ -5,8 +5,6 @@ title: Table.Join
 # Table.Join
 
 
-## Description
-
 Koppelt de rijen uit de twee tabellen die overeenkomen op basis van de opgegeven sleutels.
 
 
@@ -25,7 +23,7 @@ Table.Join(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee worden de rijen van <code>table1</code> gekoppeld aan de rijen van <code>table2</code> op basis van de gelijkheid van de waarden van de sleutelkolommen die zijn geselecteerd met <code>key1</code> (voor <code>table1</code>) en <code>key2</code> (voor <code>table2</code>).<br />Standaard wordt er een binnen-join uitgevoerd, maar een optionele <code>joinKind</code> kan worden opgenomen om het type join op te geven. De opties zijn onder andere: <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Een optionele set van <code>keyEqualityComparers</code> kan worden opgenomen om op te geven hoe de sleutelkolommen moeten worden vergeleken. Deze functie is momenteel uitsluitend bedoeld voor intern gebruik.<br />
 

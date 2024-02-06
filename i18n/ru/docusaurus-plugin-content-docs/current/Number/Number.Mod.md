@@ -5,8 +5,6 @@ title: Number.Mod
 # Number.Mod
 
 
-## Description
-
 Выполняет целочисленное деление одного числа на другое и возвращает остаток от деления.
 
 
@@ -21,7 +19,7 @@ Number.Mod(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает остаток от целочисленного деления <code>number</code> на <code>divisor</code>.    Если <code>number</code> или <code>divisor</code> равно NULL, <code>Number.Mod</code> возвращает NULL.      <ul>        <li><code>number</code>: делимое.</li>        <li><code>divisor</code>: делитель.</li>      </ul>
 

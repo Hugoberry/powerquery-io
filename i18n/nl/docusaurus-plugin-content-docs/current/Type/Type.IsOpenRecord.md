@@ -5,8 +5,6 @@ title: Type.IsOpenRecord
 # Type.IsOpenRecord
 
 
-## Description
-
 Retourneert of een recordtype open is.
 
 
@@ -19,7 +17,7 @@ Type.IsOpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een <code>logische waarde</code> waarmee wordt aangegeven of een record <code>type</code> open is.
 

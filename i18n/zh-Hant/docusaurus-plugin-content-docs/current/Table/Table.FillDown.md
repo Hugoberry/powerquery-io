@@ -5,8 +5,6 @@ title: Table.FillDown
 # Table.FillDown
 
 
-## Description
-
 將前一個資料格的值傳播到資料行中下方的 Null 值資料格。
 
 
@@ -20,7 +18,7 @@ Table.FillDown(
 ```
 
 
-## Details
+## Remarks
 
 根據指定的 <code>table</code> 傳回資料表，其中前一個資料格的值會傳播到指定之 <code>columns</code> 中下方的 Null 值資料格。
 

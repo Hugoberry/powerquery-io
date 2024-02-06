@@ -5,8 +5,6 @@ title: Hdfs.Files
 # Hdfs.Files
 
 
-## Description
-
 Returnerar en tabell som innehåller egenskaperna och innehållet i filerna i den angivna mappen och undermapparna från ett Hadoop-filsystem.
 
 
@@ -19,7 +17,7 @@ Hdfs.Files(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell som innehåller en rad för varje fil på mappens URL, <code>url</code>, och undermapparna från ett Hadoop-filsystem. Varje rad innehåller egenskaper för filen och en länk till dess innehåll.
 

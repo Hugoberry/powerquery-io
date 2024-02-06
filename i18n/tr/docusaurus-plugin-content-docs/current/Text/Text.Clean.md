@@ -5,8 +5,6 @@ title: Text.Clean
 # Text.Clean
 
 
-## Description
-
 Metin değerini tüm denetim karakterleri kaldırılmış şekilde döndürür.
 
 
@@ -19,7 +17,7 @@ Text.Clean(
 ```
 
 
-## Details
+## Remarks
 
 Metin değerini tüm <code>text</code> denetim karakterleri kaldırılmış şekilde döndürür.
 

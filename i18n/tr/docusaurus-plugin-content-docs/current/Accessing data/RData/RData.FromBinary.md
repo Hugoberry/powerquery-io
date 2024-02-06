@@ -5,8 +5,6 @@ title: RData.FromBinary
 # RData.FromBinary
 
 
-## Description
-
 RData dosyasından veri çerçevelerine ilişkin bir kayıt döndürür.
 
 
@@ -19,7 +17,7 @@ RData.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 RData dosyasından veri çerçevelerine ilişkin bir kayıt döndürür.
 

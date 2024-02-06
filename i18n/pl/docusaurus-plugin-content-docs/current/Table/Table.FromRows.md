@@ -5,8 +5,6 @@ title: Table.FromRows
 # Table.FromRows
 
 
-## Description
-
 Tworzy tabelę na podstawie listy wartości wiersza i kolumn opcjonalnych
 
 
@@ -20,7 +18,7 @@ Table.FromRows(
 ```
 
 
-## Details
+## Remarks
 
 Tworzy tabelę na podstawie listy <code>rows</code>, której każdy element jest listą wewnętrzną zawierającą wartości kolumn dla jednego wiersza. Dla elementu <code>columns</code> można określić opcjonalną listę nazw kolumn, typ tabeli lub liczbę kolumn.
 

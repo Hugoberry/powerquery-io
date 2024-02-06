@@ -5,8 +5,6 @@ title: DateTime.IsInCurrentMinute
 # DateTime.IsInCurrentMinute
 
 
-## Description
-
 Indica se esta data ocorre durante o minuto atual, conforme determinado pela data e hora atuais no sistema.
 
 
@@ -19,7 +17,7 @@ DateTime.IsInCurrentMinute(
 ```
 
 
-## Details
+## Remarks
 
 Indica se o valor datetime fornecido <code>dateTime</code> ocorre durante o minuto atual, conforme determinado pela data e hora atuais no sistema.      <ul>      <li><code>dateTime</code>: um valor <code>datetime</code>, ou <code>datetimezone</code> a ser avaliado.</li>      </ul>
 

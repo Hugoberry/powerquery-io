@@ -5,8 +5,6 @@ title: Text.NewGuid
 # Text.NewGuid
 
 
-## Description
-
 एक नया, रेंडम ग्लोबली युनीक आइडेंटिफ़ायर (GUID) लौटाता है.
 
 
@@ -19,7 +17,7 @@ Text.NewGuid(
 ```
 
 
-## Details
+## Remarks
 
 एक नया, रेंडम ग्लोबली युनीक आइडेंटिफ़ायर (GUID) लौटाता है.
 

@@ -5,8 +5,6 @@ title: Record.FieldOrDefault
 # Record.FieldOrDefault
 
 
-## Description
-
 Trả về giá trị của trường được chỉ định trong bản ghi hoặc giá trị mặc định nếu không tìm thấy trường.
 
 
@@ -21,7 +19,7 @@ Record.FieldOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 Trả về giá trị của trường được chỉ định <code>field</code> trong bản ghi <code>record</code>. Nếu không tìm thấy trường thì <code>defaultValue</code> tùy chọn được trả về.
 

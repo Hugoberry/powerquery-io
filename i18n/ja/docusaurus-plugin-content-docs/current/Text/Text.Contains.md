@@ -5,8 +5,6 @@ title: Text.Contains
 # Text.Contains
 
 
-## Description
-
 テキストにサブストリングが含まれているかどうかを示す値を返します。
 
 
@@ -21,7 +19,7 @@ Text.Contains(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> に値 <code>substring</code> が含まれているかどうかを検出します。値が検出された場合は true を返します。この関数は、ワイルドカードまたは正規表現をサポートしません。      <br />      <br />      オプションの引数 <code>comparer</code> を使用して、大文字小文字を区別しない比較、およびカルチャとロケールに対応した比較を行うことができます。      命令文の中で以下の標準で用意された比較関数を使用できます:      <ul>        <li><code>Comparer.Ordinal</code>: 完全一致の順次比較を行います</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: 完全一致の順次比較 (大文字小文字を区別しない) を行います</li>        <li> <code>Comparer.FromCulture</code>: カルチャに対応した比較を行います</li>      </ul>
 

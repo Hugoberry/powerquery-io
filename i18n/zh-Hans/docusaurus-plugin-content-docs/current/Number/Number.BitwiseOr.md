@@ -5,8 +5,6 @@ title: Number.BitwiseOr
 # Number.BitwiseOr
 
 
-## Description
-
 返回对两个输入执行按位 &#34;Or&#34; 所得的结果。
 
 
@@ -20,7 +18,7 @@ Number.BitwiseOr(
 ```
 
 
-## Details
+## Remarks
 
 返回对 <code>number1</code> 和 <code>number2</code> 执行按位 "Or" 所得的结果。
 

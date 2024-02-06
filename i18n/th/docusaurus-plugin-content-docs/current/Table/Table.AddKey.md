@@ -5,8 +5,6 @@ title: Table.AddKey
 # Table.AddKey
 
 
-## Description
-
 เพิ่มคีย์ลงในตาราง
 
 
@@ -21,7 +19,7 @@ Table.AddKey(
 ```
 
 
-## Details
+## Remarks
 
 เพิ่มคีย์ลงใน <code>table</code>ซึ่ง <code>columns</code> เป็นรายการของชื่อคอลัมน์ที่กําหนดคีย์ และ <code>isPrimary</code> ระบุว่าคีย์นั้นเป็นคีย์หลักหรือไม่
 

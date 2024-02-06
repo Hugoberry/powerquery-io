@@ -5,8 +5,6 @@ title: Function.From
 # Function.From
 
 
-## Description
-
 Создает функцию с определенной сигнатурой параметров на базе функции, принимающей один аргумент списка.
 
 
@@ -20,7 +18,7 @@ Function.From(
 ```
 
 
-## Details
+## Remarks
 
 Принимает унарную функцию <code>function</code> и создает новую функцию с типом <code>functionType</code>, которая составляет из ее аргументов список и передает его <code>function</code>.
 

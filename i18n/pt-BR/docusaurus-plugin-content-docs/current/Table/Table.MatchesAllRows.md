@@ -5,8 +5,6 @@ title: Table.MatchesAllRows
 # Table.MatchesAllRows
 
 
-## Description
-
 Indica se todas as linhas da tabela atendem à condição especificada.
 
 
@@ -20,7 +18,7 @@ Table.MatchesAllRows(
 ```
 
 
-## Details
+## Remarks
 
 Indica se todas as linhas da <code>table</code> correspondem à <code>condition</code> especificada. Retornará <code>true</code> se todas as linhas forem correspondentes; do contrário, <code>false</code> será retornado.
 

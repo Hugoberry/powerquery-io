@@ -5,8 +5,6 @@ title: Number.BitwiseAnd
 # Number.BitwiseAnd
 
 
-## Description
-
 Gibt das Ergebnis der Ausführung eines bitweisen UND-Vorgangs zwischen den beiden Eingaben zurück.
 
 
@@ -20,7 +18,7 @@ Number.BitwiseAnd(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das Ergebnis der Ausführung eines bitweisen UND-Vorgangs zwischen "<code>number1</code>" und "<code>number2</code>" zurück.
 

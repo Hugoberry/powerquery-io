@@ -5,8 +5,6 @@ title: Binary.ToList
 # Binary.ToList
 
 
-## Description
-
 แปลงค่าไบนารีเป็นรายการจำนวน
 
 
@@ -19,7 +17,7 @@ Binary.ToList(
 ```
 
 
-## Details
+## Remarks
 
 แปลงค่าไบนารีเป็นรายการจำนวน
 

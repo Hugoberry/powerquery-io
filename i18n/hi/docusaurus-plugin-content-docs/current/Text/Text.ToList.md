@@ -5,8 +5,6 @@ title: Text.ToList
 # Text.ToList
 
 
-## Description
-
 दिए गए पाठ मान से वर्ण मानों की सूची लौटाता है.
 
 
@@ -19,7 +17,7 @@ Text.ToList(
 ```
 
 
-## Details
+## Remarks
 
 दिए गए पाठ मान <code>text</code> से वर्ण मानों की सूची लौटाता है.
 

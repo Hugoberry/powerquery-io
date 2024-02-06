@@ -5,8 +5,6 @@ title: DateTime.LocalNow
 # DateTime.LocalNow
 
 
-## Description
-
 Gibt das aktuelle Datum und die aktuelle Uhrzeit in der lokalen Zeitzone zurück.
 
 
@@ -19,7 +17,7 @@ DateTime.LocalNow(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen <code>datetime</code>-Wert zurück, der auf das aktuelle Datum und die aktuelle Uhrzeit im System festgelegt ist.
 

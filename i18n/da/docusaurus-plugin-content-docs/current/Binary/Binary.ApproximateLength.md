@@ -5,8 +5,6 @@ title: Binary.ApproximateLength
 # Binary.ApproximateLength
 
 
-## Description
-
 Returnerer den omtrentlige længde af den binære fil.
 
 
@@ -19,7 +17,7 @@ Binary.ApproximateLength(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer den omtrentlige længde af <code>binary</code>eller en fejl, hvis datakilden ikke understøtter en omtrentlig længde.
 

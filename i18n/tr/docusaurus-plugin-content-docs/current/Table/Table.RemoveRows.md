@@ -5,8 +5,6 @@ title: Table.RemoveRows
 # Table.RemoveRows
 
 
-## Description
-
 Belirtilen sayıda satırı kaldırır.
 
 
@@ -21,7 +19,7 @@ Table.RemoveRows(
 ```
 
 
-## Details
+## Remarks
 
 Satırlara ait <code>count</code> öğesini <code>table</code> öğesinin başından, belirtilen <code>offset</code> konumundan başlayarak kaldırır. <code>count</code> parametresi sağlanmazsa, 1 varsayılan sayısı kullanılır. 
 

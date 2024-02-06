@@ -5,8 +5,6 @@ title: Marketo.Activities
 # Marketo.Activities
 
 
-## Description
-
 Gibt eine Tabelle mit Leadaktivitäten zurück.
 
 
@@ -21,7 +19,7 @@ Marketo.Activities(
 ```
 
 
-## Details
+## Remarks
 
 Ruft den Marketo-REST-API-Endpunkt unter <code>url</code>/rest/v1/activities.json auf. Es werden alle Aktivitäten in Liste <code>activityIds</code> zurückgegeben, die seit <code>startTime</code> aufgetreten sind.
 

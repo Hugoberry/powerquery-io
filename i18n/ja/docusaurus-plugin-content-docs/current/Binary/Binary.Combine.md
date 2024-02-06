@@ -5,8 +5,6 @@ title: Binary.Combine
 # Binary.Combine
 
 
-## Description
-
 バイナリのリストを結合して 1 つのバイナリにします。
 
 
@@ -19,7 +17,7 @@ Binary.Combine(
 ```
 
 
-## Details
+## Remarks
 
 バイナリのリストを結合して 1 つのバイナリにします。
 

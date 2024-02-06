@@ -5,8 +5,6 @@ title: Binary.Buffer
 # Binary.Buffer
 
 
-## Description
-
 將二進位值緩衝在記憶體中。
 
 
@@ -19,7 +17,7 @@ Binary.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 將二進位值緩衝在記憶體中。這個呼叫的結果是穩定的二進位值，表示它會有確定的長度和位元組順序。
 

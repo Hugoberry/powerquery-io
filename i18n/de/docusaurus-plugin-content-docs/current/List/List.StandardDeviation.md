@@ -5,8 +5,6 @@ title: List.StandardDeviation
 # List.StandardDeviation
 
 
-## Description
-
 Gibt eine stichprobenbasierte Schätzung der Standardabweichung zurück.
 
 
@@ -19,7 +17,7 @@ List.StandardDeviation(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine stichprobenbasierte Schätzung der Standardabweichung der Werte in der Liste "<code>numbersList</code>" zurück.    Ist "<code>numbersList</code>" eine Liste mit Zahlen, wird eine Zahl zurückgegeben.    Im Fall einer leeren Liste oder einer Liste mit Elementen, bei denen es sich nicht um Werte vom Typ <code>number</code> handelt, wird eine Ausnahme ausgelöst.
 

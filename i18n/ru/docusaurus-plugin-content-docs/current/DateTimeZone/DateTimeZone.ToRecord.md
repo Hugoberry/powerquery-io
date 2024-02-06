@@ -5,8 +5,6 @@ title: DateTimeZone.ToRecord
 # DateTimeZone.ToRecord
 
 
-## Description
-
 Возвращает запись, содержащую части значения datetimezone.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает запись, содержащую части заданного значения datetimezone, <code>dateTimeZone</code>. <ul>        <li><code>dateTimeZone</code>: значение <code>datetimezone</code>, для которого необходимо вычислить запись частей.</li>      </ul>
 

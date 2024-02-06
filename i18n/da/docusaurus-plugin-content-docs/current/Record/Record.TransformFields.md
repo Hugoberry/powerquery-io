@@ -5,8 +5,6 @@ title: Record.TransformFields
 # Record.TransformFields
 
 
-## Description
-
 Returnerer en post efter at have anvendt de angivne transformationer.
 
 
@@ -21,7 +19,7 @@ Record.TransformFields(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en post efter at have anvendt de transformationer, der er angivet på listen <code>transformOperations</code>, på <code>record</code>.    Et eller flere felter kan transformeres på et givent tidspunkt.       <div>Hvis der transformeres et enkelt felt, forventes <code>transformOperations</code> at være en liste med to elementer. Det første element i <code>transformOperations</code> angiver et feltnavn, og det andet element i <code>transformOperations</code> angiver den funktion, der skal bruges til transformationen. Eksempel <code>\{"Quantity", Number.FromText}</code></div>      <div>Hvis flere felter transformeres, forventes <code>transformOperations</code> at være en liste over lister, hvor alle de indeholdte lister er et par bestående af feltnavn og en transformationshandling. Eksempel <code>\{\{"Quantity",Number.FromText},\{"UnitPrice", Number.FromText}}</code></div>
 

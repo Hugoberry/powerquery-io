@@ -5,8 +5,6 @@ title: Table.PositionOf
 # Table.PositionOf
 
 
-## Description
-
 Devolve as posições da linha na tabela.
 
 
@@ -22,7 +20,7 @@ Table.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Devolve a posição da linha da primeira ocorrência de <code>row</code> no <code>table</code> especificado. Devolve -1 se não for encontrada nenhuma ocorrência.    <ul>       <li><code>table</code>: a tabela de entrada.</li>       <li><code>row</code>: a linha cuja posição pretende localizar na tabela.</li>       <li><code>occurrence</code>: <i>[Opcional]</i> Especifica as ocorrências da linha a devolver.</li>       <li><code>equationCriteria</code>: <i>[Opcional]</i> Controla a comparação entre as linhas da tabela.</li>    </ul>    
 

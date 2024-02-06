@@ -17,7 +17,7 @@ Databricks.Query(
 ```
 
 
-## Details
+## Remarks
 
 定义用于运行 SQL 查询的 Databricks 数据源
 

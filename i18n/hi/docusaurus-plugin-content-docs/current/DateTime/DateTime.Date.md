@@ -5,8 +5,6 @@ title: DateTime.Date
 # DateTime.Date
 
 
-## Description
-
 किसी दी गई दिनांक, दिनांक समय, दिनांक समय क्षेत्र मान के दिनांक घटक को लौटाता है.
 
 
@@ -19,7 +17,7 @@ DateTime.Date(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code>, दिए गए <code>date</code>, <code>datetime</code> या <code>datetimezone</code> मान का दिनांक घटक लौटाता है.
 

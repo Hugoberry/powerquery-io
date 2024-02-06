@@ -5,8 +5,6 @@ title: List.Buffer
 # List.Buffer
 
 
-## Description
-
 Puffert eine Liste.
 
 
@@ -19,7 +17,7 @@ List.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Puffert die Liste "<code>list</code>" im Arbeitsspeicher. Das Ergebnis dieses Aufrufs ist eine stabile Liste.
 

@@ -5,8 +5,6 @@ title: Text.Trim
 # Text.Trim
 
 
-## Description
-
 Remove qualquer espaço em branco à direita e à esquerda.
 
 
@@ -20,7 +18,7 @@ Text.Trim(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o resultado da remoção de todos os espaços em branco à esquerda e à direita do valor de texto <code>text</code>.
 

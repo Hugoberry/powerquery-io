@@ -5,8 +5,6 @@ title: Table.ApproximateRowCount
 # Table.ApproximateRowCount
 
 
-## Description
-
 Restituisce il numero approssimativo di righe nella tabella.
 
 
@@ -19,7 +17,7 @@ Table.ApproximateRowCount(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il numero approssimativo di righe nel <code>table</code>o un errore se l'origine dati non supporta l'approssimazione.
 

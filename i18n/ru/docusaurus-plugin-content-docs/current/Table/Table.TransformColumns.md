@@ -5,8 +5,6 @@ title: Table.TransformColumns
 # Table.TransformColumns
 
 
-## Description
-
 Преобразует значения в одном или нескольких столбцах.
 
 
@@ -22,7 +20,7 @@ Table.TransformColumns(
 ```
 
 
-## Details
+## Remarks
 
 Преобразует <code>table</code> путем применения каждой операции столбца, указанной в <code>transformOperations</code> (в формате \{ имя столбца, преобразование } или \{ имя столбца, преобразование, новый тип столбца }).    Если указан <code>defaultTransformation</code>, он будет применен ко всем столбцам, не указанным в <code>transformOperations</code>.    Если столбец, указанный в <code>transformOperations</code>, не существует, генерируетсяч исключение, кроме случаев, когда необязательный параметр <code>missingField</code> не указывает иное (например, <code>MissingField.UseNull</code> или <code>MissingField.Ignore</code>).
 

@@ -5,8 +5,6 @@ title: DataLake.Contents
 # DataLake.Contents
 
 
-## Description
-
 Введите URL-адрес учетной записи Azure Data Lake Storage 1-го поколения.
 
 
@@ -20,7 +18,7 @@ DataLake.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу, содержащую строку для каждой папки и каждого файла, находящихся по <code>URL-адресу</code> в Azure Data Lake Storage 1-го поколения. Каждая строка содержит свойства папки или файла, а также ссылку на их содержимое.
 

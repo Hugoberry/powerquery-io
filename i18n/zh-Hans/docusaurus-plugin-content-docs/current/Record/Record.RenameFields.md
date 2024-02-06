@@ -5,8 +5,6 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-## Description
-
 采用 \{ old, new } 形式从列表中应用重命名。
 
 
@@ -21,7 +19,7 @@ Record.RenameFields(
 ```
 
 
-## Details
+## Remarks
 
 将输入 <code>record</code> 中的字段重命名为列表 <code>renames</code> 中指定的新字段名称后，返回一个记录。对于多个重命名，可以使用嵌套的列表(\{ \{old1, new1}, \{old2, new2} })。
 

@@ -5,8 +5,6 @@ title: Number.Sqrt
 # Number.Sqrt
 
 
-## Description
-
 Gibt die Quadratwurzel der Zahl zurück.
 
 
@@ -19,7 +17,7 @@ Number.Sqrt(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die Quadratwurzel von <code>number</code> zurück.    Ist <code>number</code> NULL, gibt <code>Number.Sqrt</code> NULL zurück. Handelt es sich um einen negativen Wert, wird <code>Number.NaN</code> (kein numerischer Wert) zurückgegeben.
 

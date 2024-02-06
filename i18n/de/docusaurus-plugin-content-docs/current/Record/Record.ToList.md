@@ -5,8 +5,6 @@ title: Record.ToList
 # Record.ToList
 
 
-## Description
-
 Gibt eine Liste von Werten mit den Feldwerten des Eingabedatensatzes zurück.
 
 
@@ -19,7 +17,7 @@ Record.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Liste von Werten mit den Feldwerten aus der Eingabe <code>record</code> zurück.
 

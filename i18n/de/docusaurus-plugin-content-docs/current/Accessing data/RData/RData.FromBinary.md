@@ -5,8 +5,6 @@ title: RData.FromBinary
 # RData.FromBinary
 
 
-## Description
-
 Gibt einen Datensatz mit Datenrahmen aus der RData-Datei zurück.
 
 
@@ -19,7 +17,7 @@ RData.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen Datensatz mit Datenrahmen aus der RData-Datei zurück.
 

@@ -5,8 +5,6 @@ title: Splitter.SplitTextByWhitespace
 # Splitter.SplitTextByWhitespace
 
 
-## Description
-
 傳回函數，這個函數會在空白字元處，將文字分割成文字清單。
 
 
@@ -19,7 +17,7 @@ Splitter.SplitTextByWhitespace(
 ```
 
 
-## Details
+## Remarks
 
 傳回函數，這個函數會在空白字元處，將文字分割成文字清單。
 

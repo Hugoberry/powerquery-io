@@ -5,8 +5,6 @@ title: Value.Divide
 # Value.Divide
 
 
-## Description
-
 Trả về kết quả chia giá trị đầu tiên cho giá trị thứ hai.
 
 
@@ -21,7 +19,7 @@ Value.Divide(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả chia <code>value1</code> cho <code>value2</code>. Có thể chỉ định tham số <code>precision</code> tùy chọn, theo mặc định <code>Precision.Double</code> được sử dụng.
 

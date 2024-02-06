@@ -5,8 +5,6 @@ title: RData.FromBinary
 # RData.FromBinary
 
 
-## Description
-
 Trả về bản ghi khung dữ liệu từ tệp RData.
 
 
@@ -19,7 +17,7 @@ RData.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 Trả về bản ghi khung dữ liệu từ tệp RData.
 

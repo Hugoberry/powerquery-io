@@ -5,8 +5,6 @@ title: List.AnyTrue
 # List.AnyTrue
 
 
-## Description
-
 如果任意表达式为 true，则返回 true。
 
 
@@ -19,7 +17,7 @@ List.AnyTrue(
 ```
 
 
-## Details
+## Remarks
 
 如果列表 <code>list</code> 中的任意表达式为 true，则返回 true。
 

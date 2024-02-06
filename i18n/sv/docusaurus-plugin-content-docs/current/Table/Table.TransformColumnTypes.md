@@ -5,8 +5,6 @@ title: Table.TransformColumnTypes
 # Table.TransformColumnTypes
 
 
-## Description
-
 Tillämpar typtransformeringar i formatet \{ column, type } med hjälp av en specifik kultur.
 
 
@@ -21,7 +19,7 @@ Table.TransformColumnTypes(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell från angivna indata, <code>table</code>, genom att köra transformeringsåtgärden på kolumnerna som anges i parametern <code>typeTransformations</code> (där formatet är \{ column name, type name}) med hjälp av den angivna kulturen i parametern <code>culture</code> (till exempel, "en-US").    Om kolumnen inte finns genereras ett undantag.
 

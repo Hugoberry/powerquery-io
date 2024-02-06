@@ -5,8 +5,6 @@ title: Text.ToBinary
 # Text.ToBinary
 
 
-## Description
-
 Codiert Text in ein Binärformat.
 
 
@@ -21,7 +19,7 @@ Text.ToBinary(
 ```
 
 
-## Details
+## Remarks
 
 Codiert den angegebenen Textwert (<code>text</code>) unter Verwendung der Angabe für "<code>encoding</code>" in einen Binärwert.
 

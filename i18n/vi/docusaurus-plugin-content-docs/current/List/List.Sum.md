@@ -5,8 +5,6 @@ title: List.Sum
 # List.Sum
 
 
-## Description
-
 Trả về tổng cộng các mục trong danh sách.
 
 
@@ -20,7 +18,7 @@ List.Sum(
 ```
 
 
-## Details
+## Remarks
 
 Trả về tổng của các giá trị không rỗng trong danh sách <code>list</code>.  Trả về giá trị rỗng nếu không có giá trị nào trong danh sách là giá trị không rỗng.
 

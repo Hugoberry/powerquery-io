@@ -5,8 +5,6 @@ title: List.Buffer
 # List.Buffer
 
 
-## Description
-
 Coloca uma lista na memória intermédia.
 
 
@@ -19,7 +17,7 @@ List.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Coloca a lista <code>list</code> na memória intermédia. O resultado desta chamada é uma lista estável.
 

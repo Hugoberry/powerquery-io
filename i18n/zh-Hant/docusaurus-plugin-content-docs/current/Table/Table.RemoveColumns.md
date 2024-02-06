@@ -5,8 +5,6 @@ title: Table.RemoveColumns
 # Table.RemoveColumns
 
 
-## Description
-
 移除指定的資料行。
 
 
@@ -21,7 +19,7 @@ Table.RemoveColumns(
 ```
 
 
-## Details
+## Remarks
 
 從 <code>table</code> 提供的  中移除指定的 <code>columns</code>。    如果指定的資料行不存在，就會引發錯誤，除非選用參數 <code>missingField</code> 指定了替代行為 (例如 <code>MissingField.UseNull</code> 或 <code>MissingField.Ignore</code>)。
 

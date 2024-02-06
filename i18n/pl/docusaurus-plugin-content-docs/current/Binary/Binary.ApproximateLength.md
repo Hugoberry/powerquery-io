@@ -5,8 +5,6 @@ title: Binary.ApproximateLength
 # Binary.ApproximateLength
 
 
-## Description
-
 Zwraca przybliżoną wartość długości danych binarnych.
 
 
@@ -19,7 +17,7 @@ Binary.ApproximateLength(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca przybliżoną wartość długości <code>binary</code> lub zwraca błąd, jeśli źródło danych nie obsługuje oszacowanej długości.
 

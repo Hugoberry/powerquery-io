@@ -5,8 +5,6 @@ title: Table.ColumnsOfType
 # Table.ColumnsOfType
 
 
-## Description
-
 ऐसे स्तंभों के नामों वाली सूची लौटाता है जिनका मिलान निर्दिष्ट प्रकारों से होता है.
 
 
@@ -20,7 +18,7 @@ Table.ColumnsOfType(
 ```
 
 
-## Details
+## Remarks
 
 तालिका <code>table</code> से ऐसे स्तंभ नामों वाली सूची लौटाता है जिनका मिलान <code>listOfTypes</code> में निर्दिष्ट प्रकारों से होता है.
 

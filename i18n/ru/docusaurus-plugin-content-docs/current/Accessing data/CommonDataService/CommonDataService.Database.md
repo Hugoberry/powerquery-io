@@ -16,7 +16,7 @@ CommonDataService.Database(
 ```
 
 
-## Details
+## Remarks
 
 Подключение к экземпляру Dataverse (Dynamics 365 и PowerApps).
 

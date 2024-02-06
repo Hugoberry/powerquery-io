@@ -5,8 +5,6 @@ title: Record.Combine
 # Record.Combine
 
 
-## Description
-
 Kombinerar posterna i den angivna listan.
 
 
@@ -19,7 +17,7 @@ Record.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Kombinerar posterna i angiven <code>records</code>. Om <code>records</code> innehåller värden utan poster returneras ett fel.
 

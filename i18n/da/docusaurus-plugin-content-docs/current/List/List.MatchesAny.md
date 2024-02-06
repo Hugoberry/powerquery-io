@@ -5,8 +5,6 @@ title: List.MatchesAny
 # List.MatchesAny
 
 
-## Description
-
 Returnerer true, hvis betingelsesfunktionen er tilfreds med en hvilken som helst værdi.
 
 
@@ -20,7 +18,7 @@ List.MatchesAny(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer <code>true</code>, hvis betingelsesfunktionen <code>condition</code> er tilfreds med en hvilken som helst værdi på listen <code>list</code>. Ellers returneres <code>false</code>.
 

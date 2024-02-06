@@ -5,8 +5,6 @@ title: Table.SingleRow
 # Table.SingleRow
 
 
-## Description
-
 तालिका में एकल पंक्ति लौटाता है.
 
 
@@ -19,7 +17,7 @@ Table.SingleRow(
 ```
 
 
-## Details
+## Remarks
 
 एक पंक्ति <code>table</code> में एकल पंक्ति लौटाता है. यदि <code>table</code> में एक से अधिक पंक्ति होती हैं, तो एक अपवाद दिखाया जाता है.
 

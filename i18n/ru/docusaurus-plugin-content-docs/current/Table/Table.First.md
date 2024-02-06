@@ -5,8 +5,6 @@ title: Table.First
 # Table.First
 
 
-## Description
-
 Возвращает первую строку или указанное значение по умолчанию.
 
 
@@ -20,7 +18,7 @@ Table.First(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает первую строку из <code>table</code> или необязательное значение по умолчанию <code>default</code>, если таблица пуста.
 

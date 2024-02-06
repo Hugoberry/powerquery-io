@@ -5,8 +5,6 @@ title: Splitter.SplitTextByPositions
 # Splitter.SplitTextByPositions
 
 
-## Description
-
 Bir metin listesine belirtilen her konumda metin ayıran bir işlev döndürür.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByPositions(
 ```
 
 
-## Details
+## Remarks
 
 Bir metin listesine belirtilen her konumda metin ayıran bir işlev döndürür.
 

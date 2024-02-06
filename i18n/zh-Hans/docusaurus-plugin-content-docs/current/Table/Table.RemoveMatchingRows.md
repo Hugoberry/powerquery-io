@@ -5,8 +5,6 @@ title: Table.RemoveMatchingRows
 # Table.RemoveMatchingRows
 
 
-## Description
-
 从表中删除出现的所有指定行。
 
 
@@ -21,7 +19,7 @@ Table.RemoveMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 从 <code>table</code> 中删除出现的所有指定 <code>rows</code>。    可以指定一个可选参数 <code>equationCriteria</code>，以控制表各行之间的比较。
 

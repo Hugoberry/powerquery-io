@@ -5,8 +5,6 @@ title: List.Zip
 # List.Zip
 
 
-## Description
-
 Birçok listede aynı konumda bulunan öğeleri birleştirerek listelerin yer aldığı bir liste döndürür.
 
 
@@ -19,7 +17,7 @@ List.Zip(
 ```
 
 
-## Details
+## Remarks
 
 Liste listesi (<code>lists</code>) ve aynı konumdaki öğeleri bir araya getirerek listelerin bulunduğu bir liste döndürür.
 

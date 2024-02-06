@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger64
 # BinaryFormat.UnsignedInteger64
 
 
-## Description
-
 Một định dạng nhị phân đọc một số nguyên không dấu 64 bit.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger64(
 ```
 
 
-## Details
+## Remarks
 
 Một định dạng nhị phân đọc một số nguyên không dấu 64 bit.
 

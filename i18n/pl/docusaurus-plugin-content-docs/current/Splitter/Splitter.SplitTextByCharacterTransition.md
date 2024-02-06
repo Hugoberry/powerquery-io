@@ -5,8 +5,6 @@ title: Splitter.SplitTextByCharacterTransition
 # Splitter.SplitTextByCharacterTransition
 
 
-## Description
-
 Zwraca funkcję dzielącą tekst na listę wartości tekstowych w miejscach występowania przejścia z jednego rodzaju znaków na inny. Parametry \{0} i \{1} mogą być listą znaków lub funkcją przyjmującą znaki i zwracającą wartość true/false.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByCharacterTransition(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca funkcję dzielącą tekst na listę wartości tekstowych w miejscach występowania przejścia z jednego rodzaju znaków na inny. Parametry <code>before</code> i <code>after</code> mogą być listą znaków lub funkcją przyjmującą znaki i zwracającą wartość true/false.
 

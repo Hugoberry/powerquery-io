@@ -5,8 +5,6 @@ title: Type.Is
 # Type.Is
 
 
-## Description
-
 Określa, czy wartość pierwszego typu jest zawsze zgodna z drugim typem.
 
 
@@ -20,7 +18,7 @@ Type.Is(
 ```
 
 
-## Details
+## Remarks
 
 Określa, czy wartość <code>type1</code> jest zawsze zgodna z <code>type2</code>.
 

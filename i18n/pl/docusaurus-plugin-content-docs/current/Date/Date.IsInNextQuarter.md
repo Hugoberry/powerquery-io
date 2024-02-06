@@ -5,8 +5,6 @@ title: Date.IsInNextQuarter
 # Date.IsInNextQuarter
 
 
-## Description
-
 Wskazuje, czy ta data przypada w następnym kwartale określonym zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącego kwartału.
 
 
@@ -19,7 +17,7 @@ Date.IsInNextQuarter(
 ```
 
 
-## Details
+## Remarks
 
 Wskazuje, czy dana wartość daty/godziny <code>dateTime</code> przypada w następnym kwartale określonym zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącego kwartału.      <ul>      <li><code>dateTime</code>: wartość <code>date</code>, <code>datetime</code> lub <code>datetimezone</code> do oszacowania.</li>      </ul>
 

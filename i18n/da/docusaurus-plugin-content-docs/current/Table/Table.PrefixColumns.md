@@ -5,8 +5,6 @@ title: Table.PrefixColumns
 # Table.PrefixColumns
 
 
-## Description
-
 Returnerer en tabel, hvor alle kolonnerne indledes med den angivne tekst.
 
 
@@ -20,7 +18,7 @@ Table.PrefixColumns(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel, hvor alle kolonnenavne fra den angivne <code>table</code> indledes med den angivne tekst <code>prefix</code>, plus et punktum i formatet <code>prefix</code><code>.ColumnName</code>.
 

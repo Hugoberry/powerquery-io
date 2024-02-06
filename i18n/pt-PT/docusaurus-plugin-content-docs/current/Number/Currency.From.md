@@ -5,8 +5,6 @@ title: Currency.From
 # Currency.From
 
 
-## Description
-
 Retorna um valor monetário a partir do valor indicado.
 
 
@@ -21,7 +19,7 @@ Currency.From(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um valor de <code>currency</code> a partir do <code>value</code> fornecido. Se o fornecido <code>value</code> for <code>null</code>, <code>Currency.From</code> devolve <code>null</code>. Se o fornecido <code>value</code> for <code>number</code> dentro do intervalo monetário, a parte fracional de <code>value</code> é arredondada para 4 dígitos decimais e devolvida. Se o fornecido <code>value</code> for de outro tipo, será primeiro convertido para um <code>number</code> utilizando <code>Number.FromText</code>. Intervalo monetário válido é <code>-922,337,203,685,477.5808</code> para <code>922,337,203,685,477.5807</code>. Consulte o <code>Number.Round</code> para os modos de arredondamento disponíveis. O predefinido é <code>RoundingMode.ToEven</code>. Um opcional <code>culture</code> também poderá ser fornecido (por exemplo, "en-US").
 

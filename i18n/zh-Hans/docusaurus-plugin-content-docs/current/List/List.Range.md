@@ -5,8 +5,6 @@ title: List.Range
 # List.Range
 
 
-## Description
-
 返回从偏移量开始的列表的子集。
 
 
@@ -21,7 +19,7 @@ List.Range(
 ```
 
 
-## Details
+## Remarks
 
 返回从偏移量 <code>list</code> 开始的列表的子集。可选参数 <code>offset</code> 用于设置子集中的最大项数。
 

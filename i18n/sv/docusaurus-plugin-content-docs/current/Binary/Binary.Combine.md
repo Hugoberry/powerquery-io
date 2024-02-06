@@ -5,8 +5,6 @@ title: Binary.Combine
 # Binary.Combine
 
 
-## Description
-
 Kombinerar en lista med binärvärden till ett enda binärvärde.
 
 
@@ -19,7 +17,7 @@ Binary.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Kombinerar en lista med binärvärden till ett enda binärvärde.
 

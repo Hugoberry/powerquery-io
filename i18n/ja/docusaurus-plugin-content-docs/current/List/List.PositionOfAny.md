@@ -5,8 +5,6 @@ title: List.PositionOfAny
 # List.PositionOfAny
 
 
-## Description
-
 リスト内の値の最初のオフセットを返します。
 
 
@@ -22,7 +20,7 @@ List.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>values</code> 内の値の最初の出現、のリスト <code>list</code> でのオフセットを返します。1 つも出現しない場合は -1 を返します。    省略可能な出現パラメーター <code>occurrence</code> を指定できます。<ul>   <li><code>occurrence</code>: 返すことができる出現の最大数。</li></ul>
 

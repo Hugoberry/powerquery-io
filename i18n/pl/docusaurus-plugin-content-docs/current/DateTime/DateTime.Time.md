@@ -5,8 +5,6 @@ title: DateTime.Time
 # DateTime.Time
 
 
-## Description
-
 Zwraca składnik godziny z danej wartości typu datetime.
 
 
@@ -19,7 +17,7 @@ DateTime.Time(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca składnik godziny z danej wartości typu datetime (<code>dateTime</code>).
 

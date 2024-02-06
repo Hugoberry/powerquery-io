@@ -5,8 +5,6 @@ title: Table.Distinct
 # Table.Distinct
 
 
-## Description
-
 Yinelenen satırları tablodan kaldırır.
 
 
@@ -20,7 +18,7 @@ Table.Distinct(
 ```
 
 
-## Details
+## Remarks
 
 Yinelenen satırları tablodan kaldırır.    İsteğe bağlı<code>equationCriteria</code> parametresi tablodaki hangi sütunlar için yineleme testi yapılacağını belirtir. <code>equationCriteria</code> belirtilmezse tüm sütunlar test edilir.<br />    <br />    Power Query bazen belirli işlemleri arka uç veri kaynaklarına boşalttığından (“kaynağa döndürme” olarak bilinir) ve ayrıca bazen kesinlikle gerekli olmayan işlemleri     atlayarak sorguları iyileştirdiğinden, genel olarak hangi yinelenen satırların korunacağı garanti edilemez.    Örneğin, benzersiz bir sütun değerleri kümesi içeren ilk satırın korunacağını ve tablodaki diğer satırların kaldırılacağını varsayamazsınız.    Yinelenenleri kaldırma işleminin beklendiği şekilde davranmasını istiyorsanız önce <code>Table.Buffer</code> kullanarak tabloyu arabelleğe alın.
 

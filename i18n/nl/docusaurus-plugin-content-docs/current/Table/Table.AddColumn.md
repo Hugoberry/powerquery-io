@@ -5,8 +5,6 @@ title: Table.AddColumn
 # Table.AddColumn
 
 
-## Description
-
 Voegt een kolom met de opgegeven naam toe. De waarde wordt berekend met behulp van de opgegeven selectiefunctie, waarbij elke rij als invoer wordt beschouwd.
 
 
@@ -22,7 +20,7 @@ Table.AddColumn(
 ```
 
 
-## Details
+## Remarks
 
 Voegt een kolom genaamd <code>newColumnName</code> toe aan de tabel <code>table</code>. De waarden voor de kolom worden berekend met behulp van de opgegeven selectiefunctie <code>columnGenerator</code>, waarbij elke rij als invoer wordt beschouwd.
 

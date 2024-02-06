@@ -5,8 +5,6 @@ title: Table.Min
 # Table.Min
 
 
-## Description
-
 Gibt anhand der angegebenen Kriterien die kleinste Zeile oder den Standardwert zurück.
 
 
@@ -21,7 +19,7 @@ Table.Min(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die kleinste Zeile im Element vom Typ "<code>table</code>" anhand von "<code>comparisonCriteria</code>" zurück. Ist die Tabelle leer, wird der optionale Wert "<code>default</code>" zurückgegeben.
 

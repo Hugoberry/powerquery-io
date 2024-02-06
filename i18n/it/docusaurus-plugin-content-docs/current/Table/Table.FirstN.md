@@ -5,8 +5,6 @@ title: Table.FirstN
 # Table.FirstN
 
 
-## Description
-
 Restituisce le prime righe del conteggio specificate.
 
 
@@ -20,7 +18,7 @@ Table.FirstN(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce le prime righe della tabella <code>table</code> a seconda del valore di <code>countOrCondition</code>:    <ul>    <li> Se <code>countOrCondition</code> è un numero, verrà restituito lo stesso numero di righe, a partire dall'alto. </li>    <li> Se <code>countOrCondition</code> è una condizione, verranno restituite le righe che soddisfano la condizione finché non viene trovata una riga che non soddisfa la condizione.</li></ul>
 

@@ -5,8 +5,6 @@ title: BinaryFormat.Group
 # BinaryFormat.Group
 
 
-## Description
-
 Retourne un format binaire qui lit un groupe d&#39;éléments.
 
 
@@ -22,7 +20,7 @@ BinaryFormat.Group(
 ```
 
 
-## Details
+## Remarks
 
 Les paramètres sont les suivants :<ul><li>Le paramètre <code>binaryFormat</code> spécifie le format binaire de la valeur de clé.</li><li>Le paramètre <code>group</code> fournit des informations sur le groupe d'éléments connus.</li><li>Le paramètre <code>extra</code> facultatif peut être utilisé pour spécifier une fonction qui retourne une valeur de format binaire pour la valeur qui suit une clé inattendue. Si le paramètre <code>extra</code> n'est pas spécifié, une erreur est générée en cas de valeurs de clés inattendues.</li></ul>Le paramètre <code>group</code> spécifie une liste de définitions d'élément. Chaque définition d'élément est une liste, contenant 3 à 5 valeurs, comme suit :<ul><li>Valeur de clé. Valeur de la clé qui correspond à l'élément. Elle doit être unique dans le jeu d'éléments.</li><li>Format d'élément. Format binaire correspondant à la valeur de l'élément. Cela permet à chaque élément d'avoir un format différent. </li><li>Occurrence de l'élément. Valeur <code>BinaryOccurrence.Type</code> indiquant le nombre de fois qu'il est prévu que l'élément apparaisse dans le groupe. Les éléments requis qui ne sont pas présents retournent une erreur. Les éléments en double obligatoires ou facultatifs sont traités comme des valeurs de clés inattendues.</li><li>Valeur d'élément par défaut (facultatif). Si la valeur par défaut de l'élément apparaît dans la liste des définitions d'élément et n'a pas la valeur NULL, elle sera utilisée à la place de la valeur par défaut. La valeur par défaut des éléments répétitifs ou facultatifs est NULL, et la valeur par défaut des valeurs répétitives est une liste vide \{ }.</li><li>Transformation de la valeur d'élément (facultatif). Si la fonction de transformation de la valeur d'élément est présente dans la liste des définitions d'élément et n'est pas NULL, elle est appelée pour transformer la valeur de l'élément avant qu'elle ne soit retournée. La fonction de transformation est appelée uniquement si l'élément apparaît dans l'entrée (elle n'est jamais appelée avec la valeur par défaut). </li></ul>
 

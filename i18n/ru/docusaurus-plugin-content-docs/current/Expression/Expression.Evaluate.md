@@ -5,8 +5,6 @@ title: Expression.Evaluate
 # Expression.Evaluate
 
 
-## Description
-
 Возвращает результат вычисления выражения M.
 
 
@@ -20,7 +18,7 @@ Expression.Evaluate(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает результат вычисления выражения <code>document</code> языка M с доступными для ссылки идентификаторами, которые определяет <code>environment</code>.
 

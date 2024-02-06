@@ -5,8 +5,6 @@ title: Table.Unpivot
 # Table.Unpivot
 
 
-## Description
-
 テーブル内の一連の列を属性/値のペアに変換します。
 
 
@@ -22,7 +20,7 @@ Table.Unpivot(
 ```
 
 
-## Details
+## Remarks
 
 テーブルの一連の列を属性/値のペアに変換します。その際、各行の残りの値と結合します。
 

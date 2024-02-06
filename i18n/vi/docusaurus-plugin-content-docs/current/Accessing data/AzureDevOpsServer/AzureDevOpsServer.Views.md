@@ -5,8 +5,6 @@ title: AzureDevOpsServer.Views
 # AzureDevOpsServer.Views
 
 
-## Description
-
 Nhập tên dự án và tổ chức.
 
 
@@ -22,7 +20,7 @@ AzureDevOpsServer.Views(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bảng bao gồm các nguồn cấp dữ liệu OData do Azure DevOps cung cấp.
 

@@ -5,8 +5,6 @@ title: DateTimeZone.ToLocal
 # DateTimeZone.ToLocal
 
 
-## Description
-
 Chuyển đổi cấu phần múi giờ thành múi giờ địa phương.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToLocal(
 ```
 
 
-## Details
+## Remarks
 
 Thay đổi thông tin múi giờ của giá trị datetimezone <code>dateTimeZone</code> thành thông tin múi giờ địa phương.    Nếu <code>dateTimeZone</code> không có cấu phần múi giờ thì thông tin múi giờ địa phương được thêm.
 

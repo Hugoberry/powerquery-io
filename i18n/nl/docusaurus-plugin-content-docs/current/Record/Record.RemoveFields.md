@@ -5,8 +5,6 @@ title: Record.RemoveFields
 # Record.RemoveFields
 
 
-## Description
-
 Verwijdert het opgegeven veld of de opgegeven velden uit de invoerrecord.
 
 
@@ -21,7 +19,7 @@ Record.RemoveFields(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een record die alle velden die in de lijst <code>fields</code> zijn opgegeven, verwijdert uit de invoer <code>record</code>. Als het opgegeven veld niet bestaat, wordt er een uitzondering gegenereerd.
 

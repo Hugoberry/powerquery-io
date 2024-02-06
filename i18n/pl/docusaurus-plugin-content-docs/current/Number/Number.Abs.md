@@ -5,8 +5,6 @@ title: Number.Abs
 # Number.Abs
 
 
-## Description
-
 Zwraca wartość bezwzględną liczby.
 
 
@@ -19,7 +17,7 @@ Number.Abs(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wartość bezwzględną liczby <code>number</code>. Jeśli parametr <code>number</code> ma wartość null, funkcja <code>Number.Abs</code> zwraca wartość null.    <ul>        <li><code>number</code>: wartość typu <code>number</code>, dla której ma zostać obliczona wartość bezwzględna.</li>      </ul>
 

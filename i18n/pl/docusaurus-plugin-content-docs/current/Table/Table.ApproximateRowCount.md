@@ -5,8 +5,6 @@ title: Table.ApproximateRowCount
 # Table.ApproximateRowCount
 
 
-## Description
-
 Zwraca szacunkową liczbę wierszy w tabeli.
 
 
@@ -19,7 +17,7 @@ Table.ApproximateRowCount(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca przybliżoną liczbę wierszy w <code>table</code> lub błąd, jeśli źródło danych nie obsługuje przybliżenia.
 

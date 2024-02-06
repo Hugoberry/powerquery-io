@@ -5,8 +5,6 @@ title: Percentage.From
 # Percentage.From
 
 
-## Description
-
 Returnerer en procentværdi af den givne værdi.
 
 
@@ -20,7 +18,7 @@ Percentage.From(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en værdi af typen <code>procent</code> fra den angivne <code>value</code>. Hvis den angivne <code>value</code> er <code>null</code>, returnerer <code>Percentage.From</code> <code>null</code>.  Hvis den angivne <code>value</code> er <code>text</code> med et efterstillet procentsymbol, returneres det konverterede decimaltal. Ellers konverteres værdien til en <code>number</code> ved hjælp af <code>Number.From</code>. Der kan også angives en valgfri <code>culture</code> (f.eks. "en-US").
 

@@ -5,8 +5,6 @@ title: Table.FromPartitions
 # Table.FromPartitions
 
 
-## Description
-
 Trả về một bảng là kết quả kết hợp một nhóm các bảng đã phân chia.
 
 
@@ -21,7 +19,7 @@ Table.FromPartitions(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bảng là kết quả của việc kết hợp một loạt bảng được phân vùng, <code>partitions</code>. <code>partitionColumn</code> là tên của cột cần thêm. Loại cột mặc định là <code>bất kỳ</code> nhưng có thể được chỉ định bởi <code>partitionColumnType</code>.
 

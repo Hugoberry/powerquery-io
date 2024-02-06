@@ -5,8 +5,6 @@ title: Date.EndOfYear
 # Date.EndOfYear
 
 
-## Description
-
 傳回年度結束時間。
 
 
@@ -19,7 +17,7 @@ Date.EndOfYear(
 ```
 
 
-## Details
+## Remarks
 
 傳回包含 <code>dateTime</code> 的年度結束時間，包括小數秒數。時區資訊會保留。      <ul>        <li><code>dateTime</code>: 要計算年度結束時間的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值。</li>      </ul>
 

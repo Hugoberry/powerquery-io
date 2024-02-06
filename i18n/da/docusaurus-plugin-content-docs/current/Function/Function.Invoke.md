@@ -5,8 +5,6 @@ title: Function.Invoke
 # Function.Invoke
 
 
-## Description
-
 Udløser den angivne funktion
 
 
@@ -20,7 +18,7 @@ Function.Invoke(
 ```
 
 
-## Details
+## Remarks
 
 Udløser den angivne funktion ved hjælp af den angivne liste over argumenter og returnerer resultatet.
 

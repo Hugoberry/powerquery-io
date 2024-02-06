@@ -5,8 +5,6 @@ title: List.Buffer
 # List.Buffer
 
 
-## Description
-
 Tải danh sách.
 
 
@@ -19,7 +17,7 @@ List.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Tải danh sách <code>list</code> trong bộ nhớ. Kết quả của lệnh gọi này là một danh sách ổn định.
 

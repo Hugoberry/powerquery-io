@@ -5,8 +5,6 @@ title: Splitter.SplitTextByRepeatedLengths
 # Splitter.SplitTextByRepeatedLengths
 
 
-## Description
-
 ऐसा फ़ंक्शन लौटाता है जो बार-बार निर्दिष्ट लंबाई के बाद पाठ को पाठ की सूची में विभाजित करता है.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByRepeatedLengths(
 ```
 
 
-## Details
+## Remarks
 
 ऐसा फ़ंक्शन लौटाता है जो बार-बार निर्दिष्ट लंबाई के बाद पाठ को पाठ की सूची में विभाजित करता है.
 

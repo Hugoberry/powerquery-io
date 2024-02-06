@@ -5,8 +5,6 @@ title: Duration.ToRecord
 # Duration.ToRecord
 
 
-## Description
-
 Zwraca rekord zawierający części wartości typu duration.
 
 
@@ -19,7 +17,7 @@ Duration.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca rekord zawierający części wartości typu duration (<code>duration</code>).   <ul>        <li><code>duration</code>: wartość typu <code>duration</code>, na podstawie której tworzony jest rekord.</li>      </ul>
 

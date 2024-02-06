@@ -5,8 +5,6 @@ title: Record.FieldCount
 # Record.FieldCount
 
 
-## Description
-
 Retourne le nombre de champs dans l&#39;enregistrement.
 
 
@@ -19,7 +17,7 @@ Record.FieldCount(
 ```
 
 
-## Details
+## Remarks
 
 Retourne le nombre de champs dans l'enregistrement <code>record</code>.
 

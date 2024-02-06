@@ -5,8 +5,6 @@ title: Date.EndOfMonth
 # Date.EndOfMonth
 
 
-## Description
-
 ส่งกลับจุดสิ้นสุดของเดือน
 
 
@@ -19,7 +17,7 @@ Date.EndOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับจุดสิ้นสุดของเดือนที่มี <code>dateTime</code>      <ul>        <li><code>dateTime</code>: ค่า<code>วันที่</code> <code>วันที่เวลา</code> หรือ<code>โซนวันที่เวลา</code>ที่คํานวณว่ามีจุดสิ้นสุดของเดือนใดบ้าง</li>      </ul>
 

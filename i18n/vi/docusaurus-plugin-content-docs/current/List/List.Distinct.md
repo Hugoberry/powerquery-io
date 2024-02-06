@@ -5,8 +5,6 @@ title: List.Distinct
 # List.Distinct
 
 
-## Description
-
 Trả về một danh sách giá trị đã được loại bỏ giá trị trùng lặp.
 
 
@@ -20,7 +18,7 @@ List.Distinct(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một danh sách chứa tất cả các giá trị trong danh sách <code>list</code> đã bị loại bỏ giá trị trùng lặp. Nếu danh sách trống thì kết quả là một danh sách trống.
 

@@ -5,8 +5,6 @@ title: Table.IsDistinct
 # Table.IsDistinct
 
 
-## Description
-
 Tabloda yalnızca ayrı satırların bulunup bulunmadığını (yinelenen satır olmadığını) gösterir.
 
 
@@ -20,7 +18,7 @@ Table.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> içinde yalnızca ayrı satırların bulunup bulunmadığını (yinelenen satır olmadığını) gösterir. Satırların tümü ayrıysa <code>true</code> döndürür, ayrı değilse <code>false</code> döndürür.    İsteğe bağlı <code>comparisonCriteria</code> parametresi, tablodaki hangi sütunların yineleme için test edildiğini belirtir. <code>comparisonCriteria</code> belirtilmediği takdirde tüm sütunlar test edilir.
 

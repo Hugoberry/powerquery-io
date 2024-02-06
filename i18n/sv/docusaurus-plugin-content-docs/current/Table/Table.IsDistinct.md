@@ -5,8 +5,6 @@ title: Table.IsDistinct
 # Table.IsDistinct
 
 
-## Description
-
 Anger om tabellen bara innehåller distinkta rader (inga dubbletter).
 
 
@@ -20,7 +18,7 @@ Table.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 Anger om <code>table</code> bara innehåller distinkta rader (inga dubbletter). Returnerar <code>true</code> om raderna är distinkta. Annars returneras <code>false</code>.    En valfri parameter, <code>comparisonCriteria</code>, anger vilka kolumner i tabellen som testas för duplicering. Om <code>comparisonCriteria</code> inte anges testas alla kolumner.
 

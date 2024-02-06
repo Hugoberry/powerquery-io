@@ -5,8 +5,6 @@ title: Duration.Minutes
 # Duration.Minutes
 
 
-## Description
-
 ส่งกลับส่วนนาทีของระยะเวลา
 
 
@@ -19,7 +17,7 @@ Duration.Minutes(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับส่วนนาทีของ <code>duration</code>
 

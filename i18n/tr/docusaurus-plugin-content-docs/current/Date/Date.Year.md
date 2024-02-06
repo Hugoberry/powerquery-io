@@ -5,8 +5,6 @@ title: Date.Year
 # Date.Year
 
 
-## Description
-
 Yıl bileşenini döndürür.
 
 
@@ -19,7 +17,7 @@ Date.Year(
 ```
 
 
-## Details
+## Remarks
 
 Sağlanan <code>datetime</code> değeri olan <code>dateTime</code> değerinin yıl bileşenini döndürür.
 

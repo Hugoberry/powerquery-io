@@ -5,8 +5,6 @@ title: Stripe.Tables
 # Stripe.Tables
 
 
-## Description
-
 ส่งคืนค่าตารางที่แสดงรายการตารางและฟังก์ชัน Stripe ที่สามารถเลือกใช้งานได้
 
 
@@ -19,7 +17,7 @@ Stripe.Tables(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนค่าตารางที่แสดงรายการตารางและฟังก์ชัน Stripe ที่สามารถเลือกใช้งานได้
 

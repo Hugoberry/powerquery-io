@@ -5,8 +5,6 @@ title: Uri.Parts
 # Uri.Parts
 
 
-## Description
-
 Gibt die Teile des absoluten Eingabe-URI als Datensatz zurück.
 
 
@@ -19,7 +17,7 @@ Uri.Parts(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die Teile der Eingabe "<code>absoluteUri</code>" als Datensatz mit Werten wie Schema, Host, Port, Pfad, Abfrage, Fragment, Benutzername und Kennwort zurück.
 

@@ -5,8 +5,6 @@ title: Table.PositionOf
 # Table.PositionOf
 
 
-## Description
-
 Returnerar positionen eller positionerna för raden i tabellen.
 
 
@@ -22,7 +20,7 @@ Table.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar radpositionen för den första förekomsten av <code>row</code> i angiven <code>table</code>. Returnerar -1 om ingen förekomst hittas.    <ul>       <li><code>table</code>: Indatatabellen.</li>       <li><code>row</code>: Raden i tabellen som positionen ska hittas för.</li>       <li><code>occurrence</code>: <i>[Valfritt]</i> Anger vilka förekomster av raden som ska returneras.</li>       <li><code>equationCriteria</code>: <i>[Valfritt]</i> Kontrollerar jämförelsen mellan tabellraderna.</li>    </ul>    
 

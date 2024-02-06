@@ -5,8 +5,6 @@ title: Number.IntegerDivide
 # Number.IntegerDivide
 
 
-## Description
-
 İki sayıyı böler ve sonucun tamsayı kısmını döndürür.
 
 
@@ -21,7 +19,7 @@ Number.IntegerDivide(
 ```
 
 
-## Details
+## Remarks
 
 <code>number1</code> sayısını başka bir <code>number2</code> sayısına bölme işlemi sonucunun tamsayı kısmını döndürür.    <code>number1</code> veya <code>number2</code> null ise <code>Number.IntegerDivide</code> null döndürür.      <ul>        <li><code>number1</code>: Bölünen.</li>        <li><code>number2</code>: Bölen.</li>      </ul>
 

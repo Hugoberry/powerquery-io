@@ -5,8 +5,6 @@ title: ActiveDirectory.Domains
 # ActiveDirectory.Domains
 
 
-## Description
-
 Belirtilen etki alanı ile aynı ormandaki Active Directory etki alanlarının listesini veya etki alanı belirtilmezse, geçerli makinenin etki alanının listesini döndürür.
 
 
@@ -19,7 +17,7 @@ ActiveDirectory.Domains(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen etki alanı ile aynı ormandaki Active Directory etki alanlarının listesini veya etki alanı belirtilmezse, geçerli makinenin etki alanının listesini döndürür.
 

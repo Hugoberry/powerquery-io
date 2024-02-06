@@ -5,8 +5,6 @@ title: BinaryFormat.Null
 # BinaryFormat.Null
 
 
-## Description
-
 Format binarny odczytujący zero bajtów i zwracający wartość null.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Null(
 ```
 
 
-## Details
+## Remarks
 
 Format binarny odczytujący zero bajtów i zwracający wartość null.
 

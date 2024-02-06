@@ -5,8 +5,6 @@ title: Table.ReplaceRows
 # Table.ReplaceRows
 
 
-## Description
-
 Sostituisce l&#39;intervallo di righe specificato con le righe fornite.
 
 
@@ -22,7 +20,7 @@ Table.ReplaceRows(
 ```
 
 
-## Details
+## Remarks
 
 Sostituisce il numero specificato di righe <code>count</code> nell'input <code>table</code> con <code>rows</code> a partire da <code>offset</code>. Il parametro <code>rows</code> è un elenco di record.    <ul>       <li><code>table</code>: tabella in cui viene eseguita la sostituzione.</li>       <li><code>offset</code>: numero di righe da ignorare prima della sostituzione.</li>       <li><code>count</code>: numero di righe da sostituire.</li>       <li><code>rows</code>: elenco di record di riga da inserire in <code>table</code> alla posizione specificata da <code>offset</code>.</li>    </ul>
 

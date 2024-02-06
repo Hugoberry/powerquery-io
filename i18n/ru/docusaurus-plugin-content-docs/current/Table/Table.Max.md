@@ -5,8 +5,6 @@ title: Table.Max
 # Table.Max
 
 
-## Description
-
 Возвращает самую большую строку или значение по умолчанию, используя заданные критерии.
 
 
@@ -21,7 +19,7 @@ Table.Max(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает наибольшую строку в <code>table</code>, исходя из критериев <code>comparisonCriteria</code>. Если таблица пуста, то возвращается значение необязательного параметра <code>default</code>. 
 

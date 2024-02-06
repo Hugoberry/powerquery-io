@@ -5,8 +5,6 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-## Description
-
 सूची के नाम(नामों) को \{ old, new } के रूप में बदलता है.
 
 
@@ -21,7 +19,7 @@ Record.RenameFields(
 ```
 
 
-## Details
+## Remarks
 
 इनपुट <code>record</code> की फ़ील्ड का नाम सूची <code>renames</code> में निर्दिष्ट फ़ील्ड नामों में बदलने के बाद एक रिकॉर्ड लौटाता है. एकाधिक नाम बदलने के लिए, एक नेस्टेड सूची का उपयोग किया जा सकता है (\{ \{old1, new1}, \{old2, new2} }.
 

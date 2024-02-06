@@ -5,8 +5,6 @@ title: Impala.Database
 # Impala.Database
 
 
-## Description
-
 Importar dados de um cluster de Impala
 
 
@@ -20,7 +18,7 @@ Impala.Database(
 ```
 
 
-## Details
+## Remarks
 
 Importar dados de um cluster de Impala <code>server</code>. Se não foi especificada uma porta, será utilizada a porta predefinida 21050.
 

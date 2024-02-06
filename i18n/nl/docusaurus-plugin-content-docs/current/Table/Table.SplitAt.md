@@ -5,8 +5,6 @@ title: Table.SplitAt
 # Table.SplitAt
 
 
-## Description
-
 Retourneert een lijst met de eerste N rijen die zijn opgegeven en de resterende rijen.
 
 
@@ -20,7 +18,7 @@ Table.SplitAt(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een lijst geretourneerd met twee tabellen: een tabel met de eerste N rijen van <code>table</code> (zoals opgegeven door <code>count</code>) en een tabel met de resterende rijen van <code>table</code>.Als de tabellen van de resulterende lijst precies één keer en op volgorde worden genummerd, wordt de functie <code>table</code> slechts één keer genummerd.
 

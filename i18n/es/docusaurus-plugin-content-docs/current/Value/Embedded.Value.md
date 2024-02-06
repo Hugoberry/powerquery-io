@@ -5,8 +5,6 @@ title: Embedded.Value
 # Embedded.Value
 
 
-## Description
-
 Tiene acceso a un valor por nombre en un mashup incrustado.
 
 
@@ -20,7 +18,7 @@ Embedded.Value(
 ```
 
 
-## Details
+## Remarks
 
 Tiene acceso a un valor por nombre en un mashup incrustado.
 

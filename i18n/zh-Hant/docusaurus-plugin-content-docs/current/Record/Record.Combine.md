@@ -5,8 +5,6 @@ title: Record.Combine
 # Record.Combine
 
 
-## Description
-
 結合指定清單中的記錄。
 
 
@@ -19,7 +17,7 @@ Record.Combine(
 ```
 
 
-## Details
+## Remarks
 
 結合指定 <code>records</code> 中的記錄。如果 <code>records</code> 包含非記錄值，則傳回錯誤。
 

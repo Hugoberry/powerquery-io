@@ -5,8 +5,6 @@ title: Number.Sinh
 # Number.Sinh
 
 
-## Description
-
 ส่งกลับค่าไฮเพอร์โบลิกไซน์ของตัวเลข
 
 
@@ -19,7 +17,7 @@ Number.Sinh(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่าไฮเพอร์โบลิกไซน์ของ <code>number</code>
 

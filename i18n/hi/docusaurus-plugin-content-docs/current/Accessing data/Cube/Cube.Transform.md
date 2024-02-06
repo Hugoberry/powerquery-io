@@ -5,8 +5,6 @@ title: Cube.Transform
 # Cube.Transform
 
 
-## Description
-
 क्यूब फ़ंक्शन्स की एक सूची लागू करता है.
 
 
@@ -20,7 +18,7 @@ Cube.Transform(
 ```
 
 
-## Details
+## Remarks
 
 क्यूब फ़ंक्शन्स, <code>transforms</code>, की सूची को <code>cube</code> पर लागू करता है.
 

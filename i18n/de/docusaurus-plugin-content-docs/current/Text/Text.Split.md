@@ -5,8 +5,6 @@ title: Text.Split
 # Text.Split
 
 
-## Description
-
 Teilt Text auf der Grundlage eines angegebenen Trennzeichens in eine Liste mit Textwerten auf.
 
 
@@ -20,7 +18,7 @@ Text.Split(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Liste mit Textwerten zurück, für die ein Textwert (<code>text</code>) auf der Grundlage des angegebenen Trennzeichens (<code>separator</code>) aufgeteilt wurde.
 

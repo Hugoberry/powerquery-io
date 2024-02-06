@@ -5,8 +5,6 @@ title: Value.Is
 # Value.Is
 
 
-## Description
-
 Określa, czy wartość jest zgodna z określonym typem.
 
 
@@ -20,7 +18,7 @@ Value.Is(
 ```
 
 
-## Details
+## Remarks
 
 Określa, czy wartość jest zgodna z określonym typem. Jest to odpowiednik operatora „is” w M, z wyjątkiem tego, że może akceptować odwołania do typu identyfikatora, takie jak Number.Type.
 

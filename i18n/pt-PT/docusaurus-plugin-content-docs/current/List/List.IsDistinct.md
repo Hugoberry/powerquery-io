@@ -5,8 +5,6 @@ title: List.IsDistinct
 # List.IsDistinct
 
 
-## Description
-
 Indica se existem duplicados na lista.
 
 
@@ -20,7 +18,7 @@ List.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um valor lógico se existirem duplicados na lista <code>list</code>; <code>true</code> se a lista for distinta, <code>false</code> se existirem valores duplicados. 
 

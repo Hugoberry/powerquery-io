@@ -5,8 +5,6 @@ title: Text.Trim
 # Text.Trim
 
 
-## Description
-
 Verwijdert alle voorloop- en volgspaties.
 
 
@@ -20,7 +18,7 @@ Text.Trim(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het resultaat van het verwijderen van alle voorloop- en volgspaties uit de tekstwaarde <code>text</code>.
 

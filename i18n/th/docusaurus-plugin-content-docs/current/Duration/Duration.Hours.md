@@ -5,8 +5,6 @@ title: Duration.Hours
 # Duration.Hours
 
 
-## Description
-
 ส่งกลับส่วนชั่วโมงของระยะเวลา
 
 
@@ -19,7 +17,7 @@ Duration.Hours(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับส่วนชั่วโมงของ <code>duration</code>
 

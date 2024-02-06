@@ -5,8 +5,6 @@ title: Number.Ln
 # Number.Ln
 
 
-## Description
-
 Trả về logarit tự nhiên của số.
 
 
@@ -19,7 +17,7 @@ Number.Ln(
 ```
 
 
-## Details
+## Remarks
 
 Trả về giá trị logarit tự nhiên của số, <code>number</code>. Nếu <code>number</code> lànull <code>Number.Ln</code> trả lại null.
 

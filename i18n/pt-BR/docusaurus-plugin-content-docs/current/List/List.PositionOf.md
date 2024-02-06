@@ -5,8 +5,6 @@ title: List.PositionOf
 # List.PositionOf
 
 
-## Description
-
 Retorna os deslocamentos de um valor em uma lista.
 
 
@@ -22,7 +20,7 @@ List.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o deslocamento em que o valor <code>value</code> aparece na lista <code>list</code>. Retorna -1 caso o valor não apareça.    Um parâmetro de ocorrência <code>occurrence</code> opcional pode ser especificado.<ul>   <li><code>occurrence</code>: o número máximo de ocorrências para o relatório.</li></ul>
 

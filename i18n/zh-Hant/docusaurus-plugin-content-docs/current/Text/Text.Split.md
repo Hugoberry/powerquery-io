@@ -5,8 +5,6 @@ title: Text.Split
 # Text.Split
 
 
-## Description
-
 根據指定的分隔符號，將文字分割成文字值的清單。
 
 
@@ -20,7 +18,7 @@ Text.Split(
 ```
 
 
-## Details
+## Remarks
 
 傳回文字值的清單，這是根據指定的分隔符號 <code>separator</code> 分割文字值 <code>text</code> 所產生的結果。
 

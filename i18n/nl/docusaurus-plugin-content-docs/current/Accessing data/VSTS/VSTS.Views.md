@@ -5,8 +5,6 @@ title: VSTS.Views
 # VSTS.Views
 
 
-## Description
-
 Voer een organisatie en projectnamen in.
 
 
@@ -22,7 +20,7 @@ VSTS.Views(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tabel met OData-inhoud van Azure DevOps geretourneerd.
 

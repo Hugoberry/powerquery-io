@@ -5,8 +5,6 @@ title: Text.Trim
 # Text.Trim
 
 
-## Description
-
 删除所有前导空格和尾随空格。
 
 
@@ -20,7 +18,7 @@ Text.Trim(
 ```
 
 
-## Details
+## Remarks
 
 返回从文本值 <code>text</code> 删除所有前导空格和尾随空格的结果。
 

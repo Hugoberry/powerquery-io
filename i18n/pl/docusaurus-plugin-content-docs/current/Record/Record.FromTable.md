@@ -5,8 +5,6 @@ title: Record.FromTable
 # Record.FromTable
 
 
-## Description
-
 Tworzy rekord na podstawie tabeli w formie \{[Name = name, Value = value]}.
 
 
@@ -19,7 +17,7 @@ Record.FromTable(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca rekord na podstawie tabeli rekordów <code>table</code> zawierającej nazwy i wartości pól <code>\{[Name = name, Value = value]}</code>. Jeśli nazwy pól nie są unikatowe, jest zwracany wyjątek.
 

@@ -5,8 +5,6 @@ title: Number.Cosh
 # Number.Cosh
 
 
-## Description
-
 Sayının hiperbolik kosinüsünü döndürür.
 
 
@@ -19,7 +17,7 @@ Number.Cosh(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> değerinin hiperbolik kosinüsünü döndürür.
 

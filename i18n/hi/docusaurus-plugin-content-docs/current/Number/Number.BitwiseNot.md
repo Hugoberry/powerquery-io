@@ -5,8 +5,6 @@ title: Number.BitwiseNot
 # Number.BitwiseNot
 
 
-## Description
-
 जहाँ प्रत्येक बिट, इनपुट के विपरीत होता है, वहाँ एक बाइट लौटाता है.
 
 
@@ -19,7 +17,7 @@ Number.BitwiseNot(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> पर बिटवाइज़ "Not" कार्रवाई के निष्पादन का परिणाम लौटाता है.
 

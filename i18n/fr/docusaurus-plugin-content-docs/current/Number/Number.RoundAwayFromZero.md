@@ -5,8 +5,6 @@ title: Number.RoundAwayFromZero
 # Number.RoundAwayFromZero
 
 
-## Description
-
 Retourne le résultat de l&#39;arrondi supérieur pour les nombres positifs et de l&#39;arrondi inférieur pour les nombres négatifs. Le nombre de chiffres peut être spécifié.
 
 
@@ -20,7 +18,7 @@ Number.RoundAwayFromZero(
 ```
 
 
-## Details
+## Remarks
 
 Retourne le résultat de l'arrondi de <code>number</code> en fonction du signe du nombre. Cette fonction arrondit les nombres positifs au chiffre supérieur et les nombres négatifs au chiffre inférieur.     Si <code>digits</code> est spécifié, <code>number</code> est arrondi à <code>digits</code> chiffres décimaux.  
 

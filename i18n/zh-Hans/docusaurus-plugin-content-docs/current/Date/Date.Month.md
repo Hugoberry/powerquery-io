@@ -5,8 +5,6 @@ title: Date.Month
 # Date.Month
 
 
-## Description
-
 返回月份部分。
 
 
@@ -19,7 +17,7 @@ Date.Month(
 ```
 
 
-## Details
+## Remarks
 
 返回提供的 <code>datetime</code> 值 <code>dateTime</code> 的月份部分。
 

@@ -5,8 +5,6 @@ title: Value.Lineage
 # Value.Lineage
 
 
-## Description
-
 Diese Funktion ist nur für die interne Verwendung vorgesehen.
 
 
@@ -19,7 +17,7 @@ Value.Lineage(
 ```
 
 
-## Details
+## Remarks
 
 Diese Funktion ist nur für die interne Verwendung vorgesehen.
 

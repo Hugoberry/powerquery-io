@@ -5,8 +5,6 @@ title: Impala.Database
 # Impala.Database
 
 
-## Description
-
 Bir Impala kümesinden verileri içeri aktarın
 
 
@@ -20,7 +18,7 @@ Impala.Database(
 ```
 
 
-## Details
+## Remarks
 
 Bir <code>server</code> Impala kümesinden verileri içeri aktarın. Bağlantı noktası belirtilmemişse varsayılan bağlantı noktası olarak 21050 kullanılır.
 

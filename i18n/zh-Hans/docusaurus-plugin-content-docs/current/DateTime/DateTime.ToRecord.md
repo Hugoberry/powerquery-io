@@ -5,8 +5,6 @@ title: DateTime.ToRecord
 # DateTime.ToRecord
 
 
-## Description
-
 返回包含日期时间值的各个部分的记录。
 
 
@@ -19,7 +17,7 @@ DateTime.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 返回包含给定日期时间值 <code>dateTime</code> 的各个部分的记录。 <ul>        <li><code>dateTime</code>: 要从中计算其各个部分的记录的 <code>datetime</code> 值。</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Cube.Transform
 # Cube.Transform
 
 
-## Description
-
 Stosuje listę funkcji modułu.
 
 
@@ -20,7 +18,7 @@ Cube.Transform(
 ```
 
 
-## Details
+## Remarks
 
 Stosuje listę funkcji modułu <code>transforms</code> w module <code>cube</code>.
 

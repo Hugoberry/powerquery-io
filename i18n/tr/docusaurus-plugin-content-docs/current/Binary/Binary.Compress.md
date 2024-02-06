@@ -5,8 +5,6 @@ title: Binary.Compress
 # Binary.Compress
 
 
-## Description
-
 Belirtilen sıkıştırma türünü kullanarak ikili bir değeri sıkıştırır.
 
 
@@ -20,7 +18,7 @@ Binary.Compress(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen sıkıştırma türünü kullanarak ikili bir değeri sıkıştırır. Bu çağrının sonucunda girdinin sıkıştırılmış bir kopyası oluşur. Sıkıştırma türleri şunlardır:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
 

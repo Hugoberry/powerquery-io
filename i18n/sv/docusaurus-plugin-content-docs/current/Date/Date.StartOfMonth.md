@@ -5,8 +5,6 @@ title: Date.StartOfMonth
 # Date.StartOfMonth
 
 
-## Description
-
 Returnerar början på månaden.
 
 
@@ -19,7 +17,7 @@ Date.StartOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar början på den månad som innehåller <code>dateTime</code>.    <code>dateTime</code> måste vara ett <code>date</code>- eller <code>datetime-</code> värde.
 

@@ -5,8 +5,6 @@ title: Table.ReorderColumns
 # Table.ReorderColumns
 
 
-## Description
-
 निर्दिष्ट क्रम में स्तंभों के साथ एक तालिका लौटाता है.
 
 
@@ -21,7 +19,7 @@ Table.ReorderColumns(
 ```
 
 
-## Details
+## Remarks
 
 <code>columnOrder</code> द्वारा निर्दिष्ट क्रम में स्तंभों के साथ इनपुट <code>table</code> की एक तालिका लौटाता है. सूची में निर्दिष्ट न किए गए स्तंभों को पुनः क्रमबद्ध नहीं किया जाएगा.     यदि स्तंभ मौजूद नहीं होता है, तो जबतक वैकल्पिक पैरामीटर <code>missingField</code> कोई विकल्प निर्दिष्ट नहीं कर देता एक अपवाद दिखाया जाता है (उदाहरण <code>MissingField.UseNull</code> या <code>MissingField.Ignore</code>).
 

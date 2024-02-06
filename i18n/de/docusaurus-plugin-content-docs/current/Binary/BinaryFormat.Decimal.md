@@ -5,8 +5,6 @@ title: BinaryFormat.Decimal
 # BinaryFormat.Decimal
 
 
-## Description
-
 Ein Binärformat, das einen .NET-16-Byte-Dezimalwert liest.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Decimal(
 ```
 
 
-## Details
+## Remarks
 
 Ein Binärformat, das einen .NET-16-Byte-Dezimalwert liest.
 

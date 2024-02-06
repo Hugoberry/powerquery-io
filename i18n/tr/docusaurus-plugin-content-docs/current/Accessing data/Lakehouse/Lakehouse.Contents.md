@@ -5,8 +5,6 @@ title: Lakehouse.Contents
 # Lakehouse.Contents
 
 
-## Description
-
 Veri Gölünden verileri içeri aktarın
 
 
@@ -19,7 +17,7 @@ Lakehouse.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Erişiminiz olan tüm Veri Göllerine bağlanın ve kullanmak istediğiniz varlıkları seçin
 

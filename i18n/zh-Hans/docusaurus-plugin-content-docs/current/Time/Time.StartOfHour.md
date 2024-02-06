@@ -5,8 +5,6 @@ title: Time.StartOfHour
 # Time.StartOfHour
 
 
-## Description
-
 返回小时开始值。
 
 
@@ -19,7 +17,7 @@ Time.StartOfHour(
 ```
 
 
-## Details
+## Remarks
 
 返回 <code>dateTime</code> 表示的小时开始值。    <code>dateTime</code> 必须是 <code>time</code>、<code>datetime</code>或<code>datetimezone</code>值。
 

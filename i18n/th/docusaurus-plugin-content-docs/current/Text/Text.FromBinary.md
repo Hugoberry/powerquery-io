@@ -5,8 +5,6 @@ title: Text.FromBinary
 # Text.FromBinary
 
 
-## Description
-
 ถอดรหัสข้อมูลจากรูปแบบไบนารีให้เป็นข้อความ
 
 
@@ -20,7 +18,7 @@ Text.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 ถอดรหัสข้อมูล <code>binary</code> จากค่าไบนารีให้เป็นค่าข้อความโดยใช้ชนิด <code>encoding</code>
 

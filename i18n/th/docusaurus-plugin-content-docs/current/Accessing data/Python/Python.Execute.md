@@ -5,8 +5,6 @@ title: Python.Execute
 # Python.Execute
 
 
-## Description
-
 Е×зςύť℮ŝ Рýτĥŏπ śсґĭþτ ăиđ řēţϋŕŋѕ ďдтã ƒřаmеѕ
 
 

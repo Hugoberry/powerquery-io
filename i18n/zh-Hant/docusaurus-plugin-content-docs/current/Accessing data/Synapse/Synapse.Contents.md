@@ -15,7 +15,7 @@ Synapse.Contents(
 ```
 
 
-## Details
+## Remarks
 
 適用於 Azure Synapse Analytics 工作區的 PQ 連接器
 

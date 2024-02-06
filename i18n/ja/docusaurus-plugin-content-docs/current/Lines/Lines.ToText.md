@@ -5,8 +5,6 @@ title: Lines.ToText
 # Lines.ToText
 
 
-## Description
-
 テキストのリストを 1 つのテキストに変換します。指定された lineSeparator は、各行に追加されます。指定されない場合は、復帰文字と改行文字が使用されます。
 
 
@@ -20,7 +18,7 @@ Lines.ToText(
 ```
 
 
-## Details
+## Remarks
 
 テキストのリストを 1 つのテキストに変換します。指定された lineSeparator は、各行に追加されます。指定されない場合は、復帰文字と改行文字が使用されます。
 

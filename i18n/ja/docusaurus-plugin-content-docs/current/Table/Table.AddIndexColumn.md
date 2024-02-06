@@ -5,8 +5,6 @@ title: Table.AddIndexColumn
 # Table.AddIndexColumn
 
 
-## Description
-
 明示的な位置の値を含む列を追加します。
 
 
@@ -23,7 +21,7 @@ Table.AddIndexColumn(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> に明示的な位置の値を含む <code>newColumnName</code> という名前の列を追加します。    省略可能な値 <code>initialValue</code> はインデックスの初期値です。省略可能な値 <code>increment</code> には、各インデックス値の増分値を指定します。
 

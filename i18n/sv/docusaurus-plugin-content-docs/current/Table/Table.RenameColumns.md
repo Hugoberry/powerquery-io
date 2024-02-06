@@ -5,8 +5,6 @@ title: Table.RenameColumns
 # Table.RenameColumns
 
 
-## Description
-
 Tillämpar namnbyten i formatet \{old, new}.
 
 
@@ -21,7 +19,7 @@ Table.RenameColumns(
 ```
 
 
-## Details
+## Remarks
 
 Genomför angivna namnbyten på kolumnerna i tabellen <code>table</code>. En ersättningsåtgärd, <code>renames</code>, består av en lista med två värden, det gamla kolumnnamnet och det nya kolumnnamnet, som anges i en lista.    Om kolumnen inte finns genereras ett undantag såvida inte den valfria parametern <code>missingField</code> anger ett alternativ (t.ex. <code>MissingField.UseNull</code> eller <code>MissingField.Ignore</code>).
 

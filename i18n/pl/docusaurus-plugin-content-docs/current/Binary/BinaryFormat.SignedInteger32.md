@@ -5,8 +5,6 @@ title: BinaryFormat.SignedInteger32
 # BinaryFormat.SignedInteger32
 
 
-## Description
-
 Format binarny odczytujący 32-bitową liczbę całkowitą ze znakiem.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.SignedInteger32(
 ```
 
 
-## Details
+## Remarks
 
 Format binarny odczytujący 32-bitową liczbę całkowitą ze znakiem.
 

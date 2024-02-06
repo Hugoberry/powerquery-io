@@ -5,8 +5,6 @@ title: Date.WeekOfMonth
 # Date.WeekOfMonth
 
 
-## Description
-
 Trả về một số trong khoảng từ 1 tới 6 cho biết ngày này rơi vào tuần nào trong tháng.
 
 
@@ -20,7 +18,7 @@ Date.WeekOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một số trong khoảng từ 1 tới 6 cho biết ngày <code>dateTime</code> rơi vào tuần nào trong tháng. <ul>        <li><code>dateTime</code>: Một giá trị <code>datetime</code> mà tuần trong tháng được xác định.</li>      </ul>
 

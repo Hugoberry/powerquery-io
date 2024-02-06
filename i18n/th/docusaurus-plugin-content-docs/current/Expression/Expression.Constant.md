@@ -5,8 +5,6 @@ title: Expression.Constant
 # Expression.Constant
 
 
-## Description
-
 ส่งกลับการแสดงรหัสแหล่งข้อมูล M ของค่าคงที่
 
 
@@ -19,7 +17,7 @@ Expression.Constant(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับการแสดงรหัสแหล่งข้อมูล M ของค่าคงที่
 

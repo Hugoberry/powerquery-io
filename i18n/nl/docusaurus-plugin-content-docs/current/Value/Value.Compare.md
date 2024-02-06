@@ -5,8 +5,6 @@ title: Value.Compare
 # Value.Compare
 
 
-## Description
-
 Hiermee wordt -1, 0 of 1 geretourneerd op basis van of de eerste waarde kleiner is dan, gelijk is aan of groter is dan de tweede.
 
 
@@ -21,7 +19,7 @@ Value.Compare(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt -1, 0 of 1 geretourneerd op basis van of de eerste waarde kleiner is dan, gelijk is aan of groter is dan de tweede.
 

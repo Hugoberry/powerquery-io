@@ -5,8 +5,6 @@ title: Table.RemoveLastN
 # Table.RemoveLastN
 
 
-## Description
-
 Devuelve una tabla en la que se han quitado las N últimas filas.
 
 
@@ -20,7 +18,7 @@ Table.RemoveLastN(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una tabla que no contiene las <code>countOrCondition</code> últimas filas de la tabla <code>table</code>.        El número de filas quitadas depende del parámetro opcional <code>countOrCondition</code>.    <ul>    <li>Si se omite <code>countOrCondition</code>, solo se quita la última fila. </li>    <li>Si <code>countOrCondition</code> es un número, se quitarán esas filas (empezando por la parte inferior). </li>    <li>Si <code>countOrCondition</code> es una condición, se quitarán las filas que la cumplan hasta que una no lo haga.</li>    </ul>
 

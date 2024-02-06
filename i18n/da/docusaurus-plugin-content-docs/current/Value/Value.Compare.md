@@ -5,8 +5,6 @@ title: Value.Compare
 # Value.Compare
 
 
-## Description
-
 Returnerer -1, 0 eller 1 baseret på, om den første værdi er mindre end, lig med eller større end den anden.
 
 
@@ -21,7 +19,7 @@ Value.Compare(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer -1, 0 eller 1 baseret på, om den første værdi er mindre end, lig med eller større end den anden.
 

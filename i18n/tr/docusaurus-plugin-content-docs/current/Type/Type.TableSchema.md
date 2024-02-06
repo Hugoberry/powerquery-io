@@ -5,8 +5,6 @@ title: Type.TableSchema
 # Type.TableSchema
 
 
-## Description
-
 Belirtilen tablo türüne ilişkin sütun açıklamalarının (örn. şema) yer aldığı bir tablo döndürür.
 
 
@@ -19,7 +17,7 @@ Type.TableSchema(
 ```
 
 
-## Details
+## Remarks
 
 <code>tableType</code> sütunlarının tanımlandığı bir tablo döndürür.<br />Döndürülen tabloya ilişkin açıklama için <code>Table.Schema</code> belgelerini gözden geçirin.<br />
 

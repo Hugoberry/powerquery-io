@@ -5,8 +5,6 @@ title: DateTimeZone.RemoveZone
 # DateTimeZone.RemoveZone
 
 
-## Description
-
 เอาข้อมูลโซนเวลาออกจากค่าโซนวันที่เวลาที่กำหนด
 
 
@@ -19,7 +17,7 @@ DateTimeZone.RemoveZone(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่า #datetime จาก <code>dateTimeZone</code> พร้อมเอาข้อมูลโซนเวลาออก
 

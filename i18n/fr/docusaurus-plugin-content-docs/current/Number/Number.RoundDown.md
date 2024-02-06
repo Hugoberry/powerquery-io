@@ -5,8 +5,6 @@ title: Number.RoundDown
 # Number.RoundDown
 
 
-## Description
-
 Retourne le nombre supérieur précédent. Le nombre de chiffres peut être spécifié.
 
 
@@ -20,7 +18,7 @@ Number.RoundDown(
 ```
 
 
-## Details
+## Remarks
 
 Renvoie le résultat de l'arrondi<code>number</code> au nombre entier précédent le plus élevé. Si <code>number</code> est null, cette fonction renvoie null.     Si <code>digits</code> est fourni, <code>number</code> est arrondi au nombre de chiffres décimaux spécifié.    
 

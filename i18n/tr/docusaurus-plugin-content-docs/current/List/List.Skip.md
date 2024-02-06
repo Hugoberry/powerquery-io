@@ -5,8 +5,6 @@ title: List.Skip
 # List.Skip
 
 
-## Description
-
 Listenin başında belirtilen sayıda öğeyi atlayan bir liste döndürür.
 
 
@@ -20,7 +18,7 @@ List.Skip(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesinin ilk öğesini atlayan bir liste döndürür. <code>list</code> boş bir liste ise boş bir liste döndürülür.Bu işlev, aşağıda listelenen şekilde birden çok değeri atlamayı desteklemek üzere <code>countOrCondition</code> isteğe bağlı parametresini alır. <ul> <li>Sayı belirtilirse bu sayı kadar öğe atlanır. </li> <li>Bir koşul belirtilirse döndürülen liste <code>list</code> içinde ölçütle eşleşen ilk öğe ile başlar. Bir öğe koşulu sağlamadığında, diğer öğeler değerlendirilmez. </li> <li>Bu parametre null ise varsayılan davranış gözlenir. </li> </ul>
 

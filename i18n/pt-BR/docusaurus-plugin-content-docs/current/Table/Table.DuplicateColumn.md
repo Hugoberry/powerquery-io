@@ -5,8 +5,6 @@ title: Table.DuplicateColumn
 # Table.DuplicateColumn
 
 
-## Description
-
 Duplica uma coluna com o nome especificado. Os valores e o tipo são copiados da coluna de origem.
 
 
@@ -22,7 +20,7 @@ Table.DuplicateColumn(
 ```
 
 
-## Details
+## Remarks
 
 Duplica a coluna denominada <code>columnName</code> para a tabela <code>table</code>. Os valores e o tipo da coluna <code>newColumnName</code> são copiados da coluna <code>columnName</code>.
 

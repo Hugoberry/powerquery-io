@@ -5,8 +5,6 @@ title: Table.MinN
 # Table.MinN
 
 
-## Description
-
 Retourne les plus petites lignes à l&#39;aide des critères fournis.
 
 
@@ -21,7 +19,7 @@ Table.MinN(
 ```
 
 
-## Details
+## Remarks
 
 Retourne les plus petites lignes dans <code>table</code> en fonction de <code>comparisonCriteria</code>. Une fois que les lignes sont triées, le paramètre <code>countOrCondition</code> doit être spécifié pour filtrer davantage le résultat. Notez que l'algorithme de tri ne peut pas garantir un résultat de tri fixe. Le paramètre <code>countOrCondition</code> peut prendre plusieurs formes :    <ul>        <li> Si un nombre est spécifié, une liste de <code>countOrCondition</code> éléments au maximum par ordre croissant est retournée. </li>        <li> Si une condition est spécifiée, la liste des éléments qui satisfont initialement la condition est retournée. Quand un élément ne remplit pas la condition, aucun autre élément n'est pris en compte. </li> </ul>
 

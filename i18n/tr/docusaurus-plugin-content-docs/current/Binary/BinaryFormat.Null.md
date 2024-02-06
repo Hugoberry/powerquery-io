@@ -5,8 +5,6 @@ title: BinaryFormat.Null
 # BinaryFormat.Null
 
 
-## Description
-
 Sıfır baytlarını okuyan ve null döndüren bir ikili biçimi.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Null(
 ```
 
 
-## Details
+## Remarks
 
 Sıfır baytlarını okuyan ve null döndüren bir ikili biçimi.
 

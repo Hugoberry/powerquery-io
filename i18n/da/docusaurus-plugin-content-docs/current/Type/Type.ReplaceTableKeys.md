@@ -5,8 +5,6 @@ title: Type.ReplaceTableKeys
 # Type.ReplaceTableKeys
 
 
-## Description
-
 Returnerer en ny tabeltype, hvor alle nøgler er erstattet af den angivne liste over nøgler.
 
 
@@ -20,7 +18,7 @@ Type.ReplaceTableKeys(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en ny tabeltype, hvor alle nøgler er erstattet af den angivne liste over nøgler.<br />    <br />    Hver nøgle defineres ved hjælp af en post i følgende format:    <ul>      <li>        <code>Columns</code>: en liste over de kolonnenavne, der definerer nøglen      </li>      <li>        <code>Primary</code>: <code>true</code> hvis nøglen er tabellens primære nøgle; ellers <code>falsk</code>      </li>    </ul>    Den angivne liste over nøgler valideres for at sikre, at der ikke er defineret mere end én primær nøgle, og at alle nøglekolonnenavne findes i tabeltypen.    
 

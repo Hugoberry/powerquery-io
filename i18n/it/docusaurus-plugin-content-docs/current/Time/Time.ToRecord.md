@@ -5,8 +5,6 @@ title: Time.ToRecord
 # Time.ToRecord
 
 
-## Description
-
 Restituisce un record contenente le parti del valore di ora.
 
 
@@ -19,7 +17,7 @@ Time.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un record contenente le parti del valore di ora specificato <code>time</code>. <ul>        <li><code>time</code>: valore <code>time</code> da cui deve essere calcolato il record delle parti.</li>      </ul>
 

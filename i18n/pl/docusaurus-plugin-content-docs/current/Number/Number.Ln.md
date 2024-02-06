@@ -5,8 +5,6 @@ title: Number.Ln
 # Number.Ln
 
 
-## Description
-
 Zwraca logarytm naturalny liczby.
 
 
@@ -19,7 +17,7 @@ Number.Ln(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca logarytm naturalny liczby <code>number</code>. Jeśli parametr <code>number</code> ma wartość null, funkcja <code>Number.Ln</code> zwraca wartość null.
 

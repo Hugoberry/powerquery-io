@@ -5,8 +5,6 @@ title: List.AnyTrue
 # List.AnyTrue
 
 
-## Description
-
 Trả về true nếu mọi biểu thức đều đúng.
 
 
@@ -19,7 +17,7 @@ List.AnyTrue(
 ```
 
 
-## Details
+## Remarks
 
 Trả về true nếu mọi biểu thức trong danh sách <code>list</code> đều đúng.
 

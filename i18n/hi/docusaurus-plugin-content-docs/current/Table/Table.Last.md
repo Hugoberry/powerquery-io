@@ -5,8 +5,6 @@ title: Table.Last
 # Table.Last
 
 
-## Description
-
 अंतिम पंक्ति या कोई निर्दिष्ट डिफ़ॉल्ट मान लौटाता है.
 
 
@@ -20,7 +18,7 @@ Table.Last(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> की अंतिम पंक्ति या तालिका रिक्त होने पर वैकल्पिक डिफ़ॉल्ट मान, <code>default</code>, लौटाता है.
 

@@ -5,8 +5,6 @@ title: Table.FromRecords
 # Table.FromRecords
 
 
-## Description
-
 रिकॉर्ड की सूची को एक तालिका में रूपांतरित करता है.
 
 
@@ -21,7 +19,7 @@ Table.FromRecords(
 ```
 
 
-## Details
+## Remarks
 
 <code>records</code>, रिकॉर्ड की सूची, को एक तालिका में रूपांतरित करता है.
 

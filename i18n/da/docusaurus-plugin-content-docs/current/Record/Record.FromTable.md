@@ -5,8 +5,6 @@ title: Record.FromTable
 # Record.FromTable
 
 
-## Description
-
 Opretter en post ud fra en tabel i formatet \{[Name = name, Value = value]}.
 
 
@@ -19,7 +17,7 @@ Record.FromTable(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en post fra en tabel med poster <code>table</code>, der indeholder feltnavne og værdinavne <code>\{[Name = name, Value = value]}</code>. Der udløses en undtagelse, hvis feltnavnene ikke er entydige.
 

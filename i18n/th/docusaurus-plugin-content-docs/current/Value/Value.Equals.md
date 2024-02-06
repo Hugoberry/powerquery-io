@@ -5,8 +5,6 @@ title: Value.Equals
 # Value.Equals
 
 
-## Description
-
 ส่งกลับว่าค่าสองค่าเท่ากันหรือไม่
 
 
@@ -21,7 +19,7 @@ Value.Equals(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับ True ถ้าค่า <code>value1</code> เท่ากับค่า <code>value2</code> และ False ถ้าไม่ใช่
 

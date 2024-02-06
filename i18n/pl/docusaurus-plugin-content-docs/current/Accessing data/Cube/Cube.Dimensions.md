@@ -5,8 +5,6 @@ title: Cube.Dimensions
 # Cube.Dimensions
 
 
-## Description
-
 Zwraca tabelę zawierającą zestaw dostępnych wymiarów.
 
 
@@ -19,7 +17,7 @@ Cube.Dimensions(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę zawierającą zestaw wymiarów dostępnych w module <code>cube</code>. Każdy wymiar to tabela zawierająca zestaw atrybutów wymiaru, a każdy atrybut wymiaru jest przedstawiony w postaci kolumny w tabeli wymiarów. Wymiary można rozwijać w module, używając funkcji Cube.AddAndExpandDimensionColumn. 
 

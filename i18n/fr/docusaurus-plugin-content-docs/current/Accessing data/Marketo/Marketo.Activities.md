@@ -5,8 +5,6 @@ title: Marketo.Activities
 # Marketo.Activities
 
 
-## Description
-
 Retourne une table avec les activités des prospects.
 
 
@@ -21,7 +19,7 @@ Marketo.Activities(
 ```
 
 
-## Details
+## Remarks
 
 Effectue un appel au point de terminaison de l'API REST Marketo de <code>url</code>/rest/v1/activities.json. Toutes les activités de la liste <code>activityIds</code> qui se sont produites depuis <code>startTime</code> sont retournées.
 

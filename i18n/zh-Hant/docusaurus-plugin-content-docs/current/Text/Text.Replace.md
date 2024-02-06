@@ -5,8 +5,6 @@ title: Text.Replace
 # Text.Replace
 
 
-## Description
-
 取代文字中所有出現的指定子字串。
 
 
@@ -21,7 +19,7 @@ Text.Replace(
 ```
 
 
-## Details
+## Remarks
 
 傳回以文字值 <code>new</code> 取代文字值 <code>text</code> 中所有出現之文字值 <code>old</code> 的結果。這個函數會區分大小寫。
 

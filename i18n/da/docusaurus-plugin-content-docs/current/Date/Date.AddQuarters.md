@@ -5,8 +5,6 @@ title: Date.AddQuarters
 # Date.AddQuarters
 
 
-## Description
-
 Tilføjer de angivne kvartaler efter datoen.
 
 
@@ -20,7 +18,7 @@ Date.AddQuarters(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer resultaterne for <code>date</code>, <code>datetime</code> eller <code>datetimezone</code> efter at have føjet <code>numberOfQuarters</code> kvartaler til værdien af typen <code>datetime</code> <code>dateTime</code>.      <ul>      <li><code>dateTime</code>: Den værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>, som kvartaler føjes til.</li>      <li><code>numberOfQuarters</code>: Det antal kvartaler, der skal tilføjes.</li>      </ul>
 

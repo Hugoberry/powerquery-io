@@ -5,8 +5,6 @@ title: Cube.AttributeMemberProperty
 # Cube.AttributeMemberProperty
 
 
-## Description
-
 Trả về tính chất của thuộc tính chiều.
 
 
@@ -20,7 +18,7 @@ Cube.AttributeMemberProperty(
 ```
 
 
-## Details
+## Remarks
 
 Trả về tính chất <code>propertyName</code> của thuộc tính chiều <code>attribute</code>.
 

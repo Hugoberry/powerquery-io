@@ -5,8 +5,6 @@ title: Number.RoundDown
 # Number.RoundDown
 
 
-## Description
-
 Retourneert het vorige, hoogste gehele getal. Het aantal cijfers kan worden opgegeven.
 
 
@@ -20,7 +18,7 @@ Number.RoundDown(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het resultaat van naar beneden afronden van <code>number</code> op het vorige hoogste gehele getal. Als <code>number</code> nul is, retourneert deze functie null. Als <code>digits</code> is opgegeven, wordt <code>number</code> afgerond op het opgegeven aantal decimale cijfers.  
 

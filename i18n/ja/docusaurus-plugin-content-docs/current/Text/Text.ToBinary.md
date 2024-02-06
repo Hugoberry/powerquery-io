@@ -5,8 +5,6 @@ title: Text.ToBinary
 # Text.ToBinary
 
 
-## Description
-
 テキストをバイナリ形式にエンコードします。
 
 
@@ -21,7 +19,7 @@ Text.ToBinary(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>encoding</code> を使用して、指定されたテキスト値 (<code>text</code>) をバイナリ値にエンコードします。
 

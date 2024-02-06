@@ -5,8 +5,6 @@ title: BinaryFormat.Double
 # BinaryFormat.Double
 
 
-## Description
-
 बाइनरी स्वरूप जो 8-बाइट IEEE दोहरी-परिशुद्धता फ़्लोटिंग पॉइंट मान को पढ़ता है.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Double(
 ```
 
 
-## Details
+## Remarks
 
 बाइनरी स्वरूप जो 8-बाइट IEEE दोहरी-परिशुद्धता फ़्लोटिंग पॉइंट मान को पढ़ता है.
 

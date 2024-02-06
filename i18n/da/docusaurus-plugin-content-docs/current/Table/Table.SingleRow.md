@@ -5,8 +5,6 @@ title: Table.SingleRow
 # Table.SingleRow
 
 
-## Description
-
 Returnerer den eneste række i tabellen.
 
 
@@ -19,7 +17,7 @@ Table.SingleRow(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer den eneste række i den ene række <code>table</code>. Hvis <code>table</code> indeholder mere end én række, udløses der en undtagelse.
 

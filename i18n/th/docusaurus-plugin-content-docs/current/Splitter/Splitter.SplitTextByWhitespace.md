@@ -5,8 +5,6 @@ title: Splitter.SplitTextByWhitespace
 # Splitter.SplitTextByWhitespace
 
 
-## Description
-
 ส่งกลับฟังก์ชันที่แยกข้อความออกเป็นรายการของข้อความที่ช่องว่าง
 
 
@@ -19,7 +17,7 @@ Splitter.SplitTextByWhitespace(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับฟังก์ชันที่แยกข้อความออกเป็นรายการของข้อความที่ช่องว่าง
 

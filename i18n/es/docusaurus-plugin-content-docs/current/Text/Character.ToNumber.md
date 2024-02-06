@@ -5,8 +5,6 @@ title: Character.ToNumber
 # Character.ToNumber
 
 
-## Description
-
 Convierte un carácter en un valor numérico.
 
 
@@ -19,7 +17,7 @@ Character.ToNumber(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve el número equivalente del <code>character</code>.<br />    <br />    El resultado será el punto de código Unicode de 21 bits representado por el carácter o par suplente proporcionado.  
 

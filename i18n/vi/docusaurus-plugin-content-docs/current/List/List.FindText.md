@@ -5,8 +5,6 @@ title: List.FindText
 # List.FindText
 
 
-## Description
-
 Trả về một danh sách giá trị (bao gồm các trường bản ghi) chứa văn bản được chỉ định.
 
 
@@ -20,7 +18,7 @@ List.FindText(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một danh sách chứa các giá trị từ danh sách <code>list</code> đã chứa giá trị <code>text</code>.
 

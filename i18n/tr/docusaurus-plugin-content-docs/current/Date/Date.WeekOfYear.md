@@ -5,8 +5,6 @@ title: Date.WeekOfYear
 # Date.WeekOfYear
 
 
-## Description
-
 Bu tarihin yılın hangi haftası içinde olduğunu gösteren, 1 ile 54 arasındaki bir sayıyı döndürür.
 
 
@@ -20,7 +18,7 @@ Date.WeekOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Yılın hangi haftasının <code>dateTime</code> tarihinin girildiğini gösteren 1 ile 54 arasında bir sayı döndürür. <ul>        <li><code>dateTime</code>: Yılın belirlenen haftası için bir <code>datetime</code> değeri.</li>        <li><code>firstDayOfWeek</code>: İsteğe bağlı <code>Day.Type</code> değeri, yeni bir haftanın hangi gününün başlangıç olarak düşünüleceğini belirtir (örneğin, <code>Day.Sunday</code>). Belirtilmezse, kültüre bağlı bir varsayılan kullanılır.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Table.Last
 # Table.Last
 
 
-## Description
-
 Restituisce l&#39;ultima riga o un valore predefinito specificato.
 
 
@@ -20,7 +18,7 @@ Table.Last(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce l'ultima riga di <code>table</code> o il valore predefinito facoltativo <code>default</code>, se la tabella è vuota.
 

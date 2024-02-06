@@ -5,8 +5,6 @@ title: Date.DayOfWeek
 # Date.DayOfWeek
 
 
-## Description
-
 Возвращает число (от 0 до 6), соответствующее дню недели предоставленного значения.
 
 
@@ -20,7 +18,7 @@ Date.DayOfWeek(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает число (от 0 до 6), соответствующее дню недели предоставленного значения <code>dateTime</code>.  <ul>        <li><code>dateTime</code>: значение <code>date</code> (дата), <code>datetime</code> (дата и время) или <code>datetimezone</code> (дата, время и часовой пояс).</li>        <li><code>firstDayOfWeek</code>: значение <code>Day</code> (День), которое будет считаться первым днем недели. Допустимые значения: Day.Sunday (воскресенье), Day.Monday (понедельник), Day.Tuesday (вторник), Day.Wednesday (среда), Day.Thursday (четверг), Day.Friday (пятница) или Day.Saturday (суббота). Если значение не указано, будет взято значение по умолчанию из региональных параметров.</li>      </ul>
 

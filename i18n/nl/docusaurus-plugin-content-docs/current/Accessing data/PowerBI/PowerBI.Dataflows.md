@@ -15,7 +15,7 @@ PowerBI.Dataflows(
 ```
 
 
-## Details
+## Remarks
 
 Verbinding maken met alle Power BI-gegevensstromen waarvoor u toegang hebt en de entiteiten kiezen die u wilt gebruiken.
 

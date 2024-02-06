@@ -5,8 +5,6 @@ title: Table.Unpivot
 # Table.Unpivot
 
 
-## Description
-
 Traduit un ensemble de colonnes dans une table en paires attribut-valeur.
 
 
@@ -22,7 +20,7 @@ Table.Unpivot(
 ```
 
 
-## Details
+## Remarks
 
 Traduit un ensemble de colonnes dans une table en paires attribut-valeur, associées au reste des valeurs dans chaque ligne.
 

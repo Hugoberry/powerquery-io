@@ -5,8 +5,6 @@ title: Xml.Tables
 # Xml.Tables
 
 
-## Description
-
 Trả về nội dung của tài liệu XML ở dạng một tập hợp lồng nhau của các bảng được làm phẳng.
 
 
@@ -21,7 +19,7 @@ Xml.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Trả về nội dung của tài liệu XML ở dạng một tập hợp lồng nhau của các bảng được làm phẳng.
 

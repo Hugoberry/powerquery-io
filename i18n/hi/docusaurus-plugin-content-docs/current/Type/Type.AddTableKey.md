@@ -5,8 +5,6 @@ title: Type.AddTableKey
 # Type.AddTableKey
 
 
-## Description
-
 दी गई तालिका के प्रकार में कुंजी जोड़ता है.
 
 
@@ -21,7 +19,7 @@ Type.AddTableKey(
 ```
 
 
-## Details
+## Remarks
 
 दी गई तालिका के प्रकार में कुंजी जोड़ता है.
 

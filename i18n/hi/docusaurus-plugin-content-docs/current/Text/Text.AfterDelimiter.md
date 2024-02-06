@@ -5,8 +5,6 @@ title: Text.AfterDelimiter
 # Text.AfterDelimiter
 
 
-## Description
-
 Text.AfterDelimiter
 
 
@@ -21,7 +19,7 @@ Text.AfterDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 निर्दिष्ट <code>delimiter</code> के बाद <code>text</code> का भाग लौटाता है.    वैकल्पिक सांख्यिक <code>index</code> इंगित करता है कि <code>delimiter</code> की किस आवृत्ति पर विचार करना चाहिए.    वैकल्पिक सूची <code>index</code> इंगित करती है कि <code>delimiter</code> की किस आवृत्ति पर विचार किया जाना चाहिए, साथ ही साथ यह कि इनपुट के प्रारंभ या उसकी समाप्ति से इंडेक्सिंग संपन्न करना चाहिए या नहीं.
 

@@ -5,8 +5,6 @@ title: DateTime.IsInNextMinute
 # DateTime.IsInNextMinute
 
 
-## Description
-
 Indica se questo valore datetime rientra nel minuto successivo, come determinato dalla data e dall&#39;ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nel minuto corrente.
 
 
@@ -19,7 +17,7 @@ DateTime.IsInNextMinute(
 ```
 
 
-## Details
+## Remarks
 
 Indica se il valore datetime specificato <code>dateTime</code> rientra nel minuto successivo come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nel minuto corrente.      <ul>      <li><code>dateTime</code>: valore <code>datetime</code> o <code>datetimezone</code> da valutare.</li>      </ul>
 

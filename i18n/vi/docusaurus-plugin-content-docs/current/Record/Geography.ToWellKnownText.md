@@ -5,8 +5,6 @@ title: Geography.ToWellKnownText
 # Geography.ToWellKnownText
 
 
-## Description
-
 Chuyển đổi giá trị điểm địa lý có cấu trúc thành đại diện Văn bản quen thuộc (WKT).
 
 
@@ -20,7 +18,7 @@ Geography.ToWellKnownText(
 ```
 
 
-## Details
+## Remarks
 
 Chuyển đổi giá trị điểm địa lý có cấu trúc thành đại diện Văn bản quen thuộc (WKT) như được xác định bởi Open Geospatial Consortium (OGC), cũng là định dạng nối tiếp được nhiều cơ sở dữ liệu, trong đó có SQL Server, sử dụng.
 

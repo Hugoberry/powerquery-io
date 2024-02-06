@@ -5,8 +5,6 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-## Description
-
 Applica la ridenominazione da un elenco nel formato \{ old, new }.
 
 
@@ -21,7 +19,7 @@ Record.RenameFields(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un record dopo la ridenominazione dei campi dell'input <code>record</code> nei nuovi nomi di campo specificati nell'elenco <code>renames</code>. Per effettuare più ridenominazioni è possibile utilizzare un elenco annidato (\{ \{old1, new1}, \{old2, new2} }.
 

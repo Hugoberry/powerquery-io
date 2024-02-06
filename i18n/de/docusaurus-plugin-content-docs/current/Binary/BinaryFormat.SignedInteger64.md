@@ -5,8 +5,6 @@ title: BinaryFormat.SignedInteger64
 # BinaryFormat.SignedInteger64
 
 
-## Description
-
 Ein Binärformat, das eine 64-Bit-Ganzzahl mit Vorzeichen liest.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.SignedInteger64(
 ```
 
 
-## Details
+## Remarks
 
 Ein Binärformat, das eine 64-Bit-Ganzzahl mit Vorzeichen liest.
 

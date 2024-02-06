@@ -5,8 +5,6 @@ title: Text.Remove
 # Text.Remove
 
 
-## Description
-
 Remove todas as ocorrências do caráter ou da lista de carateres especificada do valor de texto de entrada.
 
 
@@ -20,7 +18,7 @@ Text.Remove(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma cópia do valor de texto <code>text</code> com todos os carateres de <code>removeChars</code> removidos.  
 

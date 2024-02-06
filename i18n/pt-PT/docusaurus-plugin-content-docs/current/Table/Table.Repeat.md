@@ -5,8 +5,6 @@ title: Table.Repeat
 # Table.Repeat
 
 
-## Description
-
 Repete as linhas das tabelas um número de vezes especificado.
 
 
@@ -20,7 +18,7 @@ Table.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma tabela com as linhas da entrada <code>table</code> repetidas o número de vezes <code>count</code> especificado.
 

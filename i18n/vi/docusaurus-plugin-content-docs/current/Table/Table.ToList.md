@@ -5,8 +5,6 @@ title: Table.ToList
 # Table.ToList
 
 
-## Description
-
 Chuyển đổi một bảng thành một danh sách bằng cách áp dụng hàm kết hợp được chỉ định cho mỗi hàng giá trị trong bảng.
 
 
@@ -20,7 +18,7 @@ Table.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Chuyển đổi một bảng thành một danh sách bằng cách áp dụng hàm kết hợp được chỉ định cho mỗi hàng giá trị trong bảng.
 

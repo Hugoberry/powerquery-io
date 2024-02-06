@@ -5,8 +5,6 @@ title: Table.PromoteHeaders
 # Table.PromoteHeaders
 
 
-## Description
-
 値の先頭行を新しい列見出し (つまり列名) に昇格させます。
 
 
@@ -20,7 +18,7 @@ Table.PromoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 値の先頭行を新しい列見出し (つまり列名) に昇格させます。既定では、テキストと数値のみが見出しに昇格されます。有効なオプション:    <div>      <code>PromoteAllScalars</code> : <code>true</code> に設定すると、先頭行のすべてのスカラー値が <code>Culture</code> (指定されている場合。指定されていない場合には現在のドキュメント ロケール) を使用して見出しに昇格されます。    テキストに変換できない値には、既定の列名が使用されます。    </div>    <div>    <code>Culture</code> : 対象データのカルチャを指定するカルチャ名。    </div>  
 

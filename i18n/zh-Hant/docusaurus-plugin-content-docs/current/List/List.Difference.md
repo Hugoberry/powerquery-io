@@ -5,8 +5,6 @@ title: List.Difference
 # List.Difference
 
 
-## Description
-
 傳回兩個指定清單的差異。
 
 
@@ -21,7 +19,7 @@ List.Difference(
 ```
 
 
-## Details
+## Remarks
 
 傳回清單 <code>list1</code> 中不存在於清單 <code>list2</code> 的項目。支援重複的值。    您可指定選擇性的方程式條件值 <code>equationCriteria</code>，以控制等號比較測試。 
 

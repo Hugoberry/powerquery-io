@@ -5,8 +5,6 @@ title: Table.Range
 # Table.Range
 
 
-## Description
-
 Devuelve las filas que empiezan en el desplazamiento especificado.
 
 
@@ -21,7 +19,7 @@ Table.Range(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve las filas de <code>table</code> a partir del <code>offset</code> especificado. Un parámetro opcional, <code>count</code>, especifica cuántas filas se devolverán. De forma predeterminada, se devuelven todas las filas a continuación del desplazamiento.
 

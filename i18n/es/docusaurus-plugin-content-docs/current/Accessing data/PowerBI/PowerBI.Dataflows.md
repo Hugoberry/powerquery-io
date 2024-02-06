@@ -15,7 +15,7 @@ PowerBI.Dataflows(
 ```
 
 
-## Details
+## Remarks
 
 Conéctese a todos los flujos de datos de Power BI a los que tenga acceso y seleccione las entidades que le gustaría usar.
 

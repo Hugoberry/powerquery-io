@@ -5,8 +5,6 @@ title: Time.Second
 # Time.Second
 
 
-## Description
-
 ส่งกลับส่วนประกอบของวินาที
 
 
@@ -19,7 +17,7 @@ Time.Second(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับส่วนประกอบวินาทีของค่า <code>time</code>, <code>datetime</code> หรือ <code>datetimezone</code> ที่กำหนดให้ ได้แก่ <code>dateTime</code>
 

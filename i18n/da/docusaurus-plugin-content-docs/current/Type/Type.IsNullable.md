@@ -5,8 +5,6 @@ title: Type.IsNullable
 # Type.IsNullable
 
 
-## Description
-
 Returnerer true, hvis typen kan være null. Ellers returneres false.
 
 
@@ -19,7 +17,7 @@ Type.IsNullable(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer <code>true</code>, hvis typen er <code>nullable</code>. Ellers returneres <code>false</code>.
 

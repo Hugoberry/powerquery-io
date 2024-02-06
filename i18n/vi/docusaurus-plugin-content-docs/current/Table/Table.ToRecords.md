@@ -5,8 +5,6 @@ title: Table.ToRecords
 # Table.ToRecords
 
 
-## Description
-
 Chuyển đổi bảng thành danh sách bản ghi.
 
 
@@ -19,7 +17,7 @@ Table.ToRecords(
 ```
 
 
-## Details
+## Remarks
 
 Chuyển đổi bảng <code>table</code> thành danh sách bản ghi.
 

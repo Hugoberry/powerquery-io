@@ -5,8 +5,6 @@ title: Record.ToTable
 # Record.ToTable
 
 
-## Description
-
 各行に入力レコードのフィールド名と値を含むテーブルを返します。
 
 
@@ -19,7 +17,7 @@ Record.ToTable(
 ```
 
 
-## Details
+## Remarks
 
 <code>record</code> 内のフィールドごとに 1 行あり、列 <code>Name</code> と <code>Value</code> を含むテーブルを返します。
 

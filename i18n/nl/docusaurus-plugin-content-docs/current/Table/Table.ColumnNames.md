@@ -5,8 +5,6 @@ title: Table.ColumnNames
 # Table.ColumnNames
 
 
-## Description
-
 Retourneert de kolomnamen als een lijst.
 
 
@@ -19,7 +17,7 @@ Table.ColumnNames(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de kolomnamen uit de tabel <code>table</code> als een lijst met tekst.
 

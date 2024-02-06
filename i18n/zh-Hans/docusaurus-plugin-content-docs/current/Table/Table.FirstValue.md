@@ -5,8 +5,6 @@ title: Table.FirstValue
 # Table.FirstValue
 
 
-## Description
-
 返回表的第一行的第一列或指定的默认值。
 
 
@@ -20,7 +18,7 @@ Table.FirstValue(
 ```
 
 
-## Details
+## Remarks
 
 返回表 <code>table</code> 的第一行的第一列或指定的默认值。
 

@@ -5,8 +5,6 @@ title: List.RemoveMatchingItems
 # List.RemoveMatchingItems
 
 
-## Description
-
 Entfernt alle Vorkommen der Eingabewerte.
 
 
@@ -21,7 +19,7 @@ List.RemoveMatchingItems(
 ```
 
 
-## Details
+## Remarks
 
 Entfernt alle Vorkommen der in "<code>list2</code>" angegebenen Werte aus der Liste "<code>list1</code>". Sind die Werte aus "<code>list2</code>" in "<code>list1</code>" nicht vorhanden, wird die ursprüngliche Liste zurückgegeben.    Zum Steuern der Gleichheitsüberprüfung kann ein optionales Gleichungskriterium (<code>equationCriteria</code>) angegeben werden. 
 

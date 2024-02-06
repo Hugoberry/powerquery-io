@@ -5,8 +5,6 @@ title: Table.Keys
 # Table.Keys
 
 
-## Description
-
 ส่งกลับคีย์ของตารางที่ระบุ
 
 
@@ -19,7 +17,7 @@ Table.Keys(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับคีย์ของตารางที่ระบุ
 

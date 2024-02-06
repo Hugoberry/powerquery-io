@@ -5,8 +5,6 @@ title: Text.Clean
 # Text.Clean
 
 
-## Description
-
 Retourne la valeur de texte après avoir supprimé tous les caractères de contrôle.
 
 
@@ -19,7 +17,7 @@ Text.Clean(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une valeur de texte après avoir supprimé tous les caractères de contrôle de <code>text</code>.
 

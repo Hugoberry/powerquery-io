@@ -5,8 +5,6 @@ title: Splitter.SplitTextByEachDelimiter
 # Splitter.SplitTextByEachDelimiter
 
 
-## Description
-
 Retourne une fonction qui fractionne le texte en une liste de textes au niveau de chaque délimiteur spécifié en séquence.
 
 
@@ -21,7 +19,7 @@ Splitter.SplitTextByEachDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une fonction qui fractionne le texte en une liste de textes au niveau de chaque délimiteur spécifié en séquence.
 

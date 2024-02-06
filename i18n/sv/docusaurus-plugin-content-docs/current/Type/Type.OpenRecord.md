@@ -5,8 +5,6 @@ title: Type.OpenRecord
 # Type.OpenRecord
 
 
-## Description
-
 Returnerar en öppen version av den givna posttypen (eller samma typ, om den redan är stängd).
 
 
@@ -19,7 +17,7 @@ Type.OpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en öppen version av den givna <code>record</code> <code>type</code> (eller samma typ, om den redan är öppen).
 

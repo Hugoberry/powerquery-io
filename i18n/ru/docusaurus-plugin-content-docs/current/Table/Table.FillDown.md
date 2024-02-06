@@ -5,8 +5,6 @@ title: Table.FillDown
 # Table.FillDown
 
 
-## Description
-
 Распространяет значение предыдущей ячейки в ячейки со значениями NULL ниже в столбце.
 
 
@@ -20,7 +18,7 @@ Table.FillDown(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу из указанного <code>table</code>, где значение предыдущей ячейки распространяется на ячейки со значением NULL ниже в указанном <code>columns</code>.
 

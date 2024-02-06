@@ -5,8 +5,6 @@ title: List.Repeat
 # List.Repeat
 
 
-## Description
-
 元のリストを指定された回数繰り返した結果のリストを返します。
 
 
@@ -20,7 +18,7 @@ List.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 元のリスト <code>list</code> を <code>count</code> 回繰り返した結果のリストを返します。
 

@@ -5,8 +5,6 @@ title: Type.TableRow
 # Type.TableRow
 
 
-## Description
-
 Trả về loại hàng của loại bảng.
 
 
@@ -19,7 +17,7 @@ Type.TableRow(
 ```
 
 
-## Details
+## Remarks
 
 Trả về loại hàng của loại bảng đã chỉ định. Kết quả sẽ luôn là một loại bản ghi.
 

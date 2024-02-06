@@ -5,8 +5,6 @@ title: Splitter.SplitTextByPositions
 # Splitter.SplitTextByPositions
 
 
-## Description
-
 指定された各位置でテキストを一連のテキストに分割する関数を返します。
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByPositions(
 ```
 
 
-## Details
+## Remarks
 
 指定された各位置でテキストを一連のテキストに分割する関数を返します。
 

@@ -5,8 +5,6 @@ title: PowerPlatform.Dataflows
 # PowerPlatform.Dataflows
 
 
-## Description
-
 Gegevens uit een gegevensstroom importeren.
 
 
@@ -19,7 +17,7 @@ PowerPlatform.Dataflows(
 ```
 
 
-## Details
+## Remarks
 
 Verbinding maken met alle gegevensstromen waarvoor u toegang hebt en de entiteiten kiezen die u wilt gebruiken.
 

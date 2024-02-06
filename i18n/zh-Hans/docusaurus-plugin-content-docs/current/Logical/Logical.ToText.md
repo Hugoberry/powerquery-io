@@ -5,8 +5,6 @@ title: Logical.ToText
 # Logical.ToText
 
 
-## Description
-
 给定逻辑值返回文本 &#34;true&#34; 或 &#34;false&#34;。
 
 
@@ -19,7 +17,7 @@ Logical.ToText(
 ```
 
 
-## Details
+## Remarks
 
 从逻辑值 <code>logicalValue</code>(<code>true</code>或 <code>false</code>)创建文本值。如果 <code>logicalValue</code> 不是逻辑值，将引发异常。
 

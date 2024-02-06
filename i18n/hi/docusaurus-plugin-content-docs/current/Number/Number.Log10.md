@@ -5,8 +5,6 @@ title: Number.Log10
 # Number.Log10
 
 
-## Description
-
 संख्या का आधार-10 लघुगणक लौटाता है.
 
 
@@ -19,7 +17,7 @@ Number.Log10(
 ```
 
 
-## Details
+## Remarks
 
 संख्या, <code>number</code> का आधार-10 लघुगणक लौटाता है. अगर <code>number</code> नल है, तो <code>Number.Log10</code> नल लौटाता है.
 

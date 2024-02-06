@@ -5,8 +5,6 @@ title: Projectplace.Feed
 # Projectplace.Feed
 
 
-## Description
-
 Nhập URL của tài khoản Planview Projectplace của bạn.
 
 
@@ -19,7 +17,7 @@ Projectplace.Feed(
 ```
 
 
-## Details
+## Remarks
 
 Trả về bảng có dữ liệu Planview Projectplace có liên quan.
 

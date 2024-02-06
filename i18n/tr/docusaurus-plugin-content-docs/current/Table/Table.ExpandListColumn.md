@@ -5,8 +5,6 @@ title: Table.ExpandListColumn
 # Table.ExpandListColumn
 
 
-## Description
-
 Bir tabloda verilen liste sütunu ile listedeki her değer satırının kopyasını oluşturur.
 
 
@@ -20,7 +18,7 @@ Table.ExpandListColumn(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>table</code> ile (<code>column</code> değer listesidir) listeyi her değer için bir satıra ayırır. Diğer sütunlardaki değerler oluşturulan her yeni satırda çoğaltılır.
 

@@ -5,8 +5,6 @@ title: List.RemoveMatchingItems
 # List.RemoveMatchingItems
 
 
-## Description
-
 Quita todas las coincidencias de los valores de entrada.
 
 
@@ -21,7 +19,7 @@ List.RemoveMatchingItems(
 ```
 
 
-## Details
+## Remarks
 
 Quita todas las coincidencias de los valores proporcionados en <code>list2</code> de la lista <code>list1</code>. Si no existen los valores de <code>list2</code> en <code>list1</code>, se devuelve la lista original.    Se puede especificar un valor opcional de criterios de ecuación, <code>equationCriteria</code>, para controlar la igualdad de las pruebas. 
 

@@ -5,8 +5,6 @@ title: List.PositionOfAny
 # List.PositionOfAny
 
 
-## Description
-
 Trả về phần bù đầu tiên của một giá trị trong danh sách.
 
 
@@ -22,7 +20,7 @@ List.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Trả về phần bù trong danh sách <code>list</code> của lần xuất hiện đầu tiên của một giá trị trong danh sách <code>values</code>. Trả về -1 nếu không tìm thấy lần xuất hiện nào.    Có thể chỉ định tham số lần xuất hiện tùy chọn <code>occurrence</code>.<ul>   <li><code>occurrence</code>: Số lần xuất hiện tối đa có thể được trả về.</li></ul>
 

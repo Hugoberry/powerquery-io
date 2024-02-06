@@ -5,8 +5,6 @@ title: Number.IsEven
 # Number.IsEven
 
 
-## Description
-
 Cho biết giá trị có chẵn hay không.
 
 
@@ -19,7 +17,7 @@ Number.IsEven(
 ```
 
 
-## Details
+## Remarks
 
 Cho biết giá trị <code>number</code> có chẵn hay không bằng cách trả về <code>true</code> nếu là chẵn, <code>false</code> nếu ngược lại.
 

@@ -5,8 +5,6 @@ title: Text.ToList
 # Text.ToList
 
 
-## Description
-
 Trả về danh sách giá trị ký tự từ giá trị văn bản cho sẵn.
 
 
@@ -19,7 +17,7 @@ Text.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Trả về danh sách giá trị ký tự từ giá trị văn bản cho sẵn <code>text</code>.
 

@@ -5,8 +5,6 @@ title: Table.Pivot
 # Table.Pivot
 
 
-## Description
-
 Data una coppia di colonne che rappresenta le coppie attributo-valore, ruota i dati nella colonna di attributo nelle intestazioni di colonna.
 
 
@@ -23,7 +21,7 @@ Table.Pivot(
 ```
 
 
-## Details
+## Remarks
 
 Data una coppia di colonne che rappresenta le coppie attributo-valore, ruota i dati nella colonna di attributo nelle intestazioni di colonna.
 

@@ -5,8 +5,6 @@ title: File.Contents
 # File.Contents
 
 
-## Description
-
 指定されたファイルの内容をバイナリとして返します。
 
 
@@ -20,7 +18,7 @@ File.Contents(
 ```
 
 
-## Details
+## Remarks
 
 ファイルのコンテンツをバイナリの <code>path</code> として返します。<code>options</code> パラメーターは現在、内部使用のみを目的としています。
 

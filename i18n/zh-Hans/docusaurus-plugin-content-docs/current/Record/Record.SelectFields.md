@@ -5,8 +5,6 @@ title: Record.SelectFields
 # Record.SelectFields
 
 
-## Description
-
 返回只包含指定字段的记录。
 
 
@@ -21,7 +19,7 @@ Record.SelectFields(
 ```
 
 
-## Details
+## Remarks
 
 从输入 <code>record</code> 返回一个记录，该记录仅包含在列表 <code>fields</code> 中指定的字段。
 

@@ -5,8 +5,6 @@ title: Type.Union
 # Type.Union
 
 
-## Description
-
 Retourneert de samenvoeging van een lijst met typen.
 
 
@@ -19,7 +17,7 @@ Type.Union(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de samenvoeging van de typen in <code>types</code>.
 

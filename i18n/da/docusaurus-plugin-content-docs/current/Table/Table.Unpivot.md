@@ -5,8 +5,6 @@ title: Table.Unpivot
 # Table.Unpivot
 
 
-## Description
-
 Oversætter et sæt kolonner i en tabel til attribut/værdi-par.
 
 
@@ -22,7 +20,7 @@ Table.Unpivot(
 ```
 
 
-## Details
+## Remarks
 
 Oversætter et sæt kolonner i en tabel til attribut/værdi-par kombineret med de øvrige værdier i de enkelte rækker.
 

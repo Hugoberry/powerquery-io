@@ -5,8 +5,6 @@ title: BinaryFormat.Text
 # BinaryFormat.Text
 
 
-## Description
-
 Bir metin değeri okuyan ikili biçimi döndürür.
 
 
@@ -20,7 +18,7 @@ BinaryFormat.Text(
 ```
 
 
-## Details
+## Remarks
 
 Bir metin değeri okuyan bir ikili biçim döndürür. <code>length</code>, kodu çözülecek bayt sayısını veya metinden önce gelen uzunluğun ikili biçimini belirtir. İsteğe bağlı <code>encoding</code>değeri, metnin kodlamasını belirtir. <code>encoding</code>belirtilmemişse, kodlama Unicode bayt sıra işaretlerinden belirlenir. Bayt sırası işaretleri yoksa, <code>TextEncoding.Utf8</code> kullanılır.
 

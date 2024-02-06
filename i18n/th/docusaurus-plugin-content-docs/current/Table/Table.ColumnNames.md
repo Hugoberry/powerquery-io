@@ -5,8 +5,6 @@ title: Table.ColumnNames
 # Table.ColumnNames
 
 
-## Description
-
 ส่งกลับชื่อคอลัมน์เป็นรายการ
 
 
@@ -19,7 +17,7 @@ Table.ColumnNames(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับชื่อคอลัมน์ในตาราง <code>table</code> เป็นรายการข้อความ
 

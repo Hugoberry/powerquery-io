@@ -5,8 +5,6 @@ title: Table.Last
 # Table.Last
 
 
-## Description
-
 返回最后一行或指定的默认值。
 
 
@@ -20,7 +18,7 @@ Table.Last(
 ```
 
 
-## Details
+## Remarks
 
 返回 <code>table</code> 的最后一行，或如果表为空，则返回可选默认值 <code>default</code>。
 

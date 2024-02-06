@@ -5,8 +5,6 @@ title: Table.LastN
 # Table.LastN
 
 
-## Description
-
 末尾から指定された数の行を返します。
 
 
@@ -20,7 +18,7 @@ Table.LastN(
 ```
 
 
-## Details
+## Remarks
 
 <code>countOrCondition</code> の値に応じて、テーブル <code>table</code> の末尾から行を返します:    <ul>    <li> <code>countOrCondition</code> が数値の場合は、末尾 - <code>countOrCondition</code> の位置からその数の行を返します。</li>    <li> <code>countOrCondition</code> が条件の場合は、昇順位置でその条件を満たさない行の手前までの条件を満たす行を返します。</li></ul>
 

@@ -5,8 +5,6 @@ title: Table.Sort
 # Table.Sort
 
 
-## Description
-
 Sorterer tabellen ved hjælp af et eller flere kolonnenavne og sammenligningskriterier.
 
 
@@ -20,7 +18,7 @@ Table.Sort(
 ```
 
 
-## Details
+## Remarks
 
 Sorterer <code>table</code> ved hjælp af listen over en eller flere kolonnenavne og den valgfrie <code>comparisonCriteria</code> i formatet \{ \{ col1, comparisonCriteria }, \{col2} }.
 

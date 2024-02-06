@@ -5,8 +5,6 @@ title: Table.Group
 # Table.Group
 
 
-## Description
-
 Grupperer rækker i tabellen, der indeholder samme nøgle.
 
 
@@ -23,7 +21,7 @@ Table.Group(
 ```
 
 
-## Details
+## Remarks
 
 Grupperer rækkerne i <code>table</code> efter de nøglekolonner, der er defineret af <code>key</code>. <code>key</code> kan enten være et enkelt kolonnenavn eller en liste af kolonnenavne. For hver gruppe oprettes en post, der indeholder nøglekolonnerne (og deres værdier) sammen med de aggregerede kolonner, som er angivet af <code>aggregatedColumns</code>.   Valgfrit kan angives <code>groupKind</code> og <code>comparer</code>. <br />    <br />    Hvis data allerede er sorteret efter nøglekolonnerne, kan der angives en <code>groupKind</code> af GroupKind. Lokal kan angives. Dette kan forbedre ydeevne ved gruppering i visse tilfælde,    eftersom alle rækker med et bestemt sæt nøgleværdier antages at være sammenhængende.<br />    <br />    Ved overførsel af en <code>comparer</code>, skal du være opmærksom på, at en række kan placeres i en gruppe, hvis nøgler er anderledes end dens egne.<br />    <br />    Denne funktion garanterer ikke rækkefølgen af de rækker, den returnerer.  
 

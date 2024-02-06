@@ -5,8 +5,6 @@ title: Number.Sqrt
 # Number.Sqrt
 
 
-## Description
-
 ส่งกลับรากที่สองของตัวเลข
 
 
@@ -19,7 +17,7 @@ Number.Sqrt(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนรากที่สองของ <code>number</code>     ถ้า <code>number</code> เป็น null <code>ตัวเลข.Sqrt</code> จะส่งคืนค่า null ถ้าเป็นค่าลบ จะมีการส่งคืน <code>ตัวเลข.NaN</code> (ไม่ใช่ตัวเลข)
 

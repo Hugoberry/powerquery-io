@@ -5,8 +5,6 @@ title: Table.AddRankColumn
 # Table.AddRankColumn
 
 
-## Description
-
 Dołącza kolumnę z klasyfikacją co najmniej jednej innej kolumny.
 
 
@@ -22,7 +20,7 @@ Table.AddRankColumn(
 ```
 
 
-## Details
+## Remarks
 
 Dołącza kolumnę o nazwie <code>newColumnName</code> do <code>table</code> z klasyfikacją co najmniej jednej innej kolumny opisanej przez <code>comparisonCriteria</code>.Opcja RodzajKlasyfikacji w <code>options</code> może być używana przez zaawansowanych użytkowników do wybrania bardziej szczegółowej metody klasyfikacji.
 

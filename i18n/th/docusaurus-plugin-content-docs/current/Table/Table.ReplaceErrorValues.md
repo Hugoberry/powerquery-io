@@ -5,8 +5,6 @@ title: Table.ReplaceErrorValues
 # Table.ReplaceErrorValues
 
 
-## Description
-
 แทนที่ค่าที่ผิดพลาดในคอลัมน์ที่ระบุด้วยค่าที่สอดคล้องกันซึ่งระบุไว้
 
 
@@ -20,7 +18,7 @@ Table.ReplaceErrorValues(
 ```
 
 
-## Details
+## Remarks
 
 แทนที่ค่าที่ผิดพลาดในคอลัมน์ <code>table</code> ด้วยค่าใหม่ในรายการ <code>errorReplacement</code> รูปแบบของรายการคือ \{\{column1, value1}, …} อาจมีเค่าแทนที่เพียงหนึ่งค่าต่อหนึ่งคอลัมน์ การระบุคอลัมน์มากว่าหนึ่งจะทำให้เกิดข้อผิดพลาด
 

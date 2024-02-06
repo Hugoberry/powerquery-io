@@ -5,8 +5,6 @@ title: Type.TableColumn
 # Type.TableColumn
 
 
-## Description
-
 傳回資料表中資料行的類型。
 
 
@@ -20,7 +18,7 @@ Type.TableColumn(
 ```
 
 
-## Details
+## Remarks
 
 傳回資料表類型 <code>tableType</code> 中資料行 <code>column</code> 的類型。
 

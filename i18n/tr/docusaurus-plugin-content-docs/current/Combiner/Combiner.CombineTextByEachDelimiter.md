@@ -5,8 +5,6 @@ title: Combiner.CombineTextByEachDelimiter
 # Combiner.CombineTextByEachDelimiter
 
 
-## Description
-
 Bir sınırlayıcılar dizisi kullanarak bir metin listesini birleştiren bir işlev döndürür.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByEachDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Bir dizi sınırlayıcı kullanarak metin değerleri listesini tek bir metin değerinde birleştiren bir işlev döndürür.
 

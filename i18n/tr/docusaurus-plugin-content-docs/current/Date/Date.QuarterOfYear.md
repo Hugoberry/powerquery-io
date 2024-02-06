@@ -5,8 +5,6 @@ title: Date.QuarterOfYear
 # Date.QuarterOfYear
 
 
-## Description
-
 Tarihin yılın hangi çeyreği içinde olduğunu gösteren bir sayı döndürür.
 
 
@@ -19,7 +17,7 @@ Date.QuarterOfYear(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> tarihinin yılın hangi çeyreği içinde olduğunu gösteren, 1 ile 4 arasındaki bir sayıyı döndürür. <code>dateTime</code> bir <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri olabilir.
 

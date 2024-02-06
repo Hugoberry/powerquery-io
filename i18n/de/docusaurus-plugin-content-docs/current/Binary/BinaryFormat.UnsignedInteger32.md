@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger32
 # BinaryFormat.UnsignedInteger32
 
 
-## Description
-
 Ein Binärformat, das eine 32-Bit-Ganzzahl ohne Vorzeichen liest.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger32(
 ```
 
 
-## Details
+## Remarks
 
 Ein Binärformat, das eine 32-Bit-Ganzzahl ohne Vorzeichen liest.
 

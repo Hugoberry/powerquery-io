@@ -5,8 +5,6 @@ title: Cube.Parameters
 # Cube.Parameters
 
 
-## Description
-
 キューブに適用できるパラメーターのセットを含むテーブルを返します。
 
 
@@ -19,7 +17,7 @@ Cube.Parameters(
 ```
 
 
-## Details
+## Remarks
 
 <code>cube</code> に適用できるパラメーターのセットを含むテーブルを返します。各パラメーターは、そのパラメーターとパラメーターの引数が適用されている <code>cube</code> を取得するために呼び出すことができる関数です。
 

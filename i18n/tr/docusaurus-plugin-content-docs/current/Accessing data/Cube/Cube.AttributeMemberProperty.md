@@ -5,8 +5,6 @@ title: Cube.AttributeMemberProperty
 # Cube.AttributeMemberProperty
 
 
-## Description
-
 Boyut özniteliğinin bir özelliğini döndürür.
 
 
@@ -20,7 +18,7 @@ Cube.AttributeMemberProperty(
 ```
 
 
-## Details
+## Remarks
 
 <code>attribute</code> boyut özniteliğinin <code>propertyName</code> özelliğini döndürür.
 

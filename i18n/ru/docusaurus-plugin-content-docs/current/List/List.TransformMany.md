@@ -5,8 +5,6 @@ title: List.TransformMany
 # List.TransformMany
 
 
-## Description
-
 Возвращает список, элементы которого преобразованы из входного списка с помощью указанных функций.
 
 
@@ -21,7 +19,7 @@ List.TransformMany(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает список элементов, проецирование которых выполняется из списка ввода.<br />    <br />    Функция <code>collectionTransform</code> преобразует каждый элемент в промежуточный список, а функция <code>resultTransform</code> получает исходный элемент и элемент из промежуточного списка, чтобы создать окончательный результат.<br />    <br />    Функция <code>collectionTransform</code> имеет сигнатуру <code>(x значит любой) в виде списка => ...</code>, где <code>x</code> является элементом в <code>list</code>.    Функция <code>resultTransform</code> проецирует вид результата и имеет сигнатуру <code>(x значит любой, y значит любой) как любое => ...</code>, где <code>x</code> является элементом в <code>list</code>, а <code>y</code> является элементом из списка, созданного путем передачи <code>x</code> в <code>collectionTransform</code>.
 

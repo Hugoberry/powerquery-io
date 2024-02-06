@@ -5,8 +5,6 @@ title: BinaryFormat.Single
 # BinaryFormat.Single
 
 
-## Description
-
 Bir 4 bayt IEEE tek duyarlıklı kayan noktalı değeri okuyan bir ikili biçimi.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Single(
 ```
 
 
-## Details
+## Remarks
 
 Bir 4 bayt IEEE tek duyarlıklı kayan noktalı değeri okuyan bir ikili biçimi.
 

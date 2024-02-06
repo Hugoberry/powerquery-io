@@ -5,8 +5,6 @@ title: Duration.ToRecord
 # Duration.ToRecord
 
 
-## Description
-
 Retourne un enregistrement contenant les parties de la durée.
 
 
@@ -19,7 +17,7 @@ Duration.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Retourne un enregistrement contenant les parties de la valeur de durée, <code>duration</code>.  <ul>        <li><code>duration</code> : <code>duration</code> à partir de laquelle l'enregistrement est créé.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: DateTimeZone.RemoveZone
 # DateTimeZone.RemoveZone
 
 
-## Description
-
 Verilen datetimezone değerinden saat dilimi bilgilerini kaldırır.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.RemoveZone(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTimeZone</code> öğesinden saat dilimi bilgileri kaldırılmış olarak bir #datetime değeri döndürür.
 

@@ -5,8 +5,6 @@ title: Table.RemoveMatchingRows
 # Table.RemoveMatchingRows
 
 
-## Description
-
 Tar bort alla förekomster av de angivna raderna från tabellen.
 
 
@@ -21,7 +19,7 @@ Table.RemoveMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 Tar bort alla förekomster av den angivna <code>rows</code> från <code>table</code>.    En valfri parameter <code>equationCriteria</code> kan anges för att hantera jämförelsen mellan raderna i tabellen.
 

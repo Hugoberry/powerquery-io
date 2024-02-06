@@ -5,8 +5,6 @@ title: Table.LastN
 # Table.LastN
 
 
-## Description
-
 Returnerer det sidst angivne antal rækker.
 
 
@@ -20,7 +18,7 @@ Table.LastN(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer den eller de sidste rækker fra tabellen <code>table</code>, afhængigt af værdien i <code>countOrCondition</code>:    <ul>    <li> Hvis <code>countOrCondition</code> er et tal, returneres der så mange rækker med start fra positionen (slut - <code>countOrCondition</code>). </li>    <li> Hvis <code>countOrCondition</code> er en betingelse, returneres de rækker, der overholder betingelsen, i stigende rækkefølge, indtil en række ikke overholder betingelsen.</li></ul>
 

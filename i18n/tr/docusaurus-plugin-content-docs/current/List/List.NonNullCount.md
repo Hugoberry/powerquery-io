@@ -5,8 +5,6 @@ title: List.NonNullCount
 # List.NonNullCount
 
 
-## Description
-
 Listedeki null olmayan öğe sayısını döndürür.
 
 
@@ -19,7 +17,7 @@ List.NonNullCount(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesindeki null olmayan öğe sayısını döndürür.
 

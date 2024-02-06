@@ -5,8 +5,6 @@ title: Record.TransformFields
 # Record.TransformFields
 
 
-## Description
-
 Devolve um registo depois de aplicar as transformações especificadas.
 
 
@@ -21,7 +19,7 @@ Record.TransformFields(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um registo depois de aplicar as transformações especificadas na lista <code>transformOperations</code> a <code>record</code>.    É possível transformar um ou mais campos a uma hora específica.      <div>Caso só esteja a ser transformado um campo, espera-se que <code>transformOperations</code> seja uma lista com dois itens. O primeiro item existente em <code>transformOperations</code> especifica um nome de campo, enquanto que o segundo item existente em <code>transformOperations</code> especifica a função a ser utilizada para transformação. Por exemplo, <code>\{"Quantity", Number.FromText}</code></div>      <div>Caso estejam a ser transformados vários campos, espera-se que <code>transformOperations</code> seja uma lista de listas, em que cada lista interna é um par constituído por um nome de campo e por uma operação de transformação. Por exemplo, <code>\{\{"Quantity",Number.FromText},\{"UnitPrice", Number.FromText}}</code></div>
 

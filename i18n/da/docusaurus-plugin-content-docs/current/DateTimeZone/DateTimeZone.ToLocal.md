@@ -5,8 +5,6 @@ title: DateTimeZone.ToLocal
 # DateTimeZone.ToLocal
 
 
-## Description
-
 Konverterer tidszonekomponenten til den lokale tidszone.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToLocal(
 ```
 
 
-## Details
+## Remarks
 
 Ændrer tidszoneoplysninger for værdien af typen datetimezone, <code>dateTimeZone</code>, til de lokale tidszoneoplysninger.    Hvis <code>dateTimeZone</code> ikke har en tidszonekomponent, tilføjes de lokale tidszoneoplysninger.
 

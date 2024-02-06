@@ -5,8 +5,6 @@ title: List.Difference
 # List.Difference
 
 
-## Description
-
 Verilen iki listenin farkını döndürür.
 
 
@@ -21,7 +19,7 @@ List.Difference(
 ```
 
 
-## Details
+## Remarks
 
 <code>list1</code> listesindeki <code>list2</code> listesinde görünmeyen öğeleri döndürür. Yinelenen değerler desteklenir.    Eşitlik sınamasını denetlemek için <code>equationCriteria</code> isteğe bağlı denklem ölçüt değeri belirtilebilir. 
 

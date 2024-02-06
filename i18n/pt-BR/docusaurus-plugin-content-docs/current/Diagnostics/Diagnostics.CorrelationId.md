@@ -5,8 +5,6 @@ title: Diagnostics.CorrelationId
 # Diagnostics.CorrelationId
 
 
-## Description
-
 Retorna um identificador opaco para correlacionar as solicitações recebidas com as enviadas.
 
 
@@ -19,7 +17,7 @@ Diagnostics.CorrelationId(
 ```
 
 
-## Details
+## Remarks
 
 Retorna um identificador opaco para correlacionar as solicitações recebidas com as enviadas.
 

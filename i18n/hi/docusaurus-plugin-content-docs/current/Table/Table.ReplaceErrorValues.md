@@ -5,8 +5,6 @@ title: Table.ReplaceErrorValues
 # Table.ReplaceErrorValues
 
 
-## Description
-
 निर्दिष्ट स्‍तंभों में त्रुटि मानों को संबंधित निर्दिष्ट मान से बदलता है.
 
 
@@ -20,7 +18,7 @@ Table.ReplaceErrorValues(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> के निर्दिष्ट स्‍तंभों में त्रुटि मानों को <code>errorReplacement</code> सूची में नए मानों से बदलता है. सूची का फ़ॉर्मेट \{\{column1, value1}, …} है. इसमें प्रति स्‍तंभ केवल एक ही प्रतिस्‍थापन मान हो सकता है, स्‍तंभ को एक से अधिक बार निर्दिष्ट करने से त्रुटि आ सकती है.
 

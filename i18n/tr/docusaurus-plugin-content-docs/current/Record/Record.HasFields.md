@@ -5,8 +5,6 @@ title: Record.HasFields
 # Record.HasFields
 
 
-## Description
-
 Kaydın belirtilen alanlara sahip olup olmadığını gösterir.
 
 
@@ -20,7 +18,7 @@ Record.HasFields(
 ```
 
 
-## Details
+## Remarks
 
 <code>record</code> kaydının <code>fields</code> içinde belirtilen alanları içerip içermediğini bir mantıksal değer döndürerek (doğru veya yanlış) gösterir.    Birden çok alan değeri liste kullanılarak belirtilebilir.
 

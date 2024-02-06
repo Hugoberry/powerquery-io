@@ -17,7 +17,7 @@ DatabricksMultiCloud.Query(
 ```
 
 
-## Details
+## Remarks
 
 Een Databricks-gegevensbron definiëren voor het uitvoeren van SQL-query's
 

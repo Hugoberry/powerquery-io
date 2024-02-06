@@ -5,8 +5,6 @@ title: Type.ClosedRecord
 # Type.ClosedRecord
 
 
-## Description
-
 Restituisce una versione chiusa del tipo di record specificato (o dello stesso tipo, se è già chiuso).
 
 
@@ -19,7 +17,7 @@ Type.ClosedRecord(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una versione chiusa del tipo di <code>record</code> <code>type</code> specificato (o dello stesso tipo, se è già chiuso).
 

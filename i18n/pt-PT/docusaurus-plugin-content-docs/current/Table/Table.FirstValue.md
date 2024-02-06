@@ -5,8 +5,6 @@ title: Table.FirstValue
 # Table.FirstValue
 
 
-## Description
-
 Devolve a primeira coluna da primeira linha da tabela ou um valor predefinido especificado.
 
 
@@ -20,7 +18,7 @@ Table.FirstValue(
 ```
 
 
-## Details
+## Remarks
 
 Devolve a primeira coluna da primeira linha da tabela <code>table</code> ou um valor predefinido especificado.
 

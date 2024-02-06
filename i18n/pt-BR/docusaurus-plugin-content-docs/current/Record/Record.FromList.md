@@ -5,8 +5,6 @@ title: Record.FromList
 # Record.FromList
 
 
-## Description
-
 Retorna um registro de acordo com uma lista de valores de campos e um conjunto de campos.
 
 
@@ -20,7 +18,7 @@ Record.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Retorna um registro de acordo com <code>list</code> de valores de campos e um conjunto de campos.  É possível especificar <code>fields</code> por uma lista de valores de texto ou por um tipo de registro.  Um erro será lançado se os campos não forem exclusivos.
 

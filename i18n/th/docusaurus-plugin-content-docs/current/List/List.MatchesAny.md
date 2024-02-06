@@ -5,8 +5,6 @@ title: List.MatchesAny
 # List.MatchesAny
 
 
-## Description
-
 ส่งกลับเป็น จริง ถ้าฟังก์ชันเงื่อนไขถูกยอมรับโดยค่าใดๆ
 
 
@@ -20,7 +18,7 @@ List.MatchesAny(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับ <code>true</code> ถ้าฟังก์ชันเงื่อนไข <code>condition</code> ถูกยอมรับโดยค่าใดๆ ในรายการ <code>list</code> มิฉะนั้นจะส่งกลับ <code>false</code>
 

@@ -5,8 +5,6 @@ title: Record.HasFields
 # Record.HasFields
 
 
-## Description
-
 संकेत देता है कि रिकॉर्ड में निर्दिष्ट फ़ील्ड हैं या नहीं.
 
 
@@ -20,7 +18,7 @@ Record.HasFields(
 ```
 
 
-## Details
+## Remarks
 
 तार्किक मान (true या false) लौटाकर संकेत देता है कि रिकॉर्ड <code>record</code> में <code>fields</code> में निर्दिष्ट फ़ील्ड हैं या नहीं.    किसी सूची का उपयोग करके एकाधिक फ़ील्ड मान निर्दिष्ट किए जा सकते हैं.
 

@@ -5,8 +5,6 @@ title: Number.IsNaN
 # Number.IsNaN
 
 
-## Description
-
 अगर मान NaN (कोई संख्या नहीं) है, तो संकेत देता है.
 
 
@@ -19,7 +17,7 @@ Number.IsNaN(
 ```
 
 
-## Details
+## Remarks
 
 अगर मान NaN (कोई संख्या नहीं) है, तो संकेत देता है. अगर <code>number</code>, <code>Number.IsNaN</code> के बराबर है, तो <code>true</code> अन्यथा <code>false</code> लौटाता है.
 

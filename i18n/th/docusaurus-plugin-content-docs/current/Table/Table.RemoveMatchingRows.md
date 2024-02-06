@@ -5,8 +5,6 @@ title: Table.RemoveMatchingRows
 # Table.RemoveMatchingRows
 
 
-## Description
-
 เอาการปรากฏทั้งหมดของแถวที่ระบุออกจากตาราง
 
 
@@ -21,7 +19,7 @@ Table.RemoveMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 เอาเหตุการณ์ทั้งหมดของ <code>rows</code> ที่ระบุออกจาก <code>table</code>    พารามิเตอร์ที่เลือกได้ <code>equationCriteria</code> อาจถูกระบุเพื่อควบคุมการเปรียบเทียบระหว่างแถวของตาราง
 

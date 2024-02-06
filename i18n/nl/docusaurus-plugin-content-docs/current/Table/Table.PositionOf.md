@@ -5,8 +5,6 @@ title: Table.PositionOf
 # Table.PositionOf
 
 
-## Description
-
 Retourneert de positie of posities van de rij in de tabel.
 
 
@@ -22,7 +20,7 @@ Table.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt de rijpositie geretourneerd van de eerste herhaling van de <code>row</code> in de opgegeven <code>table</code>. Retourneert -1 als er geen herhaling wordt gevonden. <ul> <li><code>table</code>: de invoertabel.</li> <li><code>row</code>: de rij in de tabel waarvoor de positie moet worden gevonden.</li> <li><code>occurrence</code>: <i>[Optioneel]</i> Geeft aan welke herhalingen van de rij moeten worden geretourneerd.</li> <li><code>equationCriteria</code>: <i>[Optioneel]</i> Hiermee stuurt u de vergelijking tussen de tabelrijen aan.</li> </ul>    
 

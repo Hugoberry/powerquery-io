@@ -15,7 +15,7 @@ PowerBI.Dataflows(
 ```
 
 
-## Details
+## Remarks
 
 Kết nối với tất cả các luồng dữ liệu Power BI mà bạn có quyền truy cập và chọn những thực thể bạn muốn sử dụng.
 

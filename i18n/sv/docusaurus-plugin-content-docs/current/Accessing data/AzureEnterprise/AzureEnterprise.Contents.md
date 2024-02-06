@@ -5,8 +5,6 @@ title: AzureEnterprise.Contents
 # AzureEnterprise.Contents
 
 
-## Description
-
 Ange URL:en till den Azure Enterprise REST API-slutpunkt som är associerad till din registrering
 
 
@@ -20,7 +18,7 @@ AzureEnterprise.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar det binära resultatet för anropet till den URL som tillhandahållits för Azure Enterprise API:et.
 

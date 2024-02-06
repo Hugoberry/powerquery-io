@@ -5,8 +5,6 @@ title: IdentityProvider.Default
 # IdentityProvider.Default
 
 
-## Description
-
 वर्तमान होस्ट के लिए डिफ़ॉल्ट पहचान प्रदाता.
 
 
@@ -19,7 +17,7 @@ IdentityProvider.Default(
 ```
 
 
-## Details
+## Remarks
 
 वर्तमान होस्ट के लिए डिफ़ॉल्ट पहचान प्रदाता.
 

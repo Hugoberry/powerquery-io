@@ -5,8 +5,6 @@ title: BinaryFormat.Group
 # BinaryFormat.Group
 
 
-## Description
-
 Retourneert een binaire indeling die een groep items leest.
 
 
@@ -22,7 +20,7 @@ BinaryFormat.Group(
 ```
 
 
-## Details
+## Remarks
 
 De parameters zijn als volgt:<ul><li>De parameter <code>binaryFormat</code> specificeert de binaire indeling van de sleutelwaarde.</li><li>De parameter <code>group</code> verschaft informatie over de groep met bekende items.</li><li>De optionele parameter <code>extra</code> kan worden gebruikt om een functie op te geven die een waarde van een binaire indeling retourneert voor de waarde die volgt op een sleutel die niet werd verwacht. Als de parameter <code>extra</code> niet is opgegeven, treedt er een fout op als er onverwachte sleutelwaarden zijn.</li></ul>Met de parameter <code>group</code> wordt een lijst met itemdefinities opgegeven. Elke itemdefinitie is een lijst die 3-5 van de volgende waarden bevat:<ul><li>Sleutelwaarde. De waarde van de sleutel die overeenkomt met het item. Deze moet uniek zijn binnen de set met items.</li><li>Itemindeling. De binaire indeling die overeenkomt met de waarde van het item. Op deze manier kan elk item een andere indeling hebben. </li><li>Iteminstantie. De waarde <code>BinaryOccurrence.Type</code> geeft aan hoe vaak het item volgens verwachting in de groep verschijnt.  Vereiste items die niet aanwezig zijn, veroorzaken een fout. Vereiste of optionele dubbele items worden afgehandeld als onverwachte sleutelwaarden.</li><li>Standaardwaarde van het item (optioneel). Als de standaardwaarde van het item in de lijst met itemdefinities verschijnt en niet null is, wordt dit gebruikt in plaats van de standaard. De standaard voor herhalende of optionele items is null en de standaard voor herhalende waarden is een lege lijst \{ }.</li><li>Transformatie itemwaarde (optioneel).  Als de functie voor transformatie van de itemwaarde aanwezig is in de lijst met itemdefinities en niet null is, dan wordt deze functie aangeroepen om de itemwaarde te transformeren voordat de waarde wordt geretourneerd. De transformatiefunctie wordt alleen aangeroepen als het item verschijnt in de invoer (het wordt nooit aangeroepen met de standaardwaarde). </li></ul>
 

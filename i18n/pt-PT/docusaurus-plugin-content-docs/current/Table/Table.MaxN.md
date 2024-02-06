@@ -5,8 +5,6 @@ title: Table.MaxN
 # Table.MaxN
 
 
-## Description
-
 Devolve as maiores linhas utilizando os critérios especificados.
 
 
@@ -21,7 +19,7 @@ Table.MaxN(
 ```
 
 
-## Details
+## Remarks
 
 Devolve as maiores linhas em <code>table</code> com base no <code>comparisonCriteria</code>.    Após as linhas serem ordenadas, o parâmetro <code>countOrCondition</code> tem de ser especificado para filtrar melhor o resultado. Note que o algoritmo de ordenação não pode garantir um resultado ordenado fixo. O parâmetro <code>countOrCondition</code> pode assumir vários formatos:    <ul>        <li> Se for especificado um número, é devolvida uma lista com um máximo de <code>countOrCondition</code> itens por ordem ascendente. </li>        <li> Se for especificada uma condição, é devolvida uma lista dos itens que satisfizerem a condição inicialmente. Quando um item não satisfizer a condição, não serão considerados mais itens. </li>  </ul>
 

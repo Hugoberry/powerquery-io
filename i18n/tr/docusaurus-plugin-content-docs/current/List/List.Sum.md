@@ -5,8 +5,6 @@ title: List.Sum
 # List.Sum
 
 
-## Description
-
 Listedeki öğelerin toplamını döndürür.
 
 
@@ -20,7 +18,7 @@ List.Sum(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesindeki null olmayan değerlerin toplamını döndürür.  Listede null olmayan değer yoksa null döndürülür.
 

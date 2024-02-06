@@ -5,8 +5,6 @@ title: Error.Record
 # Error.Record
 
 
-## Description
-
 根據提供的文字值傳回錯誤記錄，以取得原因、訊息和詳細資料。
 
 
@@ -22,7 +20,7 @@ Error.Record(
 ```
 
 
-## Details
+## Remarks
 
 根據提供的文字值傳回錯誤記錄，以取得原因、訊息和詳細資料。
 

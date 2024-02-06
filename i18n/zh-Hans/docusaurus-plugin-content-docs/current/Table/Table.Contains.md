@@ -5,8 +5,6 @@ title: Table.Contains
 # Table.Contains
 
 
-## Description
-
 指示指定的记录是否显示为表中的一行。
 
 
@@ -21,7 +19,7 @@ Table.Contains(
 ```
 
 
-## Details
+## Remarks
 
 指示指定的记录 <code>row</code> 是否显示为 <code>table</code> 中的一行。    可以指定一个可选参数 <code>equationCriteria</code>，以控制表各行之间的比较。
 

@@ -5,8 +5,6 @@ title: Date.IsInPreviousYear
 # Date.IsInPreviousYear
 
 
-## Description
-
 指示此日期是否会在系统当前日期和时间确定的上一年中出现。请注意，当传递一个在当前年内出现的值时，此函数将返回 false。
 
 
@@ -19,7 +17,7 @@ Date.IsInPreviousYear(
 ```
 
 
-## Details
+## Remarks
 
 指示给定的日期时间值 <code>dateTime</code> 是否会在系统当前日期和时间确定的上一年中出现。请注意，当传递一个在当前年内出现的值时，此函数将返回 false。      <ul>      <li><code>dateTime</code>: 要计算的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值。</li>      </ul>
 

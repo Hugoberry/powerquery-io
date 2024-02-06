@@ -5,8 +5,6 @@ title: Number.FromText
 # Number.FromText
 
 
-## Description
-
 Genel metin biçimlerinden sayılar oluşturur (&#34;15&#34;, &#34;3,423.10&#34;, &#34;5.0E-10&#34;).
 
 
@@ -20,7 +18,7 @@ Number.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>text</code> metin değerinden bir <code>number</code> değeri döndürür. <ul>  <li><code>text</code>: Sayı değerinin metinsel gösterimi. Gösterim bir genel sayı biçiminde olmalıdır: Örneğin "15", "3.423,10" veya "5,0E-10".</li>  <li><code>culture</code>: <code>text</code> değerinin nasıl yorumlanacağını denetleyen isteğe bağlı kültür (ör. "tr-TR").</li> </ul>
 

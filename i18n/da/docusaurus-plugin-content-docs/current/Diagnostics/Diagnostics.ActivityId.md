@@ -5,8 +5,6 @@ title: Diagnostics.ActivityId
 # Diagnostics.ActivityId
 
 
-## Description
-
 Returnerer et uigennemsigtigt id for den evaluering, der kører i øjeblikket.
 
 
@@ -19,7 +17,7 @@ Diagnostics.ActivityId(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer et uigennemsigtigt id for den evaluering, der kører i øjeblikket.
 

@@ -5,8 +5,6 @@ title: Excel.Workbook
 # Excel.Workbook
 
 
-## Description
-
 Excel çalışma kitabının içeriğini döndürür.
 
 
@@ -21,7 +19,7 @@ Excel.Workbook(
 ```
 
 
-## Details
+## Remarks
 
 Excel çalışma kitabının içeriğini döndürür.    <ul>     <li> <code>useHeaders</code> null veya döndürülen her tablonun ilk satırının bir üst bilgi veya seçenek kaydı olarak değerlendirilip değerlendirilmeyeceğini gösteren bir mantıksal (true/false) değer olabilir. Varsayılan: false.</li>     <li> <code>delayTypes</code> null olabilir veya döndürülen her tablonun sütunlarının türü belirlenmemiş olarak bırakılıp bırakılmayacağını gösteren bir mantıksal (true/false) değer olabilir. Varsayılan: false.</li>    </ul>    <code>useHeaders</code> için bir kayıt belirtilmişse (ve <code>delayTypes</code> null ise) şu kayıt alanları sağlanabilir:    <ul>     <li> <code>UseHeaders</code>: Null olabilir veya döndürülen her tablonun ilk satırının üst bilgi olarak değerlendirilip değerlendirilmeyeceğini gösteren bir mantıksal (true/false) değer olabilir. Varsayılan: false.</li>     <li> <code>DelayTypes</code>: Null olabilir veya döndürülen her tablonun sütunlarının türü belirlenmemiş olarak bırakılıp bırakılmayacağını gösteren bir mantıksal (true/false) değer olabilir. Varsayılan: false.</li>     <li> <code>InferSheetDimensions</code>: Null olabilir veya veri içeren çalışma sayfası alanının dosyadaki boyut meta verileri okunarak değil, çalışma sayfasının kendisi okunarak çıkarsanıp çıkarsanmadığını gösteren bir mantıksal (true/false) değer olabilir. Bu, boyut meta verilerinin yanlış olduğu durumlarda yarar olabilir. Bu seçeneğin eski Excel dosyaları için değil, yalnızca Open XML Excel dosyaları için desteklendiğini unutmayın. Varsayılan: false.</li>    </ul>    
 

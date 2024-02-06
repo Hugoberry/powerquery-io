@@ -5,8 +5,6 @@ title: Type.NonNullable
 # Type.NonNullable
 
 
-## Description
-
 Returnerar den ej nullbara typen från en typ.
 
 
@@ -19,7 +17,7 @@ Type.NonNullable(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar den ej <code>nullable</code> typen från <code>type</code>.
 

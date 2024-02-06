@@ -5,8 +5,6 @@ title: Table.PromoteHeaders
 # Table.PromoteHeaders
 
 
-## Description
-
 Stuft die erste Zeile mit Werten zu den neuen Spaltenüberschriften herauf (z. B. Spaltennamen).
 
 
@@ -20,7 +18,7 @@ Table.PromoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Stuft die erste Zeile mit Werten zu den neuen Spaltenüberschriften (also Spaltennamen) herauf. Alle Zellen der ersten Zeile müssen Text- oder Zahlenwerte enthalten. Standardmäßig werden nur Text- oder Zahlenwerte zu Überschriften heraufgestuft. Gültige Optionen:    <div>      <code>PromoteAllScalars</code>: Bei Festlegung auf <code>true</code> werden alle Skalarwerte in der ersten Zeile mithilfe von <code>Culture</code> zu Überschriften heraufgestuft, sofern angegeben (andernfalls wird das Gebietsschema für das Dokument verwendet).    Für Werte, die nicht in Text konvertiert werden können, wird ein standardmäßiger Spaltenname verwendet.    </div>    <div>    <code>Culture</code>: Ein Kulturname, der die Kultur für die Daten angibt.    </div>  
 

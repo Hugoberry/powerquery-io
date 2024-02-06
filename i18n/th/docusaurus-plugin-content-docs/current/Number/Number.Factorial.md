@@ -5,8 +5,6 @@ title: Number.Factorial
 # Number.Factorial
 
 
-## Description
-
 ส่งกลับค่าแฟกทอเรียลของตัวเลข
 
 
@@ -19,7 +17,7 @@ Number.Factorial(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่าแฟกทอเรียลของตัวเลข <code>number</code>
 

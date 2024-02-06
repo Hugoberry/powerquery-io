@@ -5,8 +5,6 @@ title: Text.Clean
 # Text.Clean
 
 
-## Description
-
 傳回移除所有控制字元的文字值。
 
 
@@ -19,7 +17,7 @@ Text.Clean(
 ```
 
 
-## Details
+## Remarks
 
 傳回移除所有控制字元 <code>text</code> 的文字值。
 

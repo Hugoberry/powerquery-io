@@ -5,8 +5,6 @@ title: Table.HasColumns
 # Table.HasColumns
 
 
-## Description
-
 Tablonun belirtilen sütunları içerip içermediğini belirtir.
 
 
@@ -20,7 +18,7 @@ Table.HasColumns(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> tablosunun belirtilen <code>columns</code> sütunlarını içerip içermediğini belirtir. Tablo sütunları içeriyorsa <code>true</code>, içermiyorsa <code>false</code> değerini döndürür.
 

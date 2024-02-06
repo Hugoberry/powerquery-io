@@ -5,8 +5,6 @@ title: List.FindText
 # List.FindText
 
 
-## Description
-
 ส่งกลับรายการค่า (รวมถึงเขตข้อมูลระเบียน) ที่มีข้อความที่ระบุ
 
 
@@ -20,7 +18,7 @@ List.FindText(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับรายการของค่าจากรายการ <code>list</code> ที่มีค่า <code>text</code>
 

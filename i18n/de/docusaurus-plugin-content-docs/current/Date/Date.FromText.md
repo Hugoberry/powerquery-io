@@ -5,8 +5,6 @@ title: Date.FromText
 # Date.FromText
 
 
-## Description
-
 Erstellt ein Datum aus lokalen, universellen und benutzerdefinierten Datumsformaten.
 
 
@@ -20,7 +18,7 @@ Date.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Erstellt einen <code>date</code>-Wert aus einer Textdarstellung, <code>text</code>. Ein optionaler <code>record</code>-Parameter (<code>options</code>) kann angegeben werden, um zusätzliche Eigenschaften anzugeben. <code>record</code> kann die folgenden Felder enthalten:<ul>   <li><code>Format</code>: Ein <code>text</code>-Wert, der das zu verwendende Format angibt. Weitere Details finden Sie unter https://go.microsoft.com/fwlink/?linkid=2180104 und https://go.microsoft.com/fwlink/?linkid=2180105 für Details. Wenn Sie dieses Feld auslassen oder <code>null</code> angeben, wird das Datum nach bestem Wissen geparst.</li>   <li><code>Culture</code>: Wenn <code>Format</code> nicht null ist, definiert <code>Culture</code> einige Formatspezifikationen. Zum Beispiel, ist in <code>"en-US"</code> <code>"MMM"</code> <code>"Jan", "Feb", "Mar", ...</code>, während in <code>"ru-RU"</code> <code>"MMM"</code> <code>"янв", "фев", "мар", ...</code> ist. Wenn <code>Format</code> <code>null</code> ist, bestimmt <code>Culture</code> das zu verwendende Standardformat. Wenn <code>Culture</code> <code>null</code> ist oder weggelassen wird, wird <code>Culture.Current</code> verwendet.</li></ul>Zur Unterstützung von Legacyworkflows kann <code>options</code> auch ein Textwert sein. Dies führt zum gleichen Verhalten wie <code>options</code><code> = [Format = null, Culture = <code>options</code>]</code>.
 

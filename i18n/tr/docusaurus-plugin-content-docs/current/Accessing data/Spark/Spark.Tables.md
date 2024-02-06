@@ -5,8 +5,6 @@ title: Spark.Tables
 # Spark.Tables
 
 
-## Description
-
 Tabloları belirtilen Spark kümesinde listeleyen bir tablo döndürür.
 
 
@@ -21,7 +19,7 @@ Spark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 <code>Protokol</code> kullanarak, tabloları Spark küme <code>ana bilgisayarında</code> listeleyen bir tablo döndürür.  Geçerli protokoller şunlardır:SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
 

@@ -5,8 +5,6 @@ title: Table.FromPartitions
 # Table.FromPartitions
 
 
-## Description
-
 แสดงผลตารางที่เป็นผลลัพธ์ของการรวมชุดตารางที่มีการแบ่งพาร์ติชัน
 
 
@@ -21,7 +19,7 @@ Table.FromPartitions(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางที่เป็นผลลัพธ์ของการรวมชุดตารางที่มีการแบ่งพาร์ติชัน <code>partitions</code> <code>partitionColumn</code> เป็นชื่อของคอลัมน์ที่เพิ่ม ประเภทของคอลัมน์เริ่มต้นคือ <code>any</code> แต่สามารถระบุได้ด้วย <code>partitionColumnType</code>
 

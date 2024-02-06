@@ -5,8 +5,6 @@ title: Marketo.Leads
 # Marketo.Leads
 
 
-## Description
-
 Devuelve una tabla con los detalles del cliente potencial.
 
 
@@ -21,7 +19,7 @@ Marketo.Leads(
 ```
 
 
-## Details
+## Remarks
 
 Hace una llamada al punto de conexión de la API de REST de Marketo en <code>url</code>/rest/v1/leads.json. Se devolverán todos los clientes potenciales de la lista <code>leadIds</code>.
 

@@ -5,8 +5,6 @@ title: Table.Min
 # Table.Min
 
 
-## Description
-
 Returnerer den mindste række eller en standardværdi ved hjælp af de angivne kriterier.
 
 
@@ -21,7 +19,7 @@ Table.Min(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer den mindste række i <code>table</code> med den angivne <code>comparisonCriteria</code>. Hvis tabellen er tom, returneres den valgfrie værdi <code>default</code>.
 

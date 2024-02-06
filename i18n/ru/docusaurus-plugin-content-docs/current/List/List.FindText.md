@@ -5,8 +5,6 @@ title: List.FindText
 # List.FindText
 
 
-## Description
-
 Возвращает список значений (включая поля записей), содержащих указанный текст.
 
 
@@ -20,7 +18,7 @@ List.FindText(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает список значений из списка <code>list</code>, содержащих значение <code>text</code>.
 

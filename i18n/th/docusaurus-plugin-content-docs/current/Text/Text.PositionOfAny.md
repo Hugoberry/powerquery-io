@@ -5,8 +5,6 @@ title: Text.PositionOfAny
 # Text.PositionOfAny
 
 
-## Description
-
 ส่งกลับตำแหน่งแรกในค่าข้อความของอักขระใดๆ ในรายการ (ส่งกลับ -1 ถ้าไม่พบ)
 
 
@@ -21,7 +19,7 @@ Text.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตำแหน่งแรกของอักขระใดๆ ในรายการ <code>characters</code> ที่พบใน<code>text</code>.    พารามิเตอร์ที่เลือกได้ <code>occurrence</code> อาจถูกใช้เพื่อระบุตำแหน่งเหตุการณ์ที่จะส่งกลับ
 

@@ -5,8 +5,6 @@ title: Table.Contains
 # Table.Contains
 
 
-## Description
-
 Belirtilen kaydın tabloda satır olarak görünüp görünmediğini gösterir.
 
 
@@ -21,7 +19,7 @@ Table.Contains(
 ```
 
 
-## Details
+## Remarks
 
 <code>row</code> belirtilen kaydının <code>table</code> içinde satır olarak görünüp görünmediğini gösterir.    Tablonun satırları arasındaki karşılaştırmayı denetlemek üzere <code>equationCriteria</code> isteğe bağlı parametresi belirtilebilir.
 

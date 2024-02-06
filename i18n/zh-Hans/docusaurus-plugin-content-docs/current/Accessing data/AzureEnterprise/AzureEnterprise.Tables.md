@@ -5,8 +5,6 @@ title: AzureEnterprise.Tables
 # AzureEnterprise.Tables
 
 
-## Description
-
 输入与你的注册相关联的 Azure Enterprise REST API 终结点的 URL
 
 
@@ -19,7 +17,7 @@ AzureEnterprise.Tables(
 ```
 
 
-## Details
+## Remarks
 
 返回 Azure Enterprise API 提供的报表和月份列表
 

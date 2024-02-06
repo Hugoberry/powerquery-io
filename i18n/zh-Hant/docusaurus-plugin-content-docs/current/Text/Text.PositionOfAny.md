@@ -5,8 +5,6 @@ title: Text.PositionOfAny
 # Text.PositionOfAny
 
 
-## Description
-
 傳回文字值中任何列出字元的第一個位置 (如果找不到，則傳回 -1)。
 
 
@@ -21,7 +19,7 @@ Text.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 傳回清單 <code>characters</code> 中在 <code>text</code> 中找到的任何字元的第一個位置。    選擇性參數 <code>occurrence</code> 可用於指定要傳回的發生位置。
 

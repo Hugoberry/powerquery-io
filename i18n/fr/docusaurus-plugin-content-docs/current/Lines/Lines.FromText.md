@@ -5,8 +5,6 @@ title: Lines.FromText
 # Lines.FromText
 
 
-## Description
-
 Convertit une valeur de texte en une liste de valeurs de texte fractionnées au niveau des sauts de lignes. Si includeLineSeparators a la valeur true, les caractères de saut de ligne sont inclus dans le texte.
 
 
@@ -21,7 +19,7 @@ Lines.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Convertit une valeur de texte en une liste de valeurs de texte fractionnées au niveau des sauts de lignes. Si includeLineSeparators a la valeur true, les caractères de saut de ligne sont inclus dans le texte.        <div>          <ul>            <li><code>QuoteStyle.None:</code> (par défaut) Aucune règle d'utilisation de guillemets n'est nécessaire.</li>            <li><code>QuoteStyle.Csv:</code> L'utilisation de guillemets suit les mêmes règles que pour le format CSV. Un guillemet double est utilisé pour séparer ces régions, et une paire de guillemets doubles est utilisée pour indiquer la présence d'un guillemet double dans une de ces régions. </li>          </ul>        </div>    
 

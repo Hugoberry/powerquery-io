@@ -5,8 +5,6 @@ title: Text.PadEnd
 # Text.PadEnd
 
 
-## Description
-
 Verilen metnin sonunu doldurarak belirtilen uzunluktaki metni döndürür.
 
 
@@ -21,7 +19,7 @@ Text.PadEnd(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> metin değerinin sonuna boşluk ekleyerek <code>count</code> uzunluğuna doldurulan bir <code>text</code> değeri döndürür.    Doldurma için kullanılan karakteri belirtmek için isteğe bağlı bir <code>character</code> karakteri kullanılabilir. Varsayılan doldurma karakteri boşluktur.
 

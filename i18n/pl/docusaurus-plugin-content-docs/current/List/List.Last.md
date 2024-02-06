@@ -5,8 +5,6 @@ title: List.Last
 # List.Last
 
 
-## Description
-
 Zwraca ostatnią wartość z listy lub określoną wartość domyślną, gdy lista jest pusta.
 
 
@@ -20,7 +18,7 @@ List.Last(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca ostatni element z listy <code>list</code> lub opcjonalną wartość domyślną <code>defaultValue</code>, gdy lista jest pusta.    Jeśli lista jest pusta i nie określono wartości domyślnej, funkcja zwraca wartość <code>null</code>.
 

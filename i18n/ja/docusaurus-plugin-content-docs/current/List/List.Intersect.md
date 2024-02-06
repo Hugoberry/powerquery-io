@@ -5,8 +5,6 @@ title: List.Intersect
 # List.Intersect
 
 
-## Description
-
 入力内に見つかったリスト値の積集合を返します。
 
 
@@ -20,7 +18,7 @@ List.Intersect(
 ```
 
 
-## Details
+## Remarks
 
 入力リスト <code>lists</code> 内に見つかったリスト値の積集合を返します。省略可能なパラメーター <code>equationCriteria</code> を指定できます。
 

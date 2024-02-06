@@ -5,8 +5,6 @@ title: Table.AddKey
 # Table.AddKey
 
 
-## Description
-
 Føjer en nøgle til en tabel.
 
 
@@ -21,7 +19,7 @@ Table.AddKey(
 ```
 
 
-## Details
+## Remarks
 
 Føjer en nøgle til <code>table</code>, hvor <code>columns</code> er listen over kolonnenavne, der definerer nøglen, og <code>isPrimary</code> angiver, om nøglen er primær.
 

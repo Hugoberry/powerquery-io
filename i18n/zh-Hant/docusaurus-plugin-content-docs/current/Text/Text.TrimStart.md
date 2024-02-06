@@ -5,8 +5,6 @@ title: Text.TrimStart
 # Text.TrimStart
 
 
-## Description
-
 移除所有開頭空白字元。
 
 
@@ -20,7 +18,7 @@ Text.TrimStart(
 ```
 
 
-## Details
+## Remarks
 
 傳回從文字值 <code>text</code> 中移除所有開頭空白字元的結果。
 

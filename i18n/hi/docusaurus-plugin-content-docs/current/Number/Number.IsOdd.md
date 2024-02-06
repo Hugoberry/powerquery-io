@@ -5,8 +5,6 @@ title: Number.IsOdd
 # Number.IsOdd
 
 
-## Description
-
 अगर मान विषम है, तो संकेत देता है.
 
 
@@ -19,7 +17,7 @@ Number.IsOdd(
 ```
 
 
-## Details
+## Remarks
 
 अगर मान विषम है, तो संकेत देता है. अगर <code>number</code> एक विषम संख्या है, तो <code>true</code> अन्यथा <code>false</code> लौटाता है.
 

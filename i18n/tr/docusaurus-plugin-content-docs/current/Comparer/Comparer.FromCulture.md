@@ -5,8 +5,6 @@ title: Comparer.FromCulture
 # Comparer.FromCulture
 
 
-## Description
-
 Belirtilen kültürü ve büyük/küçük harfe duyarlılığı temel alan bir karşıtlık işlevi döndürür.
 
 
@@ -20,7 +18,7 @@ Comparer.FromCulture(
 ```
 
 
-## Details
+## Remarks
 
 Karşılaştırma yapmak için <code>culture</code> yanı sıra, <code>ignoreCase</code> tarafından belirtilen büyük/küçük harf duyarlılığını kullanan bir karşılaştırıcı işlevi döndürür.<br />       <br />       Karşılaştırıcı işlevi iki bağımsız değişken kabul eder ve ilk değerin ikinci değerden küçük, ona eşit veya ikinciden büyük olup olmadığını temel alarak -1, 0 veya 1 döndürür.<br />      <br />      <code>ignoreCase</code> için varsayılan değer false'tur. Bu <code>culture</code>, .NET framework (ör. "en-US") tarafından desteklenen yerel ayarlardan biri olmalıdır .    
 

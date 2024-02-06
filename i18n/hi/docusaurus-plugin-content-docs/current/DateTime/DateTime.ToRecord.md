@@ -5,8 +5,6 @@ title: DateTime.ToRecord
 # DateTime.ToRecord
 
 
-## Description
-
 वह रिकॉर्ड लौटाता है, जिसमें datetime मान के भाग शामिल हैं.
 
 
@@ -19,7 +17,7 @@ DateTime.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 वह रिकॉर्ड लौटाता है, जिसमें दिए गए datetime मान <code>dateTime</code> के भाग शामिल हैं. <ul>        <li><code>dateTime</code>: एक ऐसा <code>datetime</code> मान, जिससे उसके भागों के रिकॉर्ड को परिकलित किया जाना है.</li>      </ul>
 

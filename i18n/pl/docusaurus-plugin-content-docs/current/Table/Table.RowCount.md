@@ -5,8 +5,6 @@ title: Table.RowCount
 # Table.RowCount
 
 
-## Description
-
 Zwraca liczbę wierszy w tabeli.
 
 
@@ -19,7 +17,7 @@ Table.RowCount(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca liczbę wierszy w tabeli <code>table</code>.
 

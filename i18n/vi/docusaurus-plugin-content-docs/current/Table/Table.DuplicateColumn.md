@@ -5,8 +5,6 @@ title: Table.DuplicateColumn
 # Table.DuplicateColumn
 
 
-## Description
-
 Sao chép một cột có tên được chỉ định. Các giá trị và loại được sao chép từ cột nguồn.
 
 
@@ -22,7 +20,7 @@ Table.DuplicateColumn(
 ```
 
 
-## Details
+## Remarks
 
 Sao chép cột có tên <code>columnName</code> tới bảng <code>table</code>. Các giá trị và loại cho cột <code>newColumnName</code> được sao chép từ cột <code>columnName</code>.
 

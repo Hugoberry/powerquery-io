@@ -5,8 +5,6 @@ title: Table.ExpandRecordColumn
 # Table.ExpandRecordColumn
 
 
-## Description
-
 Développe une colonne d&#39;enregistrements dans des colonnes ayant chacune des valeurs.
 
 
@@ -22,7 +20,7 @@ Table.ExpandRecordColumn(
 ```
 
 
-## Details
+## Remarks
 
 En fonction des enregistrements de <code>column</code> dans l'entrée <code>table</code>, crée une table avec une colonne pour chaque champ dans l'enregistrement. Au besoin, <code>newColumnNames</code> peut être spécifié pour garantir que des noms uniques pour les colonnes sont utilisés dans la nouvelle table.    <ul>        <li><code>table</code> : table d'origine avec la colonne des enregistrements à développer. </li>        <li><code>column</code> : colonne à développer.</li>        <li><code>fieldNames</code> : liste des champs à développer dans des colonnes dans la table.</li>        <li><code>newColumnNames</code> : liste des noms de colonne à attribuer aux nouvelles colonnes. Les noms des nouvelles colonnes ne peuvent pas dupliquer une colonne dans la nouvelle table.</li>    </ul>
 

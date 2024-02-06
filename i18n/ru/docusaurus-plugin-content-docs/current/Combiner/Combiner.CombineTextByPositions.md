@@ -5,8 +5,6 @@ title: Combiner.CombineTextByPositions
 # Combiner.CombineTextByPositions
 
 
-## Description
-
 Возвращает функцию, которая объединяет список текстовых значений с использованием указанных выходных позиций.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByPositions(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает функцию, которая объединяет список текстовых значений в одно текстовое значение, используя заданные значения выходных позиций.
 

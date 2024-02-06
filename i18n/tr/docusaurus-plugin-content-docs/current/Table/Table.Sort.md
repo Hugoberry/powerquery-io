@@ -5,8 +5,6 @@ title: Table.Sort
 # Table.Sort
 
 
-## Description
-
 Tabloyu bir veya daha fazla sütun adı ve karşılaştırma ölçütü kullanarak sıralar.
 
 
@@ -20,7 +18,7 @@ Table.Sort(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> öğesini bir veya daha fazla sütun adı ve \{ \{ col1, comparisonCriteria }, \{col2} } biçiminde isteğe bağlı bir <code>comparisonCriteria</code> kullanarak sıralar.
 

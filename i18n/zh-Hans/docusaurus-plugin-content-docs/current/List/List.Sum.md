@@ -5,8 +5,6 @@ title: List.Sum
 # List.Sum
 
 
-## Description
-
 返回列表中的项之和。
 
 
@@ -20,7 +18,7 @@ List.Sum(
 ```
 
 
-## Details
+## Remarks
 
 返回列表 <code>list</code> 中所有非 null 值的总和。 如果列表中没有非 null 值，则返回 null。
 

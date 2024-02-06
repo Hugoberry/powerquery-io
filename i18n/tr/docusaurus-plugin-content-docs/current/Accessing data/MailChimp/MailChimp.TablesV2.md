@@ -5,8 +5,6 @@ title: MailChimp.TablesV2
 # MailChimp.TablesV2
 
 
-## Description
-
 Anahtar MailChimp verilerinin yer aldığı bir tabloyu döndürür.
 
 
@@ -19,7 +17,7 @@ MailChimp.TablesV2(
 ```
 
 
-## Details
+## Remarks
 
 Anahtar MailChimp verilerinin yer aldığı bir tabloyu döndürür.
 

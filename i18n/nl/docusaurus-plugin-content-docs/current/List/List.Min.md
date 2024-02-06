@@ -5,8 +5,6 @@ title: List.Min
 # List.Min
 
 
-## Description
-
 Retourneert de minimumwaarde of de standaardwaarde voor een lege lijst.
 
 
@@ -22,7 +20,7 @@ List.Min(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt het minimumitem in de lijst <code>list</code> geretourneerd of de optionele standaardwaarde <code>default</code> als de lijst leeg is. Een optionele comparisonCriteria-waarde, <code>comparisonCriteria</code>, kan worden opgegeven om te bepalen hoe de items in de lijst moeten worden vergeleken. Als deze parameter null is, wordt de standaardvergelijkingsfunctie gebruikt.
 

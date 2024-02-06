@@ -5,8 +5,6 @@ title: Text.Replace
 # Text.Replace
 
 
-## Description
-
 替换文本中所有出现的给定子字符串。
 
 
@@ -21,7 +19,7 @@ Text.Replace(
 ```
 
 
-## Details
+## Remarks
 
 返回将文本值 <code>text</code> 中所有出现的文本值 <code>old</code> 替换为文本值 <code>new</code> 的结果。此函数区分大小写。
 

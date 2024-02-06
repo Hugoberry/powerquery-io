@@ -5,8 +5,6 @@ title: Date.AddMonths
 # Date.AddMonths
 
 
-## Description
-
 เพิ่มเดือนที่ระบุลงในวันที่
 
 
@@ -20,7 +18,7 @@ Date.AddMonths(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลลัพธ์ <code>วันที่</code>, <code>วันที่เวลา</code> หรือ <code>โซนวันที่เวลา</code> จากการเพิ่ม <code>numberOfMonths</code> เดือนลงในค่า <code>วันที่เวลา</code> <code>dateTime</code>      <ul>        <li><code>dateTime</code>: ค่า <code>วันที่</code>, <code>วันที่เวลา</code> หรือ <code>โซนวันที่เวลา</code> ที่เพิ่มเดือน</li>        <li><code>numberOfMonths</code>: จำนวนเดือนที่จะเพิ่ม</li>       </ul>
 

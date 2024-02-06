@@ -5,8 +5,6 @@ title: Record.HasFields
 # Record.HasFields
 
 
-## Description
-
 Wskazuje, czy rekord zawiera określone pola.
 
 
@@ -20,7 +18,7 @@ Record.HasFields(
 ```
 
 
-## Details
+## Remarks
 
 Wskazuje, czy rekord <code>record</code> zawiera pola określone w parametrze <code>fields</code>, zwracając wartość logiczną (true lub false).    Używając listy, można określić wiele wartości pól.
 

@@ -5,8 +5,6 @@ title: Table.Max
 # Table.Max
 
 
-## Description
-
 Gibt anhand der angegebenen Kriterien die größte Zeile oder den Standardwert zurück.
 
 
@@ -21,7 +19,7 @@ Table.Max(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die größte Zeile im Element vom Typ "<code>table</code>" anhand von "<code>comparisonCriteria</code>" zurück. Ist die Tabelle leer, wird der optionale Wert "<code>default</code>" zurückgegeben. 
 

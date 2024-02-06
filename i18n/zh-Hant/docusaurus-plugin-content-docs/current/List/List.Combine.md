@@ -5,8 +5,6 @@ title: List.Combine
 # List.Combine
 
 
-## Description
-
 結合多個清單以傳回一個清單。
 
 
@@ -19,7 +17,7 @@ List.Combine(
 ```
 
 
-## Details
+## Remarks
 
 接受一連串清單 <code>lists</code>，將它們合併成一個新的清單。
 

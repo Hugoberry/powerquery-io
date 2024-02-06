@@ -5,8 +5,6 @@ title: Table.PositionOfAny
 # Table.PositionOfAny
 
 
-## Description
-
 Restituisce la posizione o le posizioni di una delle righe specificate all&#39;interno della tabella.
 
 
@@ -22,7 +20,7 @@ Table.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce le posizioni delle righe da <code>table</code> della prima occorrenza dell'elenco di <code>rows</code>. Restituisce -1 se non viene trovata alcuna occorrenza.    <ul>    <li><code>table</code>: tabella di input.</li>       <li><code>rows</code>: elenco di righe nella tabella di cui trovare le posizioni.</li>       <li><code>occurrence</code>: <i>[facoltativo]</i> specifica le occorrenze della riga da restituire.</li>       <li><code>equationCriteria</code>: <i>[facoltativo]</i> controlla il confronto tra le righe di tabella.</li>    </ul>    
 

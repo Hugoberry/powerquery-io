@@ -5,8 +5,6 @@ title: AzureEnterprise.Contents
 # AzureEnterprise.Contents
 
 
-## Description
-
 Введите URL-адрес конечной точки REST API Azure Enterprise, связанной с вашим соглашением о регистрации
 
 
@@ -20,7 +18,7 @@ AzureEnterprise.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает результаты двоичных значений для вызова URL-адреса, указанного для Azure Enterprise API.
 

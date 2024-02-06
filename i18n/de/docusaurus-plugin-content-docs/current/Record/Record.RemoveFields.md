@@ -5,8 +5,6 @@ title: Record.RemoveFields
 # Record.RemoveFields
 
 
-## Description
-
 Entfernt die angegebenen Felder aus dem Eingabedatensatz.
 
 
@@ -21,7 +19,7 @@ Record.RemoveFields(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen Datensatz zurück, in dem alle in der Liste "<code>fields</code>" angegebenen Felder aus der Eingabe "<code>record</code>" entfernt wurden. Ist das angegebene Feld nicht vorhanden, wird eine Ausnahme ausgelöst.
 

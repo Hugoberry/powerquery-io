@@ -5,8 +5,6 @@ title: Value.As
 # Value.As
 
 
-## Description
-
 Değer belirtilen türle uyumluysa değeri döndürür.
 
 
@@ -20,7 +18,7 @@ Value.As(
 ```
 
 
-## Details
+## Remarks
 
 Değer belirtilen türle uyumluysa değeri döndürür. Bu, Number.Type gibi tanımlayıcı türü başvurularını kabul edebilmesi dışında M'deki "as" operatörüne eşdeğerdir.
 

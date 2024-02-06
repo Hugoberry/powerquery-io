@@ -5,8 +5,6 @@ title: Cube.Properties
 # Cube.Properties
 
 
-## Description
-
 キューブ内に展開されるディメンションの使用可能なプロパティのセットを含むテーブルを返します。
 
 
@@ -19,7 +17,7 @@ Cube.Properties(
 ```
 
 
-## Details
+## Remarks
 
 キューブ内に展開されるディメンションの使用可能なプロパティのセットを含むテーブルを返します。
 

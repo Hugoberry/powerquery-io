@@ -5,8 +5,6 @@ title: Splitter.SplitTextByRanges
 # Splitter.SplitTextByRanges
 
 
-## Description
-
 指定されたオフセットと長さに従ってテキストを一連のテキストに分割する関数を返します。
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 指定されたオフセットと長さに従ってテキストをテキストのリストに分割する関数を返します。長さを null にすると、残りのすべての入力を含める必要があることを指定できます。
 

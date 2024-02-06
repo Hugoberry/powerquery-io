@@ -5,8 +5,6 @@ title: Date.AddWeeks
 # Date.AddWeeks
 
 
-## Description
-
 Thêm các tuần được chỉ định vào ngày.
 
 
@@ -20,7 +18,7 @@ Date.AddWeeks(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả <code>date</code>, <code>datetime</code> hoặc <code>datetimezone</code> khi thêm <code>numberOfWeeks</code> tuần vào giá trị <code>datetime</code><code>dateTime</code>.      <ul>      <li><code>dateTime</code>: Giá trị <code>date</code>, <code>datetime</code> hoặc <code>datetimezone</code> mà các tuần đang được thêm.</li>      <li><code>numberOfWeeks</code>: Số tuần sẽ thêm.</li>      </ul>
 

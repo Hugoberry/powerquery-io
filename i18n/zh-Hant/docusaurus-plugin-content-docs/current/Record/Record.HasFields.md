@@ -5,8 +5,6 @@ title: Record.HasFields
 # Record.HasFields
 
 
-## Description
-
 指出記錄是否有指定的欄位。
 
 
@@ -20,7 +18,7 @@ Record.HasFields(
 ```
 
 
-## Details
+## Remarks
 
 傳回邏輯值 (true 或 false)，以指出記錄 <code>record</code> 是否有 <code>fields</code> 中指定的欄位。    使用清單可指定多個欄位值。
 

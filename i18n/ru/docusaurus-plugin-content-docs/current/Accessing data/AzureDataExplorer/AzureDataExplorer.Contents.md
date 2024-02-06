@@ -5,8 +5,6 @@ title: AzureDataExplorer.Contents
 # AzureDataExplorer.Contents
 
 
-## Description
-
 Импортирует данные из Azure Data Explorer (Kusto).
 
 
@@ -22,7 +20,7 @@ AzureDataExplorer.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Импортирует данные из вашего экземпляра Azure Data Explorer (Kusto).
 

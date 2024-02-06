@@ -5,8 +5,6 @@ title: Smartsheet.Query
 # Smartsheet.Query
 
 
-## Description
-
 Trả về kết quả JSON từ API Smartsheet
 
 
@@ -21,7 +19,7 @@ Smartsheet.Query(
 ```
 
 
-## Details
+## Remarks
 
 Gọi đến API REST Smartsheet 2.0 tại điểm cuối được chỉ định và trả về kết quả dưới dạng bản ghi JSON.
 

@@ -5,8 +5,6 @@ title: Number.Permutations
 # Number.Permutations
 
 
-## Description
-
 Trả về số lần hoán vị.
 
 
@@ -20,7 +18,7 @@ Number.Permutations(
 ```
 
 
-## Details
+## Remarks
 
 Trả về số lần hoán vị có thể tạo từ một số mục, <code>setSize</code>, với kích thước hoán vị được chỉ định là <code>permutationSize</code>.
 

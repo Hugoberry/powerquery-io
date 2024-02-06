@@ -5,8 +5,6 @@ title: Text.Middle
 # Text.Middle
 
 
-## Description
-
 Belirli bir uzunluğun alt dizesini döndürür.
 
 
@@ -21,7 +19,7 @@ Text.Middle(
 ```
 
 
-## Details
+## Remarks
 
 <code>count</code> karakter döndürür veya <code>start</code> uzaklığında <code>text</code> bitişine kadar döndürür.
 

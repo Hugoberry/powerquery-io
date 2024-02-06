@@ -5,8 +5,6 @@ title: Text.Replace
 # Text.Replace
 
 
-## Description
-
 Erstatter alle forekomster af den angivne understreng i teksten.
 
 
@@ -21,7 +19,7 @@ Text.Replace(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer resultatet af at erstatte alle forekomster af tekstværdien <code>old</code> i tekstværdien <code>text</code> med værdien <code>new</code>. Denne funktion skelner mellem store og små bogstaver.
 

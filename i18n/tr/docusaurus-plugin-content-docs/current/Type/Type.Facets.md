@@ -5,8 +5,6 @@ title: Type.Facets
 # Type.Facets
 
 
-## Description
-
 Bir türe ilişkin modelleri döndürür.
 
 
@@ -19,7 +17,7 @@ Type.Facets(
 ```
 
 
-## Details
+## Remarks
 
 <code>type</code> modellerinin bulunduğu bir kayıt döndürür.
 

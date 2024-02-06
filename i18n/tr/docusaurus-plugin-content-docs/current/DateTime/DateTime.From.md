@@ -5,8 +5,6 @@ title: DateTime.From
 # DateTime.From
 
 
-## Description
-
 Verilen değerden bir datetime oluşturur.
 
 
@@ -20,7 +18,7 @@ DateTime.From(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>value</code> değerinden bir <code>datetime</code> değeri döndürür. Ayrıca, isteğe bağlı bir <code>culture</code> sağlanabilir (ör. "tr-TR").Verilen <code>value</code> <code>null</code> ise <code>DateTime.From</code> <code>null</code> döndürür. Verilen <code>value</code> <code>datetime</code> ise <code>value</code> döndürülür. Aşağıdaki türde olan değerler bir <code>datetime</code> değerine dönüştürülebilir:      <ul>        <li><code>text</code>: Metinsel gösterimden bir <code>datetime</code> değeri. Ayrıntılar için bkz. <code>DateTime.FromText</code>.</li>        <li><code>date</code>: Tarih bileşeni olarak <code>value</code> ve saat bileşeni olarak <code>00:00:00</code> içeren bir <code>datetime</code>.</li>        <li><code>datetimezone</code>: <code>value</code> değerinin yerel <code>datetime</code> eşdeğeri.</li>        <li><code>time</code>: Tarih bileşeni olarak <code>0</code> OLE Otomasyon Tarihinin tarih eşdeğeri ve saat bileşeni olarak <code>value</code> içeren bir <code>datetime</code>.</li>        <li><code>number</code>: <code>value</code> ile ifade edilen OLE Otomasyon Tarihinin <code>datetime</code> eşdeğeri. </li>      </ul><code>value</code> başka bir türde olduğunda hata döndürülür.
 

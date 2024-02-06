@@ -5,8 +5,6 @@ title: Text.Replace
 # Text.Replace
 
 
-## Description
-
 Metninde verilen alt dizenin tüm oluşumlarını değiştirir.
 
 
@@ -21,7 +19,7 @@ Text.Replace(
 ```
 
 
-## Details
+## Remarks
 
 <code>old</code> metin değerinin <code>text</code> metin değerindeki tüm oluşumlarını <code>new</code> metin değeri ile değiştirmenin sonucunu döndürür. Bu işlev büyük/küçük harfe duyarlıdır.
 

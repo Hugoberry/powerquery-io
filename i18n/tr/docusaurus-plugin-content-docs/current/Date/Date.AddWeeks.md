@@ -5,8 +5,6 @@ title: Date.AddWeeks
 # Date.AddWeeks
 
 
-## Description
-
 Belirtilen haftaları tarihe ekler.
 
 
@@ -20,7 +18,7 @@ Date.AddWeeks(
 ```
 
 
-## Details
+## Remarks
 
 <code>numberOfWeeks</code> haftayı <code>datetime</code> değeri olan <code>dateTime</code> öğesine eklemeden <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> sonucunu döndürür.      <ul>      <li><code>dateTime</code>: Haftaların eklendiği <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      <li><code>numberOfWeeks</code>: Eklenecek hafta sayısı.</li>      </ul>
 

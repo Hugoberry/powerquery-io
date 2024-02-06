@@ -5,8 +5,6 @@ title: Type.FunctionRequiredParameters
 # Type.FunctionRequiredParameters
 
 
-## Description
-
 वह संख्‍या लौटाता है जो फ़ंक्‍शन प्रकार को इनवोक करने के लिए आवश्यक पैरामीटर की न्‍यूनतम संख्‍या दर्शाती है.
 
 
@@ -19,7 +17,7 @@ Type.FunctionRequiredParameters(
 ```
 
 
-## Details
+## Remarks
 
 वह संख्‍या लौटाता है जो फ़ंक्‍शन के इनपुट <code>type</code> को इनवोक करने के लिए आवश्‍यक पैरामीटर की न्‍यूनतम संख्‍या दर्शाती है.
 

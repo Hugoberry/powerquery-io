@@ -5,8 +5,6 @@ title: Table.MatchesAllRows
 # Table.MatchesAllRows
 
 
-## Description
-
 Angiver, om alle rækkerne i tabellen opfylder den angivne betingelse.
 
 
@@ -20,7 +18,7 @@ Table.MatchesAllRows(
 ```
 
 
-## Details
+## Remarks
 
 Angiver, om alle rækkerne i tabellen <code>table</code> svarer til den angivne <code>condition</code>. Returnerer <code>true</code>, hvis alle rækkerne matcher. Ellers returneres <code>false</code>.
 

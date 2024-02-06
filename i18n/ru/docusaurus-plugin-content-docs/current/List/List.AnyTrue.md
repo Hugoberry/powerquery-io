@@ -5,8 +5,6 @@ title: List.AnyTrue
 # List.AnyTrue
 
 
-## Description
-
 Возвращает значение true, если любое выражение истинно.
 
 
@@ -19,7 +17,7 @@ List.AnyTrue(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает значение true, если любое выражение в списке <code>list</code> истинно.
 

@@ -5,8 +5,6 @@ title: Identity.IsMemberOf
 # Identity.IsMemberOf
 
 
-## Description
-
 Bestimmt, ob eine Identität ein Mitglied einer Identitätssammlung ist.
 
 
@@ -20,7 +18,7 @@ Identity.IsMemberOf(
 ```
 
 
-## Details
+## Remarks
 
 Bestimmt, ob eine Identität ein Mitglied einer Identitätssammlung ist.
 

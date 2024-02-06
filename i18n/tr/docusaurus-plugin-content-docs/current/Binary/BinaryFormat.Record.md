@@ -5,8 +5,6 @@ title: BinaryFormat.Record
 # BinaryFormat.Record
 
 
-## Description
-
 Bir kaydı okuyan ikili biçimi döndürür.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Record(
 ```
 
 
-## Details
+## Remarks
 
 Bir kaydı okuyan ikili biçimi döndürür.  <code>record</code> parametresi, kaydın ikili biçimini belirtir.  Kayıttaki her alan farklı bir ikili biçimine sahip olabilir.  Bir alan ikili biçimi değeri olmayan bir değer içeriyorsa, bu alan için veri okunmaz ve alan değeri sonuca yansıtılır.
 

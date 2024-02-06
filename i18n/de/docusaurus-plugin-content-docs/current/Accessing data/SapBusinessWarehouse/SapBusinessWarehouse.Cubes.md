@@ -5,8 +5,6 @@ title: SapBusinessWarehouse.Cubes
 # SapBusinessWarehouse.Cubes
 
 
-## Description
-
 Gibt die InfoCubes und Abfragen in einem SAP Business Warehouse-System gruppiert nach InfoArea zurück.
 
 
@@ -23,7 +21,7 @@ SapBusinessWarehouse.Cubes(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine nach InfoArea gruppierte Tabelle mit InfoCubes und Abfragen aus einer SAP Business Warehouse-Instanz auf dem Server "<code>server</code>" mit Systemnummer <code>systemNumberOrSystemId</code> und Client-ID "<code>clientId</code>" zurück. Ein optionaler Datensatzparameter "<code>optionsOrLogonGroup</code>" kann angegeben werden, um die folgenden Optionen zu steuern:        
 

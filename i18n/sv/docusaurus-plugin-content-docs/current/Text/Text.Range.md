@@ -5,8 +5,6 @@ title: Text.Range
 # Text.Range
 
 
-## Description
-
 Returnerar delsträngen vid en förskjutning.
 
 
@@ -21,7 +19,7 @@ Text.Range(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar delsträngen från texten <code>text</code> vid förskjutningen <code>offset</code>.    En valfri parameter, <code>count</code>, kan tas med för att ange hur många tecken som ska returneras. Returnerar ett fel om det inte finns tillräckligt med tecken.
 

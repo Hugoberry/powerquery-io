@@ -5,8 +5,6 @@ title: Table.ContainsAll
 # Table.ContainsAll
 
 
-## Description
-
 Gibt an, ob alle angegebenen Datensätze als Zeilen in der Tabelle vorkommen.
 
 
@@ -21,7 +19,7 @@ Table.ContainsAll(
 ```
 
 
-## Details
+## Remarks
 
 Gibt an, ob alle angegebenen Datensätze in der Liste mit Datensätzen (<code>rows</code>) als Zeilen in "<code>table</code>" vorkommen.    Der Vergleich zwischen den Zeilen der Tabelle kann mithilfe eines optionalen Parameters (<code>equationCriteria</code>) gesteuert werden.
 

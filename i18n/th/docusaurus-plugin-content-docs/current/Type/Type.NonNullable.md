@@ -5,8 +5,6 @@ title: Type.NonNullable
 # Type.NonNullable
 
 
-## Description
-
 ส่งกลับประเภทที่ไม่สามารถเป็น NULL ได้จากประเภท
 
 
@@ -19,7 +17,7 @@ Type.NonNullable(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับประเภทที่ไม่สามารถเป็น <code>nullable</code> ได้จาก <code>type</code>
 

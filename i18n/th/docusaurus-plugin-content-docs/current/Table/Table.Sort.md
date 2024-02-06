@@ -5,8 +5,6 @@ title: Table.Sort
 # Table.Sort
 
 
-## Description
-
 เรียงลำดับตารางโดยใช้ชื่อคอลัมน์อย่างน้อยหนึ่งชื่อและเกณฑ์การเปรียบเทียบ
 
 
@@ -20,7 +18,7 @@ Table.Sort(
 ```
 
 
-## Details
+## Remarks
 
 เรียงลำดับ <code>table</code> โดยใช้รายการของชื่อคอลัมน์อย่างน้อยหนึ่งชื่อและ <code>comparisonCriteria</code> ที่เลือกได้ในฟอร์ม \{ \{ col1, comparisonCriteria }, \{col2} }
 

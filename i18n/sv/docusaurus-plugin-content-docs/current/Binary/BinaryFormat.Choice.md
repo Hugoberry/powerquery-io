@@ -5,8 +5,6 @@ title: BinaryFormat.Choice
 # BinaryFormat.Choice
 
 
-## Description
-
 Returnerar ett binärformat som väljer nästa binärformat baserat på ett värde som redan har lästs.
 
 
@@ -22,7 +20,7 @@ BinaryFormat.Choice(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett binärformat som väljer nästa binärformat baserat på ett värde som redan har lästs. Värdet i binärformat som genereras med den här funktionen används i faser:<ul><li>Binärformatet som anges av parametern <code>binaryFormat</code> används för att läsa ett värde.</li><li>Värdet skickas till den choice-funktion som anges av parametern <code>chooseFunction</code>.</li><li>Choice-funktionen inspekterar värdet och returnerar ett andra binärformat.</li><li>Det andra binärformatet används för att läsa ett andra värde.</li><li>Om combine-funktionen anges skickas det första och andra värdet till combine-funktionen och det resulterande värdet returneras.</li><li>Om combine-funktionen inte anges returneras det andra värdet.</li><li>Det andra värdet returneras.</li></ul>Den valfria parametern <code>type</code> anger typen av binärformat som returneras av choice-funktionen. <code>type any</code>, <code>type list</code> eller <code>type binary</code> kan anges. Om parametern <code>type</code> inte anges används <code>type any</code>. Om <code>type list</code> eller <code>type binary</code> används kanske systemet kan returnera ett strömmande <code>binary</code>- eller <code>list</code>-värde i stället för ett buffrat, vilket kan minska mängden minne som krävs för att läsa formatet.
 

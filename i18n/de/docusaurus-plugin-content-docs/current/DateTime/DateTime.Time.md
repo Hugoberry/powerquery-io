@@ -5,8 +5,6 @@ title: DateTime.Time
 # DateTime.Time
 
 
-## Description
-
 Gibt den Uhrzeitanteil des angegebenen datetime-Werts zurück.
 
 
@@ -19,7 +17,7 @@ DateTime.Time(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Uhrzeitanteil des angegebenen datetime-Werts (<code>dateTime</code>) zurück.
 

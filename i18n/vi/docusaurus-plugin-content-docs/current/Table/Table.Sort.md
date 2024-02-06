@@ -5,8 +5,6 @@ title: Table.Sort
 # Table.Sort
 
 
-## Description
-
 Phân loại bảng bằng cách sử dụng một hoặc nhiều tên cột và tiêu chí so sánh.
 
 
@@ -20,7 +18,7 @@ Table.Sort(
 ```
 
 
-## Details
+## Remarks
 
 Phân loại <code>table</code> bằng cách sử dụng một hoặc nhiều tên cột và <code>comparisonCriteria</code> tùy chọn trong biểu mẫu \{ \{ col1, comparisonCriteria }, \{col2} }.
 

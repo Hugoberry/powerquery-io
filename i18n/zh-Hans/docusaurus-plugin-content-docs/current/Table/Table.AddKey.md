@@ -5,8 +5,6 @@ title: Table.AddKey
 # Table.AddKey
 
 
-## Description
-
 向表添加键。
 
 
@@ -21,7 +19,7 @@ Table.AddKey(
 ```
 
 
-## Details
+## Remarks
 
 向 <code>table</code> 添加一个键，其中 <code>columns</code> 是定义该键的列名称列表，<code>isPrimary</code> 指定该键是否为主键。
 

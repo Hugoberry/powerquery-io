@@ -5,8 +5,6 @@ title: List.Product
 # List.Product
 
 
-## Description
-
 Listedeki sayıların çarpımını döndürür.
 
 
@@ -20,7 +18,7 @@ List.Product(
 ```
 
 
-## Details
+## Remarks
 
 <code>numbersList</code> listesindeki null olmayan sayıların çarpımını döndürür. Listede null olmayan değer yoksa null döndürülür.
 

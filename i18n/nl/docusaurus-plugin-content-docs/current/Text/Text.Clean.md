@@ -5,8 +5,6 @@ title: Text.Clean
 # Text.Clean
 
 
-## Description
-
 Hiermee wordt de tekstwaarde geretourneerd waaruit alle stuurcodes zijn verwijderd.
 
 
@@ -19,7 +17,7 @@ Text.Clean(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tekstwaarde geretourneerd waaruit alle stuurcodes van <code>text</code> zijn verwijderd.
 

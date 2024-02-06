@@ -18,7 +18,7 @@ WorkplaceAnalytics.Data(
 ```
 
 
-## Details
+## Remarks
 
 Workplace Analytics'ten haftalık ölçümleri ve öznitelik verilerini içeri aktarın.
 

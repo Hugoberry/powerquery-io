@@ -5,8 +5,6 @@ title: Table.ReplaceRows
 # Table.ReplaceRows
 
 
-## Description
-
 指定された範囲の行を指定された行に置き換えます。
 
 
@@ -22,7 +20,7 @@ Table.ReplaceRows(
 ```
 
 
-## Details
+## Remarks
 
 入力 <code>table</code> で、<code>offset</code> 行後から、指定された数の行 (<code>count</code> 行) を指定された <code>rows</code> に置き換えます。<code>rows</code> パラメーターは、レコードの一覧です。    <ul>       <li><code>table</code>: 置換を実行するテーブル。</li>       <li><code>offset</code>: 置換を行う前にスキップする行の数。</li>       <li><code>count</code>: 置き換える行の数。</li>       <li><code>rows</code>: <code>offset</code> で指定された位置の <code>table</code> に挿入する行レコードの一覧。</li>    </ul>
 

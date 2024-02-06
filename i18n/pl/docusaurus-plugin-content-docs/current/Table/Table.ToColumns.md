@@ -5,8 +5,6 @@ title: Table.ToColumns
 # Table.ToColumns
 
 
-## Description
-
 Tworzy listę zagnieżdżonych list wartości kolumn na podstawie tabeli.
 
 
@@ -19,7 +17,7 @@ Table.ToColumns(
 ```
 
 
-## Details
+## Remarks
 
 Tworzy listę zagnieżdżonych list na podstawie tabeli <code>table</code>.  Każdy element tej listy to lista wewnętrzna zawierająca wartości kolumny.
 

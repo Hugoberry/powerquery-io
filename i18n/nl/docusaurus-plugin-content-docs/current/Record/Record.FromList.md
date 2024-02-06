@@ -5,8 +5,6 @@ title: Record.FromList
 # Record.FromList
 
 
-## Description
-
 Retourneert een record op basis van een lijst veldwaarden en een set velden.
 
 
@@ -20,7 +18,7 @@ Record.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een record op basis van een <code>list</code> veldwaarden en een set velden.  De <code>fields</code> kan worden opgegeven als een lijst met tekstwaarden of als een recordtype.  Er wordt een fout gegenereerd als de velden niet uniek zijn.
 

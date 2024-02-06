@@ -5,8 +5,6 @@ title: Table.SingleRow
 # Table.SingleRow
 
 
-## Description
-
 Возвращает одну строку в таблице.
 
 
@@ -19,7 +17,7 @@ Table.SingleRow(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает единственную строку в одной строке <code>table</code>. Если <code>table</code> имеет более одной строки, возникает исключение.
 

@@ -5,8 +5,6 @@ title: Number.FromText
 # Number.FromText
 
 
-## Description
-
 从通用文本格式(&#34;15&#34;, &#34;3,423.10&#34;, &#34;5.0E-10&#34;)创建数。
 
 
@@ -20,7 +18,7 @@ Number.FromText(
 ```
 
 
-## Details
+## Remarks
 
 从给定的文本值 <code>text</code> 返回 <code>number</code> 值。 <ul>  <li><code>text</code>: 数值的文本表示形式。表示形式必须采用通用数字格式，例如 "15"、"3,423.10" 或 "5.0E-10"。</li>  <li><code>culture</code>: 控制 <code>text</code> 的解释方式的可选区域性(例如 "en-US")。</li> </ul>
 

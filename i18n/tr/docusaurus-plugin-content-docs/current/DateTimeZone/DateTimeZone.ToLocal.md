@@ -5,8 +5,6 @@ title: DateTimeZone.ToLocal
 # DateTimeZone.ToLocal
 
 
-## Description
-
 Saat dilimi bileşenini yerel saat dilimine dönüştürür.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToLocal(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTimeZone</code> datetimezone değerinin saat dilimi bilgilerini yerel saat dilimi bilgileri ile değiştirir.    <code>dateTimeZone</code> bir saat dilimi bileşenine sahip değilse, yerel saat dilimi bilgileri eklenir.
 

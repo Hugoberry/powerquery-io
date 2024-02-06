@@ -5,8 +5,6 @@ title: Int8.From
 # Int8.From
 
 
-## Description
-
 Erstellt einen signierten ganzzahligen 8-Bit-Wert aus dem angegebenen Wert.
 
 
@@ -21,7 +19,7 @@ Int8.From(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen signierten ganzzahligen 8-Bit-<code>number</code>-Wert aus dem angegebenen <code>value</code>-Wert zurück. Wenn der angegebene <code>value</code>-Wert <code>null</code> ist, gibt <code>Int8.From</code> <code>null</code> zurück. Wenn der angegebene <code>value</code>-Wert ein <code>number</code>-Wert aus dem signierten 8-Bit-Ganzzahlbereich ohne Bruchteil ist, wird <code>value</code> zurückgegeben. Wenn ein Bruchteil vorhanden ist, wird der Wert mit dem angegebenen Rundungsmodus gerundet. Der Standardrundungsmodus ist <code>RoundingMode.ToEven</code>. Wenn der <code>value</code>-Wert einen anderen Typ aufweist, wird er erst mit <code>Number.FromText</code> in einen <code>number</code>-Wert konvertiert. Die verfügbaren Rundungsmodi finden Sie unter <code>Number.Round</code>. Optional kann auch ein Element vom Typ „<code>culture</code>“ angegeben werden (Beispiel: „de-DE“).
 

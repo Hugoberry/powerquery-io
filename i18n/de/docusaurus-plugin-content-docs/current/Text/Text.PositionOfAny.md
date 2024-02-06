@@ -5,8 +5,6 @@ title: Text.PositionOfAny
 # Text.PositionOfAny
 
 
-## Description
-
 Gibt die erste Position aufgeführter Zeichen im Textwert zurück (oder &#34;-1&#34;, falls keine gefunden wird).
 
 
@@ -21,7 +19,7 @@ Text.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die erste Position eines beliebigen Zeichens in der Liste <code>characters</code> zurück, das sich in <code>text</code> befindet.    Ein optionaler Parameter <code>occurrence</code> kann verwendet werden, um anzugeben, welche Vorkommensposition zurückgegeben werden soll.
 

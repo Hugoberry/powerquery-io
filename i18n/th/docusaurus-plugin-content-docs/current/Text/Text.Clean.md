@@ -5,8 +5,6 @@ title: Text.Clean
 # Text.Clean
 
 
-## Description
-
 ส่งกลับค่าข้อความโดยลบอักขระควบคุมทั้งหมด
 
 
@@ -19,7 +17,7 @@ Text.Clean(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่าข้อความโดยลบอักขระควบคุมทั้งหมด <code>text</code> ตัว
 

@@ -5,8 +5,6 @@ title: Type.FunctionParameters
 # Type.FunctionParameters
 
 
-## Description
-
 Restituisce un record con valori di campo impostati sul nome dei parametri di un tipo di funzione e i relativi valori impostati sui tipi corrispondenti.
 
 
@@ -19,7 +17,7 @@ Type.FunctionParameters(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un record con valori di campo impostati sul nome dei parametri di <code>type</code> e i relativi valori impostati sui tipi corrispondenti.
 

@@ -5,8 +5,6 @@ title: Number.RandomBetween
 # Number.RandomBetween
 
 
-## Description
-
 ส่งกลับตัวเลขสุ่มระหว่างสองตัวเลข
 
 
@@ -20,7 +18,7 @@ Number.RandomBetween(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตัวเลขสุ่มระหว่าง <code>bottom</code> ถึง <code>top</code>
 

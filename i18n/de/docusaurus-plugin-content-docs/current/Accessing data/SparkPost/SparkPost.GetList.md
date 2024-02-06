@@ -15,7 +15,7 @@ SparkPost.GetList(
 ```
 
 
-## Details
+## Remarks
 
 Mithilfe dieser Funktion kann ein beliebiger der Endpunkte "Lists" aufgerufen werden, die von der SparkPost-API, Version 1, angeboten werden. Wenn Sie die SparkPost-API über diese Funktion aufrufen, denken Sie daran, dass für die SparkPost-API ein striktes API-Ratenlimit vorliegt. Wenn Ihnen vom SparkPost-Server ein Statuscode 429 zurückgegeben wird, haben Sie das Ratenlimit erreicht und müssen einige Minuten warten, bevor weitere Aufrufe möglich sind.
 

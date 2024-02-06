@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.Contents
 # Dynamics365BusinessCentral.Contents
 
 
-## Description
-
 Indtast din Dynamics 365 Business Central-miljø og -virksomhed.
 
 
@@ -19,7 +17,7 @@ Dynamics365BusinessCentral.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel med relevante data fra Dynamics 365 Business Central.
 

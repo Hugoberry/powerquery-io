@@ -5,8 +5,6 @@ title: Text.At
 # Text.At
 
 
-## Description
-
 Devolve o caráter existente na posição especificada.
 
 
@@ -20,7 +18,7 @@ Text.At(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o caráter existente na no valor de texto, <code>text</code>, na posição <code>index</code>. O primeiro caráter no texto encontra-se na posição 0.
 

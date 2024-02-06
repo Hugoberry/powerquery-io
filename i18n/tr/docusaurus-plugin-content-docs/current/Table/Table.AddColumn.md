@@ -5,8 +5,6 @@ title: Table.AddColumn
 # Table.AddColumn
 
 
-## Description
-
 Belirtilen ada sahip bir sütun ekler. Değer, her satır girdi olarak alınarak belirtilen seçim işlevi kullanılarak hesaplanır.
 
 
@@ -22,7 +20,7 @@ Table.AddColumn(
 ```
 
 
-## Details
+## Remarks
 
 <code>newColumnName</code> adlı bir sütunu <code>table</code> tablosuna ekler. Sütun değerleri, her satır girdi olarak alınarak belirtilen <code>columnGenerator</code> seçim işlevi kullanılarak hesaplanır.
 

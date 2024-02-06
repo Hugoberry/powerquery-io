@@ -5,8 +5,6 @@ title: Table.FillDown
 # Table.FillDown
 
 
-## Description
-
 Propaga o valor de uma célula anterior para as células com valor nulo abaixo na coluna.
 
 
@@ -20,7 +18,7 @@ Table.FillDown(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma tabela a partir de <code>table</code> especificado em que o valor de uma célula anterior é propagado para as células com valor nulo abaixo do <code>columns</code> especificado.
 

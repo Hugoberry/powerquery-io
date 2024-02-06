@@ -5,8 +5,6 @@ title: Uri.BuildQueryString
 # Uri.BuildQueryString
 
 
-## Description
-
 Ensamble un registro en una cadena de consulta de URI.
 
 
@@ -19,7 +17,7 @@ Uri.BuildQueryString(
 ```
 
 
-## Details
+## Remarks
 
 Ensamble el registro <code>query</code> en una cadena de consulta de URI, evitando caracteres según resulte necesario.
 

@@ -5,8 +5,6 @@ title: Guid.From
 # Guid.From
 
 
-## Description
-
 Verilen değerden bir guid değeri döndürür.
 
 
@@ -19,7 +17,7 @@ Guid.From(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>value</code> değerinden bir <code>Guid.Type</code> değeri döndürür. Verilen <code>value</code> <code>null</code> olduğunda <code>Guid.From</code>, <code>null</code> değerini döndürür. Verilen <code>value</code> değerinin kabul edilebilir bir biçimde olup olmadığını saptamak için bir denetim gerçekleştirilecektir. Kabul edilebilir biçimler örneklerde verilmiştir.
 

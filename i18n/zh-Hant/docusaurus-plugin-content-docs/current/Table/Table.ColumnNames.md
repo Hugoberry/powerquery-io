@@ -5,8 +5,6 @@ title: Table.ColumnNames
 # Table.ColumnNames
 
 
-## Description
-
 將資料行名稱傳回成清單。
 
 
@@ -19,7 +17,7 @@ Table.ColumnNames(
 ```
 
 
-## Details
+## Remarks
 
 將資料表 <code>table</code> 中的資料行名稱傳回成文字清單。
 

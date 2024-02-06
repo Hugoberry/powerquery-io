@@ -5,8 +5,6 @@ title: Table.RenameColumns
 # Table.RenameColumns
 
 
-## Description
-
 Wendet Umbenennungen im Format &#34;\{old, new}&#34; an.
 
 
@@ -21,7 +19,7 @@ Table.RenameColumns(
 ```
 
 
-## Details
+## Remarks
 
 Nimmt die angegebenen Umbenennungen der Spalten in der Tabelle "<code>table</code>" vor. Ein Ersetzungsvorgang (<code>renames</code>) besteht aus einer Liste mit zwei Werten (alter und neuer Spaltenname), die in einer Liste bereitgestellt wird.    Ist die Spalte nicht vorhanden, wird eine Ausnahme ausgelöst, sofern nicht mithilfe des optionalen Parameters "<code>missingField</code>" eine Alternative angegeben wurde (beispielsweise <code>MissingField.UseNull</code> oder <code>MissingField.Ignore</code>).
 

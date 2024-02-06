@@ -5,8 +5,6 @@ title: List.Count
 # List.Count
 
 
-## Description
-
 Trả về số lượng mục trong danh sách.
 
 
@@ -19,7 +17,7 @@ List.Count(
 ```
 
 
-## Details
+## Remarks
 
 Trả về số lượng mục trong danh sách <code>list</code>.
 

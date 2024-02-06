@@ -5,8 +5,6 @@ title: Xml.Tables
 # Xml.Tables
 
 
-## Description
-
 將 XML 文件的內容傳回成壓平合併資料表的巢狀集合。
 
 
@@ -21,7 +19,7 @@ Xml.Tables(
 ```
 
 
-## Details
+## Remarks
 
 將 XML 文件的內容傳回成壓平合併資料表的巢狀集合。
 

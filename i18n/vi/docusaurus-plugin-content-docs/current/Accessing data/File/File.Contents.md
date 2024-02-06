@@ -5,8 +5,6 @@ title: File.Contents
 # File.Contents
 
 
-## Description
-
 Trả về nội dung của tệp được chỉ định ở dạng nhị phân.
 
 
@@ -20,7 +18,7 @@ File.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Trả về nội dung của tệp, <code>path</code>, dưới dạng nhị phân. Tham số <code>options</code> hiện chỉ nhằm mục đích sử dụng nội bộ.
 

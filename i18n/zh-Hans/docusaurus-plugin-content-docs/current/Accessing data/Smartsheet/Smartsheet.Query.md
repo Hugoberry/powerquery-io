@@ -5,8 +5,6 @@ title: Smartsheet.Query
 # Smartsheet.Query
 
 
-## Description
-
 从 Smartsheet API 返回 JSON 结果
 
 
@@ -21,7 +19,7 @@ Smartsheet.Query(
 ```
 
 
-## Details
+## Remarks
 
 在指定终结点调用 Smartsheet 2.0 REST API，并将结果作为 JSON 记录返回。
 

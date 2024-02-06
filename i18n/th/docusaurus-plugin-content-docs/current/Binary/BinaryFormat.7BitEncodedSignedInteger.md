@@ -5,8 +5,6 @@ title: BinaryFormat.7BitEncodedSignedInteger
 # BinaryFormat.7BitEncodedSignedInteger
 
 
-## Description
-
 รูปแบบไบนารีที่อ่านจำนวนเต็มที่มีเครื่องหมาย 64 บิตที่ถูกเข้ารหัสลับโดยใช้การเข้ารหัสลับความยาวตัวแปร 7 บิต
 
 
@@ -19,7 +17,7 @@ BinaryFormat.7BitEncodedSignedInteger(
 ```
 
 
-## Details
+## Remarks
 
 รูปแบบไบนารีที่อ่านจำนวนเต็มที่มีเครื่องหมาย 64 บิตที่ถูกเข้ารหัสลับโดยใช้การเข้ารหัสลับความยาวตัวแปร 7 บิต
 

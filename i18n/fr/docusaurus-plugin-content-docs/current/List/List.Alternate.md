@@ -5,8 +5,6 @@ title: List.Alternate
 # List.Alternate
 
 
-## Description
-
 Retourne une liste composée tous les éléments de décalage impairs dans une liste.
 
 
@@ -22,7 +20,7 @@ List.Alternate(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une liste composée tous les éléments de décalage impairs dans une liste. Prend et ignore les valeurs de la liste <code>list</code> en fonction des paramètres.    <ul>    <li><code>count</code> : spécifie le nombre de valeurs qui sont ignorées chaque fois.</li>    <li><code>repeatInterval</code> : intervalle de répétition facultatif qui indique combien de valeurs sont ajoutées entre les valeurs ignorées.</li>    <li><code>offset</code> : paramètre de décalage facultatif qui commence à ignorer les valeurs au niveau du décalage initial.</li>    </ul>
 

@@ -5,8 +5,6 @@ title: Time.Hour
 # Time.Hour
 
 
-## Description
-
 ส่งกลับส่วนประกอบของชั่วโมง
 
 
@@ -19,7 +17,7 @@ Time.Hour(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับส่วนประกอบชั่วโมงของค่า <code>time</code>, <code>datetime</code> หรือ <code>datetimezone</code> ที่กำหนดให้ ได้แก่ <code>dateTime</code>
 

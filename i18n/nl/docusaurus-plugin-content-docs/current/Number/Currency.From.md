@@ -5,8 +5,6 @@ title: Currency.From
 # Currency.From
 
 
-## Description
-
 Retourneert een valutawaarde van de opgegeven waarde.
 
 
@@ -21,7 +19,7 @@ Currency.From(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een <code>currency</code>-waarde geretourneerd vanuit de opgegeven <code>value</code>. Als de opgegeven waarde <code>value</code> <code>null</code> is, wordt door <code>Currency.From</code> de waarde <code>null</code> geretourneerd. Als de opgegeven <code>value</code> een <code>number</code> is binnen het valutabereik, wordt het fractionele deel van de <code>value</code> afgerond op vier decimalen en geretourneerd. Als <code>value</code> van een ander type is, wordt deze eerst geconverteerd naar een <code>number</code> met behulp van <code>Number.FromText</code>. Het geldige bereik voor valuta is <code>-922.337.203.685.477,5808</code> tot en met <code>922.337.203.685.477,5807</code>. Raadpleeg <code>Number.Round</code> voor de beschikbare afrondingsmodi; de standaardmodus is <code>RoundingMode.ToEven</code>. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
 

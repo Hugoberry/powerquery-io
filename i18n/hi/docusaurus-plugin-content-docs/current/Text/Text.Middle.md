@@ -5,8 +5,6 @@ title: Text.Middle
 # Text.Middle
 
 
-## Description
-
 किसी निश्चित लंबाई तक की सबस्ट्रिंग लौटाता है.
 
 
@@ -21,7 +19,7 @@ Text.Middle(
 ```
 
 
-## Details
+## Remarks
 
 <code>count</code> वर्ण, या <code>text</code> के अंत के बाद से लौटाता है; ऑफ़सेट <code>start</code> पर.
 

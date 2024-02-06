@@ -5,8 +5,6 @@ title: Web.BrowserContents
 # Web.BrowserContents
 
 
-## Description
-
 Retorna o HTML para o URL especificado, conforme exibido por um navegador da Web.
 
 
@@ -20,7 +18,7 @@ Web.BrowserContents(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o HTML para o <code>url</code> especificado, conforme exibido por um navegador da Web. Um parâmetro de registro opcional, <code>options</code>, pode ser fornecido para especificar propriedades adicionais. O registro pode conter os seguintes campos:     <ul>        <li><code>ApiKeyName</code>: se o site de destino tiver uma noção de uma chave de API, esse parâmetro poderá ser usado para especificar o nome (não o valor) do parâmetro da chave que deverá ser usada na URL. O valor real da chave é fornecido na credencial.</li>        <li><code>WaitFor</code>: especifica uma condição para aguardar antes de baixar o HTML, além de aguardar o carregamento da página (o que sempre é feito). Pode ser um registro contendo os campos de Tempo Limite e/ou Seletor. Se apenas um Tempo Limite for especificado, a função aguardará a quantidade de tempo especificada antes de baixar o HTML. Se um Seletor e um Tempo Limite forem especificados e o Tempo Limite decorrer antes que um Seletor exista na página, um erro será gerado. Se um Seletor for especificado sem Tempo Limite, um Tempo Limite padrão de 30 segundos será aplicado.</li>      </ul>    
 

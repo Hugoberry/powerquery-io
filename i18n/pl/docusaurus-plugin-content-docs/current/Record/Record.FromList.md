@@ -5,8 +5,6 @@ title: Record.FromList
 # Record.FromList
 
 
-## Description
-
 Zwraca rekord, używając listy wartości pól oraz zestawu pól.
 
 
@@ -20,7 +18,7 @@ Record.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca rekord, używając listy wartości pól <code>list</code> oraz zestawu pól.  Wartością parametru <code>fields</code> może być lista wartości tekstowych lub wartość typu record.  Jeśli pola nie są unikatowe, jest zgłaszany błąd.
 

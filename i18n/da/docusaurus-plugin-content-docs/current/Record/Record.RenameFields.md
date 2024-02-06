@@ -5,8 +5,6 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-## Description
-
 Anvender nye navne fra en liste i formatet \{ old, new }.
 
 
@@ -21,7 +19,7 @@ Record.RenameFields(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en post efter at have omdøbt felter i inputtet <code>record</code> til de nye feltnavne, der er angivet på listen <code>renames</code>. Hvis flere felter skal omdøbes, kan der bruges en indlejret liste (\{ \{old1, new1}, \{old2, new2} }.
 

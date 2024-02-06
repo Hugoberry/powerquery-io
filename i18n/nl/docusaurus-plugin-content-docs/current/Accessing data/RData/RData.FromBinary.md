@@ -5,8 +5,6 @@ title: RData.FromBinary
 # RData.FromBinary
 
 
-## Description
-
 Hiermee wordt een record met gegevensframes uit het RData-bestand geretourneerd.
 
 
@@ -19,7 +17,7 @@ RData.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een record met gegevensframes uit het RData-bestand geretourneerd.
 

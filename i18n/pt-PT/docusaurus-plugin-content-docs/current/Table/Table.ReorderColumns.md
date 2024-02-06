@@ -5,8 +5,6 @@ title: Table.ReorderColumns
 # Table.ReorderColumns
 
 
-## Description
-
 Devolve uma tabela com as colunas pela ordem especificada.
 
 
@@ -21,7 +19,7 @@ Table.ReorderColumns(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma tabela a partir da entrada <code>table</code>, com as colunas pela ordem especificada por <code>columnOrder</code>. As colunas que não forem especificadas na lista não serão reordenadas.     Se a coluna não existir, é emitida uma exceção a menos que o parâmetro opcional <code>missingField</code> especifique uma alternativa (por ex.: <code>MissingField.UseNull</code> ou <code>MissingField.Ignore</code>).
 

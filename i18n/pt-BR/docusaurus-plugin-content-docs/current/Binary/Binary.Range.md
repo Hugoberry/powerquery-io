@@ -5,8 +5,6 @@ title: Binary.Range
 # Binary.Range
 
 
-## Description
-
 Retorna um subconjunto do valor binário começando em um deslocamento.
 
 
@@ -21,7 +19,7 @@ Binary.Range(
 ```
 
 
-## Details
+## Remarks
 
 Retorna um subconjunto do valor binário começando no deslocamento <code>binary</code>. Um parâmetro opcional, <code>offset</code>, define o comprimento máximo do subconjunto.
 

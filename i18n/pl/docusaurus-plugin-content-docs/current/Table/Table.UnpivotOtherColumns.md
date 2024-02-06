@@ -5,8 +5,6 @@ title: Table.UnpivotOtherColumns
 # Table.UnpivotOtherColumns
 
 
-## Description
-
 Wykonuje translację wszystkich kolumn, oprócz określonego zestawu kolumn, na pary atrybut-wartość.
 
 
@@ -22,7 +20,7 @@ Table.UnpivotOtherColumns(
 ```
 
 
-## Details
+## Remarks
 
 Wykonuje translację wszystkich kolumn, oprócz określonego zestawu kolumn, na pary atrybut-wartość połączone z resztą wartości w każdym wierszu.
 

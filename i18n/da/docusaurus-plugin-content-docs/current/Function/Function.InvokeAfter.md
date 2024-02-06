@@ -5,8 +5,6 @@ title: Function.InvokeAfter
 # Function.InvokeAfter
 
 
-## Description
-
 Starter den givne funktion, når den angivne varighed overskrides.
 
 
@@ -20,7 +18,7 @@ Function.InvokeAfter(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer resultatet af start af <code>function</code>, når varigheden <code>delay</code> overskrides.
 

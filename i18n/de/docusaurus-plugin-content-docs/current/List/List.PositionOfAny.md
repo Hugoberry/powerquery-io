@@ -5,8 +5,6 @@ title: List.PositionOfAny
 # List.PositionOfAny
 
 
-## Description
-
 Gibt den ersten Offset eines Werts in einer Liste zurück.
 
 
@@ -22,7 +20,7 @@ List.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Offset in der Liste "<code>list</code>" für das erste Vorkommen eines Werts in einer Liste (<code>values</code>) zurück. Wird kein Vorkommen gefunden, wird "-1" zurückgegeben.    Ein optionaler occurrence-Parameter (<code>occurrence</code>) kann angegeben werden.<ul>   <li><code>occurrence</code>: Die maximale Anzahl von Vorkommen, die zurückgegeben werden können.</li></ul>
 

@@ -5,8 +5,6 @@ title: Date.AddQuarters
 # Date.AddQuarters
 
 
-## Description
-
 Aggiunge i trimestri specificati alla data.
 
 
@@ -20,7 +18,7 @@ Date.AddQuarters(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce l'elemento <code>date</code>, <code>datetime</code> o <code>datetimezone</code> risultante dall'aggiunta di <code>numberOfQuarters</code> trimestri al valore <code>dateTime</code> di <code>datetime</code>.      <ul>      <li><code>dateTime</code>: il valore <code>date</code>, <code>datetime</code> o <code>datetimezone</code> a cui vengono aggiunti i trimestri.</li>      <li><code>numberOfQuarters</code>: il numero di trimestri da aggiungere.</li>      </ul>
 

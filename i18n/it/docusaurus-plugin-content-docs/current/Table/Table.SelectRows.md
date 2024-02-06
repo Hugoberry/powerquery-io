@@ -5,8 +5,6 @@ title: Table.SelectRows
 # Table.SelectRows
 
 
-## Description
-
 Seleziona le righe che soddisfano la funzione di condizione.
 
 
@@ -20,7 +18,7 @@ Table.SelectRows(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una tabella di righe da <code>table</code> corrispondente alla selezione <code>condition</code>.
 

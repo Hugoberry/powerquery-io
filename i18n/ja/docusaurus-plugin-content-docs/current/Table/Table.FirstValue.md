@@ -5,8 +5,6 @@ title: Table.FirstValue
 # Table.FirstValue
 
 
-## Description
-
 テーブルの先頭行の先頭列、または指定された既定値を返します。
 
 
@@ -20,7 +18,7 @@ Table.FirstValue(
 ```
 
 
-## Details
+## Remarks
 
 テーブル <code>table</code> の先頭行の先頭列、または指定された既定値を返します。
 

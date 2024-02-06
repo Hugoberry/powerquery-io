@@ -5,8 +5,6 @@ title: Time.From
 # Time.From
 
 
-## Description
-
 Crea un&#39;ora dal valore specificato.
 
 
@@ -20,7 +18,7 @@ Time.From(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un valore <code>time</code> dall'elemento <code>value</code> specificato. È anche possibile specificare un valore <code>culture</code> facoltativo, ad esempio "it-IT".Se l'elemento specificato <code>value</code> è <code>null</code>, <code>Time.From</code> restituisce <code>null</code>. Se l'elemento specificato <code>value</code> è <code>time</code>, viene restituito <code>value</code>. I valori dei tipi seguenti possono essere convertiti in un valore <code>time</code>:      <ul>        <li><code>text</code>: valore <code>time</code> dalla rappresentazione testuale. Per informazioni, vedere <code>Time.FromText</code>.</li>        <li><code>datetime</code>: componente ora di <code>value</code>.</li>        <li><code>datetimezone</code>: componente ora dell'equivalente datetime locale di <code>value</code>.</li>        <li><code>number</code>: elemento <code>time</code> equivalente al numero di giorni frazionari espressi da <code>value</code>. Se <code>value</code> è negativo o maggiore o uguale a 1, viene restituito un errore.</li>      </ul>Se <code>value</code> è di altro tipo, viene restituito un errore.
 

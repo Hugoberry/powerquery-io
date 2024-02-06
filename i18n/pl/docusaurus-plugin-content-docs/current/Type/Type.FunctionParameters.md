@@ -5,8 +5,6 @@ title: Type.FunctionParameters
 # Type.FunctionParameters
 
 
-## Description
-
 Zwraca rekord z wartościami pól ustawionymi jako nazwy parametrów typu funkcji i wartościami ustawionymi jako odpowiednie typy.
 
 
@@ -19,7 +17,7 @@ Type.FunctionParameters(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca rekord z wartościami pól ustawionymi jako nazwy parametrów funkcji <code>type</code> i wartościami ustawionymi jako odpowiednie typy.
 

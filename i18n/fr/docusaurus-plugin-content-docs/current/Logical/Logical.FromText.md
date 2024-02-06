@@ -5,8 +5,6 @@ title: Logical.FromText
 # Logical.FromText
 
 
-## Description
-
 Crée une valeur logique à partir des valeurs de texte &#34; true &#34; et &#34; false &#34;.
 
 
@@ -19,7 +17,7 @@ Logical.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Crée une valeur logique à partir de la valeur de texte <code>text</code>, soit " true ", soit " false ". Si <code>text</code> contient une chaîne différente, une exception est levée. La valeur de texte <code>text</code> respecte la casse.
 

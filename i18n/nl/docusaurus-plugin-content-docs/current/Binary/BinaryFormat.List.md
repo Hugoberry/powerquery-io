@@ -5,8 +5,6 @@ title: BinaryFormat.List
 # BinaryFormat.List
 
 
-## Description
-
 Retourneert een binaire indeling die een reeks items leest en een lijst retourneert.
 
 
@@ -20,7 +18,7 @@ BinaryFormat.List(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een binaire indeling die een reeks items leest en een <code>list</code> retourneert.  De parameter <code>binaryFormat</code> specificeert de binaire indeling van elk item.  Er zijn drie manieren voor het vaststellen van het aantal items dat wordt gelezen: <ul><li>Als de <code>countOrCondition</code> niet is opgegeven, leest de binaire indeling tot er geen items meer zijn.</li><li>Als de <code>countOrCondition</code> een getal is, leest de binaire indeling dat aantal items.</li><li>Als de <code>countOrCondition</code> een functie is, dan wordt die functie aangeroepen voor elk item dat wordt gelezen.  De functie retourneert de waarde 'true' op om door te gaan en 'false' om met het lezen van items te stoppen.  Het laatste item staat in de lijst.</li><li>Als de <code>countOrCondition</code> een binaire indeling is, dan wordt verwacht dat het aantal items aan de lijst voorafgaat en dat de opgegeven indeling wordt gebruikt om dit aantal te lezen.</li></ul>
 

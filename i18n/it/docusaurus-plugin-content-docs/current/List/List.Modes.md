@@ -5,8 +5,6 @@ title: List.Modes
 # List.Modes
 
 
-## Description
-
 Restituisce un elenco con i valori più frequenti dell&#39;elenco.
 
 
@@ -20,7 +18,7 @@ List.Modes(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce l'elemento più frequente dell'elenco <code>list</code>. Se l'elenco è vuoto viene generata un'eccezione. Se più elementi hanno la stessa frequenza massima, viene scelto l'ultimo elemento.    È possibile specificare un valore <code>comparisonCriteria</code> facoltativo <code>equationCriteria</code> per verificare il test di uguaglianza. 
 

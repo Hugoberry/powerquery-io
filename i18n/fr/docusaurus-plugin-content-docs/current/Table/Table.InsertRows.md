@@ -5,8 +5,6 @@ title: Table.InsertRows
 # Table.InsertRows
 
 
-## Description
-
 Insère une liste de lignes dans la table à la position spécifiée.
 
 
@@ -21,7 +19,7 @@ Table.InsertRows(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une table avec la liste des lignes <code>rows</code> insérées dans <code>table</code> à la position spécifiée <code>offset</code>. Chaque colonne dans la ligne à insérer doit correspondre aux types des colonnes de la table.
 

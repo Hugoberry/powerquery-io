@@ -5,8 +5,6 @@ title: Table.ColumnsOfType
 # Table.ColumnsOfType
 
 
-## Description
-
 Retourneert een lijst met namen van de kolommen die overeenkomen met de opgegeven typen.
 
 
@@ -20,7 +18,7 @@ Table.ColumnsOfType(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een lijst met namen van de kolommen uit tabel <code>table</code> die overeenkomen met de opgegeven typen in <code>listOfTypes</code>.
 

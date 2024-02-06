@@ -5,8 +5,6 @@ title: Table.TransformColumns
 # Table.TransformColumns
 
 
-## Description
-
 Transformerer værdierne i en eller flere kolonner.
 
 
@@ -22,7 +20,7 @@ Table.TransformColumns(
 ```
 
 
-## Details
+## Remarks
 
 Transformerer <code>table</code> ved at anvende hver kolonnehandling, der er angivet i <code>transformOperations</code> (hvor formatet er \{ column name, transformation } eller \{ column name, transformation, new column type }).    Hvis der er angivet en <code>defaultTransformation</code>, anvendes den på alle kolonner, der ikke er angivet i <code>transformOperations</code>.    Hvis en kolonne, der er angivet i <code>transformOperations</code>, ikke findes, udløses der en undtagelse, medmindre den valgfri parameter <code>missingField</code> angiver et alternativ (f.eks. <code>MissingField.UseNull</code> eller <code>MissingField.Ignore</code>).
 

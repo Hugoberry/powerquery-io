@@ -5,8 +5,6 @@ title: List.Union
 # List.Union
 
 
-## Description
-
 Retourne l&#39;union des valeurs de liste trouvées dans l&#39;entrée.
 
 
@@ -20,7 +18,7 @@ List.Union(
 ```
 
 
-## Details
+## Remarks
 
 Prend une liste de listes <code>lists</code>, unit les éléments en listes individuelles et les retourne dans la liste de sortie. Par conséquent, la liste retournée contient tous les éléments de toutes les listes d'entrée.    Cette opération utilise la sémantique multiensemble, ainsi les doublons sont mis en correspondance dans le cadre de l'union.    La valeur du critère d'équation facultatif, <code>equationCriteria</code>, peut être spécifiée pour contrôler le test d'égalité. 
 

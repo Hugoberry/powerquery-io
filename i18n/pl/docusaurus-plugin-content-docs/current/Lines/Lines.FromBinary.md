@@ -5,8 +5,6 @@ title: Lines.FromBinary
 # Lines.FromBinary
 
 
-## Description
-
 Konwertuje wartość binarną na listę wartości tekstowych rozdzielonych podziałami wiersza. Jeśli zostanie określony styl cudzysłowów, podziały wiersza mogą być widoczne w cudzysłowach. Jeśli parametr includeLineSeparators ma wartość true, znaki podziału wiersza zostaną uwzględnione w tekście.
 
 
@@ -22,7 +20,7 @@ Lines.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 Konwertuje wartość binarną na listę wartości tekstowych rozdzielonych podziałami wiersza. Jeśli zostanie określony styl cudzysłowów, podziały wiersza mogą być widoczne w cudzysłowach. Jeśli parametr includeLineSeparators ma wartość true, znaki podziału wiersza zostaną uwzględnione w tekście.
 

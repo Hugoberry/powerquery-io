@@ -5,8 +5,6 @@ title: Text.ToBinary
 # Text.ToBinary
 
 
-## Description
-
 Metnin kodunu ikili biçimi olarak çözer.
 
 
@@ -21,7 +19,7 @@ Text.ToBinary(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>text</code> metin değerinin kodunu belirtilen <code>encoding</code> öğesini kullanarak ikili değer olarak çözer.
 

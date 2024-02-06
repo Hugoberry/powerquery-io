@@ -5,8 +5,6 @@ title: Error.Record
 # Error.Record
 
 
-## Description
-
 Retourneert een foutrecord van de opgegeven tekstwaarden voor reden, bericht en details.
 
 
@@ -22,7 +20,7 @@ Error.Record(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een foutrecord van de opgegeven tekstwaarden voor reden, bericht en details.
 

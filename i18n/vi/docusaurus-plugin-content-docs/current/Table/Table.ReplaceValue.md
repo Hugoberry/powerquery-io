@@ -5,8 +5,6 @@ title: Table.ReplaceValue
 # Table.ReplaceValue
 
 
-## Description
-
 Thay thế một giá trị bằng một giá trị khác trong các cột được chỉ định.
 
 
@@ -23,7 +21,7 @@ Table.ReplaceValue(
 ```
 
 
-## Details
+## Remarks
 
 Thay thế <code>oldValue</code> bằng <code>newValue</code> các cột được chỉ định của <code>table</code>.
 

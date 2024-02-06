@@ -5,8 +5,6 @@ title: Text.PadEnd
 # Text.PadEnd
 
 
-## Description
-
 Devolve texto com um comprimento especificado, preenchendo o final do texto especificado.
 
 
@@ -21,7 +19,7 @@ Text.PadEnd(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um valor <code>text</code> preenchido até ao comprimento <code>count</code> através da inserção de espaço no final do valor de texto <code>text</code>.    É possível utilizar um caráter opcional <code>character</code> para especificar o caráter utilizado para preenchimento. O caráter de preenchimento predefinido é um espaço.
 

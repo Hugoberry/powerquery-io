@@ -5,8 +5,6 @@ title: Int8.From
 # Int8.From
 
 
-## Description
-
 Verilen değerden işaretli 8 bit tam sayı oluşturur.
 
 
@@ -21,7 +19,7 @@ Int8.From(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>value</code> değerinden 8 bitlik bir işaretli tamsayı <code>number</code> değeri döndürür. Verilen <code>value</code> değeri <code>null</code> olduğunda, <code>Int8.From</code> <code>null</code> döndürür. Verilen <code>value</code> değeri kesirli kısmı olmayan 8 bitlik işaretli tamsayı aralığında bir <code>number</code> olduğunda <code>value</code> döndürülür. Kesirli kısmı varsa, sayı belirtilen yuvarlama moduyla yuvarlanır. Varsayılan yuvarlama modu <code>RoundingMode.ToEven</code> modudur. <code>value</code> başka herhangi bir türde olduğunda, önce <code>Number.FromText</code> kullanılarak <code>number</code> türüne dönüştürülür. Kullanılabilir yuvarlama modları için bkz. <code>Number.Round</code>. Ayrıca isteğe bağlı <code>culture</code> sağlanabilir (örneğin, "tr-TR").
 

@@ -5,8 +5,6 @@ title: Text.Upper
 # Text.Upper
 
 
-## Description
-
 Converte todos os caracteres em maiúsculas.
 
 
@@ -20,7 +18,7 @@ Text.Upper(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o resultado da conversão de todos os caracteres em <code>text</code> em maiúsculas. Um <code>culture</code> opcional também pode ser fornecido (por exemplo, "en-US").
 

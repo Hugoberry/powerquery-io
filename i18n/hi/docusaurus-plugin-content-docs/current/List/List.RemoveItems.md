@@ -5,8 +5,6 @@ title: List.RemoveItems
 # List.RemoveItems
 
 
-## Description
-
 सूची में मौजूद आइटमों को list1 से निकालता है.
 
 
@@ -20,7 +18,7 @@ List.RemoveItems(
 ```
 
 
-## Details
+## Remarks
 
 <code>list2</code> में दिए गए मानों की सभी आवृत्तियों को <code>list1</code> से निकालता है. अगर <code>list2</code> के मान <code>list1</code> में मौजूद नहीं हैं, तो मूल सूची को लौटाया जाता है.
 

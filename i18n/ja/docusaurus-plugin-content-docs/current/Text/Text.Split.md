@@ -5,8 +5,6 @@ title: Text.Split
 # Text.Split
 
 
-## Description
-
 指定された区切り記号に基づいてテキストを一連のテキスト値に分割します。
 
 
@@ -20,7 +18,7 @@ Text.Split(
 ```
 
 
-## Details
+## Remarks
 
 指定された区切り記号 <code>separator</code> に基づいてテキスト値 <code>text</code> を分割した結果のテキスト値の一覧を返します。
 

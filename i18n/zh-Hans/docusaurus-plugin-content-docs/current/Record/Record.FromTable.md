@@ -5,8 +5,6 @@ title: Record.FromTable
 # Record.FromTable
 
 
-## Description
-
 从 \{[Name = name, Value = value]} 格式的表创建记录。
 
 
@@ -19,7 +17,7 @@ Record.FromTable(
 ```
 
 
-## Details
+## Remarks
 
 从包含字段名称和值名称 <code>\{[Name = name, Value = value]}</code> 的记录 <code>table</code> 的表返回记录。如果字段名称不是唯一的，将引发异常。
 

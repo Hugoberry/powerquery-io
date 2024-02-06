@@ -5,8 +5,6 @@ title: DateTimeZone.ToRecord
 # DateTimeZone.ToRecord
 
 
-## Description
-
 Retourneert een record die onderdelen van de datum-/tijdzonewaarde bevat.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een record geretourneerd met de onderdelen van de opgegeven datetimezone-waarde, <code>dateTimeZone</code>. <ul> <li><code>dateTimeZone</code>: een <code>datetimezone</code>-waarde op basis waarvan de record of de onderdelen daarvan moeten worden berekend.</li> </ul>
 

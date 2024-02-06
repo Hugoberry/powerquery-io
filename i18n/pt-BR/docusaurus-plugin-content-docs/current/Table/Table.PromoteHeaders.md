@@ -5,8 +5,6 @@ title: Table.PromoteHeaders
 # Table.PromoteHeaders
 
 
-## Description
-
 Promove a primeira linha de valores como novos cabeçalhos de coluna (por exemplo, nomes de coluna).
 
 
@@ -20,7 +18,7 @@ Table.PromoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Promove a primeira linha de valores como novos cabeçalhos de coluna (por exemplo, nomes de coluna). Por padrão, somente valores de texto ou número são promovidos a cabeçalhos. Opções válidas:    <div>      <code>PromoteAllScalars</code>: se definido como <code>true</code>, todos os valores escalares da primeira linha são promovidos a cabeçalhos usando o <code>Culture</code>, se especificado (ou localidade do documento atual).    Para valores que não podem ser convertidos em texto, um nome de coluna padrão será usado.    </div>    <div>    <code>Culture</code>: um nome de cultura especificando a cultura para os dados.    </div>  
 

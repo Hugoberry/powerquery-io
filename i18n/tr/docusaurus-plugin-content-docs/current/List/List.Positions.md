@@ -5,8 +5,6 @@ title: List.Positions
 # List.Positions
 
 
-## Description
-
 Girdi için uzaklık listesi döndürür.
 
 
@@ -19,7 +17,7 @@ List.Positions(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> girdi listesi için uzaklık listesi döndürür.    Bir listeyi değiştirmek için List.Transform kullanılırken, konuma dönüştürme erişimi vermek üzere konum listesi kullanılabilir.
 

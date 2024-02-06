@@ -5,8 +5,6 @@ title: List.Combine
 # List.Combine
 
 
-## Description
-
 ส่งกลับรายการเดียวโดยรวมหลายรายการ
 
 
@@ -19,7 +17,7 @@ List.Combine(
 ```
 
 
-## Details
+## Remarks
 
 ใช้รายการของรายการ <code>lists</code> และรวมเป็นหนึ่งรายการใหม่
 

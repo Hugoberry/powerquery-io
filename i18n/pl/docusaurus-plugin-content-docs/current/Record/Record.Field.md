@@ -5,8 +5,6 @@ title: Record.Field
 # Record.Field
 
 
-## Description
-
 Zwraca wartość określonego pola w rekordzie.
 
 
@@ -20,7 +18,7 @@ Record.Field(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wartość określonego pola <code>field</code> w rekordzie <code>record</code>. Jeśli nie można odnaleźć pola, zwracany jest wyjątek.
 

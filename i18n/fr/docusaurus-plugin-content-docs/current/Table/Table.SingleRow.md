@@ -5,8 +5,6 @@ title: Table.SingleRow
 # Table.SingleRow
 
 
-## Description
-
 Retourne une seule ligne dans la table.
 
 
@@ -19,7 +17,7 @@ Table.SingleRow(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une seule ligne dans le <code>table</code> avec une ligne unique. Si <code>table</code> a plus d'une ligne, une exception est levée.
 

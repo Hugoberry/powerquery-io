@@ -17,7 +17,7 @@ DatabricksMultiCloud.Query(
 ```
 
 
-## Details
+## Remarks
 
 Definire un'origine dati Databricks per l'esecuzione di query SQL
 

@@ -5,8 +5,6 @@ title: Type.NonNullable
 # Type.NonNullable
 
 
-## Description
-
 從類型傳回非可為 Null 類型。
 
 
@@ -19,7 +17,7 @@ Type.NonNullable(
 ```
 
 
-## Details
+## Remarks
 
 從 <code>type</code> 傳回非 <code>nullable</code> 類型。
 

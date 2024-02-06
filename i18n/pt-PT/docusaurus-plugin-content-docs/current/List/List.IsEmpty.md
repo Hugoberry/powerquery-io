@@ -5,8 +5,6 @@ title: List.IsEmpty
 # List.IsEmpty
 
 
-## Description
-
 Devolve true se a lista estiver vazia.
 
 
@@ -19,7 +17,7 @@ List.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 Devolve <code>true</code> se a lista, <code>list</code>, não contiver valores (comprimento 0). Se a lista contiver valores (comprimento > 0), devolve <code>false</code>.
 

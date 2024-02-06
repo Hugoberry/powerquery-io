@@ -5,8 +5,6 @@ title: MailChimp.Instance
 # MailChimp.Instance
 
 
-## Description
-
 Devuelve resultados de respuesta sin formato desde un punto de conexión de la API de MailChimp.
 
 
@@ -19,7 +17,7 @@ MailChimp.Instance(
 ```
 
 
-## Details
+## Remarks
 
 Realiza una llamada a la API de MailChimp y devuelve la respuesta sin formato.
 

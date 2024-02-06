@@ -5,8 +5,6 @@ title: Tables.GetRelationships
 # Tables.GetRelationships
 
 
-## Description
-
 De relaties tussen een set met tabellen ophalen.
 
 
@@ -20,7 +18,7 @@ Tables.GetRelationships(
 ```
 
 
-## Details
+## Remarks
 
 De relaties tussen een set met tabellen ophalen. Er wordt aangenomen dat de set <code>tables</code> een structuur heeft die vergelijkbaar is met die van een navigatietabel. De kolom die wordt gedefinieerd door <code>dataColumn</code>, bevat de werkelijke gegevenstabellen.
 

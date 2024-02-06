@@ -5,8 +5,6 @@ title: Table.AggregateTableColumn
 # Table.AggregateTableColumn
 
 
-## Description
-
 テーブル列を親テーブルの複数の列に集計します。
 
 
@@ -21,7 +19,7 @@ Table.AggregateTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code>[<code>column</code>] 内のテーブルをテーブルの集計値を含む複数の列に集計します。<code>aggregations</code> を使用して、集計するテーブルを含む列、値を生成するためにテーブルに適用する集計関数、および作成する集計列の名前を指定します。
 

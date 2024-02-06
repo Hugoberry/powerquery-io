@@ -5,8 +5,6 @@ title: Function.Invoke
 # Function.Invoke
 
 
-## Description
-
 दिया गया फ़ंक्शन इनवोक करें
 
 
@@ -20,7 +18,7 @@ Function.Invoke(
 ```
 
 
-## Details
+## Remarks
 
 तर्कों की निर्दिष्ट सूची का उपयोग करके दिए गए फ़ंक्शन इनवोक करता है और परिणाम लौटाता है.
 

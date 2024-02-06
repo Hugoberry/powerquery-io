@@ -5,8 +5,6 @@ title: Type.RecordFields
 # Type.RecordFields
 
 
-## Description
-
 レコード型のフィールドを表すレコードを返します。返されるレコード型の各フィールドには、対応する名前と値が含まれます。
 
 
@@ -19,7 +17,7 @@ Type.RecordFields(
 ```
 
 
-## Details
+## Remarks
 
 レコード <code>type</code> のフィールドを表すレコードを返します。返されるレコード型の各フィールドには、対応する名前と値が <code>[ Type = type, Optional = logical ]</code> というレコードの形で含まれます。
 

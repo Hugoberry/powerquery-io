@@ -5,8 +5,6 @@ title: Identity.IsMemberOf
 # Identity.IsMemberOf
 
 
-## Description
-
 Определяет, входит ли удостоверение в коллекцию удостоверений.
 
 
@@ -20,7 +18,7 @@ Identity.IsMemberOf(
 ```
 
 
-## Details
+## Remarks
 
 Определяет, входит ли удостоверение в коллекцию удостоверений.
 

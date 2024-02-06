@@ -5,8 +5,6 @@ title: Combiner.CombineTextByRanges
 # Combiner.CombineTextByRanges
 
 
-## Description
-
 傳回函式，其會使用指定的位置和長度結合文字清單。
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 傳回函式，其會使用指定的位置和長度傳回結合文字值清單為單一文字值。Null 長度表示應包含整個文字值。
 

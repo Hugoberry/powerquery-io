@@ -5,8 +5,6 @@ title: Table.ColumnsOfType
 # Table.ColumnsOfType
 
 
-## Description
-
 指定の型と一致する列の名前リストを返します。
 
 
@@ -20,7 +18,7 @@ Table.ColumnsOfType(
 ```
 
 
-## Details
+## Remarks
 
 <code>listOfTypes</code> で指定された型と一致する列の名前をテーブル <code>table</code> から取得してリストとして返します。
 

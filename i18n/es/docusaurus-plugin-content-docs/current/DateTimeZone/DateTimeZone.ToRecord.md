@@ -5,8 +5,6 @@ title: DateTimeZone.ToRecord
 # DateTimeZone.ToRecord
 
 
-## Description
-
 Devuelve un registro que contiene los elementos del valor de datetimezone.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un registro que contiene los elementos del valor datetimezone especificado, <code>dateTimeZone</code>. <ul>        <li><code>dateTimeZone</code>: un valor <code>datetimezone</code> a partir del cual se calculará el registro de sus partes.</li>      </ul>
 

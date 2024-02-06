@@ -5,8 +5,6 @@ title: Type.TableRow
 # Type.TableRow
 
 
-## Description
-
 Restituisce il tipo di riga del tipo di tabella.
 
 
@@ -19,7 +17,7 @@ Type.TableRow(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il tipo di riga del tipo di tabella specificato. Il risultato sarà sempre un tipo di record.
 

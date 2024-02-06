@@ -5,8 +5,6 @@ title: Impala.Database
 # Impala.Database
 
 
-## Description
-
 從 Impala 叢集匯入資料
 
 
@@ -20,7 +18,7 @@ Impala.Database(
 ```
 
 
-## Details
+## Remarks
 
 從 Impala 叢集 <code>server</code> 匯入資料。若未指定連接埠，將使用預設連接埠 21050。
 

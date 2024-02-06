@@ -5,8 +5,6 @@ title: Table.Unpivot
 # Table.Unpivot
 
 
-## Description
-
 Zet een set kolommen in een tabel om in paren kenmerk-waarde.
 
 
@@ -22,7 +20,7 @@ Table.Unpivot(
 ```
 
 
-## Details
+## Remarks
 
 Zet een set kolommen in een tabel om in paren kenmerk-waarde, gecombineerd met de rest van de waarden in elke rij.
 

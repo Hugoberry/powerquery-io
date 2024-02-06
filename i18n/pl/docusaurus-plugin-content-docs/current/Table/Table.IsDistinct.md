@@ -5,8 +5,6 @@ title: Table.IsDistinct
 # Table.IsDistinct
 
 
-## Description
-
 Wskazuje, czy tabela zawiera tylko unikatowe wiersze (bez duplikatów).
 
 
@@ -20,7 +18,7 @@ Table.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 Wskazuje, czy tabela <code>table</code> zawiera tylko unikatowe wiersze (bez duplikatów). Zwraca wartość <code>true</code>, jeśli wiersze są unikatowe; w przeciwnym razie zwraca wartość <code>false</code>.    Opcjonalny parametr <code>comparisonCriteria</code> określa, które kolumny tabeli są sprawdzane pod kątem duplikatów. Jeśli nie określono parametru <code>comparisonCriteria</code>, sprawdzane są wszystkie kolumny.
 

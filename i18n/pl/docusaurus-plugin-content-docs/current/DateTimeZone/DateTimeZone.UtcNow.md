@@ -5,8 +5,6 @@ title: DateTimeZone.UtcNow
 # DateTimeZone.UtcNow
 
 
-## Description
-
 Zwraca bieżącą datę i godzinę w formacie UTC (strefa czasowa GMT).
 
 
@@ -19,7 +17,7 @@ DateTimeZone.UtcNow(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca bieżącą datę i godzinę w formacie UTC (strefa czasowa GMT).
 

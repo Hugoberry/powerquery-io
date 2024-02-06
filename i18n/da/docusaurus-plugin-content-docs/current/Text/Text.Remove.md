@@ -5,8 +5,6 @@ title: Text.Remove
 # Text.Remove
 
 
-## Description
-
 Fjerner alle forekomster af det angivne tegn eller den angivne liste over tegn fra inputtekstværdien.
 
 
@@ -20,7 +18,7 @@ Text.Remove(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en kopi af tekstværdien <code>text</code>, hvor alle tegn fra <code>removeChars</code> er fjernet.  
 

@@ -5,8 +5,6 @@ title: Combiner.CombineTextByDelimiter
 # Combiner.CombineTextByDelimiter
 
 
-## Description
-
 返回一个函数，它使用指定的分隔符将文本列表合并。
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 返回一个函数，它使用指定的分隔符将文本值列表合并成单个文本值。
 

@@ -16,7 +16,7 @@ Cds.Entities(
 ```
 
 
-## Details
+## Remarks
 
 Opret forbindelse til din Common Data Service-forekomst (Dynamics 365 og PowerApps).
 

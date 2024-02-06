@@ -5,8 +5,6 @@ title: DateTime.IsInCurrentHour
 # DateTime.IsInCurrentHour
 
 
-## Description
-
 指示此日期时间是否按系统当前日期和时间所确定的那样处于当前小时内。
 
 
@@ -19,7 +17,7 @@ DateTime.IsInCurrentHour(
 ```
 
 
-## Details
+## Remarks
 
 指示给定的日期时间值 <code>dateTime</code> 是否按系统当前日期和时间所确定的那样处于当前小时内。      <ul>      <li><code>dateTime</code>: 要计算的 <code>datetime</code> 或 <code>datetimezone</code> 值。</li>      </ul>
 

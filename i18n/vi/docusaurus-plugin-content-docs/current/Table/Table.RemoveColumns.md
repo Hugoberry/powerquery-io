@@ -5,8 +5,6 @@ title: Table.RemoveColumns
 # Table.RemoveColumns
 
 
-## Description
-
 Loại bỏ các cột được chỉ định.
 
 
@@ -21,7 +19,7 @@ Table.RemoveColumns(
 ```
 
 
-## Details
+## Remarks
 
 Loại bỏ <code>columns</code> đã chỉ định từ <code>table</code> được cung cấp.    Nếu cột đã chỉ định không tồn tại thì sẽ xảy ra lỗi trừ khi tham số tùy chọn <code>missingField</code> chỉ định hành vi thay thế (ví dụ như <code>MissingField.UseNull</code> hoặc <code>MissingField.Ignore</code>).
 

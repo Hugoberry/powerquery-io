@@ -5,8 +5,6 @@ title: BinaryFormat.7BitEncodedSignedInteger
 # BinaryFormat.7BitEncodedSignedInteger
 
 
-## Description
-
 Et binært format, der læser et 64-bit heltal med fortegn, som er kodet ved hjælp af en 7-bit kodning med variabel længde.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.7BitEncodedSignedInteger(
 ```
 
 
-## Details
+## Remarks
 
 Et binært format, der læser et 64-bit heltal med fortegn, som er kodet ved hjælp af en 7-bit kodning med variabel længde.
 

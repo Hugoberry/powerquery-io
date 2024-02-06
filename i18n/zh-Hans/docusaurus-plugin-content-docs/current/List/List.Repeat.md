@@ -5,8 +5,6 @@ title: List.Repeat
 # List.Repeat
 
 
-## Description
-
 返回作为原始列表指定次数的重复的列表。
 
 
@@ -20,7 +18,7 @@ List.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 返回作为原始列表 <code>list</code> 的 <code>count</code>次重复的列表。
 

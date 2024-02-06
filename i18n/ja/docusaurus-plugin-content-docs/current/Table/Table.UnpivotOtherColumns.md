@@ -5,8 +5,6 @@ title: Table.UnpivotOtherColumns
 # Table.UnpivotOtherColumns
 
 
-## Description
-
 指定されたセット以外のすべての列を属性/値のペアに変換します。
 
 
@@ -22,7 +20,7 @@ Table.UnpivotOtherColumns(
 ```
 
 
-## Details
+## Remarks
 
 指定されたセット以外のすべての列を属性/値のペアに変換します。その際、各行の残りの値と結合します。
 

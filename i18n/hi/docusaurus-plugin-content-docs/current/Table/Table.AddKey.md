@@ -5,8 +5,6 @@ title: Table.AddKey
 # Table.AddKey
 
 
-## Description
-
 दी गई तालिका के प्रकार में कुंजी जोड़ता है.
 
 
@@ -21,7 +19,7 @@ Table.AddKey(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> में कुंजी जोड़ता है जहाँ <code>columns</code> कालम नाम की सूची है जो कुंजी को परिभाषित करती है और <code>isPrimary</code> यह निर्दिष्ट करती है कि कुंजी प्राथमिक है या नहीं.
 

@@ -5,8 +5,6 @@ title: Web.BrowserContents
 # Web.BrowserContents
 
 
-## Description
-
 Returnerar HTML-koden för den angivna URL:en enligt en webbläsare.
 
 
@@ -20,7 +18,7 @@ Web.BrowserContents(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar HTML-koden för den angivna <code>url</code>enligt en webbläsare. En valfri postparameter, <code>options</code>, kan tillhandahållas för att ange ytterligare egenskaper. Posten kan innehålla följande fält: <ul> <li><code>ApiKeyName</code>: Om målwebbplatsen innehåller en notering om en API-nyckel, kan den här parametern användas för att ange namnet (inte värdet) för den nyckelparameter som måste användas i webbadressen. Det faktiska nyckelvärdet anges i autentiseringsuppgiften..</li>        <li><code>WaitFor</code>: Anger ett villkor att vänta på innan HTML laddas ned, förutom att vänta på att sidan ska läsas in (vilket alltid görs). Kan vara en post som innehåller timeout- och/eller selector-fält. Om endast en timeout anges väntar funktionen den angivna tiden innan HTML-koden laddas ned. Om både en väljare och timeout har angetts och tidsgränsen förflutit innan väljaren finns på sidan, utlöses ett fel. Om en väljare anges utan timeout tillämpas en standardtidsgräns på 30 sekunder.</li> </ul>    
 

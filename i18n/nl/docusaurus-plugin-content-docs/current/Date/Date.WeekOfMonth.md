@@ -5,8 +5,6 @@ title: Date.WeekOfMonth
 # Date.WeekOfMonth
 
 
-## Description
-
 Retourneert een getal tussen 1 en 6 dat aangeeft in welke week van de maand deze datum valt.
 
 
@@ -20,7 +18,7 @@ Date.WeekOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een getal tussen 1 en 6 dat aangeeft in welke week van de maand de datum <code>dateTime</code> valt. <ul> <li><code>dateTime</code>: een <code>datetime</code>-waarde waarvoor de week van de maand wordt bepaald.</li></ul>
 

@@ -5,8 +5,6 @@ title: Date.EndOfDay
 # Date.EndOfDay
 
 
-## Description
-
 Returnerar slutet på dagen.
 
 
@@ -19,7 +17,7 @@ Date.EndOfDay(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar slutet av dagen som representeras av <code>dateTime</code>. Tidszonsinformation bevaras.      <ul>      <li><code>dateTime</code>: Ett <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde som dagens slut beräknas från.</li>      </ul>
 

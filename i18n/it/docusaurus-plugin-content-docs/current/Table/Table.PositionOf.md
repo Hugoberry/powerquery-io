@@ -5,8 +5,6 @@ title: Table.PositionOf
 # Table.PositionOf
 
 
-## Description
-
 Restituisce la posizione o le posizioni della riga all&#39;interno della tabella.
 
 
@@ -22,7 +20,7 @@ Table.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce la posizione della riga della prima occorrenza di <code>row</code> in <code>table</code>. Restituisce -1 se non viene trovata alcuna occorrenza.    <ul>       <li><code>table</code>: tabella di input.</li>       <li><code>row</code>: riga nella tabella di cui trovare la posizione.</li>       <li><code>occurrence</code>: <i>[facoltativo]</i> specifica le occorrenze della riga da restituire.</li>       <li><code>equationCriteria</code>: <i>[facoltativo]</i> controlla il confronto tra le righe di tabella.</li>    </ul>    
 

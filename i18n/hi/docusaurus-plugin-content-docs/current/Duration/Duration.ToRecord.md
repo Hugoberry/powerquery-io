@@ -5,8 +5,6 @@ title: Duration.ToRecord
 # Duration.ToRecord
 
 
-## Description
-
 अवधि के भागों वाला एक रिकॉर्ड लौटाता है.
 
 
@@ -19,7 +17,7 @@ Duration.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 वह रिकॉर्ड लौटाता है, जिसमें अवधि मान <code>duration</code> के भाग शामिल हैं.  <ul>        <li><code>duration</code>: एक ऐसी <code>अवधि</code> जिससे रिकॉर्ड बनाया जाता है.</li>      </ul>
 

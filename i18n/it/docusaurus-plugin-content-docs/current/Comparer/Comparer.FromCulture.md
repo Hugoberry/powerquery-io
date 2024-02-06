@@ -5,8 +5,6 @@ title: Comparer.FromCulture
 # Comparer.FromCulture
 
 
-## Description
-
 Restituisce una funzione dell&#39;operatore di confronto in base alle impostazioni cultura specificate e alla distinzione tra maiuscole e minuscole.
 
 
@@ -20,7 +18,7 @@ Comparer.FromCulture(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una funzione dell'operatore di confronto che utilizza la <code>culture</code> e la distinzione tra maiuscole e minuscole specificata da <code>ignoreCase</code> per eseguire i confronti. <br />      <br />      Una funzione di confronto accetta due argomenti e restituisce -1, 0 o 1 a seconda che il primo valore sia minore, uguale o maggiore del secondo.<br />      <br />      Il valore predefinito per <code>ignoreCase</code> è false. Il <code>culture</code> deve essere una delle impostazioni locali supportate da .NET Framework, ad esempio "it-IT".    
 

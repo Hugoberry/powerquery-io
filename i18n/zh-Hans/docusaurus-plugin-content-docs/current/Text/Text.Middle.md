@@ -5,8 +5,6 @@ title: Text.Middle
 # Text.Middle
 
 
-## Description
-
 返回最长为某个特定长度的子字符串。
 
 
@@ -21,7 +19,7 @@ Text.Middle(
 ```
 
 
-## Details
+## Remarks
 
 返回 <code>count</code> 个字符，或返回至 <code>text</code> 的结束；采用偏移 <code>start</code>。
 

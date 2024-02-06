@@ -5,8 +5,6 @@ title: Table.AggregateTableColumn
 # Table.AggregateTableColumn
 
 
-## Description
-
 将多个表的一列聚合到包含表中的多列。
 
 
@@ -21,7 +19,7 @@ Table.AggregateTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 将 <code>table</code>[<code>column</code>] 中的表聚合到包含这些表的聚合值的多个列。<code>aggregations</code> 用于指定包含要聚合的表的列、要应用于表以生成其值的聚合函数以及要创建的聚合列的名称。
 

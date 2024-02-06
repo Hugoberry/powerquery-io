@@ -5,8 +5,6 @@ title: Type.ClosedRecord
 # Type.ClosedRecord
 
 
-## Description
-
 指定されたレコード型の閉じられたバージョンを返します (既に閉じられている場合は同じ型)。
 
 
@@ -19,7 +17,7 @@ Type.ClosedRecord(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>record</code> の閉じられたバージョン <code>type</code> を返します (既に閉じられている場合は同じ種類)。
 

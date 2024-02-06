@@ -5,8 +5,6 @@ title: Table.SplitAt
 # Table.SplitAt
 
 
-## Description
-
 Renvoie une liste contenant le nombre spécifié de lignes depuis le début et les lignes restantes.
 
 
@@ -20,7 +18,7 @@ Table.SplitAt(
 ```
 
 
-## Details
+## Remarks
 
 Renvoie une liste contenant deux tables : une table avec le nombre spécifié de lignes depuis le début de <code>table</code> (comme spécifié par <code>count</code>) et une table contenant les lignes restantes dans <code>table</code>.Si les tables de la liste ainsi créée sont énumérées une fois exactement et dans l’ordre, la fonction énumère <code>table</code> une fois seulement.
 

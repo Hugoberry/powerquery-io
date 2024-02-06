@@ -5,8 +5,6 @@ title: Number.IsOdd
 # Number.IsOdd
 
 
-## Description
-
 Anger om värdet är udda.
 
 
@@ -19,7 +17,7 @@ Number.IsOdd(
 ```
 
 
-## Details
+## Remarks
 
 Anger om värdet är udda. Returnerar <code>true</code> om <code>number</code> är ett udda tal och annars <code>false</code>.
 

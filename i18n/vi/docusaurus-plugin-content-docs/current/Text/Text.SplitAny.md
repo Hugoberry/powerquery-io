@@ -5,8 +5,6 @@ title: Text.SplitAny
 # Text.SplitAny
 
 
-## Description
-
 Trả về danh sách giá trị văn bản, tách trên ký tự bất kỳ trong dấu tách.
 
 
@@ -20,7 +18,7 @@ Text.SplitAny(
 ```
 
 
-## Details
+## Remarks
 
 Trả về danh sách giá trị văn bản là kết quả của việc tách một giá trị văn bản <code>text</code> dựa trên ký tự bất kỳ trong dấu tách được chỉ định, <code>separators</code>.
 

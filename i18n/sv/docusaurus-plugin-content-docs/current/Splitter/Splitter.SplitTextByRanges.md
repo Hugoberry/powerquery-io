@@ -5,8 +5,6 @@ title: Splitter.SplitTextByRanges
 # Splitter.SplitTextByRanges
 
 
-## Description
-
 Returnerar en funktion som delar upp text i en lista med text baserat på angivna förskjutningar och längder.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en funktion som delar upp text i en lista med text enligt angivna förskjutningar och längder. En null-längd anger att alla återstående indata ska inkluderas.
 

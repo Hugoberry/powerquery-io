@@ -5,8 +5,6 @@ title: Table.NestedJoin
 # Table.NestedJoin
 
 
-## Description
-
 Voert een koppeling tussen tabellen uit op opgegeven kolommen en plaatst het resultaat van die koppeling in een nieuwe kolom.
 
 
@@ -25,7 +23,7 @@ Table.NestedJoin(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee worden de rijen van <code>table1</code> gekoppeld aan de rijen van <code>table2</code> op basis van de gelijkheid van de waarden van de sleutelkolommen die zijn geselecteerd met <code>key1</code> (voor <code>table1</code>) en <code>key2</code> (voor <code>table2</code>). De resultaten komen in de kolom <code>newColumnName</code> te staan.<br />Met de optionele waarde <code>joinKind</code> wordt het type join opgegeven dat moet worden uitgevoerd. Er wordt standaard een outer join aan de linkerkant uitgevoerd als <code>joinKind</code> niet is opgegeven.<br />Een optionele set van <code>keyEqualityComparers</code> kan worden opgenomen om te specificeren hoe de sleutelkolommen moeten worden vergeleken. Deze functie is momenteel uitsluitend bedoeld voor intern gebruik.<br />  
 

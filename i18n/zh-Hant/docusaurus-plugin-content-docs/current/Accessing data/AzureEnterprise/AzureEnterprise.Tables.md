@@ -5,8 +5,6 @@ title: AzureEnterprise.Tables
 # AzureEnterprise.Tables
 
 
-## Description
-
 輸入與您的註冊相關聯的 Azure 企業版 REST API 端點 URL
 
 
@@ -19,7 +17,7 @@ AzureEnterprise.Tables(
 ```
 
 
-## Details
+## Remarks
 
 從 Azure 企業版 API 傳回可用的報表和月份清單
 

@@ -5,8 +5,6 @@ title: Comparer.FromCulture
 # Comparer.FromCulture
 
 
-## Description
-
 Retourne une fonction de comparaison en fonction de la culture et du respect de la casse spécifiés.
 
 
@@ -20,7 +18,7 @@ Comparer.FromCulture(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une fonction de comparaison qui utilise le <code>culture</code> et le respect de la casse spécifiés par <code>ignoreCase</code> pour effectuer des comparaisons.<br />      <br />      Une fonction de comparaison accepte deux arguments et retourne -1, 0 ou 1 selon que la première valeur est inférieure, égale ou supérieure à la seconde.<br />      <br />      La valeur par défaut de <code>ignoreCase</code> est false. Le <code>culture</code> doit être l’un des paramètres régionaux pris en charge par le .NET Framework (par exemple, " fr-FR ").    
 

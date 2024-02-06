@@ -5,8 +5,6 @@ title: DateTimeZone.FixedUtcNow
 # DateTimeZone.FixedUtcNow
 
 
-## Description
-
 ส่งกลับวันที่และเวลาในโซนเวลาใน UTC (โซนเวลา GMT) ค่านี้จะคงที่และไม่เปลี่ยนแปลงในการเรียกใช้ที่ต่อเนื่องกัน
 
 
@@ -19,7 +17,7 @@ DateTimeZone.FixedUtcNow(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับวันที่และเวลาในโซนเวลาใน UTC (โซนเวลา GMT) ค่านี้จะคงที่และไม่เปลี่ยนแปลงในการเรียกใช้ที่ต่อเนื่องกัน
 

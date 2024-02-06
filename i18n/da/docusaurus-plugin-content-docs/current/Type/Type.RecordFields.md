@@ -5,8 +5,6 @@ title: Type.RecordFields
 # Type.RecordFields
 
 
-## Description
-
 Returnerer en post, der beskriver felterne for en posttype, hvor de enkelte felter i den returnerede posttype har et tilsvarende navn og en værdi.
 
 
@@ -19,7 +17,7 @@ Type.RecordFields(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en post, der beskriver felterne for en post <code>type</code>. De enkelte felter for den returnerede posttype har et tilsvarende navn og en værdi i form af en post <code>[ Type = type, Optional = logical ]</code>.
 

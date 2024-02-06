@@ -5,8 +5,6 @@ title: Projectplace.Feed
 # Projectplace.Feed
 
 
-## Description
-
 ใส่ URL ของบัญชี Planview Projectplace ของคุณ
 
 
@@ -19,7 +17,7 @@ Projectplace.Feed(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางพร้อมข้อมูล Planview Projectplace ที่เกี่ยวข้อง
 

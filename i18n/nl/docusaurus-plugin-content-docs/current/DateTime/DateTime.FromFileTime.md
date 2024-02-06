@@ -5,8 +5,6 @@ title: DateTime.FromFileTime
 # DateTime.FromFileTime
 
 
-## Description
-
 Maakt een datum-/tijd van een getal dat 64 bits lang is.
 
 
@@ -19,7 +17,7 @@ DateTime.FromFileTime(
 ```
 
 
-## Details
+## Remarks
 
 Maakt een <code>datetime</code>waarde van de waarde <code>fileTime</code> en zet deze om in de lokale tijdzone. De bestandstijd is een tijdwaarde voor een Windows-bestand die het aantal intervallen van 100 nanoseconden vertegenwoordigt dat is verstreken sinds 0:00 middernacht, 1 januari 1601 A.D. (C.E.) Coordinated Universal Time (UTC).
 

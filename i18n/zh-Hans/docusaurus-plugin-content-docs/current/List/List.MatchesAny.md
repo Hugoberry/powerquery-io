@@ -5,8 +5,6 @@ title: List.MatchesAny
 # List.MatchesAny
 
 
-## Description
-
 如果任意值满足条件函数，则返回 true。
 
 
@@ -20,7 +18,7 @@ List.MatchesAny(
 ```
 
 
-## Details
+## Remarks
 
 如果列表 <code>list</code> 中的任意值满足条件函数 <code>condition</code>，则返回 <code>true</code>；否则返回 <code>false</code>。
 

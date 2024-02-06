@@ -5,8 +5,6 @@ title: Number.Log10
 # Number.Log10
 
 
-## Description
-
 Gibt den Logarithmus der Zahl zur Basis 10 zurück.
 
 
@@ -19,7 +17,7 @@ Number.Log10(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Logarithmus einer Zahl (<code>number</code>) zur Basis 10 zurück. Ist <code>number</code> null, gibt <code>Number.Log10</code> null zurück.
 

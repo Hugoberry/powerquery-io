@@ -5,8 +5,6 @@ title: Date.StartOfMonth
 # Date.StartOfMonth
 
 
-## Description
-
 Renvoie le début du mois.
 
 
@@ -19,7 +17,7 @@ Date.StartOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 Renvoie le début du mois qui contient <code>dateTime</code>.    <code>dateTime</code> doit être une valeur <code>date</code> ou <code>datetime</code>.
 

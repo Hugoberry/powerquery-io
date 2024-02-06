@@ -5,8 +5,6 @@ title: Expression.Identifier
 # Expression.Identifier
 
 
-## Description
-
 Returnerer M-kildekoderepræsentationen for en identifikator.
 
 
@@ -19,7 +17,7 @@ Expression.Identifier(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer M-kildekoderepræsentationen for en identifikator <code>name</code>.
 

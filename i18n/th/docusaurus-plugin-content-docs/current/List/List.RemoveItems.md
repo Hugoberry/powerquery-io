@@ -5,8 +5,6 @@ title: List.RemoveItems
 # List.RemoveItems
 
 
-## Description
-
 เอาข้อมูลออกจาก list1 ที่ปรากฏอยู่ในรายการ
 
 
@@ -20,7 +18,7 @@ List.RemoveItems(
 ```
 
 
-## Details
+## Remarks
 
 เอาการปรากฏทั้งหมดของค่าที่กำหนดให้ใน <code>list2</code> ออกจาก <code>list1</code> ถ้าค่าใน <code>list2</code> ไม่มีอยู่ใน <code>list1</code> จะมีการส่งกลับรายการเดิม
 

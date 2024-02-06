@@ -5,8 +5,6 @@ title: Record.Field
 # Record.Field
 
 
-## Description
-
 傳回記錄中指定欄位的值。
 
 
@@ -20,7 +18,7 @@ Record.Field(
 ```
 
 
-## Details
+## Remarks
 
 傳回 <code>record</code> 中指定 <code>field</code> 的值。如果找不到欄位，則擲回例外狀況。
 

@@ -5,8 +5,6 @@ title: List.LastN
 # List.LastN
 
 
-## Description
-
 Zwraca ostatnią wartość z listy.  Opcjonalnie można określić liczbę zwracanych wartości lub warunek kwalifikacji.
 
 
@@ -20,7 +18,7 @@ List.LastN(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca ostatni element z listy <code>list</code>. Jeśli lista jest pusta, zwracany jest wyjątek. Ta funkcja przyjmuje opcjonalny parametr <code>countOrCondition</code>, który umożliwia zebranie wielu elementów lub filtrowanie elementów. Wartość parametru <code>countOrCondition</code> można określić na trzy sposoby: <ul>  <li>Jeśli jest określona liczba, zostanie zwróconych maksymalnie tyle elementów, ile wynosi ta liczba. </li>  <li>Jeśli jest określony warunek, zostaną zwrócone wszystkie elementy (począwszy od końca listy), które początkowo spełniały warunek. Gdy zostanie znaleziony element, który nie spełnia warunku, nie będą analizowane dalsze elementy. </li>  <li>Jeśli ten parametr będzie miał wartość null, zostanie zwrócony ostatni element z listy.</li> </ul>
 

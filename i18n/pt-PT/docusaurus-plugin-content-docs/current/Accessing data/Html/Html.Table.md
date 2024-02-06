@@ -5,8 +5,6 @@ title: Html.Table
 # Html.Table
 
 
-## Description
-
 Devolve uma tabela que contém os resultados da execução dos seletores CSS especificados em relação ao HTML fornecido.
 
 
@@ -21,7 +19,7 @@ Html.Table(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma tabela contendo os resultados da execução dos seletores de CSS especificados em relação ao <code>html</code> fornecido. Um parâmetro de registo opcional, <code>options</code>, pode ser fornecido para especificar propriedades adicionais. O registo pode conter os seguintes campos:    <ul><li><code>RowSelector</code></li></ul>    
 

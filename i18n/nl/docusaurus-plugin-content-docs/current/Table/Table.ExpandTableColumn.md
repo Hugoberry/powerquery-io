@@ -5,8 +5,6 @@ title: Table.ExpandTableColumn
 # Table.ExpandTableColumn
 
 
-## Description
-
 Breidt een kolom met records of een kolom met tabellen uit naar meerdere kolommen in de tabel die als een container fungeert.
 
 
@@ -22,7 +20,7 @@ Table.ExpandTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Breidt tabellen in <code>table</code>[<code>column</code>] naar meerdere rijen en kolommen uit. <code>columnNames</code> wordt gebruikt voor het selecteren van de kolommen die vanuit de interne tabel worden uitgebreid. Geef <code>newColumnNames</code> op om conflicten tussen bestaande en nieuwe kolommen te voorkomen.
 

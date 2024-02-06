@@ -5,8 +5,6 @@ title: Splitter.SplitTextByWhitespace
 # Splitter.SplitTextByWhitespace
 
 
-## Description
-
 Retourneert een functie die bij een witruimte tekst splitst in een lijst met tekst.
 
 
@@ -19,7 +17,7 @@ Splitter.SplitTextByWhitespace(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een functie die bij een witruimte tekst splitst in een lijst met tekst.
 

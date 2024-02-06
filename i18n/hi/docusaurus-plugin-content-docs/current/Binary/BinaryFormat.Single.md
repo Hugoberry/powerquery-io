@@ -5,8 +5,6 @@ title: BinaryFormat.Single
 # BinaryFormat.Single
 
 
-## Description
-
 बाइनरी स्वरूप जो 4-बाइट IEEE एकल-परिशुद्धता फ़्लोटिंग पॉइंट मान को पढ़ता है.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Single(
 ```
 
 
-## Details
+## Remarks
 
 बाइनरी स्वरूप जो 4-बाइट IEEE एकल-परिशुद्धता फ़्लोटिंग पॉइंट मान को पढ़ता है.
 

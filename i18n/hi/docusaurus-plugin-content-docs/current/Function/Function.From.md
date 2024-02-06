@@ -5,8 +5,6 @@ title: Function.From
 # Function.From
 
 
-## Description
-
 फ़ंक्शन के शीर्ष पर विशिष्ट मापदंड हस्ताक्षर के साथ फ़ंक्शन बनाता है जो एकल सूची तर्क लेता है
 
 
@@ -20,7 +18,7 @@ Function.From(
 ```
 
 
-## Details
+## Remarks
 
 यूनेरी फ़ंक्शन <code>function</code> लेता है और प्रकार <code>functionType</code> के साथ एक नया फ़ंक्शन बनाता है जो तर्कों से सूची की रचना करता है और उसे <code>function</code> ओ पास करता है.
 

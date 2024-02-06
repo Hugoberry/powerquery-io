@@ -5,8 +5,6 @@ title: Record.Combine
 # Record.Combine
 
 
-## Description
-
 รวมระเบียนในรายการที่กำหนด
 
 
@@ -19,7 +17,7 @@ Record.Combine(
 ```
 
 
-## Details
+## Remarks
 
 รวมระเบียนใน <code>records</code> ที่กำหนด ถ้า <code>records</code> มีค่าที่ไม่ใช่ระเบียน ระบบจะส่งกลับข้อผิดพลาด
 

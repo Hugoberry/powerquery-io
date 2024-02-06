@@ -5,8 +5,6 @@ title: Binary.Combine
 # Binary.Combine
 
 
-## Description
-
 बाइनरी की सूची को एकल बाइनरी में संयोजित करता है.
 
 
@@ -19,7 +17,7 @@ Binary.Combine(
 ```
 
 
-## Details
+## Remarks
 
 बाइनरी की सूची को एकल बाइनरी में संयोजित करता है.
 

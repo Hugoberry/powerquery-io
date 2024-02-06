@@ -5,8 +5,6 @@ title: Binary.Range
 # Binary.Range
 
 
-## Description
-
 Returnerer et undersæt af den binære værdi med start ved en forskydning.
 
 
@@ -21,7 +19,7 @@ Binary.Range(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer et undersæt af den binære værdi med start ved forskydningen <code>binary</code>. En valgfri parameter, <code>offset</code>, angiver den maksimale længde i undersættet.
 

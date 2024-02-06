@@ -16,7 +16,7 @@ CommonDataService.Database(
 ```
 
 
-## Details
+## Remarks
 
 Connectez-vous à votre instance Dataverse (Dynamics 365 et PowerApps).
 

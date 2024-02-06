@@ -5,8 +5,6 @@ title: Text.Start
 # Text.Start
 
 
-## Description
-
 ส่งกลับจุดเริ่มต้นของข้อความ
 
 
@@ -20,7 +18,7 @@ Text.Start(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับอักขระ <code>count</code> ตัวแรกของ <code>text</code> เป็นค่าข้อความ
 

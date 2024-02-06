@@ -5,8 +5,6 @@ title: Table.RenameColumns
 # Table.RenameColumns
 
 
-## Description
-
 นำการเปลี่ยนชื่อของฟอร์ม \{old, new} ไปใช้
 
 
@@ -21,7 +19,7 @@ Table.RenameColumns(
 ```
 
 
-## Details
+## Remarks
 
 ดำเนินการเปลี่ยนชื่อที่กำหนดให้กับคอลัมน์ในตาราง <code>table</code> การดำเนินการแทนที่ <code>renames</code> ประกอบด้วยรายการที่มีสองค่า ได้แก่ชื่อคอลัมน์เดิมและชื่อคอลัมน์ใหม่ที่ระบุไว้ในรายการ    ถ้าไม่มีคอลัมน์อยู่ ระบบจะแสดงข้อยกเว้น เว้นแต่พารามิเตอร์ที่เลือกได้ <code>missingField</code> จะระบุค่าสำรอง (เช่น <code>MissingField.UseNull</code> หรือ <code>MissingField.Ignore</code>)
 

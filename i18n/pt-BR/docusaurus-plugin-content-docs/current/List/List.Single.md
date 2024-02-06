@@ -5,8 +5,6 @@ title: List.Single
 # List.Single
 
 
-## Description
-
 Retorna o item de lista 1 de uma lista de comprimento 1; caso contrário, uma exceção será lançada.
 
 
@@ -19,7 +17,7 @@ List.Single(
 ```
 
 
-## Details
+## Remarks
 
 Se houver somente um item na lista <code>list</code>, esse item será retornado.    Se houver mais de um item ou se a lista estiver vazia, a função gerará uma exceção.
 

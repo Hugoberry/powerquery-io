@@ -5,8 +5,6 @@ title: Python.Execute
 # Python.Execute
 
 
-## Description
-
 厓厓ミ穐Executes Python script and returns data frames
 
 

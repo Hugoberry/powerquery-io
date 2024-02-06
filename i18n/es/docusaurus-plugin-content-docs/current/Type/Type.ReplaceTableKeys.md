@@ -5,8 +5,6 @@ title: Type.ReplaceTableKeys
 # Type.ReplaceTableKeys
 
 
-## Description
-
 Devuelve un nuevo tipo de tabla con todas las claves reemplazadas por la lista especificada de claves.
 
 
@@ -20,7 +18,7 @@ Type.ReplaceTableKeys(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un nuevo tipo de tabla con todas las claves reemplazadas por la lista especificada de claves.<br />    <br />    Cada clave se define mediante un registro de la siguiente forma:    <ul>      <li>        <code>Columnas</code>: una lista de los nombres de columna que definen la clave      </li>      <li>        <code>Principal</code>: <code>true</code> si la clave es la clave principal de la tabla; de lo contrario, <code>false</code>      </li>    </ul>    La lista especificada de claves se valida para garantizar que no se defina más de una clave principal y que todos los nombres de columna de clave existan en el tipo de tabla.    
 

@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger16
 # BinaryFormat.UnsignedInteger16
 
 
-## Description
-
 รูปแบบไบนารีที่อ่านจำนวนเต็มที่ไม่มีเครื่องหมาย 16 บิต
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger16(
 ```
 
 
-## Details
+## Remarks
 
 รูปแบบไบนารีที่อ่านจำนวนเต็มที่ไม่มีเครื่องหมาย 16 บิต
 

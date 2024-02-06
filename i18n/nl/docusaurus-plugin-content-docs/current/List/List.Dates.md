@@ -5,8 +5,6 @@ title: List.Dates
 # List.Dates
 
 
-## Description
-
 Genereert een lijst met date-waarden op basis van een aanvankelijke waarde, telling en incrementele duurwaarde.
 
 
@@ -21,7 +19,7 @@ List.Dates(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een lijst met <code>date</code>waarden van grootte <code>count</code>, te beginnen bij <code>start</code>.. De opgegeven verhoging, <code>step</code>, is een <code>duration</code>waarde die aan elke waarde wordt toegevoegd.
 

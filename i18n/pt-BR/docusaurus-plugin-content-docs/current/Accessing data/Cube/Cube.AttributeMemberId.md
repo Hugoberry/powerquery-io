@@ -5,8 +5,6 @@ title: Cube.AttributeMemberId
 # Cube.AttributeMemberId
 
 
-## Description
-
 Retorna o identificador de membro exclusivo do valor de propriedade dos membros.
 
 
@@ -19,7 +17,7 @@ Cube.AttributeMemberId(
 ```
 
 
-## Details
+## Remarks
 
 Retorna um identificador de membro exclusivo de um valor de propriedade do membro. <code>attribute</code>. Retorna nulo para quaisquer outros valores.
 

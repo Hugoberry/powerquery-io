@@ -5,8 +5,6 @@ title: Table.ExpandRecordColumn
 # Table.ExpandRecordColumn
 
 
-## Description
-
 Breidt een kolom met records met elk van de waarden uit naar kolommen.
 
 
@@ -22,7 +20,7 @@ Table.ExpandRecordColumn(
 ```
 
 
-## Details
+## Remarks
 
 Maakt aan de hand van de <code>column</code> met records in de invoer <code>table</code> een tabel met een kolom voor elk veld in de record. Optioneel kan <code>newColumnNames</code> worden opgegeven om ervoor te zorgen dat de namen voor de kolommen in de nieuwe tabel unieke namen zijn.    <ul>        <li><code>table</code>: De oorspronkelijke tabel met de recordkolom die moet worden uitgebreid. </li>        <li><code>column</code>: De kolom die moet worden uitgebreid.</li>        <li><code>fieldNames</code>: De lijst met velden die moet worden uitgebreid in kolommen in de tabel.</li>        <li><code>newColumnNames</code>: De lijst met kolomnamen voor de nieuwe kolommen. De nieuwe kolomnamen mogen niet voor andere kolommen in de nieuwe tabel worden gebruikt.</li>    </ul>
 

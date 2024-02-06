@@ -5,8 +5,6 @@ title: Error.Record
 # Error.Record
 
 
-## Description
-
 理由、メッセージ、および詳細の指定されたテキスト値からエラー レコードを返します。
 
 
@@ -22,7 +20,7 @@ Error.Record(
 ```
 
 
-## Details
+## Remarks
 
 理由、メッセージ、および詳細の指定されたテキスト値からエラー レコードを返します。
 

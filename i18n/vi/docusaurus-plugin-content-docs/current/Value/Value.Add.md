@@ -5,8 +5,6 @@ title: Value.Add
 # Value.Add
 
 
-## Description
-
 Trả về tổng của hai giá trị.
 
 
@@ -21,7 +19,7 @@ Value.Add(
 ```
 
 
-## Details
+## Remarks
 
 Trả về tổng của <code>value1</code> và <code>value2</code>. Có thể chỉ định tham số <code>precision</code> tùy chọn, theo mặc định <code>Precision.Double</code> được sử dụng.
 

@@ -5,8 +5,6 @@ title: Date.Day
 # Date.Day
 
 
-## Description
-
 Returnerar dagkomponenten.
 
 
@@ -19,7 +17,7 @@ Date.Day(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar dagkomponenten i ett <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde.      <ul>        <li><code>dateTime</code>: Ett <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde som dagkomponenten extraheras från.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Webtrends.KeyMetrics
 # Webtrends.KeyMetrics
 
 
-## Description
-
 นำกลับตารางพร้อมด้วยคีย์เมตริก Webtrends
 
 
@@ -21,7 +19,7 @@ Webtrends.KeyMetrics(
 ```
 
 
-## Details
+## Remarks
 
 เรียกหาจุดแสดงผล Webtrends KeyMetrics และนำกลับข้อมูลทั้้งหมดเป็นตาราง
 

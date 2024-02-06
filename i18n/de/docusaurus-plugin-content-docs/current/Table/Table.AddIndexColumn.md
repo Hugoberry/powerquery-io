@@ -5,8 +5,6 @@ title: Table.AddIndexColumn
 # Table.AddIndexColumn
 
 
-## Description
-
 Fügt eine Spalte mit expliziten Positionswerten an.
 
 
@@ -23,7 +21,7 @@ Table.AddIndexColumn(
 ```
 
 
-## Details
+## Remarks
 
 Fügt "<code>table</code>" eine Spalte namens "<code>newColumnName</code>" mit expliziten Positionswerten an.    Der Ausgangsindex kann mithilfe des optionalen Werts "<code>initialValue</code>" angegeben werden. Die gewünschte Schrittweite für die einzelnen Indexwerte kann mithilfe des optionalen Werts "<code>increment</code>" angegeben werden.
 

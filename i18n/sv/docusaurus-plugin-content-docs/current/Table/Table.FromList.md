@@ -5,8 +5,6 @@ title: Table.FromList
 # Table.FromList
 
 
-## Description
-
 Konverterar en lista till en tabell genom att tillämpa angiven delningsfunktion på varje objekt i listan.
 
 
@@ -23,7 +21,7 @@ Table.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Konverterar en lista, <code>list</code>, till en tabell genom att tillämpa den valfria delningsfunktionen, <code>splitter</code>, på varje objekt i listan. Som standard antas listan vara en lista med textvärden som avgränsas med komma. <code>columns</code> (valfritt) kan vara antalet kolumner, en lista med kolumner eller en TableType. <code>default</code> och <code>extraValues</code> (valfria) kan också anges.
 

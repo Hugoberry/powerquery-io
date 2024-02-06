@@ -5,8 +5,6 @@ title: BinaryFormat.Double
 # BinaryFormat.Double
 
 
-## Description
-
 Et binært format, der læser et 8-byte IEEE-dobbeltpræcisions reelt tal.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Double(
 ```
 
 
-## Details
+## Remarks
 
 Et binært format, der læser et 8-byte IEEE-dobbeltpræcisions reelt tal.
 

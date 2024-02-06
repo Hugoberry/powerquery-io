@@ -15,7 +15,7 @@ Synapse.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Azure Synapse विश्लेषण कार्यस्थान के लिए PQ कनेक्टर
 

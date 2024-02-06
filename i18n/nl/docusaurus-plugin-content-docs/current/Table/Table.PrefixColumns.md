@@ -5,8 +5,6 @@ title: Table.PrefixColumns
 # Table.PrefixColumns
 
 
-## Description
-
 Retourneert een tabel waarin alle kolomnamen worden voorafgegaan door de opgegeven tekst.
 
 
@@ -20,7 +18,7 @@ Table.PrefixColumns(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een tabel waarin alle kolomnamen van de opgegeven <code>table</code> worden voorafgegaan door de opgegeven tekst, <code>prefix</code>, plus een punt in de notatie <code>prefix</code><code>.ColumnName</code>.
 

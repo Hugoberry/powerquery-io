@@ -5,8 +5,6 @@ title: Text.ReplaceRange
 # Text.ReplaceRange
 
 
-## Description
-
 Loại bỏ một dãy ký tự và chèn một giá trị mới tại vị trí được chỉ định.
 
 
@@ -22,7 +20,7 @@ Text.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả loại bỏ một số ký tự, <code>count</code>, khỏi giá trị văn bản <code>text</code> bắt đầu tại vị trí <code>offset</code> rồi chèn giá trị văn bản <code>newText</code> tại cùng vị trí vào <code>text</code>.
 

@@ -5,8 +5,6 @@ title: Binary.Compress
 # Binary.Compress
 
 
-## Description
-
 บีบอัดค่าไบนารีโดยใช้ชนิดการบีบอัดที่กำหนดไว้
 
 
@@ -20,7 +18,7 @@ Binary.Compress(
 ```
 
 
-## Details
+## Remarks
 
 บีบอัดค่าไบนารีโดยใช้ชนิดการบีบอัดที่กำหนดไว้  ผลลัพธ์ของการเรียกใช้นี้คือ สำเนาการป้อนค่าที่ถูกบีบอัดแล้ว ชนิดการบีบอัดประกอบด้วย:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
 

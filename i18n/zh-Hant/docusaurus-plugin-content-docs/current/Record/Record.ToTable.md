@@ -5,8 +5,6 @@ title: Record.ToTable
 # Record.ToTable
 
 
-## Description
-
 傳回資料表，其中每個資料列都是輸入記錄的欄位名稱和值。
 
 
@@ -19,7 +17,7 @@ Record.ToTable(
 ```
 
 
-## Details
+## Remarks
 
 傳回包含 <code>Name</code> 和 <code>Value</code> 資料行的資料表，並且針對 <code>record</code> 中的每個欄位各包含一個資料列。
 

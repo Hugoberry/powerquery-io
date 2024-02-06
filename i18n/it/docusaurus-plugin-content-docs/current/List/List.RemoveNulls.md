@@ -5,8 +5,6 @@ title: List.RemoveNulls
 # List.RemoveNulls
 
 
-## Description
-
 Rimuove tutti i valori &#34;null&#34; dall&#39;elenco specificato.
 
 
@@ -19,7 +17,7 @@ List.RemoveNulls(
 ```
 
 
-## Details
+## Remarks
 
 Rimuove tutte le occorrenze di valori "null" in <code>list</code>. Se nell'elenco non esistono valori "null", viene restituito l'elenco originale.
 

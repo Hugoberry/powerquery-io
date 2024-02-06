@@ -5,8 +5,6 @@ title: Odbc.InferOptions
 # Odbc.InferOptions
 
 
-## Description
-
 Возвращает результат попытки вывести возможности SQL для драйвера ODBC.
 
 
@@ -19,7 +17,7 @@ Odbc.InferOptions(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает результат попытки вывести возможности SQL по строке подключения <code>connectionString</code>, используя ODBC. <code>connectionString</code> может быть текстом или записью пар "свойство-значение". Значения свойств могут быть текстовыми или числовыми.
 

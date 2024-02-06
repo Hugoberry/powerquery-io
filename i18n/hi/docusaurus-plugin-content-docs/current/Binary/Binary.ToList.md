@@ -5,8 +5,6 @@ title: Binary.ToList
 # Binary.ToList
 
 
-## Description
-
 बाइनरी मान को संख्याओं की सूची में रूपांतरित करता है.
 
 
@@ -19,7 +17,7 @@ Binary.ToList(
 ```
 
 
-## Details
+## Remarks
 
 बाइनरी मान को संख्याओं की सूची में रूपांतरित करता है.
 

@@ -5,8 +5,6 @@ title: BinaryFormat.Decimal
 # BinaryFormat.Decimal
 
 
-## Description
-
 Een binaire indeling die een .NET decimale waarde met een lengte van 16 bytes leest.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Decimal(
 ```
 
 
-## Details
+## Remarks
 
 Een binaire indeling die een .NET decimale waarde met een lengte van 16 bytes leest.
 

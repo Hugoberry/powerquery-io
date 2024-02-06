@@ -5,8 +5,6 @@ title: Date.DayOfWeek
 # Date.DayOfWeek
 
 
-## Description
-
 返回数字(介于 0 和 6 之间)，以指明提供的值是星期几。
 
 
@@ -20,7 +18,7 @@ Date.DayOfWeek(
 ```
 
 
-## Details
+## Remarks
 
 返回数字(介于 0 和 6 之间)，以指明提供的 <code>dateTime</code> 是星期几。  <ul>        <li><code>dateTime</code>: <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值。</li>        <li><code>firstDayOfWeek</code>: <code>Day</code> 值，指明应将哪一天视为一周的第一天。可取值为 Day.Sunday、Day.Monday、Day.Tuesday、Day.Wednesday、Day.Thursday、Day.Friday 或 Day.Saturday。如果未指定，使用的是依赖区域性的默认值。</li>      </ul>
 

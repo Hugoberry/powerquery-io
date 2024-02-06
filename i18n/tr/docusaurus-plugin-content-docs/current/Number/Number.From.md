@@ -5,8 +5,6 @@ title: Number.From
 # Number.From
 
 
-## Description
-
 Verilen değerden sayı oluşturur.
 
 
@@ -20,7 +18,7 @@ Number.From(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>value</code> değerinden bir <code>number</code> değeri döndürür. Ayrıca, isteğe bağlı bir <code>culture</code> sağlanabilir (ör. "tr-TR").Verilen <code>value</code> <code>null</code> olduğunda <code>Number.From</code> <code>null</code> döndürür. Verilen <code>value</code> <code>number</code> olduğunda <code>value</code> döndürülür. Aşağıdaki türlerde olan değerler bir <code>number</code> değerine dönüştürülebilir:      <ul>        <li><code>text</code>: Metin gösteriminden bir <code>number</code> değeri. Genel metin biçimleri işlenir ("15", "3.423,10", "5,0E-10"). Ayrıntılar için bkz. <code>Number.FromText</code>.</li>        <li><code>logical</code>: <code>true</code> için 1, <code>false</code> için 0.</li>        <li><code>datetime</code>: OLE Otomasyonu tarih eşdeğerini içeren çift duyarlıklı kayan noktalı sayı.</li>        <li><code>datetimezone</code>: <code>value</code> yerel tarih ve saatinin OLE Otomasyonu tarih eşdeğerini içeren çift duyarlıklı kayan noktalı sayı.</li>        <li><code>date</code>: OLE Otomasyonu tarih eşdeğerini içeren çift duyarlıklı kayan noktalı sayı.</li>        <li><code>time</code>: Kesirli günler ile ifade edilir.</li>        <li><code>duration</code>: Tam ve kesirli günler ile ifade edilir.</li>      </ul><code>value</code> başka bir türde olduğunda hata döndürülür.
 

@@ -5,8 +5,6 @@ title: Binary.Buffer
 # Binary.Buffer
 
 
-## Description
-
 Puffert den Binärwert im Arbeitsspeicher.
 
 
@@ -19,7 +17,7 @@ Binary.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Puffert den Binärwert im Arbeitsspeicher. Das Ergebnis dieses Aufrufs ist ein stabiler binärer Wert. Das bedeutet, er hat eine deterministische Länge und Bytereihenfolge.
 

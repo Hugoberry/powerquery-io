@@ -5,8 +5,6 @@ title: Date.AddWeeks
 # Date.AddWeeks
 
 
-## Description
-
 निर्दिष्ट सप्ताहों को दिनांक में जोड़ता है.
 
 
@@ -20,7 +18,7 @@ Date.AddWeeks(
 ```
 
 
-## Details
+## Remarks
 
 <code>datetime</code> मान <code>dateTime</code> में <code>numberOfWeeks</code> सप्ताह जोड़ने से आने वाला <code>date</code>, <code>datetime</code> या <code>datetimezone</code> परिणाम लौटाता है.      <ul>      <li><code>dateTime</code>: <code>date</code>, <code>datetime</code> या <code>datetimezone</code> वे मान हैं जिनमें सप्ताहों को जोड़ा जा रहा है.</li>      <li><code>numberOfWeeks</code>: जोड़ने के लिए सप्ताहों की संख्या.</li>      </ul>
 

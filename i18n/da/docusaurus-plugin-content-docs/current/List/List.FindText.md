@@ -5,8 +5,6 @@ title: List.FindText
 # List.FindText
 
 
-## Description
-
 Returnerer en liste over værdier (herunder postfelter), der indeholder den angivne tekst.
 
 
@@ -20,7 +18,7 @@ List.FindText(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en liste over værdierne fra listen <code>list</code>, som indeholdt værdien <code>text</code>.
 

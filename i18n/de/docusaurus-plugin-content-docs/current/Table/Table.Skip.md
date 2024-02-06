@@ -5,8 +5,6 @@ title: Table.Skip
 # Table.Skip
 
 
-## Description
-
 Gibt eine Tabelle zurück, in der die ersten x Zeilen übersprungen wurden.
 
 
@@ -20,7 +18,7 @@ Table.Skip(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Tabelle zurück, in der die angegebene Anzahl von Zeilen (<code>countOrCondition</code>; beginnend von oben) der Tabelle "<code>table</code>" nicht enthalten ist.    Wie viele Zeilen übersprungen werden, hängt vom optionalen Parameter "<code>countOrCondition</code>" ab.    <ul>    <li> Ohne Angabe von "<code>countOrCondition</code>" wird lediglich die erste Zeile übersprungen. </li>    <li> Ist "<code>countOrCondition</code>" eine Zahl, wird die entsprechende Anzahl von Zeilen (beginnend von oben) übersprungen. </li>    <li> Ist "<code>countOrCondition</code>" eine Bedingung, werden so lange Zeilen übersprungen, die die Bedingung erfüllen, bis eine Zeile die Bedingung nicht erfüllt.</li>    </ul>
 

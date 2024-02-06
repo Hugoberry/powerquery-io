@@ -5,8 +5,6 @@ title: Table.Skip
 # Table.Skip
 
 
-## Description
-
 İlk sayı satırları atlanacak şekilde bir tablo döndürür.
 
 
@@ -20,7 +18,7 @@ Table.Skip(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> tablosunun ilk belirtilen sayıda, <code>countOrCondition</code>, satır içermeyen bir tablo döndürür.    Atlanan satır sayısı <code>countOrCondition</code> isteğe bağlı parametresine bağlıdır.    <ul>    <li> <code>countOrCondition</code> dahil edilmezse yalnızca ilk satır atlanır. </li>    <li> <code>countOrCondition</code> bir sayı ise bu sayıda satır (üstten başlayarak) atlanır. </li>    <li> <code>countOrCondition</code> bir koşul ise koşulu sağlayan satırlar, herhangi bir satır koşulu sağlamayana kadar atlanır.</li>    </ul>
 

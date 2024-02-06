@@ -5,8 +5,6 @@ title: Record.SelectFields
 # Record.SelectFields
 
 
-## Description
-
 指定されたフィールドのみを含むレコードを返します。
 
 
@@ -21,7 +19,7 @@ Record.SelectFields(
 ```
 
 
-## Details
+## Remarks
 
 入力 <code>record</code> からリスト <code>fields</code> で指定されたフィールドのみを含むレコードを返します。
 

@@ -5,8 +5,6 @@ title: Time.ToRecord
 # Time.ToRecord
 
 
-## Description
-
 वह रिकॉर्ड लौटाता है, जिसमें समय मान के भाग शामिल हैं.
 
 
@@ -19,7 +17,7 @@ Time.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 वह रिकॉर्ड लौटाता है, जिसमें दिए गए समय मान <code>time</code> के भाग शामिल हैं. <ul>        <li><code>time</code>: एक ऐसा <code>समय</code> मान, जिससे उसके अंशों के रिकॉर्ड को परिकलित किया जाना है.</li>      </ul>
 

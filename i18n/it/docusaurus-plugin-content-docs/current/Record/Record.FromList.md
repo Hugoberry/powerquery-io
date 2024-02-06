@@ -5,8 +5,6 @@ title: Record.FromList
 # Record.FromList
 
 
-## Description
-
 Restituisce un record corrispondente a un elenco di valori di campi e un set di campi.
 
 
@@ -20,7 +18,7 @@ Record.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un record corrispondente a un elemento <code>list</code> di valori di campi e un set di campi.  <code>fields</code> può essere specificato da un elenco di valori di testo o da un tipo di record.  Se i campi non sono univoci viene restituito un errore.
 

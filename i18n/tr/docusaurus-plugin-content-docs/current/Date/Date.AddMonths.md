@@ -5,8 +5,6 @@ title: Date.AddMonths
 # Date.AddMonths
 
 
-## Description
-
 Belirtilen ayları tarihe ekler.
 
 
@@ -20,7 +18,7 @@ Date.AddMonths(
 ```
 
 
-## Details
+## Remarks
 
 <code>numberOfMonths</code> ayı <code>datetime</code> değeri olan <code>dateTime</code> öğesine ekleme nedeniyle oluşan <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> sonucunu döndürür.      <ul>        <li><code>dateTime</code>: Ayların eklendiği <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>        <li><code>numberOfMonths</code>: Eklenecek ay sayısı.</li>      </ul>
 

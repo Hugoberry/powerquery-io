@@ -5,8 +5,6 @@ title: Date.DayOfWeekName
 # Date.DayOfWeekName
 
 
-## Description
-
 Trả về tên của ngày trong tuần.
 
 
@@ -20,7 +18,7 @@ Date.DayOfWeekName(
 ```
 
 
-## Details
+## Remarks
 
 Trả về ngày trong tuần cho <code>date</code> được cung cấp. <code>culture</code> tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
 

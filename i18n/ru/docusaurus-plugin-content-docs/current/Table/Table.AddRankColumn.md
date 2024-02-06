@@ -5,8 +5,6 @@ title: Table.AddRankColumn
 # Table.AddRankColumn
 
 
-## Description
-
 Добавляет столбец с ранжированием одного или нескольких других столбцов.
 
 
@@ -22,7 +20,7 @@ Table.AddRankColumn(
 ```
 
 
-## Details
+## Remarks
 
 Добавляет столбец с именем <code>newColumnName</code> к <code>table</code> с ранжированием одного или нескольких других столбцов, описанных посредством <code>comparisonCriteria</code>.Параметр RankKind в <code>options</code> может использоваться продвинутыми пользователями для выбора более конкретного метода ранжирования.
 

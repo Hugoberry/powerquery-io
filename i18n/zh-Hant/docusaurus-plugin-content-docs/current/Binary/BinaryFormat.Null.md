@@ -5,8 +5,6 @@ title: BinaryFormat.Null
 # BinaryFormat.Null
 
 
-## Description
-
 一種二進位格式，可讀取零個位元組並傳回 Null。
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Null(
 ```
 
 
-## Details
+## Remarks
 
 一種二進位格式，可讀取零個位元組並傳回 Null。
 

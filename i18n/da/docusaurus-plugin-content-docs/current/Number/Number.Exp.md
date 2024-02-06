@@ -5,8 +5,6 @@ title: Number.Exp
 # Number.Exp
 
 
-## Description
-
 Opløfter e til en angivet potens.
 
 
@@ -19,7 +17,7 @@ Number.Exp(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer resultatet af at opløfte e til potensen <code>number</code> (eksponentiel funktion).      <ul>        <li><code>number</code>: En værdi af typen <code>number</code>, som den eksponentielle funktion skal beregnes for. Hvis <code>number</code> er null, returnerer <code>Number.Exp</code> null. </li>      </ul>
 

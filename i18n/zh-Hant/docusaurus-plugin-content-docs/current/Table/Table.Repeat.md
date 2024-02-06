@@ -5,8 +5,6 @@ title: Table.Repeat
 # Table.Repeat
 
 
-## Description
-
 將資料表的資料列重複指定的次數。
 
 
@@ -20,7 +18,7 @@ Table.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 傳回資料表，其中來自輸入 <code>table</code> 的資料列會重複指定 <code>count</code> 次。
 

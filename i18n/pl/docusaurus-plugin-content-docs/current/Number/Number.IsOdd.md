@@ -5,8 +5,6 @@ title: Number.IsOdd
 # Number.IsOdd
 
 
-## Description
-
 Wskazuje, czy wartość jest nieparzysta.
 
 
@@ -19,7 +17,7 @@ Number.IsOdd(
 ```
 
 
-## Details
+## Remarks
 
 Wskazuje, czy wartość jest nieparzysta. Zwraca wartość <code>true</code>, jeśli wartość <code>number</code> jest liczbą nieparzystą; w przeciwnym razie zwraca wartość <code>false</code>.
 

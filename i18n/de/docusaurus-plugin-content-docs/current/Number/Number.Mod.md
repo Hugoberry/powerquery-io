@@ -5,8 +5,6 @@ title: Number.Mod
 # Number.Mod
 
 
-## Description
-
 Eine ganze Zahl dividiert zwei Zahlen und gibt den Restwert zurück.
 
 
@@ -21,7 +19,7 @@ Number.Mod(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Rest zurück, der sich aus der ganzzahligen Division von <code>number</code> durch <code>divisor</code> ergibt.    Ist <code>number</code> oder <code>divisor</code> NULL, gibt <code>Number.Mod</code> NULL zurück.      <ul>        <li><code>number</code>: Der Dividend.</li>        <li><code>divisor</code>: Der Divisor.</li>      </ul>
 

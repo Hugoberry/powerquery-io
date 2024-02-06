@@ -5,8 +5,6 @@ title: BinaryFormat.Binary
 # BinaryFormat.Binary
 
 
-## Description
-
 Bir ikili değeri okuyan ikili biçimi döndürür.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Binary(
 ```
 
 
-## Details
+## Remarks
 
 İkili değeri okuyan bir ikili biçim döndürür. <code>length</code> belirtilirse, ikili değer bu kadar bayt içerecektir. <code>length</code> belirtilmezse, ikili değer kalan baytları içerecektir. <code>length</code>, bir sayı olarak veya ikili veriden önce gelen uzunluğun ikili biçimi olarak belirtilebilir.
 

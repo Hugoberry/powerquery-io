@@ -5,8 +5,6 @@ title: Number.Atan2
 # Number.Atan2
 
 
-## Description
-
 Returnerar arctangens för divisionen av de två talen.
 
 
@@ -20,7 +18,7 @@ Number.Atan2(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar arctangens för divisionen av de två talen, <code>y</code> och <code>x</code>. Divisionen skapas som <code>y</code>/<code>x</code>.
 

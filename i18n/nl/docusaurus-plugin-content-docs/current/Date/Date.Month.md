@@ -5,8 +5,6 @@ title: Date.Month
 # Date.Month
 
 
-## Description
-
 Retourneert het maandgedeelte.
 
 
@@ -19,7 +17,7 @@ Date.Month(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het maandgedeelte van de opgegeven <code>datetime</code>waarde, <code>dateTime</code>.
 

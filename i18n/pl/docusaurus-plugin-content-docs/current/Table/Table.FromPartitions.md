@@ -5,8 +5,6 @@ title: Table.FromPartitions
 # Table.FromPartitions
 
 
-## Description
-
 Zwraca tabelę będącą wynikiem połączenia zestawu podzielonych tabel.
 
 
@@ -21,7 +19,7 @@ Table.FromPartitions(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę będącą wynikiem połączenia zestawu podzielonych tabel, <code>partitions</code>. <code>partitionColumn</code> to nazwa kolumny, która ma zostać dodana. Jako typ kolumny jest ustawiana wartość domyślna <code>any</code>, ale może zostać określony przez element <code>partitionColumnType</code>.
 

@@ -5,8 +5,6 @@ title: Record.FieldValues
 # Record.FieldValues
 
 
-## Description
-
 Retourne une liste de valeurs de champ.
 
 
@@ -19,7 +17,7 @@ Record.FieldValues(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une liste de valeurs de champ dans un enregistrement <code>record</code>.
 

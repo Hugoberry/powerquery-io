@@ -5,8 +5,6 @@ title: Record.ReorderFields
 # Record.ReorderFields
 
 
-## Description
-
 Ändrar ordning på det eller de angivna fälten till den nya ordningen.
 
 
@@ -21,7 +19,7 @@ Record.ReorderFields(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en post efter omordning av fälten i <code>record</code> med den fältordning som anges i listan <code>fieldOrder</code>. Fältvärden bevaras och fält som inte finns i <code>fieldOrder</code> lämnas på den ursprungliga positionen.
 

@@ -5,8 +5,6 @@ title: List.Covariance
 # List.Covariance
 
 
-## Description
-
 2 つの数のリストの間の共分散を返します。
 
 
@@ -20,7 +18,7 @@ List.Covariance(
 ```
 
 
-## Details
+## Remarks
 
 <code>numberList1</code> と <code>numberList2</code> の 2 つのリストの間の共分散を返します。<code>numberList1</code> と <code>numberList2</code> には同じ数の <code>number</code> 値が含まれている必要があります。
 

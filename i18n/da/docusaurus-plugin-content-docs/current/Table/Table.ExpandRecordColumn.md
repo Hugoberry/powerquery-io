@@ -5,8 +5,6 @@ title: Table.ExpandRecordColumn
 # Table.ExpandRecordColumn
 
 
-## Description
-
 Udvider en kolonne over poster i kolonner med de enkelte værdier.
 
 
@@ -22,7 +20,7 @@ Table.ExpandRecordColumn(
 ```
 
 
-## Details
+## Remarks
 
 Med <code>column</code> over poster i inputtet <code>table</code> oprettes en tabel med en kolonne for de enkelte felter i posten. Du kan vælge at angive <code>newColumnNames</code> for at sikre entydige navne for kolonnerne i den nye tabel.    <ul>        <li><code>table</code>: Den oprindelige tabel med den postkolonne, der skal udvides. </li>        <li><code>column</code>: Den kolonne, der skal udvides.</li>        <li><code>fieldNames</code>: Den feltliste, der skal udvides i kolonner i tabellen.</li>        <li><code>newColumnNames</code>: Den liste over kolonnenavne, der skal overføres til de nye kolonner. De nye kolonnenavne kan ikke kopiere nogen kolonner i den nye tabel.</li>    </ul>
 

@@ -5,8 +5,6 @@ title: Diagnostics.ActivityId
 # Diagnostics.ActivityId
 
 
-## Description
-
 O sırada çalıştırılan değerlendirme için genel olmayan bir tanımlayıcı döndürür.
 
 
@@ -19,7 +17,7 @@ Diagnostics.ActivityId(
 ```
 
 
-## Details
+## Remarks
 
 O sırada çalıştırılan değerlendirme için genel olmayan bir tanımlayıcı döndürür.
 

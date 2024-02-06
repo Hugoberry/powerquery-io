@@ -5,8 +5,6 @@ title: Record.FromTable
 # Record.FromTable
 
 
-## Description
-
 สร้างระเบียนจากตารางของฟอร์ม \{[Name = name, Value = value]}
 
 
@@ -19,7 +17,7 @@ Record.FromTable(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับระเบียนจากตารางของระเบียน <code>table</code> ที่มีชื่อเขตข้อมูลและชื่อค่า <code>\{[Name = name, Value = value]}</code> ระบบจะแสดงข้อยกเว้นถ้าชื่อเขตข้อมูลซ้ำกัน
 

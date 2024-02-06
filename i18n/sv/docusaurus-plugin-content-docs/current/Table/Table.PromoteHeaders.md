@@ -5,8 +5,6 @@ title: Table.PromoteHeaders
 # Table.PromoteHeaders
 
 
-## Description
-
 Flyttar upp den första raden med värden som de nya kolumnrubrikerna (t.ex. kolumnnamn).
 
 
@@ -20,7 +18,7 @@ Table.PromoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Höjer upp den första raden med värden som de nya kolumnrubrikerna (t.ex. kolumnnamn). Endast text och siffror höjs som standard upp som rubriker. Giltiga alternativ:    <div>      <code>PromoteAllScalars</code> : Om du väljer inställningen <code>true</code> höjs alla skalarvärden på den första raden upp som rubriker med hjälp av <code>Kultur</code>, om sådan angetts (eller det aktuella dokumentets nationella inställningar).    När det gäller värden som inte kan konverteras till text används ett standardkolumnnamn.    </div>    <div>    <code>Kultur</code> : Ett kulturnamn som anger informationens kultur.    </div>  
 

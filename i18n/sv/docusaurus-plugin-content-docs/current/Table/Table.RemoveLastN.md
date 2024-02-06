@@ -5,8 +5,6 @@ title: Table.RemoveLastN
 # Table.RemoveLastN
 
 
-## Description
-
 Returnerar en tabell där de sista N raderna tagits bort.
 
 
@@ -20,7 +18,7 @@ Table.RemoveLastN(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell som inte innehåller de sista <code>countOrCondition</code> raderna i tabellen <code>table</code>.        Hur många rader som tas bort beror på den valfria parametern <code>countOrCondition</code>.    <ul>    <li> Om <code>countOrCondition</code> utelämnas tas bara den sista raden bort. </li>    <li> Om <code>countOrCondition</code> är ett tal tas så många rader (med början nedifrån) bort. </li>    <li> Om <code>countOrCondition</code> är ett villkor tas de rader som uppfyller villkoret bort tills en rad inte uppfyller villkoret.</li>    </ul>
 

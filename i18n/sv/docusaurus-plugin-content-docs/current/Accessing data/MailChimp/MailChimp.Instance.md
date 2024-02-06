@@ -5,8 +5,6 @@ title: MailChimp.Instance
 # MailChimp.Instance
 
 
-## Description
-
 Returnerar rå-resultat från en MailChimp API-slutpunkt.
 
 
@@ -19,7 +17,7 @@ MailChimp.Instance(
 ```
 
 
-## Details
+## Remarks
 
 Anropar MailChimp API:n och returnerar råsvaret.
 

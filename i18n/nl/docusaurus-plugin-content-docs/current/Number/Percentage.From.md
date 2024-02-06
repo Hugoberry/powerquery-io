@@ -5,8 +5,6 @@ title: Percentage.From
 # Percentage.From
 
 
-## Description
-
 Hiermee wordt een percentagewaarde geretourneerd voor een opgegeven waarde.
 
 
@@ -20,7 +18,7 @@ Percentage.From(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een <code>percentage</code>-waarde geretourneerd voor de opgegeven <code>value</code>. Als de opgegeven <code>value</code> <code>null</code> is, wordt door <code>Percentage.From</code> <code>null</code> geretourneerd. Als een opgegeven <code>value</code> een <code>text</code>-waarde met een navolgend procentteken heeft, wordt het geconverteerde decimale getal geretourneerd. Anders wordt de waarde geconverteerd naar een <code>nummer</code> met behulp van <code>Number.From</code>. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
 

@@ -5,8 +5,6 @@ title: List.Single
 # List.Single
 
 
-## Description
-
 Trả về mục một danh sách đối với danh sách có độ dài là một, nếu không đưa ra một ngoại lệ.
 
 
@@ -19,7 +17,7 @@ List.Single(
 ```
 
 
-## Details
+## Remarks
 
 Nếu chỉ có một mục trong danh sách <code>list</code>, trả về mục đó.    Nếu có nhiều mục hoặc danh sách trống thì hàm đưa ra một ngoại lệ.
 

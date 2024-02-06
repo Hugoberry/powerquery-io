@@ -5,8 +5,6 @@ title: Double.From
 # Double.From
 
 
-## Description
-
 Tworzy liczbę o podwójnej precyzji dla podanej wartości.
 
 
@@ -20,7 +18,7 @@ Double.From(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca liczbę o podwójnej precyzji <code>number</code> dla podanej wartości <code>value</code>. Jeśli podana wartość <code>value</code> to wartość <code>null</code>, funkcja <code>Double.From</code> zwraca wartość <code>null</code>. Jeśli podana wartość <code>value</code> to <code>number</code> w zakresie liczby o podwójnej precyzji, jest zwracana wartość <code>value</code> — w innych wypadkach jest zwracany błąd. Jeśli wartość <code>value</code> jest wartością innego typu, najpierw zostanie przekonwertowana na wartość <code>number</code> przy użyciu funkcji <code>Number.FromText</code>. Można także określić opcjonalny parametr <code>culture</code> (na przykład „en-US”).
 

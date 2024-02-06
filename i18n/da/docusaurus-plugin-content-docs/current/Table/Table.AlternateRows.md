@@ -5,8 +5,6 @@ title: Table.AlternateRows
 # Table.AlternateRows
 
 
-## Description
-
 Bevarer den første forskydning og skifter derefter mellem at hente og springe følgende rækker over.
 
 
@@ -22,7 +20,7 @@ Table.AlternateRows(
 ```
 
 
-## Details
+## Remarks
 
 Bevarer den første forskydning og skifter derefter mellem at hente og springe følgende rækker over.    <ul>       <li><code>table</code>: Inputtabellen.</li>       <li><code>offset</code>: Det antal rækker, der skal bevares, før gentagelser startes.</li>       <li><code>skip</code>: Det antal rækker, der skal fjernes i hver gentagelse.</li>       <li><code>take</code>: Det antal rækker, der skal bevares i hver gentagelse.</li>    </ul>    
 

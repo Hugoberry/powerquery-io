@@ -5,8 +5,6 @@ title: Table.CombineColumns
 # Table.CombineColumns
 
 
-## Description
-
 Combina las columnas especificadas en una nueva columna con la función especificada de combinador.
 
 
@@ -22,7 +20,7 @@ Table.CombineColumns(
 ```
 
 
-## Details
+## Remarks
 
 Combina las columnas especificadas en una nueva columna con la función especificada de combinador.
 

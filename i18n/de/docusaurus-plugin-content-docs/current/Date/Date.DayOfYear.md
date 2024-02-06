@@ -5,8 +5,6 @@ title: Date.DayOfYear
 # Date.DayOfYear
 
 
-## Description
-
 Gibt eine Zahl zwischen eins und 366 zurück, die für den Tag des Jahres steht.
 
 
@@ -19,7 +17,7 @@ Date.DayOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Zahl zurück, die für den Tag des Jahres im angegebenen <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert "<code>dateTime</code>" steht.
 

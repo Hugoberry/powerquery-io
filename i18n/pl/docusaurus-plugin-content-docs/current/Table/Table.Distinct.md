@@ -5,8 +5,6 @@ title: Table.Distinct
 # Table.Distinct
 
 
-## Description
-
 Usuwa zduplikowane wiersze z tabeli.
 
 
@@ -20,7 +18,7 @@ Table.Distinct(
 ```
 
 
-## Details
+## Remarks
 
 Usuwa zduplikowane wiersze z tabeli.    Opcjonalny parametr <code>equationCriteria</code> określa, które kolumny tabeli są testowane pod kątem duplikacji. Jeśli nie określono <code>equationCriteria</code>, wszystkie kolumny są testowane.<br />    <br />    Ponieważ dodatek Power Query czasami przenosi niektóre operacje do źródeł danych wewnętrznej bazy danych (nazywanych „składaniem”), a także czasami optymalizuje zapytania poprzez     pomijanie operacji, które nie są ściśle konieczne, ogólnie rzecz biorąc, nie ma gwarancji, który konkretny duplikat zostanie zachowany.    Na przykład nie można założyć, że pierwszy wiersz z unikatowym zestawem wartości kolumn pozostanie, a wiersze znajdujące się poniżej w tabeli zostaną usunięte.    Jeśli chcesz, aby usunięcie duplikatów działało w sposób przewidywalny, najpierw zbuforuj tabelę przy użyciu funkcji <code>Table.Buffer</code>.
 

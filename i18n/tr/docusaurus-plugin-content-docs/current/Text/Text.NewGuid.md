@@ -5,8 +5,6 @@ title: Text.NewGuid
 # Text.NewGuid
 
 
-## Description
-
 Yeni, rastgele bir genel benzersiz tanımlayıcı (GUID) döndürür.
 
 
@@ -19,7 +17,7 @@ Text.NewGuid(
 ```
 
 
-## Details
+## Remarks
 
 Yeni, rastgele bir genel benzersiz tanımlayıcı (GUID) döndürür.
 

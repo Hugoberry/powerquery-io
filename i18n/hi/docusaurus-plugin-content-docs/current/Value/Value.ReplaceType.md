@@ -5,8 +5,6 @@ title: Value.ReplaceType
 # Value.ReplaceType
 
 
-## Description
-
 मान के प्रकार को बदलता है.
 
 
@@ -20,7 +18,7 @@ Value.ReplaceType(
 ```
 
 
-## Details
+## Remarks
 
 प्रदान किए गए <code>type</code> से <code>value</code> का प्रकार बदलता है.
 

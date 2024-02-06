@@ -5,8 +5,6 @@ title: List.InsertRange
 # List.InsertRange
 
 
-## Description
-
 Indsætter værdier på en liste ved det angivne indeks.
 
 
@@ -21,7 +19,7 @@ List.InsertRange(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en ny liste, der er oprettet ved at indsætte værdierne fra <code>values</code> i <code>list</code> ved <code>index</code>. Den første position på listen er ved indeks 0.      <ul>        <li><code>list</code>: Den destinationsliste, hvor værdier skal indsættes.</li>        <li><code>index</code>: Indeks for destinationslisten (<code>list</code>), hvor værdierne skal indsættes. Den første position på listen er ved indeks 0.</li>        <li><code>values</code>: Den liste over værdier, som skal indsættes i <code>list</code>.</li>      </ul>
 

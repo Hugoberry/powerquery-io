@@ -5,8 +5,6 @@ title: BinaryFormat.SignedInteger16
 # BinaryFormat.SignedInteger16
 
 
-## Description
-
 बाइनरी स्वरूप जो 16-बिट हस्ताक्षरित पूर्णांक को पढ़ता है.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.SignedInteger16(
 ```
 
 
-## Details
+## Remarks
 
 बाइनरी स्वरूप जो 16-बिट हस्ताक्षरित पूर्णांक को पढ़ता है.
 

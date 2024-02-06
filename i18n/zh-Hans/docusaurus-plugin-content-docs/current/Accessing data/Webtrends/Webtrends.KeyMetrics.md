@@ -5,8 +5,6 @@ title: Webtrends.KeyMetrics
 # Webtrends.KeyMetrics
 
 
-## Description
-
 返回包含关键 Webtrends 指标的表。
 
 
@@ -21,7 +19,7 @@ Webtrends.KeyMetrics(
 ```
 
 
-## Details
+## Remarks
 
 调用 Webtrends KeyMetrics 终结点，并将所有数据作为表返回。
 

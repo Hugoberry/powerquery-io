@@ -5,8 +5,6 @@ title: Table.Range
 # Table.Range
 
 
-## Description
-
 以指定的偏移量开始返回行。
 
 
@@ -21,7 +19,7 @@ Table.Range(
 ```
 
 
-## Details
+## Remarks
 
 以指定的 <code>offset</code> 开始返回 <code>table</code> 中的行。可选参数 <code>count</code> 指定要返回的行数。默认情况下，将返回偏移量之后的所有行。
 

@@ -5,8 +5,6 @@ title: Text.SplitAny
 # Text.SplitAny
 
 
-## Description
-
 Sınırlayıcıdaki karakterlerden herhangi birinde ayrılmış metin değerleri listesi döndürür.
 
 
@@ -20,7 +18,7 @@ Text.SplitAny(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> metin değerini <code>separators</code> belirtilen sınırlayıcısındaki herhangi bir karaktere dayalı olarak ayırmanın sonucu olan metin değerleri listesini döndürür.
 

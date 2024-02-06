@@ -5,8 +5,6 @@ title: Cube.AttributeMemberId
 # Cube.AttributeMemberId
 
 
-## Description
-
 Returnerar det unika medlems-ID:t från medlemmarnas egenskapsvärden.
 
 
@@ -19,7 +17,7 @@ Cube.AttributeMemberId(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar det unika medlems-ID:t från en medlems egenskapsvärde. <code>attribute</code>. Returnerar null för alla övriga värden.
 

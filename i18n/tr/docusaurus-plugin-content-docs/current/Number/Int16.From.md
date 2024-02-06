@@ -5,8 +5,6 @@ title: Int16.From
 # Int16.From
 
 
-## Description
-
 Verilen değerden 16 bit tam sayı oluşturur.
 
 
@@ -21,7 +19,7 @@ Int16.From(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>value</code> değerinden 16 bitlik bir tamsayı <code>number</code> değeri döndürür. Verilen <code>value</code> değeri <code>null</code> olduğunda, <code>Int16.From</code> <code>null</code> döndürür. Verilen <code>value</code> değeri kesirli kısmı olmayan 16 bitlik tamsayı aralığında bir <code>number</code> olduğunda <code>value</code> döndürülür. Kesirli kısmı varsa, sayı belirtilen yuvarlama moduyla yuvarlanır. Varsayılan yuvarlama modu <code>RoundingMode.ToEven</code> modudur. <code>value</code> başka herhangi bir türde olduğunda, önce <code>Number.FromText</code> kullanılarak <code>number</code> türüne dönüştürülür. Kullanılabilir yuvarlama modları için bkz. <code>Number.Round</code>. Ayrıca isteğe bağlı <code>culture</code> sağlanabilir (örneğin, "tr-TR").
 

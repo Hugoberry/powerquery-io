@@ -5,8 +5,6 @@ title: Tables.GetRelationships
 # Tables.GetRelationships
 
 
-## Description
-
 Tablo kümesinde var olan ilişkileri alır.
 
 
@@ -20,7 +18,7 @@ Tables.GetRelationships(
 ```
 
 
-## Details
+## Remarks
 
 Tablo kümesinde var olan ilişkileri alır. <code>tables</code> kümesinin gezinme tablosunun yapısına benzer bir yapıya sahip olduğu varsayılır. <code>dataColumn</code> tarafından tanımlanan sütunda gerçek veri tabloları bulunur.
 

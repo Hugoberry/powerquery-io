@@ -5,8 +5,6 @@ title: Table.DemoteHeaders
 # Table.DemoteHeaders
 
 
-## Description
-
 Giáng cấp các tiêu đề cột thành hàng giá trị đầu tiên.
 
 
@@ -19,7 +17,7 @@ Table.DemoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Giáng cấp các tiêu đề cột (tức là tên cột) thành hàng giá trị đầu tiên. Tên cột mặc định là "Column1", "Column2", v.v.
 

@@ -5,8 +5,6 @@ title: List.Contains
 # List.Contains
 
 
-## Description
-
 Gibt an, ob die Liste den Wert enthält.
 
 
@@ -21,7 +19,7 @@ List.Contains(
 ```
 
 
-## Details
+## Remarks
 
 Gibt an, ob die Liste "<code>list</code>" den Wert "<code>value</code>" enthält.    Gibt TRUE zurück, wenn der Wert in der Liste gefunden wird. Andernfalls wird FALSE zurückgegeben. Zum Steuern der Gleichheitsüberprüfung kann ein optionales Gleichungskriterium (<code>equationCriteria</code>) angegeben werden. 
 

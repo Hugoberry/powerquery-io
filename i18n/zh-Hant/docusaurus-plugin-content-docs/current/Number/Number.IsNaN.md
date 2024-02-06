@@ -5,8 +5,6 @@ title: Number.IsNaN
 # Number.IsNaN
 
 
-## Description
-
 指出值是否為 NaN (不是數字)。
 
 
@@ -19,7 +17,7 @@ Number.IsNaN(
 ```
 
 
-## Details
+## Remarks
 
 指出值是否為 NaN (不是數字)。如果 <code>number</code> 等於 <code>Number.IsNaN</code>，傳回 <code>true</code>，否則傳回 <code>false</code>。
 

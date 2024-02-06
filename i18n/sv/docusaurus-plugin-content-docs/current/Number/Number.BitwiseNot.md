@@ -5,8 +5,6 @@ title: Number.BitwiseNot
 # Number.BitwiseNot
 
 
-## Description
-
 Returnerar en byte där varje bit är motsatsen till indatavärdet.
 
 
@@ -19,7 +17,7 @@ Number.BitwiseNot(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar resultatet av en bitvis "Not"-åtgärd för <code>number</code>.
 

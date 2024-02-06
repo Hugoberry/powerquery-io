@@ -5,8 +5,6 @@ title: Table.ApproximateRowCount
 # Table.ApproximateRowCount
 
 
-## Description
-
 傳回資料表中的約略資料列數目。
 
 
@@ -19,7 +17,7 @@ Table.ApproximateRowCount(
 ```
 
 
-## Details
+## Remarks
 
 傳回 <code>table</code> 中的近似列數，如果資料來源不支援近似值，則傳回錯誤。
 

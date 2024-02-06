@@ -5,8 +5,6 @@ title: Record.Field
 # Record.Field
 
 
-## Description
-
 Devuelve el valor del campo especificado en un registro.
 
 
@@ -20,7 +18,7 @@ Record.Field(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve el valor del <code>field</code> especificado en el <code>record</code>. Si el campo no se encuentra, se inicia una excepción.
 

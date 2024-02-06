@@ -5,8 +5,6 @@ title: Lakehouse.Contents
 # Lakehouse.Contents
 
 
-## Description
-
 Importuj dane z magazynu Lakehouse
 
 
@@ -19,7 +17,7 @@ Lakehouse.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Nawiąż połączenie ze wszystkimi magazynami Lakehouse, do których masz dostęp, i wybierz jednostki, których chcesz użyć
 

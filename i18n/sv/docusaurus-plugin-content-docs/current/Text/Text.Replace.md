@@ -5,8 +5,6 @@ title: Text.Replace
 # Text.Replace
 
 
-## Description
-
 Ersätter alla förekomster av den angivna delsträngen i texten.
 
 
@@ -21,7 +19,7 @@ Text.Replace(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar resultatet från ersättningen av alla förekomster av textvärdet <code>old</code> i textvärdet <code>text</code> med textvärdet <code>new</code>. Den här funktionen är skiftlägeskänslig.
 

@@ -17,7 +17,7 @@ LinkedIn.SalesNavigator(
 ```
 
 
-## Details
+## Remarks
 
 Sales Navigator voor LinkedIn
 

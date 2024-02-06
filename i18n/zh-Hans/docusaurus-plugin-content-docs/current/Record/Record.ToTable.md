@@ -5,8 +5,6 @@ title: Record.ToTable
 # Record.ToTable
 
 
-## Description
-
 返回一个表，其中的每行是输入记录的字段名称和值。
 
 
@@ -19,7 +17,7 @@ Record.ToTable(
 ```
 
 
-## Details
+## Remarks
 
 返回一个表，它包含 <code>Name</code> 和 <code>Value</code> 列以及对应于 <code>record</code> 中每个字段的行。
 

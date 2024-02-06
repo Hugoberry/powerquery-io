@@ -5,8 +5,6 @@ title: Webtrends.KeyMetrics
 # Webtrends.KeyMetrics
 
 
-## Description
-
 傳回內含關鍵 Webtrends 計量的資料表。
 
 
@@ -21,7 +19,7 @@ Webtrends.KeyMetrics(
 ```
 
 
-## Details
+## Remarks
 
 呼叫 Webtrends KeyMetrics 端點，並以資料表格式傳回所有資料。
 

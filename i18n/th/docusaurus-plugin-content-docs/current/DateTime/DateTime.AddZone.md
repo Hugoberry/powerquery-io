@@ -5,8 +5,6 @@ title: DateTime.AddZone
 # DateTime.AddZone
 
 
-## Description
-
 เพิ่มข้อมูลโซนเวลาลงในค่าวันที่เวลา
 
 
@@ -21,7 +19,7 @@ DateTime.AddZone(
 ```
 
 
-## Details
+## Remarks
 
 เพิ่มข้อมูลโซนเวลาไปยังค่า <code>dateTime</code> ข้อมูลโซนเวลาประกอบด้วย <code>timezoneHours</code> และ <code>timezoneMinutes</code> เพิ่มเติม ซึ่งระบุออฟเซตที่ต้องการจากเวลา UTC
 

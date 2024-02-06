@@ -15,7 +15,7 @@ SparkPost.GetList(
 ```
 
 
-## Details
+## Remarks
 
 此函数可用于调用 SparkPost API v1 提供的任意“列表”终结点。使用此函数调用 SparkPost API 时，请注意 SparkPost API 有严格的 API 速率限制。如果 SparkPost 服务器返回了 429 状态代码，表明已达到速率限制，需要先稍等片刻，再执行多个调用。
 

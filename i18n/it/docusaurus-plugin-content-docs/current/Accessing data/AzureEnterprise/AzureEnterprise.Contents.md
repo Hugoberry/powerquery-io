@@ -5,8 +5,6 @@ title: AzureEnterprise.Contents
 # AzureEnterprise.Contents
 
 
-## Description
-
 Specificare l&#39;URL dell&#39;endpoint API REST Azure Enterprise associato alla registrazione
 
 
@@ -20,7 +18,7 @@ AzureEnterprise.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce i risultati binari della chiamata all'URL specificato per l'API Azure Enterprise.
 

@@ -5,8 +5,6 @@ title: Table.FromList
 # Table.FromList
 
 
-## Description
-
 Konverterer en liste til en tabel ved at anvende den angivne opdelingsfunktion på hvert element på listen.
 
 
@@ -23,7 +21,7 @@ Table.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Konverterer en liste, <code>list</code>, til en tabel ved at anvende den valgfrie opdelingsfunktion, <code>splitter</code>, på hvert element på listen. Det antages som standard, at listen er en liste over tekstværdier, der opdeles med kommaer. Den valgfrie <code>columns</code> kan være antallet af kolonner, en liste over kolonner eller en tabeltype. De valgfrie <code>default</code> og <code>extraValues</code> kan også angives.
 

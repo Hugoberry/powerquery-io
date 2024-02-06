@@ -5,8 +5,6 @@ title: DateTimeZone.FromFileTime
 # DateTimeZone.FromFileTime
 
 
-## Description
-
 根據 64 位元長整數建立 datetimezone。
 
 
@@ -19,7 +17,7 @@ DateTimeZone.FromFileTime(
 ```
 
 
-## Details
+## Remarks
 
 根據 <code>fileTime</code> 值建立 <code>datetimezone</code> 值，然後將其轉換成本地時區。filetime 是一個 Windows 檔案時間值，代表國際標準時間從西元 1601 年 1 月 1 日午夜 12:00 起已經過的 100 奈秒間隔數。    
 

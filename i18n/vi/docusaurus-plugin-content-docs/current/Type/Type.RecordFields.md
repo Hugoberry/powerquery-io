@@ -5,8 +5,6 @@ title: Type.RecordFields
 # Type.RecordFields
 
 
-## Description
-
 Trả về bản ghi mô tả các trường của loại bản ghi với mỗi trường của loại bản ghi trả về có tên tương ứng và một giá trị.
 
 
@@ -19,7 +17,7 @@ Type.RecordFields(
 ```
 
 
-## Details
+## Remarks
 
 Trả về bản ghi mô tả các trường của bản ghi <code>type</code>. Mỗi trường của loại bản ghi trả về có tên tương ứng và một giá trị theo dạng bản ghi <code>[ Type = type, Optional = logical ]</code>.
 

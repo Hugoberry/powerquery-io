@@ -5,8 +5,6 @@ title: List.Distinct
 # List.Distinct
 
 
-## Description
-
 Gibt eine Liste mit Werten ohne Duplikate zurück.
 
 
@@ -20,7 +18,7 @@ List.Distinct(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Liste mit allen Werten aus der Liste "<code>list</code>" (aber ohne Duplikate) zurück. Ist die Liste leer, entsteht eine leere Liste.
 

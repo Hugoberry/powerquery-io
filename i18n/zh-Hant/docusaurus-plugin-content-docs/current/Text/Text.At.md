@@ -5,8 +5,6 @@ title: Text.At
 # Text.At
 
 
-## Description
-
 傳回位於指定位置的字元。
 
 
@@ -20,7 +18,7 @@ Text.At(
 ```
 
 
-## Details
+## Remarks
 
 傳回文字值 <code>text</code> 中位於位置 <code>index</code> 的字元。文字中的第一個字元位於位置 0。
 

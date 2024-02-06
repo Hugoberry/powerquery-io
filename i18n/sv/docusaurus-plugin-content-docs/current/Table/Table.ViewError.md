@@ -5,8 +5,6 @@ title: Table.ViewError
 # Table.ViewError
 
 
-## Description
-
 Skapar en ändrad felpost som inte utlöser en återställning när den genereras av en hanterare som definierats i en vy (via Table.View).
 
 
@@ -19,7 +17,7 @@ Table.ViewError(
 ```
 
 
-## Details
+## Remarks
 
 Skapar en ändrad felpost från <code>errorRecord</code> som inte utlöser en återställning när den genereras av en hanterare som definierats i en vy (via Table.View).
 

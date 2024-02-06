@@ -5,8 +5,6 @@ title: DateTimeZone.SwitchZone
 # DateTimeZone.SwitchZone
 
 
-## Description
-
 Изменяет часовой пояс значения.
 
 
@@ -21,7 +19,7 @@ DateTimeZone.SwitchZone(
 ```
 
 
-## Details
+## Remarks
 
 Изменяет данные часового пояса в значении datetimezone <code>dateTimeZone</code> на новые данные о часовом поясе из <code>timezoneHours</code> и при необходимости <code>timezoneMinutes</code>.    Если <code>dateTimeZone</code> не содержит компонент часового пояса, возникает исключение.
 

@@ -5,8 +5,6 @@ title: Table.SelectRows
 # Table.SelectRows
 
 
-## Description
-
 เลือกแถวที่ตรงกับฟังก์ชันเงื่อนไข
 
 
@@ -20,7 +18,7 @@ Table.SelectRows(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางแถวจาก <code>table</code> ที่ตรงกับการเลือก <code>condition</code>
 

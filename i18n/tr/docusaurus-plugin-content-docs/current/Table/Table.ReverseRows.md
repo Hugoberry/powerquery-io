@@ -5,8 +5,6 @@ title: Table.ReverseRows
 # Table.ReverseRows
 
 
-## Description
-
 Ters sırada satırları içeren bir tablo döndürür.
 
 
@@ -19,7 +17,7 @@ Table.ReverseRows(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> girdisinden ters sırada sütunları içeren bir tablo döndürür.
 

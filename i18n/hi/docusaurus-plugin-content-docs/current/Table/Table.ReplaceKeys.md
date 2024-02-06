@@ -5,8 +5,6 @@ title: Table.ReplaceKeys
 # Table.ReplaceKeys
 
 
-## Description
-
 निर्दिष्ट तालिका की कुंजियाँ बदलता है.
 
 
@@ -20,7 +18,7 @@ Table.ReplaceKeys(
 ```
 
 
-## Details
+## Remarks
 
 निर्दिष्ट तालिका की कुंजियाँ बदलता है.
 

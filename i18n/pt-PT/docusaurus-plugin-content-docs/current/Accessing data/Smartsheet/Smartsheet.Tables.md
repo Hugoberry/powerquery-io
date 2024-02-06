@@ -5,8 +5,6 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-## Description
-
 Devolve uma tabela de folhas, relatórios, pastas e áreas de trabalho da API do Smartsheet
 
 
@@ -19,7 +17,7 @@ Smartsheet.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma tabela aninhada de folhas, relatórios, pastas e áreas de trabalho disponíveis da API do Smartsheet.
 

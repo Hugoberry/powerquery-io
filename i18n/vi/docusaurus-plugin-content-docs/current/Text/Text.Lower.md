@@ -5,8 +5,6 @@ title: Text.Lower
 # Text.Lower
 
 
-## Description
-
 Chuyển đổi tất cả các ký tự thành chữ thường.
 
 
@@ -20,7 +18,7 @@ Text.Lower(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả chuyển đổi tất cả ký tự trong <code>text</code> thành chữ thường. <code>culture</code> tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
 

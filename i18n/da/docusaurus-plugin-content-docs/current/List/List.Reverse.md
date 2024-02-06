@@ -5,8 +5,6 @@ title: List.Reverse
 # List.Reverse
 
 
-## Description
-
 Vender om på rækkefølgen af værdier på listen.
 
 
@@ -19,7 +17,7 @@ List.Reverse(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en liste over værdierne på listen <code>list</code> i omvendt rækkefølge.
 

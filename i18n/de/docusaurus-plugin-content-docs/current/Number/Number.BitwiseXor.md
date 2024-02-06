@@ -5,8 +5,6 @@ title: Number.BitwiseXor
 # Number.BitwiseXor
 
 
-## Description
-
 Gibt das Ergebnis der Ausführung eines bitweisen XOR-Vorgangs (ausschließendes ODER) zwischen den beiden Eingaben zurück.
 
 
@@ -20,7 +18,7 @@ Number.BitwiseXor(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das Ergebnis der Ausführung eines bitweisen XOR-Vorgangs (ausschließendes ODER) zwischen "<code>number1</code>" und "<code>number2</code>" zurück.
 

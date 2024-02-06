@@ -5,8 +5,6 @@ title: Int16.From
 # Int16.From
 
 
-## Description
-
 Opretter et 16-bit heltal ud fra den angivne værdi.
 
 
@@ -21,7 +19,7 @@ Int16.From(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer et 16-bit heltalsværdi <code>number</code> fra den angivne <code>value</code>. Hvis den angivne <code>value</code> er <code>null</code>, returnerer <code>Int16.From</code> <code>null</code>.  Hvis den angivne <code>value</code> er <code>number</code> inden for intervallet 16-bit heltal med fortegn uden en brøkdel, returneres <code>value</code>. Hvis det har en brøkdel, afrundes tallet med den angivne afrundingstilstand. Standardafrundingstilstanden er <code>RoundingMode.ToEven</code>. Hvis <code>value</code> er af en anden type, konverteres den først til en <code>number</code> ved hjælp af <code>Number.FromText</code>. Se <code>Number.Round</code> for de tilgængelige afrundingstilstande. Der kan også angives en valgfri <code>culture</code> (f.eks. "en-US").
 

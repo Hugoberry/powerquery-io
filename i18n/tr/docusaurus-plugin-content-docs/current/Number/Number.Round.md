@@ -5,8 +5,6 @@ title: Number.Round
 # Number.Round
 
 
-## Description
-
 Yuvarlanmış sayıyı döndürür. Basamak sayısı ve yuvarlama modu belirtilebilir.
 
 
@@ -21,7 +19,7 @@ Number.Round(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> değerini en yakın sayıya yuvarlamanın sonucunu döndürür. <code>number</code> null olduğunda <code>Number.Round</code> null döndürür.<br />      <br />      <code>number</code>, varsayılan olarak en yakın tamsayıya yuvarlanır ve <code>RoundingMode</code> ("bankacı yuvarlaması" olarak da bilinir) kullanılıp en yakın sayıya yuvarlanarak eşitlikler bozulur<br />      <br />      ancak bu varsayılanlar, aşağıdaki isteğe bağlı parametreler aracılığıyla geçersiz kılınabilir.      <ul>        <li><code>digits</code>, <code>number</code> değerini belirtilen ondalık basamağa yuvarlar.</li>        <li><code>roundingMode</code>, <code>number</code> değeri iki olası yuvarlanan değer arasında olduğunda varsayılan eşitlik bozma davranışını geçersiz kılar.      (olası değerler için bkz. <code>RoundingMode.Type</code>)</li>      </ul>
 

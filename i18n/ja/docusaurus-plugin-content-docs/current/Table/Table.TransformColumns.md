@@ -5,8 +5,6 @@ title: Table.TransformColumns
 # Table.TransformColumns
 
 
-## Description
-
 1 つ以上の列の値を変換します。
 
 
@@ -22,7 +20,7 @@ Table.TransformColumns(
 ```
 
 
-## Details
+## Remarks
 
 <code>transformOperations</code> に一覧表示されている各列操作を適用して <code>table</code> を変換します (形式は \{ column name, transformation } または \{ column name, transformation, new column type })。    <code>defaultTransformation</code> を指定すると、<code>transformOperations</code> に一覧表示されていないすべての列に適用されます。    <code>transformOperations</code> に一覧表示されている列が存在しない場合は、省略可能なパラメーター <code>missingField</code> が代替を指定しない限り、例外がスローされます (例: <code>MissingField.UseNull</code> または <code>MissingField.Ignore</code>)。
 

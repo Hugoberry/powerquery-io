@@ -5,8 +5,6 @@ title: Text.BetweenDelimiters
 # Text.BetweenDelimiters
 
 
-## Description
-
 Text.BetweenDelimiters
 
 
@@ -23,7 +21,7 @@ Text.BetweenDelimiters(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer andelen af <code>text</code> mellem den angivne <code>startDelimiter</code> og <code>endDelimiter</code>.    En valgfri numerisk værdi, <code>startIndex</code>, angiver, hvilken forekomst af <code>startDelimiter</code> der skal tages i betragtning.    En valgfri liste, <code>startIndex</code>, angiver, hvilken forekomst af <code>startDelimiter</code> der skal tages i betragtning, samt om indeksering skal foretages fra starten eller slutningen af inputtet.    <code>endIndex</code> er tilsvarende, bortset fra, at indekseringen foretages i forhold til <code>startIndex</code>.
 

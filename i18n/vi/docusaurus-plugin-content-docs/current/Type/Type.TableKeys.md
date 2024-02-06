@@ -5,8 +5,6 @@ title: Type.TableKeys
 # Type.TableKeys
 
 
-## Description
-
 Trả về danh sách khóa có thể trống cho loại bảng cho sẵn.
 
 
@@ -19,7 +17,7 @@ Type.TableKeys(
 ```
 
 
-## Details
+## Remarks
 
 Trả về danh sách khóa có thể trống cho loại bảng cho sẵn.<br />    <br />    Mỗi khóa được xác định bằng một bản ghi ở dạng sau:    <ul>      <li>        <code>Cột</code>: danh sách tên cột xác định khóa      </li>      <li>        <code>Chính</code>: <code>đúng</code> nếu khóa là khóa chính của bảng; nếu không, <code>sai</code>      </li>    </ul>    
 

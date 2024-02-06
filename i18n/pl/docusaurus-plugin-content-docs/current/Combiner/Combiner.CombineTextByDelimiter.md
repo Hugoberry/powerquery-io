@@ -5,8 +5,6 @@ title: Combiner.CombineTextByDelimiter
 # Combiner.CombineTextByDelimiter
 
 
-## Description
-
 Zwraca funkcję łączącą listę tekstów przy użyciu określonego ogranicznika.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca funkcję łączącą listę wartości tekstowych w jedną wartość tekstową przy użyciu określonego ogranicznika.
 

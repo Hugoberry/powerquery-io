@@ -5,8 +5,6 @@ title: Table.SelectRowsWithErrors
 # Table.SelectRowsWithErrors
 
 
-## Description
-
 Zwraca tabelę powstałą w wyniku pozostawienia w tabeli wejściowej tylko tych wierszy, które zawierały błędną wartość w co najmniej jednej komórce. Jeśli zostanie określona lista kolumn, tylko komórki w określonych kolumnach będą sprawdzane pod kątem błędów.
 
 
@@ -20,7 +18,7 @@ Table.SelectRowsWithErrors(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę powstałą w wyniku pozostawienia w tabeli wejściowej tylko tych wierszy, które zawierały błędną wartość w co najmniej jednej komórce. Jeśli zostanie określona lista kolumn, tylko komórki w określonych kolumnach będą sprawdzane pod kątem błędów.
 

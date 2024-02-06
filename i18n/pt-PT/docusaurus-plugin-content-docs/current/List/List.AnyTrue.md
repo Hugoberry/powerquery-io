@@ -5,8 +5,6 @@ title: List.AnyTrue
 # List.AnyTrue
 
 
-## Description
-
 Devolve true se qualquer expressão for verdadeira.
 
 
@@ -19,7 +17,7 @@ List.AnyTrue(
 ```
 
 
-## Details
+## Remarks
 
 Devolve true se qualquer expressão existente na lista <code>list</code> for verdadeira.
 

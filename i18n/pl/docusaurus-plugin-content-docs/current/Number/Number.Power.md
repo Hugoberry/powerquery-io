@@ -5,8 +5,6 @@ title: Number.Power
 # Number.Power
 
 
-## Description
-
 Podnosi liczbę do danej potęgi.
 
 
@@ -20,7 +18,7 @@ Number.Power(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wyniki podniesienia liczby <code>number</code> do potęgi <code>power</code>.    Jeśli liczba <code>number</code> lub <code>power</code> jest równa null, funkcja <code>Number.Power</code> zwraca wartość null.      <ul>        <li><code>number</code>: Podstawa.</li>        <li><code>power</code>: Wykładnik.</li>      </ul>
 

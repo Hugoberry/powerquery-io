@@ -5,8 +5,6 @@ title: Value.Expression
 # Value.Expression
 
 
-## Description
-
 Değerin ifadesini temsil eden bir soyut söz dizimi ağacını (AST) döndürür.
 
 
@@ -19,7 +17,7 @@ Value.Expression(
 ```
 
 
-## Details
+## Remarks
 
 Değerin ifadesini temsil eden bir soyut söz dizimi ağacını (AST) döndürür
 

@@ -5,8 +5,6 @@ title: Value.NullableEquals
 # Value.NullableEquals
 
 
-## Description
-
 İki değerin eşit olup olmadığını döndürür.
 
 
@@ -21,7 +19,7 @@ Value.NullableEquals(
 ```
 
 
-## Details
+## Remarks
 
 '<code>value1</code>', '<code>value2</code>' bağımsız değişkenlerinden biri null ise null döndürür, aksi halde Value.Equals ile eşdeğer bir değer döndürür.
 

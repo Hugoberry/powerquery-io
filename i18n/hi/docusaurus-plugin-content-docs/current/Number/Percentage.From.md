@@ -5,8 +5,6 @@ title: Percentage.From
 # Percentage.From
 
 
-## Description
-
 दिए गए मान से प्रतिशत मान वापस देता है.
 
 
@@ -20,7 +18,7 @@ Percentage.From(
 ```
 
 
-## Details
+## Remarks
 
 दिए गए <code>value</code> से <code>प्रतिशत</code> मान लौटाता है. यदि दिया गया <code>value</code> <code>नल</code> है, तो <code>Percentage.From</code> <code>नल</code> लौटाता है. यदि दिया गया <code>value</code> ट्रेलिंग प्रतिशत चिह्न वाला <code>पाठ</code> है, तो रूंपातरित दशमलव वाली संख्या लौटायी जाएगी. अन्यथा, इसको <code>संख्या</code>  मान में रुपांतरित करने के लिए <code>Number.From</code> देखें. एक वैकल्पिक <code>culture</code> भी प्रदान किया जा सकता है (उदाहरण के लिए, "en-US").
 

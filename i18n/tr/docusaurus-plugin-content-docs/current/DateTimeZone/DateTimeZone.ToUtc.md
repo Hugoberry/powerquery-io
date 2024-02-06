@@ -5,8 +5,6 @@ title: DateTimeZone.ToUtc
 # DateTimeZone.ToUtc
 
 
-## Description
-
 Zaman dilimi bileşenini UTC saat dilimine dönüştürür.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToUtc(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTimeZone</code> saat dilimi değerinin saat dilimi bilgilerini UTC veya Evrensel Saat saat dilimi bilgileri ile değiştirir.    <code>dateTimeZone</code> bir saat dilimi bileşenine sahip değilse, UTC saat dilimi bilgileri eklenir.
 

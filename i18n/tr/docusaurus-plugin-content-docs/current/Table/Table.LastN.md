@@ -5,8 +5,6 @@ title: Table.LastN
 # Table.LastN
 
 
-## Description
-
 Son belirtilen satır sayısını döndürür.
 
 
@@ -20,7 +18,7 @@ Table.LastN(
 ```
 
 
-## Details
+## Remarks
 
 <code>countOrCondition</code> değerine bağlı olarak <code>table</code> tablosunun sonra satırlarını döndürür:    <ul>    <li> <code>countOrCondition</code> bir sayı ise, bu sayıda satır ((end - <code>countOrCondition</code>) konumundan başlayarak) döndürülür. </li>    <li> <code>countOrCondition</code> bir koşul ise, koşulu sağlayan satırlar artan konumda herhangi bir satırı koşulu sağlamayana kadar döndürülür.</li></ul>
 

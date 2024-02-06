@@ -5,8 +5,6 @@ title: Record.FieldOrDefault
 # Record.FieldOrDefault
 
 
-## Description
-
 レコード内の指定されたフィールドの値を返します。フィールドが見つからなかった場合は、既定値を返します。
 
 
@@ -21,7 +19,7 @@ Record.FieldOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 レコード <code>record</code> 内の指定されたフィールド <code>field</code> の値を返します。フィールドが見つからなかった場合は、省略可能な <code>defaultValue</code> を返します。
 

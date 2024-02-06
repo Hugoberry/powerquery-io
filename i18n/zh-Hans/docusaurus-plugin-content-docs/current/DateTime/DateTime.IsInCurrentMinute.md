@@ -5,8 +5,6 @@ title: DateTime.IsInCurrentMinute
 # DateTime.IsInCurrentMinute
 
 
-## Description
-
 指示此日期时间是否按系统当前日期和时间所确定的那样处于当前分钟内。
 
 
@@ -19,7 +17,7 @@ DateTime.IsInCurrentMinute(
 ```
 
 
-## Details
+## Remarks
 
 指示给定的日期时间值 <code>dateTime</code> 是否按系统当前日期和时间所确定的那样处于当前分钟内。      <ul>      <li><code>dateTime</code>: 要计算的 <code>datetime</code> 或 <code>datetimezone</code> 值。</li>      </ul>
 

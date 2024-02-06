@@ -5,8 +5,6 @@ title: Text.Upper
 # Text.Upper
 
 
-## Description
-
 すべての文字を大文字に変換します。
 
 
@@ -20,7 +18,7 @@ Text.Upper(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> 内のすべての文字を大文字に変換した結果を返します。省略可能な <code>culture</code> を指定することもできます (例: "en-US")。
 

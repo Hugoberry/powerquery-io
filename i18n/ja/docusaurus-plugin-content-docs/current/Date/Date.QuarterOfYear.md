@@ -5,8 +5,6 @@ title: Date.QuarterOfYear
 # Date.QuarterOfYear
 
 
-## Description
-
 日付がどの四半期に該当するかを示す数値を返します。
 
 
@@ -19,7 +17,7 @@ Date.QuarterOfYear(
 ```
 
 
-## Details
+## Remarks
 
 日付 <code>dateTime</code> がどの四半期に該当するかを示す 1 ～ 4 の数値を返します。<code>dateTime</code> は <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値にすることができます。
 

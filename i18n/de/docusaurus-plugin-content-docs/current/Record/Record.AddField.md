@@ -5,8 +5,6 @@ title: Record.AddField
 # Record.AddField
 
 
-## Description
-
 Fügt einem Datensatz ein Feld hinzu.
 
 
@@ -22,7 +20,7 @@ Record.AddField(
 ```
 
 
-## Details
+## Remarks
 
 Fügt einem Datensatz (<code>record</code>) auf der Grundlage des Feldnamens (<code>fieldName</code>) und -werts (<code>value</code>) ein Feld hinzu.
 

@@ -5,8 +5,6 @@ title: Decimal.From
 # Decimal.From
 
 
-## Description
-
 指定された値から 10 進数を作成します。
 
 
@@ -20,7 +18,7 @@ Decimal.From(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>value</code> から10 進型の <code>number</code> 値を返します。指定された <code>value</code> が <code>null</code> である場合、<code>Double.From</code> は <code>null</code> を返します。指定された <code>value</code> が 10 進型の範囲内の <code>number</code> である場合、<code>value</code> が返され、それ以外の場合にはエラーが返されます。<code>value</code> がそれ以外の型である場合には、まずは <code>Number.FromText</code> を参照して <code>number</code> 値に変換されます。省略可能な <code>culture</code> を指定することもできます (例: "en-US")。
 

@@ -5,8 +5,6 @@ title: Character.FromNumber
 # Character.FromNumber
 
 
-## Description
-
 แปลงตัวเลขเป็นอักขระข้อความ
 
 
@@ -19,7 +17,7 @@ Character.FromNumber(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับอักขระที่เทียบเท่าตัวเลข<br />    <br />    <code>number</code> ที่ระบุควรเป็นรหัสอักขระ Unicode 21 บิต
 

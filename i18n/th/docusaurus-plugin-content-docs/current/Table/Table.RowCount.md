@@ -5,8 +5,6 @@ title: Table.RowCount
 # Table.RowCount
 
 
-## Description
-
 ส่งกลับจำนวนของแถวในตาราง
 
 
@@ -19,7 +17,7 @@ Table.RowCount(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับจำนวนของแถวใน <code>table</code>
 

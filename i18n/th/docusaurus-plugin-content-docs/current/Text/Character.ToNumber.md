@@ -5,8 +5,6 @@ title: Character.ToNumber
 # Character.ToNumber
 
 
-## Description
-
 แปลงอักขระเป็นค่าตัวเลข
 
 
@@ -19,7 +17,7 @@ Character.ToNumber(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตัวเลขที่เทียบเท่ากับ <code>character</code><br />    <br />    ผลลัพธ์จะเป็นรหัสอักขระ Unicode 21 บิตที่แสดงโดยอักขระที่ระบุหรือคู่ตัวแทน  
 

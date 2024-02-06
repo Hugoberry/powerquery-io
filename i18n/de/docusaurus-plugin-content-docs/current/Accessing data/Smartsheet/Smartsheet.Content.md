@@ -5,8 +5,6 @@ title: Smartsheet.Content
 # Smartsheet.Content
 
 
-## Description
-
 Gibt eine Tabelle mit Daten von einem Smartsheet-Indexendpunkt zurück.
 
 
@@ -19,7 +17,7 @@ Smartsheet.Content(
 ```
 
 
-## Details
+## Remarks
 
 Ruft die Smartsheet 2.0-REST-API am angegebenen Endpunkt auf und transformiert das zurückgegebene Datenelement in eine Tabelle.
 

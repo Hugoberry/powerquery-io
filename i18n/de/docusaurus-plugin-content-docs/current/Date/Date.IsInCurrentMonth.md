@@ -5,8 +5,6 @@ title: Date.IsInCurrentMonth
 # Date.IsInCurrentMonth
 
 
-## Description
-
 Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob dieses Datum im aktuellen Monat liegt.
 
 
@@ -19,7 +17,7 @@ Date.IsInCurrentMonth(
 ```
 
 
-## Details
+## Remarks
 
 Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob der angegebene datetime-Wert '<code>dateTime</code>' im aktuellen Monat liegt.      <ul>      <li><code>dateTime</code>: Ein auszuwertender <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert.</li>      </ul>
 

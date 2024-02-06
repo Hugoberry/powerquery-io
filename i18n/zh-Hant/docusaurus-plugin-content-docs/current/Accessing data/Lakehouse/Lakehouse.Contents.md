@@ -5,8 +5,6 @@ title: Lakehouse.Contents
 # Lakehouse.Contents
 
 
-## Description
-
 從 Lakehouse 匯入資料
 
 
@@ -19,7 +17,7 @@ Lakehouse.Contents(
 ```
 
 
-## Details
+## Remarks
 
 連線到您有權存取的所有 Lakehouse，以及選擇您要使用的實體。
 

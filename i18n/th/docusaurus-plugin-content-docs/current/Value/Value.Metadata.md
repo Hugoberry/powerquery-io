@@ -5,8 +5,6 @@ title: Value.Metadata
 # Value.Metadata
 
 
-## Description
-
 ส่งกลับระเบียนที่มี Metadata ของค่าที่ป้อน
 
 
@@ -19,7 +17,7 @@ Value.Metadata(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับระเบียนที่มี Metadata ของค่าที่ป้อน
 

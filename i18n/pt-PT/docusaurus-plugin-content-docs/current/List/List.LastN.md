@@ -5,8 +5,6 @@ title: List.LastN
 # List.LastN
 
 
-## Description
-
 Devolve o último valor da lista.  Opcionalmente, é possível especificar quantos valores devem ser devolvidos ou uma condição de qualificação.
 
 
@@ -20,7 +18,7 @@ List.LastN(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o último item da lista <code>list</code>. Se a lista estiver vazia, é emitida uma exceção. Esta função utiliza um parâmetro opcional, <code>countOrCondition</code>, para suportar o agrupamento de vários itens ou itens de filtragem. <code>countOrCondition</code> pode ser especificado de três formas: <ul>  <li>Se for especificado um número, são devolvidos tantos itens quanto esse número. </li>  <li>Se for especificada uma condição, são devolvidos todos os itens que satisfizerem a condição inicialmente, a começar pelo fim da lista. Quando um item não satisfizer a condição, não serão considerados mais itens. </li>  <li>Se este parâmetro for nulo, será devolvido o último item existente na lista.</li> </ul>
 

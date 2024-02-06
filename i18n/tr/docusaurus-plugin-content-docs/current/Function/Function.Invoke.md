@@ -5,8 +5,6 @@ title: Function.Invoke
 # Function.Invoke
 
 
-## Description
-
 Verilen işlevi çağırır
 
 
@@ -20,7 +18,7 @@ Function.Invoke(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen bağımsız değişken listesini kullanarak verilen işlevi çağırır ve sonucu döndürür.
 

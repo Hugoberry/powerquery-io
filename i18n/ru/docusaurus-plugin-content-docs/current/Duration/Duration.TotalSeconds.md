@@ -5,8 +5,6 @@ title: Duration.TotalSeconds
 # Duration.TotalSeconds
 
 
-## Description
-
 Возвращает общее количество секунд, охватываемое этой длительностью.
 
 
@@ -19,7 +17,7 @@ Duration.TotalSeconds(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает общее количество секунд, охваченных <code>duration</code>.
 

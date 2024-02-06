@@ -5,8 +5,6 @@ title: List.Numbers
 # List.Numbers
 
 
-## Description
-
 Retourne une liste de nombres en fonction d&#39;une valeur initiale, d&#39;un nombre et d&#39;une valeur incrémentielle facultative.
 
 
@@ -21,7 +19,7 @@ List.Numbers(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une liste de nombres en fonction d'une valeur initiale, d'un nombre et d'une valeur incrémentielle facultative. La valeur d'incrément par défaut est 1.<ul>   <li><code>start</code> : valeur initiale dans la liste.</li>   <li><code>count</code> : nombre de valeurs à créer.</li>   <li><code>increment</code> : <i>[Facultatif]</i> valeur par laquelle incrémenter. Si les valeurs omises sont incrémentées par 1.</li></ul>
 

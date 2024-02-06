@@ -5,8 +5,6 @@ title: Number.BitwiseShiftLeft
 # Number.BitwiseShiftLeft
 
 
-## Description
-
 Chuyển dịch tập hợp bit sang trái.
 
 
@@ -20,7 +18,7 @@ Number.BitwiseShiftLeft(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả thực hiện chuyển dịch theo bit về bên trái đối với <code>number1</code> theo số lượng bit được chỉ định <code>number2</code>.
 

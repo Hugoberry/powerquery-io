@@ -5,8 +5,6 @@ title: Number.Acos
 # Number.Acos
 
 
-## Description
-
 Sayının arkkosinüsünü döndürür.
 
 
@@ -19,7 +17,7 @@ Number.Acos(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> değerinin arkkosinüsünü döndürür.
 

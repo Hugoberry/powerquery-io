@@ -5,8 +5,6 @@ title: DateTime.IsInCurrentSecond
 # DateTime.IsInCurrentSecond
 
 
-## Description
-
 Bu tarih saat değerinin sistemdeki geçerli tarih ve saat tarafından belirlenen geçerli saniyede olup olmadığını gösterir.
 
 
@@ -19,7 +17,7 @@ DateTime.IsInCurrentSecond(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>dateTime</code> tarih saat değerinin sistemdeki geçerli tarih ve saat tarafından belirlenen geçerli saniyede olup olmadığını gösterir.      <ul>      <li><code>dateTime</code>: Değerlendirilmek üzere bir <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      </ul>
 

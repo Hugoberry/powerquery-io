@@ -5,8 +5,6 @@ title: Table.SelectRowsWithErrors
 # Table.SelectRowsWithErrors
 
 
-## Description
-
 Restituisce una tabella con solo le righe della tabella di input che contengono un errore in almeno una delle celle. Se viene specificato un elenco di colonne, la ricerca degli errori verrà eseguita solo nelle celle delle colonne specificate.
 
 
@@ -20,7 +18,7 @@ Table.SelectRowsWithErrors(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una tabella con solo le righe della tabella di input che contengono un errore in almeno una delle celle. Se viene specificato un elenco di colonne, la ricerca degli errori verrà eseguita solo nelle celle delle colonne specificate.
 

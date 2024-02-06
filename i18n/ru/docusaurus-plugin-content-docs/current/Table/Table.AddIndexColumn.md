@@ -5,8 +5,6 @@ title: Table.AddIndexColumn
 # Table.AddIndexColumn
 
 
-## Description
-
 Добавляет столбец с явно указанными значениями позиции.
 
 
@@ -23,7 +21,7 @@ Table.AddIndexColumn(
 ```
 
 
-## Details
+## Remarks
 
 Добавляет столбец с именем <code>newColumnName</code> в <code>table</code> с явно указанными значениями позиции.    Необязательное значение <code>initialValue</code>, начальное значение индекса. Необязательное значение <code>increment</code> определяет, на какую величину увеличивается каждое значение индекса.
 

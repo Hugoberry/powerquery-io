@@ -5,8 +5,6 @@ title: Table.ContainsAll
 # Table.ContainsAll
 
 
-## Description
-
 Geeft aan of alle opgegeven records als rijen in de tabel worden weergegeven.
 
 
@@ -21,7 +19,7 @@ Table.ContainsAll(
 ```
 
 
-## Details
+## Remarks
 
 Geeft aan of alle opgegeven records in de lijst met records <code>rows</code> als rijen in de <code>table</code> worden weergegeven.    Er kan een optionele parameter <code>equationCriteria</code> worden opgegeven voor het aansturen van de vergelijking tussen de rijen van de tabel.
 

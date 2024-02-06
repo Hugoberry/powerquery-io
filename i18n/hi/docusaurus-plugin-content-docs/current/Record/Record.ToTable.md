@@ -5,8 +5,6 @@ title: Record.ToTable
 # Record.ToTable
 
 
-## Description
-
 ऐसी तालिका लौटाता है जिसमें प्रत्येक पंक्ति एक फ़ील्ड नाम और इनपुट रिकॉर्ड का मान होती है.
 
 
@@ -19,7 +17,7 @@ Record.ToTable(
 ```
 
 
-## Details
+## Remarks
 
 <code>record</code> की प्रत्येक फ़ील्ड के लिए एक पंक्ति के साथ <code>Name</code> और <code>Value</code> स्तंभों वाली एक तालिका लौटाता है.
 

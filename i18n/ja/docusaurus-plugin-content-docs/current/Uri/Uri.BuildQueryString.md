@@ -5,8 +5,6 @@ title: Uri.BuildQueryString
 # Uri.BuildQueryString
 
 
-## Description
-
 レコードを URI クエリ文字列に統合します。
 
 
@@ -19,7 +17,7 @@ Uri.BuildQueryString(
 ```
 
 
-## Details
+## Remarks
 
 必要に応じて文字をエスケープして、レコード <code>query</code> を URI クエリ文字列に統合します。
 

@@ -5,8 +5,6 @@ title: Table.PositionOfAny
 # Table.PositionOfAny
 
 
-## Description
-
 Returnerar positionen eller positionerna för någon av de angivna raderna i tabellen.
 
 
@@ -22,7 +20,7 @@ Table.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar radernas positioner från <code>table</code> i den första förekomsten av listan för <code>rows</code>. Returnerar -1 om ingen förekomst hittas.    <ul>    <li><code>table</code>: Indatatabellen.</li>       <li><code>rows</code>:  Listan med rader i tabellen som positionerna ska hittas för.</li>       <li><code>occurrence</code>: <i>[Valfritt]</i> Anger vilka förekomster av raden som ska returneras.</li>       <li><code>equationCriteria</code>: <i>[Valfritt]</i> Kontrollerar jämförelsen mellan tabellraderna.</li>    </ul>    
 

@@ -5,8 +5,6 @@ title: Expression.Evaluate
 # Expression.Evaluate
 
 
-## Description
-
 Trả về kết quả đánh giá biểu thức M.
 
 
@@ -20,7 +18,7 @@ Expression.Evaluate(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả đánh giá biểu thức M <code>document</code>, với các mã định danh có sẵn có thể được tham chiếu và xác định theo <code>environment</code>.
 

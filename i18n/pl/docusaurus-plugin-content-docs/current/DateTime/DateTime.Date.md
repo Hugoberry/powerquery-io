@@ -5,8 +5,6 @@ title: DateTime.Date
 # DateTime.Date
 
 
-## Description
-
 Zwraca składnik daty z danej wartości typu date, datetime lub datetimezone.
 
 
@@ -19,7 +17,7 @@ DateTime.Date(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca składnik daty z danej wartości <code>dateTime</code> typu <code>date</code>, <code>datetime</code> lub <code>datetimezone</code>.
 

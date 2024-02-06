@@ -5,8 +5,6 @@ title: Table.SplitAt
 # Table.SplitAt
 
 
-## Description
-
 Trả về danh sách chứa các hàng đếm đầu tiên được chỉ định và các hàng còn lại.
 
 
@@ -20,7 +18,7 @@ Table.SplitAt(
 ```
 
 
-## Details
+## Remarks
 
 Trả về danh sách chứa hai bảng: một bảng có N hàng <code>table</code> đầu tiên (như được <code>count</code> chỉ định) và một bảng chứa các hàng <code>table</code> còn lại.Nếu các bảng trong danh sách trả về được liệt kê chính xác một lần và theo thứ tự, hàm sẽ chỉ liệt kê <code>table</code> một lần.
 

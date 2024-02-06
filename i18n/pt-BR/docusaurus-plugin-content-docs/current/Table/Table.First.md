@@ -5,8 +5,6 @@ title: Table.First
 # Table.First
 
 
-## Description
-
 Retorna a primeira linha ou um valor padrão especificado.
 
 
@@ -20,7 +18,7 @@ Table.First(
 ```
 
 
-## Details
+## Remarks
 
 Retorna a primeira linha da <code>table</code> ou um valor padrão <code>default</code> opcional, se a tabela estiver vazia.
 

@@ -5,8 +5,6 @@ title: Value.Expression
 # Value.Expression
 
 
-## Description
-
 傳回代表值運算式的抽象語法樹狀結構 (AST)。
 
 
@@ -19,7 +17,7 @@ Value.Expression(
 ```
 
 
-## Details
+## Remarks
 
 傳回代表值運算式的抽象語法樹狀結構 (AST)
 

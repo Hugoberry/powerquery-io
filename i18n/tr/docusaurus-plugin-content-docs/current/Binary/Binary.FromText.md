@@ -5,8 +5,6 @@ title: Binary.FromText
 # Binary.FromText
 
 
-## Description
-
 Bir metin biçimindeki verilerin kodunu ikili olarak çözer.
 
 
@@ -20,7 +18,7 @@ Binary.FromText(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> metin değerini dönüştürmenin sonucunu bir ikiliye döndürür (<code>number</code> listesi). <code>encoding</code>, metin değerinde kullanılan kodlamayı göstermek için belirtilebilir.      Aşağıdaki <code>BinaryEncoding</code> değerleri, <code>encoding</code> için kullanılabilir.      <ul>        <li><code>BinaryEncoding.Base64</code>: 64 tabanlı kodlama</li>        <li><code>BinaryEncoding.Hex</code>: Onaltılık kodlama</li>      </ul>
 

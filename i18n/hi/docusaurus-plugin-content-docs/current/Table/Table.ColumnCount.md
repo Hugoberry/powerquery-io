@@ -5,8 +5,6 @@ title: Table.ColumnCount
 # Table.ColumnCount
 
 
-## Description
-
 तालिका में मौजूद स्तंभों की संख्या लौटाता है.
 
 
@@ -19,7 +17,7 @@ Table.ColumnCount(
 ```
 
 
-## Details
+## Remarks
 
 तालिका <code>table</code> में मौजूद स्तंभों की संख्या लौटाता है.
 

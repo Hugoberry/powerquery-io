@@ -5,8 +5,6 @@ title: Binary.FromText
 # Binary.FromText
 
 
-## Description
-
 डेटा को पाठ फ़ॉर्म से बाइनरी में डीकोड करता है.
 
 
@@ -20,7 +18,7 @@ Binary.FromText(
 ```
 
 
-## Details
+## Remarks
 
 पाठ मान <code>text</code> को रूपांतरित करने का परिणाम बाइनरी (<code>संख्या</code> की सूची) में लौटाता है. पाठ मान में उपयोग की गई एनकोडिंग को इंगित करने के लिए <code>encoding</code> को निर्दिष्ट किया जा सकता है.      निम्न <code>BinaryEncoding</code> मानों का उपयोग <code>encoding</code> के लिए किया जा सकता है.      <ul>        <li><code>BinaryEncoding.Base64</code>: बेस 64 एनकोडिंग</li>        <li><code>BinaryEncoding.Hex</code>: हेक्स एनकोडिंग</li>      </ul>
 

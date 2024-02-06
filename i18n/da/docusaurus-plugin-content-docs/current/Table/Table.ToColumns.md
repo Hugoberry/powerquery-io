@@ -5,8 +5,6 @@ title: Table.ToColumns
 # Table.ToColumns
 
 
-## Description
-
 Opretter en liste over indlejrede lister over kolonneværdier fra en tabel.
 
 
@@ -19,7 +17,7 @@ Table.ToColumns(
 ```
 
 
-## Details
+## Remarks
 
 Opretter en liste over indlejrede lister ud fra tabellen <code>table</code>.  De enkelte listeelementer er en indre liste, der indeholder kolonneværdierne.
 

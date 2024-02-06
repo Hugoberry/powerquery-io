@@ -5,8 +5,6 @@ title: BinaryFormat.Group
 # BinaryFormat.Group
 
 
-## Description
-
 Devolve um formato binário que lê um grupo de itens.
 
 
@@ -22,7 +20,7 @@ BinaryFormat.Group(
 ```
 
 
-## Details
+## Remarks
 
 Os parâmetros são os seguintes:<ul><li>O parâmetro <code>binaryFormat</code> especifica o formato binário do valor de chave.</li><li>O parâmetro <code>group</code> fornece informações sobre o grupo de itens conhecidos.</li><li>O parâmetro <code>extra</code> opcional pode ser utilizado para especificar uma função que devolverá um valor de formato binário para o valor resultante de qualquer chave inesperada. Se o parâmetro <code>extra</code> não for especificado, será gerado um erro se surgirem valores de chave inesperados.</li></ul>O parâmetro <code>group</code> especifica uma lista de definições de itens.  Cada definição de item é uma lista, com 3 a 5 valores, tal como se segue:<ul><li>Valor de chave. O valor da chave que corresponde ao item.  Tem de ser exclusivo no conjunto de itens.</li><li>Formato de item.  O formato binário que corresponde ao valor do item.  Tal permite que cada item tenha um formato diferente. </li><li>Ocorrência de item.  O valor <code>BinaryOccurrence.Type</code> relativo ao número de vezes que se espera que o item apareça no grupo.   Os itens obrigatórios que não estejam presentes causam um erro.  Os itens duplicados obrigatórios ou opcionais são processados como valores de chave inesperados.</li><li>Valor de item predefinido (opcional). Se o valor de item predefinido aparecer na lista de definições de itens e não for nulo, será utilizado em vez da predefinição.  A predefinição para itens de repetição ou opcionais é nula e a predefinição para valores de repetição é uma lista vazia \{ }.</li><li>Transformação do valor de item (opcional). Se a função de transformação do valor de item estiver presente na lista de definições de itens e não for nula, será chamada para transformar o valor de item antes de este ser devolvido.  A função de transformação só será chamada se o item aparecer na entrada (nunca será chamada com o valor predefinido). </li></ul>
 

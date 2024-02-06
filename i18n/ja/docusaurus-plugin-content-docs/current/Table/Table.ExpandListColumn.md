@@ -5,8 +5,6 @@ title: Table.ExpandListColumn
 # Table.ExpandListColumn
 
 
-## Description
-
 テーブル内にリスト列がある場合に、そのリスト内の値ごとに 1 行のコピーを作成します。
 
 
@@ -20,7 +18,7 @@ Table.ExpandListColumn(
 ```
 
 
-## Details
+## Remarks
 
 <code>column</code> があり、<code>table</code> が値のリストである場合に、リストを値ごとに行に分割します。他の列の値は、作成された新しい各行で重複します。
 

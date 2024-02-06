@@ -5,8 +5,6 @@ title: List.Max
 # List.Max
 
 
-## Description
-
 Zwraca wartość maksymalną lub wartość domyślną, jeśli lista jest pusta.
 
 
@@ -22,7 +20,7 @@ List.Max(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca maksymalny element z listy <code>list</code> lub opcjonalną wartość domyślną <code>default</code>, gdy lista jest pusta.    W celu ustalenia sposobu porównywania elementów na liście można określić opcjonalną wartość comparisonCriteria (<code>comparisonCriteria</code>). Jeśli ten parametr ma wartość null, używana jest domyślna funkcja porównująca.
 

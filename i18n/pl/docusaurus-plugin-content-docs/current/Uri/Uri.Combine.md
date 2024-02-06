@@ -5,8 +5,6 @@ title: Uri.Combine
 # Uri.Combine
 
 
-## Description
-
 Zwraca bezwzględny identyfikator URI stanowiący połączenie wejściowego podstawowego identyfikatora URI oraz względnego identyfikatora URI.
 
 
@@ -20,7 +18,7 @@ Uri.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca bezwzględny identyfikator URI stanowiący połączenie wejściowych identyfikatorów <code>baseUri</code> i <code>relativeUri</code>.
 

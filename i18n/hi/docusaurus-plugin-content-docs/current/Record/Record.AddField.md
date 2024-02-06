@@ -5,8 +5,6 @@ title: Record.AddField
 # Record.AddField
 
 
-## Description
-
 किसी रिकॉर्ड में एक फ़ील्ड जोड़ता है.
 
 
@@ -22,7 +20,7 @@ Record.AddField(
 ```
 
 
-## Details
+## Remarks
 
 किसी रिकॉर्ड <code>record</code> में एक फ़ील्ड जोड़ता है, जिसमें फ़ील्ड <code>fieldName</code> का नाम और मान <code>value</code> दिया जाता है.
 

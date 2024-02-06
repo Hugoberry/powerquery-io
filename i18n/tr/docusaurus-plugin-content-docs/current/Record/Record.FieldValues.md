@@ -5,8 +5,6 @@ title: Record.FieldValues
 # Record.FieldValues
 
 
-## Description
-
 Alan değerlerinin listesini döndürür.
 
 
@@ -19,7 +17,7 @@ Record.FieldValues(
 ```
 
 
-## Details
+## Remarks
 
 <code>record</code> kaydındaki alan değerlerinin listesini döndürür.
 

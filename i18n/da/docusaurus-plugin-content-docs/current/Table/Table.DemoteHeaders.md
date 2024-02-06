@@ -5,8 +5,6 @@ title: Table.DemoteHeaders
 # Table.DemoteHeaders
 
 
-## Description
-
 Sænk kolonneoverskrifterne til første række med værdier.
 
 
@@ -19,7 +17,7 @@ Table.DemoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Sænker kolonneoverskrifterne (dvs. kolonnenavne) til første række med værdier. Standardkolonnenavnene er "Column1", "Column2" osv.
 

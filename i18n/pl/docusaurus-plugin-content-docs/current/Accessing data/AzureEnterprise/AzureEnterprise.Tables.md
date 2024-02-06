@@ -5,8 +5,6 @@ title: AzureEnterprise.Tables
 # AzureEnterprise.Tables
 
 
-## Description
-
 Wprowadź adres URL punktu końcowego interfejsu API REST usługi Azure Enterprise skojarzonego z Twoją rejestracją
 
 
@@ -19,7 +17,7 @@ AzureEnterprise.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca listę dostępnych raportów i miesięcy z interfejsu API usługi Azure Enterprise
 

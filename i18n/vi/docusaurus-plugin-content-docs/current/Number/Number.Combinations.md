@@ -5,8 +5,6 @@ title: Number.Combinations
 # Number.Combinations
 
 
-## Description
-
 Trả về số lượng tổ hợp duy nhất.
 
 
@@ -20,7 +18,7 @@ Number.Combinations(
 ```
 
 
-## Details
+## Remarks
 
 Trả về số lượng tổ hợp duy nhất từ một danh sách mục, <code>setSize</code>, với kích cỡ kết hợp được chỉ định là <code>combinationSize</code>.<ul>    <li><code>setSize</code>: Số lượng mục trong danh sách.</li>    <li><code>combinationSize</code>: Số lượng mục trong mỗi tổ hợp.</li></ul>
 

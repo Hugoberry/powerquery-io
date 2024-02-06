@@ -5,8 +5,6 @@ title: Table.ReverseRows
 # Table.ReverseRows
 
 
-## Description
-
 Returnerer en tabel med rækkerne i omvendt rækkefølge.
 
 
@@ -19,7 +17,7 @@ Table.ReverseRows(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel med rækkerne fra inputtet <code>table</code> i omvendt rækkefølge.
 

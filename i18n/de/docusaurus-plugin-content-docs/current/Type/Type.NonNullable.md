@@ -5,8 +5,6 @@ title: Type.NonNullable
 # Type.NonNullable
 
 
-## Description
-
 Gibt von einem Typ den Typ zurück, der keine NULL-Werte zulässt.
 
 
@@ -19,7 +17,7 @@ Type.NonNullable(
 ```
 
 
-## Details
+## Remarks
 
 Gibt von <code>type</code> den Typ zurück, der keine <code>NULL-Werte</code> zulässt.
 

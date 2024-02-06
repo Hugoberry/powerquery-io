@@ -5,8 +5,6 @@ title: Marketo.Leads
 # Marketo.Leads
 
 
-## Description
-
 Müşteri adaylarına ilişkin ayrıntılı bilgilerin yer aldığı bir tablo döndürür.
 
 
@@ -21,7 +19,7 @@ Marketo.Leads(
 ```
 
 
-## Details
+## Remarks
 
 <code>url</code>/rest/v1/leads.json üzerinde yer alan Marketo REST API uç noktasına çağrıda bulunur. <code>leadIds</code> listesindeki tüm müşteri adayları döndürülür.
 

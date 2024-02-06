@@ -5,8 +5,6 @@ title: Table.Split
 # Table.Split
 
 
-## Description
-
 將指定的資料表分割為一組使用特定頁面大小的資料表。
 
 
@@ -20,7 +18,7 @@ Table.Split(
 ```
 
 
-## Details
+## Remarks
 
 將 <code>table</code> 分割成一組資料表，其中清單的第一個元素為包含來自來源資料表前 <code>pageSize</code> 個資料列的資料表，清單的下一個元素則是包含來自來源資料表接下來 <code>pageSize</code> 個資料列的資料表，以此類推。
 

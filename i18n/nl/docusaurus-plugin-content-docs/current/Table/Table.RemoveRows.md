@@ -5,8 +5,6 @@ title: Table.RemoveRows
 # Table.RemoveRows
 
 
-## Description
-
 Verwijdert het opgegeven aantal rijen.
 
 
@@ -21,7 +19,7 @@ Table.RemoveRows(
 ```
 
 
-## Details
+## Remarks
 
 Verwijdert <code>count</code> rijen vanaf het begin van de <code>table</code>, te beginnen bij de opgegeven <code>offset</code>. Een standaardaantal van 1 wordt gebruikt als parameter <code>count</code> niet is opgegeven. 
 

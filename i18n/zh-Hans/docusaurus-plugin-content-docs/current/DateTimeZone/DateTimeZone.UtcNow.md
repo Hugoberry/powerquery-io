@@ -5,8 +5,6 @@ title: DateTimeZone.UtcNow
 # DateTimeZone.UtcNow
 
 
-## Description
-
 返回采用 UTC (GMT 时区)的当前日期和时间。
 
 
@@ -19,7 +17,7 @@ DateTimeZone.UtcNow(
 ```
 
 
-## Details
+## Remarks
 
 返回采用 UTC (GMT 时区)的当前日期和时间。
 

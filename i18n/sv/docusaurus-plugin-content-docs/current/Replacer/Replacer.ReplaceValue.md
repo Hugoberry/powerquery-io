@@ -5,8 +5,6 @@ title: Replacer.ReplaceValue
 # Replacer.ReplaceValue
 
 
-## Description
-
 Ersätter värden i angivna indata.
 
 
@@ -21,7 +19,7 @@ Replacer.ReplaceValue(
 ```
 
 
-## Details
+## Remarks
 
 Ersätter värdet <code>old</code> i ursprungliga <code>value</code> med värdet <code>new</code>. Den här ersättningsfunktionen kan användas i <code>List.ReplaceValue</code> och <code>Table.ReplaceValue</code>.
 

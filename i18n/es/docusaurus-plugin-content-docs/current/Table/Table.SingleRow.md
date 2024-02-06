@@ -5,8 +5,6 @@ title: Table.SingleRow
 # Table.SingleRow
 
 
-## Description
-
 Devuelve la única fila de la tabla.
 
 
@@ -19,7 +17,7 @@ Table.SingleRow(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve la única fila de fila uno <code>table</code>. Si la <code>table</code> tiene más de una fila, se inicia una excepción.
 

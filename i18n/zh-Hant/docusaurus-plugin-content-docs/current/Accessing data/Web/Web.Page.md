@@ -5,8 +5,6 @@ title: Web.Page
 # Web.Page
 
 
-## Description
-
 傳回分解成組成結構之 HTML 文件的內容，以及移除標記之後，完整文件及其文字的表示。
 
 
@@ -19,7 +17,7 @@ Web.Page(
 ```
 
 
-## Details
+## Remarks
 
 傳回分解成組成結構之 HTML 文件的內容，以及移除標記之後，完整文件及其文字的表示。
 

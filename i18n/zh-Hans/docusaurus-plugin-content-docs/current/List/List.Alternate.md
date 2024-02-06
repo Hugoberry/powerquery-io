@@ -5,8 +5,6 @@ title: List.Alternate
 # List.Alternate
 
 
-## Description
-
 返回由列表中所有奇数编号的偏移量元素组成的列表。
 
 
@@ -22,7 +20,7 @@ List.Alternate(
 ```
 
 
-## Details
+## Remarks
 
 返回由列表中所有奇数编号的偏移量元素组成的列表。根据参数在从列表 <code>list</code> 取值和跳过其值间切换。    <ul>    <li><code>count</code>: 指定每次跳过的值数。</li>    <li><code>repeatInterval</code>: 可选的重复间隔，指示在两个跳过的值之间添加了多少个值。</li>    <li><code>offset</code>: 一个可选偏移量参数，指示在初始偏移量处开始跳过值。</li>    </ul>
 

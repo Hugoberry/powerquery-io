@@ -5,8 +5,6 @@ title: Date.WeekOfMonth
 # Date.WeekOfMonth
 
 
-## Description
-
 Возвращает число от 1 до 6, указывающее неделю в месяце, на которую приходится эта дата.
 
 
@@ -20,7 +18,7 @@ Date.WeekOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает число от 1 до 6, указывающее неделю в месяце, на которую приходится дата <code>dateTime</code>. <ul>        <li><code>dateTime</code>: значение <code>datetime</code>, для которого определяется неделя в месяце.</li>      </ul>
 

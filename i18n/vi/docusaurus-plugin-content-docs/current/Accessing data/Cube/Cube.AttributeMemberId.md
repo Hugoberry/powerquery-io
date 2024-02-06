@@ -5,8 +5,6 @@ title: Cube.AttributeMemberId
 # Cube.AttributeMemberId
 
 
-## Description
-
 Trả về mã nhận dạng thành viên duy nhất từ giá trị thuộc tính thành viên.
 
 
@@ -19,7 +17,7 @@ Cube.AttributeMemberId(
 ```
 
 
-## Details
+## Remarks
 
 Trả về mã nhận dạng thành viên duy nhất từ giá trị thuộc tính thành viên. <code>attribute</code>. Trả về không cho mọi giá trị khác.
 

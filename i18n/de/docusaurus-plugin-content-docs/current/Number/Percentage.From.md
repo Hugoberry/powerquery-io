@@ -5,8 +5,6 @@ title: Percentage.From
 # Percentage.From
 
 
-## Description
-
 Gibt einen Prozentwert aus dem angegebenen Wert zurück.
 
 
@@ -20,7 +18,7 @@ Percentage.From(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen <code>Prozentwert</code> aus dem angegebenen <code>value</code>-Wert zurück. Wenn der angegebene <code>value</code>-Wert <code>NULL</code> lautet, gibt <code>Percentage.From</code> den Wert <code>NULL</code> zurück. Wenn der angegebene <code>value</code>-Wert <code>Text</code> mit einem nachfolgenden Prozentzeichen ist, wird die konvertierte Dezimalzahl zurückgegeben. Andernfalls wird der Wert mit <code>Number.From</code> in einen <code>number</code>-Wert konvertiert. Optional kann auch ein Element vom Typ „<code>culture</code>“ angegeben werden (Beispiel: „de-DE“).
 

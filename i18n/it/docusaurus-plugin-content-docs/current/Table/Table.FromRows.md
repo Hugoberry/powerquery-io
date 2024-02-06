@@ -5,8 +5,6 @@ title: Table.FromRows
 # Table.FromRows
 
 
-## Description
-
 Crea una tabella da un elenco di valori di riga e colonne facoltative
 
 
@@ -20,7 +18,7 @@ Table.FromRows(
 ```
 
 
-## Details
+## Remarks
 
 Crea una tabella dall'elenco <code>rows</code> in cui ogni elemento dell'elenco è un elenco interno contenente i valori di colonna per una singola riga. È possibile fornire un elenco facoltativo di nomi di colonna, un tipo di tabella o un numero di colonne come secondo argomento per <code>columns</code>.
 

@@ -5,8 +5,6 @@ title: Table.CombineColumns
 # Table.CombineColumns
 
 
-## Description
-
 Belirtilen sütunları belirtilen birleştirici işlevi kullanarak yeni bir sütun halinde birleştirir.
 
 
@@ -22,7 +20,7 @@ Table.CombineColumns(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen sütunları belirtilen birleştirici işlevi kullanarak yeni bir sütun halinde birleştirir.
 

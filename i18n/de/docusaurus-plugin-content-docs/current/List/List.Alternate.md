@@ -5,8 +5,6 @@ title: List.Alternate
 # List.Alternate
 
 
-## Description
-
 Gibt eine Liste mit allen ungeraden Offsetelementen einer Liste zurück.
 
 
@@ -22,7 +20,7 @@ List.Alternate(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Liste mit allen ungeraden Offsetelementen einer Liste zurück. Wechselt zwischen Verwendung und Überspringung von Werten aus der Liste "<code>list</code>" in Abhängigkeit von den Parametern.    <ul>    <li><code>count</code>: Gibt die Anzahl von Werten an, die bei jeder Ausführung übersprungen werden.</li>    <li><code>repeatInterval</code>: Ein optionales Wiederholungsintervall, um anzugeben, wie viele Werte zwischen den übersprungenen Werten hinzugefügt werden.</li>    <li><code>offset</code>: Ein optionaler Offsetparameter, um mit der Überspringung der Werte am ursprünglichen Offset zu beginnen.</li>    </ul>
 

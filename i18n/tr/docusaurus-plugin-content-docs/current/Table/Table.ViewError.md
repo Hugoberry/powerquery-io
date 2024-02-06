@@ -5,8 +5,6 @@ title: Table.ViewError
 # Table.ViewError
 
 
-## Description
-
 Görünümde (Table.View aracılığıyla) tanımlanan bir işleyici tarafından oluşturulduğunda geri dönüşü tetiklemeyen değiştirilmiş bir hata kaydı oluşturur.
 
 
@@ -19,7 +17,7 @@ Table.ViewError(
 ```
 
 
-## Details
+## Remarks
 
 Görünümde (Table.View aracılığıyla) tanımlanan bir işleyici tarafından oluşturulduğunda <code>errorRecord</code> kaynağından geri dönüşü tetiklemeyen değiştirilmiş bir hata kaydı oluşturur.
 

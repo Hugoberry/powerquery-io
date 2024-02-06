@@ -5,8 +5,6 @@ title: Table.AddRankColumn
 # Table.AddRankColumn
 
 
-## Description
-
 附加一欄，並使用一或多個其他欄進行排名。
 
 
@@ -22,7 +20,7 @@ Table.AddRankColumn(
 ```
 
 
-## Details
+## Remarks
 
 將名為 <code>newColumnName</code> 的欄附加到 <code>table</code>，並使用<code>comparisonCriteria</code>描述的一或多個其他欄進行排名。高級用戶可以使用<code>options</code>中的 RankKind 選項來選擇更具體的排名方法。
 

@@ -5,8 +5,6 @@ title: Type.Is
 # Type.Is
 
 
-## Description
-
 決定第一個類型的值是否與第二個類型始終相容。
 
 
@@ -20,7 +18,7 @@ Type.Is(
 ```
 
 
-## Details
+## Remarks
 
 決定 <code>type1</code> 的值是否與 <code>type2</code> 始終相容。
 

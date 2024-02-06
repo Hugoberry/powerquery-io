@@ -5,8 +5,6 @@ title: Type.FunctionReturn
 # Type.FunctionReturn
 
 
-## Description
-
 फ़ंक्‍शन प्रकार द्वारा लौटाया गया प्रकार लौटाता है.
 
 
@@ -19,7 +17,7 @@ Type.FunctionReturn(
 ```
 
 
-## Details
+## Remarks
 
 फ़ंक्‍शन <code>type</code> द्वारा लौटाया गया प्रकार लौटाता है.
 

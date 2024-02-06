@@ -5,8 +5,6 @@ title: Text.Lower
 # Text.Lower
 
 
-## Description
-
 Tüm karakterleri küçük harfe çevirir.
 
 
@@ -20,7 +18,7 @@ Text.Lower(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> içindeki tüm karakterlerin küçük harfe dönüştürülmesinin sonucu döndürür. Ayrıca, isteğe bağlı bir <code>culture</code> sağlanabilir (ör "tr-TR").
 

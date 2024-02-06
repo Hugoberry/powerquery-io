@@ -5,8 +5,6 @@ title: Date.IsInNextNWeeks
 # Date.IsInNextNWeeks
 
 
-## Description
-
 Indica se questo valore date rientra nel numero di settimane successivo, come determinato dalla data e dall&#39;ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nella settimana corrente.
 
 
@@ -20,7 +18,7 @@ Date.IsInNextNWeeks(
 ```
 
 
-## Details
+## Remarks
 
 Indica se il valore datetime specificato <code>dateTime</code> rientra nel numero di settimane successivo, come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nella settimana corrente.      <ul>      <li><code>dateTime</code>: valore <code>date</code>, <code>datetime</code> o <code>datetimezone</code> da valutare.</li>      <li><code>weeks</code>: numero di settimane.</li>      </ul>
 

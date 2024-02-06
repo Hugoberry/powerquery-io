@@ -5,8 +5,6 @@ title: Type.ForRecord
 # Type.ForRecord
 
 
-## Description
-
 Devolve um tipo que representa registos com restrições de tipo específicas nos campos.
 
 
@@ -20,7 +18,7 @@ Type.ForRecord(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um tipo que representa registos com restrições de tipo específicas nos campos.
 

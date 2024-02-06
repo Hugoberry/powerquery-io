@@ -5,8 +5,6 @@ title: BinaryFormat.SignedInteger64
 # BinaryFormat.SignedInteger64
 
 
-## Description
-
 बाइनरी स्वरूप जो 64-बिट हस्ताक्षरित पूर्णांक को पढ़ता है.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.SignedInteger64(
 ```
 
 
-## Details
+## Remarks
 
 बाइनरी स्वरूप जो 64-बिट हस्ताक्षरित पूर्णांक को पढ़ता है.
 

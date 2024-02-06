@@ -5,8 +5,6 @@ title: Table.RemoveRows
 # Table.RemoveRows
 
 
-## Description
-
 指定された数の行を削除します。
 
 
@@ -21,7 +19,7 @@ Table.RemoveRows(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>offset</code> を開始位置として、<code>table</code> の先頭から <code>count</code> 行を削除します。<code>count</code> パラメーターが指定されていない場合は、既定の数である 1 が使用されます。
 

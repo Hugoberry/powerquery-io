@@ -5,8 +5,6 @@ title: Date.Year
 # Date.Year
 
 
-## Description
-
 ส่งกลับคอมโพเนนต์ปี
 
 
@@ -19,7 +17,7 @@ Date.Year(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับคอมโพเนนต์ปีของค่า <code>datetime</code> ที่ระบุ <code>dateTime</code>
 

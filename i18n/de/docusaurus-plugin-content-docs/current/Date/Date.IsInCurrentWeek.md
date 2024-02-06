@@ -5,8 +5,6 @@ title: Date.IsInCurrentWeek
 # Date.IsInCurrentWeek
 
 
-## Description
-
 Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob dieses Datum in der aktuellen Woche liegt.
 
 
@@ -19,7 +17,7 @@ Date.IsInCurrentWeek(
 ```
 
 
-## Details
+## Remarks
 
 Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob der angegebene datetime-Wert '<code>dateTime</code>' in der aktuellen Woche liegt.      <ul>      <li><code>dateTime</code>: Ein auszuwertender <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Text.ReplaceRange
 # Text.ReplaceRange
 
 
-## Description
-
 वर्णों की श्रृंखला को निकालता है और निर्दिष्ट की गई स्थिति पर एक नया मान सम्मिलित करता है.
 
 
@@ -22,7 +20,7 @@ Text.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 स्थिति <code>offset</code> पर प्रारंभ होने वाले पाठ मान <code>text</code> से निकालने वाले वर्णों की संख्या <code>count</code> के परिणाम को लौटाता है और फिर <code>text</code> में समान स्थिति पर पाठ मान <code>newText</code> सम्मिलित करता है.
 

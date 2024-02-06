@@ -5,8 +5,6 @@ title: Number.IsNaN
 # Number.IsNaN
 
 
-## Description
-
 Değerin NaN (Sayı değil) olup olmadığını gösterir.
 
 
@@ -19,7 +17,7 @@ Number.IsNaN(
 ```
 
 
-## Details
+## Remarks
 
 Değerin NaN (Sayı değil) olup olmadığını gösterir. <code>number</code> <code>Number.IsNaN</code> ile eşdeğer ise <code>true</code>, aksi halde <code>false</code> döndürür.
 

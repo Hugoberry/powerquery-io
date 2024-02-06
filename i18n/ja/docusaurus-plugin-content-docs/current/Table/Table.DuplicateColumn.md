@@ -5,8 +5,6 @@ title: Table.DuplicateColumn
 # Table.DuplicateColumn
 
 
-## Description
-
 指定された名前の列が重複しています。値と型が基になる列からコピーされます。
 
 
@@ -22,7 +20,7 @@ Table.DuplicateColumn(
 ```
 
 
-## Details
+## Remarks
 
 テーブル <code>table</code> に対して <code>columnName</code> という名前の列が重複しています。列 <code>newColumnName</code> の値と型が列 <code>columnName</code> からコピーされます。
 

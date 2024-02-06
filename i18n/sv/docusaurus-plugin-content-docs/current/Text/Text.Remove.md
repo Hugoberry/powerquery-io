@@ -5,8 +5,6 @@ title: Text.Remove
 # Text.Remove
 
 
-## Description
-
 Tar bort alla förekomster av det angivna tecknet eller listan med tecken från indatatextvärdet.
 
 
@@ -20,7 +18,7 @@ Text.Remove(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en kopia av textvärdet <code>text</code> där alla tecken från <code>removeChars</code> har tagits bort.  
 

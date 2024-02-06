@@ -5,8 +5,6 @@ title: Logical.FromText
 # Logical.FromText
 
 
-## Description
-
 Tạo một giá trị lôgic từ các giá trị văn bản &#34;true&#34; và &#34;false&#34;.
 
 
@@ -19,7 +17,7 @@ Logical.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Tạo một giá trị lôgic từ các giá trị văn bản <code>text</code>, "true" hoặc "false". Nếu <code>text</code> chứa một chuỗi khác thì một ngoại lệ được đưa ra. Giá trị văn bản <code>text</code> không phân biệt chữ hoa/chữ thường.
 

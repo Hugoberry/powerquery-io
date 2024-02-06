@@ -5,8 +5,6 @@ title: List.RemoveMatchingItems
 # List.RemoveMatchingItems
 
 
-## Description
-
 Supprime toutes les occurrences des valeurs d&#39;entrée.
 
 
@@ -21,7 +19,7 @@ List.RemoveMatchingItems(
 ```
 
 
-## Details
+## Remarks
 
 Supprime toutes les occurrences des valeurs spécifiées dans <code>list2</code> depuis la liste <code>list1</code>. Si les valeurs dans <code>list2</code> n'existent pas dans <code>list1</code>, la liste d'origine est retournée.    La valeur du critère d'équation facultatif, <code>equationCriteria</code>, peut être spécifiée pour contrôler le test d'égalité. 
 

@@ -5,8 +5,6 @@ title: Table.FirstN
 # Table.FirstN
 
 
-## Description
-
 傳回指定的前幾個資料列。
 
 
@@ -20,7 +18,7 @@ Table.FirstN(
 ```
 
 
-## Details
+## Remarks
 
 根據 <code>countOrCondition</code> 的值，傳回資料表 <code>table</code> 的第一個資料列:    <ul>    <li> 如果 <code>countOrCondition</code> 是數字，就會傳回該數目的資料列 (從頂端開始)。</li>    <li> 如果 <code>countOrCondition</code> 是條件，就會傳回符合該條件的資料列，直到資料列不符合條件為止。</li></ul>
 

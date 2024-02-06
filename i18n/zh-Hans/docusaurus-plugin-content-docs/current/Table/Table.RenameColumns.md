@@ -5,8 +5,6 @@ title: Table.RenameColumns
 # Table.RenameColumns
 
 
-## Description
-
 对格式 \{old, new} 应用重命名。
 
 
@@ -21,7 +19,7 @@ Table.RenameColumns(
 ```
 
 
-## Details
+## Remarks
 
 对表 <code>table</code> 中的列执行给定的重命名。一个替换操作 <code>renames</code> 由两个值的列表以及某个列表中提供的旧列名和新列名组成。    如果此列不存在，将引发异常，除非可选参数 <code>missingField</code> 指定备用值(例如， <code>MissingField.UseNull</code> 或 <code>MissingField.Ignore</code>)。
 

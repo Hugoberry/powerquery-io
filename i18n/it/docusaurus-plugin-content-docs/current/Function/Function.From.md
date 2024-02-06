@@ -5,8 +5,6 @@ title: Function.From
 # Function.From
 
 
-## Description
-
 Crea una funzione con una firma di parametro specifica su una funzione che accetta un singolo argomento di elenco
 
 
@@ -20,7 +18,7 @@ Function.From(
 ```
 
 
-## Details
+## Remarks
 
 Accetta una funzione unaria <code>function</code> e crea una nuova funzione con tipo <code>functionType</code> che costruisce un elenco dagli argomenti e la passa a <code>function</code>.
 

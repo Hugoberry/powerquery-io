@@ -17,7 +17,7 @@ DatabricksMultiCloud.Query(
 ```
 
 
-## Details
+## Remarks
 
 SQL sorgularını çalıştırmak için bir Databricks veri kaynağı tanımlayın
 

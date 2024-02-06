@@ -5,8 +5,6 @@ title: Duration.TotalDays
 # Duration.TotalDays
 
 
-## Description
-
 Returnerer det samlede antal dage, denne varighed strækker sig over.
 
 
@@ -19,7 +17,7 @@ Duration.TotalDays(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer det samlede antal dage spændt over <code>duration</code>.
 

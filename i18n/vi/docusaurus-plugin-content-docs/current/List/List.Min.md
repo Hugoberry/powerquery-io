@@ -5,8 +5,6 @@ title: List.Min
 # List.Min
 
 
-## Description
-
 Trả về giá trị cực tiểu hoặc giá trị mặc định cho một danh sách trống.
 
 
@@ -22,7 +20,7 @@ List.Min(
 ```
 
 
-## Details
+## Remarks
 
 Trả về mục có giá trị cực tiểu trong danh sách <code>list</code> hoặc giá trị mặc định tùy chọn <code>default</code> nếu danh sách trống.    Có thể chỉ định một giá trị comparisonCriteria tùy chọn là <code>comparisonCriteria</code> để xác định cách so sánh các mục trong danh sách. Nếu tham số này là null thì trình so sánh mặc định được sử dụng.
 

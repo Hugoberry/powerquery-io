@@ -5,8 +5,6 @@ title: List.Random
 # List.Random
 
 
-## Description
-
 Returnerar en lista med slumptal.
 
 
@@ -20,7 +18,7 @@ List.Random(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en lista med slumptal mellan 0 och 1, baserat på antalet värden som ska genereras och ett valfritt startvärde.<ul>   <li><code>count</code>: Antalet slumpvärden som ska genereras.</li>   <li><code>seed</code>:  <i>[Valfritt]</i> Ett numeriskt värde som används som startvärde för slumptalsgeneratorn. Om inget anges genereras en unik lista med slumptal varje gång du anropar funktionen. Om du anger startvärdet med ett tal genererar varje anrop till funktionen samma lista med slumptal.</li></ul>
 

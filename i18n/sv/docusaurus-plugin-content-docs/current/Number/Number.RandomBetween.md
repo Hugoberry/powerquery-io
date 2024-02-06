@@ -5,8 +5,6 @@ title: Number.RandomBetween
 # Number.RandomBetween
 
 
-## Description
-
 Returnerar ett slumptal mellan två tal.
 
 
@@ -20,7 +18,7 @@ Number.RandomBetween(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett slumptal mellan <code>bottom</code> och <code>top</code>.
 

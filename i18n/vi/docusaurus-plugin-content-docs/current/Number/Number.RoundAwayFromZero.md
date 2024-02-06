@@ -5,8 +5,6 @@ title: Number.RoundAwayFromZero
 # Number.RoundAwayFromZero
 
 
-## Description
-
 Trả về kết quả làm tròn, số dương lên và số âm xuống. Số chữ số có thể được chỉ định.
 
 
@@ -20,7 +18,7 @@ Number.RoundAwayFromZero(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả làm tròn <code>number</code> dựa trên dấu của số. Hàm này sẽ làm tròn số dương lên và số âm xuống.    Nếu <code>digits</code> được chỉ định, <code>number</code> được làm tròn về <code>digits</code> số thập phân.  
 

@@ -5,8 +5,6 @@ title: Table.ReplaceMatchingRows
 # Table.ReplaceMatchingRows
 
 
-## Description
-
 以提供的資料列取代所有指定的資料列。
 
 
@@ -21,7 +19,7 @@ Table.ReplaceMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 以提供的資料列取代 <code>table</code> 中所有指定的資料列。要取代的資料列和取代項目會使用 \{old, new} 格式在 <code>replacements</code> 中指定。    可指定選擇性 <code>equationCriteria</code> 參數以控制資料表資料列之間的比較方式。
 

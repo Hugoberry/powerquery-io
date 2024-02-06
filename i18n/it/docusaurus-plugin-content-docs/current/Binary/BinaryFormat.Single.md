@@ -5,8 +5,6 @@ title: BinaryFormat.Single
 # BinaryFormat.Single
 
 
-## Description
-
 Formato binario che legge un valore a virgola mobile a precisione singola IEEE a 4 byte.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Single(
 ```
 
 
-## Details
+## Remarks
 
 Formato binario che legge un valore a virgola mobile a precisione singola IEEE a 4 byte.
 

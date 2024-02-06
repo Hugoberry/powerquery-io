@@ -5,8 +5,6 @@ title: Table.ApproximateRowCount
 # Table.ApproximateRowCount
 
 
-## Description
-
 返回表中的近似行数。
 
 
@@ -19,7 +17,7 @@ Table.ApproximateRowCount(
 ```
 
 
-## Details
+## Remarks
 
 返回 <code>table</code> 中的近似行数，或者如果数据源不支持近似值，则返回错误。
 

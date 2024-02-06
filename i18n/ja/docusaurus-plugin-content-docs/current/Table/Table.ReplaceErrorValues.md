@@ -5,8 +5,6 @@ title: Table.ReplaceErrorValues
 # Table.ReplaceErrorValues
 
 
-## Description
-
 指定された列のエラー値を関連する指定値に置換します。
 
 
@@ -20,7 +18,7 @@ Table.ReplaceErrorValues(
 ```
 
 
-## Details
+## Remarks
 
 指定された列 <code>table</code> のエラー値をリスト <code>errorReplacement</code> の新しい値に置換します。リストのフォーマットは \{\{column1, value1}, …} です。置換する値は 1 列につき 1 つのみです。列を 2 回以上指定するとエラーになります。
 

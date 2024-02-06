@@ -5,8 +5,6 @@ title: Spark.Tables
 # Spark.Tables
 
 
-## Description
-
 Returnerer en tabelliste over tabeller i den angivne Spark-klynge.
 
 
@@ -21,7 +19,7 @@ Spark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabelliste over tabeller i Spark-klyngen <code>host</code> ved hjælp af <code>protocol</code>. Gyldige protokoller er:SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
 

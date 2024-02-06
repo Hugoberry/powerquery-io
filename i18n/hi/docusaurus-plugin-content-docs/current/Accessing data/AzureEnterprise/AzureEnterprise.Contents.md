@@ -5,8 +5,6 @@ title: AzureEnterprise.Contents
 # AzureEnterprise.Contents
 
 
-## Description
-
 अपने नामांकन से संबंधित Azure Enterprise REST API समाप्ति बिंदु का URL दर्ज करें
 
 
@@ -20,7 +18,7 @@ AzureEnterprise.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Azure Enterprise API के लिए प्रदत्त url हेतु कॉल के बाइनरी परिणाम लौटाता है.
 

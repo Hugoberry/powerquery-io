@@ -5,8 +5,6 @@ title: Number.FromText
 # Number.FromText
 
 
-## Description
-
 一般的なテキスト形式 (&#34;15&#34;、&#34;3,423.10&#34;、&#34;5.0E-10&#34;) から数値を作成します。
 
 
@@ -20,7 +18,7 @@ Number.FromText(
 ```
 
 
-## Details
+## Remarks
 
 指定されたテキスト値 <code>text</code> から <code>number</code> 値を返します。 <ul>  <li><code>text</code>: 数値のテキスト形式の表記。この表記は、一般的な数値形式 ("15"、"3,423.10"、"5.0E-10" など) である必要があります。</li>  <li><code>culture</code>: <code>text</code> を解釈する方法を制御する省略可能なカルチャ (例: "en-US")。</li> </ul>
 

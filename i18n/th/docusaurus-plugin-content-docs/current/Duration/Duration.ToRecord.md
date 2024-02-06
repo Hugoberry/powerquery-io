@@ -5,8 +5,6 @@ title: Duration.ToRecord
 # Duration.ToRecord
 
 
-## Description
-
 ส่งกลับระเบียนที่มีส่วนของระยะเวลา
 
 
@@ -19,7 +17,7 @@ Duration.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับระเบียนที่มีส่วนของค่าระยะเวลา <code>duration</code>   <ul>        <li><code>duration</code>: <code>ระยะเวลา</code> ที่ระเบียนถูกสร้าง</li>      </ul>
 

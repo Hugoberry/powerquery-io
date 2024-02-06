@@ -5,8 +5,6 @@ title: DateTime.Time
 # DateTime.Time
 
 
-## Description
-
 Returnerar time-delen av angivet datetime-värde.
 
 
@@ -19,7 +17,7 @@ DateTime.Time(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar time-delen av angivet datetime-värde, <code>dateTime</code>.
 

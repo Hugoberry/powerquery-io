@@ -5,8 +5,6 @@ title: Record.FromList
 # Record.FromList
 
 
-## Description
-
 根据给定的一个字段值列表和一组字段，返回一个记录。
 
 
@@ -20,7 +18,7 @@ Record.FromList(
 ```
 
 
-## Details
+## Remarks
 
 根据给定的一个字段值 <code>list</code> 和一组字段，返回一个记录。 可以通过文本值列表或记录类型指定 <code>fields</code>。 如果字段不是唯一的，将引发错误。
 

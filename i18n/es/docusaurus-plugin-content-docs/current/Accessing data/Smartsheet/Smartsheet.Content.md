@@ -5,8 +5,6 @@ title: Smartsheet.Content
 # Smartsheet.Content
 
 
-## Description
-
 Devuelve una tabla de datos de un punto de conexión de índice de Smartsheet.
 
 
@@ -19,7 +17,7 @@ Smartsheet.Content(
 ```
 
 
-## Details
+## Remarks
 
 Realiza una llamada a la API de REST de Smartsheet 2.0 en el punto de conexión especificado y transforma el elemento de datos devuelto en una tabla.
 

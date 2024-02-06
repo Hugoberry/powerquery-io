@@ -5,8 +5,6 @@ title: List.Max
 # List.Max
 
 
-## Description
-
 Gibt den größten Wert zurück. Ist die Liste leer, wird der Standardwert zurückgegeben.
 
 
@@ -22,7 +20,7 @@ List.Max(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das größte Element in der Liste "<code>list</code>" zurück. Ist die Liste leer, wird der optionale Standardwert "<code>default</code>" zurückgegeben.    Ein optionaler comparisonCriteria-Wert (<code>comparisonCriteria</code>) kann angegeben werden, um zu bestimmen, wie die Elemente in der Liste verglichen werden sollen. Ist dieser Parameter NULL, wird die standardmäßige Vergleichsfunktion verwendet.
 

@@ -5,8 +5,6 @@ title: Table.ToRecords
 # Table.ToRecords
 
 
-## Description
-
 แปลงตารางเป็นรายการระเบียน
 
 
@@ -19,7 +17,7 @@ Table.ToRecords(
 ```
 
 
-## Details
+## Remarks
 
 แปลงตาราง <code>table</code> เป็นรายการระเบียน
 

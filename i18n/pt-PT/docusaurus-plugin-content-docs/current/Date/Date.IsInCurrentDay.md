@@ -5,8 +5,6 @@ title: Date.IsInCurrentDay
 # Date.IsInCurrentDay
 
 
-## Description
-
 Indica se esta data ocorre durante o dia atual, conforme determinado pela data e hora atuais no sistema.
 
 
@@ -19,7 +17,7 @@ Date.IsInCurrentDay(
 ```
 
 
-## Details
+## Remarks
 
 Indica se o valor datetime especificado <code>dateTime</code> ocorre durante o dia atual, conforme determinado pela data e hora atuais no sistema.      <ul>      <li><code>dateTime</code>: um valor <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> a avaliar.</li>      </ul>
 

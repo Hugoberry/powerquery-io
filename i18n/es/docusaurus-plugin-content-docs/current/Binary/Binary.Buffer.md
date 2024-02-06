@@ -5,8 +5,6 @@ title: Binary.Buffer
 # Binary.Buffer
 
 
-## Description
-
 Almacena en búfer el valor binario en memoria.
 
 
@@ -19,7 +17,7 @@ Binary.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Almacena en búfer el valor binario en memoria. El resultado de esta llamada es un valor binario estable, lo cual significa que tendrá una longitud y un orden de bytes deterministas.
 

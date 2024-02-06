@@ -5,8 +5,6 @@ title: Identity.IsMemberOf
 # Identity.IsMemberOf
 
 
-## Description
-
 Kimliğin bir kimlik koleksiyonunun üyesi olup olmadığını belirler.
 
 
@@ -20,7 +18,7 @@ Identity.IsMemberOf(
 ```
 
 
-## Details
+## Remarks
 
 Kimliğin bir kimlik koleksiyonunun üyesi olup olmadığını belirler.
 

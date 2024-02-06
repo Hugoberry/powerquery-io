@@ -5,8 +5,6 @@ title: Number.Cosh
 # Number.Cosh
 
 
-## Description
-
 संख्या का हाइपरबोलिक कोसिन लौटाता है.
 
 
@@ -19,7 +17,7 @@ Number.Cosh(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> का हाइपरबोलिक कोसिन लौटाता है.
 

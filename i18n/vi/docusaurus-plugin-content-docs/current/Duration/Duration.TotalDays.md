@@ -5,8 +5,6 @@ title: Duration.TotalDays
 # Duration.TotalDays
 
 
-## Description
-
 Trả về tổng số ngày trong khoảng thời gian này.
 
 
@@ -19,7 +17,7 @@ Duration.TotalDays(
 ```
 
 
-## Details
+## Remarks
 
 Trả về tổng số ngày kéo dài theo <code>duration</code>.
 

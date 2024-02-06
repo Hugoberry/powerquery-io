@@ -5,8 +5,6 @@ title: Number.Sqrt
 # Number.Sqrt
 
 
-## Description
-
 Retourneert de vierkantswortel van het getal.
 
 
@@ -19,7 +17,7 @@ Number.Sqrt(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt de vierkantswortel van <code>number</code> geretourneerd. Als <code>number</code> null is, retourneert <code>Number.Sqrt</code> null. Als het een negatieve waarde is, wordt <code>Number.NaN</code> geretourneerd (geen getal).
 

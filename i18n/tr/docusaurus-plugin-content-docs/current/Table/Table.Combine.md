@@ -5,8 +5,6 @@ title: Table.Combine
 # Table.Combine
 
 
-## Description
-
 Bir tablo listesini birleştirmenin sonucu olan bir tablo döndürür.
 
 
@@ -20,7 +18,7 @@ Table.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Tablo listesi <code>tables</code> ile birleştirmenin sonucu olan bir tablo döndürür. Sonuçta ortaya çıkan tablo, <code>columns</code> tarafından tanımlanan satır tipi yapıya ya da <code>columns</code> belirtilmemişse giriş türlerinin bir birleşmesine sahip olacaktır.
 

@@ -5,8 +5,6 @@ title: Type.ClosedRecord
 # Type.ClosedRecord
 
 
-## Description
-
 傳回指定記錄類型的封閉版本 (如果己經是封閉版本則需為相同類型)。
 
 
@@ -19,7 +17,7 @@ Type.ClosedRecord(
 ```
 
 
-## Details
+## Remarks
 
 傳回指定 <code>record</code> <code>type</code> 的封閉版本 (如果己經是封閉版本則需為相同類型)。
 

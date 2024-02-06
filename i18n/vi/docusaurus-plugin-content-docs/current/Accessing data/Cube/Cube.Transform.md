@@ -5,8 +5,6 @@ title: Cube.Transform
 # Cube.Transform
 
 
-## Description
-
 Áp dụng danh sách các hàm cube.
 
 
@@ -20,7 +18,7 @@ Cube.Transform(
 ```
 
 
-## Details
+## Remarks
 
 Áp dụng danh sách các hàm cube, <code>transforms</code>, trên <code>cube</code>.
 

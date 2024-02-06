@@ -5,8 +5,6 @@ title: Number.RandomBetween
 # Number.RandomBetween
 
 
-## Description
-
 Trả về một số ngẫu nhiên giữa hai số.
 
 
@@ -20,7 +18,7 @@ Number.RandomBetween(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một số ngẫu nhiên giữa <code>bottom</code> và <code>top</code>.
 

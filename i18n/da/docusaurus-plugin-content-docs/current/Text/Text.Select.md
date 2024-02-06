@@ -5,8 +5,6 @@ title: Text.Select
 # Text.Select
 
 
-## Description
-
 Markerer alle forekomster af det angivne tegn eller den angivne tegnliste fra inputtekstværdien.
 
 
@@ -20,7 +18,7 @@ Text.Select(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en kopi af tekstværdien <code>text</code>, hvor alle tegn, som ikke er indeholdt i <code>selectChars</code>, er fjernet.  
 

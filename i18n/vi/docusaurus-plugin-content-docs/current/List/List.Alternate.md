@@ -5,8 +5,6 @@ title: List.Alternate
 # List.Alternate
 
 
-## Description
-
 Trả về một danh sách bao gồm tất cả các phần tử phần bù được đánh số lẻ trong danh sách.
 
 
@@ -22,7 +20,7 @@ List.Alternate(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một danh sách bao gồm tất cả các phần tử phần bù được đánh số lẻ trong danh sách. Chuyển đổi giữa lấy và bỏ qua giá trị trong danh sách <code>list</code> tùy theo tham số.    <ul>    <li><code>count</code>: Chỉ định số lượng giá trị được bỏ qua mỗi lần.</li>    <li><code>repeatInterval</code>: Một quãng cách lặp tùy chọn để cho biết số lượng giá trị được thêm vào giữa các giá trị bị bỏ qua.</li>    <li><code>offset</code>: Một tham số phần bù tùy chọn để bắt đầu bỏ qua các giá trị tại phần bù ban đầu.</li>    </ul>
 

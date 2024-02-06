@@ -5,8 +5,6 @@ title: Time.StartOfHour
 # Time.StartOfHour
 
 
-## Description
-
 घंटे के प्रारंभ में लौटाता है.
 
 
@@ -19,7 +17,7 @@ Time.StartOfHour(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> द्वारा दर्शाए गए दिन की शुरुआत में लौटाता है.    <code>dateTime</code> का एक <code>time</code>, <code>datetime</code> or <code>datetimezone</code> मान होना अनिवार्य है.
 

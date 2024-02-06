@@ -5,8 +5,6 @@ title: Text.ToList
 # Text.ToList
 
 
-## Description
-
 ส่งกลับรายการค่าอักขระจากค่าข้อความที่กำหนด
 
 
@@ -19,7 +17,7 @@ Text.ToList(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับรายการค่าอักขระจากค่าข้อความ <code>text</code> ที่กำหนด
 

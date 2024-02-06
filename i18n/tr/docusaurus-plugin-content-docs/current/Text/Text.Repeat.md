@@ -5,8 +5,6 @@ title: Text.Repeat
 # Text.Repeat
 
 
-## Description
-
 Belirtilen sayıda yinelenen girdi metninden oluşan bir metin değerini döndürür.
 
 
@@ -20,7 +18,7 @@ Text.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 <code>count</code> kez yinelenen <code>text</code> girdi metninden oluşan bir metin değerini döndürür.
 

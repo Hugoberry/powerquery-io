@@ -5,8 +5,6 @@ title: List.Alternate
 # List.Alternate
 
 
-## Description
-
 Zwraca listę złożoną ze wszystkich elementów przesunięcia na liście, które mają nieparzyste numery.
 
 
@@ -22,7 +20,7 @@ List.Alternate(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca listę złożoną ze wszystkich elementów przesunięcia na liście, które mają nieparzyste numery. Zmiany w pobieraniu i pomijaniu wartości z listy <code>list</code> są zależne od parametrów.    <ul>    <li><code>count</code>: określa liczbę wartości, które są za każdym razem pomijane.</li>    <li><code>repeatInterval</code>: opcjonalny interwał powtarzania wskazujący, ile wartości jest dodawanych między pominiętymi wartościami.</li>    <li><code>offset</code>: opcjonalny parametr przesunięcia umożliwiający rozpoczęcie pomijania wartości od początkowego przesunięcia.</li>    </ul>
 

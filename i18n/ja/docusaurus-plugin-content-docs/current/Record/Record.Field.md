@@ -5,8 +5,6 @@ title: Record.Field
 # Record.Field
 
 
-## Description
-
 レコード内の指定されたフィールドの値を返します。
 
 
@@ -20,7 +18,7 @@ Record.Field(
 ```
 
 
-## Details
+## Remarks
 
 <code>record</code> 内の指定された <code>field</code> の値を返します。フィールドが見つからなかった場合は、例外がスローされます。
 

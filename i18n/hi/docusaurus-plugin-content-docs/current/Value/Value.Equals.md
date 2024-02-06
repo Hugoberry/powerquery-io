@@ -5,8 +5,6 @@ title: Value.Equals
 # Value.Equals
 
 
-## Description
-
 लौटाता है कि क्या दो मान बराबर हैं या नहीं.
 
 
@@ -21,7 +19,7 @@ Value.Equals(
 ```
 
 
-## Details
+## Remarks
 
 अगर मान <code>value1</code> मान <code>value2</code> के बराबर है, तो true, अन्यथा false लौटाता है.
 

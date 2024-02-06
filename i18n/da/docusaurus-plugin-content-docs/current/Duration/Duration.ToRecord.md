@@ -5,8 +5,6 @@ title: Duration.ToRecord
 # Duration.ToRecord
 
 
-## Description
-
 Returnerer en post, der indeholder delene af varigheden.
 
 
@@ -19,7 +17,7 @@ Duration.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en post, der indeholder delene af varighedsværdien, <code>duration</code>.  <ul>        <li><code>duration</code>: En værdi af typen <code>duration</code>, som posten er oprettet ud fra.</li>      </ul>
 

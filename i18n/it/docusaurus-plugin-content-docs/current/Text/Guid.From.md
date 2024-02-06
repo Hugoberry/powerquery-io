@@ -5,8 +5,6 @@ title: Guid.From
 # Guid.From
 
 
-## Description
-
 Restituisce un valore GUID dal valore specificato.
 
 
@@ -19,7 +17,7 @@ Guid.From(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un valore <code>Guid.Type</code> dal valore <code>value</code> specificato. Se il valore <code>value</code> specificato è <code>null</code>, <code>Guid.From</code> restituisce <code>null</code>. Viene eseguito un controllo per determinare se il valore <code>value</code> specificato è in formato accettabile. I formati accettabili sono forniti negli esempi.
 

@@ -5,8 +5,6 @@ title: Duration.ToRecord
 # Duration.ToRecord
 
 
-## Description
-
 Returnerar en post som innehåller delarna i varaktigheten.
 
 
@@ -19,7 +17,7 @@ Duration.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en post som innehåller delarna i varaktighetsvärdet <code>duration</code>.  <ul>        <li><code>duration</code>: Ett <code>duration</code>-värde som posten skapas från.</li>      </ul>
 

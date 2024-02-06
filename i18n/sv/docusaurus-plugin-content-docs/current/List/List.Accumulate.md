@@ -5,8 +5,6 @@ title: List.Accumulate
 # List.Accumulate
 
 
-## Description
-
 Ackumulerar ett summary-värde från objekten i listan.
 
 
@@ -21,7 +19,7 @@ List.Accumulate(
 ```
 
 
-## Details
+## Remarks
 
 Ackumulerar ett summary-värde från objekten i listan <code>list</code> med hjälp av <code>accumulator</code>.    En valfri seed-parameter, <code>seed</code>, kan användas.
 

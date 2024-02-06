@@ -5,8 +5,6 @@ title: List.Accumulate
 # List.Accumulate
 
 
-## Description
-
 सूची के आइटमों से एक सारांश मान एकत्रित करता है.
 
 
@@ -21,7 +19,7 @@ List.Accumulate(
 ```
 
 
-## Details
+## Remarks
 
 <code>accumulator</code> का उपयोग करके सूची <code>list</code>, के आइटमों से एक सारांश मान एकत्रित करता है.    एक वैकल्पिक मूल पैरामीटर, <code>seed</code>, सेट हो सकता है.
 

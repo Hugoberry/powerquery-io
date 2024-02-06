@@ -5,8 +5,6 @@ title: List.MatchesAll
 # List.MatchesAll
 
 
-## Description
-
 Retourne true si la fonction de condition est satisfaite par toutes les valeurs dans la liste.
 
 
@@ -20,7 +18,7 @@ List.MatchesAll(
 ```
 
 
-## Details
+## Remarks
 
 Retourne <code>true</code> si la fonction de condition <code>condition</code> est satisfaite par toutes les valeurs dans la liste <code>list</code>, sinon retourne <code>false</code>.
 

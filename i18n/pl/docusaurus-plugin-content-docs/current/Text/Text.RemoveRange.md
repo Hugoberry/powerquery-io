@@ -5,8 +5,6 @@ title: Text.RemoveRange
 # Text.RemoveRange
 
 
-## Description
-
 Usuwa określoną liczbę znaków, zaczynając od danego przesunięcia.
 
 
@@ -21,7 +19,7 @@ Text.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca kopię wartości tekstowej <code>text</code>, z której zostały usunięte wszystkie znaki od pozycji <code>offset</code>.    Za pomocą opcjonalnego parametru <code>count</code> można określić, ile znaków ma zostać usuniętych. Domyślna wartość parametru <code>count</code> to 1. Wartości pozycji rozpoczynają się od 0.
 

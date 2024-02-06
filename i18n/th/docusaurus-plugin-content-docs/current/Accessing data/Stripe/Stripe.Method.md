@@ -5,8 +5,6 @@ title: Stripe.Method
 # Stripe.Method
 
 
-## Description
-
 เรียกใช้ Stripe API
 
 
@@ -21,7 +19,7 @@ Stripe.Method(
 ```
 
 
-## Details
+## Remarks
 
 เรียกใช้ Stripe API ที่ https://api.stripe.com/v1/<code>method</code> พร้อมส่งผ่านระเบียน <code>additionalParameters</code> เป็นเช่นพารามิเตอร์เพิ่มเติม และรายการ <code>ColumnNames</code> สำหรับชื่อคอลัมน์ที่คาดไว้ มีการใช้ Stripe เวอร์ชัน 2015-10-16
 

@@ -5,8 +5,6 @@ title: Table.RemoveLastN
 # Table.RemoveLastN
 
 
-## Description
-
 Retourneert een tabel waarvan de laatste N rijen zijn verwijderd.
 
 
@@ -20,7 +18,7 @@ Table.RemoveLastN(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tabel geretourneerd die niet de laatste <code>countOrCondition</code> rijen bevat van de tabel <code>table</code>. Het aantal rijen dat wordt verwijderd, is afhankelijk van de optionele parameter <code>countOrCondition</code>. <ul> <li> Als <code>countOrCondition</code> wordt weggelaten, wordt alleen de laatste rij verwijderd. </li> <li> Als <code>countOrCondition</code> een getal is, wordt dat aantal rijen (van onderaf) verwijderd. </li> <li> Als <code>countOrCondition</code> een voorwaarde is, worden de rijen die aan de voorwaarde voldoen verwijderd totdat een rij niet aan de voorwaarde voldoet.</li> </ul>
 

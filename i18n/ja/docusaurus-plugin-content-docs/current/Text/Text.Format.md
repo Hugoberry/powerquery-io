@@ -5,8 +5,6 @@ title: Text.Format
 # Text.Format
 
 
-## Description
-
 書式文字列および引数から書式付きテキストを返します。
 
 
@@ -21,7 +19,7 @@ Text.Format(
 ```
 
 
-## Details
+## Remarks
 
 一覧またはレコードから <code>arguments</code> を書式文字列 <code>formatString</code> に適用することによって作成された書式付きテキストを返します。省略可能な <code>culture</code> を指定することもできます (例: "en-US")。
 

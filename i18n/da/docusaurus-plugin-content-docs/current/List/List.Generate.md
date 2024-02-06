@@ -5,8 +5,6 @@ title: List.Generate
 # List.Generate
 
 
-## Description
-
 Opretter en liste over værdier.
 
 
@@ -22,7 +20,7 @@ List.Generate(
 ```
 
 
-## Details
+## Remarks
 
 Opretter en liste over værdier ved hjælp af de angivne funktioner. Funktionen <code>initial</code> genererer en start kandidatværdi, som derefter testes mod <code>condition</code>.    Hvis kandidatværdien godkendes, returneres den som en del af resultatlisten, og den næste kandidatværdi genereres ved at overføre den nyligt godkendte værdi til <code>next</code>.    Når en kandidatværdi ikke matcher <code>condition</code>, stopper oprettelsesprocessen for listen.    Der kan også angives en valgfri parameter, <code>selector</code>, for at transformere elementerne på resultatlisten.
 

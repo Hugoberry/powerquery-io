@@ -5,8 +5,6 @@ title: Table.TransformRows
 # Table.TransformRows
 
 
-## Description
-
 Transformeert de rijen van de tabel met behulp van de opgegeven transformatiefunctie.
 
 
@@ -20,7 +18,7 @@ Table.TransformRows(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee maakt u een <code>lijst</code> door de bewerking <code>transform</code> toe te passen op elke rij in <code>table</code>.
 

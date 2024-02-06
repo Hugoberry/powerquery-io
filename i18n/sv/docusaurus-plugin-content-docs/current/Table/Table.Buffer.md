@@ -5,8 +5,6 @@ title: Table.Buffer
 # Table.Buffer
 
 
-## Description
-
 Buffrar en tabell i minnet och isolerar den från externa ändringar under utvärdering.
 
 
@@ -20,7 +18,7 @@ Table.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Buffrar en tabell i minnet och isolerar den från externa ändringar under utvärdering. buffring är grund. Den tvingar utvärderingen av alla skalärcellsvärden, men lämnar icke-skalära värden (poster, listor, tabeller och så vidare) som de är.    <br />    <br />    Obs! Om du använder den här funktionen kanske dina frågor körs snabbare eller inte. I vissa fall kan det göra att dina frågor körs långsammare på grund av den extra     kostnaden för att läsa alla data och lagra dem i minnet, samt det faktum att buffring förhindrar nedströmsdelegering. Om data inte behöver    buffras men du bara vill förhindra nedströms vikning kan du istället använda <code>Table.StopFolding</code>.
 

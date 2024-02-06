@@ -5,8 +5,6 @@ title: Type.Facets
 # Type.Facets
 
 
-## Description
-
 ส่งคืนข้อเท็จจริงของชนิด
 
 
@@ -19,7 +17,7 @@ Type.Facets(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนระเบียนที่มีข้อเท็จจริงจาก <code>type</code>
 

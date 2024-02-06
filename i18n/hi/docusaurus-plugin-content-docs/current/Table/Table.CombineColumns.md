@@ -5,8 +5,6 @@ title: Table.CombineColumns
 # Table.CombineColumns
 
 
-## Description
-
 निर्दिष्ट संयोजक फ़ंक्शन का उपयोग करके निर्दिष्ट स्तंभों को एक नए स्तंभ में संयोजित करता है.
 
 
@@ -22,7 +20,7 @@ Table.CombineColumns(
 ```
 
 
-## Details
+## Remarks
 
 निर्दिष्ट संयोजक फ़ंक्शन का उपयोग करके निर्दिष्ट स्तंभों को एक नए स्तंभ में संयोजित करता है.
 

@@ -5,8 +5,6 @@ title: Number.RoundTowardZero
 # Number.RoundTowardZero
 
 
-## Description
-
 Returnerer resultatet af at runde positive tal ned og negative tal op. Antallet af cifre kan angives.
 
 
@@ -20,7 +18,7 @@ Number.RoundTowardZero(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer resultatet af at afrunde <code>number</code> på baggrund af tallets fortegn. Denne funktion runder positive tal ned og negative tal op.    Hvis <code>digits</code> er angivet, afrundes <code>number</code> til <code>digits</code> antallet af decimaltal.  
 

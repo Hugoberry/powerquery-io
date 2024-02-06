@@ -5,8 +5,6 @@ title: Type.OpenRecord
 # Type.OpenRecord
 
 
-## Description
-
 Verilen kayıt türünün açık bir sürümünü (veya zaten açıksa aynı türü) döndürür.
 
 
@@ -19,7 +17,7 @@ Type.OpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>record</code> <code>type</code> türünün açık bir sürümünü (veya zaten açıksa aynı türü) döndürür.
 

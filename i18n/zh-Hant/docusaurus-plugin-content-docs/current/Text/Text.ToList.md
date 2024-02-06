@@ -5,8 +5,6 @@ title: Text.ToList
 # Text.ToList
 
 
-## Description
-
 根據指定的文字值傳回字元值的清單。
 
 
@@ -19,7 +17,7 @@ Text.ToList(
 ```
 
 
-## Details
+## Remarks
 
 根據指定的文字值 <code>text</code> 傳回字元值的清單。
 

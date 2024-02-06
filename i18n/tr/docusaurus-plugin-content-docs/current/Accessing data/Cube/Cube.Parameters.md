@@ -5,8 +5,6 @@ title: Cube.Parameters
 # Cube.Parameters
 
 
-## Description
-
 Küpe uygulanabilecek bir dizi parametrenin bulunduğu bir tablo döndürür.
 
 
@@ -19,7 +17,7 @@ Cube.Parameters(
 ```
 
 
-## Details
+## Remarks
 
 <code>cube</code> öğesine uygulanabilecek bir dizi parametrenin bulunduğu bir tablo döndürür. Her bir parametre, parametre ve bağımsız değişkenlerinin uygulandığı <code>cube</code> almak üzere çağrılabilen bir işlevdir.
 

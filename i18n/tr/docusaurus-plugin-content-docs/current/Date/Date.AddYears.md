@@ -5,8 +5,6 @@ title: Date.AddYears
 # Date.AddYears
 
 
-## Description
-
 Belirtilen yılları tarihe ekler.
 
 
@@ -20,7 +18,7 @@ Date.AddYears(
 ```
 
 
-## Details
+## Remarks
 
 <code>numberOfYears</code> yılı <code>datetime</code> değeri olan <code>dateTime</code> öğesine ekleme nedeniyle oluşan <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> sonucunu döndürür.      <ul>        <li><code>dateTime</code>: Yılların eklendiği <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>        <li><code>numberOfYears</code>: Eklenecek yıl sayısı.</li>      </ul>
 

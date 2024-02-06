@@ -5,8 +5,6 @@ title: Table.ReplaceValue
 # Table.ReplaceValue
 
 
-## Description
-
 用指定列中的其他值替换一个值。
 
 
@@ -23,7 +21,7 @@ Table.ReplaceValue(
 ```
 
 
-## Details
+## Remarks
 
 在 <code>table</code> 的指定列中将 <code>oldValue</code> 替换为 <code>newValue</code>。
 

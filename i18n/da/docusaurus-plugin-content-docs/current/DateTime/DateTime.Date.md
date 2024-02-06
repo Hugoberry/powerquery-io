@@ -5,8 +5,6 @@ title: DateTime.Date
 # DateTime.Date
 
 
-## Description
-
 Returnerer datokomponenten for den angivne værdi for dato, dato/klokkeslæt og dato/tidszone.
 
 
@@ -19,7 +17,7 @@ DateTime.Date(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer datokomponenten for <code>dateTime</code>, den angivne værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>.
 

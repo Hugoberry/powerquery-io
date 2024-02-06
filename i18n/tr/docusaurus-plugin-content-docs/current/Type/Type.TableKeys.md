@@ -5,8 +5,6 @@ title: Type.TableKeys
 # Type.TableKeys
 
 
-## Description
-
 Verilen tablo türü için boş olması muhtemel anahtar listesini döndürür.
 
 
@@ -19,7 +17,7 @@ Type.TableKeys(
 ```
 
 
-## Details
+## Remarks
 
 Verilen tablo türü için boş olması muhtemel anahtar listesini döndürür.<br />    <br />    Her anahtar aşağıdaki formda bir kayıt kullanılarak tanımlanır:    <ul>      <li>        <code>Columns</code>: anahtar adını tanımlayan sütun adlarının listesi      </li>      <li>        Anahtar tablonun birincil anahtarı ise, <code>Primary</code>: <code>true</code>; aksi halde, <code>false</code>      </li>    </ul>    
 

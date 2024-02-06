@@ -5,8 +5,6 @@ title: Date.DaysInMonth
 # Date.DaysInMonth
 
 
-## Description
-
 ส่งกลับตัวเลขตั้งแต่ 28 ถึง 31 ที่ระบุจำนวนวันในเดือน
 
 
@@ -19,7 +17,7 @@ Date.DaysInMonth(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับจำนวนวันในเดือนในค่า <code>วันที่</code>, <code>วันที่เวลา</code> หรือ <code>โซนวันที่เวลา</code> e <code>dateTime</code>. <ul>        <li><code>dateTime</code>: ค่า <code>วันที่</code>, <code>วันที่เวลา</code> หรือ <code>โซนวันที่เวลา</code> ที่จำนวนวันในเดือนถูกส่งกลับ</li>      </ul>
 

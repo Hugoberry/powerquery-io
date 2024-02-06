@@ -5,8 +5,6 @@ title: Cube.MeasureProperty
 # Cube.MeasureProperty
 
 
-## Description
-
 Hiermee wordt een eigenschap van een meetwaarde (celeigenschap) geretourneerd.
 
 
@@ -20,7 +18,7 @@ Cube.MeasureProperty(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt de eigenschap <code>propertyName</code> van de meetwaarde <code>measure</code> geretourneerd.
 

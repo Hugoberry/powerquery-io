@@ -5,8 +5,6 @@ title: Table.Combine
 # Table.Combine
 
 
-## Description
-
 Restituisce una tabella che rappresenta il risultato dell&#39;unione di un elenco di tabelle.
 
 
@@ -20,7 +18,7 @@ Table.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una tabella che rappresenta il risultato dell'unione dell'elenco di tabelle <code>tables</code>. Se non si specifica <code>columns</code>, la struttura dei tipi di riga della tabella risultante sarà definita da <code>columns</code> o da un'unione dei tipi di input.
 

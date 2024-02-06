@@ -5,8 +5,6 @@ title: Date.AddYears
 # Date.AddYears
 
 
-## Description
-
 निर्दिष्ट वर्षों को दिनांक में जोड़ता है.
 
 
@@ -20,7 +18,7 @@ Date.AddYears(
 ```
 
 
-## Details
+## Remarks
 
 <code>datetime</code> मान <code>dateTime</code> में <code>numberOfYears</code> जोड़ने से <code>तिथि</code>, <code>datetime</code> या <code>datetimezone</code> परिणाम लौटाता है.      <ul>        <li><code>dateTime</code>: <code>तिथि</code>, <code>datetime</code> या <code>datetimezone</code> वे मान हैं, जिनमें वर्षों को जोड़ा जा रहा है.</li>        <li><code>numberOfYears</code>: जोड़ने के लिए वर्षों की संख्या.</li>      </ul>
 

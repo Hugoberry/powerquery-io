@@ -5,8 +5,6 @@ title: Combiner.CombineTextByEachDelimiter
 # Combiner.CombineTextByEachDelimiter
 
 
-## Description
-
 Zwraca funkcję łączącą listę tekstów przy użyciu sekwencji ograniczników.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByEachDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca funkcję łączącą listę wartości tekstowych w jedną wartość tekstową przy użyciu sekwencji ograniczników.
 

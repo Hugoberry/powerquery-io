@@ -5,8 +5,6 @@ title: Table.MatchesAllRows
 # Table.MatchesAllRows
 
 
-## Description
-
 指示是否表中的所有行都满足给定的条件。
 
 
@@ -20,7 +18,7 @@ Table.MatchesAllRows(
 ```
 
 
-## Details
+## Remarks
 
 指示是否 <code>table</code> 中的所有行都满足给定的 <code>condition</code>。如果所有行都匹配，则返回 <code>true</code>；否则返回 <code>false</code>。
 

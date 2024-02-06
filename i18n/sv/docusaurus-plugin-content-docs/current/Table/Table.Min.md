@@ -5,8 +5,6 @@ title: Table.Min
 # Table.Min
 
 
-## Description
-
 Returnerar den minsta raden eller ett standardvärde baserat på angivet villkor.
 
 
@@ -21,7 +19,7 @@ Table.Min(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar den minsta raden i <code>table</code> baserat på angivet <code>comparisonCriteria</code>. Om tabellen är tom returneras det valfria värdet <code>default</code>.
 

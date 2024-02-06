@@ -5,8 +5,6 @@ title: BinaryFormat.ByteOrder
 # BinaryFormat.ByteOrder
 
 
-## Description
-
 Zwraca format binarny, w którym kolejność bajtów jest określona przez funkcję.
 
 
@@ -20,7 +18,7 @@ BinaryFormat.ByteOrder(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca format binarny, w którym kolejność bajtów jest określona przez parametr <code>binaryFormat</code>.  Domyślna kolejność bajtów to <code>ByteOrder.BigEndian</code>.
 

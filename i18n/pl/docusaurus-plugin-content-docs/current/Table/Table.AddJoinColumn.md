@@ -5,8 +5,6 @@ title: Table.AddJoinColumn
 # Table.AddJoinColumn
 
 
-## Description
-
 Wykonuje sprzężenie tabel z użyciem określonych kolumn i umieszcza wynik sprzężenia w nowej kolumnie.
 
 
@@ -23,7 +21,7 @@ Table.AddJoinColumn(
 ```
 
 
-## Details
+## Remarks
 
 Tworzy sprzężenie wierszy tabeli <code>table1</code> z wierszami tabeli <code>table2</code> na podstawie równości wartości kolumn klucza wybranych przez parametr <code>key1</code> (dla tabeli <code>table1</code>) i parametr <code>key2</code> (dla tabeli <code>table2</code>). Wyniki są umieszczane w kolumnie o nazwie <code>newColumnName</code>.Ta funkcja działa podobnie do funkcji Table.Join z parametrem JoinKind o wartości LeftOuter, z tym że wyniki są prezentowane w sposób zagnieżdżony, a nie spłaszczony.
 

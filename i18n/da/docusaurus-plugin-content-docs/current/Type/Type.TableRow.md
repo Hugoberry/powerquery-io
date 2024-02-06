@@ -5,8 +5,6 @@ title: Type.TableRow
 # Type.TableRow
 
 
-## Description
-
 Returnerer rækketypen for tabeltypen.
 
 
@@ -19,7 +17,7 @@ Type.TableRow(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer rækketypen for den angivne tabeltype. Resultatet vil altid være en posttype.
 

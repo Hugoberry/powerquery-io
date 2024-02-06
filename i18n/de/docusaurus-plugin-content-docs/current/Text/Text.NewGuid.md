@@ -5,8 +5,6 @@ title: Text.NewGuid
 # Text.NewGuid
 
 
-## Description
-
 Gibt eine neue, zufällige GUID (Globally Unique Identifier) zurück.
 
 
@@ -19,7 +17,7 @@ Text.NewGuid(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine neue, zufällige GUID (Globally Unique Identifier) zurück.
 

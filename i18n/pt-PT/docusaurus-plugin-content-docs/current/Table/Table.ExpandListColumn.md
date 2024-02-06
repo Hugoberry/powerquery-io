@@ -5,8 +5,6 @@ title: Table.ExpandListColumn
 # Table.ExpandListColumn
 
 
-## Description
-
 Criar uma cópia de uma linha para cada valor na respetiva lista, com base numa coluna de listas numa tabela especificada.
 
 
@@ -20,7 +18,7 @@ Table.ExpandListColumn(
 ```
 
 
-## Details
+## Remarks
 
 Com base num <code>table</code>, em que <code>column</code> é uma lista de valores, divide a lista numa linha para cada valor. Os valores existentes nas outras colunas são duplicados em cada linha nova criada.
 

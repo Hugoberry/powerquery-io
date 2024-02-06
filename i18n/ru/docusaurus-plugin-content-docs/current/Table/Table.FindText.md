@@ -5,8 +5,6 @@ title: Table.FindText
 # Table.FindText
 
 
-## Description
-
 Возвращает все строки в таблице, содержащие заданный текст.
 
 
@@ -20,7 +18,7 @@ Table.FindText(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает строки из таблицы <code>table</code> с текстом <code>text</code>. Если текст не найден, то возвращается пустая таблица.
 

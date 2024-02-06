@@ -5,8 +5,6 @@ title: Record.SelectFields
 # Record.SelectFields
 
 
-## Description
-
 Gibt einen Datensatz zurück, der ausschließlich die angegebenen Felder enthält.
 
 
@@ -21,7 +19,7 @@ Record.SelectFields(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen Datensatz zurück, der ausschließlich die in der Liste "<code>fields</code>" angegebenen Felder aus der Eingabe "<code>record</code>" enthält.
 

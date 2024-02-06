@@ -5,8 +5,6 @@ title: BinaryFormat.Decimal
 # BinaryFormat.Decimal
 
 
-## Description
-
 Một định dạng nhị phân đọc giá trị thập phân 16 byte .NET.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Decimal(
 ```
 
 
-## Details
+## Remarks
 
 Một định dạng nhị phân đọc giá trị thập phân 16 byte .NET.
 

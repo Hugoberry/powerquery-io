@@ -5,8 +5,6 @@ title: List.Max
 # List.Max
 
 
-## Description
-
 Restituisce il valore massimo o il valore predefinito per un elenco vuoto.
 
 
@@ -22,7 +20,7 @@ List.Max(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce l'elemento massimo dell'elenco <code>list</code> o il valore predefinito facoltativo <code>default</code>, se l'elenco è vuoto.    È possibile specificare un valore facoltativo comparisonCriteria <code>comparisonCriteria</code> per determinare come confrontare gli elementi nell'elenco. Se questo parametro è Null, si usa l'operatore di confronto predefinito.
 

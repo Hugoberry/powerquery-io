@@ -5,8 +5,6 @@ title: Text.AfterDelimiter
 # Text.AfterDelimiter
 
 
-## Description
-
 Text.AfterDelimiter
 
 
@@ -21,7 +19,7 @@ Text.AfterDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar delen av <code>text</code> efter det angivna <code>delimiter</code>.    En valfri numerisk <code>index</code> indikerar vilken förekomst av <code>delimiter</code> som ska övervägas.    En valfri lista <code>index</code> indikerar vilken förekomst av <code>delimiter</code> som ska övervägas, samt om indexering skall göras från starten eller slutet på indata.
 

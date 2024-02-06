@@ -5,8 +5,6 @@ title: Table.CombineColumns
 # Table.CombineColumns
 
 
-## Description
-
 รวมคอลัมน์ที่ระบุให้เป็นคอลัมน์ใหม่โดยใช้ฟังก์ชันตัวรวมที่ระบุ
 
 
@@ -22,7 +20,7 @@ Table.CombineColumns(
 ```
 
 
-## Details
+## Remarks
 
 รวมคอลัมน์ที่ระบุให้เป็นคอลัมน์ใหม่โดยใช้ฟังก์ชันตัวรวมที่ระบุ
 

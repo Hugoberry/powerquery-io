@@ -5,8 +5,6 @@ title: DynamicsNav.Contents
 # DynamicsNav.Contents
 
 
-## Description
-
 Ange URL:en för slutpunkten för din Dynamics NAV OData-tjänstslutpunkt.
 
 
@@ -20,7 +18,7 @@ DynamicsNav.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell med relevanta Dynamics NAV-data. 
 

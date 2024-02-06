@@ -5,8 +5,6 @@ title: Smartsheet.Content
 # Smartsheet.Content
 
 
-## Description
-
 Retourne une table de données à partir d&#39;un point de terminaison d&#39;index Smartsheet.
 
 
@@ -19,7 +17,7 @@ Smartsheet.Content(
 ```
 
 
-## Details
+## Remarks
 
 Effectue un appel à l'API REST Smartsheet 2.0 au niveau du point de terminaison spécifié et transforme l'élément de données retourné en table.
 

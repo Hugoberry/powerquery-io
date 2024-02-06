@@ -5,8 +5,6 @@ title: Table.Join
 # Table.Join
 
 
-## Description
-
 Unisce in join le righe di due tabelle che corrispondono in base alle chiavi specificate.
 
 
@@ -25,7 +23,7 @@ Table.Join(
 ```
 
 
-## Details
+## Remarks
 
 Crea un join delle righe di <code>table1</code> con le righe di <code>table2</code> in base all'uguaglianza dei valori delle colonne chiave selezionate da <code>key1</code> (per <code>table1</code>) e da <code>key2</code> (per <code>table2</code>).<br />Per impostazione predefinita, viene eseguito un inner join. È possibile includere un set facoltativo di <code>joinKind</code> per specificare il tipo di join. Le opzioni includono:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />È possibile includere un set facoltativo di <code>keyEqualityComparers</code> per specificare la modalità di confronto delle colonne chiave. Questo parametro è attualmente consentito solo per uso interno.<br />
 

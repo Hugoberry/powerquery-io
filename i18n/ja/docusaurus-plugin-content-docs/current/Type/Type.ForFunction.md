@@ -5,8 +5,6 @@ title: Type.ForFunction
 # Type.ForFunction
 
 
-## Description
-
 特定のパラメーターと戻り値の型の制約を持つ関数を表す型を返します。
 
 
@@ -20,7 +18,7 @@ Type.ForFunction(
 ```
 
 
-## Details
+## Remarks
 
 <code>function type</code> を、<code>ReturnType</code> と <code>Parameters</code> のレコード <code>signature</code>、関数の呼び出しに必要な引数の最少数 <code>min</code> から作成します。
 

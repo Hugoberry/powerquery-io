@@ -5,8 +5,6 @@ title: Date.IsInNextMonth
 # Date.IsInNextMonth
 
 
-## Description
-
 Indica se esta data ocorre durante o mês seguinte, conforme a determinação da data e hora atuais no sistema. Observe que essa função retornará false quando for passado um valor que ocorra no mês atual.
 
 
@@ -19,7 +17,7 @@ Date.IsInNextMonth(
 ```
 
 
-## Details
+## Remarks
 
 Indica se o valor de datetime especificado <code>dateTime</code> ocorre durante o mês seguinte, conforme a determinação da data e hora atuais no sistema. Observe que essa função retornará false quando for passado um valor que ocorra no mês atual.      <ul>      <li><code>dateTime</code>: um valor de <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> a ser avaliado.</li>      </ul>
 

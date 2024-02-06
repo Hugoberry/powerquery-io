@@ -5,8 +5,6 @@ title: Record.FieldCount
 # Record.FieldCount
 
 
-## Description
-
 ส่งกลับจำนวนของเขตข้อมูลในระเบียน
 
 
@@ -19,7 +17,7 @@ Record.FieldCount(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับจำนวนของเขตข้อมูลในระเบียน <code>record</code>
 

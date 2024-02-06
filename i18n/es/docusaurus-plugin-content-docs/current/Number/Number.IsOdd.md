@@ -5,8 +5,6 @@ title: Number.IsOdd
 # Number.IsOdd
 
 
-## Description
-
 Indica si el valor es impar.
 
 
@@ -19,7 +17,7 @@ Number.IsOdd(
 ```
 
 
-## Details
+## Remarks
 
 Indica si el valor es impar. Devuelve <code>true</code> si <code>number</code> es un número impar, <code>false</code> en caso contrario.
 

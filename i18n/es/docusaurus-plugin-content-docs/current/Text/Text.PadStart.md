@@ -5,8 +5,6 @@ title: Text.PadStart
 # Text.PadStart
 
 
-## Description
-
 Devuelve texto de una longitud especificada rellenando el comienzo del texto dado.
 
 
@@ -21,7 +19,7 @@ Text.PadStart(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un valor <code>text</code> rellenado hasta la longitud <code>count</code> insertando espacios al inicio del valor de texto <code>text</code>.    Se puede usar un carácter opcional <code>character</code> para especificar el carácter usado para el relleno. El carácter de relleno predeterminado es un espacio.
 

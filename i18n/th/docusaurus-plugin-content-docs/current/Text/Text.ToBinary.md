@@ -5,8 +5,6 @@ title: Text.ToBinary
 # Text.ToBinary
 
 
-## Description
-
 เข้ารหัสข้อความให้เป็นรูปแบบไบนารี
 
 
@@ -21,7 +19,7 @@ Text.ToBinary(
 ```
 
 
-## Details
+## Remarks
 
 เข้ารหัสค่าข้อความที่กำหนด <code>text</code> ให้เป็นค่าไบนารีโดยใช้ <code>encoding</code> ที่ระบุ
 

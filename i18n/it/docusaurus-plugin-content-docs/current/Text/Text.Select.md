@@ -5,8 +5,6 @@ title: Text.Select
 # Text.Select
 
 
-## Description
-
 Seleziona tutte le occorrenze del carattere o dell&#39;elenco di caratteri specificato dal valore di testo di input.
 
 
@@ -20,7 +18,7 @@ Text.Select(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una copia del valore di testo <code>text</code> con tutti i caratteri non presenti in <code>selectChars</code> rimossi.  
 

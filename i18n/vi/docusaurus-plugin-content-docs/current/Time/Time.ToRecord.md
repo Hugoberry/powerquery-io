@@ -5,8 +5,6 @@ title: Time.ToRecord
 # Time.ToRecord
 
 
-## Description
-
 Trả về một bản ghi chứa các phần của giá trị Thời gian.
 
 
@@ -19,7 +17,7 @@ Time.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bản ghi chứa các phần của giá trị Thời gian cho sẵn, <code>time</code>. <ul>        <li><code>time</code>: Một giá trị <code>time</code> nơi bản ghi các phần của giá trị đó sẽ được tính.</li>      </ul>
 

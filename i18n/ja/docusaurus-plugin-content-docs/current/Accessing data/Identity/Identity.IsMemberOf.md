@@ -5,8 +5,6 @@ title: Identity.IsMemberOf
 # Identity.IsMemberOf
 
 
-## Description
-
 ID が ID コレクションのメンバーであるかどうかを決定します。
 
 
@@ -20,7 +18,7 @@ Identity.IsMemberOf(
 ```
 
 
-## Details
+## Remarks
 
 ID が ID コレクションのメンバーであるかどうかを決定します。
 

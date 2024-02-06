@@ -5,8 +5,6 @@ title: Date.ToRecord
 # Date.ToRecord
 
 
-## Description
-
 Retourneert een record die onderdelen van de datumwaarde bevat.
 
 
@@ -19,7 +17,7 @@ Date.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een record geretourneerd met de onderdelen van de opgegeven date-waarde, <code>date</code>. <ul> <li><code>date</code>: een <code>date</code>-waarde op basis waarvan de record of de onderdelen daarvan moeten worden berekend.</li> </ul>
 

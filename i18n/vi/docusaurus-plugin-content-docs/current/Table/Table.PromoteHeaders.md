@@ -5,8 +5,6 @@ title: Table.PromoteHeaders
 # Table.PromoteHeaders
 
 
-## Description
-
 Tăng cấp hàng giá trị đầu tiên làm các tiêu đề cột mới (nghĩa là tên cột).
 
 
@@ -20,7 +18,7 @@ Table.PromoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Tăng cấp hàng giá trị đầu tiên làm các tiêu đề cột mới (tức là tên cột). Theo mặc định, chỉ những giá trị là văn bản hoặc số mới được tăng cấp lên tiêu đề. Tùy chọn hợp lệ:    <div>      <code>PromoteAllScalars</code> : Nếu được đặt thành <code>true</code>, tất cả các giá trị vô hướng trong hàng đầu tiên sẽ được tăng cấp lên tiêu đề bằng cách sử dụng <code>Culture</code>, nếu được chỉ định (hoặc ngôn ngữ tài liệu hiện tại).    Đối với các giá trị không được chuyển thành văn bản, tên cột mặc định sẽ được sử dụng.    </div>    <div>    <code>Culture</code> : Tên ngôn ngữ chỉ định ngôn ngữ cho dữ liệu đó.    </div>  
 

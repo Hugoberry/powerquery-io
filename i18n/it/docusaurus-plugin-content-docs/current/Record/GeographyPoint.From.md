@@ -5,8 +5,6 @@ title: GeographyPoint.From
 # GeographyPoint.From
 
 
-## Description
-
 Crea un record che rappresenta un punto geografico dalle parti.
 
 
@@ -23,7 +21,7 @@ GeographyPoint.From(
 ```
 
 
-## Details
+## Remarks
 
 Crea un record che rappresenta un punto geografico dalle relative parti costituenti, come longitudine, latitudine e, se presenti, elevazione (Z) e misura (M). È possibile specificare un identificatore di riferimento spaziale (SRID) facoltativo, se diverso dal valore predefinito (4326).
 

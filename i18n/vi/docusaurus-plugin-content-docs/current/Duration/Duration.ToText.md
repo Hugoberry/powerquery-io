@@ -5,8 +5,6 @@ title: Duration.ToText
 # Duration.ToText
 
 
-## Description
-
 Trả về văn bản có dạng &#34;d.h:m:s&#34;.
 
 
@@ -20,7 +18,7 @@ Duration.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một dạng thức biểu diễn bằng văn bản có dạng "day.hour:mins:sec" cho giá trị khoảng thời gian cụ thể, <code>duration</code>. <ul>        <li><code>duration</code>: Một <code>khoảng thời gian</code> được dùng làm căn cứ để tính dạng thức biểu diễn đó.</li>  <li><code>format</code>: <i>[Tùy chọn]</i> Không dùng nữa, sẽ trả về lỗi nếu không phải giá trị rỗng</li>      </ul>
 

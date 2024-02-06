@@ -5,8 +5,6 @@ title: Number.BitwiseXor
 # Number.BitwiseXor
 
 
-## Description
-
 ส่งกลับผลลัพธ์ของการดำเนินการในระดับบิต &#34;XOR&#34; (Exclusive-OR) ระหว่างค่าที่ป้อนสองรายการ
 
 
@@ -20,7 +18,7 @@ Number.BitwiseXor(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลลัพธ์ของการดำเนินการในระดับบิต "XOR" (Exclusive-OR) ระหว่าง <code>number1</code> กับ <code>number2</code>
 

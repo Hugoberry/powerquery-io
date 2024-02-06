@@ -5,8 +5,6 @@ title: List.ReplaceValue
 # List.ReplaceValue
 
 
-## Description
-
 Ricerca in un elenco il valore specificato e lo sostituisce.
 
 
@@ -22,7 +20,7 @@ List.ReplaceValue(
 ```
 
 
-## Details
+## Remarks
 
 Ricerca nell'elenco di valori <code>list</code> il valore <code>oldValue</code> e sostituisce ogni occorrenza con il valore di sostituzione <code>newValue</code>.
 

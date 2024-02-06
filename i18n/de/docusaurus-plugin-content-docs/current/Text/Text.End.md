@@ -5,8 +5,6 @@ title: Text.End
 # Text.End
 
 
-## Description
-
 Gibt die letzten Zeichen des Texts zurück.
 
 
@@ -20,7 +18,7 @@ Text.End(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen <code>text</code>-Wert zurück, bei dem es sich um die letzten <code>count</code> Zeichen des <code>text</code>-Werts "<code>text</code>" handelt.
 

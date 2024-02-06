@@ -5,8 +5,6 @@ title: Table.FromValue
 # Table.FromValue
 
 
-## Description
-
 Crea una tabella con una colonna dai valori specificati.
 
 
@@ -20,7 +18,7 @@ Table.FromValue(
 ```
 
 
-## Details
+## Remarks
 
 Crea una tabella con una colonna contenente il valore o l'elenco di valori specificato, <code>value</code>. È possibile specificare un parametro di record facoltativo, <code>options</code>, per controllare le opzioni seguenti:    <ul>    <li> <code>DefaultColumnName</code>: nome di colonna usato durante la creazione di una tabella da un elenco o da un valore scalare.</li>    </ul>  
 

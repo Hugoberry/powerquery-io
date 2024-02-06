@@ -5,8 +5,6 @@ title: Table.Distinct
 # Table.Distinct
 
 
-## Description
-
 Quita las filas duplicadas de la tabla.
 
 
@@ -20,7 +18,7 @@ Table.Distinct(
 ```
 
 
-## Details
+## Remarks
 
 Quita las filas duplicadas de la tabla.    Un parámetro opcional, <code>equationCriteria</code>, especifica qué columnas de la tabla se prueban para la duplicación. Si no se especifica <code>equationCriteria</code>, se prueban todas las columnas.<br />    <br />    Dado que, a veces, Power Query descarga determinadas operaciones en orígenes de datos de back-end (conocidas como "plegamiento") y, a veces, optimiza las consultas mediante     la omisión de operaciones que no son estrictamente necesarias; en general, no hay ninguna garantía de que se conserve un duplicado específico.    Por ejemplo, no puede asumir que la primera fila con un conjunto único de valores de columna permanecerá y que se quitarán las filas más abajo de la tabla.    Si desea que la eliminación de duplicados se comporte de forma predecible, primero es necesario almacenar en búfer la tabla con <code>Table.Buffer</code>.
 

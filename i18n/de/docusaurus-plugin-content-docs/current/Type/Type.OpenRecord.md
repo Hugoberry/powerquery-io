@@ -5,8 +5,6 @@ title: Type.OpenRecord
 # Type.OpenRecord
 
 
-## Description
-
 Gibt eine geöffnete Version des angegebenen Datensatztyps zurück (bzw. denselben Typ, wenn dieser bereits geöffnet ist).
 
 
@@ -19,7 +17,7 @@ Type.OpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine geöffnete Version des angegebenen <code>Datensatzes</code> <code>type</code> zurück (bzw. denselben Typ, wenn dieser bereits geöffnet ist).
 

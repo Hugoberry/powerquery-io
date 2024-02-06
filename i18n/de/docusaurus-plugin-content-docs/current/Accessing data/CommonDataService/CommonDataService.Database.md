@@ -16,7 +16,7 @@ CommonDataService.Database(
 ```
 
 
-## Details
+## Remarks
 
 Hiermit stellen Sie eine Verbindung mit Ihrer Dataverse-Instanz her (Dynamics 365 und PowerApps).
 

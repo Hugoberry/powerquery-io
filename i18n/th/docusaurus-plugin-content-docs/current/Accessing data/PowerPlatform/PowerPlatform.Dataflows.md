@@ -5,8 +5,6 @@ title: PowerPlatform.Dataflows
 # PowerPlatform.Dataflows
 
 
-## Description
-
 นําเข้าข้อมูลจากกระแสข้อมูล
 
 
@@ -19,7 +17,7 @@ PowerPlatform.Dataflows(
 ```
 
 
-## Details
+## Remarks
 
 เชื่อมต่อกับกระแสข้อมูลทั้งหมดที่คุณมีการเข้าถึง และเลือกเอนทิตีที่คุณต้องการใช้
 

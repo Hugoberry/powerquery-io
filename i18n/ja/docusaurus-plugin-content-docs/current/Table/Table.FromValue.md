@@ -5,8 +5,6 @@ title: Table.FromValue
 # Table.FromValue
 
 
-## Description
-
 指定された値を列に含めたテーブルを作成します。
 
 
@@ -20,7 +18,7 @@ Table.FromValue(
 ```
 
 
-## Details
+## Remarks
 
 指定された値または値リスト <code>value</code> を列に含めたテーブルを作成します。省略可能なレコード パラメーター <code>options</code> を指定して、次のオプションを制御できます:    <ul>    <li> <code>DefaultColumnName</code> : リストまたはスカラー値からテーブルを生成するのに使用された列名。</li>    </ul>  
 

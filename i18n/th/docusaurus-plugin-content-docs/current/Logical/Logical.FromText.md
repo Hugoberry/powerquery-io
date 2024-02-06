@@ -5,8 +5,6 @@ title: Logical.FromText
 # Logical.FromText
 
 
-## Description
-
 สร้างค่าตรรกะจากค่าข้อความ &#34;true&#34; และ &#34;false&#34;
 
 
@@ -19,7 +17,7 @@ Logical.FromText(
 ```
 
 
-## Details
+## Remarks
 
 สร้างค่าตรรกะจากค่าข้อความ <code>text</code> ซึ่งเป็น "true" หรือ "false" ถ้า <code>text</code> ประกอบด้วยสตริงอื่น ระบบจะแสดงข้อยกเว้น ค่าข้อความ <code>text</code> ไม่ตรงตามตัวพิมพ์ใหญ่เล็ก
 

@@ -5,8 +5,6 @@ title: Number.Power
 # Number.Power
 
 
-## Description
-
 数値を指定された数値でべき乗します。
 
 
@@ -20,7 +18,7 @@ Number.Power(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> を <code>power</code> でべき乗した結果を返します。    <code>number</code> または <code>power</code> が null の場合、<code>Number.Power</code> は null を返します。      <ul>        <li><code>number</code>: 基数。</li>        <li><code>power</code>: 指数。</li>      </ul>
 

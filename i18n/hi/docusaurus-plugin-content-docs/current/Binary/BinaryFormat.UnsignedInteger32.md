@@ -5,8 +5,6 @@ title: BinaryFormat.UnsignedInteger32
 # BinaryFormat.UnsignedInteger32
 
 
-## Description
-
 बाइनरी स्वरूप जो 32-बिट अहस्ताक्षरित पूर्णांक को पढ़ता है.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.UnsignedInteger32(
 ```
 
 
-## Details
+## Remarks
 
 बाइनरी स्वरूप जो 32-बिट अहस्ताक्षरित पूर्णांक को पढ़ता है.
 

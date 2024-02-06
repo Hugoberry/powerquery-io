@@ -5,8 +5,6 @@ title: Table.ContainsAll
 # Table.ContainsAll
 
 
-## Description
-
 Belirtilen tüm kayıtların tabloda satır olarak görünüp görünmediğini gösterir.
 
 
@@ -21,7 +19,7 @@ Table.ContainsAll(
 ```
 
 
-## Details
+## Remarks
 
 <code>rows</code> kayıt listesindeki belirtilen tüm kayıtların <code>table</code> içinde satır olarak görünüp görünmediğini gösterir.    Tablonun satırları arasındaki karşılaştırmayı denetlemek üzere <code>equationCriteria</code> isteğe bağlı parametresi belirtilebilir.
 

@@ -5,8 +5,6 @@ title: Marketo.Activities
 # Marketo.Activities
 
 
-## Description
-
 返回包含潜在客户活动的表。
 
 
@@ -21,7 +19,7 @@ Marketo.Activities(
 ```
 
 
-## Details
+## Remarks
 
 在 <code>url</code>/rest/v1/activities.json 上调用 Marketo REST API 终结点。返回列表 <code>activityIds</code> 中自 <code>startTime</code> 以来发生的所有活动。
 

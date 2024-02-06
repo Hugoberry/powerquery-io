@@ -5,8 +5,6 @@ title: Binary.From
 # Binary.From
 
 
-## Description
-
 Crée un binaire à partir de la valeur spécifiée
 
 
@@ -20,7 +18,7 @@ Binary.From(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une valeur <code>binary</code> du <code>value</code> spécifié. Si le <code>value</code> spécifié est <code>null</code>, <code>Binary.From</code> retourne <code>null</code>. Si le <code>value</code> spécifié est <code>binary</code>, <code>value</code> est retourné. Les valeurs des types suivants peuvent être converties en valeur <code>binary</code> :       <ul>        <li><code>text</code> : valeur <code>binary</code> à partir de la représentation de texte. Référez-vous à <code>Binary.FromText</code> pour plus de détails.</li>      </ul>Si <code>value</code> est d'un autre type, une erreur est retournée.
 

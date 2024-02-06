@@ -5,8 +5,6 @@ title: Table.RemoveFirstN
 # Table.RemoveFirstN
 
 
-## Description
-
 返回跳过了前几个计数行的表。
 
 
@@ -20,7 +18,7 @@ Table.RemoveFirstN(
 ```
 
 
-## Details
+## Remarks
 
 返回一个表，该表不包含表 <code>table</code> 的指定数量的前几行 <code>countOrCondition</code>。    删除的行数依赖于可选参数 <code>countOrCondition</code>。    <ul>    <li> 如果忽略 <code>countOrCondition</code>，则只删除第一行。</li>    <li> 如果 <code>countOrCondition</code> 为数字，则将删除该数字那么多的行(从顶部开始)。</li>    <li> 如果 <code>countOrCondition</code> 是条件，将删除满足此条件的行，直到行不满足条件为止。</li>    </ul>
 

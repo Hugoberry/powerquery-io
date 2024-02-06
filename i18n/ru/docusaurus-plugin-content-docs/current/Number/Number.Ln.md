@@ -5,8 +5,6 @@ title: Number.Ln
 # Number.Ln
 
 
-## Description
-
 Возвращает натуральный логарифм числа.
 
 
@@ -19,7 +17,7 @@ Number.Ln(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает натуральный логарифм числа <code>number</code>. Если <code>number</code> имеет значение NULL, то <code>Number.Ln</code> возвращает NULL.
 

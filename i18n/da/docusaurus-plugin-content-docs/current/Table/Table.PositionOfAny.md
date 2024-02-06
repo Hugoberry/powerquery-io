@@ -5,8 +5,6 @@ title: Table.PositionOfAny
 # Table.PositionOfAny
 
 
-## Description
-
 Returnerer den eller de angivne positioner for alle de angivne rækker i tabellen.
 
 
@@ -22,7 +20,7 @@ Table.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer rækkens eller rækkernes position fra <code>table</code> af den første forekomst af listen i <code>rows</code>. Returnerer -1, hvis der ikke blev fundet nogen forekomster.    <ul>    <li><code>table</code>: Inputtabellen.</li>       <li><code>rows</code>: Den liste over rækker i tabellen, der skal findes positioner for.</li>       <li><code>occurrence</code>: <i>[Valgfrit]</i> Angiver, hvilke forekomster af rækken der skal returneres.</li>       <li><code>equationCriteria</code>: <i>[Valgfrit]</i> Styrer sammenligningen mellem tabelrækkerne.</li>    </ul>    
 

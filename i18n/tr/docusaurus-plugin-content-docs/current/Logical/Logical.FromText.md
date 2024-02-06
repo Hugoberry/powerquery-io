@@ -5,8 +5,6 @@ title: Logical.FromText
 # Logical.FromText
 
 
-## Description
-
 &#34;true&#34; ve &#34;false&#34; metin değerlerinden bir metinsel değer oluşturur.
 
 
@@ -19,7 +17,7 @@ Logical.FromText(
 ```
 
 
-## Details
+## Remarks
 
 "true" veya "false" olan <code>text</code> metin değerinden bir metinsel değer oluşturur. <code>text</code> farklı bir dize içeriyorsa, özel durum oluşur. <code>text</code> metin değeri büyük/küçük harfe duyarlıdır.
 

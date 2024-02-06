@@ -5,8 +5,6 @@ title: Spark.Tables
 # Spark.Tables
 
 
-## Description
-
 Trả lại một bảng liên kế các bảng trên cụm Spark được chỉ định.
 
 
@@ -21,7 +19,7 @@ Spark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Trả lại một bảng liên kế các bảng trên cụm Spark <code>host</code> using <code>protocol</code>.  Các giao thức hợp lệ là:SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
 

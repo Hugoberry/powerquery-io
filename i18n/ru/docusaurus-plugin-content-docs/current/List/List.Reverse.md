@@ -5,8 +5,6 @@ title: List.Reverse
 # List.Reverse
 
 
-## Description
-
 Изменяет порядок значений в списке на противоположный.
 
 
@@ -19,7 +17,7 @@ List.Reverse(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает список со значениями в списке <code>list</code> в обратном порядке.
 

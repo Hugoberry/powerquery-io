@@ -5,8 +5,6 @@ title: List.Count
 # List.Count
 
 
-## Description
-
 返回列表中的项数。
 
 
@@ -19,7 +17,7 @@ List.Count(
 ```
 
 
-## Details
+## Remarks
 
 返回列表 <code>list</code> 中的项数。
 

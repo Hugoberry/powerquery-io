@@ -5,8 +5,6 @@ title: Date.MonthName
 # Date.MonthName
 
 
-## Description
-
 Returnerer navnet på månedskomponenten.
 
 
@@ -20,7 +18,7 @@ Date.MonthName(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer navnet på månedskomponenten for den angivne <code>date</code>. Der kan også angives en valgfri <code>culture</code> (f. eks. "en-US").
 

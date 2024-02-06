@@ -5,8 +5,6 @@ title: Logical.ToText
 # Logical.ToText
 
 
-## Description
-
 Trả về văn bản &#34;true&#34; hoặc &#34;false&#34; khi được cho sẵn một giá trị lôgic.
 
 
@@ -19,7 +17,7 @@ Logical.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Tạo một giá trị văn bản từ giá trị lôgic <code>logicalValue</code>, <code>true</code> hoặc <code>false</code>. Nếu <code>logicalValue</code> không phải là giá trị lôgic thì một ngoại lệ được đưa ra.
 

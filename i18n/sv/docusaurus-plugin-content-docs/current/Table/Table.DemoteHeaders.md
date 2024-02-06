@@ -5,8 +5,6 @@ title: Table.DemoteHeaders
 # Table.DemoteHeaders
 
 
-## Description
-
 Flyttar ned kolumnrubrikerna till den första raden med värden.
 
 
@@ -19,7 +17,7 @@ Table.DemoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Flyttar ned kolumnrubrikerna (d.v.s. kolumnnamn) till den första raden med värden. Standardkolumnvärdena är "Kolumn1", "Kolumn2" och så vidare.
 

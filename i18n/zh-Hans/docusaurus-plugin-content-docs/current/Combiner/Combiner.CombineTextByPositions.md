@@ -5,8 +5,6 @@ title: Combiner.CombineTextByPositions
 # Combiner.CombineTextByPositions
 
 
-## Description
-
 返回一个函数，它使用指定的输出位置将文本列表合并。
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByPositions(
 ```
 
 
-## Details
+## Remarks
 
 返回一个函数，它使用指定的输出位置将文本值列表合并成单个文本值。
 

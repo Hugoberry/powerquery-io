@@ -5,8 +5,6 @@ title: Diagnostics.ActivityId
 # Diagnostics.ActivityId
 
 
-## Description
-
 Restituisce un identificatore opaco per la valutazione attualmente in esecuzione.
 
 
@@ -19,7 +17,7 @@ Diagnostics.ActivityId(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un identificatore opaco per la valutazione attualmente in esecuzione.
 

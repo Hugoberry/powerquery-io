@@ -5,8 +5,6 @@ title: Function.From
 # Function.From
 
 
-## Description
-
 Tworzy funkcję z podpisem określonego parametru na górze funkcji, która przyjmuje argument pojedynczej listy
 
 
@@ -20,7 +18,7 @@ Function.From(
 ```
 
 
-## Details
+## Remarks
 
 Przyjmuje funkcję jednoargumentową <code>function</code> i tworzy nową funkcję z typem <code>functionType</code>, który tworzy listę z jej argumentów i przekazuje ją do elementu <code>function</code>.
 

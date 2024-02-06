@@ -5,8 +5,6 @@ title: Uri.Parts
 # Uri.Parts
 
 
-## Description
-
 Restituisce le parti dell&#39;URI assoluto di input come record.
 
 
@@ -19,7 +17,7 @@ Uri.Parts(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce le parti di <code>absoluteUri</code> di input come record, contenenti valori quali schema, host, porta, percorso, query, frammento, nome utente e password.
 

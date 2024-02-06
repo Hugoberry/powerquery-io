@@ -5,8 +5,6 @@ title: List.ReplaceValue
 # List.ReplaceValue
 
 
-## Description
-
 Belirtilen değer için bir liste arar ve değiştirir.
 
 
@@ -22,7 +20,7 @@ List.ReplaceValue(
 ```
 
 
-## Details
+## Remarks
 
 <code>oldValue</code> değeri için bir <code>list</code> değer listesi arar ve her oluşumu <code>newValue</code> değiştirme değeri ile değiştirir.
 

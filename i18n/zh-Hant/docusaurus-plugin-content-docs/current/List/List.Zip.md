@@ -5,8 +5,6 @@ title: List.Zip
 # List.Zip
 
 
-## Description
-
 透過合併位於多個清單中相同位置的項目，傳回一連串清單。
 
 
@@ -19,7 +17,7 @@ List.Zip(
 ```
 
 
-## Details
+## Remarks
 
 接受一連串清單 <code>lists</code>，並傳回合併位於相同位置之項目的一連串清單。
 

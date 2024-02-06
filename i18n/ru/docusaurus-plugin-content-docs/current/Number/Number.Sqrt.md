@@ -5,8 +5,6 @@ title: Number.Sqrt
 # Number.Sqrt
 
 
-## Description
-
 Возвращает квадратный корень числа.
 
 
@@ -19,7 +17,7 @@ Number.Sqrt(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает квадратный корень числа <code>number</code>.    Если <code>number</code> имеет значение NULL, <code>Number.Sqrt</code> возвращает NULL. Если это отрицательное значение, возвращается значение <code>Number.NaN</code> (нечисловое).
 

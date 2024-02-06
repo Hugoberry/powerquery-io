@@ -5,8 +5,6 @@ title: Value.Expression
 # Value.Expression
 
 
-## Description
-
 ส่งกลับทรีไวยากรณ์เชิงนามธรรม (AST) ที่แสดงนิพจน์ของค่า
 
 
@@ -19,7 +17,7 @@ Value.Expression(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับทรีไวยากรณ์เชิงนามธรรม (AST) ที่แสดงนิพจน์ของค่า
 

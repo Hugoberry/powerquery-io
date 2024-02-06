@@ -5,8 +5,6 @@ title: Text.Select
 # Text.Select
 
 
-## Description
-
 Sélectionne toutes les occurrences du caractère ou de la liste de caractères à partir de la valeur de texte d&#39;entrée.
 
 
@@ -20,7 +18,7 @@ Text.Select(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une copie d'une valeur de texte <code>text</code> avec tous les caractères hors de <code>selectChars</code> supprimés.  
 

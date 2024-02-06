@@ -5,8 +5,6 @@ title: Table.FromRows
 # Table.FromRows
 
 
-## Description
-
 Skapar en tabell från en lisa med radvärden och valfria kolumner
 
 
@@ -20,7 +18,7 @@ Table.FromRows(
 ```
 
 
-## Details
+## Remarks
 
 Skapar en tabell från listan <code>rows</code> där varje element i listan är en inre lista som innehåller kolumnvärdena för en enskild rad. En valfri lista med kolumnnamn, en tabelltyp, eller ett antal kolumner kan tillhandahållas för <code>columns</code>.
 

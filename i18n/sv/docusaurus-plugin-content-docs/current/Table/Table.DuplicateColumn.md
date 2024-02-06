@@ -5,8 +5,6 @@ title: Table.DuplicateColumn
 # Table.DuplicateColumn
 
 
-## Description
-
 Duplicerar en kolumn med det angivna namnet. Värdena och typen kopieras från källkolumnen.
 
 
@@ -22,7 +20,7 @@ Table.DuplicateColumn(
 ```
 
 
-## Details
+## Remarks
 
 Duplicera kolumnen med namnet <code>columnName</code> till tabellen <code>table</code>. Värdena och typen för kolumnen <code>newColumnName</code> kopieras från kolumnen <code>columnName</code>.
 

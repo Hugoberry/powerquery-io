@@ -5,8 +5,6 @@ title: List.Modes
 # List.Modes
 
 
-## Description
-
 返回列表中出现最多的值的列表。
 
 
@@ -20,7 +18,7 @@ List.Modes(
 ```
 
 
-## Details
+## Remarks
 
 返回列表 <code>list</code> 中出现最多的项。如果列表为空，将引发异常。如果出现最多的项有多个，则选择其中的最后一项。    可以指定可选的 <code>comparisonCriteria</code> 值 <code>equationCriteria</code> 来控制相等测试。 
 

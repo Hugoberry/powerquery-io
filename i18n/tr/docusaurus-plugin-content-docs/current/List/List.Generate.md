@@ -5,8 +5,6 @@ title: List.Generate
 # List.Generate
 
 
-## Description
-
 Bir değerler listesi oluşturur.
 
 
@@ -22,7 +20,7 @@ List.Generate(
 ```
 
 
-## Details
+## Remarks
 
 Sağlanan işlevleri kullanarak bir değerler listesi oluşturur. <code>initial</code> işlevi daha sonra <code>condition</code> ile sınanacak bir başlangıç aday değeri oluşturur.    Aday değer onaylanırsa sonuç listesinin parçası olarak döndürülür ve yeni onaylanan değer <code>next</code> öğesine geçirilerek sonraki aday değer oluşturulur.    Bir aday değer <code>condition</code> ile eşleşmediğinde, liste oluşturma işlemi durur.    Sonuç listesindeki öğeleri dönüştürmek için isteğe bağlı <code>selector</code> parametresi de sağlanabilir.
 

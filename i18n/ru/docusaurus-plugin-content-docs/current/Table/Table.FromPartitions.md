@@ -5,8 +5,6 @@ title: Table.FromPartitions
 # Table.FromPartitions
 
 
-## Description
-
 Возвращает таблицу, которая является результатом объединения набора секционированных таблиц.
 
 
@@ -21,7 +19,7 @@ Table.FromPartitions(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу, являющуюся результатом комбинирования набора разделенных таблиц <code>partitions</code>. <code>partitionColumn</code> представляет собой имя добавляемого столбца. По умолчанию используется тип столбца <code>any</code>, однако он может быть указан в <code>partitionColumnType</code>.
 

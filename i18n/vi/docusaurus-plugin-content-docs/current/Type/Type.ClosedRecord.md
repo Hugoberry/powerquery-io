@@ -5,8 +5,6 @@ title: Type.ClosedRecord
 # Type.ClosedRecord
 
 
-## Description
-
 Trả về phiên bản đã đóng của loại bản ghi cho sẵn (hoặc cùng loại nếu đã đóng).
 
 
@@ -19,7 +17,7 @@ Type.ClosedRecord(
 ```
 
 
-## Details
+## Remarks
 
 Trả về phiên bản đã đóng của <code>bản ghi</code> <code>type</code> cho sẵn (hoặc cùng loại nếu đã đóng).
 

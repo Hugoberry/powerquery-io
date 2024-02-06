@@ -17,7 +17,7 @@ DatabricksMultiCloud.Query(
 ```
 
 
-## Details
+## Remarks
 
 SQL クエリを実行するための Databricks データ ソースを定義する
 

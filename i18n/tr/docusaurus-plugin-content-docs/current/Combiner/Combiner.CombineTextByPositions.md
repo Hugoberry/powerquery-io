@@ -5,8 +5,6 @@ title: Combiner.CombineTextByPositions
 # Combiner.CombineTextByPositions
 
 
-## Description
-
 Belirtilen çıktı konumlarını kullanarak bir metin listesini birleştiren bir işlev döndürür.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByPositions(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen çıktı konumlarını kullanarak metin değerleri listesini tek bir metin değerinde birleştiren bir işlev döndürür.
 

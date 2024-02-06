@@ -5,8 +5,6 @@ title: List.PositionOfAny
 # List.PositionOfAny
 
 
-## Description
-
 Retourne le premier décalage d&#39;une valeur dans une liste.
 
 
@@ -22,7 +20,7 @@ List.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Retourne le décalage dans la liste <code>list</code> de la première occurrence d'une valeur dans une liste <code>values</code>. Retourne -1 si aucune occurrence n'est trouvée.    Un paramètre d'occurrence facultatif, <code>occurrence</code>, peut être spécifié.<ul>   <li><code>occurrence</code> : nombre maximal d'occurrences pouvant être retournées.</li></ul>
 

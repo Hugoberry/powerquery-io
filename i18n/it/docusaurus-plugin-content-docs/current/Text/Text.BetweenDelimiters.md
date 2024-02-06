@@ -5,8 +5,6 @@ title: Text.BetweenDelimiters
 # Text.BetweenDelimiters
 
 
-## Description
-
 Text.BetweenDelimiters
 
 
@@ -23,7 +21,7 @@ Text.BetweenDelimiters(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce la porzione di <code>text</code> tra gli oggetti <code>startDelimiter</code> e <code>endDelimiter</code> specificati.    Un valore numerico <code>startIndex</code> facoltativo indica quale occorrenza di <code>startDelimiter</code> prendere in considerazione.    Un elenco <code>startIndex</code> facoltativo indica quale occorrenza di <code>startDelimiter</code> prendere in considerazione e se eseguire l'indicizzazione dall'inizio o dalla fine dell'input.    <code>endIndex</code> è simile, ma l'indicizzazione viene eseguita rispetto a <code>startIndex</code>.
 

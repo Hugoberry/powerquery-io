@@ -5,8 +5,6 @@ title: Text.Repeat
 # Text.Repeat
 
 
-## Description
-
 Returnerar ett textvärde bestående av indatatexten som upprepas angivet antal gånger.
 
 
@@ -20,7 +18,7 @@ Text.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett textvärde bestående av indatatexten <code>text</code> som upprepas <code>count</code> gånger.
 

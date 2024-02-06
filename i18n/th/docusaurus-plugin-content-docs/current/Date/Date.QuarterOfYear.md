@@ -5,8 +5,6 @@ title: Date.QuarterOfYear
 # Date.QuarterOfYear
 
 
-## Description
-
 ส่งกลับตัวเลขที่ระบุไตรมาสของปีซึ่งวันที่ตกอยู่ในไตรมาสนั้น
 
 
@@ -19,7 +17,7 @@ Date.QuarterOfYear(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตัวเลข 1 ถึง 4 ที่ระบุไตรมาสของปีซึ่งวันที่ <code>dateTime</code> ตกอยู่ในไตรมาสนั้น <code>dateTime</code> สามารถเป็นค่า <code>date</code>, <code>datetime</code> หรือ <code>datetimezone</code> ได้
 

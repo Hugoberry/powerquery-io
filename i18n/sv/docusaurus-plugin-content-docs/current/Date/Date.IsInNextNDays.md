@@ -5,8 +5,6 @@ title: Date.IsInNextNDays
 # Date.IsInNextNDays
 
 
-## Description
-
 Anger om det här datumet infaller under det nästkommande antalet dagar enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar falskt om den skickas ett värde som infaller den aktuella dagen.
 
 
@@ -20,7 +18,7 @@ Date.IsInNextNDays(
 ```
 
 
-## Details
+## Remarks
 
 Indikerar om angivet datetime-värde <code>dateTime</code> infaller under nästkommande antal dagar enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar falskt om den skickas ett värde som infaller inom aktuell dag.      <ul>      <li><code>dateTime</code>: Ett <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde som ska utvärderas.</li>      <li><code>days</code>: Antalet dagar.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Duration.TotalSeconds
 # Duration.TotalSeconds
 
 
-## Description
-
 ส่งกลับวินาทีทั้งหมดที่ระยะเวลานี้ขยาย
 
 
@@ -19,7 +17,7 @@ Duration.TotalSeconds(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับวินาทีทั้งหมดที่ขยายโดย <code>duration</code>
 

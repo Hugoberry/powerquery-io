@@ -5,8 +5,6 @@ title: Number.Combinations
 # Number.Combinations
 
 
-## Description
-
 Devolve o número de combinações exclusivas.
 
 
@@ -20,7 +18,7 @@ Number.Combinations(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o número de combinações exclusivas existentes numa lista de itens, <code>setSize</code>, com o tamanho de combinação especificado, <code>combinationSize</code>.<ul>    <li><code>setSize</code>: o número de itens existentes na lista.</li>    <li><code>combinationSize</code>: o número de itens existentes em cada combinação.</li></ul>
 

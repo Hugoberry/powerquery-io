@@ -5,8 +5,6 @@ title: BinaryFormat.Record
 # BinaryFormat.Record
 
 
-## Description
-
 Retourneert een binaire indeling die een record leest.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Record(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een binaire indeling die een record leest.  De parameter <code>record</code> specificeert de indeling van de record.  Elk veld in de record kan een andere binaire indeling hebben.  Als een veld een waarde bevat die geen waarde van een binaire indeling is, worden er voor dat veld geen gegevens gelezen en wordt de veldwaarde teruggestuurd naar het resultaat.
 

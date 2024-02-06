@@ -5,8 +5,6 @@ title: Table.Partition
 # Table.Partition
 
 
-## Description
-
 根据指定的组和列的数目，将表分区为一系列表。
 
 
@@ -22,7 +20,7 @@ Table.Partition(
 ```
 
 
-## Details
+## Remarks
 
 根据 <code>column</code> 和 <code>hash</code> 函数的值，将 <code>table</code> 分区为一组 <code>groups</code> 个表。    <code>hash</code> 函数应用于 <code>column</code> 行的值，以获取该行的哈希值。哈希值模数 <code>groups</code> 确定要将该行放入所返回的哪个表中。    <ul>       <li><code>table</code>: 要分区的表。</li>       <li><code>column</code>: 要执行哈希运算以确定该行位于返回的哪个表中的列。</li>       <li><code>groups</code>: 要对输入表进行分区的表数。</li>       <li><code>hash</code>: 应用以获取哈希值的函数。</li>    </ul>  
 

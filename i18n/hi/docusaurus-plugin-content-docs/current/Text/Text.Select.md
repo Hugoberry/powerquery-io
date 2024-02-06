@@ -5,8 +5,6 @@ title: Text.Select
 # Text.Select
 
 
-## Description
-
 इनपुट पाठ मान से दिए गए वर्ण या वर्णों की सूची की सभी आवृत्तियों को चयनित करता है।
 
 
@@ -20,7 +18,7 @@ Text.Select(
 ```
 
 
-## Details
+## Remarks
 
 निकाले गए <code>selectChars</code> में नहीं मौजूद सभी वर्णों के साथ पाठ मान <code>text</code> की प्रतिलिपि लौटाता है।  
 

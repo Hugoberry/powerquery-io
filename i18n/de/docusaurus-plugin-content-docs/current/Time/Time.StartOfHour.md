@@ -5,8 +5,6 @@ title: Time.StartOfHour
 # Time.StartOfHour
 
 
-## Description
-
 Gibt den Anfang der Stunde zurück.
 
 
@@ -19,7 +17,7 @@ Time.StartOfHour(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Beginn der Stunde, der durch <code>dateTime</code> dargestellt wird, zurück.    <code>dateTime</code> muss ein <code>time</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert sein.
 

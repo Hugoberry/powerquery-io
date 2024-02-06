@@ -5,8 +5,6 @@ title: List.ContainsAny
 # List.ContainsAny
 
 
-## Description
-
 Listenin başka bir listedeki herhangi bir değeri içerip içermediğini belirtir.
 
 
@@ -21,7 +19,7 @@ List.ContainsAny(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesinin başka bir <code>values</code> listesindeki herhangi bir değeri içerip içermediğini belirtir.        Değer listede bulunursa doğru, aksi takdirde yanlış değerini döndürür. Eşitlik sınamasını denetlemek için <code>equationCriteria</code> isteğe bağlı eşitlik ölçüt değeri belirtilebilir. 
 

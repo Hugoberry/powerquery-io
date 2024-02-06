@@ -5,8 +5,6 @@ title: Table.AddColumn
 # Table.AddColumn
 
 
-## Description
-
 添加具有指定名称的列。使用指定的选择函数(它将每行作为输入)来计算值。
 
 
@@ -22,7 +20,7 @@ Table.AddColumn(
 ```
 
 
-## Details
+## Remarks
 
 将名为 <code>newColumnName</code> 的列添加到表 <code>table</code>。使用指定的选择函数 <code>columnGenerator</code>(它将每行作为输入)来计算列的值。
 

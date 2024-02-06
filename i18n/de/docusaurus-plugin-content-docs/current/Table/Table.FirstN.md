@@ -5,8 +5,6 @@ title: Table.FirstN
 # Table.FirstN
 
 
-## Description
-
 Gibt die ersten x Zeilen zurück.
 
 
@@ -20,7 +18,7 @@ Table.FirstN(
 ```
 
 
-## Details
+## Remarks
 
 Gibt abhängig vom <code>countOrCondition</code>-Wert die erste(n) Zeile(n) aus der Tabelle '<code>table</code>' zurück:    <ul>    <li> Ist "<code>countOrCondition</code>" eine Zahl, wird die entsprechende Anzahl von Zeilen (beginnend von oben) zurückgegeben. </li>    <li> Ist "<code>countOrCondition</code>" eine Bedingung, werden so lange Zeilen zurückgegeben, die die Bedingung erfüllen, bis eine Zeile die Bedingung nicht erfüllt.</li></ul>
 

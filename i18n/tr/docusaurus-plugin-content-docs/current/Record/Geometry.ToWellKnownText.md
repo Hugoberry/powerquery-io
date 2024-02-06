@@ -5,8 +5,6 @@ title: Geometry.ToWellKnownText
 # Geometry.ToWellKnownText
 
 
-## Description
-
 Yapılandırılmış bir geometrik noktanın değerini İyi Bilinen Metin (WKT) gösterimine çevirir.
 
 
@@ -20,7 +18,7 @@ Geometry.ToWellKnownText(
 ```
 
 
-## Details
+## Remarks
 
 Yapılandırılmış bir geometrik nokta değerini, SQL Server dahil olmak üzere birçok veritabanı tarafından kullanılan seri hale getirme biçimi olan Open Geospatial Consortium (OGC) tarafından tanımlandığı şekilde İyi Bilinen Metin (WKT) gösterimine çevirir.
 

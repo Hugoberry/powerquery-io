@@ -5,8 +5,6 @@ title: List.Contains
 # List.Contains
 
 
-## Description
-
 ระบุว่ารายการมีค่าหรือไม่
 
 
@@ -21,7 +19,7 @@ List.Contains(
 ```
 
 
-## Details
+## Remarks
 
 ระบุว่ารายการ <code>list</code> มีค่า <code>value</code> หรือไม่    ส่งกลับเป็น จริง ถ้าพบค่าในรายการ หรือส่งเป็น เท็จ หากไม่เป็นเช่นนั้น โดยสามารถระบุค่าเกณฑ์สมการที่เลือกได้ <code>equationCriteria</code> เพื่อควบคุมการทดสอบความเท่ากัน 
 

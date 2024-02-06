@@ -5,8 +5,6 @@ title: List.LastN
 # List.LastN
 
 
-## Description
-
 Restituisce l&#39;ultimo valore dell&#39;elenco.  Può specificare facoltativamente quanti valori restituire o una condizione idonea.
 
 
@@ -20,7 +18,7 @@ List.LastN(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce l'ultimo elemento dell'elenco <code>list</code>. Se l'elenco è vuoto viene generata un'eccezione. Questa funzione accetta un parametro facoltativo <code>countOrCondition</code> per supportare la raccolta di più elementi o il filtro degli elementi. <code>countOrCondition</code> può essere specificato in tre modi: <ul>  <li>Se viene specificato un numero, indica il numero massimo di elementi restituiti. </li>  <li>Se viene specificata una condizione, vengono restituiti tutti gli elementi che soddisfano inizialmente la condizione, a partire dalla fine dell'elenco. Se un elemento non soddisfa la condizione, non vengono considerati altri elementi. </li>  <li>Se questo parametro è Null, viene restituito l'ultimo elemento dell'elenco.</li> </ul>
 

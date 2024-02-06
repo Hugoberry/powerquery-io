@@ -5,8 +5,6 @@ title: Table.SelectColumns
 # Table.SelectColumns
 
 
-## Description
-
 ส่งกลับตารางที่มีเฉพาะคอลัมน์ที่ระบุ
 
 
@@ -21,7 +19,7 @@ Table.SelectColumns(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับ <code>table</code> ที่มีเฉพาะ <code>columns</code> ที่ระบุ    <ul>       <li><code>table</code>: ตารางที่กำหนดให้</li>       <li><code>columns</code>: รายการคอลัมน์จากตาราง <code>table</code> ที่จะส่งกลับ คอลัมน์ในตารางที่ส่งกลับจะอยู่ในลำดับที่แสดงรายการใน <code>columns</code></li>       <li><code>missingField</code>: <i>(เลือกได้)</i> วิธีดำเนินการถ้าไม่มีคอลัมน์ดังกล่าวอยู่  ตัวอย่างเช่น: <code>MissingField.UseNull</code> หรือ <code>MissingField.Ignore</code>    </li></ul>
 

@@ -5,8 +5,6 @@ title: Function.From
 # Function.From
 
 
-## Description
-
 Tạo hàm bằng một chữ ký tham số cụ thể ở đầu hàm sử dụng đối số danh sách đơn
 
 
@@ -20,7 +18,7 @@ Function.From(
 ```
 
 
-## Details
+## Remarks
 
 Lấy một hàm đơn phân <code>function</code> rồi tạo hàm mới bằng loại <code>functionType</code> xây dựng danh sách bao gồm các đối số của loại này rồi chuyển đến <code>function</code>.
 

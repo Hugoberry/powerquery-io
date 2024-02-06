@@ -5,8 +5,6 @@ title: Combiner.CombineTextByDelimiter
 # Combiner.CombineTextByDelimiter
 
 
-## Description
-
 Gibt eine Funktion zurück, die eine Liste von Text mithilfe des angegebenen Trennzeichens kombiniert.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Funktion zurück, die eine Liste mit Textwerten unter Verwendung des angegebenen Trennzeichens zu einem einzelnen Textwert zusammenfasst.
 

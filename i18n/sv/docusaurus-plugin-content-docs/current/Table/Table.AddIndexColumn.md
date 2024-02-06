@@ -5,8 +5,6 @@ title: Table.AddIndexColumn
 # Table.AddIndexColumn
 
 
-## Description
-
 Lägger till en kolumn med explicita positionsvärden.
 
 
@@ -23,7 +21,7 @@ Table.AddIndexColumn(
 ```
 
 
-## Details
+## Remarks
 
 Lägger till en kolumn med namnet <code>newColumnName</code> i <code>table</code> med explicita positionsvärden.    Ett valfritt värde, <code>initialValue</code>, som anger det ursprungliga indexvärdet. Ett valfritt värde, <code>increment</code>, anger med hur mycket varje indexvärde ska öka.
 

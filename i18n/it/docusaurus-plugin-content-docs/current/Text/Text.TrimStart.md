@@ -5,8 +5,6 @@ title: Text.TrimStart
 # Text.TrimStart
 
 
-## Description
-
 Rimuove tutti gli spazi iniziali.
 
 
@@ -20,7 +18,7 @@ Text.TrimStart(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il risultato della rimozione di tutti gli spazi iniziali dal valore di testo <code>text</code>.
 

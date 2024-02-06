@@ -5,8 +5,6 @@ title: MailChimp.Collection
 # MailChimp.Collection
 
 
-## Description
-
 從 MailChimp 端點傳回含有資料的資料表。
 
 
@@ -20,7 +18,7 @@ MailChimp.Collection(
 ```
 
 
-## Details
+## Remarks
 
 呼叫 MailChimp API，並以資料表形式傳回產生的資料集。所有結果都會經過自動分頁。在根端點與 JSON 回應中主要 entityName 不符的 API 端點，可以選擇使用 entityName 參數。
 

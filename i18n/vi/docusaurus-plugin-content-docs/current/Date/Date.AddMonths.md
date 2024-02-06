@@ -5,8 +5,6 @@ title: Date.AddMonths
 # Date.AddMonths
 
 
-## Description
-
 Thêm các tháng được chỉ định vào ngày.
 
 
@@ -20,7 +18,7 @@ Date.AddMonths(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả <code>date</code>, <code>datetime</code>, hoặc <code>datetimezone</code> khi thêm <code>numberOfMonths</code> tháng vào giá trị <code>datetime</code> <code>dateTime</code>.      <ul>        <li><code>dateTime</code>: Giá trị <code>date</code>, <code>datetime</code>, hoặc <code>datetimezone</code> đã thêm số tháng vào.</li>        <li><code>numberOfMonths</code>: Số tháng cần thêm.</li>      </ul>
 

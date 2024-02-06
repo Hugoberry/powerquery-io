@@ -5,8 +5,6 @@ title: List.Numbers
 # List.Numbers
 
 
-## Description
-
 Devuelve una lista de números dado un valor inicial, un recuento y un valor de incremento opcional.
 
 
@@ -21,7 +19,7 @@ List.Numbers(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una lista de números dado un valor inicial, un recuento y un valor de incremento opcional. El valor de incremento predeterminado es 1.<ul>   <li><code>start</code>: el valor inicial de la lista.</li>   <li><code>count</code>: número de valores que crear.</li>   <li><code>increment</code>: <i>[opcional]</i> el valor en el que incrementar. Si los valores omitidos se incrementan en 1.</li></ul>
 

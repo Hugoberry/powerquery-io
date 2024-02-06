@@ -5,8 +5,6 @@ title: Combiner.CombineTextByRanges
 # Combiner.CombineTextByRanges
 
 
-## Description
-
 Renvoie une fonction qui combine une liste de texte en utilisant les positions et longueurs spécifiées.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 Renvoie une fonction qui combine une liste de valeurs de texte en une seule valeur de texte en utilisant les positions et longueurs de sortie spécifiées. Une longueur nulle indique que la totalité de la valeur du texte doit être incluse.
 

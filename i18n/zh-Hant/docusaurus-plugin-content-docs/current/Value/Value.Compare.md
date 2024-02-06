@@ -5,8 +5,6 @@ title: Value.Compare
 # Value.Compare
 
 
-## Description
-
 根據第一個值小於、等於或大於第二個值，傳回 -1、0 或 1。
 
 
@@ -21,7 +19,7 @@ Value.Compare(
 ```
 
 
-## Details
+## Remarks
 
 根據第一個值小於、等於或大於第二個值，傳回 -1、0 或 1。
 

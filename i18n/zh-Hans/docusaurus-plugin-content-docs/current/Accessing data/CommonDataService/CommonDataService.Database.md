@@ -16,7 +16,7 @@ CommonDataService.Database(
 ```
 
 
-## Details
+## Remarks
 
 连接到 Dataverse 实例(Dynamics 365 和 PowerApps)。
 

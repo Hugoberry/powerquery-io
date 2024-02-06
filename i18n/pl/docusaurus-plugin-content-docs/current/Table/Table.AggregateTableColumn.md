@@ -5,8 +5,6 @@ title: Table.AggregateTableColumn
 # Table.AggregateTableColumn
 
 
-## Description
-
 Agreguje kolumnę tabel do wielu kolumn w tabeli zawierającej.
 
 
@@ -21,7 +19,7 @@ Table.AggregateTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Agreguje tabele w kolumnie <code>table</code>[<code>column</code>] do wielu kolumn zawierających zagregowane wartości dla tabel. Parametr <code>aggregations</code> służy do określania kolumn zawierających tabele do zagregowania, funkcje agregujące do zastosowania do tabel w celu wygenerowania wartości oraz nazwy kolumn agregacji do utworzenia.
 

@@ -5,8 +5,6 @@ title: Table.ReverseRows
 # Table.ReverseRows
 
 
-## Description
-
 ส่งกลับตารางที่มีแถวในลำดับย้อนกลับ
 
 
@@ -19,7 +17,7 @@ Table.ReverseRows(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางที่มีแถวจากค่าที่ป้อน <code>table</code> ในลำดับย้อนกลับ
 

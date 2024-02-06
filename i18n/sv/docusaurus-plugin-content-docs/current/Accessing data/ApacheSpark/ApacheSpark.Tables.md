@@ -5,8 +5,6 @@ title: ApacheSpark.Tables
 # ApacheSpark.Tables
 
 
-## Description
-
 Returnerar en tabell som listar tabellerna för det angivna Spark-klustret.
 
 
@@ -21,7 +19,7 @@ ApacheSpark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell som listar tabellerna i Spark-klustret <code>host</code> med <code>protocol</code>.  Giltiga protokoll är:SparkProtocol.Standard, SparkProtocol.HTTP
 

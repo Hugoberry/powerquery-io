@@ -5,8 +5,6 @@ title: List.Alternate
 # List.Alternate
 
 
-## Description
-
 Retorna uma lista composta por todos os elementos de deslocamento de número ímpar em uma lista.
 
 
@@ -22,7 +20,7 @@ List.Alternate(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma lista composta por todos os elementos de deslocamento de número ímpar em uma lista. Alterna entre o uso e não uso de valores na lista <code>list</code>, dependendo dos parâmetros.    <ul>    <li><code>count</code>: Especifica o número de valores que foram ignorados cada vez.</li>    <li><code>repeatInterval</code>: Um intervalo de repetição opcional para indicar quantas valores são adicionados entre os valores ignorados.</li>    <li><code>offset</code>: Um parâmetro de deslocamento opcional para começar a ignorar os valores no deslocamento inicial.</li>    </ul>
 

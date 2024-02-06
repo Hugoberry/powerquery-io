@@ -5,8 +5,6 @@ title: Date.Year
 # Date.Year
 
 
-## Description
-
 返回年份部分。
 
 
@@ -19,7 +17,7 @@ Date.Year(
 ```
 
 
-## Details
+## Remarks
 
 返回提供的 <code>datetime</code> 值 <code>dateTime</code> 的年份部分。
 

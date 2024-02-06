@@ -5,8 +5,6 @@ title: List.Contains
 # List.Contains
 
 
-## Description
-
 Указывает, содержит ли список значение.
 
 
@@ -21,7 +19,7 @@ List.Contains(
 ```
 
 
-## Details
+## Remarks
 
 Указывает, содержит ли список <code>list</code> значение <code>value</code>.    Возвращает значение True, если значение найдено в списке, и значение False в противном случае. Можно указать необязательное значение критерия уравнения <code>equationCriteria</code> для управления проверкой на равенство. 
 

@@ -5,8 +5,6 @@ title: Cube.Properties
 # Cube.Properties
 
 
-## Description
-
 傳回資料表，內含可供 Cube 中展開之維度使用的屬性集。
 
 
@@ -19,7 +17,7 @@ Cube.Properties(
 ```
 
 
-## Details
+## Remarks
 
 傳回資料表，內含可供 Cube 中展開之維度使用的屬性集。
 

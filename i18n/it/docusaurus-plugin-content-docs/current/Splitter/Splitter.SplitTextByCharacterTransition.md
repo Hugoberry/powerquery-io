@@ -5,8 +5,6 @@ title: Splitter.SplitTextByCharacterTransition
 # Splitter.SplitTextByCharacterTransition
 
 
-## Description
-
 Restituisce una funzione che suddivide il testo in un elenco di testo in base a una transizione da un tipo di carattere a un altro. I parametri \{0} e \{1} possono essere un elenco di caratteri oppure una funzione che accetta un carattere e restituisce true/false.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByCharacterTransition(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una funzione che suddivide il testo in un elenco di testo in base a una transizione da un tipo di carattere a un altro. I parametri <code>before</code> e <code>after</code> possono essere un elenco di caratteri oppure una funzione che accetta un carattere e restituisce true/false.
 

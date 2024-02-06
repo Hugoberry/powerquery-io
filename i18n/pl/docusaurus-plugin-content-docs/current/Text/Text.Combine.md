@@ -5,8 +5,6 @@ title: Text.Combine
 # Text.Combine
 
 
-## Description
-
 Łączy listę wartości tekstowych w jedną wartość tekstową.
 
 
@@ -20,7 +18,7 @@ Text.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wynik połączenia listy wartości tekstowych<code>texts</code> w pojedynczą wartość tekstową. Wszystkie wartości <code>null</code> obecne w <code>texts</code> są ignorowane.    Można określić opcjonalny <code>separator</code> element używany w końcowym połączonym tekście.
 

@@ -5,8 +5,6 @@ title: Table.SelectRows
 # Table.SelectRows
 
 
-## Description
-
 Wybiera wiersze, które spełniają warunek.
 
 
@@ -20,7 +18,7 @@ Table.SelectRows(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę wierszy z tabeli <code>table</code>, które są zgodne z opcjami wyboru określonymi przez parametr <code>condition</code>.
 

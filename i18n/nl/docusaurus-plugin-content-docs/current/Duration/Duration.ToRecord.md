@@ -5,8 +5,6 @@ title: Duration.ToRecord
 # Duration.ToRecord
 
 
-## Description
-
 Retourneert een record die de onderdelen van de duur bevat.
 
 
@@ -19,7 +17,7 @@ Duration.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een record geretourneerd met de onderdelen van de duur-waarde, <code>duration</code>. <ul> <li><code>duration</code>: een <code>duration</code> op basis waarvan de record wordt gemaakt.</li> </ul>
 

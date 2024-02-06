@@ -5,8 +5,6 @@ title: DateTimeZone.ToLocal
 # DateTimeZone.ToLocal
 
 
-## Description
-
 將時區元件轉換成本地時區。
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToLocal(
 ```
 
 
-## Details
+## Remarks
 
 將 datetimezone 值 <code>dateTimeZone</code> 的時區資訊變更為本地時區資訊。    如果 <code>dateTimeZone</code> 沒有時區元件，則加入本地時區資訊。
 

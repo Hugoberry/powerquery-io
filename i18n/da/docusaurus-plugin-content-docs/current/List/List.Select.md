@@ -5,8 +5,6 @@ title: List.Select
 # List.Select
 
 
-## Description
-
 Returnerer en liste over værdier, der opfylder betingelsen.
 
 
@@ -20,7 +18,7 @@ List.Select(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en liste over værdier fra listen <code>list</code>, som opfylder den valgte betingelse <code>selection</code>.
 

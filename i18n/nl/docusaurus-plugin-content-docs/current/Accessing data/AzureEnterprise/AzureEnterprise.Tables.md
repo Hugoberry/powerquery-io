@@ -5,8 +5,6 @@ title: AzureEnterprise.Tables
 # AzureEnterprise.Tables
 
 
-## Description
-
 Voer de URL van het Azure Enterprise REST API-eindpunt in dat is gekoppeld aan uw inschrijving
 
 
@@ -19,7 +17,7 @@ AzureEnterprise.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een lijst met rapporten en maanden geretourneerd die beschikbaar zijn via de Azure Enterprise API
 

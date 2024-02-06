@@ -5,8 +5,6 @@ title: Combiner.CombineTextByEachDelimiter
 # Combiner.CombineTextByEachDelimiter
 
 
-## Description
-
 ऐसा फ़ंक्शन लौटाता है जो डिलिमिटर के अनुक्रम का उपयोग करके टेक्स्ट की सूची को संयोजित करता है.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByEachDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 ऐसा फ़ंक्शन लौटाता है जो डिलिमिटर के अनुक्रम का उपयोग करके टेक्स्ट मानों की सूची को एकल टेक्स्ट मान में संयोजित करता है.
 

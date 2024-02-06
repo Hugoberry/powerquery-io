@@ -5,8 +5,6 @@ title: Text.PadEnd
 # Text.PadEnd
 
 
-## Description
-
 Returnerar text med en angiven längd genom att fylla ut slutet av den angivna texten.
 
 
@@ -21,7 +19,7 @@ Text.PadEnd(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett <code>text</code>-värde som fylls ut till längden <code>count</code> genom att blanksteg infogas i slutet av textvärdet <code>text</code>.    Ett valfritt tecken, <code>character</code>, kan användas för att ange utfyllnadstecknet. Standardtecknet för utfyllnad är blanksteg.
 

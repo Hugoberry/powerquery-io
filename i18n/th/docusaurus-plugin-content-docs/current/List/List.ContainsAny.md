@@ -5,8 +5,6 @@ title: List.ContainsAny
 # List.ContainsAny
 
 
-## Description
-
 ระบุตำแหน่งที่รายการมีค่าใดๆ ในรายการอื่น
 
 
@@ -21,7 +19,7 @@ List.ContainsAny(
 ```
 
 
-## Details
+## Remarks
 
 ระบุว่ารายการ <code>list</code> มีค่าใดๆ ในรายการอื่นหรือไม่ <code>values</code>        ส่งกลับเป็น true ถ้าพบค่าในรายการ หรือส่งเป็น false หากไม่เป็นเช่นนั้น โดยสามารถระบุค่าเกณฑ์สมการที่เลือกได้ <code>equationCriteria</code> เพื่อควบคุมการทดสอบความเท่ากัน 
 

@@ -5,8 +5,6 @@ title: List.Intersect
 # List.Intersect
 
 
-## Description
-
 Zwraca część wspólną wartości list znalezionych w danych wejściowych.
 
 
@@ -20,7 +18,7 @@ List.Intersect(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca część wspólną wartości list znalezionych na liście wejściowej <code>lists</code>. Można także określić opcjonalny parametr <code>equationCriteria</code>.
 

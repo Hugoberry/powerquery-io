@@ -5,8 +5,6 @@ title: Table.FromPartitions
 # Table.FromPartitions
 
 
-## Description
-
 Returnerer en tabel, der er resultatet af at samle et sæt partitionerede tabeller.
 
 
@@ -21,7 +19,7 @@ Table.FromPartitions(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel, der er resultatet af at kombinere et sæt partitionerede tabeller, <code>partitions</code>. <code>partitionColumn</code> er navnet på den kolonne, der skal tilføjes. Kolonnetypen er som standard <code>any</code>, men den kan angives af <code>partitionColumnType</code>.
 

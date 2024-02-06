@@ -5,8 +5,6 @@ title: Table.PartitionValues
 # Table.PartitionValues
 
 
-## Description
-
 Trả về thông tin về cách phân hoạch bảng.
 
 
@@ -19,7 +17,7 @@ Table.PartitionValues(
 ```
 
 
-## Details
+## Remarks
 
 Trả về thông tin về cách phân hoạch bảng.  Một bảng được trả về trong đó mỗi cột là một cột phân hoạch trong bảng gốc và mỗi hàng tương ứng với một phân hoạch trong bảng gốc.
 

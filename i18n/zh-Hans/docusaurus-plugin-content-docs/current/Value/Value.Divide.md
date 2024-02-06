@@ -5,8 +5,6 @@ title: Value.Divide
 # Value.Divide
 
 
-## Description
-
 返回将第一个值除以第二个值的结果。
 
 
@@ -21,7 +19,7 @@ Value.Divide(
 ```
 
 
-## Details
+## Remarks
 
 返回将 <code>value1</code> 除以 <code>value2</code> 的结果。可以指定一个可选 <code>precision</code> 参数，默认情况下使用 <code>Precision.Double</code>。
 

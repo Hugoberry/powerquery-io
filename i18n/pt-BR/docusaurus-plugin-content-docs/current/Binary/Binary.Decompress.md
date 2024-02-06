@@ -5,8 +5,6 @@ title: Binary.Decompress
 # Binary.Decompress
 
 
-## Description
-
 Descompacta um valor binário usando o tipo de compactação especificado.
 
 
@@ -20,7 +18,7 @@ Binary.Decompress(
 ```
 
 
-## Details
+## Remarks
 
 Descompacta um valor binário usando o tipo de compactação especificado. O resultado desta chamada é uma cópia descompactada da entrada. Os tipos de compactação incluem:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
 

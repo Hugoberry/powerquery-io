@@ -5,8 +5,6 @@ title: Table.ReplaceMatchingRows
 # Table.ReplaceMatchingRows
 
 
-## Description
-
 सभी निर्दिष्ट पंक्तियों को प्रदान की गई पंक्ति(यों) से बदलता है.
 
 
@@ -21,7 +19,7 @@ Table.ReplaceMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> में निर्दिष्ट सभी पंक्तियों को प्रदान की गई पंक्तियों से बदलता है. बदली जाने वाली पंक्तियों और प्रतिस्थापन को \{old, new} स्वरूपण का उपयोग करके <code>replacements</code> में निर्दिष्ट किया जाता है.    तालिका की पंक्तियों के बीच तुलना को नियंत्रित करने के लिए एक वैकल्पिक <code>equationCriteria</code> पैरामीटर निर्दिष्ट किया जा सकता है.
 

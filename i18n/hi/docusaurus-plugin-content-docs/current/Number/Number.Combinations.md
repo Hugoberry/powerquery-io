@@ -5,8 +5,6 @@ title: Number.Combinations
 # Number.Combinations
 
 
-## Description
-
 अद्वितीय संयोजनों की संख्या लौटाता है.
 
 
@@ -20,7 +18,7 @@ Number.Combinations(
 ```
 
 
-## Details
+## Remarks
 
 आइटमों की एक सूची, <code>setSize</code> से निर्दिष्ट संयोजन आकार, <code>combinationSize</code> के साथ अद्वितीय संयोजनों की संख्या लौटाता है.<ul>    <li><code>setSize</code>: सूची के आइटमों की संख्या.</li>    <li><code>combinationSize</code>: प्रत्येक संयोजन के आइटमों की संख्या.</li></ul>
 

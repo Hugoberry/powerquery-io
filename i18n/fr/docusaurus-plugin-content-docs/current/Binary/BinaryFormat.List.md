@@ -5,8 +5,6 @@ title: BinaryFormat.List
 # BinaryFormat.List
 
 
-## Description
-
 Retourne un format binaire qui lit une séquence d&#39;éléments et retourne une liste.
 
 
@@ -20,7 +18,7 @@ BinaryFormat.List(
 ```
 
 
-## Details
+## Remarks
 
 Retourne un format binaire qui lit une séquence d'éléments et retourne une <code>list</code>.  Le paramètre <code>binaryFormat</code> spécifie le format binaire de chaque élément.  Il existe trois façons de déterminer le nombre d'éléments lus : <ul><li>si le <code>countOrCondition</code> n'est pas spécifié, le format binaire lit jusqu'à ce qu'il n'y ait plus d'éléments.</li><li>Si le <code>countOrCondition</code> est un nombre, alors le format binaire lit autant d'éléments.</li><li>Si le <code>countOrCondition</code> est une fonction, alors cette fonction sera appelée pour chaque élément lu.  La fonction retourne la valeur true pour continuer, et false pour cesser de lire les éléments.  L'élément final est inclus dans la liste. </li><li>Si <code>countOrCondition</code> est un format binaire, alors le nombre d'éléments doit précéder la liste, et le format spécifié est utilisé pour lire le nombre.</li></ul>
 

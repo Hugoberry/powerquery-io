@@ -5,8 +5,6 @@ title: Cube.Dimensions
 # Cube.Dimensions
 
 
-## Description
-
 ส่งกลับตารางที่มีชุดมิติที่มีให้ใช้งาน
 
 
@@ -19,7 +17,7 @@ Cube.Dimensions(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางที่มีชุดมิติที่มีให้ใช้งานภายใน <code>cube</code> แต่ละมิติคือตารางที่มีชุดแอตทริบิวต์มิติและแต่ละแอตทริบิวต์มิติจะถูกแสดงเป็นคอลัมน์ในตารางมิติ สามารถขยายมิติในคิวบ์ได้โดยใช้ Cube.AddAndExpandDimensionColumn 
 

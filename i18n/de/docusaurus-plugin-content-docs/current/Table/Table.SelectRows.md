@@ -5,8 +5,6 @@ title: Table.SelectRows
 # Table.SelectRows
 
 
-## Description
-
 Wählt die Zeilen aus, die die Bedingungsfunktion erfüllen.
 
 
@@ -20,7 +18,7 @@ Table.SelectRows(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Tabelle mit Zeilen aus dem Element vom Typ "<code>table</code>" zurück, das der Auswahl "<code>condition</code>" entspricht.
 

@@ -5,8 +5,6 @@ title: Percentage.From
 # Percentage.From
 
 
-## Description
-
 Restituisce un valore percentuale dal valore specificato.
 
 
@@ -20,7 +18,7 @@ Percentage.From(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un valore <code>percentuale</code> dal dato <code>value</code>. Se il dato <code>value</code> è <code>null</code>, <code>Percentage.From</code> restituisce <code>null</code>.  Se il dato <code>value</code> è <code>testo</code> con un simbolo percentuale finale, viene restituito il numero decimale convertito. In caso contrario, il valore viene convertito in un <code>numero</code> usando <code>Number.From</code>. È anche possibile specificare un valore <code>culture</code> opzionale (ad esempio "en-US").
 

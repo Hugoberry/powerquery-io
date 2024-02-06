@@ -5,8 +5,6 @@ title: Type.IsNullable
 # Type.IsNullable
 
 
-## Description
-
 ส่งกลับค่าจริงถ้าประเภทนั้นเป็นประเภทที่สามารถเป็น NULL ได้ มิฉะนั้นจะส่งกลับค่าเท็จ
 
 
@@ -19,7 +17,7 @@ Type.IsNullable(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับ <code>true</code> ถ้าประเภทเป็นประเภทที่ <code>nullable</code> มิฉะนั้นจะส่งกลับ <code>false</code>
 

@@ -5,8 +5,6 @@ title: Table.TransformRows
 # Table.TransformRows
 
 
-## Description
-
 แปลงแถวของตารางโดยใช้ฟังก์ชันการแปลงที่ระบุ
 
 
@@ -20,7 +18,7 @@ Table.TransformRows(
 ```
 
 
-## Details
+## Remarks
 
 สร้าง<code>รายการ</code>โดยนำการดำเนินการ <code>transform</code> ไปใช้กับแต่ละแถวใน <code>table</code>
 

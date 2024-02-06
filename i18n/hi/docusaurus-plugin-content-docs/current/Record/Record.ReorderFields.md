@@ -5,8 +5,6 @@ title: Record.ReorderFields
 # Record.ReorderFields
 
 
-## Description
-
 नए क्रम में निर्दिष्ट फ़ील्ड रिकॉर्ड करता है.
 
 
@@ -21,7 +19,7 @@ Record.ReorderFields(
 ```
 
 
-## Details
+## Remarks
 
 <code>record</code> की फ़ील्ड को सूची <code>fieldOrder</code> में निर्दिष्ट फ़ील्ड के क्रम में पुनः क्रमित करने के बाद एक रिकॉर्ड लौटाता है. फ़ील्ड मानों को बनाए रखा जाता है और <code>fieldOrder</code> में नहीं सूचीबद्ध फ़ील्ड को उनकी मूल स्थिति में छोड़ दिया जाता है.
 

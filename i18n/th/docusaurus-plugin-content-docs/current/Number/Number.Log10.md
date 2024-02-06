@@ -5,8 +5,6 @@ title: Number.Log10
 # Number.Log10
 
 
-## Description
-
 ส่งกลับลอการิทึมฐาน 10 ของตัวเลข
 
 
@@ -19,7 +17,7 @@ Number.Log10(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนลอการิทึมฐาน 10 ของตัวเลข <code>number</code> ถ้า <code>number</code> เป็น null <code>Number.Log10</code> จะส่งกลับ null
 

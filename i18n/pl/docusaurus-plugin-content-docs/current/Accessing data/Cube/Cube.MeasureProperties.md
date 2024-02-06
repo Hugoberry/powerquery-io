@@ -5,8 +5,6 @@ title: Cube.MeasureProperties
 # Cube.MeasureProperties
 
 
-## Description
-
 Zwraca tabelę zawierającą zestaw dostępnych właściwości miar rozwijanych w module.
 
 
@@ -19,7 +17,7 @@ Cube.MeasureProperties(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę zawierającą zestaw dostępnych właściwości miar rozwijanych w module.
 

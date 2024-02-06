@@ -5,8 +5,6 @@ title: Date.Year
 # Date.Year
 
 
-## Description
-
 Retourneert het jaargedeelte.
 
 
@@ -19,7 +17,7 @@ Date.Year(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het jaargedeelte van de opgegeven <code>datetime</code>waarde, <code>dateTime</code>.
 

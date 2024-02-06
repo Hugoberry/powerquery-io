@@ -5,8 +5,6 @@ title: Combiner.CombineTextByRanges
 # Combiner.CombineTextByRanges
 
 
-## Description
-
 ส่งกลับฟังก์ชันที่รวมรายการข้อความโดยใช้ตำแหน่งและความยาวที่ระบุ
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับฟังก์ชันที่รวมรายการของค่าข้อความเป็นค่าข้อความเดียวโดยใช้ตำแหน่งผลลัพธ์และความยาวที่ระบุ ความยาว Null ระบุว่าควรรวมค่าข้อความทั้งหมด
 

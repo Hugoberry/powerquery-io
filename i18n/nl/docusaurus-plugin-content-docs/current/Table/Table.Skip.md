@@ -5,8 +5,6 @@ title: Table.Skip
 # Table.Skip
 
 
-## Description
-
 Retourneert een tabel met het eerste aantal overgeslagen rijen.
 
 
@@ -20,7 +18,7 @@ Table.Skip(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tabel geretourneerd die niet het eerste opgegeven aantal rijen bevat, <code>countOrCondition</code>, van de tabel <code>table</code>. Het aantal rijen dat wordt overgeslagen, is afhankelijk van de optionele parameter <code>countOrCondition</code>. <ul> <li> Als <code>countOrCondition</code> wordt weggelaten, wordt alleen de eerste rij overgeslagen. </li> <li> Als <code>countOrCondition</code> een getal is, wordt dat aantal rijen (van bovenaf) overgeslagen. </li> <li> Als <code>countOrCondition</code> een voorwaarde is, worden de rijen die aan de voorwaarde voldoen overgeslagen totdat een rij niet aan de voorwaarde voldoet.</li> </ul>
 

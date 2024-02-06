@@ -5,8 +5,6 @@ title: Text.Lower
 # Text.Lower
 
 
-## Description
-
 將所有字元轉換成小寫。
 
 
@@ -20,7 +18,7 @@ Text.Lower(
 ```
 
 
-## Details
+## Remarks
 
 傳回將 <code>text</code> 中所有字元轉換成小寫的結果。也可提供選用的 <code>culture</code> (例如 "en-US")。
 

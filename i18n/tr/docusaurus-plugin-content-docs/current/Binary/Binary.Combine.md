@@ -5,8 +5,6 @@ title: Binary.Combine
 # Binary.Combine
 
 
-## Description
-
 Bir ikili listesini tek bir ikili olarak birleştirir.
 
 
@@ -19,7 +17,7 @@ Binary.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Bir ikili listesini tek bir ikili olarak birleştirir.
 

@@ -5,8 +5,6 @@ title: Uri.Parts
 # Uri.Parts
 
 
-## Description
-
 レコードとして入力絶対 URI の一部を返します。
 
 
@@ -19,7 +17,7 @@ Uri.Parts(
 ```
 
 
-## Details
+## Remarks
 
 Scheme、Host、Port、Path、Query、Fragment、UserName、Password などの値を含むレコードとして入力 <code>absoluteUri</code> の一部を返します。
 

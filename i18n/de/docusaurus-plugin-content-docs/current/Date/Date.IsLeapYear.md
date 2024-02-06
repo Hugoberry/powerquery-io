@@ -5,8 +5,6 @@ title: Date.IsLeapYear
 # Date.IsLeapYear
 
 
-## Description
-
 Gibt an, ob dieses Datum in einem Schaltjahr liegt.
 
 
@@ -19,7 +17,7 @@ Date.IsLeapYear(
 ```
 
 
-## Details
+## Remarks
 
 Gibt an, ob der angegebene datetime-Wert "<code>dateTime</code>" in einem Schaltjahr liegt. <ul>        <li><code>dateTime</code>: Ein auszuwertender <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert.</li>      </ul>
 

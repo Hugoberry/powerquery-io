@@ -5,8 +5,6 @@ title: Table.ExpandTableColumn
 # Table.ExpandTableColumn
 
 
-## Description
-
 レコード列またはテーブル列を親テーブルの複数の列に展開します。
 
 
@@ -22,7 +20,7 @@ Table.ExpandTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code>[<code>column</code>] 内のテーブルを複数の行と列に展開します。<code>columnNames</code> を使用して、入れ子のテーブルから展開する列を選択します。既存の列と新しい列が競合しないように、<code>newColumnNames</code> を指定してください。
 

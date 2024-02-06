@@ -5,8 +5,6 @@ title: Text.Split
 # Text.Split
 
 
-## Description
-
 Dzieli tekst na listę wartości tekstowych, używając określonego ogranicznika.
 
 
@@ -20,7 +18,7 @@ Text.Split(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca listę wartości tekstowych powstałą w wyniku wykonania podziału wartości tekstowej <code>text</code> przy użyciu określonego ogranicznika <code>separator</code>.
 

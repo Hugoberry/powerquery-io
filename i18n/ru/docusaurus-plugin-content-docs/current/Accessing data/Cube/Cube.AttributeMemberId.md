@@ -5,8 +5,6 @@ title: Cube.AttributeMemberId
 # Cube.AttributeMemberId
 
 
-## Description
-
 Возвращает уникальный идентификатор члена из значения свойства члена.
 
 
@@ -19,7 +17,7 @@ Cube.AttributeMemberId(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает уникальный идентификатор члена из значения свойства члена. <code>attribute</code>. Возвращает значение NULL для всех остальных значений.
 

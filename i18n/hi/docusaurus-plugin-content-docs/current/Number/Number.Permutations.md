@@ -5,8 +5,6 @@ title: Number.Permutations
 # Number.Permutations
 
 
-## Description
-
 संख्या का क्रम संचय लौटाता है.
 
 
@@ -20,7 +18,7 @@ Number.Permutations(
 ```
 
 
-## Details
+## Remarks
 
 आइटमों की संख्या, <code>setSize</code>, से निर्दिष्ट क्रम संचय आकार, <code>permutationSize</code> के साथ जनरेट किए जा सकने वाले क्रम संचयों की संख्या लौटाता है.
 

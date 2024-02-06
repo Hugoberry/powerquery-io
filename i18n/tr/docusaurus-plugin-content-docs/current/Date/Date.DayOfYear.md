@@ -5,8 +5,6 @@ title: Date.DayOfYear
 # Date.DayOfYear
 
 
-## Description
-
 Yılın gününü temsil eden 1 ile 366 arasında bir sayı döndürür.
 
 
@@ -19,7 +17,7 @@ Date.DayOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Sağlanan <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri olan <code>dateTime</code> değerindeki yılın gününü temsil eden bir sayıyı döndürür.
 

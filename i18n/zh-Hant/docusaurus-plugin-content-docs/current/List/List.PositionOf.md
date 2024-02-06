@@ -5,8 +5,6 @@ title: List.PositionOf
 # List.PositionOf
 
 
-## Description
-
 傳回清單中值的位移。
 
 
@@ -22,7 +20,7 @@ List.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 傳回值 <code>value</code> 在清單 <code>list</code> 中出現的位移。如果值未出現，則傳回 -1。    可指定選擇性的出現次數參數 <code>occurrence</code>。<ul>   <li><code>occurrence</code>: 要回報的最大出現次數。</li></ul>
 

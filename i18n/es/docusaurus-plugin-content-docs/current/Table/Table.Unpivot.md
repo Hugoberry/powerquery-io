@@ -5,8 +5,6 @@ title: Table.Unpivot
 # Table.Unpivot
 
 
-## Description
-
 Traduce un conjunto de columnas de una tabla en parejas atributo-valor.
 
 
@@ -22,7 +20,7 @@ Table.Unpivot(
 ```
 
 
-## Details
+## Remarks
 
 Traduce un conjunto de columnas de una tabla en parejas de atributo-valor, combinado con el resto de los valores de cada fila.
 

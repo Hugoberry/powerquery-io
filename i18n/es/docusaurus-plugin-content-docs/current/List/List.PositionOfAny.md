@@ -5,8 +5,6 @@ title: List.PositionOfAny
 # List.PositionOfAny
 
 
-## Description
-
 Devuelve el primer desplazamiento de un valor en una lista.
 
 
@@ -22,7 +20,7 @@ List.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve el desplazamiento de la lista <code>list</code> de la primera repetición de un valor de una lista <code>values</code>. Devuelve -1 si no se encuentra ninguna repetición.    Puede especificarse un parámetro de repetición opcional, <code>occurrence</code>.<ul>   <li><code>occurrence</code>: el número máximo de repeticiones que se puede devolver.</li></ul>
 

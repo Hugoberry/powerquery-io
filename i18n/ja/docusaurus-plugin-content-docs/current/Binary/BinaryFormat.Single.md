@@ -5,8 +5,6 @@ title: BinaryFormat.Single
 # BinaryFormat.Single
 
 
-## Description
-
 4 バイト IEEE 単精度浮動小数点数値を読み取るバイナリ形式です。
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Single(
 ```
 
 
-## Details
+## Remarks
 
 4 バイト IEEE 単精度浮動小数点数値を読み取るバイナリ形式です。
 

@@ -5,8 +5,6 @@ title: Lakehouse.Contents
 # Lakehouse.Contents
 
 
-## Description
-
 レイクハウスからデータをインポートします
 
 
@@ -19,7 +17,7 @@ Lakehouse.Contents(
 ```
 
 
-## Details
+## Remarks
 
 アクセスできるすべてのレイクハウスに接続して、使用するエンティティを選択します
 

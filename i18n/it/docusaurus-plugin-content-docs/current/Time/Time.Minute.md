@@ -5,8 +5,6 @@ title: Time.Minute
 # Time.Minute
 
 
-## Description
-
 Restituisce il componente minuto.
 
 
@@ -19,7 +17,7 @@ Time.Minute(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il componente minuto del valore <code>time</code>, <code>datetime</code> o <code>datetimezone</code> specificato <code>dateTime</code>.
 

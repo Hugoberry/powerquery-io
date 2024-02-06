@@ -5,8 +5,6 @@ title: Int16.From
 # Int16.From
 
 
-## Description
-
 Maakt een 16-bits geheel getal van de opgegeven waarde.
 
 
@@ -21,7 +19,7 @@ Int16.From(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een 16-bits <code>number</code>-waarde geretourneerd als geheel getal vanuit de opgegeven <code>value</code>. Als de opgegeven waarde <code>value</code> <code>null</code> is, wordt door <code>Int16.From</code> de waarde <code>null</code> geretourneerd. Als de opgegeven <code>value</code> een <code>number</code> is binnen het bereik van een 16-bits geheel getal zonder een fractioneel deel, wordt <code>value</code> geretourneerd. Als het cijfer een fractioneel deel heeft, wordt het afgerond volgens de opgegeven afrondingsmodus. De standaardafrondingsmodus is <code>RoundingMode.ToEven</code>. Als <code>value</code> van een ander type is, wordt deze eerst geconverteerd naar een <code>nummer</code> met behulp van <code>Number.FromText</code>. Raadpleeg <code>Number.Round</code> voor de beschikbare afrondingsmodi. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
 

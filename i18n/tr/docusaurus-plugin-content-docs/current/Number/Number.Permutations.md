@@ -5,8 +5,6 @@ title: Number.Permutations
 # Number.Permutations
 
 
-## Description
-
 Permütasyon sayısını döndürür.
 
 
@@ -20,7 +18,7 @@ Number.Permutations(
 ```
 
 
-## Details
+## Remarks
 
 <code>setSize</code> öğe sayısından <code>permutationSize</code> permütasyon boyutuna sahip oluşturulabilecek permütasyon sayısını döndürür.
 

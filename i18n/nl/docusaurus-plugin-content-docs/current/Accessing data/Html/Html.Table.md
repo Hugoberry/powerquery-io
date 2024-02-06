@@ -5,8 +5,6 @@ title: Html.Table
 # Html.Table
 
 
-## Description
-
 Hiermee wordt een tabel geretourneerd met de resultaten van het uitvoeren van de opgegeven CSS-selectoren op basis van de opgegeven HTML.
 
 
@@ -21,7 +19,7 @@ Html.Table(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tabel geretourneerd met de resultaten van de opgegeven CSS-selectors ten opzichte van de opgegeven <code>html</code>. Een optionele recordparameter, <code>options</code>, kan worden opgegeven om extra eigenschappen op te geven. De record kan de volgende velden bevatten:    <ul><li><code>RowSelector</code></li></ul>    
 

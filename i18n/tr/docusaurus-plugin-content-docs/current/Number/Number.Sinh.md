@@ -5,8 +5,6 @@ title: Number.Sinh
 # Number.Sinh
 
 
-## Description
-
 Sayının hiperbolik sinüsünü döndürür.
 
 
@@ -19,7 +17,7 @@ Number.Sinh(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> değerinin hiperbolik sinüsünü döndürür.
 

@@ -5,8 +5,6 @@ title: Text.Range
 # Text.Range
 
 
-## Description
-
 Retourneert de subtekenreeks die is gevonden bij verschuiving.
 
 
@@ -21,7 +19,7 @@ Text.Range(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt de subreeks van de tekst <code>text</code> geretourneerd die is aangetroffen bij de offset <code>offset</code>. Een optionele parameter, <code>count</code>, kan worden opgenomen voor het opgeven van het aantal te retourneren tekens. Retourneert een fout als er onvoldoende tekens zijn.
 

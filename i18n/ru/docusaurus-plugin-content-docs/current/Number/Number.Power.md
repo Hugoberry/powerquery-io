@@ -5,8 +5,6 @@ title: Number.Power
 # Number.Power
 
 
-## Description
-
 Возводит число в заданную степень.
 
 
@@ -20,7 +18,7 @@ Number.Power(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает результат возведения <code>number</code> в степень <code>power</code>.    Если <code>number</code> или <code>power</code> равно NULL, <code>Number.Power</code> возвращает NULL.      <ul>        <li><code>number</code>: основание.</li>        <li><code>power</code>: показатель степени.</li>      </ul>
 

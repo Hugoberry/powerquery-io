@@ -5,8 +5,6 @@ title: Date.IsLeapYear
 # Date.IsLeapYear
 
 
-## Description
-
 ระบุว่าวันที่นี้ตกอยู่ในปีอธิกสุรทินหรือไม่
 
 
@@ -19,7 +17,7 @@ Date.IsLeapYear(
 ```
 
 
-## Details
+## Remarks
 
 ระบุว่าค่าวันที่เวลาที่ระบุ <code>dateTime</code> ตกอยู่ในปีอธิกสุรทินหรือไม่  <ul>        <li><code>dateTime</code>: ค่า <code>วันที่</code>, <code>วันที่เวลา</code> หรือ <code>โซนวันที่เวลา</code> ที่จะประเมิน</li>      </ul>
 

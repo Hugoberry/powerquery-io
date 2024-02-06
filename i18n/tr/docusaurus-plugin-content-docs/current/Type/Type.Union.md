@@ -5,8 +5,6 @@ title: Type.Union
 # Type.Union
 
 
-## Description
-
 Türlerin bir listesinin birleşimini döndürür.
 
 
@@ -19,7 +17,7 @@ Type.Union(
 ```
 
 
-## Details
+## Remarks
 
 <code>types</code> içindeki türlerin birleşimini döndürür.
 

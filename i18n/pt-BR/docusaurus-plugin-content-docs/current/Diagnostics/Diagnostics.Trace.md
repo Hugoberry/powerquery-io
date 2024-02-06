@@ -5,8 +5,6 @@ title: Diagnostics.Trace
 # Diagnostics.Trace
 
 
-## Description
-
 Grava uma entrada de rastreamento, se o rastreamento estiver habilitado, e retorna o valor.
 
 
@@ -22,7 +20,7 @@ Diagnostics.Trace(
 ```
 
 
-## Details
+## Remarks
 
 Se o rastreamento está habilitado, grava um rastreamento <code>message</code> e retorna <code>value</code>. Um parâmetro opcional <code>delayed</code> especifica se a avaliação de <code>value</code> deve ser atrasada até que a mensagem seja rastreada. <code>traceLevel</code> pode assumir um dos seguintes valores:    <code>TraceLevel.Critical</code>    <code>TraceLevel.Error</code>,    <code>TraceLevel.Warning</code>,    <code>TraceLevel.Information</code> e    <code>TraceLevel.Verbose</code>.  
 

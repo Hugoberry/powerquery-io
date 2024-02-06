@@ -5,8 +5,6 @@ title: Binary.Range
 # Binary.Range
 
 
-## Description
-
 Trả về tập hợp con của giá trị nhị phân bắt đầu tại phần bù.
 
 
@@ -21,7 +19,7 @@ Binary.Range(
 ```
 
 
-## Details
+## Remarks
 
 Trả về tập hợp con của giá trị nhị phân bắt đầu tại phần bù <code>binary</code>. Tham số tùy chọn <code>offset</code> quy định độ dài tối đa của tập hợp con.
 

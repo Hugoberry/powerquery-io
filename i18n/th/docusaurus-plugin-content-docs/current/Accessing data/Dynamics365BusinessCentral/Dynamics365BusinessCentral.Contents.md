@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.Contents
 # Dynamics365BusinessCentral.Contents
 
 
-## Description
-
 ใส่สภาพแวดล้อมและบริษัท Dynamics 365 Business Central ของคุณ
 
 
@@ -19,7 +17,7 @@ Dynamics365BusinessCentral.Contents(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางพร้อมข้อมูลของ Dynamics 365 Business Central ที่เกี่ยวข้อง 
 

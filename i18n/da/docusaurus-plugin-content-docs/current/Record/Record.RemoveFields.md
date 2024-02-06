@@ -5,8 +5,6 @@ title: Record.RemoveFields
 # Record.RemoveFields
 
 
-## Description
-
 Fjerner det eller de angivne felter fra inputposten.
 
 
@@ -21,7 +19,7 @@ Record.RemoveFields(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en post, der fjerner alle de felter, som er angivet på listen <code>fields</code>, fra inputtet <code>record</code>. Hvis det angivne felt ikke findes, udløses der en undtagelse.
 

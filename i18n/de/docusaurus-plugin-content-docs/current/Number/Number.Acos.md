@@ -5,8 +5,6 @@ title: Number.Acos
 # Number.Acos
 
 
-## Description
-
 Gibt den Arkuskosinus der Zahl zurück.
 
 
@@ -19,7 +17,7 @@ Number.Acos(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Arkuskosinus von <code>number</code> zurück.
 

@@ -5,8 +5,6 @@ title: BinaryFormat.7BitEncodedUnsignedInteger
 # BinaryFormat.7BitEncodedUnsignedInteger
 
 
-## Description
-
 Formato binario leer un entero sin signo de 64 bits que se codificó con una codificación de longitud variable de 7 bits.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.7BitEncodedUnsignedInteger(
 ```
 
 
-## Details
+## Remarks
 
 Formato binario leer un entero sin signo de 64 bits que se codificó con una codificación de longitud variable de 7 bits.
 

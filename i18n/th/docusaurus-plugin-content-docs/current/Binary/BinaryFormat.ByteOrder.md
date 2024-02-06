@@ -5,8 +5,6 @@ title: BinaryFormat.ByteOrder
 # BinaryFormat.ByteOrder
 
 
-## Description
-
 ส่งกลับรูปแบบไบนารีที่มีการระบุลำดับไบต์โดยฟังก์ชัน
 
 
@@ -20,7 +18,7 @@ BinaryFormat.ByteOrder(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับรูปแบบไบนารีที่มีการระบุลำดับไบต์โดย <code>binaryFormat</code>  ลำดับไบต์เริ่มต้นคือ <code>ByteOrder.BigEndian</code>
 

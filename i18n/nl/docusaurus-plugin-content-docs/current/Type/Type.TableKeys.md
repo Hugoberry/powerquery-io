@@ -5,8 +5,6 @@ title: Type.TableKeys
 # Type.TableKeys
 
 
-## Description
-
 Retourneert de mogelijk lege lijst met sleutels voor het opgegeven tabeltype.
 
 
@@ -19,7 +17,7 @@ Type.TableKeys(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de mogelijk lege lijst met sleutels voor het opgegeven tabeltype.<br />    <br />    Elke sleutel wordt gedefinieerd met behulp van een record in de volgende vorm:    <ul>      <li>        <code>Columns</code>: een lijst met de namen van kolommen waarmee de sleutel      </li>      <li>        <code>Primary</code>: <code>true</code> als de sleutel de primaire sleutel van de tabel is; anders <code>false</code>      </li>    </ul>    
 

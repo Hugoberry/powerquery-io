@@ -5,8 +5,6 @@ title: Table.DemoteHeaders
 # Table.DemoteHeaders
 
 
-## Description
-
 列見出しを先頭行の値に降格させます。
 
 
@@ -19,7 +17,7 @@ Table.DemoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 列見出し (つまり列名) を先頭行の値に降格させます。既定の列名は、"Column1"、"Column2" などです。
 

@@ -5,8 +5,6 @@ title: Text.Format
 # Text.Format
 
 
-## Description
-
 ส่งคืนข้อความที่มีรูปแบบจากสตริงรูปแบบและอาร์กิวเมนต์
 
 
@@ -21,7 +19,7 @@ Text.Format(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนข้อความที่จัดรูปแบบซึ่งสร้างโดยการนำ <code>arguments</code> ไปใช้จากรายการหรือระเบียนไปยังสตริงรูปแบบ <code>formatString</code> อาจมีการระบุ <code>culture</code> เพิ่มเติม (ตัวอย่างเช่น "en-US")
 

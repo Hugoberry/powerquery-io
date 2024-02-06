@@ -5,8 +5,6 @@ title: Type.TableColumn
 # Type.TableColumn
 
 
-## Description
-
 Bir tablodaki sütunun türünü döndürür.
 
 
@@ -20,7 +18,7 @@ Type.TableColumn(
 ```
 
 
-## Details
+## Remarks
 
 <code>tableType</code> tablo türündeki <code>column</code> sütununun türünü döndürür.
 

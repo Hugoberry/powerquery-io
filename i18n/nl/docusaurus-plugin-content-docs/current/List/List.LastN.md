@@ -5,8 +5,6 @@ title: List.LastN
 # List.LastN
 
 
-## Description
-
 Retourneert de laatste waarde uit de lijst.  Hiermee kan worden opgegeven hoeveel waarden er moeten worden geretourneerd of kan een in aanmerking komende voorwaarde worden opgegeven.
 
 
@@ -20,7 +18,7 @@ List.LastN(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het laatste item uit de lijst <code>list</code>. Als de lijst leeg is, wordt er een uitzondering gegenereerd. Bij deze functie wordt gebruik gemaakt van een optionele parameter, <code>countOrCondition</code>, als ondersteuning bij het verzamelen van meerdere items of filteritems. <code>countOrCondition</code> kan op drie manieren worden opgegeven: <ul>  <li>Als er een getal wordt opgegeven, wordt er niet meer dan dat aantal items geretourneerd. </li>  <li>Als er een voorwaarde wordt opgegeven, worden te beginnen bij het einde van de lijst alleen die items geretourneerd die in eerste instantie aan die voorwaarde voldoen. Wanneer een item niet aan die voorwaarde voldoet, stopt de bewerking. </li>  <li>Als deze parameter null is, wordt het laatste item uit de lijst geretourneerd.</li> </ul>
 

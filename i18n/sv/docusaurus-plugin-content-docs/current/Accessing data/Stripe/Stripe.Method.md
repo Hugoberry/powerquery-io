@@ -5,8 +5,6 @@ title: Stripe.Method
 # Stripe.Method
 
 
-## Description
-
 Anropar Stripe-API:et.
 
 
@@ -21,7 +19,7 @@ Stripe.Method(
 ```
 
 
-## Details
+## Remarks
 
 Anropar Stripe-API:et på https://api.stripe.com/v1/<code>method</code>, med den alternativa posten <code>additionalParameters</code> överförd som extra parametrar och listan <code>ColumnNames</code> med förväntade kolumnnamn. Stripe-version 2015-10-16 används.
 

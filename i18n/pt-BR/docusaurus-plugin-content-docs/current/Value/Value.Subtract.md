@@ -5,8 +5,6 @@ title: Value.Subtract
 # Value.Subtract
 
 
-## Description
-
 Retorna a diferença dos dois valores.
 
 
@@ -21,7 +19,7 @@ Value.Subtract(
 ```
 
 
-## Details
+## Remarks
 
 Retorna a diferença de <code>value1</code> e <code>value2</code>. Um parâmetro <code>precision</code> opcional pode ser especificado; <code>Precision.Double</code> é usado por padrão.
 

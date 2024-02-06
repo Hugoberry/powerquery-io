@@ -5,8 +5,6 @@ title: Table.UnpivotOtherColumns
 # Table.UnpivotOtherColumns
 
 
-## Description
-
 Oversætter alle kolonner undtagen et angivet sæt til par med attributter/værdier.
 
 
@@ -22,7 +20,7 @@ Table.UnpivotOtherColumns(
 ```
 
 
-## Details
+## Remarks
 
 Oversætter alle kolonner undtagen et angivet sæt til par med attributter/værdier kombineret med resten af værdierne på de enkelte rækker.
 

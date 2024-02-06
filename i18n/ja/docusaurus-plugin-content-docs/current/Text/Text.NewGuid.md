@@ -5,8 +5,6 @@ title: Text.NewGuid
 # Text.NewGuid
 
 
-## Description
-
 新しいランダム グローバル一意識別子 (GUID) を返します。
 
 
@@ -19,7 +17,7 @@ Text.NewGuid(
 ```
 
 
-## Details
+## Remarks
 
 新しいランダム グローバル一意識別子 (GUID) を返します。
 

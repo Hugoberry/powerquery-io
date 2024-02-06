@@ -5,8 +5,6 @@ title: Table.Repeat
 # Table.Repeat
 
 
-## Description
-
 ทำซ้ำแถวของตารางตามจำนวนครั้งที่ระบุ
 
 
@@ -20,7 +18,7 @@ Table.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางที่มีแถวจากค่าที่ป้อน <code>table</code> ที่ทำซ้ำเป็นจำนวน <code>count</code> ครั้งตามที่ระบุ
 

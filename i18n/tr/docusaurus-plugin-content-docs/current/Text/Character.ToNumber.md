@@ -5,8 +5,6 @@ title: Character.ToNumber
 # Character.ToNumber
 
 
-## Description
-
 Bir karakteri sayı değerine dönüştürür.
 
 
@@ -19,7 +17,7 @@ Character.ToNumber(
 ```
 
 
-## Details
+## Remarks
 
 <code>character</code> ile denk olan sayıyı döndürür.<br />    <br />    Sonuç, sağlanan karakter veya vekil bileşen çifti tarafından temsil edilen 21 bitlik Unicode kod noktası olur.  
 

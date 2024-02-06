@@ -5,8 +5,6 @@ title: Folder.Files
 # Folder.Files
 
 
-## Description
-
 Retourne une table qui contient les propriétés et le contenu des fichiers trouvés dans le dossier et les sous-dossiers spécifiés.
 
 
@@ -20,7 +18,7 @@ Folder.Files(
 ```
 
 
-## Details
+## Remarks
 
 Renvoie un tableau contenant une ligne pour chaque fichier <code>path</code>trouvé dans le dossier et tous ses sous-dossiers. Chaque ligne contient les propriétés du fichier et un lien vers son contenu. Ce <code>options</code>paramètre est actuellement destiné à un usage interne uniquement.
 

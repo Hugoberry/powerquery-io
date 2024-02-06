@@ -5,8 +5,6 @@ title: List.Reverse
 # List.Reverse
 
 
-## Description
-
 Đảo ngược thứ tự giá trị trong danh sách.
 
 
@@ -19,7 +17,7 @@ List.Reverse(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một danh sách có các giá trị trong danh sách <code>list</code> theo thứ tự đảo ngược.
 

@@ -5,8 +5,6 @@ title: Date.ToRecord
 # Date.ToRecord
 
 
-## Description
-
 Gibt einen Datensatz mit Teilen des Datumswerts zurück.
 
 
@@ -19,7 +17,7 @@ Date.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen Datensatz mit den Teilen des angegebenen Datumswerts (<code>date</code>) zurück. <ul>        <li><code>date</code>: Ein <code>date</code>-Wert, auf dessen Grundlage der Datensatz mit den zugehörigen Teilen berechnet werden soll.</li>      </ul>
 

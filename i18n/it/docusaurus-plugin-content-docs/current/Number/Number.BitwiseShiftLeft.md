@@ -5,8 +5,6 @@ title: Number.BitwiseShiftLeft
 # Number.BitwiseShiftLeft
 
 
-## Description
-
 Scorre i set di bit verso sinistra.
 
 
@@ -20,7 +18,7 @@ Number.BitwiseShiftLeft(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il risultato dell'esecuzione di uno scorrimento bit per bit verso sinistra su <code>number1</code>, in base al numero di bit specificato <code>number2</code>.
 

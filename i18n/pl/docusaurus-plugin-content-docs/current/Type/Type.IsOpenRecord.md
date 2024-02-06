@@ -5,8 +5,6 @@ title: Type.IsOpenRecord
 # Type.IsOpenRecord
 
 
-## Description
-
 Określa, czy typ rekordu jest otwarty.
 
 
@@ -19,7 +17,7 @@ Type.IsOpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wartość <code>logical</code> określającą, czy rekord <code>type</code> jest otwarty.
 

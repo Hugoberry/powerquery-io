@@ -5,8 +5,6 @@ title: Table.ApproximateRowCount
 # Table.ApproximateRowCount
 
 
-## Description
-
 Hiermee wordt het juiste aantal rijen in de tabel geretourneerd.
 
 
@@ -19,7 +17,7 @@ Table.ApproximateRowCount(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het geschatte aantal rijen in de <code>table</code>, of een fout als de gegevensbron geen schatting ondersteunt.
 

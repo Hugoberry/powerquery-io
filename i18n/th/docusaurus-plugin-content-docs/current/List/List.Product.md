@@ -5,8 +5,6 @@ title: List.Product
 # List.Product
 
 
-## Description
-
 ส่งกลับผลิตภัณฑ์ของตัวเลขในรายการ
 
 
@@ -20,7 +18,7 @@ List.Product(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลิตภัณฑ์ของตัวเลขที่ไม่ใช่ค่า Null ในรายการ <code>numbersList</code> ส่งกลับ nulll ถ้าไม่มีค่าที่ไม่ใช่ null ในรายการ
 

@@ -5,8 +5,6 @@ title: Table.AddColumn
 # Table.AddColumn
 
 
-## Description
-
 加入具有指定名稱的資料行。其值是使用指定的選取函數來計算，並將每個資料列視為輸入。
 
 
@@ -22,7 +20,7 @@ Table.AddColumn(
 ```
 
 
-## Details
+## Remarks
 
 將名為 <code>newColumnName</code> 的資料行加入至資料表 <code>table</code>。此資料行的值是使用指定的選取函數 <code>columnGenerator</code> 來計算，並將每個資料列視為輸入。
 

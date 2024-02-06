@@ -5,8 +5,6 @@ title: Int64.From
 # Int64.From
 
 
-## Description
-
 Skapar ett 64-bitars heltal av det givna värdet.
 
 
@@ -21,7 +19,7 @@ Int64.From(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett 64-bitars <code>number</code>-heltalsvärde från det givna <code>value</code>. Om det givna <code>value</code> är <code>null</code>, returnerar <code>Int64.From</code> <code>null</code>. Om det givna <code>value</code> är <code>number</code> inom intervallet för 64-bitars heltal utan decimaldel, returneras <code>value</code>. Om talet har en decimaldel avrundas det med det angivna avrundningsläget. Standardavrundningsläget är <code>RoundingMode.ToEven</code>. Om det givna <code>value</code> är av någon annan typ, använder du <code>Number.FromText</code> för att konvertera det till ett <code>number</code>-värde. Mer information om tillgängliga avrundningslägen finns i <code>Number.Round</code>. En valfri <code>culture</code> kan även anges (till exempel, "en-US").
 

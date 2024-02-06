@@ -5,8 +5,6 @@ title: List.FirstN
 # List.FirstN
 
 
-## Description
-
 Döndürülecek öğe sayısını veya bir uygun şart belirterek listedeki ilk öğe kümesini döndürür.
 
 
@@ -20,7 +18,7 @@ List.FirstN(
 ```
 
 
-## Details
+## Remarks
 
  <ul>  <li>Sayı belirtilirse, bu sayı kadar öğe döndürülür. </li>  <li>Koşul belirtilirse, bu koşulu sağlayan tüm öğeler döndürülür. Tüm öğeler koşulu sağlamadığında, başka öğe değerlendirilmez. </li> </ul>
 

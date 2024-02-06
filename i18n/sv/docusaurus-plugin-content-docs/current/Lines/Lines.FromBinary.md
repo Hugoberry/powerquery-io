@@ -5,8 +5,6 @@ title: Lines.FromBinary
 # Lines.FromBinary
 
 
-## Description
-
 Konverterar ett binärvärde till en lista med textvärden uppdelade vid radbrytningar. Om en citatstil anges kan radbrytningar visas inom citattecken. Om includeLineSeparators är true tas radbrytningstecknen med i texten.
 
 
@@ -22,7 +20,7 @@ Lines.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 Konverterar ett binärvärde till en lista med textvärden uppdelade vid radbrytningar. Om en citatstil anges kan radbrytningar visas inom citattecken. Om includeLineSeparators är true tas radbrytningstecknen med i texten.
 

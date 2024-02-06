@@ -5,8 +5,6 @@ title: Record.AddField
 # Record.AddField
 
 
-## Description
-
 Bir kayda alan ekler.
 
 
@@ -22,7 +20,7 @@ Record.AddField(
 ```
 
 
-## Details
+## Remarks
 
 <code>fieldName</code> alan adı ve <code>value</code> değeri verildiğinde <code>record</code> kaydına bir alan ekler.
 

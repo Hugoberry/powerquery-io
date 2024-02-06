@@ -5,8 +5,6 @@ title: Table.HasColumns
 # Table.HasColumns
 
 
-## Description
-
 指定された列がテーブルに含まれているかどうかを示します。
 
 
@@ -20,7 +18,7 @@ Table.HasColumns(
 ```
 
 
-## Details
+## Remarks
 
 指定された列 <code>columns</code> が <code>table</code> に含まれているかどうかを示します。列がテーブルに含まれている場合は <code>true</code>、それ以外の場合は <code>false</code> を返します。
 

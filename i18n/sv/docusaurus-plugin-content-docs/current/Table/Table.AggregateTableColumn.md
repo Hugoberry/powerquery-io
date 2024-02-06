@@ -5,8 +5,6 @@ title: Table.AggregateTableColumn
 # Table.AggregateTableColumn
 
 
-## Description
-
 Aggregerar en kolumn med tabeller i flera kolumner i den övergripande tabellen.
 
 
@@ -21,7 +19,7 @@ Table.AggregateTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Aggregerar tabeller i <code>table</code>[<code>column</code>] i flera kolumner som innehåller aggregeringsvärden för tabellerna. <code>aggregations</code> används för att ange kolumnerna som innehåller tabellerna som ska aggregeras, aggregeringsfunktionerna som ska användas i tabellerna för att generera värdena och namnen på aggregeringskolumnerna som ska skapas.
 

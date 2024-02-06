@@ -5,8 +5,6 @@ title: List.Select
 # List.Select
 
 
-## Description
-
 条件に一致する値のリストを返します。
 
 
@@ -20,7 +18,7 @@ List.Select(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>list</code> から、選択条件 <code>selection</code> に一致する値のリストを返します。
 

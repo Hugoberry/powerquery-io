@@ -5,8 +5,6 @@ title: Cube.Properties
 # Cube.Properties
 
 
-## Description
-
 Küpte genişletilen boyutlar için kullanılabilir özellikler kümesini içeren bir tablo döndürür.
 
 
@@ -19,7 +17,7 @@ Cube.Properties(
 ```
 
 
-## Details
+## Remarks
 
 Küpte genişletilen boyutlar için kullanılabilir özellikler kümesini içeren bir tablo döndürür.
 

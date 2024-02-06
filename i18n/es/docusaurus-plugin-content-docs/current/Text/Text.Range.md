@@ -5,8 +5,6 @@ title: Text.Range
 # Text.Range
 
 
-## Description
-
 Devuelve la subcadena encontrada en el desplazamiento.
 
 
@@ -21,7 +19,7 @@ Text.Range(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve la subcadena del texto <code>text</code> que se encuentra en el desplazamiento <code>offset</code>.    Se puede incluir un parámetro opcional (<code>count</code>) para especificar el número de caracteres que tienen que devolverse. Genera un error si no hay suficientes caracteres.
 

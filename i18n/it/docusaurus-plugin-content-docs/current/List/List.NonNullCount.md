@@ -5,8 +5,6 @@ title: List.NonNullCount
 # List.NonNullCount
 
 
-## Description
-
 Restituisce il numero di elementi non Null dell&#39;elenco.
 
 
@@ -19,7 +17,7 @@ List.NonNullCount(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il numero di elementi non Null dell'elenco <code>list</code>.
 

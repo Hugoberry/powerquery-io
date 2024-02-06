@@ -5,8 +5,6 @@ title: AzureDataExplorer.Contents
 # AzureDataExplorer.Contents
 
 
-## Description
-
 Nhập dữ liệu từ Trình khám phá dữ liệu Azure (Kusto)
 
 
@@ -22,7 +20,7 @@ AzureDataExplorer.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Nhập dữ liệu từ Trình khám phá dữ liệu Azure (phiên bản Kusto)
 

@@ -5,8 +5,6 @@ title: ActiveDirectory.Domains
 # ActiveDirectory.Domains
 
 
-## Description
-
 Devolve uma lista de domínios do Active Directory na mesma floresta que o domínio especificado ou do domínio do computador atual se não for especificado nenhum.
 
 
@@ -19,7 +17,7 @@ ActiveDirectory.Domains(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma lista de domínios do Active Directory na mesma floresta que o domínio especificado ou do domínio do computador atual se não for especificado nenhum.
 

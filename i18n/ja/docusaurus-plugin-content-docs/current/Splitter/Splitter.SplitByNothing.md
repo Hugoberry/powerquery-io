@@ -5,8 +5,6 @@ title: Splitter.SplitByNothing
 # Splitter.SplitByNothing
 
 
-## Description
-
 引数を分割せず、引数を 1 つの要素リストとして返す関数を返します。
 
 
@@ -19,7 +17,7 @@ Splitter.SplitByNothing(
 ```
 
 
-## Details
+## Remarks
 
 引数を分割せず、引数を 1 つの要素リストとして返す関数を返します。
 

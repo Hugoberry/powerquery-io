@@ -5,8 +5,6 @@ title: Table.ToRows
 # Table.ToRows
 
 
-## Description
-
 Cria uma lista de listas aninhadas de valores de linha de uma tabela.
 
 
@@ -19,7 +17,7 @@ Table.ToRows(
 ```
 
 
-## Details
+## Remarks
 
 Cria uma lista de listas aninhadas de valores de coluna da tabela, <code>table</code>.  Cada item de lista é uma lista interior que contém os valores das linhas.
 

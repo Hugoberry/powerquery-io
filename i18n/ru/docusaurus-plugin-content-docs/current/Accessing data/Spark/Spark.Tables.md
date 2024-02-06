@@ -5,8 +5,6 @@ title: Spark.Tables
 # Spark.Tables
 
 
-## Description
-
 Возвращает таблицу со списком таблиц в указанном кластере Spark.
 
 
@@ -21,7 +19,7 @@ Spark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу со списком таблиц в <code>узле</code> кластера Spark с помощью <code>протокола</code>. Допустимые протоколы:SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
 

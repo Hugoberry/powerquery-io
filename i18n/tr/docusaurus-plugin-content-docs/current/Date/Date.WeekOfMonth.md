@@ -5,8 +5,6 @@ title: Date.WeekOfMonth
 # Date.WeekOfMonth
 
 
-## Description
-
 Bu tarihin ayın hangi haftası içinde olduğunu gösteren, 1 ile 6 arasındaki bir sayıyı döndürür.
 
 
@@ -20,7 +18,7 @@ Date.WeekOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> tarihinin ayın hangi haftası içinde olduğunu gösteren, 1 ile 6 arasındaki bir sayı döndürür. <ul>        <li><code>dateTime</code>: Ayın haftasının belirlendiği <code>datetime</code> değeri.</li>      </ul>
 

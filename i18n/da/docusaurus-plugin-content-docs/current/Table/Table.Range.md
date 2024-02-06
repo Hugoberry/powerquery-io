@@ -5,8 +5,6 @@ title: Table.Range
 # Table.Range
 
 
-## Description
-
 Returnerer de rækker, der starter med den angivne forskydning.
 
 
@@ -21,7 +19,7 @@ Table.Range(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer rækkerne fra <code>table</code>, der starter med den angivne <code>offset</code>. En valgfri parameter, <code>count</code>, angiver, hvor mange rækker der skal returneres. Alle rækkerne efter forskydningen returneres som standard.
 

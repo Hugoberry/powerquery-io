@@ -5,8 +5,6 @@ title: Number.FromText
 # Number.FromText
 
 
-## Description
-
 Erstellt Zahlen auf der Grundlage allgemeiner Textformate (&#34;15&#34;, &#34;3.423,10&#34;, &#34;5.0E-10&#34;).
 
 
@@ -20,7 +18,7 @@ Number.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen <code>number</code>-Wert auf der Grundlage des angegebenen Textwerts (<code>text</code>) zurück. <ul>  <li><code>text</code>: Die Textdarstellung eines Zahlenwerts. Die Darstellung muss ein allgemeines Zahlenformat wie "15", "3.423,10" oder "5.0E-10" aufweisen.</li>  <li><code>culture</code>: Eine optionale Kultur, die steuert, wie "<code>text</code>" interpretiert wird (Beispiel: "de-DE").</li> </ul>
 

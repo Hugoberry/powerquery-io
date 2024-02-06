@@ -5,8 +5,6 @@ title: Number.Asin
 # Number.Asin
 
 
-## Description
-
 ส่งกลับค่าอาร์กไซน์ของตัวเลข
 
 
@@ -19,7 +17,7 @@ Number.Asin(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่าอาร์กไซน์ของ <code>number</code>
 

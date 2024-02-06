@@ -5,8 +5,6 @@ title: Table.RemoveRows
 # Table.RemoveRows
 
 
-## Description
-
 Удаляет указанное количество строк.
 
 
@@ -21,7 +19,7 @@ Table.RemoveRows(
 ```
 
 
-## Details
+## Remarks
 
 Удаляет <code>count</code> строк от начала <code>table</code>, начиная с указанной <code>offset</code>. Если параметр <code>count</code> не предоставлен, используется значение по умолчанию 1. 
 

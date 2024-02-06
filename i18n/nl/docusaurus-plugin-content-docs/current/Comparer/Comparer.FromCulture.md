@@ -5,8 +5,6 @@ title: Comparer.FromCulture
 # Comparer.FromCulture
 
 
-## Description
-
 Hiermee wordt een vergelijkingsfunctie geretourneerd op basis van de opgegeven cultuur en hoofdlettergevoeligheid.
 
 
@@ -20,7 +18,7 @@ Comparer.FromCulture(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een vergelijkingsfunctie geretourneerd die de <code>culture</code> en de hoofdlettergevoeligheid gebruikt die is opgegeven door <code>ignoreCase</code> om vergelijkingen uit te voeren.<br />      <br />      Een vergelijkingsfunctie accepteert twee argumenten en retourneert -1, 0 of 1 op basis van of de eerste waarde kleiner is dan, gelijk is aan of groter is dan de tweede.<br />      <br />      De standaardwaarde voor <code>ignoreCase</code> is false. De <code>culture</code> moet een van de landinstellingen zijn die worden ondersteund door het .NET-framework (bijvoorbeeld: nl-NL).    
 

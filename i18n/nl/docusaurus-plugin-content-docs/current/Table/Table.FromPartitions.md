@@ -5,8 +5,6 @@ title: Table.FromPartitions
 # Table.FromPartitions
 
 
-## Description
-
 Retourneert een tabel die het resultaat is van het combineren van een set gepartitioneerde tabellen.
 
 
@@ -21,7 +19,7 @@ Table.FromPartitions(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een tabel die het resultaat is van de combinatie van een set gepartitioneerde tabellen, <code>partitions</code>. <code>partitionColumn</code> is de naam van de kolom die wordt toegevoegd. Het type kolom is standaard <code>willekeurig</code>, maar kan worden opgegeven met <code>partitionColumnType</code>.
 

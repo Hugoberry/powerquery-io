@@ -5,8 +5,6 @@ title: Binary.FromText
 # Binary.FromText
 
 
-## Description
-
 Descodifica dados de um formato de texto para um formato binário.
 
 
@@ -20,7 +18,7 @@ Binary.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o resultado da conversão do valor de texto <code>text</code> num valor binário (lista de valores <code>number</code>). <code>encoding</code> pode ser especificado para indicar a codificação utilizada no valor de texto.      Os valores <code>BinaryEncoding</code> que se seguem podem ser utilizados para <code>encoding</code>.      <ul>        <li><code>BinaryEncoding.Base64</code>: codificação Base 64</li>        <li><code>BinaryEncoding.Hex</code>: codificação hexadecimal</li>      </ul>
 

@@ -5,8 +5,6 @@ title: List.Reverse
 # List.Reverse
 
 
-## Description
-
 ย้อนกลับลำดับของค่าในรายการ
 
 
@@ -19,7 +17,7 @@ List.Reverse(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับรายการซึ่งมีค่าในรายการ <code>list</code> ในลำดับย้อนกลับ
 

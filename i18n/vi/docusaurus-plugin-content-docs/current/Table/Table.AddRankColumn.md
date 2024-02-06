@@ -5,8 +5,6 @@ title: Table.AddRankColumn
 # Table.AddRankColumn
 
 
-## Description
-
 Nối một cột với xếp hạng của một hoặc nhiều cột khác.
 
 
@@ -22,7 +20,7 @@ Table.AddRankColumn(
 ```
 
 
-## Details
+## Remarks
 
 Nối một cột có tên <code>newColumnName</code> vào <code>table</code> với xếp hạng của một hoặc nhiều cột khác được mô tả bởi <code>comparisonCriteria</code>.Người dùng nâng cao có thể dùng tùy chọn <code>options</code> RankKind để chọn một phương pháp xếp hạng cụ thể hơn.
 

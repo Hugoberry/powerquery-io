@@ -5,8 +5,6 @@ title: Table.Unpivot
 # Table.Unpivot
 
 
-## Description
-
 Bir tablodaki sütun kümesini öznitelik-değer çiftlerine çevirir.
 
 
@@ -22,7 +20,7 @@ Table.Unpivot(
 ```
 
 
-## Details
+## Remarks
 
 Bir tablodaki sütun kümesini her satırdaki geri kalan değerler ile birleştirilmiş öznitelik-değer çiftlerine çevirir.
 

@@ -5,8 +5,6 @@ title: Error.Record
 # Error.Record
 
 
-## Description
-
 Returnerar en felpost från angivna textvärden för orsak, meddelande och detaljinformation.
 
 
@@ -22,7 +20,7 @@ Error.Record(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en felpost från angivna textvärden för orsak, meddelande och detaljinformation.
 

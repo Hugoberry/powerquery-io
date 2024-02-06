@@ -5,8 +5,6 @@ title: Comparer.FromCulture
 # Comparer.FromCulture
 
 
-## Description
-
 Gibt eine Vergleichsfunktion basierend auf der angegebenen Berücksichtigung von Kultur und Groß-/Kleinschreibung zurück.
 
 
@@ -20,7 +18,7 @@ Comparer.FromCulture(
 ```
 
 
-## Details
+## Remarks
 
 Gibt eine Vergleichsfunktion zurück, die die Angabe "<code>culture</code>" und die durch <code>ignoreCase</code> angegebene Berücksichtigung von Groß-/Kleinschreibung zum Ausführen von Vergleichen verwendet. <br />      <br />      Eine Vergleichsfunktion akzeptiert zwei Argumente und gibt -1, 0 oder 1 zurück, je nachdem, ob der erste Wert im Vergleich zum zweiten kleiner, gleich oder größer ist.<br />      <br />      Der Standardwert für "<code>ignoreCase</code>" ist FALSE. "<code>culture</code>" muss eines der von .NET Framework unterstützten Gebietsschemas sein (z. B. "de-DE").    
 

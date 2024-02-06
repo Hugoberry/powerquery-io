@@ -5,8 +5,6 @@ title: Table.FirstN
 # Table.FirstN
 
 
-## Description
-
 निर्दिष्ट प्रथम गणना पंक्तियाँ लौटाता है.
 
 
@@ -20,7 +18,7 @@ Table.FirstN(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> के मान के आधार पर, तालिका <code>table</code> की पहली पंक्तियाँ लौटाता है:    <ul>    <li> यदि <code>countOrCondition</code> एक संख्या है, तो उतनी ही पंक्तियाँ (शीर्ष से प्रारंभ करके) लौटाई जाएँगी. </li>    <li> यदि <code>countOrCondition</code> एक शर्त है, तो किसी पंक्ति के शर्त पूरा न करने तक, शर्त को पूरा करने वाली पंक्तियों को लौटाया जाएगा.</li></ul>
 

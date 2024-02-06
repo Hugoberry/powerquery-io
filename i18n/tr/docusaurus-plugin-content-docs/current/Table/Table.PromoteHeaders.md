@@ -5,8 +5,6 @@ title: Table.PromoteHeaders
 # Table.PromoteHeaders
 
 
-## Description
-
 Değerlerin ilk satırını yeni sütun başlıkları (sütun adları) olarak yükseltir.
 
 
@@ -20,7 +18,7 @@ Table.PromoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Değerlerin ilk satırını yeni sütun başlıkları (sütun adları) olarak yükseltir. Varsayılan olarak yalnızca metin veya sayı değerleri başlık olarak yükseltilir. Geçerli seçenekler:    <div>      <code>PromoteAllScalars</code> : <code>true</code> olarak ayarlandığı takdirde ilk satırdaki tüm skaler değerler, belirtilmişse <code>Culture</code> (veya mevcut belge yerel ayarı) kullanımıyla başlık olarak yükseltilir.    Metne dönüştürülemeyen değerler için varsayılan bir sütun adı kullanılır.    </div>    <div>    <code>Culture</code>: Veri kültürünü tanımlayan bir kültür adı.    </div>  
 

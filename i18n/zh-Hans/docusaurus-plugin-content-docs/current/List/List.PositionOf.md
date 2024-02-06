@@ -5,8 +5,6 @@ title: List.PositionOf
 # List.PositionOf
 
 
-## Description
-
 返回列表中值的偏移量。
 
 
@@ -22,7 +20,7 @@ List.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 返回值 <code>value</code> 在列表 <code>list</code> 中出现时的偏移量。如果值未出现，则返回 -1。    可以指定可选的出现次数参数 <code>occurrence</code>。<ul>   <li><code>occurrence</code>: 要报告的最大出现次数。</li></ul>
 

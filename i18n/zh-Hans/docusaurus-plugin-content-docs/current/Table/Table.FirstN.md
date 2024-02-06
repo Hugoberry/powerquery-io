@@ -5,8 +5,6 @@ title: Table.FirstN
 # Table.FirstN
 
 
-## Description
-
 返回指定的前几个计数行。
 
 
@@ -20,7 +18,7 @@ Table.FirstN(
 ```
 
 
-## Details
+## Remarks
 
 返回表 <code>table</code> 的前几行，具体取决于 <code>countOrCondition</code> 的值:    <ul>    <li> 如果 <code>countOrCondition</code> 为数字，则将返回多行(从顶部开始)。</li>    <li> 如果 <code>countOrCondition</code> 是条件，将返回满足此条件的行，直到行不满足条件为止。</li></ul>
 

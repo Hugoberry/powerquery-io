@@ -5,8 +5,6 @@ title: Number.Permutations
 # Number.Permutations
 
 
-## Description
-
 ส่งกลับจำนวนการเรียงสับเปลี่ยน
 
 
@@ -20,7 +18,7 @@ Number.Permutations(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับจำนวนการเรียงสับเปลี่ยนที่สามารถสร้างจากจำนวนของรายการ <code>setSize</code> ด้วยขนาดการเรียงสับเปลี่ยนที่ระบุ <code>permutationSize</code>
 

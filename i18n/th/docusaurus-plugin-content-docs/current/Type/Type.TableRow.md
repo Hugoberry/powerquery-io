@@ -5,8 +5,6 @@ title: Type.TableRow
 # Type.TableRow
 
 
-## Description
-
 ส่งกลับชนิดแถวของชนิดตาราง
 
 
@@ -19,7 +17,7 @@ Type.TableRow(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับชนิดแถวของชนิดตารางที่ระบุ ผลลัพธ์จะเป็นชนิดระเบียนเสมอ
 

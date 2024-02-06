@@ -5,8 +5,6 @@ title: Table.ReplaceErrorValues
 # Table.ReplaceErrorValues
 
 
-## Description
-
 使用相应指定值替换指定列中的错误值。
 
 
@@ -20,7 +18,7 @@ Table.ReplaceErrorValues(
 ```
 
 
-## Details
+## Remarks
 
 使用 <code>errorReplacement</code> 列表中的新值替换 <code>table</code> 指定列中的错误值。列表的格式为 \{\{column1, value1}, …}。每列可能只有一个替换值，为列进行多于一次的指定将导致错误。
 

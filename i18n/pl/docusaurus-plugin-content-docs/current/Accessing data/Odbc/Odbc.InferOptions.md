@@ -5,8 +5,6 @@ title: Odbc.InferOptions
 # Odbc.InferOptions
 
 
-## Description
-
 Zwraca wynik próby wywnioskowania możliwości SQL dla sterownika ODBC.
 
 
@@ -19,7 +17,7 @@ Odbc.InferOptions(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wynik próby wywnioskowania możliwości SQL z parametrami połączenia <code>connectionString</code> przy użyciu programu ODBC. Parametry <code>connectionString</code> mogą mieć postać tekstu lub rekordu par wartości właściwości. Wartości właściwości mogą być tekstowe lub liczbowe.
 

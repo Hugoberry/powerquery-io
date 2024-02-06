@@ -5,8 +5,6 @@ title: DateTime.IsInPreviousHour
 # DateTime.IsInPreviousHour
 
 
-## Description
-
 Indica se questo valore datetime rientra nell&#39;ora precedente, come determinato dalla data e dall&#39;ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nell&#39;ora corrente.
 
 
@@ -19,7 +17,7 @@ DateTime.IsInPreviousHour(
 ```
 
 
-## Details
+## Remarks
 
 Indica se questo valore datetime specificato <code>dateTime</code> rientra nell'ora precedente, come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nell'ora corrente.      <ul>      <li><code>dateTime</code>: valore <code>datetime</code> o <code>datetimezone</code> da valutare.</li>      </ul>
 

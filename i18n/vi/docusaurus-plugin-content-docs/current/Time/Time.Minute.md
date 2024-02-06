@@ -5,8 +5,6 @@ title: Time.Minute
 # Time.Minute
 
 
-## Description
-
 Trả về cấu phần phút.
 
 
@@ -19,7 +17,7 @@ Time.Minute(
 ```
 
 
-## Details
+## Remarks
 
 Trả về cấu phần phút của giá trị <code>time</code>, <code>datetime</code> hoặc <code>datetimezone</code> được cung cấp, <code>dateTime</code>.
 

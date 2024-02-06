@@ -5,8 +5,6 @@ title: Table.Pivot
 # Table.Pivot
 
 
-## Description
-
 给定一对表示属性-值对的列，将属性列中的数据旋转为列标题。
 
 
@@ -23,7 +21,7 @@ Table.Pivot(
 ```
 
 
-## Details
+## Remarks
 
 给定一对表示属性-值对的列，将属性列中的数据旋转为列标题。
 

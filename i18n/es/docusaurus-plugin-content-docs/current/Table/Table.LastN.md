@@ -5,8 +5,6 @@ title: Table.LastN
 # Table.LastN
 
 
-## Description
-
 Devuelve el último número especificado de filas.
 
 
@@ -20,7 +18,7 @@ Table.LastN(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve las últimas filas de la tabla <code>table</code>, en función del valor de <code>countOrCondition</code>:    <ul>    <li> Si <code>countOrCondition</code> es un número, se devolverán esas filas a partir de la posición (final - <code>countOrCondition</code>). </li>    <li> Si <code>countOrCondition</code> es una condición, se devolverán las filas que la cumplan en posición ascendente hasta que una fila no lo haga.</li></ul>
 

@@ -5,8 +5,6 @@ title: List.SingleOrDefault
 # List.SingleOrDefault
 
 
-## Description
-
 Returnerer ét listeelement for en liste med længden én og standardværdien for en tom liste.
 
 
@@ -20,7 +18,7 @@ List.SingleOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 Hvis der kun er ét element på listen <code>list</code>, returneres dette element.    Hvis listen er tom, returnerer funktionen en null-værdi, medmindre der er angivet en valgfri <code>default</code>. Hvis der er mere end ét element på listen, returnerer funktionen en fejl.
 

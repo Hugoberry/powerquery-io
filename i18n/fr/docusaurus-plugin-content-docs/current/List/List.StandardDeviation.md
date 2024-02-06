@@ -5,8 +5,6 @@ title: List.StandardDeviation
 # List.StandardDeviation
 
 
-## Description
-
 Retourne un exemple en fonction de l&#39;estimation de l&#39;écart type.
 
 
@@ -19,7 +17,7 @@ List.StandardDeviation(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une estimation de l'écart type des valeurs de la liste, <code>numbersList</code>, sur la base d'un échantillon.    Si <code>numbersList</code> est une liste de nombres, un nombre est retourné.    Une exception est levée en cas de liste vide ou d'une liste d'éléments qui n'est pas de type <code>number</code>.
 

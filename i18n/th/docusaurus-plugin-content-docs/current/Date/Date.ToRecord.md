@@ -5,8 +5,6 @@ title: Date.ToRecord
 # Date.ToRecord
 
 
-## Description
-
 ส่งกลับระเบียนที่มีส่วนของค่าวันที่
 
 
@@ -19,7 +17,7 @@ Date.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับระเบียนที่มีส่วนของค่าวันที่ที่ระบุ <code>date</code> <ul>        <li><code>date</code>: ค่า <code>วันที่</code> สำหรับเริ่มคำนวณระเบียนของส่วนประกอบดังกล่าว</li>      </ul>
 

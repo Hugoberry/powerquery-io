@@ -5,8 +5,6 @@ title: Table.ExpandTableColumn
 # Table.ExpandTableColumn
 
 
-## Description
-
 将一个记录列或表列扩展到包含表中的多列。
 
 
@@ -22,7 +20,7 @@ Table.ExpandTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 将 <code>table</code>[<code>column</code>] 中的表扩展为多个行和列。<code>columnNames</code> 用于从内部表中选择要扩展的列。指定 <code>newColumnNames</code> 以避免现有列与新列之间的冲突。
 

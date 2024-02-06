@@ -5,8 +5,6 @@ title: Text.End
 # Text.End
 
 
-## Description
-
 Trả về các ký tự cuối cùng của văn bản.
 
 
@@ -20,7 +18,7 @@ Text.End(
 ```
 
 
-## Details
+## Remarks
 
 Trả về giá trị <code>text</code> là các ký tự <code>count</code> cuối cùng của giá trị <code>text</code> <code>text</code>.
 

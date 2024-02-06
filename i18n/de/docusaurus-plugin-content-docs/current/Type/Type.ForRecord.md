@@ -5,8 +5,6 @@ title: Type.ForRecord
 # Type.ForRecord
 
 
-## Description
-
 Gibt einen Typ zurück, der für Datensätze mit bestimmten Typeinschränkungen für Felder steht.
 
 
@@ -20,7 +18,7 @@ Type.ForRecord(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen Typ zurück, der für Datensätze mit bestimmten Typeinschränkungen für Felder steht.
 

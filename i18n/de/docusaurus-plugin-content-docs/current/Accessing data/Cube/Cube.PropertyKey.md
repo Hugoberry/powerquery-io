@@ -5,8 +5,6 @@ title: Cube.PropertyKey
 # Cube.PropertyKey
 
 
-## Description
-
 Gibt den Schlüssel einer Eigenschaft zurück.
 
 
@@ -19,7 +17,7 @@ Cube.PropertyKey(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Schlüssel der Eigenschaft "<code>property</code>" zurück.
 

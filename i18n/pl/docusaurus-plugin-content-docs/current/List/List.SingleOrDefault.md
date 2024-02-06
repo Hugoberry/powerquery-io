@@ -5,8 +5,6 @@ title: List.SingleOrDefault
 # List.SingleOrDefault
 
 
-## Description
-
 Zwraca jeden element z listy, jeśli lista ma długość 1, i wartość domyślną, gdy lista jest pusta.
 
 
@@ -20,7 +18,7 @@ List.SingleOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 Jeśli na liście <code>list</code> znajduje się tylko jeden element, zwraca ten element.    Jeśli lista jest pusta, funkcja zwraca wartość null, chyba że określono opcjonalny parametr <code>default</code>. Jeśli na liście znajduje się więcej niż jeden element, funkcja zwraca błąd.
 

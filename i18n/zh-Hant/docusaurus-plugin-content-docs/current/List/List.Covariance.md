@@ -5,8 +5,6 @@ title: List.Covariance
 # List.Covariance
 
 
-## Description
-
 傳回兩個數字清單之間的共變數。
 
 
@@ -20,7 +18,7 @@ List.Covariance(
 ```
 
 
-## Details
+## Remarks
 
 傳回兩個數字清單 <code>numberList1</code> 和 <code>numberList2</code> 之間的共變數。<code>numberList1</code> 和 <code>numberList2</code> 必須包含相同數目的 <code>number</code> 值。
 

@@ -5,8 +5,6 @@ title: Table.ReverseRows
 # Table.ReverseRows
 
 
-## Description
-
 返回一个表，其中的行以相反顺序排序。
 
 
@@ -19,7 +17,7 @@ Table.ReverseRows(
 ```
 
 
-## Details
+## Remarks
 
 从输入 <code>table</code> 返回一个表，其中的行遵循相反顺序。
 

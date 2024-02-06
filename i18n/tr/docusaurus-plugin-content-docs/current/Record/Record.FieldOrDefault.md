@@ -5,8 +5,6 @@ title: Record.FieldOrDefault
 # Record.FieldOrDefault
 
 
-## Description
-
 Bir kayıttaki belirtilen alanın değerini veya alan bulunamazsa varsayılan değeri döndürür.
 
 
@@ -21,7 +19,7 @@ Record.FieldOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 <code>record</code> kaydında <code>field</code> belirtilen alanının değerini döndürür. Alan bulunmazsa, isteğe bağlı <code>defaultValue</code> döndürülür.
 

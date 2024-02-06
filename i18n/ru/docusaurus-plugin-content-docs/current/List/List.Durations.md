@@ -5,8 +5,6 @@ title: List.Durations
 # List.Durations
 
 
-## Description
-
 Создает список значений длительности для заданного исходного значения, количества и значения возрастания длительности.
 
 
@@ -21,7 +19,7 @@ List.Durations(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает список значений <code>count</code> <code>duration</code>, начиная с <code>start</code>, с добавлением заданного значения <code>duration</code> <code>step</code>.
 

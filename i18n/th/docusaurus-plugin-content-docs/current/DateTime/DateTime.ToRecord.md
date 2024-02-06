@@ -5,8 +5,6 @@ title: DateTime.ToRecord
 # DateTime.ToRecord
 
 
-## Description
-
 ส่งกลับระเบียนที่มีส่วนของค่าวันที่เวลา
 
 
@@ -19,7 +17,7 @@ DateTime.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับระเบียนที่มีส่วนของค่าวันที่เวลาที่ระบุ <code>dateTime</code> <ul>        <li><code>dateTime</code>: ค่า <code>วันที่เวลา</code> สำหรับเริ่มคำนวณระเบียนของส่วนประกอบดังกล่าว</li>      </ul>
 

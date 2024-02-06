@@ -5,8 +5,6 @@ title: Value.Add
 # Value.Add
 
 
-## Description
-
 Retourneert de som van de twee waarden.
 
 
@@ -21,7 +19,7 @@ Value.Add(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de som van <code>value1</code> en <code>value2</code>. Er kan een optionele parameter <code>precision</code> worden opgegeven. Standaard wordt <code>Precision.Double</code> gebruikt.
 

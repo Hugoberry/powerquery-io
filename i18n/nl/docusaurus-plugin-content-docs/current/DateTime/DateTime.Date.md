@@ -5,8 +5,6 @@ title: DateTime.Date
 # DateTime.Date
 
 
-## Description
-
 Retourneert het datumgedeelte van de opgegeven waarde voor date, datetime of datetimezone.
 
 
@@ -19,7 +17,7 @@ DateTime.Date(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het datumgedeelte van <code>dateTime</code>, de opgegeven waarde voor <code>date</code>, <code>datetime</code> of <code>datetimezone</code>.
 

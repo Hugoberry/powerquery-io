@@ -5,8 +5,6 @@ title: Date.From
 # Date.From
 
 
-## Description
-
 Opretter en dato ud fra den angivne værdi.
 
 
@@ -20,7 +18,7 @@ Date.From(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en værdi af typen <code>date</code> ud fra den angivne <code>value</code>. Der kan også angives en valgfri <code>culture</code> (f.eks. "en-US").Hvis den angivne <code>value</code> er <code>null</code>, vil <code>Date.From</code> returnere <code>null</code>. Hvis den angivne <code>value</code> er <code>date</code>, returneres <code>value</code>. Værdier af følgende typer kan konverteres til en værdi af typen <code>date</code>:      <ul>        <li><code>text</code>: En værdi af typen <code>date</code> fra en tekstrepræsentation. Se <code>Date.FromText</code> for at få flere oplysninger.</li>        <li><code>datetime</code>: Datokomponenten for <code>value</code>.</li>        <li><code>datetimezone</code>: Datokomponenten for den lokale datetime-ækvivalens for <code>value</code>.</li>        <li><code>number</code>: Datokomponenten for datetime-ækvivalensen for OLE Automation-datoen udtrykt ved <code>value</code>.</li>      </ul>Hvis <code>value</code> er af en anden type, returneres der en fejl.
 

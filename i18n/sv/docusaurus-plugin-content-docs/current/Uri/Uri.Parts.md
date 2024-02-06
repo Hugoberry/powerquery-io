@@ -5,8 +5,6 @@ title: Uri.Parts
 # Uri.Parts
 
 
-## Description
-
 Returnerar delarna av den absoluta URI:n i angivna indata som en post.
 
 
@@ -19,7 +17,7 @@ Uri.Parts(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar delarna av <code>absoluteUri</code> i angivna indata som en post, som innehåller värden som Scheme, Host, Port, Path, Query, Fragment, UserName och Password.
 

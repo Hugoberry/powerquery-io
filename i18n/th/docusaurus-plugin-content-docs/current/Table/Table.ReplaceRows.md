@@ -5,8 +5,6 @@ title: Table.ReplaceRows
 # Table.ReplaceRows
 
 
-## Description
-
 แทนที่ช่วงแถวที่ระบุด้วยแถวที่กำหนดให้
 
 
@@ -22,7 +20,7 @@ Table.ReplaceRows(
 ```
 
 
-## Details
+## Remarks
 
 แทนที่จำนวนแถวที่ระบุ <code>count</code> ในค่าที่ป้อน <code>table</code> ด้วย <code>rows</code> ที่ระบุโดยเริ่มต้นหลัง <code>offset</code> พารามิเตอร์ <code>rows</code> คือรายการระเบียน    <ul>       <li><code>table</code>: ตารางที่จะดำเนินการแทนที่</li>       <li><code>offset</code>: จำนวนแถวที่จะข้ามก่อนทำการแทนที่</li>       <li><code>count</code>: จำนวนแถวที่จะแทนที่</li>       <li><code>rows</code>: รายการของระเบียนแถวที่จะแทรกลงใน <code>table</code> ในตำแหน่งที่ระบุโดย <code>offset</code></li>    </ul>
 

@@ -5,8 +5,6 @@ title: Combiner.CombineTextByLengths
 # Combiner.CombineTextByLengths
 
 
-## Description
-
 Belirtilen uzunlukları kullanarak bir metin listesini birleştiren bir işlev döndürür.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByLengths(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen uzunlukları kullanarak metin değerleri listesini tek bir metin değerinde birleştiren bir işlev döndürür.
 

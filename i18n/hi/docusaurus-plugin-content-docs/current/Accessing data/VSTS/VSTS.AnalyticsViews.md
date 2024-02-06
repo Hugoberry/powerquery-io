@@ -5,8 +5,6 @@ title: VSTS.AnalyticsViews
 # VSTS.AnalyticsViews
 
 
-## Description
-
 खाता और प्रोजेक्ट के नाम दर्ज करें.
 
 
@@ -21,7 +19,7 @@ VSTS.AnalyticsViews(
 ```
 
 
-## Details
+## Remarks
 
 Azure DevOps द्वारा प्रस्तावित विश्लेषणात्मक दृश्यों की तालिका लौटाता है.
 

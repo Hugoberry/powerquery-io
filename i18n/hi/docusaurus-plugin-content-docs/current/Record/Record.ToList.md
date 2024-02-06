@@ -5,8 +5,6 @@ title: Record.ToList
 # Record.ToList
 
 
-## Description
-
 ऐसे मानों की एक सूची लौटाता है जिनमें इनपुट रिकॉर्ड के फ़ील्ड मान होते हैं.
 
 
@@ -19,7 +17,7 @@ Record.ToList(
 ```
 
 
-## Details
+## Remarks
 
 ऐसा मानों की सूची लौटाता है जिनमें इनपुट <code>record</code> के फ़ील्ड मान होते हैं.
 

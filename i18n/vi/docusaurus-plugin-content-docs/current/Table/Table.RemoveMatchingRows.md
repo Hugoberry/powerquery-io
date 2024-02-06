@@ -5,8 +5,6 @@ title: Table.RemoveMatchingRows
 # Table.RemoveMatchingRows
 
 
-## Description
-
 Loại bỏ tất cả những lần xuất hiện của các hàng được chỉ định khỏi bảng.
 
 
@@ -21,7 +19,7 @@ Table.RemoveMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 Loại bỏ tất cả những lần xuất hiện của <code>rows</code> được chỉ định khỏi <code>table</code>.    Có thể chỉ định tham số tùy chọn <code>equationCriteria</code> để kiểm soát phép so sánh giữa các hàng của bảng.
 

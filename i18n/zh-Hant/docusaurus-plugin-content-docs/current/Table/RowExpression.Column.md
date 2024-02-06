@@ -5,8 +5,6 @@ title: RowExpression.Column
 # RowExpression.Column
 
 
-## Description
-
 傳回代表資料列運算式內資料行存取權的抽象語法樹狀結構 (AST)。
 
 
@@ -19,7 +17,7 @@ RowExpression.Column(
 ```
 
 
-## Details
+## Remarks
 
 傳回代表資料列運算式內資料列之資料行 <code>columnName</code> 存取權的抽象語法樹狀結構 (AST)。
 

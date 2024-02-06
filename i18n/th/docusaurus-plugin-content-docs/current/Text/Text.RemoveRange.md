@@ -5,8 +5,6 @@ title: Text.RemoveRange
 # Text.RemoveRange
 
 
-## Description
-
 เอาจำนวนอักขระออกโดยเริ่มต้นที่ออฟเซตที่กำหนด
 
 
@@ -21,7 +19,7 @@ Text.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับสำเนาของค่าข้อความ <code>text</code> ที่เอาอักขระทั้งหมดออกจากตำแหน่ง <code>offset</code>    พารามิเตอร์ที่เลือกได้ <code>count</code> สามารถใช้เพื่อระบุจำนวนอักขระที่จะเอาออก ค่าเริ่มต้นของ <code>count</code> คือ 1 ค่าตำแหน่งเริ่มต้นที่ 0
 

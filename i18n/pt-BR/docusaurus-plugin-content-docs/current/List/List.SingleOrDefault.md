@@ -5,8 +5,6 @@ title: List.SingleOrDefault
 # List.SingleOrDefault
 
 
-## Description
-
 Retorna o item de lista 1 de uma lista de comprimento 1 e o valor padrão de uma lista vazia.
 
 
@@ -20,7 +18,7 @@ List.SingleOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 Se houver somente um item na lista <code>list</code>, esse item será retornado.    Se a lista estiver vazia, a função retornará um valor nulo, a menos que um <code>default</code> opcional seja especificado. Se houver mais de um item na lista, a função retornará um erro.
 

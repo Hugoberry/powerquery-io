@@ -5,8 +5,6 @@ title: DynamicsNav.Contents
 # DynamicsNav.Contents
 
 
-## Description
-
 Dynamics NAV OData hizmet uç noktanızın URL&#39;sini girin.
 
 
@@ -20,7 +18,7 @@ DynamicsNav.Contents(
 ```
 
 
-## Details
+## Remarks
 
 İlgili Dynamics NAV verilerinin bulunduğu bir tablo döndürür. 
 

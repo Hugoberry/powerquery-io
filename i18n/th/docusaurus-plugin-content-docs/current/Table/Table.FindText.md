@@ -5,8 +5,6 @@ title: Table.FindText
 # Table.FindText
 
 
-## Description
-
 ส่งกลับแถวทั้งหมดซึ่งมีข้อความที่กำหนดให้ในตาราง
 
 
@@ -20,7 +18,7 @@ Table.FindText(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับแถวในตาราง <code>table</code> ซึ่งมีข้อความ <code>text</code> ถ้าไม่พบข้อความ ระบบจะส่งกลับตารางว่าง
 

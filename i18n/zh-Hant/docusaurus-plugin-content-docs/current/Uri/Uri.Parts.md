@@ -5,8 +5,6 @@ title: Uri.Parts
 # Uri.Parts
 
 
-## Description
-
 將輸入絕對 URI 的各部分傳回成記錄。
 
 
@@ -19,7 +17,7 @@ Uri.Parts(
 ```
 
 
-## Details
+## Remarks
 
 將輸入 <code>absoluteUri</code> 的各部分傳回成記錄，包含 Scheme、Host、Port、Path、Query、Fragment、UserName 和 Password 等值。
 

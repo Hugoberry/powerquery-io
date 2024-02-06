@@ -5,8 +5,6 @@ title: Table.ToList
 # Table.ToList
 
 
-## Description
-
 Convierte una tabla en una lista aplicando la función de combinación especificada a cada fila de valores de la tabla.
 
 
@@ -20,7 +18,7 @@ Table.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Convierte una tabla en una lista aplicando la función de combinación especificada a cada fila de valores de la tabla.
 

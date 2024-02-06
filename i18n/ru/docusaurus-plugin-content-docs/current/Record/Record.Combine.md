@@ -5,8 +5,6 @@ title: Record.Combine
 # Record.Combine
 
 
-## Description
-
 Объединяет записи в данном списке.
 
 
@@ -19,7 +17,7 @@ Record.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Объединяет записи в данном <code>records</code>. Если <code>records</code> содержит значения, отличные от записи, возвращается ошибка.
 

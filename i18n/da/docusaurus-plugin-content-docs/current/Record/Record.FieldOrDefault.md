@@ -5,8 +5,6 @@ title: Record.FieldOrDefault
 # Record.FieldOrDefault
 
 
-## Description
-
 Returnerer værdien for det angivne felt i en post eller standardværdien, hvis feltet ikke blev fundet.
 
 
@@ -21,7 +19,7 @@ Record.FieldOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer værdien for det angivne felt <code>field</code> i posten <code>record</code>. Hvis feltet ikke blev fundet, returneres den valgfrie værdi <code>defaultValue</code>.
 

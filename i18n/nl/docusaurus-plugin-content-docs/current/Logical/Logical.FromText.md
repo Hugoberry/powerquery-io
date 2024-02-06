@@ -5,8 +5,6 @@ title: Logical.FromText
 # Logical.FromText
 
 
-## Description
-
 Maakt een logische waarde van de tekstwaarde &#34;true&#34; en &#34;false&#34;.
 
 
@@ -19,7 +17,7 @@ Logical.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Maakt een logische waarde van de tekstwaarde <code>text</code>: "true" of "false". Als <code>text</code> een andere tekenreeks bevat, wordt er een uitzondering gegenereerd. De tekstwaarde <code>text</code> is hoofdlettergevoelig.
 

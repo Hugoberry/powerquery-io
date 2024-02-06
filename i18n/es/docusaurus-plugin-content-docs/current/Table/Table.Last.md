@@ -5,8 +5,6 @@ title: Table.Last
 # Table.Last
 
 
-## Description
-
 Devuelve la última fila o un valor predeterminado especificado.
 
 
@@ -20,7 +18,7 @@ Table.Last(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve la última fila de <code>table</code> o un valor predeterminado opcional, <code>default</code>, si la tabla está vacía.
 

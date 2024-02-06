@@ -5,8 +5,6 @@ title: Table.RemoveFirstN
 # Table.RemoveFirstN
 
 
-## Description
-
 Returnerer en tabel, hvor det første antal rækker springes over.
 
 
@@ -20,7 +18,7 @@ Table.RemoveFirstN(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tabel, der ikke indeholder det første angivne antal rækker, <code>countOrCondition</code>, i tabellen <code>table</code>.    Det antal rækker, der fjernes, afhænger af den valgfrie parameter <code>countOrCondition</code>.    <ul>    <li> Hvis <code>countOrCondition</code> udelades, er det kun første række, der fjernes. </li>    <li> Hvis <code>countOrCondition</code> er et tal, fjernes der så mange rækker (med start fra toppen). </li>    <li> Hvis <code>countOrCondition</code> er en betingelse, fjernes de rækker, der overholder betingelsen, indtil en række ikke overholder betingelsen.</li>    </ul>
 

@@ -5,8 +5,6 @@ title: Number.IsOdd
 # Number.IsOdd
 
 
-## Description
-
 Değerin tek olup olmadığını gösterir.
 
 
@@ -19,7 +17,7 @@ Number.IsOdd(
 ```
 
 
-## Details
+## Remarks
 
 Değerin tek olup olmadığını gösterir. <code>number</code> bir tek sayı ise <code>true</code>, aksi halde <code>false</code> döndürür.
 

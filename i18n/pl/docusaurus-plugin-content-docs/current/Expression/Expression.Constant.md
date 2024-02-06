@@ -5,8 +5,6 @@ title: Expression.Constant
 # Expression.Constant
 
 
-## Description
-
 Zwraca reprezentację kodu źródłowego M wartości stałej.
 
 
@@ -19,7 +17,7 @@ Expression.Constant(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca reprezentację kodu źródłowego M wartości stałej.
 

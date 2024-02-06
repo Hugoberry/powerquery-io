@@ -5,8 +5,6 @@ title: Number.FromText
 # Number.FromText
 
 
-## Description
-
 Tworzy liczby na podstawie wartości w typowych formatach tekstowych („15”, „3 423,10”, „5,0E-10”).
 
 
@@ -20,7 +18,7 @@ Number.FromText(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wartość typu <code>number</code> z danej wartości tekstowej <code>text</code>. <ul>  <li><code>text</code>: Tekstowa reprezentacja wartości liczbowej. Reprezentacja musi być zapisana w typowym formacie liczbowym, takim jak „15”, „3,423.10” lub „5.0E-10”.</li>  <li><code>culture</code>: Opcjonalna kultura kontrolująca sposób interpretacji elementu <code>text</code> (na przykład „en-US”).</li> </ul>
 

@@ -5,8 +5,6 @@ title: Number.Mod
 # Number.Mod
 
 
-## Description
-
 2 つの数値を整数除算して剰余を返します。
 
 
@@ -21,7 +19,7 @@ Number.Mod(
 ```
 
 
-## Details
+## Remarks
 
 <code>number</code> を <code>divisor</code> で整数除算した後の剰余を返します。    <code>number</code> または <code>divisor</code> が null の場合、<code>Number.Mod</code> は null を返します。      <ul>        <li><code>number</code>: 被除数。</li>        <li><code>divisor</code>: 除数。</li>      </ul>
 

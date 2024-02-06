@@ -5,8 +5,6 @@ title: Spark.Tables
 # Spark.Tables
 
 
-## Description
-
 指定された Spark クラスター上のテーブルの一覧を示すテーブルを返します。
 
 
@@ -21,7 +19,7 @@ Spark.Tables(
 ```
 
 
-## Details
+## Remarks
 
 <code>protocol</code> を使用して Spark クラスター <code>host</code> 上のテーブルの一覧を示すテーブルを返します。有効なプロトコルは次のとおりです:SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
 

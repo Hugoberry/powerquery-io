@@ -5,8 +5,6 @@ title: Character.FromNumber
 # Character.FromNumber
 
 
-## Description
-
 将数字转换为文本字符。
 
 
@@ -19,7 +17,7 @@ Character.FromNumber(
 ```
 
 
-## Details
+## Remarks
 
 返回等效于数字的字符。<br />    <br />    提供的 <code>number</code> 应为 21 位 Unicode 码位。
 

@@ -5,8 +5,6 @@ title: Tables.GetRelationships
 # Tables.GetRelationships
 
 
-## Description
-
 รับความสัมพันธ์ระหว่างชุดตาราง
 
 
@@ -20,7 +18,7 @@ Tables.GetRelationships(
 ```
 
 
-## Details
+## Remarks
 
 รับความสัมพันธ์ระหว่างชุดตาราง โดยคาดว่า ชุด <code>tables</code> จะต้องมีโครงสร้างที่ใกล้เคียงกับตารางการนำทาง คอลัมน์ที่กำหนดไว้โดย <code>dataColumn</code> จะประกอบด้วยตารางข้อมูลตามจริง
 

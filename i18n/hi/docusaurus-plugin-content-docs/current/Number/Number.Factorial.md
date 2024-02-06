@@ -5,8 +5,6 @@ title: Number.Factorial
 # Number.Factorial
 
 
-## Description
-
 संख्या का क्रमगुणन लौटाता है.
 
 
@@ -19,7 +17,7 @@ Number.Factorial(
 ```
 
 
-## Details
+## Remarks
 
 संख्या <code>number</code> का क्रमगुणन लौटाता है.
 

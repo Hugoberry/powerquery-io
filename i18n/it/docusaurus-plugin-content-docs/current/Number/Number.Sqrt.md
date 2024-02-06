@@ -5,8 +5,6 @@ title: Number.Sqrt
 # Number.Sqrt
 
 
-## Description
-
 Restituisce la radice quadrata del numero.
 
 
@@ -19,7 +17,7 @@ Number.Sqrt(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce la radice quadrata di <code>number</code>.    Se <code>number</code> è Null, <code>Number.Sqrt</code> restituisce Null. Se è un valore negativo, viene restituito <code>Number.NaN</code> (non un numero).
 

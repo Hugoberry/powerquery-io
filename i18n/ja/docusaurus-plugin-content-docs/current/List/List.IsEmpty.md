@@ -5,8 +5,6 @@ title: List.IsEmpty
 # List.IsEmpty
 
 
-## Description
-
 リストが空の場合、true を返します。
 
 
@@ -19,7 +17,7 @@ List.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>list</code> に値が含まれない場合 (長さが 0 の場合)、<code>true</code> を返します。リストに値が含まれる場合 (長さ > 0 の場合)、<code>false</code> を返します。
 

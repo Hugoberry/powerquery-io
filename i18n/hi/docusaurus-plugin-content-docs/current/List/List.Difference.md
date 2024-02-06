@@ -5,8 +5,6 @@ title: List.Difference
 # List.Difference
 
 
-## Description
-
 दो दी गई सूचियों का अंतर लौटाता है.
 
 
@@ -21,7 +19,7 @@ List.Difference(
 ```
 
 
-## Details
+## Remarks
 
 सूची <code>list1</code> के वे आइटम लौटाता है, जो <code>list2</code> सूची में नहीं दिखाई देते हैं. डुप्लिकेट मान समर्थित हैं.    समानता परीक्षण नियंत्रित करने के लिए एक वैकल्पिक समीकरण मानदंड मान <code>equationCriteria</code> निर्दिष्ट किया जा सकता है. 
 

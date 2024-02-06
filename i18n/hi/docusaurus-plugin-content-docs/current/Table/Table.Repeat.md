@@ -5,8 +5,6 @@ title: Table.Repeat
 # Table.Repeat
 
 
-## Description
-
 तालिकाओं की पंक्तियों को निर्दिष्ट संख्या बार दोहराता है.
 
 
@@ -20,7 +18,7 @@ Table.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 इनपुट <code>table</code> की निर्दिष्ट <code>count</code> बार दोहराई गई पंक्तियों के साथ एक तालिका लौटाता है.
 

@@ -5,8 +5,6 @@ title: Number.ToText
 # Number.ToText
 
 
-## Description
-
 दी गई संख्या को टेक्स्ट में कन्वर्ट करता है.
 
 
@@ -21,7 +19,7 @@ Number.ToText(
 ```
 
 
-## Details
+## Remarks
 
 सांख्यिक मान <code>number</code> को <code>format</code> द्वारा बताए गए फ़ॉर्मेट में टेक्स्ट मान में बदलता है.<br />    <br />    फ़ॉर्मेट एक टेक्स्ट मान है जो इंगित करता है कि संख्या कैसे कन््र्ट की जानी चाहिए. समर्थित फ़ॉर्मेट मानों पर अधिक विवरण के लिए, https://go.microsoft.com/fwlink/?linkid=2241210 और https://go.microsoft.com/fwlink/?linkid=2240884 पर जाएँ.<br />    <br />    <code>format</code> के कल्चर पर निर्भर व्यवहार को नियंत्रित करने के लिए एक वैकल्पिक <code>culture</code> भी उपलब्ध कराया जा सकता है (उदाहरण के लिए, "en-US").
 

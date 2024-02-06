@@ -5,8 +5,6 @@ title: List.Positions
 # List.Positions
 
 
-## Description
-
 傳回輸入的位移清單。
 
 
@@ -19,7 +17,7 @@ List.Positions(
 ```
 
 
-## Details
+## Remarks
 
 傳回輸入清單 <code>list</code> 的位移清單。    使用 List.Transform 變更清單時，可以使用位置清單讓轉換能夠存取位置。
 

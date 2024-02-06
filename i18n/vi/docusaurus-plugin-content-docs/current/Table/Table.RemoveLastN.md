@@ -5,8 +5,6 @@ title: Table.RemoveLastN
 # Table.RemoveLastN
 
 
-## Description
-
 Trả về một bảng có N hàng cuối cùng bị loại bỏ.
 
 
@@ -20,7 +18,7 @@ Table.RemoveLastN(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bảng không chứa <code>countOrCondition</code> hàng cuối cùng của bảng <code>table</code>.        Số lượng hàng bị loại bỏ tùy theo tham số tùy chọn <code>countOrCondition</code>.    <ul>    <li> Nếu <code>countOrCondition</code> bị bỏ qua thì chỉ hàng cuối cùng bị loại bỏ. </li>    <li> Nếu <code>countOrCondition</code> là một số thì nhiều hàng (bắt đầu từ cuối) sẽ bị loại bỏ. </li>    <li> Nếu <code>countOrCondition</code> là một điều kiện thì các hàng đáp ứng điều kiện này sẽ bị loại bỏ cho đến khi một hàng không đáp ứng điều kiện.</li>    </ul>
 

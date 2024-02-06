@@ -5,8 +5,6 @@ title: DateTimeZone.UtcNow
 # DateTimeZone.UtcNow
 
 
-## Description
-
 UTC (GMT saat dilimi) biçiminde geçerli tarih ve saati döndürür.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.UtcNow(
 ```
 
 
-## Details
+## Remarks
 
 UTC (GMT saat dilimi) biçiminde geçerli tarih ve saati döndürür.
 

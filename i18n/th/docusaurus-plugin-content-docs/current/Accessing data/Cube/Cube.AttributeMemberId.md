@@ -5,8 +5,6 @@ title: Cube.AttributeMemberId
 # Cube.AttributeMemberId
 
 
-## Description
-
 ส่งผลตัวระบุหมายเลขเฉพาะจากค่าคุณสมบัติสมาชิก
 
 
@@ -19,7 +17,7 @@ Cube.AttributeMemberId(
 ```
 
 
-## Details
+## Remarks
 
 ส่งผลตัวระบุหมายเลขเฉพาะจากค่าคุณสมบัติสมาชิก <code>attribute</code> ส่งกลับค่า null สำหรับค่าอื่นๆ
 

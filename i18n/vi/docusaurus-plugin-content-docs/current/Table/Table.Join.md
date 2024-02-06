@@ -5,8 +5,6 @@ title: Table.Join
 # Table.Join
 
 
-## Description
-
 Nối các hàng từ hai bảng khớp nhau dựa trên các khóa cho sẵn.
 
 
@@ -25,7 +23,7 @@ Table.Join(
 ```
 
 
-## Details
+## Remarks
 
 Nối các hàng <code>table1</code> với các hàng <code>table2</code> dựa trên các giá trị bằng nhau trong các cột khóa được chọn bởi <code>key1</code> (cho <code>table1</code>) và <code>key2</code> (cho <code>table2</code>).<br />Theo mặc định, loại nối trong sẽ được thực hiện, tuy nhiên, có thể bao gồm <code>joinKind</code> tùy chọn để chỉ định loại nối. Các tùy chọn gồm có:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Có thể bao gồm tập hợp <code>keyEqualityComparers</code> tùy chọn để chỉ định cách so sánh các cột khóa. Tham số này hiện chỉ dành để sử dụng nội bộ.<br />
 

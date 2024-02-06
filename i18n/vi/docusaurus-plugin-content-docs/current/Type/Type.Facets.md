@@ -5,8 +5,6 @@ title: Type.Facets
 # Type.Facets
 
 
-## Description
-
 Trả về các khía cạnh của một loại.
 
 
@@ -19,7 +17,7 @@ Type.Facets(
 ```
 
 
-## Details
+## Remarks
 
 Trả về bản ghi chứa các khía cạnh của <code>type</code>.
 

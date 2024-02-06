@@ -5,8 +5,6 @@ title: Embedded.Value
 # Embedded.Value
 
 
-## Description
-
 เข้าถึงค่าตามชื่อใน Mashup ที่ฝังตัว
 
 
@@ -20,7 +18,7 @@ Embedded.Value(
 ```
 
 
-## Details
+## Remarks
 
 เข้าถึงค่าตามชื่อใน Mashup ที่ฝังตัว
 

@@ -5,8 +5,6 @@ title: Comparer.FromCulture
 # Comparer.FromCulture
 
 
-## Description
-
 Trả về hàm so sánh dựa trên văn hóa được chỉ định và phân biệt chữ hoa chữ thường.
 
 
@@ -20,7 +18,7 @@ Comparer.FromCulture(
 ```
 
 
-## Details
+## Remarks
 
 Trả về hàm so sánh sử dụng <code>culture</code> và phân biệt chữ hoa chữ thường do <code>ignoreCase</code> xác định để thực hiện phép so sánh.<br />      <br />      Hàm so sánh trả về giá trị -1, 0 hoặc 1 dựa trên việc giá trị đầu tiên nhỏ hơn, bằng hay lớn hơn giá trị thứ hai.<br />      <br />      Giá trị mặc định của <code>ignoreCase</code> là false. <code>culture</code> sẽ là một trong các khu vực được .NET framework hỗ trợ (ví dụ như "en-US").    
 

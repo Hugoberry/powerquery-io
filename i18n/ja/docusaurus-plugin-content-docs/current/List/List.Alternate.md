@@ -5,8 +5,6 @@ title: List.Alternate
 # List.Alternate
 
 
-## Description
-
 リスト内でオフセットが奇数であるすべての要素によって構成されたリストを返します。
 
 
@@ -22,7 +20,7 @@ List.Alternate(
 ```
 
 
-## Details
+## Remarks
 
 リスト内でオフセットが奇数であるすべての要素によって構成されたリストを返します。パラメーターに応じて、リスト <code>list</code> の値を交互に取得したりスキップしたりします。    <ul>    <li><code>count</code>: 毎回スキップされる値の数を指定します。</li>    <li><code>repeatInterval</code>: スキップされる値の間の追加される値の数を示す、省略可能な繰り返し間隔。</li>    <li><code>offset</code>: 初期オフセットで値のスキップを開始するための、省略可能なオフセット パラメーター。</li>    </ul>
 

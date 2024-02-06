@@ -5,8 +5,6 @@ title: Number.RoundDown
 # Number.RoundDown
 
 
-## Description
-
 Devolve o número anterior mais alto. Pode ser especificado o número de dígitos.
 
 
@@ -20,7 +18,7 @@ Number.RoundDown(
 ```
 
 
-## Details
+## Remarks
 
 Devolve o resultado do arredondamento de <code>number</code> por defeito para o número inteiro mais alto anterior. Se <code>number</code> for nulo, esta função devolve nulo.    Se <code>digits</code> for fornecido, <code>number</code> é arredondado para o número especificado de dígitos decimais.  
 

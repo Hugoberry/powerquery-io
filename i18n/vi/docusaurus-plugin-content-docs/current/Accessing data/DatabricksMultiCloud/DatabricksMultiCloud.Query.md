@@ -17,7 +17,7 @@ DatabricksMultiCloud.Query(
 ```
 
 
-## Details
+## Remarks
 
 Xác định nguồn dữ liệu Databricks để chạy truy vấn SQL
 

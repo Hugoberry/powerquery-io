@@ -5,8 +5,6 @@ title: Double.From
 # Double.From
 
 
-## Description
-
 Cria um número Duplo a partir do valor fornecido.
 
 
@@ -20,7 +18,7 @@ Double.From(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um valor <code>number</code> Duplo a partir do <code>value</code> fornecido. Se o <code>value</code> fornecido for <code>null</code>, <code>Double.From</code> devolve <code>null</code>. Se o <code>value</code> fornecido for <code>number</code> dentro do intervalo de números Duplos, é devolvido <code>value</code>; caso contrário, é devolvido um erro. Se o <code>value</code> fornecido for de algum outro tipo, será primeiro convertido para um <code>number</code> utilizando <code>Number.FromText</code>. Um opcional <code>culture</code> também poderá ser fornecido (por exemplo, "en-US").
 

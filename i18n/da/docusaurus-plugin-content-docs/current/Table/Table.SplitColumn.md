@@ -5,8 +5,6 @@ title: Table.SplitColumn
 # Table.SplitColumn
 
 
-## Description
-
 Opdeler de angivne kolonner i et sæt yderligere kolonner ved hjælp af den angivne opdelingsfunktion.
 
 
@@ -24,7 +22,7 @@ Table.SplitColumn(
 ```
 
 
-## Details
+## Remarks
 
 Opdeler de angivne kolonner i et sæt yderligere kolonner ved hjælp af den angivne opdelingsfunktion.
 

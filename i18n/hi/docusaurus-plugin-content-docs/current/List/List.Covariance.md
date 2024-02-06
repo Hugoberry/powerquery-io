@@ -5,8 +5,6 @@ title: List.Covariance
 # List.Covariance
 
 
-## Description
-
 संख्याओं की दो सूचियों के बीच सहप्रसरण लौटाता है.
 
 
@@ -20,7 +18,7 @@ List.Covariance(
 ```
 
 
-## Details
+## Remarks
 
 दो सूचियों <code>numberList1</code> और <code>numberList2</code> के बीच सहप्रसरण लौटाता है. <code>numberList1</code> और <code>numberList2</code> में <code>number</code> मानों की समान संख्या होनी चाहिए.
 

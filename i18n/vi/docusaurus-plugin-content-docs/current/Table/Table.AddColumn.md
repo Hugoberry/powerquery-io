@@ -5,8 +5,6 @@ title: Table.AddColumn
 # Table.AddColumn
 
 
-## Description
-
 Thêm một cột có tên được chỉ định. Giá trị được tính bằng hàm chọn được chỉ định với một hàng được lấy làm dữ liệu đầu vào.
 
 
@@ -22,7 +20,7 @@ Table.AddColumn(
 ```
 
 
-## Details
+## Remarks
 
 Thêm một cột có tên <code>newColumnName</code> vào bảng <code>table</code>. Các giá trị dành cho cột được tính bằng hàm chọn được chỉ định <code>columnGenerator</code> với mỗi hàng được lấy làm dữ liệu đầu vào.
 

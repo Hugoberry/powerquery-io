@@ -5,8 +5,6 @@ title: Comparer.OrdinalIgnoreCase
 # Comparer.OrdinalIgnoreCase
 
 
-## Description
-
 返回使用 Ordinal 规则来比较值的不区分大小写的比较器函数。
 
 
@@ -20,7 +18,7 @@ Comparer.OrdinalIgnoreCase(
 ```
 
 
-## Details
+## Remarks
 
 返回不区分大小写的比较器函数，该函数使用序号规则比较提供的值 <code>x</code> 和 <code>y</code>。<br />        <br />        比较器函数接受两个参数，并根据第一个值是小于、等于还是大于第二个值返回 -1、0 或 1。    
 

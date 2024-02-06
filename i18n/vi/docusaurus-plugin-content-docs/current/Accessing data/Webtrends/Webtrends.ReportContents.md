@@ -5,8 +5,6 @@ title: Webtrends.ReportContents
 # Webtrends.ReportContents
 
 
-## Description
-
 Trả về bảng bao gồm nội dung báo cáo từ Webtrends.
 
 
@@ -22,7 +20,7 @@ Webtrends.ReportContents(
 ```
 
 
-## Details
+## Remarks
 
 Gọi tới điểm cuối báo cáo Webtrends cho trước và trả về tất cả dữ liệu dưới dạng bảng.
 

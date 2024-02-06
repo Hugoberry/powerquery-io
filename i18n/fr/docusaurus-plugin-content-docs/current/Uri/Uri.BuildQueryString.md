@@ -5,8 +5,6 @@ title: Uri.BuildQueryString
 # Uri.BuildQueryString
 
 
-## Description
-
 Assemblez un enregistrement dans une chaîne de requête URI.
 
 
@@ -19,7 +17,7 @@ Uri.BuildQueryString(
 ```
 
 
-## Details
+## Remarks
 
 Assemblez l'enregistrement <code>query</code> dans une chaîne de requête URI, en utilisant des caractères d'échappement si besoin.
 

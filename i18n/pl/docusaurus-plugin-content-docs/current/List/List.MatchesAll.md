@@ -5,8 +5,6 @@ title: List.MatchesAll
 # List.MatchesAll
 
 
-## Description
-
 Zwraca wartość true, jeśli wszystkie wartości z listy spełniają warunek określony przez funkcję warunku.
 
 
@@ -20,7 +18,7 @@ List.MatchesAll(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wartość <code>true</code>, jeśli wszystkie wartości z listy <code>list</code> spełniają warunek <code>condition</code> określony przez funkcję warunku; w przeciwnym razie zwraca wartość <code>false</code>.
 

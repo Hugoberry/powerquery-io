@@ -5,8 +5,6 @@ title: Type.TableRow
 # Type.TableRow
 
 
-## Description
-
 Tablo türündeki satır türünü döndürür.
 
 
@@ -19,7 +17,7 @@ Type.TableRow(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen tablo türündeki satır türünü döndürür. Sonuç her zaman bir kayıt türü olur.
 

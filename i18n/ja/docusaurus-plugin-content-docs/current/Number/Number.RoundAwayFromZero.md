@@ -5,8 +5,6 @@ title: Number.RoundAwayFromZero
 # Number.RoundAwayFromZero
 
 
-## Description
-
 正の数値の場合は切り上げた結果を返し、負の数値の場合は切り下げた結果を返します。桁数は指定できます。
 
 
@@ -20,7 +18,7 @@ Number.RoundAwayFromZero(
 ```
 
 
-## Details
+## Remarks
 
 数値の符号に基づいて <code>number</code> を丸めた結果を返します。この関数は、正の数値は切り上げ、負の数値は切り下げます。    <code>digits</code> が指定された場合、<code>number</code> は小数点以下 <code>digits</code> 桁に丸められます。  
 

@@ -5,8 +5,6 @@ title: Text.ToList
 # Text.ToList
 
 
-## Description
-
 指定されたテキスト値から文字の値の一覧を返します。
 
 
@@ -19,7 +17,7 @@ Text.ToList(
 ```
 
 
-## Details
+## Remarks
 
 指定されたテキスト値 <code>text</code> から文字の値の一覧を返します。
 

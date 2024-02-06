@@ -5,8 +5,6 @@ title: Table.ExpandTableColumn
 # Table.ExpandTableColumn
 
 
-## Description
-
 將記錄的資料行或資料表的資料行擴充成包含資料表中的多個資料行。
 
 
@@ -22,7 +20,7 @@ Table.ExpandTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 將 <code>table</code>[<code>column</code>] 中的資料表擴充成多個資料列與資料行。<code>columnNames</code> 是用來選取內部資料表中要擴充的資料行。請指定 <code>newColumnNames</code> 以避免現有的資料行與新的資料行發生衝突。
 

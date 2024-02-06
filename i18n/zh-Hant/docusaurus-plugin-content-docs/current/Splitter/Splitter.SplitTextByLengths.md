@@ -5,8 +5,6 @@ title: Splitter.SplitTextByLengths
 # Splitter.SplitTextByLengths
 
 
-## Description
-
 傳回函數，這個函數會按照每個指定的長度，將文字分割成文字清單。
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByLengths(
 ```
 
 
-## Details
+## Remarks
 
 傳回函數，這個函數會按照每個指定的長度，將文字分割成文字清單。
 

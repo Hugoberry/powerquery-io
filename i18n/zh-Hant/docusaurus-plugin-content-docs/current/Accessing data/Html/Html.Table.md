@@ -5,8 +5,6 @@ title: Html.Table
 # Html.Table
 
 
-## Description
-
 對照提供的 HTML，傳回包含執行指定 CSS 選取器結果的資料表。
 
 
@@ -21,7 +19,7 @@ Html.Table(
 ```
 
 
-## Details
+## Remarks
 
 傳回資料表，其中包含對提供的 <code>html</code> 執行指定 CSS 選取器的結果。提供選擇性記錄參數 <code>options</code> 可指定額外屬性。記錄可包含下列欄位:    <ul><li><code>RowSelector</code></li></ul>    
 

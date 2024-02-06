@@ -5,8 +5,6 @@ title: RowExpression.Column
 # RowExpression.Column
 
 
-## Description
-
 Returnerar ett abstrakt syntaxträd (AST) som representerar åtkomst till en kolumn i ett raduttryck.
 
 
@@ -19,7 +17,7 @@ RowExpression.Column(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett abstrakt syntaxträd (AST) som representerar åtkomst till kolumn <code>columnName</code> av raden i ett raduttryck.
 

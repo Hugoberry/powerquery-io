@@ -5,8 +5,6 @@ title: Text.NewGuid
 # Text.NewGuid
 
 
-## Description
-
 Returnerar en ny, slumpmässig GUID (globalt unik identifierare).
 
 
@@ -19,7 +17,7 @@ Text.NewGuid(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en ny, slumpmässig GUID (globalt unik identifierare).
 

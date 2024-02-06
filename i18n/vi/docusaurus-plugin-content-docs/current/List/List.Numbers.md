@@ -5,8 +5,6 @@ title: List.Numbers
 # List.Numbers
 
 
-## Description
-
 Trả về một danh sách số khi được cho sẵn giá trị ban đầu, tổng cộng và giá trị tăng tùy chọn.
 
 
@@ -21,7 +19,7 @@ List.Numbers(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một danh sách số khi được cho sẵn giá trị ban đầu, tổng cộng và giá trị tăng tùy chọn. Giá trị tăng mặc định là 1.<ul>   <li><code>start</code>: Giá trị ban đầu trong danh sách.</li>   <li><code>count</code>: Số lượng giá trị sẽ tạo.</li>   <li><code>increment</code>: <i>[Tùy chọn]</i> Giá trị để tăng theo. Nếu các giá trị bị bỏ qua được tăng theo số gia 1.</li></ul>
 

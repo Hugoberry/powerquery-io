@@ -5,8 +5,6 @@ title: Type.FunctionRequiredParameters
 # Type.FunctionRequiredParameters
 
 
-## Description
-
 Возвращает число, обозначающее минимальное количество параметров, необходимое для вызова типа функции.
 
 
@@ -19,7 +17,7 @@ Type.FunctionRequiredParameters(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает число, обозначающее минимальное количество параметров, необходимых для вызова входных данных <code>type</code> функции.
 

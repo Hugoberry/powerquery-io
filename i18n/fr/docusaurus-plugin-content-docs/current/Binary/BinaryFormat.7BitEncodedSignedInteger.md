@@ -5,8 +5,6 @@ title: BinaryFormat.7BitEncodedSignedInteger
 # BinaryFormat.7BitEncodedSignedInteger
 
 
-## Description
-
 Format binaire qui lit un entier signé 64 bits qui a été encodé à l&#39;aide d&#39;un encodage à longueur variable 7 bits.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.7BitEncodedSignedInteger(
 ```
 
 
-## Details
+## Remarks
 
 Format binaire qui lit un entier signé 64 bits qui a été encodé à l'aide d'un encodage à longueur variable 7 bits.
 

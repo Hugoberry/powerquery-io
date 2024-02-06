@@ -5,8 +5,6 @@ title: Number.Atan2
 # Number.Atan2
 
 
-## Description
-
 Zwraca arcus tangens ilorazu dwóch liczb.
 
 
@@ -20,7 +18,7 @@ Number.Atan2(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca arcus tangens ilorazu dwóch liczb (<code>y</code> i <code>x</code>). Dzielenie będzie wykonywane w formie <code>y</code>/<code>x</code>.
 

@@ -5,8 +5,6 @@ title: Cdm.MapToEntity
 # Cdm.MapToEntity
 
 
-## Description
-
 Returnerar en tabell med kolumner som har mappats till attribut för en entitet i Common Data Model, inklusive datatyper.
 
 
@@ -22,7 +20,7 @@ Cdm.MapToEntity(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell med kolumner som har mappats till attribut för en entitet i Common Data Model, inklusive datatyper. Kolumner från entitetsdefinitionen läggs till om de inte mappas, och alla omappade kolumner tas bort.
 

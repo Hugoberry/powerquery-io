@@ -5,8 +5,6 @@ title: Text.Replace
 # Text.Replace
 
 
-## Description
-
 Vervangt alle instanties van de opgegeven subtekenreeks in de tekst.
 
 
@@ -21,7 +19,7 @@ Text.Replace(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het resultaat van het vervangen van alle instanties van tekstwaarde <code>old</code> in tekstwaarde <code>text</code> door tekstwaarde <code>new</code>. Bij deze functie wordt onderscheid gemaakt tussen hoofdletters en kleine letters.
 

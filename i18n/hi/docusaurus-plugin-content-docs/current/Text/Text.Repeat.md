@@ -5,8 +5,6 @@ title: Text.Repeat
 # Text.Repeat
 
 
-## Description
-
 इनपुट की निर्दिष्ट बार दोहराई गई पंक्तियों के साथ एक तालिका लौटाता है.
 
 
@@ -20,7 +18,7 @@ Text.Repeat(
 ```
 
 
-## Details
+## Remarks
 
 <code>count</code> बार दोहराए गए इनपुट पाठ <code>text</code> द्वारा संयोजित पाठ मान को लौटाता है.
 

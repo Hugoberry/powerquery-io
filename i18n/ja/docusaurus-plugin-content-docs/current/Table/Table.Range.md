@@ -5,8 +5,6 @@ title: Table.Range
 # Table.Range
 
 
-## Description
-
 指定されたオフセットで始まる行を返します。
 
 
@@ -21,7 +19,7 @@ Table.Range(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>offset</code> で始まる <code>table</code> の行を返します。省略可能なパラメーターの <code>count</code> は、取得する行の数を指定します。既定では、オフセットの後のすべての行が返されます。
 

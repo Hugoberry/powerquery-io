@@ -5,8 +5,6 @@ title: Value.As
 # Value.As
 
 
-## Description
-
 Zwraca wartość, jeśli jest ona zgodna z określonym typem.
 
 
@@ -20,7 +18,7 @@ Value.As(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wartość, jeśli jest ona zgodna z określonym typem. Jest to odpowiednik operatora „is” w M, z wyjątkiem tego, że może akceptować odwołania do typu identyfikatora, takie jak Number.Type.
 

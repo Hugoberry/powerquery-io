@@ -5,8 +5,6 @@ title: Uri.Parts
 # Uri.Parts
 
 
-## Description
-
 Trả về các phần của URI đầu vào tuyệt đối ở dạng bản ghi.
 
 
@@ -19,7 +17,7 @@ Uri.Parts(
 ```
 
 
-## Details
+## Remarks
 
 Trả về các phần của <code>absoluteUri</code> đầu vào ở dạng bản ghi, chứa các giá trị như Scheme, Host, Port, Path, Query, Fragment, UserName và Password.
 

@@ -5,8 +5,6 @@ title: Table.TransformRows
 # Table.TransformRows
 
 
-## Description
-
 Chuyển đổi các hàng của bảng bằng hàm chuyển đổi được chỉ định.
 
 
@@ -20,7 +18,7 @@ Table.TransformRows(
 ```
 
 
-## Details
+## Remarks
 
 Tạo một <code>danh sách</code> bằng cách áp dụng phép toán <code>transform</code> cho từng hàng trong <code>table</code>.
 

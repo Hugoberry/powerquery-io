@@ -5,8 +5,6 @@ title: Uri.BuildQueryString
 # Uri.BuildQueryString
 
 
-## Description
-
 Een record samenvoegen in een URI-queryreeks.
 
 
@@ -19,7 +17,7 @@ Uri.BuildQueryString(
 ```
 
 
-## Details
+## Remarks
 
 Voeg de record <code>query</code> samen in een URI-queryreeks, waarbij tekens zo nodig worden voorzien van escape-tekens.
 

@@ -5,8 +5,6 @@ title: Table.NestedJoin
 # Table.NestedJoin
 
 
-## Description
-
 ดำเนินการรวมระหว่างตารางบนคอลัมน์ที่ให้และสร้างผลลัพธ์การรวมในคอลัมน์ใหม่
 
 
@@ -25,7 +23,7 @@ Table.NestedJoin(
 ```
 
 
-## Details
+## Remarks
 
 รวมแถวของ <code>table1</code> กับแถวของ <code>table2</code> ที่มีค่าคอลัมน์หลักเท่ากันซึ่งเลือกโดย <code>key1</code> (สำหรับ <code>table1</code>) และ <code>key2</code> (สำหรับ <code>table2</code>) ผลลัพธ์จะถูกใส่ลงในคอลัมน์ที่ชื่อ <code>newColumnName</code><br /><code>joinKind</code> ที่เลือกได้จะระบุชนิดของการรวมที่จะใช้งาน ตามค่าเริ่มต้น การรวมภายนอกด้านซ้ายจะดำเนินการหากไม่มีการระบุ <code>joinKind</code><br />สามารถรวมชุดที่เลือกได้ของ <code>keyEqualityComparers</code> เพื่อระบุวิธีการเปรียบเทียบคอลัมน์หลัก ขณะนี้ฟีเจอร์นี้มีไว้ใช้งานสำหรับการใช้งานภายในเท่านั้น<br />  
 

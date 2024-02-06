@@ -5,8 +5,6 @@ title: Character.ToNumber
 # Character.ToNumber
 
 
-## Description
-
 將字元轉換成其數值。
 
 
@@ -19,7 +17,7 @@ Character.ToNumber(
 ```
 
 
-## Details
+## Remarks
 
 傳回 <code>character</code> 的同等數字。<br />    <br />    結果會是由提供的字元或代理字組所代表的 21 位元 Unicode 字碼元素。  
 

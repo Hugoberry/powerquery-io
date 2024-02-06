@@ -5,8 +5,6 @@ title: Table.Max
 # Table.Max
 
 
-## Description
-
 Retourne la plus grande ligne ou la valeur par défaut à l&#39;aide des critères fournis.
 
 
@@ -21,7 +19,7 @@ Table.Max(
 ```
 
 
-## Details
+## Remarks
 
 Retourne la plus grande ligne dans <code>table</code> en fonction de <code>comparisonCriteria</code>. Si la table est vide, la valeur <code>default</code> facultative est retournée. 
 

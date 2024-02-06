@@ -18,7 +18,7 @@ VivaInsights.Data(
 ```
 
 
-## Details
+## Remarks
 
 從工作場所分析匯入每週計量與屬性資料。
 

@@ -5,8 +5,6 @@ title: Table.SelectRowsWithErrors
 # Table.SelectRowsWithErrors
 
 
-## Description
-
 Devolve uma tabela apenas com as linhas da tabela de entrada que contenham um erro em pelo menos uma das células. Se for especificada uma lista de colunas, apenas as células existentes nas colunas especificadas serão inspecionadas relativamente a erros.
 
 
@@ -20,7 +18,7 @@ Table.SelectRowsWithErrors(
 ```
 
 
-## Details
+## Remarks
 
 Devolve uma tabela apenas com as linhas da tabela de entrada que contenham um erro em pelo menos uma das células. Se for especificada uma lista de colunas, apenas as células existentes nas colunas especificadas serão inspecionadas relativamente a erros.
 

@@ -5,8 +5,6 @@ title: Table.CombineColumns
 # Table.CombineColumns
 
 
-## Description
-
 使用指定的結合子函數，將指定的資料行結合成新的資料行。
 
 
@@ -22,7 +20,7 @@ Table.CombineColumns(
 ```
 
 
-## Details
+## Remarks
 
 使用指定的結合子函數，將指定的資料行結合成新的資料行。
 

@@ -5,8 +5,6 @@ title: Diagnostics.Trace
 # Diagnostics.Trace
 
 
-## Description
-
 Skriver en spårningspost, om spårning har aktiverats, och returnerar värdet.
 
 
@@ -22,7 +20,7 @@ Diagnostics.Trace(
 ```
 
 
-## Details
+## Remarks
 
 Skriver en spårningspost, <code>message</code>, om spårning har aktiverats, och returnerar <code>value</code>. Den valfria parametern <code>delayed</code> anger om utvärderingen av <code>value</code> ska fördröjas tills meddelandet spåras. <code>traceLevel</code> kan ha något av följande värden:    <code>TraceLevel.Critical</code>    <code>TraceLevel.Error</code>,    <code>TraceLevel.Warning</code>,    <code>TraceLevel.Information</code>,    <code>TraceLevel.Verbose</code>.  
 

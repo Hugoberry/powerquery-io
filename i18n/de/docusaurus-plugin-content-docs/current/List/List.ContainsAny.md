@@ -5,8 +5,6 @@ title: List.ContainsAny
 # List.ContainsAny
 
 
-## Description
-
 Gibt an, ob eine Liste mindestens einen der Werte aus einer anderen Liste enthält.
 
 
@@ -21,7 +19,7 @@ List.ContainsAny(
 ```
 
 
-## Details
+## Remarks
 
 Gibt an, ob die Liste "<code>list</code>" mindestens einen der Werte aus einer anderen Liste (<code>values</code>) enthält.        Gibt "true" zurück, wenn der Wert in der Liste gefunden wird. Andernfalls wird "false" zurückgegeben. Zum Steuern der Gleichheitsüberprüfung kann ein optionales Gleichungskriterium (<code>equationCriteria</code>) angegeben werden. 
 

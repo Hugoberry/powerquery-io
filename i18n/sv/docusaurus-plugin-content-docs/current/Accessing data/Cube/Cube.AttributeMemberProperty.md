@@ -5,8 +5,6 @@ title: Cube.AttributeMemberProperty
 # Cube.AttributeMemberProperty
 
 
-## Description
-
 Returnerar en egenskap för ett dimensionsattribut.
 
 
@@ -20,7 +18,7 @@ Cube.AttributeMemberProperty(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar egenskapen <code>propertyName</code> för dimensionsattributet <code>attribute</code>.
 

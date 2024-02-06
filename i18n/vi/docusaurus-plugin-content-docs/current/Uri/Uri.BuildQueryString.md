@@ -5,8 +5,6 @@ title: Uri.BuildQueryString
 # Uri.BuildQueryString
 
 
-## Description
-
 Lắp ráp bản ghi vào chuỗi truy vấn URI.
 
 
@@ -19,7 +17,7 @@ Uri.BuildQueryString(
 ```
 
 
-## Details
+## Remarks
 
 Lắp ráp bản ghi <code>query</code> vào chuỗi truy vấn URI, thoát các ký tự khi cần thiết.
 

@@ -5,8 +5,6 @@ title: Table.ReverseRows
 # Table.ReverseRows
 
 
-## Description
-
 Возвращает таблицу со строками в обратном порядке.
 
 
@@ -19,7 +17,7 @@ Table.ReverseRows(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу со строками из входных данных <code>table</code> в обратном порядке.
 

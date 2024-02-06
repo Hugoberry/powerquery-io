@@ -5,8 +5,6 @@ title: Splitter.SplitTextByDelimiter
 # Splitter.SplitTextByDelimiter
 
 
-## Description
-
 傳回函數，這個函數會根據指定的分隔符號，將文字分割成文字清單。
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 傳回函數，這個函數會根據指定的分隔符號，將文字分割成文字清單。
 

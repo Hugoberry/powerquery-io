@@ -5,8 +5,6 @@ title: Text.Contains
 # Text.Contains
 
 
-## Description
-
 Metnin alt dizeyi içerip içermediğini döndürür.
 
 
@@ -21,7 +19,7 @@ Text.Contains(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> öğesinin <code>substring</code> değerini içerip içermediğini algılar. Değer bulunursa true döndürür. Bu işlev, joker karakterleri ve normal ifadeleri desteklemez.      <br />      <br />      Büyük/küçük harfe duyarsız ya da kültüre ve yerel ayara duyarlı karşılaştırmalar belirtmek için isteğe bağlı <code>comparer</code> bağımsız değişkeni kullanılabilir.      Şu yerleşik karşılaştırıcılar formül dilinde kullanılabilir:      <ul>        <li><code>Comparer.Ordinal</code>: Büyük/küçük harfe duyarlı sıralı karşılaştırma gerçekleştirmek için kullanılır</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: Büyük/küçük harfe duyarsız sıralı karşılaştırma gerçekleştirmek için kullanılır</li>        <li> <code>Comparer.FromCulture</code>: Kültüre duyarlı karşılaştırma gerçekleştirmek için kullanılır</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Table.MatchesAnyRows
 # Table.MatchesAnyRows
 
 
-## Description
-
 Angiver, om nogen af rækkerne i tabellen opfylder den angivne betingelse.
 
 
@@ -20,7 +18,7 @@ Table.MatchesAnyRows(
 ```
 
 
-## Details
+## Remarks
 
 Angiver, om nogen af rækkerne i tabellen <code>table</code> svarer til den angivne <code>condition</code>. Returnerer <code>true</code>, hvis nogen af rækkerne matcher. Ellers returneres <code>false</code>.
 

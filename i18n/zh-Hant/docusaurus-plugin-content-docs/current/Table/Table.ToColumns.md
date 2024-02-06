@@ -5,8 +5,6 @@ title: Table.ToColumns
 # Table.ToColumns
 
 
-## Description
-
 根據資料表建立資料行值巢狀清單的清單。
 
 
@@ -19,7 +17,7 @@ Table.ToColumns(
 ```
 
 
-## Details
+## Remarks
 
 根據資料表 <code>table</code> 建立巢狀清單的清單。每個清單項目都是包含資料行值的內部清單。
 

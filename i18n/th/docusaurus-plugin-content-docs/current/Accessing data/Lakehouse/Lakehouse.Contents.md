@@ -5,8 +5,6 @@ title: Lakehouse.Contents
 # Lakehouse.Contents
 
 
-## Description
-
 นําเข้าข้อมูลจาก Lakehouse
 
 
@@ -19,7 +17,7 @@ Lakehouse.Contents(
 ```
 
 
-## Details
+## Remarks
 
 เชื่อมต่อกับ Lakehouse ทั้งหมดที่คุณมีการเข้าถึง และเลือกเอนทิตีที่คุณต้องการใช้
 

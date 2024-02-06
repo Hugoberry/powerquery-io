@@ -5,8 +5,6 @@ title: Record.RemoveFields
 # Record.RemoveFields
 
 
-## Description
-
 เอาเขตข้อมูลที่ระบุออกจากระเบียนค่าที่ป้อน
 
 
@@ -21,7 +19,7 @@ Record.RemoveFields(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับระเบียนที่เอาเขตข้อมูลทั้งหมดที่ระบุในรายการ <code>fields</code> ออกจากค่าที่ป้อน <code>record</code> ถ้าไม่มีเขตข้อมูลที่ระบุ ระบบจะแสดงข้อยกเว้น
 

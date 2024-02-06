@@ -5,8 +5,6 @@ title: Value.Divide
 # Value.Divide
 
 
-## Description
-
 ส่งกลับผลลัพธ์ของการหารค่าแรกด้วยค่าที่สอง
 
 
@@ -21,7 +19,7 @@ Value.Divide(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลลัพธ์ของการหาร <code>value1</code> ด้วย <code>value2</code> พารามิเตอร์ <code>precision</code> ที่เลือกได้อาจถูกระบุไว้ ตามค่าเริ่มต้น จะมีการใช้ <code>Precision.Double</code>
 

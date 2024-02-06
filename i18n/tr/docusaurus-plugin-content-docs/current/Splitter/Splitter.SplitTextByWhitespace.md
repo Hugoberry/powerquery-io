@@ -5,8 +5,6 @@ title: Splitter.SplitTextByWhitespace
 # Splitter.SplitTextByWhitespace
 
 
-## Description
-
 Bir metin listesine boşlukta metin ayıran bir işlev döndürür.
 
 
@@ -19,7 +17,7 @@ Splitter.SplitTextByWhitespace(
 ```
 
 
-## Details
+## Remarks
 
 Bir metin listesine boşlukta metin ayıran bir işlev döndürür.
 

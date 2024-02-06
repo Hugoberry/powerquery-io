@@ -5,8 +5,6 @@ title: DateTime.FromFileTime
 # DateTime.FromFileTime
 
 
-## Description
-
 Crée un datetime à partir d&#39;un nombre long 64 bits.
 
 
@@ -19,7 +17,7 @@ DateTime.FromFileTime(
 ```
 
 
-## Details
+## Remarks
 
 Crée une valeur <code>datetime</code> à partir de la valeur <code>fileTime</code> et la convertit en fuseau horaire local. Le filetime est une valeur d'heure de fichier Windows qui représente le nombre d'intervalles de 100 nanosecondes écoulés depuis 00:00 le 1er janvier 1601. (calendrier julien) Temps universel coordonné (UTC).
 

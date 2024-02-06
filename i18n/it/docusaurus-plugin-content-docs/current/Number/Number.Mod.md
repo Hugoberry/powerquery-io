@@ -5,8 +5,6 @@ title: Number.Mod
 # Number.Mod
 
 
-## Description
-
 L&#39;intero divide due numeri e restituisce la parte restante.
 
 
@@ -21,7 +19,7 @@ Number.Mod(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce la parte risultante dalla divisione dell'intero <code>number</code> per <code>divisor</code>.    Se <code>number</code> o <code>divisor</code> è Null, <code>Number.Mod</code> restituisce Null.      <ul>        <li><code>number</code>: dividendo.</li>        <li><code>divisor</code>: divisore.</li>      </ul>
 

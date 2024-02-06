@@ -5,8 +5,6 @@ title: Table.FillUp
 # Table.FillUp
 
 
-## Description
-
 将一个单元的值传播到该列中上面的值为 Null 的单元中。
 
 
@@ -20,7 +18,7 @@ Table.FillUp(
 ```
 
 
-## Details
+## Remarks
 
 从指定的 <code>table</code> 中返回一个表，其中下一个单元的值传播到指定的 <code>columns</code> 上面值为 Null 的单元。
 

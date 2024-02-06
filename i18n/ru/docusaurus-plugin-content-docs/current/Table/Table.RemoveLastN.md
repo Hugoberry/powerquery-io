@@ -5,8 +5,6 @@ title: Table.RemoveLastN
 # Table.RemoveLastN
 
 
-## Description
-
 Возвращает таблицу, из которой удалены N последних строк.
 
 
@@ -20,7 +18,7 @@ Table.RemoveLastN(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу, не содержащую последние строки (<code>countOrCondition</code>) в таблице <code>table</code>.        Количество удаленных строк зависит от необязательного параметра <code>countOrCondition</code>.    <ul>    <li> Если <code>countOrCondition</code> не указано, удаляется только последняя строка. </li>    <li> Если <code>countOrCondition</code> — число, удаляется соответствующее количество строк (с конца). </li>    <li> Если <code>countOrCondition</code> — условие, будут удалены строки, соответствующие условию, до первой строки, не соответствующей условию.</li>    </ul>
 

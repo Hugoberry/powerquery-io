@@ -5,8 +5,6 @@ title: Replacer.ReplaceText
 # Replacer.ReplaceText
 
 
-## Description
-
 แทนที่ข้อความภายในค่าที่ป้อนที่ระบุ
 
 
@@ -21,7 +19,7 @@ Replacer.ReplaceText(
 ```
 
 
-## Details
+## Remarks
 
 แทนที่ข้อความ <code>old</code> ใน <code>text</code> เดิมด้วยข้อความ <code>new</code> ฟังก์ชันตัวแทนที่นี้สามารถใช้ใน <code>List.ReplaceValue</code> และ <code>Table.ReplaceValue</code> ได้
 

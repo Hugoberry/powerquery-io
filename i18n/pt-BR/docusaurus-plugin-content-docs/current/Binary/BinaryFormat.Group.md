@@ -5,8 +5,6 @@ title: BinaryFormat.Group
 # BinaryFormat.Group
 
 
-## Description
-
 Retorna um formato binário que lê um grupo de itens.
 
 
@@ -22,7 +20,7 @@ BinaryFormat.Group(
 ```
 
 
-## Details
+## Remarks
 
 Os parâmetros são os seguintes:<ul><li>O parâmetro <code>binaryFormat</code> especifica o formato binário do valor de chave.</li><li>O parâmetro <code>group</code> fornece informações sobre o grupo de itens conhecidos.</li><li>O parâmetro opcional <code>extra</code> pode ser usado para especificar uma função que retornará um valor de formato binário para o valor depois de qualquer chave inesperada.  Se o parâmetro <code>extra</code> não for especificado, será gerado um erro se houver valores de chave inesperados.</li></ul>O parâmetro <code>group</code> especifica uma lista de definições de item. Cada definição do item é uma lista, que contém 3 a 5 valores, da seguinte forma:<ul><li>Valor de chave.  O valor da chave correspondente ao item. Ele deve ser exclusivo no conjunto de itens.</li><li>Formato de item. O formato binário correspondente ao valor do item. Isso permite que cada item tenha um formato diferente. </li><li>Ocorrência do item. O valor <code>BinaryOccurrence.Type</code> para quantas vezes o item deve aparecer no grupo. Os itens necessários que não estão presentes causam um erro.  Os itens necessários ou opcionais duplicados são tratados como valores de chave inesperados.</li><li>Valor de item padrão (opcional). Se o valor do item padrão aparecer na lista de definições de item e não for nulo, ele será usado, em vez do padrão. O padrão para itens repetidos ou opcionais é nulo e o padrão para valores repetidos é uma lista vazia \{ }.</li><li>Transformação de valor de item (opcional).   Se a função de transformação do valor de item estiver presente na lista de definições de item e não for nula, ela será chamada para transformar o valor do item antes de ser retornado. A função de transformação será chamada somente se o item aparecer na entrada (ela nunca será chamada com o valor padrão). </li></ul>
 

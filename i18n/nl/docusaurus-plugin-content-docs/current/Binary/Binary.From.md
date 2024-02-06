@@ -5,8 +5,6 @@ title: Binary.From
 # Binary.From
 
 
-## Description
-
 Maakt een binaire waarde van de opgegeven waarde
 
 
@@ -20,7 +18,7 @@ Binary.From(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een <code>binary</code>-waarde geretourneerd van de opgegeven waarde <code>value</code>. Als de opgegeven waarde <code>value</code> <code>null</code> is, retourneert <code>Binary.From</code> <code>null</code>. Als de opgegeven waarde <code>value</code> <code>binary</code> is, wordt <code>value</code> geretourneerd. Waarden van de volgende typen kunnen worden omgezet naar een <code>binary</code>-waarde: <ul> <li><code>text</code>: een <code>binary</code>-waarde van de tekstweergave. Raadpleeg <code>Binary.FromText</code> voor meer informatie.</li> </ul>Als <code>value</code> van een ander type is, wordt een fout geretourneerd.
 

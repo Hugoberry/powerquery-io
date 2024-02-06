@@ -5,8 +5,6 @@ title: List.Positions
 # List.Positions
 
 
-## Description
-
 返回输入的偏移量列表。
 
 
@@ -19,7 +17,7 @@ List.Positions(
 ```
 
 
-## Details
+## Remarks
 
 返回输入列表 <code>list</code> 的偏移量列表。    使用 List.Transform 更改列表时，可以使用位置列表来授予对位置的转换权限。
 

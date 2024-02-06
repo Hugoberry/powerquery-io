@@ -5,8 +5,6 @@ title: Text.ToBinary
 # Text.ToBinary
 
 
-## Description
-
 पाठ को बाइनरी फ़ॉर्म में एन्कोड करता है.
 
 
@@ -21,7 +19,7 @@ Text.ToBinary(
 ```
 
 
-## Details
+## Remarks
 
 निर्दिष्ट <code>encoding</code> का उपयोग कर दिए गए पाठ मान <code>text</code> को बाइनरी मान में एन्कोड करता है.
 

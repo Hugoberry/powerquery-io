@@ -5,8 +5,6 @@ title: Text.BeforeDelimiter
 # Text.BeforeDelimiter
 
 
-## Description
-
 Text.BeforeDelimiter
 
 
@@ -21,7 +19,7 @@ Text.BeforeDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt het gedeelte van <code>text</code> voor een opgegeven <code>delimiter</code> geretourneerd.    Een optioneel numeriek item <code>index</code> geeft aan welk exemplaar van <code>delimiter</code> moet worden gebruikt.    Een optionele lijst <code>index</code> geeft aan welk exemplaar van <code>delimiter</code> moet worden gebruikt en of indexering moet worden uitgevoerd vanaf het begin of het einde van de invoer.
 

@@ -5,8 +5,6 @@ title: Type.FunctionRequiredParameters
 # Type.FunctionRequiredParameters
 
 
-## Description
-
 関数型の呼び出しに必要なパラメーターの最小数を示す数値を返します。
 
 
@@ -19,7 +17,7 @@ Type.FunctionRequiredParameters(
 ```
 
 
-## Details
+## Remarks
 
 関数の入力値 <code>type</code> の呼び出しに必要なパラメーターの最小数を示す数値を返します。
 

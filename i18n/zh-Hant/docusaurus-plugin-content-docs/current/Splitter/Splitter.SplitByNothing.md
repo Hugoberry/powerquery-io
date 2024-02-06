@@ -5,8 +5,6 @@ title: Splitter.SplitByNothing
 # Splitter.SplitByNothing
 
 
-## Description
-
 傳回不會分隔，而會將其引數以單一元素清單形式傳回的函數。
 
 
@@ -19,7 +17,7 @@ Splitter.SplitByNothing(
 ```
 
 
-## Details
+## Remarks
 
 傳回不會分隔，而會將其引數以單一元素清單形式傳回的函數。
 

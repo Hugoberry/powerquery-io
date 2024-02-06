@@ -5,8 +5,6 @@ title: Table.FromValue
 # Table.FromValue
 
 
-## Description
-
 Opretter en tabel med en kolonne ud fra den eller de angivne værdier.
 
 
@@ -20,7 +18,7 @@ Table.FromValue(
 ```
 
 
-## Details
+## Remarks
 
 Opretter en tabel med en kolonne, der indeholder den angivne værdi eller liste over værdier, <code>value</code>. Der kan angives en valgfri postparameter, <code>options</code>, for at styre følgende indstillinger:    <ul>    <li> <code>DefaultColumnName</code>: det kolonnenavn, der bruges, når der oprettes en tabel ud fra en liste eller skalaværdi.</li>    </ul>  
 

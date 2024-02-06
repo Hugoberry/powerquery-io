@@ -5,8 +5,6 @@ title: Table.Skip
 # Table.Skip
 
 
-## Description
-
 Returnerar en tabell där det första angivna antalet rader hoppas över.
 
 
@@ -20,7 +18,7 @@ Table.Skip(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell som inte innehåller det första angivna antalet rader, <code>countOrCondition</code>, i tabellen <code>table</code>.    Hur många rader som hoppas över beror på den valfria parametern <code>countOrCondition</code>.     <ul>    <li> Om <code>countOrCondition</code> utelämnas hoppas bara den första raden över. </li>    <li> Om <code>countOrCondition</code> är ett tal hoppas så många rader (med början ovanifrån) över. </li>    <li> Om <code>countOrCondition</code> är ett villkor hoppas de rader som uppfyller villkoret över tills en rad inte uppfyller villkoret.</li>    </ul>
 

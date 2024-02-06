@@ -5,8 +5,6 @@ title: Text.Proper
 # Text.Proper
 
 
-## Description
-
 Her sözcüğün ilk harfini büyük yapar.
 
 
@@ -20,7 +18,7 @@ Text.Proper(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> metin değerindeki her sözcüğün yalnızca ilk harfini büyük yapmanın sonucunu döndürür. Tüm diğer harfler küçük harfe döndürülür. Ayrıca, isteğe bağlı bir <code>culture</code> sağlanabilir (ör. "tr-TR").
 

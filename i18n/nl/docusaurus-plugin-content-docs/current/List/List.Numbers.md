@@ -5,8 +5,6 @@ title: List.Numbers
 # List.Numbers
 
 
-## Description
-
 Retourneert een lijst met getallen op basis van een aanvankelijke waarde, telling en optionele incrementele waarde.
 
 
@@ -21,7 +19,7 @@ List.Numbers(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een lijst met getallen op basis van een aanvankelijke waarde, telling en optionele incrementele waarde. De standaard incrementele waarde is 1.<ul>   <li><code>start</code>: De aanvankelijke waarde in de lijst.</li>   <li><code>count</code>: Het aantal waarden dat moet worden gemaakt.</li>   <li><code>increment</code>: <i>[Optioneel]</i> De waarde waarmee moet worden verhoogd. Als weggelaten waarden worden verhoogd met 1.</li></ul>
 

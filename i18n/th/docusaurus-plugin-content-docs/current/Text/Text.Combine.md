@@ -5,8 +5,6 @@ title: Text.Combine
 # Text.Combine
 
 
-## Description
-
 เชื่อมรายการของค่าข้อความเข้ากับค่าข้อความค่าใดค่าหนึ่ง
 
 
@@ -20,7 +18,7 @@ Text.Combine(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลลัพธ์ของการรวมรายการค่าของข้อความ <code>texts</code> ลงในค่าข้อความเดียว ค่า <code>null</code> ใดๆ ที่แสดงอยู่ <code>texts</code> จะถูกละเว้น    สามารถระบุ <code>separator</code> เพิ่มเติมที่ใช้ในข้อความที่รวมขั้นสุดท้ายได้
 

@@ -5,8 +5,6 @@ title: Number.IsEven
 # Number.IsEven
 
 
-## Description
-
 Anger om värdet är jämnt.
 
 
@@ -19,7 +17,7 @@ Number.IsEven(
 ```
 
 
-## Details
+## Remarks
 
 Anger om värdet, <code>number</code>, är jämnt genom att returnera <code>true</code> om det är jämnt och annars <code>false</code>.
 

@@ -5,8 +5,6 @@ title: Number.Random
 # Number.Random
 
 
-## Description
-
 यादृच्छिक संख्या लौटाता है.
 
 
@@ -19,7 +17,7 @@ Number.Random(
 ```
 
 
-## Details
+## Remarks
 
 0 और 1 के बीच एक यादृच्छिक संख्या लौटाता है.
 

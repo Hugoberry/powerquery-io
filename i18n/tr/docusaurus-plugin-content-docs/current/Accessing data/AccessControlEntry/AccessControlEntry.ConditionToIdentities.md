@@ -5,8 +5,6 @@ title: AccessControlEntry.ConditionToIdentities
 # AccessControlEntry.ConditionToIdentities
 
 
-## Description
-
 Koşulun kabul edeceği kimliklerin bir listesini döndürür.
 
 
@@ -20,7 +18,7 @@ AccessControlEntry.ConditionToIdentities(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen <code>identityProvider</code> öğesini kullanarak <code>condition</code> öğesini kimlik listesine dönüştürür. Bu liste için <code>condition</code>, kimlik sağlayıcısı <code>identityProvider</code> olarak tüm yetkilendirme bağlamlarında <code>true</code> döndürür. <code>condition</code> öğesinin kimlik listesine dönüştürülmesi mümkün değilse, örneğin <code>condition</code> bir karar almak için kullanıcı veya grup kimliklerinden farklı özniteliklere danışıyorsa bir hata oluşur.<br />    Kimlik listesinin, kimlikleri <code>condition</code> öğesinde göründüğü gibi temsil ettiğini ve kimliklerde normalleştirme (grup genişletme gibi) uygulanmadığını unutmayın.<br />
 

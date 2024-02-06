@@ -5,8 +5,6 @@ title: Number.Abs
 # Number.Abs
 
 
-## Description
-
 Returnerer den absolutte værdi af tallet.
 
 
@@ -19,7 +17,7 @@ Number.Abs(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer den absolutte værdi af <code>number</code>. Hvis <code>number</code> er null, returnerer <code>Number.Abs</code> null.    <ul>        <li><code>number</code>: En værdi af typen <code>number</code>, som den absolutte værdi skal beregnes for.</li>      </ul>
 

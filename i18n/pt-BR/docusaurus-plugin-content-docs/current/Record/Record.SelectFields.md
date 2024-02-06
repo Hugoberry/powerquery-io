@@ -5,8 +5,6 @@ title: Record.SelectFields
 # Record.SelectFields
 
 
-## Description
-
 Retorna um registro que contém somente os campos especificados.
 
 
@@ -21,7 +19,7 @@ Record.SelectFields(
 ```
 
 
-## Details
+## Remarks
 
 Retorna um registro que inclui somente os campos especificados na lista <code>fields</code> da entrada <code>record</code>.
 

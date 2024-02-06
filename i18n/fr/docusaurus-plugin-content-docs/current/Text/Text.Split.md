@@ -5,8 +5,6 @@ title: Text.Split
 # Text.Split
 
 
-## Description
-
 Fractionne le texte dans une liste de valeurs de texte en fonction d&#39;un délimiteur spécifié.
 
 
@@ -20,7 +18,7 @@ Text.Split(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une liste de valeurs de texte résultant du fractionnement d'une valeur de texte <code>text</code> selon le séparateur spécifié, <code>separator</code>.
 

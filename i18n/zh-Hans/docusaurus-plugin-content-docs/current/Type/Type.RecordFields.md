@@ -5,8 +5,6 @@ title: Type.RecordFields
 # Type.RecordFields
 
 
-## Description
-
 返回一个记录，描述记录类型的字段，其中返回记录类型的每个字段拥有对应的名称和值。
 
 
@@ -19,7 +17,7 @@ Type.RecordFields(
 ```
 
 
-## Details
+## Remarks
 
 返回描述记录 <code>type</code> 的字段的记录。在记录 <code>[ Type = type, Optional = logical ]</code> 的格式中，返回的记录类型的每个字段都有对应的名称和值。
 

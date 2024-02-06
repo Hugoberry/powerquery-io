@@ -5,8 +5,6 @@ title: Type.IsNullable
 # Type.IsNullable
 
 
-## Description
-
 यदि प्रकार निरर्थक प्रकार हो, तो सही लौटाता है; अन्‍यथा, गलत लौटाता है.
 
 
@@ -19,7 +17,7 @@ Type.IsNullable(
 ```
 
 
-## Details
+## Remarks
 
 यदि प्रकार <code>निरर्थक</code> प्रकार हो, तो <code>सही</code> लौटाता है; अन्‍यथा, <code>गलत</code> लौटाता है.
 

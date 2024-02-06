@@ -5,8 +5,6 @@ title: Text.RemoveRange
 # Text.RemoveRange
 
 
-## Description
-
 Supprime un nombre de caractères en commençant au décalage donné
 
 
@@ -21,7 +19,7 @@ Text.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une copie d'une valeur de texte <code>text</code> en supprimant tous les caractères à partir de la position <code>offset</code>.    Un paramètre facultatif <code>count</code> peut être utilisé pour spécifier le nombre de caractères à supprimer. La valeur par défaut de <code>count</code> est 1. Les valeurs de position commencent à 0.
 

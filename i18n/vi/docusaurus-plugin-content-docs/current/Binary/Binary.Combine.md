@@ -5,8 +5,6 @@ title: Binary.Combine
 # Binary.Combine
 
 
-## Description
-
 Kết hợp danh sách các nhị phân thành một nhị phân đơn.
 
 
@@ -19,7 +17,7 @@ Binary.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Kết hợp danh sách các nhị phân thành một nhị phân đơn.
 

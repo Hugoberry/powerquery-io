@@ -5,8 +5,6 @@ title: Table.PromoteHeaders
 # Table.PromoteHeaders
 
 
-## Description
-
 Alza di livello la prima riga di valori come nuove intestazioni di colonna (nomi di colonna).
 
 
@@ -20,7 +18,7 @@ Table.PromoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Alza di livello la prima riga di valori come nuove intestazioni di colonna (nomi di colonna). Per impostazione predefinita, solo i valori di testo o numerici vengono alzati di livello a intestazioni. Opzioni valide:    <div>      <code>PromoteAllScalars</code>: se è impostata su <code>true</code>, tutti i valori scalari nella prima riga vengono alzati di livello a intestazioni in base alle impostazioni cultura definite in <code>Culture</code>, se specificate, o alle impostazioni locali correnti del documento.    Per i valori che non possono essere convertiti in testo, verrà usato un nome di colonna predefinito.    </div>    <div>    <code>Culture</code>: nome che specifica le impostazioni cultura per i dati.    </div>  
 

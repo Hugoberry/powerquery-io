@@ -5,8 +5,6 @@ title: List.Mode
 # List.Mode
 
 
-## Description
-
 Listedeki en sık değeri döndürür.
 
 
@@ -20,7 +18,7 @@ List.Mode(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesinde en sık görünen öğeyi döndürür. Liste boşsa bir özel durum oluşur. Birden çok öğe aynı en yüksek sıklıkla görünüyorsa son öğe seçilir.    Eşitlik sınamasını denetlemek için isteğe bağlı <code>comparisonCriteria</code> değeri, <code>equationCriteria</code>, belirtilebilir. 
 

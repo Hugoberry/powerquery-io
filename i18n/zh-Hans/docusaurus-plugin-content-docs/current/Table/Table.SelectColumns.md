@@ -5,8 +5,6 @@ title: Table.SelectColumns
 # Table.SelectColumns
 
 
-## Description
-
 返回只含有指定列的表。
 
 
@@ -21,7 +19,7 @@ Table.SelectColumns(
 ```
 
 
-## Details
+## Remarks
 
 返回仅具有指定 <code>columns</code> 的 <code>table</code>。    <ul>       <li><code>table</code>: 提供的表。</li>       <li><code>columns</code>: 要返回的表 <code>table</code> 中列的列表。返回表中的列按 <code>columns</code> 中列出的顺序。</li>       <li><code>missingField</code>: <i>(可选)</i> 列不存在时如何操作。示例: <code>MissingField.UseNull</code> 或 <code>MissingField.Ignore</code>。    </li></ul>
 

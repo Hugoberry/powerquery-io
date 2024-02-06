@@ -5,8 +5,6 @@ title: Duration.TotalDays
 # Duration.TotalDays
 
 
-## Description
-
 Bu sürenin kapsadığı toplam günü döndürür.
 
 
@@ -19,7 +17,7 @@ Duration.TotalDays(
 ```
 
 
-## Details
+## Remarks
 
 <code>duration</code> değerine yayılan toplam gün sayısını döndürür.
 

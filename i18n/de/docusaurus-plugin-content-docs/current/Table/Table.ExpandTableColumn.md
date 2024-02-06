@@ -5,8 +5,6 @@ title: Table.ExpandTableColumn
 # Table.ExpandTableColumn
 
 
-## Description
-
 Erweitert eine Spalte mit Datensätzen oder eine Spalte mit Tabellen zu mehreren Spalten in der enthaltenden Tabelle.
 
 
@@ -22,7 +20,7 @@ Table.ExpandTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Erweitert Tabellen in "<code>table</code>[<code>column</code>]" zu mehrere Zeilen und Spalten. "<code>columnNames</code>" dient zum Auswählen der zu erweiternden Spalten der internen Tabelle. Geben Sie "<code>newColumnNames</code>" an, um Konflikte zwischen vorhandenen und neuen Spalten zu vermeiden.
 

@@ -5,8 +5,6 @@ title: Number.IntegerDivide
 # Number.IntegerDivide
 
 
-## Description
-
 Делит два числа и возвращает целочисленную часть результата.
 
 
@@ -21,7 +19,7 @@ Number.IntegerDivide(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает целочисленную часть результата от деления числа <code>number1</code> на число <code>number2</code>.    Если <code>number1</code> или <code>number2</code> равно NULL, <code>Number.IntegerDivide</code> возвращает NULL.      <ul>        <li><code>number1</code>: делимое.</li>        <li><code>number2</code>: делитель.</li>      </ul>
 

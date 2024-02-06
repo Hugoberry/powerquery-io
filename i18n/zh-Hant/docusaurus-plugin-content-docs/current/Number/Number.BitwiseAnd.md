@@ -5,8 +5,6 @@ title: Number.BitwiseAnd
 # Number.BitwiseAnd
 
 
-## Description
-
 傳回在兩個輸入之間執行位元 &#34;And&#34; 運算的結果。
 
 
@@ -20,7 +18,7 @@ Number.BitwiseAnd(
 ```
 
 
-## Details
+## Remarks
 
 傳回在 <code>number1</code> 和 <code>number2</code> 之間執行位元 "And" 運算的結果。
 

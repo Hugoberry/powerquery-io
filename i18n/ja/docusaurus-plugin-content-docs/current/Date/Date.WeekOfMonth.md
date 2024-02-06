@@ -5,8 +5,6 @@ title: Date.WeekOfMonth
 # Date.WeekOfMonth
 
 
-## Description
-
 この日付が月のどの週に該当するかを示す、1 ～ 6 の数値を返します。
 
 
@@ -20,7 +18,7 @@ Date.WeekOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 日付 <code>dateTime</code> が月のどの週に該当するかを示す、1 から 6 の数値を返します。 <ul>        <li><code>dateTime</code>: 月内の週が特定される <code>datetime</code> 値。</li>      </ul>
 

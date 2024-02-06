@@ -5,8 +5,6 @@ title: Text.Contains
 # Text.Contains
 
 
-## Description
-
 Returnerar huruvida texten innehåller delsträngen.
 
 
@@ -21,7 +19,7 @@ Text.Contains(
 ```
 
 
-## Details
+## Remarks
 
 Identifierar om <code>text</code> innehåller värdet <code>substring</code>. Returnerar true om värdet hittas. Den här funktionen stöder inte jokertecken eller vanliga uttryck.      <br />      <br /> Det valfria argumentet <code>comparer</code> kan användas för att ange skiftlägesokänsliga jämförelser eller kultur- och språkmedvetna jämförelser.     Följande inbyggda jämförelseverktyg är tillgängliga på formelspråket:      <ul>        <li><code>Comparer.Ordinal</code>: Används för att utföra en skiftlägeskänslig ordningstalsjämförelse</li>        <li><code>Comparer.OrdinalIgnoreCase</code>:  Används för att utföra en skiftlägesokänslig ordningstalsjämförelse</li>         <li><code>Comparer.FromCulture</code>: Används för att utföra en kulturmedveten jämförelse</li>        </ul>
 

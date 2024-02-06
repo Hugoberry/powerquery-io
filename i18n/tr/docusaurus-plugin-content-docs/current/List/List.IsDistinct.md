@@ -5,8 +5,6 @@ title: List.IsDistinct
 # List.IsDistinct
 
 
-## Description
-
 Listede yinelenen değerlerin olup olmadığını gösterir.
 
 
@@ -20,7 +18,7 @@ List.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesinde yinelenen değerlerin olup olmadığı ile ilgili mantıksal bir değer döndürür; liste farklı değerler içeriyorsa <code>true</code>, listede yinelenen değerler varsa <code>false</code> döndürür. 
 

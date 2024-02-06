@@ -5,8 +5,6 @@ title: MailChimp.TablesV2
 # MailChimp.TablesV2
 
 
-## Description
-
 कुँजी MailChimp डेटा वाली तालिका लौटाता है.
 
 
@@ -19,7 +17,7 @@ MailChimp.TablesV2(
 ```
 
 
-## Details
+## Remarks
 
 कुँजी MailChimp डेटा वाली तालिका लौटाता है.
 

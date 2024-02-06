@@ -5,8 +5,6 @@ title: List.DateTimeZones
 # List.DateTimeZones
 
 
-## Description
-
 Verilen ilk değer, sayı ve artımlı süre değerinden datetimezone değer listesi oluşturur.
 
 
@@ -21,7 +19,7 @@ List.DateTimeZones(
 ```
 
 
-## Details
+## Remarks
 
 <code>count</code> boyutunda <code>start</code> konumunda başlayan bir <code>datetimezone</code> değer listesi döndürür. <code>step</code> verilen artışı her değere eklenen bir <code>duration</code> değeridir.
 

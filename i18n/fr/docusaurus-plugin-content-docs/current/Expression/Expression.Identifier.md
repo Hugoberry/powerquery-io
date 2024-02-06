@@ -5,8 +5,6 @@ title: Expression.Identifier
 # Expression.Identifier
 
 
-## Description
-
 Retourne la représentation en code source M d&#39;un identificateur.
 
 
@@ -19,7 +17,7 @@ Expression.Identifier(
 ```
 
 
-## Details
+## Remarks
 
 Retourne la représentation en code source M d'un identificateur <code>name</code>.
 

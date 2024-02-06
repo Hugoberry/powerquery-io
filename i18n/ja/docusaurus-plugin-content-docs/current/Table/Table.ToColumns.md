@@ -5,8 +5,6 @@ title: Table.ToColumns
 # Table.ToColumns
 
 
-## Description
-
 列の値のリストが入れ子になったリストをテーブルから作成します。
 
 
@@ -19,7 +17,7 @@ Table.ToColumns(
 ```
 
 
-## Details
+## Remarks
 
 入れ子になったリストのリストをテーブル (<code>table</code>) から作成します。各リスト項目は、列の値を含む入れ子のリストです。
 

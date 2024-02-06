@@ -5,8 +5,6 @@ title: Table.AlternateRows
 # Table.AlternateRows
 
 
-## Description
-
 Mantém o desvio inicial e, em seguida, alterna entre utilizar e ignorar as linhas seguintes.
 
 
@@ -22,7 +20,7 @@ Table.AlternateRows(
 ```
 
 
-## Details
+## Remarks
 
 Mantém o desvio inicial e, em seguida, alterna entre utilizar e ignorar as linhas seguintes.    <ul>       <li><code>table</code>: a tabela de entrada.</li>       <li><code>offset</code>: o número de linhas a manter entre as iterações de início.</li>       <li><code>skip</code>: o número de linhas a remover em cada iteração.</li>       <li><code>take</code>: o número de linhas a manter em cada iteração.</li>    </ul>    
 

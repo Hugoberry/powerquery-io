@@ -5,8 +5,6 @@ title: Web.BrowserContents
 # Web.BrowserContents
 
 
-## Description
-
 Bir web tarayıcısı tarafından görüntülendiği şekliyle belirtilen URL için HTML&#39;yi döndürür.
 
 
@@ -20,7 +18,7 @@ Web.BrowserContents(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen <code>url</code> için bir web tarayıcısı tarafından göründüğü haliyle HTML döndürür. İsteğe bağlı <code>options</code> kayıt parametresi, ek özellikleri belirtmek için sağlanabilir. Kayıt, şu alanları barındırabilir:     <ul>        <li><code>ApiKeyName</code>: Hedef sitede bir API anahtarı gösterimi varsa, bu parametre URL'de kullanılması gereken anahtar parametresinin adını (değerini değil) belirtmek için kullanılabilir. Gerçek anahtar değeri kimlik bilgilerinde sağlanır.</li>        <li><code>WaitFor</code>: HTML'yi indirmeden önce sayfanın yüklenmesini beklemenin (her zaman yapılır) yanı sıra beklenecek bir koşul belirtir. Bu, Timeout ve/veya Selector alanları barındıran bir kayıt olabilir. Yalnızca Timeout belirtilirse işlev, HTML'yi indirmeden önce belirtilen süre boyunca bekler. Hem Selector hem Timeout belirtilir ve Selector henüz sayfada yokken Timeout süresi geçerse, bir hata oluşur. Timeout olmadan Selector belirtilirse, varsayılan olarak 30 saniyelik bir Timeout uygulanır.</li>      </ul>    
 

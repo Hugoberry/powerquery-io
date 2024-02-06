@@ -5,8 +5,6 @@ title: Table.IsDistinct
 # Table.IsDistinct
 
 
-## Description
-
 Indica se la tabella contiene solo le righe distinte (nessun duplicato).
 
 
@@ -20,7 +18,7 @@ Table.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 Indica se <code>table</code> contiene solo le righe distinte (nessun duplicato). Restituisce <code>true</code> se le righe sono distinte, in caso contrario <code>false</code>.    Il parametro facoltativo <code>comparisonCriteria</code> specifica le colonne della tabella da testare per la duplicazione. Se <code>comparisonCriteria</code> non viene specificato, verranno testate tutte le colonne.
 

@@ -5,8 +5,6 @@ title: Table.Sort
 # Table.Sort
 
 
-## Description
-
 Sortiert die Tabelle unter Verwendung von Spaltennamen und Vergleichskriterien.
 
 
@@ -20,7 +18,7 @@ Table.Sort(
 ```
 
 
-## Details
+## Remarks
 
 Sortiert das Element vom Typ "<code>table</code>" unter Verwendung der Liste mit mindestens einem Spaltennamen und "<code>comparisonCriteria</code>" (optional) im Format "\{ \{ col1, comparisonCriteria }, \{col2} }".
 

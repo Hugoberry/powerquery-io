@@ -5,8 +5,6 @@ title: List.PositionOf
 # List.PositionOf
 
 
-## Description
-
 सूची के मान का(के) ऑफ़सेट लौटाता है.
 
 
@@ -22,7 +20,7 @@ List.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 वह ऑफ़सेट लौटाता है, जिस पर सूची <code>list</code> में <code>value</code> मान दिखाई देता है. मान के न दिखाई देने पर -1 लौटाता है.    एक वैकल्पिक आवृत्ति पैरामीटर <code>occurrence</code> निर्दिष्ट किया जा सकता है.<ul>   <li><code>occurrence</code>: रिपोर्ट होने वाली आवृत्तियों की अधिकतम संख्या.</li></ul>
 

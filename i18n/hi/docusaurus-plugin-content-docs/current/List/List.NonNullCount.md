@@ -5,8 +5,6 @@ title: List.NonNullCount
 # List.NonNullCount
 
 
-## Description
-
 सूची के गैर-नल आइटमों की संख्या लौटाता है.
 
 
@@ -19,7 +17,7 @@ List.NonNullCount(
 ```
 
 
-## Details
+## Remarks
 
 सूची <code>list</code> के गैर-नल आइटमों की संख्या लौटाता है.
 

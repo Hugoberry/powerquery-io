@@ -5,8 +5,6 @@ title: Date.AddYears
 # Date.AddYears
 
 
-## Description
-
 Tilføjer de angivne år efter datoen.
 
 
@@ -20,7 +18,7 @@ Date.AddYears(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer resultaterne for <code>date</code>, <code>datetime</code> eller <code>datetimezone</code> efter at have føjet <code>numberOfYears</code> til værdien af typen <code>datetime</code> <code>dateTime</code>.      <ul>        <li><code>dateTime</code>: Den værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>, som år føjes til.</li>        <li><code>numberOfYears</code>: Det antal år, der skal tilføjes.</li>      </ul>
 

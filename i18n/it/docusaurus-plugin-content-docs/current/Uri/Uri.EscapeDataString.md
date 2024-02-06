@@ -5,8 +5,6 @@ title: Uri.EscapeDataString
 # Uri.EscapeDataString
 
 
-## Description
-
 Codifica i caratteri speciali in base allo standard RFC 3986.
 
 
@@ -19,7 +17,7 @@ Uri.EscapeDataString(
 ```
 
 
-## Details
+## Remarks
 
 Codifica i caratteri speciali nell'input <code>data</code> in base alle regole dello standard RFC 3986.
 

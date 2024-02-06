@@ -5,8 +5,6 @@ title: Table.ReplaceRows
 # Table.ReplaceRows
 
 
-## Description
-
 Ersetzt den angegebenen Zeilenbereich durch die bereitgestellten Zeilen.
 
 
@@ -22,7 +20,7 @@ Table.ReplaceRows(
 ```
 
 
-## Details
+## Remarks
 
 Ersetzt eine angegebene Anzahl von Zeilen (<code>count</code>) in der Eingabe "<code>table</code>" durch die Elemente vom Typ "<code>rows</code>" (beginnend ab "<code>offset</code>"). Der Parameter "<code>rows</code>" ist eine Liste mit Datensätzen.    <ul>       <li><code>table</code>: Die Tabelle, in der die Ersetzung ausgeführt wird.</li>       <li><code>offset</code>: Die Anzahl von Zeilen, die vor der Ersetzung übersprungen werden sollen.</li>       <li><code>count</code>: Die Anzahl der zu ersetzenden Zeilen.</li>       <li><code>rows</code>: Die Liste mit den Zeilendatensätzen, die an der durch "<code>offset</code>" angegebenen Position in "<code>table</code>" eingefügt werden sollen.</li>    </ul>
 

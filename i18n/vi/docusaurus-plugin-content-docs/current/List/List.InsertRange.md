@@ -5,8 +5,6 @@ title: List.InsertRange
 # List.InsertRange
 
 
-## Description
-
 Chèn các giá trị vào danh sách tại chỉ mục cho sẵn.
 
 
@@ -21,7 +19,7 @@ List.InsertRange(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một danh sách mới được tạo bằng cách chèn các giá trị trong <code>values</code> vào <code>list</code> tại <code>index</code>. Vị trí đầu tiên trong danh sách là tại chỉ mục 0.      <ul>        <li><code>list</code>: Danh sách mục tiêu nơi các giá trị sẽ được chèn.</li>        <li><code>index</code>: Chỉ mục của danh sách mục tiêu(<code>list</code>) nơi các giá trị sẽ được chèn. Vị trí đầu tiên trong danh sách là tại chỉ mục 0.</li>        <li><code>values</code>: Danh sách các giá trị sẽ được chèn vào <code>list</code>.</li>      </ul>
 

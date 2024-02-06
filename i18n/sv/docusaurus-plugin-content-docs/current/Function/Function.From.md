@@ -5,8 +5,6 @@ title: Function.From
 # Function.From
 
 
-## Description
-
 Skapar en funktion med en viss parametersignatur för en funktion som har ett enda listargument
 
 
@@ -20,7 +18,7 @@ Function.From(
 ```
 
 
-## Details
+## Remarks
 
 Ta den unära funktionen <code>function</code> och skapa en ny funktion med typen <code>functionType</code> som i sin tur skapar en lista av dess argument och skickar den till <code>function</code>.
 

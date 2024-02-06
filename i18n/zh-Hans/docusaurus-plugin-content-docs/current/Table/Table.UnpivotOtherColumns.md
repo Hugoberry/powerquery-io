@@ -5,8 +5,6 @@ title: Table.UnpivotOtherColumns
 # Table.UnpivotOtherColumns
 
 
-## Description
-
 将指定集以外的所有列转换为属性-值对。
 
 
@@ -22,7 +20,7 @@ Table.UnpivotOtherColumns(
 ```
 
 
-## Details
+## Remarks
 
 将指定集以外的所有列转换为属性值对，并与每行中的剩余值合并。
 

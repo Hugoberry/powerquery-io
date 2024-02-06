@@ -5,8 +5,6 @@ title: Duration.TotalSeconds
 # Duration.TotalSeconds
 
 
-## Description
-
 इस अवधि विस्तार के कुल सेकंड लौटाता है.
 
 
@@ -19,7 +17,7 @@ Duration.TotalSeconds(
 ```
 
 
-## Details
+## Remarks
 
 <code>duration</code> द्वारा विस्तारित कुल सेकंड लौटाता है.
 

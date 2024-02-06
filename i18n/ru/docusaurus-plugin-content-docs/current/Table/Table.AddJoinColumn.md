@@ -5,8 +5,6 @@ title: Table.AddJoinColumn
 # Table.AddJoinColumn
 
 
-## Description
-
 Выполняет соединения таблиц по указанным столбцам и выводит результат соединения в новом столбце.
 
 
@@ -23,7 +21,7 @@ Table.AddJoinColumn(
 ```
 
 
-## Details
+## Remarks
 
 Соединяет строки таблицы <code>table1</code> со строками таблицы <code>table2</code> с учетом тождественности значений ключевых столбцов, выбранных в <code>key1</code> (для <code>table1</code>) и в <code>key2</code> (для <code>table2</code>). Результаты записываются в столбец с именем <code>newColumnName</code>.Эта функция работает подобно Table.Join с JoinKind из LeftOuter, за тем исключением, что результаты соединения представлены во вложенном виде, а не преобразованными в плоскую структуру.
 

@@ -5,8 +5,6 @@ title: Xml.Document
 # Xml.Document
 
 
-## Description
-
 將 XML 文件的內容傳回成階層式資料表。
 
 
@@ -20,7 +18,7 @@ Xml.Document(
 ```
 
 
-## Details
+## Remarks
 
 將 XML 文件的內容傳回成階層式資料表。
 

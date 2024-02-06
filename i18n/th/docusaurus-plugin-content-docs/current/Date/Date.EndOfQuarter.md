@@ -5,8 +5,6 @@ title: Date.EndOfQuarter
 # Date.EndOfQuarter
 
 
-## Description
-
 ส่งกลับจุดสิ้นสุดของไตรมาส
 
 
@@ -19,7 +17,7 @@ Date.EndOfQuarter(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับจุดสิ้นสุดของไตรมาสที่มี <code>dateTime</code> ข้อมูลโซนเวลาจะถูกเก็บไว้      <ul>      <li><code>dateTime</code>: ค่า<code>วันที่</code> <code>วันที่เวลา</code> หรือ<code>โซนวันที่เวลา</code>ที่คํานวณว่ามีจุดสิ้นสุดของไตรมาสใดบ้าง</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Type.IsNullable
 # Type.IsNullable
 
 
-## Description
-
 Devolve verdadeiro se um tipo é um tipo nulo; caso contrário, falso.
 
 
@@ -19,7 +17,7 @@ Type.IsNullable(
 ```
 
 
-## Details
+## Remarks
 
 Devolve <code>true</code> se um tipo for do tipo <code>nulllable</code>; caso contrário, <code>false</code>.
 

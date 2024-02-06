@@ -5,8 +5,6 @@ title: GeometryPoint.From
 # GeometryPoint.From
 
 
-## Description
-
 Cria um registo que representa um ponto geométrico a partir das partes que o constituem.
 
 
@@ -23,7 +21,7 @@ GeometryPoint.From(
 ```
 
 
-## Details
+## Remarks
 
 Cria um registo que representa um ponto geométrico a partir das partes que o constituem, como coordenada X, coordenada Y e, se presente, coordenada Z e medida (M). Pode ser indicado um identificador de referência espacial (SRID) opcional, se for diferente do valor predefinido (0).
 

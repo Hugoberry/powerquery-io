@@ -5,8 +5,6 @@ title: Binary.Decompress
 # Binary.Decompress
 
 
-## Description
-
 दिए गए संपीड़न प्रकार का उपयोग करके बाइनरी मान को असंपीड़ित करता है.
 
 
@@ -20,7 +18,7 @@ Binary.Decompress(
 ```
 
 
-## Details
+## Remarks
 
 दिए गए कंप्रेशन प्रकार का उपयोग करके एक बाइनरी मान को असंम्पिड्य करता है. इस कॉल का परिणाम इनपुट की एक असंम्पिड्य की गई प्रतिलिपि होता है. कंप्रेशन प्रकारों में शामिल है:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
 

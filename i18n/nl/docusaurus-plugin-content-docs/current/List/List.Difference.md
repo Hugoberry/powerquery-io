@@ -5,8 +5,6 @@ title: List.Difference
 # List.Difference
 
 
-## Description
-
 Retourneert het verschil van de twee opgegeven lijsten.
 
 
@@ -21,7 +19,7 @@ List.Difference(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee worden de items in lijst <code>list1</code> geretourneerd die niet worden weergegeven in lijst <code>list2</code>. Dubbele waarden worden ondersteund. Een optionele vergelijkingscriteriawaarde, <code>equationCriteria</code>, kan worden opgegeven voor het aansturen van gelijkheidstesten. 
 

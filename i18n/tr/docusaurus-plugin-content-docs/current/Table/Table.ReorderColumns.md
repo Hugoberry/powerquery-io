@@ -5,8 +5,6 @@ title: Table.ReorderColumns
 # Table.ReorderColumns
 
 
-## Description
-
 Belirtilen sırada sütunları içeren bir tablo döndürür.
 
 
@@ -21,7 +19,7 @@ Table.ReorderColumns(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> girdisinden <code>columnOrder</code> tarafından belirtilen sırada sütunları içeren bir tablo döndürür. Listede belirtilmeyen sütunlar yeniden sıralanmaz.     Sütun yoksa, <code>missingField</code> isteğe bağlı parametresi bir alternatif belirtmediği sürece özel durum oluşur (örn. <code>MissingField.UseNull</code> veya <code>MissingField.Ignore</code>).
 

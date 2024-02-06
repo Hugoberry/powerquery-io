@@ -5,8 +5,6 @@ title: Value.As
 # Value.As
 
 
-## Description
-
 Trả về giá trị nếu giá trị tương thích với loại đã chỉ định.
 
 
@@ -20,7 +18,7 @@ Value.As(
 ```
 
 
-## Details
+## Remarks
 
 Trả về giá trị nếu giá trị tương thích với loại được chỉ định hay không. Cách này tương đương với toán tử “như” trong M, với ngoại lệ là có thể chấp nhận các thuộc tính loại mã định danh như Number.Type.
 

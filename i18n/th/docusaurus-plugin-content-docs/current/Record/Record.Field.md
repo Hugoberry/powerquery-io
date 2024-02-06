@@ -5,8 +5,6 @@ title: Record.Field
 # Record.Field
 
 
-## Description
-
 ส่งกลับค่าของเขตข้อมูลที่ระบุในระเบียน
 
 
@@ -20,7 +18,7 @@ Record.Field(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่าของ <code>field</code> ที่ระบุใน <code>record</code> ถ้าไม่พบเขตข้อมูล ระบบจะแสดงข้อยกเว้น
 

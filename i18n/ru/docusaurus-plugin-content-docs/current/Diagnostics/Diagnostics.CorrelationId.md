@@ -5,8 +5,6 @@ title: Diagnostics.CorrelationId
 # Diagnostics.CorrelationId
 
 
-## Description
-
 Возвращает непрозрачный идентификатор для сопоставления входящих запросов с исходящими.
 
 
@@ -19,7 +17,7 @@ Diagnostics.CorrelationId(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает непрозрачный идентификатор для сопоставления входящих запросов с исходящими.
 

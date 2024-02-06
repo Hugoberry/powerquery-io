@@ -5,8 +5,6 @@ title: Type.NonNullable
 # Type.NonNullable
 
 
-## Description
-
 Returnerer typen, der ikke kan være null, fra en type.
 
 
@@ -19,7 +17,7 @@ Type.NonNullable(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer typen, der ikke kan være <code>nullable</code>, fra <code>type</code>.
 

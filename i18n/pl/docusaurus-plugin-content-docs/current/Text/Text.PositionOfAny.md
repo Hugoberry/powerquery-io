@@ -5,8 +5,6 @@ title: Text.PositionOfAny
 # Text.PositionOfAny
 
 
-## Description
-
 Zwraca pierwszą pozycję dowolnego wymienionego znaku w wartości tekstowej lub -1, jeśli znak nie zostanie znaleziony.
 
 
@@ -21,7 +19,7 @@ Text.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca pierwszą pozycję dowolnego znaku na liście <code>characters</code> znajdującego się w klasie <code>text</code>.    Opcjonalny parametr <code>occurrence</code> może służyć do określenia pozycji wystąpienia do zwrócenia.
 

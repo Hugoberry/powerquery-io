@@ -5,8 +5,6 @@ title: Record.FromTable
 # Record.FromTable
 
 
-## Description
-
 \{[Name = name, Value = value]} という形式のテーブルからレコードを作成します。
 
 
@@ -19,7 +17,7 @@ Record.FromTable(
 ```
 
 
-## Details
+## Remarks
 
 フィールド名と値の名前 <code>\{[Name = name, Value = value]}</code> を含むレコード <code>table</code> のテーブルからレコードを返します。フィールド名が一意でなかった場合は、例外がスローされます。
 

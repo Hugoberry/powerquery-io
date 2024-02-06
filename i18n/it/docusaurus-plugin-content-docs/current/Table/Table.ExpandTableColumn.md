@@ -5,8 +5,6 @@ title: Table.ExpandTableColumn
 # Table.ExpandTableColumn
 
 
-## Description
-
 Espande una colonna di record o una colonna di tabelle in più colonne nella tabella che la contiene.
 
 
@@ -22,7 +20,7 @@ Table.ExpandTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Espande le tabelle in <code>table</code>[<code>column</code>] in più righe più e colonne. <code>columnNames</code> viene utilizzato per selezionare le colonne da espandere dalla tabella interna. Specificare <code>newColumnNames</code> per evitare conflitti tra le colonne esistenti e le nuove colonne.
 

@@ -5,8 +5,6 @@ title: Number.Ln
 # Number.Ln
 
 
-## Description
-
 ส่งกลับลอการิทึมธรรมชาติของตัวเลข
 
 
@@ -19,7 +17,7 @@ Number.Ln(
 ```
 
 
-## Details
+## Remarks
 
 ส่งคืนอัลกอริทึ่มสำหรับตัวเลข <code>number</code> หาก <code>number</code> เป็น Null <code>Number.Ln</code> จะส่งคืนค่าเป็น Null
 

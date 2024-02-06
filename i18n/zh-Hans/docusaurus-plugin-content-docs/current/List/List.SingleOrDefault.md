@@ -5,8 +5,6 @@ title: List.SingleOrDefault
 # List.SingleOrDefault
 
 
-## Description
-
 对于长度为 1 的列表返回一个列表项，对于空列表返回默认值。
 
 
@@ -20,7 +18,7 @@ List.SingleOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 如果列表 <code>list</code> 中只有一项，则返回该项。    如果列表为空，函数将返回 null，除非指定了可选的 <code>default</code>。如果列表中有多项，函数将返回错误。
 

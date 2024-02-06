@@ -5,8 +5,6 @@ title: Number.Combinations
 # Number.Combinations
 
 
-## Description
-
 Gibt die Anzahl eindeutiger Kombinationen zurück.
 
 
@@ -20,7 +18,7 @@ Number.Combinations(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die Anzahl eindeutiger Kombinationen aus einer Liste mit Elementen (<code>setSize</code>) mit der angegebenen Kombinationsgröße (<code>combinationSize</code>) zurück.<ul>    <li><code>setSize</code>: Die Anzahl von Elementen in der Liste.</li>    <li><code>combinationSize</code>: Die Anzahl von Elementen in jeder Kombination.</li></ul>
 

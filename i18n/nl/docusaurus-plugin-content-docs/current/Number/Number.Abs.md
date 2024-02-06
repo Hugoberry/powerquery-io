@@ -5,8 +5,6 @@ title: Number.Abs
 # Number.Abs
 
 
-## Description
-
 Retourneert de absolute waarde van het getal.
 
 
@@ -19,7 +17,7 @@ Number.Abs(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt de absolute waarde van <code>number</code> geretourneerd. Als <code>number</code> null is, retourneert <code>Number.Abs</code> null. <ul> <li><code>number</code>: een <code>number</code> waarvoor de absolute waarde moet worden berekend.</li> </ul>
 

@@ -15,7 +15,7 @@ PowerBI.Dataflows(
 ```
 
 
-## Details
+## Remarks
 
 Nawiąż połączenie z wszystkimi przepływami danych usługi Power BI, do których masz dostęp, i wybierz jednostki, których chcesz użyć.
 

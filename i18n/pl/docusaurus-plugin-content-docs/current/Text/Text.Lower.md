@@ -5,8 +5,6 @@ title: Text.Lower
 # Text.Lower
 
 
-## Description
-
 Konwertuje wszystkie znaki na małe litery.
 
 
@@ -20,7 +18,7 @@ Text.Lower(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wynik konwersji wszystkich znaków w elemencie <code>text</code> na małe litery. Można także określić opcjonalny parametr <code>culture</code> (na przykład „en-US”).
 

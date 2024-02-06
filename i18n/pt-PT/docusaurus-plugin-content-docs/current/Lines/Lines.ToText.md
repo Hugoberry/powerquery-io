@@ -5,8 +5,6 @@ title: Lines.ToText
 # Lines.ToText
 
 
-## Description
-
 Converte uma lista de texto num texto único.  O lineSeparator especificado é acrescentado a cada linha.  Se não for especificado, serão utilizados os carateres de símbolo de retorno e avanço de linha.
 
 
@@ -20,7 +18,7 @@ Lines.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Converte uma lista de texto num texto único.  O lineSeparator especificado é acrescentado a cada linha.  Se não for especificado, serão utilizados os carateres de símbolo de retorno e avanço de linha.
 

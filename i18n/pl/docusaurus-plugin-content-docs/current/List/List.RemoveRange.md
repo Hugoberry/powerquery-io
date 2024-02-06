@@ -5,8 +5,6 @@ title: List.RemoveRange
 # List.RemoveRange
 
 
-## Description
-
 Usuwa określoną liczbę wartości, zaczynając od określonej pozycji.
 
 
@@ -21,7 +19,7 @@ List.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 Usuwa <code>count</code> wartości z listy <code>list</code>, zaczynając od określonej pozycji <code>index</code>.
 

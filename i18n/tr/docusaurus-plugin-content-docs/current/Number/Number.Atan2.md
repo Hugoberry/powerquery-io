@@ -5,8 +5,6 @@ title: Number.Atan2
 # Number.Atan2
 
 
-## Description
-
 İki sayının bölümünün arktanjantını döndürür.
 
 
@@ -20,7 +18,7 @@ Number.Atan2(
 ```
 
 
-## Details
+## Remarks
 
 <code>y</code> ve <code>x</code> sayılarının bölümünün arktanjantını döndürür. Bölüm <code>y</code>/<code>x</code> olarak oluşturulur.
 

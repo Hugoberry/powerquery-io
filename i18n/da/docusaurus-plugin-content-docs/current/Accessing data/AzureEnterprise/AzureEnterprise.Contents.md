@@ -5,8 +5,6 @@ title: AzureEnterprise.Contents
 # AzureEnterprise.Contents
 
 
-## Description
-
 Angiv URL-adressen til slutpunktet for den Azure Enterprise REST-API, der er knyttet til tilmeldingen
 
 
@@ -20,7 +18,7 @@ AzureEnterprise.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer de binære resultater af kaldet til den URL-adresse, der er angivet til Azure Enterprise-API'en.
 

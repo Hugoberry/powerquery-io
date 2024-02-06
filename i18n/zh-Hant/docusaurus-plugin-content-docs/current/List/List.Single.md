@@ -5,8 +5,6 @@ title: List.Single
 # List.Single
 
 
-## Description
-
 為長度 1 的清單傳回一個清單項目，否則擲回例外狀況。
 
 
@@ -19,7 +17,7 @@ List.Single(
 ```
 
 
-## Details
+## Remarks
 
 如果清單 <code>list</code> 中只有一個項目，即傳回該項目。    如果不止一個項目或清單是空的，函數會擲回例外狀況。
 

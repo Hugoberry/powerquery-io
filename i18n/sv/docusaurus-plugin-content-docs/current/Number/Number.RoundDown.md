@@ -5,8 +5,6 @@ title: Number.RoundDown
 # Number.RoundDown
 
 
-## Description
-
 Returnerar föregående största heltal. Antalet decimaltal kan specificeras.
 
 
@@ -20,7 +18,7 @@ Number.RoundDown(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar resultatet från att <code>number</code> avrundas nedåt till föregående största heltal. Om <code>number</code> är null returnerar den här funktionen null.    Om <code>digits</code> anges avrundas <code>number</code> till det angivna antalet decimaltal. 
 

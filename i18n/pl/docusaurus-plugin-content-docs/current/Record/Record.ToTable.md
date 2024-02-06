@@ -5,8 +5,6 @@ title: Record.ToTable
 # Record.ToTable
 
 
-## Description
-
 Zwraca tabelę, w której każdy wiersz składa się z nazwy i wartości pola rekordu wejściowego.
 
 
@@ -19,7 +17,7 @@ Record.ToTable(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę zawierającą w każdym wierszu kolumny <code>Name</code> i <code>Value</code> odpowiadające wszystkim polom w rekordzie <code>record</code>.
 

@@ -5,8 +5,6 @@ title: Splitter.SplitTextByRanges
 # Splitter.SplitTextByRanges
 
 
-## Description
-
 傳回函數，這個函數會根據指定的位移和長度，將文字分割成文字清單。
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 會根據指定的位移和長度傳回將文字分割成文字清單的函數。Null 長度表示應該包含所有剩餘的輸入。
 

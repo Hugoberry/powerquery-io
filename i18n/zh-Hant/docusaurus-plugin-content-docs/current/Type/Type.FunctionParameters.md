@@ -5,8 +5,6 @@ title: Type.FunctionParameters
 # Type.FunctionParameters
 
 
-## Description
-
 傳回記錄，包含函數類型參數名稱的資料行值的記錄，以及其相對應類型的值設定。
 
 
@@ -19,7 +17,7 @@ Type.FunctionParameters(
 ```
 
 
-## Details
+## Remarks
 
 傳回記錄，包含 <code>type</code> 參數名稱的資料行值的記錄，以及其相對應類型的值設定。
 

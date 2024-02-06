@@ -5,8 +5,6 @@ title: BinaryFormat.Group
 # BinaryFormat.Group
 
 
-## Description
-
 Returnerar ett binärformat som läser en grupp med objekt.
 
 
@@ -22,7 +20,7 @@ BinaryFormat.Group(
 ```
 
 
-## Details
+## Remarks
 
 Parametrarna är som följer:<ul><li>Parametern <code>binaryFormat</code> anger binärformatet för nyckelvärdet.</li><li>Parametern <code>group</code> ger information om gruppen med kända objekt.</li><li>Den valfria parametern <code>extra</code> kan användas för att ange en funktion som returnerar ett värde i binärformat för oväntade nyckelvärden.  Om parametern <code>extra</code> inte anges returneras ett fel om det finns oväntade nyckelvärden.</li></ul>Parametern <code>group</code> anger en lista med objektdefinitioner.  Varje objektdefinition är en lista som innehåller mellan 3 och 5 värden enligt följande:<ul><li>Nyckelvärde.  Värdet på den nyckel som hör till objektet.  Detta måste vara ett unikt värde i uppsättningen med objekt.</li><li>Objektformat.  Binärformatet för objektets värde.  Detta gör att objekten kan ha olika format. </li><li>Objektförekomst.  <code>BinaryOccurrence.Type</code>-värdet som anger hur många gånger objektet förväntas förekomma i gruppen.   Obligatoriska objekt som saknas genererar ett fel.  Obligatoriska eller valfria dubblettobjekt hanteras som oväntade nyckelvärden.</li><li>Standardobjektvärde (valfritt).  Om standardobjektvärdet visas i objektdefinitionslistan och det inte är null, används det i stället för standardvärdet.  Standardvärdet för upprepade eller valfria objekt är null, och standardvärdet för upprepade värden är en tom lista \{ }.</li><li>Objektvärdetransformering (valfritt).   Om funktionen för objektvärdetransformering finns med i objektdefinitionslistan och den inte är null, anropas funktionen för att transformera objektvärdet innan det returneras.  Transform-funktionen anropas bara om objektet förekommer i dina indata (den anropas aldrig med standardvärdet). </li></ul>
 

@@ -5,8 +5,6 @@ title: Stripe.Contents
 # Stripe.Contents
 
 
-## Description
-
 Anropar Stripe-API:et, med alternativet att begränsa antalet gjorda API-anrop.
 
 
@@ -21,7 +19,7 @@ Stripe.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Anropar Stripe-API:et på https://api.stripe.com/v1/<code>method</code>, med den alternativa posten <code>query</code> överförd som extra parametrar och valfria <code>pageLimit</code> som gräns för antalet API-förfrågningar. Senaste data returneras först. Om <code>pageLimit</code> inte anges returneras alla data. Stripe-version 2015-10-16 används.
 

@@ -5,8 +5,6 @@ title: List.Union
 # List.Union
 
 
-## Description
-
 Girdide bulunan liste değerlerinin birleşimini döndürür.
 
 
@@ -20,7 +18,7 @@ List.Union(
 ```
 
 
-## Details
+## Remarks
 
 <code>lists</code> liste listesini alır, her listedeki öğeleri birleştirir ve çıktı listesinde döndürür. Sonuç olarak, döndürülen liste tüm girdi listelerindeki bütün öğeleri içerir.    Bu işlem geleneksel torba semantiğini korur, böylece yinelenen değerler Birleşimin parçası olarak eşleştirilir.    Eşitlik sınamasını denetlemek için <code>equationCriteria</code> isteğe bağlı denklem ölçüt değeri belirtilebilir. 
 

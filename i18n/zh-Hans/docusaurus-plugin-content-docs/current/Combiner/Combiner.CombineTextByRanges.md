@@ -5,8 +5,6 @@ title: Combiner.CombineTextByRanges
 # Combiner.CombineTextByRanges
 
 
-## Description
-
 返回一个函数，它使用指定的位置和长度将文本列表合并。
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 返回一个函数，该函数使用指定的输出位置和长度将文本值列表合并为单个文本值。null 长度指示整个文本值都应被包含。
 

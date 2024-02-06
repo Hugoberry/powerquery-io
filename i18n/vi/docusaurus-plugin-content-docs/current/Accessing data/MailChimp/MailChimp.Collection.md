@@ -5,8 +5,6 @@ title: MailChimp.Collection
 # MailChimp.Collection
 
 
-## Description
-
 Trả về bảng có chứa dữ liệu từ điểm cuối MailChimp.
 
 
@@ -20,7 +18,7 @@ MailChimp.Collection(
 ```
 
 
-## Details
+## Remarks
 
 Thực hiện lệnh gọi đến API MailChimp và trả về tập dữ liệu kết quả dưới dạng bảng. Tự động chuyển trang qua tất cả các kết quả. Bạn có thể sử dụng tham số entityName (Tên thực thể) cho các điểm cuối API khi điểm cuối gốc và entityName (Tên thực thể) chính trong phản hồi ở định dạng JSON không khớp.
 

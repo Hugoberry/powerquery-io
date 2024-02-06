@@ -5,8 +5,6 @@ title: Table.Last
 # Table.Last
 
 
-## Description
-
 Son satırı veya belirtilen varsayılan değeri döndürür.
 
 
@@ -20,7 +18,7 @@ Table.Last(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> öğesinin son satırını veya tablo boşsa <code>default</code> isteğe bağlı varsayılan değerini döndürür.
 

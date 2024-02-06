@@ -5,8 +5,6 @@ title: Type.FunctionParameters
 # Type.FunctionParameters
 
 
-## Description
-
 関数型のパラメーターの名前にフィールドの値が設定されたレコードと、関連する型に設定されたフィールドの値を返します。
 
 
@@ -19,7 +17,7 @@ Type.FunctionParameters(
 ```
 
 
-## Details
+## Remarks
 
 <code>type</code> のパラメーターの名前にフィールドの値が設定されたレコードと、関連する型に設定されたフィールドの値を返します。
 

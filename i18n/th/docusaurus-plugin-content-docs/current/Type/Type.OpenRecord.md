@@ -5,8 +5,6 @@ title: Type.OpenRecord
 # Type.OpenRecord
 
 
-## Description
-
 ส่งกลับเวอร์ชันที่ถูกเปิดของประเภทระเบียนที่ระบุ (หรือประเภทเดียวกัน ถ้าเปิดอยู่แล้ว)
 
 
@@ -19,7 +17,7 @@ Type.OpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับเวอร์ชันของ <code>record</code> <code>type</code> ที่ระบุซึ่งถูกเปิด (หรือประเภทเดียวกัน ถ้าเปิดอยู่แล้ว)
 

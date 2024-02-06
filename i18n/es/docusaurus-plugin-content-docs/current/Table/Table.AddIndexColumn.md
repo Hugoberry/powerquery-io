@@ -5,8 +5,6 @@ title: Table.AddIndexColumn
 # Table.AddIndexColumn
 
 
-## Description
-
 Anexa una columna con valores de posición explícitos.
 
 
@@ -23,7 +21,7 @@ Table.AddIndexColumn(
 ```
 
 
-## Details
+## Remarks
 
 Anexar una columna con nombre <code>newColumnName</code> a <code>table</code> con valores de posición explícitos.    Un valor opcional, <code>initialValue</code>, el valor del índice inicial. Un valor opcional, <code>increment</code>, especifica cuánto aumentar cada valor de índice.
 

@@ -5,8 +5,6 @@ title: Int64.From
 # Int64.From
 
 
-## Description
-
 दिए गए मान से 64-बिट पूर्णांक बनाता है.
 
 
@@ -21,7 +19,7 @@ Int64.From(
 ```
 
 
-## Details
+## Remarks
 
 दिए गए <code>value</code> से 64-बिट पूर्णांक <code>संख्या</code> मान वापस करता है. यदि दिया गया <code>value</code> <code>नल</code> है, तो <code>Int64.From</code><code>नल</code> वापस करता है. यदि दी गई <code>value</code> <code>संख्या</code> आंशिक भाग के बिना 64-बिट पूर्णांक की श्रेणी में है, तो <code>value</code> वापस किया जाता है. यदि उसमें आंशिक भाग है, तो संख्या को राउंडिंग मोड निर्दिष्ट करके राउंड किया जाता है. डिफ़ॉल्ट राउंडिंग कोड <code>RoundingMode.ToEven</code> है. यदि <code>value</code> किसी अन्य प्रकार का है, तो पहले उसे <code>Number.FromText</code> का उपयोग करके <code>संख्या</code> में रूपांतरित किया जाएगा. उपलब्ध राउंडिंग मोड के लिए <code>Number.Round</code> देखें. वैकल्पिक <code>culture</code> भी प्रदान किया जा सकता है (उदाहरण के लिए, "en-US").
 

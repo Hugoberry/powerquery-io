@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.EnvironmentContents
 # Dynamics365BusinessCentral.EnvironmentContents
 
 
-## Description
-
 अपना Dynamics 365 Business Central परिवेश और कंपनी दर्ज करें.
 
 
@@ -20,7 +18,7 @@ Dynamics365BusinessCentral.EnvironmentContents(
 ```
 
 
-## Details
+## Remarks
 
 प्रासंगिक Dynamics 365 Business Central डेटा वाली तालिका वापस करता है. 
 

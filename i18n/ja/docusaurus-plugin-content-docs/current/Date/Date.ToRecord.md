@@ -5,8 +5,6 @@ title: Date.ToRecord
 # Date.ToRecord
 
 
-## Description
-
 日付値の部分を含むレコードを返します。
 
 
@@ -19,7 +17,7 @@ Date.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 指定された date 値 (<code>date</code>) の部分を含むレコードを返します。 <ul>        <li><code>date</code>: その部分のレコードが計算される <code>date</code> 値。</li>      </ul>
 

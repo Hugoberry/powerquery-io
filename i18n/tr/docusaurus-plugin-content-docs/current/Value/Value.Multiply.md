@@ -5,8 +5,6 @@ title: Value.Multiply
 # Value.Multiply
 
 
-## Description
-
 İki değerin çarpımını döndürür.
 
 
@@ -21,7 +19,7 @@ Value.Multiply(
 ```
 
 
-## Details
+## Remarks
 
 <code>value1</code> ile <code>value2</code> değerini çarpmanın sonucunu döndürür. İsteğe bağlı bir <code>precision</code> parametresi belirtilebilir, varsayılan olarak <code>Precision.Double</code> kullanılır.
 

@@ -5,8 +5,6 @@ title: Single.From
 # Single.From
 
 
-## Description
-
 Cria um Único para o valor determinado.
 
 
@@ -20,7 +18,7 @@ Single.From(
 ```
 
 
-## Details
+## Remarks
 
 Retorna um valor <code>number</code> Único com base no <code>value</code> especificado. Se o <code>value</code> especificado for <code>null</code>, <code>Single.From</code> retornará <code>null</code>. Se o <code>value</code> especificado for um <code>number</code> dentro do intervalo de Único, <code>value</code> será retornado. Caso contrário, um erro será retornado. Se o <code>value</code> for de qualquer outro tipo, será convertido primeiro para um <code>number</code> usando <code>Number.FromText</code>. Um <code>culture</code> opcional também pode ser fornecido (por exemplo, "pt-BR").
 

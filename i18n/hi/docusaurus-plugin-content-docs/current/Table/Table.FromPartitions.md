@@ -5,8 +5,6 @@ title: Table.FromPartitions
 # Table.FromPartitions
 
 
-## Description
-
 वह तालिका लौटाता है जो एक विभाजित की गई तालिकाओं के सेट के संयोजन का परिणाम है.
 
 
@@ -21,7 +19,7 @@ Table.FromPartitions(
 ```
 
 
-## Details
+## Remarks
 
 वह तालिका लौटाता है जो विभाजित तालिकाओं <code>partitions</code> के संयोजन का परिणाम है. <code>partitionColumn</code> जोड़े जाने वाले स्‍तंभ का नाम है. स्‍तंभ का प्रकार डिफ़ॉल्‍ट रूप से <code>कोई भी</code> होता है, लेकिन <code>partitionColumnType</code> द्वारा निर्दिष्ट किया जा सकता है.
 

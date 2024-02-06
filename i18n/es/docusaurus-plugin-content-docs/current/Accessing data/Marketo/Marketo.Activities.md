@@ -5,8 +5,6 @@ title: Marketo.Activities
 # Marketo.Activities
 
 
-## Description
-
 Devuelve una tabla con las actividades del cliente potencial.
 
 
@@ -21,7 +19,7 @@ Marketo.Activities(
 ```
 
 
-## Details
+## Remarks
 
 Hace una llamada al punto de conexión de la API de REST de Marketo en <code>url</code>/rest/v1/activities.json. Se devuelven todas las actividades de la lista <code>activityIds</code> que se produjeron desde las <code>startTime</code>.
 

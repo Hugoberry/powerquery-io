@@ -5,8 +5,6 @@ title: Table.DemoteHeaders
 # Table.DemoteHeaders
 
 
-## Description
-
 将列标题降级到第一行值。
 
 
@@ -19,7 +17,7 @@ Table.DemoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 将列标题(也即列名)降级到第一行值。默认列名为 "Column1"、"Column2" 等。
 

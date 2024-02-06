@@ -5,8 +5,6 @@ title: List.SingleOrDefault
 # List.SingleOrDefault
 
 
-## Description
-
 長さが 1 のリストに対して 1 つのリスト項目を返し、空のリストに対しては既定値を返します。
 
 
@@ -20,7 +18,7 @@ List.SingleOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 リスト <code>list</code> に含まれる項目が 1 つしかない場合は、その項目を返します。    リストが空で、かつ省略可能な <code>default</code> が指定されていない場合、この関数は NULL を返します。リストに複数の項目が含まれている場合、この関数はエラーを返します。
 

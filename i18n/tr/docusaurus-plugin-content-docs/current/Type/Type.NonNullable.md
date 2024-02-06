@@ -5,8 +5,6 @@ title: Type.NonNullable
 # Type.NonNullable
 
 
-## Description
-
 Bir türden boş değer atanabilir olmayan türü döndürür.
 
 
@@ -19,7 +17,7 @@ Type.NonNullable(
 ```
 
 
-## Details
+## Remarks
 
 <code>type</code> kaynağından <code>nullable</code> olmayan türü döndürür.
 

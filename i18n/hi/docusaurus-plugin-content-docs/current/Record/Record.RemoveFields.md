@@ -5,8 +5,6 @@ title: Record.RemoveFields
 # Record.RemoveFields
 
 
-## Description
-
 किसी रिकॉर्ड में निर्दिष्ट फ़ील्ड का मान लौटाता है.
 
 
@@ -21,7 +19,7 @@ Record.RemoveFields(
 ```
 
 
-## Details
+## Remarks
 
 एक ऐसा रिकॉर्ड लौटाता है जो इनपुट <code>record</code> से <code>fields</code> में निर्दिष्ट सभी फ़ील्ड निकाल देता है. अगर निर्दिष्ट फ़ील्ड मौजूद नहीं है, तो एक अपवाद दिखाया जाता है.
 

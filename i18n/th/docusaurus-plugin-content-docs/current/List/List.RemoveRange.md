@@ -5,8 +5,6 @@ title: List.RemoveRange
 # List.RemoveRange
 
 
-## Description
-
 เอาจำนวนนับของค่าออกโดยเริ่มต้นในตำแหน่งที่ระบุ
 
 
@@ -21,7 +19,7 @@ List.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 เอาค่า <code>count</code> ใน <code>list</code> ออกโดยเริ่มต้นในตำแหน่งที่ระบุ <code>index</code>
 

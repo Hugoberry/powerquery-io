@@ -5,8 +5,6 @@ title: List.Union
 # List.Union
 
 
-## Description
-
 Devolve a união dos valores da lista encontrados na entrada.
 
 
@@ -20,7 +18,7 @@ List.Union(
 ```
 
 
-## Details
+## Remarks
 
 Utiliza uma lista de listas <code>lists</code>, efetua a união dos itens existentes nas listas individuais e devolve-os na lista de saída. Como resultado, a lista devolvida contém todos os itens existentes em quaisquer listas de entrada.    Esta operação mantém uma semântica "bag" tradicional, pelo que os valores duplicados são correspondidos como parte da União.    É possível especificar um valor de critério de equação opcional, <code>equationCriteria</code>, para controlar o teste de igualdade. 
 

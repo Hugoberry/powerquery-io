@@ -5,8 +5,6 @@ title: Splitter.SplitTextByCharacterTransition
 # Splitter.SplitTextByCharacterTransition
 
 
-## Description
-
 傳回會根據一種字元至另一種字元的轉換，來將文字分割至文字清單的函式。\{0} 及 \{1} 參數可以是字元的清單，或是會接收字元並傳回 true/false 的函式。
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByCharacterTransition(
 ```
 
 
-## Details
+## Remarks
 
 傳回會根據一種字元至另一種字元的轉換，來將文字分割至文字清單的函式。<code>before</code> 及 <code>after</code> 參數可以是字元的清單，或是會接收字元並傳回 true/false 的函式。
 

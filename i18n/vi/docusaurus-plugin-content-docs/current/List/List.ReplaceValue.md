@@ -5,8 +5,6 @@ title: List.ReplaceValue
 # List.ReplaceValue
 
 
-## Description
-
 Tìm kiếm giá trị cụ thể trong một danh sách và thay thế giá trị đó.
 
 
@@ -22,7 +20,7 @@ List.ReplaceValue(
 ```
 
 
-## Details
+## Remarks
 
 Trong danh sách giá trị <code>list</code>, tìm giá trị <code>oldValue</code> và thay thế mỗi lần xuất hiện bằng giá trị thay thế <code>newValue</code>.
 

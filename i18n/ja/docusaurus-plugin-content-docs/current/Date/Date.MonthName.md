@@ -5,8 +5,6 @@ title: Date.MonthName
 # Date.MonthName
 
 
-## Description
-
 月部分の名前を返します。
 
 
@@ -20,7 +18,7 @@ Date.MonthName(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>date</code> の月部分の名前を返します。省略可能な <code>culture</code> を指定することもできます (例: "en-US")。
 

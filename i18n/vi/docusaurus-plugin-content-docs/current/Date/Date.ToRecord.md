@@ -5,8 +5,6 @@ title: Date.ToRecord
 # Date.ToRecord
 
 
-## Description
-
 Trả về một bản ghi chứa các phần của giá trị ngày.
 
 
@@ -19,7 +17,7 @@ Date.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bản ghi chứa các phần của giá trị ngày cho sẵn, <code>date</code>. <ul>        <li><code>date</code>: Một giá trị <code>date</code> nơi bản ghi các phần của giá trị đó sẽ được tính.</li>      </ul>
 

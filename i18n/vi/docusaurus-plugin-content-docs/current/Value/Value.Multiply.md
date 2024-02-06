@@ -5,8 +5,6 @@ title: Value.Multiply
 # Value.Multiply
 
 
-## Description
-
 Trả về tích của hai giá trị.
 
 
@@ -21,7 +19,7 @@ Value.Multiply(
 ```
 
 
-## Details
+## Remarks
 
 Trả về tích của phép nhân <code>value1</code> với <code>value2</code>. Có thể chỉ định tham số <code>precision</code> tùy chọn, theo mặc định <code>Precision.Double</code> được sử dụng.
 

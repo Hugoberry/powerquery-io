@@ -5,8 +5,6 @@ title: Table.FromColumns
 # Table.FromColumns
 
 
-## Description
-
 Opretter en tabel ud fra en liste med kolonner og angivne værdier.
 
 
@@ -20,7 +18,7 @@ Table.FromColumns(
 ```
 
 
-## Details
+## Remarks
 
 Opretter en tabel af typen <code>columns</code> ud fra en liste <code>lists</code>, der indeholder indlejrede lister med kolonnenavne og værdier.    Hvis nogen af kolonnerne har flere værdier end andre, udfyldes de manglende værdier med standardværdien 'null', hvis kolonnen må være null.
 

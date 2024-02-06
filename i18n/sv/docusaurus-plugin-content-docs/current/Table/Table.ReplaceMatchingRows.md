@@ -5,8 +5,6 @@ title: Table.ReplaceMatchingRows
 # Table.ReplaceMatchingRows
 
 
-## Description
-
 Ersätter alla angivna rader med den eller de angivna raderna.
 
 
@@ -21,7 +19,7 @@ Table.ReplaceMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 Ersätter alla specificerade rader i <code>table</code> med de som angivits. Raderna som ska ersättas och ersättningarna anges i <code>replacements</code> i formatet \{old, new}.    En valfri <code>equationCriteria</code>-parameter kan anges för att styra jämförelsen mellan raderna i tabellen.
 

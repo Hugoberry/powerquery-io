@@ -5,8 +5,6 @@ title: Date.MonthName
 # Date.MonthName
 
 
-## Description
-
 傳回月份元件的名稱。
 
 
@@ -20,7 +18,7 @@ Date.MonthName(
 ```
 
 
-## Details
+## Remarks
 
 傳回所提供 <code>date</code> 的月份元件名稱。也可提供選用的 <code>culture</code> (例如 "en-US")。
 

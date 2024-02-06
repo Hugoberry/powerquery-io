@@ -5,8 +5,6 @@ title: Table.InsertRows
 # Table.InsertRows
 
 
-## Description
-
 将行列表插入到表中的指定位置。
 
 
@@ -21,7 +19,7 @@ Table.InsertRows(
 ```
 
 
-## Details
+## Remarks
 
 返回一个表，其中行列表 <code>rows</code> 插入到 <code>table</code> 的给定位置 <code>offset</code>。要插入的行中的每列都必须与表的列类型相匹配。
 

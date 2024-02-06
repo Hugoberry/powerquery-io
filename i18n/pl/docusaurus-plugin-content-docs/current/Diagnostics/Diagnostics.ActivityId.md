@@ -5,8 +5,6 @@ title: Diagnostics.ActivityId
 # Diagnostics.ActivityId
 
 
-## Description
-
 Zwraca identyfikator nieprzezroczysty dla obecnie działającej oceny.
 
 
@@ -19,7 +17,7 @@ Diagnostics.ActivityId(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca identyfikator nieprzezroczysty dla obecnie działającej oceny.
 

@@ -5,8 +5,6 @@ title: Value.Multiply
 # Value.Multiply
 
 
-## Description
-
 ส่งกลับผลคูณของสองค่า
 
 
@@ -21,7 +19,7 @@ Value.Multiply(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลคูณของการคูณ <code>value1</code> ด้วย <code>value2</code> พารามิเตอร์ <code>precision</code> ที่เลือกได้อาจถูกระบุไว้ ตามค่าเริ่มต้น จะมีการใช้ <code>Precision.Double</code>
 

@@ -5,8 +5,6 @@ title: Number.Combinations
 # Number.Combinations
 
 
-## Description
-
 Returnerar antalet unika kombinationer.
 
 
@@ -20,7 +18,7 @@ Number.Combinations(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar antalet unika kombinationer från en lista med objekt, <code>setSize</code>, med angiven kombinationsstorlek, <code>combinationSize</code>.<ul>    <li><code>setSize</code>: Antalet objekt i listan.</li>    <li><code>combinationSize</code>: Antalet objekt i varje kombination.</li></ul>
 

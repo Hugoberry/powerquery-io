@@ -5,8 +5,6 @@ title: Double.From
 # Double.From
 
 
-## Description
-
 Maakt een waarde voor Dubbel van de opgegeven waarde.
 
 
@@ -20,7 +18,7 @@ Double.From(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een Double <code>number</code>-waarde geretourneerd vanuit de opgegeven <code>value</code>. Als de opgegeven <code>value</code> de waarde <code>null</code> heeft, wordt door <code>Double.From</code> de waarde <code>null</code> geretourneerd. Als de opgegeven <code>value</code> een <code>number</code>-waarde heeft binnen het bereik van Double, wordt <code>value</code> geretourneerd. In andere gevallen wordt een fout geretourneerd. Als <code>value</code> van een ander type is, wordt deze eerst geconverteerd naar een <code>number</code> met behulp van <code>Number.FromText</code>. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
 

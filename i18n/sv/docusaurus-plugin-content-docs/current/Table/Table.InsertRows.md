@@ -5,8 +5,6 @@ title: Table.InsertRows
 # Table.InsertRows
 
 
-## Description
-
 Infogar en lista med rader i tabellen vid angiven position.
 
 
@@ -21,7 +19,7 @@ Table.InsertRows(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en tabell med listan med rader, <code>rows</code>, infogad i <code>table</code> vid angiven position, <code>offset</code>. Varje kolumn i raden som ska infogas måste matcha tabellens kolumntyper.
 

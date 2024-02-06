@@ -5,8 +5,6 @@ title: Date.IsInCurrentMonth
 # Date.IsInCurrentMonth
 
 
-## Description
-
 Wskazuje, na podstawie aktualnej daty i godziny w systemie, czy ta data wypada w bieżącym miesiącu.
 
 
@@ -19,7 +17,7 @@ Date.IsInCurrentMonth(
 ```
 
 
-## Details
+## Remarks
 
 Wskazuje, na podstawie aktualnej daty i godziny w systemie, czy dana wartość w formacie datetime równa <code>dateTime</code> wypada w bieżącym miesiącu.      <ul>      <li><code>dateTime</code>: wartość typu <code>date</code>, <code>datetime</code> lub <code>datetimezone</code> do obliczenia.</li>      </ul>
 

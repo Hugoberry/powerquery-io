@@ -5,8 +5,6 @@ title: Binary.Buffer
 # Binary.Buffer
 
 
-## Description
-
 Place la valeur binaire dans la mémoire tampon.
 
 
@@ -19,7 +17,7 @@ Binary.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Place la valeur binaire dans la mémoire tampon. Le résultat de cet appel est une valeur binaire stable, avec une longueur et un ordre d'octets déterministes.
 

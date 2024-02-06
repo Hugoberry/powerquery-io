@@ -5,8 +5,6 @@ title: List.ReplaceMatchingItems
 # List.ReplaceMatchingItems
 
 
-## Description
-
 Anvender de enkelte erstatninger af \{ old, new }.
 
 
@@ -21,7 +19,7 @@ List.ReplaceMatchingItems(
 ```
 
 
-## Details
+## Remarks
 
 Udfører de angivne erstatninger på listen <code>list</code>. En erstatningshandling <code>replacements</code> består af en liste med to værdier, den gamle værdi og den nye værdi, som findes på en liste.    Du kan angive en valgfri kriterieværdi for ligningen, <code>equationCriteria</code>, for at styre kvalitetstesten.
 

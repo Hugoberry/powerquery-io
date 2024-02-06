@@ -5,8 +5,6 @@ title: Table.Unpivot
 # Table.Unpivot
 
 
-## Description
-
 Wandelt eine Spaltengruppe in einer Tabelle in Attribut-Wert-Paare um.
 
 
@@ -22,7 +20,7 @@ Table.Unpivot(
 ```
 
 
-## Details
+## Remarks
 
 Wandelt eine Spaltengruppe in einer Tabelle in Attribut-Wert-Paare um – kombiniert mit den restlichen Werten in den einzelnen Zeilen.
 

@@ -5,8 +5,6 @@ title: Date.EndOfMonth
 # Date.EndOfMonth
 
 
-## Description
-
 月の最後の日付を返します。
 
 
@@ -19,7 +17,7 @@ Date.EndOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> を含む月の最後の日付を返します。      <ul>        <li><code>dateTime</code>: 月の終わりを計算する <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値。</li>      </ul>
 

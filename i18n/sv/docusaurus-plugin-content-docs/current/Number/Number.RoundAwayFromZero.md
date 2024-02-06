@@ -5,8 +5,6 @@ title: Number.RoundAwayFromZero
 # Number.RoundAwayFromZero
 
 
-## Description
-
 Returnerar resultatet från avrundningen av positiva tal uppåt och negativa tal nedåt. Antalet siffror kan specificeras.
 
 
@@ -20,7 +18,7 @@ Number.RoundAwayFromZero(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar resultatet från att <code>number</code> avrundas baserat på talets tecken. Den här funktionen avrundar positiva tal uppåt och negativa tal nedåt.    Om <code>digits</code> anges avrundas <code>number</code> till <code>digits</code> decimaltal.  
 

@@ -16,7 +16,7 @@ Cds.Entities(
 ```
 
 
-## Details
+## Remarks
 
 連線到您的 Common Data Service 執行個體 (Dynamics 365 與 PowerApps)。
 

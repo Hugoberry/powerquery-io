@@ -5,8 +5,6 @@ title: Record.SelectFields
 # Record.SelectFields
 
 
-## Description
-
 ऐसा रिकॉर्ड लौटाता है जिसमें केवल निर्दिष्ट फ़ील्ड होती हैं.
 
 
@@ -21,7 +19,7 @@ Record.SelectFields(
 ```
 
 
-## Details
+## Remarks
 
 एक ऐसा रिकॉर्ड लौटाता है जिसमें इनपुट <code>record</code> से <code>fields</code> में निर्दिष्ट फ़ील्ड ही शामिल होते है.
 

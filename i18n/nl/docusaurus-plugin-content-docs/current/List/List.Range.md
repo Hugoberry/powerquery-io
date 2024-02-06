@@ -5,8 +5,6 @@ title: List.Range
 # List.Range
 
 
-## Description
-
 Retourneert een subset van de lijst, te beginnen bij een verschuiving.
 
 
@@ -21,7 +19,7 @@ List.Range(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een subset van de lijst, te beginnen bij de verschuiving <code>list</code>. Een optionele parameter, <code>offset</code>, stelt het maximum aantal items voor de subset in.
 

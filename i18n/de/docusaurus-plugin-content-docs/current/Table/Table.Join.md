@@ -5,8 +5,6 @@ title: Table.Join
 # Table.Join
 
 
-## Description
-
 Verknüpft die Zeilen aus den beiden Tabellen auf der Grundlage der angegebenen Schlüssel.
 
 
@@ -25,7 +23,7 @@ Table.Join(
 ```
 
 
-## Details
+## Remarks
 
 Führt die Zeilen von "<code>table1</code>" mit den Zeilen von "<code>table2</code>" zusammen. Grundlage hierfür bildet die Übereinstimmung der Werte der Schlüsselspalten, die durch "<code>key1</code>" (für "<code>table1</code>") und "<code>key2</code>" (für "<code>table2</code>") ausgewählt wurden.<br />Standardmäßig wird ein innerer Join ausgeführt, mit der optionalen Angabe von "<code>joinKind</code>" kann jedoch auch die Art des Joins festgelegt werden. Verfügbare Optionen:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Um festzulegen, wie die Schlüsselspalten verglichen werden sollen, kann ein optionaler <code>keyEqualityComparers</code>-Satz eingeschlossen werden. Dieser Parameter ist zurzeit nur für die interne Verwendung vorgesehen.<br />
 

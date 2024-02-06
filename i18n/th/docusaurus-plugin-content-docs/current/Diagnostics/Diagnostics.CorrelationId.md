@@ -5,8 +5,6 @@ title: Diagnostics.CorrelationId
 # Diagnostics.CorrelationId
 
 
-## Description
-
 ส่งกลับตัวระบุแบบย่อเพื่อเชื่อมโยงคำขอขาเข้ากับคำขอขาออก
 
 
@@ -19,7 +17,7 @@ Diagnostics.CorrelationId(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตัวระบุแบบย่อเพื่อเชื่อมโยงคำขอขาเข้ากับคำขอขาออก
 

@@ -5,8 +5,6 @@ title: Table.PositionOfAny
 # Table.PositionOfAny
 
 
-## Description
-
 Retourneert de positie of posities van elk van de opgegeven rijen in de tabel.
 
 
@@ -22,7 +20,7 @@ Table.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt/worden de positie(s) geretourneerd van de rij(en) van de <code>table</code> van de eerste herhaling van de lijst met <code>rows</code>. Retourneert -1 als er geen herhaling wordt gevonden. <ul> <li><code>table</code>: de invoertabel.</li> <li><code>rows</code>: de lijst met rijen in de tabel waarvoor de posities moeten worden gevonden.</li> <li><code>occurrence</code>: <i>[Optioneel]</i> Geeft aan welke herhalingen van de rij moeten worden geretourneerd.</li> <li><code>equationCriteria</code>: <i>[Optioneel]</i> Hiermee stuurt u de vergelijking tussen de tabelrijen aan.</li> </ul>    
 

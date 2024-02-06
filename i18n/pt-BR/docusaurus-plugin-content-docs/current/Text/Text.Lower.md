@@ -5,8 +5,6 @@ title: Text.Lower
 # Text.Lower
 
 
-## Description
-
 Converte todos os caracteres em minúsculas.
 
 
@@ -20,7 +18,7 @@ Text.Lower(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o resultado da conversão de todos os caracteres em <code>text</code> em minúsculas. Um <code>culture</code> opcional também pode ser fornecido (por exemplo, "en-US").
 

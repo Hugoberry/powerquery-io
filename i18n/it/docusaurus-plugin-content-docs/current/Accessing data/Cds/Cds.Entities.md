@@ -16,7 +16,7 @@ Cds.Entities(
 ```
 
 
-## Details
+## Remarks
 
 Consente di connettersi all'istanza di Common Data Service (Dynamics 365 e PowerApps).
 

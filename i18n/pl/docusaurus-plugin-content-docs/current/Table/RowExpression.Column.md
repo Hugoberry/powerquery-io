@@ -5,8 +5,6 @@ title: RowExpression.Column
 # RowExpression.Column
 
 
-## Description
-
 Zwraca abstrakcyjne drzewo składni (AST), które reprezentuje dostęp do kolumny w wyrażeniu wiersza.
 
 
@@ -19,7 +17,7 @@ RowExpression.Column(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca abstrakcyjne drzewo składni (AST), które reprezentuje dostęp do kolumny <code>columnName</code> wiersza w wyrażeniu wiersza.
 

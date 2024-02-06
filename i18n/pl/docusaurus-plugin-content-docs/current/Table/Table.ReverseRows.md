@@ -5,8 +5,6 @@ title: Table.ReverseRows
 # Table.ReverseRows
 
 
-## Description
-
 Zwraca tabelę z wierszami rozmieszczonymi w odwrotnej kolejności.
 
 
@@ -19,7 +17,7 @@ Table.ReverseRows(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę będącą wynikiem rozmieszczenia wierszy tabeli wejściowej <code>table</code> w odwrotnej kolejności.
 

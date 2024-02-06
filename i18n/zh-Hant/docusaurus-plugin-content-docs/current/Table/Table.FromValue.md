@@ -5,8 +5,6 @@ title: Table.FromValue
 # Table.FromValue
 
 
-## Description
-
 根據提供的值建立包含資料行的資料表。
 
 
@@ -20,7 +18,7 @@ Table.FromValue(
 ```
 
 
-## Details
+## Remarks
 
 建立資料表，其中包含具有所提供之值或值清單 <code>value</code> 的資料行。您可以指定選擇性記錄參數 <code>options</code> 控制下列選項:    <ul>    <li> <code>DefaultColumnName</code>: 從清單或純量值建構資料表時所使用的資料行名稱。</li>    </ul>  
 

@@ -5,8 +5,6 @@ title: List.Mode
 # List.Mode
 
 
-## Description
-
 Trả về giá trị xuất hiện thường xuyên nhất trong danh sách.
 
 
@@ -20,7 +18,7 @@ List.Mode(
 ```
 
 
-## Details
+## Remarks
 
 Trả về mục xuất hiện thường xuyên nhất trong danh sách, <code>list</code>. Nếu danh sách trống thì sẽ đưa ra ngoại lệ. Nếu xuất hiện nhiều mục có cùng tần suất tối đa, thì sẽ chọn mục cuối cùng.    Có thể chỉ định giá trị <code>comparisonCriteria</code> tùy chọn, <code>equationCriteria</code>, để kiểm soát quá trình kiểm tra đẳng thức. 
 

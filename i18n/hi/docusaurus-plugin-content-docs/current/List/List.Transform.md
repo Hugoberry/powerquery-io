@@ -5,8 +5,6 @@ title: List.Transform
 # List.Transform
 
 
-## Description
-
 इस सूची से संगणित मानों की नई सूची लौटाता है.
 
 
@@ -20,7 +18,7 @@ List.Transform(
 ```
 
 
-## Details
+## Remarks
 
 सूची, <code>list</code> पर ट्रांसफ़ॉर्म फ़ंक्शन <code>transform</code> लागू करके मानों की एक नई सूची लौटाता है.
 

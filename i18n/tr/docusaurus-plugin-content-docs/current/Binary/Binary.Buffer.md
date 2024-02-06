@@ -5,8 +5,6 @@ title: Binary.Buffer
 # Binary.Buffer
 
 
-## Description
-
 İkili değeri arabelleğe alır.
 
 
@@ -19,7 +17,7 @@ Binary.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 İkili değeri arabelleğe alır. Bu çağrının sonucu kararlı bir ikili değerdir; böylece belirleyici bir uzunluk ve bayt sırasına sahip olur.
 

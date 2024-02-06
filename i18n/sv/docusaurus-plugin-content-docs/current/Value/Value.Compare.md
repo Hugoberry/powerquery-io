@@ -5,8 +5,6 @@ title: Value.Compare
 # Value.Compare
 
 
-## Description
-
 Returnerar -1, 0 eller 1 baserat på om det första textvärdet är mindre än, lika med eller större än det andra.
 
 
@@ -21,7 +19,7 @@ Value.Compare(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar -1, 0 eller 1 baserat på om det första textvärdet är mindre än, lika med eller större än det andra.
 

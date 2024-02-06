@@ -5,8 +5,6 @@ title: Single.From
 # Single.From
 
 
-## Description
-
 Tworzy wartość o pojedynczej precyzji z podanej wartości.
 
 
@@ -20,7 +18,7 @@ Single.From(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca liczbę o pojedynczej precyzji <code>number</code> dla podanej wartości <code>value</code>. Jeśli podana wartość <code>value</code> to wartość <code>null</code>, funkcja <code>Single.From</code> zwraca wartość <code>null</code>. Jeśli podana wartość <code>value</code> to <code>number</code> w zakresie liczby o pojedynczej precyzji, jest zwracana wartość <code>value</code> — w przeciwnym wypadku jest zwracany błąd. Jeśli wartość <code>value</code> jest wartością innego typu, najpierw zostanie przekonwertowana na wartość <code>number</code> przy użyciu funkcji <code>Number.FromText</code>. Można także określić opcjonalny parametr <code>culture</code> (na przykład „en-US”).
 

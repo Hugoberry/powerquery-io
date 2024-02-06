@@ -5,8 +5,6 @@ title: Text.ReplaceRange
 # Text.ReplaceRange
 
 
-## Description
-
 Verwijdert een bereik met tekens en voegt een nieuwe waarde op een opgegeven positie in.
 
 
@@ -22,7 +20,7 @@ Text.ReplaceRange(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert het resultaat van het verwijderen van een aantal tekens, <code>count</code>, vanuit tekstwaarde <code>text</code>, te beginnen bij positie <code>offset</code> en voegt vervolgens de tekstwaarde <code>newText</code> op dezelfde positie in <code>text</code> in.
 

@@ -5,8 +5,6 @@ title: Table.FromPartitions
 # Table.FromPartitions
 
 
-## Description
-
 Bölümlenen bir tablo kümesini birleştirmenin sonucu olan bir tablo döndürür.
 
 
@@ -21,7 +19,7 @@ Table.FromPartitions(
 ```
 
 
-## Details
+## Remarks
 
 Bölünmüş tabloların kümesinin birleştirilmesinin sonucu olan bir tabloyu, <code>partitions</code> döndürür. <code>partitionColumn</code> eklenecek sütunun adıdır. Sütunun türü varsayılan olarak <code>any</code> şeklinde ayarlanır ancak <code>partitionColumnType</code> ile belirtilebilir.
 

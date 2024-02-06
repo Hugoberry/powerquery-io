@@ -5,8 +5,6 @@ title: Table.ReplaceValue
 # Table.ReplaceValue
 
 
-## Description
-
 แทนที่ค่าหนึ่งด้วยอีกค่าหนึ่งในคอลัมน์ที่ระบุ
 
 
@@ -23,7 +21,7 @@ Table.ReplaceValue(
 ```
 
 
-## Details
+## Remarks
 
 แทนที่ <code>oldValue</code> ด้วย <code>newValue</code> ในคอลัมน์ที่ระบุของ <code>table</code>
 

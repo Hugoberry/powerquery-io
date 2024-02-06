@@ -5,8 +5,6 @@ title: Table.RemoveRowsWithErrors
 # Table.RemoveRowsWithErrors
 
 
-## Description
-
 傳回資料表，並從輸入資料表中移除至少有一個資料格包含錯誤的資料列。如果指定了資料行清單，就只會檢查指定資料行中的資料格是否有錯誤。
 
 
@@ -20,7 +18,7 @@ Table.RemoveRowsWithErrors(
 ```
 
 
-## Details
+## Remarks
 
 傳回資料表，並從輸入資料表中移除至少有一個資料格包含錯誤的資料列。如果指定了資料行清單，就只會檢查指定資料行中的資料格是否有錯誤。
 

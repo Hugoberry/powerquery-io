@@ -17,7 +17,7 @@ Databricks.Query(
 ```
 
 
-## Details
+## Remarks
 
 Definición de un origen de datos de Databricks para ejecutar consultas SQL
 

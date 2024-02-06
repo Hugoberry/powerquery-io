@@ -5,8 +5,6 @@ title: Splitter.SplitTextByEachDelimiter
 # Splitter.SplitTextByEachDelimiter
 
 
-## Description
-
 Bir metin listesine sırada belirtilen her sınırlayıcıda metin ayıran bir işlev döndürür.
 
 
@@ -21,7 +19,7 @@ Splitter.SplitTextByEachDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Bir metin listesine sırada belirtilen her sınırlayıcıda metin ayıran bir işlev döndürür.
 

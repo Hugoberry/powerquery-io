@@ -5,8 +5,6 @@ title: Table.IsEmpty
 # Table.IsEmpty
 
 
-## Description
-
 Geeft aan of de tabel rijen bevat.
 
 
@@ -19,7 +17,7 @@ Table.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 Geeft aan of de <code>table</code> rijen bevat. Retourneert <code>true</code> als er geen rijen zijn (d.w.z. de tabel is leeg). Als de tabel niet leeg is, wordt <code>false</code> geretourneerd.
 

@@ -5,8 +5,6 @@ title: List.Buffer
 # List.Buffer
 
 
-## Description
-
 Bir listeyi arabelleğe alır.
 
 
@@ -19,7 +17,7 @@ List.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesini arabelleğe alır. Bu çağrının sonucu kararlı bir listedir.
 

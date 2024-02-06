@@ -5,8 +5,6 @@ title: List.NonNullCount
 # List.NonNullCount
 
 
-## Description
-
 ส่งกลับจำนวนข้อมูลที่ไม่ใช่ Null ในรายการ
 
 
@@ -19,7 +17,7 @@ List.NonNullCount(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับจำนวนข้อมูลที่ไม่ใช่ Null ในรายการ <code>list</code>
 

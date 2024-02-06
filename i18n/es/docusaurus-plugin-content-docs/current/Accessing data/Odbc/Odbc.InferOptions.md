@@ -5,8 +5,6 @@ title: Odbc.InferOptions
 # Odbc.InferOptions
 
 
-## Description
-
 Devuelve el resultado de intentar inferir las capacidades de SQL para un controlador ODBC.
 
 
@@ -19,7 +17,7 @@ Odbc.InferOptions(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve el resultado de intentar inferir las capacidades de SQL con la cadena de conexión <code>connectionString</code> mediante ODBC. <code>connectionString</code> puede ser un texto o un registro de pares de valores de propiedad. Los valores de propiedad pueden ser de texto o número.
 

@@ -5,8 +5,6 @@ title: Type.ForRecord
 # Type.ForRecord
 
 
-## Description
-
 返回一个类型，此类型表示对字段具有特定类型约束的记录。
 
 
@@ -20,7 +18,7 @@ Type.ForRecord(
 ```
 
 
-## Details
+## Remarks
 
 返回一个类型，此类型表示对字段具有特定类型约束的记录。
 

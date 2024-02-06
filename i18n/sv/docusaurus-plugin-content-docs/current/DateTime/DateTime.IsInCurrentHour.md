@@ -5,8 +5,6 @@ title: DateTime.IsInCurrentHour
 # DateTime.IsInCurrentHour
 
 
-## Description
-
 Indikerar om denna datetime inträffar under den aktuella timman, så som den anges av systemets aktuella datum och tid.
 
 
@@ -19,7 +17,7 @@ DateTime.IsInCurrentHour(
 ```
 
 
-## Details
+## Remarks
 
 Indikerar om det givna datetime-värdet <code>dateTime</code> inträffar under den aktuella timman så som den anges av systemets datum och tid.      <ul>      <li><code>dateTime</code>: Ett <code>datetime</code>- eller <code>datetimezone</code>-värde som ska utvärderas.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Number.Log
 # Number.Log
 
 
-## Description
-
 根据指定底数(默认为 e)返回数的对数。
 
 
@@ -20,7 +18,7 @@ Number.Log(
 ```
 
 
-## Details
+## Remarks
 
 根据指定底数 <code>base</code> 返回数值 <code>number</code> 的对数。如果未指定 <code>base</code>，则默认值为 Number.E。    如果 <code>number</code> 为 null，则 <code>Number.Log</code> 返回 null。
 

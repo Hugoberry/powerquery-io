@@ -15,7 +15,7 @@ Synapse.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Conector PQ para o workspace do Azure Synapse Analytics
 

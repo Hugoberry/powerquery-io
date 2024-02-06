@@ -5,8 +5,6 @@ title: Expression.Identifier
 # Expression.Identifier
 
 
-## Description
-
 Returnerar M-källkodsrepresentationen för en identifierare.
 
 
@@ -19,7 +17,7 @@ Expression.Identifier(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar M-källkodsrepresentationen för en identifierare <code>name</code>.
 

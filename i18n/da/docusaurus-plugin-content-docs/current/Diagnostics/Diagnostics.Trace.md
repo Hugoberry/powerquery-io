@@ -5,8 +5,6 @@ title: Diagnostics.Trace
 # Diagnostics.Trace
 
 
-## Description
-
 Skriver en sporingspost (hvis sporing er aktiveret) og returnerer værdien.
 
 
@@ -22,7 +20,7 @@ Diagnostics.Trace(
 ```
 
 
-## Details
+## Remarks
 
 Skriver en sporing <code>message</code>, hvis sporing er aktiveret, og returnerer <code>value</code>. En valgfri parameter, <code>delayed</code>, angiver, om evalueringen af <code>value</code> skal udsættes, til meddelelsen er sporet. <code>traceLevel</code> kan anvende én af følgende værdier:    <code>TraceLevel.Critical</code>    <code>TraceLevel.Error</code>,    <code>TraceLevel.Warning</code>,    <code>TraceLevel.Information</code>,    <code>TraceLevel.Verbose</code>.  
 

@@ -5,8 +5,6 @@ title: Date.AddYears
 # Date.AddYears
 
 
-## Description
-
 Thêm các năm được chỉ định vào ngày.
 
 
@@ -20,7 +18,7 @@ Date.AddYears(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả <code>date</code>, <code>datetime</code>, hoặc <code>datetimezone</code> khi thêm <code>numberOfYears</code> vào giá trị <code>datetime</code> <code>dateTime</code>.      <ul>        <li><code>dateTime</code>: Giá trị <code>date</code>, <code>datetime</code>, hoặc <code>datetimezone</code> đã thêm năm vào.</li>        <li><code>numberOfYears</code>: Số năm cần thêm.</li>      </ul>
 

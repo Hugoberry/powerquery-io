@@ -5,8 +5,6 @@ title: Duration.ToRecord
 # Duration.ToRecord
 
 
-## Description
-
 期間の部分を含むレコードを返します。
 
 
@@ -19,7 +17,7 @@ Duration.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 duration 値 <code>duration</code> の部分を含むレコードを返します。  <ul>        <li><code>duration</code>: レコードの作成元になる <code>duration</code>。</li>      </ul>
 

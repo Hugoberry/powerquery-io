@@ -5,8 +5,6 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-## Description
-
 Tillämpar namnbyten från en lista i formatet \{ old, new }.
 
 
@@ -21,7 +19,7 @@ Record.RenameFields(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en post efter namnbyte av fälten i indataposten <code>record</code> med de nya fältnamnen som anges i listan <code>renames</code>. För flera namnbyten kan en kapslad lista användas (\{ \{old1, new1}, \{old2, new2} }.
 

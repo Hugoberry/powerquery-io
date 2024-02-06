@@ -5,8 +5,6 @@ title: List.PositionOfAny
 # List.PositionOfAny
 
 
-## Description
-
 Возвращает первое смещение значения в списке.
 
 
@@ -22,7 +20,7 @@ List.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает смещение в списке <code>list</code> первого вхождения значения в списке <code>values</code>. Возвращает значение –1, если вхождение не найдено.    Можно указать необязательный параметр вхождения <code>occurrence</code>.<ul>   <li><code>occurrence</code>: максимальное количество вхождений, которые могут быть возвращены.</li></ul>
 

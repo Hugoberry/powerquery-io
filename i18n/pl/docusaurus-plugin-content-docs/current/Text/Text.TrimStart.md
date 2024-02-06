@@ -5,8 +5,6 @@ title: Text.TrimStart
 # Text.TrimStart
 
 
-## Description
-
 Usuwa wszystkie spacje wiodące.
 
 
@@ -20,7 +18,7 @@ Text.TrimStart(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wynik usunięcia wszystkich spacji wiodących z wartości tekstowej <code>text</code>.
 

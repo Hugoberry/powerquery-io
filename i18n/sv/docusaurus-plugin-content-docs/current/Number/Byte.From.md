@@ -5,8 +5,6 @@ title: Byte.From
 # Byte.From
 
 
-## Description
-
 Skapar ett 8-bitars heltal av det givna värdet.
 
 
@@ -21,7 +19,7 @@ Byte.From(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett 8-bitars <code>number</code>-heltalsvärde från det givna <code>value</code>. Om det givna <code>value</code> är <code>null</code>. <code>Byte. Från </code> returnerar <code>null</code>.Om det givna <code>value</code> är ett <code>number</code> inom intervallet för en 8-bitars heltal utan decimaldel, returneras <code>value</code>. Om talet har en decimaldel avrundas det med det angivna avrundningsläget. Standardavrundningsläget är <code>RoundingMode.ToEven</code>. Om <code>value</code> är av någon annan typ konverteras den först till en <code>number</code> med <code>Number.FromText</code>. Mer information om tillgängliga avrundningslägen finns i <code>Number.Round</code>. En valfri <code>culture</code> kan även anges (till exempel, "en-US").
 

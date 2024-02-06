@@ -5,8 +5,6 @@ title: Table.Max
 # Table.Max
 
 
-## Description
-
 Restituisce la riga più grande o il valore predefinito mediante i criteri specificati.
 
 
@@ -21,7 +19,7 @@ Table.Max(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce la riga più grande in <code>table</code>, dato <code>comparisonCriteria</code>. Se la tabella è vuota, verrà restituito il valore facoltativo <code>default</code>. 
 

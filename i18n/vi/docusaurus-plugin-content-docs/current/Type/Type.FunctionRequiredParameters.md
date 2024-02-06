@@ -5,8 +5,6 @@ title: Type.FunctionRequiredParameters
 # Type.FunctionRequiredParameters
 
 
-## Description
-
 Trả về một số cho biết số nhỏ nhất của tham số cần để gọi loại hàm.
 
 
@@ -19,7 +17,7 @@ Type.FunctionRequiredParameters(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một số cho biết số nhỏ nhất của tham số cần để gọi đầu vào <code>type</code> của hàm.
 

@@ -5,8 +5,6 @@ title: DateTime.ToRecord
 # DateTime.ToRecord
 
 
-## Description
-
 datetime 値の部分を含むレコードを返します。
 
 
@@ -19,7 +17,7 @@ DateTime.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 指定された datetime 値 (<code>dateTime</code>) の部分を含むレコードを返します。 <ul>        <li><code>dateTime</code>: その部分のレコードが計算される <code>datetime</code> 値。</li>      </ul>
 

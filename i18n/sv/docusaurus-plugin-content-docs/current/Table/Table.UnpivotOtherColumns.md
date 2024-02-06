@@ -5,8 +5,6 @@ title: Table.UnpivotOtherColumns
 # Table.UnpivotOtherColumns
 
 
-## Description
-
 Omvandlar alla kolumner utom en angiven uppsättning till attribut-värde-par.
 
 
@@ -22,7 +20,7 @@ Table.UnpivotOtherColumns(
 ```
 
 
-## Details
+## Remarks
 
 Omvandlar alla kolumner utom en angiven uppsättning till attribut-värde-par, som kombineras med resten av värdena på varje rad.
 

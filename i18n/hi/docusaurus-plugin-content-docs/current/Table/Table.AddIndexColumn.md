@@ -5,8 +5,6 @@ title: Table.AddIndexColumn
 # Table.AddIndexColumn
 
 
-## Description
-
 स्पष्ट स्थिति मानों वाला एक स्तंभ जोड़ता है.
 
 
@@ -23,7 +21,7 @@ Table.AddIndexColumn(
 ```
 
 
-## Details
+## Remarks
 
 स्पष्ट स्थिति मानों वाली <code>table</code> में <code>newColumnName</code> नाम का एक स्तंभ जोड़ता है.    एक वैकल्पिक मान, <code>initialValue</code>, आरंभिक अनुक्रमणिका मान होता है. एक वैकल्पिक मान, <code>increment</code>, निर्दिष्ट करता है कि प्रत्येक अनुक्रमणिका मान में कितनी वृद्धि करनी है.
 

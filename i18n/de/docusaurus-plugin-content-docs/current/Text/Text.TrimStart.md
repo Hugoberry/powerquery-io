@@ -5,8 +5,6 @@ title: Text.TrimStart
 # Text.TrimStart
 
 
-## Description
-
 Entfernt alle führenden Leerzeichen.
 
 
@@ -20,7 +18,7 @@ Text.TrimStart(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das Ergebnis des Entfernens aller führenden Leerzeichen aus dem Textwert "<code>text</code>" zurück.
 

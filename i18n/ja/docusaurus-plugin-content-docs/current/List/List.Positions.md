@@ -5,8 +5,6 @@ title: List.Positions
 # List.Positions
 
 
-## Description
-
 入力のオフセットのリストを返します。
 
 
@@ -19,7 +17,7 @@ List.Positions(
 ```
 
 
-## Details
+## Remarks
 
 入力リスト <code>list</code> のオフセットのリストを返します。    List.Transform を使用してリストを変更するとき、位置のリストを使用して、位置への変換アクセスを指定できます。
 

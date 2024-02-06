@@ -5,8 +5,6 @@ title: DateTimeZone.UtcNow
 # DateTimeZone.UtcNow
 
 
-## Description
-
 Retourne la date et l&#39;heure actuelles en UTC (fuseau horaire GMT).
 
 
@@ -19,7 +17,7 @@ DateTimeZone.UtcNow(
 ```
 
 
-## Details
+## Remarks
 
 Retourne la date et l'heure actuelles en UTC (fuseau horaire GMT).
 

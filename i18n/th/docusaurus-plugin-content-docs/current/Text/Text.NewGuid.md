@@ -5,8 +5,6 @@ title: Text.NewGuid
 # Text.NewGuid
 
 
-## Description
-
 ส่งกลับรหัสเฉพาะสากล (GUID) ที่เป็นค่าใหม่และค่าสุ่ม
 
 
@@ -19,7 +17,7 @@ Text.NewGuid(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับรหัสเฉพาะสากล (GUID) ที่เป็นค่าใหม่และค่าสุ่ม
 

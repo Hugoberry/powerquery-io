@@ -5,8 +5,6 @@ title: Table.PositionOf
 # Table.PositionOf
 
 
-## Description
-
 Retourne la position ou les positions de la ligne dans la table.
 
 
@@ -22,7 +20,7 @@ Table.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Retourne la position de ligne de la première occurrence de <code>row</code> dans le <code>table</code> spécifié. Retourne -1 si aucune occurrence n'est trouvée.    <ul>       <li><code>table</code> : table d'entrée.</li>       <li><code>row</code> : ligne dans la table dont il faut trouver la position.</li>       <li><code>occurrence</code> : <i>[Facultatif]</i> spécifie quelles occurrences de la ligne sont à retourner.</li>       <li><code>equationCriteria</code> : <i>[Facultatif]</i> contrôle la comparaison entre les lignes de la table.</li>    </ul>    
 

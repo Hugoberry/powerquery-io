@@ -5,8 +5,6 @@ title: Table.First
 # Table.First
 
 
-## Description
-
 İlk satırı veya belirtilen varsayılan değeri döndürür.
 
 
@@ -20,7 +18,7 @@ Table.First(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> öğesinin ilk satırını veya tablo boşsa <code>default</code> isteğe bağlı varsayılan değerini döndürür.
 

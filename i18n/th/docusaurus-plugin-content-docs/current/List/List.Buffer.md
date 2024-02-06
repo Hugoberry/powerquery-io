@@ -5,8 +5,6 @@ title: List.Buffer
 # List.Buffer
 
 
-## Description
-
 บัฟเฟอร์รายการ
 
 
@@ -19,7 +17,7 @@ List.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 บัฟเฟอร์รายการ <code>list</code> ในหน่วยความจำ ผลลัพธ์ของการเรียกนี้คือรายการที่เสถียร
 

@@ -5,8 +5,6 @@ title: DateTimeZone.SwitchZone
 # DateTimeZone.SwitchZone
 
 
-## Description
-
 เปลี่ยนโซนเวลาของค่า
 
 
@@ -21,7 +19,7 @@ DateTimeZone.SwitchZone(
 ```
 
 
-## Details
+## Remarks
 
 เปลี่ยนแปลงข้อมูลโซนเวลาในค่าโซนวันที่เวลา <code>dateTimeZone</code> ในข้อมูลโซนเวลาใหม่จาก <code>timezoneHours</code> หรือ <code>timezoneMinutes</code> ก็ได้    ถ้า <code>dateTimeZone</code> ไม่มีคอมโพเนนต์โซนเวลา ระบบจะแสดงข้อยกเว้น
 

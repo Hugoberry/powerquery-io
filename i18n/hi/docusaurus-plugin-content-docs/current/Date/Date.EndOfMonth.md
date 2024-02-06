@@ -5,8 +5,6 @@ title: Date.EndOfMonth
 # Date.EndOfMonth
 
 
-## Description
-
 महीने के अंत में लौटाता है.
 
 
@@ -19,7 +17,7 @@ Date.EndOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 उस महीने के अंत में लौटाता है जिसमें <code>dateTime</code>है.      <ul>        <li><code>dateTime</code>: एक <code>date</code>, <code>datetime</code> या <code>datetimezone</code> मान जिससे महीने की समाप्ति की गणना की जाती है</li>      </ul>
 

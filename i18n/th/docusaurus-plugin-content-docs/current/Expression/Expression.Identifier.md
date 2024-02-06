@@ -5,8 +5,6 @@ title: Expression.Identifier
 # Expression.Identifier
 
 
-## Description
-
 ส่งกลับการแสดงรหัสแหล่งข้อมูล M ของตัวระบุ
 
 
@@ -19,7 +17,7 @@ Expression.Identifier(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับการแสดงรหัสแหล่งข้อมูล M ของตัวระบุ <code>name</code>
 

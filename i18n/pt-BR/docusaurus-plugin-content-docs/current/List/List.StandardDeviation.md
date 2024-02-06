@@ -5,8 +5,6 @@ title: List.StandardDeviation
 # List.StandardDeviation
 
 
-## Description
-
 Retorna uma amostra com base na estimativa do desvio padrão.
 
 
@@ -19,7 +17,7 @@ List.StandardDeviation(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma estimativa com base em amostra do desvio padrão dos valores na lista, <code>numbersList</code>.    Se <code>numbersList</code> for uma lista de números, um número será retornado.    Uma exceção será lançada em uma lista vazia ou em uma lista de itens que não seja do tipo <code>number</code>.
 

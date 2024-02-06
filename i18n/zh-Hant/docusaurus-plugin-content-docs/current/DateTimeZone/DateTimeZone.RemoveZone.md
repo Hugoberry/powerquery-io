@@ -5,8 +5,6 @@ title: DateTimeZone.RemoveZone
 # DateTimeZone.RemoveZone
 
 
-## Description
-
 從指定的 datetimezone 值移除時區資訊。
 
 
@@ -19,7 +17,7 @@ DateTimeZone.RemoveZone(
 ```
 
 
-## Details
+## Remarks
 
 根據 <code>dateTimeZone</code> 傳回已移除時區資訊的 #datetime 值。
 

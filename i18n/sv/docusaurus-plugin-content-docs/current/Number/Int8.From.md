@@ -5,8 +5,6 @@ title: Int8.From
 # Int8.From
 
 
-## Description
-
 Skapar ett signerat 8-bitars heltal av det givna värdet.
 
 
@@ -21,7 +19,7 @@ Int8.From(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett signerat 8-bitars <code>number</code>-heltalsvärde från det givna <code>value</code>. Om det givna <code>value</code> är <code>null</code> returnerar <code>Int8.Från</code>returneras <code>null</code>.  Om det givna <code>value</code> är <code>number</code> inom intervallet för ett signerat 8-bitars heltal utan decimaldel, returneras <code>value</code>. Om talet har en decimaldel avrundas det med det angivna avrundningsläget. Standardavrundningsläget är <code>RoundingMode.ToEven</code>. Om <code>value</code> är av någon annan typ kontrollerar du under <code>Number.FromText</code> om hur du konverterar det till <code>number</code>-värde. Mer information om tillgängliga avrundningslägen finns i <code>Number.Round</code>. En valfri <code>culture</code> kan även anges (till exempel, "en-US").
 

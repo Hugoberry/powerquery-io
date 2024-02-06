@@ -5,8 +5,6 @@ title: Binary.ToText
 # Binary.ToText
 
 
-## Description
-
 İkili verinin kodunu metin biçimi olarak çözer.
 
 
@@ -20,7 +18,7 @@ Binary.ToText(
 ```
 
 
-## Details
+## Remarks
 
 <code>binary</code> sayı ikili listesini dönüştürmenin sonucunu bir metin değerine döndürür. İsteğe bağlı olarak <code>encoding</code>, oluşturulan metin değerinde kullanılan kodlamayı göstermek için belirtilebilir.      Aşağıdaki <code>BinaryEncoding</code> değerleri, <code>encoding</code> için kullanılabilir.      <ul>        <li><code>BinaryEncoding.Base64</code>: 64 tabanlı kodlama</li>        <li><code>BinaryEncoding.Hex</code>: Onaltılık kodlama</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Function.From
 # Function.From
 
 
-## Description
-
 สร้างฟังก์ชันที่มีลายเซ็นพารามิเตอร์เฉพาะที่อยู่ด้านบนฟังก์ชันที่ใช้อาร์กิวเมนต์แบบรายการเดียว
 
 
@@ -20,7 +18,7 @@ Function.From(
 ```
 
 
-## Details
+## Remarks
 
 ใช้ฟังก์ชัน unary <code>function</code> และสร้างฟังก์ชันใหม่ด้วยชนิด <code>functionType</code> ที่สร้างรายการจากอาร์กิวเมนต์และส่งผ่านไปยัง <code>function</code>
 

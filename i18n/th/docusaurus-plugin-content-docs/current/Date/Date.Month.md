@@ -5,8 +5,6 @@ title: Date.Month
 # Date.Month
 
 
-## Description
-
 ส่งกลับคอมโพเนนต์เดือน
 
 
@@ -19,7 +17,7 @@ Date.Month(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับคอมโพเนนต์เดือนของค่า <code>datetime</code> ที่ระบุ <code>dateTime</code>
 

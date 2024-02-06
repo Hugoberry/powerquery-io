@@ -5,8 +5,6 @@ title: Text.RemoveRange
 # Text.RemoveRange
 
 
-## Description
-
 從指定的位移開始，移除某個數目的字元。
 
 
@@ -21,7 +19,7 @@ Text.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 傳回文字值 <code>text</code> 的複本，並移除位置 <code>offset</code> 的所有字元。    可使用選擇性參數 <code>count</code> 來指定要移除的字元數。<code>count</code> 的預設值為 1。位置值從 0 開始。
 

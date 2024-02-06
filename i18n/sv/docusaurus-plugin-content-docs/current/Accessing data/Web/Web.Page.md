@@ -5,8 +5,6 @@ title: Web.Page
 # Web.Page
 
 
-## Description
-
 Returnerar innehållet i HTML-dokumentet i strukturen med dokumentets beståndsdelar, samt en representation av det fullständiga dokumentet och texten när taggarna har tagits bort.
 
 
@@ -19,7 +17,7 @@ Web.Page(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar innehållet i HTML-dokumentet i strukturen med dokumentets beståndsdelar, samt en representation av det fullständiga dokumentet och texten när taggarna har tagits bort.
 

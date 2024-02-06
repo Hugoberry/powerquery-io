@@ -5,8 +5,6 @@ title: BinaryFormat.7BitEncodedSignedInteger
 # BinaryFormat.7BitEncodedSignedInteger
 
 
-## Description
-
 Bir 7 bit değişken uzunluğunda kodlama kullanılarak kodlanan bir 64 bit işaretli tamsayıyı okuyan bir ikili biçimi.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.7BitEncodedSignedInteger(
 ```
 
 
-## Details
+## Remarks
 
 Bir 7 bit değişken uzunluğunda kodlama kullanılarak kodlanan bir 64 bit işaretli tamsayıyı okuyan bir ikili biçimi.
 

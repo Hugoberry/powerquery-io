@@ -5,8 +5,6 @@ title: DateTime.Time
 # DateTime.Time
 
 
-## Description
-
 Возвращает компонент времени заданного значения datetime.
 
 
@@ -19,7 +17,7 @@ DateTime.Time(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает компонент времени заданного значения datetime, <code>dateTime</code>.
 

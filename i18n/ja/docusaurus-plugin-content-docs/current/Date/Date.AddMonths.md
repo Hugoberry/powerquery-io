@@ -5,8 +5,6 @@ title: Date.AddMonths
 # Date.AddMonths
 
 
-## Description
-
 指定された月を日付に追加します。
 
 
@@ -20,7 +18,7 @@ Date.AddMonths(
 ```
 
 
-## Details
+## Remarks
 
 <code>datetime</code> 値 <code>dateTime</code> に <code>numberOfMonths</code> か月を追加した結果の <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> を返します。      <ul>        <li><code>dateTime</code>: 月が追加される <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値。</li>        <li><code>numberOfMonths</code>: 追加する月の数。</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Table.PromoteHeaders
 # Table.PromoteHeaders
 
 
-## Description
-
 Promeut la première ligne des valeurs comme les nouveaux en-têtes de colonnes (par exemple, les noms de colonnes).
 
 
@@ -20,7 +18,7 @@ Table.PromoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Promeut la première ligne de valeurs comme les nouveaux en-têtes de colonnes (par exemple, les noms de colonnes). Par défaut, seules les valeurs de texte ou de nombre sont promues en en-têtes. Options valides :    <div>      <code>PromoteAllScalars</code> : si elles sont <code>true</code>, toutes les valeurs scalaires de la première ligne sont promues en en-têtes à l'aide de la <code>Culture</code>, si elle est spécifiée (ou les paramètres régionaux actuels du document).    Pour les valeurs qui ne peuvent pas être converties en texte, un nom de colonne par défaut est utilisé.    </div>    <div>    <code>Culture</code> : nom de culture spécifiant la culture pour les données.    </div>  
 

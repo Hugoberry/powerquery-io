@@ -5,8 +5,6 @@ title: Table.AddJoinColumn
 # Table.AddJoinColumn
 
 
-## Description
-
 对提供的列执行两个表之间的联接，并在新列中生成联接结果。
 
 
@@ -23,7 +21,7 @@ Table.AddJoinColumn(
 ```
 
 
-## Details
+## Remarks
 
 根据由 <code>key1</code> (针对 <code>table1</code>)和 <code>key2</code> (针对 <code>table2</code>)选择的键列的值是否相等，联接 <code>table1</code> 的行与 <code>table2</code> 的行。将结果输入到名为 <code>newColumnName</code> 的列。此函数的行为类似于具有 JoinKind 的 LeftOuter 的 Table.Join，除了联接结果以嵌套而非平展方式存在之外。
 

@@ -5,8 +5,6 @@ title: Table.TransformRows
 # Table.TransformRows
 
 
-## Description
-
 निर्दिष्ट ट्रांसफ़ॉर्म फ़ंक्शन का उपयोग करके तालिका की पंक्तियों को ट्रांसफ़ॉर्म करता है.
 
 
@@ -20,7 +18,7 @@ Table.TransformRows(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> की प्रत्येक पंक्ति में <code>transform</code> कार्रवाई लागू करके <code>सूची</code> बनाता है.
 

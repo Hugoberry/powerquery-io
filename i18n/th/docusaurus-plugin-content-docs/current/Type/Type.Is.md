@@ -5,8 +5,6 @@ title: Type.Is
 # Type.Is
 
 
-## Description
-
 กําหนดว่าค่าของชนิดแรกเข้ากันได้กับชนิดที่สองเสมอหรือไม่
 
 
@@ -20,7 +18,7 @@ Type.Is(
 ```
 
 
-## Details
+## Remarks
 
 กําหนดว่าค่าของ <code>type1</code> เข้ากันได้กับ <code>type2</code> เสมอหรือไม่
 

@@ -5,8 +5,6 @@ title: Date.EndOfMonth
 # Date.EndOfMonth
 
 
-## Description
-
 返回月结束值。
 
 
@@ -19,7 +17,7 @@ Date.EndOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 返回包含 <code>dateTime</code> 的月结束值。 <ul> <li><code>dateTime</code>: 从中计算月结束值的<code>date</code>、<code>datetime</code>或 <code>datetimezone</code>值</li>      </ul>
 

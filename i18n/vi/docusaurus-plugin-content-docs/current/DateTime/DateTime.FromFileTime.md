@@ -5,8 +5,6 @@ title: DateTime.FromFileTime
 # DateTime.FromFileTime
 
 
-## Description
-
 Tạo một datetime từ một số dài 64 bit.
 
 
@@ -19,7 +17,7 @@ DateTime.FromFileTime(
 ```
 
 
-## Details
+## Remarks
 
 Tạo một giá trị <code>datetime</code> từ giá trị <code>fileTime</code> và chuyển đổi giá trị đó thành múi giờ địa phương. Filetime là giá trị thời gian tệp của Windows biểu thị số lượng quãng cách 100 nano giây đã trôi qua kể từ 12:00 giờ đêm, ngày 1 tháng 1 năm 1601 SCN. (C.E.) Giờ Quốc tế Phối hợp (UTC).
 

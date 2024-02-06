@@ -5,8 +5,6 @@ title: Table.Column
 # Table.Column
 
 
-## Description
-
 将表中指定的数据列返回为列表。
 
 
@@ -20,7 +18,7 @@ Table.Column(
 ```
 
 
-## Details
+## Remarks
 
 将表 <code>table</code> 中由 <code>column</code> 指定的数据列返回为列表。
 

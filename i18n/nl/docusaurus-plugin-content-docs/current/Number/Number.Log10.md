@@ -5,8 +5,6 @@ title: Number.Log10
 # Number.Log10
 
 
-## Description
-
 Hiermee retourneert u de logaritme met grondtal 10 van het getal.
 
 
@@ -19,7 +17,7 @@ Number.Log10(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee retourneert u de logaritme met grondtal 10 van een getal <code>number</code>. Als <code>number</code> null is, wordt met <code>Number.Log10</code> null geretourneerd.
 

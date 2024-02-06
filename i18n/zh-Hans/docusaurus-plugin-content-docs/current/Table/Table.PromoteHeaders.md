@@ -5,8 +5,6 @@ title: Table.PromoteHeaders
 # Table.PromoteHeaders
 
 
-## Description
-
 将第一行值升级为新的列标题(即列名)。
 
 
@@ -20,7 +18,7 @@ Table.PromoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 将第一行值升级为新的列标题(即列名)。默认情况下，仅将文本或数值升级为标题。有效选项:    <div>      <code>PromoteAllScalars</code> : 如果设置为 <code>true</code>，则使用 <code>Culture</code> (如果已指定，或当前文档区域设置)将第一行中的所有标量值升级为标题。    对于无法转换为文本的值，将使用默认列名。    </div>    <div>    <code>Culture</code> : 区域性名称，指定数据的区域性。    </div>
 

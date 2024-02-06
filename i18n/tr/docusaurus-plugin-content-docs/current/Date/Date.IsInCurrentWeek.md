@@ -5,8 +5,6 @@ title: Date.IsInCurrentWeek
 # Date.IsInCurrentWeek
 
 
-## Description
-
 Bu tarihin sistemdeki geçerli tarih ve saat tarafından belirlendiği şekilde, geçerli hafta sırasında oluşup oluşmadığını gösterir.
 
 
@@ -19,7 +17,7 @@ Date.IsInCurrentWeek(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> verilen datetime değerinin sistemdeki geçerli tarih ve saat tarafından belirlendiği şekilde, geçerli hafta sırasında oluşup oluşmadığını gösterir.      <ul>      <li><code>dateTime</code>: Değerlendirilecek <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      </ul>
 

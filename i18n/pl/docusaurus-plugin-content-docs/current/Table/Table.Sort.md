@@ -5,8 +5,6 @@ title: Table.Sort
 # Table.Sort
 
 
-## Description
-
 Sortuje tabelę przy użyciu co najmniej jednej nazwy kolumny i kryteriów sortowania.
 
 
@@ -20,7 +18,7 @@ Table.Sort(
 ```
 
 
-## Details
+## Remarks
 
 Sortuje tabelę <code>table</code> przy użyciu listy zawierającej co najmniej jedną nazwę kolumny oraz opcjonalnego parametru <code>comparisonCriteria</code> w formie \{ \{ col1, comparisonCriteria }, \{col2} }.
 

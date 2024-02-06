@@ -5,8 +5,6 @@ title: Binary.From
 # Binary.From
 
 
-## Description
-
 Tạo một nhị phân từ giá trị cho sẵn
 
 
@@ -20,7 +18,7 @@ Binary.From(
 ```
 
 
-## Details
+## Remarks
 
 Trả về giá trị <code>binary</code> từ <code>value</code> đã cho. Nếu <code>value</code> đã cho là <code>null</code>, thì <code>Binary.From</code> sẽ trả về <code>null</code>. Nếu <code>value</code> đã cho là <code>binary</code>, thì <code>value</code> sẽ được trả về. Giá trị của các loại sau có thể được chuyển đổi thành giá trị <code>binary</code>:      <ul>        <li><code>text</code>: Giá trị <code>binary</code> từ dạng biểu diễn văn bản. Tham khảo <code>Binary.FromText</code> để biết chi tiết.</li>      </ul>Nếu <code>value</code> thuộc bất kỳ loại nào khác, thì lỗi sẽ được trả về.
 

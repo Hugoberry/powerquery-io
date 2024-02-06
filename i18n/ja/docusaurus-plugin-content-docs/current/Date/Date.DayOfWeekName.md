@@ -5,8 +5,6 @@ title: Date.DayOfWeekName
 # Date.DayOfWeekName
 
 
-## Description
-
 曜日名を返します。
 
 
@@ -20,7 +18,7 @@ Date.DayOfWeekName(
 ```
 
 
-## Details
+## Remarks
 
 指定された <code>date</code> の曜日名を返します。省略可能な <code>culture</code> を指定することもできます (例: "en-US")。
 

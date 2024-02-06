@@ -5,8 +5,6 @@ title: Table.AddJoinColumn
 # Table.AddJoinColumn
 
 
-## Description
-
 Voert een koppeling tussen tabellen uit op opgegeven kolommen en plaatst het resultaat van die koppeling in een nieuwe kolom.
 
 
@@ -23,7 +21,7 @@ Table.AddJoinColumn(
 ```
 
 
-## Details
+## Remarks
 
 Koppelt de rijen van <code>table1</code> aan de rijen van <code>table2</code> op basis van de gelijkheid van de waarden van de sleutelkolommen die zijn geselecteerd door <code>key1</code> (voor <code>table1</code>) en <code>key2</code> (voor <code>table2</code>). De resultaten komen in de kolom <code>newColumnName</code> te staan.Deze functie werkt zoals Table.Join met een JoinKind van LeftOuter, echter met dit verschil dat de resultaten van de koppeling genest en niet plat worden weergegeven.
 

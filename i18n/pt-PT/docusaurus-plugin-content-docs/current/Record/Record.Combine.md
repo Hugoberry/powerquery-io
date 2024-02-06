@@ -5,8 +5,6 @@ title: Record.Combine
 # Record.Combine
 
 
-## Description
-
 Combina os registos na lista especificada.
 
 
@@ -19,7 +17,7 @@ Record.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Combina os registos no <code>records</code> especificado. Se <code>records</code> contiver valores que não sejam registos, é devolvido um erro.
 

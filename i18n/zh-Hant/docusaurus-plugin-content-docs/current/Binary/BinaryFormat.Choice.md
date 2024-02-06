@@ -5,8 +5,6 @@ title: BinaryFormat.Choice
 # BinaryFormat.Choice
 
 
-## Description
-
 傳回二進位格式，此格式會根據已讀取的值選擇下一個二進位格式。
 
 
@@ -22,7 +20,7 @@ BinaryFormat.Choice(
 ```
 
 
-## Details
+## Remarks
 
 傳回二進位格式，此格式會根據已讀取的值選擇下一個二進位格式。這個函數所產生的二進位格式值會分階段運作:<ul><li>系統使用 <code>binaryFormat</code> 參數所指定的二進位格式讀取值。</li><li>值傳遞到 <code>chooseFunction</code> 參數所指定的選擇函數。</li><li>選擇函數檢查值，並傳回第二個二進位格式。</li><li>系統使用第二個二進位格式讀取第二個值。</li><li>如果指定了組合函數，第一個和第二個值會傳遞到組合函數，然後傳回結果值。</li><li>如果未指定組合函數，則傳回第二個值。</li><li>傳回第二個值。</li></ul>選擇性的 <code>type</code> 參數指示選擇函數將會傳回的二進位格式類型。您可以指定 <code>type any</code>、<code>type list</code> 或 <code>type binary</code>。如果未指定 <code>type</code> 參數，即使用 <code>type any</code>。如果使用 <code>type list</code> 或 <code>type binary</code>，則系統可以傳回資料流 <code>binary</code> 或 <code>list</code> 值，而不是緩衝的值，這樣可以減少讀取格式所需的記憶體數量。
 

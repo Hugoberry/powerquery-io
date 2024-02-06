@@ -5,8 +5,6 @@ title: Table.FindText
 # Table.FindText
 
 
-## Description
-
 वे सभी पंक्तियाँ लौटाता है जिनमें तालिका में दिया गया पाठ है.
 
 
@@ -20,7 +18,7 @@ Table.FindText(
 ```
 
 
-## Details
+## Remarks
 
 तालिका <code>table</code> की वे पंक्तियाँ लौटाता है जिनमें पाठ <code>text</code> है. अगर पाठ नहीं मिलता है, तो एक रिक्त तालिका को लौटाया जाता है.
 

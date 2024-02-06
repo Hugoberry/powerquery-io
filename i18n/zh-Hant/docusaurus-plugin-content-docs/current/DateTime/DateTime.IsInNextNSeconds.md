@@ -5,8 +5,6 @@ title: DateTime.IsInNextNSeconds
 # DateTime.IsInNextNSeconds
 
 
-## Description
-
 指出此日期時間是否會在以目前系統日期和時間決定的下幾秒發生。請注意，傳遞會在目前秒發生的值時，此函式會傳回 false。
 
 
@@ -20,7 +18,7 @@ DateTime.IsInNextNSeconds(
 ```
 
 
-## Details
+## Remarks
 
 指出指定的日期時間值 <code>dateTime</code> 是否會在以目前系統日期和時間決定的下幾秒發生。請注意，傳遞會在目前秒數發生的值時，此函式會傳回 false。      <ul>      <li><code>dateTime</code>: 要評估的 <code>datetime</code> 或 <code>datetimezone</code> 值。</li>      <li><code>seconds</code>: 秒數。</li>      </ul>
 

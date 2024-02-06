@@ -5,8 +5,6 @@ title: Cube.Properties
 # Cube.Properties
 
 
-## Description
-
 Retourneert een tabel met de set beschikbare eigenschappen voor dimensies die in de kubus worden uitgevouwen.
 
 
@@ -19,7 +17,7 @@ Cube.Properties(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een tabel met de set beschikbare eigenschappen voor dimensies die in de kubus worden uitgevouwen.
 

@@ -5,8 +5,6 @@ title: Number.ToText
 # Number.ToText
 
 
-## Description
-
 Converteert het opgegeven getal naar tekst.
 
 
@@ -21,7 +19,7 @@ Number.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Converteert de numerieke waarde <code>number</code> naar een tekstwaarde volgens de notatie die is opgegeven door <code>format</code>.<br />    <br />    De notatie is een tekstwaarde die aangeeft hoe het getal moet worden geconverteerd. Ga voor meer informatie over de ondersteunde opmaakwaarden naar https://go.microsoft.com/fwlink/?linkid=2241210 en https://go.microsoft.com/fwlink/?linkid=2240884.<br />    <br />    Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld nl-NL) om het cultuurafhankelijke gedrag van <code>format</code> te bepalen.
 

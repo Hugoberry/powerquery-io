@@ -5,8 +5,6 @@ title: Value.ReplaceType
 # Value.ReplaceType
 
 
-## Description
-
 แทนที่ชนิดของค่า
 
 
@@ -20,7 +18,7 @@ Value.ReplaceType(
 ```
 
 
-## Details
+## Remarks
 
 แทนที่ชนิดของ <code>value</code> ด้วย <code>type</code> ที่ระบุ
 

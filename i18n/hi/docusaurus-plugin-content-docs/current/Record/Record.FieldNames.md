@@ -5,8 +5,6 @@ title: Record.FieldNames
 # Record.FieldNames
 
 
-## Description
-
 फ़ील्ड के नाम लौटाता है.
 
 
@@ -19,7 +17,7 @@ Record.FieldNames(
 ```
 
 
-## Details
+## Remarks
 
 रिकॉर्ड <code>record</code> की फ़ील्ड के नामों को पाठ के रूप में लौटाता है.
 

@@ -5,8 +5,6 @@ title: Table.ReorderColumns
 # Table.ReorderColumns
 
 
-## Description
-
 指定された順序で列を含むテーブルを返します。
 
 
@@ -21,7 +19,7 @@ Table.ReorderColumns(
 ```
 
 
-## Details
+## Remarks
 
 <code>columnOrder</code> で指定された順序で列を含むテーブルを、入力 <code>table</code> から返します。リストに指定されていない列の順序は変更されません。     列が存在しない場合は、省略可能なパラメーター <code>missingField</code> で代わりの値 (<code>MissingField.UseNull</code>、<code>MissingField.Ignore</code> など) が指定されていない限り、例外がスローされます。
 

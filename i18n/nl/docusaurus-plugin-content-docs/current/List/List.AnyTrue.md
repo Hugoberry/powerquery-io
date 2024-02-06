@@ -5,8 +5,6 @@ title: List.AnyTrue
 # List.AnyTrue
 
 
-## Description
-
 Retourneert &#39;true&#39; wanneer een bepaalde expressie &#39;true&#39; is.
 
 
@@ -19,7 +17,7 @@ List.AnyTrue(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert 'true' wanneer een bepaalde expressie in de lijst <code>list</code> 'true' is.
 

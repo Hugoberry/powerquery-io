@@ -5,8 +5,6 @@ title: Type.ForRecord
 # Type.ForRecord
 
 
-## Description
-
 Alanlarda belirli kısıt türünü içeren kayıtları temsil eden bir tür döndürür.
 
 
@@ -20,7 +18,7 @@ Type.ForRecord(
 ```
 
 
-## Details
+## Remarks
 
 Alanlarda belirli kısıt türünü içeren kayıtları temsil eden bir tür döndürür.
 

@@ -5,8 +5,6 @@ title: Table.Range
 # Table.Range
 
 
-## Description
-
 Retourne les lignes démarrant au décalage spécifié.
 
 
@@ -21,7 +19,7 @@ Table.Range(
 ```
 
 
-## Details
+## Remarks
 
 Retourne les lignes à partir du <code>table</code> à partir du <code>offset</code> spécifié. Un paramètre facultatif, <code>count</code>, spécifie le nombre de lignes à retourner. Par défaut, toutes les lignes après le décalage sont retournées.
 

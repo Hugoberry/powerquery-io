@@ -5,8 +5,6 @@ title: Stripe.Method
 # Stripe.Method
 
 
-## Description
-
 调用 Stripe API。
 
 
@@ -21,7 +19,7 @@ Stripe.Method(
 ```
 
 
-## Details
+## Remarks
 
 在 https://api.stripe.com/v1/<code>method</code> 上调用 Stripe API，将记录 <code>additionalParameters</code> 传递为其他参数和预期列名的列表 <code>ColumnNames</code>。使用的是 Stripe 2015-10-16 版本。
 

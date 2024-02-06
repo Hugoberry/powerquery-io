@@ -5,8 +5,6 @@ title: AzureDevOpsServer.AccountContents
 # AzureDevOpsServer.AccountContents
 
 
-## Description
-
 Immettere l&#39;URL del Servizio analisi di Azure DevOps.
 
 
@@ -20,7 +18,7 @@ AzureDevOpsServer.AccountContents(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il contenuto scaricato dall'URL del Servizio analisi di Azure DevOps come valore binario. Questa funzione usa credenziali diverse a seconda delle organizzazioni.
 

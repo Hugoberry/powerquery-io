@@ -5,8 +5,6 @@ title: BinaryFormat.Single
 # BinaryFormat.Single
 
 
-## Description
-
 Ett binärformat som läser ett 4-bytes IEEE-flyttal med enkel precision.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Single(
 ```
 
 
-## Details
+## Remarks
 
 Ett binärformat som läser ett 4-bytes IEEE-flyttal med enkel precision.
 

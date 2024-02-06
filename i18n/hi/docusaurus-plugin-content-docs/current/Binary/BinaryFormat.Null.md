@@ -5,8 +5,6 @@ title: BinaryFormat.Null
 # BinaryFormat.Null
 
 
-## Description
-
 एक बाइनरी स्वरूप जो शून्य बाइट्स पढ़ता है और नल लौटाता है.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Null(
 ```
 
 
-## Details
+## Remarks
 
 एक बाइनरी स्वरूप जो शून्य बाइट्स पढ़ता है और नल लौटाता है.
 

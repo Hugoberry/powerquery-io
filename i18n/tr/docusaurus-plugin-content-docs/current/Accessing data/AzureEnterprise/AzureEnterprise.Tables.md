@@ -5,8 +5,6 @@ title: AzureEnterprise.Tables
 # AzureEnterprise.Tables
 
 
-## Description
-
 Kaydınızla ilişkilendirilen Azure Kurumsal REST API uç noktasının URL&#39;sini girin
 
 
@@ -19,7 +17,7 @@ AzureEnterprise.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Azure Kurumsal API'sinden raporların ve ayların bir listesini döndürür
 

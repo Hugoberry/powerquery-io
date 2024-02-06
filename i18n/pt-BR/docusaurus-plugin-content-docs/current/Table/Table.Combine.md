@@ -5,8 +5,6 @@ title: Table.Combine
 # Table.Combine
 
 
-## Description
-
 Retorna uma tabela que é o resultado da mesclagem de uma lista de tabelas.
 
 
@@ -20,7 +18,7 @@ Table.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma tabela que é o resultado da mesclagem de uma lista de tabelas, <code>tables</code>. A tabela resultante terá uma estrutura de tipo de linha definida por <code>columns</code> ou por uma união dos tipos de entrada se <code>columns</code> não foi especificado.
 

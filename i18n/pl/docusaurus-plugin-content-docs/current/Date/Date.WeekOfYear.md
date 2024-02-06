@@ -5,8 +5,6 @@ title: Date.WeekOfYear
 # Date.WeekOfYear
 
 
-## Description
-
 Zwraca liczbę z zakresu od 1 do 54 wskazującą, w którym tygodniu roku wypada dana data.
 
 
@@ -20,7 +18,7 @@ Date.WeekOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca liczbę z zakresu od 1 do 54 wskazującą, na który tydzień roku przypada data <code>dateTime</code>. <ul>        <li><code>dateTime</code>: wartość <code>datetime</code>, dla której określany jest tydzień roku.</li>        <li><code>firstDayOfWeek</code>: opcjonalna wartość <code>Day.Type</code>, która wskazuje, który dzień jest uznawany za początek tygodnia (na przykład <code>Day.Sunday</code>). Jeśli nie zostanie określona, zostanie użyta wartość domyślna na podstawie kultury.</li>      </ul>
 

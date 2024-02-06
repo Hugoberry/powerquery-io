@@ -5,8 +5,6 @@ title: Cube.AttributeMemberId
 # Cube.AttributeMemberId
 
 
-## Description
-
 Retourneert de unieke lid-id uit de eigenschapswaarde voor leden.
 
 
@@ -19,7 +17,7 @@ Cube.AttributeMemberId(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de unieke lid-id uit de eigenschapswaarde voor leden. <code>attribute</code>. Retourneert null voor alle overige waarden.
 

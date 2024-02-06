@@ -5,8 +5,6 @@ title: Table.ReverseRows
 # Table.ReverseRows
 
 
-## Description
-
 Devuelve una tabla con las filas en orden inverso.
 
 
@@ -19,7 +17,7 @@ Table.ReverseRows(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una tabla con las filas de la entrada <code>table</code> en orden inverso.
 

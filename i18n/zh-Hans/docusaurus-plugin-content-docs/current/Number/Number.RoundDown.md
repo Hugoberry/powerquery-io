@@ -5,8 +5,6 @@ title: Number.RoundDown
 # Number.RoundDown
 
 
-## Description
-
 返回上一个最大数。可以指定位数。
 
 
@@ -20,7 +18,7 @@ Number.RoundDown(
 ```
 
 
-## Details
+## Remarks
 
 返回将 <code>number</code> 向下舍入到上一个最大整数的结果。如果 <code>number</code> 为 null，则此函数返回 null。    如果提供了 <code>digits</code>，则将 <code>number</code> 舍入为指定的小数位数。  
 

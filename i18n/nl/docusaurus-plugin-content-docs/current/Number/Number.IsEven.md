@@ -5,8 +5,6 @@ title: Number.IsEven
 # Number.IsEven
 
 
-## Description
-
 Geeft aan of de waarde een even getal is.
 
 
@@ -19,7 +17,7 @@ Number.IsEven(
 ```
 
 
-## Details
+## Remarks
 
 Geeft aan of de waarde <code>number</code> een even getal is door <code>true</code> te retourneren bij een even getal en <code>false</code> als de waarde geen even getal is.
 

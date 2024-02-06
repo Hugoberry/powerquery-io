@@ -5,8 +5,6 @@ title: Uri.EscapeDataString
 # Uri.EscapeDataString
 
 
-## Description
-
 เข้ารหัสตัวอักขระพิเศษตามข้อกำหนด RFC 3986
 
 
@@ -19,7 +17,7 @@ Uri.EscapeDataString(
 ```
 
 
-## Details
+## Remarks
 
 เข้ารหัสตัวอักขระพิเศษในอินพุท <code>data</code> ตามหลักเกณฑ์ของ RFC 3986
 

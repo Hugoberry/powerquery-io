@@ -5,8 +5,6 @@ title: Text.Length
 # Text.Length
 
 
-## Description
-
 ส่งกลับจำนวนของอักขระ
 
 
@@ -19,7 +17,7 @@ Text.Length(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับจำนวนอักขระในข้อความ <code>text</code>
 

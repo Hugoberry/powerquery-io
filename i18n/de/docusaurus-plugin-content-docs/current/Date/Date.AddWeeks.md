@@ -5,8 +5,6 @@ title: Date.AddWeeks
 # Date.AddWeeks
 
 
-## Description
-
 Addiert die angegebenen Wochen zum Datum.
 
 
@@ -20,7 +18,7 @@ Date.AddWeeks(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Ergebnis zurück, das sich aus der Addition von <code>numberOfWeeks</code> Wochen zum <code>datetime</code>-Wert '<code>dateTime</code>' ergibt.      <ul>      <li><code>dateTime</code>: Der <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert, zu dem Wochen addiert werden.</li>      <li><code>numberOfWeeks</code>: Die Anzahl der zu addierenden Wochen.</li>      </ul>
 

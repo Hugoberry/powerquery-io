@@ -5,8 +5,6 @@ title: Table.RemoveColumns
 # Table.RemoveColumns
 
 
-## Description
-
 ย้ายคอลัมน์ที่ระบุออก
 
 
@@ -21,7 +19,7 @@ Table.RemoveColumns(
 ```
 
 
-## Details
+## Remarks
 
 นำ <code>columns</code> ที่ระบุออกจาก <code>table</code> ที่กำหนดให้    ถ้าไม่มีคอลัมน์ที่กำหนดอยู่ ระบบจะแสดงข้อผิดพลาด เว้นแต่พารามิเตอร์ที่เลือกได้ <code>missingField</code> จะระบุลักษณะการทำงานอื่น (เช่น <code>MissingField.UseNull</code> หรือ <code>MissingField.Ignore</code>)
 

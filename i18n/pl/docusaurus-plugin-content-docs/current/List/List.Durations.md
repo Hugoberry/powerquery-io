@@ -5,8 +5,6 @@ title: List.Durations
 # List.Durations
 
 
-## Description
-
 Generuje listę wartości typu duration, używając podanej wartości początkowej, liczby wartości oraz przyrostowej wartości czasu trwania.
 
 
@@ -21,7 +19,7 @@ List.Durations(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca listę <code>count</code> z wartościami typu <code>duration</code>, rozpoczynając od wartości <code>start</code> i używając jako przyrostu danej wartości typu <code>duration</code> podanej w parametrze <code>step</code>.
 

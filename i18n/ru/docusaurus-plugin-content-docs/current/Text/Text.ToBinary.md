@@ -5,8 +5,6 @@ title: Text.ToBinary
 # Text.ToBinary
 
 
-## Description
-
 Кодирует текст в двоичную форму.
 
 
@@ -21,7 +19,7 @@ Text.ToBinary(
 ```
 
 
-## Details
+## Remarks
 
 Кодирует заданное текстовое значение <code>text</code> в двоичное значение с помощью указанного <code>encoding</code>.
 

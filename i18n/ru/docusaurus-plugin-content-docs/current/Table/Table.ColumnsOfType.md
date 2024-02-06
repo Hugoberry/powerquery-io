@@ -5,8 +5,6 @@ title: Table.ColumnsOfType
 # Table.ColumnsOfType
 
 
-## Description
-
 Возвращает список с именами столбцов, соответствующих указанным типам.
 
 
@@ -20,7 +18,7 @@ Table.ColumnsOfType(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает список с именами столбцов таблицы <code>table</code>, соответствующих указанным в <code>listOfTypes</code> типам.
 

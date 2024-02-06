@@ -5,8 +5,6 @@ title: AzureDevOpsServer.Views
 # AzureDevOpsServer.Views
 
 
-## Description
-
 Wprowadź nazwę organizacji i projektu.
 
 
@@ -22,7 +20,7 @@ AzureDevOpsServer.Views(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę źródeł danych OData udostępnianych przez usługę Azure DevOps.
 

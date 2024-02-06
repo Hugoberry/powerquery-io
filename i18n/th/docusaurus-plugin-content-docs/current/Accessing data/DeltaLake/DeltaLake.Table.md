@@ -5,8 +5,6 @@ title: DeltaLake.Table
 # DeltaLake.Table
 
 
-## Description
-
 ส่งกลับเนื้อหาของตาราง Delta Lake
 
 
@@ -20,7 +18,7 @@ DeltaLake.Table(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับเนื้อหาของตาราง Delta Lake
 

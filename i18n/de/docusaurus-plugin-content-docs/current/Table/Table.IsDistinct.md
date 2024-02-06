@@ -5,8 +5,6 @@ title: Table.IsDistinct
 # Table.IsDistinct
 
 
-## Description
-
 Gibt an, ob die Tabelle nur eindeutige Zeilen (also keine Duplikate) enthält.
 
 
@@ -20,7 +18,7 @@ Table.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 Gibt an, ob das Element vom Typ "<code>table</code>" nur eindeutige Zeilen (also keine Duplikate) enthält. Gibt <code>true</code> zurück, wenn die Zeilen eindeutig sind. Andernfalls wird <code>false</code> zurückgegeben.    Mit einem optionalen Parameter (<code>comparisonCriteria</code>) kann angegeben werden, welche Spalten aus der Tabelle auf mehrfache Vorkommen überprüft werden sollen. Ohne Angabe von "<code>comparisonCriteria</code>" werden alle Spalten überprüft.
 

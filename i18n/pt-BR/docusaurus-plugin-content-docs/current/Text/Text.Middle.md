@@ -5,8 +5,6 @@ title: Text.Middle
 # Text.Middle
 
 
-## Description
-
 Retorna a subcadeia de caracteres até um comprimento específico.
 
 
@@ -21,7 +19,7 @@ Text.Middle(
 ```
 
 
-## Details
+## Remarks
 
 Retorna <code>count</code> caracteres, ou até o final de <code>text</code>; no deslocamento <code>start</code>.
 

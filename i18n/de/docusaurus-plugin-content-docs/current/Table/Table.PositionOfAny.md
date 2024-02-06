@@ -5,8 +5,6 @@ title: Table.PositionOfAny
 # Table.PositionOfAny
 
 
-## Description
-
 Gibt die Position(en) von angegebenen Zeilen innerhalb der Tabelle zurück.
 
 
@@ -22,7 +20,7 @@ Table.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die Zeilenposition(en) des ersten Vorkommens der <code>rows</code>-Liste aus dem Element vom Typ "<code>table</code>" zurück. Wird kein Vorkommen gefunden, wird "-1" zurückgegeben.    <ul>    <li><code>table</code>: Die Eingabetabelle.</li>       <li><code>rows</code>: Die Liste mit den Zeilen in der Tabelle, deren Positionen ermittelt werden sollen.</li>       <li><code>occurrence</code>: <i>[Optional]</i> Gibt an, welche Vorkommen der Zeile zurückgegeben werden sollen.</li>       <li><code>equationCriteria</code>: <i>[Optional]</i> Steuert den Vergleich der Tabellenzeilen.</li>    </ul>      
 

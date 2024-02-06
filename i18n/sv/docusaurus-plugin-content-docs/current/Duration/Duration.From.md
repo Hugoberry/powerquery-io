@@ -5,8 +5,6 @@ title: Duration.From
 # Duration.From
 
 
-## Description
-
 Skapar en varaktighet från det angivna värdet.
 
 
@@ -19,7 +17,7 @@ Duration.From(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett <code>duration</code>-värde från angiven <code>value</code>. Om <code>value</code> är <code>null</code> returnerar <code>Duration.From</code> <code>null</code>. Om <code>value</code> är <code>duration</code> returneras <code>value</code>. Värden av följande typer kan konverteras till ett <code>duration</code>-värde:      <ul>        <li><code>text</code>: Ett <code>duration</code>-värde från förfluten tid i textformat (d.h:m:s). Mer information finns under <code>Duration.FromText</code>.</li>        <li><code>number</code>: Ett <code>duration</code>-värde som motsvarar antalet hela och fraktionella dagar uttryckt med <code>value</code>.</li>      </ul>Om <code>value</code> hör till en annan typ returneras ett fel.
 

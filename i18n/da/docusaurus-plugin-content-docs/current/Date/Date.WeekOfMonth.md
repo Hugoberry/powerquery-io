@@ -5,8 +5,6 @@ title: Date.WeekOfMonth
 # Date.WeekOfMonth
 
 
-## Description
-
 Returnerer et tal fra 1 til 6, der angiver, hvilken uge i måneden denne dato ligger i.
 
 
@@ -20,7 +18,7 @@ Date.WeekOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer et tal fra 1 til 6, der angiver, hvilken uge i året datoen <code>dateTime</code> ligger i. <ul>        <li><code>dateTime</code>: En <code>datetime</code>-værdi, for hvilken ugen i måneden bestemmes.</li>      </ul>
 

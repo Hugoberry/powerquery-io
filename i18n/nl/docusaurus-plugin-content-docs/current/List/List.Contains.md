@@ -5,8 +5,6 @@ title: List.Contains
 # List.Contains
 
 
-## Description
-
 Geeft aan of de lijst de waarde bevat.
 
 
@@ -21,7 +19,7 @@ List.Contains(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt aangegeven of de lijst <code>list</code> de waarde <code>value</code> bevat. Retourneert true als er een waarde is gevonden in de lijst en anders false. Een optionele vergelijkingscriteriawaarde, <code>equationCriteria</code>, kan worden opgegeven voor het aansturen van gelijkheidstesten. 
 

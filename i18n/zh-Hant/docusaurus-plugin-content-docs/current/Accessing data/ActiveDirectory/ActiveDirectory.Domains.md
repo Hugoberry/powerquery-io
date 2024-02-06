@@ -5,8 +5,6 @@ title: ActiveDirectory.Domains
 # ActiveDirectory.Domains
 
 
-## Description
-
 傳回與指定網域 (如果未指定網域，則使用目前電腦的網域) 相同樹系的 Active Directory 網域清單。
 
 
@@ -19,7 +17,7 @@ ActiveDirectory.Domains(
 ```
 
 
-## Details
+## Remarks
 
 傳回與指定網域 (如果未指定網域，則使用目前電腦的網域) 相同樹系的 Active Directory 網域清單。
 

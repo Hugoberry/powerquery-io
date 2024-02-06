@@ -5,8 +5,6 @@ title: Value.Is
 # Value.Is
 
 
-## Description
-
 値が指定された型と互換性があるかどうかを判断します。
 
 
@@ -20,7 +18,7 @@ Value.Is(
 ```
 
 
-## Details
+## Remarks
 
 値が指定された型と互換性があるかどうかを判断します。これは、M の "is" 演算子に相当しますが、例外として、識別子型の参照 (Number.Type など) を受け入れることができます。
 

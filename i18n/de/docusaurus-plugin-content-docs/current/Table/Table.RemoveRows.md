@@ -5,8 +5,6 @@ title: Table.RemoveRows
 # Table.RemoveRows
 
 
-## Description
-
 Entfernt die angegebene Anzahl von Zeilen.
 
 
@@ -21,7 +19,7 @@ Table.RemoveRows(
 ```
 
 
-## Details
+## Remarks
 
 Entfernt <code>count</code> Zeilen vom Anfang des Elements vom Typ "<code>table</code>" ab dem angegebenen Wert (<code>offset</code>). Ohne Angabe des Parameters "<code>count</code>" wird als Standardanzahl der Wert 1 verwendet. 
 

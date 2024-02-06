@@ -5,8 +5,6 @@ title: Type.FunctionRequiredParameters
 # Type.FunctionRequiredParameters
 
 
-## Description
-
 Returnerer et tal, der angiver minimumantallet af parametre, der kræves for at aktivere typen af funktion.
 
 
@@ -19,7 +17,7 @@ Type.FunctionRequiredParameters(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer et tal, der angiver minimumantallet af parametre, der kræves for at aktivere inputtet <code>type</code> for funktionen.
 

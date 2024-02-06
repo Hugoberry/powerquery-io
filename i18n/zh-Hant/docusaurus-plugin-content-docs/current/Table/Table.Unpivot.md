@@ -5,8 +5,6 @@ title: Table.Unpivot
 # Table.Unpivot
 
 
-## Description
-
 將資料表中的一組資料行轉譯為屬性/值組。
 
 
@@ -22,7 +20,7 @@ Table.Unpivot(
 ```
 
 
-## Details
+## Remarks
 
 將資料表中的一組資料行轉譯為屬性/值組，並結合每個資料列中其餘的值。
 

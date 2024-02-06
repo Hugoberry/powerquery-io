@@ -5,8 +5,6 @@ title: Expression.Identifier
 # Expression.Identifier
 
 
-## Description
-
 Trả về dạng biểu diễn mã nguồn M của mã định danh.
 
 
@@ -19,7 +17,7 @@ Expression.Identifier(
 ```
 
 
-## Details
+## Remarks
 
 Trả về dạng biểu diễn mã nguồn M của mã định danh <code>name</code>.
 

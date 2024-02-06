@@ -5,8 +5,6 @@ title: Table.ToList
 # Table.ToList
 
 
-## Description
-
 Converte una tabella in un elenco applicando la funzione di combinazione specificata a ogni riga di valori nella tabella.
 
 
@@ -20,7 +18,7 @@ Table.ToList(
 ```
 
 
-## Details
+## Remarks
 
 Converte una tabella in un elenco applicando la funzione di combinazione specificata a ogni riga di valori nella tabella.
 

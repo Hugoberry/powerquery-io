@@ -5,8 +5,6 @@ title: Table.ToRecords
 # Table.ToRecords
 
 
-## Description
-
 Bir tabloyu kayıt listesine dönüştürür.
 
 
@@ -19,7 +17,7 @@ Table.ToRecords(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> tablosunu kayıt listesine dönüştürür.
 

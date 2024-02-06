@@ -5,8 +5,6 @@ title: Expression.Constant
 # Expression.Constant
 
 
-## Description
-
 Trả về dạng biểu diễn mã nguồn M của một giá trị không đổi.
 
 
@@ -19,7 +17,7 @@ Expression.Constant(
 ```
 
 
-## Details
+## Remarks
 
 Trả về dạng biểu diễn mã nguồn M của một giá trị không đổi.
 

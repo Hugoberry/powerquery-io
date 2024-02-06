@@ -5,8 +5,6 @@ title: Table.Range
 # Table.Range
 
 
-## Description
-
 Belirtilen uzaklıkta başlayan satırları döndürür.
 
 
@@ -21,7 +19,7 @@ Table.Range(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> öğesinden belirtilen <code>offset</code> konumunda başlayan satırları döndürür. <code>count</code> isteğe bağlı parametresi, döndürülecek satır sayısını belirtir. Varsayılan olarak, uzaklıktan sonraki tüm satırlar döndürülür.
 

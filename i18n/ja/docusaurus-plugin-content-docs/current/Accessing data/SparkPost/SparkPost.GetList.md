@@ -15,7 +15,7 @@ SparkPost.GetList(
 ```
 
 
-## Details
+## Remarks
 
 この関数は SparkPost API v1 で提供される "Lists" エンドポイントを呼び出すために使用できます。この関数を使用して SparkPost API に呼び出しを行うときには、SparkPost API には厳密な API レートの制限があることに留意してください。SparkPost サーバーから 429 状態コードが返される場合、このレート制限に達し、さらに呼び出しを行うには数分待つ必要が生じます。
 

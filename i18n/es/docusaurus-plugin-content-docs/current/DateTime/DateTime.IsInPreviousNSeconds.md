@@ -5,8 +5,6 @@ title: DateTime.IsInPreviousNSeconds
 # DateTime.IsInPreviousNSeconds
 
 
-## Description
-
 Indica si este valor datetime se produce durante el número de segundos anterior, determinado por la fecha y hora actual del sistema. Tenga en cuenta que esta función devuelve false cuando se pasa un valor que está dentro del segundo actual.
 
 
@@ -20,7 +18,7 @@ DateTime.IsInPreviousNSeconds(
 ```
 
 
-## Details
+## Remarks
 
 Indica si el valor datetime <code>dateTime</code> proporcionado se produce durante el número anterior de segundos, como se determina por la fecha y hora actual del sistema. Tenga en cuenta que esta función devolverá un valor "false" al pasar un valor que se produzca en el segundo actual.      <ul>      <li><code>dateTime</code>: valor <code>datetime</code> o <code>datetimezone</code> para evaluar.</li>      <li><code>seconds</code>: número de segundos.</li>      </ul>
 

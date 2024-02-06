@@ -5,8 +5,6 @@ title: Type.RecordFields
 # Type.RecordFields
 
 
-## Description
-
 Devolve um registo que descreve os campos de um tipo de registo, sendo que cada campo do tipo de registo devolvido tem um nome e um valor correspondentes.
 
 
@@ -19,7 +17,7 @@ Type.RecordFields(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um registo que descreve os campos de um registo <code>type</code>. Cada campo do tipo de registo devolvido tem um nome e um valor correspondentes, sob a forma de um registo <code>[ Type = type, Optional = logical ]</code>.
 

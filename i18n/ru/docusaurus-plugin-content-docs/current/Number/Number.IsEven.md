@@ -5,8 +5,6 @@ title: Number.IsEven
 # Number.IsEven
 
 
-## Description
-
 Указывает, четно ли число.
 
 
@@ -19,7 +17,7 @@ Number.IsEven(
 ```
 
 
-## Details
+## Remarks
 
 Указывает, четно ли значение <code>number</code>, возвращая <code>true</code>, если оно четно, и <code>false</code> - в противном случае.
 

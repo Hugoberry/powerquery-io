@@ -5,8 +5,6 @@ title: Function.IsDataSource
 # Function.IsDataSource
 
 
-## Description
-
 Değer döndürüp döndürmediğine bakılmaksızın belirli bir işlev veri kaynağı olarak değerlendirilir.
 
 
@@ -19,7 +17,7 @@ Function.IsDataSource(
 ```
 
 
-## Details
+## Remarks
 
 Değer döndürüp döndürmediğine bakılmaksızın <code>function</code> bir veri kaynağı olarak değerlendirilir.
 

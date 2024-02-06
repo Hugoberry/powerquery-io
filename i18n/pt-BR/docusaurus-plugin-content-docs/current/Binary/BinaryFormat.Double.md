@@ -5,8 +5,6 @@ title: BinaryFormat.Double
 # BinaryFormat.Double
 
 
-## Description
-
 Um formato binário que lê um valor de ponto flutuante de precisão dupla IEEE de 8 bytes.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Double(
 ```
 
 
-## Details
+## Remarks
 
 Um formato binário que lê um valor de ponto flutuante de precisão dupla IEEE de 8 bytes.
 

@@ -5,8 +5,6 @@ title: Record.SelectFields
 # Record.SelectFields
 
 
-## Description
-
 Zwraca rekord zawierający tylko określone pola.
 
 
@@ -21,7 +19,7 @@ Record.SelectFields(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca rekord zawierający tylko te pola z rekordu wejściowego <code>record</code>, które zostały określone na liście <code>fields</code>.
 

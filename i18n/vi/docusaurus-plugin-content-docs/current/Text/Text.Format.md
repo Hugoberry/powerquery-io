@@ -5,8 +5,6 @@ title: Text.Format
 # Text.Format
 
 
-## Description
-
 Trả về văn bản được định dạng từ chuỗi định dạng và các đối số.
 
 
@@ -21,7 +19,7 @@ Text.Format(
 ```
 
 
-## Details
+## Remarks
 
 Trả về văn bản đã định dạng được tạo bằng cách áp dụng <code>arguments</code> từ danh sách hoặc bản ghi cho chuỗi định dạng <code>formatString</code>. <code>culture</code> tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
 

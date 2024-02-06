@@ -5,8 +5,6 @@ title: Character.ToNumber
 # Character.ToNumber
 
 
-## Description
-
 Konwertuje znak na jego wartość liczbową.
 
 
@@ -19,7 +17,7 @@ Character.ToNumber(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca liczbowy odpowiednik znaku <code>character</code>.<br />    <br />    Wynikiem będzie 21-bitowy punkt kodu Unicode reprezentowany przez podaną parę znaków lub prę dwuskładnikową.  
 

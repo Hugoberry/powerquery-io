@@ -5,8 +5,6 @@ title: Table.NestedJoin
 # Table.NestedJoin
 
 
-## Description
-
 对提供的列执行两个表之间的联接，并在新列中生成联接结果。
 
 
@@ -25,7 +23,7 @@ Table.NestedJoin(
 ```
 
 
-## Details
+## Remarks
 
 根据由 <code>key1</code> (针对 <code>table1</code>)和 <code>key2</code> (针对 <code>table2</code>)选择的键列值的等同性联接 <code>table1</code> 的行与 <code>table2</code> 的行。将结果输入名为 <code>newColumnName</code> 的列。<br />可选的 <code>joinKind</code> 指定要执行的联接类型。默认情况下，如果未指定 <code>joinKind</code>，则执行左外部联接。<br />可包含 <code>keyEqualityComparers</code> 的可选集来指定如何比较键列。此功能目前仅适用于内部使用。<br />  
 

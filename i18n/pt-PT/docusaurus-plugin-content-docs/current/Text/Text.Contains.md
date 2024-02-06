@@ -5,8 +5,6 @@ title: Text.Contains
 # Text.Contains
 
 
-## Description
-
 Indica se o texto contém a subcadeia.
 
 
@@ -21,7 +19,7 @@ Text.Contains(
 ```
 
 
-## Details
+## Remarks
 
 Deteta se <code>text</code> contém o valor <code>substring</code>. Devolve "true" se o valor for encontrado. Esta função não suporta carateres universais nem expressões regulares.      <br />      <br />      O argumento opcional <code>comparer</code> pode ser utilizado para especificar comparações não sensíveis a maiúsculas/minúsculas ou baseadas na cultura ou na região.      Os comparadores incorporados que se seguem estão disponíveis na linguagem da fórmula:      <ul>       <li><code>Comparer.Ordinal</code>: utilizado para executar uma comparação ordinal exata</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: utilizado para executar uma comparação ordinal exata não sensível a maiúsculas/minúsculas</li>        <li> <code>Comparer.FromCulture</code>: utilizado para executar uma comparação baseada na cultura</li>      </ul>
 

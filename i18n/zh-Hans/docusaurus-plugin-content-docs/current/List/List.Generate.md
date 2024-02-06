@@ -5,8 +5,6 @@ title: List.Generate
 # List.Generate
 
 
-## Description
-
 生成值列表。
 
 
@@ -22,7 +20,7 @@ List.Generate(
 ```
 
 
-## Details
+## Remarks
 
 使用提供的函数生成值列表。<code>initial</code> 函数生成一个起始候选值，然后针对 <code>condition</code> 进行测试。    如果候选值获得批准，则会将其作为结果列表的一部分返回，并通过将新批准的值传递给 <code>next</code> 来生成下一个候选值。    候选值无法匹配 <code>condition</code> 后，列表生成进程将停止。    也可以提供可选参数 <code>selector</code>，以转换生成列表中的项。
 

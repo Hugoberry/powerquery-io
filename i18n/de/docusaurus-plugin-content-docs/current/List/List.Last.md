@@ -5,8 +5,6 @@ title: List.Last
 # List.Last
 
 
-## Description
-
 Gibt den letzten Wert der Liste zurück. Ist die Liste leer, wird der angegebene Standardwert zurückgegeben.
 
 
@@ -20,7 +18,7 @@ List.Last(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das letzte Element in der Liste "<code>list</code>" zurück. Ist die Liste leer, wird der optionale Standardwert "<code>defaultValue</code>" zurückgegeben.    Ist die Liste leer und kein Standardwert angegeben, gibt die Funktion <code>null</code> zurück.
 

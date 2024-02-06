@@ -5,8 +5,6 @@ title: Combiner.CombineTextByEachDelimiter
 # Combiner.CombineTextByEachDelimiter
 
 
-## Description
-
 傳回函式，其會使用一連串分隔符號結合文字清單。
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByEachDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 傳回函式，其會使用一連串分隔符號結合文字值清單為單一文字值。
 

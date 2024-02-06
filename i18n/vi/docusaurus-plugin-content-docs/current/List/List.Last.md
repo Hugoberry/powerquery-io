@@ -5,8 +5,6 @@ title: List.Last
 # List.Last
 
 
-## Description
-
 Trả về giá trị cuối cùng của danh sách hoặc giá trị mặc định được chỉ định nếu trống.
 
 
@@ -20,7 +18,7 @@ List.Last(
 ```
 
 
-## Details
+## Remarks
 
 Trả về mục cuối cùng trong danh sách <code>list</code> hoặc giá trị mặc định tùy chọn <code>defaultValue</code> nếu danh sách này trống.    Nếu danh sách trống và một giá trị mặc định không được chỉ định thì hàm trả về <code>null</code>.
 

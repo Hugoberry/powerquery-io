@@ -5,8 +5,6 @@ title: Impala.Database
 # Impala.Database
 
 
-## Description
-
 从 Impala 群集导入数据
 
 
@@ -20,7 +18,7 @@ Impala.Database(
 ```
 
 
-## Details
+## Remarks
 
 从 Impala 群集 <code>server</code> 导入数据。若未指定端口，则将使用默认端口 21050。
 

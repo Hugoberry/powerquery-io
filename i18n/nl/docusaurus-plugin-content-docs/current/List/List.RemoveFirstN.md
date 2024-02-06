@@ -5,8 +5,6 @@ title: List.RemoveFirstN
 # List.RemoveFirstN
 
 
-## Description
-
 Retourneert een lijst die het opgegeven aantal elementen aan het begin van de lijst overslaat.
 
 
@@ -20,7 +18,7 @@ List.RemoveFirstN(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een lijst geretourneerd waarmee het eerste element van lijst <code>list</code> wordt verwijderd. Als <code>list</code> een lege lijst is, wordt een lege lijst geretourneerd.Deze functie gebruikt een optionele parameter, <code>countOrCondition</code>, voor het ondersteunen van het verwijderen van meerdere waarden zoals in de onderstaande lijst. <ul> <li>Als een getal is opgegeven, wordt maximaal dat aantal items verwijderd. </li> <li>Als een voorwaarde is opgegeven, begint de geretourneerde lijst met het eerste element in <code>list</code> dat aan de criteria voldoet. Zodra een item niet aan de voorwaarde voldoet, worden geen verdere items meer behandeld. </li> <li>Als deze parameter null is, wordt het standaardgedrag waargenomen. </li> </ul>
 

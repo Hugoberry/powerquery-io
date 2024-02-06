@@ -5,8 +5,6 @@ title: Text.Combine
 # Text.Combine
 
 
-## Description
-
 将一系列文本值连接成一个文本值。
 
 
@@ -20,7 +18,7 @@ Text.Combine(
 ```
 
 
-## Details
+## Remarks
 
 返回将文本值列表，<code>texts</code>，合并为单个文本值的结果。<code>texts</code> 中存在的任何 <code>null</code> 值将被忽略。    可以指定在最终组合文本中使用的可选 <code>separator</code>。
 

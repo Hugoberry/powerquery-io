@@ -5,8 +5,6 @@ title: List.IsDistinct
 # List.IsDistinct
 
 
-## Description
-
 指示列表中是否有重复值。
 
 
@@ -20,7 +18,7 @@ List.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 返回一个指示列表 <code>list</code> 中是否有重复值的逻辑值；如果列表没有重复值，则为 <code>true</code>，否则为 <code>false</code>。
 

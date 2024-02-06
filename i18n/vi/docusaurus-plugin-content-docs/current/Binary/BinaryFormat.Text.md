@@ -5,8 +5,6 @@ title: BinaryFormat.Text
 # BinaryFormat.Text
 
 
-## Description
-
 Trả về một định dạng nhị phân đọc một giá trị văn bản.
 
 
@@ -20,7 +18,7 @@ BinaryFormat.Text(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một định dạng nhị phân đọc một giá trị văn bản.  <code>length</code> chỉ định số lượng byte để giải mã hoặc định dạng nhị phân có độ dài đứng trước văn bản.  Giá trị <code>encoding</code> tùy chọn chỉ định việc mã hóa của văn bản.  Nếu <code>encoding</code> không được chỉ định thì mã hóa được xác định từ dấu thứ tự byte Unicode.  Nếu không có dấu thứ tự byte nào thì sẽ sử dụng  <code>TextEncoding.Utf8</code>.
 

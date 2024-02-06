@@ -5,8 +5,6 @@ title: Type.ForFunction
 # Type.ForFunction
 
 
-## Description
-
 Returnerar en typ som representerar funktioner med särskilda parameter- och returtypsbegränsningar.
 
 
@@ -20,7 +18,7 @@ Type.ForFunction(
 ```
 
 
-## Details
+## Remarks
 
 Skapar en <code>function type</code> från <code>signature</code>, en post med <code>ReturnType</code> och <code>Parameters</code>, och <code>min</code>, det minsta antalet argument som krävs för att anropa funktionen.
 

@@ -5,8 +5,6 @@ title: Table.FromValue
 # Table.FromValue
 
 
-## Description
-
 Sağlanan değerlerden bir sütun içeren tablo oluşturur.
 
 
@@ -20,7 +18,7 @@ Table.FromValue(
 ```
 
 
-## Details
+## Remarks
 
 Sağlanan değeri veya değerler listesini, <code>value</code> içeren bir sütuna sahip bir tablo oluşturur. İsteğe bağlı bir kayıt parametresi olan <code>options</code>, aşağıdaki seçenekleri denetlemek için belirtilebilir:    <ul>    <li> <code>DefaultColumnName</code> : Listeden veya skaler değerinden bir tablo oluştururken kullanılan sütun adı.</li>    </ul>  
 

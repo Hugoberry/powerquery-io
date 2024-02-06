@@ -5,8 +5,6 @@ title: Embedded.Value
 # Embedded.Value
 
 
-## Description
-
 Truy nhập một giá trị theo tên trong ứng dụng kết hợp dữ liệu được nhúng.
 
 
@@ -20,7 +18,7 @@ Embedded.Value(
 ```
 
 
-## Details
+## Remarks
 
 Truy nhập một giá trị theo tên trong ứng dụng kết hợp dữ liệu được nhúng.
 

@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentralOnPremises.Contents
 # Dynamics365BusinessCentralOnPremises.Contents
 
 
-## Description
-
 Dynamics 365 Business Central (şirket içi) OData hizmet uç noktanızın URL&#39;sini girin.
 
 
@@ -20,7 +18,7 @@ Dynamics365BusinessCentralOnPremises.Contents(
 ```
 
 
-## Details
+## Remarks
 
 İlgili Dynamics 365 Business Central (şirket içi) verilerinin bulunduğu bir tablo döndürür. 
 

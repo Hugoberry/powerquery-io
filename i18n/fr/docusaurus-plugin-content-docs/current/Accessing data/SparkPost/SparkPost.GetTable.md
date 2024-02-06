@@ -5,8 +5,6 @@ title: SparkPost.GetTable
 # SparkPost.GetTable
 
 
-## Description
-
 Retourne une table des mesures disponibles à partir de l&#39;API SparkPost v1
 
 
@@ -22,7 +20,7 @@ SparkPost.GetTable(
 ```
 
 
-## Details
+## Remarks
 
 Cette fonction peut être utilisée pour récupérer des données d'un point de terminaison " Métriques " particulier de l'API SparkPost v1. Quand vous actualisez ces tables ou passez des appels à l'API SparkPost à l'aide de ce connecteur, gardez à l'esprit que l'API SparkPost a un débit maximal d'API strict. Si le code d'état 429 est retourné par le serveur SparkPost, vous avez atteint le débit maximal et devez attendre quelques instants avant de passer d'autres appels. Quand vous choisissez une valeur pour le paramètre Nombre de jours, notez que l'API stocke uniquement l'équivalent de 6 mois de données.
 

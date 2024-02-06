@@ -5,8 +5,6 @@ title: AzureEnterprise.Tables
 # AzureEnterprise.Tables
 
 
-## Description
-
 Angiv URL-adressen til slutpunktet for den Azure Enterprise REST-API, der er knyttet til tilmeldingen
 
 
@@ -19,7 +17,7 @@ AzureEnterprise.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en liste over tilgængelige rapporter over måneder fra Azure Enterprise-API'en
 

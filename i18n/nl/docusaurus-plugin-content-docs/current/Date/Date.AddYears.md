@@ -5,8 +5,6 @@ title: Date.AddYears
 # Date.AddYears
 
 
-## Description
-
 Voegt de opgegeven jaren toe aan de datum.
 
 
@@ -20,7 +18,7 @@ Date.AddYears(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt het <code>date</code>-, <code>datetime</code>- of <code>datetimezone</code>-resultaat geretourneerd van het toevoegen van <code>numberOfYears</code> aan een <code>datetime</code>-waarde <code>dateTime</code>. <ul> <li><code>dateTime</code>: de <code>date</code>-, <code>datetime</code>- of <code>datetimezone</code>-waarde waaraan jaren worden toegevoegd.</li> <li><code>numberOfYears</code>: het aantal jaren dat moet worden toegevoegd.</li> </ul>
 

@@ -5,8 +5,6 @@ title: DateTime.AddZone
 # DateTime.AddZone
 
 
-## Description
-
 Añade la información de la zona horaria al valor de fecha y hora.
 
 
@@ -21,7 +19,7 @@ DateTime.AddZone(
 ```
 
 
-## Details
+## Remarks
 
 Agrega la información de zona horaria al valor de <code>dateTime</code>. La información de zona horaria incluye <code>timezoneHours</code> y, opcionalmente, <code>timezoneMinutes</code>, que especifican el desplazamiento deseado respecto a la hora UTC.
 

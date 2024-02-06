@@ -5,8 +5,6 @@ title: List.RemoveFirstN
 # List.RemoveFirstN
 
 
-## Description
-
 Zwraca listę, na której pominięto określoną liczbę elementów znajdujących się na początku innej listy.
 
 
@@ -20,7 +18,7 @@ List.RemoveFirstN(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca listę, z której usunięto pierwszy element listy <code>list</code>. Jeśli lista <code>list</code> jest pusta, zwracana jest pusta lista.Ta funkcja przyjmuje opcjonalny parametr <code>countOrCondition</code>, który umożliwia usunięcie wielu wartości, tak jak opisano poniżej.  <ul> <li>Jeśli jest określona liczba, zostanie usuniętych maksymalnie tyle elementów, ile wynosi ta liczba. </li> <li>Jeśli jest określony warunek, zwracana lista zaczyna się od pierwszego elementu z listy <code>list</code>, który spełnia kryteria. Gdy zostanie znaleziony element, który nie spełnia warunku, nie będą analizowane dalsze elementy. </li> <li>Jeśli ten parametr ma wartość null, jest stosowane zachowanie domyślne. </li> </ul>
 

@@ -5,8 +5,6 @@ title: List.First
 # List.First
 
 
-## Description
-
 Listenin ilk değerini veya boşsa belirtilen varsayılanı döndürür.
 
 
@@ -20,7 +18,7 @@ List.First(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> listesindeki ilk öğeyi veya liste boşsa <code>defaultValue</code> isteğe bağlı varsayılan değerini döndürür.    Liste boşsa ve varsayılan değer belirtilmemişse, bu işlev <code>null</code> döndürür.
 

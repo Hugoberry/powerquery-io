@@ -5,8 +5,6 @@ title: Geography.ToWellKnownText
 # Geography.ToWellKnownText
 
 
-## Description
-
 Traduce un valor de punto geográfico estructurado en su representación de Well-Known Text (WKT).
 
 
@@ -20,7 +18,7 @@ Geography.ToWellKnownText(
 ```
 
 
-## Details
+## Remarks
 
 Traduce un valor de punto geográfico estructurado en su representación de Well-Known Text (WKT), tal como la define el consorcio Open Geospatial Consortium (OGC), el formato de serialización que usan muchas bases de datos, incluidas las de SQL Server.
 

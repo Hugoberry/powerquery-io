@@ -5,8 +5,6 @@ title: BinaryFormat.7BitEncodedSignedInteger
 # BinaryFormat.7BitEncodedSignedInteger
 
 
-## Description
-
 Een binaire indeling die een 64-bits geheel getal met teken leest dat is gecodeerd met een 7-bits codering met variabele lengte.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.7BitEncodedSignedInteger(
 ```
 
 
-## Details
+## Remarks
 
 Een binaire indeling die een 64-bits geheel getal met teken leest dat is gecodeerd met een 7-bits codering met variabele lengte.
 

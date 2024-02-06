@@ -5,8 +5,6 @@ title: DateTimeZone.ToUtc
 # DateTimeZone.ToUtc
 
 
-## Description
-
 Konverterer tidszonekomponenten til UTC-tidszonen.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToUtc(
 ```
 
 
-## Details
+## Remarks
 
 Ændrer tidszoneoplysninger for værdien af typen datetime, <code>dateTimeZone</code>, til UTC-tidszoneoplysningerne.    Hvis <code>dateTimeZone</code> ikke har en tidszonekomponent, tilføjes UTC-tidszoneoplysningerne.
 

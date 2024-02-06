@@ -5,8 +5,6 @@ title: Text.End
 # Text.End
 
 
-## Description
-
 傳回文字的最後幾個字元。
 
 
@@ -20,7 +18,7 @@ Text.End(
 ```
 
 
-## Details
+## Remarks
 
 傳回 <code>text</code> 值，這是 <code>text</code> 值 <code>text</code> 的最後 <code>count</code> 個字元。
 

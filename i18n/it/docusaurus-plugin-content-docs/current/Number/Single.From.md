@@ -5,8 +5,6 @@ title: Single.From
 # Single.From
 
 
-## Description
-
 Crea un valore Single dal valore specificato.
 
 
@@ -20,7 +18,7 @@ Single.From(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un valore Single <code>numero</code> dal dato <code>value</code>. Se il dato<code>value</code> è <code>null</code>, <code>Single.From</code> restituisce <code>null</code>.  Se il dato <code>value</code> si trova nell’intervallo di Single <code>numero</code>, <code>value</code> viene restituito, in caso contrario, viene restituito un errore. Se <code>value</code> è di qualsiasi altro tipo, verrà prima convertito in un <code>numero</code> usando <code>Number.FromText</code>. È anche possibile specificare <code>culture</code> facoltativo (ad esempio "en-US").
 

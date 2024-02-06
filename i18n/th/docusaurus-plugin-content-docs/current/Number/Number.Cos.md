@@ -5,8 +5,6 @@ title: Number.Cos
 # Number.Cos
 
 
-## Description
-
 ส่งกลับค่าโคไซน์ของตัวเลข
 
 
@@ -19,7 +17,7 @@ Number.Cos(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับค่าโคไซน์ของ <code>number</code>
 

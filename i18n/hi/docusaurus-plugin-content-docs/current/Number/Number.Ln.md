@@ -5,8 +5,6 @@ title: Number.Ln
 # Number.Ln
 
 
-## Description
-
 संख्या का प्राकृतिक लघुगणक लौटाता है.
 
 
@@ -19,7 +17,7 @@ Number.Ln(
 ```
 
 
-## Details
+## Remarks
 
 संख्या, <code>number</code>, का प्राकृतिक लॉगेरिथ्म लौटाता है. यदि <code>number</code> नल है, तो <code>Number.Ln</code> नल लौटाता है.
 

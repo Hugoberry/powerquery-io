@@ -5,8 +5,6 @@ title: Type.IsOpenRecord
 # Type.IsOpenRecord
 
 
-## Description
-
 Trả về loại bản ghi là đang mở.
 
 
@@ -19,7 +17,7 @@ Type.IsOpenRecord(
 ```
 
 
-## Details
+## Remarks
 
 Trả về giá trị <code>logic</code> cho biết bản ghi <code>type</code> đang mở.
 

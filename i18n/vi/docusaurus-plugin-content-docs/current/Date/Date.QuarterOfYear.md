@@ -5,8 +5,6 @@ title: Date.QuarterOfYear
 # Date.QuarterOfYear
 
 
-## Description
-
 Trả về một số cho biết ngày đó rơi vào quý nào trong năm.
 
 
@@ -19,7 +17,7 @@ Date.QuarterOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một số trong khoảng từ 1 tới 4 cho biết ngày <code>dateTime</code> rơi vào quý nào trong năm. <code>dateTime</code> có thể là giá trị <code>date</code>, <code>datetime</code> hoặc <code>datetimezone</code>.
 

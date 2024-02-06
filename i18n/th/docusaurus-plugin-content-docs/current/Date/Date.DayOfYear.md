@@ -5,8 +5,6 @@ title: Date.DayOfYear
 # Date.DayOfYear
 
 
-## Description
-
 ส่งกลับตัวเลขตั้งแต่ 1 ถึง 366 ที่แสดงถึงวันของปี
 
 
@@ -19,7 +17,7 @@ Date.DayOfYear(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตัวเลขที่แสดงวันของปีในค่า <code>date</code>, <code>datetime</code> หรือ <code>datetimezone</code> ที่ระบุ <code>dateTime</code>
 

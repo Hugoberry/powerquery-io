@@ -5,8 +5,6 @@ title: Character.ToNumber
 # Character.ToNumber
 
 
-## Description
-
 Konvertiert ein Zeichen in einen Zahlenwert.
 
 
@@ -19,7 +17,7 @@ Character.ToNumber(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die Zahlenentsprechung der <code>character</code> zurück.<br />    <br />    Das Ergebnis ist der 21-Bit-Unicode-Codepunkt, der durch das angegebene Zeichen- oder Ersatzzeichenpaar dargestellt wird.  
 

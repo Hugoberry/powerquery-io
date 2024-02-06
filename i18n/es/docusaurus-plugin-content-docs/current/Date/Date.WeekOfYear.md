@@ -5,8 +5,6 @@ title: Date.WeekOfYear
 # Date.WeekOfYear
 
 
-## Description
-
 Devuelve un número del 1 al 54 que indica en qué semana del año cae esta fecha.
 
 
@@ -20,7 +18,7 @@ Date.WeekOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un número del 1 al 54 que indica qué en que semana del año cae la fecha, <code>dateTime</code>. <ul>        <li><code>dateTime</code>: un valor <code>datetime</code> para el que se determina la semana del año.</li>        <li><code>firstDayOfWeek</code>: un valor opcional <code>Day.Type</code> que indica qué día se considera que el inicio de una nueva semana (por ejemplo, <code>Day.Sunday</code>). Si no se especifica, se usa un valor predeterminado dependiente de la referencia cultural.</li>      </ul>
 

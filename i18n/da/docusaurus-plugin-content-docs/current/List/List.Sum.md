@@ -5,8 +5,6 @@ title: List.Sum
 # List.Sum
 
 
-## Description
-
 Returnerer summen af elementerne på listen.
 
 
@@ -20,7 +18,7 @@ List.Sum(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer summen af de værdier, der ikke er null, på listen, <code>list</code>.  Returnerer null, hvis der ikke er tal, som ikke er null, på listen.
 

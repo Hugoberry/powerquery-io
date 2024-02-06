@@ -5,8 +5,6 @@ title: List.Count
 # List.Count
 
 
-## Description
-
 सूची के आइटमों की संख्या लौटाता है.
 
 
@@ -19,7 +17,7 @@ List.Count(
 ```
 
 
-## Details
+## Remarks
 
 सूची <code>list</code> के आइटमों की संख्या लौटाता है.
 

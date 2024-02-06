@@ -5,8 +5,6 @@ title: List.Generate
 # List.Generate
 
 
-## Description
-
 値の一覧を生成します。
 
 
@@ -22,7 +20,7 @@ List.Generate(
 ```
 
 
-## Details
+## Remarks
 
 指定された関数を使用して値の一覧を生成します。<code>initial</code> 関数は開始候補値を生成し、<code>condition</code>に対してテストされます。    候補の値が承認されると、結果リストの一部として返され、次の候補値は、新しく承認された値を <code>next</code> に渡すことで生成されます。    候補値が <code>condition</code> と一致しない場合、リスト生成プロセスは停止します。    省略可能なパラメーター <code>selector</code> を指定して、結果のリスト内の項目を変換することもできます。
 

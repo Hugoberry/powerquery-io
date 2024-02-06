@@ -5,8 +5,6 @@ title: Cube.MeasureProperty
 # Cube.MeasureProperty
 
 
-## Description
-
 ส่งกลับคุณสมบัติของหน่วยวัด (คุณสมบัติเซลล์)
 
 
@@ -20,7 +18,7 @@ Cube.MeasureProperty(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับคุณสมบัติ <code>propertyName</code> ของหน่วยวัด <code>measure</code>
 

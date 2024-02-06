@@ -5,8 +5,6 @@ title: Table.TransformRows
 # Table.TransformRows
 
 
-## Description
-
 Tablonun satırlarını belirtilen dönüşüm işlevini kullanarak dönüştürür.
 
 
@@ -20,7 +18,7 @@ Table.TransformRows(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> içindeki her satıra <code>transform</code> işlemini uygulayarak bir <code>liste</code> oluşturur.
 

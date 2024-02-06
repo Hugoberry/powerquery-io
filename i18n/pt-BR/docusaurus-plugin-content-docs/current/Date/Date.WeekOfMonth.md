@@ -5,8 +5,6 @@ title: Date.WeekOfMonth
 # Date.WeekOfMonth
 
 
-## Description
-
 Retorna um número de 1 a 6 que indica em qual semana do mês esta data cairá.
 
 
@@ -20,7 +18,7 @@ Date.WeekOfMonth(
 ```
 
 
-## Details
+## Remarks
 
 Retorna um número de 1 a 6 que indica em qual semana do mês a data <code>dateTime</code> cairá.  <ul>        <li><code>dateTime</code>: um valor <code>Data/Hora</code> para o qual a semana do m~es será determinada.</li>      </ul>
 

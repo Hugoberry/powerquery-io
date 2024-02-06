@@ -5,8 +5,6 @@ title: Splitter.SplitTextByRanges
 # Splitter.SplitTextByRanges
 
 
-## Description
-
 Retourneert een functie die tekst splitst in een lijst met tekst conform de opgegeven verschuivingen en lengten.
 
 
@@ -20,7 +18,7 @@ Splitter.SplitTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een functie die tekst splitst in een lijst met tekst volgens de opgegeven verschuivingen en lengten. Een null-lengte geeft aan dat alle resterende invoer moet worden opgenomen.
 

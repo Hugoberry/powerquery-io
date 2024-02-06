@@ -5,8 +5,6 @@ title: Table.Last
 # Table.Last
 
 
-## Description
-
 最終行または指定された既定値を返します。
 
 
@@ -20,7 +18,7 @@ Table.Last(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> の最終行を返します。テーブルが空の場合は、省略可能な既定値 <code>default</code> を返します。
 

@@ -5,8 +5,6 @@ title: BinaryFormat.Byte
 # BinaryFormat.Byte
 
 
-## Description
-
 Двоичный формат, который считывает 8-разрядное целое число без знака.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Byte(
 ```
 
 
-## Details
+## Remarks
 
 Двоичный формат, который считывает 8-разрядное целое число без знака.
 

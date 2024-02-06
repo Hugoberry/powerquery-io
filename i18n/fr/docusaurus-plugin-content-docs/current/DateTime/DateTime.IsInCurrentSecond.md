@@ -5,8 +5,6 @@ title: DateTime.IsInCurrentSecond
 # DateTime.IsInCurrentSecond
 
 
-## Description
-
 Indique si cette date/heure tombe pendant la seconde actuelle, déterminée par la date et l&#39;heure actuelles du système.
 
 
@@ -19,7 +17,7 @@ DateTime.IsInCurrentSecond(
 ```
 
 
-## Details
+## Remarks
 
 Indique si la valeur datetime spécifiée <code>dateTime</code> tombe pendant la seconde actuelle, déterminée par la date et l'heure actuelles du système.      <ul>      <li><code>dateTime</code> : une valeur <code>datetime</code> ou <code>datetimezone</code> à évaluer.</li>      </ul>
 

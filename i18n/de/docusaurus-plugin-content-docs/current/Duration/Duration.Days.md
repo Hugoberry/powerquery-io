@@ -5,8 +5,6 @@ title: Duration.Days
 # Duration.Days
 
 
-## Description
-
 Gibt den Tageanteil einer Dauer zurück.
 
 
@@ -19,7 +17,7 @@ Duration.Days(
 ```
 
 
-## Details
+## Remarks
 
 Gibt den Tageanteil von <code>duration</code> zurück.
 

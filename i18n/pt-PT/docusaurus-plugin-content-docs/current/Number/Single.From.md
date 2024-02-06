@@ -5,8 +5,6 @@ title: Single.From
 # Single.From
 
 
-## Description
-
 Cria um número Único a partir do valor fornecido.
 
 
@@ -20,7 +18,7 @@ Single.From(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um Singular <code>number</code> do fornecido <code>value</code>. Se o <code>value</code> fornecido for <code>null</code>, <code>Single.From</code> devolve <code>null</code>.  Se o fornecido <code>value</code> for <code>number</code> dentro do intervalo Singular <code>value</code> é devolvido, caso contrário é devolvido um erro. Se <code>value</code> for de qualquer outro tipo, primeiro será convertido num <code>number</code> utilizando <code>Number.FromText</code>. Um opcional <code>culture</code> também poderá ser devolvido (por exemplo, "en-US").
 

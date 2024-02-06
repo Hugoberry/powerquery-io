@@ -5,8 +5,6 @@ title: BinaryFormat.Binary
 # BinaryFormat.Binary
 
 
-## Description
-
 Returnerar ett binärformat som läser ett binärvärde.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Binary(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett binärformat som läser ett binärvärde. Om <code>length</code> anges innehåller binärvärdet så många byte. Om <code>length</code> inte anges innehåller binärvärdet resterande antal byte. <code>length</code> kan anges som ett tal eller som ett binärformat för längden som föregår binärdata.
 

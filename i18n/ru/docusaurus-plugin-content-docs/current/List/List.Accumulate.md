@@ -5,8 +5,6 @@ title: List.Accumulate
 # List.Accumulate
 
 
-## Description
-
 Накапливает сводное значения из элементов в списке.
 
 
@@ -21,7 +19,7 @@ List.Accumulate(
 ```
 
 
-## Details
+## Remarks
 
 Накапливает сводное значение из элементов в списке <code>list</code> с использованием <code>accumulator</code>.    Может быть установлен необязательный параметр начального значения <code>seed</code>.
 

@@ -5,8 +5,6 @@ title: Binary.Compress
 # Binary.Compress
 
 
-## Description
-
 Nén giá trị nhị phân bằng cách sử dụng loại nén đã cho.
 
 
@@ -20,7 +18,7 @@ Binary.Compress(
 ```
 
 
-## Details
+## Remarks
 
 Nén giá trị nhị phân bằng loại nén đã cho. Kết quả của lệnh gọi này là bản sao dữ liệu đầu vào ở dạng nén. Các loại nén bao  gồm:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
 

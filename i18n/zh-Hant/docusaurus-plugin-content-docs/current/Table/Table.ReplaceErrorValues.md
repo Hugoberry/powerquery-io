@@ -5,8 +5,6 @@ title: Table.ReplaceErrorValues
 # Table.ReplaceErrorValues
 
 
-## Description
-
 以相對應的指定值取代指定資料行中的錯誤值。
 
 
@@ -20,7 +18,7 @@ Table.ReplaceErrorValues(
 ```
 
 
-## Details
+## Remarks
 
 以 <code>errorReplacement</code> 清單中的新值取代 <code>table</code> 指定資料行中的錯誤值。清單格式為 \{\{column1, value1}, …}。每個資料行都只會有一個取代值，多次指定資料行可能會發生錯誤。
 

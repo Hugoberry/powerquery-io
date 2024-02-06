@@ -5,8 +5,6 @@ title: BinaryFormat.Text
 # BinaryFormat.Text
 
 
-## Description
-
 Devuelve un formato binario que lee un valor de texto.
 
 
@@ -20,7 +18,7 @@ BinaryFormat.Text(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve un formato binario que lee un valor de texto.  El <code>length</code> especifica el número de bytes para decodificar o el formato binario de la longitud que antecede al texto.  El valor opcional <code>encoding</code> especifica la codificación del texto.  Si no se especifica <code>encoding</code>, la codificación se determina a partir de las marcas BOM Unicode.  Si no hay ninguna marca BOM, se usa <code>TextEncoding.Utf8</code>.
 

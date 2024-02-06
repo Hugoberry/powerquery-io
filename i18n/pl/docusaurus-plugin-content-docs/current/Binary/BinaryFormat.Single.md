@@ -5,8 +5,6 @@ title: BinaryFormat.Single
 # BinaryFormat.Single
 
 
-## Description
-
 Format binarny odczytujący 4-bajtową wartość zmiennoprzecinkową o pojedynczej precyzji, która jest zgodna ze standardem IEEE.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Single(
 ```
 
 
-## Details
+## Remarks
 
 Format binarny odczytujący 4-bajtową wartość zmiennoprzecinkową o pojedynczej precyzji, która jest zgodna ze standardem IEEE.
 

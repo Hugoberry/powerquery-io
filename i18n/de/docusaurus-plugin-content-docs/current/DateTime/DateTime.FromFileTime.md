@@ -5,8 +5,6 @@ title: DateTime.FromFileTime
 # DateTime.FromFileTime
 
 
-## Description
-
 Erstellt einen datetime-Wert auf der Grundlage einer 64-Bit-Zahl.
 
 
@@ -19,7 +17,7 @@ DateTime.FromFileTime(
 ```
 
 
-## Details
+## Remarks
 
 Erstellt einen <code>datetime</code>-Wert auf der Grundlage des Werts "<code>fileTime</code>" und konvertiert ihn in die lokale Zeitzone. Die Dateizeit ist ein Windows-Dateizeitwert und steht für die Anzahl der verstrichenen 100-Nanosekunden-Intervalle seit dem 1. Januar 1601 n.Chr., 0:00 Uhr (christliche Zeitrechnung), koordinierte Weltzeit (UTC).
 

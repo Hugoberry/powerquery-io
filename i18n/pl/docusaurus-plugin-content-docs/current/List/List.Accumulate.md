@@ -5,8 +5,6 @@ title: List.Accumulate
 # List.Accumulate
 
 
-## Description
-
 Akumuluje wartość podsumowania elementów listy.
 
 
@@ -21,7 +19,7 @@ List.Accumulate(
 ```
 
 
-## Details
+## Remarks
 
 Akumuluje wartość podsumowania elementów listy <code>list</code>, używając funkcji <code>accumulator</code>.    Można ustawić opcjonalny parametr inicjatora <code>seed</code>.
 

@@ -5,8 +5,6 @@ title: DateTime.IsInNextHour
 # DateTime.IsInNextHour
 
 
-## Description
-
 Wskazuje, czy ta data przypada w ciągu następnej godziny określonej zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącej godziny.
 
 
@@ -19,7 +17,7 @@ DateTime.IsInNextHour(
 ```
 
 
-## Details
+## Remarks
 
 Wskazuje, czy dana wartość daty/godziny <code>dateTime</code> przypada w ciągu następnej godziny określonej zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącej godziny.      <ul>      <li><code>dateTime</code>: wartość <code>datetime</code> lub <code>datetimezone</code> do oszacowania.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Webtrends.KeyMetrics
 # Webtrends.KeyMetrics
 
 
-## Description
-
 Hiermee wordt een tabel met metrische sleutelgegevens van Webtrends geretourneerd.
 
 
@@ -21,7 +19,7 @@ Webtrends.KeyMetrics(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een aanroep verzonden naar het Webtrends KeyMetrics-eindpunt en worden alle gegevens geretourneerd als een tabel.
 

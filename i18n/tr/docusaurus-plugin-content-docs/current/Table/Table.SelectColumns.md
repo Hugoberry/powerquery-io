@@ -5,8 +5,6 @@ title: Table.SelectColumns
 # Table.SelectColumns
 
 
-## Description
-
 Yalnızca belirtilen sütunları içeren bir tablo döndürür.
 
 
@@ -21,7 +19,7 @@ Table.SelectColumns(
 ```
 
 
-## Details
+## Remarks
 
 Yalnızca belirtilen <code>columns</code> öğesini içeren <code>table</code> öğesini döndürür.    <ul>       <li><code>table</code>: Sağlanan tablo.</li>       <li><code>columns</code>: <code>table</code> tablosundan döndürülecek sütun listesi. Döndürülen tablodaki sütunlar <code>columns</code> içinde listelenen sıradadır.</li>       <li><code>missingField</code>: <i>(İsteğe bağlı)</i> Sütun yoksa yapılacak işlem.  Örneğin: <code>MissingField.UseNull</code> veya <code>MissingField.Ignore</code>.    </li></ul>
 

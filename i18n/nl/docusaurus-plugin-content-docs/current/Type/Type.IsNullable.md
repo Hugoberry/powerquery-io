@@ -5,8 +5,6 @@ title: Type.IsNullable
 # Type.IsNullable
 
 
-## Description
-
 Retourneert &#39;true&#39; indien voor een type een null-waarde is toegestaan; anders wordt &#39;false&#39; geretourneerd.
 
 
@@ -19,7 +17,7 @@ Type.IsNullable(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert <code>true</code> indien voor een type een <code>null-waarde is toegestaan</code>; anders wordt <code>false</code> geretourneerd.
 

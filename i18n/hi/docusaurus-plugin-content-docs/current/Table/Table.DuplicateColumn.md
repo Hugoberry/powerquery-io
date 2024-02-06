@@ -5,8 +5,6 @@ title: Table.DuplicateColumn
 # Table.DuplicateColumn
 
 
-## Description
-
 निर्दिष्ट नाम के स्तंभ का डुप्लिकेट बनाता है. मान और प्रकार की स्रोत स्तंभ से प्रतिलिपि बना ली जाती है.
 
 
@@ -22,7 +20,7 @@ Table.DuplicateColumn(
 ```
 
 
-## Details
+## Remarks
 
 तालिका <code>table</code> में <code>columnName</code> नाम के स्तंभ का डुप्लिकेट बनाएँ. स्तंभ <code>newColumnName</code> के लिए मान और प्रकार की स्तंभ <code>columnName</code> से प्रतिलिपि बना ली जाती है.
 

@@ -5,8 +5,6 @@ title: Table.SingleRow
 # Table.SingleRow
 
 
-## Description
-
 傳回資料表的單一資料列。
 
 
@@ -19,7 +17,7 @@ Table.SingleRow(
 ```
 
 
-## Details
+## Remarks
 
 傳回單列 <code>table</code> 的單一資料列。如果 <code>table</code> 有多個資料列，則會擲回例外狀況。
 

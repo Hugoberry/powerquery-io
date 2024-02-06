@@ -5,8 +5,6 @@ title: Table.ApproximateRowCount
 # Table.ApproximateRowCount
 
 
-## Description
-
 ส่งกลับจำนวนของแถวโดยประมาณในตาราง
 
 
@@ -19,7 +17,7 @@ Table.ApproximateRowCount(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับจํานวนแถวโดยประมาณใน <code>table</code> หรือข้อผิดพลาดถ้าแหล่งข้อมูลไม่สนับสนุนการประมาณ
 

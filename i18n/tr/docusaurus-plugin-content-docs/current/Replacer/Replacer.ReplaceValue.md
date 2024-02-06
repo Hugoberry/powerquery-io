@@ -5,8 +5,6 @@ title: Replacer.ReplaceValue
 # Replacer.ReplaceValue
 
 
-## Description
-
 Sağlanan girdideki değerleri değiştirir.
 
 
@@ -21,7 +19,7 @@ Replacer.ReplaceValue(
 ```
 
 
-## Details
+## Remarks
 
 Asıl <code>value</code> içindeki <code>old</code> değerini <code>new</code> değeri ile değiştirir. Bu değiştirici işlevi <code>List.ReplaceValue</code> ve <code>Table.ReplaceValue</code> içinde kullanılabilir.
 

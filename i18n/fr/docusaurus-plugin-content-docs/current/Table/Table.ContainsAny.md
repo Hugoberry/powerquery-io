@@ -5,8 +5,6 @@ title: Table.ContainsAny
 # Table.ContainsAny
 
 
-## Description
-
 Indique si l&#39;un des enregistrements spécifiés s&#39;affiche sous la forme de lignes dans la table.
 
 
@@ -21,7 +19,7 @@ Table.ContainsAny(
 ```
 
 
-## Details
+## Remarks
 
 Indique si l'un des enregistrements spécifiés dans la liste d'enregistrements <code>rows</code> s'affiche sous la forme de lignes dans <code>table</code>.    Un paramètre facultatif <code>equationCriteria</code> peut être spécifié pour contrôler la comparaison entre les lignes de la table.
 

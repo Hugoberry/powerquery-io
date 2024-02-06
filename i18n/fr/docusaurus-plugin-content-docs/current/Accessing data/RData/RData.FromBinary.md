@@ -5,8 +5,6 @@ title: RData.FromBinary
 # RData.FromBinary
 
 
-## Description
-
 Retourne un enregistrement des trames de données provenant du fichier RData.
 
 
@@ -19,7 +17,7 @@ RData.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 Retourne un enregistrement des trames de données provenant du fichier RData.
 

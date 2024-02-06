@@ -5,8 +5,6 @@ title: Number.Exp
 # Number.Exp
 
 
-## Description
-
 e を指定された数値でべき乗します。
 
 
@@ -19,7 +17,7 @@ Number.Exp(
 ```
 
 
-## Details
+## Remarks
 
 e を <code>number</code> (指数関数) でべき乗した結果を返します。      <ul>        <li><code>number</code>: 指数関数を計算する対象の <code>number</code>。<code>number</code> が null の場合、<code>Number.Exp</code> は null を返します。</li>      </ul>
 

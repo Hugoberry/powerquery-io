@@ -5,8 +5,6 @@ title: List.Distinct
 # List.Distinct
 
 
-## Description
-
 Devuelve una lista de valores con los duplicados quitados.
 
 
@@ -20,7 +18,7 @@ List.Distinct(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una lista que contiene todos los valores de la lista <code>list</code> con los duplicados quitados. Si la lista está vacía, el resultado es una lista vacía.
 

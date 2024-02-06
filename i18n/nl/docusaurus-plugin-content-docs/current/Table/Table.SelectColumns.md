@@ -5,8 +5,6 @@ title: Table.SelectColumns
 # Table.SelectColumns
 
 
-## Description
-
 Retourneert een tabel met alleen de opgegeven kolommen.
 
 
@@ -21,7 +19,7 @@ Table.SelectColumns(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de <code>table</code> met alleen de opgegeven <code>columns</code>.    <ul>       <li><code>table</code>: De opgegeven tabel.</li>       <li><code>columns</code>: De lijst met kolommen die vanuit de tabel <code>table</code> moeten worden geretourneerd. De kolommen in de geretourneerde tabel staan in de volgorde die staat vermeld in <code>columns</code>.</li>       <li><code>missingField</code>: <i>(Optioneel)</i> Wat moet er worden gedaan als de kolom niet bestaat.  Bijvoorbeeld: <code>MissingField.UseNull</code> of <code>MissingField.Ignore</code>.    </li></ul>
 

@@ -5,8 +5,6 @@ title: Duration.TotalHours
 # Duration.TotalHours
 
 
-## Description
-
 Trả về tổng số giờ trong khoảng thời gian này.
 
 
@@ -19,7 +17,7 @@ Duration.TotalHours(
 ```
 
 
-## Details
+## Remarks
 
 Trả về tổng số giờ kéo dài theo <code>duration</code>.
 

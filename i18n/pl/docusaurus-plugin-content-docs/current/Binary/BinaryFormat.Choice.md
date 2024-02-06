@@ -5,8 +5,6 @@ title: BinaryFormat.Choice
 # BinaryFormat.Choice
 
 
-## Description
-
 Zwraca format binarny wybierający następny format binarny na podstawie wartości, która została już odczytana.
 
 
@@ -22,7 +20,7 @@ BinaryFormat.Choice(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca format binarny wybierający następny format binarny na podstawie wartości, która została już odczytana.  Wartość formatu binarnego utworzonego przez tę funkcję działa etapowo:<ul><li>Format binarny określony przez parametr <code>binaryFormat</code> jest używany do odczytania wartości.</li><li>Wartość jest przekazywana do funkcji wyboru określonej przez parametr <code>chooseFunction</code>.</li><li>Funkcja wyboru sprawdza wartość i zwraca drugi format binarny.</li><li>Drugi format binarny jest używany do odczytania drugiej wartości.</li><li>Jeśli została określona funkcja łączenia, pierwsza i druga wartość są przekazywane do funkcji łączenia, a następnie jest zwracana wartość wynikowa.</li><li>Jeśli nie została określona funkcja łączenia, zwracana jest druga wartość.</li><li>Zwracana jest druga wartość.</li></ul>Opcjonalny parametr <code>type</code> wskazuje typ formatu binarnego, który zostanie zwrócony przez funkcję wyboru.  Można określić wartość <code>type any</code>, <code>type list</code> lub <code>type binary</code>.  Jeśli parametr <code>type</code> nie został określony, jest używana wartość <code>type any</code>.   Jeśli jest używana wartość <code>type list</code> lub <code>type binary</code>, system może być w stanie zwrócić strumieniową wartość typu <code>binary</code> lub <code>list</code>, zamiast wartości buforowanej, co może zmniejszyć ilość pamięci potrzebnej do odczytania formatu.
 

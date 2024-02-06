@@ -5,8 +5,6 @@ title: Type.AddTableKey
 # Type.AddTableKey
 
 
-## Description
-
 Voegt een sleutel aan het opgegeven tabeltype toe.
 
 
@@ -21,7 +19,7 @@ Type.AddTableKey(
 ```
 
 
-## Details
+## Remarks
 
 Voegt een sleutel aan het opgegeven tabeltype toe.
 

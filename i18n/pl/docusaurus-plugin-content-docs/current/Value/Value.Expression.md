@@ -5,8 +5,6 @@ title: Value.Expression
 # Value.Expression
 
 
-## Description
-
 Zwraca abstrakcyjne drzewo składni (AST) reprezentujące wyrażenie wartości.
 
 
@@ -19,7 +17,7 @@ Value.Expression(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca abstrakcyjne drzewo składni (AST) reprezentujące wyrażenie wartości
 

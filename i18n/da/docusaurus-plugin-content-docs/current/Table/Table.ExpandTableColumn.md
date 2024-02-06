@@ -5,8 +5,6 @@ title: Table.ExpandTableColumn
 # Table.ExpandTableColumn
 
 
-## Description
-
 Aggregerer en kolonne med poster eller en kolonne med tabeller i flere kolonner i den tabel, der indeholder dem.
 
 
@@ -22,7 +20,7 @@ Table.ExpandTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Udvider tabeller i <code>table</code> [<code>column</code>] i flere rækker og kolonner. <code>columnNames</code> bruges til at markere de kolonner, der skal udvides fra den indre tabel. Angiv <code>newColumnNames</code> for at undgå konflikter mellem eksisterende kolonner og nye kolonner.
 

@@ -5,8 +5,6 @@ title: Table.SelectRows
 # Table.SelectRows
 
 
-## Description
-
 Selecteert de rijen die aan de voorwaardefunctie voldoen.
 
 
@@ -20,7 +18,7 @@ Table.SelectRows(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een tabel met rijen vanuit de <code>table</code> die overeenkomt met de selectie <code>condition</code>.
 

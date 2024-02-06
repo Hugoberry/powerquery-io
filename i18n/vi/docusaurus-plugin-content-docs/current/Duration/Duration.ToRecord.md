@@ -5,8 +5,6 @@ title: Duration.ToRecord
 # Duration.ToRecord
 
 
-## Description
-
 Trả về một bản ghi chứa các phần của khoảng thời gian này.
 
 
@@ -19,7 +17,7 @@ Duration.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bản ghi chứa các phần của giá trị khoảng thời gian, <code>duration</code>.  <ul>        <li><code>duration</code>: <code>duration</code> mà từ đó bản ghi được tạo.</li>      </ul>
 

@@ -5,8 +5,6 @@ title: VSTS.Contents
 # VSTS.Contents
 
 
-## Description
-
 Insira a URL do Serviço Analítico do Azure DevOps.
 
 
@@ -20,7 +18,7 @@ VSTS.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Retorna os conteúdos baixados da URL do Serviço Analítico do Azure DevOps como um valor binário. Essa função usa as credenciais globais para toda a organização acessível.
 

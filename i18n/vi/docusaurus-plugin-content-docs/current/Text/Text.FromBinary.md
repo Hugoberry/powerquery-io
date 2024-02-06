@@ -5,8 +5,6 @@ title: Text.FromBinary
 # Text.FromBinary
 
 
-## Description
-
 Mã hóa dữ liệu từ dạng nhị phân thành văn bản.
 
 
@@ -20,7 +18,7 @@ Text.FromBinary(
 ```
 
 
-## Details
+## Remarks
 
 Mã hóa dữ liệu <code>binary</code> từ giá trị nhị phân thành giá trị văn bản bằng cách sử dụng loại <code>encoding</code>.
 

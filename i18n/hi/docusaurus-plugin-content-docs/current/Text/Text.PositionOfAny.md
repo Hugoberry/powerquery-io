@@ -5,8 +5,6 @@ title: Text.PositionOfAny
 # Text.PositionOfAny
 
 
-## Description
-
 किसी भी सूचीबद्ध वर्ण के पाठ मान की प्रथम स्थिति को लौटाता है (यदि -1 नहीं मिला होता है).
 
 
@@ -21,7 +19,7 @@ Text.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 <code>text</code> में पाई जाने वाली सूची <code>characters</code> के किसी भी वर्ण की पहली स्थिति लौटाता है.    एक वैकल्पिक पैरामीटर <code>occurrence</code> का उपयोग यह निर्दिष्ट करने के लिए किया जा सकता है कि किस आवृति स्थिति को लौटाना है.
 

@@ -5,8 +5,6 @@ title: Stripe.Tables
 # Stripe.Tables
 
 
-## Description
-
 傳回列有可用 Stripe 資料表與函數的資料表清單。
 
 
@@ -19,7 +17,7 @@ Stripe.Tables(
 ```
 
 
-## Details
+## Remarks
 
 傳回列有可用 Stripe 資料表與函數的資料表清單。
 

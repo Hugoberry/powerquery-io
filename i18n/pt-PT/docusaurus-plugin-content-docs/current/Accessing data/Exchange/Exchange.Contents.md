@@ -5,8 +5,6 @@ title: Exchange.Contents
 # Exchange.Contents
 
 
-## Description
-
 Devolve uma tabela com o conteúdo de uma conta do Microsoft Exchange.
 
 
@@ -19,7 +17,7 @@ Exchange.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um índice da conta do Microsoft Exchange <code>mailboxAddress</code>. Se <code>mailboxAddress</code> não for especificada, será utilizada a conta predefinida da credencial.
 

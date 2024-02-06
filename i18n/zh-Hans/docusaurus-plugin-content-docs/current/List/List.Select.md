@@ -5,8 +5,6 @@ title: List.Select
 # List.Select
 
 
-## Description
-
 返回匹配条件的值列表。
 
 
@@ -20,7 +18,7 @@ List.Select(
 ```
 
 
-## Details
+## Remarks
 
 从列表 <code>list</code> 返回匹配选择条件 <code>selection</code> 的值列表。
 

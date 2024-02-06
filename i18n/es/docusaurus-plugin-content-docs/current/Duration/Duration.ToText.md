@@ -5,8 +5,6 @@ title: Duration.ToText
 # Duration.ToText
 
 
-## Description
-
 Devuelve el texto en el formato “d.h:m:s”.
 
 
@@ -20,7 +18,7 @@ Duration.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una representación textual en el formato "día.hora.minuto:segundo" del valor de duración determinado, <code>duration</code>. <ul>        <li><code>duration</code>: elemento <code>duration</code> mediante el que se calcula la representación textual.</li>  <li><code>format</code>: <i>[opcional]</i> se encuentra en desuso; si no es NULL, se generará un error.</li>      </ul>
 

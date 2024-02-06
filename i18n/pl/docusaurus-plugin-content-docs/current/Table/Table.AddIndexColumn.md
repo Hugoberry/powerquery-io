@@ -5,8 +5,6 @@ title: Table.AddIndexColumn
 # Table.AddIndexColumn
 
 
-## Description
-
 Dołącza kolumnę wartości jawnie określonych pozycji.
 
 
@@ -23,7 +21,7 @@ Table.AddIndexColumn(
 ```
 
 
-## Details
+## Remarks
 
 Dołącza do tabeli <code>table</code> kolumnę o nazwie <code>newColumnName</code>, która zawiera wartości jawnie określonych pozycji.    Opcjonalna wartość <code>initialValue</code> to początkowa wartość indeksu. Opcjonalna wartość <code>increment</code> określa, o ile ma być zwiększana każda wartość indeksu.
 

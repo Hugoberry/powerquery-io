@@ -17,7 +17,7 @@ DatabricksMultiCloud.Query(
 ```
 
 
-## Details
+## Remarks
 
 Definer en Databricks-datakilde til kørsel af SQL-forespørgsler
 

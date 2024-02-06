@@ -5,8 +5,6 @@ title: Text.Format
 # Text.Format
 
 
-## Description
-
 Zwraca sformatowany tekst na podstawie ciągu formatu i argumentów.
 
 
@@ -21,7 +19,7 @@ Text.Format(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca sformatowany tekst utworzony przez zastosowanie elementu <code>arguments</code> z listy lub rekordu do ciągu formatu <code>formatString</code>. Można także określić opcjonalny parametr <code>culture</code> (na przykład „en-US”).
 

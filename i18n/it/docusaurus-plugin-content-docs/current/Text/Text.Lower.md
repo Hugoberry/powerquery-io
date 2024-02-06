@@ -5,8 +5,6 @@ title: Text.Lower
 # Text.Lower
 
 
-## Description
-
 Converte tutti i caratteri in minuscolo.
 
 
@@ -20,7 +18,7 @@ Text.Lower(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce il risultato della conversione in minuscolo di tutti i caratteri in <code>text</code>. È anche possibile specificare un valore <code>culture</code> facoltativo, ad esempio "it-IT".
 

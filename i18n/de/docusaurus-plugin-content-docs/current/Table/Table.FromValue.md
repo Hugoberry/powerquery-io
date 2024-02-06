@@ -5,8 +5,6 @@ title: Table.FromValue
 # Table.FromValue
 
 
-## Description
-
 Erstellt eine Tabelle mit einer Spalte auf der Grundlage der angegebenen Werte.
 
 
@@ -20,7 +18,7 @@ Table.FromValue(
 ```
 
 
-## Details
+## Remarks
 
 Erstellt eine Tabelle mit einer Spalte, die den angegebenen Wert oder die angegebene Werteliste (<code>value</code>) enthält. Ein optionaler Datensatzparameter ("<code>options</code>") kann angegeben werden, um die folgenden Optionen zu steuern:    <ul>    <li> <code>DefaultColumnName</code>: Der Spaltenname, der beim Generieren einer Tabelle aus einer Liste oder einem Skalarwert verwendet wird.</li>    </ul>  
 

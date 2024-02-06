@@ -5,8 +5,6 @@ title: List.Intersect
 # List.Intersect
 
 
-## Description
-
 傳回出現在輸入中的清單值交集。
 
 
@@ -20,7 +18,7 @@ List.Intersect(
 ```
 
 
-## Details
+## Remarks
 
 傳回出現在輸入清單 <code>lists</code> 中的清單值交集。可指定選擇性參數 <code>equationCriteria</code>。
 

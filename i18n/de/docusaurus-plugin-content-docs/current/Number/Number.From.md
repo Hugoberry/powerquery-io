@@ -5,8 +5,6 @@ title: Number.From
 # Number.From
 
 
-## Description
-
 Erstellt eine Zahl auf der Grundlage des angegebenen Werts.
 
 
@@ -20,7 +18,7 @@ Number.From(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen <code>number</code>-Wert auf der Grundlage des angegebenen Elements vom Typ „<code>value</code>“ zurück. Optional kann auch ein Element vom Typ „<code>culture</code>“ angegeben werden (Beispiel: „de-DE“).Besitzt das angegebene Element vom Typ „<code>value</code>“ den Wert <code>NULL</code>, wird von <code>Number.From</code> der Wert <code>NULL</code> zurückgegeben. Besitzt das angegebene Element vom Typ „<code>value</code>“ den Wert <code>number</code>, wird „<code>value</code>“ zurückgegeben. Werte folgender Art können in einen <code>number</code>-Wert konvertiert werden:      <ul>        <li><code>text</code>: Ein <code>number</code>-Wert auf der Grundlage einer Textdarstellung. Behandelt werden allgemeine Textformate („15“, „3.423,10“, „5.0E-10“). Ausführlichere Informationen finden Sie unter <code>Number.FromText</code>.</li>        <li><code>logical</code>: 1 für <code>true</code>, 0 für <code>false</code>.</li>        <li><code>datetime</code>: Eine Gleitkommazahl mit doppelter Genauigkeit, die eine Entsprechung des OLE-Automatisierungsdatums enthält.</li>        <li><code>datetimezone</code>: Eine Gleitkommazahl mit doppelter Genauigkeit, die eine Entsprechung des OLE-Automatisierungsdatums für das lokale Datum und die lokale Uhrzeit von „<code>value</code>“ enthält.</li>        <li><code>date</code>: Eine Gleitkommazahl mit doppelter Genauigkeit, die eine Entsprechung des OLE-Automatisierungsdatums enthält.</li>        <li><code>time</code>: Ausgedrückt in anteiligen Tagen.</li>        <li><code>duration</code>: Ausgedrückt in ganzen und anteiligen Tagen.</li>        </ul>Handelt es sich bei „<code>value</code>“ um einen anderen Typ, wird ein Fehler zurückgegeben.
 

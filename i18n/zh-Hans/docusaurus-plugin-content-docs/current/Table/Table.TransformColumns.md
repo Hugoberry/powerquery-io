@@ -5,8 +5,6 @@ title: Table.TransformColumns
 # Table.TransformColumns
 
 
-## Description
-
 转换一个或多个列的值。
 
 
@@ -22,7 +20,7 @@ Table.TransformColumns(
 ```
 
 
-## Details
+## Remarks
 
 通过应用 <code>transformOperations</code> 中列出的每个列操作来转换 <code>table</code> (格式为 \{ column name, transformation } 或 \{ column name, transformation, new column type })。    如果指定了 <code>defaultTransformation</code>，它将应用于未在 <code>transformOperations</code> 中列出的所有列。    如果 <code>transformOperations</code> 中列出的列不存在，则除非可选参数 <code>missingField</code> 指定了替代项，否则将引发一场(例如，<code>MissingField.UseNull</code> 或 <code>MissingField.Ignore</code>)。
 

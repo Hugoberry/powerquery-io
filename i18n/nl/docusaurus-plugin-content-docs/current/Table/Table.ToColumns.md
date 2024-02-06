@@ -5,8 +5,6 @@ title: Table.ToColumns
 # Table.ToColumns
 
 
-## Description
-
 Maakt een lijst met geneste lijsten met kolomwaarden uit een tabel.
 
 
@@ -19,7 +17,7 @@ Table.ToColumns(
 ```
 
 
-## Details
+## Remarks
 
 Maakt een lijst met geneste lijsten van de tabel, <code>table</code>.  Elk lijstitem is een interne lijst met de kolomwaarden.
 

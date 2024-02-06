@@ -5,8 +5,6 @@ title: Cube.CollapseAndRemoveColumns
 # Cube.CollapseAndRemoveColumns
 
 
-## Description
-
 Küple ilgili filtre bağlamının boyut parçalı yapısını, belirtilen sütunlarla eşlenen öznitelikleri daraltarak değiştirir.
 
 
@@ -20,7 +18,7 @@ Cube.CollapseAndRemoveColumns(
 ```
 
 
-## Details
+## Remarks
 
 <code>cube</code> ile ilgili filtre bağlamının boyut parçalı yapısını, belirtilen <code>columnNames</code> sütunlarıyla eşlenen öznitelikleri daraltarak değiştirir. Sütunlar küpün tablo görünümünden de kaldırılır.
 

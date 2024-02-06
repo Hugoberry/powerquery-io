@@ -5,8 +5,6 @@ title: Table.UnpivotOtherColumns
 # Table.UnpivotOtherColumns
 
 
-## Description
-
 Belirtilen küme dışındaki tüm sütunları öznitelik-değer çiftlerine çevirir.
 
 
@@ -22,7 +20,7 @@ Table.UnpivotOtherColumns(
 ```
 
 
-## Details
+## Remarks
 
 Belirtilen küme dışındaki tüm sütunları, her satırdaki değerlerin geri kalanıyla birlikte öznitelik-değer çiftlerine çevirir.
 

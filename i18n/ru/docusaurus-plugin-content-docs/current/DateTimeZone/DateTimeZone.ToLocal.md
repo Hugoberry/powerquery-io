@@ -5,8 +5,6 @@ title: DateTimeZone.ToLocal
 # DateTimeZone.ToLocal
 
 
-## Description
-
 Преобразует компонент часового пояса в локальный часовой пояс.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToLocal(
 ```
 
 
-## Details
+## Remarks
 
 Изменяет данные о часовом поясе значения datetimezone <code>dateTimeZone</code> на локальный часовой пояс.    Если <code>dateTimeZone</code> не содержит компонента часового пояса, будут добавлены данные локальные часового пояса.
 

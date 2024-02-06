@@ -5,8 +5,6 @@ title: Embedded.Value
 # Embedded.Value
 
 
-## Description
-
 एम्बेड किए गए मैशअप में नाम के अनुसार किसी मान तक पहुँचता है.
 
 
@@ -20,7 +18,7 @@ Embedded.Value(
 ```
 
 
-## Details
+## Remarks
 
 एम्बेड किए गए मैशअप में नाम के अनुसार किसी मान तक पहुँचता है.
 

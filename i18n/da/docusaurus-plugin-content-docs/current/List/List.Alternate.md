@@ -5,8 +5,6 @@ title: List.Alternate
 # List.Alternate
 
 
-## Description
-
 Returnerer en liste, der består af alle forskydningselementer med ulige numre på en liste.
 
 
@@ -22,7 +20,7 @@ List.Alternate(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en liste, der består af alle forskydningselementer med ulige numre på en liste. Skifter mellem at hente og sende værdier fra listen <code>list</code>, afhængigt af parametrene.    <ul>    <li><code>count</code>: Angiver det antal værdier, der sendes hver gang.</li>    <li><code>repeatInterval</code>: Et valgfrit gentagelsesinterval, der angiver, hvor mange værdier der er lagt til mellem de sendte værdier.</li>    <li><code>offset</code>: En valgfri forskydningsparameter for at starte afsendelse af værdier ved den første forskydning.</li>    </ul>
 

@@ -5,8 +5,6 @@ title: Web.Contents
 # Web.Contents
 
 
-## Description
-
 Url&#39;den indirilen içeriği ikili olarak döndürür.
 
 
@@ -20,7 +18,7 @@ Web.Contents(
 ```
 
 
-## Details
+## Remarks
 
 <code>url</code> kaynağından indirilen içerikleri ikili olarak döndürür. Ek özellikler belirtmek için isteğe bağlı bir kayıt parametresi (<code>options</code>) sağlanabilir. Kayıt şu alanları içerebilir:    <ul><li><code>Query</code> : Sorgu parametrelerini, ka&#231;ış uygulama hakkında endişe etmenize gerek kalmadan programlama yoluyla URL&#39;ye ekleyin.</li><li><code>ApiKeyName</code> : Hedef sitede bir API anahtarı g&#246;sterimi varsa, bu parametre URL&#39;de kullanılması gereken anahtar parametresinin adını (değerini değil) belirtmek i&#231;in kullanılabilir. Ger&#231;ek anahtar değeri kimlik bilgilerinde sağlanır.</li><li><code>Headers</code> : Bu değerin kayıt olarak belirtilmesi, HTTP isteğine ek &#252;st bilgiler sağlar.</li><li><code>Timeout</code> : Bu değerin s&#252;re olarak belirtilmesi, HTTP isteğinin zaman aşımı s&#252;resini değiştirir. Varsayılan değer 100 saniyedir.</li><li><code>ExcludedFromCacheKey</code> : Bu değerin liste olarak belirtilmesi, bu HTTP &#252;st bilgi anahtarlarını, verileri &#246;nbelleğe alma işleminin kapsamı dışında tutar.</li><li><code>IsRetry</code> : Bu mantıksal değerin true olarak belirtilmesi, veriler getirilirken &#246;nbellekteki t&#252;m mevcut yanıtları yoksayar.</li><li><code>ManualStatusHandling</code> : Bu değerin liste olarak belirtilmesi, bu durum kodlarından birine sahip yanıtı olan HTTP istekleri i&#231;in t&#252;m yerleşik işlemeyi engeller.</li><li><code>RelativePath</code> : Bu değerin metin olarak belirtilmesi, isteği yapmadan &#246;nce değeri temel URL&#39;ye ekler.</li><li><code>Content</code> : Bu değerin belirtilmesi, web isteğini GET&#39;ten POST&#39;a değiştirir ve POST&#39;un i&#231;eriği olarak se&#231;eneğin değerini kullanır.</li></ul>    HTTP isteği GET (İçerik belirtilmediğinde) veya POST (İçerik olduğunda) olarak yapılır. POST istekleri yalnızca anonim olarak yapılabilir.    <br />    HTTP yanıtının üst bilgileri ikili sonuç üzerinde meta veri olarak kullanılabilir. Özel veri bağlayıcısı bağlamı dışında yalnızca yanıt üst bilgileri alt kümesi kullanılabilir (güvenlik nedeniyle).    
 

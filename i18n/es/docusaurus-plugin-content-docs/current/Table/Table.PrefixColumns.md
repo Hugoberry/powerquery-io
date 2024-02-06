@@ -5,8 +5,6 @@ title: Table.PrefixColumns
 # Table.PrefixColumns
 
 
-## Description
-
 Devuelve una tabla donde todas las columnas tienen como prefijo el texto dado.
 
 
@@ -20,7 +18,7 @@ Table.PrefixColumns(
 ```
 
 
-## Details
+## Remarks
 
 Devuelve una tabla donde todos los nombres de columna de la <code>table</code> proporcionada tienen como prefijo el texto dado <code>prefix</code>, más un punto en el formato <code>prefix</code><code>.ColumnName</code>.
 

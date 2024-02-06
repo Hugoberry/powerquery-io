@@ -5,8 +5,6 @@ title: Text.PadStart
 # Text.PadStart
 
 
-## Description
-
 Gibt Text mit einer bestimmten Länge zurück. Hierzu wird der Anfang des angegebenen Texts aufgefüllt.
 
 
@@ -21,7 +19,7 @@ Text.PadStart(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen <code>text</code>-Wert zurück, der durch Einfügen von Leerzeichen am Beginn des Textwerts "<code>text</code>" auf die Länge <code>count</code> aufgefüllt wird.    Das zum Auffüllen verwendete Zeichen kann mithilfe eines optionalen Zeichens (<code>character</code>) angegeben werden. Das standardmäßige Auffüllzeichen ist ein Leerzeichen.
 

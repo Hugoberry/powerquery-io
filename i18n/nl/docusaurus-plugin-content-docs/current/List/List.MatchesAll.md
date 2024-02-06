@@ -5,8 +5,6 @@ title: List.MatchesAll
 # List.MatchesAll
 
 
-## Description
-
 Retourneert &#39;true&#39; als er door alle waarden uit de lijst wordt voldaan aan de voorwaardefunctie.
 
 
@@ -20,7 +18,7 @@ List.MatchesAll(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert <code>true</code> als er door alle waarden uit de lijst <code>list</code> wordt voldaan aan de voorwaardefunctie, <code>condition</code>, of retourneert <code>false</code> als dat niet het geval is.
 

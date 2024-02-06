@@ -5,8 +5,6 @@ title: Date.EndOfDay
 # Date.EndOfDay
 
 
-## Description
-
 日付の終わりを返します。
 
 
@@ -19,7 +17,7 @@ Date.EndOfDay(
 ```
 
 
-## Details
+## Remarks
 
 <code>dateTime</code> で表される日付の終わりを返します。タイム ゾーン情報は保持されます。      <ul>        <li><code>dateTime</code>: 日付の終わりが計算される <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値。</li>      </ul>
 

@@ -5,8 +5,6 @@ title: Text.Clean
 # Text.Clean
 
 
-## Description
-
 Gibt den Textwert ohne jegliche Steuerzeichen zurück.
 
 
@@ -19,7 +17,7 @@ Text.Clean(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen Textwert ohne jegliche Steuerzeichen von "<code>text</code>" zurück.
 

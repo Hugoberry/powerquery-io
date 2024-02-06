@@ -5,8 +5,6 @@ title: Combiner.CombineTextByEachDelimiter
 # Combiner.CombineTextByEachDelimiter
 
 
-## Description
-
 区切り記号のシーケンスを使用してテキストのリストを結合する関数を返します。
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByEachDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 区切り記号のシーケンスを使用して、テキスト値のリストを 1 つのテキスト値に結合する関数を返します。
 

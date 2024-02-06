@@ -5,8 +5,6 @@ title: Character.ToNumber
 # Character.ToNumber
 
 
-## Description
-
 将某个字符转换为数值。
 
 
@@ -19,7 +17,7 @@ Character.ToNumber(
 ```
 
 
-## Details
+## Remarks
 
 返回等效于 <code>character</code> 的数字。<br />    <br />    结果将是由提供的字符或代理项对代表的 21 位 Unicode 码位。  
 

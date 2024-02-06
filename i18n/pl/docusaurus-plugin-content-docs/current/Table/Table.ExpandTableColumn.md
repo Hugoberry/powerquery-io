@@ -5,8 +5,6 @@ title: Table.ExpandTableColumn
 # Table.ExpandTableColumn
 
 
-## Description
-
 Rozwija kolumnę rekordów lub kolumnę tabel na wiele kolumn w tabeli zawierającej.
 
 
@@ -22,7 +20,7 @@ Table.ExpandTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Rozwija tabele w kolumnie <code>table</code>[<code>column</code>] na wiele wierszy i kolumn. Parametr <code>columnNames</code> służy do wybierania kolumn z tabeli wewnętrznej, które zostaną rozwinięte. Określając parametr <code>newColumnNames</code>, można uniknąć konfliktów między nazwami istniejących i nowych kolumn.
 

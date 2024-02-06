@@ -5,8 +5,6 @@ title: Text.Clean
 # Text.Clean
 
 
-## Description
-
 Returnerer tekstværdien, hvor alle kontroltegn er fjernet.
 
 
@@ -19,7 +17,7 @@ Text.Clean(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer en tekstværdi, hvor alle kontroltegnene <code>text</code> er fjernet.
 

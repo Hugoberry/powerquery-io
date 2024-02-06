@@ -5,8 +5,6 @@ title: Table.RemoveRows
 # Table.RemoveRows
 
 
-## Description
-
 删除指定数量的行。
 
 
@@ -21,7 +19,7 @@ Table.RemoveRows(
 ```
 
 
-## Details
+## Remarks
 
 从 <code>table</code> 的开头，以指定的 <code>offset</code> 开始删除 <code>count</code> 行。如果没有提供 <code>count</code> 参数，则使用默认计数 1。
 

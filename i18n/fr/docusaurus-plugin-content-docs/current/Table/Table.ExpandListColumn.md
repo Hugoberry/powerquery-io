@@ -5,8 +5,6 @@ title: Table.ExpandListColumn
 # Table.ExpandListColumn
 
 
-## Description
-
 En fonction d&#39;une colonne dans les listes d&#39;une table, crée une copie d&#39;une ligne pour chaque valeur dans la liste.
 
 
@@ -20,7 +18,7 @@ Table.ExpandListColumn(
 ```
 
 
-## Details
+## Remarks
 
 En fonction d'un <code>table</code>, où <code>column</code> est une liste de valeurs, fractionne la liste en une ligne pour chaque valeur. Les valeurs des autres colonnes sont dupliquées dans chaque nouvelle ligne créée.
 

@@ -5,8 +5,6 @@ title: AzureDevOpsServer.AnalyticsViews
 # AzureDevOpsServer.AnalyticsViews
 
 
-## Description
-
 ใส่ชื่อองค์กรและโครงการ
 
 
@@ -21,7 +19,7 @@ AzureDevOpsServer.AnalyticsViews(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับตารางมุมมองการวิเคราะห์ที่เสนอโดย Azure DevOps
 

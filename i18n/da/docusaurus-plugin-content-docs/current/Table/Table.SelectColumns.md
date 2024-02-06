@@ -5,8 +5,6 @@ title: Table.SelectColumns
 # Table.SelectColumns
 
 
-## Description
-
 Returnerer en tabel med kun de angivne kolonner.
 
 
@@ -21,7 +19,7 @@ Table.SelectColumns(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer <code>table</code> med kun de angivne <code>columns</code>.    <ul>       <li><code>table</code>: Den angivne tabel.</li>       <li><code>columns</code>: Den liste over kolonner fra tabellen <code>table</code>, der skal returneres. Kolonner i den returnerede tabel er i den rækkefølge, der er vist i <code>columns</code>.</li>       <li><code>missingField</code>: <i>(Valgfrit)</i> Hvad skal du gøre, hvis kolonnen ikke findes.  Eksempel:: <code>MissingField.UseNull</code> eller <code>MissingField.Ignore</code>.    </li></ul>
 

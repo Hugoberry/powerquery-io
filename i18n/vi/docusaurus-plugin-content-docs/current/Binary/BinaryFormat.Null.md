@@ -5,8 +5,6 @@ title: BinaryFormat.Null
 # BinaryFormat.Null
 
 
-## Description
-
 Một định dạng nhị phân đọc 0 byte và trả về giá trị rỗng.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Null(
 ```
 
 
-## Details
+## Remarks
 
 Một định dạng nhị phân đọc 0 byte và trả về giá trị rỗng.
 

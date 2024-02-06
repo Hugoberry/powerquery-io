@@ -5,8 +5,6 @@ title: Number.Factorial
 # Number.Factorial
 
 
-## Description
-
 Gibt die Fakultät der Zahl zurück.
 
 
@@ -19,7 +17,7 @@ Number.Factorial(
 ```
 
 
-## Details
+## Remarks
 
 Gibt die Fakultät der Zahl <code>number</code> zurück.
 

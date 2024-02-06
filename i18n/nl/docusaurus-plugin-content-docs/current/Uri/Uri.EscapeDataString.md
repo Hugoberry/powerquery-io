@@ -5,8 +5,6 @@ title: Uri.EscapeDataString
 # Uri.EscapeDataString
 
 
-## Description
-
 Codeert speciale tekens in overeenstemming met RFC 3986.
 
 
@@ -19,7 +17,7 @@ Uri.EscapeDataString(
 ```
 
 
-## Details
+## Remarks
 
 Codeert speciale tekens in de invoer <code>data</code> in overeenstemming met de regels van RFC 3986.
 

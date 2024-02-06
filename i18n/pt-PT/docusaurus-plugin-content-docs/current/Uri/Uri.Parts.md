@@ -5,8 +5,6 @@ title: Uri.Parts
 # Uri.Parts
 
 
-## Description
-
 Devolve os componentes do URI absoluto de entrada como um registo.
 
 
@@ -19,7 +17,7 @@ Uri.Parts(
 ```
 
 
-## Details
+## Remarks
 
 Devolve os componentes do <code>absoluteUri</code> de entrada como um registo, contendo valores como Scheme, Host, Port, Path, Query, Fragment, UserName e Password.
 

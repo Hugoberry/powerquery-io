@@ -5,8 +5,6 @@ title: List.Combine
 # List.Combine
 
 
-## Description
-
 Restituisce un unico elenco combinando più elenchi.
 
 
@@ -19,7 +17,7 @@ List.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Accetta un elenco di elenchi, <code>lists</code>, e sottopone a merge in un nuovo singolo elenco.
 

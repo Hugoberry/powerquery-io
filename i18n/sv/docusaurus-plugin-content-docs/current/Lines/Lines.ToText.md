@@ -5,8 +5,6 @@ title: Lines.ToText
 # Lines.ToText
 
 
-## Description
-
 Konverterar en lista med text till en enskild text. Angiven lineSeparator läggs till för varje rad. Om den inte anges används retur- och radmatningstecknen.
 
 
@@ -20,7 +18,7 @@ Lines.ToText(
 ```
 
 
-## Details
+## Remarks
 
 Konverterar en lista med text till en enskild text. Angiven lineSeparator läggs till för varje rad. Om den inte anges används retur- och radmatningstecknen.
 

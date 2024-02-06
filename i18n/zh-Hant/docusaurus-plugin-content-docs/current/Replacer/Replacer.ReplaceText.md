@@ -5,8 +5,6 @@ title: Replacer.ReplaceText
 # Replacer.ReplaceText
 
 
-## Description
-
 取代提供之輸入中的文字。
 
 
@@ -21,7 +19,7 @@ Replacer.ReplaceText(
 ```
 
 
-## Details
+## Remarks
 
 以 <code>new</code> 文字取代原始 <code>text</code> 中的 <code>old</code> 文字。這個取代子函數可用於 <code>List.ReplaceValue</code> 和 <code>Table.ReplaceValue</code> 中。
 

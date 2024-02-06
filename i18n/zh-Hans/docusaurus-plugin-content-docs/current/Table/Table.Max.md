@@ -5,8 +5,6 @@ title: Table.Max
 # Table.Max
 
 
-## Description
-
 使用给定条件返回最大值行或默认值。
 
 
@@ -21,7 +19,7 @@ Table.Max(
 ```
 
 
-## Details
+## Remarks
 
 在给定 <code>comparisonCriteria</code> 的情况下，返回 <code>table</code> 中的最大值行。如果表为空，则返回可选的 <code>default</code> 值。
 

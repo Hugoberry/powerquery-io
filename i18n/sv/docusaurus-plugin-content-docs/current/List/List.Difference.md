@@ -5,8 +5,6 @@ title: List.Difference
 # List.Difference
 
 
-## Description
-
 Returnerar skillnaden mellan de två angivna listorna.
 
 
@@ -21,7 +19,7 @@ List.Difference(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar objekten i listan <code>list1</code> som inte finns med i listan <code>list2</code>. Dubblettvärden stöds.    Ett valfritt ekvationsvillkorsvärde, <code>equationCriteria</code>, kan anges för att hantera likhetstestning. 
 

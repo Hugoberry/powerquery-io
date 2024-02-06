@@ -5,8 +5,6 @@ title: Number.Sqrt
 # Number.Sqrt
 
 
-## Description
-
 Returnerar kvadratroten ur talet.
 
 
@@ -19,7 +17,7 @@ Number.Sqrt(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar kvadratroten ur <code>number</code>.    Om <code>number</code> är null returnerar <code>Number.Sqrt</code> null. Om det är ett negativt värde returneras <code>Number.NaN</code> (inte ett tal).
 

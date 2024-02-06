@@ -5,8 +5,6 @@ title: Diagnostics.ActivityId
 # Diagnostics.ActivityId
 
 
-## Description
-
 Gibt einen opaque-Bezeichner für die derzeit ausgeführte Auswertung zurück.
 
 
@@ -19,7 +17,7 @@ Diagnostics.ActivityId(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen opaque-Bezeichner für die derzeit ausgeführte Auswertung zurück.
 

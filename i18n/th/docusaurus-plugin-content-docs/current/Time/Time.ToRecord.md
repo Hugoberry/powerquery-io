@@ -5,8 +5,6 @@ title: Time.ToRecord
 # Time.ToRecord
 
 
-## Description
-
 ส่งกลับระเบียนที่มีส่วนของค่าเวลา
 
 
@@ -19,7 +17,7 @@ Time.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับระเบียนที่มีส่วนประกอบของค่าเวลา <code>time</code> ที่กำหนด <ul>        <li><code>time</code>: ค่า<code>เวลา</code> สำหรับเริ่มคำนวณระเบียนของส่วนประกอบดังกล่าว</li>      </ul>
 

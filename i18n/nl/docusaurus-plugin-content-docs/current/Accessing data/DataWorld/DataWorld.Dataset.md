@@ -17,7 +17,7 @@ DataWorld.Dataset(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een gegevensset opgehaald van Data.World
 

@@ -5,8 +5,6 @@ title: BinaryFormat.Transform
 # BinaryFormat.Transform
 
 
-## Description
-
 別のバイナリ形式によって読み取られた値を変換するバイナリ形式を返します。
 
 
@@ -20,7 +18,7 @@ BinaryFormat.Transform(
 ```
 
 
-## Details
+## Remarks
 
 別のバイナリ形式によって読み取られた値を変換するバイナリ形式を返します。<code>binaryFormat</code> パラメーターは、値の読み取りに使用されるバイナリ形式を指定します。読み取られた値を使って <code>function</code> が呼び出され、変換された値が返されます。
 

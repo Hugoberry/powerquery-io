@@ -5,8 +5,6 @@ title: Date.Day
 # Date.Day
 
 
-## Description
-
 傳回日元件。
 
 
@@ -19,7 +17,7 @@ Date.Day(
 ```
 
 
-## Details
+## Remarks
 
 傳回 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值的日元件。      <ul>        <li><code>dateTime</code>: 要從中擷取日元件的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值。</li>      </ul>
 

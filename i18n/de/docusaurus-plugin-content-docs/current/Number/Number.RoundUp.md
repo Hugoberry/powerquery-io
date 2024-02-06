@@ -5,8 +5,6 @@ title: Number.RoundUp
 # Number.RoundUp
 
 
-## Description
-
 Gibt die nächsthöhere ganze Zahl zurück. Die Anzahl der Dezimalstellen kann angegeben werden.
 
 
@@ -20,7 +18,7 @@ Number.RoundUp(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das Ergebnis der Rundung von <code>number</code> auf die nächste höchste ganze Zahl aus. Wenn <code>number</code> NULL ist, gibt diese Funktion NULL aus.    Wenn <code>digits</code> angegeben wird, wird <code>number</code> auf die angegebene Anzahl von Dezimalstellen gerundet.  
 

@@ -5,8 +5,6 @@ title: Text.Proper
 # Text.Proper
 
 
-## Description
-
 各単語の最初の文字を大文字にします。
 
 
@@ -20,7 +18,7 @@ Text.Proper(
 ```
 
 
-## Details
+## Remarks
 
 テキスト値 <code>text</code> の各単語の最初の文字のみを大文字にした結果を返します。他のすべての文字は小文字で返されます。省略可能な <code>culture</code> を指定することもできます (例: "en-US")。
 

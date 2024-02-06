@@ -5,8 +5,6 @@ title: Stripe.Method
 # Stripe.Method
 
 
-## Description
-
 Nawiązuje połączenie z interfejsem API usługi Stripe
 
 
@@ -21,7 +19,7 @@ Stripe.Method(
 ```
 
 
-## Details
+## Remarks
 
 Nawiązuje połączenie z interfejsem API usługi Stripe pod adresem https://api.stripe.com/v1/<code>method</code> z rekordem <code>additionalParameters</code> przekazanym jako parametry dodatkowe i listą <code>ColumnNames</code> oczekiwanych nazw kolumn. Stosowana wersja usługi Stripe to 2015-10-16.
 

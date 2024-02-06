@@ -5,8 +5,6 @@ title: List.TransformMany
 # List.TransformMany
 
 
-## Description
-
 Restituisce l&#39;elenco degli elementi che vengono trasformati dall&#39;elenco di input mediante le funzioni specificate.
 
 
@@ -21,7 +19,7 @@ List.TransformMany(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce un elenco i cui elementi vengono proiettati dall'elenco di input.<br />    <br />    La funzione <code>collectionTransform</code> trasforma ogni elemento in un elenco intermedio e la funzione <code>resultTransform</code> riceve l'elemento originale e un elemento dall'elenco intermedio per costruire il risultato finale.<br />    <br />    La funzione <code>collectionTransform</code> ha la firma <code>(x as any) come elenco => ...</code>,  dove <code>x</code> è un elemento in <code>list</code>.    La funzione <code>resultTransform</code>  proietta la forma del risultato e ha la firma <code>(x come qualsiasi, y come qualsiasi) come qualsiasi =>... </code>, dove <code>x</code> è un elemento di <code>list</code> e <code>y</code> è un elemento dell'elenco generato passando <code>x</code> a <code>collectionTransform</code>.
 

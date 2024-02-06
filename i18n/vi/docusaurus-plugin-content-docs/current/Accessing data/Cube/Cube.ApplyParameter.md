@@ -5,8 +5,6 @@ title: Cube.ApplyParameter
 # Cube.ApplyParameter
 
 
-## Description
-
 Trả về khối cube sau khi áp dụng tham số.
 
 
@@ -21,7 +19,7 @@ Cube.ApplyParameter(
 ```
 
 
-## Details
+## Remarks
 
 Trả về khối cube sau khi áp dụng <code>parameter</code> với <code>arguments</code> cho <code>cube</code>.
 

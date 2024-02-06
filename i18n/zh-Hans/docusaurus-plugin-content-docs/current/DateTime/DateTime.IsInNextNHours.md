@@ -5,8 +5,6 @@ title: DateTime.IsInNextNHours
 # DateTime.IsInNextNHours
 
 
-## Description
-
 指示此日期时间是否会在系统当前日期和时间确定的下一小时数中出现。请注意，当传递一个在当前小时内出现的值时，此函数将返回 false。
 
 
@@ -20,7 +18,7 @@ DateTime.IsInNextNHours(
 ```
 
 
-## Details
+## Remarks
 
 指示给定的日期时间值 <code>dateTime</code> 是否会在系统当前日期和时间确定的下一小时数中出现。请注意，当传递一个在当前小时内出现的值时，此函数将返回 false。      <ul>      <li><code>dateTime</code>: 要计算的 <code>datetime</code> 或 <code>datetimezone</code> 值。</li>      <li><code>hours</code>: 小时数。</li>      </ul>
 

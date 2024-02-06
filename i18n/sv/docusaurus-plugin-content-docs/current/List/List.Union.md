@@ -5,8 +5,6 @@ title: List.Union
 # List.Union
 
 
-## Description
-
 Returnerar unionen av listvärdena i dina indata.
 
 
@@ -20,7 +18,7 @@ List.Union(
 ```
 
 
-## Details
+## Remarks
 
 Tar en lista med listor, <code>lists</code>, förenar objekten i de individuella listorna och returnerar dem i utdatalistan. Listan som returneras innehåller alla objekt i alla indatalistor.    Den här åtgärden bevarar traditionell dubblettsemantik och dubblettvärden matchas som en del av föreningen.    Ett valfritt ekvationsvillkorsvärde, <code>equationCriteria</code>, kan anges för att hantera likhetstestning. 
 

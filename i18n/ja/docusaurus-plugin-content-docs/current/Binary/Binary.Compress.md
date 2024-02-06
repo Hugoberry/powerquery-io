@@ -5,8 +5,6 @@ title: Binary.Compress
 # Binary.Compress
 
 
-## Description
-
 指定された圧縮の種類を使用して、バイナリ値を圧縮します。
 
 
@@ -20,7 +18,7 @@ Binary.Compress(
 ```
 
 
-## Details
+## Remarks
 
 指定された圧縮の種類を使用して、バイナリ値を圧縮します。この呼び出しの結果は、圧縮された入力のコピーです。圧縮の種類には次のものがあります。  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
 

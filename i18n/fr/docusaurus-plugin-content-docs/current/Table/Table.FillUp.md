@@ -5,8 +5,6 @@ title: Table.FillUp
 # Table.FillUp
 
 
-## Description
-
 Propage la valeur d&#39;une cellule aux cellules évaluées null ci-dessus dans la colonne.
 
 
@@ -20,7 +18,7 @@ Table.FillUp(
 ```
 
 
-## Details
+## Remarks
 
 Retourne une table à partir de la <code>table</code> spécifiée où la valeur de la cellule suivante est propagée aux cellules évaluées null ci-dessus, dans la <code>columns</code> spécifiée.
 

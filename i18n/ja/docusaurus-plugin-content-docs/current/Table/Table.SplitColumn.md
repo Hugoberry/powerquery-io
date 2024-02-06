@@ -5,8 +5,6 @@ title: Table.SplitColumn
 # Table.SplitColumn
 
 
-## Description
-
 指定された分割関数を使用して、指定された列を追加の列のセットに分割します。
 
 
@@ -24,7 +22,7 @@ Table.SplitColumn(
 ```
 
 
-## Details
+## Remarks
 
 指定された分割関数を使用して、指定された列を追加の列のセットに分割します。
 

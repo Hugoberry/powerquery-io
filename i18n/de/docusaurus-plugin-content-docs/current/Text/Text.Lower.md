@@ -5,8 +5,6 @@ title: Text.Lower
 # Text.Lower
 
 
-## Description
-
 Konvertiert alle Zeichen in Kleinschreibung.
 
 
@@ -20,7 +18,7 @@ Text.Lower(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das Ergebnis der Konvertierung aller Zeichen in "<code>text</code>" in Kleinbuchstaben zurück. Optional kann auch ein Element vom Typ "<code>culture</code>" angegeben werden (Beispiel: "de-DE").
 

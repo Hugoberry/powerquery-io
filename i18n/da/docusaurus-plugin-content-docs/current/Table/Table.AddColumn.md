@@ -5,8 +5,6 @@ title: Table.AddColumn
 # Table.AddColumn
 
 
-## Description
-
 Tilføjer en kolonne med det angivne navn. Værdien beregnes ved hjælp af den angivne udvælgelsesfunktion, og alle rækker bruges som input.
 
 
@@ -22,7 +20,7 @@ Table.AddColumn(
 ```
 
 
-## Details
+## Remarks
 
 Føjer en kolonne med navnet <code>newColumnName</code> til tabellen <code>table</code>. Værdierne for kolonnen beregnes ved hjælp af den angivne udvælgelsesfunktion <code>columnGenerator</code>, og alle rækker bruges som input.
 

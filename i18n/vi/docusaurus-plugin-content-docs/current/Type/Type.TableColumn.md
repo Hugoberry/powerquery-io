@@ -5,8 +5,6 @@ title: Type.TableColumn
 # Type.TableColumn
 
 
-## Description
-
 Trả về loại của cột trong bảng.
 
 
@@ -20,7 +18,7 @@ Type.TableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Trả về loại của cột <code>column</code> trong loại bảng <code>tableType</code>.
 

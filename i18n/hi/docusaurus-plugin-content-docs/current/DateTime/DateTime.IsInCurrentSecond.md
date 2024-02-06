@@ -5,8 +5,6 @@ title: DateTime.IsInCurrentSecond
 # DateTime.IsInCurrentSecond
 
 
-## Description
-
 यह इंगित करता है कि क्या यह तिथिसमय, सिस्टम के वर्तमान दिनांक और समय द्वारा निर्धारित वर्तमान सेकंड के दौरान आता है.
 
 
@@ -19,7 +17,7 @@ DateTime.IsInCurrentSecond(
 ```
 
 
-## Details
+## Remarks
 
 इंगित करता है कि क्या दिया गया तिथिसमय मान <code>dateTime</code> सिस्टम के वर्तमान दिनांक और समय द्वारा निर्धारित वर्तमान सेकंड के दौरान आता है.      <ul>      <li><code>dateTime</code>: मूल्यांकित किया जाने वाला <code>तिथिसमय</code>, या <code>तिथिसमयज़ोन</code> मान.</li>      </ul>
 

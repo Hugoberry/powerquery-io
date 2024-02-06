@@ -5,8 +5,6 @@ title: Table.ExpandListColumn
 # Table.ExpandListColumn
 
 
-## Description
-
 สร้างสำเนาของแถวสำหรับแต่ละค่าในรายการ โดยกำหนดให้มีหนึ่งคอลัมน์ของหนึ่งรายการในตาราง
 
 
@@ -20,7 +18,7 @@ Table.ExpandListColumn(
 ```
 
 
-## Details
+## Remarks
 
 แยกรายการออกเป็นหนึ่งแถวสำหรับแต่ละค่า โดยกำหนดให้มี <code>table</code> ซึ่ง <code>column</code> เป็นรายการค่า ค่าในคอลัมน์อื่นจะถูกทำซ้ำในแถวใหม่แต่ละแถวที่สร้าง
 

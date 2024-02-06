@@ -5,8 +5,6 @@ title: Marketo.Leads
 # Marketo.Leads
 
 
-## Description
-
 Returnerar en tabell med leadinformation.
 
 
@@ -21,7 +19,7 @@ Marketo.Leads(
 ```
 
 
-## Details
+## Remarks
 
 Anropar Marketo REST API-slutpunkten på <code>url</code>/rest/v1/leads.json. Alla leads i listan <code>leadIds</code> returneras.
 

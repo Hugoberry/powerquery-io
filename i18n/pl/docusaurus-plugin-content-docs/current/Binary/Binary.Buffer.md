@@ -5,8 +5,6 @@ title: Binary.Buffer
 # Binary.Buffer
 
 
-## Description
-
 Buforuje wartość binarną w pamięci.
 
 
@@ -19,7 +17,7 @@ Binary.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 Buforuje wartość binarną w pamięci. Wynikiem tego wywołania jest stabilna wartość binarna, czyli wartość o deterministycznej długości i kolejności bajtów.
 

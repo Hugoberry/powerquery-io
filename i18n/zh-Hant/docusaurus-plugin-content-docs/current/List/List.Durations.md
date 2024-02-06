@@ -5,8 +5,6 @@ title: List.Durations
 # List.Durations
 
 
-## Description
-
 已知初始值、計數和累加持續時間值，產生工期值清單。
 
 
@@ -21,7 +19,7 @@ List.Durations(
 ```
 
 
-## Details
+## Remarks
 
 傳回 <code>count</code> <code>duration</code> 值的清單，從 <code>start</code> 開始，並逐次遞增指定的 <code>duration</code> <code>step</code>。
 

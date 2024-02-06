@@ -5,8 +5,6 @@ title: Text.SplitAny
 # Text.SplitAny
 
 
-## Description
-
 区切り記号のいずれかの文字で分割されたテキスト値の一覧を返します。
 
 
@@ -20,7 +18,7 @@ Text.SplitAny(
 ```
 
 
-## Details
+## Remarks
 
 指定された区切り記号 <code>separators</code> の任意の文字に基づいてテキスト値 <code>text</code> を分割した結果のテキスト値の一覧を返します。
 

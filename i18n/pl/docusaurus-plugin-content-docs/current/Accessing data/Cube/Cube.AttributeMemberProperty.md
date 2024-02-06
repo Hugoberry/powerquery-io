@@ -5,8 +5,6 @@ title: Cube.AttributeMemberProperty
 # Cube.AttributeMemberProperty
 
 
-## Description
-
 Zwraca właściwość atrybutu wymiaru.
 
 
@@ -20,7 +18,7 @@ Cube.AttributeMemberProperty(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca właściwość <code>propertyName</code> atrybutu wymiaru <code>attribute</code>.
 

@@ -5,8 +5,6 @@ title: MailChimp.Instance
 # MailChimp.Instance
 
 
-## Description
-
 Returnerer ubehandlede svarresultater fra slutpunktet for en MailChimp-API.
 
 
@@ -19,7 +17,7 @@ MailChimp.Instance(
 ```
 
 
-## Details
+## Remarks
 
 Foretager et kald til MailChimp-API'en og returnerer et ubehandlet svar.
 

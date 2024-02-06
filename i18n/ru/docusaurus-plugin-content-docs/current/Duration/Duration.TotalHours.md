@@ -5,8 +5,6 @@ title: Duration.TotalHours
 # Duration.TotalHours
 
 
-## Description
-
 Возвращает общее количество часов, охватываемое этой длительностью.
 
 
@@ -19,7 +17,7 @@ Duration.TotalHours(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает общее количество часов, охваченных <code>duration</code>.
 

@@ -5,8 +5,6 @@ title: Expression.Constant
 # Expression.Constant
 
 
-## Description
-
 किसी स्थिर मान का M स्रोत कोड प्रस्तुतिकरण लौटाता है.
 
 
@@ -19,7 +17,7 @@ Expression.Constant(
 ```
 
 
-## Details
+## Remarks
 
 किसी स्थिर मान का M स्रोत कोड प्रस्तुतिकरण लौटाता है.
 

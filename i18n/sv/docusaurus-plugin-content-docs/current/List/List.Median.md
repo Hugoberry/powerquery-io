@@ -5,8 +5,6 @@ title: List.Median
 # List.Median
 
 
-## Description
-
 Returnerar medianvärdet i listan.
 
 
@@ -20,7 +18,7 @@ List.Median(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar medianobjektet i listan <code>list</code>. Den här funktionen returnerar <code>null</code> om listan inte innehåller några värden som inte är <code>null</code>.    Om det finns ett jämnt antal objekt, väljer funktionen det mindre av de två medianobjekten, såvida listan inte helt    består av enbart datumtider, varaktigheter, siffror eller tider, i så fall returnerar den medelvärdet för de två objekten.
 

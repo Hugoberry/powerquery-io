@@ -5,8 +5,6 @@ title: Date.DaysInMonth
 # Date.DaysInMonth
 
 
-## Description
-
 Aydaki gün sayısını gösteren 28 ile 31 arasında bir sayı döndürür.
 
 
@@ -19,7 +17,7 @@ Date.DaysInMonth(
 ```
 
 
-## Details
+## Remarks
 
 <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri olan <code>dateTime</code> öğesindeki ay içinde bulunan gün sayısını döndürür. <ul>        <li><code>dateTime</code>: Aydaki gün sayısının döndürüldüğü bir <code>date</code>, <code>datetime</code> veya <code>datetimezone</code>değeri.</li>      </ul>
 

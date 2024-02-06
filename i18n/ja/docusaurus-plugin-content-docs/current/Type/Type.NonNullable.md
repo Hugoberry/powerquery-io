@@ -5,8 +5,6 @@ title: Type.NonNullable
 # Type.NonNullable
 
 
-## Description
-
 型から NULL 許容型以外の型を返します。
 
 
@@ -19,7 +17,7 @@ Type.NonNullable(
 ```
 
 
-## Details
+## Remarks
 
 <code>type</code> から <code>nullable</code> 以外の型を返します。
 

@@ -5,8 +5,6 @@ title: Table.NestedJoin
 # Table.NestedJoin
 
 
-## Description
-
 Wykonuje sprzężenie tabel z użyciem określonych kolumn i umieszcza wynik sprzężenia w nowej kolumnie.
 
 
@@ -25,7 +23,7 @@ Table.NestedJoin(
 ```
 
 
-## Details
+## Remarks
 
 Tworzy sprzężenie wierszy tabeli <code>table1</code> z wierszami tabeli <code>table2</code> na podstawie równości wartości kolumn klucza wybranych przez parametr <code>key1</code> (dla tabeli <code>table1</code>) i parametr <code>key2</code> (dla tabeli <code>table2</code>). Wyniki są umieszczane w kolumnie o nazwie <code>newColumnName</code>.<br />Opcjonalny parametr <code>joinKind</code> określa rodzaj tworzonego sprzężenia. Jeśli nie określono parametru <code>joinKind</code>, domyślnie jest tworzone lewe sprzężenie zewnętrzne.<br />Możesz dołączyć opcjonalny zestaw <code>keyEqualityComparers</code>, aby określić metodę porównania kolumn klucza. Ta funkcja jest obecnie przeznaczona tylko do użytku wewnętrznego.<br />  
 

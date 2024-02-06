@@ -5,8 +5,6 @@ title: Stripe.Contents
 # Stripe.Contents
 
 
-## Description
-
 呼叫 Stripe API。您可選擇是否要限制 API 的呼叫數。
 
 
@@ -21,7 +19,7 @@ Stripe.Contents(
 ```
 
 
-## Details
+## Remarks
 
 在 https://api.stripe.com/v1/<code>method</code> 呼叫 Stripe API。您可以選擇是否要使用其他參數傳遞記錄 <code>query</code>，以及是否要使用 <code>pageLimit</code> 限制 API 要求數。最新的資料會優先傳回。若未指定 <code>pageLimit</code>，將會傳回所有資料。將使用 Stripe 2015-10-16 版。
 

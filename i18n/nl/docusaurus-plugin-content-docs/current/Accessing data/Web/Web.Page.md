@@ -5,8 +5,6 @@ title: Web.Page
 # Web.Page
 
 
-## Description
-
 Retourneert de inhoud van het HTML-document, opgesplitst in alle structuren van dat document, alsmede een weergave van het volledige document en de tekst van dat document na verwijdering van de tags.
 
 
@@ -19,7 +17,7 @@ Web.Page(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert de inhoud van het HTML-document, opgesplitst in alle structuren van dat document, alsmede een weergave van het volledige document en de tekst van dat document na verwijdering van de tags.
 

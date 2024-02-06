@@ -5,8 +5,6 @@ title: Geometry.ToWellKnownText
 # Geometry.ToWellKnownText
 
 
-## Description
-
 Hiermit wird ein strukturierter geometrischer Punkt in die zugehörige WKT-Darstellung (Well-Known Text) übersetzt.
 
 
@@ -20,7 +18,7 @@ Geometry.ToWellKnownText(
 ```
 
 
-## Details
+## Remarks
 
 Hiermit wird ein strukturierter geometrischer Punkt in die zugehörige WKT-Darstellung (Well-Known Text) übersetzt. WKT ist ein vom Open Geospatial Consortium (OGC) definiertes Standardformat. Es ist das Serialisierungsformat, das von vielen Datenbanken einschließlich SQL Server verwendet wird.
 

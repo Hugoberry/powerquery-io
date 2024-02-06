@@ -5,8 +5,6 @@ title: DateTimeZone.RemoveZone
 # DateTimeZone.RemoveZone
 
 
-## Description
-
 Loại bỏ thông tin múi giờ khỏi giá trị datetimezone cho sẵn.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.RemoveZone(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một giá trị #datetime từ <code>dateTimeZone</code> đã loại bỏ thông tin múi giờ.
 

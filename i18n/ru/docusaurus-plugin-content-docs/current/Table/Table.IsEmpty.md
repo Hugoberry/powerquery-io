@@ -5,8 +5,6 @@ title: Table.IsEmpty
 # Table.IsEmpty
 
 
-## Description
-
 Указывает, содержит ли таблица хотя бы одну строку.
 
 
@@ -19,7 +17,7 @@ Table.IsEmpty(
 ```
 
 
-## Details
+## Remarks
 
 Указывает, содержит ли "<code>table</code>" хотя бы одну строку. Возвращает значение <code>true</code>, если строк нет (т. е. таблица пуста), и <code>false</code> в противном случае.
 

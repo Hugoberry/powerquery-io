@@ -5,8 +5,6 @@ title: Table.Partition
 # Table.Partition
 
 
-## Description
-
 Tabloyu belirtilen grup ve sütun sayısına bağlı olarak tablo listesi olarak bölümler.
 
 
@@ -22,7 +20,7 @@ Table.Partition(
 ```
 
 
-## Details
+## Remarks
 
 <code>table</code> öğesini <code>column</code> değerine ve <code>hash</code> işlevine bağlı olarak <code>groups</code> tablo listesi olarak bölümler.    <code>hash</code> işlevi, satırın karma değerini almak üzere <code>column</code> satırının değerine uygulanır. <code>groups</code> karma değer modulo işleci, satırın döndürülen tabloların hangilerine ekleneceğini belirler.    <ul>       <li><code>table</code>: Bölümlenecek tablo.</li>       <li><code>column</code>: Satırın hangi döndürülen tabloda olduğunu belirlemek üzere karma sütunu.</li>       <li><code>groups</code>: Girdi tablosunun bölümleneceği tablo sayısı.</li>       <li><code>hash</code>: Karma değeri almak üzere uygulanan işlev.</li>    </ul>  
 

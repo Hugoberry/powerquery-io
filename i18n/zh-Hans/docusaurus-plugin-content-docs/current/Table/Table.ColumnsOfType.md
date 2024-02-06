@@ -5,8 +5,6 @@ title: Table.ColumnsOfType
 # Table.ColumnsOfType
 
 
-## Description
-
 返回带有与指定类型相匹配的列名的列表。
 
 
@@ -20,7 +18,7 @@ Table.ColumnsOfType(
 ```
 
 
-## Details
+## Remarks
 
 返回带有与 <code>listOfTypes</code> 中指定的类型相匹配的表 <code>table</code> 中的列名的列表。
 

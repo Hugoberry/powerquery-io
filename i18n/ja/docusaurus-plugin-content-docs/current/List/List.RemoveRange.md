@@ -5,8 +5,6 @@ title: List.RemoveRange
 # List.RemoveRange
 
 
-## Description
-
 指定された開始位置から、指定された数の値を削除します。
 
 
@@ -21,7 +19,7 @@ List.RemoveRange(
 ```
 
 
-## Details
+## Remarks
 
 <code>list</code> 内の指定された開始位置 <code>index</code> から、<code>count</code> 個の値を削除します。
 

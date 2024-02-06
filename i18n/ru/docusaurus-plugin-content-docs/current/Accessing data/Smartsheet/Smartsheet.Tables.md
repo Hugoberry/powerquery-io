@@ -5,8 +5,6 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-## Description
-
 Возвращает таблицу листов, отчетов, папок и рабочих областей из API Smartsheet
 
 
@@ -19,7 +17,7 @@ Smartsheet.Tables(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает вложенную таблицу доступных листов, отчетов, папок и рабочих областей из API Smartsheet.
 

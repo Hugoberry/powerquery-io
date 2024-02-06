@@ -5,8 +5,6 @@ title: List.InsertRange
 # List.InsertRange
 
 
-## Description
-
 Вставляет значения в список по указанному индексу.
 
 
@@ -21,7 +19,7 @@ List.InsertRange(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает новый список, созданный путем вставки значений из <code>values</code> в <code>list</code> с <code>index</code>. Первая позиция в списке находится по индексу 0.      <ul>        <li><code>list</code>: целевой список, в который будут вставлены значения.</li>        <li><code>index</code>: индекс целевого списка (<code>list</code>), в который будут вставлены значения. Первая позиция в списке находится по индексу 0.</li>        <li><code>values</code>: список значений, которые будут вставлены в <code>list</code>.      </li></ul>
 

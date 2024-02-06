@@ -5,8 +5,6 @@ title: List.SingleOrDefault
 # List.SingleOrDefault
 
 
-## Description
-
 Returnerar det enstaka listobjektet för en lista med längden ett och standardvärdet för en tom lista.
 
 
@@ -20,7 +18,7 @@ List.SingleOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 Om det bara finns ett objekt i listan, returnerar <code>list</code> det objektet.    Om listan är tom returnerar funktionen null såvida inte en valfri <code>default</code> har angetts. Om det finns mer än ett objekt i listan returnerar funktionen ett fel.
 

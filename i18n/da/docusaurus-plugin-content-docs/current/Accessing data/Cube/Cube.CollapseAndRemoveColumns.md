@@ -5,8 +5,6 @@ title: Cube.CollapseAndRemoveColumns
 # Cube.CollapseAndRemoveColumns
 
 
-## Description
-
 Ændrer filterkontekstens dimensionelle granularitet for kuben ved at skjule de attributter, der er knyttet til de angivne kolonner.
 
 
@@ -20,7 +18,7 @@ Cube.CollapseAndRemoveColumns(
 ```
 
 
-## Details
+## Remarks
 
 Ændrer filterkontekstens dimensionelle granularitet for <code>cube</code> ved at skjule de attributter, der er knyttet til de angivne kolonner <code>columnNames</code>. Kolonnerne fjernes også fra kubens tabelvisning.
 

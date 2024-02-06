@@ -5,8 +5,6 @@ title: Text.Trim
 # Text.Trim
 
 
-## Description
-
 Loại bỏ tất cả dấu cách cách quãng và kế tiếp.
 
 
@@ -20,7 +18,7 @@ Text.Trim(
 ```
 
 
-## Details
+## Remarks
 
 Trả về kết quả loại bỏ tất cả dấu cách cách quãng và kế tiếp khỏi giá trị văn bản <code>text</code>.
 

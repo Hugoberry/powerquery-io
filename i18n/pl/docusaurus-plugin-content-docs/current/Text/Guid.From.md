@@ -5,8 +5,6 @@ title: Guid.From
 # Guid.From
 
 
-## Description
-
 Zwraca wartość identyfikatora GUID danej wartości.
 
 
@@ -19,7 +17,7 @@ Guid.From(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca wartość funkcji <code>Guid.Type</code> dla danej wartości <code>value</code>. Jeśli podana wartość <code>value</code> ma wartość <code>null</code>, funkcja <code>Guid.From</code> zwraca wartość <code>null</code>. Dany element <code>value</code> zostanie sprawdzony pod kątem dozwolonego formatu. Dozwolone formaty można znaleźć w przykładach.
 

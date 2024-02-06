@@ -5,8 +5,6 @@ title: Replacer.ReplaceText
 # Replacer.ReplaceText
 
 
-## Description
-
 Thay thế văn bản trong đầu vào được cung cấp.
 
 
@@ -21,7 +19,7 @@ Replacer.ReplaceText(
 ```
 
 
-## Details
+## Remarks
 
 Thay thế văn bản <code>old</code> trong <code>text</code> gốc bằng văn bản <code>new</code>. Có thể sử dụng hàm thay thế này trong <code>List.ReplaceValue</code> và <code>Table.ReplaceValue</code>.
 

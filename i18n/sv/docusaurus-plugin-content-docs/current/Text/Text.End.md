@@ -5,8 +5,6 @@ title: Text.End
 # Text.End
 
 
-## Description
-
 Returnerar de sista tecknen i texten.
 
 
@@ -20,7 +18,7 @@ Text.End(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar ett <code>text</code>-värde som är de sista <code>count</code> tecknen i <code>text</code>-värdet <code>text</code>.
 

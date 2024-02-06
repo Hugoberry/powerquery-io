@@ -5,8 +5,6 @@ title: Type.ReplaceFacets
 # Type.ReplaceFacets
 
 
-## Description
-
 取代類型的 Facet。
 
 
@@ -20,7 +18,7 @@ Type.ReplaceFacets(
 ```
 
 
-## Details
+## Remarks
 
 以記錄 <code>facets</code> 中所含的 Facet 取代 <code>type</code> 的 Facet。
 

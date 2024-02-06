@@ -5,8 +5,6 @@ title: Value.Type
 # Value.Type
 
 
-## Description
-
 दिए गए मान का प्रकार लौटाता है.
 
 
@@ -19,7 +17,7 @@ Value.Type(
 ```
 
 
-## Details
+## Remarks
 
 दिए गए मान का प्रकार लौटाता है.
 

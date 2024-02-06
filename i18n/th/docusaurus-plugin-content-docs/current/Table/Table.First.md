@@ -5,8 +5,6 @@ title: Table.First
 # Table.First
 
 
-## Description
-
 ส่งกลับแถวแรกหรือค่าเริ่มต้นที่ระบุ
 
 
@@ -20,7 +18,7 @@ Table.First(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับแถวแรกของ <code>table</code> หรือค่าเริ่มต้นที่เลือกได้ <code>default</code> ถ้าตารางว่างเปล่า
 

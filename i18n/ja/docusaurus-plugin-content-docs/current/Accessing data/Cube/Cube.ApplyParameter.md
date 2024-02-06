@@ -5,8 +5,6 @@ title: Cube.ApplyParameter
 # Cube.ApplyParameter
 
 
-## Description
-
 パラメーターを適用後、キューブを返します。
 
 
@@ -21,7 +19,7 @@ Cube.ApplyParameter(
 ```
 
 
-## Details
+## Remarks
 
 <code>arguments</code> を含む <code>parameter</code> を <code>cube</code> に適用後、キューブを返します。
 

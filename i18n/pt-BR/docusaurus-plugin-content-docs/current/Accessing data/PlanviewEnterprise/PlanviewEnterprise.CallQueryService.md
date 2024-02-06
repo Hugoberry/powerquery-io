@@ -5,8 +5,6 @@ title: PlanviewEnterprise.CallQueryService
 # PlanviewEnterprise.CallQueryService
 
 
-## Description
-
 Enter the URL, database name associated with your Planview Portfolios account and a SQL query.
 
 
@@ -21,7 +19,7 @@ PlanviewEnterprise.CallQueryService(
 ```
 
 
-## Details
+## Remarks
 
 Returns a table with Planview Portfolios data.
 

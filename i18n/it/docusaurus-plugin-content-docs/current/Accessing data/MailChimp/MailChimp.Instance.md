@@ -5,8 +5,6 @@ title: MailChimp.Instance
 # MailChimp.Instance
 
 
-## Description
-
 Restituisce i risultati della risposta non elaborata da un endpoint API MailChimp.
 
 
@@ -19,7 +17,7 @@ MailChimp.Instance(
 ```
 
 
-## Details
+## Remarks
 
 Effettua una chiamata all'API MailChimp e restituisce la risposta non elaborata.
 

@@ -5,8 +5,6 @@ title: BinaryFormat.Single
 # BinaryFormat.Single
 
 
-## Description
-
 Een binaire indeling die een IEEE zwevende-kommagetal met enkele precisie met een lengte van 4 bytes leest.
 
 
@@ -19,7 +17,7 @@ BinaryFormat.Single(
 ```
 
 
-## Details
+## Remarks
 
 Een binaire indeling die een IEEE zwevende-kommagetal met enkele precisie met een lengte van 4 bytes leest.
 

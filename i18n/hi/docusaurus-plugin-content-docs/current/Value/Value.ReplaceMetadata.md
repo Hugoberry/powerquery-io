@@ -5,8 +5,6 @@ title: Value.ReplaceMetadata
 # Value.ReplaceMetadata
 
 
-## Description
-
 इनपुट के मेटाडेटा जानकारी को प्रतिस्थापित करता है.
 
 
@@ -20,7 +18,7 @@ Value.ReplaceMetadata(
 ```
 
 
-## Details
+## Remarks
 
 इनपुट के मेटाडेटा जानकारी को प्रतिस्थापित करता है.
 

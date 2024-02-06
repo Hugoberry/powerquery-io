@@ -5,8 +5,6 @@ title: List.IsDistinct
 # List.IsDistinct
 
 
-## Description
-
 Указывает, имеются ли повторяющиеся значения в списке.
 
 
@@ -20,7 +18,7 @@ List.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает логическое значение, указывающее, имеются ли повторяющиеся значения в списке <code>list</code>; <code>true</code>, если значения в списке уникальны; <code>false</code>, если есть повторяющиеся значения. 
 

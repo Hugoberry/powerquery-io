@@ -5,8 +5,6 @@ title: Text.Proper
 # Text.Proper
 
 
-## Description
-
 Inleder varje ord med versal.
 
 
@@ -20,7 +18,7 @@ Text.Proper(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar resultatet då varje ord i textvärdet <code>text</code> inleds med versal. Alla andra bokstäver utom den första i orden visas med gemener. En valfri <code>culture</code> kan även anges (till exempel, "en-US").
 

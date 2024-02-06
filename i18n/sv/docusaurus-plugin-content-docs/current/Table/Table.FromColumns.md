@@ -5,8 +5,6 @@ title: Table.FromColumns
 # Table.FromColumns
 
 
-## Description
-
 Skapar en tabell från en lista med kolumner och angivna värden.
 
 
@@ -20,7 +18,7 @@ Table.FromColumns(
 ```
 
 
-## Details
+## Remarks
 
 Skapar en tabell av typen <code>columns</code> från en lista <code>lists</code> som innehåller kapslade listor med kolumnnamn och värden.    Om vissa kolumner har fler värden än andra fylls de värden som saknas i med standardvärdet, null, om kolumnerna kan vara null.
 

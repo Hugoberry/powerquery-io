@@ -5,8 +5,6 @@ title: Combiner.CombineTextByRanges
 # Combiner.CombineTextByRanges
 
 
-## Description
-
 Trả về một hàm \kết hợp một danh sách văn bản bằng cách dùng các vị trí và độ dài được chỉ định.
 
 
@@ -20,7 +18,7 @@ Combiner.CombineTextByRanges(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một hàm kết hợp một danh sách giá trị văn bản thành một giá trị văn bản đơn bằng cách sử dụng vị trí đầu ra và độ dài được chỉ định. Độ dài null thể hiện rằng toàn bộ giá trị văn bản nên được đưa vào.
 

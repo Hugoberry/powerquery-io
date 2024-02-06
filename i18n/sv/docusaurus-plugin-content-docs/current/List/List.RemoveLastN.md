@@ -5,8 +5,6 @@ title: List.RemoveLastN
 # List.RemoveLastN
 
 
-## Description
-
 Returnerar en lista som tar bort angivet antal element från slutet av listan.
 
 
@@ -20,7 +18,7 @@ List.RemoveLastN(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en lista som tar bort de sista <code>countOrCondition</code> elementen från slutet av listan <code>list</code>. Om <code>list</code> har färre än <code>countOrCondition</code> element returneras en tom lista. <ul> <li>Om ett tal anges tas upp till så många objekt bort. </li> <li>Om ett villkor anges slutar listan som returneras med det första nedersta elementet i <code>list</code> som uppfyller villkoret. Om ett objekt inte uppfyller villkoret utvärderas inga fler objekt. </li> <li>Om den här parametern är null tas endast ett objekt bort. </li> </ul>
 

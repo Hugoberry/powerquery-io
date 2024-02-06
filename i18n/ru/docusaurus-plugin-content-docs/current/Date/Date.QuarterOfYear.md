@@ -5,8 +5,6 @@ title: Date.QuarterOfYear
 # Date.QuarterOfYear
 
 
-## Description
-
 Возвращает число, указывающее квартал года, на который приходится дата.
 
 
@@ -19,7 +17,7 @@ Date.QuarterOfYear(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает число от 1 до 4, указывающее квартал года, на который приходится дата <code>dateTime</code>. <code>dateTime</code> может иметь значение <code>date</code>, <code>datetime</code> или <code>datetimezone</code>.
 

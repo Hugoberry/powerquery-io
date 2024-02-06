@@ -5,8 +5,6 @@ title: Number.IntegerDivide
 # Number.IntegerDivide
 
 
-## Description
-
 Dividerer to tal og returnerer heltalsdelen af resultatet.
 
 
@@ -21,7 +19,7 @@ Number.IntegerDivide(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer heltalsdelen af resultatet efter at have divideret et tal, <code>number1</code>, med et andet tal, <code>number2</code>.    Hvis <code>number1</code> eller <code>number2</code> er null, returnerer <code>Number.IntegerDivide</code> null.      <ul>        <li><code>number1</code>: Dividenden.</li>        <li><code>number2</code>: Divisoren.</li>      </ul>
 

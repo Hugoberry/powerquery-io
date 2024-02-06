@@ -5,8 +5,6 @@ title: Twilio.Tables
 # Twilio.Tables
 
 
-## Description
-
 輸入要擷取的歷史 Twilio 資料月份數。
 
 
@@ -19,7 +17,7 @@ Twilio.Tables(
 ```
 
 
-## Details
+## Remarks
 
 傳回包含相關 Twilio 資料的資料表。
 

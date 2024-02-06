@@ -5,8 +5,6 @@ title: List.Count
 # List.Count
 
 
-## Description
-
 ส่งกลับจำนวนข้อมูลในรายการ
 
 
@@ -19,7 +17,7 @@ List.Count(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับจำนวนข้อมูลในรายการ <code>list</code>
 

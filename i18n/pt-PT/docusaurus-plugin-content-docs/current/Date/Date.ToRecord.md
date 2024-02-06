@@ -5,8 +5,6 @@ title: Date.ToRecord
 # Date.ToRecord
 
 
-## Description
-
 Devolve um registo que contém as partes do valor date.
 
 
@@ -19,7 +17,7 @@ Date.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um registo que contém as partes do valor date especificado, <code>date</code>. <ul>        <li><code>date</code>: um valor <code>date</code> a partir do qual o registo das partes correspondentes deverá ser calculado.</li>      </ul>
 

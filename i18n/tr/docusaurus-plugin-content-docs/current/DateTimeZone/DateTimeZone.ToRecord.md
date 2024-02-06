@@ -5,8 +5,6 @@ title: DateTimeZone.ToRecord
 # DateTimeZone.ToRecord
 
 
-## Description
-
 datetimezone değerinin parçalarını içeren bir kayıt döndürür.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>dateTimeZone</code> datetimezone değerinin parçalarını içeren bir kayıt döndürür. <ul>        <li><code>dateTimeZone</code>: Parçalarının kaydının hesaplanacağı bir <code>datetimezone</code>değeri.</li>      </ul>
 

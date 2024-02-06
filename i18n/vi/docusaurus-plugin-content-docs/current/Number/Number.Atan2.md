@@ -5,8 +5,6 @@ title: Number.Atan2
 # Number.Atan2
 
 
-## Description
-
 Trả về arctang của phép chia hai số.
 
 
@@ -20,7 +18,7 @@ Number.Atan2(
 ```
 
 
-## Details
+## Remarks
 
 Trả về arctang của phép chia hai số là <code>y</code> và <code>x</code>. Phép chia sẽ được thiết lập ở dạng <code>y</code>/<code>x</code>.
 

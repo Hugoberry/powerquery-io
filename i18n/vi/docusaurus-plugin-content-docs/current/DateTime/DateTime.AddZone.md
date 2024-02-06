@@ -5,8 +5,6 @@ title: DateTime.AddZone
 # DateTime.AddZone
 
 
-## Description
-
 Thêm thông tin múi giờ vào giá trị ngày giờ.
 
 
@@ -21,7 +19,7 @@ DateTime.AddZone(
 ```
 
 
-## Details
+## Remarks
 
 Thêm thông tin múi giờ vào giá trị <code>dateTime</code>. Thông tin múi giờ bao gồm <code>timezoneHours</code> và tùy chọn <code>timezoneMinutes</code>, xác định chênh lệch mong muốn với thời gian UTC.
 

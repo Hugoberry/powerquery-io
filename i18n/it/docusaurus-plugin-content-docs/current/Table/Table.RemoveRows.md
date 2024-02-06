@@ -5,8 +5,6 @@ title: Table.RemoveRows
 # Table.RemoveRows
 
 
-## Description
-
 Rimuove il numero di righe specificato.
 
 
@@ -21,7 +19,7 @@ Table.RemoveRows(
 ```
 
 
-## Details
+## Remarks
 
 Rimuove <code>count</code> di righe dall'inizio di <code>table</code> a partire da <code>offset</code>. Se non viene specificato il parametro <code>count</code>, verrà utilizzato il conteggio predefinito di 1. 
 

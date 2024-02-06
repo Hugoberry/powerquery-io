@@ -5,8 +5,6 @@ title: Table.AddIndexColumn
 # Table.AddIndexColumn
 
 
-## Description
-
 使用明確的位置值來附加資料行。
 
 
@@ -23,7 +21,7 @@ Table.AddIndexColumn(
 ```
 
 
-## Details
+## Remarks
 
 使用明確的位置值，將名為 <code>newColumnName</code> 的資料行附加至 <code>table</code>。    選擇性值 <code>initialValue</code> 是初始索引值。選擇性值 <code>increment</code> 會指定每個索引值的遞增量。
 

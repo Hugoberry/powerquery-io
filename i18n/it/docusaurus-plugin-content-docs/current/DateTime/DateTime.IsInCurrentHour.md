@@ -5,8 +5,6 @@ title: DateTime.IsInCurrentHour
 # DateTime.IsInCurrentHour
 
 
-## Description
-
 Indica se questo valore di data/ora rientra nell&#39;ora corrente, come determinato dalla data e dall&#39;ora correnti del sistema.
 
 
@@ -19,7 +17,7 @@ DateTime.IsInCurrentHour(
 ```
 
 
-## Details
+## Remarks
 
 Indica se il valore di data/ora specificato <code>dateTime</code> rientra nell'ora corrente, come determinato dalla data e dall'ora correnti del sistema.      <ul>      <li><code>dateTime</code>: valore <code>datetime</code>, o valore <code>datetimezone</code> da valutare.</li>      </ul>
 

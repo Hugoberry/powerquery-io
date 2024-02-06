@@ -5,8 +5,6 @@ title: Table.CombineColumns
 # Table.CombineColumns
 
 
-## Description
-
 Samler de angivne kolonner i en ny kolonne ved hjælp af den angivne samlefunktion.
 
 
@@ -22,7 +20,7 @@ Table.CombineColumns(
 ```
 
 
-## Details
+## Remarks
 
 Samler de angivne kolonner i en ny kolonne ved hjælp af den angivne samlefunktion.
 

@@ -5,8 +5,6 @@ title: Number.Mod
 # Number.Mod
 
 
-## Description
-
 Geheel getal deelt twee getallen en retourneert de rest.
 
 
@@ -21,7 +19,7 @@ Number.Mod(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt de rest van de deling van het gehele getal van <code>number</code> door <code>divisor</code> geretourneerd.  Als <code>number</code> of <code>divisor</code> null is, retourneert <code> Number.Mod</code> null. <ul>  <li> <code>number</code>: het deeltal.</li>  <li> <code>divisor</code>: de deler.</li>  </ul>
 

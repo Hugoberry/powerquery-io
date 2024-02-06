@@ -5,8 +5,6 @@ title: Date.AddWeeks
 # Date.AddWeeks
 
 
-## Description
-
 เพิ่มสัปดาห์ที่ระบุลงในวันที่
 
 
@@ -20,7 +18,7 @@ Date.AddWeeks(
 ```
 
 
-## Details
+## Remarks
 
 ส่งกลับผลลัพธ์ <code>date</code>, <code>datetime</code> หรือ <code>datetimezone</code> จากการเพิ่ม <code>numberOfWeeks</code> สัปดาห์ลงในค่า <code>datetime</code> <code>dateTime</code>      <ul>      <li><code>dateTime</code>: ค่า <code>date</code>, <code>datetime</code> หรือ <code>datetimezone</code> ที่สัปดาห์ถูกเพิ่ม</li>      <li><code>numberOfWeeks</code>: จำนวนสัปดาห์ที่จะเพิ่ม</li>      </ul>
 

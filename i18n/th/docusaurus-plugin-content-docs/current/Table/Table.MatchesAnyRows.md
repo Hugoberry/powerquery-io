@@ -5,8 +5,6 @@ title: Table.MatchesAnyRows
 # Table.MatchesAnyRows
 
 
-## Description
-
 ระบุว่าแถวใดๆ ในตารางตรงกับเงื่อนไขที่กำหนดหรือไม่
 
 
@@ -20,7 +18,7 @@ Table.MatchesAnyRows(
 ```
 
 
-## Details
+## Remarks
 
 ระบุว่าแถวใดๆ ใน <code>table</code> ตรงกับ <code>condition</code> ที่กำหนดหรือไม่ ส่งกลับ <code>true</code> ถ้าแถวใดๆ ตรงกับเงื่อนไข และ <code>false</code> ถ้าไม่ใช่
 

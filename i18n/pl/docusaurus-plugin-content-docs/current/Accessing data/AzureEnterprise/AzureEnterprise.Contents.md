@@ -5,8 +5,6 @@ title: AzureEnterprise.Contents
 # AzureEnterprise.Contents
 
 
-## Description
-
 Wprowadź adres URL punktu końcowego interfejsu API REST usługi Azure Enterprise skojarzonego z Twoją rejestracją
 
 
@@ -20,7 +18,7 @@ AzureEnterprise.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca binarny wynik wywołania adresu URL dostarczonego do interfejsu API usługi Azure Enterprise.
 

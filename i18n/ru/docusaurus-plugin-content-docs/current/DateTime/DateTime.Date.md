@@ -5,8 +5,6 @@ title: DateTime.Date
 # DateTime.Date
 
 
-## Description
-
 Возвращает компонент даты для заданного значения date, datetime и datetimezone.
 
 
@@ -19,7 +17,7 @@ DateTime.Date(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает компонент даты <code>dateTime</code> для указанного значения <code>date</code>, <code>datetime</code> или <code>datetimezone</code>.
 

@@ -5,8 +5,6 @@ title: Table.AddRankColumn
 # Table.AddRankColumn
 
 
-## Description
-
 1 つ以上の他の列のランキングが入った列を追加します。
 
 
@@ -22,7 +20,7 @@ Table.AddRankColumn(
 ```
 
 
-## Details
+## Remarks
 
 <code>comparisonCriteria</code> によって説明されている 1 つ以上の他の列のランキングが入った <code>newColumnName</code> という名前の列を、<code>table</code> に追加します。上級ユーザーは <code>options</code> の RankKind オプションを使用することで、より具体的なランキング方法を選択することができます。
 

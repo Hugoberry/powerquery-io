@@ -5,8 +5,6 @@ title: List.Positions
 # List.Positions
 
 
-## Description
-
 Retorna uma lista de deslocamentos para a entrada.
 
 
@@ -19,7 +17,7 @@ List.Positions(
 ```
 
 
-## Details
+## Remarks
 
 Retorna uma lista de deslocamentos para a lista de entrada <code>list</code>.    Ao usar List.Transform para alterar uma lista, a lista de posições pode ser usada para conceder acesso de transformação à posição.
 

@@ -15,7 +15,7 @@ SparkPost.GetList(
 ```
 
 
-## Details
+## Remarks
 
 Esta função pode ser utilizada para chamar qualquer um dos pontos finais "Listas" oferecidos pela API do SparkPost v1. Ao fazer chamadas à API do SparkPost com esta função, tenha em atenção que a API do SparkPost tem um limite de velocidade de API restrito. Se vir um código de estado 429 devolvido pelo servidor do SparkPost, isso significa que atingiu o limite de velocidade e que terá de aguardar até poder fazer mais chamadas.
 

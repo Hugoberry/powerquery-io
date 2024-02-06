@@ -5,8 +5,6 @@ title: Table.FromPartitions
 # Table.FromPartitions
 
 
-## Description
-
 Restituisce una tabella che rappresenta il risultato della combinazione di un set di tabelle partizionate.
 
 
@@ -21,7 +19,7 @@ Table.FromPartitions(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una tabella che è il risultato della combinazione di un set di tabelle partizionate, <code>partitions</code>. <code>partitionColumn</code> è il nome della colonna da aggiungere. Il tipo predefinito di colonna è <code>any</code>, ma può essere specificato da <code>partitionColumnType</code>.
 

@@ -5,8 +5,6 @@ title: DateTimeZone.FixedUtcNow
 # DateTimeZone.FixedUtcNow
 
 
-## Description
-
 वर्तमान दिनांक और समय को UTC (GMT समय क्षेत्र) में लौटाता है. यह मान निश्चित होता है और अनुक्रमिक कॉल के साथ नहीं बदलेगा.
 
 
@@ -19,7 +17,7 @@ DateTimeZone.FixedUtcNow(
 ```
 
 
-## Details
+## Remarks
 
 वर्तमान दिनांक और समय को UTC (GMT समय क्षेत्र) में लौटाता है. यह मान निश्चित होता है और अनुक्रमिक कॉल के साथ नहीं बदलेगा.
 

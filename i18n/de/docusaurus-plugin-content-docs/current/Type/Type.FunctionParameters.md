@@ -5,8 +5,6 @@ title: Type.FunctionParameters
 # Type.FunctionParameters
 
 
-## Description
-
 Gibt einen Datensatz zurück, bei dem Feldwerte auf den Namen der Parameter eines Funktionstyps festgelegt sind und deren Werte auf ihre entsprechenden Typen festgelegt sind.
 
 
@@ -19,7 +17,7 @@ Type.FunctionParameters(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen Datensatz zurück, bei dem Feldwerte auf den Namen der Parameter von <code>type</code> festgelegt sind und deren Werte auf deren entsprechenden Typen festgelegt sind.
 

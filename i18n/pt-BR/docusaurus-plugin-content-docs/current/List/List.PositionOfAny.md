@@ -5,8 +5,6 @@ title: List.PositionOfAny
 # List.PositionOfAny
 
 
-## Description
-
 Retorna o primeiro deslocamento de um valor em uma lista.
 
 
@@ -22,7 +20,7 @@ List.PositionOfAny(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o deslocamento na lista <code>list</code> da primeira ocorrência de um valor em uma lista <code>values</code>. Retorna -1 caso nenhuma ocorrência seja encontrada.    Um parâmetro de ocorrência <code>occurrence</code> opcional pode ser especificado.<ul>   <li><code>occurrence</code>: o número máximo de ocorrências que podem ser retornadas.</li></ul>
 

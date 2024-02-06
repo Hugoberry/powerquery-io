@@ -5,8 +5,6 @@ title: Splitter.SplitTextByEachDelimiter
 # Splitter.SplitTextByEachDelimiter
 
 
-## Description
-
 Restituisce una funzione che suddivide il testo in un elenco di testo in corrispondenza di ogni delimitatore specificato in sequenza.
 
 
@@ -21,7 +19,7 @@ Splitter.SplitTextByEachDelimiter(
 ```
 
 
-## Details
+## Remarks
 
 Restituisce una funzione che suddivide il testo in un elenco di testo in corrispondenza di ogni delimitatore specificato in sequenza.
 

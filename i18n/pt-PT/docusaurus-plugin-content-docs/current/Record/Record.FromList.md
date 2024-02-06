@@ -5,8 +5,6 @@ title: Record.FromList
 # Record.FromList
 
 
-## Description
-
 Devolve um registo com base numa lista de valores de campos e num conjunto de campos especificados.
 
 
@@ -20,7 +18,7 @@ Record.FromList(
 ```
 
 
-## Details
+## Remarks
 
 Devolve um registo com base num <code>list</code> de valores de campos e num conjunto de campos especificados.  O <code>fields</code> pode ser especificado por uma lista de valores de texto ou por um tipo de registo.  E emitido um erro se os campos não forem exclusivos.
 

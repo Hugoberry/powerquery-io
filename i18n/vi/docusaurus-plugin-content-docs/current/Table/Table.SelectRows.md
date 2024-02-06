@@ -5,8 +5,6 @@ title: Table.SelectRows
 # Table.SelectRows
 
 
-## Description
-
 Chọn các hàng đáp ứng hàm điều kiện.
 
 
@@ -20,7 +18,7 @@ Table.SelectRows(
 ```
 
 
-## Details
+## Remarks
 
 Trả về một bảng chứa các hàng từ <code>table</code> khớp với lựa chọn <code>condition</code>.
 

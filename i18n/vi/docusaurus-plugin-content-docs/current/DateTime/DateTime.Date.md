@@ -5,8 +5,6 @@ title: DateTime.Date
 # DateTime.Date
 
 
-## Description
-
 Trả về thành phần ngày của giá trị date, datetime hoặc datetimezone cho sẵn.
 
 
@@ -19,7 +17,7 @@ DateTime.Date(
 ```
 
 
-## Details
+## Remarks
 
 Trả về cấu phần ngày của <code>dateTime</code>, giá trị <code>date</code>, <code>datetime</code> hoặc <code>datetimezone</code> cho sẵn.
 

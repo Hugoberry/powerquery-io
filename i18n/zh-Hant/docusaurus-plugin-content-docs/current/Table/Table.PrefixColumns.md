@@ -5,8 +5,6 @@ title: Table.PrefixColumns
 # Table.PrefixColumns
 
 
-## Description
-
 傳回資料表，其中所有資料行前面都已經加上指定的文字。
 
 
@@ -20,7 +18,7 @@ Table.PrefixColumns(
 ```
 
 
-## Details
+## Remarks
 
 傳回資料表，其中來自所提供之 <code>table</code> 的所有資料行名稱前面都以 <code><code>prefix</code>.ColumnName</code> 的格式加上指定的文字 <code>prefix</code> 與句號。
 

@@ -5,8 +5,6 @@ title: Record.FromTable
 # Record.FromTable
 
 
-## Description
-
 Maakt een record van een tabel in de notatie \{[Name = name, Value = value]}.
 
 
@@ -19,7 +17,7 @@ Record.FromTable(
 ```
 
 
-## Details
+## Remarks
 
 Retourneert een record van een tabel met records <code>table</code> die veld- en waardenamen <code>\{[Name = name, Value = value]}</code> bevatten. Er wordt een uitzondering gegenereerd als de veldnamen niet uniek zijn.
 

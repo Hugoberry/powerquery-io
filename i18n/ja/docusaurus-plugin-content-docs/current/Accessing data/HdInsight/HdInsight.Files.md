@@ -5,8 +5,6 @@ title: HdInsight.Files
 # HdInsight.Files
 
 
-## Description
-
 Azure ストレージ資格情報コンテナーの指定されたコンテナー内にある BLOB のプロパティとコンテンツを含むテーブルを返します。
 
 
@@ -20,7 +18,7 @@ HdInsight.Files(
 ```
 
 
-## Details
+## Remarks
 
 Azure ストレージ資格情報コンテナーのコンテナー URL <code>account</code> で見つかった各 BLOB ファイルの行を含むテーブルを返します。各行には、ファイルのプロパティとそのコンテンツへのリンクが含まれます。
 

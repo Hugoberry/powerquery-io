@@ -5,8 +5,6 @@ title: Table.Column
 # Table.Column
 
 
-## Description
-
 Devolve uma coluna especificada de dados a partir da tabela como uma lista.
 
 
@@ -20,7 +18,7 @@ Table.Column(
 ```
 
 
-## Details
+## Remarks
 
 Devolve a coluna de dados especificada por <code>column</code> a partir da tabela <code>table</code> como uma lista.
 

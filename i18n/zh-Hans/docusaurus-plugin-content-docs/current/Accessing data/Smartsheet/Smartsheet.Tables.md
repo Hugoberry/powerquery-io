@@ -5,8 +5,6 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-## Description
-
 从 Smartsheet API 返回包含工作表、报表、文件夹和工作区的表
 
 
@@ -19,7 +17,7 @@ Smartsheet.Tables(
 ```
 
 
-## Details
+## Remarks
 
 从 Smartsheet API 返回包含可用的工作表、报表、文件夹和工作区的嵌套表。
 

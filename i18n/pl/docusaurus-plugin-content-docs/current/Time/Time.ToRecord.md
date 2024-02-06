@@ -5,8 +5,6 @@ title: Time.ToRecord
 # Time.ToRecord
 
 
-## Description
-
 Zwraca rekord zawierający części wartości typu time.
 
 
@@ -19,7 +17,7 @@ Time.ToRecord(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca rekord zawierający części danej wartości typu time (<code>time</code>). <ul>        <li><code>time</code>: wartość typu <code>time</code>, na podstawie części której jest tworzony rekord.</li>      </ul>
 

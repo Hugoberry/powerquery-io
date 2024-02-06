@@ -5,8 +5,6 @@ title: Single.From
 # Single.From
 
 
-## Description
-
 Verilen değerden Tek değer oluşturur.
 
 
@@ -20,7 +18,7 @@ Single.From(
 ```
 
 
-## Details
+## Remarks
 
 Verilen <code>value</code> değerinden Single <code>number</code> değerini döndürür. Verilen <code>value</code> değeri <code>null</code> olduğunda <code>Single.From</code> <code>null</code> döndürür. Verilen <code>value</code> değeri Single aralığında <code>number</code> olduğunda <code>value</code> döndürülür; aksi takdirde hata döndürülür. Verilen <code>value</code> değeri başka bir türde olduğunda, önce <code>Number.FromText</code> kullanılarak <code>number</code> değerine dönüştürülür. Ayrıca, isteğe bağlı bir <code>culture</code> sağlanabilir (örneğin "tr-TR").
 

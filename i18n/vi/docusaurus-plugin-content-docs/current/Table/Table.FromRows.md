@@ -5,8 +5,6 @@ title: Table.FromRows
 # Table.FromRows
 
 
-## Description
-
 Tạo bảng từ danh sách giá trị hàng và cột tùy chọn
 
 
@@ -20,7 +18,7 @@ Table.FromRows(
 ```
 
 
-## Details
+## Remarks
 
 Tạo bảng từ danh sách <code>rows</code>, trong đó mỗi thành phần của danh sách là một danh sách bên trong có chứa giá trị cột của một hàng. Danh sách tùy chọn tên cột, loại bảng hoặc số cột có thể được cung cấp cho <code>columns</code>.
 

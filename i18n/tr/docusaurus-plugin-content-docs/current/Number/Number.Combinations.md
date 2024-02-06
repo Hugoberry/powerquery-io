@@ -5,8 +5,6 @@ title: Number.Combinations
 # Number.Combinations
 
 
-## Description
-
 Benzersiz birleşim sayısını döndürür.
 
 
@@ -20,7 +18,7 @@ Number.Combinations(
 ```
 
 
-## Details
+## Remarks
 
 <code>setSize</code> öğe listesinden <code>combinationSize</code> belirtilen birleşim boyutuna sahip benzersiz birleşim sayısını döndürür.<ul>    <li><code>setSize</code>: Listedeki öğe sayısı.</li>    <li><code>combinationSize</code>: Her birleşimdeki öğe sayısı.</li></ul>
 

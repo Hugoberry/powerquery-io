@@ -5,8 +5,6 @@ title: Table.DemoteHeaders
 # Table.DemoteHeaders
 
 
-## Description
-
 Przenosi nagłówki kolumn do pierwszego wiersza wartości.
 
 
@@ -19,7 +17,7 @@ Table.DemoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Przenosi nagłówki kolumn (tzn. nazwy kolumn) do pierwszego wiersza wartości. Domyślne nazwy kolumn to Kolumna1, Kolumna2 itd.
 

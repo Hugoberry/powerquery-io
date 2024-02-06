@@ -5,8 +5,6 @@ title: List.Zip
 # List.Zip
 
 
-## Description
-
 Returnerer en liste over lister ved at kombinere elementer på samme position i flere lister.
 
 
@@ -19,7 +17,7 @@ List.Zip(
 ```
 
 
-## Details
+## Remarks
 
 Tager en liste over lister, <code>lists</code>, og returnerer en liste over lister, der kombinerer elementer på samme position.
 

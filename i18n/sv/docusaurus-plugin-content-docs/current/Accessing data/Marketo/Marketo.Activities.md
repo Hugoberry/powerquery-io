@@ -5,8 +5,6 @@ title: Marketo.Activities
 # Marketo.Activities
 
 
-## Description
-
 Returnerar en tabell med huvudaktiviteter.
 
 
@@ -21,7 +19,7 @@ Marketo.Activities(
 ```
 
 
-## Details
+## Remarks
 
 Anropar Marketo REST API-slutpunkten på <code>url</code>/rest/v1/activities.json. Alla aktiviteter i listan <code>activityIds</code> som har inträffat sedan <code>startTime</code> returneras.
 

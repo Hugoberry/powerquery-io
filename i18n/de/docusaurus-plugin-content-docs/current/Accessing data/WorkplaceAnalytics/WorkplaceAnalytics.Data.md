@@ -18,7 +18,7 @@ WorkplaceAnalytics.Data(
 ```
 
 
-## Details
+## Remarks
 
 Hiermit werden wöchentliche Metrikdaten und Attributdaten aus Workplace Analytics importiert.
 

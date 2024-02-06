@@ -5,8 +5,6 @@ title: Table.PositionOf
 # Table.PositionOf
 
 
-## Description
-
 Возвращает позиции строки в таблице.
 
 
@@ -22,7 +20,7 @@ Table.PositionOf(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает позицию строки первого вхождения <code>table</code> в указанной <code>row</code>. Возвращает значение –1, если вхождение не найдено.    <ul>       <li><code>table</code>: входная таблица.</li>       <li><code>row</code>: строка в таблице, позиция которой должна быть найдена.</li>       <li><code>occurrence</code>: <i>[необязательно]</i> указывает, какие вхождения строки возвращать.</li>       <li><code>equationCriteria</code>: <i>[необязательно]</i> управляет сравнением строк таблицы.</li>    </ul>    
 

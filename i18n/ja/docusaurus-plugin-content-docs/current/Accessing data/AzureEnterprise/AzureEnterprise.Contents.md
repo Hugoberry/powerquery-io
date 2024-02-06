@@ -5,8 +5,6 @@ title: AzureEnterprise.Contents
 # AzureEnterprise.Contents
 
 
-## Description
-
 加入契約に関連付けられた Azure エンタープライズ REST API エンドポイントの URL を入力します
 
 
@@ -20,7 +18,7 @@ AzureEnterprise.Contents(
 ```
 
 
-## Details
+## Remarks
 
 Azure エンタープライズ API に指定された URL への呼び出しのバイナリの結果を返します。
 

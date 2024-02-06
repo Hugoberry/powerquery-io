@@ -5,8 +5,6 @@ title: Excel.Workbook
 # Excel.Workbook
 
 
-## Description
-
 Returnerer indholdet af Excel-projektmappen.
 
 
@@ -21,7 +19,7 @@ Excel.Workbook(
 ```
 
 
-## Details
+## Remarks
 
 Returnerer indholdet af Excel-projektmappen.    <ul>     <li> <code>useHeaders</code> kan være null, og en logisk værdi (true/false) angiver, om den første række i hver returneret tabel skal behandles som en overskrift eller en indstillingspost. (Se nedenfor for at få flere oplysninger om posten indstillinger). Standard: falsk.</li>     <li> <code>delayTypes</code> kan være null eller en logisk værdi (true/false), der angiver, om kolonnerne i de enkelte returnerede tabeller skal forblive uspecificeret. Standard: false.</li>    </ul>    Hvis der er angivet en post for <code>useHeaders</code> (og <code>delayTypes</code> er null), kan følgende postfelter angives:    <ul>     <li> <code>UseHeaders</code>: kan være null eller en logisk værdi (true/false), der angiver, om den første række i hver returneret tabel skal behandles som en overskrift. Standard: false.</li>     <li> <code>DelayTypes</code>: kan være null eller en logisk værdi (true/false), der angiver, om kolonnerne i de enkelte returnerede tabeller skal forblive uden type. Standard: false.</li>     <li> <code>InferSheetDimensions</code>: kan være null eller en logisk værdi (true/false), der angiver, om det område i et regneark, der indeholder data, skal udledes ved at læse selve regnearket i stedet for ved at læse metadata om dimensionerne fra filen. Dette kan være nyttigt i tilfælde, hvor metadata om dimensionerne er forkerte. Bemærk, at denne indstilling kun understøttes for åbne XML Excel-filer, ikke for ældre Excel-filer. Standard: false.</li>    </ul>    
 

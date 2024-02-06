@@ -5,8 +5,6 @@ title: Record.FieldOrDefault
 # Record.FieldOrDefault
 
 
-## Description
-
 Возвращает значение указанного поля в записи или значение по умолчанию, если поле не найдено.
 
 
@@ -21,7 +19,7 @@ Record.FieldOrDefault(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает значение указанного поля <code>field</code> в записи <code>record</code>. Если поле не найдено, то возвращается необязательное значение <code>defaultValue</code>.
 

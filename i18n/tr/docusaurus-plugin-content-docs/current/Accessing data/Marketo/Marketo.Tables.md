@@ -5,8 +5,6 @@ title: Marketo.Tables
 # Marketo.Tables
 
 
-## Description
-
 Hesabınızla ilişkili olan Marketo REST API uç noktasına ilişkin URL&#39;yi belirtin.
 
 
@@ -20,7 +18,7 @@ Marketo.Tables(
 ```
 
 
-## Details
+## Remarks
 
 İlgili Marketo verilerinin yer aldığı bir tablo döndürür.
 

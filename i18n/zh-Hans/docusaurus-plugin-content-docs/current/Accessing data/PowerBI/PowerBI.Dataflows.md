@@ -15,7 +15,7 @@ PowerBI.Dataflows(
 ```
 
 
-## Details
+## Remarks
 
 连接到有权访问的所有 Power BI 数据流，并选择要使用的实体。
 

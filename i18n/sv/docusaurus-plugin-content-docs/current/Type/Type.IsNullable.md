@@ -5,8 +5,6 @@ title: Type.IsNullable
 # Type.IsNullable
 
 
-## Description
-
 Returnerar sant om en typ är en nullbar typ; i annat fall returneras falskt.
 
 
@@ -19,7 +17,7 @@ Type.IsNullable(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar <code>true</code> om typen är en <code>nullable</code> typ; i annat fall returneras <code>false</code>.
 

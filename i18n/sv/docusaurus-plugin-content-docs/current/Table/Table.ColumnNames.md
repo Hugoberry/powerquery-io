@@ -5,8 +5,6 @@ title: Table.ColumnNames
 # Table.ColumnNames
 
 
-## Description
-
 Returnerar kolumnnamnen som en lista.
 
 
@@ -19,7 +17,7 @@ Table.ColumnNames(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar kolumnnamnen i tabellen <code>table</code> som en lista med text.
 

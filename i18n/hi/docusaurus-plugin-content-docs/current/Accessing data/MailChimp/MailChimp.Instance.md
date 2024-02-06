@@ -5,8 +5,6 @@ title: MailChimp.Instance
 # MailChimp.Instance
 
 
-## Description
-
 MailChimp API समाप्ति बिंदु से अपरिष्कृत प्रतिसाद परिणाम लौटाता है.
 
 
@@ -19,7 +17,7 @@ MailChimp.Instance(
 ```
 
 
-## Details
+## Remarks
 
 MailChimp API को कॉल करता है और अपरिष्कृत प्रतिसाद लौटाता है.
 

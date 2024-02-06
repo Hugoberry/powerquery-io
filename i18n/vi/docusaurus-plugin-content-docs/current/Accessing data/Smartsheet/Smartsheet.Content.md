@@ -5,8 +5,6 @@ title: Smartsheet.Content
 # Smartsheet.Content
 
 
-## Description
-
 Trả về bảng bao gồm dữ liệu từ điểm cuối chỉ mục Smartsheet.
 
 
@@ -19,7 +17,7 @@ Smartsheet.Content(
 ```
 
 
-## Details
+## Remarks
 
 Gọi đến API REST Smartsheet 2.0 tại điểm cuối được chỉ định và chuyển đổi phần tử dữ liệu được trả về thành bảng.
 

@@ -5,8 +5,6 @@ title: Table.ReorderColumns
 # Table.ReorderColumns
 
 
-## Description
-
 Возвращает таблицу со столбцами в указанном порядке.
 
 
@@ -21,7 +19,7 @@ Table.ReorderColumns(
 ```
 
 
-## Details
+## Remarks
 
 Возвращает таблицу из входных данных <code>table</code> со столбцами в порядке, указанном в <code>columnOrder</code>. Порядок столбцов, не включенных в список, не будет изменен.     Для несуществующего столбца возникает исключение, если необязательный параметр <code>missingField</code> не указывает дополнительное действие (например, <code>MissingField.UseNull</code> или <code>MissingField.Ignore</code>).
 

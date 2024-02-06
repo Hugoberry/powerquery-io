@@ -5,8 +5,6 @@ title: List.Max
 # List.Max
 
 
-## Description
-
 Retornará o valor máximo ou o valor padrão, se a lista estiver vazia.
 
 
@@ -22,7 +20,7 @@ List.Max(
 ```
 
 
-## Details
+## Remarks
 
 Retorna o item máximo da lista <code>list</code> ou o valor padrão <code>default</code> opcional, caso a lista esteja vazia.    Um valor opcional de comparisonCriteria, <code>comparisonCriteria</code>, pode ser especificado para determinar como comparar os itens na lista. Se esse parâmetro for nulo, o comparador padrão será usado.
 

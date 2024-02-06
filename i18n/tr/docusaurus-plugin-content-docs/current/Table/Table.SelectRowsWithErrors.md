@@ -5,8 +5,6 @@ title: Table.SelectRowsWithErrors
 # Table.SelectRowsWithErrors
 
 
-## Description
-
 Girdi tablosunun yalnızca hücrelerinin en az birinde hata içeren satırları içeren tablosunu döndürür. Bir sütun listesi belirtilirse, yalnızca belirtilen sütunlardaki hücrelerde hata olup olmadığı denetlenir.
 
 
@@ -20,7 +18,7 @@ Table.SelectRowsWithErrors(
 ```
 
 
-## Details
+## Remarks
 
 Girdi tablosunun yalnızca hücrelerinin en az birinde hata içeren satırları içeren tablosunu döndürür. Bir sütun listesi belirtilirse, yalnızca belirtilen sütunlardaki hücrelerde hata olup olmadığı denetlenir.
 

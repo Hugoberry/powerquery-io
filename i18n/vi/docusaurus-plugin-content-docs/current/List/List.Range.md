@@ -5,8 +5,6 @@ title: List.Range
 # List.Range
 
 
-## Description
-
 Trả về tập hợp con của danh sách bắt đầu tại phần bù.
 
 
@@ -21,7 +19,7 @@ List.Range(
 ```
 
 
-## Details
+## Remarks
 
 Trả về tập hợp con của danh sách bắt đầu tại phần bù <code>list</code>. Một tham số tùy chọn là <code>offset</code> đặt số lượng mục tối đa trong tập hợp con.
 

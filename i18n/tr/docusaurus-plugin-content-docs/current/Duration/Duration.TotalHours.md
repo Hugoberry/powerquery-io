@@ -5,8 +5,6 @@ title: Duration.TotalHours
 # Duration.TotalHours
 
 
-## Description
-
 Bu sürenin kapsadığı toplam saati döndürür.
 
 
@@ -19,7 +17,7 @@ Duration.TotalHours(
 ```
 
 
-## Details
+## Remarks
 
 <code>duration</code> değerine yayılan toplam saati döndürür.
 

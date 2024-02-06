@@ -5,8 +5,6 @@ title: Text.Format
 # Text.Format
 
 
-## Description
-
 從格式字串和引數傳回格式化文字。
 
 
@@ -21,7 +19,7 @@ Text.Format(
 ```
 
 
-## Details
+## Remarks
 
 傳回從清單或記錄將 <code>arguments</code> 套用至格式字串 <code>formatString</code> 而建立的格式化文字。也可提供選用的 <code>culture</code> (例如 "en-US")。
 

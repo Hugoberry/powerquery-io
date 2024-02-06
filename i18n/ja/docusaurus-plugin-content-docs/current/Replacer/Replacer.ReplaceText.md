@@ -5,8 +5,6 @@ title: Replacer.ReplaceText
 # Replacer.ReplaceText
 
 
-## Description
-
 指定された入力内のテキストを置き換えます。
 
 
@@ -21,7 +19,7 @@ Replacer.ReplaceText(
 ```
 
 
-## Details
+## Remarks
 
 元の <code>text</code> 内の <code>old</code> テキストを <code>new</code> テキストに置き換えます。この置換関数は、<code>List.ReplaceValue</code> および <code>Table.ReplaceValue</code> で使用できます。
 

@@ -5,8 +5,6 @@ title: Table.AddIndexColumn
 # Table.AddIndexColumn
 
 
-## Description
-
 使用显式位置值追加列。
 
 
@@ -23,7 +21,7 @@ Table.AddIndexColumn(
 ```
 
 
-## Details
+## Remarks
 
 使用显式位置值将名为 <code>newColumnName</code> 的列追加到 <code>table</code>。    可选值 <code>initialValue</code> 为初始索引值。可选值 <code>increment</code> 指定每个索引值的增量值。
 

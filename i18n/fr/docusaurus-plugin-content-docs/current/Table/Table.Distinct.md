@@ -5,8 +5,6 @@ title: Table.Distinct
 # Table.Distinct
 
 
-## Description
-
 Supprime les doublons de lignes de la table.
 
 
@@ -20,7 +18,7 @@ Table.Distinct(
 ```
 
 
-## Details
+## Remarks
 
 Supprime les lignes dupliquées de la table.    Un paramètre facultatif, <code>equationCriteria</code>, spécifie les colonnes de la table testées pour la duplication. Si <code>equationCriteria</code> n’est pas spécifié, toutes les colonnes sont testées.<br />    <br />    Parce que Power Query décharge parfois certaines opérations sur des sources de données de back-end (appelées " pliage ") et optimise parfois les requêtes en     ignorant les opérations qui ne sont pas strictement nécessaires. En général, il n’existe aucune garantie de conservation des doublons spécifiques.    Par exemple, vous ne pouvez pas supposer que la première ligne avec un ensemble unique de valeurs de colonnes reste et que les lignes plus bas dans la table sont supprimées.    Si vous voulez que la suppression des doublons se comporte de manière prévisible, commencez par mettre la table en mémoire tampon à l’aide de <code>Table.Buffer</code>.
 

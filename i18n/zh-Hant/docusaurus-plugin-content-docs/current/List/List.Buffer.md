@@ -5,8 +5,6 @@ title: List.Buffer
 # List.Buffer
 
 
-## Description
-
 緩衝清單。
 
 
@@ -19,7 +17,7 @@ List.Buffer(
 ```
 
 
-## Details
+## Remarks
 
 將清單 <code>list</code> 緩衝在記憶體中。這個呼叫的結果是穩定的清單。
 

@@ -5,8 +5,6 @@ title: Table.ReplaceMatchingRows
 # Table.ReplaceMatchingRows
 
 
-## Description
-
 Sostituisce tutte le righe specificate con le righe fornite.
 
 
@@ -21,7 +19,7 @@ Table.ReplaceMatchingRows(
 ```
 
 
-## Details
+## Remarks
 
 Sostituisce tutte le righe specificate in <code>table</code> con le righe fornite. Le righe da sostituire e le sostituzioni vengono specificate in <code>replacements</code>, usando il formato \{old, new}.    Facoltativamente, è possibile specificare il parametro <code>equationCriteria</code> per controllare il confronto tra le righe della tabella.
 

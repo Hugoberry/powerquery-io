@@ -5,8 +5,6 @@ title: Table.DemoteHeaders
 # Table.DemoteHeaders
 
 
-## Description
-
 Degrada los encabezados de columna a la primera fila de valores.
 
 
@@ -19,7 +17,7 @@ Table.DemoteHeaders(
 ```
 
 
-## Details
+## Remarks
 
 Degrada los encabezados de columna (es decir, los nombres de columna) a la primera fila de valores. Los nombres de columna predeterminados son "Columna1", "Columna2" etc.
 

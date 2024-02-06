@@ -5,8 +5,6 @@ title: Table.IsDistinct
 # Table.IsDistinct
 
 
-## Description
-
 Angiver, om tabellen kun indeholder entydige rækker (ingen dubletter).
 
 
@@ -20,7 +18,7 @@ Table.IsDistinct(
 ```
 
 
-## Details
+## Remarks
 
 Angiver, om <code>table</code> kun indeholder entydige rækker (ingen dubletter). Returnerer <code>true</code>, hvis rækkerne er entydige. Ellers returneres <code>false</code>.    En valgfri parameter, <code>comparisonCriteria</code>, angiver, hvilke kolonner i tabellen der skal undersøges for dubletter. Hvis <code>comparisonCriteria</code> ikke er angivet, undersøges alle kolonner.
 

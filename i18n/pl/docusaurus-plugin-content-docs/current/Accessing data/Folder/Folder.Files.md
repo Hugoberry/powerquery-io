@@ -5,8 +5,6 @@ title: Folder.Files
 # Folder.Files
 
 
-## Description
-
 Zwraca tabelę zawierającą właściwości i zawartość plików znalezionych w określonym folderze i jego podfolderach.
 
 
@@ -20,7 +18,7 @@ Folder.Files(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę zawierającą wiersz odpowiadający każdemu plikowi znalezionemu w folderze <code>path</code> i w jego wszystkich podfolderach. Każdy wiersz zawiera właściwości pliku oraz link do ich zawartości. Parametr <code>options</code> jest obecnie przeznaczony do użytku wewnętrznego.
 

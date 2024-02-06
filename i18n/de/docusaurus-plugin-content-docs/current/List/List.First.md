@@ -5,8 +5,6 @@ title: List.First
 # List.First
 
 
-## Description
-
 Gibt den ersten Wert der Liste zurück. Ist die Liste leer, wird der angegebene Standardwert zurückgegeben.
 
 
@@ -20,7 +18,7 @@ List.First(
 ```
 
 
-## Details
+## Remarks
 
 Gibt das erste Element in der Liste "<code>list</code>" zurück. Ist die Liste leer, wird der optionale Standardwert "<code>defaultValue</code>" zurückgegeben.    Ist die Liste leer und kein Standardwert angegeben, gibt die Funktion <code>null</code> zurück.
 

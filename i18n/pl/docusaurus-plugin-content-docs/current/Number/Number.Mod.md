@@ -5,8 +5,6 @@ title: Number.Mod
 # Number.Mod
 
 
-## Description
-
 Dzieli dwie liczby i zwraca resztę z dzielenia.
 
 
@@ -21,7 +19,7 @@ Number.Mod(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca resztę z dzielenia liczby <code>number</code> przez liczbę <code>divisor</code>.    Jeśli liczba <code>number</code> lub <code>divisor</code> jest równa null, funkcja <code>Number.Mod</code> zwraca wartość null.      <ul>        <li><code>number</code>: Dzielna.</li>        <li><code>divisor</code>: Dzielnik.</li>      </ul>
 

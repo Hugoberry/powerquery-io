@@ -5,8 +5,6 @@ title: Projectplace.Feed
 # Projectplace.Feed
 
 
-## Description
-
 Voer de URL van uw Planview Projectplace-account in.
 
 
@@ -19,7 +17,7 @@ Projectplace.Feed(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tabel met de relevante Planview Projectplace-gegevens geretourneerd.
 

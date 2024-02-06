@@ -5,8 +5,6 @@ title: Table.AggregateTableColumn
 # Table.AggregateTableColumn
 
 
-## Description
-
 Gộp một cột của các bảng thành nhiều cột trong bảng chứa.
 
 
@@ -21,7 +19,7 @@ Table.AggregateTableColumn(
 ```
 
 
-## Details
+## Remarks
 
 Gộp các bảng trong <code>table</code>[<code>column</code>] thành nhiều cột chứa các giá trị gộp cho các bảng. <code>aggregations</code> được dùng để chỉ định các cột chứa các bảng sẽ tính gộp, các hàm tính gộp để áp dụng cho các bảng để tạo giá trị của các bảng đó và tên của các cột tính gộp sẽ tạo.
 

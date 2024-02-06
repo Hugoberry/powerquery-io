@@ -5,8 +5,6 @@ title: Dynamics365BusinessCentral.ApiContentsWithOptions
 # Dynamics365BusinessCentral.ApiContentsWithOptions
 
 
-## Description
-
 Voer uw Dynamics 365 Business Central-omgeving en bedrijf in.
 
 
@@ -22,7 +20,7 @@ Dynamics365BusinessCentral.ApiContentsWithOptions(
 ```
 
 
-## Details
+## Remarks
 
 Hiermee wordt een tabel met relevante Dynamics 365 Business Central-gegevens geretourneerd. 
 

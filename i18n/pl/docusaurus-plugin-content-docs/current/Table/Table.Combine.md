@@ -5,8 +5,6 @@ title: Table.Combine
 # Table.Combine
 
 
-## Description
-
 Zwraca tabelę będącą wynikiem scalenia listy tabel.
 
 
@@ -20,7 +18,7 @@ Table.Combine(
 ```
 
 
-## Details
+## Remarks
 
 Zwraca tabelę będącą wynikiem scalenia listy tabel, <code>tables</code>. Wynikowa tabela będzie mieć strukturę typu wierszy zdefiniowaną przez element <code>columns</code> lub przez zbiór typów wejściowych, jeśli element <code>columns</code> nie jest zdefiniowany.
 

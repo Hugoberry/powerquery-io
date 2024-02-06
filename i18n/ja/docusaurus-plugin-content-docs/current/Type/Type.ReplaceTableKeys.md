@@ -5,8 +5,6 @@ title: Type.ReplaceTableKeys
 # Type.ReplaceTableKeys
 
 
-## Description
-
 すべてのキーが指定された一連のキーに置き換えられた新しいテーブル型を返します。
 
 
@@ -20,7 +18,7 @@ Type.ReplaceTableKeys(
 ```
 
 
-## Details
+## Remarks
 
 すべてのキーが指定された一連のキーに置き換えられた新しいテーブル型を返します。<br />    <br />    各キーは、次の形式のレコードを使用して定義されます。    <ul>      <li>        <code>Columns</code>: キーを定義する列名の一覧      </li>      <li>        <code>Primary</code>: キーがテーブルのプライマリ キーの場合は <code>true</code>、それ以外の場合は <code>false</code>    </li>      </ul>    指定されたキーの一覧は、プライマリ キーが 1 つ以上定義されておらず、すべてのキー列名がテーブル型に存在することを確認するために検証されます。    
 

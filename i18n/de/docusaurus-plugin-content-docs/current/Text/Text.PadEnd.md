@@ -5,8 +5,6 @@ title: Text.PadEnd
 # Text.PadEnd
 
 
-## Description
-
 Gibt Text mit einer bestimmten Länge zurück. Hierzu wird das Ende des angegebenen Texts aufgefüllt.
 
 
@@ -21,7 +19,7 @@ Text.PadEnd(
 ```
 
 
-## Details
+## Remarks
 
 Gibt einen <code>text</code>-Wert zurück, der durch Einfügen von Leerzeichen am Ende des Textwerts "<code>text</code>" auf die Länge <code>count</code> aufgefüllt wird.    Das zum Auffüllen verwendete Zeichen kann mithilfe eines optionalen Zeichens (<code>character</code>) angegeben werden. Das standardmäßige Auffüllzeichen ist ein Leerzeichen.
 

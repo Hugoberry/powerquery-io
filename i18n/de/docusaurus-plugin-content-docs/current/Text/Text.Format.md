@@ -5,8 +5,6 @@ title: Text.Format
 # Text.Format
 
 
-## Description
-
 Gibt formatierten Text aus einer Formatzeichenfolge und Argumenten zurück.
 
 
@@ -21,7 +19,7 @@ Text.Format(
 ```
 
 
-## Details
+## Remarks
 
 Gibt formatierten Text zurück, der durch das Anwenden von <code>arguments</code> aus einer Liste oder einem Datensatz auf eine Formatzeichenfolge <code>formatString</code> angewendet wird. Optional kann auch ein Element vom Typ "<code>culture</code>" angegeben werden (Beispiel: "de-DE").
 

@@ -5,8 +5,6 @@ title: List.StandardDeviation
 # List.StandardDeviation
 
 
-## Description
-
 Returnerar en sampelbaserad uppskattning av standardavvikelsen.
 
 
@@ -19,7 +17,7 @@ List.StandardDeviation(
 ```
 
 
-## Details
+## Remarks
 
 Returnerar en sampelbaserad uppskattning av standardavvikelsen för värden i listan <code>numbersList</code>.    Om <code>numbersList</code> är en lista med tal returneras ett tal.    Ett undantag genereras för en tom lista eller en lista med objekt som inte har typen <code>number</code>.
 
