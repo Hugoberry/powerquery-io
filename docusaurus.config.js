@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import 'dotenv/config';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -64,7 +65,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/powerquery-social-card.png',
       navbar: {
         title: 'PowerQuery.io',
         logo: {
@@ -80,7 +81,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} PowerQuery.io. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} PowerQuery.io. All content is provided as is. Information is based on Microsoft's documentation and belongs to Microsoft Corp.`,
       },
       prism: {
         theme: prismThemes.github,
@@ -89,7 +90,7 @@ const config = {
       },
       algolia:{
         appId: '3PZMY1RNB7',
-        apiKey: 'db2e8c501641faae4ffa03a6fc204ce7',
+        apiKey: process.env.ALGOLIA_API_KEY,
         indexName: 'powerquery',
         contextualSearch: true,
       }

@@ -2,11 +2,17 @@
 sidebar_position: 1
 hide_title: true
 pagination_next: null
+title: Discover the language
 ---
 
 # About
-
 The Power Query M formula language is optimized for building highly flexible data mashup queries. It's a functional, case sensitive language similar to F#. Power Query Formula Language is used in a number of Microsoft products such as Power BI Desktop, Excel, and Analysis Services. 
+
+This site stands as a reference for Power Query functions, offering quick and direct access to detailed information and practical examples for each function.
+
+Please note, the author does not claim any copyright rights over the materials presented on this site. The information is collected and provided in the hope that it will be useful for those looking to expand their knowledge and application of Power Query.
+
+For those interested in deeper exploration or implementation details, further information can be found in the following GitHub repository: [https://github.com/Hugoberry/powerquery-io](https://github.com/Hugoberry/powerquery-io). This repository may contain additional examples, updates, and resources relevant to Power Query development and usage.
 
 
 ## Power Query M language specification
