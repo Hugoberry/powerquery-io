@@ -9,8 +9,8 @@ import 'dotenv/config';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'PowerQuery.io',
-  tagline: 'PoweerQuery/M language reference',
+  title: 'Power Query',
+  tagline: 'PowerQuery/M language reference',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -20,6 +20,7 @@ const config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  titleDelimiter: '-',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
