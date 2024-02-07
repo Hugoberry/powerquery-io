@@ -1,10 +1,10 @@
 {
-  "Logical functions": {
+  "logical functions": {
     "Logical.From": "Returns a logical value from a value.",
     "Logical.FromText": "Returns a logical value of true or false from a text value.",
     "Logical.ToText": "Returns a text value from a logical value."
   },
-  "List functions": {
+  "list functions": {
     "Information": {
       "List.Count": "Returns the number of items in a list.",
       "List.NonNullCount": "Returns the number of items in a list excluding null values",
@@ -97,18 +97,18 @@
       "List.Times": "Returns a list of time values of size count, starting at start."
     }
   },
-  "Lines functions": {
+  "lines functions": {
     "Lines.FromBinary": "Converts a binary value to a list of text values split at lines breaks.",
     "Lines.FromText": "Converts a text value to a list of text values split at lines breaks.",
     "Lines.ToBinary": "Converts a list of text into a binary value using the specified encoding and lineSeparator. The specified lineSeparator is appended to each line. If not specified then the carriage return and line feed characters are used.",
     "Lines.ToText": "Converts a list of text into a single text. The specified lineSeparator is appended to each line. If not specified then the carriage return and line feed characters are used."
   },
-  "Expression functions": {
+  "expression functions": {
     "Expression.Constant": "Returns the M source code representation of a constant value.",
     "Expression.Evaluate": "Returns the result of evaluating an M expression.",
     "Expression.Identifier": "Returns the M source code representation of an identifier."
   },
-  "Duration functions": {
+  "duration functions": {
     "Duration.Days": "Returns the days portion of a duration.",
     "Duration.From": "Returns a duration value from a value.",
     "Duration.FromText": "Returns a Duration value from a text value.",
@@ -122,7 +122,7 @@
     "Duration.TotalSeconds": "Returns the total magnitude of seconds from a duration value.",
     "Duration.ToText": "Returns a text value from a Duration value."
   },
-  "DateTimeZone functions": {
+  "date-time-zone functions": {
     "DateTimeZone.FixedLocalNow": "Returns a DateTimeZone value set to the current date, time, and timezone offset on the system.",
     "DateTimeZone.FixedUtcNow": "Returns the current date and time in UTC (the GMT timezone).",
     "DateTimeZone.From": "Returns a datetimezone value from a value.",
@@ -139,7 +139,7 @@
     "DateTimeZone.ZoneHours": "Returns a time zone hour value from a DateTime value.",
     "DateTimeZone.ZoneMinutes": "Returns a time zone minute value from a DateTime value."
   },
-  "DateTime functions": {
+  "date-time functions": {
     "DateTime.AddZone": "Adds timezone information to the datetime value.",
     "DateTime.Date": "Returns a date part from a DateTime value.",
     "DateTime.FixedLocalNow": "Returns a DateTime value set to the current date and time on the system.",
@@ -166,7 +166,7 @@
     "DateTime.ToRecord": "Returns a record containing parts of a DateTime value.",
     "DateTime.ToText": "Returns a text value from a DateTime value."
   },
-  "Date functions": {
+  "date functions": {
     "Date.AddDays": "Returns a Date/DateTime/DateTimeZone value with the day portion incremented by the number of days provided. It also handles incrementing the month and year portions of the value as appropriate.",
     "Date.AddMonths": "Returns a DateTime value with the month portion incremented by n months.",
     "Date.AddQuarters": "Returns a Date/DateTime/DateTimeZone value incremented by the number of quarters provided. Each quarter is defined as a duration of three months. It also handles incrementing the year portion of the value as appropriate.",
@@ -225,20 +225,20 @@
     "Date.WeekOfYear": "Returns a number for the count of week in the current year.",
     "Date.Year": "Returns the year from a DateTime value."
   },
-  "Comparer functions": {
+  "comparer functions": {
     "Comparer.Equals": "Returns a logical value based on the equality check over the two given values.",
     "Comparer.FromCulture": "Returns a comparer function based on the specified culture and case-sensitivity.",
     "Comparer.Ordinal": "Returns a comparer function which uses Ordinal rules to compare values.",
     "Comparer.OrdinalIgnoreCase": "Returns a case-insensitive comparer function which uses Ordinal rules to compare the provided values x and y."
   },
-  "Combiner functions": {
+  "combiner functions": {
     "Combiner.CombineTextByDelimiter": "Returns a function that combines a list of text using the specified delimiter.",
     "Combiner.CombineTextByEachDelimiter": "Returns a function that combines a list of text using a sequence of delimiters.",
     "Combiner.CombineTextByLengths": "Returns a function that combines a list of text using the specified lengths.",
     "Combiner.CombineTextByPositions": "Returns a function that combines a list of text using the specified output positions.",
     "Combiner.CombineTextByRanges": "Returns a function that combines a list of text using the specified positions and lengths."
   },
-  "Binary functions": {
+  "binary functions": {
     "Binary Formats": {
       "Reading numbers": {
         "BinaryFormat.7BitEncodedSignedInteger": "A binary format that reads a 64-bit signed integer that was encoded using a 7-bit variable-length encoding.",
@@ -288,7 +288,7 @@
       "Binary.ViewFunction": "Creates a function that can be intercepted by a handler defined on a view."
     }
   },
-  "Text functions": {
+  "text functions": {
     "Information": {
       "Text.InferNumberType": "Infers the granular number type (Int64.Type, Double.Type, and so on) of a number encoded in text.",
       "Text.Length": "Returns the number of characters in a text value."
@@ -348,7 +348,7 @@
       "Text.Upper": "Returns the uppercase of a text value."
     }
   },
-  "Splitter functions": {
+  "splitter functions": {
     "Splitter.SplitByNothing": "Returns a function that does no splitting, returning its argument as a single element list.",
     "Splitter.SplitTextByCharacterTransition": "Returns a function that splits text into a list of text according to a transition from one kind of character to another.",
     "Splitter.SplitTextByAnyDelimiter": "Returns a function that splits text by any supported delimiter.",
@@ -360,11 +360,11 @@
     "Splitter.SplitTextByRepeatedLengths": "Returns a function that splits text into a list of text after the specified length repeatedly.",
     "Splitter.SplitTextByWhitespace": "Returns a function that splits text according to whitespace."
   },
-  "Replacer functions": {
+  "replacer functions": {
     "Replacer.ReplaceText": "This function be provided to **List.ReplaceValue** or **Table.ReplaceValue** to do replace of text values in list and table values respectively.",
     "Replacer.ReplaceValue": "This function be provided to **List.ReplaceValue** or **Table.ReplaceValue** to do replace values in list and table values respectively."
   },
-  "Time functions": {
+  "time functions": {
     "Time.EndOfHour": "Returns the end of the hour.",
     "Time.From": "Returns a time value from a value.",
     "Time.FromText": "Creates a Time from local, universal, and custom Time formats.",
@@ -375,13 +375,13 @@
     "Time.ToRecord": "Returns a record containing parts of a Date value.",
     "Time.ToText": "Returns a text value from a Time value."
   },
-  "Uri functions": {
+  "uri functions": {
     "Uri.BuildQueryString": "Assemble a record into a URI query string.",
     "Uri.Combine": "Returns a Uri based on the combination of the base and relative parts.",
     "Uri.EscapeDataString": "Encodes special characters in accordance with RFC 3986.",
     "Uri.Parts": "Returns a record value with the fields set to the parts of a Uri text value."
   },
-  "Record functions": {
+  "record functions": {
     "Information": {
       "Record.FieldCount": "Returns the number of fields in a record.",
       "Record.HasFields": "Returns true if the field name or field names are present in a record."
@@ -414,7 +414,7 @@
       "Record.ToTable": "Returns a table of records containing field names and values from an input record."
     }
   },
-  "Number functions": {
+  "number functions": {
     "Information": {
       "Number.IsEven": "Returns true if a value is an even number.",
       "Number.IsNaN": "Returns true if a value is Number.NaN.",
@@ -482,7 +482,7 @@
       "Number.BitwiseXor": "Returns the result of a bitwise XOR operation on the provided operands."
     }
   },
-  "Value functions": {
+  "value functions": {
     "General Operations": {
       "Value.Alternates": "Expresses alternate query plans.",
       "Value.Compare": "Returns -1, 0, or 1 based on whether the first value is less than, equal to, or greater than the second.",
@@ -530,7 +530,7 @@
       "Value.Traits": "This function is intended for internal use only."
     }
   },
-  "Type functions": {
+  "type functions": {
     "Type.AddTableKey": "Add a key to a table type.",
     "Type.ClosedRecord": "The given type must be a record type returns a closed version of the given record type (or the same type, if it is already closed)",
     "Type.Facets": "Returns the facets of a type.",
@@ -554,7 +554,7 @@
     "Type.TableSchema": "Returns a table containing a description of the columns (i.e., the schema) of the specified table type.",
     "Type.Union": "Returns the union of a list of types."
   },
-  "Table functions": {
+  "table functions": {
     "Table construction": {
       "ItemExpression.From": "Returns the abstract syntax tree (AST) for the body of a function.",
       "ItemExpression.Item": "An abstract syntax tree (AST) node representing the item in an item expression.",
@@ -692,7 +692,7 @@
       "Table.StopFolding": ""
     }
   },
-  "Accessing data functions": {
+  "accessing-data functions": {
     "AccessControlEntry.ConditionToIdentities": "Returns a list of identities that the condition will accept.",
     "Access.Database": "Returns a structural representation of a Microsoft Access database.",
     "ActiveDirectory.Domains": "Returns a list of Active Directory domains in the same forest as the specified domain or of the current machine's domain if none is specified.",
@@ -1021,7 +1021,7 @@
     "ZohoCreator.Contents":"",
     "Zucchetti.Contents":""
   },
-  "Function values": {
+  "function values": {
     "Function.From": "Takes a unary function `function` and creates a new function with the type `functionType` that constructs a list out of its arguments and passes it to `function`.",
     "Function.Invoke": "Invokes the given function using the specified and returns the result.",
     "Function.InvokeAfter": "Returns the result of invoking function after duration delay has passed.",
@@ -1029,13 +1029,13 @@
     "Function.IsDataSource": "Returns whether or not function is considered a data source.",
     "Function.ScalarVector": "Returns a scalar function of type scalarFunctionType that invokes vectorFunction with a single row of arguments and returns its single output."
   },
-  "Diagnostics functions": {
+  "diagnostics functions": {
     "Diagnostics.ActivityId": "Returns an opaque identifier for the currently-running evaluation.",
     "Diagnostics.CorrelationId": "Returns an opaque identifier to correlate incoming requests with outgoing ones.",
     "Diagnostics.Trace": "Writes a trace message, if tracing is enabled, and returns value.",
     "Error.Record": "Returns a record containing fields **Reason**, **Message**, and **Detail** set to the provided values. The record can be used to raise or throw an error."
   },
-  "AI functions": {
+  "ai functions": {
     "AI.ExecuteInProc": "",
     "AI.ExecuteInternal": "",
     "AI.ExternalSort": "",
@@ -1050,7 +1050,7 @@
     "AIInsights.Contents": "",
     "AIInsights.ContentsGenerator": ""
   },
-  "Other functions":{
+  "other functions":{
     "Resource.Access":"",
     "Value.ResourceExpression":""
   }
