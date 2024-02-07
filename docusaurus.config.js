@@ -79,6 +79,10 @@ const config = {
           }
         ],
       },
+      metadata: 
+        [
+          {name: 'keywords', content: 'PowerQuery, M language, M language reference, PowerQuery reference, PowerQuery documentation'},
+        ],
       footer: {
         style: 'dark',
         copyright: `© ${new Date().getFullYear()} PowerQuery.io. All content is provided as is. Information is based on Microsoft's documentation and belongs to Microsoft Corp.`,
