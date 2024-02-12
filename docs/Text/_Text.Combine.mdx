@@ -1,0 +1,31 @@
+## More examples
+
+### Reverse Uri.Parts
+This function constructs a full URL based on individual fields in the record.
+```powerquery {6}
+Uri.FromParts = (parts) =>
+    let
+        port = if (parts[Scheme] = "https" and parts[Port] = 443) or (parts[Scheme] = "http" and parts[Port] = 80) then "" else ":" & Text.From(parts[Port]),
+        div1 = if Record.FieldCount(parts[Query]) > 0 then "?" else "",
+        div2 = if Text.Length(parts[Fragment]) > 0 then "#" else "",
+        uri = Text.Combine({parts[Scheme], "://", parts[Host], port, parts[Path], div1, Uri.BuildQueryString(parts[Query]), div2, parts[Fragment]})
+    in
+        uri;
+```
+
+### Web.Curl
+
+Get a curl command string for a given url and options (as used in Web.Contents()) for debugging purposes.
+```powerquery {7,8}
+(url as text, optional options as record) as text =>
+let
+    query = options[Query],
+    headers = options[Headers],
+    qList = List.Transform(Record.FieldNames(query), each _ & "=" & Record.Field(query, _)),
+    hList = List.Transform(Record.FieldNames(headers), each " -H """ & _ & ": " & Record.Field(headers, _) & """"),
+    qJoined = try "?" & Text.Combine(qList, "&") otherwise "",
+    hJoined = try Text.Combine(hList, "") otherwise "",
+    Return = "curl """ & url & qJoined & """" & hJoined & " -v"
+in
+    Return
+```

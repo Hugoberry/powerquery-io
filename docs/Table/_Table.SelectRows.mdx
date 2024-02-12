@@ -1,0 +1,95 @@
+## More examples
+
+### SchemaTransformTable
+```powerquery {15,17}
+EnforceSchema.Strict = 1;               // Add any missing columns, remove extra columns, set table type
+EnforceSchema.IgnoreExtraColumns = 2;   // Add missing columns, do not remove extra columns
+EnforceSchema.IgnoreMissingColumns = 3; // Do not add or remove columns
+
+SchemaTransformTable = (table as table, schema as table, optional enforceSchema as number) as table =>
+    let
+        // Default to EnforceSchema.Strict
+        _enforceSchema = if (enforceSchema <> null) then enforceSchema else EnforceSchema.Strict,
+
+        // Applies type transforms to a given table
+        EnforceTypes = (table as table, schema as table) as table =>
+            let
+                map = (t) => if Type.Is(t, type list) or Type.Is(t, type record) or t = type any then null else t,
+                mapped = Table.TransformColumns(schema, {"Type", map}),
+                omitted = Table.SelectRows(mapped, each [Type] <> null),
+                existingColumns = Table.ColumnNames(table),
+                removeMissing = Table.SelectRows(omitted, each List.Contains(existingColumns, [Name])),
+                primativeTransforms = Table.ToRows(removeMissing),
+                changedPrimatives = Table.TransformColumnTypes(table, primativeTransforms)
+            in
+                changedPrimatives,
+
+        // Returns the table type for a given schema
+        SchemaToTableType = (schema as table) as type =>
+            let
+                toList = List.Transform(schema[Type], (t) => [Type=t, Optional=false]),
+                toRecord = Record.FromList(toList, schema[Name]),
+                toType = Type.ForRecord(toRecord, false)
+            in
+                type table (toType),
+
+        // Determine if we have extra/missing columns.
+        // The enforceSchema parameter determines what we do about them.
+        schemaNames = schema[Name],
+        foundNames = Table.ColumnNames(table),
+        addNames = List.RemoveItems(schemaNames, foundNames),
+        extraNames = List.RemoveItems(foundNames, schemaNames),
+        tmp = Text.NewGuid(),
+        added = Table.AddColumn(table, tmp, each []),
+        expanded = Table.ExpandRecordColumn(added, tmp, addNames),
+        result = if List.IsEmpty(addNames) then table else expanded,
+        fullList =
+            if (_enforceSchema = EnforceSchema.Strict) then
+                schemaNames
+            else if (_enforceSchema = EnforceSchema.IgnoreMissingColumns) then
+                foundNames
+            else
+                schemaNames & extraNames,
+
+        // Select the final list of columns.
+        // These will be ordered according to the schema table.
+        reordered = Table.SelectColumns(result, fullList, MissingField.Ignore),
+        enforcedTypes = EnforceTypes(reordered, schema),
+        withType = if (_enforceSchema = EnforceSchema.Strict) then Value.ReplaceType(enforcedTypes, SchemaToTableType(schema)) else enforcedTypes
+    in
+        withType;
+```
+### Parse Logs
+
+```powerquery {8}
+(Input as table)=>
+let
+    Source = Table.Buffer(Input),
+    RemoveColumns = Table.SelectColumns(Source,{"Id", "Start Time", "End Time", "Query", "Data Source Query", "Step", "Category", "Operation", "Exclusive Duration", "Exclusive Duration (%)", "Row Count", "Path"}),
+    ReplaceNullsInPath = Table.ReplaceValue(RemoveColumns,null,"",Replacer.ReplaceValue,{"Path"}),
+    GetNodeOperation = (pId, pPath) as text =>
+        let 
+            FilterRows = Table.SelectRows(ReplaceNullsInPath, each [Id]=pId and [Path]=pPath),
+            FirstRow = FilterRows{0},
+            Op = try FirstRow[Operation] otherwise "Trace Gaps"
+        in  
+            Op,
+    CreatePath = Table.AddColumn(ReplaceNullsInPath, "Level", each 
+        let 
+            LevelNumber = List.Count(Text.Split([Path],"/")),
+            CurrentPath = [Path],
+            CurrentId = [Id],
+            PosList = {0..(LevelNumber - 1)},
+            GenerateText = List.Transform(PosList, each CurrentId & " " & Text.BeforeDelimiter(CurrentPath, "/", _) & " " & GetNodeOperation(CurrentId, Text.BeforeDelimiter(CurrentPath, "/", _))),
+            Output = Text.Combine(GenerateText, "|")
+        in  
+            Output
+            ),
+    FindMaxLevels = Table.AddColumn(CreatePath, "NumberOfLevels", each 1+Text.Length( Text.Select([Level],{"|"}))),
+    MaxLevels = List.Max(FindMaxLevels[NumberOfLevels]),
+    SplitLevels = Table.SplitColumn(FindMaxLevels, "Level", Splitter.SplitTextByDelimiter("|", QuoteStyle.Csv),MaxLevels),
+    RemoveMaxLevels = Table.RemoveColumns(SplitLevels,{"NumberOfLevels"}),
+    CalculateDuration = Table.TransformColumns(RemoveMaxLevels,{{"Exclusive Duration", Duration.TotalSeconds, type number}})
+in
+    CalculateDuration
+```
