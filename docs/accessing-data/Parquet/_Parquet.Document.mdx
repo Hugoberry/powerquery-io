@@ -1,0 +1,10 @@
+## More examples
+
+```powerquery
+let
+    source = Parquet.Document("hdfs://localhost:9000/user/hive/warehouse/parquet_table"),
+    data = source{[Name="data"]}[Data]
+in
+    data
+```
+
