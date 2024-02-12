@@ -27,9 +27,124 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
+    // locales: ['en'],
     locales: ['da','de','en','es','fr','hi','it','ja','nl','pl','pt-PT','pt-BR','ru','sv','th','tr','vi']
     // locales: ['ca','cs','da','de','el','en','es','fi','fr','gl','hi','hu','id','it','ja','kk','ko','lt','lv','ms','nl','pl','pt','pt-BR','ro','ru','sk','sl','sk-Cyrl','sr-Latn','sv','th','tr','uk','vi','zh-Hans','zh-Hant']
   },
+
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            to: '/category/accessing-data',
+            from: '/accessing-data',
+          },
+          {
+            to: '/category/table',
+            from: '/table',
+          },
+          {
+            to: '/category/record',
+            from: '/record',
+          },
+          {
+            to: '/category/function',
+            from: '/function',
+          },
+          {
+            to: '/category/number',
+            from: '/number',
+          },
+          {
+            to: '/category/combiner',
+            from: '/combiner',
+          },
+          {
+            to: '/category/logical',
+            from: '/logical',
+          },
+          {
+            to: '/category/text',
+            from: '/text',
+          },
+          {
+            to: '/category/date-time',
+            from: '/date-time',
+          },
+          {
+            to: '/category/date-time-zone',
+            from: '/date-time-zone',
+          },
+          {
+            to: '/category/list',
+            from: '/list',
+          },
+          {
+            to: 'c/ategory/diagnostics',
+            from: '/error',
+          },
+          {
+            to: 'c/ategory/diagnostics',
+            from: '/diagnostics',
+          },
+          {
+            to: '/category/binary',
+            from: '/binary',
+          },
+          {
+            to: '/category/binary',
+            from: '/binary-formats',
+          },
+          {
+            to: '/category/replacer',
+            from: '/replacer',
+          },
+          {
+            to: '/category/splitter',
+            from: '/splitter'
+          },
+          {
+            to: '/category/value',
+            from: '/metadata'
+          },
+          {
+            to: '/category/time',
+            from: '/time',
+          },
+          {
+            to: '/category/type',
+            from: '/type',
+          },
+          {
+            to: '/category/uri',
+            from: '/uri',
+          },
+          {
+            to: '/category/value',
+            from: '/values',
+          },
+          {
+            to: '/category/expression',
+            from: '/expression',
+          },
+          {
+            to: '/category/cube',
+            from: '/cube',
+          },
+          {
+            to: '/category/value',
+            from: '/action',
+          },
+          {
+            to: '/category/lines',
+            from: '/lines',
+          }
+        ],
+      },
+    ],
+  ],
 
   presets: [
     [
