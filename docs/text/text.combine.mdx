@@ -1,0 +1,68 @@
+---
+title: Text.Combine
+---
+
+# Text.Combine
+
+
+Concatenates a list of text values into one text value.
+
+
+## Syntax
+
+```powerquery
+Text.Combine(
+    texts as list,
+    optional separator as text
+) as text
+```
+
+
+## Remarks
+
+Returns the result of combining the list of text values, <code>texts</code>, into a single text value. Any <code>null</code> values present in <code>texts</code> are ignored.    An optional <code>separator</code> used in the final combined text can be specified.
+
+
+## Examples
+
+### Example #1 
+Combine text values &#34;Seattle&#34; and &#34;WA&#34;.
+```powerquery
+Text.Combine({"Seattle", "WA"})
+```
+
+Result: 
+```powerquery
+"SeattleWA"
+```
+
+
+### Example #2 
+Combine text values &#34;Seattle&#34; and &#34;WA&#34;, separated by a comma and a space.
+```powerquery
+Text.Combine({"Seattle", "WA"}, ", ")
+```
+
+Result: 
+```powerquery
+"Seattle, WA"
+```
+
+
+### Example #3 
+Combine the values &#34;Seattle&#34;, &lt;code&gt;null&lt;/code&gt;, and &#34;WA&#34;, separated by a comma and a space. (Note that the &lt;code&gt;null&lt;/code&gt; is ignored.)
+```powerquery
+Text.Combine({"Seattle", null, "WA"}, ", ")
+```
+
+Result: 
+```powerquery
+"Seattle, WA"
+```
+
+## Category
+Text.Transformations
+
+import TextCombine from './_Text.Combine.mdx'
+
+<TextCombine />

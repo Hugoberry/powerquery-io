@@ -1,0 +1,44 @@
+---
+title: Number.Mod
+---
+
+# Number.Mod
+
+
+O número inteiro divide dois números e retorna o resto.
+
+
+## Syntax
+
+```powerquery
+Number.Mod(
+    number as number,
+    divisor as number,
+    optional precision as Precision.Type
+) as number
+```
+
+
+## Remarks
+
+Retorna o resto da divisão inteira de <code>number</code> por <code>divisor</code>.    Se <code>number</code> ou <code>divisor</code> forem nulos, <code>Number.Mod</code> retornará nulo.      <ul>        <li><code>number</code>: o dividendo.</li>        <li><code>divisor</code>: o divisor.</li>      </ul>
+
+
+## Examples
+
+### Example #1 
+Localize o resto ao dividir 5 por 3.
+```powerquery
+Number.Mod(5, 3)
+```
+
+Result: 
+```powerquery
+2
+```
+
+
+
+
+## Category
+Number.Operations

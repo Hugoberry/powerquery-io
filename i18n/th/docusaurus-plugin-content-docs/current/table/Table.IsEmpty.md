@@ -1,0 +1,60 @@
+---
+title: Table.IsEmpty
+---
+
+# Table.IsEmpty
+
+
+ระบุว่าตารางมีแถวใดๆ หรือไม่
+
+
+## Syntax
+
+```powerquery
+Table.IsEmpty(
+    table as table
+) as logical
+```
+
+
+## Remarks
+
+ระบุว่า <code>table</code> มีแถวใดๆ หรือไม่ ส่งคืน <code>true</code> หากไม่มีแถวใดๆ (เช่น ตารางว่างเปล่า) <code>false</code> หากมีผลลัพธ์เป็นอื่น
+
+
+## Examples
+
+### Example #1 
+กำหนดว่าตารางว่างเปล่าหรือไม่
+```powerquery
+Table.IsEmpty(
+    Table.FromRecords({
+        [CustomerID = 1, Name = "Bob", Phone = "123-4567"],
+        [CustomerID = 2, Name = "Jim", Phone = "987-6543"],
+        [CustomerID = 3, Name = "Paul", Phone = "543-7890"]
+    })
+)
+```
+
+Result: 
+```powerquery
+false
+```
+
+
+### Example #2 
+กำหนดว่าตาราง &lt;code&gt;(\{})&lt;/code&gt; ว่างเปล่าหรือไม่
+```powerquery
+Table.IsEmpty(Table.FromRecords({}))
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+
+
+## Category
+Table.Information

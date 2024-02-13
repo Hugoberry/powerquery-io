@@ -1,0 +1,28 @@
+---
+title: Type.ReplaceFacets
+---
+
+# Type.ReplaceFacets
+
+
+किसी प्रकार के फ़ैसिट बदल देता है.
+
+
+## Syntax
+
+```powerquery
+Type.ReplaceFacets(
+    type as type,
+    facets as record
+) as type
+```
+
+
+## Remarks
+
+<code>type</code> प्रकार के फ़ैसिट को रिकॉर्ड <code>facets</code> में शामिल फ़ैसिट के साथ बदल देता है.
+
+
+
+## Category
+Type
