@@ -140,6 +140,14 @@ const config = {
           {
             to: '/category/lines',
             from: '/lines',
+          },
+          {
+            to: '/category/comparer',
+            from: '/comparer',
+          },
+          {
+            to: '/category/duration',
+            from: '/duration',
           }
         ],
       },
