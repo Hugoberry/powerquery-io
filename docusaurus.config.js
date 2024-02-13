@@ -82,11 +82,11 @@ const config = {
             from: '/list',
           },
           {
-            to: 'c/ategory/diagnostics',
+            to: '/category/diagnostics',
             from: '/error',
           },
           {
-            to: 'c/ategory/diagnostics',
+            to: '/category/diagnostics',
             from: '/diagnostics',
           },
           {
