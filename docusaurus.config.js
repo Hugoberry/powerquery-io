@@ -152,7 +152,11 @@ const config = {
           {
             to: '/category/documentdb',
             from: '/accessing-data/document-db/documentdb.contents',
-          }
+          },
+          {
+            to: '/category/json',
+            from: '/text/json.fromvalue',
+          },
         ],
       },
     ],
