@@ -148,6 +148,10 @@ const config = {
           {
             to: '/category/duration',
             from: '/duration',
+          },
+          {
+            to: '/category/documentdb',
+            from: '/accessing-data/document-db/documentdb.contents',
           }
         ],
       },
