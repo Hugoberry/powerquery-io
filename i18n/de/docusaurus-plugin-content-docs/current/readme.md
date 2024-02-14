@@ -2,7 +2,7 @@
 sidebar_position: 1
 hide_title: true
 pagination_next: null
-title: About
+title: Einführung
 ---
 
 # Entdecken Sie die Sprache

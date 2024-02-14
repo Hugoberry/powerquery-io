@@ -2,7 +2,7 @@
 sidebar_position: 1
 hide_title: true
 pagination_next: null
-title: Informazioni
+title: Introduzione
 ---
 
 # Scopri il linguaggio
