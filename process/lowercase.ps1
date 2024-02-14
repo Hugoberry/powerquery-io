@@ -1,5 +1,5 @@
 # Define the root path to start renaming from
-$rootPath = "C:\git\hub\powerquery-io\docs" # Change this to your specific path
+$rootPath = "C:\git\hub\powerquery-io\i18n\vi\docusaurus-plugin-content-docs\current" # Change this to your specific path
 
 function Rename-ToLowerCase {
     param (
