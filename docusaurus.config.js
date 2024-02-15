@@ -218,6 +218,7 @@ const config = {
       metadata: 
         [
           {name: 'keywords', content: 'PowerQuery, M language, M language reference, PowerQuery reference, PowerQuery documentation'},
+          {name: 'yandex-verification', content: '316975f57acf3cea'},
         ],
       footer: {
         style: 'dark',
