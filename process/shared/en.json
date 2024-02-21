@@ -760,6 +760,31 @@
       "RequiredParameters": "1"
     },
     {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
+      },
+      "RequiredParameters": "1"
+    },
+    {
       "Name": "Dynamics365BusinessCentralOnPremises.Contents",
       "Documentation": {
         "Documentation.Description": "Enter the URL of your Dynamics 365 Business Central (on-premises) OData service endpoint.",
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "Returns a list that skips the specified number of elements at the beginning of the list.",
-        "Documentation.LongDescription": "Returns a list that removes the first element of list <code>list</code>. If <code>list</code> is an empty list an empty list is returned.\r\nThis function takes an optional parameter, <code>countOrCondition</code>, to support removing multiple values as listed below.\r\n <ul>\r\n <li>If a number is specified, up to that many items are removed. </li>\r\n <li>If a condition is specified, the returned list begins with the first element in <code>list</code> that meets the criteria. Once an item fails the condition, no further items are considered. </li>\r\n <li>If this parameter is null, the default behavior is observed. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Returns a list that removes the first element of list <code>list</code>. If <code>list</code> is an empty list an empty list is returned.\r\nThis function takes an optional parameter, <code>countOrCondition</code>, to support removing multiple values as listed below.\r\n <ul>\r\n <li>If a number is specified, up to that many items are removed. </li>\r\n <li>If a condition is specified, any consecutive matching items at the start of <code>list</code> are removed.</li>\r\n <li>If this parameter is null, the default behavior is observed. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "Returns a list that removes the specified number of elements from the end of the list.",
-        "Documentation.LongDescription": "Returns a list that removes the last <code>countOrCondition</code> elements from the end of list <code>list</code>. If <code>list</code> has less than <code>countOrCondition</code> elements, an empty list is returned.\r\n <ul>\r\n <li>If a number is specified, up to that many items are removed. </li>\r\n <li>If a condition is specified, the returned list ends with the first element from the bottom in <code>list</code> that meets the criteria. Once an item fails the condition, no further items are considered. </li>\r\n <li>If this parameter is null, only one item is removed. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Returns a list that removes the last <code>countOrCondition</code> elements from the end of list <code>list</code>. If <code>list</code> has less than <code>countOrCondition</code> elements, an empty list is returned.\r\n <ul>\r\n <li>If a number is specified, up to that many items are removed. </li>\r\n <li>If a condition is specified, any consecutive matching items at the end of <code>list</code> are removed.</li>\r\n <li>If this parameter is null, only one item is removed. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "Returns a list that skips the specified number of elements at the beginning of the list.",
-        "Documentation.LongDescription": "Returns a list that skips the first element of list <code>list</code>. If <code>list</code> is an empty list an empty list is returned.\r\nThis function takes an optional parameter, <code>countOrCondition</code>, to support skipping multiple values as listed below.\r\n <ul>\r\n <li>If a number is specified, up to that many items are skipped. </li>\r\n <li>If a condition is specified, the returned list begins with the first element in <code>list</code> that meets the criteria. Once an item fails the condition, no further items are considered. </li>\r\n <li>If this parameter is null, the default behavior is observed. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Returns a list that skips the first element of list <code>list</code>. If <code>list</code> is an empty list an empty list is returned.\r\nThis function takes an optional parameter, <code>countOrCondition</code>, to support skipping multiple values as listed below.\r\n <ul>\r\n <li>If a number is specified, up to that many items are skipped. </li>\r\n <li>If a condition is specified, any consecutive matching items at the start of <code>list</code> are skipped.</li>\r\n <li>If this parameter is null, the default behavior is observed. </li>\r\n </ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {

@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "Lihat https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli untuk sampel pertanyaan permulaan.",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "Kembalikan jadual dengan keputusan pertanyaan bagi 'sumber' pertanyaan pengguna",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "Mengembalikan senarai yang melangkau bilangan elemen yang ditentukan di permulaan senarai.",
-        "Documentation.LongDescription": "Mengembalikan senarai yang mengalih keluar elemen pertama pada senarai <code>list</code>. Jika <code>list</code> ialah senarai kosong, senarai kosong dikembalikan.\r\nFungsi ini mengambil parameter pilihan, <code>countOrCondition</code>, untuk menyokong mengalih keluar berbilang nilai seperti yang disenaraikan di bawah. \r\n <ul>\r\n <li>Jika nombor ditentukan, item sebanyak itu akan dialih keluar. </li>\r\n <li>Jika syarat ditentukan, senarai yang dikembalikan bermula dengan elemen pertama dalam <code>list</code> yang memenuhi kriteria tersebut. Setelah item gagal syarat tersebut, tiada item selanjutnya akan dipertimbangkan. </li>\r\n <li>Jika parameter ini ialah nol, kelakuan lalai diperhatikan. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Mengembalikan senarai yang mengalih keluar elemen pertama pada senarai <code>list</code>. Jika <code>list</code> senarai kosong senarai kosong dikembalikan.\r\nFungsi ini mengambil parameter pilihan, <code>countOrCondition</code>, untuk menyokong pengalihan keluar berbilang nilai seperti yang disenaraikan di bawah.\r\n <ul>\r\n <li>Jika nombor ditentukan, sehingga sebanyak item itu dialih keluar. </li>\r\n <li>Jika syarat ditentukan, apa-apa item sepadan yang berturutan pada permulaan <code>list</code> dialih keluar.</li>\r\n <li>Jika parameter ini nol, kelakuan lalai diperhatikan. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "Mengembalikan senarai yang mengalih keluar bilangan elemen yang ditentukan daripada hujung senarai.",
-        "Documentation.LongDescription": "Mengembalikan senarai yang mengalih keluar <code>countOrCondition</code> elemen terakhir daripada hujung senarai <code>list</code>. Jika <code>list</code> mempunyai kurang daripada <code>countOrCondition</code> elemen, senarai kosong dikembalikan.\r\n <ul>\r\n <li>Jika nombor ditentukan, item sebanyak itu akan dialih keluar. </li>\r\n <li>Jika syarat ditentukan, senarai yang dikembalikan tamat dengan elemen pertama dari bawah dalam <code>list</code> yang memenuhi kriteria tersebut. Setelah item gagal syarat tersebut, tiada item selanjutnya akan dipertimbangkan. </li>\r\n <li>Jika parameter ini ialah nol, hanya satu item akan dialih keluar. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Mengembalikan senarai yang mengalih keluar <code>countOrCondition</code> elemen terakhir daripada hujung senarai <code>list</code>. Jika <code>list</code> mempunyai kurang daripada unsur <code>countOrCondition</code>, senarai kosong dikembalikan.\r\n <ul>\r\n <li>Jika nombor ditentukan, sehingga sebanyak item itu dialih keluar. </li>\r\n <li>Jika syarat ditentukan, apa-apa item sepadan yang berturutan pada penghujung <code>list</code> dialih keluar.</li>\r\n <li>Jika parameter ini nol, hanya satu item dialih keluar. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "Mengembalikan senarai yang melangkau bilangan elemen yang ditentukan di permulaan senarai.",
-        "Documentation.LongDescription": "Mengembalikan senarai yang melangkau elemen pertama pada senarai <code>list</code>. Jika <code>list</code> ialah senarai kosong, senarai kosong dikembalikan.\r\nFungsi ini mengambil parameter pilihan, <code>countOrCondition</code>, untuk menyokong melangkau berbilang nilai seperti yang disenaraikan di bawah. \r\n <ul>\r\n <li>Jika nombor ditentukan, item sebanyak itu akan dilangkau. </li>\r\n <li>Jika syarat ditentukan, senarai yang dikembalikan bermula dengan elemen pertama dalam <code>list</code> yang memenuhi kriteria tersebut. Setelah item gagal syarat tersebut, tiada item selanjutnya akan dipertimbangkan. </li>\r\n <li>Jika parameter ini ialah nol, kelakuan lalai diperhatikan. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Mengembalikan senarai yang melangkau elemen pertama pada senarai <code>list</code>. Jika <code>list</code> senarai kosong senarai kosong dikembalikan.\r\nFungsi ini mengambil parameter pilihan, <code>countOrCondition</code>, untuk menyokong langkauan berbilang nilai seperti yang disenaraikan di bawah.\r\n <ul>\r\n <li>Jika nombor ditentukan, sehingga sebanyak item itu dilangkau. </li>\r\n <li>Jika syarat ditentukan, apa-apa item sepadan yang berturutan pada permulaan <code>list</code> dilangkau.</li>\r\n <li>Jika parameter ini nol, kelakuan lalai diperhatikan. </li>\r\n </ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {

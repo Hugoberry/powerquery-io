@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "Oglejte si https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli za vzorčne poizvedbe za začetek.",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "Vrne tabelo z rezultati poizvedbe uporabnikove poizvedbe »viri«",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "Vrne seznam, ki preskoči navedeno število elementov na začetku seznama.",
-        "Documentation.LongDescription": "Vrne seznam, ki odstrani prvi element seznama <code>list</code>. Če je <code>list</code> prazen seznam, je vrnjen prazen seznam.\r\nTa funkcija vzame izbirni parameter <code>countOrCondition</code> za podporo odstranjevanja več vrednosti, kot je navedeno spodaj.\r\n <ul>\r\n <li>Če navedete število, je odstranjenih največ toliko elementov. </li>\r\n <li>Če navedete pogoj, se vrnjeni seznam začne s prvim elementom na seznamu <code>list</code>, ki ustreza kriterijem. Ko določen element ne izpolnjuje več pogoja, se nadaljnji elementi ne upoštevajo. </li>\r\n <li>Če je ta parameter ničeln, se upošteva privzeti način delovanja. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Vrne seznam, ki odstrani prvi element seznama <code>list</code>. Če je seznam <code>list</code> prazen seznam, je vrnjen prazen seznam.\r\nTa funkcija uporabi izbirni parameter, <code>countOrCondition</code>, da omogoči odstranjevanje več vrednosti, kot je navedeno spodaj.\r\n <ul>\r\n <li>Če je število določeno, je odstranjenih največ toliko elementov. </li>\r\n <li>Če je določen pogoj, bodo vsi sledeči ujemajoči se elementi na začetku seznama <code>list</code> odstranjeni.</li>\r\n <li>Če je ta parameter ničeln, se upošteva privzeto vedenje. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "Vrne seznam, ki odstrani navedeno število elementov na koncu seznama.",
-        "Documentation.LongDescription": "Vrne seznam, ki odstrani zadnjih <code>countOrCondition</code> elementov na koncu seznama <code>list</code>. Če ima <code>list</code> manj kot <code>countOrCondition</code> elementov, se vrne prazen seznam.\r\n <ul>\r\n <li>Če navedete število, je odstranjenih največ toliko elementov. </li>\r\n <li>Če navedete pogoj, se vrnjeni seznam konča s prvim elementom od spodaj na seznamu <code>list</code>, ki ustreza merilom. Ko določen element ne izpolnjuje več pogoja, se nadaljnji elementi ne upoštevajo. </li>\r\n <li>Če je ta parameter ničeln, se odstrani samo en element. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Vrne seznam, ki odstrani zadnjih <code>countOrCondition</code> elementov na koncu seznama <code>list</code>. Če ima seznam <code>list</code> manj kot <code>countOrCondition</code> elementov, je vrnjen prazen seznam.\r\n <ul>\r\n <li>Če je število določeno, je odstranjenih največ toliko elementov. </li>\r\n <li>Če je določen pogoj, bodo vsi sledeči ujemajoči se elementi na koncu seznama <code>list</code> odstranjeni.</li>\r\n <li>Če je vrednost tega parametra ničelna, bo odstranjen le en element. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "Vrne seznam, ki preskoči navedeno število elementov na začetku seznama.",
-        "Documentation.LongDescription": "Vrne seznam, ki preskoči prvi element seznama <code>list</code>. Če je <code>list</code> prazen seznam, je vrnjen prazen seznam.\r\nTa funkcija vzame izbirni parameter <code>countOrCondition</code> za podporo preskakovanja več vrednosti, kot je navedeno spodaj.\r\n <ul>\r\n <li>Če navedete število, je preskočenih največ toliko elementov. </li>\r\n <li>Če navedete pogoj, se vrnjeni seznam začne s prvim elementom na seznamu <code>list</code>, ki ustreza kriterijem. Ko določen element ne izpolnjuje več pogoja, se nadaljnji elementi ne upoštevajo. </li>\r\n <li>Če je ta parameter ničeln, se upošteva privzeti način delovanja. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Vrne seznam, ki preskoči prvi element seznama <code>list</code>. Če je seznam <code>list</code> prazen seznam, je vrnjen prazen seznam.\r\nTa funkcija uporabi izbirni parameter, <code>countOrCondition</code>, da omogoči preskok več vrednosti, kot je navedeno spodaj.\r\n <ul>\r\n <li>Če je število določeno, je preskočenih največ toliko elementov. </li>\r\n <li>Če je določen pogoj, bodo vsi sledeči ujemajoči se elementi na začetku seznama <code>list</code> preskočeni.</li>\r\n <li>Če je ta parameter ničeln, se upošteva privzeto vedenje. </li>\r\n </ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {

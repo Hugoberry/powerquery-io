@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "स्टार्टर क्वेरी नमूनों के लिए https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli देखें.",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "उपयोगकर्ता क्वेरी 'संसाधन' के क्वेरी परिणामों के साथ एक तालिका लौटाएँ",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "ऐसी सूची लौटाता है जो सूची की शुरुआत में तत्वों की निर्दिष्ट संख्या को छोड़ देती है.",
-        "Documentation.LongDescription": "एक ऐसी सूची लौटाता है, जो सूची <code>list</code> का प्रथम तत्व निकाल देती है. यदि <code>list</code> कोई रिक्त सूची है, तो एक रिक्त सूची लौटाई जाती है.\r\nयह फ़ंक्शन नीचे सूचीबद्ध किए गए एकाधिक मान निकालने का समर्थन करने के लिए एक वैकल्पिक पैरामीटर <code>countOrCondition</code> लेता है.\r\n <ul>\r\n <li>यदि कोई संख्या निर्दिष्ट है, तो उस संख्या तक कई आइटम निकाल दिए जाते हैं. </li>\r\n <li>यदि कोई शर्त निर्दिष्ट है, तो लौटाई गई सूची <code>list</code> के उस प्रथम तत्व के साथ शुरू होती है, जो मानदंड को पूरा करती है. एक बार आइटम द्वारा शर्त को पूरा न करने पर आगे किसी भी आइटम पर विचार नहीं किया जाता है. </li>\r\n <li>यदि यह पैरामीटर नल है, तो डिफ़ॉल्ट व्यवहार देखा जाता है. </li>\r\n </ul>",
+        "Documentation.LongDescription": "एक सूची लौटाता है जो सूची <code>list</code> का पहला तत्व हटा देती है. यदि <code>list</code> कोई खाली सूची है तो एक खाली सूची लौटा दी जाती है.\r\nयह फ़ंक्शन, नीचे सूचीबद्ध कई मानों को हटाने के लिए एक वैकल्पिक पैरामीटर, <code>countOrCondition</code>, की मदद लेता है.\r\n <ul>\r\n <li>यदि कोई संख्या निर्दिष्ट है, तो उतनी संख्या तक आइटम हटा दिए जाते हैं. </li>\r\n <li>यदि कोई शर्त निर्दिष्ट की गई है, तो <code>list</code> की शुरुआत में कोई भी लगातार मेल खाने वाली वस्तु हटा दी जाती है.</li>\r\n <li>यदि यह पैरामीटर शून्य है, तो डिफ़ॉल्ट व्यवहार देखा जाता है. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "ऐसी सूची लौटाता है जो सूची की समाप्ति तत्वों की निर्दिष्ट संख्या को निकाल देती है.",
-        "Documentation.LongDescription": "ऐसी सूची लौटाता है जो अंतिम <code>countOrCondition</code> तत्वों को, सूची <code>list</code> की समाप्ति से लौटाती है. अगर <code>list</code> के पास <code>countOrCondition</code> से कम तत्व हैं, तो एक रिक्त सूची लौटाई जाती है.\r\n <ul>\r\n <li>अगर कोई संख्या निर्दिष्ट है, तो उस तक कई आइटम निकाल दिए जाते हैं. </li>\r\n <li>अगर कोई शर्त निर्दिष्ट है, तो मापदंड को पूरा करने वाली <code>list</code> में नीचे से पहले तत्व पर समाप्त होने वाली सूची को लौटाया जाता है. एकबार आइटम द्वारा शर्त को पूरा न करने पर, आगे किसी भी आइटम पर विचार नहीं किया जाता है. </li>\r\n <li>अगर यह पैरामीटर नल है, तो केवल एक आइटम निकाला जाता है. </li>\r\n </ul>",
+        "Documentation.LongDescription": "ऐसी सूची लौटाता है जो सूची <code>list</code> की समाप्ति से अंतिम <code>countOrCondition</code> तत्वों को हटा देती है. यदि <code>list</code> में <code>countOrCondition</code> से कम तत्व हैं, तो एक खाली सूची लौटा दी जाती है.\r\n <ul>\r\n <li>यदि कोई संख्या निर्दिष्ट है, तो उतनी संख्या तक आइटम हटा दिए जाते हैं. </li>\r\n <li> यदि कोई शर्त निर्दिष्ट की गई है, तो <code>list</code> के अंत में कोई भी लगातार मेल खाने वाली वस्तु हटा दी जाती है.</li>\r\n <li> यदि यह पैरामीटर शून्य है, तो केवल एक आइटम हटाया जाता है. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "ऐसी सूची लौटाता है जो सूची की शुरुआत में तत्वों की निर्दिष्ट संख्या को छोड़ देती है.",
-        "Documentation.LongDescription": "एक ऐसी सूची लौटाता है, जो सूची <code>list</code> का प्रथम तत्व छोड़ देती है. यदि <code>list</code> कोई रिक्त सूची हो, तो एक रिक्त सूची लौटाई जाती है.\r\nयह फ़ंक्शन नीचे सूचीबद्ध किए गए एकाधिक मान छोड़ने का समर्थन करने के लिए एक वैकल्पिक पैरामीटर <code>countOrCondition</code> लेता है.\r\n <ul>\r\n <li>यदि कोई संख्या निर्दिष्ट है, तो उस संख्या तक कई आइटम छोड़ दिए जाते हैं. </li>\r\n <li>यदि कोई शर्त निर्दिष्ट है, तो लौटाई गई सूची <code>list</code> के प्रथम तत्व के साथ शुरू होती है, जो मानदंड को पूरा करती है. एक बार आइटम द्वारा शर्त को पूरा न करने पर आगे किसी भी आइटम पर विचार नहीं किया जाता है. </li>\r\n <li>यदि यह पैरामीटर नल है, तो डिफ़ॉल्ट व्यवहार देखा जाता है. </li>\r\n </ul>",
+        "Documentation.LongDescription": "एक ऐसी सूची लौटाता है जो सूची <code>list</code> के पहले तत्व को छोड़ देती है. यदि <code>list</code> कोई खाली सूची है तो एक खाली सूची लौटा दी जाती है.\r\nयह फ़ंक्शन नीचे सूचीबद्ध कई मानों को छोड़ने का समर्थन करने के लिए एक वैकल्पिक पैरामीटर, <code>countOrCondition</code>, लेता है.\r\n <ul>\r\n <li>यदि कोई संख्या निर्दिष्ट है, तो उस तक कई आइटम छोड़ दिए जाते हैं. </li>\r\n <li>यदि कोई शर्त निर्दिष्ट की गई है, तो <code>list</code> की शुरुआत में किसी भी लगातार मिलान वाले आइटम को छोड़ दिया जाता है.</li>\r\n <li>यदि यह पैरामीटर शून्य है, तो डिफ़ॉल्ट व्यवहार देखा जाता है. </li>\r\n </ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {

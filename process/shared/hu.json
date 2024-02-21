@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "Kezdő lekérdezésmintákért lásd: https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli.",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "Egy olyan táblát ad vissza, amely a resources felhasználói lekérdezés lekérdezési eredményeit tartalmazza",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "Olyan listát ad vissza, amelyről ki van hagyva a megadott számú elem a lista elejéről.",
-        "Documentation.LongDescription": "Egy olyan listát ad vissza, amelyből el van távolítva a(z) <code>list</code> lista első eleme. Ha a(z) <code>list</code> lista üres, az eredmény üres lista lesz.\r\nEz a függvény egy nem kötelező <code>countOrCondition</code> paramétert is elfogad több érték eltávolításának támogatásához az alább ismertetett módon.\r\n <ul>\r\n <li>Ha egy szám van megadva, legfeljebb annyi elemet távolít el. </li>\r\n <li>Ha egy feltétel van megadva, a visszaadott lista a(z) <code>list</code> első olyan elemével kezdődik, amely megfelel a feltételnek. Ha egy elem nem felel meg a feltételnek, a függvény nem vizsgálja a további elemeket. </li>\r\n <li>Ha ez a paraméter nullértékű, a függvény az alapértelmezett viselkedést alkalmazza. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Egy olyan listát ad vissza, amelyből el van távolítva a(z) <code>list</code> lista első eleme. Ha a(z) <code>list</code> üres lista, a rendszer üres listát ad vissza.\r\nEz a függvény egy nem kötelező <code>countOrCondition</code> paramétert fogad, amivel több érték eltávolítását támogatja az alábbiak szerint.\r\n <ul>\r\n <li>Ha egy szám van megadva, legfeljebb annyi elem lesz eltávolítva. </li>\r\n <li>Ha egy feltétel van megadva, a(z) <code>list</code> elején lévő összes egymást követő egyező elem el lesz távolítva.</li>\r\n <li>Ha ez a paraméter null értékű, az alapértelmezett viselkedés lesz figyelembe véve. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "Olyan listát ad vissza, amelyről el van távolítva a megadott számú elem a lista végéről.",
-        "Documentation.LongDescription": "Olyan listát ad vissza, amelyről el van távolítva az utolsó <code>countOrCondition</code> elem a(z) <code>list</code> lista végéről. Ha <code>list</code> elemeinek száma kevesebb, mint <code>countOrCondition</code>, az eredmény üres lista lesz.\r\n <ul>\r\n <li>Ha egy szám van megadva, legfeljebb ennyi elemet távolít el. </li>\r\n <li>Ha egy feltétel van megadva, a visszaadott lista a(z) <code>list</code> alulról számított első olyan elemével végződik, amely megfelel a feltételnek. Amint egy elem nem felel meg a feltételnek, a függvény nem vizsgálja a további elemeket. </li>\r\n <li>Ha ez a paraméter null értékű, a függvény csak egy elemet távolít el. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Olyan listát ad vissza, amelyben el van távolítva az utolsó <code>countOrCondition</code> elem a(z) <code>list</code> lista végéről. Ha a(z) <code>list</code> kevesebb mint <code>countOrCondition</code> elemet tartalmaz, a rendszer üres listát ad vissza.\r\n <ul>\r\n <li>Ha egy szám van megadva, legfeljebb annyi elem lesz eltávolítva. </li>\r\n <li>Ha egy feltétel van megadva, a(z) <code>list</code> végén lévő összes egymást követő egyező elem el lesz távolítva.</li>\r\n <li>Ha ez a paraméter null értékű, a rendszer csak egy elemet távolít el. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "Olyan listát ad vissza, amelyről ki van hagyva a megadott számú elem a lista elejéről.",
-        "Documentation.LongDescription": "Egy olyan listát ad vissza, amelyből ki van hagyva a(z) <code>list</code> lista első eleme. Ha a(z) <code>list</code> lista üres, az eredmény üres lista lesz.\r\nEz a függvény egy nem kötelező <code>countOrCondition</code> paramétert is elfogad több érték kihagyásának támogatásához az alább ismertetett módon.\r\n <ul>\r\n <li>Ha egy szám van megadva, legfeljebb annyi elem lesz kihagyva. </li>\r\n <li>Ha egy feltétel van megadva, a visszaadott lista a(z) <code>list</code> első olyan elemével kezdődik, amely megfelel a feltételnek. Ha egy elem nem felel meg a feltételnek, a függvény nem vizsgálja a további elemeket. </li>\r\n <li>Ha ez a paraméter nullértékű, a függvény az alapértelmezett viselkedést alkalmazza. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Egy olyan listát ad vissza, amelyből ki van hagyva a(z) <code>list</code> lista első eleme. Ha a(z) <code>list</code> üres lista, a rendszer üres listát ad vissza.\r\nEz a függvény egy nem kötelező <code>countOrCondition</code> paramétert fogad, amivel több érték kihagyását támogatja az alábbiak szerint.\r\n <ul>\r\n <li>Ha egy szám van megadva, legfeljebb annyi elem lesz kihagyva. </li>\r\n <li>Ha egy feltétel van megadva, a(z) <code>list</code> elején lévő összes egymást követő egyező elem ki lesz hagyva.</li>\r\n <li>Ha ez a paraméter null értékű, az alapértelmezett viselkedés lesz figyelembe véve. </li>\r\n </ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {

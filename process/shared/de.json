@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "Beispiele für Startabfragen finden Sie unter https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli.",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "Zurückgeben einer Tabelle mit Abfrageergebnissen der Benutzerabfrage \"resources\"",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "Gibt eine Liste zurück, in der die angegebene Anzahl von Elementen am Listenanfang übersprungen wird.",
-        "Documentation.LongDescription": "Gibt eine Liste zurück, in der das erste Element der Liste \"<code>list</code>\" entfernt wird. Ist die Liste \"<code>list</code>\" leer, wird eine leere Liste zurückgegeben.\r\nDiese Funktion akzeptiert einen optionalen Parameter (<code>countOrCondition</code>) zum Entfernen mehrerer Werte, wie in der folgenden Liste erläutert:\r\n <ul>\r\n <li>Bei Angabe einer Zahl werden maximal so viele Elemente entfernt, wie angegeben. </li>\r\n <li>Bei Angabe einer Bedingung beginnt die zurückgegebene Liste mit dem ersten Element aus \"<code>list</code>\", das die Kriterien erfüllt. Erfüllt ein Element die Bedingung nicht, werden ab diesem Punkt keine weiteren Elemente berücksichtigt. </li>\r\n <li>Ist dieser Parameter NULL, wird das Standardverhalten verwendet. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Gibt eine Liste zurück, in der das erste Element der Liste <code>list</code> entfernt wird. Wenn <code>list</code> eine leere Liste ist, wird eine leere Liste zurückgegeben.\r\nDiese Funktion verwendet den optionalen Parameter <code>countOrCondition</code>, um das Entfernen mehrerer Werte zu unterstützen, wie unten aufgeführt.\r\n <ul>\r\n <li>Wenn eine Anzahl angegeben wird, werden Elemente bis zu der Anzahl entfernt. </li>\r\n <li>Wenn eine Bedingung angegeben wird, werden alle aufeinander folgenden übereinstimmenden Elemente am Anfang von <code>list</code> entfernt.</li>\r\n <li>Wenn dieser Parameter NULL ist, wird das Standardverhalten beobachtet. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "Gibt eine Liste zurück, in der die angegebene Anzahl von Elementen vom Listenende entfernt wird.",
-        "Documentation.LongDescription": "Gibt eine Liste zurück, in der die letzten <code>countOrCondition</code> Elemente am Ende der Liste '<code>list</code>' entfernt werden. Wenn '<code>list</code>' weniger als <code>countOrCondition</code> Elemente aufweist, wird eine leere Liste zurückgegeben.\r\n <ul>\r\n <li>Bei Angabe einer Zahl werden maximal so viele Elemente entfernt, wie angegeben. </li>\r\n <li>Bei Angabe einer Bedingung endet die zurückgegebene Liste mit dem untersten Element aus '<code>list</code>', das die Kriterien erfüllt. Erfüllt ein Element die Bedingung nicht, werden ab diesem Punkt keine weiteren Elemente berücksichtigt. </li>\r\n <li>Ist dieser Parameter NULL, wird nur ein Element entfernt. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Gibt eine Liste zurück, in der die letzten <code>countOrCondition</code> Elemente am Ende der Liste <code>list</code> entfernt werden. Wenn <code>list</code> weniger als <code>countOrCondition</code> Elemente enthält, wird eine leere Liste zurückgegeben.\r\n <ul>\r\n <li>Wenn eine Anzahl angegeben wird, werden Elemente bis zu der Anzahl entfernt. </li>\r\n <li>Wenn eine Bedingung angegeben wird, werden alle aufeinander folgenden übereinstimmenden Elemente am Ende von <code>list</code> entfernt.</li>\r\n <li>Wenn dieser Parameter NULL ist, wird nur ein Element entfernt. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "Gibt eine Liste zurück, in der die angegebene Anzahl von Elementen am Listenanfang übersprungen wird.",
-        "Documentation.LongDescription": "Gibt eine Liste zurück, in der das erste Element der Liste \"<code>list</code>\" übersprungen wird. Ist die Liste \"<code>list</code>\" leer, wird eine leere Liste zurückgegeben.\r\nDiese Funktion akzeptiert einen optionalen Parameter (<code>countOrCondition</code>) zum Überspringen mehrerer Werte, wie in der folgenden Liste erläutert:\r\n <ul>\r\n <li>Bei Angabe einer Zahl wird die entsprechende Anzahl von Elementen übersprungen. </li>\r\n <li>Bei Angabe einer Bedingung beginnt die Liste mit dem ersten Element aus \"<code>list</code>\", das die Kriterien erfüllt. Erfüllt ein Element die Bedingung nicht, werden ab diesem Punkt keine weiteren Elemente berücksichtigt. </li>\r\n <li>Ist dieser Parameter NULL, wird das Standardverhalten verwendet. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Gibt eine Liste zurück, in der das erste Element der Liste <code>list</code> übersprungen wird. Wenn <code>list</code> eine leere Liste ist, wird eine leere Liste zurückgegeben.\r\nDiese Funktion verwendet den optionalen Parameter <code>countOrCondition</code>, um das Überspringen mehrerer Werte zu unterstützen, wie unten aufgeführt.\r\n <ul>\r\n <li>Wenn eine Anzahl angegeben wird, werden Elemente bis zu der Anzahl übersprungen. </li>\r\n <li>Wenn eine Bedingung angegeben wird, werden alle aufeinander folgenden übereinstimmenden Elemente am Anfang von <code>list</code> übersprungen.</li>\r\n <li>Wenn dieser Parameter NULL ist, wird das Standardverhalten beobachtet. </li>\r\n </ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {

@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "Consultați https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli pentru eșantioane de interogare de pornire.",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "Returnați un tabel cu rezultatele de interogare pentru interogarea utilizatorului „resurse”",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "Returnează o listă care ignoră numărul specificat de elemente la începutul listei.",
-        "Documentation.LongDescription": "Returnează o listă care elimină primul element din lista <code>list</code>. Dacă lista <code>list</code> este goală, se returnează o listă goală.\r\nAceastă funcție preia un parametru opțional, <code>countOrCondition</code>, pentru a accepta eliminarea mai multor valori, așa cum se arată mai jos.\r\n <ul>\r\n <li>Dacă se specifică un număr, se elimină cel mult numărul de elemente respectiv. </li>\r\n <li>Dacă se specifică o condiție, lista returnată începe cu primul element din <code>list</code> care îndeplinește criteriile. Odată ce un element nu îndeplinește condiția, nu mai sunt luate în considerare elementele ulterioare. </li>\r\n <li>Dacă acest parametru este nul, este aplicat comportamentul implicit. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Returnează o listă care elimină primul element din lista <code>list</code>. Dacă <code>list</code> este o listă goală, se returnează o listă goală.\r\nAceastă funcție preia un parametru opțional, <code>countOrCondition</code>, pentru a ajuta la eliminarea mai multor valori, așa cum este listat mai jos.\r\n <ul>\r\n <li>Dacă este specificat un număr, sunt eliminate până la acel număr de elemente. </li>\r\n <li>Dacă este specificată o condiție, toate elementele consecutive care se potrivesc la începutul <code>list</code> sunt eliminate.</li>\r\n <li>Dacă acest parametru este nul, se observă comportamentul implicit. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "Returnează o listă care elimină numărul specificat de elemente de la sfârşitul listei.",
-        "Documentation.LongDescription": "Returnează o listă care elimină ultimele <code>countOrCondition</code> elemente de la sfârşitul listei <code>list</code>. Dacă <code>list</code> are mai puţin de <code>countOrCondition</code> elemente, se returnează o listă necompletată.\r\n <ul>\r\n <li>Dacă se specifică un număr, sunt eliminate maximum numărul de elemente respectiv. </li>\r\n <li>Dacă se specifică o condiţie, lista returnată se termină cu primul element de la final din <code>list</code> care îndeplineşte criteriile. Odată ce un element nu îndeplineşte condiţia, nu mai sunt luate în considerare elementele ulterioare. </li>\r\n <li>Dacă acest parametru are valoarea null, numai un singur element este eliminat. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Returnează o listă care elimină ultimele <code>countOrCondition</code> elemente de la sfârșitul listei <code>list</code>. Dacă <code>list</code> are mai puțin de <code>countOrCondition</code> elemente, se returnează o listă goală.\r\n <ul>\r\n <li>Dacă este specificat un număr, sunt eliminate până la acel număr de elemente. </li>\r\n <li>Dacă este specificată o condiție, toate elementele consecutive care se potrivesc la sfârșitul lui <code>list</code> sunt eliminate.</li>\r\n <li>Dacă acest parametru este nul, se elimină doar un singur element. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "Returnează o listă care ignoră numărul specificat de elemente la începutul listei.",
-        "Documentation.LongDescription": "Returnează o listă care omite primul element din lista <code>list</code>. Dacă lista <code>list</code> este goală, se returnează o listă goală.\r\nAceastă funcție preia un parametru opțional, <code>countOrCondition</code>, pentru a accepta omiterea mai multor valori, așa cum se arată mai jos.\r\n <ul>\r\n <li>Dacă se specifică un număr, sunt omise cel mult numărul de elemente respectiv. </li>\r\n <li>Dacă se specifică o condiție, lista returnată începe cu primul element din <code>list</code> care îndeplinește criteriile. Odată ce un element nu îndeplinește condiția, nu mai sunt luate în considerare elementele ulterioare. </li>\r\n <li>Dacă acest parametru este nul, este aplicat comportamentul implicit. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Returnează o listă care omite primul element din lista <code>list</code>. Dacă <code>list</code> este o listă goală, se returnează o listă goală.\r\nAceastă funcție preia un parametru opțional, <code>countOrCondition</code>, pentru a ajuta la omiterea mai multor valori, așa cum este listat mai jos.\r\n <ul>\r\n <li>Dacă este specificat un număr, sunt omise până la acel număr de elemente. </li>\r\n <li>Dacă este specificată o condiție, toate elementele consecutive care se potrivesc la începutul <code>list</code> sunt omise.</li>\r\n <li>Dacă acest parametru este nul, se observă comportamentul implicit. </li>\r\n </ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {

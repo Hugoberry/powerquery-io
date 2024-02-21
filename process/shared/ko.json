@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "시작 쿼리 샘플은 https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli를 참조하세요.",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "사용자 쿼리 'resources'의 쿼리 결과가 포함된 테이블 반환",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "목록의 처음부터 지정된 수만큼의 요소를 건너뛴 목록을 반환합니다.",
-        "Documentation.LongDescription": "<code>list</code> 목록의 첫 번째 요소를 제거할 목록을 반환합니다. <code>list</code>이(가) 빈 목록이면 빈 목록이 반환됩니다.\r\n이 함수는 선택적 매개 변수인 <code>countOrCondition</code>을(를) 사용하여 다음과 같은 여러 값 제거를 지원합니다.\r\n <ul>\r\n <li>항목 수가 지정된 경우 해당 개수까지의 항목을 제거합니다. </li>\r\n <li>조건이 지정된 경우 반환되는 목록은 <code>list</code>에서 해당 조건을 충족하는 첫 번째 요소로 시작합니다. 한 항목에서 조건이 충족되지 않으면 이후 항목은 더 이상 고려되지 않습니다. </li>\r\n <li>이 매개 변수가 Null이면 기본 동작이 적용됩니다. </li>\r\n </ul>",
+        "Documentation.LongDescription": "목록 <code>list</code>의 첫 번째 요소를 제거하는 목록을 반환합니다. <code>list</code>이(가) 빈 목록인 경우 빈 목록이 반환됩니다.\r\n이 함수는 선택적 매개 변수 <code>countOrCondition</code>을(를) 사용하여 아래 나열된 여러 값 제거를 지원합니다.\r\n <ul>\r\n <li>숫자를 지정하면 해당 수만큼 항목이 제거됩니다. </li>\r\n <li>조건이 지정되면 <code>list</code>의 시작에서 연속적으로 일치하는 항목이 제거됩니다.</li>\r\n <li>이 매개 변수가 null이면 기본 동작이 관찰됩니다. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "목록의 끝부터 지정된 수만큼의 요소를 제거한 목록을 반환합니다.",
-        "Documentation.LongDescription": "목록의 끝 <code>list</code>부터 마지막 <code>countOrCondition</code>개 요소를 제거한 목록을 반환합니다. <code>list</code>에 <code>countOrCondition</code>보다 적은 요소가 있으면 빈 목록이 반환됩니다.\r\n <ul>\r\n <li>항목 수가 지정된 경우 해당 개수까지의 항목을 제거합니다. </li>\r\n <li>조건이 지정된 경우 반환되는 목록은 <code>list</code>에서 맨 아래에서부터 해당 조건을 충족하는 첫 번째 요소로 끝납니다. 한 항목에서 조건이 충족되지 않으면 이후 항목은 더 이상 고려되지 않습니다. </li>\r\n <li>이 매개 변수가 Null이면 항목이 하나만 제거됩니다. </li>\r\n </ul>",
+        "Documentation.LongDescription": "목록 <code>list</code>의 끝에서 마지막 <code>countOrCondition</code>개 요소를 제거하는 목록을 반환합니다. <code>list</code>이(가) <code>countOrCondition</code> 요소보다 작은 경우 빈 목록이 반환됩니다.\r\n <ul>\r\n <li>숫자를 지정하면 해당 수만큼 항목이 제거됩니다. </li>\r\n <li>조건이 지정되면 <code>list</code>의 끝에서 연속적으로 일치하는 항목이 제거됩니다.</li>\r\n <li>이 매개 변수가 null이면 하나의 항목만 제거됩니다. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "목록의 처음부터 지정된 수만큼의 요소를 건너뛴 목록을 반환합니다.",
-        "Documentation.LongDescription": "<code>list</code> 목록의 첫 번째 요소를 건너뛴 목록을 반환합니다. <code>list</code>이(가) 빈 목록이면 빈 목록이 반환됩니다.\r\n이 함수는 선택적 매개 변수인 <code>countOrCondition</code>을(를) 사용하여 다음과 같은 여러 값 건너뛰기를 지원합니다.\r\n <ul>\r\n <li>항목 수가 지정된 경우 해당 개수까지의 항목을 건너뜁니다. </li>\r\n <li>조건이 지정된 경우 반환되는 목록은 <code>list</code>에서 해당 조건을 충족하는 첫 번째 요소로 시작합니다. 한 항목에서 조건이 충족되지 않으면 이후 항목은 더 이상 고려되지 않습니다. </li>\r\n <li>이 매개 변수가 Null이면 기본 동작이 적용됩니다. </li>\r\n </ul>",
+        "Documentation.LongDescription": "목록 <code>list</code>의 첫 번째 요소를 건너뛰는 목록을 반환합니다. <code>list</code>이(가) 빈 목록인 경우 빈 목록이 반환됩니다.\r\n이 함수는 선택적 매개 변수 <code>countOrCondition</code>을(를) 사용하여 아래 나열된 여러 값 건너뛰기를 지원합니다.\r\n <ul>\r\n <li>숫자를 지정하면 해당 수만큼 항목을 건너뜁니다. </li>\r\n <li>조건이 지정되면 <code>list</code>의 시작에서 연속적으로 일치하는 항목을 건너뜁니다.</li>\r\n <li>이 매개 변수가 null이면 기본 동작이 관찰됩니다. </li>\r\n </ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {
