@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "Per gli esempi di query starter, vedere https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli.",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "Restituisce una tabella con i risultati della query delle \"risorse\" query utente",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "Restituisce un elenco che ignora il numero di elementi specificato a partire dall'inizio dell'elenco.",
-        "Documentation.LongDescription": "Restituisce un elenco che rimuove il primo elemento dell'elenco <code>list</code>. Se <code>list</code> è un elenco vuoto, viene restituito un elenco vuoto.\r\nQuesta funzione accetta un parametro facoltativo, <code>countOrCondition</code>, per rimuovere più valori come elencato di seguito.\r\n <ul>\r\n <li>Se viene specificato un numero, indica fino a quanti elementi vengono rimossi. </li>\r\n <li>Se viene specificata una condizione, l'elenco restituito inizia con il primo elemento di <code>list</code> che soddisfa il criterio. Se un elemento non soddisfa la condizione, non vengono considerati altri elementi. </li>\r\n <li>Se questo parametro è Null, viene adottato il comportamento predefinito. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Restituisce un elenco che rimuove il primo elemento dell'elenco <code>list</code>. Se <code>list</code> è un elenco vuoto, viene restituito un elenco vuoto.\r\nQuesta funzione accetta un parametro facoltativo, <code>countOrCondition</code>, per supportare la rimozione di più valori, come indicato di seguito.\r\n <ul>\r\n <li>Se viene specificato un numero, vengono rimossi fino al numero massimo di elementi. </li>\r\n <li>Se viene specificata una condizione, tutti gli elementi corrispondenti consecutivi all'inizio di <code>list</code> vengono rimossi.</li>\r\n <li>Se questo parametro è Null, viene osservato il comportamento predefinito. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "Restituisce un elenco che rimuove il numero specificato di elementi dalla fine dell'elenco.",
-        "Documentation.LongDescription": "Restituisce un elenco che rimuove gli ultimi <code>countOrCondition</code> elementi dalla fine dell'elenco <code>list</code>. Se <code>list</code> contiene meno di <code>countOrCondition</code> elementi, viene restituito un elenco vuoto.\r\n <ul>\r\n <li>Se viene specificato un numero, indica fino a quanti elementi vengono rimossi. </li>\r\n <li>Se viene specificata una condizione, l'elenco restituito termina con il primo elemento a partire dalla fine di <code>list</code> che soddisfa il criterio. Se un elemento non soddisfa la condizione, non vengono considerati altri elementi. </li>\r\n <li>Se questo parametro è Null, viene rimosso solo un elemento. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Restituisce un elenco che rimuove gli ultimi <code>countOrCondition</code> elementi dalla fine dell'elenco <code>list</code>. Se <code>list</code> contiene meno di <code>countOrCondition</code> elementi, viene restituito un elenco vuoto.\r\n <ul>\r\n <li>Se viene specificato un numero, vengono rimossi fino al numero massimo di elementi. </li>\r\n <li>Se viene specificata una condizione, tutti gli elementi corrispondenti consecutivi alla fine di <code>list</code> vengono rimossi.</li>\r\n <li>Se questo parametro è Null, viene rimosso un solo elemento. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "Restituisce un elenco che ignora il numero di elementi specificato a partire dall'inizio dell'elenco.",
-        "Documentation.LongDescription": "Restituisce un elenco che ignora il primo elemento dell'elenco <code>list</code>. Se <code>list</code> è un elenco vuoto, viene restituito un elenco vuoto.\r\nQuesta funzione accetta un parametro facoltativo, <code>countOrCondition</code>, per ignorare più valori come elencato di seguito.\r\n <ul>\r\n <li>Se viene specificato un numero, indica fino a quanti elementi vengono ignorati. </li>\r\n <li>Se viene specificata una condizione, l'elenco restituito inizia con il primo elemento di <code>list</code> che soddisfa il criterio. Se un elemento non soddisfa la condizione, non vengono considerati altri elementi. </li>\r\n <li>Se questo parametro è Null, viene adottato il comportamento predefinito. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Restituisce un elenco che ignora il primo elemento dell'elenco <code>list</code>. Se <code>list</code> è un elenco vuoto, viene restituito un elenco vuoto.\r\nQuesta funzione accetta un parametro facoltativo, <code>countOrCondition</code>, per supportare l'omissione di più valori, come indicato di seguito.\r\n <ul>\r\n <li>Se viene specificato un numero, fino al numero massimo di elementi viene ignorato. </li>\r\n <li>Se viene specificata una condizione, tutti gli elementi corrispondenti consecutivi all'inizio di <code>list</code> vengono ignorati.</li>\r\n <li>Se questo parametro è Null, viene osservato il comportamento predefinito. </li>\r\n </ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {

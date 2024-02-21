@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "Ukázky počátečních dotazů najdete vhttps://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli.",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "Vrátí tabulku s výsledky dotazu na prostředky uživatelského dotazu.",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "Vrátí seznam s vynechaným určitým počtem prvků na začátku seznamu.",
-        "Documentation.LongDescription": "Vrátí seznam, ze kterého je odebrán první prvek seznamu <code>list</code>. Pokud je seznam <code>list</code> prázdný, je vrácen prázdný seznam.\r\nTato funkce přebírá volitelný parametr <code>countOrCondition</code>, jehož pomocí podporuje odebrání více hodnot, viz níže.\r\n <ul>\r\n <li>Pokud je zadáno číslo, odebere až tolik položek, kolik je určeno tímto číslem. </li>\r\n <li>Pokud je zadána podmínka, vrácený seznam bude začínat prvním elementem seznamu <code>list</code>, který splňuje daná kritéria. Pokud jakákoliv položka podmínku nesplňuje, nejsou již další položky po této položce zpracovány. </li>\r\n <li>Pokud má parametr hodnotu null, použije se výchozí chování. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Vrátí seznam, ze kterého je odebrán první prvek seznamu <code>list</code>. Pokud je <code>list</code> prázdný seznam, vrátí se prázdný seznam.\r\nTato funkce přebírá volitelný parametr <code>countOrCondition</code>, aby podporovala odebrání více hodnot, jak je uvedeno níže.\r\n <ul>\r\n <li>Pokud je zadáno číslo, dojde k odebráni až toho počtu položek. </li>\r\n <li>Pokud je zadaná podmínka, odeberou se všechny po sobě jdoucí odpovídající položky na začátku <code>list</code>.</li>\r\n <li>Pokud je tento parametr null, je zjištěno výchozí chování. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "Vrátí seznam, ze kterého je odebrán určitý počet prvků na konci seznamu.",
-        "Documentation.LongDescription": "Vrátí seznam, ze kterého je odebráno posledních <code>countOrCondition</code> určitý počet prvků na konci seznamu <code>list</code>. Pokud je seznam <code>list</code> obsahuje méně než <code>countOrCondition</code> prvků, je vrácen prázdný seznam.\r\n <ul>\r\n <li>Pokud je zadáno číslo, odebere až tolik položek, kolik je určeno tímto číslem. </li>\r\n <li>Pokud je zadána podmínka, vrácený seznam bude končit prvním prvek od konce seznamu <code>list</code>, který splňuje daná kritéria. Pokud jakákoliv položka podmínku nesplňuje, nejsou již další položky po této položce zpracovány. </li>\r\n <li>Pokud má parametr hodnotu null, bude vrácena pouze jedna položka. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Vrátí seznam, který odebere poslední(ch) <code>countOrCondition</code> prvky(/ů) na konci seznamu <code>list</code>. Pokud <code>list</code> obsahuje méně než <code>countOrCondition</code> prvky(/ů), vrátí se prázdný seznam.\r\n <ul>\r\n <li>Pokud je zadáno číslo, dojde k odebráni až toho počtu položek. </li>\r\n <li>Pokud je zadaná podmínka, odeberou se všechny po sobě jdoucí odpovídající položky na konci <code>list</code>.</li>\r\n <li>Pokud má tento parametr hodnotu null, odebere se pouze jedna položka. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "Vrátí seznam s vynechaným určitým počtem prvků na začátku seznamu.",
-        "Documentation.LongDescription": "Vrátí seznam, který neobsahuje první prvek seznamu <code>list</code>. Pokud je seznam <code>list</code> prázdný, je vrácen prázdný seznam.\r\nTato funkce přebírá volitelný parametr <code>countOrCondition</code>, jehož pomocí podporuje přeskočení více hodnot, viz níže.\r\n <ul>\r\n <li>Pokud je zadáno číslo, přeskočí až tolik položek, kolik je určeno tímto číslem. </li>\r\n <li>Pokud je zadána podmínka, vrácený seznam bude začínat prvním elementem seznamu <code>list</code>, který splňuje daná kritéria. Pokud jakákoliv položka podmínku nesplňuje, nejsou již další položky po této položce zpracovány. </li>\r\n <li>Pokud má parametr hodnotu null, použije se výchozí chování. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Vrátí seznam, který neobsahuje první prvek seznamu <code>list</code>. Pokud je <code>list</code> prázdný seznam, vrátí se prázdný seznam.\r\nTato funkce přebírá volitelný parametr <code>countOrCondition</code>, aby podporovala přeskočení více hodnot, jak je uvedeno níže.\r\n <ul>\r\n <li>Pokud je zadáno číslo, dojde k přeskočení až toho počtu položek. </li>\r\n <li>Pokud je zadaná podmínka, přeskočí se všechny po sobě jdoucí odpovídající položky na začátku <code>list</code>.</li>\r\n <li>Pokud je tento parametr null, je zjištěno výchozí chování. </li>\r\n </ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {

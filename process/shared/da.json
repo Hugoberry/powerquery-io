@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "Se https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for eksempler på startforespørgsler.",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "Returner en tabel med forespørgselsresultater fra brugerforespørgslen \"ressourcer\"",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "Returnerer en liste, der springer det angivne antal elementer over i starten af listen.",
-        "Documentation.LongDescription": "Returnerer en liste, der fjerner første element på listen <code>list</code>. Hvis <code>list</code> er en tom liste, returneres der en tom liste.\r\nDenne funktion bruger en valgfri parameter, <code>countOrCondition</code>, for at understøtte fjernelse af flere værdier som anført nedenfor.\r\n <ul>\r\n <li>Hvis der er angivet et tal, fjernes elementer op til det angivne antal. </li>\r\n <li>Hvis der er angivet en betingelse, starter den returnerede liste med det første element i <code>list</code>, der opfylder kriterierne. Når et element ikke opfylder betingelsen, tages der ikke flere elementer med i betragtning. </li>\r\n <li>Hvis denne parameter er null, anvendes standardfunktionsmåden. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Returnerer en liste, der fjerner første element på listen <code>list</code>. Hvis <code>list</code> er en tom liste, returneres der en tom liste.\r\nDenne funktion kræver en valgfri parameter, <code>countOrCondition</code>, for at understøtte fjernelse af flere værdier som angivet nedenfor.\r\n <ul>\r\n <li>Hvis der er angivet et tal, fjernes op til dette antal elementer. </li>\r\n <li>Hvis der er angivet en betingelse, fjernes alle efterfølgende matchende elementer i starten af <code>list</code>.</li>\r\n <li>Hvis denne parameter er null, observeres standardfunktionsmåden. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "Returnerer en liste, der fjerner det angivne antal elementer fra slutningen af listen.",
-        "Documentation.LongDescription": "Returnerer en liste, der fjerner de sidste <code>countOrCondition</code> elementer fra slutningen af listen <code>list</code>. Hvis <code>list</code> indeholder mindre end <code>countOrCondition</code> elementer, returneres der en tom liste.\r\n <ul>\r\n <li>Hvis der er angivet et tal, fjernes elementer op til det angivne antal. </li>\r\n <li>Hvis der er angivet en betingelse, slutter den returnerede liste med det første element nederst i <code>list</code>, der opfylder kriterierne. Når et element ikke opfylder betingelsen, tages der ikke flere elementer med i betragtning. </li>\r\n <li>Hvis denne parameter er null, fjernes der kun ét element. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Returnerer en liste, der fjerner de sidste <code>countOrCondition</code> elementer fra slutningen af listen <code>list</code>. Hvis <code>list</code> har mindre end <code>countOrCondition</code> elementer, returneres en tom liste.\r\n <ul>\r\n <li>Hvis der er angivet et tal, fjernes op til dette antal elementer. </li>\r\n <li>Hvis der er angivet en betingelse, fjernes alle efterfølgende matchende elementer i slutningen af <code>list</code> .</li>\r\n <li>Hvis denne parameter er null, fjernes kun ét element. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "Returnerer en liste, der springer det angivne antal elementer over i starten af listen.",
-        "Documentation.LongDescription": "Returnerer en liste, der springer første element på listen <code>list</code> over. Hvis <code>list</code> er en tom liste, returneres der en tom liste.\r\nDenne funktion bruger en valgfri parameter, <code>countOrCondition</code>, for at understøtte overspringning af flere værdier som anført nedenfor.\r\n <ul>\r\n <li>Hvis der er angivet et tal, springes elementer op til det angivne antal over. </li>\r\n <li>Hvis der er angivet en betingelse, starter den returnerede liste med det første element i <code>list</code>, der opfylder kriterierne. Når et element ikke opfylder betingelsen, tages der ikke flere elementer med i betragtning. </li>\r\n <li>Hvis denne parameter er null, anvendes standardfunktionsmåden. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Returnerer en liste, der springer første element på listen <code>list</code>over. Hvis <code>list</code> er en tom liste, returneres der en tom liste.\r\nDenne funktion kræver en valgfri parameter, <code>countOrCondition</code>, for at understøtte, at flere værdier springes over, som angivet nedenfor.\r\n <ul>\r\n <li>Hvis der er angivet et tal, springes op til dette antal elementer over. </li>\r\n <li>Hvis der er angivet en betingelse, springes alle efterfølgende matchende elementer over i starten af <code>list</code>.</li>\r\n <li>Hvis denne parameter er null, observeres standardfunktionsmåden. </li>\r\n </ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {

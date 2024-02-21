@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "Перегляньте сторінку https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli, щоб знайти зразки початкових запитів.",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "Повернути таблицю з результатами запиту \"resources\" користувача",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "Повертає список, який пропускає вказану кількість елементів на початку списку.",
-        "Documentation.LongDescription": "Повертає список, який вилучає перший елемент списку <code>list</code>. Якщо список <code>list</code> пустий, повертається пустий список.\r\nДля цієї функції можна вказати додатковий параметр <code>countOrCondition</code>, щоб вилучати кілька значень, як описано нижче.\r\n <ul>\r\n <li>Можна вказати максимальне число елементів для вилучення. </li>\r\n <li>Можна вказати умови, щоб повертався список, який починається з першого елемента в списку <code>list</code>, що відповідає цим умовам. Щойно виявиться невідповідність елемента умові, наступні елементи не розглядаються. </li>\r\n <li>Якщо цей параметр має Null-значення, функція працює стандартним чином. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Повертає список, у якому вилучено перший елемент списку <code>list</code>. Якщо <code>list</code> – пустий список, повертається пустий список.\r\nЦя функція приймає необов’язковий параметр, <code>countOrCondition</code>, щоб підтримувати вилучення кількох значень, як указано нижче.\r\n <ul>\r\n <li>Якщо вказано певну кількість елементів, вилучається не більше вказаної кількості. </li>\r\n <li>Якщо вказано умову, вилучаються всі відповідні послідовні елементи на початку <code>list</code>.</li>\r\n <li>Якщо цей параметр має Null-значення, спостерігатиметься стандартна поведінка. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "Повертає список, який видаляє вказану кількість елементів із кінця списку.",
-        "Documentation.LongDescription": "Повертає список, який видаляє останні <code>countOrCondition</code> елементів із кінця списку <code>list</code>. Якщо у списку <code>list</code> міститься менше <code>countOrCondition</code> елементів, повертається пустий список.\r\n <ul>\r\n <li>Якщо вказано кількість, видаляється елементів не більше, ніж указано. </li>\r\n <li>Якщо вказано умову, повертається список, який закінчується першим елементом із кінця списку <code>list</code>, що задовольняє критерії. Як тільки один елемент не задовольняє умову, наступні елементи не розглядаються. </li>\r\n <li>Якщо цей параметр має Null-значення, видаляється лише один елемент. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Повертає список, у якому вилучено кілька останніх елементів (<code>countOrCondition</code>) з кінця списку <code>list</code>. Якщо кількість елементів у <code>list</code> менше <code>countOrCondition</code>, повертається пустий список.\r\n <ul>\r\n <li>Якщо вказано певну кількість елементів, вилучається не більше вказаної кількості. </li>\r\n <li>Якщо вказано умову, вилучаються всі відповідні послідовні елементи в кінці <code>list</code>.</li>\r\n <li>Якщо цей параметр має Null-значення, вилучається лише один елемент. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "Повертає список, який пропускає вказану кількість елементів на початку списку.",
-        "Documentation.LongDescription": "Повертає список, який пропускає перший елемент списку <code>list</code>. Якщо список <code>list</code> пустий, повертається пустий список.\r\nДля цієї функції можна вказати додатковий параметр <code>countOrCondition</code>, щоб пропускати кілька значень, як описано нижче.\r\n <ul>\r\n <li>Можна вказати максимальне число елементів для пропускання. </li>\r\n <li>Можна вказати умови, щоб повертався список, який починається з першого елемента в списку <code>list</code>, що відповідає цим умовам. Щойно виявиться невідповідність елемента умові, наступні елементи не розглядаються. </li>\r\n <li>Якщо цей параметр має Null-значення, функція працює стандартним чином. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Повертає список, у якому пропущено перший елемент списку <code>list</code>. Якщо <code>list</code> – пустий список, повертається пустий список.\r\nЦя функція приймає необов’язковий параметр, <code>countOrCondition</code>, щоб підтримувати пропуск кількох значень, як указано нижче.\r\n <ul>\r\n <li>Якщо вказано певну кількість елементів, пропускається не більше вказаної кількості. </li>\r\n <li>Якщо вказано умову, вилучаються всі відповідні послідовні елементи на початку <code>list</code>.</li>\r\n <li>Якщо цей параметр має Null-значення, спостерігатиметься стандартна поведінка. </li>\r\n </ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {

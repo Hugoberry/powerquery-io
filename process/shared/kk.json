@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "Көріңіз: https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "Пайдаланушының “ресурстар” сұрауының нәтижелері бар кестені қайтару",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "Тізімнің басында көрсетілген элементтер санын өткізіп жіберетін тізімді қайтарады.",
-        "Documentation.LongDescription": "<code>list</code> тізімінің бірінші элементін жоятын тізімді қайтарады. Егер <code>list</code> бос тізім болса, бос тізім қайтарылады.\r\nБұл функция төменде тізілгендей бірнеше мәнді жою үшін <code>countOrCondition</code> міндетті емес параметрін қабылдайды. \r\n <ul>\r\n <li>Егер сан көрсетілген болса, сонша элементке дейін жойылады. </li>\r\n <li>Егер шарт көрсетілген болса, қайтарылған тізім <code>list</code> ішіндегі шарттарға сай бірінші элементтен басталады. Бір элемент шартқа сай болмаса, басқа ешбір элементтер қарастырылмайды. </li>\r\n <li>Егер бұл параметр нөл болса, әдепкі тәртібі сақталады. </li>\r\n </ul>",
+        "Documentation.LongDescription": "<code>list</code>тізімінің бірінші элементін жоятын тізімді қайтарады. Егер <code>list</code> бос тізім болса, бос тізім қайтарылады.\r\nБұл функция төменде көрсетілгендей бірнеше мәнді жоюды қолдау үшін қосымша <code>countOrCondition</code> параметрін қабылдайды.\r\n <ul>\r\n <li>Егер сан көрсетілсе, осыншама көп элементтер жойылады. </li>\r\n <li>Егер шарт көрсетілсе, <code>list</code> басында барлық дәйекті сәйкес элементтер жойылады.</li>\r\n <li>Бұл параметр бос болса, әдепкі әрекет байқалады. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "Тізімнің соңынан көрсетілген элементтер санын жоятын тізімді қайтарады.",
-        "Documentation.LongDescription": "<code>list</code> тізімнің соңынан соңғы <code>countOrCondition</code> элементті жоятын тізімді қайтарады. Егер <code>list</code> ішінде <code>countOrCondition</code> кем элемент болса, бос тізім қайтарылады.\r\n <ul>\r\n <li>Егер сан көрсетілген болса, сонша элементке дейін жойылады. </li>\r\n <li>Егер шарт көрсетілген болса, қайтарылған тізім <code>list</code> ішіндегі шарттарға сай төменгі жақтағы бірінші элементпен аяқталады. Бір элемент шартқа сай болмаса, басқа ешбір элементтер қарастырылмайды. </li>\r\n <li>Егер бұл параметрдің мәні null болса, тек бір элемент жойылады. </li>\r\n </ul>",
+        "Documentation.LongDescription": "<code>countOrCondition</code> тізімнің соңынан соңғы <code>list</code>элементті жоятын тізімді қайтарады. Егер <code>list</code> ішінде <code>countOrCondition</code> элементтен аз болса, бос тізім қайтарылады.\r\n <ul>\r\n <li>Егер сан көрсетілсе, осыншама көп элементтер жойылады. </li>\r\n <li>Егер шарт көрсетілсе, <code>list</code>  соңында барлық дәйекті сәйкес элементтер жойылады.</li>\r\n <li>Бұл параметр бос болса, тек бір элемент жойылады. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "Тізімнің басында көрсетілген элементтер санын өткізіп жіберетін тізімді қайтарады.",
-        "Documentation.LongDescription": "<code>list</code> тізімінің бірінші элементін өткізіп жіберетін тізімді қайтарады. Егер <code>list</code> бос тізім болса, бос тізім қайтарылады.\r\nБұл функция төменде тізілгендей бірнеше мәнді өткізіп жіберу үшін <code>countOrCondition</code> міндетті емес параметрін қабылдайды. \r\n <ul>\r\n <li>Егер сан көрсетілген болса, соншаға дейін элементтер өткізіп жіберіледі. </li>\r\n <li>Егер шарт көрсетілген болса, қайтарылған тізім <code>list</code> ішіндегі шарттарға сай бірінші элементтен басталады. Бір элемент шартқа сай болмаса, басқа ешбір элементтер қарастырылмайды. </li>\r\n <li>Егер бұл параметр нөл болса, әдепкі тәртібі сақталады. </li>\r\n </ul>",
+        "Documentation.LongDescription": "<code>list</code>тізімінің бірінші элементін өткізіп жіберетін тізімді қайтарады. Егер <code>list</code> бос тізім болса, бос тізім қайтарылады.\r\nБұл функция төменде көрсетілгендей бірнеше мәнді өткізіп жіберуді қолдау үшін қосымша <code>countOrCondition</code> параметрін қабылдайды.\r\n <ul>\r\n <li>Егер сан көрсетілсе, осыншама көп элементтер өткізіп жіберіледі. </li>\r\n <li>Егер шарт көрсетілсе, <code>list</code> басында барлық дәйекті сәйкес элементтер өткізіп жіберіледі.</li>\r\n <li>Бұл параметр бос болса, әдепкі әрекет байқалады. </li>\r\n </ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {

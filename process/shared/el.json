@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "Δείτε https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli για δείγματα ερωτημάτων εκκίνησης.",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "Επιστρέψτε έναν πίνακα με αποτελέσματα ερωτημάτων για \"πόρους\" ερωτήματος χρήστη",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "Επιστρέφει μια λίστα που παραλείπει τον καθορισμένο αριθμό στοιχείων από την αρχή της λίστας.",
-        "Documentation.LongDescription": "Επιστρέφει μια λίστα που καταργεί το πρώτο στοιχείο της λίστας <code>list</code>. Εάν η λίστα <code>list</code> είναι κενή, επιστρέφεται μια κενή λίστα.\r\nΑυτή η συνάρτηση μπορεί να λάβει μια προαιρετική παράμετρο, <code>countOrCondition</code>, προκειμένου να υποστηρίξει την κατάργηση πολλαπλών τιμών όπως περιγράφεται παρακάτω. \r\n <ul>\r\n <li>Εάν καθοριστεί αριθμός, καταργούνται μέχρι τόσα στοιχεία. </li>\r\n <li>Εάν καθοριστεί συνθήκη, η λίστα που επιστρέφεται ξεκινά με το πρώτο στοιχείο της λίστας <code>list</code> που ικανοποιεί τα κριτήρια. Από τη στιγμή που ένα στοιχείο δεν ικανοποιεί τη συνθήκη, δεν εξετάζονται περαιτέρω στοιχεία. </li>\r\n <li>Εάν αυτή η παράμετρος είναι null, παρατηρείται η προεπιλεγμένη συμπεριφορά. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Επιστρέφει μια λίστα που καταργεί το πρώτο στοιχείο της λίστας <code>list</code>. Εάν <code>list</code> είναι μια κενή λίστα, επιστρέφεται μια κενή λίστα.\r\nΑυτή η συνάρτηση λαμβάνει μια προαιρετική παράμετρο, <code>countOrCondition</code>, για να υποστηρίξει την κατάργηση πολλών τιμών, όπως αναφέρεται παρακάτω.\r\n <ul>\r\n <li>Εάν έχει καθοριστεί ένας αριθμός, καταργούνται έως και πολλά στοιχεία. </li>\r\n <li>Εάν καθοριστεί μια συνθήκη, καταργούνται τυχόν διαδοχικά στοιχεία που ταιριάζουν στην αρχή του <code>list</code> .</li>\r\n <li>Εάν αυτή η παράμετρος είναι null, παρατηρείται η προεπιλεγμένη συμπεριφορά. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "Επιστρέφει μια λίστα που καταργεί τον καθορισμένο αριθμό στοιχείων από το τέλος της λίστας.",
-        "Documentation.LongDescription": "Επιστρέφει μια λίστα που καταργεί τα τελευταία <code>countOrCondition</code> στοιχεία από το τέλος της λίστας <code>list</code>. Εάν η λίστα <code>list</code> έχει λιγότερα από <code>countOrCondition</code> στοιχεία, επιστρέφεται μια κενή λίστα.\r\n <ul>\r\n <li>Εάν καθοριστεί αριθμός, καταργούνται μέχρι τόσα στοιχεία. </li>\r\n <li>Εάν καθοριστεί συνθήκη, η λίστα που επιστρέφεται τελειώνει με το πρώτο στοιχείο από το τέλος της λίστας <code>list</code> που ικανοποιεί τα κριτήρια. Από τη στιγμή που ένα στοιχείο δεν ικανοποιεί τη συνθήκη, δεν εξετάζονται περαιτέρω στοιχεία. </li>\r\n <li>Εάν αυτή η παράμετρος είναι null, καταργείται μόνο ένα στοιχείο. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Επιστρέφει μια λίστα που καταργεί τα τελευταία <code>countOrCondition</code> στοιχεία από το τέλος της λίστας <code>list</code>. Εάν <code>list</code> έχει λιγότερα από <code>countOrCondition</code> στοιχεία, επιστρέφεται μια κενή λίστα.\r\n <ul>\r\n <li>Εάν έχει καθοριστεί ένας αριθμός, καταργούνται έως και πολλά στοιχεία. </li>\r\n <li>Εάν καθοριστεί μια συνθήκη, καταργούνται τυχόν διαδοχικά στοιχεία που ταιριάζουν στο τέλος του <code>list</code> .</li>\r\n <li>Εάν αυτή η παράμετρος είναι null, καταργείται μόνο ένα στοιχείο. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "Επιστρέφει μια λίστα που παραλείπει τον καθορισμένο αριθμό στοιχείων από την αρχή της λίστας.",
-        "Documentation.LongDescription": "Επιστρέφει μια λίστα που παραλείπει το πρώτο στοιχείο της λίστας <code>list</code>. Εάν η λίστα <code>list</code> είναι κενή, επιστρέφεται μια κενή λίστα.\r\nΗ συνάρτηση μπορεί να λάβει μια προαιρετική παράμετρο, <code>countOrCondition</code>, προκειμένου να υποστηρίξει την παράλειψη πολλαπλών τιμών όπως περιγράφεται παρακάτω.\r\n <ul>\r\n <li>Εάν καθοριστεί αριθμός, παραλείπονται μέχρι τόσα στοιχεία. </li>\r\n <li>Εάν καθοριστεί συνθήκη, η λίστα που επιστρέφεται ξεκινά με το πρώτο στοιχείο της λίστας <code>list</code> που ικανοποιεί τα κριτήρια. Από τη στιγμή που ένα στοιχείο δεν ικανοποιεί τη συνθήκη, δεν εξετάζονται περαιτέρω στοιχεία. </li>\r\n <li>Εάν αυτή η παράμετρος είναι null, παρατηρείται η προεπιλεγμένη συμπεριφορά. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Επιστρέφει μια λίστα που παραλείπει το πρώτο στοιχείο της λίστας <code>list</code>. Εάν <code>list</code> είναι μια κενή λίστα, επιστρέφεται μια κενή λίστα.\r\nΑυτή η συνάρτηση λαμβάνει μια προαιρετική παράμετρο, <code>countOrCondition</code>, για να υποστηρίξει την παράλειψη πολλών τιμών, όπως αναφέρεται παρακάτω.\r\n <ul>\r\n <li>Εάν έχει καθοριστεί ένας αριθμός, παραλείπονται έως και πολλά στοιχεία. </li>\r\n <li>Εάν καθοριστεί μια συνθήκη, παραλείπονται τυχόν διαδοχικά στοιχεία που ταιριάζουν στην αρχή του <code>list</code> .</li>\r\n <li>Εάν αυτή η παράμετρος είναι null, παρατηρείται η προεπιλεγμένη συμπεριφορά. </li>\r\n </ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {

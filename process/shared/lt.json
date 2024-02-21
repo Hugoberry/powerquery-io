@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "Žr. https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli pradinių užklausų pavyzdžius.",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "Pateikti lentelę su vartotojo užklausos „ištekliai“ užklausos rezultatais",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "Pateikiamas sąrašas, kurio pradžioje praleistas nurodytas elementų skaičius.",
-        "Documentation.LongDescription": "Pateikiamas sąrašas, kuriame pašalintas pirmasis sąrašo <code>list</code> elementas. Jei <code>list</code> yra tuščias sąrašas, pateikiamas tuščias sąrašas.\r\nŠi funkcija naudoja pasirenkamą parametrą <code>countOrCondition</code>, kad palaikytų kelių reikšmių pašalinimą, kaip nurodyta toliau.\r\n <ul>\r\n <li>Jei nurodytas skaičius, pašalinama iki tiek elementų, koks yra šis skaičius. </li>\r\n <li>Jei nurodyta sąlyga, pateiktas sąrašas prasideda pirmuoju <code>list</code> elementu, atitinkančiu kriterijus. Jei elementas neatitinka sąlygos, į tolesnius elementus neatsižvelgiama. </li>\r\n <li>Jei šis parametras neapibrėžtas, nustatomas numatytasis veikimo būdas. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Pateikiamas sąrašas, kuriame pašalintas pirmasis sąrašo <code>list</code> elementas. Jei <code>list</code> yra tuščias sąrašas, pateikiamas tuščias sąrašas.\r\nŠi funkcija naudoja pasirinktinį parametrą, <code>countOrCondition</code>, kad palaikytų kelių reikšmių šalinimą, kaip nurodyta toliau.\r\n <ul>\r\n <li>Jei nurodytas skaičius, pašalinama iki tiek elementų. </li>\r\n <li>Jei nurodyta sąlyga, visi iš eilės atitinkantys elementai pradžioje pašalinami <code>list</code>.</li>\r\n<li>Jei šis parametras neapibrėžtas, pastebimas numatytasis veikimas. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "Pateikiamas sąrašas, kurio pabaigoje pašalintas nurodytas elementų skaičius.",
-        "Documentation.LongDescription": "Pateikiamas sąrašas, kurio pabaigoje nėra <code>countOrCondition</code> paskutinių sąrašo <code>list</code> elementų. Jei <code>list</code> yra mažiau nei <code>countOrCondition</code> element., pateikiamas tuščias sąrašas.\r\n <ul>\r\n <li>Jei nurodytas skaičius, pašalinama iki tiek elementų, koks yra šis skaičius. </li>\r\n <li>Jei nurodyta sąlyga, pateiktas sąrašas baigiasi pirmuoju nuo apačios <code>list</code> elementu, atitinkančiu kriterijus. Jei elementas neatitinka sąlygos, į tolesnius elementus neatsižvelgiama. </li>\r\n <li>Jei šis parametras neapibrėžtas, pašalinamas tik vienas elementas. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Pateikiamas sąrašas, kuris pašalina paskutinius <code>countOrCondition</code> elementus iš sąrašo pabaigos <code>list</code>. Jei <code>list</code> yra mažiau nei <code>countOrCondition</code> elementų, pateikiamas tuščias sąrašas.\r\n <ul>\r\n <li>Jei nurodytas skaičius, pašalinama iki tiek elementų. </li>\r\n <li>Jei nurodyta sąlyga, visi iš eilės atitinkantys elementai <code>list</code> pabaigoje pašalinami.</li>\r\n <li>Jei šis parametras neapibrėžtas, pašalinamas tik vienas elementas. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "Pateikiamas sąrašas, kurio pradžioje praleistas nurodytas elementų skaičius.",
-        "Documentation.LongDescription": "Pateikiamas sąrašas, kuriame praleidžiamas pirmasis sąrašo <code>list</code> elementas. Jei <code>list</code> yra tuščias sąrašas, pateikiamas tuščias sąrašas.\r\nŠi funkcija naudoja pasirenkamą parametrą <code>countOrCondition</code>, kad palaikytų kelių reikšmių praleidimą, kaip nurodyta toliau.\r\n <ul>\r\n <li>Jei nurodytas skaičius, praleidžiama iki tiek elementų, koks yra šis skaičius. </li>\r\n <li>Jei nurodyta sąlyga, pateiktas sąrašas prasideda pirmuoju <code>list</code> elementu, atitinkančiu kriterijus. Jei elementas neatitinka sąlygos, į tolesnius elementus neatsižvelgiama. </li>\r\n <li>Jei šis parametras neapibrėžtas, nustatomas numatytasis veikimo būdas. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Pateikiamas sąrašas, kuriame praleidžiamas pirmasis sąrašo <code>list</code> elementas. Jei <code>list</code> yra tuščias sąrašas, pateikiamas tuščias sąrašas.\r\nŠi funkcija naudoja pasirinktinį parametrą, <code>countOrCondition</code>, kad palaikytų kelių reikšmių šalinimą, kaip nurodyta toliau.\r\n <ul>\r\n <li>Jei nurodytas skaičius, praleidžiama iki tiek elementų. </li>\r\n <li>Jei nurodyta sąlyga, visi iš eilės atitinkantys elementai pradžioje praleidžiami <code>list</code>.</li>\r\n <li>Jei šis parametras neapibrėžtas, pastebimas numatytasis veikimas. </li>\r\n </ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {

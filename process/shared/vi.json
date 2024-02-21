@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "Xem https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli để tham khảo mẫu truy vấn cho người bắt đầu.",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "Trả về bảng chứa kết quả truy vấn của truy vấn người dùng có tên \"resources\"",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "Trả về một danh sách bỏ qua số lượng phần tử đã được chỉ định ở đầu danh sách.",
-        "Documentation.LongDescription": "Trả về một danh sách loại bỏ phần tử đầu tiên của danh sách <code>list</code>. Nếu <code>list</code> là danh sách trống thì một danh sách trống được trả về.\r\nHàm này lấy một tham số tùy chọn là <code>countOrCondition</code> để hỗ trợ loại bỏ nhiều giá trị như được liệt kê bên dưới.\r\n <ul>\r\n <li>Nếu một số được chỉ định thì tối đa là số lượng mục đó được loại bỏ. </li>\r\n <li>Nếu một điều kiện được chỉ định thì danh sách được trả về bắt đầu bằng phần tử đầu tiên trong <code>list</code> đáp ứng tiêu chí. Khi một mục không đáp ứng điều kiện thì không có thêm mục nào được xem xét. </li>\r\n <li>Nếu tham số này rỗng thì hành vi mặc định được tuân thủ. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Trả về một danh sách xóa phần tử đầu tiên của danh sách <code>list</code>. Nếu <code>list</code> là danh sách trống, thì sẽ trả về danh sách trống.\r\nHàm này lấy một tham số tùy chọn, <code>countOrCondition</code>, để hỗ trợ xóa nhiều giá trị như được liệt kê dưới đây.\r\n <ul>\r\n <li>Nếu một số được chỉ định, tối đa số lượng mục đó sẽ bị xóa. </li>\r\n <li>Nếu một điều kiện được chỉ định thì mọi mục khớp liên tiếp ở đầu <code>list</code> sẽ bị xóa.</li>\r\n <li>Nếu tham số này là null thì hoạt động mặc định sẽ được quan sát. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "Trả về một danh sách loại bỏ số lượng phần tử đã được chỉ định từ cuối danh sách.",
-        "Documentation.LongDescription": "Trả về một danh sách loại bỏ các phần tử <code>countOrCondition</code> cuối cùng từ cuối danh sách <code>list</code>. Nếu <code>list</code> có ít hơn <code>countOrCondition</code> phần tử thì danh sách trống được trả về.\r\n <ul>\r\n <li>Nếu một số được chỉ định thì tối đa là số lượng mục đó được loại bỏ. </li>\r\n <li>Nếu một điều kiện được chỉ định thì danh sách được trả về kết thúc bằng phần tử đầu tiên tính từ cuối trong <code>list</code> đáp ứng tiêu chí. Khi một mục không đáp ứng điều kiện thì không có thêm mục nào được xem xét. </li>\r\n <li>Nếu tham số này rỗng thì chỉ có một mục bị loại bỏ. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Trả về một danh sách xóa các phần tử <code>countOrCondition</code> cuối cùng từ cuối danh sách <code>list</code>. Nếu <code>list</code> có ít hơn <code>countOrCondition</code> phần tử, sẽ trả về danh sách trống.\r\n <ul>\r\n <li>Nếu một số được chỉ định, tối đa số lượng mục đó sẽ bị xóa. </li>\r\n <li>Nếu một điều kiện được chỉ định thì mọi mục khớp liên tiếp ở cuối <code>list</code> sẽ bị xóa.</li>\r\n <li>Nếu tham số này là null thì chỉ có một mục bị xóa. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "Trả về một danh sách bỏ qua số lượng phần tử đã được chỉ định tại phần đầu danh sách.",
-        "Documentation.LongDescription": "Trả về một danh sách bỏ qua phần tử đầu tiên của danh sách <code>list</code>. Nếu <code>list</code> là danh sách trống thì một danh sách trống được trả về.\r\nHàm này lấy một tham số tùy chọn là <code>countOrCondition</code> để hỗ trợ bỏ qua nhiều giá trị như được nêu bên dưới.\r\n <ul>\r\n <li>Nếu một số được chỉ định thì tối đa là số lượng mục đó được bỏ qua. </li>\r\n <li>Nếu một điều kiện được chỉ định thì danh sách được trả về bắt đầu bằng phần tử đầu tiên trong <code>list</code> đáp ứng tiêu chí. Khi một mục không đáp ứng được điều kiện thì không có thêm mục nào được xem xét. </li>\r\n <li>Nếu tham số này là null thì hành vi mặc định được tuân thủ. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Trả về một danh sách bỏ qua phần tử đầu tiên của danh sách <code>list</code>. Nếu <code>list</code> là danh sách trống, thì sẽ trả về danh sách trống.\r\nHàm này lấy một tham số tùy chọn, <code>countOrCondition</code>, để hỗ trợ bỏ qua nhiều giá trị như được liệt kê dưới đây.\r\n <ul>\r\n <li>Nếu một số được chỉ định, tối đa số lượng mục đó sẽ bị bỏ qua. </li>\r\n <li>Nếu một điều kiện được chỉ định thì mọi mục khớp liên tiếp ở đầu <code>list</code> sẽ bị bỏ qua.</li>\r\n <li>Nếu tham số này là null thì hoạt động mặc định sẽ được quan sát. </li>\r\n </ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {

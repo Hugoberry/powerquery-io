@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "查看入門查詢: https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli。",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "傳回具有使用者查詢 'resources' 之查詢結果的資料表",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "傳回清單，略過清單開頭指定數目的項目。",
-        "Documentation.LongDescription": "傳回清單，移除清單 <code>list</code> 的第一個項目。如果 <code>list</code> 是空的清單，即傳回空的清單。\r\n這個函數接受選擇性參數 <code>countOrCondition</code>，以支援移除下列多個值。\r\n <ul>\r\n <li>如果指定了數字，最多移除該數量的項目。</li>\r\n <li>如果指定了條件，傳回的清單開頭是 <code>list</code> 中符合條件的第一個項目。一旦有項目不符合條件，就不再考慮其他項目。</li>\r\n <li>如果這個參數是 Null，則依照預設行為。</li>\r\n </ul>",
+        "Documentation.LongDescription": "傳回移除清單 <code>list</code> 之第一個元素的清單。如果 <code>list</code> 為空白清單，則會返回空白清單。\r\n此函數接受選擇性參數 <code>countOrCondition</code>，以支援移除下列多個值。\r\n<ul>\r\n<li>如果指定數字，則會移除最多該數量的項目。</li>\r\n<li>如果指定條件，則會移除 <code>list</code> 開頭的任何連續符合項目。</li>\r\n<li>如果此參數為 Null，則觀察到預設行為。</li>\r\n</ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "傳回清單，移除清單結尾指定數目的項目。",
-        "Documentation.LongDescription": "傳回清單，移除清單 <code>list</code> 結尾最後 <code>countOrCondition</code> 個項目。如果 <code>list</code> 中的項目數少於 <code>countOrCondition</code>，即傳回空的清單。\r\n <ul>\r\n <li>如果指定了數字，最多移除該數量的項目。</li>\r\n <li>如果指定了條件，傳回的清單結尾是 <code>list</code> 末端符合條件的第一個項目。一旦有項目不符合條件，就不再考慮其他項目。</li>\r\n <li>如果這個參數是 null，則只移除一個項目。</li>\r\n </ul>",
+        "Documentation.LongDescription": "傳回移除清單 <code>list</code> 結尾最後 <code>countOrCondition</code> 個元素的清單。如果 <code>list</code> 擁有少於 <code>countOrCondition</code> 個元素，會返回空的清單。\r\n<ul>\r\n<li>如果指定數字，則會移除最多該數量的項目。</li>\r\n<li>如果指定條件，則會移除 <code>list</code> 結尾的任何連續符合項目。</li>\r\n<li>如果此參數為 Null，則只會移除一個項目。</li>\r\n</ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "傳回清單，略過清單開頭指定數目的項目。",
-        "Documentation.LongDescription": "傳回清單，略過清單 <code>list</code> 的第一個項目。如果 <code>list</code> 是空的清單，即傳回空的清單。\r\n這個函數接受選擇性參數 <code>countOrCondition</code>，以支援略過下列多個值。\r\n <ul>\r\n <li>如果指定了數字，最多略過該數量的項目。 </li>\r\n <li>如果指定了條件，傳回的清單開頭是 <code>list</code> 中符合條件的第一個項目。一旦有項目不符合條件，就不再考慮其他項目。</li>\r\n <li>如果這個參數是 Null，則依照預設行為。</li>\r\n </ul>",
+        "Documentation.LongDescription": "傳回略過清單 <code>list</code> 之第一個元素的清單。如果 <code>list</code> 為空白清單，則會返回空白清單。\r\n此函數接受選擇性參數 <code>countOrCondition</code>，以支援跳過下列多個值。\r\n<ul>\r\n<li>如果指定數字，則會跳過最多該數量的項目。</li>\r\n<li>如果指定條件，則會跳過 <code>list</code> 開頭的任何連續符合項目。</li>\r\n<li>如果此參數為 Null，則觀察到預設行為。</li>\r\n</ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {

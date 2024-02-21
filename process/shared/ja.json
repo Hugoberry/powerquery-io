@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "スターター クエリのサンプルについては https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli を参照してください。",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "ユーザー クエリ 'resources' のクエリ結果を含むテーブルを返します",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "リストの先頭から指定された数の要素をスキップした結果のリストを返します。",
-        "Documentation.LongDescription": "リスト <code>list</code> の最初の要素を削除した結果のリストを返します。<code>list</code> が空のリストの場合は、空のリストが返されます。\r\nこの関数は、省略可能なパラメーター <code>countOrCondition</code> を受け取って、次のように複数の値の削除をサポートします。\r\n <ul>\r\n <li>数値を指定した場合、その数までの項目が削除されます。</li>\r\n <li>条件を指定した場合、返されるリストは、条件を満たす <code>list</code> 内の最初の要素で始まります。条件を満たさない項目があると、それ以降の項目は考慮されません。</li>\r\n <li>このパラメーターが null の場合は、既定の動作が見られます。</li>\r\n </ul>",
+        "Documentation.LongDescription": "リスト <code>list</code> の最初の要素を削除したリストを返します。<code>list</code> が空のリストの場合は、空のリストが返されます。\r\nこの関数は、オプション パラメーター <code>countOrCondition</code> を受け取り、次に示すような複数の値の削除をサポートします。\r\n<ul>\r\n<li>数値を指定すると、最大でその数値分の項目が削除されます。</li>\r\n<li>条件が指定されている場合、<code>list</code> の先頭で連続して一致する項目はすべて削除されます。</li>\r\n<li>このパラメーターが null の場合、既定の動作が行われます。 </li>\r\n</ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "リストの末尾から指定された数の要素を削除した結果のリストを返します。",
-        "Documentation.LongDescription": "リスト <code>list</code> の末尾から、最後の <code>countOrCondition</code> 個の要素を削除した結果のリストを返します。<code>list</code> 内の要素数が <code>countOrCondition</code> 未満の場合は、空のリストが返されます。\r\n <ul>\r\n <li>数値を指定した場合、その数までの項目が削除されます。</li>\r\n <li>条件を指定した場合、返されるリストは、<code>list</code> 内で条件を満たす、下から数えて最初にある要素で終わります。条件を満たさない項目があると、それ以降の項目は考慮されません。</li>\r\n <li>このパラメーターが NULL の場合は、ただ 1 つのアイテムが削除されます。</li>\r\n </ul>",
+        "Documentation.LongDescription": "リスト<code>list</code> の末尾から <code>countOrCondition</code> 個の要素を削除したリストを返します。<code>list</code> が <code>countOrCondition</code> 個未満の要素しか含まれていない場合は、空のリストが返されます。\r\n<ul>\r\n<li>数値を指定すると、最大でその数値分の項目が削除されます。</li>\r\n<li>条件が指定されている場合、<code>list</code> の末尾にある連続した一致する項目はすべて削除されます。</li>\r\n<li>このパラメーターが null の場合、削除される項目は 1 つだけです。 </li>\r\n</ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "リストの先頭から指定された数の要素をスキップした結果のリストを返します。",
-        "Documentation.LongDescription": "リスト <code>list</code> の最初の要素をスキップした結果のリストを返します。<code>list</code> が空のリストの場合は、空のリストが返されます。\r\nこの関数は、省略可能なパラメーター <code>countOrCondition</code> を受け取って、次のように複数の値のスキップをサポートします。\r\n <ul>\r\n <li>数値を指定した場合、その数までの項目がスキップされます。</li>\r\n <li>条件を指定した場合、返されるリストは、条件を満たす <code>list</code> 内の最初の要素で始まります。条件を満たさない項目があると、それ以降の項目は考慮されません。</li>\r\n <li>このパラメーターが null の場合は、既定の動作が見られます。</li>\r\n </ul>",
+        "Documentation.LongDescription": "リスト <code>list</code> の最初の要素をスキップしたリストを返します。<code>list</code> が空のリストの場合は、空のリストが返されます。\r\nこの関数は、オプション パラメーター<code>countOrCondition</code> を受け取り、次に示すような複数の値のスキップをサポートします。\r\n<ul>\r\n<li>数値を指定すると、最大でその数値分の項目がスキップされます。</li>\r\n<li>条件が指定されている場合、<code>list</code> の先頭で連続して一致する項目はすべてスキップされます。</li>\r\n<li>このパラメーターが null の場合、既定の動作が行われます。 </li>\r\n</ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {

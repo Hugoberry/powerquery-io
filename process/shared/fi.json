@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "Katso kyselyiden aloitusesimerkit: https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli.",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "Palauta taulukko, jossa on käyttäjän ‘resurssit’-kyselyn tulokset",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "Palauttaa luettelon, joka ohittaa määritetyn määrän elementtejä luettelon alussa.",
-        "Documentation.LongDescription": "Palauttaa luettelon, joka poistaa luettelon <code>list</code> ensimmäisen elementin. Jos <code>list</code> on tyhjä, palautetaan tyhjä luettelo.\r\nTämä funktio hyväksyy valinnaisen parametrin <code>countOrCondition</code>, jonka avulla tuetaan useiden arvojen poistoa alla luetellulla tavalla.\r\n <ul>\r\n <li>Jos luku määritetään, poistetaan enintään kyseinen määrä kohteita. </li>\r\n <li>Jos ehto määritetään, palautettu luettelo alkaa kohteen <code>list</code> ensimmäisellä elementillä, joka täyttää ehdon. Kun jokin kohde ei täytä ehtoa, muita kohteita ei enää arvioida. </li>\r\n <li>Jos tämä parametri on tyhjäarvo, käytetään oletustoimintaa. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Palauttaa luettelon, joka poistaa luettelon <code>list</code>ensimmäisen elementin. Jos <code>list</code> on tyhjä luettelo, palautetaan tyhjä luettelo.\r\nTämä funktio käyttää valinnaista parametria, <code>countOrCondition</code>, tukemaan useiden arvojen poistamista alla kuvatulla tavalla.\r\n <ul>\r\n <li>Jos luku on määritetty, enintään niin monta kohdetta poistetaan. </li>\r\n <li>Jos ehto määritetään, kaikki peräkkäiset vastaavat kohteet <code>list</code> alussa poistetaan.</li>\r\n <li>Jos tämä parametri on tyhjäarvoinen, oletustoiminta havaitaan. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "Palauttaa luettelon, joka poistaa määritetyn määrän elementtejä luettelon lopusta.",
-        "Documentation.LongDescription": "Palauttaa luettelon, joka poistaa viimeiset <code>countOrCondition</code> elementtiä luettelon <code>list</code> lopusta. Jos luettelossa <code>list</code> on vähemmän kuin <code>countOrCondition</code> elementtiä, palautetaan tyhjä luettelo.\r\n <ul>\r\n <li>Jos luku määritetään, poistetaan enintään kyseinen määrä kohteita. </li>\r\n <li>Jos ehto määritetään, palautettu luettelo päättyy kohteen <code>list</code> ensimmäisellä ehdot täyttävällä elementillä lopusta alkaen. Kun jokin kohde ei täytä ehtoa, muita kohteita ei enää arvioida. </li>\r\n <li>Jos tämä parametri on tyhjäarvo, vain yksi kohde poistetaan. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Palauttaa luettelon, joka poistaa viimeiset <code>countOrCondition</code> elementtiä luettelon <code>list</code>lopusta. Jos <code>list</code> on alle <code>countOrCondition</code> elementtiä, palautetaan tyhjä luettelo.\r\n <ul>\r\n <li>Jos luku on määritetty, enintään niin monta kohdetta poistetaan. </li>\r\n <li>Jos ehto määritetään, kaikki peräkkäiset vastaavat kohteet <code>list</code> lopussa poistetaan.</li>\r\n <li>Jos tämä parametri on tyhjäarvoinen, vain yksi kohde poistetaan. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "Palauttaa luettelon, joka ohittaa määritetyn määrän elementtejä luettelon alussa.",
-        "Documentation.LongDescription": "Palauttaa luettelon, joka ohittaa luettelon <code>list</code> ensimmäisen elementin. Jos <code>list</code> on tyhjä, palautetaan tyhjä luettelo.\r\nTämä funktio hyväksyy valinnaisen parametrin <code>countOrCondition</code>, jonka avulla tuetaan useiden arvojen ohittamista alla luetellulla tavalla.\r\n <ul>\r\n <li>Jos luku määritetään, ohitetaan enintään kyseinen määrä kohteita. </li>\r\n <li>Jos ehto määritetään, palautettu luettelo alkaa kohteen <code>list</code> ensimmäisellä elementillä, joka täyttää ehdon. Kun jokin kohde ei täytä ehtoa, muita kohteita ei enää arvioida. </li>\r\n <li>Jos tämä parametri on tyhjäarvo, käytetään oletustoimintaa. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Palauttaa luettelon, joka ohittaa luettelon <code>list</code>ensimmäisen elementin. Jos <code>list</code> on tyhjä luettelo, palautetaan tyhjä luettelo.\r\nTämä funktio käyttää valinnaista parametria <code>countOrCondition</code>, joka tukee useiden arvojen ohittamista alla kuvatulla tavalla.\r\n <ul>\r\n <li>Jos luku on määritetty, enintään niin monta kohdetta ohitetaan. </li>\r\n <li>Jos ehto määritetään, kaikki peräkkäiset vastaavat kohteet <code>list</code> alussa ohitetaan.</li>\r\n <li>Jos tämä parametri on tyhjäarvoinen, oletustoiminta havaitaan. </li>\r\n </ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {

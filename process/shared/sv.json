@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "Se https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli för startfrågeexempel.",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "Returnera en tabell med frågeresultat för användarfrågan \"resources\"",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "Returnerar en lista som hoppar över angivet antal element i början av listan.",
-        "Documentation.LongDescription": "Returnerar en lista som tar bort det första elementet i listan <code>list</code>. Om <code>list</code> är en tom lista returneras en tom lista.\r\nDen här funktionen använder en valfri parameter, <code>countOrCondition</code>, för att ge stöd för att ta bort flera värden som du ser nedan.\r\n <ul>\r\n <li>Om ett tal anges tas upp till så många objekt bort. </li>\r\n <li>Om ett villkor anges börjar listan som returneras med det första elementet i <code>list</code> som uppfyller villkoret. Om ett objekt inte uppfyller villkoret utvärderas inga fler objekt. </li>\r\n <li>Om den här parametern är null används standardbeteendet. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Returnerar en lista som tar bort det första elementet i listan <code>list</code>. Om <code>list</code> är en tom lista returneras en tom lista.\r\nDen här funktionen tar en valfri parameter, <code>countOrCondition</code>, för att stödja borttagning av flera värden enligt listan nedan.\r\n <ul>\r\n <li>Om ett tal anges tas upp till så många objekt bort. </li>\r\n <li>Om ett villkor anges tas alla efterföljande matchande objekt i början av <code>list</code> bort.</li>\r\n <li>Om den här parametern är null observeras standardbeteendet. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "Returnerar en lista som tar bort angivet antal element från slutet av listan.",
-        "Documentation.LongDescription": "Returnerar en lista som tar bort de sista <code>countOrCondition</code> elementen från slutet av listan <code>list</code>. Om <code>list</code> har färre än <code>countOrCondition</code> element returneras en tom lista.\r\n <ul>\r\n <li>Om ett tal anges tas upp till så många objekt bort. </li>\r\n <li>Om ett villkor anges slutar listan som returneras med det första nedersta elementet i <code>list</code> som uppfyller villkoret. Om ett objekt inte uppfyller villkoret utvärderas inga fler objekt. </li>\r\n <li>Om den här parametern är null tas endast ett objekt bort. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Returnerar en lista som tar bort de sista <code>countOrCondition</code> elementen från slutet av listan <code>list</code>. Om <code>list</code> har färre än <code>countOrCondition</code> element returneras en tom lista.\r\n <ul>\r\n <li>Om ett tal anges tas upp till så många objekt bort. </li>\r\n <li>Om ett villkor anges tas alla efterföljande matchande objekt i slutet av <code>list</code> bort.</li>\r\n <li>Om den här parametern är null tas endast ett objekt bort. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "Returnerar en lista som hoppar över angivet antal element i början av listan.",
-        "Documentation.LongDescription": "Returnerar en lista som hoppar över det första elementet i listan <code>list</code>. Om <code>list</code> är en tom lista returneras en tom lista.\r\nDen här funktionen använder en valfri parameter, <code>countOrCondition</code>, för att ge stöd för att hoppa över flera värden som du ser nedan.\r\n <ul>\r\n <li>Om ett tal anges hoppas så många objekt över. </li>\r\n <li>Om ett villkor anges börjar listan som returneras med det första elementet i <code>list</code> som uppfyller villkoret. Om ett objekt inte uppfyller villkoret utvärderas inga fler objekt. </li>\r\n <li>Om den här parametern är null används standardbeteendet. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Returnerar en lista som hoppar över det första elementet i listan <code>list</code>. Om <code>list</code> är en tom lista returneras en tom lista.\r\nDen här funktionen tar en valfri parameter, <code>countOrCondition</code>, som stöd för att hoppa över flera värden enligt listan nedan.\r\n <ul>\r\n <li>Om ett tal anges hoppas upp till så många objekt över. </li>\r\n <li>Om ett villkor anges hoppas alla efterföljande matchande objekt i början av <code>list</code> över.</li>\r\n <li>Om den här parametern är null observeras standardbeteendet. </li>\r\n </ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {

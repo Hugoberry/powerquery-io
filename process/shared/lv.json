@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "Sākuma vaicājumu paraugus skatiet šeit: https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli.",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "Atgriezt tabulu ar vaicājuma rezultātiem lietotāja vaicājumam “resources”",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "Atgriež sarakstu, kurā ir ietverti ievades saraksta elementi, izlaižot norādīto skaitu elementu saraksta sākumā.",
-        "Documentation.LongDescription": "Atgriež sarakstu, kas noņem pirmo saraksta <code>list</code> elementu. Ja saraksts <code>list</code> ir tukšs, tiek atgriezts tukšs saraksts.\r\nŠajā funkcijā varat norādīt papildu parametru <code>countOrCondition</code>, kas nodrošina vairāku vērtību noņemšanu, kā tas ir norādīts tālāk.\r\n <ul>\r\n <li>Ja ir norādīts skaitlis, tiek noņemts šāds vai mazāks skaits vienumu. </li>\r\n <li>Ja ir norādīts nosacījums, atgrieztais saraksts sākas ar saraksta <code>list</code> pirmo elementu, kas atbilst kritērijiem. Ja kāds vienums neatbilst nosacījumam, nākamie vienumi netiek apstrādāti. </li>\r\n <li>Ja šī parametra vērtība ir Null, tiek veikta noklusējuma darbība. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Atgriež sarakstu, kas noņem pirmo saraksta <code>list</code> elementu. Ja <code>list</code> ir tukšs saraksts, tiek atgriezts tukšs saraksts.\r\nŠai funkcijai ir nepieciešams neobligāts parametrs, <code>countOrCondition</code>, lai atbalstītu vairāku vērtību noņemšanu, kā norādīts tālāk.\r\n <ul>\r\n <li>Ja ir norādīts skaitlis, tiek noņemts ne vairāk kā tik daudz vienumu. </li>\r\n <li>Ja ir norādīts nosacījums, visi secīgie atbilstošie vienumi <code>list</code> sākumā tiek noņemti.</li>\r\n <li>Ja šis parametrs ir null, tiek novērota noklusējuma reakcija. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "Tiek atgriezts saraksts, kurā ir ietverti ievades saraksta elementi, noņemot norādīto skaitu elementu saraksta beigās.",
-        "Documentation.LongDescription": "Tiek atgriezts saraksts, kurā ir noņemti pēdējie <code>countOrCondition</code> elementi saraksta <code>list</code> beigās. Ja sarakstā <code>list</code> ir mazāk par <code>countOrCondition</code> elementiem, tiek atgriezts tukšs saraksts.\r\n <ul>\r\n <li>Ja ir norādīts skaitlis, tiek noņemts šāds vai mazāks skaits vienumu. </li>\r\n <li>Ja ir norādīts nosacījums, atgrieztais saraksts beidzas ar saraksta <code>list</code> beigās esošo pirmo elementu, kas atbilst šim nosacījumam. Ja kāds vienums neatbilst nosacījumam, nākamie vienumi netiek apstrādāti. </li>\r\n <li>Ja šī parametra vērtība ir Nulle, tiek noņemts tikai viens vienums. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Tiek atgriezts saraksts, kurā ir noņemti pēdējie <code>countOrCondition</code> elementi saraksta <code>list</code> beigās. Ja <code>list</code> ir mazāk nekā <code>countOrCondition</code> elementi, tiek atgriezts tukšs saraksts.\r\n <ul>\r\n <li>Ja ir norādīts skaitlis, tiek noņemts ne vairāk kā tik daudz vienumu. </li>\r\n <li>Ja ir norādīts nosacījums, visi secīgie atbilstošie vienumi <code>list</code> beigās tiek noņemti.</li>\r\n <li>Ja šī parametra vērtība ir null, tiek noņemts tikai viens vienums. </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "Atgriež sarakstu, kurā ir ietverti ievades saraksta elementi, izlaižot norādīto skaitu elementu saraksta sākumā.",
-        "Documentation.LongDescription": "Atgriež sarakstu, kurā ir ietverti saraksta <code>list</code> elementi, izlaižot tā pirmo elementu. Ja saraksts <code>list</code> ir tukšs, tiek atgriezts tukšs saraksts.\r\nŠajā funkcijā varat norādīt papildu parametru <code>countOrCondition</code>, kas nodrošina vairāku vērtību izlaišanu, kā tas ir norādīts tālāk.\r\n <ul>\r\n <li>Ja ir norādīts skaitlis, tiek izlaists šāds vai mazāks skaits vienumu. </li>\r\n <li>Ja ir norādīts nosacījums, atgrieztais saraksts sākas ar saraksta <code>list</code> pirmo elementu, kas atbilst kritērijiem. Ja kāds vienums neatbilst nosacījumam, nākamie vienumi netiek apstrādāti. </li>\r\n <li>Ja šī parametra vērtība ir Null, tiek veikta noklusējuma darbība. </li>\r\n </ul>",
+        "Documentation.LongDescription": "Atgriež sarakstu, kas izlaiž pirmo saraksta <code>list</code> elementu. Ja <code>list</code> ir tukšs saraksts, tiek atgriezts tukšs saraksts.\r\nŠai funkcijai ir nepieciešams neobligāts parametrs, <code>countOrCondition</code>, lai atbalstītu vairāku vērtību izlaišanu, kā norādīts tālāk.\r\n <ul>\r\n <li>Ja ir norādīts skaitlis, tiek izlaisti ne vairāk kā tik daudz vienumu. </li>\r\n <li>Ja ir norādīts nosacījums, visi secīgie atbilstošie vienumi <code>list</code> sākumā tiek izlaisti.</li>\r\n <li>Ja šis parametrs ir null, tiek novērota noklusējuma reakcija. </li>\r\n </ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {

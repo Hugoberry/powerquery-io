@@ -209,10 +209,10 @@
       "Name": "AzureResourceGraph.Query",
       "Documentation": {
         "Documentation.Name": "Azure Resource Graph",
-        "Documentation.LongDescription": "See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli for starter query samples.",
+        "Documentation.LongDescription": "ดู https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?tabs=azure-cli สำหรับตัวอย่างคิวรีเริ่มต้น",
         "Documentation.Examples": [
           {
-            "Description": "Return a table with query results of user query 'resources'",
+            "Description": "ส่งกลับตารางที่มีผลลัพธ์คิวรีของคิวรีผู้ใช้ “ทรัพยากร”",
             "Code": "AzureResourceGraph.Query(\"resources\")",
             "processedResult": "#table({\"\"Column1\"\"}, {{\"\"result\"\"}})"
           }
@@ -756,6 +756,31 @@
         "routingTag": "text",
         "routingQueue": "text",
         "encryption": "text"
+      },
+      "RequiredParameters": "1"
+    },
+    {
+      "Name": "DremioCloud.DatabasesByServerV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Cloud",
+        "Documentation.LongDescription": "Returns a table listing the datasets on the specified server on Dremio Cloud. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on a server on Dremio Cloud.",
+            "Code": "DremioCloud.DatabasesByServerV370(\"sql.dremio.cloud:443\")",
+            "Result": "A table listing the datasets on a server."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "projectId": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "encryption": "text",
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2564,7 +2589,7 @@
         "scopeId": "text",
         "jobName": "text",
         "jobId": "text",
-        "advancedParameters": "record"
+        "options": "record"
       },
       "RequiredParameters": "1"
     },
@@ -2884,7 +2909,7 @@
     {
       "Name": "CloudBluePSA.Feed",
       "Documentation": {
-        "Documentation.Name": "Retrieve all pages of data",
+        "Documentation.Name": "CloudBluePSA",
         "Documentation.LongDescription": "This function will resolve the page limitation issue and will retrieve and combine all pages of data returned by the API endpoint in an efficient manner."
       },
       "ReturnType": "table",
@@ -3064,6 +3089,30 @@
         "engine": "text",
         "routingTag": "text",
         "routingQueue": "text"
+      },
+      "RequiredParameters": "2"
+    },
+    {
+      "Name": "Dremio.DatabasesV370",
+      "Documentation": {
+        "Documentation.Name": "Dremio Software",
+        "Documentation.LongDescription": "Returns a table listing the datasets on Dremio Server. This will be the same list as shown in Power BI Navigator. See https://docs.microsoft.com/en-us/powerquery-m/odbc-datasource",
+        "Documentation.Examples": [
+          {
+            "Description": "How to return the list of datasets on localhost with an encrypted connection.",
+            "Code": "Dremio.DatabasesV370(\"localhost:31010\",\"Enabled\")",
+            "Result": "A table listing the datasets on localhost."
+          }
+        ]
+      },
+      "ReturnType": "table",
+      "Parameters": {
+        "server": "text",
+        "encryption": "text",
+        "engine": "text",
+        "routingTag": "text",
+        "routingQueue": "text",
+        "options": "record"
       },
       "RequiredParameters": "2"
     },
@@ -6933,10 +6982,13 @@
       "RequiredParameters": "0"
     },
     {
-      "Name": "SolarWindsServiceDesk.TestContents",
+      "Name": "SolarWindsServiceDesk.ContentsV110",
       "Documentation": {},
       "ReturnType": "any",
-      "Parameters": {},
+      "Parameters": {
+        "RangeStart": "datetime",
+        "RangeEnd": "datetime"
+      },
       "RequiredParameters": "0"
     },
     {
@@ -14763,7 +14815,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveFirstN",
         "Documentation.Description": "ส่งกลับรายการซึ่งข้ามจำนวนที่ระบุขององค์ประกอบที่จุดเริ่มต้นของรายการ",
-        "Documentation.LongDescription": "ส่งกลับรายการที่จะเอาองค์ประกอบแรกของรายการ <code>list</code> ออกถ้า <code>list</code> เป็นรายการที่ว่างเปล่า จะมีการส่งกลับรายการที่ว่างเปล่า\r\nฟังก์ชันนี้จะใช้พารามิเตอร์ที่เลือกได้ <code>countOrCondition</code> เพื่อสนับสนุนการเอาหลายค่าออกตามที่แสดงรายการด้านล่าง\r\n <ul>\r\n <li>ถ้ามีการระบุจำนวน จะมีการเอาหลายข้อมูลออกได้สูงสุดตามจำนวนดังกล่าว</li>\r\n <li>ถ้ามีการระบุเงื่อนไข รายการที่ส่งกลับจะเริ่มต้นด้วยองค์ประกอบแรกใน <code>list</code> ที่ตรงกับเงื่อนไขนั้น เมื่อรายการใดรายการหนึ่งไม่เป็นไปตามเงื่อนไข จะไม่มีการพิจารณารายการถัดไป </li>\r\n <li>ถ้าพารามิเตอร์เป็น null จะมีการปฏิบัติตามลักษณะการทำงานเริ่มต้น </li>\r\n </ul>",
+        "Documentation.LongDescription": "ส่งกลับรายการที่ลบองค์ประกอบแรกของรายการออก<code>list</code> ถ้า <code>list</code> เป็นรายการว่างเปล่า รายการที่ว่างเปล่าจะถูกส่งกลับ\r\nฟังก์ชันนี้ใช้พารามิเตอร์ที่เลือกได้ <code>countOrCondition</code> เพื่อสนับสนุนการลบค่าหลายค่าตามที่แสดงด้านล่าง\r\n <ul>\r\n <li>ถ้ามีการระบุตัวเลข จะมีการลบรายการออกไม่เกินจำนวนนั้น </li>\r\n <li>ถ้ามีการระบุเงื่อนไข รายการที่ตรงกันที่อยู่ติดกันใดๆ ที่จุดเริ่มต้นของ <code>list</code> จะถูกลบออก</li>\r\n <li>ถ้าพารามิเตอร์นี้เป็น null ลักษณะการทํางานเริ่มต้นจะสามารถสังเกตได้ </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14790,7 +14842,7 @@
       "Documentation": {
         "Documentation.Name": "List.RemoveLastN",
         "Documentation.Description": "ส่งกลับรายการซึ่งเอาจำนวนที่ระบุขององค์ประกอบออกจากจุดสิ้นสุดของรายการ",
-        "Documentation.LongDescription": "ส่งกลับรายการซึ่งเอาองค์ประกอบ <code>countOrCondition</code>สุดท้ายออกจากจุดสิ้นสุดของรายการ <code>list</code>ถ้า <code>list</code> น้อยกว่า <code>countOrCondition</code> องค์ประกอบ จะมีการส่งกลับรายการที่ว่างเปล่า\r\n <ul>\r\n <li>ถ้ามีการระบุจำนวน จะมีการเอาหลายข้อมูลออกได้สูงสุดตามจำนวนดังกล่าว</li>\r\n <li>ถ้ามีการระบุเงื่อนไข รายการที่ส่งกลับจะสิ้นสุดด้วยองค์ประกอบแรกจากด้านล่างสุดใน <code>list</code> ที่ตรงกับเงื่อนไขนั้นเมื่อรายการใดรายการหนึ่งไม่เป็นไปตามเงื่อนไข จะไม่มีการพิจารณารายการถัดไป</li>\r\n <li>ถ้าพารามิเตอร์เป็น Null จะมีการลบออกเพียงรายการเดียว</li>\r\n </ul>",
+        "Documentation.LongDescription": "ส่งกลับรายการที่ลบองค์ประกอบ <code>countOrCondition</code> สุดท้ายออกจากจุดสิ้นสุดของรายการ <code>list</code> ถ้า <code>list</code> มีองค์ประกอบน้อยกว่า <code>countOrCondition</code> รายการที่ว่างเปล่าจะถูกส่งกลับ\r\n <ul>\r\n <li>ถ้ามีการระบุตัวเลข จะมีการลบรายการออกไม่เกินจำนวนนั้น </li>\r\n <li>ถ้ามีการระบุเงื่อนไข รายการที่ตรงกันที่อยู่ติดกันใดๆ ที่จุดสิ้นสุดของ <code>list</code> จะถูกลบออก</li>\r\n <li>ถ้าพารามิเตอร์นี้เป็น null จะมีการลบออกเพียงรายการเดียวเท่านั้น </li>\r\n </ul>",
         "Documentation.Category": "List.Transformation functions",
         "Documentation.Examples": [
           {
@@ -14917,7 +14969,7 @@
       "Documentation": {
         "Documentation.Name": "List.Skip",
         "Documentation.Description": "ส่งกลับรายการซึ่งข้ามจำนวนที่ระบุขององค์ประกอบที่จุดเริ่มต้นของรายการ",
-        "Documentation.LongDescription": "ส่งกลับรายการที่ข้ามองค์ประกอบแรกของรายการ <code>list</code> ถ้า <code>list</code> เป็นรายการที่ว่างเปล่า จะมีการส่งกลับรายการที่ว่างเปล่า\r\nฟังก์ชันนี้จะใช้พารามิเตอร์ที่เลือกได้ <code>countOrCondition</code> เพื่อสนับสนุนการข้ามหลายค่าตามที่แสดงรายการด้านล่าง\r\n <ul>\r\n <li>ถ้ามีการระบุจำนวน จะมีการข้ามหลายข้อมูลได้สูงสุดตามจำนวนดังกล่าว </li>\r\n <li>ถ้ามีการระบุเงื่อนไข รายการที่ส่งกลับจะเริ่มต้นด้วยองค์ประกอบแรกใน <code>list</code> ที่ตรงกับเงื่อนไขนั้น เมื่อรายการใดรายการหนึ่งไม่เป็นไปตามเงื่อนไข จะไม่มีการพิจารณารายการถัดไป </li>\r\n <li>ถ้าพารามิเตอร์เป็น null จะมีการปฏิบัติตามลักษณะการทำงานเริ่มต้น </li>\r\n </ul>",
+        "Documentation.LongDescription": "ส่งกลับรายการที่ข้ามองค์ประกอบแรกของรายการ <code>list</code> ถ้า <code>list</code> เป็นรายการว่างเปล่า รายการที่ว่างเปล่าจะถูกส่งกลับ\r\nฟังก์ชันนี้ใช้พารามิเตอร์ที่เลือกได้ <code>countOrCondition</code> เพื่อสนับสนุนการข้ามค่าหลายค่าตามที่แสดงด้านล่าง\r\n <ul>\r\n <li>ถ้ามีการระบุตัวเลข จะมีการข้ามรายการไม่เกินจำนวนนั้น </li>\r\n <li>ถ้ามีการระบุเงื่อนไข รายการที่ตรงกันที่อยู่ติดกันใดๆ ที่จุดเริ่มต้นของ <code>list</code> จะถูกข้าม</li>\r\n <li>ถ้าพารามิเตอร์นี้เป็น null ลักษณะการทํางานเริ่มต้นจะสามารถสังเกตได้ </li>\r\n </ul>",
         "Documentation.Category": "List.Selection",
         "Documentation.Examples": [
           {
