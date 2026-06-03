@@ -184,10 +184,6 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-        googleAnalytics: {
-          trackingID: 'UA-127401670-1',
-          anonymizeIP: true,
-        },
         gtag: {
           trackingID: 'G-LRQEGBG7ES',
           anonymizeIP: true,
