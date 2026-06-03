@@ -25,7 +25,7 @@ Retourne les parties de l'<code>absoluteUri</code> d'entrée comme un enregistre
 ## Examples
 
 ### Example #1 
-Recherche les parties de l&#39;URI absolu &#34; www.adventure-works.com &#34;.
+Recherche les parties de l&#39;URI absolu &#34;www.adventure-works.com&#34;.
 ```powerquery
 Uri.Parts("www.adventure-works.com")
 ```

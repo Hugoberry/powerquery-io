@@ -26,7 +26,7 @@ Retourne une liste de valeurs de texte résultant du fractionnement d'une valeur
 ## Examples
 
 ### Example #1 
-Crée une liste de valeurs de texte &#34; Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com &#34;.
+Crée une liste de valeurs de texte &#34;Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com&#34;.
 ```powerquery
 Text.SplitAny("Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com", "|")
 ```
