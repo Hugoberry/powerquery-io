@@ -210,11 +210,6 @@ const config = {
         },
         items: [
           {
-            href:'https://chat.powerquery.io',
-            label: '🧠Chat',
-            position: 'right',
-          },
-          {
             href: 'https://github.com/Hugoberry/powerquery-io',
             position: 'right',
             className: 'header-github-link',
