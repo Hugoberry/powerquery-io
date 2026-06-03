@@ -25,7 +25,7 @@ Table.SelectRowsWithErrors(
 
 ## Examples
 
-### Example #1 
+### Example #1
 选择其行中包含错误的客户的名称。
 ```powerquery
 Table.SelectRowsWithErrors(

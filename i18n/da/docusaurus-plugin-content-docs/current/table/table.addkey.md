@@ -21,12 +21,12 @@ Table.AddKey(
 
 ## Remarks
 
-Føjer en nøgle til <code>table</code>, hvor <code>columns</code> er listen over kolonnenavne, der definerer nøglen, og <code>isPrimary</code> angiver, om nøglen er primær.
+Føjer en nøgle til `table`, hvor `columns` er listen over kolonnenavne, der definerer nøglen, og `isPrimary` angiver, om nøglen er primær.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Føj en primær nøgle med en enkelt kolonne til en tabel.
 ```powerquery
 let

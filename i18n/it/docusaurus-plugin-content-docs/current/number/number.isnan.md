@@ -19,12 +19,12 @@ Number.IsNaN(
 
 ## Remarks
 
-Indica se il valore è NaN (non un numero). Restituisce <code>true</code> se <code>number</code> è equivalente a <code>Number.IsNaN</code>, in caso contrario <code>false</code>.
+Indica se il valore è NaN (non un numero). Restituisce `true` se `number` è equivalente a `Number.NaN`, in caso contrario `false`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Verificare se 0 diviso per 0 è NaN.
 ```powerquery
 Number.IsNaN(0/0)
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Verificare se 1 diviso per 0 è NaN.
 ```powerquery
 Number.IsNaN(1/0)

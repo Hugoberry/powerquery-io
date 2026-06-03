@@ -19,13 +19,18 @@ Logical.From(
 
 ## Remarks
 
-Zwraca wartość typu <code>logical</code> z danej wartości parametru <code>value</code>. Jeśli dany parametr <code>value</code> ma wartość <code>null</code>, funkcja <code>Logical.From</code> zwraca wartość <code>null</code>.  Jeśli dany parametr <code>value</code> ma wartość typu <code>logical</code>, zwracana jest wartość <code>value</code>. Na wartość typu <code>logical</code> można konwertować wartości następujących typów:      <ul>        <li><code>text</code>: wartość typu <code>logical</code> utworzona na podstawie wartości tekstowej (<code>"true"</code> lub <code>"false"</code>). Zobacz opis funkcji <code>Logical.FromText</code>, aby uzyskać szczegółowe informacje.</li>        <li><code>number</code>: wartość <code>false</code>, jeśli wartość <code>value</code> równa się <code>0</code> — w przeciwnym razie wartość <code>true</code>.</li>      </ul>Jeśli wartość parametru <code>value</code> jest innego typu, jest zwracany błąd.
+Zwraca wartość typu `logical` z danej wartości parametru `value`. Jeśli dany parametr `value` ma wartość `null`, funkcja `Logical.From` zwraca wartość `null`. Jeśli dany parametr `value` ma wartość typu `logical`, zwracana jest wartość `value`. Na wartość typu `logical` można konwertować wartości następujących typów:
+
+-   `text`: wartość typu `logical` utworzona na podstawie wartości tekstowej (`"true"` lub `"false"`). Zobacz opis funkcji `Logical.FromText`, aby uzyskać szczegółowe informacje.
+-   `number`: wartość `false`, jeśli wartość `value` równa się `0` — w przeciwnym razie wartość `true`.
+
+Jeśli wartość parametru `value` jest innego typu, jest zwracany błąd.
 
 
 ## Examples
 
-### Example #1 
-Przekonwertuj wartość &lt;code&gt;2&lt;/code&gt; na wartość typu &lt;code&gt;logical&lt;/code&gt;.
+### Example #1
+Przekonwertuj wartość `2` na wartość typu `logical`.
 ```powerquery
 Logical.From(2)
 ```

@@ -24,7 +24,7 @@ Gibt den Zeilentyp des angegebenen Tabellentyps zurück. Das Ergebnis ist immer 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gibt die Zeilentypinformationen für eine einfache Tabelle zurück.
 ```powerquery
 let

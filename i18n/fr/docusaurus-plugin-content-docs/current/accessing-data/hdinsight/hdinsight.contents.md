@@ -5,7 +5,7 @@ title: HdInsight.Contents
 # HdInsight.Contents
 
 
-Retourne une table de navigation contenant les conteneurs trouvés dans le compte spécifié à partir d&#39;un coffre de stockage Azure.
+Retourne une table de navigation contenant les conteneurs trouvés dans le compte spécifié à partir d'un coffre de stockage Azure.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ HdInsight.Contents(
 
 ## Remarks
 
-Retourne une table de navigation contenant une ligne pour chaque conteneur trouvé pour l'URL du compte, <code>account</code>, à partir d'un coffre de stockage Azure. Chaque ligne contient un lien vers les objets blob du conteneur.
+Retourne une table de navigation contenant une ligne pour chaque conteneur trouvé pour l'URL du compte, `account`, à partir d'un coffre de stockage Azure. Chaque ligne contient un lien vers les objets blob du conteneur.
 
 
 

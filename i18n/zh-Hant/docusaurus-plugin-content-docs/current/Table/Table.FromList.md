@@ -23,12 +23,12 @@ Table.FromList(
 
 ## Remarks
 
-將選擇性分割函數 <code>splitter</code> 套用至清單 <code>list</code> 中的每個項目，藉以將清單轉換成資料表。根據預設，清單會被視為以逗號分隔的文字值清單。選擇性 <code>columns</code> 可能是資料行的數目、資料行清單或 TableType。也可指定選擇性 <code>default</code> 和 <code>extraValues</code>。
+將選擇性分割函數 `splitter` 套用至清單 `list` 中的每個項目，藉以將清單轉換成資料表。根據預設，清單會被視為以逗號分隔的文字值清單。選擇性 `columns` 可能是資料行的數目、資料行清單或 TableType。也可指定選擇性 `default` 和 `extraValues`。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 使用預設分割器從清單建立表格。
 ```powerquery
 Table.FromList(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 使用自訂分割器從清單建立表格。
 ```powerquery
 Table.FromList(
@@ -70,7 +70,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 使用 Record.FieldValues 分割器從清單建立表格。
 ```powerquery
 Table.FromList(

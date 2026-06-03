@@ -19,12 +19,12 @@ Table.ReverseRows(
 
 ## Remarks
 
-ส่งกลับตารางที่มีแถวจากค่าที่ป้อน <code>table</code> ในลำดับย้อนกลับ
+ส่งกลับตารางที่มีแถวจากค่าที่ป้อน `table` ในลำดับย้อนกลับ
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 กลับแถวในตาราง
 ```powerquery
 Table.ReverseRows(

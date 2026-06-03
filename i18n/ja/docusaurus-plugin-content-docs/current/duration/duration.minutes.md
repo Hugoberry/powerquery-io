@@ -19,12 +19,12 @@ Duration.Minutes(
 
 ## Remarks
 
-<code>duration</code> の分の部分を返します。
+`duration` の分の部分を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 期間の値から分を抽出します。
 ```powerquery
 Duration.Minutes(#duration(5, 4, 3, 2))

@@ -27,8 +27,8 @@ Table.Unpivot(
 
 ## Examples
 
-### Example #1 
-स्तंभ &#34;a&#34;, &#34;b&#34; और &#34;c&#34; को तालिका &lt;code&gt;(\{[ key = &#34;x&#34;, a = 1, b = null, c = 3 ], [ key = &#34;y&#34;, a = 2, b = 4, c = null ]})&lt;/code&gt; में ले जाएँ और उन्हें विशेषता-मान युग्मों में अनपिवट करें.
+### Example #1
+स्तंभ "a", "b" और "c" को तालिका `({[ key = "x", a = 1, b = null, c = 3 ], [ key = "y", a = 2, b = 4, c = null ]})` में ले जाएँ और उन्हें विशेषता-मान युग्मों में अनपिवट करें.
 ```powerquery
 Table.Unpivot(
     Table.FromRecords({

@@ -25,7 +25,7 @@ Hiermee worden de binaire resultaten van de aanroep naar de opgegeven URL voor d
 
 ## Examples
 
-### Example #1 
+### Example #1
 De resultaten van een specifiek rapport retourneren met de functie AzureEnterprise.Contents.
 ```powerquery
         let

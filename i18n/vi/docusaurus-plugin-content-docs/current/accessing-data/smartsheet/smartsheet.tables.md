@@ -24,7 +24,7 @@ Trả về bảng lồng nhau bao gồm các trang tính, báo cáo, thư mục 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trả về trang tính, thư mục, báo cáo và không gian làm việc có sẵn ở cấp cao nhất của phân cấp Smartsheet
 ```powerquery
 Smartsheet.Tables()

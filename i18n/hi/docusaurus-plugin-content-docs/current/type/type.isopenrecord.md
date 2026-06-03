@@ -19,13 +19,13 @@ Type.IsOpenRecord(
 
 ## Remarks
 
-वह <code>तार्किक</code> लौटाता है जो यह संकेत करता है कि रिकॉर्ड <code>type</code> खुला है या नहीं.
+वह `तार्किक` लौटाता है जो यह संकेत करता है कि रिकॉर्ड `type` खुला है या नहीं.
 
 
 ## Examples
 
-### Example #1 
-निर्धारित करें कि &lt;code&gt;type [ A = number, ...]&lt;/code&gt; रिकॉर्ड खुला है या नहीं.
+### Example #1
+निर्धारित करें कि `type [ A = number, ...]` रिकॉर्ड खुला है या नहीं.
 ```powerquery
 Type.IsOpenRecord(type [A = number, ...])
 ```

@@ -22,13 +22,20 @@ Table.TransformColumns(
 
 ## Remarks
 
-Transformiert <code>table</code> durch Anwenden jedes spaltenbasierten Vorgangs, der in <code>transformOperations</code> aufgeführt ist (wobei das Format \{ column name, transformation } oder \{ column name, transformation, new column type } ist). Wenn eine <code>defaultTransformation</code> angegeben ist, wird sie auf alle Spalten angewendet, die nicht in <code>transformOperations</code> aufgeführt sind. Wenn keine Spalte in <code>transformOperations</code> vorhanden ist, wird eine Ausnahme ausgelöst, es sei denn, der optionale Parameter <code>missingField</code> gibt eine Alternative an (z. B. <code>MissingField.UseNull</code> oder <code>MissingField.Ignore</code>).
+Transformiert die angegebene Tabelle, indem jede Spaltenoperation in einer Liste angewendet wird.
+
+-   `table`: Die zu transformierende Tabelle.
+-   `transformOperations`: Die Transformationen, die an der Tabelle vorzunehmen sind. Das Format dieses Parameters ist entweder \{ column name, transformation \} oder \{ column name, transformation, new column type \}.
+-   `defaultTransformation`: (Optional) Die Standardtransformation, die auf alle Spalten angewendet wird, die nicht in `transformOperations` aufgeführt sind.
+-   `missingField`: (Optional) Gibt die erwartete Aktion für fehlende Werte an. Wenn eine in `transformOperations` aufgeführte Spalte nicht existiert, wird ein Fehler ausgelöst (`MissingField.Error`), sofern dieser Parameter keine Alternative angibt. Verwenden Sie einen der folgenden Werte:
+    -   `MissingField.UseNull`: Fehlende Felder werden als `NULL`\-Werte eingeschlossen.
+    -   `MissingField.Ignore`: Fehlende Felder werden ignoriert.
 
 
 ## Examples
 
-### Example #1 
-Konvertieren Sie die Textwerte in Spalte [A] in Zahlenwerte und die Zahlenwerte in Spalte [B] in Textwerte.
+### Example #1
+Konvertieren Sie die Textwerte in Spalte \[A\] in Zahlenwerte und die Zahlenwerte in Spalte \[B\] in Textwerte.
 ```powerquery
 Table.TransformColumns(
     Table.FromRecords({
@@ -51,31 +58,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Konvertieren Sie die numerischen Werte in der fehlenden Spalte [X] in Textwerte. Dabei werden Spalten ignoriert, die nicht vorhanden sind.
-```powerquery
-Table.TransformColumns(
-    Table.FromRecords({
-        [A = "1", B = 2],
-        [A = "5", B = 10]
-    }),
-    {"X", Number.FromText},
-    null,
-    MissingField.Ignore
-)
-```
-
-Result: 
-```powerquery
-Table.FromRecords({
-    [A = "1", B = 2],
-    [A = "5", B = 10]
-})
-```
-
-
-### Example #3 
-Konvertieren Sie die numerischen Werte in der fehlenden Spalte [X] in Textwerte mit dem Standardwert NULL für Spalten, die nicht vorhanden sind.
+### Example #2
+Konvertieren Sie die numerischen Werte in der fehlenden Spalte \[X\] in Textwerte mit dem Standardwert `null` für Spalten, die nicht vorhanden sind.
 ```powerquery
 Table.TransformColumns(
     Table.FromRecords({
@@ -97,8 +81,8 @@ Table.FromRecords({
 ```
 
 
-### Example #4 
-Erhöhen Sie die Zahlenwerte in Spalte [B], konvertieren Sie sie in Textwerte, und konvertieren Sie alle anderen Spalten in Zahlen.
+### Example #3
+Erhöhen Sie die Zahlenwerte in Spalte \[B\], konvertieren Sie sie in Textwerte, und konvertieren Sie alle anderen Spalten in Zahlen.
 ```powerquery
 Table.TransformColumns(
     Table.FromRecords({
@@ -115,6 +99,49 @@ Result:
 Table.FromRecords({
     [A = 1, B = "3"],
     [A = 5, B = "11"]
+})
+```
+
+
+### Example #4
+Verschieben Sie geplante Wartungsaufgaben, die an einem US-Feiertag stattfinden, auf den nächsten Tag oder, wenn der Feiertag auf einen Freitag fällt, auf den folgenden Montag.
+```powerquery
+let
+    MaintenanceSchedule = #table(type table [Task = text, Date = date],
+    {
+        {"HVAC Check", #date(2025, 7, 10)},         // Not a holiday
+        {"Window Washing", #date(2025, 9, 1)},      // Labor Day
+        {"Fire Drill", #date(2025, 9, 17)},         // Not a holiday
+        {"Light Replacement", #date(2025, 11, 27)}  // Thanksgiving
+    }),
+    USHolidays = {
+        #date(2025, 1, 1),   // New Year's Day
+        #date(2025, 7, 4),   // Independence Day
+        #date(2025, 9, 1),   // Labor Day
+        #date(2025, 11, 27), // Thanksgiving
+        #date(2025, 12, 25)  // Christmas
+    },
+    AdjustedSchedule = Table.TransformColumns(
+        MaintenanceSchedule,
+        {{"Date", each if List.Contains(USHolidays, _) then
+            if Date.DayOfWeek(_, Day.Sunday) = 5 then
+                Date.AddDays(_, 3)     // Friday to Monday
+            else
+                Date.AddDays(_, 1)     // Other to next day
+        else _, type date}}
+    )
+in
+    AdjustedSchedule
+```
+
+Result: 
+```powerquery
+#table(type table[Task = text, Date = date],
+{
+    {"HVAC Check", #date(2025, 7, 10)},
+    {"Window Washing", #date(2025, 9, 2)},
+    {"Fire Drill", #date(2025, 9, 17)},
+    {"Light Replacement", #date(2025, 11, 28)}
 })
 ```
 

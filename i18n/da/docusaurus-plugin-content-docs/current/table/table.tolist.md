@@ -25,7 +25,7 @@ Konverterer en tabel til en liste ved at anvende den angivne samlefunktion på h
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kombiner teksten i de enkelte rækker med et komma.
 ```powerquery
 Table.ToList(

@@ -19,7 +19,7 @@ Exchange.Contents(
 
 ## Remarks
 
-Returns a table of contents from the Microsoft Exchange account <code>mailboxAddress</code>. If <code>mailboxAddress</code> is not specified, the default account for the credential will be used.
+Returns a table of contents from the Microsoft Exchange account `mailboxAddress`. If `mailboxAddress` is not specified, the default account for the credential will be used.
 
 
 

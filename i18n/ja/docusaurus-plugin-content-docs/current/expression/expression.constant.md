@@ -24,7 +24,7 @@ Expression.Constant(
 
 ## Examples
 
-### Example #1 
+### Example #1
 数値の M ソース コード表現を取得します。
 ```powerquery
 Expression.Constant(123)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 日付値の M ソース コード表現を取得します。
 ```powerquery
 Expression.Constant(#date(2035, 01, 02))
@@ -48,7 +48,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 テキスト値の M ソース コード表現を取得します。
 ```powerquery
 Expression.Constant("abc")

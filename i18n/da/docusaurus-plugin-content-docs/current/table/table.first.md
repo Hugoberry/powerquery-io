@@ -20,12 +20,12 @@ Table.First(
 
 ## Remarks
 
-Returnerer den første række i <code>table</code> eller en valgfri standardværdi, <code>default</code>, hvis tabellen er tom.
+Returnerer den første række i `table` eller en valgfri standardværdi, `default`, hvis tabellen er tom.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find den første række i tabellen.
 ```powerquery
 Table.First(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-Find den første række i tabellen &lt;code&gt;(\{})&lt;/code&gt;, eller returner [a = 0, b = 0], hvis tabellen er tom.
+### Example #2
+Find den første række i tabellen `({})`, eller returner \[a = 0, b = 0\], hvis tabellen er tom.
 ```powerquery
 Table.First(Table.FromRecords({}), [a = 0, b = 0])
 ```

@@ -19,12 +19,12 @@ Record.ToTable(
 
 ## Remarks
 
-Gibt eine Tabelle mit den Spalten <code>Name</code> und <code>Value</code> sowie mit je einer Zeile für die einzelnen Felder in "<code>record</code>" zurück.
+Gibt eine Tabelle mit den Spalten `Name` und `Value` sowie mit je einer Zeile für die einzelnen Felder in "`record`" zurück.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gibt die Tabelle aus dem Datensatz zurück.
 ```powerquery
 Record.ToTable([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

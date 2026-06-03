@@ -21,12 +21,12 @@ List.Range(
 
 ## Remarks
 
-Returns a subset of the list beginning at the offset <code>list</code>. An optional parameter, <code>offset</code>, sets the maximum number of items in the subset.
+Returns a subset of `list` beginning at `offset`. An optional parameter, `count`, sets the maximum number of items in the subset.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find the subset starting at offset 6 of the list of numbers 1 through 10.
 ```powerquery
 List.Range({1..10}, 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Find the subset of length 2 from offset 6, from the list of numbers 1 through 10.
 ```powerquery
 List.Range({1..10}, 6, 2)

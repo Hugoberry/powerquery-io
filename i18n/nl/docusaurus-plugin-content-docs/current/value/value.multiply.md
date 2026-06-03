@@ -21,7 +21,7 @@ Value.Multiply(
 
 ## Remarks
 
-Retourneert het product van de vermenigvuldiging van <code>value1</code> met <code>value2</code>. Er kan een optionele parameter <code>precision</code> worden opgegeven. Standaard wordt <code>Precision.Double</code> gebruikt.
+Retourneert het product van de vermenigvuldiging van `value1` met `value2`. Er kan een optionele parameter `precision` worden opgegeven. Standaard wordt `Precision.Double` gebruikt.
 
 
 

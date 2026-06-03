@@ -20,13 +20,16 @@ Date.AddWeeks(
 
 ## Remarks
 
-通过将 <code>numberOfWeeks</code> 个星期添加到 <code>datetime</code> 值 <code>dateTime</code>，返回 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 结果。      <ul>      <li><code>dateTime</code>: 星期数要添加到的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值。</li>      <li><code>numberOfWeeks</code>: 要添加的星期数。</li>      </ul>
+通过将 `numberOfWeeks` 个星期添加到 `datetime` 值 `dateTime`，返回 `date`、`datetime` 或 `datetimezone` 结果。
+
+-   `dateTime`: 星期数要添加到的 `date`、`datetime` 或 `datetimezone` 值。
+-   `numberOfWeeks`: 要添加的星期数。
 
 
 ## Examples
 
-### Example #1 
-将 2 个星期添加到表示日期 5/14/2011 的 &lt;code&gt;date&lt;/code&gt;、&lt;code&gt;datetime&lt;/code&gt; 或 &lt;code&gt;datetimezone&lt;/code&gt; 值。
+### Example #1
+将 2 个星期添加到表示日期 5/14/2011 的 `date`、`datetime` 或 `datetimezone` 值。
 ```powerquery
 Date.AddWeeks(#date(2011, 5, 14), 2)
 ```

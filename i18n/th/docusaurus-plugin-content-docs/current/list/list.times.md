@@ -21,12 +21,12 @@ List.Times(
 
 ## Remarks
 
-ส่งกลับรายการของค่า <code>time</code> ของขนาด <code>count</code> โดยเริ่มต้นที่ <code>start</code> การเพิ่มหน่วยที่กำหนดให้ <code>step</code> เป็นค่า <code>duration</code> ที่ถูกเพิ่มลงในทุกค่า
+ส่งกลับรายการของค่า `time` ของขนาด `count` โดยเริ่มต้นที่ `start` การเพิ่มหน่วยที่กำหนดให้ `step` เป็นค่า `duration` ที่ถูกเพิ่มลงในทุกค่า
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 สร้างรายการที่ประกอบด้วย 4 ค่าเริ่มจากเที่ยงวัน (#time(12, 0, 0)) โดยเพิ่มหน่วยทีละหนึ่งชั่วโมง (#duration(0, 1, 0, 0))
 ```powerquery
 List.Times(#time(12, 0, 0), 4, #duration(0, 1, 0, 0))

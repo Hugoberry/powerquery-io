@@ -20,12 +20,12 @@ BinaryFormat.Transform(
 
 ## Remarks
 
-傳回二進位格式，以轉換其他二進位格式讀取的值。<code>binaryFormat</code> 參數指定即將用來讀取值的二進位格式。系統會以讀取的值叫用 <code>function</code>，並傳回轉換的值。
+傳回二進位格式，以轉換其他二進位格式讀取的值。`binaryFormat` 參數指定即將用來讀取值的二進位格式。系統會以讀取的值叫用 `function`，並傳回轉換的值。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 讀取位元組，將它加一。
 ```powerquery
 let

@@ -22,13 +22,13 @@ List.ReplaceValue(
 
 ## Remarks
 
-Trong danh sách giá trị <code>list</code>, tìm giá trị <code>oldValue</code> và thay thế mỗi lần xuất hiện bằng giá trị thay thế <code>newValue</code>.
+Trong danh sách giá trị `list`, tìm giá trị `oldValue` và thay thế mỗi lần xuất hiện bằng giá trị thay thế `newValue`.
 
 
 ## Examples
 
-### Example #1 
-Thay thế tất cả giá trị &#34;a&#34; trong danh sách \{&#34;a&#34;, &#34;B&#34;, &#34;a&#34;, &#34;a&#34;} bằng &#34;A&#34;.
+### Example #1
+Thay thế tất cả giá trị "a" trong danh sách \{"a", "B", "a", "a"\} bằng "A".
 ```powerquery
 List.ReplaceValue({"a", "B", "a", "a"}, "a", "A", Replacer.ReplaceText)
 ```

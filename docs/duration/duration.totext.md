@@ -5,7 +5,7 @@ title: Duration.ToText
 # Duration.ToText
 
 
-Returns the text of the form &#34;d.h:m:s&#34;.
+Returns the text of the form "d.h:m:s".
 
 
 ## Syntax
@@ -20,13 +20,16 @@ Duration.ToText(
 
 ## Remarks
 
-Returns a textual representation in the form "day.hour:mins:sec" of the given duration value, <code>duration</code>. <ul>        <li><code>duration</code>: A <code>duration</code> from which the textual representation is calculated.</li>  <li><code>format</code>: <i>[Optional]</i> Deprecated, will throw an error if not null</li>      </ul>
+Returns a textual representation in the form "day.hour:mins:sec" of the given duration value, `duration`.
+
+-   `duration`: A `duration` from which the textual representation is calculated.
+-   `format`: *(Optional)* Deprecated, will raise an error if not null.
 
 
 ## Examples
 
-### Example #1 
-Convert &lt;code&gt;#duration(2, 5, 55, 20)&lt;/code&gt; into a text value.
+### Example #1
+Convert `#duration(2, 5, 55, 20)` into a text value.
 ```powerquery
 Duration.ToText(#duration(2, 5, 55, 20))
 ```

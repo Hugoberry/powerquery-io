@@ -20,12 +20,12 @@ Record.FromList(
 
 ## Remarks
 
-根据给定的一个字段值 <code>list</code> 和一组字段，返回一个记录。 可以通过文本值列表或记录类型指定 <code>fields</code>。 如果字段不是唯一的，将引发错误。
+根据给定的一个字段值 `list` 和一组字段，返回一个记录。 可以通过文本值列表或记录类型指定 `fields`。 如果字段不是唯一的，则引发错误。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 从一个字段值列表和字段名称列表生成一个记录。
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, {"CustomerID", "Name", "Phone"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 从一个字段值列表和记录类型生成一个记录。
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, type [CustomerID = number, Name = text, Phone = number])

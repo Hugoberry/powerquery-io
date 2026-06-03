@@ -19,12 +19,14 @@ Number.Exp(
 
 ## Remarks
 
-e を <code>number</code> (指数関数) でべき乗した結果を返します。      <ul>        <li><code>number</code>: 指数関数を計算する対象の <code>number</code>。<code>number</code> が null の場合、<code>Number.Exp</code> は null を返します。</li>      </ul>
+e を `number` (指数関数) でべき乗した結果を返します。
+
+-   `number`: 指数関数を計算する対象の `number`。`number` が null の場合、`Number.Exp` は null を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 e を 3 でべき乗します。
 ```powerquery
 Number.Exp(3)

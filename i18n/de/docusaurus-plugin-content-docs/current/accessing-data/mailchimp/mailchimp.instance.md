@@ -24,8 +24,8 @@ Sendet einen Aufruf an die MailChimp-API und gibt die unverarbeitete Antwort zur
 
 ## Examples
 
-### Example #1 
-Gibt unverarbeitete Daten für eine vorgegebene Kampagne vom Endpunkt &#34;reports/click-details&#34; der MailChimp-API zurück.
+### Example #1
+Gibt unverarbeitete Daten für eine vorgegebene Kampagne vom Endpunkt "reports/click-details" der MailChimp-API zurück.
 ```powerquery
 MailChimp.Instance("reports/{campaign_id}/click-details")
 ```

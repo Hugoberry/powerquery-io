@@ -19,12 +19,12 @@ Duration.TotalDays(
 
 ## Remarks
 
-<code>duration</code> が割り当てられた合計日数を返します。
+`duration` が割り当てられた合計日数を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 期間の値が割り当てられた合計日数を検索します。
 ```powerquery
 Duration.TotalDays(#duration(5, 4, 3, 2))

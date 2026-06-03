@@ -19,7 +19,7 @@ Type.Union(
 
 ## Remarks
 
-Gibt die Vereinigungsmenge der Typen in "<code>types</code>" zurück.
+Gibt die Vereinigungsmenge der Typen in "`types`" zurück.
 
 
 

@@ -19,12 +19,14 @@ Date.EndOfMonth(
 
 ## Remarks
 
-Retourneert het einde van de maand die <code>dateTime</code>bevat. <ul> <li><code>dateTime</code>: een <code>datum</code>, <code>datum/tijd</code> of <code>datum/tijdzone</code> waarmee het einde van de maand wordt berekend</li> </ul>
+Retourneert het einde van de maand die `dateTime`bevat.
+
+-   `dateTime`: een `datum`, `datum/tijd` of `datum/tijdzone` waarmee het einde van de maand wordt berekend.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Het einde van de maand ophalen voor 14/5/2011.
 ```powerquery
 Date.EndOfMonth(#date(2011, 5, 14))
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Het einde van de maand ophalen voor 17/5/2011 05:00:00 PM -7:00.
 ```powerquery
 Date.EndOfMonth(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0))

@@ -19,12 +19,12 @@ Table.SingleRow(
 
 ## Remarks
 
-Trả về hàng duy nhất trong một hàng <code>table</code>. Nếu <code>table</code> có nhiều hàng thì một ngoại lệ được đưa ra.
+Trả về hàng duy nhất trong một hàng `table`. Nếu `table` có nhiều hàng thì lỗi sẽ xuất hiện.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trả về hàng đơn nhất trong bảng.
 ```powerquery
 Table.SingleRow(Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}))

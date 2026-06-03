@@ -21,7 +21,7 @@ Value.Add(
 
 ## Remarks
 
-ส่งกลับผลรวมของ <code>value1</code> และ <code>value2</code> พารามิเตอร์ <code>precision</code> ที่เลือกได้อาจถูกระบุไว้ ตามค่าเริ่มต้น จะมีการใช้ <code>Precision.Double</code>
+ส่งกลับผลรวมของ `value1` และ `value2` พารามิเตอร์ `precision` ที่เลือกได้อาจถูกระบุไว้ ตามค่าเริ่มต้น จะมีการใช้ `Precision.Double`
 
 
 

@@ -20,13 +20,13 @@ List.First(
 
 ## Remarks
 
-Retourneert het eerste item uit de lijst <code>list</code> of de optionele standaardwaarde <code>defaultValue</code> als de lijst leeg is.    Als de lijst leeg is en er geen standaardwaarde is opgegeven, wordt <code>null</code> door de functie geretourneerd.
+Retourneert het eerste item uit de lijst `list` of de optionele standaardwaarde `defaultValue` als de lijst leeg is. Als de lijst leeg is en er geen standaardwaarde is opgegeven, wordt `null` door de functie geretourneerd.
 
 
 ## Examples
 
-### Example #1 
-De eerste waarde zoeken in de lijst \{1, 2, 3}.
+### Example #1
+De eerste waarde zoeken in de lijst \{1, 2, 3\}.
 ```powerquery
 List.First({1, 2, 3})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-De eerste waarde zoeken in de lijst \{}. Als de lijst leeg is, wordt -1 geretourneerd.
+### Example #2
+De eerste waarde zoeken in de lijst \{\}. Als de lijst leeg is, wordt -1 geretourneerd.
 ```powerquery
 List.First({}, -1)
 ```

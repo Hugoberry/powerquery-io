@@ -19,13 +19,13 @@ Type.FunctionParameters(
 
 ## Remarks
 
-<code>type</code> के पैरामीटर के नाम पर सेट किए गए फ़ील्‍ड मानों, और उनसे संबंधित प्रकारों पर सेट किए गए उनके मानों के साथ रिकॉर्ड लौटाता है.
+`type` के पैरामीटर के नाम पर सेट किए गए फ़ील्‍ड मानों, और उनसे संबंधित प्रकारों पर सेट किए गए उनके मानों के साथ रिकॉर्ड लौटाता है.
 
 
 ## Examples
 
-### Example #1 
-फ़ंक्‍शन &lt;code&gt;(x as number, y as text)&lt;/code&gt; के लिए पैरामीटर के प्रकार ढूँढें.
+### Example #1
+फ़ंक्‍शन `(x as number, y as text)` के लिए पैरामीटर के प्रकार ढूँढें.
 ```powerquery
 Type.FunctionParameters(type function (x as number, y as text) as any)
 ```

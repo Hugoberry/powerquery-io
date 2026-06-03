@@ -21,12 +21,12 @@ Table.Range(
 
 ## Remarks
 
-以指定的 <code>offset</code> 开始返回 <code>table</code> 中的行。可选参数 <code>count</code> 指定要返回的行数。默认情况下，将返回偏移量之后的所有行。
+以指定的 `offset` 开始返回 `table` 中的行。可选参数 `count` 指定要返回的行数。默认情况下，将返回偏移量之后的所有行。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 返回表中以偏移量 1 开始的所有行。
 ```powerquery
 Table.Range(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 返回表中以偏移量 1 开始的一行。
 ```powerquery
 Table.Range(

@@ -19,13 +19,13 @@ Text.ToList(
 
 ## Remarks
 
-Restituisce un elenco di valori di carattere dal valore di testo specificato <code>text</code>.
+Restituisce un elenco di valori di carattere dal valore di testo specificato `text`.
 
 
 ## Examples
 
-### Example #1 
-Creare un elenco di valori di carattere dal testo &#34;Hello World&#34;.
+### Example #1
+Creare un elenco di valori di carattere dal testo "Hello World".
 ```powerquery
 Text.ToList("Hello World")
 ```

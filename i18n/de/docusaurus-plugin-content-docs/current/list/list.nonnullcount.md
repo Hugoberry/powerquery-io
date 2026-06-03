@@ -19,7 +19,7 @@ List.NonNullCount(
 
 ## Remarks
 
-Gibt die Anzahl von Elementen ungleich NULL in der Liste "<code>list</code>" zurück.
+Gibt die Anzahl von Elementen ungleich NULL in der Liste "`list`" zurück.
 
 
 

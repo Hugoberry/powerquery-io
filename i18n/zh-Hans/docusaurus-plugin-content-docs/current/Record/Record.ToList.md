@@ -19,12 +19,12 @@ Record.ToList(
 
 ## Remarks
 
-返回包含输入 <code>record</code> 中的字段值的值列表。
+返回包含输入 `record` 中的字段值的值列表。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 从记录提取字段值。
 ```powerquery
 Record.ToList([A = 1, B = 2, C = 3])

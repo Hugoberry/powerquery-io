@@ -25,7 +25,7 @@ Returnerer en funktion, der gentager opdeling af tekst på en liste efter den an
 
 ## Examples
 
-### Example #1 
+### Example #1
 Opdel gentagne gange input i segmenter af tre tegn, startende fra begyndelsen af input.
 ```powerquery
 Splitter.SplitTextByRepeatedLengths(3)("12345678")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Opdel gentagne gange input i segmenter af tre tegn, startende fra slutningen af input.
 ```powerquery
 let

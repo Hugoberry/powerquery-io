@@ -21,12 +21,16 @@ List.Numbers(
 
 ## Remarks
 
-给定初始值、计数和可选的增量值来返回数的列表。默认增量值为 1。<ul>   <li><code>start</code>: 列表中的初始值。</li>   <li><code>count</code>: 要创建的值数。</li>   <li><code>increment</code>: <i>[可选]</i> 要按其递增的值。如果省略，则按 1 递增值。</li></ul>
+给定初始值、计数和可选的增量值来返回数的列表。默认增量值为 1。
+
+-   `start`: 列表中的初始值。
+-   `count`: 要创建的值数。
+-   `increment`: *(可选)*要按其递增的值。如果省略，则值按 1 递增。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 生成从 1 开始的 10 个连续数的列表。
 ```powerquery
 List.Numbers(1, 10)
@@ -49,7 +53,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 生成从 1 开始的 10 个数的列表，每个后续数按 2 递增。
 ```powerquery
 List.Numbers(1, 10, 2)

@@ -20,7 +20,7 @@ Table.FirstValue(
 
 ## Remarks
 
-De eerste kolom van de eerste rij in de tabel <code>table</code> of een opgegeven standaardwaarde retourneren.
+De eerste kolom van de eerste rij in de tabel `table` of een opgegeven standaardwaarde retourneren.
 
 
 

@@ -21,13 +21,13 @@ Table.ContainsAll(
 
 ## Remarks
 
-Indica si todos los registros especificados en la lista de registros <code>rows</code> aparecen como filas en <code>table</code>.    Se puede especificar un parámetro <code>equationCriteria</code> opcional para controlar la comparación entre las filas de la tabla.
+Indica si todos los registros especificados en la lista de registros `rows` aparecen como filas en `table`. Se puede especificar un parámetro `equationCriteria` opcional para controlar la comparación entre las filas de la tabla.
 
 
 ## Examples
 
-### Example #1 
-Determine si la tabla contiene todas las filas comparando solo la columna [CustomerID].
+### Example #1
+Determine si la tabla contiene todas las filas comparando solo la columna \[CustomerID\].
 ```powerquery
 Table.ContainsAll(
     Table.FromRecords({
@@ -50,7 +50,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Determinar si la tabla contiene todas las filas.
 ```powerquery
 Table.ContainsAll(

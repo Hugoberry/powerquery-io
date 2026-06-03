@@ -20,12 +20,12 @@ Type.Is(
 
 ## Remarks
 
-Bestemmer, om en værdi af <code>type1</code> altid er kompatibel med <code>type2</code>.
+Angiver, om værdien af `type1` altid er kompatibel med `type2`. Parameteren `type2` skal være en primitiv (eller primitiv) værdi, der kan være null. Ellers er denne funktions funktionsmåde ikke defineret og bør ikke virke på.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bestem, om en værdi af typetal kun kan behandles som en hvilken som helst-type.
 ```powerquery
 Type.Is(type number, type any)
@@ -37,7 +37,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Bestem, om en værdi af en hvilken som helst-type kun kan behandles som typetal.
 ```powerquery
 Type.Is(type any, type number)

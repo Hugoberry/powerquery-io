@@ -5,7 +5,7 @@ title: Cube.AttributeMemberId
 # Cube.AttributeMemberId
 
 
-Restituisce l&#39;identificatore del membro univoco dal valore della proprietà membro.
+Restituisce l'identificatore del membro univoco dal valore della proprietà membro.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Cube.AttributeMemberId(
 
 ## Remarks
 
-Restituisce l'identificatore del membro univoco dal valore della proprietà membro. <code>attribute</code>. Restituisce Null per tutti gli altri valori.
+Restituisce l'identificatore del membro univoco dal valore della proprietà membro. `attribute`. Restituisce Null per tutti gli altri valori.
 
 
 

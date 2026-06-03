@@ -19,13 +19,13 @@ Type.RecordFields(
 
 ## Remarks
 
-Returnerar en post som beskriver fälten för en post <code>type</code>. Varje fält av den returnerade posttypen har ett motsvarande namn och ett värde, i formen av en post <code>[ Type = type, Optional = logical ]</code>.
+Returnerar en post som beskriver fälten för en post `type`. Varje fält av den returnerade posttypen har ett motsvarande namn och ett värde, i formen av en post `[ Type = type, Optional = logical ]`.
 
 
 ## Examples
 
-### Example #1 
-Hitta namnet och värdet för posten &lt;code&gt;[ A = number, optional B = any]&lt;/code&gt;.
+### Example #1
+Hitta namnet och värdet för posten `[ A = number, optional B = any]`.
 ```powerquery
 Type.RecordFields(type [A = number, optional B = any])
 ```

@@ -19,12 +19,14 @@ Character.FromNumber(
 
 ## Remarks
 
-Gibt die Zeichenentsprechung der Nummer zurück.<br />    <br />    Die bereitgestellte <code>number</code> sollte ein 21-Bit-Unicode-Codepunkt sein.
+Gibt die Zeichenentsprechung der Nummer zurück.  
+  
+Die bereitgestellte `number` sollte ein 21-Bit-Unicode-Codepunkt sein.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Konvertiert eine Zahl in den entsprechenden Zeichenwert.
 ```powerquery
 Character.FromNumber(9)
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Konvertiert ein Zeichen in eine Zahl und wieder zurück.
 ```powerquery
 Character.FromNumber(Character.ToNumber("A"))
@@ -48,8 +50,8 @@ Result:
 ```
 
 
-### Example #3 
-Konvertieren Sie den Hexadezimalcodepunkt für das Emoticon &#34;grinsendes Gesicht&#34; in das entsprechende UTF-16-Ersatzzeichenpaar.
+### Example #3
+Konvertieren Sie den Hexadezimalcodepunkt für das Emoticon "grinsendes Gesicht" in das entsprechende UTF-16-Ersatzzeichenpaar.
 ```powerquery
 Character.FromNumber(0x1F600)
 ```

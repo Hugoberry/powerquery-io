@@ -5,7 +5,7 @@ title: Text.PositionOfAny
 # Text.PositionOfAny
 
 
-Retourne la première position dans la valeur de texte de n&#39;importe quel caractère répertorié (- 1 si introuvable).
+Retourne la première position dans la valeur de texte de n'importe quel caractère répertorié (- 1 si introuvable).
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Text.PositionOfAny(
 
 ## Remarks
 
-Retourne la première position de n'importe quel caractère dans la liste <code>characters</code> trouvée <code>text</code>.    Un paramètre facultatif <code>occurrence</code> peut être utilisé pour spécifier la position d'occurrence à retourner.
+Retourne la première position de n'importe quel caractère dans la liste `characters` trouvée `text`. Un paramètre facultatif `occurrence` peut être utilisé pour spécifier la position d'occurrence à retourner.
 
 
 ## Examples
 
-### Example #1 
-Recherchez la première position de &#34; W &#34; ou &#34; H &#34; dans le texte &#34; Hello, World! &#34;.
+### Example #1
+Recherchez la première position de "W" ou "H" dans le texte "Hello, World!".
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"})
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Recherchez toutes les positions de &#34; W &#34; ou &#34; H &#34; dans le texte &#34; Hello, World! &#34;.
+### Example #2
+Recherchez toutes les positions de "W" ou "H" dans le texte "Hello, World!".
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"}, Occurrence.All)
 ```

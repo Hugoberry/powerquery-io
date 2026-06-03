@@ -22,12 +22,12 @@ List.Generate(
 
 ## Remarks
 
-Sağlanan işlevleri kullanarak bir değerler listesi oluşturur. <code>initial</code> işlevi daha sonra <code>condition</code> ile sınanacak bir başlangıç aday değeri oluşturur.    Aday değer onaylanırsa sonuç listesinin parçası olarak döndürülür ve yeni onaylanan değer <code>next</code> öğesine geçirilerek sonraki aday değer oluşturulur.    Bir aday değer <code>condition</code> ile eşleşmediğinde, liste oluşturma işlemi durur.    Sonuç listesindeki öğeleri dönüştürmek için isteğe bağlı <code>selector</code> parametresi de sağlanabilir.
+Sağlanan işlevleri kullanarak bir değerler listesi oluşturur. `initial` işlevi daha sonra `condition` ile sınanacak bir başlangıç aday değeri oluşturur. Aday değer onaylanırsa sonuç listesinin parçası olarak döndürülür ve yeni onaylanan değer `next` öğesine geçirilerek sonraki aday değer oluşturulur. Bir aday değer `condition` ile eşleşmediğinde, liste oluşturma işlemi durur. Sonuç listesindeki öğeleri dönüştürmek için isteğe bağlı `selector` parametresi de sağlanabilir.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 On sayısından başlayıp tekrarlı şekilde bir azaltarak ve her öğenin sıfırdan büyük olmasına dikkat ederek bir liste oluşturun.
 ```powerquery
 List.Generate(() => 10, each _ > 0, each _ - 1)
@@ -39,8 +39,8 @@ Result:
 ```
 
 
-### Example #2 
-x&#39;in bir değer y&#39;nin ise bir liste olduğu x ve y&#39;ler içeren bir kayıt listesi oluşturur. x 10&#39;dan az kalmalı ve y listesindeki öğelerin sayısını göstermelidir. Liste oluşturulduktan sonra yalnızca x değerlerini döndürür.
+### Example #2
+x'in bir değer y'nin ise bir liste olduğu x ve y'ler içeren bir kayıt listesi oluşturur. x 10'dan az kalmalı ve y listesindeki öğelerin sayısını göstermelidir. Liste oluşturulduktan sonra yalnızca x değerlerini döndürür.
 ```powerquery
 List.Generate(
     () => [x = 1, y = {}],

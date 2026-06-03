@@ -26,7 +26,7 @@ Splitter.SplitTextByAnyDelimiter(
 
 ## Examples
 
-### Example #1 
+### Example #1
 入力の先頭から始め、入力をコンマまたはセミコロンで分割します。引用符と引用符で囲まれた区切り記号は無視します。
 ```powerquery
 Splitter.SplitTextByAnyDelimiter({",", ";"}, QuoteStyle.Csv)("a,b;""c,d;e"",f")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 入力の末尾から始め、入力をコンマまたはセミコロンで分割します。引用符と引用符で囲まれた区切り記号は無視します。
 ```powerquery
 let

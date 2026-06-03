@@ -5,7 +5,7 @@ title: Snowflake.Databases
 # Snowflake.Databases
 
 
-Importeer gegevens uit een Snowflake Computing-magazijn.
+Importeer gegevens uit een Snowflake Computing-warehouse.
 
 
 ## Syntax
@@ -21,13 +21,18 @@ Snowflake.Databases(
 
 ## Remarks
 
-Retourneert een tabel met de tabellen in het Snowflake Computing-<code>warehouse</code> dat zich bevindt op <code>server</code>. U kunt de optionele recordparameter <code>options</code> opgegeven om de volgende opties te besturen:<ul><li><code>Rol</code>: een tekstwaarde die kan worden gebruikt als de rolnaam van de verbinding.</li><li><code>CreateNavigationProperties</code>: een logische waarde (true/false) waarmee wordt ingesteld of voor de geretourneerde waarden navigatie-eigenschappen moeten worden gegenereerd (standaardinstelling is true)</li><li><code>ConnectionTimeout</code>: het aantal seconden dat moet worden gewacht op netwerkreacties van Snowflake.</li><li><code>CommandTimeout</code>: het aantal seconden dat moet worden gewacht om een query uit te voeren.</li></ul>    
+Retourneert een tabel met de tabellen in het Snowflake Computing-`warehouse` dat zich bevindt op `server`. U kunt de optionele recordparameter `options` opgegeven om de volgende opties te besturen:
+
+-   `Rol`: een tekstwaarde die kan worden gebruikt als de rolnaam van de verbinding.
+-   `CreateNavigationProperties`: een logische waarde (true/false) waarmee wordt ingesteld of voor de geretourneerde waarden navigatie-eigenschappen moeten worden gegenereerd (standaardinstelling is true)
+-   `ConnectionTimeout`: het aantal seconden dat moet worden gewacht op netwerkreacties van Snowflake.
+-   `CommandTimeout`: het aantal seconden dat moet worden gewacht om een query uit te voeren.
 
 
 ## Examples
 
-### Example #1 
-De tabellen in een Snowflake-magazijn weergeven.
+### Example #1
+De tabellen in een Snowflake-warehouse weergeven.
 ```powerquery
 Snowflake.Databases("contoso.snowflakecomputing.com", "CONTOSO_WH")
 ```

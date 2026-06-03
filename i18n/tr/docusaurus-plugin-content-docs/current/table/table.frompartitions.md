@@ -21,13 +21,13 @@ Table.FromPartitions(
 
 ## Remarks
 
-Bölünmüş tabloların kümesinin birleştirilmesinin sonucu olan bir tabloyu, <code>partitions</code> döndürür. <code>partitionColumn</code> eklenecek sütunun adıdır. Sütunun türü varsayılan olarak <code>any</code> şeklinde ayarlanır ancak <code>partitionColumnType</code> ile belirtilebilir.
+Bölünmüş tabloların kümesinin birleştirilmesinin sonucu olan bir tabloyu, `partitions` döndürür. `partitionColumn` eklenecek sütunun adıdır. Sütunun türü varsayılan olarak `any` şeklinde ayarlanır ancak `partitionColumnType` ile belirtilebilir.
 
 
 ## Examples
 
-### Example #1 
-Liste &lt;code&gt;\{number}&lt;/code&gt; içinden öğe türünü bulun.
+### Example #1
+Liste `{number}` içinden öğe türünü bulun.
 ```powerquery
 Table.FromPartitions(
     "Year",

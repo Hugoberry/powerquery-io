@@ -25,7 +25,7 @@ Chuyển đổi cột thành hàng và hàng thành cột.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Chuyển đổi hàng của bảng chứa các cặp tên-giá trị thành cột.
 ```powerquery
 Table.Transpose(

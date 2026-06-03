@@ -19,12 +19,14 @@ Number.Exp(
 
 ## Remarks
 
-Returnerar resultatet från att e upphöjs till <code>number</code> (exponentialfunktion).      <ul>        <li><code>number</code>: Ett <code>number</code> som exponentialfunktionen ska beräknas från. Om <code>number</code> är null returnerar <code>Number.Exp</code> null. </li>      </ul>
+Returnerar resultatet från att e upphöjs till `number` (exponentialfunktion).
+
+-   `number`: Ett `number` som exponentialfunktionen ska beräknas från. Om `number` är null returnerar `Number.Exp` null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Upphöj e till 3.
 ```powerquery
 Number.Exp(3)

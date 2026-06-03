@@ -19,13 +19,13 @@ Type.IsOpenRecord(
 
 ## Remarks
 
-返回 <code>logical</code> 表明记录 <code>type</code> 是否打开。
+返回 `logical` 表明记录 `type` 是否打开。
 
 
 ## Examples
 
-### Example #1 
-决定记录 &lt;code&gt;type [ A = number, ...]&lt;/code&gt; 是否打开。
+### Example #1
+决定记录 `type [ A = number, ...]` 是否打开。
 ```powerquery
 Type.IsOpenRecord(type [A = number, ...])
 ```

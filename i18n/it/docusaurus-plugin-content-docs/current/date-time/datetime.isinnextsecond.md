@@ -5,7 +5,7 @@ title: DateTime.IsInNextSecond
 # DateTime.IsInNextSecond
 
 
-Indica se questo valore datetime rientra nel secondo successivo, come determinato dalla data e dall&#39;ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nel secondo corrente.
+Indica se questo valore datetime rientra nel secondo successivo, come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nel secondo corrente.
 
 
 ## Syntax
@@ -19,13 +19,15 @@ DateTime.IsInNextSecond(
 
 ## Remarks
 
-Indica se il valore datetime specificato <code>dateTime</code> rientra nel secondo successivo come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nel secondo corrente.      <ul>      <li><code>dateTime</code>: valore <code>datetime</code> o <code>datetimezone</code> da valutare.</li>      </ul>
+Indica se il valore datetime specificato `dateTime` rientra nel secondo successivo come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nel secondo corrente.
+
+-   `dateTime`: valore `datetime` o `datetimezone` da valutare.
 
 
 ## Examples
 
-### Example #1 
-Determinare se il secondo dopo l&#39;ora di sistema corrente rientra nel secondo successivo.
+### Example #1
+Determinare se il secondo dopo l'ora di sistema corrente rientra nel secondo successivo.
 ```powerquery
 DateTime.IsInNextSecond(DateTime.FixedLocalNow() + #duration(0, 0, 0, 1))
 ```

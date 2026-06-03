@@ -19,12 +19,12 @@ Number.Sign(
 
 ## Remarks
 
-Trả về 1 nếu <code>number</code> là số dương, -1 nếu là số âm và 0 nếu là số 0.    Nếu <code>number</code> là giá trị null thì <code>Number.Sign</code> trả về giá trị null.
+Trả về 1 nếu `number` là số dương, -1 nếu là số âm và 0 nếu là số 0. Nếu `number` là giá trị null thì `Number.Sign` trả về giá trị null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Xác định dấu (cộng trừ) của 182.
 ```powerquery
 Number.Sign(182)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Xác định dấu (cộng trừ) của -182.
 ```powerquery
 Number.Sign(-182)
@@ -48,7 +48,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Xác định dấu (cộng trừ) của 0.
 ```powerquery
 Number.Sign(0)

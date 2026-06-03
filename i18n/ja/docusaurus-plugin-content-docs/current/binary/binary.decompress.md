@@ -20,12 +20,15 @@ Binary.Decompress(
 
 ## Remarks
 
-指定された圧縮の種類を使用して、バイナリ値の圧縮を解除します。この呼び出しの結果は、圧縮が解除された入力のコピーです。圧縮の種類には次のものがあります。  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
+指定された圧縮の種類を使用して、バイナリ値の圧縮を解除します。この呼び出しの結果は、圧縮が解除された入力のコピーです。圧縮の種類には次のものがあります。
+
+-   `Compression.GZip`
+-   `Compression.Deflate`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 バイナリ値の圧縮を解除します。
 ```powerquery
 Binary.Decompress(#binary({115, 103, 200, 7, 194, 20, 134, 36, 134, 74, 134, 84, 6, 0}), Compression.Deflate)

@@ -20,12 +20,12 @@ Date.DayOfWeekName(
 
 ## Remarks
 
-Returnerer ugedagens navn for den angivne <code>date</code>. Der kan også angives en valgfri <code>culture</code> (f. eks. "en-US").
+Returnerer ugedagens navn for den angivne `date`. Der kan også angives en valgfri `culture` (f. eks. "en-US").
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hent navnet på ugedagen.
 ```powerquery
 Date.DayOfWeekName(#date(2011, 12, 31), "en-US")

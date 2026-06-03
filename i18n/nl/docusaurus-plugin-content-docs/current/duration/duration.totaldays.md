@@ -19,12 +19,12 @@ Duration.TotalDays(
 
 ## Remarks
 
-Retourneert het totale aantal dagen dat is beslaan door <code>duration</code>.
+Retourneert het totale aantal dagen dat is beslaan door `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zoek het totale aantal dagen dat wordt beslaan door een duurwaarde.
 ```powerquery
 Duration.TotalDays(#duration(5, 4, 3, 2))

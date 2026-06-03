@@ -13,7 +13,7 @@ VivaInsights.Data(
     scopeId as text,
     optional jobName as text,
     optional jobId as text,
-    optional advancedParameters as record
+    optional options as record
 ) as table
 ```
 
@@ -25,7 +25,7 @@ Workplace Analytics'ten haftalık ölçümleri ve öznitelik verilerini içeri a
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bölümdeki ölçülen her çalışan için görünür öznitelikleri ve haftalık ölçümleri olan bir tablo döndürür.
 ```powerquery
 VivaInsights.Data("5f142ea5-c08a-eb02-de68-41dccdefb141")

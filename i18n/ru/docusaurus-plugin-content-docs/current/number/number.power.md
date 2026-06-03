@@ -20,12 +20,15 @@ Number.Power(
 
 ## Remarks
 
-Возвращает результат возведения <code>number</code> в степень <code>power</code>.    Если <code>number</code> или <code>power</code> равно NULL, <code>Number.Power</code> возвращает NULL.      <ul>        <li><code>number</code>: основание.</li>        <li><code>power</code>: показатель степени.</li>      </ul>
+Возвращает результат возведения `number` в степень `power`. Если `number` или `power` равно NULL, `Number.Power` возвращает NULL.
+
+-   `number`: основание.
+-   `power`: показатель степени.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Найти значение 5 в степени 3 (5 в кубе).
 ```powerquery
 Number.Power(5, 3)

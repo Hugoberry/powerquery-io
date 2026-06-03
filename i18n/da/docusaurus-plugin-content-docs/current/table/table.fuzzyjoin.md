@@ -24,33 +24,57 @@ Table.FuzzyJoin(
 
 ## Remarks
 
-Forbinder rækkerne i <code>table1</code> med rækkerne i <code>table2</code> på baggrund af fuzzy-matching af de nøglekolonner, der er valgt af <code>key1</code> (for <code>table1</code>) og <code>key2</code> (for <code>table2</code>).<br />Fuzzy-matching er en sammenligning baseret på tekstens enshed snarere end lighed.<br />Der oprettes som standard en indre forbindelse, men der kan inkluderes en valgfri <code>joinKind</code> for at angive typen af forbindelse. Indstillinger omfatter:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Et valgfrit sæt af <code>joinOptions</code> kan inkluderes for at angive, hvordan nøglekolonnerne skal sammenlignes. Indstillingerne omfatter:    <ul><li><code>ConcurrentRequests</code> : Et tal mellem 1 og 8, der angiver det antal parallelle tr&#229;de, som skal bruges til fuzzymatching. Standardv&#230;rdien er 1.</li><li><code>Culture</code> : Tillader identiske poster baseret p&#229; kulturspecifikke regler. Det kan v&#230;re et vilk&#229;rligt gyldigt kulturnavn. For eksempel matcher en Culture-indstilling p&#229; &quot;ja-JP&quot; poster baseret p&#229; den japanske kultur. Standardv&#230;rdien er &quot;&quot;, som matcher baseret p&#229; den engelske invariable kultur.</li><li><code>IgnoreCase</code> : En logisk v&#230;rdi (sand/falsk), der tillader forskels s&#248;gning efter store og sm&#229; bogstaver. Hvis v&#230;rdien er sand, matches &quot;Druer&quot; med &quot;druer&quot;. Standardv&#230;rdien er sand.</li><li><code>IgnoreSpace</code> : En logisk v&#230;rdi (sand/falsk), der g&#248;r det muligt at kombinere tekstdele for at finde forekomster. Hvis true, matches &quot;Dru er&quot; med &quot;Druer&quot;. Standardv&#230;rdien er sand.</li><li><code>NumberOfMatches</code> : Et heltal, der angiver det maksimale antal matchende r&#230;kker, der kan returneres for hver inputr&#230;kke. For eksempel returnerer en v&#230;rdi p&#229; 1 h&#248;jst &#233;n tilsvarende r&#230;kke for hver inputr&#230;kke. Hvis denne indstilling ikke er angivet, returneres alle matchende r&#230;kker.</li><li><code>SimilarityColumnName</code> : Et navn p&#229; kolonnen, der viser ligheden mellem en inputv&#230;rdi og den repr&#230;sentative v&#230;rdi for inputtet. Standardv&#230;rdien er null, hvilket betyder, at der ikke tilf&#248;jes en ny kolonne for ligheder.</li><li><code>Threshold</code> : Et tal mellem 0,00 og 1,00, der angiver den lighedsscore, som to v&#230;rdier matches med.    For eksempel er &quot;druer&quot; og &quot;drer&quot; (manglende &quot;u&quot;) kun ens, hvis denne indstilling er angivet til mindre end 0,90.    En gr&#230;nsev&#230;rdi p&#229; 1,00 tillader kun eksakte match.    (Bem&#230;rk, at et fuzzy &quot;eksakt match&quot; kan ignorere forskelle som f.eks. store og sm&#229; bogstaver, ordr&#230;kkef&#248;lge og tegns&#230;tning.)    Standardv&#230;rdien er 0,80.</li><li><code>TransformationTable</code> : En tabel, der tillader matchende poster baseret p&#229; brugerdefinerede v&#230;rditilknytninger. Den skal indeholde kolonnerne &quot;Fra&quot; og &quot;Til&quot;. For eksempel bliver &quot;Druer&quot; matchet med &quot;Rosiner&quot;, hvis der findes en transformationstabel med kolonnen &quot;Fra&quot;, som indeholder &quot;Druer&quot;, og kolonnen &quot;Til&quot;, der indeholder &quot;Rosiner&quot;. Bem&#230;rk, at transformationen bliver anvendt p&#229; alle forekomster af teksten i transformationstabellen. Med ovenst&#229;ende transformationstabel bliver &quot;Druer er s&#248;de&quot;, ogs&#229; matchet med &quot;Rosiner er s&#248;de&quot;.</li></ul><br />    
+Forbinder rækkerne i `table1` med rækkerne i `table2` på baggrund af fuzzy-matching af de nøglekolonner, der er valgt af `key1` (for `table1`) og `key2` (for `table2`).
+
+Fuzzy-matching er en sammenligning baseret på tekstens enshed snarere end lighed.
+
+Der oprettes som standard en indre forbindelse, men der kan inkluderes en valgfri `joinKind` for at angive typen af forbindelse. Indstillinger omfatter:
+
+-   `JoinKind.Inner`
+-   `JoinKind.LeftOuter`
+-   `JoinKind.RightOuter`
+-   `JoinKind.FullOuter`
+-   `JoinKind.LeftAnti`
+-   `JoinKind.RightAnti`
+-   `JoinKind.LeftSemi`
+-   `JoinKind.RightSemi`
+
+Et valgfrit sæt af `joinOptions` kan inkluderes for at angive, hvordan nøglekolonnerne skal sammenlignes. Indstillingerne omfatter:
+
+-   `ConcurrentRequests` : Et tal mellem 1 og 8, der angiver det antal parallelle tråde, som skal bruges til fuzzymatching. Standardværdien er 1.
+-   `Culture` : Tillader identiske poster baseret på kulturspecifikke regler. Det kan være et vilkårligt gyldigt kulturnavn. For eksempel matcher en Culture-indstilling på "ja-JP" poster baseret på den japanske kultur. Standardværdien er "", som matcher baseret på den engelske invariable kultur.
+-   `IgnoreCase` : En logisk værdi (sand/falsk), der tillader forskels søgning efter store og små bogstaver. Hvis værdien er sand, matches "Druer" med "druer". Standardværdien er sand.
+-   `IgnoreSpace` : En logisk værdi (sand/falsk), der gør det muligt at kombinere tekstdele for at finde forekomster. Hvis true, matches "Dru er" med "Druer". Standardværdien er sand.
+-   `NumberOfMatches` : Et heltal, der angiver det maksimale antal matchende rækker, der kan returneres for hver inputrække. For eksempel returnerer en værdi på 1 højst én tilsvarende række for hver inputrække. Hvis denne indstilling ikke er angivet, returneres alle matchende rækker.
+-   `SimilarityColumnName` : Et navn på kolonnen, der viser ligheden mellem en inputværdi og den repræsentative værdi for inputtet. Standardværdien er null, hvilket betyder, at der ikke tilføjes en ny kolonne for ligheder.
+-   `Threshold` : Et tal mellem 0,00 og 1,00, der angiver den lighedsscore, som to værdier matches med. For eksempel er "druer" og "drer" (manglende "u") kun ens, hvis denne indstilling er angivet til mindre end 0,90. En grænseværdi på 1,00 tillader kun eksakte match. (Bemærk, at et fuzzy "eksakt match" kan ignorere forskelle som f.eks. store og små bogstaver, ordrækkefølge og tegnsætning.) Standardværdien er 0,80.
+-   `TransformationTable` : En tabel, der tillader matchende poster baseret på brugerdefinerede værditilknytninger. Den skal indeholde kolonnerne "Fra" og "Til". For eksempel bliver "Druer" matchet med "Rosiner", hvis der findes en transformationstabel med kolonnen "Fra", som indeholder "Druer", og kolonnen "Til", der indeholder "Rosiner". Bemærk, at transformationen bliver anvendt på alle forekomster af teksten i transformationstabellen. Med ovenstående transformationstabel bliver "Druer er søde", også matchet med "Rosiner er søde".
 
 
 ## Examples
 
-### Example #1 
-Venstre indre fuzzy-joinforbindelse af to tabeller baseret på [FirstName]
+### Example #1
+Venstre indre fuzzy-joinforbindelse af to tabeller baseret på \[FirstName\]
 ```powerquery
 Table.FuzzyJoin(
-	  Table.FromRecords(
+    Table.FromRecords(
         {
-		        [CustomerID = 1, FirstName1 = "Bob", Phone = "555-1234"],
-		        [CustomerID = 2, FirstName1 = "Robert", Phone = "555-4567"]
-	      },
+            [CustomerID = 1, FirstName1 = "Bob", Phone = "555-1234"],
+            [CustomerID = 2, FirstName1 = "Robert", Phone = "555-4567"]
+        },
         type table [CustomerID = nullable number, FirstName1 = nullable text, Phone = nullable text]
     ),
-	  {"FirstName1"},
-	  Table.FromRecords(
+    {"FirstName1"},
+    Table.FromRecords(
         {
-		        [CustomerStateID = 1, FirstName2 = "Bob", State = "TX"],
-		        [CustomerStateID = 2, FirstName2 = "bOB", State = "CA"]
-	      },
+            [CustomerStateID = 1, FirstName2 = "Bob", State = "TX"],
+            [CustomerStateID = 2, FirstName2 = "bOB", State = "CA"]
+        },
         type table [CustomerStateID = nullable number, FirstName2 = nullable text, State = nullable text]
     ),
-	  {"FirstName2"},
-	  JoinKind.LeftOuter,
-	  [IgnoreCase = true, IgnoreSpace = false]
+    {"FirstName2"},
+    JoinKind.LeftOuter,
+    [IgnoreCase = true, IgnoreSpace = false]
 )
 ```
 
@@ -58,29 +82,29 @@ Result:
 ```powerquery
 Table.FromRecords({
     [
-			  CustomerID = 1,
-			  FirstName1 = "Bob",
-			  Phone = "555-1234",
-			  CustomerStateID = 1,
-			  FirstName2 = "Bob",
-			  State = "TX"
-		],
+        CustomerID = 1,
+        FirstName1 = "Bob",
+        Phone = "555-1234",
+        CustomerStateID = 1,
+        FirstName2 = "Bob",
+        State = "TX"
+    ],
     [
-			  CustomerID = 1,
-			  FirstName1 = "Bob",
-			  Phone = "555-1234",
-			  CustomerStateID = 2,
-			  FirstName2 = "bOB",
-			  State = "CA"
-		],
+        CustomerID = 1,
+        FirstName1 = "Bob",
+        Phone = "555-1234",
+        CustomerStateID = 2,
+        FirstName2 = "bOB",
+        State = "CA"
+    ],
     [
-			  CustomerID = 2,
-			  FirstName1 = "Robert",
-			  Phone = "555-4567",
-			  CustomerStateID = null,
-			  FirstName2 = null,
-			  State = null
-		]
+        CustomerID = 2,
+        FirstName1 = "Robert",
+        Phone = "555-4567",
+        CustomerStateID = null,
+        FirstName2 = null,
+        State = null
+    ]
 })
 ```
 

@@ -19,12 +19,12 @@ Duration.Hours(
 
 ## Remarks
 
-返回 <code>duration</code> 的小时数部分。
+返回 `duration` 的小时数部分。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 从持续时间值中提取小时数。
 ```powerquery
 Duration.Hours(#duration(5, 4, 3, 2))

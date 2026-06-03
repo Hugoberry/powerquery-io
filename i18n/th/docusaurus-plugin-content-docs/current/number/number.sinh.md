@@ -19,7 +19,7 @@ Number.Sinh(
 
 ## Remarks
 
-ส่งกลับค่าไฮเพอร์โบลิกไซน์ของ <code>number</code>
+ส่งกลับค่าไฮเพอร์โบลิกไซน์ของ `number`
 
 
 

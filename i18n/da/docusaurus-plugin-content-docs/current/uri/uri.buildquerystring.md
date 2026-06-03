@@ -19,12 +19,12 @@ Uri.BuildQueryString(
 
 ## Remarks
 
-Oversæt posten <code>query</code> til en URI-forespørgselsstreng, og angiv escapetegn efter behov.
+Oversæt posten `query` til en URI-forespørgselsstreng, og angiv escapetegn efter behov.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kod en forespørgselsstreng, der indeholder specialtegn.
 ```powerquery
 Uri.BuildQueryString([a = "1", b = "+$"])

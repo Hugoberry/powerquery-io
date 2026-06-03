@@ -5,7 +5,7 @@ title: Lines.ToBinary
 # Lines.ToBinary
 
 
-Converts a list of text into a binary value using the specified encoding and lineSeparator.The specified lineSeparator is appended to each line.  If not specified then the carriage return and line feed characters are used.
+Converts a list of text into a binary value using the specified encoding and lineSeparator.The specified lineSeparator is appended to each line. If not specified then the carriage return and line feed characters are used.
 
 
 ## Syntax
@@ -22,7 +22,7 @@ Lines.ToBinary(
 
 ## Remarks
 
-Converts a list of text into a binary value using the specified encoding and lineSeparator.The specified lineSeparator is appended to each line.  If not specified then the carriage return and line feed characters are used.
+Converts a list of text into a binary value using the specified encoding and lineSeparator.The specified lineSeparator is appended to each line. If not specified then the carriage return and line feed characters are used.
 
 
 

@@ -20,13 +20,13 @@ List.First(
 
 ## Remarks
 
-Returnerer det første element på listen <code>list</code> eller den valgfrie standardværdi, <code>defaultValue</code>, hvis listen er tom.    Hvis listen er tom, og der ikke er angivet en standardværdi, returnerer funktionen <code>null</code>.
+Returnerer det første element på listen `list` eller den valgfrie standardværdi, `defaultValue`, hvis listen er tom. Hvis listen er tom, og der ikke er angivet en standardværdi, returnerer funktionen `null`.
 
 
 ## Examples
 
-### Example #1 
-Find den første værdi på listen \{1, 2, 3}.
+### Example #1
+Find den første værdi på listen \{1, 2, 3\}.
 ```powerquery
 List.First({1, 2, 3})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Find den første værdi på listen \{}. Hvis listen er tom, returneres -1.
+### Example #2
+Find den første værdi på listen \{\}. Hvis listen er tom, returneres -1.
 ```powerquery
 List.First({}, -1)
 ```

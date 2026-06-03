@@ -20,13 +20,13 @@ Single.From(
 
 ## Remarks
 
-Devolve um Singular <code>number</code> do fornecido <code>value</code>. Se o <code>value</code> fornecido for <code>null</code>, <code>Single.From</code> devolve <code>null</code>.  Se o fornecido <code>value</code> for <code>number</code> dentro do intervalo Singular <code>value</code> é devolvido, caso contrário é devolvido um erro. Se <code>value</code> for de qualquer outro tipo, primeiro será convertido num <code>number</code> utilizando <code>Number.FromText</code>. Um opcional <code>culture</code> também poderá ser devolvido (por exemplo, "en-US").
+Devolve um Singular `number` do fornecido `value`. Se o `value` fornecido for `null`, `Single.From` devolve `null`. Se o fornecido `value` for `number` dentro do intervalo Singular `value` é devolvido, caso contrário é devolvido um erro. Se `value` for de qualquer outro tipo, primeiro será convertido num `number` utilizando `Number.FromText`. Um opcional `culture` também poderá ser devolvido (por exemplo, "en-US").
 
 
 ## Examples
 
-### Example #1 
-Obter o valor &lt;code&gt;number&lt;/code&gt; Único de &lt;code&gt;&#34;1.5&#34;&lt;/code&gt;.
+### Example #1
+Obter o valor `number` Único de `"1.5"`.
 ```powerquery
 Single.From("1.5")
 ```

@@ -21,7 +21,7 @@ AzureCostManagement.Contents(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Assuming today is 2017-6-15, get summaries data between 2017-5-1 to 2017-6-15
 ```powerquery
 let
@@ -38,7 +38,7 @@ Function will return summaries data between 2017-5-1 to 2017-6-15
 ```
 
 
-### Example #2 
+### Example #2
 Assuming today is 2017-6-15, get summaries data for April 2017.
 ```powerquery
 let
@@ -55,7 +55,7 @@ Function will return data between 2017-4-1 and 2017-4-30
 ```
 
 
-### Example #3 
+### Example #3
 Assuming today is 2017-6-15, get summaries data from April 2017 till now.
 ```powerquery
 let

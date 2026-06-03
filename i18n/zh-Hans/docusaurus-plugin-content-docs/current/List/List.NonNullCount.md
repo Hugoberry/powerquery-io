@@ -19,7 +19,7 @@ List.NonNullCount(
 
 ## Remarks
 
-返回列表 <code>list</code> 中的非 null 项数。
+返回列表 `list` 中的非 null 项数。
 
 
 

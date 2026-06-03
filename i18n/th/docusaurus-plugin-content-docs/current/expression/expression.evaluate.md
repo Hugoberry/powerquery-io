@@ -20,12 +20,12 @@ Expression.Evaluate(
 
 ## Remarks
 
-ส่งกลับผลลัพธ์ของการประเมินนิพจน์ M <code>document</code> ด้วยตัวระบุที่พร้อมใช้งานซึ่งสามารถอ้างอิงและกำหนดได้โดย <code>environment</code>
+ส่งกลับผลลัพธ์ของการประเมินนิพจน์ M `document` ด้วยตัวระบุที่พร้อมใช้งานซึ่งสามารถอ้างอิงและกำหนดได้โดย `environment`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ประเมินผลรวมแบบง่าย
 ```powerquery
 Expression.Evaluate("1 + 1")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 ประเมินผลรวมที่ซับซ้อนยิ่งขึ้น
 ```powerquery
 Expression.Evaluate("List.Sum({1, 2, 3})", [List.Sum = List.Sum])
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 ประเมินการเรียงต่อกันของค่าข้อความด้วยตัวระบุ
 ```powerquery
 Expression.Evaluate(Expression.Constant("""abc") & " & " & Expression.Identifier("x"), [x = "def"""])

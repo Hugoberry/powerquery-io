@@ -21,12 +21,12 @@ ApacheSpark.Tables(
 
 ## Remarks
 
-<code>protocol</code> を使用して Spark クラスター <code>host</code> 上のテーブルの一覧を示すテーブルを返します。有効なプロトコルは次のとおりです:SparkProtocol.Standard, SparkProtocol.HTTP
+`protocol` を使用して Spark クラスター `host` 上のテーブルの一覧を示すテーブルを返します。有効なプロトコルは次のとおりです: SparkProtocol.Standard, SparkProtocol.HTTP
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 指定された Spark クラスター上のテーブルの一覧を示すテーブルを返します。
 ```powerquery
 Spark.Tables("http://example.com:10000/cliservice", SparkProtocol.HTTP)

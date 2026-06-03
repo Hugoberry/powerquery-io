@@ -19,12 +19,14 @@ Date.EndOfYear(
 
 ## Remarks
 
-Zwraca koniec roku, który zawiera <code>dateTime</code>, w tym ułamkowe części sekund. Informacje dotyczące strefy czasowej są zachowywane.      <ul>        <li><code>dateTime</code>: wartość typu <code>date</code>, <code>datetime</code> lub <code>datetimezone</code>, na podstawie której jest obliczany koniec roku.</li>      </ul>
+Zwraca koniec roku, który zawiera `dateTime`, w tym ułamkowe części sekund. Informacje dotyczące strefy czasowej są zachowywane.
+
+-   `dateTime`: wartość typu `date`, `datetime` lub `datetimezone`, na podstawie której jest obliczany koniec roku.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Pobierz koniec roku z wartości 2011-05-14 17:00:00.
 ```powerquery
 Date.EndOfYear(#datetime(2011, 5, 14, 17, 0, 0))
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Pobierz koniec godziny z wartości 2011-05-17 17:00:00 -7:00.
 ```powerquery
 Date.EndOfYear(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0))

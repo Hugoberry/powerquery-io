@@ -21,13 +21,13 @@ Record.RemoveFields(
 
 ## Remarks
 
-Restituisce un record che rimuove tutti i campi specificati nell'elenco <code>fields</code> dell'input <code>record</code>. Se il campo specificato non esiste, viene generata un'eccezione.
+Restituisce un record che rimuove tutti i campi specificati nell'elenco `fields` dell'input `record`. Se il campo specificato non esiste, viene generato un errore.
 
 
 ## Examples
 
-### Example #1 
-Rimuovere il campo &#34;Price&#34; dal record.
+### Example #1
+Rimuovere il campo "Price" dal record.
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], "Price")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Rimuovere i campi &#34;Price&#34; e &#34;Item&#34; dal record.
+### Example #2
+Rimuovere i campi "Price" e "Item" dal record.
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], {"Price", "Item"})
 ```

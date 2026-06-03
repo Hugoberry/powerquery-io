@@ -5,7 +5,7 @@ title: AzureEnterprise.Tables
 # AzureEnterprise.Tables
 
 
-Specificare l&#39;URL dell&#39;endpoint API REST Azure Enterprise associato alla registrazione
+Specificare l'URL dell'endpoint API REST Azure Enterprise associato alla registrazione
 
 
 ## Syntax
@@ -24,7 +24,7 @@ Restituisce un elenco di report e mesi disponibili dall'API Azure Enterprise
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utilizzo della funzione AzureEnterprise.Tables e spostamento su un valore specifico per ottenere i risultati.
 ```powerquery
 let

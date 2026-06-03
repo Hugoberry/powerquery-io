@@ -19,12 +19,12 @@ Number.IsOdd(
 
 ## Remarks
 
-Indica se il valore è dispari. Restituisce <code>true</code> se <code>number</code> è un numero dispari, in caso contrario <code>false</code>.
+Indica se il valore è dispari. Restituisce `true` se `number` è un numero dispari, in caso contrario `false`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Verificare se 625 è un numero dispari.
 ```powerquery
 Number.IsOdd(625)
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Verificare se 82 è un numero dispari.
 ```powerquery
 Number.IsOdd(82)

@@ -19,12 +19,12 @@ Date.Year(
 
 ## Remarks
 
-Returns the year component of the provided <code>datetime</code> value, <code>dateTime</code>.
+Returns the year component of the provided `datetime` value, `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find the year in #datetime(2011, 12, 31, 9, 15, 36).
 ```powerquery
 Date.Year(#datetime(2011, 12, 31, 9, 15, 36))

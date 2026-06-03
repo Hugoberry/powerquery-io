@@ -26,7 +26,7 @@ Webtrends KeyMetrics uç noktasına çağrıda bulunur ve tüm verileri bir tabl
 
 ## Examples
 
-### Example #1 
+### Example #1
 98765 kiracısı için son 30 güne ilişkin ana ölçümlerin yer aldığı bir tablo çeker
 ```powerquery
 Webtrends.KeyMetrics("98765")

@@ -21,12 +21,12 @@ Text.Format(
 
 ## Remarks
 
-Returnerar formaterad text som har skapats genom att tillämpa <code>arguments</code> från en lista eller post till en formatsträng <code>formatString</code>. En valfri <code>culture</code> kan även anges (till exempel, "en-US").
+Returnerar formaterad text som har skapats genom att tillämpa `arguments` från en lista eller post till en formatsträng `formatString`. En valfri `culture` kan även anges (till exempel, "en-US").
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Formatera en lista med tal.
 ```powerquery
 Text.Format("#{0}, #{1}, and #{2}.", {17, 7, 22})
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Formatera olika datatyper från en post enligt kulturen Amerikansk engelska.
 ```powerquery
 Text.Format(

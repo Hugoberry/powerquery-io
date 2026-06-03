@@ -22,13 +22,13 @@ List.ReplaceRange(
 
 ## Remarks
 
-<code>list</code> içindeki <code>count</code> değeri <code>replaceWith</code> listesi ile belirtilen <code>index</code> konumundan başlayarak kaldırır.
+`list` içindeki `count` değeri `replaceWith` listesi ile belirtilen `index` konumundan başlayarak kaldırır.
 
 
 ## Examples
 
-### Example #1 
-\{1, 2, 7, 8, 9, 5} listesindeki \{7, 8, 9} değerlerini \{3, 4} ile değiştirir.
+### Example #1
+\{1, 2, 7, 8, 9, 5\} listesindeki \{7, 8, 9\} değerlerini \{3, 4\} ile değiştirir.
 ```powerquery
 List.ReplaceRange({1, 2, 7, 8, 9, 5}, 2, 3, {3, 4})
 ```

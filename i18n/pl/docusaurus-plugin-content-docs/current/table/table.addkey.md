@@ -21,12 +21,12 @@ Table.AddKey(
 
 ## Remarks
 
-Dodaje klucz do <code>table</code>, gdzie <code>columns</code> jest listą nazw kolumn definiujących klucz, a <code>isPrimary</code> określa, czy klucz jest kluczem podstawowym.
+Dodaje klucz do `table`, gdzie `columns` jest listą nazw kolumn definiujących klucz, a `isPrimary` określa, czy klucz jest kluczem podstawowym.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Dodaj jednokolumnowy klucz podstawowy do tabeli.
 ```powerquery
 let

@@ -19,12 +19,14 @@ Character.ToNumber(
 
 ## Remarks
 
-Retourneert het getalequivalent van de <code>character</code>.<br />    <br />    Het resultaat is het 21 bits Unicode-codepunt dat wordt vertegenwoordigd door het opgegeven teken of surrogaatpaar.  
+Retourneert het getalequivalent van de `character`.  
+  
+Het resultaat is het 21 bits Unicode-codepunt dat wordt vertegenwoordigd door het opgegeven teken of surrogaatpaar.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een teken naar de overeenkomstige getalwaarde converteren.
 ```powerquery
 Character.ToNumber("#(tab)")
@@ -36,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Het UTF-16-surrogaatpaar voor de emoticon &#39;grijnzend gezicht&#39; converteren naar het equivalente hexadecimale codepunt.
+### Example #2
+Het UTF-16-surrogaatpaar voor de emoticon 'grijnzend gezicht' converteren naar het equivalente hexadecimale codepunt.
 ```powerquery
 Number.ToText(Character.ToNumber("#(0001F600)"), "X")
 ```

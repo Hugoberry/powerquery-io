@@ -19,12 +19,12 @@ Table.IsEmpty(
 
 ## Remarks
 
-Indica si la <code>table</code> contiene alguna fila. Devuelve <code>true</code> si no hay filas (es decir, si la tabla está vacía), <code>false</code> en caso contrario.
+Indica si la `table` contiene alguna fila. Devuelve `true` si no hay filas (es decir, si la tabla está vacía), `false` en caso contrario.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determinar si la tabla está vacía.
 ```powerquery
 Table.IsEmpty(
@@ -42,8 +42,8 @@ false
 ```
 
 
-### Example #2 
-Determinar si la tabla &lt;code&gt;(\{})&lt;/code&gt; está vacía.
+### Example #2
+Determinar si la tabla `({})` está vacía.
 ```powerquery
 Table.IsEmpty(Table.FromRecords({}))
 ```

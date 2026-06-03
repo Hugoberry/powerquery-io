@@ -25,7 +25,7 @@ Zwraca funkcję łączącą listę wartości tekstowych w jedną wartość tekst
 
 ## Examples
 
-### Example #1 
+### Example #1
 Połącz listę wartości tekstowych, wyodrębniając określoną liczbę znaków z każdej wartości danych wejściowych.
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3})({"aaa", "bbb", "ccc"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Połącz listę wartości tekstowych, wyodrębniając określone liczby znaków po pierwszym wypełnieniu wyniku tekstem szablonu.
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3}, "*********")({"aaa", "bbb", "ccc"})

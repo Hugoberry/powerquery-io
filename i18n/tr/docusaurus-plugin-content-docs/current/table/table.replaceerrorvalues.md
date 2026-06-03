@@ -20,13 +20,13 @@ Table.ReplaceErrorValues(
 
 ## Remarks
 
-Belirtilen <code>table</code> sütunlarındaki hata değerlerini <code>errorReplacement</code> listesindeki yeni değerlerle değiştirir. Listenin biçimi \{\{column1, value1}, …}. Sütun başına yalnızca bir değiştirme değeri bulunabilir, sütunun birden fazla kez belirtilmesi hataya neden olur.
+Belirtilen `table` sütunlarındaki hata değerlerini `errorReplacement` listesindeki yeni değerlerle değiştirir. Listenin biçimi \{\{column1, value1\}, ...\}. Sütun başına yalnızca bir değiştirme değeri bulunabilir, sütunun birden fazla kez belirtilmesi hataya neden olur.
 
 
 ## Examples
 
-### Example #1 
-Tabloda bulunan hata değerini &#34;world&#34; metni ile değiştirir.
+### Example #1
+Tabloda bulunan hata değerini "world" metni ile değiştirir.
 ```powerquery
 Table.ReplaceErrorValues(
     Table.FromRows({{1, "hello"}, {3, ...}}, {"A", "B"}),
@@ -43,8 +43,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Tabloda, A sütunundaki hata değerini &#34;hello&#34; metni ile B sütunundaki hata değerini ise &#34;world&#34; metni ile değiştirir.
+### Example #2
+Tabloda, A sütunundaki hata değerini "hello" metni ile B sütunundaki hata değerini ise "world" metni ile değiştirir.
 ```powerquery
 Table.ReplaceErrorValues(
     Table.FromRows({{..., ...}, {1, 2}}, {"A", "B"}),

@@ -21,13 +21,17 @@ Record.TransformFields(
 
 ## Remarks
 
-将列表 <code>transformOperations</code> 中指定的转换应用到 <code>record</code> 后返回一个记录。    一次可以转换一个或多个字段。      <div>在转换单个字段时，要求 <code>transformOperations</code> 是包含两项的列表。<code>transformOperations</code> 中的第一项指定字段名称，<code>transformOperations</code> 中的第二项指定要用于转换的函数。例如 <code>\{"Quantity", Number.FromText}</code></div>      <div>在转换多个字段时，要求 <code>transformOperations</code> 是列表的列表，其中每个里面的列表是一对字段名称和转换操作。例如 <code>\{\{"Quantity",Number.FromText},\{"UnitPrice", Number.FromText}}</code></div>
+将列表 `transformOperations` 中指定的转换应用到 `record` 后返回一个记录。 一次可以转换一个或多个字段。
+
+在转换单个字段时，要求 `transformOperations` 是包含两项的列表。`transformOperations` 中的第一项指定字段名称，`transformOperations` 中的第二项指定要用于转换的函数。例如 `{"Quantity", Number.FromText}`
+
+在转换多个字段时，要求 `transformOperations` 是列表的列表，其中每个里面的列表是一对字段名称和转换操作。例如 `{{"Quantity",Number.FromText},{"UnitPrice", Number.FromText}}`
 
 
 ## Examples
 
-### Example #1 
-将 &#34;Price&#34; 字段转换为数字。
+### Example #1
+将 "Price" 字段转换为数字。
 ```powerquery
 Record.TransformFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = "100.0"],
@@ -41,8 +45,8 @@ Result:
 ```
 
 
-### Example #2 
-将 &#34;OrderID&#34; 和 &#34;Price&#34; 字段转换为数字。
+### Example #2
+将 "OrderID" 和 "Price" 字段转换为数字。
 ```powerquery
 Record.TransformFields(
     [OrderID = "1", CustomerID = 1, Item = "Fishing rod", Price = "100.0"],

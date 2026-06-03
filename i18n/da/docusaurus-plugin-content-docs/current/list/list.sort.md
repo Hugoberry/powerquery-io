@@ -20,13 +20,21 @@ List.Sort(
 
 ## Remarks
 
-Sorterer en liste over data, <code>list</code>, i overensstemmelse med de angivne valgfrie kriterier.    Du kan angive en valgfri parameter, <code>comparisonCriteria</code>, som sammenligningskriterie. Den kan tage følgende værdier:    <ul>    <li> Hvis du vil styre rækkefølgen, kan sammenligningskriteriet være en værdi af typen Order enum. (<code>Order.Descending</code>, <code>Order.Ascending</code>). </li>    <li> Hvis du vil beregne en nøgle, der skal bruges til sortering, kan der bruges en funktion med ét argument. </li>    <li> Hvis du både vil vælge en nøgle og styre rækkefølgen, kan sammenligningskriteriet være en liste, der indeholder nøglen og rækkefølgen (<code>\{each 1 / _, Order.Descending}</code>). </li>    <li> Hvis du vil styre sammenligningen fuldstændig, kan der bruges en funktion med to argumenter. Denne funktion overføres til to elementer fra listen (to vilkårlige elementer i en hvilken som helst rækkefølge). Funktionen skal returnere en af følgende værdier:        <ul>            <li> <code>-1</code>: Det første element er mindre end det andet element.</li>            <li> <code>0</code>: Elementerne er ens.</li>            <li> <code>1</code>: Det første element er større end det andet element.</li>        </ul>        Value.Compare er en metode, der kan bruges til at delegere denne logik. </li>    </ul>
+Sorts a list of data, `list`, according to the optional criteria specified. An optional parameter, `comparisonCriteria`, can be specified as the comparison criterion. This can take the following values:
+
+-   To control the order, the comparison criterion can be an Order enum value. (`Order.Descending`, `Order.Ascending`).
+-   To compute a key to be used for sorting, a function of 1 argument can be used.
+-   To both select a key and control order, comparison criterion can be a list containing the key and order (`{each 1 / _, Order.Descending}`).
+-   To completely control the comparison, a function of 2 arguments can be used (such as Value.Compare). This function will be passed two items from the list (any two items, in any order). The function should return one of the following values:
+    -   `-1`: The first item is less than the second item.
+    -   `0`: The items are equal.
+    -   `1`: The first item is greater than the second item.
 
 
 ## Examples
 
-### Example #1 
-Sortér listen \{2, 3, 1}.
+### Example #1
+Sortér listen \{2, 3, 1\}.
 ```powerquery
 List.Sort({2, 3, 1})
 ```
@@ -37,8 +45,8 @@ Result:
 ```
 
 
-### Example #2 
-Sortér listen \{2, 3, 1} i faldende rækkefølge.
+### Example #2
+Sortér listen \{2, 3, 1\} i faldende rækkefølge.
 ```powerquery
 List.Sort({2, 3, 1}, Order.Descending)
 ```
@@ -49,8 +57,8 @@ Result:
 ```
 
 
-### Example #3 
-Sortér listen \{2, 3, 1} i faldende rækkefølge ved hjælp af metoden Value.Compare.
+### Example #3
+Sortér listen \{2, 3, 1\} i faldende rækkefølge ved hjælp af metoden Value.Compare.
 ```powerquery
 List.Sort({2, 3, 1}, (x, y) => Value.Compare(1/x, 1/y))
 ```

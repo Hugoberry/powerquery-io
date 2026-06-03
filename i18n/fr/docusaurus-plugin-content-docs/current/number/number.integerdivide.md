@@ -5,7 +5,7 @@ title: Number.IntegerDivide
 # Number.IntegerDivide
 
 
-Divise deux nombres et retourne la partie d&#39;entier du résultat.
+Divise deux nombres et retourne la partie d'entier du résultat.
 
 
 ## Syntax
@@ -21,12 +21,15 @@ Number.IntegerDivide(
 
 ## Remarks
 
-Retourne la partie entière du résultat de la division d'un nombre <code>number1</code> par un autre nombre <code>number2</code>.    Si <code>number1</code> ou <code>number2</code> ont la valeur null, <code>Number.IntegerDivide</code> retourne null.      <ul>        <li><code>number1</code> : dividende.</li>        <li><code>number2</code> : diviseur.</li>      </ul>
+Retourne la partie entière du résultat de la division d'un nombre `number1` par un autre nombre `number2`. Si `number1` ou `number2` ont la valeur null, `Number.IntegerDivide` retourne null.
+
+-   `number1` : dividende.
+-   `number2` : diviseur.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Divise 6 par 4.
 ```powerquery
 Number.IntegerDivide(6, 4)
@@ -38,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Divise 8,3 par 3.
 ```powerquery
 Number.IntegerDivide(8.3, 3)

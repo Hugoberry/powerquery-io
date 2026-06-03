@@ -20,12 +20,12 @@ Table.TransformRows(
 
 ## Remarks
 
-สร้าง<code>รายการ</code>โดยนำการดำเนินการ <code>transform</code> ไปใช้กับแต่ละแถวใน <code>table</code>
+สร้าง`รายการ`โดยนำการดำเนินการ `transform` ไปใช้กับแต่ละแถวใน `table`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 แปลงแถวของตารางเป็นรายการตัวเลข
 ```powerquery
 Table.TransformRows(
@@ -46,7 +46,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 แปลงแถวของตารางตัวเลขเป็นระเบียนข้อความ
 ```powerquery
 Table.TransformRows(

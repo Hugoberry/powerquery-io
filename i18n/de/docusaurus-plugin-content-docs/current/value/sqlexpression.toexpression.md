@@ -20,7 +20,7 @@ SqlExpression.ToExpression(
 
 ## Remarks
 
-Konvertiert die angegebene <code>sql</code>-Abfrage in M-Code, wobei die verfügbaren Bezeichner durch <code>environment</code> definiert werden. Diese Funktion ist nur für die interne Verwendung vorgesehen.
+Konvertiert die angegebene `sql`\-Abfrage in M-Code, wobei die verfügbaren Bezeichner durch `environment` definiert werden. Diese Funktion ist nur für die interne Verwendung vorgesehen.
 
 
 

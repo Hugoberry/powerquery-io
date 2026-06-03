@@ -19,12 +19,12 @@ Record.FieldCount(
 
 ## Remarks
 
-<code>record</code> kaydındaki alan sayısını döndürür.
+`record` kaydındaki alan sayısını döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kayıttaki alan sayısını bulur.
 ```powerquery
 Record.FieldCount([CustomerID = 1, Name = "Bob"])

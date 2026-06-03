@@ -21,13 +21,13 @@ Table.ContainsAny(
 
 ## Remarks
 
-Cho biết có bản ghi được chỉ định nào trong danh sách bản ghi <code>rows</code> xuất hiện ở dạng hàng trong <code>table</code> hay không.    Có thể chỉ định tham số tùy chọn <code>equationCriteria</code> để kiểm soát phép so sánh giữa các hàng của bảng.
+Cho biết có bản ghi được chỉ định nào trong danh sách bản ghi `rows` xuất hiện ở dạng hàng trong `table` hay không. Có thể chỉ định tham số tùy chọn `equationCriteria` để kiểm soát phép so sánh giữa các hàng của bảng.
 
 
 ## Examples
 
-### Example #1 
-Xác định bảng &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; chứa hay không chứa các hàng &lt;code&gt;[a = 1, b = 2]&lt;/code&gt; hoặc &lt;code&gt;[a = 3, b = 5]&lt;/code&gt;.
+### Example #1
+Xác định bảng `({[a = 1, b = 2], [a = 3, b = 4]})` chứa hay không chứa các hàng `[a = 1, b = 2]` hoặc `[a = 3, b = 5]`.
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({
@@ -47,8 +47,8 @@ true
 ```
 
 
-### Example #2 
-Xác định bảng &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; chứa hay không chứa các hàng &lt;code&gt;[a = 1, b = 3]&lt;/code&gt; hoặc &lt;code&gt;[a = 3, b = 5]&lt;/code&gt;.
+### Example #2
+Xác định bảng `({[a = 1, b = 2], [a = 3, b = 4]})` chứa hay không chứa các hàng `[a = 1, b = 3]` hoặc `[a = 3, b = 5]`.
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({
@@ -68,8 +68,8 @@ false
 ```
 
 
-### Example #3 
-Xác định bảng &lt;code&gt;(Table.FromRecords(\{[a = 1, b = 2], [a = 3, b = 4]}))&lt;/code&gt; chứa hay không chứa các hàng &lt;code&gt;[a = 1, b = 3]&lt;/code&gt; hoặc &lt;code&gt;[a = 3, b = 5]&lt;/code&gt; khi chỉ so sánh cột [a].
+### Example #3
+Xác định bảng `(Table.FromRecords({[a = 1, b = 2], [a = 3, b = 4]}))` chứa hay không chứa các hàng `[a = 1, b = 3]` hoặc `[a = 3, b = 5]` khi chỉ so sánh cột \[a\].
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({

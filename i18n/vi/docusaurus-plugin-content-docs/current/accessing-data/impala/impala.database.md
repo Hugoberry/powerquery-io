@@ -20,12 +20,12 @@ Impala.Database(
 
 ## Remarks
 
-Nhập dữ liệu từ cụm Impala <code>server</code>. Nếu bạn chưa chỉ định cổng thì cổng mặc định 21050 sẽ được sử dụng.
+Nhập dữ liệu từ cụm Impala `server`. Nếu bạn chưa chỉ định cổng thì cổng mặc định 21050 sẽ được sử dụng.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Liệt kê các bảng trong cụm Impala.
 ```powerquery
 Impala.Database("localhost:21050")

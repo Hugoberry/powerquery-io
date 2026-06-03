@@ -20,13 +20,13 @@ Table.FillDown(
 
 ## Remarks
 
-Retorna uma tabela do <code>table</code> especificado em que o valor de uma célula anterior é propagado para as células de valor nulo abaixo no <code>columns</code> especificado.
+Retorna uma tabela do `table` especificado em que o valor de uma célula anterior é propagado para as células de valor nulo abaixo no `columns` especificado.
 
 
 ## Examples
 
-### Example #1 
-Retornar uma tabela com os valores nulos da coluna [Place] preenchidos com o valor acima deles na tabela.
+### Example #1
+Retornar uma tabela com os valores nulos da coluna \[Place\] preenchidos com o valor acima deles na tabela.
 ```powerquery
 Table.FillDown(
     Table.FromRecords({

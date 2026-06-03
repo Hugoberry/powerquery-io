@@ -21,12 +21,12 @@ Replacer.ReplaceValue(
 
 ## Remarks
 
-แทนที่ค่า <code>old</code> ใน <code>value</code> เดิมด้วยค่า <code>new</code> ฟังก์ชันตัวแทนที่นี้สามารถใช้ใน <code>List.ReplaceValue</code> และ <code>Table.ReplaceValue</code> ได้
+แทนที่ค่า `old` ใน `value` เดิมด้วยค่า `new` ฟังก์ชันตัวแทนที่นี้สามารถใช้ใน `List.ReplaceValue` และ `Table.ReplaceValue` ได้
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 แทนที่ค่า 11 ด้วยค่า 10
 ```powerquery
 Replacer.ReplaceValue(11, 11, 10)

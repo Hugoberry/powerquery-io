@@ -20,13 +20,14 @@ List.FirstN(
 
 ## Remarks
 
- <ul>  <li>Sayı belirtilirse, bu sayı kadar öğe döndürülür. </li>  <li>Koşul belirtilirse, bu koşulu sağlayan tüm öğeler döndürülür. Tüm öğeler koşulu sağlamadığında, başka öğe değerlendirilmez. </li> </ul>
+-   Sayı belirtilirse, bu sayı kadar öğe döndürülür.
+-   Koşul belirtilirse, bu koşulu sağlayan tüm öğeler döndürülür. Tüm öğeler koşulu sağlamadığında, başka öğe değerlendirilmez.
 
 
 ## Examples
 
-### Example #1 
-\{3, 4, 5, -1, 7, 8, 2} listesinde 0&#39;dan büyük olan ilk değerleri bulur.
+### Example #1
+\{3, 4, 5, -1, 7, 8, 2\} listesinde 0'dan büyük olan ilk değerleri bulur.
 ```powerquery
 List.FirstN({3, 4, 5, -1, 7, 8, 2}, each _ > 0)
 ```

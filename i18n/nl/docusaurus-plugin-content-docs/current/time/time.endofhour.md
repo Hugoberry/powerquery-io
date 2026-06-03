@@ -19,12 +19,14 @@ Time.EndOfHour(
 
 ## Remarks
 
-Retourneert het einde van het uur dat wordt vertegenwoordigd door <code>dateTime</code>, inclusief fractionele seconden. Informatie over de tijdzone blijft behouden. <ul> <li><code>dateTime</code>: een <code>tijdstip</code>, <code>datum/tijd</code> of <code>datum/tijdzone</code> waarmee het einde van het uur wordt berekend.</li> </ul>
+Retourneert het einde van het uur dat wordt vertegenwoordigd door `dateTime`, inclusief fractionele seconden. Informatie over de tijdzone blijft behouden.
+
+-   `dateTime`: een `tijdstip`, `datum/tijd` of `datum/tijdzone` waarmee het einde van het uur wordt berekend.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Het einde van het uur ophalen voor 14/5/2011 05:00:00 PM.
 ```powerquery
 Time.EndOfHour(#datetime(2011, 5, 14, 17, 0, 0))
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Het einde van het uur ophalen voor 17/5/2011 07:00:00 PM.
 ```powerquery
 Time.EndOfHour(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0))

@@ -19,13 +19,13 @@ Text.Reverse(
 
 ## Remarks
 
-反向所提供的 <code>text</code>。
+反向所提供的 `text`。
 
 
 ## Examples
 
-### Example #1 
-反向文本 &#34;123&#34;。
+### Example #1
+反向文本 "123"。
 ```powerquery
 Text.Reverse("123")
 ```

@@ -19,12 +19,12 @@ DateTime.Time(
 
 ## Remarks
 
-Returnerer klokkeslætsdelen for den angivne værdi af typen datetime, <code>dateTime</code>.
+Returnerer klokkeslætsdelen for den angivne værdi af typen datetime, `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find klokkeslætsværdien for #datetime(2010, 12, 31, 11, 56, 02).
 ```powerquery
 DateTime.Time(#datetime(2010, 12, 31, 11, 56, 02))

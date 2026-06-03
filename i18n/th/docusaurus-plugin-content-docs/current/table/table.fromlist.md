@@ -23,12 +23,12 @@ Table.FromList(
 
 ## Remarks
 
-แปลงรายการ <code>list</code> ให้เป็นตารางโดยนำฟังก์ชันการแยกที่เลือกได้ <code>splitter</code> ไปใช้กับแต่ละข้อมูลในรายการ ตามค่าเริ่มต้น จะถือว่ารายการเป็นรายการของค่าข้อความที่ถูกแยกด้วยเครื่องหมายจุลภาค <code>columns</code> ที่เลือกได้อาจเป็นจำนวนคอลัมน์ รายการคอลัมน์ หรือ TableType <code>default</code> และ <code>extraValues</code> ที่เลือกได้อาจถูกระบุไว้ด้วย
+แปลงรายการ `list` ให้เป็นตารางโดยนำฟังก์ชันการแยกที่เลือกได้ `splitter` ไปใช้กับแต่ละข้อมูลในรายการ ตามค่าเริ่มต้น จะถือว่ารายการเป็นรายการของค่าข้อความที่ถูกแยกด้วยเครื่องหมายจุลภาค `columns` ที่เลือกได้อาจเป็นจำนวนคอลัมน์ รายการคอลัมน์ หรือ TableType `default` และ `extraValues` ที่เลือกได้อาจถูกระบุไว้ด้วย
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 สร้างตารางจากรายการโดยใช้ตัวแยกเริ่มต้น
 ```powerquery
 Table.FromList(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 สร้างตารางจากรายการโดยใช้ตัวแยกแบบกำหนดเอง
 ```powerquery
 Table.FromList(
@@ -70,7 +70,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 สร้างตารางจากรายการโดยใช้ตัวแยก Record.FieldValues
 ```powerquery
 Table.FromList(

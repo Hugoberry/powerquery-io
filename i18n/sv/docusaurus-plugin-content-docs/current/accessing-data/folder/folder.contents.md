@@ -20,7 +20,7 @@ Folder.Contents(
 
 ## Remarks
 
-Returnerar en tabell som innehåller en rad för varje mapp och fil som finns i mappen <code>path</code>. Varje rad innehåller egenskaper för mappen eller filen och en länk till dess innehåll. Parametern <code>options</code> är för närvarande endast avsedd för intern användning.
+Returnerar en tabell som innehåller en rad för varje mapp och fil som finns i mappen `path`. Varje rad innehåller egenskaper för mappen eller filen och en länk till dess innehåll. Parametern `options` är för närvarande endast avsedd för intern användning.
 
 
 

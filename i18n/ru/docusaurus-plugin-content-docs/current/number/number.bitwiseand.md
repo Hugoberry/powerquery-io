@@ -20,7 +20,7 @@ Number.BitwiseAnd(
 
 ## Remarks
 
-Возвращает результат выполнения побитовой операции AND со значениями <code>number1</code> и <code>number2</code>.
+Возвращает результат выполнения побитовой операции AND со значениями `number1` и `number2`.
 
 
 

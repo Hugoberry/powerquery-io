@@ -21,13 +21,13 @@ Text.AfterDelimiter(
 
 ## Remarks
 
-返回指定的 <code>delimiter</code> 之后的 <code>text</code> 部分。    可选数字 <code>index</code> 指示要考虑哪一次出现的 <code>delimiter</code>。    可选列表 <code>index</code> 指示要考虑哪一次出现的 <code>delimiter</code>，以及应从输入的开头还是结尾编制索引。
+返回指定的 `delimiter` 之后的 `text` 部分。 可选数字 `index` 指示要考虑哪一次出现的 `delimiter`。 可选列表 `index` 指示要考虑哪一次出现的 `delimiter`，以及应从输入的开头还是结尾编制索引。
 
 
 ## Examples
 
-### Example #1 
-获取 &#34;111-222-333&#34; (第一个)连字符后的部分。
+### Example #1
+获取 "111-222-333" (第一个)连字符后的部分。
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-获取 &#34;111-222-333&#34; 第二个连字符后的部分。
+### Example #2
+获取 "111-222-333" 第二个连字符后的部分。
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-", 1)
 ```
@@ -50,8 +50,8 @@ Result:
 ```
 
 
-### Example #3 
-获取 &#34;111-222-333&#34; 倒数第二个连字符后的部分。
+### Example #3
+获取 "111-222-333" 倒数第二个连字符后的部分。
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-", {1, RelativePosition.FromEnd})
 ```

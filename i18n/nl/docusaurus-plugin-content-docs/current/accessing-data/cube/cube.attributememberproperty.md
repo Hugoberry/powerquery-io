@@ -20,7 +20,7 @@ Cube.AttributeMemberProperty(
 
 ## Remarks
 
-Hiermee wordt de eigenschap <code>propertyName</code> van het dimensiekenmerk <code>attribute</code> geretourneerd.
+Hiermee wordt de eigenschap `propertyName` van het dimensiekenmerk `attribute` geretourneerd.
 
 
 

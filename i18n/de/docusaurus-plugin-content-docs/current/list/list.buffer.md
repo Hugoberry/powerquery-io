@@ -19,13 +19,13 @@ List.Buffer(
 
 ## Remarks
 
-Puffert die Liste "<code>list</code>" im Arbeitsspeicher. Das Ergebnis dieses Aufrufs ist eine stabile Liste.
+Puffert die Liste "`list`" im Arbeitsspeicher. Das Ergebnis dieses Aufrufs ist eine stabile Liste.
 
 
 ## Examples
 
-### Example #1 
-Erstellt eine stabile Kopie der Liste &#34;\{1..10}&#34;.
+### Example #1
+Erstellt eine stabile Kopie der Liste "\{1..10\}".
 ```powerquery
 List.Buffer({1..10})
 ```

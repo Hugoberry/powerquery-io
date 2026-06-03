@@ -5,7 +5,7 @@ title: Lakehouse.Contents
 # Lakehouse.Contents
 
 
-Importare dati da un&#39;istanza di Lakehouse
+Importare dati da un'istanza di Lakehouse
 
 
 ## Syntax

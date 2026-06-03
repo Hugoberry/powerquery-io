@@ -20,12 +20,15 @@ Table.FirstN(
 
 ## Remarks
 
-Returnerar den eller de första raderna i tabellen <code>table</code>, beroende på värdet för <code>countOrCondition</code>:    <ul>    <li> Om <code>countOrCondition</code> är ett tal returneras så många rader (med början ovanifrån). </li>    <li> Om <code>countOrCondition</code> är ett villkor returneras de rader som uppfyller villkoret tills en rad inte uppfyller villkoret.</li></ul>
+Returnerar den eller de första raderna i tabellen `table`, beroende på värdet för `countOrCondition`:
+
+-   Om `countOrCondition` är ett tal returneras så många rader (med början ovanifrån).
+-   Om `countOrCondition` är ett villkor returneras de rader som uppfyller villkoret tills en rad inte uppfyller villkoret.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta de två första raderna i tabellen.
 ```powerquery
 Table.FirstN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Hitta de första raderna där [a] &gt; 0 i tabellen.
+### Example #2
+Hitta de första raderna där \[a\] > 0 i tabellen.
 ```powerquery
 Table.FirstN(
     Table.FromRecords({

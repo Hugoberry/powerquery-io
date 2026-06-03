@@ -22,13 +22,13 @@ Table.AddColumn(
 
 ## Remarks
 
-テーブル <code>table</code> に <code>newColumnName</code> という名前の列を追加します。入力として受け取った行ごとに、指定された選択関数 <code>columnGenerator</code> を使用して列の値を計算します。
+テーブル `table` に `newColumnName` という名前の列を追加します。入力として受け取った行ごとに、指定された選択関数 `columnGenerator` を使用して列の値を計算します。
 
 
 ## Examples
 
-### Example #1 
-値が [Price] 列と [Shipping] 列の合計である &#34;TotalPrice&#34; という名前の数値列をテーブルに追加します。
+### Example #1
+値が \[Price\] 列と \[Shipping\] 列の合計である "TotalPrice" という名前の数値列をテーブルに追加します。
 ```powerquery
 Table.AddColumn(
     Table.FromRecords({

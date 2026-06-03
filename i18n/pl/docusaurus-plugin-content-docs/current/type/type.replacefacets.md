@@ -20,7 +20,7 @@ Type.ReplaceFacets(
 
 ## Remarks
 
-Zastępuje aspekty elementu <code>type</code> aspektami zawartymi w rekordzie <code>facets</code>.
+Zastępuje aspekty elementu `type` aspektami zawartymi w rekordzie `facets`.
 
 
 

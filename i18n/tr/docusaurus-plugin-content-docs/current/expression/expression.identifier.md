@@ -19,12 +19,12 @@ Expression.Identifier(
 
 ## Remarks
 
-Bir tanımlayıcının <code>name</code> M kaynak kodu gösterimini döndürür.
+Bir tanımlayıcının `name` M kaynak kodu gösterimini döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bir tanımlayıcının M kaynak kodu gösterimini alır.
 ```powerquery
 Expression.Identifier("MyIdentifier")
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Boşluk içeren bir tanımlayıcının M kaynak kodu gösterimini alır.
 ```powerquery
 Expression.Identifier("My Identifier")

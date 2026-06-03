@@ -25,7 +25,7 @@ Trả về một hàm kết hợp một danh sách giá trị văn bản thành 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kết hợp một danh sách giá trị văn bản bằng cách đặt chúng vào đầu ra tại các vị trí được chỉ định.
 ```powerquery
 Combiner.CombineTextByPositions({0, 5, 10})({"abc", "def", "ghi"})

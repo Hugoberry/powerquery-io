@@ -21,12 +21,12 @@ Text.PadEnd(
 
 ## Remarks
 
-Retorna um valor <code>text</code> preenchido até o comprimento <code>count</code> inserindo espaços no final do valor de texto <code>text</code>.    Um caractere <code>character</code> opcional pode ser usado para especificar o caractere usado no preenchimento. O caractere de preenchimento padrão é um espaço.
+Retorna um valor `text` preenchido até o comprimento `count` inserindo espaços no final do valor de texto `text`. Um caractere `character` opcional pode ser usado para especificar o caractere usado no preenchimento. O caractere de preenchimento padrão é um espaço.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Preencha o final de um valor de texto para que tenha 10 caracteres.
 ```powerquery
 Text.PadEnd("Name", 10)
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Preencha o final de um valor de texto com &#34;|&#34; para que tenha 10 caracteres.
+### Example #2
+Preencha o final de um valor de texto com "|" para que tenha 10 caracteres.
 ```powerquery
 Text.PadEnd("Name", 10, "|")
 ```

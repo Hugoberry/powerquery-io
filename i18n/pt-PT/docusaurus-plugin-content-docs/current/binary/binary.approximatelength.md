@@ -19,12 +19,12 @@ Binary.ApproximateLength(
 
 ## Remarks
 
-Devolve o comprimento aproximado de <code>binary</code>, ou um erro se a origem de dados não suportar um comprimento aproximado.
+Devolve o comprimento aproximado de `binary`, ou um erro se a origem de dados não suportar um comprimento aproximado.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Obtenha o comprimento aproximado do valor binário.
 ```powerquery
 Binary.ApproximateLength(Binary.FromText("i45WMlSKjQUA", BinaryEncoding.Base64))

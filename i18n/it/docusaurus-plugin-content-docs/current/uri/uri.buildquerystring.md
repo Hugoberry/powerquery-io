@@ -19,12 +19,12 @@ Uri.BuildQueryString(
 
 ## Remarks
 
-Assemblare il record <code>query</code> in una stringa di query URI, usando i caratteri di escape appropriati.
+Assemblare il record `query` in una stringa di query URI, usando i caratteri di escape appropriati.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Codificare una stringa di query contenente caratteri speciali.
 ```powerquery
 Uri.BuildQueryString([a = "1", b = "+$"])

@@ -20,12 +20,15 @@ Date.IsInNextNYears(
 
 ## Remarks
 
-Indicates whether the given datetime value <code>dateTime</code> occurs during the next number of years, as determined by the current date and time on the system. Note that this function will return false when passed a value that occurs within the current year.      <ul>      <li><code>dateTime</code>: A <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> value to be evaluated.</li>      <li><code>years</code>: The number of years.</li>      </ul>
+Indicates whether the given datetime value `dateTime` occurs during the next number of years, as determined by the current date and time on the system. Note that this function will return false when passed a value that occurs within the current year.
+
+-   `dateTime`: A `date`, `datetime`, or `datetimezone` value to be evaluated.
+-   `years`: The number of years.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determine if the year after the current system time is in the next two years.
 ```powerquery
 Date.IsInNextNYears(Date.AddYears(DateTime.FixedLocalNow(), 1), 2)

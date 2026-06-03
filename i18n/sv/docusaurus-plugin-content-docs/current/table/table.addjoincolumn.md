@@ -23,13 +23,13 @@ Table.AddJoinColumn(
 
 ## Remarks
 
-Kopplar raderna i <code>table1</code> med raderna i <code>table2</code> baserat på likheten mellan värdena i nyckelkolumnerna som valts av <code>key1</code> (för <code>table1</code>) och <code>key2</code> (för <code>table2</code>). Resultatet anges i kolumnen med namnet <code>newColumnName</code>.Den här funktionen fungerar ungefär som Table.Join med JoinKind-typen LeftOuter förutom att kopplingsresultatet visas i kapslat format i stället för i platt format.
+Kopplar raderna i `table1` med raderna i `table2` baserat på likheten mellan värdena i nyckelkolumnerna som valts av `key1` (för `table1`) och `key2` (för `table2`). Resultatet anges i kolumnen med namnet `newColumnName`. Den här funktionen fungerar ungefär som Table.Join med JoinKind-typen LeftOuter förutom att kopplingsresultatet visas i kapslat format i stället för i platt format.
 
 
 ## Examples
 
-### Example #1 
-Lägg till en kopplingskolumn i (\{[saleID = 1, item = &#34;Shirt&#34;], [saleID = 2, item = &#34;Hat&#34;]}) med namnet &#34;price/stock&#34; från tabellen (\{[saleID = 1, price = 20], [saleID = 2, price = 10]}) som är kopplad via [saleID].
+### Example #1
+Lägg till en kopplingskolumn i (\{\[saleID = 1, item = "Shirt"\], \[saleID = 2, item = "Hat"\]\}) med namnet "price/stock" från tabellen (\{\[saleID = 1, price = 20\], \[saleID = 2, price = 10\]\}) som är kopplad via \[saleID\].
 ```powerquery
 Table.AddJoinColumn(
     Table.FromRecords({

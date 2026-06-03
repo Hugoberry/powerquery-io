@@ -20,7 +20,7 @@ Function.InvokeAfter(
 
 ## Remarks
 
-Returnerer resultatet af start af <code>function</code>, når varigheden <code>delay</code> overskrides.
+Returnerer resultatet af start af `function`, når varigheden `delay` overskrides.
 
 
 

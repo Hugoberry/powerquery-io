@@ -27,7 +27,7 @@ Dịch tất cả các cột trừ bộ được chỉ định thành ca�
 
 ## Examples
 
-### Example #1 
+### Example #1
 Dịch tất cả các cột trừ bộ được chỉ định thành các cặp thuộc tính - giá trị, kết hợp với các giá trị còn lại trong mỗi hàng.
 ```powerquery
 Table.UnpivotOtherColumns(

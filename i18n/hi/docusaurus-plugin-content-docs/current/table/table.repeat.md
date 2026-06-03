@@ -20,12 +20,12 @@ Table.Repeat(
 
 ## Remarks
 
-इनपुट <code>table</code> की निर्दिष्ट <code>count</code> बार दोहराई गई पंक्तियों के साथ एक तालिका लौटाता है.
+इनपुट `table` की निर्दिष्ट `count` बार दोहराई गई पंक्तियों के साथ एक तालिका लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 तालिका में पंक्तियों को दो बार दोहराएँ.
 ```powerquery
 Table.Repeat(

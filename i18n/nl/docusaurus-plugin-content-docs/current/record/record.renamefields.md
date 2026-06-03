@@ -5,7 +5,7 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-Past naamswijzigingen vanuit een lijst toe in de vorm \{ old, new }.
+Past naamswijzigingen vanuit een lijst toe in de vorm \{ old, new \}.
 
 
 ## Syntax
@@ -21,12 +21,12 @@ Record.RenameFields(
 
 ## Remarks
 
-Retourneert een record na het wijzigen van veldnamen in de invoer <code>record</code> naar de nieuwe veldnamen die zijn opgegeven in de lijst <code>renames</code>. Bij het wijzigen van meerdere veldnamen kan een geneste lijst (\{ \{old1, new1}, \{old2, new2} } worden gebruikt.
+Retourneert een record na het wijzigen van veldnamen in de invoer `record` naar de nieuwe veldnamen die zijn opgegeven in de lijst `renames`. Bij het wijzigen van meerdere veldnamen kan een geneste lijst (\{ \{old1, new1\}, \{old2, new2\} \}) worden gebruikt.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Vanuit de record de naam van het veld UnitPrice wijzigen in Price.
 ```powerquery
 Record.RenameFields(
@@ -41,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Vanuit de record de naam van het veld UnitPrice wijzigen in Price en de naam van het veld OrderNum in OrderID.
 ```powerquery
 Record.RenameFields(

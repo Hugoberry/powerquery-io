@@ -20,7 +20,7 @@ BinaryFormat.ByteOrder(
 
 ## Remarks
 
-返回具有 <code>binaryFormat</code> 指定的字节顺序的二进制格式。 默认字节顺序是 <code>ByteOrder.BigEndian</code>。
+返回具有 `binaryFormat` 指定的字节顺序的二进制格式。 默认字节顺序是 `ByteOrder.BigEndian`。
 
 
 

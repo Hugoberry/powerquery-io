@@ -19,12 +19,12 @@ Date.Year(
 
 ## Remarks
 
-प्रदान किए गए <code>datetime</code> मान, <code>dateTime</code> का वर्ष घटक लौटाता है.
+प्रदान किए गए `datetime` मान, `dateTime` का वर्ष घटक लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 वर्ष को #datetime(2011, 12, 31, 9, 15, 36) में प्राप्त करें.
 ```powerquery
 Date.Year(#datetime(2011, 12, 31, 9, 15, 36))

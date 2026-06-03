@@ -20,12 +20,14 @@ Date.WeekOfMonth(
 
 ## Remarks
 
-Trả về một số trong khoảng từ 1 tới 6 cho biết ngày <code>dateTime</code> rơi vào tuần nào trong tháng. <ul>        <li><code>dateTime</code>: Một giá trị <code>datetime</code> mà tuần trong tháng được xác định.</li>      </ul>
+Trả về một số trong khoảng từ 1 tới 6 cho biết ngày `dateTime` rơi vào tuần nào trong tháng.
+
+-   `dateTime`: Một giá trị `datetime` mà tuần trong tháng được xác định.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Xác định tuần mà ngày 15 tháng 03 rơi vào trong năm 2011.
 ```powerquery
 Date.WeekOfMonth(#date(2011, 03, 15))

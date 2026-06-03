@@ -20,13 +20,13 @@ Table.Column(
 
 ## Remarks
 
-Retourneert de door <code>column</code> opgegeven kolom met gegevens vanuit de tabel <code>table</code> als een lijst.
+Retourneert de door `column` opgegeven kolom met gegevens vanuit de tabel `table` als een lijst.
 
 
 ## Examples
 
-### Example #1 
-De gegevens in de kolom [Name] uit de tabel retourneren.
+### Example #1
+De gegevens in de kolom \[Name\] uit de tabel retourneren.
 ```powerquery
 Table.Column(
     Table.FromRecords({

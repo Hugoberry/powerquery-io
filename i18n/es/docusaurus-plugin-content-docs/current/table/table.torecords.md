@@ -19,12 +19,12 @@ Table.ToRecords(
 
 ## Remarks
 
-Convierte una tabla, <code>table</code>, en una lista de registros.
+Convierte una tabla, `table`, en una lista de registros.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Convertir la tabla en una lista de registros.
 ```powerquery
 Table.ToRecords(

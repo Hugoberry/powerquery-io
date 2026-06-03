@@ -5,7 +5,7 @@ title: SharePoint.Contents
 # SharePoint.Contents
 
 
-Retourne une table qui contient le contenu d&#39;un site SharePoint.
+Retourne une table qui contient le contenu d'un site SharePoint.
 
 
 ## Syntax
@@ -20,7 +20,10 @@ SharePoint.Contents(
 
 ## Remarks
 
-Retourne une table qui contient une ligne pour chaque dossier et document trouvé dans le site SharePoint spécifié <code>url</code>. Chaque ligne contient les propriétés du dossier ou du fichier, et un lien vers son contenu. Vous pouvez spécifier <code>options</code> pour contrôler les options suivantes :    <ul><li><code>ApiVersion</code> : Nombre (14&#160;ou&#160;15) ou texte &#171;&#160;Auto&#160;&#187; sp&#233;cifiant la version de l&#39;API SharePoint &#224; utiliser pour ce site. Si aucune valeur n&#39;est sp&#233;cifi&#233;e, la version&#160;14 de l&#39;API est utilis&#233;e. Si la valeur Auto est sp&#233;cifi&#233;e, la version du serveur est d&#233;tect&#233;e automatiquement (si possible)&#160;; sinon, la version&#160;14 est utilis&#233;e par d&#233;faut. Les sites SharePoint qui ne sont pas en anglais n&#233;cessitent au moins la version&#160;15.</li></ul>    
+Retourne une table qui contient une ligne pour chaque dossier et document trouvé dans le site SharePoint spécifié `url`. Chaque ligne contient les propriétés du dossier ou du fichier, et un lien vers son contenu. Vous pouvez spécifier `options` pour contrôler les options suivantes :
+
+-   `ApiVersion` : Nombre (14 ou 15) ou texte "Auto" spécifiant la version de l'API SharePoint à utiliser pour ce site. Si aucune valeur n'est spécifiée, la version 14 de l'API est utilisée. Si la valeur Auto est spécifiée, la version du serveur est détectée automatiquement (si possible) ; sinon, la version 14 est utilisée par défaut. Les sites SharePoint qui ne sont pas en anglais nécessitent au moins la version 15.
+-   `Implementation` : Facultatif. Spécifie la version du connecteur Microsoft Office SharePoint Online à utiliser. Les valeurs acceptées sont "2.0" ou null. Si la valeur est "2.0", l'implémentation 2.0 du connecteur Microsoft Office SharePoint Online est utilisée. Si la valeur est nulle, l'implémentation d'origine du connecteur Microsoft Office SharePoint Online est utilisée.
 
 
 

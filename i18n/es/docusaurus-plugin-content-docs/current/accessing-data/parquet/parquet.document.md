@@ -20,7 +20,9 @@ Parquet.Document(
 
 ## Remarks
 
-Devuelve el contenido del documento Parquet como una tabla. Las opciones incluyen:     <ul>    <li> <code>TypeMapping</code>: valor de texto que controla la asignación de tipos predeterminada al leer y escribir archivos. El valor predeterminado es null e intenta conservar la mayor fidelidad posible al tipo original. El valor de "Sql" producirá resultados más compatibles con SQL Server.</li>    </ul>
+Devuelve el contenido del documento Parquet como una tabla. Las opciones incluyen:
+
+-   `TypeMapping`: valor de texto que controla la asignación de tipos predeterminada al leer y escribir archivos. El valor predeterminado es null e intenta conservar la mayor fidelidad posible al tipo original. El valor de "Sql" producirá resultados más compatibles con SQL Server.
 
 
 

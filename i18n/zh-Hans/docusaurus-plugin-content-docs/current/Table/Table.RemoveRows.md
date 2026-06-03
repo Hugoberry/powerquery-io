@@ -21,12 +21,12 @@ Table.RemoveRows(
 
 ## Remarks
 
-从 <code>table</code> 的开头，以指定的 <code>offset</code> 开始删除 <code>count</code> 行。如果没有提供 <code>count</code> 参数，则使用默认计数 1。
+从 `table` 的开头，以指定的 `offset` 开始删除 `count` 行。如果没有提供 `count` 参数，则使用默认计数 1。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 从表中删除第一行。
 ```powerquery
 Table.RemoveRows(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 删除位于表的位置 1 的行。
 ```powerquery
 Table.RemoveRows(
@@ -74,7 +74,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 删除表中从位置 1 开始的两行。
 ```powerquery
 Table.RemoveRows(

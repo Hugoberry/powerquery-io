@@ -19,13 +19,13 @@ Type.RecordFields(
 
 ## Remarks
 
-返回描述记录 <code>type</code> 的字段的记录。在记录 <code>[ Type = type, Optional = logical ]</code> 的格式中，返回的记录类型的每个字段都有对应的名称和值。
+返回描述记录 `type` 的字段的记录。在记录 `[ Type = type, Optional = logical ]` 的格式中，返回的记录类型的每个字段都有对应的名称和值。
 
 
 ## Examples
 
-### Example #1 
-找到记录 &lt;code&gt;[ A = number, optional B = any]&lt;/code&gt; 的名称和值。
+### Example #1
+找到记录 `[ A = number, optional B = any]` 的名称和值。
 ```powerquery
 Type.RecordFields(type [A = number, optional B = any])
 ```

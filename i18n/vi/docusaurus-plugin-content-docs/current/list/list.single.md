@@ -5,7 +5,7 @@ title: List.Single
 # List.Single
 
 
-Trả về mục một danh sách đối với danh sách có độ dài là một, nếu không đưa ra một ngoại lệ.
+Trả về mục một danh sách đối với danh sách có độ dài là một, nếu không sẽ xuất hiện lỗi.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.Single(
 
 ## Remarks
 
-Nếu chỉ có một mục trong danh sách <code>list</code>, trả về mục đó.    Nếu có nhiều mục hoặc danh sách trống thì hàm đưa ra một ngoại lệ.
+Nếu chỉ có một mục trong danh sách `list`, trả về mục đó. Nếu có nhiều mục hoặc danh sách trống thì hàm sẽ đưa ra lỗi.
 
 
 ## Examples
 
-### Example #1 
-Tìm giá trị đơn trong danh sách \{1}.
+### Example #1
+Tìm giá trị đơn trong danh sách \{1\}.
 ```powerquery
 List.Single({1})
 ```
@@ -36,8 +36,8 @@ Result:
 ```
 
 
-### Example #2 
-Tìm giá trị đơn trong danh sách \{1, 2, 3}.
+### Example #2
+Tìm giá trị đơn trong danh sách \{1, 2, 3\}.
 ```powerquery
 List.Single({1, 2, 3})
 ```

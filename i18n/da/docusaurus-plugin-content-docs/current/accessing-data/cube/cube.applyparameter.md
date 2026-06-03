@@ -21,7 +21,7 @@ Cube.ApplyParameter(
 
 ## Remarks
 
-Returnerer en kube efter at have anvendt <code>parameter</code> med <code>arguments</code> for <code>cube</code>.
+Returnerer en kube efter at have anvendt `parameter` med `arguments` for `cube`.
 
 
 

@@ -21,13 +21,13 @@ Text.BeforeDelimiter(
 
 ## Remarks
 
-Returnerar delen av <code>text</code> innan det angivna <code>delimiter</code>.    En valfri numerisk <code>index</code> indikerar vilken förekomst av <code>delimiter</code> som ska övervägas.    En valfri lista <code>index</code> indikerar vilken förekomst av <code>delimiter</code> som ska övervägas, samt om indexering skall göras från starten eller slutet av indata.
+Returnerar delen av `text` innan det angivna `delimiter`. En valfri numerisk `index` indikerar vilken förekomst av `delimiter` som ska övervägas. En valfri lista `index` indikerar vilken förekomst av `delimiter` som ska övervägas, samt om indexering skall göras från starten eller slutet av indata.
 
 
 ## Examples
 
-### Example #1 
-Hämtar delen av &#34;111-222-333&#34; före det (första) bindestrecket.
+### Example #1
+Hämtar delen av "111-222-333" före det (första) bindestrecket.
 ```powerquery
 Text.BeforeDelimiter("111-222-333", "-")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Hämtar delen av &#34;111-222-333&#34; före det andra bindestrecket.
+### Example #2
+Hämtar delen av "111-222-333" före det andra bindestrecket.
 ```powerquery
 Text.BeforeDelimiter("111-222-333", "-", 1)
 ```
@@ -50,8 +50,8 @@ Result:
 ```
 
 
-### Example #3 
-Hämtar delen av &#34;111-222-333&#34; före det andra bindestrecket från slutet.
+### Example #3
+Hämtar delen av "111-222-333" före det andra bindestrecket från slutet.
 ```powerquery
 Text.BeforeDelimiter("111-222-333", "-", {1, RelativePosition.FromEnd})
 ```

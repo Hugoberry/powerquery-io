@@ -5,7 +5,7 @@ title: Binary.ViewError
 # Binary.ViewError
 
 
-建立已修改的錯誤記錄，在由檢視表定義的處理常式 (透過 Binary.View) 擲回時，不會觸發後援。
+建立修改的錯誤記錄，其中在由檢視上定義 (透過 Binary.View) 的處理常式引發時，不會觸發後援。
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Binary.ViewError(
 
 ## Remarks
 
-從 <code>errorRecord</code> 建立已修改的錯誤記錄，在由檢視表定義的處理常式 (透過 Binary.View) 擲回時，不會觸發後援。
+從 `errorRecord` 建立修改的錯誤記錄，其中在由檢視上定義 (透過 Binary.View) 的處理常式引發時，不會觸發後援。
 
 
 

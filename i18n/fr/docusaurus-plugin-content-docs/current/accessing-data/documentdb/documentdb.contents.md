@@ -5,7 +5,7 @@ title: DocumentDB.Contents
 # DocumentDB.Contents
 
 
-Entrez l&#39;URL d&#39;un compte Azure Cosmos DB.
+Entrez l'URL d'un compte Azure Cosmos DB.
 
 
 ## Syntax
@@ -22,6 +22,6 @@ DocumentDB.Contents(
 
 ## Remarks
 
-Retourne une table de bases de données Azure Cosmos DB à <code>url</code>. Si <code>database</code> est spécifié, une table de collections est retournée à la place. Si le champ <code>Query</code> est spécifié dans l'enregistrement <code>options</code>, les résultats de la requête en cours d'exécution sur la base de données et/ou la collection spécifiées sont également retournés.
+Retourne une table de bases de données Azure Cosmos DB à `url`. Si `database` est spécifié, une table de collections est retournée à la place. Si le champ `Query` est spécifié dans l'enregistrement `options`, les résultats de la requête en cours d'exécution sur la base de données et/ou la collection spécifiées sont également retournés.
 
 

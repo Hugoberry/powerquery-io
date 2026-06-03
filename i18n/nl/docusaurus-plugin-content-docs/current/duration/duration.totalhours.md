@@ -19,12 +19,12 @@ Duration.TotalHours(
 
 ## Remarks
 
-Retourneert het totale aantal uren dat is verdeeld door <code>duration</code>.
+Retourneert het totale aantal uren dat is verdeeld door `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zoek het totale aantal uren dat wordt beslaan door een duurwaarde.
 ```powerquery
 Duration.TotalHours(#duration(5, 4, 3, 2))

@@ -13,7 +13,8 @@ Gibt eine Funktion zurück, die Text auf der Grundlage des angegebenen Trennzeic
 ```powerquery
 Splitter.SplitTextByDelimiter(
     delimiter as text,
-    optional quoteStyle as QuoteStyle.Type
+    optional quoteStyle as QuoteStyle.Type,
+    optional csvStyle as CsvStyle.Type
 ) as function
 ```
 
@@ -25,7 +26,7 @@ Gibt eine Funktion zurück, die Text auf der Grundlage des angegebenen Trennzeic
 
 ## Examples
 
-### Example #1 
+### Example #1
 Teilen Sie die Eingabe durch Kommas auf, ignorieren Sie in Anführungszeichen gesetzte Kommas.
 ```powerquery
 Splitter.SplitTextByDelimiter(",", QuoteStyle.Csv)("a,""b,c"",d")

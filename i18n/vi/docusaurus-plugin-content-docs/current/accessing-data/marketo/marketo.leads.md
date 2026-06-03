@@ -21,12 +21,12 @@ Marketo.Leads(
 
 ## Remarks
 
-Gọi tới điểm cuối API Marketo REST tại <code>url</code>/rest/v1/leads.json. Tất cả khách hàng tiềm năng trong danh sách kể từ khi trả về <code>leadIds</code>.
+Gọi tới điểm cuối API Marketo REST tại `url`/rest/v1/leads.json. Tất cả khách hàng tiềm năng trong danh sách kể từ khi trả về `leadIds`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kéo chi tiết về ba khách hàng tiềm năng
 ```powerquery
 Marketo.Leads("https://100-AAA-999.mktorest.com/rest", {50, 2343, 88498})

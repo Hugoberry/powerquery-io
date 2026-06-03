@@ -25,7 +25,7 @@ Trả về kết quả nhị phân của lệnh gọi tới url được cung c�
 
 ## Examples
 
-### Example #1 
+### Example #1
 Sử dụng hàm AzureEnterprise.Contents để trả về kết quả của một báo cáo cụ thể.
 ```powerquery
         cho phép

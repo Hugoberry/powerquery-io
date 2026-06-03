@@ -19,6 +19,6 @@ Dynamics365BusinessCentral.Contents(
 
 ## Remarks
 
-Returnerar en tabell med relevanta Dynamics 365 Business Central-data. 
+Returnerar en tabell med relevanta Dynamics 365 Business Central-data.
 
 

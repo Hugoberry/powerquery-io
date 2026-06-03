@@ -21,12 +21,12 @@ DateTime.AddZone(
 
 ## Remarks
 
-Dodaje informacje o strefie czasowej do wartości <code>dateTime</code>. Informacje o strefie czasowej obejmują <code>timezoneHours</code> i opcjonalnie <code>timezoneMinutes</code>, które określają żądane przesunięcie od czasu UTC.
+Dodaje informacje o strefie czasowej do wartości `dateTime`. Informacje o strefie czasowej obejmują `timezoneHours` i opcjonalnie `timezoneMinutes`, które określają żądane przesunięcie od czasu UTC.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ustaw strefę czasową na UTC+7:30 (7 godzin i 30 minut po strefie UTC).
 ```powerquery
 DateTime.AddZone(#datetime(2010, 12, 31, 11, 56, 02), 7, 30)

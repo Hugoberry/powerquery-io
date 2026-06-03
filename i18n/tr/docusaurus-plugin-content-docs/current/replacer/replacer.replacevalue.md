@@ -21,12 +21,12 @@ Replacer.ReplaceValue(
 
 ## Remarks
 
-Asıl <code>value</code> içindeki <code>old</code> değerini <code>new</code> değeri ile değiştirir. Bu değiştirici işlevi <code>List.ReplaceValue</code> ve <code>Table.ReplaceValue</code> içinde kullanılabilir.
+Asıl `value` içindeki `old` değerini `new` değeri ile değiştirir. Bu değiştirici işlevi `List.ReplaceValue` ve `Table.ReplaceValue` içinde kullanılabilir.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 11 değerini 10 değeri ile değiştirir.
 ```powerquery
 Replacer.ReplaceValue(11, 11, 10)

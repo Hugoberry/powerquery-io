@@ -19,12 +19,14 @@ Date.IsInYearToDate(
 
 ## Remarks
 
-Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob der angegebene datetime-Wert '<code>dateTime</code>' im aktuellen Jahr liegt und dem aktuellen Tag oder Vortag entspricht.      <ul>      <li><code>dateTime</code>: Ein auszuwertender <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert.</li>      </ul>
+Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob der angegebene datetime-Wert '`dateTime`' im aktuellen Jahr liegt und dem aktuellen Tag oder Vortag entspricht.
+
+-   `dateTime`: Ein auszuwertender `date`\-, `datetime`\- oder `datetimezone`\-Wert.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bestimmt, ob die aktuelle Systemzeit im Jahr-bis-heute liegt.
 ```powerquery
 Date.IsInYearToDate(DateTime.FixedLocalNow())

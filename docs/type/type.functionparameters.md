@@ -19,13 +19,13 @@ Type.FunctionParameters(
 
 ## Remarks
 
-Returns a record with field values set to the name of the parameters of <code>type</code>, and their values set to their corresponding types.
+Returns a record with field values set to the name of the parameters of `type`, and their values set to their corresponding types.
 
 
 ## Examples
 
-### Example #1 
-Find the types of the parameters to the function &lt;code&gt;(x as number, y as text)&lt;/code&gt;.
+### Example #1
+Find the types of the parameters to the function `(x as number, y as text)`.
 ```powerquery
 Type.FunctionParameters(type function (x as number, y as text) as any)
 ```

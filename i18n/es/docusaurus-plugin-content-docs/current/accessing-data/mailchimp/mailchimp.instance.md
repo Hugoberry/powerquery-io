@@ -24,7 +24,7 @@ Realiza una llamada a la API de MailChimp y devuelve la respuesta sin formato.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devuelve datos sin procesar desde el punto de conexión de informes o detalles de clic de la API de MailChimp para una campaña determinada.
 ```powerquery
 MailChimp.Instance("informes/{campaign_id}/detalles de clic")

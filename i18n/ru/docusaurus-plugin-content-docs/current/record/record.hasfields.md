@@ -20,12 +20,12 @@ Record.HasFields(
 
 ## Remarks
 
-Указывает, содержит ли запись <code>record</code> поля, заданные в <code>fields</code>, возвращая логическое значение (true или false).    Значения нескольких полей можно указать с помощью списка.
+Указывает, содержит ли запись `record` поля, заданные в `fields`, возвращая логическое значение (true или false). Значения нескольких полей можно указать с помощью списка.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Проверка, содержится ли в записи поле CustomerID.
 ```powerquery
 Record.HasFields([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")
@@ -37,7 +37,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Проверка, содержатся ли в записи поля CustomerID и Address.
 ```powerquery
 Record.HasFields([CustomerID = 1, Name = "Bob", Phone = "123-4567"], {"CustomerID", "Address"})

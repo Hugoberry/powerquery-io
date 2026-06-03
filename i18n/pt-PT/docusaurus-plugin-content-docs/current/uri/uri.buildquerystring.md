@@ -19,12 +19,12 @@ Uri.BuildQueryString(
 
 ## Remarks
 
-Monte o registo <code>query</code> numa cadeia de consulta URI, efetuando escape dos carateres conforme necessário.
+Monte o registo `query` numa cadeia de consulta URI, efetuando escape dos carateres conforme necessário.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Codifique uma cadeia de consulta com alguns carateres especiais.
 ```powerquery
 Uri.BuildQueryString([a = "1", b = "+$"])

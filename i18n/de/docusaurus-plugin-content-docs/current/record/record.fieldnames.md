@@ -19,12 +19,12 @@ Record.FieldNames(
 
 ## Remarks
 
-Gibt die Namen der Felder im Datensatz "<code>record</code>" als Text zurück.
+Gibt die Namen der Felder im Datensatz "`record`" als Text zurück.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ermittelt die Namen der Felder im Datensatz.
 ```powerquery
 Record.FieldNames([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

@@ -23,13 +23,32 @@ Csv.Document(
 
 ## Remarks
 
-CSV belgesinin içeriklerini tablo olarak döndürür.    <ul>      <li>        <code>columns</code> değeri null, sütun sayısı, sütun adlarının listesi, bir tablo türü veya bir seçenekler kaydı olabilir.      </li>      <li>        <code>delimiter</code>, tek bir karakter veya bir karakter listesi veya satırların ardışık boşluk karakteri ile bölünmesi gerektiğini belirten <code>""</code> değeri olabilir. Varsayılan: <code>","</code>.      </li>      <li>        Desteklenen <code>extraValues</code> değerleri için bkz. <code>ExtraValues.Type</code>.      </li>      <li>        <code>encoding</code>, metin kodlama türünü belirtir.      </li>    </ul>    <code>columns</code> için bir kayıt belirtilirse (ve <code>delimiter</code>, <code>extraValues</code>, <code>encoding</code> değerleri null olursa) şu kayıt alanları sağlanabilir:    <ul>      <li>        <code>Delimiter</code>: Sütun sınırlayıcısı. Varsayılan: <code>","</code>.      </li>      <li>        <code>Columns</code>: Null, sütun sayısı, sütun adlarının listesi veya bir tablo türü olabilir. Sütun sayısı girişte bulunan sayıdan düşükse ek sütunlar yoksayılır. Sütun sayısı girişte bulunan sayıdan yüksekse ek sütunlar null olur. Belirtilmezse sütun sayısı girişte bulunan sayıya göre belirlenir.      </li>      <li>        <code>Encoding</code>: Dosyanın metin kodlaması. Varsayılan: 65001 (UTF-8).      </li>      <li>        <code>CsvStyle</code>: Alıntıların nasıl işleneceğini belirtir.        <ul>          <li>            <code>CsvStyle.QuoteAfterDelimiter</code> (varsayılan): Bir alandaki alıntılar yalnızca sınırlayıcıdan hemen sonra geliyorsa dikkate alınır.          </li>          <li>            <code>CsvStyle.QuoteAlways</code>: Bir alandaki alıntılar, nerede göründüklerinden bağımsız olarak her zaman dikkate alınır.          </li>        </ul>      </li>      <li>        <code>QuoteStyle</code>: Alıntılanan satır sonlarının nasıl işleneceğini belirtir.        <ul>          <li>            <code>QuoteStyle.Csv</code> (varsayılan): Alıntılanan satır sonları verilerin bir parçası olarak değerlendirilir. Geçerli satırın sonu olarak değerlendirilmezler.          </li>          <li>            <code>QuoteStyle.None</code>: Tüm satır sonları, alıntılanan bir değerde olduklarında bile geçerli satırın sonu olarak değerlendirilirler.          </li>        </ul>      </li>    </ul>  
+CSV belgesinin içeriğini tablo olarak döndürür.
+
+-   `columns` null, sütun sayısı, sütun adları listesi, tablo türü veya seçenekler kaydı olabilir.
+-   `delimiter` tek bir karakter, bir karakter listesi veya satırların ardışık boşluk karakterleriyle bölünmesi gerektiğini belirten `""` değeri olabilir. Varsayılan: `","`.
+-   Desteklenen `extraValues` değerleri için `ExtraValues.Type`'a başvurun.
+-   `encoding` metin kodlama türünü belirtir.
+
+`columns` için bir kayıt belirtilirse (ve `delimiter`, `extraValues` ve `encoding` değerleri null olursa) şu kayıt alanları sağlanabilir:
+
+-   `Delimiter`: Tek karakterli sütun sınırlayıcısı. Varsayılan: `","`.
+-   `Columns`: Null, sütun sayısı, sütun adlarının listesi veya bir tablo türü olabilir. Sütun sayısı girişte bulunan sayıdan düşükse ek sütunlar yok sayılır. Sütun sayısı girişte bulunan sayıdan yüksekse ek sütunlar null olur. Belirtilmezse, sütun sayısı girişte bulunan sütun sayısına göre belirlenir.
+-   `Encoding`: Dosyanın metin kodlaması. Varsayılan: 65001 (UTF-8).
+-   `CsvStyle`: Tekliflerin nasıl işleneceğini belirtir.
+    -   `CsvStyle.QuoteAfterDelimiter` (varsayılan): Bir alandaki alıntılar yalnızca sınırlayıcıdan hemen sonra geliyorsa dikkate alınır.
+    -   `CsvStyle.QuoteAlways`: Bir alandaki alıntılar, nerede göründüklerinden bağımsız olarak her zaman dikkate alınır.
+-   `QuoteStyle`: Alıntılanan satır sonlarının nasıl işleneceğini belirtir.
+    -   `QuoteStyle.Csv`: Alıntılanan satır sonları geçerli satırın sonu olarak değil, verilerin bir parçası olarak değerlendirilir.
+    -   `QuoteStyle.None` (varsayılan): Alıntılanan bir değer içerisinde yer alsalar bile tüm satır sonları, geçerli satırın sonu olarak değerlendirilir.
+-   `IncludeByteOrderMark`: CSV çıktısının başına bir Bayt Sırası İşareti (BOM) eklenip eklenmeyeceğini belirten mantıksal bir değer. Doğru olarak ayarlandığında, BOM yazılır (örneğin, UTF-8 BOM: `0xEF 0xBB 0xBF`); Yanlış olarak ayarlandığında ise herhangi bir BOM eklenmeyecektir. Bu seçenek yalnızca çıkış senaryolarında geçerlidir. Varsayılan değer: `false`.
+-   `ExtraValues`: ExtraValues’ın desteklenen değerleri için bkz. `ExtraValues.Type`.
 
 
 ## Examples
 
-### Example #1 
-CSV metnini sütun başlıkları ile birlikte işle
+### Example #1
+CSV metnini sütun başlıkları ile birlikte işle.
 ```powerquery
 let
     csv = Text.Combine({"OrderID,Item", "1,Fishing rod", "2,1 lb. worms"}, "#(cr)#(lf)")
@@ -42,6 +61,24 @@ Result:
 Table.FromRecords({
     [OrderID = "1", Item = "Fishing rod"],
     [OrderID = "2", Item = "1 lb. worms"]
+})
+```
+
+
+### Example #2
+Process CSV text with multiple delimiter characters. In this example, the third parameter specifies the delimiter pattern `#|#` to use instead of the default.
+```powerquery
+let
+    csv = Text.Combine({"OrderID#|#Color", "1#|#Red", "2#|#Blue"}, "#(cr)#(lf)")
+in
+    Table.PromoteHeaders(Csv.Document(csv, null, "#|#"))
+```
+
+Result: 
+```powerquery
+Table.FromRecords({
+    [OrderID = "1", Color = "Red"],
+    [OrderID = "2", Color = "Blue"]
 })
 ```
 

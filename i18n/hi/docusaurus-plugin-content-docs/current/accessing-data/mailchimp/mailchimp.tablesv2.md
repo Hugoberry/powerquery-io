@@ -24,7 +24,7 @@ MailChimp.TablesV2(
 
 ## Examples
 
-### Example #1 
+### Example #1
 कुँजी MailChimp डेटा वाली तालिका लौटाता है.
 ```powerquery
 MailChimp.Tables()

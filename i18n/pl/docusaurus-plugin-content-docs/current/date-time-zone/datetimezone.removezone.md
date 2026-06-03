@@ -19,12 +19,12 @@ DateTimeZone.RemoveZone(
 
 ## Remarks
 
-Zwraca wartość typu #datetime z wartości <code>dateTimeZone</code>, po usunięciu informacji dotyczących strefy czasowej.
+Zwraca wartość typu #datetime z wartości `dateTimeZone`, po usunięciu informacji dotyczących strefy czasowej.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Usuń informacje dotyczące strefy czasowej z wartości typu #datetimezone(2011, 12, 31, 9, 15, 36, -7, 0).
 ```powerquery
 DateTimeZone.RemoveZone(#datetimezone(2011, 12, 31, 9, 15, 36, -7, 0))

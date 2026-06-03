@@ -21,7 +21,7 @@ Value.NullableEquals(
 
 ## Remarks
 
-Returnerar null om något av argumenten (<code>value1</code>, <code>value2</code>) är null. Annars motsvarar detta Value.Equals.
+Returnerar null om något av argumenten `value1` eller `value2` är null. Annars motsvarar detta Value.Equals.
 
 
 

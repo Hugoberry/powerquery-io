@@ -5,7 +5,7 @@ title: DataLake.Contents
 # DataLake.Contents
 
 
-Entrez l&#39;URL de votre compte Azure Data Lake Storage Gen1.
+Entrez l'URL de votre compte Azure Data Lake Storage Gen1.
 
 
 ## Syntax
@@ -20,6 +20,6 @@ DataLake.Contents(
 
 ## Remarks
 
-Retourne une table contenant une ligne pour chaque dossier et chaque fichier trouvés à l'<code>URL</code> dans Azure Data Lake Storage Gen1. Chaque ligne contient les propriétés du dossier ou du fichier ainsi qu'un lien vers son contenu.
+Retourne une table contenant une ligne pour chaque dossier et chaque fichier trouvés à l'`URL` dans Azure Data Lake Storage Gen1. Chaque ligne contient les propriétés du dossier ou du fichier ainsi qu'un lien vers son contenu.
 
 

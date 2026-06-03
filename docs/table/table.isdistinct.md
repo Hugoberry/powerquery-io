@@ -20,12 +20,12 @@ Table.IsDistinct(
 
 ## Remarks
 
-Indicates whether the <code>table</code> contains only distinct rows (no duplicates). Returns <code>true</code> if the rows are distinct, <code>false</code> otherwise.    An optional parameter, <code>comparisonCriteria</code>, specifies which columns of the table are tested for duplication. If <code>comparisonCriteria</code> is not specified, all columns are tested.
+Indicates whether the `table` contains only distinct rows (no duplicates). Returns `true` if the rows are distinct, `false` otherwise. An optional parameter, `comparisonCriteria`, specifies which columns of the table are tested for duplication. If `comparisonCriteria` is not specified, all columns are tested.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determine if the table is distinct.
 ```powerquery
 Table.IsDistinct(
@@ -44,7 +44,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Determine if the table is distinct in column.
 ```powerquery
 Table.IsDistinct(

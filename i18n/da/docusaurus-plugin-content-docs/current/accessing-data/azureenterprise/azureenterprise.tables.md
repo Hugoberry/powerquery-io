@@ -24,7 +24,7 @@ Returnerer en liste over tilgængelige rapporter over måneder fra Azure Enterpr
 
 ## Examples
 
-### Example #1 
+### Example #1
 Anvend funktionen AzureEnterprise.Tables, og naviger til en bestemt værdi for at hente resultaterne.
 ```powerquery
 lad

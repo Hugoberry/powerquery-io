@@ -19,12 +19,12 @@ Record.ToList(
 
 ## Remarks
 
-Gibt eine Liste von Werten mit den Feldwerten aus der Eingabe <code>record</code> zurück.
+Gibt eine Liste von Werten mit den Feldwerten aus der Eingabe `record` zurück.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Extrahieren Sie die Feldwerte aus einem Datensatz.
 ```powerquery
 Record.ToList([A = 1, B = 2, C = 3])

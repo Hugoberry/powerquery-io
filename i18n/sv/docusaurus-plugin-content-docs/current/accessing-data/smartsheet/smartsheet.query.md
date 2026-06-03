@@ -26,7 +26,7 @@ Anropar Smartsheet 2.0 REST-API:et vid den angivna slutpunkten och returnerar re
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hämtar data från bladens slutpunkt för Smartsheet-API:et med ytterligare angivna argument
 ```powerquery
 Smartsheet.Content("sheets", "include=ownerInfo&includeAll=true", [])

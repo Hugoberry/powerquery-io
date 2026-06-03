@@ -19,12 +19,14 @@ Number.Exp(
 
 ## Remarks
 
-ส่งคืนผลลัพธ์ของการยกกำลัง e ของ <code>number</code> (ฟังก์ชันเอ็กซ์โพเนนเชียล)      <ul>        <li><code>number</code>: <code>ตัวเลข</code> ซึ่งมีการคำนวณฟังก์ชันเอ็กซ์โพเนนเชียล ถ้า <code>number</code> เป็น null <code>ตัวเลข.Exp</code> จะส่งคืนค่าเป็น null </li>      </ul>
+ส่งคืนผลลัพธ์ของการยกกำลัง e ของ `number` (ฟังก์ชันเอ็กซ์โพเนนเชียล)
+
+-   `number`: `ตัวเลข` ซึ่งมีการคำนวณฟังก์ชันเอ็กซ์โพเนนเชียล ถ้า `number` เป็น null `ตัวเลข.Exp` จะส่งคืนค่าเป็น null
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ยกกำลัง e ด้วยเลข 3
 ```powerquery
 Number.Exp(3)

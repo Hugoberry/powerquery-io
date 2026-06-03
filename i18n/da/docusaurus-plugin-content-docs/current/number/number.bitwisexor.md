@@ -5,7 +5,7 @@ title: Number.BitwiseXor
 # Number.BitwiseXor
 
 
-Returnerer resultatet af at udføre en bitvis &#34;XOR&#34; (Exclusive-OR) mellem de to input.
+Returnerer resultatet af at udføre en bitvis "XOR" (Exclusive-OR) mellem de to input.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Number.BitwiseXor(
 
 ## Remarks
 
-Returnerer resultatet af at udføre en bitvis "XOR" (Exclusive-OR) mellem <code>number1</code> og <code>number2</code>.
+Returnerer resultatet af at udføre en bitvis "XOR" (Exclusive-OR) mellem `number1` og `number2`.
 
 
 

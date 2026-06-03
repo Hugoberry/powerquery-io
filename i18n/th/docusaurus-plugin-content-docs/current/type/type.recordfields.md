@@ -19,13 +19,13 @@ Type.RecordFields(
 
 ## Remarks
 
-ส่งกลับระเบียนที่อธิบายเขตข้อมูลของระเบียน <code>type</code> แต่ละเขตข้อมูลของประเภทระเบียนที่ถูกส่งกลับมีชื่อและค่าที่สอดคล้องกัน ในรูปแบบของระเบียน <code>[ Type = type, Optional = logical ]</code>
+ส่งกลับระเบียนที่อธิบายเขตข้อมูลของระเบียน `type` แต่ละเขตข้อมูลของประเภทระเบียนที่ถูกส่งกลับมีชื่อและค่าที่สอดคล้องกัน ในรูปแบบของระเบียน `[ Type = type, Optional = logical ]`
 
 
 ## Examples
 
-### Example #1 
-ค้นหาชื่อและค่าของระเบียน&lt;code&gt;[ A = number, optional B = any]&lt;/code&gt;.
+### Example #1
+ค้นหาชื่อและค่าของระเบียน`[ A = number, optional B = any]`.
 ```powerquery
 Type.RecordFields(type [A = number, optional B = any])
 ```

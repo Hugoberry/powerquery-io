@@ -20,13 +20,13 @@ List.IsDistinct(
 
 ## Remarks
 
-Devuelve un valor lógico si hay duplicados en la lista <code>list</code>; <code>true</code> si la lista es distinta, <code>false</code> si hay valores duplicados. 
+Devuelve un valor lógico si hay duplicados en la lista `list`; `true` si la lista es distinta, `false` si hay valores duplicados.
 
 
 ## Examples
 
-### Example #1 
-Buscar si la lista \{1, 2, 3} es distinta (es decir, no hay duplicados).
+### Example #1
+Buscar si la lista \{1, 2, 3\} es distinta (es decir, no hay duplicados).
 ```powerquery
 List.IsDistinct({1, 2, 3})
 ```
@@ -37,8 +37,8 @@ true
 ```
 
 
-### Example #2 
-Buscar si la lista \{1, 2, 3, 3} es distinta (es decir, no hay duplicados).
+### Example #2
+Buscar si la lista \{1, 2, 3, 3\} es distinta (es decir, no hay duplicados).
 ```powerquery
 List.IsDistinct({1, 2, 3, 3})
 ```

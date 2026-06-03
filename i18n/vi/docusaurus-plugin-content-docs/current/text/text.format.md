@@ -21,12 +21,12 @@ Text.Format(
 
 ## Remarks
 
-Trả về văn bản đã định dạng được tạo bằng cách áp dụng <code>arguments</code> từ danh sách hoặc bản ghi cho chuỗi định dạng <code>formatString</code>. <code>culture</code> tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
+Trả về văn bản đã định dạng được tạo bằng cách áp dụng `arguments` từ danh sách hoặc bản ghi cho chuỗi định dạng `formatString`. `culture` tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Định dạng danh sách các số.
 ```powerquery
 Text.Format("#{0}, #{1}, and #{2}.", {17, 7, 22})
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Định dạng các loại dữ liệu khác nhau từ bản ghi theo văn hóa Anh-Mỹ.
 ```powerquery
 Text.Format(

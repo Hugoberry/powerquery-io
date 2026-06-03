@@ -19,12 +19,12 @@ Number.Ln(
 
 ## Remarks
 
-Zwraca logarytm naturalny liczby <code>number</code>. Jeśli parametr <code>number</code> ma wartość null, funkcja <code>Number.Ln</code> zwraca wartość null.
+Zwraca logarytm naturalny liczby `number`. Jeśli parametr `number` ma wartość null, funkcja `Number.Ln` zwraca wartość null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Oblicz logarytm naturalny z 15.
 ```powerquery
 Number.Ln(15)

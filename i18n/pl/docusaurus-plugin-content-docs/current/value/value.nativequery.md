@@ -22,7 +22,17 @@ Value.NativeQuery(
 
 ## Remarks
 
-Ocenia element <code>query</code> w stosunku do elementu <code>target</code> przy użyciu parametrów określonych w elemencie <code>parameters</code> i opcji określonych w elemencie <code>options</code>.<br />Wyjście zapytania jest zdefiniowane przez element <code>target</code>.<br />Element <code>target</code> udostępnia kontekst dla operacji opisanej przez element <code>query</code>.<br />Element <code>query</code> opisuje zapytanie do wykonania w stosunku do elementu <code>target</code>. Element <code>query</code> jest wyrażony w sposób specyficzny dla elementu <code>target</code> (np. jako instrukcja T-SQL).<br />Opcjonalna wartość elementu <code>parameters</code> może zawierać listę lub rekord właściwy do udostępnienia wartości parametrów oczekiwanych przez element <code>query</code>.<br />Opcjonalny rekord elementu <code>options</code> może zawierać opcje wpływające na zachowanie wykonywania elementu <code>query</code> w stosunku do elementu <code>target</code>. Te opcje są specyficzne dla elementu <code>target</code>.<br />
+Ocenia element `query` w stosunku do elementu `target` przy użyciu parametrów określonych w elemencie `parameters` i opcji określonych w elemencie `options`.
+
+Wyjście zapytania jest zdefiniowane przez element `target`.
+
+Element `target` udostępnia kontekst dla operacji opisanej przez element `query`.
+
+Element `query` opisuje zapytanie do wykonania w stosunku do elementu `target`. Element `query` jest wyrażony w sposób specyficzny dla elementu `target` (np. jako instrukcja T-SQL).
+
+Opcjonalna wartość elementu `parameters` może zawierać listę lub rekord właściwy do udostępnienia wartości parametrów oczekiwanych przez element `query`.
+
+Opcjonalny rekord elementu `options` może zawierać opcje wpływające na zachowanie wykonywania elementu `query` w stosunku do elementu `target`. Te opcje są specyficzne dla elementu `target`.
 
 
 

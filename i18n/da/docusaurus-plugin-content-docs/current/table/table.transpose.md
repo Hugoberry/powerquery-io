@@ -25,7 +25,7 @@ Table.Transpose(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Skift rækkerne i tabellen med navne/værdi-par til kolonner.
 ```powerquery
 Table.Transpose(

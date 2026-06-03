@@ -19,12 +19,12 @@ Number.Tan(
 
 ## Remarks
 
-<code>number</code> değerinin tanjantını döndürür.
+`number` değerinin tanjantını döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 1 açısının tanjantını bulur.
 ```powerquery
 Number.Tan(1)

@@ -21,7 +21,7 @@ Value.Equals(
 
 ## Remarks
 
-अगर मान <code>value1</code> मान <code>value2</code> के बराबर है, तो true, अन्यथा false लौटाता है.
+अगर मान `value1` मान `value2` के बराबर है, तो true, अन्यथा false लौटाता है.
 
 
 

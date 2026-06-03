@@ -20,12 +20,12 @@ Type.Is(
 
 ## Remarks
 
-确定 <code>type1</code> 的值是否始终与 <code>type2</code> 兼容。
+确定 `type1` 值是否始终与 `type2` 兼容。参数 `type2` 应为基元 (或可为 null 的基元) 类型值。否则，此函数的行为未定义，不应依赖。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 确定类型号的值是否始终可以视为任何类型。
 ```powerquery
 Type.Is(type number, type any)
@@ -37,7 +37,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 确定任何类型的值是否始终可以视为类型号。
 ```powerquery
 Type.Is(type any, type number)

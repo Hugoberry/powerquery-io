@@ -20,13 +20,13 @@ Table.Column(
 
 ## Remarks
 
-ส่งกลับคอลัมน์ข้อมูลที่ระบุโดย <code>column</code> จากตาราง <code>table</code> ในรูปแบบรายการ
+ส่งกลับคอลัมน์ข้อมูลที่ระบุโดย `column` จากตาราง `table` ในรูปแบบรายการ
 
 
 ## Examples
 
-### Example #1 
-ส่งคืนค่าจากคอลัมน์ [Name] จากตาราง
+### Example #1
+ส่งคืนค่าจากคอลัมน์ \[Name\] จากตาราง
 ```powerquery
 Table.Column(
     Table.FromRecords({

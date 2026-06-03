@@ -19,7 +19,7 @@ Cube.AttributeMemberId(
 
 ## Remarks
 
-Devolve o identificador de membro exclusivo a partir de um valor de propriedade de membro. <code>attribute</code>. Devolve nulo para quaisquer outros valores.
+Devolve o identificador de membro exclusivo a partir de um valor de propriedade de membro. `attribute`. Devolve nulo para quaisquer outros valores.
 
 
 

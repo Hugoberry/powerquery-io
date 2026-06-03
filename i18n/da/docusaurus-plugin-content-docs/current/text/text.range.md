@@ -21,13 +21,13 @@ Text.Range(
 
 ## Remarks
 
-Returnerer understrengen fra teksten <code>text</code>, der blev fundet ved forskydningen <code>offset</code>.    Der kan inkluderes en valgfri parameter, <code>count</code>, for at angive, hvor mange tegn der skal returneres. Hvis der ikke er tegn nok, genereres der en fejl.
+Returnerer understrengen fra teksten `text`, der blev fundet ved forskydningen `offset`. Der kan inkluderes en valgfri parameter, `count`, for at angive, hvor mange tegn der skal returneres. Der udløses en fejl, hvis der ikke er nok tegn.
 
 
 ## Examples
 
-### Example #1 
-Find understrengen fra teksten &#34;Hello World&#34; med start ved indeks 6.
+### Example #1
+Find understrengen fra teksten "Hello World" med start ved indeks 6.
 ```powerquery
 Text.Range("Hello World", 6)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Find understrengen fra teksten &#34;Hello World Hello&#34; med start ved indeks 6, og som indeholder 5 tegn.
+### Example #2
+Find understrengen fra teksten "Hello World Hello" med start ved indeks 6, og som indeholder 5 tegn.
 ```powerquery
 Text.Range("Hello World Hello", 6, 5)
 ```

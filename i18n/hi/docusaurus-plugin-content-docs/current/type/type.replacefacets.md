@@ -20,7 +20,7 @@ Type.ReplaceFacets(
 
 ## Remarks
 
-<code>type</code> प्रकार के फ़ैसिट को रिकॉर्ड <code>facets</code> में शामिल फ़ैसिट के साथ बदल देता है.
+`type` प्रकार के फ़ैसिट को रिकॉर्ड `facets` में शामिल फ़ैसिट के साथ बदल देता है.
 
 
 

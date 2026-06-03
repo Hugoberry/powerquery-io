@@ -20,12 +20,12 @@ Number.Permutations(
 
 ## Remarks
 
-Returns the number of permutations that can be generated from a number of items, <code>setSize</code>,  with a specified permutation size, <code>permutationSize</code>.
+Returns the number of permutations that can be generated from a number of items, `setSize`, with a specified permutation size, `permutationSize`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find the number of permutations from a total of 5 items in groups of 3.
 ```powerquery
 Number.Permutations(5, 3)

@@ -24,7 +24,7 @@ Type.TableRow(
 
 ## Examples
 
-### Example #1 
+### Example #1
 किसी साधारण तालिका के लिए पंक्ति प्रकार जानकारी लौटाता है.
 ```powerquery
 let

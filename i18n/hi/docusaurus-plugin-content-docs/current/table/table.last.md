@@ -20,12 +20,12 @@ Table.Last(
 
 ## Remarks
 
-<code>table</code> की अंतिम पंक्ति या तालिका रिक्त होने पर वैकल्पिक डिफ़ॉल्ट मान, <code>default</code>, लौटाता है.
+`table` की अंतिम पंक्ति या तालिका रिक्त होने पर वैकल्पिक डिफ़ॉल्ट मान, `default`, लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 तालिका की अंतिम पंक्ति ढूँढें.
 ```powerquery
 Table.Last(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-तालिका &lt;code&gt;(\{})&lt;/code&gt; की अंतिम पंक्ति ढूँढें या रिक्त होने पर [a = 0, b = 0] दें.
+### Example #2
+तालिका `({})` की अंतिम पंक्ति ढूँढें या रिक्त होने पर \[a = 0, b = 0\] दें.
 ```powerquery
 Table.Last(Table.FromRecords({}), [a = 0, b = 0])
 ```

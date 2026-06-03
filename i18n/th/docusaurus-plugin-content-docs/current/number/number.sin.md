@@ -19,12 +19,12 @@ Number.Sin(
 
 ## Remarks
 
-ส่งกลับค่าไซน์ของ <code>number</code>
+ส่งกลับค่าไซน์ของ `number`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 หาค่าไซน์ของมุม 0
 ```powerquery
 Number.Sin(0)

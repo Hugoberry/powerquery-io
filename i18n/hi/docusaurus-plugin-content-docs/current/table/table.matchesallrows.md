@@ -20,13 +20,13 @@ Table.MatchesAllRows(
 
 ## Remarks
 
-इंगित करता है कि क्या <code>table</code> की सभी पंक्तियाँ दिए गए/दी गई <code>condition</code> को पूरा करती हैं. अगर सभी पंक्तियाँ मेल खाती हैं, तो <code>true</code> अन्यथा <code>false</code> लौटाता है.
+इंगित करता है कि क्या `table` की सभी पंक्तियाँ दिए गए/दी गई `condition` को पूरा करती हैं. अगर सभी पंक्तियाँ मेल खाती हैं, तो `true` अन्यथा `false` लौटाता है.
 
 
 ## Examples
 
-### Example #1 
-निर्धारित करें कि क्या तालिका [a] के सभी पंक्ति मान सम हैं.
+### Example #1
+निर्धारित करें कि क्या तालिका \[a\] के सभी पंक्ति मान सम हैं.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ true
 ```
 
 
-### Example #2 
-पता करें कि क्या तालिका &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; में सभी पंक्ति मान [a = 1, b = 2] हैं.
+### Example #2
+पता करें कि क्या तालिका `({[a = 1, b = 2], [a = 3, b = 4]})` में सभी पंक्ति मान \[a = 1, b = 2\] हैं.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({

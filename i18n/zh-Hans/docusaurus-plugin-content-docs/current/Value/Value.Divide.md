@@ -21,7 +21,7 @@ Value.Divide(
 
 ## Remarks
 
-返回将 <code>value1</code> 除以 <code>value2</code> 的结果。可以指定一个可选 <code>precision</code> 参数，默认情况下使用 <code>Precision.Double</code>。
+返回将 `value1` 除以 `value2` 的结果。可以指定一个可选 `precision` 参数，默认情况下使用 `Precision.Double`。
 
 
 

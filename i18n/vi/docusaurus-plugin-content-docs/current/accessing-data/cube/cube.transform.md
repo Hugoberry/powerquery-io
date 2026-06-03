@@ -20,7 +20,7 @@ Cube.Transform(
 
 ## Remarks
 
-Áp dụng danh sách các hàm cube, <code>transforms</code>, trên <code>cube</code>.
+Áp dụng danh sách các hàm cube, `transforms`, trên `cube`.
 
 
 

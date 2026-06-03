@@ -19,13 +19,13 @@ Type.FunctionParameters(
 
 ## Remarks
 
-Restituisce un record con valori di campo impostati sul nome dei parametri di <code>type</code> e i relativi valori impostati sui tipi corrispondenti.
+Restituisce un record con valori di campo impostati sul nome dei parametri di `type` e i relativi valori impostati sui tipi corrispondenti.
 
 
 ## Examples
 
-### Example #1 
-Trovare i tipi dei parametri alla funzione &lt;code&gt;(x as number, y as text)&lt;/code&gt;.
+### Example #1
+Trovare i tipi dei parametri alla funzione `(x as number, y as text)`.
 ```powerquery
 Type.FunctionParameters(type function (x as number, y as text) as any)
 ```

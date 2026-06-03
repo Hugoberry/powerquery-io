@@ -27,7 +27,7 @@ Table.CombineColumns(
 
 ## Examples
 
-### Example #1 
+### Example #1
 नए कालम में अंतिम और पहला नाम को अल्पविराम से पृथक करके संयोजित करें.
 ```powerquery
 Table.CombineColumns(

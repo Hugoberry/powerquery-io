@@ -20,7 +20,7 @@ Uri.Combine(
 
 ## Remarks
 
-Trả về một URI tuyệt đối là kết hợp của <code>baseUri</code> đầu vào và <code>relativeUri</code>.
+Trả về một URI tuyệt đối là kết hợp của `baseUri` đầu vào và `relativeUri`.
 
 
 

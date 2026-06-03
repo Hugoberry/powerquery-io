@@ -21,12 +21,12 @@ ApacheSpark.Tables(
 
 ## Remarks
 
-Gibt eine Tabellenauflistung der Tabellen auf dem angegebenen Spark-Cluster <code>host</code> mithilfe von <code>protocol</code> zurück.  Die folgenden Protokolle sind gültig:Nr. [validProtocols]
+Gibt eine Tabellenauflistung der Tabellen auf dem angegebenen Spark-Cluster `host` mithilfe von `protocol` zurück. Die folgenden Protokolle sind gültig: Nr. \[validProtocols\]
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gibt eine Tabellenauflistung der Tabellen auf dem angegebenen Spark-Cluster zurück.
 ```powerquery
 Spark.Tables("http://example.com:10000/cliservice", SparkProtocol.HTTP)

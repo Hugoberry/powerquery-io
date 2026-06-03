@@ -19,7 +19,7 @@ DateTime.FixedLocalNow(
 
 ## Remarks
 
-Retourneert een <code>datetime</code>waarde die is ingesteld op de huidige datum en tijd op het systeem. Deze waarde is vast en verandert niet met opeenvolgende aanroepen. Dit in tegenstelling tot DateTime.LocalNow waarmee verschillende waarden kunnen worden geretourneerd gedurende de uitvoering van een expressie.
+Retourneert een `datetime`waarde die is ingesteld op de huidige datum en tijd op het systeem. Deze waarde is vast en verandert niet met opeenvolgende aanroepen. Dit in tegenstelling tot DateTime.LocalNow waarmee verschillende waarden kunnen worden geretourneerd gedurende de uitvoering van een expressie.
 
 
 

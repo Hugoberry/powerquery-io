@@ -5,7 +5,7 @@ title: Number.Atan
 # Number.Atan
 
 
-Retourne l&#39;arc tangente du nombre.
+Retourne l'arc tangente du nombre.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Number.Atan(
 
 ## Remarks
 
-Retourne l'arc tangente de <code>number</code>.
+Retourne l'arc tangente de `number`.
 
 
 

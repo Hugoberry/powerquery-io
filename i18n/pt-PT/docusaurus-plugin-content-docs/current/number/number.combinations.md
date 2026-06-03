@@ -20,12 +20,15 @@ Number.Combinations(
 
 ## Remarks
 
-Devolve o número de combinações exclusivas existentes numa lista de itens, <code>setSize</code>, com o tamanho de combinação especificado, <code>combinationSize</code>.<ul>    <li><code>setSize</code>: o número de itens existentes na lista.</li>    <li><code>combinationSize</code>: o número de itens existentes em cada combinação.</li></ul>
+Devolve o número de combinações exclusivas existentes numa lista de itens, `setSize`, com o tamanho de combinação especificado, `combinationSize`.
+
+-   `setSize`: o número de itens existentes na lista.
+-   `combinationSize`: o número de itens existentes em cada combinação.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determinar o número de combinações existentes num total de 5 itens em que cada combinação é um grupo de 3.
 ```powerquery
 Number.Combinations(5, 3)

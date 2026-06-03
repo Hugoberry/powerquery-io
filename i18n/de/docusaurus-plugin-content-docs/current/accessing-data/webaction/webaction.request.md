@@ -21,12 +21,24 @@ WebAction.Request(
 
 ## Remarks
 
-Erstellt eine Aktion, die bei Ausführung die Ergebnisse einer <code>method</code>-Anforderung für <code>url</code> zurückgibt, die HTTP als binären Wert verwendet. Ein optionaler Datensatzparameter, <code>options</code>, kann bereitgestellt werden, um zusätzliche Eigenschaften anzugeben. Der Datensatz kann die folgenden Felder enthalten:    <ul><li><code>Query</code> : F&#252;gen Sie der URL programmgesteuert Abfrageparameter hinzu, ohne sich um Escapezeichen Gedanken zu machen.</li><li><code>ApiKeyName</code> : Wenn die Zielwebsite einen Hinweis auf einen API-Schl&#252;ssel umfasst, kann dieser Parameter verwendet werden, um den Namen (nicht den Wert) des Schl&#252;sselparameters anzugeben, der in der URL verwendet werden muss. Der tats&#228;chliche Schl&#252;sselwert wird in den Anmeldeinformationen angegeben.</li><li><code>Headers</code> : Durch das Angeben dieses Werts als Datensatz werden zus&#228;tzliche Header f&#252;r eine HTTP-Anforderung bereitgestellt.</li><li><code>Timeout</code> : Durch das Angeben dieses Werts als Dauer wird das Timeout f&#252;r eine HTTP-Anforderung ge&#228;ndert. Der Standardwert betr&#228;gt 100&#160;Sekunden.</li><li><code>ExcludedFromCacheKey</code> : Durch das Angeben dieses Wert als Liste werden die betreffenden HTTP-Headerschl&#252;ssel nicht in die Berechnung der Daten f&#252;r die Zwischenspeicherung einbezogen.</li><li><code>IsRetry</code> : Durch das Angeben dieses logischen Werts als TRUE werden m&#246;glicherweise im Cache vorhandene Antworten beim Abrufen von Daten ignoriert.</li><li><code>ManualStatusHandling</code> : Durch das Angeben dieses Werts als Liste wird eine integrierte Verarbeitung von HTTP-Anforderungen verhindert, deren Antwort einen dieser Statuscodes umfasst.</li><li><code>RelativePath</code> : Durch das Angeben dieses Werts als Text wird dieser vor dem Ausf&#252;hren der Anforderung an die Basis-URL angef&#252;gt.</li><li><code>Content</code> : Durch das Angeben dieses Werts werden die zugeh&#246;rigen Inhalte als Textk&#246;rper der HTTP-Anforderung verwendet.</li></ul>    <br />    Beachten Sie, dass diese Funktion in den meisten Kontexten deaktiviert ist. Erwägen Sie stattdessen die Verwendung von Web.Contents.    
+Erstellt eine Aktion, die bei Ausführung die Ergebnisse einer `method`\-Anforderung für `url` zurückgibt, die HTTP als binären Wert verwendet. Ein optionaler Datensatzparameter (`options`) kann angegeben werden, um zusätzliche Eigenschaften anzugeben. Der Datensatz kann die folgenden Felder enthalten:
+
+-   `Query` : Fügen Sie der URL programmgesteuert Abfrageparameter hinzu, ohne sich um Escapezeichen Gedanken zu machen.
+-   `ApiKeyName` : Wenn die Zielwebsite einen Hinweis auf einen API-Schlüssel umfasst, kann dieser Parameter verwendet werden, um den Namen (nicht den Wert) des Schlüsselparameters anzugeben, der in der URL verwendet werden muss. Der tatsächliche Schlüsselwert wird in den Anmeldeinformationen angegeben.
+-   `Headers` : Durch das Angeben dieses Werts als Datensatz werden zusätzliche Header für eine HTTP-Anforderung bereitgestellt.
+-   `Timeout` : Durch das Angeben dieses Werts als Dauer wird das Timeout für eine HTTP-Anforderung geändert. Der Standardwert beträgt 100 Sekunden.
+-   `ExcludedFromCacheKey` : Durch das Angeben dieses Wert als Liste werden die betreffenden HTTP-Headerschlüssel nicht in die Berechnung der Daten für die Zwischenspeicherung einbezogen.
+-   `IsRetry` : Durch das Angeben dieses logischen Werts als TRUE werden möglicherweise im Cache vorhandene Antworten beim Abrufen von Daten ignoriert.
+-   `ManualStatusHandling` : Durch das Angeben dieses Werts als Liste wird eine integrierte Verarbeitung von HTTP-Anforderungen verhindert, deren Antwort einen dieser Statuscodes umfasst.
+-   `RelativePath` : Durch das Angeben dieses Werts als Text wird dieser vor dem Ausführen der Anforderung an die Basis-URL angefügt.
+-   `Content` : Durch das Angeben dieses Werts werden die zugehörigen Inhalte als Textkörper der HTTP-Anforderung verwendet.
+
+Beachten Sie, dass diese Funktion in den meisten Kontexten deaktiviert ist. Erwägen Sie stattdessen die Verwendung von Web.Contents oder Web.Headers.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Führen Sie eine GET-Anforderung für Bing aus.
 ```powerquery
 WebAction.Request(WebMethod.Get, "https://bing.com")

@@ -20,7 +20,7 @@ Number.BitwiseOr(
 
 ## Remarks
 
-<code>number1</code> と <code>number2</code> の間でビットごとの OR 演算を行った結果を返します。
+`number1` と `number2` の間でビットごとの OR 演算を行った結果を返します。
 
 
 

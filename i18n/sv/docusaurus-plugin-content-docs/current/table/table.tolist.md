@@ -25,7 +25,7 @@ Konverterar en tabell till en listan genom att tillämpa angiven kombinationsfun
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kombinera texten på varje rad med ett komma.
 ```powerquery
 Table.ToList(

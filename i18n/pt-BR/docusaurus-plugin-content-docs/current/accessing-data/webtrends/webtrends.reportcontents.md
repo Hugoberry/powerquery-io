@@ -27,7 +27,7 @@ Efetua uma chamada ao ponto de extremidade de relatório especificado do Webtren
 
 ## Examples
 
-### Example #1 
+### Example #1
 Efetua uma chamada ao ponto de extremidade do relatório de visitantes do Webtrends para dados nos últimos 30 dias
 ```powerquery
 Webtrends.ReportContents("98765", "xPcmTDDP0P6")

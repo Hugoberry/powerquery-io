@@ -20,6 +20,6 @@ DynamicsNav.Contents(
 
 ## Remarks
 
-Trả về bảng chứa dữ liệu Dynamics NAV có liên quan. 
+Trả về bảng chứa dữ liệu Dynamics NAV có liên quan.
 
 

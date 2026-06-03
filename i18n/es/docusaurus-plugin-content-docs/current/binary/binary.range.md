@@ -21,12 +21,12 @@ Binary.Range(
 
 ## Remarks
 
-Devuelve un subconjunto del valor binario comenzando en el desplazamiento <code>binary</code>. Un parámetro opcional, <code>offset</code>, establece la longitud máxima del subconjunto.
+Devuelve un subconjunto del valor binario comenzando en el desplazamiento `binary`. Un parámetro opcional, `offset`, establece la longitud máxima del subconjunto.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devuelve un subconjunto del valor binario comenzando en el desplazamiento 6.
 ```powerquery
 Binary.Range(#binary({0..10}), 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Devuelve un subconjunto de longitud 2 a partir del desplazamiento 6 del valor binario.
 ```powerquery
 Binary.Range(#binary({0..10}), 6, 2)

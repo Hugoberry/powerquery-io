@@ -25,7 +25,7 @@ Combiner.CombineTextByPositions(
 
 ## Examples
 
-### Example #1 
+### Example #1
 通过将文本值放在指定位置的输出中来合并文本值列表。
 ```powerquery
 Combiner.CombineTextByPositions({0, 5, 10})({"abc", "def", "ghi"})

@@ -20,13 +20,16 @@ Text.Split(
 
 ## Remarks
 
-Restituisce un elenco di valori di testo risultante dalla suddivisione del valore di testo <code>text</code> in base al delimitatore specificato <code>separator</code>.
+Restituisce un elenco di valori di testo risultante dalla suddivisione del valore testo in base al delimitatore specificato .
+
+-   `text`: valore testo da suddividere.
+-   `separator`: delimitatore usato per suddividere il testo. Il delimitatore può essere un singolo carattere o una sequenza di caratteri. Se si utilizza una sequenza di caratteri, il testo viene suddiviso solo nelle istanze in cui si verifica la sequenza esatta.
 
 
 ## Examples
 
-### Example #1 
-Creare un elenco dal valore di testo &#34;Name|Address|PhoneNumber&#34; delimitato da &#34;|&#34;.
+### Example #1
+Creare un elenco dal valore di testo "Name|Address|PhoneNumber" delimitato da "|".
 ```powerquery
 Text.Split("Name|Address|PhoneNumber", "|")
 ```
@@ -37,6 +40,22 @@ Result:
     "Name",
     "Address",
     "PhoneNumber"
+}
+```
+
+
+### Example #2
+Crea un elenco dal valore testo utilizzando una sequenza di caratteri.
+```powerquery
+Text.Split("Name, the Customer, the Purchase Date", ", the ")
+```
+
+Result: 
+```powerquery
+{
+    "Name",
+    "Customer",
+    "Purchase Date"
 }
 ```
 

@@ -20,7 +20,7 @@ Cube.CollapseAndRemoveColumns(
 
 ## Remarks
 
-Wijzigt de dimensionale granulatie van de filtercontext voor de <code>cube</code> door de kenmerken die aan de opgegeven kolommen <code>columnNames</code> zijn toegewezen samen te vouwen. De kolommen worden ook verwijderd uit de tabelweergave van de kubus.
+Wijzigt de dimensionale granulatie van de filtercontext voor de `cube` door de kenmerken die aan de opgegeven kolommen `columnNames` zijn toegewezen samen te vouwen. De kolommen worden ook verwijderd uit de tabelweergave van de kubus.
 
 
 

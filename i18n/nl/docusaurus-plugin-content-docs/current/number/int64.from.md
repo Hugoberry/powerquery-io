@@ -21,13 +21,13 @@ Int64.From(
 
 ## Remarks
 
-Hiermee wordt een 64-bits <code>number</code>-waarde geretourneerd als geheel getal vanuit de opgegeven <code>value</code>. Als de opgegeven waarde <code>value</code> <code>null</code> is, wordt door <code>Int64.From</code> de waarde <code>null</code> geretourneerd. Als de opgegeven <code>value</code> een <code>number</code> is binnen het bereik van een 64-bits geheel getal zonder een fractioneel deel, wordt <code>value</code> geretourneerd. Als het cijfer een fractioneel deel heeft, wordt het afgerond volgens de opgegeven afrondingsmodus. De standaardafrondingsmodus is <code>RoundingMode.ToEven</code>. Als <code>value</code> van een ander type is, wordt deze eerst geconverteerd naar een <code>nummer</code> met behulp van <code>Number.FromText</code>. Raadpleeg <code>Number.Round</code> voor de beschikbare afrondingsmodi. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
+Hiermee wordt een 64-bits `number`\-waarde geretourneerd als geheel getal vanuit de opgegeven `value`. Als de opgegeven waarde `value` `null` is, wordt door `Int64.From` de waarde `null` geretourneerd. Als de opgegeven `value` een `number` is binnen het bereik van een 64-bits geheel getal zonder een fractioneel deel, wordt `value` geretourneerd. Als het cijfer een fractioneel deel heeft, wordt het afgerond volgens de opgegeven afrondingsmodus. De standaardafrondingsmodus is `RoundingMode.ToEven`. Als `value` van een ander type is, wordt deze eerst geconverteerd naar een `nummer` met behulp van `Number.FromText`. Raadpleeg `Number.Round` voor de beschikbare afrondingsmodi. Er kan ook een optionele `culture` worden opgegeven (bijvoorbeeld: nl-NL).
 
 
 ## Examples
 
-### Example #1 
-64-bit &lt;code&gt;number&lt;/code&gt;-waarde als geheel getal van &lt;code&gt;&#34;4&#34;&lt;/code&gt; ophalen.
+### Example #1
+64-bit `number`\-waarde als geheel getal van `"4"` ophalen.
 ```powerquery
 Int64.From("4")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-64-bits &lt;code&gt;number&lt;/code&gt;-waarde als geheel getal van &lt;code&gt;&#34;4.5&#34;&lt;/code&gt; ophalen met &lt;code&gt;RoundingMode.AwayFromZero&lt;/code&gt;.
+### Example #2
+64-bits `number`\-waarde als geheel getal van `"4.5"` ophalen met `RoundingMode.AwayFromZero`.
 ```powerquery
 Int64.From("4.5", null, RoundingMode.AwayFromZero)
 ```

@@ -21,12 +21,12 @@ Stripe.Contents(
 
 ## Remarks
 
-Realiza uma chamada para a API da Faixa em https://api.stripe.com/v1/<code>método</code>, com o registro eficaz <code>consultar</code> considerado como parâmetros adicionais e <code>pageLimit</code> eficaz como um limite ao número de solicitações à API. Os dados mais recentes são retornados primeiro. Se <code>pageLimit</code> não for especificado, todos os dados serão retornados. A Versão da Faixa 2015-10-16 é usada.
+Realiza uma chamada para a API da Faixa em https://api.stripe.com/v1/`método`, com o registro eficaz `consultar` considerado como parâmetros adicionais e `pageLimit` eficaz como um limite ao número de solicitações à API. Os dados mais recentes são retornados primeiro. Se `pageLimit` não for especificado, todos os dados serão retornados. A Versão da Faixa 2015-10-16 é usada.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Retorna todos os dados de encargos
 ```powerquery
 Stripe.Contents("charges")
@@ -38,7 +38,7 @@ Uma tabela com todos os dados de encargos para a conta atual da Faixa
 ```
 
 
-### Example #2 
+### Example #2
 Retorna uma página de dados de encargos
 ```powerquery
 Stripe.Contents("charges", [], 1)

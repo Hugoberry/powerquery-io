@@ -19,13 +19,13 @@ Type.FunctionReturn(
 
 ## Remarks
 
-関数 <code>type</code> によって返される型を返します。
+関数 `type` によって返される型を返します。
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;() as any)&lt;/code&gt; の戻り値の型を検索します。
+### Example #1
+`() as any)` の戻り値の型を検索します。
 ```powerquery
 Type.FunctionReturn(type function () as any)
 ```

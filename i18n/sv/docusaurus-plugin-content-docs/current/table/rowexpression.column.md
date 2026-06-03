@@ -19,12 +19,12 @@ RowExpression.Column(
 
 ## Remarks
 
-Returnerar ett abstrakt syntaxträd (AST) som representerar åtkomst till kolumn <code>columnName</code> av raden i ett raduttryck.
+Returnerar ett abstrakt syntaxträd (AST) som representerar åtkomst till kolumn `columnName` av raden i ett raduttryck.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Skapar ett AST-uttryck som representerar åtkomst till kolumnen CustomerName.
 ```powerquery
 RowExpression.Column("CustomerName")

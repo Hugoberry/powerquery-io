@@ -5,7 +5,7 @@ title: Lines.ToText
 # Lines.ToText
 
 
-Converte uma lista de texto em um único texto.  O lineSeparator especificado é acrescentado a cada linha.  Se não for especificado, o retorno de carro e os caracteres de alimentação de linha serão usados.
+Converte uma lista de texto em um único texto. O lineSeparator especificado é acrescentado a cada linha. Se não for especificado, o retorno de carro e os caracteres de alimentação de linha serão usados.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Lines.ToText(
 
 ## Remarks
 
-Converte uma lista de texto em um único texto.  O lineSeparator especificado é acrescentado a cada linha.  Se não for especificado, o retorno de carro e os caracteres de alimentação de linha serão usados.
+Converte uma lista de texto em um único texto. O lineSeparator especificado é acrescentado a cada linha. Se não for especificado, o retorno de carro e os caracteres de alimentação de linha serão usados.
 
 
 

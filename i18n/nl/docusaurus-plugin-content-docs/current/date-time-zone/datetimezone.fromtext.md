@@ -20,13 +20,18 @@ DateTimeZone.FromText(
 
 ## Remarks
 
-Hiermee wordt een <code>datum-/tijdzone</code>-waarde van een tekstweergave <code>text</code> gemaakt. Er kan een optionele <code>record</code>-parameter, <code>options</code>, worden opgegeven om aanvullende eigenschappen op te geven. De <code>record</code> kan de volgende velden bevatten:<ul>   <li><code>Format</code>: een <code>tekst</code>-waarde die de indeling aangeeft die moet worden gebruikt. Ga naar https://go.microsoft.com/fwlink/?linkid=2180104 en https://go.microsoft.com/fwlink/?linkid=2180105 voor meer informatie. Als u dit veld weglaat of <code>nul</code> opgeeft, zal de datum naar beste vermogen worden geparseerd.</li>   <li><code>Culture</code>: als <code>Format</code> niet nul is, worden bepaalde indelingsaanduidingen bepaald door <code>Culture</code>. Voor <code>'en-US'</code> staat <code>'MMM'</code> bijvoorbeeld voor <code>'Jan', 'Feb', 'Mar', ...</code>, terwijl voor <code>'ru-RU'</code> <code>'MMM'</code> staat voor <code>'янв', 'фев', 'мар', ...</code>. Als <code>Format</code> gelijk is aan <code>nul</code>, bepaalt <code>Culture</code> de standaardindeling die moet worden gebruikt. Als <code>Culture</code> de waarde <code>nul</code> heeft of wordt weggelaten, wordt <code>Culture.Current</code> gebruikt.</li></ul>Als u oudere werkstromen wilt ondersteunen, kan <code>options</code> ook een tekstwaarde zijn. Dit vertoont hetzelfde gedrag als <code>options</code><code> = [Format = nul, Culture = <code>options</code>]</code>.
+Hiermee wordt een `datetimezone`\-waarde gemaakt van een tekstweergave, `text`. Er kan een optionele `record`\-parameter, `options`, worden opgegeven om aanvullende eigenschappen op te geven. De `record` kan de volgende velden bevatten:
+
+-   `Format`: een `text`waarde die de indeling aangeeft die moet worden gebruikt. Ga naar https://go.microsoft.com/fwlink/?linkid=2180104 en https://go.microsoft.com/fwlink/?linkid=2180105 voor meer informatie. Als u dit veld weglaat of `null` opgeeft, zal het tijdstip naar beste vermogen worden geparseerd.
+-   `Culture`: als `Format` niet nul is, worden bepaalde indelingsaanduidingen bepaald door `Culture`. Bijvoorbeeld: in `"en-US"` `"MMM"` is `"Jan", "Feb", "Mar", ...`, terwijl in `"ru-RU"` `"MMM"` is `"янв", "фев", "мар", ...`. Wanneer `Format` is `null`, wordt met `Culture` de standaardindeling bepaald die moet worden gebruikt. Als `Culture` de waarde `null` heeft of niet wordt gebruikt, wordt `Culture.Current` gebruikt.
+
+Als u oudere werkstromen wilt ondersteunen, kan `options` ook een tekstwaarde zijn. Dit gedraagt zich hetzelfde als `options = [Format = null, Culture = options]`.
 
 
 ## Examples
 
-### Example #1 
-Converteer &lt;code&gt;&#39;2010-12-31T01:30:00-08:00&#39;&lt;/code&gt; naar een &lt;code&gt;datetimezone&lt;/code&gt;-waarde.
+### Example #1
+Converteer `'2010-12-31T01:30:00-08:00'` naar een `datetimezone`\-waarde.
 ```powerquery
 DateTimeZone.FromText("2010-12-31T01:30:00-08:00")
 ```
@@ -37,7 +42,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Converteren met een aangepaste indeling en de Duitse cultuur.
 ```powerquery
 DateTimeZone.FromText("30 Dez 2010 02:04:50.369730 +02:00", [Format="dd MMM yyyy HH:mm:ss.ffffff zzz", Culture="de-DE"])
@@ -49,7 +54,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Converteren met ISO 8601.
 ```powerquery
 DateTimeZone.FromText("2009-06-15T13:45:30.0000000-07:00", [Format="O", Culture="en-US"])

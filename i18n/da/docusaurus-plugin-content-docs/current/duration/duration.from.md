@@ -19,13 +19,19 @@ Duration.From(
 
 ## Remarks
 
-Returnerer en værdi af typen <code>duration</code> ud fra den angivne <code>value</code>. Hvis den angivne <code>value</code> er <code>null</code>, vil <code>Duration.From</code> returnere <code>null</code>. Hvis den angivne <code>value</code> er <code>duration</code>, returneres <code>value</code>. Værdier af følgende typer kan konverteres til en værdi af typen <code>duration</code>:      <ul>        <li><code>text</code>: En værdi af typen <code>duration</code> fra tekstformlen for forløbet tid (d.h:m:s). Se <code>Duration.FromText</code> for at få flere oplysninger.</li>        <li><code>number</code>: En ækvivalens af typen <code>duration</code> til antallet af hele eller dele af dage udtrykt ved <code>value</code>.</li>      </ul>Hvis <code>value</code> er af en anden type, returneres der en fejl.
+Returns a duration value from the given value.
+
+-   `value`: The value from which the duration is derived. If the given `value` is `null`, this function returns `null`. If the given `value` is a `duration`, `value` is returned. Values of the following types can be converted to a `duration` value:
+    -   `text`: A `duration` value from textual elapsed time forms (d.h:m:s). Refer to `Duration.FromText` for details.
+    -   `number`: A `duration` equivalent to the number of whole and fractional days expressed by `value`.
+
+If `value` is of any other type, an error is returned.
 
 
 ## Examples
 
-### Example #1 
-Konvertér &lt;code&gt;2.525&lt;/code&gt; til en værdi af typen &lt;code&gt;duration&lt;/code&gt;.
+### Example #1
+Konvertér `2.525` til en værdi af typen `duration`.
 ```powerquery
 Duration.From(2.525)
 ```
@@ -33,6 +39,18 @@ Duration.From(2.525)
 Result: 
 ```powerquery
 #duration(2, 12, 36, 0)
+```
+
+
+### Example #2
+Konvertér tekstværdien `"2.05:55:20.34567"` til en værdi af typen `duration`.
+```powerquery
+Duration.From("2.05:55:20.34567")
+```
+
+Result: 
+```powerquery
+#duration(2, 5, 55, 20.3456700)
 ```
 
 

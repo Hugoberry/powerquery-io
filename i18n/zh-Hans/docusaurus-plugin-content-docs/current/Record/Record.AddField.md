@@ -22,12 +22,12 @@ Record.AddField(
 
 ## Remarks
 
-给定字段 <code>fieldName</code> 的名称和值 <code>value</code>，将字段添加到记录 <code>record</code>。
+给定字段 `fieldName` 的名称和值 `value`，将字段添加到记录 `record`。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 将字段地址添加到记录。
 ```powerquery
 Record.AddField([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "Address", "123 Main St.")

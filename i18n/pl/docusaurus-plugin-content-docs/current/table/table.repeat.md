@@ -20,12 +20,12 @@ Table.Repeat(
 
 ## Remarks
 
-Zwraca tabelę, w której wiersze z tabeli wejściowej <code>table</code> zostały powtórzone określoną liczbę razy (<code>count</code>).
+Zwraca tabelę, w której wiersze z tabeli wejściowej `table` zostały powtórzone określoną liczbę razy (`count`).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Powtórz dwa razy wiersze w tabeli.
 ```powerquery
 Table.Repeat(

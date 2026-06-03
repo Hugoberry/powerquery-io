@@ -23,13 +23,13 @@ Table.AddIndexColumn(
 
 ## Remarks
 
-Chắp thêm một cột có tên <code>newColumnName</code> vào <code>table</code> với các giá trị vị trí rõ ràng.    Một giá trị tùy chọn, <code>initialValue</code>, giá trị chỉ mục ban đầu. Giá trị tùy chọn <code>increment</code> chỉ định số lượng tăng mỗi giá trị chỉ mục.
+Chắp thêm một cột có tên `newColumnName` vào `table` với các giá trị vị trí rõ ràng. Một giá trị tùy chọn, `initialValue`, giá trị chỉ mục ban đầu. Giá trị tùy chọn `increment` chỉ định số lượng tăng mỗi giá trị chỉ mục.
 
 
 ## Examples
 
-### Example #1 
-Thêm một cột chỉ mục có tên &#34;chỉ mục&#34; vào bảng.
+### Example #1
+Thêm một cột chỉ mục có tên "chỉ mục" vào bảng.
 ```powerquery
 Table.AddIndexColumn(
     Table.FromRecords({
@@ -53,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Thêm một cột chỉ mục có tên &#34;chỉ mục&#34;, bắt đầu tại giá trị 10 và tăng theo số gia là 5, vào bảng.
+### Example #2
+Thêm một cột chỉ mục có tên "chỉ mục", bắt đầu tại giá trị 10 và tăng theo số gia là 5, vào bảng.
 ```powerquery
 Table.AddIndexColumn(
     Table.FromRecords({

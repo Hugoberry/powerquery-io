@@ -21,12 +21,12 @@ List.Range(
 
 ## Remarks
 
-Zwraca podzbiór listy rozpoczynający się od przesunięcia <code>list</code>. Opcjonalny parametr <code>offset</code> określa maksymalną liczbę elementów w podzbiorze.
+Zwraca podzestaw `list` rozpoczynający się od `offset`. Opcjonalny parametr, `count`, ustawia maksymalną liczbę elementów w podzbiorze.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zajdź podzbiór listy liczb od 1 do 10, który rozpoczyna się od przesunięcia 6.
 ```powerquery
 List.Range({1..10}, 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Zajdź podzbiór o długości 2 listy liczb od 1 do 10, który rozpoczyna się od przesunięcia 6.
 ```powerquery
 List.Range({1..10}, 6, 2)

@@ -25,12 +25,16 @@ Table.NestedJoin(
 
 ## Remarks
 
-Associa as linhas de <code>table1</code> com as linhas de <code>table2</code> com base na igualdade dos valores das colunas chave selecionadas por <code>key1</code> (para <code>table1</code>) e <code>key2</code> (para <code>table2</code>). Os resultados são introduzidos na coluna com o nome <code>newColumnName</code>.<br />O <code>joinKind</code> opcional especifica o tipo de associação a efetuar. Por predefinição, é efetuada uma associação externa à esquerda se não for especificado um <code>joinKind</code>.<br />Pode ser incluído um conjunto otimizado de <code>keyEqualityComparers</code> para especificar como comparar as colunas chave. Atualmente, esta funcionalidade destina-se apenas a utilização interna.<br />  
+Associa as linhas de `table1` com as linhas de `table2` com base na igualdade dos valores das colunas chave selecionadas por `key1` (para `table1`) e `key2` (para `table2`). Os resultados são introduzidos na coluna com o nome `newColumnName`.
+
+O `joinKind` opcional especifica o tipo de associação a efetuar. Por predefinição, é efetuada uma associação externa à esquerda se não for especificado um `joinKind`.
+
+Pode ser incluído um conjunto otimizado de `keyEqualityComparers` para especificar como comparar as colunas chave. Atualmente, esta funcionalidade destina-se apenas a utilização interna.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Associe duas tabelas com uma única coluna de chaves.
 ```powerquery
 Table.NestedJoin(

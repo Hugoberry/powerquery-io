@@ -19,13 +19,13 @@ Type.RecordFields(
 
 ## Remarks
 
-Trả về bản ghi mô tả các trường của bản ghi <code>type</code>. Mỗi trường của loại bản ghi trả về có tên tương ứng và một giá trị theo dạng bản ghi <code>[ Type = type, Optional = logical ]</code>.
+Trả về bản ghi mô tả các trường của bản ghi `type`. Mỗi trường của loại bản ghi trả về có tên tương ứng và một giá trị theo dạng bản ghi `[ Type = type, Optional = logical ]`.
 
 
 ## Examples
 
-### Example #1 
-Tìm tên và giá trị của bản ghi &lt;code&gt;[ A = number, optional B = any]&lt;/code&gt;.
+### Example #1
+Tìm tên và giá trị của bản ghi `[ A = number, optional B = any]`.
 ```powerquery
 Type.RecordFields(type [A = number, optional B = any])
 ```

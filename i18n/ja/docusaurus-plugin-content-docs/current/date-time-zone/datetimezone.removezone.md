@@ -19,12 +19,12 @@ DateTimeZone.RemoveZone(
 
 ## Remarks
 
-<code>dateTimeZone</code> からタイム ゾーン情報が削除された #datetime 値を返します。
+`dateTimeZone` からタイム ゾーン情報が削除された #datetime 値を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 値 #datetimezone(2011, 12, 31, 9, 15, 36, -7, 0) からタイム ゾーン情報を削除します。
 ```powerquery
 DateTimeZone.RemoveZone(#datetimezone(2011, 12, 31, 9, 15, 36, -7, 0))

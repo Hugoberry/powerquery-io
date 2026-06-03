@@ -25,12 +25,25 @@ Table.Join(
 
 ## Remarks
 
-Соединяет строки таблицы <code>table1</code> со строками таблицы <code>table2</code> с учетом тождественности значений ключевых столбцов, выбранных в <code>key1</code> (для <code>table1</code>) и в <code>key2</code> (для <code>table2</code>).<br />По умолчанию выполняется внутреннее соединение, но можно включить необязательный параметр <code>joinKind</code> для указания типа соединения. Возможны следующие значения.    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Необязательный набор <code>keyEqualityComparers</code> может быть включен для указания способа сравнения ключевых столбцов. Сейчас этот параметр предназначен только для внутреннего использования.<br />
+Соединяет строки таблицы `table1` со строками таблицы `table2` с учетом тождественности значений ключевых столбцов, выбранных в `key1` (для `table1`) и в `key2` (для `table2`).
+
+По умолчанию выполняется внутреннее соединение, но можно включить необязательный параметр `joinKind` для указания типа соединения. Возможны следующие значения.
+
+-   `JoinKind.Inner`
+-   `JoinKind.LeftOuter`
+-   `JoinKind.RightOuter`
+-   `JoinKind.FullOuter`
+-   `JoinKind.LeftAnti`
+-   `JoinKind.RightAnti`
+-   `JoinKind.LeftSemi`
+-   `JoinKind.RightSemi`
+
+Необязательный набор `keyEqualityComparers` может быть включен для указания способа сравнения ключевых столбцов. Сейчас этот параметр предназначен только для внутреннего использования.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Объедините две таблицы с помощью одного ключевого столбца.
 ```powerquery
 Table.Join(
@@ -67,7 +80,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Объединение двух таблиц с конфликтующими именами столбцов с использованием нескольких ключевых столбцов.
 ```powerquery
 let

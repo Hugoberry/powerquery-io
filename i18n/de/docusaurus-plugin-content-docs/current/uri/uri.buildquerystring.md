@@ -19,12 +19,12 @@ Uri.BuildQueryString(
 
 ## Remarks
 
-Stellen Sie den Datensatz '<code>query</code>' als URI-Abfragezeichenfolge zusammen, und kommentieren Sie Zeichen dabei wie erforderlich aus.
+Stellen Sie den Datensatz '`query`' als URI-Abfragezeichenfolge zusammen, und kommentieren Sie Zeichen dabei wie erforderlich aus.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kodieren einer Abfragezeichenfolge, die Sonderzeichen enthält.
 ```powerquery
 Uri.BuildQueryString([a = "1", b = "+$"])

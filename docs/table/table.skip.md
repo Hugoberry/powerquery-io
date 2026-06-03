@@ -20,12 +20,16 @@ Table.Skip(
 
 ## Remarks
 
-Returns a table that does not contain the first specified number of rows, <code>countOrCondition</code>, of the table <code>table</code>.    The number of rows skipped depends on the optional parameter <code>countOrCondition</code>.    <ul>    <li> If <code>countOrCondition</code> is omitted only the first row is skipped. </li>    <li> If <code>countOrCondition</code> is a number, that many rows (starting at the top) will be skipped. </li>    <li> If <code>countOrCondition</code> is a condition, the rows that meet the condition will be skipped until a row does not meet the condition.</li>    </ul>
+Returns a table that does not contain the first specified number of rows, `countOrCondition`, of the table `table`. The number of rows skipped depends on the optional parameter `countOrCondition`.
+
+-   If `countOrCondition` is omitted only the first row is skipped.
+-   If `countOrCondition` is a number, that many rows (starting at the top) will be skipped.
+-   If `countOrCondition` is a condition, the rows that meet the condition will be skipped until a row does not meet the condition.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Skip the first row of the table.
 ```powerquery
 Table.Skip(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Skip the first two rows of the table.
 ```powerquery
 Table.Skip(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Skip the first rows where [Price] &gt; 25 of the table.
+### Example #3
+Skip the first rows where \[Price\] > 25 of the table.
 ```powerquery
 Table.Skip(
     Table.FromRecords({

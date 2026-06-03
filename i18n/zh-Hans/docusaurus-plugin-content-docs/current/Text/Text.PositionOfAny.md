@@ -21,13 +21,13 @@ Text.PositionOfAny(
 
 ## Remarks
 
-返回在 <code>text</code> 中找到的列表 <code>characters</code>中任何字符的第一个位置。   可选参数 <code>occurrence</code> 可用于指定要返回的出现位置。
+返回在 `text` 中找到的列表 `characters`中任何字符的第一个位置。 可选参数 `occurrence` 可用于指定要返回的出现位置。
 
 
 ## Examples
 
-### Example #1 
-查找 &#34;W&#34; 或 &#34;H&#34; 在文本 &#34;Hello, World!&#34; 中的第一个位置。
+### Example #1
+查找 "W" 或 "H" 在文本 "Hello, World!" 中的第一个位置。
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"})
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-查找 &#34;W&#34; 或 &#34;H&#34; 在文本 &#34;Hello, World!&#34; 中的位置。
+### Example #2
+查找 "W" 或 "H" 在文本 "Hello, World!" 中的位置。
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"}, Occurrence.All)
 ```

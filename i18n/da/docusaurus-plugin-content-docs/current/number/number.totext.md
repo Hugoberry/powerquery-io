@@ -21,12 +21,16 @@ Number.ToText(
 
 ## Remarks
 
-Konverterer den numeriske værdi <code>number</code> til en tekstværdi i overensstemmelse med det format, der er angivet af <code>format</code>.<br />    <br />    Formatet er en tekstværdi, der angiver, hvordan tallet skal konverteres. Du kan få flere oplysninger om de understøttede formatværdier på https://go.microsoft.com/fwlink/?linkid=2241210 and https://go.microsoft.com/fwlink/?linkid=2240884.<br />    <br />    Der kan også angives en valgfri <code>culture</code> (f.eks. "da-DK") for at styre den kulturafhængige adfærd af  <code>format</code>.
+Konverterer den numeriske værdi `number` til en tekstværdi i overensstemmelse med det format, der er angivet af `format`.  
+  
+Formatet er en tekstværdi, der angiver, hvordan tallet skal konverteres. Du kan få flere oplysninger om de understøttede formatværdier på https://go.microsoft.com/fwlink/?linkid=2241210 and https://go.microsoft.com/fwlink/?linkid=2240884.  
+  
+Der kan også angives en valgfri `culture` (f.eks. "da-DK") for at styre den kulturafhængige adfærd af `format`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Konvertér et tal til tekst uden at angive et format.
 ```powerquery
 Number.ToText(4)
@@ -38,7 +42,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Konvertér et tal til eksponentielt format.
 ```powerquery
 Number.ToText(4, "e")
@@ -50,7 +54,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Konvertér et tal til procentformat med kun én decimalplads.
 ```powerquery
 Number.ToText(-0.1234, "P1")

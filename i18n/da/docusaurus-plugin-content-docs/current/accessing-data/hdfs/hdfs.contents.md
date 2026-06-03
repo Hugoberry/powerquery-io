@@ -19,7 +19,7 @@ Hdfs.Contents(
 
 ## Remarks
 
-Returnerer en tabel, der indeholder en række for hver mappe og fil, der blev fundet i mappe-URL-adressen <code>url</code> fra et Hadoop-filsystem. De enkelte rækker indeholder egenskaber for mappen eller filen og et link til indholdet.
+Returnerer en tabel, der indeholder en række for hver mappe og fil, der blev fundet i mappe-URL-adressen `url` fra et Hadoop-filsystem. De enkelte rækker indeholder egenskaber for mappen eller filen og et link til indholdet.
 
 
 

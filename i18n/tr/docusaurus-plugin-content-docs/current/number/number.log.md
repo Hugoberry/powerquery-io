@@ -20,13 +20,13 @@ Number.Log(
 
 ## Remarks
 
-Bir sayının (<code>number</code>) belirtilen <code>base</code> tabanında logaritmasını döndürür. <code>base</code> belirtilmediyse varsayılan değer Number.E değeridir.    <code>number</code> null ise <code>Number.Log</code>, null döndürür.
+Bir sayının (`number`) belirtilen `base` tabanında logaritmasını döndürür. `base` belirtilmediyse varsayılan değer Number.E değeridir. `number` null ise `Number.Log`, null döndürür.
 
 
 ## Examples
 
-### Example #1 
-2&#39;nin 10 tabanındaki logaritmasını alır.
+### Example #1
+2'nin 10 tabanındaki logaritmasını alır.
 ```powerquery
 Number.Log(2, 10)
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-2&#39;nin e tabanındaki logaritmasını alır.
+### Example #2
+2'nin e tabanındaki logaritmasını alır.
 ```powerquery
 Number.Log(2)
 ```

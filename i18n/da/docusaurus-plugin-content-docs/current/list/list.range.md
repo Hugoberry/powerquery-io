@@ -21,12 +21,12 @@ List.Range(
 
 ## Remarks
 
-Returnerer et undersæt af listen med start ved forskydningen <code>list</code>. En valgfri parameter, <code>offset</code>, angiver det højeste antal elementer i undersættet.
+Returnerer et undersæt af `list`, der starter ved `offset`. En valgfri parameter, `count`, angiver det højeste antal elementer i undersættet.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find undersættet med start ved forskydning 6 på listen over tallene 1-10.
 ```powerquery
 List.Range({1..10}, 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Find undersættet med længden 2 fra forskydning 6 på listen over tallene 1-10.
 ```powerquery
 List.Range({1..10}, 6, 2)

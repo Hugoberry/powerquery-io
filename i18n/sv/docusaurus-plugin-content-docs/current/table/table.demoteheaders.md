@@ -24,7 +24,7 @@ Flyttar ned kolumnrubrikerna (d.v.s. kolumnnamn) till den första raden med vär
 
 ## Examples
 
-### Example #1 
+### Example #1
 Flytta ned den första raden med värden i tabellen.
 ```powerquery
 Table.DemoteHeaders(

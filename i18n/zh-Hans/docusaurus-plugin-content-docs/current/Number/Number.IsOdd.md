@@ -19,12 +19,12 @@ Number.IsOdd(
 
 ## Remarks
 
-指示值是否为奇数。如果 <code>number</code> 为奇数，则返回 <code>true</code>；否则返回 <code>false</code>。
+指示值是否为奇数。如果 `number` 为奇数，则返回 `true`；否则返回 `false`。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 检查 625 是否为奇数。
 ```powerquery
 Number.IsOdd(625)
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 检查 82 是否为奇数。
 ```powerquery
 Number.IsOdd(82)

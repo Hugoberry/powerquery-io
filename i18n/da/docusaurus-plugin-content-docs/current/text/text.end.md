@@ -20,13 +20,13 @@ Text.End(
 
 ## Remarks
 
-Returnerer en værdi af typen <code>text</code>, der er det sidste <code>count</code>-tegn i værdien <code>text</code> <code>text</code>.
+Returnerer en værdi af typen `text`, der er det sidste `count`\-tegn i værdien `text` `text`.
 
 
 ## Examples
 
-### Example #1 
-Hent de sidste fem tegn i teksten &#34;Hello, World&#34;.
+### Example #1
+Hent de sidste fem tegn i teksten "Hello, World".
 ```powerquery
 Text.End("Hello, World", 5)
 ```

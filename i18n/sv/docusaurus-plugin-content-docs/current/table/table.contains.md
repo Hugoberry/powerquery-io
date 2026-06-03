@@ -21,12 +21,12 @@ Table.Contains(
 
 ## Remarks
 
-Anger om den angivna posten, <code>row</code>, visas som en rad i <code>table</code>.    En valfri parameter, <code>equationCriteria</code>, kan anges för att hantera jämförelsen mellan raderna i tabellen.
+Anger om den angivna posten, `row`, visas som en rad i `table`. En valfri parameter, `equationCriteria`, kan anges för att hantera jämförelsen mellan raderna i tabellen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kontrollera om tabellen innehåller raden.
 ```powerquery
 Table.Contains(
@@ -46,7 +46,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Kontrollera om tabellen innehåller raden.
 ```powerquery
 Table.Contains(
@@ -66,8 +66,8 @@ false
 ```
 
 
-### Example #3 
-Kontrollera om tabellen innehåller raden genom att bara jämföra kolumnen [Name].
+### Example #3
+Kontrollera om tabellen innehåller raden genom att bara jämföra kolumnen \[Name\].
 ```powerquery
 Table.Contains(
     Table.FromRecords({

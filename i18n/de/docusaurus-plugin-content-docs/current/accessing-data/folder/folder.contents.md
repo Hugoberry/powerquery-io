@@ -20,7 +20,7 @@ Folder.Contents(
 
 ## Remarks
 
-Gibt eine Tabelle zurück, die eine Zeile für jeden Ordner und jede Datei im Ordner <code>path</code> enthält. Jede Zeile enthält Eigenschaften des Ordners bzw. der Datei sowie einen Link zum jeweiligen Inhalt. Der <code>options</code>-Parameter ist derzeit nur für die interne Verwendung vorgesehen.
+Gibt eine Tabelle zurück, die eine Zeile für jeden Ordner und jede Datei im Ordner `path` enthält. Jede Zeile enthält Eigenschaften des Ordners bzw. der Datei sowie einen Link zum jeweiligen Inhalt. Der `options`\-Parameter ist derzeit nur für die interne Verwendung vorgesehen.
 
 
 

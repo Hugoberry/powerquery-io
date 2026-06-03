@@ -20,7 +20,7 @@ BinaryFormat.ByteOrder(
 
 ## Remarks
 
-<code>binaryFormat</code> で指定されたバイト順でバイナリ形式を返します。既定のバイト順は <code>ByteOrder.BigEndian</code> です。
+`binaryFormat` で指定されたバイト順でバイナリ形式を返します。既定のバイト順は `ByteOrder.BigEndian` です。
 
 
 

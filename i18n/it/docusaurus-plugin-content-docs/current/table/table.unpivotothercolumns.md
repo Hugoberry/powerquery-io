@@ -27,7 +27,7 @@ Converte tutte le colonne ad eccezione di un set specificato in coppie attributo
 
 ## Examples
 
-### Example #1 
+### Example #1
 Converte tutte le colonne ad eccezione di un set specificato in coppie attributo-valore, combinate con i valori restanti in ogni riga.
 ```powerquery
 Table.UnpivotOtherColumns(

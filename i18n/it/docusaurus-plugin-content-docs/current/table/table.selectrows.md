@@ -20,13 +20,13 @@ Table.SelectRows(
 
 ## Remarks
 
-Restituisce una tabella di righe da <code>table</code> corrispondente alla selezione <code>condition</code>.
+Restituisce una tabella di righe da `table` corrispondente alla selezione `condition`.
 
 
 ## Examples
 
-### Example #1 
-Selezionare le righe nella tabella in cui i valori nella colonna [CustomerID] sono maggiori di 2.
+### Example #1
+Selezionare le righe nella tabella in cui i valori nella colonna \[CustomerID\] sono maggiori di 2.
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({
@@ -48,8 +48,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Selezionare le righe nella tabella in cui i nomi non contengono la lettera &#34;B&#34;.
+### Example #2
+Selezionare le righe nella tabella in cui i nomi non contengono la lettera "B".
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({

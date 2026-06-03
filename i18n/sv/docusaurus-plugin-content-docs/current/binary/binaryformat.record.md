@@ -19,12 +19,12 @@ BinaryFormat.Record(
 
 ## Remarks
 
-Returnerar ett binärformat som läser en post. Parametern <code>record</code> anger formatet för posten. Fälten i posten kan ha olika binärformat. Om ett fält innehåller ett värde som inte är ett värde i binärformat läses inga data för det fältet och fältvärdet skickas som ett eko till resultatet.
+Returnerar ett binärformat som läser en post. Parametern `record` anger formatet för posten. Fälten i posten kan ha olika binärformat. Om ett fält innehåller ett värde som inte är ett värde i binärformat läses inga data för det fältet och fältvärdet skickas som ett eko till resultatet.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Läs en post som innehåller ett 16-bitars heltal och ett 32-bitars heltal.
 ```powerquery
 let

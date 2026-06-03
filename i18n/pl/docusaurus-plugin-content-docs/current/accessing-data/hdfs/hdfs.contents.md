@@ -19,7 +19,7 @@ Hdfs.Contents(
 
 ## Remarks
 
-Zwraca tabelę zawierającą wiersz odpowiadający każdemu folderowi i plikowi znalezionemu pod adresem URL folderu <code>url</code> w systemie plików usługi Hadoop. Każdy wiersz zawiera właściwości folderu lub pliku oraz link do ich zawartości.
+Zwraca tabelę zawierającą wiersz odpowiadający każdemu folderowi i plikowi znalezionemu pod adresem URL folderu `url` w systemie plików usługi Hadoop. Każdy wiersz zawiera właściwości folderu lub pliku oraz link do ich zawartości.
 
 
 

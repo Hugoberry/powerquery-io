@@ -19,7 +19,12 @@ AdobeAnalytics.Cubes(
 
 ## Remarks
 
-Restituisce una tabella di pacchetti multidimensionali da Adobe Analytics. È possibile specificare un parametro di record facoltativo, <code>options</code>, per controllare le opzioni seguenti:    <ul><li><code>HierarchicalNavigation</code> : Espressione logica (true/false) che consente di scegliere se visualizzare le tabelle raggruppate in base al nome del relativo schema (il valore predefinito &#232; true).</li><li><code>MaxRetryCount</code> : Numero di tentativi da eseguire durante il polling del risultato della query. Il valore predefinito &#232; 120.</li><li><code>RetryInterval</code> : Durata dell&#39;intervallo di tempo tra i tentativi. Il valore predefinito &#232; 1 secondo.</li><li><code>Implementation</code> : Specifica la versione API di Adobe Analytics. I valori validi sono: &quot;2.0&quot;. L&#39;impostazione predefinita usa la versione API 1.4</li></ul>    
+Restituisce una tabella di pacchetti multidimensionali da Adobe Analytics. È possibile specificare un parametro di record facoltativo, `options`, per controllare le opzioni seguenti:
+
+-   `HierarchicalNavigation` : Espressione logica (true/false) che consente di scegliere se visualizzare le tabelle raggruppate in base al nome del relativo schema (il valore predefinito è true).
+-   `MaxRetryCount` : Numero di tentativi da eseguire durante il polling del risultato della query. Il valore predefinito è 120.
+-   `RetryInterval` : Durata dell'intervallo di tempo tra i tentativi. Il valore predefinito è 1 secondo.
+-   `Implementation` : Specifica la versione API di Adobe Analytics. I valori validi sono: "2.0". L'impostazione predefinita usa la versione API 1.4
 
 
 

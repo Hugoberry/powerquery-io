@@ -21,13 +21,13 @@ Text.AfterDelimiter(
 
 ## Remarks
 
-Belirtilen <code>delimiter</code> değerinden sonraki <code>text</code> bölümünü döndürür.    İsteğe bağlı bir sayısal <code>index</code> hangi <code>delimiter</code> oluşumunun hesaba katılması gerektiğini belirtir.    İsteğe bağlı bir liste <code>index</code> hangi <code>delimiter</code> oluşumunun hesaba katılması gerektiğini ve dizin oluşturmanın girişin başından mı sonundan mı başlaması gerektiğini belirtir.
+Belirtilen `delimiter` değerinden sonraki `text` bölümünü döndürür. İsteğe bağlı bir sayısal `index` hangi `delimiter` oluşumunun hesaba katılması gerektiğini belirtir. İsteğe bağlı bir liste `index` hangi `delimiter` oluşumunun hesaba katılması gerektiğini ve dizin oluşturmanın girişin başından mı sonundan mı başlaması gerektiğini belirtir.
 
 
 ## Examples
 
-### Example #1 
-İlk kısa çizgiden sonraki &#34;111-222-333&#34; bölümünü alır.
+### Example #1
+İlk kısa çizgiden sonraki "111-222-333" bölümünü alır.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-İkinci kısa çizgiden sonraki &#34;111-222-333&#34; bölümünü alır.
+### Example #2
+İkinci kısa çizgiden sonraki "111-222-333" bölümünü alır.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-", 1)
 ```
@@ -50,8 +50,8 @@ Result:
 ```
 
 
-### Example #3 
-Sondan ikinci kısa çizgiden sonraki &#34;111-222-333&#34; bölümünü alır.
+### Example #3
+Sondan ikinci kısa çizgiden sonraki "111-222-333" bölümünü alır.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-", {1, RelativePosition.FromEnd})
 ```

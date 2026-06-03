@@ -19,13 +19,13 @@ Text.Length(
 
 ## Remarks
 
-<code>text</code> metnindeki karakter sayısını verir.
+`text` metnindeki karakter sayısını verir.
 
 
 ## Examples
 
-### Example #1 
-&#34;Hello World&#34; metninde kaç karakterin olduğunu bulur.
+### Example #1
+"Hello World" metninde kaç karakterin olduğunu bulur.
 ```powerquery
 Text.Length("Hello World")
 ```

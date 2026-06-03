@@ -22,13 +22,17 @@ List.Alternate(
 
 ## Remarks
 
-Returnerer en liste, der består af alle forskydningselementer med ulige numre på en liste. Skifter mellem at hente og sende værdier fra listen <code>list</code>, afhængigt af parametrene.    <ul>    <li><code>count</code>: Angiver det antal værdier, der sendes hver gang.</li>    <li><code>repeatInterval</code>: Et valgfrit gentagelsesinterval, der angiver, hvor mange værdier der er lagt til mellem de sendte værdier.</li>    <li><code>offset</code>: En valgfri forskydningsparameter for at starte afsendelse af værdier ved den første forskydning.</li>    </ul>
+Returnerer en liste, der består af alle forskydningselementer med ulige numre på en liste. Skifter mellem at hente og sende værdier fra listen `list`, afhængigt af parametrene.
+
+-   `count`: Angiver det antal værdier, der sendes hver gang.
+-   `repeatInterval`: Et valgfrit gentagelsesinterval, der angiver, hvor mange værdier der er lagt til mellem de sendte værdier.
+-   `offset`: En valgfri forskydningsparameter for at starte afsendelse af værdier ved den første forskydning.
 
 
 ## Examples
 
-### Example #1 
-Opret en liste fra \{1..10}, der sender det første tal.
+### Example #1
+Opret en liste fra \{1..10\}, der sender det første tal.
 ```powerquery
 List.Alternate({1..10}, 1)
 ```
@@ -39,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-Opret en liste fra \{1..10}, der springer hvert andet tal over.
+### Example #2
+Opret en liste fra \{1..10\}, der springer hvert andet tal over.
 ```powerquery
 List.Alternate({1..10}, 1, 1)
 ```
@@ -51,8 +55,8 @@ Result:
 ```
 
 
-### Example #3 
-Opret en liste fra \{1..10}, der starter ved 1 og sender hvert andet tal.
+### Example #3
+Opret en liste fra \{1..10\}, der starter ved 1 og sender hvert andet tal.
 ```powerquery
 List.Alternate({1..10}, 1, 1, 1)
 ```
@@ -63,8 +67,8 @@ Result:
 ```
 
 
-### Example #4 
-Opret en liste fra \{1..10}, der starter ved 1, springer over én værdi, beholder to værdier osv.
+### Example #4
+Opret en liste fra \{1..10\}, der starter ved 1, springer over én værdi, beholder to værdier osv.
 ```powerquery
 List.Alternate({1..10}, 1, 2, 1)
 ```

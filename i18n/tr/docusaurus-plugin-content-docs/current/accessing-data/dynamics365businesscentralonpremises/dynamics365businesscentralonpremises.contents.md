@@ -5,7 +5,7 @@ title: Dynamics365BusinessCentralOnPremises.Contents
 # Dynamics365BusinessCentralOnPremises.Contents
 
 
-Dynamics 365 Business Central (şirket içi) OData hizmet uç noktanızın URL&#39;sini girin.
+Dynamics 365 Business Central (şirket içi) OData hizmet uç noktanızın URL'sini girin.
 
 
 ## Syntax
@@ -20,6 +20,6 @@ Dynamics365BusinessCentralOnPremises.Contents(
 
 ## Remarks
 
-İlgili Dynamics 365 Business Central (şirket içi) verilerinin bulunduğu bir tablo döndürür. 
+İlgili Dynamics 365 Business Central (şirket içi) verilerinin bulunduğu bir tablo döndürür.
 
 

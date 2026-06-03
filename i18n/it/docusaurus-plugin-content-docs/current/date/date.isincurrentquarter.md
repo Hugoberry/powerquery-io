@@ -5,7 +5,7 @@ title: Date.IsInCurrentQuarter
 # Date.IsInCurrentQuarter
 
 
-Indica se la data rientra nel trimestre corrente, come determinato dalla data e dall&#39;ora correnti del sistema.
+Indica se la data rientra nel trimestre corrente, come determinato dalla data e dall'ora correnti del sistema.
 
 
 ## Syntax
@@ -19,13 +19,15 @@ Date.IsInCurrentQuarter(
 
 ## Remarks
 
-Indica se il valore datetime specificato <code>dateTime</code> rientra nel trimestre corrente, come determinato dalla data e dall'ora correnti del sistema.      <ul>      <li><code>dateTime</code>: valore <code>date</code>, <code>datetime</code> o <code>datetimezone</code> da valutare.</li>      </ul>
+Indica se il valore datetime specificato `dateTime` rientra nel trimestre corrente, come determinato dalla data e dall'ora correnti del sistema.
+
+-   `dateTime`: valore `date`, `datetime` o `datetimezone` da valutare.
 
 
 ## Examples
 
-### Example #1 
-Determina se l&#39;ora di sistema corrente rientra nel trimestre corrente.
+### Example #1
+Determina se l'ora di sistema corrente rientra nel trimestre corrente.
 ```powerquery
 Date.IsInCurrentQuarter(DateTime.FixedLocalNow())
 ```

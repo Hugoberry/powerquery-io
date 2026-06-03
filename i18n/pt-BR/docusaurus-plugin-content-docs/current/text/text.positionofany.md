@@ -21,13 +21,13 @@ Text.PositionOfAny(
 
 ## Remarks
 
-Retorna a primeira posição de qualquer caractere na lista <code>characters</code> encontrada em <code>text</code>.    Um parâmetro opcional <code>occurrence</code> pode ser usado para especificar qual posição de ocorrência retornar.
+Retorna a primeira posição de qualquer caractere na lista `characters` encontrada em `text`. Um parâmetro opcional `occurrence` pode ser usado para especificar qual posição de ocorrência retornar.
 
 
 ## Examples
 
-### Example #1 
-Localize a posição do &#34;M&#34; ou do &#34;O&#34; no texto &#34;Olá, Mundo!&#34;.
+### Example #1
+Localize a posição do "M" ou do "O" no texto "Olá, Mundo!".
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"})
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Localize todas as posições do &#34;M&#34; ou do &#34;O&#34; no texto &#34;Olá, Mundo!&#34;.
+### Example #2
+Localize todas as posições do "M" ou do "O" no texto "Olá, Mundo!".
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"}, Occurrence.All)
 ```

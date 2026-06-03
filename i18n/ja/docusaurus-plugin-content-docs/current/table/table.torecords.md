@@ -19,12 +19,12 @@ Table.ToRecords(
 
 ## Remarks
 
-レコードのリストにテーブル (<code>table</code>) を変換します。
+レコードのリストにテーブル (`table`) を変換します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 レコードのリストにテーブルを変換します。
 ```powerquery
 Table.ToRecords(

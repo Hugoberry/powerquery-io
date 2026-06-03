@@ -20,12 +20,15 @@ Text.Split(
 
 ## Remarks
 
-Zwraca listę wartości tekstowych powstałą w wyniku wykonania podziału wartości tekstowej <code>text</code> przy użyciu określonego ogranicznika <code>separator</code>.
+Zwraca listę wartości tekstowych wynikających z podziału wartości tekstowej na podstawie określonego ogranicznika.
+
+-   `text`: wartość tekstowa do podzielenia.
+-   `separator`: ogranicznik używany do podzielenia tekstu. Ogranicznik może być pojedynczym znakiem lub sekwencją znaków. Jeśli jest używana sekwencja znaków, tekst jest dzielony tylko w wystąpieniach, w których występuje dokładna sekwencja.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utwórz listę na podstawie rozdzielanej znakami „|” wartości tekstowej „Name|Address|PhoneNumber”.
 ```powerquery
 Text.Split("Name|Address|PhoneNumber", "|")
@@ -37,6 +40,22 @@ Result:
     "Name",
     "Address",
     "PhoneNumber"
+}
+```
+
+
+### Example #2
+Utwórz listę na podstawie wartości tekstowej przy użyciu sekwencji znaków.
+```powerquery
+Text.Split("Name, the Customer, the Purchase Date", ", the ")
+```
+
+Result: 
+```powerquery
+{
+    "Name",
+    "Customer",
+    "Purchase Date"
 }
 ```
 

@@ -19,12 +19,12 @@ DateTimeZone.ToLocal(
 
 ## Remarks
 
-datetimezone 値 <code>dateTimeZone</code> のタイム ゾーン情報をローカル タイム ゾーン情報に変更します。    <code>dateTimeZone</code> にタイム ゾーン部分がない場合は、ローカル タイム ゾーン情報が追加されます。
+datetimezone 値 `dateTimeZone` のタイム ゾーン情報をローカル タイム ゾーン情報に変更します。 `dateTimeZone` にタイム ゾーン部分がない場合は、ローカル タイム ゾーン情報が追加されます。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) のタイム ゾーン情報をローカル タイム ゾーン (PST を想定) に変更します。
 ```powerquery
 DateTimeZone.ToLocal(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30))

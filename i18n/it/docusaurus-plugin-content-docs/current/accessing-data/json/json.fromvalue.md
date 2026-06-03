@@ -20,12 +20,21 @@ Json.FromValue(
 
 ## Remarks
 
-Genera una rappresentazione JSON di un valore specificato <code>value</code> con una codifica di testo specificata da <code>encoding</code>. Se si omette <code>encoding</code>, verrà usata la codifica UTF8. I valori sono rappresentati come segue:<br /> <ul>        <li>I valori logici, di testo e Null sono rappresentati come i tipi JSON corrispondenti</li>        <li>I numeri sono rappresentati come numeri in JSON, ad eccezione di <code>#infinity</code>, <code>-#infinity</code> e <code>#nan</code> che vengono convertiti in valori Null</li>        <li>Gli elenchi sono rappresentati come matrici JSON</li>        <li>I record sono rappresentati come oggetti JSON</li>        <li>Le tabelle sono rappresentate come una matrice di oggetti</li>        <li>Date, ore, valori di data/ora, fusi orari e durate sono rappresentati come testo ISO-8601</li>        <li>I valori binari sono rappresentati come testo con codifica Base 64</li>        <li>I tipi e le funzioni restituiscono un errore</li> </ul>    
+Produce una rappresentazione JSON di un valore specificato `value` con una codifica di testo specificata da `encoding`. Se si omette `encoding`, viene usata la codifica UTF8. I valori sono rappresentati come indicato di seguito:
+
+-   I valori logici, di testo e null sono rappresentati come i tipi JSON corrispondenti
+-   I numeri sono rappresentati come numeri in JSON, ad eccezione di `#infinity`, `-#infinity` e `#nan` che vengono convertiti in null
+-   Gli elenchi sono rappresentati come array JSON
+-   I record sono rappresentati come oggetti JSON
+-   Le tabelle sono rappresentate come array di oggetti
+-   Date, ore, valori di data/ora, fusi orari e durate sono rappresentati come testo ISO-8601
+-   I valori binari sono rappresentati come testo con codifica Base 64
+-   I tipi e le funzioni producono un errore
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Converte un valore complesso in JSON.
 ```powerquery
 Text.FromBinary(Json.FromValue([A = {1, true, "3"}, B = #date(2012, 3, 25)]))

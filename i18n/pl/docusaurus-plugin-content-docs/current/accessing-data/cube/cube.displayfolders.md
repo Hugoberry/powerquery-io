@@ -19,7 +19,7 @@ Cube.DisplayFolders(
 
 ## Remarks
 
-Zwraca zagnieżdżone drzewo tabel reprezentujące hierarchię folderów wyświetlania obiektów (np. wymiarów i miar) dostępnych do użycia w module <code>cube</code>.
+Zwraca zagnieżdżone drzewo tabel reprezentujące hierarchię folderów wyświetlania obiektów (np. wymiarów i miar) dostępnych do użycia w module `cube`.
 
 
 

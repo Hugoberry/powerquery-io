@@ -20,12 +20,12 @@ Impala.Database(
 
 ## Remarks
 
-Importuj dane z klastra Impala <code>server</code>. Jeśli nie określono portu, zostanie użyty port domyślny 21050.
+Importuj dane z klastra Impala `server`. Jeśli nie określono portu, zostanie użyty port domyślny 21050.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Wyświetl listę tabel w klastrze Impala.
 ```powerquery
 Impala.Database("localhost:21050")

@@ -20,12 +20,12 @@ BinaryFormat.Length(
 
 ## Remarks
 
-傳回二進位格式，其會限制可讀取的資料量。<code>BinaryFormat.List</code> 和 <code>BinaryFormat.Binary</code> 兩者都可以用來讀取到資料結尾。<code>BinaryFormat.Length</code> 可用來限制讀取的位元組數目。<code>binaryFormat</code> 參數會指定要限制的二進位格式。<code>length</code> 參數會指定要讀取的位元組數。<code>length</code> 參數可以是數值，也可以是二進位格式值，其指定顯示的長度值的格式，放在要讀取的值前面。
+傳回二進位格式，其會限制可讀取的資料量。 `BinaryFormat.List` 和 `BinaryFormat.Binary` 都可以用來讀取直到資料結束。 `BinaryFormat.Length` 可用來限制讀取的位元元組數目。 `binaryFormat` 參數會指定要限制的二進位格式。 `length` 參數會指定要讀取的位元組數。 `length` 參數可以是數值，也可以是二進位格式值，其指定顯示的長度值的格式，放在要讀取的值前面。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 讀取位元組清單時，將讀取的位元組數限制為 2。
 ```powerquery
 let
@@ -44,7 +44,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 讀取位元組清單時，將讀取的位元組數限制為清單前面的位元組值。
 ```powerquery
 let

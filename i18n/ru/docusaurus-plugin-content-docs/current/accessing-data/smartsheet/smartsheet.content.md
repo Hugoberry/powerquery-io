@@ -24,7 +24,7 @@ Smartsheet.Content(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Извлекает таблицу сведений о пользователях из API Smartsheet
 ```powerquery
 Smartsheet.Content("users")

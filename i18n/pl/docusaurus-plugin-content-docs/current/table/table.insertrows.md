@@ -21,12 +21,12 @@ Table.InsertRows(
 
 ## Remarks
 
-Zwraca tabelę z listą wierszy <code>rows</code>, wstawioną do <code>table</code> na danej pozycji <code>offset</code>. Każda kolumna w wierszu do wstawienia musi być zgodna z typami kolumn tabeli.
+Zwraca tabelę z listą wierszy `rows`, wstawioną do `table` na danej pozycji `offset`. Każda kolumna w wierszu do wstawienia musi być zgodna z typami kolumn tabeli.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Wstaw wiersz do tabeli na pozycji 1.
 ```powerquery
 Table.InsertRows(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Wstaw dwa wiersze do tabeli na pozycji 1.
 ```powerquery
 Table.InsertRows(

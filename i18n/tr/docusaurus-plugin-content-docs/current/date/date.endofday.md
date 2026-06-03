@@ -19,12 +19,14 @@ Date.EndOfDay(
 
 ## Remarks
 
-<code>dateTime</code> tarafından temsil edilen gün sonunu döndürür. Saat dilimi bilgileri korunur.      <ul>      <li><code>dateTime</code>: Kendisinden itibaren günün sonunun hesaplandığı <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      </ul>
+`dateTime` tarafından temsil edilen gün sonunu döndürür. Saat dilimi bilgileri korunur.
+
+-   `dateTime`: Kendisinden itibaren günün sonunun hesaplandığı `date`, `datetime` veya `datetimezone` değeri.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 14.05.2011 17:00:00 için günün sonunu alır.
 ```powerquery
 Date.EndOfDay(#datetime(2011, 5, 14, 17, 0, 0))
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 17.05.2011 19:00 için günün sonunu alır.
 ```powerquery
 Date.EndOfDay(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0))

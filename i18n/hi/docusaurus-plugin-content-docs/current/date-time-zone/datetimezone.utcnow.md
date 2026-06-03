@@ -24,7 +24,7 @@ DateTimeZone.UtcNow(
 
 ## Examples
 
-### Example #1 
+### Example #1
 वर्तमान दिनांक और समय को UTC में प्राप्त करें.
 ```powerquery
 DateTimeZone.UtcNow()

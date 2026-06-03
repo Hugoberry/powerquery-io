@@ -27,7 +27,7 @@ Effectue un appel au point de terminaison de génération de rapports Webtrends 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Effectue un appel au point de terminaison du rapport des visiteurs Webtrends pour les données des 30 derniers jours
 ```powerquery
 Webtrends.ReportContents("98765", "xPcmTDDP0P6")

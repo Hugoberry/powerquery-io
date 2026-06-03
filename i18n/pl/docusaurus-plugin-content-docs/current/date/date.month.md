@@ -19,12 +19,12 @@ Date.Month(
 
 ## Remarks
 
-Zwraca składnik miesiąca z wartości typu <code>datetime</code> dostarczonej w parametrze <code>dateTime</code>.
+Zwraca składnik miesiąca z wartości typu `datetime` dostarczonej w parametrze `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź miesiąc w wartości #datetime(2011, 12, 31, 9, 15, 36).
 ```powerquery
 Date.Month(#datetime(2011, 12, 31, 9, 15, 36))

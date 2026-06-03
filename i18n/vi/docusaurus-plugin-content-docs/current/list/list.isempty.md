@@ -19,13 +19,13 @@ List.IsEmpty(
 
 ## Remarks
 
-Trả về <code>true</code> nếu danh sách <code>list</code> không chứa giá trị nào (độ dài bằng 0). Nếu danh sách chứa giá trị (độ dài > 0), trả về <code>false</code>.
+Trả về `true` nếu danh sách `list` không chứa giá trị nào (độ dài bằng 0). Nếu danh sách chứa giá trị (độ dài > 0), trả về `false`.
 
 
 ## Examples
 
-### Example #1 
-Tìm ra danh sách \{} trống hay không trống.
+### Example #1
+Tìm ra danh sách \{\} trống hay không trống.
 ```powerquery
 List.IsEmpty({})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Tìm ra danh sách \{1, 2} trống hay không trống.
+### Example #2
+Tìm ra danh sách \{1, 2\} trống hay không trống.
 ```powerquery
 List.IsEmpty({1, 2})
 ```

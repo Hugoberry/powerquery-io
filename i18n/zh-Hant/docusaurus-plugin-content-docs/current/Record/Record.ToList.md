@@ -19,12 +19,12 @@ Record.ToList(
 
 ## Remarks
 
-根據輸入 <code>record</code> 傳回包含欄位值的值清單。
+根據輸入 `record` 傳回包含欄位值的值清單。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 從記錄中擷取欄位值。
 ```powerquery
 Record.ToList([A = 1, B = 2, C = 3])

@@ -20,13 +20,13 @@ Table.SelectRows(
 
 ## Remarks
 
-Gibt eine Tabelle mit Zeilen aus dem Element vom Typ "<code>table</code>" zurück, das der Auswahl "<code>condition</code>" entspricht.
+Gibt eine Tabelle mit Zeilen aus dem Element vom Typ "`table`" zurück, das der Auswahl "`condition`" entspricht.
 
 
 ## Examples
 
-### Example #1 
-Auswählen der Zeilen in der Tabelle, in denen die Werte in der Spalte &#34;[CustomerID] &#34; größer als 2 sind.
+### Example #1
+Auswählen der Zeilen in der Tabelle, in denen die Werte in der Spalte "\[CustomerID\] " größer als 2 sind.
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({
@@ -48,8 +48,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Auswählen der Zeilen in der Tabelle, in denen die Namen keinen Buchstaben &#34;B&#34; enthalten.
+### Example #2
+Auswählen der Zeilen in der Tabelle, in denen die Namen keinen Buchstaben "B" enthalten.
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({

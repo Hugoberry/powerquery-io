@@ -24,7 +24,7 @@ Retorna uma função que divide o texto em uma lista de texto em espaço em bran
 
 ## Examples
 
-### Example #1 
+### Example #1
 Divida a entrada por caracteres de espaço em branco, tratando aspas como qualquer outro caractere.
 ```powerquery
 Splitter.SplitTextByWhitespace(QuoteStyle.None)("a b#(tab)c")

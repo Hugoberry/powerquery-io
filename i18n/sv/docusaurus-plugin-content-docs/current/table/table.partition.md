@@ -22,13 +22,18 @@ Table.Partition(
 
 ## Remarks
 
-Partitionerar <code>table</code> till en lista med <code>groups</code> tabeller, baserat på värdet för <code>column</code> och en <code>hash</code>-funktion.    Funktionen <code>hash</code> körs på värdet för raden <code>column</code> för att få fram ett hash-värde för raden. Hash-värdets modulo, <code>groups</code>, avgör i vilken av de returnerade tabellerna som raden placeras i.    <ul>       <li><code>table</code>: Tabellen som ska partitioneras.</li>       <li><code>column</code>: Kolumnen som hash-beräkningen ska köras på för att avgöra vilken returnerad tabell som raden finns i.</li>       <li><code>groups</code>: Antalet tabeller som indatatabellen ska partitioneras i.</li>       <li><code>hash</code>: Funktionen som körs för att få fram ett hash-värde.</li>    </ul>  
+Partitionerar `table` till en lista med `groups` tabeller, baserat på värdet för `column` och en `hash`\-funktion. Funktionen `hash` körs på värdet för raden `column` för att få fram ett hash-värde för raden. Hash-värdets modulo, `groups`, avgör i vilken av de returnerade tabellerna som raden placeras i.
+
+-   `table`: Tabellen som ska partitioneras.
+-   `column`: Kolumnen som hash-beräkningen ska köras på för att avgöra vilken returnerad tabell som raden finns i.
+-   `groups`: Antalet tabeller som indatatabellen ska partitioneras i.
+-   `hash`: Funktionen som körs för att få fram ett hash-värde.
 
 
 ## Examples
 
-### Example #1 
-Partitionera tabellen &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt; i 2 tabeller för kolumnen [a] och använd kolumnernas värde som hash-funktionen.
+### Example #1
+Partitionera tabellen `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})` i 2 tabeller för kolumnen \[a\] och använd kolumnernas värde som hash-funktionen.
 ```powerquery
 Table.Partition(
     Table.FromRecords({

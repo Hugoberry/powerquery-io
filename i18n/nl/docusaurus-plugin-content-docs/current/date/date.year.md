@@ -19,12 +19,12 @@ Date.Year(
 
 ## Remarks
 
-Retourneert het jaargedeelte van de opgegeven <code>datetime</code>waarde, <code>dateTime</code>.
+Retourneert het jaargedeelte van de opgegeven `datetime`waarde, `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Het jaar zoeken in #datetime(2011, 12, 31, 9, 15, 36).
 ```powerquery
 Date.Year(#datetime(2011, 12, 31, 9, 15, 36))

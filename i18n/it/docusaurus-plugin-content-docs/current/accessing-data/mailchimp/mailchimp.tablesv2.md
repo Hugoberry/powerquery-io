@@ -24,7 +24,7 @@ Restituisce una tabella con i dati MailChimp principali.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Restituisce una tabella con i dati MailChimp principali.
 ```powerquery
 MailChimp.Tables()

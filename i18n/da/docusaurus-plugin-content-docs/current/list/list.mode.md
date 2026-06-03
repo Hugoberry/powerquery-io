@@ -20,13 +20,13 @@ List.Mode(
 
 ## Remarks
 
-Returnerer det element, der vises mest hyppigt på listen, <code>list</code>. Hvis listen er tom, udløses der en undtagelse. Hvis der vises flere elementer med samme maksimumhyppighed, vælges den sidste.    Du kan angive en valgfri værdi af typen <code>comparisonCriteria</code>, <code>equationCriteria</code>, for at styre kvalitetstesten. 
+Returnerer det element, der oftest vises i `list`. Hvis listen er tom, opstår der en fejl. Hvis der vises flere elementer med den samme maksimale hyppighed, vælges den sidste. Der kan angives en valgfri værdi for sammenligningskriterier, `equationCriteria`, for at styre lighedstest.
 
 
 ## Examples
 
-### Example #1 
-Find det element, der vises mest hyppigt på listen, &lt;code&gt;\{&#34;A&#34;, 1, 2, 3, 3, 4, 5}&lt;/code&gt;.
+### Example #1
+Find det element, der vises mest hyppigt på listen, `{"A", 1, 2, 3, 3, 4, 5}`.
 ```powerquery
 List.Mode({"A", 1, 2, 3, 3, 4, 5})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Find det element, der vises mest hyppigt på listen, &lt;code&gt;\{&#34;A&#34;, 1, 2, 3, 3, 4, 5, 5}&lt;/code&gt;.
+### Example #2
+Find det element, der vises mest hyppigt på listen, `{"A", 1, 2, 3, 3, 4, 5, 5}`.
 ```powerquery
 List.Mode({"A", 1, 2, 3, 3, 4, 5, 5})
 ```

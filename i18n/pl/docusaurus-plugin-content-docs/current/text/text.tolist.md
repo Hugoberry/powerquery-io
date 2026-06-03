@@ -19,12 +19,12 @@ Text.ToList(
 
 ## Remarks
 
-Zwraca listę wartości znakowych z danej wartości tekstowej <code>text</code>.
+Zwraca listę wartości znakowych z danej wartości tekstowej `text`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utwórz listę wartości znakowych na podstawie tekstu „Hello World”.
 ```powerquery
 Text.ToList("Hello World")

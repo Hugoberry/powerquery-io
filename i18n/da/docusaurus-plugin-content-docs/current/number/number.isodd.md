@@ -19,12 +19,12 @@ Number.IsOdd(
 
 ## Remarks
 
-Angiver, om værdien er et ulige tal. Returnerer <code>true</code>, hvis <code>number</code> er et ulige tal. Ellers returneres <code>false</code>.
+Angiver, om værdien er et ulige tal. Returnerer `true`, hvis `number` er et ulige tal. Ellers returneres `false`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kontrollér, om 625 er et ulige tal.
 ```powerquery
 Number.IsOdd(625)
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Kontrollér, om 82 er et ulige tal.
 ```powerquery
 Number.IsOdd(82)

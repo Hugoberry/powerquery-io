@@ -25,7 +25,7 @@ Returns a table with Planview Portfolios data.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returns a table of Planview Portfolios information
 ```powerquery
 PlanviewEnterprise.Feed("https://contoso.com/planview", "pve")

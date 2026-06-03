@@ -19,7 +19,7 @@ BinaryFormat.Binary(
 
 ## Remarks
 
-İkili değeri okuyan bir ikili biçim döndürür. <code>length</code> belirtilirse, ikili değer bu kadar bayt içerecektir. <code>length</code> belirtilmezse, ikili değer kalan baytları içerecektir. <code>length</code>, bir sayı olarak veya ikili veriden önce gelen uzunluğun ikili biçimi olarak belirtilebilir.
+İkili değeri okuyan bir ikili biçim döndürür. `length` belirtilirse, ikili değer bu kadar bayt içerecektir. `length` belirtilmezse, ikili değer kalan baytları içerecektir. `length`, bir sayı olarak veya ikili veriden önce gelen uzunluğun ikili biçimi olarak belirtilebilir.
 
 
 

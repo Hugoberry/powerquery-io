@@ -19,13 +19,13 @@ List.AnyTrue(
 
 ## Remarks
 
-Retornará true alguma expressão na lista <code>list</code> for true.
+Retornará true alguma expressão na lista `list` for true.
 
 
 ## Examples
 
-### Example #1 
-Determina se alguma expressão na lista \{true, false, 2 &gt; 0} será true.
+### Example #1
+Determina se alguma expressão na lista \{true, false, 2 > 0\} será true.
 ```powerquery
 List.AnyTrue({true, false, 2>0})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Determina se alguma expressão na lista \{2 = 0, false, 2 &lt; 0} será true.
+### Example #2
+Determina se alguma expressão na lista \{2 = 0, false, 2 &lt; 0\} será true.
 ```powerquery
 List.AnyTrue({2 = 0, false, 2 < 0})
 ```

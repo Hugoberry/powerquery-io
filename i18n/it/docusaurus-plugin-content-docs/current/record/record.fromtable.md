@@ -5,7 +5,7 @@ title: Record.FromTable
 # Record.FromTable
 
 
-Crea un record da una tabella nel formato \{[Name = name, Value = value]}.
+Crea un record da una tabella nel formato \{\[Name = name, Value = value\]\}.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Record.FromTable(
 
 ## Remarks
 
-Restituisce un record da una tabella di record <code>table</code> contenenti i nomi di campi e i nomi di valori <code>\{[Name = name, Value = value]}</code>. Se i nomi di campi non sono univoci, viene generata un'eccezione.
+Restituisce un record da una tabella di record `table` contenenti i nomi campo e i nomi valore `{[Name = name, Value = value]}`. Se i nomi campo non sono univoci, viene generato un errore.
 
 
 ## Examples
 
-### Example #1 
-Creare un record dalla tabella nel formato Table.FromRecords(\{[Name = &#34;CustomerID&#34;, Value = 1], [Name = &#34;Name&#34;, Value = &#34;Bob&#34;], [Name = &#34;Phone&#34;, Value = &#34;123-4567&#34;]}).
+### Example #1
+Creare un record dalla tabella nel formato Table.FromRecords(\{\[Name = "CustomerID", Value = 1\], \[Name = "Name", Value = "Bob"\], \[Name = "Phone", Value = "123-4567"\]\}).
 ```powerquery
 Record.FromTable(
     Table.FromRecords({

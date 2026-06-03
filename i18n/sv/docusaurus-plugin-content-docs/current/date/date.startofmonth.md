@@ -19,12 +19,12 @@ Date.StartOfMonth(
 
 ## Remarks
 
-Returnerar början på den månad som innehåller <code>dateTime</code>.    <code>dateTime</code> måste vara ett <code>date</code>- eller <code>datetime-</code> värde.
+Returnerar början på den månad som innehåller `dateTime`. `dateTime` måste vara ett `date`\- eller `datetime-` värde.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta månadens början för den 10 oktober 2011 08:10:32.
 ```powerquery
 Date.StartOfMonth(#datetime(2011, 10, 10, 8, 10, 32))

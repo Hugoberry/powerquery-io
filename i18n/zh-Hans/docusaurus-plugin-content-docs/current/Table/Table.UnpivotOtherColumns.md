@@ -27,7 +27,7 @@ Table.UnpivotOtherColumns(
 
 ## Examples
 
-### Example #1 
+### Example #1
 将指定集以外的所有列转换为属性值对，并与每行中的剩余值合并。
 ```powerquery
 Table.UnpivotOtherColumns(

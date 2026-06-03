@@ -19,13 +19,13 @@ Type.ClosedRecord(
 
 ## Remarks
 
-Gibt eine geschlossene Version des angegebenen <code>Datensatzes</code> <code>type</code> zurück (bzw. denselben Typ, wenn dieser bereits geschlossen ist).
+Gibt eine geschlossene Version des angegebenen `Datensatzes` `type` zurück (bzw. denselben Typ, wenn dieser bereits geschlossen ist).
 
 
 ## Examples
 
-### Example #1 
-Erstellen Sie eine geschlossene Version von &lt;code&gt;type [ A = number,…]&lt;/code&gt;.
+### Example #1
+Erstellt eine geschlossene Version von `type [ A = number,...]`.
 ```powerquery
 Type.ClosedRecord(type [A = number, ...])
 ```

@@ -19,13 +19,13 @@ DateTime.FromFileTime(
 
 ## Remarks
 
-Tạo một giá trị <code>datetime</code> từ giá trị <code>fileTime</code> và chuyển đổi giá trị đó thành múi giờ địa phương. Filetime là giá trị thời gian tệp của Windows biểu thị số lượng quãng cách 100 nano giây đã trôi qua kể từ 12:00 giờ đêm, ngày 1 tháng 1 năm 1601 SCN. (C.E.) Giờ Quốc tế Phối hợp (UTC).
+Tạo một giá trị `datetime` từ giá trị `fileTime` và chuyển đổi giá trị đó thành múi giờ địa phương. Filetime là giá trị thời gian tệp của Windows biểu thị số lượng quãng cách 100 nano giây đã trôi qua kể từ 12:00 giờ đêm, ngày 1 tháng 1 năm 1601 SCN. (C.E.) Giờ Quốc tế Phối hợp (UTC).
 
 
 ## Examples
 
-### Example #1 
-Chuyển đổi &lt;code&gt;129876402529842245&lt;/code&gt; thành giá trị datetime.
+### Example #1
+Chuyển đổi `129876402529842245` thành giá trị datetime.
 ```powerquery
 DateTime.FromFileTime(129876402529842245)
 ```

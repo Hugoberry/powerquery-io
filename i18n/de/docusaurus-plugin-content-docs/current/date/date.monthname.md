@@ -20,12 +20,12 @@ Date.MonthName(
 
 ## Remarks
 
-Gibt den Namen der Monatskomponente für die Angabe "<code>date</code>" zurück. Optional kann auch ein Element vom Typ "<code>culture</code>" angegeben werden (Beispiel: "de-DE").
+Gibt den Namen der Monatskomponente für die Angabe "`date`" zurück. Optional kann auch ein Element vom Typ "`culture`" angegeben werden (Beispiel: "de-DE").
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ruft den Namen des Monats ab.
 ```powerquery
 Date.MonthName(#datetime(2011, 12, 31, 5, 0, 0), "en-US")

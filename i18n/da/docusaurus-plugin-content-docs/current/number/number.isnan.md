@@ -19,12 +19,12 @@ Number.IsNaN(
 
 ## Remarks
 
-Angiver, om værdien er NaN (ikke et tal). Returnerer <code>true</code>, hvis <code>number</code> er identisk med <code>Number.IsNaN</code>. Ellers returneres <code>false</code>.
+Indicates if the value is NaN (Not a number). Returns `true` if `number` is equivalent to `Number.NaN`, `false` otherwise.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kontrollér, om 0 divideret med 0 er NaN.
 ```powerquery
 Number.IsNaN(0/0)
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Kontrollér, om 1 divideret med 0 er NaN.
 ```powerquery
 Number.IsNaN(1/0)

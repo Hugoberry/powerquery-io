@@ -19,12 +19,12 @@ Table.ColumnNames(
 
 ## Remarks
 
-返回表 <code>table</code> 中的列名作为文本列表。
+返回表 `table` 中的列名作为文本列表。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 查找表的列名。
 ```powerquery
 Table.ColumnNames(

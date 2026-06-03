@@ -20,13 +20,30 @@ DateTimeZone.From(
 
 ## Remarks
 
-Retorna um valor <code>datetimezone</code> do <code>value</code> fornecido. Um <code>culture</code> opcional também pode ser fornecido (por exemplo, "en-US").Se o <code>value</code> fornecido for <code>null</code>, <code>DateTimeZone.From</code> retorna <code>null</code>. Se o <code>value</code> fornecido for <code>datetimezone</code>, <code>value</code> será retornado. Os valores dos seguintes tipos podem ser convertidos em um valor <code>datetimezone</code>:      <ul>        <li><code>text</code>: um valor <code>datetimezone</code> da representação textual. Consulte <code>DateTimeZone.FromText</code> para obter detalhes.</li>        <li><code>date</code>: um <code>datetimezone</code> com <code>value</code> como o componente de data, <code>12:00:00 AM</code> como o componente de hora e o deslocamento correspondente ao fuso horário local.</li>        <li><code>datetime</code>: um <code>datetimezone</code> com <code>value</code> como o datetime e o deslocamento correspondente ao fuso horário local.</li>        <li><code>time</code>: um <code>datetimezone</code> com o equivalente de data da Data de Automação OLE de <code>0</code> como o componente de data, <code>value</code> como o componente de hora e o deslocamento correspondente ao fuso horário local.</li>        <li><code>number</code>: um <code>datetimezone</code> com o equivalente datetime da Data de Automação OLE expresso por <code>value</code> e o deslocamento correspondente ao fuso horário local.</li>      </ul>Se <code>value</code> for de qualquer outro tipo, um erro será retornado.
+Cria um `datetimezone` do valor especificado.
+
+-   `value`: o valor usado para criar um `datetimezone`.
+-   `culture`: (opcional) a cultura a ser usada ao transformar o valor (por exemplo, "en-US").
+
+Os valores dos seguintes tipos podem ser convertidos em um valor `datetimezone`:
+
+-   `text`: retorna um valor `datetimezone` da representação textual. Confira `DateTimeZone.FromText` para obter detalhes.
+-   `date`: retorna um `datetimezone` com `value` como o componente de data, `12:00:00 AM` como o componente de hora, e o deslocamento correspondente ao fuso horário local.
+-   `datetime`: retorna um `datetimezone` com `value` como datetime, e o deslocamento correspondente ao fuso horário local.
+-   `datetimezone`: retorna `value`.
+-   `time`: retorna um `datetimezone` com a data equivalente à Data de Automação OLE de `0` como o componente de data, `value` como o componente de hora, e o deslocamento correspondente ao fuso horário local. A Data de Automação OLE consiste em um número de ponto flutuante cujo componente integral é o número de dias antes ou depois da meia-noite de 30 de dezembro de 1899 e cujo componente fracionário representa a hora nesse dia dividida por 24. Por exemplo, meia-noite de 31 de dezembro de 1899 é representado por 1,0; 6h, 1º de janeiro de 1900 é representado por 2,25; meia-noite de 29 de dezembro de 1899 é representado por -1,0; e 6h, 29 de dezembro de 1899 é representado por -1,25. O valor base é meia-noite, 30 de dezembro de 1899. O valor mínimo é meia-noite, 1º de janeiro de 0100. O valor máximo é o último momento de 31 de dezembro de 9999.
+-   `number`: retorna um `datetimezone` com o equivalente datetime da Data de Automação OLE expressa por `value`, e o deslocamento correspondente ao fuso horário local.
+-   `null`: retorna `null`.
+
+Se `value` for de qualquer outro tipo, um erro será retornado.  
+  
+O valor do deslocamento correspondente ao fuso horário local é diferente ao executar essa função localmente, em vez de executá-la online. Quando executado localmente, o fuso horário local é retornado. Quando executado online, o fuso horário UTC (+00:00) é retornado.
 
 
 ## Examples
 
-### Example #1 
-Converta &lt;code&gt;&#34;2020-10-30T01:30:00-08:00&#34;&lt;/code&gt; em um valor &lt;code&gt;datetimezone&lt;/code&gt;.
+### Example #1
+Converta a representação textual de uma data, hora e fuso horário em um valor `datetimezone`.
 ```powerquery
 DateTimeZone.From("2020-10-30T01:30:00-08:00")
 ```
@@ -34,6 +51,30 @@ DateTimeZone.From("2020-10-30T01:30:00-08:00")
 Result: 
 ```powerquery
 #datetimezone(2020, 10, 30, 01, 30, 00, -8, 00)
+```
+
+
+### Example #2
+Converta a representação textual de data, hora e fuso horário em um valor `datetimezone`.
+```powerquery
+DateTimeZone.From("13 de agosto de 2025 15:43:00 -03:00", "pt-BR")
+```
+
+Result: 
+```powerquery
+#datetimezone(2025, 08, 13, 15, 43, 00, -3, 00)
+```
+
+
+### Example #3
+Converta um número que representa 1º de janeiro de 2025 às 12h em um valor `datetimezone`. O fuso horário no resultado depende se o exemplo é executado localmente ou online.
+```powerquery
+DateTimeZone.From(45658.5)
+```
+
+Result: 
+```powerquery
+#datetimezone(2025, 01, 01, 12, 00, 00, 0, 00)
 ```
 
 

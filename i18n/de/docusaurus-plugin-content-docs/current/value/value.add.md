@@ -21,7 +21,7 @@ Value.Add(
 
 ## Remarks
 
-Gibt die Summe von <code>value1</code> und <code>value2</code> zurück. Ein optionaler Parameter (<code>precision</code>) kann angegeben werden. Standardmäßig wird <code>Precision.Double</code> verwendet.
+Gibt die Summe von `value1` und `value2` zurück. Ein optionaler Parameter (`precision`) kann angegeben werden. Standardmäßig wird `Precision.Double` verwendet.
 
 
 

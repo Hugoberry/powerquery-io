@@ -22,13 +22,21 @@ Text.PositionOf(
 
 ## Remarks
 
-Devolve a posição da ocorrência especificada do valor de texto <code>substring</code> encontrado em <code>text</code>.    É possível utilizar um parâmetro opcional <code>occurrence</code> para especificar a posição da ocorrência a devolver (primeira ocorrência por predefinição).    Devolve -1 se <code>substring</code> não tiver sido encontrado.      <div>         <code>comparer</code> é um <code>Comparer</code> que é utilizado no controlo da comparação. Os comparadores podem ser utilizados para fornecer comparações não sensíveis a maiúsculas/minúsculas ou baseadas na cultura ou na região.      </div>      <div>        Os comparadores incorporados seguintes estão disponíveis na linguagem da fórmula:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: utilizado para executar uma comparação ordinal exata</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: utilizado para executar uma comparação ordinal exata não sensível a maiúsculas/minúsculas</li>        <li> <code>Comparer.FromCulture</code>: utilizado para executar uma comparação baseada na cultura</li>      </ul>
+Devolve a posição da ocorrência especificada do valor de texto `substring` encontrado em `text`. É possível utilizar um parâmetro opcional `occurrence` para especificar a posição da ocorrência a devolver (primeira ocorrência por predefinição). Devolve -1 se `substring` não tiver sido encontrado.
+
+`comparer` é um `Comparer` que é utilizado no controlo da comparação. Os comparadores podem ser utilizados para fornecer comparações não sensíveis a maiúsculas/minúsculas ou baseadas na cultura ou na região.
+
+Os comparadores incorporados seguintes estão disponíveis na linguagem da fórmula:
+
+-   `Comparer.Ordinal`: utilizado para executar uma comparação ordinal exata
+-   `Comparer.OrdinalIgnoreCase`: utilizado para executar uma comparação ordinal exata não sensível a maiúsculas/minúsculas
+-   `Comparer.FromCulture`: utilizado para executar uma comparação baseada na cultura
 
 
 ## Examples
 
-### Example #1 
-Obter a posição da primeira ocorrência de &#34;Mundo&#34; no texto &#34;Olá, Mundo! Olá, Mundo!&#34;.
+### Example #1
+Obter a posição da primeira ocorrência de "Mundo" no texto "Olá, Mundo! Olá, Mundo!".
 ```powerquery
 Text.PositionOf("Hello, World! Hello, World!", "World")
 ```
@@ -39,8 +47,8 @@ Result:
 ```
 
 
-### Example #2 
-Obter a posição da última ocorrência de &#34;Mundo&#34; em &#34;Olá, Mundo! Olá, Mundo!&#34;.
+### Example #2
+Obter a posição da última ocorrência de "World" em "Hello, World! Hello, World!".
 ```powerquery
 Text.PositionOf("Hello, World! Hello, World!", "World", Occurrence.Last)
 ```

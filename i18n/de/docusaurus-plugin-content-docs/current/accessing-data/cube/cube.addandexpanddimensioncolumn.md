@@ -5,7 +5,7 @@ title: Cube.AddAndExpandDimensionColumn
 # Cube.AddAndExpandDimensionColumn
 
 
-Führt die angegebene Dimensionstabelle mit dem Filterkontext des Cubes zusammen und ändert die Dimensionsgranularität des Filterkontexts, indem der angegebene Satz von Dimensionsattributen erweitert wird.
+Führt die angegebene Dimensionstabelle in den Filterkontext des Cubes zusammen und ändert die Dimensionsgranularität des Filterkontexts, indem der angegebene Satz von Dimensionsattributen erweitert wird.
 
 
 ## Syntax
@@ -22,7 +22,7 @@ Cube.AddAndExpandDimensionColumn(
 
 ## Remarks
 
-Führt die angegebene Dimensionstabelle '<code>dimensionSelector</code>' mit dem Filterkontext des Cubes '<code>cube</code>' zusammen und ändert die Dimensionsgranularität, indem der angegebene Satz '<code>attributeNames</code>' von Dimensionsattributen erweitert wird. Die Dimensionsattribute werden der tabellarischen Sicht mit dem Spaltennamen '<code>newColumnNames</code>' oder '<code>attributeNames</code>' hinzugefügt, falls keine angegeben wurde.
+Führt die angegebene Dimensionstabelle „`dimensionSelector`“ mit dem Filterkontext des Cubes „`cube`“ zusammen und ändert die Dimensionsgranularität, indem der angegebene Satz „`attributeNames`“ von Dimensionsattributen erweitert wird. Die Dimensionsattribute werden der tabellarischen Sicht mit dem Spaltennamen „`newColumnNames`“ oder „`attributeNames`“ hinzugefügt, falls keine angegeben wurde.
 
 
 

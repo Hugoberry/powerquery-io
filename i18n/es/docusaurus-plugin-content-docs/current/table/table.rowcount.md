@@ -19,12 +19,12 @@ Table.RowCount(
 
 ## Remarks
 
-Devuelve el número de filas de la <code>table</code>.
+Devuelve el número de filas de la `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Buscar el número de filas de la tabla.
 ```powerquery
 Table.RowCount(

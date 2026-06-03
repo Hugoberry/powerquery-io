@@ -21,13 +21,17 @@ Record.TransformFields(
 
 ## Remarks
 
-Returnerar en post när transformeringarna som anges i listan <code>transformOperations</code> har tillämpats på <code>record</code>.    Ett eller flera fält kan transformeras samtidigt.      <div>När det gäller ett enskilt fält som transformeras förväntas <code>transformOperations</code> vara en lista med två objekt. Det första objektet i <code>transformOperations</code> anger ett fältnamn och det andra objektet i <code>transformOperations</code> anger funktionen som ska användas för transformeringen. Till exempel: <code>\{"Quantity", Number.FromText}</code></div>      <div>När det gäller flera fält som transformeras förväntas <code>transformOperations</code> vara en lista med listor, där varje inre lista är ett par bestående av fältnamn och transformeringsåtgärd. Till exempel: <code>\{\{"Quantity",Number.FromText},\{"UnitPrice", Number.FromText}}</code></div>
+Returnerar en post när transformeringarna som anges i listan `transformOperations` har tillämpats på `record`. Ett eller flera fält kan transformeras samtidigt.
+
+När det gäller ett enskilt fält som transformeras förväntas `transformOperations` vara en lista med två objekt. Det första objektet i `transformOperations` anger ett fältnamn och det andra objektet i `transformOperations` anger funktionen som ska användas för transformeringen. Till exempel: `{"Quantity", Number.FromText}`
+
+När det gäller flera fält som transformeras förväntas `transformOperations` vara en lista med listor, där varje inre lista är ett par bestående av fältnamn och transformeringsåtgärd. Till exempel: `{{"Quantity",Number.FromText},{"UnitPrice", Number.FromText}}`
 
 
 ## Examples
 
-### Example #1 
-Konverterar fältet &#34;Price&#34; till ett tal.
+### Example #1
+Konverterar fältet "Price" till ett tal.
 ```powerquery
 Record.TransformFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = "100.0"],
@@ -41,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Konverterar OrderID- och Price-fälten till nummer.
 ```powerquery
 Record.TransformFields(

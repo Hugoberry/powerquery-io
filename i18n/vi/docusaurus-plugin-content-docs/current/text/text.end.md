@@ -20,13 +20,13 @@ Text.End(
 
 ## Remarks
 
-Trả về giá trị <code>text</code> là các ký tự <code>count</code> cuối cùng của giá trị <code>text</code> <code>text</code>.
+Trả về giá trị `text` là các ký tự `count` cuối cùng của giá trị `text` `text`.
 
 
 ## Examples
 
-### Example #1 
-Nhận 5 ký tự cuối cùng của văn bản &#34;Hello, World&#34;.
+### Example #1
+Nhận 5 ký tự cuối cùng của văn bản "Hello, World".
 ```powerquery
 Text.End("Hello, World", 5)
 ```

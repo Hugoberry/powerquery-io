@@ -21,12 +21,12 @@ Record.RemoveFields(
 
 ## Remarks
 
-Returnerar en post som tar bort alla fält som anges i listan <code>fields</code> från indataposten <code>record</code>. Om det angivna fältet inte finns genereras ett undantag.
+Returnerar en post som tar bort alla fält som anges i listan `fields` från indataposten `record`. Om det angivna fältet inte finns genereras ett undantag.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ta bort fältet Price från posten.
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], "Price")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Ta bort fälten Price och Item från posten.
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], {"Price", "Item"})

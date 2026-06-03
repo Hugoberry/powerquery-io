@@ -19,12 +19,12 @@ Duration.TotalMinutes(
 
 ## Remarks
 
-<code>duration</code> द्वारा विस्तारित कुल मिनट लौटाता है.
+`duration` द्वारा विस्तारित कुल मिनट लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 अवधि मान द्वारा विस्तारित कुल मिनट ढूँढें.
 ```powerquery
 Duration.TotalMinutes(#duration(5, 4, 3, 2))

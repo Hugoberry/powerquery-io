@@ -22,13 +22,13 @@ Table.AddRankColumn(
 
 ## Remarks
 
-将名为“<code>newColumnName</code>”的列追加到<code>table</code>，并使用由<code>comparisonCriteria</code>描述的一个或多个其他列进行排名。高级用户可以使用<code>options</code>中的 RankKind 选项来选择更具体的排名方法。
+将名为“`newColumnName`”的列追加到`table`，并使用由`comparisonCriteria`描述的一个或多个其他列进行排名。 高级用户可以使用`options`中的 RankKind 选项来选择更具体的排名方法。
 
 
 ## Examples
 
-### Example #1 
-向表中添加名为 &#34;RevenueRank&#34; 的列，以便对 &#34;Revenue&#34; 列进行从高到低的排名。
+### Example #1
+向表中添加名为 "RevenueRank" 的列，以便对 "Revenue" 列进行从高到低的排名。
 ```powerquery
 Table.AddRankColumn(
     Table.FromRecords({

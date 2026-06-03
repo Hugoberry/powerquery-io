@@ -25,12 +25,25 @@ Table.Join(
 
 ## Remarks
 
-Nối các hàng <code>table1</code> với các hàng <code>table2</code> dựa trên các giá trị bằng nhau trong các cột khóa được chọn bởi <code>key1</code> (cho <code>table1</code>) và <code>key2</code> (cho <code>table2</code>).<br />Theo mặc định, loại nối trong sẽ được thực hiện, tuy nhiên, có thể bao gồm <code>joinKind</code> tùy chọn để chỉ định loại nối. Các tùy chọn gồm có:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Có thể bao gồm tập hợp <code>keyEqualityComparers</code> tùy chọn để chỉ định cách so sánh các cột khóa. Tham số này hiện chỉ dành để sử dụng nội bộ.<br />
+Nối các hàng `table1` với các hàng `table2` dựa trên các giá trị bằng nhau trong các cột khóa được chọn bởi `key1` (cho `table1`) và `key2` (cho `table2`).
+
+Theo mặc định, loại nối trong sẽ được thực hiện, tuy nhiên, có thể bao gồm `joinKind` tùy chọn để chỉ định loại nối. Các tùy chọn gồm có:
+
+-   `JoinKind.Inner`
+-   `JoinKind.LeftOuter`
+-   `JoinKind.RightOuter`
+-   `JoinKind.FullOuter`
+-   `JoinKind.LeftAnti`
+-   `JoinKind.RightAnti`
+-   `JoinKind.LeftSemi`
+-   `JoinKind.RightSemi`
+
+Có thể bao gồm tập hợp `keyEqualityComparers` tùy chọn để chỉ định cách so sánh các cột khóa. Tham số này hiện chỉ dành để sử dụng nội bộ.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kết hợp hai bảng bằng một cột khóa duy nhất.
 ```powerquery
 Table.Join(
@@ -67,7 +80,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Nối hai bảng có tên cột xung đột, sử dụng nhiều cột khóa.
 ```powerquery
 let

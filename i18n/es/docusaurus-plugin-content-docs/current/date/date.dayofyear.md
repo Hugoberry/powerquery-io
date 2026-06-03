@@ -19,12 +19,12 @@ Date.DayOfYear(
 
 ## Remarks
 
-Devuelve un número que representa el día del año en el valor de <code>date</code>, <code>datetime</code> o <code>datetimezone</code>, <code>dateTime</code>.
+Devuelve un número que representa el día del año en el valor de `date`, `datetime` o `datetimezone`, `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Día del año del 1 de marzo de 2011.
 ```powerquery
 Date.DayOfYear(#date(2011, 03, 01))

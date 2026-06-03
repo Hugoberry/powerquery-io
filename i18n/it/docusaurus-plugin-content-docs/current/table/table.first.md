@@ -20,12 +20,12 @@ Table.First(
 
 ## Remarks
 
-Restituisce la prima riga di <code>table</code> o il valore predefinito facoltativo <code>default</code>, se la tabella è vuota.
+Restituisce la prima riga di `table` o il valore predefinito facoltativo `default`, se la tabella è vuota.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trovare la prima riga della tabella.
 ```powerquery
 Table.First(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-Trovare la prima riga della tabella &lt;code&gt;(\{})&lt;/code&gt; o restituire [a = 0, b = 0] se vuota.
+### Example #2
+Trovare la prima riga della tabella `({})` o restituire \[a = 0, b = 0\] se vuota.
 ```powerquery
 Table.First(Table.FromRecords({}), [a = 0, b = 0])
 ```

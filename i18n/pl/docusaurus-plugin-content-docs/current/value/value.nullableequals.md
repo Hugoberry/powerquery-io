@@ -21,7 +21,7 @@ Value.NullableEquals(
 
 ## Remarks
 
-Zwraca wartość null, jeśli dowolny z argumentów „<code>value1</code>” i „<code>value2</code>” ma wartość null; w przeciwnym razie działa jak funkcja Value.Equals.
+Zwraca wartość null, jeśli dowolny z argumentów „`value1`” lub „`value2`” ma wartość null; w przeciwnym razie działa jak funkcja Value.Equals.
 
 
 

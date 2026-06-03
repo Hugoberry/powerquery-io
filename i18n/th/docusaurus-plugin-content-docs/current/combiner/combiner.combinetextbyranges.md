@@ -25,7 +25,7 @@ Combiner.CombineTextByRanges(
 
 ## Examples
 
-### Example #1 
+### Example #1
 รวมรายการของค่าข้อความโดยใช้ตำแหน่งผลลัพธ์และความยาวที่ระบุ
 ```powerquery
 Combiner.CombineTextByRanges({{0, 1}, {3, 2}, {6, null}})({"abc", "def", "ghijkl"})

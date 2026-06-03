@@ -22,13 +22,18 @@ Table.PositionOfAny(
 
 ## Remarks
 
-Devuelve las posiciones de las filas de <code>table</code> de la primera repetición de la lista de <code>rows</code>. Devuelve -1 si no se encuentra ninguna repetición.    <ul>    <li><code>table</code>: la tabla de entrada.</li>       <li><code>rows</code>: la lista de filas de la tabla en las que buscar las posiciones.</li>       <li><code>occurrence</code>: <i>[opcional]</i> especifica las repeticiones de la fila que se devolverán.</li>       <li><code>equationCriteria</code>: <i>[opcional]</i> controla la comparación entre las filas de la tabla.</li>    </ul>    
+Devuelve las posiciones de las filas de `table` de la primera repetición de la lista de `rows`. Devuelve -1 si no se encuentra ninguna aparición.
+
+-   `table`: la tabla de entrada.
+-   `rows`: la lista de filas de la tabla de las que se van a buscar las posiciones.
+-   `occurrence`: *(Opcional)* especifica qué apariciones de la fila se van a devolver.
+-   `equationCriteria`: *(Opcional)* controla la comparación entre las filas de la tabla.
 
 
 ## Examples
 
-### Example #1 
-Buscar la posición de la primera coincidencia [a = 2, b = 4] o [a = 6, b = 8] en la tabla &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #1
+Buscar la posición de la primera coincidencia \[a = 2, b = 4\] o \[a = 6, b = 8\] en la tabla `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOfAny(
     Table.FromRecords({
@@ -50,8 +55,8 @@ Result:
 ```
 
 
-### Example #2 
-Buscar la posición de todas las coincidencias de [a = 2, b = 4] o [a = 6, b = 8] en la tabla &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]}&lt;/code&gt;.
+### Example #2
+Buscar la posición de todas las coincidencias de \[a = 2, b = 4\] o \[a = 6, b = 8\] en la tabla `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]}`.
 ```powerquery
 Table.PositionOfAny(
     Table.FromRecords({

@@ -22,12 +22,17 @@ Table.ReplaceRows(
 
 ## Remarks
 
-Zamienia określoną liczbę wierszy (<code>count</code>) w tabeli wejściowej (<code>table</code>) na określoną liczbę wierszy (<code>rows</code>), zaczynając po wierszach określonych przez parametr <code>offset</code>. Wartość parametru <code>rows</code> to lista rekordów.    <ul>       <li><code>table</code>: Tabela, w której jest wykonywana operacja zamiany.</li>       <li><code>offset</code>: Liczba wierszy, które mają zostać pominięte przed rozpoczęciem zamiany.</li>       <li><code>count</code>: Liczba wierszy do zamiany.</li>       <li><code>rows</code>: Lista rekordów wierszy, które mają zostać wstawione do tabeli <code>table</code> w lokalizacji określonej przez parametr <code>offset</code>.</li>    </ul>
+Zamienia określoną liczbę wierszy (`count`) w tabeli wejściowej (`table`) na określoną liczbę wierszy (`rows`), zaczynając po wierszach określonych przez parametr `offset`. Wartość parametru `rows` to lista rekordów.
+
+-   `table`: Tabela, w której jest wykonywana operacja zamiany.
+-   `offset`: Liczba wierszy, które mają zostać pominięte przed rozpoczęciem zamiany.
+-   `count`: Liczba wierszy do zamiany.
+-   `rows`: Lista rekordów wierszy, które mają zostać wstawione do tabeli `table` w lokalizacji określonej przez parametr `offset`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zaczynając od pozycji 1, zamień 3 wiersze.
 ```powerquery
 Table.ReplaceRows(

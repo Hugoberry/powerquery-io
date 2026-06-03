@@ -20,7 +20,7 @@ BinaryFormat.ByteOrder(
 
 ## Remarks
 
-Trả về một định dạng nhị phân có thứ tự byte do <code>binaryFormat</code> chỉ định.  Thứ tự byte mặc định là <code>ByteOrder.BigEndian</code>.
+Trả về một định dạng nhị phân có thứ tự byte do `binaryFormat` chỉ định. Thứ tự byte mặc định là `ByteOrder.BigEndian`.
 
 
 

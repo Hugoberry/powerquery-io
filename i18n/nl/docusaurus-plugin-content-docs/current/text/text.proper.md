@@ -20,13 +20,13 @@ Text.Proper(
 
 ## Remarks
 
-Hiermee wordt het resultaat geretourneerd van de conversie van de eerste letter van elk woord naar een hoofdletter in tekstwaarde <code>text</code>. Alle andere letters worden geretourneerd als kleine letters. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
+Hiermee wordt het resultaat geretourneerd van de conversie van de eerste letter van elk woord naar een hoofdletter in tekstwaarde `text`. Alle andere letters worden geretourneerd als kleine letters. Er kan ook een optionele `culture` worden opgegeven (bijvoorbeeld: nl-NL).
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;Text.Proper&lt;/code&gt; op een eenvoudige zin gebruiken.
+### Example #1
+`Text.Proper` op een eenvoudige zin gebruiken.
 ```powerquery
 Text.Proper("the QUICK BrOWn fOx jUmPs oVER tHe LAzy DoG")
 ```

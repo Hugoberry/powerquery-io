@@ -24,7 +24,7 @@ Demotes the column headers (i.e. column names) to the first row of values. The d
 
 ## Examples
 
-### Example #1 
+### Example #1
 Demote the first row of values in the table.
 ```powerquery
 Table.DemoteHeaders(

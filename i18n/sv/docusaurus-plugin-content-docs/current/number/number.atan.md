@@ -19,7 +19,7 @@ Number.Atan(
 
 ## Remarks
 
-Returnerar arctangens för <code>number</code>.
+Returnerar arctangens för `number`.
 
 
 

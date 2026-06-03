@@ -27,7 +27,7 @@ Foretager et kald til det angivne slutpunkt for Webtrends-rapportering og return
 
 ## Examples
 
-### Example #1 
+### Example #1
 Foretager et kald til slutpunktet for data i Webtrends-besøgsrapporten inden for de seneste 30 dage
 ```powerquery
 Webtrends.ReportContents("98765", "xPcmTDDP0P6")

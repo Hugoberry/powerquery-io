@@ -22,12 +22,17 @@ Table.ReplaceRows(
 
 ## Remarks
 
-Ersätter angivet antal rader, <code>count</code>, i angivna indata, <code>table</code>, med angivet <code>rows</code>, med början efter <code>offset</code>. Parametern <code>rows</code> är en lista med poster.    <ul>       <li><code>table</code>: Tabellen där ersättningen utförs.</li>       <li><code>offset</code>: Antalet rader som ska hoppas över innan ersättningen görs.</li>       <li><code>count</code>: Antalet rader som ska ersättas.</li>       <li><code>rows</code>: Listan med radposter som ska infogas i <code>table</code> vid positionen som anges av <code>offset</code>.</li>    </ul>
+Ersätter angivet antal rader, `count`, i angivna indata, `table`, med angivet `rows`, med början efter `offset`. Parametern `rows` är en lista med poster.
+
+-   `table`: Tabellen där ersättningen utförs.
+-   `offset`: Antalet rader som ska hoppas över innan ersättningen görs.
+-   `count`: Antalet rader som ska ersättas.
+-   `rows`: Listan med radposter som ska infogas i `table` vid positionen som anges av `offset`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Startar vid position 1, ersätter 3 rader.
 ```powerquery
 Table.ReplaceRows(

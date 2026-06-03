@@ -19,7 +19,7 @@ Number.Sinh(
 
 ## Remarks
 
-<code>number</code> değerinin hiperbolik sinüsünü döndürür.
+`number` değerinin hiperbolik sinüsünü döndürür.
 
 
 

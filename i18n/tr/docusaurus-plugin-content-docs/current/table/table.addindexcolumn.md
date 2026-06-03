@@ -23,13 +23,13 @@ Table.AddIndexColumn(
 
 ## Remarks
 
-<code>newColumnName</code> adlı bir sütunu, <code>table</code> öğesine açık konum değerleri ile ekler.    <code>initialValue</code> isteğe bağlı değeri ilk dizin değerini belirtir. <code>increment</code> isteğe bağlı değeri, her dizin değerinin ne kadar artırılacağını belirtir.
+`newColumnName` adlı bir sütunu, `table` öğesine açık konum değerleri ile ekler. `initialValue` isteğe bağlı değeri ilk dizin değerini belirtir. `increment` isteğe bağlı değeri, her dizin değerinin ne kadar artırılacağını belirtir.
 
 
 ## Examples
 
-### Example #1 
-Tabloya &#34;Index&#34; adlı bir dizin sütunu ekler.
+### Example #1
+Tabloya "Index" adlı bir dizin sütunu ekler.
 ```powerquery
 Table.AddIndexColumn(
     Table.FromRecords({
@@ -53,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Tabloya, 10 değeri ile başlayarak 5&#39;er 5&#39;er artacak şekilde &#34;index&#34; adlı bir dizin sütunu ekler.
+### Example #2
+Tabloya, 10 değeri ile başlayarak 5'er 5'er artacak şekilde "index" adlı bir dizin sütunu ekler.
 ```powerquery
 Table.AddIndexColumn(
     Table.FromRecords({

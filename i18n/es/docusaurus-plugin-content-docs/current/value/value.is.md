@@ -25,7 +25,7 @@ Determina si un valor es compatible con el tipo especificado. Esto es equivalent
 
 ## Examples
 
-### Example #1 
+### Example #1
 Compare dos maneras de determinar si un número es compatible con el tipo número.
 ```powerquery
 Value.Is(123, Number.Type) = (123 is number)

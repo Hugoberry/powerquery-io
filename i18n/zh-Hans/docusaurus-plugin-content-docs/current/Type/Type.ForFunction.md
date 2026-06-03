@@ -20,12 +20,12 @@ Type.ForFunction(
 
 ## Remarks
 
-从 <code>signature</code>、<code>ReturnType</code> 和 <code>Parameters</code>、<code>min</code> 以及调用函数所需参数的最小数目中创建 <code>function type</code>。
+从 `signature`、`ReturnType` 和 `Parameters`、`min` 以及调用函数所需参数的最小数目中创建 `function type`。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 为需要使用 X 数字参数并返回数字的函数创建类型。
 ```powerquery
 Type.ForFunction([ReturnType = type number, Parameters = [X = type number]], 1)

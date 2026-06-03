@@ -21,12 +21,12 @@ Table.Range(
 
 ## Remarks
 
-Gibt die Zeilen aus dem Element vom Typ "<code>table</code>" ab dem angegebenen Wert (<code>offset</code>) zurück. Die Anzahl der zurückzugebenden Zeilen kann mit dem optionalen Parameter "<code>count</code>" angegeben werden. Standardmäßig werden alle Zeilen nach dem Offset zurückgegeben.
+Gibt die Zeilen aus dem Element vom Typ "`table`" ab dem angegebenen Wert (`offset`) zurück. Die Anzahl der zurückzugebenden Zeilen kann mit dem optionalen Parameter "`count`" angegeben werden. Standardmäßig werden alle Zeilen nach dem Offset zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gibt alle Zeilen ab dem Offset 1 aus der Tabelle zurück.
 ```powerquery
 Table.Range(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Gibt eine Zeile ab dem Offset 1 aus der Tabelle zurück.
 ```powerquery
 Table.Range(

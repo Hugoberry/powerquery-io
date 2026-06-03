@@ -19,12 +19,14 @@ Number.Cos(
 
 ## Remarks
 
-傳回 <code>number</code> 的餘弦值。
+傳回指定角度的餘弦值。
+
+-   `number`: 以弧度為單位測量的角度。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 找出角度 0 的餘弦值。
 ```powerquery
 Number.Cos(0)
@@ -33,6 +35,18 @@ Number.Cos(0)
 Result: 
 ```powerquery
 1
+```
+
+
+### Example #2
+求 π 弧度的餘弦值。
+```powerquery
+Number.Cos(Number.PI)
+```
+
+Result: 
+```powerquery
+-1
 ```
 
 

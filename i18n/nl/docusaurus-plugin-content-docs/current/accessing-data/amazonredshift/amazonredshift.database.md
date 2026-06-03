@@ -21,12 +21,15 @@ AmazonRedshift.Database(
 
 ## Remarks
 
-Retourneert een tabel met de tabellen in het Amazon Redshift-cluster <code>server</code> in de database <code>database</code>.  Er kan een optionele recordparameter, <code>options</code>, worden opgegeven om de volgende opties te beheren:<ul><li><code>Providernaam</code>: een tekstwaarde die moet worden gebruikt als providernaam voor de verbinding. Dit wordt gebruikt bij het gebruik van Microsoft Authentication.</li><li><code>Batch Size</code>: het aantal rijen dat wordt opgehaald in één aanroep naar de server.</li></ul>  
+Retourneert een tabel met de tabellen in het Amazon Redshift-cluster `server` in de database `database`. De optionele recordparameter `options` kan worden opgegeven om de volgende opties te beheren:
+
+-   `Providernaam`: een tekstwaarde die moet worden gebruikt als providernaam voor de verbinding. Deze wordt gebruikt bij het gebruik van Microsoft-verificatie.
+-   `Batchgrootte`: het aantal rijen dat in één aanroep naar de server wordt opgehaald.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 
 ```powerquery
 AmazonRedshift.Database("contoso.redshift.amazonaws.com:5439", "dev")

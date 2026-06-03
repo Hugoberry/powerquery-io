@@ -21,12 +21,12 @@ Table.RemoveRows(
 
 ## Remarks
 
-指定された <code>offset</code> を開始位置として、<code>table</code> の先頭から <code>count</code> 行を削除します。<code>count</code> パラメーターが指定されていない場合は、既定の数である 1 が使用されます。
+指定された `offset` を開始位置として、`table` の先頭から `count` 行を削除します。`count` パラメーターが指定されていない場合は、既定の数である 1 が使用されます。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 先頭行をテーブルから削除します。
 ```powerquery
 Table.RemoveRows(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 位置 1 の行をテーブルから削除します。
 ```powerquery
 Table.RemoveRows(
@@ -74,7 +74,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 位置 1 からの 2 行をテーブルから削除します。
 ```powerquery
 Table.RemoveRows(

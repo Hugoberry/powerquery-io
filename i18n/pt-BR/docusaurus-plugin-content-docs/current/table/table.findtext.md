@@ -20,13 +20,13 @@ Table.FindText(
 
 ## Remarks
 
-Retorna as linhas da tabela <code>table</code> que contêm o texto <code>text</code>. Se o texto não for encontrado, uma tabela vazia será retornada.
+Retorna as linhas da tabela `table` que contêm o texto `text`. Se o texto não for encontrado, uma tabela vazia será retornada.
 
 
 ## Examples
 
-### Example #1 
-Localizar as linhas da tabela que contém &#34;Bob&#34;.
+### Example #1
+Localizar as linhas da tabela que contém "Bob".
 ```powerquery
 Table.FindText(
     Table.FromRecords({

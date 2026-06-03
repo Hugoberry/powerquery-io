@@ -19,12 +19,12 @@ Number.Sqrt(
 
 ## Remarks
 
-<code>number</code> の平方根を返します。    <code>number</code> が null の場合、<code>Number.Sqrt</code> は null を返します。負の値の場合は、<code>Number.NaN</code> を返します (数値ではありません)。
+`number` の平方根を返します。 `number` が null の場合、`Number.Sqrt` は null を返します。負の値の場合は、`Number.NaN` を返します (数値ではありません)。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 625 の平方根を求めます。
 ```powerquery
 Number.Sqrt(625)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 85 の平方根を求めます。
 ```powerquery
 Number.Sqrt(85)

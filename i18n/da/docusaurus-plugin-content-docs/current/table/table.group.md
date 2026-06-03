@@ -23,13 +23,19 @@ Table.Group(
 
 ## Remarks
 
-Grupperer rækkerne i <code>table</code> efter de nøglekolonner, der er defineret af <code>key</code>. <code>key</code> kan enten være et enkelt kolonnenavn eller en liste af kolonnenavne. For hver gruppe oprettes en post, der indeholder nøglekolonnerne (og deres værdier) sammen med de aggregerede kolonner, som er angivet af <code>aggregatedColumns</code>.   Valgfrit kan angives <code>groupKind</code> og <code>comparer</code>. <br />    <br />    Hvis data allerede er sorteret efter nøglekolonnerne, kan der angives en <code>groupKind</code> af GroupKind. Lokal kan angives. Dette kan forbedre ydeevne ved gruppering i visse tilfælde,    eftersom alle rækker med et bestemt sæt nøgleværdier antages at være sammenhængende.<br />    <br />    Ved overførsel af en <code>comparer</code>, skal du være opmærksom på, at en række kan placeres i en gruppe, hvis nøgler er anderledes end dens egne.<br />    <br />    Denne funktion garanterer ikke rækkefølgen af de rækker, den returnerer.  
+Grupperer rækkerne i `table` efter de nøglekolonner, der er defineret af `key`. `key` kan enten være et enkelt kolonnenavn eller en liste af kolonnenavne. For hver gruppe oprettes en post, der indeholder nøglekolonnerne (og deres værdier) sammen med de aggregerede kolonner, som er angivet af `aggregatedColumns`. Valgfrit kan angives `groupKind` og `comparer`.  
+  
+Hvis data allerede er sorteret efter nøglekolonnerne, kan der angives en `groupKind` af GroupKind. Lokal kan angives. Dette kan forbedre ydeevne ved gruppering i visse tilfælde, eftersom alle rækker med et bestemt sæt nøgleværdier antages at være sammenhængende.  
+  
+Ved overførsel af en `comparer`, skal du være opmærksom på, at en række kan placeres i en gruppe, hvis nøgler er anderledes end dens egne.  
+  
+Denne funktion garanterer ikke rækkefølgen af de rækker, den returnerer.
 
 
 ## Examples
 
-### Example #1 
-Gruppér tabellen ved at tilføje en aggregeringskolonne [total], som indeholder summen af priser (&#34;each List.Sum([price])&#34;).
+### Example #1
+Gruppér tabellen ved at tilføje en aggregeringskolonne \[total\], som indeholder summen af priser ("each List.Sum(\[price\])").
 ```powerquery
 Table.Group(
     Table.FromRecords({

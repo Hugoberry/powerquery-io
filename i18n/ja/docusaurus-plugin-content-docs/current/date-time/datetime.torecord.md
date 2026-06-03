@@ -19,13 +19,15 @@ DateTime.ToRecord(
 
 ## Remarks
 
-指定された datetime 値 (<code>dateTime</code>) の部分を含むレコードを返します。 <ul>        <li><code>dateTime</code>: その部分のレコードが計算される <code>datetime</code> 値。</li>      </ul>
+指定された datetime 値 (`dateTime`) の部分を含むレコードを返します。
+
+-   `dateTime`: その部分のレコードが計算される `datetime` 値。
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;#datetime(2011, 12, 31, 11, 56, 2)&lt;/code&gt; 値を、日付および時刻値を含むレコードに変換します。
+### Example #1
+`#datetime(2011, 12, 31, 11, 56, 2)` 値を、日付および時刻値を含むレコードに変換します。
 ```powerquery
 DateTime.ToRecord(#datetime(2011, 12, 31, 11, 56, 2))
 ```

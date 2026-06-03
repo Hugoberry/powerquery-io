@@ -21,13 +21,13 @@ Table.Min(
 
 ## Remarks
 
-Retorna a linha menor na <code>table</code>, com base na <code>comparisonCriteria</code>. Se a tabela estiver vazia, o valor <code>default</code> opcional será retornado.
+Retorna a linha menor na `table`, com base na `comparisonCriteria`. Se a tabela estiver vazia, o valor `default` opcional será retornado.
 
 
 ## Examples
 
-### Example #1 
-Localizar a linha com o menor valor na coluna [a] da tabela.
+### Example #1
+Localizar a linha com o menor valor na coluna \[a\] da tabela.
 ```powerquery
 Table.Min(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Localizar a linha com o menor valor na coluna [a] da tabela. Retorna -1 se vazia.
+### Example #2
+Localizar a linha com o menor valor na coluna \[a\] da tabela. Retorna -1 se vazia.
 ```powerquery
 Table.Min(#table({"a"}, {}), "a", -1)
 ```

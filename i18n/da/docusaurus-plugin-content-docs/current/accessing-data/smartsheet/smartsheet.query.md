@@ -5,7 +5,7 @@ title: Smartsheet.Query
 # Smartsheet.Query
 
 
-Returner et JSON-resultat fra Smartsheet-API&#39;en
+Returner et JSON-resultat fra Smartsheet-API'en
 
 
 ## Syntax
@@ -26,7 +26,7 @@ Foretager et kald til Smartsheet 2.0 REST-API'en på det angivne slutpunkt og re
 
 ## Examples
 
-### Example #1 
+### Example #1
 Udtrækker data fra slutpunktet for arkets Smartsheet-API og med yderligere angivne argumenter
 ```powerquery
 Smartsheet.Content("sheets", "include=ownerInfo&includeAll=true", [])

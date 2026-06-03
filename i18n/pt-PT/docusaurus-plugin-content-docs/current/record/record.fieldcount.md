@@ -19,12 +19,12 @@ Record.FieldCount(
 
 ## Remarks
 
-Devolve o número de campos no registo <code>record</code>.
+Devolve o número de campos no registo `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determinar o número de campos existentes no registo.
 ```powerquery
 Record.FieldCount([CustomerID = 1, Name = "Bob"])

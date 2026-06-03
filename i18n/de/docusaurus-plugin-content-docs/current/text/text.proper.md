@@ -20,13 +20,13 @@ Text.Proper(
 
 ## Remarks
 
-Gibt das Ergebnis zurück, das entsteht, wenn lediglich der erste Buchstabe jedes Worts im Textwert "<code>text</code>" großgeschrieben wird. Alle anderen Buchstaben werden in Kleinschreibung zurückgegeben. Optional kann auch ein Element vom Typ "<code>culture</code>" angegeben werden (Beispiel: "de-DE").
+Gibt das Ergebnis zurück, das entsteht, wenn lediglich der erste Buchstabe jedes Worts im Textwert "`text`" großgeschrieben wird. Alle anderen Buchstaben werden in Kleinschreibung zurückgegeben. Optional kann auch ein Element vom Typ "`culture`" angegeben werden (Beispiel: "de-DE").
 
 
 ## Examples
 
-### Example #1 
-Wendet &lt;code&gt;Text.Proper&lt;/code&gt; auf einen einfachen Satz an.
+### Example #1
+Wendet `Text.Proper` auf einen einfachen Satz an.
 ```powerquery
 Text.Proper("the QUICK BrOWn fOx jUmPs oVER tHe LAzy DoG")
 ```

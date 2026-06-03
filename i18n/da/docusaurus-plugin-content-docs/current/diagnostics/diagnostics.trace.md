@@ -22,12 +22,18 @@ Diagnostics.Trace(
 
 ## Remarks
 
-Skriver en sporing <code>message</code>, hvis sporing er aktiveret, og returnerer <code>value</code>. En valgfri parameter, <code>delayed</code>, angiver, om evalueringen af <code>value</code> skal udsættes, til meddelelsen er sporet. <code>traceLevel</code> kan anvende én af følgende værdier:    <code>TraceLevel.Critical</code>    <code>TraceLevel.Error</code>,    <code>TraceLevel.Warning</code>,    <code>TraceLevel.Information</code>,    <code>TraceLevel.Verbose</code>.  
+Skriver en sporing `message`, hvis sporing er aktiveret, og returnerer `value`. En valgfri parameter `delayed` angiver, om evalueringen af `value` skal forsinkes, indtil meddelelsen spores. `traceLevel` kan tage en af følgende værdier:
+
+-   `TraceLevel.Critical`
+-   `TraceLevel.Error`
+-   `TraceLevel.Warning`
+-   `TraceLevel.Information`
+-   `TraceLevel.Verbose`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Spor meddelelsen, før funktionen Text.From aktiveres, og returner resultatet.
 ```powerquery
 Diagnostics.Trace(TraceLevel.Information, "TextValueFromNumber", () => Text.From(123), true)

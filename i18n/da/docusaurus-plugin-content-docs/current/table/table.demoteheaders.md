@@ -24,7 +24,7 @@ Sænker kolonneoverskrifterne (dvs. kolonnenavne) til første række med værdie
 
 ## Examples
 
-### Example #1 
+### Example #1
 Sænk første række med værdier i tabellen.
 ```powerquery
 Table.DemoteHeaders(

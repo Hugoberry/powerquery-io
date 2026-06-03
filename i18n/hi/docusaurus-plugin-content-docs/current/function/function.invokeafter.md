@@ -20,7 +20,7 @@ Function.InvokeAfter(
 
 ## Remarks
 
-अवधि <code>delay</code> के गुज़र जाने के बाद <code>function</code> इनवोक करने का परिणाम लौटाता है.
+अवधि `delay` के गुज़र जाने के बाद `function` इनवोक करने का परिणाम लौटाता है.
 
 
 

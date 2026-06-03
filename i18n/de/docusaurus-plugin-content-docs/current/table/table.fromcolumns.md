@@ -20,12 +20,12 @@ Table.FromColumns(
 
 ## Remarks
 
-Erstellt eine Tabelle vom Typ "<code>columns</code>" auf der Grundlage einer Liste (<code>lists</code>), die geschachtelte Listen mit Spaltennamen und -werten enthält.    Besitzen einige Spalten mehr Werte als andere, werden die fehlenden Werte mit dem Standardwert NULL ausgefüllt, sofern die Spalten NULL-Werte zulassen.
+Erstellt eine Tabelle vom Typ "`columns`" auf der Grundlage einer Liste (`lists`), die geschachtelte Listen mit Spaltennamen und -werten enthält. Besitzen einige Spalten mehr Werte als andere, werden die fehlenden Werte mit dem Standardwert NULL ausgefüllt, sofern die Spalten NULL-Werte zulassen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gibt eine Tabelle aus einer Liste mit Kundennamen in einer Liste zurück. Jeder Wert im Kundenlistenelement wird zu einem Zeilenwert, und jede Liste wird zu einer Spalte.
 ```powerquery
 Table.FromColumns({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Erstellt eine Tabelle auf der Grundlage einer angegebenen Liste mit Spalten und einer Liste mit Spaltennamen.
 ```powerquery
 Table.FromColumns(
@@ -68,7 +68,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Erstellt eine Tabelle mit einer anderen Anzahl von Spalten pro Zeile. Der fehlende Zeilenwert ist NULL.
 ```powerquery
 Table.FromColumns(

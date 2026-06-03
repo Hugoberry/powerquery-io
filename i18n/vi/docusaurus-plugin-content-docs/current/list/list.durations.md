@@ -21,12 +21,12 @@ List.Durations(
 
 ## Remarks
 
-Trả về một danh sách giá trị <code>count</code> <code>duration</code>, bắt đầu tại <code>start</code> và tăng theo số gia <code>duration</code> <code>step</code> cho sẵn.
+Trả về một danh sách giá trị `count` `duration`, bắt đầu tại `start` và tăng theo số gia `duration` `step` cho sẵn.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tạo một danh sách chứa 5 giá trị bắt đầu từ 1 giờ và tăng theo số gia là một giờ.
 ```powerquery
 List.Durations(#duration(0, 1, 0, 0), 5, #duration(0, 1, 0, 0))

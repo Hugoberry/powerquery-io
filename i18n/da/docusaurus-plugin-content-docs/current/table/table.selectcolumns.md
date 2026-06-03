@@ -21,13 +21,17 @@ Table.SelectColumns(
 
 ## Remarks
 
-Returnerer <code>table</code> med kun de angivne <code>columns</code>.    <ul>       <li><code>table</code>: Den angivne tabel.</li>       <li><code>columns</code>: Den liste over kolonner fra tabellen <code>table</code>, der skal returneres. Kolonner i den returnerede tabel er i den rækkefølge, der er vist i <code>columns</code>.</li>       <li><code>missingField</code>: <i>(Valgfrit)</i> Hvad skal du gøre, hvis kolonnen ikke findes.  Eksempel:: <code>MissingField.UseNull</code> eller <code>MissingField.Ignore</code>.    </li></ul>
+Returns the `table` with only the specified `columns`.
+
+-   `table`: The provided table.
+-   `columns`: The list of columns from the table `table` to return. Columns in the returned table are in the order listed in `columns`.
+-   `missingField`: *(Optional)* What to do if the column does not exist. Example: `MissingField.UseNull` or `MissingField.Ignore`.
 
 
 ## Examples
 
-### Example #1 
-Inkluder kun kolonnen [Navn].
+### Example #1
+Inkluder kun kolonnen \[Navn\].
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({
@@ -51,8 +55,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Inkluder kun kolonnerne [Kunde-id] og [Navn].
+### Example #2
+Inkluder kun kolonnerne \[Kunde-id\] og \[Navn\].
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -66,7 +70,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #3 
+### Example #3
 Hvis den inkluderede kolonne ikke findes, er standardresultatet en fejl.
 ```powerquery
 Table.SelectColumns(
@@ -81,8 +85,8 @@ Result:
 ```
 
 
-### Example #4 
-Hvis den inkluderede kolonne ikke findes, opretter indstillingen &lt;code&gt;MissingField.UseNull&lt;/code&gt; en kolonne med null-værdier.
+### Example #4
+Hvis den inkluderede kolonne ikke findes, opretter indstillingen `MissingField.UseNull` en kolonne med null-værdier.
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

@@ -20,12 +20,12 @@ Table.First(
 
 ## Remarks
 
-Retourneert de eerste rij van de <code>table</code> of een optionele standaardwaarde, <code>default</code>, als de tabel leeg is.
+Retourneert de eerste rij van de `table` of een optionele standaardwaarde, `default`, als de tabel leeg is.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De eerste rij van de tabel zoeken.
 ```powerquery
 Table.First(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-De eerst rij uit de tabel &lt;code&gt;(\{})&lt;/code&gt; zoeken of [a = 0, b = 0] retourneren als de rij leeg is.
+### Example #2
+De eerst rij uit de tabel `({})` zoeken of \[a = 0, b = 0\] retourneren als de rij leeg is.
 ```powerquery
 Table.First(Table.FromRecords({}), [a = 0, b = 0])
 ```

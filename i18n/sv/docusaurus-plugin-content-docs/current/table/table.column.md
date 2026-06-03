@@ -20,13 +20,13 @@ Table.Column(
 
 ## Remarks
 
-Returnerar kolumnen med data som anges av <code>column</code> från tabellen <code>table</code> som en lista.
+Returnerar kolumnen med data som anges av `column` från tabellen `table` som en lista.
 
 
 ## Examples
 
-### Example #1 
-Hitta data i kolumnen [Name] från tabellen.
+### Example #1
+Hitta data i kolumnen \[Name\] från tabellen.
 ```powerquery
 Table.Column(
     Table.FromRecords({

@@ -5,7 +5,7 @@ title: IdentityProvider.Default
 # IdentityProvider.Default
 
 
-Provider di identità predefinito per l&#39;host corrente.
+Provider di identità predefinito per l'host corrente.
 
 
 ## Syntax

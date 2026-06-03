@@ -21,13 +21,17 @@ Table.SelectColumns(
 
 ## Remarks
 
-指定された <code>columns</code> のみを含む <code>table</code> を返します。    <ul>       <li><code>table</code>: 指定のテーブル。</li>       <li><code>columns</code>: 返されるテーブル <code>table</code> の列の一覧。返されるテーブル内の列は、<code>columns</code> に一覧表示されている順序になります。</li>       <li><code>missingField</code>: <i>(Optional)</i> 列が存在しない場合の処理。例: <code>MissingField.UseNull</code> または <code>MissingField.Ignore</code>。    </li></ul>
+指定された `columns` のみを含む `table` を返します。
+
+-   `table`: 指定されたテーブル。
+-   `columns`: 返されるテーブル `table` の列のリスト。返されるテーブルの列は、`columns` のリストに出現する順序になります。
+-   `missingField`: *(省略可能)* 列が存在しない場合の処理。 例: `MissingField.UseNull` または `MissingField.Ignore`。
 
 
 ## Examples
 
-### Example #1 
-列 [Name] のみを含めます。
+### Example #1
+列 \[Name\] のみを含めます。
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({
@@ -51,8 +55,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-列 [CustomerID] と [Name] を含めます。
+### Example #2
+列 \[CustomerID\] と \[Name\] を含めます。
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -66,7 +70,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #3 
+### Example #3
 付加列が存在しない場合、既定の結果はエラーです。
 ```powerquery
 Table.SelectColumns(
@@ -81,8 +85,8 @@ Result:
 ```
 
 
-### Example #4 
-付加列が存在しない場合、オプション &lt;code&gt;MissingField.UseNull&lt;/code&gt; によって、NULL 値の列が作成されます。
+### Example #4
+付加列が存在しない場合、オプション `MissingField.UseNull` によって、NULL 値の列が作成されます。
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

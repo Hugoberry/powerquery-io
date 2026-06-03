@@ -24,7 +24,7 @@ Anropar Smartsheet 2.0 REST-API:et vid den angivna slutpunkten och transformerar
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hämtar en tabell med användarinformation från Smartsheet-API:et
 ```powerquery
 Smartsheet.Content("users")

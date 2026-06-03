@@ -20,7 +20,7 @@ Type.TableColumn(
 
 ## Remarks
 
-Trả về loại của cột <code>column</code> trong loại bảng <code>tableType</code>.
+Trả về loại của cột `column` trong loại bảng `tableType`.
 
 
 

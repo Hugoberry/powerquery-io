@@ -20,12 +20,15 @@ Table.LastN(
 
 ## Remarks
 
-Trả về (các) hàng cuối cùng từ bảng <code>table</code> tùy theo giá trị của <code>countOrCondition</code>:    <ul>    <li> Nếu <code>countOrCondition</code> là một số thì nhiều hàng sẽ được trả về bắt đầu từ vị trí (kết thúc bằng - <code>countOrCondition</code>). </li>    <li> Nếu <code>countOrCondition</code> là một điều kiện thì các hàng đáp ứng điều kiện này sẽ được trả về theo vị trí tăng dần cho đến khi một hàng không đáp ứng điều kiện.</li></ul>
+Trả về (các) hàng cuối cùng từ bảng `table` tùy theo giá trị của `countOrCondition`:
+
+-   Nếu `countOrCondition` là một số thì nhiều hàng sẽ được trả về bắt đầu từ vị trí (kết thúc bằng - `countOrCondition`).
+-   Nếu `countOrCondition` là một điều kiện thì các hàng đáp ứng điều kiện này sẽ được trả về theo vị trí tăng dần cho đến khi một hàng không đáp ứng điều kiện.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm hai hàng cuối cùng của bảng.
 ```powerquery
 Table.LastN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Tìm các hàng cuối cùng trong đó [a] &gt; 0 trong bảng.
+### Example #2
+Tìm các hàng cuối cùng trong đó \[a\] > 0 trong bảng.
 ```powerquery
 Table.LastN(
     Table.FromRecords({

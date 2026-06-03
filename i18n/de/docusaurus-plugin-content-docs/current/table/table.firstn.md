@@ -20,12 +20,15 @@ Table.FirstN(
 
 ## Remarks
 
-Gibt abhängig vom <code>countOrCondition</code>-Wert die erste(n) Zeile(n) aus der Tabelle '<code>table</code>' zurück:    <ul>    <li> Ist "<code>countOrCondition</code>" eine Zahl, wird die entsprechende Anzahl von Zeilen (beginnend von oben) zurückgegeben. </li>    <li> Ist "<code>countOrCondition</code>" eine Bedingung, werden so lange Zeilen zurückgegeben, die die Bedingung erfüllen, bis eine Zeile die Bedingung nicht erfüllt.</li></ul>
+Gibt abhängig vom `countOrCondition`\-Wert die erste(n) Zeile(n) aus der Tabelle '`table`' zurück:
+
+-   Ist "`countOrCondition`" eine Zahl, wird die entsprechende Anzahl von Zeilen (beginnend von oben) zurückgegeben.
+-   Ist "`countOrCondition`" eine Bedingung, werden so lange Zeilen zurückgegeben, die die Bedingung erfüllen, bis eine Zeile die Bedingung nicht erfüllt.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ermittelt die ersten beiden Zeilen der Tabelle.
 ```powerquery
 Table.FirstN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Ermittelt die ersten Zeilen in der Tabelle, die die Bedingung &#34;[a] &gt; 0&#34; erfüllen.
+### Example #2
+Ermittelt die ersten Zeilen in der Tabelle, die die Bedingung "\[a\] > 0" erfüllen.
 ```powerquery
 Table.FirstN(
     Table.FromRecords({

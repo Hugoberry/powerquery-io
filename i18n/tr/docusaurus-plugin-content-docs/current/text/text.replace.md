@@ -21,13 +21,13 @@ Text.Replace(
 
 ## Remarks
 
-<code>old</code> metin değerinin <code>text</code> metin değerindeki tüm oluşumlarını <code>new</code> metin değeri ile değiştirmenin sonucunu döndürür. Bu işlev büyük/küçük harfe duyarlıdır.
+`old` metin değerinin `text` metin değerindeki tüm oluşumlarını `new` metin değeri ile değiştirmenin sonucunu döndürür. Bu işlev büyük/küçük harfe duyarlıdır.
 
 
 ## Examples
 
-### Example #1 
-Bir tümcedeki tüm &#34;the&#34; örneklerini &#34;a&#34; ile değiştirir.
+### Example #1
+Bir tümcedeki tüm "the" örneklerini "a" ile değiştirir.
 ```powerquery
 Text.Replace("the quick brown fox jumps over the lazy dog", "the", "a")
 ```

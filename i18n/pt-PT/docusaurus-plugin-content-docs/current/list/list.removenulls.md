@@ -5,7 +5,7 @@ title: List.RemoveNulls
 # List.RemoveNulls
 
 
-Remove todos os valores &#34;null&#34; da lista especificada.
+Remove todos os valores "null" da lista especificada.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.RemoveNulls(
 
 ## Remarks
 
-Remove todas as ocorrências de valores "null" em <code>list</code>. Se não existirem valores "null" na lista, é devolvida a lista original.
+Remove todas as ocorrências de valores "null" em `list`. Se não existirem valores "null" na lista, é devolvida a lista original.
 
 
 ## Examples
 
-### Example #1 
-Remove todos os valores &#34;null&#34; da lista \{1, 2, 3, null, 4, 5, null, 6}.
+### Example #1
+Remove todos os valores "null" da lista \{1, 2, 3, null, 4, 5, null, 6\}.
 ```powerquery
 List.RemoveNulls({1, 2, 3, null, 4, 5, null, 6})
 ```

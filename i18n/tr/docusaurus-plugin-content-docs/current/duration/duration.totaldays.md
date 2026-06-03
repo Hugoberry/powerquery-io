@@ -19,12 +19,12 @@ Duration.TotalDays(
 
 ## Remarks
 
-<code>duration</code> değerine yayılan toplam gün sayısını döndürür.
+`duration` değerine yayılan toplam gün sayısını döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bir süre değerine yayılan toplam gün sayısını bulun.
 ```powerquery
 Duration.TotalDays(#duration(5, 4, 3, 2))

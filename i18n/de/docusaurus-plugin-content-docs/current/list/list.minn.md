@@ -22,13 +22,17 @@ List.MinN(
 
 ## Remarks
 
-Gibt die kleinsten Werte in der Liste "<code>list</code>" zurück.    Der Parameter "<code>countOrCondition</code>" gibt die zurückzugebende Anzahl von Werten oder eine Filterbedingung an. Der optionale Parameter "<code>comparisonCriteria</code>" gibt an, wie Werte in der Liste verglichen werden sollen. <ul>        <li> <code>list</code>: Die Liste mit den Werten.</li>        <li> <code>countOrCondition</code>:  Bei Angabe einer Zahl wird eine Liste mit bis zu <code>countOrCondition</code> Elementen in aufsteigender Reihenfolge zurückgegeben. Bei Angabe einer Bedingung wird eine Liste mit Elementen zurückgegeben, die die Bedingung erfüllen. Erfüllt ein Element die Bedingung nicht, werden ab diesem Punkt keine weiteren Elemente berücksichtigt. Ist dieser Parameter NULL, wird der allerkleinste Wert in der Liste zurückgegeben.</li><li><code>comparisonCriteria</code>: <i>[Opional]</i> Ein optionaler <code>comparisonCriteria</code>-Wert kann angeben werden, um zu bestimmen, wie die Elemente in der Liste verglichen werden sollen. Ist dieser Parameter NULL, wird die standardmäßige Vergleichsfunktion verwendet. </li></ul>
+Gibt die kleinsten Werte in der Liste „`list`“ zurück. Der Parameter „`countOrCondition`“ gibt die zurückzugebende Anzahl von Werten oder eine Filterbedingung an. Der optionale Parameter „`comparisonCriteria`“ gibt an, wie Werte in der Liste verglichen werden sollen.
+
+-   `list`: Die Liste der Werte.
+-   `countOrCondition`: Wenn eine Zahl angegeben wird, wird eine Liste mit bis zu `countOrCondition` Elementen in aufsteigender Reihenfolge zurückgegeben. Bei Angabe einer Bedingung wird eine Liste mit Elementen zurückgegeben, die die Bedingung erfüllen. Erfüllt ein Element die Bedingung nicht, werden ab diesem Punkt keine weiteren Elemente berücksichtigt. Wenn dieser Parameter NULL ist, wird der kleinste Wert in der Liste zurückgegeben.
+-   `comparisonCriteria`: *(Optional)* Ein optionaler `comparisonCriteria`\-Wert kann angegeben werden, um zu bestimmen, wie die Elemente in der Liste verglichen werden. Wenn dieser Parameter NULL ist, wird der Standardvergleich verwendet.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt die fünf kleinsten Werte in der Liste &lt;code&gt;\{3, 4, 5, -1, 7, 8, 2}&lt;/code&gt;.
+### Example #1
+Ermittelt die fünf kleinsten Werte in der Liste `{3, 4, 5, -1, 7, 8, 2}`.
 ```powerquery
 List.MinN({3, 4, 5, -1, 7, 8, 2}, 5)
 ```

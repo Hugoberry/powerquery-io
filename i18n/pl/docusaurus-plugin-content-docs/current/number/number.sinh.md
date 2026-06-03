@@ -19,7 +19,7 @@ Number.Sinh(
 
 ## Remarks
 
-Zwraca sinus hiperboliczny liczby <code>number</code>.
+Zwraca sinus hiperboliczny liczby `number`.
 
 
 

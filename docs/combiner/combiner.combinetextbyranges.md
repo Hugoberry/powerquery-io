@@ -25,7 +25,7 @@ Returns a function that combines a list of text values into a single text value 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combine a list of text values using the specified output positions and lengths.
 ```powerquery
 Combiner.CombineTextByRanges({{0, 1}, {3, 2}, {6, null}})({"abc", "def", "ghijkl"})

@@ -23,13 +23,13 @@ Table.AddJoinColumn(
 
 ## Remarks
 
-<code>key1</code> (<code>table1</code> के लिए) और <code>key2</code> (<code>table2</code> के लिए) द्वारा चयनित कुंजी स्तंभ के मानों की गुणवत्ता पर आधारित <code>table1</code> की पंक्तियों को <code>table2</code> की पंक्तियों के साथ जॉइन करता है. परिणामों को <code>newColumnName</code> नाम के स्तंभ में दर्ज किया जाता है.यह फ़ंक्शन, LeftOuter के JoinKind के साथ Table.Join के समान व्यवहार करता है इसके अलावा जॉइन परिणामों को फ़्लैटेड की तुलना में नेस्टेड फ़ैशन में प्रस्तुत किया जाता है.
+`key1` (`table1` के लिए) और `key2` (`table2` के लिए) द्वारा चयनित कुंजी स्तंभ के मानों की गुणवत्ता पर आधारित `table1` की पंक्तियों को `table2` की पंक्तियों के साथ जॉइन करता है. परिणामों को `newColumnName` नाम के स्तंभ में दर्ज किया जाता है. यह फ़ंक्शन, LeftOuter के JoinKind के साथ Table.Join के समान व्यवहार करता है इसके अलावा जॉइन परिणामों को फ़्लैटेड की तुलना में नेस्टेड फ़ैशन में प्रस्तुत किया जाता है.
 
 
 ## Examples
 
-### Example #1 
-[saleID] पर जॉइन की गई तालिका (\{[saleID = 1, price = 20], [saleID = 2, price = 10]}) से (\{[saleID = 1, item = &#34;Shirt&#34;], [saleID = 2, item = &#34;Hat&#34;]}) में &#34;price/stock&#34; नाम का जॉइन स्तंभ जोड़ें.
+### Example #1
+\[saleID\] पर जॉइन की गई तालिका (\{\[saleID = 1, price = 20\], \[saleID = 2, price = 10\]\}) से (\{\[saleID = 1, item = "Shirt"\], \[saleID = 2, item = "Hat"\]\}) में "price/stock" नाम का जॉइन स्तंभ जोड़ें.
 ```powerquery
 Table.AddJoinColumn(
     Table.FromRecords({

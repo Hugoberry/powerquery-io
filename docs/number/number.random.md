@@ -24,7 +24,7 @@ Returns a random number between 0 and 1.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Get a random number.
 ```powerquery
 Number.Random()

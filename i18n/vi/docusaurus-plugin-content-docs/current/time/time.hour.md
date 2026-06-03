@@ -19,12 +19,12 @@ Time.Hour(
 
 ## Remarks
 
-Trả về cấu phần giờ của giá trị <code>time</code>, <code>datetime</code> hoặc <code>datetimezone</code> được cung cấp, <code>dateTime</code>.
+Trả về cấu phần giờ của giá trị `time`, `datetime` hoặc `datetimezone` được cung cấp, `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm giờ trong #datetime(2011, 12, 31, 9, 15, 36).
 ```powerquery
 Time.Hour(#datetime(2011, 12, 31, 9, 15, 36))

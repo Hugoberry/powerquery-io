@@ -19,12 +19,12 @@ Expression.Identifier(
 
 ## Remarks
 
-Gibt die M-Quellcodedarstellung eines Bezeichners "<code>name</code>" zurück.
+Gibt die M-Quellcodedarstellung eines Bezeichners "`name`" zurück.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hiermit wird die M-Quellcodedarstellung eines Bezeichners abgerufen.
 ```powerquery
 Expression.Identifier("MyIdentifier")
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Hiermit wird die M-Quellcodedarstellung eines Bezeichners abgerufen, der ein Leerzeichen enthält.
 ```powerquery
 Expression.Identifier("My Identifier")

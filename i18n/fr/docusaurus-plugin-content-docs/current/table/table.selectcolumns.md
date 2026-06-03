@@ -21,13 +21,17 @@ Table.SelectColumns(
 
 ## Remarks
 
-Retourne le <code>table</code> avec uniquement le <code>columns</code>.    <ul>       <li><code>table</code> spécifié : table.</li>       <li><code>columns</code> fournie : liste des colonnes de la table <code>table</code> à retourner. Les colonnes de la table retournée sont dans l’ordre répertorié dans <code>columns</code>.</li>       <li><code>missingField</code> : <i>(Facultatif) </i> Que faire si la colonne n’existe pas.  Exemple : <code>missingField.UseNull</code> ou <code>MissingField.Ignore</code>.    </li></ul>
+Retourne le `table` avec uniquement le `columns`.
+
+-   `table` : la table fournie.
+-   `columns` : la liste des colonnes de la table `table` à retourner. Les colonnes de la table retournée sont dans l’ordre répertorié dans `columns`.
+-   `missingField` : *(Facultatif)* Que faire si la colonne n’existe pas. Exemple : `missingField.UseNull` ou `MissingField.Ignore`.
 
 
 ## Examples
 
-### Example #1 
-Incluez uniquement la colonne [Name].
+### Example #1
+Incluez uniquement la colonne \[Name\].
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({
@@ -51,8 +55,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Incluez uniquement les colonnes [CustomerID] et [Name].
+### Example #2
+Incluez uniquement les colonnes \[CustomerID\] et \[Name\].
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -66,8 +70,8 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #3 
-Si la colonne incluse n&#39;existe pas, le résultat par défaut est une erreur.
+### Example #3
+Si la colonne incluse n'existe pas, le résultat par défaut est une erreur.
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -81,8 +85,8 @@ Result:
 ```
 
 
-### Example #4 
-Si la colonne incluse n&#39;existe pas, l&#39;option &lt;code&gt;MissingField.UseNull&lt;/code&gt; crée une colonne de valeurs nulles.
+### Example #4
+Si la colonne incluse n'existe pas, l'option `MissingField.UseNull` crée une colonne de valeurs nulles.
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

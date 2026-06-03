@@ -25,7 +25,7 @@ Thực hiện lệnh gọi đến API MailChimp và trả về tập dữ liệu
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kéo bảng dữ liệu từ điểm cuối danh sách của API MailChimp.
 ```powerquery
 MailChimp.Collection("danh sách")
@@ -37,7 +37,7 @@ Bảng có chứa dữ liệu danh sách.
 ```
 
 
-### Example #2 
+### Example #2
 Kéo bảng dữ liệu từ điểm cuối chiến dịch-thư mục của API MailChimp.
 ```powerquery
 MailChimp.Collection("chiến dịch-thư mục", "thư mục")

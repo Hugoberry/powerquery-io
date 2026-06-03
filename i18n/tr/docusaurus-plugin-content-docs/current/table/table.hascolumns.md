@@ -20,13 +20,13 @@ Table.HasColumns(
 
 ## Remarks
 
-<code>table</code> tablosunun belirtilen <code>columns</code> sütunlarını içerip içermediğini belirtir. Tablo sütunları içeriyorsa <code>true</code>, içermiyorsa <code>false</code> değerini döndürür.
+`table` tablosunun belirtilen `columns` sütunlarını içerip içermediğini belirtir. Tablo sütunları içeriyorsa `true`, içermiyorsa `false` değerini döndürür.
 
 
 ## Examples
 
-### Example #1 
-Tabloda [Name] sütununun bulunup bulunmadığını belirler.
+### Example #1
+Tabloda \[Name\] sütununun bulunup bulunmadığını belirler.
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({
@@ -45,8 +45,8 @@ true
 ```
 
 
-### Example #2 
-Tabloda [Name] ve [PhoneNumber] sütunlarının bulunup bulunmadığını belirler.
+### Example #2
+Tabloda \[Name\] ve \[PhoneNumber\] sütunlarının bulunup bulunmadığını belirler.
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({

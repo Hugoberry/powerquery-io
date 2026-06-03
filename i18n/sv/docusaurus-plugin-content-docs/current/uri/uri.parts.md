@@ -19,13 +19,13 @@ Uri.Parts(
 
 ## Remarks
 
-Returnerar delarna av <code>absoluteUri</code> i angivna indata som en post, som innehåller värden som Scheme, Host, Port, Path, Query, Fragment, UserName och Password.
+Returnerar delarna av `absoluteUri` i angivna indata som en post, som innehåller värden som Scheme, Host, Port, Path, Query, Fragment, UserName och Password.
 
 
 ## Examples
 
-### Example #1 
-Hitta delarna i den absoluta URI:n &#34;www.adventure-works.com&#34;.
+### Example #1
+Hitta delarna i den absoluta URI:n "www.adventure-works.com".
 ```powerquery
 Uri.Parts("www.adventure-works.com")
 ```
@@ -45,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Avkoda en procentkodad sträng.
 ```powerquery
 let

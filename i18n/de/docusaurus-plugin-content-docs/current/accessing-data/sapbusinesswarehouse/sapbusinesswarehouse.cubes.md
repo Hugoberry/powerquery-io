@@ -23,7 +23,7 @@ SapBusinessWarehouse.Cubes(
 
 ## Remarks
 
-Gibt eine nach InfoArea gruppierte Tabelle mit InfoCubes und Abfragen aus einer SAP Business Warehouse-Instanz auf dem Server "<code>server</code>" mit Systemnummer <code>systemNumberOrSystemId</code> und Client-ID "<code>clientId</code>" zurück. Ein optionaler Datensatzparameter "<code>optionsOrLogonGroup</code>" kann angegeben werden, um die folgenden Optionen zu steuern:        
+Gibt eine nach InfoArea gruppierte Tabelle mit InfoCubes und Abfragen aus einer SAP Business Warehouse-Instanz auf dem Server "`server`" mit Systemnummer `systemNumberOrSystemId` und Client-ID "`clientId`" zurück. Ein optionaler Datensatzparameter "`optionsOrLogonGroup`" kann angegeben werden, um die folgenden Optionen zu steuern:
 
 
 

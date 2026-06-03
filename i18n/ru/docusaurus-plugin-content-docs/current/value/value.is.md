@@ -25,7 +25,7 @@ Value.Is(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Сравните два способа определения совместимости числа с числом типа.
 ```powerquery
 Value.Is(123, Number.Type) = (123 is number)

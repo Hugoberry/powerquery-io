@@ -19,12 +19,12 @@ DateTime.Time(
 
 ## Remarks
 
-Devolve a parte que corresponde à hora do valor datetime especificado, <code>dateTime</code>.
+Devolve a parte que corresponde à hora do valor datetime especificado, `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Encontrar o valor de hora de #datetime(2010, 12, 31, 11, 56, 02).
 ```powerquery
 DateTime.Time(#datetime(2010, 12, 31, 11, 56, 02))

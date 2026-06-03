@@ -20,12 +20,14 @@ Table.FromValue(
 
 ## Remarks
 
-Creates a table with a column containing the provided value or list of values, <code>value</code>. An optional record parameter, <code>options</code>, may be specified to control the following options:    <ul>    <li> <code>DefaultColumnName</code> : The column name used when constructing a table from a list or scalar value.</li>    </ul>  
+Creates a table with a column containing the provided value or list of values, `value`. An optional record parameter, `options`, may be specified to control the following options:
+
+-   `DefaultColumnName`: The column name used when constructing a table from a list or scalar value.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Create a table from the value 1.
 ```powerquery
 Table.FromValue(1)
@@ -37,7 +39,7 @@ Table.FromRecords({[Value = 1]})
 ```
 
 
-### Example #2 
+### Example #2
 Create a table from the list.
 ```powerquery
 Table.FromValue({1, "Bob", "123-4567"})
@@ -53,7 +55,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Create a table from the value 1, with a custom column name.
 ```powerquery
 Table.FromValue(1, [DefaultColumnName = "MyValue"])

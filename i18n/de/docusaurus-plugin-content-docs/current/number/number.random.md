@@ -24,7 +24,7 @@ Gibt eine Zufallszahl zwischen 0 und 1 zurück.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ruft eine Zufallszahl ab.
 ```powerquery
 Number.Random()

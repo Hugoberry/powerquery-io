@@ -5,7 +5,7 @@ title: Record.ToTable
 # Record.ToTable
 
 
-Retourne une table où chaque ligne correspond à un nom de champ et à une valeur de l&#39;enregistrement d&#39;entrée.
+Retourne une table où chaque ligne correspond à un nom de champ et à une valeur de l'enregistrement d'entrée.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Record.ToTable(
 
 ## Remarks
 
-Retourne une table qui contient les colonnes <code>Name</code> et <code>Value</code> avec une ligne pour chaque champ dans <code>record</code>.
+Retourne une table qui contient les colonnes `Name` et `Value` avec une ligne pour chaque champ dans `record`.
 
 
 ## Examples
 
-### Example #1 
-Retourne la table à partir de l&#39;enregistrement.
+### Example #1
+Retourne la table à partir de l'enregistrement.
 ```powerquery
 Record.ToTable([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])
 ```

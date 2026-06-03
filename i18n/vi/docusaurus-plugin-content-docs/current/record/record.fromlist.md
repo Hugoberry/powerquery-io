@@ -20,12 +20,12 @@ Record.FromList(
 
 ## Remarks
 
-Trả về một bản ghi khi được cho sẵn <code>list</code> giá trị trường và tập hợp trường.  Có thể chỉ định <code>fields</code> bằng danh sách giá trị văn bản hoặc loại bản ghi.  Lỗi được đưa ra nếu các trường không phải là duy nhất.
+Trả về một bản ghi khi được cho sẵn `list` giá trị trường và tập hợp trường. Có thể chỉ định `fields` bằng danh sách giá trị văn bản hoặc loại bản ghi. Lỗi sẽ xuất hiện nếu các trường không phải là duy nhất.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tạo bản ghi từ danh sách giá trị trường và danh sách tên trường.
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, {"CustomerID", "Name", "Phone"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Tạo bản ghi từ danh sách giá trị trường và loại bản ghi.
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, type [CustomerID = number, Name = text, Phone = number])

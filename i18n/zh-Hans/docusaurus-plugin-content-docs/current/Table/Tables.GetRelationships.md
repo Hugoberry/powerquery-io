@@ -20,7 +20,7 @@ Tables.GetRelationships(
 
 ## Remarks
 
-获取一组表之间的关系。假定集 <code>tables</code> 的结构与导航表的结构相似。<code>dataColumn</code> 定义的列包含实际数据表。
+获取一组表之间的关系。假定集 `tables` 的结构与导航表的结构相似。`dataColumn` 定义的列包含实际数据表。
 
 
 

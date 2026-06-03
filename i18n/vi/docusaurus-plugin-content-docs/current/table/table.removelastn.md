@@ -20,12 +20,16 @@ Table.RemoveLastN(
 
 ## Remarks
 
-Trả về một bảng không chứa <code>countOrCondition</code> hàng cuối cùng của bảng <code>table</code>.        Số lượng hàng bị loại bỏ tùy theo tham số tùy chọn <code>countOrCondition</code>.    <ul>    <li> Nếu <code>countOrCondition</code> bị bỏ qua thì chỉ hàng cuối cùng bị loại bỏ. </li>    <li> Nếu <code>countOrCondition</code> là một số thì nhiều hàng (bắt đầu từ cuối) sẽ bị loại bỏ. </li>    <li> Nếu <code>countOrCondition</code> là một điều kiện thì các hàng đáp ứng điều kiện này sẽ bị loại bỏ cho đến khi một hàng không đáp ứng điều kiện.</li>    </ul>
+Trả về một bảng không chứa `countOrCondition` hàng cuối cùng của bảng `table`. Số lượng hàng bị loại bỏ tùy theo tham số tùy chọn `countOrCondition`.
+
+-   Nếu `countOrCondition` bị bỏ qua thì chỉ hàng cuối cùng bị loại bỏ.
+-   Nếu `countOrCondition` là một số thì nhiều hàng (bắt đầu từ cuối) sẽ bị loại bỏ.
+-   Nếu `countOrCondition` là một điều kiện thì các hàng đáp ứng điều kiện này sẽ bị loại bỏ cho đến khi một hàng không đáp ứng điều kiện.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Xóa hàng cuối cùng của bảng.
 ```powerquery
 Table.RemoveLastN(
@@ -49,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Loại bỏ các hàng cuối cùng trong đó [CustomerID] &gt; 2 của bảng.
+### Example #2
+Loại bỏ các hàng cuối cùng trong đó \[CustomerID\] > 2 của bảng.
 ```powerquery
 Table.RemoveLastN(
     Table.FromRecords({

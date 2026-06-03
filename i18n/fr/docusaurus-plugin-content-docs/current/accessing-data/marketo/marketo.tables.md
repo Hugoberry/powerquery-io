@@ -5,7 +5,7 @@ title: Marketo.Tables
 # Marketo.Tables
 
 
-Entrez l&#39;URL du point de terminaison de l&#39;API REST Marketo associé à votre compte.
+Entrez l'URL du point de terminaison de l'API REST Marketo associé à votre compte.
 
 
 ## Syntax

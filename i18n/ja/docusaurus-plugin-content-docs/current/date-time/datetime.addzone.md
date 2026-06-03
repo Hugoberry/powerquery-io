@@ -21,12 +21,12 @@ DateTime.AddZone(
 
 ## Remarks
 
-タイム ゾーン情報を <code>dateTime</code> 値に追加します。タイムゾーン情報には <code>timezoneHours</code> が含まれており、必要に応じて <code>timezoneMinutes</code> が含まれます。これにより、UTC 時刻からのオフセットが指定されます。
+タイム ゾーン情報を `dateTime` 値に追加します。タイムゾーン情報には `timezoneHours` が含まれており、必要に応じて `timezoneMinutes` が含まれます。これにより、UTC 時刻からのオフセットが指定されます。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 タイムゾーンを UTC+7:30 (UTC から 7 時間 30 分後) に設定してください。
 ```powerquery
 DateTime.AddZone(#datetime(2010, 12, 31, 11, 56, 02), 7, 30)

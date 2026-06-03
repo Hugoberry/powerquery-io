@@ -20,13 +20,13 @@ Text.Repeat(
 
 ## Remarks
 
-<code>count</code> kez yinelenen <code>text</code> girdi metninden oluşan bir metin değerini döndürür.
+`count` kez yinelenen `text` girdi metninden oluşan bir metin değerini döndürür.
 
 
 ## Examples
 
-### Example #1 
-&#34;a&#34; metnini beş kez yineler.
+### Example #1
+"a" metnini beş kez yineler.
 ```powerquery
 Text.Repeat("a", 5)
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-&#34;helloworld&#34; metnini üç kez yineler.
+### Example #2
+"helloworld" metnini üç kez yineler.
 ```powerquery
 Text.Repeat("helloworld.", 3)
 ```

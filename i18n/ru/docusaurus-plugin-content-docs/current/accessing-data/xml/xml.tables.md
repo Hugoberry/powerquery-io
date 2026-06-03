@@ -26,7 +26,7 @@ Xml.Tables(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Получение содержимого локального XML-файла.
 ```powerquery
 Xml.Tables(File.Contents("C:\invoices.xml"))

@@ -5,7 +5,7 @@ title: DynamicsNav.Contents
 # DynamicsNav.Contents
 
 
-Immettere l&#39;URL dell&#39;endpoint di servizio OData di Dynamics NAV.
+Immettere l'URL dell'endpoint di servizio OData di Dynamics NAV.
 
 
 ## Syntax
@@ -20,6 +20,6 @@ DynamicsNav.Contents(
 
 ## Remarks
 
-Restituisce una tabella con i dati pertinenti di Dynamics NAV. 
+Restituisce una tabella con i dati pertinenti di Dynamics NAV.
 
 

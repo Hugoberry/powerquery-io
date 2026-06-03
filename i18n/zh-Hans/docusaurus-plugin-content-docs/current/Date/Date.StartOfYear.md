@@ -19,12 +19,12 @@ Date.StartOfYear(
 
 ## Remarks
 
-返回包含 <code>dateTime</code> 的年开始值。    <code>dateTime</code> 必须是 <code>date</code>、<code>datetime</code>或<code>datetimezone</code>值。
+返回包含 `dateTime` 的年开始值。 `dateTime` 必须是 `date`、`datetime`或`datetimezone`值。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 查找 2011 年 10 月 10 日上午 8:10:32 的年开始值。
 ```powerquery
 Date.StartOfYear(#datetime(2011, 10, 10, 8, 10, 32))

@@ -19,12 +19,12 @@ Date.StartOfDay(
 
 ## Remarks
 
-<code>dateTime</code> द्वारा दर्शाए गए दिन की शुरुआत में लौटाता है.    <code>dateTime</code> का एक <code>date</code>, <code>datetime</code> या <code>datetimezone</code> मान होना अनिवार्य है.
+`dateTime` द्वारा दर्शाए गए दिन की शुरुआत में लौटाता है. `dateTime` का एक `date`, `datetime` या `datetimezone` मान होना अनिवार्य है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 10 अक्टूबर, 2011, 8:00 पूर्वाह्न के लिए दिन के शुरू में प्राप्त करें.
 ```powerquery
 Date.StartOfDay(#datetime(2011, 10, 10, 8, 0, 0))

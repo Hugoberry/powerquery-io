@@ -21,12 +21,12 @@ Record.FieldOrDefault(
 
 ## Remarks
 
-Retourneert de waarde uit het opgegeven veld <code>field</code> in de record <code>record</code>. Als het veld niet wordt gevonden, wordt de optionele <code>defaultValue</code> geretourneerd.
+Retourneert de waarde uit het opgegeven veld `field` in de record `record`. Als het veld niet wordt gevonden, wordt de optionele `defaultValue` geretourneerd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De waarde van veld Phone in de record zoeken of null retourneren als dat veld niet bestaat.
 ```powerquery
 Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone")
@@ -38,7 +38,7 @@ null
 ```
 
 
-### Example #2 
+### Example #2
 De waarde van veld Phone in de record zoeken of de standaardwaarde retourneren als dat veld niet bestaat.
 ```powerquery
 Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone", "123-4567")

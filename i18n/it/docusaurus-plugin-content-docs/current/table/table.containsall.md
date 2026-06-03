@@ -21,13 +21,13 @@ Table.ContainsAll(
 
 ## Remarks
 
-Indica se tutti i record specificati nell'elenco di record <code>rows</code> vengono visualizzati come righe in <code>table</code>.    Facoltativamente, è possibile specificare il parametro <code>equationCriteria</code> per controllare il confronto tra le righe della tabella.
+Indica se tutti i record specificati nell'elenco di record `rows` vengono visualizzati come righe in `table`. Facoltativamente, è possibile specificare il parametro `equationCriteria` per controllare il confronto tra le righe della tabella.
 
 
 ## Examples
 
-### Example #1 
-Determinare se la tabella contiene tutte le righe confrontando solo la colonna [CustomerID].
+### Example #1
+Determinare se la tabella contiene tutte le righe confrontando solo la colonna \[CustomerID\].
 ```powerquery
 Table.ContainsAll(
     Table.FromRecords({
@@ -50,7 +50,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Determinare se la tabella contiene tutte le righe.
 ```powerquery
 Table.ContainsAll(

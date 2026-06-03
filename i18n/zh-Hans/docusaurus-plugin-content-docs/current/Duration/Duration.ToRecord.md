@@ -19,13 +19,15 @@ Duration.ToRecord(
 
 ## Remarks
 
-返回包含 duration 值 <code>duration</code> 的各个部分的记录。  <ul>        <li><code>duration</code>: 从中创建记录的 <code>duration</code>。</li>      </ul>
+返回包含 duration 值 `duration` 的各个部分的记录。
+
+-   `duration`: 从中创建记录的 `duration`。
 
 
 ## Examples
 
-### Example #1 
-将 &lt;code&gt;#duration(2, 5, 55, 20)&lt;/code&gt; 转换为包括天、小时、分钟和秒这些部分的记录(如果适用)。
+### Example #1
+将 `#duration(2, 5, 55, 20)` 转换为包括天、小时、分钟和秒这些部分的记录(如果适用)。
 ```powerquery
 Duration.ToRecord(#duration(2, 5, 55, 20))
 ```

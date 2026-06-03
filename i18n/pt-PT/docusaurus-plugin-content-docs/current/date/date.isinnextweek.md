@@ -5,7 +5,7 @@ title: Date.IsInNextWeek
 # Date.IsInNextWeek
 
 
-Indica se esta data ocorre durante a semana seguinte, conforme determinado pela data e hora atuais no sistema. Tenha em conta que esta função irá devolver &#34;falso&#34; quando é transmitido um valor que ocorre na semana atual.
+Indica se esta data ocorre durante a semana seguinte, conforme determinado pela data e hora atuais no sistema. Tenha em conta que esta função irá devolver "falso" quando é transmitido um valor que ocorre na semana atual.
 
 
 ## Syntax
@@ -19,12 +19,14 @@ Date.IsInNextWeek(
 
 ## Remarks
 
-Indica se o valor do datetime indicado <code>dateTime</code> ocorre durante a semana seguinte, conforme determinado pela data e hora atuais no sistema. Tenha em conta que esta função irá devolver "falso" quando é transmitido um valor que ocorre na semana atual.      <ul>      <li><code>dateTime</code>: um valor <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> a ser avaliado.</li>      </ul>
+Indica se o valor do datetime indicado `dateTime` ocorre durante a semana seguinte, conforme determinado pela data e hora atuais no sistema. Tenha em conta que esta função irá devolver "falso" quando é transmitido um valor que ocorre na semana atual.
+
+-   `dateTime`: um valor `date`, `datetime` ou `datetimezone` a ser avaliado.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determinar se a semana posterior à hora do sistema atual ocorre na semana seguinte.
 ```powerquery
 Date.IsInNextWeek(Date.AddDays(DateTime.FixedLocalNow(), 7))

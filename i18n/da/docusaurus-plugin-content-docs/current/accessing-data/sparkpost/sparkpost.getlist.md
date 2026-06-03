@@ -22,8 +22,8 @@ Denne funktion kan bruges til at kalde et af de "Lister"-slutpunkter, der tilbyd
 
 ## Examples
 
-### Example #1 
-Returnerer en tabel med en enkelt kolonne, der er udfyldt med data fra et af slutpunkterne for SparkPost API v1 &#34;Lister&#34; (se flere oplysninger i dokumentationen).
+### Example #1
+Returnerer en tabel med en enkelt kolonne, der er udfyldt med data fra et af slutpunkterne for SparkPost API v1 "Lister" (se flere oplysninger i dokumentationen).
 ```powerquery
 Source = SparkPost.GetList("metrics/campaigns")
 ```

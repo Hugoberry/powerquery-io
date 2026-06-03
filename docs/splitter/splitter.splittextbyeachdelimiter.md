@@ -26,7 +26,7 @@ Returns a function that splits text into a list of text at each specified delimi
 
 ## Examples
 
-### Example #1 
+### Example #1
 Split the input by comma, then semicolon, starting from the beginning of the input.
 ```powerquery
 Splitter.SplitTextByEachDelimiter({",", ";"})("a,b;c,d")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Split the input by comma, then semicolon, treating quotes like any other character and starting from the end of the input.
 ```powerquery
 let

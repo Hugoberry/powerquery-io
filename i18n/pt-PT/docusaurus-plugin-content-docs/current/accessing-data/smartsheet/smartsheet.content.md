@@ -24,7 +24,7 @@ Efetua uma chamada à API REST do Smartsheet 2.0 no ponto final especificado e t
 
 ## Examples
 
-### Example #1 
+### Example #1
 Solicita uma tabela de informações de utilizadores da API do Smartsheet
 ```powerquery
 Smartsheet.Content("utilizadores")

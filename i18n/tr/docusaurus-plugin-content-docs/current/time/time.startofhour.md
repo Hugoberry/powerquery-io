@@ -19,12 +19,12 @@ Time.StartOfHour(
 
 ## Remarks
 
-<code>dateTime</code> tarafından temsil edilen saat başlangıcını döndürür.    <code>dateTime</code>, bir <code>time</code>, <code>datetime</code> veya <code>datetimezone</code> değeri olmalıdır.
+`dateTime` tarafından temsil edilen saat başlangıcını döndürür. `dateTime`, bir `time`, `datetime` veya `datetimezone` değeri olmalıdır.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 10 Ekim 2011, 08:10:32 için saatin başlangıcını bulun.
 ```powerquery
 Time.StartOfHour(#datetime(2011, 10, 10, 8, 10, 32))

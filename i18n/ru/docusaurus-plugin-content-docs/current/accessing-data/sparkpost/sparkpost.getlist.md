@@ -22,8 +22,8 @@ SparkPost.GetList(
 
 ## Examples
 
-### Example #1 
-Возвращает таблицу с одним столбцом, заполненным данными одной из конечных точек &#34;Lists&#34; SparkPost API v1 (сведения см. в документации SparkPost).
+### Example #1
+Возвращает таблицу с одним столбцом, заполненным данными одной из конечных точек "Lists" SparkPost API v1 (сведения см. в документации SparkPost).
 ```powerquery
 Source = SparkPost.GetList("metrics/campaigns")
 ```

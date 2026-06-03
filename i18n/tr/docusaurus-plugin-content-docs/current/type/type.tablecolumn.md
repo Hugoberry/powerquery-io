@@ -20,7 +20,7 @@ Type.TableColumn(
 
 ## Remarks
 
-<code>tableType</code> tablo türündeki <code>column</code> sütununun türünü döndürür.
+`tableType` tablo türündeki `column` sütununun türünü döndürür.
 
 
 

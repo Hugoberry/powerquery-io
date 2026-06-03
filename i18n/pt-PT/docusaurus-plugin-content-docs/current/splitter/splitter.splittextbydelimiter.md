@@ -13,7 +13,8 @@ Devolve uma função que divide texto numa lista de texto de acordo com o delimi
 ```powerquery
 Splitter.SplitTextByDelimiter(
     delimiter as text,
-    optional quoteStyle as QuoteStyle.Type
+    optional quoteStyle as QuoteStyle.Type,
+    optional csvStyle as CsvStyle.Type
 ) as function
 ```
 
@@ -25,7 +26,7 @@ Devolve uma função que divide texto numa lista de texto de acordo com o delimi
 
 ## Examples
 
-### Example #1 
+### Example #1
 Divida a entrada por vírgula, ignorando vírgulas entre aspas.
 ```powerquery
 Splitter.SplitTextByDelimiter(",", QuoteStyle.Csv)("a,""b,c"",d")

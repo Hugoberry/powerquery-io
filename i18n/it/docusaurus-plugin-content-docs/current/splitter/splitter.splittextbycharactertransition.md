@@ -5,7 +5,7 @@ title: Splitter.SplitTextByCharacterTransition
 # Splitter.SplitTextByCharacterTransition
 
 
-Restituisce una funzione che suddivide il testo in un elenco di testo in base a una transizione da un tipo di carattere a un altro. I parametri \{0} e \{1} possono essere un elenco di caratteri oppure una funzione che accetta un carattere e restituisce true/false.
+Restituisce una funzione che suddivide il testo in un elenco di testo in base a una transizione da un tipo di carattere a un altro. I parametri \{0\} e \{1\} possono essere un elenco di caratteri oppure una funzione che accetta un carattere e restituisce true/false.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Splitter.SplitTextByCharacterTransition(
 
 ## Remarks
 
-Restituisce una funzione che suddivide il testo in un elenco di testo in base a una transizione da un tipo di carattere a un altro. I parametri <code>before</code> e <code>after</code> possono essere un elenco di caratteri oppure una funzione che accetta un carattere e restituisce true/false.
+Restituisce una funzione che suddivide il testo in un elenco di testo in base a una transizione da un tipo di carattere a un altro. I parametri `before` e `after` possono essere un elenco di caratteri oppure una funzione che accetta un carattere e restituisce true/false.
 
 
 ## Examples
 
-### Example #1 
-Dividere l&#39;input ogni volta che una lettera maiuscola o minuscola è seguita da una cifra.
+### Example #1
+Dividere l'input ogni volta che una lettera maiuscola o minuscola è seguita da una cifra.
 ```powerquery
 Splitter.SplitTextByCharacterTransition({"A".."Z", "a".."z"}, {"0".."9"})("Abc123")
 ```

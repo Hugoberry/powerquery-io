@@ -24,7 +24,7 @@ Splitter.SplitTextByWhitespace(
 
 ## Examples
 
-### Example #1 
+### Example #1
 以空格字元分割輸入，將引號與其他字元一樣處理。
 ```powerquery
 Splitter.SplitTextByWhitespace(QuoteStyle.None)("a b#(tab)c")

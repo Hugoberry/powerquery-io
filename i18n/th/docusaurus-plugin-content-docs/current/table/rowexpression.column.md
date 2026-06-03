@@ -19,13 +19,13 @@ RowExpression.Column(
 
 ## Remarks
 
-ส่งกลับทรีไวยากรณ์เชิงนามธรรม (AST) ที่แสดงการเข้าถึง <code>columnName</code> คอลัมน์ของแถวภายในนิพจน์แถว
+ส่งกลับทรีไวยากรณ์เชิงนามธรรม (AST) ที่แสดงการเข้าถึง `columnName` คอลัมน์ของแถวภายในนิพจน์แถว
 
 
 ## Examples
 
-### Example #1 
-สร้าง AST ที่แสดงการเข้าถึงคอลัมน์ &#34;CustomerName&#34;
+### Example #1
+สร้าง AST ที่แสดงการเข้าถึงคอลัมน์ "CustomerName"
 ```powerquery
 RowExpression.Column("CustomerName")
 ```

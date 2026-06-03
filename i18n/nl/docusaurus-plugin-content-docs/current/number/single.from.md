@@ -20,13 +20,13 @@ Single.From(
 
 ## Remarks
 
-Hiermee wordt een Single <code>number</code>-waarde geretourneerd vanuit de opgegeven <code>value</code>. Als de opgegeven <code>value</code> de waarde <code>null</code> heeft, wordt door <code>Single.From</code> de waarde <code>null</code> geretourneerd. Als de opgegeven <code>value</code> een <code>number</code>-waarde heeft binnen het bereik van Single, wordt <code>value</code> geretourneerd. In andere gevallen wordt een fout geretourneerd. Als <code>value</code> van een ander type is, wordt deze eerst geconverteerd naar een <code>number</code> met behulp van <code>Number.FromText</code>. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
+Hiermee wordt een Single `number`\-waarde geretourneerd vanuit de opgegeven `value`. Als de opgegeven `value` de waarde `null` heeft, wordt door `Single.From` de waarde `null` geretourneerd. Als de opgegeven `value` een `number`\-waarde heeft binnen het bereik van Single, wordt `value` geretourneerd. In andere gevallen wordt een fout geretourneerd. Als `value` van een ander type is, wordt deze eerst geconverteerd naar een `number` met behulp van `Number.FromText`. Er kan ook een optionele `culture` worden opgegeven (bijvoorbeeld: nl-NL).
 
 
 ## Examples
 
-### Example #1 
-De &lt;code&gt;number&lt;/code&gt;-waarde voor Enkel uit &lt;code&gt;&#34;1.5&#34;&lt;/code&gt; ophalen.
+### Example #1
+De `number`\-waarde voor Enkel uit `"1.5"` ophalen.
 ```powerquery
 Single.From("1.5")
 ```

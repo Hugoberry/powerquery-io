@@ -20,7 +20,7 @@ Number.BitwiseAnd(
 
 ## Remarks
 
-Zwraca wynik wykonania bitowej opcji AND na wartościach <code>number1</code> i <code>number2</code>.
+Zwraca wynik wykonania bitowej opcji AND na wartościach `number1` i `number2`.
 
 
 

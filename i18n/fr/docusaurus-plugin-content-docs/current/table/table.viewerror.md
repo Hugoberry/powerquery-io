@@ -19,7 +19,7 @@ Table.ViewError(
 
 ## Remarks
 
-Crée un enregistrement d’erreur modifié de <code>errorRecord</code> qui ne déclenche pas de secours lorsqu’il est levé par un gestionnaire défini sur une vue (via Table.View).
+Crée un enregistrement d’erreur modifié de `errorRecord` qui ne déclenche pas de secours lorsqu’il est levé par un gestionnaire défini sur une vue (via Table.View).
 
 
 

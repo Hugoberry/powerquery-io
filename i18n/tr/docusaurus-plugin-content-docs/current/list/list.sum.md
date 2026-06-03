@@ -20,13 +20,13 @@ List.Sum(
 
 ## Remarks
 
-<code>list</code> listesindeki null olmayan değerlerin toplamını döndürür.  Listede null olmayan değer yoksa null döndürülür.
+`list` listesindeki null olmayan değerlerin toplamını döndürür. Listede null olmayan değer yoksa null döndürülür.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;\{1, 2, 3}&lt;/code&gt; listesindeki sayıların toplamını bulur.
+### Example #1
+`{1, 2, 3}` listesindeki sayıların toplamını bulur.
 ```powerquery
 List.Sum({1, 2, 3})
 ```

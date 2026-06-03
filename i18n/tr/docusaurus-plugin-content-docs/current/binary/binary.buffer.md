@@ -24,7 +24,7 @@ Binary.Buffer(
 
 ## Examples
 
-### Example #1 
+### Example #1
 İkili değerin kararlı sürümünü oluşturur.
 ```powerquery
 Binary.Buffer(Binary.FromList({0..10}))

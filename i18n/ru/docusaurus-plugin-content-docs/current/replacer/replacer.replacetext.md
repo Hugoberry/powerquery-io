@@ -21,13 +21,13 @@ Replacer.ReplaceText(
 
 ## Remarks
 
-Заменяет текст <code>old</code> в исходном <code>text</code> текстом <code>new</code>. Эту функцию замены можно использовать в <code>List.ReplaceValue</code> и <code>Table.ReplaceValue</code>.
+Заменяет текст `old` в исходном `text` текстом `new`. Эту функцию замены можно использовать в `List.ReplaceValue` и `Table.ReplaceValue`.
 
 
 ## Examples
 
-### Example #1 
-Заменить текст &#34;hE&#34; на &#34;He&#34;в строке &#34;hEllo world&#34;.
+### Example #1
+Заменить текст "hE" на "He"в строке "hEllo world".
 ```powerquery
 Replacer.ReplaceText("hEllo world", "hE", "He")
 ```

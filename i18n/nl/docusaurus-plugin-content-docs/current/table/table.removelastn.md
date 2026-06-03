@@ -20,12 +20,16 @@ Table.RemoveLastN(
 
 ## Remarks
 
-Hiermee wordt een tabel geretourneerd die niet de laatste <code>countOrCondition</code> rijen bevat van de tabel <code>table</code>. Het aantal rijen dat wordt verwijderd, is afhankelijk van de optionele parameter <code>countOrCondition</code>. <ul> <li> Als <code>countOrCondition</code> wordt weggelaten, wordt alleen de laatste rij verwijderd. </li> <li> Als <code>countOrCondition</code> een getal is, wordt dat aantal rijen (van onderaf) verwijderd. </li> <li> Als <code>countOrCondition</code> een voorwaarde is, worden de rijen die aan de voorwaarde voldoen verwijderd totdat een rij niet aan de voorwaarde voldoet.</li> </ul>
+Hiermee wordt een tabel geretourneerd die niet de laatste `countOrCondition` rijen bevat van de tabel `table`. Het aantal rijen dat wordt verwijderd, is afhankelijk van de optionele parameter `countOrCondition`.
+
+-   Als `countOrCondition` wordt weggelaten, wordt alleen de laatste rij verwijderd.
+-   Als `countOrCondition` een getal is, wordt dat aantal rijen (van onderaf) verwijderd.
+-   Als `countOrCondition` een voorwaarde is, worden de rijen die aan de voorwaarde voldoen verwijderd totdat een rij niet aan de voorwaarde voldoet.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De laatste rij van de tabel verwijderen.
 ```powerquery
 Table.RemoveLastN(
@@ -49,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-De laatste rijen waar [CustomerID] &gt; 2 van de tabel verwijderen.
+### Example #2
+De laatste rijen waar \[CustomerID\] > 2 van de tabel verwijderen.
 ```powerquery
 Table.RemoveLastN(
     Table.FromRecords({

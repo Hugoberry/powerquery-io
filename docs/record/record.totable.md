@@ -19,12 +19,12 @@ Record.ToTable(
 
 ## Remarks
 
-Returns a table containing the columns <code>Name</code> and <code>Value</code> with a row for each field in <code>record</code>.
+Returns a table containing the columns `Name` and `Value` with a row for each field in `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Return the table from the record.
 ```powerquery
 Record.ToTable([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

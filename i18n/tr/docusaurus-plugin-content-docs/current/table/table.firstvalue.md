@@ -20,7 +20,7 @@ Table.FirstValue(
 
 ## Remarks
 
-<code>table</code> tablosunun ilk satırının ilk sütununu veya belirtilen bir varsayılan değeri döndürür.
+`table` tablosunun ilk satırının ilk sütununu veya belirtilen bir varsayılan değeri döndürür.
 
 
 

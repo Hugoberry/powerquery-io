@@ -5,7 +5,7 @@ title: Value.VersionIdentity
 # Value.VersionIdentity
 
 
-Value.VersionIdentity
+Returns the version identity of the value.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Value.VersionIdentity(
 
 ## Remarks
 
-Value.VersionIdentity
+Returns the version identity of the `value`, or `null` if it doesn't have a version.
 
 
 

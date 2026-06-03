@@ -27,7 +27,7 @@ Azure Data Explorer (Kusto) インスタンスからデータをインポート�
 
 ## Examples
 
-### Example #1 
+### Example #1
 Storm イベント情報のテーブルを返します
 ```powerquery
 Kusto.Contents("help", "Samples", "StormEvents", [])

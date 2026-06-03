@@ -5,7 +5,7 @@ title: Table.SelectRowsWithErrors
 # Table.SelectRowsWithErrors
 
 
-Retourne une table avec uniquement les lignes supprimées de la table d&#39;entrée qui contiennent une erreur dans au moins l&#39;une des cellules. Si une liste de colonnes est spécifiée, alors seules les cellules dans les colonnes spécifiées sont inspectées pour rechercher des erreurs.
+Retourne une table avec uniquement les lignes supprimées de la table d'entrée qui contiennent une erreur dans au moins l'une des cellules. Si une liste de colonnes est spécifiée, alors seules les cellules dans les colonnes spécifiées sont inspectées pour rechercher des erreurs.
 
 
 ## Syntax
@@ -25,7 +25,7 @@ Retourne une table avec uniquement les lignes supprimées de la table d'entrée 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Sélectionnez les noms de clients avec des erreurs dans leurs lignes.
 ```powerquery
 Table.SelectRowsWithErrors(

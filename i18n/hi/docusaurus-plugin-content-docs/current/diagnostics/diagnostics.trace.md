@@ -22,12 +22,18 @@ Diagnostics.Trace(
 
 ## Remarks
 
-यदि ट्रेसिंग सक्षम है, तो एक ट्रेस <code>message</code> लिखता है, और <code>value</code> वापस करता है. एक वैकल्पिक पैरामीटर <code>delayed</code> निर्दिष्ट करता है कि संदेश को ट्रेस किए जाने तक <code>value</code> के मूल्यांकन को विलंबित करना है या नहीं. <code>traceLevel</code> निम्नलिखित में से किसी एक मान को ले सकता है:    <code>TraceLevel.Critical</code>    <code>TraceLevel.Error</code>,    <code>TraceLevel.Warning</code>,    <code>TraceLevel.Information</code>,    <code>TraceLevel.Verbose</code>.  
+अगर ट्रेसिंग सक्षम है, तो ट्रेस `message`लिखता है और `value` लौटाता है. एक वैकल्पिक पैरामीटर `delayed` निर्दिष्ट करता है कि संदेश का पता लगाने तक `value` के मूल्यांकन में विलंब करना है या नहीं. `traceLevel` निम्न में से कोई एक मान ले सकते हैं:
+
+-   `TraceLevel.Critical`
+-   `TraceLevel.Error`
+-   `TraceLevel.Warning`
+-   `TraceLevel.Information`
+-   `TraceLevel.Verbose`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Text.From को लागू करने से पहले संदेश को ट्रेस करता है और परिणाम वापस करता है.
 ```powerquery
 Diagnostics.Trace(TraceLevel.Information, "TextValueFromNumber", () => Text.From(123), true)

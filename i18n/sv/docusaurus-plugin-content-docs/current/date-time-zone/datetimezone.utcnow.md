@@ -24,7 +24,7 @@ Returnerar aktuellt datum och tid i UTC (GMT-tidszonen).
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hämta det aktuella datumet och tiden i UTC.
 ```powerquery
 DateTimeZone.UtcNow()

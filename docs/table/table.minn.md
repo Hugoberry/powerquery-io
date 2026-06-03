@@ -21,13 +21,16 @@ Table.MinN(
 
 ## Remarks
 
-Returns the smallest row(s) in the <code>table</code>, given the <code>comparisonCriteria</code>. After the rows are sorted, the <code>countOrCondition</code> parameter must be specified to further filter the result. Note the sorting algorithm cannot guarantee a fixed sorted result. The <code>countOrCondition</code> parameter can take multiple forms:    <ul>        <li> If a number is specified, a list of up to <code>countOrCondition</code> items in ascending order is returned. </li>        <li> If a condition is specified, a list of items that initially meet the condition is returned. Once an item fails the condition, no further items are considered. </li> </ul>
+Returns the smallest row(s) in the `table`, given the `comparisonCriteria`. After the rows are sorted, the `countOrCondition` parameter must be specified to further filter the result. Note the sorting algorithm cannot guarantee a fixed sorted result. The `countOrCondition` parameter can take multiple forms:
+
+-   If a number is specified, a list of up to `countOrCondition` items in ascending order is returned.
+-   If a condition is specified, a list of items that initially meet the condition is returned. Once an item fails the condition, no further items are considered.
 
 
 ## Examples
 
-### Example #1 
-Find the row with the smallest value in column [a] with the condition [a] &lt; 3, in the table. The rows are sorted before the filter is applied.
+### Example #1
+Find the row with the smallest value in column \[a\] with the condition \[a\] &lt; 3, in the table. The rows are sorted before the filter is applied.
 ```powerquery
 Table.MinN(
     Table.FromRecords({
@@ -49,8 +52,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Find the row with the smallest value in column [a] with the condition [b] &lt; 0, in the table. The rows are sorted before the filter is applied.
+### Example #2
+Find the row with the smallest value in column \[a\] with the condition \[b\] &lt; 0, in the table. The rows are sorted before the filter is applied.
 ```powerquery
 Table.MinN(
     Table.FromRecords({

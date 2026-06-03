@@ -21,13 +21,13 @@ Text.AfterDelimiter(
 
 ## Remarks
 
-Returnerar delen av <code>text</code> efter det angivna <code>delimiter</code>.    En valfri numerisk <code>index</code> indikerar vilken förekomst av <code>delimiter</code> som ska övervägas.    En valfri lista <code>index</code> indikerar vilken förekomst av <code>delimiter</code> som ska övervägas, samt om indexering skall göras från starten eller slutet på indata.
+Returnerar delen av `text` efter det angivna `delimiter`. En valfri numerisk `index` indikerar vilken förekomst av `delimiter` som ska övervägas. En valfri lista `index` indikerar vilken förekomst av `delimiter` som ska övervägas, samt om indexering skall göras från starten eller slutet på indata.
 
 
 ## Examples
 
-### Example #1 
-Hämtar delen av &#34;111-222-333&#34; efter det (första) bindestrecket.
+### Example #1
+Hämtar delen av "111-222-333" efter det (första) bindestrecket.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Hämtar delen av &#34;111-222-333&#34; efter det andra bindestrecket.
+### Example #2
+Hämtar delen av "111-222-333" efter det andra bindestrecket.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-", 1)
 ```
@@ -50,8 +50,8 @@ Result:
 ```
 
 
-### Example #3 
-Hämtar delen av &#34;111-222-333&#34; efter det andra bindestrecket från slutet.
+### Example #3
+Hämtar delen av "111-222-333" efter det andra bindestrecket från slutet.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-", {1, RelativePosition.FromEnd})
 ```

@@ -21,13 +21,13 @@ Table.FromPartitions(
 
 ## Remarks
 
-返回为组合分区表 <code>partitions</code> 集的结果的表。<code>partitionColumn</code> 是要添加的列名称。列类型默认为 <code>any</code>，但可以由 <code>partitionColumnType</code> 指定。
+返回为组合分区表 `partitions` 集的结果的表。`partitionColumn` 是要添加的列名称。列类型默认为 `any`，但可以由 `partitionColumnType` 指定。
 
 
 ## Examples
 
-### Example #1 
-从列表 &lt;code&gt;\{number}&lt;/code&gt; 中找到项类型。
+### Example #1
+从列表 `{number}` 中找到项类型。
 ```powerquery
 Table.FromPartitions(
     "Year",

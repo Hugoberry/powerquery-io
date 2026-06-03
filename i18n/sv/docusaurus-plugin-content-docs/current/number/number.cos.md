@@ -19,12 +19,14 @@ Number.Cos(
 
 ## Remarks
 
-Returnerar cosinus för <code>number</code>.
+Returnerar cosinus för den angivna vinkeln.
+
+-   `number`: En vinkel, mätt i radianer.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta cosinus för vinkeln 0.
 ```powerquery
 Number.Cos(0)
@@ -33,6 +35,18 @@ Number.Cos(0)
 Result: 
 ```powerquery
 1
+```
+
+
+### Example #2
+Beräkna cosinus för π radianer.
+```powerquery
+Number.Cos(Number.PI)
+```
+
+Result: 
+```powerquery
+-1
 ```
 
 

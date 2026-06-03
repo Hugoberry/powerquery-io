@@ -20,12 +20,14 @@ Table.FromValue(
 
 ## Remarks
 
-Maakt een tabel met een kolom waarin de opgegeven waarde of lijst met waarden <code>value</code> staat. Er kan een optionele recordparameter, <code>options</code>, worden opgegeven om de volgende opties te bepalen:    <ul>    <li> <code>DefaultColumnName</code> : de kolomnaam die wordt gebruikt bij het maken van een tabel van een lijst of scalaire waarde.</li>    </ul>  
+Maakt een tabel met een kolom waarin de opgegeven waarde of lijst met waarden `value` staat. U kunt een optionele recordparameter `options` opgeven voor besturing van de volgende opties:
+
+-   `DefaultColumnName`: de kolomnaam die wordt gebruikt bij het maken van een tabel van een lijst of scalaire waarde.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een tabel van de waarde 1 maken.
 ```powerquery
 Table.FromValue(1)
@@ -37,7 +39,7 @@ Table.FromRecords({[Value = 1]})
 ```
 
 
-### Example #2 
+### Example #2
 Een tabel van de lijst maken.
 ```powerquery
 Table.FromValue({1, "Bob", "123-4567"})
@@ -53,7 +55,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Een tabel maken vanaf de waarde 1, met een aangepaste kolomnaam.
 ```powerquery
 Table.FromValue(1, [DefaultColumnName = "MyValue"])

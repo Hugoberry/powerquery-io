@@ -24,7 +24,7 @@ Devuelve la representación del código fuente M de un valor constante.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Obtenga la representación del código fuente M de un valor numérico.
 ```powerquery
 Expression.Constant(123)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Obtenga la representación del código fuente M de un valor de fecha.
 ```powerquery
 Expression.Constant(#date(2035, 01, 02))
@@ -48,7 +48,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Obtenga la representación del código fuente M de un valor de texto.
 ```powerquery
 Expression.Constant("abc")

@@ -22,13 +22,18 @@ Table.PositionOfAny(
 
 ## Remarks
 
-返回 <code>rows</code> 的列表在 <code>table</code> 中第一次出现的行位置。如果找不到该值，则返回 -1。    <ul>    <li><code>table</code>: 输入表。</li>       <li><code>rows</code>: 表中要查找其位置的行列表。</li>       <li><code>occurrence</code>: <i>[可选]</i> 指定要返回的行的出现次数。</li>       <li><code>equationCriteria</code>: <i>[可选]</i> 控制表行之间的比较。</li>    </ul>    
+返回 `rows` 的列表在 `table` 中第一次出现的行位置。如果找不到该值，则返回 -1。
+
+-   `table`: 输入表。
+-   `rows`: 表中要查找其位置的行列表。
+-   `occurrence`: *(可选)*指定要返回的行的出现次数。
+-   `equationCriteria`: *(可选)*控制表行之间的比较。
 
 
 ## Examples
 
-### Example #1 
-查找 [a = 2, b = 4] 或 [a = 6, b = 8] 在表 &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt; 中第一次出现的位置。
+### Example #1
+查找 \[a = 2, b = 4\] 或 \[a = 6, b = 8\] 在表 `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})` 中第一次出现的位置。
 ```powerquery
 Table.PositionOfAny(
     Table.FromRecords({
@@ -50,8 +55,8 @@ Result:
 ```
 
 
-### Example #2 
-查找 [a = 2, b = 4] 或 [a = 6, b = 8] 在表 &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]}&lt;/code&gt; 中所有出现的位置。
+### Example #2
+查找 \[a = 2, b = 4\] 或 \[a = 6, b = 8\] 在表 `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]}` 中所有出现的位置。
 ```powerquery
 Table.PositionOfAny(
     Table.FromRecords({

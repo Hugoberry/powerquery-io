@@ -19,13 +19,13 @@ Uri.EscapeDataString(
 
 ## Remarks
 
-Encode les caractères spéciaux dans l'entrée <code>data</code> conformément aux règles de la spécification RFC 3986.
+Encode les caractères spéciaux dans l'entrée `data` conformément aux règles de la spécification RFC 3986.
 
 
 ## Examples
 
-### Example #1 
-Encode les caractères spéciaux dans &#34;+money$&#34;.
+### Example #1
+Encode les caractères spéciaux dans "+money$".
 ```powerquery
 Uri.EscapeDataString("+money$")
 ```

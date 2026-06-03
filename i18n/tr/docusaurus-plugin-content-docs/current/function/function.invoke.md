@@ -5,7 +5,7 @@ title: Function.Invoke
 # Function.Invoke
 
 
-Verilen işlevi çağırır
+Verilen işlevi çağırır.
 
 
 ## Syntax
@@ -25,8 +25,8 @@ Belirtilen bağımsız değişken listesini kullanarak verilen işlevi çağır�
 
 ## Examples
 
-### Example #1 
-Bir bağımsız değişken ile Record.FieldNames öğesini çağırır [A=1,B=2]
+### Example #1
+Bir bağımsız değişken ile Record.FieldNames öğesini çağırır \[A=1,B=2\].
 ```powerquery
 Function.Invoke(Record.FieldNames, {[A = 1, B = 2]})
 ```

@@ -20,12 +20,12 @@ Value.ReplaceType(
 
 ## Remarks
 
-Vervangt het type van de <code>value</code>door de opgegeven <code>type</code>.
+Vervangt het type van de `value`door de opgegeven `type`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Vervang het standaardtype van een record door een specifieker type.
 ```powerquery
 Type.RecordFields(

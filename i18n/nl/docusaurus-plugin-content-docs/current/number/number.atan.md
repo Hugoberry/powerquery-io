@@ -19,7 +19,7 @@ Number.Atan(
 
 ## Remarks
 
-Retourneert de arctangens van <code>number</code>.
+Retourneert de arctangens van `number`.
 
 
 

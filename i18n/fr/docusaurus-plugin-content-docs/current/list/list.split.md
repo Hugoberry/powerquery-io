@@ -5,7 +5,7 @@ title: List.Split
 # List.Split
 
 
-Divise la liste spécifiée en liste de listes à l&#39;aide de la taille de page spécifiée.
+Divise la liste spécifiée en liste de listes à l'aide de la taille de page spécifiée.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ List.Split(
 
 ## Remarks
 
-Se divise <code>list</code> en une liste de listes où le premier élément de la liste de sortie est une liste contenant les premiers <code>pageSize</code> éléments de    la liste source, l'élément suivant de la liste de sortie est une liste contenant les éléments <code>pageSize</code> suivants de la liste source, et ainsi de suite.
+Se divise `list` en une liste de listes où le premier élément de la liste de sortie est une liste contenant les premiers `pageSize` éléments de la liste source, l'élément suivant de la liste de sortie est une liste contenant les éléments `pageSize` suivants de la liste source, et ainsi de suite.
 
 
 

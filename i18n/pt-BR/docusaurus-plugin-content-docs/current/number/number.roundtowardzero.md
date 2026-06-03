@@ -20,12 +20,12 @@ Number.RoundTowardZero(
 
 ## Remarks
 
-Retorna o resultado do arredondamento de <code>number</code> com base no sinal do número. Essa função arrendondará números positivos para baixo e números negativos para cima.    Se <code>digits</code> for especificado, <code>number</code> será arredondado ao <code>digits</code> número de casas decimais.  
+Retorna o resultado do arredondamento de `number` com base no sinal do número. Essa função arrendondará números positivos para baixo e números negativos para cima. Se `digits` for especificado, `number` será arredondado ao `digits` número de casas decimais.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Arredonde o número -1,2 em direção a zero.
 ```powerquery
 Number.RoundTowardZero(-1.2)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Arredonde o número 1,2 em direção a zero.
 ```powerquery
 Number.RoundTowardZero(1.2)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Arredondar o número -1,234 para duas casas decimais após o zero.
 ```powerquery
 Number.RoundTowardZero(-1.234, 2)

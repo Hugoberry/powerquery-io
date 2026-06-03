@@ -20,12 +20,12 @@ Text.Remove(
 
 ## Remarks
 
-<code>text</code> metin değerinin <code>removeChars</code> konumundaki tüm karakterler kaldırılmış şekilde kopyasını döndürür.  
+`text` metin değerinin `removeChars` konumundaki tüm karakterler kaldırılmış şekilde kopyasını döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Metin değerinden , ve ; karakterlerini kaldırır.
 ```powerquery
 Text.Remove("a,b;c", {",",";"})

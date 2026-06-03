@@ -20,7 +20,9 @@ AzureStorage.Tables(
 
 ## Remarks
 
-Azure depolama kasasındaki hesap URL'sinde (<code>account</code>) bulunan her tablo için bir satır içeren gezinti tablosu döndürür. Her satır, Azure tablosuna bir bağlantı içerir. Ek özellikleri belirtmek için isteğe bağlı bir kayıt parametresi (<code>options</code>) sağlanabilir. Kayıt şu alanları içerebilir:    <ul><li><code>Timeout</code> : Sunucuya y&#246;nelik istek bırakılmadan &#246;nce ne kadar bekleneceğini denetleyen s&#252;re. Varsayılan değer kaynağa &#246;zg&#252;d&#252;r.</li></ul>
+Azure depolama kasasındaki hesap URL'sinde (`account`) bulunan her tablo için bir satır içeren gezinti tablosu döndürür. Her satır, Azure tablosuna bir bağlantı içerir. İsteğe bağlı `options` kayıt parametresi, ek özellikleri belirtmek için sağlanabilir. Kayıt, şu alanları barındırabilir:
+
+-   `Timeout` : Sunucuya yönelik istek bırakılmadan önce ne kadar bekleneceğini denetleyen süre. Varsayılan değer kaynağa özgüdür.
 
 
 

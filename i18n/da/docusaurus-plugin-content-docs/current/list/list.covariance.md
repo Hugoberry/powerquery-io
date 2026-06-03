@@ -20,12 +20,12 @@ List.Covariance(
 
 ## Remarks
 
-Returnerer kovariancen mellem to lister, <code>numberList1</code> og <code>numberList2</code>. <code>numberList1</code> og <code>numberList2</code> skal indeholde det samme antal værdier af typen <code>number</code>.
+Returnerer kovariancen mellem to lister, `numberList1` og `numberList2`. `numberList1` og `numberList2` skal indeholde det samme antal værdier af typen `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Beregn kovariancen mellem to lister.
 ```powerquery
 List.Covariance({1, 2, 3}, {1, 2, 3})

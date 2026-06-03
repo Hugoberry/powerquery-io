@@ -19,13 +19,27 @@ ItemExpression.From(
 
 ## Remarks
 
-ส่งกลับทรีไวยากรณ์เชิงนามธรรม (AST) สำหรับเนื้อความของ <code>function</code> ปรับให้เป็นมาตรฐานใน<i>นิพจน์รายการ</i>:<ul>  <li>ฟังก์ชันต้องเป็น lambda ชนิดอาร์กิวเมนต์ 1</li>  <li>การอ้างอิงทั้งหมดไปยังพารามิเตอร์ฟังก์ชันจะถูกแทนที่ด้วย <code>ItemExpression.Item</code></li>  <li>AST จะง่ายขึ้นเพื่อให้มีเฉพาะโหนดชนิด:    <ul>      <li><code>Constant</code></li>      <li><code>Invocation</code></li>      <li><code>Unary</code></li>      <li><code>Binary</code></li>      <li><code>If</code></li>      <li><code>FieldAccess</code></li>    </ul>  </li></ul><br /><br />จะมีการแสดงข้อผิดพลาด ถ้าไม่สามารถส่งกลับนิพจน์รายการ AST สำหรับเนื้อความของ <code>function</code><br />
+ส่งกลับทรีไวยากรณ์เชิงนามธรรม (AST) สำหรับเนื้อความของ `function` ปรับให้เป็นมาตรฐานใน *นิพจน์รายการ*:
+
+-   ฟังก์ชันต้องเป็น lambda ชนิดอาร์กิวเมนต์ 1
+-   การอ้างอิงทั้งหมดถึงพารามิเตอร์ของฟังก์ชันจะถูกแทนที่ด้วย `ItemExpression.Item`
+-   โครงสร้าง AST จะถูกทำให้เรียบง่ายขึ้น โดยจะมีเฉพาะโหนดประเภทต่อไปนี้:
+    -   `Constant`
+    -   `Invocation`
+    -   `Unary`
+    -   `Binary`
+    -   `If`
+    -   `FieldAccess`
+
+จะเกิดข้อผิดพลาดหากไม่สามารถส่งคืน AST ของนิพจน์รายการสำหรับเนื้อหาของ `function` ได้  
+  
+ฟังก์ชันนี้เหมือนกับ `RowExpression.From` ทุกประการ
 
 
 ## Examples
 
-### Example #1 
-ส่งคืน AST สำหรับเนื้อความของฟังก์ชัน &lt;code&gt;each _ &lt;&gt; null&lt;/code&gt;
+### Example #1
+ส่งคืน AST สำหรับเนื้อความของฟังก์ชัน `each _ <> null`
 ```powerquery
 ItemExpression.From(each _ <> null)
 ```

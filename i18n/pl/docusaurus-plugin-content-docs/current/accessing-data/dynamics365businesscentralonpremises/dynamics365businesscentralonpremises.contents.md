@@ -20,6 +20,6 @@ Dynamics365BusinessCentralOnPremises.Contents(
 
 ## Remarks
 
-Zwraca tabelę zawierającą odpowiednie dane usługi Dynamics 365 Business Central (lokalnej). 
+Zwraca tabelę zawierającą odpowiednie dane usługi Dynamics 365 Business Central (lokalnej).
 
 

@@ -19,12 +19,12 @@ Table.ColumnNames(
 
 ## Remarks
 
-ส่งกลับชื่อคอลัมน์ในตาราง <code>table</code> เป็นรายการข้อความ
+ส่งกลับชื่อคอลัมน์ในตาราง `table` เป็นรายการข้อความ
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ค้นหาชื่อคอลัมน์ในตาราง
 ```powerquery
 Table.ColumnNames(

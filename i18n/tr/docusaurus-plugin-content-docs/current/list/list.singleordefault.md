@@ -20,13 +20,13 @@ List.SingleOrDefault(
 
 ## Remarks
 
-<code>list</code> listesinde yalnızca bir öğe varsa bu öğeyi döndürür.    Liste boşsa isteğe bağlı bir <code>default</code> belirtilmediyse işlev null döndürür. Listede birden çok öğe varsa işlev bir hata döndürür.
+`list` listesinde yalnızca bir öğe varsa bu öğeyi döndürür. Liste boşsa isteğe bağlı bir `default` belirtilmediyse işlev null döndürür. Listede birden çok öğe varsa işlev bir hata döndürür.
 
 
 ## Examples
 
-### Example #1 
-\{1} listesindeki tek değeri bulur.
+### Example #1
+\{1\} listesindeki tek değeri bulur.
 ```powerquery
 List.SingleOrDefault({1})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-\{} listesindeki tek değeri bulur.
+### Example #2
+\{\} listesindeki tek değeri bulur.
 ```powerquery
 List.SingleOrDefault({})
 ```
@@ -49,8 +49,8 @@ null
 ```
 
 
-### Example #3 
-\{} listesindeki tek değeri bulur. Boşsa -1 döndürür.
+### Example #3
+\{\} listesindeki tek değeri bulur. Boşsa -1 döndürür.
 ```powerquery
 List.SingleOrDefault({}, -1)
 ```

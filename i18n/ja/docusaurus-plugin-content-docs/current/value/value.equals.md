@@ -21,7 +21,7 @@ Value.Equals(
 
 ## Remarks
 
-値 <code>value1</code> が値 <code>value2</code> と等しい場合は true、それ以外の場合は false を返します。
+値 `value1` が値 `value2` と等しい場合は true、それ以外の場合は false を返します。
 
 
 

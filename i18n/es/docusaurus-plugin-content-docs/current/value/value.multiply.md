@@ -21,7 +21,7 @@ Value.Multiply(
 
 ## Remarks
 
-Devuelve el producto de multiplicar <code>value1</code> por <code>value2</code>. Se puede especificar un parámetro opcional <code>precision</code>, de manera predeterminada se usa <code>Precision.Double</code>.
+Devuelve el producto de multiplicar `value1` por `value2`. Se puede especificar un parámetro opcional `precision`, de manera predeterminada se usa `Precision.Double`.
 
 
 

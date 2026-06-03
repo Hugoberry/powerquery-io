@@ -19,12 +19,12 @@ Text.Clean(
 
 ## Remarks
 
-Gibt einen Textwert ohne jegliche Steuerzeichen von "<code>text</code>" zurück.
+Gibt einen Textwert ohne jegliche Steuerzeichen von "`text`" zurück.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Entfernt Zeilenvorschübe und andere Steuerzeichen aus einem Textwert.
 ```powerquery
 Text.Clean("ABC#(lf)D")

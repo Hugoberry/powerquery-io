@@ -20,13 +20,13 @@ List.FindText(
 
 ## Remarks
 
-Returnerar en lista med värden från listan <code>list</code> som innehöll värdet <code>text</code>.
+Returnerar en lista med värden från listan `list` som innehöll värdet `text`.
 
 
 ## Examples
 
-### Example #1 
-Hitta de textvärden i listan \{&#34;a&#34;, &#34;b&#34;, &#34;ab&#34;} som matchar &#34;a&#34;. 
+### Example #1
+Hitta de textvärden i listan \{"a", "b", "ab"\} som matchar "a".
 ```powerquery
 List.FindText({"a", "b", "ab"}, "a")
 ```

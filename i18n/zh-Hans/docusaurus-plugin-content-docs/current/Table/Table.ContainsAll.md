@@ -21,13 +21,13 @@ Table.ContainsAll(
 
 ## Remarks
 
-指示记录列表 <code>rows</code> 中所有指定的记录是否显示为 <code>table</code> 中的各行。    可以指定一个可选参数 <code>equationCriteria</code>，以控制表各行之间的比较。
+指示记录列表 `rows` 中所有指定的记录是否显示为 `table` 中的各行。 可以指定一个可选参数 `equationCriteria`，以控制表各行之间的比较。
 
 
 ## Examples
 
-### Example #1 
-确定表是否包含所有行，同时只比较列[CustomerID]。
+### Example #1
+确定表是否包含所有行，同时只比较列\[CustomerID\]。
 ```powerquery
 Table.ContainsAll(
     Table.FromRecords({
@@ -50,7 +50,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 确定表是否包含所有行。
 ```powerquery
 Table.ContainsAll(

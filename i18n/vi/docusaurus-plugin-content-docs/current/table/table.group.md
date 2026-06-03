@@ -23,13 +23,19 @@ Table.Group(
 
 ## Remarks
 
-Nhóm các hàng <code>table</code> theo các cột có khóa được xác định bởi <code>key</code>. <code>key</code> có thể là tên của một cột hoặc tên của danh sách cột.    Đối với mỗi nhóm, mỗi bản ghi sẽ được xây dựng bao gồm các cột có khóa (và giá trị của các cột này), cùng với mọi cột tổng hợp do <code>aggregatedColumns</code> chỉ định.    Theo tùy chọn, <code>groupKind</code> và <code>comparer</code> cũng có thể được chỉ định.<br />    <br />    Nếu dữ liệu đã được sắp xếp theo các cột có khóa thì <code>groupKind</code> của GroupKind.Local có thể được cung cấp. Điều này có thể cải thiện hiệu suất gộp nhóm trong một số trường hợp,    vì tất cả các hàng có bộ giá trị khóa đã cho đều được cho là liền nhau.<br />    <br />    Khi chuyển <code>comparer</code>, lưu ý rằng nếu coi các khóa khác nhau là giống nhau thì một hàng có thể bị đặt trong một nhóm có khóa khác với khóa của hàng đó.<br />    <br />    Hàm này không đảm bảo thứ tự của các hàng trả về.  
+Nhóm các hàng `table` theo các cột có khóa được xác định bởi `key`. `key` có thể là tên của một cột hoặc tên của danh sách cột. Đối với mỗi nhóm, mỗi bản ghi sẽ được xây dựng bao gồm các cột có khóa (và giá trị của các cột này), cùng với mọi cột tổng hợp do `aggregatedColumns` chỉ định. Theo tùy chọn, `groupKind` và `comparer` cũng có thể được chỉ định.  
+  
+Nếu dữ liệu đã được sắp xếp theo các cột có khóa thì `groupKind` của GroupKind.Local có thể được cung cấp. Điều này có thể cải thiện hiệu suất gộp nhóm trong một số trường hợp, vì tất cả các hàng có bộ giá trị khóa đã cho đều được cho là liền nhau.  
+  
+Khi chuyển `comparer`, lưu ý rằng nếu coi các khóa khác nhau là giống nhau thì một hàng có thể bị đặt trong một nhóm có khóa khác với khóa của hàng đó.  
+  
+Hàm này không đảm bảo thứ tự của các hàng trả về.
 
 
 ## Examples
 
-### Example #1 
-Nhóm bảng cộng thêm một cột tính gộp [total] chứa tổng số giá (&#34;each List.Sum([price])&#34;).
+### Example #1
+Nhóm bảng cộng thêm một cột tính gộp \[total\] chứa tổng số giá ("each List.Sum(\[price\])").
 ```powerquery
 Table.Group(
     Table.FromRecords({

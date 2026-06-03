@@ -19,7 +19,7 @@ Excel.CurrentWorkbook(
 
 ## Remarks
 
-Devolve o conteúdo do livro atual do Excel. Devolve tabelas, intervalos com nome e matrizes dinâmicas. Ao contrário de <code>Excel.Workbook</code>, não devolve folhas.
+Devolve o conteúdo do livro atual do Excel. Devolve tabelas, intervalos com nome e matrizes dinâmicas. Ao contrário de `Excel.Workbook`, não devolve folhas.
 
 
 

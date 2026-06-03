@@ -21,13 +21,21 @@ Text.EndsWith(
 
 ## Remarks
 
-Indica se o texto especificado, <code>text</code>, termina com o valor especificado, <code>substring</code>. A indicação é sensível a maiúsculas e minúsculas.      <div>         <code>comparer</code>é um <code>Comparer</code> que é utilizado no controlo da comparação. Os comparadores podem ser utilizados para fornecer comparações não sensíveis a maiúsculas/minúsculas ou baseadas na cultura ou na região.      </div>      <div>        Os comparadores incorporados seguintes estão disponíveis na linguagem da fórmula:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: utilizado para executar uma comparação ordinal exata</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: utilizado para executar uma comparação ordinal exata não sensível a maiúsculas/minúsculas</li>        <li> <code>Comparer.FromCulture</code>: utilizado para executar uma comparação baseada na cultura</li>      </ul>
+Indica se o texto especificado, `text`, termina com o valor especificado, `substring`. A indicação é sensível a maiúsculas e minúsculas.
+
+`comparer`é um `Comparer` que é utilizado no controlo da comparação. Os comparadores podem ser utilizados para fornecer comparações não sensíveis a maiúsculas/minúsculas ou baseadas na cultura ou na região.
+
+Os comparadores incorporados seguintes estão disponíveis na linguagem da fórmula:
+
+-   `Comparer.Ordinal`: utilizado para executar uma comparação ordinal exata
+-   `Comparer.OrdinalIgnoreCase`: utilizado para executar uma comparação ordinal exata não sensível a maiúsculas/minúsculas
+-   `Comparer.FromCulture`: utilizado para executar uma comparação baseada na cultura
 
 
 ## Examples
 
-### Example #1 
-Verificar se &#34;Olá, Mundo&#34; termina com &#34;mundo&#34;.
+### Example #1
+Verificar se "Olá, Mundo" termina com "mundo".
 ```powerquery
 Text.EndsWith("Hello, World", "world")
 ```
@@ -38,8 +46,8 @@ false
 ```
 
 
-### Example #2 
-Verificar se &#34;Olá, Mundo&#34; termina com &#34;Mundo&#34;.
+### Example #2
+Verificar se "Olá, Mundo" termina com "Mundo".
 ```powerquery
 Text.EndsWith("Hello, World", "World")
 ```

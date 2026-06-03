@@ -22,12 +22,18 @@ Diagnostics.Trace(
 
 ## Remarks
 
-写入跟踪 <code>message</code> (如果已启用跟踪的话)并返回 <code>value</code>。可选参数 <code>delayed</code> 指定了是否延迟计算 <code>value</code> 直到跟踪到消息。<code>traceLevel</code> 可取以下任一值:    <code>TraceLevel.Critical</code>    <code>TraceLevel.Error</code>、    <code>TraceLevel.Warning</code>、    <code>TraceLevel.Information</code>、    <code>TraceLevel.Verbose</code>。  
+写入跟踪 `message` (如果已启用跟踪)并返回 `value`。可选参数 `delayed` 指定了是否延迟计算 `value` 直到跟踪到消息。`traceLevel` 可取以下任一值:
+
+-   `TraceLevel.Critical`
+-   `TraceLevel.Error`
+-   `TraceLevel.Warning`
+-   `TraceLevel.Information`
+-   `TraceLevel.Verbose`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 在调用 Text.From 函数前跟踪消息，并返回结果。
 ```powerquery
 Diagnostics.Trace(TraceLevel.Information, "TextValueFromNumber", () => Text.From(123), true)

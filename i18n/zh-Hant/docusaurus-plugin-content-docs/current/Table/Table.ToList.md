@@ -25,7 +25,7 @@ Table.ToList(
 
 ## Examples
 
-### Example #1 
+### Example #1
 使用逗號將每個資料列的文字合併。
 ```powerquery
 Table.ToList(

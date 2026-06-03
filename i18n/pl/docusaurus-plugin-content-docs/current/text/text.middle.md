@@ -21,12 +21,12 @@ Text.Middle(
 
 ## Remarks
 
-Zwraca ciąg o długości <code>count</code> znaków lub do końca elementu <code>text</code> przy przesunięciu <code>start</code>.
+Zwraca ciąg o długości `count` znaków lub do końca elementu `text` przy przesunięciu `start`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź podciąg w tekście „Hello World”, począwszy od indeksu 6 do 5. znaku.
 ```powerquery
 Text.Middle("Hello World", 6, 5)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Znajdź podciąg w tekście „Hello World”, począwszy od indeksu 6 do końca.
 ```powerquery
 Text.Middle("Hello World", 6, 20)
@@ -47,6 +47,18 @@ Text.Middle("Hello World", 6, 20)
 Result: 
 ```powerquery
 "World"
+```
+
+
+### Example #3
+Znajdź podciąg w tekście „Hello World”, począwszy od indeksu 0 do 2. znaku.
+```powerquery
+Text.Middle("Hello World", 0, 2)
+```
+
+Result: 
+```powerquery
+"He"
 ```
 
 

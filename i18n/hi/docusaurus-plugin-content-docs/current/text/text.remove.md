@@ -20,12 +20,12 @@ Text.Remove(
 
 ## Remarks
 
-<code>removeChars</code> से निकाले गए सभी वर्णों के साथ पाठ मान <code>text</code> की प्रति लौटाता है.  
+`removeChars` से निकाले गए सभी वर्णों के साथ पाठ मान `text` की प्रति लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 पाठ मान से वर्ण और ; निकालें.
 ```powerquery
 Text.Remove("a,b;c", {",",";"})

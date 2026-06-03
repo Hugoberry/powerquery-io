@@ -19,7 +19,13 @@ Table.ViewFunction(
 
 ## Remarks
 
-Crea una funzione di visualizzazione basata su<code>function</code>che può essere gestita in una vista creata da <code>Table.View</code>.<br />È possibile usare il gestore <code>OnInvoke</code> di <code>Table.View</code> per definire un gestore per la funzione di visualizzazione.<br />Come per i gestori di operazioni predefinite, se non viene specificato un gestore <code>OnInvoke</code> o se questo non gestisce la funzione di visualizzazione, oppure se il gestore genera un errore,<code>function</code>viene applicato sopra la vista.<br />Per una descrizione più dettagliata di <code>Table.View</code> e delle funzioni di visualizzazione personalizzate, vedere la documentazione pubblicata.<br />
+Crea una funzione di visualizzazione basata su`function`che può essere gestita in una vista creata da `Table.View`.
+
+È possibile usare il gestore `OnInvoke` di `Table.View` per definire un gestore per la funzione di visualizzazione.
+
+Come per i gestori di operazioni predefinite, se non viene specificato un gestore `OnInvoke` o se questo non gestisce la funzione di visualizzazione, oppure se il gestore genera un errore,`function`viene applicato sopra la vista.
+
+Per una descrizione più dettagliata di `Table.View` e delle funzioni di visualizzazione personalizzate, vedere la documentazione pubblicata.
 
 
 

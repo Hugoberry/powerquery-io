@@ -21,13 +21,13 @@ Table.ContainsAll(
 
 ## Remarks
 
-レコードのリスト <code>rows</code> で指定されたすべてのレコードが <code>table</code> に行として含まれているかどうかを示します。    省略可能なパラメーター <code>equationCriteria</code> を指定すると、テーブルの行と行の比較を制御できます。
+レコードのリスト `rows` で指定されたすべてのレコードが `table` に行として含まれているかどうかを示します。 省略可能なパラメーター `equationCriteria` を指定すると、テーブルの行と行の比較を制御できます。
 
 
 ## Examples
 
-### Example #1 
-列 [CustomerID] のみを比較して、テーブルにすべての行が含まれているかどうかを調べます。
+### Example #1
+列 \[CustomerID\] のみを比較して、テーブルにすべての行が含まれているかどうかを調べます。
 ```powerquery
 Table.ContainsAll(
     Table.FromRecords({
@@ -50,7 +50,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 テーブルにすべての行が含まれているかどうかを調べます。
 ```powerquery
 Table.ContainsAll(

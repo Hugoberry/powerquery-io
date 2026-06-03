@@ -22,13 +22,18 @@ Table.Partition(
 
 ## Remarks
 
-Partiziona <code>table</code> in un elenco di <code>groups</code> tabelle in base al valore di <code>column</code> e alla funzione <code>hash</code>.    La funzione <code>hash</code> viene applicata al valore della riga <code>column</code> per ottenere un valore hash per la riga. Il modulo del valore hash <code>groups</code> determina la tabella restituita in cui verrà inserita la riga.    <ul>       <li><code>table</code>: tabella da partizionare.</li>       <li><code>column</code>: colonna di cui eseguire l'hashing per determinare la tabella restituita in cui si trova la riga.</li>       <li><code>groups</code>: numero di tabelle in cui verrà partizionata la tabella di input.</li>       <li><code>hash</code>: funzione applicata per ottenere un valore hash.</li>    </ul>  
+Partiziona `table` in un elenco di `groups` tabelle in base al valore di `column` e alla funzione `hash`. La funzione `hash` viene applicata al valore della riga `column` per ottenere un valore hash per la riga. Il modulo del valore hash `groups` determina la tabella restituita in cui verrà inserita la riga.
+
+-   `table`: tabella da partizionare.
+-   `column`: colonna di cui eseguire l'hashing per determinare la tabella restituita in cui si trova la riga.
+-   `groups`: numero di tabelle in cui verrà partizionata la tabella di input.
+-   `hash`: funzione applicata per ottenere un valore hash.
 
 
 ## Examples
 
-### Example #1 
-Partizionare la tabella &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt; in 2 tabelle nella colonna [a], utilizzando il valore delle colonne come funzione hash.
+### Example #1
+Partizionare la tabella `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})` in 2 tabelle nella colonna \[a\], utilizzando il valore delle colonne come funzione hash.
 ```powerquery
 Table.Partition(
     Table.FromRecords({

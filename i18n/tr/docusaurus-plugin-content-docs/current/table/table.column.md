@@ -20,13 +20,13 @@ Table.Column(
 
 ## Remarks
 
-<code>table</code> tablosundan <code>column</code> tarafından belirtilen veri sütununu liste olarak döndürür.
+`table` tablosundan `column` tarafından belirtilen veri sütununu liste olarak döndürür.
 
 
 ## Examples
 
-### Example #1 
-Tablodaki [Name] sütununda bulunan değerleri döndürür.
+### Example #1
+Tablodaki \[Name\] sütununda bulunan değerleri döndürür.
 ```powerquery
 Table.Column(
     Table.FromRecords({

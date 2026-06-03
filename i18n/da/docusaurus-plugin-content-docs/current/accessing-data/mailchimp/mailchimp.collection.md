@@ -25,8 +25,8 @@ Foretager et kald til MailChimp-API'en og returnerer det resulterende datasæt s
 
 ## Examples
 
-### Example #1 
-Udtrækker en datatabel fra slutpunktet for MailChimp-API&#39;ens liste.
+### Example #1
+Udtrækker en datatabel fra slutpunktet for MailChimp-API'ens liste.
 ```powerquery
 MailChimp.Collection("lister")
 ```
@@ -37,8 +37,8 @@ En tabel med listedata.
 ```
 
 
-### Example #2 
-Udtrækker en datatabel fra slutpunktet for MailChimp-API&#39;ens kampagnemapper.
+### Example #2
+Udtrækker en datatabel fra slutpunktet for MailChimp-API'ens kampagnemapper.
 ```powerquery
 MailChimp.Collection("kampagnemapper", "mapper")
 ```

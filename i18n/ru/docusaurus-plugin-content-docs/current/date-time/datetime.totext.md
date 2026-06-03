@@ -21,13 +21,18 @@ DateTime.ToText(
 
 ## Remarks
 
-Возвращает текстовое представление <code>dateTime</code>. При необходимости можно задать необязательный параметр <code>options</code> типа <code>record</code> для указания дополнительных свойств. Параметр <code>culture</code> используется только для рабочих процессов прежних версий. В состав <code>record</code> могут входить следующие поля:<ul>   <li><code>Format</code>. Значение типа <code>text</code>, указывающее используемый формат. Дополнительные сведения: https://go.microsoft.com/fwlink/?linkid=2180104 и https://go.microsoft.com/fwlink/?linkid=2180105. Если пропустить это поле или указать <code>NULL</code>, будет использован формат даты по умолчанию, заданный в <code>Culture</code>.</li>   <li><code>Culture</code>: если <code>Format</code> не имеет значения NULL, <code>Culture</code> управляет определенными спецификаторами формата. Например, при использовании <code>"en-US"</code> значение <code>"MMM"</code> представляется как <code>"Jan", "Feb", "Mar", …</code>, тогда как для <code>"ru-RU"</code> значение <code>"MMM"</code> выглядит как <code>"янв", "фев", "мар", …</code>. Если <code>Format</code> имеет значение <code>NULL</code>, <code>Culture</code> задает формат, используемый по умолчанию. Если значение <code>Culture</code> равно <code>NULL</code> или пропущено, используется <code>Culture.Current</code>.</li></ul>Для поддержки прежних версий рабочих процессов <code>options</code> и <code>culture</code> также могут быть текстовыми значениями. При этом происходит то же самое, что и при <code>options</code><code> = [Format = <code>options</code>, Culture = <code>culture</code>]</code>.
+Возвращает текстовое представление `dateTime`. Необязательный параметр `record`, `options` может быть указан для задания дополнительных свойств. `culture` используется только для устаревших рабочих процессов. В состав `record` могут входить следующие поля:
+
+-   `Format`: значение `text`, указывающее используемый формат. Для получения более дополнительных сведений перейдите по ссылкам https://go.microsoft.com/fwlink/?linkid=2180104 и https://go.microsoft.com/fwlink/?linkid=2180105. Если опустить это поле или указать значение `null`, дата будет отформатирована с использованием параметров по умолчанию, определенных параметром `Culture`.
+-   `Culture`: Если `Format` не равен null, параметр `Culture` управляет некоторыми спецификаторами формата. Например, в `"en-US"` `"MMM"` — это `"Jan", "Feb", "Mar", ...`, тогда как в `"ru-RU"` `"MMM"` — это `"янв", "фев", "мар", ...`. Если `Format` имеет значение `null`, параметр `Culture` определяет используемый формат по умолчанию. Если значение `Culture` равно `null` или пропущено, используется `Culture.Current`.
+
+Для поддержки прежних версий рабочих процессов `options` и `culture` также могут быть текстовыми значениями. Это ведет себя так же, как если бы `options = [Format = options, Culture = culture]`.
 
 
 ## Examples
 
-### Example #1 
-Преобразование &lt;code&gt;#datetime(2010, 12, 31, 01, 30, 25)&lt;/code&gt; в значение &lt;code&gt;text&lt;/code&gt;. &lt;i&gt;Результат может зависеть от текущего языка и региональных параметров.&lt;/i&gt;
+### Example #1
+Преобразование `#datetime(2010, 12, 31, 01, 30, 25)` в значение `text`. *Результат может зависеть от текущего языка и региональных параметров.*
 ```powerquery
 DateTime.ToText(#datetime(2010, 12, 31, 01, 30, 25))
 ```
@@ -38,7 +43,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Преобразование с помощью пользовательского формата и м формате и немецкого языка и региональных параметров.
 ```powerquery
 DateTime.ToText(#datetime(2010, 12, 30, 2, 4, 50.36973), [Format="dd MMM yyyy HH:mm:ss.ffffff", Culture="de-DE"])
@@ -50,7 +55,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Преобразование с помощью шаблона ISO 8601.
 ```powerquery
 DateTime.ToText(#datetime(2000, 2, 8, 3, 45, 12),[Format="yyyy-MM-dd'T'HH:mm:ss'Z'", Culture="en-US"])

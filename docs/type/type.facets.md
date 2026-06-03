@@ -19,7 +19,7 @@ Type.Facets(
 
 ## Remarks
 
-Returns a record containing the facets of <code>type</code>.
+Returns a record containing the facets of `type`.
 
 
 

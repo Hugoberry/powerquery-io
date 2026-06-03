@@ -24,7 +24,7 @@ Number.Random(
 
 ## Examples
 
-### Example #1 
+### Example #1
 乱数を取得します。
 ```powerquery
 Number.Random()

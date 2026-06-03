@@ -21,7 +21,7 @@ Value.NullableEquals(
 
 ## Remarks
 
-引数 '<code>value1</code>', '<code>value2</code>' が NULL であるか、Value.Equals に等しい場合は、NULL を返します。
+引数 `value1` または `value2` が null 値であるか、Value.Equals に等しい場合は、null 値を返します。
 
 
 

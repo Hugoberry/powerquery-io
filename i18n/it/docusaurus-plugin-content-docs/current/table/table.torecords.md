@@ -19,12 +19,12 @@ Table.ToRecords(
 
 ## Remarks
 
-Converte la tabella <code>table</code> in un elenco di record.
+Converte la tabella `table` in un elenco di record.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Converte la tabella in un elenco di record.
 ```powerquery
 Table.ToRecords(

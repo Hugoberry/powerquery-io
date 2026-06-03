@@ -19,12 +19,12 @@ BinaryFormat.Record(
 
 ## Remarks
 
-Trả về một định dạng nhị phân đọc một bản ghi.  Tham số <code>record</code> chỉ định định dạng của bản ghi.  Mỗi trường trong bản ghi có một định dạng nhị phân khác.  Nếu trường chứa một giá trị không phải là giá trị định dạng nhị phân thì không có dữ liệu nào được đọc đối với trường đó và giá trị trường được hồi báo vào kết quả.
+Trả về một định dạng nhị phân đọc một bản ghi. Tham số `record` chỉ định định dạng của bản ghi. Mỗi trường trong bản ghi có một định dạng nhị phân khác. Nếu trường chứa một giá trị không phải là giá trị định dạng nhị phân thì không có dữ liệu nào được đọc đối với trường đó và giá trị trường được hồi báo vào kết quả.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Đọc một bản ghi chứa một số nguyên 16 bit và một số nguyên 32 bit.
 ```powerquery
 let

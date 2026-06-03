@@ -5,7 +5,7 @@ title: Zendesk.Tables
 # Zendesk.Tables
 
 
-Specificare l&#39;URL dell&#39;account Zendesk.
+Specificare l'URL dell'account Zendesk.
 
 
 ## Syntax

@@ -19,12 +19,12 @@ Record.ToList(
 
 ## Remarks
 
-ऐसा मानों की सूची लौटाता है जिनमें इनपुट <code>record</code> के फ़ील्ड मान होते हैं.
+ऐसा मानों की सूची लौटाता है जिनमें इनपुट `record` के फ़ील्ड मान होते हैं.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 किसी रिकॉर्ड से फ़ील्ड मान निकालें.
 ```powerquery
 Record.ToList([A = 1, B = 2, C = 3])

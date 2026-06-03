@@ -19,7 +19,7 @@ Number.Asin(
 
 ## Remarks
 
-Retourneert de arcsinus van <code>number</code>.
+Retourneert de arcsinus van `number`.
 
 
 

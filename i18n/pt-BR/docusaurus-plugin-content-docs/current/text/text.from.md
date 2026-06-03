@@ -20,12 +20,15 @@ Text.From(
 
 ## Remarks
 
-Retorna a representação de texto de <code>value</code>. <code>value</code> pode ser um valor <code>number</code>, <code>date</code>, <code>time</code>, <code>datetime</code>, <code>datetimezone</code>, <code>logical</code>, <code>duration</code> ou <code>binary</code>.    Se o valor especificado for null, <code>Text.From</code> retornará null. Um <code>culture</code> opcional também pode ser fornecido (por exemplo, "en-US").
+Retorna a representação de texto de um valor especificado.
+
+-   `value`: o valor a ser convertido em texto. O valor pode ser um `number`, `date`, `time`, `datetime`, `datetimezone`, `logical`, `duration` ou `binary`. Se o valor fornecido for `null`, essa função retornará `null`.
+-   `culture`: (Opcional) A cultura a ser usada ao converter o valor em texto (por exemplo, "en-US").
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Crie um valor de texto a partir do número 3.
 ```powerquery
 Text.From(3)
@@ -34,6 +37,73 @@ Text.From(3)
 Result: 
 ```powerquery
 "3"
+```
+
+
+### Example #2
+Obtenha o equivalente de texto da data e hora especificadas.
+```powerquery
+Text.From(#datetime(2024, 6, 24, 14, 32, 22))
+```
+
+Result: 
+```powerquery
+"6/24/2024 2:32:22 PM"
+```
+
+
+### Example #3
+Obtenha o equivalente de texto em alemão da data e hora especificadas.
+```powerquery
+Text.From(#datetime(2024, 6, 24, 14, 32, 22), "de-DE")
+```
+
+Result: 
+```powerquery
+"24.06.2024 14:32:22"
+```
+
+
+### Example #4
+Obtenha um valor binário do texto codificado como hexadecimal e altere o valor de volta para texto.
+```powerquery
+Text.From(Binary.FromText("10FF", BinaryEncoding.Hex))
+```
+
+Result: 
+```powerquery
+"EP8="
+```
+
+
+### Example #5
+Obtenha as linhas na tabela que contêm dados para a França e converta as datas em texto usando a cultura francesa.
+```powerquery
+let
+    Source = #table(type table [Company ID = text, Country = text, Date = date],
+    {
+        {"JS-464", "USA", #date(2024, 3, 24)},
+        {"LT-331", "France", #date(2024, 10, 5)},
+        {"XE-100", "USA", #date(2024, 5, 21)},
+        {"RT-430", "Germany", #date(2024, 1,18)},
+        {"LS-005", "France", #date(2023, 12, 31)},
+        {"UW-220", "Germany", #date(2024, 2, 25)}
+    }),
+    #"Convert Dates" = Table.TransformColumns(
+        Table.SelectRows(Source, each [Country] = "France"),
+        {"Date", each Text.From(_, "fr-FR")}
+    )
+in
+    #"Convert Dates"
+```
+
+Result: 
+```powerquery
+#table(type table [Company ID = text, Country = text, Date = text],
+{
+    {"LT-331", "France", "05/10/2024"},
+    {"LS-005", "France", "31/12/2023"}
+})
 ```
 
 

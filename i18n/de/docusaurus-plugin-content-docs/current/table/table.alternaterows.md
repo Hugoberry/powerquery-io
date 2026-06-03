@@ -22,12 +22,17 @@ Table.AlternateRows(
 
 ## Remarks
 
-Behält den Ausgangsoffset bei und wechselt dann zwischen Verwendung und Überspringung der anschließenden Zeilen.    <ul>       <li><code>table</code>: Die Eingabetabelle.</li>       <li><code>offset</code>: Die Anzahl der beizubehaltenden Zeilen bis zum Beginn der Iterationen.</li>       <li><code>skip</code>: Die Anzahl von Zeilen, die pro Iteration entfernt werden sollen.</li>       <li><code>take</code>: Die Anzahl von Zeilen, die pro Iteration erhalten bleiben sollen.</li>    </ul>    
+Behält den Ausgangsoffset bei und wechselt dann zwischen Verwendung und Überspringung der anschließenden Zeilen.
+
+-   `table`: Die Eingabetabelle.
+-   `offset`: Die Anzahl der beizubehaltenden Zeilen bis zum Beginn der Iterationen.
+-   `skip`: Die Anzahl von Zeilen, die pro Iteration entfernt werden sollen.
+-   `take`: Die Anzahl von Zeilen, die pro Iteration erhalten bleiben sollen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gibt eine Tabelle aus der Tabelle zurück, die in der ersten Zeile beginnt, einen Wert überspringt und dann einen Wert beibehält.
 ```powerquery
 Table.AlternateRows(

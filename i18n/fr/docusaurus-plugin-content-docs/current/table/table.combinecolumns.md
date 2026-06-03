@@ -5,7 +5,7 @@ title: Table.CombineColumns
 # Table.CombineColumns
 
 
-Associe les colonnes spécifiées dans une nouvelle colonne à l&#39;aide de la fonction d&#39;association spécifiée.
+Associe les colonnes spécifiées dans une nouvelle colonne à l'aide de la fonction d'association spécifiée.
 
 
 ## Syntax
@@ -27,7 +27,7 @@ Associe les colonnes spécifiées dans une nouvelle colonne à l'aide de la fonc
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combinez le nom et le prénom dans une nouvelle colonne, en les séparant par une virgule.
 ```powerquery
 Table.CombineColumns(

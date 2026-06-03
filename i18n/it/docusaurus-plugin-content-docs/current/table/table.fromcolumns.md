@@ -20,13 +20,13 @@ Table.FromColumns(
 
 ## Remarks
 
-Crea una tabella di tipo <code>columns</code> da un elenco <code>lists</code> che contiene elenchi annidati con nomi di colonna e valori.    Se alcune colonne contengono più valori di altre, i valori mancanti verranno riempiti con il valore predefinito 'null', se le colonne ammettono i valori Null.
+Crea una tabella di tipo `columns` da un elenco `lists` che contiene elenchi annidati con nomi di colonna e valori. Se alcune colonne contengono più valori di altre, i valori mancanti verranno riempiti con il valore predefinito 'null', se le colonne ammettono i valori Null.
 
 
 ## Examples
 
-### Example #1 
-Restituire una tabella da un elenco di nomi di clienti in un elenco. Ogni valore nell&#39;elemento elenco clienti diventa un valore di riga e ogni elenco diventa una colonna.
+### Example #1
+Restituire una tabella da un elenco di nomi di clienti in un elenco. Ogni valore nell'elemento elenco clienti diventa un valore di riga e ogni elenco diventa una colonna.
 ```powerquery
 Table.FromColumns({
     {1, "Bob", "123-4567"},
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Creare una tabella da un elenco di colonne specificato e un elenco di nomi di colonna.
 ```powerquery
 Table.FromColumns(
@@ -68,7 +68,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Creare una tabella con un numero diverso di colonne per riga. Il valore di riga mancante è Null.
 ```powerquery
 Table.FromColumns(

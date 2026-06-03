@@ -21,7 +21,7 @@ Value.Multiply(
 
 ## Remarks
 
-傳回 <code>value1</code> 乘以 <code>value2</code> 的乘積。可指定選擇性 <code>precision</code> 參數，預設使用 <code>Precision.Double</code>。
+傳回 `value1` 乘以 `value2` 的乘積。可指定選擇性 `precision` 參數，預設使用 `Precision.Double`。
 
 
 

@@ -19,12 +19,12 @@ Date.Year(
 
 ## Remarks
 
-Sağlanan <code>datetime</code> değeri olan <code>dateTime</code> değerinin yıl bileşenini döndürür.
+Sağlanan `datetime` değeri olan `dateTime` değerinin yıl bileşenini döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 #datetime(2011, 12, 31, 9, 15, 36) içindeki yılı bulur.
 ```powerquery
 Date.Year(#datetime(2011, 12, 31, 9, 15, 36))

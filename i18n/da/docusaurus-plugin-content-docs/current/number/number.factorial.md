@@ -19,12 +19,12 @@ Number.Factorial(
 
 ## Remarks
 
-Returnerer tallets fakultet <code>number</code>.
+Returnerer tallets fakultet `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find fakultetet 10.
 ```powerquery
 Number.Factorial(10)

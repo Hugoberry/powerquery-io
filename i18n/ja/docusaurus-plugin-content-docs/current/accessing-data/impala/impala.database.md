@@ -20,12 +20,12 @@ Impala.Database(
 
 ## Remarks
 
-Impala クラスター <code>server</code> からデータをインポートします。ポートが指定されていない場合、既定のポート 21050 を使用します。
+Impala クラスター `server` からデータをインポートします。ポートが指定されていない場合、既定のポート 21050 を使用します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Impala クラスター内のテーブルを一覧にします。
 ```powerquery
 Impala.Database("localhost:21050")

@@ -19,7 +19,7 @@ Exchange.Contents(
 
 ## Remarks
 
-Возвращает содержание из учетной записи "<code>mailboxAddress</code>" Microsoft Exchange. Если "<code>mailboxAddress</code>" не указана, будет использоваться учетная запись по умолчанию для учетных данных.
+Возвращает содержание из учетной записи "`mailboxAddress`" Microsoft Exchange. Если "`mailboxAddress`" не указана, будет использоваться учетная запись по умолчанию для учетных данных.
 
 
 

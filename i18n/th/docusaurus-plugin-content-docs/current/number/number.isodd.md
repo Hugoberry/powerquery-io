@@ -19,12 +19,12 @@ Number.IsOdd(
 
 ## Remarks
 
-ระบุว่าค่าเป็นเลขคี่หรือไม่ ส่งกลับ <code>true</code> ถ้า <code>number</code> เป็นจำนวนคี่ และ <code>false</code> ถ้าไม่ใช่
+ระบุว่าค่าเป็นเลขคี่หรือไม่ ส่งกลับ `true` ถ้า `number` เป็นจำนวนคี่ และ `false` ถ้าไม่ใช่
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ตรวจสอบว่า 625 เป็นจำนวนคี่หรือไม่
 ```powerquery
 Number.IsOdd(625)
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 ตรวจสอบว่า 82 เป็นจำนวนคี่หรือไม่
 ```powerquery
 Number.IsOdd(82)

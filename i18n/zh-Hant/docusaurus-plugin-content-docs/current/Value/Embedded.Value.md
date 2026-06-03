@@ -5,7 +5,7 @@ title: Embedded.Value
 # Embedded.Value
 
 
-依名稱存取內嵌 mashup 中的值。
+此函式僅供內部使用。
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Embedded.Value(
 
 ## Remarks
 
-依名稱存取內嵌 mashup 中的值。
+此函式僅供內部使用。
 
 
 

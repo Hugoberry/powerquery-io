@@ -19,13 +19,13 @@ Type.FunctionParameters(
 
 ## Remarks
 
-Retourneert een record met veldwaarden die zijn ingesteld op de naam van de parameters van <code>type</code>, waarbij hun waarden zijn ingesteld op de overeenkomende typen.
+Retourneert een record met veldwaarden die zijn ingesteld op de naam van de parameters van `type`, waarbij hun waarden zijn ingesteld op de overeenkomende typen.
 
 
 ## Examples
 
-### Example #1 
-Zoek de typen parameters voor de functie &lt;code&gt;(x als getal, y als tekst)&lt;/code&gt;.
+### Example #1
+Zoek de typen parameters voor de functie `(x als getal, y als tekst)`.
 ```powerquery
 Type.FunctionParameters(type function (x as number, y as text) as any)
 ```

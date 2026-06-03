@@ -5,7 +5,7 @@ title: Value.Optimize
 # Value.Optimize
 
 
-Segnala a Value.Expression di restituire l&#39;espressione ottimizzata per un valore.
+Segnala a Value.Expression di restituire l'espressione ottimizzata per un valore.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Value.Optimize(
 
 ## Remarks
 
-Quando usata all'interno di Value.Expression, se <code>value</code> rappresenta una query che può essere ottimizzata, questa funzione indica che deve essere restituita l'espressione ottimizzata. In caso contrario, verrà passato il valore <code>value</code> senza alcun effetto.
+Quando usata all'interno di Value.Expression, se `value` rappresenta una query che può essere ottimizzata, questa funzione indica che deve essere restituita l'espressione ottimizzata. In caso contrario, verrà passato il valore `value` senza alcun effetto.
 
 
 

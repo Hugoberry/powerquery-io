@@ -24,7 +24,7 @@ Gibt eine Liste der verfügbaren Berichte und Monate aus der Azure Enterprise-AP
 
 ## Examples
 
-### Example #1 
+### Example #1
 Verwendet die AzureEnterprise.Tables-Funktion und navigiert zu einem bestimmten Wert, um die Ergebnisse abzurufen.
 ```powerquery
 let

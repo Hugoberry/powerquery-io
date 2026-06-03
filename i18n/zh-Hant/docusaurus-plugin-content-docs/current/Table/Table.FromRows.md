@@ -20,13 +20,13 @@ Table.FromRows(
 
 ## Remarks
 
-根據清單 <code>rows</code> 建立資料表，清單內每個項目都是包含單一列資料行值的內部清單。可為 <code>columns</code> 提供資料行名稱的選擇性清單、資料表類型或資料行數目。
+根據清單 `rows` 建立資料表，清單內每個項目都是包含單一列資料行值的內部清單。可為 `columns` 提供資料行名稱的選擇性清單、資料表類型或資料行數目。
 
 
 ## Examples
 
-### Example #1 
-傳回 [CustomerID] 資料行值為 \{1, 2} 、 [Name] 資料行值為 \{&#34;Bob&#34;, &#34;Jim&#34;} 及 [Phone] 資料行值為 \{&#34;123-4567&#34;, &#34;987-6543&#34;} 的資料表。
+### Example #1
+傳回 \[CustomerID\] 資料行值為 \{1, 2\} 、 \[Name\] 資料行值為 \{"Bob", "Jim"\} 及 \[Phone\] 資料行值為 \{"123-4567", "987-6543"\} 的資料表。
 ```powerquery
 Table.FromRows(
     {
@@ -46,8 +46,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-傳回 [CustomerID] 資料行值為 \{1, 2} 、 [Name] 資料行值為 \{&#34;Bob&#34;, &#34;Jim&#34;} 及 [Phone] 資料行值為 \{&#34;123-4567&#34;, &#34;987-6543&#34;} 的資料表，其中 [CustomerID] 是數字類型，而 [Name] 和 [Phone] 是文字類型。
+### Example #2
+傳回 \[CustomerID\] 資料行值為 \{1, 2\} 、 \[Name\] 資料行值為 \{"Bob", "Jim"\} 及 \[Phone\] 資料行值為 \{"123-4567", "987-6543"\} 的資料表，其中 \[CustomerID\] 是數字類型，而 \[Name\] 和 \[Phone\] 是文字類型。
 ```powerquery
 Table.FromRows(
     {

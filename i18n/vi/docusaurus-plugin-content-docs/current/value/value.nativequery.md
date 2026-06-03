@@ -22,7 +22,17 @@ Value.NativeQuery(
 
 ## Remarks
 
-Đánh giá <code>query</code> dựa trên <code>target</code> bằng các tham số được chỉ định trong <code>parameters</code> và tùy chọn được chỉ định trong <code>options</code>.<br />Đầu ra của truy vấn được xác định bởi <code>target</code>.<br /><code>target</code> cung cấp ngữ cảnh cho thao tác được mô tả bởi <code>query</code>.<br /><code>query</code> mô tả truy vấn được triển khai dựa trên <code>target</code>. <code>query</code> được thể hiện theo cách cụ thể đối với <code>target</code> (ví dụ: câu lệnh T-SQL).<br />Giá trị <code>parameters</code> không bắt buộc có thể chứa danh sách hoặc bản ghi phù hợp để cung cấp các giá trị tham số theo dự kiến của <code>query</code>.<br />Bản ghi <code>options</code> không bắt buộc có thể chứa các tùy chọn ảnh hưởng đến hành vi đánh giá của <code>query</code> dựa trên <code>target</code>. Những tùy chọn này là cụ thể đối với <code>target</code>.<br />
+Đánh giá `query` dựa trên `target` bằng các tham số được chỉ định trong `parameters` và tùy chọn được chỉ định trong `options`.
+
+Đầu ra của truy vấn được xác định bởi `target`.
+
+`target` cung cấp ngữ cảnh cho thao tác được mô tả bởi `query`.
+
+`query` mô tả truy vấn được triển khai dựa trên `target`. `query` được thể hiện theo cách cụ thể đối với `target` (ví dụ: câu lệnh T-SQL).
+
+Giá trị `parameters` không bắt buộc có thể chứa danh sách hoặc bản ghi phù hợp để cung cấp các giá trị tham số theo dự kiến của `query`.
+
+Bản ghi `options` không bắt buộc có thể chứa các tùy chọn ảnh hưởng đến hành vi đánh giá của `query` dựa trên `target`. Những tùy chọn này là cụ thể đối với `target`.
 
 
 

@@ -19,13 +19,13 @@ Type.FunctionRequiredParameters(
 
 ## Remarks
 
-傳回數字，表示叫用函數輸入 <code>type</code> 所需的最少參數數目。
+傳回數字，表示叫用函數輸入 `type` 所需的最少參數數目。
 
 
 ## Examples
 
-### Example #1 
-尋找函數 &lt;code&gt;(x as number, optional y as text)&lt;/code&gt; 的必要參數數目。
+### Example #1
+尋找函數 `(x as number, optional y as text)` 的必要參數數目。
 ```powerquery
 Type.FunctionRequiredParameters(type function (x as number, optional y as text) as any)
 ```

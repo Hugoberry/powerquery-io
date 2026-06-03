@@ -20,13 +20,13 @@ List.IsDistinct(
 
 ## Remarks
 
-傳回邏輯值，指出清單 <code>list</code> 中是否有重複項。如果是相異的清單，即為 <code>true</code>，如果有重複值，則為 <code>false</code>。
+傳回邏輯值，指出清單 `list` 中是否有重複項。如果是相異的清單，即為 `true`，如果有重複值，則為 `false`。
 
 
 ## Examples
 
-### Example #1 
-找出清單 \{1, 2, 3} 是否為相異 (即沒有重複項)。no duplicates).
+### Example #1
+找出清單 \{1, 2, 3\} 是否為相異 (即沒有重複項)。no duplicates).
 ```powerquery
 List.IsDistinct({1, 2, 3})
 ```
@@ -37,8 +37,8 @@ true
 ```
 
 
-### Example #2 
-找出清單 \{1, 2, 3, 3} 是否為相異 (即沒有重複項)。no duplicates).
+### Example #2
+找出清單 \{1, 2, 3, 3\} 是否為相異 (即沒有重複項)。no duplicates).
 ```powerquery
 List.IsDistinct({1, 2, 3, 3})
 ```

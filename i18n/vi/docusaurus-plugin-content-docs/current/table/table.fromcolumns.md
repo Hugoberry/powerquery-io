@@ -20,12 +20,12 @@ Table.FromColumns(
 
 ## Remarks
 
-Tạo một bảng thuộc loại <code>columns</code> từ danh sách <code>lists</code> chứa các danh sách lồng nhau với các tên cột và giá trị.    Nếu một số cột có nhiều giá trị hơn các cột khác thì giá trị bị thiếu sẽ được điền bằng giá trị mặc định là 'giá trị null' nếu các cột có thể có giá trị rỗng.
+Tạo một bảng thuộc loại `columns` từ danh sách `lists` chứa các danh sách lồng nhau với các tên cột và giá trị. Nếu một số cột có nhiều giá trị hơn các cột khác thì giá trị bị thiếu sẽ được điền bằng giá trị mặc định là 'giá trị null' nếu các cột có thể có giá trị rỗng.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trả về một bảng từ danh sách tên khách hàng trong một danh sách. Mỗi giá trị trong mục danh sách khách hàng trở thành một giá trị hàng và mỗi danh sách trở thành một cột.
 ```powerquery
 Table.FromColumns({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Tạo một bảng từ danh sách cột cho sẵn và danh sách tên cột.
 ```powerquery
 Table.FromColumns(
@@ -68,7 +68,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Tạo một bảng với số cột mỗi hàng khác nhau. Giá trị hàng bị thiếu là null.
 ```powerquery
 Table.FromColumns(

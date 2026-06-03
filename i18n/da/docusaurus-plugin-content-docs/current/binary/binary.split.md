@@ -20,7 +20,7 @@ Binary.Split(
 
 ## Remarks
 
-Opdeler <code>binary</code> til en liste over binære filer, hvor det første element på outputlisten er en binær fil, der indeholder de første <code>pageSize</code> byte fra den binære kilde, det næste element på outputlisten er en binær fil, der indeholder den næste <code>pageSize</code> byte fra den binære kilde osv.
+Opdeler `binary` til en liste over binære filer, hvor det første element på outputlisten er en binær fil, der indeholder de første `pageSize` byte fra den binære kilde, det næste element på outputlisten er en binær fil, der indeholder den næste `pageSize` byte fra den binære kilde osv.
 
 
 

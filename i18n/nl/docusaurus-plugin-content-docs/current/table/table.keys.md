@@ -24,7 +24,7 @@ Retourneert de sleutels van de opgegeven tabel.
 
 ## Examples
 
-### Example #1 
+### Example #1
 De lijst met sleutels voor een tabel ophalen.
 ```powerquery
 let

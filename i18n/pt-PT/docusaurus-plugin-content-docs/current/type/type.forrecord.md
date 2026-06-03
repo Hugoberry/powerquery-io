@@ -25,7 +25,7 @@ Devolve um tipo que representa registos com restrições de tipo específicas no
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gerar dinamicamente um tipo de tabela.
 ```powerquery
 let

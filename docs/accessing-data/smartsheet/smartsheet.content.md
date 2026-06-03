@@ -24,7 +24,7 @@ Makes a call to the Smartsheet 2.0 REST API at the specified endpoint and transf
 
 ## Examples
 
-### Example #1 
+### Example #1
 Pulls a table of users information from the Smartsheet API
 ```powerquery
 Smartsheet.Content("users")

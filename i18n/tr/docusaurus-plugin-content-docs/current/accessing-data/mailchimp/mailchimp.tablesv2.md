@@ -24,7 +24,7 @@ Anahtar MailChimp verilerinin yer aldığı bir tabloyu döndürür.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Anahtar MailChimp verilerinin yer aldığı bir tabloyu döndürür.
 ```powerquery
 MailChimp.Tables()

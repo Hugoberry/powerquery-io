@@ -21,13 +21,13 @@ Replacer.ReplaceText(
 
 ## Remarks
 
-मूल <code>text</code> के <code>old</code> पाठ को <code>new</code> पाठ के साथ प्रतिस्थापित करता है. इस प्रतिस्थापक का उपयोग <code>List.ReplaceValue</code> और <code>Table.ReplaceValue</code> में किया जा सकता है.
+मूल `text` के `old` पाठ को `new` पाठ के साथ प्रतिस्थापित करता है. इस प्रतिस्थापक का उपयोग `List.ReplaceValue` और `Table.ReplaceValue` में किया जा सकता है.
 
 
 ## Examples
 
-### Example #1 
-स्ट्रिंग &#34;hEllo world&#34; में पाठ &#34;hE&#34; को &#34;He&#34; के साथ प्रतिस्थापित करें.
+### Example #1
+स्ट्रिंग "hEllo world" में पाठ "hE" को "He" के साथ प्रतिस्थापित करें.
 ```powerquery
 Replacer.ReplaceText("hEllo world", "hE", "He")
 ```

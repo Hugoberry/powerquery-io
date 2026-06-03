@@ -19,12 +19,12 @@ Table.ToColumns(
 
 ## Remarks
 
-Maakt een lijst met geneste lijsten van de tabel, <code>table</code>.  Elk lijstitem is een interne lijst met de kolomwaarden.
+Maakt een lijst met geneste lijsten van de tabel, `table`. Elk lijstitem is een interne lijst met de kolomwaarden.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een lijst met de kolomwaarden uit de tabel maken.
 ```powerquery
 Table.ToColumns(

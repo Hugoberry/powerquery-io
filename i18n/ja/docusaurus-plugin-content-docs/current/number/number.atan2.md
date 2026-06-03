@@ -20,7 +20,7 @@ Number.Atan2(
 
 ## Remarks
 
-2 つの数 <code>y</code> と <code>x</code> の間で除算を行った結果のアークタンジェントを返します。除算の式は <code>y</code>/<code>x</code> となります。
+2 つの数値 `y`と`x` の商 `y`/`x` を正接とする角度をラジアン単位で返します。
 
 
 

@@ -20,12 +20,12 @@ BinaryFormat.Text(
 
 ## Remarks
 
-Returns a binary format that reads a text value.  The <code>length</code> specifies the number of bytes to decode, or the binary format of the length that precedes the text.  The optional <code>encoding</code> value specifies the encoding of the text.  If the <code>encoding</code> is not specified, then the encoding is determined from the Unicode byte order marks.  If no byte order marks are present, then <code>TextEncoding.Utf8</code> is used.
+Returns a binary format that reads a text value. The `length` specifies the number of bytes to decode, or the binary format of the length that precedes the text. The optional `encoding` value specifies the encoding of the text. If the `encoding` is not specified, then the encoding is determined from the Unicode byte order marks. If no byte order marks are present, then `TextEncoding.Utf8` is used.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Decode two bytes as ASCII text.
 ```powerquery
 let
@@ -41,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Decode ASCII text where the length of the text in bytes appears before the text as a byte.
 ```powerquery
 let

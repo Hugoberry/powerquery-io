@@ -23,7 +23,7 @@ SapBusinessWarehouse.Cubes(
 
 ## Remarks
 
-Retorna uma tabela de InfoCubes e consultas agrupadas por InfoArea de uma instância do SAP Business Warehouse no servidor <code>server</code> com o número do sistema <code>systemNumberOrSystemId</code> e a ID do Cliente <code>clientId</code>. Um parâmetro de registro opcional, <code>optionsOrLogonGroup</code>, pode ser especificado para controlar as opções a seguir:        
+Retorna uma tabela de InfoCubes e consultas agrupadas por InfoArea de uma instância do SAP Business Warehouse no servidor `server` com o número do sistema `systemNumberOrSystemId` e a ID do Cliente `clientId`. Um parâmetro de registro opcional, `optionsOrLogonGroup`, pode ser especificado para controlar as opções a seguir:
 
 
 

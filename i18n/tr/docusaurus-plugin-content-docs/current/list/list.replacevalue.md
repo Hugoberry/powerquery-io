@@ -22,13 +22,13 @@ List.ReplaceValue(
 
 ## Remarks
 
-<code>oldValue</code> değeri için bir <code>list</code> değer listesi arar ve her oluşumu <code>newValue</code> değiştirme değeri ile değiştirir.
+`oldValue` değeri için bir `list` değer listesi arar ve her oluşumu `newValue` değiştirme değeri ile değiştirir.
 
 
 ## Examples
 
-### Example #1 
-\{&#34;a&#34;, &#34;B&#34;, &#34;a&#34;, &#34;a&#34;} listesindeki tüm &#34;a&#34; değerlerini &#34;A&#34; ile değiştirir.
+### Example #1
+\{"a", "B", "a", "a"\} listesindeki tüm "a" değerlerini "A" ile değiştirir.
 ```powerquery
 List.ReplaceValue({"a", "B", "a", "a"}, "a", "A", Replacer.ReplaceText)
 ```

@@ -19,12 +19,12 @@ Table.ToRows(
 
 ## Remarks
 
-Tạo một danh sách chứa các danh sách lồng nhau từ bảng <code>table</code>.  Mỗi mục danh sách là một danh sách bên trong chứa các giá trị hàng.
+Tạo một danh sách chứa các danh sách lồng nhau từ bảng `table`. Mỗi mục danh sách là một danh sách bên trong chứa các giá trị hàng.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tạo một danh sách chứa các giá trị hàng từ bảng.
 ```powerquery
 Table.ToRows(

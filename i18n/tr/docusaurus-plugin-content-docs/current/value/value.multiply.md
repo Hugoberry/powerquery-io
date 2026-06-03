@@ -21,7 +21,7 @@ Value.Multiply(
 
 ## Remarks
 
-<code>value1</code> ile <code>value2</code> değerini çarpmanın sonucunu döndürür. İsteğe bağlı bir <code>precision</code> parametresi belirtilebilir, varsayılan olarak <code>Precision.Double</code> kullanılır.
+`value1` ile `value2` değerini çarpmanın sonucunu döndürür. İsteğe bağlı bir `precision` parametresi belirtilebilir, varsayılan olarak `Precision.Double` kullanılır.
 
 
 

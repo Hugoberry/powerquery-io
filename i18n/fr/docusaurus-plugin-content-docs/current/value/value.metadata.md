@@ -5,7 +5,7 @@ title: Value.Metadata
 # Value.Metadata
 
 
-Retourne un enregistrement qui contient les métadonnées de l&#39;entrée.
+Retourne un enregistrement qui contient les métadonnées de l'entrée.
 
 
 ## Syntax

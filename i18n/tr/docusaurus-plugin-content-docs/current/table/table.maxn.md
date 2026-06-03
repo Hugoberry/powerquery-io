@@ -21,13 +21,16 @@ Table.MaxN(
 
 ## Remarks
 
-<code>comparisonCriteria</code> durumunda, <code>table</code> öğesindeki en büyük satırları döndürür.    Satırlar sıralandıktan sonra, sonuçları daha fazla filtrelemek için <code>countOrCondition</code> parametresi belirtilmelidir. Sıralama algoritmasının, sabit sıralanmış bir sonucu garanti etmediğini unutmayın. <code>countOrCondition</code> parametresi birden fazla biçimde olabilir:    <ul>        <li> Bir sayı belirlenirse, en fazla <code>countOrCondition</code> öğe içeren, artan sıraya göre bir liste döndürülür. </li>        <li> Bir koşul belirlenirse, koşulu karşılayan bir öğe listesi döndürülür. Bir öğe koşulu karşılamazsa, diğer öğeler değerlendirilmez. </li> </ul>
+`comparisonCriteria` durumunda, `table` öğesindeki en büyük satırları döndürür. Satırlar sıralandıktan sonra, sonuçları daha fazla filtrelemek için `countOrCondition` parametresi belirtilmelidir. Sıralama algoritmasının, sabit sıralanmış bir sonucu garanti etmediğini unutmayın. `countOrCondition` parametresi birden fazla biçimde olabilir:
+
+-   Bir sayı belirlenirse, en fazla `countOrCondition` öğe içeren, artan sıraya göre bir liste döndürülür.
+-   Bir koşul belirlenirse, koşulu karşılayan bir öğe listesi döndürülür. Bir öğe koşulu karşılamazsa, diğer öğeler değerlendirilmez.
 
 
 ## Examples
 
-### Example #1 
-Tabloda [a] &gt; 0 koşulunu sağlayacak şekilde [a] sütununda en büyük değer bulunan satırı bulur. Satırlar, filtre uygulanmadan önce sıralanır.
+### Example #1
+Tabloda \[a\] > 0 koşulunu sağlayacak şekilde \[a\] sütununda en büyük değer bulunan satırı bulur. Satırlar, filtre uygulanmadan önce sıralanır.
 ```powerquery
 Table.MaxN(
     Table.FromRecords({
@@ -49,8 +52,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Tabloda [b] &gt; 0 koşulunu sağlayacak şekilde [a] sütununda en büyük değer bulunan satırı bulur. Satırlar, filtre uygulanmadan önce sıralanır.
+### Example #2
+Tabloda \[b\] > 0 koşulunu sağlayacak şekilde \[a\] sütununda en büyük değer bulunan satırı bulur. Satırlar, filtre uygulanmadan önce sıralanır.
 ```powerquery
 Table.MaxN(
     Table.FromRecords({

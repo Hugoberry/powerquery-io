@@ -19,12 +19,12 @@ Duration.Hours(
 
 ## Remarks
 
-ส่งกลับส่วนชั่วโมงของ <code>duration</code>
+ส่งกลับส่วนชั่วโมงของ `duration`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 แยกชั่วโมงจากค่าระยะเวลา
 ```powerquery
 Duration.Hours(#duration(5, 4, 3, 2))

@@ -19,12 +19,12 @@ Table.ToRows(
 
 ## Remarks
 
-Erstellt eine Liste mit geschachtelten Listen aus der Tabelle "<code>table</code>".  Jedes Listenelement ist eine innere Liste mit den Zeilenwerten.
+Erstellt eine Liste mit geschachtelten Listen aus der Tabelle "`table`". Jedes Listenelement ist eine innere Liste mit den Zeilenwerten.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Erstellt eine Liste mit den Zeilenwerten aus der Tabelle.
 ```powerquery
 Table.ToRows(

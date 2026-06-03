@@ -21,12 +21,12 @@ Spark.Tables(
 
 ## Remarks
 
-Возвращает таблицу со списком таблиц в <code>узле</code> кластера Spark с помощью <code>протокола</code>. Допустимые протоколы:SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
+Возвращает таблицу со списком таблиц в `узле` кластера Spark с помощью `протокола`. Допустимые протоколы: SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Список таблиц в экземпляре Azure Spark.
 ```powerquery
 Spark.Tables("contoso.azurehdinsight.net", SparkProtocol.Azure)

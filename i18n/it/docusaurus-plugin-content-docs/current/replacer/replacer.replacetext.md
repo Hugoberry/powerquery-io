@@ -5,7 +5,7 @@ title: Replacer.ReplaceText
 # Replacer.ReplaceText
 
 
-Sostituisce il testo nell&#39;input specificato.
+Sostituisce il testo nell'input specificato.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Replacer.ReplaceText(
 
 ## Remarks
 
-Sostituisce il testo <code>old</code> nell'originale <code>text</code> con il testo <code>new</code>. Questa funzione di sostituzione può essere utilizzata in <code>List.ReplaceValue</code> e <code>Table.ReplaceValue</code>.
+Sostituisce il testo `old` nell'originale `text` con il testo `new`. Questa funzione di sostituzione può essere utilizzata in `List.ReplaceValue` e `Table.ReplaceValue`.
 
 
 ## Examples
 
-### Example #1 
-Sostituire il testo &#34;hE&#34; con &#34;He&#34; nella stringa &#34;hEllo world&#34;.
+### Example #1
+Sostituire il testo "hE" con "He" nella stringa "hEllo world".
 ```powerquery
 Replacer.ReplaceText("hEllo world", "hE", "He")
 ```

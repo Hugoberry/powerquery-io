@@ -19,12 +19,12 @@ Record.FieldNames(
 
 ## Remarks
 
-Returnerer navnene på felterne i posten <code>record</code> som tekst.
+Returnerer navnene på felterne i posten `record` som tekst.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find navnene på felterne i posten.
 ```powerquery
 Record.FieldNames([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

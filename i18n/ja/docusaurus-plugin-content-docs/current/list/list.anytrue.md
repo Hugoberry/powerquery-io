@@ -19,13 +19,13 @@ List.AnyTrue(
 
 ## Remarks
 
-リスト <code>list</code> 内のいずれかの式が true の場合に true を返します。
+リスト `list` 内のいずれかの式が true の場合に true を返します。
 
 
 ## Examples
 
-### Example #1 
-リスト \{true, false, 2 &gt; 0} 内のいずれかの式が true かどうかを判断します。
+### Example #1
+リスト \{true, false, 2 > 0\} 内のいずれかの式が true かどうかを判断します。
 ```powerquery
 List.AnyTrue({true, false, 2>0})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-リスト \{2 = 0, false, 2 &lt; 0} 内のいずれかの式が true かどうかを判断します。
+### Example #2
+リスト \{2 = 0, false, 2 &lt; 0\} 内のいずれかの式が true かどうかを判断します。
 ```powerquery
 List.AnyTrue({2 = 0, false, 2 < 0})
 ```

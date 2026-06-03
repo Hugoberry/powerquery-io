@@ -20,12 +20,12 @@ Table.Combine(
 
 ## Remarks
 
-Trả về một bảng là kết quả hợp nhất một danh sách các bảng, <code>tables</code>. Bảng kết quả sẽ có cấu trúc loại hàng được xác định bởi <code>columns</code> hoặc tập hợp các loại đầu vào nếu <code>columns</code> không được chỉ định.
+Trả về một bảng là kết quả hợp nhất một danh sách các bảng, `tables`. Bảng kết quả sẽ có cấu trúc loại hàng được xác định bởi `columns` hoặc tập hợp các loại đầu vào nếu `columns` không được chỉ định.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hợp nhất ba bảng với nhau.
 ```powerquery
 Table.Combine({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Hợp nhất ba bảng có cấu trúc khác nhau.
 ```powerquery
 Table.Combine({
@@ -65,7 +65,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Hợp nhất hai bảng và tham chiếu đến loại đã cho.
 ```powerquery
 Table.Combine(

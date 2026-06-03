@@ -20,7 +20,7 @@ Cube.Transform(
 
 ## Remarks
 
-Stosuje listę funkcji modułu <code>transforms</code> w module <code>cube</code>.
+Stosuje listę funkcji modułu `transforms` w module `cube`.
 
 
 

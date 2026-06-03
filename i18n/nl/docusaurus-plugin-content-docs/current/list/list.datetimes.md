@@ -21,12 +21,12 @@ List.DateTimes(
 
 ## Remarks
 
-Retourneert een lijst met <code>datetime</code>waarden van grootte <code>count</code>, te beginnen bij <code>start</code>. De opgegeven verhoging, <code>step</code>, is een <code>duration</code>waarde die aan elke waarde is toegevoegd.
+Retourneert een lijst met `datetime`waarden van grootte `count`, te beginnen bij `start`. De opgegeven verhoging, `step`, is een `duration`waarde die aan elke waarde is toegevoegd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een lijst met 10 waarden maken te beginnen bij 5 minuten voor nieuwjaarsdag (#datetime(2011, 12, 31, 23, 55, 0)) en oplopend in stappen van 1 minuut (#duration(0, 0, 1, 0)).
 ```powerquery
 List.DateTimes(#datetime(2011, 12, 31, 23, 55, 0), 10, #duration(0, 0, 1, 0))

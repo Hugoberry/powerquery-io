@@ -20,7 +20,7 @@ Cube.Transform(
 
 ## Remarks
 
-Anvender listen over kubefunktioner, <code>transforms</code>, på <code>cube</code>.
+Anvender listen over kubefunktioner, `transforms`, på `cube`.
 
 
 

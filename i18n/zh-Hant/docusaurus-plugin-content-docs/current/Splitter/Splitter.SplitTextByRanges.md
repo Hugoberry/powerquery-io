@@ -25,7 +25,7 @@ Splitter.SplitTextByRanges(
 
 ## Examples
 
-### Example #1 
+### Example #1
 從輸入的開頭開始，按指定位置和長度分割輸入。請注意，本例中的範圍重疊。
 ```powerquery
 Splitter.SplitTextByRanges({{0, 4}, {2, 10}})("codelimiter")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 從輸入的結尾開始，依指定位置和長度分割輸入。
 ```powerquery
 let
@@ -52,7 +52,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 將輸入分割為固定長度的郵遞區號，後面接著可變長度的城市名稱。
 ```powerquery
 Splitter.SplitTextByRanges({{0, 5}, {5, null}})("98052Redmond")

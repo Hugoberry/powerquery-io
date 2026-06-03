@@ -21,13 +21,16 @@ Table.MaxN(
 
 ## Remarks
 
-Hiermee wordt/worden de grootste rij(en) in de <code>table</code> geretourneerd, waarbij de <code>comparisonCriteria</code> is opgegeven. Nadat de rijen zijn gesorteerd, moet de parameter <code>countOrCondition</code> worden opgegeven om de resultaten verder te filteren. Let op: het sorteeralgoritme biedt geen garantie voor vaste gesorteerde resultaten. De parameter <code>countOrCondition</code> kent meerdere weergaven: <ul> <li> Als een getal is opgegeven, wordt een lijst met maximaal <code>countOrCondition</code> items in oplopende volgorde geretourneerd. </li> <li> Als een voorwaarde is opgegeven, wordt een lijst met items geretourneerd die in eerste instantie aan de voorwaarde voldoen. Zodra een item niet aan de voorwaarde voldoet, worden geen verdere items meer behandeld. </li> </ul>
+Hiermee wordt/worden de grootste rij(en) in de `table` geretourneerd, waarbij de `comparisonCriteria` is opgegeven. Nadat de rijen zijn gesorteerd, moet de parameter `countOrCondition` worden opgegeven om de resultaten verder te filteren. Let op: het sorteeralgoritme biedt geen garantie voor vaste gesorteerde resultaten. De parameter `countOrCondition` kent meerdere weergaven:
+
+-   Als een getal is opgegeven, wordt een lijst met maximaal `countOrCondition` items in oplopende volgorde geretourneerd.
+-   Als een voorwaarde is opgegeven, wordt een lijst met items geretourneerd die in eerste instantie aan de voorwaarde voldoen. Zodra een item niet aan de voorwaarde voldoet, worden geen verdere items meer behandeld.
 
 
 ## Examples
 
-### Example #1 
-De rij met de grootste waarde in kolom [a] met de voorwaarde [a] &gt; 0 in de tabel zoeken. De rijen worden gesorteerd voordat het filter wordt toegepast.
+### Example #1
+De rij met de grootste waarde in kolom \[a\] met de voorwaarde \[a\] > 0 in de tabel zoeken. De rijen worden gesorteerd voordat het filter wordt toegepast.
 ```powerquery
 Table.MaxN(
     Table.FromRecords({
@@ -49,8 +52,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-De rij met de grootste waarde in kolom [a] met de voorwaarde [b] &gt; 0 in de tabel. De rijen worden gesorteerd voordat het filter wordt toegepast.
+### Example #2
+De rij met de grootste waarde in kolom \[a\] met de voorwaarde \[b\] > 0 in de tabel. De rijen worden gesorteerd voordat het filter wordt toegepast.
 ```powerquery
 Table.MaxN(
     Table.FromRecords({

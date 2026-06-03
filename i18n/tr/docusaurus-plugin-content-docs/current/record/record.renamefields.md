@@ -5,7 +5,7 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-Bir listeden \{ old, new } biçiminde yeniden adlandırmaları uygular.
+Bir listeden \{ old, new \} biçiminde yeniden adlandırmaları uygular.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Record.RenameFields(
 
 ## Remarks
 
-<code>record</code> girdisindeki alanları yeniden adlandırdıktan sonra <code>renames</code> listesinde belirtilen yeni alan adlarına bir kayıt döndürür. Birden çok yeniden adlandırma için iç içe yerleştirilmiş liste kullanılabilir (\{ \{old1, new1}, \{old2, new2} }.
+`record` girdisindeki alanları yeniden adlandırdıktan sonra `renames` listesinde belirtilen yeni alan adlarına bir kayıt döndürür. Birden çok yeniden adlandırma için iç içe yerleştirilmiş liste kullanılabilir (\{ \{old1, new1\}, \{old2, new2\} \}).
 
 
 ## Examples
 
-### Example #1 
-Kayıttaki &#34;UnitPrice&#34; alanını &#34;Price&#34; olarak yeniden adlandırır.
+### Example #1
+Kayıttaki "UnitPrice" alanını "Price" olarak yeniden adlandırır.
 ```powerquery
 Record.RenameFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", UnitPrice = 100.0],
@@ -41,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-Kayıttaki &#34;UnitPrice&#34; alanını &#34;Price&#34; olarak ve &#34;OrderNum&#34; alanını &#34;OrderID&#34; olarak adlandırır.
+### Example #2
+Kayıttaki "UnitPrice" alanını "Price" olarak ve "OrderNum" alanını "OrderID" olarak adlandırır.
 ```powerquery
 Record.RenameFields(
     [OrderNum = 1, CustomerID = 1, Item = "Fishing rod", UnitPrice = 100.0],

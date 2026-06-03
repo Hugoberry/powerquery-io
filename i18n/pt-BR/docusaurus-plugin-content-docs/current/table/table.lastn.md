@@ -20,12 +20,15 @@ Table.LastN(
 
 ## Remarks
 
-Retorna as últimas linhas da tabela <code>table</code>, dependendo do valor de <code>countOrCondition</code>:    <ul>    <li> Se <code>countOrCondition</code> for um número, essas várias linhas serão retornados, começando na posição - <code>countOrCondition</code>). </li>    <li> Se <code>countOrCondition</code> for uma condição, as linhas que atenderem à condição serão retornadas na posição crescente até que uma linha não atenda à condição.</li></ul>
+Retorna as últimas linhas da tabela `table`, dependendo do valor de `countOrCondition`:
+
+-   Se `countOrCondition` for um número, essas várias linhas serão retornados, começando na posição - `countOrCondition`).
+-   Se `countOrCondition` for uma condição, as linhas que atenderem à condição serão retornadas na posição crescente até que uma linha não atenda à condição.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Localizar as duas últimas linhas da tabela.
 ```powerquery
 Table.LastN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Localizar as últimas linhas em que [a] &gt; 0 na tabela.
+### Example #2
+Localizar as últimas linhas em que \[a\] > 0 na tabela.
 ```powerquery
 Table.LastN(
     Table.FromRecords({

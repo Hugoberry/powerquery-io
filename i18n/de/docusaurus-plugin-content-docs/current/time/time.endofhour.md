@@ -19,12 +19,14 @@ Time.EndOfHour(
 
 ## Remarks
 
-Gibt das Ende der Stunde, das durch <code>dateTime</code> dargestellt wird, zurück (einschließlich Sekundenbruchteilen). Die Zeitzoneninformationen bleiben erhalten.      <ul>        <li><code>dateTime</code>: Ein <code>time</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert, auf dessen Grundlage das Ende der Stunde berechnet wird.</li>      </ul>
+Gibt das Ende der Stunde, das durch `dateTime` dargestellt wird, zurück (einschließlich Sekundenbruchteilen). Die Zeitzoneninformationen bleiben erhalten.
+
+-   `dateTime`: Ein `time`\-, `datetime`\- oder `datetimezone`\-Wert, auf dessen Grundlage das Ende der Stunde berechnet wird.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ruft das Ende der Stunde für den 14.05.2011, 17:00:00 Uhr ab.
 ```powerquery
 Time.EndOfHour(#datetime(2011, 5, 14, 17, 0, 0))
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Ruft das Ende der Stunde für den 17.05.2011, 17:00:00 Uhr (-7:00) ab.
 ```powerquery
 Time.EndOfHour(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0))

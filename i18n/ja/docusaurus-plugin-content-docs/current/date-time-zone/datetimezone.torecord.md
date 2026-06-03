@@ -19,13 +19,15 @@ DateTimeZone.ToRecord(
 
 ## Remarks
 
-指定された datetimezone 値 (<code>dateTimeZone</code>) の部分を含むレコードを返します。 <ul>        <li><code>dateTimeZone</code>: その部分のレコードが計算される <code>datetimezone</code> 値。</li>      </ul>
+指定された datetimezone 値 (`dateTimeZone`) の部分を含むレコードを返します。
+
+-   `dateTimeZone`: その部分のレコードが計算される `datetimezone` 値。
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)&lt;/code&gt; 値を、日付、時刻、およびゾーン値を含むレコードに変換します。
+### Example #1
+`#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)` 値を、日付、時刻、およびゾーン値を含むレコードに変換します。
 ```powerquery
 DateTimeZone.ToRecord(#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0))
 ```

@@ -24,7 +24,7 @@ Place la valeur binaire dans la mémoire tampon. Le résultat de cet appel est u
 
 ## Examples
 
-### Example #1 
+### Example #1
 Créez une version stable de la valeur binaire.
 ```powerquery
 Binary.Buffer(Binary.FromList({0..10}))

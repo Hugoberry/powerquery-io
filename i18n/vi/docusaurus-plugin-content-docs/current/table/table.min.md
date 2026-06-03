@@ -21,13 +21,13 @@ Table.Min(
 
 ## Remarks
 
-Trả về hàng nhỏ nhất trong <code>table</code> khi được cho sẵn <code>comparisonCriteria</code>. Nếu bảng trống thì giá trị <code>default</code> tùy chọn được trả về.
+Trả về hàng nhỏ nhất trong `table` khi được cho sẵn `comparisonCriteria`. Nếu bảng trống thì giá trị `default` tùy chọn được trả về.
 
 
 ## Examples
 
-### Example #1 
-Tìm hàng có giá trị nhỏ nhất trong cột [a] trong bảng.
+### Example #1
+Tìm hàng có giá trị nhỏ nhất trong cột \[a\] trong bảng.
 ```powerquery
 Table.Min(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Tìm hàng có giá trị nhỏ nhất trong cột [a] trong bảng. Trả về -1 nếu trống.
+### Example #2
+Tìm hàng có giá trị nhỏ nhất trong cột \[a\] trong bảng. Trả về -1 nếu trống.
 ```powerquery
 Table.Min(#table({"a"}, {}), "a", -1)
 ```

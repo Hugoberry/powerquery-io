@@ -19,7 +19,7 @@ Value.Alternates(
 
 ## Remarks
 
-Wyraża alternatywne plany zapytań w wyrażeniu planu zapytań uzyskanym za pośrednictwem funkcji Value.Expression(Value.Optimize(...)). Nie jest przeznaczone do innych zastosowań.
+Wyraża alternatywne plany zapytań w wyrażeniu planu zapytań uzyskanym za pośrednictwem funkcji `Value.Expression(Value.Optimize(...))`. Nie jest przeznaczone do innych zastosowań.
 
 
 

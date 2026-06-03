@@ -22,13 +22,18 @@ Table.PositionOfAny(
 
 ## Remarks
 
-<code>rows</code> listesinin ilk oluşumuna ait <code>table</code> öğesinden satır konumlarını döndürür. Hiçbir oluşum bulunmadıysa -1 döndürülür.    <ul>    <li><code>table</code>: Girdi tablosu.</li>       <li><code>rows</code>:  Tabloda konumların bulunacağı satır listesi.</li>       <li><code>occurrence</code>: <i>[Optional]</i> Satırın hangi oluşumlarının döndürüleceğini belirtir.</li>       <li><code>equationCriteria</code>: <i>[Optional]</i> Tablo satırları arasındaki karşılaştırmayı denetler.</li>    </ul>    
+`table` listesinin ilk oluşumuna ait `rows` öğesinden satır konumlarını döndürür. Hiçbir eşleşme bulunmazsa -1 değerini döndürür.
+
+-   `table`: Girdi tablosu.
+-   `rows`: Tabloda konumların bulunacağı satır listesi.
+-   `occurrence`: *(Optional)* Satırın hangi oluşumlarının döndürüleceğini belirtir.
+-   `equationCriteria`: *(Optional)* Tablo satırları arasındaki karşılaştırmayı denetler.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt; tablosunda [a = 2, b = 4] veya [a = 6, b = 8] değerlerinin ilk oluşum konumunu bulur.
+### Example #1
+`({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})` tablosunda \[a = 2, b = 4\] veya \[a = 6, b = 8\] değerlerinin ilk oluşum konumunu bulur.
 ```powerquery
 Table.PositionOfAny(
     Table.FromRecords({
@@ -50,8 +55,8 @@ Result:
 ```
 
 
-### Example #2 
-&lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]}&lt;/code&gt; tablosunda [a = 2, b = 4] veya [a = 6, b = 8] değerlerinin tüm oluşumlarının konumunu bulur.
+### Example #2
+`({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]}` tablosunda \[a = 2, b = 4\] veya \[a = 6, b = 8\] değerlerinin tüm oluşumlarının konumunu bulur.
 ```powerquery
 Table.PositionOfAny(
     Table.FromRecords({

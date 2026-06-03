@@ -23,13 +23,19 @@ Table.ReplaceValue(
 
 ## Remarks
 
-<code>table</code> के निर्दिष्ट स्तंभों में <code>oldValue</code> को <code>newValue</code> से बदलता है.
+तालिका के निर्दिष्ट कॉलम में मान को नए मान से बदलता है.
+
+-   `table`: खोजने के लिए तालिका.
+-   `oldValue`: बदला जाने वाला मान.
+-   `newValue`: प्रतिस्थापन मान.
+-   `replacer`: उपयोग करने के लिए रिप्लेसर फ़ंक्शन. फ़ंक्शन या तो `Replacer.ReplaceText` हो सकता है जो मूल टेक्स्ट को नए टेक्स्ट से बदल देता है, `Replacer.ReplaceValue` जो मूल मान को नए मान से बदल देता है, या एक कस्टम रिप्लेसर हो सकता है.
+-   `columnsToSearch`: बदलें जाने वाले मान की खोज करने के लिए तालिका में विशिष्ट कॉलम या कॉलम्स वाली सूची.
 
 
 ## Examples
 
-### Example #1 
-स्तंभ B में पाठ &#34;गुडबाय&#34; को &#34;world&#34; से बदलें, जो केवल संपूर्ण मान से मेल खाता है.
+### Example #1
+स्तंभ B में पाठ "गुडबाय" को "world" से बदलें, जो केवल संपूर्ण मान से मेल खाता है.
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -54,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-मान के किसी भी भाग से मेल खाते हुए, स्तंभ B में पाठ &#34;ur&#34; को &#34;or&#34; से बदलें.
+### Example #2
+मान के किसी भी भाग से मेल खाते हुए, स्तंभ B में पाठ "ur" को "or" से बदलें.
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -78,7 +84,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 अमेरिकी कर्मचारियों के नाम अनामीकृत करें.
 ```powerquery
 Table.ReplaceValue(
@@ -102,7 +108,7 @@ Table.FromRecords({
 ```
 
 
-### Example #4 
+### Example #4
 अमेरिकी कर्मचारियों के सभी स्तंभों को अनामीकृत करें.
 ```powerquery
 Table.ReplaceValue(

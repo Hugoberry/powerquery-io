@@ -19,7 +19,7 @@ Table.PartitionValues(
 
 ## Remarks
 
-Bir tablonun bölümlenme şekli ile ilgili bilgi döndürür.  Her sütunun asıl tabloda bölümleme sütunu olduğunda ve her satırın asıl tabloda bir bölümlemeye karşılık geldiğinde tablo döndürülür.
+Bir tablonun bölümlenme şekli ile ilgili bilgi döndürür. Her sütunun asıl tabloda bölümleme sütunu olduğunda ve her satırın asıl tabloda bir bölümlemeye karşılık geldiğinde tablo döndürülür.
 
 
 

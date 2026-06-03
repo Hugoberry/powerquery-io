@@ -21,13 +21,21 @@ Comparer.Equals(
 
 ## Remarks
 
-Returnerar ett <code>logical</code>-värde baserat på en likhetskontroll av de två givna värdena, <code>x</code> och <code>y</code>, med det tillhandahållna <code>comparer</code>.      <div>        <code>comparer</code>är en <code>Comparer</code> som används för att kontrollera jämförelsen.        En jämförelse är en funktion som accepterar två argument och returnerar -1, 0 eller 1 baserat på om det första värdet är mindre än, lika med,  eller större än den andra.        Jämförelsefunktioner kan användas för att tillhandahålla skiftlägesokänsliga eller kultur- och språkmedvetna jämförelser.      </div>      <div>        Följande inbyggda jämförelsefunktioner är tillgängliga i formelspråket:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: Används för att genomföra en exakt ordningstalsjämförelse</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: Används för att genomföra en exakt skiftlägesokänslig ordningstalsjämförelse</li>         <li><code>Comparer.FromCulture</code>: Används för att genomföra en kulturmedveten jämförelse</li>      </ul>
+Returnerar ett `logical`\-värde baserat på en likhetskontroll av de två givna värdena, `x` och `y`, med det tillhandahållna `comparer`.
+
+`comparer`är en `Comparer` som används för att kontrollera jämförelsen. En jämförelse är en funktion som accepterar två argument och returnerar -1, 0 eller 1 baserat på om det första värdet är mindre än, lika med, eller större än den andra. Jämförelsefunktioner kan användas för att tillhandahålla skiftlägesokänsliga eller kultur- och språkmedvetna jämförelser.
+
+Följande inbyggda jämförelsefunktioner är tillgängliga i formelspråket:
+
+-   `Comparer.Ordinal`: Används för att genomföra en exakt ordningstalsjämförelse
+-   `Comparer.OrdinalIgnoreCase`: Används för att genomföra en exakt skiftlägesokänslig ordningstalsjämförelse
+-   `Comparer.FromCulture`: Används för att genomföra en kulturmedveten jämförelse
 
 
 ## Examples
 
-### Example #1 
-Jämför &#34;1&#34; och &#34;A&#34; med den nationella inställningen &#34;sv-SE&#34; för att bestämma om värdena är lika.
+### Example #1
+Jämför "1" och "A" med den nationella inställningen "sv-SE" för att bestämma om värdena är lika.
 ```powerquery
 Comparer.Equals(Comparer.FromCulture("en-US"), "1", "A")
 ```

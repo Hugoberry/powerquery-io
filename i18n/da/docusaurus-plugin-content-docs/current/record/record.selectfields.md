@@ -21,13 +21,13 @@ Record.SelectFields(
 
 ## Remarks
 
-Returnerer en post, der kun indeholder de felter, som er angivet på listen <code>fields</code>, fra inputtet <code>record</code>.
+Returnerer en post, der kun indeholder de felter, som er angivet på listen `fields`, fra inputtet `record`.
 
 
 ## Examples
 
-### Example #1 
-Vælg felterne &#34;Item&#34; og &#34;Price&#34; i posten.
+### Example #1
+Vælg felterne "Item" og "Price" i posten.
 ```powerquery
 Record.SelectFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0],

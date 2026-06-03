@@ -20,13 +20,18 @@ DateTime.FromText(
 
 ## Remarks
 
-Создает значение <code>datetime</code> из текстового представления <code>text</code>. При необходимости можно задать необязательный параметр <code>options</code> типа <code>record</code> для указания дополнительных свойств. В состав <code>record</code> могут входить следующие поля:<ul>   <li><code>Format</code>. Значение типа <code>text</code>, указывающее используемый формат. Дополнительные сведения: https://go.microsoft.com/fwlink/?linkid=2180104 и https://go.microsoft.com/fwlink/?linkid=2180105. Если пропустить это поле или указать <code>NULL</code>, распознавание даты будет выполняться по принципу наилучшего возможного варианта.</li>   <li><code>Culture</code>: если <code>Format</code> не имеет значения NULL, <code>Culture</code> управляет определенными спецификаторами формата. Например, при использовании <code>"en-US"</code> значение <code>"MMM"</code> представляется как <code>"Jan", "Feb", "Mar", …</code>, тогда как для <code>"ru-RU"</code> значение <code>"MMM"</code> выглядит как <code>"янв", "фев", "мар", …</code>. Если <code>Format</code> имеет значение <code>NULL</code>, <code>Culture</code> задает формат, используемый по умолчанию. Если значение <code>Culture</code> равно <code>NULL</code> или пропущено, используется <code>Culture.Current</code>.</li></ul>Для поддержки прежних версий рабочих процессов <code>options</code> также может быть текстовым значением. При этом происходит то же самое, что и при <code>options</code><code> = [Format = null, Culture = <code>options</code>]</code>.
+Создает значение `datetime` из текстового представления `text`. При необходимости можно задать необязательный параметр `options` типа `record` для указания дополнительных свойств. В состав `record` могут входить следующие поля:
+
+-   `Format`: значение `text`, указывающее используемый формат. Дополнительные сведения: https://go.microsoft.com/fwlink/?linkid=2180104 и https://go.microsoft.com/fwlink/?linkid=2180105. Если это поле пропущено или указано значение `null`, распознавание времени будет выполняться по принципу наилучшего возможного варианта.
+-   `Culture`: Если `Format` не равен null, параметр `Culture` управляет некоторыми спецификаторами формата. Например, в `"en-US"` `"MMM"` — это `"Jan", "Feb", "Mar", ...`, тогда как в `"ru-RU"` `"MMM"` — это `"янв", "фев", "мар", ...`. Если `Format` имеет значение `null`, параметр `Culture` определяет используемый формат по умолчанию. Если значение `Culture` равно `null` или пропущено, используется `Culture.Current`.
+
+Для поддержки прежних версий рабочих процессов `options` также может быть текстовым значением. Это ведет себя так же, как если бы `options = [Format = null, Culture = options]`.
 
 
 ## Examples
 
-### Example #1 
-Преобразование &lt;code&gt;&#34;2010-12-31T01:30:00&#34;&lt;/code&gt; в значение даты и времени.
+### Example #1
+Преобразование `"2010-12-31T01:30:00"` в значение даты и времени.
 ```powerquery
 DateTime.FromText("2010-12-31T01:30:25")
 ```
@@ -37,8 +42,8 @@ Result:
 ```
 
 
-### Example #2 
-Преобразование &lt;code&gt;&#34;2010-12-31T01:30:00.121212&#34;&lt;/code&gt; в значение даты и времени.
+### Example #2
+Преобразование `"2010-12-31T01:30:00.121212"` в значение даты и времени.
 ```powerquery
 DateTime.FromText("30 Dez 2010 02:04:50.369730", [Format="dd MMM yyyy HH:mm:ss.ffffff", Culture="de-DE"])
 ```
@@ -49,8 +54,8 @@ Result:
 ```
 
 
-### Example #3 
-Преобразование &lt;code&gt;&#34;2010-12-31T01:30:00&#34;&lt;/code&gt; в значение даты и времени.
+### Example #3
+Преобразование `"2010-12-31T01:30:00"` в значение даты и времени.
 ```powerquery
 DateTime.FromText("2000-02-08T03:45:12Z", [Format="yyyy-MM-dd'T'HH:mm:ss'Z'", Culture="en-US"])
 ```
@@ -61,8 +66,8 @@ Result:
 ```
 
 
-### Example #4 
-Преобразование &lt;code&gt;&#34;20101231T013000&#34;&lt;/code&gt; в значение даты и времени.
+### Example #4
+Преобразование `"20101231T013000"` в значение даты и времени.
 ```powerquery
 DateTime.FromText("20101231T013000", [Format="yyyyMMdd'T'HHmmss", Culture="en-US"])
 ```

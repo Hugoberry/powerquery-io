@@ -20,13 +20,13 @@ Table.FillDown(
 
 ## Remarks
 
-指定された <code>table</code> から、指定された <code>columns</code> の下の NULL 値セルに上のセル値を反映したテーブルを返します。
+指定された `table` から、指定された `columns` の下の NULL 値セルに上のセル値を反映したテーブルを返します。
 
 
 ## Examples
 
-### Example #1 
-テーブルの列 [Place] の NULL 値をその上の値で埋めたテーブルを返します。
+### Example #1
+テーブルの列 \[Place\] の NULL 値をその上の値で埋めたテーブルを返します。
 ```powerquery
 Table.FillDown(
     Table.FromRecords({

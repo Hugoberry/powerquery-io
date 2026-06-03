@@ -21,12 +21,12 @@ Stripe.Contents(
 
 ## Remarks
 
-Hace una llamada a la API de Stripe en https://api.stripe.com/v1/<code>method</code>, con el registro <code>query</code> opcional que se pasa como parámetros adicionales y <code>pageLimit</code> opcional como límite del número de solicitudes de API. En primer lugar se devuelven los datos más recientes. Si no se especifica <code>pageLimit</code>, se devuelven todos los datos. Se usa Stripe versión 2015-10-16.
+Hace una llamada a la API de Stripe en https://api.stripe.com/v1/`method`, con el registro `query` opcional que se pasa como parámetros adicionales y `pageLimit` opcional como límite del número de solicitudes de API. En primer lugar se devuelven los datos más recientes. Si no se especifica `pageLimit`, se devuelven todos los datos. Se usa Stripe versión 2015-10-16.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devuelve todos los datos sobre los cargos
 ```powerquery
 Stripe.Contents("charges")
@@ -38,7 +38,7 @@ Una tabla con todos los datos sobre los cargos de la cuenta de Stripe actual
 ```
 
 
-### Example #2 
+### Example #2
 Devuelve una página de los datos sobre los cargos
 ```powerquery
 Stripe.Contents("charges", [], 1)

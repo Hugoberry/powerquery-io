@@ -20,13 +20,13 @@ List.FindText(
 
 ## Remarks
 
-<code>list</code> listesinden <code>text</code> değerini içeren değerlerin listesini döndürür.
+`list` listesinden `text` değerini içeren değerlerin listesini döndürür.
 
 
 ## Examples
 
-### Example #1 
-\{&#34;a&#34;, &#34;b&#34;, &#34;ab&#34;} listesinde &#34;a&#34; ile eşleşen metin değerlerini bulur. 
+### Example #1
+\{"a", "b", "ab"\} listesinde "a" ile eşleşen metin değerlerini bulur.
 ```powerquery
 List.FindText({"a", "b", "ab"}, "a")
 ```

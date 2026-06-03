@@ -21,13 +21,25 @@ Text.StartsWith(
 
 ## Remarks
 
-Gibt TRUE zurück, wenn der Textwert <code>text</code> mit dem Textwert <code>substring</code> beginnt.      <ul>        <li><code>text</code>: <i></i> Ein <code>text</code>-Wert, der durchsucht werden soll</li>        <li><code>substring</code>: <i></i> Ein <code>text</code>-Wert, der die Teilzeichenfolge ist, nach der in <code>substring</code> gesucht werden soll</li>        <li><code>comparer</code>: <i>[Optional]</i> Ein <code>Comparer</code> (eine Vergleichsfunktion), der zum Steuern des Vergleichs verwendet wird. Beispielsweise kann <code>Comparer.OrdinalIgnoreCase</code> verwendet werden, um Suchvorgänge ohne Berücksichtigung der Groß-/Kleinschreibung durchzuführen</li>      </ul>      <div>        <code>comparer</code> ist ein <code>Comparer</code>, der verwendet wird, um den Vergleich zu steuern. Vergleichsfunktionen können verwendet werden, um Vergleiche ohne Berücksichtigung der Groß-/Kleinschreibung oder mit Berücksichtigung von Kultur und Gebietsschema bereitzustellen.      </div>      <div>        Die folgenden integrierten Vergleichsfunktionen sind in der Formelsprache verfügbar:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: Wird verwendet, um einen exakten Ordinalvergleich durchzuführen</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: Wird verwendet, um einen exakten Ordinalvergleich ohne Berücksichtigung der Groß-/Kleinschreibung durchzuführen</li>        <li> <code>Comparer.FromCulture</code>: Wird verwendet, um einen Vergleich mit Berücksichtigung der Kultur durchzuführen</li>      </ul>
+Gibt WAHR zurück, wenn der Textwert `text` mit dem Textwert `substring` beginnt.
+
+-   `text`: Ein `text`\-Wert, der durchsucht werden soll.
+-   `substring`: Ein `text`\-Wert, der der Substring ist, nach dem in `text` gesucht werden soll.
+-   `comparer`: *(Optional)* Ein `Comparer`, der zum Steuern des Vergleichs verwendet wird. Beispielsweise kann `Comparer.OrdinalIgnoreCase` verwendet werden, um Suchvorgänge ohne Beachtung der Groß-/Kleinschreibung durchzuführen.
+
+`comparer` ist ein `Comparer`, der zum Steuern des Vergleichs verwendet wird. Vergleichsfunktionen können verwendet werden, um Vergleiche ohne Beachtung der Groß-/Kleinschreibung oder kultur- und gebietsschemabezogene Vergleiche bereitzustellen.
+
+Die folgenden integrierten Vergleichsfunktionen sind in der Formelsprache verfügbar:
+
+-   `Comparer.Ordinal`: Wird verwendet, um einen exakten Ordinalvergleich durchzuführen.
+-   `Comparer.OrdinalIgnoreCase`: Wird verwendet, um einen exakten Ordinalvergleich ohne Beachtung der Groß-/Kleinschreibung durchzuführen.
+-   `Comparer.FromCulture`: Wird verwendet, um einen kulturbezogenen Vergleich durchzuführen.
 
 
 ## Examples
 
-### Example #1 
-Überprüft, ob der Text &#34;Hello, World&#34; mit dem Text &#34;hello&#34; beginnt.
+### Example #1
+Überprüft, ob der Text "Hello, World" mit dem Text "hello" beginnt.
 ```powerquery
 Text.StartsWith("Hello, World", "hello")
 ```
@@ -38,10 +50,22 @@ false
 ```
 
 
-### Example #2 
-Überprüft, ob der Text &#34;Hello, World&#34; mit dem Text &#34;Hello&#34; beginnt.
+### Example #2
+Überprüft, ob der Text "Hello, World" mit dem Text "Hello" beginnt.
 ```powerquery
 Text.StartsWith("Hello, World", "Hello")
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+### Example #3
+Die Groß-/Kleinschreibung wird ignoriert. Überprüfen Sie, ob der Text „Hello, World“ mit dem Text „hello“ beginnt.
+```powerquery
+Text.StartsWith("Hello, World", "hello", Comparer.OrdinalIgnoreCase)
 ```
 
 Result: 

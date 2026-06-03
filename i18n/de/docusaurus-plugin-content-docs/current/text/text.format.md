@@ -21,12 +21,12 @@ Text.Format(
 
 ## Remarks
 
-Gibt formatierten Text zurück, der durch das Anwenden von <code>arguments</code> aus einer Liste oder einem Datensatz auf eine Formatzeichenfolge <code>formatString</code> angewendet wird. Optional kann auch ein Element vom Typ "<code>culture</code>" angegeben werden (Beispiel: "de-DE").
+Gibt formatierten Text zurück, der durch das Anwenden von `arguments` aus einer Liste oder einem Datensatz auf eine Formatzeichenfolge `formatString` angewendet wird. Optional kann auch ein Element vom Typ "`culture`" angegeben werden (Beispiel: "de-DE").
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Formatieren Sie eine Liste mit Zahlen.
 ```powerquery
 Text.Format("#{0}, #{1}, and #{2}.", {17, 7, 22})
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Formatieren Sie unterschiedliche Datentypen aus einem Datensatz entsprechend der Kultur &#34;Vereinigte Staaten (Englisch)&#34;.
+### Example #2
+Formatieren Sie unterschiedliche Datentypen aus einem Datensatz entsprechend der Kultur "Vereinigte Staaten (Englisch)".
 ```powerquery
 Text.Format(
     "The time for the #[distance] km run held in #[city] on #[date] was #[duration].",

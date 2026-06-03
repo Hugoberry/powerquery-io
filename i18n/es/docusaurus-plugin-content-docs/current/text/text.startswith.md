@@ -21,13 +21,25 @@ Text.StartsWith(
 
 ## Remarks
 
-Devuelve true si el valor de texto <code>text</code> empieza con el valor de texto <code>substring</code>.      <ul>        <li><code>text</code>: <i></i> un valor <code>text</code> en el que se va a buscar</li>        <li><code>substring</code>: <i></i> un valor <code>text</code> que es la subcadena que se buscará en <code>substring</code></li>        <li><code>comparer</code>: <i>[Optional]</i> Un <code>Comparer</code> que se usa para controlar la comparación. Por ejemplo, <code>Comparer.OrdinalIgnoreCase</code> se puede usar para realizar búsquedas que no distinguen mayúsculas de minúsculas</li>      </ul>      <div>        <code>comparer</code> es un elemento <code>Comparer</code> que se usa para controlar la comparación. Los comparadores se pueden usar para proporcionar comparaciones compatibles con la referencia cultural y la configuración regional, o bien que no distingan mayúsculas de minúsculas.      </div>      <div>        Los siguientes comparadores integrados están disponibles en el lenguaje de fórmulas:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: se usa para realizar una comparación ordinal exacta</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: se usa para realizar una comparación ordinal exacta que no distinga mayúsculas de minúsculas</li>        <li> <code>Comparer.FromCulture</code>: se usa para realizar una comparación que tiene en cuenta la referencia cultural</li>      </ul>
+Devuelve true si el valor de texto `text` comienza con el valor de texto `substring`.
+
+-   `text`: un valor `text` que se va a buscar.
+-   `substring`: un valor `text` que es la substring que se va a buscar en `text`.
+-   `comparer`: *(Opcional)* A `Comparer` usa para controlar la comparación. Por ejemplo, `Comparer.OrdinalIgnoreCase` se puede usar para realizar búsquedas que no distinguen mayúsculas de minúsculas.
+
+`comparer` es un `Comparer` que se usa para controlar la comparación. Los comparadores se pueden usar para proporcionar comparaciones que no distinguen mayúsculas de minúsculas o referencias culturales y que reconocen la configuración regional.
+
+Los siguientes comparadores integrados están disponibles en el lenguaje de fórmulas:
+
+-   `Comparer.Ordinal`: se usa para realizar una comparación ordinal exacta.
+-   `Comparer.OrdinalIgnoreCase`: se usa para realizar una comparación exacta que no distingue mayúsculas de minúsculas.
+-   `Comparer.FromCulture`: se usa para realizar una comparación compatible con la referencia cultural.
 
 
 ## Examples
 
-### Example #1 
-Comprobar si el texto &#34;Hola mundo&#34; empieza con el texto &#34;hola&#34;.
+### Example #1
+Comprobar si el texto "Hola mundo" empieza con el texto "hola".
 ```powerquery
 Text.StartsWith("Hello, World", "hello")
 ```
@@ -38,10 +50,22 @@ false
 ```
 
 
-### Example #2 
-Comprobar si el texto &#34;Hola mundo&#34; empieza con el texto &#34;Hola&#34;.
+### Example #2
+Comprobar si el texto "Hola mundo" empieza con el texto "Hola".
 ```powerquery
 Text.StartsWith("Hello, World", "Hello")
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+### Example #3
+Sin distinguir mayúsculas y minúsculas, comprueba si el texto "Hola mundo" empieza con el texto "hola".
+```powerquery
+Text.StartsWith("Hello, World", "hello", Comparer.OrdinalIgnoreCase)
 ```
 
 Result: 

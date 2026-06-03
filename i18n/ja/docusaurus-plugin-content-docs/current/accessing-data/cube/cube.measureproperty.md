@@ -20,7 +20,7 @@ Cube.MeasureProperty(
 
 ## Remarks
 
-メジャー <code>measure</code> のプロパティ <code>propertyName</code> を返します。
+メジャー `measure` のプロパティ `propertyName` を返します。
 
 
 

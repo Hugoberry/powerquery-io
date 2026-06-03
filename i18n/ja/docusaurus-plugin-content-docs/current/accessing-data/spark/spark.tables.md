@@ -21,12 +21,12 @@ Spark.Tables(
 
 ## Remarks
 
-<code>protocol</code> を使用して Spark クラスター <code>host</code> 上のテーブルの一覧を示すテーブルを返します。有効なプロトコルは次のとおりです:SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
+`protocol` を使用して Spark クラスター `host` 上のテーブルの一覧を示すテーブルを返します。有効なプロトコルは次のとおりです: SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Azure Spark インスタンス内のテーブルを一覧表示します。
 ```powerquery
 Spark.Tables("contoso.azurehdinsight.net", SparkProtocol.Azure)

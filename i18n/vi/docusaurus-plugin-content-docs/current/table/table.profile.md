@@ -20,7 +20,17 @@ Table.Profile(
 
 ## Remarks
 
-Trả về một hồ sơ cho các cột trong <code>table</code>.<br />Thông tin sau được trả về cho mỗi cột (nếu có):<ul>  <li>tối thiểu</li>  <li>tối đa</li>  <li>trung bình</li>  <li>độ lệch chuẩn</li>  <li>số lượng</li>  <li>số lượng rỗng</li>  <li>số lượng phân biệt</li></ul><br />
+Trả về một hồ sơ cho các cột trong `table`.
+
+Thông tin sau được trả về cho mỗi cột (nếu có):
+
+-   tối thiểu
+-   tối đa
+-   trung bình
+-   độ lệch chuẩn
+-   số lượng
+-   số lượng rỗng
+-   số lượng phân biệt
 
 
 

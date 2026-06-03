@@ -20,12 +20,15 @@ Date.WeekOfYear(
 
 ## Remarks
 
-傳回介於 1 至 54 之間的數字，指出日期 <code>dateTime</code> 落在該年的哪一週。 <ul>        <li><code>dateTime</code>: <code>datetime</code> 值決定該年哪一週。</li>        <li><code>firstDayOfWeek</code>: 選用的 <code>Day.Type</code> 值指出哪一天為新一週的起始日 (例如 <code>Day.Sunday</code>)。若未指定，會使用依文化特性決定的預設。</li>      </ul>
+傳回介於 1 至 54 之間的數字，指出日期 `dateTime` 落在該年的哪一週。
+
+-   `dateTime`: `datetime` 值決定該年哪一週。
+-   `firstDayOfWeek`: 選用的 `Day.Type` 值指出哪一天為新一週的起始日 (例如 `Day.Sunday`)。若未指定，會使用依文化特性決定的預設。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 判斷 2011 年中的哪一週包含 3 月 27 日。
 ```powerquery
 Date.WeekOfYear(#date(2011, 03, 27))
@@ -37,7 +40,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 決定 2011 年 3 月 27 日落在該年的哪一週 ，使用星期一作為新一週的開始時間。
 ```powerquery
 Date.WeekOfYear(#date(2011, 03, 27), Day.Monday)

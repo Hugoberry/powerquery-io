@@ -21,12 +21,12 @@ Table.Range(
 
 ## Remarks
 
-Retorna as linhas da <code>table</code> que começam no <code>offset</code> especificado. Um parâmetro opcional, <code>count</code>, especifica quantas linhas serão retornadas. Por padrão, todas as linhas após o deslocamento são retornadas.
+Retorna as linhas da `table` que começam no `offset` especificado. Um parâmetro opcional, `count`, especifica quantas linhas serão retornadas. Por padrão, todas as linhas após o deslocamento são retornadas.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Retornar todas as linhas que começam no deslocamento 1 da tabela.
 ```powerquery
 Table.Range(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Retornar uma linha que começa no deslocamento 1 da tabela.
 ```powerquery
 Table.Range(

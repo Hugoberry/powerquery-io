@@ -21,13 +21,13 @@ Table.Min(
 
 ## Remarks
 
-<code>table</code> içindeki en küçük satırı verilen <code>comparisonCriteria</code> öğesini kullanarak döndürür. Tablo boşsa, isteğe bağlı <code>default</code> değeri döndürülür.
+`table` içindeki en küçük satırı verilen `comparisonCriteria` öğesini kullanarak döndürür. Tablo boşsa, isteğe bağlı `default` değeri döndürülür.
 
 
 ## Examples
 
-### Example #1 
-Tabloda [a] sütununda en küçük değer bulunan satırı bulur.
+### Example #1
+Tabloda \[a\] sütununda en küçük değer bulunan satırı bulur.
 ```powerquery
 Table.Min(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Tabloda [a] sütununda en küçük değer bulunan satırı bulur. Boş olması halinde -1 döndürür.
+### Example #2
+Tabloda \[a\] sütununda en küçük değer bulunan satırı bulur. Boş olması halinde -1 döndürür.
 ```powerquery
 Table.Min(#table({"a"}, {}), "a", -1)
 ```

@@ -19,12 +19,12 @@ Table.ColumnCount(
 
 ## Remarks
 
-Retorna o número de colunas na tabela <code>table</code>.
+Retorna o número de colunas na tabela `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Localizar o número de colunas na tabela.
 ```powerquery
 Table.ColumnCount(

@@ -20,12 +20,12 @@ Table.Repeat(
 
 ## Remarks
 
-Returnerer en tabel med rækkerne fra inputtet <code>table</code> gentaget de angivne <code>count</code> gange.
+Returnerer en tabel med rækkerne fra inputtet `table` gentaget de angivne `count` gange.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gentag rækkerne i tabellen to gange.
 ```powerquery
 Table.Repeat(

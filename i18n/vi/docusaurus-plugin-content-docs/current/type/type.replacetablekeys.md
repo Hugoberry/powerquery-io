@@ -20,18 +20,25 @@ Type.ReplaceTableKeys(
 
 ## Remarks
 
-Trả về một loại bảng mới với tất cả các khóa được thay thế bằng danh sách khóa được chỉ định.<br />    <br />    Mỗi khóa được xác định bằng một bản ghi ở dạng sau:    <ul>      <li>        <code>Cột</code>: danh sách tên cột xác định khóa      </li>      <li>        <code>Chính</code>: <code>đúng</code> nếu khóa là khóa chính của bảng; nếu không, <code>sai</code>      </li>    </ul>    Xác thực danh sách khóa được chỉ định để đảm bảo rằng không xác định nhiều hơn một khóa chính và tất cả các tên cột khoá đều tồn tại trên loại bảng.    
+Trả về một loại bảng mới với tất cả các khóa được thay thế bằng danh sách khóa được chỉ định.  
+  
+Mỗi khóa được xác định bằng một bản ghi ở dạng sau:
+
+-   `Cột`: danh sách tên cột xác định khóa
+-   `Chính`: `đúng` nếu khóa là khóa chính của bảng; nếu không, `sai`
+
+Xác thực danh sách khóa được chỉ định để đảm bảo rằng không xác định nhiều hơn một khóa chính và tất cả các tên cột khoá đều tồn tại trên loại bảng.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Thay thế thông tin khóa trên loại bảng.
 ```powerquery
 let
     BaseType = type table [ID = number, FirstName = text, LastName = text],
     KeysAdded = Type.ReplaceTableKeys(
-        BaseType, 
+        BaseType,
         {
             [Columns = {"ID"}, Primary = true],
             [Columns = {"FirstName", "LastName"}, Primary = false]
@@ -51,7 +58,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Xóa thông tin khóa đã xác định trước đây trên loại bảng.
 ```powerquery
 let

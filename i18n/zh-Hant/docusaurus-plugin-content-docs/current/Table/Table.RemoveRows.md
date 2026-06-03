@@ -21,12 +21,12 @@ Table.RemoveRows(
 
 ## Remarks
 
-從 <code>table</code> 的開頭移除 <code>count</code> 個資料列，從指定的 <code>offset</code> 開始。如果沒有提供 <code>count</code> 參數，就會使用預設計數 1。
+從 `table` 的開頭移除 `count` 個資料列，從指定的 `offset` 開始。如果沒有提供 `count` 參數，就會使用預設計數 1。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 從資料表中移除第一個資料列。
 ```powerquery
 Table.RemoveRows(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 從資料表中移除位於位置 1 的資料列。
 ```powerquery
 Table.RemoveRows(
@@ -74,7 +74,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 從資料表中移除兩個資料列，從位置 1 開始。
 ```powerquery
 Table.RemoveRows(

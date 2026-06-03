@@ -19,13 +19,15 @@ Date.IsLeapYear(
 
 ## Remarks
 
-Angiver, om den anførte datetime-værdi <code>dateTime</code> ligger i et skudår. <ul>        <li><code>dateTime</code>: En værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>, der skal evalueres.</li>      </ul>
+Angiver, om den anførte datetime-værdi `dateTime` ligger i et skudår.
+
+-   `dateTime`: En værdi af typen `date`, `datetime` eller `datetimezone`, der skal evalueres.
 
 
 ## Examples
 
-### Example #1 
-Afgør, om året 2012, som repræsenteres ved &lt;code&gt;#date(2012, 01, 01)&lt;/code&gt;, er et skudår.
+### Example #1
+Afgør, om året 2012, som repræsenteres ved `#date(2012, 01, 01)`, er et skudår.
 ```powerquery
 Date.IsLeapYear(#date(2012, 01, 01))
 ```

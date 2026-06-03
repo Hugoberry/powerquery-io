@@ -19,7 +19,7 @@ Table.PartitionValues(
 
 ## Remarks
 
-Trả về thông tin về cách phân hoạch bảng.  Một bảng được trả về trong đó mỗi cột là một cột phân hoạch trong bảng gốc và mỗi hàng tương ứng với một phân hoạch trong bảng gốc.
+Trả về thông tin về cách phân hoạch bảng. Một bảng được trả về trong đó mỗi cột là một cột phân hoạch trong bảng gốc và mỗi hàng tương ứng với một phân hoạch trong bảng gốc.
 
 
 

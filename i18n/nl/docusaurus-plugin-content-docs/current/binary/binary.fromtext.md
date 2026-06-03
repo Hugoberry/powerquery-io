@@ -20,13 +20,16 @@ Binary.FromText(
 
 ## Remarks
 
-Hiermee wordt het resultaat geretourneerd van het omzetten van een tekstwaarde <code>text</code> naar een binaire waarde (lijst met <code>number</code>). <code>encoding</code> kan worden opgegeven om de codering aan te geven die in de tekstwaarde is gebruikt. De volgende <code>BinaryEncoding</code>-waarden kunnen worden gebruikt voor <code>encoding</code>. <ul> <li><code>BinaryEncoding.Base64</code>: Base 64-codering</li> <li><code>BinaryEncoding.Hex</code>: hexadecimale codering</li> </ul>
+Hiermee wordt het resultaat geretourneerd van het omzetten van een tekstwaarde `text` naar een binaire waarde (lijst met `number`). `encoding` kan worden opgegeven om de codering aan te geven die in de tekstwaarde is gebruikt. De volgende `BinaryEncoding`\-waarden kunnen worden gebruikt voor `encoding`.
+
+-   `BinaryEncoding.Base64`: Base 64-codering
+-   `BinaryEncoding.Hex`: hexadecimale codering
 
 
 ## Examples
 
-### Example #1 
-&#34;1011&#34; decoderen naar binair.
+### Example #1
+"1011" decoderen naar binair.
 ```powerquery
 Binary.FromText("1011")
 ```
@@ -37,8 +40,8 @@ Binary.FromText("1011", BinaryEncoding.Base64)
 ```
 
 
-### Example #2 
-&#34;1011&#34; decoderen naar binair met hexadecimale codering.
+### Example #2
+"1011" decoderen naar binair met hexadecimale codering.
 ```powerquery
 Binary.FromText("1011", BinaryEncoding.Hex)
 ```

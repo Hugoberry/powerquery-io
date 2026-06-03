@@ -19,13 +19,15 @@ Time.ToRecord(
 
 ## Remarks
 
-Devolve um registo que contém as partes do valor de Hora especificado, <code>time</code>. <ul>        <li><code>time</code>: um valor <code>time</code> a partir do qual o registo das partes correspondentes deverá ser calculado.</li>      </ul>
+Devolve um registo que contém as partes do valor de Hora especificado, `time`.
+
+-   `time`: um valor `time` a partir do qual o registo das partes correspondentes deverá ser calculado.
 
 
 ## Examples
 
-### Example #1 
-Converter o valor &lt;code&gt;#time(11, 56, 2)&lt;/code&gt; num registo que contém os valores de Hora.
+### Example #1
+Converter o valor `#time(11, 56, 2)` num registo que contém os valores de Hora.
 ```powerquery
 Time.ToRecord(#time(11, 56, 2))
 ```

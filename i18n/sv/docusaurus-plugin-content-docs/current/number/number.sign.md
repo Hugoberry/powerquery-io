@@ -19,12 +19,12 @@ Number.Sign(
 
 ## Remarks
 
-Returnerar 1 om <code>number</code> är ett positivt tal, -1 om det är ett negativt tal och 0 om det är noll.    Om <code>number</code> är null returnerar <code>Number.Sign</code> null.
+Returnerar 1 om `number` är ett positivt tal, -1 om det är ett negativt tal och 0 om det är noll. Om `number` är null returnerar `Number.Sign` null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Avgör tecknet för 182.
 ```powerquery
 Number.Sign(182)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Avgör tecknet för -182.
 ```powerquery
 Number.Sign(-182)
@@ -48,7 +48,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Avgör tecknet för 0.
 ```powerquery
 Number.Sign(0)

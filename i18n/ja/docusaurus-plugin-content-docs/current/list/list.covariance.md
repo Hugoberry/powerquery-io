@@ -20,12 +20,12 @@ List.Covariance(
 
 ## Remarks
 
-<code>numberList1</code> と <code>numberList2</code> の 2 つのリストの間の共分散を返します。<code>numberList1</code> と <code>numberList2</code> には同じ数の <code>number</code> 値が含まれている必要があります。
+`numberList1` と `numberList2` の 2 つのリストの間の共分散を返します。`numberList1` と `numberList2` には同じ数の `number` 値が含まれている必要があります。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 2 つのリストの間の共分散を計算します。
 ```powerquery
 List.Covariance({1, 2, 3}, {1, 2, 3})

@@ -20,13 +20,13 @@ Table.Sort(
 
 ## Remarks
 
-Phân loại <code>table</code> bằng cách sử dụng một hoặc nhiều tên cột và <code>comparisonCriteria</code> tùy chọn trong biểu mẫu \{ \{ col1, comparisonCriteria }, \{col2} }.
+Phân loại `table` bằng cách sử dụng một hoặc nhiều tên cột và `comparisonCriteria` tùy chọn trong biểu mẫu \{ \{ col1, comparisonCriteria \}, \{col2\} \}.
 
 
 ## Examples
 
-### Example #1 
-Sắp xếp bảng trên cột &#34;OrderID&#34;.
+### Example #1
+Sắp xếp bảng trên cột "OrderID".
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -60,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Sắp xếp bảng trên cột &#34;OrderID&#34; theo thứ tự giảm dần.
+### Example #2
+Sắp xếp bảng trên cột "OrderID" theo thứ tự giảm dần.
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -95,8 +95,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Sắp xếp bảng trên cột &#34;CustomerID&#34; sau đó đến &#34;OrderID&#34;, với &#34;CustomerID&#34; theo thứ tự giảm dần.
+### Example #3
+Sắp xếp bảng trên cột "CustomerID" sau đó đến "OrderID", với "CustomerID" theo thứ tự giảm dần.
 ```powerquery
 Table.Sort(
     Table.FromRecords({

@@ -20,7 +20,7 @@ File.Contents(
 
 ## Remarks
 
-Devolve o conteúdo do ficheiro, <code>path</code>, como binário. O parâmetro <code>options</code> destina-se atualmente apenas a utilização interna.
+Devolve o conteúdo do ficheiro, `path`, como binário. O parâmetro `options` destina-se atualmente apenas a utilização interna.
 
 
 

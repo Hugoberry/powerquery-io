@@ -20,12 +20,12 @@ List.Covariance(
 
 ## Remarks
 
-返回两个列表 <code>numberList1</code> 和 <code>numberList2</code> 之间的协方差。<code>numberList1</code> 和 <code>numberList2</code> 必须包含相同数目的 <code>number</code> 值。
+返回两个列表 `numberList1` 和 `numberList2` 之间的协方差。`numberList1` 和 `numberList2` 必须包含相同数目的 `number` 值。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 计算两个列表之间的协方差。
 ```powerquery
 List.Covariance({1, 2, 3}, {1, 2, 3})

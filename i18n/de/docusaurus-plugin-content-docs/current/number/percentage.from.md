@@ -20,13 +20,13 @@ Percentage.From(
 
 ## Remarks
 
-Gibt einen <code>Prozentwert</code> aus dem angegebenen <code>value</code>-Wert zurück. Wenn der angegebene <code>value</code>-Wert <code>NULL</code> lautet, gibt <code>Percentage.From</code> den Wert <code>NULL</code> zurück. Wenn der angegebene <code>value</code>-Wert <code>Text</code> mit einem nachfolgenden Prozentzeichen ist, wird die konvertierte Dezimalzahl zurückgegeben. Andernfalls wird der Wert mit <code>Number.From</code> in einen <code>number</code>-Wert konvertiert. Optional kann auch ein Element vom Typ „<code>culture</code>“ angegeben werden (Beispiel: „de-DE“).
+Gibt einen `Prozentwert` aus dem angegebenen `value`\-Wert zurück. Wenn der angegebene `value`\-Wert `NULL` lautet, gibt `Percentage.From` den Wert `NULL` zurück. Wenn der angegebene `value`\-Wert `Text` mit einem nachfolgenden Prozentzeichen ist, wird die konvertierte Dezimalzahl zurückgegeben. Andernfalls wird der Wert mit `Number.From` in einen `number`\-Wert konvertiert. Optional kann auch ein Element vom Typ „`culture`“ angegeben werden (Beispiel: „de-DE“).
 
 
 ## Examples
 
-### Example #1 
-Hiermit rufen Sie den &lt;code&gt;Prozentwert&lt;/code&gt; aus &lt;code&gt;&#34;12,3 %&#34;&lt;/code&gt; ab.
+### Example #1
+Hiermit rufen Sie den `Prozentwert` aus `"12,3 %"` ab.
 ```powerquery
 Percentage.From("12.3%")
 ```

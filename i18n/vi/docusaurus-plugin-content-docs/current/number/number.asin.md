@@ -19,7 +19,7 @@ Number.Asin(
 
 ## Remarks
 
-Trả về arcsine của <code>number</code>.
+Trả về arcsine của `number`.
 
 
 

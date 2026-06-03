@@ -20,12 +20,12 @@ Number.Permutations(
 
 ## Remarks
 
-Zwraca liczbę permutacji, które można wygenerować na podstawie określonej liczby elementów <code>setSize</code>, używając określonego rozmiaru permutacji <code>permutationSize</code>.
+Zwraca liczbę permutacji, które można wygenerować na podstawie określonej liczby elementów `setSize`, używając określonego rozmiaru permutacji `permutationSize`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź liczbę permutacji z listy 5 elementów, gdy każda permutacja to grupa 3 elementów.
 ```powerquery
 Number.Permutations(5, 3)

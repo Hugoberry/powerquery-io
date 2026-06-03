@@ -19,7 +19,13 @@ Table.ViewFunction(
 
 ## Remarks
 
-Cria uma função de exibição baseada em <code>function</code> que pode ser manipulada em uma exibição criada por <code>Table.View</code>.<br />O manipulador <code>OnInvoke</code> de <code>Table.View</code> pode ser usado para definir um manipulador para a função de exibição.<br />Assim como com os manipuladores para operações internas, se nenhum manipulador <code>OnInvoke</code> for especificado, se ele não manipular a função de exibição ou se um erro for gerado pelo manipulador, <code>function</code> será aplicado no topo da exibição.<br />Consulte a documentação publicada de conector personalizado do Power Query para obter uma descrição mais completa de <code>Table.View</code> e das funções de exibição personalizadas.<br />
+Cria uma função de exibição baseada em `function` que pode ser manipulada em uma exibição criada por `Table.View`.
+
+O manipulador `OnInvoke` de `Table.View` pode ser usado para definir um manipulador para a função de exibição.
+
+Assim como com os manipuladores para operações internas, se nenhum manipulador `OnInvoke` for especificado, se ele não manipular a função de exibição ou se um erro for gerado pelo manipulador, `function` será aplicado no topo da exibição.
+
+Consulte a documentação publicada de conector personalizado do Power Query para obter uma descrição mais completa de `Table.View` e das funções de exibição personalizadas.
 
 
 

@@ -20,12 +20,12 @@ Table.PrefixColumns(
 
 ## Remarks
 
-Retourneert een tabel waarin alle kolomnamen van de opgegeven <code>table</code> worden voorafgegaan door de opgegeven tekst, <code>prefix</code>, plus een punt in de notatie <code>prefix</code><code>.ColumnName</code>.
+Retourneert een tabel waarin alle kolomnamen van de opgegeven `table` worden voorafgegaan door de opgegeven tekst, `prefix`, plus een punt in het formulier `prefix.ColumnName`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De kolomnamen in de tabel vooraf laten gaan door de tekst MyTable.
 ```powerquery
 Table.PrefixColumns(

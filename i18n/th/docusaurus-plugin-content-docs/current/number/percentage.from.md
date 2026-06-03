@@ -20,13 +20,13 @@ Percentage.From(
 
 ## Remarks
 
-ส่งกลับค่า <code>percentage</code> จาก <code>value</code>ที่กำหนด ถ้า <code>value</code> ที่กำหนดเป็น <code>null</code> <code>Percentage.From</code> จะส่งกลับ <code>null</code>  ถ้า <code>value</code> ที่กำหนดเป็น <code>text</code> ที่มีสัญลักษณ์เปอร์เซ็นต์ต่อท้าย ระบบจะส่งกลับตัวเลขทศนิยมที่แปลงแล้ว มิฉะนั้นจะแปลงค่าเป็น <code>number</code> โดยใช้ <code>Number.From</code> อาจมี <code>culture</code> เพิ่มเติม (ตัวอย่างเช่น "en-US")
+ส่งกลับค่า `percentage` จาก `value`ที่กำหนด ถ้า `value` ที่กำหนดเป็น `null` `Percentage.From` จะส่งกลับ `null` ถ้า `value` ที่กำหนดเป็น `text` ที่มีสัญลักษณ์เปอร์เซ็นต์ต่อท้าย ระบบจะส่งกลับตัวเลขทศนิยมที่แปลงแล้ว มิฉะนั้นจะแปลงค่าเป็น `number` โดยใช้ `Number.From` อาจมี `culture` เพิ่มเติม (ตัวอย่างเช่น "en-US")
 
 
 ## Examples
 
-### Example #1 
-รับค่า&lt;code&gt;เปอร์เซ็นต์&lt;/code&gt;ของ &lt;code&gt;&#34;12.3%&#34;&lt;/code&gt;
+### Example #1
+รับค่า`เปอร์เซ็นต์`ของ `"12.3%"`
 ```powerquery
 Percentage.From("12.3%")
 ```

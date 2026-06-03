@@ -5,7 +5,7 @@ title: Table.TransformColumnTypes
 # Table.TransformColumnTypes
 
 
-Anvender typetransformationer i formatet \{ column, type } ved hjælp af den angivne kultur.
+Anvender typetransformationer i formatet \{ column, type \} ved hjælp af den angivne kultur.
 
 
 ## Syntax
@@ -14,36 +14,152 @@ Anvender typetransformationer i formatet \{ column, type } ved hjælp af den ang
 Table.TransformColumnTypes(
     table as table,
     typeTransformations as list,
-    optional culture as text
+    optional culture as any
 ) as table
 ```
 
 
 ## Remarks
 
-Returnerer en tabel fra inputtet <code>table</code> ved at anvende transformationshandlingen på de kolonner, der er angivet i parameteren <code>typeTransformations</code> (hvor formatet er \{ column name, type name}), ved hjælp af den angivne kultur i den valgfrie parameter <code>culture</code> (f.eks. "en-US").    Hvis kolonnen ikke findes, udløses der en undtagelse.
+Returns a table by applying the transform operations to the specified columns using an optional culture.
+
+-   `table`: The input table to transform.
+-   `typeTransformations`: The type transformations to apply. The format for a single transformation is \{ column name, type value \}. A list of transformations can be used to change the types of more than one column at a time. If a column doesn't exist, an error is raised.
+-   `culture`: (Optional) The culture to use when transforming the column types (for example, "en-US"). If a record is specified for `culture`, it can contain the following fields:
+    -   `Culture`: The culture to use when transforming the column types (for example, "en-US").
+    -   `MissingField`: If a column doesn't exist, an error is raised unless this field provides an alternative behavior (for example, `MissingField.UseNull` or `MissingField.Ignore`).
+
+The type value in the `typeTransformations` parameter can be `any`, all of the `number` types, `text`, all of the `date`, `time`, `datetime`, `datetimezone`, and `duration` types, `logical`, or `binary`. The `list`, `record`, `table`, or `function` types aren't valid for this parameter.  
+  
+For each column listed in `typeTransformations`, the ".From" method corresponding to the specified type value is normally used to perform the transformation. For example, if a `Currency.Type` type value is given for a column, the transformation function `Currency.From` is applied to each value in that column.
 
 
 ## Examples
 
-### Example #1 
-Transformér talværdierne i kolonnen [a] til tekstværdier ud fra tabellen &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt;.
+### Example #1
+Transformér talværdierne i den første kolonne til tekstværdier.
 ```powerquery
-Table.TransformColumnTypes(
-    Table.FromRecords({
-        [a = 1, b = 2],
-        [a = 3, b = 4]
+let
+    Source = #table(type table [a = number, b = number],
+    {
+        {1, 2},
+        {3, 4}
     }),
-    {"a", type text},
-    "en-US"
-)
+    #"Transform Column" = Table.TransformColumnTypes(
+        Source,
+        {"a", type text}
+    )
+in
+    #"Transform Column"
 ```
 
 Result: 
 ```powerquery
-Table.FromRecords({
-    [a = "1", b = 2],
-    [a = "3", b = 4]
+#table(type table [a = text, b = number],
+{
+    {"1", 2},
+    {"3", 4}
+})
+```
+
+
+### Example #2
+Transformér datoerne i tabellen til deres franske tekstækvivalenter.
+```powerquery
+let
+    Source = #table(type table [Company ID = text, Country = text, Date = date],
+    {
+        {"JS-464", "USA", #date(2024, 3, 24)},
+        {"LT-331", "France", #date(2024, 10, 5)},
+        {"XE-100", "USA", #date(2024, 5, 21)},
+        {"RT-430", "Germany", #date(2024, 1,18)},
+        {"LS-005", "France", #date(2023, 12, 31)},
+        {"UW-220", "Germany", #date(2024, 2, 25)}
+    }),
+    #"Transform Column" = Table.TransformColumnTypes(
+        Source,
+        {"Date", type text},
+        "fr-FR"
+    )
+in
+    #"Transform Column"
+```
+
+Result: 
+```powerquery
+#table(type table [Company ID = text, Country = text, Date = text],
+{
+    {"JS-464", "USA", "24/03/2024"},
+    {"LT-331", "France", "05/10/2024"},
+    {"XE-100", "USA", "21/05/2024"},
+    {"RT-430", "Germany", "18/01/2024"},
+    {"LS-005", "France", "31/12/2023"},
+    {"UW-220", "Germany", "25/02/2024"}
+})
+```
+
+
+### Example #3
+Transformér datoerne i tabellen til deres tyske tekstækvivalenter og værdierne i tabellen til procenter.
+```powerquery
+let
+    Source = #table(type table [Date = date, Customer ID = text, Value = number],
+    {
+        {#date(2024, 3, 12), "134282", .24368},
+        {#date(2024, 5, 30), "44343", .03556},
+        {#date(2023, 12, 14), "22", .3834}
+    }),
+    #"Transform Columns" = Table.TransformColumnTypes(
+        Source,
+        {{"Date", type text}, {"Value", Percentage.Type}},
+        "de-DE")
+in
+    #"Transform Columns"
+```
+
+Result: 
+```powerquery
+#table(type table [Date = text, Customer ID = text, Value = Percentage.Type],
+{
+    {"12.03.2024", "134282", .24368},
+    {"30.05.2024", "44343", .03556},
+    {"14.12.2023", "22", .3834}
+})
+```
+
+
+### Example #4
+Apply transformations with a record value for `culture`.
+```powerquery
+let
+    Source = #table(type table [Company ID = text, Country = text, Date = date],
+    {
+        {"JS-464", "USA", #date(2024, 3, 24)},
+        {"LT-331", "France", #date(2024, 10, 5)},
+        {"XE-100", "USA", #date(2024, 5, 21)},
+        {"RT-430", "Germany", #date(2024, 1,18)},
+        {"LS-005", "France", #date(2023, 12, 31)},
+        {"UW-220", "Germany", #date(2024, 2, 25)}
+    }),
+    #"Transform Column" = Table.TransformColumnTypes(
+        Source,
+        {{"Date", type text}, {"NewColumn", type number}},
+        [Culture="fr-FR", MissingField=MissingField.UseNull]
+    )
+in
+    #"Transform Column"
+```
+
+Result: 
+```powerquery
+#table(type table [Company ID = text, Country = text, Date = text, NewColumn = number],
+{
+    {"JS-464", "USA", "24/03/2024", null},
+    {"LT-331", "France", "05/10/2024", null},
+    {"XE-100", "USA", "21/05/2024", null},
+    {"RT-430", "Germany", "18/01/2024", null},
+    {"LS-005", "France", "31/12/2023", null},
+    {"UW-220", "Germany", "25/02/2024", null}
 })
 ```
 

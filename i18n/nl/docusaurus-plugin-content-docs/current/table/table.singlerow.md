@@ -19,12 +19,12 @@ Table.SingleRow(
 
 ## Remarks
 
-Retourneert de enkele rij in de ene rij <code>table</code>. Als er in de <code>table</code> meer rijen staan, wordt er een uitzondering gegenereerd.
+Retourneert de enkele rij in de ene rij `table`. Er wordt een fout gegenereerd als de `table` rij meer dan één rij bevat.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De rij in de tabel retourneren.
 ```powerquery
 Table.SingleRow(Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}))

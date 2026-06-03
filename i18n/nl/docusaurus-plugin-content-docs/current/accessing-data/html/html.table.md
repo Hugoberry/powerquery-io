@@ -21,12 +21,14 @@ Html.Table(
 
 ## Remarks
 
-Hiermee wordt een tabel geretourneerd met de resultaten van de opgegeven CSS-selectors ten opzichte van de opgegeven <code>html</code>. Een optionele recordparameter, <code>options</code>, kan worden opgegeven om extra eigenschappen op te geven. De record kan de volgende velden bevatten:    <ul><li><code>RowSelector</code></li></ul>    
+Hiermee wordt een tabel geretourneerd met de resultaten van de opgegeven CSS-selectors ten opzichte van de opgegeven `html`. Een optionele recordparameter, `options`, kan worden opgegeven om extra eigenschappen op te geven. De record kan de volgende velden bevatten:
+
+-   `RowSelector`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hiermee wordt een tabel geretourneerd uit een voorbeeldwaarde voor HTML-tekst.
 ```powerquery
 Html.Table("<div class=""name"">Jo</div><span>Manager</span>", {{"Name", ".name"}, {"Title", "span"}}, [RowSelector=".name"])
@@ -38,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Hiermee worden de HREF&#39;s opgehaald uit een voorbeeld van een HTML-tekstwaarde.
+### Example #2
+Hiermee worden de HREF's opgehaald uit een voorbeeld van een HTML-tekstwaarde.
 ```powerquery
 Html.Table("<a href=""/test.html"">Test</a>", {{"Link", "a", each [Attributes][href]}})
 ```
@@ -53,4 +55,4 @@ Result:
 
 
 ## Category
-Toegang tot gegevens
+Accessing data

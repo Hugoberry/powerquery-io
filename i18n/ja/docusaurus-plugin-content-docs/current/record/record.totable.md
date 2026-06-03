@@ -19,12 +19,12 @@ Record.ToTable(
 
 ## Remarks
 
-<code>record</code> 内のフィールドごとに 1 行あり、列 <code>Name</code> と <code>Value</code> を含むテーブルを返します。
+`record` 内のフィールドごとに 1 行あり、列 `Name` と `Value` を含むテーブルを返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 レコードからテーブルを返します。
 ```powerquery
 Record.ToTable([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

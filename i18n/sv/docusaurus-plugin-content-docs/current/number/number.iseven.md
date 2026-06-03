@@ -19,12 +19,12 @@ Number.IsEven(
 
 ## Remarks
 
-Anger om värdet, <code>number</code>, är jämnt genom att returnera <code>true</code> om det är jämnt och annars <code>false</code>.
+Anger om värdet, `number`, är jämnt genom att returnera `true` om det är jämnt och annars `false`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kontrollera om 625 är ett jämnt tal.
 ```powerquery
 Number.IsEven(625)
@@ -36,7 +36,7 @@ false
 ```
 
 
-### Example #2 
+### Example #2
 Kontrollera om 82 är ett jämnt tal.
 ```powerquery
 Number.IsEven(82)

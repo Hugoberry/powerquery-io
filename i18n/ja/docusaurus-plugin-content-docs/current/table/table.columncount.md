@@ -19,12 +19,12 @@ Table.ColumnCount(
 
 ## Remarks
 
-テーブル <code>table</code> 内の列の数を返します。
+テーブル `table` 内の列の数を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブル内の列の数を調べます。
 ```powerquery
 Table.ColumnCount(

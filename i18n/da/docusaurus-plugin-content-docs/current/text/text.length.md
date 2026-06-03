@@ -19,13 +19,13 @@ Text.Length(
 
 ## Remarks
 
-Returnerer antallet af tegn i strengen <code>text</code>.
+Returnerer antallet af tegn i strengen `text`.
 
 
 ## Examples
 
-### Example #1 
-Find ud af, hvor mange tegn der er i teksten &#34;Hello World&#34;.
+### Example #1
+Find ud af, hvor mange tegn der er i teksten "Hello World".
 ```powerquery
 Text.Length("Hello World")
 ```

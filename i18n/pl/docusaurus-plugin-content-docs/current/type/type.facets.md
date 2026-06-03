@@ -19,7 +19,7 @@ Type.Facets(
 
 ## Remarks
 
-Zwraca rekord zawierający aspekty elementu <code>type</code>.
+Zwraca rekord zawierający aspekty elementu `type`.
 
 
 

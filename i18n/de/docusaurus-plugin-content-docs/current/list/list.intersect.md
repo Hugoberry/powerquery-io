@@ -20,13 +20,13 @@ List.Intersect(
 
 ## Remarks
 
-Gibt die Schnittmenge der Listenwerte aus der Eingabeliste <code>lists</code> zurück. Ein optionaler Parameter (<code>equationCriteria</code>) kann angegeben werden.
+Gibt die Schnittmenge der Listenwerte aus der Eingabeliste `lists` zurück. Ein optionaler Parameter (`equationCriteria`) kann angegeben werden.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt die Schnittmenge der Listen &#34;\{1..5}&#34;, &#34;\{2..6}&#34; und &#34;\{3..7}&#34;.
+### Example #1
+Ermittelt die Schnittmenge der Listen "\{1..5\}", "\{2..6\}" und "\{3..7\}".
 ```powerquery
 List.Intersect({{1..5}, {2..6}, {3..7}})
 ```

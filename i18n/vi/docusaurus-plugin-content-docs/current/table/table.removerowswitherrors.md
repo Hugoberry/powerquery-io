@@ -25,7 +25,7 @@ Trả về một bảng có các hàng bị lỗi ít nhất một ô bị loạ
 
 ## Examples
 
-### Example #1 
+### Example #1
 Xóa giá trị lỗi từ hàng đầu tiên.
 ```powerquery
 Table.RemoveRowsWithErrors(

@@ -23,12 +23,12 @@ Table.FromList(
 
 ## Remarks
 
-Konvertiert eine Liste (<code>list</code>) in eine Tabelle, indem die optionale Aufteilungsfunktion (<code>splitter</code>) auf alle Elemente in der Liste angewendet wird. Standardmäßig wird von einer Liste mit kommagetrennten Textwerten ausgegangen. Optional kann <code>columns</code> die Anzahl von Spalten, eine Liste von Spalten oder ein TableType sein. Optional können auch <code>default</code> und <code>extraValues</code> angegeben werden.
+Konvertiert eine Liste (`list`) in eine Tabelle, indem die optionale Aufteilungsfunktion (`splitter`) auf alle Elemente in der Liste angewendet wird. Standardmäßig wird von einer Liste mit kommagetrennten Textwerten ausgegangen. Optional kann `columns` die Anzahl von Spalten, eine Liste von Spalten oder ein TableType sein. Optional können auch `default` und `extraValues` angegeben werden.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tabelle aus einer Liste mithilfe des Standardteilers erstellen.
 ```powerquery
 Table.FromList(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Tabelle aus einer Liste mithilfe eines benutzerdefinierten Splitters erstellen.
 ```powerquery
 Table.FromList(
@@ -70,7 +70,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Tabelle aus der Liste mithilfe eines Record.FieldValues-Splitters erstellen.
 ```powerquery
 Table.FromList(

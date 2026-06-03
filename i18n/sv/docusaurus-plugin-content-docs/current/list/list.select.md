@@ -20,13 +20,16 @@ List.Select(
 
 ## Remarks
 
-Returnerar en lista med värden från listan <code>list</code> som matchar urvalsvillkoret <code>selection</code>.
+Returnerar värdena från den angivna listan som uppfyller urvalsvillkoret.
+
+-   `list`: Listan som ska undersökas.
+-   `selection`: Funktionen som avgör vilka värden som ska väljas.
 
 
 ## Examples
 
-### Example #1 
-Sök efter de värden i listan \{1, -3, 4, 9, -2} som är större än 0.
+### Example #1
+Sök efter de värden i listan \{1, -3, 4, 9, -2\} som är större än 0.
 ```powerquery
 List.Select({1, -3, 4, 9, -2}, each _ > 0)
 ```
@@ -34,6 +37,66 @@ List.Select({1, -3, 4, 9, -2}, each _ > 0)
 Result: 
 ```powerquery
 {1, 4, 9}
+```
+
+
+### Example #2
+Välj datum i listan som infaller en lördag eller söndag.
+```powerquery
+let
+    dates = {
+        #date(2025, 10, 20),  // Monday
+        #date(2025, 10, 21),  // Tuesday
+        #date(2025, 10, 25),  // Saturday
+        #date(2025, 10, 26),  // Sunday
+        #date(2025, 10, 27)   // Monday
+    },
+    weekendDates = List.Select(
+        dates,
+        each Date.DayOfWeek(_, Day.Monday) >= 5
+    )
+in
+    weekendDates
+```
+
+Result: 
+```powerquery
+{
+    #date(2025, 10, 25),
+    #date(2025, 10, 26)
+}
+```
+
+
+### Example #3
+Visar en tabell med aktiva kunder med totalt inköpsbelopp på över 100 USD.
+```powerquery
+let
+    customers = {
+        [Name = "Alice", Status = "Active", Purchases = 150],
+        [Name = "Bob", Status = "Inactive", Purchases = 200],
+        [Name = "Carol", Status = "Active", Purchases = 90],
+        [Name = "Dave", Status = "Active", Purchases = 120]
+    },
+    highValueActiveCustomers = List.Select(
+        customers,
+        each [Status] = "Active" and [Purchases] > 100
+    ),
+    resultTable = Table.FromRecords(
+        highValueActiveCustomers,
+        type table [Name = text, Status = text, Purchases = number]
+    )
+in
+    resultTable
+```
+
+Result: 
+```powerquery
+#table(type table[Name = text, Status = text, Purchases = number],
+{
+    {"Alice", "Active", 150},
+    {"Dave", "Active", 120}
+})
 ```
 
 

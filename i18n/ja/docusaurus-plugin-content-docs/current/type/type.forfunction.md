@@ -20,12 +20,12 @@ Type.ForFunction(
 
 ## Remarks
 
-<code>function type</code> を、<code>ReturnType</code> と <code>Parameters</code> のレコード <code>signature</code>、関数の呼び出しに必要な引数の最少数 <code>min</code> から作成します。
+`function type` を、`ReturnType` と `Parameters` のレコード `signature`、関数の呼び出しに必要な引数の最少数 `min` から作成します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 X という数値パラメーターを取って数値を返す関数の型を作成します。
 ```powerquery
 Type.ForFunction([ReturnType = type number, Parameters = [X = type number]], 1)

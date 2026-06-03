@@ -20,12 +20,16 @@ Table.RemoveFirstN(
 
 ## Remarks
 
-Gibt eine Tabelle zurück, in der die angegebene Anzahl von Zeilen (<code>countOrCondition</code>, beginnend von oben) der Tabelle "<code>table</code>" nicht enthalten ist.    Wie viele Zeilen entfernt werden, hängt vom optionalen Parameter "<code>countOrCondition</code>" ab.    <ul>    <li> Ohne Angabe von "<code>countOrCondition</code>" wird lediglich die erste Zeile entfernt. </li>    <li> Ist "<code>countOrCondition</code>" eine Zahl, wird die entsprechende Anzahl von Zeilen (beginnend von oben) entfernt. </li>    <li> Ist "<code>countOrCondition</code>" eine Bedingung, werden so lange Zeilen entfernt, die die Bedingung erfüllen, bis eine Zeile die Bedingung nicht erfüllt.</li>    </ul>
+Gibt eine Tabelle zurück, in der die angegebene Anzahl von Zeilen (`countOrCondition`, beginnend von oben) der Tabelle "`table`" nicht enthalten ist. Wie viele Zeilen entfernt werden, hängt vom optionalen Parameter "`countOrCondition`" ab.
+
+-   Ohne Angabe von "`countOrCondition`" wird lediglich die erste Zeile entfernt.
+-   Ist "`countOrCondition`" eine Zahl, wird die entsprechende Anzahl von Zeilen (beginnend von oben) entfernt.
+-   Ist "`countOrCondition`" eine Bedingung, werden so lange Zeilen entfernt, die die Bedingung erfüllen, bis eine Zeile die Bedingung nicht erfüllt.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Entfernt die erste Zeile der Tabelle.
 ```powerquery
 Table.RemoveFirstN(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Entfernt die ersten beiden Zeilen der Tabelle.
 ```powerquery
 Table.RemoveFirstN(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Entfernt die ersten Zeilen in der Tabelle, die die Bedingung &#39;[CustomerID] &lt;= 2&#39; erfüllen.
+### Example #3
+Entfernt die ersten Zeilen in der Tabelle, die die Bedingung '\[CustomerID\] &lt;= 2' erfüllen.
 ```powerquery
 Table.RemoveFirstN(
     Table.FromRecords({

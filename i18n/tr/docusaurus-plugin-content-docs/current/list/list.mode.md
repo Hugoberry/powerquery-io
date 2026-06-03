@@ -20,13 +20,13 @@ List.Mode(
 
 ## Remarks
 
-<code>list</code> listesinde en sık görünen öğeyi döndürür. Liste boşsa bir özel durum oluşur. Birden çok öğe aynı en yüksek sıklıkla görünüyorsa son öğe seçilir.    Eşitlik sınamasını denetlemek için isteğe bağlı <code>comparisonCriteria</code> değeri, <code>equationCriteria</code>, belirtilebilir. 
+`list` içinde en sık görünen öğeyi döndürür. Liste boşsa bir hata oluşur. Aynı en yüksek sıklıkta birden çok öğe görünürse, son öğe seçilir. Eşitlik testini kontrol etmek için isteğe bağlı bir karşılaştırma ölçütü değeri (`equationCriteria`) belirtilebilir.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;\{&#34;A&#34;, 1, 2, 3, 3, 4, 5}&lt;/code&gt; listesinde en sık görünen öğeyi bulur.
+### Example #1
+`{"A", 1, 2, 3, 3, 4, 5}` listesinde en sık görünen öğeyi bulur.
 ```powerquery
 List.Mode({"A", 1, 2, 3, 3, 4, 5})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-&lt;code&gt;\{&#34;A&#34;, 1, 2, 3, 3, 4, 5, 5}&lt;/code&gt; listesinde en sık görünen öğeyi bulur.
+### Example #2
+`{"A", 1, 2, 3, 3, 4, 5, 5}` listesinde en sık görünen öğeyi bulur.
 ```powerquery
 List.Mode({"A", 1, 2, 3, 3, 4, 5, 5})
 ```

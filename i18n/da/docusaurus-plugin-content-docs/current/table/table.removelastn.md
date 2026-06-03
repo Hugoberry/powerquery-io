@@ -20,12 +20,16 @@ Table.RemoveLastN(
 
 ## Remarks
 
-Returnerer en tabel, der ikke indeholder de sidste <code>countOrCondition</code> rækker i tabellen <code>table</code>.        Det antal rækker, der fjernes, afhænger af den valgfrie parameter <code>countOrCondition</code>.    <ul>    <li> Hvis <code>countOrCondition</code> udelades, er det kun sidste række, der fjernes. </li>    <li> Hvis <code>countOrCondition</code> er et tal, fjernes der så mange rækker (med start fra bunden). </li>    <li> Hvis <code>countOrCondition</code> er en betingelse, fjernes de rækker, der overholder betingelsen, indtil en række ikke overholder betingelsen.</li>    </ul>
+Returnerer en tabel, der ikke indeholder de sidste `countOrCondition` rækker i tabellen `table`. Det antal rækker, der fjernes, afhænger af den valgfrie parameter `countOrCondition`.
+
+-   Hvis `countOrCondition` udelades, er det kun sidste række, der fjernes.
+-   Hvis `countOrCondition` er et tal, fjernes der så mange rækker (med start fra bunden).
+-   Hvis `countOrCondition` er en betingelse, fjernes de rækker, der overholder betingelsen, indtil en række ikke overholder betingelsen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Fjern den sidste række i tabellen.
 ```powerquery
 Table.RemoveLastN(
@@ -49,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Fjern de sidste to rækker i tabellen, hvor [CustomerID] &gt; 2.
+### Example #2
+Fjern de sidste to rækker i tabellen, hvor \[CustomerID\] > 2.
 ```powerquery
 Table.RemoveLastN(
     Table.FromRecords({

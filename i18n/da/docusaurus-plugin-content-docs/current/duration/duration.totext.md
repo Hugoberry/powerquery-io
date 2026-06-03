@@ -5,7 +5,7 @@ title: Duration.ToText
 # Duration.ToText
 
 
-Returnerer teksten i formatet &#34;d.h:m:s&#34;.
+Returnerer teksten i formatet "d.h:m:s".
 
 
 ## Syntax
@@ -20,13 +20,16 @@ Duration.ToText(
 
 ## Remarks
 
-Returnerer en tekstrepræsentation i formatet "dag.time:mins:sek" for den givne varighedsværdi, <code>duration</code>. <ul>        <li><code>duration</code>: A <code>varighed</code> hvorfra tekstrepræsentationen beregnes.</li>  <li><code>format</code>: <i>[Optional]</i> Frarådes, vil udløse en fejl, hvis den ikke er null</li>      </ul>
+Returnerer en tekstrepræsentation i formatet "dag.time:mins:sek" for den givne varighedsværdi, `duration`.
+
+-   `duration`: A `duration` hvorfra tekstrepræsentationen beregnes.
+-   `format`: *(Valgfri)* Udfaset, vil udløse en fejl hvis ikke null.
 
 
 ## Examples
 
-### Example #1 
-Konvertér &lt;code&gt;#duration(2, 5, 55, 20)&lt;/code&gt; til en tekstværdi.
+### Example #1
+Konvertér `#duration(2, 5, 55, 20)` til en tekstværdi.
 ```powerquery
 Duration.ToText(#duration(2, 5, 55, 20))
 ```

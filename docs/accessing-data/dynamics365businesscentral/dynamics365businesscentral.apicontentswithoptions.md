@@ -22,6 +22,6 @@ Dynamics365BusinessCentral.ApiContentsWithOptions(
 
 ## Remarks
 
-Returns a table with relevant Dynamics 365 Business Central data. 
+Returns a table with relevant Dynamics 365 Business Central data.
 
 

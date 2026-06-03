@@ -20,12 +20,24 @@ Table.View(
 
 ## Remarks
 
-Hiermee wordt een weergave van <code>table</code> geretourneerd waarin de functies in <code>handlers</code> worden gebruikt in plaats van het standaardgedrag van een bewerking wanneer de bewerking op de weergave wordt toegepast.<br />Als <code>table</code> is opgegeven, zijn alle handlerfuncties optioneel. Als <code>table</code> niet is opgegeven, zijn de handlerfuncties <code>GetType</code> en <code>GetRows</code> vereist. Als er geen handlerfunctie voor een bewerking is opgegeven, wordt in plaats daarvan het standaardgedrag van de bewerking op <code>table</code> toegepast (behalve bij <code>GetExpression</code>).<br />Handlerfuncties moeten een waarde retourneren die semantisch equivalent is aan het resultaat van het toepassen van de bewerking op <code>table</code> (of de resulterende weergave bij <code>GetExpression</code>).<br />Als er met een handlerfunctie een fout wordt gegenereerd, wordt het standaardgedrag van de bewerking op de weergave toegepast.<br /><code>Table.View</code> kan worden gebruikt om vouwen te implementeren naar een gegevensbron; de vertaling van M-query's naar bronspecifieke query's (bijvoorbeeld om T-SQL-instructies op basis van M-query's te maken).<br />\Raadpleeg de gepubliceerde documentatie over de aangepaste connector van Power Query voor een uitgebreide beschrijving van <code>Table.View</code>.<br />
+Hiermee wordt een weergave van `table` geretourneerd waarin de functies in `handlers` worden gebruikt in plaats van het standaardgedrag van een bewerking wanneer de bewerking op de weergave wordt toegepast.
+
+Als `table` is opgegeven, zijn alle handlerfuncties optioneel. Als `table` niet is opgegeven, zijn de handlerfuncties `GetType` en `GetRows` vereist. Als er geen handlerfunctie voor een bewerking is opgegeven, wordt in plaats daarvan het standaardgedrag van de bewerking op `table` toegepast (behalve bij `GetExpression`).
+
+Handlerfuncties moeten een waarde retourneren die semantisch equivalent is aan het resultaat van het toepassen van de bewerking op `table` (of de resulterende weergave bij `GetExpression`).
+
+Als er met een handlerfunctie een fout wordt gegenereerd, wordt het standaardgedrag van de bewerking op de weergave toegepast.
+
+`Table.View` kan worden gebruikt om vouwen te implementeren naar een gegevensbron; de vertaling van M-query's naar bronspecifieke query's (bijvoorbeeld om T-SQL-instructies op basis van M-query's te maken).
+
+\\
+
+Raadpleeg de gepubliceerde documentatie over de aangepaste connector van Power Query voor een uitgebreide beschrijving van `Table.View`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Maak een basisweergave waarvoor geen toegang tot de rijen is vereist om het type of het aantal rijen te bepalen.
 ```powerquery
 Table.View(

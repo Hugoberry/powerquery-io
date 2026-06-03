@@ -19,13 +19,15 @@ Date.DaysInMonth(
 
 ## Remarks
 
-Возвращает число дней в месяце в значении <code>date</code>, <code>datetime</code> или <code>datetimezone</code>: <code>dateTime</code>. <ul>        <li><code>dateTime</code>: значение <code>date</code>, <code>datetime</code> или <code>datetimezone</code>, для которого возвращается число дней в месяце.</li>      </ul>
+Возвращает число дней в месяце в значении `date`, `datetime` или `datetimezone`: `dateTime`.
+
+-   `dateTime`: значение `date`, `datetime` или `datetimezone`, для которого возвращается число дней в месяце.
 
 
 ## Examples
 
-### Example #1 
-Число дней в декабре, представленное как &lt;code&gt;#date(2011, 12, 01)&gt;&lt;/code&gt;.
+### Example #1
+Число дней в декабре, представленное как `#date(2011, 12, 01)>`.
 ```powerquery
 Date.DaysInMonth(#date(2011, 12, 01))
 ```

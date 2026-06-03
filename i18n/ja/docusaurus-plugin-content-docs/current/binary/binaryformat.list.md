@@ -20,12 +20,17 @@ BinaryFormat.List(
 
 ## Remarks
 
-アイテムのシーケンスを読み取って <code>list</code> を返すバイナリ形式を返します。<code>binaryFormat</code> パラメーターは、各アイテムのバイナリ形式を指定します。読み取るアイテムの数を決めるには、次の 3 つの方法があります。<ul><li><code>countOrCondition</code> が指定されていない場合、バイナリ形式は最後のアイテムまで読み取ります。</li><li><code>countOrCondition</code> が数値の場合、バイナリ形式はその数のアイテムを読み取ります。</li><li><code>countOrCondition</code> が関数の場合は、読み取られるアイテムごとに、その関数が呼び出されます。関数は、アイテムの読み取りを続行する場合は true を返し、停止する場合は false を返します。最後のアイテムは、リストに含まれます。</li><li><code>countOrCondition</code> がバイナリ形式である場合は、アイテムの数がリストに先行すると予期され、数の読み取りには指定された形式が使用されます。</li></ul>
+アイテムのシーケンスを読み取って `list` を返すバイナリ形式を返します。`binaryFormat` パラメーターは、各アイテムのバイナリ形式を指定します。読み取るアイテムの数を決めるには、次の 3 つの方法があります。
+
+-   `countOrCondition` が指定されていない場合、バイナリ形式は最後のアイテムまで読み取ります。
+-   `countOrCondition` が数値の場合、バイナリ形式はその数のアイテムを読み取ります。
+-   `countOrCondition` が関数の場合は、読み取られるアイテムごとに、その関数が呼び出されます。関数は、アイテムの読み取りを続行する場合は true を返し、停止する場合は false を返します。最後のアイテムは、リストに含まれます。
+-   `countOrCondition` がバイナリ形式である場合は、アイテムの数がリストに先行すると予期され、数の読み取りには指定された形式が使用されます。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 データの末尾までバイトを読み取ります。
 ```powerquery
 let
@@ -41,7 +46,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 2 バイトを読み取ります。
 ```powerquery
 let
@@ -57,7 +62,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 バイト値が 2 以上になるまでバイトを読み取ります。
 ```powerquery
 let

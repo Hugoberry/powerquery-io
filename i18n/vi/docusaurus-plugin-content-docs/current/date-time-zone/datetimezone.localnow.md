@@ -5,7 +5,7 @@ title: DateTimeZone.LocalNow
 # DateTimeZone.LocalNow
 
 
-Trả về ngày &amp; giờ hiện tại theo múi giờ địa phương.
+Trả về ngày & giờ hiện tại theo múi giờ địa phương.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ DateTimeZone.LocalNow(
 
 ## Remarks
 
-Trả về giá trị <code>datetimezone</code> được đặt thành ngày và giờ hiện tại trên hệ thống.    Giá trị được trả về có chứa thông tin múi giờ thể hiện múi giờ địa phương.
+Trả về giá trị `datetimezone` được đặt thành ngày và giờ hiện tại trên hệ thống. Giá trị được trả về có chứa thông tin múi giờ thể hiện múi giờ địa phương.
 
 
 

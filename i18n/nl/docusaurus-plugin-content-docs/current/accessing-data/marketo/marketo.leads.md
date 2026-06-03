@@ -21,12 +21,12 @@ Marketo.Leads(
 
 ## Remarks
 
-Hiermee wordt het eindpunt van de Marketo REST API op <code>url</code>/rest/v1/leads.json aangeroepen. Alle leads in de lijst <code>leadIds</code> worden geretourneerd.
+Hiermee wordt het eindpunt van de Marketo REST API op `url`/rest/v1/leads.json aangeroepen. Alle leads in de lijst `leadIds` worden geretourneerd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hiermee worden de details voor drie leads opgehaald
 ```powerquery
 Marketo.Leads("https://100-AAA-999.mktorest.com/rest", {50, 2343, 88498})

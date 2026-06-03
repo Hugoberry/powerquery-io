@@ -11,7 +11,8 @@ title: SingleStoreODBC.DataSource
 ```powerquery
 SingleStoreODBC.DataSource(
     ServerAddr as text,
-    Database as text
+    Database as text,
+    optional UseSSL as logical
 ) as table
 ```
 

@@ -20,25 +20,29 @@ Text.SplitAny(
 
 ## Remarks
 
-ส่งกลับรายการค่าข้อความที่เป็นผลลัพธ์จากการแยกค่าข้อความ <code>text</code> ตามอักขระใดๆ ในตัวคั่นที่ระบุ <code>separators</code>
+ส่งคืนรายการค่าข้อความที่เป็นผลลัพธ์จากการแยกค่าข้อความตามอักขระใดๆ ที่ระบุในตัวคั่น
+
+-   `text`: ค่าข้อความที่จะแยก
+-   `separators`: อักขระตัวคั่นที่ใช้ในการแยกข้อความ
 
 
 ## Examples
 
-### Example #1 
-สร้างรายการจากค่าข้อความ &#34;Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com&#34;
+### Example #1
+สร้างรายการจากข้อความที่กำหนดโดยใช้อักขระตัวคั่นที่ระบุ
 ```powerquery
-Text.SplitAny("Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com", "|")
+Text.SplitAny("Name|Customer ID|Purchase|Month-Day-Year", "|-")
 ```
 
 Result: 
 ```powerquery
 {
-    "Jamie",
-    "Campbell",
-    "Admin",
-    "Adventure Works",
-    "www.adventure-works.com"
+    "Name",
+    "Customer ID",
+    "Purchase",
+    "Month",
+    "Day",
+    "Year"
 }
 ```
 

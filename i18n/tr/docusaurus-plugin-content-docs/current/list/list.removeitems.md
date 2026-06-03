@@ -5,7 +5,7 @@ title: List.RemoveItems
 # List.RemoveItems
 
 
-Listede mevcut olan öğeleri list1&#39;den kaldırır.
+Listede mevcut olan öğeleri list1'den kaldırır.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ List.RemoveItems(
 
 ## Remarks
 
-<code>list2</code> içindeki verilen değerleri <code>list1</code> öğesinden kaldırır. <code>list2</code> içindeki değerler <code>list1</code> içinde yoksa, asıl liste döndürülür.
+`list2` içindeki verilen değerleri `list1` öğesinden kaldırır. `list2` içindeki değerler `list1` içinde yoksa, asıl liste döndürülür.
 
 
 ## Examples
 
-### Example #1 
-\{2, 4, 6} listesindeki öğeleri \{1, 2, 3, 4, 2, 5, 5} listesinden kaldırır.
+### Example #1
+\{2, 4, 6\} listesindeki öğeleri \{1, 2, 3, 4, 2, 5, 5\} listesinden kaldırır.
 ```powerquery
 List.RemoveItems({1, 2, 3, 4, 2, 5, 5}, {2, 4, 6})
 ```

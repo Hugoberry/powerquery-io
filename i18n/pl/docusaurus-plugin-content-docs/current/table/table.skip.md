@@ -20,12 +20,16 @@ Table.Skip(
 
 ## Remarks
 
-Zwraca tabelę, która nie zawiera określonej liczby pierwszych wierszy (<code>countOrCondition</code>) z tabeli <code>table</code>.     Liczba pominiętych wierszy jest zależna od opcjonalnego parametru <code>countOrCondition</code>.     <ul>    <li> Pominięcie parametru <code>countOrCondition</code> spowoduje pominięcie tylko pierwszego wiersza. </li>    <li> Jeśli parametr <code>countOrCondition</code> jest liczbą, określa liczbę wierszy (licząc od góry), które zostaną pominięte. </li>    <li>Jeśli parametr <code>countOrCondition</code> jest warunkiem, będą pomijane wiersze spełniające ten warunek, aż do wiersza, który go nie spełnia.</li>    </ul>
+Zwraca tabelę, która nie zawiera określonej liczby pierwszych wierszy (`countOrCondition`) z tabeli `table`. Liczba pominiętych wierszy jest zależna od opcjonalnego parametru `countOrCondition`.
+
+-   Pominięcie parametru `countOrCondition` spowoduje pominięcie tylko pierwszego wiersza.
+-   Jeśli parametr `countOrCondition` jest liczbą, określa liczbę wierszy (licząc od góry), które zostaną pominięte.
+-   Jeśli parametr `countOrCondition` jest warunkiem, będą pomijane wiersze spełniające ten warunek, aż do wiersza, który go nie spełnia.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Pomiń pierwszy wiersz w tabeli.
 ```powerquery
 Table.Skip(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Pomiń pierwsze dwa wiersze w tabeli.
 ```powerquery
 Table.Skip(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Pomiń pierwszy wiersz, w którym jest spełniony warunek [Price] &gt; 25, w tabeli.
+### Example #3
+Pomiń pierwszy wiersz, w którym jest spełniony warunek \[Price\] > 25, w tabeli.
 ```powerquery
 Table.Skip(
     Table.FromRecords({

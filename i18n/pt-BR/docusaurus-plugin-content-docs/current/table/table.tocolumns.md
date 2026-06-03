@@ -19,12 +19,12 @@ Table.ToColumns(
 
 ## Remarks
 
-Cria uma lista de listas aninhadas a partir da tabela, <code>table</code>.  Cada item de lista é uma lista interna que contém os valores de coluna.
+Cria uma lista de listas aninhadas a partir da tabela, `table`. Cada item de lista é uma lista interna que contém os valores de coluna.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Criar uma lista dos valores de coluna da tabela.
 ```powerquery
 Table.ToColumns(

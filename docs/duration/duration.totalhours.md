@@ -19,12 +19,12 @@ Duration.TotalHours(
 
 ## Remarks
 
-Returns the total hours spanned by <code>duration</code>.
+Returns the total hours spanned by `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find the total hours spanned by a duration value.
 ```powerquery
 Duration.TotalHours(#duration(5, 4, 3, 2))

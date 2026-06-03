@@ -21,12 +21,12 @@ Table.Contains(
 
 ## Remarks
 
-Geeft aan of de opgegeven record <code>row</code> als een rij in de <code>table</code> wordt weergegeven.    Er kan een optionele parameter <code>equationCriteria</code> worden opgegeven voor het aansturen van de vergelijking tussen de rijen van de tabel.
+Geeft aan of de opgegeven record `row` als een rij in de `table` wordt weergegeven. Er kan een optionele parameter `equationCriteria` worden opgegeven voor het aansturen van de vergelijking tussen de rijen van de tabel.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bepalen of de tabel de rij bevat.
 ```powerquery
 Table.Contains(
@@ -46,7 +46,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Bepalen of de tabel de rij bevat.
 ```powerquery
 Table.Contains(
@@ -66,8 +66,8 @@ false
 ```
 
 
-### Example #3 
-Bepalen of de tabel de rij bevat, waarbij alleen de kolom [Name] wordt vergeleken.
+### Example #3
+Bepalen of de tabel de rij bevat, waarbij alleen de kolom \[Name\] wordt vergeleken.
 ```powerquery
 Table.Contains(
     Table.FromRecords({

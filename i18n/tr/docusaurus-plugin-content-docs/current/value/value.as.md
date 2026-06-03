@@ -25,7 +25,7 @@ Değer belirtilen türle uyumluysa değeri döndürür. Bu, Number.Type gibi tan
 
 ## Examples
 
-### Example #1 
+### Example #1
 Sayıyı sayıya dönüştürün.
 ```powerquery
 Value.As(123, Number.Type)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Metin değerini sayıya dönüştürmeyi deneyin.
 ```powerquery
 Value.As("abc", type number)

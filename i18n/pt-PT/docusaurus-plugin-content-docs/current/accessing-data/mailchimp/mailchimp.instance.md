@@ -24,7 +24,7 @@ Efetua uma camada à API do MailChimp e devolve a resposta não processada.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devolve dados não processados do ponto final reports/click-details de API do MailChimp de uma campanha especificada.
 ```powerquery
 MailChimp.Instance("reports/{campaign_id}/click-details")

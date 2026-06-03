@@ -21,13 +21,13 @@ Currency.From(
 
 ## Remarks
 
-Trả về giá trị <code>currency</code> từ <code>value</code> đã cho. Nếu <code>value</code> đã cho là <code>null</code>, <code>Currency.From</code> sẽ trả về <code>null</code>. Nếu <code>value</code> đã cho là <code>number</code> trong phạm vi tiền tệ, phần thập phân của <code>value</code> sẽ được làm tròn tới 4 chữ số thập phân và được trả về. Nếu <code>value</code> đã cho thuộc bất kỳ loại nào khác, trước tiên, giá trị này sẽ được chuyển đổi thành <code>number</code> bằng <code>Number.FromText</code>. Khoảng hợp lệ của tiền tệ là <code>-922,337,203,685,477.5808</code> đến <code>922,337,203,685,477.5807</code>. Tham khảo <code>Number.Round</code> để biết các chế độ làm tròn sẵn dùng. Chế độ mặc định là <code>RoundingMode.ToEven</code>. Một <code>culture</code> tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
+Trả về giá trị `currency` từ `value` đã cho. Nếu `value` đã cho là `null`, `Currency.From` sẽ trả về `null`. Nếu `value` đã cho là `number` trong phạm vi tiền tệ, phần thập phân của `value` sẽ được làm tròn tới 4 chữ số thập phân và được trả về. Nếu `value` đã cho thuộc bất kỳ loại nào khác, trước tiên, giá trị này sẽ được chuyển đổi thành `number` bằng `Number.FromText`. Khoảng hợp lệ của tiền tệ là `-922,337,203,685,477.5808` đến `922,337,203,685,477.5807`. Tham khảo `Number.Round` để biết các chế độ làm tròn sẵn dùng. Chế độ mặc định là `RoundingMode.ToEven`. Một `culture` tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
 
 
 ## Examples
 
-### Example #1 
-Nhận giá trị &lt;code&gt;currency&lt;/code&gt; của &lt;code&gt;&#34;1.23455&#34;&lt;/code&gt;.
+### Example #1
+Nhận giá trị `currency` của `"1.23455"`.
 ```powerquery
 Currency.From("1.23455")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Tải giá trị &lt;code&gt;currency&lt;/code&gt; của &lt;code&gt;&#34;1.23455&#34;&lt;/code&gt; bằng&lt;code&gt;RoundingMode.Down&lt;/code&gt;.
+### Example #2
+Tải giá trị `currency` của `"1.23455"` bằng`RoundingMode.Down`.
 ```powerquery
 Currency.From("1.23455", "en-US", RoundingMode.Down)
 ```

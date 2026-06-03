@@ -5,7 +5,7 @@ title: List.Intersect
 # List.Intersect
 
 
-Restituisce l&#39;intersezione dei valori di elenco trovati nell&#39;input.
+Restituisce l'intersezione dei valori di elenco trovati nell'input.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ List.Intersect(
 
 ## Remarks
 
-Restituisce l'intersezione dei valori di elenco trovati nell'elenco di input <code>lists</code>. È possibile specificare il parametro facoltativo <code>equationCriteria</code>.
+Restituisce l'intersezione dei valori di elenco trovati nell'elenco di input `lists`. È possibile specificare il parametro facoltativo `equationCriteria`.
 
 
 ## Examples
 
-### Example #1 
-Trovare l&#39;intersezione degli elenchi \{1..5}, \{2..6}, \{3..7}.
+### Example #1
+Trovare l'intersezione degli elenchi \{1..5\}, \{2..6\}, \{3..7\}.
 ```powerquery
 List.Intersect({{1..5}, {2..6}, {3..7}})
 ```

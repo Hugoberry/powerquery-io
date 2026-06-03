@@ -20,13 +20,13 @@ List.Repeat(
 
 ## Remarks
 
-元のリスト <code>list</code> を <code>count</code> 回繰り返した結果のリストを返します。
+元のリスト `list` を `count` 回繰り返した結果のリストを返します。
 
 
 ## Examples
 
-### Example #1 
-\{1, 2} を 3 回繰り返した結果のリストを作成します。
+### Example #1
+\{1, 2\} を 3 回繰り返した結果のリストを作成します。
 ```powerquery
 List.Repeat({1, 2}, 3)
 ```

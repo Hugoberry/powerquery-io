@@ -5,7 +5,7 @@ title: Function.From
 # Function.From
 
 
-Crée une fonction avec une signature de paramètre spécifique sur une fonction qui prend un seul argument de liste
+Crée une fonction dotée d'une signature de paramètres spécifique, à partir d'une fonction qui accepte un unique argument de type liste.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Function.From(
 
 ## Remarks
 
-Prend une fonction unaire <code>function</code> et crée une nouvelle fonction avec le type <code>functionType</code> qui crée une liste de ses arguments et la passe à <code>function</code>.
+Prend une fonction unaire `function` et crée une nouvelle fonction avec le type `functionType` qui crée une liste de ses arguments et la passe à `function`.
 
 
 ## Examples
 
-### Example #1 
-Convertit List.Sum en fonction à deux arguments dont les arguments sont ajoutés ensemble
+### Example #1
+Convertit List.Sum en une fonction à deux arguments dont les arguments sont additionnés.
 ```powerquery
 Function.From(type function (a as number, b as number) as number, List.Sum)(2, 1)
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Convertit une fonction prenant une liste en fonction à deux arguments
+### Example #2
+Convertit une fonction prenant une liste en une fonction à deux arguments.
 ```powerquery
 Function.From(type function (a as text, b as text) as text, (list) => list{0} & list{1})("2", "1")
 ```

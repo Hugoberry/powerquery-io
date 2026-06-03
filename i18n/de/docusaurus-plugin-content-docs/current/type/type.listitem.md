@@ -19,13 +19,13 @@ Type.ListItem(
 
 ## Remarks
 
-Gibt einen Elementtyp aus einer Liste <code>type</code> zurück.
+Gibt einen Elementtyp aus einer Liste `type` zurück.
 
 
 ## Examples
 
-### Example #1 
-Suchen Sie einen Elementtyp in der Liste &lt;code&gt;\{number}&lt;/code&gt;.
+### Example #1
+Suchen Sie einen Elementtyp in der Liste `{number}`.
 ```powerquery
 Type.ListItem(type {number})
 ```

@@ -24,7 +24,7 @@ MailChimp API को कॉल करता है और अपरिष्क�
 
 ## Examples
 
-### Example #1 
+### Example #1
 दिए गए अभियान के लिए reports/click-details MailChimp API समाप्ति बिंदु से अपरिष्कृत डेटा लौटाता है.
 ```powerquery
 MailChimp.Instance("reports/{campaign_id}/click-details")

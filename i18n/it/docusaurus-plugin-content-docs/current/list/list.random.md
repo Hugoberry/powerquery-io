@@ -20,12 +20,15 @@ List.Random(
 
 ## Remarks
 
-Restituisce un elenco di numeri casuali compresi tra 0 e 1 corrispondenti al numero di valori da generare e un valore di inizializzazione facoltativo.<ul>   <li><code>count</code>: numero di valori causali da generare.</li>   <li><code>seed</code>: <i>[Facoltativo]</i> valore numerico usato per inizializzare il generatore di numeri casuali. Se omesso, viene generato un elenco univoco di numeri casuali ogni volta che si chiama la funzione. Se si specifica il valore di inizializzazione con un numero, ogni chiamata alla funzione genera lo stesso elenco di numeri casuali.</li></ul>
+Restituisce un elenco di numeri casuali compresi tra 0 e 1 corrispondenti al numero di valori da generare e un valore di inizializzazione facoltativo.
+
+-   `count`: numero di valori causali da generare.
+-   `seed`: *\[facoltativo\]* valore numerico usato per inizializzare il generatore di numeri casuali. Se omesso, viene generato un elenco univoco di numeri casuali ogni volta che si chiama la funzione. Se si specifica il valore di inizializzazione con un numero, ogni chiamata alla funzione genera lo stesso elenco di numeri casuali.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Creare un elenco di 3 numeri casuali.
 ```powerquery
 List.Random(3)
@@ -37,7 +40,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Creare un elenco di 3 numeri casuali, specificando il valore di inizializzazione.
 ```powerquery
 List.Random(3, 2)

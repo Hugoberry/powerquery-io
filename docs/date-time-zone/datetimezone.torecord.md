@@ -5,7 +5,7 @@ title: DateTimeZone.ToRecord
 # DateTimeZone.ToRecord
 
 
-Returns a record containing the datetimezone value&#39;s parts.
+Returns a record containing the datetimezone value's parts.
 
 
 ## Syntax
@@ -19,13 +19,15 @@ DateTimeZone.ToRecord(
 
 ## Remarks
 
-Returns a record containing the parts of the given datetimezone value, <code>dateTimeZone</code>. <ul>        <li><code>dateTimeZone</code>: A <code>datetimezone</code> value for from which the record of its parts is to be calculated.</li>      </ul>
+Returns a record containing the parts of the given datetimezone value, `dateTimeZone`.
+
+-   `dateTimeZone`: A `datetimezone` value for from which the record of its parts is to be calculated.
 
 
 ## Examples
 
-### Example #1 
-Convert the &lt;code&gt;#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)&lt;/code&gt; value into a record containing Date, Time, and Zone values.
+### Example #1
+Convert the `#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)` value into a record containing Date, Time, and Zone values.
 ```powerquery
 DateTimeZone.ToRecord(#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0))
 ```

@@ -21,13 +21,13 @@ Table.ContainsAny(
 
 ## Remarks
 
-<code>rows</code> kayıt listesindeki belirtilen kayıtlardan herhangi birinin <code>table</code> içinde satır olarak görünüp görünmediğini gösterir.    Tablonun satırları arasındaki karşılaştırmayı denetlemek üzere <code>equationCriteria</code> isteğe bağlı parametresi belirtilebilir.
+`rows` kayıt listesindeki belirtilen kayıtlardan herhangi birinin `table` içinde satır olarak görünüp görünmediğini gösterir. Tablonun satırları arasındaki karşılaştırmayı denetlemek üzere `equationCriteria` isteğe bağlı parametresi belirtilebilir.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; tablosunun &lt;code&gt;[a = 1, b = 2]&lt;/code&gt; veya &lt;code&gt;[a = 3, b = 5]&lt;/code&gt; satırlarını içerip içermediğini belirler.
+### Example #1
+`({[a = 1, b = 2], [a = 3, b = 4]})` tablosunun `[a = 1, b = 2]` veya `[a = 3, b = 5]` satırlarını içerip içermediğini belirler.
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({
@@ -47,8 +47,8 @@ true
 ```
 
 
-### Example #2 
-&lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; tablosunun &lt;code&gt;[a = 1, b = 3]&lt;/code&gt; veya &lt;code&gt;[a = 3, b = 5]&lt;/code&gt; satırlarını içerip içermediğini belirler.
+### Example #2
+`({[a = 1, b = 2], [a = 3, b = 4]})` tablosunun `[a = 1, b = 3]` veya `[a = 3, b = 5]` satırlarını içerip içermediğini belirler.
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({
@@ -68,8 +68,8 @@ false
 ```
 
 
-### Example #3 
-&lt;code&gt;(Table.FromRecords(\{[a = 1, b = 2], [a = 3, b = 4]}))&lt;/code&gt; tablosunun &lt;code&gt;[a = 1, b = 3]&lt;/code&gt; veya &lt;code&gt;[a = 3, b = 5]&lt;/code&gt; satırlarını içerip içermediğini yalnıza [a] sütununu karşılaştırarak belirler.
+### Example #3
+`(Table.FromRecords({[a = 1, b = 2], [a = 3, b = 4]}))` tablosunun `[a = 1, b = 3]` veya `[a = 3, b = 5]` satırlarını içerip içermediğini yalnıza \[a\] sütununu karşılaştırarak belirler.
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({

@@ -23,13 +23,19 @@ Table.ReplaceValue(
 
 ## Remarks
 
-Sustituye <code>oldValue</code> con <code>newValue</code> en las columnas especificadas en <code>table</code>.
+Reemplaza un valor por uno nuevo en las columnas especificadas de una tabla.
+
+-   `table`: tabla en la que se va a buscar.
+-   `oldValue`: el valor que se va a reemplazar.
+-   `newValue`: el valor de reemplazo.
+-   `replacer`: función de reemplazo que se va a usar. La función puede ser `Replacer.ReplaceText` para sustituir el texto original por uno nuevo, `Replacer.ReplaceValue` para reemplazar el valor original por uno nuevo, o un reemplazo personalizado.
+-   `columnsToSearch`: una lista con la columna o columnas específicas de la tabla para buscar el valor que se va a reemplazar.
 
 
 ## Examples
 
-### Example #1 
-Reemplace el texto &#34;adiós&#34; por &#34;mundo&#34; en la columna B, para coincidir solo con el valor completo.
+### Example #1
+Reemplace el texto "adiós" por "mundo" en la columna B, para coincidir solo con el valor completo.
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -54,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Reemplace el texto &#34;su&#34; con &#34;o&#34; en la columna B, para coincidir con cualquier parte del valor.
+### Example #2
+Reemplace el texto "su" con "o" en la columna B, para coincidir con cualquier parte del valor.
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -78,7 +84,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Anonimizar los nombres de los empleados de EE. UU.
 ```powerquery
 Table.ReplaceValue(
@@ -102,7 +108,7 @@ Table.FromRecords({
 ```
 
 
-### Example #4 
+### Example #4
 Anonimizar todas las columnas de empleados de EE. UU.
 ```powerquery
 Table.ReplaceValue(

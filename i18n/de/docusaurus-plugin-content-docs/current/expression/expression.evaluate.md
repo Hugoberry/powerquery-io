@@ -20,12 +20,12 @@ Expression.Evaluate(
 
 ## Remarks
 
-Gibt das Ergebnis der Auswertung eines M-Ausdrucks "<code>document</code>" mit den verfügbaren Bezeichnern zurück, auf die durch <code>environment</code> verwiesen werden kann.
+Gibt das Ergebnis der Auswertung eines M-Ausdrucks "`document`" mit den verfügbaren Bezeichnern zurück, auf die durch `environment` verwiesen werden kann.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hiermit wird eine einfache Summe ausgewertet.
 ```powerquery
 Expression.Evaluate("1 + 1")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Hiermit wird eine komplexere Summe ausgewertet.
 ```powerquery
 Expression.Evaluate("List.Sum({1, 2, 3})", [List.Sum = List.Sum])
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Hiermit wird die Verkettung eines Textwerts mit einem Bezeichner ausgewertet.
 ```powerquery
 Expression.Evaluate(Expression.Constant("""abc") & " & " & Expression.Identifier("x"), [x = "def"""])

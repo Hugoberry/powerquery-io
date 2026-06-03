@@ -21,13 +21,13 @@ Table.AggregateTableColumn(
 
 ## Remarks
 
-Aggregiert Tabellen in "<code>table</code>[<code>column</code>]" zu mehreren Spalten mit Aggregatwerten für die Tabellen. "<code>aggregations</code>" dient zum Angeben der Spalten mit den zu aggregierenden Tabellen, der Aggregationsfunktionen, die zum Generieren der Werte auf die Tabellen angewendet werden sollen, sowie der Namen der zu erstellenden Aggregationsspalten.
+Aggregiert Tabellen in "`table`\[`column`\]" zu mehreren Spalten mit Aggregatwerten für die Tabellen. "`aggregations`" dient zum Angeben der Spalten mit den zu aggregierenden Tabellen, der Aggregationsfunktionen, die zum Generieren der Werte auf die Tabellen angewendet werden sollen, sowie der Namen der zu erstellenden Aggregationsspalten.
 
 
 ## Examples
 
-### Example #1 
-Aggregiert Tabellenspalten in &lt;code&gt;[t]&lt;/code&gt; in der Tabelle &lt;code&gt;\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}&lt;/code&gt; zur Summe von &lt;code&gt;[t.a]&lt;/code&gt;, zu den Mindest- und Höchstwerten von &lt;code&gt;[t.b]&lt;/code&gt; sowie zur Werteanzahl in&lt;code&gt;[t.a]&lt;/code&gt;.
+### Example #1
+Aggregiert Tabellenspalten in `[t]` in der Tabelle `{[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}` zur Summe von `[t.a]`, zu den Mindest- und Höchstwerten von `[t.b]` sowie zur Werteanzahl in`[t.a]`.
 ```powerquery
 Table.AggregateTableColumn(
     Table.FromRecords(

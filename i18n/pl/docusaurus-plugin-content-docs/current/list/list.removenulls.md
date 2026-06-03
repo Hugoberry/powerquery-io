@@ -19,13 +19,13 @@ List.RemoveNulls(
 
 ## Remarks
 
-Usuwa wszystkie wystąpienia wartości „null” z listy <code>list</code>. Jeśli na liście nie znajdują się wartości „null”, zwracana jest oryginalna lista.
+Usuwa wszystkie wystąpienia wartości „null” z listy `list`. Jeśli na liście nie znajdują się wartości „null”, zwracana jest oryginalna lista.
 
 
 ## Examples
 
-### Example #1 
-Usuń wartości „null” z listy \{1, 2, 3, null, 4, 5, null, 6}.
+### Example #1
+Usuń wartości „null” z listy \{1, 2, 3, null, 4, 5, null, 6\}.
 ```powerquery
 List.RemoveNulls({1, 2, 3, null, 4, 5, null, 6})
 ```

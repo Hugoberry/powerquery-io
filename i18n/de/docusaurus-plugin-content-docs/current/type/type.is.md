@@ -20,12 +20,12 @@ Type.Is(
 
 ## Remarks
 
-Bestimmt, ob ein Wert <code>type1</code> immer mit <code>type2</code> kompatibel ist.
+Bestimmt, ob ein Wert von `type1` immer mit `type2` kompatibel ist. Der Parameter `type2` muss ein primitiver (oder nullabler primitiver) Typwert sein. Andernfalls ist das Verhalten dieser Funktion nicht definiert und sollte nicht aktiviert werden.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bestimmen Sie, ob ein Wert vom Typ „number“ immer auch als Typ „any“ behandelt werden kann.
 ```powerquery
 Type.Is(type number, type any)
@@ -37,7 +37,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Bestimmen Sie, ob ein Wert vom Typ „any“ immer auch als Typ „number“ behandelt werden kann.
 ```powerquery
 Type.Is(type any, type number)

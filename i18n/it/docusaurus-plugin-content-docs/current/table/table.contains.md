@@ -21,12 +21,12 @@ Table.Contains(
 
 ## Remarks
 
-Indica se il record specificato <code>row</code> viene visualizzato come riga nella tabella <code>table</code>.    Facoltativamente, è possibile specificare il parametro <code>equationCriteria</code> per controllare il confronto tra le righe della tabella.
+Indica se il record specificato `row` viene visualizzato come riga nella tabella `table`. Facoltativamente, è possibile specificare il parametro `equationCriteria` per controllare il confronto tra le righe della tabella.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determinare se la tabella contiene la riga.
 ```powerquery
 Table.Contains(
@@ -46,7 +46,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Determinare se la tabella contiene la riga.
 ```powerquery
 Table.Contains(
@@ -66,8 +66,8 @@ false
 ```
 
 
-### Example #3 
-Determinare se la tabella contiene la riga confrontando solo la colonna [Name].
+### Example #3
+Determinare se la tabella contiene la riga confrontando solo la colonna \[Name\].
 ```powerquery
 Table.Contains(
     Table.FromRecords({

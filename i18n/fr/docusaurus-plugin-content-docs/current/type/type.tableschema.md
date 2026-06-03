@@ -5,7 +5,7 @@ title: Type.TableSchema
 # Type.TableSchema
 
 
-Retourne une table contenant une description des colonnes (c&#39;est-à-dire le schéma) du type de table spécifié.
+Retourne une table contenant une description des colonnes (c'est-à-dire le schéma) du type de table spécifié.
 
 
 ## Syntax
@@ -19,7 +19,9 @@ Type.TableSchema(
 
 ## Remarks
 
-Retourne une table décrivant les colonnes de <code>tableType</code>.<br />Référez-vous à la documentation de <code>Table.Schema</code> pour une description de la table obtenue.<br />
+Retourne une table décrivant les colonnes de `tableType`.
+
+Référez-vous à la documentation de `Table.Schema` pour une description de la table obtenue.
 
 
 

@@ -21,13 +21,13 @@ Table.Max(
 
 ## Remarks
 
-Trả về hàng lớn nhất trong <code>table</code> khi được cho sẵn <code>comparisonCriteria</code>. Nếu bảng trống thì giá trị <code>default</code> tùy chọn được trả về. 
+Trả về hàng lớn nhất trong `table` khi được cho sẵn `comparisonCriteria`. Nếu bảng trống thì giá trị `default` tùy chọn được trả về.
 
 
 ## Examples
 
-### Example #1 
-Tìm hàng có giá trị lớn nhất trong cột [a] trong bảng &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8]})&lt;/code&gt;.
+### Example #1
+Tìm hàng có giá trị lớn nhất trong cột \[a\] trong bảng `({[a = 2, b = 4], [a = 6, b = 8]})`.
 ```powerquery
 Table.Max(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Tìm hàng có giá trị lớn nhất trong cột [a] trong bảng &lt;code&gt;(\{})&lt;/code&gt;. Trả về -1 nếu trống.
+### Example #2
+Tìm hàng có giá trị lớn nhất trong cột \[a\] trong bảng `({})`. Trả về -1 nếu trống.
 ```powerquery
 Table.Max(#table({"a"}, {}), "a", -1)
 ```

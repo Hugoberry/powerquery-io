@@ -20,13 +20,23 @@ Number.From(
 
 ## Remarks
 
-Gibt einen <code>number</code>-Wert auf der Grundlage des angegebenen Elements vom Typ „<code>value</code>“ zurück. Optional kann auch ein Element vom Typ „<code>culture</code>“ angegeben werden (Beispiel: „de-DE“).Besitzt das angegebene Element vom Typ „<code>value</code>“ den Wert <code>NULL</code>, wird von <code>Number.From</code> der Wert <code>NULL</code> zurückgegeben. Besitzt das angegebene Element vom Typ „<code>value</code>“ den Wert <code>number</code>, wird „<code>value</code>“ zurückgegeben. Werte folgender Art können in einen <code>number</code>-Wert konvertiert werden:      <ul>        <li><code>text</code>: Ein <code>number</code>-Wert auf der Grundlage einer Textdarstellung. Behandelt werden allgemeine Textformate („15“, „3.423,10“, „5.0E-10“). Ausführlichere Informationen finden Sie unter <code>Number.FromText</code>.</li>        <li><code>logical</code>: 1 für <code>true</code>, 0 für <code>false</code>.</li>        <li><code>datetime</code>: Eine Gleitkommazahl mit doppelter Genauigkeit, die eine Entsprechung des OLE-Automatisierungsdatums enthält.</li>        <li><code>datetimezone</code>: Eine Gleitkommazahl mit doppelter Genauigkeit, die eine Entsprechung des OLE-Automatisierungsdatums für das lokale Datum und die lokale Uhrzeit von „<code>value</code>“ enthält.</li>        <li><code>date</code>: Eine Gleitkommazahl mit doppelter Genauigkeit, die eine Entsprechung des OLE-Automatisierungsdatums enthält.</li>        <li><code>time</code>: Ausgedrückt in anteiligen Tagen.</li>        <li><code>duration</code>: Ausgedrückt in ganzen und anteiligen Tagen.</li>        </ul>Handelt es sich bei „<code>value</code>“ um einen anderen Typ, wird ein Fehler zurückgegeben.
+Gibt einen `number`\-Wert auf der Grundlage des angegebenen Elements vom Typ „`value`“ zurück. Optional kann auch ein Element vom Typ „`culture`“ angegeben werden (Beispiel: „de-DE“). Besitzt das angegebene Element vom Typ „`value`“ den Wert `NULL`, wird von `Number.From` der Wert `NULL` zurückgegeben. Besitzt das angegebene Element vom Typ „`value`“ den Wert `number`, wird „`value`“ zurückgegeben. Werte folgender Art können in einen `number`\-Wert konvertiert werden:
+
+-   `text`: Ein `number`\-Wert auf der Grundlage einer Textdarstellung. Behandelt werden allgemeine Textformate („15“, „3.423,10“, „5.0E-10“). Ausführlichere Informationen finden Sie unter `Number.FromText`.
+-   `logical`: 1 für `true`, 0 für `false`.
+-   `datetime`: Eine Gleitkommazahl mit doppelter Genauigkeit, die eine Entsprechung des OLE-Automatisierungsdatums enthält.
+-   `datetimezone`: Eine Gleitkommazahl mit doppelter Genauigkeit, die eine Entsprechung des OLE-Automatisierungsdatums für das lokale Datum und die lokale Uhrzeit von „`value`“ enthält.
+-   `date`: Eine Gleitkommazahl mit doppelter Genauigkeit, die eine Entsprechung des OLE-Automatisierungsdatums enthält.
+-   `time`: Ausgedrückt in anteiligen Tagen.
+-   `duration`: Ausgedrückt in ganzen und anteiligen Tagen.
+
+Handelt es sich bei „`value`“ um einen anderen Typ, wird ein Fehler zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
-Ruft den &lt;code&gt;number&lt;/code&gt;-Wert von &lt;code&gt;&#34;4&#34;&lt;/code&gt; ab.
+### Example #1
+Ruft den `number`\-Wert von `"4"` ab.
 ```powerquery
 Number.From("4")
 ```
@@ -37,8 +47,8 @@ Result:
 ```
 
 
-### Example #2 
-Ruft den &lt;code&gt;number&lt;/code&gt;-Wert von &lt;code&gt;#datetime(2020, 3, 20, 6, 0, 0)&lt;/code&gt; ab.
+### Example #2
+Ruft den `number`\-Wert von `#datetime(2020, 3, 20, 6, 0, 0)` ab.
 ```powerquery
 Number.From(#datetime(2020, 3, 20, 6, 0, 0))
 ```
@@ -49,8 +59,8 @@ Result:
 ```
 
 
-### Example #3 
-Hiermit rufen Sie den &lt;code&gt;Zahlenwert&lt;/code&gt; von &lt;code&gt;&#34;12,3 %&#34;&lt;/code&gt; ab.
+### Example #3
+Hiermit rufen Sie den `Zahlenwert` von `"12,3 %"` ab.
 ```powerquery
 Number.From("12.3%")
 ```

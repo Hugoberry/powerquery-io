@@ -21,12 +21,16 @@ List.Numbers(
 
 ## Remarks
 
-Retourneert een lijst met getallen op basis van een aanvankelijke waarde, telling en optionele incrementele waarde. De standaard incrementele waarde is 1.<ul>   <li><code>start</code>: De aanvankelijke waarde in de lijst.</li>   <li><code>count</code>: Het aantal waarden dat moet worden gemaakt.</li>   <li><code>increment</code>: <i>[Optioneel]</i> De waarde waarmee moet worden verhoogd. Als weggelaten waarden worden verhoogd met 1.</li></ul>
+Retourneert een lijst met getallen op basis van een aanvankelijke waarde, telling en optionele incrementele waarde. De standaard incrementele waarde is 1.
+
+-   `start`: De aanvankelijke waarde in de lijst.
+-   `count`: Het aantal waarden dat moet worden gemaakt.
+-   `increment`: *\[Optioneel\]* De waarde waarmee moet worden verhoogd. Indien weggelaten, worden waarden verhoogd met 1.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een lijst met tien opeenvolgende getallen genereren, te beginnen bij 1.
 ```powerquery
 List.Numbers(1, 10)
@@ -49,7 +53,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Een lijst met tien opeenvolgende getallen genereren, te beginnen bij 1, met een toename van 2 voor elk volgend getal.
 ```powerquery
 List.Numbers(1, 10, 2)

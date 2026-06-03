@@ -19,12 +19,12 @@ Table.ColumnNames(
 
 ## Remarks
 
-तालिका <code>table</code> में मौजूद स्तंभ नामों को पाठ की सूची के रूप में लौटाता है.
+तालिका `table` में मौजूद स्तंभ नामों को पाठ की सूची के रूप में लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 तालिका के स्तंभ नाम ढूँढें.
 ```powerquery
 Table.ColumnNames(

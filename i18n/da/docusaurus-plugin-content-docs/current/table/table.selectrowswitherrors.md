@@ -25,7 +25,7 @@ Returnerer en tabel med kun de rækker fra inputtabellen, der indeholder en fejl
 
 ## Examples
 
-### Example #1 
+### Example #1
 Vælg navne på kunder, hvor der er fejl i deres rækker.
 ```powerquery
 Table.SelectRowsWithErrors(

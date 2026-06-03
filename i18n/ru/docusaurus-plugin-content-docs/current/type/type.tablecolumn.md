@@ -20,7 +20,7 @@ Type.TableColumn(
 
 ## Remarks
 
-Возвращает тип столбца <code>column</code> в типе таблицы <code>tableType</code>.
+Возвращает тип столбца `column` в типе таблицы `tableType`.
 
 
 

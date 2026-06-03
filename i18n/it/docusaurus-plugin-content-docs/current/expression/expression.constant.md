@@ -24,7 +24,7 @@ Restituisce la rappresentazione del codice sorgente M di un valore costante.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ottiene la rappresentazione del codice sorgente M di un valore numerico.
 ```powerquery
 Expression.Constant(123)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Ottiene la rappresentazione del codice sorgente M di un valore di data.
 ```powerquery
 Expression.Constant(#date(2035, 01, 02))
@@ -48,7 +48,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Ottiene la rappresentazione del codice sorgente M di un valore di testo.
 ```powerquery
 Expression.Constant("abc")

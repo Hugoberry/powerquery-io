@@ -19,13 +19,13 @@ Type.IsNullable(
 
 ## Remarks
 
-Restituisce <code>true</code> se un tipo è <code>nullable</code>; in caso contrario, <code>false</code>.
+Restituisce `true` se un tipo è `nullable`; in caso contrario, `false`.
 
 
 ## Examples
 
-### Example #1 
-Determinare se &lt;code&gt;number&lt;/code&gt; è nullable.
+### Example #1
+Determinare se `number` è nullable.
 ```powerquery
 Type.IsNullable(type number)
 ```
@@ -36,8 +36,8 @@ false
 ```
 
 
-### Example #2 
-Determinare se &lt;code&gt;number&lt;/code&gt; è nullable.
+### Example #2
+Determinare se `number` è nullable.
 ```powerquery
 Type.IsNullable(type nullable number)
 ```

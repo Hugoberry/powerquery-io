@@ -20,7 +20,17 @@ Table.Profile(
 
 ## Remarks
 
-Restituisce un profilo per le colonne in <code>table</code>.<br />Per ogni colonna vengono restituite le informazioni seguenti (se applicabile):<ul>  <li>minimo</li>  <li>massimo</li>  <li>media</li>  <li>deviazione standard</li>  <li>conteggio</li>  <li>conteggio valori Null</li>  <li>conteggio valori univoci</li></ul><br />
+Restituisce un profilo per le colonne in `table`.
+
+Per ogni colonna vengono restituite le informazioni seguenti (se applicabile):
+
+-   minimo
+-   massimo
+-   media
+-   deviazione standard
+-   conteggio
+-   conteggio valori Null
+-   conteggio valori univoci
 
 
 

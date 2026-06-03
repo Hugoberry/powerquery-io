@@ -19,7 +19,7 @@ Cube.Parameters(
 
 ## Remarks
 
-Gibt eine Tabelle zurück, die eine Sammlung von Parametern enthält, die auf '<code>cube</code>' angewendet werden können. Jeder Parameter ist eine Funktion, die aufgerufen werden kann, um '<code>cube</code>' mit dem angewendeten Parameter und seinen Argumenten abzurufen.
+Gibt eine Tabelle zurück, die eine Sammlung von Parametern enthält, die auf '`cube`' angewendet werden können. Jeder Parameter ist eine Funktion, die aufgerufen werden kann, um '`cube`' mit dem angewendeten Parameter und seinen Argumenten abzurufen.
 
 
 

@@ -20,12 +20,14 @@ Date.WeekOfMonth(
 
 ## Remarks
 
-Returns a number from 1 to 6 indicating which week of the month the date <code>dateTime</code> falls in. <ul>        <li><code>dateTime</code>: A <code>datetime</code> value for which the week-of-the-month is determined.</li>      </ul>
+Returns a number from 1 to 6 indicating which week of the month the date `dateTime` falls in.
+
+-   `dateTime`: A `datetime` value for which the week-of-the-month is determined.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determine which week of March the 15th falls on in 2011.
 ```powerquery
 Date.WeekOfMonth(#date(2011, 03, 15))

@@ -27,7 +27,7 @@ Combina le colonne specificate in una nuova colonna utilizzando la funzione di c
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combinare i cognomi e i nomi in una nuova colonna, separati da una virgola.
 ```powerquery
 Table.CombineColumns(

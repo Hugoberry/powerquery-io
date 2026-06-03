@@ -13,7 +13,8 @@ Returns a function that splits text into a list of text according to the specifi
 ```powerquery
 Splitter.SplitTextByDelimiter(
     delimiter as text,
-    optional quoteStyle as QuoteStyle.Type
+    optional quoteStyle as QuoteStyle.Type,
+    optional csvStyle as CsvStyle.Type
 ) as function
 ```
 
@@ -25,7 +26,7 @@ Returns a function that splits text into a list of text according to the specifi
 
 ## Examples
 
-### Example #1 
+### Example #1
 Split the input by comma, ignoring quoted commas.
 ```powerquery
 Splitter.SplitTextByDelimiter(",", QuoteStyle.Csv)("a,""b,c"",d")

@@ -19,7 +19,9 @@ Type.TableSchema(
 
 ## Remarks
 
-返回说明 <code>tableType</code> 的列的表。<br />请参阅有关 <code>Table.Schema</code> 的文档，以了解生成的表的说明。<br />
+返回说明 `tableType` 的列的表。
+
+请参阅有关 `Table.Schema` 的文档，以了解生成的表的说明。
 
 
 

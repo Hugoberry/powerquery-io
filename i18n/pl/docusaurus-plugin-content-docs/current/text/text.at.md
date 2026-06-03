@@ -20,12 +20,12 @@ Text.At(
 
 ## Remarks
 
-Zwraca znak znajdujący się na pozycji <code>index</code> w wartości tekstowej <code>text</code>. Pierwszy znak w tekście znajduje się na pozycji 0.
+Zwraca znak znajdujący się na pozycji `index` w wartości tekstowej `text`. Pierwszy znak w tekście znajduje się na pozycji 0.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź znak znajdujący się na pozycji 4 w ciągu „Hello, World”.
 ```powerquery
 Text.At("Hello, World", 4)

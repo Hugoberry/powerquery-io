@@ -5,7 +5,7 @@ title: Cdm.MapToEntity
 # Cdm.MapToEntity
 
 
-Veri türleri dahil, Common Data Model&#39;deki bir varlığın özniteliklerine eşlenmiş sütunların bulunduğu bir tablo döndürür.
+Veri türleri dahil, Common Data Model'deki bir varlığın özniteliklerine eşlenmiş sütunların bulunduğu bir tablo döndürür.
 
 
 ## Syntax

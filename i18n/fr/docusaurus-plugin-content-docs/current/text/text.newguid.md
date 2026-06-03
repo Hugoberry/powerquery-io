@@ -5,7 +5,7 @@ title: Text.NewGuid
 # Text.NewGuid
 
 
-Retourne un nouvel objet d&#39;identificateur global unique (GUID).
+Retourne un nouvel objet d'identificateur global unique (GUID).
 
 
 ## Syntax

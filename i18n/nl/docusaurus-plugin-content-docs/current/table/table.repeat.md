@@ -20,12 +20,12 @@ Table.Repeat(
 
 ## Remarks
 
-Retourneert een tabel met de rijen vanuit de invoer <code>table</code> de opgegeven <code>count</code> keer.
+Retourneert een tabel met de rijen vanuit de invoer `table` de opgegeven `count` keer.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De rijen in de tabel twee keer herhalen.
 ```powerquery
 Table.Repeat(

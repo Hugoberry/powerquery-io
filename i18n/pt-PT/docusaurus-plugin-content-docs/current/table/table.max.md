@@ -21,13 +21,13 @@ Table.Max(
 
 ## Remarks
 
-Devolve a maior linha em <code>table</code> com base no <code>comparisonCriteria</code> especificado. Se a tabela estiver vazia, é devolvido o valor <code>default</code> opcional. 
+Devolve a maior linha em `table` com base no `comparisonCriteria` especificado. Se a tabela estiver vazia, é devolvido o valor `default` opcional.
 
 
 ## Examples
 
-### Example #1 
-Determinar a linha com o maior valor na coluna [a] na tabela &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8]})&lt;/code&gt;.
+### Example #1
+Determinar a linha com o maior valor na coluna \[a\] na tabela `({[a = 2, b = 4], [a = 6, b = 8]})`.
 ```powerquery
 Table.Max(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Determinar a linha com o maior valor na coluna [a] na tabela &lt;code&gt;(\{})&lt;/code&gt;. Devolver -1 se estiver vazia.
+### Example #2
+Determinar a linha com o maior valor na coluna \[a\] na tabela `({})`. Devolver -1 se estiver vazia.
 ```powerquery
 Table.Max(#table({"a"}, {}), "a", -1)
 ```

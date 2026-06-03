@@ -24,7 +24,7 @@ Hiermee wordt een aanroep verzonden naar de Smartsheet 2.0 REST API op het opgeg
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hiermee wordt een tabel met gebruikersgegevens opgehaald via de Smartsheet-API
 ```powerquery
 Smartsheet.Content("users")

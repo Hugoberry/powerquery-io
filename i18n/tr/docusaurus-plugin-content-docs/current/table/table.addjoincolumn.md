@@ -23,13 +23,13 @@ Table.AddJoinColumn(
 
 ## Remarks
 
-<code>table1</code> satırlarını <code>key1</code> (<code>table1</code> için) ve <code>key2</code> (<code>table2</code> için) tarafından seçilen anahtar sütunların değerlerinin eşitliğine dayalı olarak <code>table2</code> satırları ile birleştirir. Sonuçlar <code>newColumnName</code> adlı sütuna girilir.Bu işlev, birleştirme sonuçlarının düzleştirilmiş biçim yerine iç içe yerleştirilmiş sunulması dışında LeftOuter türünde JoinKind içeren Table.Join ile aynı şekilde davranır.
+`table1` satırlarını `key1` (`table1` için) ve `key2` (`table2` için) tarafından seçilen anahtar sütunların değerlerinin eşitliğine dayalı olarak `table2` satırları ile birleştirir. Sonuçlar `newColumnName` adlı sütuna girilir. Bu işlev, birleştirme sonuçlarının düzleştirilmiş biçim yerine iç içe yerleştirilmiş sunulması dışında LeftOuter türünde JoinKind içeren Table.Join ile aynı şekilde davranır.
 
 
 ## Examples
 
-### Example #1 
-(\{[saleID = 1, price = 20], [saleID = 2, price = 10]}) tablosundan (\{[saleID = 1, item = &#34;Shirt&#34;], [saleID = 2, item = &#34;Hat&#34;]}) tablosuna, [saleID] üzerinde birleştirilecek &#34;fiyat/stok&#34; adlı birleştirme sütununu ekler.
+### Example #1
+(\{\[saleID = 1, price = 20\], \[saleID = 2, price = 10\]\}) tablosundan (\{\[saleID = 1, item = "Shirt"\], \[saleID = 2, item = "Hat"\]\}) tablosuna, \[saleID\] üzerinde birleştirilecek "fiyat/stok" adlı birleştirme sütununu ekler.
 ```powerquery
 Table.AddJoinColumn(
     Table.FromRecords({

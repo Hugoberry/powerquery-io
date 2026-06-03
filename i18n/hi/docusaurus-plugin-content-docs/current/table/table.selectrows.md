@@ -20,13 +20,13 @@ Table.SelectRows(
 
 ## Remarks
 
-<code>table</code> से उन पंक्तियों की तालिका को लौटाता है, जो चयन <code>condition</code> से मेल खाती हैं.
+`table` से उन पंक्तियों की तालिका को लौटाता है, जो चयन `condition` से मेल खाती हैं.
 
 
 ## Examples
 
-### Example #1 
-तालिका की पंक्तियाँ चुनें जहाँ [CustomerID] स्तंभ के मान 2 से अधिक हों.
+### Example #1
+तालिका की पंक्तियाँ चुनें जहाँ \[CustomerID\] स्तंभ के मान 2 से अधिक हों.
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({
@@ -48,8 +48,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-तालिका की उन पंक्तियों को चुनें जहाँ नामों में &#34;B&#34; शामिल न हो.
+### Example #2
+तालिका की उन पंक्तियों को चुनें जहाँ नामों में "B" शामिल न हो.
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({

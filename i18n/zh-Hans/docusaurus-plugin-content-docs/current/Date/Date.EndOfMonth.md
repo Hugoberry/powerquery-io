@@ -19,12 +19,14 @@ Date.EndOfMonth(
 
 ## Remarks
 
-返回包含 <code>dateTime</code> 的月结束值。 <ul> <li><code>dateTime</code>: 从中计算月结束值的<code>date</code>、<code>datetime</code>或 <code>datetimezone</code>值</li>      </ul>
+返回包含 `dateTime` 的月结束值。
+
+-   `dateTime`: 从中计算月结束值的 `date`、`datetime` 或 `datetimezone`。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 获取 5/14/2011 的月份结束值。
 ```powerquery
 Date.EndOfMonth(#date(2011, 5, 14))
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 获取 5/17/2011 05:00:00 PM -7:00 的月份结束值。
 ```powerquery
 Date.EndOfMonth(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0))

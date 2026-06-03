@@ -20,12 +20,12 @@ Table.Split(
 
 ## Remarks
 
-Dzieli tabelę <code>table</code> na listę tabel, w której pierwszy element listy jest tabelą zawierającą pierwsze <code>pageSize</code> wiersze(-y) z    tabeli źródłowej, następny element listy to tabela zwierającą kolejne <code>pageSize</code>wiersze(-y) z tabeli źródłowej itd.
+Dzieli tabelę `table` na listę tabel, w której pierwszy element listy jest tabelą zawierającą pierwsze `pageSize` wiersze(-y) z tabeli źródłowej, następny element listy to tabela zwierającą kolejne `pageSize`wiersze(-y) z tabeli źródłowej itd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Podziel tabelę z pięcioma rekordami na tabele z dwoma rekordami w każdej.
 ```powerquery
 let

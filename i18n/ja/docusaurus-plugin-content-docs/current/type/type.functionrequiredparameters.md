@@ -19,13 +19,13 @@ Type.FunctionRequiredParameters(
 
 ## Remarks
 
-関数の入力値 <code>type</code> の呼び出しに必要なパラメーターの最小数を示す数値を返します。
+関数の入力値 `type` の呼び出しに必要なパラメーターの最小数を示す数値を返します。
 
 
 ## Examples
 
-### Example #1 
-関数に対して必要なパラメーターの数を検索します (&lt;code&gt;(x as number, optional y as text)&lt;/code&gt;)。
+### Example #1
+関数に対して必要なパラメーターの数を検索します (`(x as number, optional y as text)`)。
 ```powerquery
 Type.FunctionRequiredParameters(type function (x as number, optional y as text) as any)
 ```

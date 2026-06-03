@@ -25,7 +25,7 @@ Retrieves the data from provided table and view. You can also apply an additiona
 
 ## Examples
 
-### Example #1 
+### Example #1
 Retrieve all meetings from List All view
 ```powerquery
 TeamDesk.SelectView("https://www.teamdesk.net/secure/db/57692", "Meeting", "List All")
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-Retrieve today&#39;s meetings from List All view
+### Example #2
+Retrieve today's meetings from List All view
 ```powerquery
 TeamDesk.SelectView("https://www.teamdesk.net/secure/db/57692", "Meeting", "List All", "[Start Date] = Today()")
 ```

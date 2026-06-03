@@ -21,13 +21,13 @@ Text.Insert(
 
 ## Remarks
 
-傳回將文字值 <code>newText</code> 插入文字值 <code>text</code> 之位置 <code>offset</code> 的結果。位置從數字 0 開始。
+傳回將文字值 `newText` 插入文字值 `text` 之位置 `offset` 的結果。位置從數字 0 開始。
 
 
 ## Examples
 
-### Example #1 
-在 &#34;ABD&#34; 的 &#34;B&#34; 與 &#34;D&#34; 之間插入 &#34;C&#34;。
+### Example #1
+在 "ABD" 的 "B" 與 "D" 之間插入 "C"。
 ```powerquery
 Text.Insert("ABD", 2, "C")
 ```

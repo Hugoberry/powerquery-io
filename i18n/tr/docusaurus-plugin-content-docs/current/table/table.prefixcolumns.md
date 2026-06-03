@@ -20,13 +20,13 @@ Table.PrefixColumns(
 
 ## Remarks
 
-Sağlanan <code>table</code> öğesine ilişkin tüm sütun adlarının başına ön ek olarak, verilen <code>prefix</code> metninin ve <code>prefix</code><code>.ColumnName</code> formunda bir nokta getirilen bir tablo döndürür.
+Sağlanan `table` öğesine ilişkin tüm sütun adlarının başına ön ek olarak, verilen `prefix` metninin ve `prefix.ColumnName` formunda bir nokta getirilen bir tablo döndürür.
 
 
 ## Examples
 
-### Example #1 
-Tablodaki sütunların başına ön ek olarak &#34;MyTable&#34; getirir.
+### Example #1
+Tablodaki sütunların başına ön ek olarak "MyTable" getirir.
 ```powerquery
 Table.PrefixColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

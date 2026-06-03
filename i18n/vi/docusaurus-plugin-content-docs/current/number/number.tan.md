@@ -19,12 +19,12 @@ Number.Tan(
 
 ## Remarks
 
-Trả về the arctang của <code>number</code>.
+Trả về the arctang của `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm tang của góc 1.
 ```powerquery
 Number.Tan(1)

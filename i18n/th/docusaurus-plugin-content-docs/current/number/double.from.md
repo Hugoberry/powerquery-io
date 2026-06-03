@@ -20,13 +20,13 @@ Double.From(
 
 ## Remarks
 
-ส่งกลับค่า <code>number</code> ที่เป็นสองเท่าจาก <code>value</code> ที่กำหนด ถ้า <code>value</code> ที่กำหนดเป็น <code>null</code> <code>Double.From</code> จะส่งกลับ <code>null</code> ถ้า <code>value</code> ที่กำหนดเป็น <code>number</code> ภายในช่วงที่เป็นสองเท่า ระบบจะส่งกลับ <code>value</code> มิฉะนั้นจะส่งกลับข้อผิดพลาด ถ้า <code>value</code> เป็นชนิดอื่น ระบบจะแปลงเป็น <code>number</code> ก่อน โดยใช้ <code>Number.FromText</code> อาจมี <code>culture</code> เพิ่มเติม (ตัวอย่างเช่น "en-US")
+ส่งกลับค่า `number` ที่เป็นสองเท่าจาก `value` ที่กำหนด ถ้า `value` ที่กำหนดเป็น `null` `Double.From` จะส่งกลับ `null` ถ้า `value` ที่กำหนดเป็น `number` ภายในช่วงที่เป็นสองเท่า ระบบจะส่งกลับ `value` มิฉะนั้นจะส่งกลับข้อผิดพลาด ถ้า `value` เป็นชนิดอื่น ระบบจะแปลงเป็น `number` ก่อน โดยใช้ `Number.FromText` อาจมี `culture` เพิ่มเติม (ตัวอย่างเช่น "en-US")
 
 
 ## Examples
 
-### Example #1 
-รับค่า &lt;code&gt;ตัวเลข&lt;/code&gt; ที่เป็น Double สำหรับ &lt;code&gt;&#34;4&#34;&lt;/code&gt;
+### Example #1
+รับค่า `ตัวเลข` ที่เป็น Double สำหรับ `"4"`
 ```powerquery
 Double.From("4.5")
 ```

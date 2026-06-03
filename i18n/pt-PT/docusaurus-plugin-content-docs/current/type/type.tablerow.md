@@ -24,7 +24,7 @@ Devolve o tipo de linha do tipo de tabela especificado. O resultado será sempre
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devolve as informações de tipo de linha para uma tabela simples.
 ```powerquery
 let

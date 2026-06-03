@@ -22,13 +22,13 @@ Text.ReplaceRange(
 
 ## Remarks
 
-傳回從文字值 <code>text</code> 中移除一些字元 <code>count</code> (從位置 <code>offset</code> 開始)，然後在 <code>text</code> 中的相同位置插入文字值 <code>newText</code> 的結果。
+傳回從文字值 `text` 中移除一些字元 `count` (從位置 `offset` 開始)，然後在 `text` 中的相同位置插入文字值 `newText` 的結果。
 
 
 ## Examples
 
-### Example #1 
-以新的文字值 &#34;CDE&#34; 取代文字值 &#34;ABGF&#34; 中位於位置 2 的單一字元。
+### Example #1
+以新的文字值 "CDE" 取代文字值 "ABGF" 中位於位置 2 的單一字元。
 ```powerquery
 Text.ReplaceRange("ABGF", 2, 1, "CDE")
 ```

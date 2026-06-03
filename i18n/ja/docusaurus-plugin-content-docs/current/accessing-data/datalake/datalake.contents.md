@@ -20,6 +20,6 @@ DataLake.Contents(
 
 ## Remarks
 
-Azure Data Lake Storage Gen1 の <code>url</code> にあるフォルダーおよびファイルごとの行を含むテーブルを返します。各行には、フォルダーまたはファイルのプロパティと、そのコンテンツへのリンクが含まれます。
+Azure Data Lake Storage Gen1 の `url` にあるフォルダーおよびファイルごとの行を含むテーブルを返します。各行には、フォルダーまたはファイルのプロパティと、そのコンテンツへのリンクが含まれます。
 
 

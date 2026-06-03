@@ -22,12 +22,12 @@ List.Generate(
 
 ## Remarks
 
-Genera un elenco di valori usando le funzioni fornite. La funzione <code>initial</code> genera un valore candidato iniziale, che viene quindi testato su <code>condition</code>. Se il valore candidato viene approvato, viene restituito come parte dell'elenco risultante,  e il successivo valore candidato viene generato passando il valore appena approvato a <code>next</code>. Quando un valore candidato non corrisponde <code>condition</code>, il processo di generazione dell'elenco si arresta. È anche possibile specificare un parametro facoltativo, <code>selector</code>, per trasformare gli elementi nell'elenco risultante.
+Genera un elenco di valori usando le funzioni fornite. La funzione `initial` genera un valore candidato iniziale, che viene quindi testato su `condition`. Se il valore candidato viene approvato, viene restituito come parte dell'elenco risultante, e il successivo valore candidato viene generato passando il valore appena approvato a `next`. Quando un valore candidato non corrisponde `condition`, il processo di generazione dell'elenco si arresta. È anche possibile specificare un parametro facoltativo, `selector`, per trasformare gli elementi nell'elenco risultante.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Crea un elenco iniziando da dieci, decrementando ripetutamente di uno e assicurandoti che ogni elemento sia maggiore di zero.
 ```powerquery
 List.Generate(() => 10, each _ > 0, each _ - 1)
@@ -39,8 +39,8 @@ Result:
 ```
 
 
-### Example #2 
-Generare un elenco di record contenenti x e y, dove x è un valore e y è un elenco. x deve essere meno di 10 e rappresentare il numero di elementi nell&#39;elenco y. Dopo la generazione dell&#39;elenco, restituire solo i valori x.
+### Example #2
+Generare un elenco di record contenenti x e y, dove x è un valore e y è un elenco. x deve essere meno di 10 e rappresentare il numero di elementi nell'elenco y. Dopo la generazione dell'elenco, restituire solo i valori x.
 ```powerquery
 List.Generate(
     () => [x = 1, y = {}],

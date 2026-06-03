@@ -27,7 +27,7 @@ Anropar den givna Webtrends-rapportslutpunkten och returnerar alla data som en t
 
 ## Examples
 
-### Example #1 
+### Example #1
 Anropar Webtrends-besökarnas rapportslutpunkt för data under de senaste 30 dagarna
 ```powerquery
 Webtrends.ReportContents("98765", "xPcmTDDP0P6")

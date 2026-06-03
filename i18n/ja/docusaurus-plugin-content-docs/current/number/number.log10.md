@@ -19,12 +19,12 @@ Number.Log10(
 
 ## Remarks
 
-数値 <code>number</code> の 10 を底とする対数を返します。<code>number</code> が NULL の場合、<code>Number.Log10</code> は NULL を返します。
+数値 `number` の 10 を底とする対数を返します。`number` が NULL の場合、`Number.Log10` は NULL を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 2 の 10 を底とする対数を取得します。
 ```powerquery
 Number.Log10(2)

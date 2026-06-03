@@ -19,13 +19,13 @@ HexagonSmartApi.Feed(
 
 ## Remarks
 
-Returns a table from a Hexagon PPM Smart® API OData feed.
+Returns a table from a Hexagon PPM Smart API OData feed.
 
 
 ## Examples
 
-### Example #1 
-Returns an OData service document in table form from a Hexagon PPM Smart® API OData feed.
+### Example #1
+Returns an OData service document in table form from a Hexagon PPM Smart API OData feed.
 ```powerquery
 HexagonSmartApi.Feed("https://example.com/SampleService/V1")
 ```

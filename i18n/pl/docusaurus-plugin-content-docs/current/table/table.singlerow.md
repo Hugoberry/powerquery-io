@@ -19,12 +19,12 @@ Table.SingleRow(
 
 ## Remarks
 
-Zwraca jeden wiersz w jednym wierszu tabeli <code>table</code>. Jeśli tabela <code>table</code> zawiera więcej niż jeden wiersz, jest zgłaszany wyjątek.
+Zwraca jeden wiersz w jednym wierszu tabeli `table`. Jeśli tabela `table` zawiera więcej niż jeden wiersz, jest zgłaszany błąd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zwróć pojedynczy wiersz w tabeli.
 ```powerquery
 Table.SingleRow(Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}))

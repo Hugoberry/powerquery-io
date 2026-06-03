@@ -25,7 +25,7 @@ Combiner.CombineTextByPositions(
 
 ## Examples
 
-### Example #1 
+### Example #1
 指定された位置に出力に配置して、テキスト値のリストを結合します。
 ```powerquery
 Combiner.CombineTextByPositions({0, 5, 10})({"abc", "def", "ghi"})

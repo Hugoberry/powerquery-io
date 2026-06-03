@@ -21,12 +21,12 @@ Record.RemoveFields(
 
 ## Remarks
 
-Возвращает запись, которая удаляет все поля, указанные в списке <code>fields</code>, из входных данных <code>record</code>. Если указанное поле не существует, возникает исключение.
+Возвращает запись, которая удаляет все поля, указанные в списке `fields`, из введенных данных `record`. Если указанное поле не существует, генерируется ошибка.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Удаление поля Price из записи.
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], "Price")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Удаление поля Price и Item из записи.
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], {"Price", "Item"})

@@ -20,12 +20,12 @@ Table.Combine(
 
 ## Remarks
 
-傳回合併一串資料表後所產生的資料表，<code>tables</code>。產生的資料表會具有由 <code>columns</code> 或輸入類型等位 (若 <code>columns</code> 未指定) 所定義的資料列類型結構。
+傳回合併一串資料表後所產生的資料表，`tables`。產生的資料表會具有由 `columns` 或輸入類型等位 (若 `columns` 未指定) 所定義的資料列類型結構。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 將三個資料表合併在一起。
 ```powerquery
 Table.Combine({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 合併三個具有不同結構的資料表。
 ```powerquery
 Table.Combine({
@@ -65,7 +65,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 將兩個資料表與專案合併至指定的類型上。
 ```powerquery
 Table.Combine(

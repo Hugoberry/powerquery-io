@@ -24,7 +24,7 @@ Number.Random(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Rastgele bir sayı alır.
 ```powerquery
 Number.Random()

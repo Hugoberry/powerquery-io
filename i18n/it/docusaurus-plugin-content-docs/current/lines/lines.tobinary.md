@@ -5,7 +5,7 @@ title: Lines.ToBinary
 # Lines.ToBinary
 
 
-Converte un elenco di testo in un valore binario utilizzando la codifica e il separatore di riga specificati. Il separatore di riga specificato viene aggiunto alla fine di ogni riga.  Se non viene specificato, vengono utilizzati i caratteri di ritorno a capo e avanzamento riga.
+Converte un elenco di testo in un valore binario utilizzando la codifica e il separatore di riga specificati. Il separatore di riga specificato viene aggiunto alla fine di ogni riga. Se non viene specificato, vengono utilizzati i caratteri di ritorno a capo e avanzamento riga.
 
 
 ## Syntax
@@ -22,7 +22,7 @@ Lines.ToBinary(
 
 ## Remarks
 
-Converte un elenco di testo in un valore binario utilizzando la codifica e il separatore di riga specificati. Il separatore di riga specificato viene aggiunto alla fine di ogni riga.  Se non viene specificato, vengono utilizzati i caratteri di ritorno a capo e avanzamento riga.
+Converte un elenco di testo in un valore binario utilizzando la codifica e il separatore di riga specificati. Il separatore di riga specificato viene aggiunto alla fine di ogni riga. Se non viene specificato, vengono utilizzati i caratteri di ritorno a capo e avanzamento riga.
 
 
 

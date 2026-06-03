@@ -21,13 +21,13 @@ Table.Min(
 
 ## Remarks
 
-Restituisce la riga più piccola in <code>table</code>, dato <code>comparisonCriteria</code>. Se la tabella è vuota, verrà restituito il valore facoltativo <code>default</code>.
+Restituisce la riga più piccola in `table`, dato `comparisonCriteria`. Se la tabella è vuota, verrà restituito il valore facoltativo `default`.
 
 
 ## Examples
 
-### Example #1 
-Trovare la riga con il valore più grande nella colonna [a] nella tabella.
+### Example #1
+Trovare la riga con il valore più grande nella colonna \[a\] nella tabella.
 ```powerquery
 Table.Min(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Trovare la riga con il valore più piccolo nella colonna [a] nella tabella. Restituire -1 se vuota.
+### Example #2
+Trovare la riga con il valore più piccolo nella colonna \[a\] nella tabella. Restituire -1 se vuota.
 ```powerquery
 Table.Min(#table({"a"}, {}), "a", -1)
 ```

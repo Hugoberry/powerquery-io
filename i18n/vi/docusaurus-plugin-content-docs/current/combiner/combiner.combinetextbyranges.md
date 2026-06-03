@@ -5,7 +5,7 @@ title: Combiner.CombineTextByRanges
 # Combiner.CombineTextByRanges
 
 
-Trả về một hàm \kết hợp một danh sách văn bản bằng cách dùng các vị trí và độ dài được chỉ định.
+Trả về một hàm \\kết hợp một danh sách văn bản bằng cách dùng các vị trí và độ dài được chỉ định.
 
 
 ## Syntax
@@ -25,7 +25,7 @@ Trả về một hàm kết hợp một danh sách giá trị văn bản thành 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kết hợp danh sách giá trị văn bản bằng cách sử dụng vị trí và độ dài đầu ra được chỉ định.
 ```powerquery
 Combiner.CombineTextByRanges({{0, 1}, {3, 2}, {6, null}})({"abc", "def", "ghijkl"})

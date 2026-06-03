@@ -19,13 +19,15 @@ Date.DaysInMonth(
 
 ## Remarks
 
-Returnerer antallet af dage i måneden i værdien af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>, <code>dateTime</code>. <ul>        <li><code>dateTime</code>: En værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>, som antallet af dage i måneden returneres for.</li>      </ul>
+Returnerer antallet af dage i måneden i værdien af typen `date`, `datetime` eller `datetimezone`, `dateTime`.
+
+-   `dateTime`: En værdi af typen `date`, `datetime` eller `datetimezone`, som antallet af dage i måneden returneres for.
 
 
 ## Examples
 
-### Example #1 
-Antallet af dage i december måned repræsenteret ved &lt;code&gt;#date(2011, 12, 01)&gt;&lt;/code&gt;.
+### Example #1
+Antallet af dage i december måned repræsenteret ved `#date(2011, 12, 01)`.
 ```powerquery
 Date.DaysInMonth(#date(2011, 12, 01))
 ```

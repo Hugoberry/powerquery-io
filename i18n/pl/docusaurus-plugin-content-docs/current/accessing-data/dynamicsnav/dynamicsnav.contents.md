@@ -20,6 +20,6 @@ DynamicsNav.Contents(
 
 ## Remarks
 
-Zwraca tabelę zawierającą odpowiednie dane systemu Dynamics NAV. 
+Zwraca tabelę zawierającą odpowiednie dane systemu Dynamics NAV.
 
 

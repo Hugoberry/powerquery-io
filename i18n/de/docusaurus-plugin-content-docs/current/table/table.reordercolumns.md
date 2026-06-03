@@ -21,13 +21,13 @@ Table.ReorderColumns(
 
 ## Remarks
 
-Gibt eine Tabelle auf der Grundlage der Eingabe '<code>table</code>' zurück, deren Spalten in der mithilfe von '<code>columnOrder</code>' angegebenen Reihenfolge sortiert sind. Spalten, die in der Liste nicht angegeben sind, werden nicht neu sortiert.     Wenn die Spalte nicht vorhanden ist, wird eine Ausnahme ausgelöst, sofern nicht mithilfe des optionalen Parameters '<code>missingField</code>' eine Alternative angegeben wurde (beispielsweise <code>MissingField.UseNull</code> oder <code>MissingField.Ignore</code>).
+Gibt eine Tabelle auf der Grundlage der Eingabe „`table`“ zurück, deren Spalten in der mithilfe von „`columnOrder`“ angegebenen Reihenfolge sortiert sind. Spalten, die in der Liste nicht angegeben sind, werden nicht neu sortiert. Ist die Spalte nicht vorhanden, wird ein Fehler ausgelöst, sofern nicht der optionale Parameter `missingField` eine Alternative angibt (z. B. `MissingField.UseNull` oder `MissingField.Ignore`).
 
 
 ## Examples
 
-### Example #1 
-Vertauscht die Reihenfolge der Spalten &#34;[Phone]&#34; und &#34;[Name]&#34; in der Tabelle.
+### Example #1
+Vertauscht die Reihenfolge der Spalten "\[Phone\]" und "\[Name\]" in der Tabelle.
 ```powerquery
 Table.ReorderColumns(
     Table.FromRecords({[CustomerID = 1, Phone = "123-4567", Name = "Bob"]}),
@@ -41,8 +41,8 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]})
 ```
 
 
-### Example #2 
-Vertauscht die Reihenfolge der Spalten &#34;[Phone]&#34; und &#34;[Address]&#34; oder verwendet &#34;MissingField.Ignore&#34; in der Tabelle. Die Tabelle wird nicht geändert, weil die Spalte &#34;[Address]&#34; nicht vorhanden ist.
+### Example #2
+Vertauscht die Reihenfolge der Spalten "\[Phone\]" und "\[Address\]" oder verwendet "MissingField.Ignore" in der Tabelle. Die Tabelle wird nicht geändert, weil die Spalte "\[Address\]" nicht vorhanden ist.
 ```powerquery
 Table.ReorderColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

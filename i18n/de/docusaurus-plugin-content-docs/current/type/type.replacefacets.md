@@ -20,7 +20,7 @@ Type.ReplaceFacets(
 
 ## Remarks
 
-Ersetzt die Facets von <code>type</code> durch die Facets, die im Datensatz <code>facets</code> enthalten sind.
+Ersetzt die Facets von `type` durch die Facets, die im Datensatz `facets` enthalten sind.
 
 
 

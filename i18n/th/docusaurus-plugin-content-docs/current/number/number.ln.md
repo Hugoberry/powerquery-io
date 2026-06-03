@@ -19,12 +19,12 @@ Number.Ln(
 
 ## Remarks
 
-ส่งคืนอัลกอริทึ่มสำหรับตัวเลข <code>number</code> หาก <code>number</code> เป็น Null <code>Number.Ln</code> จะส่งคืนค่าเป็น Null
+ส่งคืนอัลกอริทึ่มสำหรับตัวเลข `number` หาก `number` เป็น Null `Number.Ln` จะส่งคืนค่าเป็น Null
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 รับลอการิทึมธรรมชาติของ 15
 ```powerquery
 Number.Ln(15)

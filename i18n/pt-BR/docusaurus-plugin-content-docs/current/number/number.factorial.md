@@ -19,12 +19,12 @@ Number.Factorial(
 
 ## Remarks
 
-Retorna o fatorial do número <code>number</code>.
+Retorna o fatorial do número `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Localize o fatorial 10.
 ```powerquery
 Number.Factorial(10)

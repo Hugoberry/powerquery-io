@@ -20,7 +20,7 @@ File.Contents(
 
 ## Remarks
 
-Trả về nội dung của tệp, <code>path</code>, dưới dạng nhị phân. Tham số <code>options</code> hiện chỉ nhằm mục đích sử dụng nội bộ.
+Trả về nội dung của tệp, `path`, dưới dạng nhị phân. Tham số `options` hiện chỉ nhằm mục đích sử dụng nội bộ.
 
 
 

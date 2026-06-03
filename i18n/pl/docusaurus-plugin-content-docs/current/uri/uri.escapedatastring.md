@@ -19,12 +19,12 @@ Uri.EscapeDataString(
 
 ## Remarks
 
-Koduje znaki specjalne w danych wejściowych <code>data</code> zgodnie z regułami standardu RFC 3986.
+Koduje znaki specjalne w danych wejściowych `data` zgodnie z regułami standardu RFC 3986.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kodowanie znaków specjalnych w ciągu „+money$”.
 ```powerquery
 Uri.EscapeDataString("+money$")

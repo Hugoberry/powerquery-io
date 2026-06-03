@@ -21,13 +21,23 @@ Text.Contains(
 
 ## Remarks
 
-Phát hiện xem <code>text</code> có chứa giá trị <code>substring</code> không. Trả về true nếu tìm thấy giá trị đó. Hàm này không hỗ trợ các ký tự đại diện hoặc biểu thức thông thường.      <br />      <br />      Đối số tùy chọn <code>comparer</code> có thể dùng để chỉ định các phép so sánh không phân biệt chữ hoa/thường hoặc phép so sánh có tính đến yếu tố văn hóa và ngôn ngữ.      Các trình so sánh cài sẵn sau đây được cung cấp bằng ngôn ngữ công thức:      <ul>        <li><code>Comparer.Ordinal</code>: Dùng để thực hiện phép so sánh thứ tự có phân biệt chữ hoa/thường</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: Dùng để thực hiện phép so sánh thứ tự không phân biệt chữ hoa/thường</li>        <li> <code>Comparer.FromCulture</code>: Dùng để thực hiện phép so sánh có tính đến yếu tố văn hóa</li>      </ul>
+Phát hiện xem `text` có chứa giá trị `substring` không. Trả về true nếu tìm thấy giá trị. Hàm này không hỗ trợ ký tự đại diện hoặc biểu thức thông thường.  
+  
+Có thể sử dụng đối số tùy chọn `comparer` để chỉ định so sánh không phân biệt chữ hoa chữ thường hoặc có nhận biết ngôn ngữ và thiết đặt bản địa. Các trình so sánh tích hợp sau đây có sẵn trong ngôn ngữ công thức:
+
+-   `Comparer.Ordinal`: Được sử dụng để thực hiện so sánh thứ tự phân biệt chữ hoa/thường
+-   `Comparer.OrdinalIgnoreCase`: Được sử dụng để thực hiện so sánh thứ tự không phân biệt chữ hoa chữ thường
+-   `Comparer.FromCulture`: Dùng để thực hiện so sánh nhận biết ngôn ngữ
+
+Nếu đối số đầu tiên là null, hàm này sẽ trả về null.  
+  
+Tất cả ký tự đều được xử lý theo nghĩa đen. Ví dụ: "DR", " DR", "DR ", và " DR " không được coi là bằng nhau.
 
 
 ## Examples
 
-### Example #1 
-Tìm xem văn bản &#34;Hello World&#34; có chứa &#34;Hello&#34; hay không.
+### Example #1
+Tìm xem văn bản "Hello World" có chứa "Hello" hay không.
 ```powerquery
 Text.Contains("Hello World", "Hello")
 ```
@@ -38,8 +48,8 @@ true
 ```
 
 
-### Example #2 
-Tìm xem văn bản &#34;Hello World&#34; có chứa &#34;hello&#34; hay không.
+### Example #2
+Tìm xem văn bản "Hello World" có chứa "hello" hay không.
 ```powerquery
 Text.Contains("Hello World", "hello")
 ```
@@ -50,8 +60,8 @@ false
 ```
 
 
-### Example #3 
-Tìm xem văn bản &#34;Hello World&#34; có chứa &#34;hello&#34; không bằng trình so sánh không phân biệt chữ hoa/thường.
+### Example #3
+Tìm xem văn bản "Hello World" có chứa "hello" không bằng trình so sánh không phân biệt chữ hoa/thường.
 ```powerquery
 Text.Contains("Hello World", "hello", Comparer.OrdinalIgnoreCase)
 ```
@@ -59,6 +69,41 @@ Text.Contains("Hello World", "hello", Comparer.OrdinalIgnoreCase)
 Result: 
 ```powerquery
 true
+```
+
+
+### Example #4
+Tìm các hàng trong bảng có chứa "A-" hoặc "7" trong mã tài khoản.
+```powerquery
+let
+    Source = #table(type table [Account Code = text, Posted Date = date, Sales = number],
+    {
+        {"US-2004", #date(2023,1,20), 580},
+        {"CA-8843", #date(2023,7,18), 280},
+        {"PA-1274", #date(2022,1,12), 90},
+        {"PA-4323", #date(2023,4,14), 187},
+        {"US-1200", #date(2022,12,14), 350},
+        {"PTY-507", #date(2023,6,4), 110}
+    }),
+    #"Filtered rows" = Table.SelectRows(
+        Source,
+        each Text.Contains([Account Code], "A-") or
+            Text.Contains([Account Code], "7"))
+in
+    #"Filtered rows"
+    
+```
+
+Result: 
+```powerquery
+#table(type table [Account Code = text, Posted Date = date, Sales = number],
+{
+    {"CA-8843", #date(2023,7,18), 280},
+    {"PA-1274", #date(2022,1,12), 90},
+    {"PA-4323", #date(2023,4,14), 187},
+    {"PTY-507", #date(2023,6,4), 110}
+})
+    
 ```
 
 

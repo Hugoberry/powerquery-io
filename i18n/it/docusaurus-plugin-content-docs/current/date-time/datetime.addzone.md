@@ -21,13 +21,13 @@ DateTime.AddZone(
 
 ## Remarks
 
-Aggiunge informazioni sul fuso orario al valore <code>dateTime</code>. Le informazioni sul fuso orario includono <code>timezoneHours</code> e facoltativamente <code>timezoneMinutes</code>, che specificano l'offset desiderato dall'ora UTC.
+Aggiunge informazioni sul fuso orario al valore `dateTime`. Le informazioni sul fuso orario includono `timezoneHours` e facoltativamente `timezoneMinutes`, che specificano l'offset desiderato dall'ora UTC.
 
 
 ## Examples
 
-### Example #1 
-Impostare il fuso orario su UTC+7:30 (7 ore e 30 minuti dopo l&#39;ORA UTC).
+### Example #1
+Impostare il fuso orario su UTC+7:30 (7 ore e 30 minuti dopo l'ORA UTC).
 ```powerquery
 DateTime.AddZone(#datetime(2010, 12, 31, 11, 56, 02), 7, 30)
 ```

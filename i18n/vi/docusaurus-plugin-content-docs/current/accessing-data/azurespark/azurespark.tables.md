@@ -25,7 +25,7 @@ Liệt kê các bảng trong phiên bản Azure Spark.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Liệt kê các bảng trong phiên bản Azure Spark.
 ```powerquery
 AzureSpark.Tables("contoso.azurehdinsight.net")

@@ -21,13 +21,13 @@ Table.AggregateTableColumn(
 
 ## Remarks
 
-Gộp các bảng trong <code>table</code>[<code>column</code>] thành nhiều cột chứa các giá trị gộp cho các bảng. <code>aggregations</code> được dùng để chỉ định các cột chứa các bảng sẽ tính gộp, các hàm tính gộp để áp dụng cho các bảng để tạo giá trị của các bảng đó và tên của các cột tính gộp sẽ tạo.
+Gộp các bảng trong `table`\[`column`\] thành nhiều cột chứa các giá trị gộp cho các bảng. `aggregations` được dùng để chỉ định các cột chứa các bảng sẽ tính gộp, các hàm tính gộp để áp dụng cho các bảng để tạo giá trị của các bảng đó và tên của các cột tính gộp sẽ tạo.
 
 
 ## Examples
 
-### Example #1 
-Tính gộp các cột bảng trong &lt;code&gt;[t]&lt;/code&gt; trong bảng &lt;code&gt;\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}&lt;/code&gt; thành tổng của &lt;code&gt;[t.a]&lt;/code&gt;, giá trị tối thiểu và tối đa của &lt;code&gt;[t.b]&lt;/code&gt; và tổng số giá trị trong &lt;code&gt;[t.a]&lt;/code&gt;.
+### Example #1
+Tính gộp các cột bảng trong `[t]` trong bảng `{[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}` thành tổng của `[t.a]`, giá trị tối thiểu và tối đa của `[t.b]` và tổng số giá trị trong `[t.a]`.
 ```powerquery
 Table.AggregateTableColumn(
     Table.FromRecords(

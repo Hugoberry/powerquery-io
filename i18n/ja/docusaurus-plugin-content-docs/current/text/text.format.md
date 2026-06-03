@@ -21,12 +21,12 @@ Text.Format(
 
 ## Remarks
 
-一覧またはレコードから <code>arguments</code> を書式文字列 <code>formatString</code> に適用することによって作成された書式付きテキストを返します。省略可能な <code>culture</code> を指定することもできます (例: "en-US")。
+一覧またはレコードから `arguments` を書式文字列 `formatString` に適用することによって作成された書式付きテキストを返します。省略可能な `culture` を指定することもできます (例: "en-US")。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 数値のリストを書式設定します。
 ```powerquery
 Text.Format("#{0}, #{1}, and #{2}.", {17, 7, 22})
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 米国 (英語) のカルチャに基づいて、レコードをさまざまなデータ型に書式設定します。
 ```powerquery
 Text.Format(

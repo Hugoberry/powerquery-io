@@ -5,7 +5,7 @@ title: Logical.FromText
 # Logical.FromText
 
 
-Tạo một giá trị lôgic từ các giá trị văn bản &#34;true&#34; và &#34;false&#34;.
+Tạo một giá trị lôgic từ các giá trị văn bản "true" và "false".
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.FromText(
 
 ## Remarks
 
-Tạo một giá trị lôgic từ các giá trị văn bản <code>text</code>, "true" hoặc "false". Nếu <code>text</code> chứa một chuỗi khác thì một ngoại lệ được đưa ra. Giá trị văn bản <code>text</code> không phân biệt chữ hoa/chữ thường.
+Tạo một giá trị lôgic từ các giá trị văn bản `text`, "true" hoặc "false". Nếu `text` chứa một chuỗi khác thì sẽ xuất hiện lỗi. Giá trị văn bản `text` không phân biệt chữ hoa/chữ thường.
 
 
 ## Examples
 
-### Example #1 
-Tạo một giá trị lôgic từ chuỗi văn bản &#34;true&#34;.
+### Example #1
+Tạo một giá trị lôgic từ chuỗi văn bản "true".
 ```powerquery
 Logical.FromText("true")
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Tạo một giá trị lôgic từ chuỗi văn bản &#34;a&#34;.
+### Example #2
+Tạo một giá trị lôgic từ chuỗi văn bản "a".
 ```powerquery
 Logical.FromText("a")
 ```

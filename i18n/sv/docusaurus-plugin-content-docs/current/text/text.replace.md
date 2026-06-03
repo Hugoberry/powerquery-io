@@ -21,13 +21,13 @@ Text.Replace(
 
 ## Remarks
 
-Returnerar resultatet från ersättningen av alla förekomster av textvärdet <code>old</code> i textvärdet <code>text</code> med textvärdet <code>new</code>. Den här funktionen är skiftlägeskänslig.
+Returnerar resultatet från ersättningen av alla förekomster av textvärdet `old` i textvärdet `text` med textvärdet `new`. Den här funktionen är skiftlägeskänslig.
 
 
 ## Examples
 
-### Example #1 
-Ersätt varje förekomst av &#34;the&#34; i en mening med &#34;a&#34;.
+### Example #1
+Ersätt varje förekomst av "the" i en mening med "a".
 ```powerquery
 Text.Replace("the quick brown fox jumps over the lazy dog", "the", "a")
 ```

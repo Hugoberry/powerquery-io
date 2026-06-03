@@ -20,13 +20,13 @@ Record.HasFields(
 
 ## Remarks
 
-Cho biết bản ghi <code>record</code> có các trường được chỉ định trong <code>fields</code> hay không bằng cách trả về giá trị lôgic (true hoặc false).    Có thể chỉ định nhiều giá trị trường bằng cách sử dụng danh sách.
+Cho biết bản ghi `record` có các trường được chỉ định trong `fields` hay không bằng cách trả về giá trị lôgic (true hoặc false). Có thể chỉ định nhiều giá trị trường bằng cách sử dụng danh sách.
 
 
 ## Examples
 
-### Example #1 
-Kiểm tra bản ghi có trường &#34;CustomerID&#34; hay không.
+### Example #1
+Kiểm tra bản ghi có trường "CustomerID" hay không.
 ```powerquery
 Record.HasFields([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")
 ```
@@ -37,8 +37,8 @@ true
 ```
 
 
-### Example #2 
-Kiểm tra bản ghi có trường &#34;CustomerID&#34; và &#34;Địa chỉ&#34; hay không.
+### Example #2
+Kiểm tra bản ghi có trường "CustomerID" và "Địa chỉ" hay không.
 ```powerquery
 Record.HasFields([CustomerID = 1, Name = "Bob", Phone = "123-4567"], {"CustomerID", "Address"})
 ```

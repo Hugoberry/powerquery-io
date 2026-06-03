@@ -19,12 +19,12 @@ Duration.TotalHours(
 
 ## Remarks
 
-傳回 <code>duration</code> 跨越的總時數。
+傳回 `duration` 跨越的總時數。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 尋找持續時間值跨越的總時數。
 ```powerquery
 Duration.TotalHours(#duration(5, 4, 3, 2))

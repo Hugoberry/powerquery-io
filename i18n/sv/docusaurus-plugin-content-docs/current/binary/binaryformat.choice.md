@@ -22,12 +22,22 @@ BinaryFormat.Choice(
 
 ## Remarks
 
-Returnerar ett binärformat som väljer nästa binärformat baserat på ett värde som redan har lästs. Värdet i binärformat som genereras med den här funktionen används i faser:<ul><li>Binärformatet som anges av parametern <code>binaryFormat</code> används för att läsa ett värde.</li><li>Värdet skickas till den choice-funktion som anges av parametern <code>chooseFunction</code>.</li><li>Choice-funktionen inspekterar värdet och returnerar ett andra binärformat.</li><li>Det andra binärformatet används för att läsa ett andra värde.</li><li>Om combine-funktionen anges skickas det första och andra värdet till combine-funktionen och det resulterande värdet returneras.</li><li>Om combine-funktionen inte anges returneras det andra värdet.</li><li>Det andra värdet returneras.</li></ul>Den valfria parametern <code>type</code> anger typen av binärformat som returneras av choice-funktionen. <code>type any</code>, <code>type list</code> eller <code>type binary</code> kan anges. Om parametern <code>type</code> inte anges används <code>type any</code>. Om <code>type list</code> eller <code>type binary</code> används kanske systemet kan returnera ett strömmande <code>binary</code>- eller <code>list</code>-värde i stället för ett buffrat, vilket kan minska mängden minne som krävs för att läsa formatet.
+Returnerar ett binärformat som väljer nästa binärformat baserat på ett värde som redan har lästs. Värdet i binärformat som genereras med den här funktionen används i faser:
+
+-   Binärformatet som anges av parametern `binaryFormat` används för att läsa ett värde.
+-   Värdet skickas till den choice-funktion som anges av parametern `chooseFunction`.
+-   Choice-funktionen inspekterar värdet och returnerar ett andra binärformat.
+-   Det andra binärformatet används för att läsa ett andra värde.
+-   Om combine-funktionen anges skickas det första och andra värdet till combine-funktionen och det resulterande värdet returneras.
+-   Om combine-funktionen inte anges returneras det andra värdet.
+-   Det andra värdet returneras.
+
+Den valfria parametern `type` anger typen av binärformat som returneras av choice-funktionen. `type any`, `type list` eller `type binary` kan anges. Om parametern `type` inte anges används `type any`. Om `type list` eller `type binary` används kanske systemet kan returnera ett strömmande `binary`\- eller `list`\-värde i stället för ett buffrat, vilket kan minska mängden minne som krävs för att läsa formatet.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Läs en lista med byte där antalet element bestäms av den första byten.
 ```powerquery
 let
@@ -46,7 +56,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Läs en lista med byte där antalet element bestäms av den första byten, och bevara den första lästa byten.
 ```powerquery
 let
@@ -68,7 +78,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Läs en lista med byte där antalet element bestäms av den första byten med hjälp av en strömningslista.
 ```powerquery
 let

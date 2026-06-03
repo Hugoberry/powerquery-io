@@ -21,13 +21,13 @@ List.RemoveRange(
 
 ## Remarks
 
-เอาค่า <code>count</code> ใน <code>list</code> ออกโดยเริ่มต้นในตำแหน่งที่ระบุ <code>index</code>
+เอาค่า `count` ใน `list` ออกโดยเริ่มต้นในตำแหน่งที่ระบุ `index`
 
 
 ## Examples
 
-### Example #1 
-เอา 3 ค่าในรายการออก \{1, 2, 3, 4, -6, -2, -1, 5} โดยเริ่มจากดัชนี 4
+### Example #1
+เอา 3 ค่าในรายการออก \{1, 2, 3, 4, -6, -2, -1, 5\} โดยเริ่มจากดัชนี 4
 ```powerquery
 List.RemoveRange({1, 2, 3, 4, -6, -2, -1, 5}, 4, 3)
 ```

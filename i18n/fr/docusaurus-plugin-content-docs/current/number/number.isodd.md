@@ -19,12 +19,12 @@ Number.IsOdd(
 
 ## Remarks
 
-Indique si la valeur est impaire. Retourne <code>true</code> si <code>number</code> est un nombre impair, sinon <code>false</code>.
+Indique si la valeur est impaire. Retourne `true` si `number` est un nombre impair, sinon `false`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Vérifie si 625 est un nombre impair.
 ```powerquery
 Number.IsOdd(625)
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Vérifie si 82 est un nombre impair.
 ```powerquery
 Number.IsOdd(82)

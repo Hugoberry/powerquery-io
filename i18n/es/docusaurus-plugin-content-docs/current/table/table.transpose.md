@@ -25,7 +25,7 @@ Convierte las columnas en filas y las filas en columnas.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Crear las filas de la tabla de pares nombre-valor en columnas.
 ```powerquery
 Table.Transpose(

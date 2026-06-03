@@ -19,7 +19,7 @@ Number.Acos(
 
 ## Remarks
 
-ส่งกลับค่าอาร์กโคไซน์ของ <code>number</code>
+ส่งกลับค่าอาร์กโคไซน์ของ `number`
 
 
 

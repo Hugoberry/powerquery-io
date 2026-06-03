@@ -25,7 +25,7 @@ Retorna uma função que combina uma lista de valores texto em um único valor d
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combina uma lista de valores de texto usando uma sequência de delimitadores.
 ```powerquery
 Combiner.CombineTextByEachDelimiter({"=", "+"})({"a", "b", "c"})

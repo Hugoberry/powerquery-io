@@ -25,7 +25,7 @@ Returns the binary results of the call to the url provided for the Azure Enterpr
 
 ## Examples
 
-### Example #1 
+### Example #1
 Using the AzureEnterprise.Contents function to return the results of a specific report.
 ```powerquery
         let

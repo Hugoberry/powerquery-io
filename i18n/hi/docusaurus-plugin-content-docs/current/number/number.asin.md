@@ -19,7 +19,7 @@ Number.Asin(
 
 ## Remarks
 
-<code>number</code> का arcsine लौटाता है.
+`number` का arcsine लौटाता है.
 
 
 

@@ -25,7 +25,7 @@ Table.ToList(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Объединить текст каждой строки с запятой.
 ```powerquery
 Table.ToList(

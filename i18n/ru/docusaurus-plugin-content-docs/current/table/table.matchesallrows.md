@@ -20,13 +20,13 @@ Table.MatchesAllRows(
 
 ## Remarks
 
-Указывает, все ли строки в <code>table</code> соответствуют заданному <code>condition</code>. Возвращает <code>true</code>, если все строки соответствуют условию, <code>false</code> - в противном случае.
+Указывает, все ли строки в `table` соответствуют заданному `condition`. Возвращает `true`, если все строки соответствуют условию, `false` - в противном случае.
 
 
 ## Examples
 
-### Example #1 
-Определение, все ли значения строк в столбце [a] в таблице являются четными.
+### Example #1
+Определение, все ли значения строк в столбце \[a\] в таблице являются четными.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ true
 ```
 
 
-### Example #2 
-Определить, все ли значения строк равны [a = 1, b = 2], в таблице &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt;.
+### Example #2
+Определить, все ли значения строк равны \[a = 1, b = 2\], в таблице `({[a = 1, b = 2], [a = 3, b = 4]})`.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({

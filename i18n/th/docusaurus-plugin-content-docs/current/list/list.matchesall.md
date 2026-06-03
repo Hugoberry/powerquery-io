@@ -20,13 +20,16 @@ List.MatchesAll(
 
 ## Remarks
 
-ส่งกลับ <code>true</code> ถ้าฟังก์ชันเงื่อนไข <code>condition</code> ถูกยอมรับโดยค่าทั้งหมดในรายการ <code>list</code> มิฉะนั้นจะส่งกลับ <code>false</code>
+ส่งกลับ `true` ถ้าฟังก์ชันเงื่อนไขยอมรับค่าทั้งหมดในรายการ มิฉะนั้นจะส่งกลับ `false`
+
+-   `list`: รายการที่มีค่าที่จะตรวจสอบ
+-   `condition`: เงื่อนไขที่จะตรวจสอบกับค่าในรายการ
 
 
 ## Examples
 
-### Example #1 
-ระบุว่าค่าทั้งหมดในรายการ \{11, 12, 13} มากกว่า 10 หรือไม่
+### Example #1
+ระบุว่าค่าทั้งหมดในรายการ \{11, 12, 13\} มากกว่า 10 หรือไม่
 ```powerquery
 List.MatchesAll({11, 12, 13}, each _  > 10)
 ```
@@ -37,8 +40,8 @@ true
 ```
 
 
-### Example #2 
-ระบุว่าค่าทั้งหมดในรายการ \{1, 2, 3} มากกว่า 10 หรือไม่
+### Example #2
+ระบุว่าค่าทั้งหมดในรายการ \{1, 2, 3\} มากกว่า 10 หรือไม่
 ```powerquery
 List.MatchesAll({1, 2, 3}, each _  > 10)
 ```
@@ -46,6 +49,38 @@ List.MatchesAll({1, 2, 3}, each _  > 10)
 Result: 
 ```powerquery
 false
+```
+
+
+### Example #3
+กำหนดว่าค่าข้อความทั้งหมดในรายการมี "anna" หรือไม่ โดยไม่สนใจตัวพิมพ์ใหญ่และเล็ก
+```powerquery
+let
+    Source = {"Savannah", "Annabelle", "Annals", "wannabe", "MANNA"},
+    Result = List.MatchesAll(Source, each Text.Contains(_, "anna", Comparer.OrdinalIgnoreCase))
+in
+    Result
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+### Example #4
+กำหนดว่าวันที่ทั้งหมดมีปี 2021 หรือไม่
+```powerquery
+let
+    Source = {#date(2021, 11, 28), #date(2021, 1, 14), #date(2021, 12, 31), #date(2021, 7, 6)},
+    Result = List.MatchesAll(Source, each Date.Year(_) = 2021)
+in
+    Result
+```
+
+Result: 
+```powerquery
+true
 ```
 
 

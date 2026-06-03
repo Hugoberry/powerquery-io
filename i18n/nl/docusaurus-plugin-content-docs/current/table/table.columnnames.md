@@ -19,12 +19,12 @@ Table.ColumnNames(
 
 ## Remarks
 
-Retourneert de kolomnamen uit de tabel <code>table</code> als een lijst met tekst.
+Retourneert de kolomnamen uit de tabel `table` als een lijst met tekst.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De kolomnamen van de tabel zoeken.
 ```powerquery
 Table.ColumnNames(

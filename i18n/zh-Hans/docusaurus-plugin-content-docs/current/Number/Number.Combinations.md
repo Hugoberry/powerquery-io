@@ -20,12 +20,15 @@ Number.Combinations(
 
 ## Remarks
 
-从项列表 <code>setSize</code> 返回具有指定组合大小 <code>combinationSize</code> 的唯一组合数目。<ul>    <li><code>setSize</code>: 列表中的项数。</li>    <li><code>combinationSize</code>: 每个组合中的项数。</li></ul>
+从项列表 `setSize` 返回具有指定组合大小 `combinationSize` 的唯一组合数目。
+
+-   `setSize`: 列表中的项数。
+-   `combinationSize`: 每个组合中的项数。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 当每个组合为 3 个一组时从总共 5 项中计算组合数。
 ```powerquery
 Number.Combinations(5, 3)

@@ -5,7 +5,7 @@ title: Table.ReorderColumns
 # Table.ReorderColumns
 
 
-Retourne une table contenant des colonnes dans l&#39;ordre spécifié.
+Retourne une table contenant des colonnes dans l'ordre spécifié.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Table.ReorderColumns(
 
 ## Remarks
 
-Retourne une table à partir de l'entrée <code>table</code>, avec les colonnes dans l'ordre spécifié par <code>columnOrder</code>. Les colonnes qui ne sont pas spécifiées dans la liste ne seront pas réorganisées.     Si la colonne n'existe pas, une exception est levée à moins que le paramètre facultatif <code>missingField</code> ne spécifie une autre solution (c'est-à-dire <code>MissingField.UseNull</code> ou <code>MissingField.Ignore</code>).
+Retourne une table à partir de l'entrée `table`, avec les colonnes dans l'ordre spécifié par `columnOrder`. Les colonnes qui ne sont pas spécifiées dans la liste ne seront pas réorganisées. Si la colonne n’existe pas, une erreur est levée à moins que le paramètre facultatif `missingField` ne spécifie une autre solution (c’est-à-dire `MissingField.UseNull` ou `MissingField.Ignore`).
 
 
 ## Examples
 
-### Example #1 
-Inverse l&#39;ordre des colonnes [Phone] et [Name] dans la table.
+### Example #1
+Inverse l'ordre des colonnes \[Phone\] et \[Name\] dans la table.
 ```powerquery
 Table.ReorderColumns(
     Table.FromRecords({[CustomerID = 1, Phone = "123-4567", Name = "Bob"]}),
@@ -41,8 +41,8 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]})
 ```
 
 
-### Example #2 
-Inverse l&#39;ordre des colonnes [Phone] et [Address] de la table, ou utilise &#34; MissingField.Ignore &#34;. Ne change pas la table si la colonne [Address] n&#39;existe pas.
+### Example #2
+Inverse l'ordre des colonnes \[Phone\] et \[Address\] de la table, ou utilise "MissingField.Ignore". Ne change pas la table si la colonne \[Address\] n'existe pas.
 ```powerquery
 Table.ReorderColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

@@ -21,13 +21,23 @@ Table.TransformColumnNames(
 
 ## Remarks
 
-Hiermee worden kolomnamen omgezet met de opgegeven <code>nameGenerator</code>-functie. Geldige opties: <div> <code>MaxLength</code> geeft de maximumlengte van nieuwe kolomnamen op. Als de opgegeven functie een langere kolomnaam als resultaat heeft, wordt de langere naam ingekort. </div> <div> <code>Comparer</code> wordt gebruikt voor het aansturen van de vergelijking en tegelijkertijd voor het genereren van nieuwe kolomnamen. Vergelijkingsfuncties kunnen worden gebruikt om bij de vergelijking geen onderscheid te hoeven maken tussen hoofdletters en kleine letters of om bij de vergelijking rekening te houden met de cultuur en aard van de omgeving. </div> <div> De volgende ingebouwde vergelijkingsfuncties kunnen in formules worden gebruikt: </div> <ul> <li><code>Comparer.Ordinal</code>: waarmee exacte ordinale vergelijkingen kunnen worden uitgevoerd</li> <li><code>Comparer.OrdinalIgnoreCase</code>: waarmee exacte ordinale vergelijkingen kunnen worden uitgevoerd waarbij geen onderscheid wordt gemaakt tussen hoofdletters en kleine letters</li> <li> <code>Comparer.FromCulture</code>: waarmee vergelijkingen met inachtneming van de cultuur kunnen worden uitgevoerd</li> </ul>    
+Hiermee worden kolomnamen omgezet met de opgegeven `nameGenerator`\-functie. Geldige opties:
+
+`MaxLength` geeft de maximumlengte van nieuwe kolomnamen op. Als de opgegeven functie een langere kolomnaam als resultaat heeft, wordt de langere naam ingekort.
+
+`Comparer` wordt gebruikt voor het aansturen van de vergelijking en tegelijkertijd voor het genereren van nieuwe kolomnamen. Vergelijkingsfuncties kunnen worden gebruikt om bij de vergelijking geen onderscheid te hoeven maken tussen hoofdletters en kleine letters of om bij de vergelijking rekening te houden met de cultuur en aard van de omgeving.
+
+De volgende ingebouwde vergelijkingsfuncties kunnen in formules worden gebruikt:
+
+-   `Comparer.Ordinal`: waarmee exacte ordinale vergelijkingen kunnen worden uitgevoerd
+-   `Comparer.OrdinalIgnoreCase`: waarmee exacte ordinale vergelijkingen kunnen worden uitgevoerd waarbij geen onderscheid wordt gemaakt tussen hoofdletters en kleine letters
+-   `Comparer.FromCulture`: waarmee vergelijkingen met inachtneming van de cultuur kunnen worden uitgevoerd
 
 
 ## Examples
 
-### Example #1 
-Verwijder het teken &lt;code&gt;#(tab)&lt;/code&gt; uit kolomnamen
+### Example #1
+Verwijder het teken `#(tab)` uit kolomnamen
 ```powerquery
 Table.TransformColumnNames(Table.FromRecords({[#"Col#(tab)umn" = 1]}), Text.Clean)
 ```
@@ -38,7 +48,7 @@ Table.FromRecords({[Column = 1]})
 ```
 
 
-### Example #2 
+### Example #2
 Kolomnamen transformeren naar namen met een lengte van 6 tekens, zonder rekening te houden met hoofdlettergebruik.
 ```powerquery
 Table.TransformColumnNames(

@@ -20,7 +20,7 @@ Cube.Transform(
 
 ## Remarks
 
-Применяет список функций куба <code>transforms</code> к <code>cube</code>.
+Применяет список функций куба `transforms` к `cube`.
 
 
 

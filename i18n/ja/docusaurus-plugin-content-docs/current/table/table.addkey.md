@@ -21,12 +21,12 @@ Table.AddKey(
 
 ## Remarks
 
-<code>table</code> にキーを追加します。なお、<code>columns</code> は、キーを定義する列名のリストで、<code>isPrimary</code> はキーが主キーかどうかを指定します。
+`table` にキーを追加します。なお、`columns` は、キーを定義する列名のリストで、`isPrimary` はキーが主キーかどうかを指定します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 単一列の主キーをテーブルに追加します。
 ```powerquery
 let

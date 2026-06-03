@@ -20,12 +20,15 @@ Number.Power(
 
 ## Remarks
 
-Returnerar resultatet från att <code>number</code> upphöjs till <code>power</code>.    Om <code>number</code> eller <code>power</code> är null returnerar <code>Number.Power</code> null.      <ul>        <li><code>number</code>: Basen.</li>        <li><code>power</code>: Exponenten.</li>      </ul>
+Returnerar resultatet från att `number` upphöjs till `power`. Om `number` eller `power` är null returnerar `Number.Power` null.
+
+-   `number`: Basen.
+-   `power`: Exponenten.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta värdet 5 upphöjt till 3 (5 i kubik).
 ```powerquery
 Number.Power(5, 3)

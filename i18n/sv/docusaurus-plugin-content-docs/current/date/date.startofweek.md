@@ -20,12 +20,12 @@ Date.StartOfWeek(
 
 ## Remarks
 
-Returnerar början på veckan som innehåller <code>dateTime</code>.      <code>dateTime</code> måste vara ett <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde.
+Returnerar början på veckan som innehåller `dateTime`. `dateTime` måste vara ett `date`\-, `datetime`\- eller `datetimezone`\-värde.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta veckans början för tisdagen den 11 oktober 2011.
 ```powerquery
 Date.StartOfWeek(#datetime(2011, 10, 11, 8, 10, 32))
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Hitta veckans början för tisdagen den 11 oktober 2011 med måndag som början på veckan.
 ```powerquery
 Date.StartOfWeek(#datetime(2011, 10, 11, 8, 10, 32), Day.Monday)

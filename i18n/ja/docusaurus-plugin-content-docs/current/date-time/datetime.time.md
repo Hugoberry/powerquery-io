@@ -19,12 +19,12 @@ DateTime.Time(
 
 ## Remarks
 
-指定された datetime 値 <code>dateTime</code> の時刻部分を返します。
+指定された datetime 値 `dateTime` の時刻部分を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 #datetime(2010, 12, 31, 11, 56, 02) の時刻値を調べます。
 ```powerquery
 DateTime.Time(#datetime(2010, 12, 31, 11, 56, 02))

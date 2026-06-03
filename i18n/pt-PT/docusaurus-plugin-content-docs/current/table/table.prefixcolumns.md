@@ -20,13 +20,13 @@ Table.PrefixColumns(
 
 ## Remarks
 
-Devolve uma tabela em que o texto especificado, <code>prefix</code>, juntamente com um ponto no formato <code>prefix</code><code>.ColumnName</code>, é adicionado como prefixo aos nomes de todas as colunas do <code>table</code> especificado.
+Devolve uma tabela na qual todos os nomes de colunas da `table` fornecida são prefixados com o texto indicado, `prefix`, mais um ponto, sob a forma `prefix.ColumnName`.
 
 
 ## Examples
 
-### Example #1 
-Adicionar o prefixo &#34;MinhaTabela&#34; às colunas existentes na tabela.
+### Example #1
+Adicionar o prefixo "MinhaTabela" às colunas existentes na tabela.
 ```powerquery
 Table.PrefixColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

@@ -19,7 +19,7 @@ Number.Acos(
 
 ## Remarks
 
-<code>number</code> のアークコサインを返します。
+`number` のアークコサインを返します。
 
 
 

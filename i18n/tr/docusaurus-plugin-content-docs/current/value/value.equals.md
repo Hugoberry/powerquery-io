@@ -21,7 +21,7 @@ Value.Equals(
 
 ## Remarks
 
-<code>value1</code> değeri <code>value2</code> değerine eşitse doğru, aksi halde yanlış değerini döndürür.
+`value1` değeri `value2` değerine eşitse doğru, aksi halde yanlış değerini döndürür.
 
 
 

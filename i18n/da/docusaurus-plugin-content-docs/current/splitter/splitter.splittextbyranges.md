@@ -25,7 +25,7 @@ Returnerer en funktion, der opdeler tekst i en tekstliste i henhold til de angiv
 
 ## Examples
 
-### Example #1 
+### Example #1
 Opdel input efter de angivne positions- og længdepar, startende fra begyndelsen af input. Bemærk, at intervallerne i dette eksempel overlapper hinanden.
 ```powerquery
 Splitter.SplitTextByRanges({{0, 4}, {2, 10}})("codelimiter")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Opdel input med de angivne positions- og længdepar, startende fra slutningen af input.
 ```powerquery
 let
@@ -52,7 +52,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Opdel inputtet i et postnummer med fast længde efterfulgt af et bynavn med variabel længde.
 ```powerquery
 Splitter.SplitTextByRanges({{0, 5}, {5, null}})("98052Redmond")

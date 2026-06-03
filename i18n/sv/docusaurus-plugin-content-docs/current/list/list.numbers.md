@@ -21,12 +21,16 @@ List.Numbers(
 
 ## Remarks
 
-Returnerar en lista med tal baserat på ett ursprungligt värde, antal och ett valfritt ökningsvärde. Standardökningsvärdet är 1.<ul>   <li><code>start</code>: Det ursprungliga värdet i listan.</li>   <li><code>count</code>: Antalet värden som ska skapas.</li>   <li><code>increment</code>: <i>[Valfritt]</i> Värdet som du vill öka med. Om inget anges ökas värdena med 1.</li></ul>
+Returnerar en lista med tal baserat på ett ursprungligt värde, antal och ett valfritt ökningsvärde. Standardökningsvärdet är 1.
+
+-   `start`: Det ursprungliga värdet i listan.
+-   `count`: Antalet värden som ska skapas.
+-   `increment`: *(Valfritt)* Värdet att öka med. Värdet som du vill öka med. Om inget anges ökas värdena med 1.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Generera en lista med 10 efterföljande tal som börjar med 1.
 ```powerquery
 List.Numbers(1, 10)
@@ -49,7 +53,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Generera en lista med 10 tal som börjar med 1, med en ökning på 2 för varje efterföljande tal.
 ```powerquery
 List.Numbers(1, 10, 2)

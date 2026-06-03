@@ -22,13 +22,13 @@ Table.DuplicateColumn(
 
 ## Remarks
 
-<code>columnName</code> adlı bir sütunu <code>table</code> tablosuna çoğaltır. <code>newColumnName</code> sütununa ait değerler ve tür <code>columnName</code> sütunundan kopyalanır.
+`columnName` adlı bir sütunu `table` tablosuna çoğaltır. `newColumnName` sütununa ait değerler ve tür `columnName` sütunundan kopyalanır.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; tablosundaki &#34;a&#34; sütununu &#34;kopya sütun&#34; adlı sütuna çoğalt.
+### Example #1
+`({[a = 1, b = 2], [a = 3, b = 4]})` tablosundaki "a" sütununu "kopya sütun" adlı sütuna çoğalt.
 ```powerquery
 Table.DuplicateColumn(
     Table.FromRecords({

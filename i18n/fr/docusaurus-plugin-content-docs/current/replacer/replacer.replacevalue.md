@@ -5,7 +5,7 @@ title: Replacer.ReplaceValue
 # Replacer.ReplaceValue
 
 
-Remplace les valeurs dans l&#39;entrée fournie.
+Remplace les valeurs dans l'entrée fournie.
 
 
 ## Syntax
@@ -21,12 +21,12 @@ Replacer.ReplaceValue(
 
 ## Remarks
 
-Remplace la valeur <code>old</code> dans le <code>value</code> d'origine par la valeur <code>new</code>. Cette fonction de remplacement peut être utilisée dans <code>List.ReplaceValue</code> et <code>Table.ReplaceValue</code>.
+Remplace la valeur `old` dans le `value` d'origine par la valeur `new`. Cette fonction de remplacement peut être utilisée dans `List.ReplaceValue` et `Table.ReplaceValue`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Remplace la valeur 11 par la valeur 10.
 ```powerquery
 Replacer.ReplaceValue(11, 11, 10)

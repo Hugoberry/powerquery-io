@@ -20,25 +20,29 @@ Text.SplitAny(
 
 ## Remarks
 
-Returnerer en liste over tekstværdier som et resultat af at opdele en tekstværdi <code>text</code> ved hjælp af et hvilket som helst tegn i den angivne afgrænser, <code>separators</code>.
+Returnerer en liste over tekstværdier, der er resultatet af opdelingen af en tekstværdi baseret på et tegn, der er angivet i afgrænseren.
+
+-   `text`: Den tekstværdi, der skal opdeles.
+-   `separators`: De afgrænsertegn, der bruges til at opdele teksten.
 
 
 ## Examples
 
-### Example #1 
-Opret en liste ud fra tekstværdien &#34;Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com&#34;.
+### Example #1
+Opret en liste ud fra den angivne tekst ved hjælp af de specificerede afgrænsertegn.
 ```powerquery
-Text.SplitAny("Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com", "|")
+Text.SplitAny("Name|Customer ID|Purchase|Month-Day-Year", "|-")
 ```
 
 Result: 
 ```powerquery
 {
-    "Jamie",
-    "Campbell",
-    "Admin",
-    "Adventure Works",
-    "www.adventure-works.com"
+    "Name",
+    "Customer ID",
+    "Purchase",
+    "Month",
+    "Day",
+    "Year"
 }
 ```
 

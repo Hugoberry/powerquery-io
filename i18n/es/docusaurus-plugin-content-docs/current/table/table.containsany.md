@@ -21,13 +21,13 @@ Table.ContainsAny(
 
 ## Remarks
 
-Indica si alguno de los registros especificados en la lista de registros <code>rows</code> aparece como filas en <code>table</code>.    Se puede especificar un parámetro <code>equationCriteria</code> opcional para controlar la comparación entre las filas de la tabla.
+Indica si alguno de los registros especificados en la lista de registros `rows` aparece como filas en `table`. Se puede especificar un parámetro `equationCriteria` opcional para controlar la comparación entre las filas de la tabla.
 
 
 ## Examples
 
-### Example #1 
-Determinar si la tabla &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; contiene las filas &lt;code&gt;[a = 1, b = 2]&lt;/code&gt; o &lt;code&gt;[a = 3, b = 5]&lt;/code&gt;.
+### Example #1
+Determinar si la tabla `({[a = 1, b = 2], [a = 3, b = 4]})` contiene las filas `[a = 1, b = 2]` o `[a = 3, b = 5]`.
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({
@@ -47,8 +47,8 @@ true
 ```
 
 
-### Example #2 
-Determinar si la tabla &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; contiene las filas &lt;code&gt;[a = 1, b = 3]&lt;/code&gt; o &lt;code&gt;[a = 3, b = 5]&lt;/code&gt;.
+### Example #2
+Determinar si la tabla `({[a = 1, b = 2], [a = 3, b = 4]})` contiene las filas `[a = 1, b = 3]` o `[a = 3, b = 5]`.
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({
@@ -68,8 +68,8 @@ false
 ```
 
 
-### Example #3 
-Determinar si la tabla &lt;code&gt;(Table.FromRecords(\{[a = 1, b = 2], [a = 3, b = 4]}))&lt;/code&gt; contiene las filas &lt;code&gt;[a = 1, b = 3]&lt;/code&gt; o &lt;code&gt;[a = 3, b = 5]&lt;/code&gt; comparando solo la columna [a].
+### Example #3
+Determinar si la tabla `(Table.FromRecords({[a = 1, b = 2], [a = 3, b = 4]}))` contiene las filas `[a = 1, b = 3]` o `[a = 3, b = 5]` comparando solo la columna \[a\].
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({

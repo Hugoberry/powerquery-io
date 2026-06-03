@@ -19,12 +19,12 @@ Number.Sin(
 
 ## Remarks
 
-Trả về sin của <code>number</code>.
+Trả về sin của `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trả về sin của góc 0.
 ```powerquery
 Number.Sin(0)

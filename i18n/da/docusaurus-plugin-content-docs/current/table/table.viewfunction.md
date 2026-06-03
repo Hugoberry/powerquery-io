@@ -19,7 +19,13 @@ Table.ViewFunction(
 
 ## Remarks
 
-Opretter en visningsfunktion baseret på <code>function</code>, der kan håndteres i en visning, der er oprettet af <code>Table.View</code>.<br />Den > <code>OnInvoke</code> handler for <code>Table.View</code> kan bruges til at definere en handler for visningsfunktionen.<br />Ligesom med handlerne til indbyggede handlinger, hvis der ikke er angivet nogen <code>OnInvoke</code> handler, eller hvis den ikke håndterer visningsfunktionen, eller hvis der udløses en fejl af handleren, anvendes <code>function</code> i toppen af visningen.<br />Se den publicerede Power Query-dokumentation til brugerdefinerede connectors for en mere komplet beskrivelse af <code>Table.View</code> og brugerdefinerede visningsfunktioner.<br />
+Opretter en visningsfunktion baseret på `function`, der kan håndteres i en visning, der er oprettet af `Table.View`.
+
+Den > `OnInvoke` handler for `Table.View` kan bruges til at definere en handler for visningsfunktionen.
+
+Ligesom med handlerne til indbyggede handlinger, hvis der ikke er angivet nogen `OnInvoke` handler, eller hvis den ikke håndterer visningsfunktionen, eller hvis der udløses en fejl af handleren, anvendes `function` i toppen af visningen.
+
+Se den publicerede Power Query-dokumentation til brugerdefinerede connectors for en mere komplet beskrivelse af `Table.View` og brugerdefinerede visningsfunktioner.
 
 
 

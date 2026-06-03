@@ -25,7 +25,7 @@ The purpose of the method is to set parameters for odata feed data source calls,
 
 ## Examples
 
-### Example #1 
+### Example #1
 The purpose of the function is set the feed call parametrs
 ```powerquery
 let

@@ -21,12 +21,12 @@ List.Range(
 
 ## Remarks
 
-<code>list</code> uzaklığından başlayarak listenin bir alt kümesini döndürür. <code>offset</code> isteğe bağlı parametresi, alt kümedeki öğe sayısı üst sınırını belirler.
+`offset` konumundan başlayan bir `list` alt kümesini döndürür. İsteğe bağlı bir parametre olan `count`, alt kümedeki maksimum öğe sayısını belirler.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 1-10 arasındaki sayıları içeren listenin 6 uzaklığından başlayan alt kümesini bulur.
 ```powerquery
 List.Range({1..10}, 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 1-10 arasındaki sayıları içeren listenin 6 uzaklığından başlayan 2 uzunluğuna sahip alt kümesini bulur.
 ```powerquery
 List.Range({1..10}, 6, 2)

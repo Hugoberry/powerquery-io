@@ -21,12 +21,12 @@ Table.RemoveRows(
 
 ## Remarks
 
-Satırlara ait <code>count</code> öğesini <code>table</code> öğesinin başından, belirtilen <code>offset</code> konumundan başlayarak kaldırır. <code>count</code> parametresi sağlanmazsa, 1 varsayılan sayısı kullanılır. 
+Satırlara ait `count` öğesini `table` öğesinin başından, belirtilen `offset` konumundan başlayarak kaldırır. `count` parametresi sağlanmazsa, 1 varsayılan sayısı kullanılır.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablonun ilk satırını kaldırır.
 ```powerquery
 Table.RemoveRows(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Tabloda 1 konumunda bulunan satırı kaldırır.
 ```powerquery
 Table.RemoveRows(
@@ -74,7 +74,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Tabloda 1 konumundan başlayarak iki satırı kaldırır.
 ```powerquery
 Table.RemoveRows(

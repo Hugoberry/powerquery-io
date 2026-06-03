@@ -5,7 +5,7 @@ title: Record.FromList
 # Record.FromList
 
 
-Retourne un enregistrement en fonction d&#39;une liste de valeurs de champ et d&#39;un ensemble de champs.
+Retourne un enregistrement en fonction d'une liste de valeurs de champ et d'un ensemble de champs.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Record.FromList(
 
 ## Remarks
 
-Retourne un enregistrement en fonction d'un <code>list</code> de valeurs de champ et d'un ensemble de champs.  <code>fields</code> peut être spécifié par une liste de valeurs de texte, ou un type d'enregistrement.  Une erreur est générée si les champs ne sont pas uniques.
+Retourne un enregistrement en fonction d'un `list` de valeurs de champ et d'un ensemble de champs. `fields` peut être spécifié par une liste de valeurs de texte, ou un type d'enregistrement. Désolé, une erreur est levée si les champs ne sont pas uniques.
 
 
 ## Examples
 
-### Example #1 
-Créez un enregistrement à partir d&#39;une liste de valeurs de champ et d&#39;une liste de noms de champ.
+### Example #1
+Créez un enregistrement à partir d'une liste de valeurs de champ et d'une liste de noms de champ.
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, {"CustomerID", "Name", "Phone"})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Créez un enregistrement à partir d&#39;une liste de valeurs de champ et d&#39;un type d&#39;enregistrement.
+### Example #2
+Créez un enregistrement à partir d'une liste de valeurs de champ et d'un type d'enregistrement.
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, type [CustomerID = number, Name = text, Phone = number])
 ```

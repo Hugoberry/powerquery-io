@@ -19,7 +19,7 @@ Number.Acos(
 
 ## Remarks
 
-Retourneert de arccosinus van <code>number</code>.
+Retourneert de arccosinus van `number`.
 
 
 

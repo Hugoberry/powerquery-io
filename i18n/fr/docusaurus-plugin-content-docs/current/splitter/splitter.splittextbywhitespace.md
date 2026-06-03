@@ -5,7 +5,7 @@ title: Splitter.SplitTextByWhitespace
 # Splitter.SplitTextByWhitespace
 
 
-Retourne une fonction qui fractionne le texte en une liste de textes au niveau de l&#39;espace.
+Retourne une fonction qui fractionne le texte en une liste de textes au niveau de l'espace.
 
 
 ## Syntax
@@ -24,8 +24,8 @@ Retourne une fonction qui fractionne le texte en une liste de textes au niveau d
 
 ## Examples
 
-### Example #1 
-Divise l&#39;entrée par les caractères d&#39;espacement, en traitant les guillemets comme n&#39;importe quel autre caractère.
+### Example #1
+Divise l'entrée par les caractères d'espacement, en traitant les guillemets comme n'importe quel autre caractère.
 ```powerquery
 Splitter.SplitTextByWhitespace(QuoteStyle.None)("a b#(tab)c")
 ```

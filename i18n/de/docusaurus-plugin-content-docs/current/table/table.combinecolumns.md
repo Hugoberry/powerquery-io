@@ -27,7 +27,7 @@ Fasst die angegebenen Spalten unter Verwendung der angegebenen Kombinationsfunkt
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kombinieren Sie die Nach- und Vornamen in einer neuen Spalte, getrennt durch ein Komma.
 ```powerquery
 Table.CombineColumns(

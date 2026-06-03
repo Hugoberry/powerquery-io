@@ -21,12 +21,12 @@ List.Times(
 
 ## Remarks
 
-Devolve uma lista de valores <code>time</code> com o tamanho <code>count</code>, começando em <code>start</code>. O incremento especificado, <code>step</code>, é um valor <code>duration</code> que é adicionado a cada valor.
+Devolve uma lista de valores `time` com o tamanho `count`, começando em `start`. O incremento especificado, `step`, é um valor `duration` que é adicionado a cada valor.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Criar uma lista de 4 valores, começando ao meio dia (#time(12, 0, 0)) incrementando por uma hora (#duration(0, 1, 0, 0)).
 ```powerquery
 List.Times(#time(12, 0, 0), 4, #duration(0, 1, 0, 0))

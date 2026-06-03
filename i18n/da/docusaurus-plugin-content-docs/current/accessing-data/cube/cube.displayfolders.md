@@ -19,7 +19,7 @@ Cube.DisplayFolders(
 
 ## Remarks
 
-Returnerer et indlejret træ med tabeller, der repræsenterer det viste mappehierarki for objekterne (f.eks. dimensioner og målinger), som er tilgængelige til brug i <code>cube</code>.
+Returnerer et indlejret træ med tabeller, der repræsenterer det viste mappehierarki for objekterne (f.eks. dimensioner og målinger), som er tilgængelige til brug i `cube`.
 
 
 

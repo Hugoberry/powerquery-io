@@ -19,13 +19,28 @@ RowExpression.From(
 
 ## Remarks
 
-返回 <code>function</code> 主体的抽象语法树(AST)，规范化为行表达式<i></i>:<ul>  <li>函数必须为单参数 lambda。</li>  <li>对函数参数的所有引用已替换为 <code>RowExpression.Row</code>。</li>  <li>对列的所有引用已替换为 <code>RowExpression.Column(columnName<i></i>)</code>。</li>  <li>AST 将简化为仅包含以下种类的节点:    <ul>      <li><code>Constant</code></li>      <li><code>Invocation</code></li>      <li><code>Unary</code></li>      <li><code>Binary</code></li>      <li><code>If</code></li>      <li><code>FieldAccess</code></li>    </ul>  </li></ul><br /><br />如果无法返回 <code>function</code> 的主体的行表达式 AST，会出现错误。<br />
+返回 `function` 主体的抽象语法树(AST)，规范化为*行表达式*:
+
+-   函数必须为 1 个参数的 lambda。
+-   对函数参数的所有引用已替换为 `RowExpression.Row`。
+-   对列的所有引用已替换为 `RowExpression.Column(columnName)`。
+-   AST 将简化为仅包含以下类型的节点:
+    -   `Constant`
+    -   `Invocation`
+    -   `Unary`
+    -   `Binary`
+    -   `If`
+    -   `FieldAccess`
+
+如果无法返回 `function` 的主体的行表达式 AST，则会出现错误。  
+  
+此函数与 `ItemExpression.From` 完全相同。
 
 
 ## Examples
 
-### Example #1 
-返回函数 &lt;code&gt;each [CustomerID] = &#34;ALFKI&#34;&lt;/code&gt; 主体的 AST
+### Example #1
+返回函数 `each [CustomerID] = "ALFKI"` 主体的 AST。
 ```powerquery
 RowExpression.From(each [CustomerName] = "ALFKI")
 ```

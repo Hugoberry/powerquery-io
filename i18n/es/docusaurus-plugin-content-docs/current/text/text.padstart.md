@@ -21,12 +21,12 @@ Text.PadStart(
 
 ## Remarks
 
-Devuelve un valor <code>text</code> rellenado hasta la longitud <code>count</code> insertando espacios al inicio del valor de texto <code>text</code>.    Se puede usar un carácter opcional <code>character</code> para especificar el carácter usado para el relleno. El carácter de relleno predeterminado es un espacio.
+Devuelve un valor `text` rellenado hasta la longitud `count` insertando espacios al inicio del valor de texto `text`. Se puede usar un carácter opcional `character` para especificar el carácter usado para el relleno. El carácter de relleno predeterminado es un espacio.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Rellenar el comienzo de un valor de texto para que tenga 10 caracteres de largo.
 ```powerquery
 Text.PadStart("Name", 10)
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Rellenar el comienzo de un valor de texto con &#34;|&#34; para que tenga 10 caracteres de largo.
+### Example #2
+Rellenar el comienzo de un valor de texto con "|" para que tenga 10 caracteres de largo.
 ```powerquery
 Text.PadStart("Name", 10, "|")
 ```

@@ -21,13 +21,13 @@ List.Difference(
 
 ## Remarks
 
-Returnerer de elementer på listen <code>list1</code>, der ikke vises på listen <code>list2</code>. Dublerede værdier understøttes.     Du kan angive en valgfri kriterieværdi for ligningen, <code>equationCriteria</code>, for at styre kvalitetstesten. 
+Returnerer de elementer på listen `list1`, der ikke vises på listen `list2`. Dublerede værdier understøttes. Du kan angive en valgfri kriterieværdi for ligningen, `equationCriteria`, for at styre kvalitetstesten.
 
 
 ## Examples
 
-### Example #1 
-Find de elementer på listen \{1, 2, 3, 4, 5}, der ikke vises i \{4, 5, 3}.
+### Example #1
+Find de elementer på listen \{1, 2, 3, 4, 5\}, der ikke vises i \{4, 5, 3\}.
 ```powerquery
 List.Difference({1, 2, 3, 4, 5}, {4, 5, 3})
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Find de elementer på listen \{1, 2}, der ikke vises i \{1, 2, 3}.
+### Example #2
+Find de elementer på listen \{1, 2\}, der ikke vises i \{1, 2, 3\}.
 ```powerquery
 List.Difference({1, 2}, {1, 2, 3})
 ```

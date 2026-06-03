@@ -20,7 +20,7 @@ Tables.GetRelationships(
 
 ## Remarks
 
-Tablo kümesinde var olan ilişkileri alır. <code>tables</code> kümesinin gezinme tablosunun yapısına benzer bir yapıya sahip olduğu varsayılır. <code>dataColumn</code> tarafından tanımlanan sütunda gerçek veri tabloları bulunur.
+Tablo kümesinde var olan ilişkileri alır. `tables` kümesinin gezinme tablosunun yapısına benzer bir yapıya sahip olduğu varsayılır. `dataColumn` tarafından tanımlanan sütunda gerçek veri tabloları bulunur.
 
 
 

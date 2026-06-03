@@ -20,12 +20,12 @@ Record.FromList(
 
 ## Remarks
 
-已知欄位值 <code>list</code> 和一組欄位，傳回記錄。<code>fields</code> 可以指定為文字值清單或記錄類型。如果欄位不是唯一的，則擲回錯誤。
+傳回指定欄位值 `list` 和一組欄位的記錄。 `fields` 可以指定為文字值清單或記錄類型。 如果欄位不是唯一，則引發錯誤。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 根據欄位值清單和欄位名稱清單，建立記錄。
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, {"CustomerID", "Name", "Phone"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 根據欄位值清單和記錄類型，建立記錄。
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, type [CustomerID = number, Name = text, Phone = number])

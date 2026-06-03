@@ -20,12 +20,15 @@ Date.IsInNextNWeeks(
 
 ## Remarks
 
-指示给定的日期时间值 <code>dateTime</code> 是否会在系统当前日期和时间确定的下一周数中出现。请注意，当传递一个在当前周内出现的值时，此函数将返回 false。      <ul>      <li><code>dateTime</code>: 要计算的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值。</li>      <li><code>weeks</code>: 周数。</li>      </ul>
+指示给定的日期时间值 `dateTime` 是否会在系统当前日期和时间确定的下一周数中出现。请注意，当传递一个在当前周内出现的值时，此函数将返回 false。
+
+-   `dateTime`: 要计算的 `date`、`datetime` 或 `datetimezone` 值。
+-   `weeks`: 周数。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 确定当前系统时间之后的周是否在接下来的两周中。
 ```powerquery
 Date.IsInNextNWeeks(Date.AddDays(DateTime.FixedLocalNow(), 7), 2)

@@ -24,7 +24,7 @@ Zwraca typ wiersza dla określonego typu tabeli. Wynik będzie zawsze typem reko
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zwraca informacje o typie wiersza dla prostej tabeli.
 ```powerquery
 let

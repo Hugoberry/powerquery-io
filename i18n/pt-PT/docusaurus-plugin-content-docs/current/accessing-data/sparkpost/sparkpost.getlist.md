@@ -22,8 +22,8 @@ Esta função pode ser utilizada para chamar qualquer um dos pontos finais "List
 
 ## Examples
 
-### Example #1 
-Devolve uma tabela com uma única coluna povoada com dados de um dos pontos finais &#34;Listas&#34; da API do SparkPost v1 (para obter mais detalhes, veja a documentação do SparkPost).
+### Example #1
+Devolve uma tabela com uma única coluna povoada com dados de um dos pontos finais "Listas" da API do SparkPost v1 (para obter mais detalhes, veja a documentação do SparkPost).
 ```powerquery
 Source = SparkPost.GetList("metrics/campaigns")
 ```

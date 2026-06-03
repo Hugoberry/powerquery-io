@@ -21,13 +21,13 @@ Text.Replace(
 
 ## Remarks
 
-पाठ मान <code>text</code> में पाठ मान <code>old</code> की सभी आवृत्तियों को पाठ मान <code>new</code> से प्रस्थापित करने का परिणाम लौटाता है. यह फ़ंक्शन केस संवेदी है.
+पाठ मान `text` में पाठ मान `old` की सभी आवृत्तियों को पाठ मान `new` से प्रस्थापित करने का परिणाम लौटाता है. यह फ़ंक्शन केस संवेदी है.
 
 
 ## Examples
 
-### Example #1 
-वाक्य में &#34;the&#34; की प्रत्येक आवृत्ति को &#34;a&#34; से बदलें.
+### Example #1
+वाक्य में "the" की प्रत्येक आवृत्ति को "a" से बदलें.
 ```powerquery
 Text.Replace("the quick brown fox jumps over the lazy dog", "the", "a")
 ```

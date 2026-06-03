@@ -25,7 +25,7 @@ Bir dizi sınırlayıcı kullanarak metin değerleri listesini tek bir metin de�
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bir sınırlayıcı dizisi kullanarak bir metin değerleri listesini birleştirin.
 ```powerquery
 Combiner.CombineTextByEachDelimiter({"=", "+"})({"a", "b", "c"})

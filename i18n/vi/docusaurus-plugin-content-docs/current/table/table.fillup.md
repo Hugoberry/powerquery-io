@@ -20,13 +20,13 @@ Table.FillUp(
 
 ## Remarks
 
-Trả về một bảng từ <code>table</code> được chỉ định trong đó giá trị của ô tiếp theo được phân bố tới các ô có giá trị rỗng ở phía trên trong <code>columns</code> được chỉ định.
+Trả về một bảng từ `table` được chỉ định trong đó giá trị của ô tiếp theo được phân bố tới các ô có giá trị rỗng ở phía trên trong `columns` được chỉ định.
 
 
 ## Examples
 
-### Example #1 
-Trả về một bảng có các giá trị null trong cột [Column2] được điền giá trị ở phía dưới chúng từ bảng.
+### Example #1
+Trả về một bảng có các giá trị null trong cột \[Column2\] được điền giá trị ở phía dưới chúng từ bảng.
 ```powerquery
 Table.FillUp(
     Table.FromRecords({

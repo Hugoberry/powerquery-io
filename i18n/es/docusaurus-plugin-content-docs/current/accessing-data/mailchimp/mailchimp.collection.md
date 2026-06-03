@@ -25,7 +25,7 @@ Realiza una llamada a la API de MailChimp y devuelve el conjunto de datos result
 
 ## Examples
 
-### Example #1 
+### Example #1
 Extrae una tabla de datos desde el punto de conexión de listas de la API de MailChimp.
 ```powerquery
 MailChimp.Collection("listas")
@@ -37,7 +37,7 @@ Una tabla con datos de lista.
 ```
 
 
-### Example #2 
+### Example #2
 Extrae una tabla de datos desde el punto de conexión de carpetas de campaña de la API de MailChimp.
 ```powerquery
 MailChimp.Collection("carpetas de campaña", "carpetas")

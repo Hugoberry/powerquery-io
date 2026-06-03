@@ -21,13 +21,25 @@ Text.StartsWith(
 
 ## Remarks
 
-Returnerar sant om textvärdet <code>text</code> inleds med textvärdet <code>substring</code>.      <ul>        <li><code>text</code>: <i></i> Ett <code>text</code>-värde som det ska sökas efter</li>        <li><code>substring</code>: <i></i> Ett <code>text</code>-värde som är den delsträng som ska sökas efter i <code>substring</code></li>        <li><code>comparer</code>: <i>[Valfritt]</i> En <code>Comparer</code> som används för att kontrollera jämförelsen. <code>Comparer.OrdinalIgnoreCase</code> kan till exempel användas för att genomföra skiftlägesokänsliga sökningar</li>      </ul>      <div>        <code>comparer</code> är en <code>Comparer</code> som används för att kontrollera jämförelsen. Jämförelsefunktioner kan användas för att tillhandahålla skiftlägesokänsliga eller kultur- och språkmedvetna jämförelser.      </div>      <div>        Följande inbyggda jämförelsefunktioner är tillgängliga i formelspråket      </div>      <ul>        <li><code>Comparer.Ordinal</code>: Används för att genomföra en exakt ordningstalsjämförelse</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: Används för att genomföra en exakt skiftlägesokänslig ordningstalsjämförelse</li>        <li><code>Comparer.FromCulture</code>: Används för att genomföra en kulturmedveten jämförelse</li>      </ul>
+Returnerar sant om textvärdet `text` börjar med textvärdet `substring`.
+
+-   `text`: Ett `text` värde som ska sökas igenom.
+-   `substring`: Ett `text`\-värde som är delsträngen som ska sökas efter i `text`.
+-   `comparer`: *(Valfritt)* En `Comparer` som används för att kontrollera jämförelsen. Till exempel kan `Comparer.OrdinalIgnoreCase` användas för att utföra skiftlägesokänsliga sökningar.
+
+`comparer` är en `Comparer` som används för att styra jämförelsen. Jämförelseverktyg kan användas för att tillhandahålla skiftlägesokänsliga eller kultur- och språkmedvetna jämförelser.
+
+Följande inbyggda jämförelseverktyg är tillgängliga på formelspråket:
+
+-   `Comparer.Ordinal`: Används för att utföra en exakt ordningstalsjämförelse.
+-   `Comparer.OrdinalIgnoreCase`: Används för att utföra en exakt skiftlägesokänslig jämförelse.
+-   `Comparer.FromCulture`: Används för att utföra en kulturmedveten jämförelse.
 
 
 ## Examples
 
-### Example #1 
-Kontrollera om texten &#34;Hello, World&#34; börjar med texten &#34;hello&#34;.
+### Example #1
+Kontrollera om texten "Hello, World" börjar med texten "hello".
 ```powerquery
 Text.StartsWith("Hello, World", "hello")
 ```
@@ -38,10 +50,22 @@ false
 ```
 
 
-### Example #2 
-Kontrollera om texten &#34;Hello, World&#34; börjar med texten &#34;Hello&#34;.
+### Example #2
+Kontrollera om texten "Hello, World" börjar med texten "Hello".
 ```powerquery
 Text.StartsWith("Hello, World", "Hello")
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+### Example #3
+Om du ignorerar skiftläge kontrollerar du om texten "Hello, World" börjar med texten "hello".
+```powerquery
+Text.StartsWith("Hello, World", "hello", Comparer.OrdinalIgnoreCase)
 ```
 
 Result: 

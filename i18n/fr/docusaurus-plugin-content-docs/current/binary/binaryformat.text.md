@@ -20,12 +20,12 @@ BinaryFormat.Text(
 
 ## Remarks
 
-Retourne un format binaire qui lit une valeur de texte.  <code>length</code> spécifie le nombre d'octets à décoder, ou le format binaire de longueur qui précède le texte.  La valeur facultative <code>encoding</code> spécifie le codage du texte.  Si le <code>encoding</code> n'est pas spécifié, alors le codage est déterminé par les marques d'ordre d'octet Unicode.  Si aucune marque d'ordre d'octet n'est présente, alors <code>TextEncoding.Utf8</code> est utilisé.
+Retourne un format binaire qui lit une valeur de texte. `length` spécifie le nombre d'octets à décoder, ou le format binaire de longueur qui précède le texte. La valeur facultative `encoding` spécifie le codage du texte. Si le `encoding` n'est pas spécifié, alors le codage est déterminé par les marques d'ordre d'octet Unicode. Si aucune marque d'ordre d'octet n'est présente, alors `TextEncoding.Utf8` est utilisé.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Décode deux octets comme texte ASCII.
 ```powerquery
 let
@@ -41,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Décodez le texte ASCII lorsque la longueur du texte en octets apparaît avant le texte comme un octet.
 ```powerquery
 let

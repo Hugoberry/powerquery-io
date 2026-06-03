@@ -20,13 +20,20 @@ Date.FromText(
 
 ## Remarks
 
-Bir metin gösteriminden <code>text</code> <code>date</code> değeri oluşturur. Ek özellikleri belirtmek için isteğe bağlı bir <code>record</code> parametresi <code>options</code> sağlanabilir. <code>Record</code> şu alanları içerebilir:<ul>   <li><code>Format</code>: Kullanılacak biçimi gösteren <code>text</code> değeri. Diğer ayrıntılar için https://go.microsoft.com/fwlink/?linkid=2180104 ve https://go.microsoft.com/fwlink/?linkid=2180105 adreslerine gidin. Bu alanın atlanması veya <code>null</code> sağlanması, tarihin mümkün olan en uygun şekilde ayrıştırılmasıyla sonuçlanır.</li>   <li><code>Culture</code>:<code>Format</code> null olmadığında <code>Culture</code> bazı biçim tanımlayıcılarını denetler. Örneğin, <code>"en-US"</code> için <code>"MMM"</code> <code>"Jan", "Feb", "Mar", ...</code> iken <code>"ru-RU"</code> için <code>"MMM"</code> <code>"янв", "фев", "мар", ...</code> olur. <code>Format</code> <code>null</code> olduğunda kullanılacak varsayılan biçimi <code>Culture</code> denetler. <code>Culture</code> <code>null</code> olduğunda veya atlandığında <code>Culture.Current</code> kullanılır.</li></ul>Eski iş akışlarını desteklemek için <code>options</code> metin değeri de olabilir. Bunun davranışı <code>options</code><code> = [Format = null, Culture = <code>options</code>]</code> ile aynıdır.
+Metinsel gösterimden bir tarih değeri oluşturur.
+
+-   `text`:Tarihe çevrilecek bir metin değeri.
+-   `options`:Ek özellikler belirtmek için sağlanabilecek, isteğe bağlı bir `record`. `record` şu alanları içerebilir:
+    -   `Format`: Kullanılacak biçimi gösteren bir `text` değeri. Daha fazla bilgi için bkz. https://go.microsoft.com/fwlink/?linkid=2180104 ve https://go.microsoft.com/fwlink/?linkid=2180105. Bu alanın atlanması veya `null` olarak doldurulması tahmin yoluyla tarihin ayrıştırılmasına neden olur.
+    -   `Culture`: `Format` null olmadığında bazı biçim tanımlayıcılarını `Culture` kontrol eder. Örneğin `"en-US"` içinde `"MMM"` `"Jan", "Feb", "Mar", ...` değerlerini verirken `"ru-RU"` içinde `"MMM"`, `"янв", "фев", "мар", ...` değerlerini verir. `Format` `null` olduğunda kullanılacak varsayılan biçimi `Culture` kontrol eder. `Culture` `null` olduğunda veya atlandığında `Culture.Current` kullanılır.
+
+Eski iş akışlarını desteklemek için `options` bir metin değeri de olabilir. Bunun davranışı `options = [Format = null, Culture = options]` ile aynıdır.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;&#34;2010-12-31&#34;&lt;/code&gt; değerini bir &lt;code&gt;date&lt;/code&gt; değerine dönüştürün.
+### Example #1
+`"2010-12-31"` değerini bir `date` değerine dönüştürün.
 ```powerquery
 Date.FromText("2010-12-31")
 ```
@@ -37,7 +44,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Özel bir biçim ve Alman kültürü kullanarak dönüştürün.
 ```powerquery
 Date.FromText("30 Dez 2010", [Format="dd MMM yyyy", Culture="de-DE"])
@@ -49,7 +56,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Gregoryen takvimde, Hicri takvimde 1400 başlangıcına karşılık gelen tarihi bulun.
 ```powerquery
 Date.FromText("1400", [Format="yyyy", Culture="ar-SA"])
@@ -58,6 +65,41 @@ Date.FromText("1400", [Format="yyyy", Culture="ar-SA"])
 Result: 
 ```powerquery
 #date(1979, 11, 20)
+```
+
+
+### Example #4
+Gönderme Tarihi sütununda ay adları kısaltılarak İtalyanca metin olarak yazılan tarihlerini tarih değerlerine çevir.
+```powerquery
+let
+    Source = #table(type table [Account Code = text, Posted Date = text, Sales = number],
+    {
+        {"US-2004", "20 gen. 2023", 580},
+        {"CA-8843", "18 lug. 2024", 280},
+        {"PA-1274", "12 gen. 2023", 90},
+        {"PA-4323", "14 apr. 2023", 187},
+        {"US-1200", "14 dic. 2023", 350},
+        {"PTY-507", "4 giu. 2024", 110}
+    }),
+    #"Converted Date" = Table.TransformColumns(
+        Source,
+        {"Posted Date", each Date.FromText(_, [Culture = "it-IT"]), type date}
+    )
+in
+    #"Converted Date"
+```
+
+Result: 
+```powerquery
+#table(type table [Account Code = text, Posted Date = date, Sales = number],
+{
+    {"US-2004", #date(2023, 1, 20), 580},
+    {"CA-8843", #date(2024, 7, 18), 280},
+    {"PA-1274", #date(2023, 1, 12), 90},
+    {"PA-4323", #date(2023, 4, 14), 187},
+    {"US-1200", #date(2023, 12, 14), 350},
+    {"PTY-507", #date(2024, 6, 4), 110}
+})
 ```
 
 

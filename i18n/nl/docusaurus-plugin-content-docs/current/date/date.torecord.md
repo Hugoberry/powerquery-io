@@ -19,13 +19,15 @@ Date.ToRecord(
 
 ## Remarks
 
-Hiermee wordt een record geretourneerd met de onderdelen van de opgegeven date-waarde, <code>date</code>. <ul> <li><code>date</code>: een <code>date</code>-waarde op basis waarvan de record of de onderdelen daarvan moeten worden berekend.</li> </ul>
+Hiermee wordt een record geretourneerd met de onderdelen van de opgegeven date-waarde, `date`.
+
+-   `date`: een `date`\-waarde op basis waarvan de record of de onderdelen daarvan moeten worden berekend.
 
 
 ## Examples
 
-### Example #1 
-De waarde voor de &lt;code&gt;#date(2011, 12, 31)&lt;/code&gt; omzetten naar een record die gedeelten van de datumwaarde bevat.
+### Example #1
+De waarde voor de `#date(2011, 12, 31)` omzetten naar een record die gedeelten van de datumwaarde bevat.
 ```powerquery
 Date.ToRecord(#date(2011, 12, 31))
 ```

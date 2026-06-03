@@ -19,13 +19,13 @@ Text.ToList(
 
 ## Remarks
 
-Retourneert een lijst met tekenwaarden uit de opgegeven tekstwaarde <code>text</code>.
+Retourneert een lijst met tekenwaarden uit de opgegeven tekstwaarde `text`.
 
 
 ## Examples
 
-### Example #1 
-Een lijst met tekenwaarden van de tekst &#34;Hallo Wereld&#34; maken.
+### Example #1
+Een lijst met tekenwaarden van de tekst "Hallo Wereld" maken.
 ```powerquery
 Text.ToList("Hello World")
 ```

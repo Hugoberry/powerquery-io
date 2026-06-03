@@ -27,7 +27,7 @@ Combines the specified columns into a new column using the specified combiner fu
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combine the last and first names into a new column, separated by a comma.
 ```powerquery
 Table.CombineColumns(

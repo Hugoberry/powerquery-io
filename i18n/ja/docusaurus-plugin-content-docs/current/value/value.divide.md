@@ -21,7 +21,7 @@ Value.Divide(
 
 ## Remarks
 
-<code>value1</code> を <code>value2</code> で除算した結果を返します。省略可能な <code>precision</code> パラメーターを指定できます。既定では <code>Precision.Double</code> が使用されます。
+`value1` を `value2` で除算した結果を返します。省略可能な `precision` パラメーターを指定できます。既定では `Precision.Double` が使用されます。
 
 
 

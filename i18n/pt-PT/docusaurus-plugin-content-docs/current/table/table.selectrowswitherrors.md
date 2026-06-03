@@ -25,7 +25,7 @@ Devolve uma tabela apenas com as linhas da tabela de entrada que contenham um er
 
 ## Examples
 
-### Example #1 
+### Example #1
 Selecionar nomes de clientes com erros nas linhas correspondentes.
 ```powerquery
 Table.SelectRowsWithErrors(

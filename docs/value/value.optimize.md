@@ -19,7 +19,7 @@ Value.Optimize(
 
 ## Remarks
 
-When used within Value.Expression, if <code>value</code> represents a query that can be optimized, this function indicates that the optimized expression should be returned. Otherwise, <code>value</code> will be passed through with no effect.
+When used within Value.Expression, if `value` represents a query that can be optimized, this function indicates that the optimized expression should be returned. Otherwise, `value` will be passed through with no effect.
 
 
 

@@ -21,12 +21,12 @@ Record.FieldOrDefault(
 
 ## Remarks
 
-Returnerar värdet för det angivna fältet <code>field</code> i posten <code>record</code>. Om fältet inte hittas returneras den valfria <code>defaultValue</code>.
+Returnerar värdet för det angivna fältet `field` i posten `record`. Om fältet inte hittas returneras den valfria `defaultValue`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta värdet för fältet Phone i posten, eller returnera null om det inte finns.
 ```powerquery
 Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone")
@@ -38,7 +38,7 @@ null
 ```
 
 
-### Example #2 
+### Example #2
 Hitta värdet för fältet Phone i posten, eller returnera standardvärdet om det inte finns.
 ```powerquery
 Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone", "123-4567")

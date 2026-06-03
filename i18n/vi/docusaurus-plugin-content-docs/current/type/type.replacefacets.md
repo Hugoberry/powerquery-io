@@ -20,7 +20,7 @@ Type.ReplaceFacets(
 
 ## Remarks
 
-Thay thế các khía cạnh của <code>type</code> bằng các khía cạnh chứa trong bản ghi <code>facets</code>.
+Thay thế các khía cạnh của `type` bằng các khía cạnh chứa trong bản ghi `facets`.
 
 
 

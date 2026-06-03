@@ -22,6 +22,6 @@ DocumentDB.Contents(
 
 ## Remarks
 
-Hiermee wordt een tabel met Azure Cosmos DB-databases op <code>url</code> geretourneerd. Als <code>database</code> is opgegeven, wordt een tabel met verzamelingen geretourneerd. Tevens geldt dat als het veld <code>Query</code> is opgegeven in de record <code>options</code>, de resultaten worden geretourneerd van de query die wordt uitgevoerd op de opgegeven database en/of verzameling.
+Hiermee wordt een tabel met Azure Cosmos DB-databases op `url` geretourneerd. Als `database` is opgegeven, wordt een tabel met verzamelingen geretourneerd. Tevens geldt dat als het veld `Query` is opgegeven in de record `options`, de resultaten worden geretourneerd van de query die wordt uitgevoerd op de opgegeven database en/of verzameling.
 
 

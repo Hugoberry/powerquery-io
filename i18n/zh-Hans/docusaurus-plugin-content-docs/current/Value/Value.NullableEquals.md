@@ -21,7 +21,7 @@ Value.NullableEquals(
 
 ## Remarks
 
-如果任一参数“<code>value1</code>”或“<code>value2</code>”为 Null，则返回 Null，否则等同于 Value.Equals。
+如果参数 `value1` 或 `value2` 为 null，则返回 null，否则等效于 Value.Equals。
 
 
 

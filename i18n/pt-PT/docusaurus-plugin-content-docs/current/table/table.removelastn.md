@@ -20,12 +20,16 @@ Table.RemoveLastN(
 
 ## Remarks
 
-Devolve uma tabela que não contém as últimas <code>countOrCondition</code> linhas da tabela <code>table</code>.        O número de linhas removidas depende do parâmetro opcional <code>countOrCondition</code>.    <ul>    <li> Se <code>countOrCondition</code> for omitido, só é removida a última linha. </li>    <li> Se <code>countOrCondition</code> for um número, será removido esse número de linhas (a partir do fim). </li>    <li> Se <code>countOrCondition</code> for uma condição, serão removidas as linhas que satisfaçam a condição até que uma linha não satisfaça a condição.</li>    </ul>
+Devolve uma tabela que não contém as últimas `countOrCondition` linhas da tabela `table`. O número de linhas removidas depende do parâmetro opcional `countOrCondition`.
+
+-   Se `countOrCondition` for omitido, só é removida a última linha.
+-   Se `countOrCondition` for um número, será removido esse número de linhas (a partir do fim).
+-   Se `countOrCondition` for uma condição, serão removidas as linhas que satisfaçam a condição até que uma linha não satisfaça a condição.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Remover a última linha da tabela.
 ```powerquery
 Table.RemoveLastN(
@@ -49,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Remover as últimas linhas em que [CustomerID] &gt; 2 da tabela.
+### Example #2
+Remover as últimas linhas em que \[CustomerID\] > 2 da tabela.
 ```powerquery
 Table.RemoveLastN(
     Table.FromRecords({

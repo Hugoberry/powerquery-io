@@ -20,13 +20,13 @@ Table.Sort(
 
 ## Remarks
 
-<code>table</code> öğesini bir veya daha fazla sütun adı ve \{ \{ col1, comparisonCriteria }, \{col2} } biçiminde isteğe bağlı bir <code>comparisonCriteria</code> kullanarak sıralar.
+`table` öğesini bir veya daha fazla sütun adı ve \{ \{ col1, comparisonCriteria \}, \{col2\} \} biçiminde isteğe bağlı bir `comparisonCriteria` kullanarak sıralar.
 
 
 ## Examples
 
-### Example #1 
-Tabloyu &#34;OrderID&#34; sütununda sıralar.
+### Example #1
+Tabloyu "OrderID" sütununda sıralar.
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -60,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Tabloyu &#34;OrderID&#34; sütununda azalan sırada sıralar.
+### Example #2
+Tabloyu "OrderID" sütununda azalan sırada sıralar.
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -95,8 +95,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Tabloyu, &#34;CustomerID&#34; azalan sırada olacak şekilde önce &#34;CustomerID&#34; sütununda, ardından &#34;OrderID&#34; sütununda sıralar.
+### Example #3
+Tabloyu, "CustomerID" azalan sırada olacak şekilde önce "CustomerID" sütununda, ardından "OrderID" sütununda sıralar.
 ```powerquery
 Table.Sort(
     Table.FromRecords({

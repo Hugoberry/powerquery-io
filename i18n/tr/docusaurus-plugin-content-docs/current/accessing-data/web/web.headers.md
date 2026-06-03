@@ -5,7 +5,7 @@ title: Web.Headers
 # Web.Headers
 
 
-URL&#39;den indirilen HTTP üst bilgilerini kayıt değeri olarak döndürür.
+URL'den indirilen HTTP üst bilgilerini kayıt değeri olarak döndürür.
 
 
 ## Syntax
@@ -20,13 +20,24 @@ Web.Headers(
 
 ## Remarks
 
-<code>url</code> kaynağından indirilen üst bilgileri kayıt olarak döndürür. Ek özellikler belirtmek için isteğe bağlı bir kayıt parametresi (<code>options</code>) sağlanabilir. Kayıt şu alanları içerebilir:    <ul><li><code>Query</code> : Sorgu parametrelerini, ka&#231;ış uygulama hakkında endişe etmenize gerek kalmadan programlama yoluyla URL&#39;ye ekleyin.</li><li><code>ApiKeyName</code> : Hedef sitede bir API anahtarı g&#246;sterimi varsa, bu parametre URL&#39;de kullanılması gereken anahtar parametresinin adını (değerini değil) belirtmek i&#231;in kullanılabilir. Ger&#231;ek anahtar değeri kimlik bilgilerinde sağlanır.</li><li><code>Headers</code> : Bu değerin kayıt olarak belirtilmesi, HTTP isteğine ek &#252;st bilgiler sağlar.</li><li><code>Timeout</code> : Bu değerin s&#252;re olarak belirtilmesi, HTTP isteğinin zaman aşımı s&#252;resini değiştirir. Varsayılan değer 100 saniyedir.</li><li><code>ExcludedFromCacheKey</code> : Bu değerin liste olarak belirtilmesi, bu HTTP &#252;st bilgi anahtarlarını, verileri &#246;nbelleğe alma işleminin kapsamı dışında tutar.</li><li><code>IsRetry</code> : Bu mantıksal değerin true olarak belirtilmesi, veriler getirilirken &#246;nbellekteki t&#252;m mevcut yanıtları yoksayar.</li><li><code>ManualStatusHandling</code> : Bu değerin liste olarak belirtilmesi, bu durum kodlarından birine sahip yanıtı olan HTTP istekleri i&#231;in t&#252;m yerleşik işlemeyi engeller.</li><li><code>RelativePath</code> : Bu değerin metin olarak belirtilmesi, isteği yapmadan &#246;nce değeri temel URL&#39;ye ekler.</li></ul>    HTTP isteği HEAD yöntemiyle yapılır. Özel veri bağlayıcısı bağlamı dışında yalnızca yanıt üst bilgileri alt kümesi kullanılabilir (güvenlik nedeniyle).    
+`url` kaynağından indirilen üst bilgileri kayıt olarak döndürür. Ek özellikler belirtmek için isteğe bağlı bir kayıt parametresi (`options`) sağlanabilir. Kayıt şu alanları içerebilir:
+
+-   `Query` : Sorgu parametrelerini, kaçış uygulama hakkında endişe etmenize gerek kalmadan programlama yoluyla URL'ye ekleyin.
+-   `ApiKeyName` : Hedef sitede bir API anahtarı gösterimi varsa, bu parametre URL'de kullanılması gereken anahtar parametresinin adını (değerini değil) belirtmek için kullanılabilir. Gerçek anahtar değeri kimlik bilgilerinde sağlanır.
+-   `Headers` : Bu değerin kayıt olarak belirtilmesi, HTTP isteğine ek üst bilgiler sağlar.
+-   `Timeout` : Bu değerin süre olarak belirtilmesi, HTTP isteğinin zaman aşımı süresini değiştirir. Varsayılan değer 100 saniyedir.
+-   `ExcludedFromCacheKey` : Bu değerin liste olarak belirtilmesi, bu HTTP üst bilgi anahtarlarını, verileri önbelleğe alma işleminin kapsamı dışında tutar.
+-   `IsRetry` : Bu mantıksal değerin true olarak belirtilmesi, veriler getirilirken önbellekteki tüm mevcut yanıtları yoksayar.
+-   `ManualStatusHandling` : Bu değerin liste olarak belirtilmesi, bu durum kodlarından birine sahip yanıtı olan HTTP istekleri için tüm yerleşik işlemeyi engeller.
+-   `RelativePath` : Bu değerin metin olarak belirtilmesi, isteği yapmadan önce değeri temel URL'ye ekler.
+
+HTTP isteği HEAD yöntemiyle yapılır. Özel veri bağlayıcısı bağlamı dışında yalnızca yanıt üst bilgileri alt kümesi kullanılabilir (güvenlik nedeniyle).
 
 
 ## Examples
 
-### Example #1 
-RelativePath ve Query seçeneklerini kullanarak &lt;code&gt;&#34;https://bing.com/search?q=Power+Query&#34;&lt;/code&gt; için HTTP üst bilgilerini alın.
+### Example #1
+RelativePath ve Query seçeneklerini kullanarak `"https://bing.com/search?q=Power+Query"` için HTTP üst bilgilerini alın.
 ```powerquery
 let
     searchText = "Power Query"

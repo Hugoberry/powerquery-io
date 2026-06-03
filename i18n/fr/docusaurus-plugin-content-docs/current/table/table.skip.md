@@ -5,7 +5,7 @@ title: Table.Skip
 # Table.Skip
 
 
-Retourne une table en ignorant les premières lignes, en fonction d&#39;un nombre.
+Retourne une table en ignorant les premières lignes, en fonction d'un nombre.
 
 
 ## Syntax
@@ -20,12 +20,16 @@ Table.Skip(
 
 ## Remarks
 
-Retourne une table qui ne contient pas le nombre spécifié de premières lignes, <code>countOrCondition</code>, de la table <code>table</code>.    Le nombre de lignes ignorées dépend du paramètre facultatif <code>countOrCondition</code>.    <ul>    <li> Si <code>countOrCondition</code> est omis, seule la première ligne est ignorée. </li>    <li> Si <code>countOrCondition</code> est un nombre, autant de lignes (démarrant par le haut) sont ignorées. </li>    <li> Si <code>countOrCondition</code> est une condition, les lignes qui satisfont la condition sont ignorées jusqu'au moment où une ligne ne remplit pas la condition.</li>    </ul>
+Retourne une table qui ne contient pas le nombre spécifié de premières lignes, `countOrCondition`, de la table `table`. Le nombre de lignes ignorées dépend du paramètre facultatif `countOrCondition`.
+
+-   Si `countOrCondition` est omis, seule la première ligne est ignorée.
+-   Si `countOrCondition` est un nombre, autant de lignes (démarrant par le haut) sont ignorées.
+-   Si `countOrCondition` est une condition, les lignes qui satisfont la condition sont ignorées jusqu'au moment où une ligne ne remplit pas la condition.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ignore la première ligne de la table.
 ```powerquery
 Table.Skip(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Ignore les deux premières lignes de la table.
 ```powerquery
 Table.Skip(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Ignore les premières lignes de la table où [Price ] &gt; 25.
+### Example #3
+Ignore les premières lignes de la table où \[Price \] > 25.
 ```powerquery
 Table.Skip(
     Table.FromRecords({

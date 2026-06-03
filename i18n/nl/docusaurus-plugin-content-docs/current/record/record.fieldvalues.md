@@ -19,12 +19,12 @@ Record.FieldValues(
 
 ## Remarks
 
-Retourneert een lijst met de veldwaarden in record <code>record</code>.
+Retourneert een lijst met de veldwaarden in record `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De veldwaarden in de record zoeken.
 ```powerquery
 Record.FieldValues([CustomerID = 1, Name = "Bob", Phone = "123-4567"])

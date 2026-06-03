@@ -19,13 +19,13 @@ Type.NonNullable(
 
 ## Remarks
 
-Returnerer typen, der ikke kan være <code>nullable</code>, fra <code>type</code>.
+Returnerer typen, der ikke kan være `nullable`, fra `type`.
 
 
 ## Examples
 
-### Example #1 
-Returner typen, der ikke kan være null, for &lt;code&gt;type nullable number&lt;/code&gt;.
+### Example #1
+Returner typen, der ikke kan være null, for `type nullable number`.
 ```powerquery
 Type.NonNullable(type nullable number)
 ```

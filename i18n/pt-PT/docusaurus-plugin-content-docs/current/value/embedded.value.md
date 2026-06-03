@@ -5,7 +5,7 @@ title: Embedded.Value
 # Embedded.Value
 
 
-Acede a um valor por nome numa aplicação híbrida incorporada.
+Esta função destina-se apenas a utilização interna.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Embedded.Value(
 
 ## Remarks
 
-Acede a um valor por nome numa aplicação híbrida incorporada.
+Esta função destina-se apenas a utilização interna.
 
 
 

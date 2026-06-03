@@ -20,12 +20,12 @@ Date.StartOfWeek(
 
 ## Remarks
 
-傳回包含 <code>dateTime</code> 的週度開始時間。    <code>dateTime</code> 必須是 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值。
+傳回包含 `dateTime` 的週度開始時間。 `dateTime` 必須是 `date`、`datetime` 或 `datetimezone` 值。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 尋找 2011 年 10 月 11 日星期二當週的開頭。
 ```powerquery
 Date.StartOfWeek(#datetime(2011, 10, 11, 8, 10, 32))
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 尋找 2011 年 10 月 11 日星期二當週的開頭，使用星期一做為當週的開頭。
 ```powerquery
 Date.StartOfWeek(#datetime(2011, 10, 11, 8, 10, 32), Day.Monday)

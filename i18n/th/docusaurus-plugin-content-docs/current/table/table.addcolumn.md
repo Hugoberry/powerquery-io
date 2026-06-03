@@ -22,13 +22,13 @@ Table.AddColumn(
 
 ## Remarks
 
-เพิ่มคอลัมน์ที่ชื่อ <code>newColumnName</code> ลงในตาราง <code>table</code> ค่าสำหรับคอลัมน์จะคำนวณโดยใช้ฟังก์ชันการเลือกที่ระบุ <code>columnGenerator</code> ซึ่งใช้แต่ละแถวเป็นค่าที่ป้อน
+เพิ่มคอลัมน์ที่ชื่อ `newColumnName` ลงในตาราง `table` ค่าสำหรับคอลัมน์จะคำนวณโดยใช้ฟังก์ชันการเลือกที่ระบุ `columnGenerator` ซึ่งใช้แต่ละแถวเป็นค่าที่ป้อน
 
 
 ## Examples
 
-### Example #1 
-เพิ่มคอลัมน์ตัวเลขที่ชื่อ &#34;TotalPrice&#34; เข้าในตาราง โดยมีแต่ละค่าเป็นผลรวมของคอลัมน์ [Price] และ [Shipping]
+### Example #1
+เพิ่มคอลัมน์ตัวเลขที่ชื่อ "TotalPrice" เข้าในตาราง โดยมีแต่ละค่าเป็นผลรวมของคอลัมน์ \[Price\] และ \[Shipping\]
 ```powerquery
 Table.AddColumn(
     Table.FromRecords({

@@ -5,7 +5,7 @@ title: Function.Invoke
 # Function.Invoke
 
 
-दिया गया फ़ंक्शन इनवोक करें
+दिए गए फ़ंक्शन को इनवोक करता है.
 
 
 ## Syntax
@@ -25,8 +25,8 @@ Function.Invoke(
 
 ## Examples
 
-### Example #1 
-Record.FieldNames को एक तर्क [A=1,B=2] से इनवोक करता है
+### Example #1
+Record.FieldNames को एक तर्क \[A=1,B=2\] से इनवोक करता है.
 ```powerquery
 Function.Invoke(Record.FieldNames, {[A = 1, B = 2]})
 ```

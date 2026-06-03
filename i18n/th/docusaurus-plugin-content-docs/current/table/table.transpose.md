@@ -25,7 +25,7 @@ Table.Transpose(
 
 ## Examples
 
-### Example #1 
+### Example #1
 เปลี่ยนแถวตารางของคู่ชื่อ-ค่าให้เป็นคอลัมน์
 ```powerquery
 Table.Transpose(

@@ -19,12 +19,12 @@ Number.Sqrt(
 
 ## Remarks
 
-Returns the square root of <code>number</code>.    If <code>number</code> is null, <code>Number.Sqrt</code> returns null. If it is a negative value, <code>Number.NaN</code> is returned (Not a number).
+Returns the square root of `number`. If `number` is null, `Number.Sqrt` returns null. If it is a negative value, `Number.NaN` is returned (Not a number).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find the square root of 625.
 ```powerquery
 Number.Sqrt(625)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Find the square root of 85.
 ```powerquery
 Number.Sqrt(85)

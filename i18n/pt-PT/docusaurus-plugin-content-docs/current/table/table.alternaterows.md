@@ -22,12 +22,17 @@ Table.AlternateRows(
 
 ## Remarks
 
-Mantém o desvio inicial e, em seguida, alterna entre utilizar e ignorar as linhas seguintes.    <ul>       <li><code>table</code>: a tabela de entrada.</li>       <li><code>offset</code>: o número de linhas a manter entre as iterações de início.</li>       <li><code>skip</code>: o número de linhas a remover em cada iteração.</li>       <li><code>take</code>: o número de linhas a manter em cada iteração.</li>    </ul>    
+Mantém o desvio inicial e, em seguida, alterna entre utilizar e ignorar as linhas seguintes.
+
+-   `table`: a tabela de entrada.
+-   `offset`: o número de linhas a manter entre as iterações de início.
+-   `skip`: o número de linhas a remover em cada iteração.
+-   `take`: o número de linhas a manter em cada iteração.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devolver uma tabela a partir da tabela que, a partir da primeira linha, salta 1 valor e, em seguida, mantém 1 valor.
 ```powerquery
 Table.AlternateRows(

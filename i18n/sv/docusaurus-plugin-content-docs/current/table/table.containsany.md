@@ -21,13 +21,13 @@ Table.ContainsAny(
 
 ## Remarks
 
-Anger om någon av de angivna posterna i listan med poster, <code>rows</code>, visas som rader i <code>table</code>.    En valfri parameter, <code>equationCriteria</code>, kan anges för att hantera jämförelsen mellan raderna i tabellen.
+Anger om någon av de angivna posterna i listan med poster, `rows`, visas som rader i `table`. En valfri parameter, `equationCriteria`, kan anges för att hantera jämförelsen mellan raderna i tabellen.
 
 
 ## Examples
 
-### Example #1 
-Kontrollera om tabellen &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; innehåller raderna &lt;code&gt;[a = 1, b = 2]&lt;/code&gt; eller &lt;code&gt;[a = 3, b = 5]&lt;/code&gt;.
+### Example #1
+Kontrollera om tabellen `({[a = 1, b = 2], [a = 3, b = 4]})` innehåller raderna `[a = 1, b = 2]` eller `[a = 3, b = 5]`.
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({
@@ -47,8 +47,8 @@ true
 ```
 
 
-### Example #2 
-Kontrollera om tabellen &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; innehåller raderna &lt;code&gt;[a = 1, b = 3]&lt;/code&gt; eller &lt;code&gt;[a = 3, b = 5]&lt;/code&gt;.
+### Example #2
+Kontrollera om tabellen `({[a = 1, b = 2], [a = 3, b = 4]})` innehåller raderna `[a = 1, b = 3]` eller `[a = 3, b = 5]`.
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({
@@ -68,8 +68,8 @@ false
 ```
 
 
-### Example #3 
-Kontrollera om tabellen &lt;code&gt;(Table.FromRecords(\{[a = 1, b = 2], [a = 3, b = 4]}))&lt;/code&gt; innehåller raderna &lt;code&gt;[a = 1, b = 3]&lt;/code&gt; eller &lt;code&gt;[a = 3, b = 5]&lt;/code&gt; genom att bara jämföra kolumnen [a].
+### Example #3
+Kontrollera om tabellen `(Table.FromRecords({[a = 1, b = 2], [a = 3, b = 4]}))` innehåller raderna `[a = 1, b = 3]` eller `[a = 3, b = 5]` genom att bara jämföra kolumnen \[a\].
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({

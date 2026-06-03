@@ -21,13 +21,23 @@ Text.Contains(
 
 ## Remarks
 
-Detecteert of <code>text</code> de waarde <code>substring</code> bevat. Retourneert true als de waarde wordt gevonden. Deze functie biedt geen ondersteuning voor jokertekens of reguliere expressies.      <br />      <br />      Het optionele argument <code>comparer</code> kan worden gebruikt om niet-hoofdlettergevoelige vergelijkingen of cultuur- en landspecifieke vergelijkingen op te geven.      De volgende ingebouwde vergelijkingsfuncties zijn beschikbaar in de formuletaal:      <ul>        <li><code>Comparer.Ordinal</code>: wordt gebruikt om een hoofdlettergevoelige ordinale vergelijking uit te voeren</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: wordt gebruikt om een niet-hoofdlettergevoelige ordinale vergelijking uit te voeren</li>        <li> <code>Comparer.FromCulture-</code>: wordt gebruikt om een cultuurbewuste vergelijking uit te voeren</li>      </ul>
+Detecteert of `text` de waarde `substring` bevat. Retourneert waar als de waarde wordt gevonden. Deze functie biedt geen ondersteuning voor jokertekens of reguliere expressies.  
+  
+Het optionele argument `comparer` kan worden gebruikt om hoofdlettergevoelige of cultuur- en landinstellingsbewuste vergelijkingen op te geven. De volgende ingebouwde vergelijkingen zijn beschikbaar in de formuletaal:
+
+-   `Comparer.Ordinal`: wordt gebruikt om een hoofdlettergevoelige rangtelwoordvergelijking uit te voeren
+-   `Comparer.OrdinalIgnoreCase`: wordt gebruikt om een niet hoofdlettergevoelige rangtelwoordvergelijking uit te voeren
+-   `Comparer.FromCulture`: wordt gebruikt om een cultuurbewuste vergelijking uit te voeren
+
+Als het eerste argument null is, retourneert deze functie null.  
+  
+Alle tekens worden letterlijk behandeld. 'DR', ' DR', 'DR ' en ' DR ' worden bijvoorbeeld niet als gelijk aan elkaar beschouwd.
 
 
 ## Examples
 
-### Example #1 
-Uitzoeken of de tekst &#34;Hallo wereld&#34; het woord &#34;Hallo&#34; bevat.
+### Example #1
+Uitzoeken of de tekst "Hallo wereld" het woord "Hallo" bevat.
 ```powerquery
 Text.Contains("Hello World", "Hello")
 ```
@@ -38,8 +48,8 @@ true
 ```
 
 
-### Example #2 
-Uitzoeken of de tekst &#34;Hallo wereld&#34; het woord &#34;hallo&#34; bevat.
+### Example #2
+Uitzoeken of de tekst "Hallo wereld" het woord "hallo" bevat.
 ```powerquery
 Text.Contains("Hello World", "hello")
 ```
@@ -50,8 +60,8 @@ false
 ```
 
 
-### Example #3 
-Zoeken of de tekst &#34;Hallo wereld&#34; &#39;hallo&#39; bevat, met behulp van een niet-hoofdlettergevoelige vergelijkingsfunctie.
+### Example #3
+Zoeken of de tekst "Hallo wereld" 'hallo' bevat, met behulp van een niet-hoofdlettergevoelige vergelijkingsfunctie.
 ```powerquery
 Text.Contains("Hello World", "hello", Comparer.OrdinalIgnoreCase)
 ```
@@ -59,6 +69,41 @@ Text.Contains("Hello World", "hello", Comparer.OrdinalIgnoreCase)
 Result: 
 ```powerquery
 true
+```
+
+
+### Example #4
+Zoek de rijen in een tabel die of 'A-' of '7' in de accountcode bevatten.
+```powerquery
+let
+    Source = #table(type table [Account Code = text, Posted Date = date, Sales = number],
+    {
+        {"US-2004", #date(2023,1,20), 580},
+        {"CA-8843", #date(2023,7,18), 280},
+        {"PA-1274", #date(2022,1,12), 90},
+        {"PA-4323", #date(2023,4,14), 187},
+        {"US-1200", #date(2022,12,14), 350},
+        {"PTY-507", #date(2023,6,4), 110}
+    }),
+    #"Filtered rows" = Table.SelectRows(
+        Source,
+        each Text.Contains([Account Code], "A-") or
+            Text.Contains([Account Code], "7"))
+in
+    #"Filtered rows"
+    
+```
+
+Result: 
+```powerquery
+#table(type table [Account Code = text, Posted Date = date, Sales = number],
+{
+    {"CA-8843", #date(2023,7,18), 280},
+    {"PA-1274", #date(2022,1,12), 90},
+    {"PA-4323", #date(2023,4,14), 187},
+    {"PTY-507", #date(2023,6,4), 110}
+})
+    
 ```
 
 

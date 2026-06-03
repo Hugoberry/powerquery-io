@@ -25,8 +25,8 @@ Table.Transpose(
 
 ## Examples
 
-### Example #1 
-Превратить строки таблицы пар &#34;имя-значение&#34; в столбцы.
+### Example #1
+Превратить строки таблицы пар "имя-значение" в столбцы.
 ```powerquery
 Table.Transpose(
     Table.FromRecords({

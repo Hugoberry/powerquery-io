@@ -19,13 +19,15 @@ Date.ToRecord(
 
 ## Remarks
 
-Returnerar en post som innehåller delarna i det angivna datumvärdet <code>date</code>. <ul>        <li><code>date</code>: Ett <code>date</code>-värde som posten med värdets delar ska beräknas från.</li>      </ul>
+Returnerar en post som innehåller delarna i det angivna datumvärdet `date`.
+
+-   `date`: Ett `date`\-värde som posten med värdets delar ska beräknas från.
 
 
 ## Examples
 
-### Example #1 
-Konvertera &lt;code&gt;#date(2011, 12, 31)&lt;/code&gt;-värdet till en post som innehåller delar från datumvärdet.
+### Example #1
+Konvertera `#date(2011, 12, 31)`\-värdet till en post som innehåller delar från datumvärdet.
 ```powerquery
 Date.ToRecord(#date(2011, 12, 31))
 ```

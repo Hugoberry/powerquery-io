@@ -22,13 +22,13 @@ Table.DuplicateColumn(
 
 ## Remarks
 
-テーブル <code>table</code> に対して <code>columnName</code> という名前の列が重複しています。列 <code>newColumnName</code> の値と型が列 <code>columnName</code> からコピーされます。
+テーブル `columnName` に対して `table` という名前の列が重複しています。列 `newColumnName` の値と型が列 `columnName` からコピーされます。
 
 
 ## Examples
 
-### Example #1 
-テーブル &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; 内の &#34;copied column&#34; という名前の列に対して列 &#34;a&#34; が重複しています。
+### Example #1
+テーブル `({[a = 1, b = 2], [a = 3, b = 4]})` 内の "copied column" という名前の列に対して列 "a" が重複しています。
 ```powerquery
 Table.DuplicateColumn(
     Table.FromRecords({

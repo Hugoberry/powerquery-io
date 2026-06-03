@@ -19,13 +19,15 @@ Date.Day(
 
 ## Remarks
 
-Gibt die Tageskomponente eines <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Werts zurück.      <ul>        <li><code>dateTime</code>: Ein <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert, aus dem die Tageskomponente extrahiert wird.</li>      </ul>
+Gibt die Tageskomponente eines `date`\-, `datetime`\- oder `datetimezone`\-Werts zurück.
+
+-   `dateTime`: Ein `date`\-, `datetime`\- oder `datetimezone`\-Wert, aus dem die Tageskomponente extrahiert wird.
 
 
 ## Examples
 
-### Example #1 
-Ruft die Tageskomponente eines &lt;code&gt;date&lt;/code&gt;-, &lt;code&gt;datetime&lt;/code&gt;- oder &lt;code&gt;datetimezone&lt;/code&gt;-Werts für den 14.05.2011, 17:00:00 Uhr ab.
+### Example #1
+Ruft die Tageskomponente eines `date`\-, `datetime`\- oder `datetimezone`\-Werts für den 14.05.2011, 17:00:00 Uhr ab.
 ```powerquery
 Date.Day(#datetime(2011, 5, 14, 17, 0, 0))
 ```

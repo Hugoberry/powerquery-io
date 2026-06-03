@@ -25,7 +25,7 @@ Devuelve una función que combina una lista de valores de texto en un único val
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combina una lista de valores de texto con un delimitador de punto y coma.
 ```powerquery
 Combiner.CombineTextByDelimiter(";")({"a", "b", "c"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Combine el texto de dos columnas utilizando un delimitador de comas y comillas al estilo CSV.
 ```powerquery
 let

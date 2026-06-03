@@ -21,7 +21,7 @@ Value.Divide(
 
 ## Remarks
 
-Returnerer resultatet af at dividere <code>value1</code> med <code>value2</code>. Der kan angives en valgfri parameter, <code>precision</code>. <code>Precision.Double</code> bruges som standard.
+Returnerer resultatet af at dividere `value1` med `value2`. Der kan angives en valgfri parameter, `precision`. `Precision.Double` bruges som standard.
 
 
 

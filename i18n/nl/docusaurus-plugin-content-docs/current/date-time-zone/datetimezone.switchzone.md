@@ -21,12 +21,12 @@ DateTimeZone.SwitchZone(
 
 ## Remarks
 
-Wijzigt informatie over de tijdzone van de datum-/tijdzonewaarde <code>dateTimeZone</code> in de nieuwe informatie over de tijdzone die wordt opgegeven door <code>timezoneHours</code> en optioneel door <code>timezoneMinutes</code>.    Als <code>dateTimeZone</code> geen tijdzonegedeelte heeft, wordt er een uitzondering gegenereerd.
+Wijzigt informatie over de tijdzone van de datum-/tijdzonewaarde `dateTimeZone` in de nieuwe informatie over de tijdzone die wordt opgegeven door `timezoneHours` en optioneel door `timezoneMinutes`. Als `dateTimeZone` geen tijdzoneonderdeel bevat, treedt er een fout op.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Informatie over de tijdzone wijzigen voor #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) in 8 uur.
 ```powerquery
 DateTimeZone.SwitchZone(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30), 8)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Informatie over de tijdzone wijzigen voor #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) in -30 minuten
 ```powerquery
 DateTimeZone.SwitchZone(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30), 0, -30)

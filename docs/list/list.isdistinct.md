@@ -20,13 +20,13 @@ List.IsDistinct(
 
 ## Remarks
 
-Returns a logical value whether there are duplicates in the list <code>list</code>; <code>true</code> if the list is distinct, <code>false</code> if there are duplicate values. 
+Returns a logical value whether there are duplicates in the list `list`; `true` if the list is distinct, `false` if there are duplicate values.
 
 
 ## Examples
 
-### Example #1 
-Find if the list \{1, 2, 3} is distinct (i.e. no duplicates).
+### Example #1
+Find if the list \{1, 2, 3\} is distinct (i.e. no duplicates).
 ```powerquery
 List.IsDistinct({1, 2, 3})
 ```
@@ -37,8 +37,8 @@ true
 ```
 
 
-### Example #2 
-Find if the list \{1, 2, 3, 3} is distinct (i.e. no duplicates).
+### Example #2
+Find if the list \{1, 2, 3, 3\} is distinct (i.e. no duplicates).
 ```powerquery
 List.IsDistinct({1, 2, 3, 3})
 ```

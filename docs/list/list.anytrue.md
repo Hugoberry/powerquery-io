@@ -19,13 +19,13 @@ List.AnyTrue(
 
 ## Remarks
 
-Returns true if any expression in the list <code>list</code> is true.
+Returns true if any expression in the list `list` is true.
 
 
 ## Examples
 
-### Example #1 
-Determine if any of the expressions in the list \{true, false, 2 &gt; 0} are true.
+### Example #1
+Determine if any of the expressions in the list \{true, false, 2 > 0\} are true.
 ```powerquery
 List.AnyTrue({true, false, 2>0})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Determine if any of the expressions in the list \{2 = 0, false, 2 &lt; 0} are true.
+### Example #2
+Determine if any of the expressions in the list \{2 = 0, false, 2 &lt; 0\} are true.
 ```powerquery
 List.AnyTrue({2 = 0, false, 2 < 0})
 ```

@@ -27,8 +27,8 @@ Esta función puede utilizarse para recuperar datos de un punto de conexión de 
 
 ## Examples
 
-### Example #1 
-Recupera las métricas de entrega count_sent y count_rejected de los identificadores campaign_ids de los últimos tres días. 
+### Example #1
+Recupera las métricas de entrega count\_sent y count\_rejected de los identificadores campaign\_ids de los últimos tres días.
 ```powerquery
 Source = SparkPost.GetTable(3, "count_sent,count_rejected", "campaign_id", "metrics/deliverability/campaign")
 ```

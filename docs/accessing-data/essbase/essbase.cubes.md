@@ -20,7 +20,9 @@ Essbase.Cubes(
 
 ## Remarks
 
-Returns a table of cubes grouped by Essbase server from an Essbase instance at APS server <code>url</code>. An optional record parameter, <code>options</code>, may be specified to control the following options:    <ul><li><code>CommandTimeout</code> : A duration that controls how long the server-side query is allowed to run before it is canceled. The default value is ten minutes.</li></ul>
+Returns a table of cubes grouped by Essbase server from an Essbase instance at APS server `url`. An optional record parameter, `options`, may be specified to control the following options:
+
+-   `CommandTimeout` : A duration that controls how long the server-side query is allowed to run before it is canceled. The default value is ten minutes.
 
 
 

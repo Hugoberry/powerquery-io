@@ -25,7 +25,7 @@ Ersetzt die Schlüssel der angegebenen Tabelle.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ersetzen Sie die vorhandenen Schlüssel einer Tabelle.
 ```powerquery
 let

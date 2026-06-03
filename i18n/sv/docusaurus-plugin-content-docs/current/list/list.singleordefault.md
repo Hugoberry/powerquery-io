@@ -20,13 +20,13 @@ List.SingleOrDefault(
 
 ## Remarks
 
-Om det bara finns ett objekt i listan, returnerar <code>list</code> det objektet.    Om listan är tom returnerar funktionen null såvida inte en valfri <code>default</code> har angetts. Om det finns mer än ett objekt i listan returnerar funktionen ett fel.
+Om det bara finns ett objekt i listan, returnerar `list` det objektet. Om listan är tom returnerar funktionen null såvida inte en valfri `default` har angetts. Om det finns mer än ett objekt i listan returnerar funktionen ett fel.
 
 
 ## Examples
 
-### Example #1 
-Sök efter det enskilda värdet i listan \{1}.
+### Example #1
+Sök efter det enskilda värdet i listan \{1\}.
 ```powerquery
 List.SingleOrDefault({1})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Sök efter det enskilda värdet i listan \{}.
+### Example #2
+Sök efter det enskilda värdet i listan \{\}.
 ```powerquery
 List.SingleOrDefault({})
 ```
@@ -49,8 +49,8 @@ null
 ```
 
 
-### Example #3 
-Sök efter det enskilda värdet i listan \{}. Returnera -1 om listan är tom.
+### Example #3
+Sök efter det enskilda värdet i listan \{\}. Returnera -1 om listan är tom.
 ```powerquery
 List.SingleOrDefault({}, -1)
 ```

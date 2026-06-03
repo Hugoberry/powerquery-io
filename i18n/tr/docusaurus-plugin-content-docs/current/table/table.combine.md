@@ -20,12 +20,12 @@ Table.Combine(
 
 ## Remarks
 
-Tablo listesi <code>tables</code> ile birleştirmenin sonucu olan bir tablo döndürür. Sonuçta ortaya çıkan tablo, <code>columns</code> tarafından tanımlanan satır tipi yapıya ya da <code>columns</code> belirtilmemişse giriş türlerinin bir birleşmesine sahip olacaktır.
+Tablo listesi `tables` ile birleştirmenin sonucu olan bir tablo döndürür. Sonuçta ortaya çıkan tablo, `columns` tarafından tanımlanan satır tipi yapıya ya da `columns` belirtilmemişse giriş türlerinin bir birleşmesine sahip olacaktır.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Üç tabloyu birleştirir.
 ```powerquery
 Table.Combine({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Farklı yapılarla üç tabloyu birleştirin.
 ```powerquery
 Table.Combine({
@@ -65,7 +65,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 İki tabloyu ve projeyi verilen tür üzerinde birleştirin.
 ```powerquery
 Table.Combine(

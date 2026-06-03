@@ -25,7 +25,7 @@ Trả về một loại biểu thị bản ghi có ràng buộc loại cụ th�
 
 ## Examples
 
-### Example #1 
+### Example #1
 Linh hoạt tạo loại bảng.
 ```powerquery
 let

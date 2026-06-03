@@ -24,7 +24,7 @@ Returnerar en kapslad tabell med tillgängliga blad, rapporter, mappar och arbet
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnerar blad, mappar, rapporter och arbetsytor på toppnivå i Smartsheet-hierarkin
 ```powerquery
 Smartsheet.Tables()

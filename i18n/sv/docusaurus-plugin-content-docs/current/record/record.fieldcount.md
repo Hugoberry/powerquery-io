@@ -19,12 +19,12 @@ Record.FieldCount(
 
 ## Remarks
 
-Returnerar antalet fält i posten <code>record</code>.
+Returnerar antalet fält i posten `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta antalet fält i posten.
 ```powerquery
 Record.FieldCount([CustomerID = 1, Name = "Bob"])

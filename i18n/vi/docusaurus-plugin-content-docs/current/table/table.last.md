@@ -20,12 +20,12 @@ Table.Last(
 
 ## Remarks
 
-Trả về hàng cuối cùng của <code>table</code> hoặc giá trị mặc định tùy chọn <code>default</code> nếu bảng trống.
+Trả về hàng cuối cùng của `table` hoặc giá trị mặc định tùy chọn `default` nếu bảng trống.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm hàng cuối cùng của bảng.
 ```powerquery
 Table.Last(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-Tìm hàng cuối cùng của bảng &lt;code&gt;(\{})&lt;/code&gt; hoặc trả về [a = 0, b = 0] nếu trống.
+### Example #2
+Tìm hàng cuối cùng của bảng `({})` hoặc trả về \[a = 0, b = 0\] nếu trống.
 ```powerquery
 Table.Last(Table.FromRecords({}), [a = 0, b = 0])
 ```

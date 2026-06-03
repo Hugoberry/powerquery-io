@@ -21,13 +21,13 @@ Text.Replace(
 
 ## Remarks
 
-Devuelve el resultado de reemplazar las coincidencias del valor de texto <code>old</code> en el valor de texto <code>text</code> con el valor de texto <code>new</code>. Esta función distingue mayúsculas y minúsculas.
+Devuelve el resultado de reemplazar las coincidencias del valor de texto `old` en el valor de texto `text` con el valor de texto `new`. Esta función distingue mayúsculas y minúsculas.
 
 
 ## Examples
 
-### Example #1 
-Reemplazar cada coincidencia de &#34;el&#34; en una frase con &#34;a&#34;.
+### Example #1
+Reemplazar cada coincidencia de "el" en una frase con "a".
 ```powerquery
 Text.Replace("the quick brown fox jumps over the lazy dog", "the", "a")
 ```

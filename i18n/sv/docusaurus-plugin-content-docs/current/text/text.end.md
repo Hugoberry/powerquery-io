@@ -20,13 +20,13 @@ Text.End(
 
 ## Remarks
 
-Returnerar ett <code>text</code>-värde som är de sista <code>count</code> tecknen i <code>text</code>-värdet <code>text</code>.
+Returnerar ett `text`\-värde som är de sista `count` tecknen i `text`\-värdet `text`.
 
 
 ## Examples
 
-### Example #1 
-Hämta de sista 5 tecknen i texten &#34;Hello, World&#34;.
+### Example #1
+Hämta de sista 5 tecknen i texten "Hello, World".
 ```powerquery
 Text.End("Hello, World", 5)
 ```

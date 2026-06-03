@@ -21,12 +21,12 @@ Text.PositionOfAny(
 
 ## Remarks
 
-傳回清單 <code>characters</code> 中在 <code>text</code> 中找到的任何字元的第一個位置。    選擇性參數 <code>occurrence</code> 可用於指定要傳回的發生位置。
+傳回清單 `characters` 中在 `text` 中找到的任何字元的第一個位置。 選擇性參數 `occurrence` 可用於指定要傳回的發生位置。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 在文字「Hello, World!」中尋找「W」或「H」的第一個位置。
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"})
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 在文字「Hello World!」中尋找「W」或「H」的所有位置。
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"}, Occurrence.All)

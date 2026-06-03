@@ -27,7 +27,7 @@ Importuje dane z Twojego wystąpienia usługi Azure Data Explorer (Kusto)
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zwraca tabelę z informacjami o zdarzeniach StormEvents
 ```powerquery
 Kusto.Contents("help", "Samples", "StormEvents", [])

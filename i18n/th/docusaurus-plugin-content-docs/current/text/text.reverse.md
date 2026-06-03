@@ -19,13 +19,13 @@ Text.Reverse(
 
 ## Remarks
 
-ย้อนกลับ <code>text</code> ที่ระบุ
+ย้อนกลับ `text` ที่ระบุ
 
 
 ## Examples
 
-### Example #1 
-ย้อนกลับข้อความ &#34;123&#34;
+### Example #1
+ย้อนกลับข้อความ "123"
 ```powerquery
 Text.Reverse("123")
 ```

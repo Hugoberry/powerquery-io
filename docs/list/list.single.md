@@ -5,7 +5,7 @@ title: List.Single
 # List.Single
 
 
-Returns the one list item for a list of length one, otherwise throws an exception.
+Returns the one list item for a list of length one, otherwise raises an error.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.Single(
 
 ## Remarks
 
-If there is only one item in the list <code>list</code>, returns that item.    If there is more than one item or the list is empty, the function throws an exception.
+If there is only one item in the list `list`, returns that item. If there is more than one item or the list is empty, the function raises an error.
 
 
 ## Examples
 
-### Example #1 
-Find the single value in the list \{1}.
+### Example #1
+Find the single value in the list \{1\}.
 ```powerquery
 List.Single({1})
 ```
@@ -36,8 +36,8 @@ Result:
 ```
 
 
-### Example #2 
-Find the single value in the list \{1, 2, 3}.
+### Example #2
+Find the single value in the list \{1, 2, 3\}.
 ```powerquery
 List.Single({1, 2, 3})
 ```

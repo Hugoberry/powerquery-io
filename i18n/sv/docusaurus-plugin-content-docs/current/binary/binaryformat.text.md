@@ -20,12 +20,12 @@ BinaryFormat.Text(
 
 ## Remarks
 
-Returnerar ett binärformat som läser ett textvärde. <code>length</code> anger hur många byte som ska avkodas eller binärformatet för längden som föregår texten. Det valfria värdet <code>encoding</code> anger textens kodning. Om <code>encoding</code> inte anges fastställs kodningen baserat på Unicode-byteordningsmärken. Om det inte finns några byteordningsmärken används <code>TextEncoding.Utf8</code>.
+Returnerar ett binärformat som läser ett textvärde. `length` anger hur många byte som ska avkodas eller binärformatet för längden som föregår texten. Det valfria värdet `encoding` anger textens kodning. Om `encoding` inte anges fastställs kodningen baserat på Unicode-byteordningsmärken. Om det inte finns några byteordningsmärken används `TextEncoding.Utf8`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Avkoda två byte som ASCII-text.
 ```powerquery
 let
@@ -41,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Avkoda ASCII-text där längden på texten i byte visas före texten som en byte.
 ```powerquery
 let

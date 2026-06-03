@@ -19,12 +19,12 @@ Record.ToTable(
 
 ## Remarks
 
-Returnerar en tabell som innehåller kolumnerna <code>Name</code> och <code>Value</code> med en rad för varje fält i <code>record</code>.
+Returnerar en tabell som innehåller kolumnerna `Name` och `Value` med en rad för varje fält i `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Skapa en tabell från posten.
 ```powerquery
 Record.ToTable([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

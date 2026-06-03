@@ -20,13 +20,16 @@ List.MatchesAll(
 
 ## Remarks
 
-Devuelve <code>true</code> si todos los valores de la lista <code>list</code> satisfacen la función de la condición, <code>condition</code>; de lo contrario, devuelve <code>false</code>.
+Devuelve `true` si todos los valores de la lista satisfacen la función de condición; de lo contrario, devuelve `false`.
+
+-   `list`: Lista que contiene los valores que se van a comprobar.
+-   `condition`: Condición que se va a comprobar con los valores de la lista.
 
 
 ## Examples
 
-### Example #1 
-Determinar si todos los valores de la lista \{11, 12, 13} son mayores que 10.
+### Example #1
+Determinar si todos los valores de la lista \{11, 12, 13\} son mayores que 10.
 ```powerquery
 List.MatchesAll({11, 12, 13}, each _  > 10)
 ```
@@ -37,8 +40,8 @@ true
 ```
 
 
-### Example #2 
-Determinar si todos los valores de la lista \{1, 2, 3} son mayores que 10.
+### Example #2
+Determinar si todos los valores de la lista \{1, 2, 3\} son mayores que 10.
 ```powerquery
 List.MatchesAll({1, 2, 3}, each _  > 10)
 ```
@@ -46,6 +49,38 @@ List.MatchesAll({1, 2, 3}, each _  > 10)
 Result: 
 ```powerquery
 false
+```
+
+
+### Example #3
+Determine si todos los valores de texto de la lista contienen "anna" mientras se omiten las mayúsculas y minúsculas.
+```powerquery
+let
+    Source = {"Savannah", "Annabelle", "Annals", "wannabe", "MANNA"},
+    Result = List.MatchesAll(Source, each Text.Contains(_, "anna", Comparer.OrdinalIgnoreCase))
+in
+    Result
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+### Example #4
+Determine si todas las fechas contienen el año 2021.
+```powerquery
+let
+    Source = {#date(2021, 11, 28), #date(2021, 1, 14), #date(2021, 12, 31), #date(2021, 7, 6)},
+    Result = List.MatchesAll(Source, each Date.Year(_) = 2021)
+in
+    Result
+```
+
+Result: 
+```powerquery
+true
 ```
 
 

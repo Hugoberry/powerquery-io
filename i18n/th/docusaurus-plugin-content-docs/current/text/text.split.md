@@ -20,13 +20,16 @@ Text.Split(
 
 ## Remarks
 
-ส่งกลับรายการค่าข้อความที่เป็นผลลัพธ์จากการแยกค่าข้อความ <code>text</code> ตามตัวคั่นที่ระบุ <code>separator</code>
+ส่งกลับรายการค่าข้อความที่เป็นผลลัพธ์จากการแยกค่าข้อความตามตัวคั่นที่ระบุ
+
+-   `text`: ค่าข้อความที่จะแยก
+-   `separator`: ตัวคั่นที่ใช้ในการแยกข้อความ ตัวคั่นอาจเป็นได้ทั้งอักขระตัวเดียวหรือลำดับอักขระ หากใช้ลำดับอักขระ ระบบจะแบ่งข้อความเฉพาะในกรณีที่มีลำดับอักขระที่แน่นอนเท่านั้น
 
 
 ## Examples
 
-### Example #1 
-สร้างรายการจากค่าข้อความ &#34;Name|Address|PhoneNumber&#34; ที่คั่นด้วย &#34;|&#34;
+### Example #1
+สร้างรายการจากค่าข้อความ "Name|Address|PhoneNumber" ที่คั่นด้วย "|"
 ```powerquery
 Text.Split("Name|Address|PhoneNumber", "|")
 ```
@@ -37,6 +40,22 @@ Result:
     "Name",
     "Address",
     "PhoneNumber"
+}
+```
+
+
+### Example #2
+สร้างรายการจากค่าข้อความโดยใช้ลำดับอักขระ
+```powerquery
+Text.Split("Name, the Customer, the Purchase Date", ", the ")
+```
+
+Result: 
+```powerquery
+{
+    "Name",
+    "Customer",
+    "Purchase Date"
 }
 ```
 

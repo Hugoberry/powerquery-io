@@ -22,12 +22,17 @@ Table.ReplaceRows(
 
 ## Remarks
 
-Vervangt het opgegeven aantal rijen, <code>count</code>, in de invoer <code>table</code> door de opgegeven <code>rows</code>, te beginnen na de <code>offset</code>. De parameter <code>rows</code> is een lijst met records.    <ul>       <li><code>table</code>: de tabel waar de vervanging wordt uitgevoerd.</li>       <li><code>offset</code>: het aantal rijen dat moet worden overgeslagen voordat er wordt vervangen.</li>       <li><code>count</code>: het aantal rijen dat u wilt vervangen.</li>       <li><code>rows</code>: de lijst met rijrecords die moet worden ingevoegd in de <code>table</code> op de locatie die wordt opgegeven door de <code>offset</code>.</li>    </ul>
+Vervangt het opgegeven aantal rijen, `count`, in de invoer `table` door de opgegeven `rows`, te beginnen na de `offset`. De parameter `rows` is een lijst met records.
+
+-   `table`: de tabel waar de vervanging wordt uitgevoerd.
+-   `offset`: het aantal rijen dat moet worden overgeslagen voordat er wordt vervangen.
+-   `count`: het aantal rijen dat u wilt vervangen.
+-   `rows`: de lijst met rijrecords die moet worden ingevoegd in de `table` op de locatie die wordt opgegeven door de `offset`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Vanaf positie 1 drie rijen vervangen.
 ```powerquery
 Table.ReplaceRows(

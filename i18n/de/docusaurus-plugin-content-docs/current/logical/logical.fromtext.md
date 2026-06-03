@@ -5,7 +5,7 @@ title: Logical.FromText
 # Logical.FromText
 
 
-Erstellt einen logischen Wert auf der Grundlage der Textwerte &#34;true&#34; und &#34;false&#34;.
+Erstellt einen logischen Wert auf der Grundlage der Textwerte "true" und "false".
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.FromText(
 
 ## Remarks
 
-Erstellt einen logischen Wert auf der Grundlage des Textwerts "<code>text</code>" (entweder "true" oder "false"). Enthält "<code>text</code>" eine andere Zeichenfolge, wird eine Ausnahme ausgelöst. Beim Textwert "<code>text</code>" wird nicht zwischen Groß-/Kleinschreibung unterschieden.
+Erstellt einen logischen Wert auf der Grundlage des Textwerts „`text`“ (entweder „true“ oder „false“). Enthält `text` eine andere Zeichenfolge, wird ein Fehler ausgelöst. Beim Textwert „`text`“ wird nicht zwischen Groß-/Kleinschreibung unterschieden.
 
 
 ## Examples
 
-### Example #1 
-Erstellt einen logischen Wert auf der Grundlage der Textzeichenfolge &#34;true&#34;.
+### Example #1
+Erstellt einen logischen Wert auf der Grundlage der Textzeichenfolge "true".
 ```powerquery
 Logical.FromText("true")
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Erstellt einen logischen Wert auf der Grundlage der Textzeichenfolge &#34;a&#34;.
+### Example #2
+Erstellt einen logischen Wert auf der Grundlage der Textzeichenfolge "a".
 ```powerquery
 Logical.FromText("a")
 ```

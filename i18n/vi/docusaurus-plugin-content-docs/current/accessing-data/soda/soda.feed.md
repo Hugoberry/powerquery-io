@@ -19,7 +19,7 @@ Soda.Feed(
 
 ## Remarks
 
-Trả về một bảng chứa nội dung tại URL đã chỉ định <code>url</code> được định dạng theo API SODA 2.0. URL phải trỏ tới nguồn hợp lệ tuân thủ SODA kết thúc bằng phần mở rộng .csv.
+Trả về một bảng chứa nội dung tại URL đã chỉ định `url` được định dạng theo API SODA 2.0. URL phải trỏ tới nguồn hợp lệ tuân thủ SODA kết thúc bằng phần mở rộng .csv.
 
 
 

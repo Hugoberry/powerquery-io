@@ -19,13 +19,13 @@ Text.Reverse(
 
 ## Remarks
 
-Tilbagefører den angivne <code>text</code>.
+Tilbagefører den angivne `text`.
 
 
 ## Examples
 
-### Example #1 
-Tilbagefør teksten &#34;123&#34;.
+### Example #1
+Tilbagefør teksten "123".
 ```powerquery
 Text.Reverse("123")
 ```

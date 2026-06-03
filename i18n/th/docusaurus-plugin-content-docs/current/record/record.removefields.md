@@ -21,13 +21,13 @@ Record.RemoveFields(
 
 ## Remarks
 
-ส่งกลับระเบียนที่เอาเขตข้อมูลทั้งหมดที่ระบุในรายการ <code>fields</code> ออกจากค่าที่ป้อน <code>record</code> ถ้าไม่มีเขตข้อมูลที่ระบุ ระบบจะแสดงข้อยกเว้น
+ส่งกลับระเบียนที่เอาเขตข้อมูลทั้งหมดที่ระบุในรายการ `fields` ออกจากค่าที่ป้อน `record` ถ้าไม่มีเขตข้อมูลที่ระบุ หากเขตข้อมูลที่ระบุไม่พบ ระบบจะเกิดข้อผิดพลาด
 
 
 ## Examples
 
-### Example #1 
-นำฟิลด์ &#34;Price&#34; ออกจากระเบียน
+### Example #1
+นำฟิลด์ "Price" ออกจากระเบียน
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], "Price")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-นำฟิลด์ &#34;Price&#34; และ &#34;Item&#34; ออกจากระเบียน
+### Example #2
+นำฟิลด์ "Price" และ "Item" ออกจากระเบียน
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], {"Price", "Item"})
 ```

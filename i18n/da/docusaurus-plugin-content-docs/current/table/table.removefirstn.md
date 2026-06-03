@@ -20,12 +20,16 @@ Table.RemoveFirstN(
 
 ## Remarks
 
-Returnerer en tabel, der ikke indeholder det første angivne antal rækker, <code>countOrCondition</code>, i tabellen <code>table</code>.    Det antal rækker, der fjernes, afhænger af den valgfrie parameter <code>countOrCondition</code>.    <ul>    <li> Hvis <code>countOrCondition</code> udelades, er det kun første række, der fjernes. </li>    <li> Hvis <code>countOrCondition</code> er et tal, fjernes der så mange rækker (med start fra toppen). </li>    <li> Hvis <code>countOrCondition</code> er en betingelse, fjernes de rækker, der overholder betingelsen, indtil en række ikke overholder betingelsen.</li>    </ul>
+Returnerer en tabel, der ikke indeholder det første angivne antal rækker, `countOrCondition`, i tabellen `table`. Det antal rækker, der fjernes, afhænger af den valgfrie parameter `countOrCondition`.
+
+-   Hvis `countOrCondition` udelades, er det kun første række, der fjernes.
+-   Hvis `countOrCondition` er et tal, fjernes der så mange rækker (med start fra toppen).
+-   Hvis `countOrCondition` er en betingelse, fjernes de rækker, der overholder betingelsen, indtil en række ikke overholder betingelsen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Fjern den første række i tabellen.
 ```powerquery
 Table.RemoveFirstN(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Fjern de første to rækker i tabellen.
 ```powerquery
 Table.RemoveFirstN(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Fjern de første to rækker i tabellen, hvor [CustomerID] &lt;=2.
+### Example #3
+Fjern de første to rækker i tabellen, hvor \[CustomerID\] &lt;=2.
 ```powerquery
 Table.RemoveFirstN(
     Table.FromRecords({

@@ -21,12 +21,12 @@ DateTimeZone.SwitchZone(
 
 ## Remarks
 
-Zmienia informacje dotyczące strefy czasowej w wartości typu datetimezone <code>dateTimeZone</code> na nowe informacje dotyczące strefy czasowej dostarczone w parametrze <code>timezoneHours</code> i opcjonalnie <code>timezoneMinutes</code>.    Jeśli wartość <code>dateTimeZone</code> nie ma składnika strefy czasowej, jest zgłaszany wyjątek.
+Zmienia informacje dotyczące strefy czasowej w wartości typu datetimezone `dateTimeZone` na nowe informacje dotyczące strefy czasowej dostarczone w parametrze `timezoneHours` i opcjonalnie `timezoneMinutes`. Jeśli element `dateTimeZone` nie ma składnika strefy czasowej, jest zgłaszany błąd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zmień informacje dotyczące strefy czasowej dla wartości typu #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) na 8 godzin.
 ```powerquery
 DateTimeZone.SwitchZone(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30), 8)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Zmień informacje dotyczące strefy czasowej dla wartości #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) na -30 minut.
 ```powerquery
 DateTimeZone.SwitchZone(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30), 0, -30)

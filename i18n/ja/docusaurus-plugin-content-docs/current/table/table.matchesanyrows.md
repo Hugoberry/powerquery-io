@@ -20,13 +20,13 @@ Table.MatchesAnyRows(
 
 ## Remarks
 
-<code>table</code> 内のいずれかの行が指定された <code>condition</code> と一致しているかどうかを示します。いずれかの行が一致する場合は <code>true</code>、それ以外の場合は <code>false</code> を返します。
+`table` 内のいずれかの行が指定された `condition` と一致しているかどうかを示します。いずれかの行が一致する場合は `true`、それ以外の場合は `false` を返します。
 
 
 ## Examples
 
-### Example #1 
-テーブル &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8]})&lt;/code&gt; の列 [a] のいずれかの行の値が偶数かどうかを調べます。
+### Example #1
+テーブル `({[a = 2, b = 4], [a = 6, b = 8]})` の列 \[a\] のいずれかの行の値が偶数かどうかを調べます。
 ```powerquery
 Table.MatchesAnyRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ false
 ```
 
 
-### Example #2 
-テーブル &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; のいずれかの行の値が [a = 1, b = 2] かどうかを調べます。
+### Example #2
+テーブル `({[a = 1, b = 2], [a = 3, b = 4]})` のいずれかの行の値が \[a = 1, b = 2\] かどうかを調べます。
 ```powerquery
 Table.MatchesAnyRows(
     Table.FromRecords({

@@ -21,13 +21,13 @@ Table.Max(
 
 ## Remarks
 
-指定 <code>comparisonCriteria</code> 之後，傳回 <code>table</code> 中最大的資料列。如果資料表是空的，就會傳回選擇性 <code>default</code> 值。
+指定 `comparisonCriteria` 之後，傳回 `table` 中最大的資料列。如果資料表是空的，就會傳回選擇性 `default` 值。
 
 
 ## Examples
 
-### Example #1 
-在資料表 &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8]})&lt;/code&gt; 的資料行 [a] 中，尋找包含最大值的資料列。
+### Example #1
+在資料表 `({[a = 2, b = 4], [a = 6, b = 8]})` 的資料行 \[a\] 中，尋找包含最大值的資料列。
 ```powerquery
 Table.Max(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-在資料表 &lt;code&gt;(\{})&lt;/code&gt; 的資料行 [a] 中，尋找包含最大值的資料列。如果是空的，則傳回 -1。
+### Example #2
+在資料表 `({})` 的資料行 \[a\] 中，尋找包含最大值的資料列。如果是空的，則傳回 -1。
 ```powerquery
 Table.Max(#table({"a"}, {}), "a", -1)
 ```

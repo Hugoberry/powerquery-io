@@ -19,12 +19,12 @@ Guid.From(
 
 ## Remarks
 
-Devolve um valor de <code>Guid.Type</code> a partir do <code>value</code> especificado. Se o <code>value</code> especificado é <code>null</code>, <code>Guid.From</code> devolve <code>null</code>.  Será efetuada uma verificação para determinar se o fornecido <code>value</code> está num formato aceitável. Formatos aceitáveis fornecidos nos exemplos.
+Devolve um valor de `Guid.Type` a partir do `value` especificado. Se o `value` especificado é `null`, `Guid.From` devolve `null`. Será efetuada uma verificação para determinar se o fornecido `value` está num formato aceitável. Formatos aceitáveis fornecidos nos exemplos.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 O Guid pode ser fornecido como 32 dígitos hexadecimais contíguos.
 ```powerquery
 Guid.From("05FE1DADC8C24F3BA4C2D194116B4967")
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 O Guid pode ser fornecido como 32 dígitos hexadecimais separados por hífens em blocos de 8-4-4-4-12.
 ```powerquery
 Guid.From("05FE1DAD-C8C2-4F3B-A4C2-D194116B4967")
@@ -48,7 +48,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 O Guid pode ser fornecido como 32 dígitos hexadecimais separados por hífens e incluídos entre chavetas.
 ```powerquery
 Guid.From("{05FE1DAD-C8C2-4F3B-A4C2-D194116B4967}")
@@ -60,7 +60,7 @@ Result:
 ```
 
 
-### Example #4 
+### Example #4
 O Guid pode ser fornecido como 32 dígitos hexadecimais separados por hífenes e entre parênteses.
 ```powerquery
 Guid.From("(05FE1DAD-C8C2-4F3B-A4C2-D194116B4967)")

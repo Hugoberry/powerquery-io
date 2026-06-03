@@ -5,7 +5,7 @@ title: Duration.ToText
 # Duration.ToText
 
 
-&#34;d.h:m:s&#34; という形式のテキストを返します。
+"d.h:m:s" という形式のテキストを返します。
 
 
 ## Syntax
@@ -20,13 +20,16 @@ Duration.ToText(
 
 ## Remarks
 
-特定の期間の値 <code>duration</code> を "day.hour:mins:sec" 形式のテキスト形式表記で返します。 <ul>        <li><code>duration</code>: テキスト形式表記が計算される<code>期間</code>。</li>  <li><code>format</code>: <i>[省略可能]</i> 推奨されません。NULL 値でない場合はエラーをスローします</li>      </ul>
+特定の期間の値 `duration` を "day.hour:mins:sec" 形式のテキスト表現で返します。
+
+-   `duration`: テキスト表現の計算元の `duration`。
+-   `format`: *(オプション)* 非推奨です。null でない場合はエラーが発生します。
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;#duration(2, 5, 55, 20)&lt;/code&gt; をテキスト値に変換します。
+### Example #1
+`#duration(2, 5, 55, 20)` をテキスト値に変換します。
 ```powerquery
 Duration.ToText(#duration(2, 5, 55, 20))
 ```

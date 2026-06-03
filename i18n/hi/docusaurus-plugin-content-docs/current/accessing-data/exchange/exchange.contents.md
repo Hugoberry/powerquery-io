@@ -19,7 +19,7 @@ Exchange.Contents(
 
 ## Remarks
 
-Microsoft Exchange खाते <code>mailboxAddress</code> से एक सामग्री की तालिका लौटाता है. यदि <code>mailboxAddress</code> निर्दिष्ट नहीं किया गया है, तो क्रेडेंशियल के लिए डिफ़ॉल्ट खाते का उपयोग किया जाएगा.
+Microsoft Exchange खाते `mailboxAddress` से एक सामग्री की तालिका लौटाता है. यदि `mailboxAddress` निर्दिष्ट नहीं किया गया है, तो क्रेडेंशियल के लिए डिफ़ॉल्ट खाते का उपयोग किया जाएगा.
 
 
 

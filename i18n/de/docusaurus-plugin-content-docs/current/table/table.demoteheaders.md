@@ -24,7 +24,7 @@ Stuft die Spaltenüberschriften (also die Spaltennamen) zur ersten Zeile mit Wer
 
 ## Examples
 
-### Example #1 
+### Example #1
 Stuft die erste Zeile mit Werten in der Tabelle tiefer.
 ```powerquery
 Table.DemoteHeaders(

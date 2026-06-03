@@ -27,7 +27,7 @@ Table.CombineColumns(
 
 ## Examples
 
-### Example #1 
+### Example #1
 姓と名を新しい列に結合し、コンマで区切ります。
 ```powerquery
 Table.CombineColumns(

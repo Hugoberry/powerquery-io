@@ -20,7 +20,9 @@ AccessControlEntry.ConditionToIdentities(
 
 ## Remarks
 
-Belirtilen <code>identityProvider</code> öğesini kullanarak <code>condition</code> öğesini kimlik listesine dönüştürür. Bu liste için <code>condition</code>, kimlik sağlayıcısı <code>identityProvider</code> olarak tüm yetkilendirme bağlamlarında <code>true</code> döndürür. <code>condition</code> öğesinin kimlik listesine dönüştürülmesi mümkün değilse, örneğin <code>condition</code> bir karar almak için kullanıcı veya grup kimliklerinden farklı özniteliklere danışıyorsa bir hata oluşur.<br />    Kimlik listesinin, kimlikleri <code>condition</code> öğesinde göründüğü gibi temsil ettiğini ve kimliklerde normalleştirme (grup genişletme gibi) uygulanmadığını unutmayın.<br />
+Belirtilen `identityProvider` öğesini kullanarak `condition` öğesini kimlik listesine dönüştürür. Bu liste için `condition`, kimlik sağlayıcısı `identityProvider` olarak tüm yetkilendirme bağlamlarında `true` döndürür. `condition` öğesinin kimlik listesine dönüştürülmesi mümkün değilse, örneğin `condition` bir karar almak için kullanıcı veya grup kimliklerinden farklı özniteliklere danışıyorsa bir hata oluşur.
+
+Kimlik listesinin, kimlikleri `condition` öğesinde göründüğü gibi temsil ettiğini ve kimliklerde normalleştirme (grup genişletme gibi) uygulanmadığını unutmayın.
 
 
 

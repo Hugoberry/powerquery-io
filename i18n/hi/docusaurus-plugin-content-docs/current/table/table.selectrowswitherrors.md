@@ -25,7 +25,7 @@ Table.SelectRowsWithErrors(
 
 ## Examples
 
-### Example #1 
+### Example #1
 ग्राहकों की पंक्तियों में त्रुटियों वाले ग्राहक के नाम चुनें.
 ```powerquery
 Table.SelectRowsWithErrors(

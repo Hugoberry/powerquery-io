@@ -19,12 +19,12 @@ Record.FieldNames(
 
 ## Remarks
 
-Zwraca nazwy pól w rekordzie <code>record</code> jako tekst.
+Zwraca nazwy pól w rekordzie `record` jako tekst.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź nazwy pól w rekordzie.
 ```powerquery
 Record.FieldNames([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

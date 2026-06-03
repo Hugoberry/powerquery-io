@@ -20,7 +20,7 @@ Table.FirstValue(
 
 ## Remarks
 
-Returnerar den första kolumnen i den första raden i tabellen <code>table</code> eller ett angivet standardvärde.
+Returnerar den första kolumnen i den första raden i tabellen `table` eller ett angivet standardvärde.
 
 
 

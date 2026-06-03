@@ -20,13 +20,13 @@ List.Mode(
 
 ## Remarks
 
-Retorna o item exibido com mais frequência na lista, <code>list</code>. Se a lista estiver vazia, uma exceção será lançada. Se vários itens aparecerem com a mesma frequência máxima, o último será escolhido.    Um valor <code>comparisonCriteria</code> opcional, <code>equationCriteria</code>, pode ser especificado para controlar o teste de igualdade. 
+Retorna o item que aparece com mais frequência em `list`. Se a lista estiver vazia, um erro será gerado. Se vários itens aparecerem com a mesma frequência máxima, o último será escolhido. Um valor opcional de critérios de comparação, `equationCriteria`, pode ser especificado para controlar o teste de igualdade.
 
 
 ## Examples
 
-### Example #1 
-Localize o item exibido com mais frequência na lista &lt;code&gt;\{&#34;A&#34;, 1, 2, 3, 3, 4, 5}&lt;/code&gt;.
+### Example #1
+Localize o item exibido com mais frequência na lista `{"A", 1, 2, 3, 3, 4, 5}`.
 ```powerquery
 List.Mode({"A", 1, 2, 3, 3, 4, 5})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Localize o item exibido com mais frequência na lista &lt;code&gt;\{&#34;A&#34;, 1, 2, 3, 3, 4, 5, 5}&lt;/code&gt;.
+### Example #2
+Localize o item exibido com mais frequência na lista `{"A", 1, 2, 3, 3, 4, 5, 5}`.
 ```powerquery
 List.Mode({"A", 1, 2, 3, 3, 4, 5, 5})
 ```

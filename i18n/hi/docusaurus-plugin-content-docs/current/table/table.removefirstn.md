@@ -20,12 +20,16 @@ Table.RemoveFirstN(
 
 ## Remarks
 
-ऐसी तालिका लौटाता है, जिसमें तालिका <code>table</code> की पंक्तियों <code>countOrCondition</code> की प्रथम निर्दिष्ट संख्या नहीं होती है.    निकाली गई पंक्तियों की संख्या वैकल्पिक पैरामीटर <code>countOrCondition</code> पर निर्भर होती है.    <ul>    <li> यदि <code>countOrCondition</code> को छोड़ा जाता है, तो केवल प्रथम पंक्ति निकाली जाती है. </li>    <li> यदि <code>countOrCondition</code> कोई संख्या हो, तो उतनी पंक्तियाँ (शीर्ष से प्रारंभ करते हुए) निकाल दी जाएँगी. </li>    <li> यदि <code>countOrCondition</code> कोई शर्त हो, तो किसी एक पंक्ति के शर्त पूरा न करने तक, शर्त को पूरा करने वाली पंक्तियों को निकाल दिया जाएगा.</li>    </ul>
+ऐसी तालिका लौटाता है, जिसमें तालिका `table` की पंक्तियों `countOrCondition` की प्रथम निर्दिष्ट संख्या नहीं होती है. निकाली गई पंक्तियों की संख्या वैकल्पिक पैरामीटर `countOrCondition` पर निर्भर होती है.
+
+-   यदि `countOrCondition` को छोड़ा जाता है, तो केवल प्रथम पंक्ति निकाली जाती है.
+-   यदि `countOrCondition` कोई संख्या हो, तो उतनी पंक्तियाँ (शीर्ष से प्रारंभ करते हुए) निकाल दी जाएँगी.
+-   यदि `countOrCondition` कोई शर्त हो, तो किसी एक पंक्ति के शर्त पूरा न करने तक, शर्त को पूरा करने वाली पंक्तियों को निकाल दिया जाएगा.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 तालिका की पहली पंक्ति निकालें.
 ```powerquery
 Table.RemoveFirstN(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 तालिका की पहली दो पंक्तियाँ निकालें.
 ```powerquery
 Table.RemoveFirstN(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-पहली दो पंक्तियाँ निकालें, जहाँ तालिका का [CustomerID] &lt;=2 होता है.
+### Example #3
+पहली दो पंक्तियाँ निकालें, जहाँ तालिका का \[CustomerID\] &lt;=2 होता है.
 ```powerquery
 Table.RemoveFirstN(
     Table.FromRecords({

@@ -21,12 +21,19 @@ Number.Round(
 
 ## Remarks
 
-Retorna o resultado do arredondamento <code>number</code> até o número mais próximo. Se <code>number</code> for nulo, <code>Number.Round</code> retornará nulo.<br />      <br />      Por padrão, <code>number</code> é arredondado para o número inteiro mais próximo e os empates são quebrados arredondando para o número par mais próximo (usando <code>RoundingMode.ToEven</code>, também conhecido como "arredondamento bancário").<br />      <br />      No entanto, esses padrões podem ser substituídos pelos parâmetros opcionais a seguir.      <ul>        <li><code>digits</code>: faz com que <code>number</code> seja arredondado para o número de dígitos decimais especificado.</li>        <li><code>roundingMode</code>: substitui o comportamento de desempate padrão quando <code>number</code> está no ponto médio entre dois valores arredondados potenciais      (confira <code>RoundingMode.Type</code> para possíveis valores).</li>      </ul>
+Retorna o resultado do arredondamento `number` até o número mais próximo. Se `number` for nulo, `Number.Round` retornará nulo.  
+  
+Por padrão, `number` é arredondado para o número inteiro mais próximo e os empates são quebrados arredondando para o número par mais próximo (usando `RoundingMode.ToEven`, também conhecido como "arredondamento bancário").  
+  
+No entanto, esses padrões podem ser substituídos pelos parâmetros opcionais a seguir.
+
+-   `digits`: faz com que `number` seja arredondado para o número de dígitos decimais especificado.
+-   `roundingMode`: substitui o comportamento de desempate padrão quando `number` está no ponto médio entre dois valores arredondados potenciais (confira `RoundingMode.Type` para possíveis valores).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Arredonde 1,234 para o próximo número inteiro.
 ```powerquery
 Number.Round(1.234)
@@ -38,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Arredonde 1,56 para o próximo número inteiro.
 ```powerquery
 Number.Round(1.56)
@@ -50,7 +57,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Arredonde 1,2345 para duas casas decimais.
 ```powerquery
 Number.Round(1.2345, 2)
@@ -62,7 +69,7 @@ Result:
 ```
 
 
-### Example #4 
+### Example #4
 Arredonde 1,2345 para três casas decimais (arredondamento para cima).
 ```powerquery
 Number.Round(1.2345, 3, RoundingMode.Up)
@@ -74,7 +81,7 @@ Result:
 ```
 
 
-### Example #5 
+### Example #5
 Arredonde 1,2345 para três casas decimais (arredondamento para baixo).
 ```powerquery
 Number.Round(1.2345, 3, RoundingMode.Down)

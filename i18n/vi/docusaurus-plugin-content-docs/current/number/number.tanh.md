@@ -19,7 +19,7 @@ Number.Tanh(
 
 ## Remarks
 
-Trả về tang hyperbolic của <code>number</code>.
+Trả về tang hyperbolic của `number`.
 
 
 

@@ -25,7 +25,7 @@ Table.ReplaceKeys(
 
 ## Examples
 
-### Example #1 
+### Example #1
 替换表的现有键。
 ```powerquery
 let

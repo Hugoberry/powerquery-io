@@ -19,12 +19,12 @@ Record.FieldValues(
 
 ## Remarks
 
-ส่งกลับรายการค่าเขตข้อมูลในระเบียน <code>record</code>
+ส่งกลับรายการค่าเขตข้อมูลในระเบียน `record`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ค้นหาค่าฟิลด์ในระเบียน
 ```powerquery
 Record.FieldValues([CustomerID = 1, Name = "Bob", Phone = "123-4567"])

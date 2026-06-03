@@ -20,13 +20,13 @@ Text.Repeat(
 
 ## Remarks
 
-Retourneert een tekstwaarde die bestaat uit de invoertekst <code>text</code> en die <code>count</code> malen wordt herhaald.
+Retourneert een tekstwaarde die bestaat uit de invoertekst `text` en die `count` malen wordt herhaald.
 
 
 ## Examples
 
-### Example #1 
-De tekst &#34;een&#34; vijf keer herhalen.
+### Example #1
+De tekst "een" vijf keer herhalen.
 ```powerquery
 Text.Repeat("a", 5)
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-De tekst &#34;hallowereld&#34; drie keer herhalen.
+### Example #2
+De tekst "hallowereld" drie keer herhalen.
 ```powerquery
 Text.Repeat("helloworld.", 3)
 ```

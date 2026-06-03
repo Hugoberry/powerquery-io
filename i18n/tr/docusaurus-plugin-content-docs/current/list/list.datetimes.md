@@ -21,12 +21,12 @@ List.DateTimes(
 
 ## Remarks
 
-<code>count</code> boyutunda <code>start</code> konumunda başlayan bir <code>datetime</code> değer listesi döndürür. <code>step</code> verilen artışı her değere eklenen bir <code>duration</code> değeridir.
+`count` boyutunda `start` konumunda başlayan bir `datetime` değer listesi döndürür. `step` verilen artışı her değere eklenen bir `duration` değeridir.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Yıl başından 5 dakika önce başlayan (#datetime(2011, 12, 31, 23, 55, 0)), 1 dakika artan (#duration(0, 0, 1, 0)) 10 değer içeren bir liste oluşturur.
 ```powerquery
 List.DateTimes(#datetime(2011, 12, 31, 23, 55, 0), 10, #duration(0, 0, 1, 0))

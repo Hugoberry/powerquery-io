@@ -5,7 +5,7 @@ title: Table.ToRecords
 # Table.ToRecords
 
 
-Convertit une table en une liste d&#39;enregistrements.
+Convertit une table en une liste d'enregistrements.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Table.ToRecords(
 
 ## Remarks
 
-Convertit une table, <code>table</code>, en une liste d'enregistrements.
+Convertit une table, `table`, en une liste d'enregistrements.
 
 
 ## Examples
 
-### Example #1 
-Convertit la table en une liste d&#39;enregistrements.
+### Example #1
+Convertit la table en une liste d'enregistrements.
 ```powerquery
 Table.ToRecords(
     Table.FromRows(

@@ -25,7 +25,7 @@ Type.ForRecord(
 
 ## Examples
 
-### Example #1 
+### Example #1
 गतिशील रूप से तालिका प्रकार जनरेट करें.
 ```powerquery
 let

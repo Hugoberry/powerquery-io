@@ -21,13 +21,13 @@ Text.Insert(
 
 ## Remarks
 
-<code>newText</code> metin değerini <code>offset</code> konumunda <code>text</code> metin değerine eklemenin sonucunu döndürür. Konumlar 0'dan başlar.
+`newText` metin değerini `offset` konumunda `text` metin değerine eklemenin sonucunu döndürür. Konumlar 0'dan başlar.
 
 
 ## Examples
 
-### Example #1 
-&#34;ABD&#34; ifadesinde &#34;B&#34; ile &#34;D&#34; arasına &#34;C&#34; ekler.
+### Example #1
+"ABD" ifadesinde "B" ile "D" arasına "C" ekler.
 ```powerquery
 Text.Insert("ABD", 2, "C")
 ```

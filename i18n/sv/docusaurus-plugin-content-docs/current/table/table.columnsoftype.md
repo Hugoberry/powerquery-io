@@ -20,12 +20,12 @@ Table.ColumnsOfType(
 
 ## Remarks
 
-Returnerar en lista med namnen på de kolumner från tabellen <code>table</code> som matchar de angivna typerna i <code>listOfTypes</code>.
+Returnerar en lista med namnen på de kolumner från tabellen `table` som matchar de angivna typerna i `listOfTypes`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnera namnen på kolumnerna av typen Number.Type från tabellen.
 ```powerquery
 Table.ColumnsOfType(

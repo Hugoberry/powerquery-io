@@ -21,13 +21,16 @@ Table.MinN(
 
 ## Remarks
 
-Restituisce la riga o le righe più piccole in <code>table</code>, dato <code>comparisonCriteria</code>. Dopo aver ordinato le righe, specificare il parametro <code>countOrCondition</code> per filtrare ulteriormente i risultati. Si noti che l'algoritmo di ordinamento non può garantire un risultato ordinato fisso. Il parametro <code>countOrCondition</code> accetta più formati:    <ul>        <li> Se viene specificato un numero, viene restituito un elenco di un massimo di <code>countOrCondition</code> elementi in ordine crescente. </li>        <li> Se viene specificata una condizione, viene restituito un elenco di elementi che soddisfano inizialmente la condizione. Se un elemento non soddisfa la condizione, non vengono considerati altri elementi. </li> </ul>
+Restituisce la riga o le righe più piccole in `table`, dato `comparisonCriteria`. Dopo aver ordinato le righe, specificare il parametro `countOrCondition` per filtrare ulteriormente i risultati. Si noti che l'algoritmo di ordinamento non può garantire un risultato ordinato fisso. Il parametro `countOrCondition` accetta più formati:
+
+-   Se viene specificato un numero, viene restituito un elenco di un massimo di `countOrCondition` elementi in ordine crescente.
+-   Se viene specificata una condizione, viene restituito un elenco di elementi che soddisfano inizialmente la condizione. Se un elemento non soddisfa la condizione, non vengono considerati altri elementi.
 
 
 ## Examples
 
-### Example #1 
-Trovare la riga con il valore più piccolo nella colonna [a] con la condizione [a] &lt; 3, nella tabella. Le righe vengono ordinate prima dell&#39;applicazione del filtro.
+### Example #1
+Trovare la riga con il valore più piccolo nella colonna \[a\] con la condizione \[a\] &lt; 3, nella tabella. Le righe vengono ordinate prima dell'applicazione del filtro.
 ```powerquery
 Table.MinN(
     Table.FromRecords({
@@ -49,8 +52,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Trovare la riga con il valore più piccolo nella colonna [a] con la condizione [b] &lt; 0, nella tabella. Le righe vengono ordinate prima dell&#39;applicazione del filtro.
+### Example #2
+Trovare la riga con il valore più piccolo nella colonna \[a\] con la condizione \[b\] &lt; 0, nella tabella. Le righe vengono ordinate prima dell'applicazione del filtro.
 ```powerquery
 Table.MinN(
     Table.FromRecords({

@@ -20,12 +20,12 @@ Table.Repeat(
 
 ## Remarks
 
-ส่งกลับตารางที่มีแถวจากค่าที่ป้อน <code>table</code> ที่ทำซ้ำเป็นจำนวน <code>count</code> ครั้งตามที่ระบุ
+ส่งกลับตารางที่มีแถวจากค่าที่ป้อน `table` ที่ทำซ้ำเป็นจำนวน `count` ครั้งตามที่ระบุ
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ซ้ำแถวในตารางสองครั้ง
 ```powerquery
 Table.Repeat(

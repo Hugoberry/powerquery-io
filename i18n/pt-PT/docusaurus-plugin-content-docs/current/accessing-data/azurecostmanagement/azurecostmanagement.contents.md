@@ -21,15 +21,15 @@ AzureCostManagement.Contents(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Partindo do princípio que hoje é 15-06-2017, obter os resumos de dados entre 01-05-2017 e 15-06-2017
 ```powerquery
-let
+deixar
           enrollmentNumber = "100",
           optionalParameters = [ numberOfMonth = 1 ],
           result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
-      in
-          result
+      em
+          resultado
 ```
 
 Result: 
@@ -38,15 +38,15 @@ A função devolve os dados de resumo entre 01-05-2017 e 15-06-2017
 ```
 
 
-### Example #2 
+### Example #2
 Partindo do princípio que hoje é 15-06-2017, obter os dados de resumo para abril de 2017.
 ```powerquery
-let
+deixar
           enrollmentNumber = "100",
           optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "-1" ],
           result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
-      in
-          result
+      em
+          resultado
 ```
 
 Result: 
@@ -55,15 +55,15 @@ A função devolve os dados entre 01-04-2017 e 30-04-2017
 ```
 
 
-### Example #3 
+### Example #3
 Partindo do princípio que hoje é 15-06-2017, obter os dados de resumos de abril de 2017 até ao momento.
 ```powerquery
-let
+deixar
           enrollmentNumber = "100",
           optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "0", dataType = "Summaries" ],
           result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
-      in
-          result
+      em
+          resultado
 ```
 
 Result: 

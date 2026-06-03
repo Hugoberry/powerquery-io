@@ -20,6 +20,6 @@ DataLake.Files(
 
 ## Remarks
 
-Zwraca tabelę zawierającą wiersz dla każdego pliku znalezionego w adresie <code>url</code> z usługi Azure Data Lake Storage Gen1. Każdy wiersz zawiera właściwości pliku i link do jego zawartości.
+Zwraca tabelę zawierającą wiersz dla każdego pliku znalezionego w adresie `url` z usługi Azure Data Lake Storage Gen1. Każdy wiersz zawiera właściwości pliku i link do jego zawartości.
 
 

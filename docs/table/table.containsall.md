@@ -21,13 +21,13 @@ Table.ContainsAll(
 
 ## Remarks
 
-Indicates whether all the specified records in the list of records <code>rows</code>, appear as rows in the <code>table</code>.    An optional parameter <code>equationCriteria</code> may be specified to control comparison between the rows of the table.
+Indicates whether all the specified records in the list of records `rows`, appear as rows in the `table`. An optional parameter `equationCriteria` may be specified to control comparison between the rows of the table.
 
 
 ## Examples
 
-### Example #1 
-Determine if the table contains all the rows, comparing only the column [CustomerID].
+### Example #1
+Determine if the table contains all the rows, comparing only the column \[CustomerID\].
 ```powerquery
 Table.ContainsAll(
     Table.FromRecords({
@@ -50,7 +50,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Determine if the table contains all the rows.
 ```powerquery
 Table.ContainsAll(

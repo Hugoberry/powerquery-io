@@ -25,12 +25,16 @@ Table.NestedJoin(
 
 ## Remarks
 
-Joinforbinder rækkerne i <code>table1</code> med rækkerne i <code>table2</code> på baggrund af ligheden mellem værdier i de nøglekolonner, der er valgt af <code>key1</code> (for <code>table1</code>) og <code>key2</code> (for <code>table2</code>). Resultaterne angives i den kolonne, der hedder <code>newColumnName</code>.<br />Den valgfrie værdi <code>joinKind</code> angiver typen af joinforbindelse, der skal udføres. Der udføres som standard en venstre ydre joinforbindelse, hvis der ikke er angivet en <code>joinKind</code>.<br />Et valgfrit sæt af <code>keyEqualityComparers</code> kan inkluderes for at angive, hvordan nøglekolonnerne skal sammenlignes. Denne funktion er i øjeblikket kun tiltænkt intern brug.<br />  
+Joinforbinder rækkerne i `table1` med rækkerne i `table2` på baggrund af ligheden mellem værdier i de nøglekolonner, der er valgt af `key1` (for `table1`) og `key2` (for `table2`). Resultaterne angives i den kolonne, der hedder `newColumnName`.
+
+Den valgfrie værdi `joinKind` angiver typen af joinforbindelse, der skal udføres. Der udføres som standard en venstre ydre joinforbindelse, hvis der ikke er angivet en `joinKind`.
+
+Et valgfrit sæt af `keyEqualityComparers` kan inkluderes for at angive, hvordan nøglekolonnerne skal sammenlignes. Denne funktion er i øjeblikket kun tiltænkt intern brug.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Forbind to tabeller ved hjælp af en enkelt nøglekolonne.
 ```powerquery
 Table.NestedJoin(

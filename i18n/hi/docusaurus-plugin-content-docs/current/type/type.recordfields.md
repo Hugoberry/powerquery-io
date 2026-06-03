@@ -19,13 +19,13 @@ Type.RecordFields(
 
 ## Remarks
 
-वह रिकॉर्ड लौटाता है जो <code>type</code> रिकॉर्ड के फ़ील्‍ड का वर्णन करता है. लौटाए गए रिकॉर्ड प्रकार के प्रत्‍येक फ़ील्‍ड में रिकॉर्ड <code>[ Type = type, Optional = logical ]</code> के फ़ॉर्म में संबंधित नाम और मान होता है.
+वह रिकॉर्ड लौटाता है जो `type` रिकॉर्ड के फ़ील्‍ड का वर्णन करता है. लौटाए गए रिकॉर्ड प्रकार के प्रत्‍येक फ़ील्‍ड में रिकॉर्ड `[ Type = type, Optional = logical ]` के फ़ॉर्म में संबंधित नाम और मान होता है.
 
 
 ## Examples
 
-### Example #1 
-रिकॉर्ड &lt;code&gt;[ A = number, optional B = any]&lt;/code&gt; का नाम और मान ढूँढें.
+### Example #1
+रिकॉर्ड `[ A = number, optional B = any]` का नाम और मान ढूँढें.
 ```powerquery
 Type.RecordFields(type [A = number, optional B = any])
 ```

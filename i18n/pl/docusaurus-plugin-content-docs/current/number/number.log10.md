@@ -19,12 +19,12 @@ Number.Log10(
 
 ## Remarks
 
-Zwraca logarytm dziesiętny liczby <code>number</code>. Jeśli parametr <code>number</code> ma wartość null, funkcja <code>Number.Log10</code> zwraca wartość null.
+Zwraca logarytm dziesiętny liczby `number`. Jeśli parametr `number` ma wartość null, funkcja `Number.Log10` zwraca wartość null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Oblicz logarytm dziesiętny z 2.
 ```powerquery
 Number.Log10(2)

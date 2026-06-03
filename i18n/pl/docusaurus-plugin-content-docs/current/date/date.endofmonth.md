@@ -19,12 +19,14 @@ Date.EndOfMonth(
 
 ## Remarks
 
-Zwraca koniec miesiąca, która zawiera <code>dateTime</code>.      <ul>        <li><code>dateTime</code>: wartość typu <code>date</code>, <code>datetime</code> lub <code>datetimezone</code>, na podstawie której jest obliczany koniec miesiąca.</li>      </ul>
+Zwraca koniec miesiąca, która zawiera `dateTime`.
+
+-   `dateTime`: wartość typu `date`, `datetime` lub `datetimezone`, na podstawie której jest obliczany koniec miesiąca.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Określ koniec miesiąca dla daty 2011-05-14.
 ```powerquery
 Date.EndOfMonth(#date(2011, 5, 14))
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Określ koniec miesiąca dla daty 2011-05-17 17:00:00 -7:00.
 ```powerquery
 Date.EndOfMonth(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0))

@@ -19,12 +19,12 @@ Duration.Seconds(
 
 ## Remarks
 
-<code>duration</code> का सेकंडों वाला भाग लौटाता है.
+`duration` का सेकंडों वाला भाग लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 अवधि मान से सेकंड निकालें.
 ```powerquery
 Duration.Seconds(#duration(5, 4, 3, 2))

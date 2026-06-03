@@ -20,12 +20,12 @@ Text.End(
 
 ## Remarks
 
-Zwraca wartość typu <code>text</code>, która składa się z <code>count</code> ostatnich znaków wartości typu <code>text</code> <code>text</code>.
+Zwraca wartość typu `text`, która składa się z `count` ostatnich znaków wartości typu `text` `text`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Pobierz 5 ostatnich znaków z tekstu „Hello, World”.
 ```powerquery
 Text.End("Hello, World", 5)

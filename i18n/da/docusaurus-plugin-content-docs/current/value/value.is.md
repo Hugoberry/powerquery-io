@@ -25,7 +25,7 @@ Bestemmer, om en værdi er kompatibel med den angivne type. Dette svarer til ope
 
 ## Examples
 
-### Example #1 
+### Example #1
 Sammenlign to måder at bestemme, om et tal er kompatibelt med typetal.
 ```powerquery
 Value.Is(123, Number.Type) = (123 is number)

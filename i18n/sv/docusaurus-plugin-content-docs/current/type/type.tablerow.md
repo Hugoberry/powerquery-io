@@ -24,7 +24,7 @@ Skickar tillbaka radtypen för den angivna tabelltypen. Resultatet är alltid en
 
 ## Examples
 
-### Example #1 
+### Example #1
 Skicka tillbaka information om radtyp för en enkel tabell.
 ```powerquery
 let

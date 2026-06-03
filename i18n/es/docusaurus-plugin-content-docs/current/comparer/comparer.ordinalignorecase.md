@@ -20,13 +20,15 @@ Comparer.OrdinalIgnoreCase(
 
 ## Remarks
 
-Devuelve una función comparadora que no distingue entre mayúsculas y minúsculas y que utiliza reglas ordinales para comparar los valores proporcionados <code>x</code> y <code>y</code>.<br />        <br />        Una función comparadora acepta dos argumentos y devuelve -1, 0 o 1 en función de si el primer valor es menor, igual o mayor que el segundo.    
+Devuelve una función comparadora que no distingue entre mayúsculas y minúsculas y que utiliza reglas ordinales para comparar los valores proporcionados `x` y `y`.  
+  
+Una función comparadora acepta dos argumentos y devuelve -1, 0 o 1 en función de si el primer valor es menor, igual o mayor que el segundo.
 
 
 ## Examples
 
-### Example #1 
-Usando reglas ordinales que no distinguen mayúsculas de minúsculas, compare &#34;Abc&#34; con &#34;abc&#34;. Observe que &#34;Abc&#34; es menor que &#34;abc&#34; usando &lt;code&gt;Comparer.Ordinal&lt;/code&gt;. 
+### Example #1
+Usando reglas ordinales que no distinguen mayúsculas de minúsculas, compare "Abc" con "abc". Observe que "Abc" es menor que "abc" usando `Comparer.Ordinal`.
 ```powerquery
 Comparer.OrdinalIgnoreCase("Abc", "abc")
 ```

@@ -5,7 +5,7 @@ title: Table.ViewError
 # Table.ViewError
 
 
-Cria um registo de erros modificado que não gera uma contingência quando acionado por um processador definido numa vista (através de Table.View).
+Cria um registo de erro modificado que não aciona uma contingência quando gerado por um processador definido numa vista (através de Table.View).
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Table.ViewError(
 
 ## Remarks
 
-Cria um registo de erros modificado a partir de <code>errorRecord</code>que não gera uma contingência quando acionado por um processador definido numa vista (através de Table.View).
+Cria um registo de erro modificado a partir de `errorRecord` que não aciona uma contingência quando gerado por um processador definido numa vista (através de Table.View).
 
 
 

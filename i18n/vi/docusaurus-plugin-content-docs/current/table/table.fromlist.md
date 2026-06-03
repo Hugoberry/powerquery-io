@@ -23,12 +23,12 @@ Table.FromList(
 
 ## Remarks
 
-Chuyển đổi danh sách <code>list</code> thành một bảng bằng cách áp dụng hàm tách tùy chọn <code>splitter</code> cho mỗi mục trong danh sách. Theo mặc định, danh sách được giả định là danh sách giá trị văn bản được tách bằng dấu phẩy. <code>columns</code> tùy chọn có thể là số lượng cột, danh sách cột hoặc TableType. <code>default</code> và <code>extraValues</code> tùy chọn cũng có thể được chỉ định.
+Chuyển đổi danh sách `list` thành một bảng bằng cách áp dụng hàm tách tùy chọn `splitter` cho mỗi mục trong danh sách. Theo mặc định, danh sách được giả định là danh sách giá trị văn bản được tách bằng dấu phẩy. `columns` tùy chọn có thể là số lượng cột, danh sách cột hoặc TableType. `default` và `extraValues` tùy chọn cũng có thể được chỉ định.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tạo bảng từ danh sách bằng trình phân tách mặc định.
 ```powerquery
 Table.FromList(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Tạo bảng từ danh sách bằng trình phân tách tùy chỉnh.
 ```powerquery
 Table.FromList(
@@ -70,7 +70,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Tạo bảng từ danh sách bằng trình phân tách Record.FieldValues.
 ```powerquery
 Table.FromList(

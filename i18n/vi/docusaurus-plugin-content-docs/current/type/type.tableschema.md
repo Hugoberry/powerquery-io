@@ -19,7 +19,9 @@ Type.TableSchema(
 
 ## Remarks
 
-Trả về bảng mô tả các cột của <code>tableType</code>.<br />Tham khảo tài liệu về <code>Table.Schema</code> để biết mô tả về bảng kết quả.<br />
+Trả về bảng mô tả các cột của `tableType`.
+
+Tham khảo tài liệu về `Table.Schema` để biết mô tả về bảng kết quả.
 
 
 

@@ -20,12 +20,12 @@ Record.FromList(
 
 ## Remarks
 
-Verilen alan değeri <code>list</code> öğesinden ve alan kümesinden bir kaydı döndürür.  <code>fields</code> metin değeri listesi veya kayıt türü ile belirtilebilir.  Alanlar benzersiz değilse, hata oluşur.
+Verilen alan değeri `list` öğesinden ve alan kümesinden bir kaydı döndürür. `fields` metin değeri listesi veya kayıt türü ile belirtilebilir. Alanlar benzersiz değilse bir hata oluşur.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bir alan değerleri listesinden ve alan adları listesinden kayıt oluşturur.
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, {"CustomerID", "Name", "Phone"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Bir alan değerleri listesinden ve kayıt türünden kayıt oluşturur.
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, type [CustomerID = number, Name = text, Phone = number])

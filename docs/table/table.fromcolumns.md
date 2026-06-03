@@ -20,12 +20,12 @@ Table.FromColumns(
 
 ## Remarks
 
-Creates a table of type <code>columns</code> from a list <code>lists</code> containing nested lists with the column names and values.    If some columns have more values then others, the missing values will be filled with the default value, 'null', if the columns are nullable.
+Creates a table of type `columns` from a list `lists` containing nested lists with the column names and values. If some columns have more values then others, the missing values will be filled with the default value, 'null', if the columns are nullable.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Return a table from a list of customer names in a list. Each value in the customer list item becomes a row value, and each list becomes a column.
 ```powerquery
 Table.FromColumns({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Create a table from a given list of columns and a list of column names.
 ```powerquery
 Table.FromColumns(
@@ -68,7 +68,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Create a table with different number of columns per row. The missing row value is null.
 ```powerquery
 Table.FromColumns(

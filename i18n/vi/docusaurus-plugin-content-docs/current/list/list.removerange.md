@@ -21,13 +21,13 @@ List.RemoveRange(
 
 ## Remarks
 
-Loại bỏ <code>count</code> giá trị trong <code>list</code> bắt đầu tại vị trí được chỉ định, <code>index</code>.
+Loại bỏ `count` giá trị trong `list` bắt đầu tại vị trí được chỉ định, `index`.
 
 
 ## Examples
 
-### Example #1 
-Loại bỏ 3 giá trị trong danh sách \{1, 2, 3, 4, -6, -2, -1, 5} bắt đầu tại chỉ mục 4.
+### Example #1
+Loại bỏ 3 giá trị trong danh sách \{1, 2, 3, 4, -6, -2, -1, 5\} bắt đầu tại chỉ mục 4.
 ```powerquery
 List.RemoveRange({1, 2, 3, 4, -6, -2, -1, 5}, 4, 3)
 ```

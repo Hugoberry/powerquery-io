@@ -19,7 +19,7 @@ DateTimeZone.FixedLocalNow(
 
 ## Remarks
 
-Devuelve un valor <code>datetime</code> establecido en la fecha y hora actuales según el sistema. El valor devuelto contiene la información de zona horaria que representa la zona horaria local. Este valor es fijo y no cambiará con las sucesivas llamadas, a diferencia de DateTimeZone.LocalNow, que puede devolver valores distintos durante la ejecución de una expresión.
+Devuelve un valor `datetime` establecido en la fecha y hora actuales según el sistema. El valor devuelto contiene la información de zona horaria que representa la zona horaria local. Este valor es fijo y no cambiará con las sucesivas llamadas, a diferencia de DateTimeZone.LocalNow, que puede devolver valores distintos durante la ejecución de una expresión.
 
 
 

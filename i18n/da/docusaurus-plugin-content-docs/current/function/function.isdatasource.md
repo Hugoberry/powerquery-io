@@ -19,7 +19,7 @@ Function.IsDataSource(
 
 ## Remarks
 
-Returnerer, om <code>function</code> betragtes som en datakilde.
+Returnerer, om `function` betragtes som en datakilde.
 
 
 

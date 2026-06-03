@@ -19,12 +19,12 @@ Number.IsEven(
 
 ## Remarks
 
-ระบุว่าค่า <code>number</code> เป็นเลขคู่หรือไม่โดยส่งกลับ <code>true</code> ถ้าเป็นเลขคู่ และ <code>false</code> ถ้าไม่ใช่
+ระบุว่าค่า `number` เป็นเลขคู่หรือไม่โดยส่งกลับ `true` ถ้าเป็นเลขคู่ และ `false` ถ้าไม่ใช่
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ตรวจสอบว่า 625 เป็นจำนวนคู่หรือไม่
 ```powerquery
 Number.IsEven(625)
@@ -36,7 +36,7 @@ false
 ```
 
 
-### Example #2 
+### Example #2
 ตรวจสอบว่า 82 เป็นจำนวนคู่หรือไม่
 ```powerquery
 Number.IsEven(82)

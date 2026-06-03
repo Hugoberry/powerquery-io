@@ -19,7 +19,7 @@ Hdfs.Contents(
 
 ## Remarks
 
-Bir Hadoop dosya sisteminden <code>url</code> klasör URL'sindeki her klasör ve dosya için bir satır içeren bir tablo döndürür. Her satır klasör veya dosyanın özelliklerini ve içeriğine yönelik bağlantı içerir.
+Bir Hadoop dosya sisteminden `url` klasör URL'sindeki her klasör ve dosya için bir satır içeren bir tablo döndürür. Her satır klasör veya dosyanın özelliklerini ve içeriğine yönelik bağlantı içerir.
 
 
 

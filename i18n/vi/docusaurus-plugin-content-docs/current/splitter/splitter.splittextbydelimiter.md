@@ -13,7 +13,8 @@ Trả về một hàm tách văn bản thành một danh sách văn bản theo d
 ```powerquery
 Splitter.SplitTextByDelimiter(
     delimiter as text,
-    optional quoteStyle as QuoteStyle.Type
+    optional quoteStyle as QuoteStyle.Type,
+    optional csvStyle as CsvStyle.Type
 ) as function
 ```
 
@@ -25,7 +26,7 @@ Trả về một hàm tách văn bản thành một danh sách văn bản theo d
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tách dữ liệu đầu vào bằng dấu phẩy, bỏ qua dấu phẩy trong trích dẫn.
 ```powerquery
 Splitter.SplitTextByDelimiter(",", QuoteStyle.Csv)("a,""b,c"",d")

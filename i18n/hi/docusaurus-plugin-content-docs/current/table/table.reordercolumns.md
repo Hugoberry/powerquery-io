@@ -21,13 +21,13 @@ Table.ReorderColumns(
 
 ## Remarks
 
-<code>columnOrder</code> द्वारा निर्दिष्ट क्रम में स्तंभों के साथ इनपुट <code>table</code> की एक तालिका लौटाता है. सूची में निर्दिष्ट न किए गए स्तंभों को पुनः क्रमबद्ध नहीं किया जाएगा.     यदि स्तंभ मौजूद नहीं होता है, तो जबतक वैकल्पिक पैरामीटर <code>missingField</code> कोई विकल्प निर्दिष्ट नहीं कर देता एक अपवाद दिखाया जाता है (उदाहरण <code>MissingField.UseNull</code> या <code>MissingField.Ignore</code>).
+इनपुट `table` से एक तालिका लौटाता है, जिसमें कॉलम `columnOrder` द्वारा निर्दिष्ट क्रम में होते हैं. जो कॉलम सूची में निर्दिष्ट नहीं हैं, उन्हें दोबारा क्रमित नहीं किया जाएगा. अगर कॉलम मौजूद नहीं है, तो एक त्रुटि आएगी, जब तक कि वैकल्पिक पैरामीटर `missingField` कोई दूसरा विकल्प निर्दिष्ट न करे (जैसे `MissingField.UseNull` या `MissingField.Ignore`).
 
 
 ## Examples
 
-### Example #1 
-तालिका में स्तंभ [Phone] और [Name] का क्रम बदलें.
+### Example #1
+तालिका में स्तंभ \[Phone\] और \[Name\] का क्रम बदलें.
 ```powerquery
 Table.ReorderColumns(
     Table.FromRecords({[CustomerID = 1, Phone = "123-4567", Name = "Bob"]}),
@@ -41,8 +41,8 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]})
 ```
 
 
-### Example #2 
-तालिका में स्तंभ [Phone] और [Address] का क्रम बदलें या &#34;MissingField.Ignore&#34; का उपयोग करें. यह तालिका को नहीं बदलता है क्योंकि स्तंभ [Address] मौजूद नहीं है.
+### Example #2
+तालिका में स्तंभ \[Phone\] और \[Address\] का क्रम बदलें या "MissingField.Ignore" का उपयोग करें. यह तालिका को नहीं बदलता है क्योंकि स्तंभ \[Address\] मौजूद नहीं है.
 ```powerquery
 Table.ReorderColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

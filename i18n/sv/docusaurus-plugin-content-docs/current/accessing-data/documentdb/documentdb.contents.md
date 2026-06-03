@@ -22,6 +22,6 @@ DocumentDB.Contents(
 
 ## Remarks
 
-Returnerar en tabell för Azure Cosmos DB-databaser på <code>url</code>. Om du anger <code>database</code> returneras istället en tabell över samlingar. Om dessutom fältet <code>Query</code> anges i posten <code>options</code> returneras resultatet för frågan som körs på den angivna databasen och/eller samlingen.
+Returnerar en tabell för Azure Cosmos DB-databaser på `url`. Om du anger `database` returneras istället en tabell över samlingar. Om dessutom fältet `Query` anges i posten `options` returneras resultatet för frågan som körs på den angivna databasen och/eller samlingen.
 
 

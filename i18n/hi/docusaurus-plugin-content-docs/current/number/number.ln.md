@@ -19,12 +19,12 @@ Number.Ln(
 
 ## Remarks
 
-संख्या, <code>number</code>, का प्राकृतिक लॉगेरिथ्म लौटाता है. यदि <code>number</code> नल है, तो <code>Number.Ln</code> नल लौटाता है.
+संख्या, `number`, का प्राकृतिक लॉगेरिथ्म लौटाता है. यदि `number` नल है, तो `Number.Ln` नल लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 15 का प्राकृतिक लघुगणक प्राप्त करें.
 ```powerquery
 Number.Ln(15)

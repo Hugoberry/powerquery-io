@@ -5,7 +5,7 @@ title: Table.Contains
 # Table.Contains
 
 
-Indique si l&#39;enregistrement spécifié s&#39;affiche sous la forme d&#39;une ligne dans la table.
+Indique si l'enregistrement spécifié s'affiche sous la forme d'une ligne dans la table.
 
 
 ## Syntax
@@ -21,12 +21,12 @@ Table.Contains(
 
 ## Remarks
 
-Indique si l'enregistrement spécifié <code>row</code> s'affiche sous la forme d'une ligne dans <code>table</code>.    Un paramètre facultatif <code>equationCriteria</code> peut être spécifié pour contrôler la comparaison entre les lignes de la table.
+Indique si l'enregistrement spécifié `row` s'affiche sous la forme d'une ligne dans `table`. Un paramètre facultatif `equationCriteria` peut être spécifié pour contrôler la comparaison entre les lignes de la table.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Détermine si la table contient la ligne.
 ```powerquery
 Table.Contains(
@@ -46,7 +46,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Détermine si la table contient la ligne.
 ```powerquery
 Table.Contains(
@@ -66,8 +66,8 @@ false
 ```
 
 
-### Example #3 
-Détermine si la table contient la ligne en comparant seulement la colonne [Name].
+### Example #3
+Détermine si la table contient la ligne en comparant seulement la colonne \[Name\].
 ```powerquery
 Table.Contains(
     Table.FromRecords({

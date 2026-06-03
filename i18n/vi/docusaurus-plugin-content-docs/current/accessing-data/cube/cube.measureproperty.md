@@ -20,7 +20,7 @@ Cube.MeasureProperty(
 
 ## Remarks
 
-Trả về thuộc tính <code>propertyName</code> của giá trị đo <code>measure</code>.
+Trả về thuộc tính `propertyName` của giá trị đo `measure`.
 
 
 

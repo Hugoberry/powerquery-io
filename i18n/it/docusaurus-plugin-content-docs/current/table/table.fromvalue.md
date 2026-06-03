@@ -20,12 +20,14 @@ Table.FromValue(
 
 ## Remarks
 
-Crea una tabella con una colonna contenente il valore o l'elenco di valori specificato, <code>value</code>. È possibile specificare un parametro di record facoltativo, <code>options</code>, per controllare le opzioni seguenti:    <ul>    <li> <code>DefaultColumnName</code>: nome di colonna usato durante la creazione di una tabella da un elenco o da un valore scalare.</li>    </ul>  
+Crea una tabella con una colonna contenente il valore o l'elenco di valori specificato, `value`. È possibile specificare un parametro di record facoltativo, `options`, per controllare le seguenti opzioni:
+
+-   `DefaultColumnName`: nome di colonna usato durante la creazione di una tabella da un elenco o da un valore scalare.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Creare una tabella dal valore 1.
 ```powerquery
 Table.FromValue(1)
@@ -37,8 +39,8 @@ Table.FromRecords({[Value = 1]})
 ```
 
 
-### Example #2 
-Creare una tabella dall&#39;elenco.
+### Example #2
+Creare una tabella dall'elenco.
 ```powerquery
 Table.FromValue({1, "Bob", "123-4567"})
 ```
@@ -53,7 +55,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Creare una tabella dal valore 1 con un nome di colonna personalizzato.
 ```powerquery
 Table.FromValue(1, [DefaultColumnName = "MyValue"])

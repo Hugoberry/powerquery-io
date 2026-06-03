@@ -22,13 +22,13 @@ Table.ExpandTableColumn(
 
 ## Remarks
 
-Развертывает таблицы в <code>table</code>[<code>column</code>] в несколько строк и столбцов. <code>columnNames</code> используется для выбора столбцов для развертывания из внутренней таблицы. Укажите <code>newColumnNames</code>, чтобы избежать конфликтов между существующими и новыми столбцами.
+Развертывает таблицы в `table`\[`column`\] в несколько строк и столбцов. `columnNames` используется для выбора столбцов для развертывания из внутренней таблицы. Укажите `newColumnNames`, чтобы избежать конфликтов между существующими и новыми столбцами.
 
 
 ## Examples
 
-### Example #1 
-Развернуть столбцы таблицы в &lt;code&gt;[a]&lt;/code&gt; в таблице &lt;code&gt;(\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]})&lt;/code&gt; в 3 столбца - &lt;code&gt;[t.a]&lt;/code&gt;, &lt;code&gt;[t.b]&lt;/code&gt; и &lt;code&gt;[t.c]&lt;/code&gt;.
+### Example #1
+Развернуть столбцы таблицы в `[a]` в таблице `({[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]})` в 3 столбца - `[t.a]`, `[t.b]` и `[t.c]`.
 ```powerquery
 Table.ExpandTableColumn(
     Table.FromRecords({

@@ -20,7 +20,7 @@ Cube.AttributeMemberProperty(
 
 ## Remarks
 
-ส่งกลับคุณสมบัติ <code>propertyName</code> ของแอตทริบิวต์มิติ <code>attribute</code>
+ส่งกลับคุณสมบัติ `propertyName` ของแอตทริบิวต์มิติ `attribute`
 
 
 

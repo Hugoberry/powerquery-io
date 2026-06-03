@@ -26,7 +26,7 @@ Returnerar innehållet i XML-dokumentet som en kapslad samling utplattade tabell
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hämta innehållet i en lokal XML-fil.
 ```powerquery
 Xml.Tables(File.Contents("C:\invoices.xml"))

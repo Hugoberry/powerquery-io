@@ -25,7 +25,7 @@ Returnerar en funktion som delar upp text i en lista med text vid varje angiven 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Dela indata vid de angivna positionerna med början från starten av indata.
 ```powerquery
 Splitter.SplitTextByPositions({0, 3, 4})("ABC|12345")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Dela indata vid de angivna positionerna, med början från slutet av indata.
 ```powerquery
 let

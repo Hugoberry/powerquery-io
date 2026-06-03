@@ -19,12 +19,12 @@ Binary.Buffer(
 
 ## Remarks
 
-Buffers the binary value in memory.  The result of this call is a stable binary value, which means it will have a deterministic length and order of bytes.
+Buffers the binary value in memory. The result of this call is a stable binary value, which means it will have a deterministic length and order of bytes.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Create a stable version of the binary value.
 ```powerquery
 Binary.Buffer(Binary.FromList({0..10}))

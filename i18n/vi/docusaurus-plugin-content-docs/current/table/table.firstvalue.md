@@ -20,7 +20,7 @@ Table.FirstValue(
 
 ## Remarks
 
-Trả về cột đầu tiên của hàng đầu tiên trong bảng <code>table</code> hoặc giá trị mặc định đã chỉ định.
+Trả về cột đầu tiên của hàng đầu tiên trong bảng `table` hoặc giá trị mặc định đã chỉ định.
 
 
 

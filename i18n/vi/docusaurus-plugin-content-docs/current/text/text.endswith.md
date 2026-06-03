@@ -21,13 +21,21 @@ Text.EndsWith(
 
 ## Remarks
 
-Cho biết văn bản đã chọn, <code>text</code>, có kết thúc bằng giá trị được chỉ định, <code>substring</code> hay không. Thông tin chỉ thị có phân biệt chữ hoa/chữ thường.      <div>        <code>comparer</code> là <code>Trình so sánh</code> dùng để kiểm soát phép so sánh. Có thể dùng các trình so sánh để cung cấp phép so sánh không phân biệt chữ hoa/chữ thường và có nhận thức về văn hóa và ngôn ngư.      </div>      <div>        Các trình so sánh cài sẵn sau đây được cung cấp bằng ngôn ngữ công thức:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: Dùng để tiến hành so sánh theo thứ tự chính xác</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: Dùng để tiến hành so sánh không phân biệt chữ hoa chữ thường theo thứ tự chính xác</li>        <li> <code>Comparer.FromCulture</code>: Dùng để tiến hành so sánh có nhận thức về văn hóa</li>      </ul>
+Cho biết văn bản đã chọn, `text`, có kết thúc bằng giá trị được chỉ định, `substring` hay không. Thông tin chỉ thị có phân biệt chữ hoa/chữ thường.
+
+`comparer` là `Trình so sánh` dùng để kiểm soát phép so sánh. Có thể dùng các trình so sánh để cung cấp phép so sánh không phân biệt chữ hoa/chữ thường và có nhận thức về văn hóa và ngôn ngư.
+
+Các trình so sánh cài sẵn sau đây được cung cấp bằng ngôn ngữ công thức:
+
+-   `Comparer.Ordinal`: Dùng để tiến hành so sánh theo thứ tự chính xác
+-   `Comparer.OrdinalIgnoreCase`: Dùng để tiến hành so sánh không phân biệt chữ hoa chữ thường theo thứ tự chính xác
+-   `Comparer.FromCulture`: Dùng để tiến hành so sánh có nhận thức về văn hóa
 
 
 ## Examples
 
-### Example #1 
-Kiểm tra &#34;Hello, World&#34; có kết thúc bằng &#34;world&#34; hay không.
+### Example #1
+Kiểm tra "Hello, World" có kết thúc bằng "world" hay không.
 ```powerquery
 Text.EndsWith("Hello, World", "world")
 ```
@@ -38,8 +46,8 @@ false
 ```
 
 
-### Example #2 
-Kiểm tra &#34;Hello, World&#34; có kết thúc bằng &#34;World&#34; hay không.
+### Example #2
+Kiểm tra "Hello, World" có kết thúc bằng "World" hay không.
 ```powerquery
 Text.EndsWith("Hello, World", "World")
 ```

@@ -19,7 +19,7 @@ Exchange.Contents(
 
 ## Remarks
 
-ส่งคืนตารางเนื้อหาจากบัญชี Microsoft Exchange <code>mailboxAddress</code> หากไม่มีการระบุ <code>mailboxAddress</code> จะมีการใช้บัญชีตามค่าเริ่มต้นสำหรับข้อมูลประจำตัว
+ส่งคืนตารางเนื้อหาจากบัญชี Microsoft Exchange `mailboxAddress` หากไม่มีการระบุ `mailboxAddress` จะมีการใช้บัญชีตามค่าเริ่มต้นสำหรับข้อมูลประจำตัว
 
 
 

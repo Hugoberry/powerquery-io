@@ -20,12 +20,15 @@ Binary.Decompress(
 
 ## Remarks
 
-Giải nén giá trị nhị phân bằng loại nén đã cho. Kết quả của lệnh gọi này là bản sao dữ liệu đầu vào ở dạng giải nén. Các loại nén bao  gồm:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
+Giải nén giá trị nhị phân bằng loại nén đã cho. Kết quả của lệnh gọi này là bản sao dữ liệu đầu vào ở dạng giải nén. Các loại nén bao gồm:
+
+-   `Compression.GZip`
+-   `Compression.Deflate`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Giải nén giá trị nhị phân.
 ```powerquery
 Binary.Decompress(#binary({115, 103, 200, 7, 194, 20, 134, 36, 134, 74, 134, 84, 6, 0}), Compression.Deflate)

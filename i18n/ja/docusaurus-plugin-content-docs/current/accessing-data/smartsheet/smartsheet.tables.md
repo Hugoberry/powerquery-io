@@ -19,12 +19,12 @@ Smartsheet.Tables(
 
 ## Remarks
 
-Smartsheet API から利用可能なシート、レポート、フォルダー、およびワークスペースの入れ子になったテーブルを返します。
+Smartsheet API から利用可能なシート、レポート、フォルダー、およびワークシートの入れ子になったテーブルを返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Smartsheet 階層の最上位レベルで利用可能なシート、フォルダー、レポート、ワークスペースを返します
 ```powerquery
 Smartsheet.Tables()

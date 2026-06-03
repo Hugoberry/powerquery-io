@@ -19,12 +19,12 @@ DateTime.Time(
 
 ## Remarks
 
-<code>dateTime</code> verilen datetime değerinin saat bölümünü döndürür.
+`dateTime` verilen datetime değerinin saat bölümünü döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 #datetime(2010, 12, 31, 11, 56, 02) değerinin saat değerini bulur.
 ```powerquery
 DateTime.Time(#datetime(2010, 12, 31, 11, 56, 02))

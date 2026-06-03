@@ -20,12 +20,12 @@ Number.Log(
 
 ## Remarks
 
-Retourne le logarithme d'un nombre, <code>number</code>, selon la base <code>base</code> spécifiée. Si <code>base</code> n'est pas spécifié, la valeur par défaut est Number.E.    Si <code>number</code> a la valeur Null, <code>Number.Log</code> retourne Null.
+Retourne le logarithme d'un nombre, `number`, selon la base `base` spécifiée. Si `base` n'est pas spécifié, la valeur par défaut est Number.E. Si `number` a la valeur Null, `Number.Log` retourne Null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Obtient le logarithme de base 10 de 2.
 ```powerquery
 Number.Log(2, 10)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Obtient le logarithme de base e de 2.
 ```powerquery
 Number.Log(2)

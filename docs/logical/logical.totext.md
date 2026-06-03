@@ -5,7 +5,7 @@ title: Logical.ToText
 # Logical.ToText
 
 
-Returns the text &#34;true&#34; or &#34;false&#34; given a logical value.
+Returns the text "true" or "false" given a logical value.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.ToText(
 
 ## Remarks
 
-Creates a text value from the logical value <code>logicalValue</code>, either <code>true</code> or <code>false</code>. If <code>logicalValue</code> is not a logical value, an exception is thrown.
+Creates a text value from the logical value `logicalValue`, either `true` or `false`. If `logicalValue` is not a logical value, an error is raised.
 
 
 ## Examples
 
-### Example #1 
-Create a text value from the logical &lt;code&gt;true&lt;/code&gt;.
+### Example #1
+Create a text value from the logical `true`.
 ```powerquery
 Logical.ToText(true)
 ```

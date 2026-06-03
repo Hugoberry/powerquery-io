@@ -20,12 +20,12 @@ Type.Is(
 
 ## Remarks
 
-<code>type1</code> の値が常に <code>type2</code> と互換性があるかどうかを判断します。
+`type1` の値が常に `type2` と互換性があるかどうかを決定します。パラメーター `type2` は、プリミティブ型 (または NULL 許容プリミティブ型) 型の値である必要があります。それ以外の場合、この関数の動作は定義されていないため、依存できません。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 number 型の値を常に any 型として扱うことができるかどうかを判断します。
 ```powerquery
 Type.Is(type number, type any)
@@ -37,7 +37,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 any 型の値を常に number 型として扱うことができるかどうかを判断します。
 ```powerquery
 Type.Is(type any, type number)

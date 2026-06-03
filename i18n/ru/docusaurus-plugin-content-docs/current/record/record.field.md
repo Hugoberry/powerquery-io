@@ -20,12 +20,12 @@ Record.Field(
 
 ## Remarks
 
-Возвращает значение указанного <code>field</code> в <code>record</code>. Если поле не найдено, возникает исключение.
+Возвращает значение указанного `field` в `record`. Если поле не найдено, генерируется ошибка.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Нахождение значения поля CustomerID в записи.
 ```powerquery
 Record.Field([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")

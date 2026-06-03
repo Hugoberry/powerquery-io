@@ -19,7 +19,7 @@ HdInsight.Contents(
 
 ## Remarks
 
-Zwraca tabelę nawigacji zawierającą wiersz każdego kontenera znalezionego pod adresem URL konta (<code>account</code>) z magazynu systemu Azure. Każdy wiersz zawiera link do obiektów blob kontenera.
+Zwraca tabelę nawigacji zawierającą wiersz każdego kontenera znalezionego pod adresem URL konta (`account`) z magazynu systemu Azure. Każdy wiersz zawiera link do obiektów blob kontenera.
 
 
 

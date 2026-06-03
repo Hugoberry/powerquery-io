@@ -20,13 +20,13 @@ Table.Column(
 
 ## Remarks
 
-Restituisce la colonna di dati specificata da <code>column</code> dalla tabella <code>table</code> come elenco.
+Restituisce la colonna di dati specificata da `column` dalla tabella `table` come elenco.
 
 
 ## Examples
 
-### Example #1 
-Restituisce i valori dalla colonna [Name] nella tabella.
+### Example #1
+Restituisce i valori dalla colonna \[Name\] nella tabella.
 ```powerquery
 Table.Column(
     Table.FromRecords({

@@ -24,8 +24,8 @@ Foretager et kald til Smartsheet 2.0 REST-API'en på det angivne slutpunkt og om
 
 ## Examples
 
-### Example #1 
-Udtrækker en tabel med brugeroplysninger fra Smartsheet-API&#39;en
+### Example #1
+Udtrækker en tabel med brugeroplysninger fra Smartsheet-API'en
 ```powerquery
 Smartsheet.Content("brugere")
 ```

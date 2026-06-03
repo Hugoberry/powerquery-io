@@ -5,7 +5,7 @@ title: List.Mode
 # List.Mode
 
 
-Restituisce il valore più frequente dell&#39;elenco.
+Restituisce il valore più frequente dell'elenco.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ List.Mode(
 
 ## Remarks
 
-Restituisce l'elemento più frequente dell'elenco <code>list</code>. Se l'elenco è vuoto viene generata un'eccezione. Se più elementi hanno la stessa frequenza massima, viene scelto l'ultimo elemento.    È possibile specificare un valore <code>comparisonCriteria</code> facoltativo <code>equationCriteria</code> per verificare il test di uguaglianza. 
+Restituisce l'elemento più ricorrente in `list`. Se l'elenco è vuoto, viene generato un errore. Se vengono visualizzati più elementi con la stessa frequenza massima, viene scelto l'ultimo elemento. È possibile specificare un valore facoltativo per i criteri di confronto, `equationCriteria`, per controllare i test di uguaglianza.
 
 
 ## Examples
 
-### Example #1 
-Trovare l&#39;elemento più frequente dell&#39;elenco &lt;code&gt;\{&#34;A&#34;, 1, 2, 3, 3, 4, 5}&lt;/code&gt;.
+### Example #1
+Trovare l'elemento più frequente dell'elenco `{"A", 1, 2, 3, 3, 4, 5}`.
 ```powerquery
 List.Mode({"A", 1, 2, 3, 3, 4, 5})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Trovare l&#39;elemento più frequente dell&#39;elenco &lt;code&gt;\{&#34;A&#34;, 1, 2, 3, 3, 4, 5, 5}&lt;/code&gt;.
+### Example #2
+Trovare l'elemento più frequente dell'elenco `{"A", 1, 2, 3, 3, 4, 5, 5}`.
 ```powerquery
 List.Mode({"A", 1, 2, 3, 3, 4, 5, 5})
 ```

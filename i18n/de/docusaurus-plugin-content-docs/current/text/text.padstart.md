@@ -21,12 +21,12 @@ Text.PadStart(
 
 ## Remarks
 
-Gibt einen <code>text</code>-Wert zurück, der durch Einfügen von Leerzeichen am Beginn des Textwerts "<code>text</code>" auf die Länge <code>count</code> aufgefüllt wird.    Das zum Auffüllen verwendete Zeichen kann mithilfe eines optionalen Zeichens (<code>character</code>) angegeben werden. Das standardmäßige Auffüllzeichen ist ein Leerzeichen.
+Gibt einen `text`\-Wert zurück, der durch Einfügen von Leerzeichen am Beginn des Textwerts "`text`" auf die Länge `count` aufgefüllt wird. Das zum Auffüllen verwendete Zeichen kann mithilfe eines optionalen Zeichens (`character`) angegeben werden. Das standardmäßige Auffüllzeichen ist ein Leerzeichen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Füllt den Beginn eines Textwerts auf, sodass der Wert zehn Zeichen lang wird.
 ```powerquery
 Text.PadStart("Name", 10)
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Füllt den Beginn eines Textwerts mit &#34;|&#34; auf, sodass der Wert zehn Zeichen lang wird.
+### Example #2
+Füllt den Beginn eines Textwerts mit "|" auf, sodass der Wert zehn Zeichen lang wird.
 ```powerquery
 Text.PadStart("Name", 10, "|")
 ```

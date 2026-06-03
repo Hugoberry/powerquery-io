@@ -19,12 +19,14 @@ Date.EndOfDay(
 
 ## Remarks
 
-Gibt das Ende des Tages, das durch <code>dateTime</code> dargestellt wird, zurück. Zeitzoneninformationen werden beibehalten.      <ul>        <li><code>dateTime</code>: A <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert, auf dessen Grundlage das Tagesende berechnet wird.</li>      </ul>
+Gibt das Ende des Tages, das durch `dateTime` dargestellt wird, zurück. Zeitzoneninformationen werden beibehalten.
+
+-   `dateTime`: A `date`\-, `datetime`\- oder `datetimezone`\-Wert, auf dessen Grundlage das Tagesende berechnet wird.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ruft das Ende des Tags für den 14.05.2011, 17:00:00 Uhr ab.
 ```powerquery
 Date.EndOfDay(#datetime(2011, 5, 14, 17, 0, 0))
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Ruft das Ende des Tags für den 17.05.2011, 17:00:00 Uhr (-7:00) ab.
 ```powerquery
 Date.EndOfDay(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0))

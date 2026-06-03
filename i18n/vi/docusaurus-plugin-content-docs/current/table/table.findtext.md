@@ -20,13 +20,13 @@ Table.FindText(
 
 ## Remarks
 
-Trả về các hàng trong bảng <code>table</code> chứa văn bản <code>text</code>. Nếu không tìm thấy văn bản này thì một bảng trống được trả về.
+Trả về các hàng trong bảng `table` chứa văn bản `text`. Nếu không tìm thấy văn bản này thì một bảng trống được trả về.
 
 
 ## Examples
 
-### Example #1 
-Tìm các hàng trong bảng chứa &#34;Bob&#34;.
+### Example #1
+Tìm các hàng trong bảng chứa "Bob".
 ```powerquery
 Table.FindText(
     Table.FromRecords({

@@ -21,12 +21,12 @@ DateTimeZone.SwitchZone(
 
 ## Remarks
 
-Cambia la información de zona horaria al valor de datetimezone <code>dateTimeZone</code> para la nueva información de zona horaria proporcionada por <code>timezoneHours</code> y, opcionalmente, <code>timezoneMinutes</code>.    Si <code>dateTimeZone</code> no tiene un componente de zona horaria, se inicia una excepción.
+Cambia la información de zona horaria al valor de datetimezone `dateTimeZone` para la nueva información de zona horaria proporcionada por `timezoneHours` y, opcionalmente, `timezoneMinutes`. Si `dateTimeZone` no tiene un componente de zona horaria, se produce un error.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Cambie la información de zona horaria para #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) a 8 horas.
 ```powerquery
 DateTimeZone.SwitchZone(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30), 8)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Cambiar la información de zona horaria para #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) a -30 minutos.
 ```powerquery
 DateTimeZone.SwitchZone(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30), 0, -30)

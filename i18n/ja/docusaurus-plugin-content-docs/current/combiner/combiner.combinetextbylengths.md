@@ -25,7 +25,7 @@ Combiner.CombineTextByLengths(
 
 ## Examples
 
-### Example #1 
+### Example #1
 各入力値から指定された文字数を抽出して、テキスト値のリストを結合します。
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3})({"aaa", "bbb", "ccc"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 最初に結果にテンプレート テキストを事前に入力した後に、指定された文字数を抽出して、テキスト値のリストを結合します。
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3}, "*********")({"aaa", "bbb", "ccc"})

@@ -20,13 +20,16 @@ Date.AddQuarters(
 
 ## Remarks
 
-Restituisce l'elemento <code>date</code>, <code>datetime</code> o <code>datetimezone</code> risultante dall'aggiunta di <code>numberOfQuarters</code> trimestri al valore <code>dateTime</code> di <code>datetime</code>.      <ul>      <li><code>dateTime</code>: il valore <code>date</code>, <code>datetime</code> o <code>datetimezone</code> a cui vengono aggiunti i trimestri.</li>      <li><code>numberOfQuarters</code>: il numero di trimestri da aggiungere.</li>      </ul>
+Restituisce l'elemento `date`, `datetime` o `datetimezone` risultante dall'aggiunta di `numberOfQuarters` trimestri al valore `dateTime` di `datetime`.
+
+-   `dateTime`: il valore `date`, `datetime` o `datetimezone` a cui vengono aggiunti i trimestri.
+-   `numberOfQuarters`: il numero di trimestri da aggiungere.
 
 
 ## Examples
 
-### Example #1 
-Aggiungere 1 trimestre al valore &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; o &lt;code&gt;datetimezone&lt;/code&gt; che rappresenta la data 14/5/2011.
+### Example #1
+Aggiungere 1 trimestre al valore `date`, `datetime` o `datetimezone` che rappresenta la data 14/5/2011.
 ```powerquery
 Date.AddQuarters(#date(2011, 5, 14), 1)
 ```

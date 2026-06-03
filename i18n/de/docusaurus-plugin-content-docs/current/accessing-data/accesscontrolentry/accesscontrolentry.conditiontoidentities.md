@@ -20,7 +20,9 @@ AccessControlEntry.ConditionToIdentities(
 
 ## Remarks
 
-"<code>condition</code>" wird unter Verwendung der angegebenen "<code>identityProvider</code>" in die Liste der Identitäten konvertiert, für die "<code>condition</code>" in allen Autorisierungskontexten mit "<code>identityProvider</code>" als Identitätsanbieter <code>TRUE</code> zurückgeben würde. Es kommt zu einem Fehler, wenn es nicht möglich ist, "<code>condition</code>" in eine Liste mit Identitäten zu konvertieren, z. B. wenn "<code>condition</code>" andere Attribute als Benutzer- oder Gruppenidentitäten für die Entscheidungsfindung heranzieht.<br />    Beachten Sie, dass die Liste die Identitäten darstellt, wie sie in "<code>condition</code>" erscheinen, und dass keine Normalisierung (z. B. eine Gruppenerweiterung) durchgeführt wird.<br />
+"`condition`" wird unter Verwendung der angegebenen "`identityProvider`" in die Liste der Identitäten konvertiert, für die "`condition`" in allen Autorisierungskontexten mit "`identityProvider`" als Identitätsanbieter `TRUE` zurückgeben würde. Es kommt zu einem Fehler, wenn es nicht möglich ist, "`condition`" in eine Liste mit Identitäten zu konvertieren, z. B. wenn "`condition`" andere Attribute als Benutzer- oder Gruppenidentitäten für die Entscheidungsfindung heranzieht.
+
+Beachten Sie, dass die Liste die Identitäten darstellt, wie sie in "`condition`" erscheinen, und dass keine Normalisierung (z. B. eine Gruppenerweiterung) durchgeführt wird.
 
 
 

@@ -24,7 +24,7 @@ Armazena em buffer o valor binário na memória. O resultado dessa chamada é um
 
 ## Examples
 
-### Example #1 
+### Example #1
 Crie uma versão estável do valor binário.
 ```powerquery
 Binary.Buffer(Binary.FromList({0..10}))

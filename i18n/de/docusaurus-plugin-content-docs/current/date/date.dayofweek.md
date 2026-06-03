@@ -20,13 +20,16 @@ Date.DayOfWeek(
 
 ## Remarks
 
-Hiermit wird eine Zahl (zwischen 0 und 6) zurückgegeben, die den Tag der Woche für den angegebenen Wert "<code>dateTime</code>" darstellt.  <ul>        <li><code>dateTime</code>: Ein <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert.</li>        <li><code>firstDayOfWeek</code>: Ein <code>Day</code>-Wert, der angibt, welcher Tag als erster Tag der Woche betrachtet werden soll. Zulässige Werte: Day.Sunday, Day.Monday, Day.Tuesday, Day.Wednesday, Day.Thursday, Day.Friday, Day.Saturday. Sofern nicht angegeben, wird der kulturabhängige Standardwert verwendet.</li>      </ul>
+Hiermit wird eine Zahl (zwischen 0 und 6) zurückgegeben, die den Tag der Woche für den angegebenen Wert "`dateTime`" darstellt.
+
+-   `dateTime`: Ein `date`\-, `datetime`\- oder `datetimezone`\-Wert.
+-   `firstDayOfWeek`: Ein `Day`\-Wert, der angibt, welcher Tag als erster Tag der Woche betrachtet werden soll. Zulässige Werte: Day.Sunday, Day.Monday, Day.Tuesday, Day.Wednesday, Day.Thursday, Day.Friday, Day.Saturday. Sofern nicht angegeben, wird der kulturabhängige Standardwert verwendet.
 
 
 ## Examples
 
-### Example #1 
-Ruft den Tag der Woche für &#34;Montag, 21. Februar 2011&#34; ab. Der Sonntag wird als erster Tag der Woche betrachtet.
+### Example #1
+Ruft den Tag der Woche für "Montag, 21. Februar 2011" ab. Der Sonntag wird als erster Tag der Woche betrachtet.
 ```powerquery
 Date.DayOfWeek(#date(2011, 02, 21), Day.Sunday)
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Ruft den Tag der Woche für &#34;Montag, 21. Februar 2011&#34; ab. Der Montag wird als erster Tag der Woche betrachtet.
+### Example #2
+Ruft den Tag der Woche für "Montag, 21. Februar 2011" ab. Der Montag wird als erster Tag der Woche betrachtet.
 ```powerquery
 Date.DayOfWeek(#date(2011, 02, 21), Day.Monday)
 ```

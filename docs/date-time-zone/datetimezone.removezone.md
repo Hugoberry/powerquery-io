@@ -19,13 +19,13 @@ DateTimeZone.RemoveZone(
 
 ## Remarks
 
-Returns a #datetime value from <code>dateTimeZone</code> with timezone information removed.
+Returns a #datetime value from `dateTimeZone` with timezone information removed.
 
 
 ## Examples
 
-### Example #1 
-Remove timezone information from the value  #datetimezone(2011, 12, 31, 9, 15, 36, -7, 0).
+### Example #1
+Remove timezone information from the value #datetimezone(2011, 12, 31, 9, 15, 36, -7, 0).
 ```powerquery
 DateTimeZone.RemoveZone(#datetimezone(2011, 12, 31, 9, 15, 36, -7, 0))
 ```

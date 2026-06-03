@@ -20,12 +20,12 @@ Number.RoundDown(
 
 ## Remarks
 
-<code>number</code> sayısının aşağı yuvarlama sonucunu önceki en yüksek tamsayıya döndürür. <code>number</code> null ise bu işlev null değerini döndürür.    <code>digits</code> belirtilmişse <code>number</code> belirtilen ondalık basamak sayısına yuvarlanır.  
+`number` sayısının aşağı yuvarlama sonucunu önceki en yüksek tamsayıya döndürür. `number` null ise bu işlev null değerini döndürür. `digits` belirtilmişse `number` belirtilen ondalık basamak sayısına yuvarlanır.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 1,234 değerini aşağı doğru tamsayıya yuvarlar.
 ```powerquery
 Number.RoundDown(1.234)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 1,999 değerini aşağı doğru tamsayıya yuvarlar.
 ```powerquery
 Number.RoundDown(1.999)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 1999 değerini iki onlu basamak aşağıya yuvarlayın.
 ```powerquery
 Number.RoundDown(1.999, 2)

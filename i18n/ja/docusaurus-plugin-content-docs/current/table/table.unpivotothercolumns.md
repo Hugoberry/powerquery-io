@@ -27,7 +27,7 @@ Table.UnpivotOtherColumns(
 
 ## Examples
 
-### Example #1 
+### Example #1
 指定されたセット以外のすべての列を属性/値のペアに変換します。その際、各行の残りの値と結合します。
 ```powerquery
 Table.UnpivotOtherColumns(

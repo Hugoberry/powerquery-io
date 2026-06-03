@@ -20,12 +20,12 @@ Table.Sort(
 
 ## Remarks
 
-Sorteert de <code>table</code> aan de hand van de lijst met een of een kolomnamen en optionele <code>comparisonCriteria</code> in de notatie \{ \{ col1, comparisonCriteria }, \{col2} }.
+Sorteert de `table` aan de hand van de lijst met een of een kolomnamen en optionele `comparisonCriteria` in de notatie \{ \{ col1, comparisonCriteria \}, \{col2\} \}.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De tabel op de kolom OrderID sorteren.
 ```powerquery
 Table.Sort(
@@ -60,7 +60,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 De tabel aflopend op de kolom OrderID sorteren.
 ```powerquery
 Table.Sort(
@@ -95,7 +95,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 De tabel op de kolom CustomerID en vervolgens OrderID aflopend op CustomerID sorteren.
 ```powerquery
 Table.Sort(

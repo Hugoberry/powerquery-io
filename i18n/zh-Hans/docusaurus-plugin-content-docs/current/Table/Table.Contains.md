@@ -21,12 +21,12 @@ Table.Contains(
 
 ## Remarks
 
-指示指定的记录 <code>row</code> 是否显示为 <code>table</code> 中的一行。    可以指定一个可选参数 <code>equationCriteria</code>，以控制表各行之间的比较。
+指示指定的记录 `row` 是否显示为 `table` 中的一行。 可以指定一个可选参数 `equationCriteria`，以控制表各行之间的比较。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 确定表是否包含行。
 ```powerquery
 Table.Contains(
@@ -46,7 +46,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 确定表是否包含行。
 ```powerquery
 Table.Contains(
@@ -66,8 +66,8 @@ false
 ```
 
 
-### Example #3 
-确定表是否包含只比较列 [Name] 的行。
+### Example #3
+确定表是否包含只比较列 \[Name\] 的行。
 ```powerquery
 Table.Contains(
     Table.FromRecords({

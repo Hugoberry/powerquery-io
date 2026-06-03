@@ -21,12 +21,12 @@ Table.Contains(
 
 ## Remarks
 
-Gibt an, ob der angegebene Datensatz (<code>row</code>) als Zeile in "<code>table</code>" vorkommt.    Der Vergleich zwischen den Zeilen der Tabelle kann mithilfe eines optionalen Parameters (<code>equationCriteria</code>) gesteuert werden.
+Gibt an, ob der angegebene Datensatz (`row`) als Zeile in "`table`" vorkommt. Der Vergleich zwischen den Zeilen der Tabelle kann mithilfe eines optionalen Parameters (`equationCriteria`) gesteuert werden.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ermittelt, ob die Tabelle die Zeile enthält.
 ```powerquery
 Table.Contains(
@@ -46,7 +46,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Ermittelt, ob die Tabelle die Zeile enthält.
 ```powerquery
 Table.Contains(
@@ -66,8 +66,8 @@ false
 ```
 
 
-### Example #3 
-Ermittelt, ob die Tabelle die Zeile enthält, wobei lediglich die Spalte &#34;[Name]&#34; verglichen wird.
+### Example #3
+Ermittelt, ob die Tabelle die Zeile enthält, wobei lediglich die Spalte "\[Name\]" verglichen wird.
 ```powerquery
 Table.Contains(
     Table.FromRecords({

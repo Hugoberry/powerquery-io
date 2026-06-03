@@ -21,12 +21,12 @@ List.Range(
 
 ## Remarks
 
-Retourneert een subset van de lijst, te beginnen bij de verschuiving <code>list</code>. Een optionele parameter, <code>offset</code>, stelt het maximum aantal items voor de subset in.
+Retourneert een subset van `list` vanaf `offset`. Een optionele parameter, `count`, stelt het maximum aantal items voor de subset in.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De subset opzoeken, te beginnen bij verschuiving 6 van de lijst met getallen van 1 t/m 10.
 ```powerquery
 List.Range({1..10}, 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 De subset met lengte 2 opzoeken vanaf verschuiving 6 van de lijst met getallen van 1 t/m 10.
 ```powerquery
 List.Range({1..10}, 6, 2)

@@ -25,7 +25,7 @@ Gibt eine Funktion zurück, die eine Liste von Textwerten unter Verwendung der a
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kombinieren Sie eine Liste von Textwerten, indem Sie die angegebene Anzahl von Zeichen aus jedem Eingabewert extrahieren.
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3})({"aaa", "bbb", "ccc"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Kombinieren Sie eine Liste von Textwerten, indem Sie die angegebene Anzahl von Zeichen extrahieren, nachdem Sie das Ergebnis zuerst mit dem Vorlagentext ausgefüllt haben.
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3}, "*********")({"aaa", "bbb", "ccc"})

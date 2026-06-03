@@ -19,13 +19,13 @@ Type.ClosedRecord(
 
 ## Remarks
 
-Retourneert een gesloten versie van het gegeven <code>record</code> <code>type</code> (of hetzelfde type indien dit reeds is gesloten).
+Retourneert een gesloten versie van het gegeven `record` `type` (of hetzelfde type indien dit reeds is gesloten).
 
 
 ## Examples
 
-### Example #1 
-Een gesloten versie maken van &lt;code&gt;type [ A = getal,…]&lt;/code&gt;.
+### Example #1
+Een gesloten versie maken van `type [ A = getal,...]`.
 ```powerquery
 Type.ClosedRecord(type [A = number, ...])
 ```

@@ -20,13 +20,13 @@ List.Union(
 
 ## Remarks
 
-<code>lists</code> liste listesini alır, her listedeki öğeleri birleştirir ve çıktı listesinde döndürür. Sonuç olarak, döndürülen liste tüm girdi listelerindeki bütün öğeleri içerir.    Bu işlem geleneksel torba semantiğini korur, böylece yinelenen değerler Birleşimin parçası olarak eşleştirilir.    Eşitlik sınamasını denetlemek için <code>equationCriteria</code> isteğe bağlı denklem ölçüt değeri belirtilebilir. 
+`lists` liste listesini alır, her listedeki öğeleri birleştirir ve çıktı listesinde döndürür. Sonuç olarak, döndürülen liste tüm girdi listelerindeki bütün öğeleri içerir. Bu işlem geleneksel torba semantiğini korur, böylece yinelenen değerler Birleşimin parçası olarak eşleştirilir. Eşitlik sınamasını denetlemek için `equationCriteria` isteğe bağlı denklem ölçüt değeri belirtilebilir.
 
 
 ## Examples
 
-### Example #1 
-\{1..5}, \{2..6}, \{3..7} listelerinin birleşimini oluşturur.
+### Example #1
+\{1..5\}, \{2..6\}, \{3..7\} listelerinin birleşimini oluşturur.
 ```powerquery
 List.Union({{1..5}, {2..6}, {3..7}})
 ```

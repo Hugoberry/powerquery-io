@@ -20,13 +20,13 @@ Table.MatchesAnyRows(
 
 ## Remarks
 
-Wskazuje, czy dowolne wiersze tabeli <code>table</code> spełniają dany warunek <code>condition</code>. Zwraca wartość <code>true</code>, jeśli dowolny wiersz spełnia warunek; w przeciwnym razie zwraca wartość <code>false</code>.
+Wskazuje, czy dowolne wiersze tabeli `table` spełniają dany warunek `condition`. Zwraca wartość `true`, jeśli dowolny wiersz spełnia warunek; w przeciwnym razie zwraca wartość `false`.
 
 
 ## Examples
 
-### Example #1 
-Ustal, czy dowolna z wartości wierszy w kolumnie [a] tabeli &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8]})&lt;/code&gt; jest parzysta.
+### Example #1
+Ustal, czy dowolna z wartości wierszy w kolumnie \[a\] tabeli `({[a = 2, b = 4], [a = 6, b = 8]})` jest parzysta.
 ```powerquery
 Table.MatchesAnyRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ false
 ```
 
 
-### Example #2 
-Ustal, czy dowolna z wartości wierszy w tabeli &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; jest równa [a = 1, b = 2].
+### Example #2
+Ustal, czy dowolna z wartości wierszy w tabeli `({[a = 1, b = 2], [a = 3, b = 4]})` jest równa \[a = 1, b = 2\].
 ```powerquery
 Table.MatchesAnyRows(
     Table.FromRecords({

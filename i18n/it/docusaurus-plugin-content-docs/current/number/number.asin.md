@@ -5,7 +5,7 @@ title: Number.Asin
 # Number.Asin
 
 
-Restituisce l&#39;arcoseno del numero.
+Restituisce l'arcoseno del numero.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Number.Asin(
 
 ## Remarks
 
-Restituisce l'arcoseno di <code>number</code>.
+Restituisce l'arcoseno di `number`.
 
 
 

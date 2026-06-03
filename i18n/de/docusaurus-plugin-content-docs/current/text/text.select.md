@@ -20,13 +20,13 @@ Text.Select(
 
 ## Remarks
 
-Gibt eine Kopie des Textwerts "<code>text</code>" zurück, in der alle nicht in "<code>selectChars</code>" enthaltenen Zeichen entfernt wurden.  
+Gibt eine Kopie des Textwerts "`text`" zurück, in der alle nicht in "`selectChars`" enthaltenen Zeichen entfernt wurden.
 
 
 ## Examples
 
-### Example #1 
-Wählen Sie aus dem Textwert alle Zeichen im Bereich von &#34;a&#34; bis &#34;z&#34; aus.
+### Example #1
+Wählen Sie aus dem Textwert alle Zeichen im Bereich von "a" bis "z" aus.
 ```powerquery
 Text.Select("a,b;c", {"a".."z"})
 ```

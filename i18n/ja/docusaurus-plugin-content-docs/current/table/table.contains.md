@@ -21,12 +21,12 @@ Table.Contains(
 
 ## Remarks
 
-指定されたレコード <code>row</code> が <code>table</code> に行として含まれているかどうかを示します。    省略可能なパラメーター <code>equationCriteria</code> を指定すると、テーブルの行と行の比較を制御できます。
+指定されたレコード `row` が `table` に行として含まれているかどうかを示します。 省略可能なパラメーター `equationCriteria` を指定すると、テーブルの行と行の比較を制御できます。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブルにその行が含まれているかどうかを調べます。
 ```powerquery
 Table.Contains(
@@ -46,7 +46,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 テーブルにその行が含まれているかどうかを調べます。
 ```powerquery
 Table.Contains(
@@ -66,8 +66,8 @@ false
 ```
 
 
-### Example #3 
-列 [Name] のみを比較して、テーブルにその行が含まれているかどうかを調べます。
+### Example #3
+列 \[Name\] のみを比較して、テーブルにその行が含まれているかどうかを調べます。
 ```powerquery
 Table.Contains(
     Table.FromRecords({

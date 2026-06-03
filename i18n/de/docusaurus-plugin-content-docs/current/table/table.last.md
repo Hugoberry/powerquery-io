@@ -20,12 +20,12 @@ Table.Last(
 
 ## Remarks
 
-Gibt die letzte Zeile des Elements vom Typ "<code>table</code>" zurück. Ist die Tabelle leer, wird ein optionaler Standardwert (<code>default</code>) zurückgegeben.
+Gibt die letzte Zeile des Elements vom Typ "`table`" zurück. Ist die Tabelle leer, wird ein optionaler Standardwert (`default`) zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ermittelt die letzte Zeile der Tabelle.
 ```powerquery
 Table.Last(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-Ermittelt die letzte Zeile der Tabelle &lt;code&gt;(\{})&lt;/code&gt; oder gibt &#34;[a = 0, b = 0]&#34; zurück, falls die Tabelle leer ist.
+### Example #2
+Ermittelt die letzte Zeile der Tabelle `({})` oder gibt "\[a = 0, b = 0\]" zurück, falls die Tabelle leer ist.
 ```powerquery
 Table.Last(Table.FromRecords({}), [a = 0, b = 0])
 ```

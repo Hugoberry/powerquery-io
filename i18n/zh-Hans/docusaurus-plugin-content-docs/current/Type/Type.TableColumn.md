@@ -20,7 +20,7 @@ Type.TableColumn(
 
 ## Remarks
 
-返回表类型 <code>tableType</code> 中列 <code>column</code> 的类型。
+返回表类型 `tableType` 中列 `column` 的类型。
 
 
 

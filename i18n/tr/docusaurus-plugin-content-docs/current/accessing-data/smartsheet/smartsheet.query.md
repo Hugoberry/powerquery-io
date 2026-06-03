@@ -5,7 +5,7 @@ title: Smartsheet.Query
 # Smartsheet.Query
 
 
-Smartsheet API&#39;sinden bir JSON sonucu döndürür
+Smartsheet API'sinden bir JSON sonucu döndürür
 
 
 ## Syntax
@@ -26,7 +26,7 @@ Belirtilen uç noktadan Smartsheet 2.0 REST API'sine çağrıda bulunur ve sonu�
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ek olarak belirtilen bağımsız değişkenlerle birlikte sayfalardaki Smartsheet API uç noktasından veri çeker
 ```powerquery
 Smartsheet.Content("sheets", "include=ownerInfo&includeAll=true", [])

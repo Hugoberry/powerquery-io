@@ -19,7 +19,7 @@ Type.Facets(
 
 ## Remarks
 
-返回一条包含 <code>type</code> 的 Facet 的记录。
+返回一条包含 `type` 的 Facet 的记录。
 
 
 

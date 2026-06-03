@@ -20,13 +20,13 @@ Table.MatchesAllRows(
 
 ## Remarks
 
-Gibt an, ob alle Zeilen im Element vom Typ "<code>table</code>" die Angabe "<code>condition</code>" erfüllen. Gibt <code>true</code> zurück, falls alle Zeilen die Bedingung erfüllen. Andernfalls wird <code>false</code> zurückgegeben.
+Gibt an, ob alle Zeilen im Element vom Typ "`table`" die Angabe "`condition`" erfüllen. Gibt `true` zurück, falls alle Zeilen die Bedingung erfüllen. Andernfalls wird `false` zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt, ob es sich bei allen Zeilenwerten in der Spalte &#34;[a]&#34; der Tabelle um gerade Werte handelt.
+### Example #1
+Ermittelt, ob es sich bei allen Zeilenwerten in der Spalte "\[a\]" der Tabelle um gerade Werte handelt.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ true
 ```
 
 
-### Example #2 
-Ermittelt, ob es sich bei allen Zeilenwerten der Tabelle &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; um &#34;[a = 1, b = 2]&#34; handelt.
+### Example #2
+Ermittelt, ob es sich bei allen Zeilenwerten der Tabelle `({[a = 1, b = 2], [a = 3, b = 4]})` um "\[a = 1, b = 2\]" handelt.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({

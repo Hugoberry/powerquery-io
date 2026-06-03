@@ -19,12 +19,14 @@ Date.IsInNextYear(
 
 ## Remarks
 
-Wskazuje, czy dana wartość daty/godziny <code>dateTime</code> przypada w następnym roku określonym zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w bieżącym roku.      <ul>      <li><code>dateTime</code>: wartość <code>date</code>, <code>datetime</code> lub <code>datetimezone</code> do oszacowania.</li>      </ul>
+Wskazuje, czy dana wartość daty/godziny `dateTime` przypada w następnym roku określonym zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w bieżącym roku.
+
+-   `dateTime`: wartość `date`, `datetime` lub `datetimezone` do oszacowania.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ustal, czy rok po aktualnej godzinie systemu wypada w następnym roku.
 ```powerquery
 Date.IsInNextYear(Date.AddYears(DateTime.FixedLocalNow(), 1))

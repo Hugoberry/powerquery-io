@@ -19,13 +19,13 @@ List.Combine(
 
 ## Remarks
 
-Faça uma lista das listas, <code>lists</code>, e mescle-as em uma única lista nova.
+Faça uma lista das listas, `lists`, e mescle-as em uma única lista nova.
 
 
 ## Examples
 
-### Example #1 
-Combine as duas listas simples \{1, 2} e \{3, 4}.
+### Example #1
+Combine as duas listas simples \{1, 2\} e \{3, 4\}.
 ```powerquery
 List.Combine({{1, 2}, {3, 4}})
 ```
@@ -41,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-Combine as duas listas, \{1, 2} e \{3, \{4, 5}}, uma delas contendo uma lista aninhada.
+### Example #2
+Combine as duas listas, \{1, 2\} e \{3, \{4, 5\}\}, uma delas contendo uma lista aninhada.
 ```powerquery
 List.Combine({{1, 2}, {3, {4, 5}}})
 ```

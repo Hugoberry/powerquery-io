@@ -23,13 +23,13 @@ Table.AddIndexColumn(
 
 ## Remarks
 
-Appends a column named <code>newColumnName</code> to the <code>table</code> with explicit position values.    An optional value, <code>initialValue</code>, the initial index value. An optional value, <code>increment</code>, specifies how much to increment each index value.
+Appends a column named `newColumnName` to the `table` with explicit position values. An optional value, `initialValue`, the initial index value. An optional value, `increment`, specifies how much to increment each index value.
 
 
 ## Examples
 
-### Example #1 
-Add an index column named &#34;Index&#34; to the table.
+### Example #1
+Add an index column named "Index" to the table.
 ```powerquery
 Table.AddIndexColumn(
     Table.FromRecords({
@@ -53,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Add an index column named &#34;index&#34;, starting at value 10 and incrementing by 5, to the table.
+### Example #2
+Add an index column named "index", starting at value 10 and incrementing by 5, to the table.
 ```powerquery
 Table.AddIndexColumn(
     Table.FromRecords({

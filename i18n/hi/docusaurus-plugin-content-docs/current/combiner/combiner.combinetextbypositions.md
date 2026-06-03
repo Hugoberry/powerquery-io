@@ -25,7 +25,7 @@ Combiner.CombineTextByPositions(
 
 ## Examples
 
-### Example #1 
+### Example #1
 टेक्स्ट मानों की सूची को निर्दिष्ट स्थितियों पर आउटपुट में रखकर संयोजित करें.
 ```powerquery
 Combiner.CombineTextByPositions({0, 5, 10})({"abc", "def", "ghi"})

@@ -19,12 +19,12 @@ Text.Clean(
 
 ## Remarks
 
-傳回移除所有控制字元 <code>text</code> 的文字值。
+傳回移除所有控制字元 `text` 的文字值。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 從文字值中移除換行字元以及其他控制字元。
 ```powerquery
 Text.Clean("ABC#(lf)D")

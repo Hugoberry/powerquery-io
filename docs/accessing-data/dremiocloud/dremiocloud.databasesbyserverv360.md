@@ -27,7 +27,7 @@ Returns a table listing the datasets on the specified server on Dremio Cloud. Th
 
 ## Examples
 
-### Example #1 
+### Example #1
 How to return the list of datasets on a server on Dremio Cloud.
 ```powerquery
 DremioCloud.DatabasesByServerV360("sql.dremio.cloud:443")

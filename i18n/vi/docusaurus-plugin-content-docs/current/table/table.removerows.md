@@ -21,12 +21,12 @@ Table.RemoveRows(
 
 ## Remarks
 
-Loại bỏ <code>count</code> hàng khỏi phần đầu của <code>table</code>, bắt đầu tại <code>offset</code> được chỉ định. Tổng số mặc định 1 được sử dụng nếu tham số <code>count</code> không được cung cấp. 
+Loại bỏ `count` hàng khỏi phần đầu của `table`, bắt đầu tại `offset` được chỉ định. Tổng số mặc định 1 được sử dụng nếu tham số `count` không được cung cấp.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Loại bỏ hàng đầu tiên khỏi bảng.
 ```powerquery
 Table.RemoveRows(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Loại bỏ hàng tại ví trị 1 khỏi bảng.
 ```powerquery
 Table.RemoveRows(
@@ -74,7 +74,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Loại bỏ hai hàng bắt đầu tại vị trí 1 khỏi bảng.
 ```powerquery
 Table.RemoveRows(

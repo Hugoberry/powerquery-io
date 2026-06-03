@@ -21,13 +21,13 @@ Text.Range(
 
 ## Remarks
 
-Retourne une sous-chaîne à partir du texte <code>text</code> trouvée au niveau du décalage <code>offset</code>.    Un paramètre facultatif, <code>count</code>, peut être inclus pour spécifier le nombre de caractères à retourner. Génère une erreur s'il n'y a pas suffisamment de caractères.
+Retourne une sous-chaîne à partir du texte `text` trouvée au niveau du décalage `offset`. Un paramètre facultatif, `count`, peut être inclus pour spécifier le nombre de caractères à retourner. Génère une erreur s’il n’y a pas suffisamment de caractères.
 
 
 ## Examples
 
-### Example #1 
-Recherche la sous-chaîne du texte &#34; Hello World &#34; en commençant à l&#39;index 6.
+### Example #1
+Recherche la sous-chaîne du texte "Hello World" en commençant à l'index 6.
 ```powerquery
 Text.Range("Hello World", 6)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Recherche la sous-chaîne du texte &#34; Hello World Hello &#34; en commençant à l&#39;index 6 et en fractionnant 5 caractères.
+### Example #2
+Recherche la sous-chaîne du texte "Hello World Hello" en commençant à l'index 6 et en fractionnant 5 caractères.
 ```powerquery
 Text.Range("Hello World Hello", 6, 5)
 ```

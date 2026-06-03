@@ -19,7 +19,7 @@ Value.Expression(
 
 ## Remarks
 
-Değerin ifadesini temsil eden bir soyut söz dizimi ağacını (AST) döndürür
+Değerin ifadesini temsil eden bir soyut söz dizimi ağacını (AST) döndürür.
 
 
 

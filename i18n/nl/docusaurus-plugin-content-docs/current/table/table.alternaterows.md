@@ -22,12 +22,17 @@ Table.AlternateRows(
 
 ## Remarks
 
-Houdt de aanvankelijke verschuiving aan en wisselt vervolgens tussen het accepteren en overslaan van de volgende rijen:    <ul>       <li><code>table</code>: de invoertabel.</li>       <li><code>offset</code>: het aantal rijen dat moet worden aangehouden voordat er met de herhalingen wordt begonnen.</li>       <li><code>skip</code>: het aantal rijen dat bij elke herhaling moet worden verwijderd.</li>       <li><code>take</code>: het aantal rijen dat bij elke herhaling moet worden bewaard.</li>    </ul>    
+Houdt de aanvankelijke verschuiving aan en wisselt vervolgens tussen het accepteren en overslaan van de volgende rijen:
+
+-   `table`: de invoertabel.
+-   `offset`: het aantal rijen dat moet worden aangehouden voordat er met de herhalingen wordt begonnen.
+-   `skip`: het aantal rijen dat bij elke herhaling moet worden verwijderd.
+-   `take`: het aantal rijen dat bij elke herhaling moet worden bewaard.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een tabel van de tabel retourneren die vanaf de eerste rij één waarde overslaat en vervolgens één waarde aanhoudt.
 ```powerquery
 Table.AlternateRows(

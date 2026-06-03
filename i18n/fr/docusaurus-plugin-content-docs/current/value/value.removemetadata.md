@@ -5,7 +5,7 @@ title: Value.RemoveMetadata
 # Value.RemoveMetadata
 
 
-Supprime l&#39;entrée de métadonnées.
+Supprime l'entrée de métadonnées.
 
 
 ## Syntax
@@ -21,6 +21,37 @@ Value.RemoveMetadata(
 ## Remarks
 
 Supprime l'entrée de métadonnées.
+
+
+## Examples
+
+### Example #1
+Supprimez toutes les métadonnées d’une valeur de texte.
+```powerquery
+Value.Metadata(
+    Value.RemoveMetadata("abc" meta [a = 1, b = 2])
+)
+```
+
+Result: 
+```powerquery
+[]
+```
+
+
+### Example #2
+Supprimez un seul champ de métadonnées d’une valeur de texte.
+```powerquery
+Value.Metadata(
+    Value.RemoveMetadata("abc" meta [a = 1, b = 2], {"a"})
+)
+```
+
+Result: 
+```powerquery
+[b = 2]
+```
+
 
 
 

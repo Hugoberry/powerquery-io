@@ -22,13 +22,18 @@ Table.PositionOfAny(
 
 ## Remarks
 
-Hiermee wordt/worden de positie(s) geretourneerd van de rij(en) van de <code>table</code> van de eerste herhaling van de lijst met <code>rows</code>. Retourneert -1 als er geen herhaling wordt gevonden. <ul> <li><code>table</code>: de invoertabel.</li> <li><code>rows</code>: de lijst met rijen in de tabel waarvoor de posities moeten worden gevonden.</li> <li><code>occurrence</code>: <i>[Optioneel]</i> Geeft aan welke herhalingen van de rij moeten worden geretourneerd.</li> <li><code>equationCriteria</code>: <i>[Optioneel]</i> Hiermee stuurt u de vergelijking tussen de tabelrijen aan.</li> </ul>    
+Hiermee wordt/worden de positie(s) geretourneerd van de rij(en) van de `table` van de eerste herhaling van de lijst met `rows`. Retourneert -1 als er geen exemplaar wordt gevonden.
+
+-   `table`: de invoertabel.
+-   `rows`: de lijst met rijen in de tabel waarvoor de posities moeten worden gevonden.
+-   `occurrence`: *\[Optioneel\]* Geeft aan welke herhalingen van de rij moeten worden geretourneerd.
+-   `equationCriteria`: *\[Optioneel\]* Hiermee stuurt u de vergelijking tussen de tabelrijen aan.
 
 
 ## Examples
 
-### Example #1 
-De positie zoeken van de eerste instantie van [a = 2, b = 4] of [a = 6, b = 8] in de tabel &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #1
+De positie zoeken van de eerste instantie van \[a = 2, b = 4\] of \[a = 6, b = 8\] in de tabel `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOfAny(
     Table.FromRecords({
@@ -50,8 +55,8 @@ Result:
 ```
 
 
-### Example #2 
-De positie zoeken van alle instanties van [a = 2, b = 4] of [a = 6, b = 8] in de tabel &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]}&lt;/code&gt;.
+### Example #2
+De positie zoeken van alle instanties van \[a = 2, b = 4\] of \[a = 6, b = 8\] in de tabel `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]}`.
 ```powerquery
 Table.PositionOfAny(
     Table.FromRecords({

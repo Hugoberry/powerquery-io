@@ -20,12 +20,12 @@ Table.First(
 
 ## Remarks
 
-Devuelve la primera fila de <code>table</code> o un valor predeterminado opcional, <code>default</code>, si la tabla está vacía.
+Devuelve la primera fila de `table` o un valor predeterminado opcional, `default`, si la tabla está vacía.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Buscar la primera fila de la tabla.
 ```powerquery
 Table.First(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-Buscar la primera fila de la tabla &lt;code&gt;(\{})&lt;/code&gt; o devolver [a = 0, b = 0] si está vacía.
+### Example #2
+Buscar la primera fila de la tabla `({})` o devolver \[a = 0, b = 0\] si está vacía.
 ```powerquery
 Table.First(Table.FromRecords({}), [a = 0, b = 0])
 ```

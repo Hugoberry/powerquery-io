@@ -22,13 +22,17 @@ List.Alternate(
 
 ## Remarks
 
-Bir listedeki tüm tek sayılı uzaklık öğelerinden oluşan bir liste döndürür. Parametrelere bağlı olarak <code>list</code> listesindeki değerleri alma veya atlama arasında geçiş yapar.    <ul>    <li><code>count</code>: Her defasında atlanan değerlerin sayısını belirtir.</li>    <li><code>repeatInterval</code>: Atlanan değerler arasına kaç değerin eklendiğini belirtmeye yönelik isteğe bağlı bir yineleme aralığı.</li>    <li><code>offset</code>: İlk uzaklıktaki değerleri atlamaya başlamaya yönelik bir isteğe bağlı uzaklık parametresi.</li>    </ul>
+Bir listedeki tüm tek sayılı uzaklık öğelerinden oluşan bir liste döndürür. Parametrelere bağlı olarak `list` listesindeki değerleri alma veya atlama arasında geçiş yapar.
+
+-   `count`: Her defasında atlanan değerlerin sayısını belirtir.
+-   `repeatInterval`: Atlanan değerler arasına kaç değerin eklendiğini belirtmeye yönelik isteğe bağlı bir yineleme aralığı.
+-   `offset`: İlk uzaklıktaki değerleri atlamaya başlamaya yönelik bir isteğe bağlı uzaklık parametresi.
 
 
 ## Examples
 
-### Example #1 
-\{1..10} listesinden ilk sayıyı atlayan bir liste oluşturur.
+### Example #1
+\{1..10\} listesinden ilk sayıyı atlayan bir liste oluşturur.
 ```powerquery
 List.Alternate({1..10}, 1)
 ```
@@ -39,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-\{1..10} listesinden tüm diğer sayıları atlayan bir liste oluşturur.
+### Example #2
+\{1..10\} listesinden tüm diğer sayıları atlayan bir liste oluşturur.
 ```powerquery
 List.Alternate({1..10}, 1, 1)
 ```
@@ -51,8 +55,8 @@ Result:
 ```
 
 
-### Example #3 
-\{1..10} listesinden 1 ile başlayıp tüm diğer sayıları atlayan bir liste oluşturur.
+### Example #3
+\{1..10\} listesinden 1 ile başlayıp tüm diğer sayıları atlayan bir liste oluşturur.
 ```powerquery
 List.Alternate({1..10}, 1, 1, 1)
 ```
@@ -63,8 +67,8 @@ Result:
 ```
 
 
-### Example #4 
-\{1..10} listesinden 1 ile başlayan, bir değeri atlayıp iki değeri saklayan ve bu şekilde devam eden bir liste oluşturur.
+### Example #4
+\{1..10\} listesinden 1 ile başlayan, bir değeri atlayıp iki değeri saklayan ve bu şekilde devam eden bir liste oluşturur.
 ```powerquery
 List.Alternate({1..10}, 1, 2, 1)
 ```

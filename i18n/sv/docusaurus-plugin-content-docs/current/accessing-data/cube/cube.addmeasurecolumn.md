@@ -21,7 +21,7 @@ Cube.AddMeasureColumn(
 
 ## Remarks
 
-Lägger till en kolumn med namnet <code>column</code> i <code>cube</code> som innehåller resultatet av måttet (<code>measureSelector</code>) som tillämpats i radkontexten för varje rad. Måttillämpning påverkas av ändringar i dimensionsgranularitet och uppdelning. Måttvärden justeras efter att vissa kubåtgärder utförs.
+Lägger till en kolumn med namnet `column` i `cube` som innehåller resultatet av måttet (`measureSelector`) som tillämpats i radkontexten för varje rad. Måttillämpning påverkas av ändringar i dimensionsgranularitet och uppdelning. Måttvärden justeras efter att vissa kubåtgärder utförs.
 
 
 

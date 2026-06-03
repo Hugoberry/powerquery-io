@@ -20,13 +20,13 @@ List.SingleOrDefault(
 
 ## Remarks
 
-Se è presente un solo elemento nell'elenco <code>list</code>, restituisce tale elemento.    Se l'elenco è vuoto, la funzione restituisce Null a meno che non sia specificato l'elemento facoltativo <code>default</code>. Se è presente più di un elemento nell'elenco, la funzione restituisce un errore.
+Se è presente un solo elemento nell'elenco `list`, restituisce tale elemento. Se l'elenco è vuoto, la funzione restituisce Null a meno che non sia specificato l'elemento facoltativo `default`. Se è presente più di un elemento nell'elenco, la funzione restituisce un errore.
 
 
 ## Examples
 
-### Example #1 
-Trovare il valore singolo nell&#39;elenco \{1}.
+### Example #1
+Trovare il valore singolo nell'elenco \{1\}.
 ```powerquery
 List.SingleOrDefault({1})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Trovare il valore singolo nell&#39;elenco \{}.
+### Example #2
+Trovare il valore singolo nell'elenco \{\}.
 ```powerquery
 List.SingleOrDefault({})
 ```
@@ -49,8 +49,8 @@ null
 ```
 
 
-### Example #3 
-Trovare il valore singolo nell&#39;elenco \{}. Se vuoto, restituire -1.
+### Example #3
+Trovare il valore singolo nell'elenco \{\}. Se vuoto, restituire -1.
 ```powerquery
 List.SingleOrDefault({}, -1)
 ```

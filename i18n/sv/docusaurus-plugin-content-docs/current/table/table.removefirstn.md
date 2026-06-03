@@ -20,12 +20,16 @@ Table.RemoveFirstN(
 
 ## Remarks
 
-Returnerar en tabell som inte innehåller det första angivna antalet rader, <code>countOrCondition</code>, i tabellen <code>table</code>.     Hur många rader som tas bort beror på den valfria parametern <code>countOrCondition</code>.    <ul>    <li> Om <code>countOrCondition</code> utelämnas tas bara den första raden bort. </li>    <li> Om <code>countOrCondition</code> är ett tal, tas så många rader (med början uppifrån) bort. </li>    <li> Om <code>countOrCondition</code> är ett villkor tas de rader som uppfyller villkoret bort tills en rad inte uppfyller villkoret.</li>    </ul>
+Returnerar en tabell som inte innehåller det första angivna antalet rader, `countOrCondition`, i tabellen `table`. Hur många rader som tas bort beror på den valfria parametern `countOrCondition`.
+
+-   Om `countOrCondition` utelämnas tas bara den första raden bort.
+-   Om `countOrCondition` är ett tal, tas så många rader (med början uppifrån) bort.
+-   Om `countOrCondition` är ett villkor tas de rader som uppfyller villkoret bort tills en rad inte uppfyller villkoret.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ta bort den första raden i tabellen.
 ```powerquery
 Table.RemoveFirstN(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Ta bort de två första raderna i tabellen.
 ```powerquery
 Table.RemoveFirstN(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Ta bort de första raderna där [CustomerID] &lt;=2 i tabellen.
+### Example #3
+Ta bort de första raderna där \[CustomerID\] &lt;=2 i tabellen.
 ```powerquery
 Table.RemoveFirstN(
     Table.FromRecords({

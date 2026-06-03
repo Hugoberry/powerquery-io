@@ -20,13 +20,13 @@ List.IsDistinct(
 
 ## Remarks
 
-Gibt einen logischen Wert zurück, der angibt, ob die Liste "<code>list</code>" Duplikate enthält: <code>true</code>, falls die Liste eindeutige Werte enthält, <code>false</code>, falls Duplikatwerte vorhanden sind. 
+Gibt einen logischen Wert zurück, der angibt, ob die Liste "`list`" Duplikate enthält: `true`, falls die Liste eindeutige Werte enthält, `false`, falls Duplikatwerte vorhanden sind.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt, ob die Liste &#34;\{1, 2, 3}&#34; eindeutige Werte (also keine Duplikate) enthält.
+### Example #1
+Ermittelt, ob die Liste "\{1, 2, 3\}" eindeutige Werte (also keine Duplikate) enthält.
 ```powerquery
 List.IsDistinct({1, 2, 3})
 ```
@@ -37,8 +37,8 @@ true
 ```
 
 
-### Example #2 
-Ermittelt, ob die Liste &#34;\{1, 2, 3, 3}&#34; eindeutige Werte (also keine Duplikate) enthält.
+### Example #2
+Ermittelt, ob die Liste "\{1, 2, 3, 3\}" eindeutige Werte (also keine Duplikate) enthält.
 ```powerquery
 List.IsDistinct({1, 2, 3, 3})
 ```

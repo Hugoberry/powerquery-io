@@ -21,12 +21,16 @@ List.TransformMany(
 
 ## Remarks
 
-Returnerar en lista vars element projiceras från indatalistan.<br />    <br />    Funktionen <code>collectionTransform</code> omvandlar varje element till en mellanliggande lista och funktionen <code>resultTransform</code> tar emot originalelementet samt ett objekt från den mellanliggande listan för att skapa det slutliga resultatet.<br />    <br />    Funktionen <code>collectionTransform</code> har signaturen <code>(x as any) som lista => ...</code>,  där <code>x</code> är ett element i <code>list</code>.    Funktionen <code>resultTransform</code> projicerar resultatets form och har signaturen <code>(x som vilken som helst, y som någon) som alla => ... </code>, där <code>x</code> är ett element i <code>list</code> och <code>y</code> är ett element från listan som genereras genom att skicka <code>x</code> till <code>collectionTransform</code>.
+Returnerar en lista vars element projiceras från indatalistan.  
+  
+Funktionen `collectionTransform` omvandlar varje element till en mellanliggande lista och funktionen `resultTransform` tar emot originalelementet samt ett objekt från den mellanliggande listan för att skapa det slutliga resultatet.  
+  
+Funktionen `collectionTransform` har signaturen `(x as any) som lista => ...`, där `x` är ett element i `list`. Funktionen `resultTransform` projicerar resultatets form och har signaturen `(x som vilken som helst, y som någon) som alla => ...` , där `x` är ett element i `list` och `y` är ett element från listan som genereras genom att skicka `x` till `collectionTransform`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Platta ut en lista över människor och deras husdjur.
 ```powerquery
 List.TransformMany(

@@ -5,7 +5,7 @@ title: List.TransformMany
 # List.TransformMany
 
 
-Retourne une liste dont les éléments sont transformés depuis la liste d&#39;entrée avec les fonctions spécifiées.
+Retourne une liste dont les éléments sont transformés depuis la liste d'entrée avec les fonctions spécifiées.
 
 
 ## Syntax
@@ -21,12 +21,16 @@ List.TransformMany(
 
 ## Remarks
 
-Retourne une liste dont les éléments sont projetés à partir de la liste d’entrée.<br />    <br />    La fonction <code>collectionTransform</code> transforme chaque élément en liste intermédiaire et la fonction <code>resultTransform</code> reçoit l’élément d’origine, ainsi qu’un élément de la liste intermédiaire afin de construire le résultat final.<br />    <br />    La fonction <code>collectionTransform</code> a la signature <code>(x as any) comme liste => ...</code>,  où <code>x</code> est un élément dans <code>list</code>.    La fonction <code>resultTransform</code> projette la forme du résultat et a la signature <code> (x as any, y as any) as any => ...</code>, où <code>x</code> est un élément dans <code>list</code> et <code>y</code> est un élément de la liste générée en passant <code>x</code> vers <code>collectionTransform</code>.
+Retourne une liste dont les éléments sont projetés à partir de la liste d’entrée.  
+  
+La fonction `collectionTransform` transforme chaque élément en liste intermédiaire et la fonction `resultTransform` reçoit l’élément d’origine, ainsi qu’un élément de la liste intermédiaire afin de construire le résultat final.  
+  
+La fonction `collectionTransform` a la signature `(x as any) comme liste => ...`, où `x` est un élément dans `list`. La fonction `resultTransform` projette la forme du résultat et a la signature `(x as any, y as any) as any => ...`, où `x` est un élément dans `list` et `y` est un élément de la liste générée en passant `x` vers `collectionTransform`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Effectuez un applatissement de la liste des personnes et de leurs animaux domestiques.
 ```powerquery
 List.TransformMany(

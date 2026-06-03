@@ -19,13 +19,15 @@ DateTime.ToRecord(
 
 ## Remarks
 
-Devuelve un registro que contiene los elementos del valor datetime especificado, <code>dateTime</code>. <ul>        <li><code>dateTime</code>: un valor <code>datetime</code> a partir del cual se calculará el registro de sus partes.</li>      </ul>
+Devuelve un registro que contiene los elementos del valor datetime especificado, `dateTime`.
+
+-   `dateTime`: un valor `datetime` a partir del cual se calculará el registro de sus partes.
 
 
 ## Examples
 
-### Example #1 
-Convertir el valor &lt;code&gt;#datetime(2011, 12, 31, 11, 56, 2)&lt;/code&gt; en un registro que contenga valores de fecha y hora.
+### Example #1
+Convertir el valor `#datetime(2011, 12, 31, 11, 56, 2)` en un registro que contenga valores de fecha y hora.
 ```powerquery
 DateTime.ToRecord(#datetime(2011, 12, 31, 11, 56, 2))
 ```

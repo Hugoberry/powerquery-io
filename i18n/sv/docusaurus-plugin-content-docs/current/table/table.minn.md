@@ -21,13 +21,16 @@ Table.MinN(
 
 ## Remarks
 
-Returnerar den eller de minsta raderna i <code>table</code> baserat på angivet <code>comparisonCriteria</code>. När raderna har sorterats måste parametern <code>countOrCondition</code> användas om du vill filtrera resultatet ytterligare. Parametern <code>countOrCondition</code> kan ha olika form:    <ul>        <li> Om ett tal anges returneras en lista med upp till <code>countOrCondition</code> objekt i stigande ordning. </li>        <li> Om ett villkor anges returneras en lista med objekt som inledningsvis uppfyller villkoret. Om ett objekt inte uppfyller villkoret utvärderas inga fler objekt. </li> </ul>
+Returnerar den eller de minsta raderna i `table` baserat på angivet `comparisonCriteria`. När raderna har sorterats måste parametern `countOrCondition` användas om du vill filtrera resultatet ytterligare. Parametern `countOrCondition` kan ha olika form:
+
+-   Om ett tal anges returneras en lista med upp till `countOrCondition` objekt i stigande ordning.
+-   Om ett villkor anges returneras en lista med objekt som inledningsvis uppfyller villkoret. Om ett objekt inte uppfyller villkoret utvärderas inga fler objekt.
 
 
 ## Examples
 
-### Example #1 
-Hitta raden med det minsta värdet i kolumnen [a] med villkoret [a] &lt; 3 i tabellen. Tänk på att raderna sorteras innan filtret tillämpas.
+### Example #1
+Hitta raden med det minsta värdet i kolumnen \[a\] med villkoret \[a\] &lt; 3 i tabellen. Tänk på att raderna sorteras innan filtret tillämpas.
 ```powerquery
 Table.MinN(
     Table.FromRecords({
@@ -49,8 +52,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Hitta raden med det minsta värdet i kolumnen [a] med villkoret [b] &lt; 0 i tabellen. Tänk på att raderna sorteras innan filtret tillämpas.
+### Example #2
+Hitta raden med det minsta värdet i kolumnen \[a\] med villkoret \[b\] &lt; 0 i tabellen. Tänk på att raderna sorteras innan filtret tillämpas.
 ```powerquery
 Table.MinN(
     Table.FromRecords({

@@ -21,13 +21,13 @@ List.Difference(
 
 ## Remarks
 
-Devuelve los elementos de la lista <code>list1</code> que no están en la lista <code>list2</code>. No se admiten valores duplicados.    Se puede especificar un valor opcional de criterios de ecuación (<code>equationCriteria</code>) para controlar la igualdad de las pruebas. 
+Devuelve los elementos de la lista `list1` que no están en la lista `list2`. No se admiten valores duplicados. Se puede especificar un valor opcional de criterios de ecuación (`equationCriteria`) para controlar la igualdad de las pruebas.
 
 
 ## Examples
 
-### Example #1 
-Buscar los elementos de la lista \{1, 2, 3, 4, 5} que no aparecen en \{4, 5, 3}.
+### Example #1
+Buscar los elementos de la lista \{1, 2, 3, 4, 5\} que no aparecen en \{4, 5, 3\}.
 ```powerquery
 List.Difference({1, 2, 3, 4, 5}, {4, 5, 3})
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Encuentra los elementos de la lista \{1, 2} que no aparecen en la lista \{1, 2, 3}.
+### Example #2
+Encuentra los elementos de la lista \{1, 2\} que no aparecen en la lista \{1, 2, 3\}.
 ```powerquery
 List.Difference({1, 2}, {1, 2, 3})
 ```

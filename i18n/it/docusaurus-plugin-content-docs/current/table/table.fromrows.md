@@ -5,7 +5,7 @@ title: Table.FromRows
 # Table.FromRows
 
 
-Crea una tabella da un elenco di valori di riga e colonne facoltative
+Crea una tabella da un elenco di valori di riga e colonne facoltative.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Table.FromRows(
 
 ## Remarks
 
-Crea una tabella dall'elenco <code>rows</code> in cui ogni elemento dell'elenco è un elenco interno contenente i valori di colonna per una singola riga. È possibile fornire un elenco facoltativo di nomi di colonna, un tipo di tabella o un numero di colonne come secondo argomento per <code>columns</code>.
+Crea una tabella dall'elenco `rows` in cui ogni elemento dell'elenco è un elenco interno contenente i valori di colonna per una singola riga. È possibile fornire un elenco facoltativo di nomi di colonna, un tipo di tabella o un numero di colonne come secondo argomento per `columns`.
 
 
 ## Examples
 
-### Example #1 
-Restituire una tabella con la colonna [CustomerID] con i valori \{1, 2}, la colonna [Name] con i valori \{&#34;Bob&#34;, &#34;Jim&#34;} e la colonna [Phone] con i valori \{&#34;123-4567&#34;, &#34;987-6543&#34;}.
+### Example #1
+Restituire una tabella con la colonna \[CustomerID\] con i valori \{1, 2\}, la colonna \[Name\] con i valori \{"Bob", "Jim"\} e la colonna \[Phone\] con i valori \{"123-4567", "987-6543"\}.
 ```powerquery
 Table.FromRows(
     {
@@ -46,8 +46,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Restituire una tabella con la colonna [CustomerID] con i valori \{1, 2}, la colonna [Name] con i valori \{&#34;Bob&#34;, &#34;Jim&#34;} e la colonna [Phone] con i valori \{&#34;123-4567&#34;, &#34;987-6543&#34;}, dove [CustomerID] è di tipo numerico e [Name] e [Phone] sono di tipo testo.
+### Example #2
+Restituire una tabella con la colonna \[CustomerID\] con i valori \{1, 2\}, la colonna \[Name\] con i valori \{"Bob", "Jim"\} e la colonna \[Phone\] con i valori \{"123-4567", "987-6543"\}, dove \[CustomerID\] è di tipo numerico e \[Name\] e \[Phone\] sono di tipo testo.
 ```powerquery
 Table.FromRows(
     {

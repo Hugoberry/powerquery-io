@@ -5,7 +5,7 @@ title: DateTime.IsInCurrentHour
 # DateTime.IsInCurrentHour
 
 
-Indica se questo valore di data/ora rientra nell&#39;ora corrente, come determinato dalla data e dall&#39;ora correnti del sistema.
+Indica se questo valore di data/ora rientra nell'ora corrente, come determinato dalla data e dall'ora correnti del sistema.
 
 
 ## Syntax
@@ -19,13 +19,15 @@ DateTime.IsInCurrentHour(
 
 ## Remarks
 
-Indica se il valore di data/ora specificato <code>dateTime</code> rientra nell'ora corrente, come determinato dalla data e dall'ora correnti del sistema.      <ul>      <li><code>dateTime</code>: valore <code>datetime</code>, o valore <code>datetimezone</code> da valutare.</li>      </ul>
+Indica se il valore di data/ora specificato `dateTime` rientra nell'ora corrente, come determinato dalla data e dall'ora correnti del sistema.
+
+-   `dateTime`: valore `datetime`, o valore `datetimezone` da valutare.
 
 
 ## Examples
 
-### Example #1 
-Determinare se l&#39;ora di sistema corrente rientra nell&#39;ora corrente.
+### Example #1
+Determinare se l'ora di sistema corrente rientra nell'ora corrente.
 ```powerquery
 DateTime.IsInCurrentHour(DateTime.FixedLocalNow())
 ```

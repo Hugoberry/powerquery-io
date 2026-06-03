@@ -20,13 +20,18 @@ Time.FromText(
 
 ## Remarks
 
-Tworzy wartość typu <code>time</code> z tekstowej reprezentacji, <code>text</code>. Aby określić dodatkowe właściwości można podać opcjonalny parametr <code>rekordu</code>, <code>options</code>. Parametr <code>rekordu</code> może zawierać następujące pola:<ul>  <li><code>Format</code>: wartość <code>tekstowa</code> wskazująca format, który ma być użyty. Aby uzyskać więcej szczegółów, przejdź do strony https://go.microsoft.com/fwlink/?linkid=2180104 i https://go.microsoft.com/fwlink/?linkid=2180105. Pominięcie tego pola lub podanie wartości <code>null</code> spowoduje analizę daty przy użyciu optymalnego rozwiązania.</li>   <li><code>Culture</code>: gdy parametr <code>Format</code> nie ma wartości null, parametr <code>Culture</code> kontroluje niektóre specyfikatory formatu. Na przykład w przypadku parametru <code> „en-US”</code> format <code>„tt”</code> ma wartości <code>„AM” lub „PM”</code>, natomiast w przypadku parametru <code>„ar-EG”</code>format<code>„tt”</code> ma wartości <code>„ص” lub „م”</code>. Gdy parametr <code>Format</code> ma wartość <code>null</code>, parametr <code>Culture</code> kontroluje domyślny format, który ma być użyty. Gdy parametr <code>Culture</code> ma wartość <code>null</code> lub jest pominięty, zostanie użyta funkcja <code>Culture.Current</code>.</li></ul>Aby obsługiwać starsze przepływy pracy, wartościami tekstowymi mogą być również <code>options</code>.  Zachowanie jest takie same jak w przypadku <code>options</code><code> = [Format = null, Culture = <code>options</code>]</code>.
+Tworzy wartość `time` z tekstowej reprezentacji, `text`. Aby określić dodatkowe właściwości można podać opcjonalny parametr `record`, `options`. Parametr `record` może zawierać następujące pola:
+
+-   `Format`: wartość `text` wskazująca format do użycia. Aby uzyskać więcej szczegółów, przejdź do stron https://go.microsoft.com/fwlink/?linkid=2180104 i https://go.microsoft.com/fwlink/?linkid=2180105. Pominięcie tego pola lub podanie wartości `null` spowoduje analizę czasu przy użyciu najlepszego rozwiązania.
+-   `Culture`: gdy parametr `Format` nie ma wartości null, parametr `Culture` kontroluje niektóre specyfikatory formatu. Na przykład w przypadku parametru `„en-US”` format `„tt”` ma wartości `„AM” lub „PM”`, natomiast w przypadku parametru `„ar-EG”`format`„tt”` ma wartości `„ص” lub „م”`. Gdy `Format` ma wartość `null`, parametr `Culture` kontroluje domyślny format do użycia. Gdy parametr `Culture` ma wartość `null` lub jest pominięty, zostanie użyty parametr `Culture.Current`.
+
+Aby obsługiwać starsze przepływy pracy, `options` może być również wartością tekstową. Zachowuje się on tak samo, jak `options = [Format = null, Culture = options]`.
 
 
 ## Examples
 
-### Example #1 
-Przekonwertuj wartość &lt;code&gt;&#34;10:12:31am&#34;&lt;/code&gt; na wartość godziny.
+### Example #1
+Przekonwertuj wartość `"10:12:31am"` na wartość godziny.
 ```powerquery
 Time.FromText("10:12:31am")
 ```
@@ -37,8 +42,8 @@ Result:
 ```
 
 
-### Example #2 
-Przekonwertuj wartość &lt;code&gt;&#34;1012&#34;&lt;/code&gt; na wartość typu Time.
+### Example #2
+Przekonwertuj wartość `"1012"` na wartość typu Time.
 ```powerquery
 Time.FromText("1012")
 ```
@@ -49,8 +54,8 @@ Result:
 ```
 
 
-### Example #3 
-Przekonwertuj wartość &lt;code&gt;&#34;10&#34;&lt;/code&gt; na wartość typu Time.
+### Example #3
+Przekonwertuj wartość `"10"` na wartość typu Time.
 ```powerquery
 Time.FromText("10")
 ```

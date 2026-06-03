@@ -21,12 +21,12 @@ Marketo.Leads(
 
 ## Remarks
 
-Makes a call to the Marketo REST API endpoint at <code>url</code>/rest/v1/leads.json. All leads in list <code>leadIds</code> are returned.
+Makes a call to the Marketo REST API endpoint at `url`/rest/v1/leads.json. All leads in list `leadIds` are returned.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Pulls the details for three leads
 ```powerquery
 Marketo.Leads("https://100-AAA-999.mktorest.com/rest", {50, 2343, 88498})

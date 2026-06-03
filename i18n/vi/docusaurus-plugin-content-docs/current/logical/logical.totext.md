@@ -5,7 +5,7 @@ title: Logical.ToText
 # Logical.ToText
 
 
-Trả về văn bản &#34;true&#34; hoặc &#34;false&#34; khi được cho sẵn một giá trị lôgic.
+Trả về văn bản "true" hoặc "false" khi được cho sẵn một giá trị lôgic.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.ToText(
 
 ## Remarks
 
-Tạo một giá trị văn bản từ giá trị lôgic <code>logicalValue</code>, <code>true</code> hoặc <code>false</code>. Nếu <code>logicalValue</code> không phải là giá trị lôgic thì một ngoại lệ được đưa ra.
+Tạo một giá trị văn bản từ giá trị lôgic `logicalValue`, `true` hoặc `false`. Nếu `logicalValue` không phải là giá trị lôgic thì lỗi sẽ xuất hiện.
 
 
 ## Examples
 
-### Example #1 
-Tạo một giá trị văn bản từ &lt;code&gt;true&lt;/code&gt; lôgic.
+### Example #1
+Tạo một giá trị văn bản từ `true` lôgic.
 ```powerquery
 Logical.ToText(true)
 ```

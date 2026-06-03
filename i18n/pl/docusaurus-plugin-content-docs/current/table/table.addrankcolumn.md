@@ -22,12 +22,12 @@ Table.AddRankColumn(
 
 ## Remarks
 
-Dołącza kolumnę o nazwie <code>newColumnName</code> do <code>table</code> z klasyfikacją co najmniej jednej innej kolumny opisanej przez <code>comparisonCriteria</code>.Opcja RodzajKlasyfikacji w <code>options</code> może być używana przez zaawansowanych użytkowników do wybrania bardziej szczegółowej metody klasyfikacji.
+Dołącza kolumnę o nazwie `newColumnName` do `table` z klasyfikacją co najmniej jednej innej kolumny opisanej przez `comparisonCriteria`. Opcja RodzajKlasyfikacji w `options` może być używana przez zaawansowanych użytkowników do wybrania bardziej szczegółowej metody klasyfikacji.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Dodaj kolumnę o nazwie „KlasyfikacjaPrzychodów” do tabeli, która szereguje kolumnę „Przychody” od tej z wartością najwyższą do najniższej.
 ```powerquery
 Table.AddRankColumn(

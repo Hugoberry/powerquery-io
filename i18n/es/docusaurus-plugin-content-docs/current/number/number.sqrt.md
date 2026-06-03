@@ -19,12 +19,12 @@ Number.Sqrt(
 
 ## Remarks
 
-Devuelve la raíz cuadrada de <code>number</code>.    Si <code>number</code> es "null", <code>Number.Sqrt</code> devuelve "null". Si es un valor negativo, se devuelve <code>Number.NaN</code> (no es un número).
+Devuelve la raíz cuadrada de `number`. Si `number` es "null", `Number.Sqrt` devuelve "null". Si es un valor negativo, se devuelve `Number.NaN` (no es un número).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hallar la raíz cuadrada de 625.
 ```powerquery
 Number.Sqrt(625)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Hallar la raíz cuadrada de 85.
 ```powerquery
 Number.Sqrt(85)

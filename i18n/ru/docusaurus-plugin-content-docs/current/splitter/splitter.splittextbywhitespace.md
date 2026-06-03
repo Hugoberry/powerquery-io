@@ -24,7 +24,7 @@ Splitter.SplitTextByWhitespace(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Разделение входных данных пробелами с обработкой кавычек как любых других символов.
 ```powerquery
 Splitter.SplitTextByWhitespace(QuoteStyle.None)("a b#(tab)c")

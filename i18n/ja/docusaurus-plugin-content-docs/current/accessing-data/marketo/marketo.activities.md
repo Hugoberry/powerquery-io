@@ -21,13 +21,13 @@ Marketo.Activities(
 
 ## Remarks
 
-<code>url</code>/rest/v1/activities.json の Marketo REST API エンドポイントに対する呼び出しを行います。<code>activityIds</code> に含まれるアクティビティのうち、<code>startTime</code>以降に発生したすべてのアクティビティは返されます。
+`url`/rest/v1/activities.json の Marketo REST API エンドポイントに対する呼び出しを行います。`activityIds` に含まれるアクティビティのうち、`startTime`以降に発生したすべてのアクティビティは返されます。
 
 
 ## Examples
 
-### Example #1 
-2015 年 11 月 1 日以降の &#34;ウェブページ訪問&#34; アクティビティのテーブルを取得します
+### Example #1
+2015 年 11 月 1 日以降の "ウェブページ訪問" アクティビティのテーブルを取得します
 ```powerquery
 Marketo.Activities("https://100-AAA-999.mktorest.com/rest", #date(2015,11,1), {1})
 ```

@@ -24,7 +24,7 @@ Zwraca listę dostępnych raportów i miesięcy z interfejsu API usługi Azure E
 
 ## Examples
 
-### Example #1 
+### Example #1
 Użycie funkcji AzureEnterprise.Tables i przejście do konkretnej wartości w celu uzyskania wyników.
 ```powerquery
 let

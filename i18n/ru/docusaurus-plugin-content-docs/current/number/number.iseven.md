@@ -19,12 +19,12 @@ Number.IsEven(
 
 ## Remarks
 
-Указывает, четно ли значение <code>number</code>, возвращая <code>true</code>, если оно четно, и <code>false</code> - в противном случае.
+Указывает, четно ли значение `number`, возвращая `true`, если оно четно, и `false` - в противном случае.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Проверить, четно ли число 625.
 ```powerquery
 Number.IsEven(625)
@@ -36,7 +36,7 @@ false
 ```
 
 
-### Example #2 
+### Example #2
 Проверить, четно ли число 82.
 ```powerquery
 Number.IsEven(82)

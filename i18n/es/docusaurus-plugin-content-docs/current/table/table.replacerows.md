@@ -22,12 +22,17 @@ Table.ReplaceRows(
 
 ## Remarks
 
-Sustituye un número de filas especificado, <code>count</code>, en la entrada <code>table</code> con la <code>rows</code> especificada, a partir de <code>offset</code>. El parámetro <code>rows</code> es una lista de registros.    <ul>       <li><code>table</code>: la tabla donde se realiza el reemplazo.</li>       <li><code>offset</code>: el nNúmero de filas que se omitirán antes de hacer el reemplazo.</li>       <li><code>count</code>: el número de filas que se reemplazan.</li>       <li><code>rows</code>: la lista de registros de fila que se insertan en la <code>table</code> en la ubicación especificada por <code>offset</code>.</li>    </ul>
+Sustituye un número de filas especificado, `count`, en la entrada `table` con la `rows` especificada, a partir de `offset`. El parámetro `rows` es una lista de registros.
+
+-   `table`: la tabla donde se realiza el reemplazo.
+-   `offset`: el nNúmero de filas que se omitirán antes de hacer el reemplazo.
+-   `count`: el número de filas que se reemplazan.
+-   `rows`: la lista de registros de fila que se insertan en la `table` en la ubicación especificada por `offset`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 A partir de la posición 1, reemplazar 3 filas.
 ```powerquery
 Table.ReplaceRows(

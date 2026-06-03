@@ -19,13 +19,13 @@ Text.ToList(
 
 ## Remarks
 
-दिए गए पाठ मान <code>text</code> से वर्ण मानों की सूची लौटाता है.
+दिए गए पाठ मान `text` से वर्ण मानों की सूची लौटाता है.
 
 
 ## Examples
 
-### Example #1 
-पाठ &#34;Hello World&#34; से वर्ण मानों की सूची बनाएँ.
+### Example #1
+पाठ "Hello World" से वर्ण मानों की सूची बनाएँ.
 ```powerquery
 Text.ToList("Hello World")
 ```

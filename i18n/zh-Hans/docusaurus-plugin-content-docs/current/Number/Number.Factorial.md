@@ -19,12 +19,12 @@ Number.Factorial(
 
 ## Remarks
 
-返回数 <code>number</code> 的阶乘。
+返回数 `number` 的阶乘。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 计算 10 的阶乘。
 ```powerquery
 Number.Factorial(10)

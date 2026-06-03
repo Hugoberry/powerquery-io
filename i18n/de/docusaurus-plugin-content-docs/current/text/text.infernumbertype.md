@@ -20,7 +20,7 @@ Text.InferNumberType(
 
 ## Remarks
 
-Leitet den granularen Zahlentyp (Int64.Type, Double.Type usw.) von <code>text</code> ab. Ein Fehler wird ausgelöst, wenn <code>text</code> keine Zahl ist. Optional kann auch ein Element vom Typ <code>culture</code> angegeben werden (Beispiel: "en-US").
+Leitet den granularen Zahlentyp (Int64.Type, Double.Type usw.) von `text` ab. Ein Fehler wird ausgelöst, wenn `text` keine Zahl ist. Optional kann auch ein Element vom Typ `culture` angegeben werden (Beispiel: "en-US").
 
 
 

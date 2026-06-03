@@ -25,7 +25,7 @@ Table.ToList(
 
 ## Examples
 
-### Example #1 
+### Example #1
 प्रत्येक पंक्ति के पाठ को अर्द्धविराम के साथ संयोजित करें.
 ```powerquery
 Table.ToList(

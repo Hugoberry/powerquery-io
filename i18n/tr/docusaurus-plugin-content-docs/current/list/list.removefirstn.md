@@ -20,13 +20,17 @@ List.RemoveFirstN(
 
 ## Remarks
 
-<code>list</code> listesinin ilk öğesini kaldıran bir liste döndürür. <code>list</code> boş bir liste ise boş bir liste döndürülür.Bu işlev, aşağıda listelenen şekilde birden çok değeri kaldırmayı desteklemek üzere <code>countOrCondition</code> isteğe bağlı parametresini alır. <ul> <li>Sayı belirtilirse bu sayı kadar öğe kaldırılır. </li> <li>Bir koşul belirtilirse döndürülen liste <code>list</code> içinde ölçütle eşleşen ilk öğe ile başlar. Bir öğe koşulu sağlamadığında, diğer öğeler değerlendirilmez. </li> <li>Bu parametre null ise varsayılan davranış gözlenir. </li> </ul>
+`list` listesinin ilk öğesini kaldıran bir liste döndürür. Eğer `list` boş bir liste ise boş bir liste döndürülür. Bu işlev, aşağıda listelendiği gibi birden fazla değerin kaldırılmasını desteklemek için isteğe bağlı bir parametre (`countOrCondition`) alır.
+
+-   Bir sayı belirtilirse, o kadar öğe kaldırılır.
+-   Bir koşul belirtilirse, `list` başındaki eşleşen tüm öğeler kaldırılır.
+-   Bu parametre null ise varsayılan davranış gözlemlenir.
 
 
 ## Examples
 
-### Example #1 
-\{1, 2, 3, 4, 5} listesinden ilk 3 sayı hariç olmak üzere liste oluşturur.
+### Example #1
+\{1, 2, 3, 4, 5\} listesinden ilk 3 sayı hariç olmak üzere liste oluşturur.
 ```powerquery
 List.RemoveFirstN({1, 2, 3, 4, 5}, 3)
 ```
@@ -37,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-\{5, 4, 2, 6, 1} listesinden 3&#39;ten az olan bir sayı ile başlayan bir liste oluşturur.
+### Example #2
+\{5, 4, 2, 6, 1\} listesinden 3'ten az olan bir sayı ile başlayan bir liste oluşturur.
 ```powerquery
 List.RemoveFirstN({5, 4, 2, 6, 1}, each _ > 3)
 ```

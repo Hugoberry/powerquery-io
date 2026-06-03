@@ -19,12 +19,12 @@ Record.FieldValues(
 
 ## Remarks
 
-Returnerar en lista med fältvärdena i posten <code>record</code>.
+Returnerar en lista med fältvärdena i posten `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta fältvärdena i posten.
 ```powerquery
 Record.FieldValues([CustomerID = 1, Name = "Bob", Phone = "123-4567"])

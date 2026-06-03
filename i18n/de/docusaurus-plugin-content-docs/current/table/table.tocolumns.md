@@ -19,12 +19,12 @@ Table.ToColumns(
 
 ## Remarks
 
-Erstellt eine Liste mit geschachtelten Listen aus der Tabelle "<code>table</code>".  Jedes Listenelement ist eine innere Liste mit den Spaltenwerten.
+Erstellt eine Liste mit geschachtelten Listen aus der Tabelle "`table`". Jedes Listenelement ist eine innere Liste mit den Spaltenwerten.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Erstellt eine Liste mit den Spaltenwerten aus der Tabelle.
 ```powerquery
 Table.ToColumns(

@@ -5,7 +5,7 @@ title: List.Single
 # List.Single
 
 
-Zwraca jeden element z listy, jeśli lista ma długość 1; w przeciwnym razie zwraca wyjątek.
+Zwraca jeden element listy, jeśli lista ma długość 1; w przeciwnym razie zgłasza błąd.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.Single(
 
 ## Remarks
 
-Jeśli na liście <code>list</code> znajduje się tylko jeden element, zwraca ten element.    Jeśli na liście znajduje się więcej niż jeden element lub lista jest pusta, funkcja zwraca wyjątek.
+Jeśli na liście `list` znajduje się tylko jeden element, zwraca ten element. Jeśli na liście znajduje się więcej niż jeden element lub lista jest pusta, funkcja zgłasza błąd.
 
 
 ## Examples
 
-### Example #1 
-Znajdź pojedynczą wartość na liście \{1}.
+### Example #1
+Znajdź pojedynczą wartość na liście \{1\}.
 ```powerquery
 List.Single({1})
 ```
@@ -36,8 +36,8 @@ Result:
 ```
 
 
-### Example #2 
-Znajdź pojedynczą wartość na liście \{1, 2, 3}.
+### Example #2
+Znajdź pojedynczą wartość na liście \{1, 2, 3\}.
 ```powerquery
 List.Single({1, 2, 3})
 ```

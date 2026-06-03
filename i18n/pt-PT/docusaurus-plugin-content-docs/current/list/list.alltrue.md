@@ -19,13 +19,13 @@ List.AllTrue(
 
 ## Remarks
 
-Devolve true se todas as expressões existentes na lista <code>list</code> forem verdadeiras.
+Devolve true se todas as expressões existentes na lista `list` forem verdadeiras.
 
 
 ## Examples
 
-### Example #1 
-Determinar se todas as expressões existentes na lista \{true, true, 2 &gt; 0} são verdadeiras.
+### Example #1
+Determinar se todas as expressões existentes na lista \{true, true, 2 > 0\} são verdadeiras.
 ```powerquery
 List.AllTrue({true, true, 2 > 0})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Determinar se todas as expressões existentes na lista \{true, true, 2 &lt; 0} são verdadeiras.
+### Example #2
+Determinar se todas as expressões existentes na lista \{true, true, 2 &lt; 0\} são verdadeiras.
 ```powerquery
 List.AllTrue({true, false, 2 < 0})
 ```

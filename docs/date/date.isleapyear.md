@@ -19,13 +19,15 @@ Date.IsLeapYear(
 
 ## Remarks
 
-Indicates whether the given datetime value <code>dateTime</code> falls in is a leap year. <ul>        <li><code>dateTime</code>: A <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> value to be evaluated.</li>      </ul>
+Indicates whether the given datetime value `dateTime` falls in is a leap year.
+
+-   `dateTime`: A `date`, `datetime`, or `datetimezone` value to be evaluated.
 
 
 ## Examples
 
-### Example #1 
-Determine if the year 2012, as represented by &lt;code&gt;#date(2012, 01, 01)&lt;/code&gt; is a leap year.
+### Example #1
+Determine if the year 2012, as represented by `#date(2012, 01, 01)` is a leap year.
 ```powerquery
 Date.IsLeapYear(#date(2012, 01, 01))
 ```

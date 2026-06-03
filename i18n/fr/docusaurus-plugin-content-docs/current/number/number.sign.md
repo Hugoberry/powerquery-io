@@ -5,7 +5,7 @@ title: Number.Sign
 # Number.Sign
 
 
-Retourne 1 si le nombre est positif, -1 s&#39;il est négatif, et 0 s&#39;il est zéro.
+Retourne 1 si le nombre est positif, -1 s'il est négatif, et 0 s'il est zéro.
 
 
 ## Syntax
@@ -19,12 +19,12 @@ Number.Sign(
 
 ## Remarks
 
-Retourne 1 si <code>number</code> est un nombre est positif, -1 s'il est négatif, et 0 s'il est zéro.    Si <code>number</code> a la valeur null, <code>Number.Sign</code> retourne null.
+Retourne 1 si `number` est un nombre est positif, -1 s'il est négatif, et 0 s'il est zéro. Si `number` a la valeur null, `Number.Sign` retourne null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Détermine le signe de 182.
 ```powerquery
 Number.Sign(182)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Détermine le signe de -182.
 ```powerquery
 Number.Sign(-182)
@@ -48,7 +48,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Détermine le signe de 0.
 ```powerquery
 Number.Sign(0)

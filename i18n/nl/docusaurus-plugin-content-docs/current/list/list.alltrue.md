@@ -5,7 +5,7 @@ title: List.AllTrue
 # List.AllTrue
 
 
-Retourneert &#39;true&#39; wanneer alle expressies &#39;true&#39; zijn.
+Retourneert 'true' wanneer alle expressies 'true' zijn.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.AllTrue(
 
 ## Remarks
 
-Retourneert 'true' wanneer alle expressies in de lijst <code>list</code> 'true' zijn.
+Retourneert 'true' wanneer alle expressies in de lijst `list` 'true' zijn.
 
 
 ## Examples
 
-### Example #1 
-Vaststellen of alle expressies in de lijst \{true, true, 2 &gt; 0} &#39;true&#39; zijn.
+### Example #1
+Vaststellen of alle expressies in de lijst \{true, true, 2 > 0\} 'true' zijn.
 ```powerquery
 List.AllTrue({true, true, 2 > 0})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Vaststellen of alle expressies in de lijst \{true, true, 2 &lt; 0} &#39;true&#39; zijn.
+### Example #2
+Vaststellen of alle expressies in de lijst \{true, true, 2 &lt; 0\} 'true' zijn.
 ```powerquery
 List.AllTrue({true, false, 2 < 0})
 ```

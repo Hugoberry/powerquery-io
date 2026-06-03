@@ -19,7 +19,7 @@ Number.Asin(
 
 ## Remarks
 
-ส่งกลับค่าอาร์กไซน์ของ <code>number</code>
+ส่งกลับค่าอาร์กไซน์ของ `number`
 
 
 

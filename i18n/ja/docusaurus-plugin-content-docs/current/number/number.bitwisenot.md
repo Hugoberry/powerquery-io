@@ -19,7 +19,7 @@ Number.BitwiseNot(
 
 ## Remarks
 
-<code>number</code> にビットごとの NOT 演算を行った結果を返します。
+`number` にビットごとの NOT 演算を行った結果を返します。
 
 
 

@@ -20,12 +20,12 @@ Type.Is(
 
 ## Remarks
 
-Określa, czy wartość <code>type1</code> jest zawsze zgodna z <code>type2</code>.
+Określa, czy wartość `type1` jest zawsze zgodna z `type2`. Parametr `type2` powinien być wartością typu pierwotnego (lub pierwotną wartością null). W przeciwnym razie zachowanie tej funkcji jest niezdefiniowane i nie należy na nich polegać.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Określ, czy wartość typu number może być zawsze traktowana jako typ any.
 ```powerquery
 Type.Is(type number, type any)
@@ -37,7 +37,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Określ, czy wartość typu any może być zawsze traktowana jako liczba typu.
 ```powerquery
 Type.Is(type any, type number)

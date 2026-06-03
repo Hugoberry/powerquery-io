@@ -21,13 +21,13 @@ Table.AggregateTableColumn(
 
 ## Remarks
 
-<code>table</code>[<code>column</code>] içindeki tabloları, tablolar için toplam değerleri içeren birden çok sütuna toplar. <code>aggregations</code> toplanacak tabloları içeren sütunları, değerlerini oluşturmak üzere tablolara uygulamak için toplama işlevlerini ve oluşturulacak toplama sütunlarının adlarını belirtmek için kullanılır.
+`table`\[`column`\] içindeki tabloları, tablolar için toplam değerleri içeren birden çok sütuna toplar. `aggregations` toplanacak tabloları içeren sütunları, değerlerini oluşturmak üzere tablolara uygulamak için toplama işlevlerini ve oluşturulacak toplama sütunlarının adlarını belirtmek için kullanılır.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}&lt;/code&gt; tablosunda &lt;code&gt;[t]&lt;/code&gt; içindeki tablo sütunlarını &lt;code&gt;[t.a]&lt;/code&gt; toplamına, en büyük ve ek küçük &lt;code&gt;[t.b]&lt;/code&gt; değerine ve &lt;code&gt;[t.a]&lt;/code&gt; içindeki değer sayısına ekler.
+### Example #1
+`{[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}` tablosunda `[t]` içindeki tablo sütunlarını `[t.a]` toplamına, en büyük ve ek küçük `[t.b]` değerine ve `[t.a]` içindeki değer sayısına ekler.
 ```powerquery
 Table.AggregateTableColumn(
     Table.FromRecords(

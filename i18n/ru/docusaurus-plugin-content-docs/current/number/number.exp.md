@@ -19,12 +19,14 @@ Number.Exp(
 
 ## Remarks
 
-Возвращает результат возведения e в степень <code>number</code> (экспонента).      <ul>        <li><code>number</code>: значение <code>number</code>, для которого вычисляется экспонента. Если <code>number</code> имеет значение NULL, <code>Number.Exp</code> возвращает NULL. </li>      </ul>
+Возвращает результат возведения e в степень `number` (экспонента).
+
+-   `number`: значение `number`, для которого вычисляется экспонента. Если `number` имеет значение NULL, `Number.Exp` возвращает NULL.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Возвести e в степень 3.
 ```powerquery
 Number.Exp(3)

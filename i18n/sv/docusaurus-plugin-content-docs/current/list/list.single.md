@@ -19,13 +19,13 @@ List.Single(
 
 ## Remarks
 
-Om det bara finns ett objekt i listan returnerar <code>list</code> det objektet.    Om det finns mer än ett objekt eller om listan är tom, genererar funktionen ett undantag.
+Om det bara finns ett objekt i listan returnerar `list` det objektet. Om det finns mer än ett objekt eller om listan är tom genereras ett fel.
 
 
 ## Examples
 
-### Example #1 
-Sök efter det enskilda värdet i listan \{1}.
+### Example #1
+Sök efter det enskilda värdet i listan \{1\}.
 ```powerquery
 List.Single({1})
 ```
@@ -36,8 +36,8 @@ Result:
 ```
 
 
-### Example #2 
-Sök efter det enskilda värdet i listan \{1, 2, 3}.
+### Example #2
+Sök efter det enskilda värdet i listan \{1, 2, 3\}.
 ```powerquery
 List.Single({1, 2, 3})
 ```

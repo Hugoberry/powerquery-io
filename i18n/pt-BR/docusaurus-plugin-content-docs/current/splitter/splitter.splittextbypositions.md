@@ -25,7 +25,7 @@ Retorna uma função que divide o texto em uma lista de texto em cada posição 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Divida a entrada nas posições especificadas, começando do início da entrada.
 ```powerquery
 Splitter.SplitTextByPositions({0, 3, 4})("ABC|12345")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Divida a entrada nas posições especificadas, começando do final da entrada.
 ```powerquery
 let

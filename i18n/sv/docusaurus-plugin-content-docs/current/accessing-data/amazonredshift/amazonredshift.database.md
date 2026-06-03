@@ -21,12 +21,15 @@ AmazonRedshift.Database(
 
 ## Remarks
 
-Returnerar en tabell med tabellerna i Amazon Redshift-klustret <code>server</code> i databasen <code>databas</code>. En valfri postparameter, <code>alternativ</code>, kan anges för att styra följande alternativ:<ul><li><code>Providernamn</code>: Ett textvärde som ska användas som providernamn för anslutningen. Det här används när Microsoft Authentication.</li><li><code>Batchstorlek</code>: Antalet rader som hämtas i ett enda anrop till servern.</li></ul>  
+Returnerar en tabell med tabellerna i Amazon Redshift-klustret `server` i databasen `databas`. En valfri postparameter, `alternativ`, kan anges för att styra följande alternativ:
+
+-   `Namn på leverantör`: Ett textvärde som används som leverantörsnamn för anslutningen. Det används när Microsoft Authentication används.
+-   `Batchstorlek`: Antalet rader som hämtas i ett enda anrop till servern.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 
 ```powerquery
 AmazonRedshift.Database("contoso.redshift.amazonaws.com:5439", "dev")

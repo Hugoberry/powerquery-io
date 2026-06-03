@@ -5,7 +5,7 @@ title: Cube.AddAndExpandDimensionColumn
 # Cube.AddAndExpandDimensionColumn
 
 
-Fletter den angivne dimensionstabel sammen med kubens filterkontekst og ændrer den dimensionelle granularitet for filterkonteksten ved at udvide det angivne sæt dimensionsattributter.
+Fletter den angivne dimensionstabel sammen med kubens filterkontekst og ændrer den dimensionelle kornethed for filterkonteksten ved at udvide det angivne sæt dimensionsattributter.
 
 
 ## Syntax
@@ -22,7 +22,7 @@ Cube.AddAndExpandDimensionColumn(
 
 ## Remarks
 
-Fletter den angivne dimensionstabel, <code>dimensionSelector</code>, sammen med kubens, <code>cube</code>, filterkontekst og ændrer den dimensionelle granularitet ved at udvide det angivne sæt, <code>attributeNames</code>, dimensionsattributter. Dimensionsattributterne føjes til tabelvisningen med kolonner, der kaldes <code>newColumnNames</code> eller <code>attributeNames</code>, hvis det ikke er angivet.
+Fletter den angivne dimensionstabel `dimensionSelector`, sammen med filterkonteksten af `cube` og ændrer den dimensionelle kornethed ved at udvide det angivne sæt `attributeNames`, dimensionsattributter. Dimensionsattributterne føjes til tabelvisningen med kolonner, der kaldes `newColumnNames` eller `attributeNames`, hvis det ikke er angivet.
 
 
 

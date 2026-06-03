@@ -5,7 +5,7 @@ title: List.AnyTrue
 # List.AnyTrue
 
 
-Gibt &#34;true&#34; zurück, wenn ein beliebiger Ausdruck zutrifft.
+Gibt "true" zurück, wenn ein beliebiger Ausdruck zutrifft.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.AnyTrue(
 
 ## Remarks
 
-Gibt "true" zurück, wenn ein beliebiger Ausdruck in der Liste "<code>list</code>" zutrifft.
+Gibt "true" zurück, wenn ein beliebiger Ausdruck in der Liste "`list`" zutrifft.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt, ob einer der Ausdrücke in der Liste &#34;\{true, false, 2 &gt; 0}&#34; zutrifft.
+### Example #1
+Ermittelt, ob einer der Ausdrücke in der Liste "\{true, false, 2 > 0\}" zutrifft.
 ```powerquery
 List.AnyTrue({true, false, 2>0})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Ermittelt, ob einer der Ausdrücke in der Liste &#34;\{2 = 0, false, 2 &lt; 0}&#34; zutrifft.
+### Example #2
+Ermittelt, ob einer der Ausdrücke in der Liste "\{2 = 0, false, 2 &lt; 0\}" zutrifft.
 ```powerquery
 List.AnyTrue({2 = 0, false, 2 < 0})
 ```

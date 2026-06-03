@@ -20,12 +20,12 @@ Table.ReplaceErrorValues(
 
 ## Remarks
 
-Vervangt de foutwaarden in de opgegeven kolommen van de <code>table</code> met de nieuwe waarden in de lijst <code>errorReplacement</code>. De indeling van de lijst is \{\{column1, value1}, …}. Er is slechts één vervangende waarde per kolom mogelijk: er wordt een fout veroorzaakt als de kolom vaker wordt opgegeven.
+Vervangt de foutwaarden in de opgegeven kolommen van de `table` met de nieuwe waarden in de lijst `errorReplacement`. De indeling van de lijst is \{\{column1, value1\}, …\}. Er is slechts één vervangende waarde per kolom mogelijk: er wordt een fout veroorzaakt als de kolom vaker wordt opgegeven.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De foutwaarde vervangen door de tekst world in de tabel.
 ```powerquery
 Table.ReplaceErrorValues(
@@ -43,7 +43,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 De foutwaarde in kolom A vervangen door de tekst hello en in kolom B door de tekst world in de tabel.
 ```powerquery
 Table.ReplaceErrorValues(

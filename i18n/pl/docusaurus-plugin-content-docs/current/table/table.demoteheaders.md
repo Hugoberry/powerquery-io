@@ -24,7 +24,7 @@ Przenosi nagłówki kolumn (tzn. nazwy kolumn) do pierwszego wiersza wartości. 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Obniż poziom pierwszego wiersza wartości w tabeli.
 ```powerquery
 Table.DemoteHeaders(

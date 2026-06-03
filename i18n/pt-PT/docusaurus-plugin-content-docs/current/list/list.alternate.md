@@ -22,13 +22,17 @@ List.Alternate(
 
 ## Remarks
 
-Devolve uma lista composta por todos os elementos de desvio com numeração ímpar existentes numa lista. Alterna entre tomar e ignorar valores da lista <code>list</code> consoante os parâmetros.    <ul>    <li><code>count</code>: especifica o número de valores que são ignorados de cada vez.</li>    <li><code>repeatInterval</code>: um intervalo de repetição opcional para indicar quantos valores são adicionados entre os valores ignorados.</li>    <li><code>offset</code>: um parâmetro de desvio opcional para começar a ignorar os valores no desvio inicial.</li>    </ul>
+Devolve uma lista composta por todos os elementos de desvio com numeração ímpar existentes numa lista. Alterna entre tomar e ignorar valores da lista `list` consoante os parâmetros.
+
+-   `count`: especifica o número de valores que são ignorados de cada vez.
+-   `repeatInterval`: um intervalo de repetição opcional para indicar quantos valores são adicionados entre os valores ignorados.
+-   `offset`: um parâmetro de desvio opcional para começar a ignorar os valores no desvio inicial.
 
 
 ## Examples
 
-### Example #1 
-Criar uma lista a partir de \{1..10} que ignore o primeiro número.
+### Example #1
+Criar uma lista a partir de \{1..10\} que ignore o primeiro número.
 ```powerquery
 List.Alternate({1..10}, 1)
 ```
@@ -39,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-Criar uma lista a partir de \{1..10} que ignore número sim, número não.
+### Example #2
+Criar uma lista a partir de \{1..10\} que ignore número sim, número não.
 ```powerquery
 List.Alternate({1..10}, 1, 1)
 ```
@@ -51,8 +55,8 @@ Result:
 ```
 
 
-### Example #3 
-Criar uma lista a partir de \{1..10} que comece em 1 e ignore número sim, número não.
+### Example #3
+Criar uma lista a partir de \{1..10\} que comece em 1 e ignore número sim, número não.
 ```powerquery
 List.Alternate({1..10}, 1, 1, 1)
 ```
@@ -63,8 +67,8 @@ Result:
 ```
 
 
-### Example #4 
-Criar uma lista a partir de \{1..10} que comece em 1, ignore um valor, mantenha dois valores e assim consecutivamente.
+### Example #4
+Criar uma lista a partir de \{1..10\} que comece em 1, ignore um valor, mantenha dois valores e assim consecutivamente.
 ```powerquery
 List.Alternate({1..10}, 1, 2, 1)
 ```

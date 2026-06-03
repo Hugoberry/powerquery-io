@@ -27,7 +27,7 @@ Oversætter alle kolonner undtagen et angivet sæt til par med attributter/værd
 
 ## Examples
 
-### Example #1 
+### Example #1
 Oversætter alle kolonner undtagen et angivet sæt til par med attributter/værdier kombineret med resten af værdierne på de enkelte rækker.
 ```powerquery
 Table.UnpivotOtherColumns(

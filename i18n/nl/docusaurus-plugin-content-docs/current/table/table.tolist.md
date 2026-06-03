@@ -25,7 +25,7 @@ Converteert een tabel naar een lijst door de opgegeven combinatiefunctie op elke
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combineer de tekst van elke rij met een komma.
 ```powerquery
 Table.ToList(

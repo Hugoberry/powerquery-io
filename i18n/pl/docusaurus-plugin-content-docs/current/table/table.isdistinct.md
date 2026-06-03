@@ -20,12 +20,12 @@ Table.IsDistinct(
 
 ## Remarks
 
-Wskazuje, czy tabela <code>table</code> zawiera tylko unikatowe wiersze (bez duplikatów). Zwraca wartość <code>true</code>, jeśli wiersze są unikatowe; w przeciwnym razie zwraca wartość <code>false</code>.    Opcjonalny parametr <code>comparisonCriteria</code> określa, które kolumny tabeli są sprawdzane pod kątem duplikatów. Jeśli nie określono parametru <code>comparisonCriteria</code>, sprawdzane są wszystkie kolumny.
+Wskazuje, czy tabela `table` zawiera tylko unikatowe wiersze (bez duplikatów). Zwraca wartość `true`, jeśli wiersze są unikatowe; w przeciwnym razie zwraca wartość `false`. Opcjonalny parametr `comparisonCriteria` określa, które kolumny tabeli są sprawdzane pod kątem duplikatów. Jeśli nie określono parametru `comparisonCriteria`, sprawdzane są wszystkie kolumny.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ustal, czy tabela zawiera tylko unikatowe wiersze.
 ```powerquery
 Table.IsDistinct(
@@ -44,7 +44,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Ustal, czy tabela zawiera tylko unikatowe wiersze w kolumnie.
 ```powerquery
 Table.IsDistinct(

@@ -21,12 +21,12 @@ Record.SelectFields(
 
 ## Remarks
 
-Возвращает запись, которая включает только поля, указанные в списке <code>fields</code>, из входных данных <code>record</code>.
+Возвращает запись, которая включает только поля, указанные в списке `fields`, из входных данных `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Выбор полей Item и Price в записи.
 ```powerquery
 Record.SelectFields(

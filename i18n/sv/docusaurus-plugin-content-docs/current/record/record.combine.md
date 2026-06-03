@@ -19,12 +19,12 @@ Record.Combine(
 
 ## Remarks
 
-Kombinerar posterna i angiven <code>records</code>. Om <code>records</code> innehåller värden utan poster returneras ett fel.
+Kombinerar posterna i angiven `records`. Om `records` innehåller värden utan poster returneras ett fel.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Skapa en kombinerad post från posterna.
 ```powerquery
 Record.Combine({

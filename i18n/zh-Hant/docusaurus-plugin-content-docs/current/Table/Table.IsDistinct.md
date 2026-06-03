@@ -20,12 +20,12 @@ Table.IsDistinct(
 
 ## Remarks
 
-指出 <code>table</code> 是否只包含相異資料列 (沒有重複項目)。如果資料列相異，則傳回 <code>true</code>，否則傳回 <code>false</code>。    選擇性參數 <code>comparisonCriteria</code> 可指定要測試是否有重複情況的資料表資料行。如果未指定 <code>comparisonCriteria</code>，則會測試所有資料行。
+指出 `table` 是否只包含相異資料列 (沒有重複項目)。如果資料列相異，則傳回 `true`，否則傳回 `false`。 選擇性參數 `comparisonCriteria` 可指定要測試是否有重複情況的資料表資料行。如果未指定 `comparisonCriteria`，則會測試所有資料行。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 判斷資料表是否相異。
 ```powerquery
 Table.IsDistinct(
@@ -44,7 +44,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 判斷資料表的資料行是否相異。
 ```powerquery
 Table.IsDistinct(

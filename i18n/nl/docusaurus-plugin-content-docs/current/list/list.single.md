@@ -5,7 +5,7 @@ title: List.Single
 # List.Single
 
 
-Retourneert het enige lijstitem voor een lijst met lengte 1. In alle andere gevallen wordt er een uitzondering gegenereerd.
+Retourneert het enige lijstitem voor een lijst met lengte één, anders wordt er een fout gegenereerd.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.Single(
 
 ## Remarks
 
-Als er maar één item in de lijst <code>list</code> staat, wordt dat item geretourneerd. Als er meer dan één item in de lijst staat of de lijst leeg is, retourneert functie geeft een uitzondering.
+Als er maar één item in de lijst `list` staat, wordt dat item geretourneerd. Als er meer dan één item is of als de lijst leeg is, genereert de functie een fout.
 
 
 ## Examples
 
-### Example #1 
-De enkele waarde in de lijst \{1} zoeken.
+### Example #1
+De enkele waarde in de lijst \{1\} zoeken.
 ```powerquery
 List.Single({1})
 ```
@@ -36,8 +36,8 @@ Result:
 ```
 
 
-### Example #2 
-De enkele waarde in de lijst \{1, 2, 3} zoeken.
+### Example #2
+De enkele waarde in de lijst \{1, 2, 3\} zoeken.
 ```powerquery
 List.Single({1, 2, 3})
 ```

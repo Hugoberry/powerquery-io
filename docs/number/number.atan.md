@@ -19,7 +19,7 @@ Number.Atan(
 
 ## Remarks
 
-Returns the arctangent of <code>number</code>.
+Returns the arctangent of `number`.
 
 
 

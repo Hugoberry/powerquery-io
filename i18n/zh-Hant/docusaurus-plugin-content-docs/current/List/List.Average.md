@@ -20,13 +20,13 @@ List.Average(
 
 ## Remarks
 
-傳回清單 <code>list</code> 中項目的平均值。結果的資料類型與清單中的值相同。只適用於數字、日期、時間、datetime、datetimezone 和工期值。    如果清單是空的，即傳回 Null。
+傳回清單 `list` 中項目的平均值。結果的資料類型與清單中的值相同。只適用於數字、日期、時間、datetime、datetimezone 和工期值。 如果清單是空的，即傳回 Null。
 
 
 ## Examples
 
-### Example #1 
-找出數字清單 &lt;code&gt;\{3, 4, 6}&lt;/code&gt; 的平均值。
+### Example #1
+找出數字清單 `{3, 4, 6}` 的平均值。
 ```powerquery
 List.Average({3, 4, 6})
 ```
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 找出 2011 年 1 月 1 日、2011 年 1 月 2 日和 2011 年 1 月 3 日的日期值平均。
 ```powerquery
 List.Average({#date(2011, 1, 1), #date(2011, 1, 2), #date(2011, 1, 3)})

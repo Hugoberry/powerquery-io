@@ -19,12 +19,12 @@ Time.StartOfHour(
 
 ## Remarks
 
-Gibt den Beginn der Stunde, der durch <code>dateTime</code> dargestellt wird, zurück.    <code>dateTime</code> muss ein <code>time</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert sein.
+Gibt den Beginn der Stunde, der durch `dateTime` dargestellt wird, zurück. `dateTime` muss ein `time`\-, `datetime`\- oder `datetimezone`\-Wert sein.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Suchen Sie den Anfang der Stunde für den 10. Oktober 2011, 8:10:32 Uhr.
 ```powerquery
 Time.StartOfHour(#datetime(2011, 10, 10, 8, 10, 32))

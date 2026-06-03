@@ -19,12 +19,12 @@ List.StandardDeviation(
 
 ## Remarks
 
-Returnerer et estimat, der er baseret på et eksempel, af værdierne på listen <code>numbersList</code>.    Hvis <code>numbersList</code> er en liste over tal, returneres der et tal.     Der udløses en undtagelse for en tom liste eller for en liste over elementer, der ikke er af typen <code>number</code>.
+Returnerer et estimat, der er baseret på et eksempel, af værdierne på listen `numbersList`. Hvis `numbersList` er en liste over tal, returneres der et tal. Der udløses en fejl for en tom liste eller en liste med elementer, der ikke er af typen `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find standardafvigelsen for tallene 1-5.
 ```powerquery
 List.StandardDeviation({1..5})

@@ -20,7 +20,7 @@ Tables.GetRelationships(
 
 ## Remarks
 
-Obtiene las relaciones entre un conjunto de tablas. Se presupone que el conjunto <code>tables</code> tiene una estructura similar a la de una tabla de navegación. La columna definida por <code>dataColumn</code> contiene las tablas de datos reales.
+Obtiene las relaciones entre un conjunto de tablas. Se presupone que el conjunto `tables` tiene una estructura similar a la de una tabla de navegación. La columna definida por `dataColumn` contiene las tablas de datos reales.
 
 
 

@@ -23,7 +23,7 @@ Gibt den veröffentlichten Inhalt VisualQuery (vqr), Berichte oder Funktionen de
 
 ## Examples
 
-### Example #1 
+### Example #1
 Anforderung der Mitarbeiterliste
 ```powerquery
     Zucchetti.Contents("https://myurl/HRPortal/", "001"),

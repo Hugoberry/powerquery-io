@@ -22,13 +22,13 @@ Text.ReplaceRange(
 
 ## Remarks
 
-Retourneert het resultaat van het verwijderen van een aantal tekens, <code>count</code>, vanuit tekstwaarde <code>text</code>, te beginnen bij positie <code>offset</code> en voegt vervolgens de tekstwaarde <code>newText</code> op dezelfde positie in <code>text</code> in.
+Retourneert het resultaat van het verwijderen van een aantal tekens, `count`, vanuit tekstwaarde `text`, te beginnen bij positie `offset` en voegt vervolgens de tekstwaarde `newText` op dezelfde positie in `text` in.
 
 
 ## Examples
 
-### Example #1 
-Een enkel teken op positie 2 in tekstwaarde &#34;ABGF&#34; vervangen door de nieuwe tekstwaarde &#34;CDE&#34;.
+### Example #1
+Een enkel teken op positie 2 in tekstwaarde "ABGF" vervangen door de nieuwe tekstwaarde "CDE".
 ```powerquery
 Text.ReplaceRange("ABGF", 2, 1, "CDE")
 ```

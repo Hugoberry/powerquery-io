@@ -5,7 +5,7 @@ title: Number.Asin
 # Number.Asin
 
 
-Retourne l&#39;arc sinus du nombre.
+Retourne l'arc sinus du nombre.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Number.Asin(
 
 ## Remarks
 
-Retourne l'arc sinus de <code>number</code>.
+Retourne l'arc sinus de `number`.
 
 
 

@@ -22,13 +22,13 @@ Table.AddRankColumn(
 
 ## Remarks
 
-<code>comparisonCriteria</code>द्वारा वर्णित एक या अधिक स्तंभों की रैंकिंग के साथ <code>table</code> में <code>newColumnName</code> नाम का स्तंभ जोड़ता है.<code>options</code> में RankKind विकल्प का उपयोग उन्नत उपयोगकर्ताओं द्वारा अधिक-विशिष्ट रैंकिंग पद्धति चुनने के लिए किया जा सकता है.
+`comparisonCriteria`द्वारा वर्णित एक या अधिक स्तंभों की रैंकिंग के साथ `table` में `newColumnName` नाम का स्तंभ जोड़ता है. `options` में RankKind विकल्प का उपयोग उन्नत उपयोगकर्ताओं द्वारा अधिक-विशिष्ट रैंकिंग पद्धति चुनने के लिए किया जा सकता है.
 
 
 ## Examples
 
-### Example #1 
-तालिका में &#34;RevenueRank&#34; नाम का एक स्तंभ जोड़ें, जो &#34;आय&#34; स्तंभ को उच्चतम से न्यूनतम की रैंक में रखता है.
+### Example #1
+तालिका में "RevenueRank" नाम का एक स्तंभ जोड़ें, जो "आय" स्तंभ को उच्चतम से न्यूनतम की रैंक में रखता है.
 ```powerquery
 Table.AddRankColumn(
     Table.FromRecords({

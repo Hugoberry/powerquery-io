@@ -24,7 +24,7 @@ AzureEnterprise.Tables(
 
 ## Examples
 
-### Example #1 
+### Example #1
 ใช้ฟังก์ชัน AzureEnterprise.Tables และนำทางไปยังค่าเฉพาะเพื่อรับผลลัพธ์
 ```powerquery
 อนุญาต

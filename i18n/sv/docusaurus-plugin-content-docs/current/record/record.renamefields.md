@@ -5,7 +5,7 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-Tillämpar namnbyten från en lista i formatet \{ old, new }.
+Tillämpar namnbyten från en lista i formatet \{ old, new \}.
 
 
 ## Syntax
@@ -21,12 +21,12 @@ Record.RenameFields(
 
 ## Remarks
 
-Returnerar en post efter namnbyte av fälten i indataposten <code>record</code> med de nya fältnamnen som anges i listan <code>renames</code>. För flera namnbyten kan en kapslad lista användas (\{ \{old1, new1}, \{old2, new2} }.
+Returnerar en post efter namnbyte av fälten i indataposten `record` med de nya fältnamnen som anges i listan `renames`. För flera namnbyten kan en kapslad lista användas (\{ \{old1, new1\}, \{old2, new2\} \}).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Byt namn på fältet UnitPrice till Price från posten.
 ```powerquery
 Record.RenameFields(
@@ -41,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Byt namn på fälten UnitPrice till Price och OrderNum till OrderID från posten.
 ```powerquery
 Record.RenameFields(

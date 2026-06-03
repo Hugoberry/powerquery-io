@@ -19,12 +19,12 @@ Duration.TotalDays(
 
 ## Remarks
 
-Restituisce i giorni totali con spanning per <code>duration</code>.
+Restituisce i giorni totali con spanning per `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trovare i giorni totali con spanning per un valore di durata.
 ```powerquery
 Duration.TotalDays(#duration(5, 4, 3, 2))

@@ -21,13 +21,13 @@ Text.RemoveRange(
 
 ## Remarks
 
-Retourne une copie d'une valeur de texte <code>text</code> en supprimant tous les caractères à partir de la position <code>offset</code>.    Un paramètre facultatif <code>count</code> peut être utilisé pour spécifier le nombre de caractères à supprimer. La valeur par défaut de <code>count</code> est 1. Les valeurs de position commencent à 0.
+Retourne une copie d'une valeur de texte `text` en supprimant tous les caractères à partir de la position `offset`. Un paramètre facultatif `count` peut être utilisé pour spécifier le nombre de caractères à supprimer. La valeur par défaut de `count` est 1. Les valeurs de position commencent à 0.
 
 
 ## Examples
 
-### Example #1 
-Supprime 1 caractère de la valeur de texte &#34; ABEFC &#34;, à la position 2.
+### Example #1
+Supprime 1 caractère de la valeur de texte "ABEFC", à la position 2.
 ```powerquery
 Text.RemoveRange("ABEFC", 2)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Supprime 2 caractères de la valeur de texte &#34; ABEFC &#34;, en démarrant à la position 2.
+### Example #2
+Supprime 2 caractères de la valeur de texte "ABEFC", en démarrant à la position 2.
 ```powerquery
 Text.RemoveRange("ABEFC", 2, 2)
 ```

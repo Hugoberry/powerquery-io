@@ -19,12 +19,14 @@ DateTime.IsInCurrentHour(
 
 ## Remarks
 
-Wskazuje, czy dana wartość daty i godziny <code>dateTime</code> występuje w ciągu bieżącej godziny zgodnie z bieżącą datą i godziną systemu.      <ul>      <li><code>dateTime</code>: wartość <code>datetime</code> lub <code>datetimezone</code> do sprawdzenia.</li>      </ul>
+Wskazuje, czy dana wartość daty i godziny `dateTime` występuje w ciągu bieżącej godziny zgodnie z bieżącą datą i godziną systemu.
+
+-   `dateTime`: wartość `datetime` lub `datetimezone` do sprawdzenia.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Określ, czy bieżący czas systemowy występuje w ciągu bieżącej godziny.
 ```powerquery
 DateTime.IsInCurrentHour(DateTime.FixedLocalNow())

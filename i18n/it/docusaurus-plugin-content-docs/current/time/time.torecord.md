@@ -19,13 +19,15 @@ Time.ToRecord(
 
 ## Remarks
 
-Restituisce un record contenente le parti del valore di ora specificato <code>time</code>. <ul>        <li><code>time</code>: valore <code>time</code> da cui deve essere calcolato il record delle parti.</li>      </ul>
+Restituisce un record contenente le parti del valore di ora specificato `time`.
+
+-   `time`: valore `time` da cui deve essere calcolato il record delle parti.
 
 
 ## Examples
 
-### Example #1 
-Converte il valore &lt;code&gt;#time(11, 56, 2)&lt;/code&gt; in un record contenente i valori di ora.
+### Example #1
+Converte il valore `#time(11, 56, 2)` in un record contenente i valori di ora.
 ```powerquery
 Time.ToRecord(#time(11, 56, 2))
 ```

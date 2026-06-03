@@ -5,7 +5,7 @@ title: DateTime.FromFileTime
 # DateTime.FromFileTime
 
 
-Crée un datetime à partir d&#39;un nombre long 64 bits.
+Crée un datetime à partir d'un nombre long 64 bits.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ DateTime.FromFileTime(
 
 ## Remarks
 
-Crée une valeur <code>datetime</code> à partir de la valeur <code>fileTime</code> et la convertit en fuseau horaire local. Le filetime est une valeur d'heure de fichier Windows qui représente le nombre d'intervalles de 100 nanosecondes écoulés depuis 00:00 le 1er janvier 1601. (calendrier julien) Temps universel coordonné (UTC).
+Crée une valeur `datetime` à partir de la valeur `fileTime` et la convertit en fuseau horaire local. Le filetime est une valeur d'heure de fichier Windows qui représente le nombre d'intervalles de 100 nanosecondes écoulés depuis 00:00 le 1er janvier 1601. (calendrier julien) Temps universel coordonné (UTC).
 
 
 ## Examples
 
-### Example #1 
-Convertit &lt;code&gt;129876402529842245&lt;/code&gt; dans une valeur datetime.
+### Example #1
+Convertit `129876402529842245` dans une valeur datetime.
 ```powerquery
 DateTime.FromFileTime(129876402529842245)
 ```

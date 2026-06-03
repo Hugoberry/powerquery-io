@@ -19,7 +19,7 @@ List.NonNullCount(
 
 ## Remarks
 
-傳回清單 <code>list</code> 中非 null 的項目數。
+傳回清單 `list` 中非 null 的項目數。
 
 
 

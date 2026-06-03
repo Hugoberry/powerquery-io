@@ -25,7 +25,7 @@ Type.ForRecord(
 
 ## Examples
 
-### Example #1 
+### Example #1
 动态生成表类型。
 ```powerquery
 let

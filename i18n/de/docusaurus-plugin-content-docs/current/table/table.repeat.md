@@ -20,12 +20,12 @@ Table.Repeat(
 
 ## Remarks
 
-Gibt eine Tabelle zurück, für deren Zeilen aus der Eingabe "<code>table</code>" die angegebene Anzahl (<code>count</code>) von Wiederholungen erstellt wurde.
+Gibt eine Tabelle zurück, für deren Zeilen aus der Eingabe "`table`" die angegebene Anzahl (`count`) von Wiederholungen erstellt wurde.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Wiederholt die Zeilen in der Tabelle zwei Mal.
 ```powerquery
 Table.Repeat(

@@ -20,12 +20,12 @@ Impala.Database(
 
 ## Remarks
 
-Gegevens importeren uit een Impala-cluster <code>server</code>. Als er geen poort is opgegeven, wordt de standaardpoort 21050 gebruikt.
+Gegevens importeren uit een Impala-cluster `server`. Als er geen poort is opgegeven, wordt de standaardpoort 21050 gebruikt.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een lijst met de tabellen in een Impala-cluster weergeven.
 ```powerquery
 Impala.Database("localhost:21050")

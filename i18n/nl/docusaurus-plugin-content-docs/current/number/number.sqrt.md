@@ -19,12 +19,12 @@ Number.Sqrt(
 
 ## Remarks
 
-Hiermee wordt de vierkantswortel van <code>number</code> geretourneerd. Als <code>number</code> null is, retourneert <code>Number.Sqrt</code> null. Als het een negatieve waarde is, wordt <code>Number.NaN</code> geretourneerd (geen getal).
+Hiermee wordt de vierkantswortel van `number` geretourneerd. Als `number` null is, retourneert `Number.Sqrt` null. Als het een negatieve waarde is, wordt `Number.NaN` geretourneerd (geen getal).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De vierkantswortel van 625 zoeken.
 ```powerquery
 Number.Sqrt(625)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 De vierkantswortel van 85 zoeken.
 ```powerquery
 Number.Sqrt(85)

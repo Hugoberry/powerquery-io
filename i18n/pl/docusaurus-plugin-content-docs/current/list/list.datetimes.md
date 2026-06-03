@@ -21,12 +21,12 @@ List.DateTimes(
 
 ## Remarks
 
-Zwraca listę wartości typu <code>datetime</code> o rozmiarze <code>count</code>, rozpoczynając od wartości <code>start</code>. Podany przyrost (<code>step</code>) to wartość typu <code>duration</code> dodawana do każdej wartości.
+Zwraca listę wartości typu `datetime` o rozmiarze `count`, rozpoczynając od wartości `start`. Podany przyrost (`step`) to wartość typu `duration` dodawana do każdej wartości.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utwórz listę 10 wartości, zaczynając od 5 minut przed Nowym Rokiem (#datetime(2011, 12, 31, 23, 55, 0)) i używając przyrostu o wartości 1 minuty (#duration(0, 0, 1, 0)).
 ```powerquery
 List.DateTimes(#datetime(2011, 12, 31, 23, 55, 0), 10, #duration(0, 0, 1, 0))

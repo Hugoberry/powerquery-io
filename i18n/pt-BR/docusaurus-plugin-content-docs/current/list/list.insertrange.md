@@ -21,13 +21,17 @@ List.InsertRange(
 
 ## Remarks
 
-Retorna uma nova lista gerada através da inserção dos valores em <code>values</code> em <code>list</code> em <code>index</code>. A primeira posição na lista está no índice 0.      <ul>        <li><code>list</code>: A lista de destino em que os valores serão inseridos.</li>        <li><code>index</code>: O índice da lista de destino (<code>list</code>) em que os valores serão inseridos. A primeira posição na lista está no índice 0.</li>        <li><code>values</code>: A lista de valores que serão inseridos em <code>list</code>.</li>      </ul>
+Retorna uma nova lista gerada através da inserção dos valores em `values` em `list` em `index`. A primeira posição na lista está no índice 0.
+
+-   `list`: A lista de destino em que os valores serão inseridos.
+-   `index`: O índice da lista de destino (`list`) em que os valores serão inseridos. A primeira posição na lista está no índice 0.
+-   `values`: A lista de valores que serão inseridos em `list`.
 
 
 ## Examples
 
-### Example #1 
-Insira a lista (\{3, 4}) na lista de destino (\{1, 2, 5}) no índice. 2.
+### Example #1
+Insira a lista (\{3, 4\}) na lista de destino (\{1, 2, 5\}) no índice. 2.
 ```powerquery
 List.InsertRange({1, 2, 5}, 2, {3, 4})
 ```
@@ -44,8 +48,8 @@ Result:
 ```
 
 
-### Example #2 
-Insira uma lista com uma lista aninhada (\{1, \{1.1, 1.2}}) em uma lista de destino (\{2, 3, 4}) no índice 0.
+### Example #2
+Insira uma lista com uma lista aninhada (\{1, \{1.1, 1.2\}\}) em uma lista de destino (\{2, 3, 4\}) no índice 0.
 ```powerquery
 List.InsertRange({2, 3, 4}, 0, {1, {1.1, 1.2}})
 ```

@@ -19,13 +19,13 @@ List.AllTrue(
 
 ## Remarks
 
-Restituisce true se tutte le espressioni dell'elenco <code>list</code> sono true.
+Restituisce true se tutte le espressioni dell'elenco `list` sono true.
 
 
 ## Examples
 
-### Example #1 
-Determina se tutte le espressioni dell&#39;elenco \{true, true, 2 &gt; 0} sono true.
+### Example #1
+Determina se tutte le espressioni dell'elenco \{true, true, 2 > 0\} sono true.
 ```powerquery
 List.AllTrue({true, true, 2 > 0})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Determina se tutte le espressioni dell&#39;elenco \{true, true, 2 &lt; 0} sono true.
+### Example #2
+Determina se tutte le espressioni dell'elenco \{true, true, 2 &lt; 0\} sono true.
 ```powerquery
 List.AllTrue({true, false, 2 < 0})
 ```

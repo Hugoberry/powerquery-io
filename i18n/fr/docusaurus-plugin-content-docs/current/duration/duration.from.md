@@ -19,13 +19,19 @@ Duration.From(
 
 ## Remarks
 
-Retourne une valeur <code>duration</code> du <code>value</code> spécifié. Si le <code>value</code> spécifié est <code>null</code>, <code>Duration.From</code> retourne <code>null</code>. Si le <code>value</code> spécifié est <code>duration</code>, <code>value</code> est retourné. Les valeurs des types suivants peuvent être converties en valeur <code>duration</code> :       <ul>        <li><code>text</code> : valeur <code>duration</code> obtenue à partir d'un format textuel de temps écoulé (d.h:m:s). Référez-vous à <code>Duration.FromText</code> pour plus de détails.</li>        <li><code>number</code> : <code>duration</code> équivalente au nombre de jours entiers ou de fractions de jours exprimés par <code>value</code>.</li>      </ul>Si <code>value</code> est d'un autre type, une erreur est retournée.
+Retourne une valeur de durée de la valeur donnée.
+
+-   `value` : valeur à partir de laquelle la durée est dérivée. Si la valeur donnée `value` est `nulle`, cette fonction retourne `nul`. Si la valeur donnée `value` est une `durée`, la valeur `value` est retournée. Les valeurs des types suivants peuvent être converties en valeur de `durée` :
+    `texte`-    : valeur de `durée` provenant de formes textuelles de temps écoulé (j.h:m:s). Pour découvrir d’autres informations, consultez `Duration.FromText`.
+    `nombre`-    : `durée` équivalente au nombre de jours entiers et fractions de jour exprimés par `value`.
+
+Si `value` est d’un autre type, une erreur est renvoyée.
 
 
 ## Examples
 
-### Example #1 
-Convertit &lt;code&gt;2.525&lt;/code&gt; dans une valeur &lt;code&gt;duration&lt;/code&gt;.
+### Example #1
+Convertit `2.525` dans une valeur `duration`.
 ```powerquery
 Duration.From(2.525)
 ```
@@ -33,6 +39,18 @@ Duration.From(2.525)
 Result: 
 ```powerquery
 #duration(2, 12, 36, 0)
+```
+
+
+### Example #2
+Convertissez la valeur de texte `"2.05:55:20.34567"` en une valeur de `durée`.
+```powerquery
+Duration.From("2.05:55:20.34567")
+```
+
+Result: 
+```powerquery
+#duration(2, 5, 55, 20.3456700)
 ```
 
 

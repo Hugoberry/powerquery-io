@@ -21,13 +21,13 @@ Text.Range(
 
 ## Remarks
 
-<code>offset</code> uzaklığında bulunan <code>text</code> metninden alt dizeyi döndürür.    Kaç karakterin döndürüleceğini belirtmek için isteğe bağlı bir <code>count</code> parametresi eklenebilir. Yeterli sayıda karakter bulunmazsa hata verir.
+`text` uzaklığında bulunan `offset` metninden alt dizeyi döndürür. Kaç karakterin döndürüleceğini belirtmek için isteğe bağlı bir `count` parametresi eklenebilir. Yeterli karakter yoksa hata verir.
 
 
 ## Examples
 
-### Example #1 
-&#34;Hello World&#34; metninde 6 dizininden başlayarak alt dizeyi bulur.
+### Example #1
+"Hello World" metninde 6 dizininden başlayarak alt dizeyi bulur.
 ```powerquery
 Text.Range("Hello World", 6)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-&#34;Hello World Hello&#34; metninde 6 dizininden başlayarak ve 5 karakteri kapsayarak alt dizeyi bulur.
+### Example #2
+"Hello World Hello" metninde 6 dizininden başlayarak ve 5 karakteri kapsayarak alt dizeyi bulur.
 ```powerquery
 Text.Range("Hello World Hello", 6, 5)
 ```

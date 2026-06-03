@@ -21,12 +21,12 @@ Spark.Tables(
 
 ## Remarks
 
-Returnerar en tabell som listar tabellerna i Spark-klustret <code>host</code> med <code>protocol</code>.  Giltiga protokoll är:SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
+Returnerar en tabell som listar tabellerna i Spark-klustret `host` med `protocol`. Giltiga protokoll är: SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Lista tabellerna i en Azure Spark-instans.
 ```powerquery
 Spark.Tables("contoso.azurehdinsight.net", SparkProtocol.Azure)

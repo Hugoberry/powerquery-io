@@ -5,7 +5,7 @@ title: Type.ClosedRecord
 # Type.ClosedRecord
 
 
-Retourne une version fermée du type d&#39;enregistrement donné (ou le même type, s&#39;il est déjà fermé).
+Retourne une version fermée du type d'enregistrement donné (ou le même type, s'il est déjà fermé).
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Type.ClosedRecord(
 
 ## Remarks
 
-Retourne une version fermée du <code>record</code> <code>type</code> donné (ou le même type, s'il est déjà fermé).
+Retourne une version fermée du `record` `type` donné (ou le même type, s'il est déjà fermé).
 
 
 ## Examples
 
-### Example #1 
-Créez une version fermée de &lt;code&gt;type [ A = number,…]&lt;/code&gt;.
+### Example #1
+Créez une version fermée de `type [ A = number,...]`.
 ```powerquery
 Type.ClosedRecord(type [A = number, ...])
 ```

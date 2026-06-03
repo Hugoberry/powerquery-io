@@ -5,7 +5,7 @@ title: MailChimp.Collection
 # MailChimp.Collection
 
 
-Retourne un tableau avec les données d&#39;un point de terminaison MailChimp.
+Retourne un tableau avec les données d'un point de terminaison MailChimp.
 
 
 ## Syntax
@@ -25,8 +25,8 @@ Appelle l'API MailChimp et retourne le jeu de données résultant sous forme de 
 
 ## Examples
 
-### Example #1 
-Extrait un tableau de données du point de terminaison des listes de l&#39;API MailChimp.
+### Example #1
+Extrait un tableau de données du point de terminaison des listes de l'API MailChimp.
 ```powerquery
 MailChimp.Collection("lists")
 ```
@@ -37,8 +37,8 @@ Tableau avec des données de liste.
 ```
 
 
-### Example #2 
-Extrait un tableau de données du point de terminaison des dossiers de campagne de l&#39;API MailChimp.
+### Example #2
+Extrait un tableau de données du point de terminaison des dossiers de campagne de l'API MailChimp.
 ```powerquery
 MailChimp.Collection("campaign-folders", "folders")
 ```

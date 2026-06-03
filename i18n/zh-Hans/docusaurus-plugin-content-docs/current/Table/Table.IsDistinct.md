@@ -20,12 +20,12 @@ Table.IsDistinct(
 
 ## Remarks
 
-指示 <code>table</code> 是否仅包含非重复行(没有重复项)。如果行为非重复行，则返回 <code>true</code>；否则返回 <code>false</code>。    可选参数 <code>comparisonCriteria</code> 指定对表中的哪些列进行测试以确定是否具有重复项。如果未指定 <code>comparisonCriteria</code>，则测试所有列。
+指示 `table` 是否仅包含非重复行(没有重复项)。如果行为非重复行，则返回 `true`；否则返回 `false`。 可选参数 `comparisonCriteria` 指定对表中的哪些列进行测试以确定是否具有重复项。如果未指定 `comparisonCriteria`，则测试所有列。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 确定表是否为非重复表。
 ```powerquery
 Table.IsDistinct(
@@ -44,7 +44,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 确定表的列中是否非重复。
 ```powerquery
 Table.IsDistinct(

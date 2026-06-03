@@ -25,7 +25,7 @@ Returnerer en funktion, der kombinerer en liste over tekstværdier til en enkelt
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kombiner en liste over tekstværdier ved hjælp af et semikolonafgrænser.
 ```powerquery
 Combiner.CombineTextByDelimiter(";")({"a", "b", "c"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Kombiner teksten i to kolonner ved hjælp af en kommaseparator og citationstegn i CSV-stil.
 ```powerquery
 let

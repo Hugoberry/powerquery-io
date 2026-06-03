@@ -19,12 +19,12 @@ Expression.Identifier(
 
 ## Remarks
 
-Returnerer M-kildekoderepræsentationen for en identifikator <code>name</code>.
+Returnerer M-kildekoderepræsentationen for en identifikator `name`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Download M-kildekoderepræsentationen af en identifikator.
 ```powerquery
 Expression.Identifier("MyIdentifier")
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Download M-kildekoderepræsentationen af en identifikator, der indeholder et mellemrum.
 ```powerquery
 Expression.Identifier("My Identifier")

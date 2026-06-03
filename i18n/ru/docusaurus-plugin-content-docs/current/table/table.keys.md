@@ -24,7 +24,7 @@ Table.Keys(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Получение списка ключей для таблицы.
 ```powerquery
 let

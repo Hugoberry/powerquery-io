@@ -19,12 +19,12 @@ Duration.Minutes(
 
 ## Remarks
 
-Trả về phần phút của <code>duration</code>.
+Trả về phần phút của `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trích xuất phút từ giá trị khoảng thời gian.
 ```powerquery
 Duration.Minutes(#duration(5, 4, 3, 2))

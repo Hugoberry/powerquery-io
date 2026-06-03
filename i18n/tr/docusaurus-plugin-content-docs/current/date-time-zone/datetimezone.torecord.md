@@ -19,13 +19,15 @@ DateTimeZone.ToRecord(
 
 ## Remarks
 
-Verilen <code>dateTimeZone</code> datetimezone değerinin parçalarını içeren bir kayıt döndürür. <ul>        <li><code>dateTimeZone</code>: Parçalarının kaydının hesaplanacağı bir <code>datetimezone</code>değeri.</li>      </ul>
+Verilen `dateTimeZone` datetimezone değerinin parçalarını içeren bir kayıt döndürür.
+
+-   `dateTimeZone`: Parçalarının kaydının hesaplanacağı bir `datetimezone`değeri.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)&lt;/code&gt; değerini Tarih, Saat ve Bölge değerlerini içeren bir kayda dönüştürür.
+### Example #1
+`#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)` değerini Tarih, Saat ve Bölge değerlerini içeren bir kayda dönüştürür.
 ```powerquery
 DateTimeZone.ToRecord(#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0))
 ```

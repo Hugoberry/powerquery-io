@@ -20,12 +20,15 @@ Table.FirstN(
 
 ## Remarks
 
-Returnerer den eller de første rækker i tabellen <code>table</code>, afhængigt af værdien i <code>countOrCondition</code>:    <ul>    <li> Hvis <code>countOrCondition</code> er et tal, returneres der så mange rækker (med start fra toppen). </li>    <li> Hvis <code>countOrCondition</code> er en betingelse, returneres de rækker, der overholder betingelsen, indtil en række ikke overholder betingelsen.</li></ul>
+Returnerer den eller de første rækker i tabellen `table`, afhængigt af værdien i `countOrCondition`:
+
+-   Hvis `countOrCondition` er et tal, returneres der så mange rækker (med start fra toppen).
+-   Hvis `countOrCondition` er en betingelse, returneres de rækker, der overholder betingelsen, indtil en række ikke overholder betingelsen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find de første to rækker i tabellen.
 ```powerquery
 Table.FirstN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Find de første to rækker, hvor [a] &gt; 0 i tabellen.
+### Example #2
+Find de første to rækker, hvor \[a\] > 0 i tabellen.
 ```powerquery
 Table.FirstN(
     Table.FromRecords({

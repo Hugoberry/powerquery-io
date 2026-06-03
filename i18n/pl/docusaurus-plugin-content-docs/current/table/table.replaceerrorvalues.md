@@ -20,12 +20,12 @@ Table.ReplaceErrorValues(
 
 ## Remarks
 
-Zamienia wartości błędów w określonych kolumnach tabeli <code>table</code> na nowe wartości na liście <code>errorReplacement</code>. Format listy: \{\{column1, value1}, …}. W jednej kolumnie może istnieć tylko jedna wartość zastępcza. Określenie kolumny więcej niż raz spowoduje zwrócenie błędu.
+Zamienia wartości błędów w określonych kolumnach tabeli `table` na nowe wartości na liście `errorReplacement`. Format listy \{\{column1, value1\}, ...\}.. W jednej kolumnie może istnieć tylko jedna wartość zastępcza. Określenie kolumny więcej niż raz spowoduje zwrócenie błędu.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zamień wartość błędu na tekst „world” w tabeli.
 ```powerquery
 Table.ReplaceErrorValues(
@@ -43,7 +43,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Zamień wartość błędu na tekst „hello” w kolumnie A i na tekst „world” w kolumnie B w tabeli.
 ```powerquery
 Table.ReplaceErrorValues(

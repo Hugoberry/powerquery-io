@@ -5,7 +5,7 @@ title: DateTimeZone.UtcNow
 # DateTimeZone.UtcNow
 
 
-Restituisce la data e l&#39;ora correnti in UTC (fuso orario GMT).
+Restituisce la data e l'ora correnti in UTC (fuso orario GMT).
 
 
 ## Syntax
@@ -24,8 +24,8 @@ Restituisce la data e l'ora correnti in UTC (fuso orario GMT).
 
 ## Examples
 
-### Example #1 
-Ottenere la data e l&#39;ora correnti in UTC.
+### Example #1
+Ottenere la data e l'ora correnti in UTC.
 ```powerquery
 DateTimeZone.UtcNow()
 ```

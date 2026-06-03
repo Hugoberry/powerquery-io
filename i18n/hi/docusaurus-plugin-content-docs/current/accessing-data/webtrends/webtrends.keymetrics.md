@@ -26,7 +26,7 @@ Webtrends KeyMetrics समाप्ति बिंदु के लिए क�
 
 ## Examples
 
-### Example #1 
+### Example #1
 पिछले 30 दिनों में टैनेंट 98765 के लिए मुख्य मैट्रिक्स की तालिका पुल करता है
 ```powerquery
 Webtrends.KeyMetrics("98765")

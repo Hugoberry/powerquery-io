@@ -20,12 +20,12 @@ Table.Split(
 
 ## Remarks
 
-Delar upp <code>table</code> i en lista med tabeller där det första elementet i listan är en tabell som innehåller de första <code>pageSize</code> raderna från    källtabellen, nästa element i listan är en tabell med de följande <code>pageSize</code> raderna från källtabellen osv.
+Delar upp `table` i en lista med tabeller där det första elementet i listan är en tabell som innehåller de första `pageSize` raderna från källtabellen, nästa element i listan är en tabell med de följande `pageSize` raderna från källtabellen osv.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Dela upp en tabell med fem poster i tabeller med två poster vardera.
 ```powerquery
 let

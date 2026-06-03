@@ -5,7 +5,7 @@ title: Cdm.MapToEntity
 # Cdm.MapToEntity
 
 
-Retourne une table avec des colonnes mappées aux attributs d&#39;une entité dans Common Data Model, notamment les types de données.
+Retourne une table avec des colonnes mappées aux attributs d'une entité dans Common Data Model, notamment les types de données.
 
 
 ## Syntax

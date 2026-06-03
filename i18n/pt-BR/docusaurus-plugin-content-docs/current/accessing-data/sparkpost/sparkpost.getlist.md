@@ -22,8 +22,8 @@ Essa função pode ser usada para chamar qualquer um dos pontos de extremidade d
 
 ## Examples
 
-### Example #1 
-Retorna uma tabela com uma única coluna populada pelos dados de um dos pontos de extremidade de &#34;Listas&#34; da API do SparkPost v1 (confira a documentação do SparkPost para obter detalhes).
+### Example #1
+Retorna uma tabela com uma única coluna populada pelos dados de um dos pontos de extremidade de "Listas" da API do SparkPost v1 (confira a documentação do SparkPost para obter detalhes).
 ```powerquery
 Source = SparkPost.GetList("metrics/campaigns")
 ```

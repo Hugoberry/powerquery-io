@@ -19,12 +19,12 @@ Number.Sqrt(
 
 ## Remarks
 
-Возвращает квадратный корень числа <code>number</code>.    Если <code>number</code> имеет значение NULL, <code>Number.Sqrt</code> возвращает NULL. Если это отрицательное значение, возвращается значение <code>Number.NaN</code> (нечисловое).
+Возвращает квадратный корень числа `number`. Если `number` имеет значение NULL, `Number.Sqrt` возвращает NULL. Если это отрицательное значение, возвращается значение `Number.NaN` (нечисловое).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Найти квадратный корень числа 625.
 ```powerquery
 Number.Sqrt(625)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Найти квадратный корень числа 85.
 ```powerquery
 Number.Sqrt(85)

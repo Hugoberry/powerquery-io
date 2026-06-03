@@ -19,12 +19,12 @@ Table.RowCount(
 
 ## Remarks
 
-<code>table</code> की पंक्तियों की संख्या लौटाता है.
+`table` की पंक्तियों की संख्या लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 तालिका में पंक्तियों की संख्या ढूँढें.
 ```powerquery
 Table.RowCount(

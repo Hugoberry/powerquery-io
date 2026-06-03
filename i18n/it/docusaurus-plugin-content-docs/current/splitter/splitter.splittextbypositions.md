@@ -25,8 +25,8 @@ Restituisce una funzione che suddivide il testo in un elenco di testo in corrisp
 
 ## Examples
 
-### Example #1 
-Dividere l&#39;input in corrispondenza delle posizioni specificate, a partire dall&#39;inizio dell&#39;input.
+### Example #1
+Dividere l'input in corrispondenza delle posizioni specificate, a partire dall'inizio dell'input.
 ```powerquery
 Splitter.SplitTextByPositions({0, 3, 4})("ABC|12345")
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Dividere l&#39;input in corrispondenza delle posizioni specificate, a partire dalla fine dell&#39;input.
+### Example #2
+Dividere l'input in corrispondenza delle posizioni specificate, a partire dalla fine dell'input.
 ```powerquery
 let
     startAtEnd = true

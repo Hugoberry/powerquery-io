@@ -19,13 +19,13 @@ Type.ListItem(
 
 ## Remarks
 
-Bir <code>type</code> listesinden bir öğe türü döndürür.
+Bir `type` listesinden bir öğe türü döndürür.
 
 
 ## Examples
 
-### Example #1 
-Liste &lt;code&gt;\{number}&lt;/code&gt; içinden öğe türünü bulun.
+### Example #1
+Liste `{number}` içinden öğe türünü bulun.
 ```powerquery
 Type.ListItem(type {number})
 ```

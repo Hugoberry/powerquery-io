@@ -19,12 +19,14 @@ Date.IsInNextQuarter(
 
 ## Remarks
 
-Indikerar om angivet datetime-värde <code>dateTime</code> infaller under nästa kvartal enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar false om den skickas ett värde som infaller under aktuellt kvartal.      <ul>      <li><code>dateTime</code>: Ett <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde som ska utvärderas.</li>      </ul>
+Indikerar om angivet datetime-värde `dateTime` infaller under nästa kvartal enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar false om den skickas ett värde som infaller under aktuellt kvartal.
+
+-   `dateTime`: Ett `date`\-, `datetime`\- eller `datetimezone`\-värde som ska utvärderas.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kontrollera om kvartalet efter den aktuella systemtiden infaller nästa kvartal.
 ```powerquery
 Date.IsInNextQuarter(Date.AddQuarters(DateTime.FixedLocalNow(), 1))

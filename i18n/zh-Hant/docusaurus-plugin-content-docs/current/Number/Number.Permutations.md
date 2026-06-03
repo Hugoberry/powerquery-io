@@ -20,12 +20,12 @@ Number.Permutations(
 
 ## Remarks
 
-依據指定的排列大小 <code>permutationSize</code>，傳回可從項目數 <code>setSize</code> 產生的排列數。
+依據指定的排列大小 `permutationSize`，傳回可從項目數 `setSize` 產生的排列數。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 找出總共 5 個項目中 3 個一組的排列數。
 ```powerquery
 Number.Permutations(5, 3)

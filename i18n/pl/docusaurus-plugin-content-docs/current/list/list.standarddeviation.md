@@ -19,12 +19,12 @@ List.StandardDeviation(
 
 ## Remarks
 
-Zwraca wartość szacunkową odchylenia standardowego wartości z listy <code>numbersList</code> opartą na próbkach.    Jeśli lista <code>numbersList</code> zawiera liczby, zwracana jest liczba.    Gdy lista jest pusta lub zawiera elementy, które nie są wartościami typu <code>number</code>, jest zwracany wyjątek.
+Zwraca wartość szacunkową odchylenia standardowego wartości z listy `numbersList` opartą na próbkach. Jeśli lista `numbersList` zawiera liczby, zwracana jest liczba. W przypadku pustej listy lub listy zawierającej elementy, które nie są typu `numer`, zgłaszany jest błąd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź odchylenie standardowe liczb od 1 do 5.
 ```powerquery
 List.StandardDeviation({1..5})

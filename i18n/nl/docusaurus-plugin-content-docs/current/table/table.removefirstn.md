@@ -20,12 +20,16 @@ Table.RemoveFirstN(
 
 ## Remarks
 
-Hiermee wordt een tabel geretourneerd die niet het eerste opgegeven aantal rijen bevat, <code>countOrCondition</code>, van de tabel <code>table</code>. Het aantal rijen dat wordt verwijderd, is afhankelijk van de optionele parameter <code>countOrCondition</code>. <ul> <li> Als <code>countOrCondition</code> wordt weggelaten, wordt alleen de eerste rij verwijderd. </li> <li> Als <code>countOrCondition</code> een getal is, wordt dat aantal rijen (van bovenaf) verwijderd. </li> <li> Als <code>countOrCondition</code> een voorwaarde is, worden de rijen die aan de voorwaarde voldoen verwijderd totdat een rij niet aan de voorwaarde voldoet.</li> </ul>
+Hiermee wordt een tabel geretourneerd die niet het eerste opgegeven aantal rijen bevat, `countOrCondition`, van de tabel `table`. Het aantal rijen dat wordt verwijderd, is afhankelijk van de optionele parameter `countOrCondition`.
+
+-   Als `countOrCondition` wordt weggelaten, wordt alleen de eerste rij verwijderd.
+-   Als `countOrCondition` een getal is, wordt dat aantal rijen (van bovenaf) verwijderd.
+-   Als `countOrCondition` een voorwaarde is, worden de rijen die aan de voorwaarde voldoen verwijderd totdat een rij niet aan de voorwaarde voldoet.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De eerste rij van de tabel verwijderen.
 ```powerquery
 Table.RemoveFirstN(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 De eerste twee rijen van de tabel verwijderen.
 ```powerquery
 Table.RemoveFirstN(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-De eerste twee rijen waar [CustomerID] &lt;=2 0 van de tabel verwijderen.
+### Example #3
+De eerste twee rijen waar \[CustomerID\] &lt;=2 0 van de tabel verwijderen.
 ```powerquery
 Table.RemoveFirstN(
     Table.FromRecords({

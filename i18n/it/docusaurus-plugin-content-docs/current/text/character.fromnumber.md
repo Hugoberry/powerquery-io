@@ -19,12 +19,14 @@ Character.FromNumber(
 
 ## Remarks
 
-Restituisce il carattere equivalente al numero.<br />    <br />    Il <code>number</code> fornito deve essere un codice carattere Unicode a 21bit.
+Restituisce il carattere equivalente al numero.  
+  
+Il `number` fornito deve essere un codice carattere Unicode a 21bit.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Converte un numero nel valore di carattere equivalente.
 ```powerquery
 Character.FromNumber(9)
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Converte un carattere in un numero e viceversa.
 ```powerquery
 Character.FromNumber(Character.ToNumber("A"))
@@ -48,8 +50,8 @@ Result:
 ```
 
 
-### Example #3 
-Converte il codice carattere esadecimale per l&#39;emoticon &#34;sogghigno&#34; nella relativa coppia di surrogati UTF-16 equivalente.
+### Example #3
+Converte il codice carattere esadecimale per l'emoticon "sogghigno" nella relativa coppia di surrogati UTF-16 equivalente.
 ```powerquery
 Character.FromNumber(0x1F600)
 ```

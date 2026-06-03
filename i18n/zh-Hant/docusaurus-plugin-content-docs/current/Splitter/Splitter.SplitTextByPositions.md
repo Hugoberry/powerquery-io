@@ -25,7 +25,7 @@ Splitter.SplitTextByPositions(
 
 ## Examples
 
-### Example #1 
+### Example #1
 從輸入的開頭開始，在指定位置分割輸入。
 ```powerquery
 Splitter.SplitTextByPositions({0, 3, 4})("ABC|12345")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 從輸入的結尾開始，在指定位置分割輸入。
 ```powerquery
 let

@@ -5,7 +5,7 @@ title: Value.ReplaceType
 # Value.ReplaceType
 
 
-Replaces the value&#39;s type.
+Replaces the value's type.
 
 
 ## Syntax
@@ -20,12 +20,12 @@ Value.ReplaceType(
 
 ## Remarks
 
-Replaces the <code>value</code>'s type with the provided <code>type</code>.
+Replaces the `value`'s type with the provided `type`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Replace the default type of a record with a more specific type.
 ```powerquery
 Type.RecordFields(

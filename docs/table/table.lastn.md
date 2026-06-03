@@ -20,12 +20,15 @@ Table.LastN(
 
 ## Remarks
 
-Returns the last row(s) from the table, <code>table</code>, depending on the value of <code>countOrCondition</code>:    <ul>    <li> If <code>countOrCondition</code> is a number, that many rows will be returned starting from position (end - <code>countOrCondition</code>). </li>    <li> If <code>countOrCondition</code> is a condition, the rows that meet the condition will be returned in ascending position until a row does not meet the condition.</li></ul>
+Returns the last row(s) from the table, `table`, depending on the value of `countOrCondition`:
+
+-   If `countOrCondition` is a number, that many rows will be returned starting from position (end - `countOrCondition`).
+-   If `countOrCondition` is a condition, the rows that meet the condition will be returned in ascending position until a row does not meet the condition.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find the last two rows of the table.
 ```powerquery
 Table.LastN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Find the last rows where [a] &gt; 0 in the table.
+### Example #2
+Find the last rows where \[a\] > 0 in the table.
 ```powerquery
 Table.LastN(
     Table.FromRecords({

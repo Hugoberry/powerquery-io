@@ -24,7 +24,7 @@ Retorna uma lista de relatórios e meses disponíveis da API do Azure Enterprise
 
 ## Examples
 
-### Example #1 
+### Example #1
 Usando a função AzureEnterprise.Tables e navegando até um determinado valor para obter os resultados.
 ```powerquery
 Fonte

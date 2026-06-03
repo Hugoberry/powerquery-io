@@ -5,7 +5,7 @@ title: List.RemoveNulls
 # List.RemoveNulls
 
 
-Belirtilen listeden tüm &#34;null&#34; değerleri kaldırır.
+Belirtilen listeden tüm "null" değerleri kaldırır.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.RemoveNulls(
 
 ## Remarks
 
-<code>list</code> içindeki "null" değerlerin tüm oluşumlarını kaldırır. Listede "null" değer yoksa, asıl liste döndürülür.
+`list` içindeki "null" değerlerin tüm oluşumlarını kaldırır. Listede "null" değer yoksa, asıl liste döndürülür.
 
 
 ## Examples
 
-### Example #1 
-\{1, 2, 3, null, 4, 5, null, 6} listesinden &#34;null&#34; değerleri kaldırır.
+### Example #1
+\{1, 2, 3, null, 4, 5, null, 6\} listesinden "null" değerleri kaldırır.
 ```powerquery
 List.RemoveNulls({1, 2, 3, null, 4, 5, null, 6})
 ```

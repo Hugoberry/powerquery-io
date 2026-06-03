@@ -19,12 +19,12 @@ Table.ColumnNames(
 
 ## Remarks
 
-テーブル <code>table</code> の列名をテキストのリストとして返します。
+テーブル `table` の列名をテキストのリストとして返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブルの列名を調べます。
 ```powerquery
 Table.ColumnNames(

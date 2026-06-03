@@ -19,13 +19,19 @@ Duration.From(
 
 ## Remarks
 
-Gibt einen <code>duration</code>-Wert auf der Grundlage des angegebenen Elements vom Typ „<code>value</code>“ zurück. Besitzt das angegebene Element vom Typ „<code>value</code>“ den Wert <code>NULL</code>, wird von <code>Duration.From</code> der Wert <code>NULL</code> zurückgegeben. Besitzt das angegebene Element vom Typ „<code>value</code>“ den Wert <code>duration</code>, wird „<code>value</code>“ zurückgegeben. Werte folgender Art können in einen <code>duration</code>-Wert konvertiert werden:      <ul>        <li><code>text</code>: Ein <code>duration</code>-Wert auf der Grundlage verstrichener Zeit im Textformat (d.h:m:s). Ausführlichere Informationen finden Sie unter <code>Duration.FromText</code>.</li>        <li><code>number</code>: Eine <code>duration</code>-Entsprechung für die durch „<code>value</code>“ ausgedrückte Anzahl ganzer und anteiliger Tage.</li>      </ul>Handelt es sich bei „<code>value</code>“ um einen anderen Typ, wird ein Fehler zurückgegeben.
+Gibt einen Dauer-Wert aus dem angegebenen Wert zurück.
+
+-   `value`: Der Wert, von dem die Dauer abgeleitet wird. Wenn der angegebene `value` `null` ist, gibt diese Funktion `null` zurück. Wenn der angegebene `value` eine `Dauer` ist, wird `value` zurückgegeben. Werte der folgenden Typen können in einen `Dauer`\-Wert konvertiert werden:
+    -   `Text`: Ein `Dauer`\-Wert aus textuellen abgelaufene Zeitformaten (d:h:m:s). Weitere Informationen finden Sie unter `Duration.FromText`.
+    -   `Zahl`: Ein `Dauer`\-Wert, der der Anzahl der ganzen und fraktionierten Tage entspricht, die durch `value` ausgedrückt werden.
+
+Wenn `value` einen anderen Typ aufweist, wird ein Fehler zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
-Konvertiert &lt;code&gt;2.525&lt;/code&gt; in einen &lt;code&gt;duration&lt;/code&gt;-Wert.
+### Example #1
+Konvertiert `2.525` in einen `duration`\-Wert.
 ```powerquery
 Duration.From(2.525)
 ```
@@ -33,6 +39,18 @@ Duration.From(2.525)
 Result: 
 ```powerquery
 #duration(2, 12, 36, 0)
+```
+
+
+### Example #2
+Konvertieren des Textwerts `"2.05:55:20.34567"` in einen `Dauer`\-Wert.
+```powerquery
+Duration.From("2.05:55:20.34567")
+```
+
+Result: 
+```powerquery
+#duration(2, 5, 55, 20.3456700)
 ```
 
 

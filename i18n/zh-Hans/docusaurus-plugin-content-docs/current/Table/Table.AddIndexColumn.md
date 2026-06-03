@@ -23,13 +23,13 @@ Table.AddIndexColumn(
 
 ## Remarks
 
-使用显式位置值将名为 <code>newColumnName</code> 的列追加到 <code>table</code>。    可选值 <code>initialValue</code> 为初始索引值。可选值 <code>increment</code> 指定每个索引值的增量值。
+使用显式位置值将名为 `newColumnName` 的列追加到 `table`。 可选值 `initialValue` 为初始索引值。可选值 `increment` 指定每个索引值的增量值。
 
 
 ## Examples
 
-### Example #1 
-将名为 &#34;Index&#34; 的索引列添加到表。
+### Example #1
+将名为 "Index" 的索引列添加到表。
 ```powerquery
 Table.AddIndexColumn(
     Table.FromRecords({
@@ -53,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-从值 10 开始、按 5 递增将名为 &#34;index&#34; 的索引列添加到表。
+### Example #2
+从值 10 开始、按 5 递增将名为 "index" 的索引列添加到表。
 ```powerquery
 Table.AddIndexColumn(
     Table.FromRecords({

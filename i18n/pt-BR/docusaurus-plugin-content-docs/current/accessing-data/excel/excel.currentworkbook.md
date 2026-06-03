@@ -19,7 +19,7 @@ Excel.CurrentWorkbook(
 
 ## Remarks
 
-Retorna o conteúdo da pasta de trabalho atual do Excel. Retorna tabelas, intervalos nomeados e matrizes dinâmicas. Ao contrário de <code>Excel.Workbook</code>, ela não retorna planilhas.
+Retorna o conteúdo da pasta de trabalho atual do Excel. Retorna tabelas, intervalos nomeados e matrizes dinâmicas. Ao contrário de `Excel.Workbook`, ela não retorna planilhas.
 
 
 

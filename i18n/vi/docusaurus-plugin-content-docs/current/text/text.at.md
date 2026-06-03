@@ -20,13 +20,13 @@ Text.At(
 
 ## Remarks
 
-Trả về ký tự ở dạng giá trị văn bản <code>text</code> tại vị trí <code>index</code>. Ký tự đầu tiên trong văn bản tại vị trí 0.
+Trả về ký tự ở dạng giá trị văn bản `text` tại vị trí `index`. Ký tự đầu tiên trong văn bản tại vị trí 0.
 
 
 ## Examples
 
-### Example #1 
-Tìm ký tự tại vị trí 4 trong chuỗi &#34;Hello, World&#34;.
+### Example #1
+Tìm ký tự tại vị trí 4 trong chuỗi "Hello, World".
 ```powerquery
 Text.At("Hello, World", 4)
 ```

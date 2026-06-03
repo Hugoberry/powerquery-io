@@ -20,13 +20,16 @@ Date.AddMonths(
 
 ## Remarks
 
-<code>datetime</code> 値 <code>dateTime</code> に <code>numberOfMonths</code> か月を追加した結果の <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> を返します。      <ul>        <li><code>dateTime</code>: 月が追加される <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値。</li>        <li><code>numberOfMonths</code>: 追加する月の数。</li>      </ul>
+`datetime` 値 `dateTime` に `numberOfMonths` か月を追加した結果の `date`、`datetime`、または `datetimezone` を返します。
+
+-   `dateTime`: 月が追加される `date`、`datetime`、または `datetimezone` 値。
+-   `numberOfMonths`: 追加する月の数。
 
 
 ## Examples
 
-### Example #1 
-日付 5/14/2011 を表す &lt;code&gt;date&lt;/code&gt;、&lt;code&gt;datetime&lt;/code&gt;、または &lt;code&gt;datetimezone&lt;/code&gt; 値に 5 か月を追加します。
+### Example #1
+日付 5/14/2011 を表す `date`、`datetime`、または `datetimezone` 値に 5 か月を追加します。
 ```powerquery
 Date.AddMonths(#date(2011, 5, 14), 5)
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-日付と時刻 5/14/2011 08:15:22 AM を表す &lt;code&gt;date&lt;/code&gt;、&lt;code&gt;datetime&lt;/code&gt;、または &lt;code&gt;datetimezone&lt;/code&gt; 値に 18 か月を追加します。
+### Example #2
+日付と時刻 5/14/2011 08:15:22 AM を表す `date`、`datetime`、または `datetimezone` 値に 18 か月を追加します。
 ```powerquery
 Date.AddMonths(#datetime(2011, 5, 14, 8, 15, 22), 18)
 ```

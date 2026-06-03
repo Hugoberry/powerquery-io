@@ -20,13 +20,16 @@ Text.Split(
 
 ## Remarks
 
-Returns a list of text values resulting from the splitting a text value <code>text</code> based on the specified delimiter, <code>separator</code>.
+Returns a list of text values resulting from the splitting of a text value based on the specified delimiter.
+
+-   `text`: The text value to split.
+-   `separator`: The delimiter used to split the text. The delimiter can be either a single character or a sequence of characters. If a sequence of characters is used, the text is split only at instances where the exact sequence occurs.
 
 
 ## Examples
 
-### Example #1 
-Create a list from the &#34;|&#34; delimited text value &#34;Name|Address|PhoneNumber&#34;.
+### Example #1
+Create a list from the "|" delimited text value "Name|Address|PhoneNumber".
 ```powerquery
 Text.Split("Name|Address|PhoneNumber", "|")
 ```
@@ -37,6 +40,22 @@ Result:
     "Name",
     "Address",
     "PhoneNumber"
+}
+```
+
+
+### Example #2
+Create a list from the text value using a sequence of characters.
+```powerquery
+Text.Split("Name, the Customer, the Purchase Date", ", the ")
+```
+
+Result: 
+```powerquery
+{
+    "Name",
+    "Customer",
+    "Purchase Date"
 }
 ```
 

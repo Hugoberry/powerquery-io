@@ -21,12 +21,12 @@ Table.AddKey(
 
 ## Remarks
 
-Agregar una clave a <code>table</code>, donde<code>columns</code> es la lista de nombres que define la clave, y <code>isPrimary</code> especifica si la clave es la principal.
+Agregar una clave a `table`, donde`columns` es la lista de nombres que define la clave, y `isPrimary` especifica si la clave es la principal.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Agregue una clave principal de una sola columna a una tabla.
 ```powerquery
 let

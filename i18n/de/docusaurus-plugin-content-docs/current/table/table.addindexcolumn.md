@@ -23,13 +23,13 @@ Table.AddIndexColumn(
 
 ## Remarks
 
-Fügt "<code>table</code>" eine Spalte namens "<code>newColumnName</code>" mit expliziten Positionswerten an.    Der Ausgangsindex kann mithilfe des optionalen Werts "<code>initialValue</code>" angegeben werden. Die gewünschte Schrittweite für die einzelnen Indexwerte kann mithilfe des optionalen Werts "<code>increment</code>" angegeben werden.
+Fügt "`table`" eine Spalte namens "`newColumnName`" mit expliziten Positionswerten an. Der Ausgangsindex kann mithilfe des optionalen Werts "`initialValue`" angegeben werden. Die gewünschte Schrittweite für die einzelnen Indexwerte kann mithilfe des optionalen Werts "`increment`" angegeben werden.
 
 
 ## Examples
 
-### Example #1 
-Fügt der Tabelle eine Indexspalte namens &#34;Index&#34; hinzu.
+### Example #1
+Fügt der Tabelle eine Indexspalte namens "Index" hinzu.
 ```powerquery
 Table.AddIndexColumn(
     Table.FromRecords({
@@ -53,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Fügt der Tabelle eine Indexspalte namens &#34;index&#34; hinzu, die bei 10 beginnt und um 5 inkrementiert wird.
+### Example #2
+Fügt der Tabelle eine Indexspalte namens "index" hinzu, die bei 10 beginnt und um 5 inkrementiert wird.
 ```powerquery
 Table.AddIndexColumn(
     Table.FromRecords({

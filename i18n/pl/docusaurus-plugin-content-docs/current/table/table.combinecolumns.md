@@ -27,7 +27,7 @@ Table.CombineColumns(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Połącz nazwisko i imię w nową kolumnę, oddzielając je przecinkiem.
 ```powerquery
 Table.CombineColumns(

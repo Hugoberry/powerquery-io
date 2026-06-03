@@ -20,7 +20,7 @@ Text.InferNumberType(
 
 ## Remarks
 
-อนุมานชนิดตัวเลขแกรนูลาร์ (Int64.Type, Double.Type และอื่นๆ) ของ <code>text</code> มีข้อผิดพลาดเกิดขึ้น ถ้า <code>text</code> ไม่ใช่ตัวเลข นอกจากนี้อาจมี <code>culture</code> เพิ่มเติม (ตัวอย่างเช่น "en-US")
+อนุมานชนิดตัวเลขแกรนูลาร์ (Int64.Type, Double.Type และอื่นๆ) ของ `text` มีข้อผิดพลาดเกิดขึ้น ถ้า `text` ไม่ใช่ตัวเลข นอกจากนี้อาจมี `culture` เพิ่มเติม (ตัวอย่างเช่น "en-US")
 
 
 

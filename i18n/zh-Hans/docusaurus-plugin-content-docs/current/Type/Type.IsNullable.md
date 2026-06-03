@@ -19,13 +19,13 @@ Type.IsNullable(
 
 ## Remarks
 
-如果类型是 <code>nullable</code> 类型则返回 <code>true</code>；否则，返回 <code>false</code>。
+如果类型是 `nullable` 类型则返回 `true`；否则，返回 `false`。
 
 
 ## Examples
 
-### Example #1 
-确定 &lt;code&gt;number&lt;/code&gt; 是否可空。
+### Example #1
+确定 `number` 是否可空。
 ```powerquery
 Type.IsNullable(type number)
 ```
@@ -36,8 +36,8 @@ false
 ```
 
 
-### Example #2 
-确定 &lt;code&gt;type nullable number&lt;/code&gt; 是否可空。
+### Example #2
+确定 `type nullable number` 是否可空。
 ```powerquery
 Type.IsNullable(type nullable number)
 ```

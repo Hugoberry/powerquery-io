@@ -25,7 +25,7 @@ Sütunları satır, satırları sütun haline getirir.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablonun ad-değer çifti olan satırlarını sütun haline getirir.
 ```powerquery
 Table.Transpose(

@@ -25,7 +25,7 @@ Zwraca funkcję łączącą listę wartości tekstowych w jedną wartość tekst
 
 ## Examples
 
-### Example #1 
+### Example #1
 Połącz listę wartości tekstowych przy użyciu ogranicznika średnika.
 ```powerquery
 Combiner.CombineTextByDelimiter(";")({"a", "b", "c"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Połącz tekst z dwóch kolumn przy użyciu przecinka jako ogranicznika i cudzysłowu właściwego dla plików CSV.
 ```powerquery
 let

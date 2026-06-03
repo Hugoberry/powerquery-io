@@ -27,8 +27,8 @@ Essa função pode ser usada para recuperar dados de um determinado ponto de ext
 
 ## Examples
 
-### Example #1 
-Recupera as métricas de capacidade de entrega count_sent e count_rejected de todas as campaign_ids agregadas nos últimos três dias. 
+### Example #1
+Recupera as métricas de capacidade de entrega count\_sent e count\_rejected de todas as campaign\_ids agregadas nos últimos três dias.
 ```powerquery
 Source = SparkPost.GetTable(3, "count_sent,count_rejected", "campaign_id", "metrics/deliverability/campaign")
 ```

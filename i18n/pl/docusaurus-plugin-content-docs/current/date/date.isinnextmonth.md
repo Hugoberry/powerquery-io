@@ -19,12 +19,14 @@ Date.IsInNextMonth(
 
 ## Remarks
 
-Wskazuje, czy dana wartość daty/godziny <code>dateTime</code> przypada w następnym miesiącu określonym zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącego miesiąca.      <ul>      <li><code>dateTime</code>: wartość <code>date</code>, <code>datetime</code> lub <code>datetimezone</code> do oszacowania.</li>      </ul>
+Wskazuje, czy dana wartość daty/godziny `dateTime` przypada w następnym miesiącu określonym zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącego miesiąca.
+
+-   `dateTime`: wartość `date`, `datetime` lub `datetimezone` do oszacowania.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ustal, czy miesiąc po aktualnej godzinie systemu wypada w następnym miesiącu.
 ```powerquery
 Date.IsInNextMonth(Date.AddMonths(DateTime.FixedLocalNow(), 1))

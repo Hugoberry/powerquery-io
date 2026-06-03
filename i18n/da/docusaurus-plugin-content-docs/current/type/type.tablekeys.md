@@ -19,12 +19,17 @@ Type.TableKeys(
 
 ## Remarks
 
-Returnerer den eventuelt tomme liste over nøgler for den angivne tabeltype.<br />    <br />    Hver nøgle defineres ved hjælp af en post i følgende format:    <ul>      <li>        <code>Columns</code>: en liste over de kolonnenavne, der definerer nøglen      </li>      <li>        <code>Primary</code>: <code>true</code> hvis nøglen er tabellens primære nøgle; ellers <code>falsk</code>      </li>    </ul>    
+Returnerer den eventuelt tomme liste over nøgler for den angivne tabeltype.  
+  
+Hver nøgle defineres ved hjælp af en post i følgende format:
+
+-   `Columns`: en liste over de kolonnenavne, der definerer nøglen
+-   `Primary`: `true` hvis nøglen er tabellens primære nøgle; ellers `falsk`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returner nøgleoplysningerne vedrørende en tabeltype.
 ```powerquery
 let

@@ -19,13 +19,13 @@ Type.RecordFields(
 
 ## Remarks
 
-Bir <code>type</code> kaydının alanlarını açıklayan bir kayıt döndürür. Döndürülen kayıt türünün her alanı, <code>[ Type = type, Optional = logical ]</code> kaydı türünde bir ada ve değere sahiptir.
+Bir `type` kaydının alanlarını açıklayan bir kayıt döndürür. Döndürülen kayıt türünün her alanı, `[ Type = type, Optional = logical ]` kaydı türünde bir ada ve değere sahiptir.
 
 
 ## Examples
 
-### Example #1 
-Kaydın adını ve değerini bulun &lt;code&gt;[ A = number, optional B = any]&lt;/code&gt;.
+### Example #1
+Kaydın adını ve değerini bulun `[ A = number, optional B = any]`.
 ```powerquery
 Type.RecordFields(type [A = number, optional B = any])
 ```

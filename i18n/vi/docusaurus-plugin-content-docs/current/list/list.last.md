@@ -20,13 +20,16 @@ List.Last(
 
 ## Remarks
 
-Trả về mục cuối cùng trong danh sách <code>list</code> hoặc giá trị mặc định tùy chọn <code>defaultValue</code> nếu danh sách này trống.    Nếu danh sách trống và một giá trị mặc định không được chỉ định thì hàm trả về <code>null</code>.
+Trả về mục cuối cùng trong danh sách đã chỉ định hoặc giá trị mặc định tùy chọn nếu danh sách này trống.
+
+-   `list`: Danh sách cần kiểm tra.
+-   `defaultValue`: (Tùy chọn) Giá trị mặc định để trả về nếu danh sách trống. Nếu danh sách trống và không có giá trị mặc định được chỉ định, hàm sẽ trả về `null`.
 
 
 ## Examples
 
-### Example #1 
-Tìm giá trị cuối cùng trong danh sách \{1, 2, 3}.
+### Example #1
+Tìm giá trị cuối cùng trong danh sách \{1, 2, 3\}.
 ```powerquery
 List.Last({1, 2, 3})
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Tìm giá trị cuối cùng trong danh sách \{} hoặc -1 nếu trống.
+### Example #2
+Tìm giá trị cuối cùng trong danh sách \{\} hoặc -1 nếu trống.
 ```powerquery
 List.Last({}, -1)
 ```

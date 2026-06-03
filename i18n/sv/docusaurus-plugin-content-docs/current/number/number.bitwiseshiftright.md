@@ -20,7 +20,7 @@ Number.BitwiseShiftRight(
 
 ## Remarks
 
-Returnerar resultatet från ett bitvis skifte till höger för <code>number1</code> med angivet antal bitar, <code>number2</code>.
+Returnerar resultatet från ett bitvis skifte till höger för `number1` med angivet antal bitar, `number2`.
 
 
 

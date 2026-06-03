@@ -21,13 +21,13 @@ Table.FromPartitions(
 
 ## Remarks
 
-ส่งกลับตารางที่เป็นผลลัพธ์ของการรวมชุดตารางที่มีการแบ่งพาร์ติชัน <code>partitions</code> <code>partitionColumn</code> เป็นชื่อของคอลัมน์ที่เพิ่ม ประเภทของคอลัมน์เริ่มต้นคือ <code>any</code> แต่สามารถระบุได้ด้วย <code>partitionColumnType</code>
+ส่งกลับตารางที่เป็นผลลัพธ์ของการรวมชุดตารางที่มีการแบ่งพาร์ติชัน `partitions` `partitionColumn` เป็นชื่อของคอลัมน์ที่เพิ่ม ประเภทของคอลัมน์เริ่มต้นคือ `any` แต่สามารถระบุได้ด้วย `partitionColumnType`
 
 
 ## Examples
 
-### Example #1 
-ค้นหาประเภทรายการจากรายการ &lt;code&gt;\{number}&lt;/code&gt;
+### Example #1
+ค้นหาประเภทรายการจากรายการ `{number}`
 ```powerquery
 Table.FromPartitions(
     "Year",

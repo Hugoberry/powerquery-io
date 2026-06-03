@@ -27,7 +27,7 @@ Table.UnpivotOtherColumns(
 
 ## Examples
 
-### Example #1 
+### Example #1
 प्रत्येक पंक्ति में मौजूद शेष मानों के साथ संयोजित, विशेषता-मान युग्मों में निर्दिष्ट सेट के अलावा अन्य सभी स्तंभों का अनुवाद करता है.
 ```powerquery
 Table.UnpivotOtherColumns(

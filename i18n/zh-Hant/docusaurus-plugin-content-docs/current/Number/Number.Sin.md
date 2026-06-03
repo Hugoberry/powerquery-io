@@ -19,12 +19,12 @@ Number.Sin(
 
 ## Remarks
 
-傳回 <code>number</code> 的正弦值。
+傳回 `number` 的正弦值。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 找出角度 0 的正弦值。
 ```powerquery
 Number.Sin(0)

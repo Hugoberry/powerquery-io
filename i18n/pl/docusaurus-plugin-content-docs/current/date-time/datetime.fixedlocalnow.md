@@ -19,7 +19,7 @@ DateTime.FixedLocalNow(
 
 ## Remarks
 
-Zwraca wartość typu <code>datetime</code> reprezentującą aktualną datę i godzinę ustawioną w systemie. Ta wartość jest stała i nie zmienia się w kolejnych wywołaniach, w przeciwieństwie do wartości zwracanej przez funkcję DateTime.LocalNow, która może zwracać różne wartości w trakcie wykonywania wyrażenia.
+Zwraca wartość typu `datetime` reprezentującą aktualną datę i godzinę ustawioną w systemie. Ta wartość jest stała i nie zmienia się w kolejnych wywołaniach, w przeciwieństwie do wartości zwracanej przez funkcję DateTime.LocalNow, która może zwracać różne wartości w trakcie wykonywania wyrażenia.
 
 
 

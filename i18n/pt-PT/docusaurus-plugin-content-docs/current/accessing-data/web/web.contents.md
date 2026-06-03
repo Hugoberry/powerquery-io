@@ -20,13 +20,27 @@ Web.Contents(
 
 ## Remarks
 
-Devolve o conteúdo transferido de <code>url</code> como binário. Pode ser fornecido um parâmetro de registo opcional, <code>options</code>, para especificar propriedades adicionais. O registo pode conter os seguintes campos:    <ul><li><code>Query</code> : Adicione programaticamente par&#226;metros de consulta ao URL, sem ter de se preocupar com escapes.</li><li><code>ApiKeyName</code> : Se o site de destino tiver uma no&#231;&#227;o de uma chave de API, este par&#226;metro pode ser utilizado para especificar o nome (n&#227;o o valor) do par&#226;metro chave que &#233; necess&#225;rio utilizar no URL. O valor chave real &#233; fornecido na credencial.</li><li><code>Headers</code> : Especificar este valor como um registo vai fornecer cabe&#231;alhos adicionais a um pedido HTTP.</li><li><code>Timeout</code> : Especificar este valor como uma dura&#231;&#227;o vai alterar o tempo limite para um pedido HTTP. O valor predefinido &#233; de 100 segundos.</li><li><code>ExcludedFromCacheKey</code> : Especificar este valor como uma lista vai excluir estas chaves de cabe&#231;alho HTTP para que n&#227;o fa&#231;am parte do c&#225;lculo para colocar os dados em cache.</li><li><code>IsRetry</code> : Especificar este valor l&#243;gico como verdadeiro vai ignorar qualquer resposta existente na cache ao obter os dados.</li><li><code>ManualStatusHandling</code> : Especificar este valor como uma lista vai impedir qualquer processamento incorporado para pedidos HTTP cuja resposta tenha um destes c&#243;digos de estado.</li><li><code>RelativePath</code> : Especificar este valor como texto acrescenta-o ao URL base antes de fazer o pedido.</li><li><code>Content</code> : Especificar este valor altera o pedido Web de um GET para um POST, utilizando o valor da op&#231;&#227;o como conte&#250;do do POST.</li></ul>    O pedido HTTP é efetuado como GET (quando não for especificado nenhum Conteúdo) ou um POST (quando existir Conteúdo). Os pedidos POST apenas podem ser efetuados anonimamente.    <br />    Os cabeçalhos da resposta HTTP estão disponíveis como metadados no resultado binário. Fora de um contexto de conector com dados personalizados, apenas está disponível um subconjunto de cabeçalhos de resposta (por motivos de segurança).    
+Devolve como binário o conteúdo transferido de `url`. Poderá ser fornecido um parâmetro de registo opcional, `options`, para especificar propriedades adicionais. O registo pode conter os campos seguintes:
+
+-   `Query` : Adicione programaticamente parâmetros de consulta ao URL, sem ter de se preocupar com escapes.
+-   `ApiKeyName` : Se o site de destino tiver uma noção de uma chave de API, este parâmetro pode ser utilizado para especificar o nome (não o valor) do parâmetro chave que é necessário utilizar no URL. O valor chave real é fornecido na credencial.
+-   `Headers` : Especificar este valor como um registo vai fornecer cabeçalhos adicionais a um pedido HTTP.
+-   `Timeout` : Especificar este valor como uma duração vai alterar o tempo limite para um pedido HTTP. O valor predefinido é de 100 segundos.
+-   `ExcludedFromCacheKey` : Especificar este valor como uma lista vai excluir estas chaves de cabeçalho HTTP para que não façam parte do cálculo para colocar os dados em cache.
+-   `IsRetry` : Especificar este valor lógico como verdadeiro vai ignorar qualquer resposta existente na cache ao obter os dados.
+-   `ManualStatusHandling` : Especificar este valor como uma lista vai impedir qualquer processamento incorporado para pedidos HTTP cuja resposta tenha um destes códigos de estado.
+-   `RelativePath` : Especificar este valor como texto acrescenta-o ao URL base antes de fazer o pedido.
+-   `Content` : Especificar este valor altera o pedido Web de um GET para um POST, utilizando o valor da opção como conteúdo do POST.
+
+O pedido HTTP é efetuado como GET (quando não é especificado nenhum Content) ou como POST (quando existe Content). Os pedidos POST só poderão ser efetuados anonimamente.  
+  
+Os cabeçalhos da resposta HTTP estão disponíveis como metadados no resultado binário. Fora do contexto de um conector de dados personalizado, apenas está disponível um subconjunto de cabeçalhos de resposta (por motivos de segurança).
 
 
 ## Examples
 
-### Example #1 
-Obtenha os conteúdos de &lt;code&gt;&#34;https://bing.com/search?q=Power+Query&#34;&lt;/code&gt; utilizando as opções RelativePath e Query. Estas opções podem ser utilizadas para consultar dinamicamente um URL base estático.
+### Example #1
+Obtenha os conteúdos de `"https://bing.com/search?q=Power+Query"` utilizando as opções RelativePath e Query. Estas opções podem ser utilizadas para consultar dinamicamente um URL base estático.
 ```powerquery
 let
     searchText = "Power Query"
@@ -46,7 +60,7 @@ binary
 ```
 
 
-### Example #2 
+### Example #2
 Execute um POST num URL, ao passar um payload JSON binário e ao analisar a resposta como JSON.
 ```powerquery
 let
@@ -71,8 +85,8 @@ table
 ```
 
 
-### Example #3 
-Ligue-se a um URL seguro que aceite uma chave de autenticação como parte da respetiva cadeia de consulta. Em vez de programar de forma rígida a chave secreta em M (que levantaria um risco de segurança),     a chave pode ser fornecida em segurança ao especificar o nome da mesma (não o valor) em M, escolher a autenticação API Web e introduzir o valor da chave como parte da credencial da API Web.    Quando utilizado desta forma, o exemplo seguinte gerará um pedido para &lt;code&gt;&#34;https://contoso.com/api/customers/get?api_key=\*\*\*\*\*\*&#34;&lt;/code&gt;.
+### Example #3
+Ligue-se a um URL seguro que aceite uma chave de autenticação como parte da respetiva cadeia de consulta. Em vez de fazer hard-coding da chave secreta em M (o que representaria um risco de segurança), a chave poderá ser fornecida em segurança ao especificar o respetivo nome (e não o respetivo valor) em M, ao escolher a autenticação da API Web e ao introduzir o valor da chave como parte da credencial da API Web. Quando utilizado desta forma, o exemplo seguinte gerará um pedido a `"https://contoso.com/api/customers/get?api_key=******"`.
 ```powerquery
 Web.Contents("https://contoso.com/api/customers/get", [ApiKeyName="api_key"])
 ```

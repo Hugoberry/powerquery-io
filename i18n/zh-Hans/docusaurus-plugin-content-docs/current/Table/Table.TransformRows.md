@@ -20,12 +20,12 @@ Table.TransformRows(
 
 ## Remarks
 
-通过将 <code>transform</code> 操作应用于 <code>table</code> 中的每一行来创建<code>列表</code>。
+通过将 `transform` 操作应用于 `table` 中的每一行来创建`列表`。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 将表的行转换为数字列表。
 ```powerquery
 Table.TransformRows(
@@ -46,7 +46,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 将数值表的行转换为文本记录。
 ```powerquery
 Table.TransformRows(

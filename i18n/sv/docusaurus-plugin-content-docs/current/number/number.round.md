@@ -21,12 +21,19 @@ Number.Round(
 
 ## Remarks
 
-Returnerar resultatet av avrundning av <code>number</code> till närmsta tal. Om <code>number</code> är null, <code>Number. Round</code> returneras null. <br />      <br />      Som standard avrundas <code>number</code> till närmsta heltal och bindningarna bryts genom avrundning till närmaste jämna tal (med <code>att RoundingMode.ToEven</code>, även känt som "banker's rounding"). <br />      <br />      Dessa standardvärden kan dock åsidosättas via följande valfria parametrar.       <ul>        <li><code>digits</code>: Orsakar att <code>number</code> avrundas till det angivna antalet decimaler. </li>        <li><code>roundingMode</code>: Åsidosätter standardbeteendet för återkoppling när <code>number</code> är på mitt punkten mellan två möjliga avrundade värden(Mer information finns under <code>RoundingMode.Type</code> för möjliga värden).</li>      </ul>
+Returnerar resultatet av avrundning av `number` till närmsta tal. Om `number` är null, `Number. Round` returneras null.  
+  
+Som standard avrundas `number` till närmsta heltal och bindningarna bryts genom avrundning till närmaste jämna tal (med `att RoundingMode.ToEven`, även känt som "banker's rounding").  
+  
+Dessa standardvärden kan dock åsidosättas via följande valfria parametrar.
+
+-   `digits`: Orsakar att `number` avrundas till det angivna antalet decimaler.
+-   `roundingMode`: Åsidosätter standardbeteendet för återkoppling när `number` är på mitt punkten mellan två möjliga avrundade värden (Mer information finns under `RoundingMode.Type` för möjliga värden).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Avrunda 1,234 till närmaste heltal.
 ```powerquery
 Number.Round(1.234)
@@ -38,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Avrunda 1,56 till närmaste heltal.
 ```powerquery
 Number.Round(1.56)
@@ -50,7 +57,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Avrunda 1,2345 till två decimaler.
 ```powerquery
 Number.Round(1.2345, 2)
@@ -62,7 +69,7 @@ Result:
 ```
 
 
-### Example #4 
+### Example #4
 Avrunda 1,2345 till tre decimaler (avrunda uppåt).
 ```powerquery
 Number.Round(1.2345, 3, RoundingMode.Up)
@@ -74,7 +81,7 @@ Result:
 ```
 
 
-### Example #5 
+### Example #5
 Avrunda 1,2345 till tre decimaler (avrunda nedåt).
 ```powerquery
 Number.Round(1.2345, 3, RoundingMode.Down)

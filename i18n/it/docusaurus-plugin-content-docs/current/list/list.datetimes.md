@@ -21,13 +21,13 @@ List.DateTimes(
 
 ## Remarks
 
-Restituisce un elenco di valori <code>datetime</code> di dimensione <code>count</code>, a partire da <code>start</code>. L'incremento specificato <code>step</code> è un valore <code>duration</code> che viene aggiunto a ogni valore.
+Restituisce un elenco di valori `datetime` di dimensione `count`, a partire da `start`. L'incremento specificato `step` è un valore `duration` che viene aggiunto a ogni valore.
 
 
 ## Examples
 
-### Example #1 
-Creare un elenco di 10 valori a partire da 5 minuti prima del primo dell&#39;anno (#datetime(2011, 12, 31, 23, 55, 0)) con incrementi di 1 minuto (#duration(0, 0, 1, 0)).
+### Example #1
+Creare un elenco di 10 valori a partire da 5 minuti prima del primo dell'anno (#datetime(2011, 12, 31, 23, 55, 0)) con incrementi di 1 minuto (#duration(0, 0, 1, 0)).
 ```powerquery
 List.DateTimes(#datetime(2011, 12, 31, 23, 55, 0), 10, #duration(0, 0, 1, 0))
 ```

@@ -20,12 +20,12 @@ Table.FromColumns(
 
 ## Remarks
 
-<code>lists</code> listesinden <code>columns</code> türünde, sütun adlarını ve değerlerini içeren iç içe yerleştirilmiş listeleri bulunduran bir tablo oluşturur.    Bazı sütunlarda diğerlerinden daha fazla değer varsa, eksik değerler sütunlar null atanabilir ise varsayılan değer olan 'null' ile doldurulur.
+`lists` listesinden `columns` türünde, sütun adlarını ve değerlerini içeren iç içe yerleştirilmiş listeleri bulunduran bir tablo oluşturur. Bazı sütunlarda diğerlerinden daha fazla değer varsa, eksik değerler sütunlar null atanabilir ise varsayılan değer olan 'null' ile doldurulur.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Listede yer alan bir müşteri adları listesinden bir tablo döndürür. Müşteri listesi öğesindeki her bir değer satır değeri olurken her bir liste sütun olur.
 ```powerquery
 Table.FromColumns({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Verilen sütun listesinden ve sütun adları listesinden tablo oluşturur.
 ```powerquery
 Table.FromColumns(
@@ -68,8 +68,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Satır başına farklı sütun sayıları olan bir tablo oluşturur. Eksik satır değeri null&#39;dur.
+### Example #3
+Satır başına farklı sütun sayıları olan bir tablo oluşturur. Eksik satır değeri null'dur.
 ```powerquery
 Table.FromColumns(
     {

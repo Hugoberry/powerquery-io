@@ -22,13 +22,13 @@ Table.ExpandTableColumn(
 
 ## Remarks
 
-<code>table</code>[<code>column</code>] içindeki tabloları birden çok satır ve sütuna genişletir. <code>columnNames</code>, iç tablodan genişletilecek sütunları seçmek için kullanılır. Var olan sütunlar ve yeni sütunlar arasındaki çakışmalardan kaçınmak için <code>newColumnNames</code> öğesini belirtir.
+`table`\[`column`\] içindeki tabloları birden çok satır ve sütuna genişletir. `columnNames`, iç tablodan genişletilecek sütunları seçmek için kullanılır. Var olan sütunlar ve yeni sütunlar arasındaki çakışmalardan kaçınmak için `newColumnNames` öğesini belirtir.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;(\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]})&lt;/code&gt; tablosunda &lt;code&gt;[a]&lt;/code&gt; içindeki tablo sütunlarını &lt;code&gt;[t.a]&lt;/code&gt;, &lt;code&gt;[t.b]&lt;/code&gt; ve &lt;code&gt;[t.c]&lt;/code&gt; sütunlarına genişletir.
+### Example #1
+`({[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]})` tablosunda `[a]` içindeki tablo sütunlarını `[t.a]`, `[t.b]` ve `[t.c]` sütunlarına genişletir.
 ```powerquery
 Table.ExpandTableColumn(
     Table.FromRecords({

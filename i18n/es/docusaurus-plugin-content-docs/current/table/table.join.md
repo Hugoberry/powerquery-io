@@ -25,12 +25,25 @@ Table.Join(
 
 ## Remarks
 
-Combina las filas de <code>table1</code> con las filas de <code>table2</code> según la igualdad de los valores de las columnas clave seleccionadas por <code>key1</code> (para <code>table1</code>) y <code>key2</code> (para <code>table2</code>).<br />De manera predeterminada, se realiza una combinación interna, pero se puede incluir un valor <code>joinKind</code> opcional para especificar el tipo de combinación. Algunas opciones son las siguientes:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Se puede incluir un conjunto de <code>keyEqualityComparers</code> opcional para especificar cómo comparar las columnas de clave. Actualmente, esta característica solo está diseñada para uso interno.<br />
+Combina las filas de `table1` con las filas de `table2` según la igualdad de los valores de las columnas clave seleccionadas por `key1` (para `table1`) y `key2` (para `table2`).
+
+De manera predeterminada, se realiza una combinación interna, pero se puede incluir un valor `joinKind` opcional para especificar el tipo de combinación. Algunas opciones son las siguientes:
+
+-   `JoinKind.Inner`
+-   `JoinKind.LeftOuter`
+-   `JoinKind.RightOuter`
+-   `JoinKind.FullOuter`
+-   `JoinKind.LeftAnti`
+-   `JoinKind.RightAnti`
+-   `JoinKind.LeftSemi`
+-   `JoinKind.RightSemi`
+
+Se puede incluir un conjunto de `keyEqualityComparers` opcional para especificar cómo comparar las columnas de clave. Actualmente, esta característica solo está diseñada para uso interno.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Una dos tablas con una única columna de clave.
 ```powerquery
 Table.Join(
@@ -67,7 +80,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Combinar dos tablas que tienen nombres de columna en conflicto, usando varias columnas de clave.
 ```powerquery
 let

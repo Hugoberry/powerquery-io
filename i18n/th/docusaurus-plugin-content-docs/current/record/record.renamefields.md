@@ -5,7 +5,7 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-นำการเปลี่ยนชื่อจากรายการในฟอร์ม \{ old, new } ไปใช้
+นำการเปลี่ยนชื่อจากรายการในฟอร์ม \{ old, new \} ไปใช้
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Record.RenameFields(
 
 ## Remarks
 
-ส่งกลับระเบียนหลังจากเปลี่ยนชื่อเขตข้อมูลในค่าที่ป้อน <code>record</code> เป็นชื่อเขตข้อมูลใหม่ที่ระบุในรายการ <code>renames</code> สำหรับการเปลี่ยนชื่อหลายรายการ สามารถใช้รายการที่ซ้อนกันได้ (\{ \{old1, new1}, \{old2, new2} }
+ส่งกลับระเบียนหลังจากเปลี่ยนชื่อเขตข้อมูลในค่าที่ป้อน `record` เป็นชื่อเขตข้อมูลใหม่ที่ระบุในรายการ `renames` สำหรับการเปลี่ยนชื่อหลายรายการ คุณสามารถใช้รายการที่ซ้อนกันได้ (\{ \{old1, new1\}, \{old2, new2\} \})
 
 
 ## Examples
 
-### Example #1 
-เปลี่ยนชื่อฟิลด์ &#34;UnitPrice&#34; เป็น &#34;Price&#34; จากระเบียน
+### Example #1
+เปลี่ยนชื่อฟิลด์ "UnitPrice" เป็น "Price" จากระเบียน
 ```powerquery
 Record.RenameFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", UnitPrice = 100.0],
@@ -41,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-เปลี่ยนชื่อฟิลด์ &#34;UnitPrice&#34; เป็น &#34;Price&#34; และ &#34;OrderNum&#34; เป็น &#34;OrderID&#34; จากระเบียน
+### Example #2
+เปลี่ยนชื่อฟิลด์ "UnitPrice" เป็น "Price" และ "OrderNum" เป็น "OrderID" จากระเบียน
 ```powerquery
 Record.RenameFields(
     [OrderNum = 1, CustomerID = 1, Item = "Fishing rod", UnitPrice = 100.0],

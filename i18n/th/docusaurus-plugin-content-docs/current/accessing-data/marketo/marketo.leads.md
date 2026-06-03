@@ -21,12 +21,12 @@ Marketo.Leads(
 
 ## Remarks
 
-เรียกใช้ Marketo REST API Endpoint ที่ <code>url</code>/rest/v1/leads.json ส่งคืนข้อมูลลูกค้าที่สนใจทั้งหมดอยู่ในรายการ <code>leadIds</code>
+เรียกใช้ Marketo REST API Endpoint ที่ `url`/rest/v1/leads.json ส่งคืนข้อมูลลูกค้าที่สนใจทั้งหมดอยู่ในรายการ `leadIds`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ดึงรายละเอียดลูกค้าที่สนใจสามราย
 ```powerquery
 Marketo.Leads("https://100-AAA-999.mktorest.com/rest", {50, 2343, 88498})

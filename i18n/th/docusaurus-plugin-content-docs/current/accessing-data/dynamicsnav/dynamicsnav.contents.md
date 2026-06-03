@@ -20,6 +20,6 @@ DynamicsNav.Contents(
 
 ## Remarks
 
-ส่งกลับตารางพร้อมข้อมูลของ Dynamics NAV ที่เกี่ยวข้อง 
+ส่งกลับตารางพร้อมข้อมูลของ Dynamics NAV ที่เกี่ยวข้อง
 
 

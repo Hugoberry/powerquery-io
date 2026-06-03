@@ -21,13 +21,17 @@ Table.SelectColumns(
 
 ## Remarks
 
-ส่งกลับ <code>table</code> ที่มีเฉพาะ <code>columns</code> ที่ระบุ    <ul>       <li><code>table</code>: ตารางที่กำหนดให้</li>       <li><code>columns</code>: รายการคอลัมน์จากตาราง <code>table</code> ที่จะส่งกลับ คอลัมน์ในตารางที่ส่งกลับจะอยู่ในลำดับที่แสดงรายการใน <code>columns</code></li>       <li><code>missingField</code>: <i>(เลือกได้)</i> วิธีดำเนินการถ้าไม่มีคอลัมน์ดังกล่าวอยู่  ตัวอย่างเช่น: <code>MissingField.UseNull</code> หรือ <code>MissingField.Ignore</code>    </li></ul>
+ส่งคืนค่า `table` โดยมีเฉพาะข้อมูลที่ระบุเท่านั้น `columns`
+
+-   `table`: ตารางที่ให้มา
+-   `columns`: รายการคอลัมน์จากตาราง `table` ที่จะส่งคืน คอลัมน์ในตารางที่ส่งคืนจะเรียงตามลำดับที่ระบุในรูปแบบ `columns`
+-   `missingField`: *(ไม่บังคับ)* จะทำอย่างไรหากคอลัมน์นั้นไม่มีอยู่ ตัวอย่างเช่น: `MissingField.UseNull` หรือ `MissingField.Ignore`
 
 
 ## Examples
 
-### Example #1 
-รวมเฉพาะคอลัมน์ [Name]
+### Example #1
+รวมเฉพาะคอลัมน์ \[Name\]
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({
@@ -51,8 +55,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-รวมเฉพาะคอลัมน์ [CustomerID] และ [Name]
+### Example #2
+รวมเฉพาะคอลัมน์ \[CustomerID\] และ \[Name\]
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -66,7 +70,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #3 
+### Example #3
 ถ้าไม่มีคอลัมน์ที่รวมอยู่ ผลลัพธ์เริ่มต้นคือข้อผิดพลาด
 ```powerquery
 Table.SelectColumns(
@@ -81,8 +85,8 @@ Result:
 ```
 
 
-### Example #4 
-ถ้าไม่มีคอลัมน์ที่รวมอยู่ ตัวเลือก &lt;code&gt;MissingField.UseNull&lt;/code&gt; จะสร้างคอลัมน์ของค่า null
+### Example #4
+ถ้าไม่มีคอลัมน์ที่รวมอยู่ ตัวเลือก `MissingField.UseNull` จะสร้างคอลัมน์ของค่า null
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

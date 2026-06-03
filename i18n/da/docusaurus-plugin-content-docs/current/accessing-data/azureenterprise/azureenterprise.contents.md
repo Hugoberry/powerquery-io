@@ -25,7 +25,7 @@ Returnerer de binære resultater af kaldet til den URL-adresse, der er angivet t
 
 ## Examples
 
-### Example #1 
+### Example #1
 Anvend funktionen AzureEnterprise.Contents til at returnere resultaterne af en specifik rapport.
 ```powerquery
         let

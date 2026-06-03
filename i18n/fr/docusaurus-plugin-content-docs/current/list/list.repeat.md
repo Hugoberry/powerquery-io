@@ -5,7 +5,7 @@ title: List.Repeat
 # List.Repeat
 
 
-Retourne une liste qui contient un certain nombre de répétitions de la liste d&#39;origine.
+Retourne une liste qui contient un certain nombre de répétitions de la liste d'origine.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ List.Repeat(
 
 ## Remarks
 
-Retourne une liste qui contient <code>count</code> répétitions de la liste d'origine, <code>list</code>.
+Retourne une liste qui contient `count` répétitions de la liste d'origine, `list`.
 
 
 ## Examples
 
-### Example #1 
-Crée une liste qui contient \{1, 2} répété 3 fois.
+### Example #1
+Crée une liste qui contient \{1, 2\} répété 3 fois.
 ```powerquery
 List.Repeat({1, 2}, 3)
 ```

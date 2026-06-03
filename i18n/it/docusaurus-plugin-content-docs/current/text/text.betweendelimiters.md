@@ -23,13 +23,13 @@ Text.BetweenDelimiters(
 
 ## Remarks
 
-Restituisce la porzione di <code>text</code> tra gli oggetti <code>startDelimiter</code> e <code>endDelimiter</code> specificati.    Un valore numerico <code>startIndex</code> facoltativo indica quale occorrenza di <code>startDelimiter</code> prendere in considerazione.    Un elenco <code>startIndex</code> facoltativo indica quale occorrenza di <code>startDelimiter</code> prendere in considerazione e se eseguire l'indicizzazione dall'inizio o dalla fine dell'input.    <code>endIndex</code> è simile, ma l'indicizzazione viene eseguita rispetto a <code>startIndex</code>.
+Restituisce la porzione di `text` tra gli oggetti `startDelimiter` e `endDelimiter` specificati. Un valore numerico `startIndex` facoltativo indica quale occorrenza di `startDelimiter` prendere in considerazione. Un elenco `startIndex` facoltativo indica quale occorrenza di `startDelimiter` prendere in considerazione e se eseguire l'indicizzazione dall'inizio o dalla fine dell'input. `endIndex` è simile, ma l'indicizzazione viene eseguita rispetto a `startIndex`.
 
 
 ## Examples
 
-### Example #1 
-Ottiene la porzione di &#34;111 (222) 333 (444)&#34; tra la (prima) parentesi aperta e la (prima) parentesi chiusa che la segue.
+### Example #1
+Ottiene la porzione di "111 (222) 333 (444)" tra la (prima) parentesi aperta e la (prima) parentesi chiusa che la segue.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")")
 ```
@@ -40,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Ottiene la porzione di &#34;111 (222) 333 (444)&#34; tra la seconda parentesi aperta e la prima parentesi chiusa che la segue.
+### Example #2
+Ottiene la porzione di "111 (222) 333 (444)" tra la seconda parentesi aperta e la prima parentesi chiusa che la segue.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")", 1, 0)
 ```
@@ -52,8 +52,8 @@ Result:
 ```
 
 
-### Example #3 
-Ottiene la porzione di &#34;111 (222) 333 (444)&#34; tra la seconda parentesi aperta a partire dalla fine e la seconda parentesi chiusa che la segue.
+### Example #3
+Ottiene la porzione di "111 (222) 333 (444)" tra la seconda parentesi aperta a partire dalla fine e la seconda parentesi chiusa che la segue.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")", {1, RelativePosition.FromEnd}, {1, RelativePosition.FromStart})
 ```

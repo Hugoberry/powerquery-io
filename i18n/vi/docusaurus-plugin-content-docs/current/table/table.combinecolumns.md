@@ -27,7 +27,7 @@ Kết hợp các cột được chỉ định thành một cột mới bằng h�
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kết hợp họ và tên vào một cột mới, được phân tách bằng dấu phẩy.
 ```powerquery
 Table.CombineColumns(

@@ -24,7 +24,7 @@ Sabit bir değerin M kaynak kodu gösterimini döndürür.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bir sayı değerinin M kaynak kodu gösterimini alır.
 ```powerquery
 Expression.Constant(123)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Bir tarih değerinin M kaynak kodu gösterimini alır.
 ```powerquery
 Expression.Constant(#date(2035, 01, 02))
@@ -48,7 +48,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Bir metin değerinin M kaynak kodu gösterimini alır.
 ```powerquery
 Expression.Constant("abc")

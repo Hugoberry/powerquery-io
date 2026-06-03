@@ -19,12 +19,12 @@ Duration.TotalSeconds(
 
 ## Remarks
 
-Devuelve el total de segundos distribuidos por <code>duration</code>.
+Devuelve el total de segundos distribuidos por `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Busque el total de segundos distribuidos por un valor de duración.
 ```powerquery
 Duration.TotalSeconds(#duration(5, 4, 3, 2))

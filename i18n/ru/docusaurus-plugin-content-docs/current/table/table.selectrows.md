@@ -20,13 +20,13 @@ Table.SelectRows(
 
 ## Remarks
 
-Возвращает таблицу строк из <code>table</code>, согласующуюся с выбором <code>condition</code>.
+Возвращает таблицу строк из `table`, согласующуюся с выбором `condition`.
 
 
 ## Examples
 
-### Example #1 
-Выбрать строки в таблице со значениями в столбце [CustomerID] больше 2.
+### Example #1
+Выбрать строки в таблице со значениями в столбце \[CustomerID\] больше 2.
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({
@@ -48,8 +48,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Выбрать строки таблицы, в которых имена не содержат &#34;B&#34;.
+### Example #2
+Выбрать строки таблицы, в которых имена не содержат "B".
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({

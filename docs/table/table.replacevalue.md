@@ -23,13 +23,19 @@ Table.ReplaceValue(
 
 ## Remarks
 
-Replaces <code>oldValue</code> with <code>newValue</code> in the specified columns of the <code>table</code>.
+Replaces a value with a new value in the specified columns of a table.
+
+-   `table`: The table to search.
+-   `oldValue`: The value to be replaced.
+-   `newValue`: The replacement value.
+-   `replacer`: The replacer function to use. The function can be either `Replacer.ReplaceText` to replace the original text with new text, `Replacer.ReplaceValue` to replace the original value with a new value, or a custom replacer.
+-   `columnsToSearch`: A list containing the specific column or columns in the table to search for the value to replace.
 
 
 ## Examples
 
-### Example #1 
-Replace the text &#34;goodbye&#34; with &#34;world&#34; in column B, matching only the entire value.
+### Example #1
+Replace the text "goodbye" with "world" in column B, matching only the entire value.
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -54,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Replace the text &#34;ur&#34; with &#34;or&#34; in column B, matching any part of the value.
+### Example #2
+Replace the text "ur" with "or" in column B, matching any part of the value.
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -78,7 +84,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Anonymize the names of US employees.
 ```powerquery
 Table.ReplaceValue(
@@ -102,7 +108,7 @@ Table.FromRecords({
 ```
 
 
-### Example #4 
+### Example #4
 Anonymize all columns of US employees.
 ```powerquery
 Table.ReplaceValue(

@@ -20,12 +20,12 @@ Table.Last(
 
 ## Remarks
 
-返回 <code>table</code> 的最后一行，或如果表为空，则返回可选默认值 <code>default</code>。
+返回 `table` 的最后一行，或如果表为空，则返回可选默认值 `default`。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 查找表的最后一行。
 ```powerquery
 Table.Last(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-查找表 &lt;code&gt;(\{})&lt;/code&gt; 的最后一行，或如果为空，则返回 [a = 0, b = 0]。
+### Example #2
+查找表 `({})` 的最后一行，或如果为空，则返回 \[a = 0, b = 0\]。
 ```powerquery
 Table.Last(Table.FromRecords({}), [a = 0, b = 0])
 ```

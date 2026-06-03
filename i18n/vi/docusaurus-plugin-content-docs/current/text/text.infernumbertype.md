@@ -20,7 +20,7 @@ Text.InferNumberType(
 
 ## Remarks
 
-Đưa ra loại số chi tiết (Int64.Type, Double.Type, v.v.) của <code>text</code>. Lỗi sẽ phát sinh nếu <code>text</code> không phải một số. <code>culture</code> tùy chọn cũng có thể được cung cấp (ví dụ: "vi-VN").
+Đưa ra loại số chi tiết (Int64.Type, Double.Type, v.v.) của `text`. Lỗi sẽ phát sinh nếu `text` không phải một số. `culture` tùy chọn cũng có thể được cung cấp (ví dụ: "vi-VN").
 
 
 

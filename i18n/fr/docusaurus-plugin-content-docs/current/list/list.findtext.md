@@ -5,7 +5,7 @@ title: List.FindText
 # List.FindText
 
 
-Retourne une liste des valeurs (champs d&#39;enregistrement compris) qui contiennent le texte spécifié.
+Retourne une liste des valeurs (champs d'enregistrement compris) qui contiennent le texte spécifié.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ List.FindText(
 
 ## Remarks
 
-Retourne une liste de valeurs à partir de la liste <code>list</code> qui contenait la valeur <code>text</code>.
+Retourne une liste de valeurs à partir de la liste `list` qui contenait la valeur `text`.
 
 
 ## Examples
 
-### Example #1 
-Recherche les valeurs de texte dans la liste \{&#34;a&#34;, &#34;b&#34;, &#34;ab&#34;} qui correspondent à &#34; a &#34;. 
+### Example #1
+Recherche les valeurs de texte dans la liste \{"a", "b", "ab"\} qui correspondent à "a".
 ```powerquery
 List.FindText({"a", "b", "ab"}, "a")
 ```

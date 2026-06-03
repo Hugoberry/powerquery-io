@@ -19,13 +19,13 @@ List.Buffer(
 
 ## Remarks
 
-Buffert de lijst <code>list</code> in het geheugen. Het resultaat van deze aanroep is een stabiele lijst.
+Buffert de lijst `list` in het geheugen. Het resultaat van deze aanroep is een stabiele lijst.
 
 
 ## Examples
 
-### Example #1 
-Een stabiele kopie maken van de lijst \{1..10}.
+### Example #1
+Een stabiele kopie maken van de lijst \{1..10\}.
 ```powerquery
 List.Buffer({1..10})
 ```

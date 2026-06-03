@@ -24,7 +24,7 @@ Hiermee wordt een aanroep uitgevoerd naar de MailChimp-API en wordt het onbewerk
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hiermee worden onbewerkte gegevens van het MailChimp-API-eindpunt voor rapporten/klikgegevens geretourneerd voor een bepaalde campagne.
 ```powerquery
 MailChimp.Instance(rapporten/{campaign_id}/klikgegevens)

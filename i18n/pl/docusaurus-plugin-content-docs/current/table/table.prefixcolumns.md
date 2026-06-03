@@ -20,12 +20,12 @@ Table.PrefixColumns(
 
 ## Remarks
 
-Zwraca tabelę, w której nazwy wszystkich kolumn z tabeli <code>table</code> są poprzedzane prefiksem w postaci podanego tekstu <code>prefix</code> oraz kropką w formie <code><code>prefix</code>.NazwaKolumny</code>.
+Zwraca tabelę, w której nazwy wszystkich kolumn z tabeli `table` są poprzedzane prefiksem w postaci podanego tekstu `prefix` oraz kropką w formie `prefix.ColumnName`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Dołącz do kolumn w tabeli prefiks „MyTable”.
 ```powerquery
 Table.PrefixColumns(

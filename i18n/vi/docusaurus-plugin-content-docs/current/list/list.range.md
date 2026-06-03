@@ -21,12 +21,12 @@ List.Range(
 
 ## Remarks
 
-Trả về tập hợp con của danh sách bắt đầu tại phần bù <code>list</code>. Một tham số tùy chọn là <code>offset</code> đặt số lượng mục tối đa trong tập hợp con.
+Trả về một tập hợp con `list` bắt đầu từ `offset`. Một tham số tùy chọn là `count` đặt số lượng mục tối đa trong tập hợp con.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm tập hợp con bắt đầu tại phần bù 6 của danh sách số từ 1 tới 10.
 ```powerquery
 List.Range({1..10}, 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Tìm tập hợp con có độ dài là 2 từ phần bù 6, từ danh sách số từ 1 tới 10.
 ```powerquery
 List.Range({1..10}, 6, 2)

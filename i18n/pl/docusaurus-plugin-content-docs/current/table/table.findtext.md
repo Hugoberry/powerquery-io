@@ -20,12 +20,12 @@ Table.FindText(
 
 ## Remarks
 
-Zwraca wiersze z tabeli <code>table</code>, które zawierają tekst <code>text</code>. Jeśli tekst nie zostanie znaleziony, zostanie zwrócony pusty tekst.
+Zwraca wiersze z tabeli `table`, które zawierają tekst `text`. Jeśli tekst nie zostanie znaleziony, zostanie zwrócony pusty tekst.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź w tabeli wiersze zawierające tekst „Bob”.
 ```powerquery
 Table.FindText(

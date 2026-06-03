@@ -19,13 +19,19 @@ Duration.From(
 
 ## Remarks
 
-Retorna um valor <code>duration</code> com base no <code>value</code> especificado. Se o <code>value</code> especificado for <code>null</code>, <code>Duration.From</code> retornará <code>null</code>. Se o <code>value</code> especificado for <code>duration</code>, <code>value</code> será retornado. Os valores dos tipos a seguir podem ser convertidos em um valor <code>duration</code>:      <ul>        <li><code>text</code>: um valor <code>duration</code> com base no formato textual de tempo decorrido (d.h:m:s). Consulte <code>Duration.FromText</code> para obter informações detalhadas.</li>        <li><code>number</code>: um equivalente de <code>duration</code> para o número de dias inteiros e fracionários expressos por <code>value</code>.</li>      </ul>Se <code>value</code> for de qualquer outro tipo, um erro será retornado.
+Retorna um valor de duração do valor fornecido.
+
+-   `value`: o valor do qual a duração é derivada. Se o `value` fornecido for `null`, essa função retornará `null`. Se o `value` fornecido for um `duration`, `value` será retornado. Os valores dos seguintes tipos podem ser convertidos em um valor de `duration`:
+    -   `text`: um valor de `duration` de formatos textuais do tempo decorrido (d.h:m:s). Consulte `Duration.FromText` para obter detalhes.
+    -   `número`: Uma `duration` equivalente ao número de dias inteiros e fracionários expressos por `value`.
+
+Se `value` for de qualquer outro tipo, um erro será retornado.
 
 
 ## Examples
 
-### Example #1 
-Converta &lt;code&gt;2.525&lt;/code&gt; em um valor &lt;code&gt;duration&lt;/code&gt;.
+### Example #1
+Converta `2.525` em um valor `duration`.
 ```powerquery
 Duration.From(2.525)
 ```
@@ -33,6 +39,18 @@ Duration.From(2.525)
 Result: 
 ```powerquery
 #duration(2, 12, 36, 0)
+```
+
+
+### Example #2
+Converta o valor de texto `"2.05:55:20.34567"` em um valor de `duration`.
+```powerquery
+Duration.From("2.05:55:20.34567")
+```
+
+Result: 
+```powerquery
+#duration(2, 5, 55, 20.3456700)
 ```
 
 

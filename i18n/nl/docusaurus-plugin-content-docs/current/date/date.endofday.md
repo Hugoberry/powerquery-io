@@ -19,12 +19,14 @@ Date.EndOfDay(
 
 ## Remarks
 
-Retourneert het einde van de dag vertegenwoordigd door <code>dateTime</code>. Informatie over de tijdzone blijft behouden. <ul> <li><code>dateTime</code>: een <code>datum</code>, <code>datum/tijd</code> of <code>datum/tijdzone</code> waarmee het einde van de dag wordt berekend.</li> </ul>
+Retourneert het einde van de dag vertegenwoordigd door `dateTime`. Informatie over de tijdzone blijft behouden.
+
+-   `dateTime`: een `datum`, `datum/tijd` of `datum/tijdzone` waarmee het einde van de dag wordt berekend.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Het einde van de dag ophalen voor 14/5/2011 05:00:00 PM.
 ```powerquery
 Date.EndOfDay(#datetime(2011, 5, 14, 17, 0, 0))
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Het einde van de dag ophalen voor 17/5/2011 05:00:00 PM -7:00.
 ```powerquery
 Date.EndOfDay(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0))

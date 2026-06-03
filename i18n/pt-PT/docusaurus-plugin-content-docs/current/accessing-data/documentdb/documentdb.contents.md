@@ -22,6 +22,6 @@ DocumentDB.Contents(
 
 ## Remarks
 
-Devolve uma tabela de bases de dados do Azure Cosmos DB em <code>url</code>. Se <code>database</code> estiver especificado, será antes devolvida uma tabela de coleções. Além disso, se o campo <code>Query</code> estiver especificado no registo <code>options</code>, serão devolvidos os resultados da consulta em execução na base de dados e/ou coleção especificada.
+Devolve uma tabela de bases de dados do Azure Cosmos DB em `url`. Se `database` estiver especificado, será antes devolvida uma tabela de coleções. Além disso, se o campo `Query` estiver especificado no registo `options`, serão devolvidos os resultados da consulta em execução na base de dados e/ou coleção especificada.
 
 

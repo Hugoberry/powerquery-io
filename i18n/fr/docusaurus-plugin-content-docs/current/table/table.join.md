@@ -25,12 +25,25 @@ Table.Join(
 
 ## Remarks
 
-Joint les lignes de <code>table1</code> aux lignes de <code>table2</code> en fonction de l'égalité des valeurs des colonnes clés sélectionnées par <code>key1</code> (pour <code>table1</code>) et par <code>key2</code> (pour <code>table2</code>).<br />Par défaut, une jointure interne est effectuée, mais vous pouvez inclure un <code>joinKind</code> facultatif pour spécifier le type de jointure. Les options sont les suivantes :    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Vous pouvez inclure un ensemble facultatif de <code>keyEqualityComparers</code> pour spécifier comment comparer les colonnes clés. Ce paramètre est actuellement réservé à une utilisation interne.<br />
+Joint les lignes de `table1` aux lignes de `table2` en fonction de l'égalité des valeurs des colonnes clés sélectionnées par `key1` (pour `table1`) et par `key2` (pour `table2`).
+
+Par défaut, une jointure interne est effectuée, mais vous pouvez inclure un `joinKind` facultatif pour spécifier le type de jointure. Les options sont les suivantes :
+
+-   `JoinKind.Inner`
+-   `JoinKind.LeftOuter`
+-   `JoinKind.RightOuter`
+-   `JoinKind.FullOuter`
+-   `JoinKind.LeftAnti`
+-   `JoinKind.RightAnti`
+-   `JoinKind.LeftSemi`
+-   `JoinKind.RightSemi`
+
+Vous pouvez inclure un ensemble facultatif de `keyEqualityComparers` pour spécifier comment comparer les colonnes clés. Ce paramètre est actuellement réservé à une utilisation interne.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Joignez deux tables à l’aide d’une seule colonne clé.
 ```powerquery
 Table.Join(
@@ -67,7 +80,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Joignez deux tables qui ont des noms de colonnes en conflit à l’aide de plusieurs colonnes clés.
 ```powerquery
 let

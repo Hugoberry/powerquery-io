@@ -22,7 +22,7 @@ Cube.AddAndExpandDimensionColumn(
 
 ## Remarks
 
-指定したディメンション テーブル <code>dimensionSelector</code> をキューブ <code>cube</code> のフィルター コンテキストにマージし、指定したディメンション属性のセット <code>attributeNames</code> を展開して次元の粒度を変更します。ディメンション属性は、表形式の <code>newColumnNames</code> (指定しない場合は <code>attributeNames</code>) という名前の列に追加されます。
+指定したディメンション テーブル `dimensionSelector` を `cube` のフィルター コンテキストにマージし、ディメンション属性の指定したセット `attributeNames` を展開して、ディメンションの粒度を変更します。ディメンション属性は、表形式の `newColumnNames` (指定しない場合は `attributeNames`) という名前の列に追加されます。
 
 
 

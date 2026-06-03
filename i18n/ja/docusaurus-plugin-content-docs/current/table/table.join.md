@@ -25,12 +25,25 @@ Table.Join(
 
 ## Remarks
 
-<code>table1</code> の行と <code>table2</code> の行を、(<code>table1</code> の) <code>key1</code> と (<code>table2</code> の) <code>key2</code>で選択されたキー列の値の等値に基づいて結合します。<br />既定では内部結合が実行されますが、省略可能な <code>joinKind</code> を含めると、結合の種類を指定できます。オプションは次のとおりです:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br /><code>keyEqualityComparers</code> の省略可能な設定を含めると、キー列の比較方法を指定できます。このパラメーターは現在、内部での使用のみが想定されています。<br />
+`table1` の行と `table2` の行を、(`table1` の) `key1` と (`table2` の) `key2`で選択されたキー列の値の等値に基づいて結合します。
+
+既定では内部結合が実行されますが、省略可能な `joinKind` を含めると、結合の種類を指定できます。オプションは次のとおりです:
+
+-   `JoinKind.Inner`
+-   `JoinKind.LeftOuter`
+-   `JoinKind.RightOuter`
+-   `JoinKind.FullOuter`
+-   `JoinKind.LeftAnti`
+-   `JoinKind.RightAnti`
+-   `JoinKind.LeftSemi`
+-   `JoinKind.RightSemi`
+
+`keyEqualityComparers` の省略可能な設定を含めると、キー列の比較方法を指定できます。このパラメーターは現在、内部での使用のみが想定されています。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 1 つのキー列を使用して 2 つのテーブルを結合します。
 ```powerquery
 Table.Join(
@@ -67,7 +80,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 複数のキー列を使用して、競合する列名を持つ 2 つのテーブルを結合します。
 ```powerquery
 let

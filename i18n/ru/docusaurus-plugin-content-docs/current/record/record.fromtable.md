@@ -5,7 +5,7 @@ title: Record.FromTable
 # Record.FromTable
 
 
-Создает запись из таблицы в форме \{[Name = name, Value = value]}.
+Создает запись из таблицы в форме \{\[Name = name, Value = value\]\}.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Record.FromTable(
 
 ## Remarks
 
-Возвращает запись из таблицы записей <code>table</code>, которая содержит имена полей и имена значений <code>\{[Name = name, Value = value]}</code>. Если имена полей неуникальны, вызывает исключение.
+Возвращает запись из таблицы записей `table`, которая содержит имена полей и имена значений `{[Name = name, Value = value]}`. Если имена полей не уникальны, генерируется ошибка.
 
 
 ## Examples
 
-### Example #1 
-Создание записи из таблицы формы Table.FromRecords(\{[Name = &#34;CustomerID&#34;, Value = 1], [Name = &#34;Name&#34;, Value = &#34;Bob&#34;], [Name = &#34;Phone&#34;, Value = &#34;123-4567&#34;]}).
+### Example #1
+Создание записи из таблицы формы Table.FromRecords(\{\[Name = "CustomerID", Value = 1\], \[Name = "Name", Value = "Bob"\], \[Name = "Phone", Value = "123-4567"\]\}).
 ```powerquery
 Record.FromTable(
     Table.FromRecords({

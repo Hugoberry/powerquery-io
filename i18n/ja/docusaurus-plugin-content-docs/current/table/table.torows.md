@@ -19,12 +19,12 @@ Table.ToRows(
 
 ## Remarks
 
-入れ子になったリストのリストをテーブル (<code>table</code>) から作成します。各リスト項目は、行の値を含む入れ子のリストです。
+入れ子になったリストのリストをテーブル (`table`) から作成します。各リスト項目は、行の値を含む入れ子のリストです。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブルから行の値のリストを作成します。
 ```powerquery
 Table.ToRows(

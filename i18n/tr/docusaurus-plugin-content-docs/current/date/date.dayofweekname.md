@@ -20,12 +20,12 @@ Date.DayOfWeekName(
 
 ## Remarks
 
-Sağlanan <code>date</code> için hafta gününün adını döndürür. Ayrıca, isteğe bağlı bir <code>culture</code> sağlanabilir (ör. "tr-TR").
+Sağlanan `date` için hafta gününün adını döndürür. Ayrıca, isteğe bağlı bir `culture` sağlanabilir (ör. "tr-TR").
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Günün adını alır.
 ```powerquery
 Date.DayOfWeekName(#date(2011, 12, 31), "en-US")

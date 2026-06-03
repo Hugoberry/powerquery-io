@@ -20,12 +20,12 @@ Number.Log(
 
 ## Remarks
 
-Zwraca logarytm o określonej podstawie <code>base</code> z liczby <code>number</code>. Jeśli parametr <code>base</code> nie zostanie określony, będzie używana wartość domyślna Number.E.    Jeśli parametr <code>number</code> ma wartość null, funkcja <code>Number.Log</code> zwraca wartość null.
+Zwraca logarytm o określonej podstawie `base` z liczby `number`. Jeśli parametr `base` nie zostanie określony, będzie używana wartość domyślna Number.E. Jeśli parametr `number` ma wartość null, funkcja `Number.Log` zwraca wartość null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Oblicz logarytm dziesiętny z 2.
 ```powerquery
 Number.Log(2, 10)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Oblicz logarytm naturalny z 2.
 ```powerquery
 Number.Log(2)

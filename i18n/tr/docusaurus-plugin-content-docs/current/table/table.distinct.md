@@ -20,12 +20,14 @@ Table.Distinct(
 
 ## Remarks
 
-Yinelenen satırları tablodan kaldırır.    İsteğe bağlı<code>equationCriteria</code> parametresi tablodaki hangi sütunlar için yineleme testi yapılacağını belirtir. <code>equationCriteria</code> belirtilmezse tüm sütunlar test edilir.<br />    <br />    Power Query bazen belirli işlemleri arka uç veri kaynaklarına boşalttığından (“kaynağa döndürme” olarak bilinir) ve ayrıca bazen kesinlikle gerekli olmayan işlemleri     atlayarak sorguları iyileştirdiğinden, genel olarak hangi yinelenen satırların korunacağı garanti edilemez.    Örneğin, benzersiz bir sütun değerleri kümesi içeren ilk satırın korunacağını ve tablodaki diğer satırların kaldırılacağını varsayamazsınız.    Yinelenenleri kaldırma işleminin beklendiği şekilde davranmasını istiyorsanız önce <code>Table.Buffer</code> kullanarak tabloyu arabelleğe alın.
+Yinelenen satırları tablodan kaldırır. İsteğe bağlı`equationCriteria` parametresi tablodaki hangi sütunlar için yineleme testi yapılacağını belirtir. `equationCriteria` belirtilmezse tüm sütunlar test edilir.  
+  
+Power Query bazen belirli işlemleri arka uç veri kaynaklarına boşalttığından (“kaynağa döndürme” olarak bilinir) ve ayrıca bazen kesinlikle gerekli olmayan işlemleri atlayarak sorguları iyileştirdiğinden, genel olarak hangi yinelenen satırların korunacağı garanti edilemez. Örneğin, benzersiz bir sütun değerleri kümesi içeren ilk satırın korunacağını ve tablodaki diğer satırların kaldırılacağını varsayamazsınız. Yinelenenleri kaldırma işleminin beklendiği şekilde davranmasını istiyorsanız önce `Table.Buffer` kullanarak tabloyu arabelleğe alın.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablodaki yinelenen satırları kaldırır.
 ```powerquery
 Table.Distinct(
@@ -46,8 +48,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-&lt;code&gt;(\{[a = &#34;A&#34;, b = &#34;a&#34;], [a = &#34;B&#34;, b = &#34;a&#34;], [a = &#34;A&#34;, b = &#34;b&#34;]})&lt;/code&gt; tablosunda [b] sütunundaki yinelenen satırları kaldırır.
+### Example #2
+`({[a = "A", b = "a"], [a = "B", b = "a"], [a = "A", b = "b"]})` tablosunda \[b\] sütunundaki yinelenen satırları kaldırır.
 ```powerquery
 Table.Distinct(
     Table.FromRecords({

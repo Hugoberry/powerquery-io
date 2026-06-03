@@ -22,8 +22,8 @@ Mithilfe dieser Funktion kann ein beliebiger der Endpunkte "Lists" aufgerufen we
 
 ## Examples
 
-### Example #1 
-Gibt eine Tabelle mit einer einzelnen Spalte zurück, die mit Daten aus einem der Endpunkte &#34;Lists&#34; der SparkPost-API, Version 1, aufgefüllt sind. (Informationen finden Sie in der SparkPost-Dokumentation.)
+### Example #1
+Gibt eine Tabelle mit einer einzelnen Spalte zurück, die mit Daten aus einem der Endpunkte "Lists" der SparkPost-API, Version 1, aufgefüllt sind. (Informationen finden Sie in der SparkPost-Dokumentation.)
 ```powerquery
 Source = SparkPost.GetList("metrics/campaigns")
 ```

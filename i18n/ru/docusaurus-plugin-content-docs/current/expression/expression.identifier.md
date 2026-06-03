@@ -19,12 +19,12 @@ Expression.Identifier(
 
 ## Remarks
 
-Возвращает представление идентификатора <code>name</code> в исходном коде M.
+Возвращает представление идентификатора `name` в исходном коде M.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Получить представление идентификатора в исходном коде M.
 ```powerquery
 Expression.Identifier("MyIdentifier")
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Получить представление идентификатора, содержащего пробел, в исходном коде M.
 ```powerquery
 Expression.Identifier("My Identifier")

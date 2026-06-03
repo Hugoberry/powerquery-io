@@ -20,12 +20,12 @@ List.Covariance(
 
 ## Remarks
 
-Возвращает ковариацию между двумя списками, <code>numberList1</code> и <code>numberList2</code>. <code>numberList1</code> и <code>numberList2</code> должны содержать одинаковое количество значений <code>number</code>.
+Возвращает ковариацию между двумя списками, `numberList1` и `numberList2`. `numberList1` и `numberList2` должны содержать одинаковое количество значений `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Вычислить ковариацию между двумя списками.
 ```powerquery
 List.Covariance({1, 2, 3}, {1, 2, 3})

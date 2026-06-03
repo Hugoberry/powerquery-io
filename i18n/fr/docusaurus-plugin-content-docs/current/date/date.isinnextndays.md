@@ -5,7 +5,7 @@ title: Date.IsInNextNDays
 # Date.IsInNextNDays
 
 
-Indique si cette valeur datetime se produit dans le nombre de jours suivants, par rapport à la date et l&#39;heure actuelles du système. Notez que cette fonction retourne la valeur false si la valeur transmise se produit dans la journée actuelle.
+Indique si cette valeur datetime se produit dans le nombre de jours suivants, par rapport à la date et l'heure actuelles du système. Notez que cette fonction retourne la valeur false si la valeur transmise se produit dans la journée actuelle.
 
 
 ## Syntax
@@ -20,13 +20,16 @@ Date.IsInNextNDays(
 
 ## Remarks
 
-Indique si la valeur datetime <code>dateTime</code> donnée se produit dans le nombre de jours suivants, par rapport à la date et l'heure actuelles du système. Notez que cette fonction retourne la valeur false si la valeur transmise se produit dans la journée actuelle.      <ul>      <li><code>dateTime</code> : Valeur <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> à évaluer.</li>      <li><code>days</code> : Nombre de jours.</li>      </ul>
+Indique si la valeur datetime `dateTime` donnée se produit dans le nombre de jours suivants, par rapport à la date et l'heure actuelles du système. Notez que cette fonction retourne la valeur false si la valeur transmise se produit dans la journée actuelle.
+
+-   `dateTime` : Valeur `date`, `datetime` ou `datetimezone` à évaluer.
+-   `days` : Nombre de jours.
 
 
 ## Examples
 
-### Example #1 
-Détermine si le jour qui suit l&#39;heure système actuelle tombe dans les deux jours suivants.
+### Example #1
+Détermine si le jour qui suit l'heure système actuelle tombe dans les deux jours suivants.
 ```powerquery
 Date.IsInNextNDays(Date.AddDays(DateTime.FixedLocalNow(), 1), 2)
 ```

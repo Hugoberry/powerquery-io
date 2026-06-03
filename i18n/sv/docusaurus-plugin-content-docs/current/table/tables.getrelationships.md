@@ -20,7 +20,7 @@ Tables.GetRelationships(
 
 ## Remarks
 
-Hämtar relationerna från en uppsättning tabeller. Uppsättningen <code>tables</code> antas ha en struktur liknande den i en navigeringstabell. Kolumnen som definieras av <code>dataColumn</code> innehåller de faktiska datatabellerna.
+Hämtar relationerna från en uppsättning tabeller. Uppsättningen `tables` antas ha en struktur liknande den i en navigeringstabell. Kolumnen som definieras av `dataColumn` innehåller de faktiska datatabellerna.
 
 
 

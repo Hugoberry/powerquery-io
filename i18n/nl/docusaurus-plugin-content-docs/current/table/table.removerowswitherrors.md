@@ -25,7 +25,7 @@ Retourneert een tabel met de rijen die zijn verwijderd uit een invoertabel en wa
 
 ## Examples
 
-### Example #1 
+### Example #1
 Verwijder de foutwaarde uit de eerste rij.
 ```powerquery
 Table.RemoveRowsWithErrors(

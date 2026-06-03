@@ -20,7 +20,7 @@ BinaryFormat.ByteOrder(
 
 ## Remarks
 
-Retourneert een binaire indeling met de bytevolgorde die is opgegeven door <code>binaryFormat</code>.  De standaard-bytevolgorde is <code>ByteOrder.BigEndian</code>.
+Retourneert een binaire indeling met de bytevolgorde die is opgegeven door `binaryFormat`. De standaard-bytevolgorde is `ByteOrder.BigEndian`.
 
 
 

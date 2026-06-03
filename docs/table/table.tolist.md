@@ -25,7 +25,7 @@ Converts a table into a list by applying the specified combining function to eac
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combine the text of each row with a comma.
 ```powerquery
 Table.ToList(

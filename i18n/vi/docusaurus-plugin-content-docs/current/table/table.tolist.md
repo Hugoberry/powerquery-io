@@ -25,7 +25,7 @@ Chuyển đổi một bảng thành một danh sách bằng cách áp dụng hà
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kết hợp văn bản của từng hàng bằng dấu phẩy.
 ```powerquery
 Table.ToList(

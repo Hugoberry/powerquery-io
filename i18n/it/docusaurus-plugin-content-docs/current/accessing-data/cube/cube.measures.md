@@ -19,7 +19,7 @@ Cube.Measures(
 
 ## Remarks
 
-Restituisce una tabella contenente il set di misure disponibili all'interno di <code>cube</code>.    Ogni misura è rappresentata come funzione. Per applicare le misure al cubo, è possibile usare Cube.AddMeasureColumn.
+Restituisce una tabella contenente il set di misure disponibili all'interno di `cube`. Ogni misura è rappresentata come funzione. Per applicare le misure al cubo, è possibile usare Cube.AddMeasureColumn.
 
 
 

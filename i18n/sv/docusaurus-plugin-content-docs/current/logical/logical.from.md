@@ -19,13 +19,18 @@ Logical.From(
 
 ## Remarks
 
-Returnerar ett <code>logical</code>-värde från angiven <code>value</code>. Om <code>value</code> är <code>null</code> returnerar <code>Logical.From</code> <code>null</code>. Om <code>value</code> är <code>logical</code> returneras <code>value</code>. Värden av följande typer kan konverteras till ett <code>logical</code>-värde:      <ul>        <li><code>text</code>: Ett <code>logical</code>-värde från textvärdet, antingen <code>"true"</code> eller <code>"false"</code>. Mer information finns under <code>Logical.FromText</code>.</li>        <li><code>number</code>: <code>false</code> om <code>value</code> är lika med <code>0</code>, annars <code>true</code>.</li>      </ul>Om <code>value</code> hör till en annan typ returneras ett fel.
+Returnerar ett `logical`\-värde från angiven `value`. Om `value` är `null` returnerar `Logical.From` `null`. Om `value` är `logical` returneras `value`. Värden av följande typer kan konverteras till ett `logical`\-värde:
+
+-   `text`: Ett `logical`\-värde från textvärdet, antingen `"true"` eller `"false"`. Mer information finns under `Logical.FromText`.
+-   `number`: `false` om `value` är lika med `0`, annars `true`.
+
+Om `value` hör till en annan typ returneras ett fel.
 
 
 ## Examples
 
-### Example #1 
-Konvertera &lt;code&gt;2&lt;/code&gt; till ett &lt;code&gt;logical&lt;/code&gt;-värde.
+### Example #1
+Konvertera `2` till ett `logical`\-värde.
 ```powerquery
 Logical.From(2)
 ```

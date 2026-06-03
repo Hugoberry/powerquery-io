@@ -25,7 +25,7 @@ Trả về một hàm kết hợp một danh sách giá trị văn bản thành 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kết hợp một danh sách giá trị văn bản bằng cách trích xuất số lượng ký tự được chỉ định từ mỗi giá trị đầu vào.
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3})({"aaa", "bbb", "ccc"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Kết hợp một danh sách giá trị văn bản bằng cách trích xuất số lượng ký tự được chỉ định, sau khi điền trước kết quả với văn bản mẫu.
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3}, "*********")({"aaa", "bbb", "ccc"})

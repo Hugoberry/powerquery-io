@@ -24,7 +24,7 @@ Splitter.SplitTextByWhitespace(
 
 ## Examples
 
-### Example #1 
+### Example #1
 入力を空白文字で分割し、引用符を他の文字と同じように扱います。
 ```powerquery
 Splitter.SplitTextByWhitespace(QuoteStyle.None)("a b#(tab)c")

@@ -21,13 +21,13 @@ Text.Middle(
 
 ## Remarks
 
-ส่งคืนตัวอักขระ <code>count</code> หรือเมื่อสิ้นสุด <code>text</code> ที่ออฟเซ็ต <code>start</code>
+ส่งคืนตัวอักขระ `count` หรือเมื่อสิ้นสุด `text` ที่ออฟเซ็ต `start`
 
 
 ## Examples
 
-### Example #1 
-ค้นหาสตริงย่อยจากข้อความ &#34;Hello World&#34; เริ่มต้นที่ดัชนี 6 เป็นจำนวน 5 ตัวอักขระ
+### Example #1
+ค้นหาสตริงย่อยจากข้อความ "Hello World" เริ่มต้นที่ดัชนี 6 เป็นจำนวน 5 ตัวอักขระ
 ```powerquery
 Text.Middle("Hello World", 6, 5)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-ค้นหาสตริงย่อยจากข้อความ &#34;Hello World&#34; เริ่มต้นที่ดัชนี 6 ไปจนสุด
+### Example #2
+ค้นหาสตริงย่อยจากข้อความ "Hello World" เริ่มต้นที่ดัชนี 6 ไปจนสุด
 ```powerquery
 Text.Middle("Hello World", 6, 20)
 ```
@@ -47,6 +47,18 @@ Text.Middle("Hello World", 6, 20)
 Result: 
 ```powerquery
 "World"
+```
+
+
+### Example #3
+ค้นหาสตริงย่อยจากข้อความ “สวัสดี ทุกท่าน” เริ่มต้นที่ดัชนี 0 เป็นจำนวนอักขระ 2 ตัว
+```powerquery
+Text.Middle("Hello World", 0, 2)
+```
+
+Result: 
+```powerquery
+"He"
 ```
 
 

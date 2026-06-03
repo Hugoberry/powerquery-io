@@ -24,7 +24,7 @@ Returns a nested table of available sheets, reports, folders, and workspaces fro
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returns sheets, folders, reports, and workspaces available at the top level of the Smartsheet hierarchy
 ```powerquery
 Smartsheet.Tables()

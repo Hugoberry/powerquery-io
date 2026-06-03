@@ -20,7 +20,7 @@ Cube.CollapseAndRemoveColumns(
 
 ## Remarks
 
-Ändrar dimensionsgranulariteten för filterkontexten för <code>cube</code> genom att komprimera attributen som är mappade till de angivna kolumnerna (<code>columnNames</code>). Kolumnerna tas även bort från kubens tabellvy.
+Ändrar dimensionsgranulariteten för filterkontexten för `cube` genom att komprimera attributen som är mappade till de angivna kolumnerna (`columnNames`). Kolumnerna tas även bort från kubens tabellvy.
 
 
 

@@ -20,13 +20,13 @@ List.Transform(
 
 ## Remarks
 
-通过将转换函数 <code>transform</code> 应用到列表 <code>list</code> 来返回值的新列表。
+通过将转换函数 `transform` 应用到列表 `list` 来返回值的新列表。
 
 
 ## Examples
 
-### Example #1 
-将 1 与列表 \{1, 2} 中的每个值相加。
+### Example #1
+将 1 与列表 \{1, 2\} 中的每个值相加。
 ```powerquery
 List.Transform({1, 2}, each _ + 1)
 ```

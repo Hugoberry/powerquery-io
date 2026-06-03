@@ -20,7 +20,7 @@ BinaryFormat.ByteOrder(
 
 ## Remarks
 
-<code>binaryFormat</code> द्वारा निर्दिष्ट किए गए बाइट क्रम के साथ बाइनरी स्वरूप को लौटाता है.  डिफ़ॉल्ट बाइनरी क्रम है <code>ByteOrder.BigEndian</code>.
+`binaryFormat` द्वारा निर्दिष्ट किए गए बाइट क्रम के साथ बाइनरी स्वरूप को लौटाता है. डिफ़ॉल्ट बाइनरी क्रम है `ByteOrder.BigEndian`.
 
 
 

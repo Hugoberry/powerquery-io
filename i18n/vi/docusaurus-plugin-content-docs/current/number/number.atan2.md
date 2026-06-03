@@ -20,7 +20,7 @@ Number.Atan2(
 
 ## Remarks
 
-Trả về arctang của phép chia hai số là <code>y</code> và <code>x</code>. Phép chia sẽ được thiết lập ở dạng <code>y</code>/<code>x</code>.
+Trả về góc, theo radian, có tang là thương `y`/`x` của hai số `y` và `x`.
 
 
 

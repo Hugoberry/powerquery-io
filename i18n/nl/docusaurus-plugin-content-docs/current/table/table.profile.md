@@ -20,7 +20,17 @@ Table.Profile(
 
 ## Remarks
 
-Hiermee wordt een profiel geretourneerd voor de kolommen in <code>table</code>.<br />De volgende informatie wordt geretourneerd voor elke kolom (waar van toepassing):<ul>  <li>minimum</li>  <li>maximum</li>  <li>gemiddeld</li>  <li>standaardafwijking</li>  <li>aantal</li>  <li>null-aantal</li>  <li>uniek aantal</li></ul><br />
+Hiermee wordt een profiel geretourneerd voor de kolommen in `table`.
+
+De volgende informatie wordt geretourneerd voor elke kolom (waar van toepassing):
+
+-   minimum
+-   maximum
+-   gemiddeld
+-   standaardafwijking
+-   aantal
+-   null-aantal
+-   uniek aantal
 
 
 

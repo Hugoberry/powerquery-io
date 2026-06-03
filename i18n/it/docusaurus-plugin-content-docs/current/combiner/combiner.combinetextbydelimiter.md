@@ -25,7 +25,7 @@ Restituisce una funzione che combina un elenco di valori di testo in un singolo 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combina un elenco di valori di testo utilizzando un delimitatore di punto e virgola.
 ```powerquery
 Combiner.CombineTextByDelimiter(";")({"a", "b", "c"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Combinare il testo di due colonne usando un delimitatore di virgola e le virgolette in stile CSV.
 ```powerquery
 let

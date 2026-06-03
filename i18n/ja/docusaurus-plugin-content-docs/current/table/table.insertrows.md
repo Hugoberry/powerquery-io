@@ -21,12 +21,12 @@ Table.InsertRows(
 
 ## Remarks
 
-<code>rows</code> の指定された位置 <code>table</code> に行のリスト <code>offset</code> を挿入したテーブルを返します。挿入する行の各列とテーブルの列の型が一致する必要があります。
+`rows` の指定された位置 `table` に行のリスト `offset` を挿入したテーブルを返します。挿入する行の各列とテーブルの列の型が一致する必要があります。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブルの位置 1 にこの行を挿入します。
 ```powerquery
 Table.InsertRows(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 テーブルの位置 1 に 2 行挿入します。
 ```powerquery
 Table.InsertRows(

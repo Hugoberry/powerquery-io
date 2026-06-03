@@ -25,7 +25,7 @@ Konwertuje tabelę na listę, stosując określoną funkcję łączenia do każd
 
 ## Examples
 
-### Example #1 
+### Example #1
 Połącz tekst z każdego wiersza za pomocą przecinka.
 ```powerquery
 Table.ToList(

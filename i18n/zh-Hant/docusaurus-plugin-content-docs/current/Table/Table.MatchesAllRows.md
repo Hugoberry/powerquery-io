@@ -20,13 +20,13 @@ Table.MatchesAllRows(
 
 ## Remarks
 
-指出 <code>table</code> 中的所有資料列是否都符合指定的 <code>condition</code>。如果所有資料列都符合，則傳回 <code>true</code>，否則傳回 <code>false</code>。
+指出 `table` 中的所有資料列是否都符合指定的 `condition`。如果所有資料列都符合，則傳回 `true`，否則傳回 `false`。
 
 
 ## Examples
 
-### Example #1 
-判斷資料表中 [a] 資料行的所有資料列值是否都是偶數。
+### Example #1
+判斷資料表中 \[a\] 資料行的所有資料列值是否都是偶數。
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ true
 ```
 
 
-### Example #2 
-找出資料表 &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; 中所有資料列值是否都是 [a = 1, b = 2]。
+### Example #2
+找出資料表 `({[a = 1, b = 2], [a = 3, b = 4]})` 中所有資料列值是否都是 \[a = 1, b = 2\]。
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({

@@ -21,13 +21,13 @@ DateTimeZone.SwitchZone(
 
 ## Remarks
 
-Ändert die Zeitzoneninformationen des datetimezone-Werts "<code>dateTimeZone</code>" in die neuen Zeitzoneninformationen, die von "<code>timezoneHours</code>" (und optional von "<code>timezoneMinutes</code>") angegeben wurden.    Besitzt "<code>dateTimeZone</code>" keine Zeitzonenkomponente, wird eine Ausnahme ausgelöst.
+Ändert die Zeitzoneninformationen des datetimezone-Werts „`dateTimeZone`“ in die neuen Zeitzoneninformationen, die von „`timezoneHours`“ (und optional von „`timezoneMinutes`“) angegeben wurden. Wenn `dateTimeZone` keine Zeitzonenkomponente besitzt, wird ein Fehler ausgelöst.
 
 
 ## Examples
 
-### Example #1 
-Ändert die Zeitzoneninformationen für &#34;#datetimezone (2010, 12, 31, 11, 56, 02, 7, 30)&#34; in 8 Stunden.
+### Example #1
+Ändert die Zeitzoneninformationen für "#datetimezone (2010, 12, 31, 11, 56, 02, 7, 30)" in 8 Stunden.
 ```powerquery
 DateTimeZone.SwitchZone(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30), 8)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Ändert die Zeitzoneninformationen für &#39;#datetimezone (2010, 12, 31, 11, 56, 02, 7, 30)&#39; in -30 Minuten.
+### Example #2
+Ändert die Zeitzoneninformationen für '#datetimezone (2010, 12, 31, 11, 56, 02, 7, 30)' in -30 Minuten.
 ```powerquery
 DateTimeZone.SwitchZone(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30), 0, -30)
 ```

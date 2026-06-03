@@ -21,13 +21,16 @@ Table.MinN(
 
 ## Remarks
 
-Retourneert aan de hand van de <code>comparisonCriteria</code> de kleinste rij of rijen in de <code>table</code>. Als de rijen zijn gesorteerd, moet de parameter <code>countOrCondition</code> worden opgegeven om het resultaat verder te filteren. Het sorteeralgoritme kan geen vast gesorteerd resultaat garanderen. De parameter <code>countOrCondition</code> kan diverse vormen aannemen:    <ul>        <li> Als er een getal wordt opgegeven, wordt er een lijst met maximaal <code>countOrCondition</code> items in oplopende volgorde geretourneerd. </li>        <li> Als er een voorwaarde wordt opgegeven, wordt er een lijst met items geretourneerd die in eerste instantie aan die voorwaarde voldoen. Wanneer een item niet aan die voorwaarde voldoet, stopt de bewerking. </li> </ul>
+Retourneert aan de hand van de `comparisonCriteria` de kleinste rij of rijen in de `table`. Als de rijen zijn gesorteerd, moet de parameter `countOrCondition` worden opgegeven om het resultaat verder te filteren. Het sorteeralgoritme kan geen vast gesorteerd resultaat garanderen. De parameter `countOrCondition` kan diverse vormen aannemen:
+
+-   Als er een getal wordt opgegeven, wordt er een lijst met maximaal `countOrCondition` items in oplopende volgorde geretourneerd.
+-   Als er een voorwaarde wordt opgegeven, wordt er een lijst met items geretourneerd die in eerste instantie aan die voorwaarde voldoen. Wanneer een item niet aan die voorwaarde voldoet, stopt de bewerking.
 
 
 ## Examples
 
-### Example #1 
-De rij met de kleinste waarde in kolom [a] met de voorwaarde [a] &gt; 3 in de tabel zoeken. De rijen worden gesorteerd voordat het filter wordt toegepast.
+### Example #1
+De rij met de kleinste waarde in kolom \[a\] met de voorwaarde \[a\] > 3 in de tabel zoeken. De rijen worden gesorteerd voordat het filter wordt toegepast.
 ```powerquery
 Table.MinN(
     Table.FromRecords({
@@ -49,8 +52,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-De rij met de kleinste waarde in kolom [a] met de voorwaarde [b] &gt; 0 in de tabel zoeken. De rijen worden gesorteerd voordat het filter wordt toegepast.
+### Example #2
+De rij met de kleinste waarde in kolom \[a\] met de voorwaarde \[b\] > 0 in de tabel zoeken. De rijen worden gesorteerd voordat het filter wordt toegepast.
 ```powerquery
 Table.MinN(
     Table.FromRecords({

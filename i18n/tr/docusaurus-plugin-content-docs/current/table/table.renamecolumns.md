@@ -5,7 +5,7 @@ title: Table.RenameColumns
 # Table.RenameColumns
 
 
-\{old, new} biçimindeki yeniden adlandırmaları uygular.
+\{old, new\} biçimindeki yeniden adlandırmaları uygular.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Table.RenameColumns(
 
 ## Remarks
 
-<code>table</code> tablosunda verilen yeniden adlandırmaları sütunlara uygular. <code>renames</code> değiştirme işlemi bir listede sağlanan eski ve yeni sütun adı olmak üzere iki değer içeren bir listeden oluşur.    Sütun yoksa, <code>missingField</code> isteğe bağlı parametresi bir alternatif belirtmediği sürece özel durum oluşur (örn. <code>MissingField.UseNull</code> veya <code>MissingField.Ignore</code>).
+`table` tablosunda verilen yeniden adlandırmaları sütunlara uygular. `renames` değiştirme işlemi bir listede sağlanan eski ve yeni sütun adı olmak üzere iki değer içeren bir listeden oluşur. Sütun mevcut değilse, isteğe bağlı parametre `missingField` bir alternatif belirtmedikçe (ör. `MissingField.UseNull` veya `MissingField.Ignore`) bir hata oluşur.
 
 
 ## Examples
 
-### Example #1 
-Tablodaki &#34;CustomerNum&#34; sütun adını &#34;CustomerID&#34; olarak değiştirir.
+### Example #1
+Tablodaki "CustomerNum" sütun adını "CustomerID" olarak değiştirir.
 ```powerquery
 Table.RenameColumns(
     Table.FromRecords({[CustomerNum = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -41,8 +41,8 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]})
 ```
 
 
-### Example #2 
-Tablodaki &#34;CustomerNum&#34; sütun adını &#34;CustomerID&#34; olarak ve &#34;PhoneNum&#34; sütun adını &#34;Phone&#34; olarak değiştirir.
+### Example #2
+Tablodaki "CustomerNum" sütun adını "CustomerID" olarak ve "PhoneNum" sütun adını "Phone" olarak değiştirir.
 ```powerquery
 Table.RenameColumns(
     Table.FromRecords({[CustomerNum = 1, Name = "Bob", PhoneNum = "123-4567"]}),
@@ -59,8 +59,8 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]})
 ```
 
 
-### Example #3 
-Tablodaki &#34;NewCol&#34; sütun adını &#34;NewColumn&#34; olarak değiştirir; sütun mevcut değilse yoksayar.
+### Example #3
+Tablodaki "NewCol" sütun adını "NewColumn" olarak değiştirir; sütun mevcut değilse yoksayar.
 ```powerquery
 Table.RenameColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

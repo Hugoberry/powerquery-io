@@ -21,12 +21,12 @@ Marketo.Leads(
 
 ## Remarks
 
-Foretager et kald til Marketo REST API-slutpunktet på <code>url</code>/rest/v1/leads.json. Alle kundeemner på listen <code>leadIds</code> returneres.
+Foretager et kald til Marketo REST API-slutpunktet på `url`/rest/v1/leads.json. Alle kundeemner på listen `leadIds` returneres.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Udtrækker oplysninger om tre kundeemner
 ```powerquery
 Marketo.Leads("https://100-AAA-999.mktorest.com/rest", {50, 2343, 88498})

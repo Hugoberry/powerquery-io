@@ -20,13 +20,13 @@ Percentage.From(
 
 ## Remarks
 
-Zwraca wartość <code>percentage</code> dla danej wartości <code>value</code>. Jeśli dany element <code>value</code> ma wartość <code>null</code>, funkcja <code>Percentage.From</code> zwraca wartość <code>null</code>.  Jeśli dany element <code>value</code> ma wartość <code>text</code> z symbolem procenta na końcu, zostanie zwrócona skonwertowana liczba dziesiętna. W innym przypadku wartość zostanie przekonwertowana na wartość <code>number</code> przy użyciu funkcji <code>Number.From</code>. Można także określić opcjonalny parametr <code>culture</code> (na przykład „en-US”).
+Zwraca wartość `percentage` dla danej wartości `value`. Jeśli dany element `value` ma wartość `null`, funkcja `Percentage.From` zwraca wartość `null`. Jeśli dany element `value` ma wartość `text` z symbolem procenta na końcu, zostanie zwrócona skonwertowana liczba dziesiętna. W innym przypadku wartość zostanie przekonwertowana na wartość `number` przy użyciu funkcji `Number.From`. Można także określić opcjonalny parametr `culture` (na przykład „en-US”).
 
 
 ## Examples
 
-### Example #1 
-Pobierz wartość &lt;code&gt;percentage&lt;/code&gt; z &lt;code&gt;&#34;12.3%&#34;&lt;/code&gt;.
+### Example #1
+Pobierz wartość `percentage` z `"12.3%"`.
 ```powerquery
 Percentage.From("12.3%")
 ```

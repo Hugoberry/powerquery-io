@@ -21,12 +21,12 @@ Table.Range(
 
 ## Remarks
 
-傳回 <code>table</code> 中的資料列，從指定的 <code>offset</code> 開始。選擇性參數 <code>count</code> 會指定要傳回的資料列數目。根據預設，系統會傳回該位移之後的所有資料列。
+傳回 `table` 中的資料列，從指定的 `offset` 開始。選擇性參數 `count` 會指定要傳回的資料列數目。根據預設，系統會傳回該位移之後的所有資料列。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 傳回資料表中的所有資料列，從位移 1 開始。
 ```powerquery
 Table.Range(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 傳回資料表中的一個資料列，從位移 1 開始。
 ```powerquery
 Table.Range(

@@ -26,7 +26,7 @@ Realiza una llamada a la API de REST de Smartsheet 2.0 en el punto de conexión 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Extrae datos del punto de conexión de la API de Smartsheet de hojas con los argumentos adicionales especificados
 ```powerquery
 Smartsheet.Content("sheets", "include=ownerInfo&includeAll=true", [])

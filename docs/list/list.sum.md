@@ -20,13 +20,13 @@ List.Sum(
 
 ## Remarks
 
-Returns the sum of the non-null values in the list, <code>list</code>.  Returns null if there are no non-null values in the list.
+Returns the sum of the non-null values in the list, `list`. Returns null if there are no non-null values in the list.
 
 
 ## Examples
 
-### Example #1 
-Find the sum of the numbers in the list &lt;code&gt;\{1, 2, 3}&lt;/code&gt;.
+### Example #1
+Find the sum of the numbers in the list `{1, 2, 3}`.
 ```powerquery
 List.Sum({1, 2, 3})
 ```

@@ -21,13 +21,13 @@ Text.RemoveRange(
 
 ## Remarks
 
-Hiermee wordt een kopie geretourneerd van de tekstwaarde <code>text</code> met waarbij tekens van positie <code>offset</code> zijn verwijderd. Een optionele parameter, <code>count</code> kan worden gebruikt voor het opgeven van het aantal tekens dat moet worden verwijderd. De standaardwaarde van <code>count</code> is 1. Positiewaarden beginnen bij 0.
+Hiermee wordt een kopie geretourneerd van de tekstwaarde `text` met waarbij tekens van positie `offset` zijn verwijderd. Een optionele parameter, `count` kan worden gebruikt voor het opgeven van het aantal tekens dat moet worden verwijderd. De standaardwaarde van `count` is 1. Positiewaarden beginnen bij 0.
 
 
 ## Examples
 
-### Example #1 
-Eén teken verwijderen uit de tekstwaarde &#34;ABEFC&#34; op positie 2.
+### Example #1
+Eén teken verwijderen uit de tekstwaarde "ABEFC" op positie 2.
 ```powerquery
 Text.RemoveRange("ABEFC", 2)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Twee tekens verwijderen uit de tekstwaarde &#34;ABEFC&#34;, te beginnen bij positie 2.
+### Example #2
+Twee tekens verwijderen uit de tekstwaarde "ABEFC", te beginnen bij positie 2.
 ```powerquery
 Text.RemoveRange("ABEFC", 2, 2)
 ```

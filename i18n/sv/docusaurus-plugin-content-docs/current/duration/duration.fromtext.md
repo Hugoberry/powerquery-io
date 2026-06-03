@@ -19,13 +19,24 @@ Duration.FromText(
 
 ## Remarks
 
-Returnerar ett varaktighetsvärde från den angivna texten, <code>text</code>. Följande format kan parsas av den här funktionen: <ul>        <li>(-)hh:mm(:ss(.ff)) </li>        <li>(-)ddd(.hh:mm(:ss(.ff))) </li> </ul>        <br />        (Alla intervall är inkluderande)<br />        ddd: Antal dagar.<br />        hh: Antal timmar, mellan 0 och 23.<br />        mm: Antal minuter, mellan 0 och 59.<br />        ss: Antal sekunder, mellan 0 och 59.<br />        ff: Delar av sekunder, mellan 0 och 9999999.
+Returnerar ett varaktighetsvärde från den angivna texten, `text`. Följande format kan parsas av den här funktionen:
+
+-   (-)hh:mm(:ss(.ff))
+-   (-)ddd(.hh:mm(:ss(.ff)))
+
+(Alla intervall är inkluderande)
+
+-   ddd: Antal dagar.
+-   hh: Antal timmar, mellan 0 och 23.
+-   mm: Antal minuter, mellan 0 och 59.
+-   ss: Antal sekunder, mellan 0 och 59.
+-   ff: Delar av sekunder, mellan 0 och 9999999.
 
 
 ## Examples
 
-### Example #1 
-Konvertera &lt;code&gt;&#34;2.05:55:20&#34;&lt;/code&gt; till ett &lt;code&gt;duration&lt;/code&gt;-värde.
+### Example #1
+Konvertera `"2.05:55:20"` till ett `duration`\-värde.
 ```powerquery
 Duration.FromText("2.05:55:20")
 ```

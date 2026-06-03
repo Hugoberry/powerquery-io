@@ -19,12 +19,12 @@ DateTimeZone.RemoveZone(
 
 ## Remarks
 
-Restituisce un valore #datetime <code>dateTimeZone</code> con le informazioni del fuso orario rimosse.
+Restituisce un valore #datetime `dateTimeZone` con le informazioni del fuso orario rimosse.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Rimuovere le informazioni del fuso orario dal valore #datetimezone(2011, 12, 31, 9, 15, 36, -7, 0).
 ```powerquery
 DateTimeZone.RemoveZone(#datetimezone(2011, 12, 31, 9, 15, 36, -7, 0))

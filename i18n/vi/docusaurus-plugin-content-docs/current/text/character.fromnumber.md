@@ -19,12 +19,14 @@ Character.FromNumber(
 
 ## Remarks
 
-Trả về ký tự tương đương với số.<br />    <br />    <code>number</code> được cung cấp phải là điểm mã Unicode 21 bit.
+Trả về ký tự tương đương với số.  
+  
+`number` được cung cấp phải là điểm mã Unicode 21 bit.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Chuyển đổi một số thành giá trị ký tự tương đương.
 ```powerquery
 Character.FromNumber(9)
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Chuyển đổi một ký tự thành số và quay lại.
 ```powerquery
 Character.FromNumber(Character.ToNumber("A"))
@@ -48,8 +50,8 @@ Result:
 ```
 
 
-### Example #3 
-Chuyển đổi điểm mã thập lục phân cho biểu tượng cảm xúc &#34;mặt cười toe toét&#34; thành cặp thay thế UTF-16 tương đương.
+### Example #3
+Chuyển đổi điểm mã thập lục phân cho biểu tượng cảm xúc "mặt cười toe toét" thành cặp thay thế UTF-16 tương đương.
 ```powerquery
 Character.FromNumber(0x1F600)
 ```

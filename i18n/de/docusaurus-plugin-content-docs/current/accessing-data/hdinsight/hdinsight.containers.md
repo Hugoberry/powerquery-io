@@ -19,7 +19,7 @@ HdInsight.Containers(
 
 ## Remarks
 
-Gibt eine Navigationstabelle mit je einer Zeile für die einzelnen Container unter der Konto-URL '<code>account</code>' aus einem Azure-Speichertresor zurück. Jede Zeile enthält einen Link zu den Container-BLOBs.
+Gibt eine Navigationstabelle mit je einer Zeile für die einzelnen Container unter der Konto-URL '`account`' aus einem Azure-Speichertresor zurück. Jede Zeile enthält einen Link zu den Container-BLOBs.
 
 
 

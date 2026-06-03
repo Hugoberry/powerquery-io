@@ -19,12 +19,14 @@ Date.IsInYearToDate(
 
 ## Remarks
 
-Anger om det angivna datetime-värdet <code>dateTime</code> infaller under det aktuella året och på eller före dagens datum, baserat på systemets aktuella datum och tid.      <ul>      <li><code>dateTime</code>: Ett <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde som ska utvärderas.</li>      </ul>
+Anger om det angivna datetime-värdet `dateTime` infaller under det aktuella året och på eller före dagens datum, baserat på systemets aktuella datum och tid.
+
+-   `dateTime`: Ett `date`\-, `datetime`\- eller `datetimezone`\-värde som ska utvärderas.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kontrollera om den aktuella systemtiden infaller på ett datum hittills i år.
 ```powerquery
 Date.IsInYearToDate(DateTime.FixedLocalNow())

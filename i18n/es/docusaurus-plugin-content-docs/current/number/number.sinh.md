@@ -19,7 +19,7 @@ Number.Sinh(
 
 ## Remarks
 
-Devuelve el seno hiperbólico de <code>number</code>.
+Devuelve el seno hiperbólico de `number`.
 
 
 

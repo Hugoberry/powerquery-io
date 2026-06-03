@@ -19,12 +19,12 @@ Table.ReverseRows(
 
 ## Remarks
 
-从输入 <code>table</code> 返回一个表，其中的行遵循相反顺序。
+从输入 `table` 返回一个表，其中的行遵循相反顺序。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 使表中的行按相反顺序排列。
 ```powerquery
 Table.ReverseRows(

@@ -21,12 +21,12 @@ DateTimeZone.SwitchZone(
 
 ## Remarks
 
-เปลี่ยนแปลงข้อมูลโซนเวลาในค่าโซนวันที่เวลา <code>dateTimeZone</code> ในข้อมูลโซนเวลาใหม่จาก <code>timezoneHours</code> หรือ <code>timezoneMinutes</code> ก็ได้    ถ้า <code>dateTimeZone</code> ไม่มีคอมโพเนนต์โซนเวลา ระบบจะแสดงข้อยกเว้น
+เปลี่ยนแปลงข้อมูลโซนเวลาในค่าโซนวันที่เวลา `dateTimeZone` ในข้อมูลโซนเวลาใหม่จาก `timezoneHours` หรือ `timezoneMinutes` ก็ได้ ถ้า `dateTimeZone` ไม่มีคอมโพเนนต์โซนเวลา ระบบจะแสดงข้อผิดพลาด
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 เปลี่ยนแปลงข้อมูลโซนเวลาสำหรับ #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) เป็น 8 ชั่วโมง
 ```powerquery
 DateTimeZone.SwitchZone(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30), 8)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 เปลี่ยนแปลงข้อมูลโซนเวลาสำหรับ #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) เป็น -30 นาที
 ```powerquery
 DateTimeZone.SwitchZone(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30), 0, -30)

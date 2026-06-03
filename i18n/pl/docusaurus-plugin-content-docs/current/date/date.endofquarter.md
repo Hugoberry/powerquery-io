@@ -19,12 +19,14 @@ Date.EndOfQuarter(
 
 ## Remarks
 
-Zwraca koniec kwartału, który zawiera <code>dateTime</code>. Strefa czasowa jest zachowywana.      <ul>        <li><code>dateTime</code>: wartość typu <code>date</code>, <code>datetime</code> lub <code>datetimezone</code>, na podstawie której jest obliczany koniec kwartału.</li>      </ul>
+Zwraca koniec kwartału, który zawiera `dateTime`. Strefa czasowa jest zachowywana.
+
+-   `dateTime`: wartość typu `date`, `datetime` lub `datetimezone`, na podstawie której jest obliczany koniec kwartału.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź koniec kwartału dla daty 10 października 2011 r. 8:00.
 ```powerquery
 Date.EndOfQuarter(#datetime(2011, 10, 10, 8, 0, 0))

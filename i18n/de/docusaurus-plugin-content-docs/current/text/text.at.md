@@ -20,13 +20,13 @@ Text.At(
 
 ## Remarks
 
-Gibt das Zeichen im Textwert (<code>text</code>) an der Position <code>index</code> zurück. Das erste Zeichen im Text befindet sich an Position 0.
+Gibt das Zeichen im Textwert (`text`) an der Position `index` zurück. Das erste Zeichen im Text befindet sich an Position 0.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt das Zeichen an Position 4 in der Zeichenfolge &#34;Hello, World&#34;.
+### Example #1
+Ermittelt das Zeichen an Position 4 in der Zeichenfolge "Hello, World".
 ```powerquery
 Text.At("Hello, World", 4)
 ```

@@ -26,8 +26,8 @@ Retourne une fonction qui fractionne le texte en une liste de textes au niveau d
 
 ## Examples
 
-### Example #1 
-Divise l&#39;entrée par une virgule, puis un point-virgule, en commençant par le début de l&#39;entrée.
+### Example #1
+Divise l'entrée par une virgule, puis un point-virgule, en commençant par le début de l'entrée.
 ```powerquery
 Splitter.SplitTextByEachDelimiter({",", ";"})("a,b;c,d")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Divise l&#39;entrée par une virgule, puis un point-virgule, en traitant les guillemets comme tout autre caractère et en commençant par la fin de l&#39;entrée.
+### Example #2
+Divise l'entrée par une virgule, puis un point-virgule, en traitant les guillemets comme tout autre caractère et en commençant par la fin de l'entrée.
 ```powerquery
 let
     startAtEnd = true

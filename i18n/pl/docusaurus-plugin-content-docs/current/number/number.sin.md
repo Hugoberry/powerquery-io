@@ -19,12 +19,12 @@ Number.Sin(
 
 ## Remarks
 
-Zwraca sinus liczby <code>number</code>.
+Zwraca sinus liczby `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź sinus kąta 0.
 ```powerquery
 Number.Sin(0)

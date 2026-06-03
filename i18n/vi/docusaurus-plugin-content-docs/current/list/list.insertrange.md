@@ -21,13 +21,17 @@ List.InsertRange(
 
 ## Remarks
 
-Trả về một danh sách mới được tạo bằng cách chèn các giá trị trong <code>values</code> vào <code>list</code> tại <code>index</code>. Vị trí đầu tiên trong danh sách là tại chỉ mục 0.      <ul>        <li><code>list</code>: Danh sách mục tiêu nơi các giá trị sẽ được chèn.</li>        <li><code>index</code>: Chỉ mục của danh sách mục tiêu(<code>list</code>) nơi các giá trị sẽ được chèn. Vị trí đầu tiên trong danh sách là tại chỉ mục 0.</li>        <li><code>values</code>: Danh sách các giá trị sẽ được chèn vào <code>list</code>.</li>      </ul>
+Trả về một danh sách mới được tạo bằng cách chèn các giá trị trong `values` vào `list` tại `index`. Vị trí đầu tiên trong danh sách là tại chỉ mục 0.
+
+-   `list`: Danh sách mục tiêu nơi các giá trị sẽ được chèn.
+-   `index`: Chỉ mục của danh sách mục tiêu(`list`) nơi các giá trị sẽ được chèn. Vị trí đầu tiên trong danh sách là tại chỉ mục 0.
+-   `values`: Danh sách các giá trị sẽ được chèn vào `list`.
 
 
 ## Examples
 
-### Example #1 
-Chèn danh sách (\{3, 4}) vào danh sách mục tiêu (\{1, 2, 5}) tại chỉ mục 2.
+### Example #1
+Chèn danh sách (\{3, 4\}) vào danh sách mục tiêu (\{1, 2, 5\}) tại chỉ mục 2.
 ```powerquery
 List.InsertRange({1, 2, 5}, 2, {3, 4})
 ```
@@ -44,8 +48,8 @@ Result:
 ```
 
 
-### Example #2 
-Chèn một danh sách bằng một danh sách lồng nhau (\{1, \{1.1, 1.2}}) vào một danh sách đích (\{2, 3, 4}) tại chỉ mục 0.
+### Example #2
+Chèn một danh sách bằng một danh sách lồng nhau (\{1, \{1.1, 1.2\}\}) vào một danh sách đích (\{2, 3, 4\}) tại chỉ mục 0.
 ```powerquery
 List.InsertRange({2, 3, 4}, 0, {1, {1.1, 1.2}})
 ```

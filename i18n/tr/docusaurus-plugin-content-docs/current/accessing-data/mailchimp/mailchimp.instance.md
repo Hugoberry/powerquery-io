@@ -24,7 +24,7 @@ MailChimp API'sine çağrıda bulunur ve ham yanıtı döndürür.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Belirli bir kampanya için reports/click-details MailChimp API uç noktasından ham verileri döndürür.
 ```powerquery
 MailChimp.Instance("reports/{campaign_id}/click-details")

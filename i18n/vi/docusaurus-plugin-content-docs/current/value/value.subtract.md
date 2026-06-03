@@ -21,7 +21,7 @@ Value.Subtract(
 
 ## Remarks
 
-Trả về hiệu của <code>value1</code> và <code>value2</code>. Có thể chỉ định tham số <code>precision</code> tùy chọn, theo mặc định <code>Precision.Double</code> được sử dụng.
+Trả về hiệu của `value1` và `value2`. Có thể chỉ định tham số `precision` tùy chọn, theo mặc định `Precision.Double` được sử dụng.
 
 
 

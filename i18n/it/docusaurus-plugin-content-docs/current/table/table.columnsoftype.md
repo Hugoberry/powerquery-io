@@ -20,12 +20,12 @@ Table.ColumnsOfType(
 
 ## Remarks
 
-Restituisce un elenco con i nomi delle colonne dalla tabella <code>table</code> corrispondenti ai tipi specificati in <code>listOfTypes</code>.
+Restituisce un elenco con i nomi delle colonne dalla tabella `table` corrispondenti ai tipi specificati in `listOfTypes`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Restituire i nomi delle colonne di tipo Number.Type dalla tabella.
 ```powerquery
 Table.ColumnsOfType(

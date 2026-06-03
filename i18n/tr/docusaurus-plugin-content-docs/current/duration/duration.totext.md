@@ -5,7 +5,7 @@ title: Duration.ToText
 # Duration.ToText
 
 
-&#34;g.s:d:s&#34; biçiminde metni döndürür.
+"g.s:d:s" biçiminde metni döndürür.
 
 
 ## Syntax
@@ -20,13 +20,16 @@ Duration.ToText(
 
 ## Remarks
 
-Belirtilen <code>duration</code> süre değerinin "gün.saat:dakika:sn" biçiminde bir metinsel gösterimini döndürür. <ul>        <li><code>duration</code>: Metinsel gösterimin hesaplanması için kullanılan <code>süredir</code>.</li>  <li><code>format</code>: <i>[İsteğe bağlı]</i> Kullanım dışıdır, değer null değilse hata oluşur</li>      </ul>
+Belirtilen `duration` süre değerinin "gün.saat:dakika:sn" biçiminde bir metinsel gösterimini döndürür.
+
+-   `duration`: Metinsel temsilin hesaplandığı bir `duration`.
+-   `format`: *(İsteğe bağlı)* Kullanımdan kaldırıldı, null değilse hata verecektir.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;#duration(2, 5, 55, 20)&lt;/code&gt; değerini bir metin değerine dönüştürür.
+### Example #1
+`#duration(2, 5, 55, 20)` değerini bir metin değerine dönüştürür.
 ```powerquery
 Duration.ToText(#duration(2, 5, 55, 20))
 ```

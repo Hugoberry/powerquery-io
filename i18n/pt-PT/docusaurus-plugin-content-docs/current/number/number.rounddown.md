@@ -20,12 +20,12 @@ Number.RoundDown(
 
 ## Remarks
 
-Devolve o resultado do arredondamento de <code>number</code> por defeito para o número inteiro mais alto anterior. Se <code>number</code> for nulo, esta função devolve nulo.    Se <code>digits</code> for fornecido, <code>number</code> é arredondado para o número especificado de dígitos decimais.  
+Devolve o resultado do arredondamento de `number` por defeito para o número inteiro mais alto anterior. Se `number` for nulo, esta função devolve nulo. Se `digits` for fornecido, `number` é arredondado para o número especificado de dígitos decimais.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Arredondar 1,234 por defeito para um número inteiro.
 ```powerquery
 Number.RoundDown(1.234)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Arredondar 1,999 por defeito para um número inteiro.
 ```powerquery
 Number.RoundDown(1.999)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Arredondar por defeito 1,999 para duas casas decimais.
 ```powerquery
 Number.RoundDown(1.999, 2)

@@ -19,12 +19,12 @@ Table.ColumnCount(
 
 ## Remarks
 
-Gibt die Anzahl von Spalten in der Tabelle "<code>table</code>" zurück.
+Gibt die Anzahl von Spalten in der Tabelle "`table`" zurück.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ermittelt die Anzahl von Spalten in der Tabelle.
 ```powerquery
 Table.ColumnCount(

@@ -19,13 +19,13 @@ Text.ToList(
 
 ## Remarks
 
-Returns a list of character values from the given text value <code>text</code>.
+Returns a list of character values from the given text value `text`.
 
 
 ## Examples
 
-### Example #1 
-Create a list of character values from the text &#34;Hello World&#34;.
+### Example #1
+Create a list of character values from the text "Hello World".
 ```powerquery
 Text.ToList("Hello World")
 ```

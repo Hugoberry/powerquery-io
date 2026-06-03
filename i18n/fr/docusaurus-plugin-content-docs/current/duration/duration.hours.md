@@ -19,12 +19,12 @@ Duration.Hours(
 
 ## Remarks
 
-Retourne la partie heures de <code>duration</code>.
+Retourne la partie heures de `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Extrayez les heures d’une valeur de durée.
 ```powerquery
 Duration.Hours(#duration(5, 4, 3, 2))

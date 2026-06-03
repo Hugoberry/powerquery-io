@@ -5,7 +5,7 @@ title: Table.FromRows
 # Table.FromRows
 
 
-Skapar en tabell från en lisa med radvärden och valfria kolumner
+Skapar en tabell från en lisa med radvärden och valfria kolumner.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Table.FromRows(
 
 ## Remarks
 
-Skapar en tabell från listan <code>rows</code> där varje element i listan är en inre lista som innehåller kolumnvärdena för en enskild rad. En valfri lista med kolumnnamn, en tabelltyp, eller ett antal kolumner kan tillhandahållas för <code>columns</code>.
+Skapar en tabell från listan `rows` där varje element i listan är en inre lista som innehåller kolumnvärdena för en enskild rad. En valfri lista med kolumnnamn, en tabelltyp, eller ett antal kolumner kan tillhandahållas för `columns`.
 
 
 ## Examples
 
-### Example #1 
-Returnerar en tabell med kolumnen [CustomerID] med värdena \{1, 2} och kolumnen [Name] med värdena \{&#34;Bob&#34;, &#34;Jim&#34;}, och kolumnen [Phone] med värdena \{&#34;123-4567&#34;, &#34;987-6543&#34;}.
+### Example #1
+Returnerar en tabell med kolumnen \[CustomerID\] med värdena \{1, 2\} och kolumnen \[Name\] med värdena \{"Bob", "Jim"\}, och kolumnen \[Phone\] med värdena \{"123-4567", "987-6543"\}.
 ```powerquery
 Table.FromRows(
     {
@@ -46,8 +46,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Returnerar en tabell med kolumnen [CustomerID] med värdena \{1, 2}, kolumnen [Name] med värdena \{&#34;Bob&#34;, &#34;Jim&#34;} och kolumnen [Phone] med värdena \{&#34;123-4567&#34;, &#34;987-6543&#34;}, där [CustomerID] är en siffertyp och [Name] och [Phone] är texttyper.
+### Example #2
+Returnerar en tabell med kolumnen \[CustomerID\] med värdena \{1, 2\}, kolumnen \[Name\] med värdena \{"Bob", "Jim"\} och kolumnen \[Phone\] med värdena \{"123-4567", "987-6543"\}, där \[CustomerID\] är en siffertyp och \[Name\] och \[Phone\] är texttyper.
 ```powerquery
 Table.FromRows(
     {

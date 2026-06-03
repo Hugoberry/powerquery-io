@@ -20,13 +20,14 @@ List.FirstN(
 
 ## Remarks
 
- <ul>  <li>Se for especificado um número, são devolvidos tantos itens quanto esse número. </li>  <li>Se for especificada uma condição, são devolvidos todos os itens que satisfizerem a condição inicialmente. Quando um item não satisfizer a condição, não serão considerados mais itens. </li> </ul>
+-   Se for especificado um número, são devolvidos tantos itens quanto esse número.
+-   Se for especificada uma condição, são devolvidos todos os itens que satisfizerem a condição inicialmente. Quando um item não satisfizer a condição, não serão considerados mais itens.
 
 
 ## Examples
 
-### Example #1 
-Determinar os valores iniciais existentes na lista \{3, 4, 5, -1, 7, 8, 2} que são maiores que 0.
+### Example #1
+Determinar os valores iniciais existentes na lista \{3, 4, 5, -1, 7, 8, 2\} que são maiores que 0.
 ```powerquery
 List.FirstN({3, 4, 5, -1, 7, 8, 2}, each _ > 0)
 ```

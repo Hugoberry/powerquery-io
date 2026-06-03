@@ -19,7 +19,7 @@ Table.PartitionValues(
 
 ## Remarks
 
-Gibt Informationen zur Partitionierung einer Tabelle zurück.  Es wird eine Tabelle zurückgegeben, in der jede Spalte einer Partitionsspalte und jede Zeile einer Partition in der ursprünglichen Tabelle entspricht.
+Gibt Informationen zur Partitionierung einer Tabelle zurück. Es wird eine Tabelle zurückgegeben, in der jede Spalte einer Partitionsspalte und jede Zeile einer Partition in der ursprünglichen Tabelle entspricht.
 
 
 

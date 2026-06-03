@@ -24,8 +24,8 @@ Restituisce le chiavi della tabella specificata.
 
 ## Examples
 
-### Example #1 
-Recupera l&#39;elenco delle chiavi per una tabella.
+### Example #1
+Recupera l'elenco delle chiavi per una tabella.
 ```powerquery
 let
     table = Table.FromRecords({

@@ -20,13 +20,16 @@ Number.FromText(
 
 ## Remarks
 
-Zwraca wartość typu <code>number</code> z danej wartości tekstowej <code>text</code>. <ul>  <li><code>text</code>: Tekstowa reprezentacja wartości liczbowej. Reprezentacja musi być zapisana w typowym formacie liczbowym, takim jak „15”, „3,423.10” lub „5.0E-10”.</li>  <li><code>culture</code>: Opcjonalna kultura kontrolująca sposób interpretacji elementu <code>text</code> (na przykład „en-US”).</li> </ul>
+Zwraca wartość typu `number` z danej wartości tekstowej `text`.
+
+-   `text`: Tekstowa reprezentacja wartości liczbowej. Reprezentacja musi być zapisana w typowym formacie liczbowym, takim jak „15”, „3,423.10” lub „5.0E-10”.
+-   `culture`: Opcjonalna kultura kontrolująca sposób interpretacji elementu `text` (na przykład „en-US”).
 
 
 ## Examples
 
-### Example #1 
-Określ wartość liczbową na podstawie wartości &lt;code&gt;&#34;4&#34;&lt;/code&gt;.
+### Example #1
+Określ wartość liczbową na podstawie wartości `"4"`.
 ```powerquery
 Number.FromText("4")
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Określ wartość liczbową na podstawie wartości &lt;code&gt;&#34;5.0e-10&#34;&lt;/code&gt;.
+### Example #2
+Określ wartość liczbową na podstawie wartości `"5.0e-10"`.
 ```powerquery
 Number.FromText("5.0e-10")
 ```

@@ -20,12 +20,12 @@ Table.Combine(
 
 ## Remarks
 
-Devolve uma tabela que é o resultado da intercalação de uma lista de tabelas, <code>tables</code>. A tabela resultante vai ter uma linha de tipo de estrutura definida por <code>columns</code> ou por uma união dos tipos de entrada, caso <code>columns</code> não esteja especificado.
+Devolve uma tabela que é o resultado da intercalação de uma lista de tabelas, `tables`. A tabela resultante vai ter uma linha de tipo de estrutura definida por `columns` ou por uma união dos tipos de entrada, caso `columns` não esteja especificado.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Intercalar as três tabelas juntas.
 ```powerquery
 Table.Combine({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Intercale três tabelas com estruturas diferentes.
 ```powerquery
 Table.Combine({
@@ -65,7 +65,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Intercale duas tabelas e projeto para o tipo especificado.
 ```powerquery
 Table.Combine(

@@ -20,13 +20,13 @@ List.Transform(
 
 ## Remarks
 
-ส่งกลับรายการค่าใหม่โดยการนำฟังก์ชันการแปลง <code>transform</code> ไปใช้กับรายการ <code>list</code>
+ส่งกลับรายการค่าใหม่โดยการนำฟังก์ชันการแปลง `transform` ไปใช้กับรายการ `list`
 
 
 ## Examples
 
-### Example #1 
-เพิ่ม 1 ลงในแต่ละค่าในรายการ \{1, 2}
+### Example #1
+เพิ่ม 1 ลงในแต่ละค่าในรายการ \{1, 2\}
 ```powerquery
 List.Transform({1, 2}, each _ + 1)
 ```

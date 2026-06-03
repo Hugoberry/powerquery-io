@@ -22,6 +22,6 @@ DocumentDB.Contents(
 
 ## Remarks
 
-Zwraca tabelę z bazami danych usługi Azure Cosmos DB w elemencie <code>url</code>. W przypadku określenia elementu <code>database</code> zamiast tego zostanie zwrócona tabela kolekcji. Ponadto w przypadku określenia pola <code>Query</code> w rekordzie <code>options</code> zostaną zwrócone wyniki zapytania wykonywanego w określonej bazie danych i/lub kolekcji.
+Zwraca tabelę z bazami danych usługi Azure Cosmos DB w elemencie `url`. W przypadku określenia elementu `database` zamiast tego zostanie zwrócona tabela kolekcji. Ponadto w przypadku określenia pola `Query` w rekordzie `options` zostaną zwrócone wyniki zapytania wykonywanego w określonej bazie danych i/lub kolekcji.
 
 

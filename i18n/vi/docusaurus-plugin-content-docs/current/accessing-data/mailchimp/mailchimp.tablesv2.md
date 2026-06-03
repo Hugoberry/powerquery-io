@@ -24,7 +24,7 @@ Trả về bảng có chứa dữ liệu MailChimp chính.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trả về bảng có chứa dữ liệu MailChimp chính.
 ```powerquery
 MailChimp.Tables()

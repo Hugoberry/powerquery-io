@@ -24,7 +24,7 @@ Returnerer nøglerne til den angivne tabel.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hent listen over nøgler til en tabel.
 ```powerquery
 let

@@ -20,13 +20,13 @@ Table.HasColumns(
 
 ## Remarks
 
-Angiver, om tabellen <code>table</code> indeholder den eller de angivne kolonne(r), <code>columns</code>. Returnerer <code>true</code>, hvis tabellen indeholder den eller de angivne kolonne(r). Ellers returneres <code>false</code>.
+Angiver, om tabellen `table` indeholder den eller de angivne kolonne(r), `columns`. Returnerer `true`, hvis tabellen indeholder den eller de angivne kolonne(r). Ellers returneres `false`.
 
 
 ## Examples
 
-### Example #1 
-Find ud af, om tabellen indeholder kolonnen [Name].
+### Example #1
+Find ud af, om tabellen indeholder kolonnen \[Name\].
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({
@@ -45,8 +45,8 @@ true
 ```
 
 
-### Example #2 
-Find ud af, om tabellen indeholder kolonnerne [Name] og [PhoneNumber].
+### Example #2
+Find ud af, om tabellen indeholder kolonnerne \[Name\] og \[PhoneNumber\].
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({

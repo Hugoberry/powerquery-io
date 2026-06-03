@@ -19,13 +19,13 @@ Uri.EscapeDataString(
 
 ## Remarks
 
-依據 RFC 3986 將輸入 <code>data</code> 中的特殊字元編碼。
+依據 RFC 3986 將輸入 `data` 中的特殊字元編碼。
 
 
 ## Examples
 
-### Example #1 
-將 &#34;+money$&#34; 中的特殊字元編碼。
+### Example #1
+將 "+money$" 中的特殊字元編碼。
 ```powerquery
 Uri.EscapeDataString("+money$")
 ```

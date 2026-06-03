@@ -20,7 +20,7 @@ Tables.GetRelationships(
 
 ## Remarks
 
-Pobiera relacje z zestawu tabel. Przyjęto, że struktura zestawu <code>tables</code> przypomina strukturę tabeli nawigacyjnej. Kolumna zdefiniowana przez element <code>dataColumn</code> zawiera rzeczywiste tabele danych.
+Pobiera relacje z zestawu tabel. Przyjęto, że struktura zestawu `tables` przypomina strukturę tabeli nawigacyjnej. Kolumna zdefiniowana przez element `dataColumn` zawiera rzeczywiste tabele danych.
 
 
 

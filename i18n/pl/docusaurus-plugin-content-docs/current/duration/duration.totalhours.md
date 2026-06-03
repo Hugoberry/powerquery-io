@@ -19,12 +19,12 @@ Duration.TotalHours(
 
 ## Remarks
 
-Zwraca łączną liczbę godzin obejmującą <code>duration</code>.
+Zwraca łączną liczbę godzin obejmującą `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź łączną liczbę godzin o wartości czasu trwania.
 ```powerquery
 Duration.TotalHours(#duration(5, 4, 3, 2))

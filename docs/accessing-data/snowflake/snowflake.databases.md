@@ -21,12 +21,17 @@ Snowflake.Databases(
 
 ## Remarks
 
-Returns a table listing the tables in the Snowflake Computing <code>warehouse</code> located at <code>server</code>. An optional record parameter, <code>options</code>, may be specified to control the following options:<ul><li><code>Role</code>: A text value to use as the Role name for the connection.</li><li><code>CreateNavigationProperties</code>: A logical (true/false) value that sets whether to generate navigation properties on the returned values (default is true).</li><li><code>ConnectionTimeout</code>: The number of seconds to wait for network responses from Snowflake.</li><li><code>CommandTimeout</code>: The number of seconds to wait for a query to execute.</li></ul>    
+Returns a table listing the tables in the Snowflake Computing `warehouse` located at `server`. An optional record parameter, `options`, may be specified to control the following options:
+
+-   `Role`: A text value to use as the Role name for the connection.
+-   `CreateNavigationProperties`: A logical (true/false) value that sets whether to generate navigation properties on the returned values (default is true).
+-   `ConnectionTimeout`: The number of seconds to wait for network responses from Snowflake.
+-   `CommandTimeout`: The number of seconds to wait for a query to execute.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 List the tables in a Snowflake warehouse.
 ```powerquery
 Snowflake.Databases("contoso.snowflakecomputing.com", "CONTOSO_WH")

@@ -19,12 +19,12 @@ Date.StartOfDay(
 
 ## Remarks
 
-Returnerer starten på den dag, der repræsenteres af <code>dateTime</code>.    <code>dateTime</code> skal være en værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>.
+Returnerer starten på den dag, der repræsenteres af `dateTime`. `dateTime` skal være en værdi af typen `date`, `datetime` eller `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find starten dagen for 10. oktober 2011 klokken 08:00.
 ```powerquery
 Date.StartOfDay(#datetime(2011, 10, 10, 8, 0, 0))

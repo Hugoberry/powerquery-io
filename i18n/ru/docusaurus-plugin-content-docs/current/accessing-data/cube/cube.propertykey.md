@@ -19,7 +19,7 @@ Cube.PropertyKey(
 
 ## Remarks
 
-Возвращает ключ свойства <code>property</code>.
+Возвращает ключ свойства `property`.
 
 
 

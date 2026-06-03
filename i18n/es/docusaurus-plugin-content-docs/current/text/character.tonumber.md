@@ -19,12 +19,14 @@ Character.ToNumber(
 
 ## Remarks
 
-Devuelve el número equivalente del <code>character</code>.<br />    <br />    El resultado será el punto de código Unicode de 21 bits representado por el carácter o par suplente proporcionado.  
+Devuelve el número equivalente del `character`.  
+  
+El resultado será el punto de código Unicode de 21 bits representado por el carácter o par suplente proporcionado.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Convierte un carácter en su valor numérico equivalente.
 ```powerquery
 Character.ToNumber("#(tab)")
@@ -36,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Convierte el par suplente UTF-16 para el emoticono &#34;cara sonriente&#34; en su punto de código hexadecimal equivalente.
+### Example #2
+Convierte el par suplente UTF-16 para el emoticono "cara sonriente" en su punto de código hexadecimal equivalente.
 ```powerquery
 Number.ToText(Character.ToNumber("#(0001F600)"), "X")
 ```

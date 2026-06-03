@@ -21,13 +21,13 @@ Int16.From(
 
 ## Remarks
 
-Trả về giá trị <code>number</code> 16 bit từ <code>value</code> đã cho. Nếu <code>value</code> đã cho là <code>null</code>, <code>Int16.From</code> sẽ trả về <code>null</code>. Nếu <code>value</code> là <code>number</code> trong khoảng một số nguyên 16 bit không có phần thập phân, thì <code>value</code> sẽ được trả về. Nếu số nguyên có phần thập phân, thì số sẽ được làm tròn bằng chế độ làm tròn được chỉ định. Chế độ làm tròn mặc định là <code>RoundingMode.ToEven</code>. Nếu <code>value</code> là bất kỳ loại nào khác, trước tiên, giá trị này sẽ được chuyển đổi thành <code>number</code> bằng <code>Number.FromText</code>. Tham khảo <code>Number.Round</code> để biết các chế độ làm tròn sẵn dùng. Một <code>culture</code> tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
+Trả về giá trị `number` 16 bit từ `value` đã cho. Nếu `value` đã cho là `null`, `Int16.From` sẽ trả về `null`. Nếu `value` là `number` trong khoảng một số nguyên 16 bit không có phần thập phân, thì `value` sẽ được trả về. Nếu số nguyên có phần thập phân, thì số sẽ được làm tròn bằng chế độ làm tròn được chỉ định. Chế độ làm tròn mặc định là `RoundingMode.ToEven`. Nếu `value` là bất kỳ loại nào khác, trước tiên, giá trị này sẽ được chuyển đổi thành `number` bằng `Number.FromText`. Tham khảo `Number.Round` để biết các chế độ làm tròn sẵn dùng. Một `culture` tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
 
 
 ## Examples
 
-### Example #1 
-Lấy giá trị &lt;code&gt;số&lt;/code&gt; nguyên 16 bit của &lt;code&gt;&#34;4&#34;&lt;/code&gt;.
+### Example #1
+Lấy giá trị `số` nguyên 16 bit của `"4"`.
 ```powerquery
 Int64.From("4")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Lấy giá trị &lt;code&gt;số&lt;/code&gt; nguyên 16 bit của &lt;code&gt;&#34;4,5&#34;&lt;/code&gt; bằng &lt;code&gt;RoundingMode.AwayFromZero&lt;/code&gt;.
+### Example #2
+Lấy giá trị `số` nguyên 16 bit của `"4,5"` bằng `RoundingMode.AwayFromZero`.
 ```powerquery
 Int16.From("4.5", null, RoundingMode.AwayFromZero)
 ```

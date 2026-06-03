@@ -5,7 +5,7 @@ title: Type.FunctionParameters
 # Type.FunctionParameters
 
 
-Retourne un enregistrement avec des valeurs de champ définies sur le nom des paramètres d&#39;un type de fonction, et leurs valeurs définies sur les types correspondants.
+Retourne un enregistrement avec des valeurs de champ définies sur le nom des paramètres d'un type de fonction, et leurs valeurs définies sur les types correspondants.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Type.FunctionParameters(
 
 ## Remarks
 
-Retourne un enregistrement avec des valeurs de champ définies sur le nom des paramètres de <code>type</code>, et leurs valeurs définies sur les types correspondants.
+Retourne un enregistrement avec des valeurs de champ définies sur le nom des paramètres de `type`, et leurs valeurs définies sur les types correspondants.
 
 
 ## Examples
 
-### Example #1 
-Trouvez les types des paramètres de la fonction &lt;code&gt;(x as number, y as text)&lt;/code&gt;.
+### Example #1
+Trouvez les types des paramètres de la fonction `(x as number, y as text)`.
 ```powerquery
 Type.FunctionParameters(type function (x as number, y as text) as any)
 ```

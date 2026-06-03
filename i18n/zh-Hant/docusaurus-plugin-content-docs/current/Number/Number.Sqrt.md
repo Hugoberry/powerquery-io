@@ -19,12 +19,12 @@ Number.Sqrt(
 
 ## Remarks
 
-傳回 <code>number</code> 的平方根。    如果 <code>number</code> 是 Null，<code>Number.Sqrt</code> 會傳回 Null。如果是負值，則傳回 <code>Number.NaN</code> (不是數字)。
+傳回 `number` 的平方根。 如果 `number` 是 Null，`Number.Sqrt` 會傳回 Null。如果是負值，則傳回 `Number.NaN` (不是數字)。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 找出 625 的平方根。
 ```powerquery
 Number.Sqrt(625)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 找出 85 的平方根。
 ```powerquery
 Number.Sqrt(85)

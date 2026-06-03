@@ -20,12 +20,12 @@ BinaryFormat.Text(
 
 ## Remarks
 
-Bir metin değeri okuyan bir ikili biçim döndürür. <code>length</code>, kodu çözülecek bayt sayısını veya metinden önce gelen uzunluğun ikili biçimini belirtir. İsteğe bağlı <code>encoding</code>değeri, metnin kodlamasını belirtir. <code>encoding</code>belirtilmemişse, kodlama Unicode bayt sıra işaretlerinden belirlenir. Bayt sırası işaretleri yoksa, <code>TextEncoding.Utf8</code> kullanılır.
+Bir metin değeri okuyan bir ikili biçim döndürür. `length`, kodu çözülecek bayt sayısını veya metinden önce gelen uzunluğun ikili biçimini belirtir. İsteğe bağlı `encoding`değeri, metnin kodlamasını belirtir. `encoding`belirtilmemişse, kodlama Unicode bayt sıra işaretlerinden belirlenir. Bayt sırası işaretleri yoksa, `TextEncoding.Utf8` kullanılır.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 İki baytın kodunu ASCII metni olarak çözer.
 ```powerquery
 let
@@ -41,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Metnin bayt cinsinden uzunluğunun metinden önce bayt olarak göründüğü ASCII metninin kodunu çözer.
 ```powerquery
 let

@@ -20,12 +20,15 @@ Binary.Compress(
 
 ## Remarks
 
-บีบอัดค่าไบนารีโดยใช้ชนิดการบีบอัดที่กำหนดไว้  ผลลัพธ์ของการเรียกใช้นี้คือ สำเนาการป้อนค่าที่ถูกบีบอัดแล้ว ชนิดการบีบอัดประกอบด้วย:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
+บีบอัดค่าไบนารีโดยใช้ชนิดการบีบอัดที่กำหนดไว้ ผลลัพธ์ของการเรียกใช้นี้คือ สำเนาการป้อนค่าที่ถูกบีบอัดแล้ว ชนิดการบีบอัดประกอบด้วย:
+
+-   `Compression.GZip`
+-   `Compression.Deflate`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 บีบอัดค่าไบนารี
 ```powerquery
 Binary.Compress(Binary.FromList(List.Repeat({10}, 1000)), Compression.Deflate)

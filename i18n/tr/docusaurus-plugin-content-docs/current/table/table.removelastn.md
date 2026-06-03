@@ -20,12 +20,16 @@ Table.RemoveLastN(
 
 ## Remarks
 
-<code>table</code> tablosunun son <code>countOrCondition</code> satırını içermeyen bir tablo döndürür.        Kaldırılan satır sayısı <code>countOrCondition</code> isteğe bağlı parametresine bağlıdır.    <ul>    <li> <code>countOrCondition</code> dahil edilmezse yalnızca son satır kaldırılır. </li>    <li> <code>countOrCondition</code> bir sayı ise bu sayıda satır (alttan başlayarak) kaldırılır. </li>    <li> <code>countOrCondition</code> bir koşul ise koşulu sağlayan satırlar, herhangi bir satır koşulu sağlamayana kadar kaldırılır.</li>    </ul>
+`table` tablosunun son `countOrCondition` satırını içermeyen bir tablo döndürür. Kaldırılan satır sayısı `countOrCondition` isteğe bağlı parametresine bağlıdır.
+
+-   `countOrCondition` dahil edilmezse yalnızca son satır kaldırılır.
+-   `countOrCondition` bir sayı ise bu sayıda satır (alttan başlayarak) kaldırılır.
+-   `countOrCondition` bir koşul ise koşulu sağlayan satırlar, herhangi bir satır koşulu sağlamayana kadar kaldırılır.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablonun son satırını kaldırır.
 ```powerquery
 Table.RemoveLastN(
@@ -49,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Tabloda [CustomerID] &gt; 2 koşulunu sağlayan son satırları kaldırır.
+### Example #2
+Tabloda \[CustomerID\] > 2 koşulunu sağlayan son satırları kaldırır.
 ```powerquery
 Table.RemoveLastN(
     Table.FromRecords({

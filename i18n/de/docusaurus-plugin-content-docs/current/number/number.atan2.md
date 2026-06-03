@@ -20,7 +20,7 @@ Number.Atan2(
 
 ## Remarks
 
-Gibt den Arkustangens der Division der beiden Zahlen (<code>y</code> und <code>x</code>) zurück. Die Division wird als "<code>y</code>/<code>x</code>" konstruiert.
+Gibt den Winkel im Bogenmaß zurück, dessen Tangens der Quotient `y`/`x` der beiden Zahlen `y` und `x` ist.
 
 
 

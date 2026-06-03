@@ -25,7 +25,7 @@ Zwraca wartość, jeśli jest ona zgodna z określonym typem. Jest to odpowiedni
 
 ## Examples
 
-### Example #1 
+### Example #1
 Rzutowanie liczby na liczbę.
 ```powerquery
 Value.As(123, Number.Type)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Próba rzutowania wartości tekstowej na liczbę.
 ```powerquery
 Value.As("abc", type number)

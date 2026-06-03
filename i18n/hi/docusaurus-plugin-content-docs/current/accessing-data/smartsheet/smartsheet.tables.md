@@ -24,7 +24,7 @@ Smartsheet API से उपलब्ध पत्रकों, रिपोर�
 
 ## Examples
 
-### Example #1 
+### Example #1
 Smartsheet पदानुक्रम के शीर्ष स्तर पर उपलब्ध पत्रकों, रिपोर्ट्स, फ़ोल्डर्स और कार्यस्थानों की एक तालिका लौटाता है
 ```powerquery
 Smartsheet.Tables()

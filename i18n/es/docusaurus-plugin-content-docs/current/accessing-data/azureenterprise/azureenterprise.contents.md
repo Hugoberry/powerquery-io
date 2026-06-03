@@ -25,7 +25,7 @@ Devuelve los resultados binarios de la llamada a la dirección URL que se ha pro
 
 ## Examples
 
-### Example #1 
+### Example #1
 Usar la función AzureEnterprise.Contents para devolver los resultados de un informe específico.
 ```powerquery
         let

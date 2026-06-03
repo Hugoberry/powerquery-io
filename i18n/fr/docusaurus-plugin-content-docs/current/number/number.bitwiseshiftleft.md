@@ -5,7 +5,7 @@ title: Number.BitwiseShiftLeft
 # Number.BitwiseShiftLeft
 
 
-Déplace l&#39;ensemble de bits à gauche.
+Déplace l'ensemble de bits à gauche.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Number.BitwiseShiftLeft(
 
 ## Remarks
 
-Retourne le résultat d'un déplacement au niveau du bit vers la gauche sur <code>number1</code>, en fonction du nombre de bits spécifié <code>number2</code>.
+Retourne le résultat d'un déplacement au niveau du bit vers la gauche sur `number1`, en fonction du nombre de bits spécifié `number2`.
 
 
 

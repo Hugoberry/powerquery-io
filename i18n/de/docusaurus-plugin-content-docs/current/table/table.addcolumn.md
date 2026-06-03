@@ -22,13 +22,13 @@ Table.AddColumn(
 
 ## Remarks
 
-Fügt der Tabelle "<code>table</code>" eine Spalte mit der Bezeichnung "<code>newColumnName</code>" hinzu. Die Werte für die Spalte werden anhand der angegebenen Auswahlfunktion "<code>columnGenerator</code>" berechnet, wobei die einzelnen Zeilen jeweils als Eingabe herangezogen werden.
+Fügt der Tabelle "`table`" eine Spalte mit der Bezeichnung "`newColumnName`" hinzu. Die Werte für die Spalte werden anhand der angegebenen Auswahlfunktion "`columnGenerator`" berechnet, wobei die einzelnen Zeilen jeweils als Eingabe herangezogen werden.
 
 
 ## Examples
 
-### Example #1 
-Fügen Sie eine Zahlenspalte mit dem Namen „Gesamtpreis“ in die Tabelle hinzu, wobei jeder Wert die Summe der Spalten [Preis] und [Versand] entspricht.
+### Example #1
+Fügen Sie eine Zahlenspalte mit dem Namen „Gesamtpreis“ in die Tabelle hinzu, wobei jeder Wert die Summe der Spalten \[Preis\] und \[Versand\] entspricht.
 ```powerquery
 Table.AddColumn(
     Table.FromRecords({

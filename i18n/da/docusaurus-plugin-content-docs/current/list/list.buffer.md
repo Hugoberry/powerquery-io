@@ -19,13 +19,13 @@ List.Buffer(
 
 ## Remarks
 
-Bufferlagrer listen <code>list</code> i hukommelsen. Resultatet af dette kald er en stabil liste.
+Bufferlagrer listen `list` i hukommelsen. Resultatet af dette kald er en stabil liste.
 
 
 ## Examples
 
-### Example #1 
-Opret en stabil kopi af listen \{1..10}.
+### Example #1
+Opret en stabil kopi af listen \{1..10\}.
 ```powerquery
 List.Buffer({1..10})
 ```

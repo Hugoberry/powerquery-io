@@ -21,12 +21,12 @@ Table.AddKey(
 
 ## Remarks
 
-Ajoute une clé à <code>table</code>, où <code>columns</code> est la liste des noms de colonne qui définissent la clé, et <code>isPrimary</code> spécifie si la clé est primaire.
+Ajoute une clé à `table`, où `columns` est la liste des noms de colonne qui définissent la clé, et `isPrimary` spécifie si la clé est primaire.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ajouter une clé primaire à une seule colonne à une table.
 ```powerquery
 let

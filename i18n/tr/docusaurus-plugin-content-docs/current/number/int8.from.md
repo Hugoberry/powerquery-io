@@ -21,13 +21,13 @@ Int8.From(
 
 ## Remarks
 
-Verilen <code>value</code> değerinden 8 bitlik bir işaretli tamsayı <code>number</code> değeri döndürür. Verilen <code>value</code> değeri <code>null</code> olduğunda, <code>Int8.From</code> <code>null</code> döndürür. Verilen <code>value</code> değeri kesirli kısmı olmayan 8 bitlik işaretli tamsayı aralığında bir <code>number</code> olduğunda <code>value</code> döndürülür. Kesirli kısmı varsa, sayı belirtilen yuvarlama moduyla yuvarlanır. Varsayılan yuvarlama modu <code>RoundingMode.ToEven</code> modudur. <code>value</code> başka herhangi bir türde olduğunda, önce <code>Number.FromText</code> kullanılarak <code>number</code> türüne dönüştürülür. Kullanılabilir yuvarlama modları için bkz. <code>Number.Round</code>. Ayrıca isteğe bağlı <code>culture</code> sağlanabilir (örneğin, "tr-TR").
+Verilen `value` değerinden 8 bitlik bir işaretli tamsayı `number` değeri döndürür. Verilen `value` değeri `null` olduğunda, `Int8.From` `null` döndürür. Verilen `value` değeri kesirli kısmı olmayan 8 bitlik işaretli tamsayı aralığında bir `number` olduğunda `value` döndürülür. Kesirli kısmı varsa, sayı belirtilen yuvarlama moduyla yuvarlanır. Varsayılan yuvarlama modu `RoundingMode.ToEven` modudur. `value` başka herhangi bir türde olduğunda, önce `Number.FromText` kullanılarak `number` türüne dönüştürülür. Kullanılabilir yuvarlama modları için bkz. `Number.Round`. Ayrıca isteğe bağlı `culture` sağlanabilir (örneğin, "tr-TR").
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;&#34;4&#34;&lt;/code&gt; değerinin işaretli 8 bit tam sayı &lt;code&gt;number&lt;/code&gt; değerini verir.
+### Example #1
+`"4"` değerinin işaretli 8 bit tam sayı `number` değerini verir.
 ```powerquery
 Int8.From("4")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-&lt;code&gt;RoundingMode.AwayFromZero&lt;/code&gt; kullanıldığında &lt;code&gt;&#34;4.5&#34;&lt;/code&gt; değerinin işaretli 8 bit tam sayı &lt;code&gt;number&lt;/code&gt; değerini verir.
+### Example #2
+`RoundingMode.AwayFromZero` kullanıldığında `"4.5"` değerinin işaretli 8 bit tam sayı `number` değerini verir.
 ```powerquery
 Int8.From("4.5", null, RoundingMode.AwayFromZero)
 ```

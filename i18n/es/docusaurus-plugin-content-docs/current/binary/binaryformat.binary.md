@@ -19,7 +19,7 @@ BinaryFormat.Binary(
 
 ## Remarks
 
-Devuelve un formato binario que lee un valor binario.  Si se especifica <code>length</code>, el valor binario contendrá varios bytes.  Si no se especifica <code>length</code>, el valor binario contendrá el resto de bytes.  La <code>length</code> puede especificarse como número o como un formato binario de la longitud que antecede a los datos binarios.
+Devuelve un formato binario que lee un valor binario. Si se especifica `length`, el valor binario contendrá varios bytes. Si no se especifica `length`, el valor binario contendrá el resto de bytes. La `length` puede especificarse como número o como un formato binario de la longitud que antecede a los datos binarios.
 
 
 

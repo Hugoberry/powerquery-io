@@ -21,12 +21,12 @@ Table.InsertRows(
 
 ## Remarks
 
-Returnerar en tabell med listan med rader, <code>rows</code>, infogad i <code>table</code> vid angiven position, <code>offset</code>. Varje kolumn i raden som ska infogas måste matcha tabellens kolumntyper.
+Returnerar en tabell med listan med rader, `rows`, infogad i `table` vid angiven position, `offset`. Varje kolumn i raden som ska infogas måste matcha tabellens kolumntyper.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Infoga raden i tabellen vid position 1.
 ```powerquery
 Table.InsertRows(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Infoga två rader i tabellen vid position 1.
 ```powerquery
 Table.InsertRows(

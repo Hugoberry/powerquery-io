@@ -20,12 +20,15 @@ Date.IsInPreviousNDays(
 
 ## Remarks
 
-Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob der angegebene datetime-Wert "<code>dateTime</code>" während der vorherigen Anzahl von Tagen auftritt. Beachten Sie, dass diese Funktion FALSE zurückgibt, wenn der übergebene Wert innerhalb des aktuellen Tags auftritt.      <ul>      <li><code>dateTime</code>: Ein <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert, der ausgewertet werden soll.</li>      <li><code>days</code>: Die Anzahl von Tagen.</li>      </ul>
+Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob der angegebene datetime-Wert "`dateTime`" während der vorherigen Anzahl von Tagen auftritt. Beachten Sie, dass diese Funktion FALSE zurückgibt, wenn der übergebene Wert innerhalb des aktuellen Tags auftritt.
+
+-   `dateTime`: Ein `date`\-, `datetime`\- oder `datetimezone`\-Wert, der ausgewertet werden soll.
+-   `days`: Die Anzahl von Tagen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bestimmt, ob der Tag vor der aktuellen Systemzeit innerhalb der vergangenen zwei Tage liegt.
 ```powerquery
 Date.IsInPreviousNDays(Date.AddDays(DateTime.FixedLocalNow(), -1), 2)

@@ -20,13 +20,16 @@ List.Last(
 
 ## Remarks
 
-Retourneert het laatste item uit de lijst <code>list</code> of de optionele standaardwaarde <code>defaultValue</code> als de lijst leeg is.    Als de lijst leeg is en er is geen standaardwaarde opgegeven, wordt <code>null</code> door de functie geretourneerd.
+Retourneert het laatste item in de opgegeven lijst of de optionele standaardwaarde als de lijst leeg is.
+
+-   `list`: de lijst die moet worden onderzocht.
+-   `defaultValue`: (optioneel) De standaardwaarde die moet worden geretourneerd als de lijst leeg is. Als de lijst leeg is en er geen standaardwaarde is opgegeven, retourneert de functie `null`.
 
 
 ## Examples
 
-### Example #1 
-De laatste waarde in de lijst \{1, 2, 3} zoeken.
+### Example #1
+De laatste waarde in de lijst \{1, 2, 3\} zoeken.
 ```powerquery
 List.Last({1, 2, 3})
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-De laatste waarde in de lijst \{} opzoeken of -1 als de lijst leeg is.
+### Example #2
+De laatste waarde in de lijst \{\} opzoeken of -1 als de lijst leeg is.
 ```powerquery
 List.Last({}, -1)
 ```

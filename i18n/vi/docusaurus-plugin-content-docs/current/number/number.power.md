@@ -20,12 +20,15 @@ Number.Power(
 
 ## Remarks
 
-Trả về kết quả sau khi đưa <code>number</code> lên lũy thừa <code>power</code>.    Nếu <code>number</code> hoặc <code>power</code> là giá trị null thì <code>Number.Power</code> trả về giá trị null.      <ul>        <li><code>number</code>: Cơ số.</li>        <li><code>power</code>: Số mũ.</li>      </ul>
+Trả về kết quả sau khi đưa `number` lên lũy thừa `power`. Nếu `number` hoặc `power` là giá trị null thì `Number.Power` trả về giá trị null.
+
+-   `number`: Cơ số.
+-   `power`: Số mũ.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm giá trị của 5 sau khi được tăng lên lũy thừa 3 (lũy thừa 3 của 5).
 ```powerquery
 Number.Power(5, 3)

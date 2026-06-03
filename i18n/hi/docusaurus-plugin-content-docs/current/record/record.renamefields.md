@@ -5,7 +5,7 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-सूची के नाम(नामों) को \{ old, new } के रूप में बदलता है.
+सूची के नाम(नामों) को \{ old, new \} के रूप में बदलता है.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Record.RenameFields(
 
 ## Remarks
 
-इनपुट <code>record</code> की फ़ील्ड का नाम सूची <code>renames</code> में निर्दिष्ट फ़ील्ड नामों में बदलने के बाद एक रिकॉर्ड लौटाता है. एकाधिक नाम बदलने के लिए, एक नेस्टेड सूची का उपयोग किया जा सकता है (\{ \{old1, new1}, \{old2, new2} }.
+सूची `renames` में निर्दिष्ट नए फ़ील्ड नामों में इनपुट `record` में फ़ील्ड का नाम बदलने के बाद एक रिकॉर्ड लौटाता है. एकाधिक नाम बदलने के लिए, एक नेस्टेड सूची का उपयोग किया जा सकता है (\{ \{old1, new1\}, \{old2, new2\} \}).
 
 
 ## Examples
 
-### Example #1 
-रिकॉर्ड से फ़ील्ड &#34;UnitPrice&#34; का नाम &#34;मूल्य&#34; में बदलें.
+### Example #1
+रिकॉर्ड से फ़ील्ड "UnitPrice" का नाम "मूल्य" में बदलें.
 ```powerquery
 Record.RenameFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", UnitPrice = 100.0],
@@ -41,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-रिकॉर्ड से फ़ील्ड &#34;UnitPrice&#34; का नाम &#34;मूल्य&#34; में और &#34;OrderNum&#34; का नाम &#34;OrderID&#34; में बदलें.
+### Example #2
+रिकॉर्ड से फ़ील्ड "UnitPrice" का नाम "मूल्य" में और "OrderNum" का नाम "OrderID" में बदलें.
 ```powerquery
 Record.RenameFields(
     [OrderNum = 1, CustomerID = 1, Item = "Fishing rod", UnitPrice = 100.0],

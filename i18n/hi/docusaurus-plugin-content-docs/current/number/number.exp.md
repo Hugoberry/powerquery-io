@@ -19,12 +19,14 @@ Number.Exp(
 
 ## Remarks
 
-e को <code>number</code> (घातांक फंक्शन) की घात तक बढ़ाने का परिणाम लौटाता है.      <ul>        <li><code>number</code>: एक ऐसी <code>संख्या</code> जिसके लिए घातांक फ़ंक्शन का परिकलन किया जाना है. यदि <code>number</code> नल है, तो <code>Number.Exp</code> नल लौटाता है. </li>      </ul>
+e को `number` (घातांक फंक्शन) की घात तक बढ़ाने का परिणाम लौटाता है.
+
+-   `number`: एक ऐसी `संख्या` जिसके लिए घातांक फ़ंक्शन का परिकलन किया जाना है. यदि `number` नल है, तो `Number.Exp` नल लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 e को 3 की घात तक बढ़ाएँ.
 ```powerquery
 Number.Exp(3)

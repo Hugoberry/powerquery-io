@@ -21,13 +21,13 @@ Int8.From(
 
 ## Remarks
 
-Returnerar ett signerat 8-bitars <code>number</code>-heltalsvärde från det givna <code>value</code>. Om det givna <code>value</code> är <code>null</code> returnerar <code>Int8.Från</code>returneras <code>null</code>.  Om det givna <code>value</code> är <code>number</code> inom intervallet för ett signerat 8-bitars heltal utan decimaldel, returneras <code>value</code>. Om talet har en decimaldel avrundas det med det angivna avrundningsläget. Standardavrundningsläget är <code>RoundingMode.ToEven</code>. Om <code>value</code> är av någon annan typ kontrollerar du under <code>Number.FromText</code> om hur du konverterar det till <code>number</code>-värde. Mer information om tillgängliga avrundningslägen finns i <code>Number.Round</code>. En valfri <code>culture</code> kan även anges (till exempel, "en-US").
+Returnerar ett signerat 8-bitars `number`\-heltalsvärde från det givna `value`. Om det givna `value` är `null` returnerar `Int8.Från`returneras `null`. Om det givna `value` är `number` inom intervallet för ett signerat 8-bitars heltal utan decimaldel, returneras `value`. Om talet har en decimaldel avrundas det med det angivna avrundningsläget. Standardavrundningsläget är `RoundingMode.ToEven`. Om `value` är av någon annan typ kontrollerar du under `Number.FromText` om hur du konverterar det till `number`\-värde. Mer information om tillgängliga avrundningslägen finns i `Number.Round`. En valfri `culture` kan även anges (till exempel, "en-US").
 
 
 ## Examples
 
-### Example #1 
-Hämta det signerade 8-bitars &lt;code&gt;number&lt;/code&gt;-heltalsvärdet för &lt;code&gt;&#34;4&#34;&lt;/code&gt;.
+### Example #1
+Hämta det signerade 8-bitars `number`\-heltalsvärdet för `"4"`.
 ```powerquery
 Int8.From("4")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Hämta det signerade 8-bitars &lt;code&gt;number&lt;/code&gt;-heltalsvärdet för &lt;code&gt;&#34;4.5&#34;&lt;/code&gt; genom att använda &lt;code&gt;RoundingMode.AwayFromZero&lt;/code&gt;.
+### Example #2
+Hämta det signerade 8-bitars `number`\-heltalsvärdet för `"4.5"` genom att använda `RoundingMode.AwayFromZero`.
 ```powerquery
 Int8.From("4.5", null, RoundingMode.AwayFromZero)
 ```

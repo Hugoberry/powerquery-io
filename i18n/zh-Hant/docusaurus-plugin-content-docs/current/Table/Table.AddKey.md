@@ -21,12 +21,12 @@ Table.AddKey(
 
 ## Remarks
 
-將索引鍵加入至 <code>table</code>、指定的 <code>columns</code> 是定義索引鍵之資料行名稱的子集，而且 <code>isPrimary</code> 會指定該索引鍵是否為主索引鍵。
+將索引鍵加入至 `table`、指定的 `columns` 是定義索引鍵之資料行名稱的子集，而且 `isPrimary` 會指定該索引鍵是否為主索引鍵。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 新增單一資料行主鍵至資料表。
 ```powerquery
 let

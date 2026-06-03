@@ -25,8 +25,8 @@ Sendet einen Aufruf an die MailChimp-API und gibt das Ergebnisdataset als Tabell
 
 ## Examples
 
-### Example #1 
-Ruft eine Tabelle mit Daten vom Endpunkt &#34;lists&#34; der MailChimp-API ab.
+### Example #1
+Ruft eine Tabelle mit Daten vom Endpunkt "lists" der MailChimp-API ab.
 ```powerquery
 MailChimp.Collection("lists")
 ```
@@ -37,8 +37,8 @@ Eine Tabelle mit lists-Daten.
 ```
 
 
-### Example #2 
-Ruft eine Tabelle mit Daten vom Endpunkt &#34;campaign-folders&#34; der MailChimp-API ab.
+### Example #2
+Ruft eine Tabelle mit Daten vom Endpunkt "campaign-folders" der MailChimp-API ab.
 ```powerquery
 MailChimp.Collection("campaign-folders", "folders")
 ```

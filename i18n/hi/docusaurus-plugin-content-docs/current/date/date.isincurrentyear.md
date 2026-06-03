@@ -19,12 +19,14 @@ Date.IsInCurrentYear(
 
 ## Remarks
 
-इंगित करता है कि क्या दिया गया datetime मान <code>dateTime</code>, वर्तमान वर्ष के दौरान आता है जैसा कि सिस्टम के वर्तमान दिनांक और समय द्वारा निर्धारित किया गया था.      <ul>      <li><code>dateTime</code>: मूल्यांकन किया जाने वाला <code>date</code>, <code>datetime</code> या <code>datetimezone</code> मान.</li>      </ul>
+इंगित करता है कि क्या दिया गया datetime मान `dateTime`, वर्तमान वर्ष के दौरान आता है जैसा कि सिस्टम के वर्तमान दिनांक और समय द्वारा निर्धारित किया गया था.
+
+-   `dateTime`: मूल्यांकन किया जाने वाला `date`, `datetime` या `datetimezone` मान.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 निर्धारित करें कि क्या वर्तमान सिस्टम समय, वर्तमान वर्ष में मौजूद है.
 ```powerquery
 Date.IsInCurrentYear(DateTime.FixedLocalNow())

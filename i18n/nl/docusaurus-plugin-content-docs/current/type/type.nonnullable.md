@@ -19,13 +19,13 @@ Type.NonNullable(
 
 ## Remarks
 
-Retourneert het type waarvoor geen <code>null-waarde is toegestaan</code> voor <code>type</code>.
+Retourneert het type waarvoor geen `null-waarde is toegestaan` voor `type`.
 
 
 ## Examples
 
-### Example #1 
-Retourneert het type waarvoor geen null-waarde is toegestaan van het &lt;code&gt;type getal waarvoor null-waarde is toegestaan&lt;/code&gt;.
+### Example #1
+Retourneert het type waarvoor geen null-waarde is toegestaan van het `type getal waarvoor null-waarde is toegestaan`.
 ```powerquery
 Type.NonNullable(type nullable number)
 ```

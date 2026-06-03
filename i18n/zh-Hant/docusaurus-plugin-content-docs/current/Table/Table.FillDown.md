@@ -20,13 +20,13 @@ Table.FillDown(
 
 ## Remarks
 
-根據指定的 <code>table</code> 傳回資料表，其中前一個資料格的值會傳播到指定之 <code>columns</code> 中下方的 Null 值資料格。
+根據指定的 `table` 傳回資料表，其中前一個資料格的值會傳播到指定之 `columns` 中下方的 Null 值資料格。
 
 
 ## Examples
 
-### Example #1 
-傳回資料表，其中 [Place] 資料行中的 Null 值會填入資料表中位於這些值上方的值。
+### Example #1
+傳回資料表，其中 \[Place\] 資料行中的 Null 值會填入資料表中位於這些值上方的值。
 ```powerquery
 Table.FillDown(
     Table.FromRecords({

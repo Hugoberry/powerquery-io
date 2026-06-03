@@ -19,12 +19,12 @@ Table.IsEmpty(
 
 ## Remarks
 
-Indica se <code>table</code> contém quaisquer linhas. Devolve <code>true</code> se não existirem linhas (ou seja, se a tabela estiver vazia); caso contrário, devolve <code>false</code>.
+Indica se `table` contém quaisquer linhas. Devolve `true` se não existirem linhas (ou seja, se a tabela estiver vazia); caso contrário, devolve `false`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determinar se a tabela está vazia.
 ```powerquery
 Table.IsEmpty(
@@ -42,8 +42,8 @@ false
 ```
 
 
-### Example #2 
-Determinar se a tabela &lt;code&gt;(\{})&lt;/code&gt; está vazia.
+### Example #2
+Determinar se a tabela `({})` está vazia.
 ```powerquery
 Table.IsEmpty(Table.FromRecords({}))
 ```

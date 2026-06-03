@@ -19,7 +19,7 @@ Cdm.Contents(
 
 ## Remarks
 
-Bu işlev .NET 4.5 gerektirdiğinden kullanılamıyor.
+Bu işlev geçerli bağlamda kullanılamıyor.
 
 
 

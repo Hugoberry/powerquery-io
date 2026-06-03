@@ -19,13 +19,13 @@ Text.Reverse(
 
 ## Remarks
 
-Обращает порядок указанного <code>text</code>.
+Обращает порядок указанного `text`.
 
 
 ## Examples
 
-### Example #1 
-Обратный порядок текста &#34;123&#34;.
+### Example #1
+Обратный порядок текста "123".
 ```powerquery
 Text.Reverse("123")
 ```

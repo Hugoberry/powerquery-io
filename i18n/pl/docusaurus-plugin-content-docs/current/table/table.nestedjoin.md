@@ -25,12 +25,16 @@ Table.NestedJoin(
 
 ## Remarks
 
-Tworzy sprzężenie wierszy tabeli <code>table1</code> z wierszami tabeli <code>table2</code> na podstawie równości wartości kolumn klucza wybranych przez parametr <code>key1</code> (dla tabeli <code>table1</code>) i parametr <code>key2</code> (dla tabeli <code>table2</code>). Wyniki są umieszczane w kolumnie o nazwie <code>newColumnName</code>.<br />Opcjonalny parametr <code>joinKind</code> określa rodzaj tworzonego sprzężenia. Jeśli nie określono parametru <code>joinKind</code>, domyślnie jest tworzone lewe sprzężenie zewnętrzne.<br />Możesz dołączyć opcjonalny zestaw <code>keyEqualityComparers</code>, aby określić metodę porównania kolumn klucza. Ta funkcja jest obecnie przeznaczona tylko do użytku wewnętrznego.<br />  
+Tworzy sprzężenie wierszy tabeli `table1` z wierszami tabeli `table2` na podstawie równości wartości kolumn klucza wybranych przez parametr `key1` (dla tabeli `table1`) i parametr `key2` (dla tabeli `table2`). Wyniki są umieszczane w kolumnie o nazwie `newColumnName`.
+
+Opcjonalny parametr `joinKind` określa rodzaj tworzonego sprzężenia. Jeśli nie określono parametru `joinKind`, domyślnie jest tworzone lewe sprzężenie zewnętrzne.
+
+Możesz dołączyć opcjonalny zestaw `keyEqualityComparers`, aby określić metodę porównania kolumn klucza. Ta funkcja jest obecnie przeznaczona tylko do użytku wewnętrznego.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Połącz dwie tabele przy użyciu jednej kolumny klucza.
 ```powerquery
 Table.NestedJoin(

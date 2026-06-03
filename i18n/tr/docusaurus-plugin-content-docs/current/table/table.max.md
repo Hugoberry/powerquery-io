@@ -21,13 +21,13 @@ Table.Max(
 
 ## Remarks
 
-<code>table</code> içindeki en büyük satırı verilen <code>comparisonCriteria</code> öğesini kullanarak döndürür. Tablo boşsa, isteğe bağlı <code>default</code> değeri döndürülür. 
+`table` içindeki en büyük satırı verilen `comparisonCriteria` öğesini kullanarak döndürür. Tablo boşsa, isteğe bağlı `default` değeri döndürülür.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8]})&lt;/code&gt; tablosunda [a] sütunundaki en büyük değere sahip satırı bulur.
+### Example #1
+`({[a = 2, b = 4], [a = 6, b = 8]})` tablosunda \[a\] sütunundaki en büyük değere sahip satırı bulur.
 ```powerquery
 Table.Max(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-&lt;code&gt;(\{})&lt;/code&gt; tablosunda [a] sütunundaki en büyük değere sahip satırı bulur. Boşsa -1 döndürür.
+### Example #2
+`({})` tablosunda \[a\] sütunundaki en büyük değere sahip satırı bulur. Boşsa -1 döndürür.
 ```powerquery
 Table.Max(#table({"a"}, {}), "a", -1)
 ```

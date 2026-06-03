@@ -20,13 +20,16 @@ Text.Split(
 
 ## Remarks
 
-返回根据指定的分隔符 <code>separator</code> 拆分文本值 <code>text</code> 而得到的文本值列表。
+返回根据指定的分隔符拆分文本值而生成的文本值的列表。
+
+-   `text`: 要拆分的文本值。
+-   `separator`: 用于拆分文本的分隔符。分隔符可以是单个字符或字符序列。如果使用字符序列，则仅在出现确切序列的实例上拆分文本。
 
 
 ## Examples
 
-### Example #1 
-从由 &#34;|&#34; 分隔的文本值 &#34;Name|Address|PhoneNumber&#34; 创建列表。
+### Example #1
+从由 "|" 分隔的文本值 "Name|Address|PhoneNumber" 创建列表。
 ```powerquery
 Text.Split("Name|Address|PhoneNumber", "|")
 ```
@@ -37,6 +40,22 @@ Result:
     "Name",
     "Address",
     "PhoneNumber"
+}
+```
+
+
+### Example #2
+使用字符序列根据文本值创建列表。
+```powerquery
+Text.Split("Name, the Customer, the Purchase Date", ", the ")
+```
+
+Result: 
+```powerquery
+{
+    "Name",
+    "Customer",
+    "Purchase Date"
 }
 ```
 

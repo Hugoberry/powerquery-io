@@ -5,7 +5,7 @@ title: Webtrends.Tables
 # Webtrends.Tables
 
 
-Immettere l&#39;ID profilo associato all&#39;account Webtrends.
+Immettere l'ID profilo associato all'account Webtrends.
 
 
 ## Syntax

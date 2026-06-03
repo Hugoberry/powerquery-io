@@ -20,13 +20,15 @@ Date.WeekOfMonth(
 
 ## Remarks
 
-<code>dateTime</code> tarihinin ayın hangi haftası içinde olduğunu gösteren, 1 ile 6 arasındaki bir sayı döndürür. <ul>        <li><code>dateTime</code>: Ayın haftasının belirlendiği <code>datetime</code> değeri.</li>      </ul>
+`dateTime` tarihinin ayın hangi haftası içinde olduğunu gösteren, 1 ile 6 arasındaki bir sayı döndürür.
+
+-   `dateTime`: Ayın haftasının belirlendiği `datetime` değeri.
 
 
 ## Examples
 
-### Example #1 
-15 Mart 2011&#39;in yılın hangi haftasında olduğunu belirleyin.
+### Example #1
+15 Mart 2011'in yılın hangi haftasında olduğunu belirleyin.
 ```powerquery
 Date.WeekOfMonth(#date(2011, 03, 15))
 ```

@@ -24,7 +24,7 @@ Bufferlagrer den binære værdi i hukommelsen. Resultatet af dette kald er en st
 
 ## Examples
 
-### Example #1 
+### Example #1
 Opret en stabil version af den binære værdi.
 ```powerquery
 Binary.Buffer(Binary.FromList({0..10}))

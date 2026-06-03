@@ -26,8 +26,8 @@ Retorna o conteúdo do documento XML como uma coleção aninhada de tabelas nive
 
 ## Examples
 
-### Example #1 
-Recupere o conteúdo de um arquivo xml local.
+### Example #1
+Recupere o conteúdo de um arquivo XML local.
 ```powerquery
 Xml.Tables(File.Contents("C:\invoices.xml"))
 ```

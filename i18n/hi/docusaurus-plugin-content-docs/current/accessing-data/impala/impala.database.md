@@ -20,12 +20,12 @@ Impala.Database(
 
 ## Remarks
 
-Impala क्लस्टर <code>server</code> से डेटा आयात करें. यदि कोई पोर्ट निर्दिष्ट नहीं था, तो डिफ़ॉल्ट पोर्ट 21050 का उपयोग किया जाएगा.
+Impala क्लस्टर `server` से डेटा आयात करें. यदि कोई पोर्ट निर्दिष्ट नहीं था, तो डिफ़ॉल्ट पोर्ट 21050 का उपयोग किया जाएगा.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Impala क्लस्टर में तालिकाएँ सूचीबद्ध करें.
 ```powerquery
 Impala.Database("localhost:21050")

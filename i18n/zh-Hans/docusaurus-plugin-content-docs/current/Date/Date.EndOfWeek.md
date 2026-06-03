@@ -20,12 +20,15 @@ Date.EndOfWeek(
 
 ## Remarks
 
-返回包含 <code>dateTime</code> 的周结束值。此函数取可选的 <code>Day</code> <code>firstDayOfWeek</code>，从而设置为此相对计算的一周的第一天。默认值为<code>Day.Sunday</code>。      <ul>        <li><code>dateTime</code>: 从中计算一周最后一天的<code>date</code>、<code>datetime</code>或<code>datetimezone</code>值</li>        <li><code>firstDayOfWeek</code>: <i>[可选]</i>表示一周第一天的<code>Day.Type</code>值。可能的值为 <code>Day.Sunday</code>、<code>Day.Monday</code>、<code>Day.Tuesday</code>、<code>Day.Wednesday</code>、<code>Day.Thursday</code>、<code>Day.Friday</code>和<code>Day.Saturday.</code>。默认值为<code>Day.Sunday</code>。</li>      </ul>
+返回包含 `dateTime` 的周结束值。 此函数取可选的 `Day` `firstDayOfWeek`，从而设置为此相对计算的一周的第一天。默认值为 `Day.Sunday`。
+
+-   `dateTime`: 从中计算星期的最后一天的 `date`、`datetime` 或 `datetimezone` 值
+-   `firstDayOfWeek`: *(可选)* 表示星期的第一天的 `Day.Type` 值。可能值为 `Day.Sunday`、`Day.Monday`、`Day.Tuesday`、`Day.Wednesday`、`Day.Thursday`、`Day.Friday` 和 `Day.Saturday`。默认值为 `Day.Sunday`。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 获取 5/14/2011 的星期结束值。
 ```powerquery
 Date.EndOfWeek(#date(2011, 5, 14))
@@ -37,7 +40,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 获取 5/17/2011 05:00:00 PM -7:00 的星期结束值，Sunday 作为该星期的第一天。
 ```powerquery
 Date.EndOfWeek(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0), Day.Sunday)

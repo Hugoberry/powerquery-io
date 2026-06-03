@@ -20,25 +20,29 @@ Text.SplitAny(
 
 ## Remarks
 
-Retourneert een lijst met tekstwaarden die het resultaat is van het splitsen van een tekstwaarde <code>text</code> op basis van een teken in het opgegeven scheidingsteken, <code>separators</code>.
+Retourneert een lijst met tekstwaarden als gevolg van het splitsen van een tekstwaarde op basis van een teken dat is opgegeven in het scheidingsteken.
+
+-   `text`: de tekstwaarde die moet worden gesplitst.
+-   `separators`: de scheidingstekens die worden gebruikt om de tekst te splitsen.
 
 
 ## Examples
 
-### Example #1 
-Een lijst maken van de tekstwaarde &#34;Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com&#34;.
+### Example #1
+Maak een lijst van de opgegeven tekst met de opgegeven scheidingstekens.
 ```powerquery
-Text.SplitAny("Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com", "|")
+Text.SplitAny("Name|Customer ID|Purchase|Month-Day-Year", "|-")
 ```
 
 Result: 
 ```powerquery
 {
-    "Jamie",
-    "Campbell",
-    "Admin",
-    "Adventure Works",
-    "www.adventure-works.com"
+    "Name",
+    "Customer ID",
+    "Purchase",
+    "Month",
+    "Day",
+    "Year"
 }
 ```
 

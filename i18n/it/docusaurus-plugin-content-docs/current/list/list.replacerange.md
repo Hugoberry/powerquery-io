@@ -22,13 +22,13 @@ List.ReplaceRange(
 
 ## Remarks
 
-Sostituisce <code>count</code> valori in <code>list</code> con l'elenco <code>replaceWith</code> a partire dalla posizione specificata <code>index</code>.
+Sostituisce `count` valori in `list` con l'elenco `replaceWith` a partire dalla posizione specificata `index`.
 
 
 ## Examples
 
-### Example #1 
-Sostituire \{7, 8, 9} nell&#39;elenco \{1, 2, 7, 8, 9, 5} con \{3, 4}.
+### Example #1
+Sostituire \{7, 8, 9\} nell'elenco \{1, 2, 7, 8, 9, 5\} con \{3, 4\}.
 ```powerquery
 List.ReplaceRange({1, 2, 7, 8, 9, 5}, 2, 3, {3, 4})
 ```

@@ -25,7 +25,7 @@ Makes columns into rows and rows into columns.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Make the rows of the table of name-value pairs into columns.
 ```powerquery
 Table.Transpose(

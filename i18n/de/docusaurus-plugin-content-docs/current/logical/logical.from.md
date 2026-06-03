@@ -19,13 +19,18 @@ Logical.From(
 
 ## Remarks
 
-Gibt einen <code>logical</code>-Wert auf der Grundlage des angegebenen Elements vom Typ „<code>value</code>“ zurück. Besitzt das angegebene Element vom Typ „<code>value</code>“ den Wert <code>NULL</code>, wird von <code>Logical.From</code> der Wert <code>NULL</code> zurückgegeben. Besitzt das angegebene Element vom Typ „<code>value</code>“ den Wert <code>logical</code>, wird „<code>value</code>“ zurückgegeben. Werte folgender Art können in einen <code>logical</code>-Wert konvertiert werden:      <ul>        <li><code>text</code>: Ein <code>logical</code>-Wert auf der Grundlage des Textwerts (entweder <code>TRUE</code> oder <code>FALSE</code>). Ausführlichere Informationen finden Sie unter <code>Logical.FromText</code>.</li>                <li><code>number</code>: <code>false</code>, falls „<code>value</code>“ den Wert <code>0</code> besitzt, andernfalls <code>true</code>.</li>      </ul>Handelt es sich bei „<code>value</code>“ um einen anderen Typ, wird ein Fehler zurückgegeben.
+Gibt einen `logical`\-Wert auf der Grundlage des angegebenen Elements vom Typ „`value`“ zurück. Besitzt das angegebene Element vom Typ „`value`“ den Wert `NULL`, wird von `Logical.From` der Wert `NULL` zurückgegeben. Besitzt das angegebene Element vom Typ „`value`“ den Wert `logical`, wird „`value`“ zurückgegeben. Werte folgender Art können in einen `logical`\-Wert konvertiert werden:
+
+-   `text`: Ein `logical`\-Wert auf der Grundlage des Textwerts (entweder `TRUE` oder `FALSE`). Ausführlichere Informationen finden Sie unter `Logical.FromText`.
+-   `number`: `false`, falls „`value`“ den Wert `0` besitzt, andernfalls `true`.
+
+Handelt es sich bei „`value`“ um einen anderen Typ, wird ein Fehler zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
-Konvertiert &lt;code&gt;2&lt;/code&gt; in einen &lt;code&gt;logical&lt;/code&gt;-Wert.
+### Example #1
+Konvertiert `2` in einen `logical`\-Wert.
 ```powerquery
 Logical.From(2)
 ```

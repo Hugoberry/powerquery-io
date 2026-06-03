@@ -24,33 +24,57 @@ Table.FuzzyJoin(
 
 ## Remarks
 
-Une as linhas de <code>table1</code> com as linhas de <code>table2</code> com base em uma correspondência difusa dos valores das colunas de chave selecionadas por <code>key1</code> (para <code>table1</code>) e <code>key2</code> (para <code>table2</code>).<br />A correspondência difusa é uma comparação com base na similaridade do texto, não em sua igualdade.<br />Por padrão, é executada uma junção interna, porém um <code>joinKind</code> opcional pode ser incluído para especificar o tipo de junção. As opções incluem:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Um conjunto opcional de <code>joinOptions</code> pode ser incluído para especificar como comparar as colunas de chave. As opções incluem:    <ul><li><code>ConcurrentRequests</code> : Um n&#250;mero entre 1 e 8 que especifica o n&#250;mero de threads paralelos a serem usados para a correspond&#234;ncia difusa. O valor padr&#227;o &#233; 1.</li><li><code>Culture</code> : Permite corresponder registros com base em regras espec&#237;ficas da cultura. Pode ser qualquer nome de cultura v&#225;lido. Por exemplo, a op&#231;&#227;o de Cultura &quot;ja-JP&quot; corresponde registros com base na cultura Japonesa. O valor padr&#227;o &#233; &quot;&quot;, que corresponde registros com base na cultura Ingl&#234;s Invari&#225;vel.</li><li><code>IgnoreCase</code> : Um valor l&#243;gico (true/false) que permite a correspond&#234;ncia de chaves sem diferenciar mai&#250;sculas de min&#250;sculas. Por exemplo, quando &#233; true, &quot;Uvas&quot; &#233; correspondido com &quot;uvas&quot;. O valor padr&#227;o &#233; true.</li><li><code>IgnoreSpace</code> : Um valor l&#243;gico (true/false) que permite a combina&#231;&#227;o de partes de texto para encontrar correspond&#234;ncias. Por exemplo, quando &#233; true, &quot;U vas&quot; &#233; agrupado com &quot;Uvas&quot;. O valor padr&#227;o &#233; true.</li><li><code>NumberOfMatches</code> : Um n&#250;mero inteiro que especifica o n&#250;mero m&#225;ximo de linhas correspondentes que podem ser retornadas para cada linha de entrada. Por exemplo, o valor 1 retornar&#225; no m&#225;ximo uma linha correspondente para cada linha de entrada. Se essa op&#231;&#227;o n&#227;o for fornecida, todas as linhas correspondentes ser&#227;o retornadas.</li><li><code>SimilarityColumnName</code> : Um nome para a coluna que mostra a similaridade entre um valor de entrada e o valor representativo dessa entrada. O valor padr&#227;o &#233; nulo e, nesse caso, n&#227;o ser&#225; adicionada uma nova coluna de similaridades.</li><li><code>Threshold</code> : Um n&#250;mero entre 0,00 e 1,00 que especifica a pontua&#231;&#227;o de similaridade na qual dois valores ser&#227;o correspondidos.    Por exemplo, &quot;Uvas&quot; e &quot;Uas&quot; (sem o &quot;v&quot;) s&#227;o correspondidos apenas se esta op&#231;&#227;o estiver definida para menos de 0,90.    Um limite de 1,00 permite apenas correspond&#234;ncias exatas.    (Observe que uma &quot;correspond&#234;ncia exata&quot; difusa pode ignorar diferen&#231;as como mai&#250;sculas e min&#250;sculas, ordem das palavras e pontua&#231;&#227;o.)    O valor padr&#227;o &#233; 0,80.</li><li><code>TransformationTable</code> : Uma tabela que permite corresponder registros com base em mapeamentos de valores personalizados. Ela deve conter as colunas &quot;De&quot; e &quot;At&#233;&quot;. Por exemplo, &quot;Uvas&quot; &#233; correspondido com &quot;Passas&quot; quando uma tabela de transforma&#231;&#227;o &#233; fornecida com a coluna &quot;De&quot; contendo &quot;Uvas&quot; e a coluna &quot;At&#233;&quot; contendo &quot;Passas&quot;. Observe que a transforma&#231;&#227;o ser&#225; aplicada a todas as ocorr&#234;ncias do texto na tabela de transforma&#231;&#227;o. Com a tabela de transforma&#231;&#227;o acima, &quot;Uvas s&#227;o doces&quot; tamb&#233;m ser&#225; correspondido com &quot;Passas s&#227;o doces&quot;.</li></ul><br />    
+Une as linhas de `table1` com as linhas de `table2` com base em uma correspondência difusa dos valores das colunas de chave selecionadas por `key1` (para `table1`) e `key2` (para `table2`).
+
+A correspondência difusa é uma comparação com base na similaridade do texto, não em sua igualdade.
+
+Por padrão, é executada uma junção interna, porém um `joinKind` opcional pode ser incluído para especificar o tipo de junção. As opções incluem:
+
+-   `JoinKind.Inner`
+-   `JoinKind.LeftOuter`
+-   `JoinKind.RightOuter`
+-   `JoinKind.FullOuter`
+-   `JoinKind.LeftAnti`
+-   `JoinKind.RightAnti`
+-   `JoinKind.LeftSemi`
+-   `JoinKind.RightSemi`
+
+Um conjunto opcional de `joinOptions` pode ser incluído para especificar como comparar as colunas de chave. As opções incluem:
+
+-   `ConcurrentRequests` : Um número entre 1 e 8 que especifica o número de threads paralelos a serem usados para a correspondência difusa. O valor padrão é 1.
+-   `Culture` : Permite corresponder registros com base em regras específicas da cultura. Pode ser qualquer nome de cultura válido. Por exemplo, a opção de Cultura "ja-JP" corresponde registros com base na cultura Japonesa. O valor padrão é "", que corresponde registros com base na cultura Inglês Invariável.
+-   `IgnoreCase` : Um valor lógico (true/false) que permite a correspondência de chaves sem diferenciar maiúsculas de minúsculas. Por exemplo, quando é true, "Uvas" é correspondido com "uvas". O valor padrão é true.
+-   `IgnoreSpace` : Um valor lógico (true/false) que permite a combinação de partes de texto para encontrar correspondências. Por exemplo, quando é true, "U vas" é agrupado com "Uvas". O valor padrão é true.
+-   `NumberOfMatches` : Um número inteiro que especifica o número máximo de linhas correspondentes que podem ser retornadas para cada linha de entrada. Por exemplo, o valor 1 retornará no máximo uma linha correspondente para cada linha de entrada. Se essa opção não for fornecida, todas as linhas correspondentes serão retornadas.
+-   `SimilarityColumnName` : Um nome para a coluna que mostra a similaridade entre um valor de entrada e o valor representativo dessa entrada. O valor padrão é nulo e, nesse caso, não será adicionada uma nova coluna de similaridades.
+-   `Threshold` : Um número entre 0,00 e 1,00 que especifica a pontuação de similaridade na qual dois valores serão correspondidos. Por exemplo, "Uvas" e "Uas" (sem o "v") são correspondidos apenas se esta opção estiver definida para menos de 0,90. Um limite de 1,00 permite apenas correspondências exatas. (Observe que uma "correspondência exata" difusa pode ignorar diferenças como maiúsculas e minúsculas, ordem das palavras e pontuação.) O valor padrão é 0,80.
+-   `TransformationTable` : Uma tabela que permite corresponder registros com base em mapeamentos de valores personalizados. Ela deve conter as colunas "De" e "Até". Por exemplo, "Uvas" é correspondido com "Passas" quando uma tabela de transformação é fornecida com a coluna "De" contendo "Uvas" e a coluna "Até" contendo "Passas". Observe que a transformação será aplicada a todas as ocorrências do texto na tabela de transformação. Com a tabela de transformação acima, "Uvas são doces" também será correspondido com "Passas são doces".
 
 
 ## Examples
 
-### Example #1 
-Junção difusa interna esquerda das duas tabelas com base em [FirstName]
+### Example #1
+Junção difusa interna esquerda das duas tabelas com base em \[FirstName\]
 ```powerquery
 Table.FuzzyJoin(
-	  Table.FromRecords(
+    Table.FromRecords(
         {
-		        [CustomerID = 1, FirstName1 = "Bob", Phone = "555-1234"],
-		        [CustomerID = 2, FirstName1 = "Robert", Phone = "555-4567"]
-	      },
+            [CustomerID = 1, FirstName1 = "Bob", Phone = "555-1234"],
+            [CustomerID = 2, FirstName1 = "Robert", Phone = "555-4567"]
+        },
         type table [CustomerID = nullable number, FirstName1 = nullable text, Phone = nullable text]
     ),
-	  {"FirstName1"},
-	  Table.FromRecords(
+    {"FirstName1"},
+    Table.FromRecords(
         {
-		        [CustomerStateID = 1, FirstName2 = "Bob", State = "TX"],
-		        [CustomerStateID = 2, FirstName2 = "bOB", State = "CA"]
-	      },
+            [CustomerStateID = 1, FirstName2 = "Bob", State = "TX"],
+            [CustomerStateID = 2, FirstName2 = "bOB", State = "CA"]
+        },
         type table [CustomerStateID = nullable number, FirstName2 = nullable text, State = nullable text]
     ),
-	  {"FirstName2"},
-	  JoinKind.LeftOuter,
-	  [IgnoreCase = true, IgnoreSpace = false]
+    {"FirstName2"},
+    JoinKind.LeftOuter,
+    [IgnoreCase = true, IgnoreSpace = false]
 )
 ```
 
@@ -58,29 +82,29 @@ Result:
 ```powerquery
 Table.FromRecords({
     [
-			  CustomerID = 1,
-			  FirstName1 = "Bob",
-			  Phone = "555-1234",
-			  CustomerStateID = 1,
-			  FirstName2 = "Bob",
-			  State = "TX"
-		],
+        CustomerID = 1,
+        FirstName1 = "Bob",
+        Phone = "555-1234",
+        CustomerStateID = 1,
+        FirstName2 = "Bob",
+        State = "TX"
+    ],
     [
-			  CustomerID = 1,
-			  FirstName1 = "Bob",
-			  Phone = "555-1234",
-			  CustomerStateID = 2,
-			  FirstName2 = "bOB",
-			  State = "CA"
-		],
+        CustomerID = 1,
+        FirstName1 = "Bob",
+        Phone = "555-1234",
+        CustomerStateID = 2,
+        FirstName2 = "bOB",
+        State = "CA"
+    ],
     [
-			  CustomerID = 2,
-			  FirstName1 = "Robert",
-			  Phone = "555-4567",
-			  CustomerStateID = null,
-			  FirstName2 = null,
-			  State = null
-		]
+        CustomerID = 2,
+        FirstName1 = "Robert",
+        Phone = "555-4567",
+        CustomerStateID = null,
+        FirstName2 = null,
+        State = null
+    ]
 })
 ```
 

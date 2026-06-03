@@ -21,13 +21,16 @@ Table.MaxN(
 
 ## Remarks
 
-Devuelve las filas mayores de <code>table</code>, dados el <code>comparisonCriteria</code>.    Después de ordenar las filas, es necesario especificar el parámetro <code>countOrCondition</code> para filtrar aún más el resultado. Tenga en cuenta que el algoritmo de ordenación no puede garantizar un resultado ordenado fijo. El parámetro <code>countOrCondition</code> puede adoptar varios formatos:    <ul>        <li>Si se especifica un número, se devuelve una lista de hasta <code>countOrCondition</code> elementos en orden ascendente. </li>        <li>Si se especifica una condición, se devuelve una lista de los elementos que cumplen inicialmente la condición. Si un elemento no cumple la condición, no se considerarán más elementos. </li> </ul>
+Devuelve las filas mayores de `table`, dados el `comparisonCriteria`. Después de ordenar las filas, es necesario especificar el parámetro `countOrCondition` para filtrar aún más el resultado. Tenga en cuenta que el algoritmo de ordenación no puede garantizar un resultado ordenado fijo. El parámetro `countOrCondition` puede adoptar varios formatos:
+
+-   Si se especifica un número, se devuelve una lista de hasta `countOrCondition` elementos en orden ascendente.
+-   Si se especifica una condición, se devuelve una lista de los elementos que cumplen inicialmente la condición. Si un elemento no cumple la condición, no se considerarán más elementos.
 
 
 ## Examples
 
-### Example #1 
-Buscar la fila con el valor máximo de la columna [a] con la condición [a] &gt; 0, en la tabla. Las filas están ordenadas antes de aplicar el filtro.
+### Example #1
+Buscar la fila con el valor máximo de la columna \[a\] con la condición \[a\] > 0, en la tabla. Las filas están ordenadas antes de aplicar el filtro.
 ```powerquery
 Table.MaxN(
     Table.FromRecords({
@@ -49,8 +52,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Buscar la fila con el valor máximo de la columna [a] con la condición [b] &gt; 0, en la tabla. Las filas están ordenadas antes de aplicar el filtro.
+### Example #2
+Buscar la fila con el valor máximo de la columna \[a\] con la condición \[b\] > 0, en la tabla. Las filas están ordenadas antes de aplicar el filtro.
 ```powerquery
 Table.MaxN(
     Table.FromRecords({

@@ -19,7 +19,7 @@ Number.Asin(
 
 ## Remarks
 
-Возвращает арксинус <code>number</code>.
+Возвращает арксинус `number`.
 
 
 

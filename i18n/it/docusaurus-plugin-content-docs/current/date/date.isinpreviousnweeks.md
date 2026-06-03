@@ -5,7 +5,7 @@ title: Date.IsInPreviousNWeeks
 # Date.IsInPreviousNWeeks
 
 
-Indica se questo valore date rientra nel numero di settimane precedente, come determinato dalla data e dall&#39;ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nella settimana corrente.
+Indica se questo valore date rientra nel numero di settimane precedente, come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nella settimana corrente.
 
 
 ## Syntax
@@ -20,13 +20,16 @@ Date.IsInPreviousNWeeks(
 
 ## Remarks
 
-Indica se il valore datetime specificato <code>dateTime</code> rientra nel numero di settimane precedente, come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nella settimana corrente.      <ul>      <li><code>dateTime</code>: valore <code>date</code>, <code>datetime</code> o <code>datetimezone</code> da valutare.</li>      <li><code>weeks</code>: numero di settimane.</li>      </ul>
+Indica se il valore datetime specificato `dateTime` rientra nel numero di settimane precedente, come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nella settimana corrente.
+
+-   `dateTime`: valore `date`, `datetime` o `datetimezone` da valutare.
+-   `weeks`: numero di settimane.
 
 
 ## Examples
 
-### Example #1 
-Determina se la settimana prima dell&#39;ora di sistema corrente rientra nelle due settimane precedenti.
+### Example #1
+Determina se la settimana prima dell'ora di sistema corrente rientra nelle due settimane precedenti.
 ```powerquery
 Date.IsInPreviousNWeeks(Date.AddDays(DateTime.FixedLocalNow(), -7), 2)
 ```

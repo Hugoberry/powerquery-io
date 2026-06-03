@@ -20,12 +20,15 @@ Number.Power(
 
 ## Remarks
 
-Hiermee wordt het resultaat van het verheffen van <code>number</code> tot de macht <code>power</code> geretourneerd. Als <code>number</code> of <code>power</code> null is, retourneert <code>Number.Power</code> null. <ul> <li><code>number</code>: De basis.</li> <li><code>power</code>: De exponent.</li> </ul>
+Hiermee wordt het resultaat van het verheffen van `number` tot de macht `power` geretourneerd. Als `number` of `power` null is, retourneert `Number.Power` null.
+
+-   `number`: De basis.
+-   `power`: De exponent.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De waarde van 5 zoeken, verheven tot de macht 3 (5 tot de derde macht)
 ```powerquery
 Number.Power(5, 3)

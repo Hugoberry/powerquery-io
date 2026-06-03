@@ -19,13 +19,13 @@ Type.FunctionRequiredParameters(
 
 ## Remarks
 
-Returnerer et tal, der angiver minimumantallet af parametre, der kræves for at aktivere inputtet <code>type</code> for funktionen.
+Returnerer et tal, der angiver minimumantallet af parametre, der kræves for at aktivere inputtet `type` for funktionen.
 
 
 ## Examples
 
-### Example #1 
-Find antallet af nødvendige parametre for funktionen &lt;code&gt;(x as number, optional y as text)&lt;/code&gt;.
+### Example #1
+Find antallet af nødvendige parametre for funktionen `(x as number, optional y as text)`.
 ```powerquery
 Type.FunctionRequiredParameters(type function (x as number, optional y as text) as any)
 ```

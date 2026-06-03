@@ -5,7 +5,7 @@ title: Variable.Value
 # Variable.Value
 
 
-Bu işlev, yalnızca iç kullanıma yöneliktir.
+Belirtilen değişkenin değerini döndürür.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Variable.Value(
 
 ## Remarks
 
-Bu işlev, yalnızca iç kullanıma yöneliktir.
+Geçerli değerlendirme ortamı tarafından tanımlanan belirtilen değişken `identifier`'in değerini döndürür. Değişken tanımlanmamışsa, bir hata oluşur.
 
 
 

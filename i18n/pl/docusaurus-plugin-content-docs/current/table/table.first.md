@@ -20,12 +20,12 @@ Table.First(
 
 ## Remarks
 
-Zwraca pierwszy wiersz z tabeli <code>table</code> lub opcjonalną wartość domyślną <code>default</code>, gdy tabela jest pusta.
+Zwraca pierwszy wiersz z tabeli `table` lub opcjonalną wartość domyślną `default`, gdy tabela jest pusta.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź pierwszy wiersz w tabeli.
 ```powerquery
 Table.First(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-Znajdź pierwszy wiersz w tabeli &lt;code&gt;(\{})&lt;/code&gt; lub zwróć wartość [a = 0, b = 0], jeśli ta tabela jest pusta.
+### Example #2
+Znajdź pierwszy wiersz w tabeli `({})` lub zwróć wartość \[a = 0, b = 0\], jeśli ta tabela jest pusta.
 ```powerquery
 Table.First(Table.FromRecords({}), [a = 0, b = 0])
 ```

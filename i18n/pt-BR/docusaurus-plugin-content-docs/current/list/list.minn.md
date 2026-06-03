@@ -22,13 +22,17 @@ List.MinN(
 
 ## Remarks
 
-Retorna os valores mínimos na lista, <code>list</code>. O parâmetro, <code>countOrCondition</code>, especifica o número de valores a serem retornados ou uma condição de filtragem. O parâmetro opcional, <code>comparisonCriteria</code>, especifica como comparar valores na lista. <ul> <li> <code>list</code>: a lista de valores.</li> <li> <code>countOrCondition</code>: Se um número for especificado, uma lista de até <code>countOrCondition</code> itens em ordem crescente será retornada. Se uma condição for especificada, uma lista de itens que atendem inicialmente à condição será retornada. Quando um item falha na condição, nenhum outro item é considerado. Se esse parâmetro for nulo, o menor valor único na lista será retornado.</li><li><code>comparisonCriteria</code>: <i>[Opcional]</i> Um valor <code>comparisonCriteria</code> opcional pode ser especificado para determinar como comparar os itens na lista. Se este parâmetro for nulo, o comparador padrão será usado. </li></ul>
+Retorna os valores mínimos na lista, `list`. O parâmetro `countOrCondition` especifica o número de valores a serem retornados ou uma condição de filtragem. O parâmetro opcional `comparisonCriteria` especifica como comparar valores na lista.
+
+-   `list`: a lista de valores.
+-   `countOrCondition`: se um número for especificado, uma lista de até `countOrCondition` itens em ordem crescente será retornada. Se uma condição for especificada, uma lista dos itens que atenderem inicialmente à condição será retornada. Quando um item não atender à condição, nenhum outro item será considerado. Se esse parâmetro for nulo, o menor valor na lista será retornado.
+-   `comparisonCriteria`: *(Opcional)* Um valor de `comparisonCriteria` opcional pode ser especificado para determinar como comparar os itens na lista. Se esse parâmetro for nulo, o comparador padrão será usado.
 
 
 ## Examples
 
-### Example #1 
-Localize os cinco menores valores da lista &lt;code&gt;\{3, 4, 5, -1, 7, 8, 2}&lt;/code&gt;.
+### Example #1
+Localize os cinco menores valores da lista `{3, 4, 5, -1, 7, 8, 2}`.
 ```powerquery
 List.MinN({3, 4, 5, -1, 7, 8, 2}, 5)
 ```

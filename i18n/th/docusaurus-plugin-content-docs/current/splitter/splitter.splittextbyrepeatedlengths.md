@@ -25,7 +25,7 @@ Splitter.SplitTextByRepeatedLengths(
 
 ## Examples
 
-### Example #1 
+### Example #1
 แยกข้อมูลป้อนเข้าเป็นกลุ่มอักขระสามตัวซ้ำๆ โดยเริ่มต้นจากจุดเริ่มต้นของข้อมูลป้อนเข้า
 ```powerquery
 Splitter.SplitTextByRepeatedLengths(3)("12345678")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 แยกข้อมูลป้อนเข้าเป็นกลุ่มอักขระสามตัวซ้ำๆ โดยเริ่มต้นจากจุดสิ้นสุดของข้อมูลป้อนเข้า
 ```powerquery
 let

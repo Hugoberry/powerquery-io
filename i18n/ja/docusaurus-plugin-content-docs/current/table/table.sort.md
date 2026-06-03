@@ -20,13 +20,13 @@ Table.Sort(
 
 ## Remarks
 
-1 つ以上の列名と省略可能な <code>comparisonCriteria</code> の一覧 (形式は \{ \{ col1, comparisonCriteria }, \{col2} }) を使用して <code>table</code> を並べ替えます。
+1 つ以上の列名と省略可能な `comparisonCriteria` の一覧 (形式は \{ \{ col1, comparisonCriteria \}, \{col2\} \}) を使用して `table` を並べ替えます。
 
 
 ## Examples
 
-### Example #1 
-テーブルを列 &#34;OrderID&#34; で並べ替えます。
+### Example #1
+テーブルを列 "OrderID" で並べ替えます。
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -60,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-テーブルを列 &#34;OrderID で降順に並べ替えます。
+### Example #2
+テーブルを列 "OrderID で降順に並べ替えます。
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -95,8 +95,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-テーブルを列 &#34;CustomerID&#34; で並べ替え、次に列 &#34;OrderID&#34; で並べ替えます。列 &#34;CustomerID&#34; は、昇順で並べ替えます。
+### Example #3
+テーブルを列 "CustomerID" で並べ替え、次に列 "OrderID" で並べ替えます。列 "CustomerID" は、昇順で並べ替えます。
 ```powerquery
 Table.Sort(
     Table.FromRecords({

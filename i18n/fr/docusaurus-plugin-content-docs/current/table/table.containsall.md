@@ -5,7 +5,7 @@ title: Table.ContainsAll
 # Table.ContainsAll
 
 
-Indique si tous les enregistrements spécifiés s&#39;affichent sous la forme de lignes dans la table.
+Indique si tous les enregistrements spécifiés s'affichent sous la forme de lignes dans la table.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Table.ContainsAll(
 
 ## Remarks
 
-Indique si tous les enregistrements spécifiés dans la liste d'enregistrements <code>rows</code> s'affichent sous la forme de lignes dans <code>table</code>.    Un paramètre facultatif <code>equationCriteria</code> peut être spécifié pour contrôler la comparaison entre les lignes de la table.
+Indique si tous les enregistrements spécifiés dans la liste d'enregistrements `rows` s'affichent sous la forme de lignes dans `table`. Un paramètre facultatif `equationCriteria` peut être spécifié pour contrôler la comparaison entre les lignes de la table.
 
 
 ## Examples
 
-### Example #1 
-Détermine si la table contient toutes les lignes en comparant seulement la colonne [CustomerID].
+### Example #1
+Détermine si la table contient toutes les lignes en comparant seulement la colonne \[CustomerID\].
 ```powerquery
 Table.ContainsAll(
     Table.FromRecords({
@@ -50,7 +50,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Détermine si la table contient toutes les lignes.
 ```powerquery
 Table.ContainsAll(

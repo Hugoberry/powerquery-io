@@ -20,12 +20,12 @@ Table.Combine(
 
 ## Remarks
 
-Gibt eine Tabelle zurück, die durch Zusammenführen einer Liste von Tabellen entstanden ist, <code>tables</code>. Die resultierende Tabelle weist eine Zeilentypstruktur auf, die durch "<code>columns</code>" bzw. durch eine Vereinigung der Eingabetypen definiert wird, wenn "<code>columns</code>" nicht angegeben wird.
+Gibt eine Tabelle zurück, die durch Zusammenführen einer Liste von Tabellen entstanden ist, `tables`. Die resultierende Tabelle weist eine Zeilentypstruktur auf, die durch "`columns`" bzw. durch eine Vereinigung der Eingabetypen definiert wird, wenn "`columns`" nicht angegeben wird.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Mergt die drei Tabellen.
 ```powerquery
 Table.Combine({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Führen Sie drei Tabellen mit unterschiedlichen Strukturen zusammen.
 ```powerquery
 Table.Combine({
@@ -65,7 +65,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Führen Sie zwei Tabellen und ein Projekt auf den angegebenen Typ zusammen.
 ```powerquery
 Table.Combine(

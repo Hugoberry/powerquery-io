@@ -20,13 +20,13 @@ List.Product(
 
 ## Remarks
 
-Devuelve el producto de los números que no son NULL de la lista, <code>numbersList</code>. Devuelve NULL si no hay valores no NULL en la lista.
+Devuelve el producto de los números que no son NULL de la lista, `numbersList`. Devuelve NULL si no hay valores no NULL en la lista.
 
 
 ## Examples
 
-### Example #1 
-Buscar el producto de los números de la lista &lt;code&gt;\{1, 2, 3, 3, 4, 5, 5}&lt;/code&gt;.
+### Example #1
+Buscar el producto de los números de la lista `{1, 2, 3, 3, 4, 5, 5}`.
 ```powerquery
 List.Product({1, 2, 3, 3, 4, 5, 5})
 ```

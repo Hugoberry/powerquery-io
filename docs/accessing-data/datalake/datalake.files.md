@@ -20,6 +20,6 @@ DataLake.Files(
 
 ## Remarks
 
-Returns a table containing a row for each file found at <code>url</code>, from Azure Data Lake Storage Gen1. Each row contains properties of the file and a link to its content.
+Returns a table containing a row for each file found at `url`, from Azure Data Lake Storage Gen1. Each row contains properties of the file and a link to its content.
 
 

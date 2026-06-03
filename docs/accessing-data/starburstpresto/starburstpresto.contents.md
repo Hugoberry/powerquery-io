@@ -12,7 +12,7 @@ title: StarburstPresto.Contents
 StarburstPresto.Contents(
     Host as text,
     Port as number,
-    optional options as record
+    optional Options as record
 ) as table
 ```
 

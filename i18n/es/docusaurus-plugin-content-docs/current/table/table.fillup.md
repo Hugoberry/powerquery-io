@@ -20,13 +20,13 @@ Table.FillUp(
 
 ## Remarks
 
-Devuelve una tabla del <code>table</code> especificado donde el valor de la celda siguiente se propaga a las celdas con valor NULL por encima de la <code>columns</code> especificada.
+Devuelve una tabla del `table` especificado donde el valor de la celda siguiente se propaga a las celdas con valor NULL por encima de la `columns` especificada.
 
 
 ## Examples
 
-### Example #1 
-Devuelve una tabla con los valores NULL en la columna [Column2] rellenos con el valor por debajo de ellos de la tabla.
+### Example #1
+Devuelve una tabla con los valores NULL en la columna \[Column2\] rellenos con el valor por debajo de ellos de la tabla.
 ```powerquery
 Table.FillUp(
     Table.FromRecords({

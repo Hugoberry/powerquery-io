@@ -19,12 +19,14 @@ Date.IsInCurrentMonth(
 
 ## Remarks
 
-Indicates whether the given datetime value <code>dateTime</code> occurs during the current month, as determined by the current date and time on the system.      <ul>      <li><code>dateTime</code>: A <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> value to be evaluated.</li>      </ul>
+Indicates whether the given datetime value `dateTime` occurs during the current month, as determined by the current date and time on the system.
+
+-   `dateTime`: A `date`, `datetime`, or `datetimezone` value to be evaluated.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determine if the current system time is in the current month.
 ```powerquery
 Date.IsInCurrentMonth(DateTime.FixedLocalNow())

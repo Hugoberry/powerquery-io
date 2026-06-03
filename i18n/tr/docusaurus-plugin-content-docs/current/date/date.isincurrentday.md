@@ -19,12 +19,14 @@ Date.IsInCurrentDay(
 
 ## Remarks
 
-<code>dateTime</code> verilen datetime değerinin sistemdeki geçerli tarih ve saat tarafından belirlendiği şekilde, geçerli gün sırasında oluşup oluşmadığını gösterir.      <ul>      <li><code>dateTime</code>: Değerlendirilecek <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      </ul>
+`dateTime` verilen datetime değerinin sistemdeki geçerli tarih ve saat tarafından belirlendiği şekilde, geçerli gün sırasında oluşup oluşmadığını gösterir.
+
+-   `dateTime`: Değerlendirilecek `date`, `datetime` veya `datetimezone` değeri.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Geçerli sistem saatinin geçerli gün içinde olup olmadığını belirler.
 ```powerquery
 Date.IsInCurrentDay(DateTime.FixedLocalNow())

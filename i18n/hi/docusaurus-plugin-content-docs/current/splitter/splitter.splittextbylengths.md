@@ -25,7 +25,7 @@ Splitter.SplitTextByLengths(
 
 ## Examples
 
-### Example #1 
+### Example #1
 इनपुट की शुरुआत से प्रारंभ करते हुए, इनपुट को पहले के दो वर्णों में, और उसके बाद अगले तीन वर्णों में, विभाजित करें.
 ```powerquery
 Splitter.SplitTextByLengths({2, 3})("AB123")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 इनपुट के अंत से प्रारंभ करते हुए, इनपुट को पहले के तीन वर्णों में, और उसके बाद अगले दो वर्णों में, विभाजित करें.
 ```powerquery
 let

@@ -23,13 +23,19 @@ Table.ReplaceValue(
 
 ## Remarks
 
-Thay thế <code>oldValue</code> bằng <code>newValue</code> các cột được chỉ định của <code>table</code>.
+Thay thế bằng một giá trị mới trong các cột được chỉ định của bảng.
+
+-   `table`: Bảng cần tìm kiếm.
+-   `oldValue`: Giá trị cần được thay thế.
+-   `newValue`: Giá trị thay thế.
+-   `replacer`: Hàm thay thế để sử dụng. Hàm này có thể là `Replacer.ReplaceText` để thay thế văn bản gốc bằng văn bản mới, `Replacer.ReplaceValue` để thay thế giá trị gốc bằng giá trị mới hoặc một trình thay thế tùy chỉnh.
+-   `columnsToSearch`: Danh sách chứa (các) cột cụ thể trong bảng để tìm kiếm giá trị cần thay thế.
 
 
 ## Examples
 
-### Example #1 
-Thay thế văn bản &#34;goodbye&#34; bằng &#34;world&#34; trong cột B, chỉ khớp với toàn bộ giá trị.
+### Example #1
+Thay thế văn bản "goodbye" bằng "world" trong cột B, chỉ khớp với toàn bộ giá trị.
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -54,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Thay thế văn bản &#34;ur&#34; bằng &#34;or&#34; trong cột B, khớp với bất kỳ phần nào của giá trị.
+### Example #2
+Thay thế văn bản "ur" bằng "or" trong cột B, khớp với bất kỳ phần nào của giá trị.
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -78,7 +84,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Ẩn danh tên nhân viên Hoa Kỳ.
 ```powerquery
 Table.ReplaceValue(
@@ -102,7 +108,7 @@ Table.FromRecords({
 ```
 
 
-### Example #4 
+### Example #4
 Ẩn danh tất cả các cột của nhân viên Hoa Kỳ.
 ```powerquery
 Table.ReplaceValue(

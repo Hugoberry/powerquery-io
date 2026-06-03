@@ -5,7 +5,7 @@ title: List.ReplaceMatchingItems
 # List.ReplaceMatchingItems
 
 
-Áp dụng mỗi lần thay thế \{ old, new }.
+Áp dụng mỗi lần thay thế \{ old, new \}.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ List.ReplaceMatchingItems(
 
 ## Remarks
 
-Thực hiện các thay thế cho sẵn đối với danh sách <code>list</code>. Tác vụ thay thế <code>replacements</code> chứa một danh sách có hai giá trị, giá trị cũ và giá trị mới, được cung cấp trong một danh sách.    Có thể chỉ định giá trị tiêu chí phương trình tùy chọn, <code>equationCriteria</code>, để kiểm soát việc kiểm tra đẳng thức.
+Thực hiện các thay thế cho sẵn đối với danh sách `list`. Tác vụ thay thế `replacements` chứa một danh sách có hai giá trị, giá trị cũ và giá trị mới, được cung cấp trong một danh sách. Có thể chỉ định giá trị tiêu chí phương trình tùy chọn, `equationCriteria`, để kiểm soát việc kiểm tra đẳng thức.
 
 
 ## Examples
 
-### Example #1 
-Tạo một danh sách từ \{1, 2, 3, 4, 5} thay thế giá trị 5 bằng -5 và giá trị 1 bằng -1.
+### Example #1
+Tạo một danh sách từ \{1, 2, 3, 4, 5\} thay thế giá trị 5 bằng -5 và giá trị 1 bằng -1.
 ```powerquery
 List.ReplaceMatchingItems({1, 2, 3, 4, 5}, {{5, -5}, {1, -1}})
 ```

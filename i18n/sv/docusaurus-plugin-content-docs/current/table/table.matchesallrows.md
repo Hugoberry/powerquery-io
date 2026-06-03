@@ -20,13 +20,13 @@ Table.MatchesAllRows(
 
 ## Remarks
 
-Anger om alla raderna i <code>table</code> matchar angivet <code>condition</code>. Returnerar <code>true</code> om alla raderna matchar. Annars returneras <code>false</code>.
+Anger om alla raderna i `table` matchar angivet `condition`. Returnerar `true` om alla raderna matchar. Annars returneras `false`.
 
 
 ## Examples
 
-### Example #1 
-Kontrollera om alla radvärden i kolumnen [a] är jämna i tabellen.
+### Example #1
+Kontrollera om alla radvärden i kolumnen \[a\] är jämna i tabellen.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ true
 ```
 
 
-### Example #2 
-Kontrollera om alla radvärden är [a = 1, b = 2] i tabellen &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt;.
+### Example #2
+Kontrollera om alla radvärden är \[a = 1, b = 2\] i tabellen `({[a = 1, b = 2], [a = 3, b = 4]})`.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({

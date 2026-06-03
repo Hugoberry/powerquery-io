@@ -20,13 +20,13 @@ Table.ExpandListColumn(
 
 ## Remarks
 
-Dado um <code>table</code>, em que <code>column</code> é uma lista de valores, divida a lista em uma linha para cada valor. Os valores nas outras colunas são duplicados em cada nova linha criada.
+Dado um `table` no qual `column` contém uma lista de valores, divide a lista em uma linha para cada valor. Os valores nas outras colunas são duplicados em cada nova linha criada. Esta função também pode expandir tabelas aninhadas, tratando-as como listas de registros.
 
 
 ## Examples
 
-### Example #1 
-Dividir a coluna de lista [Name] na tabela.
+### Example #1
+Dividir a coluna da lista \[Nome\].
 ```powerquery
 Table.ExpandListColumn(
     Table.FromRecords({[Name = {"Bob", "Jim", "Paul"}, Discount = .15]}),
@@ -40,6 +40,29 @@ Table.FromRecords({
     [Name = "Bob", Discount = 0.15],
     [Name = "Jim", Discount = 0.15],
     [Name = "Paul", Discount = 0.15]
+})
+```
+
+
+### Example #2
+Dividir a coluna da tabela aninhada \[Componentes\].
+```powerquery
+Table.ExpandListColumn(
+    #table(
+        {"Part", "Components"},
+        {
+            {"Tool", #table({"Name", "Quantity"}, {{"Thingamajig", 2}, {"Widget", 3}})}
+        }
+    ),
+    "Components"
+)
+```
+
+Result: 
+```powerquery
+Table.FromRecords({
+    [Part = "Tool", Components = [Name = "Thingamajig", Quantity = 2]],
+    [Part = "Tool", Components = [Name = "Widget", Quantity = 3]]
 })
 ```
 

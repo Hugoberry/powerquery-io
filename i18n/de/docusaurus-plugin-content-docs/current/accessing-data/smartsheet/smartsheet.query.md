@@ -26,7 +26,7 @@ Ruft die Smartsheet 2.0-REST-API am angegebenen Endpunkt auf und gibt die Ergebn
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ruft unter Angabe zusätzlicher Argumente Daten vom Smartsheet-API-Endpunkt für Arbeitsblätter ab.
 ```powerquery
 Smartsheet.Content("sheets", "include=ownerInfo&includeAll=true", [])

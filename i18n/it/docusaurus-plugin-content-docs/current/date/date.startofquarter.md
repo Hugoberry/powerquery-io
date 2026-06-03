@@ -5,7 +5,7 @@ title: Date.StartOfQuarter
 # Date.StartOfQuarter
 
 
-Restituisce l&#39;inizio del trimestre.
+Restituisce l'inizio del trimestre.
 
 
 ## Syntax
@@ -19,12 +19,12 @@ Date.StartOfQuarter(
 
 ## Remarks
 
-Restituisce l'inizio del trimestre contenente<code>dateTime</code>.      <code>dateTime</code> deve essere un valore <code>date</code>, <code>datetime</code> o <code>datetimezone</code>.
+Restituisce l'inizio del trimestre contenente`dateTime`. `dateTime` deve essere un valore `date`, `datetime` o `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trovare l’inizio del trimestre per il 10 ottobre 2011, 8.00.
 ```powerquery
 Date.StartOfQuarter(#datetime(2011, 10, 10, 8, 0, 0))

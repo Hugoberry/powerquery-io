@@ -20,12 +20,12 @@ Record.FromList(
 
 ## Remarks
 
-Gibt einen Datensatz basierend auf einem/r <code>list</code> von Feldwerten und einer Gruppe von Feldern zurück.  <code>fields</code> kann entweder durch eine Liste von Textwerten oder einen Datensatztyp angegeben werden.  Ein Fehler wird ausgegeben, wenn die Felder nicht eindeutig sind.
+Gibt einen Datensatz basierend auf einem/r `list` von Feldwerten und einer Gruppe von Feldern zurück. `fields` kann entweder durch eine Liste von Textwerten oder einen Datensatztyp angegeben werden. Wenn die Felder nicht eindeutig sind, wird ein Fehler ausgelöst.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Erstellen Sie einen Datensatz aus einer Liste von Feldwerten und einer Liste von Feldnamen.
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, {"CustomerID", "Name", "Phone"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Erstellen Sie einen Datensatz aus einer Liste von Feldwerten und einem Datensatztyp.
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, type [CustomerID = number, Name = text, Phone = number])

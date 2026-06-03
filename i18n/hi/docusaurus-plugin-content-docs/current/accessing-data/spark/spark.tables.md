@@ -21,12 +21,12 @@ Spark.Tables(
 
 ## Remarks
 
-<code>प्रोटोकॉल</code> का उपयोग करके स्पार्क क्लस्टर <code>होस्ट</code> पर तालिकाओं को सूचीबद्ध करने वाली तालिका लौटाता है.  मान्य प्रोटोकॉल हैं:SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
+`प्रोटोकॉल` का उपयोग करके स्पार्क क्लस्टर `होस्ट` पर तालिकाओं को सूचीबद्ध करने वाली तालिका लौटाता है. मान्य प्रोटोकॉल हैं: SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Azure स्पार्क इंस्टैंस में तालिकाओं को सूचीबद्ध करें.
 ```powerquery
 Spark.Tables("contoso.azurehdinsight.net", SparkProtocol.Azure)

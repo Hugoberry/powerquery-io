@@ -20,12 +20,15 @@ Date.IsInNextNDays(
 
 ## Remarks
 
-Verilen <code>dateTime</code> tarih saat değerinin, sistemdeki geçerli tarih ve saat tarafından belirlendiği şekilde, sonraki birkaç gün içinde olup olmadığını gösterir. Geçerli gün içinde olan bir değer geçirildiğinde bu işlevin false döndürdüğünü unutmayın.      <ul>      <li><code>dateTime</code>: Değerlendirilecek <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      <li><code>days</code>: Gün sayısı.</li>      </ul>
+Verilen `dateTime` tarih saat değerinin, sistemdeki geçerli tarih ve saat tarafından belirlendiği şekilde, sonraki birkaç gün içinde olup olmadığını gösterir. Geçerli gün içinde olan bir değer geçirildiğinde bu işlevin false döndürdüğünü unutmayın.
+
+-   `dateTime`: Değerlendirilecek `date`, `datetime` veya `datetimezone` değeri.
+-   `days`: Gün sayısı.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Geçerli sistem saatinden sonraki günün, sonraki iki gün içinde olup olmadığını belirler.
 ```powerquery
 Date.IsInNextNDays(Date.AddDays(DateTime.FixedLocalNow(), 1), 2)

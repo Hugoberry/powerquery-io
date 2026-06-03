@@ -24,7 +24,7 @@ Expression.Constant(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Получить представление числового значения в исходном коде M.
 ```powerquery
 Expression.Constant(123)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Получить представление значения даты в исходном коде M.
 ```powerquery
 Expression.Constant(#date(2035, 01, 02))
@@ -48,7 +48,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Получить представление текстового значения в исходном коде M.
 ```powerquery
 Expression.Constant("abc")

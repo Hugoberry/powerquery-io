@@ -21,13 +21,13 @@ Record.RemoveFields(
 
 ## Remarks
 
-<code>fields</code> listesinde belirtilen tüm alanları <code>record</code> girdisinden kaldıran bir kayıt döndürür. Belirtilen alan yoksa, özel durum oluşur.
+`fields` listesinde belirtilen tüm alanları `record` girdisinden kaldıran bir kayıt döndürür. Belirtilen alan mevcut değilse, bir hata oluşur.
 
 
 ## Examples
 
-### Example #1 
-Kayıttan &#34;Price&#34; alanını kaldırır.
+### Example #1
+Kayıttan "Price" alanını kaldırır.
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], "Price")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Kayıttan &#34;Price&#34; ve &#34;Item&#34; alanlarını kaldırır.
+### Example #2
+Kayıttan "Price" ve "Item" alanlarını kaldırır.
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], {"Price", "Item"})
 ```

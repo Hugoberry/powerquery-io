@@ -21,12 +21,12 @@ List.DateTimes(
 
 ## Remarks
 
-Gibt eine Liste mit <code>datetime</code>-Werten der Größe "<code>count</code>" ab "<code>start</code>" zurück. Das angegebene Inkrement (<code>step</code>) ist ein <code>duration</code>-Wert, der zu den einzelnen Werten addiert wird.
+Gibt eine Liste mit `datetime`\-Werten der Größe "`count`" ab "`start`" zurück. Das angegebene Inkrement (`step`) ist ein `duration`\-Wert, der zu den einzelnen Werten addiert wird.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Erstellt eine Liste mit zehn Werten. Die Liste beginnt fünf Minuten vor Neujahr (#datetime(2011, 12, 31, 23, 55, 0)) und besitzt eine Schrittweite von einer Minute (#duration(0, 0, 1, 0)).
 ```powerquery
 List.DateTimes(#datetime(2011, 12, 31, 23, 55, 0), 10, #duration(0, 0, 1, 0))

@@ -25,12 +25,16 @@ Table.NestedJoin(
 
 ## Remarks
 
-根据由 <code>key1</code> (针对 <code>table1</code>)和 <code>key2</code> (针对 <code>table2</code>)选择的键列值的等同性联接 <code>table1</code> 的行与 <code>table2</code> 的行。将结果输入名为 <code>newColumnName</code> 的列。<br />可选的 <code>joinKind</code> 指定要执行的联接类型。默认情况下，如果未指定 <code>joinKind</code>，则执行左外部联接。<br />可包含 <code>keyEqualityComparers</code> 的可选集来指定如何比较键列。此功能目前仅适用于内部使用。<br />  
+根据由 `key1` (针对 `table1`)和 `key2` (针对 `table2`)选择的键列值的等同性联接 `table1` 的行与 `table2` 的行。将结果输入名为 `newColumnName` 的列。
+
+可选的 `joinKind` 指定要执行的联接类型。默认情况下，如果未指定 `joinKind`，则执行左外部联接。
+
+可包含 `keyEqualityComparers` 的可选集来指定如何比较键列。此功能目前仅适用于内部使用。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 使用单个键列联接两个表。
 ```powerquery
 Table.NestedJoin(

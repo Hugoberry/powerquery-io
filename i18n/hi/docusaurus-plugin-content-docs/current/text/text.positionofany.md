@@ -21,13 +21,13 @@ Text.PositionOfAny(
 
 ## Remarks
 
-<code>text</code> में पाई जाने वाली सूची <code>characters</code> के किसी भी वर्ण की पहली स्थिति लौटाता है.    एक वैकल्पिक पैरामीटर <code>occurrence</code> का उपयोग यह निर्दिष्ट करने के लिए किया जा सकता है कि किस आवृति स्थिति को लौटाना है.
+`text` में पाई जाने वाली सूची `characters` के किसी भी वर्ण की पहली स्थिति लौटाता है. एक वैकल्पिक पैरामीटर `occurrence` का उपयोग यह निर्दिष्ट करने के लिए किया जा सकता है कि किस आवृति स्थिति को लौटाना है.
 
 
 ## Examples
 
-### Example #1 
-पाठ &#34;Hello, World!&#34; में &#34;W&#34; या &#34;H&#34; की पहली स्थिति पता करें.
+### Example #1
+पाठ "Hello, World!" में "W" या "H" की पहली स्थिति पता करें.
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"})
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-टेक्स्ट &#34;Hello, World!&#34; में &#34;W&#34; या &#34;H&#34; की सभी स्थितियाँ ढूँढें.
+### Example #2
+टेक्स्ट "Hello, World!" में "W" या "H" की सभी स्थितियाँ ढूँढें.
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"}, Occurrence.All)
 ```

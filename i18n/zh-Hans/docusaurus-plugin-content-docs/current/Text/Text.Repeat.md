@@ -20,13 +20,13 @@ Text.Repeat(
 
 ## Remarks
 
-返回由输入文本 <code>text</code> 重复 <code>count</code> 次而组成的文本值。
+返回由输入文本 `text` 重复 `count` 次而组成的文本值。
 
 
 ## Examples
 
-### Example #1 
-重复文本 &#34;a&#34; 五次。
+### Example #1
+重复文本 "a" 五次。
 ```powerquery
 Text.Repeat("a", 5)
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-重复文本 &#34;helloworld&#34; 三次。
+### Example #2
+重复文本 "helloworld" 三次。
 ```powerquery
 Text.Repeat("helloworld.", 3)
 ```

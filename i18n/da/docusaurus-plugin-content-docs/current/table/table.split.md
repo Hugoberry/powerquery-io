@@ -20,12 +20,12 @@ Table.Split(
 
 ## Remarks
 
-Opdeler <code>table</code> til en liste med tabeller, hvor det første element på listen er en tabel, der indeholder de første <code>pageSize</code> rækker fra    kildetabellen. Det næste element på listen er en tabel, der indeholder de næste <code>pageSize</code> rækker fra kildetabellen osv.
+Opdeler `table` til en liste med tabeller, hvor det første element på listen er en tabel, der indeholder de første `pageSize` rækker fra kildetabellen. Det næste element på listen er en tabel, der indeholder de næste `pageSize` rækker fra kildetabellen osv.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Opdel en tabel med fem poster til tabeller med to poster hver.
 ```powerquery
 let

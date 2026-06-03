@@ -22,13 +22,21 @@ Text.PositionOf(
 
 ## Remarks
 
-Hiermee wordt de positie van de opgegeven herhaling geretourneerd van de tekstwaarde <code>substring</code> die is gevonden in <code>text</code>. Er kan een optionele parameter <code>occurrence</code> worden gebruikt om op te geven welke herhalingspositie moet worden geretourneerd (standaardwaarde is eerste herhaling). Retourneert -1 als <code>substring</code> niet is gevonden. <div>  <code>comparer</code> is een <code>Comparer</code> die kan worden gebruikt voor het aansturen van de vergelijking. Vergelijkingsfuncties kunnen worden gebruikt om bij de vergelijking geen onderscheid te hoeven maken tussen hoofdletters en kleine letters of om bij de vergelijking rekening te houden met de cultuur en aard van de omgeving. </div> <div> De volgende ingebouwde vergelijkingsfuncties kunnen in formules worden gebruikt: </div> <ul> <li><code>Comparer.Ordinal</code>: waarmee exacte ordinale vergelijkingen kunnen worden uitgevoerd</li> <li><code>Comparer.OrdinalIgnoreCase</code>: waarmee exacte ordinale vergelijkingen kunnen worden uitgevoerd waarbij geen onderscheid wordt gemaakt tussen hoofdletters en kleine letters</li> <li> <code>Comparer.FromCulture</code>: waarmee vergelijkingen met inachtneming van de cultuur kunnen worden uitgevoerd</li>  </ul>
+Hiermee wordt de positie van de opgegeven herhaling geretourneerd van de tekstwaarde `substring` die is gevonden in `text`. Er kan een optionele parameter `occurrence` worden gebruikt om op te geven welke herhalingspositie moet worden geretourneerd (standaardwaarde is eerste herhaling). Retourneert -1 als `substring` niet is gevonden.
+
+`comparer` is een `Comparer` die kan worden gebruikt voor het aansturen van de vergelijking. Vergelijkingsfuncties kunnen worden gebruikt om bij de vergelijking geen onderscheid te hoeven maken tussen hoofdletters en kleine letters of om bij de vergelijking rekening te houden met de cultuur en aard van de omgeving.
+
+De volgende ingebouwde vergelijkingsfuncties kunnen in formules worden gebruikt:
+
+-   `Comparer.Ordinal`: waarmee exacte ordinale vergelijkingen kunnen worden uitgevoerd
+-   `Comparer.OrdinalIgnoreCase`: waarmee exacte ordinale vergelijkingen kunnen worden uitgevoerd waarbij geen onderscheid wordt gemaakt tussen hoofdletters en kleine letters
+-   `Comparer.FromCulture`: waarmee vergelijkingen met inachtneming van de cultuur kunnen worden uitgevoerd
 
 
 ## Examples
 
-### Example #1 
-De positie ophalen van de eerste instantie van &#34;Wereld&#34; in de tekst &#34;Hallo, Wereld! Hallo, Wereld!&#34;.
+### Example #1
+De positie ophalen van de eerste instantie van "Wereld" in de tekst "Hallo, Wereld! Hallo, Wereld!".
 ```powerquery
 Text.PositionOf("Hello, World! Hello, World!", "World")
 ```
@@ -39,8 +47,8 @@ Result:
 ```
 
 
-### Example #2 
-De positie ophalen van de laatste instantie van &#34;Wereld&#34; in de tekst &#34;Hallo, Wereld! Hallo, Wereld!&#34;.
+### Example #2
+De positie ophalen van de laatste instantie van 'Wereld. in de tekst 'Hallo, Wereld! Hallo, Wereld!'.
 ```powerquery
 Text.PositionOf("Hello, World! Hello, World!", "World", Occurrence.Last)
 ```

@@ -19,7 +19,7 @@ Cube.DisplayFolders(
 
 ## Remarks
 
-Gibt eine geschachtelte Tabellenstruktur zurück, die die Anzeigeordnerhierarchie der Objekte (z. B. Dimensionen und Measures) darstellt, die für die Verwendung in <code>cube</code> verfügbar sind.
+Gibt eine geschachtelte Tabellenstruktur zurück, die die Anzeigeordnerhierarchie der Objekte (z. B. Dimensionen und Measures) darstellt, die für die Verwendung in `cube` verfügbar sind.
 
 
 

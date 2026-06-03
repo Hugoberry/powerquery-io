@@ -20,13 +20,16 @@ Date.AddDays(
 
 ## Remarks
 
-通过将 <code>numberOfDays</code> 天添加到 <code>datetime</code> 值 <code>dateTime</code>，返回 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 结果。      <ul>      <li><code>dateTime</code>: 天数要添加到的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值。</li>      <li><code>numberOfDays</code>: 要添加的天数。</li>      </ul>
+通过将 `numberOfDays` 天添加到 `datetime` 值 `dateTime`，返回 `date`、`datetime` 或 `datetimezone` 结果。
+
+-   `dateTime`: 天数要添加到的 `date`、`datetime` 或 `datetimezone` 值。
+-   `numberOfDays`: 要添加的天数。
 
 
 ## Examples
 
-### Example #1 
-将 5 天添加到表示日期 5/14/2011 的 &lt;code&gt;date&lt;/code&gt;、&lt;code&gt;datetime&lt;/code&gt; 或 &lt;code&gt;datetimezone&lt;/code&gt; 值。
+### Example #1
+将 5 天添加到表示日期 5/14/2011 的 `date`、`datetime` 或 `datetimezone` 值。
 ```powerquery
 Date.AddDays(#date(2011, 5, 14), 5)
 ```

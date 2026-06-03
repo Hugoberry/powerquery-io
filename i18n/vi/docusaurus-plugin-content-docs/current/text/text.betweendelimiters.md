@@ -23,13 +23,13 @@ Text.BetweenDelimiters(
 
 ## Remarks
 
-Trả về phần của <code>text</code> giữa <code>startDelimiter</code> và <code>endDelimiter</code> được chỉ định.    <code>startIndex</code> dạng số tùy chỉnh cho biết số lần xuất hiện của <code>startDelimiter</code> sẽ được xem xét.    Danh sách tùy chọn <code>startIndex</code> cho biết lần xuất hiện nào của <code>startDelimiter</code> sẽ được xem xét, cũng như việc đánh chỉ mục có được thực hiện tính từ đầu hoặc cuối của đầu vào hay không.    <code>endIndex</code> cũng tương tự, ngoại trừ việc đánh chỉ mục được thực hiện có liên quan đến <code>startIndex</code>.
+Trả về phần của `text` giữa `startDelimiter` và `endDelimiter` được chỉ định. `startIndex` dạng số tùy chỉnh cho biết số lần xuất hiện của `startDelimiter` sẽ được xem xét. Danh sách tùy chọn `startIndex` cho biết lần xuất hiện nào của `startDelimiter` sẽ được xem xét, cũng như việc đánh chỉ mục có được thực hiện tính từ đầu hoặc cuối của đầu vào hay không. `endIndex` cũng tương tự, ngoại trừ việc đánh chỉ mục được thực hiện có liên quan đến `startIndex`.
 
 
 ## Examples
 
-### Example #1 
-Lấy phần của &#34;111 (222) 333 (444)&#34; giữa dấu ngoặc tròn mở (đầu tiên) và ngoặc tròn đóng (đầu tiên) tiếp theo.
+### Example #1
+Lấy phần của "111 (222) 333 (444)" giữa dấu ngoặc tròn mở (đầu tiên) và ngoặc tròn đóng (đầu tiên) tiếp theo.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")")
 ```
@@ -40,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Lấy phần của &#34;111 (222) 333 (444)&#34; giữa dấu ngoặc tròn mở thứ hai và dấu ngoặc tròn đóng đầu tiên tiếp theo.
+### Example #2
+Lấy phần của "111 (222) 333 (444)" giữa dấu ngoặc tròn mở thứ hai và dấu ngoặc tròn đóng đầu tiên tiếp theo.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")", 1, 0)
 ```
@@ -52,8 +52,8 @@ Result:
 ```
 
 
-### Example #3 
-Lấy phần của &#34;111 (222) 333 (444)&#34; giữa dấu ngoặc tròn mở thứ hai tính từ cuối và dấu ngoặc tròn đóng thứ hai tiếp theo.
+### Example #3
+Lấy phần của "111 (222) 333 (444)" giữa dấu ngoặc tròn mở thứ hai tính từ cuối và dấu ngoặc tròn đóng thứ hai tiếp theo.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")", {1, RelativePosition.FromEnd}, {1, RelativePosition.FromStart})
 ```

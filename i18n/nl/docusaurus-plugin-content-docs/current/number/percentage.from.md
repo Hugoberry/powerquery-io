@@ -20,13 +20,13 @@ Percentage.From(
 
 ## Remarks
 
-Hiermee wordt een <code>percentage</code>-waarde geretourneerd voor de opgegeven <code>value</code>. Als de opgegeven <code>value</code> <code>null</code> is, wordt door <code>Percentage.From</code> <code>null</code> geretourneerd. Als een opgegeven <code>value</code> een <code>text</code>-waarde met een navolgend procentteken heeft, wordt het geconverteerde decimale getal geretourneerd. Anders wordt de waarde geconverteerd naar een <code>nummer</code> met behulp van <code>Number.From</code>. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
+Hiermee wordt een `percentage`\-waarde geretourneerd voor de opgegeven `value`. Als de opgegeven `value` `null` is, wordt door `Percentage.From` `null` geretourneerd. Als een opgegeven `value` een `text`\-waarde met een navolgend procentteken heeft, wordt het geconverteerde decimale getal geretourneerd. Anders wordt de waarde geconverteerd naar een `nummer` met behulp van `Number.From`. Er kan ook een optionele `culture` worden opgegeven (bijvoorbeeld: nl-NL).
 
 
 ## Examples
 
-### Example #1 
-De waarde &lt;code&gt;percentage&lt;/code&gt; ophalen uit &lt;code&gt;&#34;12.3%&#34;&lt;/code&gt;.
+### Example #1
+De waarde `percentage` ophalen uit `"12.3%"`.
 ```powerquery
 Percentage.From("12.3%")
 ```

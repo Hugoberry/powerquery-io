@@ -19,12 +19,12 @@ Table.RowCount(
 
 ## Remarks
 
-Returns the number of rows in the <code>table</code>.
+Returns the number of rows in the `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find the number of rows in the table.
 ```powerquery
 Table.RowCount(

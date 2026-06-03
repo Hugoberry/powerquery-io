@@ -20,12 +20,12 @@ Table.Last(
 
 ## Remarks
 
-Retorna a última linha da <code>table</code> ou um valor padrão <code>default</code> opcional, se a tabela estiver vazia.
+Retorna a última linha da `table` ou um valor padrão `default` opcional, se a tabela estiver vazia.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Localizar a última linha da tabela.
 ```powerquery
 Table.Last(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-Localize a última linha da tabela &lt;code&gt;(\{})&lt;/code&gt; ou retorne [a = 0, b = 0], se ela estiver vazia.
+### Example #2
+Localize a última linha da tabela `({})` ou retorne \[a = 0, b = 0\], se ela estiver vazia.
 ```powerquery
 Table.Last(Table.FromRecords({}), [a = 0, b = 0])
 ```

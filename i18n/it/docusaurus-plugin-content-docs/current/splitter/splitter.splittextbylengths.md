@@ -25,8 +25,8 @@ Restituisce una funzione che suddivide il testo in un elenco di testo in base al
 
 ## Examples
 
-### Example #1 
-Dividere l&#39;input nei primi due caratteri seguiti dai tre successivi, a partire dall&#39;inizio dell&#39;input.
+### Example #1
+Dividere l'input nei primi due caratteri seguiti dai tre successivi, a partire dall'inizio dell'input.
 ```powerquery
 Splitter.SplitTextByLengths({2, 3})("AB123")
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Dividere l&#39;input nei primi tre caratteri seguiti dai due successivi, a partire dalla fine dell&#39;input.
+### Example #2
+Dividere l'input nei primi tre caratteri seguiti dai due successivi, a partire dalla fine dell'input.
 ```powerquery
 let
     startAtEnd = true

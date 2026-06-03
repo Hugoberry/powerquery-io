@@ -20,12 +20,22 @@ Table.View(
 
 ## Remarks
 
-Devolve uma vista de <code>table</code> em que as funções especificadas em <code>handlers</code> são utilizadas em detrimento do comportamento pré-definido de uma operação quando esta é aplicada à vista.<br />Se <code>table</code> for fornecido, todas as funções de processador são opcionais. Se <code>table</code> não for fornecido, serão necessárias as funções de processador <code>GetType</code> e <code>GetRows</code>. Se uma função de processador não for especificada numa operação, o comportamento predefinido da operação será antes aplicado a <code>table</code> (exceto no caso de <code>GetExpression</code>).<br />As funções de processador devem devolver um valor semanticamente equivalente ao resultado da aplicação da operação em relação a <code>table</code> (ou a vista resultante, no caso de <code>GetExpression</code>).<br />Se uma função de processador gerar um erro, o comportamento pré-definido da operação é aplicado à vista.<br /><code>Table.View</code> pode ser utilizado para implementar a dobragem a uma origem de dados – a tradução de consultas M para consultas específicas da origem (por exemplo, para criar declarações T-SQL a partir de consultas M).<br />Consulte a documentação publicada sobre o conector personalizado do Power Query para obter uma descrição mais completa de <code>Table.View</code>.<br />
+Devolve uma vista de `table` em que as funções especificadas em `handlers` são utilizadas em detrimento do comportamento pré-definido de uma operação quando esta é aplicada à vista.
+
+Se `table` for fornecido, todas as funções de processador são opcionais. Se `table` não for fornecido, serão necessárias as funções de processador `GetType` e `GetRows`. Se uma função de processador não for especificada numa operação, o comportamento predefinido da operação será antes aplicado a `table` (exceto no caso de `GetExpression`).
+
+As funções de processador devem devolver um valor semanticamente equivalente ao resultado da aplicação da operação em relação a `table` (ou a vista resultante, no caso de `GetExpression`).
+
+Se uma função de processador gerar um erro, o comportamento pré-definido da operação é aplicado à vista.
+
+`Table.View` pode ser utilizado para implementar a dobragem a uma origem de dados – a tradução de consultas M para consultas específicas da origem (por exemplo, para criar declarações T-SQL a partir de consultas M).
+
+Consulte a documentação publicada sobre o conector personalizado do Power Query para obter uma descrição mais completa de `Table.View`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Crie uma vista básica que não requeira o acesso às linhas para determinar o tipo ou a contagem de linhas.
 ```powerquery
 Table.View(

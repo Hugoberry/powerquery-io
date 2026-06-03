@@ -20,12 +20,12 @@ BinaryFormat.Length(
 
 ## Remarks
 
-Returns a binary format that limits the amount of data that can be read.  Both <code>BinaryFormat.List</code> and <code>BinaryFormat.Binary</code> can be used to read until end of the data.  <code>BinaryFormat.Length</code> can be used to limit the number of bytes that are read.  The <code>binaryFormat</code> parameter specifes the binary format to limit.  The <code>length</code> parameter specifies the number of bytes to read.  The <code>length</code> parameter may either be a number value, or a binary format value that specifies the format of the length value that appears that precedes the value being read.
+Returns a binary format that limits the amount of data that can be read. Both `BinaryFormat.List` and `BinaryFormat.Binary` can be used to read until end of the data. `BinaryFormat.Length` can be used to limit the number of bytes that are read. The `binaryFormat` parameter specifies the binary format to limit. The `length` parameter specifies the number of bytes to read. The `length` parameter may either be a number value, or a binary format value that specifies the format of the length value that appears that precedes the value being read.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Limit the number of bytes read to 2 when reading a list of bytes.
 ```powerquery
 let
@@ -44,7 +44,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Limit the number of byte read when reading a list of bytes to the byte value preceding the list.
 ```powerquery
 let

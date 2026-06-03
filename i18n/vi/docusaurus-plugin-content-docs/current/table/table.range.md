@@ -21,12 +21,12 @@ Table.Range(
 
 ## Remarks
 
-Trả về các hàng từ <code>table</code> bắt đầu tại <code>offset</code> được chỉ định. Tham số tùy chọn <code>count</code> chỉ định số lượng hàng sẽ trả về. Theo mặc định, tất cả các hàng sau phần bù đều được trả về.
+Trả về các hàng từ `table` bắt đầu tại `offset` được chỉ định. Tham số tùy chọn `count` chỉ định số lượng hàng sẽ trả về. Theo mặc định, tất cả các hàng sau phần bù đều được trả về.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trả về tất cả các hàng bắt đầu tại phần bù 1 trong bảng.
 ```powerquery
 Table.Range(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Trả về một hàng bắt đầu tại phần bù 1 trong bảng.
 ```powerquery
 Table.Range(

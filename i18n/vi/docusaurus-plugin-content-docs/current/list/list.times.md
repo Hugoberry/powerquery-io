@@ -21,12 +21,12 @@ List.Times(
 
 ## Remarks
 
-Trả về một danh sách giá trị <code>time</code> có kích cỡ là <code>count</code>, bắt đầu tại <code>start</code>. Số gia cho sẵn, <code>step</code>, là giá trị <code>duration</code> được thêm vào mọi giá trị.
+Trả về một danh sách giá trị `time` có kích cỡ là `count`, bắt đầu tại `start`. Số gia cho sẵn, `step`, là giá trị `duration` được thêm vào mọi giá trị.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tạo một danh sách chứa 4 giá trị bắt đầu từ noon (#time(12, 0, 0)) tăng lên theo số gia là một giờ (#duration(0, 1, 0, 0)).
 ```powerquery
 List.Times(#time(12, 0, 0), 4, #duration(0, 1, 0, 0))

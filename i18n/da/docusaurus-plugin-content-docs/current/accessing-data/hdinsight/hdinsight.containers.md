@@ -19,7 +19,7 @@ HdInsight.Containers(
 
 ## Remarks
 
-Returnerer en navigationstabel, der indeholder en række for hver objektbeholder, som blev fundet i konto-URL-adressen <code>account</code>, fra en samling legitimationsoplysninger i Azure storage. De enkelte rækker indeholder et link til beholderblobbene.
+Returnerer en navigationstabel, der indeholder en række for hver objektbeholder, som blev fundet i konto-URL-adressen `account`, fra en samling legitimationsoplysninger i Azure storage. De enkelte rækker indeholder et link til beholderblobbene.
 
 
 

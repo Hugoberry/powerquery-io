@@ -19,12 +19,12 @@ DateTimeZone.RemoveZone(
 
 ## Remarks
 
-Trả về một giá trị #datetime từ <code>dateTimeZone</code> đã loại bỏ thông tin múi giờ.
+Trả về một giá trị #datetime từ `dateTimeZone` đã loại bỏ thông tin múi giờ.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Loại bỏ thông tin múi giờ khỏi giá trị #datetimezone(2011, 12, 31, 9, 15, 36, -7, 0).
 ```powerquery
 DateTimeZone.RemoveZone(#datetimezone(2011, 12, 31, 9, 15, 36, -7, 0))

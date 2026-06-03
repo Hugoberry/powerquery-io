@@ -20,13 +20,16 @@ Date.AddMonths(
 
 ## Remarks
 
-Retourne le résultat <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> de l'ajout de <code>numberOfMonths</code> mois à la valeur <code>datetime</code> <code>dateTime</code>.      <ul>        <li><code>dateTime</code> : valeur <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> à laquelle les mois sont ajoutés.</li>        <li><code>numberOfMonths</code> : nombre de mois à ajouter.</li>      </ul>
+Retourne le résultat `date`, `datetime` ou `datetimezone` de l'ajout de `numberOfMonths` mois à la valeur `datetime` `dateTime`.
+
+-   `dateTime` : valeur `date`, `datetime` ou `datetimezone` à laquelle les mois sont ajoutés.
+-   `numberOfMonths` : nombre de mois à ajouter.
 
 
 ## Examples
 
-### Example #1 
-Ajoute 5 mois à la valeur &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; ou &lt;code&gt;datetimezone&lt;/code&gt; représentant la date 5/14/2011.
+### Example #1
+Ajoute 5 mois à la valeur `date`, `datetime` ou `datetimezone` représentant la date 5/14/2011.
 ```powerquery
 Date.AddMonths(#date(2011, 5, 14), 5)
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Ajoute 18 mois à la valeur &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; ou &lt;code&gt;datetimezone&lt;/code&gt; représentant la date et l&#39;heure 5/14/2011 08:15:22 AM.
+### Example #2
+Ajoute 18 mois à la valeur `date`, `datetime` ou `datetimezone` représentant la date et l'heure 5/14/2011 08:15:22 AM.
 ```powerquery
 Date.AddMonths(#datetime(2011, 5, 14, 8, 15, 22), 18)
 ```

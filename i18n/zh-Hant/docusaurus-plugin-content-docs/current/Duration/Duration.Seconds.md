@@ -19,12 +19,12 @@ Duration.Seconds(
 
 ## Remarks
 
-傳回 <code>duration</code> 的秒數部分。
+傳回 `duration` 的秒數部分。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 從持續時間值擷取秒數。
 ```powerquery
 Duration.Seconds(#duration(5, 4, 3, 2))

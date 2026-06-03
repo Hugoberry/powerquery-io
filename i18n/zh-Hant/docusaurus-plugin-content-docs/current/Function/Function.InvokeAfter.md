@@ -20,7 +20,7 @@ Function.InvokeAfter(
 
 ## Remarks
 
-經過持續時間 <code>delay</code> 之後，傳回叫用 <code>function</code> 的結果。
+經過持續時間 `delay` 之後，傳回叫用 `function` 的結果。
 
 
 

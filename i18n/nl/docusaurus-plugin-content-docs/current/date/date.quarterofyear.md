@@ -19,12 +19,12 @@ Date.QuarterOfYear(
 
 ## Remarks
 
-Retourneert een getal van 1 tot 4 dat aangeeft in welk kwartaal van het jaar de datum <code>dateTime</code> valt. <code>dateTime</code> kan een waarde voor <code>date</code>, <code>datetime</code> of <code>datetimezone</code> zijn.
+Retourneert een getal van 1 tot 4 dat aangeeft in welk kwartaal van het jaar de datum `dateTime` valt. `dateTime` kan een waarde voor `date`, `datetime` of `datetimezone` zijn.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zoeken in welk kwartaal van het jaar de datum #date(2011, 12, 31) valt.
 ```powerquery
 Date.QuarterOfYear(#date(2011, 12, 31))

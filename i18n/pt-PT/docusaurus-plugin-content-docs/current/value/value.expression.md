@@ -19,7 +19,7 @@ Value.Expression(
 
 ## Remarks
 
-Devolve uma árvore de sintaxe abstrata (AST) que representa a expressão do valor
+Devolve uma árvore de sintaxe abstrata (AST) que representa a expressão do valor.
 
 
 

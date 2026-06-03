@@ -20,12 +20,12 @@ Number.RandomBetween(
 
 ## Remarks
 
-返回 <code>bottom</code> 和 <code>top</code> 之间的一个随机数。
+返回 `bottom` 和 `top` 之间的一个随机数。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 获取 1 和 5 之间的一个随机数。
 ```powerquery
 Number.RandomBetween(1, 5)

@@ -21,13 +21,13 @@ Record.FieldOrDefault(
 
 ## Remarks
 
-Retourne la valeur du champ spécifié <code>field</code> dans l'enregistrement <code>record</code>. Si le champ est introuvable, la valeur <code>defaultValue</code> facultative est retournée.
+Retourne la valeur du champ spécifié `field` dans l'enregistrement `record`. Si le champ est introuvable, la valeur `defaultValue` facultative est retournée.
 
 
 ## Examples
 
-### Example #1 
-Recherche la valeur du champ &#34; Phone &#34; dans l&#39;enregistrement ou retourne null s&#39;il n&#39;existe pas.
+### Example #1
+Recherche la valeur du champ "Phone" dans l'enregistrement ou retourne null s'il n'existe pas.
 ```powerquery
 Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone")
 ```
@@ -38,8 +38,8 @@ null
 ```
 
 
-### Example #2 
-Recherche la valeur du champ &#34; Phone &#34; dans l&#39;enregistrement ou retourne la valeur par défaut s&#39;il n&#39;existe pas.
+### Example #2
+Recherche la valeur du champ "Phone" dans l'enregistrement ou retourne la valeur par défaut s'il n'existe pas.
 ```powerquery
 Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone", "123-4567")
 ```

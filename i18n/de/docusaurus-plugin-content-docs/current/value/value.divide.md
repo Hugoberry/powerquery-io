@@ -21,7 +21,7 @@ Value.Divide(
 
 ## Remarks
 
-Gibt das Ergebnis der Division von <code>value1</code> durch <code>value2</code> zurück. Ein optionaler Parameter (<code>precision</code>) kann angegeben werden. Standardmäßig wird <code>Precision.Double</code> verwendet.
+Gibt das Ergebnis der Division von `value1` durch `value2` zurück. Ein optionaler Parameter (`precision`) kann angegeben werden. Standardmäßig wird `Precision.Double` verwendet.
 
 
 

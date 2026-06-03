@@ -20,13 +20,17 @@ List.RemoveFirstN(
 
 ## Remarks
 
-Hiermee wordt een lijst geretourneerd waarmee het eerste element van lijst <code>list</code> wordt verwijderd. Als <code>list</code> een lege lijst is, wordt een lege lijst geretourneerd.Deze functie gebruikt een optionele parameter, <code>countOrCondition</code>, voor het ondersteunen van het verwijderen van meerdere waarden zoals in de onderstaande lijst. <ul> <li>Als een getal is opgegeven, wordt maximaal dat aantal items verwijderd. </li> <li>Als een voorwaarde is opgegeven, begint de geretourneerde lijst met het eerste element in <code>list</code> dat aan de criteria voldoet. Zodra een item niet aan de voorwaarde voldoet, worden geen verdere items meer behandeld. </li> <li>Als deze parameter null is, wordt het standaardgedrag waargenomen. </li> </ul>
+Hiermee wordt een lijst geretourneerd waarmee het eerste element van lijst `list`wordt verwijderd. Als `list` een lege lijst is, wordt er een lege lijst geretourneerd. Bij deze functie wordt een optionele parameter toegepast, `countOrCondition`, om het verwijderen van meerdere waarden te ondersteunen, zoals hieronder vermeld.
+
+-   Als er een aantal is opgegeven, worden maximaal dat aantal items verwijderd.
+-   Als er een voorwaarde is opgegeven, worden alle opeenvolgende overeenkomende items aan het begin van `list` verwijderd.
+-   Als deze parameter null is, wordt het standaardgedrag gehanteerd.
 
 
 ## Examples
 
-### Example #1 
-Een lijst van \{1, 2, 3, 4, 5} zonder de eerste drie getallen maken.
+### Example #1
+Een lijst van \{1, 2, 3, 4, 5\} zonder de eerste drie getallen maken.
 ```powerquery
 List.RemoveFirstN({1, 2, 3, 4, 5}, 3)
 ```
@@ -37,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-Een lijst van \{5, 4, 2, 6, 1} maken die begint met een getal kleiner dan 3.
+### Example #2
+Een lijst van \{5, 4, 2, 6, 1\} maken die begint met een getal kleiner dan 3.
 ```powerquery
 List.RemoveFirstN({5, 4, 2, 6, 1}, each _ > 3)
 ```

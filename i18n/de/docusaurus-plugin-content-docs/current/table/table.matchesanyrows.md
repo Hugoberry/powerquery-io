@@ -20,13 +20,13 @@ Table.MatchesAnyRows(
 
 ## Remarks
 
-Gibt an, ob mindestens eine der Zeilen im Element vom Typ "<code>table</code>" die Angabe "<code>condition</code>" erfüllt. Gibt <code>true</code> zurück, falls mindestens eine der Zeilen die Bedingung erfüllt. Andernfalls wird <code>false</code> zurückgegeben.
+Gibt an, ob mindestens eine der Zeilen im Element vom Typ "`table`" die Angabe "`condition`" erfüllt. Gibt `true` zurück, falls mindestens eine der Zeilen die Bedingung erfüllt. Andernfalls wird `false` zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt, ob es sich bei mindestens einem Zeilenwert in Spalte &#34;[a]&#34; der Tabelle &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8]})&lt;/code&gt; um einen geraden Wert handelt.
+### Example #1
+Ermittelt, ob es sich bei mindestens einem Zeilenwert in Spalte "\[a\]" der Tabelle `({[a = 2, b = 4], [a = 6, b = 8]})` um einen geraden Wert handelt.
 ```powerquery
 Table.MatchesAnyRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ false
 ```
 
 
-### Example #2 
-Ermittelt, ob es sich bei mindestens einem Zeilenwert der Tabelle &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; um &#34;[a = 1, b = 2]&#34; handelt.
+### Example #2
+Ermittelt, ob es sich bei mindestens einem Zeilenwert der Tabelle `({[a = 1, b = 2], [a = 3, b = 4]})` um "\[a = 1, b = 2\]" handelt.
 ```powerquery
 Table.MatchesAnyRows(
     Table.FromRecords({

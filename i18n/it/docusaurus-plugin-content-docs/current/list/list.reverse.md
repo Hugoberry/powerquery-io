@@ -5,7 +5,7 @@ title: List.Reverse
 # List.Reverse
 
 
-Inverte l&#39;ordine dei valori dell&#39;elenco.
+Inverte l'ordine dei valori dell'elenco.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.Reverse(
 
 ## Remarks
 
-Restituisce un elenco con i valori dell'elenco <code>list</code> in ordine inverso.
+Restituisce un elenco con i valori dell'elenco `list` in ordine inverso.
 
 
 ## Examples
 
-### Example #1 
-Creare un elenco da \{1..10} in ordine inverso.
+### Example #1
+Creare un elenco da \{1..10\} in ordine inverso.
 ```powerquery
 List.Reverse({1..10})
 ```

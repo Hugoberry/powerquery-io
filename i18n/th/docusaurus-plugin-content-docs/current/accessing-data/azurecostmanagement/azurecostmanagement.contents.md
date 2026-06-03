@@ -21,13 +21,13 @@ AzureCostManagement.Contents(
 
 ## Examples
 
-### Example #1 
+### Example #1
 สมมติว่าวันนี้คือ 2017-6-15 ให้รับสรุปข้อมูลระหว่าง 2017-5-1 ถึง 2017-6-15
 ```powerquery
-ให้    
-          enrollmentNumber = "100"
-          optionalParameters = [ numberOfMonth = 1 ]
-          ผลลัพธ์ = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)   
+ให้
+          enrollmentNumber = "100",
+          optionalParameters = [ numberOfMonth = 1 ],
+          result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
       ใน
           ผลลัพธ์
 ```
@@ -38,13 +38,13 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 สมมติว่าวันนี้คือ 2017-6-15 ให้รับข้อมูลสรุปสำหรับเดือนเมษายน 2017
 ```powerquery
-ให้    
-          enrollmentNumber = "100"
-          optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "-1" ]
-          ผลลัพธ์ = MicrosoftAzureConsumptionInsights.Contents(enrollmentNumber, optionalParameters)   
+ให้
+          enrollmentNumber = "100",
+          optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "-1" ],
+          result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
       ใน
           ผลลัพธ์
 ```
@@ -55,13 +55,13 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 สมมติว่าวันนี้คือ 2017-6-15 ให้รับข้อมูลสรุปจากเดือนเมษายน 2017 จนถึงปัจจุบัน
 ```powerquery
-ให้    
-          enrollmentNumber = "100"
-          optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "0", dataType = "Summaries" ]
-          ผลลัพธ์ = MicrosoftAzureConsumptionInsights.Contents(enrollmentNumber, optionalParameters)   
+ให้
+          enrollmentNumber = "100",
+          optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "0", dataType = "Summaries" ],
+          result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
       ใน
           ผลลัพธ์
 ```

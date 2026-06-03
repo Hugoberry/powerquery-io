@@ -19,13 +19,13 @@ Number.Sin(
 
 ## Remarks
 
-Retourne le sinus de <code>number</code>.
+Retourne le sinus de `number`.
 
 
 ## Examples
 
-### Example #1 
-Recherche le sinus de l&#39;angle 0.
+### Example #1
+Recherche le sinus de l'angle 0.
 ```powerquery
 Number.Sin(0)
 ```

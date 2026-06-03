@@ -20,13 +20,13 @@ Text.End(
 
 ## Remarks
 
-Retourneert een <code>text</code>waarde die de laatste <code>count</code> tekens van de <code>text</code>waarde <code>text</code> is.
+Retourneert een `text`waarde die de laatste `count` tekens van de `text`waarde `text` is.
 
 
 ## Examples
 
-### Example #1 
-De laatste vijf tekens van de tekst &#34;Hallo, Wereld&#34; ophalen
+### Example #1
+De laatste vijf tekens van de tekst "Hallo, Wereld" ophalen
 ```powerquery
 Text.End("Hello, World", 5)
 ```

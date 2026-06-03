@@ -22,12 +22,17 @@ Table.AlternateRows(
 
 ## Remarks
 
-Bevarer den første forskydning og skifter derefter mellem at hente og springe følgende rækker over.    <ul>       <li><code>table</code>: Inputtabellen.</li>       <li><code>offset</code>: Det antal rækker, der skal bevares, før gentagelser startes.</li>       <li><code>skip</code>: Det antal rækker, der skal fjernes i hver gentagelse.</li>       <li><code>take</code>: Det antal rækker, der skal bevares i hver gentagelse.</li>    </ul>    
+Bevarer den første forskydning og skifter derefter mellem at hente og springe følgende rækker over.
+
+-   `table`: Inputtabellen.
+-   `offset`: Det antal rækker, der skal bevares, før gentagelser startes.
+-   `skip`: Det antal rækker, der skal fjernes i hver gentagelse.
+-   `take`: Det antal rækker, der skal bevares i hver gentagelse.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Opret en tabel ud fra tabellen, som med start ved første række springer én værdi over og derefter bevarer én værdi.
 ```powerquery
 Table.AlternateRows(

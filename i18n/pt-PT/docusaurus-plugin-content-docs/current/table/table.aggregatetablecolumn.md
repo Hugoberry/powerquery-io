@@ -21,13 +21,13 @@ Table.AggregateTableColumn(
 
 ## Remarks
 
-Agrega tabelas em <code>table</code>[<code>column</code>] a várias colunas que contém valores agregados para as tabelas. <code>aggregations</code> é utilizado para especificar as colunas que contêm as tabelas a agregar, as funções de agregação a aplicar às tabelas para gerar os respetivos valores e os nomes das colunas de agregação a criar.
+Agrega tabelas em `table`\[`column`\] a várias colunas que contém valores agregados para as tabelas. `aggregations` é utilizado para especificar as colunas que contêm as tabelas a agregar, as funções de agregação a aplicar às tabelas para gerar os respetivos valores e os nomes das colunas de agregação a criar.
 
 
 ## Examples
 
-### Example #1 
-Agregar colunas de tabela em &lt;code&gt;[t]&lt;/code&gt; na tabela &lt;code&gt;\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}&lt;/code&gt; na soma de &lt;code&gt;[t.a]&lt;/code&gt;, o mínimo e máximo de &lt;code&gt;[t.b]&lt;/code&gt; e a contagem de valores em &lt;code&gt;[t.a]&lt;/code&gt;.
+### Example #1
+Agregar colunas de tabela em `[t]` na tabela `{[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}` na soma de `[t.a]`, o mínimo e máximo de `[t.b]` e a contagem de valores em `[t.a]`.
 ```powerquery
 Table.AggregateTableColumn(
     Table.FromRecords(

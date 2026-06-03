@@ -20,13 +20,13 @@ Table.MatchesAnyRows(
 
 ## Remarks
 
-Indica se una delle righe in <code>table</code> corrisponde a <code>condition</code>. Restituisce <code>true</code> se una delle righe corrisponde, in caso contrario <code>false</code>.
+Indica se una delle righe in `table` corrisponde a `condition`. Restituisce `true` se una delle righe corrisponde, in caso contrario `false`.
 
 
 ## Examples
 
-### Example #1 
-Determinare se uno dei valori di riga nella colonna [a] si trova anche nella tabella &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8]})&lt;/code&gt;.
+### Example #1
+Determinare se uno dei valori di riga nella colonna \[a\] si trova anche nella tabella `({[a = 2, b = 4], [a = 6, b = 8]})`.
 ```powerquery
 Table.MatchesAnyRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ false
 ```
 
 
-### Example #2 
-Determinare se uno dei valori di riga è [a = 1, b = 2], nella tabella &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt;.
+### Example #2
+Determinare se uno dei valori di riga è \[a = 1, b = 2\], nella tabella `({[a = 1, b = 2], [a = 3, b = 4]})`.
 ```powerquery
 Table.MatchesAnyRows(
     Table.FromRecords({

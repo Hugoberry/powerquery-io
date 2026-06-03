@@ -20,13 +20,13 @@ Text.Repeat(
 
 ## Remarks
 
-Returnerer en tekstværdi, der består af inputteksten <code>text</code> gentaget <code>count</code> gange.
+Returnerer en tekstværdi, der består af inputteksten `text` gentaget `count` gange.
 
 
 ## Examples
 
-### Example #1 
-Gentag teksten &#34;a&#34; fem gange.
+### Example #1
+Gentag teksten "a" fem gange.
 ```powerquery
 Text.Repeat("a", 5)
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Gentag teksten &#34;helloworld&#34; tre gange.
+### Example #2
+Gentag teksten "helloworld" tre gange.
 ```powerquery
 Text.Repeat("helloworld.", 3)
 ```

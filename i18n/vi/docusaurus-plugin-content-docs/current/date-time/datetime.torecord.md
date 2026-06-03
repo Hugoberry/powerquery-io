@@ -19,13 +19,15 @@ DateTime.ToRecord(
 
 ## Remarks
 
-Trả về bản ghi có chứa các phần của giá trị datetime đã cho, <code>dateTime</code>. <ul>        <li><code>dateTime</code>: Giá trị <code>datetime</code> cho bản ghi có chứa các phần được tính toán.</li>      </ul>
+Trả về bản ghi có chứa các phần của giá trị datetime đã cho, `dateTime`.
+
+-   `dateTime`: Giá trị `datetime` cho bản ghi có chứa các phần được tính toán.
 
 
 ## Examples
 
-### Example #1 
-Chuyển đổi giá trị &lt;code&gt;#datetime(2011, 12, 31, 11, 56, 2)&lt;/code&gt; thành một bản ghi chứa giá trị Ngày và Giờ.
+### Example #1
+Chuyển đổi giá trị `#datetime(2011, 12, 31, 11, 56, 2)` thành một bản ghi chứa giá trị Ngày và Giờ.
 ```powerquery
 DateTime.ToRecord(#datetime(2011, 12, 31, 11, 56, 2))
 ```

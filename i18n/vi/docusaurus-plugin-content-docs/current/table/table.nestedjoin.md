@@ -25,12 +25,16 @@ Table.NestedJoin(
 
 ## Remarks
 
-Nối các hàng <code>table1</code> với các hàng <code>table2</code> dựa trên các giá trị bằng nhau trong các cột khóa được chọn bởi <code>key1</code> (cho <code>table1</code>) và <code>key2</code> (cho <code>table2</code>). Các kết quả được nhập vào cột có tên là <code>newColumnName</code>.<br /><code>joinKind</code> tùy chọn chỉ định loại nối cần thực hiện. Theo mặc định, loại nối ngoài bên trái sẽ được thực hiện nếu bạn không chỉ định <code>joinKind</code>.<br />Có thể bao gồm tập hợp <code>keyEqualityComparers</code> tùy chọn để chỉ định cách so sánh các cột khóa. Tính năng này hiện chỉ dành để sử dụng nội bộ.<br />  
+Nối các hàng `table1` với các hàng `table2` dựa trên các giá trị bằng nhau trong các cột khóa được chọn bởi `key1` (cho `table1`) và `key2` (cho `table2`). Các kết quả được nhập vào cột có tên là `newColumnName`.
+
+`joinKind` tùy chọn chỉ định loại nối cần thực hiện. Theo mặc định, loại nối ngoài bên trái sẽ được thực hiện nếu bạn không chỉ định `joinKind`.
+
+Có thể bao gồm tập hợp `keyEqualityComparers` tùy chọn để chỉ định cách so sánh các cột khóa. Tính năng này hiện chỉ dành để sử dụng nội bộ.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kết hợp hai bảng bằng một cột khóa duy nhất.
 ```powerquery
 Table.NestedJoin(

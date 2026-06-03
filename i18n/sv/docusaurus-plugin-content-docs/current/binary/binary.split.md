@@ -20,7 +20,7 @@ Binary.Split(
 
 ## Remarks
 
-Delar upp <code>binary</code> i en lista med binärfiler där det första elementet i utdatalistan är en binärfil som innehåller först <code>pageSize</code> byte från    källbinärfilen, nästa element i utdatalistan är en binärfil som innehåller följande <code>pageSize</code> byte från källbinärfilen osv.
+Delar upp `binary` i en lista med binärfiler där det första elementet i utdatalistan är en binärfil som innehåller först `pageSize` byte från källbinärfilen, nästa element i utdatalistan är en binärfil som innehåller följande `pageSize` byte från källbinärfilen osv.
 
 
 

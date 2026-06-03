@@ -20,7 +20,7 @@ Text.InferNumberType(
 
 ## Remarks
 
-推断 <code>text</code> 的粒度值类型(Int64.Type、Double.Type 等)。如果 <code>text</code> 不是数值，则会引发错误。还可提供可选的 <code>culture</code>(例如“en-US”)。
+推断 `text` 的粒度值类型(Int64.Type、Double.Type 等)。如果 `text` 不是数值，则会引发错误。还可提供可选的 `culture`(例如“en-US”)。
 
 
 

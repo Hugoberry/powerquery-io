@@ -19,12 +19,12 @@ Number.Sin(
 
 ## Remarks
 
-<code>number</code> のサインを返します。
+`number` のサインを返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 角度 0 のサインを求めます。
 ```powerquery
 Number.Sin(0)

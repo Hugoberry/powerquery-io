@@ -5,7 +5,7 @@ title: Table.Last
 # Table.Last
 
 
-Restituisce l&#39;ultima riga o un valore predefinito specificato.
+Restituisce l'ultima riga o un valore predefinito specificato.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Table.Last(
 
 ## Remarks
 
-Restituisce l'ultima riga di <code>table</code> o il valore predefinito facoltativo <code>default</code>, se la tabella è vuota.
+Restituisce l'ultima riga di `table` o il valore predefinito facoltativo `default`, se la tabella è vuota.
 
 
 ## Examples
 
-### Example #1 
-Trovare l&#39;ultima riga della tabella.
+### Example #1
+Trovare l'ultima riga della tabella.
 ```powerquery
 Table.Last(
     Table.FromRecords({
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-Trovare l&#39;ultima riga della tabella &lt;code&gt;(\{})&lt;/code&gt; o restituire [a = 0, b = 0] se vuota.
+### Example #2
+Trovare l'ultima riga della tabella `({})` o restituire \[a = 0, b = 0\] se vuota.
 ```powerquery
 Table.Last(Table.FromRecords({}), [a = 0, b = 0])
 ```

@@ -25,7 +25,7 @@ Convierte una tabla en una lista aplicando la función de combinación especific
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combinar el texto de cada fila con una coma.
 ```powerquery
 Table.ToList(

@@ -19,12 +19,12 @@ Record.FieldValues(
 
 ## Remarks
 
-返回记录 <code>record</code> 中的字段值列表。
+返回记录 `record` 中的字段值列表。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 在记录中查找字段值。
 ```powerquery
 Record.FieldValues([CustomerID = 1, Name = "Bob", Phone = "123-4567"])

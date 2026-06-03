@@ -21,12 +21,12 @@ Table.RemoveRows(
 
 ## Remarks
 
-Remover <code>count</code> de linha a partir do início de <code>table</code>, começando no <code>offset</code> especificado. É utilizada uma contagem predefinida de 1, se o parâmetro <code>count</code> não for fornecido. 
+Remover `count` de linha a partir do início de `table`, começando no `offset` especificado. É utilizada uma contagem predefinida de 1, se o parâmetro `count` não for fornecido.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Remover a primeira linha da tabela.
 ```powerquery
 Table.RemoveRows(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Remover a linha na posição 1 da tabela.
 ```powerquery
 Table.RemoveRows(
@@ -74,7 +74,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Remover duas linhas começadas na posição 1 da tabela.
 ```powerquery
 Table.RemoveRows(

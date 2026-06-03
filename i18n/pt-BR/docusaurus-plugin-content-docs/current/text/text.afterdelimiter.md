@@ -21,13 +21,13 @@ Text.AfterDelimiter(
 
 ## Remarks
 
-Retorna a porção de <code>text</code> depois do <code>delimiter</code> especificado.    Um valor numérico opcional <code>index</code> indica a ocorrência do <code>delimiter</code> que deve ser considerada.    Uma lista opcional <code>index</code> indica a ocorrência do <code>delimiter</code> que deve ser considerada, assim como se a indexação deve ser feita a partir do início ou do final da entrada.
+Retorna a porção de `text` depois do `delimiter` especificado. Um valor numérico opcional `index` indica a ocorrência do `delimiter` que deve ser considerada. Uma lista opcional `index` indica a ocorrência do `delimiter` que deve ser considerada, assim como se a indexação deve ser feita a partir do início ou do final da entrada.
 
 
 ## Examples
 
-### Example #1 
-Obtenha a porção de &#34;111-222-333&#34; depois do (primeiro) hífen.
+### Example #1
+Obtenha a porção de "111-222-333" depois do (primeiro) hífen.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Obtenha a porção de &#34;111-222-333&#34; depois do segundo hífen.
+### Example #2
+Obtenha a porção de "111-222-333" depois do segundo hífen.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-", 1)
 ```
@@ -50,8 +50,8 @@ Result:
 ```
 
 
-### Example #3 
-Obtenha a porção de &#34;111-222-333&#34; depois do segundo hífen a partir do fim.
+### Example #3
+Obtenha a porção de "111-222-333" depois do segundo hífen a partir do fim.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-", {1, RelativePosition.FromEnd})
 ```

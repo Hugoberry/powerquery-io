@@ -20,12 +20,15 @@ Table.FirstN(
 
 ## Remarks
 
-<code>countOrCondition</code> değerine bağlı olarak <code>table</code> tablosunun ilk satırlarını döndürür:    <ul>    <li> <code>countOrCondition</code> bir sayı ise, bu sayıda satır (üstten başlayarak) döndürülür. </li>    <li> <code>countOrCondition</code> bir koşul ise, koşulu sağlayan satırlar herhangi bir satırı koşulu sağlamayana kadar döndürülür.</li></ul>
+`countOrCondition` değerine bağlı olarak `table` tablosunun ilk satırlarını döndürür:
+
+-   `countOrCondition` bir sayı ise, bu sayıda satır (üstten başlayarak) döndürülür.
+-   `countOrCondition` bir koşul ise, koşulu sağlayan satırlar herhangi bir satırı koşulu sağlamayana kadar döndürülür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablonun ilk iki satırını bulur.
 ```powerquery
 Table.FirstN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Tabloda [a] &gt; 0 koşulunu sağlayan ilk satırları bulur.
+### Example #2
+Tabloda \[a\] > 0 koşulunu sağlayan ilk satırları bulur.
 ```powerquery
 Table.FirstN(
     Table.FromRecords({

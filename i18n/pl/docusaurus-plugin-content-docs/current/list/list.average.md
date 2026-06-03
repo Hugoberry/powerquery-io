@@ -20,13 +20,13 @@ List.Average(
 
 ## Remarks
 
-Zwraca średnią wartość elementów na liście <code>list</code>. Wynik ma taki sam typ danych jak wartości na liście. Ta funkcja działa tylko z wartościami typu number, date, time, datetime, datetimezone i duration.    Jeśli lista jest pusta, zwracana jest wartość null.
+Zwraca średnią wartość elementów na liście `list`. Wynik ma taki sam typ danych jak wartości na liście. Ta funkcja działa tylko z wartościami typu number, date, time, datetime, datetimezone i duration. Jeśli lista jest pusta, zwracana jest wartość null.
 
 
 ## Examples
 
-### Example #1 
-Znajdź średnią z listy liczb &lt;code&gt;\{3, 4, 6}&lt;/code&gt;.
+### Example #1
+Znajdź średnią z listy liczb `{3, 4, 6}`.
 ```powerquery
 List.Average({3, 4, 6})
 ```
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Znajdź średnią z wartości dat 1 stycznia 2011, 2 stycznia 2011 i 3 stycznia 2011.
 ```powerquery
 List.Average({#date(2011, 1, 1), #date(2011, 1, 2), #date(2011, 1, 3)})

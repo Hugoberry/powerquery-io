@@ -20,25 +20,29 @@ Text.SplitAny(
 
 ## Remarks
 
-Zwraca listę wartości tekstowych powstałą w wyniku wykonania podziału wartości tekstowej <code>text</code> przy użyciu dowolnego ze znaków w określonym ograniczniku <code>separators</code>.
+Zwraca listę wartości tekstowych wynikających z podziału wartości tekstowej na podstawie dowolnego znaku określonego w ograniczniku.
+
+-   `text`: wartość tekstowa do podzielenia.
+-   `separators`: znaki ogranicznika używane do dzielenia tekstu.
 
 
 ## Examples
 
-### Example #1 
-Utwórz listę na podstawie wartości tekstowej „Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com”.
+### Example #1
+Utwórz listę na podstawie danego tekstu przy użyciu określonych znaków ogranicznika.
 ```powerquery
-Text.SplitAny("Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com", "|")
+Text.SplitAny("Name|Customer ID|Purchase|Month-Day-Year", "|-")
 ```
 
 Result: 
 ```powerquery
 {
-    "Jamie",
-    "Campbell",
-    "Admin",
-    "Adventure Works",
-    "www.adventure-works.com"
+    "Name",
+    "Customer ID",
+    "Purchase",
+    "Month",
+    "Day",
+    "Year"
 }
 ```
 

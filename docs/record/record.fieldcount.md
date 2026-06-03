@@ -19,12 +19,12 @@ Record.FieldCount(
 
 ## Remarks
 
-Returns the number of fields in the record <code>record</code>.
+Returns the number of fields in the record `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find the number of fields in the record.
 ```powerquery
 Record.FieldCount([CustomerID = 1, Name = "Bob"])

@@ -20,12 +20,12 @@ Number.Log(
 
 ## Remarks
 
-数値 <code>number</code> の、指定された <code>base</code> を底とする対数を返します。<code>base</code> を指定しなかった場合、既定値は Number.E です。    <code>number</code> が null の場合、<code>Number.Log</code> は null を返します。
+数値 `number` の、指定された `base` を底とする対数を返します。`base` を指定しなかった場合、既定値は Number.E です。 `number` が null の場合、`Number.Log` は null を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 2 の 10 を底とする対数を取得します。
 ```powerquery
 Number.Log(2, 10)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 e を底とする 2 の対数を取得します。
 ```powerquery
 Number.Log(2)

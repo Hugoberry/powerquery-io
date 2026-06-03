@@ -20,13 +20,13 @@ Double.From(
 
 ## Remarks
 
-Hiermee wordt een Double <code>number</code>-waarde geretourneerd vanuit de opgegeven <code>value</code>. Als de opgegeven <code>value</code> de waarde <code>null</code> heeft, wordt door <code>Double.From</code> de waarde <code>null</code> geretourneerd. Als de opgegeven <code>value</code> een <code>number</code>-waarde heeft binnen het bereik van Double, wordt <code>value</code> geretourneerd. In andere gevallen wordt een fout geretourneerd. Als <code>value</code> van een ander type is, wordt deze eerst geconverteerd naar een <code>number</code> met behulp van <code>Number.FromText</code>. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
+Hiermee wordt een Double `number`\-waarde geretourneerd vanuit de opgegeven `value`. Als de opgegeven `value` de waarde `null` heeft, wordt door `Double.From` de waarde `null` geretourneerd. Als de opgegeven `value` een `number`\-waarde heeft binnen het bereik van Double, wordt `value` geretourneerd. In andere gevallen wordt een fout geretourneerd. Als `value` van een ander type is, wordt deze eerst geconverteerd naar een `number` met behulp van `Number.FromText`. Er kan ook een optionele `culture` worden opgegeven (bijvoorbeeld: nl-NL).
 
 
 ## Examples
 
-### Example #1 
-De &lt;code&gt;number&lt;/code&gt;-waarde voor Dubbel uit &lt;code&gt;&#34;4&#34;&lt;/code&gt; ophalen.
+### Example #1
+De `number`\-waarde voor Dubbel uit `"4"` ophalen.
 ```powerquery
 Double.From("4.5")
 ```

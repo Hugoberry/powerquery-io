@@ -21,12 +21,12 @@ Text.PadEnd(
 
 ## Remarks
 
-Devolve um valor <code>text</code> preenchido até ao comprimento <code>count</code> através da inserção de espaço no final do valor de texto <code>text</code>.    É possível utilizar um caráter opcional <code>character</code> para especificar o caráter utilizado para preenchimento. O caráter de preenchimento predefinido é um espaço.
+Devolve um valor `text` preenchido até ao comprimento `count` através da inserção de espaço no final do valor de texto `text`. É possível utilizar um caráter opcional `character` para especificar o caráter utilizado para preenchimento. O caráter de preenchimento predefinido é um espaço.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Preenche o final do valor de texto de modo a que tenha 10 carateres de comprimento.
 ```powerquery
 Text.PadEnd("Name", 10)
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Preencher o final de um valor de texto com &#34;|&#34; para que tenha 10 carateres de comprimento.
+### Example #2
+Preencher o final de um valor de texto com "|" para que tenha 10 carateres de comprimento.
 ```powerquery
 Text.PadEnd("Name", 10, "|")
 ```

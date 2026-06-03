@@ -19,12 +19,12 @@ DateTimeZone.ToLocal(
 
 ## Remarks
 
-Zmienia informacje dotyczące strefy czasowej w wartości typu datetimezone <code>dateTimeZone</code> na informacje dotyczące lokalnej strefy czasowej.    Jeśli wartość <code>dateTimeZone</code> nie ma składnika strefy czasowej, dodawane są informacje dotyczące lokalnej strefy czasowej.
+Zmienia informacje dotyczące strefy czasowej w wartości typu datetimezone `dateTimeZone` na informacje dotyczące lokalnej strefy czasowej. Jeśli wartość `dateTimeZone` nie ma składnika strefy czasowej, dodawane są informacje dotyczące lokalnej strefy czasowej.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zmień informacje dotyczące strefy czasowej dla wartości typu #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) na informacje dotyczące lokalnej strefy czasowej (przy założeniu PST).
 ```powerquery
 DateTimeZone.ToLocal(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30))

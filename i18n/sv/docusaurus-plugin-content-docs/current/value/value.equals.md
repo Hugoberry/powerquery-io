@@ -21,7 +21,7 @@ Value.Equals(
 
 ## Remarks
 
-Returnerar true om värdet <code>value1</code> är lika med värdet <code>value2</code>. Annars returneras false.
+Returnerar true om värdet `value1` är lika med värdet `value2`. Annars returneras false.
 
 
 

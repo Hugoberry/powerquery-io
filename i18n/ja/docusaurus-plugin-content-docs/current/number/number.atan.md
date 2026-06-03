@@ -19,7 +19,7 @@ Number.Atan(
 
 ## Remarks
 
-<code>number</code> のアークタンジェントを返します。
+`number` のアークタンジェントを返します。
 
 
 

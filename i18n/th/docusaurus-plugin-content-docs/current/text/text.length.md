@@ -19,13 +19,13 @@ Text.Length(
 
 ## Remarks
 
-ส่งกลับจำนวนอักขระในข้อความ <code>text</code>
+ส่งกลับจำนวนอักขระในข้อความ `text`
 
 
 ## Examples
 
-### Example #1 
-หาจำนวนอักขระที่อยู่ในข้อความ &#34;Hello World&#34;
+### Example #1
+หาจำนวนอักขระที่อยู่ในข้อความ "Hello World"
 ```powerquery
 Text.Length("Hello World")
 ```

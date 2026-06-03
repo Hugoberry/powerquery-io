@@ -20,12 +20,12 @@ Table.FindText(
 
 ## Remarks
 
-Retourneert uit de tabel <code>table</code> de rijen die de opgegeven tekst <code>text</code> bevatten. Als de tekst niet wordt gevonden, wordt er een lege tabel geretourneerd.
+Retourneert uit de tabel `table` de rijen die de opgegeven tekst `text` bevatten. Als de tekst niet wordt gevonden, wordt er een lege tabel geretourneerd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De rijen in de tabel zoeken die Bob bevatten.
 ```powerquery
 Table.FindText(

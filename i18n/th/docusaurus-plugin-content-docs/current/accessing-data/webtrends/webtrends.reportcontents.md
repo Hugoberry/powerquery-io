@@ -27,7 +27,7 @@ Webtrends.ReportContents(
 
 ## Examples
 
-### Example #1 
+### Example #1
 เรียกหาจุดแสดงผลรายงานของผู้เยี่ยมชม Webtrends สำหรับข้อมูลใน 30 วันล่าสุด
 ```powerquery
 Webtrends.ReportContents("98765", "xPcmTDDP0P6")

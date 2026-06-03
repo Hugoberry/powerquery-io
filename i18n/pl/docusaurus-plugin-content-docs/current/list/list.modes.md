@@ -20,13 +20,13 @@ List.Modes(
 
 ## Remarks
 
-Zwraca element najczęściej występujący na liście <code>list</code>. Jeśli lista jest pusta, jest zwracany wyjątek. Jeśli wiele elementów ma taką samą częstotliwość występowania, jest wybierany ostatni z nich.    W celu sterowania testowaniem jakości można określić opcjonalną wartość <code>comparisonCriteria</code>: <code>equationCriteria</code>. 
+Zwraca elementy najczęściej wyświetlane w liście`list`. Jeśli lista jest pusta, zgłaszany jest błąd. Jeśli wiele elementów jest wyświetlanych z taką samą maksymalną częstotliwością, są zwracane wszystkie z nich. Można określić opcjonalną wartość kryteriów porównawczych, `equationCriteria`, aby kontrolować testowanie równości.
 
 
 ## Examples
 
-### Example #1 
-Znajdź elementy najczęściej występujące na liście &lt;code&gt;\{&#34;A&#34;, 1, 2, 3, 3, 4, 5, 5}&lt;/code&gt;.
+### Example #1
+Znajdź elementy najczęściej występujące na liście `{"A", 1, 2, 3, 3, 4, 5, 5}`.
 ```powerquery
 List.Modes({"A", 1, 2, 3, 3, 4, 5, 5})
 ```

@@ -19,12 +19,14 @@ DateTime.IsInPreviousSecond(
 
 ## Remarks
 
-Angiver, om den anførte datetime-værdi <code>dateTime</code> er indtruffet i løbet af det forrige sekund, fastlagt i forhold til aktuel dato og aktuelt klokkeslæt i systemet. Bemærk, at denne funktion returnerer false, når den modtager en værdi, der indtræffer i løbet af det aktuelle sekund.      <ul> <li><code>dateTime</code>: En <code>datetime</code>- eller <code>datetimezone</code>-værdi, der skal evalueres.      </li>      </ul>
+Angiver, om den anførte datetime-værdi `dateTime` er indtruffet i løbet af det forrige sekund, fastlagt i forhold til aktuel dato og aktuelt klokkeslæt i systemet. Bemærk, at denne funktion returnerer false, når den modtager en værdi, der indtræffer i løbet af det aktuelle sekund.
+
+-   `dateTime`: En `datetime`\- eller `datetimezone`\-værdi, der skal evalueres.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bestem, om sekundet før den aktuelle systemtid er i det forrige sekund.
 ```powerquery
 DateTime.IsInPreviousSecond(DateTime.FixedLocalNow() - #duration(0, 0, 0, 1))

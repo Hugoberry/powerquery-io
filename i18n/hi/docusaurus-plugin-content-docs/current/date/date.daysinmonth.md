@@ -19,13 +19,15 @@ Date.DaysInMonth(
 
 ## Remarks
 
-महीने के दिनों की संख्या को <code>तिथि</code>, <code>datetime</code> या <code>datetimezone</code> मान <code>dateTime</code> में लौटाता है. <ul>        <li><code>dateTime</code>: एक ऐसा <code>तिथि</code>, <code>datetime</code> या <code>datetimezone</code> मान, जिसके लिए महीने के दिनों की संख्या लौटाई जाती है.</li>      </ul>
+महीने के दिनों की संख्या को `तिथि`, `datetime` या `datetimezone` मान `dateTime` में लौटाता है.
+
+-   `dateTime`: एक ऐसा `तिथि`, `datetime` या `datetimezone` मान, जिसके लिए महीने के दिनों की संख्या लौटाई जाती है.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;#date(2011, 12, 01)&gt;&lt;/code&gt; द्वारा प्रस्तुत किए गए अनुसार दिसंबर महीने के दिनों की संख्या.
+### Example #1
+`#date(2011, 12, 01)` द्वारा प्रस्तुत किए गए अनुसार दिसंबर माह के दिनों की संख्या.
 ```powerquery
 Date.DaysInMonth(#date(2011, 12, 01))
 ```

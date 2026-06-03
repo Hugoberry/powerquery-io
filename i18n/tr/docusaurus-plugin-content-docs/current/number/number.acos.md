@@ -19,7 +19,7 @@ Number.Acos(
 
 ## Remarks
 
-<code>number</code> değerinin arkkosinüsünü döndürür.
+`number` değerinin arkkosinüsünü döndürür.
 
 
 

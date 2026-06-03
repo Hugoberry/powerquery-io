@@ -19,7 +19,7 @@ Number.Atan(
 
 ## Remarks
 
-ส่งกลับค่าอาร์กแทนเจนต์ของ <code>number</code>
+ส่งกลับค่าอาร์กแทนเจนต์ของ `number`
 
 
 

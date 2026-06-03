@@ -20,13 +20,17 @@ Table.RemoveLastN(
 
 ## Remarks
 
-Restituisce una tabella che non contiene le ultime <code>countOrCondition</code> righe della tabella <code>table</code>.        Il numero di righe rimosse dipende dal parametro facoltativo <code>countOrCondition</code>.    <ul>    <li> Se <code>countOrCondition</code> viene omesso, verrà rimossa solo l'ultima riga. </li>    <li> Se <code>countOrCondition</code> è un numero, verrà rimosso lo stesso numero di righe, a partire dal basso. </li>    <li> Se <code>countOrCondition</code> è una condizione, verranno rimosse le righe che soddisfano la condizione finché non viene trovata una riga che non soddisfa la condizione.</li>    </ul>
+Restituisce una tabella che non contiene le ultime `countOrCondition` righe della tabella `table`. Il numero di righe rimosse dipende dal parametro facoltativo `countOrCondition`.
+
+-   Se `countOrCondition` viene omesso, verrà rimossa solo l'ultima riga.
+-   Se `countOrCondition` è un numero, verrà rimosso lo stesso numero di righe, a partire dal basso.
+-   Se `countOrCondition` è una condizione, verranno rimosse le righe che soddisfano la condizione finché non viene trovata una riga che non soddisfa la condizione.
 
 
 ## Examples
 
-### Example #1 
-Rimuovere l&#39;ultima riga della tabella.
+### Example #1
+Rimuovere l'ultima riga della tabella.
 ```powerquery
 Table.RemoveLastN(
     Table.FromRecords({
@@ -49,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Rimuovere le ultime righe in cui [CustomerID] &gt; 2 della tabella.
+### Example #2
+Rimuovere le ultime righe in cui \[CustomerID\] > 2 della tabella.
 ```powerquery
 Table.RemoveLastN(
     Table.FromRecords({

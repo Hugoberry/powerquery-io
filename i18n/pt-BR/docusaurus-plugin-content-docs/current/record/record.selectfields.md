@@ -21,13 +21,13 @@ Record.SelectFields(
 
 ## Remarks
 
-Retorna um registro que inclui somente os campos especificados na lista <code>fields</code> da entrada <code>record</code>.
+Retorna um registro que inclui somente os campos especificados na lista `fields` da entrada `record`.
 
 
 ## Examples
 
-### Example #1 
-Selecionar os campos &#34;Item&#34; e &#34;Price&#34; no registro.
+### Example #1
+Selecionar os campos "Item" e "Price" no registro.
 ```powerquery
 Record.SelectFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0],

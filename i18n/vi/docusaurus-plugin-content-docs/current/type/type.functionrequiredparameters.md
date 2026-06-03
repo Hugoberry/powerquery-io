@@ -19,13 +19,13 @@ Type.FunctionRequiredParameters(
 
 ## Remarks
 
-Trả về một số cho biết số nhỏ nhất của tham số cần để gọi đầu vào <code>type</code> của hàm.
+Trả về một số cho biết số nhỏ nhất của tham số cần để gọi đầu vào `type` của hàm.
 
 
 ## Examples
 
-### Example #1 
-Tìm số của tham số cần thiết cho hàm &lt;code&gt;(x là số, y là văn bản tùy chọn)&lt;/code&gt;.
+### Example #1
+Tìm số của tham số cần thiết cho hàm `(x là số, y là văn bản tùy chọn)`.
 ```powerquery
 Type.FunctionRequiredParameters(type function (x as number, optional y as text) as any)
 ```

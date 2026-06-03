@@ -19,12 +19,12 @@ Time.Minute(
 
 ## Remarks
 
-Retourneert het minuutgedeelte van de opgegeven waarde <code>dateTime</code> voor <code>time</code>, <code>datetime</code> of <code>datetimezone</code>.
+Retourneert het minuutgedeelte van de opgegeven waarde `dateTime` voor `time`, `datetime` of `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De minuut zoeken in #datetime(2011, 12, 31, 9, 15, 36).
 ```powerquery
 Time.Minute(#datetime(2011, 12, 31, 9, 15, 36))

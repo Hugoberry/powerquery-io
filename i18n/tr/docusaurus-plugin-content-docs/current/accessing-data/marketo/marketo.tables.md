@@ -5,7 +5,7 @@ title: Marketo.Tables
 # Marketo.Tables
 
 
-Hesabınızla ilişkili olan Marketo REST API uç noktasına ilişkin URL&#39;yi belirtin.
+Hesabınızla ilişkili olan Marketo REST API uç noktasına ilişkin URL'yi belirtin.
 
 
 ## Syntax

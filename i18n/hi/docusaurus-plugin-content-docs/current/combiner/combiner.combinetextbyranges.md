@@ -25,7 +25,7 @@ Combiner.CombineTextByRanges(
 
 ## Examples
 
-### Example #1 
+### Example #1
 निर्दिष्ट आउटपुट स्थितियों और लंबाई का उपयोग करके टेक्स्ट मानों की सूची संयोजित करें.
 ```powerquery
 Combiner.CombineTextByRanges({{0, 1}, {3, 2}, {6, null}})({"abc", "def", "ghijkl"})

@@ -24,7 +24,7 @@ MailChimp.TablesV2(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Возвращает таблицу с ключевыми данными MailChimp.
 ```powerquery
 MailChimp.Tables()

@@ -22,13 +22,13 @@ Table.DuplicateColumn(
 
 ## Remarks
 
-將名為 <code>columnName</code> 的資料行複製到資料表 <code>table</code>。資料行 <code>newColumnName</code> 的值和類型是從資料行 <code>columnName</code> 複製的。
+將名為 `columnName` 的資料行複製到資料表 `table`。資料行 `newColumnName` 的值和類型是從資料行 `columnName` 所複製。
 
 
 ## Examples
 
-### Example #1 
-將資料行 &#34;a&#34; 複製到資料表 &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; 中名為 &#34;copied column&#34; 的資料行。
+### Example #1
+將資料行 "a" 複製到資料表 `({[a = 1, b = 2], [a = 3, b = 4]})` 中名為 "copied column" 的資料行。
 ```powerquery
 Table.DuplicateColumn(
     Table.FromRecords({

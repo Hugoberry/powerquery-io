@@ -20,12 +20,16 @@ Table.Skip(
 
 ## Remarks
 
-Gibt eine Tabelle zurück, in der die angegebene Anzahl von Zeilen (<code>countOrCondition</code>; beginnend von oben) der Tabelle "<code>table</code>" nicht enthalten ist.    Wie viele Zeilen übersprungen werden, hängt vom optionalen Parameter "<code>countOrCondition</code>" ab.    <ul>    <li> Ohne Angabe von "<code>countOrCondition</code>" wird lediglich die erste Zeile übersprungen. </li>    <li> Ist "<code>countOrCondition</code>" eine Zahl, wird die entsprechende Anzahl von Zeilen (beginnend von oben) übersprungen. </li>    <li> Ist "<code>countOrCondition</code>" eine Bedingung, werden so lange Zeilen übersprungen, die die Bedingung erfüllen, bis eine Zeile die Bedingung nicht erfüllt.</li>    </ul>
+Gibt eine Tabelle zurück, in der die angegebene Anzahl von Zeilen (`countOrCondition`; beginnend von oben) der Tabelle "`table`" nicht enthalten ist. Wie viele Zeilen übersprungen werden, hängt vom optionalen Parameter "`countOrCondition`" ab.
+
+-   Ohne Angabe von "`countOrCondition`" wird lediglich die erste Zeile übersprungen.
+-   Ist "`countOrCondition`" eine Zahl, wird die entsprechende Anzahl von Zeilen (beginnend von oben) übersprungen.
+-   Ist "`countOrCondition`" eine Bedingung, werden so lange Zeilen übersprungen, die die Bedingung erfüllen, bis eine Zeile die Bedingung nicht erfüllt.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Überspringt die erste Zeile der Tabelle.
 ```powerquery
 Table.Skip(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Überspringt die ersten beiden Zeilen der Tabelle.
 ```powerquery
 Table.Skip(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Überspringt die ersten Zeilen in der Tabelle, die die Bedingung &#34;[Price] &gt; 25&#34; erfüllen.
+### Example #3
+Überspringt die ersten Zeilen in der Tabelle, die die Bedingung "\[Price\] > 25" erfüllen.
 ```powerquery
 Table.Skip(
     Table.FromRecords({

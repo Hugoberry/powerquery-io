@@ -19,7 +19,9 @@ Type.TableSchema(
 
 ## Remarks
 
-Returns a table describing the columns of <code>tableType</code>.<br />Refer to the documentation for <code>Table.Schema</code> for a description of the resulting table.<br />
+Returns a table describing the columns of `tableType`.
+
+Refer to the documentation for `Table.Schema` for a description of the resulting table.
 
 
 

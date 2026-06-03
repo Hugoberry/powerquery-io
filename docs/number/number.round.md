@@ -21,12 +21,19 @@ Number.Round(
 
 ## Remarks
 
-Returns the result of rounding <code>number</code> to the nearest number. If <code>number</code> is null, <code>Number.Round</code> returns null.<br />      <br />      By default, <code>number</code> is rounded to the nearest integer, and ties are broken by rounding to the nearest even number (using <code>RoundingMode.ToEven</code>, also known as "banker's rounding").<br />      <br />      However, these defaults can be overridden via the following optional parameters.      <ul>        <li><code>digits</code>: Causes <code>number</code> to be rounded to the specified number of decimal digits.</li>        <li><code>roundingMode</code>: Overrides the default tie-breaking behavior when <code>number</code> is at the midpoint between two potential rounded values      (refer to <code>RoundingMode.Type</code> for possible values).</li>      </ul>
+Returns the result of rounding `number` to the nearest number. If `number` is null, `Number.Round` returns null.  
+  
+By default, `number` is rounded to the nearest integer, and ties are broken by rounding to the nearest even number (using `RoundingMode.ToEven`, also known as "banker's rounding").  
+  
+However, these defaults can be overridden via the following optional parameters.
+
+-   `digits`: Causes `number` to be rounded to the specified number of decimal digits.
+-   `roundingMode`: Overrides the default tie-breaking behavior when `number` is at the midpoint between two potential rounded values (refer to `RoundingMode.Type` for possible values).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Round 1.234 to the nearest integer.
 ```powerquery
 Number.Round(1.234)
@@ -38,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Round 1.56 to the nearest integer.
 ```powerquery
 Number.Round(1.56)
@@ -50,7 +57,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Round 1.2345 to two decimal places.
 ```powerquery
 Number.Round(1.2345, 2)
@@ -62,7 +69,7 @@ Result:
 ```
 
 
-### Example #4 
+### Example #4
 Round 1.2345 to three decimal places (Rounding up).
 ```powerquery
 Number.Round(1.2345, 3, RoundingMode.Up)
@@ -74,7 +81,7 @@ Result:
 ```
 
 
-### Example #5 
+### Example #5
 Round 1.2345 to three decimal places (Rounding down).
 ```powerquery
 Number.Round(1.2345, 3, RoundingMode.Down)

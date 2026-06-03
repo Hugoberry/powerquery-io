@@ -20,7 +20,7 @@ Number.BitwiseAnd(
 
 ## Remarks
 
-Gibt das Ergebnis der Ausführung eines bitweisen UND-Vorgangs zwischen "<code>number1</code>" und "<code>number2</code>" zurück.
+Gibt das Ergebnis der Ausführung eines bitweisen UND-Vorgangs zwischen "`number1`" und "`number2`" zurück.
 
 
 

@@ -21,12 +21,12 @@ Text.PadEnd(
 
 ## Remarks
 
-Restituisce il valore <code>text</code> riempito fino al raggiungimento della lunghezza <code>count</code> inserendo spazi alla fine del valore di testo <code>text</code>.    Facoltativamente, è possibile usare il carattere <code>character</code> per specificare il carattere usato per il riempimento. Il carattere di riempimento predefinito è uno spazio.
+Restituisce il valore `text` riempito fino al raggiungimento della lunghezza `count` inserendo spazi alla fine del valore di testo `text`. Facoltativamente, è possibile usare il carattere `character` per specificare il carattere usato per il riempimento. Il carattere di riempimento predefinito è uno spazio.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Riempire la fine di un valore di testo in modo da raggiungere la lunghezza di 10 caratteri.
 ```powerquery
 Text.PadEnd("Name", 10)
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Riempire la fine di un valore di testo con &#34;|&#34; in modo da raggiungere la lunghezza di 10 caratteri.
+### Example #2
+Riempire la fine di un valore di testo con "|" in modo da raggiungere la lunghezza di 10 caratteri.
 ```powerquery
 Text.PadEnd("Name", 10, "|")
 ```

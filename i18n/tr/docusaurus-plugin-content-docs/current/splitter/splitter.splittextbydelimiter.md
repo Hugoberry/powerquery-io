@@ -13,7 +13,8 @@ Bir metin listesine belirtilen sınırlayıcıya göre metin ayıran bir işlev 
 ```powerquery
 Splitter.SplitTextByDelimiter(
     delimiter as text,
-    optional quoteStyle as QuoteStyle.Type
+    optional quoteStyle as QuoteStyle.Type,
+    optional csvStyle as CsvStyle.Type
 ) as function
 ```
 
@@ -25,7 +26,7 @@ Bir metin listesine belirtilen sınırlayıcıya göre metin ayıran bir işlev 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tırnak işaretli virgülleri yok sayarak girişi virgülle bölün.
 ```powerquery
 Splitter.SplitTextByDelimiter(",", QuoteStyle.Csv)("a,""b,c"",d")

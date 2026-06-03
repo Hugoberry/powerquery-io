@@ -20,12 +20,15 @@ Number.Power(
 
 ## Remarks
 
-Retorna o resultado de elevar <code>number</code> à <code>power</code>ª potência.    Se <code>number</code> ou <code>power</code> forem nulos, <code>Number.Power</code> retornará nulo.      <ul>        <li><code>number</code>: a base.</li>        <li><code>power</code>: o expoente.</li>      </ul>
+Retorna o resultado de elevar `number` à `power`ª potência. Se `number` ou `power` forem nulos, `Number.Power` retornará nulo.
+
+-   `number`: a base.
+-   `power`: o expoente.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Localize o valor 5 elevado à potência 3 (5 cúbico).
 ```powerquery
 Number.Power(5, 3)

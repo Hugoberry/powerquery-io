@@ -20,13 +20,13 @@ List.Intersect(
 
 ## Remarks
 
-<code>lists</code> girdi listesinde bulunan liste değerlerinin kesişimini geri gönderir. <code>equationCriteria</code> isteğe bağlı parametre de belirtilebilir.
+`lists` girdi listesinde bulunan liste değerlerinin kesişimini geri gönderir. `equationCriteria` isteğe bağlı parametre de belirtilebilir.
 
 
 ## Examples
 
-### Example #1 
-\{1..5}, \{2..6}, \{3..7} listelerinin kesişimini bulur.
+### Example #1
+\{1..5\}, \{2..6\}, \{3..7\} listelerinin kesişimini bulur.
 ```powerquery
 List.Intersect({{1..5}, {2..6}, {3..7}})
 ```

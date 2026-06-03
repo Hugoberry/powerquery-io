@@ -19,13 +19,13 @@ List.IsEmpty(
 
 ## Remarks
 
-Vuelve <code>true</code> si la lista <code>list</code> no contiene ningún valor (length 0). Si la lista contiene valores (length > 0), devuelve <code>false</code>.
+Vuelve `true` si la lista `list` no contiene ningún valor (length 0). Si la lista contiene valores (length > 0), devuelve `false`.
 
 
 ## Examples
 
-### Example #1 
-Buscar si la lista \{} está vacía.
+### Example #1
+Buscar si la lista \{\} está vacía.
 ```powerquery
 List.IsEmpty({})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Buscar si la lista \{1, 2} está vacía.
+### Example #2
+Buscar si la lista \{1, 2\} está vacía.
 ```powerquery
 List.IsEmpty({1, 2})
 ```

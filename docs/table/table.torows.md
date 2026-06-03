@@ -19,12 +19,12 @@ Table.ToRows(
 
 ## Remarks
 
-Creates a list of nested lists from the table, <code>table</code>.  Each list item is an inner list that contains the row values.
+Creates a list of nested lists from the table, `table`. Each list item is an inner list that contains the row values.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Create a list of the row values from the table.
 ```powerquery
 Table.ToRows(

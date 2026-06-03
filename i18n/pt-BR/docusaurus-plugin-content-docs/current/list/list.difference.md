@@ -21,13 +21,13 @@ List.Difference(
 
 ## Remarks
 
-Retorna os itens na lista <code>list1</code> que não aparecem na lista <code>list2</code>. Valores duplicados não são compatíveis.    Um valor de critérios de equação opcional, <code>equationCriteria</code>, pode ser especificado para controlar o teste de igualdade. 
+Retorna os itens na lista `list1` que não aparecem na lista `list2`. Valores duplicados não são compatíveis. Um valor de critérios de equação opcional, `equationCriteria`, pode ser especificado para controlar o teste de igualdade.
 
 
 ## Examples
 
-### Example #1 
-Localize os itens na lista \{1, 2, 3, 4, 5} que não aparecem em \{4, 5, 3}.
+### Example #1
+Localize os itens na lista \{1, 2, 3, 4, 5\} que não aparecem em \{4, 5, 3\}.
 ```powerquery
 List.Difference({1, 2, 3, 4, 5}, {4, 5, 3})
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Localize os itens na lista \{1, 2} que não aparecem em \{1, 2, 3}.
+### Example #2
+Localize os itens na lista \{1, 2\} que não aparecem em \{1, 2, 3\}.
 ```powerquery
 List.Difference({1, 2}, {1, 2, 3})
 ```

@@ -13,7 +13,8 @@ title: Splitter.SplitTextByDelimiter
 ```powerquery
 Splitter.SplitTextByDelimiter(
     delimiter as text,
-    optional quoteStyle as QuoteStyle.Type
+    optional quoteStyle as QuoteStyle.Type,
+    optional csvStyle as CsvStyle.Type
 ) as function
 ```
 
@@ -25,7 +26,7 @@ Splitter.SplitTextByDelimiter(
 
 ## Examples
 
-### Example #1 
+### Example #1
 उद्धृत अल्पविरामों पर ध्यान न देते हुए, इनपुट को अल्पविराम द्वारा विभाजित करें.
 ```powerquery
 Splitter.SplitTextByDelimiter(",", QuoteStyle.Csv)("a,""b,c"",d")

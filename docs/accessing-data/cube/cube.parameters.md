@@ -19,7 +19,7 @@ Cube.Parameters(
 
 ## Remarks
 
-Returns a table containing the set of parameters that can be applied to <code>cube</code>. Each parameter is a function that can be invoked to get <code>cube</code> with the parameter and its arguments applied.
+Returns a table containing the set of parameters that can be applied to `cube`. Each parameter is a function that can be invoked to get `cube` with the parameter and its arguments applied.
 
 
 

@@ -20,12 +20,16 @@ Table.RemoveFirstN(
 
 ## Remarks
 
-Restituisce una tabella non contiene il primo numero specificato di righe <code>countOrCondition</code> della tabella <code>table</code>.    Il numero di righe rimosse dipende dal parametro facoltativo <code>countOrCondition</code>.    <ul>    <li> Se <code>countOrCondition</code> viene omesso, verrà rimossa solo la prima riga. </li>    <li> Se <code>countOrCondition</code> è un numero, verrà rimosso lo stesso numero di righe, a partire dall'alto. </li>    <li> Se <code>countOrCondition</code> è una condizione, verranno rimosse le righe che soddisfano la condizione finché non viene trovata una riga che non soddisfa la condizione.</li>    </ul>
+Restituisce una tabella non contiene il primo numero specificato di righe `countOrCondition` della tabella `table`. Il numero di righe rimosse dipende dal parametro facoltativo `countOrCondition`.
+
+-   Se `countOrCondition` viene omesso, verrà rimossa solo la prima riga.
+-   Se `countOrCondition` è un numero, verrà rimosso lo stesso numero di righe, a partire dall'alto.
+-   Se `countOrCondition` è una condizione, verranno rimosse le righe che soddisfano la condizione finché non viene trovata una riga che non soddisfa la condizione.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Rimuovere la prima riga della tabella.
 ```powerquery
 Table.RemoveFirstN(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Rimuovere le prime due righe della tabella.
 ```powerquery
 Table.RemoveFirstN(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Rimuovere le prime righe in cui [CustomerID] &lt;=2 della tabella.
+### Example #3
+Rimuovere le prime righe in cui \[CustomerID\] &lt;=2 della tabella.
 ```powerquery
 Table.RemoveFirstN(
     Table.FromRecords({

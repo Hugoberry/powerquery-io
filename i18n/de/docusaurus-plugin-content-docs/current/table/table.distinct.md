@@ -20,12 +20,14 @@ Table.Distinct(
 
 ## Remarks
 
-Entfernt doppelte Zeilen aus der Tabelle.    Ein optionaler Parameter <code>equationCriteria</code> gibt an, welche Spalten der Tabelle auf Duplizierung getestet werden. Wenn <code>equationCriteria</code> nicht angegeben ist, werden alle Spalten getestet.<br />    <br />    Da Power Query manchmal bestimmte Vorgänge an Back-End-Datenquellen auslagert (bekannt als „Faltung“), und manchmal auch Abfragen optimiert, indem      Vorgänge überspringen werden, die nicht unbedingt erforderlich sind, gibt es im Allgemeinen keine Garantie, welches bestimmte Duplikat beibehalten wird.     Sie können beispielsweise nicht davon ausgehen, dass die erste Zeile mit einem eindeutigen Satz von Spaltenwerten erhalten bleibt und Zeilen weiter unten in der Tabelle entfernt werden.     Wenn sich die Entfernung von Duplikaten vorhersehbar verhalten soll, puffern Sie zuerst die Tabelle mithilfe von <code>Table.Buffer</code>.
+Entfernt doppelte Zeilen aus der Tabelle. Ein optionaler Parameter `equationCriteria` gibt an, welche Spalten der Tabelle auf Duplizierung getestet werden. Wenn `equationCriteria` nicht angegeben ist, werden alle Spalten getestet.  
+  
+Da Power Query manchmal bestimmte Vorgänge an Back-End-Datenquellen auslagert (bekannt als „Folding“), und manchmal auch Abfragen optimiert, indem Vorgänge überspringen werden, die nicht unbedingt erforderlich sind. Im Allgemeinen gibt es keine Garantie, welches bestimmte Duplikat beibehalten wird. Sie können beispielsweise nicht davon ausgehen, dass die erste Zeile mit einem eindeutigen Satz von Spaltenwerten erhalten bleibt und Zeilen weiter unten in der Tabelle entfernt werden. Wenn sich die Entfernung von Duplikaten vorhersehbar verhalten soll, puffern Sie zuerst die Tabelle mithilfe von `Table.Buffer`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Entfernt doppelte Zeilen aus der Tabelle.
 ```powerquery
 Table.Distinct(
@@ -46,8 +48,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Entfernt die doppelten Zeilen aus der Spalte &#34;[b]&#34; der Tabelle &lt;code&gt;(\{[a = &#34;A&#34;, b = &#34;a&#34;], [a = &#34;B&#34;, b = &#34;a&#34;], [a = &#34;A&#34;, b = &#34;b&#34;]})&lt;/code&gt;.
+### Example #2
+Entfernt die doppelten Zeilen aus der Spalte "\[b\]" der Tabelle `({[a = "A", b = "a"], [a = "B", b = "a"], [a = "A", b = "b"]})`.
 ```powerquery
 Table.Distinct(
     Table.FromRecords({

@@ -5,7 +5,7 @@ title: Table.PositionOf
 # Table.PositionOf
 
 
-Restituisce la posizione o le posizioni della riga all&#39;interno della tabella.
+Restituisce la posizione o le posizioni della riga all'interno della tabella.
 
 
 ## Syntax
@@ -22,13 +22,18 @@ Table.PositionOf(
 
 ## Remarks
 
-Restituisce la posizione della riga della prima occorrenza di <code>row</code> in <code>table</code>. Restituisce -1 se non viene trovata alcuna occorrenza.    <ul>       <li><code>table</code>: tabella di input.</li>       <li><code>row</code>: riga nella tabella di cui trovare la posizione.</li>       <li><code>occurrence</code>: <i>[facoltativo]</i> specifica le occorrenze della riga da restituire.</li>       <li><code>equationCriteria</code>: <i>[facoltativo]</i> controlla il confronto tra le righe di tabella.</li>    </ul>    
+Restituisce la posizione della riga della prima occorrenza di `row` in `table`. Restituisce -1 se non viene trovata alcuna occorrenza.
+
+-   `table`: tabella di input.
+-   `row`: riga nella tabella di cui trovare la posizione.
+-   `occurrence`: *\[facoltativo\]* specifica le occorrenze della riga da restituire.
+-   `equationCriteria`: *\[facoltativo\]* controlla il confronto tra le righe di tabella.
 
 
 ## Examples
 
-### Example #1 
-Trovare la posizione della prima occorrenza di [a = 2, b = 4] nella tabella &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #1
+Trovare la posizione della prima occorrenza di \[a = 2, b = 4\] nella tabella `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({
@@ -47,8 +52,8 @@ Result:
 ```
 
 
-### Example #2 
-Trovare la posizione della seconda occorrenza di [a = 2, b = 4] nella tabella &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #2
+Trovare la posizione della seconda occorrenza di \[a = 2, b = 4\] nella tabella `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({
@@ -68,8 +73,8 @@ Result:
 ```
 
 
-### Example #3 
-Trovare la posizione di tutte le occorrenze di [a = 2, b = 4] nella tabella &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #3
+Trovare la posizione di tutte le occorrenze di \[a = 2, b = 4\] nella tabella `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({

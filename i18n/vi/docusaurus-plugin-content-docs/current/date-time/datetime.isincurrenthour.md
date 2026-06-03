@@ -19,12 +19,14 @@ DateTime.IsInCurrentHour(
 
 ## Remarks
 
-Cho biết giá trị datetime đã cho <code>dateTime</code> có xuất hiện trong giờ hiện tại hay không, khi được xác định bằng ngày và giờ hiện tại trên hệ thống.      <ul>      <li><code>dateTime</code>:  Giá trị <code>datetime</code> hoăc <code>datetimezone</code> sẽ được đánh giá.</li>      </ul>
+Cho biết giá trị datetime đã cho `dateTime` có xuất hiện trong giờ hiện tại hay không, khi được xác định bằng ngày và giờ hiện tại trên hệ thống.
+
+-   `dateTime`: Giá trị `datetime` hoăc `datetimezone` sẽ được đánh giá.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Xác định thời gian hệ thống hiện tại có tính bằng giờ hiện tại hay không.
 ```powerquery
 DateTime.IsInCurrentHour(DateTime.FixedLocalNow())

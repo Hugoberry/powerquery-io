@@ -25,7 +25,7 @@ Değerin belirtilen türle uyumlu olup olmadığını belirler. Bu, Number.Type 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Sayının sayı türüyle uyumlu olup olmadığını belirlemeye yönelik iki yolu karşılaştırın.
 ```powerquery
 Value.Is(123, Number.Type) = (123 is number)

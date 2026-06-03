@@ -19,13 +19,15 @@ Date.IsLeapYear(
 
 ## Remarks
 
-指定された datetime 値 <code>dateTime</code> がうるう年に該当するかどうかを示します。 <ul>        <li><code>dateTime</code>: 評価される <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値。</li>      </ul>
+指定された datetime 値 `dateTime` がうるう年に該当するかどうかを示します。
+
+-   `dateTime`: 評価される `date`、`datetime`、または `datetimezone` 値。
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;#date(2012, 01, 01)&lt;/code&gt; によって表されている 2012 年がうるう年かどうかを判断します。
+### Example #1
+`#date(2012, 01, 01)` によって表されている 2012 年がうるう年かどうかを判断します。
 ```powerquery
 Date.IsLeapYear(#date(2012, 01, 01))
 ```

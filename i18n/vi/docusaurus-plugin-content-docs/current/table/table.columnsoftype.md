@@ -20,12 +20,12 @@ Table.ColumnsOfType(
 
 ## Remarks
 
-Trả về danh sách tên các cột từ bảng <code>table</code> phù hợp với những loại được chỉ định trong <code>listOfTypes</code>.
+Trả về danh sách tên các cột từ bảng `table` phù hợp với những loại được chỉ định trong `listOfTypes`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trả về tên các cột thuộc loại Number.Type từ bảng.
 ```powerquery
 Table.ColumnsOfType(

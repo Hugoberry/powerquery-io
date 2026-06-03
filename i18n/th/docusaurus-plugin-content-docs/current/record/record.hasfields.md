@@ -20,13 +20,13 @@ Record.HasFields(
 
 ## Remarks
 
-ระบุว่าระเบียน <code>record</code> มีเขตข้อมูลที่ระบุใน <code>fields</code> หรือไม่โดยการส่งกลับค่าตรรกะ (true หรือ false)    ค่าเขตข้อมูลหลายค่าสามารถระบุได้โดยใช้รายการเดียว
+ระบุว่าระเบียน `record` มีเขตข้อมูลที่ระบุใน `fields` หรือไม่โดยการส่งกลับค่าตรรกะ (true หรือ false) ค่าเขตข้อมูลหลายค่าสามารถระบุได้โดยใช้รายการเดียว
 
 
 ## Examples
 
-### Example #1 
-ตรวจสอบว่าระเบียนมีฟิลด์ &#34;CustomerID&#34; อยู่หรือไม่
+### Example #1
+ตรวจสอบว่าระเบียนมีฟิลด์ "CustomerID" อยู่หรือไม่
 ```powerquery
 Record.HasFields([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")
 ```
@@ -37,8 +37,8 @@ true
 ```
 
 
-### Example #2 
-ตรวจสอบว่าระเบียนมีฟิลด์ &#34;CustomerID&#34; และ &#34;Address&#34; อยู่หรือไม่
+### Example #2
+ตรวจสอบว่าระเบียนมีฟิลด์ "CustomerID" และ "Address" อยู่หรือไม่
 ```powerquery
 Record.HasFields([CustomerID = 1, Name = "Bob", Phone = "123-4567"], {"CustomerID", "Address"})
 ```

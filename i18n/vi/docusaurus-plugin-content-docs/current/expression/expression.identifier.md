@@ -19,12 +19,12 @@ Expression.Identifier(
 
 ## Remarks
 
-Trả về dạng biểu diễn mã nguồn M của mã định danh <code>name</code>.
+Trả về dạng biểu diễn mã nguồn M của mã định danh `name`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tải dạng biểu diễn mã nguồn M của mã định danh.
 ```powerquery
 Expression.Identifier("MyIdentifier")
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Tải dạng biểu diễn mã nguồn M của mã định danh có chứa dấu cách.
 ```powerquery
 Expression.Identifier("My Identifier")

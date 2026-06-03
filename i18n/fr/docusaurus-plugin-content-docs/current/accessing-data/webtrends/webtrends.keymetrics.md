@@ -26,7 +26,7 @@ Effectue un appel au point de terminaison Webtrends KeyMetrics et retourne toute
 
 ## Examples
 
-### Example #1 
+### Example #1
 Extrait une table de mesures clés pour le client 98765 au cours des 30 derniers jours
 ```powerquery
 Webtrends.KeyMetrics("98765")

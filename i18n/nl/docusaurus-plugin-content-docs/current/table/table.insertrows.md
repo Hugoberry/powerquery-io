@@ -21,12 +21,12 @@ Table.InsertRows(
 
 ## Remarks
 
-Retourneert een tabel met de lijst rijen, <code>rows</code>, die wordt ingevoegd in de <code>table</code> op de opgegeven positie, <code>offset</code>. Elke kolom die in de rij wordt ingevoegd, moet overeenkomen met de kolomtypen van de tabel.
+Retourneert een tabel met de lijst rijen, `rows`, die wordt ingevoegd in de `table` op de opgegeven positie, `offset`. Elke kolom die in de rij wordt ingevoegd, moet overeenkomen met de kolomtypen van de tabel.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De rij op positie 1 in de tabel invoegen.
 ```powerquery
 Table.InsertRows(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Voegt twee rijen op positie 1 in de tabel in.
 ```powerquery
 Table.InsertRows(

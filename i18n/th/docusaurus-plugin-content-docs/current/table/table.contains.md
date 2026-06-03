@@ -21,12 +21,12 @@ Table.Contains(
 
 ## Remarks
 
-แสดงว่าจะให้ระเบียนที่ระบุ <code>row</code> ปรากฏเป็นแถวใน <code>table</code> หรือไม่    พารามิเตอร์ที่เลือกได้ <code>equationCriteria</code> อาจถูกระบุเพื่อควบคุมการเปรียบเทียบระหว่างแถวของตาราง
+แสดงว่าจะให้ระเบียนที่ระบุ `row` ปรากฏเป็นแถวใน `table` หรือไม่ พารามิเตอร์ที่เลือกได้ `equationCriteria` อาจถูกระบุเพื่อควบคุมการเปรียบเทียบระหว่างแถวของตาราง
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 กำหนดว่าตารางมีแถวหรือไม่
 ```powerquery
 Table.Contains(
@@ -46,7 +46,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 กำหนดว่าตารางมีแถวหรือไม่
 ```powerquery
 Table.Contains(
@@ -66,8 +66,8 @@ false
 ```
 
 
-### Example #3 
-กำหนดว่าตารางมีแถวหรือไม่เมื่อเปรียบเทียบเฉพาะกับคอลัมน์ [Name]
+### Example #3
+กำหนดว่าตารางมีแถวหรือไม่เมื่อเปรียบเทียบเฉพาะกับคอลัมน์ \[Name\]
 ```powerquery
 Table.Contains(
     Table.FromRecords({

@@ -20,13 +20,13 @@ Table.HasColumns(
 
 ## Remarks
 
-指出 <code>table</code> 是否包含指定的資料行 <code>columns</code>。如果資料表包含資料行，則傳回 <code>true</code>，否則傳回 <code>false</code>。
+指出 `table` 是否包含指定的資料行 `columns`。如果資料表包含資料行，則傳回 `true`，否則傳回 `false`。
 
 
 ## Examples
 
-### Example #1 
-判斷資料表是否具有 [Name] 資料行。
+### Example #1
+判斷資料表是否具有 \[Name\] 資料行。
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({
@@ -45,8 +45,8 @@ true
 ```
 
 
-### Example #2 
-找出資料表是否具有 [Name] 和 [PhoneNumber] 資料行。
+### Example #2
+找出資料表是否具有 \[Name\] 和 \[PhoneNumber\] 資料行。
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({

@@ -27,7 +27,7 @@ Hiermee wordt een aanroep verzonden naar het opgegeven Webtrends-rapporteindpunt
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hiermee wordt een aanroep voor gegevens van de afgelopen 30 dagen verzonden naar het rapporteindpunt voor Webtrends-bezoekers
 ```powerquery
 Webtrends.ReportContents("98765", "xPcmTDDP0P6")

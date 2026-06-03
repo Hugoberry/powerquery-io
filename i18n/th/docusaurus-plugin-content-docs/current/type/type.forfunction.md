@@ -20,12 +20,12 @@ Type.ForFunction(
 
 ## Remarks
 
-สร้าง <code>function type</code> จาก <code>signature</code> ระเบียนของ <code>ReturnType</code>และ <code>Parameters</code> และ <code>min</code> ซึ่งเป็นจำนวนอาร์กิวเมนต์น้อยที่สุดที่ต้องการเพื่อจะเรียกใช้ฟังก์ชันนี้
+สร้าง `function type` จาก `signature` ระเบียนของ `ReturnType`และ `Parameters` และ `min` ซึ่งเป็นจำนวนอาร์กิวเมนต์น้อยที่สุดที่ต้องการเพื่อจะเรียกใช้ฟังก์ชันนี้
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 สร้างชนิดสำหรับฟังก์ชันที่ใช้พารามิเตอร์ตัวเลขชื่อ X และส่งกลับตัวเลข
 ```powerquery
 Type.ForFunction([ReturnType = type number, Parameters = [X = type number]], 1)

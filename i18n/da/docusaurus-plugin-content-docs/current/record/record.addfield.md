@@ -22,13 +22,13 @@ Record.AddField(
 
 ## Remarks
 
-Føjer et felt til en post <code>record</code> med navnet på feltet <code>fieldName</code> og værdien <code>value</code>.
+Føjer et felt til en post `record` med navnet på feltet `fieldName` og værdien `value`.
 
 
 ## Examples
 
-### Example #1 
-Føj feltet Adresse til posten].
+### Example #1
+Føj feltet Adresse til posten\].
 ```powerquery
 Record.AddField([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "Address", "123 Main St.")
 ```

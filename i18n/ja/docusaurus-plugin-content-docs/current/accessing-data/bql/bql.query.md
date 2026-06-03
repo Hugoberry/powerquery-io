@@ -12,7 +12,7 @@ title: BQL.Query
 
 ```powerquery
 BQL.Query(
-    BQLQuery as text
+    Bloomberg as text
 ) as table
 ```
 

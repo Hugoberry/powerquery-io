@@ -20,7 +20,7 @@ Table.FirstValue(
 
 ## Remarks
 
-Zwraca pierwszą kolumnę pierwszego wiersza tabeli <code>table</code> lub określoną wartość domyślną.
+Zwraca pierwszą kolumnę pierwszego wiersza tabeli `table` lub określoną wartość domyślną.
 
 
 

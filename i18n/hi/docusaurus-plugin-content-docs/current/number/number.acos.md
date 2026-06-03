@@ -19,7 +19,7 @@ Number.Acos(
 
 ## Remarks
 
-<code>number</code> का arccosine लौटाता है.
+`number` का arccosine लौटाता है.
 
 
 

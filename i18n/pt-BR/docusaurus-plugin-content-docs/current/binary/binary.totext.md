@@ -20,7 +20,10 @@ Binary.ToText(
 
 ## Remarks
 
-Retorna o resultado da conversão de uma lista binária de números <code>binary</code> em valor de texto. Se desejar, <code>encoding</code> pode ser especificado para indicar a codificação a ser usada no valor de texto produzido      Os valores <code>BinaryEncoding</code> a seguir podem ser usados para <code>encoding</code>.      <ul>        <li><code>BinaryEncoding.Base64</code>: codificação de base 64</li>        <li><code>BinaryEncoding.Hex</code>: codificação hexadecimal</li>      </ul>
+Retorna o resultado da conversão de uma lista binária de números `binary` em valor de texto. Se desejar, `encoding` pode ser especificado para indicar a codificação a ser usada no valor de texto produzido Os valores `BinaryEncoding` a seguir podem ser usados para `encoding`.
+
+-   `BinaryEncoding.Base64`: codificação de base 64
+-   `BinaryEncoding.Hex`: codificação hexadecimal
 
 
 

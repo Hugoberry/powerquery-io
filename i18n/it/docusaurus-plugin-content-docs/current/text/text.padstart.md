@@ -5,7 +5,7 @@ title: Text.PadStart
 # Text.PadStart
 
 
-Restituisce il testo della lunghezza specificata riempiendo l&#39;inizio del testo specificato.
+Restituisce il testo della lunghezza specificata riempiendo l'inizio del testo specificato.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Text.PadStart(
 
 ## Remarks
 
-Restituisce il valore <code>text</code> riempito fino al raggiungimento della lunghezza <code>count</code> inserendo spazi all'inizio del valore di testo <code>text</code>.    Facoltativamente, è possibile usare il carattere <code>character</code> per specificare il carattere usato per il riempimento. Il carattere di riempimento predefinito è uno spazio.
+Restituisce il valore `text` riempito fino al raggiungimento della lunghezza `count` inserendo spazi all'inizio del valore di testo `text`. Facoltativamente, è possibile usare il carattere `character` per specificare il carattere usato per il riempimento. Il carattere di riempimento predefinito è uno spazio.
 
 
 ## Examples
 
-### Example #1 
-Riempire l&#39;inizio di un valore di testo in modo da raggiungere la lunghezza di 10 caratteri.
+### Example #1
+Riempire l'inizio di un valore di testo in modo da raggiungere la lunghezza di 10 caratteri.
 ```powerquery
 Text.PadStart("Name", 10)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Riempire l&#39;inizio di un valore di testo con &#34;|&#34; in modo da raggiungere la lunghezza di 10 caratteri.
+### Example #2
+Riempire l'inizio di un valore di testo con "|" in modo da raggiungere la lunghezza di 10 caratteri.
 ```powerquery
 Text.PadStart("Name", 10, "|")
 ```

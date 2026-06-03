@@ -19,12 +19,12 @@ Number.Sign(
 
 ## Remarks
 
-Devolve 1 se <code>number</code> for um número positivo, -1 se for um número negativo e 0 se for zero.    Se <code>number</code> for nulo, <code>Number.Sign</code> devolverá null.
+Devolve 1 se `number` for um número positivo, -1 se for um número negativo e 0 se for zero. Se `number` for nulo, `Number.Sign` devolverá null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determinar o sinal de 182.
 ```powerquery
 Number.Sign(182)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Determinar o sinal de -182.
 ```powerquery
 Number.Sign(-182)
@@ -48,7 +48,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Determinar o sinal de 0.
 ```powerquery
 Number.Sign(0)

@@ -21,13 +21,23 @@ Table.TransformColumnNames(
 
 ## Remarks
 
-Transformerer kolonnenavne ved hjælp af den angivne <code>nameGenerator</code>-funktion. Gyldige indstillinger:    <div>      <code>MaxLength</code> angiver den maksimale længde på nye kolonnenavne. Hvis den angivne funktion resulterer i et længere kolonnenavn, skal navnet afkortes.    </div>    <div>      <code>Comparer</code> bruges til at styre sammenligningen, når de nye kolonnenavne oprettes. Sammenligningsfunktioner kan bruges til at udføre sammenligninger, hvor der ikke skelnes mellem store og små bogstaver, eller udføre kulturelle- og landemæssige sammenligninger.    </div>    <div>      Følgende sammenligningsfunktioner er indbyggede og tilgængelige på formelsproget:    </div>    <ul>      <li><code>Comparer.Ordinal</code>: Bruges til at udføre en præcis sammenligning ud fra ordenstal</li>      <li><code>Comparer.OrdinalIgnoreCase</code>: Bruges til at udføre en præcis sammenligning ud fra ordenstal, hvor der ikke skelnes mellem små og store bogstaver</li>      <li> <code>Comparer.FromCulture</code>: Bruges til at udføre en sammenligning ud fra kultur</li>    </ul>    
+Transformerer kolonnenavne ved hjælp af den angivne `nameGenerator`\-funktion. Gyldige indstillinger:
+
+`MaxLength` angiver den maksimale længde på nye kolonnenavne. Hvis den angivne funktion resulterer i et længere kolonnenavn, skal navnet afkortes.
+
+`Comparer` bruges til at styre sammenligningen, når de nye kolonnenavne oprettes. Sammenligningsfunktioner kan bruges til at udføre sammenligninger, hvor der ikke skelnes mellem store og små bogstaver, eller udføre kulturelle- og landemæssige sammenligninger.
+
+Følgende sammenligningsfunktioner er indbyggede og tilgængelige på formelsproget:
+
+-   `Comparer.Ordinal`: Bruges til at udføre en præcis sammenligning ud fra ordenstal
+-   `Comparer.OrdinalIgnoreCase`: Bruges til at udføre en præcis sammenligning ud fra ordenstal, hvor der ikke skelnes mellem små og store bogstaver
+-   `Comparer.FromCulture`: Bruges til at udføre en sammenligning ud fra kultur
 
 
 ## Examples
 
-### Example #1 
-Fjern tegnet &lt;code&gt;#(tab)&lt;/code&gt; fra kolonnenavne
+### Example #1
+Fjern tegnet `#(tab)` fra kolonnenavne
 ```powerquery
 Table.TransformColumnNames(Table.FromRecords({[#"Col#(tab)umn" = 1]}), Text.Clean)
 ```
@@ -38,7 +48,7 @@ Table.FromRecords({[Column = 1]})
 ```
 
 
-### Example #2 
+### Example #2
 Transformerer kolonnenavne for at generere navne på seks tegn, hvor der ikke skelnes mellem små og store bogstaver.
 ```powerquery
 Table.TransformColumnNames(

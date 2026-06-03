@@ -20,7 +20,7 @@ Cube.MeasureProperty(
 
 ## Remarks
 
-<code>measure</code> माप का <code>propertyName</code> गुण लौटाता है.
+`measure` माप का `propertyName` गुण लौटाता है.
 
 
 

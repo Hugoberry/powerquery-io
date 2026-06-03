@@ -25,7 +25,7 @@ AzureEnterprise.Contents(
 
 ## Examples
 
-### Example #1 
+### Example #1
 ใช้ฟังก์ชัน AzureEnterprise.Contents ในการคืนค่าผลลัพธ์ของรายงานที่ระบุ
 ```powerquery
         อนุญาต

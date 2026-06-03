@@ -19,13 +19,13 @@ RowExpression.Column(
 
 ## Remarks
 
-row 式内の行の列 <code>columnName</code> へのアクセスを表す抽象構文ツリー (AST) を返します。
+row 式内の行の列 `columnName` へのアクセスを表す抽象構文ツリー (AST) を返します。
 
 
 ## Examples
 
-### Example #1 
-列 &#34;CustomerName&#34; のアクセスを表す AST を作成します。
+### Example #1
+列 "CustomerName" のアクセスを表す AST を作成します。
 ```powerquery
 RowExpression.Column("CustomerName")
 ```

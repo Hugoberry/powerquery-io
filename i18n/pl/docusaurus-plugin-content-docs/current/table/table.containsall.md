@@ -21,13 +21,13 @@ Table.ContainsAll(
 
 ## Remarks
 
-Wskazuje, czy wszystkie rekordy określone na liście rekordów <code>rows</code> występują jako wiersze w tabeli <code>table</code>.    Opcjonalny parametr <code>equationCriteria</code> można określić, aby sterować porównywaniem wierszy tabeli.
+Wskazuje, czy wszystkie rekordy określone na liście rekordów `rows` występują jako wiersze w tabeli `table`. Opcjonalny parametr `equationCriteria` można określić, aby sterować porównywaniem wierszy tabeli.
 
 
 ## Examples
 
-### Example #1 
-Ustal, czy tabela zawiera wszystkie wiersze, porównując tylko wartości w kolumnie [CustomerID].
+### Example #1
+Ustal, czy tabela zawiera wszystkie wiersze, porównując tylko wartości w kolumnie \[CustomerID\].
 ```powerquery
 Table.ContainsAll(
     Table.FromRecords({
@@ -50,7 +50,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Ustal, czy tabela zawiera wszystkie wiersze.
 ```powerquery
 Table.ContainsAll(

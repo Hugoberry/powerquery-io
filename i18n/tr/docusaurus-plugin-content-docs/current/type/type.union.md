@@ -19,7 +19,7 @@ Type.Union(
 
 ## Remarks
 
-<code>types</code> içindeki türlerin birleşimini döndürür.
+`types` içindeki türlerin birleşimini döndürür.
 
 
 

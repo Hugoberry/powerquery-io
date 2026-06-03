@@ -19,7 +19,7 @@ Cube.DisplayFolders(
 
 ## Remarks
 
-Restituisce un albero di tabelle annidate che rappresenta la gerarchia delle cartelle visualizzate degli oggetti, ad esempio dimensioni e misure, disponibili per l'uso in<code>cube</code>.
+Restituisce un albero di tabelle annidate che rappresenta la gerarchia delle cartelle visualizzate degli oggetti, ad esempio dimensioni e misure, disponibili per l'uso in`cube`.
 
 
 

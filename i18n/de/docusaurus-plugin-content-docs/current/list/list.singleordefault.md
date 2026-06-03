@@ -20,13 +20,13 @@ List.SingleOrDefault(
 
 ## Remarks
 
-Enthält die Liste "<code>list</code>" nur ein Element, wird dieses zurückgegeben.    Ist die Liste leer, gibt die Funktion NULL zurück, sofern kein optionaler Wert (<code>default</code>) angegeben wurde. Enthält die Liste mehrere Elemente, gibt die Funktion einen Fehler zurück.
+Enthält die Liste "`list`" nur ein Element, wird dieses zurückgegeben. Ist die Liste leer, gibt die Funktion NULL zurück, sofern kein optionaler Wert (`default`) angegeben wurde. Enthält die Liste mehrere Elemente, gibt die Funktion einen Fehler zurück.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt den einzelnen Wert in der Liste &#34;\{1}&#34;.
+### Example #1
+Ermittelt den einzelnen Wert in der Liste "\{1\}".
 ```powerquery
 List.SingleOrDefault({1})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Ermittelt den einzelnen Wert in der Liste &#34;\{}&#34;.
+### Example #2
+Ermittelt den einzelnen Wert in der Liste "\{\}".
 ```powerquery
 List.SingleOrDefault({})
 ```
@@ -49,8 +49,8 @@ null
 ```
 
 
-### Example #3 
-Ermittelt den einzelnen Wert in der Liste &#34;\{}&#34;. Ist die Liste leer, wird &#34;1&#34; zurückgegeben.
+### Example #3
+Ermittelt den einzelnen Wert in der Liste "\{\}". Ist die Liste leer, wird "1" zurückgegeben.
 ```powerquery
 List.SingleOrDefault({}, -1)
 ```

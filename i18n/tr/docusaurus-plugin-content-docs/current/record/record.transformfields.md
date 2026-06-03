@@ -21,13 +21,17 @@ Record.TransformFields(
 
 ## Remarks
 
-<code>transformOperations</code> listesinde belirtilen dönüşümleri <code>record</code> öğesine uyguladıktan sonra bir kayıt döndürür.    Aynı anda bir veya daha fazla alan dönüştürülebilir.      <div>Tek bir alan dönüştürülürken, <code>transformOperations</code> öğesinin iki öğe içeren bir liste olması beklenir. <code>transformOperations</code> içindeki ilk öğe alan adını, <code>transformOperations</code> içindeki ikinci öğe ise dönüşüm için kullanılacak işlevi belirtir. Örneğin, <code>\{"Quantity", Number.FromText}</code></div>      <div>Birden çok alan dönüştürülürken, <code>transformOperations</code> öğesinin her iç listenin bir alan adı ve dönüşüm işlemi çifti olduğu bir listeler listesi olması beklenir. Örneğin, <code>\{\{"Quantity",Number.FromText},\{"UnitPrice", Number.FromText}}</code></div>
+`transformOperations` listesinde belirtilen dönüşümleri `record` öğesine uyguladıktan sonra bir kayıt döndürür. Aynı anda bir veya daha fazla alan dönüştürülebilir.
+
+Tek bir alan dönüştürülürken, `transformOperations` öğesinin iki öğe içeren bir liste olması beklenir. `transformOperations` içindeki ilk öğe alan adını, `transformOperations` içindeki ikinci öğe ise dönüşüm için kullanılacak işlevi belirtir. Örneğin, `{"Quantity", Number.FromText}`
+
+Birden çok alan dönüştürülürken, `transformOperations` öğesinin her iç listenin bir alan adı ve dönüşüm işlemi çifti olduğu bir listeler listesi olması beklenir. Örneğin, `{{"Quantity",Number.FromText},{"UnitPrice", Number.FromText}}`
 
 
 ## Examples
 
-### Example #1 
-&#34;Price&#34; alanını sayıya dönüştürün.
+### Example #1
+"Price" alanını sayıya dönüştürün.
 ```powerquery
 Record.TransformFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = "100.0"],
@@ -41,8 +45,8 @@ Result:
 ```
 
 
-### Example #2 
-&#34;OrderID&#34; ve &#34;Price&#34; alanlarını sayıya dönüştürün.
+### Example #2
+"OrderID" ve "Price" alanlarını sayıya dönüştürün.
 ```powerquery
 Record.TransformFields(
     [OrderID = "1", CustomerID = 1, Item = "Fishing rod", Price = "100.0"],

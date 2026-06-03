@@ -21,13 +21,13 @@ Text.AfterDelimiter(
 
 ## Remarks
 
-Gibt den Teil von "<code>text</code>" nach Angabe von "<code>delimiter</code>" zurück.    Ein optionaler numerischer Wert <code>index</code> gibt an, welches Vorkommen von "<code>delimiter</code>" berücksichtigt werden soll.    Ein optionaler Listenwert "<code>index</code>" gibt an, welches Vorkommen von "<code>delimiter</code>" berücksichtigt werden soll. Außerdem wird angegeben, ob die Indizierung vom Beginn oder vom Ende der Eingabe aus erfolgen soll.
+Gibt den Teil von "`text`" nach Angabe von "`delimiter`" zurück. Ein optionaler numerischer Wert `index` gibt an, welches Vorkommen von "`delimiter`" berücksichtigt werden soll. Ein optionaler Listenwert "`index`" gibt an, welches Vorkommen von "`delimiter`" berücksichtigt werden soll. Außerdem wird angegeben, ob die Indizierung vom Beginn oder vom Ende der Eingabe aus erfolgen soll.
 
 
 ## Examples
 
-### Example #1 
-Hiermit wird der Teil &#34;111-222-333&#34; nach dem (ersten) Bindestrich abgerufen.
+### Example #1
+Hiermit wird der Teil "111-222-333" nach dem (ersten) Bindestrich abgerufen.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Hiermit wird der Teil &#34;111-222-333&#34; nach dem zweiten Bindestrich abgerufen.
+### Example #2
+Hiermit wird der Teil "111-222-333" nach dem zweiten Bindestrich abgerufen.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-", 1)
 ```
@@ -50,8 +50,8 @@ Result:
 ```
 
 
-### Example #3 
-Hiermit wird der Teil &#34;111-222-333&#34; nach dem vom Ende aus gesehen zweiten Bindestrich abgerufen.
+### Example #3
+Hiermit wird der Teil "111-222-333" nach dem vom Ende aus gesehen zweiten Bindestrich abgerufen.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-", {1, RelativePosition.FromEnd})
 ```

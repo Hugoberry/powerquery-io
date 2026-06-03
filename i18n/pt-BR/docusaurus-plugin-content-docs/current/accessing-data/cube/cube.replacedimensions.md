@@ -20,7 +20,7 @@ Cube.ReplaceDimensions(
 
 ## Remarks
 
-Substitui o conjunto de dimensões retornado pelo <code>Cube.Dimensions</code>.    Por exemplo, essa função pode ser usada para adicionar uma coluna de ID a um atributo de dimensão, para que a fonte de dados possa agrupar na ID em vez do valor exibido.
+Substitui o conjunto de dimensões retornado pelo `Cube.Dimensions`. Por exemplo, essa função pode ser usada para adicionar uma coluna de ID a um atributo de dimensão, para que a fonte de dados possa agrupar na ID em vez do valor exibido.
 
 
 

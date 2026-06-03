@@ -5,7 +5,7 @@ title: Type.ReplaceFacets
 # Type.ReplaceFacets
 
 
-Remplace les facettes d&#39;un type.
+Remplace les facettes d'un type.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Type.ReplaceFacets(
 
 ## Remarks
 
-Remplace les facettes de <code>type</code> par les facettes contenues dans l'enregistrement <code>facets</code>.
+Remplace les facettes de `type` par les facettes contenues dans l'enregistrement `facets`.
 
 
 

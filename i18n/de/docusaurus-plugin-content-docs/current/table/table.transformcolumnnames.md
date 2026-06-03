@@ -21,13 +21,23 @@ Table.TransformColumnNames(
 
 ## Remarks
 
-Transformiert Spaltennamen mithilfe der angegebenen <code>nameGenerator</code>-Funktion. Gültige Optionen:    <div>      <code>MaxLength</code> gibt die maximale Länge neuer Spaltennamen an. Wenn die angegebene Funktion in einem längeren Spaltennamen resultiert, wird der lange Name gekürzt.    </div>    <div>      <code>Comparer</code> (Vergleichsfunktion) wird verwendet, um den Vergleich beim Generieren neuer Spaltennamen zu steuern. Vergleichsfunktionen können verwendet werden, um Vergleiche ohne Berücksichtigung der Groß-/Kleinschreibung oder mit Berücksichtigung von Kultur und Gebietsschema bereitzustellen.    </div>    <div>      Die folgenden integrierten Vergleichsfunktionen sind in der Formelsprache verfügbar:    </div>    <ul>      <li><code>Comparer.Ordinal</code>: Wird verwendet, um einen exakten Ordinalvergleich durchzuführen</li>      <li><code>Comparer.OrdinalIgnoreCase</code>: Wird verwendet, um einen exakten Ordinalvergleich ohne Berücksichtigung der Groß-/Kleinschreibung durchzuführen</li>      <li> <code>Comparer.FromCulture</code>: Wird verwendet, um einen Vergleich mit Berücksichtigung der Kultur durchzuführen</li>    </ul>     
+Transformiert Spaltennamen mithilfe der angegebenen `nameGenerator`\-Funktion. Gültige Optionen:
+
+`MaxLength` gibt die maximale Länge neuer Spaltennamen an. Wenn die angegebene Funktion in einem längeren Spaltennamen resultiert, wird der lange Name gekürzt.
+
+`Comparer` (Vergleichsfunktion) wird verwendet, um den Vergleich beim Generieren neuer Spaltennamen zu steuern. Vergleichsfunktionen können verwendet werden, um Vergleiche ohne Berücksichtigung der Groß-/Kleinschreibung oder mit Berücksichtigung von Kultur und Gebietsschema bereitzustellen.
+
+Die folgenden integrierten Vergleichsfunktionen sind in der Formelsprache verfügbar:
+
+-   `Comparer.Ordinal`: Wird verwendet, um einen exakten Ordinalvergleich durchzuführen
+-   `Comparer.OrdinalIgnoreCase`: Wird verwendet, um einen exakten Ordinalvergleich ohne Berücksichtigung der Groß-/Kleinschreibung durchzuführen
+-   `Comparer.FromCulture`: Wird verwendet, um einen Vergleich mit Berücksichtigung der Kultur durchzuführen
 
 
 ## Examples
 
-### Example #1 
-Entfernen Sie das &lt;code&gt;#(tab)&lt;/code&gt;-Zeichen aus Spaltennamen.
+### Example #1
+Entfernen Sie das `#(tab)`\-Zeichen aus Spaltennamen.
 ```powerquery
 Table.TransformColumnNames(Table.FromRecords({[#"Col#(tab)umn" = 1]}), Text.Clean)
 ```
@@ -38,7 +48,7 @@ Table.FromRecords({[Column = 1]})
 ```
 
 
-### Example #2 
+### Example #2
 Transformiert Spaltennamen, um Namen ohne Berücksichtigung von Groß-/Kleinschreibung der Länge 6 zu generieren.
 ```powerquery
 Table.TransformColumnNames(

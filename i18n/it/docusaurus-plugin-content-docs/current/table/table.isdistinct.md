@@ -20,12 +20,12 @@ Table.IsDistinct(
 
 ## Remarks
 
-Indica se <code>table</code> contiene solo le righe distinte (nessun duplicato). Restituisce <code>true</code> se le righe sono distinte, in caso contrario <code>false</code>.    Il parametro facoltativo <code>comparisonCriteria</code> specifica le colonne della tabella da testare per la duplicazione. Se <code>comparisonCriteria</code> non viene specificato, verranno testate tutte le colonne.
+Indica se `table` contiene solo le righe distinte (nessun duplicato). Restituisce `true` se le righe sono distinte, in caso contrario `false`. Il parametro facoltativo `comparisonCriteria` specifica le colonne della tabella da testare per la duplicazione. Se `comparisonCriteria` non viene specificato, verranno testate tutte le colonne.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determinare se la tabella è distinta.
 ```powerquery
 Table.IsDistinct(
@@ -44,7 +44,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Determinare se la tabella è distinta nella colonna.
 ```powerquery
 Table.IsDistinct(

@@ -20,7 +20,7 @@ Type.ReplaceFacets(
 
 ## Remarks
 
-Erstatter facetterne for <code>type</code> med de facetter, der findes i posten <code>facets</code>.
+Erstatter facetterne for `type` med de facetter, der findes i posten `facets`.
 
 
 

@@ -5,7 +5,7 @@ title: Table.RenameColumns
 # Table.RenameColumns
 
 
-फ़ॉर्म \{old, new} के नाम बदलता है.
+फ़ॉर्म \{old, new\} के नाम बदलता है.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Table.RenameColumns(
 
 ## Remarks
 
-तालिका <code>table</code> में स्तंभों पर दिए गए बदले हुए नाम लागू करता है. एक प्रतिस्थापन कार्रवाई <code>renames</code> की सूची में प्रदान किए गए दो मानों, पुराना स्तंभ नाम और नया स्तंभ नाम, की सूची होती है.    यदि स्तंभ मौजूद नहीं होता है, तो जब तक वैकल्पिक पैरामीटर <code>missingField</code> कोई विकल्प निर्दिष्ट नहीं कर देता एक अपवाद दिखाया जाता है (उदाहरण <code>MissingField.UseNull</code> या <code>MissingField.Ignore</code>).
+तालिका `table` में कॉलम पर दिए गए बदले हुए नाम लागू करता है. एक प्रतिस्थापन कार्रवाई `renames` में दो मानों की एक सूची होती है, पुराना कॉलम नाम और नया कॉलम नाम, जो एक सूची में दिए गए होते हैं. अगर कॉलम मौजूद नहीं है, तो एक त्रुटि आएगी, जब तक कि वैकल्पिक पैरामीटर `missingField` कोई दूसरा विकल्प निर्दिष्ट न करे (जैसे `MissingField.UseNull` या `MissingField.Ignore`).
 
 
 ## Examples
 
-### Example #1 
-तालिका में स्तंभ नाम &#34;CustomerNum&#34; को &#34;CustomerID&#34; से बदलें.
+### Example #1
+तालिका में स्तंभ नाम "CustomerNum" को "CustomerID" से बदलें.
 ```powerquery
 Table.RenameColumns(
     Table.FromRecords({[CustomerNum = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -41,8 +41,8 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]})
 ```
 
 
-### Example #2 
-तालिका में स्तंभ नाम &#34;CustomerNum&#34; को &#34;CustomerID&#34; से और &#34;PhoneNum&#34; को &#34;फ़ोन&#34; से बदलें.
+### Example #2
+तालिका में स्तंभ नाम "CustomerNum" को "CustomerID" से और "PhoneNum" को "फ़ोन" से बदलें.
 ```powerquery
 Table.RenameColumns(
     Table.FromRecords({[CustomerNum = 1, Name = "Bob", PhoneNum = "123-4567"]}),
@@ -59,8 +59,8 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]})
 ```
 
 
-### Example #3 
-तालिका स्तंभ नाम &#34;NewCol&#34; को &#34;NewColumn&#34; से बदलें, और यदि स्तंभ मौजूद नहीं होता है तो उस पर ध्यान न दें.
+### Example #3
+तालिका स्तंभ नाम "NewCol" को "NewColumn" से बदलें, और यदि स्तंभ मौजूद नहीं होता है तो उस पर ध्यान न दें.
 ```powerquery
 Table.RenameColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

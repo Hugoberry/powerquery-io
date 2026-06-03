@@ -19,7 +19,7 @@ Type.Facets(
 
 ## Remarks
 
-Muestra un registro que contiene las facetas de <code>type</code>.
+Muestra un registro que contiene las facetas de `type`.
 
 
 

@@ -19,13 +19,13 @@ DateTime.Date(
 
 ## Remarks
 
-Gibt die Datumskomponente von "<code>dateTime</code>" (der angegebene <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert) zurück.
+Gibt die Datumskomponente des Parameters `dateTime` zurück, wenn es sich bei dem Parameter um einen `date`\-, `datetime`\- oder `datetimezone`\-Wert handelt. Wenn der Parameter `null` ist, wird `null` zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt den Datumswert von &#34;#datetime(2010, 12, 31, 11, 56, 02)&#34;.
+### Example #1
+Ermittelt den Datumswert von "#datetime(2010, 12, 31, 11, 56, 02)".
 ```powerquery
 DateTime.Date(#datetime(2010, 12, 31, 11, 56, 02))
 ```

@@ -25,7 +25,7 @@ Bir metin listesine belirtilen uzunluktan sonra metin ayıran bir işlev döndü
 
 ## Examples
 
-### Example #1 
+### Example #1
 Girişin başlangıcından başlayarak girişi tekrar tekrar üç karakterlik parçalara bölün.
 ```powerquery
 Splitter.SplitTextByRepeatedLengths(3)("12345678")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Girişin sonundan başlayarak girişi tekrar tekrar üç karakterlik parçalara bölün.
 ```powerquery
 let

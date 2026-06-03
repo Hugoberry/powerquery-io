@@ -21,7 +21,7 @@ Value.NullableEquals(
 
 ## Remarks
 
-Trả về giá trị rỗng nếu đối số '<code>value1</code>' hoặc '<code>value2</code>' là giá trị rỗng hoặc tương đương với Value.Equals nếu ngược lại.
+Trả về giá trị null nếu đối số `value1` hoặc `value2` là null hoặc tương đương với Value.Equals.
 
 
 

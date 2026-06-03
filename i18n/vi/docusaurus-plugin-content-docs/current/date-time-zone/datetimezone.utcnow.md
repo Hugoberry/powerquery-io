@@ -24,7 +24,7 @@ Trả về ngày và giờ hiện tại theo giờ UTC (múi giờ GMT).
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tải ngày và giờ hiện tại theo giờ UTC.
 ```powerquery
 DateTimeZone.UtcNow()

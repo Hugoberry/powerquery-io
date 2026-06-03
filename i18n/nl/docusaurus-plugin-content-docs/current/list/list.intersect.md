@@ -20,13 +20,13 @@ List.Intersect(
 
 ## Remarks
 
-Retourneert het snijpunt van de lijstwaarden die in de invoerlijst <code>lists</code> zijn gevonden. Er kan een optionele parameter, <code>equationCriteria</code>, worden opgegeven.
+Retourneert het snijpunt van de lijstwaarden die in de invoerlijst `lists` zijn gevonden. Er kan een optionele parameter, `equationCriteria`, worden opgegeven.
 
 
 ## Examples
 
-### Example #1 
-Het snijpunt van de lijsten \{1..5}, \{2..6}, \{3..7} uitzoeken.
+### Example #1
+Het snijpunt van de lijsten \{1..5\}, \{2..6\}, \{3..7\} uitzoeken.
 ```powerquery
 List.Intersect({{1..5}, {2..6}, {3..7}})
 ```

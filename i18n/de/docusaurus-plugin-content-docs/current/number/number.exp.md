@@ -5,7 +5,7 @@ title: Number.Exp
 # Number.Exp
 
 
-Potenziert &#34;e&#34; mit dem angegebenen Wert.
+Potenziert "e" mit dem angegebenen Wert.
 
 
 ## Syntax
@@ -19,13 +19,15 @@ Number.Exp(
 
 ## Remarks
 
-Gibt das Ergebnis der Potenzierung von "e" mit <code>number</code> (Exponentialfunktion) zurück.      <ul>        <li><code>number</code>: Ein <code>number</code>-Wert, für den die Exponentialfunktion berechnet werden soll. Wenn <code>number</code> NULL ist, gibt <code>Number.Exp</code> NULL zurück. </li>      </ul>
+Gibt das Ergebnis der Potenzierung von "e" mit `number` (Exponentialfunktion) zurück.
+
+-   `number`: Ein `number`\-Wert, für den die Exponentialfunktion berechnet werden soll. Wenn `number` NULL ist, gibt `Number.Exp` NULL zurück.
 
 
 ## Examples
 
-### Example #1 
-Setzt &#34;e&#34; in die dritte Potenz.
+### Example #1
+Setzt "e" in die dritte Potenz.
 ```powerquery
 Number.Exp(3)
 ```

@@ -20,13 +20,17 @@ List.RemoveLastN(
 
 ## Remarks
 
-傳回清單，移除清單 <code>list</code> 結尾最後 <code>countOrCondition</code> 個項目。如果 <code>list</code> 中的項目數少於 <code>countOrCondition</code>，即傳回空的清單。 <ul> <li>如果指定了數字，最多移除該數量的項目。</li> <li>如果指定了條件，傳回的清單結尾是 <code>list</code> 末端符合條件的第一個項目。一旦有項目不符合條件，就不再考慮其他項目。</li> <li>如果這個參數是 null，則只移除一個項目。</li> </ul>
+傳回移除清單 `list` 結尾最後 `countOrCondition` 個元素的清單。如果 `list` 擁有少於 `countOrCondition` 個元素，會返回空的清單。
+
+-   如果指定數字，則會移除最多該數量的項目。
+-   如果指定條件，則會移除 `list` 結尾的任何連續符合項目。
+-   如果此參數為 Null，則只會移除一個項目。
 
 
 ## Examples
 
-### Example #1 
-根據 \{1, 2, 3, 4, 5} 建立不含末 3 個數字的清單。
+### Example #1
+根據 \{1, 2, 3, 4, 5\} 建立不含末 3 個數字的清單。
 ```powerquery
 List.RemoveLastN({1, 2, 3, 4, 5}, 3)
 ```
@@ -37,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-根據 \{5, 4, 2, 6, 4} 建立以小於 3 的數字結束的清單。
+### Example #2
+根據 \{5, 4, 2, 6, 4\} 建立以小於 3 的數字結束的清單。
 ```powerquery
 List.RemoveLastN({5, 4, 2, 6, 4}, each _ > 3)
 ```

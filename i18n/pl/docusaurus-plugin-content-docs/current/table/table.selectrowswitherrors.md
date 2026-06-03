@@ -25,7 +25,7 @@ Zwraca tabelę powstałą w wyniku pozostawienia w tabeli wejściowej tylko tych
 
 ## Examples
 
-### Example #1 
+### Example #1
 Wybierz nazwy klientów z błędami w ich wierszach.
 ```powerquery
 Table.SelectRowsWithErrors(

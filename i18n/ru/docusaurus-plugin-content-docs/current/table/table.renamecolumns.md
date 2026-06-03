@@ -5,7 +5,7 @@ title: Table.RenameColumns
 # Table.RenameColumns
 
 
-Применяет переименование в форме \{old, new}.
+Применяет переименование в форме \{old, new\}.
 
 
 ## Syntax
@@ -21,12 +21,12 @@ Table.RenameColumns(
 
 ## Remarks
 
-Выполняет заданное переименовывание столбцов в таблице <code>table</code>. В операции замены <code>renames</code> применяется список пар значений - старое имя столбца и новое имя столбца.    Если столбец не существует, возникает исключение, если необязательным параметром <code>missingField</code> не задана альтернатива (например, <code>MissingField.UseNull</code> или <code>MissingField.Ignore</code>).
+Выполняет заданное переименование столбцов в таблице `table`. Операция замены `renames` содержит список пар значений: старое имя столбца и новое имя столбца, предоставляемые в списке. Если столбец не существует, генерируется ошибка, кроме случаев, когда необязательный параметр `missingField` задает иное действие (например, `MissingField.UseNull` или `MissingField.Ignore`).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Замена имени столбца CustomerNum на CustomerID в таблице.
 ```powerquery
 Table.RenameColumns(
@@ -41,7 +41,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]})
 ```
 
 
-### Example #2 
+### Example #2
 Замена имени столбца CustomerNum на CustomerID, а имя PhoneNum на Phone в таблице.
 ```powerquery
 Table.RenameColumns(
@@ -59,7 +59,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]})
 ```
 
 
-### Example #3 
+### Example #3
 Замена имени столбца NewCol на NewColumn в таблице и пропуск замены, если столбца не существует.
 ```powerquery
 Table.RenameColumns(

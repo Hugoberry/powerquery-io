@@ -20,12 +20,12 @@ Value.As(
 
 ## Remarks
 
-Restituisce il valore se compatibile con il tipo specificato. Equivale all'operatore "is" in M, con l'eccezione che può accettare riferimenti al tipo di identificatore, ad esempio Number.Type.
+Restituisce il valore se è compatibile con il tipo specificato. Equivale all'operatore "as" in M, con l'eccezione che può accettare riferimenti al tipo di identificatore, ad esempio Number.Type.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Esegue il cast di un numero a un numero.
 ```powerquery
 Value.As(123, Number.Type)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Tentativo di eseguire il cast di un valore di testo a un numero.
 ```powerquery
 Value.As("abc", type number)

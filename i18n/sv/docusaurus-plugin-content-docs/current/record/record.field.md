@@ -20,12 +20,12 @@ Record.Field(
 
 ## Remarks
 
-Returnerar värdet för angivet <code>field</code> i <code>record</code>. Om fältet inte hittas genereras ett undantag.
+Returnerar värdet för angivet `field` i `record`. Om fältet inte hittas genereras ett undantag.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta värdet för fältet CustomerID i posten.
 ```powerquery
 Record.Field([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")

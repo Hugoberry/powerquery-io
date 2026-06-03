@@ -20,13 +20,13 @@ Table.PrefixColumns(
 
 ## Remarks
 
-Retourne une table où tous les noms de colonne du <code>table</code> spécifié sont préfixés avec le texte spécifié <code>prefix</code>, plus un point sous la forme <code>prefix</code><code>.ColumnName</code>.
+Retourne une table où tous les noms de colonne du `table` spécifié sont préfixés avec le texte spécifié `prefix`, plus un point sous la forme `prefix.ColumnName`.
 
 
 ## Examples
 
-### Example #1 
-Préfixe les colonnes de la table avec &#34; MyTable &#34;.
+### Example #1
+Préfixe les colonnes de la table avec "MyTable".
 ```powerquery
 Table.PrefixColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

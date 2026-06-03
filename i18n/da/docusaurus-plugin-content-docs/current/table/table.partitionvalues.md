@@ -19,7 +19,7 @@ Table.PartitionValues(
 
 ## Remarks
 
-Returnerer oplysninger om, hvordan en tabel er partitioneret.  Der returneres en tabel, hvor de enkelte kolonner er en partitionskolonne i den oprindelige tabel, og hvor de enkelte rækker svarer til en partition i den oprindelige tabel.
+Returnerer oplysninger om, hvordan en tabel er partitioneret. Der returneres en tabel, hvor de enkelte kolonner er en partitionskolonne i den oprindelige tabel, og hvor de enkelte rækker svarer til en partition i den oprindelige tabel.
 
 
 

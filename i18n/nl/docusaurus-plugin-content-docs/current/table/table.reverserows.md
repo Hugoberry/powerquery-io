@@ -19,12 +19,12 @@ Table.ReverseRows(
 
 ## Remarks
 
-Retourneert een tabel met de rijen vanuit de invoer <code>table</code> in de omgekeerde volgorde.
+Retourneert een tabel met de rijen vanuit de invoer `table` in de omgekeerde volgorde.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De rijen in de tabel omkeren.
 ```powerquery
 Table.ReverseRows(

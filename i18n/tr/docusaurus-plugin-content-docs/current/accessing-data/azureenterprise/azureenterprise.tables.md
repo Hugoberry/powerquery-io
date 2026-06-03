@@ -5,7 +5,7 @@ title: AzureEnterprise.Tables
 # AzureEnterprise.Tables
 
 
-Kaydınızla ilişkilendirilen Azure Kurumsal REST API uç noktasının URL&#39;sini girin
+Kaydınızla ilişkilendirilen Azure Kurumsal REST API uç noktasının URL'sini girin
 
 
 ## Syntax
@@ -24,7 +24,7 @@ Azure Kurumsal API'sinden raporların ve ayların bir listesini döndürür
 
 ## Examples
 
-### Example #1 
+### Example #1
 AzureEnterprise.Tables işlevini kullanarak sonuçları almak üzere belirli bir değere gitme.
 ```powerquery
 let

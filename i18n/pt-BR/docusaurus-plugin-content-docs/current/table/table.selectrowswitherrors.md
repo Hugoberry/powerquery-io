@@ -25,7 +25,7 @@ Retorna uma tabela apenas com as linhas da tabela de entrada que contêm um erro
 
 ## Examples
 
-### Example #1 
+### Example #1
 Seleciona os nomes de clientes com erros nas linhas.
 ```powerquery
 Table.SelectRowsWithErrors(

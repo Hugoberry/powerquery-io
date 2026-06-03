@@ -25,4 +25,32 @@ The repository follows the structure of a Docusaurus3 site with addition of the 
 * `/process/shared/_taxonomy.json` contains the taxonomy of Power Query functions .
 * `/process/taxonomyGaps.js`, a Node.js script which identifies any functions lacking categorization.
 * `/process/functionDocTemplate.ejs` is he EJS template that describes the format for generating markdown documentation.
-* `/process/generateDocs.js` is a Node.js script that processes the JSON documentation for specific locales, outputting the final Markdown files into the appropriate locale directory under `/i18n/{locale}/docusaurus-plugin-content-docs/current/`, completing the documentation pipeline.
+* `/process/generateDocs.js` is a Node.js script that processes the JSON documentation and outputs the final Markdown files, completing the documentation pipeline. English (`en`) is written to `/docs`; every other locale is written to `/i18n/{locale}/docusaurus-plugin-content-docs/current/`. HTML embedded in the source strings (`<code>`, `<ul>`/`<li>`, `<table>`, …) is converted to Markdown with [Turndown](https://github.com/mixmark-io/turndown), and MDX-unsafe characters (`{`, `}`, `<`) are escaped.
+
+### Usage
+
+```bash
+node process/generateDocs.js                 # every locale found under /i18n
+node process/generateDocs.js de fr ja        # only the named locales
+node process/generateDocs.js en              # English → /docs
+node process/generateDocs.js --clean en      # English, removing stale .md first
+node process/generateDocs.js --trim          # all i18n locales, with trimming
+```
+
+| Argument | Description |
+| --- | --- |
+| `<locale>…` | One or more locale codes to generate (e.g. `de fr ja`). Use `en` to (re)generate English into `/docs`. When no locale is given, every locale under `/i18n` is processed. |
+| `--all` | Process every locale found under `/i18n`, in addition to any locales passed explicitly. |
+| `--en` | Also (re)generate English into `/docs`. |
+| `--clean` | Delete previously generated `.md` files in the target before writing, so renamed/removed functions don't linger as stale orphans. `readme.md`, `_category_.json` and hand-authored `.mdx` overrides are preserved. |
+| `--trim` | After generating a locale, delete files whose content is byte-identical to the English version — Docusaurus falls back to the default locale for the missing entries (replaces the old `trimLocaleDocs.ps1`). |
+| `--preserve-case` | Keep the original casing of output paths instead of lowercasing them. |
+
+A typical end-to-end refresh after the JSON has been regenerated:
+
+```bash
+node process/generateDocs.js --clean en      # 1. English first
+node process/generateDocs.js --trim          # 2. all i18n locales, trimmed against English
+```
+
+> The script depends on `ejs`, `turndown` and `turndown-plugin-gfm` (declared in `devDependencies`); run `npm install` first. Functions with a hand-authored `.mdx` page are skipped so manual pages are never overwritten.

@@ -19,7 +19,7 @@ Excel.CurrentWorkbook(
 
 ## Remarks
 
-Returnerar innehållet i den aktuella Excel-arbetsboken. Den returnerar tabeller, namngivna områden och dynamiska matriser. Till skillnad från <code>Excel.Workbook</code> returneras inte blad.
+Returnerar innehållet i den aktuella Excel-arbetsboken. Den returnerar tabeller, namngivna områden och dynamiska matriser. Till skillnad från `Excel.Workbook` returneras inte blad.
 
 
 

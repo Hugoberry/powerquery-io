@@ -19,7 +19,7 @@ Cube.PropertyKey(
 
 ## Remarks
 
-गुण <code>property</code> की कुंजी वापस करता है.
+गुण `property` की कुंजी वापस करता है.
 
 
 

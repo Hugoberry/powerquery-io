@@ -19,12 +19,12 @@ Record.ToTable(
 
 ## Remarks
 
-返回一个表，它包含 <code>Name</code> 和 <code>Value</code> 列以及对应于 <code>record</code> 中每个字段的行。
+返回一个表，它包含 `Name` 和 `Value` 列以及对应于 `record` 中每个字段的行。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 从记录返回表。
 ```powerquery
 Record.ToTable([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

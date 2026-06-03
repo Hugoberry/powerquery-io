@@ -19,13 +19,15 @@ Date.ToRecord(
 
 ## Remarks
 
-指定された date 値 (<code>date</code>) の部分を含むレコードを返します。 <ul>        <li><code>date</code>: その部分のレコードが計算される <code>date</code> 値。</li>      </ul>
+指定された date 値 (`date`) の部分を含むレコードを返します。
+
+-   `date`: その部分のレコードが計算される `date` 値。
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;#date(2011, 12, 31)&lt;/code&gt; 値を、日付値の部分を含むレコードに変換します。
+### Example #1
+`#date(2011, 12, 31)` 値を、日付値の部分を含むレコードに変換します。
 ```powerquery
 Date.ToRecord(#date(2011, 12, 31))
 ```

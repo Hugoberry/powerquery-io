@@ -19,13 +19,13 @@ List.Zip(
 
 ## Remarks
 
-Tager en liste over lister, <code>lists</code>, og returnerer en liste over lister, der kombinerer elementer på samme position.
+Tager en liste over lister, `lists`, og returnerer en liste over lister, der kombinerer elementer på samme position.
 
 
 ## Examples
 
-### Example #1 
-Zipper de to enkle lister \{1, 2} og \{3, 4}.
+### Example #1
+Zipper de to enkle lister \{1, 2\} og \{3, 4\}.
 ```powerquery
 List.Zip({{1, 2}, {3, 4}})
 ```
@@ -39,8 +39,8 @@ Result:
 ```
 
 
-### Example #2 
-Zipper de to enkle lister med forskellige længder \{1, 2} og \{3}.
+### Example #2
+Zipper de to enkle lister med forskellige længder \{1, 2\} og \{3\}.
 ```powerquery
 List.Zip({{1, 2}, {3}})
 ```

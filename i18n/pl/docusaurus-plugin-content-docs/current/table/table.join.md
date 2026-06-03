@@ -25,12 +25,25 @@ Table.Join(
 
 ## Remarks
 
-Łączy wiersze z <code>table1</code> z wierszami z <code>table2</code> na podstawie równości wartości kolumn kluczowych wybranych przez <code>key1</code> (dla <code>table1</code> ) i <code>key2</code> (dla <code>table2</code>).<br /> Domyślnie wykonywane jest sprzężenie wewnętrzne, jednak opcjonalnie <code>joinKind</code> można określić typ sprzężenia. Opcje obejmują:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br /> Opcjonalny zestaw <code>keyEqualityComparers</code> może być dołączony w celu określenia sposobu porównywania kluczowych kolumn. Ten parametr jest obecnie przeznaczony tylko do użytku wewnętrznego.<br />
+Łączy wiersze z `table1` z wierszami z `table2` na podstawie równości wartości kolumn kluczowych wybranych przez `key1` (dla `table1` ) i `key2` (dla `table2`).
+
+Domyślnie wykonywane jest sprzężenie wewnętrzne, jednak opcjonalnie `joinKind` można określić typ sprzężenia. Opcje obejmują:
+
+-   `JoinKind.Inner`
+-   `JoinKind.LeftOuter`
+-   `JoinKind.RightOuter`
+-   `JoinKind.FullOuter`
+-   `JoinKind.LeftAnti`
+-   `JoinKind.RightAnti`
+-   `JoinKind.LeftSemi`
+-   `JoinKind.RightSemi`
+
+Opcjonalny zestaw `keyEqualityComparers` może być dołączony w celu określenia sposobu porównywania kluczowych kolumn. Ten parametr jest obecnie przeznaczony tylko do użytku wewnętrznego.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Połącz dwie tabele przy użyciu jednej kolumny klucza.
 ```powerquery
 Table.Join(
@@ -67,7 +80,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Dołącz do dwóch tabel, które mają sprzeczne nazwy kolumn, używając wielu kolumn kluczowych.
 ```powerquery
 let

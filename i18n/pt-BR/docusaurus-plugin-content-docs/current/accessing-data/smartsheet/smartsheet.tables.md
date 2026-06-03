@@ -24,7 +24,7 @@ Retorna uma tabela aninhada das planilhas, relatórios, pastas e workspaces disp
 
 ## Examples
 
-### Example #1 
+### Example #1
 Retorna planilhas, pastas, relatórios e workspaces disponíveis no nível superior da hierarquia do Smartsheet
 ```powerquery
 Smartsheet.Tables()

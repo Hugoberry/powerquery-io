@@ -19,12 +19,12 @@ Record.ToTable(
 
 ## Remarks
 
-<code>record</code> içindeki her alan için birer satır içerecek şekilde <code>Name</code> ve <code>Value</code> sütunlarını içeren bir tablo döndürür.
+`record` içindeki her alan için birer satır içerecek şekilde `Name` ve `Value` sütunlarını içeren bir tablo döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kayıttaki tabloyu döndürür.
 ```powerquery
 Record.ToTable([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

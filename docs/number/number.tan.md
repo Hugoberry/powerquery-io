@@ -19,12 +19,12 @@ Number.Tan(
 
 ## Remarks
 
-Returns the tangent of <code>number</code>.
+Returns the tangent of `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find the tangent of the angle 1.
 ```powerquery
 Number.Tan(1)

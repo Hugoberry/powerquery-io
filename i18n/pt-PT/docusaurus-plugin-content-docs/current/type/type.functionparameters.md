@@ -19,13 +19,13 @@ Type.FunctionParameters(
 
 ## Remarks
 
-Devolve um registo com valores de campo definidos para o nome dos parâmetros de <code>type</code> e os respetivos valores definidos para os tipos correspondentes.
+Devolve um registo com valores de campo definidos para o nome dos parâmetros de `type` e os respetivos valores definidos para os tipos correspondentes.
 
 
 ## Examples
 
-### Example #1 
-Encontrar os tipos de parâmetros para a função &lt;code&gt;(x as number, y as text)&lt;/code&gt;.
+### Example #1
+Encontrar os tipos de parâmetros para a função `(x as number, y as text)`.
 ```powerquery
 Type.FunctionParameters(type function (x as number, y as text) as any)
 ```

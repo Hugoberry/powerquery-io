@@ -27,7 +27,7 @@ Samler de angivne kolonner i en ny kolonne ved hjælp af den angivne samlefunkti
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kombiner sidste og første navn til en ny kolonne adskilt af et komma.
 ```powerquery
 Table.CombineColumns(

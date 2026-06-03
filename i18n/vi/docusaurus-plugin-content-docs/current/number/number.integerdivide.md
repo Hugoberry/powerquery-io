@@ -21,12 +21,15 @@ Number.IntegerDivide(
 
 ## Remarks
 
-Trả về phần số nguyên của kết quả sau khi chia một số là <code>number1</code> cho một số khác là <code>number2</code>.    Nếu <code>number1</code> hoặc <code>number2</code> là giá trị null thì <code>Number.IntegerDivide</code> trả về giá trị null.      <ul>        <li><code>number1</code>: Số bị chia.</li>        <li><code>number2</code>: Số chia.</li>      </ul>
+Trả về phần số nguyên của kết quả sau khi chia một số là `number1` cho một số khác là `number2`. Nếu `number1` hoặc `number2` là giá trị null thì `Number.IntegerDivide` trả về giá trị null.
+
+-   `number1`: Số bị chia.
+-   `number2`: Số chia.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Chia 6 cho 4.
 ```powerquery
 Number.IntegerDivide(6, 4)
@@ -38,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Chia 8.3 cho 3.
 ```powerquery
 Number.IntegerDivide(8.3, 3)

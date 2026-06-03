@@ -22,13 +22,18 @@ Table.ExpandRecordColumn(
 
 ## Remarks
 
-Com base no <code>column</code> de registos existentes na entrada <code>table</code>, cria uma tabela com uma coluna para cada campo existente no registo. Opcionalmente, <code>newColumnNames</code> pode ser especificado para garantir nomes exclusivos para as colunas na tabela nova.    <ul>        <li><code>table</code>: a tabela original com a coluna de registos a expandir. </li>        <li><code>column</code>: a coluna a expandir.</li>        <li><code>fieldNames</code>: a lista de campos a expandir nas colunas da tabela.</li>        <li><code>newColumnNames</code>: a lista de nomes a atribuir às colunas novas. Os nomes das colunas novas não podem duplicar qualquer coluna na tabela nova.</li>    </ul>
+Com base no `column` de registos existentes na entrada `table`, cria uma tabela com uma coluna para cada campo existente no registo. Opcionalmente, `newColumnNames` pode ser especificado para garantir nomes exclusivos para as colunas na tabela nova.
+
+-   `table`: a tabela original com a coluna de registos a expandir.
+-   `column`: a coluna a expandir.
+-   `fieldNames`: a lista de campos a expandir nas colunas da tabela.
+-   `newColumnNames`: a lista de nomes a atribuir às colunas novas. Os nomes das colunas novas não podem duplicar qualquer coluna na tabela nova.
 
 
 ## Examples
 
-### Example #1 
-Expandir a coluna [a] existente na tabela &lt;code&gt;(\{[a = [aa = 1, bb = 2, cc = 3], b = 2]})&lt;/code&gt; para 3 colunas &#34;aa&#34;, &#34;bb&#34; e &#34;cc&#34;.
+### Example #1
+Expandir a coluna \[a\] existente na tabela `({[a = [aa = 1, bb = 2, cc = 3], b = 2]})` para 3 colunas "aa", "bb" e "cc".
 ```powerquery
 Table.ExpandRecordColumn(
     Table.FromRecords({

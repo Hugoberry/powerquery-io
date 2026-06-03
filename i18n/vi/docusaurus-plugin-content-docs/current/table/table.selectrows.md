@@ -20,13 +20,13 @@ Table.SelectRows(
 
 ## Remarks
 
-Trả về một bảng chứa các hàng từ <code>table</code> khớp với lựa chọn <code>condition</code>.
+Trả về một bảng chứa các hàng từ `table` khớp với lựa chọn `condition`.
 
 
 ## Examples
 
-### Example #1 
-Chọn các hàng trong bảng nơi các giá trị trong cột [CustomerID] lớn hơn 2.
+### Example #1
+Chọn các hàng trong bảng nơi các giá trị trong cột \[CustomerID\] lớn hơn 2.
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({
@@ -48,8 +48,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Chọn các hàng trong bảng nơi các tên không chứa &#34;B&#34;.
+### Example #2
+Chọn các hàng trong bảng nơi các tên không chứa "B".
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({

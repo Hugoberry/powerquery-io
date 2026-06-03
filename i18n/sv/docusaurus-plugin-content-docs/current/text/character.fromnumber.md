@@ -19,12 +19,14 @@ Character.FromNumber(
 
 ## Remarks
 
-Returnerar teckenmotsvarigheten för tal.<br />    <br />    Den angivna <code>number</code> ska vara en 21-bitars Unicode-kodpunkt.
+Returnerar teckenmotsvarigheten för tal.  
+  
+Den angivna `number` ska vara en 21-bitars Unicode-kodpunkt.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Konvertera ett tal till motsvarande teckenvärde.
 ```powerquery
 Character.FromNumber(9)
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Konvertera ett tecken till ett tal och tillbaka igen.
 ```powerquery
 Character.FromNumber(Character.ToNumber("A"))
@@ -48,8 +50,8 @@ Result:
 ```
 
 
-### Example #3 
-Konvertera den hexadecimala kodpunkten för uttryckssymbolen &#34;leende ansikte&#34; till motsvarande UTF-16-surrogatpar.
+### Example #3
+Konvertera den hexadecimala kodpunkten för uttryckssymbolen "leende ansikte" till motsvarande UTF-16-surrogatpar.
 ```powerquery
 Character.FromNumber(0x1F600)
 ```

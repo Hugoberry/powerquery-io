@@ -21,12 +21,12 @@ List.Durations(
 
 ## Remarks
 
-Returnerer en liste over værdier af typen <code>count</code> <code>duration</code> med start ved <code>start</code> og med en stigning på den angivne <code>duration</code> <code>step</code>.
+Returnerer en liste over værdier af typen `count` `duration` med start ved `start` og med en stigning på den angivne `duration` `step`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Opret en liste over 5 værdier med start ved 1 time og med en stigning på en time.
 ```powerquery
 List.Durations(#duration(0, 1, 0, 0), 5, #duration(0, 1, 0, 0))

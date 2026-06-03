@@ -19,12 +19,12 @@ RowExpression.Column(
 
 ## Remarks
 
-Retourneert een abstracte syntaxisstructuur (AST) die de toegang tot de kolom <code>columnName</code> van de rij binnen een rijexpressie vertegenwoordigt.
+Retourneert een abstracte syntaxisstructuur (AST) die de toegang tot de kolom `columnName` van de rij binnen een rijexpressie vertegenwoordigt.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hiermee wordt een abstracte syntaxisstructuur gemaakt die de toegang tot de kolom CustomerName vertegenwoordigt.
 ```powerquery
 RowExpression.Column("CustomerName")

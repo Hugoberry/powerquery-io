@@ -25,7 +25,7 @@ Returns a function that splits text into a list of text by each specified length
 
 ## Examples
 
-### Example #1 
+### Example #1
 Split the input into the first two characters followed by the next three, starting from the beginning of the input.
 ```powerquery
 Splitter.SplitTextByLengths({2, 3})("AB123")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Split the input into the first three characters followed by the next two, starting from the end of the input.
 ```powerquery
 let

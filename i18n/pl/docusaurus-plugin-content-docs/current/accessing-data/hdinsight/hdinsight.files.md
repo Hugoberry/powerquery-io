@@ -20,7 +20,7 @@ HdInsight.Files(
 
 ## Remarks
 
-Zwraca tabelę zawierającą wiersz każdego pliku blob znalezionego pod adresem URL kontenera (<code>account</code>) z magazynu systemu Azure. Każdy wiersz zawiera właściwości pliku i link do jego zawartości.
+Zwraca tabelę zawierającą wiersz każdego pliku blob znalezionego pod adresem URL kontenera (`account`) z magazynu systemu Azure. Każdy wiersz zawiera właściwości pliku i link do jego zawartości.
 
 
 

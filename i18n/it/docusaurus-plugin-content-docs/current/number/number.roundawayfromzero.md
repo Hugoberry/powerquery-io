@@ -5,7 +5,7 @@ title: Number.RoundAwayFromZero
 # Number.RoundAwayFromZero
 
 
-Restituisce il risultato dell&#39;arrotondamento dei numeri positivi per eccesso e dei numeri negativi per difetto. È possibile specificare il numero di cifre.
+Restituisce il risultato dell'arrotondamento dei numeri positivi per eccesso e dei numeri negativi per difetto. È possibile specificare il numero di cifre.
 
 
 ## Syntax
@@ -20,12 +20,12 @@ Number.RoundAwayFromZero(
 
 ## Remarks
 
-Restituisce il risultato dell'arrotondamento di <code>number</code> in base al segno del numero. Questa funzione arrotonda i numeri positivi per eccesso e i numeri negativi per difetto.    Se è specificato <code>digits</code>, <code>number</code> viene arrotondato al numero di cifre decimali di <code>digits</code>.  
+Restituisce il risultato dell'arrotondamento di `number` in base al segno del numero. Questa funzione arrotonda i numeri positivi per eccesso e i numeri negativi per difetto. Se è specificato `digits`, `number` viene arrotondato al numero di cifre decimali di `digits`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Arrotondare il valore assoluto del numero -1,2.
 ```powerquery
 Number.RoundAwayFromZero(-1.2)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Arrotondare il valore assoluto del numero 1,2.
 ```powerquery
 Number.RoundAwayFromZero(1.2)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Arrotondare il numero -1,234 a due posizioni decimali dallo zero.
 ```powerquery
 Number.RoundAwayFromZero(-1.234, 2)

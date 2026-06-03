@@ -24,7 +24,7 @@ Number.Random(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Возвращает случайное число.
 ```powerquery
 Number.Random()

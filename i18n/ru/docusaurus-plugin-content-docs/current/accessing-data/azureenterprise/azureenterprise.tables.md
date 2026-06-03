@@ -24,7 +24,7 @@ AzureEnterprise.Tables(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Использование функции AzureEnterprise.Tables и переход к конкретному значению для получения результатов.
 ```powerquery
 let

@@ -19,13 +19,15 @@ Date.DaysInMonth(
 
 ## Remarks
 
-<code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri olan <code>dateTime</code> öğesindeki ay içinde bulunan gün sayısını döndürür. <ul>        <li><code>dateTime</code>: Aydaki gün sayısının döndürüldüğü bir <code>date</code>, <code>datetime</code> veya <code>datetimezone</code>değeri.</li>      </ul>
+`date`, `datetime` veya `datetimezone` değeri olan `dateTime` öğesindeki ay içinde bulunan gün sayısını döndürür.
+
+-   `dateTime`: Aydaki gün sayısının döndürüldüğü bir `date`, `datetime` veya `datetimezone`değeri.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;#date(2011, 12, 01)&gt;&lt;/code&gt; ile gösterilen, Aralık ayındaki gün sayısı.
+### Example #1
+`#date(2011, 12, 01)` ile gösterilen, Aralık ayındaki gün sayısı.
 ```powerquery
 Date.DaysInMonth(#date(2011, 12, 01))
 ```

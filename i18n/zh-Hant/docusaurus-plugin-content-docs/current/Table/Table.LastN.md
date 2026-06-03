@@ -20,12 +20,15 @@ Table.LastN(
 
 ## Remarks
 
-根據 <code>countOrCondition</code> 的值，傳回資料表 <code>table</code> 的最後一個資料列:    <ul>    <li> 如果 <code>countOrCondition</code> 是數字，就會傳回該數目的資料列，從位置 (結尾 - <code>countOrCondition</code>) 開始。</li>    <li> 如果 <code>countOrCondition</code> 是條件，就會按遞增位置傳回符合該條件的資料列，直到資料列不符合條件為止。</li></ul>
+根據 `countOrCondition` 的值，傳回資料表 `table` 的最後一個資料列:
+
+-   如果 `countOrCondition` 是數字，就會傳回該數目的資料列，從位置 (結尾 - `countOrCondition`) 開始。
+-   如果 `countOrCondition` 是條件，就會按遞增位置傳回符合該條件的資料列，直到資料列不符合條件為止。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 找出資料表的最後兩個資料列。
 ```powerquery
 Table.LastN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-找出資料表中 [a] &gt; 0 的最後幾個資料列。
+### Example #2
+找出資料表中 \[a\] > 0 的最後幾個資料列。
 ```powerquery
 Table.LastN(
     Table.FromRecords({

@@ -20,13 +20,16 @@ Binary.FromText(
 
 ## Remarks
 
-返回将文本值 <code>text</code> 转换为二进制值(<code>number</code> 的列表)的结果。可以指定 <code>encoding</code> 以便指示在文本值中使用的编码。      以下 <code>BinaryEncoding</code> 值可用于 <code>encoding</code>。      <ul>        <li><code>BinaryEncoding.Base64</code>: Base 64 编码</li>        <li><code>BinaryEncoding.Hex</code>: 十六进制编码</li>      </ul>
+返回将文本值 `text` 转换为二进制值(`number` 的列表)的结果。可以指定 `encoding` 以便指示在文本值中使用的编码。 以下 `BinaryEncoding` 值可用于 `encoding`。
+
+-   `BinaryEncoding.Base64`: Base 64 编码
+-   `BinaryEncoding.Hex`: 十六进制编码
 
 
 ## Examples
 
-### Example #1 
-将 &#34;1011&#34; 解码为二进制值。
+### Example #1
+将 "1011" 解码为二进制值。
 ```powerquery
 Binary.FromText("1011")
 ```
@@ -37,8 +40,8 @@ Binary.FromText("1011", BinaryEncoding.Base64)
 ```
 
 
-### Example #2 
-将 &#34;1011&#34; 解码为具有十六进制编码的二进制值。
+### Example #2
+将 "1011" 解码为具有十六进制编码的二进制值。
 ```powerquery
 Binary.FromText("1011", BinaryEncoding.Hex)
 ```

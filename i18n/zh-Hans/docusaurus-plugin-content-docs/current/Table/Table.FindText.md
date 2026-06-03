@@ -20,13 +20,13 @@ Table.FindText(
 
 ## Remarks
 
-返回表 <code>table</code> 中包含文本 <code>text</code> 的行。如果找不到文本，则返回空表。
+返回表 `table` 中包含文本 `text` 的行。如果找不到文本，则返回空表。
 
 
 ## Examples
 
-### Example #1 
-查找表中包含 &#34;Bob&#34; 的行。
+### Example #1
+查找表中包含 "Bob" 的行。
 ```powerquery
 Table.FindText(
     Table.FromRecords({

@@ -24,7 +24,7 @@ Binary.Buffer(
 
 ## Examples
 
-### Example #1 
+### Example #1
 创建二进制值的稳定版本。
 ```powerquery
 Binary.Buffer(Binary.FromList({0..10}))

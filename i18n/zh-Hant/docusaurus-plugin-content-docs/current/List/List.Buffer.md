@@ -19,13 +19,13 @@ List.Buffer(
 
 ## Remarks
 
-將清單 <code>list</code> 緩衝在記憶體中。這個呼叫的結果是穩定的清單。
+將清單 `list` 緩衝在記憶體中。這個呼叫的結果是穩定的清單。
 
 
 ## Examples
 
-### Example #1 
-建立清單 \{1..10} 的穩定複本。
+### Example #1
+建立清單 \{1..10\} 的穩定複本。
 ```powerquery
 List.Buffer({1..10})
 ```

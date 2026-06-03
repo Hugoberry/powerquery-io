@@ -24,7 +24,7 @@ Azure エンタープライズ API で使用可能なレポートと月の一覧
 
 ## Examples
 
-### Example #1 
+### Example #1
 AzureEnterprise.Tables 関数を使用し、特定の値に移動して結果を取得します。
 ```powerquery
 let

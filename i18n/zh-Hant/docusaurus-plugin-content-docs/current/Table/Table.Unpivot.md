@@ -27,8 +27,8 @@ Table.Unpivot(
 
 ## Examples
 
-### Example #1 
-採用資料表 &lt;code&gt;(\{[ key = &#34;x&#34;, a = 1, b = null, c = 3 ], [ key = &#34;y&#34;, a = 2, b = 4, c = null ]})&lt;/code&gt; 中的資料行 &#34;a&#34;、&#34;b&#34; 和 &#34;c&#34;，並將它們取消樞紐分析成屬性/值組。
+### Example #1
+採用資料表 `({[ key = "x", a = 1, b = null, c = 3 ], [ key = "y", a = 2, b = 4, c = null ]})` 中的資料行 "a"、"b" 和 "c"，並將它們取消樞紐分析成屬性/值組。
 ```powerquery
 Table.Unpivot(
     Table.FromRecords({

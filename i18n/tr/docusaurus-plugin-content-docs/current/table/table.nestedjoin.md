@@ -25,12 +25,16 @@ Table.NestedJoin(
 
 ## Remarks
 
-<code>key1</code> (<code>table1</code> için) ve <code>key2</code> (<code>table2</code> için) tarafından seçilen anahtar sütunu değerlerinin eşitliğine göre <code>table1</code> satırlarını <code>table2</code> satırlarıyla birleştirir. Sonuçlar <code>newColumnName</code> adlı sütuna girilir.<br />İsteğe bağlı <code>joinKind</code>, gerçekleştirilecek birleşimin türünü belirtir. <code>joinKind</code> belirtilmezse varsayılan olarak sol dış birleştirme işlemi gerçekleştirilir.<br />Anahtar sütunlarının nasıl karşılaştırılacağını belirtmek üzere isteğe bağlı bir <code>keyEqualityComparers</code> kümesi eklenebilir. Bu özellik, şu anda yalnızca şirket içinde kullanılabilir.<br />  
+`key1` (`table1` için) ve `key2` (`table2` için) tarafından seçilen anahtar sütunu değerlerinin eşitliğine göre `table1` satırlarını `table2` satırlarıyla birleştirir. Sonuçlar `newColumnName` adlı sütuna girilir.
+
+İsteğe bağlı `joinKind`, gerçekleştirilecek birleşimin türünü belirtir. `joinKind` belirtilmezse varsayılan olarak sol dış birleştirme işlemi gerçekleştirilir.
+
+Anahtar sütunlarının nasıl karşılaştırılacağını belirtmek üzere isteğe bağlı bir `keyEqualityComparers` kümesi eklenebilir. Bu özellik, şu anda yalnızca şirket içinde kullanılabilir.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tek bir anahtar sütunu kullanarak iki tabloyu birleştirin.
 ```powerquery
 Table.NestedJoin(

@@ -20,12 +20,12 @@ BinaryFormat.Text(
 
 ## Remarks
 
-Devuelve un formato binario que lee un valor de texto.  El <code>length</code> especifica el número de bytes para decodificar o el formato binario de la longitud que antecede al texto.  El valor opcional <code>encoding</code> especifica la codificación del texto.  Si no se especifica <code>encoding</code>, la codificación se determina a partir de las marcas BOM Unicode.  Si no hay ninguna marca BOM, se usa <code>TextEncoding.Utf8</code>.
+Devuelve un formato binario que lee un valor de texto. El `length` especifica el número de bytes para decodificar o el formato binario de la longitud que antecede al texto. El valor opcional `encoding` especifica la codificación del texto. Si no se especifica `encoding`, la codificación se determina a partir de las marcas BOM Unicode. Si no hay ninguna marca BOM, se usa `TextEncoding.Utf8`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Descodifique dos bytes como texto ASCII.
 ```powerquery
 let
@@ -41,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Decodificar texto ASCII cuando la longitud del texto en bytes aparezca antes que el texto como un byte.
 ```powerquery
 let

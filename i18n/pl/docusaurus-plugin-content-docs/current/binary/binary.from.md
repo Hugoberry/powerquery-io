@@ -20,13 +20,17 @@ Binary.From(
 
 ## Remarks
 
-Zwraca wartość typu <code>binary</code> z danej wartości parametru <code>value</code>. Jeśli dany parametr <code>value</code> ma wartość <code>null</code>, funkcja <code>Binary.From</code> zwraca wartość <code>null</code>.  Jeśli dany parametr <code>value</code> ma wartość typu <code>binary</code>, zwracana jest wartość <code>value</code>. Na wartość typu <code>binary</code> można konwertować wartości następujących typów:      <ul>        <li><code>text</code>: wartość typu <code>binary</code> z reprezentacji tekstowej. Zobacz opis funkcji <code>Binary.FromText</code>, aby uzyskać szczegółowe informacje.</li>      </ul>Jeśli wartość parametru <code>value</code> jest innego typu, jest zwracany błąd.
+Zwraca wartość typu `binary` z danej wartości parametru `value`. Jeśli dany parametr `value` ma wartość `null`, funkcja `Binary.From` zwraca wartość `null`. Jeśli dany parametr `value` ma wartość typu `binary`, zwracana jest wartość `value`. Na wartość typu `binary` można konwertować wartości następujących typów:
+
+-   `text`: wartość typu `binary` z reprezentacji tekstowej. Zobacz opis funkcji `Binary.FromText`, aby uzyskać szczegółowe informacje.
+
+Jeśli wartość parametru `value` jest innego typu, jest zwracany błąd.
 
 
 ## Examples
 
-### Example #1 
-Pobierz wartość typu &lt;code&gt;binary&lt;/code&gt; z wartości &lt;code&gt;&#34;1011&#34;&lt;/code&gt;.
+### Example #1
+Pobierz wartość typu `binary` z wartości `"1011"`.
 ```powerquery
 Binary.From("1011")
 ```

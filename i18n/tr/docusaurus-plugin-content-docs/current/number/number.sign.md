@@ -19,13 +19,13 @@ Number.Sign(
 
 ## Remarks
 
-<code>number</code> pozitif bir sayı ise 1, negatif sayı ise -1 ve sıfırsa 0 döndürür.    <code>number</code> null ise <code>Number.Sign</code> null döndürür.
+`number` pozitif bir sayı ise 1, negatif sayı ise -1 ve sıfırsa 0 döndürür. `number` null ise `Number.Sign` null döndürür.
 
 
 ## Examples
 
-### Example #1 
-182&#39;nin işaretini belirler.
+### Example #1
+182'nin işaretini belirler.
 ```powerquery
 Number.Sign(182)
 ```
@@ -36,8 +36,8 @@ Result:
 ```
 
 
-### Example #2 
--182&#39;nin işaretini belirler.
+### Example #2
+\-182'nin işaretini belirler.
 ```powerquery
 Number.Sign(-182)
 ```
@@ -48,8 +48,8 @@ Result:
 ```
 
 
-### Example #3 
-0&#39;nin işaretini belirler.
+### Example #3
+0'nin işaretini belirler.
 ```powerquery
 Number.Sign(0)
 ```

@@ -19,7 +19,7 @@ Cube.DisplayFolders(
 
 ## Remarks
 
-Devolve uma árvore de tabelas aninhada que representa a hierarquia de pastas de apresentação dos objetos (por exemplo: dimensões e medidas) disponíveis para utilização no <code>cube</code>.
+Devolve uma árvore de tabelas aninhada que representa a hierarquia de pastas de apresentação dos objetos (por exemplo: dimensões e medidas) disponíveis para utilização no `cube`.
 
 
 

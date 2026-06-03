@@ -20,12 +20,16 @@ Table.RemoveLastN(
 
 ## Remarks
 
-テーブル <code>table</code> の最後の <code>countOrCondition</code> 行が含まれないテーブルを返します。        削除される行の数は、省略可能なパラメーター <code>countOrCondition</code> によって決まります。    <ul>    <li> <code>countOrCondition</code> が省略された場合は、最後の行だけが削除されます。</li>    <li> <code>countOrCondition</code> が数の場合は、(末尾から) その数の行が削除されます。</li>    <li> <code>countOrCondition</code> が条件の場合は、その条件を満たす行が、条件を満たさない行まで削除されます。</li>    </ul>
+テーブル `table` の最後の `countOrCondition` 行が含まれないテーブルを返します。 削除される行の数は、省略可能なパラメーター `countOrCondition` によって決まります。
+
+-   `countOrCondition` が省略された場合は、最後の行だけが削除されます。
+-   `countOrCondition` が数の場合は、(末尾から) その数の行が削除されます。
+-   `countOrCondition` が条件の場合は、その条件を満たす行が、条件を満たさない行まで削除されます。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブルの最終行を削除します。
 ```powerquery
 Table.RemoveLastN(
@@ -49,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-テーブルの [CustomerID] &gt; 2 である最終行を削除します。
+### Example #2
+テーブルの \[CustomerID\] > 2 である最終行を削除します。
 ```powerquery
 Table.RemoveLastN(
     Table.FromRecords({

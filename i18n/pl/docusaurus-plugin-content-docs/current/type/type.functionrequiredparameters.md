@@ -19,13 +19,13 @@ Type.FunctionRequiredParameters(
 
 ## Remarks
 
-Zwraca liczbę określającą minimalną liczbę parametrów wymaganych do wywołania wejścia <code>type</code> funkcji.
+Zwraca liczbę określającą minimalną liczbę parametrów wymaganych do wywołania wejścia `type` funkcji.
 
 
 ## Examples
 
-### Example #1 
-Znajdź liczbę wymaganych parametrów funkcji &lt;code&gt;(x as number, optional y as text)&lt;/code&gt;.
+### Example #1
+Znajdź liczbę wymaganych parametrów funkcji `(x as number, optional y as text)`.
 ```powerquery
 Type.FunctionRequiredParameters(type function (x as number, optional y as text) as any)
 ```

@@ -24,7 +24,7 @@ Splitter.SplitTextByWhitespace(
 
 ## Examples
 
-### Example #1 
+### Example #1
 แยกข้อมูลป้อนเข้าด้วยอักขระช่องว่าง โดยถือว่าเครื่องหมายอัญประกาศเหมือนกับอักขระอื่นๆ
 ```powerquery
 Splitter.SplitTextByWhitespace(QuoteStyle.None)("a b#(tab)c")

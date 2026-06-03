@@ -22,6 +22,6 @@ DocumentDB.Contents(
 
 ## Remarks
 
-Hiermit wird eine Tabelle mit Azure Cosmos DB-Datenbanken unter <code>url</code> zurückgegeben. Wenn <code>database</code> angegeben ist, wird stattdessen eine Tabelle mit Sammlungen zurückgegeben. Wenn außerdem das Feld <code>Query</code> im <code>options</code>-Datensatz angegeben wurde, werden die Ergebnisse der Abfrage zurückgegeben, die für die angegebene Datenbank oder Sammlung ausgeführt wird.
+Hiermit wird eine Tabelle mit Azure Cosmos DB-Datenbanken unter `url` zurückgegeben. Wenn `database` angegeben ist, wird stattdessen eine Tabelle mit Sammlungen zurückgegeben. Wenn außerdem das Feld `Query` im `options`\-Datensatz angegeben wurde, werden die Ergebnisse der Abfrage zurückgegeben, die für die angegebene Datenbank oder Sammlung ausgeführt wird.
 
 

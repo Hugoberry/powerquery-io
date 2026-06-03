@@ -20,12 +20,22 @@ Binary.View(
 
 ## Remarks
 
-İşlem görünüme uygulandığında varsayılan işlem davranışı yerine <code>handlers</code> içinde belirtilen işlevlerin kullanıldığı bir <code>binary</code> görünümü döndürür.<br /><code>binary</code> sağlanırsa işleyici işlevleri isteğe bağlıdır. <code>binary</code> sağlanmazsa <code>GetStream</code> işleyici işlevi gerekir. İşleme yönelik bir işleyici işlevinin belirtilmemesi durumunda bunun yerine (<code>GetExpression</code> durumu dışında) <code>binary</code> için varsayılan işlem davranışı uygulanır.<br />İşleyici işlevleri, <code>binary</code> üzerinde işlem uygulandıktan sonra elde edilen sonuç (veya <code>GetExpression</code> durumunda ortaya çıkan görünüm) ile anlamsal olarak eşdeğer bir değer döndürmelidir.<br />İşleyici işlevinin hata vermesi durumunda, görünüme varsayılan işlem davranışı uygulanır.<br />Kaynağa özgü işlemlere ilişkin M sorgularının çevirisi gibi bir veri kaynağına katlama işlemi uygulamak üzere (örneğin, bir dosyanın bir bölümünü indirmek için) <code>Binary.View</code> kullanılabilir.<br /><code>Binary.View</code> hakkında yapılan tüm açıklamalar için yayınlanmış Power Query özel bağlayıcı belgelerine bakın.<br />
+İşlem görünüme uygulandığında varsayılan işlem davranışı yerine `handlers` içinde belirtilen işlevlerin kullanıldığı bir `binary` görünümü döndürür.
+
+`binary` sağlanırsa işleyici işlevleri isteğe bağlıdır. `binary` sağlanmazsa `GetStream` işleyici işlevi gerekir. İşleme yönelik bir işleyici işlevinin belirtilmemesi durumunda bunun yerine (`GetExpression` durumu dışında) `binary` için varsayılan işlem davranışı uygulanır.
+
+İşleyici işlevleri, `binary` üzerinde işlem uygulandıktan sonra elde edilen sonuç (veya `GetExpression` durumunda ortaya çıkan görünüm) ile anlamsal olarak eşdeğer bir değer döndürmelidir.
+
+İşleyici işlevinin hata vermesi durumunda, görünüme varsayılan işlem davranışı uygulanır.
+
+Kaynağa özgü işlemlere ilişkin M sorgularının çevirisi gibi bir veri kaynağına katlama işlemi uygulamak üzere (örneğin, bir dosyanın bir bölümünü indirmek için) `Binary.View` kullanılabilir.
+
+`Binary.View` hakkında yapılan tüm açıklamalar için yayınlanmış Power Query özel bağlayıcı belgelerine bakın.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Uzunluğu belirlemek için verilere erişmeyi gerektirmeyen temel bir görünüm oluşturun.
 ```powerquery
 Binary.View(

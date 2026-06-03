@@ -19,12 +19,12 @@ Record.FieldCount(
 
 ## Remarks
 
-रिकॉर्ड <code>record</code> की फ़ील्ड की संख्या लौटाता है.
+रिकॉर्ड `record` की फ़ील्ड की संख्या लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 रिकॉर्ड में फ़ील्ड की संख्या ढूँढें.
 ```powerquery
 Record.FieldCount([CustomerID = 1, Name = "Bob"])

@@ -21,12 +21,16 @@ Number.Mod(
 
 ## Remarks
 
-Hiermee wordt de rest van de deling van het gehele getal van <code>number</code> door <code>divisor</code> geretourneerd.  Als <code>number</code> of <code>divisor</code> null is, retourneert <code> Number.Mod</code> null. <ul>  <li> <code>number</code>: het deeltal.</li>  <li> <code>divisor</code>: de deler.</li>  </ul>
+Geeft de rest terug die ontstaat uit de gehele deling van `number` door `divisor`. Als `number` of `divisor` `null` zijn, geeft deze functie `null` terug.
+
+-   `number`: het deeltal.
+-   `divisor`: de deler.
+-   `precision`: (Optioneel) De precisie van de deling van het gehele getal. Deze parameter kan `Precision.Double` zijn voor `Double` precisie of `Precision.Decimal` voor `Decimal` precisie. De standaardwaarde is `Precision.Double`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De rest zoeken wanneer u 5 door 3 deelt.
 ```powerquery
 Number.Mod(5, 3)
@@ -35,6 +39,37 @@ Number.Mod(5, 3)
 Result: 
 ```powerquery
 2
+```
+
+
+### Example #2
+Bereken het restant bij het delen van 10,5 door 0,2 met zowel `dubbele` precisie als `decimale` precisie.
+```powerquery
+let
+    Dividend = 10.5,
+    Divisor = 0.2,
+
+    #"Use Double Precision" = Number.Mod(Dividend, Divisor, Precision.Double),
+    #"Use Decimal Precision" = Number.Mod(Dividend, Divisor, Precision.Decimal),
+
+    // Convert to text to inspect precision
+    #"Double To Text" = Number.ToText(#"Use Double Precision", "G"),
+    #"Decimal To Text" = Number.ToText(#"Use Decimal Precision", "G"),
+
+    #"Display Result" = [
+        DoublePrecision = #"Double To Text",
+        DecimalPrecision = #"Decimal To Text"
+    ]
+in
+    #"Display Result"
+```
+
+Result: 
+```powerquery
+[
+    DoublePrecision = "0.0999999999999994",
+    DecimalPrecision = "0.1"
+]
 ```
 
 

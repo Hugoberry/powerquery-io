@@ -20,12 +20,12 @@ Number.Log(
 
 ## Remarks
 
-ส่งคืนลอการิทึมของตัวเลข <code>number</code> ไปยังฐาน <code>base</code> ที่ระบุ ถ้าไม่ได้ระบุ <code>base</code> ค่าเริ่มต้นจะเป็น ตัวเลข.E    ถ้า <code>number</code> เป็น null <code>ตัวเลข.บันทึก</code> จะส่งกลับ null
+ส่งคืนลอการิทึมของตัวเลข `number` ไปยังฐาน `base` ที่ระบุ ถ้าไม่ได้ระบุ `base` ค่าเริ่มต้นจะเป็น ตัวเลข.E ถ้า `number` เป็น null `ตัวเลข.บันทึก` จะส่งกลับ null
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 รับลอการิทึมฐาน 10 ของ 2
 ```powerquery
 Number.Log(2, 10)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 รับลอการิทึมฐาน e ของ 2
 ```powerquery
 Number.Log(2)

@@ -24,7 +24,7 @@ MailChimp API に対する呼び出しを行い、生の応答を返します。
 
 ## Examples
 
-### Example #1 
+### Example #1
 指定されたキャンペーンの reports/click-details MailChimp API エンドポイントからの生データを返します。
 ```powerquery
 MailChimp.Instance("reports/{campaign_id}/click-details")

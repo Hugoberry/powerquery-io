@@ -25,7 +25,7 @@ Gibt den Wert zurück, wenn er mit dem angegebenen Typ kompatibel ist. Dies ents
 
 ## Examples
 
-### Example #1 
+### Example #1
 Wandeln Sie eine Zahl in eine Zahl um.
 ```powerquery
 Value.As(123, Number.Type)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Versuchen Sie, einen Textwert in eine Zahl umzuwandeln.
 ```powerquery
 Value.As("abc", type number)

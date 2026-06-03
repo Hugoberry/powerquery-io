@@ -20,13 +20,13 @@ Single.From(
 
 ## Remarks
 
-Возвращает значение <code>number</code> типа Single, полученное из предоставленного значения <code>value</code>. Если данное <code>value</code> равно <code>NULL</code>, то <code>Single.From</code> возвращает <code>NULL</code>. Если данное <code>value</code> представляет собой <code>number</code> в границах диапазона Single, то <code>value</code> и возвращается, а в противном случае возвращается ошибка. Если <code>value</code> имеет какой-либо другой тип, значение сначала преобразуется в <code>number</code> с помощью <code>Number.FromText</code>. При необходимости можно также указать <code>culture</code> (например, "ru-RU").
+Возвращает значение `number` типа Single, полученное из предоставленного значения `value`. Если данное `value` равно `NULL`, то `Single.From` возвращает `NULL`. Если данное `value` представляет собой `number` в границах диапазона Single, то `value` и возвращается, а в противном случае возвращается ошибка. Если `value` имеет какой-либо другой тип, значение сначала преобразуется в `number` с помощью `Number.FromText`. При необходимости можно также указать `culture` (например, "ru-RU").
 
 
 ## Examples
 
-### Example #1 
-Получить значение Single &lt;code&gt;number&lt;/code&gt; для &lt;code&gt;&#34;1.5&#34;&lt;/code&gt;.
+### Example #1
+Получить значение Single `number` для `"1.5"`.
 ```powerquery
 Single.From("1.5")
 ```

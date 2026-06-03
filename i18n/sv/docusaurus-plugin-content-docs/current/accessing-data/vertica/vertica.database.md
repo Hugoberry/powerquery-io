@@ -21,12 +21,15 @@ Vertica.Database(
 
 ## Remarks
 
-Returnerar en tabell med scheman som är tillgängliga på servern som namnges av <code>server</code>parametern i databasen som namnges av <code>databas</code>parametern.En valfri post-parameter <code>alternativ</code>, kan tillhandahållas för att ange ytterligare egenskaper. Posten kan innehålla följande fält:<ul> <li> <code>ConnectionTimeout</code>: en varaktighet som anger hur lång väntan ska vara innan försök att ansluta till servern avbryts. Standardvärdet är drivrutinsberoende. </li> <li> <code>CommandTimeout </code>: en varaktighet som anger hur länge servern frågan kan köras innan den avbryts. Standardvärdet är drivrutinsberoende.        </li></ul>
+Returnerar en tabell med scheman som är tillgängliga på servern som namnges av `server`parametern i databasen som namnges av `databas`parametern. En valfri post-parameter `alternativ`, kan tillhandahållas för att ange ytterligare egenskaper. Posten kan innehålla följande fält:
+
+-   `ConnectionTimeout`: en varaktighet som anger hur lång väntan ska vara innan försök att ansluta till servern avbryts. Standardvärdet är drivrutinsberoende.
+-   `CommandTimeout` : en varaktighet som anger hur länge servern frågan kan köras innan den avbryts. Standardvärdet är drivrutinsberoende.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Lista tabellerna i Vertica
 ```powerquery
 

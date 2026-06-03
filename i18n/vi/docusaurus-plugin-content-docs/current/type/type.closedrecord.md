@@ -19,13 +19,13 @@ Type.ClosedRecord(
 
 ## Remarks
 
-Trả về phiên bản đã đóng của <code>bản ghi</code> <code>type</code> cho sẵn (hoặc cùng loại nếu đã đóng).
+Trả về phiên bản đã đóng của `bản ghi` `type` cho sẵn (hoặc cùng loại nếu đã đóng).
 
 
 ## Examples
 
-### Example #1 
-Tạo phiên bản đã đóng của &lt;code&gt;loại [ A = number,…]&lt;/code&gt;.
+### Example #1
+Tạo phiên bản đã đóng của `type [ A = number,...]`.
 ```powerquery
 Type.ClosedRecord(type [A = number, ...])
 ```

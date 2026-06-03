@@ -21,13 +21,13 @@ Text.PositionOfAny(
 
 ## Remarks
 
-Trả về vị trí đầu tiên của ký tự bất kỳ trong danh sách <code>characters</code> tìm được trong <code>text</code>.    Có thể sử dụng tham số tùy chọn <code>occurrence</code> để chỉ định trả về vị trí xuất hiện nào.
+Trả về vị trí đầu tiên của ký tự bất kỳ trong danh sách `characters` tìm được trong `text`. Có thể sử dụng tham số tùy chọn `occurrence` để chỉ định trả về vị trí xuất hiện nào.
 
 
 ## Examples
 
-### Example #1 
-Tìm vị trí đầu tiên của &#34;W&#34; hoặc &#34;H&#34; trong văn bản &#34;Hello, World!&#34;.
+### Example #1
+Tìm vị trí đầu tiên của "W" hoặc "H" trong văn bản "Hello, World!".
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"})
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Tìm vị trí của &#34;W&#34; hoặc &#34;H&#34; trong văn bản &#34;Hello, World!&#34;.
+### Example #2
+Tìm vị trí của "W" hoặc "H" trong văn bản "Hello, World!".
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"}, Occurrence.All)
 ```

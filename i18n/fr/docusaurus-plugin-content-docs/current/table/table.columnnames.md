@@ -19,12 +19,12 @@ Table.ColumnNames(
 
 ## Remarks
 
-Retourne les noms des colonnes dans la table <code>table</code> comme une liste de texte.
+Retourne les noms des colonnes dans la table `table` comme une liste de texte.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Recherche les noms des colonnes de la table.
 ```powerquery
 Table.ColumnNames(

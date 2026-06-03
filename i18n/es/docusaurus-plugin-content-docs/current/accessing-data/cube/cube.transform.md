@@ -20,7 +20,7 @@ Cube.Transform(
 
 ## Remarks
 
-Aplica la lista de funciones de cubo, <code>transforms</code>, en el <code>cube</code>.
+Aplica la lista de funciones de cubo, `transforms`, en el `cube`.
 
 
 

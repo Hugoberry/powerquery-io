@@ -21,13 +21,13 @@ Text.Middle(
 
 ## Remarks
 
-Restituisce <code>count</code> caratteri o fino alla fine di <code>text</code>, a partire dall'offset <code>start</code>.
+Restituisce `count` caratteri o fino alla fine di `text`, a partire dall'offset `start`.
 
 
 ## Examples
 
-### Example #1 
-Trovare la sottostringa nel testo &#34;Hello World&#34; a partire dall&#39;indice 6 con un&#39;estensione di 5 caratteri.
+### Example #1
+Trovare la sottostringa nel testo "Hello World" a partire dall'indice 6 con un'estensione di 5 caratteri.
 ```powerquery
 Text.Middle("Hello World", 6, 5)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Trovare la sottostringa nel testo &#34;Hello World&#34; a partire dall&#39;indice 6 fino alla fine.
+### Example #2
+Trovare la sottostringa nel testo "Hello World" a partire dall'indice 6 fino alla fine.
 ```powerquery
 Text.Middle("Hello World", 6, 20)
 ```
@@ -47,6 +47,18 @@ Text.Middle("Hello World", 6, 20)
 Result: 
 ```powerquery
 "World"
+```
+
+
+### Example #3
+Trova la substring nel testo "Hello World" a partire dall'indice 0 con un'estensione di 2 caratteri.
+```powerquery
+Text.Middle("Hello World", 0, 2)
+```
+
+Result: 
+```powerquery
+"He"
 ```
 
 

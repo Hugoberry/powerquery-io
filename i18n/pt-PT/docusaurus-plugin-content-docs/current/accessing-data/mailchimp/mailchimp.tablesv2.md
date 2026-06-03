@@ -24,7 +24,7 @@ Devolve uma tabela com os principais dados do MailChimp.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devolve uma tabela com os principais dados do MailChimp.
 ```powerquery
 MailChimp.Tables()

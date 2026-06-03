@@ -19,13 +19,13 @@ Text.Length(
 
 ## Remarks
 
-Devuelve el número de caracteres del texto <code>text</code>.
+Devuelve el número de caracteres del texto `text`.
 
 
 ## Examples
 
-### Example #1 
-Buscar cuántos caracteres hay en el texto &#34;Hola mundo&#34;.
+### Example #1
+Buscar cuántos caracteres hay en el texto "Hola mundo".
 ```powerquery
 Text.Length("Hello World")
 ```

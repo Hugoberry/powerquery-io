@@ -19,13 +19,13 @@ Text.Length(
 
 ## Remarks
 
-テキスト <code>text</code> 内の文字の数を返します。
+テキスト `text` 内の文字の数を返します。
 
 
 ## Examples
 
-### Example #1 
-テキスト &#34;Hello World&#34; 内の文字の数を調べます。
+### Example #1
+テキスト "Hello World" 内の文字の数を調べます。
 ```powerquery
 Text.Length("Hello World")
 ```

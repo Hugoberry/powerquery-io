@@ -20,12 +20,12 @@ Table.FromColumns(
 
 ## Remarks
 
-从包含嵌套列表以及列名和值的列表 <code>lists</code> 创建类型为 <code>columns</code> 的表。    如果某些列比其他列具有更多值，则当这些列可为 Null 时，缺少的值将使用默认值 "Null" 填充。
+从包含嵌套列表以及列名和值的列表 `lists` 创建类型为 `columns` 的表。 如果某些列比其他列具有更多值，则当这些列可为 Null 时，缺少的值将使用默认值 "Null" 填充。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 从列表中的客户名称列表返回一个表。客户列表项中的每个值将成为一个行值，每个列表将成为一个列。
 ```powerquery
 Table.FromColumns({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 从给定的列列表和列名列表创建一个表。
 ```powerquery
 Table.FromColumns(
@@ -68,7 +68,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 创建一个表，其中每行的列数不同。缺失的行值为 null。
 ```powerquery
 Table.FromColumns(

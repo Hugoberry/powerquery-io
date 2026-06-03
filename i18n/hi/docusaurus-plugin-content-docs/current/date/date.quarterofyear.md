@@ -19,12 +19,12 @@ Date.QuarterOfYear(
 
 ## Remarks
 
-1 से 4 तक संख्या लौटाता है जो यह इंगित करती है कि दिनांक वर्ष <code>dateTime</code> की कौन सी तिमाही में आता है. <code>dateTime</code>, एक <code>date</code>, <code>datetime</code> या <code>datetimezone</code> मान हो सकता है.
+1 से 4 तक संख्या लौटाता है जो यह इंगित करती है कि दिनांक वर्ष `dateTime` की कौन सी तिमाही में आता है. `dateTime`, एक `date`, `datetime` या `datetimezone` मान हो सकता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 प्राप्त करें कि दिनांक #date(2011, 12, 31) वर्ष की कौन सी तिमाही में आता है.
 ```powerquery
 Date.QuarterOfYear(#date(2011, 12, 31))

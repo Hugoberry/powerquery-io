@@ -21,13 +21,13 @@ List.Times(
 
 ## Remarks
 
-Restituisce un elenco di valori <code>time</code> di dimensione <code>count</code>, a partire da <code>start</code>. L'incremento specificato <code>step</code> è un valore <code>duration</code> che viene aggiunto a ogni valore.
+Restituisce un elenco di valori `time` di dimensione `count`, a partire da `start`. L'incremento specificato `step` è un valore `duration` che viene aggiunto a ogni valore.
 
 
 ## Examples
 
-### Example #1 
-Creare un elenco di 4 valori a partire da mezzogiorno (#time(12, 0, 0)) con incrementi di un&#39;ora (#duration(0, 1, 0, 0)).
+### Example #1
+Creare un elenco di 4 valori a partire da mezzogiorno (#time(12, 0, 0)) con incrementi di un'ora (#duration(0, 1, 0, 0)).
 ```powerquery
 List.Times(#time(12, 0, 0), 4, #duration(0, 1, 0, 0))
 ```

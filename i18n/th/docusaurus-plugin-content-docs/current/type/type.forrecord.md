@@ -25,7 +25,7 @@ Type.ForRecord(
 
 ## Examples
 
-### Example #1 
+### Example #1
 สร้างชนิดตารางแบบไดนามิก
 ```powerquery
 let

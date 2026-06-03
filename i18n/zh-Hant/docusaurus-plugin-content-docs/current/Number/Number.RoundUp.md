@@ -20,12 +20,12 @@ Number.RoundUp(
 
 ## Remarks
 
-會四捨五入到 <code>number</code> 下一個最高整數。如果 <code>number</code> 為 Null，此函數會返回 Null。    如果提供 <code>digits</code>，則 <code>number</code> 會四捨五入到指定的小數位數。
+會四捨五入到 `number` 下一個最高整數。如果 `number` 為 Null，此函數會返回 Null。 如果提供 `digits`，則 `number` 會四捨五入到指定的小數位數。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 將 1.234 向上四捨五入成整數。
 ```powerquery
 Number.RoundUp(1.234)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 將 1.999 向上四捨五入成整數。
 ```powerquery
 Number.RoundUp(1.999)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 將 1.234 捨入成兩位小數位數。
 ```powerquery
 Number.RoundUp(1.234, 2)

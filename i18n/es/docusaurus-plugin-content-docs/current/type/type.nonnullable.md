@@ -19,13 +19,13 @@ Type.NonNullable(
 
 ## Remarks
 
-Devuelve el tipo no <code>nullable</code> de <code>type</code>.
+Devuelve el tipo no `nullable` de `type`.
 
 
 ## Examples
 
-### Example #1 
-Devuelve el tipo que no acepta valores NULL de &lt;code&gt;type nullable number&lt;/code&gt;.
+### Example #1
+Devuelve el tipo que no acepta valores NULL de `type nullable number`.
 ```powerquery
 Type.NonNullable(type nullable number)
 ```

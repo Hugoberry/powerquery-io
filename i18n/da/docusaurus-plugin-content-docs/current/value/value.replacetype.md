@@ -20,12 +20,12 @@ Value.ReplaceType(
 
 ## Remarks
 
-Erstatter <code>value</code>s type med den angivne <code>type</code>.
+Erstatter `value`s type med den angivne `type`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Erstat standardtypen for en post med en mere specifik type.
 ```powerquery
 Type.RecordFields(

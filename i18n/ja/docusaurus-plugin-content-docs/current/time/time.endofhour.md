@@ -19,12 +19,14 @@ Time.EndOfHour(
 
 ## Remarks
 
-<code>dateTime</code> で表される時間の終わりを、小数秒も含めて返します。タイム ゾーン情報は保持されます。      <ul>        <li><code>dateTime</code>: 時間の終わりを計算する <code>time</code>、<code>datetime</code>、または <code>datetimezone</code> 値。</li>      </ul>
+`dateTime` で表される時間の終わりを、小数秒も含めて返します。タイム ゾーン情報は保持されます。
+
+-   `dateTime`: 時間の終わりを計算する `time`、`datetime`、または `datetimezone` 値。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 5/14/2011 05:00:00 PM の時間の終わりを取得します。
 ```powerquery
 Time.EndOfHour(#datetime(2011, 5, 14, 17, 0, 0))
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 5/17/2011 05:00:00 PM -7:00 の時間の終わりを取得します。
 ```powerquery
 Time.EndOfHour(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0))

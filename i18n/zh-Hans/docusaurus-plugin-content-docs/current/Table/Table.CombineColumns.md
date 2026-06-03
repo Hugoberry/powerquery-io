@@ -27,7 +27,7 @@ Table.CombineColumns(
 
 ## Examples
 
-### Example #1 
+### Example #1
 将姓、名合并到新列中，用逗号分隔。
 ```powerquery
 Table.CombineColumns(

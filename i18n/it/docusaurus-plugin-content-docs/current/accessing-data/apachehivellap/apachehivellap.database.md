@@ -5,7 +5,7 @@ title: ApacheHiveLLAP.Database
 # ApacheHiveLLAP.Database
 
 
-Importa i dati da un&#39;istanza di Hive LLAP
+Importa i dati da un'istanza di Hive LLAP
 
 
 ## Syntax
@@ -22,6 +22,11 @@ ApacheHiveLLAP.Database(
 
 ## Remarks
 
-Restituisce un elenco di tabelle di Hive LLAP specificate dal <code>database</code> nel <code>server</code> Hive LLAP usando il <code>protocollo</code> selezionato. Facoltativamente con il server è possibile specificare un numero di porta, separato da due punti. Il protocollo di trasporto Thrift è un tipo enumerato i cui valori sono "Standard", "HTTP". È possibile specificare un parametro facoltativo <code>options</code> per controllare le opzioni seguenti:<ul>        <li><code>ConnectionTimeout</code>: valore che controlla il tempo di attesa prima che un tentativo di connessione al server venga abbandonato. Il valore predefinito dipende dal driver.</li>        <li><code>CommandTimeout</code>: valore che controlla la durata di esecuzione prima che la query sul lato server venga annullata. Il valore predefinito dipende dal driver.</li></ul>Il parametro <code>options</code> viene specificato come [opzione1 = valore1, opzione2 = valore2...].
+Restituisce un elenco di tabelle di Hive LLAP specificate dal `database` nel `server` Hive LLAP usando il `protocollo` selezionato. Facoltativamente con il server è possibile specificare un numero di porta, separato da due punti. Il protocollo di trasporto Thrift è un tipo enumerato i cui valori sono "Standard", "HTTP". È possibile specificare un parametro facoltativo `options` per controllare le opzioni seguenti:
+
+-   `ConnectionTimeout`: valore che controlla il tempo di attesa prima che un tentativo di connessione al server venga abbandonato. Il valore predefinito dipende dal driver.
+-   `CommandTimeout`: valore che controlla la durata di esecuzione prima che la query sul lato server venga annullata. Il valore predefinito dipende dal driver.
+
+Il parametro `options` viene specificato come \[opzione1 = valore1, opzione2 = valore2...\].
 
 

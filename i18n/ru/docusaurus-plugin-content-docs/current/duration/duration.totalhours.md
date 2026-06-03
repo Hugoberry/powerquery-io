@@ -19,12 +19,12 @@ Duration.TotalHours(
 
 ## Remarks
 
-Возвращает общее количество часов, охваченных <code>duration</code>.
+Возвращает общее количество часов, охваченных `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Найти общее количество часов, охваченных значением длительности.
 ```powerquery
 Duration.TotalHours(#duration(5, 4, 3, 2))

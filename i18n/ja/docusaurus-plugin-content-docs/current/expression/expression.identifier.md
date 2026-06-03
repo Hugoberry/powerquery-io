@@ -19,12 +19,12 @@ Expression.Identifier(
 
 ## Remarks
 
-識別子 <code>name</code> の M ソース コード表現を返します。
+識別子 `name` の M ソース コード表現を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 識別子の M ソース コード表現を取得します。
 ```powerquery
 Expression.Identifier("MyIdentifier")
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 空白を含む識別子の M ソース コード表現を取得します。
 ```powerquery
 Expression.Identifier("My Identifier")

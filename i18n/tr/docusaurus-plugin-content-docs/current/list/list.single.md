@@ -5,7 +5,7 @@ title: List.Single
 # List.Single
 
 
-Bir birim uzunluktaki bir liste için bir liste öğesi döndürür, aksi halde özel durum atar.
+Uzunluğu bir olan bir liste için tek bir liste öğesini döndürür, aksi takdirde bir hata verir.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.Single(
 
 ## Remarks
 
-<code>list</code> listesinde yalnızca bir öğe varsa bu öğeyi döndürür.    Listede birden çok öğe varsa veya liste boşsa işlev bir özel durum döndürür.
+`list` listesinde yalnızca bir öğe varsa bu öğeyi döndürür. Birden fazla öğe varsa veya liste boşsa, işlev bir hata verir.
 
 
 ## Examples
 
-### Example #1 
-\{1} listesindeki tek değeri bulur.
+### Example #1
+\{1\} listesindeki tek değeri bulur.
 ```powerquery
 List.Single({1})
 ```
@@ -36,8 +36,8 @@ Result:
 ```
 
 
-### Example #2 
-\{1, 2, 3} listesindeki tek değeri bulur.
+### Example #2
+\{1, 2, 3\} listesindeki tek değeri bulur.
 ```powerquery
 List.Single({1, 2, 3})
 ```

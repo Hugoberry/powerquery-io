@@ -20,12 +20,16 @@ Table.Skip(
 
 ## Remarks
 
-Retorna uma tabela que não contenha o primeiro número especificado de linhas, <code>countOrCondition</code>, da tabela <code>table</code>.    O número de linhas ignoradas depende do parâmetro opcional <code>countOrCondition</code>.    <ul>    <li> Se <code>countOrCondition</code> for omitido, somente a primeira linha será ignorada. </li>    <li> Se <code>countOrCondition</code> for um número, essas várias linhas (começando na parte superior) serão ignoradas. </li>    <li> Se <code>countOrCondition</code> for uma condição, as linhas que atenderem à condição serão ignoradas até que uma linha não esteja em conformidade com a condição.</li>    </ul>
+Retorna uma tabela que não contenha o primeiro número especificado de linhas, `countOrCondition`, da tabela `table`. O número de linhas ignoradas depende do parâmetro opcional `countOrCondition`.
+
+-   Se `countOrCondition` for omitido, somente a primeira linha será ignorada.
+-   Se `countOrCondition` for um número, essas várias linhas (começando na parte superior) serão ignoradas.
+-   Se `countOrCondition` for uma condição, as linhas que atenderem à condição serão ignoradas até que uma linha não esteja em conformidade com a condição.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ignorar a primeira linha da tabela.
 ```powerquery
 Table.Skip(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Ignorar as duas primeiras linhas da tabela.
 ```powerquery
 Table.Skip(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Ignorar as primeiras linhas em que [Price] &gt; 25 na tabela.
+### Example #3
+Ignorar as primeiras linhas em que \[Price\] > 25 na tabela.
 ```powerquery
 Table.Skip(
     Table.FromRecords({

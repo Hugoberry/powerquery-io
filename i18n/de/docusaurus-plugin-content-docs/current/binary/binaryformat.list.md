@@ -20,12 +20,17 @@ BinaryFormat.List(
 
 ## Remarks
 
-Gibt ein Binärformat zurück, das eine Reihe von Elementen liest und ein <code>list</code>-Element zurückgibt.  Der Parameter <code>binaryFormat</code> gibt das Binärformat der einzelnen Elemente an.  Die Anzahl der zu lesenden Elemente kann auf drei Arten bestimmt werden: <ul><li>Ohne Angabe von <code>countOrCondition</code> liest das Binärformat so lange, bis keine weiteren Elemente vorhanden sind.</li><li>Ist <code>countOrCondition</code> eine Zahl, werden entsprechend viele Elemente gelesen.</li><li>Ist <code>countOrCondition</code> eine Funktion, wird diese für jedes gelesene Element aufgerufen.  Die Funktion gibt "true" zurück, um den Vorgang fortzusetzen, oder "false", um das Lesen von Elementen zu beenden.  Das finale Element ist in der Liste enthalten.</li><li>Wenn <code>countOrCondition</code> ein Binärformat ist, wird erwartet, dass die Anzahl der Elemente der Liste vorausgeht, und das angegebene Format wird zum Lesen der Anzahl verwendet.</li></ul>
+Gibt ein Binärformat zurück, das eine Reihe von Elementen liest und ein `list`\-Element zurückgibt. Der Parameter `binaryFormat` gibt das Binärformat der einzelnen Elemente an. Die Anzahl der zu lesenden Elemente kann auf drei Arten bestimmt werden:
+
+-   Ohne Angabe von `countOrCondition` liest das Binärformat so lange, bis keine weiteren Elemente vorhanden sind.
+-   Ist `countOrCondition` eine Zahl, werden entsprechend viele Elemente gelesen.
+-   Ist `countOrCondition` eine Funktion, wird diese für jedes gelesene Element aufgerufen. Die Funktion gibt "true" zurück, um den Vorgang fortzusetzen, oder "false", um das Lesen von Elementen zu beenden. Das finale Element ist in der Liste enthalten.
+-   Wenn `countOrCondition` ein Binärformat ist, wird erwartet, dass die Anzahl der Elemente der Liste vorausgeht, und das angegebene Format wird zum Lesen der Anzahl verwendet.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Liest Bytes bis zum Ende der Daten.
 ```powerquery
 let
@@ -41,7 +46,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Liest zwei Bytes.
 ```powerquery
 let
@@ -57,7 +62,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Liest Bytes, bis der Bytewert größer oder gleich zwei ist.
 ```powerquery
 let

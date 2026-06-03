@@ -20,13 +20,13 @@ List.Repeat(
 
 ## Remarks
 
-Returns a list that is <code>count</code> repetitions of the original list, <code>list</code>.
+Returns a list that is `count` repetitions of the original list, `list`.
 
 
 ## Examples
 
-### Example #1 
-Create a list that has \{1, 2} repeated 3 times.
+### Example #1
+Create a list that has \{1, 2\} repeated 3 times.
 ```powerquery
 List.Repeat({1, 2}, 3)
 ```

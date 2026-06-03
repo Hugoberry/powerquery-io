@@ -19,12 +19,12 @@ Table.IsEmpty(
 
 ## Remarks
 
-Указывает, содержит ли "<code>table</code>" хотя бы одну строку. Возвращает значение <code>true</code>, если строк нет (т. е. таблица пуста), и <code>false</code> в противном случае.
+Указывает, содержит ли "`table`" хотя бы одну строку. Возвращает значение `true`, если строк нет (т. е. таблица пуста), и `false` в противном случае.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Определение, пуста ли таблица.
 ```powerquery
 Table.IsEmpty(
@@ -42,8 +42,8 @@ false
 ```
 
 
-### Example #2 
-Определить, пуста ли таблица &lt;code&gt;(\{})&lt;/code&gt;.
+### Example #2
+Определить, пуста ли таблица `({})`.
 ```powerquery
 Table.IsEmpty(Table.FromRecords({}))
 ```

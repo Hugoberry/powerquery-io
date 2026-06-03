@@ -20,13 +20,13 @@ Table.PrefixColumns(
 
 ## Remarks
 
-指定された <code>table</code> からのすべての列名にプレフィックスとして指定のテキスト (<code>prefix</code>) とピリオドが <code>prefix</code><code>.ColumnName</code> という形式で付いているテーブルを返します。
+指定された `table` のすべての列名に指定されたテキスト (`prefix`) とピリオドを組み合わせたプレフィックスを `.ColumnName` の形式で付加したテーブルを返します。
 
 
 ## Examples
 
-### Example #1 
-テーブルの列に &#34;MyTable&#34; というプレフィックスを付けます。
+### Example #1
+テーブルの列に "MyTable" というプレフィックスを付けます。
 ```powerquery
 Table.PrefixColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

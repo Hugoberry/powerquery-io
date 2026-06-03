@@ -19,12 +19,12 @@ Table.RowCount(
 
 ## Remarks
 
-Retourne le nombre de lignes dans <code>table</code>.
+Retourne le nombre de lignes dans `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Recherche le nombre de lignes de la table.
 ```powerquery
 Table.RowCount(

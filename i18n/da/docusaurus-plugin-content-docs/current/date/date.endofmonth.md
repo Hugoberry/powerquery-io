@@ -19,12 +19,14 @@ Date.EndOfMonth(
 
 ## Remarks
 
-Returnerer slutningen af den måned, der indeholder <code>dateTime</code>.      <ul>      <li><code>dateTime</code>: En værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>, som slutningen af måneden beregnes ud fra</li>      </ul>
+Returnerer slutningen af den måned, der indeholder `dateTime`.
+
+-   `dateTime`: En værdi af typen `date`, `datetime` eller `datetimezone`, som slutningen af måneden beregnes ud fra.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hent månedens slutning for 14-05-2011.
 ```powerquery
 Date.EndOfMonth(#date(2011, 5, 14))
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Hent månedens slutning for 17-05-2011, 17:00:00-7:00.
 ```powerquery
 Date.EndOfMonth(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0))

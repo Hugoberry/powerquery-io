@@ -5,7 +5,7 @@ title: AzureSpark.Tables
 # AzureSpark.Tables
 
 
-Elenca le tabelle in un&#39;istanza di Azure Spark.
+Elenca le tabelle in un'istanza di Azure Spark.
 
 
 ## Syntax
@@ -25,8 +25,8 @@ Elenca le tabelle in un'istanza di Azure Spark.
 
 ## Examples
 
-### Example #1 
-Elenca le tabelle in un&#39;istanza di Azure Spark.
+### Example #1
+Elenca le tabelle in un'istanza di Azure Spark.
 ```powerquery
 AzureSpark.Tables("contoso.azurehdinsight.net")
 ```

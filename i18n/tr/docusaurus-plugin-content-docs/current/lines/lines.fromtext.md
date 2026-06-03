@@ -13,7 +13,7 @@ Bir metin değerini, satır sonlarında bölünen bir metin değerleri listesine
 ```powerquery
 Lines.FromText(
     text as text,
-    optional quoteStyle as QuoteStyle.Type,
+    optional quoteStyle as any,
     optional includeLineSeparators as logical
 ) as list
 ```
@@ -21,7 +21,22 @@ Lines.FromText(
 
 ## Remarks
 
-Bir metin değerini, satır sonlarında bölünen bir metin değerleri listesine dönüştürür. includeLineSeparators true ise satır sonu karakterleri metne dahil edilir.        <div>          <ul>            <li><code>QuoteStyle.None:</code> (varsayılan) Tırnak işareti davranışı gerekli değildir.</li>            <li><code>QuoteStyle.Csv:</code> Tırnak işareti, Csv'ye dayalıdır. Çift tırnak karakteri, söz konusu bölümlerin ayrılması için kullanılır ve çift tırnak karakterleri çifti, söz konusu bölüm içindeki tek bir çift tırnak karakterinin belirtilmesi için kullanılır. </li>          </ul>        </div>    
+Metin değerini satır sonları olarak bölünmüş metin değerleri listesine dönüştürür.
+
+-   `text`: Metin değerleri listesine dönüştürülecek metin değeri.
+-   `quoteStyle`: Satır sonlarını nasıl işleneceğini belirtir. `quoteStyle` değeri `null` olabilir. Varsayılan değer `QuoteStyle.None`.
+-   `includeLineSeparators`: Metne satır sonu karakterlerinin eklenip eklenmeyeceğini belirtir. `includeLineSeparators` değeri `null` olabilir. Varsayılan değer false `.`.
+
+`quoteStyle` için bir kayıt belirtilirse (ve `includeLineSeparators` `null` ise), aşağıdaki kayıt alanları sağlanabilir:
+
+-   `QuoteStyle`: Alıntılanan satır sonlarının nasıl işleneceğini belirtir.
+    -   `QuoteStyle.Csv`: Alıntılanan satır sonları geçerli satırın sonu olarak değil, verilerin bir parçası olarak değerlendirilir.
+    -   `QuoteStyle.None` (varsayılan): Alıntılanan bir değer içerisinde yer alsalar bile tüm satır sonları, geçerli satırın sonu olarak değerlendirilir. `CsvStyle` seçeneği belirtilmezse bu değer varsayılandır.
+-   `CsvStyle`: Tekliflerin nasıl işleneceğini belirtir. `QuoteStyle.None` ile birlikte kullanılmamalıdır.
+    -   `CsvStyle.QuoteAfterDelimiter`: Bir alandaki alıntılar yalnızca `Sınırlayıcıdan` hemen sonra geliyorsa dikkate alınır.
+    -   `CsvStyle.QuoteAlways`: Bir alandaki alıntılar, nerede göründüklerinden bağımsız olarak her zaman dikkate alınır.
+-   `Sınırlayıcı`: Tek karakterli sınırlayıcı. Yalnızca `CsvStyle.QuoteAfterDelimiter` ile kullanılmalı.
+-   `IncludeLineSeparators`: Metne satır sonu karakterlerinin eklenip eklenmeyeceğini belirtir. Varsayılan değer false `.`.
 
 
 

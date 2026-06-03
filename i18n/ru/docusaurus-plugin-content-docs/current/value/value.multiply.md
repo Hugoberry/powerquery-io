@@ -21,7 +21,7 @@ Value.Multiply(
 
 ## Remarks
 
-Возвращает результат умножения <code>value1</code> на <code>value2</code>. Можно указать необязательный параметр <code>precision</code>, по умолчанию используется <code>Precision.Double</code>.
+Возвращает результат умножения `value1` на `value2`. Можно указать необязательный параметр `precision`, по умолчанию используется `Precision.Double`.
 
 
 

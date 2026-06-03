@@ -21,12 +21,12 @@ List.Times(
 
 ## Remarks
 
-Zwraca listę wartości typu <code>time</code> o rozmiarze <code>count</code>, rozpoczynając od wartości <code>start</code>. Podany przyrost (<code>step</code>) to wartość typu <code>duration</code> dodawana do każdej wartości.
+Zwraca listę wartości typu `time` o rozmiarze `count`, rozpoczynając od wartości `start`. Podany przyrost (`step`) to wartość typu `duration` dodawana do każdej wartości.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utwórz listę 4 wartości, zaczynając od południa (#time(12, 0, 0)) i używając przyrostu o wartości 1 godzina (#duration(0, 1, 0, 0)).
 ```powerquery
 List.Times(#time(12, 0, 0), 4, #duration(0, 1, 0, 0))

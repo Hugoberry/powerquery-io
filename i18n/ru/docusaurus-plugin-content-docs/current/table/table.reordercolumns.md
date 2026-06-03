@@ -21,13 +21,13 @@ Table.ReorderColumns(
 
 ## Remarks
 
-Возвращает таблицу из входных данных <code>table</code> со столбцами в порядке, указанном в <code>columnOrder</code>. Порядок столбцов, не включенных в список, не будет изменен.     Для несуществующего столбца возникает исключение, если необязательный параметр <code>missingField</code> не указывает дополнительное действие (например, <code>MissingField.UseNull</code> или <code>MissingField.Ignore</code>).
+Возвращает таблицу из входных данных `table` со столбцами в порядке, указанном в `columnOrder`. Порядок столбцов, не включенных в список, не будет изменен. Если столбец не существует, генерируется ошибка, кроме случаев, когда необязательный параметр `missingField` задает иное действие (например, `MissingField.UseNull` или `MissingField.Ignore`).
 
 
 ## Examples
 
-### Example #1 
-Смена местами столбцов [Phone] и [Name] в таблице.
+### Example #1
+Смена местами столбцов \[Phone\] и \[Name\] в таблице.
 ```powerquery
 Table.ReorderColumns(
     Table.FromRecords({[CustomerID = 1, Phone = "123-4567", Name = "Bob"]}),
@@ -41,8 +41,8 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]})
 ```
 
 
-### Example #2 
-Смена местами столбцов [Phone] и [Address] или использование MissingField.Ignore в таблице. Таблица не будет изменена, поскольку столбца [Address] не существует.
+### Example #2
+Смена местами столбцов \[Phone\] и \[Address\] или использование MissingField.Ignore в таблице. Таблица не будет изменена, поскольку столбца \[Address\] не существует.
 ```powerquery
 Table.ReorderColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

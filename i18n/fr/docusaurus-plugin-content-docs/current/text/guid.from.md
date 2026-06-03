@@ -19,12 +19,12 @@ Guid.From(
 
 ## Remarks
 
-Retourne une valeur <code>Guid.Type</code> du <code>value</code> donné. Si le <code>value</code> donné est <code>null</code>, <code>Guid.From</code> retourne <code>null</code>. Une vérification est effectuée pour déterminer si le <code>value</code> donné est dans un format acceptable. Les formats acceptables sont fournis dans les exemples.
+Retourne une valeur `Guid.Type` du `value` donné. Si le `value` donné est `null`, `Guid.From` retourne `null`. Une vérification est effectuée pour déterminer si le `value` donné est dans un format acceptable. Les formats acceptables sont fournis dans les exemples.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Le GUID peut être fourni sous forme de 32 chiffres hexadécimaux contigus.
 ```powerquery
 Guid.From("05FE1DADC8C24F3BA4C2D194116B4967")
@@ -36,8 +36,8 @@ Result:
 ```
 
 
-### Example #2 
-Le GUID peut être fourni sous forme de 32 chiffres hexadécimaux séparés par des traits d&#39;union en blocs de 8-4-4-4-12.
+### Example #2
+Le GUID peut être fourni sous forme de 32 chiffres hexadécimaux séparés par des traits d'union en blocs de 8-4-4-4-12.
 ```powerquery
 Guid.From("05FE1DAD-C8C2-4F3B-A4C2-D194116B4967")
 ```
@@ -48,8 +48,8 @@ Result:
 ```
 
 
-### Example #3 
-Le GUID peut être fourni sous forme de 32 chiffres hexadécimaux séparés par des traits d&#39;union et placés entre accolades.
+### Example #3
+Le GUID peut être fourni sous forme de 32 chiffres hexadécimaux séparés par des traits d'union et placés entre accolades.
 ```powerquery
 Guid.From("{05FE1DAD-C8C2-4F3B-A4C2-D194116B4967}")
 ```
@@ -60,8 +60,8 @@ Result:
 ```
 
 
-### Example #4 
-Le GUID peut être fourni sous forme de 32 chiffres hexadécimaux séparés par des traits d&#39;union et placés entre parenthèses.
+### Example #4
+Le GUID peut être fourni sous forme de 32 chiffres hexadécimaux séparés par des traits d'union et placés entre parenthèses.
 ```powerquery
 Guid.From("(05FE1DAD-C8C2-4F3B-A4C2-D194116B4967)")
 ```

@@ -20,12 +20,12 @@ Table.Last(
 
 ## Remarks
 
-傳回 <code>table</code> 的最後一個資料列，如果資料表是空的，則傳回選擇性的預設值 <code>default</code>。
+傳回 `table` 的最後一個資料列，如果資料表是空的，則傳回選擇性的預設值 `default`。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 找出資料表的最後一個資料列。
 ```powerquery
 Table.Last(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-尋找資料表 &lt;code&gt;(\{})&lt;/code&gt; 的最後一個資料列，如果是空的，則傳回 [a = 0, b = 0]。
+### Example #2
+尋找資料表 `({})` 的最後一個資料列，如果是空的，則傳回 \[a = 0, b = 0\]。
 ```powerquery
 Table.Last(Table.FromRecords({}), [a = 0, b = 0])
 ```

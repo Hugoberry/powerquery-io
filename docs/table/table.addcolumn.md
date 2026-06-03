@@ -22,13 +22,13 @@ Table.AddColumn(
 
 ## Remarks
 
-Adds a column named <code>newColumnName</code> to the table <code>table</code>. The values for the column are computed using the specified selection function <code>columnGenerator</code> with each row taken as an input.
+Adds a column named `newColumnName` to the table `table`. The values for the column are computed using the specified selection function `columnGenerator` with each row taken as an input.
 
 
 ## Examples
 
-### Example #1 
-Add a number column named &#34;TotalPrice&#34; to the table, with each value being the sum of the [Price] and [Shipping] columns.
+### Example #1
+Add a number column named "TotalPrice" to the table, with each value being the sum of the \[Price\] and \[Shipping\] columns.
 ```powerquery
 Table.AddColumn(
     Table.FromRecords({

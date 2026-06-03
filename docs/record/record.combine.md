@@ -19,12 +19,12 @@ Record.Combine(
 
 ## Remarks
 
-Combines the records in the given <code>records</code>. If the <code>records</code> contains non-record values, an error is returned.
+Combines the records in the given `records`. If the `records` contains non-record values, an error is returned.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Create a combined record from the records.
 ```powerquery
 Record.Combine({

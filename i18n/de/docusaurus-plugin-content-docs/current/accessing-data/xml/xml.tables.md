@@ -26,8 +26,8 @@ Gibt den Inhalt des XML-Dokuments als geschachtelte Auflistung vereinfachter Tab
 
 ## Examples
 
-### Example #1 
-Hiermit rufen Sie den Inhalt einer lokalen XML-Datei ab.
+### Example #1
+Ruft den Inhalt einer lokalen XML-Datei ab.
 ```powerquery
 Xml.Tables(File.Contents("C:\invoices.xml"))
 ```

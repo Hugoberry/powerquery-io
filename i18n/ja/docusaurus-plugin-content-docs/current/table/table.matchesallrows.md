@@ -20,13 +20,13 @@ Table.MatchesAllRows(
 
 ## Remarks
 
-<code>table</code> 内のすべての行が指定された <code>condition</code> と一致しているかどうかを示します。すべての行が一致する場合は <code>true</code>、それ以外の場合は <code>false</code> を返します。
+`table` 内のすべての行が指定された `condition` と一致しているかどうかを示します。すべての行が一致する場合は `true`、それ以外の場合は `false` を返します。
 
 
 ## Examples
 
-### Example #1 
-テーブルの列 [a] のすべての行の値が偶数かどうかを調べます。
+### Example #1
+テーブルの列 \[a\] のすべての行の値が偶数かどうかを調べます。
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ true
 ```
 
 
-### Example #2 
-テーブル &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; 内のすべての行の値が [a = 1, b = 2] かどうかを調べます。
+### Example #2
+テーブル `({[a = 1, b = 2], [a = 3, b = 4]})` 内のすべての行の値が \[a = 1, b = 2\] かどうかを調べます。
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({

@@ -19,13 +19,15 @@ DateTimeZone.ToRecord(
 
 ## Remarks
 
-ส่งกลับระเบียนที่มีส่วนของค่าโซนวันที่เวลาที่ระบุ <code>dateTimeZone</code> <ul>        <li><code>dateTimeZone</code>: ค่า<code>โซนวันที่เวลา</code>สำหรับเริ่มคำนวณระเบียนของส่วนประกอบดังกล่าว</li>      </ul>
+ส่งกลับระเบียนที่มีส่วนของค่าโซนวันที่เวลาที่ระบุ `dateTimeZone`
+
+-   `dateTimeZone`: ค่า`โซนวันที่เวลา`สำหรับเริ่มคำนวณระเบียนของส่วนประกอบดังกล่าว
 
 
 ## Examples
 
-### Example #1 
-แปลงค่า &lt;code&gt;#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)&lt;/code&gt; เป็นระเบียนที่มีค่าวันที่ เวลา และเขต
+### Example #1
+แปลงค่า `#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)` เป็นระเบียนที่มีค่าวันที่ เวลา และเขต
 ```powerquery
 DateTimeZone.ToRecord(#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0))
 ```

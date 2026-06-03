@@ -21,12 +21,15 @@ Number.IntegerDivide(
 
 ## Remarks
 
-किसी संख्या <code>number1</code> को किसी अन्य संख्या <code>number2</code> से विभाजित करने पर आने वाले परिणाम का पूर्णांक भाग लौटाता है.    यदि <code>number1</code> या <code>number2</code> नल हैं, तो <code>Number.IntegerDivide</code> नल लौटाता है.      <ul>        <li><code>number1</code>: भाज्य.</li>        <li><code>number2</code>: भाजक.</li>      </ul>
+किसी संख्या `number1` को किसी अन्य संख्या `number2` से विभाजित करने पर आने वाले परिणाम का पूर्णांक भाग लौटाता है. यदि `number1` या `number2` नल हैं, तो `Number.IntegerDivide` नल लौटाता है.
+
+-   `number1`: भाज्य.
+-   `number2`: भाजक.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 6 को 4 से विभाजित करें.
 ```powerquery
 Number.IntegerDivide(6, 4)
@@ -38,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 8.3 को 3 से विभाजित करें.
 ```powerquery
 Number.IntegerDivide(8.3, 3)

@@ -19,7 +19,7 @@ Value.Optimize(
 
 ## Remarks
 
-Als bij gebruik binnen Value.Expression <code>value</code> een query vertegenwoordigt die kan worden geoptimaliseerd, geeft deze functie aan dat de geoptimaliseerde expressie moet worden geretourneerd. Anders wordt <code>value</code> doorgevoerd zonder effect.
+Als bij gebruik binnen Value.Expression `value` een query vertegenwoordigt die kan worden geoptimaliseerd, geeft deze functie aan dat de geoptimaliseerde expressie moet worden geretourneerd. Anders wordt `value` doorgevoerd zonder effect.
 
 
 

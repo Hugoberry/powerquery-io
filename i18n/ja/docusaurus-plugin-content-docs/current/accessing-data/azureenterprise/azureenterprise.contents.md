@@ -25,7 +25,7 @@ Azure エンタープライズ API に指定された URL への呼び出しの�
 
 ## Examples
 
-### Example #1 
+### Example #1
 AzureEnterprise.Contents 関数を使用して、特定のレポートの結果を返します。
 ```powerquery
         let

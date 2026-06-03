@@ -20,7 +20,7 @@ List.Split(
 
 ## Remarks
 
-Unterteilt <code>list</code> in eine Liste von Listen. Hierbei ist das erste Element der Ausgabeliste eine Liste, die die ersten <code>pageSize</code> Elemente aus    der Quellliste enthält. Das nächste Element der Ausgabeliste ist eine Liste mit den nächsten <code>pageSize</code> Elementen aus der Quellliste usw..
+Unterteilt `list` in eine Liste von Listen. Hierbei ist das erste Element der Ausgabeliste eine Liste, die die ersten `pageSize` Elemente aus der Quellliste enthält. Das nächste Element der Ausgabeliste ist eine Liste mit den nächsten `pageSize` Elementen aus der Quellliste usw..
 
 
 

@@ -20,12 +20,12 @@ Expression.Evaluate(
 
 ## Remarks
 
-Hiermee wordt het resultaat geretourneerd van de evaluatie van de M-expressie <code>document</code> met de beschikbare id's waarnaar kan worden verwezen, gedefinieerd door <code>environment</code>.
+Hiermee wordt het resultaat geretourneerd van de evaluatie van de M-expressie `document` met de beschikbare id's waarnaar kan worden verwezen, gedefinieerd door `environment`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een eenvoudige som evalueren.
 ```powerquery
 Expression.Evaluate("1 + 1")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Een complexe som evalueren.
 ```powerquery
 Expression.Evaluate("List.Sum({1, 2, 3})", [List.Sum = List.Sum])
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 De samenvoeging van een tekstwaarde en een id evalueren.
 ```powerquery
 Expression.Evaluate(Expression.Constant("""abc") & " & " & Expression.Identifier("x"), [x = "def"""])

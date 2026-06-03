@@ -21,12 +21,12 @@ Binary.Range(
 
 ## Remarks
 
-傳回二進位值從位移 <code>binary</code> 開始的子集。選擇性參數 <code>offset</code> 會設定子集的長度上限。
+傳回二進位值從位移 `binary` 開始的子集。選擇性參數 `offset` 會設定子集的長度上限。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 傳回二進位值從位移 6 開始的子集。
 ```powerquery
 Binary.Range(#binary({0..10}), 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 傳回二進位值從位移 6 長度為 2 開始的子集。
 ```powerquery
 Binary.Range(#binary({0..10}), 6, 2)

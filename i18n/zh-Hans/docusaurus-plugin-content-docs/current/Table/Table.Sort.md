@@ -20,13 +20,13 @@ Table.Sort(
 
 ## Remarks
 
-使用一个或多个列名的列表和可选的 <code>comparisonCriteria</code> (格式为 \{ \{ col1, comparisonCriteria }, \{col2} })对 <code>table</code> 排序。
+使用一个或多个列名的列表和可选的 `comparisonCriteria` (格式为 \{ \{ col1, comparisonCriteria \}, \{col2\} \})对 `table` 排序。
 
 
 ## Examples
 
-### Example #1 
-在列 &#34;OrderID&#34; 上对表排序。
+### Example #1
+在列 "OrderID" 上对表排序。
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -60,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-在列 &#34;OrderID&#34; 上以降序顺序对表排序。
+### Example #2
+在列 "OrderID" 上以降序顺序对表排序。
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -95,8 +95,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-依次在列 &#34;CustomerID&#34;、列 &#34;OrderID&#34; 上对表排序，其中列 &#34;CustomerID&#34; 上以升序顺序排序。
+### Example #3
+依次在列 "CustomerID"、列 "OrderID" 上对表排序，其中列 "CustomerID" 上以升序顺序排序。
 ```powerquery
 Table.Sort(
     Table.FromRecords({

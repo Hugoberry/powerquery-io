@@ -27,7 +27,7 @@ Converte todas as colunas, exceto um conjunto especificado, em pares atributo-va
 
 ## Examples
 
-### Example #1 
+### Example #1
 Converte todas as colunas, exceto um conjunto especificado, em pares atributo-valor, combinados com os restantes valores em cada linha.
 ```powerquery
 Table.UnpivotOtherColumns(

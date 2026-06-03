@@ -5,7 +5,7 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-Aplica renomeações de uma lista no formato \{ old, new }.
+Aplica renomeações de uma lista no formato \{ old, new \}.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Record.RenameFields(
 
 ## Remarks
 
-Retorna um registro após renomear campos na entrada <code>record</code> para novos nomes de campo especificados na lista <code>renames</code>. No caso de várias renomeações, uma lista aninhada pode ser usada (\{ \{old1, new1}, \{old2, new2} }.
+Retorna um registro após renomear campos na entrada `record` para novos nomes de campo especificados na lista `renames`. Para várias renomeação, uma lista aninhada pode ser usada (\{ \{old1, new1\}, \{old2, new2\} \}).
 
 
 ## Examples
 
-### Example #1 
-Renomear o campo &#34;UnitPrice&#34; para &#34;Price&#34; no registro.
+### Example #1
+Renomear o campo "UnitPrice" para "Price" no registro.
 ```powerquery
 Record.RenameFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", UnitPrice = 100.0],
@@ -41,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-Renomear o campo &#34;UnitPrice&#34; para &#34;Price&#34; e &#34;OrderNum&#34; para &#34;OrderID&#34; no registro.
+### Example #2
+Renomear o campo "UnitPrice" para "Price" e "OrderNum" para "OrderID" no registro.
 ```powerquery
 Record.RenameFields(
     [OrderNum = 1, CustomerID = 1, Item = "Fishing rod", UnitPrice = 100.0],

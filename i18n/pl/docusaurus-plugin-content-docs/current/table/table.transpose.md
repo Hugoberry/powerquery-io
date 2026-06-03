@@ -25,7 +25,7 @@ Zamienia kolumny w wiersze i wiersze w kolumny.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zamień wiersze tabeli, która zawiera pary nazwa-wartość, w kolumny.
 ```powerquery
 Table.Transpose(

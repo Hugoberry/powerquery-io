@@ -19,12 +19,12 @@ Text.Clean(
 
 ## Remarks
 
-Hiermee wordt een tekstwaarde geretourneerd waaruit alle stuurcodes van <code>text</code> zijn verwijderd.
+Hiermee wordt een tekstwaarde geretourneerd waaruit alle stuurcodes van `text` zijn verwijderd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Verwijder regelinvoertekens en andere stuurcodes uit een tekstwaarde.
 ```powerquery
 Text.Clean("ABC#(lf)D")

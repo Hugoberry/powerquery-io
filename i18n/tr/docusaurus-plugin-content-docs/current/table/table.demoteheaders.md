@@ -24,7 +24,7 @@ Sütun üst bilgilerinin düzeyini (örn. sütun başlıkları) ilk değer satı
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablodaki ilk değer satırının düzeyini düşürür.
 ```powerquery
 Table.DemoteHeaders(

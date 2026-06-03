@@ -20,13 +20,13 @@ List.SingleOrDefault(
 
 ## Remarks
 
-Si solo hay un elemento en la lista <code>list</code>, devuelve dicho elemento.    Si la lista está vacía, la función devuelve "null", excepto si se especifica un <code>default</code> opcional. Si hay más de un elemento en la lista, la función devuelve un error.
+Si solo hay un elemento en la lista `list`, devuelve dicho elemento. Si la lista está vacía, la función devuelve "null", excepto si se especifica un `default` opcional. Si hay más de un elemento en la lista, la función devuelve un error.
 
 
 ## Examples
 
-### Example #1 
-Buscar el único valor de la lista \{1}.
+### Example #1
+Buscar el único valor de la lista \{1\}.
 ```powerquery
 List.SingleOrDefault({1})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Buscar el único valor de la lista \{}.
+### Example #2
+Buscar el único valor de la lista \{\}.
 ```powerquery
 List.SingleOrDefault({})
 ```
@@ -49,8 +49,8 @@ null
 ```
 
 
-### Example #3 
-Buscar el único valor de la lista \{}. Si está vacío, se devuelve -1.
+### Example #3
+Buscar el único valor de la lista \{\}. Si está vacío, se devuelve -1.
 ```powerquery
 List.SingleOrDefault({}, -1)
 ```

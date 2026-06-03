@@ -20,12 +20,12 @@ Table.Split(
 
 ## Remarks
 
-Unterteilt <code>table</code> in eine Liste von Tabellen. Hierbei ist das erste Element der Liste eine Tabelle, die die ersten <code>pageSize</code> Zeilen aus    der Quelltabelle enthält. Das nächste Element der Liste ist eine Tabelle mit den nächsten <code>pageSize</code> Zeilen aus der Quelltabelle usw..
+Unterteilt `table` in eine Liste von Tabellen. Hierbei ist das erste Element der Liste eine Tabelle, die die ersten `pageSize` Zeilen aus der Quelltabelle enthält. Das nächste Element der Liste ist eine Tabelle mit den nächsten `pageSize` Zeilen aus der Quelltabelle usw..
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Unterteilen Sie eine Tabelle mit fünf Datensätzen in Tabellen mit je zwei Datensätze.
 ```powerquery
 let

@@ -25,7 +25,7 @@ Azure स्पार्क इंस्टैंस में तालिक�
 
 ## Examples
 
-### Example #1 
+### Example #1
 Azure स्पार्क इंस्टैंस में तालिकाओं को सूचीबद्ध करें.
 ```powerquery
 AzureSpark.Tables("contoso.azurehdinsight.net")

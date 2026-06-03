@@ -20,25 +20,29 @@ Text.SplitAny(
 
 ## Remarks
 
-Trả về danh sách giá trị văn bản là kết quả của việc tách một giá trị văn bản <code>text</code> dựa trên ký tự bất kỳ trong dấu tách được chỉ định, <code>separators</code>.
+Trả về danh sách các giá trị văn bản thu được từ việc chia tách một giá trị văn bản dựa trên ký tự bất kỳ được chỉ định trong dấu tách.
+
+-   `text`: Giá trị văn bản cần chia tách.
+-   `separators`: Các ký tự dấu tách dùng để chia tách văn bản.
 
 
 ## Examples
 
-### Example #1 
-Tạo một danh sách từ giá trị văn bản &#34;Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com&#34;.
+### Example #1
+Tạo danh sách từ văn bản đã cho bằng các ký tự dấu tách được chỉ định.
 ```powerquery
-Text.SplitAny("Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com", "|")
+Text.SplitAny("Name|Customer ID|Purchase|Month-Day-Year", "|-")
 ```
 
 Result: 
 ```powerquery
 {
-    "Jamie",
-    "Campbell",
-    "Admin",
-    "Adventure Works",
-    "www.adventure-works.com"
+    "Name",
+    "Customer ID",
+    "Purchase",
+    "Month",
+    "Day",
+    "Year"
 }
 ```
 

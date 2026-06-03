@@ -19,13 +19,13 @@ Type.NonNullable(
 
 ## Remarks
 
-ส่งกลับประเภทที่ไม่สามารถเป็น <code>nullable</code> ได้จาก <code>type</code>
+ส่งกลับประเภทที่ไม่สามารถเป็น `nullable` ได้จาก `type`
 
 
 ## Examples
 
-### Example #1 
-ส่งกลับประเภทที่ไม่สามารถเป็น NULL ได้ของ &lt;code&gt;type nullable number&lt;/code&gt;
+### Example #1
+ส่งกลับประเภทที่ไม่สามารถเป็น NULL ได้ของ `type nullable number`
 ```powerquery
 Type.NonNullable(type nullable number)
 ```

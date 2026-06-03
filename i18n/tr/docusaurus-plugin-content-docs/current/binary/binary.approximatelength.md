@@ -19,12 +19,12 @@ Binary.ApproximateLength(
 
 ## Remarks
 
-Veri kaynağı yaklaşık bir uzunluğu desteklemiyorsa, yaklaşık <code>binary</code> uzunluğunu veya bir hata döndürür.
+Veri kaynağı yaklaşık bir uzunluğu desteklemiyorsa, yaklaşık `binary` uzunluğunu veya bir hata döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 İkili değerin yaklaşık uzunluğunu alın.
 ```powerquery
 Binary.ApproximateLength(Binary.FromText("i45WMlSKjQUA", BinaryEncoding.Base64))

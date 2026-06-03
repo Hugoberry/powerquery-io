@@ -19,7 +19,7 @@ Number.Asin(
 
 ## Remarks
 
-Zwraca arcus sinus liczby <code>number</code>.
+Zwraca arcus sinus liczby `number`.
 
 
 

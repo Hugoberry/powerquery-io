@@ -20,12 +20,12 @@ Table.Combine(
 
 ## Remarks
 
-Returns a table that is the result of merging a list of tables, <code>tables</code>. The resulting table will have a row type structure defined by <code>columns</code> or by a union of the input types if <code>columns</code> is not specified.
+Returns a table that is the result of merging a list of tables, `tables`. The resulting table will have a row type structure defined by `columns` or by a union of the input types if `columns` is not specified.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Merge the three tables together.
 ```powerquery
 Table.Combine({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Merge three tables with different structures.
 ```powerquery
 Table.Combine({
@@ -65,7 +65,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Merge two tables and project onto the given type.
 ```powerquery
 Table.Combine(

@@ -19,12 +19,12 @@ Record.FieldCount(
 
 ## Remarks
 
-Zwraca liczbę pól w rekordzie <code>record</code>.
+Zwraca liczbę pól w rekordzie `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź liczbę pól w rekordzie.
 ```powerquery
 Record.FieldCount([CustomerID = 1, Name = "Bob"])

@@ -19,13 +19,13 @@ Type.FunctionReturn(
 
 ## Remarks
 
-Trả về một loại do hàm trả về <code>type</code>.
+Trả về một loại do hàm trả về `type`.
 
 
 ## Examples
 
-### Example #1 
-Tìm loại trả về của &lt;code&gt;() as any)&lt;/code&gt;.
+### Example #1
+Tìm loại trả về của `() as any)`.
 ```powerquery
 Type.FunctionReturn(type function () as any)
 ```

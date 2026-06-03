@@ -27,7 +27,7 @@ Realiza una llamada al punto de conexión de informes de Webtrends en cuestión 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Realiza una llamada al punto de conexión de informes de visitantes de Webtrends para obtener los datos de los últimos 30 días
 ```powerquery
 Webtrends.ReportContents("98765", "xPcmTDDP0P6")

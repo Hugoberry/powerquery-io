@@ -19,12 +19,12 @@ Record.ToList(
 
 ## Remarks
 
-Devolve uma lista de valores que contêm os valores dos campos existentes na entrada <code>record</code>.
+Devolve uma lista de valores que contêm os valores dos campos existentes na entrada `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Extrair os valores dos campos de um registo.
 ```powerquery
 Record.ToList([A = 1, B = 2, C = 3])

@@ -20,12 +20,12 @@ Type.ForFunction(
 
 ## Remarks
 
-Erstellt einen <code>Funktionstyp</code> aus <code>signature</code>, einen Datensatz von <code>ReturnType</code> und <code>Parameter</code> und <code>min</code>, die minimale Anzahl von Argumenten, die zum Aufrufen der Funktion erforderlich ist.
+Erstellt einen `Funktionstyp` aus `signature`, einen Datensatz von `ReturnType` und `Parameter` und `min`, die minimale Anzahl von Argumenten, die zum Aufrufen der Funktion erforderlich ist.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Erstellt den Typ für eine Funktion, die einen Zahlenparameter namens X verwendet und eine Zahl zurückgibt.
 ```powerquery
 Type.ForFunction([ReturnType = type number, Parameters = [X = type number]], 1)

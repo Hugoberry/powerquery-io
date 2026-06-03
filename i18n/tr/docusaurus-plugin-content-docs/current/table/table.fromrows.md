@@ -5,7 +5,7 @@ title: Table.FromRows
 # Table.FromRows
 
 
-Satır değerlerinin ve isteğe bağlı sütunların bulunduğu listeden bir tablo oluşturur
+Satır değerlerinin ve isteğe bağlı sütunların bulunduğu listeden bir tablo oluşturur.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Table.FromRows(
 
 ## Remarks
 
-<code>rows</code> listesinden listenin her öğesinin tek bir satır için sütun değerlerini içerdiği bir tablo oluşturur. <code>columns</code> için sütun adlarının isteğe bağlı bir listesi, tablo türü veya sütun sayısı sağlanabilir.
+`rows` listesinden listenin her öğesinin tek bir satır için sütun değerlerini içerdiği bir tablo oluşturur. `columns` için sütun adlarının isteğe bağlı bir listesi, tablo türü veya sütun sayısı sağlanabilir.
 
 
 ## Examples
 
-### Example #1 
-[CustomerID] sütunu \{1, 2} değerlerine, [Name] sütunu \{&#34;Bob&#34;, &#34;Jim&#34;} değerlerine ve [Phone] sütunu \{&#34;123-4567&#34;, &#34;987-6543&#34;} değerlerine sahip olacak şekilde bir tablo döndürür.
+### Example #1
+\[CustomerID\] sütunu \{1, 2\} değerlerine, \[Name\] sütunu \{"Bob", "Jim"\} değerlerine ve \[Phone\] sütunu \{"123-4567", "987-6543"\} değerlerine sahip olacak şekilde bir tablo döndürür.
 ```powerquery
 Table.FromRows(
     {
@@ -46,8 +46,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-[CustomerID] bir sayı türü, [Name] ve [Phone] ise metin türleri olmak üzere; [CustomerID] sütunu \{1, 2} değerlerine, [Name] sütunu \{&#34;Bob&#34;, &#34;Jim&#34;} değerlerine ve [Phone] sütunu \{&#34;123-4567&#34;, &#34;987-6543&#34;} değerlerine sahip olacak şekilde bir tablo döndürür.
+### Example #2
+\[CustomerID\] bir sayı türü, \[Name\] ve \[Phone\] ise metin türleri olmak üzere; \[CustomerID\] sütunu \{1, 2\} değerlerine, \[Name\] sütunu \{"Bob", "Jim"\} değerlerine ve \[Phone\] sütunu \{"123-4567", "987-6543"\} değerlerine sahip olacak şekilde bir tablo döndürür.
 ```powerquery
 Table.FromRows(
     {

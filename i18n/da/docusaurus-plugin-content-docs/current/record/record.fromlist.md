@@ -20,12 +20,12 @@ Record.FromList(
 
 ## Remarks
 
-Returnerer en post med en <code>list</code> over feltværdier og et sæt felter.  <code>fields</code> kan enten angives ved en liste med tekstværdier eller en posttype.  Der udløses en fejl, hvis feltet ikke er entydigt.
+Returnerer en post med en `list` over feltværdier og et sæt felter. `fields` kan enten angives ved en liste med tekstværdier eller en posttype. Der udløses en fejl, hvis felterne ikke er entydige.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Opret en post ud fra en liste over feltværdier og en liste over feltnavne.
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, {"CustomerID", "Name", "Phone"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Opret en post ud fra en liste over feltværdier og en posttype.
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, type [CustomerID = number, Name = text, Phone = number])

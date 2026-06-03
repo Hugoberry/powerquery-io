@@ -20,13 +20,13 @@ List.Union(
 
 ## Remarks
 
-Akzeptiert eine Liste mit Listen (<code>lists</code>), vereinigt die Elemente der einzelnen Listen und gibt sie in der Ausgabeliste zurück. Das Ergebnis ist eine Liste mit allen Elementen aus sämtlichen Eingabelisten.    Da bei diesem Vorgang die herkömmliche Behältersemantik erhalten bleibt, werden Duplikatwerte im Rahmen der Vereinigung abgeglichen.    Zum Steuern der Gleichheitsüberprüfung kann ein optionales Gleichungskriterium (<code>equationCriteria</code>) angegeben werden. 
+Akzeptiert eine Liste mit Listen (`lists`), vereinigt die Elemente der einzelnen Listen und gibt sie in der Ausgabeliste zurück. Das Ergebnis ist eine Liste mit allen Elementen aus sämtlichen Eingabelisten. Da bei diesem Vorgang die herkömmliche Behältersemantik erhalten bleibt, werden Duplikatwerte im Rahmen der Vereinigung abgeglichen. Zum Steuern der Gleichheitsüberprüfung kann ein optionales Gleichungskriterium (`equationCriteria`) angegeben werden.
 
 
 ## Examples
 
-### Example #1 
-Erstellt eine Vereinigungsmenge der Listen &#34;\{1..5}&#34;, &#34;\{2..6}&#34; und &#34;\{3..7}&#34;.
+### Example #1
+Erstellt eine Vereinigungsmenge der Listen "\{1..5\}", "\{2..6\}" und "\{3..7\}".
 ```powerquery
 List.Union({{1..5}, {2..6}, {3..7}})
 ```

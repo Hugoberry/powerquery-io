@@ -5,7 +5,7 @@ title: Time.ToRecord
 # Time.ToRecord
 
 
-Retourne un enregistrement qui contient les parties de la valeur d&#39;heure.
+Retourne un enregistrement qui contient les parties de la valeur d'heure.
 
 
 ## Syntax
@@ -19,13 +19,15 @@ Time.ToRecord(
 
 ## Remarks
 
-Retourne un enregistrement qui contient les parties de la valeur d'heure spécifiée, <code>time</code>. <ul>        <li><code>time</code> : valeur <code>time</code> à partir de laquelle l'enregistrement des parties doit être calculé.</li>      </ul>
+Retourne un enregistrement qui contient les parties de la valeur d'heure spécifiée, `time`.
+
+-   `time` : valeur `time` à partir de laquelle l'enregistrement des parties doit être calculé.
 
 
 ## Examples
 
-### Example #1 
-Convertit la valeur &lt;code&gt;#time(11, 56, 2)&lt;/code&gt; dans un enregistrement contenant les valeurs d&#39;heure.
+### Example #1
+Convertit la valeur `#time(11, 56, 2)` dans un enregistrement contenant les valeurs d'heure.
 ```powerquery
 Time.ToRecord(#time(11, 56, 2))
 ```

@@ -20,12 +20,16 @@ Table.Skip(
 
 ## Remarks
 
-Returnerar en tabell som inte innehåller det första angivna antalet rader, <code>countOrCondition</code>, i tabellen <code>table</code>.    Hur många rader som hoppas över beror på den valfria parametern <code>countOrCondition</code>.     <ul>    <li> Om <code>countOrCondition</code> utelämnas hoppas bara den första raden över. </li>    <li> Om <code>countOrCondition</code> är ett tal hoppas så många rader (med början ovanifrån) över. </li>    <li> Om <code>countOrCondition</code> är ett villkor hoppas de rader som uppfyller villkoret över tills en rad inte uppfyller villkoret.</li>    </ul>
+Returnerar en tabell som inte innehåller det första angivna antalet rader, `countOrCondition`, i tabellen `table`. Hur många rader som hoppas över beror på den valfria parametern `countOrCondition`.
+
+-   Om `countOrCondition` utelämnas hoppas bara den första raden över.
+-   Om `countOrCondition` är ett tal hoppas så många rader (med början ovanifrån) över.
+-   Om `countOrCondition` är ett villkor hoppas de rader som uppfyller villkoret över tills en rad inte uppfyller villkoret.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hoppa över den första raden i tabellen.
 ```powerquery
 Table.Skip(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Hoppa över de två första raderna i tabellen.
 ```powerquery
 Table.Skip(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Hoppa över de första raderna där [Price] &gt; 25 i tabellen.
+### Example #3
+Hoppa över de första raderna där \[Price\] > 25 i tabellen.
 ```powerquery
 Table.Skip(
     Table.FromRecords({

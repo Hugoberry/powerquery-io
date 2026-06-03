@@ -27,7 +27,7 @@ Ruft den angegebenen Endpunkt für die Webtrends-Berichterstellung auf, und gibt
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ruft die Daten der letzten 30 Tage vom Endpunkt für Webtrends-Besucherberichte ab.
 ```powerquery
 Webtrends.ReportContents("98765", "xPcmTDDP0P6")

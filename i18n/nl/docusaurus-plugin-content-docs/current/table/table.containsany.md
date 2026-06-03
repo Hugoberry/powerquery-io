@@ -21,13 +21,13 @@ Table.ContainsAny(
 
 ## Remarks
 
-Geeft aan of willekeurig welke van de opgegeven records in de lijst met records <code>rows</code> als rijen in de <code>table</code> worden weergegeven.    Er kan een optionele parameter <code>equationCriteria</code> worden opgegeven voor het aansturen van de vergelijking tussen de rijen van de tabel.
+Geeft aan of willekeurig welke van de opgegeven records in de lijst met records `rows` als rijen in de `table` worden weergegeven. Er kan een optionele parameter `equationCriteria` worden opgegeven voor het aansturen van de vergelijking tussen de rijen van de tabel.
 
 
 ## Examples
 
-### Example #1 
-Bepalen of de tabel &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; de rij &lt;code&gt;[a = 1, b = 2]&lt;/code&gt; of &lt;code&gt;[a = 3, b = 5]&lt;/code&gt; bevat.
+### Example #1
+Bepalen of de tabel `({[a = 1, b = 2], [a = 3, b = 4]})` de rij `[a = 1, b = 2]` of `[a = 3, b = 5]` bevat.
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({
@@ -47,8 +47,8 @@ true
 ```
 
 
-### Example #2 
-Bepalen of de tabel &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; de rij &lt;code&gt;[a = 1, b = 3]&lt;/code&gt; of &lt;code&gt;[a = 3, b = 5]&lt;/code&gt; bevat.
+### Example #2
+Bepalen of de tabel `({[a = 1, b = 2], [a = 3, b = 4]})` de rij `[a = 1, b = 3]` of `[a = 3, b = 5]` bevat.
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({
@@ -68,8 +68,8 @@ false
 ```
 
 
-### Example #3 
-Bepalen of de tabel &lt;code&gt;(Table.FromRecords(\{[a = 1, b = 2], [a = 3, b = 4]}))&lt;/code&gt; de rij &lt;code&gt;[a = 1, b = 3]&lt;/code&gt; of &lt;code&gt;[a = 3, b = 5]&lt;/code&gt; bevat, waarbij alleen de kolom [a] wordt vergeleken.
+### Example #3
+Bepalen of de tabel `(Table.FromRecords({[a = 1, b = 2], [a = 3, b = 4]}))` de rij `[a = 1, b = 3]` of `[a = 3, b = 5]` bevat, waarbij alleen de kolom \[a\] wordt vergeleken.
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({

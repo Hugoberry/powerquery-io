@@ -25,7 +25,7 @@ Retorna um tipo que representa registros com restrições de tipo específicas e
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gerar dinamicamente um tipo de tabela.
 ```powerquery
 let

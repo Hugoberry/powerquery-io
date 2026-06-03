@@ -20,12 +20,12 @@ Value.ReplaceType(
 
 ## Remarks
 
-แทนที่ชนิดของ <code>value</code> ด้วย <code>type</code> ที่ระบุ
+แทนที่ชนิดของ `value` ด้วย `type` ที่ระบุ
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 แทนที่ชนิดเริ่มต้นของระเบียนด้วยชนิดที่เฉพาะเจาะจงมากขึ้น
 ```powerquery
 Type.RecordFields(

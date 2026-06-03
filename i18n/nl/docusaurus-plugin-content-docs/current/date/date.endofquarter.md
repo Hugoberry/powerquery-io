@@ -19,12 +19,14 @@ Date.EndOfQuarter(
 
 ## Remarks
 
-Retourneert het einde van het kwartaal dat <code>dateTime</code>bevat. Informatie over de tijdzone blijft behouden. <ul> <li><code>dateTime</code>: een <code>datum</code>, <code>datum/tijd</code> of <code>datum/tijdzone</code> waarmee het einde van het kwartaal wordt berekend.</li> </ul>
+Retourneert het einde van het kwartaal dat `dateTime`bevat. Informatie over de tijdzone blijft behouden.
+
+-   `dateTime`: een `datum`, `datum/tijd` of `datum/tijdzone` waarmee het einde van het kwartaal wordt berekend.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Het einde van het kwartaal zoeken voor 10 oktober, 2011, 8:00 uur.
 ```powerquery
 Date.EndOfQuarter(#datetime(2011, 10, 10, 8, 0, 0))

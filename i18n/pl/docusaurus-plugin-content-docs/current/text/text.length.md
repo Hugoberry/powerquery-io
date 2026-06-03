@@ -19,12 +19,12 @@ Text.Length(
 
 ## Remarks
 
-Zwraca liczbę znaków w tekście <code>text</code>.
+Zwraca liczbę znaków w tekście `text`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Określ, ile znaków znajduje się w tekście „Hello World”.
 ```powerquery
 Text.Length("Hello World")

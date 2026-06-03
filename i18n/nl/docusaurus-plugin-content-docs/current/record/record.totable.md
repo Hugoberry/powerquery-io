@@ -19,12 +19,12 @@ Record.ToTable(
 
 ## Remarks
 
-Retourneert een tabel met daarin de kolommen <code>Name</code> en <code>Value</code> met een rij voor elk veld in <code>record</code>.
+Retourneert een tabel met daarin de kolommen `Name` en `Value` met een rij voor elk veld in `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De tabel retourneren uit de record.
 ```powerquery
 Record.ToTable([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

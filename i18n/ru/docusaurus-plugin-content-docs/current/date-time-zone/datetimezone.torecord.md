@@ -19,13 +19,15 @@ DateTimeZone.ToRecord(
 
 ## Remarks
 
-Возвращает запись, содержащую части заданного значения datetimezone, <code>dateTimeZone</code>. <ul>        <li><code>dateTimeZone</code>: значение <code>datetimezone</code>, для которого необходимо вычислить запись частей.</li>      </ul>
+Возвращает запись, содержащую части заданного значения datetimezone, `dateTimeZone`.
+
+-   `dateTimeZone`: значение `datetimezone`, для которого необходимо вычислить запись частей.
 
 
 ## Examples
 
-### Example #1 
-Преобразование значения &lt;code&gt;#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)&lt;/code&gt; в запись, содержащую значения даты, времени и часового пояса.
+### Example #1
+Преобразование значения `#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)` в запись, содержащую значения даты, времени и часового пояса.
 ```powerquery
 DateTimeZone.ToRecord(#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0))
 ```

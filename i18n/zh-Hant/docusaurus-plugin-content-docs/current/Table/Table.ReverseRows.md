@@ -19,12 +19,12 @@ Table.ReverseRows(
 
 ## Remarks
 
-傳回資料表，其中來自輸入 <code>table</code> 的資料列會按照反向順序排列。
+傳回資料表，其中來自輸入 `table` 的資料列會按照反向順序排列。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 反轉資料表中的資料列順序。
 ```powerquery
 Table.ReverseRows(

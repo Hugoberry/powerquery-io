@@ -24,7 +24,7 @@ Restituisce un numero casuale compreso tra 0 e 1.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ottenere un numero casuale.
 ```powerquery
 Number.Random()

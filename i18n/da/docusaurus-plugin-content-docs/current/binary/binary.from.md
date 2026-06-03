@@ -20,13 +20,17 @@ Binary.From(
 
 ## Remarks
 
-Returnerer en <code>binary</code> værdi fra den angivne <code>value</code>.  Hvis den angivne <code>value</code> er <code>null</code>, returnerer <code>Binary.From</code> <code>null</code>.  Hvis den angivne <code>value</code> er <code>binary</code>, returneres <code>value</code>. Værdier af følgende typer kan konverteres til en <code>binary</code> værdi:        <ul>        <li><code>text</code>: En <code>binary</code> værdi fra tekstrepræsentationen. Se <code>Binary.FromText</code> for details.</li> </ul>Hvis <code>value</code> er af en anden type, returneres der en fejl.
+Returnerer en `binary` værdi fra den angivne `value`. Hvis den angivne `value` er `null`, returnerer `Binary.From` `null`. Hvis den angivne `value` er `binary`, returneres `value`. Værdier af følgende typer kan konverteres til en `binary` værdi:
+
+-   `text`: En `binary` værdi fra tekstrepræsentationen. Se `Binary.FromText` for details.
+
+Hvis `value` er af en anden type, returneres der en fejl.
 
 
 ## Examples
 
-### Example #1 
-Hent &lt;code&gt;&#34;1011&#34;&lt;/code&gt; for værdien &lt;code&gt;binary&lt;/code&gt;.
+### Example #1
+Hent `"1011"` for værdien `binary`.
 ```powerquery
 Binary.From("1011")
 ```

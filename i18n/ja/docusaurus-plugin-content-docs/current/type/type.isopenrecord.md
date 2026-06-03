@@ -19,13 +19,13 @@ Type.IsOpenRecord(
 
 ## Remarks
 
-レコード <code>type</code> が OPEN かどうかを示す <code>logical</code> を返します。
+レコード `type` が OPEN かどうかを示す `logical` を返します。
 
 
 ## Examples
 
-### Example #1 
-レコード &lt;code&gt;type [ A = number, ...]&lt;/code&gt; が開かれているかどうかを判断します。
+### Example #1
+レコード `type [ A = number, ...]` が開かれているかどうかを判断します。
 ```powerquery
 Type.IsOpenRecord(type [A = number, ...])
 ```

@@ -20,13 +20,13 @@ Text.Upper(
 
 ## Remarks
 
-<code>text</code> 内のすべての文字を大文字に変換した結果を返します。省略可能な <code>culture</code> を指定することもできます (例: "en-US")。
+`text` 内のすべての文字を大文字に変換した結果を返します。省略可能な `culture` を指定することもできます (例: "en-US")。
 
 
 ## Examples
 
-### Example #1 
-&#34;aBcD&#34; の大文字のバージョンを取得します。
+### Example #1
+"aBcD" の大文字のバージョンを取得します。
 ```powerquery
 Text.Upper("aBcD")
 ```

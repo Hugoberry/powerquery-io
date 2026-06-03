@@ -21,13 +21,13 @@ Table.FromPartitions(
 
 ## Remarks
 
-Zwraca tabelę będącą wynikiem połączenia zestawu podzielonych tabel, <code>partitions</code>. <code>partitionColumn</code> to nazwa kolumny, która ma zostać dodana. Jako typ kolumny jest ustawiana wartość domyślna <code>any</code>, ale może zostać określony przez element <code>partitionColumnType</code>.
+Zwraca tabelę będącą wynikiem połączenia zestawu podzielonych tabel, `partitions`. `partitionColumn` to nazwa kolumny, która ma zostać dodana. Jako typ kolumny jest ustawiana wartość domyślna `any`, ale może zostać określony przez element `partitionColumnType`.
 
 
 ## Examples
 
-### Example #1 
-Znajdź typ elementu na liście &lt;code&gt;\{number}&lt;/code&gt;.
+### Example #1
+Znajdź typ elementu na liście `{number}`.
 ```powerquery
 Table.FromPartitions(
     "Year",

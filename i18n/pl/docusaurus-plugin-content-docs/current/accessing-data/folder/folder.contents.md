@@ -20,7 +20,7 @@ Folder.Contents(
 
 ## Remarks
 
-Zwraca tabelę zawierającą wiersz odpowiadający każdemu folderowi i plikowi znalezionemu w folderze <code>path</code>. Każdy wiersz zawiera właściwości folderu lub pliku oraz link do ich zawartości. Parametr <code>options</code> jest obecnie przeznaczony do użytku wewnętrznego.
+Zwraca tabelę zawierającą wiersz odpowiadający każdemu folderowi i plikowi znalezionemu w folderze `path`. Każdy wiersz zawiera właściwości folderu lub pliku oraz link do ich zawartości. Parametr `options` jest obecnie przeznaczony do użytku wewnętrznego.
 
 
 

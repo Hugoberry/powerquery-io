@@ -21,7 +21,7 @@ Cube.ApplyParameter(
 
 ## Remarks
 
-<code>cube</code> öğesine <code>arguments</code> ile <code>parameter</code> uygulandıktan sonra bir küp döndürür.
+`cube` öğesine `arguments` ile `parameter` uygulandıktan sonra bir küp döndürür.
 
 
 

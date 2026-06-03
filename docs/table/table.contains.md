@@ -21,12 +21,12 @@ Table.Contains(
 
 ## Remarks
 
-Indicates whether the specified record, <code>row</code>, appears as a row in the <code>table</code>.    An optional parameter <code>equationCriteria</code> may be specified to control comparison between the rows of the table.
+Indicates whether the specified record, `row`, appears as a row in the `table`. An optional parameter `equationCriteria` may be specified to control comparison between the rows of the table.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determine if the table contains the row.
 ```powerquery
 Table.Contains(
@@ -46,7 +46,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Determine if the table contains the row.
 ```powerquery
 Table.Contains(
@@ -66,8 +66,8 @@ false
 ```
 
 
-### Example #3 
-Determine if the table contains the row comparing only the column [Name].
+### Example #3
+Determine if the table contains the row comparing only the column \[Name\].
 ```powerquery
 Table.Contains(
     Table.FromRecords({

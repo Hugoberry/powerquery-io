@@ -19,12 +19,12 @@ Duration.TotalMinutes(
 
 ## Remarks
 
-Gibt die Gesamtanzahl von Minuten zurück, die von <code>duration</code> umfasst werden.
+Gibt die Gesamtanzahl von Minuten zurück, die von `duration` umfasst werden.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Die Gesamtanzahl von Minuten suchen, die sich über einen Dauerwert erstrecken.
 ```powerquery
 Duration.TotalMinutes(#duration(5, 4, 3, 2))

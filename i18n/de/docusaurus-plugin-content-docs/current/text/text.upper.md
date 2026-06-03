@@ -20,13 +20,13 @@ Text.Upper(
 
 ## Remarks
 
-Gibt das Ergebnis der Konvertierung aller Zeichen in "<code>text</code>" in Großbuchstaben zurück. Optional kann auch ein Element vom Typ "<code>culture</code>" angegeben werden (Beispiel: "de-DE").
+Gibt das Ergebnis der Konvertierung aller Zeichen in "`text`" in Großbuchstaben zurück. Optional kann auch ein Element vom Typ "`culture`" angegeben werden (Beispiel: "de-DE").
 
 
 ## Examples
 
-### Example #1 
-Ruft die groß geschriebene Version von &#34;aBcD&#34; ab.
+### Example #1
+Ruft die groß geschriebene Version von "aBcD" ab.
 ```powerquery
 Text.Upper("aBcD")
 ```

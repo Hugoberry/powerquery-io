@@ -20,12 +20,12 @@ Table.Sort(
 
 ## Remarks
 
-Сортирует <code>table</code>, используя список из одного или нескольких имен столбцов и необязательного параметра <code>comparisonCriteria</code> в форме \{ \{ col1, comparisonCriteria }, \{col2} }.
+Сортирует `table`, используя список из одного или нескольких имен столбцов и необязательного параметра `comparisonCriteria` в форме \{ \{ col1, comparisonCriteria \}, \{col2\} \}.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Сортировка таблицы по столбцу OrderID.
 ```powerquery
 Table.Sort(
@@ -60,7 +60,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Сортировка таблицы по столбцу OrderID в порядке убывания.
 ```powerquery
 Table.Sort(
@@ -95,7 +95,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Сортировка таблицы по столбцу CustomerID, затем по столбцу OrderID, при этом по CustomerID — в порядке возрастания.
 ```powerquery
 Table.Sort(

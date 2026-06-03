@@ -19,12 +19,14 @@ Date.IsInCurrentWeek(
 
 ## Remarks
 
-Geeft aan of de opgegeven datum-/tijdwaarde <code>dateTime</code> plaatsvindt tijdens de huidige week, zoals wordt bepaald door de huidige datum en tijd op het systeem.      <ul>      <li><code>dateTime</code>: een waarde voor <code>date</code>, <code>datetime</code> of <code>datetimezone</code> die u wilt evalueren.</li>      </ul>
+Geeft aan of de opgegeven datum-/tijdwaarde `dateTime` plaatsvindt tijdens de huidige week, zoals wordt bepaald door de huidige datum en tijd op het systeem.
+
+-   `dateTime`: een waarde voor `date`, `datetime` of `datetimezone` die u wilt evalueren.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Vaststellen of de huidige systeemtijd binnen de huidige week valt.
 ```powerquery
 Date.IsInCurrentWeek(DateTime.FixedLocalNow())

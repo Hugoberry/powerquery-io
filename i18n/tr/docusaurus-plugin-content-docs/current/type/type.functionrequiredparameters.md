@@ -19,13 +19,13 @@ Type.FunctionRequiredParameters(
 
 ## Remarks
 
-İşlevin <code>type</code> girişinin çalıştırılabilmesi için gereken minimum parametre sayısını belirten bir sayı döndürür.
+İşlevin `type` girişinin çalıştırılabilmesi için gereken minimum parametre sayısını belirten bir sayı döndürür.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;(x as number, optional y as text)&lt;/code&gt; işlevi için gerekli parametre sayısını bulun.
+### Example #1
+`(x as number, optional y as text)` işlevi için gerekli parametre sayısını bulun.
 ```powerquery
 Type.FunctionRequiredParameters(type function (x as number, optional y as text) as any)
 ```

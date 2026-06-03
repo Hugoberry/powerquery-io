@@ -19,12 +19,17 @@ Type.TableKeys(
 
 ## Remarks
 
-Gibt die möglicherweise leere Liste mit Schlüsseln für den angegebenen Tabellentyp zurück.<br />    <br />    Jeder Schlüssel wird mithilfe eines Datensatzes in der folgenden Form definiert:    <ul>      <li>        <code>Spalten</code>: eine Liste der Spaltennamen, die den Schlüssel definieren.      </li>      <li>        <code>Primär</code>: <code>true</code>, wenn der Schlüssel der Primärschlüssel der Tabelle ist; andernfalls <code>false</code>      </li>    </ul>    
+Gibt die möglicherweise leere Liste mit Schlüsseln für den angegebenen Tabellentyp zurück.  
+  
+Jeder Schlüssel wird mithilfe eines Datensatzes in der folgenden Form definiert:
+
+-   `Spalten`: eine Liste der Spaltennamen, die den Schlüssel definieren.
+-   `Primär`: `true`, wenn der Schlüssel der Primärschlüssel der Tabelle ist; andernfalls `false`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gibt die Schlüsselinformationen für einen Tabellentyp zurück.
 ```powerquery
 let

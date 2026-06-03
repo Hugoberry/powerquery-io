@@ -20,13 +20,13 @@ List.RemoveItems(
 
 ## Remarks
 
-Quita todas las coincidencias de los valores proporcionados en <code>list2</code> de <code>list1</code>. Si no existen los valores de <code>list2</code> en <code>list1</code>, se devuelve la lista original.
+Quita todas las coincidencias de los valores proporcionados en `list2` de `list1`. Si no existen los valores de `list2` en `list1`, se devuelve la lista original.
 
 
 ## Examples
 
-### Example #1 
-Quitar de la lista \{1, 2, 3, 4, 2, 5, 5} los elementos de la lista \{2, 4, 6}.
+### Example #1
+Quitar de la lista \{1, 2, 3, 4, 2, 5, 5\} los elementos de la lista \{2, 4, 6\}.
 ```powerquery
 List.RemoveItems({1, 2, 3, 4, 2, 5, 5}, {2, 4, 6})
 ```

@@ -20,12 +20,12 @@ Type.ForFunction(
 
 ## Remarks
 
-Создает тип функции <code>function type</code> из <code>signature</code>, запись <code>ReturnType</code> и <code>Parameters</code>, и <code>min</code> - минимальное число аргументов, необходимых для вызова функции.
+Создает тип функции `function type` из `signature`, запись `ReturnType` и `Parameters`, и `min` - минимальное число аргументов, необходимых для вызова функции.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Создает тип функции, которая принимает числовой параметр X и возвращает число.
 ```powerquery
 Type.ForFunction([ReturnType = type number, Parameters = [X = type number]], 1)

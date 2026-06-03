@@ -5,7 +5,7 @@ title: Number.BitwiseXor
 # Number.BitwiseXor
 
 
-ส่งกลับผลลัพธ์ของการดำเนินการในระดับบิต &#34;XOR&#34; (Exclusive-OR) ระหว่างค่าที่ป้อนสองรายการ
+ส่งกลับผลลัพธ์ของการดำเนินการในระดับบิต "XOR" (Exclusive-OR) ระหว่างค่าที่ป้อนสองรายการ
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Number.BitwiseXor(
 
 ## Remarks
 
-ส่งกลับผลลัพธ์ของการดำเนินการในระดับบิต "XOR" (Exclusive-OR) ระหว่าง <code>number1</code> กับ <code>number2</code>
+ส่งกลับผลลัพธ์ของการดำเนินการในระดับบิต "XOR" (Exclusive-OR) ระหว่าง `number1` กับ `number2`
 
 
 

@@ -23,13 +23,13 @@ Table.AddJoinColumn(
 
 ## Remarks
 
-Joins the rows of <code>table1</code> with the rows of <code>table2</code> based on the equality of the values of the key columns selected by <code>key1</code> (for <code>table1</code>) and <code>key2</code> (for <code>table2</code>). The results are entered into the column named <code>newColumnName</code>.This function behaves similarly to Table.Join with a JoinKind of LeftOuter except that the join results are presented in a nested rather than flattened fashion.
+Joins the rows of `table1` with the rows of `table2` based on the equality of the values of the key columns selected by `key1` (for `table1`) and `key2` (for `table2`). The results are entered into the column named `newColumnName`. This function behaves similarly to Table.Join with a JoinKind of LeftOuter except that the join results are presented in a nested rather than flattened fashion.
 
 
 ## Examples
 
-### Example #1 
-Add a join column to (\{[saleID = 1, item = &#34;Shirt&#34;], [saleID = 2, item = &#34;Hat&#34;]}) named &#34;price/stock&#34; from the table (\{[saleID = 1, price = 20], [saleID = 2, price = 10]}) joined on [saleID].
+### Example #1
+Add a join column to (\{\[saleID = 1, item = "Shirt"\], \[saleID = 2, item = "Hat"\]\}) named "price/stock" from the table (\{\[saleID = 1, price = 20\], \[saleID = 2, price = 10\]\}) joined on \[saleID\].
 ```powerquery
 Table.AddJoinColumn(
     Table.FromRecords({

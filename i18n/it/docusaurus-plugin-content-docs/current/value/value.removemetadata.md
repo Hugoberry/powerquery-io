@@ -5,7 +5,7 @@ title: Value.RemoveMetadata
 # Value.RemoveMetadata
 
 
-Rimuove l&#39;input dei metadati.
+Rimuove l'input dei metadati.
 
 
 ## Syntax
@@ -21,6 +21,37 @@ Value.RemoveMetadata(
 ## Remarks
 
 Rimuove l'input dei metadati.
+
+
+## Examples
+
+### Example #1
+Rimuove tutti i metadati da un valore di testo.
+```powerquery
+Value.Metadata(
+    Value.RemoveMetadata("abc" meta [a = 1, b = 2])
+)
+```
+
+Result: 
+```powerquery
+[]
+```
+
+
+### Example #2
+Rimuove un solo campo di metadati da un valore di testo.
+```powerquery
+Value.Metadata(
+    Value.RemoveMetadata("abc" meta [a = 1, b = 2], {"a"})
+)
+```
+
+Result: 
+```powerquery
+[b = 2]
+```
+
 
 
 

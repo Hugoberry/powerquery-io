@@ -19,12 +19,12 @@ Date.DayOfYear(
 
 ## Remarks
 
-प्रदान किए गए <code>date</code>, <code>datetime</code> या <code>datetimezone</code> मान, <code>dateTime</code> में वर्ष के दिन का प्रतिनिधित्व करने वाली कोई संख्या लौटाता है.
+प्रदान किए गए `date`, `datetime` या `datetimezone` मान, `dateTime` में वर्ष के दिन का प्रतिनिधित्व करने वाली कोई संख्या लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 1 मार्च, 2011 के लिए वर्ष का दिन.
 ```powerquery
 Date.DayOfYear(#date(2011, 03, 01))

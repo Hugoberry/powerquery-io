@@ -19,12 +19,12 @@ Record.Combine(
 
 ## Remarks
 
-Kết hợp các bản ghi trong danh sách cho sẵn <code>records</code>. Nếu <code>records</code> chứa giá trị không phải là bản ghi thì một lỗi được trả về.
+Kết hợp các bản ghi trong danh sách cho sẵn `records`. Nếu `records` chứa giá trị không phải là bản ghi thì một lỗi được trả về.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tạo bản ghi kết hợp từ các những bản ghi.
 ```powerquery
 Record.Combine({

@@ -20,12 +20,15 @@ Date.IsInNextNWeeks(
 
 ## Remarks
 
-Indikerar om angivet datetime-värde <code>dateTime</code> infaller under nästa antalet veckor enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar falskt om den skickas ett värde som infaller inom den aktuella veckan.      <ul>      <li><code>dateTime</code>: Ett <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde som ska utvärderas.</li>      <li><code>weeks</code>: Antalet veckor.</li>      </ul>
+Indikerar om angivet datetime-värde `dateTime` infaller under nästa antalet veckor enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar falskt om den skickas ett värde som infaller inom den aktuella veckan.
+
+-   `dateTime`: Ett `date`\-, `datetime`\- eller `datetimezone`\-värde som ska utvärderas.
+-   `weeks`: Antalet veckor.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Fastställer om veckan efter aktuell systemtid infaller under de kommande två veckorna.
 ```powerquery
 Date.IsInNextNWeeks(Date.AddDays(DateTime.FixedLocalNow(), 7), 2)

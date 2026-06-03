@@ -19,12 +19,12 @@ Duration.Days(
 
 ## Remarks
 
-傳回 <code>duration</code> 的天數部分。
+傳回 `duration` 的天數部分。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 擷取兩個日期之間的天數。
 ```powerquery
 Duration.Days(#date(2022, 3, 4) - #date(2022, 2, 25))

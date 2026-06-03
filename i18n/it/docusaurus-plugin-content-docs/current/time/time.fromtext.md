@@ -5,7 +5,7 @@ title: Time.FromText
 # Time.FromText
 
 
-Crea un&#39;ora da formati di ora locali, universali e personalizzati.
+Crea un'ora da formati di ora locali, universali e personalizzati.
 
 
 ## Syntax
@@ -20,13 +20,18 @@ Time.FromText(
 
 ## Remarks
 
-Crea un valore <code>time</code> da una rappresentazione testuale <code>text</code>. È possibile specificare un parametro facoltativo <code>record</code> <code>options</code> per specificare proprietà aggiuntive. Il <code>record</code> può contenere i campi seguenti:<ul>   <li><code>Formato</code>: valore <code>text</code> che indica il formato da usare. Per maggiori informazioni, vedere: https://go.microsoft.com/fwlink/?linkid=2180104 e https://go.microsoft.com/fwlink/?linkid=2180105. Se si omette questo campo o si specifica <code>Null</code> verrà eseguita l'analisi dell'ora nel miglior modo possibile.</li>   <li><code>Impostazioni cultura</code>: quando <code>Formato</code> non è Null, <code>Impostazioni cultura</code> controlla alcuni identificatori di formato. Ad esempio, in <code>"en-US"</code> <code>"tt"</code> è <code>"AM" o "PM</code>, mentre in <code>"ar-EG"</code> <code>"tt"</code> è <code>"ص", o "م"</code>. Quando <code>Formato</code> è <code>Null</code>, <code>Impostazioni cultura</code> controlla il formato predefinito da usare. Quando <code>Impostazioni cultura</code> è <code>Null</code> od omesso, viene usato <code>Culture.Current</code>.</li></ul>Per supportare i flussi di lavoro legacy, <code>options</code> può essere anche un valore di testo. Questo comportamento è identico a quello di <code>options</code><code>= [Format = null, Culture = <code>options</code>]</code>.
+Crea un valore `time` da una rappresentazione testuale `text`. Per specificare proprietà aggiuntive, è possibile fornire un parametro facoltativo `record` `options`. Il `record` può contenere i campi seguenti:
+
+-   `Format`: valore `text` che indica il formato da usare. Per maggiori informazioni, vedere: https://go.microsoft.com/fwlink/?linkid=2180104 e https://go.microsoft.com/fwlink/?linkid=2180105. Se si omette questo campo o si specifica `Null` verrà eseguita l'analisi dell'ora nel miglior modo possibile.
+-   `Culture`: se `Formato` non è Null, `Impostazioni cultura` controlla alcuni identificatori di formato. Ad esempio, in `"en-US"` `"tt"` è `"AM" o "PM"`, mentre in `"ar-EG"` `"tt"` è `"ص", o "م"`. Quando `Format` è `null`, `Culture` controlla il formato predefinito da usare. Quando `Culture` è `Null` od omesso, viene usato `Culture.Current`.
+
+Per supportare i flussi di lavoro legacy, `options` può essere anche un valore di testo. Questo comportamento è identico a quello di `options = [Format = null, Culture = options]`.
 
 
 ## Examples
 
-### Example #1 
-Converte &lt;code&gt;&#34;10:12:31am&#34;&lt;/code&gt; in un valore di ora.
+### Example #1
+Converte `"10:12:31am"` in un valore di ora.
 ```powerquery
 Time.FromText("10:12:31am")
 ```
@@ -37,8 +42,8 @@ Result:
 ```
 
 
-### Example #2 
-Converte &lt;code&gt;1012&lt;/code&gt; in un valore Time.
+### Example #2
+Converte `1012` in un valore Time.
 ```powerquery
 Time.FromText("1012")
 ```
@@ -49,8 +54,8 @@ Result:
 ```
 
 
-### Example #3 
-Converte &lt;code&gt;10&lt;/code&gt; in un valore Time.
+### Example #3
+Converte `10` in un valore Time.
 ```powerquery
 Time.FromText("10")
 ```

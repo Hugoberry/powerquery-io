@@ -20,13 +20,23 @@ Number.From(
 
 ## Remarks
 
-Returnerer en værdi af typen <code>number</code> ud fra den angivne <code>value</code>. Der kan også angives en valgfri <code>culture</code> (f.eks. "en-US").Hvis den angivne <code>value</code> er <code>null</code>, vil <code>Number.From</code> returnere <code>null</code>. Hvis den angivne <code>value</code> er <code>number</code>, returneres <code>value</code>. Værdier af følgende typer kan konverteres til en værdi af typen <code>number</code>:      <ul>        <li><code>text</code>: En værdi af typen <code>number</code> fra en tekstrepræsentation. Almindelige tekstformater håndteres (15", "3,423.10", "5.0E-10"). Se <code>Number.FromText</code> for at få flere oplysninger.</li>        <li><code>logical</code>: 1 for <code>true</code>, 0 for <code>false</code>.</li>        <li><code>datetime</code>: Et reelt tal med dobbeltpræcision, der indeholder en OLE Automation-datoækvivalens.</li>        <li><code>datetimezone</code>: Et reelt tal med dobbeltpræcision, der indeholder en OLE Automation-datoækvivalens for den lokale dato og det lokale klokkeslæt, <code>value</code>.</li>        <li><code>date</code>: Et reelt tal med dobbeltpræcision, der indeholder en OLE Automation-datoækvivalens.</li>        <li><code>time</code>:  Udtrykt i brøkdage.</li>        <li><code>duration</code>: Udtrykt i hele dage og brøkdage.</li>      </ul>Hvis <code>value</code> er af en anden type, returneres der en fejl.
+Returnerer en værdi af typen `number` ud fra den angivne `value`. Der kan også angives en valgfri `culture` (f.eks. "en-US"). Hvis den angivne `value` er `null`, vil `Number.From` returnere `null`. Hvis den angivne `value` er `number`, returneres `value`. Værdier af følgende typer kan konverteres til en værdi af typen `number`:
+
+-   `text`: En værdi af typen `number` fra en tekstrepræsentation. Almindelige tekstformater håndteres (15", "3,423.10", "5.0E-10"). Se `Number.FromText` for at få flere oplysninger.
+-   `logical`: 1 for `true`, 0 for `false`.
+-   `datetime`: Et reelt tal med dobbeltpræcision, der indeholder en OLE Automation-datoækvivalens.
+-   `datetimezone`: Et reelt tal med dobbeltpræcision, der indeholder en OLE Automation-datoækvivalens for den lokale dato og det lokale klokkeslæt, `value`.
+-   `date`: Et reelt tal med dobbeltpræcision, der indeholder en OLE Automation-datoækvivalens.
+-   `time`: Udtrykt i brøkdage.
+-   `duration`: Udtrykt i hele dage og brøkdage.
+
+Hvis `value` er af en anden type, returneres der en fejl.
 
 
 ## Examples
 
-### Example #1 
-Hent &lt;code&gt;&#34;4&#34;&lt;/code&gt; for værdien &lt;code&gt;number&lt;/code&gt;.
+### Example #1
+Hent `"4"` for værdien `number`.
 ```powerquery
 Number.From("4")
 ```
@@ -37,8 +47,8 @@ Result:
 ```
 
 
-### Example #2 
-Hent &lt;code&gt;#datetime(2020, 3, 20, 6, 0, 0)&lt;/code&gt; for værdien &lt;code&gt;number&lt;/code&gt;.
+### Example #2
+Hent `#datetime(2020, 3, 20, 6, 0, 0)` for værdien `number`.
 ```powerquery
 Number.From(#datetime(2020, 3, 20, 6, 0, 0))
 ```
@@ -49,8 +59,8 @@ Result:
 ```
 
 
-### Example #3 
-Hent &lt;code&gt;tal&lt;/code&gt;værdien af &lt;code&gt;&#34;12.3%&#34;&lt;/code&gt;.
+### Example #3
+Hent `tal`værdien af `"12.3%"`.
 ```powerquery
 Number.From("12.3%")
 ```

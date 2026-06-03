@@ -19,13 +19,28 @@ RowExpression.From(
 
 ## Remarks
 
-Hiermee wordt de abstracte syntaxisstructuur (AST) voor de hoofdtekst van <code>function</code> geretourneerd en genormaliseerd in een <i>rijexpressie</i>:<ul>  <li>De functie moet een lambda met 1 argument zijn.</li>  <li>Alle verwijzingen naar de functieparameter worden vervangen door <code>RowExpression.Row</code>.</li>  <li>Alle verwijzingen naar kolommen worden vervangen door <code>RowExpression.Column(<i>columnName</i>)</code>.</li>  <li>De abstracte syntaxisstructuur wordt vereenvoudigd en bevat alleen de volgende soorten knooppunten:    <ul>      <li><code>Constant</code></li>      <li><code>Aanroep</code></li>      <li><code>Unair</code></li>      <li><code>Binair</code></li>      <li><code>Als</code></li>      <li><code>FieldAccess</code></li>    </ul>  </li></ul><br /><br />Er treedt een fout op als rijexpressie AST niet kan worden geretourneerd naar de hoofdtekst van <code>function</code>.<br />
+Retourneert de abstracte syntaxisstructuur (AST) voor de hoofdtekst van `function`, genormaliseerd in een *rijexpressie*:
+
+-   De functie moet een lambdaoperator met één argument zijn.
+-   Alle verwijzingen naar de functieparameter worden vervangen door `RowExpression.Row`.
+-   Alle verwijzingen naar kolommen worden vervangen door `RowExpression.Column(columnName)`.
+-   De AST wordt vereenvoudigd en bevat alleen de volgende soorten knooppunten:
+    -   `Constant`
+    -   `Invocation`
+    -   `Unary`
+    -   `Binair`
+    -   `If`
+    -   `FieldAccess`
+
+Er treedt een fout op als een rijexpressie AST niet kan worden geretourneerd voor de hoofdtekst van `function`.  
+  
+Deze functie is identiek aan `ItemExpression.From`.
 
 
 ## Examples
 
-### Example #1 
-Hiermee wordt de abstracte syntaxisstructuur geretourneerd voor de hoofdtekst van de functie &lt;code&gt;each [CustomerID] = &#34;ALFKI&#34;&lt;/code&gt;
+### Example #1
+Hiermee wordt de AST (abstracte syntaxisstructuur) geretourneerd voor de hoofdtekst van de functie `each [CustomerID] = "ALFKI"`.
 ```powerquery
 RowExpression.From(each [CustomerName] = "ALFKI")
 ```

@@ -20,7 +20,7 @@ Uri.Combine(
 
 ## Remarks
 
-एक पूर्ण URI लौटाता है जो इनपुट <code>baseUri</code> और <code>relativeUri</code> का संयोजन होता है.
+एक पूर्ण URI लौटाता है जो इनपुट `baseUri` और `relativeUri` का संयोजन होता है.
 
 
 

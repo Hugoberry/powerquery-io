@@ -19,12 +19,12 @@ Binary.ApproximateLength(
 
 ## Remarks
 
-Возвращает примерную длину <code>binary</code> или ошибку, если источник данных не поддерживает примерную длину.
+Возвращает примерную длину `binary` или ошибку, если источник данных не поддерживает примерную длину.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Получение примерной длины двоичного значения.
 ```powerquery
 Binary.ApproximateLength(Binary.FromText("i45WMlSKjQUA", BinaryEncoding.Base64))

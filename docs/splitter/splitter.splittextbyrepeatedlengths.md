@@ -25,7 +25,7 @@ Returns a function that splits text into a list of text after the specified leng
 
 ## Examples
 
-### Example #1 
+### Example #1
 Repeatedly split the input into chunks of three characters, starting from the beginning of the input.
 ```powerquery
 Splitter.SplitTextByRepeatedLengths(3)("12345678")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Repeatedly split the input into chunks of three characters, starting from the end of the input.
 ```powerquery
 let

@@ -19,12 +19,17 @@ Type.TableKeys(
 
 ## Remarks
 
-Returns the possibly empty list of keys for the given table type.<br />    <br />    Each key is defined using a record in the following form:    <ul>      <li>        <code>Columns</code>: a list of the column names that define the key      </li>      <li>        <code>Primary</code>: <code>true</code> if the key is the table's primary key; otherwise, <code>false</code>      </li>    </ul>    
+Returns the possibly empty list of keys for the given table type.  
+  
+Each key is defined using a record in the following form:
+
+-   `Columns`: a list of the column names that define the key
+-   `Primary`: `true` if the key is the table's primary key; otherwise, `false`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Return the key information for a table type.
 ```powerquery
 let

@@ -19,12 +19,12 @@ DateTime.Time(
 
 ## Remarks
 
-ส่งกลับส่วนเวลาของค่าวันที่เวลาที่กำหนด <code>dateTime</code>
+ส่งกลับส่วนเวลาของค่าวันที่เวลาที่กำหนด `dateTime`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ค้นหาค่าเวลาของ #datetime(2010, 12, 31, 11, 56, 02)
 ```powerquery
 DateTime.Time(#datetime(2010, 12, 31, 11, 56, 02))

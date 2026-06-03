@@ -19,7 +19,7 @@ Type.Union(
 
 ## Remarks
 
-Devolve a união dos tipos em <code>types</code>.
+Devolve a união dos tipos em `types`.
 
 
 

@@ -19,12 +19,12 @@ Time.Second(
 
 ## Remarks
 
-Devuelve el componente de segundos del valor <code>time</code>, <code>datetime</code> o <code>datetimezone</code> proporcionado, <code>dateTime</code>.
+Devuelve el componente de segundos del valor `time`, `datetime` o `datetimezone` proporcionado, `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Buscar el valor de segundos en un valor datetime.
 ```powerquery
 Time.Second(#datetime(2011, 12, 31, 9, 15, 36.5))

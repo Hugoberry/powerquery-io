@@ -20,13 +20,13 @@ List.Mode(
 
 ## Remarks
 
-Gibt das Element zurück, das in der Liste "<code>list</code>" am häufigsten vorkommt. Ist die Liste leer, wird eine Ausnahme ausgelöst. Sind mehrere Elemente mit der gleichen maximalen Häufigkeit vorhanden, wird das letzte Element ausgewählt.    Die Gleichheitsüberprüfung kann mit einem optionalen <code>comparisonCriteria</code>-Wert (<code>equationCriteria</code>) gesteuert werden. 
+Gibt das Element zurück, das am häufigsten in `list` angezeigt wird. Wenn die Liste leer ist, wird ein Fehler ausgelöst. Wenn mehrere Elemente mit derselben maximalen Häufigkeit angezeigt werden, wird das letzte Element ausgewählt. Ein optionaler Wert für Vergleichskriterien `equationCriteria` kann angegeben werden, um Gleichstellungstests zu steuern.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt das Element, das in der Liste &lt;code&gt;\{&#34;A&#34;, 1, 2, 3, 3, 4, 5}&lt;/code&gt; am häufigsten vorkommt.
+### Example #1
+Ermittelt das Element, das in der Liste `{"A", 1, 2, 3, 3, 4, 5}` am häufigsten vorkommt.
 ```powerquery
 List.Mode({"A", 1, 2, 3, 3, 4, 5})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Ermittelt das Element, das in der Liste &lt;code&gt;\{&#34;A&#34;, 1, 2, 3, 3, 4, 5, 5}&lt;/code&gt; am häufigsten vorkommt.
+### Example #2
+Ermittelt das Element, das in der Liste `{"A", 1, 2, 3, 3, 4, 5, 5}` am häufigsten vorkommt.
 ```powerquery
 List.Mode({"A", 1, 2, 3, 3, 4, 5, 5})
 ```

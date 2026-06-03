@@ -20,12 +20,12 @@ Record.Field(
 
 ## Remarks
 
-Zwraca wartość określonego pola <code>field</code> w rekordzie <code>record</code>. Jeśli nie można odnaleźć pola, zwracany jest wyjątek.
+Zwraca wartość określonego pola `field` w rekordzie `record`. Jeśli nie można odnaleźć pola, jest zgłaszany błąd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź wartość pola „CustomerID” w rekordzie.
 ```powerquery
 Record.Field([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")

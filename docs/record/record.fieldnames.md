@@ -19,12 +19,12 @@ Record.FieldNames(
 
 ## Remarks
 
-Returns the names of the fields in the record <code>record</code> as text.
+Returns the names of the fields in the record `record` as text.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find the names of the fields in the record.
 ```powerquery
 Record.FieldNames([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

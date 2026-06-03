@@ -5,7 +5,7 @@ title: Number.BitwiseNot
 # Number.BitwiseNot
 
 
-Restituisce un byte per ogni bit che è l&#39;opposto dell&#39;input.
+Restituisce un byte per ogni bit che è l'opposto dell'input.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Number.BitwiseNot(
 
 ## Remarks
 
-Restituisce il risultato dell'esecuzione di un'operazione "Not" bit per bit su <code>number</code>.
+Restituisce il risultato dell'esecuzione di un'operazione "Not" bit per bit su `number`.
 
 
 

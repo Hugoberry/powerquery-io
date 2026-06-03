@@ -5,7 +5,7 @@ title: DateTimeZone.ZoneHours
 # DateTimeZone.ZoneHours
 
 
-Changes the timezone of the value.
+Gets the timezone hour of the value.
 
 
 ## Syntax
@@ -19,7 +19,24 @@ DateTimeZone.ZoneHours(
 
 ## Remarks
 
-Changes the timezone of the value.
+Returns the time zone hour component of a `datetimezone` value.
+
+-   `dateTimeZone`: A `datetimezone` value from which the time zone hour component is extracted. If `dateTimeZone` is `null`, the function returns `null`.
+
+
+## Examples
+
+### Example #1
+Get the time zone hours component of the specified `datetimezone` value.
+```powerquery
+DateTimeZone.ZoneHours(#datetimezone(2024, 4, 28, 13, 24, 22, 7, 30))
+```
+
+Result: 
+```powerquery
+7
+```
+
 
 
 

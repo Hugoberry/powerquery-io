@@ -5,7 +5,7 @@ title: VSTS.Contents
 # VSTS.Contents
 
 
-Azure DevOps Analytics Hizmetinizin Url&#39;sini girin.
+Azure DevOps Analytics Hizmetinizin Url'sini girin.
 
 
 ## Syntax

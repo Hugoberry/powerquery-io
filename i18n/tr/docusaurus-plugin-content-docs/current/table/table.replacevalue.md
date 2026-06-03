@@ -23,12 +23,18 @@ Table.ReplaceValue(
 
 ## Remarks
 
-Belirtilen <code>table</code> sütunlarında <code>oldValue</code> öğesini <code>newValue</code> ile değiştirir.
+Bir değeri, bir tablodaki belirtilen sütunlarda yeni bir değerle değiştirir.
+
+-   `table`: Aranacak tablo.
+-   `oldValue`: Değiştirilecek değer.
+-   `newValue`: Değiştirme değeri.
+-   `replacer`: Kullanılacak değiştirme işlevi. Bu işlev, orijinal metni yeni metinle değiştirmek için `Replacer.ReplaceText`, orijinal değeri yeni bir değerle değiştirmek için `Replacer.ReplaceValue` veya özel bir değiştirici olabilir.
+-   `columnsToSearch`: Değiştirilecek değerin aranacağı tablodaki belirli sütun veya sütunları içeren liste.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 B sütununda “hoşça kal” metnini yalnızca tüm değerle eşleşen “dünya” ile değiştirin.
 ```powerquery
 Table.ReplaceValue(
@@ -54,7 +60,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 B sütununda “al” metnini değerin bir parçasıyla eşleşen “el” ile değiştirin.
 ```powerquery
 Table.ReplaceValue(
@@ -78,7 +84,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 ABD’li çalışanların adlarını anonimleştirin.
 ```powerquery
 Table.ReplaceValue(
@@ -102,7 +108,7 @@ Table.FromRecords({
 ```
 
 
-### Example #4 
+### Example #4
 ABD’li çalışanlarla ilgili tüm sütunları anonimleştirin.
 ```powerquery
 Table.ReplaceValue(

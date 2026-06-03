@@ -19,12 +19,12 @@ Date.StartOfQuarter(
 
 ## Remarks
 
-Returnerer starten af det kvartal, der indeholder <code>dateTime</code>.    <code>dateTime</code> skal være en værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>.
+Returnerer starten af det kvartal, der indeholder `dateTime`. `dateTime` skal være en værdi af typen `date`, `datetime` eller `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find slutningen af kvartalet for 10. oktober 2011, klokken 08:00.
 ```powerquery
 Date.StartOfQuarter(#datetime(2011, 10, 10, 8, 0, 0))

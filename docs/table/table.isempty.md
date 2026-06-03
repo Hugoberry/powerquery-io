@@ -19,12 +19,12 @@ Table.IsEmpty(
 
 ## Remarks
 
-Indicates whether the <code>table</code> contains any rows. Returns <code>true</code> if there are no rows (i.e. the table is empty), <code>false</code> otherwise.
+Indicates whether the `table` contains any rows. Returns `true` if there are no rows (i.e. the table is empty), `false` otherwise.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determine if the table is empty.
 ```powerquery
 Table.IsEmpty(
@@ -42,8 +42,8 @@ false
 ```
 
 
-### Example #2 
-Determine if the table &lt;code&gt;(\{})&lt;/code&gt; is empty.
+### Example #2
+Determine if the table `({})` is empty.
 ```powerquery
 Table.IsEmpty(Table.FromRecords({}))
 ```

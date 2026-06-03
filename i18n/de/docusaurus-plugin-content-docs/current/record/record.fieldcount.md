@@ -19,12 +19,12 @@ Record.FieldCount(
 
 ## Remarks
 
-Gibt die Anzahl von Feldern im Datensatz "<code>record</code>" zurück.
+Gibt die Anzahl von Feldern im Datensatz "`record`" zurück.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ermittelt die Anzahl von Feldern im Datensatz.
 ```powerquery
 Record.FieldCount([CustomerID = 1, Name = "Bob"])

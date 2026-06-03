@@ -20,13 +20,13 @@ Table.SelectRows(
 
 ## Remarks
 
-選択 <code>condition</code> と一致する行のテーブルを <code>table</code> から返します。
+選択 `condition` と一致する行のテーブルを `table` から返します。
 
 
 ## Examples
 
-### Example #1 
-[CustomerID] 列の値が 2 より大きい行をテーブルで選択します。
+### Example #1
+\[CustomerID\] 列の値が 2 より大きい行をテーブルで選択します。
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({
@@ -48,8 +48,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-名前に &#34;B&#34; が含まれない行をテーブルで選択します。
+### Example #2
+名前に "B" が含まれない行をテーブルで選択します。
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({

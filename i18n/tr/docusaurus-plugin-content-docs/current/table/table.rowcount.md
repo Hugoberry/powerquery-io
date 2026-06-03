@@ -19,12 +19,12 @@ Table.RowCount(
 
 ## Remarks
 
-<code>table</code> içindeki satır sayısını döndürür.
+`table` içindeki satır sayısını döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablodaki satır sayısını bulur.
 ```powerquery
 Table.RowCount(

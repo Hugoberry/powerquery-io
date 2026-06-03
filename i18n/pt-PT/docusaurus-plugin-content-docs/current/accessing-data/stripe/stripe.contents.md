@@ -21,12 +21,12 @@ Stripe.Contents(
 
 ## Remarks
 
-Efetua uma chamada à API do Stripe em https://api.stripe.com/v1/<code>method</code>, com <code>query</code> de registo opcional transmitido como parâmetros adicionais e <code>pageLimit</code> opcional como um limite do número de pedidos da API. Os dados mais recentes são devolvidos em primeiro lugar. Se <code>pageLimit</code> não for especificado, todos os dados são devolvidos. É utilizada a versão do Stripe de 2015-10-16.
+Efetua uma chamada à API do Stripe em https://api.stripe.com/v1/`method`, com `query` de registo opcional transmitido como parâmetros adicionais e `pageLimit` opcional como um limite do número de pedidos da API. Os dados mais recentes são devolvidos em primeiro lugar. Se `pageLimit` não for especificado, todos os dados são devolvidos. É utilizada a versão do Stripe de 2015-10-16.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devolve todos os dados de taxas
 ```powerquery
 Stripe.Contents("taxas")
@@ -38,7 +38,7 @@ Uma tabela com todos os dados de taxas para a conta do Stripe atual
 ```
 
 
-### Example #2 
+### Example #2
 Devolve uma página de dados de taxas
 ```powerquery
 Stripe.Contents("taxas", [], 1)

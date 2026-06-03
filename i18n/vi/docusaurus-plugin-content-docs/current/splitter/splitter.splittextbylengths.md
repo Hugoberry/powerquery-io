@@ -25,7 +25,7 @@ Trả về một hàm tách văn bản thành một danh sách văn bản theo m
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tách dữ liệu đầu vào thành hai kí tự đầu và ba ký tự tiếp theo, kể từ đoạn đầu của dữ liệu đầu vào.
 ```powerquery
 Splitter.SplitTextByLengths({2, 3})("AB123")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Tách dữ liệu đầu vào thành ba kí tự đầu và hai ký tự tiếp theo, kể từ đoạn cuối của dữ liệu đầu vào.
 ```powerquery
 let

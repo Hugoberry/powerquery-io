@@ -22,8 +22,8 @@ SparkPost.GetList(
 
 ## Examples
 
-### Example #1 
-ส่งกลับตารางที่มีคอลัมน์เดียวที่มีข้อมูลจากหนึ่งในจุดสิ้นสุด &#34;รายการ&#34; SparkPost API v1 (โปรดดูคู่มือ SparkPost สำหรับรายละเอียด)
+### Example #1
+ส่งกลับตารางที่มีคอลัมน์เดียวที่มีข้อมูลจากหนึ่งในจุดสิ้นสุด "รายการ" SparkPost API v1 (โปรดดูคู่มือ SparkPost สำหรับรายละเอียด)
 ```powerquery
 Source = SparkPost.GetList("metrics/campaigns")
 ```

@@ -19,7 +19,7 @@ HdInsight.Contents(
 
 ## Remarks
 
-Returnerar en navigeringstabell som innehåller en rad för varje container som påträffats på kontots URL, <code>account</code>, från ett Azure Storage-valv. Varje rad innehåller en länk till containerblobarna.
+Returnerar en navigeringstabell som innehåller en rad för varje container som påträffats på kontots URL, `account`, från ett Azure Storage-valv. Varje rad innehåller en länk till containerblobarna.
 
 
 

@@ -19,7 +19,7 @@ Number.Sinh(
 
 ## Remarks
 
-<code>number</code> का हाइपरबोलिक सिन लौटाता है.
+`number` का हाइपरबोलिक सिन लौटाता है.
 
 
 

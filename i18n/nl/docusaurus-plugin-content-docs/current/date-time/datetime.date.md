@@ -19,12 +19,12 @@ DateTime.Date(
 
 ## Remarks
 
-Retourneert het datumgedeelte van <code>dateTime</code>, de opgegeven waarde voor <code>date</code>, <code>datetime</code> of <code>datetimezone</code>.
+Retourneert het datumonderdeel van de parameter `dateTime` als de parameter een `date`, `datetime` of `datetimezone` waarde is, of `null` als de parameter `null` is.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Datumwaarde zoeken van #datetime(2010, 12, 31, 11, 56, 02).
 ```powerquery
 DateTime.Date(#datetime(2010, 12, 31, 11, 56, 02))

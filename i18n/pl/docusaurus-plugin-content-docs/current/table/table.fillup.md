@@ -20,13 +20,13 @@ Table.FillUp(
 
 ## Remarks
 
-Zwraca tabelę z tabeli określonej w parametrze <code>table</code>, w której wartość następnej komórki jest propagowana do znajdujących się nad nią komórek o wartości null w kolumnie określonej w parametrze <code>columns</code>.
+Zwraca tabelę z tabeli określonej w parametrze `table`, w której wartość następnej komórki jest propagowana do znajdujących się nad nią komórek o wartości null w kolumnie określonej w parametrze `columns`.
 
 
 ## Examples
 
-### Example #1 
-Zwraca tabelę, w której wartości null w kolumnie [Column2] zostały wypełnione wartością znajdującą się pod nimi w tabeli.
+### Example #1
+Zwraca tabelę, w której wartości null w kolumnie \[Column2\] zostały wypełnione wartością znajdującą się pod nimi w tabeli.
 ```powerquery
 Table.FillUp(
     Table.FromRecords({

@@ -22,13 +22,13 @@ Table.AddColumn(
 
 ## Remarks
 
-Føjer en kolonne med navnet <code>newColumnName</code> til tabellen <code>table</code>. Værdierne for kolonnen beregnes ved hjælp af den angivne udvælgelsesfunktion <code>columnGenerator</code>, og alle rækker bruges som input.
+Føjer en kolonne med navnet `newColumnName` til tabellen `table`. Værdierne for kolonnen beregnes ved hjælp af den angivne udvælgelsesfunktion `columnGenerator`, og alle rækker bruges som input.
 
 
 ## Examples
 
-### Example #1 
-Føj en talkolonne med navnet &#34;TotalPrice&#34; til tabellen, hvor hver værdi er summen af kolonnerne [Price] og [Shipping].
+### Example #1
+Føj en talkolonne med navnet "TotalPrice" til tabellen, hvor hver værdi er summen af kolonnerne \[Price\] og \[Shipping\].
 ```powerquery
 Table.AddColumn(
     Table.FromRecords({

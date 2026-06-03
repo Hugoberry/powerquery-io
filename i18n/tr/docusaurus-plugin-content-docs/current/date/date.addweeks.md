@@ -20,13 +20,16 @@ Date.AddWeeks(
 
 ## Remarks
 
-<code>numberOfWeeks</code> haftayı <code>datetime</code> değeri olan <code>dateTime</code> öğesine eklemeden <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> sonucunu döndürür.      <ul>      <li><code>dateTime</code>: Haftaların eklendiği <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      <li><code>numberOfWeeks</code>: Eklenecek hafta sayısı.</li>      </ul>
+`numberOfWeeks` haftayı `datetime` değeri olan `dateTime` öğesine eklemeden `date`, `datetime` veya `datetimezone` sonucunu döndürür.
+
+-   `dateTime`: Haftaların eklendiği `date`, `datetime` veya `datetimezone` değeri.
+-   `numberOfWeeks`: Eklenecek hafta sayısı.
 
 
 ## Examples
 
-### Example #1 
-14/05/2011 tarihini temsil eden &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; veya &lt;code&gt;datetimezone&lt;/code&gt; değerine 2 hafta ekler.
+### Example #1
+14/05/2011 tarihini temsil eden `date`, `datetime` veya `datetimezone` değerine 2 hafta ekler.
 ```powerquery
 Date.AddWeeks(#date(2011, 5, 14), 2)
 ```

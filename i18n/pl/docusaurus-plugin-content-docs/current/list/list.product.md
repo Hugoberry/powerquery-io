@@ -20,13 +20,13 @@ List.Product(
 
 ## Remarks
 
-Zwraca iloczyn liczb innych niż null z listy <code>numbersList</code>. Zwraca wartość null, jeśli na liście nie znajdują się wartości inne niż null.
+Zwraca iloczyn liczb innych niż null z listy `numbersList`. Zwraca wartość null, jeśli na liście nie znajdują się wartości inne niż null.
 
 
 ## Examples
 
-### Example #1 
-Znajdź iloczyn liczb na liście &lt;code&gt;\{1, 2, 3, 3, 4, 5, 5}&lt;/code&gt;.
+### Example #1
+Znajdź iloczyn liczb na liście `{1, 2, 3, 3, 4, 5, 5}`.
 ```powerquery
 List.Product({1, 2, 3, 3, 4, 5, 5})
 ```

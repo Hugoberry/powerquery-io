@@ -20,12 +20,12 @@ Table.TransformRows(
 
 ## Remarks
 
-Tạo một <code>danh sách</code> bằng cách áp dụng phép toán <code>transform</code> cho từng hàng trong <code>table</code>.
+Tạo một `danh sách` bằng cách áp dụng phép toán `transform` cho từng hàng trong `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Chuyển đổi các hàng của bảng thành một danh sách số.
 ```powerquery
 Table.TransformRows(
@@ -46,7 +46,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Chuyển đổi các hàng của bảng số thành hồ sơ dạng văn bản.
 ```powerquery
 Table.TransformRows(

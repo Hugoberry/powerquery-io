@@ -20,13 +20,13 @@ List.Product(
 
 ## Remarks
 
-Gibt das Produkt der Zahlen ungleich null in der Liste "<code>numbersList</code>" zurück. Enthält die Liste keine Werte ungleich null, wird NULL zurückgegeben.
+Gibt das Produkt der Zahlen ungleich null in der Liste "`numbersList`" zurück. Enthält die Liste keine Werte ungleich null, wird NULL zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt das Produkt der Zahlen in der Liste &lt;code&gt;\{1, 2, 3, 3, 4, 5, 5}&lt;/code&gt;.
+### Example #1
+Ermittelt das Produkt der Zahlen in der Liste `{1, 2, 3, 3, 4, 5, 5}`.
 ```powerquery
 List.Product({1, 2, 3, 3, 4, 5, 5})
 ```

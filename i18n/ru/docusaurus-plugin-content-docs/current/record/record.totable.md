@@ -19,12 +19,12 @@ Record.ToTable(
 
 ## Remarks
 
-Возвращает таблицу, содержащую столбцы <code>Name</code> и <code>Value</code> со строкой для каждого поля в <code>record</code>.
+Возвращает таблицу, содержащую столбцы `Name` и `Value` со строкой для каждого поля в `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Возврат таблицы из записи.
 ```powerquery
 Record.ToTable([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

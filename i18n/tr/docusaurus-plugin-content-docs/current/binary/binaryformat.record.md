@@ -19,12 +19,12 @@ BinaryFormat.Record(
 
 ## Remarks
 
-Bir kaydı okuyan ikili biçimi döndürür.  <code>record</code> parametresi, kaydın ikili biçimini belirtir.  Kayıttaki her alan farklı bir ikili biçimine sahip olabilir.  Bir alan ikili biçimi değeri olmayan bir değer içeriyorsa, bu alan için veri okunmaz ve alan değeri sonuca yansıtılır.
+Bir kaydı okuyan ikili biçimi döndürür. `record` parametresi, kaydın ikili biçimini belirtir. Kayıttaki her alan farklı bir ikili biçimine sahip olabilir. Bir alan ikili biçimi değeri olmayan bir değer içeriyorsa, bu alan için veri okunmaz ve alan değeri sonuca yansıtılır.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bir 16 bit tamsayı ve bir 32 bit tamsayı içeren bir kaydı okur.
 ```powerquery
 let

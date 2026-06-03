@@ -19,7 +19,7 @@ Type.Facets(
 
 ## Remarks
 
-<code>type</code> modellerinin bulunduğu bir kayıt döndürür.
+`type` modellerinin bulunduğu bir kayıt döndürür.
 
 
 

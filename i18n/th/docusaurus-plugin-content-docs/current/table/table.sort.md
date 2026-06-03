@@ -20,13 +20,13 @@ Table.Sort(
 
 ## Remarks
 
-เรียงลำดับ <code>table</code> โดยใช้รายการของชื่อคอลัมน์อย่างน้อยหนึ่งชื่อและ <code>comparisonCriteria</code> ที่เลือกได้ในฟอร์ม \{ \{ col1, comparisonCriteria }, \{col2} }
+เรียงลำดับ `table` โดยใช้รายการของชื่อคอลัมน์อย่างน้อยหนึ่งชื่อและ `comparisonCriteria` ที่เลือกได้ในฟอร์ม \{ \{ col1, comparisonCriteria \}, \{col2\} \}
 
 
 ## Examples
 
-### Example #1 
-จัดเรียงตารางตามคอลัมน์ &#34;OrderID&#34;
+### Example #1
+จัดเรียงตารางตามคอลัมน์ "OrderID"
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -60,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-จัดเรียงตารางตามคอลัมน์ &#34;OrderID&#34; โดยเรียงจากมากไปหาน้อย
+### Example #2
+จัดเรียงตารางตามคอลัมน์ "OrderID" โดยเรียงจากมากไปหาน้อย
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -95,8 +95,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-จัดเรียงตารางตามคอลัมน์ &#34;CustomerID&#34; จากนั้น &#34;OrderID&#34; โดยเรียง &#34;CustomerID&#34; จากน้อยไปหามาก
+### Example #3
+จัดเรียงตารางตามคอลัมน์ "CustomerID" จากนั้น "OrderID" โดยเรียง "CustomerID" จากน้อยไปหามาก
 ```powerquery
 Table.Sort(
     Table.FromRecords({

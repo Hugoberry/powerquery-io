@@ -20,13 +20,16 @@ Text.Split(
 
 ## Remarks
 
-Gibt eine Liste mit Textwerten zurück, für die ein Textwert (<code>text</code>) auf der Grundlage des angegebenen Trennzeichens (<code>separator</code>) aufgeteilt wurde.
+Gibt eine Liste mit Textwerten zurück, für die ein Textwert auf der Grundlage des angegebenen Trennzeichens aufgeteilt wurde.
+
+-   `text`: Der zu teilende Textwert.
+-   `separator`: Das Trennzeichen, das zum Teilen des Textes verwendet werden soll. Das Trennzeichen kann entweder ein einzelnes Zeichen oder eine Sequenz von Zeichen sein. Wenn eine Sequenz von Zeichen verwendet wird, wird der Text nur an Instanzen aufgeteilt, in denen die genaue Sequenz auftritt.
 
 
 ## Examples
 
-### Example #1 
-Erstellt eine Liste auf der Grundlage des Textwerts &#34;Name|Address|PhoneNumber&#34; mit dem Trennzeichen &#34;|&#34;.
+### Example #1
+Erstellt eine Liste auf der Grundlage des Textwerts "Name|Address|PhoneNumber" mit dem Trennzeichen "|".
 ```powerquery
 Text.Split("Name|Address|PhoneNumber", "|")
 ```
@@ -37,6 +40,22 @@ Result:
     "Name",
     "Address",
     "PhoneNumber"
+}
+```
+
+
+### Example #2
+Erstellen Sie eine Liste aus dem Textwert mithilfe einer Sequenz von Zeichen.
+```powerquery
+Text.Split("Name, the Customer, the Purchase Date", ", the ")
+```
+
+Result: 
+```powerquery
+{
+    "Name",
+    "Customer",
+    "Purchase Date"
 }
 ```
 

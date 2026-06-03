@@ -20,12 +20,15 @@ Web.BrowserContents(
 
 ## Remarks
 
-Retourneert de HTML voor de opgegeven <code>url</code>, zoals weergegeven door een webbrowser. Er kan een optionele recordparameter, <code>options</code>, worden opgegeven om aanvullende eigenschappen op te geven. De record kan de volgende velden bevatten:     <ul>        <li><code>ApiKeyName</code>: als de doelsite een API-sleutel heeft, kan deze parameter worden gebruikt om de naam (niet de waarde) op te geven van de sleutelparameter die moet worden gebruikt in de URL. De werkelijke sleutelwaarde wordt opgegeven in credential.</li>        <li><code>WaitFor</code>: hiermee geeft u een voorwaarde op waarop moet worden gewacht voordat de HTML wordt gedownload, naast wachten tot de pagina is geladen (wat altijd gebeurt). Kan een record zijn met time-out- en/of selectorvelden. Als er alleen een time-out is opgegeven, wacht de functie de opgegeven tijd voordat de HTML wordt gedownload. Als zowel een Kiezer als een time-out zijn opgegeven en de time-out verstrijkt voordat de Kiezer op de pagina bestaat, wordt er een fout gegenereerd. Als een Kiezer is opgegeven zonder time-out, wordt een standaardtime-out van 30 seconden toegepast.</li>      </ul>    
+Retourneert de HTML voor de opgegeven `url`, zoals weergegeven door een webbrowser. Er kan een optionele recordparameter, `options`, worden opgegeven om aanvullende eigenschappen op te geven. De record kan de volgende velden bevatten:
+
+-   `ApiKeyName`: als de doelsite een API-sleutel heeft, kan deze parameter worden gebruikt om de naam (niet de waarde) op te geven van de sleutelparameter die moet worden gebruikt in de URL. De werkelijke sleutelwaarde wordt opgegeven in de referentie.
+-   `WaitFor`: hiermee geeft u een voorwaarde op waarop moet worden gewacht voordat de HTML wordt gedownload, naast wachten tot de pagina is geladen (wat altijd gebeurt). Kan een record zijn met time-out- en/of selectorvelden. Als er alleen een time-out is opgegeven, wacht de functie de opgegeven tijd voordat de HTML wordt gedownload. Als zowel een selector als een time-out zijn opgegeven en de time-out verstrijkt voordat de selector op de pagina bestaat, wordt er een fout gegenereerd. Als een selector is opgegeven zonder time-out, wordt een standaardtime-out van 30 seconden toegepast.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hiermee wordt de HTML voor https://microsoft.com geretourneerd.
 ```powerquery
 Web.BrowserContents("https://microsoft.com")
@@ -37,10 +40,10 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Hiermee wordt de HTML voor https://microsoft.com geretourneerd nadat is gewacht op het weergeven van een CSS-selector.
 ```powerquery
-Web.BrowserContents("https://microsoft.com", [WaitFor = [Selector = "div:visible"]])
+Web.BrowserContents("https://microsoft.com", [WaitFor = [Selector = "div.ready"]])
 ```
 
 Result: 
@@ -49,7 +52,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Hiermee wordt de HTML voor https://microsoft.com geretourneerd nadat tien seconden is gewacht.
 ```powerquery
 Web.BrowserContents("https://microsoft.com", [WaitFor = [Timeout = #duration(0,0,0,10)]])
@@ -61,10 +64,10 @@ Result:
 ```
 
 
-### Example #4 
+### Example #4
 Hiermee wordt de HTML voor https://microsoft.com geretourneerd nadat maximaal tien seconden is gewacht op het weergeven van een CSS-selector.
 ```powerquery
-Web.BrowserContents("https://microsoft.com", [WaitFor = [Selector = "div:visible", Timeout = #duration(0,0,0,10)]])
+Web.BrowserContents("https://microsoft.com", [WaitFor = [Selector = "div.ready", Timeout = #duration(0,0,0,10)]])
 ```
 
 Result: 
@@ -76,4 +79,4 @@ Result:
 
 
 ## Category
-Toegang tot gegevens
+Accessing data

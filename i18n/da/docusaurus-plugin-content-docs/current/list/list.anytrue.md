@@ -19,13 +19,13 @@ List.AnyTrue(
 
 ## Remarks
 
-Returnerer true, hvis et udtryk på listen <code>list</code> er true.
+Returnerer true, hvis et udtryk på listen `list` er true.
 
 
 ## Examples
 
-### Example #1 
-Find ud af, om et af udtrykkene på listen \{true, false, 2 &gt; 0} er true.
+### Example #1
+Find ud af, om et af udtrykkene på listen \{true, false, 2 > 0\} er true.
 ```powerquery
 List.AnyTrue({true, false, 2>0})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Find ud af, om et af udtrykkene på listen \{2 = 0, false, 2 &lt; 0} er true.
+### Example #2
+Find ud af, om et af udtrykkene på listen \{2 = 0, false, 2 &lt; 0\} er true.
 ```powerquery
 List.AnyTrue({2 = 0, false, 2 < 0})
 ```

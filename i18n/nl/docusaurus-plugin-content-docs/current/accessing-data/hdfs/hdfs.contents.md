@@ -19,7 +19,7 @@ Hdfs.Contents(
 
 ## Remarks
 
-Retourneert een tabel die een rij bevat voor elke map die en elk bestand dat in de map-URL, <code>url</code>, van een Hadoop-bestandssysteem te vinden is. Elke rij bevat eigenschappen van de map of het bestand en een koppeling naar de inhoud.
+Retourneert een tabel die een rij bevat voor elke map die en elk bestand dat in de map-URL, `url`, van een Hadoop-bestandssysteem te vinden is. Elke rij bevat eigenschappen van de map of het bestand en een koppeling naar de inhoud.
 
 
 

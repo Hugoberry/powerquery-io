@@ -20,12 +20,15 @@ Table.LastN(
 
 ## Remarks
 
-<code>table</code> के मान के आधार पर, तालिका, <code>table</code>, की अंतिम पंक्तियाँ लौटाता है:    <ul>    <li> यदि <code>countOrCondition</code> एक संख्या है, तो उतनी ही पंक्तियाँ स्थिति (समाप्ति - <code>countOrCondition</code>) के आरंभ से लौटाई जाएँगी. </li>    <li> यदि <code>countOrCondition</code> एक शर्त है, तो किसी पंक्ति के शर्त पूरा न करने तक, शर्त को पूरा करने वाली पंक्तियों को आरोही स्थिति में लौटाया जाएगा.</li></ul>
+`table` के मान के आधार पर, तालिका, `table`, की अंतिम पंक्तियाँ लौटाता है:
+
+-   यदि `countOrCondition` एक संख्या है, तो उतनी ही पंक्तियाँ स्थिति (समाप्ति - `countOrCondition`) के आरंभ से लौटाई जाएँगी.
+-   यदि `countOrCondition` एक शर्त है, तो किसी पंक्ति के शर्त पूरा न करने तक, शर्त को पूरा करने वाली पंक्तियों को आरोही स्थिति में लौटाया जाएगा.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 तालिका की अंतिम दो पंक्तियाँ ढूँढें.
 ```powerquery
 Table.LastN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-उन अंतिम पंक्तियों को ढूँढें जहाँ तालिका में [a] &gt; 0 है.
+### Example #2
+उन अंतिम पंक्तियों को ढूँढें जहाँ तालिका में \[a\] > 0 है.
 ```powerquery
 Table.LastN(
     Table.FromRecords({

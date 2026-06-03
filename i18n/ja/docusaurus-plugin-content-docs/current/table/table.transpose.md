@@ -25,7 +25,7 @@ Table.Transpose(
 
 ## Examples
 
-### Example #1 
+### Example #1
 名前/値ペアのテーブルの行を列にします。
 ```powerquery
 Table.Transpose(

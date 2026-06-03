@@ -5,7 +5,7 @@ title: Embedded.Value
 # Embedded.Value
 
 
-Får adgang til en værdi efter navn i et integreret miks.
+Denne funktion er kun beregnet til intern brug.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Embedded.Value(
 
 ## Remarks
 
-Får adgang til en værdi efter navn i et integreret miks.
+Denne funktion er kun beregnet til intern brug.
 
 
 

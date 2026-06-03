@@ -20,13 +20,13 @@ Table.SelectRows(
 
 ## Remarks
 
-ส่งกลับตารางแถวจาก <code>table</code> ที่ตรงกับการเลือก <code>condition</code>
+ส่งกลับตารางแถวจาก `table` ที่ตรงกับการเลือก `condition`
 
 
 ## Examples
 
-### Example #1 
-เลือกแถวในตารางซึ่งค่าในคอลัมน์ [CustomerID] มีค่ามากกว่า 2
+### Example #1
+เลือกแถวในตารางซึ่งค่าในคอลัมน์ \[CustomerID\] มีค่ามากกว่า 2
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({
@@ -48,8 +48,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-เลือกแถวในตาราง ซึ่งชื่อไม่ประกอบด้วย &#34;B&#34;
+### Example #2
+เลือกแถวในตาราง ซึ่งชื่อไม่ประกอบด้วย "B"
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({

@@ -21,12 +21,12 @@ Text.PadEnd(
 
 ## Remarks
 
-<code>text</code> metin değerinin sonuna boşluk ekleyerek <code>count</code> uzunluğuna doldurulan bir <code>text</code> değeri döndürür.    Doldurma için kullanılan karakteri belirtmek için isteğe bağlı bir <code>character</code> karakteri kullanılabilir. Varsayılan doldurma karakteri boşluktur.
+`text` metin değerinin sonuna boşluk ekleyerek `count` uzunluğuna doldurulan bir `text` değeri döndürür. Doldurma için kullanılan karakteri belirtmek için isteğe bağlı bir `character` karakteri kullanılabilir. Varsayılan doldurma karakteri boşluktur.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Metin değerinin sonunu, uzunluğu 10 karakter olacak şekilde doldurur.
 ```powerquery
 Text.PadEnd("Name", 10)
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Metin değerinin sonunu, uzunluğu 10 karakter olacak şekilde &#34;|&#34; ile doldurur.
+### Example #2
+Metin değerinin sonunu, uzunluğu 10 karakter olacak şekilde "|" ile doldurur.
 ```powerquery
 Text.PadEnd("Name", 10, "|")
 ```

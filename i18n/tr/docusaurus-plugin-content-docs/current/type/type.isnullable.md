@@ -19,13 +19,13 @@ Type.IsNullable(
 
 ## Remarks
 
-Bir tür <code>nullable</code> tipinde ise <code>true</code> değerini döndürür; aksi takdirde <code>false</code> değerini döndürür.
+Bir tür `nullable` tipinde ise `true` değerini döndürür; aksi takdirde `false` değerini döndürür.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;number&lt;/code&gt; değerinin boş değer atanabilir türde olup olmadığını belirleyin.
+### Example #1
+`number` değerinin boş değer atanabilir türde olup olmadığını belirleyin.
 ```powerquery
 Type.IsNullable(type number)
 ```
@@ -36,8 +36,8 @@ false
 ```
 
 
-### Example #2 
-&lt;code&gt;type nullable number&lt;/code&gt; değerinin boş değer atanabilir türde olup olmadığını belirleyin.
+### Example #2
+`type nullable number` değerinin boş değer atanabilir türde olup olmadığını belirleyin.
 ```powerquery
 Type.IsNullable(type nullable number)
 ```

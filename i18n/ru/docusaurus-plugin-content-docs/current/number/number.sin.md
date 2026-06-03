@@ -19,12 +19,12 @@ Number.Sin(
 
 ## Remarks
 
-Возвращает синус <code>number</code>.
+Возвращает синус `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Найти синус угла 0.
 ```powerquery
 Number.Sin(0)

@@ -21,7 +21,7 @@ Value.Multiply(
 
 ## Remarks
 
-Returnerar produkten från multiplikationen av <code>value1</code> med <code>value2</code>. En valfri <code>precision</code>-parameter kan anges. <code>Precision.Double</code> används som standard.
+Returnerar produkten från multiplikationen av `value1` med `value2`. En valfri `precision`\-parameter kan anges. `Precision.Double` används som standard.
 
 
 

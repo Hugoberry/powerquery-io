@@ -25,7 +25,7 @@ Bir metin listesine belirtilen her uzunlukta metin ayıran bir işlev döndürü
 
 ## Examples
 
-### Example #1 
+### Example #1
 Girişi, girişin başlangıcından başlayarak ilk iki karaktere ve ardından sonraki üç karaktere bölün.
 ```powerquery
 Splitter.SplitTextByLengths({2, 3})("AB123")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Girişin sonundan başlayarak girişi ilk üç karaktere ve ardından sonraki iki karaktere bölün.
 ```powerquery
 let

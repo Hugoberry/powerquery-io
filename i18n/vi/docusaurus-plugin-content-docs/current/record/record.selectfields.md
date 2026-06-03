@@ -21,13 +21,13 @@ Record.SelectFields(
 
 ## Remarks
 
-Trả về một bản ghi chỉ bao gồm các trường được chỉ định trong danh sách <code>fields</code> từ đầu vào <code>record</code>.
+Trả về một bản ghi chỉ bao gồm các trường được chỉ định trong danh sách `fields` từ đầu vào `record`.
 
 
 ## Examples
 
-### Example #1 
-Chọn các trường &#34;Mục&#34; và &#34;Giá&#34; trong bản ghi.
+### Example #1
+Chọn các trường "Mục" và "Giá" trong bản ghi.
 ```powerquery
 Record.SelectFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0],

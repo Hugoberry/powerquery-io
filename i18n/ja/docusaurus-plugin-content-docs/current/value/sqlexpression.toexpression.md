@@ -20,7 +20,7 @@ SqlExpression.ToExpression(
 
 ## Remarks
 
-<code>environment</code> で定義された利用可能な識別子を使用して、<code>sql</code> クエリを M コードに変換します。この関数は、内部での使用のみを想定しています。
+`environment` で定義された利用可能な識別子を使用して、`sql` クエリを M コードに変換します。この関数は、内部での使用のみを想定しています。
 
 
 

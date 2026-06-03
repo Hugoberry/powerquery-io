@@ -5,7 +5,7 @@ title: List.Last
 # List.Last
 
 
-Restituisce l&#39;ultimo valore dell&#39;elenco o, se vuoto, il valore predefinito specificato.
+Restituisce l'ultimo valore dell'elenco o, se vuoto, il valore predefinito specificato.
 
 
 ## Syntax
@@ -20,13 +20,16 @@ List.Last(
 
 ## Remarks
 
-Restituisce l'ultimo elemento dell'elenco <code>list</code> o il valore predefinito facoltativo <code>defaultValue</code>, se l'elenco è vuoto.    Se l'elenco è vuoto e un valore predefinito non è specificato, la funzione restituisce <code>null</code>.
+Restituisce l'ultimo elemento nell'elenco specificato o il valore predefinito facoltativo se l'elenco è vuoto.
+
+-   `list`: elenco da esaminare.
+-   `defaultValue`: (Facoltativo) valore da restituire se l'elenco è vuoto. Se l'elenco è vuoto e non viene specificato un valore predefinito, la funzione restituisce `null`.
 
 
 ## Examples
 
-### Example #1 
-Trovare l&#39;ultimo valore dell&#39;elenco \{1, 2, 3}.
+### Example #1
+Trovare l'ultimo valore dell'elenco \{1, 2, 3\}.
 ```powerquery
 List.Last({1, 2, 3})
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Trovare l&#39;ultimo valore dell&#39;elenco \{} o -1 se è vuoto.
+### Example #2
+Trovare l'ultimo valore dell'elenco \{\} o -1 se è vuoto.
 ```powerquery
 List.Last({}, -1)
 ```

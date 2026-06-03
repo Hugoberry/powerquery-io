@@ -20,12 +20,15 @@ Number.Power(
 
 ## Remarks
 
-Gibt das Ergebnis der Potenzierung von "<code>number</code>" mit "<code>power</code>" zurück.    Ist <code>number</code> oder <code>power</code> NULL, gibt <code>Number.Power</code> NULL zurück.      <ul>        <li><code>number</code>: Die Basis.</li>        <li><code>power</code>: Der Exponent.</li>      </ul>
+Gibt das Ergebnis der Potenzierung von "`number`" mit "`power`" zurück. Ist `number` oder `power` NULL, gibt `Number.Power` NULL zurück.
+
+-   `number`: Die Basis.
+-   `power`: Der Exponent.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ermittelt den Wert von 5 hoch 3 (5 zum Kubik).
 ```powerquery
 Number.Power(5, 3)

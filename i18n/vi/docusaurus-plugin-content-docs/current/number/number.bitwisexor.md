@@ -5,7 +5,7 @@ title: Number.BitwiseXor
 # Number.BitwiseXor
 
 
-Trả về kết quả thực hiện &#34;XOR&#34; (Exclusive-OR) theo bit giữa hai đầu vào.
+Trả về kết quả thực hiện "XOR" (Exclusive-OR) theo bit giữa hai đầu vào.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Number.BitwiseXor(
 
 ## Remarks
 
-Trả về kết quả thực hiện "XOR" (Exclusive-OR) theo bit giữa <code>number1</code> và <code>number2</code>.
+Trả về kết quả thực hiện "XOR" (Exclusive-OR) theo bit giữa `number1` và `number2`.
 
 
 

@@ -19,7 +19,7 @@ Exchange.Contents(
 
 ## Remarks
 
-Gibt eine Tabelle der Inhalte aus einem Microsoft Exchange-Konto '<code>mailboxAddress</code>' zurück. Wenn '<code>mailboxAddress</code>' nicht angegeben ist, wird das Standardkonto für die Anmeldeinformationen verwendet.
+Gibt eine Tabelle der Inhalte aus einem Microsoft Exchange-Konto '`mailboxAddress`' zurück. Wenn '`mailboxAddress`' nicht angegeben ist, wird das Standardkonto für die Anmeldeinformationen verwendet.
 
 
 

@@ -19,7 +19,7 @@ Cube.Measures(
 
 ## Remarks
 
-Zwraca tabelę zawierającą zestaw miar dostępnych w module <code>cube</code>.    Każda miara jest przedstawiona w postaci funkcji. Miary można stosować do modułu, używając funkcji Cube.AddMeasureColumn.
+Zwraca tabelę zawierającą zestaw miar dostępnych w module `cube`. Każda miara jest przedstawiona w postaci funkcji. Miary można stosować do modułu, używając funkcji Cube.AddMeasureColumn.
 
 
 

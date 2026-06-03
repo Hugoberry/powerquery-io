@@ -25,7 +25,7 @@ Replaces the keys of the specified table.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Replace the existing keys of a table.
 ```powerquery
 let

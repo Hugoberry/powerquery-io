@@ -20,13 +20,16 @@ Number.Combinations(
 
 ## Remarks
 
-Retourne le nombre de combinaisons uniques à partir d'une liste d'éléments, <code>setSize</code> avec la taille de combinaison spécifiée, <code>combinationSize</code>.<ul>    <li><code>setSize</code> : nombre d'éléments dans la liste.</li>    <li><code>combinationSize</code> : nombre d'éléments dans chaque combinaison.</li></ul>
+Retourne le nombre de combinaisons uniques à partir d'une liste d'éléments, `setSize` avec la taille de combinaison spécifiée, `combinationSize`.
+
+-   `setSize` : nombre d'éléments dans la liste.
+-   `combinationSize` : nombre d'éléments dans chaque combinaison.
 
 
 ## Examples
 
-### Example #1 
-Recherche le nombre de combinaisons d&#39;un total de 5 éléments lorsque chaque combinaison est un groupe de 3.
+### Example #1
+Recherche le nombre de combinaisons d'un total de 5 éléments lorsque chaque combinaison est un groupe de 3.
 ```powerquery
 Number.Combinations(5, 3)
 ```

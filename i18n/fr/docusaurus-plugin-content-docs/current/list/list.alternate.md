@@ -22,13 +22,17 @@ List.Alternate(
 
 ## Remarks
 
-Retourne une liste composée tous les éléments de décalage impairs dans une liste. Prend et ignore les valeurs de la liste <code>list</code> en fonction des paramètres.    <ul>    <li><code>count</code> : spécifie le nombre de valeurs qui sont ignorées chaque fois.</li>    <li><code>repeatInterval</code> : intervalle de répétition facultatif qui indique combien de valeurs sont ajoutées entre les valeurs ignorées.</li>    <li><code>offset</code> : paramètre de décalage facultatif qui commence à ignorer les valeurs au niveau du décalage initial.</li>    </ul>
+Retourne une liste composée tous les éléments de décalage impairs dans une liste. Prend et ignore les valeurs de la liste `list` en fonction des paramètres.
+
+-   `count` : spécifie le nombre de valeurs qui sont ignorées chaque fois.
+-   `repeatInterval` : intervalle de répétition facultatif qui indique combien de valeurs sont ajoutées entre les valeurs ignorées.
+-   `offset` : paramètre de décalage facultatif qui commence à ignorer les valeurs au niveau du décalage initial.
 
 
 ## Examples
 
-### Example #1 
-Crée une liste depuis \{1..10} qui ignore le premier nombre.
+### Example #1
+Crée une liste depuis \{1..10\} qui ignore le premier nombre.
 ```powerquery
 List.Alternate({1..10}, 1)
 ```
@@ -39,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-Crée une liste depuis \{1..10} qui ignore un nombre sur deux.
+### Example #2
+Crée une liste depuis \{1..10\} qui ignore un nombre sur deux.
 ```powerquery
 List.Alternate({1..10}, 1, 1)
 ```
@@ -51,8 +55,8 @@ Result:
 ```
 
 
-### Example #3 
-Crée une liste depuis \{1..10} qui démarre à 1 et ignore un nombre sur deux.
+### Example #3
+Crée une liste depuis \{1..10\} qui démarre à 1 et ignore un nombre sur deux.
 ```powerquery
 List.Alternate({1..10}, 1, 1, 1)
 ```
@@ -63,8 +67,8 @@ Result:
 ```
 
 
-### Example #4 
-Crée une liste depuis \{1..10} qui démarre à 1, ignore une valeur, conserve deux valeurs, et ainsi de suite.
+### Example #4
+Crée une liste depuis \{1..10\} qui démarre à 1, ignore une valeur, conserve deux valeurs, et ainsi de suite.
 ```powerquery
 List.Alternate({1..10}, 1, 2, 1)
 ```

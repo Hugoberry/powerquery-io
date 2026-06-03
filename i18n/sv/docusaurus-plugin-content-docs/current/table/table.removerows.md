@@ -21,12 +21,12 @@ Table.RemoveRows(
 
 ## Remarks
 
-Tar bort <code>count</code> rader från början av <code>table</code>, med början vid angiven <code>offset</code>. Standardantalet 1 används om parametern <code>count</code> inte anges. 
+Tar bort `count` rader från början av `table`, med början vid angiven `offset`. Standardantalet 1 används om parametern `count` inte anges.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ta bort den första raden från tabellen.
 ```powerquery
 Table.RemoveRows(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Ta bort raden vid position 1 från tabellen.
 ```powerquery
 Table.RemoveRows(
@@ -74,7 +74,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Ta bort två rader med början vid position 1 från tabellen.
 ```powerquery
 Table.RemoveRows(

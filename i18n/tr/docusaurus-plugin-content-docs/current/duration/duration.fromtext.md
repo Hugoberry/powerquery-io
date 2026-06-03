@@ -19,13 +19,24 @@ Duration.FromText(
 
 ## Remarks
 
-Belirtilen metinden (<code>text</code>) bir süre değeri döndürür. Şu biçimler bu işlev tarafından ayrıştırılabilir: <ul>        <li>(-)hh:mm(:ss(.ff)) </li>        <li>(-)ddd(.hh:mm(:ss(.ff))) </li> </ul>        <br />        (Tüm aralıklar dahildir)<br />        ddd: Gün sayısı.<br />        hh: 0 ila 23 arasında saat sayısı.<br />        mm: 0 ila 59 arasında dakika sayısı.<br />        ss: 0 ila 59 arasında saniye sayısı.<br />        ff: 0 ila 9999999 arasında kesirli saniye sayısı.
+Belirtilen metinden (`text`) bir süre değeri döndürür. Şu biçimler bu işlev tarafından ayrıştırılabilir:
+
+-   (-)hh:mm(:ss(.ff))
+-   (-)ddd(.hh:mm(:ss(.ff)))
+
+(Tüm aralıklar dahildir)
+
+-   ddd: Gün sayısı.
+-   hh: 0 ila 23 arasında saat sayısı.
+-   mm: 0 ila 59 arasında dakika sayısı.
+-   ss: 0 ila 59 arasında saniye sayısı.
+-   ff: 0 ila 9999999 arasında kesirli saniye sayısı.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;&#34;2.05:55:20&#34;&lt;/code&gt; değerini bir &lt;code&gt;duration&lt;/code&gt; değerine dönüştürür.
+### Example #1
+`"2.05:55:20"` değerini bir `duration` değerine dönüştürür.
 ```powerquery
 Duration.FromText("2.05:55:20")
 ```

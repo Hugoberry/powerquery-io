@@ -19,13 +19,13 @@ Time.Hour(
 
 ## Remarks
 
-Gibt die Stundenkomponente des angegebenen <code>time</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Werts "<code>dateTime</code>" zurück.
+Gibt die Stundenkomponente des angegebenen `time`\-, `datetime`\- oder `datetimezone`\-Werts "`dateTime`" zurück.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt die Stunde in &#34;#datetime(2011, 12, 31, 9, 15, 36)&#34;.
+### Example #1
+Ermittelt die Stunde in "#datetime(2011, 12, 31, 9, 15, 36)".
 ```powerquery
 Time.Hour(#datetime(2011, 12, 31, 9, 15, 36))
 ```

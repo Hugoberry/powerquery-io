@@ -21,13 +21,13 @@ Table.ReplaceMatchingRows(
 
 ## Remarks
 
-<code>table</code> の指定されたすべての行を指定された行に置き換えます。置き換え前の行と置き換え後の行は、\{old, new} という形式を使用して <code>replacements</code> で指定されます。    省略可能な <code>equationCriteria</code> パラメーターを指定すると、テーブルの行と行の比較を制御できます。
+`table` の指定されたすべての行を指定された行に置き換えます。置き換え前の行と置き換え後の行は、\{old, new\} という形式を使用して `replacements` で指定されます。 省略可能な `equationCriteria` パラメーターを指定すると、テーブルの行と行の比較を制御できます。
 
 
 ## Examples
 
-### Example #1 
-テーブルの行 [a = 1, b = 2] と [a = 2, b = 3] を、[a = -1, b = -2] と [a = -2, b = -3] に置き換えます。
+### Example #1
+テーブルの行 \[a = 1, b = 2\] と \[a = 2, b = 3\] を、\[a = -1, b = -2\] と \[a = -2, b = -3\] に置き換えます。
 ```powerquery
 Table.ReplaceMatchingRows(
     Table.FromRecords({

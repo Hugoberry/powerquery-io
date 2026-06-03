@@ -24,7 +24,7 @@ MailChimp.TablesV2(
 
 ## Examples
 
-### Example #1 
+### Example #1
 คืนค่าตารางพร้อมข้อมูล MailChimp ที่สำคัญ
 ```powerquery
 MailChimp.Tables()

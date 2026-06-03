@@ -20,12 +20,16 @@ Table.RemoveFirstN(
 
 ## Remarks
 
-<code>table</code> tablosunun ilk belirtilen sayıda, <code>countOrCondition</code>, satırı içermeyen bir tablo döndürür.    Kaldırılan satır sayısı <code>countOrCondition</code> isteğe bağlı parametresine bağlıdır.    <ul>    <li> <code>countOrCondition</code> dahil edilmezse, yalnızca ilk satır kaldırılır. </li>    <li> <code>countOrCondition</code> bir sayı ise bu sayıda satır (üstten başlayarak) kaldırılır. </li>    <li> <code>countOrCondition</code> bir koşul ise koşulu sağlayan satırlar, herhangi bir satır koşulu sağlamayana kadar kaldırılır.</li>    </ul>
+`table` tablosunun ilk belirtilen sayıda, `countOrCondition`, satırı içermeyen bir tablo döndürür. Kaldırılan satır sayısı `countOrCondition` isteğe bağlı parametresine bağlıdır.
+
+-   `countOrCondition` dahil edilmezse, yalnızca ilk satır kaldırılır.
+-   `countOrCondition` bir sayı ise bu sayıda satır (üstten başlayarak) kaldırılır.
+-   `countOrCondition` bir koşul ise koşulu sağlayan satırlar, herhangi bir satır koşulu sağlamayana kadar kaldırılır.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablonun ilk satırını kaldırır.
 ```powerquery
 Table.RemoveFirstN(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Tablonun ilk iki satırını kaldırır.
 ```powerquery
 Table.RemoveFirstN(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Tabloda [CustomerID] &lt;=2 koşulunu sağlayan ilk satırları kaldırır.
+### Example #3
+Tabloda \[CustomerID\] &lt;=2 koşulunu sağlayan ilk satırları kaldırır.
 ```powerquery
 Table.RemoveFirstN(
     Table.FromRecords({

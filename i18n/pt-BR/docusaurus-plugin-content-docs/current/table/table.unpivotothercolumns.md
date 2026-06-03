@@ -27,7 +27,7 @@ Converte todas as colunas que não sejam um conjunto especificado em pares de at
 
 ## Examples
 
-### Example #1 
+### Example #1
 Converte todas as colunas que não sejam um conjunto especificado em pares de atributo/valor, combinados com o restante dos valores em cada linha.
 ```powerquery
 Table.UnpivotOtherColumns(

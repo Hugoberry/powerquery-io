@@ -21,13 +21,13 @@ Marketo.Activities(
 
 ## Remarks
 
-Efetua uma chamada ao ponto final da API REST do Marketo em <code>URL</code>/rest/v1/activities.json. Todas as atividades na lista <code>activityIds</code> que ocorreram desde <code>startTime</code> foram devolvidas.
+Efetua uma chamada ao ponto final da API REST do Marketo em `URL`/rest/v1/activities.json. Todas as atividades na lista `activityIds` que ocorreram desde `startTime` foram devolvidas.
 
 
 ## Examples
 
-### Example #1 
-Solicita uma tabela das atividades &#34;Visitar Página Web&#34; desde 1 de novembro de 2015
+### Example #1
+Solicita uma tabela das atividades "Visitar Página Web" desde 1 de novembro de 2015
 ```powerquery
 Marketo.Activities("https://100-AAA-999.mktorest.com/rest", #date(2015,11,1), {1})
 ```

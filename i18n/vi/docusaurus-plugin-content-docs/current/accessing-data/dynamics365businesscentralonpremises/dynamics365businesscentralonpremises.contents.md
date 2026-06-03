@@ -20,6 +20,6 @@ Dynamics365BusinessCentralOnPremises.Contents(
 
 ## Remarks
 
-Trả về bảng có dữ liệu liên quan về Dynamics 365 Business Central (bản tại chỗ). 
+Trả về bảng có dữ liệu liên quan về Dynamics 365 Business Central (bản tại chỗ).
 
 

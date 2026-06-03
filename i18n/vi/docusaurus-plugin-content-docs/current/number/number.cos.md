@@ -19,12 +19,14 @@ Number.Cos(
 
 ## Remarks
 
-Trả về cosine của <code>number</code>.
+Trả về cosin của góc được chỉ định.
+
+-   `number`: Một góc, được đo bằng radian.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trả về cosin của góc 0.
 ```powerquery
 Number.Cos(0)
@@ -33,6 +35,18 @@ Number.Cos(0)
 Result: 
 ```powerquery
 1
+```
+
+
+### Example #2
+Tìm cosin của π radian.
+```powerquery
+Number.Cos(Number.PI)
+```
+
+Result: 
+```powerquery
+-1
 ```
 
 

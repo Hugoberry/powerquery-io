@@ -21,7 +21,7 @@ Value.Equals(
 
 ## Remarks
 
-Trả về true nếu giá trị <code>value1</code> bằng giá trị <code>value2</code>, false nếu ngược lại.
+Trả về true nếu giá trị `value1` bằng giá trị `value2`, false nếu ngược lại.
 
 
 

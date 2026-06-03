@@ -19,7 +19,7 @@ Cube.DisplayFolders(
 
 ## Remarks
 
-<code>cube</code> içinde kullanılabilen nesnelerin (örneğin, boyutlar ve ölçüler) görünen klasör hiyerarşisini temsil eden iç içe tablolar ağacı döndürür.
+`cube` içinde kullanılabilen nesnelerin (örneğin, boyutlar ve ölçüler) görünen klasör hiyerarşisini temsil eden iç içe tablolar ağacı döndürür.
 
 
 

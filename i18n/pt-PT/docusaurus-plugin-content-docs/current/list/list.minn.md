@@ -22,13 +22,17 @@ List.MinN(
 
 ## Remarks
 
-Devolve o(s) valor(es) mínimo(s) existente(s) na lista, <code>list</code>.    O parâmetro, <code>countOrCondition</code>, especifica o número de valores a devolver ou uma condição de filtragem. O parâmetro opcional, <code>comparisonCriteria</code>, especifica como os valores existentes na lista devem ser comparados. <ul>        <li> <code>list</code>: a lista de valores.</li>        <li> <code>countOrCondition</code>: Se for especificado um número, é devolvida uma lista com um máximo de <code>countOrCondition</code> itens por ordem ascendente. Se for especificada uma condição, é devolvida uma lista dos itens que satisfaçam a condição inicial. Quando um item não satisfizer a condição, não serão considerados mais itens. Se este parâmetro for nulo, será devolvido o único menor valor existente na lista.</li><li><code>comparisonCriteria</code>: <i>[Opcional]</i> Um valor opcional<code>comparisonCriteria</code> pode ser especificado para determinar como comparar itens na lista. Se este parâmetro for nulo, será utilizado o comparador predefinido.</li></ul>
+Devolve o(s) valor(es) mínimo(s) na lista, `list`. O parâmetro `countOrCondition` especifica o número de valores a devolver ou uma condição de filtragem. O parâmetro opcional `comparisonCriteria` especifica como comparar valores na lista.
+
+-   `list`: a lista de valores.
+-   `countOrCondition`: se for especificado um número, é devolvida uma lista de até `countOrCondition` itens por ordem ascendente. Se for especificada uma condição, é devolvida uma lista de itens que cumprem inicialmente a condição. Assim que um item falhar a condição, não são considerados mais itens. Se este parâmetro for null, é devolvido o único valor mais pequeno da lista.
+-   `comparisonCriteria`: *(opcional)* pode ser especificado um valor `comparisonCriteria` opcional para determinar como comparar os itens na lista. Se este parâmetro for null, é utilizado o comparador predefinido.
 
 
 ## Examples
 
-### Example #1 
-Determinar os 5 valores menores na lista &lt;code&gt;\{3, 4, 5, -1, 7, 8, 2}&lt;/code&gt;.
+### Example #1
+Determinar os 5 valores menores na lista `{3, 4, 5, -1, 7, 8, 2}`.
 ```powerquery
 List.MinN({3, 4, 5, -1, 7, 8, 2}, 5)
 ```

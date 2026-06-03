@@ -22,12 +22,12 @@ Record.AddField(
 
 ## Remarks
 
-指定欄位的名稱 <code>fieldName</code> 和值 <code>value</code>，在記錄 <code>record</code> 中加入欄位。
+指定欄位的名稱 `fieldName` 和值 `value`，在記錄 `record` 中加入欄位。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 將 Address 欄位新增至記錄中。
 ```powerquery
 Record.AddField([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "Address", "123 Main St.")

@@ -19,7 +19,7 @@ Value.Optimize(
 
 ## Remarks
 
-Khi được sử dụng trong Value.Expression, nếu <code>value</code> đại diện cho truy vấn có thể được tối ưu hóa thì hàm này cho biết biểu thức được tối ưu hóa sẽ được trả về. Nếu không, <code>value</code> sẽ được truyền qua mà không có hiệu ứng nào.
+Khi được sử dụng trong Value.Expression, nếu `value` đại diện cho truy vấn có thể được tối ưu hóa thì hàm này cho biết biểu thức được tối ưu hóa sẽ được trả về. Nếu không, `value` sẽ được truyền qua mà không có hiệu ứng nào.
 
 
 

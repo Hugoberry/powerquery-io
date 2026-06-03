@@ -20,12 +20,12 @@ Table.Repeat(
 
 ## Remarks
 
-傳回資料表，其中來自輸入 <code>table</code> 的資料列會重複指定 <code>count</code> 次。
+傳回資料表，其中來自輸入 `table` 的資料列會重複指定 `count` 次。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 將資料表中的資料列重複兩次。
 ```powerquery
 Table.Repeat(

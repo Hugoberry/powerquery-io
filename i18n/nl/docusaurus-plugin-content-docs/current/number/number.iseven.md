@@ -19,12 +19,12 @@ Number.IsEven(
 
 ## Remarks
 
-Geeft aan of de waarde <code>number</code> een even getal is door <code>true</code> te retourneren bij een even getal en <code>false</code> als de waarde geen even getal is.
+Geeft aan of de waarde `number` een even getal is door `true` te retourneren bij een even getal en `false` als de waarde geen even getal is.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Controleren of 625 een even getal is.
 ```powerquery
 Number.IsEven(625)
@@ -36,7 +36,7 @@ false
 ```
 
 
-### Example #2 
+### Example #2
 Controleren of 82 een even getal is.
 ```powerquery
 Number.IsEven(82)

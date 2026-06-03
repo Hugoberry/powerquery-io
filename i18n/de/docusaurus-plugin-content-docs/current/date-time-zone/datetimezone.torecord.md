@@ -19,13 +19,15 @@ DateTimeZone.ToRecord(
 
 ## Remarks
 
-Gibt einen Datensatz mit den Teilen des angegebenen datetimezone-Werts (<code>dateTimeZone</code>) zurück. <ul>        <li><code>dateTimeZone</code>: Ein <code>datetimezone</code>-Wert, auf dessen Grundlage der Datensatz mit den zugehörigen Teilen berechnet werden soll.</li>      </ul>
+Gibt einen Datensatz mit den Teilen des angegebenen datetimezone-Werts (`dateTimeZone`) zurück.
+
+-   `dateTimeZone`: Ein `datetimezone`\-Wert, auf dessen Grundlage der Datensatz mit den zugehörigen Teilen berechnet werden soll.
 
 
 ## Examples
 
-### Example #1 
-Konvertiert den Wert &lt;code&gt;#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)&lt;/code&gt; in einen Datensatz mit Datums-, Uhrzeit- und Zeitzonenwerten.
+### Example #1
+Konvertiert den Wert `#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)` in einen Datensatz mit Datums-, Uhrzeit- und Zeitzonenwerten.
 ```powerquery
 DateTimeZone.ToRecord(#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0))
 ```

@@ -25,7 +25,7 @@ Returnerar en tabell med bara de rader i indatatabellen som innehåller ett fel 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Markera namnen på kunder med fel i sina rader.
 ```powerquery
 Table.SelectRowsWithErrors(

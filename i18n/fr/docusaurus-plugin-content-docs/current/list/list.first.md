@@ -5,7 +5,7 @@ title: List.First
 # List.First
 
 
-Retourne la première valeur dans la liste ou la valeur par défaut spécifiée si l&#39;objet est vide.
+Retourne la première valeur dans la liste ou la valeur par défaut spécifiée si l'objet est vide.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ List.First(
 
 ## Remarks
 
-Retourne le premier élément dans la liste <code>list</code>, ou la valeur par défaut facultative <code>defaultValue</code>, si la liste est vide.    Si la liste est vide et une valeur par défaut n'est pas spécifiée, la fonction retourne <code>null</code>.
+Retourne le premier élément dans la liste `list`, ou la valeur par défaut facultative `defaultValue`, si la liste est vide. Si la liste est vide et une valeur par défaut n'est pas spécifiée, la fonction retourne `null`.
 
 
 ## Examples
 
-### Example #1 
-Recherche la première valeur dans la liste \{1, 2, 3}.
+### Example #1
+Recherche la première valeur dans la liste \{1, 2, 3\}.
 ```powerquery
 List.First({1, 2, 3})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Recherche la première valeur dans la liste \{}. Si la liste est vide, retourne -1.
+### Example #2
+Recherche la première valeur dans la liste \{\}. Si la liste est vide, retourne -1.
 ```powerquery
 List.First({}, -1)
 ```

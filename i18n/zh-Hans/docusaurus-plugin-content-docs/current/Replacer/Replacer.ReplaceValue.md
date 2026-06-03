@@ -21,12 +21,12 @@ Replacer.ReplaceValue(
 
 ## Remarks
 
-使用 <code>new</code> 值替换原始 <code>value</code> 中的 <code>old</code> 值。可以在 <code>List.ReplaceValue</code> 和 <code>Table.ReplaceValue</code> 中使用此替换器函数。
+使用 `new` 值替换原始 `value` 中的 `old` 值。可以在 `List.ReplaceValue` 和 `Table.ReplaceValue` 中使用此替换器函数。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 使用值 10 替换值 11。
 ```powerquery
 Replacer.ReplaceValue(11, 11, 10)

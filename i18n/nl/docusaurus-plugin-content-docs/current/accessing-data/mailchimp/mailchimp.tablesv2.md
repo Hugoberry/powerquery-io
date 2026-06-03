@@ -24,7 +24,7 @@ Hiermee wordt een tabel met belangrijke MailChimp-gegevens geretourneerd.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hiermee wordt een tabel met belangrijke MailChimp-gegevens geretourneerd.
 ```powerquery
 MailChimp.Tables()

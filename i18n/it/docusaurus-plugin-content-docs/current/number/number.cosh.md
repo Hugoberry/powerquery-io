@@ -19,7 +19,7 @@ Number.Cosh(
 
 ## Remarks
 
-Restituisce il coseno iperbolico di <code>number</code>.
+Restituisce il coseno iperbolico di `number`.
 
 
 

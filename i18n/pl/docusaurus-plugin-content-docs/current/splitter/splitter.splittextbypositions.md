@@ -25,7 +25,7 @@ Zwraca funkcję dzielącą tekst na listę wartości tekstowych przy użyciu okr
 
 ## Examples
 
-### Example #1 
+### Example #1
 Podziel dane wejściowe w określonych położeniach, zaczynając od początku danych wejściowych.
 ```powerquery
 Splitter.SplitTextByPositions({0, 3, 4})("ABC|12345")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Podziel dane wejściowe w określonych położeniach, zaczynając od końca danych wejściowych.
 ```powerquery
 let

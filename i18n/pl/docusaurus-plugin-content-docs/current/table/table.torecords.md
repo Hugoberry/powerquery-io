@@ -19,12 +19,12 @@ Table.ToRecords(
 
 ## Remarks
 
-Konwertuje tabelę <code>table</code> na listę rekordów.
+Konwertuje tabelę `table` na listę rekordów.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Przekonwertuj tabelę na listę rekordów.
 ```powerquery
 Table.ToRecords(

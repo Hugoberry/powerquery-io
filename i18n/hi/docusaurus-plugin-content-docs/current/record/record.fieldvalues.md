@@ -19,12 +19,12 @@ Record.FieldValues(
 
 ## Remarks
 
-रिकॉर्ड <code>record</code> के फ़ील्ड मान की सूची लौटाता है.
+रिकॉर्ड `record` के फ़ील्ड मान की सूची लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 रिकॉर्ड में फ़ील्ड मान ढूँढें.
 ```powerquery
 Record.FieldValues([CustomerID = 1, Name = "Bob", Phone = "123-4567"])

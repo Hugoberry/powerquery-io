@@ -20,7 +20,7 @@ Cube.Transform(
 
 ## Remarks
 
-Tillämpar en lista med kubfunktioner (<code>transforms</code>) på <code>cube</code>.
+Tillämpar en lista med kubfunktioner (`transforms`) på `cube`.
 
 
 

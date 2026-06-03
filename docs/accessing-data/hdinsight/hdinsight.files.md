@@ -20,7 +20,7 @@ HdInsight.Files(
 
 ## Remarks
 
-Returns a table containing a row for each blob file found at the container URL, <code>account</code>, from an Azure storage vault. Each row contains properties of the file and a link to its content.
+Returns a table containing a row for each blob file found at the container URL, `account`, from an Azure storage vault. Each row contains properties of the file and a link to its content.
 
 
 

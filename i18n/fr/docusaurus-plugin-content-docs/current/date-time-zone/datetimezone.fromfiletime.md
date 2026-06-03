@@ -5,7 +5,7 @@ title: DateTimeZone.FromFileTime
 # DateTimeZone.FromFileTime
 
 
-Crée un datetimezone à partir d&#39;un nombre long 64 bits.
+Crée un datetimezone à partir d'un nombre long 64 bits.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ DateTimeZone.FromFileTime(
 
 ## Remarks
 
-Crée une valeur <code>datetimezone</code> à partir de la valeur <code>fileTime</code> et la convertit en fuseau horaire local. Le filetime est une valeur de date/heure de fichier Windows qui représente le nombre d'intervalles de 100 nanosecondes écoulés depuis la date UTC du 1er janvier 1601 à 00:00.    
+Crée une valeur `datetimezone` à partir de la valeur `fileTime` et la convertit en fuseau horaire local. Le filetime est une valeur de date/heure de fichier Windows qui représente le nombre d'intervalles de 100 nanosecondes écoulés depuis la date UTC du 1er janvier 1601 à 00:00.
 
 
 ## Examples
 
-### Example #1 
-Convertit &lt;code&gt;129876402529842245&lt;/code&gt; dans une valeur datetimezone.
+### Example #1
+Convertit `129876402529842245` dans une valeur datetimezone.
 ```powerquery
 DateTimeZone.FromFileTime(129876402529842245)
 ```

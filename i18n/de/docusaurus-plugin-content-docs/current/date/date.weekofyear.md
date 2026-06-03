@@ -20,12 +20,15 @@ Date.WeekOfYear(
 
 ## Remarks
 
-Gibt eine Zahl zwischen 1 und 54 zurück, die angibt, in welche Woche des Jahres das Datum <code>dateTime</code> fällt. <ul>        <li><code>dateTime</code>: Ein <code>datetime</code>-Wert, für den die Woche des Jahres ermittelt wird.</li>        <li><code>firstDayOfWeek</code>: Ein optionaler <code>Day.Type</code>-Wert, der angibt, welcher Tag als Beginn einer neuen Woche gilt (z. B. <code>"Day.Sunday"</code>). Falls dieser Wert nicht angegeben wird, wird der kulturspezifische Standardwert verwendet.</li>      </ul>
+Gibt eine Zahl zwischen 1 und 54 zurück, die angibt, in welche Woche des Jahres das Datum `dateTime` fällt.
+
+-   `dateTime`: Ein `datetime`\-Wert, für den die Woche des Jahres ermittelt wird.
+-   `firstDayOfWeek`: Ein optionaler `Day.Type`\-Wert, der angibt, welcher Tag als Beginn einer neuen Woche gilt (z. B. `"Day.Sunday"`). Falls dieser Wert nicht angegeben wird, wird der kulturspezifische Standardwert verwendet.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bestimmen Sie, welche Woche des Jahres den 27. März 2011 enthält.
 ```powerquery
 Date.WeekOfYear(#date(2011, 03, 27))
@@ -37,7 +40,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Bestimmen Sie, welche Woche des Jahres den 27. März 2011 enthält, wobei Sie Montag als Beginn der Woche verwenden.
 ```powerquery
 Date.WeekOfYear(#date(2011, 03, 27), Day.Monday)

@@ -19,12 +19,12 @@ Duration.TotalDays(
 
 ## Remarks
 
-返回 <code>duration</code> 跨越的总天数。
+返回 `duration` 跨越的总天数。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 查找持续时间值跨越的总天数。
 ```powerquery
 Duration.TotalDays(#duration(5, 4, 3, 2))

@@ -20,13 +20,13 @@ List.SingleOrDefault(
 
 ## Remarks
 
-Hvis der kun er ét element på listen <code>list</code>, returneres dette element.    Hvis listen er tom, returnerer funktionen en null-værdi, medmindre der er angivet en valgfri <code>default</code>. Hvis der er mere end ét element på listen, returnerer funktionen en fejl.
+Hvis der kun er ét element på listen `list`, returneres dette element. Hvis listen er tom, returnerer funktionen en null-værdi, medmindre der er angivet en valgfri `default`. Hvis der er mere end ét element på listen, returnerer funktionen en fejl.
 
 
 ## Examples
 
-### Example #1 
-Find den eneste værdi på listen \{1}.
+### Example #1
+Find den eneste værdi på listen \{1\}.
 ```powerquery
 List.SingleOrDefault({1})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Find den eneste værdi på listen \{}.
+### Example #2
+Find den eneste værdi på listen \{\}.
 ```powerquery
 List.SingleOrDefault({})
 ```
@@ -49,8 +49,8 @@ null
 ```
 
 
-### Example #3 
-Find den eneste værdi på listen \{}. Hvis listen er tom, returneres -1.
+### Example #3
+Find den eneste værdi på listen \{\}. Hvis listen er tom, returneres -1.
 ```powerquery
 List.SingleOrDefault({}, -1)
 ```

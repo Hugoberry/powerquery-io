@@ -20,12 +20,15 @@ Number.Combinations(
 
 ## Remarks
 
-ส่งกลับจำนวนของการรวมที่ไม่ซ้ำกันจากรายการของข้อมูล <code>setSize</code> โดยมีขนาดการรวม <code>combinationSize</code> ที่ระบุ<ul>    <li><code>setSize</code>: จำนวนของข้อมูลในรายการ</li>    <li><code>combinationSize</code>: จำนวนข้อมูลในการรวมแต่ละรายการ</li></ul>
+ส่งกลับจำนวนของการรวมที่ไม่ซ้ำกันจากรายการของข้อมูล `setSize` โดยมีขนาดการรวม `combinationSize` ที่ระบุ
+
+-   `setSize`: จำนวนของข้อมูลในรายการ
+-   `combinationSize`: จำนวนข้อมูลในการรวมแต่ละรายการ
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 หาจำนวนการรวมจากทั้งหมด 5 รายการเมื่อการรวมแต่ละรายการแบ่งออกเป็นกลุ่มละ 3
 ```powerquery
 Number.Combinations(5, 3)

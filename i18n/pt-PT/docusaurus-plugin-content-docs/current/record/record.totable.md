@@ -19,12 +19,12 @@ Record.ToTable(
 
 ## Remarks
 
-Devolve uma tabela que contém as colunas <code>Name</code> e <code>Value</code> com uma linha para cada campo existente em <code>record</code>.
+Devolve uma tabela que contém as colunas `Name` e `Value` com uma linha para cada campo existente em `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devolver a tabela a partir do registo.
 ```powerquery
 Record.ToTable([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

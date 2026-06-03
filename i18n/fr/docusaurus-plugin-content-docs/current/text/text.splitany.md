@@ -5,7 +5,7 @@ title: Text.SplitAny
 # Text.SplitAny
 
 
-Retourne une liste de valeurs de texte, fractionnées selon un certain nombre de caractères à l&#39;aide du séparateur.
+Retourne une liste de valeurs de texte, fractionnées selon un certain nombre de caractères à l'aide du séparateur.
 
 
 ## Syntax
@@ -20,25 +20,29 @@ Text.SplitAny(
 
 ## Remarks
 
-Retourne une liste de valeurs de texte résultant du fractionnement d'une valeur de texte <code>text</code> selon un certain nombre de caractères dans le séparateur spécifié, <code>separators</code>.
+Renvoie une liste de valeurs textuelles résultant du fractionnement d'une valeur textuelle sur la base d'un caractère spécifié dans le délimiteur.
+
+-   `text` : La valeur de texte à fractionner.
+-   `separators` : La valeur de texte à fractionner.
 
 
 ## Examples
 
-### Example #1 
-Crée une liste de valeurs de texte &#34;Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com&#34;.
+### Example #1
+Créez une liste à partir du texte donné en utilisant les caractères de délimitation spécifiés.
 ```powerquery
-Text.SplitAny("Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com", "|")
+Text.SplitAny("Name|Customer ID|Purchase|Month-Day-Year", "|-")
 ```
 
 Result: 
 ```powerquery
 {
-    "Jamie",
-    "Campbell",
-    "Admin",
-    "Adventure Works",
-    "www.adventure-works.com"
+    "Name",
+    "Customer ID",
+    "Purchase",
+    "Month",
+    "Day",
+    "Year"
 }
 ```
 

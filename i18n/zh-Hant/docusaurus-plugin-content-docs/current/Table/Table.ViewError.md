@@ -5,7 +5,7 @@ title: Table.ViewError
 # Table.ViewError
 
 
-在檢視定義的處理常式透過 [表格檢視]建立已修改的錯誤記錄擲回時，不會觸發後援。
+建立修改的錯誤記錄，其中在由檢視上定義 (透過 Table.View) 的處理常式引發時，不會觸發後援。
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Table.ViewError(
 
 ## Remarks
 
-從 <code>errorRecord</code> 在檢視定義的處理常式透過 [表格檢視]建立已修改的錯誤記錄擲回時，不會觸發後援。
+從 `errorRecord` 建立修改的錯誤記錄，其中在由檢視上定義 (透過 Table.View) 的處理常式引發時，不會觸發後援。
 
 
 

@@ -21,13 +21,13 @@ Int8.From(
 
 ## Remarks
 
-ส่งกลับค่า <code>number</code> จํานวนเต็ม 8 บิตที่มีเครื่องหมายจาก <code>value</code> ที่กำหนด ถ้า <code>value</code> ที่กำหนดเป็น <code>null</code> <code>Int8.From</code> จะส่งกลับ <code>null</code> ถ้า <code>value</code> ที่กำหนดเป็น <code>number</code> ภายในช่วงของจํานวนเต็ม 8 บิตที่มีเครื่องหมายโดยไม่มีเศษส่วน ระบบจะส่งกลับ <code>value</code> ถ้ามีเศษส่วน ระบบจะปัดเศษตัวเลขดังกล่าวตามโหมดการปัดเศษที่ระบุไว้ โหมดการปัดเศษเริ่มต้นคือ <code>RoundingMode.ToEven</code> ถ้า <code>value</code> เป็นชนิดอื่น ระบบจะแปลงเป็น <code>number</code> ก่อน โดยใช้ <code>Number.FromText</code> โปรดดู <code>Number.Round</code> สําหรับโหมดการปัดเศษที่ใช้งานได้ อาจมี <code>culture</code> เพิ่มเติม (ตัวอย่างเช่น "en-US")
+ส่งกลับค่า `number` จํานวนเต็ม 8 บิตที่มีเครื่องหมายจาก `value` ที่กำหนด ถ้า `value` ที่กำหนดเป็น `null` `Int8.From` จะส่งกลับ `null` ถ้า `value` ที่กำหนดเป็น `number` ภายในช่วงของจํานวนเต็ม 8 บิตที่มีเครื่องหมายโดยไม่มีเศษส่วน ระบบจะส่งกลับ `value` ถ้ามีเศษส่วน ระบบจะปัดเศษตัวเลขดังกล่าวตามโหมดการปัดเศษที่ระบุไว้ โหมดการปัดเศษเริ่มต้นคือ `RoundingMode.ToEven` ถ้า `value` เป็นชนิดอื่น ระบบจะแปลงเป็น `number` ก่อน โดยใช้ `Number.FromText` โปรดดู `Number.Round` สําหรับโหมดการปัดเศษที่ใช้งานได้ อาจมี `culture` เพิ่มเติม (ตัวอย่างเช่น "en-US")
 
 
 ## Examples
 
-### Example #1 
-รับค่า &lt;code&gt;ตัวเลข&lt;/code&gt; ที่เป็นจำนวนเต็ม 8 บิตที่มีเครื่องหมายสำหรับ &lt;code&gt;&#34;4&#34;&lt;/code&gt;
+### Example #1
+รับค่า `ตัวเลข` ที่เป็นจำนวนเต็ม 8 บิตที่มีเครื่องหมายสำหรับ `"4"`
 ```powerquery
 Int8.From("4")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-รับค่า &lt;code&gt;ตัวเลข&lt;/code&gt; ที่เป็นจำนวนเต็ม 8 บิตที่มีเครื่องหมายสำหรับ &lt;code&gt;&#34;4.5&#34;&lt;/code&gt; โดยใช้ &lt;code&gt;RoundingMode.AwayFromZero&lt;/code&gt;
+### Example #2
+รับค่า `ตัวเลข` ที่เป็นจำนวนเต็ม 8 บิตที่มีเครื่องหมายสำหรับ `"4.5"` โดยใช้ `RoundingMode.AwayFromZero`
 ```powerquery
 Int8.From("4.5", null, RoundingMode.AwayFromZero)
 ```

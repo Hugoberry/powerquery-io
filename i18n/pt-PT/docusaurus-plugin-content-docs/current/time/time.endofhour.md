@@ -19,12 +19,14 @@ Time.EndOfHour(
 
 ## Remarks
 
-Devolve o fim da hora representado por <code>dateTime</code>, incluindo segundos fracionais. As informações de fuso horário são preservadas.      <ul>        <li><code>dateTime</code>: um valor <code>time</code>, <code>datetime</code> ou <code>datetimezone</code> a partir do qual o fim da hora é calculado.</li>      </ul>
+Devolve o fim da hora representado por `dateTime`, incluindo segundos fracionais. As informações de fuso horário são preservadas.
+
+-   `dateTime`: um valor `time`, `datetime` ou `datetimezone` a partir do qual o fim da hora é calculado.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Obter o fim da hora para 14/5/2011 17:00:00.
 ```powerquery
 Time.EndOfHour(#datetime(2011, 5, 14, 17, 0, 0))
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Obter o fim da hora para 17/5/2011 17:00:00 -7:00.
 ```powerquery
 Time.EndOfHour(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0))

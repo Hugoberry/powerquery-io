@@ -5,7 +5,7 @@ title: List.Repeat
 # List.Repeat
 
 
-Restituisce un elenco che è costituito dal conteggio delle ripetizioni dell&#39;elenco originale.
+Restituisce un elenco che è costituito dal conteggio delle ripetizioni dell'elenco originale.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ List.Repeat(
 
 ## Remarks
 
-Restituisce un elenco che è costituito dalle <code>count</code> ripetizioni dell'elenco originale <code>list</code>.
+Restituisce un elenco che è costituito dalle `count` ripetizioni dell'elenco originale `list`.
 
 
 ## Examples
 
-### Example #1 
-Creare un elenco con \{1, 2} ripetuto 3 volte.
+### Example #1
+Creare un elenco con \{1, 2\} ripetuto 3 volte.
 ```powerquery
 List.Repeat({1, 2}, 3)
 ```

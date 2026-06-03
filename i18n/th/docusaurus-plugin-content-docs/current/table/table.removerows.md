@@ -21,12 +21,12 @@ Table.RemoveRows(
 
 ## Remarks
 
-เอา <code>count</code> ของแถวออกจากจุดเริ่มต้นของ <code>table</code> โดยเริ่มต้นที่ <code>offset</code> ที่ระบุ จำนวนเริ่มต้นของ 1 จะถูกใช้ถ้าไม่ได้ระบุพารามิเตอร์ <code>count</code> 
+เอา `count` ของแถวออกจากจุดเริ่มต้นของ `table` โดยเริ่มต้นที่ `offset` ที่ระบุ จำนวนเริ่มต้นของ 1 จะถูกใช้ถ้าไม่ได้ระบุพารามิเตอร์ `count`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 นำแถวแรกออกจากตาราง
 ```powerquery
 Table.RemoveRows(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 นำแถวที่ตำแหน่ง 1 ออกจากตาราง
 ```powerquery
 Table.RemoveRows(
@@ -74,7 +74,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 นำสองแถวที่เริ่มต้นในตำแหน่ง 1 ออกจากตาราง
 ```powerquery
 Table.RemoveRows(

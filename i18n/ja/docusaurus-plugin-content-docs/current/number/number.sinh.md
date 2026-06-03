@@ -19,7 +19,7 @@ Number.Sinh(
 
 ## Remarks
 
-<code>number</code> の双曲サインを返します。
+`number` の双曲サインを返します。
 
 
 

@@ -19,13 +19,15 @@ Time.ToRecord(
 
 ## Remarks
 
-Zwraca rekord zawierający części danej wartości typu time (<code>time</code>). <ul>        <li><code>time</code>: wartość typu <code>time</code>, na podstawie części której jest tworzony rekord.</li>      </ul>
+Zwraca rekord zawierający części danej wartości typu time (`time`).
+
+-   `time`: wartość typu `time`, na podstawie części której jest tworzony rekord.
 
 
 ## Examples
 
-### Example #1 
-Przekonwertuj wartość &lt;code&gt;#time(11, 56, 2)&lt;/code&gt; na rekord zawierający wartości godziny.
+### Example #1
+Przekonwertuj wartość `#time(11, 56, 2)` na rekord zawierający wartości godziny.
 ```powerquery
 Time.ToRecord(#time(11, 56, 2))
 ```

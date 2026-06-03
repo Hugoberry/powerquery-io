@@ -25,7 +25,7 @@ Returns a table with only those rows of the input table that contain an error in
 
 ## Examples
 
-### Example #1 
+### Example #1
 Select names of customers with errors in their rows.
 ```powerquery
 Table.SelectRowsWithErrors(

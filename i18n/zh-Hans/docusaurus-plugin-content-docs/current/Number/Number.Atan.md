@@ -19,7 +19,7 @@ Number.Atan(
 
 ## Remarks
 
-返回 <code>number</code> 的反正切。
+返回 `number` 的反正切。
 
 
 

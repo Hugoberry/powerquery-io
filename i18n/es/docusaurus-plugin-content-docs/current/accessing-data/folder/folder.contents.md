@@ -20,7 +20,7 @@ Folder.Contents(
 
 ## Remarks
 
-Devuelve una tabla que contiene una fila por cada carpeta y archivo encontrados en la carpeta <code>path</code>. Cada fila contiene propiedades de la carpeta o archivo y un vínculo a su contenido. El parámetro <code>options</code> está pensado actualmente solo para uso interno.
+Devuelve una tabla que contiene una fila por cada carpeta y archivo encontrados en la carpeta `path`. Cada fila contiene propiedades de la carpeta o archivo y un vínculo a su contenido. El parámetro `options` está pensado actualmente solo para uso interno.
 
 
 

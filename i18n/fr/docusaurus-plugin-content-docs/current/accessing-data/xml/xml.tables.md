@@ -26,8 +26,8 @@ Retourne le contenu du document XML comme une collection de tables imbriquées a
 
 ## Examples
 
-### Example #1 
-Récupérez le contenu d’un fichier XML local.
+### Example #1
+Récupérer le contenu d'un fichier XML local.
 ```powerquery
 Xml.Tables(File.Contents("C:\invoices.xml"))
 ```

@@ -5,7 +5,7 @@ title: Embedded.Value
 # Embedded.Value
 
 
-Använder ett värde baserat på namnet i ett inbäddat kombinationsprogram (mashup).
+Funktionen är endast avsedd för internt bruk.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Embedded.Value(
 
 ## Remarks
 
-Använder ett värde baserat på namnet i ett inbäddat kombinationsprogram (mashup).
+Funktionen är endast avsedd för internt bruk.
 
 
 

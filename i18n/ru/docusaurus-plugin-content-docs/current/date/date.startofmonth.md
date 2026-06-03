@@ -19,12 +19,12 @@ Date.StartOfMonth(
 
 ## Remarks
 
-Возвращает начало месяца, который содержит <code>dateTime</code>.    <code>dateTime</code> должно быть значением <code>date</code> или <code>datetime</code>.
+Возвращает начало месяца, который содержит `dateTime`. `dateTime` должно быть значением `date` или `datetime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Поиск начала месяца для 10 октября 2011 г., 8:10:32.
 ```powerquery
 Date.StartOfMonth(#datetime(2011, 10, 10, 8, 10, 32))

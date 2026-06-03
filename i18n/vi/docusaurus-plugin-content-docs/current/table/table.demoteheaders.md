@@ -24,7 +24,7 @@ Giáng cấp các tiêu đề cột (tức là tên cột) thành hàng giá tr�
 
 ## Examples
 
-### Example #1 
+### Example #1
 Giáng cấp hàng giá trị đầu tiên trong bảng.
 ```powerquery
 Table.DemoteHeaders(

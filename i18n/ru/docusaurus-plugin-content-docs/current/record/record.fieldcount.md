@@ -19,12 +19,12 @@ Record.FieldCount(
 
 ## Remarks
 
-Возвращает число полей в записи <code>record</code>.
+Возвращает число полей в записи `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Нахождение числа полей в записи.
 ```powerquery
 Record.FieldCount([CustomerID = 1, Name = "Bob"])

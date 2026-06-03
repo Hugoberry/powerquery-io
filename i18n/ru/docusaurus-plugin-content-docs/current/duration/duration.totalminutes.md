@@ -19,12 +19,12 @@ Duration.TotalMinutes(
 
 ## Remarks
 
-Возвращает общее количество минут, охваченных <code>duration</code>.
+Возвращает общее количество минут, охваченных `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Найти общее количество минут, охваченных значением длительности.
 ```powerquery
 Duration.TotalMinutes(#duration(5, 4, 3, 2))

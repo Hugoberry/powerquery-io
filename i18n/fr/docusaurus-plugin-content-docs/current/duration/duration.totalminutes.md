@@ -19,12 +19,12 @@ Duration.TotalMinutes(
 
 ## Remarks
 
-Retourne le nombre total de minutes s’étendant sur <code>duration</code>.
+Retourne le nombre total de minutes s’étendant sur `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Recherche les minutes totales couvertes par une valeur de durée.
 ```powerquery
 Duration.TotalMinutes(#duration(5, 4, 3, 2))

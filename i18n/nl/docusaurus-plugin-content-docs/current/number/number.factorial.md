@@ -19,12 +19,12 @@ Number.Factorial(
 
 ## Remarks
 
-Retourneert de faculteit van het getal <code>number</code>.
+Retourneert de faculteit van het getal `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De faculteit van 10 zoeken.
 ```powerquery
 Number.Factorial(10)

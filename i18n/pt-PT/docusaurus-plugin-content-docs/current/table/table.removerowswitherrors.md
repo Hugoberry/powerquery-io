@@ -25,7 +25,7 @@ Devolve uma tabela com as linhas removidas da tabela de entrada que contenham um
 
 ## Examples
 
-### Example #1 
+### Example #1
 Remover valor de erro da primeira linha.
 ```powerquery
 Table.RemoveRowsWithErrors(

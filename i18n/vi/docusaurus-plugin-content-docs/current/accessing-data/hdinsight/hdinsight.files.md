@@ -20,7 +20,7 @@ HdInsight.Files(
 
 ## Remarks
 
-Trả về một bảng chứa một hàng cho mỗi tệp blob có trong URL của vùng chứa, <code>account</code>, từ ngăn lưu trữ Azure. Mỗi hàng chứa thuộc tính của tệp và liên kết đến nội dung của tệp đó.
+Trả về một bảng chứa một hàng cho mỗi tệp blob có trong URL của vùng chứa, `account`, từ ngăn lưu trữ Azure. Mỗi hàng chứa thuộc tính của tệp và liên kết đến nội dung của tệp đó.
 
 
 

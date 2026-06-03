@@ -20,13 +20,16 @@ Date.AddQuarters(
 
 ## Remarks
 
-Retourneert het resultaat van <code>date</code>, <code>datetime</code> of <code>datetimezone</code> dat volgt uit het toevoegen van <code>numberOfQuarters</code> kwartalen aan de <code>datetime</code>waarde <code>dateTime</code>.      <ul>      <li><code>dateTime</code>: de waarde voor <code>date</code>, <code>datetime</code> of <code>datetimezone</code> waaraan kwartalen worden toegevoegd.</li>      <li><code>numberOfQuarters</code>: het aantal kwartalen dat u wilt toevoegen.</li>      </ul>
+Retourneert het resultaat van `date`, `datetime` of `datetimezone` dat volgt uit het toevoegen van `numberOfQuarters` kwartalen aan de `datetime`waarde `dateTime`.
+
+-   `dateTime`: de waarde voor `date`, `datetime` of `datetimezone` waaraan kwartalen worden toegevoegd.
+-   `numberOfQuarters`: het aantal kwartalen dat u wilt toevoegen.
 
 
 ## Examples
 
-### Example #1 
-1 kwartaal aan de waarde voor &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; of &lt;code&gt;datetimezone&lt;/code&gt; toevoegen die de waarde 14/5/2011 vertegenwoordigt.
+### Example #1
+1 kwartaal aan de waarde voor `date`, `datetime` of `datetimezone` toevoegen die de waarde 14/5/2011 vertegenwoordigt.
 ```powerquery
 Date.AddQuarters(#date(2011, 5, 14), 1)
 ```

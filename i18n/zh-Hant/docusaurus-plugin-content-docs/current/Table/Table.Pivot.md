@@ -28,8 +28,8 @@ Table.Pivot(
 
 ## Examples
 
-### Example #1 
-採用資料表 &lt;code&gt;(\{ [ key = &#34;x&#34;, attribute = &#34;a&#34;, value = 1 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 3 ], [ key = &#34;y&#34;, attribute = &#34;a&#34;, value = 2 ], [ key = &#34;y&#34;, attribute = &#34;b&#34;, value = 4 ] })&lt;/code&gt; 之 attribute 資料行中的 &#34;a&#34;、&#34;b&#34; 和 &#34;c&#34; 值，並將它們樞紐分析成各自的資料行。
+### Example #1
+採用資料表 `({ [ key = "x", attribute = "a", value = 1 ], [ key = "x", attribute = "c", value = 3 ], [ key = "y", attribute = "a", value = 2 ], [ key = "y", attribute = "b", value = 4 ] })` 之 attribute 資料行中的 "a"、"b" 和 "c" 值，並將它們樞紐分析成各自的資料行。
 ```powerquery
 Table.Pivot(
     Table.FromRecords({
@@ -53,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-採用資料表 &lt;code&gt;(\{ [ key = &#34;x&#34;, attribute = &#34;a&#34;, value = 1 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 3 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 5 ], [ key = &#34;y&#34;, attribute = &#34;a&#34;, value = 2 ], [ key = &#34;y&#34;, attribute = &#34;b&#34;, value = 4 ] })&lt;/code&gt; 之 attribute 資料行中的 &#34;a&#34;、&#34;b&#34; 和 &#34;c&#34; 值，並將它們樞紐分析成各自的資料行。索引鍵 &#34;x&#34; 的屬性 &#34;c&#34; 具有多個相關聯的值，因此請使用函數 List.Max 來解決衝突。
+### Example #2
+採用資料表 `({ [ key = "x", attribute = "a", value = 1 ], [ key = "x", attribute = "c", value = 3 ], [ key = "x", attribute = "c", value = 5 ], [ key = "y", attribute = "a", value = 2 ], [ key = "y", attribute = "b", value = 4 ] })` 之 attribute 資料行中的 "a"、"b" 和 "c" 值，並將它們樞紐分析成各自的資料行。索引鍵 "x" 的屬性 "c" 具有多個相關聯的值，因此請使用函數 List.Max 來解決衝突。
 ```powerquery
 Table.Pivot(
     Table.FromRecords({

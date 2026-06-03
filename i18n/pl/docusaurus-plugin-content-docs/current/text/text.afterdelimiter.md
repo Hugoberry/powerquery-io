@@ -21,12 +21,12 @@ Text.AfterDelimiter(
 
 ## Remarks
 
-Zwraca część elementu <code>text</code> po określonym elemencie <code>delimiter</code>.    Opcjonalna liczba <code>index</code> wskazuje, które wystąpienie elementu <code>delimiter</code> ma zostać uwzględnione.    Opcjonalna lista <code>index</code> wskazuje, które wystąpienie elementu <code>delimiter</code> ma zostać uwzględnione oraz czy indeksowanie ma być rozpoczynane od początku elementu wejściowego.
+Zwraca część elementu `text` po określonym elemencie `delimiter`. Opcjonalna liczba `index` wskazuje, które wystąpienie elementu `delimiter` ma zostać uwzględnione. Opcjonalna lista `index` wskazuje, które wystąpienie elementu `delimiter` ma zostać uwzględnione oraz czy indeksowanie ma być rozpoczynane od początku elementu wejściowego.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Pobierz część ciągu „111-222-333” po (pierwszym) łączniku.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Pobierz część ciągu „111-222-333” po drugim łączniku.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-", 1)
@@ -50,7 +50,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Pobierz część ciągu „111-222-333” po drugim łączniku od końca.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-", {1, RelativePosition.FromEnd})

@@ -24,7 +24,7 @@ Retourneert een functie die bij een witruimte tekst splitst in een lijst met tek
 
 ## Examples
 
-### Example #1 
+### Example #1
 De invoer splitsen op spaties, waarbij aanhalingstekens zoals elk ander teken worden behandeld.
 ```powerquery
 Splitter.SplitTextByWhitespace(QuoteStyle.None)("a b#(tab)c")

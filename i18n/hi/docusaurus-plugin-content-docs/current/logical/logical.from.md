@@ -19,13 +19,18 @@ Logical.From(
 
 ## Remarks
 
-दिए गए <code>value</code> से एक <code>तार्किक</code> मान लौटाता है. यदि दिया गया <code>value</code> <code>नल</code> है, तो <code> Logical.From</code> <code>नल</code> लौटाता है.  यदि दिया गया <code>value</code> <code>तार्किक</code> है, तो <code>value</code> लौटाया जाता है. निम्न प्रकार के मानों को एक <code>तार्किक</code> मान में रूपांतरित किया जा सकता है:      <ul>        <li><code>पाठ</code>: पाठ मान से एक <code>तार्किक</code> मान, या तो <code>"true"</code> या <code>"false"</code>. विवरण के लिए <code>Logical.FromText</code> देखें.</li>        <li><code>संख्या</code>: यदि <code>value</code> <code>0</code> के बराबर है तो <code>गलत</code> अन्यथा<code>सत्य</code>.</li>      </ul>यदि <code>value</code> किसी भी अन्य प्रकार का है, तो एक त्रुटि लौटाई जाती है.
+दिए गए `value` से एक `तार्किक` मान लौटाता है. यदि दिया गया `value` `नल` है, तो `Logical.From` `नल` लौटाता है. यदि दिया गया `value` `तार्किक` है, तो `value` लौटाया जाता है. निम्न प्रकार के मानों को एक `तार्किक` मान में रूपांतरित किया जा सकता है:
+
+-   `पाठ`: पाठ मान से एक `तार्किक` मान, या तो `"true"` या `"false"`. विवरण के लिए `Logical.FromText` देखें.
+-   `संख्या`: यदि `value` `0` के बराबर है तो `गलत` अन्यथा`सत्य`.
+
+यदि `value` किसी भी अन्य प्रकार का है, तो एक त्रुटि लौटाई जाती है.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;2&lt;/code&gt; को एक &lt;code&gt;logical&lt;/code&gt; मान में रूपांतरित करें.
+### Example #1
+`2` को एक `logical` मान में रूपांतरित करें.
 ```powerquery
 Logical.From(2)
 ```

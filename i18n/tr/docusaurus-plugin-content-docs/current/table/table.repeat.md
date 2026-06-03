@@ -20,12 +20,12 @@ Table.Repeat(
 
 ## Remarks
 
-<code>table</code> girdisinden belirtilen <code>count</code> sayıda yinelenen sütunları içeren bir tablo döndürür.
+`table` girdisinden belirtilen `count` sayıda yinelenen sütunları içeren bir tablo döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tabloda bulunan satırları iki kez yineler.
 ```powerquery
 Table.Repeat(

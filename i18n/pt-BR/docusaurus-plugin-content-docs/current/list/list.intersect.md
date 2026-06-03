@@ -20,13 +20,13 @@ List.Intersect(
 
 ## Remarks
 
-Retorna a interseção dos valores de lista encontrados na lista de entrada <code>lists</code>. Um parâmetro opcional, <code>equationCriteria</code>, pode ser especificado.
+Retorna a interseção dos valores de lista encontrados na lista de entrada `lists`. Um parâmetro opcional, `equationCriteria`, pode ser especificado.
 
 
 ## Examples
 
-### Example #1 
-Localize a interseção das listas \{1..5}, \{2..6}, \{3..7}.
+### Example #1
+Localize a interseção das listas \{1..5\}, \{2..6\}, \{3..7\}.
 ```powerquery
 List.Intersect({{1..5}, {2..6}, {3..7}})
 ```

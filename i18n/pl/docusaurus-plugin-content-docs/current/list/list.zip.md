@@ -19,13 +19,13 @@ List.Zip(
 
 ## Remarks
 
-Pobiera listę list, <code>lists</code>, i zwraca listę list łączącą elementy w tym samym położeniu.
+Pobiera listę list, `lists`, i zwraca listę list łączącą elementy w tym samym położeniu.
 
 
 ## Examples
 
-### Example #1 
-Pakuje dwie proste listy \{1, 2} i \{3, 4}.
+### Example #1
+Pakuje dwie proste listy \{1, 2\} i \{3, 4\}.
 ```powerquery
 List.Zip({{1, 2}, {3, 4}})
 ```
@@ -39,8 +39,8 @@ Result:
 ```
 
 
-### Example #2 
-Pakuje dwie proste listy o różnej długości \{1, 2} i \{3}.
+### Example #2
+Pakuje dwie proste listy o różnej długości \{1, 2\} i \{3\}.
 ```powerquery
 List.Zip({{1, 2}, {3}})
 ```

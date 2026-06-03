@@ -19,12 +19,12 @@ Table.ToColumns(
 
 ## Remarks
 
-Crée une liste de listes imbriquées depuis la table, <code>table</code>.  Chaque élément de liste est une liste interne qui contient les valeurs des colonnes.
+Crée une liste de listes imbriquées depuis la table, `table`. Chaque élément de liste est une liste interne qui contient les valeurs des colonnes.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Créer une liste des valeurs de colonne à partir de la table.
 ```powerquery
 Table.ToColumns(

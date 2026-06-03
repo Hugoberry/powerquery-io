@@ -20,18 +20,25 @@ Type.ReplaceTableKeys(
 
 ## Remarks
 
-Returnerer en ny tabeltype, hvor alle nøgler er erstattet af den angivne liste over nøgler.<br />    <br />    Hver nøgle defineres ved hjælp af en post i følgende format:    <ul>      <li>        <code>Columns</code>: en liste over de kolonnenavne, der definerer nøglen      </li>      <li>        <code>Primary</code>: <code>true</code> hvis nøglen er tabellens primære nøgle; ellers <code>falsk</code>      </li>    </ul>    Den angivne liste over nøgler valideres for at sikre, at der ikke er defineret mere end én primær nøgle, og at alle nøglekolonnenavne findes i tabeltypen.    
+Returnerer en ny tabeltype, hvor alle nøgler er erstattet af den angivne liste over nøgler.  
+  
+Hver nøgle defineres ved hjælp af en post i følgende format:
+
+-   `Columns`: en liste over de kolonnenavne, der definerer nøglen
+-   `Primary`: `true` hvis nøglen er tabellens primære nøgle; ellers `falsk`
+
+Den angivne liste over nøgler valideres for at sikre, at der ikke er defineret mere end én primær nøgle, og at alle nøglekolonnenavne findes i tabeltypen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Erstat nøgleoplysningerne vedrørende en tabeltype.
 ```powerquery
 let
     BaseType = type table [ID = number, FirstName = text, LastName = text],
     KeysAdded = Type.ReplaceTableKeys(
-        BaseType, 
+        BaseType,
         {
             [Columns = {"ID"}, Primary = true],
             [Columns = {"FirstName", "LastName"}, Primary = false]
@@ -51,7 +58,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Ryd de nøgleoplysninger, der tidligere er defineret på en tabeltype.
 ```powerquery
 let

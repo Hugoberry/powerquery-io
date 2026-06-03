@@ -24,7 +24,7 @@ Rebaixa os cabeçalhos de coluna (por exemplo, os nomes de coluna) para a primei
 
 ## Examples
 
-### Example #1 
+### Example #1
 Rebaixar a primeira linha de valores da tabela.
 ```powerquery
 Table.DemoteHeaders(

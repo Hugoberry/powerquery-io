@@ -20,12 +20,16 @@ Table.RemoveLastN(
 
 ## Remarks
 
-ส่งกลับตารางที่ไม่มี <code>countOrCondition</code> แถวสุดท้ายของตาราง <code>table</code>        จำนวนของแถวที่เอาออกจะขึ้นอยู่กับพารามิเตอร์ที่เลือกได้ <code>countOrCondition</code>    <ul>    <li> ถ้า <code>countOrCondition</code> ถูกเว้นไว้ จะมีการลบออกเฉพาะแถวสุดท้าย</li>    <li> ถ้า <code>countOrCondition</code> เป็นตัวเลข จะมีการเอาแถวจำนวนมากดังกล่าวออก (เริ่มต้นที่ด้านล่าง) </li>    <li> ถ้า <code>countOrCondition</code> เป็นเงื่อนไข แถวที่ตรงกับเงื่อนไขจะถูกเอาออกจนกว่าแถวจะไม่เป็นไปตามเงื่อนไข</li>    </ul>
+ส่งกลับตารางที่ไม่มี `countOrCondition` แถวสุดท้ายของตาราง `table` จำนวนของแถวที่เอาออกจะขึ้นอยู่กับพารามิเตอร์ที่เลือกได้ `countOrCondition`
+
+-   ถ้า `countOrCondition` ถูกเว้นไว้ จะมีการลบออกเฉพาะแถวสุดท้าย
+-   ถ้า `countOrCondition` เป็นตัวเลข จะมีการเอาแถวจำนวนมากดังกล่าวออก (เริ่มต้นที่ด้านล่าง)
+-   ถ้า `countOrCondition` เป็นเงื่อนไข แถวที่ตรงกับเงื่อนไขจะถูกเอาออกจนกว่าแถวจะไม่เป็นไปตามเงื่อนไข
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 นำแถวสุดท้ายของตารางออก
 ```powerquery
 Table.RemoveLastN(
@@ -49,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-นำแถวสุดท้ายที่ [CustomerID] &gt; 2 ของตารางออก
+### Example #2
+นำแถวสุดท้ายที่ \[CustomerID\] > 2 ของตารางออก
 ```powerquery
 Table.RemoveLastN(
     Table.FromRecords({

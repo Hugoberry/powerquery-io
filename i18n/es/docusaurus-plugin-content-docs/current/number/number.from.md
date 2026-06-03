@@ -20,13 +20,23 @@ Number.From(
 
 ## Remarks
 
-Devuelve un valor <code>number</code> a partir del valor <code>value</code> dado. También se puede proporcionar un parámetro <code>culture</code> opcional (por ejemplo, "es-ES").Si <code>value</code> es <code>null</code>, <code>Number.From</code> devuelve <code>null</code>. Si <code>value</code> es <code>number</code>, se devuelve <code>value</code>. Los valores de los tipos siguientes se pueden convertir a un valor <code>number</code>:      <ul>        <li><code>text</code>: valor <code>number</code> a partir de la representación de texto. Se usan los formatos de texto comunes ("15", "3423,10", "5.0E-10"). Para más información, vea <code>Number.FromText</code>.</li>        <li><code>logical</code>: 1 para <code>true</code>, 0 para <code>false</code>.</li>        <li><code>datetime</code>: número de punto flotante de doble precisión que contiene un equivalente de fecha de automatización OLE.</li>        <li><code>datetimezone</code>: número de punto flotante de doble precisión que contiene un equivalente de fecha de automatización OLE de la fecha y hora locales <code>value</code>.</li>        <li><code>date</code>: número de punto flotante de doble precisión que contiene un equivalente de fecha de automatización OLE.</li>        <li><code>time</code>: expresado en días fraccionarios.</li>        <li><code>duration</code>: expresado en días enteros y fraccionarios.</li>      </ul>Si <code>value</code> es de cualquier otro tipo, se devuelve un error.
+Devuelve un valor `number` a partir del valor `value` dado. También se puede proporcionar un parámetro `culture` opcional (por ejemplo, "es-ES"). Si `value` es `null`, `Number.From` devuelve `null`. Si `value` es `number`, se devuelve `value`. Los valores de los tipos siguientes se pueden convertir a un valor `number`:
+
+-   `text`: valor `number` a partir de la representación de texto. Se usan los formatos de texto comunes ("15", "3423,10", "5.0E-10"). Para más información, vea `Number.FromText`.
+-   `logical`: 1 para `true`, 0 para `false`.
+-   `datetime`: número de punto flotante de doble precisión que contiene un equivalente de fecha de automatización OLE.
+-   `datetimezone`: número de punto flotante de doble precisión que contiene un equivalente de fecha de automatización OLE de la fecha y hora locales `value`.
+-   `date`: número de punto flotante de doble precisión que contiene un equivalente de fecha de automatización OLE.
+-   `time`: expresado en días fraccionarios.
+-   `duration`: expresado en días enteros y fraccionarios.
+
+Si `value` es de cualquier otro tipo, se devuelve un error.
 
 
 ## Examples
 
-### Example #1 
-Obtener el valor &lt;code&gt;number&lt;/code&gt; de &lt;code&gt;&#34;4&#34;&lt;/code&gt;.
+### Example #1
+Obtener el valor `number` de `"4"`.
 ```powerquery
 Number.From("4")
 ```
@@ -37,8 +47,8 @@ Result:
 ```
 
 
-### Example #2 
-Obtener el valor &lt;code&gt;number&lt;/code&gt; de &lt;code&gt;#datetime(2020, 3, 20, 6, 0, 0)&lt;/code&gt;.
+### Example #2
+Obtener el valor `number` de `#datetime(2020, 3, 20, 6, 0, 0)`.
 ```powerquery
 Number.From(#datetime(2020, 3, 20, 6, 0, 0))
 ```
@@ -49,8 +59,8 @@ Result:
 ```
 
 
-### Example #3 
-Obtenga el valor &lt;code&gt;numérico&lt;/code&gt; de &lt;code&gt;&#34;12,3 %&#34;&lt;/code&gt;.
+### Example #3
+Obtenga el valor `numérico` de `"12,3 %"`.
 ```powerquery
 Number.From("12.3%")
 ```

@@ -5,7 +5,7 @@ title: RowExpression.Column
 # RowExpression.Column
 
 
-Restituisce un albero della sintassi astratta (AST) che rappresenta l&#39;accesso a una colonna all&#39;interno di un&#39;espressione di riga.
+Restituisce un albero della sintassi astratta (AST) che rappresenta l'accesso a una colonna all'interno di un'espressione di riga.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ RowExpression.Column(
 
 ## Remarks
 
-Restituisce un albero della sintassi astratta (AST) che rappresenta l'accesso alla colonna <code>columnName</code> della riga all'interno di un'espressione di riga.
+Restituisce un albero della sintassi astratta (AST) che rappresenta l'accesso alla colonna `columnName` della riga all'interno di un'espressione di riga.
 
 
 ## Examples
 
-### Example #1 
-Crea un albero sintattico astratto che rappresenta l&#39;accesso della colonna &#34;CustomerName&#34;.
+### Example #1
+Crea un albero sintattico astratto che rappresenta l'accesso della colonna "CustomerName".
 ```powerquery
 RowExpression.Column("CustomerName")
 ```

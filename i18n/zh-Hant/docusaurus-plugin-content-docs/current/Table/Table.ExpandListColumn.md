@@ -20,13 +20,13 @@ Table.ExpandListColumn(
 
 ## Remarks
 
-指定 <code>table</code> 之後，其中 <code>column</code> 是值的清單，將清單分割成每個值各一個資料列。其他資料行中的值會複製到每個新建立的資料列中。
+給定一個 `table`，其中 `column` 包含值清單，將清單分割成每個值的資料列。在每個建立的新資料列中，其他資料行的值都會重複。此函數也可以將巢狀表格視為記錄清單來展開。
 
 
 ## Examples
 
-### Example #1 
-分割資料表中的 [Name] 清單資料行。
+### Example #1
+分割清單資料行 \[名稱\]。
 ```powerquery
 Table.ExpandListColumn(
     Table.FromRecords({[Name = {"Bob", "Jim", "Paul"}, Discount = .15]}),
@@ -40,6 +40,29 @@ Table.FromRecords({
     [Name = "Bob", Discount = 0.15],
     [Name = "Jim", Discount = 0.15],
     [Name = "Paul", Discount = 0.15]
+})
+```
+
+
+### Example #2
+分割巢狀表格資料行 \[元件\]。
+```powerquery
+Table.ExpandListColumn(
+    #table(
+        {"Part", "Components"},
+        {
+            {"Tool", #table({"Name", "Quantity"}, {{"Thingamajig", 2}, {"Widget", 3}})}
+        }
+    ),
+    "Components"
+)
+```
+
+Result: 
+```powerquery
+Table.FromRecords({
+    [Part = "Tool", Components = [Name = "Thingamajig", Quantity = 2]],
+    [Part = "Tool", Components = [Name = "Widget", Quantity = 3]]
 })
 ```
 

@@ -21,13 +21,13 @@ Binary.Range(
 
 ## Remarks
 
-Restituisce un subset del valore binario a partire dall'offset <code>binary</code>. Il parametro facoltativo <code>offset</code> imposta la lunghezza massima del subset.
+Restituisce un subset del valore binario a partire dall'offset `binary`. Il parametro facoltativo `offset` imposta la lunghezza massima del subset.
 
 
 ## Examples
 
-### Example #1 
-Restituisce un subset del valore binario a partire dall&#39;offset 6.
+### Example #1
+Restituisce un subset del valore binario a partire dall'offset 6.
 ```powerquery
 Binary.Range(#binary({0..10}), 6)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Restituisce un subset di lunghezza 2 dall&#39;offset 6 del valore binario.
+### Example #2
+Restituisce un subset di lunghezza 2 dall'offset 6 del valore binario.
 ```powerquery
 Binary.Range(#binary({0..10}), 6, 2)
 ```

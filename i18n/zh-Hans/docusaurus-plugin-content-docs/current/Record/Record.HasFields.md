@@ -20,13 +20,13 @@ Record.HasFields(
 
 ## Remarks
 
-通过返回逻辑值(true 或 false)，指示记录 <code>record</code> 是否具有 <code>fields</code> 中指定的字段。    可以使用列表指定多个字段值。
+通过返回逻辑值(true 或 false)，指示记录 `record` 是否具有 `fields` 中指定的字段。 可以使用列表指定多个字段值。
 
 
 ## Examples
 
-### Example #1 
-检查记录是否包含字段 &#34;CustomerID&#34;。
+### Example #1
+检查记录是否包含字段 "CustomerID"。
 ```powerquery
 Record.HasFields([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")
 ```
@@ -37,8 +37,8 @@ true
 ```
 
 
-### Example #2 
-检查记录是否包含字段 &#34;CustomerID&#34; 和 &#34;Address&#34;。
+### Example #2
+检查记录是否包含字段 "CustomerID" 和 "Address"。
 ```powerquery
 Record.HasFields([CustomerID = 1, Name = "Bob", Phone = "123-4567"], {"CustomerID", "Address"})
 ```

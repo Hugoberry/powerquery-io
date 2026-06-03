@@ -19,12 +19,12 @@ Number.Sqrt(
 
 ## Remarks
 
-Gibt die Quadratwurzel von <code>number</code> zurück.    Ist <code>number</code> NULL, gibt <code>Number.Sqrt</code> NULL zurück. Handelt es sich um einen negativen Wert, wird <code>Number.NaN</code> (kein numerischer Wert) zurückgegeben.
+Gibt die Quadratwurzel von `number` zurück. Ist `number` NULL, gibt `Number.Sqrt` NULL zurück. Handelt es sich um einen negativen Wert, wird `Number.NaN` (kein numerischer Wert) zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ermittelt die Quadratwurzel von 625.
 ```powerquery
 Number.Sqrt(625)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Ermittelt die Quadratwurzel von 85.
 ```powerquery
 Number.Sqrt(85)

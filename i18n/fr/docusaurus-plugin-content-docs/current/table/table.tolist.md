@@ -25,7 +25,7 @@ Convertit une table en une liste en appliquant la fonction de combinaison spéci
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combinez le texte de chaque ligne avec une virgule.
 ```powerquery
 Table.ToList(

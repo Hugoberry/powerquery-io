@@ -21,13 +21,13 @@ Record.SelectFields(
 
 ## Remarks
 
-根據輸入 <code>record</code> 傳回只包含清單 <code>fields</code> 中指定之欄位的記錄。
+根據輸入 `record` 傳回只包含清單 `fields` 中指定之欄位的記錄。
 
 
 ## Examples
 
-### Example #1 
-選取記錄中的 &#34;Item&#34; 和 &#34;Price&#34; 欄位。
+### Example #1
+選取記錄中的 "Item" 和 "Price" 欄位。
 ```powerquery
 Record.SelectFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0],

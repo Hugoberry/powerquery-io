@@ -25,7 +25,7 @@ Returnerer en funktion, der kombinerer en liste over tekstværdier til en enkelt
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kombiner en liste over tekstværdier ved at udtrække det angivne antal tegn fra hver inputværdi.
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3})({"aaa", "bbb", "ccc"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Kombiner en liste over tekstværdier ved at udtrække de angivne antal tegn, når du først har udfyldt resultatet med skabelonteksten.
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3}, "*********")({"aaa", "bbb", "ccc"})

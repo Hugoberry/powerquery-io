@@ -19,13 +19,13 @@ Number.Log10(
 
 ## Remarks
 
-Bir sayının (<code>number</code>) 10 tabanındaki logaritmasını döndürür. <code>number</code> null ise <code>Number.Log10</code> null döndürür.
+Bir sayının (`number`) 10 tabanındaki logaritmasını döndürür. `number` null ise `Number.Log10` null döndürür.
 
 
 ## Examples
 
-### Example #1 
-2&#39;nin 10 tabanındaki logaritmasını alır.
+### Example #1
+2'nin 10 tabanındaki logaritmasını alır.
 ```powerquery
 Number.Log10(2)
 ```

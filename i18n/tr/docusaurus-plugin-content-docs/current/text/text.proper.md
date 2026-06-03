@@ -20,13 +20,13 @@ Text.Proper(
 
 ## Remarks
 
-<code>text</code> metin değerindeki her sözcüğün yalnızca ilk harfini büyük yapmanın sonucunu döndürür. Tüm diğer harfler küçük harfe döndürülür. Ayrıca, isteğe bağlı bir <code>culture</code> sağlanabilir (ör. "tr-TR").
+`text` metin değerindeki her sözcüğün yalnızca ilk harfini büyük yapmanın sonucunu döndürür. Tüm diğer harfler küçük harfe döndürülür. Ayrıca, isteğe bağlı bir `culture` sağlanabilir (ör. "tr-TR").
 
 
 ## Examples
 
-### Example #1 
-Basit bir tümce üzerinde &lt;code&gt;Text.Proper&lt;/code&gt; kullanır.
+### Example #1
+Basit bir tümce üzerinde `Text.Proper` kullanır.
 ```powerquery
 Text.Proper("the QUICK BrOWn fOx jUmPs oVER tHe LAzy DoG")
 ```

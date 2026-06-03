@@ -20,13 +20,17 @@ Comparer.FromCulture(
 
 ## Remarks
 
-Devuelve una función comparadora que utiliza la <code>culture</code> y la distinción entre mayúsculas y minúsculas especificada por <code>ignoreCase</code> para realizar las comparaciones..<br />      <br />      Una función comparadora acepta dos argumentos y devuelve -1, 0 o 1 en función de si el primer valor es menor, igual o mayor que el segundo.<br />      <br />      El valor por defecto para <code>ignoreCase</code> es false. El <code>culture</code> debe ser una de las localizaciones soportadas por el framework .NET (por ejemplo, "en-US").    
+Devuelve una función comparadora que utiliza la `culture` y la distinción entre mayúsculas y minúsculas especificada por `ignoreCase` para realizar las comparaciones..  
+  
+Una función comparadora acepta dos argumentos y devuelve -1, 0 o 1 en función de si el primer valor es menor, igual o mayor que el segundo.  
+  
+El valor por defecto para `ignoreCase` es false. El `culture` debe ser una de las localizaciones soportadas por el framework .NET (por ejemplo, "en-US").
 
 
 ## Examples
 
-### Example #1 
-Compara &#34;a&#34; y &#34;A&#34; usando la configuración regional &#34;en-US&#34; para determinar si los valores son iguales.
+### Example #1
+Compara "a" y "A" usando la configuración regional "en-US" para determinar si los valores son iguales.
 ```powerquery
 Comparer.FromCulture("en-US")("a", "A")
 ```
@@ -37,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-Compara &#34;a&#34; y &#34;A&#34; usando la configuración regional &#34;en-US&#34; e ignorando las mayúsculas y minúsculas para determinar si los valores son iguales.
+### Example #2
+Compara "a" y "A" usando la configuración regional "en-US" e ignorando las mayúsculas y minúsculas para determinar si los valores son iguales.
 ```powerquery
 Comparer.FromCulture("en-US", true)("a", "A")
 ```

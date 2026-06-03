@@ -19,12 +19,12 @@ Date.StartOfDay(
 
 ## Remarks
 
-Returns the start of the day represented by <code>dateTime</code>.    <code>dateTime</code> must be a <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> value.
+Returns the start of the day represented by `dateTime`. `dateTime` must be a `date`, `datetime`, or `datetimezone` value.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find the start of the day for October 10th, 2011, 8:00AM.
 ```powerquery
 Date.StartOfDay(#datetime(2011, 10, 10, 8, 0, 0))

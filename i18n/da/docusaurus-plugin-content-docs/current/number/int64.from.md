@@ -21,13 +21,13 @@ Int64.From(
 
 ## Remarks
 
-Returnerer et 64-bit heltalværdi <code>number</code> fra den angivne <code>value</code>. Hvis den angivne <code>value</code> er <code>null</code>, returnerer <code>Int64.From</code> <code>null</code>. Hvis den angivne <code>value</code> er <code>number</code> inden for intervallet 64-bit heltal med fortegn uden en brøkdel, returneres <code>value</code>. Hvis det har en brøkdel, afrundes tallet med den angivne afrundingstilstand. Standardafrundingstilstanden er <code>RoundingMode.ToEven</code>. Hvis <code>value</code> er af en anden type, konverteres den først til en <code>number</code> ved hjælp af <code>Number.FromText</code>. Se <code>Number.Round</code> for de tilgængelige afrundingstilstande. Der kan også angives en valgfri <code>culture</code> (f.eks. "en-US").
+Returnerer et 64-bit heltalværdi `number` fra den angivne `value`. Hvis den angivne `value` er `null`, returnerer `Int64.From` `null`. Hvis den angivne `value` er `number` inden for intervallet 64-bit heltal med fortegn uden en brøkdel, returneres `value`. Hvis det har en brøkdel, afrundes tallet med den angivne afrundingstilstand. Standardafrundingstilstanden er `RoundingMode.ToEven`. Hvis `value` er af en anden type, konverteres den først til en `number` ved hjælp af `Number.FromText`. Se `Number.Round` for de tilgængelige afrundingstilstande. Der kan også angives en valgfri `culture` (f.eks. "en-US").
 
 
 ## Examples
 
-### Example #1 
-Hent 64-bit &lt;code&gt;number&lt;/code&gt;-heltalsværdien &lt;code&gt;&#34;4&#34;&lt;/code&gt;.
+### Example #1
+Hent 64-bit `number`\-heltalsværdien `"4"`.
 ```powerquery
 Int64.From("4")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Hent heltalsværdien &lt;code&gt;number&lt;/code&gt; på 64-bit på &lt;code&gt;&#34;4.5&#34;&lt;/code&gt; ved hjælp af &lt;code&gt;RoundingMode.AwayFromZero&lt;/code&gt;.
+### Example #2
+Hent heltalsværdien `number` på 64-bit på `"4.5"` ved hjælp af `RoundingMode.AwayFromZero`.
 ```powerquery
 Int64.From("4.5", null, RoundingMode.AwayFromZero)
 ```

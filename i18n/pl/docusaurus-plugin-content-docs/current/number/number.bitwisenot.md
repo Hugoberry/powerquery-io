@@ -19,7 +19,7 @@ Number.BitwiseNot(
 
 ## Remarks
 
-Zwraca wynik wykonania bitowej opcji NOT na wartości <code>number</code>.
+Zwraca wynik wykonania bitowej opcji NOT na wartości `number`.
 
 
 

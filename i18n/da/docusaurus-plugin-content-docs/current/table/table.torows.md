@@ -19,12 +19,12 @@ Table.ToRows(
 
 ## Remarks
 
-Opretter en liste over indlejrede lister ud fra tabellen <code>table</code>.  De enkelte listeelementer er en indre liste, der indeholder rækkeværdierne.
+Opretter en liste over indlejrede lister ud fra tabellen `table`. De enkelte listeelementer er en indre liste, der indeholder rækkeværdierne.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Opret en liste over rækkeværdier ud fra tabellen.
 ```powerquery
 Table.ToRows(

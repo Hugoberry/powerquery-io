@@ -19,7 +19,7 @@ Cdm.Contents(
 
 ## Remarks
 
-Hàm này không khả dụng vì yêu cầu .NET 4.5.
+Hàm này không sẵn dùng trong ngữ cảnh hiện tại.
 
 
 

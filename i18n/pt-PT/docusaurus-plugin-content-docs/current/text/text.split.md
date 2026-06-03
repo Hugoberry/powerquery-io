@@ -20,13 +20,16 @@ Text.Split(
 
 ## Remarks
 
-Devolve uma lista de valores de texto resultante da divisão de um valor de texto <code>text</code> com base no delimitador especificado, <code>separator</code>.
+Devolve uma lista de valores de texto resultantes da divisão de um valor de texto com base no delimitador especificado.
+
+-   `text`: O valor de texto a dividir.
+-   `separator`: O delimitador utilizado para dividir o texto. O delimitador pode ser um único caráter ou uma sequência de carateres. Se for utilizada uma sequência de carateres, o texto é dividido apenas nas instâncias em que a sequência exata ocorre.
 
 
 ## Examples
 
-### Example #1 
-Criar uma lista a partir do valor de texto delimitado por &#34;|&#34; &#34;Nome|Endereço|NúmeroTelefone&#34;.
+### Example #1
+Criar uma lista a partir do valor de texto delimitado por "|" "Nome|Endereço|NúmeroTelefone".
 ```powerquery
 Text.Split("Name|Address|PhoneNumber", "|")
 ```
@@ -37,6 +40,22 @@ Result:
     "Name",
     "Address",
     "PhoneNumber"
+}
+```
+
+
+### Example #2
+Crie uma lista a partir do valor de texto através de uma sequência de carateres.
+```powerquery
+Text.Split("Name, the Customer, the Purchase Date", ", the ")
+```
+
+Result: 
+```powerquery
+{
+    "Name",
+    "Customer",
+    "Purchase Date"
 }
 ```
 

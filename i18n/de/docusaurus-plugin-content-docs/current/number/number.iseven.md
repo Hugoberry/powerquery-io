@@ -19,12 +19,12 @@ Number.IsEven(
 
 ## Remarks
 
-Gibt an, ob es sich bei dem Wert "<code>number</code>" um einen geraden Wert handelt (<code>true</code>) oder nicht (<code>false</code>).
+Gibt an, ob es sich bei dem Wert "`number`" um einen geraden Wert handelt (`true`) oder nicht (`false`).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Überprüft, ob 625 eine gerade Zahl ist.
 ```powerquery
 Number.IsEven(625)
@@ -36,7 +36,7 @@ false
 ```
 
 
-### Example #2 
+### Example #2
 Überprüft, ob 82 eine gerade Zahl ist.
 ```powerquery
 Number.IsEven(82)

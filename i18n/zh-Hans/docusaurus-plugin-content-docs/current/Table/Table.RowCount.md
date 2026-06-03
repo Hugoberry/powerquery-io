@@ -19,12 +19,12 @@ Table.RowCount(
 
 ## Remarks
 
-返回表 <code>table</code> 中的行数。
+返回表 `table` 中的行数。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 查找表中的行数。
 ```powerquery
 Table.RowCount(

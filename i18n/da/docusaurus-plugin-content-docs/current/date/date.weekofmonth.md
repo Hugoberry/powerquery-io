@@ -20,12 +20,14 @@ Date.WeekOfMonth(
 
 ## Remarks
 
-Returnerer et tal fra 1 til 6, der angiver, hvilken uge i året datoen <code>dateTime</code> ligger i. <ul>        <li><code>dateTime</code>: En <code>datetime</code>-værdi, for hvilken ugen i måneden bestemmes.</li>      </ul>
+Returnerer et tal fra 1 til 6, der angiver, hvilken uge i året datoen `dateTime` ligger i.
+
+-   `dateTime`: En `datetime`\-værdi, for hvilken ugen i måneden bestemmes.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Afgør, hvilken uge den 15. marts falder i i2011.
 ```powerquery
 Date.WeekOfMonth(#date(2011, 03, 15))

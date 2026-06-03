@@ -22,13 +22,18 @@ Table.PositionOfAny(
 
 ## Remarks
 
-Devolve as posições de linhas de <code>table</code> da primeira ocorrência de <code>rows</code> na lista. Devolve -1 se não for encontrada nenhuma ocorrência.    <ul>    <li><code>table</code>: a tabela de entrada.</li>       <li><code>rows</code>: a lista de linhas cujas posições pretende localizar na tabela.</li>       <li><code>occurrence</code>: <i>[Opcional]</i> Especifica as ocorrências da linha a devolver.</li>       <li><code>equationCriteria</code>: <i>[Opcional]</i> Controla a comparação entre as linhas da tabela.</li>    </ul>    
+Devolve a(s) posição(ões) de linha a partir do `table` da primeira ocorrência da lista de `rows`. Devolve -1 se não for encontrada qualquer ocorrência.
+
+-   `table`: a tabela de entrada.
+-   `rows`: a lista de linhas na tabela da qual se devem encontrar as posições.
+-   `occurrence`: *(opcional)* especifica que ocorrências da linha devem ser devolvidas.
+-   `equationCriteria`: *(opcional)* controla a comparação entre as linhas da tabela.
 
 
 ## Examples
 
-### Example #1 
-Determinar a posição da primeira ocorrência de [a = 2, b = 4] ou [a = 6, b = 8] na tabela &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #1
+Determinar a posição da primeira ocorrência de \[a = 2, b = 4\] ou \[a = 6, b = 8\] na tabela `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOfAny(
     Table.FromRecords({
@@ -50,8 +55,8 @@ Result:
 ```
 
 
-### Example #2 
-Determinar a posição de todas as ocorrências de [a = 2, b = 4] ou [a = 6, b = 8] na tabela &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]}&lt;/code&gt;.
+### Example #2
+Determinar a posição de todas as ocorrências de \[a = 2, b = 4\] ou \[a = 6, b = 8\] na tabela `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]}`.
 ```powerquery
 Table.PositionOfAny(
     Table.FromRecords({

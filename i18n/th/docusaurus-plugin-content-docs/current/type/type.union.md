@@ -19,7 +19,7 @@ Type.Union(
 
 ## Remarks
 
-ผลตอบแทนที่สหภาพของชนิดใน <code>types</code>
+ผลตอบแทนที่สหภาพของชนิดใน `types`
 
 
 

@@ -5,7 +5,7 @@ title: List.Range
 # List.Range
 
 
-Restituisce un subset dell&#39;elenco a partire da un offset.
+Restituisce un subset dell'elenco a partire da un offset.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ List.Range(
 
 ## Remarks
 
-Restituisce un subset dell'elenco a partire dall'offset <code>list</code>. Il parametro facoltativo <code>offset</code> imposta il numero massimo di elementi nel subset.
+Restituisce un subset di `list` a partire da `offset`. Il parametro facoltativo `count` imposta il numero massimo di elementi nel subset.
 
 
 ## Examples
 
-### Example #1 
-Trovare il subset che inizia all&#39;offset 6 dell&#39;elenco di numeri da 1 a 10.
+### Example #1
+Trovare il subset che inizia all'offset 6 dell'elenco di numeri da 1 a 10.
 ```powerquery
 List.Range({1..10}, 6)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Trovare il subset di lunghezza 2 dell&#39;offset 6, dall&#39;elenco di numeri da 1 a 10.
+### Example #2
+Trovare il subset di lunghezza 2 dell'offset 6, dall'elenco di numeri da 1 a 10.
 ```powerquery
 List.Range({1..10}, 6, 2)
 ```

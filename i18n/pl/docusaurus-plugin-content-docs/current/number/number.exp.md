@@ -19,12 +19,14 @@ Number.Exp(
 
 ## Remarks
 
-Zwraca wyniki podniesienia liczby „e” do potęgi <code>number</code> (funkcja wykładnicza).      <ul>        <li><code>number</code>: Wartość typu <code>number</code>, dla której ma zostać obliczona funkcja wykładnicza. Jeśli parametr <code>number</code> ma wartość null, funkcja <code>Number.Exp</code> zwraca wartość null. </li>      </ul>
+Zwraca wyniki podniesienia liczby „e” do potęgi `number` (funkcja wykładnicza).
+
+-   `number`: Wartość typu `number`, dla której ma zostać obliczona funkcja wykładnicza. Jeśli parametr `number` ma wartość null, funkcja `Number.Exp` zwraca wartość null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Podnieś liczbę „e” do potęgi 3.
 ```powerquery
 Number.Exp(3)

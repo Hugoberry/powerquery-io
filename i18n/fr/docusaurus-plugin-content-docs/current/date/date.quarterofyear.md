@@ -5,7 +5,7 @@ title: Date.QuarterOfYear
 # Date.QuarterOfYear
 
 
-Retourne un nombre indiquant dans quel trimestre de l&#39;année la date se situe.
+Retourne un nombre indiquant dans quel trimestre de l'année la date se situe.
 
 
 ## Syntax
@@ -19,12 +19,12 @@ Date.QuarterOfYear(
 
 ## Remarks
 
-Retourne un nombre de 1 à 4 indiquant dans quel trimestre de l'année la date <code>dateTime</code> se situe. <code>dateTime</code> peut être une valeur <code>date</code>, <code>datetime</code> ou <code>datetimezone</code>.
+Retourne un nombre de 1 à 4 indiquant dans quel trimestre de l'année la date `dateTime` se situe. `dateTime` peut être une valeur `date`, `datetime` ou `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Recherche dans quel trimestre la date #date(2011, 12, 31) se situe.
 ```powerquery
 Date.QuarterOfYear(#date(2011, 12, 31))

@@ -19,7 +19,7 @@ Exchange.Contents(
 
 ## Remarks
 
-Devuelve una tabla de contenido de la cuenta de Microsoft Exchange <code>mailboxAddress</code>. Si no se especifica <code>mailboxAddress</code>, se usará la cuenta de credenciales predeterminada.
+Devuelve una tabla de contenido de la cuenta de Microsoft Exchange `mailboxAddress`. Si no se especifica `mailboxAddress`, se usará la cuenta de credenciales predeterminada.
 
 
 

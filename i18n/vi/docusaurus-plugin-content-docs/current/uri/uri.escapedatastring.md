@@ -19,13 +19,13 @@ Uri.EscapeDataString(
 
 ## Remarks
 
-Mã hóa các ký tự đặc biệt trong đầu vào <code>data</code> theo các quy tắc RFC 3986.
+Mã hóa các ký tự đặc biệt trong đầu vào `data` theo các quy tắc RFC 3986.
 
 
 ## Examples
 
-### Example #1 
-Mã hóa các ký tự đặc biệt trong &#34;+money$&#34;.
+### Example #1
+Mã hóa các ký tự đặc biệt trong "+money$".
 ```powerquery
 Uri.EscapeDataString("+money$")
 ```

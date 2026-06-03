@@ -19,13 +19,13 @@ DateTime.Time(
 
 ## Remarks
 
-Gibt den Uhrzeitanteil des angegebenen datetime-Werts (<code>dateTime</code>) zurück.
+Gibt den Uhrzeitanteil des angegebenen datetime-Werts (`dateTime`) zurück.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt den Uhrzeitwert von &#34;#datetime(2010, 12, 31, 11, 56, 02)&#34;.
+### Example #1
+Ermittelt den Uhrzeitwert von "#datetime(2010, 12, 31, 11, 56, 02)".
 ```powerquery
 DateTime.Time(#datetime(2010, 12, 31, 11, 56, 02))
 ```

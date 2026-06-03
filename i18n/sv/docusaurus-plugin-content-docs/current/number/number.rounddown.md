@@ -20,12 +20,12 @@ Number.RoundDown(
 
 ## Remarks
 
-Returnerar resultatet från att <code>number</code> avrundas nedåt till föregående största heltal. Om <code>number</code> är null returnerar den här funktionen null.    Om <code>digits</code> anges avrundas <code>number</code> till det angivna antalet decimaltal. 
+Returnerar resultatet från att `number` avrundas nedåt till föregående största heltal. Om `number` är null returnerar den här funktionen null. Om `digits` anges avrundas `number` till det angivna antalet decimaltal.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Avrunda 1,234 nedåt till närmaste heltal.
 ```powerquery
 Number.RoundDown(1.234)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Avrunda 1,999 nedåt till närmaste heltal.
 ```powerquery
 Number.RoundDown(1.999)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Avrunda 1 999 nedåt till två decimaler.
 ```powerquery
 Number.RoundDown(1.999, 2)

@@ -24,7 +24,7 @@ Table.Keys(
 
 ## Examples
 
-### Example #1 
+### Example #1
 获取表的键列表。
 ```powerquery
 let

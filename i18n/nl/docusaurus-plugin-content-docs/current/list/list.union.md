@@ -20,13 +20,13 @@ List.Union(
 
 ## Remarks
 
-Hiermee wordt een lijst met lijsten <code>lists</code> gebruikt, worden de items in de afzonderlijke lijsten gecombineerd en worden deze in de uitvoerlijst geretourneerd. De geretourneerde lijst bevat hierdoor alle items in alle invoerlijsten. Deze bewerking houdt traditionele bag-semantiek aan. Dubbele waarden worden gekoppeld als onderdeel van de combinatie. Een optionele vergelijkingscriteriawaarde, <code>equationCriteria</code>, kan worden opgegeven voor het aansturen van gelijkheidstesten. 
+Hiermee wordt een lijst met lijsten `lists` gebruikt, worden de items in de afzonderlijke lijsten gecombineerd en worden deze in de uitvoerlijst geretourneerd. De geretourneerde lijst bevat hierdoor alle items in alle invoerlijsten. Deze bewerking houdt traditionele bag-semantiek aan. Dubbele waarden worden gekoppeld als onderdeel van de combinatie. Een optionele vergelijkingscriteriawaarde, `equationCriteria`, kan worden opgegeven voor het aansturen van gelijkheidstesten.
 
 
 ## Examples
 
-### Example #1 
-Een samenvoeging van de lijst \{1..5}, \{2..6}, \{3..7} maken.
+### Example #1
+Een samenvoeging van de lijst \{1..5\}, \{2..6\}, \{3..7\} maken.
 ```powerquery
 List.Union({{1..5}, {2..6}, {3..7}})
 ```

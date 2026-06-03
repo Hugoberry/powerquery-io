@@ -24,7 +24,7 @@ Table.Keys(
 
 ## Examples
 
-### Example #1 
+### Example #1
 取得資料表的索引鍵清單。
 ```powerquery
 let

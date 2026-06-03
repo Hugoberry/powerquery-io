@@ -5,7 +5,7 @@ title: Dynamics365BusinessCentral.EnvironmentContents
 # Dynamics365BusinessCentral.EnvironmentContents
 
 
-Specificare l&#39;ambiente e la società Dynamics 365 Business Central.
+Specificare l'ambiente e la società Dynamics 365 Business Central.
 
 
 ## Syntax
@@ -20,6 +20,6 @@ Dynamics365BusinessCentral.EnvironmentContents(
 
 ## Remarks
 
-Restituisce una tabella con i dati pertinenti di Dynamics 365 Business Central. 
+Restituisce una tabella con i dati pertinenti di Dynamics 365 Business Central.
 
 

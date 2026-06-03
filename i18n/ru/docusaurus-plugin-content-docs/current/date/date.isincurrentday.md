@@ -19,12 +19,14 @@ Date.IsInCurrentDay(
 
 ## Remarks
 
-Указывает, приходится заданное значение datetime <code>dateTime</code> на текущий день, что определяется текущей датой и временем в системе.      <ul>      <li><code>dateTime</code>: значение <code>date</code>, <code>datetime</code> или <code>datetimezone</code>, которое необходимо оценить.</li>      </ul>
+Указывает, приходится заданное значение datetime `dateTime` на текущий день, что определяется текущей датой и временем в системе.
+
+-   `dateTime`: значение `date`, `datetime` или `datetimezone`, которое необходимо оценить.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Определить, приходится ли текущее системное время на текущий день.
 ```powerquery
 Date.IsInCurrentDay(DateTime.FixedLocalNow())

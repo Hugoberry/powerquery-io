@@ -20,13 +20,13 @@ Table.SelectRows(
 
 ## Remarks
 
-Returnerar en tabell med rader från <code>table</code> som matchar <code>condition</code> som valts.
+Returnerar en tabell med rader från `table` som matchar `condition` som valts.
 
 
 ## Examples
 
-### Example #1 
-Markera de rader i tabellen där värdena i kolumnen [CustomerID] är större än 2.
+### Example #1
+Markera de rader i tabellen där värdena i kolumnen \[CustomerID\] är större än 2.
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({
@@ -48,7 +48,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Markera de rader i tabellen där namnen inte innehåller något B.
 ```powerquery
 Table.SelectRows(

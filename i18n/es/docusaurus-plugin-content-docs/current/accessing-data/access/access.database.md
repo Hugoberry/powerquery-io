@@ -20,7 +20,12 @@ Access.Database(
 
 ## Remarks
 
-Devuelve una representación estructural de una base de datos de Access, <code>database</code>. Se puede especificar un parámetro de registro opcional, <code>options</code>, para controlar las opciones siguientes:    <ul><li><code>CreateNavigationProperties</code> : Un valor l&#243;gico (true o false) que establece si se deben generar propiedades de navegaci&#243;n en los valores devueltos (el valor predeterminado es false).</li><li><code>NavigationPropertyNameGenerator</code> : Una funci&#243;n que se usa para crear nombres para las propiedades de navegaci&#243;n.</li></ul>    El parámetro de registro se especifica como [option1 = value1, option2 = value2...], por ejemplo.
+Devuelve una representación estructural de una base de datos de Access, `database`. Se puede especificar un parámetro de registro opcional (`options`) para controlar las opciones siguientes:
+
+-   `CreateNavigationProperties` : Un valor lógico (true o false) que establece si se deben generar propiedades de navegación en los valores devueltos (el valor predeterminado es false).
+-   `NavigationPropertyNameGenerator` : Una función que se usa para crear nombres para las propiedades de navegación.
+
+El parámetro de registro se especifica como \[option1 = value1, option2 = value2...\], por ejemplo.
 
 
 

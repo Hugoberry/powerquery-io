@@ -20,12 +20,16 @@ Table.RemoveLastN(
 
 ## Remarks
 
-Возвращает таблицу, не содержащую последние строки (<code>countOrCondition</code>) в таблице <code>table</code>.        Количество удаленных строк зависит от необязательного параметра <code>countOrCondition</code>.    <ul>    <li> Если <code>countOrCondition</code> не указано, удаляется только последняя строка. </li>    <li> Если <code>countOrCondition</code> — число, удаляется соответствующее количество строк (с конца). </li>    <li> Если <code>countOrCondition</code> — условие, будут удалены строки, соответствующие условию, до первой строки, не соответствующей условию.</li>    </ul>
+Возвращает таблицу, не содержащую последние строки (`countOrCondition`) в таблице `table`. Количество удаленных строк зависит от необязательного параметра `countOrCondition`.
+
+-   Если `countOrCondition` не указано, удаляется только последняя строка.
+-   Если `countOrCondition` — число, удаляется соответствующее количество строк (с конца).
+-   Если `countOrCondition` — условие, будут удалены строки, соответствующие условию, до первой строки, не соответствующей условию.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Удаление последней строки таблицы.
 ```powerquery
 Table.RemoveLastN(
@@ -49,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Удаление из таблицы последних строк, в которых [CustomerID] &gt; 2.
+### Example #2
+Удаление из таблицы последних строк, в которых \[CustomerID\] > 2.
 ```powerquery
 Table.RemoveLastN(
     Table.FromRecords({

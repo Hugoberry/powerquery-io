@@ -19,7 +19,7 @@ List.NonNullCount(
 
 ## Remarks
 
-Returnerer antallet af elementer på listen <code>list</code>, der ikke er null.
+Returnerer antallet af elementer på listen `list`, der ikke er null.
 
 
 

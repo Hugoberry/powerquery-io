@@ -19,7 +19,9 @@ Type.TableSchema(
 
 ## Remarks
 
-傳回描述 <code>tableType</code> 之資料行的資料表。<br />如需結果資料表的描述，請參閱 <code>Table.Schema</code> 的文件。<br />
+傳回描述 `tableType` 之資料行的資料表。
+
+如需結果資料表的描述，請參閱 `Table.Schema` 的文件。
 
 
 

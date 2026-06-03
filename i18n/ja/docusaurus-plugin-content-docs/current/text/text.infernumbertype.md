@@ -20,7 +20,7 @@ Text.InferNumberType(
 
 ## Remarks
 
-<code>text</code> の粒度番号の種類 (Int64.Type、Double.Type など) を推測します。<code>text</code> が数値でない場合にエラーが発生します。省略可能な <code>culture</code> を指定することもできます (例: "en-US")。
+`text` の粒度番号の種類 (Int64.Type、Double.Type など) を推測します。`text` が数値でない場合にエラーが発生します。省略可能な `culture` を指定することもできます (例: "en-US")。
 
 
 

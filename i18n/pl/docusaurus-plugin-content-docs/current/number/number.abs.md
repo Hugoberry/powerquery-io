@@ -19,12 +19,14 @@ Number.Abs(
 
 ## Remarks
 
-Zwraca wartość bezwzględną liczby <code>number</code>. Jeśli parametr <code>number</code> ma wartość null, funkcja <code>Number.Abs</code> zwraca wartość null.    <ul>        <li><code>number</code>: wartość typu <code>number</code>, dla której ma zostać obliczona wartość bezwzględna.</li>      </ul>
+Zwraca wartość bezwzględną liczby `number`. Jeśli parametr `number` ma wartość null, funkcja `Number.Abs` zwraca wartość null.
+
+-   `number`: wartość typu `number`, dla której ma zostać obliczona wartość bezwzględna.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Wartość bezwzględna z -3.
 ```powerquery
 Number.Abs(-3)

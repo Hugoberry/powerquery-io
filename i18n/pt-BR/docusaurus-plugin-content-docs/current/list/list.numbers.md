@@ -21,12 +21,16 @@ List.Numbers(
 
 ## Remarks
 
-Retorna uma lista de números a partir de um valor inicial, uma contagem e um valor de incremento opcional. O valor de incremento padrão é 1.<ul>   <li><code>start</code>: O valor inicial da lista.</li>   <li><code>count</code>: O número de valores a ser criado.</li>   <li><code>increment</code>: <i>[Opcional]</i> O valor que servirá de base para o incremento. Se omitido, os valores serão incrementados em 1.</li></ul>
+Retorna uma lista de números com um valor inicial, contagem e valor de incremento opcionais. O valor de incremento padrão é 1.
+
+-   `start`: o valor inicial na lista.
+-   `count`: o número de valores a serem criados.
+-   `increment`: *(Optional)* The value to increment by. Se omitido, os valores serão incrementados em 1.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gere uma lista de dez números consecutivos começando por 1.
 ```powerquery
 List.Numbers(1, 10)
@@ -49,7 +53,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Gere uma lista de dez números começando por 1, com um incremento de 2 para cada número subsequente.
 ```powerquery
 List.Numbers(1, 10, 2)

@@ -23,7 +23,7 @@ SapBusinessWarehouse.Cubes(
 
 ## Remarks
 
-คืนค่าตารางของ InfoCubes และคิวรีที่จัดกลุ่มโดย InfoArea จากอินสแตนซ์คลังข้อมูลธุรกิจ SAP ที่เซิร์ฟเวอร์ <code>server</code> โดยมีหมายเลขระบบ <code>systemNumberOrSystemId</code> และไคลเอ็นต์ ID <code>clientId</code> อาจระบุเรกคอร์ดพารามิเตอร์เสริม <code>optionsOrLogonGroup</code> เพื่อควบคุมตัวเลือกต่อไปนี้:        
+คืนค่าตารางของ InfoCubes และคิวรีที่จัดกลุ่มโดย InfoArea จากอินสแตนซ์คลังข้อมูลธุรกิจ SAP ที่เซิร์ฟเวอร์ `server` โดยมีหมายเลขระบบ `systemNumberOrSystemId` และไคลเอ็นต์ ID `clientId` อาจระบุเรกคอร์ดพารามิเตอร์เสริม `optionsOrLogonGroup` เพื่อควบคุมตัวเลือกต่อไปนี้:
 
 
 

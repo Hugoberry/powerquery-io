@@ -23,13 +23,19 @@ Table.ReplaceValue(
 
 ## Remarks
 
-แทนที่ <code>oldValue</code> ด้วย <code>newValue</code> ในคอลัมน์ที่ระบุของ <code>table</code>
+แทนที่ค่าด้วยค่าใหม่ในคอลัมน์ของตารางที่ระบุ
+
+-   `table`: ตารางที่จะค้นหา
+-   `oldValue`: ค่าที่จะถูกแทนที่
+-   `newValue`: ค่าที่จะแทนที่
+-   `replacer`: ฟังก์ชันตัวแทนที่ที่จะใช้ ฟังก์ชันสามารถเป็น `Replacer.ReplaceText` เพื่อแทนที่ข้อความเดิมด้วยข้อความใหม่ หรือ `Replacer.ReplaceValue` เพื่อแทนที่ค่าเดิมด้วยค่าใหม่ หรือตัวแทนที่แบบกำหนดเอง
+-   `columnsToSearch`: รายการที่มีคอลัมน์เฉพาะในตารางเพื่อค้นหาค่าที่จะแทนที่
 
 
 ## Examples
 
-### Example #1 
-แทนที่ข้อความ &#34;goodbye&#34; ด้วย &#34;world&#34; ในคอลัมน์ B โดยจับคู่เฉพาะค่าทั้งหมด
+### Example #1
+แทนที่ข้อความ "goodbye" ด้วย "world" ในคอลัมน์ B โดยจับคู่เฉพาะค่าทั้งหมด
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -54,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-แทนที่ข้อความ &#34;ur&#34; ด้วย &#34;or&#34; ในคอลัมน์ B ซึ่งตรงกับส่วนใดๆ ของค่า
+### Example #2
+แทนที่ข้อความ "ur" ด้วย "or" ในคอลัมน์ B ซึ่งตรงกับส่วนใดๆ ของค่า
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -78,7 +84,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 ทําให้ชื่อของพนักงานในสหรัฐอเมริกาเป็นแบบไม่ระบุตัวตน
 ```powerquery
 Table.ReplaceValue(
@@ -102,7 +108,7 @@ Table.FromRecords({
 ```
 
 
-### Example #4 
+### Example #4
 ทําให้คอลัมน์ทั้งหมดของพนักงานในสหรัฐอเมริกาเป็นแบบไม่ระบุตัวตน
 ```powerquery
 Table.ReplaceValue(

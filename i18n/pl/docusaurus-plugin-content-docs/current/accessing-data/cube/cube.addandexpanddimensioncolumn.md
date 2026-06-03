@@ -22,7 +22,7 @@ Cube.AddAndExpandDimensionColumn(
 
 ## Remarks
 
-Scala określoną tabelę wymiarów (<code>dimensionSelector</code>) w kontekście filtrów modułu (<code>cube</code>) i zmienia wymiarowy poziom szczegółowości, rozwijając określony zestaw (<code>attributeNames</code>) atrybutów wymiarów. Atrybuty wymiarów są dodawane do widoku tabelarycznego z kolumnami o nazwie <code>newColumnNames</code> lub <code>attributeNames</code>, jeśli nie określono.
+Scala określoną tabelę wymiarów, `dimensionSelector`, z kontekstem filtra `cube` i zmienia wymiarowy poziom szczegółowości poprzez rozszerzenie określonego zestawu atrybutów wymiarów, `attributeNames`. Atrybuty wymiarów są dodawane do widoku tabelarycznego z kolumnami o nazwie `newColumnNames` lub `attributeNames`, jeśli nie zostały określone.
 
 
 

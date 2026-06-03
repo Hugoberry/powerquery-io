@@ -25,7 +25,7 @@ Gibt eine Funktion zur체ck, die Text entsprechend den angegebenen Offsets und L�
 
 ## Examples
 
-### Example #1 
+### Example #1
 Teilen Sie die Eingabe durch die angegebenen Positions- und L채ngenpaare auf, beginnend am Anfang der Eingabe. Beachten Sie, dass sich die Bereiche in diesem Beispiel 체berlappen.
 ```powerquery
 Splitter.SplitTextByRanges({{0, 4}, {2, 10}})("codelimiter")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Teilen Sie die Eingabe durch die angegebenen Positions- und L채ngenpaare auf, beginnend am Ende der Eingabe.
 ```powerquery
 let
@@ -52,7 +52,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Teilen Sie die Eingabe in eine Postleitzahl mit fester L채nge auf, gefolgt von einem Ortsnamen mit variabler L채nge.
 ```powerquery
 Splitter.SplitTextByRanges({{0, 5}, {5, null}})("98052Redmond")

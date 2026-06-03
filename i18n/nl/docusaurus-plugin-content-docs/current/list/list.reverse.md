@@ -19,13 +19,13 @@ List.Reverse(
 
 ## Remarks
 
-Retourneert een lijst met de waarden in de lijst <code>list</code> in omgekeerde volgorde.
+Retourneert een lijst met de waarden in de lijst `list` in omgekeerde volgorde.
 
 
 ## Examples
 
-### Example #1 
-Een lijst van \{1..10} in omgekeerde volgorde maken.
+### Example #1
+Een lijst van \{1..10\} in omgekeerde volgorde maken.
 ```powerquery
 List.Reverse({1..10})
 ```

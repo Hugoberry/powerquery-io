@@ -19,13 +19,13 @@ Text.Length(
 
 ## Remarks
 
-पाठ <code>text</code> के वर्णों की संख्या लौटाता है.
+पाठ `text` के वर्णों की संख्या लौटाता है.
 
 
 ## Examples
 
-### Example #1 
-खोजें कि पाठ &#34;Hello World&#34; में कितने वर्ण हैं.
+### Example #1
+खोजें कि पाठ "Hello World" में कितने वर्ण हैं.
 ```powerquery
 Text.Length("Hello World")
 ```

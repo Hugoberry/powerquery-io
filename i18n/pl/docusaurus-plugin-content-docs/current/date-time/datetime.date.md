@@ -19,12 +19,12 @@ DateTime.Date(
 
 ## Remarks
 
-Zwraca składnik daty z danej wartości <code>dateTime</code> typu <code>date</code>, <code>datetime</code> lub <code>datetimezone</code>.
+Zwraca składnik daty parametru `dateTime`, jeśli parametr ma wartość `data`, `data/godzina` lub wartość `strefa czasowa`, lub wartość`null` jeśli parametr ma wartość `null`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź datę w wartości #datetime(2010, 12, 31, 11, 56, 02).
 ```powerquery
 DateTime.Date(#datetime(2010, 12, 31, 11, 56, 02))

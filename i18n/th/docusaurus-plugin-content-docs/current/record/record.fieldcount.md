@@ -19,12 +19,12 @@ Record.FieldCount(
 
 ## Remarks
 
-ส่งกลับจำนวนของเขตข้อมูลในระเบียน <code>record</code>
+ส่งกลับจำนวนของเขตข้อมูลในระเบียน `record`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ค้นหาจำนวนฟิลด์ในระเบียน
 ```powerquery
 Record.FieldCount([CustomerID = 1, Name = "Bob"])

@@ -19,13 +19,13 @@ Text.Length(
 
 ## Remarks
 
-Devolve o número de carateres existente no texto <code>text</code>.
+Devolve o número de carateres existente no texto `text`.
 
 
 ## Examples
 
-### Example #1 
-Determinar quantos carateres existem no texto &#34;Olá Mundo&#34;.
+### Example #1
+Determinar quantos carateres existem no texto "Olá Mundo".
 ```powerquery
 Text.Length("Hello World")
 ```

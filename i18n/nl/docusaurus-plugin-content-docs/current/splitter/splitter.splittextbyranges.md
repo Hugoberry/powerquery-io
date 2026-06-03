@@ -25,7 +25,7 @@ Retourneert een functie die tekst splitst in een lijst met tekst volgens de opge
 
 ## Examples
 
-### Example #1 
+### Example #1
 Splits de invoer op basis van de opgegeven positie- en lengteparen, te beginnen bij het begin van de invoer. De bereiken in dit voorbeeld overlappen elkaar.
 ```powerquery
 Splitter.SplitTextByRanges({{0, 4}, {2, 10}})("codelimiter")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Splits de invoer op basis van de opgegeven positie- en lengteparen, te beginnen bij het einde van de invoer.
 ```powerquery
 let
@@ -52,7 +52,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Splits de invoer in een postcode met vaste lengte, gevolgd door een plaatsnaam met variabele lengte.
 ```powerquery
 Splitter.SplitTextByRanges({{0, 5}, {5, null}})("98052Redmond")

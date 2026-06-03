@@ -20,12 +20,14 @@ Table.FromValue(
 
 ## Remarks
 
-สร้างตารางด้วยคอลัมน์ซึ่งมีค่าหรือรายการของค่าที่ระบุไว้ <code>value</code> อาจมีการระบุพารามิเตอร์บันทึกข้อมูลที่เป็นทางเลือก <code>options</code> เพื่อควบคุมตัวเลือกดังต่อไปนี้:    <ul>    <li> <code>DefaultColumnName</code> : ใช้ชื่อคอลัมน์เมื่อสร้างตารางจากรายการค่าหรือค่าที่การปรับสเกล</li>    </ul>  
+สร้างตารางด้วยคอลัมน์ซึ่งมีค่าหรือรายการของค่าที่ระบุไว้ `value`. อาจมีการระบุพารามิเตอร์เรกคอร์ดที่เลือกได้ `options` เพื่อควบคุมตัวเลือกต่อไปนี้:
+
+-   `DefaultColumnName` : ใช้ชื่อคอลัมน์เมื่อสร้างตารางจากรายการค่าหรือค่าสเกลาร์
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 สร้างตารางจากค่า 1
 ```powerquery
 Table.FromValue(1)
@@ -37,7 +39,7 @@ Table.FromRecords({[Value = 1]})
 ```
 
 
-### Example #2 
+### Example #2
 สร้างตารางจากรายการ
 ```powerquery
 Table.FromValue({1, "Bob", "123-4567"})
@@ -53,7 +55,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 สร้างตารางจากค่า 1 พร้อมชื่อคอลัมน์แบบกำหนดเอง
 ```powerquery
 Table.FromValue(1, [DefaultColumnName = "MyValue"])

@@ -21,13 +21,13 @@ Int64.From(
 
 ## Remarks
 
-指定された <code>value</code> から 64 ビット整数の <code>number</code> 値を返します。指定された <code>value</code> が <code>null</code> の場合、<code>Int64.From</code> は <code>null</code> を返します。指定された <code>value</code> が 64 ビット整数の範囲内の <code>number</code> で、小数部がない場合には、<code>value</code> が返されます。小数部がある場合には、指定されている端数処理モードで数値が端数処理されます。既定の端数処理モードは <code>RoundingMode.ToEven</code> です。<code>value</code> がそれ以外の種類の場合、まずは <code>Number.FromText</code> を参照して <code>number</code> 値に変換されます。利用可能な端数処理モードについては、<code>Number.Round</code> をご覧ください。省略可能な <code>culture</code> を指定することもできます (例: "en-US")。
+指定された `value` から 64 ビット整数の `number` 値を返します。指定された `value` が `null` の場合、`Int64.From` は `null` を返します。指定された `value` が 64 ビット整数の範囲内の `number` で、小数部がない場合には、`value` が返されます。小数部がある場合には、指定されている端数処理モードで数値が端数処理されます。既定の端数処理モードは `RoundingMode.ToEven` です。`value` がそれ以外の種類の場合、まずは `Number.FromText` を参照して `number` 値に変換されます。利用可能な端数処理モードについては、`Number.Round` をご覧ください。省略可能な `culture` を指定することもできます (例: "en-US")。
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;number&lt;/code&gt; 値が &lt;code&gt;&#34;4&#34;&lt;/code&gt; の 64 ビットの整数を取得します。
+### Example #1
+`number` 値が `"4"` の 64 ビットの整数を取得します。
 ```powerquery
 Int64.From("4")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-&lt;code&gt;RoundingMode.AwayFromZero&lt;/code&gt; を使用して、&lt;code&gt;&#34;4.5&#34;&lt;/code&gt; の 64 ビットの整数 &lt;code&gt;number&lt;/code&gt; を取得します。
+### Example #2
+`RoundingMode.AwayFromZero` を使用して、`"4.5"` の 64 ビットの整数 `number` を取得します。
 ```powerquery
 Int64.From("4.5", null, RoundingMode.AwayFromZero)
 ```

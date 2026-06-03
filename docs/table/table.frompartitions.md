@@ -21,13 +21,13 @@ Table.FromPartitions(
 
 ## Remarks
 
-Returns a table that is the result of combining a set of partitioned tables, <code>partitions</code>. <code>partitionColumn</code> is the name of the column to add. The type of the column defaults to <code>any</code>, but can be specified by <code>partitionColumnType</code>.
+Returns a table that is the result of combining a set of partitioned tables, `partitions`. `partitionColumn` is the name of the column to add. The type of the column defaults to `any`, but can be specified by `partitionColumnType`.
 
 
 ## Examples
 
-### Example #1 
-Find item type from the list &lt;code&gt;\{number}&lt;/code&gt;.
+### Example #1
+Find item type from the list `{number}`.
 ```powerquery
 Table.FromPartitions(
     "Year",

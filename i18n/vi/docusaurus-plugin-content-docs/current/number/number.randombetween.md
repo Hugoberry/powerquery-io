@@ -20,12 +20,12 @@ Number.RandomBetween(
 
 ## Remarks
 
-Trả về một số ngẫu nhiên giữa <code>bottom</code> và <code>top</code>.
+Trả về một số ngẫu nhiên giữa `bottom` và `top`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Nhận một số ngẫu nhiên giữa 1 và 5.
 ```powerquery
 Number.RandomBetween(1, 5)

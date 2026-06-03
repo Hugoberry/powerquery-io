@@ -21,12 +21,12 @@ Stripe.Contents(
 
 ## Remarks
 
-Hiermee wordt de Stripe API op https://api.stripe.com/v1/<code>method</code> aangeroepen, waarbij de optionele record <code>query</code> wordt doorgegeven als aanvullende parameters en het optionele item <code>pageLimit</code> als beperking voor het aantal API-aanvragen. De meest recente gegevens worden als eerste geretourneerd. Als <code>pageLimit</code> niet is opgegeven, worden alle gegevens geretourneerd. Stripe-versie 2015-10-16 wordt gebruikt.
+Hiermee wordt de Stripe API op https://api.stripe.com/v1/`method` aangeroepen, waarbij de optionele record `query` wordt doorgegeven als aanvullende parameters en het optionele item `pageLimit` als beperking voor het aantal API-aanvragen. De meest recente gegevens worden als eerste geretourneerd. Als `pageLimit` niet is opgegeven, worden alle gegevens geretourneerd. Stripe-versie 2015-10-16 wordt gebruikt.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hiermee worden alle gegevens over kosten geretourneerd
 ```powerquery
 Stripe.Contents("charges")
@@ -38,7 +38,7 @@ Een tabel met alle gegevens over kosten voor het huidige Stripe-account
 ```
 
 
-### Example #2 
+### Example #2
 Hiermee wordt één pagina met gegevens over kosten geretourneerd
 ```powerquery
 Stripe.Contents("charges", [], 1)

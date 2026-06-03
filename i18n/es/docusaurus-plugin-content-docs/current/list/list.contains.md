@@ -21,13 +21,17 @@ List.Contains(
 
 ## Remarks
 
-Indica si la lista <code>list</code> contiene el valor <code>value</code>.    Devuelve "true" si el valor se encuentra en la lista, y "false" en caso contrario. Se puede especificar un valor opcional de criterios de ecuación (<code>equationCriteria</code>) para controlar la igualdad de las pruebas. 
+Indica si la lista contiene el valor especificado. Devuelve `true` si el valor se encuentra en la lista, de lo contrario devuelve `false`.
+
+-   `list`: la lista en la que se va a buscar.
+-   `value`: el valor que se va a buscar en la lista.
+-   `equationCriteria`: (Opcional) El comparador que se usa para determinar si dos valores son iguales.
 
 
 ## Examples
 
-### Example #1 
-Buscar si la lista \{1, 2, 3, 4, 5} contiene 3.
+### Example #1
+Determine si la lista \{1, 2, 3, 4, 5\} contiene 3.
 ```powerquery
 List.Contains({1, 2, 3, 4, 5}, 3)
 ```
@@ -38,8 +42,8 @@ true
 ```
 
 
-### Example #2 
-Buscar si la lista \{1, 2, 3, 4, 5} contiene 6.
+### Example #2
+Determine si la lista \{1, 2, 3, 4, 5\} contiene 6.
 ```powerquery
 List.Contains({1, 2, 3, 4, 5}, 6)
 ```
@@ -47,6 +51,37 @@ List.Contains({1, 2, 3, 4, 5}, 6)
 Result: 
 ```powerquery
 false
+```
+
+
+### Example #3
+Omitiendo mayúsculas y minúsculas, determine si la lista contiene "rhrbrb".
+```powerquery
+List.Contains({"Pears", "Bananas", "Rhubarb", "Peaches"},
+    "rhubarb",
+    Comparer.OrdinalIgnoreCase
+)
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+### Example #4
+Determine si la lista contiene la fecha 8 de abril de 2022.
+```powerquery
+let
+    Source = {#date(2024, 2, 23), #date(2023, 12, 2), #date(2022, 4, 8), #date(2021, 7, 6)},
+    ContainsDate = List.Contains(Source, Date.From("4/8/2022"))
+in
+    ContainsDate
+```
+
+Result: 
+```powerquery
+true
 ```
 
 

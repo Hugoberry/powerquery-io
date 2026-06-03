@@ -20,13 +20,17 @@ List.RemoveFirstN(
 
 ## Remarks
 
-Devuelve una lista que quita el primer elemento de la lista <code>list</code>. Si <code>list</code> es una lista vacía, se devuelve una lista vacía.Esta función toma un parámetro opcional (<code>countOrCondition</code>) para poder quitar varios valores según se muestra a continuación. <ul><li>Si se especifica un número, se quitan hasta ese número de elementos. </li> <li>Si se especifica una condición, la lista devuelta empieza por el primer elemento de <code>list</code> que cumple los criterios. Si un elemento no cumple la condición, no se considerarán más elementos. </li> <li>Si este parámetro es "null", se observa el comportamiento predeterminado. </li> </ul>
+Devuelve una lista que quita el primer elemento de la lista `list`. Si `list` es una lista vacía, se devuelve una lista vacía. Esta función toma un parámetro opcional, `countOrCondition` para admitir la eliminación de varios valores como se muestra a continuación.
+
+-   Si se especifica un número, se quitan hasta ese número de elementos.
+-   Si se especifica una condición, se quitan todos los elementos coincidentes consecutivos al principio de `list`.
+-   Si este parámetro es null, se observa el comportamiento predeterminado.
 
 
 ## Examples
 
-### Example #1 
-Crear una lista a partir de \{1, 2, 3, 4, 5} sin los 3 primeros números.
+### Example #1
+Crear una lista a partir de \{1, 2, 3, 4, 5\} sin los 3 primeros números.
 ```powerquery
 List.RemoveFirstN({1, 2, 3, 4, 5}, 3)
 ```
@@ -37,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-Crear una lista a partir de \{5, 4, 2, 6, 1} que empiece con un número menor que 3.
+### Example #2
+Crear una lista a partir de \{5, 4, 2, 6, 1\} que empiece con un número menor que 3.
 ```powerquery
 List.RemoveFirstN({5, 4, 2, 6, 1}, each _ > 3)
 ```

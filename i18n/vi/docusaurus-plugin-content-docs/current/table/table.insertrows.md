@@ -21,12 +21,12 @@ Table.InsertRows(
 
 ## Remarks
 
-Trả về một bảng có danh sách các hàng, <code>rows</code>, được chèn vào <code>table</code> tại vị trí định sẵn, <code>offset</code>. Mỗi cột trong hàng sẽ chèn phải khớp với loại cột của bảng.
+Trả về một bảng có danh sách các hàng, `rows`, được chèn vào `table` tại vị trí định sẵn, `offset`. Mỗi cột trong hàng sẽ chèn phải khớp với loại cột của bảng.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Chèn một hàng vào bảng tại vị trí 1.
 ```powerquery
 Table.InsertRows(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Chèn hai hàng vào bảng tại vị trí 1.
 ```powerquery
 Table.InsertRows(

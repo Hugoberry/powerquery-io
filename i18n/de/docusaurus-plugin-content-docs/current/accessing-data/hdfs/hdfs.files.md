@@ -19,7 +19,7 @@ Hdfs.Files(
 
 ## Remarks
 
-Gibt eine Tabelle mit je einer Zeile für die einzelnen Dateien unter der Ordner-URL "<code>url</code>" (einschließlich Unterordner) aus einem Hadoop-Dateisystem zurück. Jede Zeile enthält Eigenschaften der Datei sowie einen Link zu ihrem Inhalt.
+Gibt eine Tabelle mit je einer Zeile für die einzelnen Dateien unter der Ordner-URL "`url`" (einschließlich Unterordner) aus einem Hadoop-Dateisystem zurück. Jede Zeile enthält Eigenschaften der Datei sowie einen Link zu ihrem Inhalt.
 
 
 

@@ -24,7 +24,7 @@ Trả về các khóa của bảng được chỉ định.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tải danh sách khóa cho bảng.
 ```powerquery
 let

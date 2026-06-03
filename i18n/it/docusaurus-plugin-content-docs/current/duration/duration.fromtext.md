@@ -19,13 +19,24 @@ Duration.FromText(
 
 ## Remarks
 
-Restituisce un valore di durata dal testo specificato, <code>text</code>. Questa funzione può analizzare i formati seguenti: <ul>        <li>(-)hh:mm(:ss(.ff)) </li>        <li>(-)ggg(.hh:mm(:ss(.ff))) </li> </ul>        <br />        (Tutti gli intervalli sono inclusivi)<br />        ggg: numero di giorni.<br />        hh: numero di ore, compreso tra 0 e 23.<br />        mm: numero di minuti, compreso tra 0 e 59.<br />        ss: numero di secondi, compreso tra 0 e 59.<br />        ff: frazione di secondi, compreso tra 0 e 9999999.
+Restituisce un valore di durata dal testo specificato, `text`. Questa funzione può analizzare i formati seguenti:
+
+-   (-)hh:mm(:ss(.ff))
+-   (-)ddd(.hh:mm(:ss(.ff)))
+
+(tutti gli intervalli sono inclusivi)
+
+-   ggg: numero di giorni.
+-   hh: numero di ore, compreso tra 0 e 23.
+-   mm: numero di minuti compreso tra 0 e 59.
+-   ss: numero di secondi compreso tra 0 e 59.
+-   ff: frazione di secondi, compresa tra 0 e 9999999.
 
 
 ## Examples
 
-### Example #1 
-Converte &lt;code&gt;&#34;2.05:55:20&#34;&lt;/code&gt; in un valore &lt;code&gt;duration&lt;/code&gt;.
+### Example #1
+Converte `"2.05:55:20"` in un valore `duration`.
 ```powerquery
 Duration.FromText("2.05:55:20")
 ```

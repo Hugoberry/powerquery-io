@@ -19,7 +19,7 @@ Exchange.Contents(
 
 ## Remarks
 
-<code>mailboxAddress</code> Microsoft Exchange hesabına ilişkin bir içerik tablosu döndürür. <code>mailboxAddress</code> belirtilmediği takdirde, kimlik bilgilerine ilişkin varsayılan hesap kullanılır.
+`mailboxAddress` Microsoft Exchange hesabına ilişkin bir içerik tablosu döndürür. `mailboxAddress` belirtilmediği takdirde, kimlik bilgilerine ilişkin varsayılan hesap kullanılır.
 
 
 

@@ -21,13 +21,13 @@ Record.SelectFields(
 
 ## Remarks
 
-Retourne un enregistrement qui comprend uniquement les champs spécifiés dans la liste <code>fields</code> à partir de l'entrée <code>record</code>.
+Retourne un enregistrement qui comprend uniquement les champs spécifiés dans la liste `fields` à partir de l'entrée `record`.
 
 
 ## Examples
 
-### Example #1 
-Sélectionne les champs &#34; Item &#34; et &#34; Price &#34; dans l&#39;enregistrement.
+### Example #1
+Sélectionne les champs "Item" et "Price" dans l'enregistrement.
 ```powerquery
 Record.SelectFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0],

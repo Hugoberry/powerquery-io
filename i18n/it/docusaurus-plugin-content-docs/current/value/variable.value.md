@@ -5,7 +5,7 @@ title: Variable.Value
 # Variable.Value
 
 
-Questa funzione è solo per uso interno.
+Restituisce il valore della variabile specificata.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Variable.Value(
 
 ## Remarks
 
-Questa funzione è solo per uso interno.
+Restituisce il valore della variabile specificata `identifier` definita dall'ambiente di valutazione corrente. Se la variabile non è definita, viene generato un errore.
 
 
 

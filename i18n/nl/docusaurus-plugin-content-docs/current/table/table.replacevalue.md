@@ -23,13 +23,19 @@ Table.ReplaceValue(
 
 ## Remarks
 
-Vervangt <code>oldValue</code> door <code>newValue</code> in de opgegeven kolommen van de <code>table</code>.
+Vervangt een waarde door een nieuwe waarde in de opgegeven kolommen van een tabel.
+
+-   `table`: De tabel die moet worden doorzocht.
+-   `oldValue`: De waarde die moet worden vervangen.
+-   `newValue`: De vervangingswaarde.
+-   `replacer`: De vervangingsfunctie die moet worden gebruikt. Dit kan zijn `Replacer.ReplaceText` om de oorspronkelijke tekst te vervangen door nieuwe tekst, `Replacer.ReplaceValue` om de oorspronkelijke waarde te vervangen door een nieuwe waarde, of een aangepaste replacer.
+-   `columnsToSearch`: Een lijst met de specifieke kolom of kolommen in de tabel waarin gezocht wordt naar de te vervangen waarde.
 
 
 ## Examples
 
-### Example #1 
-Vervang de tekst &#39;tot ziens&#39; door &#39;wereld&#39; in kolom B, waarbij alleen de hele waarde overeenkomt.
+### Example #1
+Vervang de tekst 'tot ziens' door 'wereld' in kolom B, waarbij alleen de hele waarde overeenkomt.
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -54,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Vervang de tekst &#39;uw&#39; door &#39;of&#39; in kolom B, waarbij een gedeelte van de waarde overeenkomt.
+### Example #2
+Vervang de tekst 'uw' door 'of' in kolom B, waarbij een gedeelte van de waarde overeenkomt.
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -78,7 +84,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 De namen van Amerikaanse werknemers anoniem maken.
 ```powerquery
 Table.ReplaceValue(
@@ -102,7 +108,7 @@ Table.FromRecords({
 ```
 
 
-### Example #4 
+### Example #4
 Alle kolommen van Amerikaanse werknemers anoniem maken.
 ```powerquery
 Table.ReplaceValue(

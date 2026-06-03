@@ -20,13 +20,13 @@ List.Sum(
 
 ## Remarks
 
-傳回清單 <code>list</code> 中非 null 值的總和。如果清單中沒有非 Null 值，則傳回 Null。
+傳回清單 `list` 中非 null 值的總和。如果清單中沒有非 Null 值，則傳回 Null。
 
 
 ## Examples
 
-### Example #1 
-找出清單 &lt;code&gt;\{1, 2, 3}&lt;/code&gt; 中數字的總和。
+### Example #1
+找出清單 `{1, 2, 3}` 中數字的總和。
 ```powerquery
 List.Sum({1, 2, 3})
 ```

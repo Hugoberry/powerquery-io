@@ -5,7 +5,7 @@ title: Table.Split
 # Table.Split
 
 
-Divise la table spécifiée en liste de tables à l&#39;aide de la taille de page spécifiée.
+Divise la table spécifiée en liste de tables à l'aide de la taille de page spécifiée.
 
 
 ## Syntax
@@ -20,12 +20,12 @@ Table.Split(
 
 ## Remarks
 
-Se divise <code>table</code> en une liste de tables où le premier élément de la liste est une table contenant les premières <code>pageSize</code> lignes de    la table source, l'élément suivant de la liste est une table contenant les lignes <code>pageSize</code> suivantes de la table source, et ainsi de suite.
+Se divise `table` en une liste de tables où le premier élément de la liste est une table contenant les premières `pageSize` lignes de la table source, l'élément suivant de la liste est une table contenant les lignes `pageSize` suivantes de la table source, et ainsi de suite.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Divisez une table de cinq enregistrements en tables de deux enregistrements chacune.
 ```powerquery
 let

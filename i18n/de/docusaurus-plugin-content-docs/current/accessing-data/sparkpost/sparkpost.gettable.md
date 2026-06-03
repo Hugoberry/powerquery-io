@@ -27,8 +27,8 @@ Mithilfe dieser Funktion können Daten von einem bestimmten Endpunkt "Metrics" d
 
 ## Examples
 
-### Example #1 
-Ruft die Zustellbarkeitsmetriken &#34;count_sent&#34; und &#34;count_rejected&#34; für alle campaign_ids ab (aggregiert über die letzten drei Tage).
+### Example #1
+Ruft die Zustellbarkeitsmetriken "count\_sent" und "count\_rejected" für alle campaign\_ids ab (aggregiert über die letzten drei Tage).
 ```powerquery
 Source = SparkPost.GetTable(3, "count_sent,count_rejected", "campaign_id", "metrics/deliverability/campaign")
 ```

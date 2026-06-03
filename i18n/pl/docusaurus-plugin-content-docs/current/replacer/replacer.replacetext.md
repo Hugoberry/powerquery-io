@@ -21,12 +21,12 @@ Replacer.ReplaceText(
 
 ## Remarks
 
-Zamienia tekst <code>old</code> w oryginalnym ciągu <code>text</code> na tekst <code>new</code>. Tej funkcji zamieniającej można używać w funkcjach <code>List.ReplaceValue</code> i <code>Table.ReplaceValue</code>.
+Zamienia tekst `old` w oryginalnym ciągu `text` na tekst `new`. Tej funkcji zamieniającej można używać w funkcjach `List.ReplaceValue` i `Table.ReplaceValue`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zamień tekst „hE” na „He” w ciągu „hEllo world”.
 ```powerquery
 Replacer.ReplaceText("hEllo world", "hE", "He")

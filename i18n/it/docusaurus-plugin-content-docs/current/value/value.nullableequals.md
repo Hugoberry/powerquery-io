@@ -21,7 +21,7 @@ Value.NullableEquals(
 
 ## Remarks
 
-Restituisce Null se uno dei due argomenti '<code>value1</code>' o '<code>value2</code>' è Null, in caso contrario l'equivalente di Value.Equals.
+Restituisce Null se uno dei due argomenti `value1` o `value2` è Null, in caso contrario l'equivalente di Value.Equals.
 
 
 

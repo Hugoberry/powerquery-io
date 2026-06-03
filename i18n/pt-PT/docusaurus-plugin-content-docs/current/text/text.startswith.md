@@ -21,13 +21,25 @@ Text.StartsWith(
 
 ## Remarks
 
-Devolve true se o valor de texto <code>text</code> começar com o valor de texto <code>substring</code>.      <ul>        <li><code>text</code>: <i></i> um valor <code>text</code> a procurar</li>        <li><code>substring</code>: <i></i> um valor <code>text</code> que representa a subcadeia a procurar em <code>substring</code></li>        <li><code>comparer</code>: <i>[Opcional]</i> um <code>Comparer</code> utilizado para controlar a comparação. Por exemplo, <code>Comparer.OrdinalIgnoreCase</code> pode ser utilizado para efetuar pesquisas não sensíveis a maiúsculas/minúsculas</li>      </ul>      <div>         <code>comparer</code>é um <code>Comparer</code> utilizado para controlar a comparação. Os comparadores podem ser utilizados para fornecer comparações não sensíveis a maiúsculas/minúsculas ou baseadas na cultura e região.      </div>      <div>        Os comparadores incorporados que se seguem estão disponíveis na linguagem da fórmula:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: utilizado para executar uma comparação ordinal exata</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: utilizado para executar uma comparação ordinal exata não sensível a maiúsculas/minúsculas</li>        <li> <code>Comparer.FromCulture</code>: utilizado para executar uma comparação baseada na cultura</li>      </ul>
+Devolve true se o valor de texto `text` começar com o valor de texto `substring`.
+
+-   `text`: um valor `text` no qual será efetuada a procura.
+-   `substring`: um valor `text` que é a subcadeia a procurar em `text`.
+-   `comparer`: *(opcional)* um `Comparer` utilizado para controlar a comparação. Por exemplo, `Comparer.OrdinalIgnoreCase` poderá ser utilizado para efetuar procuras não sensíveis às maiúsculas e minúsculas.
+
+`comparer` é um `Comparer` utilizado para controlar a comparação. Os comparadores poderão ser utilizados para fornecer comparações não sensíveis às maiúsculas e minúsculas ou sensíveis à cultura e à região.
+
+Os comparadores incorporados seguintes estão disponíveis na linguagem de fórmulas:
+
+-   `Comparer.Ordinal`: utilizado para efetuar uma comparação ordinal exata.
+-   `Comparer.OrdinalIgnoreCase`: utilizado para efetuar uma comparação ordinal exata não sensível às maiúsculas e minúsculas.
+-   `Comparer.FromCulture`: utilizado para efetuar uma comparação sensível à cultura.
 
 
 ## Examples
 
-### Example #1 
-Verificar se o texto &#34;Olá, Mundo&#34; começa com o texto &#34;olá&#34;.
+### Example #1
+Verificar se o texto "Olá, Mundo" começa com o texto "olá".
 ```powerquery
 Text.StartsWith("Hello, World", "hello")
 ```
@@ -38,10 +50,22 @@ false
 ```
 
 
-### Example #2 
-Verificar se o texto &#34;Olá, Mundo&#34; começa com o texto &#34;Olá&#34;.
+### Example #2
+Verificar se o texto "Olá, Mundo" começa com o texto "Olá".
 ```powerquery
 Text.StartsWith("Hello, World", "Hello")
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+### Example #3
+A ignorar a utilização de maiúsculas/minúsculas; verifique se o texto "Hello, World" começa com o texto "hello".
+```powerquery
+Text.StartsWith("Hello, World", "hello", Comparer.OrdinalIgnoreCase)
 ```
 
 Result: 

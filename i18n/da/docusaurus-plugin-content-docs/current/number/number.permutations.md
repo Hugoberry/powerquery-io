@@ -20,12 +20,12 @@ Number.Permutations(
 
 ## Remarks
 
-Returnerer antallet af permutationer, der kan oprettes ud fra et antal elementer, <code>setSize</code>, med en angivet permutationsstørrelse, <code>permutationSize</code>.
+Returnerer antallet af permutationer, der kan oprettes ud fra et antal elementer, `setSize`, med en angivet permutationsstørrelse, `permutationSize`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find antallet af permutationer fra i alt fem elementer i grupper på tre.
 ```powerquery
 Number.Permutations(5, 3)

@@ -20,12 +20,12 @@ BinaryFormat.Transform(
 
 ## Remarks
 
-Trả về một định dạng nhị phân sẽ chuyển đổi các giá trị được đọc bởi một định dạng nhị phân khác.  Tham số <code>binaryFormat</code> chỉ định định dạng nhị phân sẽ được dùng để đọc giá trị.  <code>function</code> được gọi ra bằng giá trị được đọc và trả về giá trị được chuyển đổi.
+Trả về một định dạng nhị phân sẽ chuyển đổi các giá trị được đọc bởi một định dạng nhị phân khác. Tham số `binaryFormat` chỉ định định dạng nhị phân sẽ được dùng để đọc giá trị. `function` được gọi ra bằng giá trị được đọc và trả về giá trị được chuyển đổi.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Đọc một byte và thêm một byte vào đó.
 ```powerquery
 let

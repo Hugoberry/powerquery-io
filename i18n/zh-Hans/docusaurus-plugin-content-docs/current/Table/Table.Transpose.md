@@ -25,7 +25,7 @@ Table.Transpose(
 
 ## Examples
 
-### Example #1 
+### Example #1
 使名称-值对的表行成为列。
 ```powerquery
 Table.Transpose(

@@ -5,7 +5,7 @@ title: Table.FromRows
 # Table.FromRows
 
 
-从行值列表和可选列创建一个表
+从行值列表和可选列创建一个表。
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Table.FromRows(
 
 ## Remarks
 
-从列表 <code>rows</code> 创建一个表，其中该列表的每个元素都是一个包含用于单一行的列值的内部列表。可以为 <code>columns</code> 提供可选的列名列表、表类型或若干列。
+从列表 `rows` 创建一个表，其中该列表的每个元素都是一个包含用于单一行的列值的内部列表。可以为 `columns` 提供可选的列名列表、表类型或若干列。
 
 
 ## Examples
 
-### Example #1 
-使用列 [CustomerID] 以及值 \{1, 2}、列 [Name] 以及值 \{&#34;Bob&#34;, &#34;Jim&#34;}、列 [Phone] 以及值 \{&#34;123-4567&#34;, &#34;987-6543&#34;} 返回一个表。
+### Example #1
+使用列 \[CustomerID\] 以及值 \{1, 2\}、列 \[Name\] 以及值 \{"Bob", "Jim"\}、列 \[Phone\] 以及值 \{"123-4567", "987-6543"\} 返回一个表。
 ```powerquery
 Table.FromRows(
     {
@@ -46,8 +46,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-使用列 [CustomerID] 以及值 \{1, 2}、列 [Name] 以及值 \{&#34;Bob&#34;, &#34;Jim&#34;}、列 [Phone] 以及值 \{&#34;123-4567&#34;, &#34;987-6543&#34;} 返回一个表，其中 [CustomerID] 是数值类型，[Name] 和 [Phone] 是文本类型。
+### Example #2
+使用列 \[CustomerID\] 以及值 \{1, 2\}、列 \[Name\] 以及值 \{"Bob", "Jim"\}、列 \[Phone\] 以及值 \{"123-4567", "987-6543"\} 返回一个表，其中 \[CustomerID\] 是数值类型，\[Name\] 和 \[Phone\] 是文本类型。
 ```powerquery
 Table.FromRows(
     {

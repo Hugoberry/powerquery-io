@@ -5,7 +5,7 @@ title: VSTS.AccountContents
 # VSTS.AccountContents
 
 
-Entrez l&#39;URL de votre service Azure DevOps Analytics.
+Entrez l'URL de votre service Azure DevOps Analytics.
 
 
 ## Syntax

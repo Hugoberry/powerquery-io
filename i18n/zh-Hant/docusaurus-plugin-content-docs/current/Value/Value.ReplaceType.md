@@ -20,12 +20,12 @@ Value.ReplaceType(
 
 ## Remarks
 
-將 <code>value</code>的類型取代為提供的 <code>type</code>。
+將 `value`的類型取代為提供的 `type`。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 以更特定的類型取代記錄的預設類型。
 ```powerquery
 Type.RecordFields(

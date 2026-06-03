@@ -20,12 +20,12 @@ Table.Combine(
 
 ## Remarks
 
-Devuelve una tabla que es el resultado de combinar una lista de tablas, <code>tables</code>. La tabla resultante tendrá una estructura de tipo de fila definida por <code>columns</code>, o bien por una unión de los tipos de entrada si no se especifica <code>columns</code>.
+Devuelve una tabla que es el resultado de combinar una lista de tablas, `tables`. La tabla resultante tendrá una estructura de tipo de fila definida por `columns`, o bien por una unión de los tipos de entrada si no se especifica `columns`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combinar las tres tablas juntas.
 ```powerquery
 Table.Combine({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Se combinan tres tablas con diferentes estructuras.
 ```powerquery
 Table.Combine({
@@ -65,7 +65,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Se combinan dos tablas y el proyecto para el tipo especificado.
 ```powerquery
 Table.Combine(

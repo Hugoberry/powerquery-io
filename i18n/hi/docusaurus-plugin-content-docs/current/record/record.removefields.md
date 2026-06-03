@@ -21,13 +21,13 @@ Record.RemoveFields(
 
 ## Remarks
 
-एक ऐसा रिकॉर्ड लौटाता है जो इनपुट <code>record</code> से <code>fields</code> में निर्दिष्ट सभी फ़ील्ड निकाल देता है. अगर निर्दिष्ट फ़ील्ड मौजूद नहीं है, तो एक अपवाद दिखाया जाता है.
+एक ऐसा रिकॉर्ड लौटाता है जो इनपुट `record` से सूची `fields` में निर्दिष्ट सभी फ़ील्ड निकाल देता है. अगर निर्दिष्ट फ़ील्ड मौजूद नहीं है, तो एक त्रुटि आएगी.
 
 
 ## Examples
 
-### Example #1 
-रिकॉर्ड से फ़ील्ड &#34;मूल्य&#34; निकालें.
+### Example #1
+रिकॉर्ड से फ़ील्ड "मूल्य" निकालें.
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], "Price")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-रिकॉर्ड से फ़ील्ड &#34;मूल्य&#34; और &#34;आइटम&#34; निकालें.
+### Example #2
+रिकॉर्ड से फ़ील्ड "मूल्य" और "आइटम" निकालें.
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], {"Price", "Item"})
 ```

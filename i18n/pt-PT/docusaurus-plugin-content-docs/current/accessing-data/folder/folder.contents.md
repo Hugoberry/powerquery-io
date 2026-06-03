@@ -20,7 +20,7 @@ Folder.Contents(
 
 ## Remarks
 
-Devolve uma tabela que contém uma linha para cada pasta e ficheiro encontrados na pasta <code>path</code>. Cada linha contém as propriedades da pasta ou ficheiro e uma hiperligação para o respetivo conteúdo. O parâmetro <code>options</code> destina-se atualmente apenas a utilização interna.
+Devolve uma tabela que contém uma linha para cada pasta e ficheiro encontrados na pasta `path`. Cada linha contém as propriedades da pasta ou ficheiro e uma hiperligação para o respetivo conteúdo. O parâmetro `options` destina-se atualmente apenas a utilização interna.
 
 
 

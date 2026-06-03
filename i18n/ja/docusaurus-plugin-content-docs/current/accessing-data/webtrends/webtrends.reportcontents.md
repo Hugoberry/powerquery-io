@@ -27,7 +27,7 @@ Webtrends.ReportContents(
 
 ## Examples
 
-### Example #1 
+### Example #1
 過去 30 日間のデータを得るために Webtrends 訪問者のレポート エンドポイントへの呼び出しを実行する
 ```powerquery
 Webtrends.ReportContents("98765", "xPcmTDDP0P6")

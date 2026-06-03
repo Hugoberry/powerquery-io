@@ -20,13 +20,13 @@ Table.SelectRows(
 
 ## Remarks
 
-Devuelve una tabla de filas de la <code>table</code>, que coincide con la selección <code>condition</code>.
+Devuelve una tabla de filas de la `table`, que coincide con la selección `condition`.
 
 
 ## Examples
 
-### Example #1 
-Seleccionar las filas de la tabla en la cual los valores de la columna [CustomerID] sean mayores que 2.
+### Example #1
+Seleccionar las filas de la tabla en la cual los valores de la columna \[CustomerID\] sean mayores que 2.
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({
@@ -48,8 +48,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Seleccionar las filas de la tabla en la cual los nombres no contengan una &#34;B&#34;.
+### Example #2
+Seleccionar las filas de la tabla en la cual los nombres no contengan una "B".
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({

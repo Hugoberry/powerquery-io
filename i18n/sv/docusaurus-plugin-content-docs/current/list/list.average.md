@@ -20,13 +20,13 @@ List.Average(
 
 ## Remarks
 
-Returnerar medelvärdet för objekten i listan, <code>list</code>. Resultatet returneras med samma datatype som värdena i listan. Kan endast användas med number-, date-, time-, datetime-, datetimezone- och duration-värden.    Om listan är tom returneras null.
+Returnerar medelvärdet för objekten i listan, `list`. Resultatet returneras med samma datatype som värdena i listan. Kan endast användas med number-, date-, time-, datetime-, datetimezone- och duration-värden. Om listan är tom returneras null.
 
 
 ## Examples
 
-### Example #1 
-Hitta medelvärdet för listan med tal, &lt;code&gt;\{3, 4, 6}&lt;/code&gt;.
+### Example #1
+Hitta medelvärdet för listan med tal, `{3, 4, 6}`.
 ```powerquery
 List.Average({3, 4, 6})
 ```
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Hitta medelvärdet för datumvärdena 1 januari 2011, 2 januari 2011 och 3 januari 2011.
 ```powerquery
 List.Average({#date(2011, 1, 1), #date(2011, 1, 2), #date(2011, 1, 3)})

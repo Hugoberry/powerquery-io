@@ -19,12 +19,12 @@ Date.QuarterOfYear(
 
 ## Remarks
 
-Returns a number from 1 to 4 indicating which quarter of the year the date <code>dateTime</code> falls in. <code>dateTime</code> can be a <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> value.
+Returns a number from 1 to 4 indicating which quarter of the year the date `dateTime` falls in. `dateTime` can be a `date`, `datetime`, or `datetimezone` value.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find which quarter of the year the date #date(2011, 12, 31) falls in.
 ```powerquery
 Date.QuarterOfYear(#date(2011, 12, 31))

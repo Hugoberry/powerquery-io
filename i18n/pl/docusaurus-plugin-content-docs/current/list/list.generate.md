@@ -22,12 +22,12 @@ List.Generate(
 
 ## Remarks
 
-Generuje listę wartości przy użyciu podanych funkcji. Funkcja <code>initial</code> generuje początkową wartość kandydującą, która jest następnie testowana względem <code>condition</code>. Jeśli wartość kandydata zostanie zatwierdzona, zostanie zwrócona jako część listy wynikowej, a następna wartość kandydująca zostanie wygenerowana przez przekazanie nowo zatwierdzonej wartości do <code>next</code>. Gdy wartość kandydatów nie jest zgodna z <code>condition</code>, proces generowania listy zostanie zatrzymany. Można również podać  opcjonalny parametr <code>selector</code>, aby przekształcić elementy na liście wynikowej.
+Generuje listę wartości przy użyciu podanych funkcji. Funkcja `initial` generuje początkową wartość kandydującą, która jest następnie testowana względem `condition`. Jeśli wartość kandydata zostanie zatwierdzona, zostanie zwrócona jako część listy wynikowej, a następna wartość kandydująca zostanie wygenerowana przez przekazanie nowo zatwierdzonej wartości do `next`. Gdy wartość kandydatów nie jest zgodna z `condition`, proces generowania listy zostanie zatrzymany. Można również podać opcjonalny parametr `selector`, aby przekształcić elementy na liście wynikowej.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utwórz listę, zaczynając od dziesięciu, wielokrotnie zmniejszając o jeden i upewniając się, że każdy element jest większy od zera.
 ```powerquery
 List.Generate(() => 10, each _ > 0, each _ - 1)
@@ -39,7 +39,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Wygeneruj listę rekordów zawierającą wartości x i y, gdzie x to wartość, a y to lista. Wartość x ma pozostać mniejsza niż 10 i reprezentować liczbę elementów listy y. Po wygenerowaniu listy mają być zwracane tylko wartości x.
 ```powerquery
 List.Generate(

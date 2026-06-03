@@ -20,7 +20,7 @@ HdInsight.Files(
 
 ## Remarks
 
-Returnerar en tabell som innehåller en rad för varje blobfil som påträffats på containerns webbadress, <code>account</code>, från ett Azure Storage-valv. Varje rad innehåller egenskaper för filen och en länk till dess innehåll.
+Returnerar en tabell som innehåller en rad för varje blobfil som påträffats på containerns webbadress, `account`, från ett Azure Storage-valv. Varje rad innehåller egenskaper för filen och en länk till dess innehåll.
 
 
 

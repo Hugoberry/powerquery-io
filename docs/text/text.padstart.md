@@ -21,12 +21,12 @@ Text.PadStart(
 
 ## Remarks
 
-Returns a <code>text</code> value padded to length <code>count</code> by inserting spaces at the start of the text value <code>text</code>.    An optional character <code>character</code> can be used to specify the character used for padding. The default pad character is a space.
+Returns a `text` value padded to length `count` by inserting spaces at the start of the text value `text`. An optional character `character` can be used to specify the character used for padding. The default pad character is a space.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Pad the start of a text value so it is 10 characters long.
 ```powerquery
 Text.PadStart("Name", 10)
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Pad the start of a text value with &#34;|&#34; so it is 10 characters long.
+### Example #2
+Pad the start of a text value with "|" so it is 10 characters long.
 ```powerquery
 Text.PadStart("Name", 10, "|")
 ```

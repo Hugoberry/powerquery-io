@@ -22,8 +22,8 @@ Esta función puede utilizarse para llamar a cualquiera de los extremos de "List
 
 ## Examples
 
-### Example #1 
-Devuelve una tabla con una sola columna rellena con los datos de uno de los extremos &#34;Listas&#34; de la API SparkPost v1 (consulte la documentación de SparkPost para obtener más detalles).
+### Example #1
+Devuelve una tabla con una sola columna rellena con los datos de uno de los extremos "Listas" de la API SparkPost v1 (consulte la documentación de SparkPost para obtener más detalles).
 ```powerquery
 Source = SparkPost.GetList("metrics/campaigns")
 ```

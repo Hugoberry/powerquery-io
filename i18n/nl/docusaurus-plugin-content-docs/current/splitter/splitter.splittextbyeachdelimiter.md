@@ -26,8 +26,8 @@ Retourneert een functie die bij elk opgegeven scheidingsteken in de reeks tekst 
 
 ## Examples
 
-### Example #1 
-Splits de invoer door komma&#39;s en vervolgens een puntkomma, te beginnen bij het begin van de invoer.
+### Example #1
+Splits de invoer door komma's en vervolgens een puntkomma, te beginnen bij het begin van de invoer.
 ```powerquery
 Splitter.SplitTextByEachDelimiter({",", ";"})("a,b;c,d")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Splits de invoer op komma&#39;s en vervolgens op puntkomma&#39;s, waarbij aanhalingstekens worden behandeld zoals elk ander teken en beginnend vanaf het einde van de invoer.
+### Example #2
+Splits de invoer op komma's en vervolgens op puntkomma's, waarbij aanhalingstekens worden behandeld zoals elk ander teken en beginnend vanaf het einde van de invoer.
 ```powerquery
 let
     startAtEnd = true

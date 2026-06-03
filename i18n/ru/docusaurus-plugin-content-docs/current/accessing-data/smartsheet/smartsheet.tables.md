@@ -24,7 +24,7 @@ Smartsheet.Tables(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Возвращает листы, папки, отчеты и рабочие области, доступные на верхнем уровне иерархии Smartsheet
 ```powerquery
 Smartsheet.Tables()

@@ -20,12 +20,16 @@ Table.RemoveLastN(
 
 ## Remarks
 
-Returnerar en tabell som inte innehåller de sista <code>countOrCondition</code> raderna i tabellen <code>table</code>.        Hur många rader som tas bort beror på den valfria parametern <code>countOrCondition</code>.    <ul>    <li> Om <code>countOrCondition</code> utelämnas tas bara den sista raden bort. </li>    <li> Om <code>countOrCondition</code> är ett tal tas så många rader (med början nedifrån) bort. </li>    <li> Om <code>countOrCondition</code> är ett villkor tas de rader som uppfyller villkoret bort tills en rad inte uppfyller villkoret.</li>    </ul>
+Returnerar en tabell som inte innehåller de sista `countOrCondition` raderna i tabellen `table`. Hur många rader som tas bort beror på den valfria parametern `countOrCondition`.
+
+-   Om `countOrCondition` utelämnas tas bara den sista raden bort.
+-   Om `countOrCondition` är ett tal tas så många rader (med början nedifrån) bort.
+-   Om `countOrCondition` är ett villkor tas de rader som uppfyller villkoret bort tills en rad inte uppfyller villkoret.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ta bort den sista raden i tabellen.
 ```powerquery
 Table.RemoveLastN(
@@ -49,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Ta bort de sista raderna där [CustomerID] &gt; 2 i tabellen.
+### Example #2
+Ta bort de sista raderna där \[CustomerID\] > 2 i tabellen.
 ```powerquery
 Table.RemoveLastN(
     Table.FromRecords({

@@ -21,15 +21,17 @@ Html.Table(
 
 ## Remarks
 
-Retorna uma tabela contendo os resultados da execução dos seletores de CSS em relação ao <code>html</code> fornecido. Um parâmetro de registro opcional, <code>options</code>, pode ser fornecido para especificar propriedades adicionais. O registro pode conter os seguintes campos:    <ul><li><code>RowSelector</code></li></ul>    
+Retorna uma tabela contendo os resultados da execução dos seletores de CSS em relação ao `html` fornecido. Um parâmetro de registro opcional, `options`, pode ser fornecido para especificar propriedades adicionais. O registro pode conter os seguintes campos:
+
+-   `RowSelector`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Retorna uma tabela de um valor de texto de html de amostra.
 ```powerquery
-Html.Table("<div class=""name"">Jo</div><span>Gerente</span>", {{"Name", ".name"}, {"Title", "span"}}, [RowSelector=".name"])
+Html.Table("<div class=""name"">Jo</div><span>Manager</span>", {{"Name", ".name"}, {"Title", "span"}}, [RowSelector=".name"])
 ```
 
 Result: 
@@ -38,10 +40,10 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Extrai todos os hrefs de um valor de texto de html de exemplo.
 ```powerquery
-Html.Table("<a href=""/test.html"">Teste</a>", {{"Link", "a", each [Attributes][href]}})
+Html.Table("<a href=""/test.html"">Test</a>", {{"Link", "a", each [Attributes][href]}})
 ```
 
 Result: 
@@ -53,4 +55,4 @@ Result:
 
 
 ## Category
-Acessando dados
+Accessing data

@@ -5,7 +5,7 @@ title: Duration.TotalHours
 # Duration.TotalHours
 
 
--ส่งกลับชั่วโมงทั้งหมดที่ระยะเวลานี้ขยาย
+\-ส่งกลับชั่วโมงทั้งหมดที่ระยะเวลานี้ขยาย
 
 
 ## Syntax
@@ -19,12 +19,12 @@ Duration.TotalHours(
 
 ## Remarks
 
-ส่งกลับชั่วโมงทั้งหมดที่ขยายโดย <code>duration</code>
+ส่งกลับชั่วโมงทั้งหมดที่ขยายโดย `duration`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ค้นหาชั่วโมงทั้งหมดที่ขยายด้วยค่าระยะเวลา
 ```powerquery
 Duration.TotalHours(#duration(5, 4, 3, 2))

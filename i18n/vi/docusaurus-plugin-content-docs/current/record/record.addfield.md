@@ -22,12 +22,12 @@ Record.AddField(
 
 ## Remarks
 
-Thêm trường vào bản ghi <code>record</code> khi được cho sẵn tên của trường là <code>fieldName</code> và giá trị <code>value</code>.
+Thêm trường vào bản ghi `record` khi được cho sẵn tên của trường là `fieldName` và giá trị `value`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Thêm trường Địa chỉ vào bản ghi.
 ```powerquery
 Record.AddField([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "Address", "123 Main St.")

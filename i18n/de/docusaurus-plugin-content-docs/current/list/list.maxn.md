@@ -22,7 +22,62 @@ List.MaxN(
 
 ## Remarks
 
-Gibt die größten Werte in der Liste "<code>list</code>" zurück.    Nach dem Sortieren der Zeilen können optionale Parameter zur weiteren Filterung des Ergebnisses angegeben werden. Der optionale Parameter "<code>countOrCondition</code>" gibt die zurückzugebende Anzahl von Werten oder eine Filterbedingung an. Der optionale Parameter "<code>comparisonCriteria</code>" gibt an, wie Werte in der Liste verglichen werden sollen. <ul>        <li> <code>list</code>: Die Liste mit den Werten.</li>        <li> <code>countOrCondition</code>:  Bei Angabe einer Zahl wird eine Liste mit bis zu <code>countOrCondition</code> Elementen in aufsteigender Reihenfolge zurückgegeben. Bei Angabe einer Bedingung wird eine Liste mit Elementen zurückgegeben, die die Bedingung erfüllen. Erfüllt ein Element die Bedingung nicht, werden ab diesem Punkt keine weiteren Elemente berücksichtigt.</li><li><code>comparisonCriteria</code>: <i>[Opional]</i> Ein optionaler <code>comparisonCriteria</code>-Wert kann angeben werden, um zu bestimmen, wie die Elemente in der Liste verglichen werden sollen. Ist dieser Parameter NULL, wird die standardmäßige Vergleichsfunktion verwendet. </li></ul>
+Gibt die größten Werte in der angegebenen Liste zurück. Nachdem die Zeilen sortiert wurden, können optionale Parameter angegeben werden, um das Ergebnis weiter zu filtern.
+
+-   `list`: Liste der Werte.
+-   `countOrCondition`: Gibt die Anzahl der zurückzugebenden Werte oder eine Filterbedingung an. Wenn eine Zahl angegeben wird, wird eine Liste mit bis zu `countOrCondition` Elementen in absteigender Reihenfolge zurückgegeben. Wenn eine Bedingung angegeben wird, enthält die zurückgegebene Liste alle Elemente, die die Bedingung erfüllen.
+-   `comparisonCriteria`: (Optional) Eine Funktion, die verwendet wird, um die Werte vor dem Vergleich zu transformieren. Wenn dieser Parameter `null` ist, werden die Werte ohne Transformation verglichen.
+-   `includeNulls`: (Optional) Gibt an, ob `null` Werte in der Liste bei der Bestimmung des maximalen Elements berücksichtigt werden sollen. Der Standardwert ist `true`.
+
+
+## Examples
+
+### Example #1
+Ermitteln Sie die fünf größten Werte in der angegebenen Liste.
+```powerquery
+List.MaxN({3, 4, 5, -1, 7, 8, 2}, 5)
+```
+
+Result: 
+```powerquery
+{8, 7, 5, 4, 3}
+```
+
+
+### Example #2
+Suchen Sie die Wörter mit mehr als drei Zeichen.
+```powerquery
+List.MaxN(
+    {"boy", "dog", "pony", "cat", "rabbit", "bat"},
+    each Text.Length(_) > 3
+)
+```
+
+Result: 
+```powerquery
+{"rabbit", "pony"}
+```
+
+
+### Example #3
+Suchen Sie die drei neuesten Datumsangaben aus einer Liste mit deutschen Datumsangaben.
+```powerquery
+let
+    Source = {"12.02.2024", "15.05.2025", "10.10.2021", "16.01.2025", "30.12.2022"},
+    MaxDate = List.MaxN(Source, 3, each Date.FromText(_, [Culture = "de-DE"]))
+in
+    MaxDate
+```
+
+Result: 
+```powerquery
+{
+    "15.05.2025",
+    "16.01.2025",
+    "12.02.2024"
+}
+```
+
 
 
 

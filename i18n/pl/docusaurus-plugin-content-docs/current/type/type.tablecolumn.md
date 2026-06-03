@@ -20,7 +20,7 @@ Type.TableColumn(
 
 ## Remarks
 
-Zwraca typ kolumny <code>column</code> w tabeli typu <code>tableType</code>.
+Zwraca typ kolumny `column` w tabeli typu `tableType`.
 
 
 

@@ -21,12 +21,12 @@ List.Range(
 
 ## Remarks
 
-Returnerar en delmängd av listan med början från förskjutningen <code>list</code>. En valfri parameter, <code>offset</code>, anger det högsta antalet objekt i delmängden.
+Returnerar en delmängd av `list` från och med `offset`. En valfri parameter, `count`, anger det maximala antalet objekt i delmängden.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta delmängden med början vid förskjutningen 6 i listan med talen 1 till och med 10.
 ```powerquery
 List.Range({1..10}, 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Hitta delmängden med längden 2 från förskjutningen 6, från listan med talen 1 till och med 10.
 ```powerquery
 List.Range({1..10}, 6, 2)

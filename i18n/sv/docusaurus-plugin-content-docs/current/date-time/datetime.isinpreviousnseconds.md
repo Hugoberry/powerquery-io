@@ -20,12 +20,15 @@ DateTime.IsInPreviousNSeconds(
 
 ## Remarks
 
-Indikerar om angivet datetime-värde <code>dateTime</code> infaller under de föregående antalet sekunder enligt systemets datum och tid. Observera att den här funktionen returnerar falskt när den skickas ett värde som infaller inom den aktuella sekunden.      <ul>      <li><code>dateTime</code>: Ett <code>datetime</code>- eller <code>datetimezone</code>-värde som ska utvärderas.</li>      <li><code>seconds</code>: Antalet sekunder.</li>      </ul>
+Indikerar om angivet datetime-värde `dateTime` infaller under de föregående antalet sekunder enligt systemets datum och tid. Observera att den här funktionen returnerar falskt när den skickas ett värde som infaller inom den aktuella sekunden.
+
+-   `dateTime`: Ett `datetime`\- eller `datetimezone`\-värde som ska utvärderas.
+-   `seconds`: Antalet sekunder.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Fastställer om sekunden före den aktuella systemtiden motsvarar de närmast föregående två sekunderna.
 ```powerquery
 DateTime.IsInPreviousNSeconds(DateTime.FixedLocalNow() - #duration(0, 0, 0, 2), 2)

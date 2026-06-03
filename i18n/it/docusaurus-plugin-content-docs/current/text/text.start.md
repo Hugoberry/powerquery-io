@@ -5,7 +5,7 @@ title: Text.Start
 # Text.Start
 
 
-Restituisce l&#39;inizio del testo.
+Restituisce l'inizio del testo.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Text.Start(
 
 ## Remarks
 
-Restituisce i primi <code>count</code> caratteri di <code>text</code> come valore di testo.
+Restituisce i primi `count` caratteri di `text` come valore di testo.
 
 
 ## Examples
 
-### Example #1 
-Ottenere i primi 5 caratteri di &#34;Hello, World&#34;.
+### Example #1
+Ottenere i primi 5 caratteri di "Hello, World".
 ```powerquery
 Text.Start("Hello, World", 5)
 ```
@@ -34,6 +34,40 @@ Text.Start("Hello, World", 5)
 Result: 
 ```powerquery
 "Hello"
+```
+
+
+### Example #2
+Usa i primi quattro caratteri del nome e i primi tre caratteri del cognome per creare l'indirizzo e-mail di una persona.
+```powerquery
+let
+    Source = #table(type table [First Name = text, Last Name = text],
+    {
+        {"Douglas", "Elis"},
+        {"Ana", "Jorayew"},
+        {"Rada", "Mihaylova"}
+    }),
+    EmailAddress = Table.AddColumn(
+        Source,
+        "Email Address",
+        each Text.Combine({
+            Text.Start([First Name], 4),
+            Text.Start([Last Name], 3),
+            "@contoso.com"
+        })
+    )
+in
+    EmailAddress
+```
+
+Result: 
+```powerquery
+#table(type table [First Name = text, Last Name = text, Email Address = text],
+{
+    {"Douglas", "Elis", "DougEli@contoso.com"},
+    {"Ana", "Jorayew", "AnaJor@contoso.com"},
+    {"Rada", "Mihaylova", "RadaMih@contoso.com"}
+})
 ```
 
 

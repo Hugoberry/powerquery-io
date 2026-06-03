@@ -19,12 +19,12 @@ Binary.ApproximateLength(
 
 ## Remarks
 
-Trả về độ dài gần đúng của <code>binary</code> hoặc lỗi nếu nguồn dữ liệu không hỗ trợ độ dài gần đúng.
+Trả về độ dài gần đúng của `binary` hoặc lỗi nếu nguồn dữ liệu không hỗ trợ độ dài gần đúng.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Nhận được độ dài gần đúng của giá trị nhị phân.
 ```powerquery
 Binary.ApproximateLength(Binary.FromText("i45WMlSKjQUA", BinaryEncoding.Base64))

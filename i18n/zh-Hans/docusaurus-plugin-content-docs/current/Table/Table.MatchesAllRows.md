@@ -20,13 +20,13 @@ Table.MatchesAllRows(
 
 ## Remarks
 
-指示是否 <code>table</code> 中的所有行都满足给定的 <code>condition</code>。如果所有行都匹配，则返回 <code>true</code>；否则返回 <code>false</code>。
+指示是否 `table` 中的所有行都满足给定的 `condition`。如果所有行都匹配，则返回 `true`；否则返回 `false`。
 
 
 ## Examples
 
-### Example #1 
-确定列 [a] 中的所有行值是否在表中。
+### Example #1
+确定列 \[a\] 中的所有行值是否在表中。
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ true
 ```
 
 
-### Example #2 
-查找在表 &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; 中，是否所有行值均为 [a = 1, b = 2]。
+### Example #2
+查找在表 `({[a = 1, b = 2], [a = 3, b = 4]})` 中，是否所有行值均为 \[a = 1, b = 2\]。
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({

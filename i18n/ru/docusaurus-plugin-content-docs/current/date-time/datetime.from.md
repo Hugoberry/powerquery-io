@@ -20,13 +20,21 @@ DateTime.From(
 
 ## Remarks
 
-Возвращает значение <code>datetime</code> из указанного параметра <code>value</code>. Также может быть указан необязательный параметр <code>culture</code> (например, "ru-RU").Если параметр <code>value</code> имеет значение <code>null</code>, <code>DateTime.From</code> возвращает <code>null</code>. Если параметр <code>value</code> имеет значение <code>datetime</code>, возвращается <code>value</code>. Значения следующих типов можно преобразовать в значение <code>datetime</code>:      <ul>        <li><code>text</code>: значение <code>datetime</code> из текстового представления. Дополнительные сведения см. в разделе <code>DateTime.FromText</code>.</li>        <li><code>date</code>: <code>datetime</code> с <code>value</code> в качестве компонента даты и <code>12:00:00 AM</code> в качестве компонента времени.</li>        <li><code>datetimezone</code>: <code>datetime</code>, локальный эквивалент <code>value</code>.</li>        <li><code>time</code>: <code>datetime</code> с эквивалентом даты OLE-автоматизации, <code>0</code> в качестве компонента даты и <code>value</code> в качестве компонента времени.</li>        <li><code>number</code>: <code>datetime</code>, эквивалент даты OLE-автоматизации, выраженный <code>value</code>. </li>      </ul>Если <code>value</code> относится к другому типу, возвращается ошибка.
+Возвращает значение `datetime` из указанного параметра `value`. Также может быть указан необязательный параметр `culture` (например, "ru-RU"). Если параметр `value` имеет значение `null`, `DateTime.From` возвращает `null`. Если параметр `value` имеет значение `datetime`, возвращается `value`. Значения следующих типов можно преобразовать в значение `datetime`:
+
+-   `text`: значение `datetime` из текстового представления. Дополнительные сведения см. в разделе `DateTime.FromText`.
+-   `date`: `datetime` с `value` в качестве компонента даты и `12:00:00 AM` в качестве компонента времени.
+-   `datetimezone`: `datetime`, локальный эквивалент `value`.
+-   `time`: `datetime` с эквивалентом даты OLE-автоматизации, `0` в качестве компонента даты и `value` в качестве компонента времени.
+-   `number`: `datetime`, эквивалент даты OLE-автоматизации, выраженный `value`.
+
+Если `value` относится к другому типу, возвращается ошибка.
 
 
 ## Examples
 
-### Example #1 
-Преобразовать &lt;code&gt;#time(06, 45, 12)&lt;/code&gt; в значение &lt;code&gt;datetime&lt;/code&gt;.
+### Example #1
+Преобразовать `#time(06, 45, 12)` в значение `datetime`.
 ```powerquery
 DateTime.From(#time(06, 45, 12))
 ```
@@ -37,8 +45,8 @@ Result:
 ```
 
 
-### Example #2 
-Преобразовать &lt;code&gt;#date(1975, 4, 4)&lt;/code&gt; в значение &lt;code&gt;datetime&lt;/code&gt;.
+### Example #2
+Преобразовать `#date(1975, 4, 4)` в значение `datetime`.
 ```powerquery
 DateTime.From(#date(1975, 4, 4))
 ```

@@ -21,12 +21,12 @@ Table.InsertRows(
 
 ## Remarks
 
-Retourne une table avec la liste des lignes <code>rows</code> insérées dans <code>table</code> à la position spécifiée <code>offset</code>. Chaque colonne dans la ligne à insérer doit correspondre aux types des colonnes de la table.
+Retourne une table avec la liste des lignes `rows` insérées dans `table` à la position spécifiée `offset`. Chaque colonne dans la ligne à insérer doit correspondre aux types des colonnes de la table.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Insère la ligne dans la table à la position 1.
 ```powerquery
 Table.InsertRows(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Insère deux lignes dans la table à la position 1.
 ```powerquery
 Table.InsertRows(

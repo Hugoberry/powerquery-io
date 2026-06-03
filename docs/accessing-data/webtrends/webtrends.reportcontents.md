@@ -27,7 +27,7 @@ Makes a call to the given Webtrends reporting endpoint and returns all data as a
 
 ## Examples
 
-### Example #1 
+### Example #1
 Makes a call to the Webtrends visitors report endpoint for data in the last 30 days
 ```powerquery
 Webtrends.ReportContents("98765", "xPcmTDDP0P6")

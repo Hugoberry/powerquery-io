@@ -5,7 +5,7 @@ title: List.Numbers
 # List.Numbers
 
 
-Retourne une liste de nombres en fonction d&#39;une valeur initiale, d&#39;un nombre et d&#39;une valeur incrémentielle facultative.
+Retourne une liste de nombres en fonction d'une valeur initiale, d'un nombre et d'une valeur incrémentielle facultative.
 
 
 ## Syntax
@@ -21,12 +21,16 @@ List.Numbers(
 
 ## Remarks
 
-Retourne une liste de nombres en fonction d'une valeur initiale, d'un nombre et d'une valeur incrémentielle facultative. La valeur d'incrément par défaut est 1.<ul>   <li><code>start</code> : valeur initiale dans la liste.</li>   <li><code>count</code> : nombre de valeurs à créer.</li>   <li><code>increment</code> : <i>[Facultatif]</i> valeur par laquelle incrémenter. Si les valeurs omises sont incrémentées par 1.</li></ul>
+Renvoie une liste de nombres à partir d'une valeur initiale, d'un nombre d'éléments et d'une valeur d'incrément facultative. La valeur d'incrémentation par défaut est 1.
+
+-   `start` : La valeur initiale dans la liste.
+-   `count` : Le nombre de valeurs à créer.
+-   `increment` : *(Facultatif)* La valeur d'incrémentation. Les valeurs omises sont incrémentées de 1.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Génère une liste de 10 caractères consécutifs en partant de 1.
 ```powerquery
 List.Numbers(1, 10)
@@ -49,7 +53,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Génère une liste de 10 chiffres à partir de 1, avec un incrément de 2 pour chaque numéro suivant.
 ```powerquery
 List.Numbers(1, 10, 2)

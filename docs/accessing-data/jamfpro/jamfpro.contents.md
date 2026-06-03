@@ -10,8 +10,8 @@ title: JamfPro.Contents
 
 ```powerquery
 JamfPro.Contents(
-    URL as Uri.Type
-) as any
+    jamfUrl as URL
+) as text
 ```
 
 

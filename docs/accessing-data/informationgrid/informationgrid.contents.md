@@ -22,8 +22,8 @@ Retrieves information from authorised BI services available on the given server
 
 ## Examples
 
-### Example #1 
-Returns a Navigation Table listing the available Information Grid BI services
+### Example #1
+Returns a Navigation Table listing the available InformationGrid BI services
 ```powerquery
 InformationGrid.Contents("192.168.1.123", false)
 ```
@@ -34,8 +34,8 @@ Result:
 ```
 
 
-### Example #2 
-Returns information from a specific named Information Grid BI service using HTTP
+### Example #2
+Returns information from a specific named InformationGrid BI service using HTTP
 ```powerquery
 InformationGrid.Contents("igserver.somedomain.com", true){[Service="service-name"]}[Data]
 ```

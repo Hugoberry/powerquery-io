@@ -19,12 +19,12 @@ Number.Factorial(
 
 ## Remarks
 
-Zwraca silnię liczby <code>number</code>.
+Zwraca silnię liczby `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź silnię liczby 10.
 ```powerquery
 Number.Factorial(10)

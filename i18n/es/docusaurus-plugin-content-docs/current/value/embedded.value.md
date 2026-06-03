@@ -5,7 +5,7 @@ title: Embedded.Value
 # Embedded.Value
 
 
-Tiene acceso a un valor por nombre en un mashup incrustado.
+Esta función solo está pensada para uso interno.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Embedded.Value(
 
 ## Remarks
 
-Tiene acceso a un valor por nombre en un mashup incrustado.
+Esta función solo está pensada para uso interno.
 
 
 

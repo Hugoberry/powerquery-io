@@ -21,12 +21,16 @@ List.TransformMany(
 
 ## Remarks
 
-入力リストから要素が投影されたリストを返します。<br /> <br /> この <code>collectionTransform</code> 関数は各要素を中間リストに変換し、 <code>resultTransform</code> 関数は最終的な結果を作成するために元の要素と中間リストの項目を受け取ります。<br /> <br /> この<code>collectionTransform</code> 関数には、シグネチャ <code>(x as any) as list => ...</code>で、<code>x</code> は <code>list</code>の要素です。 この <code>resultTransform</code> 関数は結果の形状を投影し、シグネチャ <code>(x as any, y as any) as any => ...</code>　<code>x</code> は <code>list</code> 内の要素であり、<code>y</code> は、<code>x</code> を <code>collectionTransform</code>に渡すことによって生成されるリストの要素です。
+入力リストから要素が投影されたリストを返します。  
+  
+この `collectionTransform` 関数は各要素を中間リストに変換し、 `resultTransform` 関数は最終的な結果を作成するために元の要素と中間リストの項目を受け取ります。  
+  
+この`collectionTransform` 関数には、シグネチャ `(x as any) as list => ...`で、`x` は `list`の要素です。 この `resultTransform` 関数は結果の形状を投影し、シグネチャ `(x as any, y as any) as any => ...`　`x` は `list` 内の要素であり、`y` は、`x` を `collectionTransform`に渡すことによって生成されるリストの要素です。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 人とそのペットのリストをフラット化します。
 ```powerquery
 List.TransformMany(

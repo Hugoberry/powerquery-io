@@ -21,13 +21,13 @@ List.RemoveMatchingItems(
 
 ## Remarks
 
-Usuwa wszystkie wystąpienia wartości wymienionych na liście <code>list2</code> z listy <code>list1</code>. Jeśli wartości wymienione na liście <code>list2</code> nie znajdują się na liście <code>list1</code>, zwracana jest oryginalna lista.    W celu sterowania sprawdzaniem równości można określić opcjonalną wartość kryterium równości <code>equationCriteria</code>. 
+Usuwa wszystkie wystąpienia wartości wymienionych na liście `list2` z listy `list1`. Jeśli wartości wymienione na liście `list2` nie znajdują się na liście `list1`, zwracana jest oryginalna lista. W celu sterowania sprawdzaniem równości można określić opcjonalną wartość kryterium równości `equationCriteria`.
 
 
 ## Examples
 
-### Example #1 
-Utwórz na podstawie listy \{1, 2, 3, 4, 5, 5} listę, która nie zawiera wartości \{1, 5}.
+### Example #1
+Utwórz na podstawie listy \{1, 2, 3, 4, 5, 5\} listę, która nie zawiera wartości \{1, 5\}.
 ```powerquery
 List.RemoveMatchingItems({1, 2, 3, 4, 5, 5}, {1, 5})
 ```

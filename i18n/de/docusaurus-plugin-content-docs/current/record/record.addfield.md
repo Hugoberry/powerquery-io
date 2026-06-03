@@ -22,13 +22,13 @@ Record.AddField(
 
 ## Remarks
 
-Fügt einem Datensatz (<code>record</code>) auf der Grundlage des Feldnamens (<code>fieldName</code>) und -werts (<code>value</code>) ein Feld hinzu.
+Fügt einem Datensatz (`record`) auf der Grundlage des Feldnamens (`fieldName`) und -werts (`value`) ein Feld hinzu.
 
 
 ## Examples
 
-### Example #1 
-Fügt dem Datensatz das Feld &#34;Address&#34; hinzu.
+### Example #1
+Fügt dem Datensatz das Feld "Address" hinzu.
 ```powerquery
 Record.AddField([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "Address", "123 Main St.")
 ```

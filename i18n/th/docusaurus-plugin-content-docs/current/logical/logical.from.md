@@ -19,13 +19,18 @@ Logical.From(
 
 ## Remarks
 
-ส่งกลับค่า <code>logical</code> จาก <code>value</code> ที่กำหนด ถ้า <code>value</code> ที่กำหนดเป็น <code>null</code> <code>Logical.From</code> จะส่งกลับ <code>null</code>  ถ้า <code>value</code> ที่กำหนดเป็น <code>logical</code> จะมีการส่งกลับ <code>value</code> ค่าของชนิดต่อไปนี้สามารถแปลงเป็นค่า <code>logical</code> ได้:      <ul>        <li><code>text</code>: ค่า <code>logical</code> จากค่าข้อความ ซึ่งเป็น <code>"true"</code> หรือ <code>"false"</code> ดู <code>Logical.FromText</code> สำหรับรายละเอียด</li>        <li><code>number</code>: <code>false</code> ถ้า <code>value</code> เท่ากับ <code>0</code> และ <code>true</code> ถ้าไม่ใช่</li>      </ul>ถ้า <code>value</code> เป็นชนิดอื่น ระบบจะส่งกลับข้อผิดพลาด
+ส่งกลับค่า `logical` จาก `value` ที่กำหนด ถ้า `value` ที่กำหนดเป็น `null` `Logical.From` จะส่งกลับ `null` ถ้า `value` ที่กำหนดเป็น `logical` จะมีการส่งกลับ `value` ค่าของชนิดต่อไปนี้สามารถแปลงเป็นค่า `logical` ได้:
+
+-   `text`: ค่า `logical` จากค่าข้อความ ซึ่งเป็น `"true"` หรือ `"false"` ดู `Logical.FromText` สำหรับรายละเอียด
+-   `number`: `false` ถ้า `value` เท่ากับ `0` และ `true` ถ้าไม่ใช่
+
+ถ้า `value` เป็นชนิดอื่น ระบบจะส่งกลับข้อผิดพลาด
 
 
 ## Examples
 
-### Example #1 
-แปลง &lt;code&gt;2&lt;/code&gt; เป็นค่า &lt;code&gt;logical&lt;/code&gt;
+### Example #1
+แปลง `2` เป็นค่า `logical`
 ```powerquery
 Logical.From(2)
 ```

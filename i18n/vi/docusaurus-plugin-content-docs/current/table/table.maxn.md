@@ -21,13 +21,16 @@ Table.MaxN(
 
 ## Remarks
 
-Trả về (các) hàng lớn nhất trong <code>table</code>, khi được cho sẵn <code>comparisonCriteria</code>.    Sau khi sắp xếp các hàng, phải chỉ định tham số <code>countOrCondition</code> để lọc thêm kết quả. Lưu ý: thuật toán sắp xếp không thể đảm bảo kết quả sắp xếp cố định. Tham số <code>countOrCondition</code> có thể có nhiều dạng:    <ul>        <li> Nếu một số được chỉ định, một danh sách tối đa <code>countOrCondition</code> mục theo thứ tự tăng dần được trả về. </li>        <li> Nếu một điều kiện được chỉ định, một danh sách các mục đáp ứng điều kiện được trả về. Khi một mục không đáp ứng điều kiện, không có mục nào khác được xem xét. </li> </ul>
+Trả về (các) hàng lớn nhất trong `table`, khi được cho sẵn `comparisonCriteria`. Sau khi sắp xếp các hàng, phải chỉ định tham số `countOrCondition` để lọc thêm kết quả. Lưu ý: thuật toán sắp xếp không thể đảm bảo kết quả sắp xếp cố định. Tham số `countOrCondition` có thể có nhiều dạng:
+
+-   Nếu một số được chỉ định, một danh sách tối đa `countOrCondition` mục theo thứ tự tăng dần được trả về.
+-   Nếu một điều kiện được chỉ định, một danh sách các mục đáp ứng điều kiện được trả về. Khi một mục không đáp ứng điều kiện, không có mục nào khác được xem xét.
 
 
 ## Examples
 
-### Example #1 
-Tìm hàng có giá trị lớn nhất trong cột [a] với điều kiện [a] &gt; 0 trong bảng. Hàng được phân loại trước khi áp dụng bộ lọc.
+### Example #1
+Tìm hàng có giá trị lớn nhất trong cột \[a\] với điều kiện \[a\] > 0 trong bảng. Hàng được phân loại trước khi áp dụng bộ lọc.
 ```powerquery
 Table.MaxN(
     Table.FromRecords({
@@ -49,8 +52,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Tìm hàng có giá trị lớn nhất trong cột [a] với điều kiện [b] &gt; 0 trong bảng. Hàng được phân loại trước khi áp dụng bộ lọc.
+### Example #2
+Tìm hàng có giá trị lớn nhất trong cột \[a\] với điều kiện \[b\] > 0 trong bảng. Hàng được phân loại trước khi áp dụng bộ lọc.
 ```powerquery
 Table.MaxN(
     Table.FromRecords({

@@ -19,13 +19,13 @@ Type.IsOpenRecord(
 
 ## Remarks
 
-Returnerar en <code>logical</code> som indikerar om posten <code>type</code> är öppen.
+Returnerar en `logical` som indikerar om posten `type` är öppen.
 
 
 ## Examples
 
-### Example #1 
-Fastställ om posten &lt;code&gt;type [ A = number, ... ]&lt;/code&gt; är öppen.
+### Example #1
+Fastställ om posten `type [ A = number, ... ]` är öppen.
 ```powerquery
 Type.IsOpenRecord(type [A = number, ...])
 ```

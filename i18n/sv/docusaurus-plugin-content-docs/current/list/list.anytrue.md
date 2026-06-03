@@ -19,13 +19,13 @@ List.AnyTrue(
 
 ## Remarks
 
-Returnerar true om något av uttrycken i listan <code>list</code> utvärderas som true.
+Returnerar true om något av uttrycken i listan `list` utvärderas som true.
 
 
 ## Examples
 
-### Example #1 
-Kontrollera om något av uttrycken i listan \{true, false, 2 &gt; 0} utvärderas som true.
+### Example #1
+Kontrollera om något av uttrycken i listan \{true, false, 2 > 0\} utvärderas som true.
 ```powerquery
 List.AnyTrue({true, false, 2>0})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Kontrollera om något av uttrycken i listan \{2 = 0, false, 2 &lt; 0} utvärderas som true.
+### Example #2
+Kontrollera om något av uttrycken i listan \{2 = 0, false, 2 &lt; 0\} utvärderas som true.
 ```powerquery
 List.AnyTrue({2 = 0, false, 2 < 0})
 ```

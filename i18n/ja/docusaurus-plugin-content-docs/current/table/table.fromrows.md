@@ -5,7 +5,7 @@ title: Table.FromRows
 # Table.FromRows
 
 
-行の値と列 (省略可能) のリストからテーブルを作成します
+行の値と列 (オプション) のリストからテーブルを作成します。
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Table.FromRows(
 
 ## Remarks
 
-リスト <code>rows</code> からテーブルを作成します。リストの各要素は、1 つの行の列値を含む内側リストです。省略可能な列名のリスト、テーブル型、または列の数を <code>columns</code> に指定できます。
+リスト `rows` からテーブルを作成します。リストの各要素は、1 つの行の列値を含む内側リストです。省略可能な列名のリスト、テーブル型、または列の数を `columns` に指定できます。
 
 
 ## Examples
 
-### Example #1 
-列 [CustomerID] に値 \{1, 2}、列 [Name] に値 \{&#34;Bob&#34;, &#34;Jim&#34;}、列 [Phone] に値 \{&#34;123-4567&#34;, &#34;987-6543&#34;} を含むテーブルを返します。
+### Example #1
+列 \[CustomerID\] に値 \{1, 2\}、列 \[Name\] に値 \{"Bob", "Jim"\}、列 \[Phone\] に値 \{"123-4567", "987-6543"\} を含むテーブルを返します。
 ```powerquery
 Table.FromRows(
     {
@@ -46,8 +46,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-列 [CustomerID] に値 \{1, 2}、列 [Name] に値 \{&#34;Bob&#34;, &#34;Jim&#34;}、列 [Phone] に値 \{&#34;123-4567&#34;, &#34;987-6543&#34;} を含むテーブルを返します。[CustomerID] は数値型で、[Name] および [Phone] はテキスト型です。
+### Example #2
+列 \[CustomerID\] に値 \{1, 2\}、列 \[Name\] に値 \{"Bob", "Jim"\}、列 \[Phone\] に値 \{"123-4567", "987-6543"\} を含むテーブルを返します。\[CustomerID\] は数値型で、\[Name\] および \[Phone\] はテキスト型です。
 ```powerquery
 Table.FromRows(
     {

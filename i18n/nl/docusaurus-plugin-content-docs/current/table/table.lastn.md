@@ -20,12 +20,15 @@ Table.LastN(
 
 ## Remarks
 
-Retourneert de laatste rij(en) van de tabel <code>table</code>, afhankelijk van de waarde van <code>countOrCondition</code>:    <ul>    <li> Als <code>countOrCondition</code> een getal is, wordt dat aantal rijen geretourneerd, te beginnen bij positie (einde - <code>countOrCondition</code>). </li>    <li> Als <code>countOrCondition</code> een voorwaarde is, worden de rijen die voldoen aan de voorwaarde, oplopend geretourneerd en stopt het retourneren bij een rij die niet aan de voorwaarde voldoet.</li></ul>
+Retourneert de laatste rij(en) van de tabel `table`, afhankelijk van de waarde van `countOrCondition`:
+
+-   Als `countOrCondition` een getal is, wordt dat aantal rijen geretourneerd, te beginnen bij positie (einde - `countOrCondition`).
+-   Als `countOrCondition` een voorwaarde is, worden de rijen die voldoen aan de voorwaarde, oplopend geretourneerd en stopt het retourneren bij een rij die niet aan de voorwaarde voldoet.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De laatste twee rijen van de tabel zoeken.
 ```powerquery
 Table.LastN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-De laatste rijen in de tabel zoeken waarin [a] &gt; 0.
+### Example #2
+De laatste rijen in de tabel zoeken waarin \[a\] > 0.
 ```powerquery
 Table.LastN(
     Table.FromRecords({

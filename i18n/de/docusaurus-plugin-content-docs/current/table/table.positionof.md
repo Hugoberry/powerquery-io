@@ -22,13 +22,18 @@ Table.PositionOf(
 
 ## Remarks
 
-Gibt die Zeilenposition des ersten Vorkommens von "<code>row</code>" im angegebenen Element vom Typ "<code>table</code>" zurück. Wird kein Vorkommen gefunden, wird "-1" zurückgegeben.    <ul>       <li><code>table</code>: Die Eingabetabelle.</li>       <li><code>row</code>: Die Zeile in der Tabelle, deren Position ermittelt werden soll.</li>       <li><code>occurrence</code>: <i>[Optional]</i> Gibt an, welche Vorkommen der Zeile zurückgegeben werden sollen.</li>       <li><code>equationCriteria</code>: <i>[Optional]</i> Steuert den Vergleich der Tabellenzeilen.</li>    </ul>    
+Gibt die Zeilenposition des ersten Vorkommens von „`row`“ im angegebenen Element vom Typ „`table`“ zurück. Gibt -1 zurück, wenn kein Vorkommen gefunden wird.
+
+-   `table`: Die Eingabetabelle.
+-   `row`: Die Zeile in der Tabelle, in der die Position gesucht werden soll.
+-   `occurrence`: *(Optional)* Gibt an, welche Vorkommen der Zeile zurückgegeben werden sollen.
+-   `equationCriteria`: *(Optional)* Steuert den Vergleich zwischen den Tabellenzeilen.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt die Position des ersten Vorkommens von &#34;[a = 2, b = 4]&#34; in der Tabelle &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #1
+Ermittelt die Position des ersten Vorkommens von "\[a = 2, b = 4\]" in der Tabelle `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({
@@ -47,8 +52,8 @@ Result:
 ```
 
 
-### Example #2 
-Ermittelt die Position des zweiten Vorkommens von &#34;[a = 2, b = 4]&#34; in der Tabelle &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #2
+Ermittelt die Position des zweiten Vorkommens von "\[a = 2, b = 4\]" in der Tabelle `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({
@@ -68,8 +73,8 @@ Result:
 ```
 
 
-### Example #3 
-Ermittelt die Position aller Vorkommen von &#34;[a = 2, b = 4]&#34; in der Tabelle &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #3
+Ermittelt die Position aller Vorkommen von "\[a = 2, b = 4\]" in der Tabelle `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({

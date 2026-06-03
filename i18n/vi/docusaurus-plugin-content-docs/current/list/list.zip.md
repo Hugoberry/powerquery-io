@@ -19,13 +19,13 @@ List.Zip(
 
 ## Remarks
 
-Lấy danh sách các danh sách, <code>lists</code> và trả về danh sách các danh sách kết hợp các mục ở cùng một vị trí.
+Lấy danh sách các danh sách, `lists` và trả về danh sách các danh sách kết hợp các mục ở cùng một vị trí.
 
 
 ## Examples
 
-### Example #1 
-Nén hai danh sách đơn giản \{1, 2} và \{3, 4}.
+### Example #1
+Nén hai danh sách đơn giản \{1, 2\} và \{3, 4\}.
 ```powerquery
 List.Zip({{1, 2}, {3, 4}})
 ```
@@ -39,8 +39,8 @@ Result:
 ```
 
 
-### Example #2 
-Nén hai danh sách đơn giản có độ dài khác nhau \{1, 2} và \{3}.
+### Example #2
+Nén hai danh sách đơn giản có độ dài khác nhau \{1, 2\} và \{3\}.
 ```powerquery
 List.Zip({{1, 2}, {3}})
 ```

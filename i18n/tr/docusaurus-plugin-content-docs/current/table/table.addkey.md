@@ -21,12 +21,12 @@ Table.AddKey(
 
 ## Remarks
 
-<code>table</code> öğesine bir anahtar ekler, burada <code>columns</code> anahtarı tanımlayan sütun adlarının listesidir ve <code>isPrimary</code>, anahtarın birincil olup olmadığını belirtir.
+`table` öğesine bir anahtar ekler, burada `columns` anahtarı tanımlayan sütun adlarının listesidir ve `isPrimary`, anahtarın birincil olup olmadığını belirtir.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tabloya tek sütunlu birincil anahtar ekleyin.
 ```powerquery
 let

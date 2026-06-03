@@ -19,12 +19,12 @@ Record.FieldNames(
 
 ## Remarks
 
-रिकॉर्ड <code>record</code> की फ़ील्ड के नामों को पाठ के रूप में लौटाता है.
+रिकॉर्ड `record` की फ़ील्ड के नामों को पाठ के रूप में लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 रिकॉर्ड में फ़ील्ड का नाम ढूँढें.
 ```powerquery
 Record.FieldNames([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

@@ -22,12 +22,12 @@ Record.AddField(
 
 ## Remarks
 
-किसी रिकॉर्ड <code>record</code> में एक फ़ील्ड जोड़ता है, जिसमें फ़ील्ड <code>fieldName</code> का नाम और मान <code>value</code> दिया जाता है.
+किसी रिकॉर्ड `record` में एक फ़ील्ड जोड़ता है, जिसमें फ़ील्ड `fieldName` का नाम और मान `value` दिया जाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 फ़ील्ड पते को रिकॉर्ड में जोड़ें.
 ```powerquery
 Record.AddField([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "Address", "123 Main St.")

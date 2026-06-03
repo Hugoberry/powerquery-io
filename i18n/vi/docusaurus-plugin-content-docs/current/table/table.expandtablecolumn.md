@@ -22,13 +22,13 @@ Table.ExpandTableColumn(
 
 ## Remarks
 
-Mở rộng các bảng trong <code>table</code>[<code>column</code>] thành nhiều hàng và cột. <code>columnNames</code> được dùng để chọn các cột sẽ mở rộng từ bảng bên trong. Chỉ định <code>newColumnNames</code> để tránh xung đột giữa cột hiện có và cột mới.
+Mở rộng các bảng trong `table`\[`column`\] thành nhiều hàng và cột. `columnNames` được dùng để chọn các cột sẽ mở rộng từ bảng bên trong. Chỉ định `newColumnNames` để tránh xung đột giữa cột hiện có và cột mới.
 
 
 ## Examples
 
-### Example #1 
-Mở rộng các cột bảng trong &lt;code&gt;[a]&lt;/code&gt; trong bảng &lt;code&gt;(\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]})&lt;/code&gt; thành 3 cột &lt;code&gt;[t.a]&lt;/code&gt;, &lt;code&gt;[t.b]&lt;/code&gt; và &lt;code&gt;[t.c]&lt;/code&gt;.
+### Example #1
+Mở rộng các cột bảng trong `[a]` trong bảng `({[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]})` thành 3 cột `[t.a]`, `[t.b]` và `[t.c]`.
 ```powerquery
 Table.ExpandTableColumn(
     Table.FromRecords({

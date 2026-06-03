@@ -19,13 +19,13 @@ List.Reverse(
 
 ## Remarks
 
-<code>list</code> listesindeki değerleri tersine çevrilmiş sırada içeren bir liste döndürür.
+`list` listesindeki değerleri tersine çevrilmiş sırada içeren bir liste döndürür.
 
 
 ## Examples
 
-### Example #1 
-\{1..10} listesinden ters sırada bir liste oluşturur.
+### Example #1
+\{1..10\} listesinden ters sırada bir liste oluşturur.
 ```powerquery
 List.Reverse({1..10})
 ```

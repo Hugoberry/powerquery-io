@@ -19,12 +19,12 @@ Number.Tan(
 
 ## Remarks
 
-Возвращает тангенс <code>number</code>.
+Возвращает тангенс `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Найти тангенс угла 1.
 ```powerquery
 Number.Tan(1)

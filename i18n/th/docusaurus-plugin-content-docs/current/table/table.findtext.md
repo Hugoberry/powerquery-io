@@ -20,13 +20,13 @@ Table.FindText(
 
 ## Remarks
 
-ส่งกลับแถวในตาราง <code>table</code> ซึ่งมีข้อความ <code>text</code> ถ้าไม่พบข้อความ ระบบจะส่งกลับตารางว่าง
+ส่งกลับแถวในตาราง `table` ซึ่งมีข้อความ `text` ถ้าไม่พบข้อความ ระบบจะส่งกลับตารางว่าง
 
 
 ## Examples
 
-### Example #1 
-ค้นหาแถวในตารางที่มีค่า &#34;Bob&#34;
+### Example #1
+ค้นหาแถวในตารางที่มีค่า "Bob"
 ```powerquery
 Table.FindText(
     Table.FromRecords({

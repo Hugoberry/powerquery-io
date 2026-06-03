@@ -27,7 +27,7 @@ Combina las columnas especificadas en una nueva columna con la función especifi
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combine los apellidos y los nombres en una nueva columna, separadas por una coma.
 ```powerquery
 Table.CombineColumns(

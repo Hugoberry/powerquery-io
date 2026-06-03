@@ -19,12 +19,12 @@ Record.FieldValues(
 
 ## Remarks
 
-Restituisce un elenco dei valori dei campi nel record <code>record</code>.
+Restituisce un elenco dei valori dei campi nel record `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trovare i valori dei campi nel record.
 ```powerquery
 Record.FieldValues([CustomerID = 1, Name = "Bob", Phone = "123-4567"])

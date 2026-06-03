@@ -25,7 +25,7 @@ Table.Transpose(
 
 ## Examples
 
-### Example #1 
+### Example #1
 नाम-मान युग्मों की तालिका की पंक्तियों को स्तंभों में बदलें.
 ```powerquery
 Table.Transpose(

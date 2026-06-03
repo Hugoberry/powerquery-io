@@ -19,7 +19,7 @@ Cube.AttributeMemberId(
 
 ## Remarks
 
-メンバー プロパティ値から一意のメンバー識別子を返します。<code>attribute</code>。その他の値に対しては null を返します。
+メンバー プロパティ値から一意のメンバー識別子を返します。`attribute`。その他の値に対しては null を返します。
 
 
 

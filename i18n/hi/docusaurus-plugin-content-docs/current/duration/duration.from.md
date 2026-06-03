@@ -19,13 +19,19 @@ Duration.From(
 
 ## Remarks
 
-दिए गए <code>value</code> से <code>अवधि</code> मान वापस करता है. यदि दिया गया <code>value</code> <code>नल</code> है, तो <code>Duration.From</code> <code>नल</code> वापस करता है.  यदि दिया गया <code>value</code> <code>अवधि</code> है, तो <code>value</code> वापस किया जाता है. निम्न प्रकार के मान को <code>अवधि</code> मान में रूपांतरित किया जा सकता है:      <ul>        <li><code>text</code>: पाठ व्यतीत समय स्वरूप (d.h:m:s) से <code>अवधि</code> मान . विवरण के लिए <code>Duration.FromText</code> का संदर्भ लें.</li>        <li><code>संख्या</code>: <code>अवधि</code> जो पूर्णांक और आंशिक दिनों की संख्या के समान है, जिसे <code>value</code> द्वारा व्यक्त किया जाता है.</li>      </ul>यदि <code>value</code> अन्य प्रकार का है, तो त्रुटि वापस होती है.
+दिए गए मान के हिसाब से अवधि का मान लौटाता है.
+
+-   `value`: वह मान जिससे अवधि का मान प्राप्त होता है. अगर दिया गया `value`, `null` है, तो यह फ़ंक्शन `null` लौटाता है. अगर दिया गया `value` एक `duration` है, तो `value` लौटाया जाता है. निम्न प्रकार के मानों को `duration` मान में बदला जा सकता है:
+    -   `text`: बीती हुई समयावधि के टेक्स्ट-आधारित फ़ॉर्म (d.h:m:s) से प्राप्त एक `duration` मान. विवरण के लिए `Duration.FromText` देखें.
+    -   `number`: एक `duration` जो `value` द्वारा व्यक्त किए गए पूर्ण और भिन्नात्मक दिनों की संख्या के समतुल्य है.
+
+यदि `value` किसी भी अन्य प्रकार का है, तो एक त्रुटि लौटाई जाती है.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;2.525&lt;/code&gt; को एक &lt;code&gt;duration&lt;/code&gt; मान में रूपांतरित करें.
+### Example #1
+`2.525` को एक `duration` मान में रूपांतरित करें.
 ```powerquery
 Duration.From(2.525)
 ```
@@ -33,6 +39,18 @@ Duration.From(2.525)
 Result: 
 ```powerquery
 #duration(2, 12, 36, 0)
+```
+
+
+### Example #2
+टेक्स्ट मान `"2.05:55:20.34567"` को `duration` मान में बदलें.
+```powerquery
+Duration.From("2.05:55:20.34567")
+```
+
+Result: 
+```powerquery
+#duration(2, 5, 55, 20.3456700)
 ```
 
 

@@ -19,12 +19,12 @@ Expression.Identifier(
 
 ## Remarks
 
-Returns the M source code representation of an identifier <code>name</code>.
+Returns the M source code representation of an identifier `name`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Get the M source code representation of an identifier.
 ```powerquery
 Expression.Identifier("MyIdentifier")
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Get the M source code representation of an identifier that contains a space.
 ```powerquery
 Expression.Identifier("My Identifier")

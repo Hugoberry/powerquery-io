@@ -20,12 +20,12 @@ Expression.Evaluate(
 
 ## Remarks
 
-Returns the result of evaluating an M expression <code>document</code>, with the available identifiers that can be referenced defined by <code>environment</code>.
+Returns the result of evaluating an M expression `document`, with the available identifiers that can be referenced defined by `environment`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Evaluate a simple sum.
 ```powerquery
 Expression.Evaluate("1 + 1")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Evaluate a more complex sum.
 ```powerquery
 Expression.Evaluate("List.Sum({1, 2, 3})", [List.Sum = List.Sum])
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Evaluate the concatenation of a text value with an identifier.
 ```powerquery
 Expression.Evaluate(Expression.Constant("""abc") & " & " & Expression.Identifier("x"), [x = "def"""])

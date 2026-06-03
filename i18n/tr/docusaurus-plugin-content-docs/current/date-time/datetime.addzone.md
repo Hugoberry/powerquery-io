@@ -21,12 +21,12 @@ DateTime.AddZone(
 
 ## Remarks
 
-<code>dateTime</code> değerine saat dilimi bilgisini ekler. Saat dilimi bilgisi <code>timezoneHours</code> ve isteğe bağlı olarak istenen UTC saati farkını belirten <code>timezoneMinutes</code> verisini içerir.
+`dateTime` değerine saat dilimi bilgisini ekler. Saat dilimi bilgisi `timezoneHours` ve isteğe bağlı olarak istenen UTC saati farkını belirten `timezoneMinutes` verisini içerir.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Saat dilimini UTC+7:30 (UTC’den 7 saat ve 30 dakika sonra) olarak ayarlar.
 ```powerquery
 DateTime.AddZone(#datetime(2010, 12, 31, 11, 56, 02), 7, 30)

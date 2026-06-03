@@ -19,12 +19,12 @@ Record.FieldValues(
 
 ## Remarks
 
-レコード <code>record</code> 内のフィールド値のリストを返します。
+レコード `record` 内のフィールド値のリストを返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 レコード内のフィールド値を調べます。
 ```powerquery
 Record.FieldValues([CustomerID = 1, Name = "Bob", Phone = "123-4567"])

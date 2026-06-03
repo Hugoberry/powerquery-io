@@ -20,12 +20,15 @@ Table.PromoteHeaders(
 
 ## Remarks
 
-Promotes the first row of values as the new column headers (i.e. column names). By default, only text or number values are promoted to headers. Valid options:    <div>      <code>PromoteAllScalars</code> : If set to <code>true</code>, all the scalar values in the first row are promoted to headers using the <code>Culture</code>, if specified (or current document locale).    For values that cannot be converted to text, a default column name will be used.    </div>    <div>    <code>Culture</code> : A culture name specifying the culture for the data.    </div>  
+Promotes the first row of values as the new column headers (i.e. column names). By default, only text or number values are promoted to headers. Valid options:
+
+-   `PromoteAllScalars`: If set to `true`, all the scalar values in the first row are promoted to headers using the `Culture`, if specified (or current document locale). For values that cannot be converted to text, a default column name will be used.
+-   `Culture`: A culture name specifying the culture for the data.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Promote the first row of values in the table.
 ```powerquery
 Table.PromoteHeaders(
@@ -42,7 +45,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Column3 = #date(1980, 1, 1)]})
 ```
 
 
-### Example #2 
+### Example #2
 Promote all the scalars in the first row of the table to headers.
 ```powerquery
 Table.PromoteHeaders(

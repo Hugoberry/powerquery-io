@@ -20,12 +20,16 @@ Table.Skip(
 
 ## Remarks
 
-<code>table</code> tablosunun ilk belirtilen sayıda, <code>countOrCondition</code>, satır içermeyen bir tablo döndürür.    Atlanan satır sayısı <code>countOrCondition</code> isteğe bağlı parametresine bağlıdır.    <ul>    <li> <code>countOrCondition</code> dahil edilmezse yalnızca ilk satır atlanır. </li>    <li> <code>countOrCondition</code> bir sayı ise bu sayıda satır (üstten başlayarak) atlanır. </li>    <li> <code>countOrCondition</code> bir koşul ise koşulu sağlayan satırlar, herhangi bir satır koşulu sağlamayana kadar atlanır.</li>    </ul>
+`table` tablosunun ilk belirtilen sayıda, `countOrCondition`, satır içermeyen bir tablo döndürür. Atlanan satır sayısı `countOrCondition` isteğe bağlı parametresine bağlıdır.
+
+-   `countOrCondition` dahil edilmezse yalnızca ilk satır atlanır.
+-   `countOrCondition` bir sayı ise bu sayıda satır (üstten başlayarak) atlanır.
+-   `countOrCondition` bir koşul ise koşulu sağlayan satırlar, herhangi bir satır koşulu sağlamayana kadar atlanır.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablonun ilk satırını atlar.
 ```powerquery
 Table.Skip(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Tablonun ilk iki satırını atlar.
 ```powerquery
 Table.Skip(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Tabloda [Price] &gt; 25 koşulunu sağlayan ilk satırları atlar.
+### Example #3
+Tabloda \[Price\] > 25 koşulunu sağlayan ilk satırları atlar.
 ```powerquery
 Table.Skip(
     Table.FromRecords({

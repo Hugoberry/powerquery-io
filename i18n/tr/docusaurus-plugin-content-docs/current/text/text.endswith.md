@@ -21,13 +21,21 @@ Text.EndsWith(
 
 ## Remarks
 
-Verilen <code>text</code> metninin belirtilen <code>substring</code> değeri ile bitip bitmediğini gösterir. Gösterge büyük/küçük harfe duyarlıdır.      <div>        <code>comparer</code>, karşılaştırmanın kontrol edilmesi için kullanılan bir <code>Karşılaştırıcıdır</code>. Karşılaştırıcılar, büyük/küçük harfe duyarlı olmayan veya kültüre ve yerel ayara duyarlı karşılaştırmaların sağlanması için kullanılabilir.      </div>      <div>        Aşağıdaki yerleşik karşılaştırıcılar formül dilinde kullanılabilir:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: Tam sıralı karşılaştırma gerçekleştirilmesi için kullanılır</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: Tam sıralı büyük/küçük harfe duyarlı olmayan karşılaştırma gerçekleştirilmesi için kullanılır</li>        <li> <code>Comparer.FromCulture</code>: Kültüre duyarlı karşılaştırma gerçekleştirilmesi için kullanılır</li>      </ul>
+Verilen `text` metninin belirtilen `substring` değeri ile bitip bitmediğini gösterir. Gösterge büyük/küçük harfe duyarlıdır.
+
+`comparer`, karşılaştırmanın kontrol edilmesi için kullanılan bir `Karşılaştırıcıdır`. Karşılaştırıcılar, büyük/küçük harfe duyarlı olmayan veya kültüre ve yerel ayara duyarlı karşılaştırmaların sağlanması için kullanılabilir.
+
+Aşağıdaki yerleşik karşılaştırıcılar formül dilinde kullanılabilir:
+
+-   `Comparer.Ordinal`: Tam sıralı karşılaştırma gerçekleştirilmesi için kullanılır
+-   `Comparer.OrdinalIgnoreCase`: Tam sıralı büyük/küçük harfe duyarlı olmayan karşılaştırma gerçekleştirilmesi için kullanılır
+-   `Comparer.FromCulture`: Kültüre duyarlı karşılaştırma gerçekleştirilmesi için kullanılır
 
 
 ## Examples
 
-### Example #1 
-&#34;Hello, World&#34; metninin &#34;world&#34; ifadesi ile bitip bitmediğini denetler.
+### Example #1
+"Hello, World" metninin "world" ifadesi ile bitip bitmediğini denetler.
 ```powerquery
 Text.EndsWith("Hello, World", "world")
 ```
@@ -38,8 +46,8 @@ false
 ```
 
 
-### Example #2 
-&#34;Hello, World&#34; metninin &#34;World&#34; ifadesi ile bitip bitmediğini denetler.
+### Example #2
+"Hello, World" metninin "World" ifadesi ile bitip bitmediğini denetler.
 ```powerquery
 Text.EndsWith("Hello, World", "World")
 ```

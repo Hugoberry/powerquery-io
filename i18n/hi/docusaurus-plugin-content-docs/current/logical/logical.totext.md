@@ -5,7 +5,7 @@ title: Logical.ToText
 # Logical.ToText
 
 
-पाठ &#34;true&#34; या &#34;false&#34; लौटाता है जिसमें एक तार्किक मान दिया हुए होता है.
+पाठ "true" या "false" लौटाता है जिसमें एक तार्किक मान दिया हुए होता है.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.ToText(
 
 ## Remarks
 
-पाठ मान <code>logicalValue</code>, से एक पाठ मान <code>true</code> या <code>false</code> बनाता है. अगर <code>logicalValue</code> एक तार्किक मान नहीं है, एक अपवाद दिखाया जाता है.
+तार्किक मान `logicalValue` से एक टेक्स्ट मान बनाता है, जो या तो `true` या `false` होता है. अगर `logicalValue` एक तार्किक मान नहीं है, तो एक त्रुटि आएगी.
 
 
 ## Examples
 
-### Example #1 
-तार्किक &lt;code&gt;true&lt;/code&gt; से एक पाठ मान बनाएँ.
+### Example #1
+तार्किक `true` से एक पाठ मान बनाएँ.
 ```powerquery
 Logical.ToText(true)
 ```

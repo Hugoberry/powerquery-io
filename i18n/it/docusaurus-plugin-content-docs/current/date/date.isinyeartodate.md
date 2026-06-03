@@ -5,7 +5,7 @@ title: Date.IsInYearToDate
 # Date.IsInYearToDate
 
 
-Indica se la data rientra nell&#39;anno corrente e se cade in corrispondenza del giorno corrente o prima, come determinato dalla data e dall&#39;ora correnti del sistema.
+Indica se la data rientra nell'anno corrente e se cade in corrispondenza del giorno corrente o prima, come determinato dalla data e dall'ora correnti del sistema.
 
 
 ## Syntax
@@ -19,13 +19,15 @@ Date.IsInYearToDate(
 
 ## Remarks
 
-Indica se il valore specificato datetime <code>dateTime</code> rientra nell'anno corrente e se cade in corrispondenza del giorno corrente o prima, come determinato dalla data e dall'ora correnti del sistema.      <ul>      <li><code>dateTime</code>: valore <code>date</code>, <code>datetime</code> o <code>datetimezone</code> da valutare.</li>      </ul>
+Indica se il valore specificato datetime `dateTime` rientra nell'anno corrente e se cade in corrispondenza del giorno corrente o prima, come determinato dalla data e dall'ora correnti del sistema.
+
+-   `dateTime`: valore `date`, `datetime` o `datetimezone` da valutare.
 
 
 ## Examples
 
-### Example #1 
-Determina se l&#39;ora di sistema corrente cade da inizio anno a oggi.
+### Example #1
+Determina se l'ora di sistema corrente cade da inizio anno a oggi.
 ```powerquery
 Date.IsInYearToDate(DateTime.FixedLocalNow())
 ```

@@ -21,12 +21,12 @@ Text.Format(
 
 ## Remarks
 
-Retorna o texto formatado que é criado aplicando <code>arguments</code> de uma lista ou de um registro a uma cadeia de caracteres de formato <code>formatString</code>. Um <code>culture</code> opcional também pode ser fornecido (por exemplo, "en-US").
+Retorna o texto formatado que é criado aplicando `arguments` de uma lista ou de um registro a uma cadeia de caracteres de formato `formatString`. Um `culture` opcional também pode ser fornecido (por exemplo, "en-US").
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Formata uma lista de números.
 ```powerquery
 Text.Format("#{0}, #{1}, and #{2}.", {17, 7, 22})
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Formata diferentes tipos de dados de um registro de acordo com a cultura do inglês (Estados Unidos).
 ```powerquery
 Text.Format(

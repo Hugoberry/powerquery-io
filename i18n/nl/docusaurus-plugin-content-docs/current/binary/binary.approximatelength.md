@@ -19,12 +19,12 @@ Binary.ApproximateLength(
 
 ## Remarks
 
-Retourneert de geschatte lengte van <code>binary</code>of een fout als de gegevensbron geen geschatte lengte ondersteunt.
+Retourneert de geschatte lengte van `binary`of een fout als de gegevensbron geen geschatte lengte ondersteunt.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De geschatte lengte van de binaire waarde ophalen.
 ```powerquery
 Binary.ApproximateLength(Binary.FromText("i45WMlSKjQUA", BinaryEncoding.Base64))

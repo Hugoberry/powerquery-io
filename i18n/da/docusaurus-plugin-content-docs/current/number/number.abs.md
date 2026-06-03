@@ -19,12 +19,14 @@ Number.Abs(
 
 ## Remarks
 
-Returnerer den absolutte værdi af <code>number</code>. Hvis <code>number</code> er null, returnerer <code>Number.Abs</code> null.    <ul>        <li><code>number</code>: En værdi af typen <code>number</code>, som den absolutte værdi skal beregnes for.</li>      </ul>
+Returnerer den absolutte værdi af `number`. Hvis `number` er null, returnerer `Number.Abs` null.
+
+-   `number`: En værdi af typen `number`, som den absolutte værdi skal beregnes for.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Den absolutte værdi -3.
 ```powerquery
 Number.Abs(-3)

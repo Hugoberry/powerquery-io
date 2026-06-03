@@ -19,13 +19,13 @@ Type.FunctionReturn(
 
 ## Remarks
 
-傳回由函數 <code>type</code> 傳回的類型。
+傳回由函數 `type` 傳回的類型。
 
 
 ## Examples
 
-### Example #1 
-尋找 &lt;code&gt;() as any)&lt;/code&gt; 的傳回類型。
+### Example #1
+尋找 `() as any)` 的傳回類型。
 ```powerquery
 Type.FunctionReturn(type function () as any)
 ```

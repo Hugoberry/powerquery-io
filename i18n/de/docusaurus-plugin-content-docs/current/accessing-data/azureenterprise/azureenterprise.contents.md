@@ -25,7 +25,7 @@ Gibt die binären Ergebnisse des Aufrufs an die URL zurück, die für die Azure 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Verwendet die AzureEnterprise.Contents-Funktion, um die Ergebnisse eines bestimmten Berichts zurückzugeben.
 ```powerquery
         let

@@ -5,7 +5,7 @@ title: <%= functionName %>
 # <%= functionName %>
 
 <% if (documentation['Documentation.Description']) { %>
-<%= documentation['Documentation.Description'] %>
+<%- documentation['Documentation.Description'] %>
 <% } %>
 
 ## Syntax
@@ -31,8 +31,8 @@ let params = Object.entries(parameters).map(([key, type], index) => {
 <% if (documentation['Documentation.Examples'] && documentation['Documentation.Examples'].length > 0) { %>
 ## Examples
 <% documentation['Documentation.Examples'].forEach(function(example,index) { %>
-### Example #<%= index+1 %> 
-<%= example.Description %>
+### Example #<%= index+1 %>
+<%- example.Description %>
 ```powerquery
 <%- example.Code %>
 ```

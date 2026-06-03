@@ -20,7 +20,7 @@ Number.BitwiseShiftRight(
 
 ## Remarks
 
-Restituisce il risultato dell'esecuzione di uno scorrimento bit per bit verso destra su <code>number1</code>, in base al numero di bit specificato <code>number2</code>.
+Restituisce il risultato dell'esecuzione di uno scorrimento bit per bit verso destra su `number1`, in base al numero di bit specificato `number2`.
 
 
 

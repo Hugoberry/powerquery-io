@@ -21,13 +21,13 @@ Table.ContainsAll(
 
 ## Remarks
 
-Anger om alla angivna poster i listan med poster, <code>rows</code>, visas som rader i <code>table</code>.    En valfri parameter, <code>equationCriteria</code>, kan anges för att hantera jämförelsen mellan raderna i tabellen.
+Anger om alla angivna poster i listan med poster, `rows`, visas som rader i `table`. En valfri parameter, `equationCriteria`, kan anges för att hantera jämförelsen mellan raderna i tabellen.
 
 
 ## Examples
 
-### Example #1 
-Kontrollera om tabellen innehåller alla rader genom att bara jämföra kolumnen [CustomerID].
+### Example #1
+Kontrollera om tabellen innehåller alla rader genom att bara jämföra kolumnen \[CustomerID\].
 ```powerquery
 Table.ContainsAll(
     Table.FromRecords({
@@ -50,7 +50,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Kontrollera om tabellen innehåller alla raderna.
 ```powerquery
 Table.ContainsAll(

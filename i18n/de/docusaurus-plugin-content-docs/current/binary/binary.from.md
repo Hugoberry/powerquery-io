@@ -20,13 +20,17 @@ Binary.From(
 
 ## Remarks
 
-Gibt einen <code>binary</code>-Wert auf der Grundlage des angegebenen Elements vom Typ „<code>value</code>“ zurück. Besitzt das angegebene Element vom Typ „<code>value</code>“ den Wert <code>NULL</code>, wird von <code>Binary.From</code> der Wert <code>NULL</code> zurückgegeben.  Besitzt das angegebene Element vom Typ „<code>value</code>“ den Wert <code>binary</code>, wird „<code>value</code>“ zurückgegeben. Werte folgender Art können in einen <code>binary</code>-Wert konvertiert werden:      <ul>        <li><code>text</code>: Ein <code>binary</code>-Wert aus der Textdarstellung. Ausführlichere Informationen finden Sie unter <code>Binary.FromText</code>.</li>      </ul>Handelt es sich bei „<code>value</code>“ um einen anderen Typ, wird ein Fehler zurückgegeben.
+Gibt einen `binary`\-Wert auf der Grundlage des angegebenen Elements vom Typ „`value`“ zurück. Besitzt das angegebene Element vom Typ „`value`“ den Wert `NULL`, wird von `Binary.From` der Wert `NULL` zurückgegeben. Besitzt das angegebene Element vom Typ „`value`“ den Wert `binary`, wird „`value`“ zurückgegeben. Werte folgender Art können in einen `binary`\-Wert konvertiert werden:
+
+-   `text`: Ein `binary`\-Wert aus der Textdarstellung. Ausführlichere Informationen finden Sie unter `Binary.FromText`.
+
+Handelt es sich bei „`value`“ um einen anderen Typ, wird ein Fehler zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
-Ruft den &lt;code&gt;binary&lt;/code&gt;-Wert von &lt;code&gt;&#34;1011&#34;&lt;/code&gt; ab.
+### Example #1
+Ruft den `binary`\-Wert von `"1011"` ab.
 ```powerquery
 Binary.From("1011")
 ```

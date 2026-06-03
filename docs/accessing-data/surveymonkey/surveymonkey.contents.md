@@ -22,7 +22,7 @@ A Navigation table showing all the surveys in the account related to the input a
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returns the navigation table.
 ```powerquery
 SurveyMonkey.Contents()

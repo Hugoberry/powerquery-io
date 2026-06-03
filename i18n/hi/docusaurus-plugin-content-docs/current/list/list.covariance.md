@@ -20,12 +20,12 @@ List.Covariance(
 
 ## Remarks
 
-दो सूचियों <code>numberList1</code> और <code>numberList2</code> के बीच सहप्रसरण लौटाता है. <code>numberList1</code> और <code>numberList2</code> में <code>number</code> मानों की समान संख्या होनी चाहिए.
+दो सूचियों `numberList1` और `numberList2` के बीच सहप्रसरण लौटाता है. `numberList1` और `numberList2` में `number` मानों की समान संख्या होनी चाहिए.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 दो सूचियों के बीच सहप्रसरण का परिकलन करें.
 ```powerquery
 List.Covariance({1, 2, 3}, {1, 2, 3})

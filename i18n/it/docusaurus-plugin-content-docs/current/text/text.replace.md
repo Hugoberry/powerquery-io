@@ -21,13 +21,13 @@ Text.Replace(
 
 ## Remarks
 
-Restituisce il risultato della sostituzione di tutte le occorrenze del valore di testo <code>old</code> nel valore di testo <code>text</code> con il valore di testo <code>new</code>. Per questa funzione viene applicata la distinzione tra maiuscole e minuscole.
+Restituisce il risultato della sostituzione di tutte le occorrenze del valore di testo `old` nel valore di testo `text` con il valore di testo `new`. Per questa funzione viene applicata la distinzione tra maiuscole e minuscole.
 
 
 ## Examples
 
-### Example #1 
-Sostituire ogni occorrenza di &#34;the&#34; in una frase con &#34;a&#34;.
+### Example #1
+Sostituire ogni occorrenza di "the" in una frase con "a".
 ```powerquery
 Text.Replace("the quick brown fox jumps over the lazy dog", "the", "a")
 ```

@@ -5,7 +5,7 @@ title: Table.ViewError
 # Table.ViewError
 
 
-Erstellt einen geänderten Fehlerdatensatz, der keinen Fallback auslöst, wenn er von einem Handler ausgelöst wird, der für eine Sicht definiert ist (über Table.View).
+Erstellt einen geänderten Fehlerdatensatz, der kein Fallback auslöst, wenn er von einem Handler ausgelöst wird, der für eine Sicht definiert ist (über Table.View).
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Table.ViewError(
 
 ## Remarks
 
-Erstellt einen geänderten Fehlerdatensatz von <code>errorRecord</code>, der keinen Fallback auslöst, wenn er von einem Handler ausgelöst wird, der für eine Sicht definiert ist (über Table.View).
+Erstellt einen geänderten Fehlerdatensatz von `errorRecord`, was kein Fallback auslöst, wenn er von einem Handler ausgelöst wird, der für eine Sicht definiert ist (über Table.View).
 
 
 

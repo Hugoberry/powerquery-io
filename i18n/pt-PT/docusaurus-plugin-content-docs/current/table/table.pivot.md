@@ -28,8 +28,8 @@ Com base num par de colunas que representam pares atributo-valor, roda os dados 
 
 ## Examples
 
-### Example #1 
-Utilizar os valores &#34;a&#34;, &#34;b&#34; e &#34;c&#34; na coluna de atributos da tabela &lt;code&gt;(\{ [ key = &#34;x&#34;, attribute = &#34;a&#34;, value = 1 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 3 ], [ key = &#34;y&#34;, attribute = &#34;a&#34;, value = 2 ], [ key = &#34;y&#34;, attribute = &#34;b&#34;, value = 4 ] })&lt;/code&gt; e transformá-los numa coluna própria.
+### Example #1
+Utilizar os valores "a", "b" e "c" na coluna de atributos da tabela `({ [ key = "x", attribute = "a", value = 1 ], [ key = "x", attribute = "c", value = 3 ], [ key = "y", attribute = "a", value = 2 ], [ key = "y", attribute = "b", value = 4 ] })` e transformá-los numa coluna própria.
 ```powerquery
 Table.Pivot(
     Table.FromRecords({
@@ -53,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Utilizar os valores &#34;a&#34;, &#34;b&#34; e &#34;c&#34; na coluna de atributos da tabela &lt;code&gt;(\{ [ key = &#34;x&#34;, attribute = &#34;a&#34;, value = 1 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 3 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 5 ], [ key = &#34;y&#34;, attribute = &#34;a&#34;, value = 2 ], [ key = &#34;y&#34;, attribute = &#34;b&#34;, value = 4 ] })&lt;/code&gt; e transformá-los numa coluna própria.  O atributo &#34;c&#34; da chave &#34;x&#34; tem vários valores associados, pelo que deve ser utilizada a função List.Max para resolver o conflito.
+### Example #2
+Utilizar os valores "a", "b" e "c" na coluna de atributos da tabela `({ [ key = "x", attribute = "a", value = 1 ], [ key = "x", attribute = "c", value = 3 ], [ key = "x", attribute = "c", value = 5 ], [ key = "y", attribute = "a", value = 2 ], [ key = "y", attribute = "b", value = 4 ] })` e transformá-los numa coluna própria. O atributo "c" da chave "x" tem vários valores associados, pelo que deve ser utilizada a função List.Max para resolver o conflito.
 ```powerquery
 Table.Pivot(
     Table.FromRecords({

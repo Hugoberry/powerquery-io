@@ -19,12 +19,12 @@ Expression.Identifier(
 
 ## Remarks
 
-Hiermee wordt de M-broncodeweergave van de id <code>name</code> geretourneerd.
+Hiermee wordt de M-broncodeweergave van de id `name` geretourneerd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De M-broncodeweergave van een id ophalen.
 ```powerquery
 Expression.Identifier("MyIdentifier")
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 De M-broncodeweergave ophalen van een id die een spatie bevat.
 ```powerquery
 Expression.Identifier("My Identifier")

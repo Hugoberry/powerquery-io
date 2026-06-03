@@ -21,13 +21,13 @@ Currency.From(
 
 ## Remarks
 
-दिए गए <code>value</code> से <code>currency</code> मान वापस करता है. यदि दिया गया <code>value</code> <code>नल</code> है, तो <code>Currency.From</code> <code>नल</code> वापस करता है.  यदि दिया गया <code>value</code> मुद्रा की श्रेणी में <code>संख्या</code> है, तो <code>value</code> के आंशिक भाग को 4 दशमलव अंकों में पूरा बनाकर वापस किया जाता है. यदि<code>value</code> किसी अन्य प्रकार का है, तो उसे सबसे पहले <code>Number.FromText</code>का उपयोग करके <code>संख्या</code> में रूपांतरित किया जाएगा. मुद्रा के लिए मान्य श्रेणी <code>-922,337,203,685,477.5808</code> से लेकर <code>922,337,203,685,477.5807</code>है. उपलब्ध राउंडिंग मोड के लिए<code>Number.Round</code> देखें. डिफ़ॉल्ट <code>RoundingMode.ToEven</code> है. वैकल्पिक <code>culture</code> भी प्रदान किया जा सकता है (उदाहरण के लिए, "en-US").
+दिए गए `value` से `currency` मान वापस करता है. यदि दिया गया `value` `नल` है, तो `Currency.From` `नल` वापस करता है. यदि दिया गया `value` मुद्रा की श्रेणी में `संख्या` है, तो `value` के आंशिक भाग को 4 दशमलव अंकों में पूरा बनाकर वापस किया जाता है. यदि`value` किसी अन्य प्रकार का है, तो उसे सबसे पहले `Number.FromText`का उपयोग करके `संख्या` में रूपांतरित किया जाएगा. मुद्रा के लिए मान्य श्रेणी `-922,337,203,685,477.5808` से लेकर `922,337,203,685,477.5807`है. उपलब्ध राउंडिंग मोड के लिए`Number.Round` देखें. डिफ़ॉल्ट `RoundingMode.ToEven` है. वैकल्पिक `culture` भी प्रदान किया जा सकता है (उदाहरण के लिए, "en-US").
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;&#34;1.23455&#34;&lt;/code&gt; का &lt;code&gt;मुद्रा&lt;/code&gt; मूल्य प्राप्त करें.
+### Example #1
+`"1.23455"` का `मुद्रा` मूल्य प्राप्त करें.
 ```powerquery
 Currency.From("1.23455")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-&lt;code&gt;RoundingMode.Down&lt;/code&gt; का उपयोग करके &lt;code&gt;&#34;1.23455&#34;&lt;/code&gt; का &lt;code&gt;मुद्रा&lt;/code&gt; मान प्राप्त करें.
+### Example #2
+`RoundingMode.Down` का उपयोग करके `"1.23455"` का `मुद्रा` मान प्राप्त करें.
 ```powerquery
 Currency.From("1.23455", "en-US", RoundingMode.Down)
 ```

@@ -26,7 +26,7 @@ Effettua una chiamata all'endpoint metriche chiave Webtrends e restituisce tutti
 
 ## Examples
 
-### Example #1 
+### Example #1
 Esegue il pull di una tabella di metriche chiave per il tenant 98765 negli ultimi 30 giorni
 ```powerquery
 Webtrends.KeyMetrics("98765")

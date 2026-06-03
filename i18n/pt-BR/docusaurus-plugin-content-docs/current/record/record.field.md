@@ -20,13 +20,13 @@ Record.Field(
 
 ## Remarks
 
-Retorna o valor do <code>field</code> especificado no <code>record</code>. Se o campo não for encontrado, uma exceção será lançada.
+Retorna o valor do `field` especificado no `record`. Se o campo não for encontrado, um erro será gerado.
 
 
 ## Examples
 
-### Example #1 
-Localizar o valor do campo &#34; CustomerID &#34; no registro.
+### Example #1
+Localizar o valor do campo " CustomerID " no registro.
 ```powerquery
 Record.Field([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")
 ```

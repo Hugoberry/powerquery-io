@@ -19,7 +19,7 @@ Number.Sinh(
 
 ## Remarks
 
-Returns the hyperbolic sine of <code>number</code>.
+Returns the hyperbolic sine of `number`.
 
 
 

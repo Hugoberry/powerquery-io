@@ -19,12 +19,12 @@ Number.IsEven(
 
 ## Remarks
 
-Indica se o valor, <code>number</code>, é par devolvendo <code>true</code> se for par; caso contrário, <code>false</code>.
+Indica se o valor, `number`, é par devolvendo `true` se for par; caso contrário, `false`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Verificar se 625 é um número par.
 ```powerquery
 Number.IsEven(625)
@@ -36,7 +36,7 @@ false
 ```
 
 
-### Example #2 
+### Example #2
 Verificar se 82 é um número par.
 ```powerquery
 Number.IsEven(82)

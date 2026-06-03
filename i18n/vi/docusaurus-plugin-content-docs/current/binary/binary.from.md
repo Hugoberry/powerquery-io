@@ -20,13 +20,17 @@ Binary.From(
 
 ## Remarks
 
-Trả về giá trị <code>binary</code> từ <code>value</code> đã cho. Nếu <code>value</code> đã cho là <code>null</code>, thì <code>Binary.From</code> sẽ trả về <code>null</code>. Nếu <code>value</code> đã cho là <code>binary</code>, thì <code>value</code> sẽ được trả về. Giá trị của các loại sau có thể được chuyển đổi thành giá trị <code>binary</code>:      <ul>        <li><code>text</code>: Giá trị <code>binary</code> từ dạng biểu diễn văn bản. Tham khảo <code>Binary.FromText</code> để biết chi tiết.</li>      </ul>Nếu <code>value</code> thuộc bất kỳ loại nào khác, thì lỗi sẽ được trả về.
+Trả về giá trị `binary` từ `value` đã cho. Nếu `value` đã cho là `null`, thì `Binary.From` sẽ trả về `null`. Nếu `value` đã cho là `binary`, thì `value` sẽ được trả về. Giá trị của các loại sau có thể được chuyển đổi thành giá trị `binary`:
+
+-   `text`: Giá trị `binary` từ dạng biểu diễn văn bản. Tham khảo `Binary.FromText` để biết chi tiết.
+
+Nếu `value` thuộc bất kỳ loại nào khác, thì lỗi sẽ được trả về.
 
 
 ## Examples
 
-### Example #1 
-Nhận giá trị &lt;code&gt;binary&lt;/code&gt; của &lt;code&gt;&#34;1011&#34;&lt;/code&gt;.
+### Example #1
+Nhận giá trị `binary` của `"1011"`.
 ```powerquery
 Binary.From("1011")
 ```

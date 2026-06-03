@@ -19,7 +19,7 @@ Exchange.Contents(
 
 ## Remarks
 
-Een tabel met inhoud uit het Microsoft Exchange-account <code>mailboxAddress</code> retourneren. Als <code>mailboxAddress</code> niet is opgegeven, wordt het standaardaccount voor de referentie gebruikt.
+Een tabel met inhoud uit het Microsoft Exchange-account `mailboxAddress` retourneren. Als `mailboxAddress` niet is opgegeven, wordt het standaardaccount voor de referentie gebruikt.
 
 
 

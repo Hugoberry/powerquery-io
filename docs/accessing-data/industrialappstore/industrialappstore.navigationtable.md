@@ -11,7 +11,7 @@ title: IndustrialAppStore.NavigationTable
 ```powerquery
 IndustrialAppStore.NavigationTable(
 
-) as table
+) as any
 ```
 
 

@@ -5,7 +5,7 @@ title: Lines.ToBinary
 # Lines.ToBinary
 
 
-Converte uma lista de texto em valor binário usando a codificação especificada e o lineSeparator. O lineSeparator especificado é acrescentado a cada linha.  Se não for especificado, o retorno de carro e os caracteres de alimentação de linha serão usados.
+Converte uma lista de texto em valor binário usando a codificação especificada e o lineSeparator. O lineSeparator especificado é acrescentado a cada linha. Se não for especificado, o retorno de carro e os caracteres de alimentação de linha serão usados.
 
 
 ## Syntax
@@ -22,7 +22,7 @@ Lines.ToBinary(
 
 ## Remarks
 
-Converte uma lista de texto em valor binário usando a codificação especificada e o lineSeparator. O lineSeparator especificado é acrescentado a cada linha.  Se não for especificado, o retorno de carro e os caracteres de alimentação de linha serão usados.
+Converte uma lista de texto em valor binário usando a codificação especificada e o lineSeparator. O lineSeparator especificado é acrescentado a cada linha. Se não for especificado, o retorno de carro e os caracteres de alimentação de linha serão usados.
 
 
 

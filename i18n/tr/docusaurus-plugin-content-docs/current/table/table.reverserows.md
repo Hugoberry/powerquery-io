@@ -19,12 +19,12 @@ Table.ReverseRows(
 
 ## Remarks
 
-<code>table</code> girdisinden ters sırada sütunları içeren bir tablo döndürür.
+`table` girdisinden ters sırada sütunları içeren bir tablo döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablodaki satırları tersine çevirir.
 ```powerquery
 Table.ReverseRows(

@@ -22,13 +22,13 @@ Table.AddColumn(
 
 ## Remarks
 
-将名为 <code>newColumnName</code> 的列添加到表 <code>table</code>。使用指定的选择函数 <code>columnGenerator</code>(它将每行作为输入)来计算列的值。
+将名为 `newColumnName` 的列添加到表 `table`。使用指定的选择函数 `columnGenerator`(它将每行作为输入)来计算列的值。
 
 
 ## Examples
 
-### Example #1 
-将名为“TotalPrice”的数字列添加到表中，每个值是 [Price] 和 [Shipping] 列的总和。
+### Example #1
+将名为“TotalPrice”的数字列添加到表中，每个值是 \[Price\] 和 \[Shipping\] 列的总和。
 ```powerquery
 Table.AddColumn(
     Table.FromRecords({

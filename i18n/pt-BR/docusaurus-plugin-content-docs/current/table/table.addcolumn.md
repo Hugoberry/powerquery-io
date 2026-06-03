@@ -22,13 +22,13 @@ Table.AddColumn(
 
 ## Remarks
 
-Adiciona uma coluna denominada <code>newColumnName</code> à tabela <code>table</code>. Os valores da coluna são computados por meio da função de seleção especificada <code>columnGenerator</code> com cada linha assumida como entrada.
+Adiciona uma coluna denominada `newColumnName` à tabela `table`. Os valores da coluna são computados por meio da função de seleção especificada `columnGenerator` com cada linha assumida como entrada.
 
 
 ## Examples
 
-### Example #1 
-Adicione uma coluna numérica chamada &#34;TotalPrice&#34; à tabela, com cada valor sendo a soma das colunas [Preço] e [Remessa].
+### Example #1
+Adicione uma coluna numérica chamada "TotalPrice" à tabela, com cada valor sendo a soma das colunas \[Preço\] e \[Remessa\].
 ```powerquery
 Table.AddColumn(
     Table.FromRecords({

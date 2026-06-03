@@ -27,8 +27,8 @@ Có thể sử dụng chức năng này để truy xuất dữ liệu từ một
 
 ## Examples
 
-### Example #1 
-Truy xuất số liệu phân phối count_sent và count_rejected cho tất cả các campaign_ids được tổng hợp trong ba ngày gần đây nhất. 
+### Example #1
+Truy xuất số liệu phân phối count\_sent và count\_rejected cho tất cả các campaign\_ids được tổng hợp trong ba ngày gần đây nhất.
 ```powerquery
 Source = SparkPost.GetTable(3, "count_sent,count_rejected", "campaign_id", "metrics/deliverability/campaign")
 ```

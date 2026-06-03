@@ -25,7 +25,7 @@ Returnerar en funktion som kombinerar en lista med textvärden till ett enda tex
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kombinera en lista med textvärden genom att placera dem i utdata vid de angivna positionerna.
 ```powerquery
 Combiner.CombineTextByPositions({0, 5, 10})({"abc", "def", "ghi"})

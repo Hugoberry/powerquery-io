@@ -24,7 +24,7 @@ Wywołuje interfejs API usługi MailChimp i zwraca nieprzetworzoną odpowiedź.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zwraca nieprzetworzone dane z punktu końcowego „reports/click-details” interfejsu API usługi MailChimp dla danej kampanii.
 ```powerquery
 MailChimp.Instance("reports/{campaign_id}/click-details")

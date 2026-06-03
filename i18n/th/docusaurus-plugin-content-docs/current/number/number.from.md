@@ -20,13 +20,23 @@ Number.From(
 
 ## Remarks
 
-ส่งกลับค่า <code>number</code> จาก <code>value</code> ที่กำหนดให้ อาจมีการระบุ <code>culture</code> เพิ่มเติม (ตัวอย่างเช่น "en-US") ถ้า <code>value</code> ที่กำหนดให้เป็น <code>null</code> <code>Number.From</code> จะส่งกลับ <code>null</code> ถ้า <code>value</code> ที่กำหนดให้เป็น <code>number</code> จะมีการส่งกลับ <code>value</code> ค่าของชนิดต่อไปนี้สามารถแปลงเป็นค่า <code>number</code> ได้:      <ul>        <li><code>text</code>: ค่า <code>number</code> จากการนำเสนอข้อความ ระบบจะจัดการรูปแบบข้อความทั่วไป ("15", "3,423.10", "5.0E-10") ดู <code>Number.From.Text</code> สำหรับรายละเอียด</li>        <li><code>logical</code>: 1 สำหรับ <code>true</code>, 0 สำหรับ <code>false</code></li>        <li><code>datetime</code>: ตัวเลขจุดลอยตัวความแม่นยำสองเท่าที่มี OLE Automation Date เทียบเท่ากับวันที่</li>        <li><code>datetimezone</code>: ตัวเลขจุดลอยตัวความแม่นยำสองเท่าที่มี OLE Automation Date เทียบเท่ากับวันที่และเวลาท้องถิ่นของ <code>value</code></li>        <li><code>date</code>: ตัวเลขจุดลอยตัวความแม่นยำสองเท่าที่มี OLE Automation Date เทียบเท่ากับวันที่</li>        <li><code>time</code>:  แสดงวันในรูปแบบเศษส่วน</li>        <li><code>duration</code>: แสดงวันในรูปแบบเต็มและเศษส่วน</li>      </ul>ถ้า <code>value</code> เป็นชนิดอื่น ระบบจะส่งกลับข้อผิดพลาด
+ส่งกลับค่า `number` จาก `value` ที่กำหนดให้ อาจมีการระบุ `culture` เพิ่มเติม (ตัวอย่างเช่น "en-US") ถ้า `value` ที่กำหนดให้เป็น `null` `Number.From` จะส่งกลับ `null` ถ้า `value` ที่กำหนดให้เป็น `number` จะมีการส่งกลับ `value` ค่าของชนิดต่อไปนี้สามารถแปลงเป็นค่า `number` ได้:
+
+-   `text`: ค่า `number` จากการนำเสนอข้อความ ระบบจะจัดการรูปแบบข้อความทั่วไป ("15", "3,423.10", "5.0E-10") ดู `Number.From.Text` สำหรับรายละเอียด
+-   `logical`: 1 สำหรับ `true`, 0 สำหรับ `false`
+-   `datetime`: ตัวเลขจุดลอยตัวความแม่นยำสองเท่าที่มี OLE Automation Date เทียบเท่ากับวันที่
+-   `datetimezone`: ตัวเลขจุดลอยตัวความแม่นยำสองเท่าที่มี OLE Automation Date เทียบเท่ากับวันที่และเวลาท้องถิ่นของ `value`
+-   `date`: ตัวเลขจุดลอยตัวความแม่นยำสองเท่าที่มี OLE Automation Date เทียบเท่ากับวันที่
+-   `time`: แสดงวันในรูปแบบเศษส่วน
+-   `duration`: แสดงวันในรูปแบบเต็มและเศษส่วน
+
+ถ้า `value` เป็นชนิดอื่น ระบบจะส่งกลับข้อผิดพลาด
 
 
 ## Examples
 
-### Example #1 
-รับค่า &lt;code&gt;number&lt;/code&gt; ของ &lt;code&gt;&#34;4&#34;&lt;/code&gt;
+### Example #1
+รับค่า `number` ของ `"4"`
 ```powerquery
 Number.From("4")
 ```
@@ -37,8 +47,8 @@ Result:
 ```
 
 
-### Example #2 
-รับค่า &lt;code&gt;number&lt;/code&gt; ของ &lt;code&gt;#datetime(2020, 3, 20, 6, 0, 0)&lt;/code&gt;
+### Example #2
+รับค่า `number` ของ `#datetime(2020, 3, 20, 6, 0, 0)`
 ```powerquery
 Number.From(#datetime(2020, 3, 20, 6, 0, 0))
 ```
@@ -49,8 +59,8 @@ Result:
 ```
 
 
-### Example #3 
-รับค่า&lt;code&gt;จำนวน&lt;/code&gt;ของ &lt;code&gt;&#34;12.3%&#34;&lt;/code&gt;
+### Example #3
+รับค่า`จำนวน`ของ `"12.3%"`
 ```powerquery
 Number.From("12.3%")
 ```

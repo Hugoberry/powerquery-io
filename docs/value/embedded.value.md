@@ -5,7 +5,7 @@ title: Embedded.Value
 # Embedded.Value
 
 
-Accesses a value by name in an embedded mashup.
+This function is intended for internal use only.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Embedded.Value(
 
 ## Remarks
 
-Accesses a value by name in an embedded mashup.
+This function is intended for internal use only.
 
 
 

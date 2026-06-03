@@ -20,13 +20,13 @@ Percentage.From(
 
 ## Remarks
 
-Verilen <code>value</code> değerinden bir <code>percentage</code> değeri döndürür. Verilen <code>value</code> <code>null</code> olduğunda <code>Percentage.From</code> <code>null</code> döndürür. Verilen <code>value</code> sonunda yüzde sembolü bulunan <code>text</code> olduğunda dönüştürülen ondalık sayı döndürülür. Aksi takdirde, değer <code>Number.From</code> kullanılarak bir <code>number</code> değerine dönüştürülür. Ayrıca, isteğe bağlı bir <code>culture</code> sağlanabilir (örneğin, "tr-TR").
+Verilen `value` değerinden bir `percentage` değeri döndürür. Verilen `value` `null` olduğunda `Percentage.From` `null` döndürür. Verilen `value` sonunda yüzde sembolü bulunan `text` olduğunda dönüştürülen ondalık sayı döndürülür. Aksi takdirde, değer `Number.From` kullanılarak bir `number` değerine dönüştürülür. Ayrıca, isteğe bağlı bir `culture` sağlanabilir (örneğin, "tr-TR").
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;&#34;12.3%&#34;&lt;/code&gt; &lt;code&gt;percentage&lt;/code&gt; değerini al.
+### Example #1
+`"12.3%"` `percentage` değerini al.
 ```powerquery
 Percentage.From("12.3%")
 ```

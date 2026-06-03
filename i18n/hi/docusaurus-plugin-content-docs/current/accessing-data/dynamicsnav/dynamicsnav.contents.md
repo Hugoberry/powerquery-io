@@ -20,6 +20,6 @@ DynamicsNav.Contents(
 
 ## Remarks
 
-प्रासंगिक Dynamics NAV डेटा के साथ तालिका लौटाता है. 
+प्रासंगिक Dynamics NAV डेटा के साथ तालिका लौटाता है.
 
 

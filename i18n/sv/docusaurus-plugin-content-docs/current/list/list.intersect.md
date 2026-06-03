@@ -20,13 +20,13 @@ List.Intersect(
 
 ## Remarks
 
-Returnerar skärningen för listvärdena i indatalistan <code>lists</code>. En valfri parameter, <code>equationCriteria</code>, kan användas.
+Returnerar skärningen för listvärdena i indatalistan `lists`. En valfri parameter, `equationCriteria`, kan användas.
 
 
 ## Examples
 
-### Example #1 
-Hitta skärningen för listorna \{1..5}, \{2..6}, \{3..7}.
+### Example #1
+Hitta skärningen för listorna \{1..5\}, \{2..6\}, \{3..7\}.
 ```powerquery
 List.Intersect({{1..5}, {2..6}, {3..7}})
 ```

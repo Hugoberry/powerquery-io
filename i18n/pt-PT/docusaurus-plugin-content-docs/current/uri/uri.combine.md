@@ -20,7 +20,7 @@ Uri.Combine(
 
 ## Remarks
 
-Devolve um URI absoluto que é a combinação do <code>baseUri</code> e <code>relativeUri</code> de entrada.
+Devolve um URI absoluto que é a combinação do `baseUri` e `relativeUri` de entrada.
 
 
 

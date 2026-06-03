@@ -24,7 +24,7 @@ Table.DemoteHeaders(
 
 ## Examples
 
-### Example #1 
+### Example #1
 降级表中的第一行值。
 ```powerquery
 Table.DemoteHeaders(

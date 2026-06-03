@@ -19,7 +19,13 @@ Binary.ViewFunction(
 
 ## Remarks
 
-Cria uma função de visualização baseada em <code>function</code> que pode ser tratada em uma visualização criada por <code>Binary.View</code>.<br />O manipulador <code>OnInvoke</code> de <code> Binary.View</code> pode ser usado para definir um manipulador para a função de visualização.<br />Assim como os manipuladores para operações internas, se nenhum manipulador <code>OnInvoke</code> for especificado, ou se não manipular a função de exibição, ou se um erro for gerado pelo manipulador, <code>function</code> será aplicado na parte superior da exibição.<br />Consulte a documentação publicada do conector personalizado do Power Query para uma descrição mais completa de <code>Binary.View</code> e funções de visualização personalizada.<br />
+Cria uma função de visualização baseada em `function` que pode ser tratada em uma visualização criada por `Binary.View`.
+
+O manipulador `OnInvoke` de `Binary.View` pode ser usado para definir um manipulador para a função de visualização.
+
+Assim como os manipuladores para operações internas, se nenhum manipulador `OnInvoke` for especificado, ou se não manipular a função de exibição, ou se um erro for gerado pelo manipulador, `function` será aplicado na parte superior da exibição.
+
+Consulte a documentação publicada do conector personalizado do Power Query para uma descrição mais completa de `Binary.View` e funções de visualização personalizada.
 
 
 

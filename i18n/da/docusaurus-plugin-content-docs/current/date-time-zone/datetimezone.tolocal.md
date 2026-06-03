@@ -19,12 +19,12 @@ DateTimeZone.ToLocal(
 
 ## Remarks
 
-Ændrer tidszoneoplysninger for værdien af typen datetimezone, <code>dateTimeZone</code>, til de lokale tidszoneoplysninger.    Hvis <code>dateTimeZone</code> ikke har en tidszonekomponent, tilføjes de lokale tidszoneoplysninger.
+Ændrer tidszoneoplysninger for værdien af typen datetimezone, `dateTimeZone`, til de lokale tidszoneoplysninger. Hvis `dateTimeZone` ikke har en tidszonekomponent, tilføjes de lokale tidszoneoplysninger.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Skift tidszoneoplysninger for #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) til den lokale tidszone (der anvender PST).
 ```powerquery
 DateTimeZone.ToLocal(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30))

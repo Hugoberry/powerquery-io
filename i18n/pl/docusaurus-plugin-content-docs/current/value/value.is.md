@@ -25,7 +25,7 @@ Określa, czy wartość jest zgodna z określonym typem. Jest to odpowiednik ope
 
 ## Examples
 
-### Example #1 
+### Example #1
 Porównaj dwa sposoby ustalania, czy liczba jest zgodna z liczbą typów.
 ```powerquery
 Value.Is(123, Number.Type) = (123 is number)

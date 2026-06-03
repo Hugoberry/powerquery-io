@@ -19,13 +19,15 @@ DateTimeZone.ToRecord(
 
 ## Remarks
 
-Returnerar en post som innehåller delarna i det angivna datetimezone-värdet <code>dateTimeZone</code>. <ul>        <li><code>dateTimeZone</code>: Ett <code>datetimezone</code>-värde som posten med värdets delar ska beräknas från.</li>      </ul>
+Returnerar en post som innehåller delarna i det angivna datetimezone-värdet `dateTimeZone`.
+
+-   `dateTimeZone`: Ett `datetimezone`\-värde som posten med värdets delar ska beräknas från.
 
 
 ## Examples
 
-### Example #1 
-Konvertera &lt;code&gt;#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)&lt;/code&gt;-värdet till en post som innehåller datum-, tids- och zonvärden.
+### Example #1
+Konvertera `#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)`\-värdet till en post som innehåller datum-, tids- och zonvärden.
 ```powerquery
 DateTimeZone.ToRecord(#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0))
 ```

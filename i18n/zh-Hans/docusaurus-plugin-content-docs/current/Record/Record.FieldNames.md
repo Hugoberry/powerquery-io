@@ -19,12 +19,12 @@ Record.FieldNames(
 
 ## Remarks
 
-将记录 <code>record</code> 中的字段名称作为文本返回。
+将记录 `record` 中的字段名称作为文本返回。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 查找记录中字段的名称。
 ```powerquery
 Record.FieldNames([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

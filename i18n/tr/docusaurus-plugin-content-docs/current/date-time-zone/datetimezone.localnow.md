@@ -19,7 +19,7 @@ DateTimeZone.LocalNow(
 
 ## Remarks
 
-Sistemdeki geçerli tarih ve saate ayarlanan bir <code>datetimezone</code> değeri döndürür.    Döndürülen değer, yerel saat dilimini temsil eden saat dilimi bilgilerini içerir.
+Sistemdeki geçerli tarih ve saate ayarlanan bir `datetimezone` değeri döndürür. Döndürülen değer, yerel saat dilimini temsil eden saat dilimi bilgilerini içerir.
 
 
 

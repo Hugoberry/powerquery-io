@@ -20,12 +20,12 @@ BinaryFormat.Text(
 
 ## Remarks
 
-テキスト値を読み取るバイナリ形式を返します。<code>length</code> は、デコードするバイト数か、テキストの前にある長さのバイナリ形式を指定します。省略可能な <code>encoding</code> 値は、テキストのエンコードを指定します。<code>encoding</code> が指定されない場合、エンコードは Unicode のバイト オーダー マークから判断されます。バイト オーダー マークがない場合は、<code>TextEncoding.Utf8</code> が使用されます。
+テキスト値を読み取るバイナリ形式を返します。`length` は、デコードするバイト数か、テキストの前にある長さのバイナリ形式を指定します。省略可能な `encoding` 値は、テキストのエンコードを指定します。`encoding` が指定されない場合、エンコードは Unicode のバイト オーダー マークから判断されます。バイト オーダー マークがない場合は、`TextEncoding.Utf8` が使用されます。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 2 バイトを ASCII テキストとしてデコードします。
 ```powerquery
 let
@@ -41,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 バイト単位でのテキストの長さがバイトとしてのテキストの前に表示される ASCII テキストをデコードします。
 ```powerquery
 let

@@ -21,13 +21,13 @@ Text.Range(
 
 ## Remarks
 
-Gibt die am Offset <code>offset</code> gefundene Teilzeichenfolge aus dem Text "<code>text</code>" zurück.    Mithilfe eines optionalen Parameters (<code>count</code>) kann die Anzahl der zurückzugebenden Zeichen angegeben werden. Löst einen Fehler aus, wenn nicht genug Zeichen vorhanden sind.
+Gibt den am Offset `text` gefundenen Substring aus dem Text „`offset`“ zurück. Mithilfe eines optionalen Parameters (`count`) kann die Anzahl der zurückzugebenden Zeichen angegeben werden. Löst einen Fehler aus, wenn nicht genügend Zeichen vorhanden sind.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt die Teilzeichenfolge aus dem Text &#34;Hello World&#34;, die bei Index 6 beginnt.
+### Example #1
+Ermittelt die Teilzeichenfolge aus dem Text "Hello World", die bei Index 6 beginnt.
 ```powerquery
 Text.Range("Hello World", 6)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Ermittelt die Teilzeichenfolge aus dem Text &#34;Hello World Hello&#34;, die bei Index 6 beginnt und fünf Zeichen umfasst.
+### Example #2
+Ermittelt die Teilzeichenfolge aus dem Text "Hello World Hello", die bei Index 6 beginnt und fünf Zeichen umfasst.
 ```powerquery
 Text.Range("Hello World Hello", 6, 5)
 ```

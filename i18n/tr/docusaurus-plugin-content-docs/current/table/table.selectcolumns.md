@@ -21,13 +21,17 @@ Table.SelectColumns(
 
 ## Remarks
 
-Yalnızca belirtilen <code>columns</code> öğesini içeren <code>table</code> öğesini döndürür.    <ul>       <li><code>table</code>: Sağlanan tablo.</li>       <li><code>columns</code>: <code>table</code> tablosundan döndürülecek sütun listesi. Döndürülen tablodaki sütunlar <code>columns</code> içinde listelenen sıradadır.</li>       <li><code>missingField</code>: <i>(İsteğe bağlı)</i> Sütun yoksa yapılacak işlem.  Örneğin: <code>MissingField.UseNull</code> veya <code>MissingField.Ignore</code>.    </li></ul>
+Yalnızca belirtilen `table` öğesini içeren `columns` öğesini döndürür.
+
+-   `table`: Sağlanan tablo.
+-   `columns`: `table` tablosundan döndürülecek sütun listesi. Döndürülen tablodaki sütunlar `columns` içinde listelenen sıradadır.
+-   `missingField`: *(İsteğe bağlı)* Sütun yoksa yapılacak işlem. Örneğin: `MissingField.UseNull` veya `MissingField.Ignore`.
 
 
 ## Examples
 
-### Example #1 
-Yalnızca [Name] sütununu ekleyin.
+### Example #1
+Yalnızca \[Name\] sütununu ekleyin.
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({
@@ -51,8 +55,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Yalnızca [CustomerID] ve [Name] sütunlarını ekleyin.
+### Example #2
+Yalnızca \[CustomerID\] ve \[Name\] sütunlarını ekleyin.
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -66,7 +70,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #3 
+### Example #3
 Eklenen sütun mevcut değilse, varsayılan sonuç hatadır.
 ```powerquery
 Table.SelectColumns(
@@ -81,8 +85,8 @@ Result:
 ```
 
 
-### Example #4 
-Eklenen sütun mevcut değilse, &lt;code&gt;MissingField.UseNull&lt;/code&gt; seçeneği null değerlerden oluşan bir sütun oluşturur.
+### Example #4
+Eklenen sütun mevcut değilse, `MissingField.UseNull` seçeneği null değerlerden oluşan bir sütun oluşturur.
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

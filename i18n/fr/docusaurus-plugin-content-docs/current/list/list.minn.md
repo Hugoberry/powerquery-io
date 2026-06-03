@@ -22,13 +22,17 @@ List.MinN(
 
 ## Remarks
 
-Retourne les valeurs minimales dans la liste, <code>list</code>.    Le paramètre <code>countOrCondition</code> spécifie le nombre de valeurs à retourner ou une condition de filtrage. Le paramètre facultatif, <code>comparisonCriteria</code>, spécifie comment comparer les valeurs dans la liste. <ul>        <li> <code>list</code>: liste des valeurs.</li>        <li> <code>countOrCondition</code>: si un nombre est spécifié, une liste de <code>countOrCondition</code> éléments au maximum par ordre ascendant est retournée. Si une condition est spécifiée, la liste des éléments qui satisfont initialement la condition est retournée. Quand un élément ne remplit pas la condition, aucun autre élément n'est pris en compte. Si ce paramètre a la valeur null, la valeur unique la plus petite dans la liste est retournée.</li><li><code>comparisonCriteria</code> : <i>[Facultatif]</i> une valeur <code>comparisonCriteria</code> facultative peut être spécifiée pour déterminer comment comparer les éléments dans la liste. Si ce paramètre a la valeur null, le comparateur par défaut est utilisé. </li></ul>
+Renvoie la ou les valeurs minimales de la liste, `list`. Le paramètre `countOrCondition` spécifie le nombre de valeurs à retourner ou une condition de filtrage. Le paramètre facultatif `comparisonCriteria` spécifie la manière de comparer les valeurs de la liste.
+
+-   `list` : La liste des valeurs.
+-   `countOrCondition` : Si un nombre est spécifié, une liste comportant jusqu'à `countOrCondition` éléments, par ordre croissant, est renvoyée. Si une condition est spécifiée, une liste d'éléments satisfaisant initialement à cette condition est renvoyée. Dès qu'un élément ne satisfait pas à la condition, aucun autre élément n'est pris en considération. Si ce paramètre est nul, la plus petite valeur unique de la liste est renvoyée.
+-   `comparisonCriteria` : *(Facultatif)* Une valeur facultative `comparisonCriteria` peut être spécifiée pour déterminer la manière de comparer les éléments de la liste. Si ce paramètre est nul, le comparateur par défaut est utilisé.
 
 
 ## Examples
 
-### Example #1 
-Recherche les 5 valeurs les plus petites dans la liste &lt;code&gt;\{3, 4, 5, -1, 7, 8, 2}&lt;/code&gt;.
+### Example #1
+Recherche les 5 valeurs les plus petites dans la liste `{3, 4, 5, -1, 7, 8, 2}`.
 ```powerquery
 List.MinN({3, 4, 5, -1, 7, 8, 2}, 5)
 ```

@@ -19,13 +19,13 @@ List.Buffer(
 
 ## Remarks
 
-在内存中缓冲列表 <code>list</code>。此调用的结果是一个稳定的列表。
+在内存中缓冲列表 `list`。此调用的结果是一个稳定的列表。
 
 
 ## Examples
 
-### Example #1 
-创建列表 \{1..10} 的稳定副本。
+### Example #1
+创建列表 \{1..10\} 的稳定副本。
 ```powerquery
 List.Buffer({1..10})
 ```

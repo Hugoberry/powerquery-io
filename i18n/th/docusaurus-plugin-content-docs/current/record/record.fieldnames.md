@@ -19,12 +19,12 @@ Record.FieldNames(
 
 ## Remarks
 
-ส่งกลับชื่อเขตข้อมูลในระเบียน <code>record</code> เป็นข้อความ
+ส่งกลับชื่อเขตข้อมูลในระเบียน `record` เป็นข้อความ
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ค้นหาชื่อฟิลด์ในระเบียน
 ```powerquery
 Record.FieldNames([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

@@ -26,7 +26,7 @@ Devuelve una función que divide el texto en una lista de texto en cada delimita
 
 ## Examples
 
-### Example #1 
+### Example #1
 Divida la entrada por coma y, a continuación, punto y coma, empezando desde el principio de la entrada.
 ```powerquery
 Splitter.SplitTextByEachDelimiter({",", ";"})("a,b;c,d")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Divida la entrada con coma y, a continuación, punto y coma, tratando las comillas como cualquier otro carácter y empezando desde el final de la entrada.
 ```powerquery
 let

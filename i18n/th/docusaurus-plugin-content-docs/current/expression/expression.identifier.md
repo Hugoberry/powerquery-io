@@ -19,12 +19,12 @@ Expression.Identifier(
 
 ## Remarks
 
-ส่งกลับการแสดงรหัสแหล่งข้อมูล M ของตัวระบุ <code>name</code>
+ส่งกลับการแสดงรหัสแหล่งข้อมูล M ของตัวระบุ `name`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 รับการแสดงรหัสแหล่งข้อมูล M ของตัวระบุ
 ```powerquery
 Expression.Identifier("MyIdentifier")
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 รับการแสดงรหัสแหล่งข้อมูล M ของตัวระบุที่มีที่ว่าง
 ```powerquery
 Expression.Identifier("My Identifier")

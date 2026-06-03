@@ -19,7 +19,7 @@ Number.Atan(
 
 ## Remarks
 
-Zwraca arcus tangens liczby <code>number</code>.
+Zwraca arcus tangens liczby `number`.
 
 
 

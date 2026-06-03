@@ -20,13 +20,33 @@ Date.From(
 
 ## Remarks
 
-ส่งกลับค่า <code>date</code> จาก <code>value</code> ที่ระบุ นอกจากนี้อาจมี <code>culture</code> เพิ่มเติม (ตัวอย่างเช่น "en-US")ถ้า <code>value</code> ที่ระบุเป็น <code>null</code> <code>Date.From</code> จะส่งกลับ <code>null</code> ถ้า <code>value</code> ที่ระบุเป็น <code>date</code> <code>value</code> จะถูกส่งกลับ ค่าชนิดต่อไปนี้สามารถแปลงเป็นค่า <code>date</code>:      <ul>        <li><code>text</code>: ค่า <code>date</code> จากการแทนข้อความ ดู<code>Date.FromText</code> สําหรับรายละเอียด</li>        <li><code>datetime</code>: คอมโพเนนต์วันที่ของ <code>value</code></li>        <li><code>datetimezone</code>: คอมโพเนนต์วันที่ของวันที่เวลาท้องถิ่นที่เทียบเท่ากับ <code>value</code></li>        <li><code>number</code>: คอมโพเนนต์วันที่ของวันที่เวลาที่เทียบเท่ากับ OLE Automation Date ที่แสดงโดย <code>value</code></li>      </ul>ถ้า <code>value</code> เป็นชนิดอื่นๆ ข้อผิดพลาดจะถูกส่งกลับ
+ส่งคืนค่าวันที่จากค่าที่กำหนดให้
+
+-   `value`: ค่าที่จะแปลงเป็นวันที่ หากค่าที่ให้มาเป็น `null` ฟังก์ชันนี้จะคืนค่า `null`. ถ้าค่าที่กำหนดคือ `date` จะส่งคืนค่า `value` ค่าประเภทต่อไปนี้สามารถแปลงเป็นค่า `date` ได้:
+    -   `text`: A ค่า `date` จากการแสดงผลในรูปแบบข้อความ โปรดดู `Date.FromText` สำหรับรายละเอียดเพิ่มเติม
+    -   `datetime`: คอมโพเนนต์วันที่ของ `value`
+    -   `datetimezone`: คอมโพเนนต์วันที่ของวันที่เวลาท้องถิ่นที่เทียบเท่ากับ `value`
+    -   `number`: The date component of the datetime equivalent of a floating-point number whose inteคอมโพเนนต์วันที่ของวันที่เวลาที่เทียบเท่ากับเลขทศนิยม โดยมีคอมโพเนนต์จำนวนเต็มคือจำนวนวันก่อนหรือหลังเที่ยงคืนวันที่ 30 ธันวาคม 1899 และมีคอมโพเนนต์เศษส่วนแสดงเวลาในวันนั้นหารด้วย 24 ตัวอย่างเช่น เที่ยงคืนวันที่ 31 ธันวาคม 1899 แสดงด้วย 1.0 6.00 น. วันที่ 1 มกราคม 1900 แสดงด้วย 2.25 เที่ยงคืนวันที่ 29 ธันวาคม 1899 แสดงด้วย -1.0 และ 6.00 น. วันที่ 29 ธันวาคม 1899 แสดงด้วย -1.25 ค่าฐานคือเที่ยงคืนวันที่ 30 ธันวาคม 1899 ค่าต่ำสุดคือเที่ยงคืนวันที่ 1 มกราคม 0100 ค่าสูงสุดคือวินาทีสุดท้ายของวันที่ 31 ธันวาคม 9999
+    -   ถ้า `value` เป็นประเภทอื่นใด ระบบจะแสดงข้อผิดพลาด
+-   `culture`: รูปแบบของค่าที่กำหนด (ตัวอย่างเช่น "en-US")
 
 
 ## Examples
 
-### Example #1 
-แปลง &lt;code&gt;43910&lt;/code&gt; เป็นค่า &lt;code&gt;date&lt;/code&gt;
+### Example #1
+แปลงวันที่และเวลาที่ระบุเป็นค่าวันที่
+```powerquery
+Date.From(#datetime(1899, 12, 30, 06, 45, 12))
+```
+
+Result: 
+```powerquery
+#date(1899, 12, 30)
+```
+
+
+### Example #2
+แปลงตัวเลขที่ระบุเป็นค่าวันที่
 ```powerquery
 Date.From(43910)
 ```
@@ -37,15 +57,38 @@ Result:
 ```
 
 
-### Example #2 
-แปลง &lt;code&gt;#datetime(1899, 12, 30, 06, 45, 12)&lt;/code&gt; เป็นค่า &lt;code&gt;date&lt;/code&gt;
+### Example #3
+แปลงวันที่ข้อความภาษาเยอรมันในคอลัมน์วันที่โพสต์เป็นค่าวันที่
 ```powerquery
-Date.From(#datetime(1899, 12, 30, 06, 45, 12))
+let
+    Source = #table(type table [Account Code = text, Posted Date = text, Sales = number],
+    {
+        {"US-2004", "20 Januar 2023", 580},
+        {"CA-8843", "18 Juli, 2023", 280},
+        {"PA-1274", "12 Januar, 2022", 90},
+        {"PA-4323", "14 April 2023", 187},
+        {"US-1200", "14 Dezember, 2022", 350},
+        {"PTY-507", "4 Juni, 2023", 110}
+    }),
+    #"Filtered rows" = Table.TransformColumns(
+        Source,
+        {"Posted Date", each Date.From(_, "de-DE"), type date}
+    )
+in
+    #"Filtered rows"
 ```
 
 Result: 
 ```powerquery
-#date(1899, 12, 30)
+#table(type table [Account Code = text, Posted Date = date, Sales = number],
+{
+    {"US-2004", #date(2023, 1, 20), 580},
+    {"CA-8843", #date(2023, 7, 18), 280},
+    {"PA-1274", #date(2022, 1, 12), 90},
+    {"PA-4323", #date(2023, 4, 14), 187},
+    {"US-1200", #date(2022, 12, 14), 350},
+    {"PTY-507", #date(2023, 6, 4), 110}
+})
 ```
 
 

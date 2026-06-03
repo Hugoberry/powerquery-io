@@ -20,12 +20,12 @@ Text.Remove(
 
 ## Remarks
 
-Retourneert een kopie van de tekstwaarde <code>text</code> waarbij alle tekens vanaf <code>removeChars</code> worden verwijderd.  
+Retourneert een kopie van de tekstwaarde `text` waarbij alle tekens vanaf `removeChars` worden verwijderd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De tekens , en ; verwijderen uit de tekstwaarde.
 ```powerquery
 Text.Remove("a,b;c", {",",";"})

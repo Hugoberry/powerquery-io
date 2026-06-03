@@ -20,7 +20,7 @@ Type.TableColumn(
 
 ## Remarks
 
-तालिका प्रकार <code>tableType</code> में स्तंभ <code>column</code> का प्रकार लौटाता है.
+तालिका प्रकार `tableType` में स्तंभ `column` का प्रकार लौटाता है.
 
 
 

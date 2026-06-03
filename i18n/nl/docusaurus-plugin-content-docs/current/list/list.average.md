@@ -20,13 +20,13 @@ List.Average(
 
 ## Remarks
 
-Retourneert de gemiddelde waarde van de items in de lijst, <code>list</code>. Het resultaat wordt gegeven in hetzelfde gegevenstype als de waarden in de lijst. Werkt alleen met waarden voor getal, datum, tijd, datum/tijd, datum-/tijdzone en duur.    Als de lijst leeg is, wordt null geretourneerd.
+Retourneert de gemiddelde waarde van de items in de lijst, `list`. Het resultaat wordt gegeven in hetzelfde gegevenstype als de waarden in de lijst. Werkt alleen met waarden voor getal, datum, tijd, datum/tijd, datum-/tijdzone en duur. Als de lijst leeg is, wordt null geretourneerd.
 
 
 ## Examples
 
-### Example #1 
-Het gemiddelde zoeken van de lijst met getallen, &lt;code&gt;\{3, 4, 6}&lt;/code&gt;.
+### Example #1
+Het gemiddelde zoeken van de lijst met getallen, `{3, 4, 6}`.
 ```powerquery
 List.Average({3, 4, 6})
 ```
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Het gemiddelde zoeken van de datumwaarden 1 januari, 2011, 2 januari, 2011 en 3 januari, 2011.
 ```powerquery
 List.Average({#date(2011, 1, 1), #date(2011, 1, 2), #date(2011, 1, 3)})

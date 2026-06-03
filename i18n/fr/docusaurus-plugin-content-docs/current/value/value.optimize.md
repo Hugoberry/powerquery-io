@@ -19,7 +19,7 @@ Value.Optimize(
 
 ## Remarks
 
-En cas d’utilisation dans Value.Expression, si <code>value</code> représente une requête qui peut être optimisée, cette fonction indique que l’expression optimisée doit être retournée. Sinon, <code>value</code> est transmis sans effet.
+En cas d’utilisation dans Value.Expression, si `value` représente une requête qui peut être optimisée, cette fonction indique que l’expression optimisée doit être retournée. Sinon, `value` est transmis sans effet.
 
 
 

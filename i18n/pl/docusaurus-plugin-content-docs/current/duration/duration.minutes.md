@@ -19,12 +19,12 @@ Duration.Minutes(
 
 ## Remarks
 
-Zwraca część minut w liczbie: <code>duration</code>.
+Zwraca część minut w liczbie: `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Wyodrębnij minuty z wartości czasu trwania.
 ```powerquery
 Duration.Minutes(#duration(5, 4, 3, 2))

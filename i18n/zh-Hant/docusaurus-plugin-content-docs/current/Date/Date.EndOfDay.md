@@ -19,12 +19,14 @@ Date.EndOfDay(
 
 ## Remarks
 
-傳回以 <code>dateTime</code> 代表的每日結束時間。會保留時區資訊。      <ul>        <li><code>dateTime</code>: 要用來計算每日結束時間的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值</li>      </ul>
+傳回以 `dateTime` 代表的每日結束時間。會保留時區資訊。
+
+-   `dateTime`: 要用來計算每日結束時間的 `date`、`datetime` 或 `datetimezone` 值
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 取得 5/14/2011 05:00:00 PM 這一天的結束。
 ```powerquery
 Date.EndOfDay(#datetime(2011, 5, 14, 17, 0, 0))
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 取得 5/17/2011 05:00:00 PM -7:00 這一天的結束。
 ```powerquery
 Date.EndOfDay(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0))

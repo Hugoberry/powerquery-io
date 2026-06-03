@@ -19,12 +19,12 @@ Duration.Hours(
 
 ## Remarks
 
-Zwraca część godzin w liczbie: <code>duration</code>.
+Zwraca część godzin w liczbie: `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Wyodrębnij godziny z wartości czasu trwania.
 ```powerquery
 Duration.Hours(#duration(5, 4, 3, 2))

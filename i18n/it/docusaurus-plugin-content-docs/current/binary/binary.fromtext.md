@@ -20,13 +20,16 @@ Binary.FromText(
 
 ## Remarks
 
-Restituisce il risultato della conversione del valore di testo <code>text</code> in un binario (elenco di <code>number</code>). È possibile specificare <code>encoding</code> per indicare la codifica usata nel valore di testo.      I valori seguenti di <code>BinaryEncoding</code> possono essere usati per <code>encoding</code>.      <ul>        <li><code>BinaryEncoding.Base64</code>: codifica Base 64</li>        <li><code>BinaryEncoding.Hex</code>: codifica esadecimale</li>      </ul>
+Restituisce il risultato della conversione del valore di testo `text` in un binario (elenco di `number`). È possibile specificare `encoding` per indicare la codifica usata nel valore di testo. I valori seguenti di `BinaryEncoding` possono essere usati per `encoding`.
+
+-   `BinaryEncoding.Base64`: codifica Base 64
+-   `BinaryEncoding.Hex`: codifica esadecimale
 
 
 ## Examples
 
-### Example #1 
-Decodificare &#34;1011&#34; in binario.
+### Example #1
+Decodificare "1011" in binario.
 ```powerquery
 Binary.FromText("1011")
 ```
@@ -37,8 +40,8 @@ Binary.FromText("1011", BinaryEncoding.Base64)
 ```
 
 
-### Example #2 
-Decodificare &#34;1011&#34; in binario con codifica esadecimale.
+### Example #2
+Decodificare "1011" in binario con codifica esadecimale.
 ```powerquery
 Binary.FromText("1011", BinaryEncoding.Hex)
 ```

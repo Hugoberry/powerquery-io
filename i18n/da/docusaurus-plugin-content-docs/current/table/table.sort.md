@@ -20,13 +20,13 @@ Table.Sort(
 
 ## Remarks
 
-Sorterer <code>table</code> ved hjælp af listen over en eller flere kolonnenavne og den valgfrie <code>comparisonCriteria</code> i formatet \{ \{ col1, comparisonCriteria }, \{col2} }.
+Sorterer `table` ved hjælp af listen over en eller flere kolonnenavne og den valgfrie `comparisonCriteria` i formatet \{ \{ col1, comparisonCriteria \}, \{col2\} \}.
 
 
 ## Examples
 
-### Example #1 
-Sortér tabellen på kolonnen &#34;OrderID&#34;.
+### Example #1
+Sortér tabellen på kolonnen "OrderID".
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -60,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Sortér tabellen på kolonnen &#34;OrderID&#34; i faldende rækkefølge.
+### Example #2
+Sortér tabellen på kolonnen "OrderID" i faldende rækkefølge.
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -95,8 +95,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Sortér tabellen på kolonnen &#34;CustomerID&#34; og derefter &#34;OrderID&#34;, hvor &#34;CustomerID&#34; er i faldende rækkefølge.
+### Example #3
+Sortér tabellen på kolonnen "CustomerID" og derefter "OrderID", hvor "CustomerID" er i faldende rækkefølge.
 ```powerquery
 Table.Sort(
     Table.FromRecords({

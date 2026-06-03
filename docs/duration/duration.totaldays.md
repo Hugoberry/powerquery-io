@@ -19,12 +19,12 @@ Duration.TotalDays(
 
 ## Remarks
 
-Returns the total days spanned by <code>duration</code>.
+Returns the total days spanned by `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find the total days spanned by a duration value.
 ```powerquery
 Duration.TotalDays(#duration(5, 4, 3, 2))

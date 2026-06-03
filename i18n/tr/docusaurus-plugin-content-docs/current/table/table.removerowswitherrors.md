@@ -25,7 +25,7 @@ Hücrelerinin en az birinde hata içeren, girdi tablosundan kaldırılan satırl
 
 ## Examples
 
-### Example #1 
+### Example #1
 İlk satırdaki hata değerini kaldırın.
 ```powerquery
 Table.RemoveRowsWithErrors(

@@ -19,13 +19,13 @@ List.Zip(
 
 ## Remarks
 
-Liste listesi (<code>lists</code>) ve aynı konumdaki öğeleri bir araya getirerek listelerin bulunduğu bir liste döndürür.
+Liste listesi (`lists`) ve aynı konumdaki öğeleri bir araya getirerek listelerin bulunduğu bir liste döndürür.
 
 
 ## Examples
 
-### Example #1 
-İki basit listeyi (\{1, 2} ve \{3, 4}) sıkıştırır.
+### Example #1
+İki basit listeyi (\{1, 2\} ve \{3, 4\}) sıkıştırır.
 ```powerquery
 List.Zip({{1, 2}, {3, 4}})
 ```
@@ -39,8 +39,8 @@ Result:
 ```
 
 
-### Example #2 
-Farklı uzunluklardaki iki basit listeyi (\{1, 2} ve \{3}) sıkıştırır.
+### Example #2
+Farklı uzunluklardaki iki basit listeyi (\{1, 2\} ve \{3\}) sıkıştırır.
 ```powerquery
 List.Zip({{1, 2}, {3}})
 ```

@@ -20,13 +20,21 @@ List.Sort(
 
 ## Remarks
 
-Classifica uma lista de dados, <code>list</code>, de acordo com os critérios opcionais especificados.    Um parâmetro opcional, <code>comparisonCriteria</code>, pode ser especificado como o critério de comparação. Isso pode assumir os seguintes valores:    <ul>    <li> Para controlar o pedido, o critério de comparação pode ser um valor Enum do pedido. (<code>Order.Descending</code>, <code>Order.Ascending</code>). </li>    <li>Para calcular uma chave a ser usada para classificação, uma função de 1 argumento pode ser usada.</li>    <li> Para selecionar uma chave e uma ordem de controle, o critério de comparação pode ser uma lista contendo a chave e a ordem (<code>\{each 1 / _, Order.Descending}</code>). </li>    <li> Para controlar completamente a comparação, uma função de 2 argumentos pode ser usada. Esta função receberá dois itens da lista (quaisquer dois itens, em qualquer ordem). A função deve retornar um dos seguintes valores:        <ul>            <li> <code>-1</code>: o primeiro item é menor que o segundo item.</li>            <li> <code>0</code>: os itens são iguais.</li>            <li> <code>1</code>: o primeiro item é maior que o segundo item.</li>        </ul>        Compare é um método que pode ser usado para delegar essa lógica. </li>    </ul>
+Classifica uma lista de dados, `list`, de acordo com os critérios opcionais especificados. Um parâmetro opcional, `comparisonCriteria`, pode ser especificado como o critério de comparação. Isso pode assumir os seguintes valores:
+
+-   Para controlar a ordem, o critério de comparação pode ser um valor Enum do pedido. (`Order.Descending`, `Order.Ascending`).
+-   Para calcular uma chave a ser usada para classificação, uma função de 1 argumento pode ser usada.
+-   Para selecionar uma chave e uma ordem de controle, o critério de comparação pode ser uma lista contendo a chave e a ordem (`{each 1 / _, Order.Descending}`).
+-   para controlar completamente a comparação, uma função de dois argumentos pode ser usada (como Value.Compare). Esta função receberá dois itens da lista (quaisquer dois itens, em qualquer ordem). A função deve retornar um dos seguintes valores:
+    -   `-1`: o primeiro item é menor que o segundo item.
+    -   `0`: os itens são iguais.
+    -   `1`: o primeiro item é maior que o segundo item.
 
 
 ## Examples
 
-### Example #1 
-Classifique a lista \{2, 3, 1}.
+### Example #1
+Classifique a lista \{2, 3, 1\}.
 ```powerquery
 List.Sort({2, 3, 1})
 ```
@@ -37,8 +45,8 @@ Result:
 ```
 
 
-### Example #2 
-Classifique a lista \{2, 3, 1} em ordem decrescente.
+### Example #2
+Classifique a lista \{2, 3, 1\} em ordem decrescente.
 ```powerquery
 List.Sort({2, 3, 1}, Order.Descending)
 ```
@@ -49,8 +57,8 @@ Result:
 ```
 
 
-### Example #3 
-Classifique a lista \{2, 3, 1} em ordem decrescente usando o método Value.Compare.
+### Example #3
+Classifique a lista \{2, 3, 1\} em ordem decrescente usando o método Value.Compare.
 ```powerquery
 List.Sort({2, 3, 1}, (x, y) => Value.Compare(1/x, 1/y))
 ```

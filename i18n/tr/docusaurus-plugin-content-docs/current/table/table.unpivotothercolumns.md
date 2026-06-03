@@ -27,7 +27,7 @@ Belirtilen küme dışındaki tüm sütunları, her satırdaki değerlerin geri 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Belirtilen küme dışındaki tüm sütunları, her satırdaki değerlerin geri kalanıyla birlikte öznitelik-değer çiftlerine çevirir.
 ```powerquery
 Table.UnpivotOtherColumns(

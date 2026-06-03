@@ -20,13 +20,21 @@ DateTime.From(
 
 ## Remarks
 
-Devolve um valor <code>datetime</code> a partir do <code>value</code> especificado. Pode também ser fornecida um <code>culture</code> opcional (por exemplo, "en-US").Se o <code>value</code> especificado for <code>null</code>, <code>DateTime.From</code> devolverá <code>null</code>. Se o <code>value</code> especificado for <code>datetime</code>, será devolvido <code>value</code>. É possível converter os seguintes tipos de valor num valor <code>datetime</code>:      <ul>        <li><code>text</code>: um valor <code>datetime</code> da representação textual. Consulte <code>DateTime.FromText</code> para obter detalhes.</li>        <li><code>date</code>: um <code>datetime</code> com <code>value</code> como componente de data e <code>12:00:00 AM</code> como componente de hora.</li>        <li><code>datetimezone</code>: o equivalente de <code>datetime</code> local de <code>value</code>.</li>        <li><code>time</code>: um <code>datetime</code> com o equivalente de data da Data de Automatização OLE <code>0</code> como componente de data e <code>value</code> como componente de hora.</li>        <li><code>number</code>: um equivalente de <code>datetime</code> da Data de Automatização OLE expresso por <code>value</code>. </li>      </ul>Se <code>value</code> for de qualquer outro tipo, será devolvido um erro.
+Devolve um valor `datetime` a partir do `value` especificado. Pode também ser fornecida um `culture` opcional (por exemplo, "en-US"). Se o `value` especificado for `null`, `DateTime.From` devolverá `null`. Se o `value` especificado for `datetime`, será devolvido `value`. É possível converter os seguintes tipos de valor num valor `datetime`:
+
+-   `text`: um valor `datetime` da representação textual. Consulte `DateTime.FromText` para obter detalhes.
+-   `date`: um `datetime` com `value` como componente de data e `12:00:00 AM` como componente de hora.
+-   `datetimezone`: o equivalente de `datetime` local de `value`.
+-   `time`: um `datetime` com o equivalente de data da Data de Automatização OLE `0` como componente de data e `value` como componente de hora.
+-   `number`: um equivalente de `datetime` da Data de Automatização OLE expresso por `value`.
+
+Se `value` for de qualquer outro tipo, será devolvido um erro.
 
 
 ## Examples
 
-### Example #1 
-Converter &lt;code&gt;#time(06, 45, 12)&lt;/code&gt; num valor &lt;code&gt;datetime&lt;/code&gt;.
+### Example #1
+Converter `#time(06, 45, 12)` num valor `datetime`.
 ```powerquery
 DateTime.From(#time(06, 45, 12))
 ```
@@ -37,8 +45,8 @@ Result:
 ```
 
 
-### Example #2 
-Converter &lt;code&gt;#date(1975, 4, 4)&lt;/code&gt; num valor &lt;code&gt;datetime&lt;/code&gt;.
+### Example #2
+Converter `#date(1975, 4, 4)` num valor `datetime`.
 ```powerquery
 DateTime.From(#date(1975, 4, 4))
 ```

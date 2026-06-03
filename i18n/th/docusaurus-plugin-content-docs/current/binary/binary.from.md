@@ -20,13 +20,17 @@ Binary.From(
 
 ## Remarks
 
-ส่งกลับค่า <code>binary</code> จาก <code>value</code> ที่กำหนด ถ้า <code>value</code> ที่กำหนดให้เป็น <code>null</code> <code>Binary.From</code> จะส่งกลับ <code>null</code>  ถ้า <code>value</code> ที่กำหนดให้เป็น <code>binary</code> จะมีการส่งกลับ <code>value</code> ค่าของชนิดต่อไปนี้สามารถแปลงเป็นค่า <code>binary</code> ได้:      <ul>        <li><code>text</code>: ค่า <code>binary</code> จากการแสดงข้อความ ดู <code>Binary.FromText</code> สำหรับรายละเอียด</li>      </ul>ถ้า <code>value</code> เป็นชนิดอื่น ระบบจะส่งกลับข้อผิดพลาด
+ส่งกลับค่า `binary` จาก `value` ที่กำหนด ถ้า `value` ที่กำหนดให้เป็น `null` `Binary.From` จะส่งกลับ `null` ถ้า `value` ที่กำหนดให้เป็น `binary` จะมีการส่งกลับ `value` ค่าของชนิดต่อไปนี้สามารถแปลงเป็นค่า `binary` ได้:
+
+-   `text`: ค่า `binary` จากการแสดงข้อความ ดู `Binary.FromText` สำหรับรายละเอียด
+
+ถ้า `value` เป็นชนิดอื่น ระบบจะส่งกลับข้อผิดพลาด
 
 
 ## Examples
 
-### Example #1 
-รับค่า &lt;code&gt;binary&lt;/code&gt; ของ &lt;code&gt;&#34;1011&#34;&lt;/code&gt;
+### Example #1
+รับค่า `binary` ของ `"1011"`
 ```powerquery
 Binary.From("1011")
 ```

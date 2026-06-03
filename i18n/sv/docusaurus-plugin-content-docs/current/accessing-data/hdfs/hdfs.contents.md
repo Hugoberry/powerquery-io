@@ -19,7 +19,7 @@ Hdfs.Contents(
 
 ## Remarks
 
-Returnerar en tabell som innehåller en rad för varje mapp och fil på mappens URL, <code>url</code>, från ett Hadoop-filsystem. Varje rad innehåller egenskaper för mappen eller filen och en länk till dess innehåll.
+Returnerar en tabell som innehåller en rad för varje mapp och fil på mappens URL, `url`, från ett Hadoop-filsystem. Varje rad innehåller egenskaper för mappen eller filen och en länk till dess innehåll.
 
 
 

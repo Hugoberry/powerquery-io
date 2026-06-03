@@ -20,25 +20,29 @@ Text.SplitAny(
 
 ## Remarks
 
-<code>text</code> metin değerini <code>separators</code> belirtilen sınırlayıcısındaki herhangi bir karaktere dayalı olarak ayırmanın sonucu olan metin değerleri listesini döndürür.
+Metin değerini belirtilen sınırlayıcıdaki herhangi bir karaktere dayalı olarak ayırmanın sonucu olan metin değerleri listesini döndürür.
+
+-   `text`: Bölünecek metin değeri.
+-   `separators`: Metni bölmek için kullanılan sınırlayıcı karakterler.
 
 
 ## Examples
 
-### Example #1 
-&#34;Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com&#34; metin değerinden bir liste oluşturur.
+### Example #1
+Belirtilen sınırlayıcı karakterleri kullanarak verilen metinden bir liste oluşturun.
 ```powerquery
-Text.SplitAny("Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com", "|")
+Text.SplitAny("Name|Customer ID|Purchase|Month-Day-Year", "|-")
 ```
 
 Result: 
 ```powerquery
 {
-    "Jamie",
-    "Campbell",
-    "Admin",
-    "Adventure Works",
-    "www.adventure-works.com"
+    "Name",
+    "Customer ID",
+    "Purchase",
+    "Month",
+    "Day",
+    "Year"
 }
 ```
 

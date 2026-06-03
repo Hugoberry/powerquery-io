@@ -19,12 +19,12 @@ Text.Clean(
 
 ## Remarks
 
-Zwraca wartość tekstową, z której zostały usunięte wszystkie znaki kontrolne (<code>text</code>).
+Zwraca wartość tekstową, z której zostały usunięte wszystkie znaki kontrolne (`text`).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Usuń znaki wysuwu wiersza i inne znaki kontrolne z wartości tekstowej.
 ```powerquery
 Text.Clean("ABC#(lf)D")

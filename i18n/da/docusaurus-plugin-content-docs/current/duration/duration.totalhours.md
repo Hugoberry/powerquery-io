@@ -19,12 +19,12 @@ Duration.TotalHours(
 
 ## Remarks
 
-Returnerer det samlede antal timer spændt over <code>duration</code>.
+Returnerer det samlede antal timer spændt over `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find det samlede antal timer spændt over en varighedsværdi.
 ```powerquery
 Duration.TotalHours(#duration(5, 4, 3, 2))

@@ -21,13 +21,13 @@ Table.Min(
 
 ## Remarks
 
-Devuelve las filas mayores de <code>table</code>, dado el <code>comparisonCriteria</code>. Si la tabla está vacía, se devuelve un valor <code>default</code> opcional.
+Devuelve las filas mayores de `table`, dado el `comparisonCriteria`. Si la tabla está vacía, se devuelve un valor `default` opcional.
 
 
 ## Examples
 
-### Example #1 
-Buscar la fila con el valor menor de la columna [a] en la tabla.
+### Example #1
+Buscar la fila con el valor menor de la columna \[a\] en la tabla.
 ```powerquery
 Table.Min(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Buscar la fila con el valor menor de la columna [a] en la tabla. Si está vacía, se devuelve -1.
+### Example #2
+Buscar la fila con el valor menor de la columna \[a\] en la tabla. Si está vacía, se devuelve -1.
 ```powerquery
 Table.Min(#table({"a"}, {}), "a", -1)
 ```

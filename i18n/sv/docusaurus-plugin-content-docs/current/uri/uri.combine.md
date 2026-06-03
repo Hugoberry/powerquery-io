@@ -20,7 +20,7 @@ Uri.Combine(
 
 ## Remarks
 
-Returnerar en absolut URI som är en kombination av <code>baseUri</code> och <code>relativeUri</code> i angivna indata.
+Returnerar en absolut URI som är en kombination av `baseUri` och `relativeUri` i angivna indata.
 
 
 

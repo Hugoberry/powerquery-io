@@ -27,8 +27,8 @@ Traduce un conjunto de columnas de una tabla en parejas de atributo-valor, combi
 
 ## Examples
 
-### Example #1 
-Tomar las columnas &#34;a&#34;, &#34;b&#34; y &#34;c&#34; en la tabla &lt;code&gt;(\{[ key = &#34;x&#34;, a = 1, b = null, c = 3 ], [ key = &#34;y&#34;, a = 2, b = 4, c = null ]})&lt;/code&gt; y anular la dinamización en pares de atributo-valor.
+### Example #1
+Tomar las columnas "a", "b" y "c" en la tabla `({[ key = "x", a = 1, b = null, c = 3 ], [ key = "y", a = 2, b = 4, c = null ]})` y anular la dinamización en pares de atributo-valor.
 ```powerquery
 Table.Unpivot(
     Table.FromRecords({

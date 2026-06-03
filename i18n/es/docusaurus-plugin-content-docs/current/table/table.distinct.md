@@ -20,12 +20,14 @@ Table.Distinct(
 
 ## Remarks
 
-Quita las filas duplicadas de la tabla.    Un parámetro opcional, <code>equationCriteria</code>, especifica qué columnas de la tabla se prueban para la duplicación. Si no se especifica <code>equationCriteria</code>, se prueban todas las columnas.<br />    <br />    Dado que, a veces, Power Query descarga determinadas operaciones en orígenes de datos de back-end (conocidas como "plegamiento") y, a veces, optimiza las consultas mediante     la omisión de operaciones que no son estrictamente necesarias; en general, no hay ninguna garantía de que se conserve un duplicado específico.    Por ejemplo, no puede asumir que la primera fila con un conjunto único de valores de columna permanecerá y que se quitarán las filas más abajo de la tabla.    Si desea que la eliminación de duplicados se comporte de forma predecible, primero es necesario almacenar en búfer la tabla con <code>Table.Buffer</code>.
+Quita las filas duplicadas de la tabla. Un parámetro opcional, `equationCriteria`, especifica qué columnas de la tabla se prueban para la duplicación. Si no se especifica `equationCriteria`, se prueban todas las columnas.  
+  
+Dado que Power Query a veces descarga determinadas operaciones en orígenes de datos de back-end (conocidos como "plegado") y a veces optimiza las consultas mediante la omisión de operaciones que no son estrictamente necesarias; en general, no hay ninguna garantía de que se conserve un duplicado específico. Por ejemplo, no puede asumir que la primera fila con un conjunto único de valores de columna permanecerá y que se quitarán las filas más abajo de la tabla. Si desea que la eliminación de duplicados se comporte de forma predecible, primero es necesario almacenar en búfer la tabla con `Table.Buffer`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Quitar las filas duplicadas de la tabla.
 ```powerquery
 Table.Distinct(
@@ -46,8 +48,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Quitar las filas duplicadas de la columna [b] de la tabla &lt;code&gt;(\{[a = &#34;A&#34;, b = &#34;a&#34;], [a = &#34;B&#34;, b = &#34;a&#34;], [a = &#34;A&#34;, b = &#34;b&#34;]})&lt;/code&gt;.
+### Example #2
+Quitar las filas duplicadas de la columna \[b\] de la tabla `({[a = "A", b = "a"], [a = "B", b = "a"], [a = "A", b = "b"]})`.
 ```powerquery
 Table.Distinct(
     Table.FromRecords({

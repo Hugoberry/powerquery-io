@@ -21,12 +21,12 @@ Table.InsertRows(
 
 ## Remarks
 
-傳回資料表，其中資料列清單 <code>rows</code> 已插入 <code>table</code> 中的指定位置 <code>offset</code>。要插入之資料列中的每個資料行都必須符合資料表的資料行類型。
+傳回資料表，其中資料列清單 `rows` 已插入 `table` 中的指定位置 `offset`。要插入之資料列中的每個資料行都必須符合資料表的資料行類型。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 將資料列插入資料中的位置 1。
 ```powerquery
 Table.InsertRows(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 將兩個資料列插入資料中的位置 1。
 ```powerquery
 Table.InsertRows(

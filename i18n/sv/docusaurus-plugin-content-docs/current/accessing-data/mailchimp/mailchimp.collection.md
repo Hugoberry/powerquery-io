@@ -25,7 +25,7 @@ Anropar MailChimp API:n och returnerar den resulterande datauppsättningen som e
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hämtar en tabell med data från list-slutpunkten av MailChimps API:er.
 ```powerquery
 MailChimp.Collection("listor")
@@ -37,7 +37,7 @@ En tabell med listdata.
 ```
 
 
-### Example #2 
+### Example #2
 Hämtar en tabell med data från kampanjmapp-slutpunkten av MailChimps API:er.
 ```powerquery
 MailChimp.Collection("kampanjmappar", "mappar")

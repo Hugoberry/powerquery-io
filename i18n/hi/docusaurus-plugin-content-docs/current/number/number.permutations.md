@@ -20,12 +20,12 @@ Number.Permutations(
 
 ## Remarks
 
-आइटमों की संख्या, <code>setSize</code>, से निर्दिष्ट क्रम संचय आकार, <code>permutationSize</code> के साथ जनरेट किए जा सकने वाले क्रम संचयों की संख्या लौटाता है.
+आइटमों की संख्या, `setSize`, से निर्दिष्ट क्रम संचय आकार, `permutationSize` के साथ जनरेट किए जा सकने वाले क्रम संचयों की संख्या लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 कुल 5 आइटमों के 3 समूहों से क्रम संचयों की संख्या प्राप्त करें.
 ```powerquery
 Number.Permutations(5, 3)

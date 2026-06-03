@@ -20,12 +20,15 @@ Number.Combinations(
 
 ## Remarks
 
-Returns the number of unique combinations from a list of items, <code>setSize</code> with specified combination size, <code>combinationSize</code>.<ul>    <li><code>setSize</code>: The number of items in the list.</li>    <li><code>combinationSize</code>: The number of items in each combination.</li></ul>
+Returns the number of unique combinations from a list of items, `setSize` with specified combination size, `combinationSize`.
+
+-   `setSize`: The number of items in the list.
+-   `combinationSize`: The number of items in each combination.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find the number of combinations from a total of 5 items when each combination is a group of 3.
 ```powerquery
 Number.Combinations(5, 3)

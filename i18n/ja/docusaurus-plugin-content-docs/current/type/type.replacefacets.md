@@ -20,7 +20,7 @@ Type.ReplaceFacets(
 
 ## Remarks
 
-<code>type</code> のファセットをレコード <code>facets</code> に含まれるファセットで置換します。
+`type` のファセットをレコード `facets` に含まれるファセットで置換します。
 
 
 

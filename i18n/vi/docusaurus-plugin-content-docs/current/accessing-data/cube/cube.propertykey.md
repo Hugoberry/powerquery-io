@@ -19,7 +19,7 @@ Cube.PropertyKey(
 
 ## Remarks
 
-Trả về khóa của tính chất <code>property</code>.
+Trả về khóa của tính chất `property`.
 
 
 

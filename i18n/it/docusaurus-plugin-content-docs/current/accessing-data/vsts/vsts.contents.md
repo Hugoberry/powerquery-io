@@ -5,7 +5,7 @@ title: VSTS.Contents
 # VSTS.Contents
 
 
-Immettere l&#39;URL del Servizio analisi di Azure DevOps.
+Immettere l'URL del Servizio analisi di Azure DevOps.
 
 
 ## Syntax

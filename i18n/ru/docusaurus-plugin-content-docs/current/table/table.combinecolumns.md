@@ -27,7 +27,7 @@ Table.CombineColumns(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Объединение фамилий и имен в новом столбце с разделением запятыми.
 ```powerquery
 Table.CombineColumns(

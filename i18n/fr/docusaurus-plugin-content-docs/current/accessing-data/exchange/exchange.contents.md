@@ -5,7 +5,7 @@ title: Exchange.Contents
 # Exchange.Contents
 
 
-Retourne une table de contenu d&#39;un compte Microsoft Exchange spécifié.
+Retourne une table de contenu d'un compte Microsoft Exchange spécifié.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Exchange.Contents(
 
 ## Remarks
 
-Retourne une table de contenu à partir du compte Microsoft Exchange <code>mailboxAddress</code>. Si <code>mailboxAddress</code> n'est pas spécifié, le compte par défaut pour les informations d'identification est utilisé.
+Retourne une table de contenu à partir du compte Microsoft Exchange `mailboxAddress`. Si `mailboxAddress` n'est pas spécifié, le compte par défaut pour les informations d'identification est utilisé.
 
 
 

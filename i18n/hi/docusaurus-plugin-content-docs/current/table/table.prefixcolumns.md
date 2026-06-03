@@ -20,13 +20,13 @@ Table.PrefixColumns(
 
 ## Remarks
 
-एक तालिका लौटाता है जहाँ पर प्रदान किए गए <code>table</code> से सभी स्तंभ नामों को दिए गए पाठ, <code>prefix</code> के साथ उपसर्ग के रूप में शामिल किया गया है, साथ ही <code>prefix</code><code>.ColumnName</code> स्वरूप में पीरियड को शामिल किया गया है.
+यह एक ऐसी तालिका लौटाता है, जिसमें दिए गए `table` के सभी कॉलम नामों के आगे, दिए गए टेक्स्ट `prefix` और एक बिंदु (period) को `prefix.ColumnName` के रूप में जोड़ा जाता है.
 
 
 ## Examples
 
-### Example #1 
-तालिका में &#34;MyTable&#34; में स्तंभों को पहले लगाएँ.
+### Example #1
+तालिका में "MyTable" में स्तंभों को पहले लगाएँ.
 ```powerquery
 Table.PrefixColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

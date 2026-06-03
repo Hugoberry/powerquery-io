@@ -21,12 +21,12 @@ Marketo.Leads(
 
 ## Remarks
 
-<code>url</code>/rest/v1/leads.json の Marketo REST API エンドポイントに対する呼び出しを行います。<code>leadIds</code> のリストに含まれるすべての潜在顧客が返されます。
+`url`/rest/v1/leads.json の Marketo REST API エンドポイントに対する呼び出しを行います。`leadIds` のリストに含まれるすべての潜在顧客が返されます。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 潜在顧客 3 名の詳細を取得します
 ```powerquery
 Marketo.Leads("https://100-AAA-999.mktorest.com/rest", {50, 2343, 88498})

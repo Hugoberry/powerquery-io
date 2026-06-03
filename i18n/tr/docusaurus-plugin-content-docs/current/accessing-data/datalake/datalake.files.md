@@ -5,7 +5,7 @@ title: DataLake.Files
 # DataLake.Files
 
 
-Azure Data Lake Storage hesabınızın URL&#39;sini girin.
+Azure Data Lake Storage hesabınızın URL'sini girin.
 
 
 ## Syntax
@@ -20,6 +20,6 @@ DataLake.Files(
 
 ## Remarks
 
-Azure Data Lake Storage 1. Nesil <code>URL'sinde</code> bulunan her dosya için bir satır içeren bir tablo döndürür. Her satır, dosyanın özelliklerini ve içeriğinin bir bağlantısını içerir.
+Azure Data Lake Storage 1. Nesil `URL'sinde` bulunan her dosya için bir satır içeren bir tablo döndürür. Her satır, dosyanın özelliklerini ve içeriğinin bir bağlantısını içerir.
 
 

@@ -19,13 +19,13 @@ Type.NonNullable(
 
 ## Remarks
 
-Trả về loại không phải <code>giá trị null</code> từ <code>type</code>.
+Trả về loại không phải `giá trị null` từ `type`.
 
 
 ## Examples
 
-### Example #1 
-Trả về loại không phải giá trị null của &lt;code&gt;loại số không phải giá trị null&lt;/code&gt;.
+### Example #1
+Trả về loại không phải giá trị null của `loại số không phải giá trị null`.
 ```powerquery
 Type.NonNullable(type nullable number)
 ```

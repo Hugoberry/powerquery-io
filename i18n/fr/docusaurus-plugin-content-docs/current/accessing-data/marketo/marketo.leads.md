@@ -21,12 +21,12 @@ Marketo.Leads(
 
 ## Remarks
 
-Effectue un appel au point de terminaison de l'API REST Marketo de <code>url</code>/rest/v1/activities.json. Tous les prospects de la liste <code>leadIds</code> sont retournés.
+Effectue un appel au point de terminaison de l'API REST Marketo de `url`/rest/v1/activities.json. Tous les prospects de la liste `leadIds` sont retournés.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Extrait les détails pour trois prospects
 ```powerquery
 Marketo.Leads("https://100-AAA-999.mktorest.com/rest", {50, 2343, 88498})

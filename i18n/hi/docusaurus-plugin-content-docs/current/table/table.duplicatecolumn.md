@@ -22,13 +22,13 @@ Table.DuplicateColumn(
 
 ## Remarks
 
-तालिका <code>table</code> में <code>columnName</code> नाम के स्तंभ का डुप्लिकेट बनाएँ. स्तंभ <code>newColumnName</code> के लिए मान और प्रकार की स्तंभ <code>columnName</code> से प्रतिलिपि बना ली जाती है.
+तालिका `columnName` में `table` नाम के स्तंभ का डुप्लिकेट बनाएं. स्तंभ `newColumnName` के लिए मान और प्रकार की स्तंभ `columnName` से प्रतिलिपि बनाई गई है.
 
 
 ## Examples
 
-### Example #1 
-तालिका &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; में स्तंभ &#34;a&#34; को &#34;copied column&#34; नाम के स्तंभ में डुप्लिकेट करें.
+### Example #1
+तालिका `({[a = 1, b = 2], [a = 3, b = 4]})` में स्तंभ "a" को "copied column" नाम के स्तंभ में डुप्लिकेट करें.
 ```powerquery
 Table.DuplicateColumn(
     Table.FromRecords({

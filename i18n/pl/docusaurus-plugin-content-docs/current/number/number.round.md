@@ -21,12 +21,19 @@ Number.Round(
 
 ## Remarks
 
-Zwraca wynik zaokrąglenia <code>number</code> do najbliższej liczby. Jeśli <code>number</code> ma wartość null, funkcja <code>Number.Round</code> zwraca wartość null.<br />      <br />      Domyślnie wartość <code>number</code> jest zaokrąglana do najbliższej liczby całkowitej, a powiązania są przerywane przez zaokrąglenie do najbliższej liczby parzystej (przy użyciu funkcji <code>RoundingMode.ToEven</code>, zwanego także „zaokrągleniem bankowym”.<br />      <br />      Te ustawienia domyślne można jednak zastąpić następującymi parametrami opcjonalnymi.       <ul>        <li><code>digits</code>: powoduje zaokrąglanie wartości <code>number</code> do określonej liczby dziesiętnej.</li>        <li><code>roundingMode</code>: zastępuje domyślne zachowanie przerwania połączenia, gdy wartość <code>number</code> znajduje się w punkcie środkowym między dwiema potencjalnie zaokrąglonymi wartościami      (zobacz funkcję <code>RoundingMode.Type</code> pod kątem możliwych wartości).</li>      </ul>
+Zwraca wynik zaokrąglenia `number` do najbliższej liczby. Jeśli `number` ma wartość null, funkcja `Number.Round` zwraca wartość null.  
+  
+Domyślnie wartość `number` jest zaokrąglana do najbliższej liczby całkowitej, a powiązania są przerywane przez zaokrąglenie do najbliższej liczby parzystej (przy użyciu funkcji `RoundingMode.ToEven`, zwanego także „zaokrągleniem bankowym”.  
+  
+Te ustawienia domyślne można jednak zastąpić następującymi parametrami opcjonalnymi.
+
+-   `digits`: powoduje zaokrąglanie wartości `number` do określonej liczby dziesiętnej.
+-   `roundingMode`: zastępuje domyślne zachowanie przerwania połączenia, gdy wartość `number` znajduje się w punkcie środkowym między dwiema potencjalnie zaokrąglonymi wartościami (zobacz funkcję `RoundingMode.Type` pod kątem możliwych wartości).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zaokrąglij liczbę 1,234 do najbliższej liczby całkowitej.
 ```powerquery
 Number.Round(1.234)
@@ -38,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Zaokrąglij liczbę 1,56 do najbliższej liczby całkowitej.
 ```powerquery
 Number.Round(1.56)
@@ -50,7 +57,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Zaokrąglij liczbę 1,2345 do dwóch miejsc dziesiętnych.
 ```powerquery
 Number.Round(1.2345, 2)
@@ -62,7 +69,7 @@ Result:
 ```
 
 
-### Example #4 
+### Example #4
 Zaokrąglij liczbę 1,2345 w górę do trzech miejsc dziesiętnych.
 ```powerquery
 Number.Round(1.2345, 3, RoundingMode.Up)
@@ -74,7 +81,7 @@ Result:
 ```
 
 
-### Example #5 
+### Example #5
 Zaokrąglij liczbę 1,2345 w dół do trzech miejsc dziesiętnych.
 ```powerquery
 Number.Round(1.2345, 3, RoundingMode.Down)

@@ -25,7 +25,7 @@ Table.SelectRowsWithErrors(
 
 ## Examples
 
-### Example #1 
+### Example #1
 行にエラーを含む顧客の名前を選択します。
 ```powerquery
 Table.SelectRowsWithErrors(

@@ -21,12 +21,12 @@ DateTimeZone.SwitchZone(
 
 ## Remarks
 
-<code>timezoneHours</code> और वैकल्पिक रूप से <code>timezoneMinutes</code> द्वारा प्रदान की गई नई समय क्षेत्र जानकारी के लिए समय क्षेत्र जानकारी को datetimezone मान <code>dateTimeZone</code> में बदलता है.    अगर <code>dateTimeZone</code> में कोई समय क्षेत्र घटक नहीं है, तो एक अपवाद प्रस्तुत किया जाता है.
+datetimezone मान `dateTimeZone` पर समय क्षेत्र जानकारी को `timezoneHours` द्वारा दी गई नई समय क्षेत्र जानकारी और वैकल्पिक रूप से `timezoneMinutes` में बदलता है. अगर `dateTimeZone` में कोई समय क्षेत्र घटक नहीं है, तो एक त्रुटि होती है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) के लिए समय क्षेत्र जानकारी को 8 घंटे में परिवर्तित करें.
 ```powerquery
 DateTimeZone.SwitchZone(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30), 8)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) के लिए समय क्षेत्र जानकारी को -30 मिनट बदलें.
 ```powerquery
 DateTimeZone.SwitchZone(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30), 0, -30)

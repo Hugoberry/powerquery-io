@@ -19,13 +19,13 @@ DateTimeZone.FromFileTime(
 
 ## Remarks
 
-Skapar ett <code>datetimezone</code>-värde från <code>fileTime</code>-värdet och konverterar det till den lokala tidszonen. Filetime-värdet är ett Windows-filtidsvärde som representerar antalet intervall om 100 nanosekunder som har förflutit sedan midnatt den 1 januari 1601 e. Kr. (C.E.) Coordinated Universal Time (UTC).
+Skapar ett `datetimezone`\-värde från `fileTime`\-värdet och konverterar det till den lokala tidszonen. Filetime-värdet är ett Windows-filtidsvärde som representerar antalet intervall om 100 nanosekunder som har förflutit sedan midnatt den 1 januari 1601 e. Kr. (C.E.) Coordinated Universal Time (UTC).
 
 
 ## Examples
 
-### Example #1 
-Konvertera &lt;code&gt;129876402529842245&lt;/code&gt; till ett datetimezone-värde.
+### Example #1
+Konvertera `129876402529842245` till ett datetimezone-värde.
 ```powerquery
 DateTimeZone.FromFileTime(129876402529842245)
 ```

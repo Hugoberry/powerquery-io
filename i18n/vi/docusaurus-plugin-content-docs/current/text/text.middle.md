@@ -21,13 +21,13 @@ Text.Middle(
 
 ## Remarks
 
-Trả về <code>count</code> ký tự hoặc đến cuối <code>text</code>; tại giá trị bù <code>start</code>.
+Trả về `count` ký tự hoặc đến cuối `text`; tại giá trị bù `start`.
 
 
 ## Examples
 
-### Example #1 
-Tìm chuỗi con từ văn bản &#34;Hello World&#34; bắt đầu ở chỉ mục 6 kéo dài 5 ký tự.
+### Example #1
+Tìm chuỗi con từ văn bản "Hello World" bắt đầu ở chỉ mục 6 kéo dài 5 ký tự.
 ```powerquery
 Text.Middle("Hello World", 6, 5)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Tìm chuỗi con từ văn bản &#34;Hello World&#34; bắt đầu ở chỉ mục 6 đến cuối.
+### Example #2
+Tìm chuỗi con từ văn bản "Hello World" bắt đầu ở chỉ mục 6 đến cuối.
 ```powerquery
 Text.Middle("Hello World", 6, 20)
 ```
@@ -47,6 +47,18 @@ Text.Middle("Hello World", 6, 20)
 Result: 
 ```powerquery
 "World"
+```
+
+
+### Example #3
+Tìm chuỗi con từ văn bản "Hello World" bắt đầu ở chỉ mục 0 kéo dài 2 ký tự.
+```powerquery
+Text.Middle("Hello World", 0, 2)
+```
+
+Result: 
+```powerquery
+"He"
 ```
 
 

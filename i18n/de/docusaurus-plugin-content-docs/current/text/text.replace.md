@@ -21,13 +21,13 @@ Text.Replace(
 
 ## Remarks
 
-Gibt das Ergebnis zurück, das entsteht, wenn alle Vorkommen des Textwerts "<code>old</code>" im Textwert "<code>text</code>" durch den Textwert "<code>new</code>" ersetzt werden. Bei dieser Funktion wird die Groß-/Kleinschreibung berücksichtigt.
+Gibt das Ergebnis zurück, das entsteht, wenn alle Vorkommen des Textwerts "`old`" im Textwert "`text`" durch den Textwert "`new`" ersetzt werden. Bei dieser Funktion wird die Groß-/Kleinschreibung berücksichtigt.
 
 
 ## Examples
 
-### Example #1 
-Ersetzt alle Vorkommen von &#34;the&#34; in einen Satz durch &#34;a&#34;.
+### Example #1
+Ersetzt alle Vorkommen von "the" in einen Satz durch "a".
 ```powerquery
 Text.Replace("the quick brown fox jumps over the lazy dog", "the", "a")
 ```

@@ -21,7 +21,7 @@ Value.NullableEquals(
 
 ## Remarks
 
-Devuelve nulo si un argumento '<code>value1</code>', '<code>value2</code>' es nulo, de lo contrario equivale a Value.Equals.
+Devuelve null si el argumento `value1` o `value2` es null; de lo contrario, equivale a Value.Equals.
 
 
 

@@ -27,8 +27,8 @@ Bir tablodaki sütun kümesini her satırdaki geri kalan değerler ile birleşti
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;(\{[ key = &#34;x&#34;, a = 1, b = null, c = 3 ], [ key = &#34;y&#34;, a = 2, b = 4, c = null ]})&lt;/code&gt; tablosundaki &#34;a&#34;, &#34;b&#34; ve &#34;c&#34; sütunlarını alır ve öznitelik-değer çiftlerine özetler.
+### Example #1
+`({[ key = "x", a = 1, b = null, c = 3 ], [ key = "y", a = 2, b = 4, c = null ]})` tablosundaki "a", "b" ve "c" sütunlarını alır ve öznitelik-değer çiftlerine özetler.
 ```powerquery
 Table.Unpivot(
     Table.FromRecords({

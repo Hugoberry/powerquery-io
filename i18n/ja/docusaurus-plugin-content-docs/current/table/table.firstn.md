@@ -20,12 +20,15 @@ Table.FirstN(
 
 ## Remarks
 
-<code>countOrCondition</code> の値に応じて、テーブル <code>table</code> の先頭から行を返します:    <ul>    <li> <code>countOrCondition</code> が数値の場合は、(先頭から) その数の行を返します。</li>    <li> <code>countOrCondition</code> が条件の場合は、その条件を満たさない行の手前までの条件を満たす行を返します。</li></ul>
+`countOrCondition` の値に応じて、テーブル `table` の先頭から行を返します:
+
+-   `countOrCondition` が数値の場合は、(先頭から) その数の行を返します。
+-   `countOrCondition` が条件の場合は、その条件を満たさない行の手前までの条件を満たす行を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブルの先頭の 2 行を探します。
 ```powerquery
 Table.FirstN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-テーブル内の [a] &gt; 0 である先頭行を探します。
+### Example #2
+テーブル内の \[a\] > 0 である先頭行を探します。
 ```powerquery
 Table.FirstN(
     Table.FromRecords({

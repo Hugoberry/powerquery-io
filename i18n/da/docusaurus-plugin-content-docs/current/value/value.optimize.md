@@ -19,7 +19,7 @@ Value.Optimize(
 
 ## Remarks
 
-Når det bruges i Value.Expression, hvis <code>value</code> repræsenterer en forespørgsel, der kan optimeres, indikerer denne funktion, at det optimerede udtryk skal returneres. Ellers vil <code>value</code> blive overført uden virkning.
+Når det bruges i Value.Expression, hvis `value` repræsenterer en forespørgsel, der kan optimeres, indikerer denne funktion, at det optimerede udtryk skal returneres. Ellers vil `value` blive overført uden virkning.
 
 
 

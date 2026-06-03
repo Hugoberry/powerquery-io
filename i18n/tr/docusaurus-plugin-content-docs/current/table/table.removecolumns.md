@@ -21,13 +21,13 @@ Table.RemoveColumns(
 
 ## Remarks
 
-Belirtilen <code>columns</code> öğesini sağlanan <code>table</code> öğesinden kaldırır.    Belirtilen sütun yoksa, <code>missingField</code> isteğe bağlı parametresi bir alternatif davranış belirtmediği sürece hata oluşur (örneğin <code>MissingField.UseNull</code> veya <code>MissingField.Ignore</code>).
+Belirtilen `columns` öğesini sağlanan `table` öğesinden kaldırır. Belirtilen sütun yoksa, `missingField` isteğe bağlı parametresi bir alternatif davranış belirtmediği sürece hata oluşur (örneğin `MissingField.UseNull` veya `MissingField.Ignore`).
 
 
 ## Examples
 
-### Example #1 
-Tablodaki [Phone] sütununu kaldırır.
+### Example #1
+Tablodaki \[Phone\] sütununu kaldırır.
 ```powerquery
 Table.RemoveColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -41,7 +41,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #2 
+### Example #2
 Var olmayan bir sütunu tablodan kaldırmayı deneyin.
 ```powerquery
 Table.RemoveColumns(

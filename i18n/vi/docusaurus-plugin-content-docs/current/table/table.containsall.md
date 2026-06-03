@@ -21,13 +21,13 @@ Table.ContainsAll(
 
 ## Remarks
 
-Cho biết tất cả các bản ghi được chỉ định trong danh sách bản ghi <code>rows</code> có xuất hiện ở dạng các hàng trong <code>table</code> hay không.    Có thể chỉ định tham số tùy chọn <code>equationCriteria</code> để kiểm soát phép so sánh giữa các hàng của bảng.
+Cho biết tất cả các bản ghi được chỉ định trong danh sách bản ghi `rows` có xuất hiện ở dạng các hàng trong `table` hay không. Có thể chỉ định tham số tùy chọn `equationCriteria` để kiểm soát phép so sánh giữa các hàng của bảng.
 
 
 ## Examples
 
-### Example #1 
-Xác định bảng có chứa tất cả các hàng so sánh chỉ một cột [CustomerID] hay không.
+### Example #1
+Xác định bảng có chứa tất cả các hàng so sánh chỉ một cột \[CustomerID\] hay không.
 ```powerquery
 Table.ContainsAll(
     Table.FromRecords({
@@ -50,7 +50,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Xác định bảng có chứa tất cả các hàng hay không.
 ```powerquery
 Table.ContainsAll(

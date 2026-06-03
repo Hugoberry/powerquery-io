@@ -21,7 +21,7 @@ Value.Multiply(
 
 ## Remarks
 
-Trả về tích của phép nhân <code>value1</code> với <code>value2</code>. Có thể chỉ định tham số <code>precision</code> tùy chọn, theo mặc định <code>Precision.Double</code> được sử dụng.
+Trả về tích của phép nhân `value1` với `value2`. Có thể chỉ định tham số `precision` tùy chọn, theo mặc định `Precision.Double` được sử dụng.
 
 
 

@@ -20,13 +20,13 @@ Table.Column(
 
 ## Remarks
 
-Trả về cột dữ liệu được chỉ định bởi <code>column</code> từ bảng <code>table</code> ở dạng danh sách.
+Trả về cột dữ liệu được chỉ định bởi `column` từ bảng `table` ở dạng danh sách.
 
 
 ## Examples
 
-### Example #1 
-Trả về các giá trị từ cột [Name] trong bảng.
+### Example #1
+Trả về các giá trị từ cột \[Name\] trong bảng.
 ```powerquery
 Table.Column(
     Table.FromRecords({

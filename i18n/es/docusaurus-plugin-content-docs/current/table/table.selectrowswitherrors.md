@@ -25,7 +25,7 @@ Devuelve una tabla solo con aquellas filas de la tabla de entrada que contienen 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Seleccionar los nombres de los clientes que tengan errores en las filas.
 ```powerquery
 Table.SelectRowsWithErrors(

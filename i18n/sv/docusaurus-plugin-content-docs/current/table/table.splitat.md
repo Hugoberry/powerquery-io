@@ -20,12 +20,12 @@ Table.SplitAt(
 
 ## Remarks
 
-Returnerar en lista som innehåller två tabeller: en tabell med de första N raderna i <code>table</code> (som anges av <code>count</code>) och en tabell som innehåller de återstående raderna i <code>table</code>.Om tabellerna i den resulterande listan räknas upp en gång och i ordning räknar funktionen upp <code>table</code> bara en gång.
+Returnerar en lista som innehåller två tabeller: en tabell med de första N raderna i `table` (som anges av `count`) och en tabell som innehåller de återstående raderna i `table`. Om tabellerna i den resulterande listan räknas upp en gång och i ordning räknar funktionen upp `table` bara en gång.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnera de första två raderna i tabellen och resten av raderna i tabellen.
 ```powerquery
 Table.SplitAt(#table({"a", "b", "c"}, {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}), 2)

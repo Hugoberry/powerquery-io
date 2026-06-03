@@ -22,7 +22,7 @@ Cube.AddAndExpandDimensionColumn(
 
 ## Remarks
 
-รวมตารางมิติที่ระบุ, <code>dimensionSelector</code>, ลงในบริบทตัวกรอง, <code>cube</code>, ของคิวบ์และเปลี่ยนแปลงส่วนประกอบแบบมิติของบริบทตัวกรองโดยขยายชุดที่ระบุ, <code>attributeNames</code>, ของแอตทริบิวต์มิติ แอตทริบิวต์มิติจะถูกเพิ่มลงในมุมมองแบบตารางที่มีคอลัมน์ชื่อว่า <code>newColumnNames</code>, หรือ <code>attributeNames</code> หากไม่ได้ระบุ
+ผสานตารางมิติที่ระบุ `dimensionSelector` ลงในบริบทตัวกรองของ `cube` และเปลี่ยนแปลงส่วนประกอบมิติโดยการขยายชุดที่ระบุ `attributeNames` ของแอตทริบิวต์มิติ แอตทริบิวต์มิติจะถูกเพิ่มลงในมุมมองแบบตารางที่มีคอลัมน์ชื่อว่า `newColumnNames`, หรือ `attributeNames` หากไม่ได้ระบุ.
 
 
 

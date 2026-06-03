@@ -19,12 +19,19 @@ GoogleBigQuery.Database(
 
 ## Remarks
 
-      Zwraca tabelę z listą dostępnych projektów w usłudze Google BigQuery. Opcjonalny parametr rekordu <code>options</code> może zostać określony do sterowania następującymi opcjami:      <ul>        <li><code>ConnectionTimeout</code>: Czas trwania decydujący o tym, jak długo należy czekać przed zarzuceniem próby nawiązania połączenia z serwerem. Wartością domyślną jest wartość limitu czasu połączenia ODBC.</li>        <li><code>CommandTimeout</code>: Czas trwania decydujący o tym, jak długo zapytanie po stronie serwera może być wykonywane przed anulowaniem.</li>        <li><code>BillingProject</code>: Identyfikator projektu rozliczeniowego. Domyślną wartością jest pierwszy dostępny projekt.</li>      <li><code>UseStorageApi</code>: Określa, czy należy użyć interfejsu API magazynu BigQuery do dużych zestawów wyników. Domyślna wartość to true pozwalająca użyć interfejsu API magazynu. Ustawienie wartości false spowoduje, że nie będzie używany interfejs API magazynu</li>   </ul>      Parametr rekordu jest określany w postaci [opcja1 = wartość1, opcja2 = wartość2...].    
+Zwraca tabelę zawierającą listę dostępnych projektów w usłudze Google BigQuery. Opcjonalny parametr rekordu, `opcje`, może być określony w celu kontrolowania następujących opcji:
+
+-   `ConnectionTimeout`: czas trwania określający czas oczekiwania przed porzuceniem próby nawiązania połączenia z serwerem. Wartość domyślna to wartość limitu czasu połączenia ODBC.
+-   `CommandTimeout`: czas trwania określający, jak długo zapytanie po stronie serwera może być uruchamiane zanim zostanie anulowane.
+-   `BillingProject`: identyfikator projektu rozliczeniowego. Wartością domyślną jest pierwszy dostępny projekt.
+-   `UseStorageApi`: określa, czy interfejs API magazynu BigQuery ma być używany dla dużych zestawów wyników. W celu użycia interfejsu API magazynu wartość domyślna to true. Ustaw wartość false, aby nie używać interfejsu API magazynu
+
+Parametr rekordu jest określony jako \[option1 = value1, option2 = value2...\].
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Wyświetl listę dostępnych projektów w usłudze Google BigQuery
 ```powerquery
 GoogleBigQuery.Database()

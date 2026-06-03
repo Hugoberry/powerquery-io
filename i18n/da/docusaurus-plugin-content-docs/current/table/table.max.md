@@ -21,13 +21,13 @@ Table.Max(
 
 ## Remarks
 
-Returnerer den største række i <code>table</code> med den angivne <code>comparisonCriteria</code>. Hvis tabellen er tom, returneres den valgfrie værdi <code>default</code>. 
+Returnerer den største række i `table` med den angivne `comparisonCriteria`. Hvis tabellen er tom, returneres den valgfrie værdi `default`.
 
 
 ## Examples
 
-### Example #1 
-Find rækken med den største værdi i kolonnen [a] i tabellen &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8]})&lt;/code&gt;.
+### Example #1
+Find rækken med den største værdi i kolonnen \[a\] i tabellen `({[a = 2, b = 4], [a = 6, b = 8]})`.
 ```powerquery
 Table.Max(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Find rækken med den største værdi i kolonnen [a] i tabellen &lt;code&gt;(\{})&lt;/code&gt;. Returner -1, hvis tabellen er tom.
+### Example #2
+Find rækken med den største værdi i kolonnen \[a\] i tabellen `({})`. Returner -1, hvis tabellen er tom.
 ```powerquery
 Table.Max(#table({"a"}, {}), "a", -1)
 ```

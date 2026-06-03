@@ -20,7 +20,7 @@ Number.BitwiseShiftLeft(
 
 ## Remarks
 
-Gibt für "<code>number1</code>" das Ergebnis einer bitweisen Verschiebung nach links um die angegebene Anzahl von Bits (<code>number2</code>) zurück.
+Gibt für "`number1`" das Ergebnis einer bitweisen Verschiebung nach links um die angegebene Anzahl von Bits (`number2`) zurück.
 
 
 

@@ -20,13 +20,20 @@ Date.FromText(
 
 ## Remarks
 
-Cria um valor <code>date</code> a partir de uma representação textual, <code>text</code>. Um parâmetro <code>record</code> opcional, <code>options</code> pode ser fornecido para especificar propriedades adicionais. O <code>record</code> pode conter os seguintes campos:<ul>   <li><code>Format</code>: Um valor de <code>text</code> que indica o formato a utilizar. Para mais detalhes, aceda a https://go.microsoft.com/fwlink/?linkid=2180104 e https://go.microsoft.com/fwlink/?linkid=2180105. Omitir este campo ou fornecer <code>null</code> resultará na análise da data com o melhor esforço.</li>   <li><code>Culture</code>: Quando o <code>Format</code> não é nulo, a <code>Culture</code> controla alguns especificadores de formato.. Por exemplo, em <code>"en-US"</code> <code>"MMM"</code> é <code>"Jan", "Feb", "Mar", ...</code>, enquanto que <code>"ru-RU"</code> <code>"MMM"</code> é <code>"янв", "фев", "мар", ...</code>. Quando <code>Format</code> é <code>null</code>, <code>Culture</code> controla o formato a utilizar. Quando <code>Culture</code> é <code>null</code> ou omitido <code>Culture.Current</code> é utilizado.</li></ul>Para apoiar fluxos de trabalho de legado, <code>options</code> poderá também ser um valor de texto. Isto tem o mesmo comportamento que se <code>options</code><code> = [Format = null, Culture = <code>options</code>]</code>.
+Cria um valor de data a partir de uma representação textual.
+
+-   `text`: um valor de texto a converter em data.
+-   `options`: um `record` opcional que poderá ser fornecido para especificar propriedades adicionais. O `record` pode conter os campos seguintes:
+    -   `Format`: um valor `text` que indica o formato a utilizar. Para obter mais detalhes, aceda a https://go.microsoft.com/fwlink/?linkid=2180104 e https://go.microsoft.com/fwlink/?linkid=2180105. A omissão deste campo ou o fornecimento de `null` resulta na análise da data da melhor forma possível.
+    -   `Culture`: quando `Format` não é nulo, `Culture` controla alguns especificadores de formato. Por exemplo, em `"en-US"` `"MMM"` é `"Jan", "Feb", "Mar", ...`, enquanto em `"ru-RU"` `"MMM"` é `"янв", "фев", "мар", ...`. Quando `Format` é `null`, `Culture` controla o formato predefinido a utilizar. Quando `Culture` é `null` ou é omitido, é utilizado `Culture.Current`.
+
+Para suportar fluxos de trabalho legados, `options` também poderá ser um valor de texto. Tem o mesmo comportamento que `options = [Format = null, Culture = options]`.
 
 
 ## Examples
 
-### Example #1 
-Converter &lt;code&gt;&#34;2010-12-31&#34;&lt;/code&gt; num valor &lt;code&gt;date&lt;/code&gt;.
+### Example #1
+Converter `"2010-12-31"` num valor `date`.
 ```powerquery
 Date.FromText("2010-12-31")
 ```
@@ -37,7 +44,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Converter com um formato personalizado e a cultura alemã.
 ```powerquery
 Date.FromText("30 Dez 2010", [Format="dd MMM yyyy", Culture="de-DE"])
@@ -49,7 +56,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Encontrar a data no calendário gregoriano que corresponde ao início de 1400 no calendário hijri.
 ```powerquery
 Date.FromText("1400", [Format="yyyy", Culture="ar-SA"])
@@ -58,6 +65,41 @@ Date.FromText("1400", [Format="yyyy", Culture="ar-SA"])
 Result: 
 ```powerquery
 #date(1979, 11, 20)
+```
+
+
+### Example #4
+Converter as datas do texto italiano com meses abreviados na coluna Data Publicada em valores de data.
+```powerquery
+let
+    Source = #table(type table [Account Code = text, Posted Date = text, Sales = number],
+    {
+        {"US-2004", "20 gen. 2023", 580},
+        {"CA-8843", "18 lug. 2024", 280},
+        {"PA-1274", "12 gen. 2023", 90},
+        {"PA-4323", "14 apr. 2023", 187},
+        {"US-1200", "14 dic. 2023", 350},
+        {"PTY-507", "4 giu. 2024", 110}
+    }),
+    #"Converted Date" = Table.TransformColumns(
+        Source,
+        {"Posted Date", each Date.FromText(_, [Culture = "it-IT"]), type date}
+    )
+in
+    #"Converted Date"
+```
+
+Result: 
+```powerquery
+#table(type table [Account Code = text, Posted Date = date, Sales = number],
+{
+    {"US-2004", #date(2023, 1, 20), 580},
+    {"CA-8843", #date(2024, 7, 18), 280},
+    {"PA-1274", #date(2023, 1, 12), 90},
+    {"PA-4323", #date(2023, 4, 14), 187},
+    {"US-1200", #date(2023, 12, 14), 350},
+    {"PTY-507", #date(2024, 6, 4), 110}
+})
 ```
 
 

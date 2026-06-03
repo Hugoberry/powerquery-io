@@ -24,7 +24,7 @@ Type.TableRow(
 
 ## Examples
 
-### Example #1 
+### Example #1
 返回简单表的行类型信息。
 ```powerquery
 let

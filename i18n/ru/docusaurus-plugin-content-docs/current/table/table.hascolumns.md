@@ -20,13 +20,13 @@ Table.HasColumns(
 
 ## Remarks
 
-Указывает, содержит ли <code>table</code> указанные столбцы <code>columns</code>. Возвращает значение <code>true</code>, если таблица содержит эти столбцы. В противном случае возвращается значение <code>false</code>.
+Указывает, содержит ли `table` указанные столбцы `columns`. Возвращает значение `true`, если таблица содержит эти столбцы. В противном случае возвращается значение `false`.
 
 
 ## Examples
 
-### Example #1 
-Определение, содержит ли таблица столбец [Name].
+### Example #1
+Определение, содержит ли таблица столбец \[Name\].
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({
@@ -45,8 +45,8 @@ true
 ```
 
 
-### Example #2 
-Определение, содержит ли таблица столбцы [Name] и [PhoneNumber].
+### Example #2
+Определение, содержит ли таблица столбцы \[Name\] и \[PhoneNumber\].
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({

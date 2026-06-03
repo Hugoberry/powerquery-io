@@ -26,7 +26,7 @@ Splitter.SplitTextByEachDelimiter(
 
 ## Examples
 
-### Example #1 
+### Example #1
 從輸入的開頭開始，先用逗號，然後用分號分割輸入。
 ```powerquery
 Splitter.SplitTextByEachDelimiter({",", ";"})("a,b;c,d")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 先用逗號，然後用分號分割輸入，將引號與其他字元一樣處理，並從輸入的結尾開始。
 ```powerquery
 let

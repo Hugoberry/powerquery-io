@@ -19,12 +19,12 @@ Table.SingleRow(
 
 ## Remarks
 
-Returnerar den enstaka raden i <code>table</code> med en rad. Om <code>table</code> har mer än en rad genereras ett undantag.
+Returnerar den enstaka raden i `table` med en rad. Om `table` har mer än en rad genereras ett undantag.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnera den enskilda raden i tabellen.
 ```powerquery
 Table.SingleRow(Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}))

@@ -19,13 +19,13 @@ Type.RecordFields(
 
 ## Remarks
 
-Gibt einen Datensatz zurück, der die Felder eines Datensatzes <code>type</code> beschreibt. Jedes Feld des zurückgegebenen Datensatztyps weist einen entsprechenden Namen und Wert in der Form des Datensatzes <code>[ Type = type, Optional = logical ]</code> auf.
+Gibt einen Datensatz zurück, der die Felder eines Datensatzes `type` beschreibt. Jedes Feld des zurückgegebenen Datensatztyps weist einen entsprechenden Namen und Wert in der Form des Datensatzes `[ Type = type, Optional = logical ]` auf.
 
 
 ## Examples
 
-### Example #1 
-Suchen Sie den Namen und Wert des Datensatzes &lt;code&gt;[ A = number, optional B = any]&lt;/code&gt;.
+### Example #1
+Suchen Sie den Namen und Wert des Datensatzes `[ A = number, optional B = any]`.
 ```powerquery
 Type.RecordFields(type [A = number, optional B = any])
 ```

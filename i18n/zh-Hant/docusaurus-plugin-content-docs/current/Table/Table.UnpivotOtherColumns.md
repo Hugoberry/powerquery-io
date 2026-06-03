@@ -27,7 +27,7 @@ Table.UnpivotOtherColumns(
 
 ## Examples
 
-### Example #1 
+### Example #1
 將指定集合以外的所有資料行，翻譯為成對的「屬性/值」，並與每個資料列中其餘的值合併。
 ```powerquery
 Table.UnpivotOtherColumns(

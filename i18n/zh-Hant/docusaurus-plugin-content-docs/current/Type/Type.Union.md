@@ -19,7 +19,7 @@ Type.Union(
 
 ## Remarks
 
-傳回 <code>types</code> 中的類型聯集。
+傳回 `types` 中的類型聯集。
 
 
 

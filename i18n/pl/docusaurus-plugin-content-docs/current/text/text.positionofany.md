@@ -21,12 +21,12 @@ Text.PositionOfAny(
 
 ## Remarks
 
-Zwraca pierwszą pozycję dowolnego znaku na liście <code>characters</code> znajdującego się w klasie <code>text</code>.    Opcjonalny parametr <code>occurrence</code> może służyć do określenia pozycji wystąpienia do zwrócenia.
+Zwraca pierwszą pozycję dowolnego znaku na liście `characters` znajdującego się w klasie `text`. Opcjonalny parametr `occurrence` może służyć do określenia pozycji wystąpienia do zwrócenia.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź pierwszą pozycję litery „W” lub „Ś” w tekście „Witaj, świecie!”.
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"})
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Znajdź wszystkie położenia liter „W” lub „Ś” w tekście „Witaj, świecie”&#34;.
+### Example #2
+Znajdź wszystkie położenia liter „W” lub „Ś” w tekście „Witaj, świecie”".
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"}, Occurrence.All)
 ```

@@ -19,12 +19,12 @@ Table.ToRows(
 
 ## Remarks
 
-从表 <code>table</code> 中创建嵌套表的列表。 每个列表项都是一个包含行值的内部列表。
+从表 `table` 中创建嵌套表的列表。 每个列表项都是一个包含行值的内部列表。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 从表中创建行值的列表。
 ```powerquery
 Table.ToRows(

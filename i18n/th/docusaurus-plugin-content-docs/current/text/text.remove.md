@@ -20,12 +20,12 @@ Text.Remove(
 
 ## Remarks
 
-ส่งกลับสำเนาของค่าข้อความ <code>text</code> ที่เอาอักขระทั้งหมดออกจาก <code>removeChars</code>  
+ส่งกลับสำเนาของค่าข้อความ `text` ที่เอาอักขระทั้งหมดออกจาก `removeChars`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 เอาอักขระ , และ ; ออกจากค่าข้อความ
 ```powerquery
 Text.Remove("a,b;c", {",",";"})

@@ -20,13 +20,13 @@ Text.Select(
 
 ## Remarks
 
-<code>text</code> metin değerinin <code>selectChars</code> konumundaki tüm karakterler kaldırılmamış şekilde kopyasını döndürür.  
+`text` metin değerinin `selectChars` konumundaki tüm karakterler kaldırılmamış şekilde kopyasını döndürür.
 
 
 ## Examples
 
-### Example #1 
-&#39;a&#39; - &#39;z&#39; aralığındaki metin değerinden tüm karakterleri seçin.
+### Example #1
+'a' - 'z' aralığındaki metin değerinden tüm karakterleri seçin.
 ```powerquery
 Text.Select("a,b;c", {"a".."z"})
 ```

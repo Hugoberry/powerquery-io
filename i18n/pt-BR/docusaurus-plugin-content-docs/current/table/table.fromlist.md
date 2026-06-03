@@ -23,12 +23,12 @@ Table.FromList(
 
 ## Remarks
 
-Converte uma lista, <code>list</code>, em tabela aplicando a função de divisão opcional, <code>splitter</code>, a cada item da lista. Por padrão, a lista é considerada uma lista de valores de texto divididos por vírgula. O <code>columns</code> opcional pode ser o número de colunas, uma lista de colunas ou um TableType. <code>default</code> e <code>extraValues</code> opcionais também podem ser especificados.
+Converte uma lista, `list`, em tabela aplicando a função de divisão opcional, `splitter`, a cada item da lista. Por padrão, a lista é considerada uma lista de valores de texto divididos por vírgula. O `columns` opcional pode ser o número de colunas, uma lista de colunas ou um TableType. `default` e `extraValues` opcionais também podem ser especificados.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Crie uma tabela a partir de uma lista usando o divisor padrão.
 ```powerquery
 Table.FromList(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Crie uma tabela a partir de uma lista usando um divisor personalizado.
 ```powerquery
 Table.FromList(
@@ -70,7 +70,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Crie uma tabela da lista usando o divisor Record.FieldValues.
 ```powerquery
 Table.FromList(

@@ -21,13 +21,18 @@ Time.ToText(
 
 ## Remarks
 
-Devolve uma representação textual de <code>time</code>. Um parâmetro <code>record</code> opcional, <code>options</code>, pode ser fornecido para especificar propriedades adicionais. <code>culture</code> é utilizado apenas para fluxos de trabalho legados. O <code>record</code> pode conter os seguintes campos:<ul>   <li><code>Format</code>: Um valor de <code>text</code> que indica o formato a utilizar. Aceda a https://go.microsoft.com/fwlink/?linkid=2180104 e https://go.microsoft.com/fwlink/?linkid=2180105. Omitir este campo ou fornecer <code>null</code> resultará na formatação da data utilizando a predefinição definida pela <code>Culture</code>.</li>   <li><code>Culture</code>: Quando o <code>Format</code> não é null, a <code>Culture</code> controla alguns especificadores de formato. Por exemplo, em <code>"en-US"</code>, <code>"tt"</code> é <code>"AM" ou "PM"</code>, ao passo que em <code>"ar-EG"</code>, <code>"tt"</code> é <code>"ص" ou "م"</code>. Quando o <code>Format</code> é <code>null</code>, a <code>Culture</code> controla o formato predefinido a utilizar. Quando <code>Culture</code> é <code>null</code> ou omitida, é utilizado <code>Culture.Current</code>.</li></ul>Para suportar fluxos de trabalho legados, <code>options</code> e <code>culture</code> também podem ser valores de texto. O comportamento é idêntico ao caso em que <code>options</code><code> = [Format = <code>options</code>, Culture = <code>culture</code>]</code>.
+Devolve uma representação textual de `time`. Poderá ser fornecido um parâmetro `record` opcional, `options`, para especificar propriedades adicionais. `culture` é utilizado apenas para fluxos de trabalho legados. O `record` pode conter os seguintes campos:
+
+-   `Format`: um valor `text` que indica o formato a utilizar. Para obter mais detalhes, aceda a https://go.microsoft.com/fwlink/?linkid=2180104 e https://go.microsoft.com/fwlink/?linkid=2180105. A omissão deste campo ou o fornecimento de `null` resultará na formatação da data com o formato predefinido por `Culture`.
+-   `Culture`: quando `Format` não é nulo, `Culture` controla alguns especificadores de formato. Por exemplo, em `"en-US"` `"tt"` é `"AM" or "PM"`, enquanto em `"ar-EG"` `"tt"` é `"ص" or "م"`. Quando `Format` é `null`, `Culture` controla o formato predefinido a utilizar. Quando `Culture` é `null` ou é omitido, é utilizado `Culture.Current`.
+
+Para suportar fluxos de trabalho legados, `options` e `culture` também poderão ser valores de texto. Tem o mesmo comportamento que `options = [Format = options, Culture = culture]`.
 
 
 ## Examples
 
-### Example #1 
-Converter &lt;code&gt;#time(01, 30, 25)&lt;/code&gt; num valor de &lt;code&gt;text&lt;/code&gt;. &lt;i&gt;O resultado pode variar dependendo da cultura atual.&lt;/i&gt;
+### Example #1
+Converter `#time(01, 30, 25)` num valor de `text`. *O resultado pode variar dependendo da cultura atual.*
 ```powerquery
 Time.ToText(#time(11, 56, 2))
 ```
@@ -38,7 +43,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Converter com um formato personalizado e a cultura alemã.
 ```powerquery
 Time.ToText(#time(11, 56, 2), [Format="hh:mm", Culture="de-DE"])
@@ -50,7 +55,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Converter com o formato de hora padrão.
 ```powerquery
 Time.ToText(#time(11, 56, 2), [Format="T", Culture="de-DE"])

@@ -5,7 +5,7 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-Применяет переименования из списка в форме \{ old, new }.
+Применяет переименования из списка в форме \{ old, new \}.
 
 
 ## Syntax
@@ -21,12 +21,12 @@ Record.RenameFields(
 
 ## Remarks
 
-Возвращает запись после присвоения полям во входных данных <code>record</code> новых имен, указанных в списке <code>renames</code>. Для нескольких переименований можно использовать вложенный список (\{ \{старое1, новое1}, \{старое2, новое2} }.
+Возвращает запись после переименования полей во входных данных `record` с присвоением им новых имен, указанных в списке `renames`. Для нескольких переименований можно использовать вложенный список (\{ \{old1, new1\}, \{old2, new2\} \}).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Переименование поля UnitPrice в Price в записи.
 ```powerquery
 Record.RenameFields(
@@ -41,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Переименование поля UnitPrice в Price, а поле OrderNum в OrderID в записи.
 ```powerquery
 Record.RenameFields(

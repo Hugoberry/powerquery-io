@@ -19,12 +19,12 @@ Number.IsEven(
 
 ## Remarks
 
-Indicates if the value, <code>number</code>, is even by returning <code>true</code> if it is even, <code>false</code> otherwise.
+Indicates if the value, `number`, is even by returning `true` if it is even, `false` otherwise.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Check if 625 is an even number.
 ```powerquery
 Number.IsEven(625)
@@ -36,7 +36,7 @@ false
 ```
 
 
-### Example #2 
+### Example #2
 Check if 82 is an even number.
 ```powerquery
 Number.IsEven(82)

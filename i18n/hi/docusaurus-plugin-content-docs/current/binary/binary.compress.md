@@ -20,12 +20,15 @@ Binary.Compress(
 
 ## Remarks
 
-दिए गए कंप्रेशन प्रकार का उपयोग करके एक बाइनरी मान को कंप्रेस करता है. इस कॉल का परिणाम इनपुट की एक कंप्रेस की गई प्रतिलिपि होता है. कंप्रेशन प्रकारों में शामिल है:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
+दिए गए कंप्रेशन प्रकार का उपयोग करके एक बाइनरी मान को कंप्रेस करता है. इस कॉल का परिणाम इनपुट की एक कंप्रेस की गई प्रतिलिपि होता है. कंप्रेशन प्रकारों में शामिल है:
+
+-   `Compression.GZip`
+-   `Compression.Deflate`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 बाइनरी मान को संपीड़ित करें.
 ```powerquery
 Binary.Compress(Binary.FromList(List.Repeat({10}, 1000)), Compression.Deflate)

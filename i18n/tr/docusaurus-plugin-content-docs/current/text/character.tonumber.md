@@ -19,12 +19,14 @@ Character.ToNumber(
 
 ## Remarks
 
-<code>character</code> ile denk olan sayıyı döndürür.<br />    <br />    Sonuç, sağlanan karakter veya vekil bileşen çifti tarafından temsil edilen 21 bitlik Unicode kod noktası olur.  
+`character` ile denk olan sayıyı döndürür.  
+  
+Sonuç, sağlanan karakter veya vekil bileşen çifti tarafından temsil edilen 21 bitlik Unicode kod noktası olur.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bir karakteri eşdeğer sayı değerine dönüştürün.
 ```powerquery
 Character.ToNumber("#(tab)")
@@ -36,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-&#34;Sırıtan yüz&#34; ifadesi için UTF-16 vekil bileşen çiftini eşdeğer onaltılık kod noktasına dönüştürün.
+### Example #2
+"Sırıtan yüz" ifadesi için UTF-16 vekil bileşen çiftini eşdeğer onaltılık kod noktasına dönüştürün.
 ```powerquery
 Number.ToText(Character.ToNumber("#(0001F600)"), "X")
 ```

@@ -21,13 +21,13 @@ Table.Min(
 
 ## Remarks
 
-Gibt die kleinste Zeile im Element vom Typ "<code>table</code>" anhand von "<code>comparisonCriteria</code>" zurück. Ist die Tabelle leer, wird der optionale Wert "<code>default</code>" zurückgegeben.
+Gibt die kleinste Zeile im Element vom Typ "`table`" anhand von "`comparisonCriteria`" zurück. Ist die Tabelle leer, wird der optionale Wert "`default`" zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt in der Tabelle die Zeile mit dem kleinsten Wert in der Spalte &#34;[a]&#34;.
+### Example #1
+Ermittelt in der Tabelle die Zeile mit dem kleinsten Wert in der Spalte "\[a\]".
 ```powerquery
 Table.Min(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Ermittelt in der Tabelle die Zeile mit dem kleinsten Wert in der Spalte &#34;[a]&#34;. Ist die Spalte leer, wird &#34;-1&#34; zurückgegeben.
+### Example #2
+Ermittelt in der Tabelle die Zeile mit dem kleinsten Wert in der Spalte "\[a\]". Ist die Spalte leer, wird "-1" zurückgegeben.
 ```powerquery
 Table.Min(#table({"a"}, {}), "a", -1)
 ```

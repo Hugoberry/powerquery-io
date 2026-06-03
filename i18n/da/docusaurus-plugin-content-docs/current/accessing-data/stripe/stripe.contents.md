@@ -5,7 +5,7 @@ title: Stripe.Contents
 # Stripe.Contents
 
 
-Foretager et kald til Stripe API&#39;en, med mulighed for at begrænse antallet af API-kald.
+Foretager et kald til Stripe API'en, med mulighed for at begrænse antallet af API-kald.
 
 
 ## Syntax
@@ -21,12 +21,12 @@ Stripe.Contents(
 
 ## Remarks
 
-Foretager et opkald til Stripe-API'en på https://api.stripe.com/v1/<code>metode</code>, hvor den valgfri post <code>forespørgsel</code> er godkendt som yderligere parametre og den valgfri <code>pageLimit</code> udgør grænsen for antallet af API-forespørgsler. De nyeste data returneres først. Hvis <code>pageLimit</code> ikke er angivet, returneres alle data. Stripe-version 2015-10-16 anvendes.
+Foretager et opkald til Stripe-API'en på https://api.stripe.com/v1/`metode`, hvor den valgfri post `forespørgsel` er godkendt som yderligere parametre og den valgfri `pageLimit` udgør grænsen for antallet af API-forespørgsler. De nyeste data returneres først. Hvis `pageLimit` ikke er angivet, returneres alle data. Stripe-version 2015-10-16 anvendes.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnerer alle gebyrdata
 ```powerquery
 Stripe.Contents("charges")
@@ -38,7 +38,7 @@ En tabel med alle gebyrdata for den aktuelle Stripe-konto
 ```
 
 
-### Example #2 
+### Example #2
 Returnerer én side med gebyrdata
 ```powerquery
 Stripe.Contents("charges", [], 1)

@@ -22,13 +22,13 @@ List.Min(
 
 ## Remarks
 
-Trả về mục có giá trị cực tiểu trong danh sách <code>list</code> hoặc giá trị mặc định tùy chọn <code>default</code> nếu danh sách trống.    Có thể chỉ định một giá trị comparisonCriteria tùy chọn là <code>comparisonCriteria</code> để xác định cách so sánh các mục trong danh sách. Nếu tham số này là null thì trình so sánh mặc định được sử dụng.
+Trả về mục có giá trị cực tiểu trong danh sách `list` hoặc giá trị mặc định tùy chọn `default` nếu danh sách trống. Có thể chỉ định một giá trị comparisonCriteria tùy chọn là `comparisonCriteria` để xác định cách so sánh các mục trong danh sách. Nếu tham số này là null thì trình so sánh mặc định được sử dụng.
 
 
 ## Examples
 
-### Example #1 
-Tìm giá trị cực tiểu trong danh sách \{1, 4, 7, 3, -2, 5}.
+### Example #1
+Tìm giá trị cực tiểu trong danh sách \{1, 4, 7, 3, -2, 5\}.
 ```powerquery
 List.Min({1, 4, 7, 3, -2, 5})
 ```
@@ -39,8 +39,8 @@ Result:
 ```
 
 
-### Example #2 
-Tìm giá trị cực tiểu trong danh sách \{} hoặc trả về -1 nếu danh sách trống. 
+### Example #2
+Tìm giá trị cực tiểu trong danh sách \{\} hoặc trả về -1 nếu danh sách trống.
 ```powerquery
 List.Min({}, -1)
 ```

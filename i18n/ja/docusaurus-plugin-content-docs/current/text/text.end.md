@@ -20,13 +20,13 @@ Text.End(
 
 ## Remarks
 
-<code>text</code> 値 <code>text</code> の最後の <code>count</code> 文字である <code>text</code> 値を返します。
+`text` 値 `text` の最後の `count` 文字である `text` 値を返します。
 
 
 ## Examples
 
-### Example #1 
-テキスト &#34;Hello, World&#34; の最後の 5 文字を取得します。
+### Example #1
+テキスト "Hello, World" の最後の 5 文字を取得します。
 ```powerquery
 Text.End("Hello, World", 5)
 ```

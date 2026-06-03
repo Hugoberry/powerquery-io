@@ -20,7 +20,14 @@ SapHana.Database(
 
 ## Remarks
 
-Retorna uma tabela de pacotes multidimensionais do banco de dados SAP HANA <code>server</code>. Um parâmetro de registro opcional, <code>options</code>, pode ser especificado para controlar as opções a seguir:    <ul><li><code>Query</code> : Uma consulta SQL nativa usada para recuperar dados. Se a consulta produzir v&#225;rios conjuntos de resultados, somente o primeiro ser&#225; retornado.</li><li><code>Distribution</code> : Uma SapHanaDistribution que define o valor da propriedade &quot;Distribution&quot; na cadeia de conex&#227;o. O roteamento de instru&#231;&#227;o &#233; o m&#233;todo para avaliar o n&#243; de servidor correto de um sistema distribu&#237;do antes da execu&#231;&#227;o da instru&#231;&#227;o. O valor padr&#227;o &#233; SapHanaDistribution.All.</li><li><code>Implementation</code> : Especifica a implementa&#231;&#227;o do conector SAP HANA a ser usada.</li><li><code>EnableColumnBinding</code> : Vincula vari&#225;veis ​​&#224;s colunas de um conjunto de resultados do SAP HANA ao buscar dados. Pode melhorar potencialmente o desempenho ao custo de uma utiliza&#231;&#227;o de mem&#243;ria um pouco maior. O valor padr&#227;o &#233; falso.</li><li><code>ConnectionTimeout</code> : Uma dura&#231;&#227;o que controla o tempo de espera at&#233; que uma tentativa de fazer uma conex&#227;o com o servidor seja abandonada. O valor padr&#227;o &#233; 15 segundos.</li><li><code>CommandTimeout</code> : Uma dura&#231;&#227;o que controla por quanto tempo a consulta do servidor tem permiss&#227;o para ser executada at&#233; que seja cancelada. O valor padr&#227;o &#233; dez minutos.</li></ul>    
+Retorna uma tabela de pacotes multidimensionais do banco de dados SAP HANA `server`. Um parâmetro de registro opcional, `options`, pode ser especificado para controlar as opções a seguir:
+
+-   `Query` : Uma consulta SQL nativa usada para recuperar dados. Se a consulta produzir vários conjuntos de resultados, somente o primeiro será retornado.
+-   `Distribution` : Uma SapHanaDistribution que define o valor da propriedade "Distribution" na cadeia de conexão. O roteamento de instrução é o método para avaliar o nó de servidor correto de um sistema distribuído antes da execução da instrução. O valor padrão é SapHanaDistribution.All.
+-   `Implementation` : Especifica a implementação do conector SAP HANA a ser usada.
+-   `EnableColumnBinding` : Vincula variáveis ​​às colunas de um conjunto de resultados do SAP HANA ao buscar dados. Pode melhorar potencialmente o desempenho ao custo de uma utilização de memória um pouco maior. O valor padrão é falso.
+-   `ConnectionTimeout` : Uma duração que controla o tempo de espera até que uma tentativa de fazer uma conexão com o servidor seja abandonada. O valor padrão é 15 segundos.
+-   `CommandTimeout` : Uma duração que controla por quanto tempo a consulta do servidor tem permissão para ser executada até que seja cancelada. O valor padrão é dez minutos.
 
 
 

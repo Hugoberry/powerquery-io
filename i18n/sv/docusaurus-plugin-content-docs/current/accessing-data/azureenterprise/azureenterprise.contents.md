@@ -25,7 +25,7 @@ Returnerar det binära resultatet för anropet till den URL som tillhandahållit
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnera resultatet för en specifik rapport genom att använda funktionen AzureEnterprise.Contents.
 ```powerquery
         let

@@ -20,12 +20,15 @@ Binary.Decompress(
 
 ## Remarks
 
-使用给定的压缩类型解压缩二进制值。此调用的结果是输入的压缩后副本。压缩类型包括:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
+使用给定的压缩类型解压缩二进制值。此调用的结果是输入的压缩后副本。压缩类型包括:
+
+-   `Compression.GZip`
+-   `Compression.Deflate`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 解压缩二进制值。
 ```powerquery
 Binary.Decompress(#binary({115, 103, 200, 7, 194, 20, 134, 36, 134, 74, 134, 84, 6, 0}), Compression.Deflate)

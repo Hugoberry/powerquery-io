@@ -20,12 +20,18 @@ Pdf.Tables(
 
 ## Remarks
 
-<code>pdf</code> 'da bulunan tüm tabloları döndürür. Ek özellikleri belirtmek için isteğe bağlı bir kayıt parametresi <code>options</code> sağlanabilir. Kayıt aşağıdaki alanları içerebilir:    <ul><li><code>Implementation</code> : Tabloları tanımlarken kullanılacak algoritma s&#252;r&#252;m&#252;. Eski s&#252;r&#252;mler, algoritma g&#252;ncelleştirmelerinin eski sorguları bozmasını &#246;nlemek i&#231;in yalnızca geriye d&#246;n&#252;k uyumluluk i&#231;in kullanılabilir. En yeni s&#252;r&#252;m her zaman en iyi sonu&#231;ları vermelidir. Ge&#231;erli değerler: &quot;1.3&quot;, &quot;1.2&quot;, &quot;1.1&quot; veya null.</li><li><code>StartPage</code> : İncelenecek sayfalar arasından ilk sayfayı belirtir. Varsayılan: 1.</li><li><code>EndPage</code> : İncelenecek sayfalar arasından son sayfayı belirtir. Varsayılan: belgenin son sayfası.</li><li><code>MultiPageTables</code> : Art arda gelen sayfalardaki benzer tabloların otomatik olarak tek bir tabloda birleştirilip birleştirilmeyeceğini denetler. Varsayılan: true.</li><li><code>EnforceBorderLines</code> : Kenarlık &#231;izgilerinin her zaman h&#252;cre sınırı olarak zorunlu mu kılınacağını (true olduğunda), yoksa h&#252;cre sınırlarını belirlemek i&#231;in pek &#231;ok ipucundan biri olarak mı kullanılacağını (false olduğunda) denetler. Varsayılan: false.</li></ul>    
+`pdf` 'da bulunan tüm tabloları döndürür. Ek özellikleri belirtmek için isteğe bağlı bir kayıt parametresi `options` sağlanabilir. Kayıt aşağıdaki alanları içerebilir:
+
+-   `Implementation` : Tabloları tanımlarken kullanılacak algoritma sürümü. Eski sürümler, algoritma güncelleştirmelerinin eski sorguları bozmasını önlemek için yalnızca geriye dönük uyumluluk için kullanılabilir. En yeni sürüm her zaman en iyi sonuçları vermelidir. Geçerli değerler: "1.3", "1.2", "1.1" veya null.
+-   `StartPage` : İncelenecek sayfalar arasından ilk sayfayı belirtir. Varsayılan: 1.
+-   `EndPage` : İncelenecek sayfalar arasından son sayfayı belirtir. Varsayılan: belgenin son sayfası.
+-   `MultiPageTables` : Art arda gelen sayfalardaki benzer tabloların otomatik olarak tek bir tabloda birleştirilip birleştirilmeyeceğini denetler. Varsayılan: true.
+-   `EnforceBorderLines` : Kenarlık çizgilerinin her zaman hücre sınırı olarak zorunlu mu kılınacağını (true olduğunda), yoksa hücre sınırlarını belirlemek için pek çok ipucundan biri olarak mı kullanılacağını (false olduğunda) denetler. Varsayılan: false.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 sample.pdf içinde yer alan tabloları döndürür.
 ```powerquery
 Pdf.Tables(File.Contents("c:\sample.pdf"))

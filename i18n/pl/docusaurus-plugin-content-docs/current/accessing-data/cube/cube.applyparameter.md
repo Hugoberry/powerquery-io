@@ -21,7 +21,7 @@ Cube.ApplyParameter(
 
 ## Remarks
 
-Zwraca moduł po zastosowaniu parametru <code>parameter</code> z wartością <code>arguments</code> do <code>cube</code>.
+Zwraca moduł po zastosowaniu parametru `parameter` z wartością `arguments` do `cube`.
 
 
 

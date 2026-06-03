@@ -22,13 +22,17 @@ List.Alternate(
 
 ## Remarks
 
-Gibt eine Liste mit allen ungeraden Offsetelementen einer Liste zurück. Wechselt zwischen Verwendung und Überspringung von Werten aus der Liste "<code>list</code>" in Abhängigkeit von den Parametern.    <ul>    <li><code>count</code>: Gibt die Anzahl von Werten an, die bei jeder Ausführung übersprungen werden.</li>    <li><code>repeatInterval</code>: Ein optionales Wiederholungsintervall, um anzugeben, wie viele Werte zwischen den übersprungenen Werten hinzugefügt werden.</li>    <li><code>offset</code>: Ein optionaler Offsetparameter, um mit der Überspringung der Werte am ursprünglichen Offset zu beginnen.</li>    </ul>
+Gibt eine Liste mit allen ungeraden Offsetelementen einer Liste zurück. Wechselt zwischen Verwendung und Überspringung von Werten aus der Liste "`list`" in Abhängigkeit von den Parametern.
+
+-   `count`: Gibt die Anzahl von Werten an, die bei jeder Ausführung übersprungen werden.
+-   `repeatInterval`: Ein optionales Wiederholungsintervall, um anzugeben, wie viele Werte zwischen den übersprungenen Werten hinzugefügt werden.
+-   `offset`: Ein optionaler Offsetparameter, um mit der Überspringung der Werte am ursprünglichen Offset zu beginnen.
 
 
 ## Examples
 
-### Example #1 
-Erstellt eine Liste auf der Grundlage von &#34;\{1..10}&#34;, bei der die erste Zahl übersprungen wird.
+### Example #1
+Erstellt eine Liste auf der Grundlage von "\{1..10\}", bei der die erste Zahl übersprungen wird.
 ```powerquery
 List.Alternate({1..10}, 1)
 ```
@@ -39,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-Erstellt eine Liste auf der Grundlage von &#34;\{1..10}&#34;, bei der jede zweite Zahl übersprungen wird.
+### Example #2
+Erstellt eine Liste auf der Grundlage von "\{1..10\}", bei der jede zweite Zahl übersprungen wird.
 ```powerquery
 List.Alternate({1..10}, 1, 1)
 ```
@@ -51,8 +55,8 @@ Result:
 ```
 
 
-### Example #3 
-Erstellt eine Liste auf der Grundlage von &#34;\{1..10}&#34;, bei der mit 1 begonnen und jede zweite Zahl übersprungen wird.
+### Example #3
+Erstellt eine Liste auf der Grundlage von "\{1..10\}", bei der mit 1 begonnen und jede zweite Zahl übersprungen wird.
 ```powerquery
 List.Alternate({1..10}, 1, 1, 1)
 ```
@@ -63,8 +67,8 @@ Result:
 ```
 
 
-### Example #4 
-Erstellt eine Liste auf der Grundlage von &#34;\{1..10}&#34;, die mit 1 beginnt, einen Wert überspringt, zwei Werte behält usw.
+### Example #4
+Erstellt eine Liste auf der Grundlage von "\{1..10\}", die mit 1 beginnt, einen Wert überspringt, zwei Werte behält usw.
 ```powerquery
 List.Alternate({1..10}, 1, 2, 1)
 ```

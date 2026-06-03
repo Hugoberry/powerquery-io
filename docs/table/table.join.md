@@ -25,12 +25,25 @@ Table.Join(
 
 ## Remarks
 
-Joins the rows of <code>table1</code> with the rows of <code>table2</code> based on the equality of the values of the key columns selected by <code>key1</code> (for <code>table1</code>) and <code>key2</code> (for <code>table2</code>).<br />By default, an inner join is performed, however an optional <code>joinKind</code> may be included to specify the type of join. Options include:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />An optional set of <code>keyEqualityComparers</code> may be included to specify how to compare the key columns. This parameter is currently intended for internal use only.<br />
+Joins the rows of `table1` with the rows of `table2` based on the equality of the values of the key columns selected by `key1` (for `table1`) and `key2` (for `table2`).
+
+By default, an inner join is performed, however an optional `joinKind` may be included to specify the type of join. Options include:
+
+-   `JoinKind.Inner`
+-   `JoinKind.LeftOuter`
+-   `JoinKind.RightOuter`
+-   `JoinKind.FullOuter`
+-   `JoinKind.LeftAnti`
+-   `JoinKind.RightAnti`
+-   `JoinKind.LeftSemi`
+-   `JoinKind.RightSemi`
+
+An optional set of `keyEqualityComparers` may be included to specify how to compare the key columns. This parameter is currently intended for internal use only.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Join two tables using a single key column.
 ```powerquery
 Table.Join(
@@ -67,7 +80,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Join two tables that have conflicting column names, using multiple key columns.
 ```powerquery
 let

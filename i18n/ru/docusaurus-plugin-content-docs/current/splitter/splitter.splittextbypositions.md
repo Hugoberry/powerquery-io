@@ -25,7 +25,7 @@ Splitter.SplitTextByPositions(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Разделение входных данных по указанным позициям с начала входных данных.
 ```powerquery
 Splitter.SplitTextByPositions({0, 3, 4})("ABC|12345")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Разделение входных данных по указанным позициям начиная с конца входных данных.
 ```powerquery
 let

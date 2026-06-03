@@ -19,13 +19,13 @@ Uri.Parts(
 
 ## Remarks
 
-Returnerer delene af <code>absoluteUri</code> for input som en post, der indeholder værdier, f.eks. Scheme, Host, Port, Path, Query, Fragment, UserName og Password.
+Returnerer delene af `absoluteUri` for input som en post, der indeholder værdier, f.eks. Scheme, Host, Port, Path, Query, Fragment, UserName og Password.
 
 
 ## Examples
 
-### Example #1 
-Find delene i den absolutte URI for input &#34;www.adventure-works.com&#34;.
+### Example #1
+Find delene i den absolutte URI for input "www.adventure-works.com".
 ```powerquery
 Uri.Parts("www.adventure-works.com")
 ```
@@ -45,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Afkod en procentkodet streng.
 ```powerquery
 let

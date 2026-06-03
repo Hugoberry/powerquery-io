@@ -19,12 +19,12 @@ Record.FieldCount(
 
 ## Remarks
 
-Retorna o número de campos no registro <code>record</code>.
+Retorna o número de campos no registro `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Localizar o número de campos no registro.
 ```powerquery
 Record.FieldCount([CustomerID = 1, Name = "Bob"])

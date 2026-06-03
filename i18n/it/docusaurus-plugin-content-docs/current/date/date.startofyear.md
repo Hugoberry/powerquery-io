@@ -5,7 +5,7 @@ title: Date.StartOfYear
 # Date.StartOfYear
 
 
-Restituisce l&#39;inizio dell’anno.
+Restituisce l'inizio dell’anno.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Date.StartOfYear(
 
 ## Remarks
 
-Restituisce l'inizio dell’anno contenente<code>dateTime</code>.    <code>dateTime</code> deve essere un valore <code>date</code>, <code>datetime</code> o <code>datetimezone</code>.
+Restituisce l'inizio dell’anno contenente`dateTime`. `dateTime` deve essere un valore `date`, `datetime` o `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
-Trovare l&#39;inizio dall&#39;anno per il 10 ottobre 2011, 8.10.32.
+### Example #1
+Trovare l'inizio dall'anno per il 10 ottobre 2011, 8.10.32.
 ```powerquery
 Date.StartOfYear(#datetime(2011, 10, 10, 8, 10, 32))
 ```

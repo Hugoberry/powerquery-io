@@ -25,7 +25,7 @@ Ersätter nycklarna i den angivna tabellen.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ersätt de befintliga nycklarna i en tabell.
 ```powerquery
 let

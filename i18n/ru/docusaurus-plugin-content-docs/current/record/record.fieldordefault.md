@@ -21,12 +21,12 @@ Record.FieldOrDefault(
 
 ## Remarks
 
-Возвращает значение указанного поля <code>field</code> в записи <code>record</code>. Если поле не найдено, то возвращается необязательное значение <code>defaultValue</code>.
+Возвращает значение указанного поля `field` в записи `record`. Если поле не найдено, то возвращается необязательное значение `defaultValue`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Нахождение значения поля Phone в записи или возврат значения Null, если оно не существует.
 ```powerquery
 Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone")
@@ -38,7 +38,7 @@ null
 ```
 
 
-### Example #2 
+### Example #2
 Нахождение значения поля Phone в записи или возврат значения по умолчанию, если оно не существует.
 ```powerquery
 Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone", "123-4567")

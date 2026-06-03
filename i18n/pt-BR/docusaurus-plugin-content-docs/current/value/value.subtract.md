@@ -21,7 +21,7 @@ Value.Subtract(
 
 ## Remarks
 
-Retorna a diferença de <code>value1</code> e <code>value2</code>. Um parâmetro <code>precision</code> opcional pode ser especificado; <code>Precision.Double</code> é usado por padrão.
+Retorna a diferença de `value1` e `value2`. Um parâmetro `precision` opcional pode ser especificado; `Precision.Double` é usado por padrão.
 
 
 

@@ -20,12 +20,15 @@ Table.LastN(
 
 ## Remarks
 
-Returnerer den eller de sidste rækker fra tabellen <code>table</code>, afhængigt af værdien i <code>countOrCondition</code>:    <ul>    <li> Hvis <code>countOrCondition</code> er et tal, returneres der så mange rækker med start fra positionen (slut - <code>countOrCondition</code>). </li>    <li> Hvis <code>countOrCondition</code> er en betingelse, returneres de rækker, der overholder betingelsen, i stigende rækkefølge, indtil en række ikke overholder betingelsen.</li></ul>
+Returnerer den eller de sidste rækker fra tabellen `table`, afhængigt af værdien i `countOrCondition`:
+
+-   Hvis `countOrCondition` er et tal, returneres der så mange rækker med start fra positionen (slut - `countOrCondition`).
+-   Hvis `countOrCondition` er en betingelse, returneres de rækker, der overholder betingelsen, i stigende rækkefølge, indtil en række ikke overholder betingelsen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find de sidste to rækker i tabellen.
 ```powerquery
 Table.LastN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Find de sidste rækker, hvor [a] &gt; 0 i tabellen.
+### Example #2
+Find de sidste rækker, hvor \[a\] > 0 i tabellen.
 ```powerquery
 Table.LastN(
     Table.FromRecords({

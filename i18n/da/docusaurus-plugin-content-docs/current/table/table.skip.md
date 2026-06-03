@@ -20,12 +20,16 @@ Table.Skip(
 
 ## Remarks
 
-Returnerer en tabel, der ikke indeholder det første angivne antal rækker, <code>countOrCondition</code>, i tabellen <code>table</code>.    Det antal rækker, der springes over, afhænger af den valgfrie parameter <code>countOrCondition</code>.    <ul>    <li> Hvis <code>countOrCondition</code> udelades, er det kun første række, der springes over. </li>    <li> Hvis <code>countOrCondition</code> er et tal, springes der så mange rækker over (med start fra toppen). </li>    <li> Hvis <code>countOrCondition</code> er en betingelse, springes de rækker over, der overholder betingelsen, indtil en række ikke overholder betingelsen.</li>    </ul>
+Returnerer en tabel, der ikke indeholder det første angivne antal rækker, `countOrCondition`, i tabellen `table`. Det antal rækker, der springes over, afhænger af den valgfrie parameter `countOrCondition`.
+
+-   Hvis `countOrCondition` udelades, er det kun første række, der springes over.
+-   Hvis `countOrCondition` er et tal, springes der så mange rækker over (med start fra toppen).
+-   Hvis `countOrCondition` er en betingelse, springes de rækker over, der overholder betingelsen, indtil en række ikke overholder betingelsen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Spring den første række i tabellen over.
 ```powerquery
 Table.Skip(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Spring de første to rækker i tabellen over.
 ```powerquery
 Table.Skip(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Spring de første to rækker i tabellen over, hvor [Price] &gt; 25.
+### Example #3
+Spring de første to rækker i tabellen over, hvor \[Price\] > 25.
 ```powerquery
 Table.Skip(
     Table.FromRecords({

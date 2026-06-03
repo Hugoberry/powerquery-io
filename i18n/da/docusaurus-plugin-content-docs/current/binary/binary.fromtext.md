@@ -20,13 +20,16 @@ Binary.FromText(
 
 ## Remarks
 
-Returnerer resultatet af at konvertere tekstværdien <code>text</code> til en binær (liste over <code>number</code>-værdier). <code>encoding</code> kan specificeres for at angive den kodning, der bruges i tekstværdien.      Følgende <code>BinaryEncoding</code>-værdier kan bruges til <code>encoding</code>.      <ul>        <li><code>BinaryEncoding.Base64</code>: Base 64-kodning</li>        <li><code>BinaryEncoding.Hex</code>: Hex-kodning</li>      </ul>
+Returnerer resultatet af at konvertere tekstværdien `text` til en binær (liste over `number`\-værdier). `encoding` kan specificeres for at angive den kodning, der bruges i tekstværdien. Følgende `BinaryEncoding`\-værdier kan bruges til `encoding`.
+
+-   `BinaryEncoding.Base64`: Base 64-kodning
+-   `BinaryEncoding.Hex`: Hex-kodning
 
 
 ## Examples
 
-### Example #1 
-Afkod &#34;1011&#34; til binær.
+### Example #1
+Afkod "1011" til binær.
 ```powerquery
 Binary.FromText("1011")
 ```
@@ -37,8 +40,8 @@ Binary.FromText("1011", BinaryEncoding.Base64)
 ```
 
 
-### Example #2 
-Afkod &#34;1011&#34; til binær med Hex-kodning.
+### Example #2
+Afkod "1011" til binær med Hex-kodning.
 ```powerquery
 Binary.FromText("1011", BinaryEncoding.Hex)
 ```

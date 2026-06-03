@@ -19,7 +19,7 @@ Cube.Measures(
 
 ## Remarks
 
-<code>cube</code> içindeki kullanılabilir ölçüler kümesini içeren bir tablo döndürür.    Her ölçü bir işlev olarak sunulur. Ölçüler, Cube.AddMeasureColumn kullanılarak küpe uygulanabilir.
+`cube` içindeki kullanılabilir ölçüler kümesini içeren bir tablo döndürür. Her ölçü bir işlev olarak sunulur. Ölçüler, Cube.AddMeasureColumn kullanılarak küpe uygulanabilir.
 
 
 

@@ -22,12 +22,18 @@ Diagnostics.Trace(
 
 ## Remarks
 
-若啟用追蹤，則寫入追蹤 <code>message</code>，並傳回 <code>value</code>。選擇性參數 <code>delayed</code> 指定是否延遲評估 <code>value</code> 直到訊息追蹤完成。<code>traceLevel</code> 可接受下列其中一個值:    <code>TraceLevel.Critical</code>    <code>TraceLevel.Error</code>、    <code>TraceLevel.Warning</code>、    <code>TraceLevel.Information</code>、    <code>TraceLevel.Verbose</code>。  
+如果啟用追蹤，會寫入追蹤 `message`，並傳回 `value`。選擇性參數 `delayed` 指定是否要延遲評估 `value` 直到追蹤郵件。`traceLevel` 可接受下列其中一個值:
+
+-   `TraceLevel.Critical`
+-   `TraceLevel.Error`
+-   `TraceLevel.Warning`
+-   `TraceLevel.Information`
+-   `TraceLevel.Verbose`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 在叫用 Text.From 函數前追蹤訊息並傳回結果。
 ```powerquery
 Diagnostics.Trace(TraceLevel.Information, "TextValueFromNumber", () => Text.From(123), true)

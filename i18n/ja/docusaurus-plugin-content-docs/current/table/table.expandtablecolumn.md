@@ -22,13 +22,13 @@ Table.ExpandTableColumn(
 
 ## Remarks
 
-<code>table</code>[<code>column</code>] 内のテーブルを複数の行と列に展開します。<code>columnNames</code> を使用して、入れ子のテーブルから展開する列を選択します。既存の列と新しい列が競合しないように、<code>newColumnNames</code> を指定してください。
+`table`\[`column`\] 内のテーブルを複数の行と列に展開します。`columnNames` を使用して、入れ子のテーブルから展開する列を選択します。既存の列と新しい列が競合しないように、`newColumnNames` を指定してください。
 
 
 ## Examples
 
-### Example #1 
-テーブル &lt;code&gt;(\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]})&lt;/code&gt; の &lt;code&gt;[a]&lt;/code&gt; のテーブル列を &lt;code&gt;[t.a]&lt;/code&gt;、&lt;code&gt;[t.b]&lt;/code&gt;、&lt;code&gt;[t.c]&lt;/code&gt; の 3 つの列に展開します。
+### Example #1
+テーブル `({[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]})` の `[a]` のテーブル列を `[t.a]`、`[t.b]`、`[t.c]` の 3 つの列に展開します。
 ```powerquery
 Table.ExpandTableColumn(
     Table.FromRecords({

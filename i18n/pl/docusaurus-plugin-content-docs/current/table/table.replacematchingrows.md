@@ -21,13 +21,13 @@ Table.ReplaceMatchingRows(
 
 ## Remarks
 
-Zamienia wszystkie określone wiersze w tabeli <code>table</code> na dostarczone wiersze. Wiersze przeznaczone do zamiany oraz wiersze zastępcze są określone w parametrze <code>replacements</code> przy użyciu formatowania \{old, new}.    Opcjonalny parametr <code>equationCriteria</code> można określić, aby sterować porównywaniem wierszy tabeli.
+Zamienia wszystkie określone wiersze w tabeli `table` na dostarczone wiersze. Wiersze przeznaczone do zamiany oraz wiersze zastępcze są określone w parametrze `replacements` przy użyciu formatowania \{old, new\}. Opcjonalny parametr `equationCriteria` można określić, aby sterować porównywaniem wierszy tabeli.
 
 
 ## Examples
 
-### Example #1 
-Zamień wiersze [a = 1, b = 2] i [a = 2, b = 3] na wiersze [a = -1, b = -2],[a = -2, b = -3] w tabeli.
+### Example #1
+Zamień wiersze \[a = 1, b = 2\] i \[a = 2, b = 3\] na wiersze \[a = -1, b = -2\],\[a = -2, b = -3\] w tabeli.
 ```powerquery
 Table.ReplaceMatchingRows(
     Table.FromRecords({

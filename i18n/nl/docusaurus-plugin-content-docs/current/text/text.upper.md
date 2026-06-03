@@ -20,13 +20,13 @@ Text.Upper(
 
 ## Remarks
 
-Hiermee wordt het resultaat geretourneerd van de conversie van alle tekens in <code>text</code> naar hoofdletters. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
+Hiermee wordt het resultaat geretourneerd van de conversie van alle tekens in `text` naar hoofdletters. Er kan ook een optionele `culture` worden opgegeven (bijvoorbeeld: nl-NL).
 
 
 ## Examples
 
-### Example #1 
-De tekst &#34;aBcD&#34; ophalen in hoofdletters.
+### Example #1
+De tekst "aBcD" ophalen in hoofdletters.
 ```powerquery
 Text.Upper("aBcD")
 ```

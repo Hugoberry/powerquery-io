@@ -20,12 +20,14 @@ Date.WeekOfMonth(
 
 ## Remarks
 
-Devolve um número de 1 a 6 que indica a semana do mês em que a data <code>dateTime</code> recai. <ul>        <li><code>dateTime</code>: um valor <code>datetime</code> para o qual a semana do mês é determinada.</li>      </ul>
+Devolve um número de 1 a 6 que indica a semana do mês em que a data `dateTime` recai.
+
+-   `dateTime`: um valor `datetime` para o qual a semana do mês é determinada.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determine em que semana de março foi o dia 15 em 2011.
 ```powerquery
 Date.WeekOfMonth(#date(2011, 03, 15))

@@ -25,7 +25,7 @@ Retourneert een functie die een lijst met tekstwaarden combineert tot één teks
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een lijst met tekstwaarden combineren met behulp van een puntkommascheidingsteken.
 ```powerquery
 Combiner.CombineTextByDelimiter(";")({"a", "b", "c"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Combineer de tekst van twee kolommen met behulp van een kommascheidingsteken en aanhalingstekens in CSV-stijl.
 ```powerquery
 let

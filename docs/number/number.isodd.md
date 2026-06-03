@@ -19,12 +19,12 @@ Number.IsOdd(
 
 ## Remarks
 
-Indicates if the value is odd. Returns <code>true</code> if <code>number</code> is an odd number, <code>false</code> otherwise.
+Indicates if the value is odd. Returns `true` if `number` is an odd number, `false` otherwise.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Check if 625 is an odd number.
 ```powerquery
 Number.IsOdd(625)
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Check if 82 is an odd number.
 ```powerquery
 Number.IsOdd(82)

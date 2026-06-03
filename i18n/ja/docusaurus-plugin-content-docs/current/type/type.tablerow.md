@@ -24,7 +24,7 @@ Type.TableRow(
 
 ## Examples
 
-### Example #1 
+### Example #1
 単純なテーブルの行のタイプの詳細情報を返します。
 ```powerquery
 let

@@ -19,7 +19,7 @@ Number.Cosh(
 
 ## Remarks
 
-返回 <code>number</code> 的双曲余弦。
+返回 `number` 的双曲余弦。
 
 
 

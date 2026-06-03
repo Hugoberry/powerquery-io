@@ -21,12 +21,12 @@ Table.RemoveRows(
 
 ## Remarks
 
-Entfernt <code>count</code> Zeilen vom Anfang des Elements vom Typ "<code>table</code>" ab dem angegebenen Wert (<code>offset</code>). Ohne Angabe des Parameters "<code>count</code>" wird als Standardanzahl der Wert 1 verwendet. 
+Entfernt `count` Zeilen vom Anfang des Elements vom Typ "`table`" ab dem angegebenen Wert (`offset`). Ohne Angabe des Parameters "`count`" wird als Standardanzahl der Wert 1 verwendet.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Entfernt die erste Zeile aus der Tabelle.
 ```powerquery
 Table.RemoveRows(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Entfernt die Zeile an der Position 1 aus der Tabelle.
 ```powerquery
 Table.RemoveRows(
@@ -74,7 +74,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Entfernt zwei Zeilen ab der Position 1 aus der Tabelle.
 ```powerquery
 Table.RemoveRows(

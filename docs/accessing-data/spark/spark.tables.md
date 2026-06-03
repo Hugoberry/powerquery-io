@@ -21,12 +21,12 @@ Spark.Tables(
 
 ## Remarks
 
-Returns a table listing the tables on the Spark cluster <code>host</code> using <code>protocol</code>.  Valid protocols are:SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
+Returns a table listing the tables on the Spark cluster `host` using `protocol`. Valid protocols are: SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 List the tables in an Azure Spark instance.
 ```powerquery
 Spark.Tables("contoso.azurehdinsight.net", SparkProtocol.Azure)

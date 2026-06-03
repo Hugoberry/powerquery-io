@@ -19,13 +19,13 @@ Type.IsNullable(
 
 ## Remarks
 
-Returnerer <code>true</code>, hvis typen er <code>nullable</code>. Ellers returneres <code>false</code>.
+Returnerer `true`, hvis typen er `nullable`. Ellers returneres `false`.
 
 
 ## Examples
 
-### Example #1 
-Bestem, om &lt;code&gt;number&lt;/code&gt; kan være null.
+### Example #1
+Bestem, om `number` kan være null.
 ```powerquery
 Type.IsNullable(type number)
 ```
@@ -36,8 +36,8 @@ false
 ```
 
 
-### Example #2 
-Bestem, om &lt;code&gt;type nullable number&lt;/code&gt; kan være null.
+### Example #2
+Bestem, om `type nullable number` kan være null.
 ```powerquery
 Type.IsNullable(type nullable number)
 ```

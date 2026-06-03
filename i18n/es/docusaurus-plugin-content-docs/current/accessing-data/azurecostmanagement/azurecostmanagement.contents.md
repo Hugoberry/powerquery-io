@@ -21,7 +21,7 @@ AzureCostManagement.Contents(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Suponiendo que hoy es 15/06/2017, obtiene los datos de los resúmenes correspondientes al período comprendido entre el 01/05/2017 y el 15/06/2017.
 ```powerquery
 let
@@ -38,7 +38,7 @@ La función devolverá los datos de los resúmenes correspondientes al periodo c
 ```
 
 
-### Example #2 
+### Example #2
 Suponiendo que hoy es 15/06/2017, obtiene los datos de los resúmenes correspondientes a abril de 2017.
 ```powerquery
 let
@@ -55,7 +55,7 @@ La función devolverá los datos correspondientes al periodo comprendido entre e
 ```
 
 
-### Example #3 
+### Example #3
 Suponiendo que hoy es 15/06/2017, obtiene los datos de los resúmenes correspondientes al periodo comprendido entre abril de 2017 hasta ahora.
 ```powerquery
 let

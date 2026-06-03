@@ -20,13 +20,13 @@ Table.PrefixColumns(
 
 ## Remarks
 
-返回一个表，其中来自所提供的 <code>table</code> 中的所有列名均以给定的文本 <code>prefix</code> 为前缀，另加一个采用格式 <code>prefix</code><code>.ColumnName</code> 的句点。
+返回一个表，其中来自所提供的 `table` 中的所有列名均以给定的文本 `prefix` 为前缀，另加一个采用格式 `prefix.ColumnName` 的句点。
 
 
 ## Examples
 
-### Example #1 
-为表中的列加前缀 &#34;MyTable&#34;。
+### Example #1
+为表中的列加前缀 "MyTable"。
 ```powerquery
 Table.PrefixColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

@@ -19,7 +19,7 @@ Cube.AttributeMemberId(
 
 ## Remarks
 
-Gibt den eindeutigen Mitgliederbezeichner des Mitglieder-Eigenschaftswerts zurück. <code>attribute</code>. Gibt für andere Werte null zurück.
+Gibt den eindeutigen Mitgliederbezeichner des Mitglieder-Eigenschaftswerts zurück. `attribute`. Gibt für andere Werte null zurück.
 
 
 

@@ -25,7 +25,7 @@ Returns a table listing the datasets on Dremio Server. This will be the same lis
 
 ## Examples
 
-### Example #1 
+### Example #1
 How to return the list of datasets on localhost. This uses the default encrypted connection.
 ```powerquery
 Dremio.Databases("localhost:31010")

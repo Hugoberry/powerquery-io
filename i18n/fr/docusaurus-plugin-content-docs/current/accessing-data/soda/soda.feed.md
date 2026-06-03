@@ -5,7 +5,7 @@ title: Soda.Feed
 # Soda.Feed
 
 
-Retourne une table à partir du contenu à l&#39;URL spécifiée formatée selon l&#39;API SODA 2.0.
+Retourne une table à partir du contenu à l'URL spécifiée formatée selon l'API SODA 2.0.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Soda.Feed(
 
 ## Remarks
 
-Retourne une table à partir du contenu à l'URL spécifiée <code>url</code> formatée selon l'API SODA 2.0. L'URL doit pointer sur une source conforme SODA valide qui se termine pas une extension .csv.
+Retourne une table à partir du contenu à l'URL spécifiée `url` formatée selon l'API SODA 2.0. L'URL doit pointer sur une source conforme SODA valide qui se termine pas une extension .csv.
 
 
 

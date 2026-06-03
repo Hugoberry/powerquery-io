@@ -5,7 +5,7 @@ title: Embedded.Value
 # Embedded.Value
 
 
-Bir ekli karmadaki bir değere ad ile erişir.
+Bu işlev, yalnızca iç kullanıma yöneliktir.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Embedded.Value(
 
 ## Remarks
 
-Bir ekli karmadaki bir değere ad ile erişir.
+Bu işlev, yalnızca iç kullanıma yöneliktir.
 
 
 

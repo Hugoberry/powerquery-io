@@ -20,13 +20,13 @@ Double.From(
 
 ## Remarks
 
-Devuelve un valor <code>number</code> Double a partir del valor <code>value</code> dado. Si <code>value</code> es <code>null</code>, <code>Double.From</code> devuelve <code>null</code>. Si <code>value</code> es <code>number</code> en el rango de Double, se devuelve <code>value</code>; en cualquier otro caso, se devuelve un error. Si <code>value</code> es de cualquier otro tipo, se convertirá en un valor <code>number</code> con <code>Number.FromText</code>. También se puede proporcionar un parámetro <code>culture</code> (por ejemplo, "es-ES").
+Devuelve un valor `number` Double a partir del valor `value` dado. Si `value` es `null`, `Double.From` devuelve `null`. Si `value` es `number` en el rango de Double, se devuelve `value`; en cualquier otro caso, se devuelve un error. Si `value` es de cualquier otro tipo, se convertirá en un valor `number` con `Number.FromText`. También se puede proporcionar un parámetro `culture` (por ejemplo, "es-ES").
 
 
 ## Examples
 
-### Example #1 
-Obtener el valor &lt;code&gt;number&lt;/code&gt; Double de &lt;code&gt;&#34;4&#34;&lt;/code&gt;.
+### Example #1
+Obtener el valor `number` Double de `"4"`.
 ```powerquery
 Double.From("4.5")
 ```

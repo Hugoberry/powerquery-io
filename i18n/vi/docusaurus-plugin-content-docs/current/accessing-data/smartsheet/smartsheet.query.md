@@ -26,7 +26,7 @@ Gọi đến API REST Smartsheet 2.0 tại điểm cuối được chỉ định
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gọi ra dữ liệu từ điểm cuối API Smartsheet của trang tính với đối số bổ sung được chỉ định
 ```powerquery
 Smartsheet.Content("sheets", "include=ownerInfo&includeAll=true", [])

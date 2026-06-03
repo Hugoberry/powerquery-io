@@ -19,12 +19,12 @@ Table.IsEmpty(
 
 ## Remarks
 
-Cho biết <code>table</code> có chứa hàng hay không. Trả về <code>true</code> nếu không có hàng nào (tức là bảng trống), <code>false</code> nếu ngược lại.
+Cho biết `table` có chứa hàng hay không. Trả về `true` nếu không có hàng nào (tức là bảng trống), `false` nếu ngược lại.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Xác định bảng có trống hay không.
 ```powerquery
 Table.IsEmpty(
@@ -42,8 +42,8 @@ false
 ```
 
 
-### Example #2 
-Xác định bảng &lt;code&gt;(\{})&lt;/code&gt; có trống hay không.
+### Example #2
+Xác định bảng `({})` có trống hay không.
 ```powerquery
 Table.IsEmpty(Table.FromRecords({}))
 ```

@@ -25,8 +25,8 @@ Restituisce una funzione che divide il testo in un elenco di testo in base agli 
 
 ## Examples
 
-### Example #1 
-Dividere l&#39;input in base alle coppie di posizione e lunghezza specificate, a partire dall&#39;inizio dell&#39;input. Si noti che gli intervalli in questo esempio si sovrappongono.
+### Example #1
+Dividere l'input in base alle coppie di posizione e lunghezza specificate, a partire dall'inizio dell'input. Si noti che gli intervalli in questo esempio si sovrappongono.
 ```powerquery
 Splitter.SplitTextByRanges({{0, 4}, {2, 10}})("codelimiter")
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Dividere l&#39;input in base alle coppie di posizione e lunghezza specificate, a partire dalla fine dell&#39;input.
+### Example #2
+Dividere l'input in base alle coppie di posizione e lunghezza specificate, a partire dalla fine dell'input.
 ```powerquery
 let
     startAtEnd = true
@@ -52,8 +52,8 @@ Result:
 ```
 
 
-### Example #3 
-Dividere l&#39;input in un codice postale a lunghezza fissa seguito da un nome di città a lunghezza variabile.
+### Example #3
+Dividere l'input in un codice postale a lunghezza fissa seguito da un nome di città a lunghezza variabile.
 ```powerquery
 Splitter.SplitTextByRanges({{0, 5}, {5, null}})("98052Redmond")
 ```

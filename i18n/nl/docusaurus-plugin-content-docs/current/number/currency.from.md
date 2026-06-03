@@ -21,13 +21,13 @@ Currency.From(
 
 ## Remarks
 
-Hiermee wordt een <code>currency</code>-waarde geretourneerd vanuit de opgegeven <code>value</code>. Als de opgegeven waarde <code>value</code> <code>null</code> is, wordt door <code>Currency.From</code> de waarde <code>null</code> geretourneerd. Als de opgegeven <code>value</code> een <code>number</code> is binnen het valutabereik, wordt het fractionele deel van de <code>value</code> afgerond op vier decimalen en geretourneerd. Als <code>value</code> van een ander type is, wordt deze eerst geconverteerd naar een <code>number</code> met behulp van <code>Number.FromText</code>. Het geldige bereik voor valuta is <code>-922.337.203.685.477,5808</code> tot en met <code>922.337.203.685.477,5807</code>. Raadpleeg <code>Number.Round</code> voor de beschikbare afrondingsmodi; de standaardmodus is <code>RoundingMode.ToEven</code>. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
+Hiermee wordt een `currency`\-waarde geretourneerd vanuit de opgegeven `value`. Als de opgegeven waarde `value` `null` is, wordt door `Currency.From` de waarde `null` geretourneerd. Als de opgegeven `value` een `number` is binnen het valutabereik, wordt het fractionele deel van de `value` afgerond op vier decimalen en geretourneerd. Als `value` van een ander type is, wordt deze eerst geconverteerd naar een `number` met behulp van `Number.FromText`. Het geldige bereik voor valuta is `-922.337.203.685.477,5808` tot en met `922.337.203.685.477,5807`. Raadpleeg `Number.Round` voor de beschikbare afrondingsmodi; de standaardmodus is `RoundingMode.ToEven`. Er kan ook een optionele `culture` worden opgegeven (bijvoorbeeld: nl-NL).
 
 
 ## Examples
 
-### Example #1 
-De&lt;code&gt;currency&lt;/code&gt;-waarde van &lt;code&gt;&#34;1.23455&#34;&lt;/code&gt; ophalen.
+### Example #1
+De`currency`\-waarde van `"1.23455"` ophalen.
 ```powerquery
 Currency.From("1.23455")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-De &lt;code&gt;currency&lt;/code&gt;-waarde van &lt;code&gt;&#34;1.23455&#34;&lt;/code&gt; ophalen met &lt;code&gt;RoundingMode.Down&lt;/code&gt;.
+### Example #2
+De `currency`\-waarde van `"1.23455"` ophalen met `RoundingMode.Down`.
 ```powerquery
 Currency.From("1.23455", "en-US", RoundingMode.Down)
 ```

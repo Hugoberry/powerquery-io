@@ -20,13 +20,13 @@ Record.Field(
 
 ## Remarks
 
-Retourne la valeur du <code>field</code> spécifié dans <code>record</code>. Si le champ est introuvable, une exception est levée.
+Retourne la valeur du `field` spécifié dans `record`. Si le champ est introuvable, une erreur est levée.
 
 
 ## Examples
 
-### Example #1 
-Recherche la valeur du champ &#34; CustomerID &#34; dans l&#39;enregistrement.
+### Example #1
+Recherche la valeur du champ "CustomerID" dans l'enregistrement.
 ```powerquery
 Record.Field([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")
 ```

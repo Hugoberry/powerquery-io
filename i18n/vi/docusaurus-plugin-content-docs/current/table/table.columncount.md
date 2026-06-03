@@ -19,12 +19,12 @@ Table.ColumnCount(
 
 ## Remarks
 
-Trả về số lượng cột trong bảng <code>table</code>.
+Trả về số lượng cột trong bảng `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm số lượng cột trong bảng.
 ```powerquery
 Table.ColumnCount(

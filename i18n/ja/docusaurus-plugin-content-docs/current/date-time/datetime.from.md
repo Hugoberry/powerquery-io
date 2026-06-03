@@ -20,13 +20,21 @@ DateTime.From(
 
 ## Remarks
 
-指定された <code>value</code> から <code>datetime</code> 値を返します。省略可能な <code>culture</code> を指定することもできます (例: "en-US")。指定された <code>value</code> が <code>null</code> の場合、<code>DateTime.From</code> は <code>null</code> を返します。指定された <code>value</code> が <code>datetime</code> の場合、<code>value</code> が返されます。次の型の値を <code>datetime</code> 値に変換できます:      <ul>        <li><code>text</code>: テキスト形式の表記からの <code>datetime</code> 値。詳細については <code>DateTime.FromText</code> を参照してください。</li>        <li><code>date</code>: 日付部分が <code>value</code>、時刻部分が <code>12:00:00 AM</code> の <code>datetime</code>。</li>        <li><code>datetimezone</code>: <code>value</code> に相当するローカルの <code>datetime</code>。</li>        <li><code>time</code>: 日付部分が <code>0</code>、時刻部分が <code>value</code> の OLE オートメーション日付に相当する日付 の <code>datetime</code>。</li>        <li><code>number</code>: <code>value</code> で表される OLE オートメーション日付に相当する <code>datetime</code>。</li>      </ul><code>value</code> が他の型の場合、エラーが返されます。
+指定された `value` から `datetime` 値を返します。省略可能な `culture` を指定することもできます (例: "en-US")。 指定された `value` が `null` の場合、`DateTime.From` は `null` を返します。指定された `value` が `datetime` の場合、`value` が返されます。次の型の値を `datetime` 値に変換できます:
+
+-   `text`: テキスト形式の表記からの `datetime` 値。詳細については `DateTime.FromText` を参照してください。
+-   `date`: 日付部分が `value`、時刻部分が `12:00:00 AM` の `datetime`。
+-   `datetimezone`: `value` に相当するローカルの `datetime`。
+-   `time`: 日付部分が `0`、時刻部分が `value` の OLE オートメーション日付に相当する日付 の `datetime`。
+-   `number`: `value` で表される OLE オートメーション日付に相当する `datetime`。
+
+`value` が他の型の場合、エラーが返されます。
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;#time(06, 45, 12)&lt;/code&gt; を &lt;code&gt;datetime&lt;/code&gt; 値に変換します。
+### Example #1
+`#time(06, 45, 12)` を `datetime` 値に変換します。
 ```powerquery
 DateTime.From(#time(06, 45, 12))
 ```
@@ -37,8 +45,8 @@ Result:
 ```
 
 
-### Example #2 
-&lt;code&gt;#date(1975, 4, 4)&lt;/code&gt; を &lt;code&gt;datetime&lt;/code&gt; 値に変換します。
+### Example #2
+`#date(1975, 4, 4)` を `datetime` 値に変換します。
 ```powerquery
 DateTime.From(#date(1975, 4, 4))
 ```

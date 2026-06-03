@@ -19,13 +19,13 @@ Type.FunctionParameters(
 
 ## Remarks
 
-Gibt einen Datensatz zurück, bei dem Feldwerte auf den Namen der Parameter von <code>type</code> festgelegt sind und deren Werte auf deren entsprechenden Typen festgelegt sind.
+Gibt einen Datensatz zurück, bei dem Feldwerte auf den Namen der Parameter von `type` festgelegt sind und deren Werte auf deren entsprechenden Typen festgelegt sind.
 
 
 ## Examples
 
-### Example #1 
-Suchen Sie die Typen der Parameter für die Funktion &lt;code&gt;(x as number, y as text)&lt;/code&gt;.
+### Example #1
+Suchen Sie die Typen der Parameter für die Funktion `(x as number, y as text)`.
 ```powerquery
 Type.FunctionParameters(type function (x as number, y as text) as any)
 ```

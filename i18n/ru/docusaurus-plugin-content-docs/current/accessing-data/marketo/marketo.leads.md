@@ -21,12 +21,12 @@ Marketo.Leads(
 
 ## Remarks
 
-Вызывает конечную точку Marketo REST API по адресу <code>url</code>/rest/v1/leads.json. Возвращаются все ведущие элементы в списке <code>leadIds</code>.
+Вызывает конечную точку Marketo REST API по адресу `url`/rest/v1/leads.json. Возвращаются все ведущие элементы в списке `leadIds`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Извлекает сведения для трех ведущих элементов.
 ```powerquery
 Marketo.Leads("https://100-AAA-999.mktorest.com/rest", {50, 2343, 88498})

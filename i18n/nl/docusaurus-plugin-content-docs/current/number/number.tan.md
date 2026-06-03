@@ -19,12 +19,12 @@ Number.Tan(
 
 ## Remarks
 
-Retourneert de tangens van <code>number</code>.
+Retourneert de tangens van `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De tangens van de hoek 1 zoeken.
 ```powerquery
 Number.Tan(1)

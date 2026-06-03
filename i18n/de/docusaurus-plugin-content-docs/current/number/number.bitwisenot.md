@@ -19,7 +19,7 @@ Number.BitwiseNot(
 
 ## Remarks
 
-Gibt das Ergebnis der Ausführung eines bitweisen NICHT-Vorgangs für "<code>number</code>" zurück.
+Gibt das Ergebnis der Ausführung eines bitweisen NICHT-Vorgangs für "`number`" zurück.
 
 
 

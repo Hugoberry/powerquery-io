@@ -20,12 +20,12 @@ Date.StartOfWeek(
 
 ## Remarks
 
-<code>dateTime</code> içeren hafta başlangıcını döndürür.      <code>dateTime</code>, bir <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri olmalıdır.
+`dateTime` içeren hafta başlangıcını döndürür. `dateTime`, bir `date`, `datetime` veya `datetimezone` değeri olmalıdır.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 11 Ekim 2011 Salı için haftanın başlangıcını bulun.
 ```powerquery
 Date.StartOfWeek(#datetime(2011, 10, 11, 8, 10, 32))
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Pazartesiyi haftanın başlangıcı olarak kullanarak 11 Ekim 2011 Salı için haftanın başlangıcını bulun.
 ```powerquery
 Date.StartOfWeek(#datetime(2011, 10, 11, 8, 10, 32), Day.Monday)

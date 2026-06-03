@@ -5,7 +5,7 @@ title: Record.FromTable
 # Record.FromTable
 
 
-\{[Name = name, Value = value]} という形式のテーブルからレコードを作成します。
+\{\[Name = name, Value = value\]\} という形式のテーブルからレコードを作成します。
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Record.FromTable(
 
 ## Remarks
 
-フィールド名と値の名前 <code>\{[Name = name, Value = value]}</code> を含むレコード <code>table</code> のテーブルからレコードを返します。フィールド名が一意でなかった場合は、例外がスローされます。
+フィールド名と値の名前 `` `table` `` を含むレコード \{\[Name = name, Value = value\]\} のテーブルからレコードを返します。フィールド名が一意でない場合、エラーが発生します。
 
 
 ## Examples
 
-### Example #1 
-Table.FromRecords(\{[Name = &#34;CustomerID&#34;, Value = 1], [Name = &#34;Name&#34;, Value = &#34;Bob&#34;], [Name = &#34;Phone&#34;, Value = &#34;123-4567&#34;]}) という形式のテーブルからレコードを作成します。
+### Example #1
+Table.FromRecords(\{\[Name = "CustomerID", Value = 1\], \[Name = "Name", Value = "Bob"\], \[Name = "Phone", Value = "123-4567"\]\}) という形式のテーブルからレコードを作成します。
 ```powerquery
 Record.FromTable(
     Table.FromRecords({

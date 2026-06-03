@@ -20,13 +20,18 @@ DateTime.FromText(
 
 ## Remarks
 
-Crée une valeur <code>datetime</code> à partir d'une représentation textuelle, <code>text</code>. Un paramètre facultatif <code>record</code>, <code>options</code>, peut être fourni pour spécifier des propriétés supplémentaires. Le <code>record</code> peut contenir les champs suivants : <ul>   <li><code>Format</code> : une valeur <code>text</code> indiquant le format à utiliser. Pour plus de détails, accédez à https://go.microsoft.com/fwlink/?linkid=2180104 et https://go.microsoft.com/fwlink/?linkid=2180105. Si vous omettez ce champ ou fournissez <code>null</code>, la date sera analysée au mieux.</li>   <li><code>Culture</code> : lorsque <code>Format</code> est non nul, <code>Culture</code> contrôle certains spécificateurs de format. Par exemple, dans <code>"en-US"</code> <code>"MMM"</code> est <code>"Jan", "Feb", "Mar", ...</code>, tandis que dans <code>"ru-RU"</code> <code>"MMM"</code> est <code>"янв", "фев", "мар", ...</code>. Lorsque <code>Format</code> est <code>null</code>, <code>Culture</code> contrôle le format par défaut à utiliser. Lorsque <code>Culture</code> est <code>null</code> ou omis, <code>Culture.Current</code> est utilisé.</li></ul>Pour prendre en charge les workflows hérités, <code>options</code> peut également être une valeur de texte. Cela a le même comportement que si <code>options</code><code> = [Format = null, Culture = <code>options</code>]</code>.
+Crée une `datetime` valeur de représentation de texte de `text`. Un paramètre facultatif `record`, `options`, peut être fourni pour spécifier des propriétés supplémentaires. Le `record` peut contenir les champs suivants :
+
+-   `Format` : valeur `text` indiquant le format à utiliser. Pour plus de détails, accédez à https://go.microsoft.com/fwlink/?linkid=2180104 et https://go.microsoft.com/fwlink/?linkid=2180105. Omettre ce champ ou fournir `null` entraînera l’analyse de la date en faisant de son mieux.
+-   `Culture` : Quand `Format` n'est pas nul, `Culture` contrôle certains spécificateurs de format. Par exemple, dans ``"en-US"/code> `"MMM"` est `"Jan", "Feb", "Mar", ...` , alors que dans `"ru-RU"` `"MMM"` est `"янв", "фев", "мар", ...`. Lorsque `Format` est `nul`, `Culture` contrôle le format par défaut à utiliser. Lorsque `Culture` est `null` ou omis, `Culture.Current` est utilisé.``
+
+``Pour prendre en charge les workflows hérités, `options` peut également être une valeur de texte. Ceci a le même comportement que si `options = [Format = null, Culture = options]`.``
 
 
 ## Examples
 
-### Example #1 
-Convertit &lt;code&gt;&#34;2010-12-31T01:30:00&#34;&lt;/code&gt; en une valeur datetime.
+### Example #1
+Convertit `"2010-12-31T01:30:00"` en une valeur datetime.
 ```powerquery
 DateTime.FromText("2010-12-31T01:30:25")
 ```
@@ -37,8 +42,8 @@ Result:
 ```
 
 
-### Example #2 
-Convertit &lt;code&gt;&#34;2010-12-31T01:30:00.121212&#34;&lt;/code&gt; en une valeur datetime.
+### Example #2
+Convertit `"2010-12-31T01:30:00.121212"` en une valeur datetime.
 ```powerquery
 DateTime.FromText("30 Dez 2010 02:04:50.369730", [Format="dd MMM yyyy HH:mm:ss.ffffff", Culture="de-DE"])
 ```
@@ -49,8 +54,8 @@ Result:
 ```
 
 
-### Example #3 
-Convertit &lt;code&gt;&#34;2010-12-31T01:30:00&#34;&lt;/code&gt; en une valeur datetime.
+### Example #3
+Convertit `"2010-12-31T01:30:00"` en une valeur datetime.
 ```powerquery
 DateTime.FromText("2000-02-08T03:45:12Z", [Format="yyyy-MM-dd'T'HH:mm:ss'Z'", Culture="en-US"])
 ```
@@ -61,8 +66,8 @@ Result:
 ```
 
 
-### Example #4 
-Convertit &lt;code&gt;&#34;20101231T013000&#34;&lt;/code&gt; en une valeur de type datetime.
+### Example #4
+Convertit `"20101231T013000"` en une valeur de type datetime.
 ```powerquery
 DateTime.FromText("20101231T013000", [Format="yyyyMMdd'T'HHmmss", Culture="en-US"])
 ```

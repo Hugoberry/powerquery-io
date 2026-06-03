@@ -20,12 +20,15 @@ Number.Power(
 
 ## Remarks
 
-Returns the result of raising <code>number</code> to the power of <code>power</code>.    If <code>number</code> or <code>power</code> are null, <code>Number.Power</code> returns null.      <ul>        <li><code>number</code>: The base.</li>        <li><code>power</code>: The exponent.</li>      </ul>
+Returns the result of raising `number` to the power of `power`. If `number` or `power` are null, `Number.Power` returns null.
+
+-   `number`: The base.
+-   `power`: The exponent.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find the value of 5 raised to the power of 3 (5 cubed).
 ```powerquery
 Number.Power(5, 3)

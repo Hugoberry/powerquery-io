@@ -22,13 +22,13 @@ Table.DuplicateColumn(
 
 ## Remarks
 
-Duplica a coluna denominada <code>columnName</code> para a tabela <code>table</code>. Os valores e o tipo da coluna <code>newColumnName</code> são copiados da coluna <code>columnName</code>.
+Duplica a coluna denominada `columnName` para a tabela `table`. Os valores e o tipo da coluna `newColumnName` são copiados da coluna `columnName`.
 
 
 ## Examples
 
-### Example #1 
-Duplique a coluna &#34;a&#34; para uma coluna denominada &#34;copied column&#34; na tabela &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt;.
+### Example #1
+Duplique a coluna "a" para uma coluna denominada "copied column" na tabela `({[a = 1, b = 2], [a = 3, b = 4]})`.
 ```powerquery
 Table.DuplicateColumn(
     Table.FromRecords({

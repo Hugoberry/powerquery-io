@@ -19,7 +19,7 @@ Cube.Parameters(
 
 ## Remarks
 
-Trả về bảng chứa loạt tham số có thể được áp dụng cho <code>cube</code>. Mỗi tham số là một hàm có thể được gọi để nhận <code>cube</code> có tham số và đối số được áp dụng.
+Trả về bảng chứa loạt tham số có thể được áp dụng cho `cube`. Mỗi tham số là một hàm có thể được gọi để nhận `cube` có tham số và đối số được áp dụng.
 
 
 

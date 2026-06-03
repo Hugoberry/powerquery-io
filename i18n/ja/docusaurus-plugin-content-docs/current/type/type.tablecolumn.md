@@ -20,7 +20,7 @@ Type.TableColumn(
 
 ## Remarks
 
-テーブルの種類 <code>tableType</code> で列 <code>column</code> の型を返します。
+テーブルの種類 `tableType` で列 `column` の型を返します。
 
 
 

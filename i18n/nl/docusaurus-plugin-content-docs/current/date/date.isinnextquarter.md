@@ -19,12 +19,14 @@ Date.IsInNextQuarter(
 
 ## Remarks
 
-Hiermee wordt aangegeven of de opgegeven datetime-waarde <code>dateTime</code> plaatsvindt gedurende het volgende kwartaal volgens de huidige datum en tijd op het systeem. Houd er rekening mee dat deze functie onwaar retourneert als een waarde wordt doorgegeven die in het huidige kwartaal valt.      <ul>      <li><code>dateTime</code>: Een <code>date</code>-, <code>datetime</code>- of <code>datetimezone</code>-waarde die moet worden geëvalueerd.</li>      </ul>
+Hiermee wordt aangegeven of de opgegeven datetime-waarde `dateTime` plaatsvindt gedurende het volgende kwartaal volgens de huidige datum en tijd op het systeem. Houd er rekening mee dat deze functie onwaar retourneert als een waarde wordt doorgegeven die in het huidige kwartaal valt.
+
+-   `dateTime`: Een `date`\-, `datetime`\- of `datetimezone`\-waarde die moet worden geëvalueerd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Vaststellen of het kwartaal na de huidige systeemtijd binnen het volgende kwartaal valt.
 ```powerquery
 Date.IsInNextQuarter(Date.AddQuarters(DateTime.FixedLocalNow(), 1))

@@ -22,13 +22,13 @@ Table.ExpandTableColumn(
 
 ## Remarks
 
-Expanderar tabeller i <code>table</code>[<code>column</code>] till flera rader och kolumner. <code>columnNames</code> används för att välja de kolumner som ska expanderas från den inre tabellen. Använd <code>newColumnNames</code> för att undvika konflikter mellan befintliga och nya kolumner.
+Expanderar tabeller i `table`\[`column`\] till flera rader och kolumner. `columnNames` används för att välja de kolumner som ska expanderas från den inre tabellen. Använd `newColumnNames` för att undvika konflikter mellan befintliga och nya kolumner.
 
 
 ## Examples
 
-### Example #1 
-Expandera tabellkolumner i &lt;code&gt;[a]&lt;/code&gt; i tabellen &lt;code&gt;(\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]})&lt;/code&gt; till 3 kolumner: &lt;code&gt;[t.a]&lt;/code&gt;, &lt;code&gt;[t.b]&lt;/code&gt; och &lt;code&gt;[t.c]&lt;/code&gt;.
+### Example #1
+Expandera tabellkolumner i `[a]` i tabellen `({[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]})` till 3 kolumner: `[t.a]`, `[t.b]` och `[t.c]`.
 ```powerquery
 Table.ExpandTableColumn(
     Table.FromRecords({

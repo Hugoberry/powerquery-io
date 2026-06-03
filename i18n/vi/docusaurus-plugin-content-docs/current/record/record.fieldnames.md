@@ -19,12 +19,12 @@ Record.FieldNames(
 
 ## Remarks
 
-Trả về tên của các trường trong bản ghi <code>record</code> ở dạng văn bản.
+Trả về tên của các trường trong bản ghi `record` ở dạng văn bản.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trả về tên của các trường trong bản ghi.
 ```powerquery
 Record.FieldNames([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

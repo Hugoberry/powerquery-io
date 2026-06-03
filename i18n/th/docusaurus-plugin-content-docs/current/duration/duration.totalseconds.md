@@ -19,12 +19,12 @@ Duration.TotalSeconds(
 
 ## Remarks
 
-ส่งกลับวินาทีทั้งหมดที่ขยายโดย <code>duration</code>
+ส่งกลับวินาทีทั้งหมดที่ขยายโดย `duration`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ค้นหาวินาทีทั้งหมดที่ขยายด้วยค่าระยะเวลา
 ```powerquery
 Duration.TotalSeconds(#duration(5, 4, 3, 2))

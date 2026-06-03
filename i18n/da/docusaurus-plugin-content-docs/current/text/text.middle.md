@@ -21,13 +21,13 @@ Text.Middle(
 
 ## Remarks
 
-Returns <code>count</code> tegn, eller indtil enden på <code>text</code>; ved forskydningen <code>start</code>.
+Returns `count` tegn, eller indtil enden på `text`; ved forskydningen `start`.
 
 
 ## Examples
 
-### Example #1 
-Find delstrengen fra teksten &#34;Hello World&#34;, der starter ved indeks 6 og strækker sig over fem tegn.
+### Example #1
+Find delstrengen fra teksten "Hello World", der starter ved indeks 6 og strækker sig over fem tegn.
 ```powerquery
 Text.Middle("Hello World", 6, 5)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Find delstrengen fra teksten &#34;Hello World&#34;, der starter ved indeks 6 og fortsætter til enden.
+### Example #2
+Find delstrengen fra teksten "Hello World", der starter ved indeks 6 og fortsætter til enden.
 ```powerquery
 Text.Middle("Hello World", 6, 20)
 ```
@@ -47,6 +47,18 @@ Text.Middle("Hello World", 6, 20)
 Result: 
 ```powerquery
 "World"
+```
+
+
+### Example #3
+Find understrengen fra teksten "Hello World" med start ved indeks 0, der strækker sig over 2 tegn.
+```powerquery
+Text.Middle("Hello World", 0, 2)
+```
+
+Result: 
+```powerquery
+"He"
 ```
 
 

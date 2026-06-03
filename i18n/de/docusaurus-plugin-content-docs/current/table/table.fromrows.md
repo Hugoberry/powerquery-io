@@ -5,7 +5,7 @@ title: Table.FromRows
 # Table.FromRows
 
 
-Erstellt eine Tabelle auf der Grundlage einer Liste mit Zeilenwerten und optionalen Spalten.
+Erstellt eine Tabelle aus einer Liste von Zeilenwerten und optionalen Spalten.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Table.FromRows(
 
 ## Remarks
 
-Erstellt eine Tabelle auf der Grundlage der Liste "<code>rows</code>", in der die einzelnen Elemente der Liste eine interne Liste mit den Spaltenwerten für eine einzelne Zeile bilden. Eine optionale Liste mit Spaltennamen, ein Tabellentyp oder eine Reihe von Spalten kann für "<code>columns</code>" angegeben werden.
+Erstellt eine Tabelle auf der Grundlage der Liste "`rows`", in der die einzelnen Elemente der Liste eine interne Liste mit den Spaltenwerten für eine einzelne Zeile bilden. Eine optionale Liste mit Spaltennamen, ein Tabellentyp oder eine Reihe von Spalten kann für "`columns`" angegeben werden.
 
 
 ## Examples
 
-### Example #1 
-Gibt eine Tabelle mit der Spalte [CustomerID] mit den Werten \{1, 2}, der Spalte [Name] mit den Werten \{&#34;Bob&#34;, &#34;Jim&#34;} und der Spalte [Phone] mit den Werten \{&#34;123-4567&#34;, &#34;987-6543&#34;} zurück.
+### Example #1
+Gibt eine Tabelle mit der Spalte \[CustomerID\] mit den Werten \{1, 2\}, der Spalte \[Name\] mit den Werten \{"Bob", "Jim"\} und der Spalte \[Phone\] mit den Werten \{"123-4567", "987-6543"\} zurück.
 ```powerquery
 Table.FromRows(
     {
@@ -46,8 +46,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Gibt eine Tabelle mit der Spalte [CustomerID] mit den Werten \{1, 2}, der Spalte [Name] mit den Werten \{&#34;Bob&#34;, &#34;Jim&#34;} und der Spalte [Phone] mit den Werten \{&#34;123-4567&#34;, &#34;987-6543&#34;} zurück. Dabei ist [CustomerID] ein Zahlentyp, [Name] und [Phone] sind Texttypen.
+### Example #2
+Gibt eine Tabelle mit der Spalte \[CustomerID\] mit den Werten \{1, 2\}, der Spalte \[Name\] mit den Werten \{"Bob", "Jim"\} und der Spalte \[Phone\] mit den Werten \{"123-4567", "987-6543"\} zurück. Dabei ist \[CustomerID\] ein Zahlentyp, \[Name\] und \[Phone\] sind Texttypen.
 ```powerquery
 Table.FromRows(
     {

@@ -20,13 +20,13 @@ Table.PrefixColumns(
 
 ## Remarks
 
-Returnerer en tabel, hvor alle kolonnenavne fra den angivne <code>table</code> indledes med den angivne tekst <code>prefix</code>, plus et punktum i formatet <code>prefix</code><code>.ColumnName</code>.
+Returns a table where all the column names from the `table` provided are prefixed with the given text, `prefix`, plus a period in the form `prefix.ColumnName`.
 
 
 ## Examples
 
-### Example #1 
-Indleder kolonnerne med &#34;MyTable&#34; i tabellen.
+### Example #1
+Indleder kolonnerne med "MyTable" i tabellen.
 ```powerquery
 Table.PrefixColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

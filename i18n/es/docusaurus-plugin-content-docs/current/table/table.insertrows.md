@@ -21,12 +21,12 @@ Table.InsertRows(
 
 ## Remarks
 
-Devuelve una tabla con la lista de filas, <code>rows</code>, insertadas en la <code>table</code> en la posición, <code>offset</code> dada. Cada columna de la fila para insertar coincide con los tipos de columna de la tabla.
+Devuelve una tabla con la lista de filas, `rows`, insertadas en la `table` en la posición, `offset` dada. Cada columna de la fila para insertar coincide con los tipos de columna de la tabla.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Insertar la fila en la tabla en la posición 1.
 ```powerquery
 Table.InsertRows(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Insertar las dos filas en la tabla en la posición 1.
 ```powerquery
 Table.InsertRows(

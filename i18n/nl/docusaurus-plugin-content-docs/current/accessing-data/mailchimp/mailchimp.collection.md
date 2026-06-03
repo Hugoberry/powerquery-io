@@ -25,7 +25,7 @@ Hiermee wordt een aanroep uitgevoerd naar de MailChimp-API en wordt de resultere
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hiermee wordt een tabel met gegevens opgehaald uit het eindpunt met lijsten van de MailChimp-API.
 ```powerquery
 MailChimp.Collection(lijsten)
@@ -37,7 +37,7 @@ Een tabel met lijstgegevens.
 ```
 
 
-### Example #2 
+### Example #2
 Hiermee wordt een tabel met gegevens opgehaald uit het eindpunt met campagnemappen van de MailChimp-API.
 ```powerquery
 MailChimp.Collection(campagnemappen, mappen)

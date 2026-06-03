@@ -25,7 +25,7 @@ Renvoie une fonction qui combine une liste de valeurs de texte en une seule vale
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combinez une liste de valeurs de texte en les plaçant dans la sortie aux positions spécifiées.
 ```powerquery
 Combiner.CombineTextByPositions({0, 5, 10})({"abc", "def", "ghi"})

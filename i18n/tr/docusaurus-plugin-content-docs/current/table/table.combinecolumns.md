@@ -27,7 +27,7 @@ Belirtilen sütunları belirtilen birleştirici işlevi kullanarak yeni bir süt
 
 ## Examples
 
-### Example #1 
+### Example #1
 Soyadlarını ve adları virgülle ayırarak yeni bir sütunda birleştirin.
 ```powerquery
 Table.CombineColumns(

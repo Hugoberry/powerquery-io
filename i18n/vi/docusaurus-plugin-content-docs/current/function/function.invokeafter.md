@@ -20,7 +20,7 @@ Function.InvokeAfter(
 
 ## Remarks
 
-Trả về kết quả gọi <code>function</code> sau khi đã qua khoảng thời gian <code>delay</code>.
+Trả về kết quả gọi `function` sau khi đã qua khoảng thời gian `delay`.
 
 
 

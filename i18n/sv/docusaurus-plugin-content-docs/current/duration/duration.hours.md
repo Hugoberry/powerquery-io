@@ -19,12 +19,12 @@ Duration.Hours(
 
 ## Remarks
 
-Returnerar timmarnas del av <code>duration</code>.
+Returnerar timmarnas del av `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Extrahera timmar från ett varaktighetsvärde.
 ```powerquery
 Duration.Hours(#duration(5, 4, 3, 2))

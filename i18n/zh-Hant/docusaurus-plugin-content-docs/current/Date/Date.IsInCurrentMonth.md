@@ -19,12 +19,14 @@ Date.IsInCurrentMonth(
 
 ## Remarks
 
-表示指定的 datetime 值 <code>dateTime</code> 是否發生在當月 (由系統目前的日期和時間決定)。      <ul>      <li><code>dateTime</code>: 要評估的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值。</li>      </ul>
+表示指定的 datetime 值 `dateTime` 是否發生在當月 (由系統目前的日期和時間決定)。
+
+-   `dateTime`: 要評估的 `date`、`datetime` 或 `datetimezone` 值。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 判斷目前系統時間是否在當月。
 ```powerquery
 Date.IsInCurrentMonth(DateTime.FixedLocalNow())

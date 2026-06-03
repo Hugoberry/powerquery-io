@@ -20,12 +20,14 @@ Table.Distinct(
 
 ## Remarks
 
-Tar bort dubblettrader från tabellen. En valfri parameter, <code>equationCriteria</code>, anger vilka kolumner i tabellen som testas för duplicering. Om <code>equationCriteria</code> inte anges testas alla kolumner.<br /> <br /> Eftersom Power Query ibland avlastar vissa åtgärder till serverdelsdatakällor (kallas "vikning") och även ibland optimerar frågor genom att  hoppa över åtgärder som inte är absolut nödvändiga,  i allmänhet finns det ingen garanti för vilken specifik dubblett som ska bevaras. Du kan till exempel inte förutsätta att den första raden med en unik uppsättning kolumnvärden finns kvar och att rader längre ned i tabellen tas bort. Om du vill att dubblettborttagningen ska fungera förutsägbart buffrar du först tabellen med <code>Table.Buffer</code>.
+Tar bort dubblettrader från tabellen. En valfri parameter, `equationCriteria`, anger vilka kolumner i tabellen som testas för duplicering. Om `equationCriteria` inte anges testas alla kolumner.  
+  
+Eftersom Power Query ibland avlastar vissa åtgärder till serverdelsdatakällor (kallas "vikning") och även ibland optimerar frågor genom att hoppa över åtgärder som inte är absolut nödvändiga, i allmänhet finns det ingen garanti för vilken specifik dubblett som ska bevaras. Du kan till exempel inte förutsätta att den första raden med en unik uppsättning kolumnvärden finns kvar och att rader längre ned i tabellen tas bort. Om du vill att dubblettborttagningen ska fungera förutsägbart buffrar du först tabellen med `Table.Buffer`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ta bort dubblettraderna från tabellen.
 ```powerquery
 Table.Distinct(
@@ -46,8 +48,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Ta bort dubblettraderna från kolumnen [b] i tabellen &lt;code&gt;(\{[a = &#34;A&#34;, b = &#34;a&#34;], [a = &#34;B&#34;, b = &#34;a&#34;], [a = &#34;A&#34;, b = &#34;b&#34;]})&lt;/code&gt;.
+### Example #2
+Ta bort dubblettraderna från kolumnen \[b\] i tabellen `({[a = "A", b = "a"], [a = "B", b = "a"], [a = "A", b = "b"]})`.
 ```powerquery
 Table.Distinct(
     Table.FromRecords({

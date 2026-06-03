@@ -19,13 +19,13 @@ Number.IsEven(
 
 ## Remarks
 
-<code>number</code> değeri çift ise <code>true</code>, aksi halde <code>false</code> döndürerek değerin çift olup olmadığını gösterir.
+`number` değeri çift ise `true`, aksi halde `false` döndürerek değerin çift olup olmadığını gösterir.
 
 
 ## Examples
 
-### Example #1 
-625&#39;in çift sayı olup olmadığını denetler.
+### Example #1
+625'in çift sayı olup olmadığını denetler.
 ```powerquery
 Number.IsEven(625)
 ```
@@ -36,8 +36,8 @@ false
 ```
 
 
-### Example #2 
-82&#39;in çift sayı olup olmadığını denetler.
+### Example #2
+82'in çift sayı olup olmadığını denetler.
 ```powerquery
 Number.IsEven(82)
 ```

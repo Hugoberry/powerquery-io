@@ -5,7 +5,7 @@ title: GoogleBigQueryAad.Database
 # GoogleBigQueryAad.Database
 
 
-Importe dados de uma base de dados Google BigQuery com o Azure AD
+Importe dados de uma base de dados Google BigQuery com o Microsoft Entra ID
 
 
 ## Syntax
@@ -20,13 +20,20 @@ GoogleBigQueryAad.Database(
 
 ## Remarks
 
-      Devolve uma tabela que lista os projetos disponíveis no Google BigQuery com o Azure AD para <code>Billing Project ID</code>. Pode ser especificado um parâmetro de registo opcional, <code>options</code>, para controlar as seguintes opções:      <ul>        <li><code>ConnectionTimeout</code>: uma duração que controla o tempo de espera antes de abandonar uma tentativa de fazer uma ligação ao servidor. O valor predefinido é o valor de Tempo Limite de Ligação de ODBC.</li>        <li><code>CommandTimeout</code>: uma duração que controla durante quanto tempo a consulta do lado do servidor é autorizada a ser executada antes de ser cancelada.</li>        <li><code>UseStorageApi</code>: especifica se a API de Armazenamento do BigQuery deve ser utilizada para conjuntos de resultados grandes. O valor predefinido é true para utilizar a API de Armazenamento. Defina como false para não utilizar a API de Armazenamento</li>        <li><code>AudienceUri</code>: este é o URI da audiência que o controlador ODBC pode utilizar para os pedidos de troca de tokens. Este campo tem de ser um URI completamente qualificado (ou seja, //iam.googleapis.com/locations/global/workforcePools/$\{pool_id}/providers/azuread) em que o pool_id é um nome globalmente exclusivo para identificar o conjunto da equipa de trabalhadores.</li>      </ul>    O parâmetro de registo é especificado como [option1 = value1, option2 = value2...].    
+Devolve uma tabela que lista os projetos disponíveis no Google BigQuery ao utilizar o Microsoft Entra ID para o `Billing Project ID` . Pode ser especificado um parâmetro de registo opcional, `options`, para controlar as seguintes opções:
+
+-   `ConnectionTimeout`: uma duração que controla o tempo que se deve aguardar antes de abandonar uma tentativa de ligar ao servidor. O valor predefinido é o valor do tempo limite de ligação ODBC.
+-   `CommandTimeout`: uma duração que controla o tempo em que a consulta do lado do servidor está autorizada a ser executada antes de ser cancelada.
+-   `UseStorageApi`: especifica se a BigQuery Storage API deve ser utilizada para conjuntos de resultados grandes. O valor predefinido é verdadeiro para utilizar a Storage API. Defina como falso para não utilizar a Storage API
+-   `AudienceUri`: este é o URI de público que o controlador ODBC pode utilizar para os seus pedidos de troca de tokens. Este campo tem de ser um URI completamente qualificado (ou seja, //iam.googleapis.com/locations/global/workforcePools/$\{pool\_id\}/providers/azuread) em que o pool\_id é um nome globalmente exclusivo para identificar o conjunto da equipa de trabalhadores.
+
+O parâmetro do registo é especificado como \[option1 = value1, option2 = value2...\].
 
 
 ## Examples
 
-### Example #1 
-Listar os projetos disponíveis no Google BigQuery com o Azure AD
+### Example #1
+Listar os projetos disponíveis no Google BigQuery com o Microsoft Entra ID
 ```powerquery
 GoogleBigQueryAad.Database()
 ```

@@ -20,12 +20,15 @@ Table.FirstN(
 
 ## Remarks
 
-Devuelve las primeras filas de la tabla <code>table</code>, en función del valor de <code>countOrCondition</code>:    <ul>    <li> Si <code>countOrCondition</code> es un número, se devolverán esas filas (a partir de la primera). </li>    <li> Si <code>countOrCondition</code> es una condición, se devolverán las filas que la cumplan hasta que una no lo haga.</li></ul>
+Devuelve las primeras filas de la tabla `table`, en función del valor de `countOrCondition`:
+
+-   Si `countOrCondition` es un número, se devolverán esas filas (a partir de la primera).
+-   Si `countOrCondition` es una condición, se devolverán las filas que la cumplan hasta que una no lo haga.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Buscar las primeras dos filas de la tabla.
 ```powerquery
 Table.FirstN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Buscar las primeras filas donde [a] &gt; 0 en la tabla.
+### Example #2
+Buscar las primeras filas donde \[a\] > 0 en la tabla.
 ```powerquery
 Table.FirstN(
     Table.FromRecords({

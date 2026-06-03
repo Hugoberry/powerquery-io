@@ -27,7 +27,7 @@ Importa dados da instância do seu Azure Data Explorer (Kusto)
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devolve uma tabela de informações dos Eventos do Storm
 ```powerquery
 Kusto.Contents("help", "Samples", "StormEvents", [])

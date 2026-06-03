@@ -5,7 +5,7 @@ title: BinaryFormat.ByteOrder
 # BinaryFormat.ByteOrder
 
 
-Restituisce un formato binario con l&#39;ordine di byte specificato da una funzione.
+Restituisce un formato binario con l'ordine di byte specificato da una funzione.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ BinaryFormat.ByteOrder(
 
 ## Remarks
 
-Restituisce un formato binario con l'ordine di byte specificato da <code>binaryFormat</code>.  Ordine di byte predefinito: <code>ByteOrder.BigEndian</code>.
+Restituisce un formato binario con l'ordine di byte specificato da `binaryFormat`. Ordine di byte predefinito: `ByteOrder.BigEndian`.
 
 
 

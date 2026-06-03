@@ -19,12 +19,12 @@ Table.DemoteHeaders(
 
 ## Remarks
 
-Rétrograde les en-têtes des colonnes (par exemple, les noms des colonnes) à la première ligne de valeurs. Les noms de colonne par défaut sont " Column1 ", " Column2 " et ainsi de suite.
+Rétrograde les en-têtes des colonnes (par exemple, les noms des colonnes) à la première ligne de valeurs. Les noms de colonne par défaut sont "Column1", "Column2" et ainsi de suite.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Rétrograde la première ligne des valeurs dans la table.
 ```powerquery
 Table.DemoteHeaders(

@@ -20,12 +20,12 @@ Record.FromList(
 
 ## Remarks
 
-Devuelve un registro dado una <code>list</code> de valores de campo y un conjunto de campos.  El <code>fields</code> puede especificarse mediante una lista de valores de texto o un tipo de registro.  Se arroja un error si los campos no son únicos.
+Devuelve un registro dado una `list` de valores de campo y un conjunto de campos. El `fields` puede especificarse mediante una lista de valores de texto o un tipo de registro. Se produce un error si los campos no son únicos.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Crear un registro de una lista de valores de campo y una lista de nombres de campo.
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, {"CustomerID", "Name", "Phone"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Crear un registro de una lista de valores de campo y un tipo de registro.
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, type [CustomerID = number, Name = text, Phone = number])

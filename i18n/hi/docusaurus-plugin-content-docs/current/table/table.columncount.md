@@ -19,12 +19,12 @@ Table.ColumnCount(
 
 ## Remarks
 
-तालिका <code>table</code> में मौजूद स्तंभों की संख्या लौटाता है.
+तालिका `table` में मौजूद स्तंभों की संख्या लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 तालिका में मौजूद स्तंभों की संख्या ढूँढें.
 ```powerquery
 Table.ColumnCount(

@@ -19,12 +19,12 @@ Number.Factorial(
 
 ## Remarks
 
-Возвращает факториал числа <code>number</code>.
+Возвращает факториал числа `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Найти факториал 10.
 ```powerquery
 Number.Factorial(10)

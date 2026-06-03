@@ -21,7 +21,16 @@ PostgreSQL.Database(
 
 ## Remarks
 
-Hiermee wordt een tabel met SQL-tabellen en weergaven geretourneerd die beschikbaar zijn in een PostgreSQL-database op server <code>server</code> in de database-instantie met de naam <code>database</code>. De poort kan optioneel worden opgegeven bij de server, gescheiden door een dubbele punt. Een optionele recordparameter <code>options</code> kan worden opgegeven om de volgende opties te bepalen:    <ul><li><code>CreateNavigationProperties</code> : Een logische waarde (true/false) waarmee wordt ingesteld of navigatie-eigenschappen moeten worden gegenereerd op basis van de geretourneerde waarden (de standaardinstelling is true).</li><li><code>NavigationPropertyNameGenerator</code> : Een functie die wordt gebruikt voor het maken van namen voor navigatie-eigenschappen.</li><li><code>Query</code> : Een systeemeigen SQL-query die wordt gebruikt voor het ophalen van gegevens. Als de query meerdere resultatensets oplevert, wordt alleen de eerste set geretourneerd.</li><li><code>CommandTimeout</code> : Een waarde voor de duur waarmee wordt bepaald hoelang de query op de server mag worden uitgevoerd voordat de query wordt geannuleerd. De standaardwaarde is tien minuten.</li><li><code>ConnectionTimeout</code> : Een waarde voor de duur waarmee wordt bepaald hoelang wordt gewacht voordat een poging om een verbinding te maken met de server wordt afgebroken. De standaardwaarde is afhankelijk van het stuurprogramma.</li><li><code>HierarchicalNavigation</code> : Een logische waarde (true/false) waarmee wordt ingesteld of de tabellen gegroepeerd op de schemanamen moeten worden weergegeven (de standaardinstelling is false).</li></ul>    De recordparameter wordt bijvoorbeeld opgegeven als [option1 = value1, option2 = value2...] of [Query = "select ..."].    
+Hiermee wordt een tabel met SQL-tabellen en weergaven geretourneerd die beschikbaar zijn in een PostgreSQL-database op server `server` in de database-instantie met de naam `database`. De poort kan optioneel worden opgegeven bij de server, gescheiden door een dubbele punt. U kunt een optionele recordparameter `options` opgeven voor besturing van de volgende opties:
+
+-   `CreateNavigationProperties` : Een logische waarde (true/false) waarmee wordt ingesteld of navigatie-eigenschappen moeten worden gegenereerd op basis van de geretourneerde waarden (de standaardinstelling is true).
+-   `NavigationPropertyNameGenerator` : Een functie die wordt gebruikt voor het maken van namen voor navigatie-eigenschappen.
+-   `Query` : Een systeemeigen SQL-query die wordt gebruikt voor het ophalen van gegevens. Als de query meerdere resultatensets oplevert, wordt alleen de eerste set geretourneerd.
+-   `CommandTimeout` : Een waarde voor de duur waarmee wordt bepaald hoelang de query op de server mag worden uitgevoerd voordat de query wordt geannuleerd. De standaardwaarde is tien minuten.
+-   `ConnectionTimeout` : Een waarde voor de duur waarmee wordt bepaald hoelang wordt gewacht voordat een poging om een verbinding te maken met de server wordt afgebroken. De standaardwaarde is afhankelijk van het stuurprogramma.
+-   `HierarchicalNavigation` : Een logische waarde (true/false) waarmee wordt ingesteld of de tabellen gegroepeerd op de schemanamen moeten worden weergegeven (de standaardinstelling is false).
+
+De recordparameter wordt bijvoorbeeld opgegeven als \[option1 = value1, option2 = value2...\] of \[Query = "select ..."\].
 
 
 

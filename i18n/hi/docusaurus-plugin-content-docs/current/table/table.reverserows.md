@@ -19,12 +19,12 @@ Table.ReverseRows(
 
 ## Remarks
 
-इनपुट <code>table</code> से उलटे क्रम में पंक्तियों के साथ एक तालिका लौटाता है.
+इनपुट `table` से उलटे क्रम में पंक्तियों के साथ एक तालिका लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 तालिका की पंक्तियों को उलटा करें.
 ```powerquery
 Table.ReverseRows(

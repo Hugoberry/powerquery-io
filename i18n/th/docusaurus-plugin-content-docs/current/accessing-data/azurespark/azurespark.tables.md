@@ -25,7 +25,7 @@ AzureSpark.Tables(
 
 ## Examples
 
-### Example #1 
+### Example #1
 แสดงรายการตารางในอินสแตนซ์ Azure Spark
 ```powerquery
 AzureSpark.Tables("contoso.azurehdinsight.net")

@@ -21,13 +21,13 @@ Text.Range(
 
 ## Remarks
 
-Devuelve la subcadena del texto <code>text</code> que se encuentra en el desplazamiento <code>offset</code>.    Se puede incluir un parámetro opcional (<code>count</code>) para especificar el número de caracteres que tienen que devolverse. Genera un error si no hay suficientes caracteres.
+Devuelve la subcadena del texto `text` que se encuentra en el desplazamiento `offset`. Se puede incluir un parámetro opcional (`count`) para especificar el número de caracteres que tienen que devolverse. Produce un error si no hay suficientes caracteres.
 
 
 ## Examples
 
-### Example #1 
-Buscar la subcadena del texto &#34;Hola mundo&#34; que empieza en el índice 6.
+### Example #1
+Buscar la subcadena del texto "Hola mundo" que empieza en el índice 6.
 ```powerquery
 Text.Range("Hello World", 6)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Buscar la subcadena del texto &#34;Hola mundo Hola&#34; que empieza en el índice 6 y abarca 5 caracteres.
+### Example #2
+Buscar la subcadena del texto "Hola mundo Hola" que empieza en el índice 6 y abarca 5 caracteres.
 ```powerquery
 Text.Range("Hello World Hello", 6, 5)
 ```

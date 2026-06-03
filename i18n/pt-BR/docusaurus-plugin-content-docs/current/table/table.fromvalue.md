@@ -20,12 +20,14 @@ Table.FromValue(
 
 ## Remarks
 
-Cria uma tabela com uma coluna contendo o valor fornecido ou a lista de valores, <code>value</code>. Um parâmetro opcional de registro, <code>options</code>, especificado para controlar as seguintes opções:    <ul>    <li> <code>DefaultColumnName</code> : O nome da coluna usada ao criar uma tabela a partir de uma lista ou valor escalar.</li>    </ul>  
+Cria uma tabela com uma coluna contendo o valor fornecido ou a lista de valores, `value`. Um parâmetro de registro opcional, `options`, pode ser especificado para controlar as seguintes opções:
+
+-   `DefaultColumnName`: o nome da coluna usado ao construir uma tabela de uma lista ou valor escalar.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Crie uma tabela a partir do valor 1.
 ```powerquery
 Table.FromValue(1)
@@ -37,7 +39,7 @@ Table.FromRecords({[Value = 1]})
 ```
 
 
-### Example #2 
+### Example #2
 Criar uma tabela a partir da lista.
 ```powerquery
 Table.FromValue({1, "Bob", "123-4567"})
@@ -53,7 +55,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Criar uma coluna do valor 1, com um nome de coluna personalizado.
 ```powerquery
 Table.FromValue(1, [DefaultColumnName = "MyValue"])

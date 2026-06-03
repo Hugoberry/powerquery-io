@@ -20,12 +20,12 @@ BinaryFormat.Text(
 
 ## Remarks
 
-Retourneert een binaire indeling die een tekstwaarde leest.  <code>length</code> geeft het aantal bytes aan dat moet worden gedecodeerd of de binaire indeling van de lengte die voorafgaat aan de tekst.  De optionele waarde <code>encoding</code> specificeert de codering van de tekst.  Als de waarde <code>encoding</code> niet is opgegeven, wordt de codering bepaald op basis van de byte-volgordemarkeringen voor Unicode.  Als er geen byte-volgordemarkeringen aanwezig zijn, wordt <code>TextEncoding.Utf8</code> gebruikt.
+Retourneert een binaire indeling die een tekstwaarde leest. `length` geeft het aantal bytes aan dat moet worden gedecodeerd of de binaire indeling van de lengte die voorafgaat aan de tekst. De optionele waarde `encoding` specificeert de codering van de tekst. Als de waarde `encoding` niet is opgegeven, wordt de codering bepaald op basis van de byte-volgordemarkeringen voor Unicode. Als er geen byte-volgordemarkeringen aanwezig zijn, wordt `TextEncoding.Utf8` gebruikt.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Twee bytes als ASCII-tekst decoderen.
 ```powerquery
 let
@@ -41,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 ASCII-tekst decoderen waarbij de lengte van de tekst in bytes vóór de tekst verschijnt als een byte.
 ```powerquery
 let

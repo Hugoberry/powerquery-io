@@ -5,7 +5,7 @@ title: Logical.FromText
 # Logical.FromText
 
 
-Creates a logical value from the text values &#34;true&#34; and &#34;false&#34;.
+Creates a logical value from the text values "true" and "false".
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.FromText(
 
 ## Remarks
 
-Creates a logical value from the text value <code>text</code>, either "true" or "false". If <code>text</code> contains a different string, an exception is thrown. The text value <code>text</code> is case insensitive.
+Creates a logical value from the text value `text`, either "true" or "false". If `text` contains a different string, an error is raised. The text value `text` is case insensitive.
 
 
 ## Examples
 
-### Example #1 
-Create a logical value from the text string &#34;true&#34;.
+### Example #1
+Create a logical value from the text string "true".
 ```powerquery
 Logical.FromText("true")
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Create a logical value from the text string &#34;a&#34;.
+### Example #2
+Create a logical value from the text string "a".
 ```powerquery
 Logical.FromText("a")
 ```

@@ -25,7 +25,7 @@ Splitter.SplitTextByRepeatedLengths(
 
 ## Examples
 
-### Example #1 
+### Example #1
 入力の先頭から始め、3 文字のチャンクに分割することを、繰り返して実行します。
 ```powerquery
 Splitter.SplitTextByRepeatedLengths(3)("12345678")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 入力の末尾から始め、入力を 3 文字のチャンクに分割することを繰り返し実行します。
 ```powerquery
 let

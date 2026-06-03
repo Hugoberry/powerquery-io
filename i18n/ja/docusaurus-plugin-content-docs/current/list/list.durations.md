@@ -21,12 +21,12 @@ List.Durations(
 
 ## Remarks
 
-<code>start</code> で始まり、指定された <code>duration</code> <code>step</code> で増分される <code>count</code> 個の <code>duration</code> 値のリストを返します。
+`start` で始まり、指定された `duration` `step` で増分される `count` 個の `duration` 値のリストを返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 1 時間から始まり、1 時間ずつ増分される 5 個の値を作成します。
 ```powerquery
 List.Durations(#duration(0, 1, 0, 0), 5, #duration(0, 1, 0, 0))

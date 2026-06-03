@@ -21,12 +21,12 @@ Table.AddKey(
 
 ## Remarks
 
-向 <code>table</code> 添加一个键，其中 <code>columns</code> 是定义该键的列名称列表，<code>isPrimary</code> 指定该键是否为主键。
+向 `table` 添加一个键，其中 `columns` 是定义该键的列名称列表，`isPrimary` 指定该键是否为主键。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 向表添加单列主键。
 ```powerquery
 let

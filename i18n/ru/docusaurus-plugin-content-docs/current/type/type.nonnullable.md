@@ -5,7 +5,7 @@ title: Type.NonNullable
 # Type.NonNullable
 
 
-Возвращает тип, не допускающий значение &#34;null&#34;.
+Возвращает тип, не допускающий значение "null".
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Type.NonNullable(
 
 ## Remarks
 
-Возвращает тип, не являющийся <code>nullable</code>, из <code>type</code>.
+Возвращает тип, не являющийся `nullable`, из `type`.
 
 
 ## Examples
 
-### Example #1 
-Возврат типа, не допускающего значение &#34;null&#34;, &lt;code&gt;type nullable number&lt;/code&gt;.
+### Example #1
+Возврат типа, не допускающего значение "null", `type nullable number`.
 ```powerquery
 Type.NonNullable(type nullable number)
 ```

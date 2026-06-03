@@ -19,12 +19,12 @@ Number.Sin(
 
 ## Remarks
 
-Returns the sine of <code>number</code>.
+Returns the sine of `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find the sine of the angle 0.
 ```powerquery
 Number.Sin(0)

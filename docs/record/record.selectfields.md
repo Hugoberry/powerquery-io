@@ -21,13 +21,13 @@ Record.SelectFields(
 
 ## Remarks
 
-Returns a record which includes only the fields specified in list <code>fields</code> from the input <code>record</code>.
+Returns a record which includes only the fields specified in list `fields` from the input `record`.
 
 
 ## Examples
 
-### Example #1 
-Select the fields &#34;Item&#34; and &#34;Price&#34; in the record.
+### Example #1
+Select the fields "Item" and "Price" in the record.
 ```powerquery
 Record.SelectFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0],

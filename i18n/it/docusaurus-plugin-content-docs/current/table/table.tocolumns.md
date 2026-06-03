@@ -19,12 +19,12 @@ Table.ToColumns(
 
 ## Remarks
 
-Crea un elenco di elenchi annidati dalla tabella <code>table</code>.  Ogni voce di elenco è un elenco interno contenente i valori di colonna.
+Crea un elenco di elenchi annidati dalla tabella `table`. Ogni voce di elenco è un elenco interno contenente i valori di colonna.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Creare un elenco dei valori di colonna dalla tabella.
 ```powerquery
 Table.ToColumns(

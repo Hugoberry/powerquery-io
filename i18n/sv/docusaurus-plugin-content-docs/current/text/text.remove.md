@@ -20,13 +20,13 @@ Text.Remove(
 
 ## Remarks
 
-Returnerar en kopia av textvärdet <code>text</code> där alla tecken från <code>removeChars</code> har tagits bort.  
+Returnerar en kopia av textvärdet `text` där alla tecken från `removeChars` har tagits bort.
 
 
 ## Examples
 
-### Example #1 
-Ta bort tecknen &#34;,&#34; och &#34;;&#34; från textvärdet.
+### Example #1
+Ta bort tecknen "," och ";" från textvärdet.
 ```powerquery
 Text.Remove("a,b;c", {",",";"})
 ```

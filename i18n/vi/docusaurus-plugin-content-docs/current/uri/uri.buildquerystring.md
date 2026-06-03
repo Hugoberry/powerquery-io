@@ -19,12 +19,12 @@ Uri.BuildQueryString(
 
 ## Remarks
 
-Lắp ráp bản ghi <code>query</code> vào chuỗi truy vấn URI, thoát các ký tự khi cần thiết.
+Lắp ráp bản ghi `query` vào chuỗi truy vấn URI, thoát các ký tự khi cần thiết.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Mã hóa chuỗi truy vấn chứa một số ký tự đặc biệt.
 ```powerquery
 Uri.BuildQueryString([a = "1", b = "+$"])

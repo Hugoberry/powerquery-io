@@ -21,14 +21,14 @@ AzureCostManagement.Contents(
 
 ## Examples
 
-### Example #1 
+### Example #1
 आज को 2017-6-15 मानकर, 2017-5-1 से 2017-6-15 के बीच का सारांश डेटा प्राप्त करें
 ```powerquery
-मान लेते हैं कि
+let
           enrollmentNumber = "100",
           optionalParameters = [ numberOfMonth = 1 ],
-          परिणाम = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
-      में
+          result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
+      in
           परिणाम
 ```
 
@@ -38,14 +38,14 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 आज को 2017-6-15 मानकर, अप्रैल 2017 का सारांश डेटा प्राप्त करें.
 ```powerquery
-मान लेते हैं
+let
           enrollmentNumber = "100",
           optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "-1" ],
-          परिणाम = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
-          में
+          result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
+      in
           परिणाम
 ```
 
@@ -55,14 +55,14 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 आज को 2017-6-15 मानकर, अब से लेकर अप्रैल 2017 तक का सारांश डेटा प्राप्त करें.
 ```powerquery
-मान लेते हैं
+let
           enrollmentNumber = "100",
-          optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "0", dataType = "सारांश" ],
-          परिणाम = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
-      में
+          optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "0", dataType = "Summaries" ],
+          result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
+      in
           परिणाम
 ```
 

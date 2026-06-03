@@ -20,7 +20,7 @@ Number.BitwiseOr(
 
 ## Remarks
 
-Zwraca wynik wykonania bitowej opcji OR na wartościach <code>number1</code> i <code>number2</code>.
+Zwraca wynik wykonania bitowej opcji OR na wartościach `number1` i `number2`.
 
 
 

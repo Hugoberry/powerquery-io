@@ -19,13 +19,15 @@ Time.ToRecord(
 
 ## Remarks
 
-Hiermee wordt een record met de onderdelen van de opgegeven Time-waarde, <code>time</code> geretourneerd. <ul> <li><code>time</code>: een <code>time</code>-waarde op basis waarvan de record of de onderdelen daarvan moeten worden berekend.</li> </ul>
+Hiermee wordt een record met de onderdelen van de opgegeven Time-waarde, `time` geretourneerd.
+
+-   `time`: een `time`\-waarde op basis waarvan de record of de onderdelen daarvan moeten worden berekend.
 
 
 ## Examples
 
-### Example #1 
-De waarde voor de &lt;code&gt;#time(11, 56, 2)&lt;/code&gt; converteren naar een record die waarden voor tijd bevat.
+### Example #1
+De waarde voor de `#time(11, 56, 2)` converteren naar een record die waarden voor tijd bevat.
 ```powerquery
 Time.ToRecord(#time(11, 56, 2))
 ```

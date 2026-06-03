@@ -19,7 +19,7 @@ Number.Asin(
 
 ## Remarks
 
-<code>number</code> のアークサインを返します。
+`number` のアークサインを返します。
 
 
 

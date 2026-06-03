@@ -20,12 +20,15 @@ Table.PromoteHeaders(
 
 ## Remarks
 
-Verplaatst de eerste rij met waarden omhoog zodat die de nieuwe kolomkoppen (d.w.z. kolomnamen) worden. Standaard worden alleen tekst- of getalswaarden omhoog verplaatst naar kolomkoppen. Geldige opties:    <div>      <code>PromoteAllScalars</code>: als deze optie is ingesteld op <code>true</code>, worden alle scalaire waarden in de eerste rij omhoog verplaatst naar kolomkoppen op basis van <code>Culture</code>, indien opgegeven (of de huidige landinstelling van het document).    Voor waarden die niet naar tekst kunnen worden geconverteerd, wordt een standaardkolomnaam gebruikt.    </div>    <div>    <code>Culture</code>: een cultuurnaam die de cultuur voor de gegevens aangeeft.    </div>  
+Verplaatst de eerste rij met waarden omhoog zodat die de nieuwe kolomkoppen (d.w.z. kolomnamen) worden. Standaard worden alleen tekst- of getalswaarden omhoog verplaatst naar kolomkoppen. Geldige opties:
+
+-   `PromoteAllScalars`: als deze optie is ingesteld op `true`, worden alle scalaire waarden in de eerste rij omhoog verplaatst naar kolomkoppen op basis van `Culture`, indien opgegeven (of de huidige landinstelling van het document). Voor waarden die niet naar tekst kunnen worden geconverteerd, wordt een standaardkolomnaam gebruikt.
+-   `Culture`: een cultuurnaam die de cultuur voor de gegevens aangeeft.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De eerste rij met waarden in de tabel omhoog verplaatsen.
 ```powerquery
 Table.PromoteHeaders(
@@ -42,7 +45,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Column3 = #date(1980, 1, 1)]})
 ```
 
 
-### Example #2 
+### Example #2
 Alle scalaire waarden in de eerste rij van de tabel omhoog verplaatsen naar kolomkoppen.
 ```powerquery
 Table.PromoteHeaders(

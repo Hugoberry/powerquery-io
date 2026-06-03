@@ -21,12 +21,16 @@ List.TransformMany(
 
 ## Remarks
 
-Retorna uma lista cujos elementos são projetados da lista de entrada.<br />    <br />    A função <code>collectionTransform</code> transforma cada elemento em uma lista intermediária, e a função <code>resultTransform</code> recebe o elemento original e também um item da lista intermediária para construir o resultado final.<br />    <br />    A função <code>collectionTransform</code> tem a assinatura <code>(x como qualquer) como lista => ...</code>, onde <code>x</code> é um elemento em <code>list</code>.    A função <code>resultTransform</code> projeta a forma do resultado e tem a assinatura <code>(x como qualquer, y como qualquer) como qualquer => ...</code>, onde <code>x</code> é um elemento em <code>list</code> e <code>y</code> é um elemento da lista gerada passando <code>x</code> para <code>collectionTransform</code>.
+Retorna uma lista cujos elementos são projetados da lista de entrada.  
+  
+A função `collectionTransform` transforma cada elemento em uma lista intermediária, e a função `resultTransform` recebe o elemento original e também um item da lista intermediária para construir o resultado final.  
+  
+A função `collectionTransform` tem a assinatura `(x como qualquer) como lista => ...`, onde `x` é um elemento em `list`. A função `resultTransform` projeta a forma do resultado e tem a assinatura `(x como qualquer, y como qualquer) como qualquer => ...`, onde `x` é um elemento em `list` e `y` é um elemento da lista gerada passando `x` para `collectionTransform`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Nivele uma lista de pessoas e seus animais de estimação.
 ```powerquery
 List.TransformMany(

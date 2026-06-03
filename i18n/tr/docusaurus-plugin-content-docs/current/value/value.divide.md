@@ -21,7 +21,7 @@ Value.Divide(
 
 ## Remarks
 
-<code>value1</code> değerini <code>value2</code> değerine bölmenin sonucunu döndürür. İsteğe bağlı bir <code>precision</code> parametresi belirtilebilir, varsayılan olarak <code>Precision.Double</code> kullanılır.
+`value1` değerini `value2` değerine bölmenin sonucunu döndürür. İsteğe bağlı bir `precision` parametresi belirtilebilir, varsayılan olarak `Precision.Double` kullanılır.
 
 
 

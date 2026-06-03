@@ -5,7 +5,7 @@ title: Record.ToList
 # Record.ToList
 
 
-Retourne une liste de valeurs contenant les valeurs de champ de l&#39;enregistrement d&#39;entrée.
+Retourne une liste de valeurs contenant les valeurs de champ de l'enregistrement d'entrée.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Record.ToList(
 
 ## Remarks
 
-Retourne une liste de valeurs contenant les valeurs de champ de l'entrée <code>record</code>.
+Retourne une liste de valeurs contenant les valeurs de champ de l'entrée `record`.
 
 
 ## Examples
 
-### Example #1 
-Extrayez les valeurs de champ d&#39;un enregistrement.
+### Example #1
+Extrayez les valeurs de champ d'un enregistrement.
 ```powerquery
 Record.ToList([A = 1, B = 2, C = 3])
 ```

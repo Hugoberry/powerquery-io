@@ -20,12 +20,15 @@ Table.FirstN(
 
 ## Remarks
 
-Trả về (các) hàng đầu tiên của bảng <code>table</code>, tùy theo giá trị của <code>countOrCondition</code>:    <ul>    <li> Nếu <code>countOrCondition</code> là một số thì nhiều hàng (bắt đầu ở trên cùng) sẽ được trả về. </li>    <li> Nếu <code>countOrCondition</code> là một điều kiện thì các hàng đáp ứng điều kiện này sẽ được trả về cho đến khi một hàng không đáp ứng điều kiện.</li></ul>
+Trả về (các) hàng đầu tiên của bảng `table`, tùy theo giá trị của `countOrCondition`:
+
+-   Nếu `countOrCondition` là một số thì nhiều hàng (bắt đầu ở trên cùng) sẽ được trả về.
+-   Nếu `countOrCondition` là một điều kiện thì các hàng đáp ứng điều kiện này sẽ được trả về cho đến khi một hàng không đáp ứng điều kiện.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm hai hàng đầu tiên của bảng.
 ```powerquery
 Table.FirstN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Tìm các hàng đầu tiên trong đó [a] &gt; 0 trong bảng.
+### Example #2
+Tìm các hàng đầu tiên trong đó \[a\] > 0 trong bảng.
 ```powerquery
 Table.FirstN(
     Table.FromRecords({

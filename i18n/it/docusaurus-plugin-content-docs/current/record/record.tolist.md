@@ -5,7 +5,7 @@ title: Record.ToList
 # Record.ToList
 
 
-Restituisce l&#39;elenco dei valori contenenti i valori dei campi del record di input.
+Restituisce l'elenco dei valori contenenti i valori dei campi del record di input.
 
 
 ## Syntax
@@ -19,12 +19,12 @@ Record.ToList(
 
 ## Remarks
 
-Restituisce l'elenco dei valori contenenti i valori dei campi dell'input <code>record</code>.
+Restituisce l'elenco dei valori contenenti i valori dei campi dell'input `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Estrarre i valori dei campi da un record.
 ```powerquery
 Record.ToList([A = 1, B = 2, C = 3])

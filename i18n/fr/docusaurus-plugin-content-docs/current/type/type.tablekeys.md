@@ -19,12 +19,17 @@ Type.TableKeys(
 
 ## Remarks
 
-Renvoie la liste de clés éventuellement vide pour le type de table donné.<br />    <br />    Chaque clé est définie à l'aide d'un enregistrement sous la forme suivante :    <ul>      <li>        <code>Colonnes</code> : une liste des noms de colonnes qui définissent la clé      </li>      <li>        <code>Primary</code> : <code>true</code> si la clé est la clé primaire de la table ; sinon, <code>faux</code>      </li>    </ul>    
+Renvoie la liste de clés éventuellement vide pour le type de table donné.  
+  
+Chaque clé est définie à l'aide d'un enregistrement sous la forme suivante :
+
+-   `Colonnes` : une liste des noms de colonnes qui définissent la clé
+-   `Primary` : `true` si la clé est la clé primaire de la table ; sinon, `faux`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Renvoie les informations clés pour un type de table.
 ```powerquery
 let

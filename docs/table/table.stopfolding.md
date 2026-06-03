@@ -19,18 +19,18 @@ Table.StopFolding(
 
 ## Remarks
 
-Prevents any downstream operations from being run against the original source of the data in <code>table</code>.
+Prevents any downstream operations from being run against the original source of the data in `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Fetches data from a SQL table in a way that prevents any downstream operations from running as a query on the SQL server.
 ```powerquery
 let
     Source = Sql.Database("SomeSQLServer", "MyDb"),
     MyTable = Source{[Item="MyTable"]}[Data],
-    MyLocalTable = Table.StopFolding(dbo_MyTable)
+    MyLocalTable = Table.StopFolding(MyTable)
 in
     MyLocalTable
 ```

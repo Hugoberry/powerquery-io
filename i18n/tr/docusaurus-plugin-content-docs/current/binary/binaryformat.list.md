@@ -20,12 +20,17 @@ BinaryFormat.List(
 
 ## Remarks
 
-Bir öğe sırasını okuyan ikili biçimi döndürür ve bir <code>list</code> döndürür.  <code>binaryFormat</code> parametresi, her öğenin ikili biçimini belirtir.  Okunan öğe sayısını belirlemenin üç yolu vardır: <ul><li><code>countOrCondition</code> belirtilmezse, ikili biçimi öğe kalmayana kadar okur.</li><li><code>countOrCondition</code> bir sayıysa, ikili biçimi aynı miktarda öğeyi okur.</li><li><code>countOrCondition</code> bir işlevse, bu işlev okunan her öğe için çağrılır.  İşlev devam etmek için true değerini, öğeleri okumayı durdurmak için false değerini döndürür.  Son öğe listeye dahil edilir.</li><li><code>countOrCondition</code> bir ikili biçimi ise, öğe sayısının listeden önce gelmesi beklenir ve belirtilen biçim sayıyı okumak için kullanılır.</li></ul>
+Bir öğe sırasını okuyan ikili biçimi döndürür ve bir `list` döndürür. `binaryFormat` parametresi, her öğenin ikili biçimini belirtir. Okunan öğe sayısını belirlemenin üç yolu vardır:
+
+-   `countOrCondition` belirtilmezse, ikili biçimi öğe kalmayana kadar okur.
+-   `countOrCondition` bir sayıysa, ikili biçimi aynı miktarda öğeyi okur.
+-   `countOrCondition` bir işlevse, bu işlev okunan her öğe için çağrılır. İşlev devam etmek için true değerini, öğeleri okumayı durdurmak için false değerini döndürür. Son öğe listeye dahil edilir.
+-   `countOrCondition` bir ikili biçimi ise, öğe sayısının listeden önce gelmesi beklenir ve belirtilen biçim sayıyı okumak için kullanılır.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Verilerin sonuna kadar baytları okur.
 ```powerquery
 let
@@ -41,7 +46,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 İki baytı okur.
 ```powerquery
 let
@@ -57,7 +62,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Bayt değeri ikiden büyük veya buna eşit olana kadar baytları okur.
 ```powerquery
 let

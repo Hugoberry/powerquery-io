@@ -21,7 +21,7 @@ Value.NullableEquals(
 
 ## Remarks
 
-如果任何一個引數 '<code>value1</code>', '<code>value2</code>' 是 Null，則傳回 Null，否則傳回 Value.Equals 的對等值。
+如果任何一個引數 `value1` 或 `value2` 是 Null，則傳回 Null，否則傳回 Value.Equals 的對等值。
 
 
 

@@ -5,7 +5,7 @@ title: ItemExpression.From
 # ItemExpression.From
 
 
-Restituisce l&#39;albero della sintassi astratta (AST) per il corpo di una funzione.
+Restituisce l'albero della sintassi astratta (AST) per il corpo di una funzione.
 
 
 ## Syntax
@@ -19,13 +19,27 @@ ItemExpression.From(
 
 ## Remarks
 
-Restituisce l'albero della sintassi astratta (AST) per il corpo di <code>function</code>, normalizzato in una <i>item expression</i>:<ul>  <li>La funzione deve essere una funzione lambda con 1 argomento.</li>  <li>Tutti i riferimenti al parametro di funzione sono sostituiti con <code>ItemExpression.Item</code>.</li>  <li>L'albero della sintassi astratta verrà semplificato per contenere solo i nodi dei tipi:    <ul>      <li><code>Constant</code></li>      <li><code>Invocation</code></li>      <li><code>Unary</code></li>      <li><code>Binary</code></li>      <li><code>If</code></li>      <li><code>FieldAccess</code></li>    </ul>  </li></ul><br /><br />Un errore viene generato se non è possibile restituire un'espressione di riga AST per il corpo di <code>function</code>.<br />
+Restituisce l'albero sintattico astratto per il corpo di `function`, normalizzato in un *espressione di elemento*:
+
+-   La funzione deve essere una funzione lambda con 1 argomento.
+-   Tutti i riferimenti al parametro di funzione sono sostituiti con `ItemExpression.Item`.
+-   L'albero sintattico astratto verrà semplificato per contenere solo i nodi delle tipologie seguenti:
+    -   `Constant`
+    -   `Invocation`
+    -   `Unary`
+    -   `Binary`
+    -   `If`
+    -   `FieldAccess`
+
+Viene generato un errore se non viene restituito un albero sintattico astratto dell'espressione di riga per il corpo di `function`.  
+  
+Questa funzione è identica a `RowExpression.From`.
 
 
 ## Examples
 
-### Example #1 
-Restituisce l&#39;AST per il corpo della funzione &lt;code&gt;each _ &lt;&gt; null&lt;/code&gt;
+### Example #1
+Restituisce l'AST per il corpo della funzione `each _ <> null`.
 ```powerquery
 ItemExpression.From(each _ <> null)
 ```

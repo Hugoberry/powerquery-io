@@ -21,13 +21,13 @@ Table.ContainsAny(
 
 ## Remarks
 
-Указывает, появляется ли любая запись, указанная в списке записей <code>rows</code>, в виде строки в <code>table</code>.    Для управления сравнением строк таблицы может быть указан необязательный параметр <code>equationCriteria</code>.
+Указывает, появляется ли любая запись, указанная в списке записей `rows`, в виде строки в `table`. Для управления сравнением строк таблицы может быть указан необязательный параметр `equationCriteria`.
 
 
 ## Examples
 
-### Example #1 
-Определить, содержит ли таблица &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; строку &lt;code&gt;[a = 1, b = 2]&lt;/code&gt; или &lt;code&gt;[a = 3, b = 5]&lt;/code&gt;.
+### Example #1
+Определить, содержит ли таблица `({[a = 1, b = 2], [a = 3, b = 4]})` строку `[a = 1, b = 2]` или `[a = 3, b = 5]`.
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({
@@ -47,8 +47,8 @@ true
 ```
 
 
-### Example #2 
-Определить, содержит ли таблица &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; строку &lt;code&gt;[a = 1, b = 3]&lt;/code&gt; или &lt;code&gt;[a = 3, b = 5]&lt;/code&gt;.
+### Example #2
+Определить, содержит ли таблица `({[a = 1, b = 2], [a = 3, b = 4]})` строку `[a = 1, b = 3]` или `[a = 3, b = 5]`.
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({
@@ -68,8 +68,8 @@ false
 ```
 
 
-### Example #3 
-Определить, содержит ли таблица &lt;code&gt;(Table.FromRecords(\{[a = 1, b = 2], [a = 3, b = 4]}))&lt;/code&gt; строку &lt;code&gt;[a = 1, b = 3]&lt;/code&gt; или &lt;code&gt;[a = 3, b = 5]&lt;/code&gt;, сравнивая только столбец [a].
+### Example #3
+Определить, содержит ли таблица `(Table.FromRecords({[a = 1, b = 2], [a = 3, b = 4]}))` строку `[a = 1, b = 3]` или `[a = 3, b = 5]`, сравнивая только столбец \[a\].
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({

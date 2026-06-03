@@ -26,7 +26,7 @@ Efetua uma chamada ao ponto de extremidade KeyMetrics do Webtrends e retorna tod
 
 ## Examples
 
-### Example #1 
+### Example #1
 Efetua pull de uma tabela de métricas-chave do locatário 98765 nos últimos 30 dias
 ```powerquery
 Webtrends.KeyMetrics("98765")

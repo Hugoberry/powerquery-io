@@ -21,7 +21,7 @@ Value.Multiply(
 
 ## Remarks
 
-<code>value1</code> का <code>value2</code> से गुणा कर गुणनफल लौटाता है. एक वैकल्पिक पैरामीटर, <code>precision</code> भी निर्दिष्ट किया जा सकता है, डिफ़ॉल्ट रूप से <code>Precision.Double</code> का उपयोग किया जाता है.
+`value1` का `value2` से गुणा कर गुणनफल लौटाता है. एक वैकल्पिक पैरामीटर, `precision` भी निर्दिष्ट किया जा सकता है, डिफ़ॉल्ट रूप से `Precision.Double` का उपयोग किया जाता है.
 
 
 

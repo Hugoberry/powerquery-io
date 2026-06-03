@@ -22,13 +22,18 @@ Table.PositionOf(
 
 ## Remarks
 
-傳回指定的 <code>table</code> 中第一次出現 <code>row</code> 的資料列位置。如果找不到發生次數，則傳回 -1。    <ul>       <li><code>table</code>: 輸入資料表。</li>       <li><code>row</code>: 要在資料表中尋找其位置的資料列。</li>       <li><code>occurrence</code>: [選擇性]<i></i> 指定要傳回的資料列出現次數。</li>       <li><code>equationCriteria</code>: [選擇性]<i></i> 控制資料表資料列之間的比較方式。</li>    </ul>    
+傳回指定的 `row` 中第一次出現 `table` 的資料列位置。如果沒有出現，則會傳回 -1。
+
+-   `table`: 輸入資料表。
+-   `row`: 要在資料表中尋找其位置的資料列。
+-   `occurrence`: *(選用)* 指定要傳回的資料列出現次數。
+-   `equationCriteria`: *(選用)* 控制資料表資料列之間的比較方式。
 
 
 ## Examples
 
-### Example #1 
-尋找資料表 &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt; 中第一次出現 [a = 2, b = 4] 的位置。
+### Example #1
+尋找資料表 `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})` 中第一次出現 \[a = 2, b = 4\] 的位置。
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({
@@ -47,8 +52,8 @@ Result:
 ```
 
 
-### Example #2 
-尋找資料表 &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt; 中第二次出現 [a = 2, b = 4] 的位置。
+### Example #2
+尋找資料表 `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})` 中第二次出現 \[a = 2, b = 4\] 的位置。
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({
@@ -68,8 +73,8 @@ Result:
 ```
 
 
-### Example #3 
-尋找資料表 &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt; 中出現 [a = 2, b = 4] 的所有位置。
+### Example #3
+尋找資料表 `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})` 中出現 \[a = 2, b = 4\] 的所有位置。
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({

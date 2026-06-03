@@ -20,12 +20,15 @@ Number.Power(
 
 ## Remarks
 
-返回计算 <code>number</code> 的 <code>power</code> 次幂所得的结果。    如果 <code>number</code> 或 <code>power</code> 为 null，则 <code>Number.Power</code> 返回 null。      <ul>        <li><code>number</code>: 底数。</li>        <li><code>power</code>: 指数。</li>      </ul>
+返回计算 `number` 的 `power` 次幂所得的结果。 如果 `number` 或 `power` 为 null，则 `Number.Power` 返回 null。
+
+-   `number`: 底数。
+-   `power`: 指数。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 计算 5 的 3 次幂(5 的立方)的值。
 ```powerquery
 Number.Power(5, 3)

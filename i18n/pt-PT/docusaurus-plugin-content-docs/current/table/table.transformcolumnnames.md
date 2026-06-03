@@ -21,13 +21,23 @@ Table.TransformColumnNames(
 
 ## Remarks
 
-Transforma os nomes das colunas através da função <code>nameGenerator</code> especificada. Opções válidas:    <div>      <code>MaxLength</code> especifica o comprimento máximo dos novos nomes de colunas. Se a função especificada resultar num nome de coluna maior, o nome longo será cortado.    </div>    <div>      <code>Comparer</code> é utilizado para controlar a comparação enquanto são gerados novos nomes de coluna. Os comparadores podem ser utilizados para fornecer comparações não sensíveis a maiúsculas e minúsculas ou comparações baseadas na cultura ou no local.    </div>    <div>      Os seguintes comparadores incorporados estão disponíveis na linguagem da fórmula:    </div>    <ul>      <li><code>Comparer.Ordinal</code>: utilizado para executar uma comparação ordinal exata</li>      <li><code>Comparer.OrdinalIgnoreCase</code>: utilizado para executar uma comparação ordinal exata não sensível a maiúsculas/minúsculas</li>      <li> <code>Comparer.FromCulture</code>: utilizado para executar uma comparação baseada na cultura</li>    </ul>    
+Transforma os nomes das colunas através da função `nameGenerator` especificada. Opções válidas:
+
+`MaxLength` especifica o comprimento máximo dos novos nomes de colunas. Se a função especificada resultar num nome de coluna maior, o nome longo será cortado.
+
+`Comparer` é utilizado para controlar a comparação enquanto são gerados novos nomes de coluna. Os comparadores podem ser utilizados para fornecer comparações não sensíveis a maiúsculas e minúsculas ou comparações baseadas na cultura ou no local.
+
+Os seguintes comparadores incorporados estão disponíveis na linguagem da fórmula:
+
+-   `Comparer.Ordinal`: utilizado para executar uma comparação ordinal exata
+-   `Comparer.OrdinalIgnoreCase`: utilizado para executar uma comparação ordinal exata não sensível a maiúsculas/minúsculas
+-   `Comparer.FromCulture`: utilizado para executar uma comparação baseada na cultura
 
 
 ## Examples
 
-### Example #1 
-Remover o caráter &lt;code&gt;#(tab)&lt;/code&gt; dos nomes de coluna
+### Example #1
+Remover o caráter `#(tab)` dos nomes de coluna
 ```powerquery
 Table.TransformColumnNames(Table.FromRecords({[#"Col#(tab)umn" = 1]}), Text.Clean)
 ```
@@ -38,7 +48,7 @@ Table.FromRecords({[Column = 1]})
 ```
 
 
-### Example #2 
+### Example #2
 Transformar nomes de coluna para gerar nomes não sensíveis a maiúsculas e minúsculas de comprimento 6.
 ```powerquery
 Table.TransformColumnNames(

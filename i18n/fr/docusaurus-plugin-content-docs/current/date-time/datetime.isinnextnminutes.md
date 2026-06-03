@@ -5,7 +5,7 @@ title: DateTime.IsInNextNMinutes
 # DateTime.IsInNextNMinutes
 
 
-Indique si cette valeur datetime se produit dans le nombre de minutes suivantes, par rapport à la date et l&#39;heure actuelles du système. Notez que cette fonction retourne la valeur false si la valeur transmise se produit dans la minute actuelle.
+Indique si cette valeur datetime se produit dans le nombre de minutes suivantes, par rapport à la date et l'heure actuelles du système. Notez que cette fonction retourne la valeur false si la valeur transmise se produit dans la minute actuelle.
 
 
 ## Syntax
@@ -20,13 +20,16 @@ DateTime.IsInNextNMinutes(
 
 ## Remarks
 
-Indique si la valeur datetime <code>dateTime</code> donnée se produit dans le nombre de minutes suivantes, par rapport à la date et l'heure actuelles du système. Notez que la fonction retourne la valeur false si la valeur transmise se produit dans la minute actuelle.      <ul>      <li><code>dateTime</code> : Valeur <code>datetime</code> ou <code>datetimezone</code> à évaluer.</li>      <li><code>minutes</code> : Nombre de minutes.</li>      </ul>
+Indique si la valeur datetime `dateTime` donnée se produit dans le nombre de minutes suivantes, par rapport à la date et l'heure actuelles du système. Notez que la fonction retourne la valeur false si la valeur transmise se produit dans la minute actuelle.
+
+-   `dateTime` : Valeur `datetime` ou `datetimezone` à évaluer.
+-   `minutes` : Nombre de minutes.
 
 
 ## Examples
 
-### Example #1 
-Détermine si la minute qui suit l&#39;heure système actuelle tombe pendant les deux prochaines minutes.
+### Example #1
+Détermine si la minute qui suit l'heure système actuelle tombe pendant les deux prochaines minutes.
 ```powerquery
 DateTime.IsInNextNMinutes(DateTime.FixedLocalNow() + #duration(0, 0, 2, 0), 2)
 ```

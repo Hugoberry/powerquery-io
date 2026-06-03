@@ -19,12 +19,12 @@ Date.DayOfYear(
 
 ## Remarks
 
-Trả về một số biểu thị ngày trong năm trong giá trị <code>date</code>, <code>datetime</code> hoặc <code>datetimezone</code> cho sẵn, <code>dateTime</code>.
+Trả về một số biểu thị ngày trong năm trong giá trị `date`, `datetime` hoặc `datetimezone` cho sẵn, `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ngày trong năm cho ngày 1 tháng 3 năm 2011.
 ```powerquery
 Date.DayOfYear(#date(2011, 03, 01))

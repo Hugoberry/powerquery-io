@@ -5,7 +5,7 @@ title: Cube.PropertyKey
 # Cube.PropertyKey
 
 
-Retourne la clé d&#39;une propriété.
+Retourne la clé d'une propriété.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Cube.PropertyKey(
 
 ## Remarks
 
-Retourne la clé de la propriété <code>property</code>.
+Retourne la clé de la propriété `property`.
 
 
 

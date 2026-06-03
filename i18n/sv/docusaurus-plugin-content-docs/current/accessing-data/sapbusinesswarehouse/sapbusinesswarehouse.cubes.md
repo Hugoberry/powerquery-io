@@ -23,7 +23,7 @@ SapBusinessWarehouse.Cubes(
 
 ## Remarks
 
-Returnerar en tabell med InfoCubes och frågor grupperade efter InfoArea från en SAP Business Warehouse-instans på servern <code>server</code> med systemnummer <code>systemNumberOrSystemId</code> och klient-ID <code>clientId</code>. Du kan ange en valfri postparameter, <code>optionsOrLogonGroup</code>, om du vill styra följande alternativ:        
+Returnerar en tabell med InfoCubes och frågor grupperade efter InfoArea från en SAP Business Warehouse-instans på servern `server` med systemnummer `systemNumberOrSystemId` och klient-ID `clientId`. Du kan ange en valfri postparameter, `optionsOrLogonGroup`, om du vill styra följande alternativ:
 
 
 

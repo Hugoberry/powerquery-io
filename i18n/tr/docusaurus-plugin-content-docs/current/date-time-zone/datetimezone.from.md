@@ -20,13 +20,30 @@ DateTimeZone.From(
 
 ## Remarks
 
-Verilen <code>value</code> değerinden bir <code>datetimezone</code> değeri döndürür. Ayrıca, isteğe bağlı bir <code>culture</code> sağlanabilir (ör. "en-US").Verilen <code>value</code> <code>null</code> olduğunda <code>DateTimeZone.From</code>, <code>null</code> döndürür. Verilen <code>value</code> <code>datetimezone</code> ise <code>value</code> döndürülür. Aşağıdaki türde olan değerler bir <code>datetimezone</code> değerine dönüştürülebilir:      <ul>        <li><code>text</code>: Metin gösteriminden bir <code>datetimezone</code> değeri. Ayrıntılar için bkz. <code>DateTimeZone.FromText</code>.</li>        <li><code>date</code>: Tarih bileşeni olarak <code>value</code>, saat bileşeni olarak <code>00:00:00</code> ve yerel saat dilimine karşılık gelen uzaklığı içeren bir <code>datetimezone</code>.</li>        <li><code>datetime</code>: Tarih saat olarak <code>value</code> içeren bir <code>datetimezone</code> ve yerel saat dilimine karşılık gelen uzaklık.</li>        <li><code>time</code>: Tarih bileşeni olarak <code>0</code> OLE Otomasyon Tarihinin tarih eşdeğerini, saat bileşeni olarak <code>value</code> değerini ve yerel saat dilimine karşılık gelen uzaklığı içeren bir <code>datetimezone</code>.</li>        <li><code>number</code>: <code>value</code> ile ifade edilen OLE Otomasyon Tarihinin tarih saat eşdeğeri ve yerel saat dilimine karşılık gelen uzaklığı içeren bir <code>datetimezone</code>.</li>      </ul><code>value</code> başka bir türde olduğunda hata döndürülür.
+Verilen değerden bir `datetimezone` oluşturur.
+
+-   `value`: `datetimezone` oluşturmak için kullanılan değer.
+-   `culture`: (İsteğe bağlı) Değeri dönüştürürken kullanılacak kültür (örneğin, “en-US”).
+
+Aşağıdaki türlerdeki değerler `datetimezone` değerine dönüştürülebilir:
+
+-   `text`: Metinsel gösterimden bir `datetimezone` değeri döndürür. Ayrıntılar için bakın: `DateTimeZone.FromText`
+-   `date`: `value` tarih bileşeni, `12:00:00 AM` saat bileşeni ve yerel saat dilimine karşılık gelen zaman farkı ile bir `datetimezone` döndürür.
+-   `datetime`: `value` değerini tarih ve saat olarak ve yerel saat dilimine karşılık gelen zaman farkını içeren bir `datetimezone` döndürür.
+-   `datetimezone`: `value` değerini döndürür.
+-   `time`: `0` OLE Otomasyon Tarihi'nin tarih bileşeni, `value` zaman bileşeni ve yerel saat dilimine karşılık gelen zaman farkı ile eşdeğer bir `datetimezone` döndürür. OLE Otomasyon Tarihi, tam sayı bileşeni 30 Aralık 1899 gece yarısından önceki veya sonraki gün sayısını, kesirli bileşeni ise o günün saatini 24'e bölünmüş halini temsil eden bir kayan nokta sayısından oluşur. Örneğin, 31 Aralık 1899 gece yarısı 1,0 ile temsil edilir; 1 Ocak 1900 sabah 6, 2,25 ile temsil edilir; 29 Aralık 1899 gece yarısı -1,0 ile temsil edilir ve 29 Aralık 1899 sabah 6, -1,25 ile temsil edilir. Temel değer, 30 Aralık 1899 gece yarısıdır. Minimum değer, 1 Ocak 0100 gece yarısıdır. Maksimum değer, 31 Aralık 9999'un son anıdır.
+-   `number`: `value` ile ifade edilen OLE Otomasyon Tarihi'nin tarih ve saat eşdeğeri ile yerel saat dilimine karşılık gelen ofseti içeren bir `datetimezone` döndürür.
+-   `null`: `null` değerini döndürür.
+
+`value` başka bir türdeyse, bir hata döndürülür.  
+  
+Bu işlevi yerel olarak çalıştırdığınızda, yerel saat dilimine karşılık gelen ofset değeri, çevrimiçi çalıştırdığınızda farklıdır. Yerel olarak çalıştırıldığında, yerel saat dilimi döndürülür. Çevrimiçi olarak çalıştırıldığında, UTC saat dilimi (+00:00) döndürülür.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;&#34;2020-10-30T01:30:00-08:00&#34;&lt;/code&gt; değerini bir &lt;code&gt;datetimezone&lt;/code&gt; değerine dönüştürür.
+### Example #1
+Tarih, saat ve saat diliminin metin temsilini `datetimezone` değerine dönüştürür.
 ```powerquery
 DateTimeZone.From("2020-10-30T01:30:00-08:00")
 ```
@@ -34,6 +51,30 @@ DateTimeZone.From("2020-10-30T01:30:00-08:00")
 Result: 
 ```powerquery
 #datetimezone(2020, 10, 30, 01, 30, 00, -8, 00)
+```
+
+
+### Example #2
+Brezilya Portekizcesi tarih, saat ve saat diliminin metin temsilini `datetimezone` değerine dönüştürün.
+```powerquery
+DateTimeZone.From("13 de agosto de 2025 15:43:00 -03:00", "pt-BR")
+```
+
+Result: 
+```powerquery
+#datetimezone(2025, 08, 13, 15, 43, 00, -3, 00)
+```
+
+
+### Example #3
+1 Ocak 2025 saat 12:00'yi temsil eden bir sayıyı `datetimezone` değerine dönüştürün. Sonuçtaki saat dilimi, örneğin yerel olarak mı yoksa çevrimiçi olarak mı çalıştırıldığına bağlıdır.
+```powerquery
+DateTimeZone.From(45658.5)
+```
+
+Result: 
+```powerquery
+#datetimezone(2025, 01, 01, 12, 00, 00, 0, 00)
 ```
 
 

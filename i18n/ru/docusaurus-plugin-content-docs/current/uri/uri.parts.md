@@ -19,13 +19,13 @@ Uri.Parts(
 
 ## Remarks
 
-Возвращает (как запись) части введенного <code>absoluteUri</code> с такими значениями, как схема, узел, порт, путь, запрос, фрагмент, имя пользователя и пароль.
+Возвращает (как запись) части введенного `absoluteUri` с такими значениями, как схема, узел, порт, путь, запрос, фрагмент, имя пользователя и пароль.
 
 
 ## Examples
 
-### Example #1 
-Найти части абсолютного URI &#34;www.adventure-works.com&#34;.
+### Example #1
+Найти части абсолютного URI "www.adventure-works.com".
 ```powerquery
 Uri.Parts("www.adventure-works.com")
 ```
@@ -45,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Декодировать закодированную строку.
 ```powerquery
 let

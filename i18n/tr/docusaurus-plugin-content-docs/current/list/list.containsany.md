@@ -21,13 +21,17 @@ List.ContainsAny(
 
 ## Remarks
 
-<code>list</code> listesinin başka bir <code>values</code> listesindeki herhangi bir değeri içerip içermediğini belirtir.        Değer listede bulunursa doğru, aksi takdirde yanlış değerini döndürür. Eşitlik sınamasını denetlemek için <code>equationCriteria</code> isteğe bağlı eşitlik ölçüt değeri belirtilebilir. 
+Listenin başka bir listeden herhangi bir değeri içerip içermediğini gösterir. Değerler listede bulunursa `true` döndürür, aksi takdirde `false` döndürür.
+
+-   `list`: Aranacak liste.
+-   `values`: İlk listede aranacak değerlerin listesi.
+-   `equationCriteria`: (İsteğe bağlı) İki değerin eşit olup olmadığını belirlemek için kullanılan karşılaştırıcı.
 
 
 ## Examples
 
-### Example #1 
-\{1, 2, 3, 4, 5} listesinin 3 veya 9&#39;u içerip içermediğini bulur.
+### Example #1
+\{1, 2, 3, 4, 5\} listesinin 3 ve 9'u içerip içermediğini belirleyin.
 ```powerquery
 List.ContainsAny({1, 2, 3, 4, 5}, {3, 9})
 ```
@@ -38,8 +42,8 @@ true
 ```
 
 
-### Example #2 
-\{1, 2, 3, 4, 5} listesinin 6 veya 7&#39;yi içerip içermediğini bulur.
+### Example #2
+\{1, 2, 3, 4, 5\} listesinin 6 ve 7'yi içerip içermediğini belirleyin.
 ```powerquery
 List.ContainsAny({1, 2, 3, 4, 5}, {6, 7})
 ```
@@ -47,6 +51,34 @@ List.ContainsAny({1, 2, 3, 4, 5}, {6, 7})
 Result: 
 ```powerquery
 false
+```
+
+
+### Example #3
+Büyük/küçük harf ayrımını yoksayarak listede bir at ve bir baykuşun bulunup bulunmadığını belirtin.
+```powerquery
+List.ContainsAny({"dog", "cat", "racoon", "horse", "rabbit"}, {"Horse", "OWL"}, Comparer.OrdinalIgnoreCase)
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+### Example #4
+Listede 8 Nisan 2022 veya 12 Ocak 2021 tarihinin bulunup bulunmadığını belirtin.
+```powerquery
+let
+    Source = {#date(2024, 2, 23), #date(2023, 12, 2), #date(2022, 4, 8), #date(2021, 7, 6)},
+    ContainsDates = List.ContainsAny(Source, {Date.From("Apr 8, 2022"), Date.From("Jan 11, 2021")})
+in
+    ContainsDates
+```
+
+Result: 
+```powerquery
+true
 ```
 
 

@@ -21,7 +21,7 @@ Cube.ApplyParameter(
 
 ## Remarks
 
-Trả về khối cube sau khi áp dụng <code>parameter</code> với <code>arguments</code> cho <code>cube</code>.
+Trả về khối cube sau khi áp dụng `parameter` với `arguments` cho `cube`.
 
 
 

@@ -19,13 +19,15 @@ Duration.ToRecord(
 
 ## Remarks
 
-Zwraca rekord zawierający części wartości typu duration (<code>duration</code>).   <ul>        <li><code>duration</code>: wartość typu <code>duration</code>, na podstawie której tworzony jest rekord.</li>      </ul>
+Zwraca rekord zawierający części wartości typu duration (`duration`).
+
+-   `duration`: wartość typu `duration`, na podstawie której tworzony jest rekord.
 
 
 ## Examples
 
-### Example #1 
-Przekonwertuj wartość &lt;code&gt;#duration(2, 5, 55, 20)&lt;/code&gt; na rekord zawierający jej części, w tym dni, godziny, minuty i sekundy.
+### Example #1
+Przekonwertuj wartość `#duration(2, 5, 55, 20)` na rekord składający się z części, w tym dni, godziny, minuty i sekundy, jeśli ma to zastosowanie.
 ```powerquery
 Duration.ToRecord(#duration(2, 5, 55, 20))
 ```

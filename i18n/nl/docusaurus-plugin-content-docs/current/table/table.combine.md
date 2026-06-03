@@ -20,12 +20,12 @@ Table.Combine(
 
 ## Remarks
 
-Hiermee wordt een tabel geretourneerd die het resultaat is van de samenvoeging van een lijst met tabellen, <code>tables</code>. De resulterende tabel heeft een type rijstructuur die is gedefinieerd door <code>columns</code> of door een samenvoeging van de invoertypen als <code>columns</code> niet is opgegeven.
+Hiermee wordt een tabel geretourneerd die het resultaat is van de samenvoeging van een lijst met tabellen, `tables`. De resulterende tabel heeft een type rijstructuur die is gedefinieerd door `columns` of door een samenvoeging van de invoertypen als `columns` niet is opgegeven.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De drie tabellen samenvoegen.
 ```powerquery
 Table.Combine({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Voeg drie tabellen met verschillende structuren samen.
 ```powerquery
 Table.Combine({
@@ -65,7 +65,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Voeg twee tabellen en een project samen op het opgegeven type.
 ```powerquery
 Table.Combine(

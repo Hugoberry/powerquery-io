@@ -24,7 +24,7 @@ Type.TableRow(
 
 ## Examples
 
-### Example #1 
+### Example #1
 ส่งกลับข้อมูลชนิดแถวสําหรับตารางอย่างง่าย
 ```powerquery
 let

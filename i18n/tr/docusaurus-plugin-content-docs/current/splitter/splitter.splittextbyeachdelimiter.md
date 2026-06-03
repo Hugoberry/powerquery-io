@@ -26,7 +26,7 @@ Bir metin listesine sırada belirtilen her sınırlayıcıda metin ayıran bir i
 
 ## Examples
 
-### Example #1 
+### Example #1
 Girişi virgülle, ardından girişin başından başlayarak noktalı virgülle bölün.
 ```powerquery
 Splitter.SplitTextByEachDelimiter({",", ";"})("a,b;c,d")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Girişi virgülle, ardından noktalı virgülle, tırnak işaretlerini diğer herhangi bir karakter gibi ele alarak ve girişin sonundan başlayarak bölün.
 ```powerquery
 let

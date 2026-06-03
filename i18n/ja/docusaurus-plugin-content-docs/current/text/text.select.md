@@ -20,13 +20,13 @@ Text.Select(
 
 ## Remarks
 
-<code>selectChars</code> に含まれていないすべての文字を削除したうえで、テキスト値 <code>text</code> のコピーを返します。
+`selectChars` に含まれていないすべての文字を削除したうえで、テキスト値 `text` のコピーを返します。
 
 
 ## Examples
 
-### Example #1 
-テキスト値から &#39;a&#39; から &#39;z&#39; の範囲のすべての文字を選択します。
+### Example #1
+テキスト値から 'a' から 'z' の範囲のすべての文字を選択します。
 ```powerquery
 Text.Select("a,b;c", {"a".."z"})
 ```

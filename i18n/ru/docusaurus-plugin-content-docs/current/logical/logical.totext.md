@@ -19,13 +19,13 @@ Logical.ToText(
 
 ## Remarks
 
-Создает текстовое значение из логического значения <code>logicalValue</code>, <code>true</code> или <code>false</code>. Если <code>logicalValue</code> не является логическим значением, возникает исключение.
+Создает текстовое значение, `true` или `false`, из логического значения `logicalValue`. Если `logicalValue` не является логическим значением, генерируется ошибка.
 
 
 ## Examples
 
-### Example #1 
-Создать текстовое значение из логического &lt;code&gt;true&lt;/code&gt;.
+### Example #1
+Создать текстовое значение из логического `true`.
 ```powerquery
 Logical.ToText(true)
 ```

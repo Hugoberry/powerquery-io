@@ -24,7 +24,7 @@ Gibt das aktuelle Datum und die aktuelle Uhrzeit in koordinierter Weltzeit (GMT-
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ruft das aktuelle Datum und die aktuelle Uhrzeit in UTC ab.
 ```powerquery
 DateTimeZone.UtcNow()

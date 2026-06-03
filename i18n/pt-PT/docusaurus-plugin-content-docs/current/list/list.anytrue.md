@@ -19,13 +19,13 @@ List.AnyTrue(
 
 ## Remarks
 
-Devolve true se qualquer expressão existente na lista <code>list</code> for verdadeira.
+Devolve true se qualquer expressão existente na lista `list` for verdadeira.
 
 
 ## Examples
 
-### Example #1 
-Determinar se qualquer uma das expressões existentes na lista \{true, false, 2 &gt; 0} é verdadeira.
+### Example #1
+Determinar se qualquer uma das expressões existentes na lista \{true, false, 2 > 0\} é verdadeira.
 ```powerquery
 List.AnyTrue({true, false, 2>0})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Determinar se qualquer uma das expressões existentes na lista \{2 = 0, false, 2 &lt; 0} é verdadeira.
+### Example #2
+Determinar se qualquer uma das expressões existentes na lista \{2 = 0, false, 2 &lt; 0\} é verdadeira.
 ```powerquery
 List.AnyTrue({2 = 0, false, 2 < 0})
 ```

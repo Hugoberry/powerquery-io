@@ -25,7 +25,7 @@ Efetua uma chamada à API do MailChimp e devolve o conjunto de dados resultante 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Solicita uma tabela de dados do ponto final lists da API do MailChimp.
 ```powerquery
 MailChimp.Collection("lists")
@@ -37,7 +37,7 @@ Uma tabela com dados de lista.
 ```
 
 
-### Example #2 
+### Example #2
 Solicita uma tabela de dados do ponto final campaign-folders da API do MailChimp.
 ```powerquery
 MailChimp.Collection("campaign-folders", "folders")

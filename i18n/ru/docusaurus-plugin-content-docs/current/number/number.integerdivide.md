@@ -21,12 +21,15 @@ Number.IntegerDivide(
 
 ## Remarks
 
-Возвращает целочисленную часть результата от деления числа <code>number1</code> на число <code>number2</code>.    Если <code>number1</code> или <code>number2</code> равно NULL, <code>Number.IntegerDivide</code> возвращает NULL.      <ul>        <li><code>number1</code>: делимое.</li>        <li><code>number2</code>: делитель.</li>      </ul>
+Возвращает целочисленную часть результата от деления числа `number1` на число `number2`. Если `number1` или `number2` равно NULL, `Number.IntegerDivide` возвращает NULL.
+
+-   `number1`: делимое.
+-   `number2`: делитель.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Разделить 6 на 4.
 ```powerquery
 Number.IntegerDivide(6, 4)
@@ -38,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Разделить 8,3 на 3.
 ```powerquery
 Number.IntegerDivide(8.3, 3)

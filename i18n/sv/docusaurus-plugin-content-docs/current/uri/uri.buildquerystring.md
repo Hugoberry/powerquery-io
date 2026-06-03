@@ -19,12 +19,12 @@ Uri.BuildQueryString(
 
 ## Remarks
 
-Assemblera posten <code>query</code> till en URI-frågesträng, med undantagstecken vid behov.
+Assemblera posten `query` till en URI-frågesträng, med undantagstecken vid behov.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Koda en frågesträng som innehåller specialtecken.
 ```powerquery
 Uri.BuildQueryString([a = "1", b = "+$"])

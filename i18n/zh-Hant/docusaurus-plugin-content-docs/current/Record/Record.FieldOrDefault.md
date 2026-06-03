@@ -21,13 +21,13 @@ Record.FieldOrDefault(
 
 ## Remarks
 
-傳回記錄 <code>record</code> 中指定欄位 <code>field</code> 的值。如果找不到欄位，則傳回選擇性的 <code>defaultValue</code>。
+傳回記錄 `record` 中指定欄位 `field` 的值。如果找不到欄位，則傳回選擇性的 `defaultValue`。
 
 
 ## Examples
 
-### Example #1 
-找出記錄中 &#34;Phone&#34; 欄位的值，如果該欄位不存在，則傳回 Null。
+### Example #1
+找出記錄中 "Phone" 欄位的值，如果該欄位不存在，則傳回 Null。
 ```powerquery
 Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone")
 ```
@@ -38,8 +38,8 @@ null
 ```
 
 
-### Example #2 
-找出記錄中 &#34;Phone&#34; 欄位的值，如果該欄位不存在，則傳回預設值。
+### Example #2
+找出記錄中 "Phone" 欄位的值，如果該欄位不存在，則傳回預設值。
 ```powerquery
 Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone", "123-4567")
 ```

@@ -5,7 +5,7 @@ title: Binary.ViewError
 # Binary.ViewError
 
 
-Cria um registro de erro modificado que não acionará um fallback quando lançado por um manipulador definido em uma exibição (via Binary.View).
+Cria um registro de erro modificado que não disparará uma alternativa quando gerado por um manipulador definido em uma exibição (via Binary.View).
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Binary.ViewError(
 
 ## Remarks
 
-Cria um registro de erro modificado de <code>errorRecord</code> que não acionará um fallback quando lançado por um manipulador definido em uma exibição (via Binary.View).
+Cria um registro de erro modificado de `errorRecord` que não disparará uma alternativa quando gerado por um manipulador definido em uma exibição (via Binary.View).
 
 
 

@@ -21,13 +21,17 @@ Table.SelectColumns(
 
 ## Remarks
 
-Retourneert de <code>table</code> met alleen de opgegeven <code>columns</code>.    <ul>       <li><code>table</code>: De opgegeven tabel.</li>       <li><code>columns</code>: De lijst met kolommen die vanuit de tabel <code>table</code> moeten worden geretourneerd. De kolommen in de geretourneerde tabel staan in de volgorde die staat vermeld in <code>columns</code>.</li>       <li><code>missingField</code>: <i>(Optioneel)</i> Wat moet er worden gedaan als de kolom niet bestaat.  Bijvoorbeeld: <code>MissingField.UseNull</code> of <code>MissingField.Ignore</code>.    </li></ul>
+Retourneert de `table` met alleen de opgegeven `columns`.
+
+-   `table`: de opgegeven tabel.
+-   `columns`: de lijst met kolommen die vanuit de tabel `table` moeten worden geretourneerd. De kolommen in de geretourneerde tabel staan in de volgorde die staat vermeld in `columns`.
+-   `missingField`: *(Optioneel)* wat moet er worden gedaan als de kolom niet bestaat. Bijvoorbeeld: `MissingField.UseNull` of `MissingField.Ignore`.
 
 
 ## Examples
 
-### Example #1 
-Als de kolom [Name] opnemen.
+### Example #1
+Als de kolom \[Name\] opnemen.
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({
@@ -51,8 +55,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Alleen de kolommen [CustomerID] en [Name] opnemen.
+### Example #2
+Alleen de kolommen \[CustomerID\] en \[Name\] opnemen.
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -66,7 +70,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #3 
+### Example #3
 Als de opgenomen kolom niet bestaat, is het standaardresultaat een fout.
 ```powerquery
 Table.SelectColumns(
@@ -81,8 +85,8 @@ Result:
 ```
 
 
-### Example #4 
-Als de opgenomen kolom niet bestaat, wordt met de optie &lt;code&gt;MissingField.UseNull&lt;/code&gt; een kolom met null-waarden gemaakt.
+### Example #4
+Als de opgenomen kolom niet bestaat, wordt met de optie `MissingField.UseNull` een kolom met null-waarden gemaakt.
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

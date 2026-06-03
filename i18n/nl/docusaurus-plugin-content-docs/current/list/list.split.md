@@ -20,7 +20,7 @@ List.Split(
 
 ## Remarks
 
-Hiermee wordt <code>list</code> gesplitst in een lijst met lijsten, waarbij het eerste element van de uitvoerlijst een lijst is met de eerste <code>pageSize</code> elementen uit    de bronlijst, het volgende element van de uitvoerlijst is een lijst met de volgende <code>pageSize</code> elementen uit de bronlijst, enzovoort.
+Hiermee wordt `list` gesplitst in een lijst met lijsten, waarbij het eerste element van de uitvoerlijst een lijst is met de eerste `pageSize` elementen uit de bronlijst, het volgende element van de uitvoerlijst is een lijst met de volgende `pageSize` elementen uit de bronlijst, enzovoort.
 
 
 

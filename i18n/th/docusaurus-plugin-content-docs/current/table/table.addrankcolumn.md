@@ -22,13 +22,13 @@ Table.AddRankColumn(
 
 ## Remarks
 
-ผนวกคอลัมน์ที่ชื่อ <code>newColumnName</code> เข้ากับ<code>table</code>ด้วยการจัดอันดับคอลัมน์อื่นอย่างน้อยหนึ่งคอลัมน์ที่อธิบายโดย<code>comparisonCriteria</code>ตัวเลือก RankKind ใน<code>options</code>สามารถใช้โดยผู้ใช้ขั้นสูงเพื่อเลือกวิธีการจัดอันดับที่เฉพาะเจาะจงมากขึ้น
+ผนวกคอลัมน์ที่ชื่อ `newColumnName` เข้ากับ`table`ด้วยการจัดอันดับคอลัมน์อื่นอย่างน้อยหนึ่งคอลัมน์ที่อธิบายโดย`comparisonCriteria` ตัวเลือก RankKind ใน`options`สามารถใช้โดยผู้ใช้ขั้นสูงเพื่อเลือกวิธีการจัดอันดับที่เฉพาะเจาะจงมากขึ้น
 
 
 ## Examples
 
-### Example #1 
-เพิ่มคอลัมน์ที่ชื่อ &#34;RevenueRank&#34; ลงในตารางที่จัดอันดับคอลัมน์ &#34;รายได้&#34; จากสูงสุดไปต่ำสุด
+### Example #1
+เพิ่มคอลัมน์ที่ชื่อ "RevenueRank" ลงในตารางที่จัดอันดับคอลัมน์ "รายได้" จากสูงสุดไปต่ำสุด
 ```powerquery
 Table.AddRankColumn(
     Table.FromRecords({

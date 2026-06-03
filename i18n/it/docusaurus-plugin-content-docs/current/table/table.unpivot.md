@@ -27,8 +27,8 @@ Converte un set di colonne di una tabella in coppie attributo-valore, insieme al
 
 ## Examples
 
-### Example #1 
-Accettare le colonne &#34;a&#34;, &#34;b&#34; e &#34;c&#34; nella tabella &lt;code&gt;(\{[ key = &#34;x&#34;, a = 1, b = null, c = 3 ], [ key = &#34;y&#34;, a = 2, b = 4, c = null ]})&lt;/code&gt; e trasformarle tramite UnPivot in coppie attributo-valore.
+### Example #1
+Accettare le colonne "a", "b" e "c" nella tabella `({[ key = "x", a = 1, b = null, c = 3 ], [ key = "y", a = 2, b = 4, c = null ]})` e trasformarle tramite UnPivot in coppie attributo-valore.
 ```powerquery
 Table.Unpivot(
     Table.FromRecords({

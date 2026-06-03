@@ -19,12 +19,12 @@ Binary.ApproximateLength(
 
 ## Remarks
 
-<code>binary</code>内のおおよその長さを返します。または、データ ソースが近似をサポートしていない場合はエラーを返します。
+`binary`内のおおよその長さを返します。または、データ ソースが近似をサポートしていない場合はエラーを返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 バイナリ値のおおよその長さを取得します。
 ```powerquery
 Binary.ApproximateLength(Binary.FromText("i45WMlSKjQUA", BinaryEncoding.Base64))

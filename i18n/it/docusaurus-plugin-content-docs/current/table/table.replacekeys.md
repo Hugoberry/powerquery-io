@@ -25,7 +25,7 @@ Sostituisce le chiavi della tabella specificata.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Sostituire le chiavi esistenti di una tabella.
 ```powerquery
 let

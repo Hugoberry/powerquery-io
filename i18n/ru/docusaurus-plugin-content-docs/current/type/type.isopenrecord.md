@@ -19,13 +19,13 @@ Type.IsOpenRecord(
 
 ## Remarks
 
-Возвращает значение <code>logical</code>, указывающее, является ли запись <code>type</code> открытой.
+Возвращает значение `logical`, указывающее, является ли запись `type` открытой.
 
 
 ## Examples
 
-### Example #1 
-Определить, является ли запись &lt;code&gt;type [ A = число, ...]&lt;/code&gt; открытой.
+### Example #1
+Определить, является ли запись `type [ A = число, ...]` открытой.
 ```powerquery
 Type.IsOpenRecord(type [A = number, ...])
 ```

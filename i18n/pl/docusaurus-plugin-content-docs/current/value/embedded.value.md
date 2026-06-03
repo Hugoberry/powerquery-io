@@ -5,7 +5,7 @@ title: Embedded.Value
 # Embedded.Value
 
 
-Uzyskuje dostęp do wartości według nazwy w osadzonym zestawie łączącym.
+Ta funkcja jest przeznaczona tylko do użytku wewnętrznego.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Embedded.Value(
 
 ## Remarks
 
-Uzyskuje dostęp do wartości według nazwy w osadzonym zestawie łączącym.
+Ta funkcja jest przeznaczona tylko do użytku wewnętrznego.
 
 
 

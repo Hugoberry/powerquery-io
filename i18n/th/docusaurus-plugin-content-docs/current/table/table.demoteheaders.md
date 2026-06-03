@@ -24,7 +24,7 @@ Table.DemoteHeaders(
 
 ## Examples
 
-### Example #1 
+### Example #1
 ลดระดับแถวแรกของค่าในตาราง
 ```powerquery
 Table.DemoteHeaders(

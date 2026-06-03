@@ -5,7 +5,7 @@ title: Variable.Value
 # Variable.Value
 
 
-此函数仅供内部使用。
+返回指定变量的值。
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Variable.Value(
 
 ## Remarks
 
-此函数仅供内部使用。
+返回由当前计算环境定义的指定变量 `identifier` 的值。如果未定义变量，则会引发错误。
 
 
 

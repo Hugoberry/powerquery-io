@@ -25,7 +25,7 @@ Zwraca typ reprezentujący rekordy z określonymi ograniczeniami dotyczącymi ty
 
 ## Examples
 
-### Example #1 
+### Example #1
 Dynamicznie generuj typ tabeli.
 ```powerquery
 let

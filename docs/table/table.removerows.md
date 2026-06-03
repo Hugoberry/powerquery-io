@@ -21,12 +21,12 @@ Table.RemoveRows(
 
 ## Remarks
 
-Removes <code>count</code> of rows from the beginning of the <code>table</code>, starting at the <code>offset</code> specified. A default count of 1 is used if the <code>count</code> parameter isn't provided. 
+Removes `count` of rows from the beginning of the `table`, starting at the `offset` specified. A default count of 1 is used if the `count` parameter isn't provided.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Remove the first row from the table.
 ```powerquery
 Table.RemoveRows(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Remove the row at position 1 from the table.
 ```powerquery
 Table.RemoveRows(
@@ -74,7 +74,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Remove two rows starting at position 1 from the table.
 ```powerquery
 Table.RemoveRows(

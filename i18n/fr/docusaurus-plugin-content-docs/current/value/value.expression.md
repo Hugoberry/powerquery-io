@@ -19,7 +19,7 @@ Value.Expression(
 
 ## Remarks
 
-Retourne une arborescence de syntaxe abstraite (AST) qui représente l’expression de la valeur
+Retourne une arborescence de syntaxe abstraite (AST) qui représente l’expression de la valeur.
 
 
 

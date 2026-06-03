@@ -20,12 +20,12 @@ BinaryFormat.Text(
 
 ## Remarks
 
-Zwraca format binarny odczytujący wartość tekstową.  Parametr <code>length</code> określa liczbę bajtów do zdekodowania lub format binarny długości poprzedzający tekst.  Opcjonalna wartość <code>encoding</code> określa kodowanie tekstu.  Jeśli parametr <code>encoding</code> nie jest określony, kodowanie jest ustalane na podstawie znaczników kolejności bajtów Unicode.  W przypadku braku znaczników kolejności bajtów jest używany format <code>TextEncoding.Utf8</code>.
+Zwraca format binarny odczytujący wartość tekstową. Parametr `length` określa liczbę bajtów do zdekodowania lub format binarny długości poprzedzający tekst. Opcjonalna wartość `encoding` określa kodowanie tekstu. Jeśli parametr `encoding` nie jest określony, kodowanie jest ustalane na podstawie znaczników kolejności bajtów Unicode. W przypadku braku znaczników kolejności bajtów jest używany format `TextEncoding.Utf8`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zdekoduj dwa bajty jako tekst w formacie ASCII.
 ```powerquery
 let
@@ -41,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Zdekoduj tekst w formacie ASCII, w którym długość tekstu w bajtach występuje przed tekstem w postaci bajtów.
 ```powerquery
 let

@@ -19,13 +19,15 @@ Time.ToRecord(
 
 ## Remarks
 
-Returnerer en post, der indeholder delene fra en bestemt klokkeslætsværdi, <code>time</code>. <ul>        <li><code>time</code>: En værdi af typen <code>time</code>, som delenes post skal beregnes ud fra.</li>      </ul>
+Returnerer en post, der indeholder delene fra en bestemt klokkeslætsværdi, `time`.
+
+-   `time`: En værdi af typen `time`, som delenes post skal beregnes ud fra.
 
 
 ## Examples
 
-### Example #1 
-Konvertér værdien af typen &lt;code&gt;#time(11, 56, 2)&lt;/code&gt; til en post, der indeholder klokkeslætsværdier.
+### Example #1
+Konvertér værdien af typen `#time(11, 56, 2)` til en post, der indeholder klokkeslætsværdier.
 ```powerquery
 Time.ToRecord(#time(11, 56, 2))
 ```

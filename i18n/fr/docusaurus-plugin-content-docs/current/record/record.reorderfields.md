@@ -5,7 +5,7 @@ title: Record.ReorderFields
 # Record.ReorderFields
 
 
-Réorganise les champs spécifiés dans le nouvel ordre.
+Réorganisez les champs d’enregistrement pour qu’ils correspondent à l’ordre d’une liste de noms de champs.
 
 
 ## Syntax
@@ -21,13 +21,20 @@ Record.ReorderFields(
 
 ## Remarks
 
-Retourne un enregistrement après avoir réorganisé les champs dans <code>record</code> dans l'ordre des champs spécifié dans la liste <code>fieldOrder</code>. Les valeurs des champs sont conservées et les champs non répertoriés dans <code>fieldOrder</code> sont laissés à leur position d'origine.
+Réordonne les champs d'un enregistrement pour qu'ils correspondent à l'ordre d'une liste de noms de champs.
+
+-   `record` : L'enregistrement contenant les champs à réordonner.
+-   `fieldOrder` : Une liste contenant le nouvel ordre des champs à appliquer à l'enregistrement. Les valeurs des champs sont conservées et les champs non listés dans ce paramètre restent à leur position d'origine.
+-   `missingField` : Spécifie l'action attendue pour les valeurs manquantes dans une ligne contenant moins de champs que prévu. Les valeurs suivantes sont valides :
+    -   `MissingField.Error` : (Par défaut) Indique que les champs manquants doivent entraîner une erreur. Si aucune valeur n'est saisie pour le paramètre `missingField`, cette valeur est utilisée.
+    -   `MissingField.Ignore` : Indique que les champs manquants doivent être ignorés.
+    -   `MissingField.UseNull` : Indique que les champs manquants doivent être inclus en tant que valeurs `null`.
 
 
 ## Examples
 
-### Example #1 
-Réorganise certains des champs dans l&#39;enregistrement.
+### Example #1
+Réorganise certains des champs dans l'enregistrement.
 ```powerquery
 Record.ReorderFields(
     [CustomerID = 1, OrderID = 1, Item = "Fishing rod", Price = 100.0],
@@ -38,6 +45,26 @@ Record.ReorderFields(
 Result: 
 ```powerquery
 [OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0]
+```
+
+
+### Example #2
+Réorganisez certains champs de l’enregistrement et incluez `null` pour les champs manquants.
+```powerquery
+let
+    Source = [CustomerID = 3, First Name = "Paul", Phone = "543-7890", Purchase = "Fishing Rod"],
+    reorderedRecord = Record.ReorderFields(
+        Source,
+        {"Purchase", "Last Name", "First Name"},
+        MissingField.UseNull
+    )
+in
+    reorderedRecord
+```
+
+Result: 
+```powerquery
+[CustomerID = 3, Purchase = "Fishing Rod", Phone = "543-7890", Last Name = null, First Name = "Paul"]
 ```
 
 

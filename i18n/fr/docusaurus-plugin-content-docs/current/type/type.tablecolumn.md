@@ -5,7 +5,7 @@ title: Type.TableColumn
 # Type.TableColumn
 
 
-Retourne le type d&#39;une colonne dans une table.
+Retourne le type d'une colonne dans une table.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Type.TableColumn(
 
 ## Remarks
 
-Retourne le type de la colonne <code>column</code> dans le type de table <code>tableType</code>.
+Retourne le type de la colonne `column` dans le type de table `tableType`.
 
 
 

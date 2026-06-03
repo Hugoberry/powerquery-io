@@ -19,12 +19,14 @@ Number.Cos(
 
 ## Remarks
 
-Retorna o cosseno de <code>number</code>.
+Retorna o cosseno do ângulo especificado.
+
+-   `number`: um ângulo, medido em radianos.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Localize o cosseno do ângulo 0.
 ```powerquery
 Number.Cos(0)
@@ -33,6 +35,18 @@ Number.Cos(0)
 Result: 
 ```powerquery
 1
+```
+
+
+### Example #2
+Encontre o cosseno de π radianos.
+```powerquery
+Number.Cos(Number.PI)
+```
+
+Result: 
+```powerquery
+-1
 ```
 
 

@@ -20,12 +20,22 @@ Table.View(
 
 ## Remarks
 
-Gibt eine Ansicht von <code>table</code> zurück. Dabei werden die in <code>handlers</code> angegebenen Funktionen anstelle des Standardverhaltens eines Vorgangs verwendet, wenn der Vorgang auf die Ansicht angewendet wird.<br />Wenn <code>table</code> angegeben ist, sind alle Handlerfunktionen optional. Wenn <code>table</code> nicht angegeben ist, sind die <code>GetType</code> and <code>GetRows</code> Handlerfunktionen erforderlich. Wenn eine Handlerfunktion für einen Vorgang nicht angegeben wird, wird stattdessen das Standardverhalten des Vorgangs auf <code>table</code> angewendet (mit Ausnahme von <code>GetExpression</code>). <br />Handlerfunktionen müssen einen Wert zurückgeben, der semantisch dem Ergebnis der Anwendung des Vorgangs auf <code>table</code> (oder im Fall von <code>GetExpression</code> der sich ergebenden Ansicht) entspricht.<br />Wenn eine Handlerfunktion einen Fehler auslöst, wird das Standardverhalten des Vorgangs auf die Ansicht angewendet.<br /><code>Table.View</code> kann zum Implementieren der Codefaltung für eine Datenquelle angewendet werden – die Übersetzung von M-Abfragen in quellspezifische Abfragen (z. B. zum Erstellen einer T-SQL-Anweisung aus M-Abfragen).<br />Eine umfassendere Beschreibung von <code>Table.View</code> finden Sie in der veröffentlichten Dokumentation.<br />
+Gibt eine Ansicht von `table` zurück. Dabei werden die in `handlers` angegebenen Funktionen anstelle des Standardverhaltens eines Vorgangs verwendet, wenn der Vorgang auf die Ansicht angewendet wird.
+
+Wenn `table` angegeben ist, sind alle Handlerfunktionen optional. Wenn `table` nicht angegeben ist, sind die `GetType` and `GetRows` Handlerfunktionen erforderlich. Wenn eine Handlerfunktion für einen Vorgang nicht angegeben wird, wird stattdessen das Standardverhalten des Vorgangs auf `table` angewendet (mit Ausnahme von `GetExpression`).
+
+Handlerfunktionen müssen einen Wert zurückgeben, der semantisch dem Ergebnis der Anwendung des Vorgangs auf `table` (oder im Fall von `GetExpression` der sich ergebenden Ansicht) entspricht.
+
+Wenn eine Handlerfunktion einen Fehler auslöst, wird das Standardverhalten des Vorgangs auf die Ansicht angewendet.
+
+`Table.View` kann zum Implementieren der Codefaltung für eine Datenquelle angewendet werden – die Übersetzung von M-Abfragen in quellspezifische Abfragen (z. B. zum Erstellen einer T-SQL-Anweisung aus M-Abfragen).
+
+Eine umfassendere Beschreibung von `Table.View` finden Sie in der veröffentlichten Dokumentation.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Erstellen Sie eine einfache Ansicht, für die kein Zugriff auf die Zeilen erforderlich ist, um den Typ oder die Zeilenanzahl zu bestimmen.
 ```powerquery
 Table.View(

@@ -21,12 +21,15 @@ Number.IntegerDivide(
 
 ## Remarks
 
-Zwraca część całkowitą wyniku dzielenia liczby <code>number1</code> przez liczbę <code>number2</code>.    Jeśli liczba <code>number1</code> lub <code>number2</code> jest równa null, funkcja <code>Number.IntegerDivide</code> zwraca wartość null.      <ul>        <li><code>number1</code>: Dzielna.</li>        <li><code>number2</code>: Dzielnik.</li>      </ul>
+Zwraca część całkowitą wyniku dzielenia liczby `number1` przez liczbę `number2`. Jeśli liczba `number1` lub `number2` jest równa null, funkcja `Number.IntegerDivide` zwraca wartość null.
+
+-   `number1`: Dzielna.
+-   `number2`: Dzielnik.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Podziel 6 przez 4.
 ```powerquery
 Number.IntegerDivide(6, 4)
@@ -38,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Podziel 8,3 przez 3.
 ```powerquery
 Number.IntegerDivide(8.3, 3)

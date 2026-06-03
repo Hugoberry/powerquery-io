@@ -19,12 +19,12 @@ Number.Tan(
 
 ## Remarks
 
-Devolve a tangente de <code>number</code>.
+Devolve a tangente de `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determinar a tangente do ângulo 1.
 ```powerquery
 Number.Tan(1)

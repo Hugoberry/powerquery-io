@@ -20,7 +20,7 @@ Type.ReplaceFacets(
 
 ## Remarks
 
-<code>type</code> modellerini <code>facets</code> kaydında bulunan modellerle değiştirir.
+`type` modellerini `facets` kaydında bulunan modellerle değiştirir.
 
 
 

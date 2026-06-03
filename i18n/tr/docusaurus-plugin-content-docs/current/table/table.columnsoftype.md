@@ -20,12 +20,12 @@ Table.ColumnsOfType(
 
 ## Remarks
 
-<code>listOfTypes</code> içinde belirtilen türlerle eşleşen <code>table</code> tablosunadki sütunların adlarıyla bir liste döndürür.
+`listOfTypes` içinde belirtilen türlerle eşleşen `table` tablosunadki sütunların adlarıyla bir liste döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tabloda yer alan Number.Type türündeki sütun adlarını döndürür.
 ```powerquery
 Table.ColumnsOfType(

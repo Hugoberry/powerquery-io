@@ -20,12 +20,15 @@ Table.LastN(
 
 ## Remarks
 
-ส่งกลับแถวสุดท้ายจากตาราง <code>table</code> โดยขึ้นอยู่กับค่าของ <code>countOrCondition</code>:    <ul>    <li> ถ้า <code>countOrCondition</code> เป็นตัวเลข จะมีการส่งกลับแถวจำนวนมากดังกล่าวโดยเริ่มจากตำแหน่ง (สิ้นสุด - <code>countOrCondition</code>) </li>    <li> ถ้า <code>countOrCondition</code> เป็นเงื่อนไข แถวที่ตรงกับเงื่อนไขจะถูกส่งกลับในตำแหน่งจากน้อยไปหามากจนกว่าแถวจะไม่เป็นไปตามเงื่อนไข</li></ul>
+ส่งกลับแถวสุดท้ายจากตาราง `table` โดยขึ้นอยู่กับค่าของ `countOrCondition`:
+
+-   ถ้า `countOrCondition` เป็นตัวเลข จะมีการส่งกลับแถวจำนวนมากดังกล่าวโดยเริ่มจากตำแหน่ง (สิ้นสุด - `countOrCondition`)
+-   ถ้า `countOrCondition` เป็นเงื่อนไข แถวที่ตรงกับเงื่อนไขจะถูกส่งกลับในตำแหน่งจากน้อยไปหามากจนกว่าแถวจะไม่เป็นไปตามเงื่อนไข
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ค้นหาสองแถวสุดท้ายของตาราง
 ```powerquery
 Table.LastN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-ค้นหาแถวสุดท้ายที่ [a] &gt; 0 ในตาราง
+### Example #2
+ค้นหาแถวสุดท้ายที่ \[a\] > 0 ในตาราง
 ```powerquery
 Table.LastN(
     Table.FromRecords({

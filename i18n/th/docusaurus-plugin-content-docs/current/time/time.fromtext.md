@@ -20,13 +20,18 @@ Time.FromText(
 
 ## Remarks
 
-สร้างค่า <code>time</code> จากการแสดงข้อความ <code>text</code> พารามิเตอร์ <code>record</code> เพิ่มเติม <code>options</code> อาจมีไว้เพื่อระบุคุณสมบัติเพิ่มเติม <code>record</code> สามารถมีเขตข้อมูลต่อไปนี้:<ul>   <li><code>Format</code>: ค่า <code>text</code> ที่ระบุรูปแบบที่ใช้ ไปที่ https://go.microsoft.com/fwlink/?linkid=2180104 และ https://go.microsoft.com/fwlink/?linkid=2180105 การละเขตข้อมูลนี้หรือระบุเป็น <code>null</code> จะส่งผลให้แยกวิเคราะห์เวลาโดยใช้วิธีที่ดีที่สุด</li>   <li><code>Culture</code>: เมื่อ <code>Format</code> ไม่ใช่ null <code>Culture</code>จะควบคุมตัวระบุรูปแบบบางส่วน ตัวอย่างเช่น ใน <code>"en-US"</code> <code>"tt"</code> จะเป็น <code>"AM" หรือ "PM"</code> ในขณะที่ใน <code>"ar-EG"</code> <code>"tt"</code> จะเป็น <code>"ص" หรือ "م"</code> เมื่อ <code>Format</code> เป็น <code>null</code> <code>Culture</code> จะควบคุมรูปแบบเริ่มต้นที่จะใช้ เมื่อ <code>Culture</code> เป็น <code>null</code> หรือละไว้ จะใช้ <code>Culture.Current</code></li></ul>เพื่อสนับสนุนเวิร์กโฟลว์แบบดั้งเดิม <code>options</code> อาจเป็นค่าข้อความ ซึ่งมีวิธีการทำงานเหมือนกับ <code>options</code><code> = [Format = null, Culture = <code>options</code>]</code>
+สร้างค่า `time` จากการแสดงผลในรูปแบบข้อความ `text`พารามิเตอร์ `record` เพิ่มเติม `options` อาจมีไว้เพื่อระบุคุณสมบัติเพิ่มเติม `record` สามารถมีเขตข้อมูลต่อไปนี้:
+
+-   `Format`: ค่า `text` ที่ระบุรูปแบบที่จะใช้ สำหรับรายละเอียดเพิ่มเติม โปรดไปที่ https://go.microsoft.com/fwlink/?linkid=2180104 และ https://go.microsoft.com/fwlink/?linkid=2180105 การละเขตข้อมูลนี้หรือระบุเป็น `null` จะส่งผลให้แยกวิเคราะห์เวลาโดยใช้วิธีที่ดีที่สุด
+-   `Culture`: เมื่อ `Format` ไม่ใช่ null `Culture` จะควบคุมตัวระบุรูปแบบบางส่วน ตัวอย่างเช่น ใน `"en-US"` `"tt"` is `"AM" or "PM"` ในขณะที่ใน `"ar-EG"` `"tt"` is `"ص" or "م"` เมื่อ `Format` เป็น `null`, `Culture` จะควบคุมรูปแบบเริ่มต้นที่จะใช้ เมื่อ `Culture` เป็น `null` หรือละไว้ จะใช้ `Culture.Current`
+
+เพื่อสนับสนุนเวิร์กโฟลว์แบบดั้งเดิม `options` อาจเป็นค่าข้อความ ซึ่งมีวิธีการทำงานเหมือนกับ `options = [Format = null, Culture = options]`
 
 
 ## Examples
 
-### Example #1 
-แปลง &lt;code&gt;&#34;10:12:31am&#34;&lt;/code&gt; เป็นค่าเวลา
+### Example #1
+แปลง `"10:12:31am"` เป็นค่าเวลา
 ```powerquery
 Time.FromText("10:12:31am")
 ```
@@ -37,8 +42,8 @@ Result:
 ```
 
 
-### Example #2 
-แปลง &lt;code&gt;&#34;1012&#34;&lt;/code&gt; เป็นค่า Time
+### Example #2
+แปลง `"1012"` เป็นค่า Time
 ```powerquery
 Time.FromText("1012")
 ```
@@ -49,8 +54,8 @@ Result:
 ```
 
 
-### Example #3 
-แปลง &lt;code&gt;&#34;10&#34;&lt;/code&gt; เป็นค่า Time
+### Example #3
+แปลง `"10"` เป็นค่า Time
 ```powerquery
 Time.FromText("10")
 ```

@@ -5,7 +5,7 @@ title: List.Single
 # List.Single
 
 
-Returnerer ét listeelement for en liste med længden én. Ellers udløses der en undtagelse.
+Returnerer ét listeelement for en liste med længden én. Ellers udløses der en fejl.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.Single(
 
 ## Remarks
 
-Hvis der kun er ét element på listen <code>list</code>, returneres dette element.    Hvis der er mere end ét element, eller listen er tom, udløser funktionen en undtagelse.
+Hvis der kun er ét element på listen `list`, returneres dette element. Hvis der er mere end ét element, eller listen er tom, udløser funktionen en fejl.
 
 
 ## Examples
 
-### Example #1 
-Find den eneste værdi på listen \{1}.
+### Example #1
+Find den eneste værdi på listen \{1\}.
 ```powerquery
 List.Single({1})
 ```
@@ -36,8 +36,8 @@ Result:
 ```
 
 
-### Example #2 
-Find den eneste værdi på listen \{1, 2, 3}.
+### Example #2
+Find den eneste værdi på listen \{1, 2, 3\}.
 ```powerquery
 List.Single({1, 2, 3})
 ```

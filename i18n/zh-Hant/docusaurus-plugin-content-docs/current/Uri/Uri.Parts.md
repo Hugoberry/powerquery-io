@@ -19,13 +19,13 @@ Uri.Parts(
 
 ## Remarks
 
-將輸入 <code>absoluteUri</code> 的各部分傳回成記錄，包含 Scheme、Host、Port、Path、Query、Fragment、UserName 和 Password 等值。
+將輸入 `absoluteUri` 的各部分傳回成記錄，包含 Scheme、Host、Port、Path、Query、Fragment、UserName 和 Password 等值。
 
 
 ## Examples
 
-### Example #1 
-尋找絕對 URI &#34;www.adventure-works.com&#34; 的各部分。
+### Example #1
+尋找絕對 URI "www.adventure-works.com" 的各部分。
 ```powerquery
 Uri.Parts("www.adventure-works.com")
 ```
@@ -45,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 將百分比編碼字串解碼。
 ```powerquery
 let

@@ -19,7 +19,7 @@ Type.Facets(
 
 ## Remarks
 
-Returnerer en post, der indeholder facetterne for <code>type</code>.
+Returnerer en post, der indeholder facetterne for `type`.
 
 
 

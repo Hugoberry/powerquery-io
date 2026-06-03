@@ -20,12 +20,12 @@ Date.StartOfWeek(
 
 ## Remarks
 
-Returnerer starten af ugen, der indeholder <code>dateTime</code>.    <code>dateTime</code> skal være en værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>.
+Returnerer starten af ugen, der indeholder `dateTime`. `dateTime` skal være en værdi af typen `date`, `datetime` eller `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find ugens start for tirsdag den 11. oktober 2011.
 ```powerquery
 Date.StartOfWeek(#datetime(2011, 10, 11, 8, 10, 32))
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Find ugens start for tirsdag den 11. oktober 2011, ved at bruge mandag som ugens start.
 ```powerquery
 Date.StartOfWeek(#datetime(2011, 10, 11, 8, 10, 32), Day.Monday)

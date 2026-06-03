@@ -19,13 +19,13 @@ Type.FunctionReturn(
 
 ## Remarks
 
-ส่งกลับประเภทที่ส่งกลับโดยฟังก์ชัน <code>type</code>
+ส่งกลับประเภทที่ส่งกลับโดยฟังก์ชัน `type`
 
 
 ## Examples
 
-### Example #1 
-ค้นหาประเภทการส่งกลับของ &lt;code&gt;() as any)&lt;/code&gt;
+### Example #1
+ค้นหาประเภทการส่งกลับของ `() as any)`
 ```powerquery
 Type.FunctionReturn(type function () as any)
 ```

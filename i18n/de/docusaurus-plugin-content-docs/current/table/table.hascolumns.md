@@ -20,13 +20,13 @@ Table.HasColumns(
 
 ## Remarks
 
-Gibt an, ob die <code>table</code> die angegebene(n) Spalte(n) <code>columns</code> enthält. Gibt <code>true</code> zurück, falls die Tabelle die Spalte(n) enthält. Andernfalls wird <code>false</code> zurückgegeben.
+Gibt an, ob die `table` die angegebene(n) Spalte(n) `columns` enthält. Gibt `true` zurück, falls die Tabelle die Spalte(n) enthält. Andernfalls wird `false` zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt, ob die Tabelle die Spalte &#34;[Name]&#34; enthält.
+### Example #1
+Ermittelt, ob die Tabelle die Spalte "\[Name\]" enthält.
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({
@@ -45,8 +45,8 @@ true
 ```
 
 
-### Example #2 
-Ermittelt, ob die Tabelle die Spalten &#34;[Name]&#34; und &#34;[PhoneNumber]&#34; enthält.
+### Example #2
+Ermittelt, ob die Tabelle die Spalten "\[Name\]" und "\[PhoneNumber\]" enthält.
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({

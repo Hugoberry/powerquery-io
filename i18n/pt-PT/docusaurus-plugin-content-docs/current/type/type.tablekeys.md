@@ -19,12 +19,17 @@ Type.TableKeys(
 
 ## Remarks
 
-Devolve a lista de chaves possivelmente vazia para o tipo de tabela especificado.<br />    <br />    Cada chave é definida através de um registo com o seguinte formato:    <ul>      <li>        <code>Colunas</code>: uma lista dos nomes das colunas que definem a chave      </li>      <li>        <code>Primária</code>: <code>verdadeiro</code> se a chave for a chave primária da tabela; caso contrário, <code>falso</code>      </li>    </ul>    
+Devolve a lista de chaves possivelmente vazia para o tipo de tabela especificado.  
+  
+Cada chave é definida através de um registo com o seguinte formato:
+
+-   `Colunas`: uma lista dos nomes das colunas que definem a chave
+-   `Primária`: `verdadeiro` se a chave for a chave primária da tabela; caso contrário, `falso`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devolva as informações de chave para um tipo de tabela.
 ```powerquery
 let

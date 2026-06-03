@@ -20,13 +20,13 @@ Decimal.From(
 
 ## Remarks
 
-从给定的 <code>value</code> 中返回十进制 <code>number</code> 值。如果给定的 <code>value</code> 为 <code>null</code>，则 <code>Decimal.From</code> 返回 <code> null</code>。如果给定的 <code>value</code> 是在十进制范围内的 <code>number</code>，则返回 <code>value</code>，否则返回错误。如果 <code>value</code> 属于任何其他类型，则将首先使用 <code>Number.FromText</code> 将其转换为<code>number</code>。还可以提供可选的 <code>culture</code> (例如，“en-US”)。
+从给定的 `value` 中返回十进制 `number` 值。如果给定的 `value` 为 `null`，则 `Decimal.From` 返回 `null`。如果给定的 `value` 是在十进制范围内的 `number`，则返回 `value`，否则返回错误。如果 `value` 属于任何其他类型，则将首先使用 `Number.FromText` 将其转换为`number`。还可以提供可选的 `culture` (例如，“en-US”)。
 
 
 ## Examples
 
-### Example #1 
-获取 &lt;code&gt;&#34;4.5&#34;&lt;/code&gt; 的十进制 &lt;code&gt;number&lt;/code&gt; 值。
+### Example #1
+获取 `"4.5"` 的十进制 `number` 值。
 ```powerquery
 Decimal.From("4.5")
 ```

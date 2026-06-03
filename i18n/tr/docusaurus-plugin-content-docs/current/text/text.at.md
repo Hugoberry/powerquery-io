@@ -20,13 +20,13 @@ Text.At(
 
 ## Remarks
 
-<code>text</code> metin değerindeki, <code>index</code> konumundaki karakteri döndürür. Metindeki ilk karakter 0 konumundadır.
+`text` metin değerindeki, `index` konumundaki karakteri döndürür. Metindeki ilk karakter 0 konumundadır.
 
 
 ## Examples
 
-### Example #1 
-&#34;Hello, World&#34; dizesinde 4 konumunda bulunan karakteri bulur.
+### Example #1
+"Hello, World" dizesinde 4 konumunda bulunan karakteri bulur.
 ```powerquery
 Text.At("Hello, World", 4)
 ```

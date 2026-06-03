@@ -20,12 +20,15 @@ Date.IsInNextNDays(
 
 ## Remarks
 
-Wskazuje, czy dana wartość daty/godziny <code>dateTime</code> przypada w ciągu następnych dni określonych zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącego dnia.      <ul>      <li><code>dateTime</code>: wartość <code>date</code>, <code>datetime</code> lub <code>datetimezone</code> do oszacowania.</li>      <li><code>days</code>: liczba dni.</li>      </ul>
+Wskazuje, czy dana wartość daty/godziny `dateTime` przypada w ciągu następnych dni określonych zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącego dnia.
+
+-   `dateTime`: wartość `date`, `datetime` lub `datetimezone` do oszacowania.
+-   `days`: liczba dni.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Określ, czy dzień po bieżącej dacie systemu występuje w ciągu przyszłych dwóch dni.
 ```powerquery
 Date.IsInNextNDays(Date.AddDays(DateTime.FixedLocalNow(), 1), 2)

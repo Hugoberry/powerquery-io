@@ -19,12 +19,12 @@ List.StandardDeviation(
 
 ## Remarks
 
-Retorna uma estimativa com base em amostra do desvio padrão dos valores na lista, <code>numbersList</code>.    Se <code>numbersList</code> for uma lista de números, um número será retornado.    Uma exceção será lançada em uma lista vazia ou em uma lista de itens que não seja do tipo <code>number</code>.
+Retorna uma estimativa baseada em amostra do desvio padrão dos valores na lista, `numbersList`. Se `numbersList` for uma lista de números, um número será retornado. Um erro será gerado em uma lista vazia ou em uma lista de itens que não seja do tipo `número`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Localize o desvio padrão dos números de 1 a 5.
 ```powerquery
 List.StandardDeviation({1..5})

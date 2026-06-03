@@ -19,13 +19,13 @@ List.Reverse(
 
 ## Remarks
 
-Returns a list with the values in the list <code>list</code> in reversed order.
+Returns a list with the values in the list `list` in reversed order.
 
 
 ## Examples
 
-### Example #1 
-Create a list from \{1..10} in reverse order.
+### Example #1
+Create a list from \{1..10\} in reverse order.
 ```powerquery
 List.Reverse({1..10})
 ```

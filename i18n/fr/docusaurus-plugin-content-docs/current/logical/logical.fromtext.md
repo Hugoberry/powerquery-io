@@ -5,7 +5,7 @@ title: Logical.FromText
 # Logical.FromText
 
 
-Crée une valeur logique à partir des valeurs de texte &#34; true &#34; et &#34; false &#34;.
+Crée une valeur logique à partir des valeurs de texte "true" et "false".
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.FromText(
 
 ## Remarks
 
-Crée une valeur logique à partir de la valeur de texte <code>text</code>, soit " true ", soit " false ". Si <code>text</code> contient une chaîne différente, une exception est levée. La valeur de texte <code>text</code> respecte la casse.
+Crée une valeur logique à partir de la valeur de texte `text`, soit "true", soit "false". Si `text` contient une chaîne différente, une erreur est levée. La valeur de texte `text` respecte la casse.
 
 
 ## Examples
 
-### Example #1 
-Crée une valeur logique à partir de la chaîne de texte &#34; true &#34;.
+### Example #1
+Crée une valeur logique à partir de la chaîne de texte "true".
 ```powerquery
 Logical.FromText("true")
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Crée une valeur logique à partir de la chaîne de texte &#34; a &#34;.
+### Example #2
+Crée une valeur logique à partir de la chaîne de texte "a".
 ```powerquery
 Logical.FromText("a")
 ```

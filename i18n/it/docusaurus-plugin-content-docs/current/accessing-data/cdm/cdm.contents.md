@@ -19,7 +19,7 @@ Cdm.Contents(
 
 ## Remarks
 
-Questa funzione non è disponibile perché richiede .NET 4.5.
+Questa funzione non è disponibile nel contesto corrente.
 
 
 

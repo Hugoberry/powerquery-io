@@ -25,7 +25,7 @@ Maakt kolommen in rijen en rijen in kolommen.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kolommen maken van de rijen uit de tabel met naam-waarde-paren.
 ```powerquery
 Table.Transpose(

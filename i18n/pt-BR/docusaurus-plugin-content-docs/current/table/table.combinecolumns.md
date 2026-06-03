@@ -27,7 +27,7 @@ Combina as colunas especificadas em uma nova coluna usando a função de combina
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combinar o sobrenome e o primeiro nome em uma nova coluna, separados por uma vírgula.
 ```powerquery
 Table.CombineColumns(

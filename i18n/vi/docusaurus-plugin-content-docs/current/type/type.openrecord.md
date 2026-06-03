@@ -19,13 +19,13 @@ Type.OpenRecord(
 
 ## Remarks
 
-Trả về phiên bản mở của <code>bản ghi</code> <code>type</code> cho sẵn (hoặc cùng loại nếu đã mở).
+Trả về phiên bản mở của `bản ghi` `type` cho sẵn (hoặc cùng loại nếu đã mở).
 
 
 ## Examples
 
-### Example #1 
-Tạo phiên bản mở của &lt;code&gt;loại [ A = number]&lt;/code&gt;.
+### Example #1
+Tạo phiên bản mở của `loại [ A = number]`.
 ```powerquery
 Type.OpenRecord(type [A = number])
 ```

@@ -22,7 +22,7 @@ Connects to TeamDesk database and let you select a table and a view to retrieve 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Connect to sample TeamDesk database
 ```powerquery
 TeamDesk.Database("https://www.teamdesk.net/secure/db/57692")

@@ -21,12 +21,12 @@ Table.RemoveRows(
 
 ## Remarks
 
-Удаляет <code>count</code> строк от начала <code>table</code>, начиная с указанной <code>offset</code>. Если параметр <code>count</code> не предоставлен, используется значение по умолчанию 1. 
+Удаляет `count` строк от начала `table`, начиная с указанной `offset`. Если параметр `count` не предоставлен, используется значение по умолчанию 1.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Удаление первой строки из таблицы.
 ```powerquery
 Table.RemoveRows(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Удаление из таблицы строки в позиции 1.
 ```powerquery
 Table.RemoveRows(
@@ -74,7 +74,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Удаление двух строк из таблицы, начиная с позиции 1.
 ```powerquery
 Table.RemoveRows(

@@ -19,12 +19,12 @@ Table.ToRows(
 
 ## Remarks
 
-Cria uma lista de listas aninhadas de valores de coluna da tabela, <code>table</code>.  Cada item de lista é uma lista interior que contém os valores das linhas.
+Cria uma lista de listas aninhadas de valores de coluna da tabela, `table`. Cada item de lista é uma lista interior que contém os valores das linhas.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Criar uma lista dos valores das linhas da tabela.
 ```powerquery
 Table.ToRows(

@@ -19,12 +19,12 @@ Number.Factorial(
 
 ## Remarks
 
-Trả về giai thừa của số <code>number</code>.
+Trả về giai thừa của số `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm giai thừa của số 10.
 ```powerquery
 Number.Factorial(10)

@@ -5,7 +5,7 @@ title: List.StandardDeviation
 # List.StandardDeviation
 
 
-Retourne un exemple en fonction de l&#39;estimation de l&#39;écart type.
+Retourne un exemple en fonction de l'estimation de l'écart type.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.StandardDeviation(
 
 ## Remarks
 
-Retourne une estimation de l'écart type des valeurs de la liste, <code>numbersList</code>, sur la base d'un échantillon.    Si <code>numbersList</code> est une liste de nombres, un nombre est retourné.    Une exception est levée en cas de liste vide ou d'une liste d'éléments qui n'est pas de type <code>number</code>.
+Retourne une estimation de l'écart type des valeurs de la liste, `numbersList`, sur la base d'un échantillon. Si `numbersList` est une liste de nombres, un nombre est retourné. Une erreur est levée en cas de liste vide ou d'une liste d'éléments qui n'est pas de type `number`.
 
 
 ## Examples
 
-### Example #1 
-Recherche l&#39;écart type des numéros 1 à 5.
+### Example #1
+Recherche l'écart type des numéros 1 à 5.
 ```powerquery
 List.StandardDeviation({1..5})
 ```

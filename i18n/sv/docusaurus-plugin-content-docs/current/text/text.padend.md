@@ -21,12 +21,12 @@ Text.PadEnd(
 
 ## Remarks
 
-Returnerar ett <code>text</code>-värde som fylls ut till längden <code>count</code> genom att blanksteg infogas i slutet av textvärdet <code>text</code>.    Ett valfritt tecken, <code>character</code>, kan användas för att ange utfyllnadstecknet. Standardtecknet för utfyllnad är blanksteg.
+Returnerar ett `text`\-värde som fylls ut till längden `count` genom att blanksteg infogas i slutet av textvärdet `text`. Ett valfritt tecken, `character`, kan användas för att ange utfyllnadstecknet. Standardtecknet för utfyllnad är blanksteg.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Fyll ut slutet av ett textvärde så att det är 10 tecken långt.
 ```powerquery
 Text.PadEnd("Name", 10)
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Fyll ut slutet av ett textvärde med &#34;|&#34; så att det är 10 tecken långt.
+### Example #2
+Fyll ut slutet av ett textvärde med "|" så att det är 10 tecken långt.
 ```powerquery
 Text.PadEnd("Name", 10, "|")
 ```

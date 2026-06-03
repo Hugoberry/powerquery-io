@@ -5,7 +5,7 @@ title: Replacer.ReplaceText
 # Replacer.ReplaceText
 
 
-Remplace le texte dans l&#39;entrée fournie.
+Remplace le texte dans l'entrée fournie.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Replacer.ReplaceText(
 
 ## Remarks
 
-Remplace le texte <code>old</code> dans le <code>text</code> d'origine par le texte <code>new</code>. Cette fonction de remplacement peut être utilisée dans <code>List.ReplaceValue</code> et <code>Table.ReplaceValue</code>.
+Remplace le texte `old` dans le `text` d'origine par le texte `new`. Cette fonction de remplacement peut être utilisée dans `List.ReplaceValue` et `Table.ReplaceValue`.
 
 
 ## Examples
 
-### Example #1 
-Remplace le texte &#34; hE &#34; par &#34; He &#34; dans la chaîne &#34; hEllo world &#34;.
+### Example #1
+Remplace le texte "hE" par "He" dans la chaîne "hEllo world".
 ```powerquery
 Replacer.ReplaceText("hEllo world", "hE", "He")
 ```

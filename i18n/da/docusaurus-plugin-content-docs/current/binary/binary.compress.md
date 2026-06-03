@@ -20,12 +20,15 @@ Binary.Compress(
 
 ## Remarks
 
-Komprimerer en binær værdi ved hjælp af en angivet komprimeringstype. Resultatet af dette kald er en komprimeret kopi af inputtet. Der kan være følgende komprimeringstyper:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
+Komprimerer en binær værdi ved hjælp af en angivet komprimeringstype. Resultatet af dette kald er en komprimeret kopi af inputtet. Der kan være følgende komprimeringstyper:
+
+-   `Compression.GZip`
+-   `Compression.Deflate`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Komprimer den binære værdi.
 ```powerquery
 Binary.Compress(Binary.FromList(List.Repeat({10}, 1000)), Compression.Deflate)

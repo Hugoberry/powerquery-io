@@ -5,7 +5,7 @@ title: Type.TableKeys
 # Type.TableKeys
 
 
-Restituisce l&#39;elenco di chiavi probabilmente vuoto per il tipo di tabella specificato.
+Restituisce l'elenco di chiavi probabilmente vuoto per il tipo di tabella specificato.
 
 
 ## Syntax
@@ -19,12 +19,17 @@ Type.TableKeys(
 
 ## Remarks
 
-Restituisci l'elenco di chiavi probabilmente vuoto per il tipo di tabella specificato.<br />    <br />    Ogni chiave è definita usando un record nel formato seguente:    <ul>      <li>        <code>Columns</code>: un elenco di nomi di colonne che definiscono la chiave      </li>      <li>        <code>Primary</code>: <code>true</code> se la chiave è la chiave primaria della tabella; altrimenti, <code>false</code>      </li>    </ul>    
+Restituisci l'elenco di chiavi probabilmente vuoto per il tipo di tabella specificato.  
+  
+Ogni chiave è definita usando un record nel formato seguente:
+
+-   `Columns`: un elenco di nomi di colonne che definiscono la chiave
+-   `Primary`: `true` se la chiave è la chiave primaria della tabella; altrimenti, `false`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Restituisci le informazioni chiave per un tipo di tabella.
 ```powerquery
 let

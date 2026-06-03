@@ -19,12 +19,12 @@ DateTime.Date(
 
 ## Remarks
 
-Returnerer datokomponenten for <code>dateTime</code>, den angivne værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>.
+Returnerer datokomponenten for parameteren `dateTime`, hvis parameteren er en `dato`, `dato og klokkeslæt` eller værdien `tidszone for dato og klokkeslæt` eller `null-`, hvis parameteren er `null`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find datoværdien for #datetime(2010, 12, 31, 11, 56, 02).
 ```powerquery
 DateTime.Date(#datetime(2010, 12, 31, 11, 56, 02))

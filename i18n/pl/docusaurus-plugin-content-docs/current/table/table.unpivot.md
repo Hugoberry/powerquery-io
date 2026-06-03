@@ -27,8 +27,8 @@ Wykonuje translację zestawu kolumn w tabeli na pary atrybut-wartość połączo
 
 ## Examples
 
-### Example #1 
-Weź wartości kolumn „a”, „b” i „c” z tabeli &lt;code&gt;(\{[ key = &#34;x&#34;, a = 1, b = null, c = 3 ], [ key = &#34;y&#34;, a = 2, b = 4, c = null ]})&lt;/code&gt; i anuluj ich przestawienie, tak aby utworzyć pary atrybut-wartość.
+### Example #1
+Weź wartości kolumn „a”, „b” i „c” z tabeli `({[ key = "x", a = 1, b = null, c = 3 ], [ key = "y", a = 2, b = 4, c = null ]})` i anuluj ich przestawienie, tak aby utworzyć pary atrybut-wartość.
 ```powerquery
 Table.Unpivot(
     Table.FromRecords({

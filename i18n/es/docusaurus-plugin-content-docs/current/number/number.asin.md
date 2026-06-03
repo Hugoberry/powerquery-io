@@ -19,7 +19,7 @@ Number.Asin(
 
 ## Remarks
 
-Devuelve el arco seno de <code>number</code>.
+Devuelve el arco seno de `number`.
 
 
 

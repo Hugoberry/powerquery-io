@@ -5,7 +5,7 @@ title: Logical.ToText
 # Logical.ToText
 
 
-指定された論理値に基づいて、テキスト &#34;true&#34; または &#34;false&#34; を返します。
+指定された論理値に基づいて、テキスト "true" または "false" を返します。
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.ToText(
 
 ## Remarks
 
-論理値 <code>logicalValue</code> (<code>true</code> または <code>false</code>) からテキスト値を作成します。<code>logicalValue</code> が論理値でない場合は、例外がスローされます。
+論理値 `logicalValue` (`true` または `false`) からテキスト値を作成します。`logicalValue` が論理値でない場合は、エラーが発生します。
 
 
 ## Examples
 
-### Example #1 
-論理 &lt;code&gt;true&lt;/code&gt; からテキスト値を作成します。
+### Example #1
+論理 `true` からテキスト値を作成します。
 ```powerquery
 Logical.ToText(true)
 ```

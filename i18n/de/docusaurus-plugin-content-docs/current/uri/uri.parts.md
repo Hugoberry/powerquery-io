@@ -19,13 +19,13 @@ Uri.Parts(
 
 ## Remarks
 
-Gibt die Teile der Eingabe "<code>absoluteUri</code>" als Datensatz mit Werten wie Schema, Host, Port, Pfad, Abfrage, Fragment, Benutzername und Kennwort zurück.
+Gibt die Teile der Eingabe "`absoluteUri`" als Datensatz mit Werten wie Schema, Host, Port, Pfad, Abfrage, Fragment, Benutzername und Kennwort zurück.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt die Teile des absoluten URI &#34;www.adventure-works.com&#34;.
+### Example #1
+Ermittelt die Teile des absoluten URI "www.adventure-works.com".
 ```powerquery
 Uri.Parts("www.adventure-works.com")
 ```
@@ -45,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Decodiert eine als Prozentwert codierte Zeichenfolge.
 ```powerquery
 let

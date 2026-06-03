@@ -21,12 +21,15 @@ Number.IntegerDivide(
 
 ## Remarks
 
-数値 <code>number1</code> を別の数値 <code>number2</code> で除算した結果の整数部を返します。    <code>number1</code> または <code>number2</code> が null の場合、<code>Number.IntegerDivide</code> は null を返します。      <ul>        <li><code>number1</code>: 被除数。</li>        <li><code>number2</code>: 除数。</li>      </ul>
+数値 `number1` を別の数値 `number2` で除算した結果の整数部を返します。 `number1` または `number2` が null の場合、`Number.IntegerDivide` は null を返します。
+
+-   `number1`: 被除数。
+-   `number2`: 除数。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 6 を 4 で除算します。
 ```powerquery
 Number.IntegerDivide(6, 4)
@@ -38,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 8.3 を 3 で除算します。
 ```powerquery
 Number.IntegerDivide(8.3, 3)

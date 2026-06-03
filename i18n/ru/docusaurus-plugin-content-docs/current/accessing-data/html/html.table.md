@@ -21,12 +21,14 @@ Html.Table(
 
 ## Remarks
 
-Возвращает таблицу, содержащую результаты запуска указанных селекторов CSS с предоставленными <code>html</code>. Вы можете указать дополнительные свойства, используя необязательный параметр записи <code>options</code>. Запись может содержать следующие поля:    <ul><li><code>RowSelector</code></li></ul>    
+Возвращает таблицу, содержащую результаты запуска указанных селекторов CSS с предоставленными `html`. Вы можете указать дополнительные свойства, используя необязательный параметр записи `options`. Запись может содержать следующие поля:
+
+-   `RowSelector`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Возвращает таблицу из образца текстового значения HTML.
 ```powerquery
 Html.Table("<div class=""name"">Jo</div><span>Manager</span>", {{"Name", ".name"}, {"Title", "span"}}, [RowSelector=".name"])
@@ -38,10 +40,10 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Извлекает все ссылки href из примера HTML-текста.
 ```powerquery
-Html.Table("<a href=""/test.html"">Тест</a>", {{"Link", "a", each [Attributes][href]}})
+Html.Table("<a href=""/test.html"">Test</a>", {{"Link", "a", each [Attributes][href]}})
 ```
 
 Result: 
@@ -53,4 +55,4 @@ Result:
 
 
 ## Category
-Доступ к данным
+Accessing data

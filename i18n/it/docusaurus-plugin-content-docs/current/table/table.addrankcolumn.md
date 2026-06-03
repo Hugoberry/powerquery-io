@@ -22,13 +22,13 @@ Table.AddRankColumn(
 
 ## Remarks
 
-Aggiunge una colonna denominata <code>newColumnName</code> al <code>table</code> con la classificazione di una o più altre colonne descritte da <code>comparisonCriteria</code>.L'opzione RankKind in <code>options</code> può essere usata dagli utenti esperti per scegliere un metodo di classificazione più specifico.
+Aggiunge una colonna denominata `newColumnName` al `table` con la classificazione di una o più altre colonne descritte da `comparisonCriteria`. L'opzione RankKind in `options` può essere usata dagli utenti esperti per scegliere un metodo di classificazione più specifico.
 
 
 ## Examples
 
-### Example #1 
-Aggiungere una colonna denominata &#34;RevenueRank&#34; alla tabella che classifica la colonna &#34;Revenue&#34; dal più alto al più basso.
+### Example #1
+Aggiungere una colonna denominata "RevenueRank" alla tabella che classifica la colonna "Revenue" dal più alto al più basso.
 ```powerquery
 Table.AddRankColumn(
     Table.FromRecords({

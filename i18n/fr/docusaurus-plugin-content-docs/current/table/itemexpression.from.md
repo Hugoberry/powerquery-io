@@ -19,13 +19,27 @@ ItemExpression.From(
 
 ## Remarks
 
-Retourne l’arborescence de syntaxe abstraite (AST) pour le corps de <code>function</code>, normalisé en une <i>expression de ligne</i> :<ul>  <li> La fonction doit être lambda à 1 argument</li>  <li>Toutes les références au paramètre de fonction sont remplacées par <code>ItemExpression.Item</code>.</li>  <li>L’AST sera simplifié pour contenir uniquement les nœuds des types :   <ul>    <li><code>Constant</code></li>    <li><code>Invocation</code></li>    <li><code>Unary</code></li>    <li><code>Binary</code></li>    <li><code>If</code></li>    <li><code>FieldAccess</code></li>  </ul> </li></ul><br /><br />Une erreur est générée si un AST d’expression de ligne ne peut pas être retourné pour le corps de <code>function</code>.<br />
+Renvoie l'arbre syntaxique abstrait (AST) du corps de `function`, normalisé en une *expression d'élément* :
+
+-   La fonction doit être une lambda à 1 argument.
+-   Toutes les références au paramètre de la fonction sont remplacées par `ItemExpression.Item`.
+-   L'AST sera simplifié pour contenir uniquement des nœuds des types suivants :
+    -   `Constant`
+    -   `Invocation`
+    -   `Unary`
+    -   `Binary`
+    -   `Si`
+    -   `FieldAccess`
+
+Une erreur est levée si un AST d'expression d'élément ne peut pas être renvoyé pour le corps de `function`.  
+  
+Cette fonction est identique à `RowExpression.From`.
 
 
 ## Examples
 
-### Example #1 
-Retourne l&#39;AST pour le corps de la fonction &lt;code&gt;each _ &lt;&gt; null&lt;/code&gt;
+### Example #1
+Retourne l'AST pour le corps de la fonction `each _ <> null`.
 ```powerquery
 ItemExpression.From(each _ <> null)
 ```

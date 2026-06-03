@@ -20,13 +20,13 @@ List.RemoveItems(
 
 ## Remarks
 
-Tar bort alla förekomster av de angivna värdena i <code>list2</code> från <code>list1</code>. Om värdena i <code>list2</code> inte finns i <code>list1</code> returneras den ursprungliga listan.
+Tar bort alla förekomster av de angivna värdena i `list2` från `list1`. Om värdena i `list2` inte finns i `list1` returneras den ursprungliga listan.
 
 
 ## Examples
 
-### Example #1 
-Ta bort objekten i listan \{2, 4, 6} från listan \{1, 2, 3, 4, 2, 5, 5}.
+### Example #1
+Ta bort objekten i listan \{2, 4, 6\} från listan \{1, 2, 3, 4, 2, 5, 5\}.
 ```powerquery
 List.RemoveItems({1, 2, 3, 4, 2, 5, 5}, {2, 4, 6})
 ```

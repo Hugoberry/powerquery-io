@@ -19,12 +19,12 @@ Date.Month(
 
 ## Remarks
 
-傳回提供的 <code>datetime</code> 值 <code>dateTime</code> 的月元件。
+傳回提供的 `datetime` 值 `dateTime` 的月元件。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 找出 #datetime(2011, 12, 31, 9, 15, 36) 中的月份。
 ```powerquery
 Date.Month(#datetime(2011, 12, 31, 9, 15, 36))

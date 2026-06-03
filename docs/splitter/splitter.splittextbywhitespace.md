@@ -24,7 +24,7 @@ Returns a function that splits text into a list of text at whitespace.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Split the input by whitespace characters, treating quotes like any other character.
 ```powerquery
 Splitter.SplitTextByWhitespace(QuoteStyle.None)("a b#(tab)c")

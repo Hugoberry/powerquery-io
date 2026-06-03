@@ -19,12 +19,14 @@ Date.EndOfYear(
 
 ## Remarks
 
-Retorna um valor que representa o fim do ano em <code>dateTime</code>, incluindo segundos fracionários. As informações de fuso horário são preservadas.      <ul>        <li><code>dateTime</code>: um valor <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> com base no qual o fim do ano é calculado.</li>      </ul>
+Retorna um valor que representa o fim do ano em `dateTime`, incluindo segundos fracionários. As informações de fuso horário são preservadas.
+
+-   `dateTime`: um valor `date`, `datetime` ou `datetimezone` com base no qual o fim do ano é calculado.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Obtenha o fim do ano de 14/5/2011 05:00: 00 PM.
 ```powerquery
 Date.EndOfYear(#datetime(2011, 5, 14, 17, 0, 0))
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Obtenha o fim da hora de 17/5/2011 05:00: 00 PM -7:00.
 ```powerquery
 Date.EndOfYear(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0))

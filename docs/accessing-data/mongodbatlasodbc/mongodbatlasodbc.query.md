@@ -10,11 +10,11 @@ title: MongoDBAtlasODBC.Query
 
 ```powerquery
 MongoDBAtlasODBC.Query(
-    mongodbUri as text,
-    database as text,
-    query as text,
-    optional options as record
-) as table
+    mongoDbUri as any,
+    database as any,
+    query as any,
+    optional options as any
+) as any
 ```
 
 

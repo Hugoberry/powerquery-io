@@ -20,13 +20,13 @@ Text.Proper(
 
 ## Remarks
 
-Trả về kết quả chỉ viết hoa chữ cái đầu tiên của mỗi từ trong giá trị văn bản <code>text</code>. Tất cả chữ cái khác được trả về ở dạng chữ thường. <code>culture</code> tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
+Trả về kết quả chỉ viết hoa chữ cái đầu tiên của mỗi từ trong giá trị văn bản `text`. Tất cả chữ cái khác được trả về ở dạng chữ thường. `culture` tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
 
 
 ## Examples
 
-### Example #1 
-Sử dụng &lt;code&gt;Text.Proper&lt;/code&gt; cho câu đơn giản.
+### Example #1
+Sử dụng `Text.Proper` cho câu đơn giản.
 ```powerquery
 Text.Proper("the QUICK BrOWn fOx jUmPs oVER tHe LAzy DoG")
 ```

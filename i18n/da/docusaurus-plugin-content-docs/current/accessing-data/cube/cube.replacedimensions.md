@@ -20,7 +20,7 @@ Cube.ReplaceDimensions(
 
 ## Remarks
 
-Erstatter det sæt dimensioner, der returneres af <code>Cube.Dimensions</code>. Denne funktion kan f.eks. bruges til at føje en id-kolonne til en dimensionsattribut, så datakilden kan gruppere på id'et i stedet for den viste værdi.
+Erstatter det sæt dimensioner, der returneres af `Cube.Dimensions`. Denne funktion kan f.eks. bruges til at føje en id-kolonne til en dimensionsattribut, så datakilden kan gruppere på id'et i stedet for den viste værdi.
 
 
 

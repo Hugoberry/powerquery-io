@@ -21,15 +21,17 @@ Html.Table(
 
 ## Remarks
 
-Returnerar en tabell som innehåller resultatet av en körning av de angivna CSS-väljarna mot tillhandahållna <code>html</code>. Ytterligare egenskaper kan anges genom att en valfri postparameter, <code>options</code>, tillhandahålls. Posten kan innehålla följande fält:    <ul><li><code>RowSelector</code></li></ul>    
+Returnerar en tabell som innehåller resultatet av en körning av de angivna CSS-väljarna mot tillhandahållna `html`. Ytterligare egenskaper kan anges genom att en valfri postparameter, `options`, tillhandahålls. Posten kan innehålla följande fält:
+
+-   `RowSelector`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnerar en tabell från ett HTML-exempeltextvärde.
 ```powerquery
-Html.Table("<div class=""name"">Jo</div><span>Ansvarig</span>", {{"Name", ".name"}, {"Title", "span"}}, [RowSelector=".name"])
+Html.Table("<div class=""name"">Jo</div><span>Manager</span>", {{"Name", ".name"}, {"Title", "span"}}, [RowSelector=".name"])
 ```
 
 Result: 
@@ -38,10 +40,10 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Extraherar alla hrefar från ett HTML-exempeltextvärde.
 ```powerquery
-Html.Table(”<a href=""/test.html"">Test</a>”, {{"Link", "a", each [Attributes][href]}})
+Html.Table("<a href=""/test.html"">Test</a>", {{"Link", "a", each [Attributes][href]}})
 ```
 
 Result: 
@@ -53,4 +55,4 @@ Result:
 
 
 ## Category
-Öppnar data
+Accessing data

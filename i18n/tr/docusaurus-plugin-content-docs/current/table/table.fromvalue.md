@@ -20,12 +20,14 @@ Table.FromValue(
 
 ## Remarks
 
-Sağlanan değeri veya değerler listesini, <code>value</code> içeren bir sütuna sahip bir tablo oluşturur. İsteğe bağlı bir kayıt parametresi olan <code>options</code>, aşağıdaki seçenekleri denetlemek için belirtilebilir:    <ul>    <li> <code>DefaultColumnName</code> : Listeden veya skaler değerinden bir tablo oluştururken kullanılan sütun adı.</li>    </ul>  
+Sağlanan değeri veya değerler listesini, `value` içeren bir sütuna sahip bir tablo oluşturur. Aşağıdaki seçenekleri kontrol etmek için isteğe bağlı bir kayıt parametresi olan `options` belirtilebilir:
+
+-   `DefaultColumnName`: Listeden veya skaler değerinden bir tablo oluştururken kullanılan sütun adı.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 1 değerinden tablo oluşturur.
 ```powerquery
 Table.FromValue(1)
@@ -37,7 +39,7 @@ Table.FromRecords({[Value = 1]})
 ```
 
 
-### Example #2 
+### Example #2
 Listeden bir tablo oluşturur.
 ```powerquery
 Table.FromValue({1, "Bob", "123-4567"})
@@ -53,8 +55,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Özel bir sütun adıyla, değer 1&#39;den bir tablo oluşturun.
+### Example #3
+Özel bir sütun adıyla, değer 1'den bir tablo oluşturun.
 ```powerquery
 Table.FromValue(1, [DefaultColumnName = "MyValue"])
 ```

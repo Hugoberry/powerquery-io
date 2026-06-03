@@ -20,13 +20,13 @@ Decimal.From(
 
 ## Remarks
 
-ส่งกลับค่า <code>number</code> ที่เป็นทศนิยมจาก <code>value</code> ที่กำหนด ถ้า <code>value</code> ที่กำหนดเป็น <code>null</code> <code>Decimal.From</code> จะส่งกลับ <code>null</code> ถ้า <code>value</code> ที่กำหนดเป็น <code>number</code> ภายในช่วงที่เป็นทศนิยม ระบบจะส่งกลับ <code>value</code> มิฉะนั้นจะส่งกลับข้อผิดพลาด ถ้า <code>value</code> เป็นชนิดอื่น ระบบจะแปลงเป็น <code>number</code> ก่อน โดยใช้ <code>Number.FromText</code> อาจมี <code>culture</code> เพิ่มเติม (ตัวอย่างเช่น "en-US")
+ส่งกลับค่า `number` ที่เป็นทศนิยมจาก `value` ที่กำหนด ถ้า `value` ที่กำหนดเป็น `null` `Decimal.From` จะส่งกลับ `null` ถ้า `value` ที่กำหนดเป็น `number` ภายในช่วงที่เป็นทศนิยม ระบบจะส่งกลับ `value` มิฉะนั้นจะส่งกลับข้อผิดพลาด ถ้า `value` เป็นชนิดอื่น ระบบจะแปลงเป็น `number` ก่อน โดยใช้ `Number.FromText` อาจมี `culture` เพิ่มเติม (ตัวอย่างเช่น "en-US")
 
 
 ## Examples
 
-### Example #1 
-รับค่า &lt;code&gt;ตัวเลข&lt;/code&gt; ที่เป็นทศนิยมสำหรับ &lt;code&gt;&#34;4.5&#34;&lt;/code&gt;
+### Example #1
+รับค่า `ตัวเลข` ที่เป็นทศนิยมสำหรับ `"4.5"`
 ```powerquery
 Decimal.From("4.5")
 ```

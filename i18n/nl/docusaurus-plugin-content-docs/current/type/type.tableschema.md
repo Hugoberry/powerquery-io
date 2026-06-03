@@ -19,7 +19,9 @@ Type.TableSchema(
 
 ## Remarks
 
-Hiermee wordt een tabel geretourneerd die de kolommen van <code>tableType</code> beschrijft.<br />Raadpleeg de documentatie voor<code>Table.Schema</code> voor een beschrijving van de tabel die wordt gemaakt.<br />
+Hiermee wordt een tabel geretourneerd die de kolommen van `tableType` beschrijft.
+
+Raadpleeg de documentatie voor`Table.Schema` voor een beschrijving van de tabel die wordt gemaakt.
 
 
 

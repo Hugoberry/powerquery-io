@@ -19,7 +19,7 @@ Cube.PropertyKey(
 
 ## Remarks
 
-Returns the key of property <code>property</code>.
+Returns the key of property `property`.
 
 
 

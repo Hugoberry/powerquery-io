@@ -20,12 +20,12 @@ Function.From(
 
 ## Remarks
 
-ใช้ฟังก์ชัน unary <code>function</code> และสร้างฟังก์ชันใหม่ด้วยชนิด <code>functionType</code> ที่สร้างรายการจากอาร์กิวเมนต์และส่งผ่านไปยัง <code>function</code>
+ใช้ฟังก์ชัน unary `function` และสร้างฟังก์ชันใหม่ด้วยชนิด `functionType` ที่สร้างรายการจากอาร์กิวเมนต์และส่งผ่านไปยัง `function`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 แปลง List.Sum เป็นฟังก์ชันแบบสองอาร์กิวเมนต์ที่อาร์กิวเมนต์จะถูกรวมเข้าด้วยกัน
 ```powerquery
 Function.From(type function (a as number, b as number) as number, List.Sum)(2, 1)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 แปลงฟังก์ชันโดยใช้รายการเป็นฟังก์ชันแบบสองอาร์กิวเมนต์
 ```powerquery
 Function.From(type function (a as text, b as text) as text, (list) => list{0} & list{1})("2", "1")

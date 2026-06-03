@@ -21,12 +21,12 @@ Record.SelectFields(
 
 ## Remarks
 
-Returnerar en post som bara innehåller fälten som anges i listan <code>fields</code> från indataposten <code>record</code>.
+Returnerar en post som bara innehåller fälten som anges i listan `fields` från indataposten `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Välj fälten Item och Price i posten.
 ```powerquery
 Record.SelectFields(

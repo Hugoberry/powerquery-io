@@ -19,12 +19,12 @@ Table.ApproximateRowCount(
 
 ## Remarks
 
-<code>table</code> içindeki yaklaşık satır sayısını veya veri kaynağı yaklaşıklığı desteklemiyorsa bir hata döndürür.
+`table` içindeki yaklaşık satır sayısını veya veri kaynağı yaklaşıklığı desteklemiyorsa bir hata döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Sütunlar için kardinalite tahmini olarak kullanılabilecek büyük bir tabloda farklı şehir ve eyalet kombinasyonlarının sayısını tahmin edin. Kardinalite tahminleri, çeşitli veri kaynaklarının (SQL Server gibi) genellikle HyperLogLog adlı bir algoritma kullanarak bu belirli yaklaşımı desteklemesi için yeterince önemlidir.
 ```powerquery
 Table.ApproximateRowCount(Table.Distinct(Table.SelectColumns(sqlTable, {"city", "state"})))

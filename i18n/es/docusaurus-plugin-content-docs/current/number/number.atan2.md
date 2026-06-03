@@ -20,7 +20,7 @@ Number.Atan2(
 
 ## Remarks
 
-Devuelve el arco tangente de la división de los dos números, <code>y</code> y <code>x</code>. La división se construirá como <code>y</code>/<code>x</code>.
+Devuelve el ángulo, en radianes, cuya tangente es el cociente `y`/`x` de los dos números `y` y `x`.
 
 
 

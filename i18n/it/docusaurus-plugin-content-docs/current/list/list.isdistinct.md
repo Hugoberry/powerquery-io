@@ -5,7 +5,7 @@ title: List.IsDistinct
 # List.IsDistinct
 
 
-Indica se sono presenti duplicati nell&#39;elenco.
+Indica se sono presenti duplicati nell'elenco.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ List.IsDistinct(
 
 ## Remarks
 
-Restituisce un valore logico se sono presenti duplicati nell'elenco <code>list</code>; <code>true</code> se l'elenco è distinto, <code>false</code> se esistono valori duplicati. 
+Restituisce un valore logico se sono presenti duplicati nell'elenco `list`; `true` se l'elenco è distinto, `false` se esistono valori duplicati.
 
 
 ## Examples
 
-### Example #1 
-Verificare se l&#39;elenco \{1, 2, 3} è distinto (ovvero senza duplicati).
+### Example #1
+Verificare se l'elenco \{1, 2, 3\} è distinto (ovvero senza duplicati).
 ```powerquery
 List.IsDistinct({1, 2, 3})
 ```
@@ -37,8 +37,8 @@ true
 ```
 
 
-### Example #2 
-Verificare se l&#39;elenco \{1, 2, 3, 3} è distinto (ovvero senza duplicati).
+### Example #2
+Verificare se l'elenco \{1, 2, 3, 3\} è distinto (ovvero senza duplicati).
 ```powerquery
 List.IsDistinct({1, 2, 3, 3})
 ```

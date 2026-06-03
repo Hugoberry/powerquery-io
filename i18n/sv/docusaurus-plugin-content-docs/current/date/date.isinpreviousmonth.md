@@ -19,12 +19,14 @@ Date.IsInPreviousMonth(
 
 ## Remarks
 
-Indikerar om angivet datetime-värde <code>dateTime</code> infaller under den föregående månaden enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar falskt om den skickas ett värde som infaller under den aktuella månaden.      <ul>      <li><code>dateTime</code>: Ett <code>datum</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde som ska utvärderas.</li>      </ul>
+Indikerar om angivet datetime-värde `dateTime` infaller under den föregående månaden enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar falskt om den skickas ett värde som infaller under den aktuella månaden.
+
+-   `dateTime`: Ett `datum`\-, `datetime`\- eller `datetimezone`\-värde som ska utvärderas.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kontrollera om månaden före den aktuella systemtiden infaller föregående månad.
 ```powerquery
 Date.IsInPreviousMonth(Date.AddMonths(DateTime.FixedLocalNow(), -1))

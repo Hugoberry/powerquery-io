@@ -20,13 +20,13 @@ Table.FillDown(
 
 ## Remarks
 
-从指定的 <code>table</code> 中返回一个表，其中前一个单元的值传播到指定的 <code>columns</code> 下值为 Null 的单元。
+从指定的 `table` 中返回一个表，其中前一个单元的值传播到指定的 `columns` 下值为 Null 的单元。
 
 
 ## Examples
 
-### Example #1 
-从表返回一个表，其中，列 [Place] 中的 null 值使用这些值上方的值填充。
+### Example #1
+从表返回一个表，其中，列 \[Place\] 中的 null 值使用这些值上方的值填充。
 ```powerquery
 Table.FillDown(
     Table.FromRecords({

@@ -19,13 +19,15 @@ Number.Abs(
 
 ## Remarks
 
-<code>number</code> の絶対値を返します。<code>number</code> が null の場合、<code>Number.Abs</code> は null を返します。    <ul>        <li><code>number</code>: 絶対値を計算する対象の <code>number</code>。</li>      </ul>
+`number` の絶対値を返します。`number` が null の場合、`Number.Abs` は null を返します。
+
+-   `number`: 絶対値を計算する対象の `number`。
 
 
 ## Examples
 
-### Example #1 
--3 の絶対値。
+### Example #1
+\-3 の絶対値。
 ```powerquery
 Number.Abs(-3)
 ```

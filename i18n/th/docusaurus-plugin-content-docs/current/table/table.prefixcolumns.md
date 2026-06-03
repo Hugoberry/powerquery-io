@@ -20,13 +20,13 @@ Table.PrefixColumns(
 
 ## Remarks
 
-ส่งคืนตารางที่ชื่อคอลัมน์ทั้งหมดจาก <code>table</code> ที่แสดงไว้มีคำนำหน้าเป็นข้อความที่กำหนดไว้ <code>prefix</code> บวกจุดทศนิยมในรูปแบบ <code>prefix</code><code>.ColumnName</code>
+ส่งคืนตารางที่ชื่อคอลัมน์ทั้งหมดจาก `table` ที่แสดงไว้มีคำนำหน้าเป็นข้อความที่กำหนดไว้ `prefix` บวกจุดทศนิยมในรูปแบบ `prefix.ColumnName`
 
 
 ## Examples
 
-### Example #1 
-กำหนดค่านำหน้าคอลัมน์ด้วย &#34;MyTable&#34; ในตาราง
+### Example #1
+กำหนดค่านำหน้าคอลัมน์ด้วย "MyTable" ในตาราง
 ```powerquery
 Table.PrefixColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

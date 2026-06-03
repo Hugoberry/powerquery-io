@@ -5,7 +5,7 @@ title: DateTime.IsInNextNHours
 # DateTime.IsInNextNHours
 
 
-Indique si cette valeur datetime se produit dans le nombre d&#39;heures suivantes, par rapport à la date et l&#39;heure actuelles du système. Notez que cette fonction retourne la valeur false si la valeur transmise se produit dans l&#39;heure actuelle.
+Indique si cette valeur datetime se produit dans le nombre d'heures suivantes, par rapport à la date et l'heure actuelles du système. Notez que cette fonction retourne la valeur false si la valeur transmise se produit dans l'heure actuelle.
 
 
 ## Syntax
@@ -20,13 +20,16 @@ DateTime.IsInNextNHours(
 
 ## Remarks
 
-Indique si la valeur datetime <code>dateTime</code> donnée se produit dans le nombre d'heures suivantes, par rapport à la date et l'heure actuelles du système. Notez que cette fonction retourne la valeur false si la valeur transmise se produit dans l'heure actuelle.      <ul>      <li><code>dateTime</code> : Valeur <code>datetime</code> ou <code>datetimezone</code> à évaluer.</li>      <li><code>hours</code> : Nombre d'heures.</li>      </ul>
+Indique si la valeur datetime `dateTime` donnée se produit dans le nombre d'heures suivantes, par rapport à la date et l'heure actuelles du système. Notez que cette fonction retourne la valeur false si la valeur transmise se produit dans l'heure actuelle.
+
+-   `dateTime` : Valeur `datetime` ou `datetimezone` à évaluer.
+-   `hours` : Nombre d'heures.
 
 
 ## Examples
 
-### Example #1 
-Détermine si l&#39;heure qui suit l&#39;heure système actuelle tombe pendant les deux prochaines heures.
+### Example #1
+Détermine si l'heure qui suit l'heure système actuelle tombe pendant les deux prochaines heures.
 ```powerquery
 DateTime.IsInNextNHours(DateTime.FixedLocalNow() + #duration(0, 2, 0, 0), 2)
 ```

@@ -25,8 +25,8 @@ Function.Invoke(
 
 ## Examples
 
-### Example #1 
-เรียกใช้ Record.FieldNames ด้วยหนึ่งอาร์กิวเมนต์ [A=1,B=2]
+### Example #1
+เรียกใช้ Record.FieldNames ด้วยหนึ่งอาร์กิวเมนต์ \[A=1,B=2\]
 ```powerquery
 Function.Invoke(Record.FieldNames, {[A = 1, B = 2]})
 ```

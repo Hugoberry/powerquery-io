@@ -19,13 +19,13 @@ Text.ToList(
 
 ## Remarks
 
-Returnerer en liste over tegnværdier fra den angivne tekstværdi <code>text</code>.
+Returnerer en liste over tegnværdier fra den angivne tekstværdi `text`.
 
 
 ## Examples
 
-### Example #1 
-Opret en liste over tegnværdier ud fra teksten &#34;Hello World&#34;.
+### Example #1
+Opret en liste over tegnværdier ud fra teksten "Hello World".
 ```powerquery
 Text.ToList("Hello World")
 ```

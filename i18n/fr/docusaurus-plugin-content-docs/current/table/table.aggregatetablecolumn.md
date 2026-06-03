@@ -21,13 +21,13 @@ Table.AggregateTableColumn(
 
 ## Remarks
 
-Regroupe les tables dans <code>table</code>[<code>column</code>] en plusieurs colonnes contenant les valeurs agrégées des tables. <code>aggregations</code> est utilisé pour spécifier les colonnes contenant les tables à agréger, les fonctions d'agrégation à appliquer aux tables pour générer leurs valeurs, et les noms des colonnes agrégées à créer.
+Regroupe les tables dans `table`\[`column`\] en plusieurs colonnes contenant les valeurs agrégées des tables. `aggregations` est utilisé pour spécifier les colonnes contenant les tables à agréger, les fonctions d'agrégation à appliquer aux tables pour générer leurs valeurs, et les noms des colonnes agrégées à créer.
 
 
 ## Examples
 
-### Example #1 
-Regroupe les colonnes des tables dans &lt;code&gt;[t]&lt;/code&gt; dans la table &lt;code&gt;\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}&lt;/code&gt; en la somme de &lt;code&gt;[t.a]&lt;/code&gt;, le minimum et le maximum de &lt;code&gt;[t.b]&lt;/code&gt;, et le nombre de valeurs dans &lt;code&gt;[t.a]&lt;/code&gt;.
+### Example #1
+Regroupe les colonnes des tables dans `[t]` dans la table `{[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}` en la somme de `[t.a]`, le minimum et le maximum de `[t.b]`, et le nombre de valeurs dans `[t.a]`.
 ```powerquery
 Table.AggregateTableColumn(
     Table.FromRecords(

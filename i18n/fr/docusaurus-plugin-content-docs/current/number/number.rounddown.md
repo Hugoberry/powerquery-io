@@ -20,12 +20,12 @@ Number.RoundDown(
 
 ## Remarks
 
-Renvoie le résultat de l'arrondi<code>number</code> au nombre entier précédent le plus élevé. Si <code>number</code> est null, cette fonction renvoie null.     Si <code>digits</code> est fourni, <code>number</code> est arrondi au nombre de chiffres décimaux spécifié.    
+Renvoie le résultat de l'arrondi`number` au nombre entier précédent le plus élevé. Si `number` est null, cette fonction renvoie null. Si `digits` est fourni, `number` est arrondi au nombre de chiffres décimaux spécifié.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Arrondit au chiffre inférieur 1,234 à un entier.
 ```powerquery
 Number.RoundDown(1.234)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Arrondit au chiffre inférieur 1,999 à un entier.
 ```powerquery
 Number.RoundDown(1.999)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Arrondit 1,999 au nombre inférieur à deux décimales.
 ```powerquery
 Number.RoundDown(1.999, 2)

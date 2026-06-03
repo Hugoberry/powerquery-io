@@ -20,13 +20,16 @@ List.Last(
 
 ## Remarks
 
-Returnerar det sista objektet i listan <code>list</code>, eller det valfria standardvärdet <code>defaultValue</code> om listan är tom.    Om listan är tom och inget standardvärde anges returnerar funktionen <code>null</code>.
+Returnerar det senaste objektet i den angivna listan eller det valfria standardvärdet om listan är tom.
+
+-   `list`: Listan som ska undersökas.
+-   `defaultValue`: (Valfritt) Det standardvärde som ska returneras om listan är tom. Om listan är tom och inget standardvärde anges returnerar funktionen `null`.
 
 
 ## Examples
 
-### Example #1 
-Hitta det sista värdet i listan \{1, 2, 3}.
+### Example #1
+Hitta det sista värdet i listan \{1, 2, 3\}.
 ```powerquery
 List.Last({1, 2, 3})
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Hitta det sista värdet i listan \{} eller -1 om listan är tom.
+### Example #2
+Hitta det sista värdet i listan \{\} eller -1 om listan är tom.
 ```powerquery
 List.Last({}, -1)
 ```

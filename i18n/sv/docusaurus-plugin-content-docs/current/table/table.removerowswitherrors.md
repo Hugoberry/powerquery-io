@@ -25,7 +25,7 @@ Returnerar en tabell där de rader från indatatabellen som innehåller ett fel 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ta bor felvärdet från den första raden.
 ```powerquery
 Table.RemoveRowsWithErrors(

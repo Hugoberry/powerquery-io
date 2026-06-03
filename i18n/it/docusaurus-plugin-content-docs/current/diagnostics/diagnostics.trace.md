@@ -22,12 +22,18 @@ Diagnostics.Trace(
 
 ## Remarks
 
-Esegue la scrittura di una traccia <code>message</code>, se la traccia è abilitata, e restituisce <code>value</code>. Un parametro facoltativo, <code>delayed</code>, specifica se ritardare o meno la valutazione di <code>value</code> fino a quando il messaggio non viene tracciato. <code>traceLevel</code> può accettare uno dei valori seguenti:    <code>TraceLevel.Critical</code>    <code>TraceLevel.Error</code>,    <code>TraceLevel.Warning</code>,    <code>TraceLevel.Information</code>,    <code>TraceLevel.Verbose</code>.  
+Scrive una traccia `message`, se la traccia è abilitata, e restituisce `value`. Un parametro facoltativo, `delayed`, specifica se ritardare la valutazione di `value` fino a quando il messaggio non viene analizzato. `traceLevel` può accettare uno dei valori seguenti:
+
+-   `TraceLevel.Critical`
+-   `TraceLevel.Error`
+-   `TraceLevel.Warning`
+-   `TraceLevel.Information`
+-   `TraceLevel.Verbose`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Traccia il messaggio prima di richiamare la funzione Text.From e restituisce il risultato.
 ```powerquery
 Diagnostics.Trace(TraceLevel.Information, "TextValueFromNumber", () => Text.From(123), true)

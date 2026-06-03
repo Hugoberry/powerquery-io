@@ -21,12 +21,15 @@ Number.IntegerDivide(
 
 ## Remarks
 
-Hiermee wordt het deel met het gehele getal geretourneerd van het resultaat van het delen van een getal, <code>number1</code>, door een ander getal, <code>number2</code>. Als <code>number1</code> of <code>number2</code> null zijn, retourneert <code>Number.IntegerDivide</code> null. <ul> <li><code>number1</code>: de noemer.</li> <li><code>number2</code>: de deler.</li> </ul>
+Hiermee wordt het deel met het gehele getal geretourneerd van het resultaat van het delen van een getal, `number1`, door een ander getal, `number2`. Als `number1` of `number2` null zijn, retourneert `Number.IntegerDivide` null.
+
+-   `number1`: de noemer.
+-   `number2`: de deler.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 6 door 4 delen.
 ```powerquery
 Number.IntegerDivide(6, 4)
@@ -38,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 8,3 door 3 delen.
 ```powerquery
 Number.IntegerDivide(8.3, 3)

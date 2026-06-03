@@ -20,12 +20,12 @@ Table.ColumnsOfType(
 
 ## Remarks
 
-傳回符合 <code>listOfTypes</code> 中指定類型的資料表 <code>table</code> 中資料行的名稱清單。
+傳回符合 `listOfTypes` 中指定類型的資料表 `table` 中資料行的名稱清單。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 傳回資料表中 Number.Type 類型的資料行名稱。
 ```powerquery
 Table.ColumnsOfType(

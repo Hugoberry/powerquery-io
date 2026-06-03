@@ -24,7 +24,7 @@ Type.TableRow(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Возврат сведений о типе строки для простой таблицы.
 ```powerquery
 let

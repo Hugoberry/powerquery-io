@@ -20,13 +20,13 @@ Table.SelectRows(
 
 ## Remarks
 
-Returnerer en tabel med rækker fra <code>table</code>, der stemmer overens med den valgte <code>condition</code>.
+Returnerer en tabel med rækker fra `table`, der stemmer overens med den valgte `condition`.
 
 
 ## Examples
 
-### Example #1 
-Vælg de rækker i tabellen, hvor værdierne i kolonnen [Kunde-id] er større end 2.
+### Example #1
+Vælg de rækker i tabellen, hvor værdierne i kolonnen \[Kunde-id\] er større end 2.
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({
@@ -48,8 +48,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Vælg de rækker i tabellen, hvor navnene ikke indeholder et &#34;B&#34;.
+### Example #2
+Vælg de rækker i tabellen, hvor navnene ikke indeholder et "B".
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({

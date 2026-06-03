@@ -19,7 +19,9 @@ Type.TableSchema(
 
 ## Remarks
 
-Zwraca tabelę opisującą kolumny elementu <code>tableType</code>.<br />Opis tabeli wynikowej można znaleźć w dokumentacji dotyczącej funkcji <code>Table.Schema</code>.<br />
+Zwraca tabelę opisującą kolumny elementu `tableType`.
+
+Opis tabeli wynikowej można znaleźć w dokumentacji dotyczącej funkcji `Table.Schema`.
 
 
 

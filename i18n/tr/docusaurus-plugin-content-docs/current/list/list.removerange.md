@@ -21,13 +21,13 @@ List.RemoveRange(
 
 ## Remarks
 
-<code>list</code> içindeki <code>count</code> değeri belirtilen <code>index</code> konumundan başlayarak kaldırır.
+`list` içindeki `count` değeri belirtilen `index` konumundan başlayarak kaldırır.
 
 
 ## Examples
 
-### Example #1 
-\{1, 2, 3, 4, -6, -2, -1, 5} listesindeki 3 değeri 4 dizininden başlayarak kaldırır.
+### Example #1
+\{1, 2, 3, 4, -6, -2, -1, 5\} listesindeki 3 değeri 4 dizininden başlayarak kaldırır.
 ```powerquery
 List.RemoveRange({1, 2, 3, 4, -6, -2, -1, 5}, 4, 3)
 ```

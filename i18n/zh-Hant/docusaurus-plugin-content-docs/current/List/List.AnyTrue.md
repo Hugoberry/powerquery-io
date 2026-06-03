@@ -19,13 +19,13 @@ List.AnyTrue(
 
 ## Remarks
 
-如果清單 <code>list</code> 中的任何運算式是 True，即傳回 True。
+如果清單 `list` 中的任何運算式是 True，即傳回 True。
 
 
 ## Examples
 
-### Example #1 
-判斷清單 \{true, false, 2 &gt; 0} 中是否有任何運算式是 True。
+### Example #1
+判斷清單 \{true, false, 2 > 0\} 中是否有任何運算式是 True。
 ```powerquery
 List.AnyTrue({true, false, 2>0})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-判斷清單 \{2 = 0, false, 2 &lt; 0} 中是否有任何運算式是 True。
+### Example #2
+判斷清單 \{2 = 0, false, 2 &lt; 0\} 中是否有任何運算式是 True。
 ```powerquery
 List.AnyTrue({2 = 0, false, 2 < 0})
 ```

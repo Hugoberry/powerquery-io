@@ -20,12 +20,12 @@ Date.DayOfWeekName(
 
 ## Remarks
 
-ส่งกลับชื่อวันของสัปดาห์สำหรับ <code>date</code> ที่กำหนดให้ อาจมีการระบุ <code>culture</code> เพิ่มเติม (ตัวอย่างเช่น "en-US")
+ส่งกลับชื่อวันของสัปดาห์สำหรับ `date` ที่กำหนดให้ อาจมีการระบุ `culture` เพิ่มเติม (ตัวอย่างเช่น "en-US")
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ดึงข้อมูลชื่อวันของสัปดาห์
 ```powerquery
 Date.DayOfWeekName(#date(2011, 12, 31), "en-US")

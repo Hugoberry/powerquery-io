@@ -20,7 +20,27 @@ Folder.Files(
 
 ## Remarks
 
-Trả về một bảng chứa một hàng cho mỗi và tệp tìm được trong thư mục <code>path</code> và tất cả thư mục con của thư mục. Mỗi hàng chứa thuộc tính của tệp và một liên kết tới nội dung của tệp đó. Tham số <code>options</code> hiện chỉ nhằm mục đích sử dụng nội bộ.
+Trả về một bảng chứa một hàng cho mỗi tệp có trong thư mục được chỉ định và tất cả thư mục con trong đó.
+
+-   `path`: Đường dẫn đến thư mục mà bạn muốn truy xuất tệp. Đường dẫn tới thư mục được cung cấp phải là đường dẫn hợp lệ hoàn toàn.
+-   `options`: (Tùy chọn) Tham số này hiện chỉ dành cho mục đích sử dụng nội bộ.
+
+Mỗi hàng của bảng được trả về chứa các thuộc tính của tệp và liên kết đến nội dung trong đó.
+
+
+## Examples
+
+### Example #1
+Trả về một bảng chứa tất cả tệp được tìm thấy trong C:\\test-examples\\example-folder và tất cả thư mục con trong đó.
+```powerquery
+Folder.Files("C:\test-examples\example-folder")
+```
+
+Result: 
+```powerquery
+A table containing the files, their properties, and a link to their content.
+```
+
 
 
 

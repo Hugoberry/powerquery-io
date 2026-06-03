@@ -19,12 +19,12 @@ Duration.TotalDays(
 
 ## Remarks
 
-Returnerer det samlede antal dage spændt over <code>duration</code>.
+Returnerer det samlede antal dage spændt over `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find det samlede antal dage spændt over en varighedsværdi.
 ```powerquery
 Duration.TotalDays(#duration(5, 4, 3, 2))

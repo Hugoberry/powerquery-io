@@ -21,13 +21,13 @@ Text.RemoveRange(
 
 ## Remarks
 
-Returnerar en kopia av textvärdet <code>text</code> där alla tecken från position <code>offset</code> har tagits bort.    En valfri parameter, <code>count</code>, kan användas för att ange antalet tecken som ska tas bort. Standardvärdet för <code>count</code> är 1. Positionsvärden börjar på 0.
+Returnerar en kopia av textvärdet `text` där alla tecken från position `offset` har tagits bort. En valfri parameter, `count`, kan användas för att ange antalet tecken som ska tas bort. Standardvärdet för `count` är 1. Positionsvärden börjar på 0.
 
 
 ## Examples
 
-### Example #1 
-Ta bort 1 tecken från textvärdet &#34;ABEFC&#34; vid position 2.
+### Example #1
+Ta bort 1 tecken från textvärdet "ABEFC" vid position 2.
 ```powerquery
 Text.RemoveRange("ABEFC", 2)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Ta bort två tecken från textvärdet &#34;ABEFC&#34; med början vid position 2.
+### Example #2
+Ta bort två tecken från textvärdet "ABEFC" med början vid position 2.
 ```powerquery
 Text.RemoveRange("ABEFC", 2, 2)
 ```

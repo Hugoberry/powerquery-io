@@ -20,7 +20,7 @@ HdInsight.Files(
 
 ## Remarks
 
-Restituisce una tabella con una riga per ogni file di BLOB trovato all'URL <code>account</code> del contenitore da un insieme di credenziali di archiviazione di Azure. Ogni riga contiene le proprietà del file e un collegamento al relativo contenuto.
+Restituisce una tabella con una riga per ogni file di BLOB trovato all'URL `account` del contenitore da un insieme di credenziali di archiviazione di Azure. Ogni riga contiene le proprietà del file e un collegamento al relativo contenuto.
 
 
 

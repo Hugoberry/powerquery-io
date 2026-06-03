@@ -19,12 +19,14 @@ DateTime.IsInCurrentHour(
 
 ## Remarks
 
-システム上の現在の日時によって決定される現在の時間に、指定された datetime の値 <code>dateTime</code> が含まれるかどうかを示します。      <ul>      <li><code>dateTime</code>: 評価する <code>datetime</code> または <code>datetimezone</code> 値。</li>      </ul>
+システム上の現在の日時によって決定される現在の時間に、指定された datetime の値 `dateTime` が含まれるかどうかを示します。
+
+-   `dateTime`: 評価する `datetime` または `datetimezone` 値。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 現在のシステム時刻が現在の時間に含まれるかどうかを調べます。
 ```powerquery
 DateTime.IsInCurrentHour(DateTime.FixedLocalNow())

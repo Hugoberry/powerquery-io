@@ -19,12 +19,12 @@ Number.Tan(
 
 ## Remarks
 
-傳回 <code>number</code> 的正切值。
+傳回 `number` 的正切值。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 找出角度 1 的正切值。
 ```powerquery
 Number.Tan(1)

@@ -5,7 +5,7 @@ title: Table.FromRows
 # Table.FromRows
 
 
-Creates a table from a list of row values and optional columns
+Creates a table from a list of row values and optional columns.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Table.FromRows(
 
 ## Remarks
 
-Creates a table from the list <code>rows</code> where each element of the list is an inner list that contains the column values for a single row.  An optional list of column names, a table type, or a number of columns could be provided for <code>columns</code>.
+Creates a table from the list `rows` where each element of the list is an inner list that contains the column values for a single row. An optional list of column names, a table type, or a number of columns could be provided for `columns`.
 
 
 ## Examples
 
-### Example #1 
-Return a table with column [CustomerID] with values \{1, 2}, column [Name] with values \{&#34;Bob&#34;, &#34;Jim&#34;}, and column [Phone] with values \{&#34;123-4567&#34;, &#34;987-6543&#34;}.
+### Example #1
+Return a table with column \[CustomerID\] with values \{1, 2\}, column \[Name\] with values \{"Bob", "Jim"\}, and column \[Phone\] with values \{"123-4567", "987-6543"\}.
 ```powerquery
 Table.FromRows(
     {
@@ -46,8 +46,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Return a table with column [CustomerID] with values \{1, 2}, column [Name] with values \{&#34;Bob&#34;, &#34;Jim&#34;}, and column [Phone] with values \{&#34;123-4567&#34;, &#34;987-6543&#34;}, where [CustomerID] is number type, and [Name] and [Phone] are text types.
+### Example #2
+Return a table with column \[CustomerID\] with values \{1, 2\}, column \[Name\] with values \{"Bob", "Jim"\}, and column \[Phone\] with values \{"123-4567", "987-6543"\}, where \[CustomerID\] is number type, and \[Name\] and \[Phone\] are text types.
 ```powerquery
 Table.FromRows(
     {

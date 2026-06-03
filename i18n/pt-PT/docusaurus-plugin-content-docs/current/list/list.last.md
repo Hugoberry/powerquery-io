@@ -20,13 +20,16 @@ List.Last(
 
 ## Remarks
 
-Devolve o último item existente na lista <code>list</code> ou o valor predefinido opcional, <code>defaultValue</code>, se a lista estiver vazia.    Se a lista estiver vazia e não for especificado um valor predefinido, a função devolve <code>null</code>.
+Devolve o último item na lista especificada ou o valor predefinido opcional se a lista estiver vazia.
+
+-   `list`: A lista a examinar.
+-   `defaultValue`: (Opcional) O valor predefinido a devolver se a lista estiver vazia. Se a lista estiver vazia e não for especificado um valor predefinido, a função devolve `null`.
 
 
 ## Examples
 
-### Example #1 
-Determinar o último valor na lista \{1, 2, 3}.
+### Example #1
+Determinar o último valor na lista \{1, 2, 3\}.
 ```powerquery
 List.Last({1, 2, 3})
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Determinar o último valor na lista \{} ou -1 se a lista estiver vazia.
+### Example #2
+Determinar o último valor na lista \{\} ou -1 se a lista estiver vazia.
 ```powerquery
 List.Last({}, -1)
 ```

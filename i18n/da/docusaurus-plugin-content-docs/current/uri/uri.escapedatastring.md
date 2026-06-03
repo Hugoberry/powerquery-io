@@ -19,13 +19,13 @@ Uri.EscapeDataString(
 
 ## Remarks
 
-Koder specialtegn i inputtet <code>data</code> i henhold til reglerne i RFC 3986.
+Koder specialtegn i inputtet `data` i henhold til reglerne i RFC 3986.
 
 
 ## Examples
 
-### Example #1 
-Kod specialtegnene i &#34;+money$&#34;.
+### Example #1
+Kod specialtegnene i "+money$".
 ```powerquery
 Uri.EscapeDataString("+money$")
 ```

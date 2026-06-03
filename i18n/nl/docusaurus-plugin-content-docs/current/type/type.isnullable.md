@@ -5,7 +5,7 @@ title: Type.IsNullable
 # Type.IsNullable
 
 
-Retourneert &#39;true&#39; indien voor een type een null-waarde is toegestaan; anders wordt &#39;false&#39; geretourneerd.
+Retourneert 'true' indien voor een type een null-waarde is toegestaan; anders wordt 'false' geretourneerd.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Type.IsNullable(
 
 ## Remarks
 
-Retourneert <code>true</code> indien voor een type een <code>null-waarde is toegestaan</code>; anders wordt <code>false</code> geretourneerd.
+Retourneert `true` indien voor een type een `null-waarde is toegestaan`; anders wordt `false` geretourneerd.
 
 
 ## Examples
 
-### Example #1 
-Bepaal of voor &lt;code&gt;getal&lt;/code&gt; een null-waarde is toegestaan.
+### Example #1
+Bepaal of voor `getal` een null-waarde is toegestaan.
 ```powerquery
 Type.IsNullable(type number)
 ```
@@ -36,8 +36,8 @@ false
 ```
 
 
-### Example #2 
-Bepaal of voor &lt;code&gt;type getal waarvoor null-waarde is toegestaan&lt;/code&gt; een null-waarde is toegestaan.
+### Example #2
+Bepaal of voor `type getal waarvoor null-waarde is toegestaan` een null-waarde is toegestaan.
 ```powerquery
 Type.IsNullable(type nullable number)
 ```

@@ -13,7 +13,8 @@ Retourneert een functie die tekst splitst in een lijst met tekst conform het opg
 ```powerquery
 Splitter.SplitTextByDelimiter(
     delimiter as text,
-    optional quoteStyle as QuoteStyle.Type
+    optional quoteStyle as QuoteStyle.Type,
+    optional csvStyle as CsvStyle.Type
 ) as function
 ```
 
@@ -25,8 +26,8 @@ Retourneert een functie die tekst splitst in een lijst met tekst conform het opg
 
 ## Examples
 
-### Example #1 
-Splits de invoer door komma&#39;s, waarbij komma&#39;s met aanhalingstekens worden genegeerd.
+### Example #1
+Splits de invoer door komma's, waarbij komma's met aanhalingstekens worden genegeerd.
 ```powerquery
 Splitter.SplitTextByDelimiter(",", QuoteStyle.Csv)("a,""b,c"",d")
 ```

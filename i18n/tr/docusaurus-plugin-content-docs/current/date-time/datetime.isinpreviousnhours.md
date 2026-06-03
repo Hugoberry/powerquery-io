@@ -20,12 +20,15 @@ DateTime.IsInPreviousNHours(
 
 ## Remarks
 
-Verilen <code>dateTime</code> tarih saat değerinin, sistemdeki geçerli tarih ve saat tarafından belirlendiği şekilde, önceki birkaç saat içinde olup olmadığını gösterir. Geçerli saat içinde olan bir değer geçirildiğinde bu işlevin false döndürdüğünü unutmayın.      <ul>      <li><code>dateTime</code>: Değerlendirilecek <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      <li><code>hours</code>: Saat sayısı.</li>      </ul>
+Verilen `dateTime` tarih saat değerinin, sistemdeki geçerli tarih ve saat tarafından belirlendiği şekilde, önceki birkaç saat içinde olup olmadığını gösterir. Geçerli saat içinde olan bir değer geçirildiğinde bu işlevin false döndürdüğünü unutmayın.
+
+-   `dateTime`: Değerlendirilecek `datetime` veya `datetimezone` değeri.
+-   `hours`: Saat sayısı.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Geçerli sistem saatinden önceki saatin, önceki iki saat içinde olup olmadığını belirler.
 ```powerquery
 DateTime.IsInPreviousNHours(DateTime.FixedLocalNow() - #duration(0, 2, 0, 0), 2)

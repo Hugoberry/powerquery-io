@@ -25,7 +25,7 @@ Belirtilen çıktı konumlarını kullanarak metin değerleri listesini tek bir 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Metin değerleri listesini çıktıda belirtilen konumlara yerleştirerek birleştirin.
 ```powerquery
 Combiner.CombineTextByPositions({0, 5, 10})({"abc", "def", "ghi"})

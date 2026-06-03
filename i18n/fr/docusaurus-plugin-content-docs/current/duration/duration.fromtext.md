@@ -5,7 +5,7 @@ title: Duration.FromText
 # Duration.FromText
 
 
-Retourne une valeur de durée à partir d&#39;un format textuel de temps écoulé (d.h:m:s).
+Retourne une valeur de durée à partir d'un format textuel de temps écoulé (d.h:m:s).
 
 
 ## Syntax
@@ -19,13 +19,24 @@ Duration.FromText(
 
 ## Remarks
 
-Retourne une valeur de durée à partir du texte spécifié, <code>text</code>. Les formats suivants peuvent être analysés par cette fonction : <ul>        <li>(-)hh:mm(:ss(.ff)) </li>        <li>(-)jjj(.hh:mm(:ss(.ff))) </li> </ul>        <br />        (Toutes les plages sont inclusives)<br />        jjj : Nombre de jours.<br />        hh : Nombre d'heures, entre 0 et 23.<br />        mm : Nombre de minutes, entre 0 et 59.<br />        ss : Nombre de secondes, entre 0 et 59.<br />        ff : Fractions de seconde, entre 0 et 9999999.
+Renvoie une valeur de durée à partir du texte spécifié, `text`. Les formats suivants peuvent être analysés par cette fonction :
+
+-   (-)hh:mm(:ss(.ff))
+-   (-)ddd(.hh:mm(:ss(.ff)))
+
+(Toutes les plages sont inclusives)
+
+-   ddd : Nombre de jours.
+-   hh : Nombre d'heures, entre 0 et 23.
+-   mm : Nombre de minutes, entre 0 et 59.
+-   ss : Nombre de secondes, entre 0 et 59.
+-   ff : Fraction de seconde, entre 0 et 9 999 999.
 
 
 ## Examples
 
-### Example #1 
-Convertit &lt;code&gt;&#34;2.05:55:20&#34;&lt;/code&gt; dans une valeur &lt;code&gt;duration&lt;/code&gt;.
+### Example #1
+Convertit `"2.05:55:20"` dans une valeur `duration`.
 ```powerquery
 Duration.FromText("2.05:55:20")
 ```

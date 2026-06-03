@@ -19,13 +19,15 @@ Date.DaysInMonth(
 
 ## Remarks
 
-Trả về số ngày trong tháng trong giá trị <code>date</code>, <code>datetime</code>, hoặc <code>datetimezone</code> <code>dateTime</code>. <ul>        <li><code>dateTime</code>: Giá trị <code>date</code>, <code>datetime</code>, hoặc <code>datetimezone</code> mà từ đó trả về số ngày trong tháng.</li>      </ul>
+Trả về số ngày trong tháng trong giá trị `date`, `datetime`, hoặc `datetimezone` `dateTime`.
+
+-   `dateTime`: Giá trị `date`, `datetime`, hoặc `datetimezone` mà từ đó trả về số ngày trong tháng.
 
 
 ## Examples
 
-### Example #1 
-Số ngày trong tháng Mười Hai như được biểu thị bởi &lt;code&gt;#date(2011, 12, 01)&gt;&lt;/code&gt;.
+### Example #1
+Số ngày trong tháng 12 như được biểu thị bởi `#date(2011, 12, 01)`.
 ```powerquery
 Date.DaysInMonth(#date(2011, 12, 01))
 ```

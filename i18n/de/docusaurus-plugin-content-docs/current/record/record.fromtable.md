@@ -5,7 +5,7 @@ title: Record.FromTable
 # Record.FromTable
 
 
-Erstellt einen Datensatz auf der Grundlage einer Tabelle im Format &#34;\{[Name = name, Value = value]}&#34;.
+Erstellt einen Datensatz auf der Grundlage einer Tabelle im Format "\{\[Name = name, Value = value\]\}".
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Record.FromTable(
 
 ## Remarks
 
-Gibt einen Datensatz auf der Grundlage einer Datensatztabelle (<code>table</code>) mit Feld- und Wertnamen (<code>\{[Name = name, Value = value]}</code>) zurück. Sind die Feldnamen nicht eindeutig, wird eine Ausnahme ausgelöst.
+Gibt einen Datensatz auf der Grundlage einer Datensatztabelle (`table`) mit Feld- und Wertnamen (`{[Name = name, Value = value]}`) zurück. Wenn die Feldnamen nicht eindeutig sind, wird ein Fehler ausgelöst.
 
 
 ## Examples
 
-### Example #1 
-Erstellt einen Datensatz auf der Grundlage der Tabelle im Format &#39;Table.FromRecords(\{[Name = &#34;CustomerID&#34;, Value = 1], [Name = &#34;Name&#34;, Value = &#34;Bob&#34;], [Name = &#34;Phone&#34;, Value = &#34;123-4567&#34;]})&#39;.
+### Example #1
+Erstellt einen Datensatz auf der Grundlage der Tabelle im Format 'Table.FromRecords(\{\[Name = "CustomerID", Value = 1\], \[Name = "Name", Value = "Bob"\], \[Name = "Phone", Value = "123-4567"\]\})'.
 ```powerquery
 Record.FromTable(
     Table.FromRecords({

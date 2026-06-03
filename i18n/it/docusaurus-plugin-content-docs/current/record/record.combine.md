@@ -5,7 +5,7 @@ title: Record.Combine
 # Record.Combine
 
 
-Combina i record nell&#39;elenco specificato.
+Combina i record nell'elenco specificato.
 
 
 ## Syntax
@@ -19,12 +19,12 @@ Record.Combine(
 
 ## Remarks
 
-Combina i record nell'elemento specificato <code>records</code>. Se <code>records</code> contiene valori non di record, viene restituito un errore.
+Combina i record nell'elemento specificato `records`. Se `records` contiene valori non di record, viene restituito un errore.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Creare un record combinato dai record.
 ```powerquery
 Record.Combine({

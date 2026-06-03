@@ -19,12 +19,12 @@ Table.IsEmpty(
 
 ## Remarks
 
-Wskazuje, czy tabela <code>table</code> zawiera jakiekolwiek wiersze. Zwraca wartość <code>true</code>, jeśli tabela nie zawiera żadnych wierszy (jest pusta); w przeciwnym razie zwraca wartość <code>false</code>.
+Wskazuje, czy tabela `table` zawiera jakiekolwiek wiersze. Zwraca wartość `true`, jeśli tabela nie zawiera żadnych wierszy (jest pusta); w przeciwnym razie zwraca wartość `false`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ustal, czy tabela jest pusta.
 ```powerquery
 Table.IsEmpty(
@@ -42,8 +42,8 @@ false
 ```
 
 
-### Example #2 
-Ustal, czy tabela &lt;code&gt;(\{})&lt;/code&gt; jest pusta.
+### Example #2
+Ustal, czy tabela `({})` jest pusta.
 ```powerquery
 Table.IsEmpty(Table.FromRecords({}))
 ```

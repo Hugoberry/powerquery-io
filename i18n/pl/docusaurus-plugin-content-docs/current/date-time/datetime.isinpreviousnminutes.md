@@ -20,12 +20,15 @@ DateTime.IsInPreviousNMinutes(
 
 ## Remarks
 
-Wskazuje, czy dana wartość daty/godziny <code>dateTime</code> przypada w ciągu poprzednich minut określonych zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącej minuty.      <ul>      <li><code>dateTime</code>: <code>datetime</code> lub <code>datetimezone</code> do oszacowania.</li>      <li><code>minutes</code>: liczba minut.</li>      </ul>
+Wskazuje, czy dana wartość daty/godziny `dateTime` przypada w ciągu poprzednich minut określonych zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącej minuty.
+
+-   `dateTime`: `datetime` lub `datetimezone` do oszacowania.
+-   `minutes`: liczba minut.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Określ, czy minuta przed bieżącą datą systemu występuje w ciągu poprzednich dwóch minut.
 ```powerquery
 DateTime.IsInPreviousNMinutes(DateTime.FixedLocalNow() - #duration(0, 0, 2, 0), 2)

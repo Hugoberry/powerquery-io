@@ -20,13 +20,13 @@ Table.FillUp(
 
 ## Remarks
 
-Belirtilen <code>table</code> öğesinden sonraki hücrenin belirtilen <code>columns</code> içinde yukarıdaki null değerli hücrelere yayıldığı bir tablo döndürür.
+Belirtilen `table` öğesinden sonraki hücrenin belirtilen `columns` içinde yukarıdaki null değerli hücrelere yayıldığı bir tablo döndürür.
 
 
 ## Examples
 
-### Example #1 
-Tablodan, [Column2] sütunundaki null değerler ve altındaki değerler ile doldurulan bir tablo döndürür.
+### Example #1
+Tablodan, \[Column2\] sütunundaki null değerler ve altındaki değerler ile doldurulan bir tablo döndürür.
 ```powerquery
 Table.FillUp(
     Table.FromRecords({

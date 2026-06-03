@@ -19,12 +19,12 @@ Number.Tan(
 
 ## Remarks
 
-<code>number</code> のタンジェントを返します。
+`number` のタンジェントを返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 角度 1 のタンジェントを求めます。
 ```powerquery
 Number.Tan(1)

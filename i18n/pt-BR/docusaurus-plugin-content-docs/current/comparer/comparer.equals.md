@@ -21,13 +21,21 @@ Comparer.Equals(
 
 ## Remarks
 
-Retorna um valor <code>logical</code> com base na verificação de igualdade dos dois valores fornecidos, <code>x</code> e <code>y</code>, usando o <code>x</code> fornecido<code>comparer</code>.      <div>        <code>comparer</code> é um <code>Comparer</code> que é usado para controlar a comparação.        Um comparador é uma função que aceita dois argumentos e retorna -1, 0 ou 1 se o primeiro valor for menor, igual ou maior que o segundo.        Os comparadores podem ser usados ​​para fornecer comparações sem diferenciar maiúsculas de minúsculas ou com reconhecimento de cultura e localidade.      </div>      <div>        Os seguintes comparadores internos estão disponíveis na linguagem da fórmula:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: usado para realizar uma comparação ordinal exata</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: usado para realizar uma comparação ordinal exata sem diferenciar maiúsculas de minúsculas</li>        <li> <code>Comparer.FromCulture</code>: usado para realizar uma comparação de reconhecimento de cultura</li>      </ul>
+Retorna um valor `logical` com base na verificação de igualdade dos dois valores fornecidos, `x` e `y`, usando o `x` fornecido`comparer`.
+
+`comparer` é um `Comparer` que é usado para controlar a comparação. Um comparador é uma função que aceita dois argumentos e retorna -1, 0 ou 1 se o primeiro valor for menor, igual ou maior que o segundo. Os comparadores podem ser usados ​​para fornecer comparações sem diferenciar maiúsculas de minúsculas ou com reconhecimento de cultura e localidade.
+
+Os seguintes comparadores internos estão disponíveis na linguagem da fórmula:
+
+-   `Comparer.Ordinal`: usado para realizar uma comparação ordinal exata
+-   `Comparer.OrdinalIgnoreCase`: usado para realizar uma comparação ordinal exata sem diferenciar maiúsculas de minúsculas
+-   `Comparer.FromCulture`: usado para realizar uma comparação de reconhecimento de cultura
 
 
 ## Examples
 
-### Example #1 
-Comparar &#34;1&#34; e &#34;A&#34; usando a localidade &#34;pt-BR&#34; para determinar se os valores são iguais.
+### Example #1
+Comparar "1" e "A" usando a localidade "pt-BR" para determinar se os valores são iguais.
 ```powerquery
 Comparer.Equals(Comparer.FromCulture("en-US"), "1", "A")
 ```

@@ -20,12 +20,12 @@ Value.ReplaceType(
 
 ## Remarks
 
-<code>value</code> の型を指定された <code>type</code> に置き換えます。
+`value` の型を指定された `type` に置き換えます。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 レコードの既定の型を、より具体的な型に置き換えます。
 ```powerquery
 Type.RecordFields(

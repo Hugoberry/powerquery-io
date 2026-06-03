@@ -20,13 +20,13 @@ Table.HasColumns(
 
 ## Remarks
 
-指示 <code>table</code> 是否包含指定的列 <code>columns</code>。如果表包含此列或这些列，则返回 <code>true</code>，否则返回 <code>false</code>。
+指示 `table` 是否包含指定的列 `columns`。如果表包含此列或这些列，则返回 `true`，否则返回 `false`。
 
 
 ## Examples
 
-### Example #1 
-确定表是否具有列 [Name]。
+### Example #1
+确定表是否具有列 \[Name\]。
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({
@@ -45,8 +45,8 @@ true
 ```
 
 
-### Example #2 
-查找表是否具有列 [Name] 和 [PhoneNumber]。
+### Example #2
+查找表是否具有列 \[Name\] 和 \[PhoneNumber\]。
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({

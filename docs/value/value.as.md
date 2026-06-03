@@ -5,7 +5,7 @@ title: Value.As
 # Value.As
 
 
-Returns the value if it is compatible with the specified type.
+Returns the value if it's compatible with the specified type.
 
 
 ## Syntax
@@ -20,12 +20,12 @@ Value.As(
 
 ## Remarks
 
-Returns the value if it is compatible with the specified type. This is equivalent to the "as" operator in M, with the exception that it can accept identifier type references such as Number.Type.
+Returns the value if it's compatible with the specified type. This is equivalent to the "as" operator in M, with the exception that it can accept identifier type references such as Number.Type.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Cast a number to a number.
 ```powerquery
 Value.As(123, Number.Type)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Attempt to cast a text value to a number.
 ```powerquery
 Value.As("abc", type number)

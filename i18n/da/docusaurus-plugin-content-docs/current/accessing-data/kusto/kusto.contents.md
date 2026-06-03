@@ -27,7 +27,7 @@ Importerer data fra din forekomst af Azure Data Explorer (Kusto)
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnerer en tabel med Storm-hændelsesoplysninger
 ```powerquery
 Kusto.Contents("help", "Samples", "StormEvents", [])

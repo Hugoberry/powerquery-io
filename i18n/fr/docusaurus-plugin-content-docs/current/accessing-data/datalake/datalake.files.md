@@ -5,7 +5,7 @@ title: DataLake.Files
 # DataLake.Files
 
 
-Entrez l&#39;URL de votre compte Azure Data Lake Storage.
+Entrez l'URL de votre compte Azure Data Lake Storage.
 
 
 ## Syntax
@@ -20,6 +20,6 @@ DataLake.Files(
 
 ## Remarks
 
-Retourne une table contenant une ligne pour chaque fichier trouvé à l'<code>URL</code> dans Azure Data Lake Storage Gen1. Chaque ligne contient les propriétés du fichier et un lien vers son contenu.
+Retourne une table contenant une ligne pour chaque fichier trouvé à l'`URL` dans Azure Data Lake Storage Gen1. Chaque ligne contient les propriétés du fichier et un lien vers son contenu.
 
 

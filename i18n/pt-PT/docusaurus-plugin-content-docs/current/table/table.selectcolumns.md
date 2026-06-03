@@ -21,13 +21,17 @@ Table.SelectColumns(
 
 ## Remarks
 
-Devolve <code>table</code> apenas com as <code>columns</code> especificadas.    <ul>       <li><code>table</code>: a tabela fornecida.</li>       <li>: <code>columns</code>a lista de colunas da tabela <code>table</code> a devolver. As colunas existentes na tabela devolvida encontram-se na ordem listada em <code>columns</code>.</li>       <li><code>missingField</code>: <i>(Opcional)</i> O que fazer se a coluna não existir.  Exemplo: <code>MissingField.UseNull</code> ou <code>MissingField.Ignore</code>.    </li></ul>
+Devolve `table` apenas com `columns` especificadas.
+
+-   `table`: a tabela fornecida.
+-   `columns`: a lista de colunas da tabela `table` a devolver. As colunas na tabela devolvida estão pela ordem indicada em `columns`.
+-   `missingField`: *(opcional)* o que fazer se a coluna não existir. Exemplo: `MissingField.UseNull` ou `MissingField.Ignore`.
 
 
 ## Examples
 
-### Example #1 
-Incluir apenas a coluna [Name].
+### Example #1
+Incluir apenas a coluna \[Name\].
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({
@@ -51,8 +55,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Incluir apenas as colunas [CustomerID] e [Name].
+### Example #2
+Incluir apenas as colunas \[CustomerID\] e \[Name\].
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -66,7 +70,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #3 
+### Example #3
 Se a coluna incluída não existir, o resultado predefinição é um erro.
 ```powerquery
 Table.SelectColumns(
@@ -81,8 +85,8 @@ Result:
 ```
 
 
-### Example #4 
-Se a coluna incluída não existir, a opção &lt;code&gt;MissingField.UseNull&lt;/code&gt; cria uma coluna de valores nulos.
+### Example #4
+Se a coluna incluída não existir, a opção `MissingField.UseNull` cria uma coluna de valores nulos.
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

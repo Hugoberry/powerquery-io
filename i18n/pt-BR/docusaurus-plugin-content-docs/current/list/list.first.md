@@ -20,13 +20,13 @@ List.First(
 
 ## Remarks
 
-Retorna o primeiro item da lista <code>list</code> ou o valor padrão <code>defaultValue</code> opcional, se a lista estiver vazia.    Se a lista estiver vazia e um valor padrão não for especificado, a função retornará <code>null</code>.
+Retorna o primeiro item da lista `list` ou o valor padrão `defaultValue` opcional, se a lista estiver vazia. Se a lista estiver vazia e um valor padrão não for especificado, a função retornará `null`.
 
 
 ## Examples
 
-### Example #1 
-Localize o primeiro valor da lista \{1, 2, 3}.
+### Example #1
+Localize o primeiro valor da lista \{1, 2, 3\}.
 ```powerquery
 List.First({1, 2, 3})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Localize o primeiro valor da lista \{}. Se a lista estiver vazia, retorne -1.
+### Example #2
+Localize o primeiro valor da lista \{\}. Se a lista estiver vazia, retorne -1.
 ```powerquery
 List.First({}, -1)
 ```

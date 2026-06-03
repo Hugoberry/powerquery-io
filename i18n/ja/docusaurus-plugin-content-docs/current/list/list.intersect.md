@@ -20,13 +20,13 @@ List.Intersect(
 
 ## Remarks
 
-入力リスト <code>lists</code> 内に見つかったリスト値の積集合を返します。省略可能なパラメーター <code>equationCriteria</code> を指定できます。
+入力リスト `lists` 内に見つかったリスト値の積集合を返します。省略可能なパラメーター `equationCriteria` を指定できます。
 
 
 ## Examples
 
-### Example #1 
-\{1..5}、\{2..6}、\{3..7} の各リストの積集合を求めます。
+### Example #1
+\{1..5\}、\{2..6\}、\{3..7\} の各リストの積集合を求めます。
 ```powerquery
 List.Intersect({{1..5}, {2..6}, {3..7}})
 ```

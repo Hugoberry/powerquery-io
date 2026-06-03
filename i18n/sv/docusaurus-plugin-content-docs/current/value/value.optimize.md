@@ -19,7 +19,7 @@ Value.Optimize(
 
 ## Remarks
 
-När det används i Value.Expression och om <code>value</code> representerar en fråga som kan optimeras, visar den här funktionen att det optimerade uttrycket ska returneras. I annat fall skickas <code>value</code> igenom utan effekt.
+När det används i Value.Expression och om `value` representerar en fråga som kan optimeras, visar den här funktionen att det optimerade uttrycket ska returneras. I annat fall skickas `value` igenom utan effekt.
 
 
 

@@ -20,13 +20,21 @@ DateTime.From(
 
 ## Remarks
 
-ส่งกลับค่า <code>datetime</code> จาก <code>value</code> ที่ระบุ นอกจากนี้อาจมี <code>culture</code> เพิ่มเติม (ตัวอย่างเช่น "en-US")ถ้า <code>value</code> ที่ระบุเป็น <code>null</code> <code>DateTime.From</code> จะส่งกลับ <code>null</code> ถ้า <code>value</code> ที่ระบุเป็น <code>datetime</code> <code>value</code> จะถูกส่งกลับ ค่าชนิดต่อไปนี้สามารถแปลงเป็นค่า <code>datetime</code>:      <ul>        <li><code>text</code>: ค่า <code>datetime</code> จากการแทนข้อความ ดู <code>DateTime.FromText</code> สําหรับรายละเอียด</li>        <li><code>date</code>: <code>datetime</code> ที่มี <code>value</code> เป็นคอมโพเนนต์วันที่และ <code>12:00:00 AM</code> เป็นคอมโพเนนต์เวลา</li>        <li><code>datetimezone </code>: <code>datetime</code> ท้องถิ่นที่เทียบเท่ากับ <code>value</code></li>        <li><code>time</code>: <code>datetime</code> ที่มีวันที่เทียบเท่ากับ OLE Automation Date ของ <code>0</code> เป็นคอมโพเนนต์วันที่และ <code>value</code> เป็นคอมโพเนนต์เวลา</li>        <li><code>number</code>: <code>datetime</code> ที่เทียบเท่ากับ OLE Automation Date ที่แสดงโดย <code>value</code></li>      </ul>ถ้า <code>value</code> เป็นชนิดอื่นๆ ข้อผิดพลาดจะถูกส่งกลับ
+ส่งกลับค่า `datetime` จาก `value` ที่ระบุ นอกจากนี้อาจมี `culture` เพิ่มเติม (ตัวอย่างเช่น "en-US") ถ้า `value` ที่ระบุเป็น `null` `DateTime.From` จะส่งกลับ `null` ถ้า `value` ที่ระบุเป็น `datetime` `value` จะถูกส่งกลับ ค่าชนิดต่อไปนี้สามารถแปลงเป็นค่า `datetime`:
+
+-   `text`: ค่า `datetime` จากการแทนข้อความ ดู `DateTime.FromText` สําหรับรายละเอียด
+-   `date`: `datetime` ที่มี `value` เป็นคอมโพเนนต์วันที่และ `12:00:00 AM` เป็นคอมโพเนนต์เวลา
+-   `datetimezone` : `datetime` ท้องถิ่นที่เทียบเท่ากับ `value`
+-   `time`: `datetime` ที่มีวันที่เทียบเท่ากับ OLE Automation Date ของ `0` เป็นคอมโพเนนต์วันที่และ `value` เป็นคอมโพเนนต์เวลา
+-   `number`: `datetime` ที่เทียบเท่ากับ OLE Automation Date ที่แสดงโดย `value`
+
+ถ้า `value` เป็นชนิดอื่นๆ ข้อผิดพลาดจะถูกส่งกลับ
 
 
 ## Examples
 
-### Example #1 
-แปลง &lt;code&gt;#time(06, 45, 12)&lt;/code&gt; เป็นค่า &lt;code&gt;datetime&lt;/code&gt;
+### Example #1
+แปลง `#time(06, 45, 12)` เป็นค่า `datetime`
 ```powerquery
 DateTime.From(#time(06, 45, 12))
 ```
@@ -37,8 +45,8 @@ Result:
 ```
 
 
-### Example #2 
-แปลง &lt;code&gt;#date(1975, 4, 4)&lt;/code&gt; เป็นค่า &lt;code&gt;datetime&lt;/code&gt;
+### Example #2
+แปลง `#date(1975, 4, 4)` เป็นค่า `datetime`
 ```powerquery
 DateTime.From(#date(1975, 4, 4))
 ```

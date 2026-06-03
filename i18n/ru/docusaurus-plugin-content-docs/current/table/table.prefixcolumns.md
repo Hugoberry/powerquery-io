@@ -20,12 +20,12 @@ Table.PrefixColumns(
 
 ## Remarks
 
-Возвращает таблицу, где все имена столбцов из предоставленной "<code>table</code>" имеют в качестве префикса заданный текст (<code>prefix</code>), а также точку в формате <code>prefix</code><code>.ColumnName</code>.
+Возвращает таблицу, где все имена столбцов из `table` имеют префикс с указанным текстом `prefix`, плюс точка, в формате `prefix.ColumnName`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Задание префикса MyTable для столбцов в таблице.
 ```powerquery
 Table.PrefixColumns(

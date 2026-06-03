@@ -22,13 +22,13 @@ Table.AddRankColumn(
 
 ## Remarks
 
-<code>newColumnName</code> adlı bir kolonu <code>table</code>sütununa <code>comparisonCriteria</code> tarafından açıklanan bir veya daha fazla sütunun sıralamasıyla ekler.<code>options</code> öğesindeki RankKind seçeneği, gelişmiş kullanıcılar tarafından daha belirli bir sıralama yöntemi seçmek için kullanılabilir.
+`newColumnName` adlı bir kolonu `table`sütununa `comparisonCriteria` tarafından açıklanan bir veya daha fazla sütunun sıralamasıyla ekler.`options` öğesindeki RankKind seçeneği, gelişmiş kullanıcılar tarafından daha belirli bir sıralama yöntemi seçmek için kullanılabilir.
 
 
 ## Examples
 
-### Example #1 
-&#34;Revenue&#34; sütununu en yüksekten en düşüğe sıralayan tabloya &#34;Revenue Rank&#34; adlı bir sütun ekleyin.
+### Example #1
+"Revenue" sütununu en yüksekten en düşüğe sıralayan tabloya "Revenue Rank" adlı bir sütun ekleyin.
 ```powerquery
 Table.AddRankColumn(
     Table.FromRecords({

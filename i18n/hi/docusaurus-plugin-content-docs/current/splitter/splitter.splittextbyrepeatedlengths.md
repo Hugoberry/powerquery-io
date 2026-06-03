@@ -25,7 +25,7 @@ Splitter.SplitTextByRepeatedLengths(
 
 ## Examples
 
-### Example #1 
+### Example #1
 इनपुट की शुरुआत से प्रारंभ करके, इनपुट को तीन वर्णों के टुकड़ों में बार-बार विभाजित करें.
 ```powerquery
 Splitter.SplitTextByRepeatedLengths(3)("12345678")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 इनपुट के अंत से प्रारंभ करते हुए, इनपुट को तीन वर्णों के टुकड़ों में बार-बार विभाजित करें.
 ```powerquery
 let

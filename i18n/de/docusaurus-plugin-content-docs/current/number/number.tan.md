@@ -19,12 +19,12 @@ Number.Tan(
 
 ## Remarks
 
-Gibt den Tangens von <code>number</code> zurück.
+Gibt den Tangens von `number` zurück.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ermittelt den Tangens des Winkels 1.
 ```powerquery
 Number.Tan(1)

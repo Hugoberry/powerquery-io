@@ -5,7 +5,7 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-Anvender nye navne fra en liste i formatet \{ old, new }.
+Anvender nye navne fra en liste i formatet \{ old, new \}.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Record.RenameFields(
 
 ## Remarks
 
-Returnerer en post efter at have omdøbt felter i inputtet <code>record</code> til de nye feltnavne, der er angivet på listen <code>renames</code>. Hvis flere felter skal omdøbes, kan der bruges en indlejret liste (\{ \{old1, new1}, \{old2, new2} }.
+Returnerer en post efter at have omdøbt felter i inputtet `record` til de nye feltnavne, der er angivet på listen `renames`. For flere omdøbninger kan der bruges en indlejret liste (\{ \{old1, new1\}, \{old2, new2\} \}).
 
 
 ## Examples
 
-### Example #1 
-Omdøb feltet &#34;UnitPrice&#34; til &#34;Price&#34; fra posten.
+### Example #1
+Omdøb feltet "UnitPrice" til "Price" fra posten.
 ```powerquery
 Record.RenameFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", UnitPrice = 100.0],
@@ -41,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-Omdøb felterne &#34;UnitPrice&#34; til &#34;Price&#34; og &#34;OrderNum&#34; til &#34;OrderID&#34; fra posten.
+### Example #2
+Omdøb felterne "UnitPrice" til "Price" og "OrderNum" til "OrderID" fra posten.
 ```powerquery
 Record.RenameFields(
     [OrderNum = 1, CustomerID = 1, Item = "Fishing rod", UnitPrice = 100.0],

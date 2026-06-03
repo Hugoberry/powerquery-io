@@ -25,7 +25,7 @@ Returnerar en funktion som delar upp text i en lista med text enligt angivna fö
 
 ## Examples
 
-### Example #1 
+### Example #1
 Dela indata med angiven position och längdpar, med början från början av indata. Observera att intervallen i det här exemplet överlappar varandra.
 ```powerquery
 Splitter.SplitTextByRanges({{0, 4}, {2, 10}})("codelimiter")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Dela indata med angiven position och längdpar, med början från slutet av indata.
 ```powerquery
 let
@@ -52,7 +52,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Dela indata i ett postnummer med fast längd följt av ett ortnamn med variabel längd.
 ```powerquery
 Splitter.SplitTextByRanges({{0, 5}, {5, null}})("98052Redmond")

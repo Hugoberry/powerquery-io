@@ -19,13 +19,13 @@ List.Reverse(
 
 ## Remarks
 
-Retorna uma lista com os valores da lista <code>list</code> na ordem inversa.
+Retorna uma lista com os valores da lista `list` na ordem inversa.
 
 
 ## Examples
 
-### Example #1 
-Crie uma lista a partir de \{1..10} na ordem inversa.
+### Example #1
+Crie uma lista a partir de \{1..10\} na ordem inversa.
 ```powerquery
 List.Reverse({1..10})
 ```

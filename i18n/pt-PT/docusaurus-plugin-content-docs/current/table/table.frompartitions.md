@@ -21,13 +21,13 @@ Table.FromPartitions(
 
 ## Remarks
 
-Devolve uma tabela que é o resultado da combinação de um conjunto de tabelas particionadas, <code>partitions</code>. <code>partitionColumn</code> é o nome da coluna a adicionar. O tipo da coluna é predefinido como <code>any</code>, mas pode ser especificado por <code>partitionColumnType</code>.
+Devolve uma tabela que é o resultado da combinação de um conjunto de tabelas particionadas, `partitions`. `partitionColumn` é o nome da coluna a adicionar. O tipo da coluna é predefinido como `any`, mas pode ser especificado por `partitionColumnType`.
 
 
 ## Examples
 
-### Example #1 
-Localizar tipo de item a partir da lista &lt;code&gt;\{number}&lt;/code&gt;.
+### Example #1
+Localizar tipo de item a partir da lista `{number}`.
 ```powerquery
 Table.FromPartitions(
     "Year",

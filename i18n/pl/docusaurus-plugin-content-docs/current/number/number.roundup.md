@@ -20,12 +20,12 @@ Number.RoundUp(
 
 ## Remarks
 
-Zwraca wynik zaokrąglenia liczby <code>number</code> w górę do następnej najwyższej liczby całkowitej. Jeśli parametr <code>number</code> ma wartość null, to funkcja zwróci wartość null. Jeśli parametr <code>digits</code> jest określony, liczba <code>number</code> jest zaokrąglana do określonej liczby miejsc po przecinku.
+Zwraca wynik zaokrąglenia liczby `number` w górę do następnej najwyższej liczby całkowitej. Jeśli parametr `number` ma wartość null, to funkcja zwróci wartość null. Jeśli parametr `digits` jest określony, liczba `number` jest zaokrąglana do określonej liczby miejsc po przecinku.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zaokrąglij w górę do liczby całkowitej wartość 1,234.
 ```powerquery
 Number.RoundUp(1.234)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Zaokrąglij w górę do liczby całkowitej wartość 1,999.
 ```powerquery
 Number.RoundUp(1.999)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Zaokrąglij w górę liczbę 1,234 do dwóch miejsc po przecinku.
 ```powerquery
 Number.RoundUp(1.234, 2)

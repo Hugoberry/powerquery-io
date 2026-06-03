@@ -19,7 +19,7 @@ Cube.Dimensions(
 
 ## Remarks
 
-Restituisce una tabella contenente il set di dimensioni disponibili all'interno di <code>cube</code>. Ogni dimensione è una tabella contenente un set di attributi di dimensione e ogni attributo di dimensione è rappresentato come colonna della tabella delle dimensioni. Le dimensioni possono essere espanse nel cubo utilizzando Cube.AddAndExpandDimensionColumn. 
+Restituisce una tabella contenente il set di dimensioni disponibili all'interno di `cube`. Ogni dimensione è una tabella contenente un set di attributi di dimensione e ogni attributo di dimensione è rappresentato come colonna della tabella delle dimensioni. Le dimensioni possono essere espanse nel cubo utilizzando Cube.AddAndExpandDimensionColumn.
 
 
 

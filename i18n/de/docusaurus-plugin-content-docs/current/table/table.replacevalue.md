@@ -23,13 +23,19 @@ Table.ReplaceValue(
 
 ## Remarks
 
-Ersetzt "<code>oldValue</code>" in den angegebenen Spalten des Elements vom Typ "<code>table</code>" durch "<code>newValue</code>".
+Ersetzt einen Wert durch einen neuen Wert in den angegebenen Spalten einer Tabelle.
+
+-   `table`: Die zu durchsuchende Tabelle.
+-   `oldValue`: Der zu ersetzende Wert.
+-   `newValue`: Der Ersetzungswert.
+-   `replacer`: Die zu verwendende Ersetzungsfunktion. Die Funktion kann entweder `Replacer.ReplaceText` sein, um den ursprünglichen Text durch neuen Text zu ersetzen, `Replacer.ReplaceValue`, um den ursprünglichen Wert durch einen neuen Wert zu ersetzen, oder eine benutzerdefinierte Ersetzungsfunktion.
+-   `columnsToSearch`: Eine Liste, die die bestimmte Spalte oder Spalten in der Tabelle enthält, um nach dem zu ersetzenden Wert zu suchen.
 
 
 ## Examples
 
-### Example #1 
-Ersetzen Sie den Text &#34;goodbye&#34; durch &#34;world&#34; in Spalte B, der nur mit dem gesamten Wert übereinstimmt.
+### Example #1
+Ersetzen Sie den Text "goodbye" durch "world" in Spalte B, der nur mit dem gesamten Wert übereinstimmt.
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -54,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Ersetzen Sie den Text &#34;ur&#34; durch &#34;or&#34; in Spalte B, der mit einem beliebigen Teil des Werts übereinstimmt.
+### Example #2
+Ersetzen Sie den Text "ur" durch "or" in Spalte B, der mit einem beliebigen Teil des Werts übereinstimmt.
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -78,7 +84,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Anonymisieren Sie die Namen von Mitarbeitern in den USA.
 ```powerquery
 Table.ReplaceValue(
@@ -102,7 +108,7 @@ Table.FromRecords({
 ```
 
 
-### Example #4 
+### Example #4
 Anonymisieren Sie alle Spalten von Mitarbeitern in den USA.
 ```powerquery
 Table.ReplaceValue(

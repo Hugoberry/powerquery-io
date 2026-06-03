@@ -19,12 +19,14 @@ Date.IsInYearToDate(
 
 ## Remarks
 
-ระบุว่าค่าวันที่เวลาที่ระบุ <code>dateTime</code> เกิดขึ้นระหว่างปีปัจจุบันหรือไม่ และอยู่ในหรือก่อนวันปัจจุบันตามที่กำหนดโดยวันที่และเวลาปัจจุบันในระบบ      <ul>      <li><code>dateTime</code>: ค่า <code>date</code>, <code>datetime</code> หรือ <code>datetimezone</code> ที่จะประเมิน</li>      </ul>
+ระบุว่าค่าวันที่เวลาที่ระบุ `dateTime` เกิดขึ้นระหว่างปีปัจจุบันหรือไม่ และอยู่ในหรือก่อนวันปัจจุบันตามที่กำหนดโดยวันที่และเวลาปัจจุบันในระบบ
+
+-   `dateTime`: ค่า `date`, `datetime` หรือ `datetimezone` ที่จะประเมิน
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 กำหนดว่าเวลาของระบบปัจจุบันอยู่ในช่วงเริ่มต้นปีถึงปัจจุบันหรือไม่
 ```powerquery
 Date.IsInYearToDate(DateTime.FixedLocalNow())

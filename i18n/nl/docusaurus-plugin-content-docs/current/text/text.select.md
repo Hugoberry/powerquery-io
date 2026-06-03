@@ -20,12 +20,12 @@ Text.Select(
 
 ## Remarks
 
-Hiermee wordt een kopie van de tekstwaarde <code>text</code> geretourneerd waarbij alle tekens die niet in <code>selectChars</code> voorkomen worden verwijderd.  
+Hiermee wordt een kopie van de tekstwaarde `text` geretourneerd waarbij alle tekens die niet in `selectChars` voorkomen worden verwijderd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Alle tekens in het bereik a tot z selecteren in de tekstwaarde.
 ```powerquery
 Text.Select("a,b;c", {"a".."z"})

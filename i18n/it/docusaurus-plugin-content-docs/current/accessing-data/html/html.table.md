@@ -5,7 +5,7 @@ title: Html.Table
 # Html.Table
 
 
-Restituisce una tabella contenente i risultati dell&#39;esecuzione dei selettori CSS specificati rispetto al codice HTML specificato.
+Restituisce una tabella contenente i risultati dell'esecuzione dei selettori CSS specificati rispetto al codice HTML specificato.
 
 
 ## Syntax
@@ -21,12 +21,14 @@ Html.Table(
 
 ## Remarks
 
-Restituisce una tabella che contiene i risultati dell'esecuzione dei selettori CSS specificati sull'elemento <code>html</code> fornito. È possibile fornire un parametro di record facoltativo, <code>options</code>, per specificare proprietà aggiuntive. Il record può contenere i campi seguenti:    <ul><li><code>RowSelector</code></li></ul>    
+Restituisce una tabella che contiene i risultati dell'esecuzione dei selettori CSS specificati sull'elemento `html` fornito. È possibile fornire un parametro di record facoltativo, `options`, per specificare proprietà aggiuntive. Il record può contenere i campi seguenti:
+
+-   `RowSelector`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Restituisce una tabella da un valore di testo HTML di esempio.
 ```powerquery
 Html.Table("<div class=""name"">Jo</div><span>Manager</span>", {{"Name", ".name"}, {"Title", "span"}}, [RowSelector=".name"])
@@ -38,7 +40,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Estrae tutti gli HREF da un valore di testo HTML di esempio.
 ```powerquery
 Html.Table("<a href=""/test.html"">Test</a>", {{"Link", "a", each [Attributes][href]}})
@@ -53,4 +55,4 @@ Result:
 
 
 ## Category
-Accesso ai dati
+Accessing data

@@ -23,12 +23,18 @@ Table.ReplaceValue(
 
 ## Remarks
 
-Zamienia wartość <code>oldValue</code> na wartość <code>newValue</code> w określonych kolumnach tabeli <code>table</code>.
+Zamienia wartość na nową wartość w określonych kolumnach tabeli.
+
+-   `table`: tabela do przeszukania.
+-   `oldValue`: wartość do zastąpienia.
+-   `newValue`: wartość zastępcza.
+-   `replacer`: funkcja zamiennika do użycia. Funkcją może być `Replacer.ReplaceText` w celu zastąpienia oryginalnego tekstu nowym tekstem, `Replacer.ReplaceValue` w celu zastąpienia oryginalnej wartości nową wartością lub niestandardowym zamiennikiem.
+-   `columnsToSearch`: lista zawierająca określoną kolumnę lub kolumny w tabeli do wyszukania wartości do zastąpienia.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zamień tekst „do widzenia” na „świat” w kolumnie B, dopasowując tylko całą wartość.
 ```powerquery
 Table.ReplaceValue(
@@ -54,7 +60,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Zamień tekst „ur” na „lub” w kolumnie B, dopasowując dowolną część wartości.
 ```powerquery
 Table.ReplaceValue(
@@ -78,7 +84,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Anonimizuj imiona i nazwiska pracowników w Stanach Zjednoczonych.
 ```powerquery
 Table.ReplaceValue(
@@ -102,7 +108,7 @@ Table.FromRecords({
 ```
 
 
-### Example #4 
+### Example #4
 Anonimizuj wszystkie kolumny pracowników w Stanach Zjednoczonych.
 ```powerquery
 Table.ReplaceValue(

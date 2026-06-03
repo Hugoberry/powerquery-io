@@ -22,7 +22,7 @@ Cube.AddAndExpandDimensionColumn(
 
 ## Remarks
 
-Slår ihop den angivna dimensionstabellen (<code>dimensionSelector</code>) med kubens (<code>cube</code>) filterkontext och ändrar filterkontextens dimensionsgranularitet genom att expandera den angivna uppsättningen (<code>attributeNames</code>) med dimensionsattribut. Dimensionsattributen läggs till i tabellvyn med kolumner namngivna <code>newColumnNames</code>, eller <code>attributeNames</code> om inget anges.
+Sammanfogar den angivna dimensionstabellen `dimensionSelector` i filterkontexten för `cube` och ändrar dimensionskornigheten genom att expandera den angivna uppsättningen, `attributeNames`, för dimensionsattribut. Dimensionsattributen läggs till i tabellvyn med kolumner namngivna `newColumnNames`, eller `attributeNames` om inget anges.
 
 
 

@@ -20,12 +20,15 @@ List.Random(
 
 ## Remarks
 
-Hiermee wordt een lijst met willekeurige getallen tussen 0 en 1 geretourneerd, met het aantal opgegeven waarden om te genereren en een optionele seedwaarde.<ul> <li><code>count</code>: het aantal willekeurige waarden om te genereren.</li> <li><code>seed</code>: <i>[Optioneel]</i> Een numerieke waarde die wordt gebruikt om de willekeurige getallengenerator te seeden. Als dit wordt weggelaten, wordt een unieke lijst met willekeurige getallen gegenereerd wanneer u de functie aanroept. Als u de seedwaarde met een getal opgeeft, wordt bij elke aanroep naar de functie dezelfde lijst met willekeurige getallen gegenereerd.</li></ul>
+Hiermee wordt een lijst met willekeurige getallen tussen 0 en 1 geretourneerd, met het aantal opgegeven waarden om te genereren en een optionele seedwaarde.
+
+-   `count`: het aantal willekeurige waarden om te genereren.
+-   `seed`: *\[Optioneel\]* Een numerieke waarde die wordt gebruikt om de willekeurige getallengenerator te seeden. Als dit wordt weggelaten, wordt een unieke lijst met willekeurige getallen gegenereerd wanneer u de functie aanroept. Als u de seedwaarde met een getal opgeeft, wordt bij elke aanroep naar de functie dezelfde lijst met willekeurige getallen gegenereerd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een lijst met drie willekeurig getallen maken.
 ```powerquery
 List.Random(3)
@@ -37,7 +40,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Een lijst met drie willekeurig getallen maken en daarvoor een basiswaarde opgeven.
 ```powerquery
 List.Random(3, 2)

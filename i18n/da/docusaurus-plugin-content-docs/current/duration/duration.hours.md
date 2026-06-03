@@ -19,12 +19,12 @@ Duration.Hours(
 
 ## Remarks
 
-Returnerer timedelen af <code>duration</code>.
+Returnerer timedelen af `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Udtræk timerne fra en varighedsværdi.
 ```powerquery
 Duration.Hours(#duration(5, 4, 3, 2))

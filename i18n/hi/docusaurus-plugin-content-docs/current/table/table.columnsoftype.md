@@ -20,12 +20,12 @@ Table.ColumnsOfType(
 
 ## Remarks
 
-तालिका <code>table</code> से ऐसे स्तंभ नामों वाली सूची लौटाता है जिनका मिलान <code>listOfTypes</code> में निर्दिष्ट प्रकारों से होता है.
+तालिका `table` से ऐसे स्तंभ नामों वाली सूची लौटाता है जिनका मिलान `listOfTypes` में निर्दिष्ट प्रकारों से होता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 तालिका से Number.Type प्रकार के स्तंभ के नाम लौटाएँ.
 ```powerquery
 Table.ColumnsOfType(

@@ -21,13 +21,13 @@ Table.RemoveColumns(
 
 ## Remarks
 
-从提供的 <code>table</code> 中删除指定的 <code>columns</code>。    如果指定列不存在，则会引发错误，除非可选参数 <code>missingField</code> 指定备用行为(例如，<code>MissingField.UseNull</code> 或 <code>MissingField.Ignore</code>)。
+从提供的 `table` 中删除指定的 `columns`。 如果指定列不存在，则会引发错误，除非可选参数 `missingField` 指定备用行为(例如，`MissingField.UseNull` 或 `MissingField.Ignore`)。
 
 
 ## Examples
 
-### Example #1 
-从表中删除列 [Phone]。
+### Example #1
+从表中删除列 \[Phone\]。
 ```powerquery
 Table.RemoveColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -41,7 +41,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #2 
+### Example #2
 尝试从表中删除不存在的列。
 ```powerquery
 Table.RemoveColumns(

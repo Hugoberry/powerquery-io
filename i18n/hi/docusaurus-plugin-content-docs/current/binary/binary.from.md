@@ -20,13 +20,17 @@ Binary.From(
 
 ## Remarks
 
-दिए गए <code>value</code> से <code>बाइनरी</code> मान वापस करता है. यदि दिया गया <code>value</code> <code>नल</code> है, तो <code>Binary.From</code> <code>नल</code> वापस करता है.  यदि दिया गया <code>value</code> <code>बाइनरी</code> है, तो <code>value</code> वापस किया जाता है. Values निम्न प्रकार के मान को <code>बाइनरी</code> मान का उपयोग करके रूपांतरित किया जा सकता है:      <ul>        <li><code>पाठ</code>: पाठ प्रस्तुतिकरण से <code>बाइनरी</code> मान. विवरण के लिए <code>Binary.FromText</code> का संदर्भ लें.</li>      </ul>यदि <code>value</code> किसी अन्य प्रकार का है, तो त्रुटि वापस की जाती है.
+दिए गए `value` से `बाइनरी` मान वापस करता है. यदि दिया गया `value` `नल` है, तो `Binary.From` `नल` वापस करता है. यदि दिया गया `value` `बाइनरी` है, तो `value` वापस किया जाता है. Values निम्न प्रकार के मान को `बाइनरी` मान का उपयोग करके रूपांतरित किया जा सकता है:
+
+-   `पाठ`: पाठ प्रस्तुतिकरण से `बाइनरी` मान. विवरण के लिए `Binary.FromText` का संदर्भ लें.
+
+यदि `value` किसी अन्य प्रकार का है, तो त्रुटि वापस की जाती है.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;&#34;1011&#34;&lt;/code&gt; का &lt;code&gt;binary&lt;/code&gt; मान प्राप्त करें.
+### Example #1
+`"1011"` का `binary` मान प्राप्त करें.
 ```powerquery
 Binary.From("1011")
 ```

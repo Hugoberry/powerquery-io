@@ -21,13 +21,13 @@ Table.FromPartitions(
 
 ## Remarks
 
-Trả về một bảng là kết quả của việc kết hợp một loạt bảng được phân vùng, <code>partitions</code>. <code>partitionColumn</code> là tên của cột cần thêm. Loại cột mặc định là <code>bất kỳ</code> nhưng có thể được chỉ định bởi <code>partitionColumnType</code>.
+Trả về một bảng là kết quả của việc kết hợp một loạt bảng được phân vùng, `partitions`. `partitionColumn` là tên của cột cần thêm. Loại cột mặc định là `bất kỳ` nhưng có thể được chỉ định bởi `partitionColumnType`.
 
 
 ## Examples
 
-### Example #1 
-Tìm loại mục từ danh sách &lt;code&gt;\{number}&lt;/code&gt;.
+### Example #1
+Tìm loại mục từ danh sách `{number}`.
 ```powerquery
 Table.FromPartitions(
     "Year",

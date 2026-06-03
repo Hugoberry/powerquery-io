@@ -25,7 +25,7 @@ Vis tabellerne på en liste i en Azure Spark-instans.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Vis tabellerne på en liste i en Azure Spark-instans.
 ```powerquery
 AzureSpark.Tables("contoso.azurehdinsight.net")

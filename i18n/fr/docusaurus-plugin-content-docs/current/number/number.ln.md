@@ -19,12 +19,12 @@ Number.Ln(
 
 ## Remarks
 
-Retourne le logarithme népérien d'un nombre, <code>number</code>. Si <code>number</code> a la valeur null, <code>Number.Ln</code> retourne null.
+Retourne le logarithme népérien d'un nombre, `number`. Si `number` a la valeur null, `Number.Ln` retourne null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Obtient le logarithme népérien de 15.
 ```powerquery
 Number.Ln(15)

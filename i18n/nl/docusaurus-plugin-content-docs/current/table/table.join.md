@@ -25,12 +25,25 @@ Table.Join(
 
 ## Remarks
 
-Hiermee worden de rijen van <code>table1</code> gekoppeld aan de rijen van <code>table2</code> op basis van de gelijkheid van de waarden van de sleutelkolommen die zijn geselecteerd met <code>key1</code> (voor <code>table1</code>) en <code>key2</code> (voor <code>table2</code>).<br />Standaard wordt er een binnen-join uitgevoerd, maar een optionele <code>joinKind</code> kan worden opgenomen om het type join op te geven. De opties zijn onder andere: <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Een optionele set van <code>keyEqualityComparers</code> kan worden opgenomen om op te geven hoe de sleutelkolommen moeten worden vergeleken. Deze functie is momenteel uitsluitend bedoeld voor intern gebruik.<br />
+Hiermee worden de rijen van `table1` gekoppeld aan de rijen van `table2` op basis van de gelijkheid van de waarden van de sleutelkolommen die zijn geselecteerd met `key1` (voor `table1`) en `key2` (voor `table2`).
+
+Standaard wordt er een binnen-join uitgevoerd, maar een optionele `joinKind` kan worden opgenomen om het type join op te geven. De opties zijn onder andere:
+
+-   `JoinKind.Inner`
+-   `JoinKind.LeftOuter`
+-   `JoinKind.RightOuter`
+-   `JoinKind.FullOuter`
+-   `JoinKind.LeftAnti`
+-   `JoinKind.RightAnti`
+-   `JoinKind.LeftSemi`
+-   `JoinKind.RightSemi`
+
+Een optionele set van `keyEqualityComparers` kan worden opgenomen om op te geven hoe de sleutelkolommen moeten worden vergeleken. Deze functie is momenteel uitsluitend bedoeld voor intern gebruik.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Twee tabellen samenvoegen met één sleutelkolom.
 ```powerquery
 Table.Join(
@@ -67,7 +80,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Koppel twee tabellen met conflicterende kolomnamen met behulp van meerdere sleutelkolommen.
 ```powerquery
 let

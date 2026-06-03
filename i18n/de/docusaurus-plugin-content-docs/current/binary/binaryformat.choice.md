@@ -22,12 +22,22 @@ BinaryFormat.Choice(
 
 ## Remarks
 
-Gibt ein Binärformat zurück, das das nächste Binärformat auf der Grundlage eines bereits gelesenen Werts auswählt.  Der Wert im Binärformat, der von dieser Funktion erzeugt wird, besitzt mehrere Phasen:<ul><li>Das durch den Parameter '<code>binaryFormat</code>' angegebene Binärformat wird verwendet, um einen Wert zu lesen.</li><li>Der Wert wird an die durch den Parameter '<code>chooseFunction</code>' angegebene Auswahlfunktion übergeben.</li><li>Die Auswahlfunktion überprüft den Wert und gibt ein zweites Binärformat zurück.</li><li>Das zweite Binärformat wird verwendet, um einen zweiten Wert zu lesen.</li><li>Wenn die Zusammenfassungsfunktion angegeben ist, werden der erste und zweite Wert an die Zusammenfassungsfunktion übergeben und der resultierende Wert zurückgegeben.</li><li>Wenn die Zusammenfassungsfunktion nicht angegeben ist, wird der zweite Wert zurückgegeben.</li><li>Der zweite Wert wird zurückgegeben.</li></ul>Der optionale Parameter '<code>type</code>' gibt die Art des Binärformats an, das von der Auswahlfunktion zurückgegeben wird.  Sie können entweder <code>type any</code>, <code>type list</code> oder <code>type binary</code> angeben.  Ohne Angabe des Parameters '<code>type</code>' wird <code>type any</code> verwendet.   Bei Verwendung von <code>type list</code> oder <code>type binary</code> kann vom System u. U. anstelle eines gepufferten Werts ein <code>binary</code>- oder <code>list</code>-Streamingwert zurückgegeben werden, wodurch sich ggf. der Arbeitsspeicherbedarf beim Lesen des Formats verringert.
+Gibt ein Binärformat zurück, das das nächste Binärformat auf der Grundlage eines bereits gelesenen Werts auswählt. Der Wert im Binärformat, der von dieser Funktion erzeugt wird, besitzt mehrere Phasen:
+
+-   Das durch den Parameter '`binaryFormat`' angegebene Binärformat wird verwendet, um einen Wert zu lesen.
+-   Der Wert wird an die durch den Parameter '`chooseFunction`' angegebene Auswahlfunktion übergeben.
+-   Die Auswahlfunktion überprüft den Wert und gibt ein zweites Binärformat zurück.
+-   Das zweite Binärformat wird verwendet, um einen zweiten Wert zu lesen.
+-   Wenn die Zusammenfassungsfunktion angegeben ist, werden der erste und zweite Wert an die Zusammenfassungsfunktion übergeben und der resultierende Wert zurückgegeben.
+-   Wenn die Zusammenfassungsfunktion nicht angegeben ist, wird der zweite Wert zurückgegeben.
+-   Der zweite Wert wird zurückgegeben.
+
+Der optionale Parameter '`type`' gibt die Art des Binärformats an, das von der Auswahlfunktion zurückgegeben wird. Sie können entweder `type any`, `type list` oder `type binary` angeben. Ohne Angabe des Parameters '`type`' wird `type any` verwendet. Bei Verwendung von `type list` oder `type binary` kann vom System u. U. anstelle eines gepufferten Werts ein `binary`\- oder `list`\-Streamingwert zurückgegeben werden, wodurch sich ggf. der Arbeitsspeicherbedarf beim Lesen des Formats verringert.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Liest eine Liste mit Bytes, bei der die Anzahl von Elementen durch das erste Byte bestimmt wird.
 ```powerquery
 let
@@ -46,7 +56,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Liest eine Liste mit Bytes, bei der die Anzahl von Elementen durch das erste Byte bestimmt wird, und behält das erste gelesene Byte bei.
 ```powerquery
 let
@@ -68,7 +78,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Liest eine Liste mit Bytes, bei der die Anzahl von Elementen durch das erste Byte bestimmt wird, unter Verwendung einer Streamingliste.
 ```powerquery
 let

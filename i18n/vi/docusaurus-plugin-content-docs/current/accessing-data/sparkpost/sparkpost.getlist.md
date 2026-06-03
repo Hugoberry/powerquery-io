@@ -22,8 +22,8 @@ Có thể sử dụng chức năng này để gọi bất kỳ điểm cuối "D
 
 ## Examples
 
-### Example #1 
-Trả về bảng có duy nhất một cột đã điền sẵn dữ liệu từ một trong các điểm cuối &#34;Danh sách&#34; của API SparkPost phiên bản 1 (xem tài liệu về SparkPost để biết thông tin chi tiết).
+### Example #1
+Trả về bảng có duy nhất một cột đã điền sẵn dữ liệu từ một trong các điểm cuối "Danh sách" của API SparkPost phiên bản 1 (xem tài liệu về SparkPost để biết thông tin chi tiết).
 ```powerquery
 Source = SparkPost.GetList("metrics/campaigns")
 ```

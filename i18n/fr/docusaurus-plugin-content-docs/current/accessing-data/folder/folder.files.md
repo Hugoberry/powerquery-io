@@ -20,7 +20,27 @@ Folder.Files(
 
 ## Remarks
 
-Renvoie un tableau contenant une ligne pour chaque fichier <code>path</code>trouvé dans le dossier et tous ses sous-dossiers. Chaque ligne contient les propriétés du fichier et un lien vers son contenu. Ce <code>options</code>paramètre est actuellement destiné à un usage interne uniquement.
+Retourne une table contenant une ligne pour chaque fichier trouvé dans le dossier spécifié et tous ses sous-dossiers.
+
+-   `path` : Le chemin d’accès au dossier à partir duquel vous souhaitez récupérer les fichiers. Le chemin d'accès de dossier spécifié doit être un chemin d'accès absolu valide.
+-   `options` : (Facultatif) Ce paramètre est actuellement destiné à un usage interne uniquement.
+
+Chaque ligne de la table retournée contient les propriétés du fichier et un lien vers son contenu.
+
+
+## Examples
+
+### Example #1
+Retournez une table contenant tous les fichiers trouvés dans C:\\test-examples\\example-folder et tous ses sous-dossiers.
+```powerquery
+Folder.Files("C:\test-examples\example-folder")
+```
+
+Result: 
+```powerquery
+A table containing the files, their properties, and a link to their content.
+```
+
 
 
 

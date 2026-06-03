@@ -22,7 +22,7 @@ Den här funktionen kan användas för att anropa någon av de Listor-slutpunkte
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnerar en tabell med en enskild kolumn ifylld med data från en av SparkPost API v1 Listor-slutpunkterna (se SparkPost-dokumentationen för information).
 ```powerquery
 Source = SparkPost.GetList("metrics/campaigns")

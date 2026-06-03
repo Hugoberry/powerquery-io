@@ -25,7 +25,7 @@ Belirtilen uzunlukları kullanarak metin değerleri listesini tek bir metin değ
 
 ## Examples
 
-### Example #1 
+### Example #1
 Her giriş değerinden belirtilen sayıda karakteri çıkararak bir metin değerleri listesini birleştirin.
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3})({"aaa", "bbb", "ccc"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Sonucu şablon metniyle önceden doldurduktan sonra, belirtilen sayıda karakteri çıkararak bir metin değerleri listesini birleştirin.
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3}, "*********")({"aaa", "bbb", "ccc"})

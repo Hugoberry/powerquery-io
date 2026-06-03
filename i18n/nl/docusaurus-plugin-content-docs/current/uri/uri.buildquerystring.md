@@ -19,12 +19,12 @@ Uri.BuildQueryString(
 
 ## Remarks
 
-Voeg de record <code>query</code> samen in een URI-queryreeks, waarbij tekens zo nodig worden voorzien van escape-tekens.
+Voeg de record `query` samen in een URI-queryreeks, waarbij tekens zo nodig worden voorzien van escape-tekens.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een queryreeks coderen die een aantal speciale tekens bevat.
 ```powerquery
 Uri.BuildQueryString([a = "1", b = "+$"])

@@ -19,7 +19,7 @@ Value.Expression(
 
 ## Remarks
 
-Trả về một cây cú pháp trừu tượng (AST) đại diện cho biểu thức của giá trị
+Trả về một cây cú pháp trừu tượng đại diện cho biểu thức của giá trị.
 
 
 

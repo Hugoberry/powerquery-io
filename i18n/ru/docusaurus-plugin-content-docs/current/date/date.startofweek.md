@@ -20,12 +20,12 @@ Date.StartOfWeek(
 
 ## Remarks
 
-Возвращает начало недели, которая содержит <code>dateTime</code>.    <code>dateTime</code> должно быть значением <code>date</code>, <code>datetime</code> или <code>datetimezone</code>.
+Возвращает начало недели, которая содержит `dateTime`. `dateTime` должно быть значением `date`, `datetime` или `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Найти начало недели для вторника, 11 октября 2011 г.
 ```powerquery
 Date.StartOfWeek(#datetime(2011, 10, 11, 8, 10, 32))
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Найти начало недели для вторника, 11 октября 2011 г., используя понедельник в качестве начала недели.
 ```powerquery
 Date.StartOfWeek(#datetime(2011, 10, 11, 8, 10, 32), Day.Monday)

@@ -19,12 +19,12 @@ Number.IsEven(
 
 ## Remarks
 
-指出值 <code>number</code> 是否為偶數，如果是偶數，傳回 <code>true</code>，否則傳回 <code>false</code>。
+指出值 `number` 是否為偶數，如果是偶數，傳回 `true`，否則傳回 `false`。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 檢查 625 是否為偶數。
 ```powerquery
 Number.IsEven(625)
@@ -36,7 +36,7 @@ false
 ```
 
 
-### Example #2 
+### Example #2
 檢查 82 是否為偶數。
 ```powerquery
 Number.IsEven(82)

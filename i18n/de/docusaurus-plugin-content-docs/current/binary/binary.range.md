@@ -21,12 +21,12 @@ Binary.Range(
 
 ## Remarks
 
-Gibt eine Teilmenge des Binärwerts ab dem Offset "<code>binary</code>" zurück. Die maximale Länge der Teilmenge kann mithilfe eines optionalen Parameters (<code>offset</code>) festgelegt werden.
+Gibt eine Teilmenge des Binärwerts ab dem Offset "`binary`" zurück. Die maximale Länge der Teilmenge kann mithilfe eines optionalen Parameters (`offset`) festgelegt werden.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gibt eine Teilmenge des Binärwerts ab Offset 6 zurück.
 ```powerquery
 Binary.Range(#binary({0..10}), 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Gibt eine Teilmenge des Binärwerts mit der Länge 2 ab Offset 6 zurück.
 ```powerquery
 Binary.Range(#binary({0..10}), 6, 2)

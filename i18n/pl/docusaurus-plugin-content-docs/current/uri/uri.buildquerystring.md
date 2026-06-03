@@ -19,12 +19,12 @@ Uri.BuildQueryString(
 
 ## Remarks
 
-Złóż rekord <code>query</code> w ciąg zapytania URI, stosując w razie potrzeby znaki ucieczki.
+Złóż rekord `query` w ciąg zapytania URI, stosując w razie potrzeby znaki ucieczki.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kodowanie ciągu zapytania zawierającego znaki specjalne.
 ```powerquery
 Uri.BuildQueryString([a = "1", b = "+$"])

@@ -5,7 +5,7 @@ title: Table.ReplaceRows
 # Table.ReplaceRows
 
 
-Sostituisce l&#39;intervallo di righe specificato con le righe fornite.
+Sostituisce l'intervallo di righe specificato con le righe fornite.
 
 
 ## Syntax
@@ -22,12 +22,17 @@ Table.ReplaceRows(
 
 ## Remarks
 
-Sostituisce il numero specificato di righe <code>count</code> nell'input <code>table</code> con <code>rows</code> a partire da <code>offset</code>. Il parametro <code>rows</code> è un elenco di record.    <ul>       <li><code>table</code>: tabella in cui viene eseguita la sostituzione.</li>       <li><code>offset</code>: numero di righe da ignorare prima della sostituzione.</li>       <li><code>count</code>: numero di righe da sostituire.</li>       <li><code>rows</code>: elenco di record di riga da inserire in <code>table</code> alla posizione specificata da <code>offset</code>.</li>    </ul>
+Sostituisce il numero specificato di righe `count` nell'input `table` con `rows` a partire da `offset`. Il parametro `rows` è un elenco di record.
+
+-   `table`: tabella in cui viene eseguita la sostituzione.
+-   `offset`: numero di righe da ignorare prima della sostituzione.
+-   `count`: numero di righe da sostituire.
+-   `rows`: elenco di record di riga da inserire in `table` alla posizione specificata da `offset`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Sostituire 3 righe a partire dalla posizione 1.
 ```powerquery
 Table.ReplaceRows(

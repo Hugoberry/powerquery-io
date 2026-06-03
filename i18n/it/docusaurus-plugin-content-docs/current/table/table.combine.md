@@ -5,7 +5,7 @@ title: Table.Combine
 # Table.Combine
 
 
-Restituisce una tabella che rappresenta il risultato dell&#39;unione di un elenco di tabelle.
+Restituisce una tabella che rappresenta il risultato dell'unione di un elenco di tabelle.
 
 
 ## Syntax
@@ -20,12 +20,12 @@ Table.Combine(
 
 ## Remarks
 
-Restituisce una tabella che rappresenta il risultato dell'unione dell'elenco di tabelle <code>tables</code>. Se non si specifica <code>columns</code>, la struttura dei tipi di riga della tabella risultante sarà definita da <code>columns</code> o da un'unione dei tipi di input.
+Restituisce una tabella che rappresenta il risultato dell'unione dell'elenco di tabelle `tables`. Se non si specifica `columns`, la struttura dei tipi di riga della tabella risultante sarà definita da `columns` o da un'unione dei tipi di input.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Unire le tre tabelle.
 ```powerquery
 Table.Combine({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Unisce tre tabelle con strutture diverse.
 ```powerquery
 Table.Combine({
@@ -65,7 +65,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Unisce due tabelle e il progetto in base al tipo specificato.
 ```powerquery
 Table.Combine(

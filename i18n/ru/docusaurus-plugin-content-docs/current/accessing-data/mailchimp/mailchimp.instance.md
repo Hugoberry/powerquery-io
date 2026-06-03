@@ -24,7 +24,7 @@ MailChimp.Instance(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Возвращает необработанные данные от конечной точки API MailChimp отчетов или сведений о щелчках для заданной кампании.
 ```powerquery
 MailChimp.Instance("reports/{campaign_id}/click-details")

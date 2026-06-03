@@ -21,12 +21,15 @@ AmazonRedshift.Database(
 
 ## Remarks
 
-Retorna uma tabela listando no cluster do Amazon Redshift <code>servidor</code> no banco de dados <code>banco de dados</code>. Um parâmetro de registro opcional, <code>opções</code>, pode ser especificado para controlar as seguintes opções:<ul><li><code>Nome do Provedor</code>: um valor de texto a ser usado como o Nome do Provedor para a conexão. Isso é usado ao usar a Autenticação da Microsoft.</li><li><code>Tamanho do Lote</code>: o número de linhas buscadas em uma única chamada para o servidor.</li></ul>  
+Retorna uma tabela listando no cluster do Amazon Redshift `servidor` no banco de dados `banco de dados`. Um parâmetro de registro opcional, `opções`, pode ser especificado para controlar as seguintes opções:
+
+-   `Nome do provedor`: um valor de texto a ser usado como o Nome do Provedor para a conexão. Isto é usado ao usar a Autenticação da Microsoft.
+-   `Tamanho do Lote: o número de linhas buscadas em uma única chamada para o servidor.`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 
 ```powerquery
 AmazonRedshift.Database("contoso.redshift.amazonaws.com:5439", "dev")

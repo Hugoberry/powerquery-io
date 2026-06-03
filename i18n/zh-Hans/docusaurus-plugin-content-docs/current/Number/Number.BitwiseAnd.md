@@ -5,7 +5,7 @@ title: Number.BitwiseAnd
 # Number.BitwiseAnd
 
 
-返回对两个输入执行按位 &#34;And&#34; 运算所得的结果。
+返回对两个输入执行按位 "And" 运算所得的结果。
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Number.BitwiseAnd(
 
 ## Remarks
 
-返回对 <code>number1</code> 和 <code>number2</code> 执行按位 "And" 运算所得的结果。
+返回对 `number1` 和 `number2` 执行按位 "And" 运算所得的结果。
 
 
 

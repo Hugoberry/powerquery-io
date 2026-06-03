@@ -20,12 +20,15 @@ Table.FirstN(
 
 ## Remarks
 
-Retourneert de eerste rij(en) van de tabel <code>table</code>, afhankelijk van de waarde van <code>countOrCondition</code>:    <ul>    <li> Als <code>countOrCondition</code> een getal is, wordt dat aantal rijen (vanaf het begin) geretourneerd. </li>    <li> Als <code>countOrCondition</code> een voorwaarde is, worden de rijen geretourneerd die voldoen aan de voorwaarde, en stopt het retourneren bij een rij die niet aan de voorwaarde voldoet.</li></ul>
+Retourneert de eerste rij(en) van de tabel `table`, afhankelijk van de waarde van `countOrCondition`:
+
+-   Als `countOrCondition` een getal is, wordt dat aantal rijen (vanaf het begin) geretourneerd.
+-   Als `countOrCondition` een voorwaarde is, worden de rijen geretourneerd die voldoen aan de voorwaarde, en stopt het retourneren bij een rij die niet aan de voorwaarde voldoet.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De eerste twee rijen van de tabel zoeken.
 ```powerquery
 Table.FirstN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-In de tabel de eerste rijen zoeken waarin [a] &gt; 0.
+### Example #2
+In de tabel de eerste rijen zoeken waarin \[a\] > 0.
 ```powerquery
 Table.FirstN(
     Table.FromRecords({

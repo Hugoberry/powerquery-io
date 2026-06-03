@@ -24,7 +24,7 @@ Gibt eine geschachtelte Tabelle der verfügbaren Arbeitsblätter, Ordner und Arb
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gibt Arbeitsblätter, Ordner, Berichte und Arbeitsbereiche zurück, die auf der obersten Ebene der Smartsheet-Hierarchie verfügbar sind.
 ```powerquery
 Smartsheet.Tables()

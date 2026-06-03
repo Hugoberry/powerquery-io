@@ -19,13 +19,13 @@ Type.NonNullable(
 
 ## Remarks
 
-<code>type</code> से गैर <code>निरर्थक</code> प्रकार लौटाता है.
+`type` से गैर `निरर्थक` प्रकार लौटाता है.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;type nullable number&lt;/code&gt; का गैर निरर्थक प्रकार लौटाएँ.
+### Example #1
+`type nullable number` का गैर निरर्थक प्रकार लौटाएँ.
 ```powerquery
 Type.NonNullable(type nullable number)
 ```

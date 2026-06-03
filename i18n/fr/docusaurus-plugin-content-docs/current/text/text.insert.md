@@ -21,13 +21,13 @@ Text.Insert(
 
 ## Remarks
 
-Retourne le résultat de la valeur de texte insérée <code>newText</code> dans la valeur de texte <code>text</code>, à la position <code>offset</code>. Les positions commencent au numéro 0.
+Retourne le résultat de la valeur de texte insérée `newText` dans la valeur de texte `text`, à la position `offset`. Les positions commencent au numéro 0.
 
 
 ## Examples
 
-### Example #1 
-Insérez &#34; C &#34; entre &#34; B &#34; et &#34; D &#34; dans &#34; ABD &#34;.
+### Example #1
+Insérez "C" entre "B" et "D" dans "ABD".
 ```powerquery
 Text.Insert("ABD", 2, "C")
 ```

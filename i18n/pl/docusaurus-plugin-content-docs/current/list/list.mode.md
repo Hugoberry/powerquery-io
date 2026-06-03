@@ -20,13 +20,13 @@ List.Mode(
 
 ## Remarks
 
-Zwraca element najczęściej występujący na liście <code>list</code>. Jeśli lista jest pusta, jest zwracany wyjątek. Jeśli wiele elementów ma taką samą częstotliwość występowania, jest wybierany ostatni z nich.    W celu sterowania testowaniem jakości można określić opcjonalną wartość <code>comparisonCriteria</code>: <code>equationCriteria</code>. 
+Zwraca element najczęściej występujący w `list`. Jeśli lista jest pusta, zgłaszany jest błąd. Jeśli wiele elementów jest wyświetlanych z taką samą częstotliwością maksymalną, zostanie wybrana ostatnia. Można określić opcjonalną wartość kryteriów porównawczych, `equationCriteria`, aby kontrolować testowanie równości.
 
 
 ## Examples
 
-### Example #1 
-Znajdź element najczęściej występujący na liście &lt;code&gt;\{&#34;A&#34;, 1, 2, 3, 3, 4, 5}&lt;/code&gt;.
+### Example #1
+Znajdź element najczęściej występujący na liście `{"A", 1, 2, 3, 3, 4, 5}`.
 ```powerquery
 List.Mode({"A", 1, 2, 3, 3, 4, 5})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Znajdź element najczęściej występujący na liście &lt;code&gt;\{&#34;A&#34;, 1, 2, 3, 3, 4, 5, 5}&lt;/code&gt;.
+### Example #2
+Znajdź element najczęściej występujący na liście `{"A", 1, 2, 3, 3, 4, 5, 5}`.
 ```powerquery
 List.Mode({"A", 1, 2, 3, 3, 4, 5, 5})
 ```

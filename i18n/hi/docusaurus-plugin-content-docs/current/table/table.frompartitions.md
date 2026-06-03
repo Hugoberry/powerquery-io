@@ -21,13 +21,13 @@ Table.FromPartitions(
 
 ## Remarks
 
-वह तालिका लौटाता है जो विभाजित तालिकाओं <code>partitions</code> के संयोजन का परिणाम है. <code>partitionColumn</code> जोड़े जाने वाले स्‍तंभ का नाम है. स्‍तंभ का प्रकार डिफ़ॉल्‍ट रूप से <code>कोई भी</code> होता है, लेकिन <code>partitionColumnType</code> द्वारा निर्दिष्ट किया जा सकता है.
+वह तालिका लौटाता है जो विभाजित तालिकाओं `partitions` के संयोजन का परिणाम है. `partitionColumn` जोड़े जाने वाले स्‍तंभ का नाम है. स्‍तंभ का प्रकार डिफ़ॉल्‍ट रूप से `कोई भी` होता है, लेकिन `partitionColumnType` द्वारा निर्दिष्ट किया जा सकता है.
 
 
 ## Examples
 
-### Example #1 
-सूची &lt;code&gt;\{number}&lt;/code&gt; से आइटम प्रकार ढूँढें.
+### Example #1
+सूची `{number}` से आइटम प्रकार ढूँढें.
 ```powerquery
 Table.FromPartitions(
     "Year",

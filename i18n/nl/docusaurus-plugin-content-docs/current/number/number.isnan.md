@@ -19,12 +19,12 @@ Number.IsNaN(
 
 ## Remarks
 
-Geeft aan of de waarde NaN (Not a number, geen getal) is. Retourneert <code>true</code> als <code>number</code> gelijk is aan <code>Number.IsNaN</code> en <code>false</code> als dat niet het geval is.
+Geeft aan of de waarde NaN (Not a number, geen getal) is. Retourneert `true` als `number` gelijk is aan `Number.NaN` en `false` als dat niet het geval is.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Controleren of 0 gedeeld door 0 NaN is.
 ```powerquery
 Number.IsNaN(0/0)
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Controleren of 1 gedeeld door 0 NaN is.
 ```powerquery
 Number.IsNaN(1/0)

@@ -26,7 +26,7 @@ Smartsheet.Query(
 
 ## Examples
 
-### Example #1 
+### Example #1
 पत्रक Smartsheet API समाप्ति बिंदु से अतिरिक्त निर्दिष्ट तर्कों के साथ डेटा पुल करता है
 ```powerquery
 Smartsheet.Content("sheets", "include=ownerInfo&includeAll=true", [])

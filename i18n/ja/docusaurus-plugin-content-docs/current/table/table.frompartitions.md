@@ -21,13 +21,13 @@ Table.FromPartitions(
 
 ## Remarks
 
-パーティション分割されたテーブル <code>partitions</code> のセットを連結させた結果のテーブルを返します。<code>partitionColumn</code> は追加する列の名前です。既定の列の型は <code>any</code> ですが、<code>partitionColumnType</code> によって指定できます。
+パーティション分割されたテーブル `partitions` のセットを連結させた結果のテーブルを返します。`partitionColumn` は追加する列の名前です。既定の列の型は `any` ですが、`partitionColumnType` によって指定できます。
 
 
 ## Examples
 
-### Example #1 
-リスト &lt;code&gt;\{number}&lt;/code&gt; からアイテム型を検索します。
+### Example #1
+リスト `{number}` からアイテム型を検索します。
 ```powerquery
 Table.FromPartitions(
     "Year",

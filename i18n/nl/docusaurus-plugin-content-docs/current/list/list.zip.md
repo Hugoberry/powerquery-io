@@ -19,13 +19,13 @@ List.Zip(
 
 ## Remarks
 
-Neemt een lijst met lijsten, <code>lists</code> en retourneert een lijst met lijsten met items die dezelfde positie hebben in meerdere lijsten.
+Neemt een lijst met lijsten, `lists` en retourneert een lijst met lijsten met items die dezelfde positie hebben in meerdere lijsten.
 
 
 ## Examples
 
-### Example #1 
-Zipt de twee eenvoudige lijsten \{1, 2} en \{3, 4}.
+### Example #1
+Zipt de twee eenvoudige lijsten \{1, 2\} en \{3, 4\}.
 ```powerquery
 List.Zip({{1, 2}, {3, 4}})
 ```
@@ -39,8 +39,8 @@ Result:
 ```
 
 
-### Example #2 
-Zipt de twee eenvoudige lijsten met verschillende lengtes \{1, 2} en \{3}.
+### Example #2
+Zipt de twee eenvoudige lijsten met verschillende lengtes \{1, 2\} en \{3\}.
 ```powerquery
 List.Zip({{1, 2}, {3}})
 ```

@@ -24,7 +24,7 @@ Devuelve una tabla anidada de hojas, informes, carpetas y áreas de trabajo disp
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devuelve hojas, carpetas, informes y áreas de trabajo disponibles en el nivel superior de la jerarquía de Smartsheet
 ```powerquery
 Smartsheet.Tables()

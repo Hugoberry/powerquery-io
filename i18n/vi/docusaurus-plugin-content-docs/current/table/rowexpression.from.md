@@ -19,13 +19,28 @@ RowExpression.From(
 
 ## Remarks
 
-Trả về cây cú pháp trừu tượng (AST) cho phần nội dung của <code>function</code>, được chuẩn hóa thành một <i>biểu thức hàng</i>:<ul>  <li> Hàm phải là hàm lambda 1 đối số.</li>  <li>Tất cả các tham chiếu tới tham số của hàm được thay thế bằng <code>RowExpression.Row</code>.</li>  <li>Tất cả các tham chiếu tới cột được thay thế bằng <code>RowExpression.Column(<i>columnName</i>)</code>.</li>  <li>AST sẽ được đơn giản hóa để chỉ chứa nút thuộc các loại:    <ul>      <li><code>Constant</code></li>      <li><code>Invocation</code></li>      <li><code>Unary</code></li>      <li><code>Binary</code></li>      <li><code>If</code></li>      <li><code>FieldAccess</code></li>    </ul>  </li></ul><br /><br />Sẽ xuất hiện lỗi nếu không thể trả về biểu thức hàng AST cho phần nội dung của <code>function</code>.<br />
+Trả về cây cú pháp trừu tượng (AST) cho nội dung của `function`, được chuẩn hóa thành *biểu thức hàng*:
+
+-   Hàm phải là lamda đối số 1.
+-   Tất cả các tham chiếu tới tham số hàm được thay thế bằng `RowExpression.Row`.
+-   Tất cả tham chiếu đến cột được thay bằng `RowExpression.Column(columnName)`.
+-   AST sẽ được đơn giản hóa để chỉ chứa các nút thuộc các loại:
+    -   `Constant`
+    -   `Invocation`
+    -   `Unary`
+    -   `Binary`
+    -   `If`
+    -   `FieldAccess`
+
+Sẽ xuất hiện lỗi nếu không thể trả về biểu thức hàng AST cho nội dung của `function`.  
+  
+Hàm này giống với `ItemExpression.From`.
 
 
 ## Examples
 
-### Example #1 
-Trả về AST cho nội dung của hàm &lt;code&gt;từng [CustomerID] = &#34;ALFKI&#34;&lt;/code&gt;
+### Example #1
+Trả về AST cho nội dung của hàm `each [CustomerID] = "ALFKI"`.
 ```powerquery
 RowExpression.From(each [CustomerName] = "ALFKI")
 ```

@@ -23,13 +23,19 @@ Table.ReplaceValue(
 
 ## Remarks
 
-Ersätter <code>oldValue</code> med <code>newValue</code> i de angivna kolumnerna i <code>table</code>.
+Ersätter ett värde med ett nytt värde i de angivna kolumnerna i en tabell.
+
+-   `table`: Tabell att genomsöka.
+-   `oldValue`Det värde som ska ersättas.
+-   `newValue`: Ersättningsvärde.
+-   `replacer`: Den ersättarfunktion som ska användas. Funktionen kan vara antingen `Replacer.ReplaceText` för att ersätta den ursprungliga texten med ny text, `Replacer.ReplaceValue` för att ersätta det ursprungliga värdet med ett nytt värde, eller en anpassad ersättare.
+-   `columnsToSearch`: En lista som innehåller den specifika kolumnen eller kolumnerna i tabellen där värdet ska sökas och ersättas.
 
 
 ## Examples
 
-### Example #1 
-Ersätt texten &#34;hej då&#34; med &#34;värld&#34; i kolumn B, som bara matchar hela värdet.
+### Example #1
+Ersätt texten "hej då" med "värld" i kolumn B, som bara matchar hela värdet.
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -54,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Ersätt texten &#34;din&#34; med &#34;eller&#34; i kolumn B, som matchar någon del av värdet.
+### Example #2
+Ersätt texten "din" med "eller" i kolumn B, som matchar någon del av värdet.
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -78,7 +84,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Anonymisera namnen på amerikanska anställda.
 ```powerquery
 Table.ReplaceValue(
@@ -102,7 +108,7 @@ Table.FromRecords({
 ```
 
 
-### Example #4 
+### Example #4
 Anonymisera alla kolumner med anställda i USA.
 ```powerquery
 Table.ReplaceValue(

@@ -20,6 +20,6 @@ DynamicsNav.Contents(
 
 ## Remarks
 
-Возвращает таблицу с подходящими данными Dynamics NAV OData. 
+Возвращает таблицу с подходящими данными Dynamics NAV OData.
 
 

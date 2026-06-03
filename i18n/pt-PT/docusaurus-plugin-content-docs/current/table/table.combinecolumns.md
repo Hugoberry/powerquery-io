@@ -27,7 +27,7 @@ Combinar as colunas especificadas numa coluna nova utilizando a função de comb
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combine os nomes próprios e apelidos numa nova coluna, separados por uma vírgula.
 ```powerquery
 Table.CombineColumns(

@@ -20,12 +20,12 @@ Table.SplitAt(
 
 ## Remarks
 
-Gibt eine Liste mit zwei Tabellen zurück: eine Tabelle mit den ersten N Zeilen von <code>table</code> (wie in <code>count</code> angegeben) und eine Tabelle, welche die restlichen Zeilen von <code>table</code> enthält.Wenn die Tabellen der resultierenden Liste genau einmal und in der Reihenfolge aufgezählt werden, zählt die Funktion <code>table</code> nur einmal auf.
+Gibt eine Liste mit zwei Tabellen zurück: eine Tabelle mit den ersten N Zeilen von `table` (wie in `count` angegeben) und eine Tabelle, welche die restlichen Zeilen von `table` enthält. Wenn die Tabellen der resultierenden Liste genau einmal und in der Reihenfolge aufgezählt werden, zählt die Funktion `table` nur einmal auf.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Geben Sie die ersten zwei Zeilen der Tabelle zurück und die restlichen Zeilen der Tabelle.
 ```powerquery
 Table.SplitAt(#table({"a", "b", "c"}, {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}), 2)

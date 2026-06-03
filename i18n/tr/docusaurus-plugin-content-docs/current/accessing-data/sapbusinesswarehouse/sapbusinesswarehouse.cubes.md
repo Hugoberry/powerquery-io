@@ -23,7 +23,7 @@ SapBusinessWarehouse.Cubes(
 
 ## Remarks
 
-<code>server</code> sunucusundaki (sistem numarası: <code>systemNumberOrSystemId</code>, İstemci Kimliği: <code>clientId</code>) SAP Business Warehouse örneğinden InfoArea tarafından gruplandırılan InfoCubes ve sorguların bir tablosunu döndürür. <code>optionsOrLogonGroup</code>, isteğe bağlı bir kayıt parametresi olarak şu seçenekleri denetlemek üzere belirtilebilir:        
+`server` sunucusundaki (sistem numarası: `systemNumberOrSystemId`, İstemci Kimliği: `clientId`) SAP Business Warehouse örneğinden InfoArea tarafından gruplandırılan InfoCubes ve sorguların bir tablosunu döndürür. `optionsOrLogonGroup`, isteğe bağlı bir kayıt parametresi olarak şu seçenekleri denetlemek üzere belirtilebilir:
 
 
 

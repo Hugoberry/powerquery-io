@@ -20,13 +20,20 @@ Time.From(
 
 ## Remarks
 
-Returnerar ett <code>time</code>-värde från angiven <code>value</code>. En valfri <code>culture</code> kan även anges (till exempel, "en-US").Om <code>value</code> är <code>null</code>, returnerar <code>Time.From</code> <code>null</code>. Om <code>value</code> är <code>time</code>, returneras <code>value</code>. Värden av följande typer kan konverteras till ett <code>time</code>-värde:      <ul>        <li><code>text</code>: Ett <code>time</code>-värde från textrepresentationen. Mer information finns under <code>Time.FromText</code>.</li>        <li><code>datetime</code>: Tidskomponenten för <code>value</code>.</li>        <li><code>datetimezone</code>: Tidskomponenten för det lokala datetime-värdet som motsvarar <code>value</code>.</li>        <li><code>number</code>: Ett <code>time</code>-värde som motsvarar antalet hela och fraktionella dagar uttryckt med <code>value</code>. Om <code>value</code> är negativt eller större än eller lika med 1 returneras ett fel.</li>      </ul>Om <code>value</code> hör till en annan typ returneras ett fel.
+Returnerar ett `time`\-värde från angiven `value`. En valfri `culture` kan även anges (till exempel, "en-US"). Om `value` är `null`, returnerar `Time.From` `null`. Om `value` är `time`, returneras `value`. Värden av följande typer kan konverteras till ett `time`\-värde:
+
+-   `text`: Ett `time`\-värde från textrepresentationen. Mer information finns under `Time.FromText`.
+-   `datetime`: Tidskomponenten för `value`.
+-   `datetimezone`: Tidskomponenten för det lokala datetime-värdet som motsvarar `value`.
+-   `number`: Ett `time`\-värde som motsvarar antalet hela och fraktionella dagar uttryckt med `value`. Om `value` är negativt eller större än eller lika med 1 returneras ett fel.
+
+Om `value` hör till en annan typ returneras ett fel.
 
 
 ## Examples
 
-### Example #1 
-Konvertera &lt;code&gt;0.7575&lt;/code&gt; till ett &lt;code&gt;time&lt;/code&gt;-värde.
+### Example #1
+Konvertera `0.7575` till ett `time`\-värde.
 ```powerquery
 Time.From(0.7575)
 ```
@@ -37,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Konvertera &lt;code&gt;#datetime(1899, 12, 30, 06, 45, 12)&lt;/code&gt; till ett &lt;code&gt;time&lt;/code&gt;-värde.
+### Example #2
+Konvertera `#datetime(1899, 12, 30, 06, 45, 12)` till ett `time`\-värde.
 ```powerquery
 Time.From(#datetime(1899, 12, 30, 06, 45, 12))
 ```

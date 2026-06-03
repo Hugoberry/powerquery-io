@@ -5,7 +5,7 @@ title: Logical.ToText
 # Logical.ToText
 
 
-给定逻辑值返回文本 &#34;true&#34; 或 &#34;false&#34;。
+给定逻辑值返回文本 "true" 或 "false"。
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.ToText(
 
 ## Remarks
 
-从逻辑值 <code>logicalValue</code>(<code>true</code>或 <code>false</code>)创建文本值。如果 <code>logicalValue</code> 不是逻辑值，将引发异常。
+从逻辑值 `logicalValue`(`true`或 `false`)创建文本值。如果 `logicalValue` 不是逻辑值，则引发错误。
 
 
 ## Examples
 
-### Example #1 
-从逻辑 &lt;code&gt;true&lt;/code&gt; 创建一个文本值。
+### Example #1
+从逻辑 `true` 创建一个文本值。
 ```powerquery
 Logical.ToText(true)
 ```

@@ -20,7 +20,7 @@ Cube.AttributeMemberProperty(
 
 ## Remarks
 
-ディメンション属性 <code>attribute</code> のプロパティ <code>propertyName</code> を返します。
+ディメンション属性 `attribute` のプロパティ `propertyName` を返します。
 
 
 

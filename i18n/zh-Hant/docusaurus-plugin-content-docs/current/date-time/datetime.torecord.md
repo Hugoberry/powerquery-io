@@ -1,0 +1,51 @@
+---
+title: DateTime.ToRecord
+---
+
+# DateTime.ToRecord
+
+
+傳回一筆包含 datetime 值各部分的記錄。
+
+
+## Syntax
+
+```powerquery
+DateTime.ToRecord(
+    dateTime as datetime
+) as record
+```
+
+
+## Remarks
+
+傳回記錄，內含指定的 datetime 值 `dateTime` 各部分。
+
+-   `dateTime`: 要從中計算其各部分記錄的 `datetime` 值。
+
+
+## Examples
+
+### Example #1
+將 `#datetime(2011, 12, 31, 11, 56, 2)` 值轉換成包含日期和時間值的記錄。
+```powerquery
+DateTime.ToRecord(#datetime(2011, 12, 31, 11, 56, 2))
+```
+
+Result: 
+```powerquery
+[
+      Year = 2011,
+      Month = 12,
+      Day = 31,
+      Hour = 11,
+      Minute = 56,
+      Second = 2
+]
+```
+
+
+
+
+## Category
+DateTime

@@ -20,13 +20,13 @@ List.Average(
 
 ## Remarks
 
-Retourne la valeur moyenne des éléments dans la liste, <code>list</code>. Le résultat est fourni dans le même datatype que les valeurs dans la liste. Fonctionne uniquement avec les valeurs de nombre, de date, d'heure, datetime, datetimezone et de durée.    Si la liste est vide la valeur NULL est retournée.
+Retourne la valeur moyenne des éléments dans la liste, `list`. Le résultat est fourni dans le même datatype que les valeurs dans la liste. Fonctionne uniquement avec les valeurs de nombre, de date, d'heure, datetime, datetimezone et de durée. Si la liste est vide la valeur NULL est retournée.
 
 
 ## Examples
 
-### Example #1 
-Recherche la moyenne de la liste de numéros, &lt;code&gt;\{3, 4, 6}&lt;/code&gt;.
+### Example #1
+Recherche la moyenne de la liste de numéros, `{3, 4, 6}`.
 ```powerquery
 List.Average({3, 4, 6})
 ```
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Recherche la moyenne des valeurs de date : 1er janvier 2011, 2 janvier 2011 et 3 janvier 2011.
 ```powerquery
 List.Average({#date(2011, 1, 1), #date(2011, 1, 2), #date(2011, 1, 3)})

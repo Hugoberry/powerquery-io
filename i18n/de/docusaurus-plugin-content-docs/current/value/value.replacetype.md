@@ -20,12 +20,12 @@ Value.ReplaceType(
 
 ## Remarks
 
-Ersetzt den Typ des <code>value</code> durch den bereitgestellten <code>type</code>.
+Ersetzt den Typ des `value` durch den bereitgestellten `type`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ersetzen Sie den Standardtyp eines Datensatzes durch einen spezifischeren Typ.
 ```powerquery
 Type.RecordFields(

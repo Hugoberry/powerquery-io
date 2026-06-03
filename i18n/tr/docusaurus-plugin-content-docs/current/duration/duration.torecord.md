@@ -19,13 +19,15 @@ Duration.ToRecord(
 
 ## Remarks
 
-<code>duration</code> süre değerinin parçalarını içeren bir kayıt döndürür.  <ul>        <li><code>duration</code>: Kaydın oluşturulduğu <code>duration</code>.</li>      </ul>
+`duration` süre değerinin parçalarını içeren bir kayıt döndürür.
+
+-   `duration`: Kaydın oluşturulduğu `duration`.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;#duration(2, 5, 55, 20)&lt;/code&gt; değerini mümkünse gün, saat, dakika ve saniyeleri içeren parçalarından oluşan bir kayda dönüştürür.
+### Example #1
+`#duration(2, 5, 55, 20)` değerini mümkünse gün, saat, dakika ve saniyeleri içeren parçalarından oluşan bir kayda dönüştürür.
 ```powerquery
 Duration.ToRecord(#duration(2, 5, 55, 20))
 ```

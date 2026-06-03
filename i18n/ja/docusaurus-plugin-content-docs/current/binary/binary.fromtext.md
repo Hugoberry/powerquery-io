@@ -20,13 +20,16 @@ Binary.FromText(
 
 ## Remarks
 
-テキスト値 <code>text</code> をバイナリ (<code>number</code> のリスト) に変換した結果を返します。テキスト値で使用されているエンコードを示すために、<code>encoding</code> を指定することができます。      <code>encoding</code> には次の <code>BinaryEncoding</code> 値を使用できます。      <ul>        <li><code>BinaryEncoding.Base64</code>: Base 64 エンコード</li>        <li><code>BinaryEncoding.Hex</code>: 16 進数エンコード</li>      </ul>
+テキスト値 `text` をバイナリ (`number` のリスト) に変換した結果を返します。テキスト値で使用されているエンコードを示すために、`encoding` を指定することができます。 `encoding` には次の `BinaryEncoding` 値を使用できます。
+
+-   `BinaryEncoding.Base64`: Base 64 エンコード
+-   `BinaryEncoding.Hex`: 16 進数エンコード
 
 
 ## Examples
 
-### Example #1 
-&#34;1011&#34; をバイナリにデコードします。
+### Example #1
+"1011" をバイナリにデコードします。
 ```powerquery
 Binary.FromText("1011")
 ```
@@ -37,8 +40,8 @@ Binary.FromText("1011", BinaryEncoding.Base64)
 ```
 
 
-### Example #2 
-&#34;1011&#34; を 16 進数エンコードのバイナリにデコードします。
+### Example #2
+"1011" を 16 進数エンコードのバイナリにデコードします。
 ```powerquery
 Binary.FromText("1011", BinaryEncoding.Hex)
 ```

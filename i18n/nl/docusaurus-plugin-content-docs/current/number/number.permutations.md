@@ -20,12 +20,12 @@ Number.Permutations(
 
 ## Remarks
 
-Retourneert het aantal permutaties dat kan worden gegenereerd van een aantal items, <code>setSize</code>, met een opgegeven permutatiegrootte, <code>permutationSize</code>.
+Retourneert het aantal permutaties dat kan worden gegenereerd van een aantal items, `setSize`, met een opgegeven permutatiegrootte, `permutationSize`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Het aantal permutaties uit een totaal van vijf items in groepen van drie zoeken.
 ```powerquery
 Number.Permutations(5, 3)

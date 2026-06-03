@@ -20,12 +20,12 @@ Number.RandomBetween(
 
 ## Remarks
 
-<code>bottom</code> और <code>top</code> के बीच की यादृच्छिक संख्या लौटाता है.
+`bottom` और `top` के बीच की यादृच्छिक संख्या लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 1 और 5 के बीच की यादृच्छिक संख्या प्राप्त करें.
 ```powerquery
 Number.RandomBetween(1, 5)

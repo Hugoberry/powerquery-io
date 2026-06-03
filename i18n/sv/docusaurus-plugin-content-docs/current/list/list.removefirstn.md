@@ -20,13 +20,17 @@ List.RemoveFirstN(
 
 ## Remarks
 
-Returnerar en lista som tar bort det första elementet i listan <code>list</code>. Om <code>list</code> är en tom lista returneras en tom lista.Den här funktionen använder en valfri parameter, <code>countOrCondition</code>, för att ge stöd för att ta bort flera värden som du ser nedan. <ul> <li>Om ett tal anges tas upp till så många objekt bort. </li> <li>Om ett villkor anges börjar listan som returneras med det första elementet i <code>list</code> som uppfyller villkoret. Om ett objekt inte uppfyller villkoret utvärderas inga fler objekt. </li> <li>Om den här parametern är null används standardbeteendet. </li> </ul>
+Returnerar en lista som tar bort det första elementet i listan `list`. Om `list` är en tom lista returneras en tom lista. Den här funktionen tar en valfri parameter, `countOrCondition`, för att stödja borttagning av flera värden enligt listan nedan.
+
+-   Om ett tal anges tas upp till så många objekt bort.
+-   Om ett villkor anges tas alla efterföljande matchande objekt i början av `list` bort.
+-   Om den här parametern är null observeras standardbeteendet.
 
 
 ## Examples
 
-### Example #1 
-Skapa en lista från \{1, 2, 3, 4, 5} utan de första 3 talen.
+### Example #1
+Skapa en lista från \{1, 2, 3, 4, 5\} utan de första 3 talen.
 ```powerquery
 List.RemoveFirstN({1, 2, 3, 4, 5}, 3)
 ```
@@ -37,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-Skapa en lista från \{5, 4, 2, 6, 1} som börjar med ett tal som är mindre än 3.
+### Example #2
+Skapa en lista från \{5, 4, 2, 6, 1\} som börjar med ett tal som är mindre än 3.
 ```powerquery
 List.RemoveFirstN({5, 4, 2, 6, 1}, each _ > 3)
 ```

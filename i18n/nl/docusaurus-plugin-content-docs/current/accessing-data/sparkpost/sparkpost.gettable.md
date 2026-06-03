@@ -27,8 +27,8 @@ Deze functie kan worden gebruikt om gegevens op te halen van een specifiek eindp
 
 ## Examples
 
-### Example #1 
-Hiermee haalt u de metrische leveringswaarden count_sent en count_rejected op voor alle campaign_ids die de afgelopen drie dagen zijn verzameld. 
+### Example #1
+Hiermee haalt u de metrische leveringswaarden count\_sent en count\_rejected op voor alle campaign\_ids die de afgelopen drie dagen zijn verzameld.
 ```powerquery
 Source = SparkPost.GetTable(3, "count_sent,count_rejected", "campaign_id", "metrics/deliverability/campaign")
 ```

@@ -19,12 +19,12 @@ Number.IsNaN(
 
 ## Remarks
 
-Gibt an, ob es sich um einen nicht numerischen Wert (NaN-Wert) handelt. Gibt <code>true</code> zurück, wenn "<code>number</code>" nicht numerisch (<code>Number.IsNaN</code>) ist. Andernfalls wird <code>false</code> zurückgegeben.
+Gibt an, ob es sich um einen nicht numerischen Wert (NaN-Wert) handelt. Gibt `true` zurück, wenn „`number`“ mit `Number.NaN` gleichwertig ist, andernfalls wird `false` zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Überprüft, ob das Ergebnis der Division von 0 durch 0 nicht numerisch ist.
 ```powerquery
 Number.IsNaN(0/0)
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Überprüft, ob das Ergebnis der Division von 1 durch 0 nicht numerisch ist.
 ```powerquery
 Number.IsNaN(1/0)

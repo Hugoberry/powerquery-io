@@ -26,7 +26,7 @@ Makes a call to the Smartsheet 2.0 REST API at the specified endpoint and return
 
 ## Examples
 
-### Example #1 
+### Example #1
 Pulls data from the sheets Smartsheet API endpoint with additional arguments specified
 ```powerquery
 Smartsheet.Content("sheets", "include=ownerInfo&includeAll=true", [])

@@ -19,12 +19,12 @@ Date.QuarterOfYear(
 
 ## Remarks
 
-Returnerer et tal fra 1-4, der angiver, hvilket kvartal i året datoen <code>dateTime</code> ligger i. <code>dateTime</code> kan være en værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>.
+Returnerer et tal fra 1-4, der angiver, hvilket kvartal i året datoen `dateTime` ligger i. `dateTime` kan være en værdi af typen `date`, `datetime` eller `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Se, hvilket kvartal i året datoen #date(2011, 12, 31) ligger i.
 ```powerquery
 Date.QuarterOfYear(#date(2011, 12, 31))

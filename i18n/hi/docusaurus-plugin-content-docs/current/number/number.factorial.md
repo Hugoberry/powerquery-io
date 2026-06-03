@@ -19,12 +19,12 @@ Number.Factorial(
 
 ## Remarks
 
-संख्या <code>number</code> का क्रमगुणन लौटाता है.
+संख्या `number` का क्रमगुणन लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 10 का क्रमगुणन प्राप्त करें.
 ```powerquery
 Number.Factorial(10)

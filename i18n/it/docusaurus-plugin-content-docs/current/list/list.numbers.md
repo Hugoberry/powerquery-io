@@ -21,12 +21,16 @@ List.Numbers(
 
 ## Remarks
 
-Restituisce un elenco di numeri corrispondenti a un valore iniziale, un conteggio e un valore incrementale facoltativo. Il valore incrementale predefinito è 1.<ul>   <li><code>start</code>: il valore iniziale dell'elenco.</li>   <li><code>count</code>: il numero di valori da creare.</li>   <li><code>increment</code>: <i>[Facoltativo]</i> il valore incrementale da utilizzare. Se omesso, i valori vengono incrementati di 1.</li></ul>
+Restituisce un elenco di numeri corrispondenti a un valore iniziale, un conteggio e un valore incrementale facoltativo. Il valore incrementale predefinito è 1.
+
+-   `start`: il valore iniziale dell'elenco.
+-   `count`: il numero di valori da creare.
+-   `increment`: *(facoltativo)* il valore incrementale da utilizzare. Se omesso, i valori vengono incrementati di 1.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Generare un elenco di 10 numeri consecutivi partendo da 1.
 ```powerquery
 List.Numbers(1, 10)
@@ -49,7 +53,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Generare un elenco di 10 numeri partendo da 1, con incremento di 2 per ogni numero successivo.
 ```powerquery
 List.Numbers(1, 10, 2)

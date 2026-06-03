@@ -19,7 +19,7 @@ Excel.CurrentWorkbook(
 
 ## Remarks
 
-Zwraca zawartość bieżącego skoroszytu programu Excel. Zwraca tabele, nazwane zakresy i tablice dynamiczne. W przeciwieństwie do <code>Excel.Workbook</code> nie zwraca arkuszy.
+Zwraca zawartość bieżącego skoroszytu programu Excel. Zwraca tabele, nazwane zakresy i tablice dynamiczne. W przeciwieństwie do `Excel.Workbook` nie zwraca arkuszy.
 
 
 

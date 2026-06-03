@@ -20,12 +20,21 @@ Json.FromValue(
 
 ## Remarks
 
-Producerar en JSON-representation av ett givet värde <code>value</code> med en textkodning specificerad av <code>encoding</code>. Om <code>encoding</code> utesluts används UTF8. Värden representeras enligt följande:<br /> <ul>        <li>Null, text och logiska värden representeras som motsvarande JSON-typer</li>        <li>Siffror representeras som siffror i JSON, med undantag för att <code>#infinity</code>, <code>-#infinity</code> och <code>#nan</code> konverteras till null</li>        <li>Listor representeras som JSON-matriser</li>        <li>Poster representeras som JSON-objekt</li>        <li>Tabeller representeras som en matris av objekt</li>        <li>Datum, tider, datetimes, datetimezones och varaktigheter representeras som ISO-8601-text</li>        <li>Binära värden representeras som Base-64-kodad text</li>        <li>Typer och funktioner resulterar i fel</li> </ul>    
+Producerar en JSON-representation av ett givet värde `value` med en textkodning specificerad av `encoding`. Om `encoding` utesluts används UTF8. Värden representeras enligt följande:
+
+-   Null, text och logiska värden representeras som motsvarande JSON-typer
+-   Siffror representeras som siffror i JSON, med undantag för att `#infinity`, `-#infinity` och `#nan` konverteras till null
+-   Listor representeras som JSON-matriser
+-   Poster representeras som JSON-objekt
+-   Tabeller representeras som en matris av objekt
+-   Datum, tider, datetimes, datetimezones och varaktigheter representeras som ISO-8601-text
+-   Binära värden representeras som Base-64-kodad text
+-   Typer och funktioner resulterar i fel
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Konverterar ett komplext värde till JSON.
 ```powerquery
 Text.FromBinary(Json.FromValue([A = {1, true, "3"}, B = #date(2012, 3, 25)]))

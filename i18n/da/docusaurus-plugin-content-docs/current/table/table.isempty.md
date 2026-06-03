@@ -19,12 +19,12 @@ Table.IsEmpty(
 
 ## Remarks
 
-Angiver, om <code>table</code> indeholder rækker. Returnerer <code>true</code>, hvis der ikke er nogen rækker (dvs. tabellen er tom). Ellers returneres <code>false</code>.
+Angiver, om `table` indeholder rækker. Returnerer `true`, hvis der ikke er nogen rækker (dvs. tabellen er tom). Ellers returneres `false`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find ud af, om tabellen er tom.
 ```powerquery
 Table.IsEmpty(
@@ -42,8 +42,8 @@ false
 ```
 
 
-### Example #2 
-Find ud af, om tabellen &lt;code&gt;(\{})&lt;/code&gt; er tom.
+### Example #2
+Find ud af, om tabellen `({})` er tom.
 ```powerquery
 Table.IsEmpty(Table.FromRecords({}))
 ```

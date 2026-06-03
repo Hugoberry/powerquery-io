@@ -19,12 +19,12 @@ Odbc.InferOptions(
 
 ## Remarks
 
-ODBC を使用して、接続文字列 <code>connectionString</code> で SQL 機能の推測を試した結果を返します。<code>connectionString</code> には、テキスト、またはプロパティ値のペアのレコードを使用できます。プロパティ値には、テキストまたは数字を使用できます。
+ODBC を使用して、接続文字列 `connectionString` で SQL 機能の推測を試した結果を返します。`connectionString` には、テキスト、またはプロパティ値のペアのレコードを使用できます。プロパティ値には、テキストまたは数字を使用できます。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 接続文字列から推測される SQL 機能を返します。
 ```powerquery
 Odbc.InferOptions("dsn=your_dsn")

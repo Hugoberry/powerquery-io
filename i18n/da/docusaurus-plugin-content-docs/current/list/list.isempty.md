@@ -19,13 +19,13 @@ List.IsEmpty(
 
 ## Remarks
 
-Returnerer <code>true</code>, hvis listen <code>list</code> ikke indeholder værdier (længden er 0). Hvis listen indeholder værdier (længde > 0), returneres <code>false</code>.
+Returnerer `true`, hvis listen `list` ikke indeholder værdier (længden er 0). Hvis listen indeholder værdier (længde > 0), returneres `false`.
 
 
 ## Examples
 
-### Example #1 
-Find ud af, om listen \{} er tom.
+### Example #1
+Find ud af, om listen \{\} er tom.
 ```powerquery
 List.IsEmpty({})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Find ud af, om listen \{1, 2} er tom.
+### Example #2
+Find ud af, om listen \{1, 2\} er tom.
 ```powerquery
 List.IsEmpty({1, 2})
 ```

@@ -19,12 +19,12 @@ Table.ColumnNames(
 
 ## Remarks
 
-Zwraca nazwy kolumn w tabeli <code>table</code> jako listę wartości tekstowych.
+Zwraca nazwy kolumn w tabeli `table` jako listę wartości tekstowych.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź nazwy kolumn w tabeli.
 ```powerquery
 Table.ColumnNames(

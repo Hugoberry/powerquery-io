@@ -23,12 +23,18 @@ Table.ReplaceValue(
 
 ## Remarks
 
-在 <code>table</code> 的指定列中将 <code>oldValue</code> 替换为 <code>newValue</code>。
+将表中指定列的值替换为新值。
+
+-   `table`: 要搜索的表格。
+-   `oldValue`: 要替换的值。
+-   `newValue`: 替换值。
+-   `replacer`: 要使用的替换器函数。该函数可以是 `Replacer.ReplaceText`，用于用新文本替换原始文本; `Replacer.ReplaceValue`，用于用新值替换原始值; 或者是自定义替换器。
+-   `columnsToSearch`: 包含表中要搜索替换值的特定列的列表。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 将文本“goodbye”替换为 B 列中的“world”，仅匹配整个值。
 ```powerquery
 Table.ReplaceValue(
@@ -54,7 +60,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 将文本 “your” 替换为 B 列中的 “or”，与值的任何部分匹配。
 ```powerquery
 Table.ReplaceValue(
@@ -78,7 +84,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 匿名化美国员工的姓名。
 ```powerquery
 Table.ReplaceValue(
@@ -102,7 +108,7 @@ Table.FromRecords({
 ```
 
 
-### Example #4 
+### Example #4
 匿名化美国员工的所有列。
 ```powerquery
 Table.ReplaceValue(

@@ -21,13 +21,13 @@ List.Dates(
 
 ## Remarks
 
-Returnerer en liste over værdier af typen <code>date</code> i størrelsen <code>count</code> og med start ved <code>start</code>. Den angivne stigning, <code>step</code>, er en værdi af typen <code>duration</code>, der lægges til alle værdier.
+Returnerer en liste over værdier af typen `date` i størrelsen `count` og med start ved `start`. Den angivne stigning, `step`, er en værdi af typen `duration`, der lægges til alle værdier.
 
 
 ## Examples
 
-### Example #1 
-Opret en liste over 5 værdier med start ved nytårsaften (#date(2011, 12, 31)) med en stigning på 1 dag (#duration(1, 0, 0, 0)).
+### Example #1
+Opret en liste over 5 værdier startende med nytårsaften (#date(2011, 12, 31)), som stiger med 1 dag (#duration(1, 0, 0, 0)).
 ```powerquery
 List.Dates(#date(2011, 12, 31), 5, #duration(1, 0, 0, 0))
 ```
