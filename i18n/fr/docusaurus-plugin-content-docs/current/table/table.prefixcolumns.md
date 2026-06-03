@@ -26,7 +26,7 @@ Retourne une table où tous les noms de colonne du `table` spécifié sont préf
 ## Examples
 
 ### Example #1
-Préfixe les colonnes de la table avec « MyTable ».
+Préfixe les colonnes de la table avec "MyTable".
 ```powerquery
 Table.PrefixColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

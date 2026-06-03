@@ -26,7 +26,7 @@ Retourne une copie d'une valeur de texte `text` avec tous les caractères hors d
 ## Examples
 
 ### Example #1
-Sélectionnez tous les caractères dans la plage de « a » à « z » à partir de la valeur de texte.
+Sélectionnez tous les caractères dans la plage de "a" à "z" à partir de la valeur de texte.
 ```powerquery
 Text.Select("a,b;c", {"a".."z"})
 ```

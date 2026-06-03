@@ -26,7 +26,7 @@ Retourne les lignes dans la table `table` qui contiennent le texte `text`. Si le
 ## Examples
 
 ### Example #1
-Recherche les lignes dans la table qui contiennent « Bob ».
+Recherche les lignes dans la table qui contiennent "Bob".
 ```powerquery
 Table.FindText(
     Table.FromRecords({

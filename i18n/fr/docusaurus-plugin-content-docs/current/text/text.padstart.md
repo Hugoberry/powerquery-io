@@ -39,7 +39,7 @@ Result:
 
 
 ### Example #2
-Remplissez le début d'une valeur de texte avec « | », pour qu'elle soit longue de 10 caractères.
+Remplissez le début d'une valeur de texte avec "|", pour qu'elle soit longue de 10 caractères.
 ```powerquery
 Text.PadStart("Name", 10, "|")
 ```

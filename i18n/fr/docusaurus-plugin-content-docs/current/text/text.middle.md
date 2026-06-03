@@ -27,7 +27,7 @@ Retourne `count` caractères, ou jusqu'à la fin de `text`, au décalage `start`
 ## Examples
 
 ### Example #1
-Rechercher la sous-chaîne du texte « Hello World » en commençant à l'index 6 et en fractionnant 5 caractères.
+Rechercher la sous-chaîne du texte "Hello World" en commençant à l'index 6 et en fractionnant 5 caractères.
 ```powerquery
 Text.Middle("Hello World", 6, 5)
 ```
@@ -39,7 +39,7 @@ Result:
 
 
 ### Example #2
-Rechercher la sous-chaîne du texte « Hello World » en commençant à l'index 6 jusqu'à la fin.
+Rechercher la sous-chaîne du texte "Hello World" en commençant à l'index 6 jusqu'à la fin.
 ```powerquery
 Text.Middle("Hello World", 6, 20)
 ```
@@ -51,7 +51,7 @@ Result:
 
 
 ### Example #3
-Trouvez la sous-chaîne du texte « Hello World » commençant à l'indice 0 et s'étendant sur 2 caractères.
+Trouvez la sous-chaîne du texte "Hello World" commençant à l'indice 0 et s'étendant sur 2 caractères.
 ```powerquery
 Text.Middle("Hello World", 0, 2)
 ```

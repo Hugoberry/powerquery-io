@@ -27,7 +27,7 @@ Retourne une sous-chaîne à partir du texte `text` trouvée au niveau du décal
 ## Examples
 
 ### Example #1
-Recherche la sous-chaîne du texte « Hello World » en commençant à l'index 6.
+Recherche la sous-chaîne du texte "Hello World" en commençant à l'index 6.
 ```powerquery
 Text.Range("Hello World", 6)
 ```
@@ -39,7 +39,7 @@ Result:
 
 
 ### Example #2
-Recherche la sous-chaîne du texte « Hello World Hello » en commençant à l'index 6 et en fractionnant 5 caractères.
+Recherche la sous-chaîne du texte "Hello World Hello" en commençant à l'index 6 et en fractionnant 5 caractères.
 ```powerquery
 Text.Range("Hello World Hello", 6, 5)
 ```

@@ -24,7 +24,7 @@ DateTimeZone.ToText(
 Renvoie une représentation textuelle de `dateTimeZone`. Un paramètre facultatif `record`, `options`, peut être fourni pour spécifier des propriétés supplémentaires. `culture` n’est utilisé que pour les flux de travail hérités. Le `record` peut contenir les champs suivants :
 
 -   `Format` : valeur `text` indiquant le format à utiliser. Pour plus de détails, accédez à https://go.microsoft.com/fwlink/?linkid=2180104 et https://go.microsoft.com/fwlink/?linkid=2180105. Omettre ce champ ou fournir `null` entraînera le formatage de la date en utilisant la valeur par défaut définie par `Culture`.
--   `Culture` : Quand `Format` n'est pas nul, `Culture` contrôle certains spécificateurs de format. Par exemple, dans ``« en-US »/code> `« MMM »` est `« Jan », « Feb », « Mar », ...` , alors que dans `« ru-RU"` `« MMM »` est `« янв », « фев », « мар », ...`. Lorsque `Format` est `nul`, `Culture` contrôle le format par défaut à utiliser. Lorsque `Culture` est `null` ou omis, `Culture.Current` est utilisé.``
+-   `Culture` : Quand `Format` n'est pas nul, `Culture` contrôle certains spécificateurs de format. Par exemple, dans ``"en-US"/code> `"MMM"` est `"Jan", "Feb", "Mar", ...` , alors que dans `"ru-RU"` `"MMM"` est `"янв", "фев", "мар", ...`. Lorsque `Format` est `nul`, `Culture` contrôle le format par défaut à utiliser. Lorsque `Culture` est `null` ou omis, `Culture.Current` est utilisé.``
 
 ``Pour prendre en charge les flux de travail hérités, `options` et `culture` peut également être des valeurs de texte. Cela a le même comportement que si `options = [Format = options, Culture = culture]`.``
 

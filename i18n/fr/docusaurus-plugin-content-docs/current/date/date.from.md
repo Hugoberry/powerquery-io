@@ -28,7 +28,7 @@ Renvoie une valeur de date à partir de la valeur donnée.
     -   `datetimezone` : La composante date de l'équivalent date-heure local de `value`.
     -   `number` : La composante date de l'équivalent date-heure d'un nombre à virgule flottante dont la partie entière correspond au nombre de jours précédant ou suivant minuit le 30 décembre 1899, et dont la partie fractionnaire représente l'heure de cette journée divisée par 24. Par exemple, minuit le 31 décembre 1899 est représenté par 1,0 ; 6 h 00 le 1er janvier 1900 est représenté par 2,25 ; minuit le 29 décembre 1899 est représenté par -1,0 ; et 6 h 00 le 29 décembre 1899 est représenté par -1,25. La valeur de référence est minuit le 30 décembre 1899. La valeur minimale est minuit le 1er janvier 0100. La valeur maximale correspond au dernier instant du 31 décembre 9999.
     -   Si `value` est d'un autre type, une erreur est renvoyée.
--   `culture` : La culture de la valeur donnée (par exemple, « en-US »).
+-   `culture` : La culture de la valeur donnée (par exemple, "en-US").
 
 
 ## Examples

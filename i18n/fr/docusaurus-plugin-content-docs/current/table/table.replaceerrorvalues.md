@@ -26,7 +26,7 @@ Remplace les valeurs d'erreur dans les colonnes spécifiées par `table` avec le
 ## Examples
 
 ### Example #1
-Remplace la valeur de l'erreur par le texte « world » dans la table.
+Remplace la valeur de l'erreur par le texte "world" dans la table.
 ```powerquery
 Table.ReplaceErrorValues(
     Table.FromRows({{1, "hello"}, {3, ...}}, {"A", "B"}),
@@ -44,7 +44,7 @@ Table.FromRecords({
 
 
 ### Example #2
-Remplace dans la table la valeur de l'erreur de la colonne A par le texte « hello » et dans la colonne B par le texte « world ».
+Remplace dans la table la valeur de l'erreur de la colonne A par le texte "hello" et dans la colonne B par le texte "world".
 ```powerquery
 Table.ReplaceErrorValues(
     Table.FromRows({{..., ...}, {1, 2}}, {"A", "B"}),

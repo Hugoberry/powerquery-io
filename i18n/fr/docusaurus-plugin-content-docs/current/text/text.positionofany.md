@@ -27,7 +27,7 @@ Retourne la première position de n'importe quel caractère dans la liste `chara
 ## Examples
 
 ### Example #1
-Recherchez la première position de « W » ou « H » dans le texte « Hello, World! ».
+Recherchez la première position de "W" ou "H" dans le texte "Hello, World!".
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"})
 ```
@@ -39,7 +39,7 @@ Result:
 
 
 ### Example #2
-Recherchez toutes les positions de « W » ou « H » dans le texte « Hello, World! ».
+Recherchez toutes les positions de "W" ou "H" dans le texte "Hello, World!".
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"}, Occurrence.All)
 ```

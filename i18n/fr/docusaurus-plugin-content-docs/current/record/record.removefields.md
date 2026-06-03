@@ -27,7 +27,7 @@ Retourne un enregistrement qui supprime tous les champs spécifiés dans la list
 ## Examples
 
 ### Example #1
-Supprime le champ « Price » de l'enregistrement.
+Supprime le champ "Price" de l'enregistrement.
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], "Price")
 ```
@@ -39,7 +39,7 @@ Result:
 
 
 ### Example #2
-Supprime les champs « Price » et « Item » de l'enregistrement.
+Supprime les champs "Price" et "Item" de l'enregistrement.
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], {"Price", "Item"})
 ```

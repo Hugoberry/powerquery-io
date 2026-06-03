@@ -26,7 +26,7 @@ Trie `table` en utilisant une liste d'un ou plusieurs noms de colonne et un para
 ## Examples
 
 ### Example #1
-Trie la table sur la colonne « OrderID ».
+Trie la table sur la colonne "OrderID".
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -61,7 +61,7 @@ Table.FromRecords({
 
 
 ### Example #2
-Trie la table sur la colonne « OrderID » par ordre décroissant.
+Trie la table sur la colonne "OrderID" par ordre décroissant.
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -96,7 +96,7 @@ Table.FromRecords({
 
 
 ### Example #3
-Trie la table sur la colonne « CustomerID », puis sur la colonne « OrderID », avec « CustomerID » par ordre croissant.
+Trie la table sur la colonne "CustomerID", puis sur la colonne "OrderID", avec "CustomerID" par ordre croissant.
 ```powerquery
 Table.Sort(
     Table.FromRecords({

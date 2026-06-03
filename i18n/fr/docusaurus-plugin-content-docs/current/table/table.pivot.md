@@ -29,7 +29,7 @@ En fonction d'une paire de colonnes représentant des paires attribut-valeur, fa
 ## Examples
 
 ### Example #1
-Prend les valeurs « a », « b » et « c » dans la colonne d'attribut de la table `({ [ key = "x", attribute = "a", value = 1 ], [ key = "x", attribute = "c", value = 3 ], [ key = "y", attribute = "a", value = 2 ], [ key = "y", attribute = "b", value = 4 ] })` et les fait pivoter dans leur propre colonne.
+Prend les valeurs "a", "b" et "c" dans la colonne d'attribut de la table `({ [ key = "x", attribute = "a", value = 1 ], [ key = "x", attribute = "c", value = 3 ], [ key = "y", attribute = "a", value = 2 ], [ key = "y", attribute = "b", value = 4 ] })` et les fait pivoter dans leur propre colonne.
 ```powerquery
 Table.Pivot(
     Table.FromRecords({
@@ -54,7 +54,7 @@ Table.FromRecords({
 
 
 ### Example #2
-Prend les valeurs « a », « b » et « c » dans la colonne d'attribut de la table `({ [ key = "x", attribute = "a", value = 1 ], [ key = "x", attribute = "c", value = 3 ], [ key = "x", attribute = "c", value = 5 ], [ key = "y", attribute = "a", value = 2 ], [ key = "y", attribute = "b", value = 4 ] })` et les fait pivoter dans leur propre colonne. L'attribut « c » pour la clé « x » a plusieurs valeurs qui lui sont associées, utilisez par conséquent la fonction List.Max pour résoudre le conflit.
+Prend les valeurs "a", "b" et "c" dans la colonne d'attribut de la table `({ [ key = "x", attribute = "a", value = 1 ], [ key = "x", attribute = "c", value = 3 ], [ key = "x", attribute = "c", value = 5 ], [ key = "y", attribute = "a", value = 2 ], [ key = "y", attribute = "b", value = 4 ] })` et les fait pivoter dans leur propre colonne. L'attribut "c" pour la clé "x" a plusieurs valeurs qui lui sont associées, utilisez par conséquent la fonction List.Max pour résoudre le conflit.
 ```powerquery
 Table.Pivot(
     Table.FromRecords({

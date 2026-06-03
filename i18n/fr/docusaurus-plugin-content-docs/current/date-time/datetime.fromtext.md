@@ -23,7 +23,7 @@ DateTime.FromText(
 Crée une `datetime` valeur de représentation de texte de `text`. Un paramètre facultatif `record`, `options`, peut être fourni pour spécifier des propriétés supplémentaires. Le `record` peut contenir les champs suivants :
 
 -   `Format` : valeur `text` indiquant le format à utiliser. Pour plus de détails, accédez à https://go.microsoft.com/fwlink/?linkid=2180104 et https://go.microsoft.com/fwlink/?linkid=2180105. Omettre ce champ ou fournir `null` entraînera l’analyse de la date en faisant de son mieux.
--   `Culture` : Quand `Format` n'est pas nul, `Culture` contrôle certains spécificateurs de format. Par exemple, dans ``« en-US »/code> `« MMM »` est `« Jan », « Feb », « Mar », ...` , alors que dans `« ru-RU"` `« MMM »` est `« янв », « фев », « мар », ...`. Lorsque `Format` est `nul`, `Culture` contrôle le format par défaut à utiliser. Lorsque `Culture` est `null` ou omis, `Culture.Current` est utilisé.``
+-   `Culture` : Quand `Format` n'est pas nul, `Culture` contrôle certains spécificateurs de format. Par exemple, dans ``"en-US"/code> `"MMM"` est `"Jan", "Feb", "Mar", ...` , alors que dans `"ru-RU"` `"MMM"` est `"янв", "фев", "мар", ...`. Lorsque `Format` est `nul`, `Culture` contrôle le format par défaut à utiliser. Lorsque `Culture` est `null` ou omis, `Culture.Current` est utilisé.``
 
 ``Pour prendre en charge les workflows hérités, `options` peut également être une valeur de texte. Ceci a le même comportement que si `options = [Format = null, Culture = options]`.``
 

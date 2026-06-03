@@ -28,7 +28,7 @@ Une fonction de comparaison accepte deux arguments et retourne -1, 0 ou 1 en fon
 ## Examples
 
 ### Example #1
-En utilisant des règles ordinales ne respectant pas la casse, comparez « Abc » avec « abc ». Notez que « Abc » est plus petit que « abc » avec `Comparer.Ordinal`.
+En utilisant des règles ordinales ne respectant pas la casse, comparez "Abc" avec "abc". Notez que "Abc" est plus petit que "abc" avec `Comparer.Ordinal`.
 ```powerquery
 Comparer.OrdinalIgnoreCase("Abc", "abc")
 ```

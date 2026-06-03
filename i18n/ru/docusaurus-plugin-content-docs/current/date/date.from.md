@@ -58,7 +58,7 @@ Result:
 
 
 ### Example #3
-Преобразуйте даты немецкого текста в столбце «Дата публикации» в значения дат.
+Преобразуйте даты немецкого текста в столбце "Дата публикации" в значения дат.
 ```powerquery
 let
     Source = #table(type table [Account Code = text, Posted Date = text, Sales = number],

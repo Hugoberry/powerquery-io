@@ -25,7 +25,7 @@ Convertit la valeur numérique `number` en une valeur de texte selon le format s
   
 Le format est une valeur de texte indiquant comment le nombre doit être converti. Pour plus d’informations sur les valeurs de format prises en charge, accédez à https://go.microsoft.com/fwlink/?linkid=2241210 et https://go.microsoft.com/fwlink/?linkid=2240884.  
   
-Vous pouvez également fournir un `culture` facultatif (par exemple, « fr-FR ») pour contrôler le comportement dépendant de la culture de `format`.
+Vous pouvez également fournir un `culture` facultatif (par exemple, "fr-FR") pour contrôler le comportement dépendant de la culture de `format`.
 
 
 ## Examples

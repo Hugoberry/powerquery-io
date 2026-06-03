@@ -27,7 +27,7 @@ Retourne un enregistrement après avoir renommé les champs dans l’entrée `re
 ## Examples
 
 ### Example #1
-Renomme le champ de l'enregistrement « UnitPrice » en « Price ».
+Renomme le champ de l'enregistrement "UnitPrice" en "Price".
 ```powerquery
 Record.RenameFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", UnitPrice = 100.0],
@@ -42,7 +42,7 @@ Result:
 
 
 ### Example #2
-Renomme les champs de l'enregistrement « UnitPrice » en « Price » et « OrderNum » en « OrderID ».
+Renomme les champs de l'enregistrement "UnitPrice" en "Price" et "OrderNum" en "OrderID".
 ```powerquery
 Record.RenameFields(
     [OrderNum = 1, CustomerID = 1, Item = "Fishing rod", UnitPrice = 100.0],

@@ -26,7 +26,7 @@ Retourne le résultat de la conversion de tous les caractères en `text` en minu
 ## Examples
 
 ### Example #1
-Obtient la version en minuscule de « AbCd ».
+Obtient la version en minuscule de "AbCd".
 ```powerquery
 Text.Lower("AbCd")
 ```

@@ -26,7 +26,7 @@ Retourne le caractère dans la valeur de texte, `text` à la position `index`. L
 ## Examples
 
 ### Example #1
-Recherche le caractère à la position 4 dans la chaîne « Hello, World ».
+Recherche le caractère à la position 4 dans la chaîne "Hello, World".
 ```powerquery
 Text.At("Hello, World", 4)
 ```

@@ -93,7 +93,15 @@ function htmlToMarkdown(value) {
   if (typeof value !== 'string' || value.trim() === '') return value;
   // Collapse the CRLF noise the source is riddled with before parsing.
   const normalised = value.replace(/\r\n|\r|\n/g, ' ');
-  return turndown.turndown(normalised).trim();
+  return turndown.turndown(normalised)
+    // Normalise guillemets to straight quotes, dropping the inner spacing that
+    // languages like French place inside them ("« x »" -> "\"x\""). This also
+    // stops GFM's bare-URL/`www.` autolinker from pulling the surrounding space
+    // and » into an invalid URL (e.g. fr "« www.adventure-works.com »"), which
+    // otherwise breaks the MDX build.
+    .replace(/[«‹][^\S\r\n]*/g, '"')
+    .replace(/[^\S\r\n]*[»›]/g, '"')
+    .trim();
 }
 
 // ---------------------------------------------------------------------------

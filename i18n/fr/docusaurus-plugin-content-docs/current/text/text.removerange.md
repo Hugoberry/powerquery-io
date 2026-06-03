@@ -27,7 +27,7 @@ Retourne une copie d'une valeur de texte `text` en supprimant tous les caractèr
 ## Examples
 
 ### Example #1
-Supprime 1 caractère de la valeur de texte « ABEFC », à la position 2.
+Supprime 1 caractère de la valeur de texte "ABEFC", à la position 2.
 ```powerquery
 Text.RemoveRange("ABEFC", 2)
 ```
@@ -39,7 +39,7 @@ Result:
 
 
 ### Example #2
-Supprime 2 caractères de la valeur de texte « ABEFC », en démarrant à la position 2.
+Supprime 2 caractères de la valeur de texte "ABEFC", en démarrant à la position 2.
 ```powerquery
 Text.RemoveRange("ABEFC", 2, 2)
 ```

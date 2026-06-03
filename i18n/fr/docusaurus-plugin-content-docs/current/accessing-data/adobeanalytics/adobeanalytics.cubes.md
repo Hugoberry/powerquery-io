@@ -24,7 +24,7 @@ Retourne une table de paquets multidimensionnels d'Adobe Analytics. Vous pouvez 
 -   `HierarchicalNavigation` : Valeur logique (true/false) qui indique si les tables à afficher doivent être regroupées en fonction de leurs noms de schémas (valeur par défaut : false).
 -   `MaxRetryCount` : Nombre de nouvelles tentatives à effectuer lors de l'interrogation du résultat de la requête. La valeur par défaut est 120.
 -   `RetryInterval` : Durée entre les nouvelles tentatives. La valeur par défaut est de 1 seconde.
--   `Implementation` : Spécifie la version de l’API Adobe Analytics. Les valeurs valides sont : « 2.0 ». La valeur par défaut utilise l’API version 1.4.
+-   `Implementation` : Spécifie la version de l’API Adobe Analytics. Les valeurs valides sont : "2.0". La valeur par défaut utilise l’API version 1.4.
 
 
 

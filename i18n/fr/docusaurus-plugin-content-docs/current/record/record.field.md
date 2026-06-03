@@ -26,7 +26,7 @@ Retourne la valeur du `field` spécifié dans `record`. Si le champ est introuva
 ## Examples
 
 ### Example #1
-Recherche la valeur du champ « CustomerID » dans l'enregistrement.
+Recherche la valeur du champ "CustomerID" dans l'enregistrement.
 ```powerquery
 Record.Field([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")
 ```

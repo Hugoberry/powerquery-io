@@ -26,7 +26,7 @@ Retourne une liste de valeurs à partir de la liste `list` qui contenait la vale
 ## Examples
 
 ### Example #1
-Recherche les valeurs de texte dans la liste \{"a", "b", "ab"\} qui correspondent à « a ».
+Recherche les valeurs de texte dans la liste \{"a", "b", "ab"\} qui correspondent à "a".
 ```powerquery
 List.FindText({"a", "b", "ab"}, "a")
 ```

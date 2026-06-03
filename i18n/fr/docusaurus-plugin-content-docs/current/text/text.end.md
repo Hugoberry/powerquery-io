@@ -26,7 +26,7 @@ Retourne une valeur `text` qui correspond aux derniers `count` caractères de la
 ## Examples
 
 ### Example #1
-Obtient les 5 derniers caractères du texte, « Hello, World ».
+Obtient les 5 derniers caractères du texte, "Hello, World".
 ```powerquery
 Text.End("Hello, World", 5)
 ```

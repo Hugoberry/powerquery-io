@@ -26,7 +26,7 @@ Retourne une valeur de texte composée du texte d'entrée `text` répété `coun
 ## Examples
 
 ### Example #1
-Répète le texte « a » cinq fois.
+Répète le texte "a" cinq fois.
 ```powerquery
 Text.Repeat("a", 5)
 ```
@@ -38,7 +38,7 @@ Result:
 
 
 ### Example #2
-Répète le texte « helloworld » trois fois.
+Répète le texte "helloworld" trois fois.
 ```powerquery
 Text.Repeat("helloworld.", 3)
 ```

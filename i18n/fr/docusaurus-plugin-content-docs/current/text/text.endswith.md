@@ -35,7 +35,7 @@ Les comparateurs intégrés suivants sont disponibles dans le langage de formule
 ## Examples
 
 ### Example #1
-Vérifiez si « Hello, World » se termine par « world ».
+Vérifiez si "Hello, World" se termine par "world".
 ```powerquery
 Text.EndsWith("Hello, World", "world")
 ```
@@ -47,7 +47,7 @@ false
 
 
 ### Example #2
-Vérifiez si « Hello, World » se termine par « World ».
+Vérifiez si "Hello, World" se termine par "World".
 ```powerquery
 Text.EndsWith("Hello, World", "World")
 ```

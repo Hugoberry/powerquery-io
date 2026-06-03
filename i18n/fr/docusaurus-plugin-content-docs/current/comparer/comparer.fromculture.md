@@ -24,7 +24,7 @@ Retourne une fonction de comparaison qui utilise le `culture` et le respect de l
   
 Une fonction de comparaison accepte deux arguments et retourne -1, 0 ou 1 selon que la première valeur est inférieure, égale ou supérieure à la seconde.  
   
-La valeur par défaut de `ignoreCase` est false. Le `culture` doit être l’un des paramètres régionaux pris en charge par le .NET Framework (par exemple, « fr-FR »).
+La valeur par défaut de `ignoreCase` est false. Le `culture` doit être l’un des paramètres régionaux pris en charge par le .NET Framework (par exemple, "fr-FR").
 
 
 ## Examples

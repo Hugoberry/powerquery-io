@@ -5,7 +5,7 @@ title: Number.FromText
 # Number.FromText
 
 
-Crée des numéros à partir des formats de texte communs (« 15 », « 3,423.10 », « 5.0E-10 »).
+Crée des numéros à partir des formats de texte communs ("15", "3,423.10", "5.0E-10").
 
 
 ## Syntax
@@ -22,7 +22,7 @@ Number.FromText(
 
 Retourne une valeur `number` à partir de la valeur de texte `text` spécifiée.
 
--   `text` : représentation texte d’une valeur de nombre. La représentation doit être dans un format numérique courant, tel que « 15 », « 3,423.10 » ou « 5.0E-10 ».
+-   `text` : représentation texte d’une valeur de nombre. La représentation doit être dans un format numérique courant, tel que "15", "3,423.10" ou "5.0E-10".
 -   `culture` : une culture facultative qui contrôle la façon dont `text` est interprété (par exemple, "fr-fr").
 
 

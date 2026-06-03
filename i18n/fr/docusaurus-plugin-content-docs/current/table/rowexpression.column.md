@@ -25,7 +25,7 @@ Retourne une arborescence de syntaxe abstraite (AST) qui représente l’accès 
 ## Examples
 
 ### Example #1
-Crée un AST représentant l'accès de la colonne « CustomerName ».
+Crée un AST représentant l'accès de la colonne "CustomerName".
 ```powerquery
 RowExpression.Column("CustomerName")
 ```

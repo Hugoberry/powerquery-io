@@ -25,7 +25,7 @@ Retourne une liste de valeurs de caractère depuis la valeur de texte spécifié
 ## Examples
 
 ### Example #1
-Crée une liste de valeurs de caractère à partir du texte « Hello World ».
+Crée une liste de valeurs de caractère à partir du texte "Hello World".
 ```powerquery
 Text.ToList("Hello World")
 ```

@@ -51,7 +51,7 @@ Result:
 
 
 ### Example #3
-Convertissez le point de code hexadécimal de l'émoticône « visage souriant » en sa paire de substitution UTF-16 équivalente.
+Convertissez le point de code hexadécimal de l'émoticône "visage souriant" en sa paire de substitution UTF-16 équivalente.
 ```powerquery
 Character.FromNumber(0x1F600)
 ```

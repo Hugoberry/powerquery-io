@@ -25,13 +25,13 @@ Renvoie une table en appliquant les opérations de transformation aux colonnes s
 
 -   `table` : table d’entrée à transformer.
 -   `typeTransformations` : transformations de type à appliquer. Le format d’une transformation unique est \{ column name, type value \}. Vous pouvez utiliser une liste de transformations pour modifier les types de plusieurs colonnes à la fois. Si une colonne n’existe pas, une erreur est déclenchée.
--   `culture` : (facultatif) culture à utiliser lors de la transformation des types de colonne (par exemple, « en-US »). Si un enregistrement est spécifié pour `culture`, il peut contenir les champs suivants :
-    -   `Culture` : culture à utiliser lors de la transformation des types de colonne (par exemple, « en-US »).
+-   `culture` : (facultatif) culture à utiliser lors de la transformation des types de colonne (par exemple, "en-US"). Si un enregistrement est spécifié pour `culture`, il peut contenir les champs suivants :
+    -   `Culture` : culture à utiliser lors de la transformation des types de colonne (par exemple, "en-US").
     -   `MissingField`  : Si une colonne n’existe pas, une erreur est déclenchée sauf si ce champ fournit un comportement alternatif (par exemple, `MissingField.UseNull` ou `MissingField.Ignore`).
 
 La valeur du type dans le paramètre `typeTransformations` peut être `n’importe laquelle`, tous les types de `nombre`, `texte`, tous les types de `date`, `heure`, `DateHeure`, `datetimezone` et `durée`, `logique` ou `binaire`. Les types `liste`, `enregistrement`, `table` ou les types de `fonction` ne sont pas valides pour ce paramètre.  
   
-Pour chaque colonne répertoriée dans `typeTransformations`, la méthode « .From » correspondant à la valeur de type spécifiée est normalement utilisée pour effectuer la transformation. Par exemple, si une valeur de type `Currency.Type` est fournie pour une colonne, la fonction de transformation `Currency.From` est appliquée à chaque valeur de cette colonne.
+Pour chaque colonne répertoriée dans `typeTransformations`, la méthode ".From" correspondant à la valeur de type spécifiée est normalement utilisée pour effectuer la transformation. Par exemple, si une valeur de type `Currency.Type` est fournie pour une colonne, la fonction de transformation `Currency.From` est appliquée à chaque valeur de cette colonne.
 
 
 ## Examples

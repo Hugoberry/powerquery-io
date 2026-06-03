@@ -29,7 +29,7 @@ Ajoute une colonne nommée `newColumnName` à `table` avec des valeurs de positi
 ## Examples
 
 ### Example #1
-Ajoute une colonne d'index nommée « Index » à la table.
+Ajoute une colonne d'index nommée "Index" à la table.
 ```powerquery
 Table.AddIndexColumn(
     Table.FromRecords({
@@ -54,7 +54,7 @@ Table.FromRecords({
 
 
 ### Example #2
-Ajoute une colonne d'index nommée « Index » à la table, en commençant à la valeur 10 et en incrémentant par 5.
+Ajoute une colonne d'index nommée "Index" à la table, en commençant à la valeur 10 et en incrémentant par 5.
 ```powerquery
 Table.AddIndexColumn(
     Table.FromRecords({

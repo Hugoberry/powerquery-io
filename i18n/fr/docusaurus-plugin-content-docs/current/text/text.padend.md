@@ -39,7 +39,7 @@ Result:
 
 
 ### Example #2
-Remplissez la fin d'une valeur de texte avec « | », pour qu'elle soit longue de 10 caractères.
+Remplissez la fin d'une valeur de texte avec "|", pour qu'elle soit longue de 10 caractères.
 ```powerquery
 Text.PadEnd("Name", 10, "|")
 ```

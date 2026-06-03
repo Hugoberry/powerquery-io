@@ -33,7 +33,7 @@ En fonction des enregistrements de `column` dans l'entrée `table`, crée une ta
 ## Examples
 
 ### Example #1
-Développe la colonne \[a\] dans la table `({[a = [aa = 1, bb = 2, cc = 3], b = 2]})` en 3 colonnes « aa », « bb » et « cc ».
+Développe la colonne \[a\] dans la table `({[a = [aa = 1, bb = 2, cc = 3], b = 2]})` en 3 colonnes "aa", "bb" et "cc".
 ```powerquery
 Table.ExpandRecordColumn(
     Table.FromRecords({

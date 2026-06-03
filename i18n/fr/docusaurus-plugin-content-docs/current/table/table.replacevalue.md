@@ -35,7 +35,7 @@ Permet de remplacer une valeur par une nouvelle valeur dans les colonnes spécif
 ## Examples
 
 ### Example #1
-Remplacez le texte « au revoir » par « monde » dans la colonne B, correspondant uniquement à la valeur entière.
+Remplacez le texte "au revoir" par "monde" dans la colonne B, correspondant uniquement à la valeur entière.
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -61,7 +61,7 @@ Table.FromRecords({
 
 
 ### Example #2
-Remplacez le texte « votre » par « ou » dans la colonne B, correspondant à n’importe quelle partie de la valeur.
+Remplacez le texte "votre" par "ou" dans la colonne B, correspondant à n’importe quelle partie de la valeur.
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({

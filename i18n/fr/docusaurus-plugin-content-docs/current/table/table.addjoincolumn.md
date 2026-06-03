@@ -29,7 +29,7 @@ Joint les lignes de `table1` aux lignes de `table2` en fonction de l'égalité d
 ## Examples
 
 ### Example #1
-Ajoute une colonne de jointure à (\{\[saleID = 1, item = "Shirt"\], \[saleID = 2, item = "Hat"\]\}) nommée « price/stock » depuis la table (\{\[saleID = 1, price = 20\], \[saleID = 2, price = 10\]\}) jointe sur \[saleID\].
+Ajoute une colonne de jointure à (\{\[saleID = 1, item = "Shirt"\], \[saleID = 2, item = "Hat"\]\}) nommée "price/stock" depuis la table (\{\[saleID = 1, price = 20\], \[saleID = 2, price = 10\]\}) jointe sur \[saleID\].
 ```powerquery
 Table.AddJoinColumn(
     Table.FromRecords({

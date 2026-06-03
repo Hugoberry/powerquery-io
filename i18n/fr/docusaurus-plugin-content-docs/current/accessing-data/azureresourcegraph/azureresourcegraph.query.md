@@ -27,7 +27,7 @@ Voir https://learn.microsoft.com/azure/governance/resource-graph/samples/starter
 ## Examples
 
 ### Example #1
-Renvoie une table avec les résultats de la requête utilisateur « ressources »
+Renvoie une table avec les résultats de la requête utilisateur "ressources"
 ```powerquery
 AzureResourceGraph.Query("resources")
 ```

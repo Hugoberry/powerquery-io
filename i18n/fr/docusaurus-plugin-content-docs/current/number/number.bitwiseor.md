@@ -5,7 +5,7 @@ title: Number.BitwiseOr
 # Number.BitwiseOr
 
 
-Retourne le résultat d'une opération au niveau du bit « Or » entre les deux entrées.
+Retourne le résultat d'une opération au niveau du bit "Or" entre les deux entrées.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Number.BitwiseOr(
 
 ## Remarks
 
-Retourne le résultat d'une opération au niveau du bit « Or » entre `number1` et `number2`.
+Retourne le résultat d'une opération au niveau du bit "Or" entre `number1` et `number2`.
 
 
 

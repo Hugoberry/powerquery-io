@@ -31,13 +31,13 @@ L’argument facultatif `comparer` peut être utilisé pour spécifier des compa
 
 Si le premier argument est null, cette fonction retourne null.  
   
-Tous les caractères sont traités de manière littérale. Par exemple, «DR», « DR», «DR » et « DR » ne sont pas considérés comme égaux entre eux.
+Tous les caractères sont traités de manière littérale. Par exemple, "DR", "DR", "DR" et "DR" ne sont pas considérés comme égaux entre eux.
 
 
 ## Examples
 
 ### Example #1
-Déterminez si le texte « Hello World » contient « Hello ».
+Déterminez si le texte "Hello World" contient "Hello".
 ```powerquery
 Text.Contains("Hello World", "Hello")
 ```
@@ -49,7 +49,7 @@ true
 
 
 ### Example #2
-Déterminez si le texte « Hello World » contient « hello ».
+Déterminez si le texte "Hello World" contient "hello".
 ```powerquery
 Text.Contains("Hello World", "hello")
 ```
@@ -73,7 +73,7 @@ true
 
 
 ### Example #4
-Rechercher les lignes d’une table qui contiennent soit « A- » ou « 7 » dans le code du compte.
+Rechercher les lignes d’une table qui contiennent soit "A-" ou "7" dans le code du compte.
 ```powerquery
 let
     Source = #table(type table [Account Code = text, Posted Date = date, Sales = number],

@@ -29,7 +29,7 @@ Retourne la partie de `text` entre le `startDelimiter` et le `endDelimiter` spé
 ## Examples
 
 ### Example #1
-Obtenez la partie de « 111 (222) 333 (444) » entre la (première) parenthèse ouvrante et la (première) parenthèse fermante qui la suit.
+Obtenez la partie de "111 (222) 333 (444)" entre la (première) parenthèse ouvrante et la (première) parenthèse fermante qui la suit.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")")
 ```
@@ -41,7 +41,7 @@ Result:
 
 
 ### Example #2
-Obtenez la partie de « 111 (222) 333 (444) » entre la deuxième parenthèse ouvrante et la première parenthèse fermante qui la suit.
+Obtenez la partie de "111 (222) 333 (444)" entre la deuxième parenthèse ouvrante et la première parenthèse fermante qui la suit.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")", 1, 0)
 ```
@@ -53,7 +53,7 @@ Result:
 
 
 ### Example #3
-Obtenez la partie de « 111 (222) 333 (444) » entre la deuxième parenthèse ouvrante à partir de la fin et la deuxième parenthèse fermante qui la suit.
+Obtenez la partie de "111 (222) 333 (444)" entre la deuxième parenthèse ouvrante à partir de la fin et la deuxième parenthèse fermante qui la suit.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")", {1, RelativePosition.FromEnd}, {1, RelativePosition.FromStart})
 ```

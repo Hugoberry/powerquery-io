@@ -31,7 +31,7 @@ Si plusieurs champs sont transformés, `transformOperations` sera une liste de l
 ## Examples
 
 ### Example #1
-Convertissez le champ « Price » en nombre.
+Convertissez le champ "Price" en nombre.
 ```powerquery
 Record.TransformFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = "100.0"],
@@ -46,7 +46,7 @@ Result:
 
 
 ### Example #2
-Convertissez les champs « OrderID » et « Price » en nombres.
+Convertissez les champs "OrderID" et "Price" en nombres.
 ```powerquery
 Record.TransformFields(
     [OrderID = "1", CustomerID = 1, Item = "Fishing rod", Price = "100.0"],

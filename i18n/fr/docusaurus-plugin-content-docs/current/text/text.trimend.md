@@ -29,7 +29,7 @@ Retourne le résultat de la suppression de tous les caractères de fin du/de la 
 ## Examples
 
 ### Example #1
-Supprime les espaces de fin de «  a b c d  ».
+Supprime les espaces de fin de "a b c d".
 ```powerquery
 Text.TrimEnd("     a b c d    ")
 ```

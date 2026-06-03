@@ -36,7 +36,7 @@ Les comparateurs intégrés suivants sont disponibles dans le langage de formule
 ## Examples
 
 ### Example #1
-Obtient la position de la première occurrence de « World » dans le texte « Hello, World! Hello, World! ».
+Obtient la position de la première occurrence de "World" dans le texte "Hello, World! Hello, World!".
 ```powerquery
 Text.PositionOf("Hello, World! Hello, World!", "World")
 ```
@@ -48,7 +48,7 @@ Result:
 
 
 ### Example #2
-Obtient la position de la dernière occurrence de « World » dans « Hello, World! Hello, World! ».
+Obtient la position de la dernière occurrence de "World" dans "Hello, World! Hello, World!".
 ```powerquery
 Text.PositionOf("Hello, World! Hello, World!", "World", Occurrence.Last)
 ```

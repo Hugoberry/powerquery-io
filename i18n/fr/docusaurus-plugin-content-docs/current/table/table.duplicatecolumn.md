@@ -28,7 +28,7 @@ Dupliquer la colonne nommée `columnName` vers la table `table`. Les valeurs et 
 ## Examples
 
 ### Example #1
-Duplique la colonne « a » sur une colonne nommée « colonne copiée » dans la table `({[a = 1, b = 2], [a = 3, b = 4]})`.
+Duplique la colonne "a" sur une colonne nommée "colonne copiée" dans la table `({[a = 1, b = 2], [a = 3, b = 4]})`.
 ```powerquery
 Table.DuplicateColumn(
     Table.FromRecords({

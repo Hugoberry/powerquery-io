@@ -22,7 +22,7 @@ Cube.AddAndExpandDimensionColumn(
 
 ## Remarks
 
-Fusionne la table de dimensions spécifiée `dimensionSelector` dans le contexte de filtre `cube` et modifie la granularité dimensionnelle en étendant l'ensemble spécifié `attributeNames` d'attributs de dimension. Les attributs de dimension sont ajoutés à la vue tabulaire avec des colonnes nommées « `newColumnNames` », ou « `attributeNames` » si aucun nom n'est spécifié.
+Fusionne la table de dimensions spécifiée `dimensionSelector` dans le contexte de filtre `cube` et modifie la granularité dimensionnelle en étendant l'ensemble spécifié `attributeNames` d'attributs de dimension. Les attributs de dimension sont ajoutés à la vue tabulaire avec des colonnes nommées "`newColumnNames`", ou "`attributeNames`" si aucun nom n'est spécifié.
 
 
 

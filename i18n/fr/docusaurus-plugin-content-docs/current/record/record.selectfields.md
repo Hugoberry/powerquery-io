@@ -27,7 +27,7 @@ Retourne un enregistrement qui comprend uniquement les champs spécifiés dans l
 ## Examples
 
 ### Example #1
-Sélectionne les champs « Item » et « Price » dans l'enregistrement.
+Sélectionne les champs "Item" et "Price" dans l'enregistrement.
 ```powerquery
 Record.SelectFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0],

@@ -23,7 +23,7 @@ Number.Round(
 
 Aporta el resultado de redondear `number` al número más próximo. Si `number` es nulo, `Number.Round` resultará nulo.  
   
-De manera predeterminada, `number` se redondea al número entero más próximo y los empates se desharán redondeando al número par más próximo (mediante `RoundingMode.ToEven`, o «redondeo bancario» ).  
+De manera predeterminada, `number` se redondea al número entero más próximo y los empates se desharán redondeando al número par más próximo (mediante `RoundingMode.ToEven`, o "redondeo bancario" ).  
   
 Sin embargo, estos valores predeterminados se pueden anular a través de los siguientes parámetros opcionales.
 

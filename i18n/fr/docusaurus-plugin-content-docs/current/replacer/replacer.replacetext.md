@@ -27,7 +27,7 @@ Remplace le texte `old` dans le `text` d'origine par le texte `new`. Cette fonct
 ## Examples
 
 ### Example #1
-Remplace le texte « hE » par « He » dans la chaîne « hEllo world ».
+Remplace le texte "hE" par "He" dans la chaîne "hEllo world".
 ```powerquery
 Replacer.ReplaceText("hEllo world", "hE", "He")
 ```

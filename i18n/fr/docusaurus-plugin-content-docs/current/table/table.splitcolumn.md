@@ -100,7 +100,7 @@ Result:
 
 
 ### Example #3
-Divisez la colonne de nom en prénom et nom, renommez les nouvelles colonnes et remplissez les espaces vides avec « -Aucune entrée- ».
+Divisez la colonne de nom en prénom et nom, renommez les nouvelles colonnes et remplissez les espaces vides avec "-Aucune entrée-".
 ```powerquery
 let
     Source = #table(type table[CustomerID = number, Name = text, Phone = text],

@@ -27,7 +27,7 @@ Retourne la partie de `text` avant le `delimiter` spécifié. Un numérique facu
 ## Examples
 
 ### Example #1
-Obtenez la partie de « 111-222-333 » avant le (premier) trait d'union.
+Obtenez la partie de "111-222-333" avant le (premier) trait d'union.
 ```powerquery
 Text.BeforeDelimiter("111-222-333", "-")
 ```
@@ -39,7 +39,7 @@ Result:
 
 
 ### Example #2
-Obtenez la partie de « 111-222-333 » avant le deuxième trait d'union.
+Obtenez la partie de "111-222-333" avant le deuxième trait d'union.
 ```powerquery
 Text.BeforeDelimiter("111-222-333", "-", 1)
 ```
@@ -51,7 +51,7 @@ Result:
 
 
 ### Example #3
-Obtenez la partie de « 111-222-333 » avant le deuxième trait d'union à partir de la fin.
+Obtenez la partie de "111-222-333" avant le deuxième trait d'union à partir de la fin.
 ```powerquery
 Text.BeforeDelimiter("111-222-333", "-", {1, RelativePosition.FromEnd})
 ```

@@ -23,7 +23,7 @@ Text.From(
 Retourne la représentation textuelle d’une valeur spécifiée.
 
 -   `value` : la valeur de conversion en texte. La valeur peut être un `nombre`, `date`, `heure`, `datetime`, `datetimezone`, `logique`, `durée` ou une `valeur binaire`. Si la valeur fournie est `null`, cette fonction renvoie `null`.
--   `culture` : (Facultatif) La culture à utiliser lors de la conversion de la valeur en texte (par exemple, « en-US »).
+-   `culture` : (Facultatif) La culture à utiliser lors de la conversion de la valeur en texte (par exemple, "en-US").
 
 
 ## Examples

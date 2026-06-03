@@ -53,7 +53,7 @@ false
 
 
 ### Example #3
-Déterminez si l’une des valeurs de texte de la liste contiennent « cat » tout en ignorant la casse.
+Déterminez si l’une des valeurs de texte de la liste contiennent "cat" tout en ignorant la casse.
 ```powerquery
 let
     Source = {"A Brown Fox", "A Loyal Dog", "A Curious Cat", "A Wild Horse", "A Rascally Rabbit"},

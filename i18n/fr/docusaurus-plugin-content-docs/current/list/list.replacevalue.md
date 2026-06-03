@@ -28,7 +28,7 @@ Recherche une liste de valeurs, `list`, pour la valeur `oldValue` et remplace ch
 ## Examples
 
 ### Example #1
-Remplace toutes les valeurs « a » dans la liste \{"a", "B", "a", "a"\} par « A ».
+Remplace toutes les valeurs "a" dans la liste \{"a", "B", "a", "a"\} par "A".
 ```powerquery
 List.ReplaceValue({"a", "B", "a", "a"}, "a", "A", Replacer.ReplaceText)
 ```

@@ -5,7 +5,7 @@ title: Logical.ToText
 # Logical.ToText
 
 
-Retourne le texte « true » ou « false » en fonction d'une valeur logique.
+Retourne le texte "true" ou "false" en fonction d'une valeur logique.
 
 
 ## Syntax

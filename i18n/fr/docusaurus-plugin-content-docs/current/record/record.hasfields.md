@@ -26,7 +26,7 @@ Indique si l'enregistrement `record` a les champs spécifiés dans `fields`, en 
 ## Examples
 
 ### Example #1
-Vérifie si l'enregistrement a le champ « CustomerID ».
+Vérifie si l'enregistrement a le champ "CustomerID".
 ```powerquery
 Record.HasFields([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")
 ```
@@ -38,7 +38,7 @@ true
 
 
 ### Example #2
-Vérifie si l'enregistrement a les champs « CustomerID » et « Address ».
+Vérifie si l'enregistrement a les champs "CustomerID" et "Address".
 ```powerquery
 Record.HasFields([CustomerID = 1, Name = "Bob", Phone = "123-4567"], {"CustomerID", "Address"})
 ```

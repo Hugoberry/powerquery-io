@@ -28,7 +28,7 @@ Ajoute un champ à un enregistrement `record`, selon le nom du champ `fieldName`
 ## Examples
 
 ### Example #1
-Ajoute le champ « Address » à l'enregistrement.
+Ajoute le champ "Address" à l'enregistrement.
 ```powerquery
 Record.AddField([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "Address", "123 Main St.")
 ```

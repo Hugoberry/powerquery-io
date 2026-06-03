@@ -27,7 +27,7 @@ Retourne la valeur du champ spécifié `field` dans l'enregistrement `record`. S
 ## Examples
 
 ### Example #1
-Recherche la valeur du champ « Phone » dans l'enregistrement ou retourne null s'il n'existe pas.
+Recherche la valeur du champ "Phone" dans l'enregistrement ou retourne null s'il n'existe pas.
 ```powerquery
 Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone")
 ```
@@ -39,7 +39,7 @@ null
 
 
 ### Example #2
-Recherche la valeur du champ « Phone » dans l'enregistrement ou retourne la valeur par défaut s'il n'existe pas.
+Recherche la valeur du champ "Phone" dans l'enregistrement ou retourne la valeur par défaut s'il n'existe pas.
 ```powerquery
 Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone", "123-4567")
 ```

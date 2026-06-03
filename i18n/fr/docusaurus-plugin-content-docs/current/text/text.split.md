@@ -29,7 +29,7 @@ Retourne une liste de valeurs de texte résultant du fractionnement d'une valeur
 ## Examples
 
 ### Example #1
-Crée une liste à partir de la valeur de texte délimitée par « | » « Name|Address|PhoneNumber ».
+Crée une liste à partir de la valeur de texte délimitée par "|" "Name|Address|PhoneNumber".
 ```powerquery
 Text.Split("Name|Address|PhoneNumber", "|")
 ```

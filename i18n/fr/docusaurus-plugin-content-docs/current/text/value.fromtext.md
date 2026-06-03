@@ -23,7 +23,7 @@ Value.FromText(
 Décode une valeur d’une représentation textuelle et l’interprète comme une valeur avec un type approprié.
 
 -   `text` : Le texte à interpréter.
--   `culture` : (Facultatif) Une culture spécifique utilisée pour interpréter le texte (par exemple, « en-US »).
+-   `culture` : (Facultatif) Une culture spécifique utilisée pour interpréter le texte (par exemple, "en-US").
 
 Cette fonction prend une valeur de texte et retourne une valeur de type `nombre`, `logique`, `null`, `datetime`, `durée`, ou `texte`. Une valeur de texte vide est interprétée comme une valeur `null`.
 

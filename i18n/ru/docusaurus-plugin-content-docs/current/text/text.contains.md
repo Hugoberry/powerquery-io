@@ -73,7 +73,7 @@ true
 
 
 ### Example #4
-Найдите в таблице строки, содержащие «A-» или «7» в коде учетной записи.
+Найдите в таблице строки, содержащие "A-" или "7" в коде учетной записи.
 ```powerquery
 let
     Source = #table(type table [Account Code = text, Posted Date = date, Sales = number],

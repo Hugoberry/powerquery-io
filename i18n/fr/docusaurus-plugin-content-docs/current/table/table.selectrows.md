@@ -49,7 +49,7 @@ Table.FromRecords({
 
 
 ### Example #2
-Sélectionnez les lignes de la table où les noms ne contiennent pas un « B ».
+Sélectionnez les lignes de la table où les noms ne contiennent pas un "B".
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({

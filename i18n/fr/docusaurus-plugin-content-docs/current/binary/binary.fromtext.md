@@ -29,7 +29,7 @@ Retourne le résultat de la conversion de la valeur de texte `text` dans une val
 ## Examples
 
 ### Example #1
-Décode « 1011 » en binaire.
+Décode "1011" en binaire.
 ```powerquery
 Binary.FromText("1011")
 ```
@@ -41,7 +41,7 @@ Binary.FromText("1011", BinaryEncoding.Base64)
 
 
 ### Example #2
-Décode « 1011 » en binaire avec un codage hexadécimal.
+Décode "1011" en binaire avec un codage hexadécimal.
 ```powerquery
 Binary.FromText("1011", BinaryEncoding.Hex)
 ```

@@ -26,7 +26,7 @@ Retourne le résultat de la combinaison de la liste de valeurs de texte, `texts`
 ## Examples
 
 ### Example #1
-Combinez les valeurs de texte « Seattle » et « WA ».
+Combinez les valeurs de texte "Seattle" et "WA".
 ```powerquery
 Text.Combine({"Seattle", "WA"})
 ```
@@ -38,7 +38,7 @@ Result:
 
 
 ### Example #2
-Combinez les valeurs de texte « Seattle » et « WA » séparées par une virgule et un espace.
+Combinez les valeurs de texte "Seattle" et "WA" séparées par une virgule et un espace.
 ```powerquery
 Text.Combine({"Seattle", "WA"}, ", ")
 ```
@@ -50,7 +50,7 @@ Result:
 
 
 ### Example #3
-Combinez les valeurs « Seattle », `nul` et « WA », séparées par une virgule et un espace. (Notez que le `nul` est ignoré.)
+Combinez les valeurs "Seattle", `nul` et "WA", séparées par une virgule et un espace. (Notez que le `nul` est ignoré.)
 ```powerquery
 Text.Combine({"Seattle", null, "WA"}, ", ")
 ```

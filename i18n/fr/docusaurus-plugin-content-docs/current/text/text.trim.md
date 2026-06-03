@@ -29,7 +29,7 @@ Retourne le résultat de la suppression de tous les caractères de début et de 
 ## Examples
 
 ### Example #1
-Supprime les espaces de début et de fin de «  a b c d  ».
+Supprime les espaces de début et de fin de "a b c d".
 ```powerquery
 Text.Trim("     a b c d    ")
 ```

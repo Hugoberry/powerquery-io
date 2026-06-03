@@ -23,7 +23,7 @@ DateTimeZone.From(
 Crée un `datetimezone` à partir de la valeur donnée.
 
 -   `value` : La valeur utilisée pour créer un `datetimezone`.
--   `culture` : (Facultatif) La culture à utiliser lors de la transformation de la valeur (par exemple, « en-US »).
+-   `culture` : (Facultatif) La culture à utiliser lors de la transformation de la valeur (par exemple, "en-US").
 
 Les valeurs des types suivants peuvent être converties en une valeur `datetimezone` :
 

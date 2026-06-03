@@ -28,7 +28,7 @@ Ajoute une colonne nommée `newColumnName` à la table `table`. Les valeurs de l
 ## Examples
 
 ### Example #1
-Ajoute une colonne de nombres nommée « TotalPrice » à la table, où chaque valeur est la somme des colonnes \[Price\] et colonne \[Shipping\].
+Ajoute une colonne de nombres nommée "TotalPrice" à la table, où chaque valeur est la somme des colonnes \[Price\] et colonne \[Shipping\].
 ```powerquery
 Table.AddColumn(
     Table.FromRecords({

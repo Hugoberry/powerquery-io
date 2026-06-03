@@ -27,7 +27,7 @@ Retourne le résultat du remplacement de toutes les occurrences de la valeur de 
 ## Examples
 
 ### Example #1
-Remplace toutes les occurrences de « the » dans une phrase par « a ».
+Remplace toutes les occurrences de "the" dans une phrase par "a".
 ```powerquery
 Text.Replace("the quick brown fox jumps over the lazy dog", "the", "a")
 ```

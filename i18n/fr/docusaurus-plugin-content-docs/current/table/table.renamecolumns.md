@@ -27,7 +27,7 @@ Effectue les attributions de noms spécifiées sur les colonnes dans la table `t
 ## Examples
 
 ### Example #1
-Remplace le nom de la colonne « CustomerNum » de la table par « CustomerID ».
+Remplace le nom de la colonne "CustomerNum" de la table par "CustomerID".
 ```powerquery
 Table.RenameColumns(
     Table.FromRecords({[CustomerNum = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -42,7 +42,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]})
 
 
 ### Example #2
-Remplace les noms de colonne de la table « CustomerNum » par « CustomerID » et « PhoneNum » par « Phone ».
+Remplace les noms de colonne de la table "CustomerNum" par "CustomerID" et "PhoneNum" par "Phone".
 ```powerquery
 Table.RenameColumns(
     Table.FromRecords({[CustomerNum = 1, Name = "Bob", PhoneNum = "123-4567"]}),
@@ -60,7 +60,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]})
 
 
 ### Example #3
-Remplace le nom de colonne de la table « NewCol » par « NewColumn », et ignore cette requête si la colonne n'existe pas.
+Remplace le nom de colonne de la table "NewCol" par "NewColumn", et ignore cette requête si la colonne n'existe pas.
 ```powerquery
 Table.RenameColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

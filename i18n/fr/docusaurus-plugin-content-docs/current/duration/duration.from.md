@@ -43,7 +43,7 @@ Result:
 
 
 ### Example #2
-Convertissez la valeur de texte `« 2.05:55:20.34567 »` en une valeur de `durée`.
+Convertissez la valeur de texte `"2.05:55:20.34567"` en une valeur de `durée`.
 ```powerquery
 Duration.From("2.05:55:20.34567")
 ```

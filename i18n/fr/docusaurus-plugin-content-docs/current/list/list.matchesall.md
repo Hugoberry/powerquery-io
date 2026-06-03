@@ -53,7 +53,7 @@ false
 
 
 ### Example #3
-Déterminez si toutes les valeurs de texte de la liste contiennent « anna » tout en ignorant la casse.
+Déterminez si toutes les valeurs de texte de la liste contiennent "anna" tout en ignorant la casse.
 ```powerquery
 let
     Source = {"Savannah", "Annabelle", "Annals", "wannabe", "MANNA"},

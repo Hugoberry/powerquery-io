@@ -25,7 +25,7 @@ Retourne le nombre de caractères dans le texte `text`.
 ## Examples
 
 ### Example #1
-Indiquez combien de caractères sont dans le texte « Hello World ».
+Indiquez combien de caractères sont dans le texte "Hello World".
 ```powerquery
 Text.Length("Hello World")
 ```

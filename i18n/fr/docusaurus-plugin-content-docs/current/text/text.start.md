@@ -26,7 +26,7 @@ Retourne le premier caractère `count` de `text` comme valeur de texte.
 ## Examples
 
 ### Example #1
-Obtient les 5 premiers caractères du texte, « Hello, World ».
+Obtient les 5 premiers caractères du texte, "Hello, World".
 ```powerquery
 Text.Start("Hello, World", 5)
 ```

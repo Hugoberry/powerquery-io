@@ -27,7 +27,7 @@ Retourne le résultat de la valeur de texte insérée `newText` dans la valeur d
 ## Examples
 
 ### Example #1
-Insérez « C » entre « B » et « D » dans « ABD ».
+Insérez "C" entre "B" et "D" dans "ABD".
 ```powerquery
 Text.Insert("ABD", 2, "C")
 ```

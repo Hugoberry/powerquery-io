@@ -57,7 +57,7 @@ Result:
 
 
 ### Example #3
-Trouvez l’élément d’une liste de valeurs textuelles qui est le dernier par ordre alphabétique. Si la liste est vide, retournez « none ».
+Trouvez l’élément d’une liste de valeurs textuelles qui est le dernier par ordre alphabétique. Si la liste est vide, retournez "none".
 ```powerquery
 let
     Source = {"boy", "dog", "girl", "zebra", "cat", "mouse", "rabbit"},

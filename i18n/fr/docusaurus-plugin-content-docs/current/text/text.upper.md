@@ -26,7 +26,7 @@ Retourne le résultat de la conversion de tous les caractères de `text` en maju
 ## Examples
 
 ### Example #1
-Obtient la version en majuscules de « aBcD ».
+Obtient la version en majuscules de "aBcD".
 ```powerquery
 Text.Upper("aBcD")
 ```

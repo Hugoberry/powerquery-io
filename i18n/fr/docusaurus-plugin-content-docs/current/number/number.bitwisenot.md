@@ -19,7 +19,7 @@ Number.BitwiseNot(
 
 ## Remarks
 
-Retourne le résultat d'une opération au niveau du bit « Not » sur `number`.
+Retourne le résultat d'une opération au niveau du bit "Not" sur `number`.
 
 
 

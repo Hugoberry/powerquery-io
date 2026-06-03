@@ -42,7 +42,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]})
 
 
 ### Example #2
-Inverse l'ordre des colonnes \[Phone\] et \[Address\] de la table, ou utilise « MissingField.Ignore ». Ne change pas la table si la colonne \[Address\] n'existe pas.
+Inverse l'ordre des colonnes \[Phone\] et \[Address\] de la table, ou utilise "MissingField.Ignore". Ne change pas la table si la colonne \[Address\] n'existe pas.
 ```powerquery
 Table.ReorderColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

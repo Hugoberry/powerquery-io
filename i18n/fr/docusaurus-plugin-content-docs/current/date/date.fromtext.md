@@ -26,7 +26,7 @@ Crée une valeur de date à partir d’une représentation de texte.
 -   `options` : paramètre `record` facultatif qui peut être fourni pour spécifier des propriétés supplémentaires. Le paramètre `record` peut contenir les champs suivants :
     
     -   `Format` : valeur `text` indiquant le format à utiliser. Pour découvrir plus de détails, accédez à https://go.microsoft.com/fwlink/?linkid=2180104 and https://go.microsoft.com/fwlink/?linkid=2180105. L’omission de ce champ ou la fourniture de résultats `nuls` entraîne l’analyse de la date en utilisant le meilleur effort possible.
-    -   `Culture` : lorsque `Format` n’est pas nul, le paramètre `Culture` contrôle certains spécificateurs de format. Par exemple, dans ``« en-US »/code> `« MMM »` est `« Jan », « Feb », « Mar », ...` , alors que dans `« ru-RU"` `« MMM »` est `« янв », « фев », « мар », ...`. Lorsque `Format` est `nul`, `Culture` contrôle le format par défaut à utiliser. Lorsque `Culture` est `nul` ou omis, `Culture.Current` est utilisé.``
+    -   `Culture` : lorsque `Format` n’est pas nul, le paramètre `Culture` contrôle certains spécificateurs de format. Par exemple, dans ``"en-US"/code> `"MMM"` est `"Jan", "Feb", "Mar", ...` , alors que dans `"ru-RU"` `"MMM"` est `"янв", "фев", "мар", ...`. Lorsque `Format` est `nul`, `Culture` contrôle le format par défaut à utiliser. Lorsque `Culture` est `nul` ou omis, `Culture.Current` est utilisé.``
     
 
 ``Pour prendre en charge les workflows hérités, `options` peut également être une valeur de texte. Ceci a le même comportement que si `options = [Format = null, Culture = options]`.``

@@ -55,7 +55,7 @@ false
 
 
 ### Example #3
-En ne tenant pas compte de la casse, déterminez si la liste contient « rhubarbe ».
+En ne tenant pas compte de la casse, déterminez si la liste contient "rhubarbe".
 ```powerquery
 List.Contains({"Pears", "Bananas", "Rhubarb", "Peaches"},
     "rhubarb",

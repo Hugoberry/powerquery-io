@@ -39,7 +39,7 @@ Les comparateurs intégrés suivants sont disponibles dans le langage de la form
 ## Examples
 
 ### Example #1
-Vérifie si le texte « Hello, World » commence par le texte « hello ».
+Vérifie si le texte "Hello, World" commence par le texte "hello".
 ```powerquery
 Text.StartsWith("Hello, World", "hello")
 ```
@@ -51,7 +51,7 @@ false
 
 
 ### Example #2
-Vérifie si le texte « Hello, World » commence par le texte « Hello ».
+Vérifie si le texte "Hello, World" commence par le texte "Hello".
 ```powerquery
 Text.StartsWith("Hello, World", "Hello")
 ```
@@ -63,7 +63,7 @@ true
 
 
 ### Example #3
-En ne tenant pas compte de la casse, vérifiez si le texte « Hello, World » commence par le texte « hello ».
+En ne tenant pas compte de la casse, vérifiez si le texte "Hello, World" commence par le texte "hello".
 ```powerquery
 Text.StartsWith("Hello, World", "hello", Comparer.OrdinalIgnoreCase)
 ```

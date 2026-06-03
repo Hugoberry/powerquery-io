@@ -28,7 +28,7 @@ Retourne le résultat de la suppression d'un certain nombre de caractères, `cou
 ## Examples
 
 ### Example #1
-Remplace un seul caractère à la position 2 dans la valeur de texte « ABGF » par la nouvelle valeur de texte « CDE ».
+Remplace un seul caractère à la position 2 dans la valeur de texte "ABGF" par la nouvelle valeur de texte "CDE".
 ```powerquery
 Text.ReplaceRange("ABGF", 2, 1, "CDE")
 ```
