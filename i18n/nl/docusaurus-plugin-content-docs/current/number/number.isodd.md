@@ -19,12 +19,12 @@ Number.IsOdd(
 
 ## Remarks
 
-Geeft aan of de waarde een oneven getal is. Retourneert <code>true</code> als <code>number</code> een oneven getal is en <code>false</code> als dat niet het geval is.
+Geeft aan of de waarde een oneven getal is. Retourneert `true` als `number` een oneven getal is en `false` als dat niet het geval is.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Controleren of 625 een oneven getal is.
 ```powerquery
 Number.IsOdd(625)
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Controleren of 82 een oneven getal is.
 ```powerquery
 Number.IsOdd(82)

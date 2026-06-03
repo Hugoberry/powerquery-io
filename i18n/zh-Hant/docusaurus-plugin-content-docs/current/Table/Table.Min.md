@@ -21,13 +21,13 @@ Table.Min(
 
 ## Remarks
 
-指定 <code>comparisonCriteria</code> 之後，傳回 <code>table</code> 中最小的資料列。如果資料表是空的，就會傳回選擇性 <code>default</code> 值。
+指定 `comparisonCriteria` 之後，傳回 `table` 中最小的資料列。如果資料表是空的，就會傳回選擇性 `default` 值。
 
 
 ## Examples
 
-### Example #1 
-在資料表內的 [a] 資料行中，找出值最小的資料列。
+### Example #1
+在資料表內的 \[a\] 資料行中，找出值最小的資料列。
 ```powerquery
 Table.Min(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-在資料表內的 [a] 資料行中，找出值最小的資料列。如果是空的，則傳回 -1。
+### Example #2
+在資料表內的 \[a\] 資料行中，找出值最小的資料列。如果是空的，則傳回 -1。
 ```powerquery
 Table.Min(#table({"a"}, {}), "a", -1)
 ```

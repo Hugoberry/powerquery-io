@@ -20,12 +20,15 @@ Date.IsInPreviousNWeeks(
 
 ## Remarks
 
-Wskazuje, czy dana wartość daty/godziny <code>dateTime</code> przypada w ciągu poprzednich tygodni określonych zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącego tygodni.      <ul>      <li><code>dateTime</code>: wartość <code>date</code>, <code>datetime</code> lub <code>datetimezone</code> do oszacowania.</li>      <li><code>weeks</code>: liczba tygodni.</li>      </ul>
+Wskazuje, czy dana wartość daty/godziny `dateTime` przypada w ciągu poprzednich tygodni określonych zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącego tygodni.
+
+-   `dateTime`: wartość `date`, `datetime` lub `datetimezone` do oszacowania.
+-   `weeks`: liczba tygodni.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Określ, czy tydzień przed bieżącą datą systemu występuje w ciągu poprzednich dwóch tygodni.
 ```powerquery
 Date.IsInPreviousNWeeks(Date.AddDays(DateTime.FixedLocalNow(), -7), 2)

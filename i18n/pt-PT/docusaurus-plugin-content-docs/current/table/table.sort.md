@@ -20,13 +20,13 @@ Table.Sort(
 
 ## Remarks
 
-Ordena <code>table</code> utilizando a lista com um ou mais nomes de colunas e <code>comparisonCriteria</code> opcional, no formato \{ \{ col1, comparisonCriteria }, \{col2} }.
+Ordena `table` utilizando a lista com um ou mais nomes de colunas e `comparisonCriteria` opcional, no formato \{ \{ col1, comparisonCriteria \}, \{col2\} \}.
 
 
 ## Examples
 
-### Example #1 
-Ordena a tabela pela coluna &#34;OrderID&#34;.
+### Example #1
+Ordena a tabela pela coluna "OrderID".
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -60,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Ordena a tabela pela coluna &#34;OrderID&#34; em ordem descendente.
+### Example #2
+Ordena a tabela pela coluna "OrderID" em ordem descendente.
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -95,8 +95,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Ordena a tabela pela coluna &#34;CustomerID&#34; seguida pela &#34;OrderID&#34;, estando a &#34;CustomerID&#34; em ordem ascendente.
+### Example #3
+Ordena a tabela pela coluna "CustomerID" seguida pela "OrderID", estando a "CustomerID" em ordem ascendente.
 ```powerquery
 Table.Sort(
     Table.FromRecords({

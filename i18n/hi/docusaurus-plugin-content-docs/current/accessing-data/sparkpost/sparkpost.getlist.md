@@ -22,8 +22,8 @@ SparkPost.GetList(
 
 ## Examples
 
-### Example #1 
-किसी एक SparkPost API v1 &#34;सूची&#34; वाले समाप्ति बिंदु से डेटा से पॉप्यूलेट की गई एकल स्तंभ वाली तालिका लौटाता है (विवरण के लिए SparkPost दस्तावेज़ देखें).
+### Example #1
+किसी एक SparkPost API v1 "सूची" वाले समाप्ति बिंदु से डेटा से पॉप्यूलेट की गई एकल स्तंभ वाली तालिका लौटाता है (विवरण के लिए SparkPost दस्तावेज़ देखें).
 ```powerquery
 Source = SparkPost.GetList("metrics/campaigns")
 ```

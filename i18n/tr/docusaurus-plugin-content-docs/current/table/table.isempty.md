@@ -19,12 +19,12 @@ Table.IsEmpty(
 
 ## Remarks
 
-<code>table</code> içinde herhangi bir satır bulunup bulunmadığını gösterir. Hiç satır olmaması halinde (örneğin, tablo boşsa) <code>true</code> döndürür, satır varsa <code>false</code> döndürür.
+`table` içinde herhangi bir satır bulunup bulunmadığını gösterir. Hiç satır olmaması halinde (örneğin, tablo boşsa) `true` döndürür, satır varsa `false` döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablonun boş olup olmadığını belirler.
 ```powerquery
 Table.IsEmpty(
@@ -42,8 +42,8 @@ false
 ```
 
 
-### Example #2 
-&lt;code&gt;(\{})&lt;/code&gt; tablosunun boş olup olmadığını belirler.
+### Example #2
+`({})` tablosunun boş olup olmadığını belirler.
 ```powerquery
 Table.IsEmpty(Table.FromRecords({}))
 ```

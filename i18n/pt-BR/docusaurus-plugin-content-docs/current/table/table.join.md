@@ -25,12 +25,25 @@ Table.Join(
 
 ## Remarks
 
-Une as linhas de <code>table1</code> com as linhas de <code>table2</code> com base na igualdade dos valores das colunas de chave selecionadas por <code>key1</code> (para <code>table1</code>) e <code>key2</code> (para <code>table2</code>).<br />Por padrão, uma junção interna é executada, mas uma opcional <code>joinKind</code> pode ser incluída para especificar o tipo de junção. As opções incluem:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Um conjunto opcional de <code>keyEqualityComparers</code> pode ser incluído para especificar como comparar as colunas de chave. Esse recurso é somente para fins de uso interno.<br />
+Une as linhas de `table1` com as linhas de `table2` com base na igualdade dos valores das colunas de chave selecionadas por `key1` (para `table1`) e `key2` (para `table2`).
+
+Por padrão, uma junção interna é executada, mas uma opcional `joinKind` pode ser incluída para especificar o tipo de junção. As opções incluem:
+
+-   `JoinKind.Inner`
+-   `JoinKind.LeftOuter`
+-   `JoinKind.RightOuter`
+-   `JoinKind.FullOuter`
+-   `JoinKind.LeftAnti`
+-   `JoinKind.RightAnti`
+-   `JoinKind.LeftSemi`
+-   `JoinKind.RightSemi`
+
+Um conjunto opcional de `keyEqualityComparers` pode ser incluído para especificar como comparar as colunas de chave. Esse recurso é somente para fins de uso interno.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Unir duas tabelas usando uma única coluna de chave.
 ```powerquery
 Table.Join(
@@ -67,7 +80,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Ingresse em duas tabelas com nomes de coluna em conflito, usando várias colunas de chave.
 ```powerquery
 let

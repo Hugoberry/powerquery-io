@@ -19,12 +19,12 @@ Table.RowCount(
 
 ## Remarks
 
-Trả về số lượng hàng trong bảng <code>table</code>.
+Trả về số lượng hàng trong bảng `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm số lượng hàng trong bảng.
 ```powerquery
 Table.RowCount(

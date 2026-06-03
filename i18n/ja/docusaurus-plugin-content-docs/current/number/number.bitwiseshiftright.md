@@ -20,7 +20,7 @@ Number.BitwiseShiftRight(
 
 ## Remarks
 
-指定されたビット数 <code>number2</code> のビットごとの右シフトを <code>number1</code> に対して実行した結果を返します。
+指定されたビット数 `number2` のビットごとの右シフトを `number1` に対して実行した結果を返します。
 
 
 

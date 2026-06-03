@@ -1,0 +1,31 @@
+---
+title: SapBusinessWarehouse.Cubes
+---
+
+# SapBusinessWarehouse.Cubes
+
+
+傳回 InfoCubes 及 SAP Business Warehouse 系統中依 InfoArea 分組的查詢。
+
+
+## Syntax
+
+```powerquery
+SapBusinessWarehouse.Cubes(
+    server as text,
+    systemNumberOrSystemId as text,
+    clientId as text,
+    optional optionsOrLogonGroup as any,
+    optional options as record
+) as table
+```
+
+
+## Remarks
+
+傳回 InfoCubes 的資料表及依 InfoArea (來自系統編號為 `systemNumberOrSystemId` 且用戶端識別碼為 `clientId` 的伺服器 `server` 上之 SAP Business Warehouse 執行個體) 分組的查詢。可指定選擇性的記錄參數 `optionsOrLogonGroup`，來控制下列選項:
+
+
+
+## Category
+Accessing data

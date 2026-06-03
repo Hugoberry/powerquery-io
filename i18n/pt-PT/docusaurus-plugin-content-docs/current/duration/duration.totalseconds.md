@@ -19,12 +19,12 @@ Duration.TotalSeconds(
 
 ## Remarks
 
-Devolve o total de segundos abrangidos por <code>duration</code>.
+Devolve o total de segundos abrangidos por `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Encontre o total de segundos abrangidos por um valor de duração.
 ```powerquery
 Duration.TotalSeconds(#duration(5, 4, 3, 2))

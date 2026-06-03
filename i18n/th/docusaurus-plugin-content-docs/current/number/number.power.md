@@ -20,12 +20,15 @@ Number.Power(
 
 ## Remarks
 
-ส่งคืนผลลัพธ์ของการยกกำลัง <code>number</code> ด้วยเลข <code>power</code>    ถ้า <code>number</code> หรือ <code>power</code> เป็น null <code>ตัวเลข.Power</code> จะส่งคืนค่าเป็น null      <ul>        <li><code>number</code>: เลขฐาน</li>        <li><code>power</code>: เลขชี้กำลัง</li>      </ul>
+ส่งคืนผลลัพธ์ของการยกกำลัง `number` ด้วยเลข `power` ถ้า `number` หรือ `power` เป็น null `ตัวเลข.Power` จะส่งคืนค่าเป็น null
+
+-   `number`: เลขฐาน
+-   `power`: เลขชี้กำลัง
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 หาค่าของ 5 ที่ยกกำลังด้วยเลข 3 (5 ในลูกบาศก์)
 ```powerquery
 Number.Power(5, 3)

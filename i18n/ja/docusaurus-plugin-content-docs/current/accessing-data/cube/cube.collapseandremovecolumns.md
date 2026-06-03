@@ -20,7 +20,7 @@ Cube.CollapseAndRemoveColumns(
 
 ## Remarks
 
-指定した列 <code>columnNames</code> にマップされている属性を折りたたんで、<code>cube</code> のフィルター コンテキストの次元の粒度を変更します。キューブの表形式からも列が削除されます。
+指定した列 `columnNames` にマップされている属性を折りたたんで、`cube` のフィルター コンテキストの次元の粒度を変更します。キューブの表形式からも列が削除されます。
 
 
 

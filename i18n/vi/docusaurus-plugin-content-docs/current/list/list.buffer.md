@@ -19,13 +19,13 @@ List.Buffer(
 
 ## Remarks
 
-Tải danh sách <code>list</code> trong bộ nhớ. Kết quả của lệnh gọi này là một danh sách ổn định.
+Tải danh sách `list` trong bộ nhớ. Kết quả của lệnh gọi này là một danh sách ổn định.
 
 
 ## Examples
 
-### Example #1 
-Tạo một bảng ổn định của danh sách \{1..10}.
+### Example #1
+Tạo một bảng ổn định của danh sách \{1..10\}.
 ```powerquery
 List.Buffer({1..10})
 ```

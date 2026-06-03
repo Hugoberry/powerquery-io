@@ -24,7 +24,7 @@ Smartsheet.Content(
 
 ## Examples
 
-### Example #1 
+### Example #1
 ดึงตารางของข้อมูลผู้ใช้งานจาก API ของ Smartsheet
 ```powerquery
 Smartsheet.Content ("ผู้ใช้งาน")

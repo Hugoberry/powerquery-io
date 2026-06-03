@@ -25,12 +25,16 @@ Table.NestedJoin(
 
 ## Remarks
 
-Führt die Zeilen von "<code>table1</code>" mit den Zeilen von "<code>table2</code>" zusammen. Grundlage hierfür bildet die Übereinstimmung der Werte der Schlüsselspalten, die durch "<code>key1</code>" (für "<code>table1</code>") und "<code>key2</code>" (für "<code>table2</code>") ausgewählt wurden. Die Ergebnisse werden in die Spalte namens "<code>newColumnName</code>" eingefügt.<br />"<code>joinKind</code>" (optional) legt die Art des durchzuführenden Joins fest. Standardmäßig wird ein linker äußerer Join durchgeführt, wenn "<code>joinKind</code>" nicht angegeben ist.<br />Um festzulegen, wie die Schlüsselspalten verglichen werden sollen, kann ein optionaler <code>keyEqualityComparers</code>-Satz eingeschlossen werden. Dieses Feature ist zurzeit nur für die interne Verwendung vorgesehen.<br />  
+Führt die Zeilen von "`table1`" mit den Zeilen von "`table2`" zusammen. Grundlage hierfür bildet die Übereinstimmung der Werte der Schlüsselspalten, die durch "`key1`" (für "`table1`") und "`key2`" (für "`table2`") ausgewählt wurden. Die Ergebnisse werden in die Spalte namens "`newColumnName`" eingefügt.
+
+"`joinKind`" (optional) legt die Art des durchzuführenden Joins fest. Standardmäßig wird ein linker äußerer Join durchgeführt, wenn "`joinKind`" nicht angegeben ist.
+
+Um festzulegen, wie die Schlüsselspalten verglichen werden sollen, kann ein optionaler `keyEqualityComparers`\-Satz eingeschlossen werden. Dieses Feature ist zurzeit nur für die interne Verwendung vorgesehen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Verknüpfen Sie zwei Tabellen mit einer einzelnen Schlüsselspalte.
 ```powerquery
 Table.NestedJoin(

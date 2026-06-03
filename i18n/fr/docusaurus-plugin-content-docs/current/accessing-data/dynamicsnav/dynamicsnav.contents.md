@@ -5,7 +5,7 @@ title: DynamicsNav.Contents
 # DynamicsNav.Contents
 
 
-Entrez l&#39;URL du point de terminaison de service OData Dynamics NAV.
+Entrez l'URL du point de terminaison de service OData Dynamics NAV.
 
 
 ## Syntax
@@ -20,6 +20,6 @@ DynamicsNav.Contents(
 
 ## Remarks
 
-Retourne une table contenant des données Dynamics NAV pertinentes. 
+Retourne une table contenant des données Dynamics NAV pertinentes.
 
 

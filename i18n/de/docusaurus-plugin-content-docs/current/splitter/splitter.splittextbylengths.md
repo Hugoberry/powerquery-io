@@ -25,7 +25,7 @@ Gibt eine Funktion zurück, die Text anhand der angegebenen Längenwerte in eine
 
 ## Examples
 
-### Example #1 
+### Example #1
 Teilen Sie die Eingabe in die ersten zwei Zeichen auf, gefolgt von den nächsten drei Zeichen, beginnend am Anfang der Eingabe.
 ```powerquery
 Splitter.SplitTextByLengths({2, 3})("AB123")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Teilen Sie die Eingabe in die ersten drei Zeichen auf, gefolgt von den nächsten zwei Zeichen, beginnend am Ende der Eingabe.
 ```powerquery
 let

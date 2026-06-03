@@ -20,7 +20,7 @@ Function.InvokeAfter(
 
 ## Remarks
 
-Returnerar resultatet av anropandet av <code>function</code> efter det att varaktigheten <code>delay</code> har löpt ut.
+Returnerar resultatet av anropandet av `function` efter det att varaktigheten `delay` har löpt ut.
 
 
 

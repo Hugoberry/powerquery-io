@@ -25,7 +25,7 @@ Bir metin listesine belirtilen her konumda metin ayıran bir işlev döndürür.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Girişin başlangıcından başlayarak girişi belirtilen pozisyonlarda bölün.
 ```powerquery
 Splitter.SplitTextByPositions({0, 3, 4})("ABC|12345")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Girişin sonundan başlayarak girişi belirtilen pozisyonlarda bölün.
 ```powerquery
 let

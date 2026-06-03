@@ -19,7 +19,7 @@ Cube.PropertyKey(
 
 ## Remarks
 
-Hiermee wordt de sleutel van de eigenschap <code>property</code> geretourneerd.
+Hiermee wordt de sleutel van de eigenschap `property` geretourneerd.
 
 
 

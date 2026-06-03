@@ -19,13 +19,15 @@ Time.ToRecord(
 
 ## Remarks
 
-Trả về một bản ghi chứa các phần của giá trị Thời gian cho sẵn, <code>time</code>. <ul>        <li><code>time</code>: Một giá trị <code>time</code> nơi bản ghi các phần của giá trị đó sẽ được tính.</li>      </ul>
+Trả về một bản ghi chứa các phần của giá trị Thời gian cho sẵn, `time`.
+
+-   `time`: Một giá trị `time` nơi bản ghi các phần của giá trị đó sẽ được tính.
 
 
 ## Examples
 
-### Example #1 
-Chuyển đổi giá trị &lt;code&gt;#time(11, 56, 2)&lt;/code&gt; thành một bản ghi chứa các giá trị Thời gian.
+### Example #1
+Chuyển đổi giá trị `#time(11, 56, 2)` thành một bản ghi chứa các giá trị Thời gian.
 ```powerquery
 Time.ToRecord(#time(11, 56, 2))
 ```

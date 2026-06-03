@@ -5,7 +5,7 @@ title: Date.WeekOfYear
 # Date.WeekOfYear
 
 
-Restituisce un numero da 1 a 54 che indica la settimana dell&#39;anno in cui cade questa data.
+Restituisce un numero da 1 a 54 che indica la settimana dell'anno in cui cade questa data.
 
 
 ## Syntax
@@ -20,13 +20,16 @@ Date.WeekOfYear(
 
 ## Remarks
 
-Restituisce un numero da 1 a 54 che indica la settimana dell'anno in cui cade la data <code>dateTime</code>. <ul>        <li><code>dateTime</code>: valore <code>datetime</code> per cui viene determinata la settimana dell'anno.</li>        <li><code>firstDayOfWeek</code>: valore <code>Day.Type</code> facoltativo che indica quale giorno viene considerato come inizio di una nuova settimana, ad esempio <code>Day.Sunday</code>. Se non è specificato, viene usato un valore predefinito dipendente dalle impostazioni cultura.</li>      </ul>
+Restituisce un numero da 1 a 54 che indica la settimana dell'anno in cui cade la data `dateTime`.
+
+-   `dateTime`: valore `datetime` per cui viene determinata la settimana dell'anno.
+-   `firstDayOfWeek`: valore `Day.Type` facoltativo che indica quale giorno viene considerato come inizio di una nuova settimana, ad esempio `Day.Sunday`. Se non è specificato, viene usato un valore predefinito dipendente dalle impostazioni cultura.
 
 
 ## Examples
 
-### Example #1 
-Determinare quale settimana dell&#39;anno contiene il 27 marzo 2011.
+### Example #1
+Determinare quale settimana dell'anno contiene il 27 marzo 2011.
 ```powerquery
 Date.WeekOfYear(#date(2011, 03, 27))
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Determinare in quale settimana dell&#39;anno contiene il 27 marzo 2011, usando il lunedì come inizio di una settimana.
+### Example #2
+Determinare in quale settimana dell'anno contiene il 27 marzo 2011, usando il lunedì come inizio di una settimana.
 ```powerquery
 Date.WeekOfYear(#date(2011, 03, 27), Day.Monday)
 ```

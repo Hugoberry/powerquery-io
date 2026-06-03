@@ -21,13 +21,13 @@ Text.Range(
 
 ## Remarks
 
-Returns the substring from the text <code>text</code> found at the offset <code>offset</code>.    An optional parameter, <code>count</code>, can be included to specify how many characters to return. Throws an error if there aren't enough characters.
+Returns the substring from the text `text` found at the offset `offset`. An optional parameter, `count`, can be included to specify how many characters to return. Raises an error if there aren't enough characters.
 
 
 ## Examples
 
-### Example #1 
-Find the substring from the text &#34;Hello World&#34; starting at index 6.
+### Example #1
+Find the substring from the text "Hello World" starting at index 6.
 ```powerquery
 Text.Range("Hello World", 6)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Find the substring from the text &#34;Hello World Hello&#34; starting at index 6 spanning 5 characters.
+### Example #2
+Find the substring from the text "Hello World Hello" starting at index 6 spanning 5 characters.
 ```powerquery
 Text.Range("Hello World Hello", 6, 5)
 ```

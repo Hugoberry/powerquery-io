@@ -20,7 +20,7 @@ Cube.Transform(
 
 ## Remarks
 
-นำรายการฟังก์ชันคิวบ์, <code>transforms</code>, ไปใช้บน <code>cube</code>
+นำรายการฟังก์ชันคิวบ์, `transforms`, ไปใช้บน `cube`
 
 
 

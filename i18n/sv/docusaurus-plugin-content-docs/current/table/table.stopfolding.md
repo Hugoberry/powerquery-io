@@ -19,18 +19,18 @@ Table.StopFolding(
 
 ## Remarks
 
-Förhindrar att underordnade åtgärder körs mot den ursprungliga datakällan i <code>table</code>.
+Förhindrar att underordnade åtgärder körs mot den ursprungliga datakällan i `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hämtar data från en SQL-tabell på ett sätt som förhindrar att underordnade åtgärder körs som en fråga på SQL-servern.
 ```powerquery
 let
     Source = Sql.Database("SomeSQLServer", "MyDb"),
     MyTable = Source{[Item="MyTable"]}[Data],
-    MyLocalTable = Table.StopFolding(dbo_MyTable)
+    MyLocalTable = Table.StopFolding(MyTable)
 in
     MyLocalTable
 ```

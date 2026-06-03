@@ -25,7 +25,7 @@ Combiner.CombineTextByRanges(
 
 ## Examples
 
-### Example #1 
+### Example #1
 指定された出力位置と長さを使用して、テキスト値のリストを結合します。
 ```powerquery
 Combiner.CombineTextByRanges({{0, 1}, {3, 2}, {6, null}})({"abc", "def", "ghijkl"})

@@ -20,12 +20,12 @@ Table.Last(
 
 ## Remarks
 
-Devuelve la última fila de <code>table</code> o un valor predeterminado opcional, <code>default</code>, si la tabla está vacía.
+Devuelve la última fila de `table` o un valor predeterminado opcional, `default`, si la tabla está vacía.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Buscar la última fila de la tabla.
 ```powerquery
 Table.Last(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-Buscar la última fila de la tabla &lt;code&gt;(\{})&lt;/code&gt; o devolver [a = 0, b = 0] si está vacía.
+### Example #2
+Buscar la última fila de la tabla `({})` o devolver \[a = 0, b = 0\] si está vacía.
 ```powerquery
 Table.Last(Table.FromRecords({}), [a = 0, b = 0])
 ```

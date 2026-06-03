@@ -21,13 +21,13 @@ Table.FromPartitions(
 
 ## Remarks
 
-傳回資料表，其為結合一組已分割表格 <code>partitions</code> 的結果。<code>partitionColumn</code> 為要新增的資料行名稱。資料行值預設為 <code>any</code>，但可由 <code>partitionColumnType</code> 指定。
+傳回資料表，其為結合一組已分割表格 `partitions` 的結果。`partitionColumn` 為要新增的資料行名稱。資料行值預設為 `any`，但可由 `partitionColumnType` 指定。
 
 
 ## Examples
 
-### Example #1 
-從清單 &lt;code&gt;\{number}&lt;/code&gt; 中尋找項目類型。
+### Example #1
+從清單 `{number}` 中尋找項目類型。
 ```powerquery
 Table.FromPartitions(
     "Year",

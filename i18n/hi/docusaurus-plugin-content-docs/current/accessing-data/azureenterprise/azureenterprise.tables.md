@@ -24,7 +24,7 @@ Azure Enterprise API से उपलब्ध रिपोर्ट और म�
 
 ## Examples
 
-### Example #1 
+### Example #1
 परिणाम प्राप्त करने के लिए AzureEnterprise.Tables फ़ंक्शन का उपयोग करके किसी विशिष्ट मान तक नेविगेट करें.
 ```powerquery
 let

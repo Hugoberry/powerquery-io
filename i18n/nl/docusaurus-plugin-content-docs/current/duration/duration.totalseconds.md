@@ -19,12 +19,12 @@ Duration.TotalSeconds(
 
 ## Remarks
 
-Retourneert het totale aantal seconden dat door <code>duration</code> is overspannen.
+Retourneert het totale aantal seconden dat door `duration` is overspannen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zoek het totale aantal seconden dat wordt beslaan door een duurwaarde.
 ```powerquery
 Duration.TotalSeconds(#duration(5, 4, 3, 2))

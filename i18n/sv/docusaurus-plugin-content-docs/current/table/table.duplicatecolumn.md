@@ -22,13 +22,13 @@ Table.DuplicateColumn(
 
 ## Remarks
 
-Duplicera kolumnen med namnet <code>columnName</code> till tabellen <code>table</code>. Värdena och typen för kolumnen <code>newColumnName</code> kopieras från kolumnen <code>columnName</code>.
+Duplicera kolumnen med namnet `columnName` till tabellen `table`. Värdena och typen för kolumnen `newColumnName` kopieras från kolumn `columnName`.
 
 
 ## Examples
 
-### Example #1 
-Duplicera kolumnen &#34;a&#34; till en kolumn med namnet &#34;copied column&#34; i tabellen &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt;.
+### Example #1
+Duplicera kolumnen "a" till en kolumn med namnet "copied column" i tabellen `({[a = 1, b = 2], [a = 3, b = 4]})`.
 ```powerquery
 Table.DuplicateColumn(
     Table.FromRecords({

@@ -5,7 +5,7 @@ title: Table.FromList
 # Table.FromList
 
 
-Converte un elenco in una tabella applicando la funzione di divisione specificata a ogni elemento dell&#39;elenco.
+Converte un elenco in una tabella applicando la funzione di divisione specificata a ogni elemento dell'elenco.
 
 
 ## Syntax
@@ -23,12 +23,12 @@ Table.FromList(
 
 ## Remarks
 
-Converte l'elenco <code>list</code> in una tabella applicando la funzione di divisione facoltativa <code>splitter</code> a ogni elemento dell'elenco. Per impostazione predefinita, si presuppone che l'elenco sia un elenco di valori di testo suddiviso da virgole. <code>columns</code> facoltativo può essere il numero di colonne, un elenco di colonne o TableType. Facoltativamente, è possibile specificare anche <code>default</code> e <code>extraValues</code>.
+Converte l'elenco `list` in una tabella applicando la funzione di divisione facoltativa `splitter` a ogni elemento dell'elenco. Per impostazione predefinita, si presuppone che l'elenco sia un elenco di valori di testo suddiviso da virgole. `columns` facoltativo può essere il numero di colonne, un elenco di colonne o TableType. Facoltativamente, è possibile specificare anche `default` e `extraValues`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Creare una tabella da un elenco usando la barra di divisione predefinita.
 ```powerquery
 Table.FromList(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Crea una tabella da un elenco usando una barra di divisione personalizzata.
 ```powerquery
 Table.FromList(
@@ -70,8 +70,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Creare una tabella dall&#39;elenco usando la barra di divisione Record.FieldValues.
+### Example #3
+Creare una tabella dall'elenco usando la barra di divisione Record.FieldValues.
 ```powerquery
 Table.FromList(
     {

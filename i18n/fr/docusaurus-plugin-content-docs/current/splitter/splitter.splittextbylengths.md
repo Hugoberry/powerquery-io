@@ -25,8 +25,8 @@ Retourne une fonction qui fractionne le texte en une liste de textes en fonction
 
 ## Examples
 
-### Example #1 
-Divise l&#39;entrée en deux caractères suivis des trois suivants, en commençant par le début de l&#39;entrée.
+### Example #1
+Divise l'entrée en deux caractères suivis des trois suivants, en commençant par le début de l'entrée.
 ```powerquery
 Splitter.SplitTextByLengths({2, 3})("AB123")
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Divise l&#39;entrée en trois premiers caractères suivis des deux suivants, en commençant par la fin de l&#39;entrée.
+### Example #2
+Divise l'entrée en trois premiers caractères suivis des deux suivants, en commençant par la fin de l'entrée.
 ```powerquery
 let
     startAtEnd = true

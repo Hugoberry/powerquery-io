@@ -19,13 +19,15 @@ Time.ToRecord(
 
 ## Remarks
 
-Devuelve un registro que contiene los elementos del valor Time especificado, <code>time</code>. <ul>        <li><code>time</code>: un valor <code>time</code> a partir del cual se calculará el registro de sus partes.</li>      </ul>
+Devuelve un registro que contiene los elementos del valor Time especificado, `time`.
+
+-   `time`: un valor `time` a partir del cual se calculará el registro de sus partes.
 
 
 ## Examples
 
-### Example #1 
-Convertir el valor &lt;code&gt;#time(11, 56, 2)&lt;/code&gt; en un registro que contenga valores Time.
+### Example #1
+Convertir el valor `#time(11, 56, 2)` en un registro que contenga valores Time.
 ```powerquery
 Time.ToRecord(#time(11, 56, 2))
 ```

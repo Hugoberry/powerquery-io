@@ -21,12 +21,16 @@ Record.TransformFields(
 
 ## Remarks
 
-Hiermee wordt een record geretourneerd na het toepassen van transformaties die zijn opgegeven in lijst <code>transformOperations</code> tot en met <code>record</code>. Een of meer velden kunnen worden getransformeerd op een opgegeven tijdstip. <div>Als er één veld wordt getransformeerd, wordt verwacht dat <code>transformOperations</code> een lijst met twee items is. Het eerste item in <code>transformOperations</code> geeft een veldnaam aan en het tweede item in <code>transformOperations</code> geeft de functie aan die moet worden gebruikt voor de transformatie. Bijvoorbeeld <code>\{"Quantity", Number.FromText}</code></div> <div>In het geval er meerdere velden worden getransformeerd, wordt verwacht dat <code>transformOperations</code> een lijst van lijsten is, waarbij elke interne lijst een combinatie is van een veldnaam en een transformatiebewerking. Bijvoorbeeld <code>\{\{"Quantity",Number.FromText},\{"UnitPrice", Number.FromText}}</code></div>
+Hiermee wordt een record geretourneerd na het toepassen van transformaties die zijn opgegeven in lijst `transformOperations` tot en met `record`. Een of meer velden kunnen worden getransformeerd op een opgegeven tijdstip.
+
+Als er één veld wordt getransformeerd, wordt verwacht dat `transformOperations` een lijst met twee items is. Het eerste item in `transformOperations` geeft een veldnaam aan en het tweede item in `transformOperations` geeft de functie aan die moet worden gebruikt voor de transformatie. Bijvoorbeeld `{"Quantity", Number.FromText}`
+
+In het geval er meerdere velden worden getransformeerd, wordt verwacht dat `transformOperations` een lijst van lijsten is, waarbij elke interne lijst een combinatie is van een veldnaam en een transformatiebewerking. Bijvoorbeeld `{{"Quantity",Number.FromText},{"UnitPrice", Number.FromText}}`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Het veld Prijs converteren naar een getal.
 ```powerquery
 Record.TransformFields(
@@ -41,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 De velden OrderID en Prijs naar nummers converteren.
 ```powerquery
 Record.TransformFields(

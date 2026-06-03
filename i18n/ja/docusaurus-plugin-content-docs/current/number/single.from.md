@@ -20,13 +20,13 @@ Single.From(
 
 ## Remarks
 
-指定された <code>value</code> から単精度浮動小数点型の <code>number</code> 値を作成します。指定された <code>value</code> が <code>null</code> である場合、<code>Single.From</code> は <code>null</code> を返します。指定された <code>value</code> が単精度浮動小数点型の範囲内の <code>number</code> である場合、<code>value</code> が返され、それ以外の場合にはエラーが返されます。<code>value</code> がそれ以外の型である場合には、まずは <code>Number.FromText</code> を参照して <code>number</code> 値に変換されます。省略可能な <code>culture</code> を指定することもできます (例: "en-US")。
+指定された `value` から単精度浮動小数点型の `number` 値を作成します。指定された `value` が `null` である場合、`Single.From` は `null` を返します。指定された `value` が単精度浮動小数点型の範囲内の `number` である場合、`value` が返され、それ以外の場合にはエラーが返されます。`value` がそれ以外の型である場合には、まずは `Number.FromText` を参照して `number` 値に変換されます。省略可能な `culture` を指定することもできます (例: "en-US")。
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;&#34;1.5&#34;&lt;/code&gt; の Single &lt;code&gt;number&lt;/code&gt; 値を取得します。
+### Example #1
+`"1.5"` の Single `number` 値を取得します。
 ```powerquery
 Single.From("1.5")
 ```

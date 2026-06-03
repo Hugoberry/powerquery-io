@@ -25,8 +25,8 @@ This connector will fetch data only from Zoho Creator application reports
 
 ## Examples
 
-### Example #1 
-To fetches data from US account, scope &#39;jack&#39;, application &#39;task-management&#39;, report &#39;Task_Details&#39;
+### Example #1
+To fetches data from US account, scope 'jack', application 'task-management', report 'Task\_Details'
 ```powerquery
 ZohoCreator.Contents("zoho.com", "jack", "zylker-management", "Employee_Details")
 ```

@@ -23,12 +23,12 @@ Table.FromList(
 
 ## Remarks
 
-通过将可选的拆分函数 <code>splitter</code> 应用于列表中的每一项，将列表 <code>list</code> 转换为表。默认情况下，假定列表是用逗号分隔的文本值的列表。可选的 <code>columns</code> 可以是列数、列的列表或 TableType。还可以指定可选的 <code>default</code> 和 <code>extraValues</code>。
+通过将可选的拆分函数 `splitter` 应用于列表中的每一项，将列表 `list` 转换为表。默认情况下，假定列表是用逗号分隔的文本值的列表。可选的 `columns` 可以是列数、列的列表或 TableType。还可以指定可选的 `default` 和 `extraValues`。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 使用默认拆分器从列表创建表。
 ```powerquery
 Table.FromList(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 使用自定义拆分器从列表创建表。
 ```powerquery
 Table.FromList(
@@ -70,7 +70,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 使用 Record.FieldValues 拆分器从列表中创建表。
 ```powerquery
 Table.FromList(

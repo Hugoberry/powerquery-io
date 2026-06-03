@@ -19,12 +19,12 @@ Record.ToTable(
 
 ## Remarks
 
-ส่งกลับตารางที่ประกอบด้วยคอลัมน์ <code>Name</code> และ <code>Value</code> ที่มีหนึ่งแถวสำหรับแต่ละเขตข้อมูลใน <code>record</code>
+ส่งกลับตารางที่ประกอบด้วยคอลัมน์ `Name` และ `Value` ที่มีหนึ่งแถวสำหรับแต่ละเขตข้อมูลใน `record`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ส่งคืนตารางจากระเบียน
 ```powerquery
 Record.ToTable([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

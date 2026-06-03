@@ -22,13 +22,18 @@ Table.Partition(
 
 ## Remarks
 
-Partycjonuje tabelę <code>table</code> na listę składającą się z <code>groups</code> tabel na podstawie wartości kolumny <code>column</code> oraz funkcji <code>hash</code>.    Funkcja <code>hash</code> jest stosowana do wartości wiersza <code>column</code> w celu uzyskania wartości skrótu dla wiersza. W wyniku wykonania na wartości skrótu operacji modulo z użyciem wartości <code>groups</code> funkcja ustala, w której ze zwracanych tabel ma znajdować się dany wiersz.    <ul>       <li><code>table</code>: Tabela, która zostanie podzielona na partycje.</li>       <li><code>column</code>: Kolumna, na podstawie której zostanie wygenerowana wartość skrótu umożliwiająca ustalenie, w której ze zwracanych tabel ma znajdować się dany wiersz.</li>       <li><code>groups</code>: Liczba tabel, na które zostanie podzielona tabela wejściowa.</li>       <li><code>hash</code>: Funkcja stosowana w celu uzyskania wartości skrótu.</li>    </ul>  
+Partycjonuje tabelę `table` na listę składającą się z `groups` tabel na podstawie wartości kolumny `column` oraz funkcji `hash`. Funkcja `hash` jest stosowana do wartości wiersza `column` w celu uzyskania wartości skrótu dla wiersza. W wyniku wykonania na wartości skrótu operacji modulo z użyciem wartości `groups` funkcja ustala, w której ze zwracanych tabel ma znajdować się dany wiersz.
+
+-   `table`: Tabela, która zostanie podzielona na partycje.
+-   `column`: Kolumna, na podstawie której zostanie wygenerowana wartość skrótu umożliwiająca ustalenie, w której ze zwracanych tabel ma znajdować się dany wiersz.
+-   `groups`: Liczba tabel, na które zostanie podzielona tabela wejściowa.
+-   `hash`: Funkcja stosowana w celu uzyskania wartości skrótu.
 
 
 ## Examples
 
-### Example #1 
-Partycjonuje tabelę &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt; na dwie tabele według kolumny [a], używając wartości kolumn jako funkcji wyznaczania wartości skrótu.
+### Example #1
+Partycjonuje tabelę `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})` na dwie tabele według kolumny \[a\], używając wartości kolumn jako funkcji wyznaczania wartości skrótu.
 ```powerquery
 Table.Partition(
     Table.FromRecords({

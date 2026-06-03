@@ -19,13 +19,13 @@ List.Reverse(
 
 ## Remarks
 
-返回将列表 <code>list</code> 中的值反向排序得到的列表。
+返回将列表 `list` 中的值反向排序得到的列表。
 
 
 ## Examples
 
-### Example #1 
-通过将 \{1..10} 反向排序创建一个列表。
+### Example #1
+通过将 \{1..10\} 反向排序创建一个列表。
 ```powerquery
 List.Reverse({1..10})
 ```

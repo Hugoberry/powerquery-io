@@ -19,7 +19,7 @@ Value.Expression(
 
 ## Remarks
 
-Retourneert een abstracte syntaxisstructuur (AST) die de expressie van de waarde vertegenwoordigt
+Retourneert een abstracte syntaxisstructuur (AST) die de expressie van de waarde vertegenwoordigt.
 
 
 

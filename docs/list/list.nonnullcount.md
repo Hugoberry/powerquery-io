@@ -19,7 +19,7 @@ List.NonNullCount(
 
 ## Remarks
 
-Returns the number of non-null items in the list <code>list</code>.
+Returns the number of non-null items in the list `list`.
 
 
 

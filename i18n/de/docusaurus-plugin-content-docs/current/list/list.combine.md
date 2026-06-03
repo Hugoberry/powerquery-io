@@ -19,13 +19,13 @@ List.Combine(
 
 ## Remarks
 
-Führt eine Liste mit Listen (<code>lists</code>) zu einer einzelnen neuen Liste zusammen.
+Führt eine Liste mit Listen (`lists`) zu einer einzelnen neuen Liste zusammen.
 
 
 ## Examples
 
-### Example #1 
-Kombiniert die beiden einfachen Listen &#34;\{1, 2}&#34; und &#34;\{3, 4}&#34;.
+### Example #1
+Kombiniert die beiden einfachen Listen "\{1, 2\}" und "\{3, 4\}".
 ```powerquery
 List.Combine({{1, 2}, {3, 4}})
 ```
@@ -41,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-Kombiniert die beiden Listen &#34;\{1, 2}&#34; und &#34;\{3, \{4, 5}}&#34;, wobei eine der Listen eine geschachtelte Liste enthält.
+### Example #2
+Kombiniert die beiden Listen "\{1, 2\}" und "\{3, \{4, 5\}\}", wobei eine der Listen eine geschachtelte Liste enthält.
 ```powerquery
 List.Combine({{1, 2}, {3, {4, 5}}})
 ```

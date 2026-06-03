@@ -19,12 +19,12 @@ Record.FieldValues(
 
 ## Remarks
 
-Zwraca listę wartości pól w rekordzie <code>record</code>.
+Zwraca listę wartości pól w rekordzie `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź wartości pól w rekordzie.
 ```powerquery
 Record.FieldValues([CustomerID = 1, Name = "Bob", Phone = "123-4567"])

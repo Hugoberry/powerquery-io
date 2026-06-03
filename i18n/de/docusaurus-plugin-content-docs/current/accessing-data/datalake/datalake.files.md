@@ -20,6 +20,6 @@ DataLake.Files(
 
 ## Remarks
 
-Hiermit wird eine Tabelle aus Azure Data Lake Storage Gen1 zurückgegeben, die jeweils eine Zeile für jede Datei enthält, die unter der Adresse <code>URL</code> gefunden wird. Jede Zeile enthält die Eigenschaften der Datei und einen Link zu deren Inhalt.
+Hiermit wird eine Tabelle aus Azure Data Lake Storage Gen1 zurückgegeben, die jeweils eine Zeile für jede Datei enthält, die unter der Adresse `URL` gefunden wird. Jede Zeile enthält die Eigenschaften der Datei und einen Link zu deren Inhalt.
 
 

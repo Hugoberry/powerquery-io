@@ -19,12 +19,14 @@ Date.IsInNextDay(
 
 ## Remarks
 
-Indikerar om det angivna datetime-värde <code>dateTime</code> infaller under nästa dag enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar falskt när den skickas ett värde som inträffar under den aktuella dagen.      <ul>      <li><code>dateTime</code>: Ett <code>date</code>-, <code>datetime</code>-, eller <code>datetimezone</code>-värde som ska utvärderas.</li>      </ul>
+Indikerar om det angivna datetime-värde `dateTime` infaller under nästa dag enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar falskt när den skickas ett värde som inträffar under den aktuella dagen.
+
+-   `dateTime`: Ett `date`\-, `datetime`\-, eller `datetimezone`\-värde som ska utvärderas.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kontrollera om dagen efter den aktuella systemtiden infaller nästa dag.
 ```powerquery
 Date.IsInNextDay(Date.AddDays(DateTime.FixedLocalNow(), 1))

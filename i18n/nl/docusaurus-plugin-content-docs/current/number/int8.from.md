@@ -21,13 +21,13 @@ Int8.From(
 
 ## Remarks
 
-Hiermee wordt een ondertekende 8-bits <code>number</code>-waarde geretourneerd als geheel getal met teken uit opgegeven <code>value</code>. Als de opgegeven <code>value</code> de waarde <code>null</code> heeft, wordt door <code>Int8.From</code> de waarde <code>null</code> geretourneerd. Als de opgegeven <code>value</code> een <code>number</code>-waarde heeft binnen het bereik van een ondertekend 8-bits geheel getal met teken zonder een fractioneel deel, wordt <code>value</code> geretourneerd. Als het getal een fractioneel deel heeft, wordt het afgerond met de opgegeven afrondingsmodus. De standaardafrondingsmodus is <code>RoundingMode.ToEven</code>. Als <code>value</code> van een ander type is, wordt deze eerst geconverteerd naar een <code>nummer</code> met behulp van <code>Number.FromText</code>. Raadpleeg <code>Number.Round</code> voor de beschikbare afrondingsmodi. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
+Hiermee wordt een ondertekende 8-bits `number`\-waarde geretourneerd als geheel getal met teken uit opgegeven `value`. Als de opgegeven `value` de waarde `null` heeft, wordt door `Int8.From` de waarde `null` geretourneerd. Als de opgegeven `value` een `number`\-waarde heeft binnen het bereik van een ondertekend 8-bits geheel getal met teken zonder een fractioneel deel, wordt `value` geretourneerd. Als het getal een fractioneel deel heeft, wordt het afgerond met de opgegeven afrondingsmodus. De standaardafrondingsmodus is `RoundingMode.ToEven`. Als `value` van een ander type is, wordt deze eerst geconverteerd naar een `nummer` met behulp van `Number.FromText`. Raadpleeg `Number.Round` voor de beschikbare afrondingsmodi. Er kan ook een optionele `culture` worden opgegeven (bijvoorbeeld: nl-NL).
 
 
 ## Examples
 
-### Example #1 
-De 8-bits &lt;code&gt;number&lt;/code&gt;-waarde als geheel getal met teken uit &lt;code&gt;&#34;4&#34;&lt;/code&gt; ophalen.
+### Example #1
+De 8-bits `number`\-waarde als geheel getal met teken uit `"4"` ophalen.
 ```powerquery
 Int8.From("4")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-De 8-bits &lt;code&gt;number&lt;/code&gt;-waarde als geheel getal met teken uit &lt;code&gt;&#34;4.5&#34;&lt;/code&gt; ophalen met &lt;code&gt;RoundingMode.AwayFromZero&lt;/code&gt;.
+### Example #2
+De 8-bits `number`\-waarde als geheel getal met teken uit `"4.5"` ophalen met `RoundingMode.AwayFromZero`.
 ```powerquery
 Int8.From("4.5", null, RoundingMode.AwayFromZero)
 ```

@@ -23,12 +23,12 @@ Table.FromList(
 
 ## Remarks
 
-Converteert een lijst <code>list</code> naar een tabel door de optionele splitsfunctie, <code>splitter</code>, op elk item in de lijst toe te passen. Standaard wordt er vanuit gegaan dat de lijst een lijst met tekstwaarden is, van elkaar gescheiden door een komma. Optionele <code>columns</code> kan het aantal kolommen, een lijst met kolommen of een tabeltype zijn. Optionele <code>default</code> en <code>extraValues</code> kunnen ook worden opgegeven.
+Converteert een lijst `list` naar een tabel door de optionele splitsfunctie, `splitter`, op elk item in de lijst toe te passen. Standaard wordt er vanuit gegaan dat de lijst een lijst met tekstwaarden is, van elkaar gescheiden door een komma. Optionele `columns` kan het aantal kolommen, een lijst met kolommen of een tabeltype zijn. Optionele `default` en `extraValues` kunnen ook worden opgegeven.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een tabel maken op basis van een lijst met behulp van de standaardsplitser.
 ```powerquery
 Table.FromList(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Een tabel maken op basis van een lijst met behulp van een aangepaste splitser.
 ```powerquery
 Table.FromList(
@@ -70,7 +70,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Maak een tabel uit de lijst met behulp van de splitser Record.FieldValues.
 ```powerquery
 Table.FromList(

@@ -20,12 +20,12 @@ Table.TransformRows(
 
 ## Remarks
 
-Crea un <code>elenco</code> applicando l'operazione <code>transform</code> a ogni riga in <code>table</code>.
+Crea un `elenco` applicando l'operazione `transform` a ogni riga in `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trasformare le righe di una tabella in un elenco di numeri.
 ```powerquery
 Table.TransformRows(
@@ -46,7 +46,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Trasformare le righe di una tabella numerica in record testuali.
 ```powerquery
 Table.TransformRows(

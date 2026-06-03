@@ -19,12 +19,12 @@ Duration.TotalDays(
 
 ## Remarks
 
-Returnerar det totala antalet dagar som omfattas av <code>duration</code>.
+Returnerar det totala antalet dagar som omfattas av `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta det totala antalet dagar som omfattas av ett varaktighetsvärde.
 ```powerquery
 Duration.TotalDays(#duration(5, 4, 3, 2))

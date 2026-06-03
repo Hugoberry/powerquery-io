@@ -27,7 +27,7 @@ Webtrends.ReportContents(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Вызывает конечную точку отчетов посетителей Webtrends для получения данных за последние 30 дней
 ```powerquery
 Webtrends.ReportContents("98765", "xPcmTDDP0P6")

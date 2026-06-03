@@ -19,12 +19,12 @@ Table.ToRecords(
 
 ## Remarks
 
-Konverterar en tabell, <code>table</code>, till en lista med poster.
+Konverterar en tabell, `table`, till en lista med poster.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Konvertera tabellen till en lista med poster.
 ```powerquery
 Table.ToRecords(

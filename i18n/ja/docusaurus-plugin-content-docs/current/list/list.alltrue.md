@@ -19,13 +19,13 @@ List.AllTrue(
 
 ## Remarks
 
-リスト <code>list</code> 内のすべての式が true の場合に true を返します。
+リスト `list` 内のすべての式が true の場合に true を返します。
 
 
 ## Examples
 
-### Example #1 
-リスト \{true, true, 2 &gt; 0} 内のすべての式が true かどうかを判断します。
+### Example #1
+リスト \{true, true, 2 > 0\} 内のすべての式が true かどうかを判断します。
 ```powerquery
 List.AllTrue({true, true, 2 > 0})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-リスト \{true, true, 2 &lt; 0} 内のすべての式が true かどうかを判断します。
+### Example #2
+リスト \{true, true, 2 &lt; 0\} 内のすべての式が true かどうかを判断します。
 ```powerquery
 List.AllTrue({true, false, 2 < 0})
 ```

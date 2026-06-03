@@ -19,13 +19,13 @@ Type.IsNullable(
 
 ## Remarks
 
-यदि प्रकार <code>निरर्थक</code> प्रकार हो, तो <code>सही</code> लौटाता है; अन्‍यथा, <code>गलत</code> लौटाता है.
+यदि प्रकार `निरर्थक` प्रकार हो, तो `सही` लौटाता है; अन्‍यथा, `गलत` लौटाता है.
 
 
 ## Examples
 
-### Example #1 
-निर्धारित करें कि &lt;code&gt;संख्‍या&lt;/code&gt; निरर्थक है या नहीं.
+### Example #1
+निर्धारित करें कि `संख्‍या` निरर्थक है या नहीं.
 ```powerquery
 Type.IsNullable(type number)
 ```
@@ -36,8 +36,8 @@ false
 ```
 
 
-### Example #2 
-निर्धारित करें कि &lt;code&gt;type nullable number&lt;/code&gt; निरर्थक है या नहीं.
+### Example #2
+निर्धारित करें कि `type nullable number` निरर्थक है या नहीं.
 ```powerquery
 Type.IsNullable(type nullable number)
 ```

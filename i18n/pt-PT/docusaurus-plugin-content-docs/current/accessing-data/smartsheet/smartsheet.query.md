@@ -26,7 +26,7 @@ Efetua uma chamada para a API REST do Smartsheet 2.0 no ponto final especificado
 
 ## Examples
 
-### Example #1 
+### Example #1
 Solicita dados do ponto final da API do Smartsheet das folhas com argumentos adicionais especificados
 ```powerquery
 Smartsheet.Content("sheets", "include=ownerInfo&includeAll=true", [])

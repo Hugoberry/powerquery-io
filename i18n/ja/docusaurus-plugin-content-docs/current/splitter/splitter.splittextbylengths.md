@@ -25,7 +25,7 @@ Splitter.SplitTextByLengths(
 
 ## Examples
 
-### Example #1 
+### Example #1
 入力の先頭から始め、入力を最初は 2 文字で分割し、次けて 3 文字で分割します。
 ```powerquery
 Splitter.SplitTextByLengths({2, 3})("AB123")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 入力の末尾から始め、入力を最初は 2 文字で分割し、次けて 3 文字で分割します。
 ```powerquery
 let

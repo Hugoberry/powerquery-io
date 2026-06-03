@@ -19,7 +19,7 @@ Number.Sinh(
 
 ## Remarks
 
-Retourneert de hyperbolische sinus van <code>number</code>.
+Retourneert de hyperbolische sinus van `number`.
 
 
 

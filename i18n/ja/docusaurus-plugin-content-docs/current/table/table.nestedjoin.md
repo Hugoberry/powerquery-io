@@ -25,12 +25,16 @@ Table.NestedJoin(
 
 ## Remarks
 
-<code>table1</code> の行と <code>table2</code> の行を、(<code>table1</code> の) <code>key1</code> と (<code>table2</code> の) <code>key2</code> で選択されたキー列の値の等値に基づいて結合します。結果は <code>newColumnName</code> という名前の列に入力されます。<br />省略可能な <code>joinKind</code> では、実行する結合の種類を指定します。<code>joinKind</code> を指定しなかった場合、既定では、左外部結合が実行されます。<br /><code>keyEqualityComparers</code> の省略可能な設定を含めると、キー列の比較方法を指定できます。この機能は現在、内部での使用のみが想定されています。<br />  
+`table1` の行と `table2` の行を、(`table1` の) `key1` と (`table2` の) `key2` で選択されたキー列の値の等値に基づいて結合します。結果は `newColumnName` という名前の列に入力されます。
+
+省略可能な `joinKind` では、実行する結合の種類を指定します。`joinKind` を指定しなかった場合、既定では、左外部結合が実行されます。
+
+`keyEqualityComparers` の省略可能な設定を含めると、キー列の比較方法を指定できます。この機能は現在、内部での使用のみが想定されています。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 1 つのキー列を使用して 2 つのテーブルを結合します。
 ```powerquery
 Table.NestedJoin(

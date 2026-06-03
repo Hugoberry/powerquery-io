@@ -23,12 +23,12 @@ Text.BetweenDelimiters(
 
 ## Remarks
 
-Hiermee wordt het gedeelte van <code>text</code> tussen een opgegeven <code>startDelimiter</code> en <code>endDelimiter</code> geretourneerd.    Een optioneel numeriek item <code>startIndex</code> geeft aan welk exemplaar van <code>startDelimiter</code> moet worden gebruikt.    Een optionele lijst <code>startIndex</code> geeft aan welk exemplaar van <code>startDelimiter</code> moet worden gebruikt en of indexering moet worden uitgevoerd vanaf het begin of het einde van de invoer.    <code>endIndex</code> is vergelijkbaar, behalve dat indexering relatief aan <code>startIndex</code> wordt uitgevoerd.
+Hiermee wordt het gedeelte van `text` tussen een opgegeven `startDelimiter` en `endDelimiter` geretourneerd. Een optioneel numeriek item `startIndex` geeft aan welk exemplaar van `startDelimiter` moet worden gebruikt. Een optionele lijst `startIndex` geeft aan welk exemplaar van `startDelimiter` moet worden gebruikt en of indexering moet worden uitgevoerd vanaf het begin of het einde van de invoer. `endIndex` is vergelijkbaar, behalve dat indexering relatief aan `startIndex` wordt uitgevoerd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Het gedeelte van 111 (222) 333 (444) ophalen dat tussen het (eerste) open haakje en het (eerste) gesloten haakje dat erop volgt, staat.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")")
@@ -40,7 +40,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Het gedeelte van 111 (222) 333 (444) ophalen dat tussen het tweede open haakje en het eerste gesloten haakje dat erop volgt, staat.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")", 1, 0)
@@ -52,7 +52,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Het gedeelte van 111 (222) 333 (444) ophalen dat tussen het tweede open haakje vanaf het einde en het tweede gesloten haakje dat erop volgt, staat.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")", {1, RelativePosition.FromEnd}, {1, RelativePosition.FromStart})

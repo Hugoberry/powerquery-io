@@ -19,13 +19,13 @@ Text.Length(
 
 ## Remarks
 
-Возвращает число символов в тексте <code>text</code>.
+Возвращает число символов в тексте `text`.
 
 
 ## Examples
 
-### Example #1 
-Определить, сколько символов содержится в тексте &#34;Hello World&#34;.
+### Example #1
+Определить, сколько символов содержится в тексте "Hello World".
 ```powerquery
 Text.Length("Hello World")
 ```

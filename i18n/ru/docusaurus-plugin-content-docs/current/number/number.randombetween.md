@@ -20,12 +20,12 @@ Number.RandomBetween(
 
 ## Remarks
 
-Возвращает случайное число, расположенное между <code>bottom</code> и <code>top</code>.
+Возвращает случайное число, расположенное между `bottom` и `top`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Получить случайное число между 1 и 5.
 ```powerquery
 Number.RandomBetween(1, 5)

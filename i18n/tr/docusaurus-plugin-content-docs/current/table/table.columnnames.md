@@ -19,12 +19,12 @@ Table.ColumnNames(
 
 ## Remarks
 
-<code>table</code> tablosundaki sütun adlarını metin listesi olarak döndürür.
+`table` tablosundaki sütun adlarını metin listesi olarak döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablodaki sütun adlarını bulur.
 ```powerquery
 Table.ColumnNames(

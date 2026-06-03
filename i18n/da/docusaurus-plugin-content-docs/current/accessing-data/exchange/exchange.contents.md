@@ -19,7 +19,7 @@ Exchange.Contents(
 
 ## Remarks
 
-Returnerer en tabel med indhold fra Microsoft Exchange-kontoen <code>mailboxAddress</code>. Hvis <code>mailboxAddress</code> ikke er angivet, anvendes standardkontoen for legitimationsoplysningerne.
+Returnerer en tabel med indhold fra Microsoft Exchange-kontoen `mailboxAddress`. Hvis `mailboxAddress` ikke er angivet, anvendes standardkontoen for legitimationsoplysningerne.
 
 
 

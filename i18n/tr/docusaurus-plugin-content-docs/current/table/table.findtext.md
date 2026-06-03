@@ -20,13 +20,13 @@ Table.FindText(
 
 ## Remarks
 
-<code>table</code> tablosunda <code>text</code> metnini içeren sütunları döndürür. Metin bulunmazsa, boş bir tablo döndürülür.
+`table` tablosunda `text` metnini içeren sütunları döndürür. Metin bulunmazsa, boş bir tablo döndürülür.
 
 
 ## Examples
 
-### Example #1 
-&#34;Bob&#34; öğesini içeren tablodaki satırları bulur.
+### Example #1
+"Bob" öğesini içeren tablodaki satırları bulur.
 ```powerquery
 Table.FindText(
     Table.FromRecords({

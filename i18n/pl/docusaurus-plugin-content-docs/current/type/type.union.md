@@ -19,7 +19,7 @@ Type.Union(
 
 ## Remarks
 
-Zwraca unię dla listy typów w <code>types</code>.
+Zwraca unię dla listy typów w `types`.
 
 
 

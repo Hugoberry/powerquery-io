@@ -5,7 +5,7 @@ title: Lines.ToBinary
 # Lines.ToBinary
 
 
-Bir metin listesini belirtilen kodlama ve lineSeparator öğesini kullanarak ikili değere dönüştürür. Belirtilen lineSeparator her satıra eklenir.  Belirtilmezse, satır başı ve satır akış karakterleri kullanılır.
+Bir metin listesini belirtilen kodlama ve lineSeparator öğesini kullanarak ikili değere dönüştürür. Belirtilen lineSeparator her satıra eklenir. Belirtilmezse, satır başı ve satır akış karakterleri kullanılır.
 
 
 ## Syntax
@@ -22,7 +22,7 @@ Lines.ToBinary(
 
 ## Remarks
 
-Bir metin listesini belirtilen kodlama ve lineSeparator öğesini kullanarak ikili değere dönüştürür. Belirtilen lineSeparator her satıra eklenir.  Belirtilmezse, satır başı ve satır akış karakterleri kullanılır.
+Bir metin listesini belirtilen kodlama ve lineSeparator öğesini kullanarak ikili değere dönüştürür. Belirtilen lineSeparator her satıra eklenir. Belirtilmezse, satır başı ve satır akış karakterleri kullanılır.
 
 
 

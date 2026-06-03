@@ -19,13 +19,28 @@ RowExpression.From(
 
 ## Remarks
 
-Devolve a árvore de sintaxe abstrata (AST) para o corpo de <code>function</code>, normalizada numa <i>expressão de linha</i>:<ul>  <li>A função tem de ser um lambda de um argumento.</li>  <li>Todas as referências ao parâmetro de função são substituídas por <code>RowExpression.Row</code>.</li>  <li>Todas as referências às colunas são substituídas por <code>RowExpression.Column(<i>columnName</i>)</code>.</li>  <li>A AST será simplificada para conter apenas nós dos tipos:    <ul>      <li><code>Constant</code></li>      <li><code>Invocation</code></li>      <li><code>Unary</code></li>      <li><code>Binary</code></li>      <li><code>If</code></li>      <li><code>NotImplemented</code></li>    </ul>  </li></ul><br /><br />Será desencadeado um erro se não for possível que uma AST de expressão de linha seja devolvida para o corpo de <code>function</code>.<br />
+Devolve a árvore de sintaxe abstrata (AST) para o corpo de `function`, normalizada numa *expressão de linha*:
+
+-   A função tem de ser uma lambda de um argumento.
+-   Todas as referências ao parâmetro da função são substituídas por `RowExpression.Row`.
+-   Todas as referências a colunas são substituídas por `RowExpression.Column(columnName)`.
+-   A AST será simplificada para conter apenas nós dos tipos seguintes:
+    -   `Constant`
+    -   `Invocation`
+    -   `Unary`
+    -   `Binary`
+    -   `If`
+    -   `FieldAccess`
+
+É gerado um erro se não for possível devolver uma AST de expressão de linha para o corpo de `function`.  
+  
+Esta função é idêntica a `ItemExpression.From`.
 
 
 ## Examples
 
-### Example #1 
-Devolve o AST para o corpo da função &lt;code&gt;each [CustomerID] = &#34;ALFKI&#34;&lt;/code&gt;
+### Example #1
+Devolve a AST para o corpo da função `each [CustomerID] = "ALFKI"`.
 ```powerquery
 RowExpression.From(each [CustomerName] = "ALFKI")
 ```

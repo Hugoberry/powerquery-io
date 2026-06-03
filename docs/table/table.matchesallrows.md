@@ -20,13 +20,13 @@ Table.MatchesAllRows(
 
 ## Remarks
 
-Indicates whether all the rows in the <code>table</code> match the given <code>condition</code>. Returns <code>true</code> if all of the rows match, <code>false</code> otherwise.
+Indicates whether all the rows in the `table` match the given `condition`. Returns `true` if all of the rows match, `false` otherwise.
 
 
 ## Examples
 
-### Example #1 
-Determine whether all of the row values in column [a] are even in the table.
+### Example #1
+Determine whether all of the row values in column \[a\] are even in the table.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ true
 ```
 
 
-### Example #2 
-Find if all of the row values are [a = 1, b = 2], in the table &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt;.
+### Example #2
+Find if all of the row values are \[a = 1, b = 2\], in the table `({[a = 1, b = 2], [a = 3, b = 4]})`.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({

@@ -19,12 +19,12 @@ Date.Month(
 
 ## Remarks
 
-Restituisce il componente mese del valore <code>datetime</code> specificato <code>dateTime</code>.
+Restituisce il componente mese del valore `datetime` specificato `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trovare il mese in #datetime(2011, 12, 31, 9, 15, 36).
 ```powerquery
 Date.Month(#datetime(2011, 12, 31, 9, 15, 36))

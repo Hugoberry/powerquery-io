@@ -19,13 +19,13 @@ Text.ToList(
 
 ## Remarks
 
-指定されたテキスト値 <code>text</code> から文字の値の一覧を返します。
+指定されたテキスト値 `text` から文字の値の一覧を返します。
 
 
 ## Examples
 
-### Example #1 
-テキスト &#34;Hello World&#34; から文字の値の一覧を作成します。
+### Example #1
+テキスト "Hello World" から文字の値の一覧を作成します。
 ```powerquery
 Text.ToList("Hello World")
 ```

@@ -20,13 +20,20 @@ Time.From(
 
 ## Remarks
 
-Returnerer en værdi af typen <code>time</code> ud fra den angivne <code>value</code>. Der kan også gives angives en valgfri <code>culture</code> (f.eks. "en-US").Hvis den angivne <code>value</code> er <code>null</code>, vil <code>Time.From</code> returnere <code>null</code>. Hvis den angivne <code>value</code> er <code>time</code>, returneres <code>value</code>. Værdier af følgende typer kan konverteres til en værdi af typen <code>time</code>:      <ul>        <li><code>text</code>: En værdi af typen <code>time</code> fra en tekstrepræsentation. Se <code>Time.FromText</code> for at få flere oplysninger.</li>        <li><code>datetime</code>: Klokkeslætskomponent for <code>value</code>.</li>        <li><code>datetimezone</code>: Klokkeslætskomponenten for den lokale datetime-ækvivalens for <code>value</code>.</li>        <li><code>number</code>: En ækvivalens af typen <code>time</code> til antallet af brøkdage udtrykt ved <code>value</code>. Hvis <code>value</code> er negativ eller større end eller lig med 1, returneres der en fejl.</li>      </ul>Hvis <code>value</code> er af en anden type, returneres der en fejl.
+Returnerer en værdi af typen `time` ud fra den angivne `value`. Der kan også gives angives en valgfri `culture` (f.eks. "en-US"). Hvis den angivne `value` er `null`, vil `Time.From` returnere `null`. Hvis den angivne `value` er `time`, returneres `value`. Værdier af følgende typer kan konverteres til en værdi af typen `time`:
+
+-   `text`: En værdi af typen `time` fra en tekstrepræsentation. Se `Time.FromText` for at få flere oplysninger.
+-   `datetime`: Klokkeslætskomponent for `value`.
+-   `datetimezone`: Klokkeslætskomponenten for den lokale datetime-ækvivalens for `value`.
+-   `number`: En ækvivalens af typen `time` til antallet af brøkdage udtrykt ved `value`. Hvis `value` er negativ eller større end eller lig med 1, returneres der en fejl.
+
+Hvis `value` er af en anden type, returneres der en fejl.
 
 
 ## Examples
 
-### Example #1 
-Konvertér &lt;code&gt;0.7575&lt;/code&gt; til en værdi af typen &lt;code&gt;time&lt;/code&gt;.
+### Example #1
+Konvertér `0.7575` til en værdi af typen `time`.
 ```powerquery
 Time.From(0.7575)
 ```
@@ -37,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Konvertér &lt;code&gt;#datetime(1899, 12, 30, 06, 45, 12)&lt;/code&gt; til en værdi af typen &lt;code&gt;time&lt;/code&gt;.
+### Example #2
+Konvertér `#datetime(1899, 12, 30, 06, 45, 12)` til en værdi af typen `time`.
 ```powerquery
 Time.From(#datetime(1899, 12, 30, 06, 45, 12))
 ```

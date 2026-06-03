@@ -5,7 +5,7 @@ title: AzureStorage.Blobs
 # AzureStorage.Blobs
 
 
-Retourne une table de navigation contenant les conteneurs trouvés dans le compte spécifié à partir d&#39;un coffre de stockage Azure.
+Retourne une table de navigation contenant les conteneurs trouvés dans le compte spécifié à partir d'un coffre de stockage Azure.
 
 
 ## Syntax
@@ -20,7 +20,11 @@ AzureStorage.Blobs(
 
 ## Remarks
 
-Retourne une table de navigation contenant une ligne pour chaque conteneur trouvé pour l'URL du compte, <code>account</code>, à partir d'un coffre de stockage Azure. Chaque ligne contient un lien vers les objets blob du conteneur. Vous pouvez spécifier <code>options</code> pour contrôler les options suivantes :    <ul><li><code>BlockSize</code> : Nombre d&#39;octets &#224; lire avant d&#39;attendre le consommateur de donn&#233;es. La valeur par d&#233;faut est 4&#160;Mo.</li><li><code>RequestSize</code> : Nombre d&#39;octets &#224; lire dans une requ&#234;te HTTP unique sur le serveur. La valeur par d&#233;faut est 4&#160;Mo.</li><li><code>ConcurrentRequests</code> : L&#39;option ConcurrentRequests sp&#233;cifie le nombre de demandes &#224; effectuer en parall&#232;le, ce qui permet d&#39;acc&#233;l&#233;rer le t&#233;l&#233;chargement des donn&#233;es au d&#233;triment de l&#39;utilisation de la m&#233;moire. La m&#233;moire n&#233;cessaire est &#233;gale &#224; (ConcurrentRequest \* RequestSize). La valeur par d&#233;faut est&#160;16.</li></ul>
+Retourne une table de navigation contenant une ligne pour chaque conteneur trouvé pour l'URL du compte, `account`, à partir d'un coffre de stockage Azure. Chaque ligne contient un lien vers les objets blob du conteneur. Vous pouvez spécifier `options` pour contrôler les options suivantes :
+
+-   `BlockSize` : Nombre d'octets à lire avant d'attendre le consommateur de données. La valeur par défaut est 4 Mo.
+-   `RequestSize` : Nombre d'octets à lire dans une requête HTTP unique sur le serveur. La valeur par défaut est 4 Mo.
+-   `ConcurrentRequests` : L'option ConcurrentRequests spécifie le nombre de demandes à effectuer en parallèle, ce qui permet d'accélérer le téléchargement des données au détriment de l'utilisation de la mémoire. La mémoire nécessaire est égale à (ConcurrentRequest \* RequestSize). La valeur par défaut est 16.
 
 
 

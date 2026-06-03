@@ -5,7 +5,7 @@ title: Table.ViewError
 # Table.ViewError
 
 
-Görünümde (Table.View aracılığıyla) tanımlanan bir işleyici tarafından oluşturulduğunda geri dönüşü tetiklemeyen değiştirilmiş bir hata kaydı oluşturur.
+Bir görünümde (Table.View aracılığıyla) tanımlanan bir işleyici tarafından tetiklendiğinde geri dönüşü tetiklemeyen değiştirilmiş bir hata kaydı oluşturur.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Table.ViewError(
 
 ## Remarks
 
-Görünümde (Table.View aracılığıyla) tanımlanan bir işleyici tarafından oluşturulduğunda <code>errorRecord</code> kaynağından geri dönüşü tetiklemeyen değiştirilmiş bir hata kaydı oluşturur.
+`errorRecord` içinden, bir görünümde (Table.View aracılığıyla) tanımlanan bir işleyici tarafından tetiklendiğinde geri dönüşü tetiklemeyen değiştirilmiş bir hata kaydı oluşturur.
 
 
 

@@ -21,12 +21,16 @@ Number.ToText(
 
 ## Remarks
 
-Konwertuje wartość liczbową <code>number</code> na wartość tekstową zgodnie z formatem określonym przez <code>format</code>.<br />    <br />    Format jest wartością tekstową wskazującą sposób konwertowania liczby. Aby uzyskać więcej informacji na temat obsługiwanych wartości formatu, przejdź do https://go.microsoft.com/fwlink/?linkid=2241210 and https://go.microsoft.com/fwlink/?linkid=2240884.<br />    <br />    Można również podać opcjonalne <code>culture</code> (na przykład „en-US”) w celu kontrolowania zachowania kulturowego <code>format</code>.
+Konwertuje wartość liczbową `number` na wartość tekstową zgodnie z formatem określonym przez `format`.  
+  
+Format jest wartością tekstową wskazującą sposób konwertowania liczby. Aby uzyskać więcej informacji na temat obsługiwanych wartości formatu, przejdź do https://go.microsoft.com/fwlink/?linkid=2241210 and https://go.microsoft.com/fwlink/?linkid=2240884.  
+  
+Można również podać opcjonalne `culture` (na przykład „en-US”) w celu kontrolowania zachowania kulturowego `format`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Konwertuj liczbę na tekst bez określania formatu.
 ```powerquery
 Number.ToText(4)
@@ -38,7 +42,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Konwertuj liczbę na format wykładniczy.
 ```powerquery
 Number.ToText(4, "e")
@@ -50,7 +54,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Konwertuj liczbę na format procentowy z tylko jednym miejscem dziesiętnym.
 ```powerquery
 Number.ToText(-0.1234, "P1")

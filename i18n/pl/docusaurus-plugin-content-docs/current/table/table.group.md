@@ -23,13 +23,19 @@ Table.Group(
 
 ## Remarks
 
-Grupuje wiersze <code>table</code> według kolumn klucza zdefiniowanych przez <code>key</code>. <code>key</code> może być nazwą pojedynczej kolumny lub listą nazw kolumn.    W przypadku każdej grupy tworzony jest rekord zawierający kolumny klucza (wraz z ich wartościami) oraz wszystkie zagregowane kolumny określone przez <code>aggregatedColumns</code>.    Opcjonalnie można również określić <code>groupKind</code> i <code>comparer</code>.<br />    <br />    Jeśli dane zostały już posortowane według kolumn klucza, wtedy można podać <code>groupKind</code> elementu GroupKind.Local. Może to poprawić wydajność grupowania w niektórych przypadkach,    ponieważ zakłada się, że wszystkie wiersze z danym zestawem wartości kluczy są sąsiadujące.<br />    <br />    Podczas przekazywania <code>comparer</code> zwróć uwagę, że jeśli traktuje zróżnicowane klucze jako równe, wiersz można umieścić w grupie, w której klucze różnią się od jej własnych.<br />    <br />    Ta funkcja nie gwarantuje porządkowania wierszy, które zwraca.  
+Grupuje wiersze `table` według kolumn klucza zdefiniowanych przez `key`. `key` może być nazwą pojedynczej kolumny lub listą nazw kolumn. W przypadku każdej grupy tworzony jest rekord zawierający kolumny klucza (wraz z ich wartościami) oraz wszystkie zagregowane kolumny określone przez `aggregatedColumns`. Opcjonalnie można również określić `groupKind` i `comparer`.  
+  
+Jeśli dane zostały już posortowane według kolumn klucza, wtedy można podać `groupKind` elementu GroupKind.Local. Może to poprawić wydajność grupowania w niektórych przypadkach, ponieważ zakłada się, że wszystkie wiersze z danym zestawem wartości kluczy są sąsiadujące.  
+  
+Podczas przekazywania `comparer` zwróć uwagę, że jeśli traktuje zróżnicowane klucze jako równe, wiersz można umieścić w grupie, w której klucze różnią się od jej własnych.  
+  
+Ta funkcja nie gwarantuje porządkowania wierszy, które zwraca.
 
 
 ## Examples
 
-### Example #1 
-Pogrupuj tabelę, dodając kolumnę agregacji [total], która zawiera sumę cen (&#34;each List.Sum([price])&#34;).
+### Example #1
+Pogrupuj tabelę, dodając kolumnę agregacji \[total\], która zawiera sumę cen ("each List.Sum(\[price\])").
 ```powerquery
 Table.Group(
     Table.FromRecords({

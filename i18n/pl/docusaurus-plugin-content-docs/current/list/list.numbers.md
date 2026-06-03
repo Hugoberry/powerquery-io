@@ -21,12 +21,16 @@ List.Numbers(
 
 ## Remarks
 
-Zwraca listę liczb, używając wartości początkowej, liczności oraz opcjonalnej wartości przyrostu. Domyślna wartość przyrostu to 1.<ul>   <li><code>start</code>: Wartość początkowa listy.</li>   <li><code>count</code>: Liczba wartości do utworzenia.</li>   <li><code>increment</code>: <i>[Parametr opcjonalny]</i> Wartość przyrostu. Jeśli ten parametr zostanie pominięty, wartości będą zwiększane o 1.</li></ul>
+Zwraca listę liczb, używając wartości początkowej, liczności oraz opcjonalnej wartości przyrostu. Domyślna wartość przyrostu to 1.
+
+-   `start`: Wartość początkowa listy.
+-   `count`: Liczba wartości do utworzenia.
+-   `increment`: *(opcjonalnie)*Wartość przyrostu. Jeśli ten parametr zostanie pominięty, wartości będą zwiększane o 1.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Wygeneruj listę 10 kolejnych liczb, zaczynając od 1.
 ```powerquery
 List.Numbers(1, 10)
@@ -49,7 +53,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Wygeneruj listę 10 kolejnych liczb, zaczynając od 1 i zwiększając każdą kolejną liczbę o 2.
 ```powerquery
 List.Numbers(1, 10, 2)

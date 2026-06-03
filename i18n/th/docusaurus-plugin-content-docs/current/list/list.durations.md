@@ -21,12 +21,12 @@ List.Durations(
 
 ## Remarks
 
-ส่งกลับรายการค่า <code>count</code> <code>duration</code> โดยเริ่มต้นที่ <code>start</code> และเพิ่มตาม <code>duration</code> ที่กำหนด <code>step</code>
+ส่งกลับรายการค่า `count` `duration` โดยเริ่มต้นที่ `start` และเพิ่มตาม `duration` ที่กำหนด `step`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 สร้างรายการที่ประกอบด้วย 5 ค่าเริ่ม 1 ชั่วโมงและเพิ่มทีละหนึ่งชั่วโมง
 ```powerquery
 List.Durations(#duration(0, 1, 0, 0), 5, #duration(0, 1, 0, 0))

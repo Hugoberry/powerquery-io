@@ -20,13 +20,13 @@ Table.Column(
 
 ## Remarks
 
-तालिका <code>table</code> से <code>column</code> द्वारा निर्दिष्ट डेटा का स्तंभ, सूची के रूप में लौटाता है.
+तालिका `table` से `column` द्वारा निर्दिष्ट डेटा का स्तंभ, सूची के रूप में लौटाता है.
 
 
 ## Examples
 
-### Example #1 
-तालिका में [Name] स्तंभ से मान लौटाता है.
+### Example #1
+तालिका में \[Name\] स्तंभ से मान लौटाता है.
 ```powerquery
 Table.Column(
     Table.FromRecords({

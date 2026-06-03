@@ -20,12 +20,15 @@ DateTime.IsInNextNHours(
 
 ## Remarks
 
-Indica si el valor datetime <code>dateTime</code> proporcionado se produce durante el siguiente número de horas, como se determina por la fecha y hora actual del sistema. Tenga en cuenta que esta función devolverá un valor "false" al pasar un valor que se produzca en la hora actual.      <ul>      <li><code>dateTime</code>: valor <code>datetime</code> o <code>datetimezone</code> para evaluar.</li>      <li><code>hours</code>: número de horas.</li>      </ul>
+Indica si el valor datetime `dateTime` proporcionado se produce durante el siguiente número de horas, como se determina por la fecha y hora actual del sistema. Tenga en cuenta que esta función devolverá un valor "false" al pasar un valor que se produzca en la hora actual.
+
+-   `dateTime`: valor `datetime` o `datetimezone` para evaluar.
+-   `hours`: número de horas.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determina si la hora posterior a la hora del sistema actual se encuentra en las siguientes dos horas.
 ```powerquery
 DateTime.IsInNextNHours(DateTime.FixedLocalNow() + #duration(0, 2, 0, 0), 2)

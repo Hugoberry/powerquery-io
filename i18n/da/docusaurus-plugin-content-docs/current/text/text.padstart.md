@@ -21,12 +21,12 @@ Text.PadStart(
 
 ## Remarks
 
-Returnerer en værdi af typen <code>text</code>, der er udfyldt til længden <code>count</code>, ved at indsætte mellemrum i starten af tekstværdien <code>text</code>.    Der kan bruges et valgfrit tegn <code>character</code> til at angive det tegn, der skal bruges til udfyldning. Standardtegnet for udfyldning er et mellemrum.
+Returnerer en værdi af typen `text`, der er udfyldt til længden `count`, ved at indsætte mellemrum i starten af tekstværdien `text`. Der kan bruges et valgfrit tegn `character` til at angive det tegn, der skal bruges til udfyldning. Standardtegnet for udfyldning er et mellemrum.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Udfyld starten af en tekstværdi, så den indeholder 10 tegn.
 ```powerquery
 Text.PadStart("Name", 10)
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Udfyld starten af en tekstværdi med &#34;|&#34;, så den indeholder 10 tegn.
+### Example #2
+Udfyld starten af en tekstværdi med "|", så den indeholder 10 tegn.
 ```powerquery
 Text.PadStart("Name", 10, "|")
 ```

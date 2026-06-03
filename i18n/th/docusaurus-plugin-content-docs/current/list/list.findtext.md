@@ -20,13 +20,13 @@ List.FindText(
 
 ## Remarks
 
-ส่งกลับรายการของค่าจากรายการ <code>list</code> ที่มีค่า <code>text</code>
+ส่งกลับรายการของค่าจากรายการ `list` ที่มีค่า `text`
 
 
 ## Examples
 
-### Example #1 
-ค้นหาค่าในรายการ \{&#34;a&#34;, &#34;b&#34;, &#34;ab&#34;} ที่ตรงกับ &#34;a&#34; 
+### Example #1
+ค้นหาค่าในรายการ \{"a", "b", "ab"\} ที่ตรงกับ "a"
 ```powerquery
 List.FindText({"a", "b", "ab"}, "a")
 ```

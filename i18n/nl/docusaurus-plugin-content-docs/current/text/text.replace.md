@@ -21,13 +21,13 @@ Text.Replace(
 
 ## Remarks
 
-Retourneert het resultaat van het vervangen van alle instanties van tekstwaarde <code>old</code> in tekstwaarde <code>text</code> door tekstwaarde <code>new</code>. Bij deze functie wordt onderscheid gemaakt tussen hoofdletters en kleine letters.
+Retourneert het resultaat van het vervangen van alle instanties van tekstwaarde `old` in tekstwaarde `text` door tekstwaarde `new`. Bij deze functie wordt onderscheid gemaakt tussen hoofdletters en kleine letters.
 
 
 ## Examples
 
-### Example #1 
-Elke instantie van het woord &#34;het&#34; in een zin vervangen door &#34;een&#34;.
+### Example #1
+Elke instantie van het woord "het" in een zin vervangen door "een".
 ```powerquery
 Text.Replace("the quick brown fox jumps over the lazy dog", "the", "a")
 ```

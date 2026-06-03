@@ -20,13 +20,13 @@ List.SingleOrDefault(
 
 ## Remarks
 
-Als er maar één item in de lijst <code>list</code> staat, wordt dat item geretourneerd. Als de lijst leeg is, retourneert de functie null tenzij een optionele <code>default</code> is opgegeven. Als er meer dan één item in de lijst staat, retourneert de functie een fout.
+Als er maar één item in de lijst `list` staat, wordt dat item geretourneerd. Als de lijst leeg is, retourneert de functie null tenzij een optionele `default` is opgegeven. Als er meer dan één item in de lijst staat, retourneert de functie een fout.
 
 
 ## Examples
 
-### Example #1 
-De enkele waarde in de lijst \{1} zoeken.
+### Example #1
+De enkele waarde in de lijst \{1\} zoeken.
 ```powerquery
 List.SingleOrDefault({1})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-De enkele waarde in de lijst \{} zoeken.
+### Example #2
+De enkele waarde in de lijst \{\} zoeken.
 ```powerquery
 List.SingleOrDefault({})
 ```
@@ -49,8 +49,8 @@ null
 ```
 
 
-### Example #3 
-De enkele waarde in de lijst \{} zoeken. Als deze lijst leeg is, wordt -1 geretourneerd.
+### Example #3
+De enkele waarde in de lijst \{\} zoeken. Als deze lijst leeg is, wordt -1 geretourneerd.
 ```powerquery
 List.SingleOrDefault({}, -1)
 ```

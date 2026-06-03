@@ -22,12 +22,17 @@ Table.AlternateRows(
 
 ## Remarks
 
-Zachowuje początkowe przesunięcie, a następnie naprzemiennie pobiera i pomija kolejne wiersze.    <ul>       <li><code>table</code>: Tabela wejściowa.</li>       <li><code>offset</code>: Liczba wierszy do zachowania przed rozpoczęciem iteracji.</li>       <li><code>skip</code>: Liczba wierszy do usunięcia w każdej iteracji.</li>       <li><code>take</code>: Liczba wierszy do zachowania w każdej iteracji.</li>    </ul>    
+Zachowuje początkowe przesunięcie, a następnie naprzemiennie pobiera i pomija kolejne wiersze.
+
+-   `table`: Tabela wejściowa.
+-   `offset`: Liczba wierszy do zachowania przed rozpoczęciem iteracji.
+-   `skip`: Liczba wierszy do usunięcia w każdej iteracji.
+-   `take`: Liczba wierszy do zachowania w każdej iteracji.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utwórz tabelę na podstawie tabeli, rozpoczynając od pierwszego wiersza, pomijając jedną wartość, a następnie zachowując jedną wartość.
 ```powerquery
 Table.AlternateRows(

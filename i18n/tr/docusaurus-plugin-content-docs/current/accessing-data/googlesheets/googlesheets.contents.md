@@ -5,7 +5,7 @@ title: GoogleSheets.Contents
 # GoogleSheets.Contents
 
 
-Verileri Google Sheets&#39;ten içeri aktarır
+Verileri Google Sheets'ten içeri aktarır
 
 
 ## Syntax

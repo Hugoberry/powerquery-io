@@ -20,12 +20,12 @@ Number.RandomBetween(
 
 ## Remarks
 
-ส่งกลับตัวเลขสุ่มระหว่าง <code>bottom</code> ถึง <code>top</code>
+ส่งกลับตัวเลขสุ่มระหว่าง `bottom` ถึง `top`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 รับตัวเลขสุ่มระหว่าง 1 ถึง 5
 ```powerquery
 Number.RandomBetween(1, 5)

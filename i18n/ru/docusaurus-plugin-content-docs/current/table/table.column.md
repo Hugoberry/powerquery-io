@@ -20,13 +20,13 @@ Table.Column(
 
 ## Remarks
 
-Возвращает столбец данных, указанный с помощью <code>column</code>, из таблицы <code>table</code> в виде списка.
+Возвращает столбец данных, указанный с помощью `column`, из таблицы `table` в виде списка.
 
 
 ## Examples
 
-### Example #1 
-Возврат значений из столбца [Name] таблицы.
+### Example #1
+Возврат значений из столбца \[Name\] таблицы.
 ```powerquery
 Table.Column(
     Table.FromRecords({

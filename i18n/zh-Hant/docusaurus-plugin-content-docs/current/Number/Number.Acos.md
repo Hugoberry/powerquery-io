@@ -19,7 +19,7 @@ Number.Acos(
 
 ## Remarks
 
-傳回 <code>number</code> 的反餘弦值。
+傳回 `number` 的反餘弦值。
 
 
 

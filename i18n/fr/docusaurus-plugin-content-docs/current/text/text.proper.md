@@ -20,13 +20,13 @@ Text.Proper(
 
 ## Remarks
 
-Retourne le résultat de la mise en majuscules de la première lettre uniquement de chaque mot dans la valeur de texte <code>text</code>. Toutes les autres lettres sont retournées en minuscules. Vous pouvez également fournir un <code>culture</code> facultatif (par exemple, "fr-fr").
+Retourne le résultat de la mise en majuscules de la première lettre uniquement de chaque mot dans la valeur de texte `text`. Toutes les autres lettres sont retournées en minuscules. Vous pouvez également fournir un `culture` facultatif (par exemple, "fr-fr").
 
 
 ## Examples
 
-### Example #1 
-Utilise &lt;code&gt;Text.Proper&lt;/code&gt; dans une phrase simple.
+### Example #1
+Utilise `Text.Proper` dans une phrase simple.
 ```powerquery
 Text.Proper("the QUICK BrOWn fOx jUmPs oVER tHe LAzy DoG")
 ```

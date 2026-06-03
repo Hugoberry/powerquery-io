@@ -19,12 +19,12 @@ Number.Factorial(
 
 ## Remarks
 
-Returns the factorial of the number <code>number</code>.
+Returns the factorial of the number `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find the factorial of 10.
 ```powerquery
 Number.Factorial(10)

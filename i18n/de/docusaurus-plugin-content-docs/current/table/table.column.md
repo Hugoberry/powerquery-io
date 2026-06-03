@@ -20,13 +20,13 @@ Table.Column(
 
 ## Remarks
 
-Gibt die durch "<code>column</code>" angegebene Spalte mit Daten aus der Tabelle "<code>table</code>" als Liste zurück.
+Gibt die durch "`column`" angegebene Spalte mit Daten aus der Tabelle "`table`" als Liste zurück.
 
 
 ## Examples
 
-### Example #1 
-Gibt die Werte aus der Spalte &#34;[Name]&#34; in der Tabelle zurück.
+### Example #1
+Gibt die Werte aus der Spalte "\[Name\]" in der Tabelle zurück.
 ```powerquery
 Table.Column(
     Table.FromRecords({

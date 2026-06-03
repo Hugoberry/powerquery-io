@@ -19,12 +19,12 @@ Number.Factorial(
 
 ## Remarks
 
-数値 <code>number</code> の階乗を返します。
+数値 `number` の階乗を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 10 の階乗を求めます。
 ```powerquery
 Number.Factorial(10)

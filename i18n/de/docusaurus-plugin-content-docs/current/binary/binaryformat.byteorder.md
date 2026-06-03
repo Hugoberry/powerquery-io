@@ -20,7 +20,7 @@ BinaryFormat.ByteOrder(
 
 ## Remarks
 
-Gibt ein Binärformat mit der durch "<code>binaryFormat</code>" angegebenen Bytereihenfolge zurück.  Die standardmäßige Bytereihenfolge lautet <code>ByteOrder.BigEndian</code>.
+Gibt ein Binärformat mit der durch "`binaryFormat`" angegebenen Bytereihenfolge zurück. Die standardmäßige Bytereihenfolge lautet `ByteOrder.BigEndian`.
 
 
 

@@ -20,13 +20,13 @@ List.Sum(
 
 ## Remarks
 
-Gibt die Summe der Werte ungleich null in der Liste "<code>list</code>" zurück.  Enthält die Liste keine Werte ungleich null, wird NULL zurückgegeben.
+Gibt die Summe der Werte ungleich null in der Liste "`list`" zurück. Enthält die Liste keine Werte ungleich null, wird NULL zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt die Summe der Zahlen in der Liste &lt;code&gt;\{1, 2, 3}&lt;/code&gt;.
+### Example #1
+Ermittelt die Summe der Zahlen in der Liste `{1, 2, 3}`.
 ```powerquery
 List.Sum({1, 2, 3})
 ```

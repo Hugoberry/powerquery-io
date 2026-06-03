@@ -20,13 +20,13 @@ Table.HasColumns(
 
 ## Remarks
 
-ระบุว่า <code>table</code> มีคอลัมน์ที่ระบุ <code>columns</code> หรือไม่ ส่งกลับ <code>true</code> ถ้าตารางมีคอลัมน์ดังกล่าว และ <code>false</code> ถ้าไม่มี
+ระบุว่า `table` มีคอลัมน์ที่ระบุ `columns` หรือไม่ ส่งกลับ `true` ถ้าตารางมีคอลัมน์ดังกล่าว และ `false` ถ้าไม่มี
 
 
 ## Examples
 
-### Example #1 
-กำหนดว่าตารางมีตาราง [Name] หรือไม่
+### Example #1
+กำหนดว่าตารางมีตาราง \[Name\] หรือไม่
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({
@@ -45,8 +45,8 @@ true
 ```
 
 
-### Example #2 
-ค้นหาว่าตารางมีคอลัมน์ [Name] และ [PhoneNumber] หรือไม่
+### Example #2
+ค้นหาว่าตารางมีคอลัมน์ \[Name\] และ \[PhoneNumber\] หรือไม่
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({

@@ -20,12 +20,12 @@ Table.First(
 
 ## Remarks
 
-<code>table</code> की पहली पंक्ति या तालिका रिक्त होने पर वैकल्पिक डिफ़ॉल्ट मान, <code>default</code>, लौटाता है.
+`table` की पहली पंक्ति या तालिका रिक्त होने पर वैकल्पिक डिफ़ॉल्ट मान, `default`, लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 तालिका की पहली पंक्ति प्राप्त ढूँढें.
 ```powerquery
 Table.First(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-तालिका &lt;code&gt;(\{})&lt;/code&gt; की पहली पंक्ति प्राप्त करें या रिक्त होने पर [a = 0, b = 0] दें.
+### Example #2
+तालिका `({})` की पहली पंक्ति प्राप्त करें या रिक्त होने पर \[a = 0, b = 0\] दें.
 ```powerquery
 Table.First(Table.FromRecords({}), [a = 0, b = 0])
 ```

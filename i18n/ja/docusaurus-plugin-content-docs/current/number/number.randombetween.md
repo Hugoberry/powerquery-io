@@ -20,12 +20,12 @@ Number.RandomBetween(
 
 ## Remarks
 
-<code>bottom</code> と <code>top</code> の間の乱数を返します。
+`bottom` と `top` の間の乱数を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 1 と 5 の間の乱数を取得します。
 ```powerquery
 Number.RandomBetween(1, 5)

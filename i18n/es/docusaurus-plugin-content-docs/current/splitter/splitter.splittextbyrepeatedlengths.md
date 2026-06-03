@@ -25,7 +25,7 @@ Devuelve una función que divide el texto en una lista de texto repetidamente de
 
 ## Examples
 
-### Example #1 
+### Example #1
 Divida la entrada repetidamente en fragmentos de tres caracteres, empezando desde el principio de la entrada.
 ```powerquery
 Splitter.SplitTextByRepeatedLengths(3)("12345678")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Divida la entrada repetidamente en fragmentos de tres caracteres, empezando desde el final de la entrada.
 ```powerquery
 let

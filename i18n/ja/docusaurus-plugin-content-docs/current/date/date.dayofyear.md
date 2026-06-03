@@ -19,12 +19,12 @@ Date.DayOfYear(
 
 ## Remarks
 
-指定された <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値 (<code>dateTime</code>) の、年の通算日を表す数値を返します。
+指定された `date`、`datetime`、または `datetimezone` 値 (`dateTime`) の、年の通算日を表す数値を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 2011 年 3 月 1 日の年の日付。
 ```powerquery
 Date.DayOfYear(#date(2011, 03, 01))

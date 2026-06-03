@@ -19,13 +19,13 @@ List.Zip(
 
 ## Remarks
 
-Akzeptiert eine Liste von Listen, <code>lists</code>, und gibt eine Liste von Listen zurück, indem Elemente an derselben Position kombiniert werden.
+Akzeptiert eine Liste von Listen, `lists`, und gibt eine Liste von Listen zurück, indem Elemente an derselben Position kombiniert werden.
 
 
 ## Examples
 
-### Example #1 
-Zippt die beiden einfachen Listen &#34;\{1, 2}&#34; und &#34;\{3, 4}&#34;.
+### Example #1
+Zippt die beiden einfachen Listen "\{1, 2\}" und "\{3, 4\}".
 ```powerquery
 List.Zip({{1, 2}, {3, 4}})
 ```
@@ -39,8 +39,8 @@ Result:
 ```
 
 
-### Example #2 
-Zippt die beiden einfachen Listen unterschiedlicher Länge &#34;\{1, 2}&#34; und &#34;\{3}&#34;.
+### Example #2
+Zippt die beiden einfachen Listen unterschiedlicher Länge "\{1, 2\}" und "\{3\}".
 ```powerquery
 List.Zip({{1, 2}, {3}})
 ```

@@ -20,13 +20,13 @@ Percentage.From(
 
 ## Remarks
 
-Trả về giá trị <code>percentage</code> từ <code>value</code> cho sẵn. Nếu <code>value</code> cho sẵn là <code>null</code>, <code>Percentage.From</code> sẽ trả về <code>null</code>. Nếu <code>value</code> cho sẵn là <code>text</code> có biểu tượng dấu phần trăm theo sau, thì sẽ trả về số thập phân được chuyển đổi. Nếu không, giá trị sẽ được chuyển đổi thành <code>number</code> bằng <code>Number.From</code>. Một <code>culture</code> tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
+Trả về giá trị `percentage` từ `value` cho sẵn. Nếu `value` cho sẵn là `null`, `Percentage.From` sẽ trả về `null`. Nếu `value` cho sẵn là `text` có biểu tượng dấu phần trăm theo sau, thì sẽ trả về số thập phân được chuyển đổi. Nếu không, giá trị sẽ được chuyển đổi thành `number` bằng `Number.From`. Một `culture` tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
 
 
 ## Examples
 
-### Example #1 
-Tải giá trị &lt;code&gt;phần trăm&lt;/code&gt; &lt;code&gt;&#34;12,3%&#34;&lt;/code&gt;.
+### Example #1
+Tải giá trị `phần trăm` `"12,3%"`.
 ```powerquery
 Percentage.From("12.3%")
 ```

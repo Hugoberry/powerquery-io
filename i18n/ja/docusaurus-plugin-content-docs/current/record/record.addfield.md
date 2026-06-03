@@ -22,12 +22,12 @@ Record.AddField(
 
 ## Remarks
 
-レコード <code>record</code> にフィールド名 <code>fieldName</code>、値 <code>value</code> のフィールドを追加します。
+レコード `record` にフィールド名 `fieldName`、値 `value` のフィールドを追加します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 レコードにフィールド Address を追加します。
 ```powerquery
 Record.AddField([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "Address", "123 Main St.")

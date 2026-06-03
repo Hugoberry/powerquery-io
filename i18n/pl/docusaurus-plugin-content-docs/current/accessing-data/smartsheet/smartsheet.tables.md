@@ -24,7 +24,7 @@ Zwraca zagnieżdżoną tabelę dostępnych arkuszy, raportów, folderów i obsza
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zwraca arkusze, foldery, raporty i obszary robocze dostępne na najwyższym poziomie hierarchii narzędzia Smartsheet
 ```powerquery
 Smartsheet.Tables()

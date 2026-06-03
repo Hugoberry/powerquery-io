@@ -19,12 +19,14 @@ DateTime.IsInCurrentHour(
 
 ## Remarks
 
-Указывает, наступает ли данный момент времени (<code>dateTime</code>) в течение текущего часа, по расчету на основе текущей системной даты и времени.      <ul>      <li><code>dateTime</code>: вычисляемое значение <code>datetime</code> или <code>datetimezone</code>.</li>      </ul>
+Указывает, наступает ли данный момент времени (`dateTime`) в течение текущего часа, по расчету на основе текущей системной даты и времени.
+
+-   `dateTime`: вычисляемое значение `datetime` или `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Определяет, находится ли текущее системное время в текущем часе.
 ```powerquery
 DateTime.IsInCurrentHour(DateTime.FixedLocalNow())

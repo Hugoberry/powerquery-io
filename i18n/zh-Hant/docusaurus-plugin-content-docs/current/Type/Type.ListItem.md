@@ -19,13 +19,13 @@ Type.ListItem(
 
 ## Remarks
 
-從清單 <code>type</code> 傳回項目類型。
+從清單 `type` 傳回項目類型。
 
 
 ## Examples
 
-### Example #1 
-從清單 &lt;code&gt;\{number}&lt;/code&gt; 中尋找項目類型。
+### Example #1
+從清單 `{number}` 中尋找項目類型。
 ```powerquery
 Type.ListItem(type {number})
 ```

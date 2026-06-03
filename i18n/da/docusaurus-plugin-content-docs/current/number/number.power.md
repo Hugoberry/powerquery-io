@@ -20,12 +20,15 @@ Number.Power(
 
 ## Remarks
 
-Returnerer resultatet af at opløfte <code>number</code> til potensen <code>power</code>.    Hvis <code>number</code> eller <code>power</code> er null, returnerer <code>Number.Power</code> null.      <ul>        <li><code>number</code>: Grundtallet.</li>        <li><code>power</code>: Eksponenten.</li>      </ul>
+Returnerer resultatet af at opløfte `number` til potensen `power`. Hvis `number` eller `power` er null, returnerer `Number.Power` null.
+
+-   `number`: Grundtallet.
+-   `power`: Eksponenten.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find værdien for 5 opløftet til potensen 3 (5 i tredje potens).
 ```powerquery
 Number.Power(5, 3)

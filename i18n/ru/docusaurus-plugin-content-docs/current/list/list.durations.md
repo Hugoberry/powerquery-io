@@ -21,12 +21,12 @@ List.Durations(
 
 ## Remarks
 
-Возвращает список значений <code>count</code> <code>duration</code>, начиная с <code>start</code>, с добавлением заданного значения <code>duration</code> <code>step</code>.
+Возвращает список значений `count` `duration`, начиная с `start`, с добавлением заданного значения `duration` `step`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Создать список из пяти значений, начиная с первого часа, с добавлением одного часа.
 ```powerquery
 List.Durations(#duration(0, 1, 0, 0), 5, #duration(0, 1, 0, 0))

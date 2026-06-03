@@ -5,7 +5,7 @@ title: Date.StartOfMonth
 # Date.StartOfMonth
 
 
-Restituisce l&#39;inizio del mese.
+Restituisce l'inizio del mese.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Date.StartOfMonth(
 
 ## Remarks
 
-Restituisce l'inizio del mese contenente <code>dateTime</code>.    <code>dateTime</code> deve essere un valore <code>date</code> o <code>datetime</code>.
+Restituisce l'inizio del mese contenente `dateTime`. `dateTime` deve essere un valore `date` o `datetime`.
 
 
 ## Examples
 
-### Example #1 
-Trovare l&#39;inizio del mese per il 10 ottobre 2011, 8.10.32.
+### Example #1
+Trovare l'inizio del mese per il 10 ottobre 2011, 8.10.32.
 ```powerquery
 Date.StartOfMonth(#datetime(2011, 10, 10, 8, 10, 32))
 ```

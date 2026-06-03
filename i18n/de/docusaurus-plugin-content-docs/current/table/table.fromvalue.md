@@ -20,12 +20,14 @@ Table.FromValue(
 
 ## Remarks
 
-Erstellt eine Tabelle mit einer Spalte, die den angegebenen Wert oder die angegebene Werteliste (<code>value</code>) enthält. Ein optionaler Datensatzparameter ("<code>options</code>") kann angegeben werden, um die folgenden Optionen zu steuern:    <ul>    <li> <code>DefaultColumnName</code>: Der Spaltenname, der beim Generieren einer Tabelle aus einer Liste oder einem Skalarwert verwendet wird.</li>    </ul>  
+Erstellt eine Tabelle mit einer Spalte, die den angegebenen Wert oder die angegebene Werteliste (`value`) enthält. Der optionale Datensatzparameter „`options`“ kann angegeben werden, um die folgenden Optionen zu steuern:
+
+-   `DefaultColumnName`: Der Spaltenname, der beim Erstellen einer Tabelle aus einer Liste oder einem Skalarwert verwendet wird.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Erstellt eine Tabelle auf der Grundlage des Werts 1.
 ```powerquery
 Table.FromValue(1)
@@ -37,7 +39,7 @@ Table.FromRecords({[Value = 1]})
 ```
 
 
-### Example #2 
+### Example #2
 Erstellt eine Tabelle aus der Liste.
 ```powerquery
 Table.FromValue({1, "Bob", "123-4567"})
@@ -53,7 +55,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Erstellt eine Tabelle mit einem benutzerdefinierten Spaltennamen auf der Grundlage des Werts 1.
 ```powerquery
 Table.FromValue(1, [DefaultColumnName = "MyValue"])

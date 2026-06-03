@@ -19,13 +19,15 @@ DateTime.ToRecord(
 
 ## Remarks
 
-Zwraca rekord zawierający części danej wartości typu datetime (<code>dateTime</code>). <ul>        <li><code>dateTime</code>: wartość typu <code>datetime</code>, na podstawie części której jest tworzony rekord.</li>      </ul>
+Zwraca rekord zawierający części danej wartości typu datetime (`dateTime`).
+
+-   `dateTime`: wartość typu `datetime`, na podstawie części której jest tworzony rekord.
 
 
 ## Examples
 
-### Example #1 
-Przekonwertuj wartość &lt;code&gt;#datetime(2011, 12, 31, 11, 56, 2)&lt;/code&gt; na rekord zawierający wartości daty i godziny.
+### Example #1
+Przekonwertuj wartość `#datetime(2011, 12, 31, 11, 56, 2)` na rekord zawierający wartości daty i godziny.
 ```powerquery
 DateTime.ToRecord(#datetime(2011, 12, 31, 11, 56, 2))
 ```

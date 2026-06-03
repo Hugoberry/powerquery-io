@@ -21,7 +21,7 @@ Value.Divide(
 
 ## Remarks
 
-Trả về kết quả chia <code>value1</code> cho <code>value2</code>. Có thể chỉ định tham số <code>precision</code> tùy chọn, theo mặc định <code>Precision.Double</code> được sử dụng.
+Trả về kết quả chia `value1` cho `value2`. Có thể chỉ định tham số `precision` tùy chọn, theo mặc định `Precision.Double` được sử dụng.
 
 
 

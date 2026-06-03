@@ -21,7 +21,7 @@ Cube.ApplyParameter(
 
 ## Remarks
 
-Возвращает куб после применения "<code>parameter</code>" с "<code>arguments</code>" к "<code>cube</code>".
+Возвращает куб после применения "`parameter`" с "`arguments`" к "`cube`".
 
 
 

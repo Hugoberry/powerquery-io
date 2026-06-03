@@ -19,12 +19,12 @@ Date.StartOfMonth(
 
 ## Remarks
 
-उस महीने क शुरू में लौटाता है जिसमें <code>dateTime</code> है. <code>dateTime</code> एक <code>date</code> या <code>datetime</code> मान होना चाहिए.
+उस महीने क शुरू में लौटाता है जिसमें `dateTime` है. `dateTime` एक `date` या `datetime` मान होना चाहिए.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 10 अक्टूबर, 2011, 8:10:32 पूर्वाह्न के लिए महीने के शुरू में प्राप्त करें.
 ```powerquery
 Date.StartOfMonth(#datetime(2011, 10, 10, 8, 10, 32))

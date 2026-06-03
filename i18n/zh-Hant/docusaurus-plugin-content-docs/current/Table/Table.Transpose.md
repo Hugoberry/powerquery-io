@@ -25,7 +25,7 @@ Table.Transpose(
 
 ## Examples
 
-### Example #1 
+### Example #1
 將名稱/值組資料表的資料列轉成資料行。
 ```powerquery
 Table.Transpose(

@@ -20,7 +20,7 @@ Folder.Contents(
 
 ## Remarks
 
-Retourneert een tabel met een rij voor elke map en elk bestand in de map <code>path</code>. Elke rij bevat eigenschappen van de map of het bestand en een koppeling naar de inhoud ervan. De parameter <code>options</code> is momenteel alleen bedoeld voor intern gebruik.
+Retourneert een tabel met een rij voor elke map en elk bestand in de map `path`. Elke rij bevat eigenschappen van de map of het bestand en een koppeling naar de inhoud ervan. De parameter `options` is momenteel alleen bedoeld voor intern gebruik.
 
 
 

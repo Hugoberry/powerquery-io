@@ -20,13 +20,13 @@ Number.Permutations(
 
 ## Remarks
 
-<code>setSize</code> öğe sayısından <code>permutationSize</code> permütasyon boyutuna sahip oluşturulabilecek permütasyon sayısını döndürür.
+`setSize` öğe sayısından `permutationSize` permütasyon boyutuna sahip oluşturulabilecek permütasyon sayısını döndürür.
 
 
 ## Examples
 
-### Example #1 
-5 öğeden 3&#39;lü gruplarda oluşturulabilecek permütasyon sayısını bulur.
+### Example #1
+5 öğeden 3'lü gruplarda oluşturulabilecek permütasyon sayısını bulur.
 ```powerquery
 Number.Permutations(5, 3)
 ```

@@ -5,7 +5,7 @@ title: Number.BitwiseXor
 # Number.BitwiseXor
 
 
-İki girdi arasında bit tabanlı &#34;XOR&#34; (Hariç VEYA) işlemi uygulamanın sonucunu döndürür.
+İki girdi arasında bit tabanlı "XOR" (Hariç VEYA) işlemi uygulamanın sonucunu döndürür.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Number.BitwiseXor(
 
 ## Remarks
 
-<code>number1</code> ve <code>number2</code> arasında bit tabanlı "XOR" (Hariç VEYA) işlemi uygulamanın sonucunu döndürür.
+`number1` ve `number2` arasında bit tabanlı "XOR" (Hariç VEYA) işlemi uygulamanın sonucunu döndürür.
 
 
 

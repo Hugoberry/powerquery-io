@@ -19,12 +19,12 @@ Expression.Identifier(
 
 ## Remarks
 
-Returnerar M-källkodsrepresentationen för en identifierare <code>name</code>.
+Returnerar M-källkodsrepresentationen för en identifierare `name`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hämta M-källkodsrepresentationen för en identifierare.
 ```powerquery
 Expression.Identifier("MyIdentifier")
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Hämta M-källkodsrepresentationen för en identifierare som innehåller ett blanksteg.
 ```powerquery
 Expression.Identifier("My Identifier")

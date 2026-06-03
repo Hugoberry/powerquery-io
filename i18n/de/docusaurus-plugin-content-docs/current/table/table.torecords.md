@@ -19,12 +19,12 @@ Table.ToRecords(
 
 ## Remarks
 
-Konvertiert eine Tabelle (<code>table</code>) in eine Liste mit Datensätzen.
+Konvertiert eine Tabelle (`table`) in eine Liste mit Datensätzen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Konvertiert die Tabelle in eine Liste mit Datensätzen.
 ```powerquery
 Table.ToRecords(

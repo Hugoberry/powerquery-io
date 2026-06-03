@@ -24,7 +24,7 @@ Verplaatst de kolomkoppen (de kolomnamen) omlaag naar de eerste rij met waarden.
 
 ## Examples
 
-### Example #1 
+### Example #1
 De eerste rij met waarden in de tabel omlaag verplaatsen.
 ```powerquery
 Table.DemoteHeaders(

@@ -19,12 +19,12 @@ Table.ColumnNames(
 
 ## Remarks
 
-Returnerar kolumnnamnen i tabellen <code>table</code> som en lista med text.
+Returnerar kolumnnamnen i tabellen `table` som en lista med text.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta kolumnnamnen för tabellen.
 ```powerquery
 Table.ColumnNames(

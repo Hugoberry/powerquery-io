@@ -19,13 +19,15 @@ Number.Abs(
 
 ## Remarks
 
-<code>number</code> öğesinin mutlak değerini döndürür. <code>number</code> null ise <code>Number.Abs</code> null döndürür.    <ul>        <li><code>number</code>: Mutlak değeri hesaplanacak olan <code>sayı</code>.</li>      </ul>
+`number` öğesinin mutlak değerini döndürür. `number` null ise `Number.Abs` null döndürür.
+
+-   `number`: Mutlak değeri hesaplanacak olan `sayı`.
 
 
 ## Examples
 
-### Example #1 
--3&#39;ün mutlak değeri.
+### Example #1
+\-3'ün mutlak değeri.
 ```powerquery
 Number.Abs(-3)
 ```

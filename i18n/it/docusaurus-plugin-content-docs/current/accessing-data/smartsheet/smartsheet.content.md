@@ -24,8 +24,8 @@ Effettua una chiamata all'API REST Smartsheet 2.0 all'endpoint specificato e tra
 
 ## Examples
 
-### Example #1 
-Esegue il pull di una tabella di informazioni sugli utenti dall&#39;API Smartsheet
+### Example #1
+Esegue il pull di una tabella di informazioni sugli utenti dall'API Smartsheet
 ```powerquery
 Smartsheet.Content("users")
 ```

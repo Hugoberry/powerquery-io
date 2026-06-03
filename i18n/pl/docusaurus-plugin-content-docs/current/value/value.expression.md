@@ -19,7 +19,7 @@ Value.Expression(
 
 ## Remarks
 
-Zwraca abstrakcyjne drzewo składni (AST) reprezentujące wyrażenie wartości
+Zwraca abstrakcyjne drzewo składni (AST) reprezentujące wyrażenie wartości.
 
 
 

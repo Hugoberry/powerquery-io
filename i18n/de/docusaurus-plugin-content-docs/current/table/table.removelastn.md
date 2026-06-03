@@ -20,12 +20,16 @@ Table.RemoveLastN(
 
 ## Remarks
 
-Gibt eine Tabelle zurück, in der die letzten <code>countOrCondition</code> Zeilen der Tabelle "<code>table</code>" nicht enthalten sind.        Wie viele Zeilen entfernt werden, hängt vom optionalen Parameter "<code>countOrCondition</code>" ab.    <ul>    <li> Ohne Angabe von "<code>countOrCondition</code>" wird lediglich die letzte Zeile entfernt. </li>    <li> Ist "<code>countOrCondition</code>" eine Zahl, wird die entsprechende Anzahl von Zeilen (beginnend von unten) entfernt. </li>    <li> Ist "<code>countOrCondition</code>" eine Bedingung, werden so lange Zeilen entfernt, die die Bedingung erfüllen, bis eine Zeile die Bedingung nicht erfüllt.</li>    </ul>
+Gibt eine Tabelle zurück, in der die letzten `countOrCondition` Zeilen der Tabelle "`table`" nicht enthalten sind. Wie viele Zeilen entfernt werden, hängt vom optionalen Parameter "`countOrCondition`" ab.
+
+-   Ohne Angabe von "`countOrCondition`" wird lediglich die letzte Zeile entfernt.
+-   Ist "`countOrCondition`" eine Zahl, wird die entsprechende Anzahl von Zeilen (beginnend von unten) entfernt.
+-   Ist "`countOrCondition`" eine Bedingung, werden so lange Zeilen entfernt, die die Bedingung erfüllen, bis eine Zeile die Bedingung nicht erfüllt.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Entfernt die letzte Zeile der Tabelle.
 ```powerquery
 Table.RemoveLastN(
@@ -49,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Entfernt die letzten Zeilen in der Tabelle, die die Bedingung &#39;[CustomerID] &gt; 2&#39; erfüllen.
+### Example #2
+Entfernt die letzten Zeilen in der Tabelle, die die Bedingung '\[CustomerID\] > 2' erfüllen.
 ```powerquery
 Table.RemoveLastN(
     Table.FromRecords({

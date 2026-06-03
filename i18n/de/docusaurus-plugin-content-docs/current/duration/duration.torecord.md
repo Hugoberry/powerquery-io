@@ -19,13 +19,15 @@ Duration.ToRecord(
 
 ## Remarks
 
-Gibt einen Datensatz mit den Teilen des duration-Werts "<code>duration</code>" zurück.  <ul>        <li><code>duration</code>: Ein <code>duration</code>-Wert, auf dessen Grundlage der Datensatz erstellt wird.</li>      </ul>
+Gibt einen Datensatz mit den Teilen des duration-Werts "`duration`" zurück.
+
+-   `duration`: Ein `duration`\-Wert, auf dessen Grundlage der Datensatz erstellt wird.
 
 
 ## Examples
 
-### Example #1 
-Konvertiert &lt;code&gt;#duration(2, 5, 55, 20)&lt;/code&gt; in einen Datensatz mit den zugehörigen Teilen (einschließlich Tage, Minuten und Sekunden, sofern zutreffend).
+### Example #1
+Konvertiert `#duration(2, 5, 55, 20)` in einen Datensatz mit seinen Bestandteilen, einschließlich Tage, Stunden, Minuten und Sekunden, sofern zutreffend.
 ```powerquery
 Duration.ToRecord(#duration(2, 5, 55, 20))
 ```

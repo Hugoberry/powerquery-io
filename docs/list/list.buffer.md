@@ -19,13 +19,13 @@ List.Buffer(
 
 ## Remarks
 
-Buffers the list <code>list</code> in memory. The result of this call is a stable list.
+Buffers the list `list` in memory. The result of this call is a stable list.
 
 
 ## Examples
 
-### Example #1 
-Create a stable copy of the list \{1..10}.
+### Example #1
+Create a stable copy of the list \{1..10\}.
 ```powerquery
 List.Buffer({1..10})
 ```

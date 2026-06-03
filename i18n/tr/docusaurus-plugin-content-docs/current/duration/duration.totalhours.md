@@ -19,12 +19,12 @@ Duration.TotalHours(
 
 ## Remarks
 
-<code>duration</code> değerine yayılan toplam saati döndürür.
+`duration` değerine yayılan toplam saati döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bir süre değerine yayılan toplam saati bulun.
 ```powerquery
 Duration.TotalHours(#duration(5, 4, 3, 2))

@@ -19,13 +19,15 @@ Date.DaysInMonth(
 
 ## Remarks
 
-Zwraca liczbę dni w miesiącu z wartości typu <code>date</code>, <code>datetime</code> lub <code>datetimezone</code> równej <code>dateTime</code>.  <ul>        <li><code>dateTime</code>: wartość typu <code>date</code>, <code>datetime</code> lub <code>datetimezone</code>, z której jest zwracana liczba dni w miesiącu.</li>      </ul>
+Zwraca liczbę dni w miesiącu z wartości typu `date`, `datetime` lub `datetimezone` równej `dateTime`.
+
+-   `dateTime`: wartość typu `date`, `datetime` lub `datetimezone`, z której jest zwracana liczba dni w miesiącu.
 
 
 ## Examples
 
-### Example #1 
-Liczba dni w miesiącu grudniu przedstawionym w postaci &lt;code&gt;#date(2011, 12, 01)&gt;&lt;/code&gt;.
+### Example #1
+Liczba dni w miesiącu grudniu przedstawionym w postaci `#date(2011, 12, 01)`.
 ```powerquery
 Date.DaysInMonth(#date(2011, 12, 01))
 ```

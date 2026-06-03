@@ -19,7 +19,7 @@ Number.Cosh(
 
 ## Remarks
 
-<code>number</code> का हाइपरबोलिक कोसिन लौटाता है.
+`number` का हाइपरबोलिक कोसिन लौटाता है.
 
 
 

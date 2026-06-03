@@ -26,7 +26,7 @@ Splitter.SplitTextByEachDelimiter(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Разделение входных данных по запятой, а затем по точке с запятой с начала входных данных.
 ```powerquery
 Splitter.SplitTextByEachDelimiter({",", ";"})("a,b;c,d")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Разделение входных данных по запятой, а затем по точке с запятой, обрабатывая кавычки как любые другие символы (начиная с конца входных данных).
 ```powerquery
 let

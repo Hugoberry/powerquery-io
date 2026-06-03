@@ -20,13 +20,13 @@ Text.Repeat(
 
 ## Remarks
 
-Trả về một giá trị văn bản bao gồm văn bản đầu vào <code>text</code> được lặp lại <code>count</code> lần.
+Trả về một giá trị văn bản bao gồm văn bản đầu vào `text` được lặp lại `count` lần.
 
 
 ## Examples
 
-### Example #1 
-Lặp lại văn bản &#34;a&#34; 5 lần.
+### Example #1
+Lặp lại văn bản "a" 5 lần.
 ```powerquery
 Text.Repeat("a", 5)
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Lặp lại văn bản &#34;helloworld&#34; 3 lần.
+### Example #2
+Lặp lại văn bản "helloworld" 3 lần.
 ```powerquery
 Text.Repeat("helloworld.", 3)
 ```

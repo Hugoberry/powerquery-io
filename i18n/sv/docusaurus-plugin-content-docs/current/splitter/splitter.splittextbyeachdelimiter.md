@@ -26,7 +26,7 @@ Returnerar en funktion som delar upp text i en lista med text vid varje angiven 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Dela indata med kommatecken och sedan semikolon, med början från början av indata.
 ```powerquery
 Splitter.SplitTextByEachDelimiter({",", ";"})("a,b;c,d")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Dela indata med kommatecken, sedan semikolon, behandla citattecken som andra tecken och börja från slutet av indata.
 ```powerquery
 let

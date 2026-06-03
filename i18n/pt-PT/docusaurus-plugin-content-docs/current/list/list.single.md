@@ -5,7 +5,7 @@ title: List.Single
 # List.Single
 
 
-Devolve o único item existente numa lista de comprimento um; caso contrário, emite uma exceção.
+Devolve o único item existente numa lista de comprimento um; caso contrário, gera um erro.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.Single(
 
 ## Remarks
 
-Se só existir um item na lista <code>list</code>, devolve esse item.    Se existir mais de um item ou se a lista estiver vazia, a função emite uma exceção.
+Se só existir um item na lista `list`, devolve esse item. Se existir mais de um item ou se a lista estiver vazia, a função gera um erro.
 
 
 ## Examples
 
-### Example #1 
-Determinar o valor único na lista \{1}.
+### Example #1
+Determinar o valor único na lista \{1\}.
 ```powerquery
 List.Single({1})
 ```
@@ -36,8 +36,8 @@ Result:
 ```
 
 
-### Example #2 
-Determinar o valor único na lista \{1, 2, 3}.
+### Example #2
+Determinar o valor único na lista \{1, 2, 3\}.
 ```powerquery
 List.Single({1, 2, 3})
 ```

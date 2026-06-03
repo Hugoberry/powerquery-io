@@ -27,7 +27,7 @@ Webtrends.ReportContents(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Webtrends विज़िटर्स रिपोर्ट समाप्ति बिंदु के लिए पिछले 30 दिनों के डेटा के लिए कॉल करता है
 ```powerquery
 Webtrends.ReportContents("98765", "xPcmTDDP0P6")

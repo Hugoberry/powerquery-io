@@ -19,13 +19,19 @@ Duration.From(
 
 ## Remarks
 
-从给定的 <code>value</code> 返回 <code>duration</code> 值。如果给定的 <code>value</code> 是 <code>null</code>，<code>Duration.From</code> 将返回 <code>null</code>。 如果给定的 <code>value</code> 是 <code>duration</code>，则返回 <code>value</code>。以下类型的值可以转换为 <code>duration</code> 值:      <ul>        <li><code>text</code>: 来自文本形式的占用时间格式(d.h:m:s)的 <code>duration</code> 值。有关详细信息，请参阅 <code>Duration.FromText</code>。</li>        <li><code>number</code>: 与由 <code>value</code> 表示的整数天数和不完整天数等效的 <code>duration</code>。</li>      </ul>如果 <code>value</code> 属于任何其他类型，则返回错误。
+返回给定值的持续时间值。
+
+-   `value`: 从中派生出持续时间的值。如果给定的 `value` 为 `null`，则此函数将返回 `null`。如果给定的 `value` 是 `duration`，则将返回 `value`。以下类型的值可转换为 `duration` 值:
+    -   `text`: 来自文本已用时间根式(d.h:m:s)的 `duration` 值。有关详细信息，请参阅 `Duration.FromText`。
+    -   `number`: `duration` 相当于由 `value` 表示的包含整数和小数的天数。
+
+如果 `value` 为任何其他类型，将会返回错误。
 
 
 ## Examples
 
-### Example #1 
-将 &lt;code&gt;2.525&lt;/code&gt; 转换为 &lt;code&gt;duration&lt;/code&gt; 值。
+### Example #1
+将 `2.525` 转换为 `duration` 值。
 ```powerquery
 Duration.From(2.525)
 ```
@@ -33,6 +39,18 @@ Duration.From(2.525)
 Result: 
 ```powerquery
 #duration(2, 12, 36, 0)
+```
+
+
+### Example #2
+将文本值 `"2.05:55:20.34567"` 转换为“`持续时长`”值。
+```powerquery
+Duration.From("2.05:55:20.34567")
+```
+
+Result: 
+```powerquery
+#duration(2, 5, 55, 20.3456700)
 ```
 
 

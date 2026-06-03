@@ -24,7 +24,7 @@ Trả về danh sách báo cáo và tháng có sẵn từ API Azure Enterprise
 
 ## Examples
 
-### Example #1 
+### Example #1
 Sử dụng hàm AzureEnterprise.Tables rồi điều hướng đến một giá trị cụ thể để có kết quả.
 ```powerquery
 cho phép

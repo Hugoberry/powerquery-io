@@ -20,13 +20,13 @@ Text.Combine(
 
 ## Remarks
 
-返回将文本值列表，<code>texts</code>，合并为单个文本值的结果。<code>texts</code> 中存在的任何 <code>null</code> 值将被忽略。    可以指定在最终组合文本中使用的可选 <code>separator</code>。
+返回将文本值列表，`texts`，合并为单个文本值的结果。`texts` 中存在的任何 `null` 值将被忽略。 可以指定在最终组合文本中使用的可选 `separator`。
 
 
 ## Examples
 
-### Example #1 
-组合文本值 &#34;Seattle&#34; 和 &#34;WA&#34;。
+### Example #1
+组合文本值 "Seattle" 和 "WA"。
 ```powerquery
 Text.Combine({"Seattle", "WA"})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-组合文本值 &#34;Seattle&#34; 和 &#34;WA&#34;，以逗号和空格分隔。
+### Example #2
+组合文本值 "Seattle" 和 "WA"，以逗号和空格分隔。
 ```powerquery
 Text.Combine({"Seattle", "WA"}, ", ")
 ```
@@ -49,8 +49,8 @@ Result:
 ```
 
 
-### Example #3 
-组合值 &#34;Seattle&#34;、&lt;code&gt;null&lt;/code&gt; 和 &#34;WA&#34;，用逗号和空格分隔。(请注意，忽略了&lt;code&gt;null&lt;/code&gt;。)
+### Example #3
+组合值 "Seattle"、`null` 和 "WA"，用逗号和空格分隔。(请注意，忽略了`null`。)
 ```powerquery
 Text.Combine({"Seattle", null, "WA"}, ", ")
 ```
@@ -58,6 +58,30 @@ Text.Combine({"Seattle", null, "WA"}, ", ")
 Result: 
 ```powerquery
 "Seattle, WA"
+```
+
+
+### Example #4
+将名字、中间名（如果有）和姓氏合并到个人的全名中。
+```powerquery
+let
+    Source = Table.FromRecords({
+        [First Name = "Doug", Middle Initial = "J", Last Name = "Elis"],
+        [First Name = "Anna", Middle Initial = "M", Last Name = "Jorayew"],
+        [First Name = "Rada", Middle Initial = null, Last Name = "Mihaylova"]
+    }),
+    FullName = Table.AddColumn(Source, "Full Name", each Text.Combine({[First Name], [Middle Initial], [Last Name]}, " "))
+in
+    FullName
+```
+
+Result: 
+```powerquery
+Table.FromRecords({
+    [First Name = "Doug", Middle Initial = "J", Last Name = "Elis", Full Name = "Doug J Elis"],
+    [First Name = "Anna", Middle Initial = "M", Last Name = "Jorayew", Full Name = "Anna M Jorayew"],
+    [First Name = "Rada", Middle Initial = null, Last Name = "Mihaylova", Full Name = "Rada Mihaylova"]
+})
 ```
 
 

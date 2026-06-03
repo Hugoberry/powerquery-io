@@ -20,13 +20,13 @@ Text.End(
 
 ## Remarks
 
-ส่งกลับค่า <code>text</code> ที่เป็นอักขระ <code>count</code> สุดท้ายของค่า <code>text</code> <code>text</code>
+ส่งกลับค่า `text` ที่เป็นอักขระ `count` สุดท้ายของค่า `text` `text`
 
 
 ## Examples
 
-### Example #1 
-รับ 5 อักขระล่าสุดของข้อความ &#34;Hello, World&#34;
+### Example #1
+รับ 5 อักขระล่าสุดของข้อความ "Hello, World"
 ```powerquery
 Text.End("Hello, World", 5)
 ```

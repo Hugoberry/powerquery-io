@@ -20,13 +20,13 @@ Table.MatchesAllRows(
 
 ## Remarks
 
-Wskazuje, czy wszystkie wiersze tabeli <code>table</code> spełniają dany warunek <code>condition</code>. Zwraca wartość <code>true</code>, jeśli wszystkie wiersze spełniają warunek; w przeciwnym razie zwraca wartość <code>false</code>.
+Wskazuje, czy wszystkie wiersze tabeli `table` spełniają dany warunek `condition`. Zwraca wartość `true`, jeśli wszystkie wiersze spełniają warunek; w przeciwnym razie zwraca wartość `false`.
 
 
 ## Examples
 
-### Example #1 
-Ustal, czy wszystkie wartości wierszy w kolumnie [a] tabeli są parzyste.
+### Example #1
+Ustal, czy wszystkie wartości wierszy w kolumnie \[a\] tabeli są parzyste.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ true
 ```
 
 
-### Example #2 
-Ustal, czy wszystkie wartości wierszy w tabeli &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; są równe [a = 1, b = 2].
+### Example #2
+Ustal, czy wszystkie wartości wierszy w tabeli `({[a = 1, b = 2], [a = 3, b = 4]})` są równe \[a = 1, b = 2\].
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({

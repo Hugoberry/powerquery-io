@@ -22,7 +22,17 @@ Value.NativeQuery(
 
 ## Remarks
 
-Utvärderar <code>query</code> mot <code>target</code> med de parametrar som angetts i <code>parameters</code> och som använder de alternativ som har angetts i <code>options</code>.<br />Frågans utdata definieras av <code>target</code>.<br /><code>target</code> tillhandahåller kontexten för den åtgärd som beskrivs av <code>query</code>.<br /><code>query</code>beskriver den fråga som ska köras mot <code>target</code>. <code>query</code> uttrycks på ett sätt som är specifikt för <code>target</code> (t.ex. en T-SQL-instruktion).<br />Det valfria <code>parameters</code>-värdet kan innehålla antingen en lista eller en post enligt vad som passar bäst för att tillhandahålla det parametervärde som förväntas av <code>query</code>.<br />Den valfria l <code>options</code>-posten kan innehålla alternativ som påverkar utvärderingsbeteendet för <code>query</code> mot <code>target</code>. Dessa alternativ är specifika för <code>target</code>.<br />
+Utvärderar `query` mot `target` med de parametrar som angetts i `parameters` och som använder de alternativ som har angetts i `options`.
+
+Frågans utdata definieras av `target`.
+
+`target` tillhandahåller kontexten för den åtgärd som beskrivs av `query`.
+
+`query`beskriver den fråga som ska köras mot `target`. `query` uttrycks på ett sätt som är specifikt för `target` (t.ex. en T-SQL-instruktion).
+
+Det valfria `parameters`\-värdet kan innehålla antingen en lista eller en post enligt vad som passar bäst för att tillhandahålla det parametervärde som förväntas av `query`.
+
+Den valfria l `options`\-posten kan innehålla alternativ som påverkar utvärderingsbeteendet för `query` mot `target`. Dessa alternativ är specifika för `target`.
 
 
 

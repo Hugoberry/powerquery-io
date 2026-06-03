@@ -5,7 +5,7 @@ title: Uri.Parts
 # Uri.Parts
 
 
-Retourne les parties de l&#39;URI absolu d&#39;entrée en tant qu&#39;enregistrement.
+Retourne les parties de l'URI absolu d'entrée en tant qu'enregistrement.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Uri.Parts(
 
 ## Remarks
 
-Retourne les parties de l'<code>absoluteUri</code> d'entrée comme un enregistrement contenant des valeurs telles que le schéma, l'hôte, le port, le chemin d'accès, la requête, le fragment, le nom d'utilisateur et le mot de passe.
+Retourne les parties de l'`absoluteUri` d'entrée comme un enregistrement contenant des valeurs telles que le schéma, l'hôte, le port, le chemin d'accès, la requête, le fragment, le nom d'utilisateur et le mot de passe.
 
 
 ## Examples
 
-### Example #1 
-Recherche les parties de l&#39;URI absolu &#34;www.adventure-works.com&#34;.
+### Example #1
+Recherche les parties de l'URI absolu « www.adventure-works.com ».
 ```powerquery
 Uri.Parts("www.adventure-works.com")
 ```
@@ -45,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Décodez une chaîne encodée en pourcentage.
 ```powerquery
 let

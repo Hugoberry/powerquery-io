@@ -19,13 +19,13 @@ Type.ClosedRecord(
 
 ## Remarks
 
-Verilen <code>record</code> <code>type</code> türünün kapalı bir sürümünü (veya zaten kapalıysa aynı) türü döndürür).
+Verilen `record` `type` türünün kapalı bir sürümünü (veya zaten kapalıysa aynı) türü döndürür).
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;type [ A = number]&lt;/code&gt; için kapalı bir sürüm oluşturun.
+### Example #1
+`type [ A = number,...]` için kapalı bir sürüm oluşturun.
 ```powerquery
 Type.ClosedRecord(type [A = number, ...])
 ```

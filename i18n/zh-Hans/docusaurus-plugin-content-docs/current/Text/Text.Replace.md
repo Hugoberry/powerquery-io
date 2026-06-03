@@ -21,13 +21,13 @@ Text.Replace(
 
 ## Remarks
 
-返回将文本值 <code>text</code> 中所有出现的文本值 <code>old</code> 替换为文本值 <code>new</code> 的结果。此函数区分大小写。
+返回将文本值 `text` 中所有出现的文本值 `old` 替换为文本值 `new` 的结果。此函数区分大小写。
 
 
 ## Examples
 
-### Example #1 
-将句子中出现的每个 &#34;the&#34; 替换为 &#34;a&#34;。
+### Example #1
+将句子中出现的每个 "the" 替换为 "a"。
 ```powerquery
 Text.Replace("the quick brown fox jumps over the lazy dog", "the", "a")
 ```

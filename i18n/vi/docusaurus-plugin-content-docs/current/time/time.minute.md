@@ -19,12 +19,12 @@ Time.Minute(
 
 ## Remarks
 
-Trả về cấu phần phút của giá trị <code>time</code>, <code>datetime</code> hoặc <code>datetimezone</code> được cung cấp, <code>dateTime</code>.
+Trả về cấu phần phút của giá trị `time`, `datetime` hoặc `datetimezone` được cung cấp, `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm phút trong #datetime(2011, 12, 31, 9, 15, 36).
 ```powerquery
 Time.Minute(#datetime(2011, 12, 31, 9, 15, 36))

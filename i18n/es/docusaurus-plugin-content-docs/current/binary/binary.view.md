@@ -20,12 +20,22 @@ Binary.View(
 
 ## Remarks
 
-Devuelve una vista de <code>binary</code> dónde se usan las funciones especificadas en <code>handlers</code> en lugar del comportamiento predeterminado de una operación cuando la operación se aplica a la vista.<br /> Si <code>binary</code> se proporciona, todas las funciones del controlador son opcionales. Si <code>binary</code> no se proporciona, se requiere la función de controlador <code>GetStream</code>. Si no se especifica una función de controlador para una operación, en su lugar se aplica el comportamiento predeterminado de la operación a <code>binary</code> (excepto en el caso de <code>GetExpression</code>).<br /> Las funciones de controlador deben devolver un valor que es semánticamente equivalente al resultado de aplicar la operación contra <code>binary</code> (o la vista resultante en el caso de <code>GetExpression</code>).<br /> Si una función de controlador genera un error, el comportamiento predeterminado de la operación se aplica a la vista.<br /><code>Binary.View</code> se puede usar para implementar el plegado a una fuente de datos: la traducción de consultas M en operaciones específicas de la fuente (por ejemplo, para descargar una sección de un archivo).<br />Consulte la documentación publicada del conector personalizado de Power Query para obtener una descripción más completa de <code>Binary.View</code>.<br />
+Devuelve una vista de `binary` dónde se usan las funciones especificadas en `handlers` en lugar del comportamiento predeterminado de una operación cuando la operación se aplica a la vista.
+
+Si `binary` se proporciona, todas las funciones del controlador son opcionales. Si `binary` no se proporciona, se requiere la función de controlador `GetStream`. Si no se especifica una función de controlador para una operación, en su lugar se aplica el comportamiento predeterminado de la operación a `binary` (excepto en el caso de `GetExpression`).
+
+Las funciones de controlador deben devolver un valor que es semánticamente equivalente al resultado de aplicar la operación contra `binary` (o la vista resultante en el caso de `GetExpression`).
+
+Si una función de controlador genera un error, el comportamiento predeterminado de la operación se aplica a la vista.
+
+`Binary.View` se puede usar para implementar el plegado a una fuente de datos: la traducción de consultas M en operaciones específicas de la fuente (por ejemplo, para descargar una sección de un archivo).
+
+Consulte la documentación publicada del conector personalizado de Power Query para obtener una descripción más completa de `Binary.View`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Cree una vista básica que no requiera tener acceso a los datos para determinar la longitud.
 ```powerquery
 Binary.View(

@@ -25,7 +25,7 @@ Zwraca funkcję łączącą listę wartości tekstowych w jedną wartość tekst
 
 ## Examples
 
-### Example #1 
+### Example #1
 Połącz listę wartości tekstowych przy użyciu określonych pozycji i długości danych wyjściowych.
 ```powerquery
 Combiner.CombineTextByRanges({{0, 1}, {3, 2}, {6, null}})({"abc", "def", "ghijkl"})

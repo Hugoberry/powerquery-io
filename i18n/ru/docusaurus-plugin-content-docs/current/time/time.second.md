@@ -19,12 +19,12 @@ Time.Second(
 
 ## Remarks
 
-Возвращает компонент секунд заданного значения <code>time</code>, <code>datetime</code> или <code>datetimezone</code>, <code>dateTime</code>.
+Возвращает компонент секунд заданного значения `time`, `datetime` или `datetimezone`, `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Поиск второго значения в значении даты и времени.
 ```powerquery
 Time.Second(#datetime(2011, 12, 31, 9, 15, 36.5))

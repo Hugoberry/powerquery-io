@@ -25,7 +25,7 @@ Thay thế các khóa của bảng được chỉ định.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Thay thế các khóa hiện có của bảng.
 ```powerquery
 let

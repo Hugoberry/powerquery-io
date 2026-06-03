@@ -20,13 +20,13 @@ List.Sum(
 
 ## Remarks
 
-Trả về tổng của các giá trị không rỗng trong danh sách <code>list</code>.  Trả về giá trị rỗng nếu không có giá trị nào trong danh sách là giá trị không rỗng.
+Trả về tổng của các giá trị không rỗng trong danh sách `list`. Trả về giá trị rỗng nếu không có giá trị nào trong danh sách là giá trị không rỗng.
 
 
 ## Examples
 
-### Example #1 
-Tìm tổng của các số trong danh sách &lt;code&gt;\{1, 2, 3}&lt;/code&gt;.
+### Example #1
+Tìm tổng của các số trong danh sách `{1, 2, 3}`.
 ```powerquery
 List.Sum({1, 2, 3})
 ```

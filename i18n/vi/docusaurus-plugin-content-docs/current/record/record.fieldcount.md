@@ -19,12 +19,12 @@ Record.FieldCount(
 
 ## Remarks
 
-Trả về số lượng trường trong bản ghi <code>record</code>.
+Trả về số lượng trường trong bản ghi `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm số lượng trường trong bản ghi.
 ```powerquery
 Record.FieldCount([CustomerID = 1, Name = "Bob"])

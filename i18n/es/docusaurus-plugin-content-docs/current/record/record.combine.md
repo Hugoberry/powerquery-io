@@ -19,12 +19,12 @@ Record.Combine(
 
 ## Remarks
 
-Combina los registros en la <code>records</code> dada. Si <code>records</code> contiene valores que no sean registros, se devuelve un error.
+Combina los registros en la `records` dada. Si `records` contiene valores que no sean registros, se devuelve un error.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Crea un registro combinado a partir de los registros.
 ```powerquery
 Record.Combine({

@@ -22,7 +22,10 @@ Table.CombineColumnsToRecord(
 
 ## Remarks
 
-Łączy określone kolumny <code>table</code> w nową kolumnę o nazwie <code>newColumnName</code> zawierającą wartości w postaci rekordów, przy czym każdy rekord ma nazwy i wartości pól odpowiadające nazwom i wartościom kolumn, które zostały połączone. W przypadku określenia rekordu dla elementu <code>options</code> można podać następujące opcje:    <ul>     <li> <code>DisplayNameColumn</code>: jeśli zostanie podana wartość w postaci tekstu, wskazuje, że dana nazwa kolumny ma być traktowana jako nazwa wyświetlana rekordu. Nie musi to być jedna z kolumn w rekordzie.</li>     <li> <code>TypeName</code>: jeśli zostanie podana wartość w postaci tekstu, określa nazwę typu logicznego dla wynikowego rekordu, której można używać podczas ładowania danych do sterowania zachowaniem środowiska ładowania.</li>    </ul>    
+Łączy określone kolumny `table` w nową kolumnę o nazwie `newColumnName` zawierającą wartości w postaci rekordów, przy czym każdy rekord ma nazwy i wartości pól odpowiadające nazwom i wartościom kolumn, które zostały połączone. W przypadku określenia rekordu dla elementu `options` można podać następujące opcje:
+
+-   `DisplayNameColumn`: jeśli zostanie podana wartość w postaci tekstu, wskazuje, że dana nazwa kolumny ma być traktowana jako nazwa wyświetlana rekordu. Nie musi to być jedna z kolumn w rekordzie.
+-   `TypeName`: jeśli zostanie podana wartość w postaci tekstu, określa nazwę typu logicznego dla wynikowego rekordu, której można używać podczas ładowania danych do sterowania zachowaniem środowiska ładowania.
 
 
 

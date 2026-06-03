@@ -19,13 +19,13 @@ Text.ToList(
 
 ## Remarks
 
-<code>text</code> verilen metin değerinden bir karakter değerleri listesi döndürür.
+`text` verilen metin değerinden bir karakter değerleri listesi döndürür.
 
 
 ## Examples
 
-### Example #1 
-&#34;Hello World&#34; metninden bir karakter değerleri listesi oluşturur.
+### Example #1
+"Hello World" metninden bir karakter değerleri listesi oluşturur.
 ```powerquery
 Text.ToList("Hello World")
 ```

@@ -21,13 +21,17 @@ Table.SelectColumns(
 
 ## Remarks
 
-Возвращает <code>table</code> только с указанными <code>columns</code>.    <ul>       <li><code>table</code>: предоставленная таблица.</li>       <li><code>columns</code>: список столбцов из таблицы <code>table</code>, которые должны быть возвращены. Столбцы в возвращаемой таблице содержатся в порядке, указанном параметром <code>columns</code>.</li>       <li><code>missingField</code>: <i>(необязательно)</i> что делать, если столбец не существует.  Пример: <code>MissingField.UseNull</code> или <code>MissingField.Ignore</code>.    </li></ul>
+Возвращает `table` только с указанными `columns`.
+
+-   `table`: предоставленная таблица.
+-   `columns`: список столбцов из таблицы `table` для возврата. Столбцы в возвращаемой таблице содержатся в порядке, указанном параметром `columns`.
+-   `missingField`: *(необязательно)* что делать, если столбец не существует. Пример: `MissingField.UseNull` или `MissingField.Ignore`.
 
 
 ## Examples
 
-### Example #1 
-Включить только столбец [Name].
+### Example #1
+Включить только столбец \[Name\].
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({
@@ -51,8 +55,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Включить только столбцы [CustomerID] и [Name].
+### Example #2
+Включить только столбцы \[CustomerID\] и \[Name\].
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -66,7 +70,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #3 
+### Example #3
 Если включенный столбец не существует, результат по умолчанию будет ошибкой.
 ```powerquery
 Table.SelectColumns(
@@ -81,8 +85,8 @@ Result:
 ```
 
 
-### Example #4 
-Если включенный столбец не существует, параметр &lt;code&gt;MissingField.UseNull&lt;/code&gt; создаст столбец с значениями NULL.
+### Example #4
+Если включенный столбец не существует, параметр `MissingField.UseNull` создаст столбец с значениями NULL.
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

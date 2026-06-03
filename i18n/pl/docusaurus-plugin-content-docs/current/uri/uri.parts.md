@@ -19,12 +19,12 @@ Uri.Parts(
 
 ## Remarks
 
-Zwraca części wejściowego identyfikatora <code>absoluteUri</code> jako rekord zawierający wartości, takie jak Scheme, Host, Port, Path, Query, Fragment, UserName i Password.
+Zwraca części wejściowego identyfikatora `absoluteUri` jako rekord zawierający wartości, takie jak Scheme, Host, Port, Path, Query, Fragment, UserName i Password.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź części bezwzględnego identyfikatora URI „www.adventure-works.com”.
 ```powerquery
 Uri.Parts("www.adventure-works.com")
@@ -45,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Zdekoduj ciąg zakodowany przy użyciu znaków procentu.
 ```powerquery
 let

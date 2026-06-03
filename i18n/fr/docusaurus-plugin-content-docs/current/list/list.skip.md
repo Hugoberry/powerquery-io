@@ -5,7 +5,7 @@ title: List.Skip
 # List.Skip
 
 
-Retourne une liste qui ignore le nombre spécifié d&#39;éléments au début de la liste.
+Retourne une liste qui ignore le nombre spécifié d'éléments au début de la liste.
 
 
 ## Syntax
@@ -20,13 +20,17 @@ List.Skip(
 
 ## Remarks
 
-Retourne une liste qui ignore le premier élément de la liste <code>list</code>. Si <code>list</code> est une liste vide, une liste vide est retournée.Cette option utilise un paramètre facultatif, <code>countOrCondition</code>, pour prendre en charge le saut de plusieurs valeurs telles que répertorié ci-dessous. <ul> <li>Si un nombre est spécifié, autant d'éléments sont ignorés. </li> <li>Si une condition est spécifiée, la liste retournée commence par le premier élément dans <code>list</code> qui remplit le critère. Quand un élément ne remplit pas la condition, aucun autre élément n'est pris en compte. </li> <li>Si ce paramètre a la valeur null, le comportement par défaut est observé. </li> </ul>
+Retourne une liste qui ignore le premier élément de la liste `list`. Si `list` est une liste vide, une liste vide est retournée. Cette fonction prend un paramètre facultatif, `countOrCondition`, pour prendre en charge l’exclusion de plusieurs valeurs, comme indiqué ci-dessous.
+
+-   Si un nombre est spécifié, un nombre inférieur ou égal d’éléments est ignoré.
+-   Si une condition est spécifiée, tous les éléments correspondants consécutifs au début de `list` sont ignorés.
+-   Si ce paramètre est nul, le comportement par défaut est observé.
 
 
 ## Examples
 
-### Example #1 
-Crée une liste à partir de \{1, 2, 3, 4, 5} sans les 3 premiers nombres.
+### Example #1
+Crée une liste à partir de \{1, 2, 3, 4, 5\} sans les 3 premiers nombres.
 ```powerquery
 List.Skip({1, 2, 3, 4, 5}, 3)
 ```
@@ -37,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-Crée une liste à partir de \{5, 4, 2, 6, 1} qui démarre par un nombre inférieur à 3.
+### Example #2
+Crée une liste à partir de \{5, 4, 2, 6, 1\} qui démarre par un nombre inférieur à 3.
 ```powerquery
 List.Skip({5, 4, 2, 6, 1}, each _ > 3)
 ```

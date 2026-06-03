@@ -21,12 +21,12 @@ Stripe.Method(
 
 ## Remarks
 
-https://api.stripe.com/v1/<code>method</code> の Stripe API に対して呼び出しを行います。追加のパラメーターとして渡されるオプションのレコード <code>additionalParameters</code> と、予測される列名のリスト <code>ColumnNames</code> を指定します。Stripe バージョン 2015-10-16 が使用されます。
+https://api.stripe.com/v1/`method` の Stripe API に対して呼び出しを行います。追加のパラメーターとして渡されるオプションのレコード `additionalParameters` と、予測される列名のリスト `ColumnNames` を指定します。Stripe バージョン 2015-10-16 が使用されます。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 2015 年 11 月 1 日より後に作成されたイベントを含めたテーブルを返します
 ```powerquery
 Stripe.Method("events", [#"created[gte]"=1446374329], {"id", "livemode", "created", "type", "data", "object", "pending_webhooks", "request", "api_version"})
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 すべての SKU を含めたテーブルを返します
 ```powerquery
 Stripe.Method("skus", [], {"id", "created", "updated", "object", "livemode", "product", "image", "active", "price", "currency", "inventory", "attributes", "metadata", "package_dimensions"})

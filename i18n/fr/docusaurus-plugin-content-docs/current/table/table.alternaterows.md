@@ -22,12 +22,17 @@ Table.AlternateRows(
 
 ## Remarks
 
-Conserve le décalage initial puis accepte et ignore de façon alternée les lignes suivantes.    <ul>       <li><code>table</code> : table d'entrée.</li>       <li><code>offset</code> : nombre de lignes à conserver avant de démarrer les itérations.</li>       <li><code>skip</code> : nombre de lignes à supprimer dans chaque itération.</li>       <li><code>take</code> : nombre de lignes à conserver dans chaque itération.</li>    </ul>    
+Conserve le décalage initial puis accepte et ignore de façon alternée les lignes suivantes.
+
+-   `table` : table d'entrée.
+-   `offset` : nombre de lignes à conserver avant de démarrer les itérations.
+-   `skip` : nombre de lignes à supprimer dans chaque itération.
+-   `take` : nombre de lignes à conserver dans chaque itération.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Crée une table à partir de la table qui, en commençant par la première ligne, ignore 1 valeur, puis conserve 1 valeur.
 ```powerquery
 Table.AlternateRows(

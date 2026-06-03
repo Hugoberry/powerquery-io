@@ -20,12 +20,15 @@ Date.IsInPreviousNMonths(
 
 ## Remarks
 
-Indica si el valor datetime <code>dateTime</code> proporcionado se produce durante el número anterior de meses, como se determina por la hora y fecha actual del sistema. Tenga en cuenta que esta función devolverá un valor "false" al pasar un valor que se produzca en el mes actual.      <ul>      <li><code>dateTime</code>: valor <code>date</code>, <code>datetime</code> o <code>datetimezone</code> para evaluar.</li>      <li><code>months</code>: número de meses.</li>      </ul>
+Indica si el valor datetime `dateTime` proporcionado se produce durante el número anterior de meses, como se determina por la hora y fecha actual del sistema. Tenga en cuenta que esta función devolverá un valor "false" al pasar un valor que se produzca en el mes actual.
+
+-   `dateTime`: valor `date`, `datetime` o `datetimezone` para evaluar.
+-   `months`: número de meses.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determine si el mes anterior a la hora del sistema actual se encuentra dentro de los dos meses anteriores.
 ```powerquery
 Date.IsInPreviousNMonths(Date.AddMonths(DateTime.FixedLocalNow(), -1), 2)

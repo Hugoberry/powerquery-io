@@ -24,7 +24,7 @@ UTC (GMT タイム ゾーン) での現在の日付と時刻を返します。
 
 ## Examples
 
-### Example #1 
+### Example #1
 現在の日付と時刻を UTC で取得します。
 ```powerquery
 DateTimeZone.UtcNow()

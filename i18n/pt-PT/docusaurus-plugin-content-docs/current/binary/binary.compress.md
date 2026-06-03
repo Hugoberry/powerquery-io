@@ -20,12 +20,15 @@ Binary.Compress(
 
 ## Remarks
 
-Comprime um valor binário utilizando o tipo de compressão especificado. Esta chamada resulta numa cópia comprimida da informação. Os tipos de compressão incluem:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
+Comprime um valor binário utilizando o tipo de compressão especificado. Esta chamada resulta numa cópia comprimida da informação. Os tipos de compressão incluem:
+
+-   `Compression.GZip`
+-   `Compression.Deflate`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Comprime o valor binário.
 ```powerquery
 Binary.Compress(Binary.FromList(List.Repeat({10}, 1000)), Compression.Deflate)

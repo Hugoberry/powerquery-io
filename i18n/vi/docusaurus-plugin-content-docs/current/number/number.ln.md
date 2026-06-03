@@ -19,12 +19,12 @@ Number.Ln(
 
 ## Remarks
 
-Trả về giá trị logarit tự nhiên của số, <code>number</code>. Nếu <code>number</code> lànull <code>Number.Ln</code> trả lại null.
+Trả về giá trị logarit tự nhiên của số, `number`. Nếu `number` lànull `Number.Ln` trả lại null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Nhận logarit tự nhiên của 15.
 ```powerquery
 Number.Ln(15)

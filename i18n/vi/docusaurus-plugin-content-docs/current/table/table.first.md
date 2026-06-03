@@ -20,12 +20,12 @@ Table.First(
 
 ## Remarks
 
-Trả về hàng đầu tiên của <code>table</code> hoặc giá trị mặc định tùy chọn <code>default</code> nếu bảng trống.
+Trả về hàng đầu tiên của `table` hoặc giá trị mặc định tùy chọn `default` nếu bảng trống.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm hàng đầu tiên của bảng.
 ```powerquery
 Table.First(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-Tìm hàng đầu tiên của bảng &lt;code&gt;(\{})&lt;/code&gt; hoặc trả về [a = 0, b = 0] nếu trống.
+### Example #2
+Tìm hàng đầu tiên của bảng `({})` hoặc trả về \[a = 0, b = 0\] nếu trống.
 ```powerquery
 Table.First(Table.FromRecords({}), [a = 0, b = 0])
 ```

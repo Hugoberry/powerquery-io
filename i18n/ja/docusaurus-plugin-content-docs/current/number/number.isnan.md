@@ -19,12 +19,12 @@ Number.IsNaN(
 
 ## Remarks
 
-値が NaN (非数) かどうかを示します。<code>number</code> が <code>Number.IsNaN</code> と等しい場合は <code>true</code> を返し、それ以外の場合は <code>false</code> を返します。
+値が NaN (数字ではない) かどうかを示します。`number` が `Number.NaN` と等しい場合は `true` を返し、それ以外の場合は `false` を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 0 の 0 による除算が NaN であるかどうかを調べます。
 ```powerquery
 Number.IsNaN(0/0)
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 1 の 0 による除算が NaN であるかどうかを調べます。
 ```powerquery
 Number.IsNaN(1/0)

@@ -13,7 +13,8 @@ title: Splitter.SplitTextByDelimiter
 ```powerquery
 Splitter.SplitTextByDelimiter(
     delimiter as text,
-    optional quoteStyle as QuoteStyle.Type
+    optional quoteStyle as QuoteStyle.Type,
+    optional csvStyle as CsvStyle.Type
 ) as function
 ```
 
@@ -25,7 +26,7 @@ Splitter.SplitTextByDelimiter(
 
 ## Examples
 
-### Example #1 
+### Example #1
 引用符で囲まれたコンマは無視しながら、コンマで入力を分割します。
 ```powerquery
 Splitter.SplitTextByDelimiter(",", QuoteStyle.Csv)("a,""b,c"",d")

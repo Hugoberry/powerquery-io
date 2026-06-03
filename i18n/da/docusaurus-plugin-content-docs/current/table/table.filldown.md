@@ -20,13 +20,13 @@ Table.FillDown(
 
 ## Remarks
 
-Returnerer en tabel fra den angivne <code>table</code>, hvor værdien af en tidligere celle overføres til cellerne med null-værdier nedenfor i den angivne <code>columns</code>.
+Returnerer en tabel fra den angivne `table`, hvor værdien af en tidligere celle overføres til cellerne med null-værdier nedenfor i den angivne `columns`.
 
 
 ## Examples
 
-### Example #1 
-Returner en tabel med null-værdier i kolonnen [Place] udfyldt med værdien oven over dem fra tabellen.
+### Example #1
+Returner en tabel med null-værdier i kolonnen \[Place\] udfyldt med værdien oven over dem fra tabellen.
 ```powerquery
 Table.FillDown(
     Table.FromRecords({

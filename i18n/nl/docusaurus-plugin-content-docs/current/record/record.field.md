@@ -20,12 +20,12 @@ Record.Field(
 
 ## Remarks
 
-Retourneert de waarde uit het opgegeven <code>field</code> in de <code>record</code>. Als het veld niet wordt gevonden, wordt er een uitzondering gegenereerd.
+Retourneert de waarde uit het opgegeven `field` in de `record`. Er wordt een fout gegenereerd als het veld niet wordt gevonden.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De waarde van veld CustomerID in de record zoeken.
 ```powerquery
 Record.Field([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")

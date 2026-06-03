@@ -20,13 +20,13 @@ Text.Select(
 
 ## Remarks
 
-Retorna uma cópia do valor de texto <code>text</code> com todos os caracteres que não estão na <code>selectChars</code> removida.  
+Retorna uma cópia do valor de texto `text` com todos os caracteres que não estão na `selectChars` removida.
 
 
 ## Examples
 
-### Example #1 
-Selecione todos os caracteres no intervalo de &#39;a&#39; a &#39;z&#39; no valor de texto.
+### Example #1
+Selecione todos os caracteres no intervalo de 'a' a 'z' no valor de texto.
 ```powerquery
 Text.Select("a,b;c", {"a".."z"})
 ```

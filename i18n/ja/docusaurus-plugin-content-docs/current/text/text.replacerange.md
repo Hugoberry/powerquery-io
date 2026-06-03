@@ -22,13 +22,13 @@ Text.ReplaceRange(
 
 ## Remarks
 
-テキスト値 <code>text</code> の位置 <code>offset</code> から <code>count</code> 文字削除し、<code>text</code> の同じ位置にテキスト値 <code>newText</code> を挿入した結果を返します。
+テキスト値 `text` の位置 `offset` から `count` 文字削除し、`text` の同じ位置にテキスト値 `newText` を挿入した結果を返します。
 
 
 ## Examples
 
-### Example #1 
-テキスト値 &#34;ABGF&#34; の位置 2 の 1 文字を新しいテキスト値 &#34;CDE&#34; に置き換えます。
+### Example #1
+テキスト値 "ABGF" の位置 2 の 1 文字を新しいテキスト値 "CDE" に置き換えます。
 ```powerquery
 Text.ReplaceRange("ABGF", 2, 1, "CDE")
 ```

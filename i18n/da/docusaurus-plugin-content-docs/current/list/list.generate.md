@@ -22,12 +22,12 @@ List.Generate(
 
 ## Remarks
 
-Opretter en liste over værdier ved hjælp af de angivne funktioner. Funktionen <code>initial</code> genererer en start kandidatværdi, som derefter testes mod <code>condition</code>.    Hvis kandidatværdien godkendes, returneres den som en del af resultatlisten, og den næste kandidatværdi genereres ved at overføre den nyligt godkendte værdi til <code>next</code>.    Når en kandidatværdi ikke matcher <code>condition</code>, stopper oprettelsesprocessen for listen.    Der kan også angives en valgfri parameter, <code>selector</code>, for at transformere elementerne på resultatlisten.
+Opretter en liste over værdier ved hjælp af de angivne funktioner. Funktionen `initial` genererer en start kandidatværdi, som derefter testes mod `condition`. Hvis kandidatværdien godkendes, returneres den som en del af resultatlisten, og den næste kandidatværdi genereres ved at overføre den nyligt godkendte værdi til `next`. Når en kandidatværdi ikke matcher `condition`, stopper oprettelsesprocessen for listen. Der kan også angives en valgfri parameter, `selector`, for at transformere elementerne på resultatlisten.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Opret en liste ved at starte ved ti og gentagne gange trække én fra og sikre, at hvert element er større end nul.
 ```powerquery
 List.Generate(() => 10, each _ > 0, each _ - 1)
@@ -39,7 +39,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Opret en liste over poster, der indeholder x og y, hvor x er en værdi, og y er en liste. x skal være mindre end 10 og repræsentere antallet af elementer på liste y. Når listen er oprettet, skal der kun returneres x-værdier.
 ```powerquery
 List.Generate(

@@ -23,13 +23,13 @@ Text.BetweenDelimiters(
 
 ## Remarks
 
-Belirtilen <code>startDelimiter</code> ile <code>endDelimiter</code> değeri arasındaki <code>text</code> bölümünü döndürür.    İsteğe bağlı bir sayısal <code>startIndex</code> hangi <code>startDelimiter</code> oluşumunun hesaba katılması gerektiğini belirtir.    İsteğe bağlı bir liste <code>startIndex</code> hangi <code>startDelimiter</code> oluşumunun hesaba katılması gerektiğini ve dizin oluşturmanın girişin başından mı sonundan mı başlaması gerektiğini belirtir.    <code>endIndex</code> buna benzer, ancak dizin oluşturma <code>startIndex</code> değeriyle göreli olarak yapılır.
+Belirtilen `startDelimiter` ile `endDelimiter` değeri arasındaki `text` bölümünü döndürür. İsteğe bağlı bir sayısal `startIndex` hangi `startDelimiter` oluşumunun hesaba katılması gerektiğini belirtir. İsteğe bağlı bir liste `startIndex` hangi `startDelimiter` oluşumunun hesaba katılması gerektiğini ve dizin oluşturmanın girişin başından mı sonundan mı başlaması gerektiğini belirtir. `endIndex` buna benzer, ancak dizin oluşturma `startIndex` değeriyle göreli olarak yapılır.
 
 
 ## Examples
 
-### Example #1 
-İlk açık parantez ve takip eden ilk kapalı parantez arasındaki &#34;111 (222) 333 (444)&#34; bölümünü alır.
+### Example #1
+İlk açık parantez ve takip eden ilk kapalı parantez arasındaki "111 (222) 333 (444)" bölümünü alır.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")")
 ```
@@ -40,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-İkinci açık parantez ve takip eden ilk kapalı parantez arasındaki &#34;111 (222) 333 (444)&#34; bölümünü alır.
+### Example #2
+İkinci açık parantez ve takip eden ilk kapalı parantez arasındaki "111 (222) 333 (444)" bölümünü alır.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")", 1, 0)
 ```
@@ -52,8 +52,8 @@ Result:
 ```
 
 
-### Example #3 
-Sondan ikinci açık parantez ve takip eden ikinci kapalı parantez arasındaki &#34;111 (222) 333 (444)&#34; bölümünü alır.
+### Example #3
+Sondan ikinci açık parantez ve takip eden ikinci kapalı parantez arasındaki "111 (222) 333 (444)" bölümünü alır.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")", {1, RelativePosition.FromEnd}, {1, RelativePosition.FromStart})
 ```

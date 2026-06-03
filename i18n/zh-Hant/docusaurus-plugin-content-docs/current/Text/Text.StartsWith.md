@@ -21,13 +21,25 @@ Text.StartsWith(
 
 ## Remarks
 
-若文字值 <code>text</code> 的開頭為文字值 <code>substring</code>，則傳回 true。      <ul>        <li><code>text</code>: <i></i> 要搜尋的 <code>text</code> 值</li>        <li><code>substring</code>: <i></i> 要在 <code>substring</code> 中搜尋其子字串的 <code>text</code> 值</li>        <li><code>comparer</code>: <i>[選擇性]</i> <code>Comparer</code>，用於控制比較。例如，<code>Comparer.OrdinalIgnoreCase</code> 可用來執行不區分大小寫的搜尋</li>      </ul>      <div>        <code>comparer</code> 是 <code>Comparer</code>，可用來控制比較。比較子可用來提供不區分大小寫的比較或文化特性感知與地區設定的比較。      </div>      <div>        公式語言中提供下列內建比較子:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: 用來執行精確序數比較</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: 用來執行不區分大小寫的精確序數比較</li>        <li> <code>Comparer.FromCulture</code>: 用來執行文化特性感知的比較</li>      </ul>
+如果文字值 `text` 開頭為 `substring`，則會傳回 True。
+
+-   `text`: 一個會被搜尋的 `text` 值。
+-   `substring`: 一個 `text` 值，是要在 `text` 中被搜尋的子字符。
+-   `comparer`: *(選用)* 一個會用於控制比較的 `Comparer`。例如，可能會使用 `Comparer.OrdinalIgnoreCase` 來執行不區分大小寫的搜尋。
+
+`comparer` 是一個 `Comparer` ，會用來控制比較。比較子可用來提供不區分大小寫或文化特性與地區設定感知的比較。
+
+公式語言中提供下列內建比較子:
+
+-   `Comparer.Ordinal`: 用來執行區確切的序數比較。
+-   `Comparer.OrdinalIgnoreCase`: 用來執行不區分大小寫確切的序數比較。
+-   `Comparer.FromCulture`: 用來執行文化特性感知的比較。
 
 
 ## Examples
 
-### Example #1 
-檢查文字 &#34;Hello, World&#34; 是否以文字 &#34;hello&#34; 為開頭。
+### Example #1
+檢查文字 "Hello, World" 是否以文字 "hello" 為開頭。
 ```powerquery
 Text.StartsWith("Hello, World", "hello")
 ```
@@ -38,10 +50,22 @@ false
 ```
 
 
-### Example #2 
-檢查文字 &#34;Hello, World&#34; 是否以文字 &#34;Hello&#34; 為開頭。
+### Example #2
+檢查文字 "Hello, World" 是否以文字 "Hello" 為開頭。
 ```powerquery
 Text.StartsWith("Hello, World", "Hello")
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+### Example #3
+忽略大小寫，檢查文字「Hello, World」是否以文字「hello」為開頭。
+```powerquery
+Text.StartsWith("Hello, World", "hello", Comparer.OrdinalIgnoreCase)
 ```
 
 Result: 

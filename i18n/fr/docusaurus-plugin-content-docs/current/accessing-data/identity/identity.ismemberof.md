@@ -5,7 +5,7 @@ title: Identity.IsMemberOf
 # Identity.IsMemberOf
 
 
-Détermine si une identité est membre d&#39;une collection d&#39;identités.
+Détermine si une identité est membre d'une collection d'identités.
 
 
 ## Syntax

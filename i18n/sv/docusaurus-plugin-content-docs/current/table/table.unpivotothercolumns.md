@@ -27,7 +27,7 @@ Omvandlar alla kolumner utom en angiven uppsättning till attribut-värde-par, s
 
 ## Examples
 
-### Example #1 
+### Example #1
 Omvandlar alla kolumner utom en angiven uppsättning till attribut-värde-par, som kombineras med resten av värdena på varje rad.
 ```powerquery
 Table.UnpivotOtherColumns(

@@ -5,7 +5,7 @@ title: Function.Invoke
 # Function.Invoke
 
 
-Invoca la función dada
+Invoca la función especificada.
 
 
 ## Syntax
@@ -25,8 +25,8 @@ Invoca la función especificada con la lista especificada de argumentos y devuel
 
 ## Examples
 
-### Example #1 
-Invoca Record.FieldNames con un argumento [A=1, B=2]
+### Example #1
+Invoca Record.FieldNames con un argumento \[A=1,B=2\].
 ```powerquery
 Function.Invoke(Record.FieldNames, {[A = 1, B = 2]})
 ```

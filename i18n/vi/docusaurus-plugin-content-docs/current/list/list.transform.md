@@ -20,13 +20,13 @@ List.Transform(
 
 ## Remarks
 
-Trả về một danh sách giá trị mới bằng cách áp dụng hàm chuyển đổi <code>transform</code> cho danh sách <code>list</code>.
+Trả về một danh sách giá trị mới bằng cách áp dụng hàm chuyển đổi `transform` cho danh sách `list`.
 
 
 ## Examples
 
-### Example #1 
-Thêm 1 vào từng giá trị trong danh sách \{1, 2}.
+### Example #1
+Thêm 1 vào từng giá trị trong danh sách \{1, 2\}.
 ```powerquery
 List.Transform({1, 2}, each _ + 1)
 ```

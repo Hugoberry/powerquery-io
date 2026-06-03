@@ -5,7 +5,7 @@ title: Webtrends.ReportContents
 # Webtrends.ReportContents
 
 
-Webtrends&#39;e ilişkin rapor içeriğinin yer aldığı bir tablo döndürür.
+Webtrends'e ilişkin rapor içeriğinin yer aldığı bir tablo döndürür.
 
 
 ## Syntax
@@ -27,7 +27,7 @@ Belirlenen Webtrends raporlama uç noktasına çağrıda bulunur ve tüm veriler
 
 ## Examples
 
-### Example #1 
+### Example #1
 Son 30 güne ilişkin veriler için Webtrends ziyaretçi raporu uç noktasına çağrıda bulunur
 ```powerquery
 Webtrends.ReportContents("98765", "xPcmTDDP0P6")

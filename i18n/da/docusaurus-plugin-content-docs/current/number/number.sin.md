@@ -19,12 +19,12 @@ Number.Sin(
 
 ## Remarks
 
-Returnerer sinus til <code>number</code>.
+Returnerer sinus til `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find sinus af vinklen 0.
 ```powerquery
 Number.Sin(0)

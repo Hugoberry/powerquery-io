@@ -20,13 +20,13 @@ Table.HasColumns(
 
 ## Remarks
 
-Indica se a <code>table</code> contém as colunas especificadas, <code>columns</code>. Retorna <code>true</code> se a tabela contiver as colunas; do contrário, <code>false</code> será retornado.
+Indica se a `table` contém as colunas especificadas, `columns`. Retorna `true` se a tabela contiver as colunas; do contrário, `false` será retornado.
 
 
 ## Examples
 
-### Example #1 
-Determinar se a tabela tem a coluna [Name].
+### Example #1
+Determinar se a tabela tem a coluna \[Name\].
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({
@@ -45,8 +45,8 @@ true
 ```
 
 
-### Example #2 
-Localizar se a tabela tem as colunas [Name] e [PhoneNumber].
+### Example #2
+Localizar se a tabela tem as colunas \[Name\] e \[PhoneNumber\].
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({

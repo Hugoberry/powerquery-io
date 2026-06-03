@@ -19,12 +19,12 @@ Table.ApproximateRowCount(
 
 ## Remarks
 
-Retorna o número aproximado de linhas no <code>table</code>ou um erro se a fonte de dados não dá suporte à aproximação.
+Retorna o número aproximado de linhas no `table`ou um erro se a fonte de dados não dá suporte à aproximação.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Estime o número de combinações distintas de cidade e estado em uma tabela grande, que pode ser usada como uma estimativa de cardinalidade para as colunas. Estimativas de cardinalidade são importantes o suficiente para que várias fontes de dados (como SQL Server) dão suporte a essa aproximação específica, geralmente usando um algoritmo chamado HyperLogLog.
 ```powerquery
 Table.ApproximateRowCount(Table.Distinct(Table.SelectColumns(sqlTable, {"city", "state"})))

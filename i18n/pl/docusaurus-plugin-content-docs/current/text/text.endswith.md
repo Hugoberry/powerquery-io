@@ -21,12 +21,20 @@ Text.EndsWith(
 
 ## Remarks
 
-Wskazuje, czy dany tekst, <code>text</code>, kończy się określoną wartością, <code>substring</code>. We wskazaniu jest uwzględniana wielkość liter.<div>        <code>comparer</code> to <code>Comparer</code> funkcja porównująca używana do sterowania porównywaniem. Funkcje porównujące mogą być używane do przeprowadzania porównania nie wymagającego rozróżniania wielkości liter, uwzględniającego uwarunkowania kulturowe lub lokalne.</div><div>W języku formuły są dostępne następujące wbudowane funkcje porównujące:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: służy do wykonywania dokładnego porównania porządkowego</li>        <li><code> Comparer.OrdinalIgnoreCase</code>: służy do wykonywania dokładnego porównania bez uwzględniania wielkości liter</li>        <li>  <code>Comparer.FromCulture</code>: służy do porównywania uwzględniającego uwarunkowania kulturowe</li>      </ul>
+Wskazuje, czy dany tekst, `text`, kończy się określoną wartością, `substring`. We wskazaniu jest uwzględniana wielkość liter.
+
+`comparer` to `Comparer` funkcja porównująca używana do sterowania porównywaniem. Funkcje porównujące mogą być używane do przeprowadzania porównania nie wymagającego rozróżniania wielkości liter, uwzględniającego uwarunkowania kulturowe lub lokalne.
+
+W języku formuły są dostępne następujące wbudowane funkcje porównujące:
+
+-   `Comparer.Ordinal`: służy do wykonywania dokładnego porównania porządkowego
+-   `Comparer.OrdinalIgnoreCase`: służy do wykonywania dokładnego porównania bez uwzględniania wielkości liter
+-   `Comparer.FromCulture`: służy do porównywania uwzględniającego uwarunkowania kulturowe
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Sprawdź, czy tekst „Hello, World” kończy się wyrazem „world”.
 ```powerquery
 Text.EndsWith("Hello, World", "world")
@@ -38,7 +46,7 @@ false
 ```
 
 
-### Example #2 
+### Example #2
 Sprawdź, czy tekst „Hello, World” kończy się wyrazem „World”.
 ```powerquery
 Text.EndsWith("Hello, World", "World")

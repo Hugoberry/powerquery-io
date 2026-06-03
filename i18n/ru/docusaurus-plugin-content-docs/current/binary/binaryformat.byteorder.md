@@ -20,7 +20,7 @@ BinaryFormat.ByteOrder(
 
 ## Remarks
 
-Возвращает двоичный формат с порядком следования байтов, указанным <code>binaryFormat</code>.  Порядок байтов по умолчанию: <code>ByteOrder.BigEndian</code>.
+Возвращает двоичный формат с порядком следования байтов, указанным `binaryFormat`. Порядок байтов по умолчанию: `ByteOrder.BigEndian`.
 
 
 

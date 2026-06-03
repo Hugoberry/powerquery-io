@@ -22,13 +22,13 @@ Table.AddRankColumn(
 
 ## Remarks
 
-Lägger till en kolumn med namnet <code>newColumnName</code> till <code>table</code> med rangordningen av en eller flera andra kolumner som beskrivs av <code>comparisonCriteria</code>.Alternativet RankKind i <code>options</code> kan användas av avancerade användare för att välja en mer specifik rankningsmetod.
+Lägger till en kolumn med namnet `newColumnName` till `table` med rangordningen av en eller flera andra kolumner som beskrivs av `comparisonCriteria`. Alternativet RankKind i `options` kan användas av avancerade användare för att välja en mer specifik rankningsmetod.
 
 
 ## Examples
 
-### Example #1 
-Lägg till en kolumn med namnet &#34; RevenueRank&#34; till tabellen som rangordnar kolumnen &#34;Intäkter&#34; från högsta till lägsta.
+### Example #1
+Lägg till en kolumn med namnet " RevenueRank" till tabellen som rangordnar kolumnen "Intäkter" från högsta till lägsta.
 ```powerquery
 Table.AddRankColumn(
     Table.FromRecords({

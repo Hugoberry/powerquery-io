@@ -26,8 +26,8 @@ Restituisce una funzione che suddivide il testo in un elenco di testo in corrisp
 
 ## Examples
 
-### Example #1 
-Dividere l&#39;input per virgola, quindi punto e virgola, a partire dall&#39;inizio dell&#39;input.
+### Example #1
+Dividere l'input per virgola, quindi punto e virgola, a partire dall'inizio dell'input.
 ```powerquery
 Splitter.SplitTextByEachDelimiter({",", ";"})("a,b;c,d")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Dividere l&#39;input per virgola, quindi punto e virgola, trattando le virgolette come qualsiasi altro carattere e iniziando dalla fine dell&#39;input.
+### Example #2
+Dividere l'input per virgola, quindi punto e virgola, trattando le virgolette come qualsiasi altro carattere e iniziando dalla fine dell'input.
 ```powerquery
 let
     startAtEnd = true

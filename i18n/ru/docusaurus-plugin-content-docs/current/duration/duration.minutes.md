@@ -19,12 +19,12 @@ Duration.Minutes(
 
 ## Remarks
 
-Возвращает минутную часть <code>duration</code>.
+Возвращает минутную часть `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Извлечь минуты из значения длительности.
 ```powerquery
 Duration.Minutes(#duration(5, 4, 3, 2))

@@ -19,7 +19,7 @@ Exchange.Contents(
 
 ## Remarks
 
-Devolve um índice da conta do Microsoft Exchange <code>mailboxAddress</code>. Se <code>mailboxAddress</code> não for especificada, será utilizada a conta predefinida da credencial.
+Devolve um índice da conta do Microsoft Exchange `mailboxAddress`. Se `mailboxAddress` não for especificada, será utilizada a conta predefinida da credencial.
 
 
 

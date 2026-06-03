@@ -19,13 +19,13 @@ List.IsEmpty(
 
 ## Remarks
 
-如果列表 <code>list</code> 不包含值(长度为 0)，则返回 <code>true</code>。如果列表包含值(长度 > 0)，则返回 <code>false</code>。
+如果列表 `list` 不包含值(长度为 0)，则返回 `true`。如果列表包含值(长度 > 0)，则返回 `false`。
 
 
 ## Examples
 
-### Example #1 
-查看列表 \{} 是否为空。
+### Example #1
+查看列表 \{\} 是否为空。
 ```powerquery
 List.IsEmpty({})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-查看列表 \{1, 2} 是否为空。
+### Example #2
+查看列表 \{1, 2\} 是否为空。
 ```powerquery
 List.IsEmpty({1, 2})
 ```

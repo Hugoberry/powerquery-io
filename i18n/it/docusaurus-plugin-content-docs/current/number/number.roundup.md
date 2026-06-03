@@ -20,13 +20,13 @@ Number.RoundUp(
 
 ## Remarks
 
-Restituisce il risultato dell'arrotondamento di <code>number</code> fino al successivo numero intero più alto. Se <code>number</code> è Null, questa funzione restituisce null.    Se viene specificata <code>digits</code>, <code>number</code> viene arrotondato al numero specificato di cifre decimali.  
+Restituisce il risultato dell'arrotondamento di `number` fino al successivo numero intero più alto. Se `number` è Null, questa funzione restituisce null. Se viene specificata `digits`, `number` viene arrotondato al numero specificato di cifre decimali.
 
 
 ## Examples
 
-### Example #1 
-Arrotondare per eccesso 1,234 all&#39;intero.
+### Example #1
+Arrotondare per eccesso 1,234 all'intero.
 ```powerquery
 Number.RoundUp(1.234)
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Arrotondare per eccesso 1,999 all&#39;intero.
+### Example #2
+Arrotondare per eccesso 1,999 all'intero.
 ```powerquery
 Number.RoundUp(1.999)
 ```
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Arrotondare 1,234 per eccesso a due posizioni decimali.
 ```powerquery
 Number.RoundUp(1.234, 2)

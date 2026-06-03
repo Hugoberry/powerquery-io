@@ -21,13 +21,13 @@ Table.Max(
 
 ## Remarks
 
-Zwraca największy wiersz w tabeli <code>table</code>, używając podanych kryteriów <code>comparisonCriteria</code>. Jeśli tabela jest pusta, jest zwracana opcjonalna wartość <code>default</code>. 
+Zwraca największy wiersz w tabeli `table`, używając podanych kryteriów `comparisonCriteria`. Jeśli tabela jest pusta, jest zwracana opcjonalna wartość `default`.
 
 
 ## Examples
 
-### Example #1 
-Znajdź wiersz mający największą wartość w kolumnie [a] w tabeli &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8]})&lt;/code&gt;.
+### Example #1
+Znajdź wiersz mający największą wartość w kolumnie \[a\] w tabeli `({[a = 2, b = 4], [a = 6, b = 8]})`.
 ```powerquery
 Table.Max(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Znajdź wiersz mający największą wartość w kolumnie [a] w tabeli &lt;code&gt;(\{})&lt;/code&gt;. Zwróć -1, jeśli tabela jest pusta.
+### Example #2
+Znajdź wiersz mający największą wartość w kolumnie \[a\] w tabeli `({})`. Zwróć -1, jeśli tabela jest pusta.
 ```powerquery
 Table.Max(#table({"a"}, {}), "a", -1)
 ```

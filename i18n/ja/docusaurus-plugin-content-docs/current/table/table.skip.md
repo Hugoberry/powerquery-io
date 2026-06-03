@@ -20,12 +20,16 @@ Table.Skip(
 
 ## Remarks
 
-テーブル <code>table</code> の最初の指定された数の行 (<code>countOrCondition</code>) が含まれないテーブルを返します。    スキップされる行の数は、省略可能なパラメーター <code>countOrCondition</code> によって決まります。    <ul>    <li> <code>countOrCondition</code> が省略された場合は、最初の行だけがスキップされます。</li>    <li> <code>countOrCondition</code> が数の場合は、(先頭から) その数の行がスキップされます。</li>    <li> <code>countOrCondition</code> が条件の場合は、その条件を満たす行が、条件を満たさない行までスキップされます。</li>    </ul>
+テーブル `table` の最初の指定された数の行 (`countOrCondition`) が含まれないテーブルを返します。 スキップされる行の数は、省略可能なパラメーター `countOrCondition` によって決まります。
+
+-   `countOrCondition` が省略された場合は、最初の行だけがスキップされます。
+-   `countOrCondition` が数の場合は、(先頭から) その数の行がスキップされます。
+-   `countOrCondition` が条件の場合は、その条件を満たす行が、条件を満たさない行までスキップされます。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブルの先頭行をスキップします。
 ```powerquery
 Table.Skip(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 テーブルの先頭の 2 行をスキップします。
 ```powerquery
 Table.Skip(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-テーブルの [Price] &gt; 25 である先頭行をスキップします。
+### Example #3
+テーブルの \[Price\] > 25 である先頭行をスキップします。
 ```powerquery
 Table.Skip(
     Table.FromRecords({

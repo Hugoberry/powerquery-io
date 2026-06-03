@@ -21,12 +21,12 @@ Text.Format(
 
 ## Remarks
 
-<code>formatString</code> biçim dizesine listeden veya kayıttan <code>arguments</code> uygulanarak oluşturulan biçimlendirilmiş metni döndürür. Ayrıca, isteğe bağlı bir <code>culture</code> sağlanabilir (ör. "tr-TR").
+`formatString` biçim dizesine listeden veya kayıttan `arguments` uygulanarak oluşturulan biçimlendirilmiş metni döndürür. Ayrıca, isteğe bağlı bir `culture` sağlanabilir (ör. "tr-TR").
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Sayılardan oluşan bir liste biçimlendirin.
 ```powerquery
 Text.Format("#{0}, #{1}, and #{2}.", {17, 7, 22})
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Amerika Birleşik Devletleri İngilizce kültürüne uygun şekilde, bir kayıttan farklı veri türlerini biçimlendirin.
 ```powerquery
 Text.Format(

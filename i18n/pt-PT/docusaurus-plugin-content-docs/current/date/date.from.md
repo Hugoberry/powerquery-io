@@ -20,13 +20,33 @@ Date.From(
 
 ## Remarks
 
-Devolve um valor <code>date</code> a partir do <code>value</code> especificado. Pode também ser fornecido um <code>culture</code> opcional (por exemplo, "en-US").Se o <code>value</code> especificado for <code>null</code>, <code>Date.From</code> devolverá <code>null</code>. Se o <code>value</code> especificado for <code>date</code>, será devolvido <code>value</code>. É possível converter os seguintes tipos de valor num valor <code>date</code>:      <ul>        <li><code>text</code>: Um valor <code>date</code> da representação textual. Consulte <code>Date.FromText</code> para obter detalhes.</li>        <li><code>datetime</code>: o componente de data de <code>value</code>.</li>        <li><code>datetimezone</code>: o componente de data do equivalente local de data/hora de <code>value</code>.</li>        <li><code>number</code>: o componente de data do equivalente de data/hora da Data de Automatização OLE expresso por <code>value</code>.</li>      </ul>Se <code>value</code> for de qualquer outro tipo, será devolvido um erro.
+Devolve um valor de data a partir do valor indicado.
+
+-   `value`: o valor a converter em data. Se o valor indicado for `null`, esta função devolve `null`. Se o valor indicado for `date`, é devolvido `value`. Os valores dos tipos seguintes podem ser convertidos num valor `date`:
+    -   `text`: um valor `date` a partir de uma representação textual. Consulte `Date.FromText` para obter detalhes.
+    -   `datetime`: o componente de data de `value`.
+    -   `datetimezone`: o componente de data do equivalente local de datetime de `value`.
+    -   `number`: o componente de data do equivalente de datetime de um número de vírgula flutuante cujo componente integral é o número de dias antes ou depois da meia-noite de 30 de dezembro de 1899 e cujo componente fracionário representa a hora desse dia dividida por 24. Por exemplo, a meia-noite de 31 de dezembro de 1899 é representada por 1,0; as 06:00 de 1 de janeiro de 1900 são representadas por 2,25; a meia-noite de 29 de dezembro de 1899 é representada por -1,0; e as 06:00 de 29 de dezembro de 1899 são representadas por -1,25. O valor base é a meia-noite de 30 de dezembro de 1899. O valor mínimo é a meia-noite de 1 de janeiro de 0100. O valor máximo é o último momento de 31 de dezembro de 9999.
+    -   Se `value` for de qualquer outro tipo, é devolvido um erro.
+-   `culture`: a cultura do valor indicado (por exemplo, "en-US").
 
 
 ## Examples
 
-### Example #1 
-Converter &lt;code&gt;43910&lt;/code&gt; num valor &lt;code&gt;date&lt;/code&gt;.
+### Example #1
+Converter a data e hora especificadas num valor de data.
+```powerquery
+Date.From(#datetime(1899, 12, 30, 06, 45, 12))
+```
+
+Result: 
+```powerquery
+#date(1899, 12, 30)
+```
+
+
+### Example #2
+Converter o número especificado num valor de data.
 ```powerquery
 Date.From(43910)
 ```
@@ -37,15 +57,38 @@ Result:
 ```
 
 
-### Example #2 
-Converter &lt;code&gt;#datetime(1899, 12, 30, 06, 45, 12)&lt;/code&gt; num valor &lt;code&gt;date&lt;/code&gt;.
+### Example #3
+Converta as datas de texto em alemão na coluna Data Publicada em valores de data.
 ```powerquery
-Date.From(#datetime(1899, 12, 30, 06, 45, 12))
+let
+    Source = #table(type table [Account Code = text, Posted Date = text, Sales = number],
+    {
+        {"US-2004", "20 Januar 2023", 580},
+        {"CA-8843", "18 Juli, 2023", 280},
+        {"PA-1274", "12 Januar, 2022", 90},
+        {"PA-4323", "14 April 2023", 187},
+        {"US-1200", "14 Dezember, 2022", 350},
+        {"PTY-507", "4 Juni, 2023", 110}
+    }),
+    #"Filtered rows" = Table.TransformColumns(
+        Source,
+        {"Posted Date", each Date.From(_, "de-DE"), type date}
+    )
+in
+    #"Filtered rows"
 ```
 
 Result: 
 ```powerquery
-#date(1899, 12, 30)
+#table(type table [Account Code = text, Posted Date = date, Sales = number],
+{
+    {"US-2004", #date(2023, 1, 20), 580},
+    {"CA-8843", #date(2023, 7, 18), 280},
+    {"PA-1274", #date(2022, 1, 12), 90},
+    {"PA-4323", #date(2023, 4, 14), 187},
+    {"US-1200", #date(2022, 12, 14), 350},
+    {"PTY-507", #date(2023, 6, 4), 110}
+})
 ```
 
 

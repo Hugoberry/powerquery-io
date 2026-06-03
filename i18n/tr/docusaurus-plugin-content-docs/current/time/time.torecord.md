@@ -19,13 +19,15 @@ Time.ToRecord(
 
 ## Remarks
 
-Verilen <code>time</code> Saat değerinin parçalarını içeren bir kayıt döndürür. <ul>        <li><code>time</code>: Parçalarının kaydının hesaplanacağı bir <code>time</code>değeri.</li>      </ul>
+Verilen `time` Saat değerinin parçalarını içeren bir kayıt döndürür.
+
+-   `time`: Parçalarının kaydının hesaplanacağı bir `time`değeri.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;#time(11, 56, 2)&lt;/code&gt; değerini Saat değerlerini içeren bir kayda dönüştürür.
+### Example #1
+`#time(11, 56, 2)` değerini Saat değerlerini içeren bir kayda dönüştürür.
 ```powerquery
 Time.ToRecord(#time(11, 56, 2))
 ```

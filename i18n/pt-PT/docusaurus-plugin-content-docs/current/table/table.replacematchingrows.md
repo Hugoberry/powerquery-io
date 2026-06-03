@@ -21,13 +21,13 @@ Table.ReplaceMatchingRows(
 
 ## Remarks
 
-Substitui todas as linhas especificadas em <code>table</code> pelas linhas fornecidas. As linhas a substituir e as substituições são especificadas em <code>replacements</code>, utilizando o formato \{old, new}.    É possível especificar um parâmetro opcional <code>equationCriteria</code> para controlar a comparação entre as linhas da tabela.
+Substitui todas as linhas especificadas em `table` pelas linhas fornecidas. As linhas a substituir e as substituições são especificadas em `replacements`, utilizando o formato \{old, new\}. É possível especificar um parâmetro opcional `equationCriteria` para controlar a comparação entre as linhas da tabela.
 
 
 ## Examples
 
-### Example #1 
-Substituir as linhas [a = 1, b = 2] e [a = 2, b = 3] por [a = -1, b = -2],[a = -2, b = -3] na tabela.
+### Example #1
+Substituir as linhas \[a = 1, b = 2\] e \[a = 2, b = 3\] por \[a = -1, b = -2\],\[a = -2, b = -3\] na tabela.
 ```powerquery
 Table.ReplaceMatchingRows(
     Table.FromRecords({

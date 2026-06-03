@@ -20,13 +20,13 @@ Text.Lower(
 
 ## Remarks
 
-<code>text</code> 内のすべての文字を小文字に変換した結果を返します。省略可能な <code>culture</code> を指定することもできます (例: "en-US")。
+`text` 内のすべての文字を小文字に変換した結果を返します。省略可能な `culture` を指定することもできます (例: "en-US")。
 
 
 ## Examples
 
-### Example #1 
-&#34;AbCd&#34; の小文字のバージョンを取得します。
+### Example #1
+"AbCd" の小文字のバージョンを取得します。
 ```powerquery
 Text.Lower("AbCd")
 ```

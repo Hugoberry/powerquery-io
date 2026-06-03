@@ -5,7 +5,7 @@ title: Binary.ViewError
 # Binary.ViewError
 
 
-Hiermee maakt u een gewijzigde foutrecord die geen terugval activeert wanneer deze wordt gegenereerd door een handler die is gedefinieerd in een weergave (via Binary.View).
+Hiermee maakt u een gewijzigde foutrecord die geen terugval activeert wanneer deze wordt gegenereerd door een beheerder die is gedefinieerd in een weergave (via Binary.View).
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Binary.ViewError(
 
 ## Remarks
 
-Hiermee maakt u een gewijzigde foutrecord op basis van <code>errorRecord</code> die geen terugval activeert wanneer deze wordt gegenereerd door een handler die is gedefinieerd in een weergave (via Binary.View).
+Hiermee maakt u een gewijzigde foutrecord vanuit `errorRecord` waaruit geen terugval wordt geactiveerd wanneer deze wordt gegenereerd door een beheerder die is gedefinieerd in een weergave (via Binary.View).
 
 
 

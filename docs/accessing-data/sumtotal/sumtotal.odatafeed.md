@@ -22,7 +22,7 @@ SumTotal's Custom connector connects to SumTotal's external facing OData API ser
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returns a table with specified entity data
 ```powerquery
 SumTotal.ODataFeed('https://host.sumtotalystems.com/?rowVersionId=0')

@@ -19,13 +19,15 @@ Date.ToRecord(
 
 ## Remarks
 
-Returnerer en post, der indeholder delene fra en bestemt datoværdi, <code>date</code>. <ul>        <li><code>date</code>: En værdi af typen <code>date</code>, som delenes post skal beregnes ud fra.</li>      </ul>
+Returnerer en post, der indeholder delene fra en bestemt datoværdi, `date`.
+
+-   `date`: En værdi af typen `date`, som delenes post skal beregnes ud fra.
 
 
 ## Examples
 
-### Example #1 
-Konvertér værdien af typen &lt;code&gt;#date(2011, 12, 31)&lt;/code&gt; til en post, der indeholder delene fra datoværdien.
+### Example #1
+Konvertér værdien af typen `#date(2011, 12, 31)` til en post, der indeholder delene fra datoværdien.
 ```powerquery
 Date.ToRecord(#date(2011, 12, 31))
 ```

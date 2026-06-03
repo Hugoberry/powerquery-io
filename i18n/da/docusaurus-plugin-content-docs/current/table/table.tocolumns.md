@@ -19,12 +19,12 @@ Table.ToColumns(
 
 ## Remarks
 
-Opretter en liste over indlejrede lister ud fra tabellen <code>table</code>.  De enkelte listeelementer er en indre liste, der indeholder kolonneværdierne.
+Opretter en liste over indlejrede lister ud fra tabellen `table`. De enkelte listeelementer er en indre liste, der indeholder kolonneværdierne.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Opret en liste over kolonneværdier ud fra tabellen.
 ```powerquery
 Table.ToColumns(

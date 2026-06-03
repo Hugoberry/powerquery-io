@@ -5,7 +5,7 @@ title: Table.MatchesAnyRows
 # Table.MatchesAnyRows
 
 
-Indique si l&#39;une des lignes de la table répond à la condition spécifiée.
+Indique si l'une des lignes de la table répond à la condition spécifiée.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Table.MatchesAnyRows(
 
 ## Remarks
 
-Indique si l'une des lignes dans <code>table</code> correspond au <code>condition</code> qui est spécifié. Retourne <code>true</code> si l'une des lignes correspond, sinon <code>false</code>.
+Indique si l'une des lignes dans `table` correspond au `condition` qui est spécifié. Retourne `true` si l'une des lignes correspond, sinon `false`.
 
 
 ## Examples
 
-### Example #1 
-Détermine si l&#39;une des valeurs des lignes dans la colonne [a] est paire dans la table &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8]})&lt;/code&gt;.
+### Example #1
+Détermine si l'une des valeurs des lignes dans la colonne \[a\] est paire dans la table `({[a = 2, b = 4], [a = 6, b = 8]})`.
 ```powerquery
 Table.MatchesAnyRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ false
 ```
 
 
-### Example #2 
-Détermine si l&#39;une des valeurs des lignes est [a = 1, b = 2], dans la table &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt;.
+### Example #2
+Détermine si l'une des valeurs des lignes est \[a = 1, b = 2\], dans la table `({[a = 1, b = 2], [a = 3, b = 4]})`.
 ```powerquery
 Table.MatchesAnyRows(
     Table.FromRecords({

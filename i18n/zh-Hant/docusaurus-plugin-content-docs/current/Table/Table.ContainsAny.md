@@ -21,13 +21,13 @@ Table.ContainsAny(
 
 ## Remarks
 
-指出記錄清單 <code>rows</code> 中任何指定的記錄是否都顯示成 <code>table</code> 中的資料列。    可指定選擇性參數 <code>equationCriteria</code> 以控制資料表資料列之間的比較方式。
+指出記錄清單 `rows` 中任何指定的記錄是否都顯示成 `table` 中的資料列。 可指定選擇性參數 `equationCriteria` 以控制資料表資料列之間的比較方式。
 
 
 ## Examples
 
-### Example #1 
-判斷資料表 &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; 是否包含資料列 &lt;code&gt;[a = 1, b = 2]&lt;/code&gt; 或 &lt;code&gt;[a = 3, b = 5]&lt;/code&gt;。
+### Example #1
+判斷資料表 `({[a = 1, b = 2], [a = 3, b = 4]})` 是否包含資料列 `[a = 1, b = 2]` 或 `[a = 3, b = 5]`。
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({
@@ -47,8 +47,8 @@ true
 ```
 
 
-### Example #2 
-判斷資料表 &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; 是否包含資料列 &lt;code&gt;[a = 1, b = 3]&lt;/code&gt; 或 &lt;code&gt;[a = 3, b = 5]&lt;/code&gt;。
+### Example #2
+判斷資料表 `({[a = 1, b = 2], [a = 3, b = 4]})` 是否包含資料列 `[a = 1, b = 3]` 或 `[a = 3, b = 5]`。
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({
@@ -68,8 +68,8 @@ false
 ```
 
 
-### Example #3 
-在單獨比較資料行 [a] 的情況下，判斷資料表 &lt;code&gt;(Table.FromRecords(\{[a = 1, b = 2], [a = 3, b = 4]}))&lt;/code&gt; 是否包含資料列 &lt;code&gt;[a = 1, b = 3]&lt;/code&gt; 或 &lt;code&gt;[a = 3, b = 5]&lt;/code&gt;。
+### Example #3
+在單獨比較資料行 \[a\] 的情況下，判斷資料表 `(Table.FromRecords({[a = 1, b = 2], [a = 3, b = 4]}))` 是否包含資料列 `[a = 1, b = 3]` 或 `[a = 3, b = 5]`。
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({

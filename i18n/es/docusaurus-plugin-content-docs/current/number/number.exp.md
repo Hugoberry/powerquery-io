@@ -19,12 +19,14 @@ Number.Exp(
 
 ## Remarks
 
-Devuelve el resultado de elevar "e" a la potencia de <code>number</code> (función exponencial).      <ul>        <li><code>number</code>: un <code>number</code> cuya función exponencial se va a calcular. Si <code>number</code> es "null", <code>Number.Exp</code> devuelve "null". </li>      </ul>
+Devuelve el resultado de elevar "e" a la potencia de `number` (función exponencial).
+
+-   `number`: un `number` cuya función exponencial se va a calcular. Si `number` es "null", `Number.Exp` devuelve "null".
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Elevar e a la potencia de 3.
 ```powerquery
 Number.Exp(3)

@@ -20,12 +20,22 @@ Binary.View(
 
 ## Remarks
 
-Zwraca widok <code>binary</code>, w którym funkcje określone w <code>handlers</code> są używane zamiast domyślnego zachowania operacji, gdy operacja jest stosowana do widoku.<br />Jeśli podano wartość <code>binary</code>, wszystkie funkcje procedury obsługi są opcjonalne. Jeśli nie podano wartości <code>binary</code>, wymagana będzie funkcja procedury obsługi <code>GetStream</code>. Jeśli funkcja procedury obsługi nie jest określona w przypadku danej operacji, zamiast tego zostanie zastosowane zachowanie domyślne w odniesieniu do <code>binary</code> (z wyjątkiem operacji <code>GetExpression</code>).<br />Funkcje procedury obsługi muszą zwracać wartość semantycznie równoważną wynikowi zastosowania operacji w stosunku do widoku<code>binary</code> (lub widoku wynikowego w przypadku operacji <code>GetExpression</code>).<br />Jeśli funkcja procedury obsługi zgłosi błąd, do widoku zostanie zastosowane domyślne zachowanie operacji.<br />Funkcji <code>Binary.View</code> można użyć, aby wdrożyć składanie dla źródła danych (tłumaczenie zapytań M na operacje specyficzne dla źródła, na przykład w celu pobrania sekcji pliku).<br />Z bardziej kompleksowym opisem funkcji <code>Binary.View</code> można zapoznać się w opublikowanej dokumentacji dotyczącej łącznika niestandardowego usługi Power Query.<br />
+Zwraca widok `binary`, w którym funkcje określone w `handlers` są używane zamiast domyślnego zachowania operacji, gdy operacja jest stosowana do widoku.
+
+Jeśli podano wartość `binary`, wszystkie funkcje procedury obsługi są opcjonalne. Jeśli nie podano wartości `binary`, wymagana będzie funkcja procedury obsługi `GetStream`. Jeśli funkcja procedury obsługi nie jest określona w przypadku danej operacji, zamiast tego zostanie zastosowane zachowanie domyślne w odniesieniu do `binary` (z wyjątkiem operacji `GetExpression`).
+
+Funkcje procedury obsługi muszą zwracać wartość semantycznie równoważną wynikowi zastosowania operacji w stosunku do widoku`binary` (lub widoku wynikowego w przypadku operacji `GetExpression`).
+
+Jeśli funkcja procedury obsługi zgłosi błąd, do widoku zostanie zastosowane domyślne zachowanie operacji.
+
+Funkcji `Binary.View` można użyć, aby wdrożyć składanie dla źródła danych (tłumaczenie zapytań M na operacje specyficzne dla źródła, na przykład w celu pobrania sekcji pliku).
+
+Z bardziej kompleksowym opisem funkcji `Binary.View` można zapoznać się w opublikowanej dokumentacji dotyczącej łącznika niestandardowego usługi Power Query.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utwórz widok podstawowy, który nie wymaga dostępu do danych w celu określenia długości wierszy.
 ```powerquery
 Binary.View(

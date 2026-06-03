@@ -21,12 +21,12 @@ Table.Range(
 
 ## Remarks
 
-Returnerar raderna från <code>table</code> med början vid angiven <code>offset</code>. En valfri parameter, <code>count</code>, anger hur många rader som ska returneras. Som standard returneras alla rader efter förskjutningen.
+Returnerar raderna från `table` med början vid angiven `offset`. En valfri parameter, `count`, anger hur många rader som ska returneras. Som standard returneras alla rader efter förskjutningen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnera alla rader som börjar vid förskjutningen 1 i tabellen.
 ```powerquery
 Table.Range(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Returnera den rad som börjar vid förskjutningen 1 i tabellen.
 ```powerquery
 Table.Range(

@@ -20,13 +20,13 @@ List.Repeat(
 
 ## Remarks
 
-Trả về một danh sách là <code>count</code> lần lặp của danh sách gốc <code>list</code>.
+Trả về một danh sách là `count` lần lặp của danh sách gốc `list`.
 
 
 ## Examples
 
-### Example #1 
-Tạo một danh sách có \{1, 2} được lặp lại 3 lần.
+### Example #1
+Tạo một danh sách có \{1, 2\} được lặp lại 3 lần.
 ```powerquery
 List.Repeat({1, 2}, 3)
 ```

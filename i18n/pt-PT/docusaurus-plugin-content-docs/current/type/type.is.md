@@ -5,7 +5,7 @@ title: Type.Is
 # Type.Is
 
 
-Determina se um valor do tipo &#34;primeiro&#34; é sempre compatível com o tipo &#34;segundo&#34;.
+Determina se um valor do tipo "primeiro" é sempre compatível com o tipo "segundo".
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Type.Is(
 
 ## Remarks
 
-Determina se um valor de <code>type1</code> é sempre compatível com <code>type2</code>.
+Determina se um valor de `type1` é sempre compatível com `type2`. O parâmetro `type2` deve ser um valor primitivo (ou primitivo que pode ser nulo). Caso contrário, o comportamento desta função não está definido e não deve ser invocado.
 
 
 ## Examples
 
-### Example #1 
-Determine se um valor do tipo &#34;número&#34; também pode ser sempre tratado como o tipo &#34;qualquer&#34;.
+### Example #1
+Determine se um valor do tipo "número" também pode ser sempre tratado como o tipo "qualquer".
 ```powerquery
 Type.Is(type number, type any)
 ```
@@ -37,8 +37,8 @@ true
 ```
 
 
-### Example #2 
-Determine se um valor do tipo &#34;qualquer&#34; também pode ser sempre tratado como tipo &#34;número&#34;.
+### Example #2
+Determine se um valor do tipo "qualquer" também pode ser sempre tratado como tipo "número".
 ```powerquery
 Type.Is(type any, type number)
 ```

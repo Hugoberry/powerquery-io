@@ -20,12 +20,12 @@ Number.RandomBetween(
 
 ## Remarks
 
-<code>bottom</code> ve <code>top</code> arasında rastgele bir sayı döndürür.
+`bottom` ve `top` arasında rastgele bir sayı döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 1 ve 5 arasında rastgele bir sayı alır.
 ```powerquery
 Number.RandomBetween(1, 5)

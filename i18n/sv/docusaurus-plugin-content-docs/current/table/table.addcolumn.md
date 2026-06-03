@@ -22,13 +22,13 @@ Table.AddColumn(
 
 ## Remarks
 
-Lägger till en kolumn med namnet <code>newColumnName</code> i tabellen <code>table</code>. Värdena för kolumnen beräknas med den angivna valfunktionen <code>columnGenerator</code> där varje rad används som indata.
+Lägger till en kolumn med namnet `newColumnName` i tabellen `table`. Värdena för kolumnen beräknas med den angivna valfunktionen `columnGenerator` där varje rad används som indata.
 
 
 ## Examples
 
-### Example #1 
-Lägg till en talkolumn med namnet &#34;TotalPrice&#34; i tabellen, där varje värde är summan av kolumnerna [Pris] och [Frakt].
+### Example #1
+Lägg till en talkolumn med namnet "TotalPrice" i tabellen, där varje värde är summan av kolumnerna \[Pris\] och \[Frakt\].
 ```powerquery
 Table.AddColumn(
     Table.FromRecords({

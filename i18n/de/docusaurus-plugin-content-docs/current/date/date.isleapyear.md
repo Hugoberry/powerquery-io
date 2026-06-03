@@ -19,13 +19,15 @@ Date.IsLeapYear(
 
 ## Remarks
 
-Gibt an, ob der angegebene datetime-Wert "<code>dateTime</code>" in einem Schaltjahr liegt. <ul>        <li><code>dateTime</code>: Ein auszuwertender <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert.</li>      </ul>
+Gibt an, ob der angegebene datetime-Wert "`dateTime`" in einem Schaltjahr liegt.
+
+-   `dateTime`: Ein auszuwertender `date`\-, `datetime`\- oder `datetimezone`\-Wert.
 
 
 ## Examples
 
-### Example #1 
-Bestimmt, ob das als &lt;code&gt;#date(2012, 01, 01)&lt;/code&gt; dargestellte Jahr 2012 ein Schaltjahr ist.
+### Example #1
+Bestimmt, ob das als `#date(2012, 01, 01)` dargestellte Jahr 2012 ein Schaltjahr ist.
 ```powerquery
 Date.IsLeapYear(#date(2012, 01, 01))
 ```

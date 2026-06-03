@@ -20,7 +20,7 @@ Number.Atan2(
 
 ## Remarks
 
-Returnerar arctangens för divisionen av de två talen, <code>y</code> och <code>x</code>. Divisionen skapas som <code>y</code>/<code>x</code>.
+Returnerar vinkeln, i radianer, vars tangens är kvoten `y`/`x` av de två talen `y` och `x`.
 
 
 

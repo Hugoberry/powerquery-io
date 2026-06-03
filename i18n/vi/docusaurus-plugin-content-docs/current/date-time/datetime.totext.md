@@ -21,13 +21,18 @@ DateTime.ToText(
 
 ## Remarks
 
-Trả về dạng biểu diễn văn bản của <code>dateTime</code>. Một tham số <code>record</code> tùy chọn, <code>options</code>, có thể được cung cấp để chỉ định các thuộc tính bổ sung. <code>culture</code> chỉ được sử dụng cho các quy trình làm việc cũ. <code>record</code> có thể chứa các trường sau:<ul>   <li><code>Format</code>: Giá trị <code>text</code> cho biết định dạng cần sử dụng. Để biết thêm chi tiết, hãy truy nhập https://go.microsoft.com/fwlink/?linkid=2180104 và https://go.microsoft.com/fwlink/?linkid=2180105. Việc bỏ qua trường này hoặc cung cấp giá trị <code>null</code> sẽ dẫn đến định dạng ngày bằng giá trị mặc định do <code>Culture</code>.</li>   <li><code>Culture</code> xác định: Khi <code>Format</code> không phải là null, <code>Culture</code> sẽ kiểm soát một số bộ xác định định dạng. Ví dụ, trong <code>"en-US"</code> <code>"MMM"</code> là <code>"Jan", "Feb", "Mar", ...</code> còn trong <code>"ru-RU"</code> <code>"MMM"</code> là <code>"янв", "фев", "мар", ...</code>. Khi <code>Format</code> là <code>null</code>, <code>Culture</code> sẽ kiểm soát định dạng mặc định cần sử dụng. Khi <code>Culture</code> là <code>null</code> hoặc bị bỏ qua, <code>Culture.Current</code> sẽ được sử dụng.</li></ul>Để hỗ trợ các quy trình làm việc cũ, <code>options</code> và <code>culture</code> cũng có thể là các giá trị văn bản. Giá trị này có cùng hành vi giống như <code>options</code><code> = [Format = <code>options</code>, Culture = <code>culture</code>]</code>.
+Trả về dạng biểu diễn văn bản của `dateTime`. Một tham số `record` tùy chọn là `options` có thể được cung cấp để chỉ định các thuộc tính bổ sung. `culture` chỉ được dùng cho quy trình làm việc cũ. `record` có thể chứa các trường sau:
+
+-   `Format`: Giá trị `text` cho biết định dạng sẽ sử dụng. Để biết thêm chi tiết, hãy truy cập https://go.microsoft.com/fwlink/?linkid=2180104 và https://go.microsoft.com/fwlink/?linkid=2180105. Việc bỏ qua trường này hoặc cung cấp giá trị `null` sẽ dẫn đến định dạng ngày bằng giá trị mặc định do `Culture` xác định.
+-   `Culture`: Khi `Format` không phải là null, `Culture` sẽ kiểm soát một số bộ xác định định dạng. Ví dụ: trong `"en-US"` `"MMM"` là `"Jan", "Feb", "Mar", ...`, trong khi trong `"ru-RU"` `"MMM"` là `"янв", "фев", "мар", ...`. Khi `Format` là `null` thì `Culture` sẽ kiểm soát định dạng mặc định cần sử dụng. Khi `Culture` là `null` hoặc bị bỏ qua, `Culture.Current` sẽ được sử dụng.
+
+Để hỗ trợ các quy trình làm việc cũ, `options` và `culture` cũng có thể là giá trị văn bản. Giá trị này có hành vi giống như khi `options = [Format = options, Culture = culture]`.
 
 
 ## Examples
 
-### Example #1 
-Chuyển đổi &lt;code&gt;#datetime(2010, 12, 31, 01, 30, 25)&lt;/code&gt; thành giá trị &lt;code&gt;text&lt;/code&gt;. &lt;i&gt;Đầu ra kết quả có thể khác nhau tùy thuộc vào văn hóa hiện tại.&lt;/i&gt;
+### Example #1
+Chuyển đổi `#datetime(2010, 12, 31, 01, 30, 25)` thành giá trị `text`. *Đầu ra kết quả có thể khác nhau tùy thuộc vào văn hóa hiện tại.*
 ```powerquery
 DateTime.ToText(#datetime(2010, 12, 31, 01, 30, 25))
 ```
@@ -38,7 +43,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Chuyển đổi bằng cách sử dụng dạng thức tùy chỉnh và văn hóa Đức.
 ```powerquery
 DateTime.ToText(#datetime(2010, 12, 30, 2, 4, 50.36973), [Format="dd MMM yyyy HH:mm:ss.ffffff", Culture="de-DE"])
@@ -50,7 +55,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Chuyển đổi bằng mẫu hình ISO 8601.
 ```powerquery
 DateTime.ToText(#datetime(2000, 2, 8, 3, 45, 12),[Format="yyyy-MM-dd'T'HH:mm:ss'Z'", Culture="en-US"])

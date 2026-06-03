@@ -19,12 +19,12 @@ Binary.ApproximateLength(
 
 ## Remarks
 
-Zwraca przybliżoną wartość długości <code>binary</code> lub zwraca błąd, jeśli źródło danych nie obsługuje oszacowanej długości.
+Zwraca przybliżoną wartość długości `binary` lub zwraca błąd, jeśli źródło danych nie obsługuje oszacowanej długości.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Uzyskaj przybliżoną wartość długości danych binarnych.
 ```powerquery
 Binary.ApproximateLength(Binary.FromText("i45WMlSKjQUA", BinaryEncoding.Base64))

@@ -5,7 +5,7 @@ title: Value.As
 # Value.As
 
 
-Retourne la valeur si elle est compatible avec le type spécifié.
+Renvoie la valeur si elle est compatible avec le type spécifié.
 
 
 ## Syntax
@@ -25,7 +25,7 @@ Renvoie la valeur si elle est compatible avec le type spécifié. C'est l'équiv
 
 ## Examples
 
-### Example #1 
+### Example #1
 Effectuez un cast d’un nombre en nombre.
 ```powerquery
 Value.As(123, Number.Type)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Tentative d’effectuer un cast d’une valeur de texte en nombre.
 ```powerquery
 Value.As("abc", type number)

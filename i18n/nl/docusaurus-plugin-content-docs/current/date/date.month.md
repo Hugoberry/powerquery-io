@@ -19,12 +19,12 @@ Date.Month(
 
 ## Remarks
 
-Retourneert het maandgedeelte van de opgegeven <code>datetime</code>waarde, <code>dateTime</code>.
+Retourneert het maandgedeelte van de opgegeven `datetime`waarde, `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De maand zoeken in #datetime(2011, 12, 31, 9, 15, 36).
 ```powerquery
 Date.Month(#datetime(2011, 12, 31, 9, 15, 36))

@@ -22,13 +22,17 @@ List.Alternate(
 
 ## Remarks
 
-Zwraca listę złożoną ze wszystkich elementów przesunięcia na liście, które mają nieparzyste numery. Zmiany w pobieraniu i pomijaniu wartości z listy <code>list</code> są zależne od parametrów.    <ul>    <li><code>count</code>: określa liczbę wartości, które są za każdym razem pomijane.</li>    <li><code>repeatInterval</code>: opcjonalny interwał powtarzania wskazujący, ile wartości jest dodawanych między pominiętymi wartościami.</li>    <li><code>offset</code>: opcjonalny parametr przesunięcia umożliwiający rozpoczęcie pomijania wartości od początkowego przesunięcia.</li>    </ul>
+Zwraca listę złożoną ze wszystkich elementów przesunięcia na liście, które mają nieparzyste numery. Zmiany w pobieraniu i pomijaniu wartości z listy `list` są zależne od parametrów.
+
+-   `count`: określa liczbę wartości, które są za każdym razem pomijane.
+-   `repeatInterval`: opcjonalny interwał powtarzania wskazujący, ile wartości jest dodawanych między pominiętymi wartościami.
+-   `offset`: opcjonalny parametr przesunięcia umożliwiający rozpoczęcie pomijania wartości od początkowego przesunięcia.
 
 
 ## Examples
 
-### Example #1 
-Utwórz listę z zakresu \{1..10} z pominięciem pierwszej liczby.
+### Example #1
+Utwórz listę z zakresu \{1..10\} z pominięciem pierwszej liczby.
 ```powerquery
 List.Alternate({1..10}, 1)
 ```
@@ -39,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-Utwórz listę z zakresu \{1..10} z pominięciem co drugiej liczby.
+### Example #2
+Utwórz listę z zakresu \{1..10\} z pominięciem co drugiej liczby.
 ```powerquery
 List.Alternate({1..10}, 1, 1)
 ```
@@ -51,8 +55,8 @@ Result:
 ```
 
 
-### Example #3 
-Utwórz listę z zakresu \{1..10}, która rozpoczyna się od 1, z pominięciem co drugiej liczby.
+### Example #3
+Utwórz listę z zakresu \{1..10\}, która rozpoczyna się od 1, z pominięciem co drugiej liczby.
 ```powerquery
 List.Alternate({1..10}, 1, 1, 1)
 ```
@@ -63,8 +67,8 @@ Result:
 ```
 
 
-### Example #4 
-Utwórz listę z zakresu \{1..10}, która rozpoczyna się od 1, z pominięciem jednej wartości, zachowaniem dwóch wartości itd.
+### Example #4
+Utwórz listę z zakresu \{1..10\}, która rozpoczyna się od 1, z pominięciem jednej wartości, zachowaniem dwóch wartości itd.
 ```powerquery
 List.Alternate({1..10}, 1, 2, 1)
 ```

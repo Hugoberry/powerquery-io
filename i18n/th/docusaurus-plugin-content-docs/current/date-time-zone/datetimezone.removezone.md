@@ -19,12 +19,12 @@ DateTimeZone.RemoveZone(
 
 ## Remarks
 
-ส่งกลับค่า #datetime จาก <code>dateTimeZone</code> พร้อมเอาข้อมูลโซนเวลาออก
+ส่งกลับค่า #datetime จาก `dateTimeZone` พร้อมเอาข้อมูลโซนเวลาออก
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 เอาข้อมูลโซนเวลาจากค่า #datetimezone(2011, 12, 31, 9, 15, 36, -7, 0)
 ```powerquery
 DateTimeZone.RemoveZone(#datetimezone(2011, 12, 31, 9, 15, 36, -7, 0))

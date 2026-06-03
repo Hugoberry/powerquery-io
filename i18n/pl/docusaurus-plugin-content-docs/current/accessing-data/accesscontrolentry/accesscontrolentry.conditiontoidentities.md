@@ -20,7 +20,9 @@ AccessControlEntry.ConditionToIdentities(
 
 ## Remarks
 
-Za pomocą podanego elementu <code>identityProvider</code> konwertuje element <code>condition</code> na listę tożsamości, dla których element <code>condition</code> zwróci wartość <code>true</code> we wszystkich kontekstach autoryzacji z dostawcą tożsamości <code>identityProvider</code>. Wystąpi błąd, jeśli nie będzie możliwe przekonwertowanie elementu <code>condition</code> na listę tożsamości, na przykład jeśli element <code>condition</code> podczas podejmowania decyzji sprawdza atrybuty inne niż tożsamości użytkownika lub grupy.<br />    Należy pamiętać, że lista tożsamości reprezentuje tożsamości w sposób, w jaki pojawiają się one w obszarze <code>condition</code>, i względem nich nie jest przeprowadzana żadna normalizacja (na przykład rozszerzenie grupy)<br />
+Za pomocą podanego elementu `identityProvider` konwertuje element `condition` na listę tożsamości, dla których element `condition` zwróci wartość `true` we wszystkich kontekstach autoryzacji z dostawcą tożsamości `identityProvider`. Wystąpi błąd, jeśli nie będzie możliwe przekonwertowanie elementu `condition` na listę tożsamości, na przykład jeśli element `condition` podczas podejmowania decyzji sprawdza atrybuty inne niż tożsamości użytkownika lub grupy.
+
+Należy pamiętać, że lista tożsamości reprezentuje tożsamości w sposób, w jaki pojawiają się one w obszarze `condition`, i względem nich nie jest przeprowadzana żadna normalizacja (na przykład rozszerzenie grupy)
 
 
 

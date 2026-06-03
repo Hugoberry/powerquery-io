@@ -20,12 +20,12 @@ BinaryFormat.Transform(
 
 ## Remarks
 
-Başka bir ikili biçimi tarafından okunan değerleri dönüştüren bir ikili biçimini döndürür.  <code>binaryFormat</code> parametresi değeri okumak için kullanılacak ikili biçimi belirtir.  <code>function</code> okunan değerle çağrılır ve dönüştürülen değeri döndürür.
+Başka bir ikili biçimi tarafından okunan değerleri dönüştüren bir ikili biçimini döndürür. `binaryFormat` parametresi değeri okumak için kullanılacak ikili biçimi belirtir. `function` okunan değerle çağrılır ve dönüştürülen değeri döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Baytı okur ve ona bir ekler.
 ```powerquery
 let

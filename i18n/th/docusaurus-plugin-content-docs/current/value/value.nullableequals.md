@@ -21,7 +21,7 @@ Value.NullableEquals(
 
 ## Remarks
 
-ส่งกลับ null ถ้าอาร์กิวเมนต์ใดอาร์กิวเมนต์หนึ่งของ '<code>value1</code>', '<code>value2</code>' เป็น null มิฉะนั้นให้ส่งค่าที่เทียบเท่า Value.Equals
+ส่งคืนค่า null หากอาร์กิวเมนต์ `value1` หรือ `value2` เป็นค่า null มิเช่นนั้นจะเทียบเท่ากับ Value.Equals
 
 
 

@@ -20,7 +20,7 @@ Cube.AttributeMemberProperty(
 
 ## Remarks
 
-Returnerar egenskapen <code>propertyName</code> för dimensionsattributet <code>attribute</code>.
+Returnerar egenskapen `propertyName` för dimensionsattributet `attribute`.
 
 
 

@@ -20,12 +20,12 @@ Record.FromList(
 
 ## Remarks
 
-Restituisce un record corrispondente a un elemento <code>list</code> di valori di campi e un set di campi.  <code>fields</code> può essere specificato da un elenco di valori di testo o da un tipo di record.  Se i campi non sono univoci viene restituito un errore.
+Restituisce un record corrispondente a un elemento `list` di valori di campo e un set di campi. `fields` può essere specificato da un elenco di valori di testo o da un tipo di record. Se i campi non sono univoci, viene generato un errore.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Compilare un record da un elenco di valori di campi e un elenco di nomi di campi.
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, {"CustomerID", "Name", "Phone"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Compilare un record da un elenco di valori di campi e un tipo di record.
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, type [CustomerID = number, Name = text, Phone = number])

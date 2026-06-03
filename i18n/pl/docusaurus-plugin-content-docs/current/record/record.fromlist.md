@@ -20,12 +20,12 @@ Record.FromList(
 
 ## Remarks
 
-Zwraca rekord, używając listy wartości pól <code>list</code> oraz zestawu pól.  Wartością parametru <code>fields</code> może być lista wartości tekstowych lub wartość typu record.  Jeśli pola nie są unikatowe, jest zgłaszany błąd.
+Zwraca rekord, używając listy wartości pól `list` oraz zestawu pól. Wartością parametru `fields` może być lista wartości tekstowych lub wartość typu rekord. Jeśli pola nie są unikatowe, jest zgłaszany błąd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utwórz rekord na podstawie listy wartości pól oraz listy nazw pól.
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, {"CustomerID", "Name", "Phone"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Utwórz rekord na podstawie listy wartości pól oraz typu rekordu.
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, type [CustomerID = number, Name = text, Phone = number])

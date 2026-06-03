@@ -25,7 +25,7 @@ Restituisce un tipo che rappresenta i record con vincoli specifici per il tipo n
 
 ## Examples
 
-### Example #1 
+### Example #1
 Genera dinamicamente un tipo di tabella.
 ```powerquery
 let

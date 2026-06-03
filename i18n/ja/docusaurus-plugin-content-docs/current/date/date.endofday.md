@@ -19,12 +19,14 @@ Date.EndOfDay(
 
 ## Remarks
 
-<code>dateTime</code> で表される日付の終わりを返します。タイム ゾーン情報は保持されます。      <ul>        <li><code>dateTime</code>: 日付の終わりが計算される <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値。</li>      </ul>
+`dateTime` で表される日付の終わりを返します。タイム ゾーン情報は保持されます。
+
+-   `dateTime`: 日付の終わりが計算される `date`、`datetime`、または `datetimezone` 値。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 5/14/2011 05:00:00 PM の日付の終わりを取得します。
 ```powerquery
 Date.EndOfDay(#datetime(2011, 5, 14, 17, 0, 0))
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 5/17/2011 05:00:00 PM -7:00 の日付の終わりを取得します。
 ```powerquery
 Date.EndOfDay(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0))

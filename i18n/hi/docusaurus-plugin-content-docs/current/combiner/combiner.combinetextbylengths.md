@@ -25,7 +25,7 @@ Combiner.CombineTextByLengths(
 
 ## Examples
 
-### Example #1 
+### Example #1
 हर इनपुट मान से वर्णों की निर्दिष्ट संख्याओं को हटाकर टेक्स्ट मानों की सूची संयोजित करें.
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3})({"aaa", "bbb", "ccc"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 परिणाम को पहले टेम्पलेट टेक्स्ट से पहले भरने के बाद, वर्णों की निर्दिष्ट संख्याओं को हटाकर टेक्स्ट मानों की सूची संयोजित करें.
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3}, "*********")({"aaa", "bbb", "ccc"})

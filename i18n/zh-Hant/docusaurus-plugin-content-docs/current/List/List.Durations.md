@@ -21,12 +21,12 @@ List.Durations(
 
 ## Remarks
 
-傳回 <code>count</code> <code>duration</code> 值的清單，從 <code>start</code> 開始，並逐次遞增指定的 <code>duration</code> <code>step</code>。
+傳回 `count` `duration` 值的清單，從 `start` 開始，並逐次遞增指定的 `duration` `step`。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 建立 5 個值的清單，從 1 小時開始，並逐次遞增 1 小時。
 ```powerquery
 List.Durations(#duration(0, 1, 0, 0), 5, #duration(0, 1, 0, 0))

@@ -19,13 +19,13 @@ Type.FunctionParameters(
 
 ## Remarks
 
-Zwraca rekord z wartościami pól ustawionymi jako nazwy parametrów funkcji <code>type</code> i wartościami ustawionymi jako odpowiednie typy.
+Zwraca rekord z wartościami pól ustawionymi jako nazwy parametrów funkcji `type` i wartościami ustawionymi jako odpowiednie typy.
 
 
 ## Examples
 
-### Example #1 
-Znajdź typy parametrów funkcji &lt;code&gt;(x as number, y as text)&lt;/code&gt;.
+### Example #1
+Znajdź typy parametrów funkcji `(x as number, y as text)`.
 ```powerquery
 Type.FunctionParameters(type function (x as number, y as text) as any)
 ```

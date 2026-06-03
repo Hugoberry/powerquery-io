@@ -25,7 +25,7 @@ Anger om ett värde är kompatibelt med den angivna typen. Detta motsvarar opera
 
 ## Examples
 
-### Example #1 
+### Example #1
 Jämför två sätt att avgöra om ett nummer är kompatibelt med typen nummer.
 ```powerquery
 Value.Is(123, Number.Type) = (123 is number)

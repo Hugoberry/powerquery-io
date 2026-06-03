@@ -20,7 +20,7 @@ BinaryFormat.ByteOrder(
 
 ## Remarks
 
-Returnerer et binært format med den byterækkefølge, der er angivet af <code>binaryFormat</code>.  Standardbyterækkefølgen er <code>ByteOrder.BigEndian</code>.
+Returnerer et binært format med den byterækkefølge, der er angivet af `binaryFormat`. Standardbyterækkefølgen er `ByteOrder.BigEndian`.
 
 
 

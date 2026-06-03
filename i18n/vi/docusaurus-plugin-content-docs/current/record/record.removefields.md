@@ -21,13 +21,13 @@ Record.RemoveFields(
 
 ## Remarks
 
-Trả về một bản ghi loại bỏ tất cả các trường được chỉ định trong danh sách <code>fields</code> khỏi đầu vào <code>record</code>. Nếu trường được chỉ định không tồn tại thì một ngoại lệ được đưa ra.
+Trả về một bản ghi loại bỏ tất cả các trường được chỉ định trong danh sách `fields` khỏi đầu vào `record`. Nếu trường được chỉ định không tồn tại thì lỗi sẽ xuất hiện.
 
 
 ## Examples
 
-### Example #1 
-Loại bỏ trường &#34;Giá&#34; khỏi bản ghi.
+### Example #1
+Loại bỏ trường "Giá" khỏi bản ghi.
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], "Price")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Loại bỏ các trường &#34;Giá&#34; và &#34;Mục&#34; khỏi bản ghi.
+### Example #2
+Loại bỏ các trường "Giá" và "Mục" khỏi bản ghi.
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], {"Price", "Item"})
 ```

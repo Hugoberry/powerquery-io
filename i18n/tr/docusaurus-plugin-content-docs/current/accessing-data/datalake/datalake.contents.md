@@ -5,7 +5,7 @@ title: DataLake.Contents
 # DataLake.Contents
 
 
-Azure Data Lake Storage 1. Nesil hesabınızın URL&#39;sini girin.
+Azure Data Lake Storage 1. Nesil hesabınızın URL'sini girin.
 
 
 ## Syntax
@@ -20,6 +20,6 @@ DataLake.Contents(
 
 ## Remarks
 
-Azure Data Lake Storage 1. Nesil <code>URL'sinde</code> bulunan her klasör ve dosyaya ilişkin satır içeren bir tablo döndürür. Her satır, klasör veya dosya özelliklerinin yanı sıra bunların içeriğine yönelik bir bağlantı içerir.
+Azure Data Lake Storage 1. Nesil `URL'sinde` bulunan her klasör ve dosyaya ilişkin satır içeren bir tablo döndürür. Her satır, klasör veya dosya özelliklerinin yanı sıra bunların içeriğine yönelik bir bağlantı içerir.
 
 

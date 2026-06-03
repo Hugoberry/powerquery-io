@@ -5,7 +5,7 @@ title: Html.Table
 # Html.Table
 
 
-Belirtilen CSS seçicilerini sağlanan HTML&#39;ye göre çalıştırmanın sonuçlarını içeren bir tablo döndürür.
+Belirtilen CSS seçicilerini sağlanan HTML'ye göre çalıştırmanın sonuçlarını içeren bir tablo döndürür.
 
 
 ## Syntax
@@ -21,12 +21,14 @@ Html.Table(
 
 ## Remarks
 
-Belirtilen CSS seçicisini verilen <code>html</code> öğesine karşı çalıştırmanın sonuçlarını içeren bir tablo döndürür. Ek özellikleri belirtmek için isteğe bağlı bir kayıt parametresi <code>options</code> sağlanabilir. Kayıt, aşağıdaki alanları içerebilir:     <ul><li><code>RowSelector</code></li></ul>    
+Belirtilen CSS seçicisini verilen `html` öğesine karşı çalıştırmanın sonuçlarını içeren bir tablo döndürür. Ek özellikleri belirtmek için isteğe bağlı bir kayıt parametresi `options` sağlanabilir. Kayıt, aşağıdaki alanları içerebilir:
+
+-   `RowSelector`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Örnek bir html metin değerinden bir tablo döndürür.
 ```powerquery
 Html.Table("<div class=""name"">Jo</div><span>Manager</span>", {{"Name", ".name"}, {"Title", "span"}}, [RowSelector=".name"])
@@ -38,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Bir örnek html metin değerinden tüm href&#39;leri ayıklar.
+### Example #2
+Bir örnek html metin değerinden tüm href'leri ayıklar.
 ```powerquery
 Html.Table("<a href=""/test.html"">Test</a>", {{"Link", "a", each [Attributes][href]}})
 ```
@@ -53,4 +55,4 @@ Result:
 
 
 ## Category
-Verilere erişme
+Accessing data

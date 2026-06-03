@@ -25,7 +25,7 @@ Returnerer en funktion, der kombinerer en liste over tekstværdier til en enkelt
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kombiner en liste over tekstværdier ved hjælp af en sekvens af afgrænsere.
 ```powerquery
 Combiner.CombineTextByEachDelimiter({"=", "+"})({"a", "b", "c"})

@@ -20,13 +20,16 @@ Date.AddWeeks(
 
 ## Remarks
 
-Trả về kết quả <code>date</code>, <code>datetime</code> hoặc <code>datetimezone</code> khi thêm <code>numberOfWeeks</code> tuần vào giá trị <code>datetime</code><code>dateTime</code>.      <ul>      <li><code>dateTime</code>: Giá trị <code>date</code>, <code>datetime</code> hoặc <code>datetimezone</code> mà các tuần đang được thêm.</li>      <li><code>numberOfWeeks</code>: Số tuần sẽ thêm.</li>      </ul>
+Trả về kết quả `date`, `datetime` hoặc `datetimezone` khi thêm `numberOfWeeks` tuần vào giá trị `datetime``dateTime`.
+
+-   `dateTime`: Giá trị `date`, `datetime` hoặc `datetimezone` mà các tuần đang được thêm.
+-   `numberOfWeeks`: Số tuần sẽ thêm.
 
 
 ## Examples
 
-### Example #1 
-Thêm 2 tuần vào giá trị &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; hoặc &lt;code&gt;datetimezone&lt;/code&gt; biểu thị ngày 5/14/2011.
+### Example #1
+Thêm 2 tuần vào giá trị `date`, `datetime` hoặc `datetimezone` biểu thị ngày 5/14/2011.
 ```powerquery
 Date.AddWeeks(#date(2011, 5, 14), 2)
 ```

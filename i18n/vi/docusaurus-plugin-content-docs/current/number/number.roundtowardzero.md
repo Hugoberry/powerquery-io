@@ -20,12 +20,12 @@ Number.RoundTowardZero(
 
 ## Remarks
 
-Trả về kết quả làm tròn <code>number</code> dựa trên dấu của số. Hàm này sẽ làm tròn số dương xuống và số âm lên.    Nếu <code>digits</code> được chỉ định, <code>number</code> được làm tròn về <code>digits</code> số thập phân.  
+Trả về kết quả làm tròn `number` dựa trên dấu của số. Hàm này sẽ làm tròn số dương xuống và số âm lên. Nếu `digits` được chỉ định, `number` được làm tròn về `digits` số thập phân.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Làm tròn số -1,2 tiến tới 0.
 ```powerquery
 Number.RoundTowardZero(-1.2)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Làm tròn số 1,2 tiến tới 0.
 ```powerquery
 Number.RoundTowardZero(1.2)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Làm tròn số -1,234 về hai vị trí thập phân về phía 0.
 ```powerquery
 Number.RoundTowardZero(-1.234, 2)

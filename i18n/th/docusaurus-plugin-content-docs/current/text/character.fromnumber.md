@@ -19,12 +19,14 @@ Character.FromNumber(
 
 ## Remarks
 
-ส่งกลับอักขระที่เทียบเท่าตัวเลข<br />    <br />    <code>number</code> ที่ระบุควรเป็นรหัสอักขระ Unicode 21 บิต
+ส่งกลับอักขระที่เทียบเท่าตัวเลข  
+  
+`number` ที่ระบุควรเป็นรหัสอักขระ Unicode 21 บิต
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 แปลงตัวเลขเป็นค่าอักขระที่เทียบเท่ากัน
 ```powerquery
 Character.FromNumber(9)
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 แปลงอักขระเป็นตัวเลข แล้วแปลงกลับอีกครั้ง
 ```powerquery
 Character.FromNumber(Character.ToNumber("A"))
@@ -48,7 +50,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 แปลงรหัสอักขระฐานสิบหกสำหรับอีโมติคอน “หน้ายิ้มกริ่ม” เป็นคู่ตัวแทน UTF-16 ที่เทียบเท่ากัน
 ```powerquery
 Character.FromNumber(0x1F600)

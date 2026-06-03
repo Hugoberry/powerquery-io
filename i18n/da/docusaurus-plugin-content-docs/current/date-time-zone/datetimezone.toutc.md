@@ -19,12 +19,12 @@ DateTimeZone.ToUtc(
 
 ## Remarks
 
-Ændrer tidszoneoplysninger for værdien af typen datetime, <code>dateTimeZone</code>, til UTC-tidszoneoplysningerne.    Hvis <code>dateTimeZone</code> ikke har en tidszonekomponent, tilføjes UTC-tidszoneoplysningerne.
+Ændrer tidszoneoplysninger for værdien af typen datetime, `dateTimeZone`, til UTC-tidszoneoplysningerne. Hvis `dateTimeZone` ikke har en tidszonekomponent, tilføjes UTC-tidszoneoplysningerne.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Skift tidszoneoplysninger for #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) til UTC-tidszonen.
 ```powerquery
 DateTimeZone.ToUtc(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30))

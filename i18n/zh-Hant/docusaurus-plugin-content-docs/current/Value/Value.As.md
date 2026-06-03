@@ -25,7 +25,7 @@ Value.As(
 
 ## Examples
 
-### Example #1 
+### Example #1
 將數字轉換為數字。
 ```powerquery
 Value.As(123, Number.Type)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 嘗試將文字值轉換成數字。
 ```powerquery
 Value.As("abc", type number)

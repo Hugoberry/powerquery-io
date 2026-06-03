@@ -20,13 +20,13 @@ Table.FillUp(
 
 ## Remarks
 
-Restituisce una tabella da <code>table</code> dove il valore della cella successiva viene propagato alle celle con valori Null nella parte superiore di <code>columns</code>.
+Restituisce una tabella da `table` dove il valore della cella successiva viene propagato alle celle con valori Null nella parte superiore di `columns`.
 
 
 ## Examples
 
-### Example #1 
-Restituire una tabella con i valori Null della colonna [Column2] riempita con i valori sottostanti dalla tabella.
+### Example #1
+Restituire una tabella con i valori Null della colonna \[Column2\] riempita con i valori sottostanti dalla tabella.
 ```powerquery
 Table.FillUp(
     Table.FromRecords({

@@ -21,13 +21,13 @@ Table.ContainsAll(
 
 ## Remarks
 
-<code>rows</code> kayıt listesindeki belirtilen tüm kayıtların <code>table</code> içinde satır olarak görünüp görünmediğini gösterir.    Tablonun satırları arasındaki karşılaştırmayı denetlemek üzere <code>equationCriteria</code> isteğe bağlı parametresi belirtilebilir.
+`rows` kayıt listesindeki belirtilen tüm kayıtların `table` içinde satır olarak görünüp görünmediğini gösterir. Tablonun satırları arasındaki karşılaştırmayı denetlemek üzere `equationCriteria` isteğe bağlı parametresi belirtilebilir.
 
 
 ## Examples
 
-### Example #1 
-Yalnızca [CustomerID] sütununu karşılaştırarak tabloda tüm satırların bulunup bulunmadığını belirleyin.
+### Example #1
+Yalnızca \[CustomerID\] sütununu karşılaştırarak tabloda tüm satırların bulunup bulunmadığını belirleyin.
 ```powerquery
 Table.ContainsAll(
     Table.FromRecords({
@@ -50,7 +50,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Tabloda tüm satırların bulunup bulunmadığını belirler.
 ```powerquery
 Table.ContainsAll(

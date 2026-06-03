@@ -20,12 +20,14 @@ Table.FromValue(
 
 ## Remarks
 
-Opretter en tabel med en kolonne, der indeholder den angivne værdi eller liste over værdier, <code>value</code>. Der kan angives en valgfri postparameter, <code>options</code>, for at styre følgende indstillinger:    <ul>    <li> <code>DefaultColumnName</code>: det kolonnenavn, der bruges, når der oprettes en tabel ud fra en liste eller skalaværdi.</li>    </ul>  
+Opretter en tabel med en kolonne, der indeholder den angivne værdi eller liste over værdier, `value`. En valgfri parameter for post, `options`, kan være angivet for at kontrollere følgende indstillinger:
+
+-   `DefaultColumnName`: Det kolonnenavn, der bruges ved oprettelse af en tabel ud fra en liste- eller skalarværdi.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Opret en tabel ud fra værdien 1.
 ```powerquery
 Table.FromValue(1)
@@ -37,7 +39,7 @@ Table.FromRecords({[Value = 1]})
 ```
 
 
-### Example #2 
+### Example #2
 Opret en tabel ud fra listen.
 ```powerquery
 Table.FromValue({1, "Bob", "123-4567"})
@@ -53,7 +55,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Opret en tabel ud fra værdien 1 med et brugerdefineret kolonnenavn.
 ```powerquery
 Table.FromValue(1, [DefaultColumnName = "MyValue"])

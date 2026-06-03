@@ -20,12 +20,12 @@ Type.Is(
 
 ## Remarks
 
-Xác định xem giá trị của <code>type1</code> có luôn tương thích với <code>type2</code> hay không.
+Xác định xem giá trị của `type1` có luôn tương thích với giá trị `type2`. Giá `type2` phải là giá trị loại gốc (hoặc gốc có thể có giá trị null). Nếu không, hành vi của hàm này chưa được xác định và không nên dựa vào.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Xác định giá trị của số loại cũng có thể được coi là loại bất kỳ.
 ```powerquery
 Type.Is(type number, type any)
@@ -37,7 +37,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Xác định giá trị của loại bất kỳ cũng có thể được coi là số loại.
 ```powerquery
 Type.Is(type any, type number)

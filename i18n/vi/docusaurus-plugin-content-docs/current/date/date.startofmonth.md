@@ -19,12 +19,12 @@ Date.StartOfMonth(
 
 ## Remarks
 
-Trả về thời gian đầu tháng chứa <code>dateTime</code>.    <code>dateTime</code> phải là giá trị <code>date</code> hoặc <code>datetime</code>.
+Trả về thời gian đầu tháng chứa `dateTime`. `dateTime` phải là giá trị `date` hoặc `datetime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm thời gian đầu tháng cho ngày 10 tháng 10 năm 2011, 8:10:32 SA.
 ```powerquery
 Date.StartOfMonth(#datetime(2011, 10, 10, 8, 10, 32))

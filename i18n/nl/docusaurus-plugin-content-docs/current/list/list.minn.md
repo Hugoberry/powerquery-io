@@ -22,13 +22,17 @@ List.MinN(
 
 ## Remarks
 
-Hiermee wordt de minimumwaarde(n) in de lijst, <code>list</code>    geretourneerd. De parameter, <code>countOrCondition</code>, geeft het aantal waarden dat moet worden geretourneerd of een filtervoorwaarde aan. De optionele parameter, <code>comparisonCriteria</code>, geeft aan hoe waarden in de lijst moeten worden vergeleken. <ul>        <li> <code>list</code>: de lijst met waarden.</li>        <li> <code>countOrCondition</code>: als een getal wordt opgegeven, wordt een lijst met maximaal <code>countOrCondition</code> items in oplopende volgorde geretourneerd. Als een voorwaarde is opgegeven, wordt een lijst geretourneerd met items die in eerste instantie aan de voorwaarde voldoen. Zodra een item niet aan de voorwaarde voldoet, worden geen verdere items meer behandeld. Als deze parameter null is, wordt de kleinste waarde in de lijst geretourneerd.</li><li><code>comparisonCriteria</code>: <i>[Optioneel]</i> Een optionele <code>comparisonCriteria</code>-waarde, kan worden opgegeven om te bepalen hoe de items in de lijst moeten worden vergeleken. Als deze parameter null is, wordt de standaardvergelijkingsfunctie gebruikt. </li></ul>
+Hiermee wordt de minimumwaarde(n) in de lijst, `list` geretourneerd. De parameter, `countOrCondition`, geeft het aantal waarden dat moet worden geretourneerd of een filtervoorwaarde aan. De optionele parameter, `comparisonCriteria`, geeft aan hoe waarden in de lijst moeten worden vergeleken.
+
+-   `list`: De lijst met waarden.
+-   `countOrCondition`: als een getal wordt opgegeven, wordt een lijst met maximaal `countOrCondition` items in oplopende volgorde geretourneerd. Als een voorwaarde is opgegeven, wordt een lijst geretourneerd met items die in eerste instantie aan de voorwaarde voldoen. Zodra een item niet aan de voorwaarde voldoet, worden geen verdere items meer behandeld. Als deze parameter null is, wordt de kleinste waarde in de lijst geretourneerd.
+-   `comparisonCriteria`: *\[Optioneel\]* Een optionele `comparisonCriteria`\-waarde kan worden opgegeven om te bepalen hoe de items in de lijst moeten worden vergeleken. Als deze parameter null is, wordt de standaardvergelijkingsfunctie gebruikt.
 
 
 ## Examples
 
-### Example #1 
-De vijf kleinste waarden in de lijst &lt;code&gt;\{3, 4, 5, -1, 7, 8, 2}&lt;/code&gt; zoeken.
+### Example #1
+De vijf kleinste waarden in de lijst `{3, 4, 5, -1, 7, 8, 2}` zoeken.
 ```powerquery
 List.MinN({3, 4, 5, -1, 7, 8, 2}, 5)
 ```

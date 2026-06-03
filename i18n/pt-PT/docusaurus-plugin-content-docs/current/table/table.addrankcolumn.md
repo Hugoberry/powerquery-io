@@ -22,13 +22,13 @@ Table.AddRankColumn(
 
 ## Remarks
 
-Anexa uma coluna com o nome <code>newColumnName</code> a <code>table</code> com a classificação de uma ou mais colunas descritas por <code>comparisonCriteria</code>.A opção RankKind no <code>options</code> pode ser usada por utilizadores avançados para escolher um método de classificação mais específico.
+Anexa uma coluna com o nome `newColumnName` a `table` com a classificação de uma ou mais colunas descritas por `comparisonCriteria`. A opção RankKind no `options` pode ser usada por utilizadores avançados para escolher um método de classificação mais específico.
 
 
 ## Examples
 
-### Example #1 
-Adicione uma coluna com o nome &#34;RevenueRank&#34; à tabela que classifica a coluna &#34;Receita&#34; por ordem decrescente.
+### Example #1
+Adicione uma coluna com o nome "RevenueRank" à tabela que classifica a coluna "Receita" por ordem decrescente.
 ```powerquery
 Table.AddRankColumn(
     Table.FromRecords({

@@ -5,7 +5,7 @@ title: List.AnyTrue
 # List.AnyTrue
 
 
-Restituisce true se un&#39;espressione è true.
+Restituisce true se un'espressione è true.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.AnyTrue(
 
 ## Remarks
 
-Restituisce true se qualsiasi espressione dell'elenco <code>list</code> è true.
+Restituisce true se qualsiasi espressione dell'elenco `list` è true.
 
 
 ## Examples
 
-### Example #1 
-Determina se una delle espressioni dell&#39;elenco \{true, false, 2 &gt; 0} è true.
+### Example #1
+Determina se una delle espressioni dell'elenco \{true, false, 2 > 0\} è true.
 ```powerquery
 List.AnyTrue({true, false, 2>0})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Determina se una delle espressioni dell&#39;elenco \{2 = 0, false, 2 &lt; 0} è true.
+### Example #2
+Determina se una delle espressioni dell'elenco \{2 = 0, false, 2 &lt; 0\} è true.
 ```powerquery
 List.AnyTrue({2 = 0, false, 2 < 0})
 ```

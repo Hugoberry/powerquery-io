@@ -19,13 +19,13 @@ Type.IsOpenRecord(
 
 ## Remarks
 
-Bir <code>type</code> kaydının açık olup olmadığı belirten bir <code>logical</code> değeri döndürür.
+Bir `type` kaydının açık olup olmadığı belirten bir `logical` değeri döndürür.
 
 
 ## Examples
 
-### Example #1 
-Kaydın &lt;code&gt;type [ A = number, ...]&lt;/code&gt; açık olup olmadığı belirlenir.
+### Example #1
+Kaydın `type [ A = number, ...]` açık olup olmadığı belirlenir.
 ```powerquery
 Type.IsOpenRecord(type [A = number, ...])
 ```

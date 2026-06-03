@@ -20,7 +20,7 @@ BinaryFormat.ByteOrder(
 
 ## Remarks
 
-Zwraca format binarny, w którym kolejność bajtów jest określona przez parametr <code>binaryFormat</code>.  Domyślna kolejność bajtów to <code>ByteOrder.BigEndian</code>.
+Zwraca format binarny, w którym kolejność bajtów jest określona przez parametr `binaryFormat`. Domyślna kolejność bajtów to `ByteOrder.BigEndian`.
 
 
 

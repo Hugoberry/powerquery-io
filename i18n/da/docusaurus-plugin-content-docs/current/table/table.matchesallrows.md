@@ -20,13 +20,13 @@ Table.MatchesAllRows(
 
 ## Remarks
 
-Angiver, om alle rækkerne i tabellen <code>table</code> svarer til den angivne <code>condition</code>. Returnerer <code>true</code>, hvis alle rækkerne matcher. Ellers returneres <code>false</code>.
+Angiver, om alle rækkerne i tabellen `table` svarer til den angivne `condition`. Returnerer `true`, hvis alle rækkerne matcher. Ellers returneres `false`.
 
 
 ## Examples
 
-### Example #1 
-Find ud af, om alle rækkeværdierne i kolonne [a] også er i tabellen.
+### Example #1
+Find ud af, om alle rækkeværdierne i kolonne \[a\] også er i tabellen.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ true
 ```
 
 
-### Example #2 
-Find ud af, om alle rækkeværdierne er [a = 1, b = 2] i tabellen &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt;.
+### Example #2
+Find ud af, om alle rækkeværdierne er \[a = 1, b = 2\] i tabellen `({[a = 1, b = 2], [a = 3, b = 4]})`.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({

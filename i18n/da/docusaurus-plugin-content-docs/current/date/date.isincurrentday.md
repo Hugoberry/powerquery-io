@@ -19,12 +19,14 @@ Date.IsInCurrentDay(
 
 ## Remarks
 
-Angiver, om den anførte datetime-værdi <code>dateTime</code> indtræffer i løbet af den aktuelle dag i forhold til den aktuelle dag og det aktuelle klokkeslæt i systemet.      <ul>      <li><code>dateTime</code>: En værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>, der skal evalueres.</li>      </ul>
+Angiver, om den anførte datetime-værdi `dateTime` indtræffer i løbet af den aktuelle dag i forhold til den aktuelle dag og det aktuelle klokkeslæt i systemet.
+
+-   `dateTime`: En værdi af typen `date`, `datetime` eller `datetimezone`, der skal evalueres.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Afgør, om det aktuelle systemklokkeslæt ligger på den aktuelle dag.
 ```powerquery
 Date.IsInCurrentDay(DateTime.FixedLocalNow())

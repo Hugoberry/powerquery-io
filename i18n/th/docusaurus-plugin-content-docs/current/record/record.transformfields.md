@@ -21,13 +21,17 @@ Record.TransformFields(
 
 ## Remarks
 
-ส่งกลับระเบียนหลังจากนำการแปลงที่ระบุในรายการ <code>transformOperations</code> ไปใช้กับ <code>record</code>    คุณสามารถแปลงอย่างน้อยหนึ่งเขตข้อมูลได้ในเวลาที่กำหนด       <div>ในกรณีของเขตข้อมูลเดียวที่มีการแปลงข้อมูลอยู่ <code>transformOperations</code> จะต้องเป็นรายการที่มีสองข้อมูล รายการแรกใน <code>transformOperations</code> ระบุถึงชื่อเขตข้อมูล และรายการที่สองใน <code>transformOperations</code> ระบุถึงฟังก์ชันที่จะใช้สำหรับการแปลง ตัวอย่างเช่น <code>\{"Quantity", Number.FromText}</code></div>      <div>ในกรณีของหลายเขตข้อมูลที่มีการแปลงข้อมูลอยู่ <code>transformOperations</code> จะต้องเป็นรายการหนึ่งในรายการต่างๆ ซึ่งมีแต่ละรายการภายในเป็นคู่ของชื่อเขตข้อมูลและการดำเนินการแปลง ตัวอย่างเช่น <code>\{\{"Quantity",Number.FromText},\{"UnitPrice", Number.FromText}}</code></div>
+ส่งกลับระเบียนหลังจากนำการแปลงที่ระบุในรายการ `transformOperations` ไปใช้กับ `record` คุณสามารถแปลงอย่างน้อยหนึ่งเขตข้อมูลได้ในเวลาที่กำหนด
+
+ในกรณีของเขตข้อมูลเดียวที่มีการแปลงข้อมูลอยู่ `transformOperations` จะต้องเป็นรายการที่มีสองข้อมูล รายการแรกใน `transformOperations` ระบุถึงชื่อเขตข้อมูล และรายการที่สองใน `transformOperations` ระบุถึงฟังก์ชันที่จะใช้สำหรับการแปลง ตัวอย่างเช่น `{"Quantity", Number.FromText}`
+
+ในกรณีของหลายเขตข้อมูลที่มีการแปลงข้อมูลอยู่ `transformOperations` จะต้องเป็นรายการหนึ่งในรายการต่างๆ ซึ่งมีแต่ละรายการภายในเป็นคู่ของชื่อเขตข้อมูลและการดำเนินการแปลง ตัวอย่างเช่น `{{"Quantity",Number.FromText},{"UnitPrice", Number.FromText}}`
 
 
 ## Examples
 
-### Example #1 
-แปลงเขตข้อมูล &#34;ราคา&#34; ให้เป็นตัวเลข
+### Example #1
+แปลงเขตข้อมูล "ราคา" ให้เป็นตัวเลข
 ```powerquery
 Record.TransformFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = "100.0"],
@@ -41,8 +45,8 @@ Result:
 ```
 
 
-### Example #2 
-แปลงเขตข้อมูล &#34;OrderID&#34; และ &#34;Price&#34; เป็นตัวเลข
+### Example #2
+แปลงเขตข้อมูล "OrderID" และ "Price" เป็นตัวเลข
 ```powerquery
 Record.TransformFields(
     [OrderID = "1", CustomerID = 1, Item = "Fishing rod", Price = "100.0"],

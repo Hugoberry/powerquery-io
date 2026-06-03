@@ -20,12 +20,12 @@ Number.RoundTowardZero(
 
 ## Remarks
 
-Returns the result of rounding <code>number</code> based on the sign of the number. This function will round positive numbers down and negative numbers up.    If <code>digits</code> is specified, <code>number</code> is rounded to the <code>digits</code> number of decimal digits.  
+Returns the result of rounding `number` based on the sign of the number. This function will round positive numbers down and negative numbers up. If `digits` is specified, `number` is rounded to the `digits` number of decimal digits.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Round the number -1.2 toward zero.
 ```powerquery
 Number.RoundTowardZero(-1.2)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Round the number 1.2 toward zero.
 ```powerquery
 Number.RoundTowardZero(1.2)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Round the number -1.234 to two decimal places toward zero.
 ```powerquery
 Number.RoundTowardZero(-1.234, 2)

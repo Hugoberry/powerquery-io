@@ -27,8 +27,8 @@ Esta função pode ser utilizada para obter dados de um determinado ponto final 
 
 ## Examples
 
-### Example #1 
-Obtém as métricas de capacidade de entrega de count_sent e count_rejected relativamente a todos os campaign_ids agregados durante os últimos três dias. 
+### Example #1
+Obtém as métricas de capacidade de entrega de count\_sent e count\_rejected relativamente a todos os campaign\_ids agregados durante os últimos três dias.
 ```powerquery
 Source = SparkPost.GetTable(3, "count_sent,count_rejected", "campaign_id", "metrics/deliverability/campaign")
 ```

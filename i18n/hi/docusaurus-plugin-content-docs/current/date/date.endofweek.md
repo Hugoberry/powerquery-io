@@ -20,12 +20,15 @@ Date.EndOfWeek(
 
 ## Remarks
 
-उस सप्ताह के अंत में लौटाता है जिसमें <code>dateTime</code> होता है.    यह फ़ंक्शन इस सापेक्षिक परिकलन के लिए सप्ताह का पहला दिन सेट करने हेतु एक वैकल्पिक <code>Day</code> <code>firstDayOfWeek</code> लेता है. डिफ़ॉल्ट मान <code>Day.Sunday</code> है.      <ul>        <li><code>dateTime</code>: एक ऐसा <code>date</code>, <code>datetime</code> या <code>datetimezone</code> मान, जिससे सप्ताह के अंतिम दिन का परिकलन किया जाता है</li>        <li><code>firstDayOfWeek</code>: <i>[वैकल्पिक]</i> सप्ताह के पहले दिन को दर्शाने वाला <code>Day.Type</code> मान संभावित मान <code>Day.Sunday</code>, <code>Day.Monday</code>, <code>Day.Tuesday</code>, <code>Day.Wednesday</code>, <code>Day.Thursday</code>, <code>Day.Friday</code> और <code>Day.Saturday.</code> हैं. डिफ़ॉल्ट मान <code>Day.Sunday</code> है.</li>      </ul>
+उस सप्ताह का अंत लौटाता है जिसमें `dateTime`. शामिल है. यह फ़ंक्शन एक वैकल्पिक `Day`, `firstDayOfWeek` लेता है, जिसे इस सापेक्ष गणना के लिए सप्ताह के पहले दिन के रूप में सेट किया जाता है. डिफ़ॉल्ट मान `Day.Sunday` है.
+
+-   `dateTime`: एक `date`, `datetime`, या `datetimezone` मान, जिससे सप्ताह का अंतिम दिन परिकलित किया जाता है
+-   `firstDayOfWeek`: *(वैकल्पिक)* एक `Day.Type` मान, जो सप्ताह के पहले दिन को दर्शाता है. संभावित मान `Day.Sunday`, `Day.Monday`, `Day.Tuesday`, `Day.Wednesday`, `Day.Thursday`, `Day.Friday` और `Day.Saturday` हैं. डिफ़ॉल्ट मान `Day.Sunday` है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 5/14/2011 के लिए सप्ताह की समाप्ति प्राप्त करें.
 ```powerquery
 Date.EndOfWeek(#date(2011, 5, 14))
@@ -37,7 +40,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 प्राप्त करें कि सप्ताह का पहला दिन रविवार होने पर, 5/17/2011 05:00:00 अपराह्न -7:00, को सप्ताह का अंत कब होगा.
 ```powerquery
 Date.EndOfWeek(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0), Day.Sunday)

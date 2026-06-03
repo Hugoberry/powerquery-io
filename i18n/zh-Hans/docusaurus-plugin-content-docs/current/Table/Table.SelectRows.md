@@ -20,13 +20,13 @@ Table.SelectRows(
 
 ## Remarks
 
-从 <code>table</code> 返回与选择 <code>condition</code> 匹配的行的表。
+从 `table` 返回与选择 `condition` 匹配的行的表。
 
 
 ## Examples
 
-### Example #1 
-选择表中的行，其中 [CustomerID] 列中的值大于 2。
+### Example #1
+选择表中的行，其中 \[CustomerID\] 列中的值大于 2。
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({
@@ -48,8 +48,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-选择表中的行，其中名称不包含 &#34;B&#34;。
+### Example #2
+选择表中的行，其中名称不包含 "B"。
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({

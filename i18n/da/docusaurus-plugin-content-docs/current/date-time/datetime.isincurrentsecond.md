@@ -19,12 +19,14 @@ DateTime.IsInCurrentSecond(
 
 ## Remarks
 
-Angiver, om den angivne værdi af typen datetime <code>dateTime</code> optræder i løbet af det aktuelle sekund, sådan som det er bestemt af den aktuelle dato og tid på systemet.      <ul>      <li><code>dateTime</code>: En værdi for koden <code>datetime</code> eller <code>datetimezone</code>, der skal evalueres.</li>      </ul>
+Angiver, om den angivne værdi af typen datetime `dateTime` optræder i løbet af det aktuelle sekund, sådan som det er bestemt af den aktuelle dato og tid på systemet.
+
+-   `dateTime`: En værdi for koden `datetime` eller `datetimezone`, der skal evalueres.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bestem, om den aktuelle systemtid er i det aktuelle sekund.
 ```powerquery
 DateTime.IsInCurrentSecond(DateTime.FixedLocalNow())

@@ -20,13 +20,14 @@ List.FirstN(
 
 ## Remarks
 
- <ul>  <li>Om ett tal anges returneras så många objekt. </li>  <li>Om ett villkor anges returneras alla objekt som inledningsvis uppfyller villkoret. Om ett objekt inte uppfyller villkoret utvärderas inga fler objekt. </li> </ul>
+-   Om ett tal anges returneras så många objekt.
+-   Om ett villkor anges returneras alla objekt som inledningsvis uppfyller villkoret. Om ett objekt inte uppfyller villkoret utvärderas inga fler objekt.
 
 
 ## Examples
 
-### Example #1 
-Hitta de första värdena i listan \{3, 4, 5, -1, 7, 8, 2} som är större än 0.
+### Example #1
+Hitta de första värdena i listan \{3, 4, 5, -1, 7, 8, 2\} som är större än 0.
 ```powerquery
 List.FirstN({3, 4, 5, -1, 7, 8, 2}, each _ > 0)
 ```

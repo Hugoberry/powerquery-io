@@ -27,7 +27,7 @@ Table.CombineColumns(
 
 ## Examples
 
-### Example #1 
+### Example #1
 รวมชื่อและนามสกุลลงในคอลัมน์ใหม่ โดยคั่นด้วยเครื่องหมายจุลภาค
 ```powerquery
 Table.CombineColumns(

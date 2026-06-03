@@ -20,12 +20,15 @@ Date.EndOfWeek(
 
 ## Remarks
 
-Returnerer slutningen af den uge, der indeholder <code>dateTime</code>.      Denne funktion bruger en valgfri <code>Day</code>, <code>firstDayOfWeek</code>, til at angive som den første dag i ugen for denne relative beregning. Standardværdien er <code>Day.Sunday</code>.      <ul>      <li><code>dateTime</code>: En værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>, som den sidste dag i ugen beregnes ud fra</li>      <li><code>firstDayOfWeek</code>:      <i>[Valgfri]</i> En <code>Day.Type</code> værdi, der repræsenterer den første dag i ugen. Mulige værdier er <code>Day.Sunday</code>, <code>Day.Monday</code>, <code>Day.Tuesday</code>, <code>Day.Wednesday</code>, <code>Day.Thursday</code>, <code>Day.Friday</code> og <code>Day.Saturday.</code> . Standardværdien er <code>Day.Sunday</code>.</li>      </ul>
+Returns the end of the week that contains `dateTime`. This function takes an optional `Day`, `firstDayOfWeek`, to set as the first day of the week for this relative calculation. The default value is `Day.Sunday`.
+
+-   `dateTime`: A `date`, `datetime`, or `datetimezone` value from which the last day of the week is calculated
+-   `firstDayOfWeek`: *(Optional)* A `Day.Type` value representing the first day of the week. Possible values are `Day.Sunday`, `Day.Monday`, `Day.Tuesday`, `Day.Wednesday`, `Day.Thursday`, `Day.Friday` and `Day.Saturday`. The default value is `Day.Sunday`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hent ugens slutning for 14-05-2011.
 ```powerquery
 Date.EndOfWeek(#date(2011, 5, 14))
@@ -37,7 +40,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Hent ugens slutning for 17-05-2011, 17:00:00-7:00, hvor søndag er den første dag i ugen.
 ```powerquery
 Date.EndOfWeek(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0), Day.Sunday)

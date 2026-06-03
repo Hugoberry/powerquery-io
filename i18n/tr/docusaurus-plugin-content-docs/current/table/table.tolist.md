@@ -25,7 +25,7 @@ Bir tabloyu belirtilen ayırma işlevini tablodaki her değer satırına uygulay
 
 ## Examples
 
-### Example #1 
+### Example #1
 Her bir satır metnini virgül ile birleştirin.
 ```powerquery
 Table.ToList(

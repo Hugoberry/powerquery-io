@@ -20,7 +20,7 @@ Number.BitwiseShiftRight(
 
 ## Remarks
 
-Devolve o resultado da execução de um desvio bit a bit para a direita em <code>number1</code> pelo número especificado de bits <code>number2</code>.
+Devolve o resultado da execução de um desvio bit a bit para a direita em `number1` pelo número especificado de bits `number2`.
 
 
 

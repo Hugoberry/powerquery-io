@@ -25,7 +25,7 @@ Table.ReplaceKeys(
 
 ## Examples
 
-### Example #1 
+### Example #1
 तालिका की मौजूदा कुंजियों को बदलें.
 ```powerquery
 let

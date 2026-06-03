@@ -20,13 +20,13 @@ Table.HasColumns(
 
 ## Remarks
 
-Geeft aan of de <code>table</code> opgegeven kolom of kolommen, <code>columns</code>, bevat. Retourneert <code>waar</code> als de tabel de kolom of kolommen bevat. Als dat niet het geval is, wordt <code>onwaar</code> geretourneerd.
+Geeft aan of de `table` opgegeven kolom of kolommen, `columns`, bevat. Retourneert `waar` als de tabel de kolom of kolommen bevat. Als dat niet het geval is, wordt `onwaar` geretourneerd.
 
 
 ## Examples
 
-### Example #1 
-Bepalen of de tabel de kolom [Name] bevat.
+### Example #1
+Bepalen of de tabel de kolom \[Name\] bevat.
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({
@@ -45,8 +45,8 @@ true
 ```
 
 
-### Example #2 
-Uitzoeken of de tabel de kolommen [Name] en [PhoneNumber] bevat.
+### Example #2
+Uitzoeken of de tabel de kolommen \[Name\] en \[PhoneNumber\] bevat.
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({

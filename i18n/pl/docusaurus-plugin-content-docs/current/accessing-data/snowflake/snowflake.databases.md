@@ -21,12 +21,17 @@ Snowflake.Databases(
 
 ## Remarks
 
-Zwraca tabelę zawierającą listę tabel w magazynie <code>warehouse</code> usługi Snowflake Computing zlokalizowanym na serwerze <code>server</code>. Istnieje możliwość określenia opcjonalnego parametru rekordu <code>options</code> do kontrolowania następujących opcji:<ul><li><code>Role</code>: Wartość tekstowa do użycia jako nazwa roli dla połączenia.</li><li><code>CreateNavigationProperties</code>: Wartość logiczna (true/false) decydująca o tym, czy generować właściwości nawigacji dla zwróconych wartości (wartość domyślna to true).</li><li><code>ConnectionTimeout</code>: Liczba sekund oczekiwania na odpowiedzi sieciowe od usługi Snowflake.</li><li><code>CommandTimeout</code>: Liczba sekund oczekiwania na wykonanie zapytania.</li></ul>    
+Zwraca tabelę zawierającą listę tabel w magazynie `warehouse` usługi Snowflake Computing zlokalizowanym na serwerze `server`. Istnieje możliwość określenia opcjonalnego parametru rekordu `options` do kontrolowania następujących opcji:
+
+-   `Role`: Wartość tekstowa do użycia jako nazwa roli dla połączenia.
+-   `CreateNavigationProperties`: Wartość logiczna (true/false) decydująca o tym, czy generować właściwości nawigacji dla zwróconych wartości (wartość domyślna to true).
+-   `ConnectionTimeout`: Liczba sekund oczekiwania na odpowiedzi sieciowe od usługi Snowflake.
+-   `CommandTimeout`: Liczba sekund oczekiwania na wykonanie zapytania.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Wyświetl listę tabeli w magazynie Snowflake.
 ```powerquery
 Snowflake.Databases("contoso.snowflakecomputing.com", "CONTOSO_WH")

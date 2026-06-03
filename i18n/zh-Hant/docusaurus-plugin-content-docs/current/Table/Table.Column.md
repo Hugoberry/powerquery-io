@@ -20,13 +20,13 @@ Table.Column(
 
 ## Remarks
 
-將資料表 <code>table</code> 中 <code>column</code> 所指定的資料行傳回成清單。
+將資料表 `table` 中 `column` 所指定的資料行傳回成清單。
 
 
 ## Examples
 
-### Example #1 
-傳回資料表中 [Name] 資料行的值。
+### Example #1
+傳回資料表中 \[Name\] 資料行的值。
 ```powerquery
 Table.Column(
     Table.FromRecords({

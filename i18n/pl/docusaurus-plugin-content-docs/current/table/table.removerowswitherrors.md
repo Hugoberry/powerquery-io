@@ -25,7 +25,7 @@ Zwraca tabelę powstałą w wyniku usunięcia z tabeli wejściowej wierszy, któ
 
 ## Examples
 
-### Example #1 
+### Example #1
 Usuń wartość błędu z pierwszego wiersza.
 ```powerquery
 Table.RemoveRowsWithErrors(

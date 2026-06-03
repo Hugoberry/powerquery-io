@@ -21,12 +21,12 @@ DateTimeZone.SwitchZone(
 
 ## Remarks
 
-<code>dateTimeZone</code> datetimezone değerindeki saat dilimi bilgilerini <code>timezoneHours</code> ve isteğe bağlı olarak <code>timezoneMinutes</code> tarafından sağlanan yeni saat dilimi bilgileri ile değiştirir.    <code>dateTimeZone</code> bir saat dilimi bileşenine sahip değilse, bir özel durum oluşur.
+`dateTimeZone` datetimezone değerindeki saat dilimi bilgilerini `timezoneHours` ve isteğe bağlı olarak `timezoneMinutes` tarafından sağlanan yeni saat dilimi bilgileri ile değiştirir. `dateTimeZone` zaman dilimi bileşeni içermiyorsa, bir hata oluşur.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) için saat dilimi bilgilerini 8 saat olarak değiştirir.
 ```powerquery
 DateTimeZone.SwitchZone(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30), 8)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) için saat dilimi bilgisini -30 dakika olarak değiştirir.
 ```powerquery
 DateTimeZone.SwitchZone(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30), 0, -30)

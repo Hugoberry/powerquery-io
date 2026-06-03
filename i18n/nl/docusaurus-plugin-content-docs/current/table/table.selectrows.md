@@ -20,13 +20,13 @@ Table.SelectRows(
 
 ## Remarks
 
-Retourneert een tabel met rijen vanuit de <code>table</code> die overeenkomt met de selectie <code>condition</code>.
+Retourneert een tabel met rijen vanuit de `table` die overeenkomt met de selectie `condition`.
 
 
 ## Examples
 
-### Example #1 
-Selecteer de rijen in de tabel waarbij de waarden in de kolom [CustomerID] groter zijn dan 2.
+### Example #1
+Selecteer de rijen in de tabel waarbij de waarden in de kolom \[CustomerID\] groter zijn dan 2.
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({
@@ -48,7 +48,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Selecteer de rijen in de tabel waar de namen geen B bevatten.
 ```powerquery
 Table.SelectRows(

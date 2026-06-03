@@ -21,12 +21,12 @@ Text.Format(
 
 ## Remarks
 
-返回通过将来自列表或记录的 <code>arguments</code> 应用于格式字符串 <code>formatString</code> 创建的格式化文本。还可提供可选的 <code>culture</code> (例如 "en-US")。
+返回通过将来自列表或记录的 `arguments` 应用于格式字符串 `formatString` 创建的格式化文本。还可提供可选的 `culture` (例如 "en-US")。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 设置数字列表格式。
 ```powerquery
 Text.Format("#{0}, #{1}, and #{2}.", {17, 7, 22})
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 根据美国英语区域性设置记录中的不同数据类型的格式。
 ```powerquery
 Text.Format(

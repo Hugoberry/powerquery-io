@@ -20,7 +20,7 @@ Cube.CollapseAndRemoveColumns(
 
 ## Remarks
 
-Ändert die Dimensionsgranularität des Filterkontexts für den Cube '<code>cube</code>', indem die Ansicht der Attribute, die den angegebenen <code>columnNames</code>-Spalten zugeordnet sind, reduziert wird. Die Spalten werden auch aus der tabellarischen Sicht des Cubes entfernt.
+Ändert die Dimensionsgranularität des Filterkontexts für den Cube '`cube`', indem die Ansicht der Attribute, die den angegebenen `columnNames`\-Spalten zugeordnet sind, reduziert wird. Die Spalten werden auch aus der tabellarischen Sicht des Cubes entfernt.
 
 
 

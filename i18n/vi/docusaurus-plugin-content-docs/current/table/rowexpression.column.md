@@ -19,13 +19,13 @@ RowExpression.Column(
 
 ## Remarks
 
-Trả về một cây cú pháp trừu tượng (AST) biểu thị quyền truy nhập vào cột <code>columnName</code> của hàng trong một biểu thức hàng.
+Trả về một cây cú pháp trừu tượng (AST) biểu thị quyền truy nhập vào cột `columnName` của hàng trong một biểu thức hàng.
 
 
 ## Examples
 
-### Example #1 
-Tạo một AST biểu thị truy cập cột &#34;CustomerName&#34;.
+### Example #1
+Tạo một AST biểu thị truy cập cột "CustomerName".
 ```powerquery
 RowExpression.Column("CustomerName")
 ```

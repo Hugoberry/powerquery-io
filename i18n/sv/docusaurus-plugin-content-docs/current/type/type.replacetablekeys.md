@@ -20,18 +20,25 @@ Type.ReplaceTableKeys(
 
 ## Remarks
 
-Returnerar en ny tabelltyp med alla nycklar ersatta med den angivna listan med nycklar.<br />    <br />    Varje nyckel definieras med hjälp av en post i följande format:    <ul>      <li>        <code>Columns</code>: en lista över kolumnnamnen som definierar nyckeln      </li>      <li>        <code>Primary</code>: <code>true</code> om nyckeln är tabellens primärnyckel; annars <code>false</code>      </li>    </ul>    Den angivna listan över nycklar verifieras för att säkerställa att högst en primärnyckel har definierats och att alla nyckelkolumnnamn finns i tabelltypen.    
+Returnerar en ny tabelltyp med alla nycklar ersatta med den angivna listan med nycklar.  
+  
+Varje nyckel definieras med hjälp av en post i följande format:
+
+-   `Columns`: en lista över kolumnnamnen som definierar nyckeln
+-   `Primary`: `true` om nyckeln är tabellens primärnyckel; annars `false`
+
+Den angivna listan över nycklar verifieras för att säkerställa att högst en primärnyckel har definierats och att alla nyckelkolumnnamn finns i tabelltypen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ersätt nyckelinformationen för en tabelltyp.
 ```powerquery
 let
     BaseType = type table [ID = number, FirstName = text, LastName = text],
     KeysAdded = Type.ReplaceTableKeys(
-        BaseType, 
+        BaseType,
         {
             [Columns = {"ID"}, Primary = true],
             [Columns = {"FirstName", "LastName"}, Primary = false]
@@ -51,7 +58,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Rensa nyckelinformationen som tidigare definierats för en tabelltyp.
 ```powerquery
 let

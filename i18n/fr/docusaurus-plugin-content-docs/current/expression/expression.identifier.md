@@ -5,7 +5,7 @@ title: Expression.Identifier
 # Expression.Identifier
 
 
-Retourne la représentation en code source M d&#39;un identificateur.
+Retourne la représentation en code source M d'un identificateur.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Expression.Identifier(
 
 ## Remarks
 
-Retourne la représentation en code source M d'un identificateur <code>name</code>.
+Retourne la représentation en code source M d'un identificateur `name`.
 
 
 ## Examples
 
-### Example #1 
-Obtenir la représentation en code source M d&#39;un identificateur.
+### Example #1
+Obtenir la représentation en code source M d'un identificateur.
 ```powerquery
 Expression.Identifier("MyIdentifier")
 ```
@@ -36,8 +36,8 @@ Result:
 ```
 
 
-### Example #2 
-Obtenir la représentation en code source M d&#39;un identificateur contenant un espace.
+### Example #2
+Obtenir la représentation en code source M d'un identificateur contenant un espace.
 ```powerquery
 Expression.Identifier("My Identifier")
 ```

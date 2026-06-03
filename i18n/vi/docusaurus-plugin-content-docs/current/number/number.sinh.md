@@ -19,7 +19,7 @@ Number.Sinh(
 
 ## Remarks
 
-Trả về sin hyperbolic của <code>number</code>.
+Trả về sin hyperbolic của `number`.
 
 
 

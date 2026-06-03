@@ -26,7 +26,7 @@ Hiermee wordt een aanroep verzonden naar de Smartsheet 2.0 REST API op het opgeg
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hiermee worden gegevens opgehaald uit de bladen op het Smartsheet-API-eindpunt waarvoor extra argumenten zijn opgegeven
 ```powerquery
 Smartsheet.Content("sheets", "include=ownerInfo&includeAll=true", [])

@@ -21,13 +21,17 @@ Table.SelectColumns(
 
 ## Remarks
 
-Trả về <code>table</code> chỉ có <code>columns</code> được chỉ định.    <ul>       <li><code>table</code>: Bảng được cung cấp.</li>       <li><code>columns</code>: Danh sách các cột từ bảng <code>table</code> sẽ trả về. Các cột trong bảng được trả về sắp xếp theo thứ tự được liệt kê trong <code>columns</code>.</li>       <li><code>missingField</code>: <i>(Tùy chọn)</i> Nên làm gì nếu cột không tồn tại.  Ví dụ: <code>MissingField.UseNull</code> hoặc <code>MissingField.Ignore</code>.    </li></ul>
+Trả về `table` chỉ có `columns` được chỉ định.
+
+-   `table`: Bảng được cung cấp.
+-   `columns`: Danh sách các cột từ bảng `table` để trả về. Các cột trong bảng được trả về sắp xếp theo thứ tự được liệt kê trong `columns`.
+-   `missingField`: *(Tùy chọn)* Việc cần làm nếu cột không tồn tại. Ví dụ: `MissingField.UseNull` hoặc `MissingField.Ignore`.
 
 
 ## Examples
 
-### Example #1 
-Chỉ bao gồm cột [Name].
+### Example #1
+Chỉ bao gồm cột \[Name\].
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({
@@ -51,8 +55,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Chỉ bao gồm cột [CustomerID] và [Name].
+### Example #2
+Chỉ bao gồm cột \[CustomerID\] và \[Name\].
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -66,7 +70,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #3 
+### Example #3
 Nếu cột được bao gồm không tồn tại, kết quả mặc định là lỗi.
 ```powerquery
 Table.SelectColumns(
@@ -81,8 +85,8 @@ Result:
 ```
 
 
-### Example #4 
-Nếu cột được bao gồm không tồn tại, tùy chọn&lt;code&gt;MissingField.UseNull&lt;/code&gt; sẽ tạo một cột có các giá trị null.
+### Example #4
+Nếu cột được bao gồm không tồn tại, tùy chọn`MissingField.UseNull` sẽ tạo một cột có các giá trị null.
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

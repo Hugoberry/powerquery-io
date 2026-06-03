@@ -26,7 +26,7 @@ Trả về một hàm tách văn bản thành một danh sách văn bản tại 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tách dữ liệu đầu vào bằng dấu phẩy hoặc dấu chấm phẩy, bỏ qua dấu ngoặc kép và dấu phân tách trong trích dẫn, kể từ đoạn đầu của dữ liệu đầu vào.
 ```powerquery
 Splitter.SplitTextByAnyDelimiter({",", ";"}, QuoteStyle.Csv)("a,b;""c,d;e"",f")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Tách dữ liệu đầu vào bằng dấu phẩy hoặc dấu chấm phẩy, bỏ qua dấu ngoặc kép và dấu phân tách trong trích dẫn, kể từ đoạn cuối của dữ liệu đầu vào.
 ```powerquery
 let

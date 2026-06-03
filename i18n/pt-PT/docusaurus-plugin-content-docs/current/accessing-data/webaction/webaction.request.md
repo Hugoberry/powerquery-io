@@ -21,12 +21,24 @@ WebAction.Request(
 
 ## Remarks
 
-Cria uma ação que, quando executada, devolverá os resultados da realização de um pedido de <code>method</code> a <code>url</code> utilizando o HTTP como valor binário.    Pode ser fornecido um parâmetro de registo opcional, <code>options</code>, para especificar propriedades adicionais. O registo pode conter os seguintes campos:    <ul><li><code>Query</code> : Adicione programaticamente par&#226;metros de consulta ao URL, sem ter de se preocupar com escapes.</li><li><code>ApiKeyName</code> : Se o site de destino tiver uma no&#231;&#227;o de uma chave de API, este par&#226;metro pode ser utilizado para especificar o nome (n&#227;o o valor) do par&#226;metro chave que &#233; necess&#225;rio utilizar no URL. O valor chave real &#233; fornecido na credencial.</li><li><code>Headers</code> : Especificar este valor como um registo vai fornecer cabe&#231;alhos adicionais a um pedido HTTP.</li><li><code>Timeout</code> : Especificar este valor como uma dura&#231;&#227;o vai alterar o tempo limite para um pedido HTTP. O valor predefinido &#233; de 100 segundos.</li><li><code>ExcludedFromCacheKey</code> : Especificar este valor como uma lista vai excluir estas chaves de cabe&#231;alho HTTP para que n&#227;o fa&#231;am parte do c&#225;lculo para colocar os dados em cache.</li><li><code>IsRetry</code> : Especificar este valor l&#243;gico como verdadeiro vai ignorar qualquer resposta existente na cache ao obter os dados.</li><li><code>ManualStatusHandling</code> : Especificar este valor como uma lista vai impedir qualquer processamento incorporado para pedidos HTTP cuja resposta tenha um destes c&#243;digos de estado.</li><li><code>RelativePath</code> : Especificar este valor como texto acrescenta-o ao URL base antes de fazer o pedido.</li><li><code>Content</code> : Especificar este valor vai fazer com que os conte&#250;dos do mesmo se tornem o corpo do pedido HTTP.</li></ul>    <br />    Note que esta função está desativada na maioria dos contextos. Pondere utilizar antes Web.Contents ou Web.Headers.    
+Cria uma ação que, quando executada, devolverá, sob a forma de um valor binário, os resultados da execução de um pedido `method` a `url` por HTTP. Poderá ser fornecido um parâmetro de registo opcional, `options`, para especificar propriedades adicionais. O registo pode conter os campos seguintes:
+
+-   `Query` : Adicione programaticamente parâmetros de consulta ao URL, sem ter de se preocupar com escapes.
+-   `ApiKeyName` : Se o site de destino tiver uma noção de uma chave de API, este parâmetro pode ser utilizado para especificar o nome (não o valor) do parâmetro chave que é necessário utilizar no URL. O valor chave real é fornecido na credencial.
+-   `Headers` : Especificar este valor como um registo vai fornecer cabeçalhos adicionais a um pedido HTTP.
+-   `Timeout` : Especificar este valor como uma duração vai alterar o tempo limite para um pedido HTTP. O valor predefinido é de 100 segundos.
+-   `ExcludedFromCacheKey` : Especificar este valor como uma lista vai excluir estas chaves de cabeçalho HTTP para que não façam parte do cálculo para colocar os dados em cache.
+-   `IsRetry` : Especificar este valor lógico como verdadeiro vai ignorar qualquer resposta existente na cache ao obter os dados.
+-   `ManualStatusHandling` : Especificar este valor como uma lista vai impedir qualquer processamento incorporado para pedidos HTTP cuja resposta tenha um destes códigos de estado.
+-   `RelativePath` : Especificar este valor como texto acrescenta-o ao URL base antes de fazer o pedido.
+-   `Content` : Especificar este valor vai fazer com que os conteúdos do mesmo se tornem o corpo do pedido HTTP.
+
+Tenha em atenção que esta função está desativada na maioria dos contextos. Considere utilizar Web.Contents ou Web.Headers em alternativa.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Executar um pedido GET no Bing.
 ```powerquery
 WebAction.Request(WebMethod.Get, "https://bing.com")

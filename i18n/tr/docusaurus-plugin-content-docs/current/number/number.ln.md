@@ -19,13 +19,13 @@ Number.Ln(
 
 ## Remarks
 
-Sayıların doğal logaritmasını döndürür, <code>number</code>. <code>number</code> null ise <code>Number.Ln</code> null döndürür.
+Sayıların doğal logaritmasını döndürür, `number`. `number` null ise `Number.Ln` null döndürür.
 
 
 ## Examples
 
-### Example #1 
-15&#39;in doğal logaritmasını alır.
+### Example #1
+15'in doğal logaritmasını alır.
 ```powerquery
 Number.Ln(15)
 ```

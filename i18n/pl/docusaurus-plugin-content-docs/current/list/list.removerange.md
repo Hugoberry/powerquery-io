@@ -21,13 +21,13 @@ List.RemoveRange(
 
 ## Remarks
 
-Usuwa <code>count</code> wartości z listy <code>list</code>, zaczynając od określonej pozycji <code>index</code>.
+Usuwa `count` wartości z listy `list`, zaczynając od określonej pozycji `index`.
 
 
 ## Examples
 
-### Example #1 
-Usuń 3 wartości z listy \{1, 2, 3, 4, -6, -2, -1, 5}, zaczynając od indeksu 4.
+### Example #1
+Usuń 3 wartości z listy \{1, 2, 3, 4, -6, -2, -1, 5\}, zaczynając od indeksu 4.
 ```powerquery
 List.RemoveRange({1, 2, 3, 4, -6, -2, -1, 5}, 4, 3)
 ```

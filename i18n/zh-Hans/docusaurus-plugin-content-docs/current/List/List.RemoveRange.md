@@ -21,13 +21,13 @@ List.RemoveRange(
 
 ## Remarks
 
-在 <code>list</code> 中删除从指定的位置 <code>index</code> 开始的 <code>count</code> 个值。
+在 `list` 中删除从指定的位置 `index` 开始的 `count` 个值。
 
 
 ## Examples
 
-### Example #1 
-在列表 \{1, 2, 3, 4, -6, -2, -1, 5} 中删除从索引 4 开始的 3 个值。
+### Example #1
+在列表 \{1, 2, 3, 4, -6, -2, -1, 5\} 中删除从索引 4 开始的 3 个值。
 ```powerquery
 List.RemoveRange({1, 2, 3, 4, -6, -2, -1, 5}, 4, 3)
 ```

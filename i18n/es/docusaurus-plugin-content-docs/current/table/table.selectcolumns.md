@@ -21,13 +21,17 @@ Table.SelectColumns(
 
 ## Remarks
 
-Devuelve la <code>table</code> solo con las <code>columns</code> especificadas.    <ul>       <li><code>table</code>: la tabla proporcionada.</li>       <li><code>columns</code>: la lista de columna de la tabla <code>table</code> que devolver. Las columnas de la tabla devuelta están en el orden indicado en <code>columns</code>.</li>       <li><code>missingField</code>: <i>(opcional)</i> qué hacer si la columna no existe.  Por ejemplo: <code>MissingField.UseNull</code> o <code>MissingField.Ignore</code>.    </li></ul>
+Devuelve la `table` solo con las especificadas `columns`.
+
+-   `table`: la tabla proporcionada.
+-   `columns`: la lista de columnas de la tabla `table`para devolver. Las columnas de la tabla devuelta están en el orden indicado en `columns`.
+-   `missingField`: *(Opcional)* Qué hacer si la columna no existe. Ejemplo: `MissingField.UseNull` o `MissingField.Ignore`.
 
 
 ## Examples
 
-### Example #1 
-Incluir solo la columna [Name].
+### Example #1
+Incluir solo la columna \[Name\].
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({
@@ -51,8 +55,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Incluir solo las columnas [CustomerID] y [Name].
+### Example #2
+Incluir solo las columnas \[CustomerID\] y \[Name\].
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -66,7 +70,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #3 
+### Example #3
 Si la columna incluida no existe, el resultado predeterminado será un error.
 ```powerquery
 Table.SelectColumns(
@@ -81,8 +85,8 @@ Result:
 ```
 
 
-### Example #4 
-Si la columna incluida no existe, la opción &lt;code&gt;MissingField.UseNull&lt;/code&gt; crea una columna de valores NULL.
+### Example #4
+Si la columna incluida no existe, la opción `MissingField.UseNull` crea una columna de valores NULL.
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

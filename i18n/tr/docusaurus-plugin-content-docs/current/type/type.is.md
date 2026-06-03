@@ -20,12 +20,12 @@ Type.Is(
 
 ## Remarks
 
-<code>type1</code> değerinin her zaman <code>type2</code> ile uyumlu olup olmayacağını belirler.
+Değer değerinin her zaman `type1` uyumlu olup olmadığını `type2`. Parametre `type2` temel (veya null atanabilir temel) bir tür değeri olmalıdır. Aksi halde, bu işlevin davranışı tanımlanmamıştır ve buna güvenilmaları gerekir.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Sayı türündeki bir değerin her zaman herhangi bir değer olarak da değerlendirilip değerlendirilmeyeceğini belirler.
 ```powerquery
 Type.Is(type number, type any)
@@ -37,7 +37,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Herhangi bir türdeki değerin her zaman sayı olarak da değerlendirilip değerlendirilmeyeceğini belirler.
 ```powerquery
 Type.Is(type any, type number)

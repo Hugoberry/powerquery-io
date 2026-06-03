@@ -21,13 +21,13 @@ Table.FromPartitions(
 
 ## Remarks
 
-Retourneert een tabel die het resultaat is van de combinatie van een set gepartitioneerde tabellen, <code>partitions</code>. <code>partitionColumn</code> is de naam van de kolom die wordt toegevoegd. Het type kolom is standaard <code>willekeurig</code>, maar kan worden opgegeven met <code>partitionColumnType</code>.
+Retourneert een tabel die het resultaat is van de combinatie van een set gepartitioneerde tabellen, `partitions`. `partitionColumn` is de naam van de kolom die wordt toegevoegd. Het type kolom is standaard `willekeurig`, maar kan worden opgegeven met `partitionColumnType`.
 
 
 ## Examples
 
-### Example #1 
-Itemtype zoeken in de lijst &lt;code&gt;\{number}&lt;/code&gt;.
+### Example #1
+Itemtype zoeken in de lijst `{number}`.
 ```powerquery
 Table.FromPartitions(
     "Year",

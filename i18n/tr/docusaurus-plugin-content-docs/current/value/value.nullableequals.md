@@ -21,7 +21,7 @@ Value.NullableEquals(
 
 ## Remarks
 
-'<code>value1</code>', '<code>value2</code>' bağımsız değişkenlerinden biri null ise null döndürür, aksi halde Value.Equals ile eşdeğer bir değer döndürür.
+`value1` ya da `value2` bağımsız değişkenlerinden biri null ise null döndürür, aksi halde Value.Equals ile eşdeğer bir değer döndürür.
 
 
 

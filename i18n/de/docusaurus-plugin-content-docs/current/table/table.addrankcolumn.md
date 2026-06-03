@@ -22,12 +22,12 @@ Table.AddRankColumn(
 
 ## Remarks
 
-Fügt eine Spalte mit dem Namen <code>newColumnName</code> an die <code>table</code> mit der Rangfolge einer oder mehrerer anderer Spalten an, die von <code>comparisonCriteria</code> beschrieben werden.Die RankKind-Option in <code>options</code> kann von fortgeschrittenen Benutzern verwendet werden, um eine spezifischere Rangfolgemethode auszuwählen.
+Fügt eine Spalte mit dem Namen `newColumnName` an die `table` mit der Rangfolge einer oder mehrerer anderer Spalten an, die von `comparisonCriteria` beschrieben werden. Die RankKind-Option in `options` kann von fortgeschrittenen Benutzern verwendet werden, um eine spezifischere Rangfolgemethode auszuwählen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Fügen Sie der Tabelle eine Spalte mit dem Namen „Umsatzrangfolge“ hinzu, welche die Spalte „Umsatz“ vom höchsten zum niedrigsten Wert einstuft.
 ```powerquery
 Table.AddRankColumn(

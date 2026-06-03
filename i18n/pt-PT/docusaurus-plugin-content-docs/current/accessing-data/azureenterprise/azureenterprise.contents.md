@@ -25,7 +25,7 @@ Devolve os resultados binários para chamar o url fornecido para a API do Azure 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utilizar a função AzureEnterprise.Contents para devolver os resultados de um relatório específico.
 ```powerquery
         let

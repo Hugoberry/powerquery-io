@@ -21,13 +21,13 @@ List.RemoveMatchingItems(
 
 ## Remarks
 
-<code>list2</code> içindeki verilen değerleri <code>list1</code> listesinden kaldırır. <code>list2</code> içindeki değerler <code>list1</code> içinde yoksa, asıl liste döndürülür.    Eşitlik sınamasını denetlemek için <code>equationCriteria</code> isteğe bağlı eşitlik ölçüt değeri belirtilebilir. 
+`list2` içindeki verilen değerleri `list1` listesinden kaldırır. `list2` içindeki değerler `list1` içinde yoksa, asıl liste döndürülür. Eşitlik sınamasını denetlemek için `equationCriteria` isteğe bağlı eşitlik ölçüt değeri belirtilebilir.
 
 
 ## Examples
 
-### Example #1 
-\{1, 2, 3, 4, 5, 5} listesinden \{1, 5} değerlerini içermeyen bir liste oluşturur.
+### Example #1
+\{1, 2, 3, 4, 5, 5\} listesinden \{1, 5\} değerlerini içermeyen bir liste oluşturur.
 ```powerquery
 List.RemoveMatchingItems({1, 2, 3, 4, 5, 5}, {1, 5})
 ```

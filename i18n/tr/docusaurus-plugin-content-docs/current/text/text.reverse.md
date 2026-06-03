@@ -19,13 +19,13 @@ Text.Reverse(
 
 ## Remarks
 
-Sağlanan <code>text</code> değerini tersine çevirir.
+Sağlanan `text` değerini tersine çevirir.
 
 
 ## Examples
 
-### Example #1 
-&#34;123&#34; metnini tersine çevirir.
+### Example #1
+"123" metnini tersine çevirir.
 ```powerquery
 Text.Reverse("123")
 ```

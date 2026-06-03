@@ -20,13 +20,13 @@ Text.At(
 
 ## Remarks
 
-Returnerer tegnet i tekstværdien, <code>text</code>, ved positionen <code>index</code>. Det første tegn i teksten er ved position 0.
+Returnerer tegnet i tekstværdien, `text`, ved positionen `index`. Det første tegn i teksten er ved position 0.
 
 
 ## Examples
 
-### Example #1 
-Find tegnet ved position 4 i strengen &#34;Hello, World&#34;.
+### Example #1
+Find tegnet ved position 4 i strengen "Hello, World".
 ```powerquery
 Text.At("Hello, World", 4)
 ```

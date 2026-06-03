@@ -19,7 +19,7 @@ HdInsight.Contents(
 
 ## Remarks
 
-Returns a navigational table containing a row for each container found at the account URL, <code>account</code>, from an Azure storage vault. Each row contains a link to the container blobs.
+Returns a navigational table containing a row for each container found at the account URL, `account`, from an Azure storage vault. Each row contains a link to the container blobs.
 
 
 

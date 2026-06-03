@@ -27,7 +27,7 @@ Tworzy wywołanie podanego punktu końcowego raportowania rozwiązania Webtrends
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tworzy wywołanie do punktu końcowego raportu elementów odwiedzających rozwiązania Webtrends dotyczące danych z ostatnich 30 dni
 ```powerquery
 Webtrends.ReportContents("98765", "xPcmTDDP0P6")

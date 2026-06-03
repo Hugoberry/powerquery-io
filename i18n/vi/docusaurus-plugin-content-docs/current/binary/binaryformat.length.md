@@ -20,12 +20,12 @@ BinaryFormat.Length(
 
 ## Remarks
 
-Trả về một định dạng nhị phân giới hạn số lượng dữ liệu có thể đọc.  Cả <code>BinaryFormat.List</code> và <code>BinaryFormat.Binary</code> đều có thể dùng để đọc đến cuối dữ liệu.  <code>BinaryFormat.Length</code> có thể dùng để giới hạn số lượng byte được đọc.  Tham số <code>binaryFormat</code> chỉ định định dạng nhị phân để giới hạn.  Tham số <code>length</code> chỉ định số byte để đọc.  Tham số <code>length</code> có thể là một giá trị số hoặc một giá trị định dạng nhị phân chỉ định định dạng của giá trị độ dài xuất hiện và đứng trước giá trị được đọc.
+Trả về một định dạng nhị phân giới hạn số lượng dữ liệu có thể đọc. Có thể sử dụng cả `BinaryFormat.List` và `BinaryFormat.Binary` để đọc cho đến khi hết dữ liệu. Có thể sử dụng `BinaryFormat.Length` để giới hạn số byte được đọc. Tham số `binaryFormat` chỉ định định dạng nhị phân để giới hạn. Tham số `length` chỉ định số byte để đọc. Tham số `length` có thể là một giá trị số hoặc một giá trị định dạng nhị phân chỉ định định dạng của giá trị độ dài xuất hiện và đứng trước giá trị được đọc.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Giới hạn số lượng byte được đọc là 2 khi đọc một danh sách byte.
 ```powerquery
 let
@@ -44,7 +44,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Giới hạn số lượng byte được đọc khi đọc một danh sách byte ở giá trị byte đứng trước danh sách.
 ```powerquery
 let

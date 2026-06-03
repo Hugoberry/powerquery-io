@@ -24,7 +24,7 @@ Returnerer en tabel med de vigtigste MailChimp-data.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnerer en tabel med de vigtigste MailChimp-data.
 ```powerquery
 MailChimp.Tables()

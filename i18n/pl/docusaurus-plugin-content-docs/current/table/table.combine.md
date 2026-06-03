@@ -20,12 +20,12 @@ Table.Combine(
 
 ## Remarks
 
-Zwraca tabelę będącą wynikiem scalenia listy tabel, <code>tables</code>. Wynikowa tabela będzie mieć strukturę typu wierszy zdefiniowaną przez element <code>columns</code> lub przez zbiór typów wejściowych, jeśli element <code>columns</code> nie jest zdefiniowany.
+Zwraca tabelę będącą wynikiem scalenia listy tabel, `tables`. Wynikowa tabela będzie mieć strukturę typu wierszy zdefiniowaną przez element `columns` lub przez zbiór typów wejściowych, jeśli element `columns` nie jest zdefiniowany.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Scal ze sobą następujące trzy tabele.
 ```powerquery
 Table.Combine({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Scal 3 tabele o różnych strukturach.
 ```powerquery
 Table.Combine({
@@ -65,7 +65,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Scal 2 tabele i projekt do danego typu.
 ```powerquery
 Table.Combine(

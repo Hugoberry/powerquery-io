@@ -19,13 +19,15 @@ Duration.ToRecord(
 
 ## Remarks
 
-Returns a record containing the parts the duration value, <code>duration</code>.  <ul>        <li><code>duration</code>: A <code>duration</code> from which the record is created.</li>      </ul>
+Returns a record containing the parts the duration value, `duration`.
+
+-   `duration`: A `duration` from which the record is created.
 
 
 ## Examples
 
-### Example #1 
-Convert &lt;code&gt;#duration(2, 5, 55, 20)&lt;/code&gt; into a record of its parts including days, hours, minutes and seconds if applicable.
+### Example #1
+Convert `#duration(2, 5, 55, 20)` into a record of its parts including days, hours, minutes, and seconds if applicable.
 ```powerquery
 Duration.ToRecord(#duration(2, 5, 55, 20))
 ```

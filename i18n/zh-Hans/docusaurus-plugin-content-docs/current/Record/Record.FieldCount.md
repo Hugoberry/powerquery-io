@@ -19,12 +19,12 @@ Record.FieldCount(
 
 ## Remarks
 
-返回记录 <code>record</code> 中的字段数。
+返回记录 `record` 中的字段数。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 查找记录中的字段数。
 ```powerquery
 Record.FieldCount([CustomerID = 1, Name = "Bob"])

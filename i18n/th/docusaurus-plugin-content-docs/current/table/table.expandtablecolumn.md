@@ -22,13 +22,13 @@ Table.ExpandTableColumn(
 
 ## Remarks
 
-ขยายตารางใน <code>table</code>[<code>column</code>] ไปยังหลายแถวและคอลัมน์ <code>columnNames</code> ใช้เพื่อเลือกคอลัมน์ที่จะขยายจากตารางภายใน ระบุ <code>newColumnNames</code> เพื่อหลีกเลี่ยงข้อขัดแย้งระหว่างคอลัมน์ที่มีอยู่และคอลัมน์ใหม่
+ขยายตารางใน `table`\[`column`\] ไปยังหลายแถวและคอลัมน์ `columnNames` ใช้เพื่อเลือกคอลัมน์ที่จะขยายจากตารางภายใน ระบุ `newColumnNames` เพื่อหลีกเลี่ยงข้อขัดแย้งระหว่างคอลัมน์ที่มีอยู่และคอลัมน์ใหม่
 
 
 ## Examples
 
-### Example #1 
-ขยายคอลัมน์ตารางใน &lt;code&gt;[a]&lt;/code&gt; ในตาราง &lt;code&gt;(\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]})&lt;/code&gt; ไปยัง 3 คอลัมน์ ได้แก่ &lt;code&gt;[t.a]&lt;/code&gt;, &lt;code&gt;[t.b]&lt;/code&gt; และ &lt;code&gt;[t.c]&lt;/code&gt;
+### Example #1
+ขยายคอลัมน์ตารางใน `[a]` ในตาราง `({[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]})` ไปยัง 3 คอลัมน์ ได้แก่ `[t.a]`, `[t.b]` และ `[t.c]`
 ```powerquery
 Table.ExpandTableColumn(
     Table.FromRecords({

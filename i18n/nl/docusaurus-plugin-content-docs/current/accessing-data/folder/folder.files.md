@@ -20,7 +20,27 @@ Folder.Files(
 
 ## Remarks
 
-Retourneert een tabel met een rij voor elk bestand in de map <code>path</code> en alle bijbehorende submappen. Elke rij bevat eigenschappen van het bestand en een koppeling naar de inhoud. De parameter <code>options</code> is momenteel alleen bedoeld voor intern gebruik.
+Retourneert een tabel met een rij voor elk bestand in de opgegeven map en alle bijbehorende submappen.
+
+-   `path`: het pad naar de map waaruit je de bestanden wilt ophalen. Het opgegeven mappad moet een geldig absoluut pad zijn.
+-   `options`: (optioneel) Deze parameter is momenteel alleen bedoeld voor intern gebruik.
+
+Elke rij van de geretourneerde tabel bevat eigenschappen van het bestand en een koppeling naar de inhoud ervan.
+
+
+## Examples
+
+### Example #1
+Geef een tabel weer met alle bestanden die zijn gevonden in C:\\test-voorbeelden\\voorbeeldmap en alle submappen.
+```powerquery
+Folder.Files("C:\test-examples\example-folder")
+```
+
+Result: 
+```powerquery
+A table containing the files, their properties, and a link to their content.
+```
+
 
 
 

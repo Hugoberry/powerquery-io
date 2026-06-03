@@ -20,13 +20,16 @@ Date.AddYears(
 
 ## Remarks
 
-Trả về kết quả <code>date</code>, <code>datetime</code>, hoặc <code>datetimezone</code> khi thêm <code>numberOfYears</code> vào giá trị <code>datetime</code> <code>dateTime</code>.      <ul>        <li><code>dateTime</code>: Giá trị <code>date</code>, <code>datetime</code>, hoặc <code>datetimezone</code> đã thêm năm vào.</li>        <li><code>numberOfYears</code>: Số năm cần thêm.</li>      </ul>
+Trả về kết quả `date`, `datetime`, hoặc `datetimezone` khi thêm `numberOfYears` vào giá trị `datetime` `dateTime`.
+
+-   `dateTime`: Giá trị `date`, `datetime`, hoặc `datetimezone` đã thêm năm vào.
+-   `numberOfYears`: Số năm cần thêm.
 
 
 ## Examples
 
-### Example #1 
-Thêm 4 năm vào giá trị &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; hoặc &lt;code&gt;datetimezone&lt;/code&gt; biểu thị giá trị 5/14/2011.
+### Example #1
+Thêm 4 năm vào giá trị `date`, `datetime` hoặc `datetimezone` biểu thị giá trị 5/14/2011.
 ```powerquery
 Date.AddYears(#date(2011, 5, 14), 4)
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Thêm 10 năm vào giá trị &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; hoặc &lt;code&gt;datetimezone&lt;/code&gt; biểu thị ngày và giờ là 5/14/2011 08:15:22 SA.
+### Example #2
+Thêm 10 năm vào giá trị `date`, `datetime` hoặc `datetimezone` biểu thị ngày và giờ là 5/14/2011 08:15:22 SA.
 ```powerquery
 Date.AddYears(#datetime(2011, 5, 14, 8, 15, 22), 10)
 ```

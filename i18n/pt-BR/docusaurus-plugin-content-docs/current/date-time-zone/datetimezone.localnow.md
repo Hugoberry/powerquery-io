@@ -19,7 +19,7 @@ DateTimeZone.LocalNow(
 
 ## Remarks
 
-Retorna um valor <code>datetimezone</code> definido como a data e a hora atuais no sistema.    O valor retornado contém informações de fuso horário que representam o fuso horário local.
+Retorna um valor `datetimezone` definido como a data e a hora atuais no sistema. O valor retornado contém informações de fuso horário que representam o fuso horário local.
 
 
 

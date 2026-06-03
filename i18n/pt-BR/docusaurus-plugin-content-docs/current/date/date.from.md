@@ -20,13 +20,33 @@ Date.From(
 
 ## Remarks
 
-Retorna um valor <code>date</code> do <code>value</code> fornecido. Um <code>culture</code> opcional também pode ser fornecido (por exemplo, "en-US").Se o <code>value</code> fornecido for <code>null</code>, <code>Date.From</code> retorna <code>null</code>. Se o <code>value</code> fornecido for <code>date</code>, <code>value</code> será retornado. Os valores dos seguintes tipos podem ser convertidos em um valor <code>date</code>:      <ul>        <li><code>text</code>: um <code>date</code> valor da representação textual. Consulte <code>Date.FromText</code> para obter detalhes.</li>        <li><code>datetime</code>: o componente de data do <code>value</code>.</li>         <li><code>datetimezone</code>: o componente de data do local datetime equivalente a <code>value</code>.</li>        <li><code>number</code>: o componente de data do equivalente datetime da Data de Automação OLE expresso por <code>value</code>.</li>      </ul>Se <code>value</code> for de qualquer outro tipo, um erro é retornado.
+Retorna um valor de data do valor fornecido.
+
+-   `value`: o valor a ser convertido em uma data. Se o valor fornecido for `null`, esta função retornará `null`. Se o valor fornecido for `date`, `value` será retornado. Os valores dos seguintes tipos podem ser convertidos em um valor `date`:
+    -   `text`: Um valor `date` da representação textual. Confira `Date.FromText` para obter detalhes.
+    -   `datetime`: o componente de data do `value`.
+    -   `datetimezone`: o componente de data do equivalente de datetime local de `value`.
+    -   `number`: o componente de data do datetime equivalente a um número de ponto flutuante cujo componente integral é o número de dias antes ou depois da meia-noite de 30 de dezembro de 1899 e cujo componente fracionário representa a hora nesse dia dividida por 24. Por exemplo, meia-noite de 31 de dezembro de 1899 é representado por 1,0; 6h de 1º de janeiro de 1900 é representado por 2,25; meia-noite de 29 de dezembro de 1899 é representado por -1,0; e 6h de 29 de dezembro de 1899 é representado por -1,25. O valor base é meia-noite de 30 de dezembro de 1899. O valor mínimo é meia-noite de 1º de janeiro de 0100. O valor máximo é o último momento de 31 de dezembro de 9999.
+    -   Se `value` for de qualquer outro tipo, um erro será retornado.
+-   `culture`: a cultura do valor fornecido (por exemplo, "en-US").
 
 
 ## Examples
 
-### Example #1 
-Converta &lt;code&gt;43910&lt;/code&gt; em um valor &lt;code&gt;date&lt;/code&gt;.
+### Example #1
+Converta a data e hora especificadas em um valor de data.
+```powerquery
+Date.From(#datetime(1899, 12, 30, 06, 45, 12))
+```
+
+Result: 
+```powerquery
+#date(1899, 12, 30)
+```
+
+
+### Example #2
+Converta o número especificado em um valor de data.
 ```powerquery
 Date.From(43910)
 ```
@@ -37,15 +57,38 @@ Result:
 ```
 
 
-### Example #2 
-Converta &lt;code&gt;#datetime(1899, 12, 30, 06, 45, 12)&lt;/code&gt; em um valor &lt;code&gt;date&lt;/code&gt;.
+### Example #3
+Converta as datas de texto em alemão na coluna Data de Postagem em valores de data.
 ```powerquery
-Date.From(#datetime(1899, 12, 30, 06, 45, 12))
+let
+    Source = #table(type table [Account Code = text, Posted Date = text, Sales = number],
+    {
+        {"US-2004", "20 Januar 2023", 580},
+        {"CA-8843", "18 Juli, 2023", 280},
+        {"PA-1274", "12 Januar, 2022", 90},
+        {"PA-4323", "14 April 2023", 187},
+        {"US-1200", "14 Dezember, 2022", 350},
+        {"PTY-507", "4 Juni, 2023", 110}
+    }),
+    #"Filtered rows" = Table.TransformColumns(
+        Source,
+        {"Posted Date", each Date.From(_, "de-DE"), type date}
+    )
+in
+    #"Filtered rows"
 ```
 
 Result: 
 ```powerquery
-#date(1899, 12, 30)
+#table(type table [Account Code = text, Posted Date = date, Sales = number],
+{
+    {"US-2004", #date(2023, 1, 20), 580},
+    {"CA-8843", #date(2023, 7, 18), 280},
+    {"PA-1274", #date(2022, 1, 12), 90},
+    {"PA-4323", #date(2023, 4, 14), 187},
+    {"US-1200", #date(2022, 12, 14), 350},
+    {"PTY-507", #date(2023, 6, 4), 110}
+})
 ```
 
 

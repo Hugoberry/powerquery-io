@@ -19,12 +19,12 @@ Text.Clean(
 
 ## Remarks
 
-Returnerar ett textvärde med alla kontrolltecken för <code>text</code> borttagna.
+Returnerar ett textvärde med alla kontrolltecken för `text` borttagna.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ta bort radmatningar och andra kontrolltecken från ett textvärde.
 ```powerquery
 Text.Clean("ABC#(lf)D")

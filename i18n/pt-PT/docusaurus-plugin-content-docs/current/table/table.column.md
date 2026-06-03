@@ -20,13 +20,13 @@ Table.Column(
 
 ## Remarks
 
-Devolve a coluna de dados especificada por <code>column</code> a partir da tabela <code>table</code> como uma lista.
+Devolve a coluna de dados especificada por `column` a partir da tabela `table` como uma lista.
 
 
 ## Examples
 
-### Example #1 
-Determinar a data na coluna [Naome] a partir da tabela.
+### Example #1
+Determinar a data na coluna \[Naome\] a partir da tabela.
 ```powerquery
 Table.Column(
     Table.FromRecords({

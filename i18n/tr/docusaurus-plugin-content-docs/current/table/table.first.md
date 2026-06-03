@@ -20,12 +20,12 @@ Table.First(
 
 ## Remarks
 
-<code>table</code> öğesinin ilk satırını veya tablo boşsa <code>default</code> isteğe bağlı varsayılan değerini döndürür.
+`table` öğesinin ilk satırını veya tablo boşsa `default` isteğe bağlı varsayılan değerini döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablonun ilk satırını bulur.
 ```powerquery
 Table.First(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-&lt;code&gt;(\{})&lt;/code&gt; tablosunun ilk satırını bulur veya boşsa [a = 0, b = 0] döndürür.
+### Example #2
+`({})` tablosunun ilk satırını bulur veya boşsa \[a = 0, b = 0\] döndürür.
 ```powerquery
 Table.First(Table.FromRecords({}), [a = 0, b = 0])
 ```

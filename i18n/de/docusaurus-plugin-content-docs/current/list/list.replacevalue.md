@@ -22,13 +22,13 @@ List.ReplaceValue(
 
 ## Remarks
 
-Durchsucht eine Liste mit Werten (<code>list</code>) nach dem Wert "<code>oldValue</code>" und ersetzt jedes Vorkommen durch den Ersatzwert "<code>newValue</code>".
+Durchsucht eine Liste mit Werten (`list`) nach dem Wert "`oldValue`" und ersetzt jedes Vorkommen durch den Ersatzwert "`newValue`".
 
 
 ## Examples
 
-### Example #1 
-Ersetzt alle a-Werte in der Liste &#34;\{&#34;a&#34;, &#34;B&#34;, &#34;a&#34;, &#34;a&#34;}&#34; durch &#34;A&#34;.
+### Example #1
+Ersetzt alle a-Werte in der Liste "\{"a", "B", "a", "a"\}" durch "A".
 ```powerquery
 List.ReplaceValue({"a", "B", "a", "a"}, "a", "A", Replacer.ReplaceText)
 ```

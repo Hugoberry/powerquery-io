@@ -20,7 +20,7 @@ Type.ReplaceFacets(
 
 ## Remarks
 
-Заменяет аспекты <code>type</code> на аспекты из записи <code>facets</code>.
+Заменяет аспекты `type` на аспекты из записи `facets`.
 
 
 

@@ -20,13 +20,17 @@ List.RemoveFirstN(
 
 ## Remarks
 
-返回删除列表 <code>list</code> 的第一个元素的列表。如果 <code>list</code> 为空列表，则返回空列表。此函数取一个可选参数 <code>countOrCondition</code> 来支持删除以下所列的多个值。 <ul> <li>如果指定一个数字，则最多删除这么多项。</li> <li>如果指定条件，则返回的列表以 <code>list</code> 中满足条件的第一个元素开头。一旦某个项不满足该条件，则不再考虑其他项。</li> <li>如果此参数为 null，将采用默认行为。</li> </ul>
+返回移除列表 `list` 的第一个元素的列表。如果 `list` 是空列表，则返回空列表。 此函数采用可选参数，`countOrCondition`，以支持移除下面列出的多个值。
+
+-   如果指定了一个数字，则最多移除该数目个项。
+-   如果指定了条件，则会移除 `list` 开头的任何连续匹配项。
+-   如果此参数为 null，则会观察到默认行为。
 
 
 ## Examples
 
-### Example #1 
-从 \{1, 2, 3, 4, 5} 创建不带前 3 个数的列表。
+### Example #1
+从 \{1, 2, 3, 4, 5\} 创建不带前 3 个数的列表。
 ```powerquery
 List.RemoveFirstN({1, 2, 3, 4, 5}, 3)
 ```
@@ -37,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-从 \{5, 4, 2, 6, 1} 创建一个列表，它以小于 3 的数开头。
+### Example #2
+从 \{5, 4, 2, 6, 1\} 创建一个列表，它以小于 3 的数开头。
 ```powerquery
 List.RemoveFirstN({5, 4, 2, 6, 1}, each _ > 3)
 ```

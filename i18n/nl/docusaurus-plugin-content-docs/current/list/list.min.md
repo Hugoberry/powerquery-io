@@ -22,13 +22,13 @@ List.Min(
 
 ## Remarks
 
-Hiermee wordt het minimumitem in de lijst <code>list</code> geretourneerd of de optionele standaardwaarde <code>default</code> als de lijst leeg is. Een optionele comparisonCriteria-waarde, <code>comparisonCriteria</code>, kan worden opgegeven om te bepalen hoe de items in de lijst moeten worden vergeleken. Als deze parameter null is, wordt de standaardvergelijkingsfunctie gebruikt.
+Hiermee wordt het minimumitem in de lijst `list` geretourneerd of de optionele standaardwaarde `default` als de lijst leeg is. Een optionele comparisonCriteria-waarde, `comparisonCriteria`, kan worden opgegeven om te bepalen hoe de items in de lijst moeten worden vergeleken. Als deze parameter null is, wordt de standaardvergelijkingsfunctie gebruikt.
 
 
 ## Examples
 
-### Example #1 
-De minimale waarde in de lijst \{1, 4, 7, 3, -2, 5} zoeken.
+### Example #1
+De minimale waarde in de lijst \{1, 4, 7, 3, -2, 5\} zoeken.
 ```powerquery
 List.Min({1, 4, 7, 3, -2, 5})
 ```
@@ -39,8 +39,8 @@ Result:
 ```
 
 
-### Example #2 
-De minimale waarde in de lijst \{} opzoeken of -1 retourneren als de lijst leeg is. 
+### Example #2
+De minimale waarde in de lijst \{\} opzoeken of -1 retourneren als de lijst leeg is.
 ```powerquery
 List.Min({}, -1)
 ```

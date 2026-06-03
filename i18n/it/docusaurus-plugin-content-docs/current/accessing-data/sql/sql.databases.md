@@ -5,7 +5,7 @@ title: Sql.Databases
 # Sql.Databases
 
 
-Restituisce una tabella di database in un&#39;istanza di SQL Server.
+Restituisce una tabella di database in un'istanza di SQL Server.
 
 
 ## Syntax
@@ -20,7 +20,23 @@ Sql.Databases(
 
 ## Remarks
 
-Restituisce una tabella di database nell'istanza di SQL Server specificata, <code>server</code>. È possibile specificare un parametro di record facoltativo, <code>options</code>, per controllare le opzioni seguenti:    <ul><li><code>CreateNavigationProperties</code> : Espressione logica (true/false) che consente di scegliere se generare propriet&#224; di navigazione per i valori restituiti (il valore predefinito &#232; true).</li><li><code>NavigationPropertyNameGenerator</code> : Funzione usata per la creazione dei nomi per le propriet&#224; di navigazione.</li><li><code>MaxDegreeOfParallelism</code> : Numero che imposta il valore della clausola di query &quot;maxdop&quot; nella query SQL generata.</li><li><code>CommandTimeout</code> : Valore che controlla la durata di esecuzione consentita della query sul lato server prima che venga annullata. Il valore predefinito &#232; dieci minuti.</li><li><code>ConnectionTimeout</code> : Valore che controlla il tempo di attesa di un tentativo di connessione al server prima che venga abbandonato. Il valore predefinito dipende dal driver.</li><li><code>HierarchicalNavigation</code> : Espressione logica (true/false) che consente di scegliere se visualizzare le tabelle raggruppate in base al nome del relativo schema (il valore predefinito &#232; true).</li><li><code>MultiSubnetFailover</code> : Espressione logica (true/false) che imposta il valore della propriet&#224; &quot;MultiSubnetFailover&quot; nella stringa di connessione (il valore predefinito &#232; false).</li><li><code>UnsafeTypeConversions</code> : Valore logico (true/false) che, se true, tenta di ridurre le conversioni dei tipi che potrebbero generare errori e determinare l&#39;esito negativo dell&#39;intera query. Non consigliato per l&#39;uso generale.</li><li><code>ContextInfo</code> : Valore binario usato per impostare CONTEXT_INFO prima di eseguire ogni comando.</li><li><code>OmitSRID</code> : Valore logico (true/false) che, se true, omette l&#39;ID SRID durante la generazione di Well-Known Text da tipi geometrici e geografici.</li><li><code>EnableCrossDatabaseFolding</code> : Valore logico (true/false) che, se true, consente la riduzione della query dei database nello stesso server. Il valore predefinito &#232; false.</li></ul>    Ad esempio, il parametro di record è specificato nel formato [opzione1 = valore1, opzione2 = valore2...].    <br />    Non supporta l'impostazione di una query SQL da eseguire nel server. Invece di eseguire una query SQL, usare <code>Sql.Database</code>.    
+Restituisce una tabella di database nell'istanza di SQL Server specificata, `server`. È possibile specificare un parametro di record facoltativo, `options`, per controllare le seguenti opzioni:
+
+-   `CreateNavigationProperties` : Espressione logica (true/false) che consente di scegliere se generare proprietà di navigazione per i valori restituiti (il valore predefinito è true).
+-   `NavigationPropertyNameGenerator` : Funzione usata per la creazione dei nomi per le proprietà di navigazione.
+-   `MaxDegreeOfParallelism` : Numero che imposta il valore della clausola di query "maxdop" nella query SQL generata.
+-   `CommandTimeout` : Valore che controlla la durata di esecuzione consentita della query sul lato server prima che venga annullata. Il valore predefinito è dieci minuti.
+-   `ConnectionTimeout` : Valore che controlla il tempo di attesa di un tentativo di connessione al server prima che venga abbandonato. Il valore predefinito dipende dal driver.
+-   `HierarchicalNavigation` : Espressione logica (true/false) che consente di scegliere se visualizzare le tabelle raggruppate in base al nome del relativo schema (il valore predefinito è true).
+-   `MultiSubnetFailover` : Espressione logica (true/false) che imposta il valore della proprietà "MultiSubnetFailover" nella stringa di connessione (il valore predefinito è false).
+-   `UnsafeTypeConversions` : Valore logico (true/false) che, se true, tenta di ridurre le conversioni dei tipi che potrebbero generare errori e determinare l'esito negativo dell'intera query. Non consigliato per l'uso generale.
+-   `ContextInfo` : Valore binario usato per impostare CONTEXT\_INFO prima di eseguire ogni comando.
+-   `OmitSRID` : Valore logico (true/false) che, se true, omette l'ID SRID durante la generazione di Well-Known Text da tipi geometrici e geografici.
+-   `EnableCrossDatabaseFolding` : Valore logico (true/false) che, se true, consente la riduzione della query dei database nello stesso server. Il valore predefinito è false.
+
+Ad esempio, il parametro di record è specificato nel formato \[opzione1 = valore1, opzione2 = valore2...\].  
+  
+Non supporta l'impostazione di una query SQL da eseguire nel server. `Sql.Database` deve invece essere usato per eseguire una query SQL.
 
 
 

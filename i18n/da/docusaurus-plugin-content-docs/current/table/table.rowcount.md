@@ -19,12 +19,12 @@ Table.RowCount(
 
 ## Remarks
 
-Returnerer antallet af rækker i <code>table</code>.
+Returnerer antallet af rækker i `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find antallet af rækker i tabellen.
 ```powerquery
 Table.RowCount(

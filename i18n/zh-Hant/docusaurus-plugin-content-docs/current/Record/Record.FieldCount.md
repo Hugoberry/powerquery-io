@@ -19,12 +19,12 @@ Record.FieldCount(
 
 ## Remarks
 
-傳回記錄 <code>record</code> 中的欄位數。
+傳回記錄 `record` 中的欄位數。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 找出記錄中欄位的數目。
 ```powerquery
 Record.FieldCount([CustomerID = 1, Name = "Bob"])

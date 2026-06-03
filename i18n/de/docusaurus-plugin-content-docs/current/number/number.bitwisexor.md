@@ -20,7 +20,7 @@ Number.BitwiseXor(
 
 ## Remarks
 
-Gibt das Ergebnis der Ausführung eines bitweisen XOR-Vorgangs (ausschließendes ODER) zwischen "<code>number1</code>" und "<code>number2</code>" zurück.
+Gibt das Ergebnis der Ausführung eines bitweisen XOR-Vorgangs (ausschließendes ODER) zwischen "`number1`" und "`number2`" zurück.
 
 
 

@@ -22,13 +22,13 @@ Table.AddColumn(
 
 ## Remarks
 
-<code>newColumnName</code> adlı bir sütunu <code>table</code> tablosuna ekler. Sütun değerleri, her satır girdi olarak alınarak belirtilen <code>columnGenerator</code> seçim işlevi kullanılarak hesaplanır.
+`newColumnName` adlı bir sütunu `table` tablosuna ekler. Sütun değerleri, her satır girdi olarak alınarak belirtilen `columnGenerator` seçim işlevi kullanılarak hesaplanır.
 
 
 ## Examples
 
-### Example #1 
-Tabloya, her bir değer [Fiyat] ve [Gönderim] sütunlarının toplamı olacak şekilde &#34;Toplam Fiyat&#34; adlı bir sayı sütunu ekler.
+### Example #1
+Tabloya, her bir değer \[Fiyat\] ve \[Gönderim\] sütunlarının toplamı olacak şekilde "Toplam Fiyat" adlı bir sayı sütunu ekler.
 ```powerquery
 Table.AddColumn(
     Table.FromRecords({

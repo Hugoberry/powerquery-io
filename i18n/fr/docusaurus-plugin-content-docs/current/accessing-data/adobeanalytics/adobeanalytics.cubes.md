@@ -19,7 +19,12 @@ AdobeAnalytics.Cubes(
 
 ## Remarks
 
-Retourne une table de paquets multidimensionnels d'Adobe Analytics. Vous pouvez spécifier un paramètre d'enregistrement facultatif, <code>options</code>, pour contrôler les options suivantes :     <ul><li><code>HierarchicalNavigation</code> : Valeur logique (true/false) qui indique si les tables &#224; afficher doivent &#234;tre regroup&#233;es en fonction de leurs noms de sch&#233;mas (valeur par d&#233;faut&#160;: false).</li><li><code>MaxRetryCount</code> : Nombre de nouvelles tentatives &#224; effectuer lors de l&#39;interrogation du r&#233;sultat de la requ&#234;te. La valeur par d&#233;faut est 120.</li><li><code>RetryInterval</code> : Dur&#233;e entre les nouvelles tentatives. La valeur par d&#233;faut est de 1 seconde.</li><li><code>Implementation</code> : Sp&#233;cifie la version de l’API Adobe Analytics. Les valeurs valides sont&#160;: &#171; 2.0 &#187;. La valeur par d&#233;faut utilise l’API version 1.4.</li></ul>
+Retourne une table de paquets multidimensionnels d'Adobe Analytics. Vous pouvez spécifier un paramètre d'enregistrement facultatif, `options`, pour contrôler les options suivantes :
+
+-   `HierarchicalNavigation` : Valeur logique (true/false) qui indique si les tables à afficher doivent être regroupées en fonction de leurs noms de schémas (valeur par défaut : false).
+-   `MaxRetryCount` : Nombre de nouvelles tentatives à effectuer lors de l'interrogation du résultat de la requête. La valeur par défaut est 120.
+-   `RetryInterval` : Durée entre les nouvelles tentatives. La valeur par défaut est de 1 seconde.
+-   `Implementation` : Spécifie la version de l’API Adobe Analytics. Les valeurs valides sont : « 2.0 ». La valeur par défaut utilise l’API version 1.4.
 
 
 

@@ -5,7 +5,7 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-Returnerer en tabel med ark, rapporter, mapper og arbejdsområder fra Smartsheet-API&#39;en
+Returnerer en tabel med ark, rapporter, mapper og arbejdsområder fra Smartsheet-API'en
 
 
 ## Syntax
@@ -24,7 +24,7 @@ Returnerer en indlejret tabel med tilgængelige ark, rapporter, mapper og arbejd
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnerer ark, mapper, rapporter og arbejdsområder, der er tilgængelige på øverste niveau i Smartsheet-hierarkiet
 ```powerquery
 Smartsheet.Tables()

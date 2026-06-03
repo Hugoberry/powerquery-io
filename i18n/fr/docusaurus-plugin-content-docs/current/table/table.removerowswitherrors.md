@@ -5,7 +5,7 @@ title: Table.RemoveRowsWithErrors
 # Table.RemoveRowsWithErrors
 
 
-Retourne une table avec les lignes supprimées de la table d&#39;entrée qui contiennent une erreur dans au moins l&#39;une des cellules. Si une liste de colonnes est spécifiée, alors seules les cellules dans les colonnes spécifiées sont inspectées pour rechercher des erreurs.
+Retourne une table avec les lignes supprimées de la table d'entrée qui contiennent une erreur dans au moins l'une des cellules. Si une liste de colonnes est spécifiée, alors seules les cellules dans les colonnes spécifiées sont inspectées pour rechercher des erreurs.
 
 
 ## Syntax
@@ -25,8 +25,8 @@ Retourne une table avec les lignes supprimées de la table d'entrée qui contien
 
 ## Examples
 
-### Example #1 
-Supprimez la valeur d&#39;erreur de la première ligne.
+### Example #1
+Supprimez la valeur d'erreur de la première ligne.
 ```powerquery
 Table.RemoveRowsWithErrors(
     Table.FromRecords({

@@ -19,12 +19,12 @@ Table.ToColumns(
 
 ## Remarks
 
-Tạo một danh sách chứa các danh sách lồng nhau từ bảng <code>table</code>.  Mỗi mục danh sách là một danh sách bên trong chứa các giá trị cột.
+Tạo một danh sách chứa các danh sách lồng nhau từ bảng `table`. Mỗi mục danh sách là một danh sách bên trong chứa các giá trị cột.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tạo một danh sách chứa các giá trị cột từ bảng.
 ```powerquery
 Table.ToColumns(

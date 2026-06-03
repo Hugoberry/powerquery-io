@@ -5,7 +5,7 @@ title: DateTime.Time
 # DateTime.Time
 
 
-Retourne l&#39;heure qui fait partie de la valeur datetime spécifiée.
+Retourne l'heure qui fait partie de la valeur datetime spécifiée.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ DateTime.Time(
 
 ## Remarks
 
-Retourne l'heure qui fait partie de la valeur datetime spécifiée, <code>dateTime</code>.
+Retourne l'heure qui fait partie de la valeur datetime spécifiée, `dateTime`.
 
 
 ## Examples
 
-### Example #1 
-Recherche la valeur d&#39;heure de #datetime(2010, 12, 31, 11, 56, 02).
+### Example #1
+Recherche la valeur d'heure de #datetime(2010, 12, 31, 11, 56, 02).
 ```powerquery
 DateTime.Time(#datetime(2010, 12, 31, 11, 56, 02))
 ```

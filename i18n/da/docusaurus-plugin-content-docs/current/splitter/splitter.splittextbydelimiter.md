@@ -13,7 +13,8 @@ Returnerer en funktion, der opdeler tekst på en liste i overensstemmelse med de
 ```powerquery
 Splitter.SplitTextByDelimiter(
     delimiter as text,
-    optional quoteStyle as QuoteStyle.Type
+    optional quoteStyle as QuoteStyle.Type,
+    optional csvStyle as CsvStyle.Type
 ) as function
 ```
 
@@ -25,7 +26,7 @@ Returnerer en funktion, der opdeler tekst på en liste i overensstemmelse med de
 
 ## Examples
 
-### Example #1 
+### Example #1
 Opdel input med komma, ignorer citerede kommaer.
 ```powerquery
 Splitter.SplitTextByDelimiter(",", QuoteStyle.Csv)("a,""b,c"",d")

@@ -22,12 +22,18 @@ Diagnostics.Trace(
 
 ## Remarks
 
-Zapisuje dane śledzenia <code>message</code>, jeśli śledzenie jest włączone, i zwraca wartość <code>value</code>. Opcjonalny parametr <code>delayed</code> umożliwia określenie, czy ocena wartości <code>value</code> ma zostać opóźniona do czasu wykonania śledzenia komunikatu. Element <code>traceLevel</code> może przyjąć jedną z następujących wartości:    <code>TraceLevel.Critical</code>    <code>TraceLevel.Error</code>,    <code>TraceLevel.Warning</code>,    <code>TraceLevel.Information</code>,    <code>TraceLevel.Verbose</code>.  
+Zapisuje dane śledzenia `message`, jeśli śledzenie jest włączone, i zwraca wartość `value`. Opcjonalny parametr `delayed` umożliwia określenie, czy ocena wartości `value` ma zostać opóźniona do czasu wykonania śledzenia komunikatu. Element `traceLevel` może przyjąć jedną z następujących wartości:
+
+-   `TraceLevel.Critical`
+-   `TraceLevel.Error`
+-   `TraceLevel.Warning`
+-   `TraceLevel.Information`
+-   `TraceLevel.Verbose`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Wykonaj śledzenie komunikatu przed wywołaniem funkcji Text.From i zwróć wynik.
 ```powerquery
 Diagnostics.Trace(TraceLevel.Information, "TextValueFromNumber", () => Text.From(123), true)

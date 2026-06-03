@@ -25,7 +25,7 @@ Retourneert de waarde als deze compatibel is met het opgegeven type. Dit is geli
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een getal converteren naar een getal.
 ```powerquery
 Value.As(123, Number.Type)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Poging om een tekstwaarde te converteren naar een getal.
 ```powerquery
 Value.As("abc", type number)

@@ -23,13 +23,32 @@ Csv.Document(
 
 ## Remarks
 
-Returnerer indholdet af csv-dokumentet som en tabel.    <ul>     <li>        <code>columns</code> kan være null, antallet af kolonner, en liste over kolonnenavne, en tabeltype eller en post med indstillinger.        </li>        <li>        <code>delimiter</code> kan være et enkelt tegn eller en liste over tegn eller værdien <code>""</code>, som indikerer, at rækker skal deles op af gentagne mellemrum. Standard: <code>","</code>.      </li>      <li>        Se <code>ExtraValues.Type</code> for de understøttede værdier for <code>extraValues</code>.        </li>        <li>        <code>encoding</code> angiver tekstens kodningstype.        </li>    </ul>        Hvis en post er angivet for <code>columns</code> (og <code>delimiter</code>, <code>extraValues</code> og <code>encoding</code> er null), kan følgende felter for posten angives:    <ul>     <li>        <code>Afgrænser</code>: Kolonneafgrænser. Standard: <code>","</code>.        </li>        <li>        <code>Kolonner</code>: Kan være null, antallet af kolonner, en liste over kolonnenavne eller en tabeltype. Hvis antallet af kolonner er lavere end tallet i inputtet, ignoreres de ekstra kolonner. Hvis antallet af kolonner er højere end antallet i inputtet, er de ekstra kolonner null. Hvis intet er angivet, afgøres antallet af kolonner af inputtet.        </li>    <li>        <code>Kodning</code>: Filens tekstkodning. Standard: 65001 (UTF-8).        </li>     <li>        <code>CsvStyle</code>: Angiver, hvordan citater behandles.        <ul>        <li>         <code>CsvStyle.QuoteAfterDelimiter</code> (standard): Citater i et felt er kun væsentlige umiddelbart efter afgrænseren.          </li>          <li>          <code>CsvStyle.QuoteAlways</code>: Citater i et felt er altid væsentlige, uanset hvor de vises.          </li>          </ul>          </li>          <li>          <code>QuoteStyle</code>: Angiver, hvordan citerede linjeskift håndteres.          <ul>          <li>           <code>QuoteStyle.None</code> (standard): Alle linjeskift behandles som slutningen af den aktuelle række, selv når de forekommer inden for en citeret værdi.          </li>          <li>           <code>QuoteStyle.Csv</code>: Citerede linjeskift behandles som del af dataene, ikke som afslutningen på den aktuelle række.          </li>          </ul>          </li>          </ul>  
+Returnerer indholdet af CSV-dokumentet som en tabel.
+
+-   `columns` kan være null, antallet af kolonner, en liste over kolonnenavne, en tabeltype eller en indstillingspost.
+-   `delimiter` kan være et enkelt tegn, en liste over tegn eller værdien `""`, som angiver, at rækker skal opdeles efter fortløbende mellemrumstegn. Standard: `","`.
+-   Se `ExtraValues.Type` for de understøttede værdier for `extraValues`.
+-   `encoding` Angiver kodningstypen for teksten.
+
+Hvis der er angivet en post for `columns` (og `delimiter`, `extraValues`og `encoding` er null), kan følgende postfelter angives:
+
+-   `Delimiter`: En kolonneseparator med et enkelt tegn. Standard: `","`.
+-   `Columns`: Kan være null, antallet af kolonner, en liste over kolonnenavne eller en tabeltype. Hvis antallet af kolonner er lavere end det tal, der blev fundet i inputtet, ignoreres de ekstra kolonner. Hvis antallet af kolonner er højere end det antal, der findes i inputtet, vil de ekstra kolonner være null. Når det ikke er angivet, bestemmes antallet af kolonner af, hvad der findes i inputtet.
+-   `Encoding`: Filens tekstkodning. Standard: 65001 (UTF-8).
+-   `CsvStyle`: Angiver, hvordan anførselstegn håndteres.
+    -   `CsvStyle.QuoteAfterDelimiter` (standard): Anførselstegn i et felt er kun vigtige, hvis de følger umiddelbart efter afgrænseren.
+    -   `CsvStyle.QuoteAlways`: Anførselstegn i et felt er altid vigtige, uanset hvor de optræder.
+-   `QuoteStyle`: Angiver, hvordan linjeskift i anførselstegn håndteres.
+    -   `QuoteStyle.Csv` (standard): Linjeskift i anførselstegn behandles som en del af dataene og ikke som slutningen af den aktuelle række.
+    -   `QuoteStyle.None`: Alle linjeskift behandles som slutningen af den aktuelle række, selv når de forekommer i en værdi i anførselstegn.
+-   `IncludeByteOrderMark`: En logisk værdi, der angiver, om der skal inkluderes et Byte-ordremærke i starten af CSV-outputtet. Når den er angivet til sand, skrives BOM (f.eks. UTF-8 BOM: `0xEF 0xBB 0xBF`); når den er angivet til falsk, medtages der ingen BOM. Denne indstilling kan kun anvendes i outputscenarier. Standarden er `false`.
+-   `ExtraValues`: Se `ExtraValues.Type` for de understøttede værdier af ExtraValues.
 
 
 ## Examples
 
-### Example #1 
-Behandl CSV-tekst med kolonneoverskrifter
+### Example #1
+Behandl CSV-tekst med kolonneoverskrifter.
 ```powerquery
 let
     csv = Text.Combine({"OrderID,Item", "1,Fishing rod", "2,1 lb. worms"}, "#(cr)#(lf)")
@@ -42,6 +61,24 @@ Result:
 Table.FromRecords({
     [OrderID = "1", Item = "Fishing rod"],
     [OrderID = "2", Item = "1 lb. worms"]
+})
+```
+
+
+### Example #2
+Process CSV text with multiple delimiter characters. In this example, the third parameter specifies the delimiter pattern `#|#` to use instead of the default.
+```powerquery
+let
+    csv = Text.Combine({"OrderID#|#Color", "1#|#Red", "2#|#Blue"}, "#(cr)#(lf)")
+in
+    Table.PromoteHeaders(Csv.Document(csv, null, "#|#"))
+```
+
+Result: 
+```powerquery
+Table.FromRecords({
+    [OrderID = "1", Color = "Red"],
+    [OrderID = "2", Color = "Blue"]
 })
 ```
 

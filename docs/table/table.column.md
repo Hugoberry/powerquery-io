@@ -20,13 +20,13 @@ Table.Column(
 
 ## Remarks
 
-Returns the column of data specified by <code>column</code> from the table <code>table</code> as a list.
+Returns the column of data specified by `column` from the table `table` as a list.
 
 
 ## Examples
 
-### Example #1 
-Returns the values from the [Name] column in the table.
+### Example #1
+Returns the values from the \[Name\] column in the table.
 ```powerquery
 Table.Column(
     Table.FromRecords({

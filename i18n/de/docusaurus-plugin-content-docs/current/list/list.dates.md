@@ -21,12 +21,12 @@ List.Dates(
 
 ## Remarks
 
-Gibt eine Liste mit <code>date</code>-Werten der Größe "<code>count</code>" ab "<code>start</code>" zurück. Das angegebene Inkrement (<code>step</code>) ist ein <code>duration</code>-Wert, der zu den einzelnen Werten addiert wird.
+Gibt eine Liste mit `date`\-Werten der Größe "`count`" ab "`start`" zurück. Das angegebene Inkrement (`step`) ist ein `duration`\-Wert, der zu den einzelnen Werten addiert wird.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Erstellt eine Liste mit 5 Werten. Die Liste beginnt mit dem 31. Dezember 2011 (#date(2011, 12, 31)) und besitzt eine Schrittweite von einem Tag (#duration(1, 0, 0, 0)).
 ```powerquery
 List.Dates(#date(2011, 12, 31), 5, #duration(1, 0, 0, 0))

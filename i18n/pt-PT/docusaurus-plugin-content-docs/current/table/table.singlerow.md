@@ -19,12 +19,12 @@ Table.SingleRow(
 
 ## Remarks
 
-Devolve a única linha na linha <code>table</code>. Se <code>table</code> tiver mais de uma linha, é emitida uma exceção.
+Devolve a única linha em `table` de uma única linha. Se `table` tiver mais de uma linha, é gerado um erro.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devolver a linha única na tabela.
 ```powerquery
 Table.SingleRow(Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}))

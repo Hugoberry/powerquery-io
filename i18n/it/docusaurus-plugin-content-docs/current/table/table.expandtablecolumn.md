@@ -22,13 +22,13 @@ Table.ExpandTableColumn(
 
 ## Remarks
 
-Espande le tabelle in <code>table</code>[<code>column</code>] in più righe più e colonne. <code>columnNames</code> viene utilizzato per selezionare le colonne da espandere dalla tabella interna. Specificare <code>newColumnNames</code> per evitare conflitti tra le colonne esistenti e le nuove colonne.
+Espande le tabelle in `table`\[`column`\] in più righe più e colonne. `columnNames` viene utilizzato per selezionare le colonne da espandere dalla tabella interna. Specificare `newColumnNames` per evitare conflitti tra le colonne esistenti e le nuove colonne.
 
 
 ## Examples
 
-### Example #1 
-Espandere le colonne di tabella in &lt;code&gt;[a]&lt;/code&gt; nella tabella &lt;code&gt;(\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]})&lt;/code&gt; in 3 colonne &lt;code&gt;[t.a]&lt;/code&gt;, &lt;code&gt;[t.b]&lt;/code&gt; e &lt;code&gt;[t.c]&lt;/code&gt;.
+### Example #1
+Espandere le colonne di tabella in `[a]` nella tabella `({[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]})` in 3 colonne `[t.a]`, `[t.b]` e `[t.c]`.
 ```powerquery
 Table.ExpandTableColumn(
     Table.FromRecords({

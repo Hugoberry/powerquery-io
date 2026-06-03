@@ -20,7 +20,10 @@ Binary.ToText(
 
 ## Remarks
 
-傳回將二進位數字清單 <code>binary</code> 轉換成文字值的結果。您可選擇指定 <code>encoding</code>，以表示產生的文字值中要使用的編碼方式      下列 <code>BinaryEncoding</code> 值可用於 <code>encoding</code>。      <ul>        <li><code>BinaryEncoding.Base64</code>: Base 64 編碼</li>        <li><code>BinaryEncoding.Hex</code>: 十六進位編碼</li>      </ul>
+傳回將二進位數字清單 `binary` 轉換成文字值的結果。您可選擇指定 `encoding`，以表示產生的文字值中要使用的編碼方式 下列 `BinaryEncoding` 值可用於 `encoding`。
+
+-   `BinaryEncoding.Base64`: Base 64 編碼
+-   `BinaryEncoding.Hex`: 十六進位編碼
 
 
 

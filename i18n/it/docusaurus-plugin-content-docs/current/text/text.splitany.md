@@ -20,25 +20,29 @@ Text.SplitAny(
 
 ## Remarks
 
-Restituisce un elenco di valori di testo risultante dalla suddivisione del valore di testo <code>text</code> in base a un carattere nel delimitatore specificato <code>separators</code>.
+Restituisce un elenco di valori testo risultante dalla suddivisione del valore testo in base a qualsiasi carattere specificato nel delimitatore.
+
+-   `text`: valore testo da suddividere.
+-   `separators`. caratteri di delimitazione utilizzati per suddividere il testo.
 
 
 ## Examples
 
-### Example #1 
-Creare un elenco dal valore di testo &#34;Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com&#34;.
+### Example #1
+Creare un elenco dal testo fornito utilizzando i caratteri di delimitazione specificati.
 ```powerquery
-Text.SplitAny("Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com", "|")
+Text.SplitAny("Name|Customer ID|Purchase|Month-Day-Year", "|-")
 ```
 
 Result: 
 ```powerquery
 {
-    "Jamie",
-    "Campbell",
-    "Admin",
-    "Adventure Works",
-    "www.adventure-works.com"
+    "Name",
+    "Customer ID",
+    "Purchase",
+    "Month",
+    "Day",
+    "Year"
 }
 ```
 

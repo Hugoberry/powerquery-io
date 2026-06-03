@@ -20,13 +20,13 @@ Text.Lower(
 
 ## Remarks
 
-Trả về kết quả chuyển đổi tất cả ký tự trong <code>text</code> thành chữ thường. <code>culture</code> tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
+Trả về kết quả chuyển đổi tất cả ký tự trong `text` thành chữ thường. `culture` tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
 
 
 ## Examples
 
-### Example #1 
-Nhận phiên bản chữ thường của &#34;AbCd&#34;.
+### Example #1
+Nhận phiên bản chữ thường của "AbCd".
 ```powerquery
 Text.Lower("AbCd")
 ```

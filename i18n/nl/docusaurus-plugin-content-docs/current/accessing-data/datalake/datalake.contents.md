@@ -20,6 +20,6 @@ DataLake.Contents(
 
 ## Remarks
 
-Hiermee wordt een tabel geretourneerd die een rij bevat voor alle mappen en bestanden die worden gevonden bij <code>url</code> vanuit Azure Data Lake Storage Gen1. Elke rij bevat de eigenschappen van de map of het bestand, evenals een koppeling naar de bijbehorende inhoud.
+Hiermee wordt een tabel geretourneerd die een rij bevat voor alle mappen en bestanden die worden gevonden bij `url` vanuit Azure Data Lake Storage Gen1. Elke rij bevat de eigenschappen van de map of het bestand, evenals een koppeling naar de bijbehorende inhoud.
 
 

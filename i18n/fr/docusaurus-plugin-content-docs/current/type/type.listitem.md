@@ -5,7 +5,7 @@ title: Type.ListItem
 # Type.ListItem
 
 
-Retourne un type d&#39;élément d&#39;un type de liste.
+Retourne un type d'élément d'un type de liste.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Type.ListItem(
 
 ## Remarks
 
-Retourne un type d'élément d'une liste <code>type</code>.
+Retourne un type d'élément d'une liste `type`.
 
 
 ## Examples
 
-### Example #1 
-Trouvez le type d&#39;élément dans la liste &lt;code&gt;\{number}&lt;/code&gt;.
+### Example #1
+Trouvez le type d'élément dans la liste `{number}`.
 ```powerquery
 Type.ListItem(type {number})
 ```

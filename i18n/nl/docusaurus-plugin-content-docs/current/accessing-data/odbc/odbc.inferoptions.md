@@ -19,12 +19,12 @@ Odbc.InferOptions(
 
 ## Remarks
 
-Retourneert het resultaat van het afleiden van SQL-mogelijkheden met de verbindingsreeks <code>connectionString</code> met ODBC. <code>connectionString</code> kan tekst zijn of een record met eigenschapswaardeparen. Eigenschapswaarden kunnen tekst of cijfers zijn.
+Retourneert het resultaat van het afleiden van SQL-mogelijkheden met de verbindingsreeks `connectionString` met ODBC. `connectionString` kan tekst zijn of een record met eigenschapswaardeparen. Eigenschapswaarden kunnen tekst of cijfers zijn.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De afgeleide SQL-mogelijkheden voor een verbindingsreeks retourneren.
 ```powerquery
 Odbc.InferOptions("dsn=your_dsn")

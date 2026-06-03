@@ -20,12 +20,12 @@ BinaryFormat.Text(
 
 ## Remarks
 
-Trả về một định dạng nhị phân đọc một giá trị văn bản.  <code>length</code> chỉ định số lượng byte để giải mã hoặc định dạng nhị phân có độ dài đứng trước văn bản.  Giá trị <code>encoding</code> tùy chọn chỉ định việc mã hóa của văn bản.  Nếu <code>encoding</code> không được chỉ định thì mã hóa được xác định từ dấu thứ tự byte Unicode.  Nếu không có dấu thứ tự byte nào thì sẽ sử dụng  <code>TextEncoding.Utf8</code>.
+Trả về một định dạng nhị phân đọc một giá trị văn bản. `length` chỉ định số lượng byte để giải mã hoặc định dạng nhị phân có độ dài đứng trước văn bản. Giá trị `encoding` tùy chọn chỉ định việc mã hóa của văn bản. Nếu `encoding` không được chỉ định thì mã hóa được xác định từ dấu thứ tự byte Unicode. Nếu không có dấu thứ tự byte nào thì sẽ sử dụng `TextEncoding.Utf8`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Giải mã hai byte ở dạng văn bản ASCII.
 ```powerquery
 let
@@ -41,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Giải mã văn bản ASCII nơi độ dài của văn bản tính bằng byte xuất hiện trước văn bản ở dạng byte.
 ```powerquery
 let

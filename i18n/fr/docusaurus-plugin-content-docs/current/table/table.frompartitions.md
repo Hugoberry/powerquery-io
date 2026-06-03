@@ -5,7 +5,7 @@ title: Table.FromPartitions
 # Table.FromPartitions
 
 
-Retourne une table qui est le résultat de la combinaison d&#39;un ensemble de tables partitionnées.
+Retourne une table qui est le résultat de la combinaison d'un ensemble de tables partitionnées.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Table.FromPartitions(
 
 ## Remarks
 
-Retourne une table qui est le résultat de l'association d'un ensemble de tables partitionnées, <code>partitions</code>. <code>partitionColumn</code> est le nom de la colonne à ajouter. Le type de colonne par défaut est <code>any</code>, mais peut être spécifié par <code>partitionColumnType</code>.
+Retourne une table qui est le résultat de l'association d'un ensemble de tables partitionnées, `partitions`. `partitionColumn` est le nom de la colonne à ajouter. Le type de colonne par défaut est `any`, mais peut être spécifié par `partitionColumnType`.
 
 
 ## Examples
 
-### Example #1 
-Trouvez le type d&#39;élément dans la liste &lt;code&gt;\{number}&lt;/code&gt;.
+### Example #1
+Trouvez le type d'élément dans la liste `{number}`.
 ```powerquery
 Table.FromPartitions(
     "Year",

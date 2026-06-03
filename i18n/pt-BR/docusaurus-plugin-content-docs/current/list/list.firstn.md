@@ -20,13 +20,14 @@ List.FirstN(
 
 ## Remarks
 
- <ul>  <li>Se um número for especificado, essa será a quantidade de itens retornados. </li>  <li>Se uma condição for especificada, todos os itens que atenderem inicialmente à condição serão retornados. Quando um item não atender à condição, nenhum outro item será considerado. </li> </ul>
+-   Se um número for especificado, essa será a quantidade de itens retornados.
+-   Se uma condição for especificada, todos os itens que atenderem inicialmente à condição serão retornados. Quando um item não atender à condição, nenhum outro item será considerado.
 
 
 ## Examples
 
-### Example #1 
-Localize os valores iniciais na lista \{3, 4, 5, -1, 7, 8, 2} que sejam maiores que 0.
+### Example #1
+Localize os valores iniciais na lista \{3, 4, 5, -1, 7, 8, 2\} que sejam maiores que 0.
 ```powerquery
 List.FirstN({3, 4, 5, -1, 7, 8, 2}, each _ > 0)
 ```

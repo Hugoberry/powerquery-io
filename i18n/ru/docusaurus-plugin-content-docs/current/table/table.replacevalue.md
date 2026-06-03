@@ -23,13 +23,19 @@ Table.ReplaceValue(
 
 ## Remarks
 
-Заменяет <code>oldValue</code> на <code>newValue</code> в указанных столбцах таблицы <code>table</code>.
+Заменяет значение новым значением в указанных столбцах таблицы.
+
+-   `table`: таблица для поиска.
+-   `oldValue`: значение, которое нужно заменить.
+-   `newValue`: значение для замены.
+-   `replacer`: используемая функция замены. Функция может быть `Replacer.ReplaceText` для замены исходного текста новым, `Replacer.ReplaceValue` для замены исходного значения новым или пользовательской функцией замены.
+-   `columnsToSearch`: список, содержащий определенный столбец или столбцы в таблице для поиска значения, которое нужно заменить.
 
 
 ## Examples
 
-### Example #1 
-Замените текст &#34;goodbye&#34; на &#34;world&#34; в столбце B только при совпадении целого значения.
+### Example #1
+Замените текст "goodbye" на "world" в столбце B только при совпадении целого значения.
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -54,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Замените текст &#34;ur&#34; на &#34;or&#34; в столбце B при совпадении любой части значения.
+### Example #2
+Замените текст "ur" на "or" в столбце B при совпадении любой части значения.
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -78,7 +84,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Анонимизируйте имена сотрудников из США.
 ```powerquery
 Table.ReplaceValue(
@@ -102,7 +108,7 @@ Table.FromRecords({
 ```
 
 
-### Example #4 
+### Example #4
 Анонимизируйте все столбцы сотрудников из США.
 ```powerquery
 Table.ReplaceValue(

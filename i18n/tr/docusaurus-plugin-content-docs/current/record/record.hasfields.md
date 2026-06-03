@@ -20,13 +20,13 @@ Record.HasFields(
 
 ## Remarks
 
-<code>record</code> kaydının <code>fields</code> içinde belirtilen alanları içerip içermediğini bir mantıksal değer döndürerek (doğru veya yanlış) gösterir.    Birden çok alan değeri liste kullanılarak belirtilebilir.
+`record` kaydının `fields` içinde belirtilen alanları içerip içermediğini bir mantıksal değer döndürerek (doğru veya yanlış) gösterir. Birden çok alan değeri liste kullanılarak belirtilebilir.
 
 
 ## Examples
 
-### Example #1 
-Kayıtta &#34;CustomerID&#34; alanının bulunup bulunmadığını denetler.
+### Example #1
+Kayıtta "CustomerID" alanının bulunup bulunmadığını denetler.
 ```powerquery
 Record.HasFields([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")
 ```
@@ -37,8 +37,8 @@ true
 ```
 
 
-### Example #2 
-Kayıtta &#34;CustomerID&#34; ve &#34;Address&#34; alanlarının bulunup bulunmadığını denetler.
+### Example #2
+Kayıtta "CustomerID" ve "Address" alanlarının bulunup bulunmadığını denetler.
 ```powerquery
 Record.HasFields([CustomerID = 1, Name = "Bob", Phone = "123-4567"], {"CustomerID", "Address"})
 ```

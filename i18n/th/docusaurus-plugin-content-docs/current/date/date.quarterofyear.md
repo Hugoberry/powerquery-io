@@ -19,12 +19,12 @@ Date.QuarterOfYear(
 
 ## Remarks
 
-ส่งกลับตัวเลข 1 ถึง 4 ที่ระบุไตรมาสของปีซึ่งวันที่ <code>dateTime</code> ตกอยู่ในไตรมาสนั้น <code>dateTime</code> สามารถเป็นค่า <code>date</code>, <code>datetime</code> หรือ <code>datetimezone</code> ได้
+ส่งกลับตัวเลข 1 ถึง 4 ที่ระบุไตรมาสของปีซึ่งวันที่ `dateTime` ตกอยู่ในไตรมาสนั้น `dateTime` สามารถเป็นค่า `date`, `datetime` หรือ `datetimezone` ได้
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ค้นหาไตรมาสของปีซึ่งวันที่ #date(2011, 12, 31) ตกอยู่ในไตรมาสนั้น
 ```powerquery
 Date.QuarterOfYear(#date(2011, 12, 31))

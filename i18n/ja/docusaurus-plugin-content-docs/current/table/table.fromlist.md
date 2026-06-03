@@ -23,12 +23,12 @@ Table.FromList(
 
 ## Remarks
 
-省略可能な分割関数 <code>splitter</code> をリストの各アイテムに適用してリスト <code>list</code> をテーブルに変換します。既定では、リストはコンマで区切られたテキスト値のリストであると見なされます。省略可能な <code>columns</code> は、列の数、列のリスト、TableType のいずれかです。省略可能な <code>default</code> および <code>extraValues</code> を指定することもできます。
+省略可能な分割関数 `splitter` をリストの各アイテムに適用してリスト `list` をテーブルに変換します。既定では、リストはコンマで区切られたテキスト値のリストであると見なされます。省略可能な `columns` は、列の数、列のリスト、TableType のいずれかです。省略可能な `default` および `extraValues` を指定することもできます。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 既定のスプリッターを使用して、リストから表を作成します。
 ```powerquery
 Table.FromList(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 カスタム スプリッターを使用して、リストから表を作成します。
 ```powerquery
 Table.FromList(
@@ -70,7 +70,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Record.FieldValues スプリッターを使用して、リストから表を作成します。
 ```powerquery
 Table.FromList(

@@ -5,7 +5,7 @@ title: Table.AddColumn
 # Table.AddColumn
 
 
-Ajoute une colonne portant le nom spécifié. La valeur est calculée à l&#39;aide de la fonction de sélection spécifiée en considérant chaque ligne comme une entrée.
+Ajoute une colonne portant le nom spécifié. La valeur est calculée à l'aide de la fonction de sélection spécifiée en considérant chaque ligne comme une entrée.
 
 
 ## Syntax
@@ -22,13 +22,13 @@ Table.AddColumn(
 
 ## Remarks
 
-Ajoute une colonne nommée <code>newColumnName</code> à la table <code>table</code>. Les valeurs de la colonne sont calculées à l'aide de la fonction de sélection spécifiée <code>columnGenerator</code> en considérant chaque ligne comme une entrée.
+Ajoute une colonne nommée `newColumnName` à la table `table`. Les valeurs de la colonne sont calculées à l'aide de la fonction de sélection spécifiée `columnGenerator` en considérant chaque ligne comme une entrée.
 
 
 ## Examples
 
-### Example #1 
-Ajoute une colonne de nombres nommée &#34; TotalPrice &#34; à la table, où chaque valeur est la somme des colonnes [Price] et colonne [Shipping].
+### Example #1
+Ajoute une colonne de nombres nommée « TotalPrice » à la table, où chaque valeur est la somme des colonnes \[Price\] et colonne \[Shipping\].
 ```powerquery
 Table.AddColumn(
     Table.FromRecords({

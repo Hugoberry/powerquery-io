@@ -25,7 +25,7 @@ Azure Enterprise API के लिए प्रदत्त url हेतु क
 
 ## Examples
 
-### Example #1 
+### Example #1
 किसी विशिष्ट रिपोर्ट के परिणाम लौटाने के लिए AzureEnterprise.Contents फ़ंक्शन का उपयोग करना.
 ```powerquery
         let

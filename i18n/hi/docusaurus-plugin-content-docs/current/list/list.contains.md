@@ -21,13 +21,17 @@ List.Contains(
 
 ## Remarks
 
-इंगित करता है कि <code>list</code> सूची में <code>value</code> मान शामिल है या नहीं.    यदि मान सूची में पाया जाता है, तो सत्य अन्यथा गलत लौटाता है. समानता परीक्षण नियंत्रित करने के लिए एक वैकल्पिक समीकरण मानदंड मान <code>equationCriteria</code> निर्दिष्ट किया जा सकता है. 
+इंगित करता है कि क्या सूची में निर्दिष्ट मान शामिल है. यदि सूची में यह मान पाया जाता है, तो `TRUE` लौटाता है, अन्यथा `FALSE` लौटाता है.
+
+-   `list`: खोजने वाली सूची.
+-   `value`: सूची में खोजने वाला मान.
+-   `equationCriteria`: (वैकल्पिक) वह तुलनाकर्ता जिसका उपयोग यह निर्धारित करने के लिए किया जाता है कि क्या दो मान समान हैं.
 
 
 ## Examples
 
-### Example #1 
-ढूँढें कि क्या सूची \{1, 2, 3, 4, 5} में 3 है.
+### Example #1
+यह निर्धारित करें कि क्या सूची \{1, 2, 3, 4, 5\} में 3 शामिल है.
 ```powerquery
 List.Contains({1, 2, 3, 4, 5}, 3)
 ```
@@ -38,8 +42,8 @@ true
 ```
 
 
-### Example #2 
-ढूँढें कि क्या सूची \{1, 2, 3, 4, 5} में 6 है.
+### Example #2
+यह निर्धारित करें कि क्या सूची \{1, 2, 3, 4, 5\} में 6 शामिल है.
 ```powerquery
 List.Contains({1, 2, 3, 4, 5}, 6)
 ```
@@ -47,6 +51,37 @@ List.Contains({1, 2, 3, 4, 5}, 6)
 Result: 
 ```powerquery
 false
+```
+
+
+### Example #3
+केस पर ध्यान न देते हुए, यह निर्धारित करें कि क्या सूची में "rhubarb" शामिल है.
+```powerquery
+List.Contains({"Pears", "Bananas", "Rhubarb", "Peaches"},
+    "rhubarb",
+    Comparer.OrdinalIgnoreCase
+)
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+### Example #4
+निर्धारित करें कि क्या सूची में 8 अप्रैल, 2022 की दिनांक शामिल है.
+```powerquery
+let
+    Source = {#date(2024, 2, 23), #date(2023, 12, 2), #date(2022, 4, 8), #date(2021, 7, 6)},
+    ContainsDate = List.Contains(Source, Date.From("4/8/2022"))
+in
+    ContainsDate
+```
+
+Result: 
+```powerquery
+true
 ```
 
 

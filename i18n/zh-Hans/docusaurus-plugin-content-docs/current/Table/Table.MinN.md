@@ -21,13 +21,16 @@ Table.MinN(
 
 ## Remarks
 
-在给定 <code>comparisonCriteria</code> 的情况下，返回 <code>table</code> 中的最小值行。在对行排序后，必须指定 <code>countOrCondition</code> 参数以进一步筛选结果。注意，排序算法无法保证固定的排序结果。<code>countOrCondition</code> 参数可以采用多种格式:    <ul>        <li> 如果指定一个数，则返回以升序排序的、最多包含 <code>countOrCondition</code> 项的列表。</li>        <li> 如果指定条件，则返回最初满足该条件的项列表。如果某个项不满足该条件，则不再考虑其他项。</li> </ul>
+在给定 `comparisonCriteria` 的情况下，返回 `table` 中的最小值行。在对行排序后，必须指定 `countOrCondition` 参数以进一步筛选结果。注意，排序算法无法保证固定的排序结果。`countOrCondition` 参数可以采用多种格式:
+
+-   如果指定一个数，则返回以升序排序的、最多包含 `countOrCondition` 项的列表。
+-   如果指定条件，则返回最初满足该条件的项列表。如果某个项不满足该条件，则不再考虑其他项。
 
 
 ## Examples
 
-### Example #1 
-查找表中在列 [a] 中具有最小值且条件 [a] &lt; 3 的行。在应用筛选器之前，先对行排序。
+### Example #1
+查找表中在列 \[a\] 中具有最小值且条件 \[a\] &lt; 3 的行。在应用筛选器之前，先对行排序。
 ```powerquery
 Table.MinN(
     Table.FromRecords({
@@ -49,8 +52,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-查找表中在列 [a] 中具有最小值且条件 [b] &lt; 0 的行。在应用筛选器之前，先对行排序。
+### Example #2
+查找表中在列 \[a\] 中具有最小值且条件 \[b\] &lt; 0 的行。在应用筛选器之前，先对行排序。
 ```powerquery
 Table.MinN(
     Table.FromRecords({

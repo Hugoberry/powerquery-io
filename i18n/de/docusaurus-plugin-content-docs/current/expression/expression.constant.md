@@ -24,7 +24,7 @@ Gibt die M-Quellcodedarstellung eines konstanten Werts zurück.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hiermit wird die M-Quellcodedarstellung eines Zahlenwerts abgerufen.
 ```powerquery
 Expression.Constant(123)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Hiermit wird die M-Quellcodedarstellung eines Datumswerts abgerufen.
 ```powerquery
 Expression.Constant(#date(2035, 01, 02))
@@ -48,7 +48,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Hiermit wird die M-Quellcodedarstellung eines Textwerts abgerufen.
 ```powerquery
 Expression.Constant("abc")

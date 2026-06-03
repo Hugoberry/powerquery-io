@@ -19,7 +19,7 @@ List.NonNullCount(
 
 ## Remarks
 
-Trả về số lượng các giá trị không rỗng trong danh sách <code>list</code>.
+Trả về số lượng các giá trị không rỗng trong danh sách `list`.
 
 
 

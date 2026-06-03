@@ -25,12 +25,25 @@ Table.Join(
 
 ## Remarks
 
-<code>key1</code>(<code>table1</code> के लिए) और <code>key2</code>(<code>table2</code> के लिए) द्वारा चयनित कुंजी कॉलम के मानों की समानता के आधार पर <code>table1</code> की पंक्तियों को <code>table2</code>की पंक्तियों के साथ जोड़ता है. <br />डिफ़ॉल्ट रूप से, एक आंतरिक जुड़ाव किया जाता है, हालांकि जुड़ाव के प्रकार को निर्दिष्ट करने के लिए एक वैकल्पिक<code>joinKind</code> शामिल किया जा सकता है. विकल्पों में शामिल हैं:      <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul> <br />कुंजी कॉलम की तुलना करने का तरीका निर्दिष्ट करने के लिए <code>keyEqualityComparers</code> का एक वैकल्पिक सेट शामिल किया जा सकता है. यह पैरामीटर वर्तमान में केवल आंतरिक उपयोग के लिए है. <br />
+`key1`(`table1` के लिए) और `key2`(`table2` के लिए) द्वारा चयनित कुंजी कॉलम के मानों की समानता के आधार पर `table1` की पंक्तियों को `table2`की पंक्तियों के साथ जोड़ता है.
+
+डिफ़ॉल्ट रूप से, एक आंतरिक जुड़ाव किया जाता है, हालांकि जुड़ाव के प्रकार को निर्दिष्ट करने के लिए एक वैकल्पिक`joinKind` शामिल किया जा सकता है. विकल्पों में शामिल हैं:
+
+-   `JoinKind.Inner`
+-   `JoinKind.LeftOuter`
+-   `JoinKind.RightOuter`
+-   `JoinKind.FullOuter`
+-   `JoinKind.LeftAnti`
+-   `JoinKind.RightAnti`
+-   `JoinKind.LeftSemi`
+-   `JoinKind.RightSemi`
+
+कुंजी कॉलम की तुलना करने का तरीका निर्दिष्ट करने के लिए `keyEqualityComparers` का एक वैकल्पिक सेट शामिल किया जा सकता है. यह पैरामीटर वर्तमान में केवल आंतरिक उपयोग के लिए है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 एकल कुंजी स्‍तंभ का उपयोग करके दो तालिकाओं को जोड़ें.
 ```powerquery
 Table.Join(
@@ -67,7 +80,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 एक से ज्यादा कुंजी कॉलम का उपयोग करके, दो तालिकाओं को जोड़ें जिनमें परस्पर विरोधी नाम वाले कॉलम हैं.
 ```powerquery
 let

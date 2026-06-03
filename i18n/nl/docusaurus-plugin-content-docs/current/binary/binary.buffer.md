@@ -24,7 +24,7 @@ Buffert de binaire waarde in het geheugen. Het resultaat van deze aanroep is een
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een stabiele versie van de binaire waarde maken.
 ```powerquery
 Binary.Buffer(Binary.FromList({0..10}))

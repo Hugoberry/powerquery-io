@@ -20,13 +20,13 @@ List.Sum(
 
 ## Remarks
 
-Returnerer summen af de værdier, der ikke er null, på listen, <code>list</code>.  Returnerer null, hvis der ikke er tal, som ikke er null, på listen.
+Returnerer summen af de værdier, der ikke er null, på listen, `list`. Returnerer null, hvis der ikke er tal, som ikke er null, på listen.
 
 
 ## Examples
 
-### Example #1 
-Find summen af tallene på listen &lt;code&gt;\{1, 2, 3}&lt;/code&gt;.
+### Example #1
+Find summen af tallene på listen `{1, 2, 3}`.
 ```powerquery
 List.Sum({1, 2, 3})
 ```

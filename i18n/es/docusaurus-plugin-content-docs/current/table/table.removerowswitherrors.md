@@ -25,7 +25,7 @@ Devuelve una tabla con las filas quitadas de la tabla de entrada que contienen u
 
 ## Examples
 
-### Example #1 
+### Example #1
 Quitar el valor de error de la primera fila.
 ```powerquery
 Table.RemoveRowsWithErrors(

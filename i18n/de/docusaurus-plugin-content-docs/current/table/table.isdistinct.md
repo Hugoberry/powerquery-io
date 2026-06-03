@@ -20,12 +20,12 @@ Table.IsDistinct(
 
 ## Remarks
 
-Gibt an, ob das Element vom Typ "<code>table</code>" nur eindeutige Zeilen (also keine Duplikate) enthält. Gibt <code>true</code> zurück, wenn die Zeilen eindeutig sind. Andernfalls wird <code>false</code> zurückgegeben.    Mit einem optionalen Parameter (<code>comparisonCriteria</code>) kann angegeben werden, welche Spalten aus der Tabelle auf mehrfache Vorkommen überprüft werden sollen. Ohne Angabe von "<code>comparisonCriteria</code>" werden alle Spalten überprüft.
+Gibt an, ob das Element vom Typ "`table`" nur eindeutige Zeilen (also keine Duplikate) enthält. Gibt `true` zurück, wenn die Zeilen eindeutig sind. Andernfalls wird `false` zurückgegeben. Mit einem optionalen Parameter (`comparisonCriteria`) kann angegeben werden, welche Spalten aus der Tabelle auf mehrfache Vorkommen überprüft werden sollen. Ohne Angabe von "`comparisonCriteria`" werden alle Spalten überprüft.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ermittelt, ob die Tabelle eindeutig ist.
 ```powerquery
 Table.IsDistinct(
@@ -44,7 +44,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Ermittelt, ob die Tabelle in der Spalte eindeutig ist.
 ```powerquery
 Table.IsDistinct(

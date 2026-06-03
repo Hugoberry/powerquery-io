@@ -20,12 +20,14 @@ Table.FromValue(
 
 ## Remarks
 
-使用包含提供的值或值列表 <code>value</code> 的列创建表。可选记录参数 <code>options</code> 可以指定为控制以下选项:    <ul>    <li> <code>DefaultColumnName</code> : 从列表或标量值构造表时使用的列名。</li>    </ul>  
+使用包含所提供的值或值列表 `value` 的列创建表。可以指定可选记录参数 `options` 来控制以下选项:
+
+-   `DefaultColumnName`: 从列表或标量值构造表时使用的列名。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 从值 1 创建一个表。
 ```powerquery
 Table.FromValue(1)
@@ -37,7 +39,7 @@ Table.FromRecords({[Value = 1]})
 ```
 
 
-### Example #2 
+### Example #2
 从列表创建一个表。
 ```powerquery
 Table.FromValue({1, "Bob", "123-4567"})
@@ -53,7 +55,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 使用自定义列名从值 1 创建一个表。
 ```powerquery
 Table.FromValue(1, [DefaultColumnName = "MyValue"])

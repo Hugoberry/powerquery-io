@@ -19,7 +19,7 @@ DateTimeZone.LocalNow(
 
 ## Remarks
 
-Returnerar ett <code>datetimezone</code>-värde för systemets aktuella datum och tid.    Värdet som returneras innehåller tidszonsinformation som representerar den lokala tidszonen.
+Returnerar ett `datetimezone`\-värde för systemets aktuella datum och tid. Värdet som returneras innehåller tidszonsinformation som representerar den lokala tidszonen.
 
 
 

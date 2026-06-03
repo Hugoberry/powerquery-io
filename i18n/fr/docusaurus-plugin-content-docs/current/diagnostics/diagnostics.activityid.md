@@ -5,7 +5,7 @@ title: Diagnostics.ActivityId
 # Diagnostics.ActivityId
 
 
-Retourne un identificateur opaque pour l&#39;évaluation en cours d&#39;exécution.
+Retourne un identificateur opaque pour l'évaluation en cours d'exécution.
 
 
 ## Syntax

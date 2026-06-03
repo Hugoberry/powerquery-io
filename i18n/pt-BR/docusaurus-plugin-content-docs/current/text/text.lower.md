@@ -20,13 +20,13 @@ Text.Lower(
 
 ## Remarks
 
-Retorna o resultado da conversão de todos os caracteres em <code>text</code> em minúsculas. Um <code>culture</code> opcional também pode ser fornecido (por exemplo, "en-US").
+Retorna o resultado da conversão de todos os caracteres em `text` em minúsculas. Um `culture` opcional também pode ser fornecido (por exemplo, "en-US").
 
 
 ## Examples
 
-### Example #1 
-Obtenha a versão minúscula de &#34;AbCd&#34;.
+### Example #1
+Obtenha a versão minúscula de "AbCd".
 ```powerquery
 Text.Lower("AbCd")
 ```

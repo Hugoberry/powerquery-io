@@ -19,12 +19,12 @@ Table.RowCount(
 
 ## Remarks
 
-Возвращает количество строк в <code>table</code>.
+Возвращает количество строк в `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Нахождение числа строк в таблице.
 ```powerquery
 Table.RowCount(

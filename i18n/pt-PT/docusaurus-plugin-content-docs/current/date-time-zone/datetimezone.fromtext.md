@@ -20,13 +20,18 @@ DateTimeZone.FromText(
 
 ## Remarks
 
-Cria um valor <code>datetimezone</code> a partir de uma representação textual, <code>text</code>. Um parâmetro <code>record</code> opcional, <code>options</code> pode ser fornecido para especificar propriedades adicionais. O <code>record</code> pode conter os seguintes campos:<ul>   <li><code>Format</code>: Um valor de <code>text</code> que indica o formato a utilizar. Para mais detalhes, aceda a https://go.microsoft.com/fwlink/?linkid=2180104 e https://go.microsoft.com/fwlink/?linkid=2180105. Omitir este campo ou fornecer <code>null</code> resultará na análise da data com o melhor esforço.</li>   <li><code>Culture</code>: Quando o <code>Format</code> não é nulo, a <code>Culture</code> controla alguns especificadores de formato.. Por exemplo, em <code>"en-US"</code> <code>"MMM"</code> é <code>"Jan", "Feb", "Mar", ...</code>, enquanto que <code>"ru-RU"</code> <code>"MMM"</code> é <code>"янв", "фев", "мар", ...</code>. Quando <code>Format</code> é <code>null</code>, <code>Culture</code> controla o formato a utilizar. Quando <code>Culture</code> é <code>null</code> ou omitido <code>Culture.Current</code> é utilizado.</li></ul>Para apoiar fluxos de trabalho de legado, <code>options</code> poderá também ser um valor de texto. Isto tem o mesmo comportamento que se <code>options</code><code> = [Format = null, Culture = <code>options</code>]</code>.
+Cria um valor `datetimezone` a partir de uma representação textual, `text`. Poderá ser fornecido um parâmetro `record` opcional, `options`, para especificar propriedades adicionais. O `record` pode conter os seguintes campos:
+
+-   `Format`: um valor `text` que indica o formato a utilizar. Para obter mais detalhes, aceda a https://go.microsoft.com/fwlink/?linkid=2180104 e https://go.microsoft.com/fwlink/?linkid=2180105. A omissão deste campo ou o fornecimento de `null` resultará na análise da data da melhor forma possível.
+-   `Culture`: quando `Format` não é nulo, `Culture` controla alguns especificadores de formato. Por exemplo, em `"en-US"` `"MMM"` é `"Jan", "Feb", "Mar", ...`, enquanto em `"ru-RU"` `"MMM"` é `"янв", "фев", "мар", ...`. Quando `Format` é `null`, `Culture` controla o formato predefinido a utilizar. Quando `Culture` é `null` ou é omitido, é utilizado `Culture.Current`.
+
+Para suportar fluxos de trabalho legados, `options` também poderá ser um valor de texto. Tem o mesmo comportamento que `options = [Format = null, Culture = options]`.
 
 
 ## Examples
 
-### Example #1 
-Converter &lt;code&gt;&#34;2010-12-31T01:30:00-08:00&#34;&lt;/code&gt; num valor &lt;code&gt;datetimezone&lt;/code&gt;.
+### Example #1
+Converter `"2010-12-31T01:30:00-08:00"` num valor `datetimezone`.
 ```powerquery
 DateTimeZone.FromText("2010-12-31T01:30:00-08:00")
 ```
@@ -37,7 +42,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Converter com um formato personalizado e a cultura alemã.
 ```powerquery
 DateTimeZone.FromText("30 Dez 2010 02:04:50.369730 +02:00", [Format="dd MMM yyyy HH:mm:ss.ffffff zzz", Culture="de-DE"])
@@ -49,7 +54,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Converter com ISO 8601.
 ```powerquery
 DateTimeZone.FromText("2009-06-15T13:45:30.0000000-07:00", [Format="O", Culture="en-US"])

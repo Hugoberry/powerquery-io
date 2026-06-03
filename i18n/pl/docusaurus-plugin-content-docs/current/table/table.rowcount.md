@@ -19,12 +19,12 @@ Table.RowCount(
 
 ## Remarks
 
-Zwraca liczbę wierszy w tabeli <code>table</code>.
+Zwraca liczbę wierszy w tabeli `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź liczbę wierszy w tabeli.
 ```powerquery
 Table.RowCount(

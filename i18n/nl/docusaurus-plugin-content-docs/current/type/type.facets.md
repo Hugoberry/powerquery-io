@@ -19,7 +19,7 @@ Type.Facets(
 
 ## Remarks
 
-Hiermee wordt een record met de facetten van <code>type</code> geretourneerd.
+Hiermee wordt een record met de facetten van `type` geretourneerd.
 
 
 

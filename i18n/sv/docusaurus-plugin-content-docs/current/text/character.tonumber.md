@@ -19,12 +19,14 @@ Character.ToNumber(
 
 ## Remarks
 
-Returnerar talmotsvarigheten för <code>character</code>.<br />    <br />    Resultatet blir den 21-bitars Unicode-kodpunkt som representeras av det angivna tecknet eller surrogatparet.  
+Returnerar talmotsvarigheten för `character`.  
+  
+Resultatet blir den 21-bitars Unicode-kodpunkt som representeras av det angivna tecknet eller surrogatparet.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Konvertera ett tecken till motsvarande talvärde.
 ```powerquery
 Character.ToNumber("#(tab)")
@@ -36,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Konvertera UTF-16-surrogatparet för uttryckssymbolen &#34;leende ansikte&#34; till dess motsvarande hexadecimala kodpunkt.
+### Example #2
+Konvertera UTF-16-surrogatparet för uttryckssymbolen "leende ansikte" till dess motsvarande hexadecimala kodpunkt.
 ```powerquery
 Number.ToText(Character.ToNumber("#(0001F600)"), "X")
 ```

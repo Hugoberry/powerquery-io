@@ -5,7 +5,7 @@ title: Function.Invoke
 # Function.Invoke
 
 
-指定された関数を呼び出します
+指定された関数を呼び出します。
 
 
 ## Syntax
@@ -25,8 +25,8 @@ Function.Invoke(
 
 ## Examples
 
-### Example #1 
-1 つの引数 [A=1,B=2] で Record.FieldNames を呼び出します
+### Example #1
+1 つの引数 \[A=1,B=2\] で Record.FieldNames を呼び出します。
 ```powerquery
 Function.Invoke(Record.FieldNames, {[A = 1, B = 2]})
 ```

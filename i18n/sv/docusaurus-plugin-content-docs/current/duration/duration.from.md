@@ -19,13 +19,19 @@ Duration.From(
 
 ## Remarks
 
-Returnerar ett <code>duration</code>-värde från angiven <code>value</code>. Om <code>value</code> är <code>null</code> returnerar <code>Duration.From</code> <code>null</code>. Om <code>value</code> är <code>duration</code> returneras <code>value</code>. Värden av följande typer kan konverteras till ett <code>duration</code>-värde:      <ul>        <li><code>text</code>: Ett <code>duration</code>-värde från förfluten tid i textformat (d.h:m:s). Mer information finns under <code>Duration.FromText</code>.</li>        <li><code>number</code>: Ett <code>duration</code>-värde som motsvarar antalet hela och fraktionella dagar uttryckt med <code>value</code>.</li>      </ul>Om <code>value</code> hör till en annan typ returneras ett fel.
+Returnerar ett varaktighetsvärde från det angivna värdet.
+
+-   `value`: Värdet som varaktigheten härleds från. Om den angivna `value` är `null` returneras den här funktionen `null`. Om den angivna `value` är en `varaktighet` returneras `value`. Värden av följande typer kan konverteras till en `varaktighet` värde:
+    -   `text`: Ett `varaktighets`värde från tidsformulär som förflutit i text (d.h:m:s). Mer information finns i `Duration.FromText`.
+    -   `nummer`: En `varaktighet` som motsvarar antalet hela och bråkdelar av dagar uttryckt med `value`.
+
+Om `value` är av någon annan typ returneras ett fel.
 
 
 ## Examples
 
-### Example #1 
-Konvertera &lt;code&gt;2.525&lt;/code&gt; till ett &lt;code&gt;duration&lt;/code&gt;-värde.
+### Example #1
+Konvertera `2.525` till ett `duration`\-värde.
 ```powerquery
 Duration.From(2.525)
 ```
@@ -33,6 +39,18 @@ Duration.From(2.525)
 Result: 
 ```powerquery
 #duration(2, 12, 36, 0)
+```
+
+
+### Example #2
+Konvertera textvärdet `"2.05:55:20.34567"` till ett `varaktighets`värde.
+```powerquery
+Duration.From("2.05:55:20.34567")
+```
+
+Result: 
+```powerquery
+#duration(2, 5, 55, 20.3456700)
 ```
 
 

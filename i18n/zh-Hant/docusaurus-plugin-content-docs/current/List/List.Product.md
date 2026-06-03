@@ -20,13 +20,13 @@ List.Product(
 
 ## Remarks
 
-傳回清單 <code>numbersList</code> 中非 null 數字的乘積。如果清單中沒有非 Null 值，則傳回 Null。
+傳回清單 `numbersList` 中非 null 數字的乘積。如果清單中沒有非 Null 值，則傳回 Null。
 
 
 ## Examples
 
-### Example #1 
-找出清單 &lt;code&gt;\{1, 2, 3, 3, 4, 5, 5}&lt;/code&gt; 中數字的乘積。
+### Example #1
+找出清單 `{1, 2, 3, 3, 4, 5, 5}` 中數字的乘積。
 ```powerquery
 List.Product({1, 2, 3, 3, 4, 5, 5})
 ```

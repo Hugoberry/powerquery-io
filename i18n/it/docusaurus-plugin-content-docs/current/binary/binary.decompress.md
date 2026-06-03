@@ -20,12 +20,15 @@ Binary.Decompress(
 
 ## Remarks
 
-Decomprime un valore binario usando il tipo di compressione specificato. Il risultato della chiamata è una copia decompressa dell'input. I tipi di compressione includono:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
+Decomprime un valore binario usando il tipo di compressione specificato. Il risultato della chiamata è una copia decompressa dell'input. I tipi di compressione includono:
+
+-   `Compression.GZip`
+-   `Compression.Deflate`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Decomprimere il valore binario.
 ```powerquery
 Binary.Decompress(#binary({115, 103, 200, 7, 194, 20, 134, 36, 134, 74, 134, 84, 6, 0}), Compression.Deflate)

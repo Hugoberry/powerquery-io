@@ -19,13 +19,13 @@ Type.NonNullable(
 
 ## Remarks
 
-<code>type</code> から <code>nullable</code> 以外の型を返します。
+`type` から `nullable` 以外の型を返します。
 
 
 ## Examples
 
-### Example #1 
-NULL 許容型以外の &lt;code&gt;type nullable number&lt;/code&gt; を返します。
+### Example #1
+NULL 許容型以外の `type nullable number` を返します。
 ```powerquery
 Type.NonNullable(type nullable number)
 ```

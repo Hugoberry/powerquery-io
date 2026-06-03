@@ -19,13 +19,13 @@ Type.NonNullable(
 
 ## Remarks
 
-从 <code>type</code> 返回非 <code>nullable</code> 类型。
+从 `type` 返回非 `nullable` 类型。
 
 
 ## Examples
 
-### Example #1 
-返回 &lt;code&gt;type nullable number&lt;/code&gt; 的非可空类型。
+### Example #1
+返回 `type nullable number` 的非可空类型。
 ```powerquery
 Type.NonNullable(type nullable number)
 ```

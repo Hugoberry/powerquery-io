@@ -5,7 +5,7 @@ title: Number.FromText
 # Number.FromText
 
 
-Maakt getallen van algemene tekstindelingen (&#34;15&#34;, &#34;3,423.10&#34;, &#34;5.0E-10&#34;).
+Maakt getallen van algemene tekstindelingen ("15", "3,423.10", "5.0E-10").
 
 
 ## Syntax
@@ -20,13 +20,16 @@ Number.FromText(
 
 ## Remarks
 
-Hiermee wordt een waarde voor <code>number</code> geretourneerd vanuit de opgegeven tekstwaarde, <code>text</code>. <ul> <li><code>text</code>: de tekstweergave van een number-waarde. De weergave moet een gewone getalnotatie hebben, bijvoorbeeld 15, 3.423,10 of 5.0E-10.</li> <li><code>culture</code>: een optionele cultuur die bepaalt hoe <code>text</code> wordt geïnterpreteerd (bijvoorbeeld: nl-NL).</li> </ul>
+Hiermee wordt een waarde voor `number` geretourneerd vanuit de opgegeven tekstwaarde, `text`.
+
+-   `text`: de tekstweergave van een number-waarde. De weergave moet een gewone getalnotatie hebben, bijvoorbeeld 15, 3.423,10 of 5.0E-10.
+-   `culture`: een optionele cultuur die bepaalt hoe `text` wordt geïnterpreteerd (bijvoorbeeld: nl-NL).
 
 
 ## Examples
 
-### Example #1 
-De getalwaarde van &lt;code&gt;&#34;4&#34;&lt;/code&gt; ophalen.
+### Example #1
+De getalwaarde van `"4"` ophalen.
 ```powerquery
 Number.FromText("4")
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-De getalwaarde van &lt;code&gt;&#34;5.0e-10&#34;&lt;/code&gt; ophalen.
+### Example #2
+De getalwaarde van `"5.0e-10"` ophalen.
 ```powerquery
 Number.FromText("5.0e-10")
 ```

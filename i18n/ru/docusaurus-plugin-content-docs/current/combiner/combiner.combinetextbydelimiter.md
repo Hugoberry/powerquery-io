@@ -25,7 +25,7 @@ Combiner.CombineTextByDelimiter(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Объедините список текстовых значений с помощью точки запятой в качестве разделителя.
 ```powerquery
 Combiner.CombineTextByDelimiter(";")({"a", "b", "c"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Объединение текста двух столбцов с помощью разделителя-запятой и цитирования в стиле CSV.
 ```powerquery
 let

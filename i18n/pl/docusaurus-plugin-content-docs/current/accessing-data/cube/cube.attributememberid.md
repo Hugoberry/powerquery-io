@@ -19,7 +19,7 @@ Cube.AttributeMemberId(
 
 ## Remarks
 
-Zwraca unikatowy identyfikator elementu członkowskiego z wartości właściwości elementu członkowskiego. <code>attribute</code>. Zwraca wartość null w przypadku wszystkich innych wartości.
+Zwraca unikatowy identyfikator elementu członkowskiego z wartości właściwości elementu członkowskiego. `attribute`. Zwraca wartość null w przypadku wszystkich innych wartości.
 
 
 

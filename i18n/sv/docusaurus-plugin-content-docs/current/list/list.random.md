@@ -20,12 +20,15 @@ List.Random(
 
 ## Remarks
 
-Returnerar en lista med slumptal mellan 0 och 1, baserat på antalet värden som ska genereras och ett valfritt startvärde.<ul>   <li><code>count</code>: Antalet slumpvärden som ska genereras.</li>   <li><code>seed</code>:  <i>[Valfritt]</i> Ett numeriskt värde som används som startvärde för slumptalsgeneratorn. Om inget anges genereras en unik lista med slumptal varje gång du anropar funktionen. Om du anger startvärdet med ett tal genererar varje anrop till funktionen samma lista med slumptal.</li></ul>
+Returnerar en lista med slumptal mellan 0 och 1, baserat på antalet värden som ska genereras och ett valfritt startvärde.
+
+-   `count`: Antalet slumpvärden som ska genereras.
+-   `seed`: *\[Valfritt\]* Ett numeriskt värde som används som startvärde för slumptalsgeneratorn. Om inget anges genereras en unik lista med slumptal varje gång du anropar funktionen. Om du anger startvärdet med ett tal genererar varje anrop till funktionen samma lista med slumptal.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Skapa en lista med 3 slumptal.
 ```powerquery
 List.Random(3)
@@ -37,7 +40,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Skapa en lista med 3 slumptal och ange ett startvärde.
 ```powerquery
 List.Random(3, 2)

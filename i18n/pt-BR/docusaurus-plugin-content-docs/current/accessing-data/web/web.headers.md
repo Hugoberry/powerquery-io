@@ -20,13 +20,24 @@ Web.Headers(
 
 ## Remarks
 
-Retorna os cabeçalhos baixados do <code>url</code> como um registro. Um parâmetro de registro opcional, <code>options</code>, pode ser fornecido para especificar as propriedades adicionais. O registro pode conter os seguintes campos:    <ul><li><code>Query</code> : Adicione programaticamente par&#226;metros de consulta &#224; URL sem precisar se preocupar com a sa&#237;da.</li><li><code>ApiKeyName</code> : Se o site de destino tiver uma no&#231;&#227;o de uma chave de API, este par&#226;metro poder&#225; ser usado para especificar o nome (n&#227;o o valor) do par&#226;metro de chave que precisa ser usado na URL. O valor da chave real &#233; fornecido na credencial.</li><li><code>Headers</code> : A especifica&#231;&#227;o deste valor como um registro fornecer&#225; cabe&#231;alhos adicionais a uma solicita&#231;&#227;o HTTP.</li><li><code>Timeout</code> : A especifica&#231;&#227;o deste valor como uma dura&#231;&#227;o alterar&#225; o tempo limite de uma solicita&#231;&#227;o HTTP. O valor padr&#227;o &#233; 100 segundos.</li><li><code>ExcludedFromCacheKey</code> : A especifica&#231;&#227;o deste valor como uma lista excluir&#225; essas chaves de cabe&#231;alho HTTP de fazer parte do c&#225;lculo para o cache de dados.</li><li><code>IsRetry</code> : A especifica&#231;&#227;o deste valor l&#243;gico como true ignorar&#225; qualquer resposta existente no cache ao buscar dados.</li><li><code>ManualStatusHandling</code> : A especifica&#231;&#227;o deste valor como uma lista impedir&#225; qualquer tratamento interno para solicita&#231;&#245;es HTTP cuja resposta tenha um desses c&#243;digos de status.</li><li><code>RelativePath</code> : A especifica&#231;&#227;o deste valor como texto o anexar&#225; &#224; URL base antes de fazer a solicita&#231;&#227;o.</li></ul>    A solicitação HTTP é feita com o método HEAD. Fora de um contexto de conector de dados personalizado, apenas um subconjunto de cabeçalhos de resposta está disponível (por motivos de segurança).    
+Retorna os cabeçalhos baixados do `url` como um registro. Um parâmetro de registro opcional, `options`, pode ser fornecido para especificar as propriedades adicionais. O registro pode conter os seguintes campos:
+
+-   `Query` : Adicione programaticamente parâmetros de consulta à URL sem precisar se preocupar com a saída.
+-   `ApiKeyName` : Se o site de destino tiver uma noção de uma chave de API, este parâmetro poderá ser usado para especificar o nome (não o valor) do parâmetro de chave que precisa ser usado na URL. O valor da chave real é fornecido na credencial.
+-   `Headers` : A especificação deste valor como um registro fornecerá cabeçalhos adicionais a uma solicitação HTTP.
+-   `Timeout` : A especificação deste valor como uma duração alterará o tempo limite de uma solicitação HTTP. O valor padrão é 100 segundos.
+-   `ExcludedFromCacheKey` : A especificação deste valor como uma lista excluirá essas chaves de cabeçalho HTTP de fazer parte do cálculo para o cache de dados.
+-   `IsRetry` : A especificação deste valor lógico como true ignorará qualquer resposta existente no cache ao buscar dados.
+-   `ManualStatusHandling` : A especificação deste valor como uma lista impedirá qualquer tratamento interno para solicitações HTTP cuja resposta tenha um desses códigos de status.
+-   `RelativePath` : A especificação deste valor como texto o anexará à URL base antes de fazer a solicitação.
+
+A solicitação HTTP é feita com o método HEAD. Fora de um contexto de conector de dados personalizado, apenas um subconjunto de cabeçalhos de resposta está disponível (por motivos de segurança).
 
 
 ## Examples
 
-### Example #1 
-Recupere os cabeçalhos HTTP de &lt;code&gt;&#34;https://bing.com/search?q=Power+Query&#34;&lt;/code&gt; usando as opções RelativePath e Query.
+### Example #1
+Recupere os cabeçalhos HTTP de `"https://bing.com/search?q=Power+Query"` usando as opções RelativePath e Query.
 ```powerquery
 let
     searchText = "Power Query"

@@ -22,12 +22,17 @@ Table.AlternateRows(
 
 ## Remarks
 
-Bevarar den ursprungliga förskjutningen och växlar sedan mellan att använda och hoppa över efterföljande rader.    <ul>       <li><code>table</code>: Indatatabellen.</li>       <li><code>offset</code>: Antalet rader som ska bevaras innan iterationer startas.</li>       <li><code>skip</code>: Antalet rader som ska tas bort i varje iteration.</li>       <li><code>take</code>: Antalet rader som ska bevaras i varje iteration.</li>    </ul>    
+Bevarar den ursprungliga förskjutningen och växlar sedan mellan att använda och hoppa över efterföljande rader.
+
+-   `table`: Indatatabellen.
+-   `offset`: Antalet rader som ska bevaras innan iterationer startas.
+-   `skip`: Antalet rader som ska tas bort i varje iteration.
+-   `take`: Antalet rader som ska bevaras i varje iteration.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Skapa en tabell från tabellen som, med början från den första raden, hoppar över 1 värde och sedan bevarar 1 värde.
 ```powerquery
 Table.AlternateRows(

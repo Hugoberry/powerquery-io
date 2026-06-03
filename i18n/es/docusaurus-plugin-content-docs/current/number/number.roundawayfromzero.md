@@ -20,12 +20,12 @@ Number.RoundAwayFromZero(
 
 ## Remarks
 
-Devuelve el resultado de redondear <code>number</code> según el signo del número. Esta función redondeará los números positivos hacia arriba y los números negativos hacia abajo.    Si se especifica <code>digits</code>, <code>number</code> se redondea al número <code>digits</code> de dígitos decimales.  
+Devuelve el resultado de redondear `number` según el signo del número. Esta función redondeará los números positivos hacia arriba y los números negativos hacia abajo. Si se especifica `digits`, `number` se redondea al número `digits` de dígitos decimales.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Redondear el número -1,2 en dirección contraria a cero.
 ```powerquery
 Number.RoundAwayFromZero(-1.2)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Redondear el número 1,2 en dirección contraria a cero.
 ```powerquery
 Number.RoundAwayFromZero(1.2)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Redondee el número -1,234 a dos posiciones decimales a partir de cero.
 ```powerquery
 Number.RoundAwayFromZero(-1.234, 2)

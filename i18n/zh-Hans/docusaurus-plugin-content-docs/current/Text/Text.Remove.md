@@ -20,12 +20,12 @@ Text.Remove(
 
 ## Remarks
 
-返回文本值 <code>text</code> 已删除了 <code>removeChars</code> 的所有字符的副本。 
+返回文本值 `text` 已删除了 `removeChars` 的所有字符的副本。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 从文本值中删除字符 , 和 ;。
 ```powerquery
 Text.Remove("a,b;c", {",",";"})

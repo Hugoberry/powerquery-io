@@ -19,13 +19,13 @@ Text.ToList(
 
 ## Remarks
 
-Gibt eine Liste mit Zeichenwerten auf der Grundlage des angegebenen Textwerts (<code>text</code>) zurück.
+Gibt eine Liste mit Zeichenwerten auf der Grundlage des angegebenen Textwerts (`text`) zurück.
 
 
 ## Examples
 
-### Example #1 
-Erstellt eine Liste mit Zeichenwerten auf der Grundlage des Texts &#34;Hello World&#34;.
+### Example #1
+Erstellt eine Liste mit Zeichenwerten auf der Grundlage des Texts "Hello World".
 ```powerquery
 Text.ToList("Hello World")
 ```

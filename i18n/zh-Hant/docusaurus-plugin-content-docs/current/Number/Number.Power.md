@@ -20,12 +20,15 @@ Number.Power(
 
 ## Remarks
 
-傳回 <code>number</code> 的 <code>power</code> 次方結果。     如果 <code>number</code> 或 <code>power</code> 是 Null，<code>Number.Power</code> 會傳回 Null。      <ul>        <li><code>number</code>: 底數。</li>        <li><code>power</code>: 指數。</li>      </ul>
+傳回 `number` 的 `power` 次方結果。 如果 `number` 或 `power` 是 Null，`Number.Power` 會傳回 Null。
+
+-   `number`: 底數。
+-   `power`: 指數。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 找出值 5 的 3 次方 (5 的立方)。
 ```powerquery
 Number.Power(5, 3)

@@ -19,13 +19,15 @@ DateTimeZone.ToRecord(
 
 ## Remarks
 
-Restituisce un record contenente le parti del valore datetimezone specificato <code>dateTimeZone</code>. <ul>        <li><code>dateTimeZone</code>: valore <code>datetimezone</code> da cui deve essere calcolato il record delle parti.</li>      </ul>
+Restituisce un record contenente le parti del valore datetimezone specificato `dateTimeZone`.
+
+-   `dateTimeZone`: valore `datetimezone` da cui deve essere calcolato il record delle parti.
 
 
 ## Examples
 
-### Example #1 
-Converte il valore &lt;code&gt;#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)&lt;/code&gt; in un record contenente i valori di data, ora e fuso orario.
+### Example #1
+Converte il valore `#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)` in un record contenente i valori di data, ora e fuso orario.
 ```powerquery
 DateTimeZone.ToRecord(#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0))
 ```

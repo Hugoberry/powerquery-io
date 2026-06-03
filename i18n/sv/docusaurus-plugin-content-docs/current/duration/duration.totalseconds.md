@@ -19,12 +19,12 @@ Duration.TotalSeconds(
 
 ## Remarks
 
-Returnerar det totala antalet sekunder som <code>duration</code>.
+Returnerar det totala antalet sekunder som `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta det totala antalet sekunder som omfattas av ett varaktighetsvärde.
 ```powerquery
 Duration.TotalSeconds(#duration(5, 4, 3, 2))

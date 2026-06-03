@@ -20,7 +20,7 @@ Uri.Combine(
 
 ## Remarks
 
-Zwraca bezwzględny identyfikator URI stanowiący połączenie wejściowych identyfikatorów <code>baseUri</code> i <code>relativeUri</code>.
+Zwraca bezwzględny identyfikator URI stanowiący połączenie wejściowych identyfikatorów `baseUri` i `relativeUri`.
 
 
 

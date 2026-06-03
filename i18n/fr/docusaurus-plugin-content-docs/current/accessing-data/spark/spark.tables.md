@@ -21,13 +21,13 @@ Spark.Tables(
 
 ## Remarks
 
-Retourne une table répertoriant les tables sur le cluster Spark <code>host</code> à l'aide de <code>protocol</code>. Les protocoles valides sont :SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
+Retourne une table répertoriant les tables sur le cluster Spark `host` à l'aide de `protocol`. Les protocoles valides sont : SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
 
 
 ## Examples
 
-### Example #1 
-Répertoriez les tables dans une instance d&#39;Azure Spark.
+### Example #1
+Répertoriez les tables dans une instance d'Azure Spark.
 ```powerquery
 Spark.Tables("contoso.azurehdinsight.net", SparkProtocol.Azure)
 ```

@@ -19,7 +19,7 @@ Number.Tanh(
 
 ## Remarks
 
-Devolve a tangente hiperbólica de <code>number</code>.
+Devolve a tangente hiperbólica de `number`.
 
 
 

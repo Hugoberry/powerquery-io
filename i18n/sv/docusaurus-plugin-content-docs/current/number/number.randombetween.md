@@ -20,12 +20,12 @@ Number.RandomBetween(
 
 ## Remarks
 
-Returnerar ett slumptal mellan <code>bottom</code> och <code>top</code>.
+Returnerar ett slumptal mellan `bottom` och `top`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hämta ett slumptal mellan 1 och 5.
 ```powerquery
 Number.RandomBetween(1, 5)

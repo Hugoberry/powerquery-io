@@ -20,12 +20,12 @@ Date.MonthName(
 
 ## Remarks
 
-傳回所提供 <code>date</code> 的月份元件名稱。也可提供選用的 <code>culture</code> (例如 "en-US")。
+傳回所提供 `date` 的月份元件名稱。也可提供選用的 `culture` (例如 "en-US")。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 取得月份名稱。
 ```powerquery
 Date.MonthName(#datetime(2011, 12, 31, 5, 0, 0), "en-US")

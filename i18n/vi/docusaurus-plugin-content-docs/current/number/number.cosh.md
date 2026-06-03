@@ -19,7 +19,7 @@ Number.Cosh(
 
 ## Remarks
 
-Trả về cosin hyperbolic của <code>number</code>.
+Trả về cosin hyperbolic của `number`.
 
 
 

@@ -24,7 +24,7 @@ Table.Keys(
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブルのキーのリストを取得します。
 ```powerquery
 let

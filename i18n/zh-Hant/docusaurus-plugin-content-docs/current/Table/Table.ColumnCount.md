@@ -19,12 +19,12 @@ Table.ColumnCount(
 
 ## Remarks
 
-傳回資料表 <code>table</code> 中的資料行數目。
+傳回資料表 `table` 中的資料行數目。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 找出資料表中資料行的數目。
 ```powerquery
 Table.ColumnCount(

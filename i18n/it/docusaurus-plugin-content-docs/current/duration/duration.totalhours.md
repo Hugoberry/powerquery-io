@@ -19,12 +19,12 @@ Duration.TotalHours(
 
 ## Remarks
 
-Restituisce le ore con spanning per <code>duration</code>.
+Restituisce le ore con spanning per `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trovare le ore totali con spanning per un valore di durata.
 ```powerquery
 Duration.TotalHours(#duration(5, 4, 3, 2))

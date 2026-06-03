@@ -19,7 +19,7 @@ DateTime.FixedLocalNow(
 
 ## Remarks
 
-Sistemdeki geçerli tarih ve saate ayarlanan bir <code>datetime</code> değeri döndürür. Bu değer, bir ifadenin yürütülmesi sırasında farklı değerler döndürebilecek DateTime.LocalNow öğesinin aksine sabittir ve sonraki çağrılarla değişmez.
+Sistemdeki geçerli tarih ve saate ayarlanan bir `datetime` değeri döndürür. Bu değer, bir ifadenin yürütülmesi sırasında farklı değerler döndürebilecek DateTime.LocalNow öğesinin aksine sabittir ve sonraki çağrılarla değişmez.
 
 
 

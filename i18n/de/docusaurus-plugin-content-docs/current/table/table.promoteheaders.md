@@ -20,12 +20,15 @@ Table.PromoteHeaders(
 
 ## Remarks
 
-Stuft die erste Zeile mit Werten zu den neuen Spaltenüberschriften (also Spaltennamen) herauf. Alle Zellen der ersten Zeile müssen Text- oder Zahlenwerte enthalten. Standardmäßig werden nur Text- oder Zahlenwerte zu Überschriften heraufgestuft. Gültige Optionen:    <div>      <code>PromoteAllScalars</code>: Bei Festlegung auf <code>true</code> werden alle Skalarwerte in der ersten Zeile mithilfe von <code>Culture</code> zu Überschriften heraufgestuft, sofern angegeben (andernfalls wird das Gebietsschema für das Dokument verwendet).    Für Werte, die nicht in Text konvertiert werden können, wird ein standardmäßiger Spaltenname verwendet.    </div>    <div>    <code>Culture</code>: Ein Kulturname, der die Kultur für die Daten angibt.    </div>  
+Stuft die erste Zeile mit Werten zu den neuen Spaltenüberschriften (also Spaltennamen) herauf. Standardmäßig werden nur Text- oder Zahlenwerte zu Überschriften heraufgestuft. Gültige Optionen:
+
+-   `PromoteAllScalars`: Bei Festlegung auf `WAHR` werden alle Skalarwerte in der ersten Zeile mithilfe von `Culture` zu Überschriften heraufgestuft, sofern angegeben (oder das aktuelle Gebietsschema für das Dokument). Für Werte, die nicht in Text konvertiert werden können, wird ein standardmäßiger Spaltenname verwendet.
+-   `Culture`: Ein Kulturname, der die Kultur für die Daten angibt.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Stuft die erste Zeile mit Werten in der Tabelle höher.
 ```powerquery
 Table.PromoteHeaders(
@@ -42,7 +45,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Column3 = #date(1980, 1, 1)]})
 ```
 
 
-### Example #2 
+### Example #2
 Stuft alle Skalarwerte in der ersten Zeile der Tabelle zu Überschriften herauf.
 ```powerquery
 Table.PromoteHeaders(

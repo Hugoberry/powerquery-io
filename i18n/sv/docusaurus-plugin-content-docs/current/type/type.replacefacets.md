@@ -20,7 +20,7 @@ Type.ReplaceFacets(
 
 ## Remarks
 
-Ersätter fasetterna för <code>type</code> med fasetterna som finns i posten <code>facets</code>.
+Ersätter fasetterna för `type` med fasetterna som finns i posten `facets`.
 
 
 

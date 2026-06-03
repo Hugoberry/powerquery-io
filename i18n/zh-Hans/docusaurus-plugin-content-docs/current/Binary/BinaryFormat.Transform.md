@@ -20,12 +20,12 @@ BinaryFormat.Transform(
 
 ## Remarks
 
-返回一个二进制格式，该二进制格式将转换由另一个二进制格式读取的值。 参数 <code>binaryFormat</code> 指定将用于读取值的二进制格式。 使用读取的值调用 <code>function</code>，并返回转换后的值。
+返回一个二进制格式，该二进制格式将转换由另一个二进制格式读取的值。 参数 `binaryFormat` 指定将用于读取值的二进制格式。 使用读取的值调用 `function`，并返回转换后的值。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 读取一个字节并向其加 1。
 ```powerquery
 let

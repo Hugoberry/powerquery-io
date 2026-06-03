@@ -20,7 +20,7 @@ Cube.ReplaceDimensions(
 
 ## Remarks
 
-Thay thế tập hợp các chiều mà <code>Cube.Dimensions</code> trả về.    Ví dụ: bạn có thể dùng hàm này để thêm cột ID cho thuộc tính chiều. Như vậy, nguồn dữ liệu có thể nhóm dựa trên ID thay vì giá trị hiển thị.
+Thay thế tập hợp các chiều mà `Cube.Dimensions` trả về. Ví dụ: bạn có thể dùng hàm này để thêm cột ID cho thuộc tính chiều. Như vậy, nguồn dữ liệu có thể nhóm dựa trên ID thay vì giá trị hiển thị.
 
 
 

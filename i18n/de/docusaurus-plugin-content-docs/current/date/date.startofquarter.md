@@ -19,12 +19,12 @@ Date.StartOfQuarter(
 
 ## Remarks
 
-Gibt den Beginn des Quartals, der <code>dateTime</code> enthält, zurück.      <code>dateTime</code> muss ein <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert sein.
+Gibt den Beginn des Quartals, der `dateTime` enthält, zurück. `dateTime` muss ein `date`\-, `datetime`\- oder `datetimezone`\-Wert sein.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Suchen Sie den Beginn des Quartals für den 10. Oktober 2011, 8:00 Uhr.
 ```powerquery
 Date.StartOfQuarter(#datetime(2011, 10, 10, 8, 0, 0))

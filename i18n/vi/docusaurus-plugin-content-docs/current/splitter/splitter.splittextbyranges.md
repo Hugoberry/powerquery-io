@@ -25,7 +25,7 @@ Trả về một hàm giúp bạn phân tách văn bản thành một danh sách
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tách dữ liệu đầu vào theo cặp vị trí và độ dài được chỉ định, kể từ đoạn đầu của dữ liệu đầu vào. Lưu ý rằng các phạm vi trong ví dụ này sẽ trùng nhau.
 ```powerquery
 Splitter.SplitTextByRanges({{0, 4}, {2, 10}})("codelimiter")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Tách dữ liệu đầu vào theo cặp vị trí và độ dài được chỉ định, kể từ đoạn cuối của dữ liệu đầu vào.
 ```powerquery
 let
@@ -52,7 +52,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Phân tách nội dung nhập thành một mã bưu điện có độ dài cố định, tiếp theo là một tên thành phố có độ dài biến thiên.
 ```powerquery
 Splitter.SplitTextByRanges({{0, 5}, {5, null}})("98052Redmond")

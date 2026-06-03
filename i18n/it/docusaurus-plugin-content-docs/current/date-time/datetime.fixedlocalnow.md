@@ -5,7 +5,7 @@ title: DateTime.FixedLocalNow
 # DateTime.FixedLocalNow
 
 
-Restituisce la data e l&#39;ora correnti nel fuso orario locale. Questo valore è fisso e non cambia con le chiamate successive.
+Restituisce la data e l'ora correnti nel fuso orario locale. Questo valore è fisso e non cambia con le chiamate successive.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ DateTime.FixedLocalNow(
 
 ## Remarks
 
-Restituisce un valore <code>datetime</code> impostato sulla data e sull'ora correnti del sistema. Questo valore è fisso e non cambia con le chiamate successive, diversamente da DateTime.LocalNow che può restituire valori diversi durante l'esecuzione di un'espressione.
+Restituisce un valore `datetime` impostato sulla data e sull'ora correnti del sistema. Questo valore è fisso e non cambia con le chiamate successive, diversamente da DateTime.LocalNow che può restituire valori diversi durante l'esecuzione di un'espressione.
 
 
 

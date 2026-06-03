@@ -19,7 +19,7 @@ Value.Expression(
 
 ## Remarks
 
-返回表示值表达式的抽象语法树(AST)
+返回表示值表达式的抽象语法树(AST)。
 
 
 

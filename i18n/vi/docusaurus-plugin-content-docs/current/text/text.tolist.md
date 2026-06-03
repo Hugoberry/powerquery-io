@@ -19,13 +19,13 @@ Text.ToList(
 
 ## Remarks
 
-Trả về danh sách giá trị ký tự từ giá trị văn bản cho sẵn <code>text</code>.
+Trả về danh sách giá trị ký tự từ giá trị văn bản cho sẵn `text`.
 
 
 ## Examples
 
-### Example #1 
-Tạo danh sách giá trị ký tự từ văn bản &#34;Hello World&#34;.
+### Example #1
+Tạo danh sách giá trị ký tự từ văn bản "Hello World".
 ```powerquery
 Text.ToList("Hello World")
 ```

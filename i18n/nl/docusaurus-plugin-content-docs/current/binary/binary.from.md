@@ -20,13 +20,17 @@ Binary.From(
 
 ## Remarks
 
-Hiermee wordt een <code>binary</code>-waarde geretourneerd van de opgegeven waarde <code>value</code>. Als de opgegeven waarde <code>value</code> <code>null</code> is, retourneert <code>Binary.From</code> <code>null</code>. Als de opgegeven waarde <code>value</code> <code>binary</code> is, wordt <code>value</code> geretourneerd. Waarden van de volgende typen kunnen worden omgezet naar een <code>binary</code>-waarde: <ul> <li><code>text</code>: een <code>binary</code>-waarde van de tekstweergave. Raadpleeg <code>Binary.FromText</code> voor meer informatie.</li> </ul>Als <code>value</code> van een ander type is, wordt een fout geretourneerd.
+Hiermee wordt een `binary`\-waarde geretourneerd van de opgegeven waarde `value`. Als de opgegeven waarde `value` `null` is, retourneert `Binary.From` `null`. Als de opgegeven waarde `value` `binary` is, wordt `value` geretourneerd. Waarden van de volgende typen kunnen worden omgezet naar een `binary`\-waarde:
+
+-   `text`: een `binary`\-waarde van de tekstweergave. Raadpleeg `Binary.FromText` voor meer informatie.
+
+Als `value` van een ander type is, wordt een fout geretourneerd.
 
 
 ## Examples
 
-### Example #1 
-De &lt;code&gt;binary&lt;/code&gt; waarde van &lt;code&gt;&#34;1011&#34;&lt;/code&gt; ophalen.
+### Example #1
+De `binary` waarde van `"1011"` ophalen.
 ```powerquery
 Binary.From("1011")
 ```

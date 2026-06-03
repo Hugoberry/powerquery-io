@@ -20,13 +20,13 @@ Text.End(
 
 ## Remarks
 
-Devuelve un valor <code>text</code> que son los últimos <code>count</code> caracteres del valor <code>text</code> <code>text</code>.
+Devuelve un valor `text` que son los últimos `count` caracteres del valor `text` `text`.
 
 
 ## Examples
 
-### Example #1 
-Obtener los 5 caracteres últimos del texto &#34;Hola mundo&#34;.
+### Example #1
+Obtener los 5 caracteres últimos del texto "Hola mundo".
 ```powerquery
 Text.End("Hello, World", 5)
 ```

@@ -19,12 +19,14 @@ Number.Exp(
 
 ## Remarks
 
-Hiermee wordt het resultaat van he verheffen van e tot de macht <code>number</code> (exponential function) geretourneerd. <ul> <li><code>number</code>: een <code>number</code> waarvoor de exponentiële functie moet worden berekend. Als <code>number</code> null is, retourneert <code>Number.Exp</code> null. </li> </ul>
+Hiermee wordt het resultaat van he verheffen van e tot de macht `number` (exponential function) geretourneerd.
+
+-   `number`: een `number` waarvoor de exponentiële functie moet worden berekend. Als `number` null is, retourneert `Number.Exp` null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Verheft e tot de macht 3.
 ```powerquery
 Number.Exp(3)

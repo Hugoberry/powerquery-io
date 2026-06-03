@@ -22,8 +22,8 @@ Bu işlev, SparkPost API v1 "Lists" uç noktalarından herhangi birini çağırm
 
 ## Examples
 
-### Example #1 
-SparkPost API v1 &#34;Lists&#34; uç noktalarından birinin verileriyle doldurulmuş tek bir sütunu olan bir tablo döndürür. (Ayrıntılar için SparkPost belgelerine bakın.)
+### Example #1
+SparkPost API v1 "Lists" uç noktalarından birinin verileriyle doldurulmuş tek bir sütunu olan bir tablo döndürür. (Ayrıntılar için SparkPost belgelerine bakın.)
 ```powerquery
 Source = SparkPost.GetList("metrics/campaigns")
 ```

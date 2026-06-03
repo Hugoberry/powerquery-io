@@ -21,6 +21,6 @@ Dynamics365BusinessCentral.ApiContents(
 
 ## Remarks
 
-प्रासंगिक Dynamics 365 Business Central डेटा वाली तालिका वापस करता है. 
+प्रासंगिक Dynamics 365 Business Central डेटा वाली तालिका वापस करता है.
 
 

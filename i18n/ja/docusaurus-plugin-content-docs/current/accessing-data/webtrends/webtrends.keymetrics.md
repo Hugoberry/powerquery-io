@@ -26,7 +26,7 @@ Webtrends KeyMetrics エンドポイントへの呼び出しを実行して、�
 
 ## Examples
 
-### Example #1 
+### Example #1
 過去 30 日間のテナント 98765 の主要指標のテーブルをプルします
 ```powerquery
 Webtrends.KeyMetrics("98765")

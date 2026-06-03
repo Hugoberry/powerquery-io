@@ -22,12 +22,17 @@ Table.AlternateRows(
 
 ## Remarks
 
-Mantém o deslocamento inicial, e alterna o uso e não uso das linhas a seguir.    <ul>       <li><code>table</code>: A tabela de entrada.</li>       <li><code>offset</code>: O número de linhas a serem mantidos antes de iniciar as iterações.</li>       <li><code>skip</code>: O número de linhas a serem removidos em cada iteração.</li>       <li><code>take</code>: O número de linhas a serem mantidos em cada iteração.</li>    </ul>    
+Mantém o deslocamento inicial, e alterna o uso e não uso das linhas a seguir.
+
+-   `table`: A tabela de entrada.
+-   `offset`: O número de linhas a serem mantidos antes de iniciar as iterações.
+-   `skip`: O número de linhas a serem removidos em cada iteração.
+-   `take`: O número de linhas a serem mantidos em cada iteração.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Retornar uma tabela a partir da tabela que, começando na primeira linha, ignora 1 valor e depois mantém 1 valor.
 ```powerquery
 Table.AlternateRows(

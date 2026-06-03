@@ -5,7 +5,7 @@ title: Table.View
 # Table.View
 
 
-Crea o estende una tabella con gestori definiti dall&#39;utente per operazioni di query e azione.
+Crea o estende una tabella con gestori definiti dall'utente per operazioni di query e azione.
 
 
 ## Syntax
@@ -20,13 +20,23 @@ Table.View(
 
 ## Remarks
 
-Restituisce una vista di <code>table</code> in cui vengono usate le funzioni specificate in<code>handlers</code> anziché il comportamento predefinito di un'operazione quando l'operazione è applicata alla vista.<br />Se<code>table</code> viene specificato, tutte le funzioni del gestore sono facoltative. Se <code>table</code> non viene specificato, sono richieste le funzioni di gestore <code>GetType</code> e <code>GetRows</code>. Se una funzione di gestore non è specificata per un'operazione, a <code>table</code> viene applicato il comportamento predefinito dell'operazione (tranne nel caso di <code>GetExpression</code>). <br />Le funzioni del gestore devono restituire un valore equivalente a livello semantico al risultato dell'applicazione dell'operazione su <code>table</code> (o della vista risultante nel caso di <code>GetExpression</code>).<br />Se una funzione del gestore genera un errore, alla vista viene applicato il comportamento predefinito dell'operazione.<br />È possibile usare <code>Table.View</code> per implementare la riduzione per un'origine dati, ovvero la conversione di query M in query specifiche dell'origine (ad esempio, per creare istruzioni T-SQL da query M).<br />Per una descrizione completa di <code>Table.View</code>, vedere la documentazione pubblicata.<br />
+Restituisce una vista di `table` in cui vengono usate le funzioni specificate in`handlers` anziché il comportamento predefinito di un'operazione quando l'operazione è applicata alla vista.
+
+Se`table` viene specificato, tutte le funzioni del gestore sono facoltative. Se `table` non viene specificato, sono richieste le funzioni di gestore `GetType` e `GetRows`. Se una funzione di gestore non è specificata per un'operazione, a `table` viene applicato il comportamento predefinito dell'operazione (tranne nel caso di `GetExpression`).
+
+Le funzioni del gestore devono restituire un valore equivalente a livello semantico al risultato dell'applicazione dell'operazione su `table` (o della vista risultante nel caso di `GetExpression`).
+
+Se una funzione del gestore genera un errore, alla vista viene applicato il comportamento predefinito dell'operazione.
+
+È possibile usare `Table.View` per implementare la riduzione per un'origine dati, ovvero la conversione di query M in query specifiche dell'origine (ad esempio, per creare istruzioni T-SQL da query M).
+
+Per una descrizione completa di `Table.View`, vedere la documentazione pubblicata.
 
 
 ## Examples
 
-### Example #1 
-Creare una visualizzazione di base che non richieda l&#39;accesso alle righe per determinare il tipo o il numero di righe.
+### Example #1
+Creare una visualizzazione di base che non richieda l'accesso alle righe per determinare il tipo o il numero di righe.
 ```powerquery
 Table.View(
     null,

@@ -5,7 +5,7 @@ title: Date.IsInNextYear
 # Date.IsInNextYear
 
 
-Indica se esta data ocorre durante o ano seguinte, conforme determinado pela data e hora atuais no sistema. Tenha em conta que esta função irá devolver &#34;falso&#34; quando é transmitido um valor que ocorre no ano atual.
+Indica se esta data ocorre durante o ano seguinte, conforme determinado pela data e hora atuais no sistema. Tenha em conta que esta função irá devolver "falso" quando é transmitido um valor que ocorre no ano atual.
 
 
 ## Syntax
@@ -19,12 +19,14 @@ Date.IsInNextYear(
 
 ## Remarks
 
-Indica se o valor do datetime indicado <code>dateTime</code> ocorre durante o próximo ano, conforme determinado pela data e hora atuais no sistema. Tenha em conta que esta função irá devolver "falso" quando é transmitido um valor que ocorre no ano atual.      <ul>      <li><code>dateTime</code>: um valor <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> a ser avaliado.</li>      </ul>
+Indica se o valor do datetime indicado `dateTime` ocorre durante o próximo ano, conforme determinado pela data e hora atuais no sistema. Tenha em conta que esta função irá devolver "falso" quando é transmitido um valor que ocorre no ano atual.
+
+-   `dateTime`: um valor `date`, `datetime` ou `datetimezone` a ser avaliado.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determinar se o ano posterior à hora do sistema atual ocorre no ano seguinte.
 ```powerquery
 Date.IsInNextYear(Date.AddYears(DateTime.FixedLocalNow(), 1))

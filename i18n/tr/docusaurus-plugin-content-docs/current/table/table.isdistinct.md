@@ -20,12 +20,12 @@ Table.IsDistinct(
 
 ## Remarks
 
-<code>table</code> içinde yalnızca ayrı satırların bulunup bulunmadığını (yinelenen satır olmadığını) gösterir. Satırların tümü ayrıysa <code>true</code> döndürür, ayrı değilse <code>false</code> döndürür.    İsteğe bağlı <code>comparisonCriteria</code> parametresi, tablodaki hangi sütunların yineleme için test edildiğini belirtir. <code>comparisonCriteria</code> belirtilmediği takdirde tüm sütunlar test edilir.
+`table` içinde yalnızca ayrı satırların bulunup bulunmadığını (yinelenen satır olmadığını) gösterir. Satırların tümü ayrıysa `true` döndürür, ayrı değilse `false` döndürür. İsteğe bağlı `comparisonCriteria` parametresi, tablodaki hangi sütunların yineleme için test edildiğini belirtir. `comparisonCriteria` belirtilmediği takdirde tüm sütunlar test edilir.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablonun benzersiz olup olmadığını belirler.
 ```powerquery
 Table.IsDistinct(
@@ -44,7 +44,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Tablonun sütunlar açısından benzersiz olup olmadığını belirler.
 ```powerquery
 Table.IsDistinct(

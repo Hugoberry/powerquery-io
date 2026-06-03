@@ -19,7 +19,7 @@ Number.BitwiseNot(
 
 ## Remarks
 
-Returns the result of performing a bitwise "Not" operation on <code>number</code>.
+Returns the result of performing a bitwise "Not" operation on `number`.
 
 
 

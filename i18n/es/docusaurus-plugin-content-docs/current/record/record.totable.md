@@ -19,12 +19,12 @@ Record.ToTable(
 
 ## Remarks
 
-Devuelve una tabla que contiene las columnas <code>Name</code> y <code>Value</code> con una fila para cada campo en <code>record</code>.
+Devuelve una tabla que contiene las columnas `Name` y `Value` con una fila para cada campo en `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devolver la tabla del registro.
 ```powerquery
 Record.ToTable([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

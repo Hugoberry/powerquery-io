@@ -21,13 +21,13 @@ Text.AfterDelimiter(
 
 ## Remarks
 
-Trả về phần của <code>text</code> sau <code>delimiter</code> được chỉ định.    <code>index</code> dạng số tùy chọn cho biết lần xuất hiện nào của <code>delimiter</code> sẽ được xem xét.    Danh sách tùy chọn <code>index</code> cho biết lần xuất hiện nào của <code>delimiter</code> sẽ được xem xét cũng như việc đánh chỉ mục có được thực hiện tính từ phần đầu hoặc cuối của đầu vào hay không.
+Trả về phần của `text` sau `delimiter` được chỉ định. `index` dạng số tùy chọn cho biết lần xuất hiện nào của `delimiter` sẽ được xem xét. Danh sách tùy chọn `index` cho biết lần xuất hiện nào của `delimiter` sẽ được xem xét cũng như việc đánh chỉ mục có được thực hiện tính từ phần đầu hoặc cuối của đầu vào hay không.
 
 
 ## Examples
 
-### Example #1 
-Lấy phần của &#34;111-222-333&#34; sau gạch nối (đầu tiên).
+### Example #1
+Lấy phần của "111-222-333" sau gạch nối (đầu tiên).
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Lấy phần của &#34;111-222-333&#34; sau gạch nối thứ hai.
+### Example #2
+Lấy phần của "111-222-333" sau gạch nối thứ hai.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-", 1)
 ```
@@ -50,8 +50,8 @@ Result:
 ```
 
 
-### Example #3 
-Lấy phần của &#34;111-222-333&#34; sau gạch nối thứ hai tính từ cuối.
+### Example #3
+Lấy phần của "111-222-333" sau gạch nối thứ hai tính từ cuối.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-", {1, RelativePosition.FromEnd})
 ```

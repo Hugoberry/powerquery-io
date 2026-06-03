@@ -19,7 +19,7 @@ Value.Expression(
 
 ## Remarks
 
-傳回代表值運算式的抽象語法樹狀結構 (AST)
+傳回代表值運算式的抽象語法樹狀結構 (AST)。
 
 
 

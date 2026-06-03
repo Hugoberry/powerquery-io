@@ -21,12 +21,12 @@ DateTime.AddZone(
 
 ## Remarks
 
-Fügt dem Wert <code>dateTime</code> Zeitzoneninformationen hinzu. Die Zeitzoneninformationen umfassen <code>timezoneHours</code> und optional <code>timezoneMinutes</code>, die den gewünschten Offset von der UTC-Zeit angeben.
+Fügt dem Wert `dateTime` Zeitzoneninformationen hinzu. Die Zeitzoneninformationen umfassen `timezoneHours` und optional `timezoneMinutes`, die den gewünschten Offset von der UTC-Zeit angeben.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Legen Sie die Zeitzone auf UTC+7:30 fest (7 Stunden und 30 Minuten nach UTC).
 ```powerquery
 DateTime.AddZone(#datetime(2010, 12, 31, 11, 56, 02), 7, 30)

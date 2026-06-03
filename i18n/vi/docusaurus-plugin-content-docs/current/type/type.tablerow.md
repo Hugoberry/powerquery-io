@@ -24,7 +24,7 @@ Trả về loại hàng của loại bảng đã chỉ định. Kết quả sẽ
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trả về thông tin loại hàng cho bảng đơn giản.
 ```powerquery
 let

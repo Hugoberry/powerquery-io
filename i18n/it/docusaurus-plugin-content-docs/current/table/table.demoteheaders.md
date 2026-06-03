@@ -24,7 +24,7 @@ Abbassa di livello le intestazioni di colonna, ad esempio i nomi di colonna, nel
 
 ## Examples
 
-### Example #1 
+### Example #1
 Abbassare di livello la prima riga di valori nella tabella.
 ```powerquery
 Table.DemoteHeaders(

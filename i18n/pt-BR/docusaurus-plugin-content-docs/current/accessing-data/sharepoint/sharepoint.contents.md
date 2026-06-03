@@ -20,7 +20,10 @@ SharePoint.Contents(
 
 ## Remarks
 
-Retorna uma tabela contendo uma linha para cada pasta e documento encontrado no site especificado do SharePoint, <code>url</code>. Cada linha contém as propriedades da pasta ou do arquivo e um link para o respectivo conteúdo. O <code>options</code> pode ser especificado para controlar as seguintes opções:    <ul><li><code>ApiVersion</code> : Um n&#250;mero (14 ou 15) ou o texto &quot;Auto&quot;, que especifica a vers&#227;o da API do SharePoint a ser usada para este site. Quando n&#227;o houver especifica&#231;&#227;o, a vers&#227;o 14 da API ser&#225; usada. Quando Auto for especificado, a vers&#227;o do servidor ser&#225; automaticamente descoberta, se poss&#237;vel. Caso contr&#225;rio, a vers&#227;o 14 ser&#225; usada por padr&#227;o. Sites do SharePoint em idiomas diferentes do ingl&#234;s exigem pelo menos a vers&#227;o 15.</li></ul>    
+Retorna uma tabela contendo uma linha para cada pasta e documento encontrado no site especificado do SharePoint, `url`. Cada linha contém as propriedades da pasta ou do arquivo e um link para o respectivo conteúdo. O `options` pode ser especificado para controlar as seguintes opções:
+
+-   `ApiVersion` : Um número (14 ou 15) ou o texto "Auto", que especifica a versão da API do SharePoint a ser usada para este site. Quando não houver especificação, a versão 14 da API será usada. Quando Auto for especificado, a versão do servidor será automaticamente descoberta, se possível. Caso contrário, a versão 14 será usada por padrão. Sites do SharePoint em idiomas diferentes do inglês exigem pelo menos a versão 15.
+-   `Implementation` : Opcional. Especifica qual versão do conector do SharePoint usar. Os valores aceitos são "2.0" ou nulos. Se o valor for "2.0", a implementação 2.0 do conector do SharePoint será usada. Se o valor for nulo, a implementação original do conector do SharePoint será usada.
 
 
 

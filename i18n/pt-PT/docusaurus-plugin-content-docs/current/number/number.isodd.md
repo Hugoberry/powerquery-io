@@ -19,12 +19,12 @@ Number.IsOdd(
 
 ## Remarks
 
-Indica se o valor é ímpar. Devolve <code>true</code> se <code>number</code> for um número ímpar; caso contrário, devolve <code>false</code>.
+Indica se o valor é ímpar. Devolve `true` se `number` for um número ímpar; caso contrário, devolve `false`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Verificar se 625 é um número ímpar.
 ```powerquery
 Number.IsOdd(625)
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Verificar se 82 é um número ímpar.
 ```powerquery
 Number.IsOdd(82)

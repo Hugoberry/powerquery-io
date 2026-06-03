@@ -19,12 +19,12 @@ Table.ReverseRows(
 
 ## Remarks
 
-Zwraca tabelę będącą wynikiem rozmieszczenia wierszy tabeli wejściowej <code>table</code> w odwrotnej kolejności.
+Zwraca tabelę będącą wynikiem rozmieszczenia wierszy tabeli wejściowej `table` w odwrotnej kolejności.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Odwróć kolejność wierszy w tabeli.
 ```powerquery
 Table.ReverseRows(

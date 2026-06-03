@@ -25,7 +25,7 @@ Returns a function that combines a list of text values into a single text value 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combine a list of text values by extracting the specified numbers of characters from each input value.
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3})({"aaa", "bbb", "ccc"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Combine a list of text values by extracting the specified numbers of characters, after first pre-filling the result with the template text.
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3}, "*********")({"aaa", "bbb", "ccc"})

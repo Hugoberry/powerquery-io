@@ -20,12 +20,12 @@ List.Covariance(
 
 ## Remarks
 
-ส่งกลับค่าความแปรปรวนระหว่างสองรายการ <code>numberList1</code> และ <code>numberList2</code> <code>numberList1</code> และ <code>numberList2</code> ต้องมีจำนวนค่า <code>number</code> เดียวกัน
+ส่งกลับค่าความแปรปรวนระหว่างสองรายการ `numberList1` และ `numberList2` `numberList1` และ `numberList2` ต้องมีจำนวนค่า `number` เดียวกัน
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 คำนวณค่าความแปรปรวนระหว่างสองรายการ
 ```powerquery
 List.Covariance({1, 2, 3}, {1, 2, 3})

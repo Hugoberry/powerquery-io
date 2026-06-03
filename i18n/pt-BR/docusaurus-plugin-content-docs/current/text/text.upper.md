@@ -20,13 +20,13 @@ Text.Upper(
 
 ## Remarks
 
-Retorna o resultado da conversão de todos os caracteres em <code>text</code> em maiúsculas. Um <code>culture</code> opcional também pode ser fornecido (por exemplo, "en-US").
+Retorna o resultado da conversão de todos os caracteres em `text` em maiúsculas. Um `culture` opcional também pode ser fornecido (por exemplo, "en-US").
 
 
 ## Examples
 
-### Example #1 
-Obtenha a versão maiúscula de &#34;aBcD&#34;.
+### Example #1
+Obtenha a versão maiúscula de "aBcD".
 ```powerquery
 Text.Upper("aBcD")
 ```

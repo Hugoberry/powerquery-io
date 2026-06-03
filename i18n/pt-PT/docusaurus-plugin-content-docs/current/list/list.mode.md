@@ -20,13 +20,13 @@ List.Mode(
 
 ## Remarks
 
-Devolve o item que aparece mais frequentemente na lista, <code>list</code>. Se a lista estiver vazia, é emitida uma exceção. Se existirem vários itens com a mesma frequência máxima, é escolhido o último.    É possível especificar um valor de <code>comparisonCriteria</code> opcional, <code>equationCriteria</code>, para controlar o teste de igualdade. 
+Devolve o item que aparece mais frequentemente em `list`. Se a lista estiver vazia, é gerado um erro. Se aparecerem vários itens com a mesma frequência máxima, é selecionado o último. Pode ser especificado um valor opcional de critério de comparação, `equationCriteria`, para controlar o teste de igualdade.
 
 
 ## Examples
 
-### Example #1 
-Determinar o item que aparece mais frequentemente na lista &lt;code&gt;\{&#34;A&#34;, 1, 2, 3, 3, 4, 5}&lt;/code&gt;.
+### Example #1
+Determinar o item que aparece mais frequentemente na lista `{"A", 1, 2, 3, 3, 4, 5}`.
 ```powerquery
 List.Mode({"A", 1, 2, 3, 3, 4, 5})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Determinar o item que aparece mais frequentemente na lista &lt;code&gt;\{&#34;A&#34;, 1, 2, 3, 3, 4, 5, 5}&lt;/code&gt;.
+### Example #2
+Determinar o item que aparece mais frequentemente na lista `{"A", 1, 2, 3, 3, 4, 5, 5}`.
 ```powerquery
 List.Mode({"A", 1, 2, 3, 3, 4, 5, 5})
 ```

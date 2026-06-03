@@ -20,12 +20,15 @@ Binary.Compress(
 
 ## Remarks
 
-使用指定的壓縮類型壓縮二進位值。此呼叫的結果為輸入的壓縮副本。壓縮類型包括:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
+使用指定的壓縮類型壓縮二進位值。此呼叫的結果為輸入的壓縮副本。壓縮類型包括:
+
+-   `Compression.GZip`
+-   `Compression.Deflate`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 壓縮二進位值。
 ```powerquery
 Binary.Compress(Binary.FromList(List.Repeat({10}, 1000)), Compression.Deflate)

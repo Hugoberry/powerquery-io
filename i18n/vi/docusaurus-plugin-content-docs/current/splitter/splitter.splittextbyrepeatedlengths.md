@@ -25,7 +25,7 @@ Trả về một hàm tách văn bản thành một danh sách văn bản sau đ
 
 ## Examples
 
-### Example #1 
+### Example #1
 Liên tục tách dữ liệu đầu vào thành các khúc gồm ba ký tự, kể từ đoạn đầu của dữ liệu đầu vào.
 ```powerquery
 Splitter.SplitTextByRepeatedLengths(3)("12345678")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Liên tục tách dữ liệu đầu vào thành các khúc gồm ba ký tự, kể từ đoạn cuối của dữ liệu đầu vào.
 ```powerquery
 let

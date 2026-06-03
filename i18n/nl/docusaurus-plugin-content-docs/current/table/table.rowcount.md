@@ -19,12 +19,12 @@ Table.RowCount(
 
 ## Remarks
 
-Retourneert het aantal rijen uit de <code>table</code>.
+Retourneert het aantal rijen uit de `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Het aantal rijen in de tabel zoeken.
 ```powerquery
 Table.RowCount(

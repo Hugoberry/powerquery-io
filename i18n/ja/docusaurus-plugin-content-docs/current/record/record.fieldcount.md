@@ -19,12 +19,12 @@ Record.FieldCount(
 
 ## Remarks
 
-レコード <code>record</code> 内のフィールドの数を返します。
+レコード `record` 内のフィールドの数を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 レコード内のフィールドの数を調べます。
 ```powerquery
 Record.FieldCount([CustomerID = 1, Name = "Bob"])

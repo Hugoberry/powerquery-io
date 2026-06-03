@@ -21,12 +21,12 @@ Table.RemoveRows(
 
 ## Remarks
 
-निर्दिष्ट <code>offset</code> पर प्रारंभ होने वाले <code>table</code> के प्रारंभ से पंक्तियों के <code>count</code> निकालता है. यदि <code>count</code> पैरामीटर प्रदान नहीं किया गया होता है, तो 1 की डिफ़ॉल्ट गणना का उपयोग किया जाता है. 
+निर्दिष्ट `offset` पर प्रारंभ होने वाले `table` के प्रारंभ से पंक्तियों के `count` निकालता है. यदि `count` पैरामीटर प्रदान नहीं किया गया होता है, तो 1 की डिफ़ॉल्ट गणना का उपयोग किया जाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 तालिका से पहली पंक्ति निकालें.
 ```powerquery
 Table.RemoveRows(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 तालिका से स्थिति 1 पर स्थित पंक्ति निकालें.
 ```powerquery
 Table.RemoveRows(
@@ -74,7 +74,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 तालिका से स्थिति 1 पर प्रारंभ होने वाली दो पंक्तियाँ निकालें.
 ```powerquery
 Table.RemoveRows(

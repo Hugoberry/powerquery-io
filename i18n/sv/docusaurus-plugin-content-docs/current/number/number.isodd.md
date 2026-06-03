@@ -19,12 +19,12 @@ Number.IsOdd(
 
 ## Remarks
 
-Anger om värdet är udda. Returnerar <code>true</code> om <code>number</code> är ett udda tal och annars <code>false</code>.
+Anger om värdet är udda. Returnerar `true` om `number` är ett udda tal och annars `false`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kontrollera om 625 är ett udda tal.
 ```powerquery
 Number.IsOdd(625)
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Kontrollera om 82 är ett udda tal.
 ```powerquery
 Number.IsOdd(82)

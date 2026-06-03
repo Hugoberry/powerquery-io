@@ -19,12 +19,12 @@ Record.Combine(
 
 ## Remarks
 
-Combineert de records uit de opgegeven <code>records</code>. Als <code>records</code> geen recordwaarden bevat, wordt er een fout geretourneerd.
+Combineert de records uit de opgegeven `records`. Als `records` geen recordwaarden bevat, wordt er een fout geretourneerd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een gecombineerde record van de records maken.
 ```powerquery
 Record.Combine({

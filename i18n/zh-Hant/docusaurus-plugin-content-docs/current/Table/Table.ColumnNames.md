@@ -19,12 +19,12 @@ Table.ColumnNames(
 
 ## Remarks
 
-將資料表 <code>table</code> 中的資料行名稱傳回成文字清單。
+將資料表 `table` 中的資料行名稱傳回成文字清單。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 找出資料表的資料行名稱。
 ```powerquery
 Table.ColumnNames(

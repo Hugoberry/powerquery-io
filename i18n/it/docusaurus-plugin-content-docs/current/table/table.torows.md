@@ -19,12 +19,12 @@ Table.ToRows(
 
 ## Remarks
 
-Crea un elenco di elenchi annidati dalla tabella <code>table</code>.  Ogni voce di elenco è un elenco interno contenente i valori di riga.
+Crea un elenco di elenchi annidati dalla tabella `table`. Ogni voce di elenco è un elenco interno contenente i valori di riga.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Creare un elenco dei valori di riga dalla tabella.
 ```powerquery
 Table.ToRows(

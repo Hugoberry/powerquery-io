@@ -22,7 +22,7 @@ Cube.AddAndExpandDimensionColumn(
 
 ## Remarks
 
-Voegt de opgegeven dimensietabel <code>dimensionSelector</code> samen met de filtercontext van kubus <code>cube</code> en wijzigt de dimensionale granulatie door de opgegeven set <code>attributeNames</code> dimensiekenmerken uit te vouwen. De dimensiekenmerken worden toegevoegd aan de tabelweergaven met kolommen genaamd <code>newColumnNames</code>, of <code>attributeNames</code> indien niet opgegeven.
+Voegt de opgegeven dimensietabel `dimensionSelector` samen met de filtercontext van de `cube` en wijzigt de dimensionale granulatie door de opgegeven set `attributeNames` dimensiekenmerken uit te vouwen. De dimensiekenmerken worden toegevoegd aan de tabelweergaven met kolommen genaamd `newColumnNames`, of `attributeNames` indien niet opgegeven.
 
 
 

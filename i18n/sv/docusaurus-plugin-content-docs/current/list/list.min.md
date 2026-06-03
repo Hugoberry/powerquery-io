@@ -22,13 +22,13 @@ List.Min(
 
 ## Remarks
 
-Returnerar det minsta objektet i listan <code>list</code>, eller det valfria standardvärdet <code>default</code> om listan är tom.    Ett valfritt comparisonCriteria-värde, <code>comparisonCriteria</code>, kan anges för att fastställa hur objekten i listan ska jämföras. Om den här parametern är null används standardjämförelsefunktionen.
+Returnerar det minsta objektet i listan `list`, eller det valfria standardvärdet `default` om listan är tom. Ett valfritt comparisonCriteria-värde, `comparisonCriteria`, kan anges för att fastställa hur objekten i listan ska jämföras. Om den här parametern är null används standardjämförelsefunktionen.
 
 
 ## Examples
 
-### Example #1 
-Hitta det minsta värdet i listan \{1, 4, 7, 3, -2, 5}.
+### Example #1
+Hitta det minsta värdet i listan \{1, 4, 7, 3, -2, 5\}.
 ```powerquery
 List.Min({1, 4, 7, 3, -2, 5})
 ```
@@ -39,8 +39,8 @@ Result:
 ```
 
 
-### Example #2 
-Hitta det minsta värdet i listan \{} eller returnera -1 om listan är tom. 
+### Example #2
+Hitta det minsta värdet i listan \{\} eller returnera -1 om listan är tom.
 ```powerquery
 List.Min({}, -1)
 ```

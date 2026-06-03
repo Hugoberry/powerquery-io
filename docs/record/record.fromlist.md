@@ -20,12 +20,12 @@ Record.FromList(
 
 ## Remarks
 
-Returns a record given a <code>list</code> of field values and a set of fields.  The <code>fields</code> can be specified either by a list of text values, or a record type.  An error is thrown if the fields are not unique.
+Returns a record given a `list` of field values and a set of fields. The `fields` can be specified either by a list of text values, or a record type. An error is raised if the fields are not unique.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Build a record from a list of field values and a list of field names.
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, {"CustomerID", "Name", "Phone"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Build a record from a list of field values and a record type.
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, type [CustomerID = number, Name = text, Phone = number])

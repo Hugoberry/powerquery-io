@@ -20,7 +20,7 @@ Text.InferNumberType(
 
 ## Remarks
 
-Deduz o tipo de número granular (Int64.Type, Double.Type, etc.) de <code>text</code>. Um erro será gerado se <code>text</code> não for um número. Um <code>culture</code> opcional também pode ser fornecido (por exemplo, “en-US”).
+Deduz o tipo de número granular (Int64.Type, Double.Type, etc.) de `text`. Um erro será gerado se `text` não for um número. Um `culture` opcional também pode ser fornecido (por exemplo, “en-US”).
 
 
 

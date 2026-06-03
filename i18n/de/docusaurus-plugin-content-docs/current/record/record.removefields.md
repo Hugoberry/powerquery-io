@@ -21,13 +21,13 @@ Record.RemoveFields(
 
 ## Remarks
 
-Gibt einen Datensatz zurück, in dem alle in der Liste "<code>fields</code>" angegebenen Felder aus der Eingabe "<code>record</code>" entfernt wurden. Ist das angegebene Feld nicht vorhanden, wird eine Ausnahme ausgelöst.
+Gibt einen Datensatz zurück, in dem alle in der Liste „`fields`“ angegebenen Felder aus der Eingabe „`record`“ entfernt wurden. Wenn das angegebene Feld nicht vorhanden ist, wird ein Fehler ausgelöst.
 
 
 ## Examples
 
-### Example #1 
-Entfernt das Feld &#34;Price&#34; aus dem Datensatz.
+### Example #1
+Entfernt das Feld "Price" aus dem Datensatz.
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], "Price")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Entfernt die Felder &#34;Price&#34; und &#34;Item&#34; aus dem Datensatz.
+### Example #2
+Entfernt die Felder "Price" und "Item" aus dem Datensatz.
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], {"Price", "Item"})
 ```

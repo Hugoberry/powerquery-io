@@ -19,13 +19,13 @@ Number.Sin(
 
 ## Remarks
 
-Restituisce il seno di <code>number</code>.
+Restituisce il seno di `number`.
 
 
 ## Examples
 
-### Example #1 
-Trovare il seno dell&#39;angolo 0.
+### Example #1
+Trovare il seno dell'angolo 0.
 ```powerquery
 Number.Sin(0)
 ```

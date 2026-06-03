@@ -20,7 +20,27 @@ Folder.Files(
 
 ## Remarks
 
-フォルダー <code>path</code> とその全てのサブフォルダーにあるファイルごとの行を含むテーブルを返します。各行には、ファイルのプロパティと、そのコンテンツへのリンクが含まれます。 パラメーター <code>options</code> は現在、内部使用のみを目的としています。
+指定したフォルダーとそのすべてのサブフォルダーにある各ファイルの行を含むテーブルを返します。
+
+-   `path`: ファイル取得元フォルダーへのパス。指定されたフォルダー パスは、有効な絶対パスである必要があります。
+-   `options`: (省略可能) このパラメーターは現在、内部使用のみを目的としています。
+
+返されたテーブルの各行には、ファイルのプロパティとその内容へのリンクが含まれています。
+
+
+## Examples
+
+### Example #1
+C:\\test-examples\\example-folder とそのすべてのサブフォルダーにあるファイルをすべて含むテーブルを返します。
+```powerquery
+Folder.Files("C:\test-examples\example-folder")
+```
+
+Result: 
+```powerquery
+A table containing the files, their properties, and a link to their content.
+```
+
 
 
 

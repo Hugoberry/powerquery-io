@@ -19,12 +19,12 @@ Date.Month(
 
 ## Remarks
 
-ส่งกลับคอมโพเนนต์เดือนของค่า <code>datetime</code> ที่ระบุ <code>dateTime</code>
+ส่งกลับคอมโพเนนต์เดือนของค่า `datetime` ที่ระบุ `dateTime`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ค้นหาเดือนใน #datetime(2011, 12, 31, 9, 15, 36)
 ```powerquery
 Date.Month(#datetime(2011, 12, 31, 9, 15, 36))

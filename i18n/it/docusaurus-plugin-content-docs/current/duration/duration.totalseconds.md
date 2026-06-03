@@ -19,12 +19,12 @@ Duration.TotalSeconds(
 
 ## Remarks
 
-Restituisce i secondi totali con spanning per <code>duration</code>.
+Restituisce i secondi totali con spanning per `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trovare i secondi totali con spanning per un valore di durata.
 ```powerquery
 Duration.TotalSeconds(#duration(5, 4, 3, 2))

@@ -20,13 +20,16 @@ Date.AddYears(
 
 ## Remarks
 
-Returnerer resultaterne for <code>date</code>, <code>datetime</code> eller <code>datetimezone</code> efter at have føjet <code>numberOfYears</code> til værdien af typen <code>datetime</code> <code>dateTime</code>.      <ul>        <li><code>dateTime</code>: Den værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>, som år føjes til.</li>        <li><code>numberOfYears</code>: Det antal år, der skal tilføjes.</li>      </ul>
+Returnerer resultaterne for `date`, `datetime` eller `datetimezone` efter at have føjet `numberOfYears` til værdien af typen `datetime` `dateTime`.
+
+-   `dateTime`: Den værdi af typen `date`, `datetime` eller `datetimezone`, som år føjes til.
+-   `numberOfYears`: Det antal år, der skal tilføjes.
 
 
 ## Examples
 
-### Example #1 
-Føj 4 år til værdien af typen &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; eller &lt;code&gt;datetimezone&lt;/code&gt;, som repræsenterer datoen 14-05-2011.
+### Example #1
+Føj 4 år til værdien af typen `date`, `datetime` eller `datetimezone`, som repræsenterer datoen 14-05-2011.
 ```powerquery
 Date.AddYears(#date(2011, 5, 14), 4)
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Føj 10 år til værdien af typen &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; eller &lt;code&gt;datetimezone&lt;/code&gt;, som repræsenterer datoen og klokkeslættet 14-05-2011, 08:15:22.
+### Example #2
+Føj 10 år til værdien af typen `date`, `datetime` eller `datetimezone`, som repræsenterer datoen og klokkeslættet 14-05-2011, 08:15:22.
 ```powerquery
 Date.AddYears(#datetime(2011, 5, 14, 8, 15, 22), 10)
 ```

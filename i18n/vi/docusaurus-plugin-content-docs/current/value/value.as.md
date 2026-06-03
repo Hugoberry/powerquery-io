@@ -5,7 +5,7 @@ title: Value.As
 # Value.As
 
 
-Trả về giá trị nếu giá trị tương thích với loại đã chỉ định.
+Trả về giá trị nếu giá trị tương thích với kiểu đã chỉ định.
 
 
 ## Syntax
@@ -20,12 +20,12 @@ Value.As(
 
 ## Remarks
 
-Trả về giá trị nếu giá trị tương thích với loại được chỉ định hay không. Cách này tương đương với toán tử “như” trong M, với ngoại lệ là có thể chấp nhận các thuộc tính loại mã định danh như Number.Type.
+Trả về giá trị nếu giá trị tương thích với kiểu đã chỉ định. Cách này tương đương với toán tử “như” trong M, với ngoại lệ là có thể chấp nhận các thuộc tính loại mã định danh như Number.Type.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Truyền một số sang một số.
 ```powerquery
 Value.As(123, Number.Type)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Tìm cách truyền một giá trị văn bản sang một số.
 ```powerquery
 Value.As("abc", type number)

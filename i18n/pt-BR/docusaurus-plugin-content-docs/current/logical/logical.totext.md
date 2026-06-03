@@ -5,7 +5,7 @@ title: Logical.ToText
 # Logical.ToText
 
 
-Retorna o texto &#34;true&#34; ou &#34;false&#34; a partir de um valor lógico.
+Retorna o texto "true" ou "false" a partir de um valor lógico.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.ToText(
 
 ## Remarks
 
-Cria um valor de texto a partir do valor lógico <code>logicalValue</code>, <code>true</code> ou <code>false</code>. Se <code>logicalValue</code> não for um valor lógico, uma exceção será lançada.
+Cria um valor de texto a partir do valor lógico `logicalValue`, `true` ou `false`. Se `logicalValue` não for um valor lógico, um erro será gerado.
 
 
 ## Examples
 
-### Example #1 
-Crie um valor de texto a partir do valor &lt;code&gt;true&lt;/code&gt; lógico.
+### Example #1
+Crie um valor de texto a partir do valor `true` lógico.
 ```powerquery
 Logical.ToText(true)
 ```

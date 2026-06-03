@@ -5,7 +5,7 @@ title: Number.BitwiseOr
 # Number.BitwiseOr
 
 
-İki girdi arasında bit tabanlı &#34;Or&#34; işlemi uygulamanın sonucunu döndürür.
+İki girdi arasında bit tabanlı "Or" işlemi uygulamanın sonucunu döndürür.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Number.BitwiseOr(
 
 ## Remarks
 
-<code>number1</code> ve <code>number2</code> arasında bit tabanlı "Or" işlemi uygulamanın sonucunu döndürür.
+`number1` ve `number2` arasında bit tabanlı "Or" işlemi uygulamanın sonucunu döndürür.
 
 
 

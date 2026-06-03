@@ -20,12 +20,14 @@ Table.FromValue(
 
 ## Remarks
 
-स्तंभ वाली ऐसी तालिका बनाता है जिसमें प्रदान किए गए मान या मानों की सूची, <code>value</code> होती है. कोई वैकल्पिक रिकॉर्ड पैरामीटर, <code>options</code>, निम्न विकल्पों को नियंत्रित करने के लिए निर्दिष्ट किया जा सकता है:    <ul>    <li> <code>DefaultColumnName</code> : स्तंभ नाम का उपयोग जब किया जाता है जब सूची या स्केलर मान से तालिका बनाई जाती है.</li>    </ul>  
+स्तंभ वाली ऐसी तालिका बनाता है जिसमें प्रदान किए गए मान या मानों की सूची, `value` होती है. एक वैकल्पिक रिकॉर्ड पैरामीटर, `options`, निम्न विकल्पों को नियंत्रित करने के लिए निर्दिष्ट किया जा सकता है:
+
+-   `DefaultColumnName` : स्तंभ नाम का उपयोग जब किया जाता है जब सूची या स्केलर मान से तालिका बनाई जाती है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 मान 1 से एक तालिका बनाएँ.
 ```powerquery
 Table.FromValue(1)
@@ -37,7 +39,7 @@ Table.FromRecords({[Value = 1]})
 ```
 
 
-### Example #2 
+### Example #2
 सूची से तालिका बनाएँ.
 ```powerquery
 Table.FromValue({1, "Bob", "123-4567"})
@@ -53,7 +55,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 कस्टम स्तंभ नाम के साथ, मान 1 से तालिका बनाएँ.
 ```powerquery
 Table.FromValue(1, [DefaultColumnName = "MyValue"])

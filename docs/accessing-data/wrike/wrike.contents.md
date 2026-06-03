@@ -17,6 +17,6 @@ Wrike.Contents(
 
 ## Remarks
 
- Shared function and first entry point to Connector. Display initial Navigation hierarchy.
+Shared function and first entry point to Connector. Display initial Navigation hierarchy.
 
 

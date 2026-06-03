@@ -26,7 +26,7 @@ Efetua uma chamada à API REST do Smartsheet 2.0 no ponto de extremidade especif
 
 ## Examples
 
-### Example #1 
+### Example #1
 Efetua pull de dados do ponto de extremidade de API do Smartsheet das planilhas com argumentos adicionais especificados
 ```powerquery
 Smartsheet.Content("planilhas", "include=ownerInfo&includeAll=true", [])

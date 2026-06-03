@@ -25,7 +25,7 @@ Tabloları bir Azure Spark örneğinde listeleyin.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tabloları bir Azure Spark örneğinde listeleyin.
 ```powerquery
 AzureSpark.Tables("contoso.azurehdinsight.net")

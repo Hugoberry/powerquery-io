@@ -20,7 +20,9 @@ AccessControlEntry.ConditionToIdentities(
 
 ## Remarks
 
-Brug af den/det angivne <code>identityProvider</code> konverterer <code>condition</code> til listen over identiteter, som <code>condition</code> ville returnere <code>true</code> i alle autorisationskontekster med <code>identityProvider</code> som identitetsudbyderen. Der opstår en fejl, hvis det ikke er muligt at konvertere <code>condition</code> til en liste over identiteter, f.eks. hvis <code>condition</code> konsulterer andre attributter bruger- eller gruppeidentiteter til at træffe en afgørelse.<br />    Bemærk, at listen over identiteter repræsenterer identiteterne, som de vises i <code>condition</code>, og der udføres ingen normalisering (f.eks gruppeudvidelse) af dem.<br />
+Brug af den/det angivne `identityProvider` konverterer `condition` til listen over identiteter, som `condition` ville returnere `true` i alle autorisationskontekster med `identityProvider` som identitetsudbyderen. Der opstår en fejl, hvis det ikke er muligt at konvertere `condition` til en liste over identiteter, f.eks. hvis `condition` konsulterer andre attributter bruger- eller gruppeidentiteter til at træffe en afgørelse.
+
+Bemærk, at listen over identiteter repræsenterer identiteterne, som de vises i `condition`, og der udføres ingen normalisering (f.eks gruppeudvidelse) af dem.
 
 
 

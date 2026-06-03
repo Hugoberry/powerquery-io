@@ -20,12 +20,12 @@ Table.Split(
 
 ## Remarks
 
-將 <code>table</code> 分割成一組資料表，其中清單的第一個元素為包含來自來源資料表前 <code>pageSize</code> 個資料列的資料表，清單的下一個元素則是包含來自來源資料表接下來 <code>pageSize</code> 個資料列的資料表，以此類推。
+將 `table` 分割成一組資料表，其中清單的第一個元素為包含來自來源資料表前 `pageSize` 個資料列的資料表， 清單的下一個元素則是包含來自來源資料表接下來 `pageSize` 個資料列的資料表，以此類推。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 將具有五個記錄的資料表分割為各擁有兩個記錄的資料表。
 ```powerquery
 let

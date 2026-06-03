@@ -27,8 +27,8 @@ This function can be used to retrieve data from a particular "Metrics" endpoint 
 
 ## Examples
 
-### Example #1 
-Retrieves count_sent and count_rejected deliverability metrics for all campaign_ids aggregated over the last three days. 
+### Example #1
+Retrieves count\_sent and count\_rejected deliverability metrics for all campaign\_ids aggregated over the last three days.
 ```powerquery
 Source = SparkPost.GetTable(3, "count_sent,count_rejected", "campaign_id", "metrics/deliverability/campaign")
 ```

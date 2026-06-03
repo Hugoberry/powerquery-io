@@ -21,13 +21,25 @@ Text.StartsWith(
 
 ## Remarks
 
-Retourne true si la valeur de texte <code>text</code> commence par la valeur de texte <code>substring</code>.      <ul>        <li><code>text</code>: <i></i> Valeur <code>texte</code> à rechercher</li>        <li><code>substring</code>: <i></i> Valeur de <code>de texte</code> à rechercher dans <code>substring</code></li>        <li><code>comparer</code>: <i>[Optional]</i> Une <code>de comparaison de</code> utilisée pour contrôler la comparaison. Par exemple, <code>comparer.OrdinalIgnoreCase</code> peut être utilisé pour effectuer des recherches qui ne respectent pas la casse</li>      </ul>      <div>        <code>comparer</code> est un <code>comparateur</code> qui est utilisé pour contrôler la comparaison. Les comparateurs peuvent être utilisés pour fournir des comparaisons ne respectant pas la casse ou en respectant la culture et les paramètres régionaux.       </div>      <div>        Les comparateurs intégrés suivants sont disponibles dans le langage de formule :      </div>      <ul>        <li><code>Comparer.Ordinal</code> : Utilisé pour effectuer une opération exacte ou comparaison</li>        <li><code>comparer.OrdinalIgnoreCase</code> : utilisé pour effectuer une comparaison exacte ne respectant pas la casse</li>        <li> <code>Comparer.FromCulture</code> : utilisé pour effectuer une comparaison prenant en compte la culture</li>      </ul>
+Retourne true si la valeur de texte `text` commence par la valeur de texte `substring`.
+
+-   `text` : Une valeur `text` à rechercher.
+-   `substring`: Une valeur `text` qui est la sous-chaîne à rechercher dans `text`.
+-   `comparer` : *(Facultatif)* Un `Comparer` utilisé pour contrôler la comparaison. Par exemple, `Comparer.OrdinalIgnoreCase` peut être utilisé pour effectuer des recherches non sensibles à la casse.
+
+`comparer` est un `Comparateur` utilisé pour contrôler la comparaison. Les comparateurs peuvent être utilisés pour effectuer des comparaisons non sensibles à la casse ou tenant compte de la culture et de l’environnement local.
+
+Les comparateurs intégrés suivants sont disponibles dans le langage de la formule :
+
+-   `Comparer.Ordinal` : Utilisé pour effectuer une comparaison ordinale exacte.
+-   `Comparer.OrdinalIgnoreCase` : Utilisé pour effectuer une comparaison ordinale exacte non sensible à la casse.
+-   `Comparer.FromCulture` : Utilisé pour effectuer une comparaison sensible à la culture.
 
 
 ## Examples
 
-### Example #1 
-Vérifie si le texte &#34; Hello, World &#34; commence par le texte &#34; hello &#34;.
+### Example #1
+Vérifie si le texte « Hello, World » commence par le texte « hello ».
 ```powerquery
 Text.StartsWith("Hello, World", "hello")
 ```
@@ -38,10 +50,22 @@ false
 ```
 
 
-### Example #2 
-Vérifie si le texte &#34; Hello, World &#34; commence par le texte &#34; Hello &#34;.
+### Example #2
+Vérifie si le texte « Hello, World » commence par le texte « Hello ».
 ```powerquery
 Text.StartsWith("Hello, World", "Hello")
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+### Example #3
+En ne tenant pas compte de la casse, vérifiez si le texte « Hello, World » commence par le texte « hello ».
+```powerquery
+Text.StartsWith("Hello, World", "hello", Comparer.OrdinalIgnoreCase)
 ```
 
 Result: 

@@ -5,7 +5,7 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-Smartsheet API&#39;sinden sayfaların, raporların, klasörlerin ve çalışma alanlarının bulunduğu bir tablo döndürür
+Smartsheet API'sinden sayfaların, raporların, klasörlerin ve çalışma alanlarının bulunduğu bir tablo döndürür
 
 
 ## Syntax
@@ -24,7 +24,7 @@ Smartsheet API'sinden sayfaların, raporların, klasörlerin ve çalışma alanl
 
 ## Examples
 
-### Example #1 
+### Example #1
 Smartsheet hiyerarşisinin en üst düzeyinde bulunan sayfaları, klasörleri, raporları ve çalışma alanlarını döndürür
 ```powerquery
 Smartsheet.Tables()

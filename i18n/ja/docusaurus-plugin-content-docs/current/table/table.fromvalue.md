@@ -20,12 +20,14 @@ Table.FromValue(
 
 ## Remarks
 
-指定された値または値リスト <code>value</code> を列に含めたテーブルを作成します。省略可能なレコード パラメーター <code>options</code> を指定して、次のオプションを制御できます:    <ul>    <li> <code>DefaultColumnName</code> : リストまたはスカラー値からテーブルを生成するのに使用された列名。</li>    </ul>  
+指定された値または値リスト `value` を列に含めたテーブルを作成します。オプションのレコード パラメーター `options` を指定して、次のオプションを制御できます:
+
+-   `DefaultColumnName` : リストまたはスカラー値からテーブルを生成するのに使用された列名。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 値 1 からテーブルを作成します。
 ```powerquery
 Table.FromValue(1)
@@ -37,7 +39,7 @@ Table.FromRecords({[Value = 1]})
 ```
 
 
-### Example #2 
+### Example #2
 リストからテーブルを作成します。
 ```powerquery
 Table.FromValue({1, "Bob", "123-4567"})
@@ -53,7 +55,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 カスタム列名を使用して、値 1 からテーブルを作成します。
 ```powerquery
 Table.FromValue(1, [DefaultColumnName = "MyValue"])

@@ -27,7 +27,7 @@ Kusto.Contents(
 
 ## Examples
 
-### Example #1 
+### Example #1
 स्टॉर्म ईवेंट्स संबंधी जानकारी की तालिका वापस करता है
 ```powerquery
 Kusto.Contents("help", "Samples", "StormEvents", [])

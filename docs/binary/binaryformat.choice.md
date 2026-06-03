@@ -22,12 +22,22 @@ BinaryFormat.Choice(
 
 ## Remarks
 
-Returns a binary format that chooses the next binary format based on a value that has already been read.  The binary format value produced by this function works in stages:<ul><li>The binary format specified by the <code>binaryFormat</code> parameter is used to read a value.</li><li>The value is passed to the choice function specified by the <code>chooseFunction</code> parameter.</li><li>The choice function inspects the value and returns a second binary format.</li><li>The second binary format is used to read a second value.</li><li>If the combine function is specified, then the first and second values are passed to the combine function, and the resulting value is returned.</li><li>If the combine function is not specified, the second value is returned.</li><li>The second value is returned.</li></ul>The optional <code>type</code> parameter indicates the type of binary format that will be returned by the choice function.  Either <code>type any</code>, <code>type list</code>, or <code>type binary</code> may be specified.  If the <code>type</code> parameter is not specified, then <code>type any</code> is used.   If <code>type list</code> or <code>type binary</code> is used, then the system may be able to return a streaming <code>binary</code> or <code>list</code> value instead of a buffered one, which may reduce the amount of memory necessary to read the format.
+Returns a binary format that chooses the next binary format based on a value that has already been read. The binary format value produced by this function works in stages:
+
+-   The binary format specified by the `binaryFormat` parameter is used to read a value.
+-   The value is passed to the choice function specified by the `chooseFunction` parameter.
+-   The choice function inspects the value and returns a second binary format.
+-   The second binary format is used to read a second value.
+-   If the combine function is specified, then the first and second values are passed to the combine function, and the resulting value is returned.
+-   If the combine function is not specified, the second value is returned.
+-   The second value is returned.
+
+The optional `type` parameter indicates the type of binary format that will be returned by the choice function. Either `type any`, `type list`, or `type binary` may be specified. If the `type` parameter is not specified, then `type any` is used. If `type list` or `type binary` is used, then the system may be able to return a streaming `binary` or `list` value instead of a buffered one, which may reduce the amount of memory necessary to read the format.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Read a list of bytes where the number of elements is determined by the first byte.
 ```powerquery
 let
@@ -46,7 +56,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Read a list of bytes where the number of elements is determined by the first byte, and preserve the first byte read.
 ```powerquery
 let
@@ -68,7 +78,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Read a list of bytes where the number of elements is determined by the first byte using a streaming list.
 ```powerquery
 let

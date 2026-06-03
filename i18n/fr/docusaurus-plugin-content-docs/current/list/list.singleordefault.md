@@ -20,13 +20,13 @@ List.SingleOrDefault(
 
 ## Remarks
 
-S'il y a un seul élément dans la liste <code>list</code>, retourne cet élément.    Si la liste est vide, la fonction retourne null sauf si le paramètre facultatif <code>default</code> est spécifié. S'il existe plusieurs éléments dans la liste, la fonction retourne une erreur.
+S'il y a un seul élément dans la liste `list`, retourne cet élément. Si la liste est vide, la fonction retourne null sauf si le paramètre facultatif `default` est spécifié. S'il existe plusieurs éléments dans la liste, la fonction retourne une erreur.
 
 
 ## Examples
 
-### Example #1 
-Recherche la seule valeur dans la liste \{1}.
+### Example #1
+Recherche la seule valeur dans la liste \{1\}.
 ```powerquery
 List.SingleOrDefault({1})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Recherche la seule valeur dans la liste \{}.
+### Example #2
+Recherche la seule valeur dans la liste \{\}.
 ```powerquery
 List.SingleOrDefault({})
 ```
@@ -49,8 +49,8 @@ null
 ```
 
 
-### Example #3 
-Recherche la seule valeur dans la liste \{}. Si vide, retourne -1.
+### Example #3
+Recherche la seule valeur dans la liste \{\}. Si vide, retourne -1.
 ```powerquery
 List.SingleOrDefault({}, -1)
 ```

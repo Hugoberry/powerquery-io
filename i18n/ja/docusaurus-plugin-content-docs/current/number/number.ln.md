@@ -19,12 +19,12 @@ Number.Ln(
 
 ## Remarks
 
-数値 <code>number</code> の自然対数を返します。<code>number</code> が NULL の場合、<code>Number.Ln</code> は NULL を返します。
+数値 `number` の自然対数を返します。`number` が NULL の場合、`Number.Ln` は NULL を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 15 の自然対数を取得します。
 ```powerquery
 Number.Ln(15)

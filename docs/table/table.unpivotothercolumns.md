@@ -27,7 +27,7 @@ Translates all columns other than a specified set into attribute-value pairs, co
 
 ## Examples
 
-### Example #1 
+### Example #1
 Translates all columns other than a specified set into attribute-value pairs, combined with the rest of the values in each row.
 ```powerquery
 Table.UnpivotOtherColumns(

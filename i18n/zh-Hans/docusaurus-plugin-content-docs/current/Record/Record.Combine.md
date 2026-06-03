@@ -19,12 +19,12 @@ Record.Combine(
 
 ## Remarks
 
-组合给定 <code>records</code> 中的记录。如果 <code>records</code> 包含非记录值，将返回错误。
+组合给定 `records` 中的记录。如果 `records` 包含非记录值，将返回错误。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 从记录创建组合记录。
 ```powerquery
 Record.Combine({

@@ -21,6 +21,6 @@ Dynamics365BusinessCentral.ApiContents(
 
 ## Remarks
 
-Zwraca tabelę zawierającą odpowiednie dane usługi Dynamics 365 Business Central. 
+Zwraca tabelę zawierającą odpowiednie dane usługi Dynamics 365 Business Central.
 
 

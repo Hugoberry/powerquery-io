@@ -26,7 +26,7 @@ Bir metin listesine belirtilen sınırlayıcılardan birini kullanarak metin ay�
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tırnak işaretleri ve alıntı sınırlayıcıları yok sayarak ve girişin başından başlayarak girişi virgül veya noktalı virgülle bölün.
 ```powerquery
 Splitter.SplitTextByAnyDelimiter({",", ";"}, QuoteStyle.Csv)("a,b;""c,d;e"",f")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Tırnak işaretleri ve alıntı sınırlayıcıları yok sayarak ve girişin sonundan başlayarak girişi virgül veya noktalı virgülle bölün.
 ```powerquery
 let

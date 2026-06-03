@@ -19,13 +19,13 @@ Record.FieldValues(
 
 ## Remarks
 
-Retourne une liste de valeurs de champ dans un enregistrement <code>record</code>.
+Retourne une liste de valeurs de champ dans un enregistrement `record`.
 
 
 ## Examples
 
-### Example #1 
-Recherche les valeurs des champs dans l&#39;enregistrement.
+### Example #1
+Recherche les valeurs des champs dans l'enregistrement.
 ```powerquery
 Record.FieldValues([CustomerID = 1, Name = "Bob", Phone = "123-4567"])
 ```

@@ -19,12 +19,12 @@ Date.StartOfMonth(
 
 ## Remarks
 
-<code>dateTime</code> içeren ay başlangıcını döndürür.     <code>dateTime</code>, bir <code>date</code> veya <code>datetime</code> değeri olmalıdır.
+`dateTime` içeren ay başlangıcını döndürür. `dateTime`, bir `date` veya `datetime` değeri olmalıdır.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 10 Ekim 2011, 08:10:32 için ay başlangıcını bulun.
 ```powerquery
 Date.StartOfMonth(#datetime(2011, 10, 10, 8, 10, 32))

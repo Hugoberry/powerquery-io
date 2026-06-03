@@ -25,12 +25,16 @@ Table.NestedJoin(
 
 ## Remarks
 
-Hiermee worden de rijen van <code>table1</code> gekoppeld aan de rijen van <code>table2</code> op basis van de gelijkheid van de waarden van de sleutelkolommen die zijn geselecteerd met <code>key1</code> (voor <code>table1</code>) en <code>key2</code> (voor <code>table2</code>). De resultaten komen in de kolom <code>newColumnName</code> te staan.<br />Met de optionele waarde <code>joinKind</code> wordt het type join opgegeven dat moet worden uitgevoerd. Er wordt standaard een outer join aan de linkerkant uitgevoerd als <code>joinKind</code> niet is opgegeven.<br />Een optionele set van <code>keyEqualityComparers</code> kan worden opgenomen om te specificeren hoe de sleutelkolommen moeten worden vergeleken. Deze functie is momenteel uitsluitend bedoeld voor intern gebruik.<br />  
+Hiermee worden de rijen van `table1` gekoppeld aan de rijen van `table2` op basis van de gelijkheid van de waarden van de sleutelkolommen die zijn geselecteerd met `key1` (voor `table1`) en `key2` (voor `table2`). De resultaten komen in de kolom `newColumnName` te staan.
+
+Met de optionele waarde `joinKind` wordt het type join opgegeven dat moet worden uitgevoerd. Er wordt standaard een outer join aan de linkerkant uitgevoerd als `joinKind` niet is opgegeven.
+
+Een optionele set van `keyEqualityComparers` kan worden opgenomen om te specificeren hoe de sleutelkolommen moeten worden vergeleken. Deze functie is momenteel uitsluitend bedoeld voor intern gebruik.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Twee tabellen samenvoegen met één sleutelkolom.
 ```powerquery
 Table.NestedJoin(

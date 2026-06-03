@@ -19,6 +19,6 @@ Dynamics365BusinessCentral.Contents(
 
 ## Remarks
 
-ส่งกลับตารางพร้อมข้อมูลของ Dynamics 365 Business Central ที่เกี่ยวข้อง 
+ส่งกลับตารางพร้อมข้อมูลของ Dynamics 365 Business Central ที่เกี่ยวข้อง
 
 

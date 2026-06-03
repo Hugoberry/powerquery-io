@@ -5,7 +5,7 @@ title: Number.BitwiseAnd
 # Number.BitwiseAnd
 
 
-Restituisce il risultato dell&#39;esecuzione di un&#39;operazione &#34;And&#34; bit per bit tra i due input.
+Restituisce il risultato dell'esecuzione di un'operazione "And" bit per bit tra i due input.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Number.BitwiseAnd(
 
 ## Remarks
 
-Restituisce il risultato dell'esecuzione di un'operazione "And" bit per bit tra <code>number1</code> e <code>number2</code>.
+Restituisce il risultato dell'esecuzione di un'operazione "And" bit per bit tra `number1` e `number2`.
 
 
 

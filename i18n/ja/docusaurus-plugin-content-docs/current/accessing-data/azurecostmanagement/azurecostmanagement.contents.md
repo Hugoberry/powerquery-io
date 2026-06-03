@@ -21,15 +21,15 @@ AzureCostManagement.Contents(
 
 ## Examples
 
-### Example #1 
+### Example #1
 今日を 2017-6-15 と仮定し、2017-5-1 から 2017-6-15 までの集計データを取得します
 ```powerquery
-結果で
-          enrollmentNumber = "100"、
-          optionalParameters = [ numberOfMonth = 1 ]、
+let
+          enrollmentNumber = "100",
+          optionalParameters = [ numberOfMonth = 1 ],
           result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
-      と
-          します
+      in
+          result
 ```
 
 Result: 
@@ -38,15 +38,15 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 今日を 2017-6-15 と仮定し、2017 年 4 月の集計データを取得します。
 ```powerquery
-結果で
-          enrollmentNumber = "100"、
-          optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "-1" ]、
+let
+          enrollmentNumber = "100",
+          optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "-1" ],
           result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
-      と
-          します
+      in
+          result
 ```
 
 Result: 
@@ -55,15 +55,15 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 今日を 2017-6-15 と仮定し、2017 年 4 月から現時点までの集計データを取得します。
 ```powerquery
-結果で
-          enrollmentNumber = "100"、
-          optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "0", dataType = "Summaries" ]、
+let
+          enrollmentNumber = "100",
+          optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "0", dataType = "Summaries" ],
           result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
-      と
-          します
+      in
+          result
 ```
 
 Result: 

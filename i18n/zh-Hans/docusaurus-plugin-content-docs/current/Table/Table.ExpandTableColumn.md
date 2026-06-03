@@ -22,13 +22,13 @@ Table.ExpandTableColumn(
 
 ## Remarks
 
-将 <code>table</code>[<code>column</code>] 中的表扩展为多个行和列。<code>columnNames</code> 用于从内部表中选择要扩展的列。指定 <code>newColumnNames</code> 以避免现有列与新列之间的冲突。
+将 `table`\[`column`\] 中的表扩展为多个行和列。`columnNames` 用于从内部表中选择要扩展的列。指定 `newColumnNames` 以避免现有列与新列之间的冲突。
 
 
 ## Examples
 
-### Example #1 
-将表 &lt;code&gt;(\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]})&lt;/code&gt; 的 &lt;code&gt;[a]&lt;/code&gt; 中的表列扩展为 3 列 &lt;code&gt;[t.a]&lt;/code&gt;、&lt;code&gt;[t.b]&lt;/code&gt; 和 &lt;code&gt;[t.c]&lt;/code&gt;。
+### Example #1
+将表 `({[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]})` 的 `[a]` 中的表列扩展为 3 列 `[t.a]`、`[t.b]` 和 `[t.c]`。
 ```powerquery
 Table.ExpandTableColumn(
     Table.FromRecords({

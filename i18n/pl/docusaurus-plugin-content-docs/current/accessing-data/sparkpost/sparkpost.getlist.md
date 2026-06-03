@@ -22,7 +22,7 @@ Ta funkcja umożliwia wywołanie dowolnego z punktów końcowych „Lists” dos
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zwraca tabelę z jedną kolumną zawierającą dane z jednego z punktów końcowych „Lists” interfejsu API SparkPost w wersji 1 (szczegóły można znaleźć w dokumentacji łącznika SparkPost).
 ```powerquery
 Source = SparkPost.GetList("metrics/campaigns")

@@ -19,12 +19,12 @@ Date.StartOfMonth(
 
 ## Remarks
 
-Returns the start of the month that contains <code>dateTime</code>.    <code>dateTime</code> must be a <code>date</code> or <code>datetime</code> value.
+Returns the start of the month that contains `dateTime`. `dateTime` must be a `date` or `datetime` value.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find the start of the month for October 10th, 2011, 8:10:32AM.
 ```powerquery
 Date.StartOfMonth(#datetime(2011, 10, 10, 8, 10, 32))

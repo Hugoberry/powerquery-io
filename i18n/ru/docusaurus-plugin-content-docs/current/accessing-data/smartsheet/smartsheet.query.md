@@ -26,7 +26,7 @@ Smartsheet.Query(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Извлекает данные из листов конечной точки API Smartsheet с указанными дополнительными аргументами
 ```powerquery
 Smartsheet.Content("sheets", "include=ownerInfo&includeAll=true", [])

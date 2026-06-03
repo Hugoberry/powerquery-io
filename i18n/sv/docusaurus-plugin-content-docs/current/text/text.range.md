@@ -21,13 +21,13 @@ Text.Range(
 
 ## Remarks
 
-Returnerar delsträngen från texten <code>text</code> vid förskjutningen <code>offset</code>.    En valfri parameter, <code>count</code>, kan tas med för att ange hur många tecken som ska returneras. Returnerar ett fel om det inte finns tillräckligt med tecken.
+Returnerar delsträngen från texten `text` vid förskjutningen `offset`. En valfri parameter, `count`, kan tas med för att ange hur många tecken som ska returneras. Genererar ett fel om det inte finns tillräckligt med tecken.
 
 
 ## Examples
 
-### Example #1 
-Hitta delsträngen från texten &#34;Hello World&#34; med början vid index 6.
+### Example #1
+Hitta delsträngen från texten "Hello World" med början vid index 6.
 ```powerquery
 Text.Range("Hello World", 6)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Hitta delsträngen från texten &#34;Hello World Hello&#34; med början vid index 6 och med en längd på 5 tecken.
+### Example #2
+Hitta delsträngen från texten "Hello World Hello" med början vid index 6 och med en längd på 5 tecken.
 ```powerquery
 Text.Range("Hello World Hello", 6, 5)
 ```

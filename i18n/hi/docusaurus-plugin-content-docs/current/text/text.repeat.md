@@ -20,13 +20,13 @@ Text.Repeat(
 
 ## Remarks
 
-<code>count</code> बार दोहराए गए इनपुट पाठ <code>text</code> द्वारा संयोजित पाठ मान को लौटाता है.
+`count` बार दोहराए गए इनपुट पाठ `text` द्वारा संयोजित पाठ मान को लौटाता है.
 
 
 ## Examples
 
-### Example #1 
-पाठ &#34;a&#34; को पाँच बार दोहराएँ.
+### Example #1
+पाठ "a" को पाँच बार दोहराएँ.
 ```powerquery
 Text.Repeat("a", 5)
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-पाठ &#34;helloworld&#34; को तीन बार दोहराएँ.
+### Example #2
+पाठ "helloworld" को तीन बार दोहराएँ.
 ```powerquery
 Text.Repeat("helloworld.", 3)
 ```

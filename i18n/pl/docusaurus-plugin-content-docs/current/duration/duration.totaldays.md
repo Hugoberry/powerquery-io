@@ -19,12 +19,12 @@ Duration.TotalDays(
 
 ## Remarks
 
-Zwraca łączną liczbę dni obejmującą <code>duration</code>.
+Zwraca łączną liczbę dni obejmującą `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź łączną liczbę dni o wartości czasu trwania.
 ```powerquery
 Duration.TotalDays(#duration(5, 4, 3, 2))

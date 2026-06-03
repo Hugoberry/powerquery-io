@@ -5,7 +5,7 @@ title: Text.Split
 # Text.Split
 
 
-Fractionne le texte dans une liste de valeurs de texte en fonction d&#39;un délimiteur spécifié.
+Fractionne le texte dans une liste de valeurs de texte en fonction d'un délimiteur spécifié.
 
 
 ## Syntax
@@ -20,13 +20,16 @@ Text.Split(
 
 ## Remarks
 
-Retourne une liste de valeurs de texte résultant du fractionnement d'une valeur de texte <code>text</code> selon le séparateur spécifié, <code>separator</code>.
+Retourne une liste de valeurs de texte résultant du fractionnement d'une valeur de texte selon le séparateur spécifié .
+
+-   `text` : La valeur de texte à fractionner.
+-   `separator` : Le délimiteur utilisé pour diviser le texte. Le délimiteur peut être un caractère unique ou une séquence de caractères. Si une séquence de caractères est utilisée, le texte n'est fractionné qu'aux endroits où la séquence exacte apparaît.
 
 
 ## Examples
 
-### Example #1 
-Crée une liste à partir de la valeur de texte délimitée par &#34; | &#34; &#34; Name|Address|PhoneNumber &#34;.
+### Example #1
+Crée une liste à partir de la valeur de texte délimitée par « | » « Name|Address|PhoneNumber ».
 ```powerquery
 Text.Split("Name|Address|PhoneNumber", "|")
 ```
@@ -37,6 +40,22 @@ Result:
     "Name",
     "Address",
     "PhoneNumber"
+}
+```
+
+
+### Example #2
+Créer une liste à partir de la valeur du texte en utilisant une séquence de caractères.
+```powerquery
+Text.Split("Name, the Customer, the Purchase Date", ", the ")
+```
+
+Result: 
+```powerquery
+{
+    "Name",
+    "Customer",
+    "Purchase Date"
 }
 ```
 

@@ -20,12 +20,16 @@ Table.RemoveLastN(
 
 ## Remarks
 
-Devuelve una tabla que no contiene las <code>countOrCondition</code> últimas filas de la tabla <code>table</code>.        El número de filas quitadas depende del parámetro opcional <code>countOrCondition</code>.    <ul>    <li>Si se omite <code>countOrCondition</code>, solo se quita la última fila. </li>    <li>Si <code>countOrCondition</code> es un número, se quitarán esas filas (empezando por la parte inferior). </li>    <li>Si <code>countOrCondition</code> es una condición, se quitarán las filas que la cumplan hasta que una no lo haga.</li>    </ul>
+Devuelve una tabla que no contiene las `countOrCondition` últimas filas de la tabla `table`. El número de filas quitadas depende del parámetro opcional `countOrCondition`.
+
+-   Si se omite `countOrCondition`, solo se quita la última fila.
+-   Si `countOrCondition` es un número, se quitarán esas filas (empezando por la parte inferior).
+-   Si `countOrCondition` es una condición, se quitarán las filas que la cumplan hasta que una no lo haga.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Quitar la última fila de la tabla.
 ```powerquery
 Table.RemoveLastN(
@@ -49,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Quitar las últimas filas donde [CustomerID] &gt; 0 de la tabla.
+### Example #2
+Quitar las últimas filas donde \[CustomerID\] > 0 de la tabla.
 ```powerquery
 Table.RemoveLastN(
     Table.FromRecords({

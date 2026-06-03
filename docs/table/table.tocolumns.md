@@ -19,12 +19,12 @@ Table.ToColumns(
 
 ## Remarks
 
-Creates a list of nested lists from the table, <code>table</code>.  Each list item is an inner list that contains the column values.
+Creates a list of nested lists from the table, `table`. Each list item is an inner list that contains the column values.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Create a list of the column values from the table.
 ```powerquery
 Table.ToColumns(

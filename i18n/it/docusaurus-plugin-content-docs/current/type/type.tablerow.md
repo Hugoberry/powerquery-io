@@ -24,7 +24,7 @@ Restituisce il tipo di riga del tipo di tabella specificato. Il risultato sarà 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Restituisce le informazioni sul tipo di riga per una tabella semplice.
 ```powerquery
 let

@@ -22,13 +22,13 @@ List.Min(
 
 ## Remarks
 
-Zwraca minimalny element z listy <code>list</code> lub opcjonalną wartość domyślną <code>default</code>, gdy lista jest pusta.    W celu ustalenia sposobu porównywania elementów na liście można określić opcjonalną wartość comparisonCriteria (<code>comparisonCriteria</code>). Jeśli ten parametr ma wartość null, używana jest domyślna funkcja porównująca.
+Zwraca minimalny element z listy `list` lub opcjonalną wartość domyślną `default`, gdy lista jest pusta. W celu ustalenia sposobu porównywania elementów na liście można określić opcjonalną wartość comparisonCriteria (`comparisonCriteria`). Jeśli ten parametr ma wartość null, używana jest domyślna funkcja porównująca.
 
 
 ## Examples
 
-### Example #1 
-Znajdź wartość minimalną na liście \{1, 4, 7, 3, -2, 5}.
+### Example #1
+Znajdź wartość minimalną na liście \{1, 4, 7, 3, -2, 5\}.
 ```powerquery
 List.Min({1, 4, 7, 3, -2, 5})
 ```
@@ -39,8 +39,8 @@ Result:
 ```
 
 
-### Example #2 
-Znajdź minimalną wartość na liście \{} lub zwróć -1, gdy lista jest pusta. 
+### Example #2
+Znajdź minimalną wartość na liście \{\} lub zwróć -1, gdy lista jest pusta.
 ```powerquery
 List.Min({}, -1)
 ```

@@ -20,12 +20,15 @@ Table.LastN(
 
 ## Remarks
 
-Gibt abhängig vom <code>countOrCondition</code>-Wert die letzte(n) Zeile(n) aus der Tabelle '<code>table</code>' zurück:    <ul>    <li> Ist "<code>countOrCondition</code>" eine Zahl, wird die entsprechende Anzahl von Zeilen ab der Position "(end - <code>countOrCondition</code>)" zurückgegeben. </li>    <li> Ist "<code>countOrCondition</code>" eine Bedingung, werden in aufsteigender Richtung so lange Zeilen zurückgegeben, die die Bedingung erfüllen, bis eine Zeile die Bedingung nicht erfüllt.</li></ul>
+Gibt abhängig vom `countOrCondition`\-Wert die letzte(n) Zeile(n) aus der Tabelle '`table`' zurück:
+
+-   Ist "`countOrCondition`" eine Zahl, wird die entsprechende Anzahl von Zeilen ab der Position "(end - `countOrCondition`)" zurückgegeben.
+-   Ist "`countOrCondition`" eine Bedingung, werden in aufsteigender Richtung so lange Zeilen zurückgegeben, die die Bedingung erfüllen, bis eine Zeile die Bedingung nicht erfüllt.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ermittelt die letzten beiden Zeilen der Tabelle.
 ```powerquery
 Table.LastN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Ermittelt die letzten Zeilen in der Tabelle, die die Bedingung &#34;[0] &gt; a&#34; erfüllen.
+### Example #2
+Ermittelt die letzten Zeilen in der Tabelle, die die Bedingung "\[0\] > a" erfüllen.
 ```powerquery
 Table.LastN(
     Table.FromRecords({

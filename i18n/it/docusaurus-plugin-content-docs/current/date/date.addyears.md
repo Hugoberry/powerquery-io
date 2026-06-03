@@ -20,13 +20,16 @@ Date.AddYears(
 
 ## Remarks
 
-Restituisce l'elemento <code>date</code>, <code>datetime</code> o <code>datetimezone</code> risultante dall'aggiunta di <code>numberOfYears</code> al valore <code>dateTime</code> di <code>datetime</code>.      <ul>        <li><code>dateTime</code>: valore <code>date</code>, <code>datetime</code> o <code>datetimezone</code> a cui vengono aggiunti gli anni.</li>        <li><code>numberOfYears</code>: numero di anni da aggiungere.</li>      </ul>
+Restituisce l'elemento `date`, `datetime` o `datetimezone` risultante dall'aggiunta di `numberOfYears` al valore `dateTime` di `datetime`.
+
+-   `dateTime`: valore `date`, `datetime` o `datetimezone` a cui vengono aggiunti gli anni.
+-   `numberOfYears`: numero di anni da aggiungere.
 
 
 ## Examples
 
-### Example #1 
-Aggiungere 4 anni al valore &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; o &lt;code&gt;datetimezone&lt;/code&gt; che rappresenta la data 14/5/2011.
+### Example #1
+Aggiungere 4 anni al valore `date`, `datetime` o `datetimezone` che rappresenta la data 14/5/2011.
 ```powerquery
 Date.AddYears(#date(2011, 5, 14), 4)
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Aggiungere 10 anni al valore &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; o &lt;code&gt;datetimezone&lt;/code&gt; che rappresenta la data 14/5/2011 e l&#39;ora 08.15.22.
+### Example #2
+Aggiungere 10 anni al valore `date`, `datetime` o `datetimezone` che rappresenta la data 14/5/2011 e l'ora 08.15.22.
 ```powerquery
 Date.AddYears(#datetime(2011, 5, 14, 8, 15, 22), 10)
 ```

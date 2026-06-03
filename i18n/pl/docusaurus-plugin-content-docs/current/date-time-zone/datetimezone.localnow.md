@@ -19,7 +19,7 @@ DateTimeZone.LocalNow(
 
 ## Remarks
 
-Zwraca wartość typu <code>datetimezone</code> reprezentującą aktualną datę i godzinę ustawioną w systemie.    Zwrócona wartość zawiera informacje o strefie czasowej reprezentujące lokalną strefę czasową.
+Zwraca wartość typu `datetimezone` reprezentującą aktualną datę i godzinę ustawioną w systemie. Zwrócona wartość zawiera informacje o strefie czasowej reprezentujące lokalną strefę czasową.
 
 
 

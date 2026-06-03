@@ -19,12 +19,14 @@ Character.ToNumber(
 
 ## Remarks
 
-ส่งกลับตัวเลขที่เทียบเท่ากับ <code>character</code><br />    <br />    ผลลัพธ์จะเป็นรหัสอักขระ Unicode 21 บิตที่แสดงโดยอักขระที่ระบุหรือคู่ตัวแทน  
+ส่งกลับตัวเลขที่เทียบเท่ากับ `character`  
+  
+ผลลัพธ์จะเป็นรหัสอักขระ Unicode 21 บิตที่แสดงโดยอักขระที่ระบุหรือคู่ตัวแทน
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 แปลงอักขระเป็นค่าตัวเลขที่เทียบเท่ากัน
 ```powerquery
 Character.ToNumber("#(tab)")
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 แปลงคู่ตัวแทน UTF-16 สำหรับอีโมติคอน “หน้ายิ้มกริ่ม” เป็นรหัสอักขระฐานสิบหกที่เทียบเท่ากัน
 ```powerquery
 Number.ToText(Character.ToNumber("#(0001F600)"), "X")

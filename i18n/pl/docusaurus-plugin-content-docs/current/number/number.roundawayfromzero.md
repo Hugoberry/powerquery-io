@@ -20,12 +20,12 @@ Number.RoundAwayFromZero(
 
 ## Remarks
 
-Zwraca wynik zaokrąglenia liczby <code>number</code> w zależności od jej znaku. Ta funkcja zaokrągla liczby dodatnie w górę, a liczby ujemne w dół.    Jeśli parametr <code>digits</code> jest określony, liczba <code>number</code> jest zaokrąglana do liczby miejsc po przecinku określonej przez parametr <code>digits</code>.  
+Zwraca wynik zaokrąglenia liczby `number` w zależności od jej znaku. Ta funkcja zaokrągla liczby dodatnie w górę, a liczby ujemne w dół. Jeśli parametr `digits` jest określony, liczba `number` jest zaokrąglana do liczby miejsc po przecinku określonej przez parametr `digits`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zaokrąglij liczbę -1,2 w kierunku od zera.
 ```powerquery
 Number.RoundAwayFromZero(-1.2)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Zaokrąglij liczbę 1,2 w kierunku od zera.
 ```powerquery
 Number.RoundAwayFromZero(1.2)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Zaokrąglij liczbę -1,234 do dwóch miejsc po przecinku w kierunku od zera.
 ```powerquery
 Number.RoundAwayFromZero(-1.234, 2)

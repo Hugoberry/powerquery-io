@@ -20,7 +20,7 @@ Cube.CollapseAndRemoveColumns(
 
 ## Remarks
 
-Cambia la granularidad de dimensión del contexto de filtro del <code>cube</code> contrayendo los atributos asignados a las columnas especificadas <code>columnNames</code>. Las columnas también se quitan de la vista tabular del cubo.
+Cambia la granularidad de dimensión del contexto de filtro del `cube` contrayendo los atributos asignados a las columnas especificadas `columnNames`. Las columnas también se quitan de la vista tabular del cubo.
 
 
 

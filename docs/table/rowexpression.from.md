@@ -19,13 +19,28 @@ RowExpression.From(
 
 ## Remarks
 
-Returns the abstract syntax tree (AST) for the body of <code>function</code>, normalized into a <i>row expression</i>:<ul>  <li>The function must be a 1-argument lambda.</li>  <li>All references to the function parameter are replaced with <code>RowExpression.Row</code>.</li>  <li>All references to columns are replaced with <code>RowExpression.Column(<i>columnName</i>)</code>.</li>  <li>The AST will be simplified to contain only nodes of the kinds:    <ul>      <li><code>Constant</code></li>      <li><code>Invocation</code></li>      <li><code>Unary</code></li>      <li><code>Binary</code></li>      <li><code>If</code></li>      <li><code>FieldAccess</code></li>    </ul>  </li></ul><br /><br />An error is raised if a row expression AST cannot be returned for the body of <code>function</code>.<br />
+Returns the abstract syntax tree (AST) for the body of `function`, normalized into a *row expression*:
+
+-   The function must be a 1-argument lambda.
+-   All references to the function parameter are replaced with `RowExpression.Row`.
+-   All references to columns are replaced with `RowExpression.Column(columnName)`.
+-   The AST will be simplified to contain only nodes of the kinds:
+    -   `Constant`
+    -   `Invocation`
+    -   `Unary`
+    -   `Binary`
+    -   `If`
+    -   `FieldAccess`
+
+An error is raised if a row expression AST cannot be returned for the body of `function`.  
+  
+This function is identical to `ItemExpression.From`.
 
 
 ## Examples
 
-### Example #1 
-Returns the AST for the body of the function &lt;code&gt;each [CustomerID] = &#34;ALFKI&#34;&lt;/code&gt;
+### Example #1
+Returns the AST for the body of the function `each [CustomerID] = "ALFKI"`.
 ```powerquery
 RowExpression.From(each [CustomerName] = "ALFKI")
 ```

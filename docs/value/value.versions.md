@@ -5,7 +5,7 @@ title: Value.Versions
 # Value.Versions
 
 
-Value.Versions
+Returns a navigation table containing the available versions of the value.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Value.Versions(
 
 ## Remarks
 
-Value.Versions
+Returns a navigation table containing the available versions of the `value`.
 
 
 

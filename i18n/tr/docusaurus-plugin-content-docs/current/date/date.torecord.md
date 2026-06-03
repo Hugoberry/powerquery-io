@@ -19,13 +19,15 @@ Date.ToRecord(
 
 ## Remarks
 
-Verilen <code>date</code> tarih değerinin parçalarını içeren bir kayıt döndürür. <ul>        <li><code>date</code>: Parçalarının kaydının hesaplanacağı bir <code>date</code>değeri.</li>      </ul>
+Verilen `date` tarih değerinin parçalarını içeren bir kayıt döndürür.
+
+-   `date`: Parçalarının kaydının hesaplanacağı bir `date`değeri.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;#date(2011, 12, 31)&lt;/code&gt; değerini tarih değerinin parçalarını içeren bir kayda dönüştürür.
+### Example #1
+`#date(2011, 12, 31)` değerini tarih değerinin parçalarını içeren bir kayda dönüştürür.
 ```powerquery
 Date.ToRecord(#date(2011, 12, 31))
 ```

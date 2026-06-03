@@ -26,8 +26,8 @@ Retourneert de inhoud van het XML-document als een geneste verzameling platgemaa
 
 ## Examples
 
-### Example #1 
-Haal de inhoud van een lokaal XML-bestand op.
+### Example #1
+Haal de inhoud van een lokaal bestand op.
 ```powerquery
 Xml.Tables(File.Contents("C:\invoices.xml"))
 ```

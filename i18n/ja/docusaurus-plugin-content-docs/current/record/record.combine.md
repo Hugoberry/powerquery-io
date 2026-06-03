@@ -19,12 +19,12 @@ Record.Combine(
 
 ## Remarks
 
-指定された <code>records</code> 内のレコードを結合します。<code>records</code> にレコード以外の値が含まれている場合は、エラーが返されます。
+指定された `records` 内のレコードを結合します。`records` にレコード以外の値が含まれている場合は、エラーが返されます。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 レコードから結合したレコードを作成します。
 ```powerquery
 Record.Combine({

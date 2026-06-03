@@ -5,7 +5,7 @@ title: Date.IsInPreviousNQuarters
 # Date.IsInPreviousNQuarters
 
 
-Indica se esta data ocorre durante o número de trimestres anterior, conforme determinado pela data e hora atuais no sistema. Tenha em conta que esta função irá devolver &#34;falso&#34; quando é transmitido um valor que ocorre no trimestre atual.
+Indica se esta data ocorre durante o número de trimestres anterior, conforme determinado pela data e hora atuais no sistema. Tenha em conta que esta função irá devolver "falso" quando é transmitido um valor que ocorre no trimestre atual.
 
 
 ## Syntax
@@ -20,12 +20,15 @@ Date.IsInPreviousNQuarters(
 
 ## Remarks
 
-Indica se o valor do datetime indicado <code>dateTime</code> ocorre durante o número de trimestres anterior, conforme determinado pela data e hora atuais no sistema. Tenha em conta que esta função irá devolver "falso" quando é transmitido um valor que ocorre no trimestre atual.      <ul>      <li><code>dateTime</code>: um valor <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> a ser avaliado.</li>      <li><code>quarters</code>: o número de trimestres.</li>      </ul>
+Indica se o valor do datetime indicado `dateTime` ocorre durante o número de trimestres anterior, conforme determinado pela data e hora atuais no sistema. Tenha em conta que esta função irá devolver "falso" quando é transmitido um valor que ocorre no trimestre atual.
+
+-   `dateTime`: um valor `date`, `datetime` ou `datetimezone` a ser avaliado.
+-   `quarters`: o número de trimestres.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determinar se o trimestre anterior à hora atual no sistema é nos dois últimos trimestres.
 ```powerquery
 Date.IsInPreviousNQuarters(Date.AddQuarters(DateTime.FixedLocalNow(), -1), 2)

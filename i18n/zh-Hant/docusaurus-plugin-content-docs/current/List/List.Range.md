@@ -21,12 +21,12 @@ List.Range(
 
 ## Remarks
 
-傳回清單從位移 <code>list</code> 開始的子集。選擇性的參數 <code>offset</code> 可設定子集中的最大項目數目。
+會從 `offset` 開始傳回 `list` 的子集。選擇性的參數 `count` 會設定子集中的項目數上限。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 找出數字 1 到 10 的清單中從位移 6 開始的子集。
 ```powerquery
 List.Range({1..10}, 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 找出數字 1 到 10 的清單中從位移 6 開始、且長度 2 的子集。
 ```powerquery
 List.Range({1..10}, 6, 2)

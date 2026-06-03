@@ -19,7 +19,7 @@ Function.IsDataSource(
 
 ## Remarks
 
-Değer döndürüp döndürmediğine bakılmaksızın <code>function</code> bir veri kaynağı olarak değerlendirilir.
+Değer döndürüp döndürmediğine bakılmaksızın `function` bir veri kaynağı olarak değerlendirilir.
 
 
 

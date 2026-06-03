@@ -20,7 +20,7 @@ Function.InvokeAfter(
 
 ## Remarks
 
-期間 <code>delay</code> が経過した後に、<code>function</code> を呼び出した結果を返します。
+期間 `delay` が経過した後に、`function` を呼び出した結果を返します。
 
 
 

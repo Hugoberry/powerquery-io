@@ -21,12 +21,12 @@ Binary.Range(
 
 ## Remarks
 
-Trả về tập hợp con của giá trị nhị phân bắt đầu tại phần bù <code>binary</code>. Tham số tùy chọn <code>offset</code> quy định độ dài tối đa của tập hợp con.
+Trả về tập hợp con của giá trị nhị phân bắt đầu tại phần bù `binary`. Tham số tùy chọn `offset` quy định độ dài tối đa của tập hợp con.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trả về tập hợp con của giá trị nhị phân bắt đầu tại phần bù 6.
 ```powerquery
 Binary.Range(#binary({0..10}), 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Trả về tập hợp con có độ dài 2 từ phần bù 6 của giá trị nhị phân.
 ```powerquery
 Binary.Range(#binary({0..10}), 6, 2)

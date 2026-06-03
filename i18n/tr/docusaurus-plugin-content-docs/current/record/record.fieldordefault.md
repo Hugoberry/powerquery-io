@@ -21,13 +21,13 @@ Record.FieldOrDefault(
 
 ## Remarks
 
-<code>record</code> kaydında <code>field</code> belirtilen alanının değerini döndürür. Alan bulunmazsa, isteğe bağlı <code>defaultValue</code> döndürülür.
+`record` kaydında `field` belirtilen alanının değerini döndürür. Alan bulunmazsa, isteğe bağlı `defaultValue` döndürülür.
 
 
 ## Examples
 
-### Example #1 
-Kayıtta &#34;Phone&#34; alanına ilişkin değeri bulur veya bu değerin var olmaması halinde null döndürür.
+### Example #1
+Kayıtta "Phone" alanına ilişkin değeri bulur veya bu değerin var olmaması halinde null döndürür.
 ```powerquery
 Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone")
 ```
@@ -38,8 +38,8 @@ null
 ```
 
 
-### Example #2 
-Kayıtta &#34;Phone&#34; alanına ilişkin değeri bulur veya bu değerin var olmaması halinde varsayılan değeri döndürür.
+### Example #2
+Kayıtta "Phone" alanına ilişkin değeri bulur veya bu değerin var olmaması halinde varsayılan değeri döndürür.
 ```powerquery
 Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone", "123-4567")
 ```

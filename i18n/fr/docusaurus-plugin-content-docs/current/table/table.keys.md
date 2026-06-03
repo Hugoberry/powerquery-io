@@ -24,7 +24,7 @@ Renvoie les clés de la table spécifiée.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Obtenir la liste des clés d’une table.
 ```powerquery
 let

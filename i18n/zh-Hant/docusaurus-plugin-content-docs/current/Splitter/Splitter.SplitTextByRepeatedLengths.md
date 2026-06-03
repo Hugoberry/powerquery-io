@@ -25,7 +25,7 @@ Splitter.SplitTextByRepeatedLengths(
 
 ## Examples
 
-### Example #1 
+### Example #1
 從輸入的開頭開始，重複將輸入分割為三個字元區塊。
 ```powerquery
 Splitter.SplitTextByRepeatedLengths(3)("12345678")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 從輸入的結尾開始，重複將輸入分割為三個字元區塊。
 ```powerquery
 let

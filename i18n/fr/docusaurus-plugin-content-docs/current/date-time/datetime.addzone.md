@@ -21,12 +21,12 @@ DateTime.AddZone(
 
 ## Remarks
 
-Ajoute des informations de fuseau horaire à la valeur <code>dateTime</code>. Les informations de fuseau horaire incluent <code>timezoneHours</code> et éventuellement <code>timezoneMinutes</code>, qui spécifient le décalage souhaité par rapport à l’heure UTC.
+Ajoute des informations de fuseau horaire à la valeur `dateTime`. Les informations de fuseau horaire incluent `timezoneHours` et éventuellement `timezoneMinutes`, qui spécifient le décalage souhaité par rapport à l’heure UTC.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Définissez le fuseau horaire sur UTC+7:30 (7 heures et 30 minutes après UTC).
 ```powerquery
 DateTime.AddZone(#datetime(2010, 12, 31, 11, 56, 02), 7, 30)

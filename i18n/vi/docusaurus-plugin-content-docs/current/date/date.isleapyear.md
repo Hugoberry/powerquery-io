@@ -19,13 +19,15 @@ Date.IsLeapYear(
 
 ## Remarks
 
-Cho biết giá trị datetime cho sẵn <code>dateTime</code> có rơi vào năm nhuận hay không. <ul>        <li><code>dateTime</code>: Một giá trị <code>date</code>, <code>datetime</code> hoặc <code>datetimezone</code> sẽ được đánh giá.</li>      </ul>
+Cho biết giá trị datetime cho sẵn `dateTime` có rơi vào năm nhuận hay không.
+
+-   `dateTime`: Một giá trị `date`, `datetime` hoặc `datetimezone` sẽ được đánh giá.
 
 
 ## Examples
 
-### Example #1 
-Xác định năm 2012, như được biểu thị bằng &lt;code&gt;#date(2012, 01, 01)&lt;/code&gt; có phải là năm nhuận hay không.
+### Example #1
+Xác định năm 2012, như được biểu thị bằng `#date(2012, 01, 01)` có phải là năm nhuận hay không.
 ```powerquery
 Date.IsLeapYear(#date(2012, 01, 01))
 ```

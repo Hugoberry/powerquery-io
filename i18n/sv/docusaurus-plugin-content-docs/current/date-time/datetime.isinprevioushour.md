@@ -19,12 +19,14 @@ DateTime.IsInPreviousHour(
 
 ## Remarks
 
-Indikerar om angivet datetime-värde <code>dateTime</code> infaller under föregående timme enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar false om den skickas ett värde som infaller under den aktuella timmen.      <ul>      <li><code>dateTime</code>: Ett <code>datetime</code>- eller <code>datetimezone</code>-värde som ska utvärderas.</li>      </ul>
+Indikerar om angivet datetime-värde `dateTime` infaller under föregående timme enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar false om den skickas ett värde som infaller under den aktuella timmen.
+
+-   `dateTime`: Ett `datetime`\- eller `datetimezone`\-värde som ska utvärderas.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Fastställer om timman före den aktuella systemtiden motsvarar föregående timma.
 ```powerquery
 DateTime.IsInPreviousHour(DateTime.FixedLocalNow() - #duration(0, 1, 0, 0))

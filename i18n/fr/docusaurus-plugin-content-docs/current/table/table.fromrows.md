@@ -5,7 +5,7 @@ title: Table.FromRows
 # Table.FromRows
 
 
-Crée une table à partir d&#39;une liste de valeurs de ligne et de colonnes facultatives
+Crée un tableau à partir d'une liste de valeurs de lignes et de colonnes facultatives.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Table.FromRows(
 
 ## Remarks
 
-Crée une table à partir de la liste <code>rows</code>, où chaque élément de la liste est une liste interne qui contient les valeurs des colonnes pour une seule ligne. Une liste facultative de noms de colonnes, un type de table ou un nombre de colonnes peut être fourni pour <code>columns</code>.
+Crée une table à partir de la liste `rows`, où chaque élément de la liste est une liste interne qui contient les valeurs des colonnes pour une seule ligne. Une liste facultative de noms de colonnes, un type de table ou un nombre de colonnes peut être fourni pour `columns`.
 
 
 ## Examples
 
-### Example #1 
-Retourne une table avec la colonne [CustomerID] avec les valeurs \{1, 2}, la colonne [Name] avec les valeurs \{&#34;Bob&#34;, &#34;Jim&#34;} et la colonne [Phone] avec les valeurs \{&#34;123-4567&#34;, &#34;987-6543&#34;}.
+### Example #1
+Retourne une table avec la colonne \[CustomerID\] avec les valeurs \{1, 2\}, la colonne \[Name\] avec les valeurs \{"Bob", "Jim"\} et la colonne \[Phone\] avec les valeurs \{"123-4567", "987-6543"\}.
 ```powerquery
 Table.FromRows(
     {
@@ -46,8 +46,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Retourne une table avec la colonne [CustomerID] avec les valeurs \{1, 2}, la colonne [Name] avec les valeurs \{&#34;Bob&#34;, &#34;Jim&#34;} et la colonne [Phone] avec les valeurs \{&#34;123-4567&#34;, &#34;987-6543&#34;}, où [CustomerID] a le type nombre, et où [Name] et [Phone] ont le type texte.
+### Example #2
+Retourne une table avec la colonne \[CustomerID\] avec les valeurs \{1, 2\}, la colonne \[Name\] avec les valeurs \{"Bob", "Jim"\} et la colonne \[Phone\] avec les valeurs \{"123-4567", "987-6543"\}, où \[CustomerID\] a le type nombre, et où \[Name\] et \[Phone\] ont le type texte.
 ```powerquery
 Table.FromRows(
     {

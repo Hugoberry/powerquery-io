@@ -25,7 +25,7 @@ Combiner.CombineTextByDelimiter(
 
 ## Examples
 
-### Example #1 
+### Example #1
 使用分號分隔符號合併文字值清單。
 ```powerquery
 Combiner.CombineTextByDelimiter(";")({"a", "b", "c"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 使用逗號分隔符號和 CSV 樣式引號將兩個資料行的文字合併。
 ```powerquery
 let

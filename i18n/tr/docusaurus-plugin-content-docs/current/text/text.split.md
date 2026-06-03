@@ -20,13 +20,16 @@ Text.Split(
 
 ## Remarks
 
-<code>text</code> metin değerini <code>separator</code> belirtilen sınırlayıcısına dayalı olarak ayırmanın sonucu olan metin değerleri listesini döndürür.
+Metin değerini belirtilen sınırlayıcısına dayalı olarak ayırmanın sonucu olan metin değerleri listesini döndürür.
+
+-   `text`: Bölünecek metin değeri.
+-   `separator`: Metin bölmek için kullanılacak sınırlayıcı. Sınırlayıcı, tek bir karakter veya bir dizi karakter olabilir. Bir dizi karakter kullanıldığında, metin yalnızca tam dizinin bulunduğu yerlerde bölünür.
 
 
 ## Examples
 
-### Example #1 
-&#34;|&#34; ile sınırlandırılmış metin değeri olan &#34;Name|Address|PhoneNumber&#34; öğesinden liste oluşturur.
+### Example #1
+"|" ile sınırlandırılmış metin değeri olan "Name|Address|PhoneNumber" öğesinden liste oluşturur.
 ```powerquery
 Text.Split("Name|Address|PhoneNumber", "|")
 ```
@@ -37,6 +40,22 @@ Result:
     "Name",
     "Address",
     "PhoneNumber"
+}
+```
+
+
+### Example #2
+Karakter dizisini kullanarak metin değerinden bir liste oluşturun.
+```powerquery
+Text.Split("Name, the Customer, the Purchase Date", ", the ")
+```
+
+Result: 
+```powerquery
+{
+    "Name",
+    "Customer",
+    "Purchase Date"
 }
 ```
 

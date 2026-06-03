@@ -19,12 +19,17 @@ Type.TableKeys(
 
 ## Remarks
 
-Returnerar den eventuellt tomma listan med nycklar för den angivna tabelltypen.<br />    <br />    Varje nyckel definieras med hjälp av en post i följande format:    <ul>      <li>        <code>Columns</code>: en lista över kolumnnamnen som definierar nyckeln      </li>      <li>        <code>Primary</code>: <code>true</code> om nyckeln är tabellens primärnyckel; annars <code>false</code>      </li>    </ul>    
+Returnerar den eventuellt tomma listan med nycklar för den angivna tabelltypen.  
+  
+Varje nyckel definieras med hjälp av en post i följande format:
+
+-   `Columns`: en lista över kolumnnamnen som definierar nyckeln
+-   `Primary`: `true` om nyckeln är tabellens primärnyckel; annars `false`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnera nyckelinformationen för en tabelltyp.
 ```powerquery
 let

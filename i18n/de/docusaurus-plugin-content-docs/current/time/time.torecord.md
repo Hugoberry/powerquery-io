@@ -19,13 +19,15 @@ Time.ToRecord(
 
 ## Remarks
 
-Gibt einen Datensatz mit den Teilen des angegebenen time-Werts (<code>time</code>) zurück. <ul>        <li><code>time</code>: Ein <code>time</code>-Wert, auf dessen Grundlage der Datensatz mit den zugehörigen Teilen berechnet werden soll.</li>      </ul>
+Gibt einen Datensatz mit den Teilen des angegebenen time-Werts (`time`) zurück.
+
+-   `time`: Ein `time`\-Wert, auf dessen Grundlage der Datensatz mit den zugehörigen Teilen berechnet werden soll.
 
 
 ## Examples
 
-### Example #1 
-Konvertiert den Wert &lt;code&gt;#time(11, 56, 2)&lt;/code&gt; in einen Datensatz mit time-Werten.
+### Example #1
+Konvertiert den Wert `#time(11, 56, 2)` in einen Datensatz mit time-Werten.
 ```powerquery
 Time.ToRecord(#time(11, 56, 2))
 ```

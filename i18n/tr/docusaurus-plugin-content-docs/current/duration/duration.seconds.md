@@ -19,12 +19,12 @@ Duration.Seconds(
 
 ## Remarks
 
-<code>duration</code> için saniye kısmını döndürür.
+`duration` için saniye kısmını döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Süre değerinden saniyeleri ayıklayın.
 ```powerquery
 Duration.Seconds(#duration(5, 4, 3, 2))

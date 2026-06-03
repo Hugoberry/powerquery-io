@@ -5,7 +5,7 @@ title: Variable.Value
 # Variable.Value
 
 
-Funktionen är endast avsedd för internt bruk.
+Returnerar värdet för den angivna variabeln.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Variable.Value(
 
 ## Remarks
 
-Funktionen är endast avsedd för internt bruk.
+Returnerar värdet för den angivna variabeln `identifier` som definieras av den aktuella utvärderingsmiljön. Om variabeln inte har definierats, utlöses ett fel.
 
 
 

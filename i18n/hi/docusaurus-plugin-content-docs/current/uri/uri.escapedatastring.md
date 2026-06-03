@@ -19,13 +19,13 @@ Uri.EscapeDataString(
 
 ## Remarks
 
-RFC 3986 के नियमों के अनुसार इनपुट <code>data</code> में विशेष वर्णों को एन्कोड करता है.
+RFC 3986 के नियमों के अनुसार इनपुट `data` में विशेष वर्णों को एन्कोड करता है.
 
 
 ## Examples
 
-### Example #1 
-&#34;+money$&#34; में विशेष वर्णों को एन्कोड करें.
+### Example #1
+"+money$" में विशेष वर्णों को एन्कोड करें.
 ```powerquery
 Uri.EscapeDataString("+money$")
 ```

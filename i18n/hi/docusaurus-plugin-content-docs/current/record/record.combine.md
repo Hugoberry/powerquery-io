@@ -19,12 +19,12 @@ Record.Combine(
 
 ## Remarks
 
-दी गई <code>records</code> के रिकॉर्ड संयोजित करता है. अगर <code>records</code> में गैर-रिकॉर्ड वाले मान हैं, तो एक त्रुटि लौटाई जाती है.
+दी गई `records` के रिकॉर्ड संयोजित करता है. अगर `records` में गैर-रिकॉर्ड वाले मान हैं, तो एक त्रुटि लौटाई जाती है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 रिकॉर्ड से एक संयोजित रिकॉर्ड बनाएँ.
 ```powerquery
 Record.Combine({

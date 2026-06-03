@@ -26,8 +26,8 @@ XML दस्तावेज़ की सामग्रियों को ए
 
 ## Examples
 
-### Example #1 
-स्थानीय xml फ़ाइल की सामग्री को पुनर्प्राप्त करें.
+### Example #1
+स्थानीय XML फ़ाइल की सामग्री पुनर्प्राप्त करें.
 ```powerquery
 Xml.Tables(File.Contents("C:\invoices.xml"))
 ```

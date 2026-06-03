@@ -20,12 +20,12 @@ Text.Select(
 
 ## Remarks
 
-Zwraca kopię wartości tekstowej <code>text</code>, z której zostały usunięte wszystkie znaki spoza zbioru <code>selectChars</code>.  
+Zwraca kopię wartości tekstowej `text`, z której zostały usunięte wszystkie znaki spoza zbioru `selectChars`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Wybierz w wartości tekstowej wszystkie znaki z zakresu od „a” do „z”.
 ```powerquery
 Text.Select("a,b;c", {"a".."z"})

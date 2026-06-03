@@ -20,12 +20,12 @@ Table.Split(
 
 ## Remarks
 
-Divide <code>table</code> numa lista de tabelas em que o primeiro elemento da lista é uma tabela que contém as primeiras <code>pageSize</code> linhas da    tabela de origem, o elemento seguinte da lista é uma tabela que contém as <code>pageSize</code> linhas seguintes da tabela de origem, etc.
+Divide `table` numa lista de tabelas em que o primeiro elemento da lista é uma tabela que contém as primeiras `pageSize` linhas da tabela de origem, o elemento seguinte da lista é uma tabela que contém as `pageSize` linhas seguintes da tabela de origem, etc.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Divida uma tabela de cinco registos em tabelas com dois registos cada.
 ```powerquery
 let

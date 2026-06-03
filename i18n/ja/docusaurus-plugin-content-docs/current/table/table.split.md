@@ -20,12 +20,12 @@ Table.Split(
 
 ## Remarks
 
-<code>table</code> をテーブルのリストに分割します。リストの最初の要素は、ソース テーブルの  から最初の <code>pageSize</code> 行含むテーブルです。リストの次の要素は、ソース テーブルの次の <code>pageSize</code> 行を含むテーブルです。以下同様。
+`table` をテーブルのリストに分割します。リストの最初の要素は、ソース テーブルの から最初の `pageSize` 行含むテーブルです。リストの次の要素は、ソース テーブルの次の `pageSize` 行を含むテーブルです。以下同様。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 5 つのレコードのテーブルを、レコードを 2 つずつ含むテーブルに分割します。
 ```powerquery
 let

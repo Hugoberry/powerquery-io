@@ -21,7 +21,7 @@ Value.Subtract(
 
 ## Remarks
 
-<code>value1</code> ve <code>value2</code> değerinin farkını döndürür. İsteğe bağlı bir <code>precision</code> parametresi belirtilebilir, varsayılan olarak <code>Precision.Double</code> kullanılır.
+`value1` ve `value2` değerinin farkını döndürür. İsteğe bağlı bir `precision` parametresi belirtilebilir, varsayılan olarak `Precision.Double` kullanılır.
 
 
 

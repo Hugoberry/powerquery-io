@@ -20,7 +20,9 @@ Essbase.Cubes(
 
 ## Remarks
 
-Trả về một bảng cube do máy chủ Essbase nhóm từ phiên bản Essbase tại máy chủ APS <code>url</code>. Có thể chỉ định một tham số bản ghi tùy chọn <code>options</code> để kiểm soát các tùy chọn sau:    <ul><li><code>CommandTimeout</code> : Khoảng thời gian kiểm so&#225;t thời lượng ph&#237;a m&#225;y chủ được phép chạy trước khi bị hủy bỏ. Gi&#225; trị mặc định l&#224; 10 ph&#250;t.</li></ul>
+Trả về một bảng cube do máy chủ Essbase nhóm từ phiên bản Essbase tại máy chủ APS `url`. Có thể chỉ định một tham số bản ghi tùy chọn `options` để kiểm soát các tùy chọn sau:
+
+-   `CommandTimeout` : Khoảng thời gian kiểm soát thời lượng phía máy chủ được phép chạy trước khi bị hủy bỏ. Giá trị mặc định là 10 phút.
 
 
 

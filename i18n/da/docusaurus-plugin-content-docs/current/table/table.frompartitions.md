@@ -21,13 +21,13 @@ Table.FromPartitions(
 
 ## Remarks
 
-Returnerer en tabel, der er resultatet af at kombinere et sæt partitionerede tabeller, <code>partitions</code>. <code>partitionColumn</code> er navnet på den kolonne, der skal tilføjes. Kolonnetypen er som standard <code>any</code>, men den kan angives af <code>partitionColumnType</code>.
+Returnerer en tabel, der er resultatet af at kombinere et sæt partitionerede tabeller, `partitions`. `partitionColumn` er navnet på den kolonne, der skal tilføjes. Kolonnetypen er som standard `any`, men den kan angives af `partitionColumnType`.
 
 
 ## Examples
 
-### Example #1 
-Find elementtypen på listen &lt;code&gt;\{number}&lt;/code&gt;.
+### Example #1
+Find elementtypen på listen `{number}`.
 ```powerquery
 Table.FromPartitions(
     "Year",

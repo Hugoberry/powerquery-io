@@ -20,12 +20,12 @@ Text.Combine(
 
 ## Remarks
 
-Zwraca wynik połączenia listy wartości tekstowych<code>texts</code> w pojedynczą wartość tekstową. Wszystkie wartości <code>null</code> obecne w <code>texts</code> są ignorowane.    Można określić opcjonalny <code>separator</code> element używany w końcowym połączonym tekście.
+Zwraca wynik połączenia listy wartości tekstowych`texts` w pojedynczą wartość tekstową. Wszystkie wartości `null` obecne w `texts` są ignorowane. Można określić opcjonalny `separator` element używany w końcowym połączonym tekście.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Połącz wartości tekstowe „Seattle” i „WA”.
 ```powerquery
 Text.Combine({"Seattle", "WA"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Połącz wartości tekstowe „Seattle” i „WA”, rozdzielając je przecinkiem i spacją.
 ```powerquery
 Text.Combine({"Seattle", "WA"}, ", ")
@@ -49,8 +49,8 @@ Result:
 ```
 
 
-### Example #3 
-Połącz wartości „Seattle”, &lt;code&gt;null&lt;/code&gt; i „WA”, rozdzielając je przecinkami i spacją. (Zwróć uwagę, że &lt;code&gt;null&lt;/code&gt; jest ignorowany).
+### Example #3
+Połącz wartości „Seattle”, `null` i „WA”, rozdzielając je przecinkami i spacją. (Zwróć uwagę, że `null` jest ignorowany).
 ```powerquery
 Text.Combine({"Seattle", null, "WA"}, ", ")
 ```
@@ -58,6 +58,30 @@ Text.Combine({"Seattle", null, "WA"}, ", ")
 Result: 
 ```powerquery
 "Seattle, WA"
+```
+
+
+### Example #4
+Połącz imię, inicjał środkowy (jeśli istnieje) i nazwisko w imię i nazwisko osoby.
+```powerquery
+let
+    Source = Table.FromRecords({
+        [First Name = "Doug", Middle Initial = "J", Last Name = "Elis"],
+        [First Name = "Anna", Middle Initial = "M", Last Name = "Jorayew"],
+        [First Name = "Rada", Middle Initial = null, Last Name = "Mihaylova"]
+    }),
+    FullName = Table.AddColumn(Source, "Full Name", each Text.Combine({[First Name], [Middle Initial], [Last Name]}, " "))
+in
+    FullName
+```
+
+Result: 
+```powerquery
+Table.FromRecords({
+    [First Name = "Doug", Middle Initial = "J", Last Name = "Elis", Full Name = "Doug J Elis"],
+    [First Name = "Anna", Middle Initial = "M", Last Name = "Jorayew", Full Name = "Anna M Jorayew"],
+    [First Name = "Rada", Middle Initial = null, Last Name = "Mihaylova", Full Name = "Rada Mihaylova"]
+})
 ```
 
 

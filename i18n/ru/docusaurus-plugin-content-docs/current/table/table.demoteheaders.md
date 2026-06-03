@@ -24,7 +24,7 @@ Table.DemoteHeaders(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Понижение уровня первой строки значений в таблице.
 ```powerquery
 Table.DemoteHeaders(

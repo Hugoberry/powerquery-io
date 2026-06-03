@@ -25,7 +25,7 @@ Retourneert een functie die bij de opgegeven lengte tekst steeds opnieuw splitst
 
 ## Examples
 
-### Example #1 
+### Example #1
 De invoer herhaaldelijk splitsen in segmenten van drie tekens, te beginnen bij het begin van de invoer.
 ```powerquery
 Splitter.SplitTextByRepeatedLengths(3)("12345678")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 De invoer herhaaldelijk splitsen in segmenten van drie tekens, te beginnen bij het einde van de invoer.
 ```powerquery
 let

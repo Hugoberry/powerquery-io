@@ -20,13 +20,13 @@ Text.Upper(
 
 ## Remarks
 
-返回将 <code>text</code> 中的所有字符转换为大写的结果。还可提供可选的 <code>culture</code> (例如 "en-US")。
+返回将 `text` 中的所有字符转换为大写的结果。还可提供可选的 `culture` (例如 "en-US")。
 
 
 ## Examples
 
-### Example #1 
-获取 &#34;aBcD&#34; 的大写版本。
+### Example #1
+获取 "aBcD" 的大写版本。
 ```powerquery
 Text.Upper("aBcD")
 ```

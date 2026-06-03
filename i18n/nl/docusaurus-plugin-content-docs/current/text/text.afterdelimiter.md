@@ -21,12 +21,12 @@ Text.AfterDelimiter(
 
 ## Remarks
 
-Hiermee wordt het gedeelte van <code>text</code> na een opgegeven <code>delimiter</code> geretourneerd.    Een optioneel numeriek item <code>index</code> geeft aan welk exemplaar van <code>delimiter</code> moet worden gebruikt.    Een optionele lijst <code>index</code> geeft aan welk exemplaar van <code>delimiter</code> moet worden gebruikt en of indexering moet worden uitgevoerd vanaf het begin of het einde van de invoer.
+Hiermee wordt het gedeelte van `text` na een opgegeven `delimiter` geretourneerd. Een optioneel numeriek item `index` geeft aan welk exemplaar van `delimiter` moet worden gebruikt. Een optionele lijst `index` geeft aan welk exemplaar van `delimiter` moet worden gebruikt en of indexering moet worden uitgevoerd vanaf het begin of het einde van de invoer.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Het gedeelte van 111-222-333 ophalen dat na het (eerste) afbreekstreepje staat.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Het gedeelte van 111-222-333 ophalen dat na het tweede afbreekstreepje staat.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-", 1)
@@ -50,7 +50,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Het gedeelte van 111-222-333 ophalen dat na het tweede afbreekstreepje vanaf het einde staat.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-", {1, RelativePosition.FromEnd})

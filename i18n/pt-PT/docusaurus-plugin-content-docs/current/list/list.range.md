@@ -21,12 +21,12 @@ List.Range(
 
 ## Remarks
 
-Devolve um subconjunto da lista, começando no desvio <code>list</code>. Um parâmetro opcional, <code>offset</code>, define o número máximo de itens existente no subconjunto.
+Devolve um subconjunto de `list` com início em `offset`. Um parâmetro opcional, `count`, define o número máximo de itens no subconjunto.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determinar o subconjunto da lista de números entre 1 e 10 começando no desvio 6.
 ```powerquery
 List.Range({1..10}, 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Determinar o subconjunto de comprimento 2 da lista de números entre 1 e 10, começando no desvio 6.
 ```powerquery
 List.Range({1..10}, 6, 2)

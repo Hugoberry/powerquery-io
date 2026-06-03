@@ -21,12 +21,12 @@ Table.AddKey(
 
 ## Remarks
 
-Fügt <code>table</code> einen Schlüssel hinzu, wobei <code>columns</code> die Liste der Spaltennamen ist, die den Schlüssel definiert, und <code>isPrimary</code> gibt an, ob es sich um den Primärschlüssel handelt.
+Fügt `table` einen Schlüssel hinzu, wobei `columns` die Liste der Spaltennamen ist, die den Schlüssel definiert, und `isPrimary` gibt an, ob es sich um den Primärschlüssel handelt.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Fügen Sie einer Tabelle einen einspaltigen Primärschlüssel hinzu.
 ```powerquery
 let

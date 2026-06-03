@@ -21,12 +21,12 @@ Binary.Range(
 
 ## Remarks
 
-Retourne un sous-ensemble de la valeur binaire commençant au décalage <code>binary</code>. Un paramètre facultatif <code>offset</code> définit la longueur maximale du sous-ensemble.
+Retourne un sous-ensemble de la valeur binaire commençant au décalage `binary`. Un paramètre facultatif `offset` définit la longueur maximale du sous-ensemble.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Retourne un sous-ensemble de la valeur binaire commençant au décalage 6.
 ```powerquery
 Binary.Range(#binary({0..10}), 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Retourne un sous-ensemble de longueur 2 à partir du décalage 6 de la valeur binaire.
 ```powerquery
 Binary.Range(#binary({0..10}), 6, 2)

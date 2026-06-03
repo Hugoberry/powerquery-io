@@ -20,13 +20,13 @@ Table.Column(
 
 ## Remarks
 
-将表 <code>table</code> 中由 <code>column</code> 指定的数据列返回为列表。
+将表 `table` 中由 `column` 指定的数据列返回为列表。
 
 
 ## Examples
 
-### Example #1 
-返回表中 [Name] 列的值。
+### Example #1
+返回表中 \[Name\] 列的值。
 ```powerquery
 Table.Column(
     Table.FromRecords({

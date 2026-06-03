@@ -20,13 +20,18 @@ DateTime.FromText(
 
 ## Remarks
 
-Skapar ett <code>datetime</code> värde från en textrepresentation av <code>text</code>. En valfri <code>post</code> parameter, <code>options</code>, kan tillhandahållas för att ange ytterligare egenskaper. Den <code>posten</code> kan innehålla följande fält: <ul>   <li><code>Format-</code>: Ett <code>textvärde</code> som anger vilket format som ska användas. Gå Mer information finns på https://go.microsoft.com/fwlink/?linkid=2180104 och https://go.microsoft.com/fwlink/?linkid=2180105. Om du utelämnar detta fält eller anger <code>null</code> kommer det att resultera i att datumet analyseras med bästa möjliga ansträngning.</li>   <li><code>Culture</code>: Om <code>Format</code> inte är null styr <code>Culture</code> vissa formatspecificerare. Exempel: i <code>"en-US"</code> <code>"MMM"</code> är <code>"Jan", "Feb", "Mar", ...</code>, while in <code>"ru-RU"</code> <code>"MMM"</code> is <code>"ннв", "фев", "мар", ...</code>. När <code>Format</code> är <code>null</code> styr <code>Culture</code> standardformatet som ska användas. När <code>Culture</code> är <code>null</code> eller omitteras används <code>Culture.Nuvarande</code>.</li></ul>Om du vill stödja äldre arbetsflöden kan <code>options</code> också vara textvärden. Detta har samma beteende som om <code>options</code><code> = [Format = null, Culture = <code>options</code>]</code>.
+Skapar ett `datetime` värde från en textrepresentation av `text`. En valfri `post` parameter, `options`, kan tillhandahållas för att ange ytterligare egenskaper. Den `posten` kan innehålla följande fält:
+
+-   `Format`: Ett `text`\-värde som anger vilket format som ska användas. Gå till https://go.microsoft.com/fwlink/?linkid=2180104 och https://go.microsoft.com/fwlink/?linkid=2180105. Om du utelämnar detta fält eller anger `null` kommer det att resultera i att datumet parsas efter bästa förmåga.
+-   `Culture`: När `Format` inte är null styr `Culture` vissa formatspecificerare. Exempel: i `en-US` är `MMM` `Jan, Feb, Mar, ...` men i `ru-RU` är `MMM` `"ннв", "фев", "мар", ...`. När `Format` är `null` styr `Culture` det standardformat som ska användas. När `Culture` är `null` eller utelämnas används `Culture.Current`.
+
+Om du vill stödja äldre arbetsflöden kan `options` också vara textvärden. Detta har samma beteende som om `options = [Format = null, Culture = alternativ]`.
 
 
 ## Examples
 
-### Example #1 
-Konvertera &lt;code&gt;&#34;2010-12-31T01:30:00&#34;&lt;/code&gt; till ett datetime-värde.
+### Example #1
+Konvertera `"2010-12-31T01:30:00"` till ett datetime-värde.
 ```powerquery
 DateTime.FromText("2010-12-31T01:30:25")
 ```
@@ -37,8 +42,8 @@ Result:
 ```
 
 
-### Example #2 
-Konvertera &lt;code&gt;&#34;2010-12-31T01:30:00.121212&#34;&lt;/code&gt; till ett datetime-värde.
+### Example #2
+Konvertera `"2010-12-31T01:30:00.121212"` till ett datetime-värde.
 ```powerquery
 DateTime.FromText("30 Dez 2010 02:04:50.369730", [Format="dd MMM yyyy HH:mm:ss.ffffff", Culture="de-DE"])
 ```
@@ -49,8 +54,8 @@ Result:
 ```
 
 
-### Example #3 
-Konvertera &lt;code&gt;&#34;2010-12-31T01:30:00&#34;&lt;/code&gt; till ett datetime-värde.
+### Example #3
+Konvertera `"2010-12-31T01:30:00"` till ett datetime-värde.
 ```powerquery
 DateTime.FromText("2000-02-08T03:45:12Z", [Format="yyyy-MM-dd'T'HH:mm:ss'Z'", Culture="en-US"])
 ```
@@ -61,8 +66,8 @@ Result:
 ```
 
 
-### Example #4 
-Konvertera &lt;code&gt;&#34;20101231T013000&#34;&lt;/code&gt; till ett datetime-värde.
+### Example #4
+Konvertera `"20101231T013000"` till ett datetime-värde.
 ```powerquery
 DateTime.FromText("20101231T013000", [Format="yyyyMMdd'T'HHmmss", Culture="en-US"])
 ```

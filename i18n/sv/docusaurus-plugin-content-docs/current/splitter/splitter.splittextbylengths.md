@@ -25,7 +25,7 @@ Returnerar en funktion som delar upp text i en lista med text baserat på varje 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Dela indata i de två första tecknen följt av nästa tre, med början från början av indata.
 ```powerquery
 Splitter.SplitTextByLengths({2, 3})("AB123")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Dela upp indata i de första tre tecknen följt av nästa två, med början från slutet av indata.
 ```powerquery
 let

@@ -27,7 +27,7 @@ Hiermee worden gegevens uit uw Azure Data Explorer-instantie (Kusto) geïmportee
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hiermee wordt een tabel met Storm Events-gegevens geretourneerd
 ```powerquery
 Kusto.Contents("help", "Samples", "StormEvents", [])

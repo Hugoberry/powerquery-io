@@ -5,7 +5,7 @@ title: Smartsheet.Content
 # Smartsheet.Content
 
 
-Retourne une table de données à partir d&#39;un point de terminaison d&#39;index Smartsheet.
+Retourne une table de données à partir d'un point de terminaison d'index Smartsheet.
 
 
 ## Syntax
@@ -24,8 +24,8 @@ Effectue un appel à l'API REST Smartsheet 2.0 au niveau du point de terminaiso
 
 ## Examples
 
-### Example #1 
-Extrait une table d&#39;informations sur les utilisateurs à partir de l&#39;API Smartsheet
+### Example #1
+Extrait une table d'informations sur les utilisateurs à partir de l'API Smartsheet
 ```powerquery
 Smartsheet.Content("users")
 ```

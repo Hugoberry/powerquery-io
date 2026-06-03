@@ -24,7 +24,7 @@ Devolve a data e hora atuais em UTC (o fuso horário GMT).
 
 ## Examples
 
-### Example #1 
+### Example #1
 Obter a data e hora atuais em UTC.
 ```powerquery
 DateTimeZone.UtcNow()

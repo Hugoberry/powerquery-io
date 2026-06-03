@@ -19,7 +19,7 @@ Cube.AttributeMemberId(
 
 ## Remarks
 
-Returnerar det unika medlems-ID:t från en medlems egenskapsvärde. <code>attribute</code>. Returnerar null för alla övriga värden.
+Returnerar det unika medlems-ID:t från en medlems egenskapsvärde. `attribute`. Returnerar null för alla övriga värden.
 
 
 

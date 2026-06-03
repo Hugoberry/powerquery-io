@@ -20,13 +20,13 @@ List.First(
 
 ## Remarks
 
-<code>list</code> listesindeki ilk öğeyi veya liste boşsa <code>defaultValue</code> isteğe bağlı varsayılan değerini döndürür.    Liste boşsa ve varsayılan değer belirtilmemişse, bu işlev <code>null</code> döndürür.
+`list` listesindeki ilk öğeyi veya liste boşsa `defaultValue` isteğe bağlı varsayılan değerini döndürür. Liste boşsa ve varsayılan değer belirtilmemişse, bu işlev `null` döndürür.
 
 
 ## Examples
 
-### Example #1 
-\{1, 2, 3} listesinin ilk değerini bulur.
+### Example #1
+\{1, 2, 3\} listesinin ilk değerini bulur.
 ```powerquery
 List.First({1, 2, 3})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-\{} listesinin ilk değerini bulur. Liste boşsa, -1 döndürür.
+### Example #2
+\{\} listesinin ilk değerini bulur. Liste boşsa, -1 döndürür.
 ```powerquery
 List.First({}, -1)
 ```

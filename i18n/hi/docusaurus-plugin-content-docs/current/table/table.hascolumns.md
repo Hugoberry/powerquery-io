@@ -20,13 +20,13 @@ Table.HasColumns(
 
 ## Remarks
 
-संकेत देता है कि <code>table</code> में निर्दिष्ट कॉलम,<code>columns</code> है(हैं) या नहीं. यदि तालिका में कॉलम हैं, तो <code>true</code> आता है, या फिर <code>false</code> आता है.
+संकेत देता है कि `table` में निर्दिष्ट कॉलम,`columns` है(हैं) या नहीं. यदि तालिका में कॉलम हैं, तो `true` आता है, या फिर `false` आता है.
 
 
 ## Examples
 
-### Example #1 
-निर्धारित करें कि क्या तालिका में [Name] स्तंभ है.
+### Example #1
+निर्धारित करें कि क्या तालिका में \[Name\] स्तंभ है.
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({
@@ -45,8 +45,8 @@ true
 ```
 
 
-### Example #2 
-ढूँढें कि क्या तालिका में [Name] और [PhoneNumber] स्तंभ हैं.
+### Example #2
+ढूँढें कि क्या तालिका में \[Name\] और \[PhoneNumber\] स्तंभ हैं.
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({

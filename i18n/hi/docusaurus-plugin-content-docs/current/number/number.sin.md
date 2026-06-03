@@ -19,12 +19,12 @@ Number.Sin(
 
 ## Remarks
 
-<code>number</code> का सिन लौटाता है.
+`number` का सिन लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 0 कोण का सिन प्राप्त करें.
 ```powerquery
 Number.Sin(0)

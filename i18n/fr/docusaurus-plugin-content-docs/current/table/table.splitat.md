@@ -20,12 +20,12 @@ Table.SplitAt(
 
 ## Remarks
 
-Renvoie une liste contenant deux tables : une table avec le nombre spécifié de lignes depuis le début de <code>table</code> (comme spécifié par <code>count</code>) et une table contenant les lignes restantes dans <code>table</code>.Si les tables de la liste ainsi créée sont énumérées une fois exactement et dans l’ordre, la fonction énumère <code>table</code> une fois seulement.
+Renvoie une liste contenant deux tables : une table avec le nombre spécifié de lignes depuis le début de `table` (comme spécifié par `count`) et une table contenant les lignes restantes dans `table`. Si les tables de la liste ainsi créée sont énumérées une fois exactement et dans l’ordre, la fonction énumère `table` une fois seulement.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Renvoie les deux premières lignes de la table et les lignes restantes de la table.
 ```powerquery
 Table.SplitAt(#table({"a", "b", "c"}, {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}), 2)

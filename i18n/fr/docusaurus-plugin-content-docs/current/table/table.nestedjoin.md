@@ -25,12 +25,16 @@ Table.NestedJoin(
 
 ## Remarks
 
-Joint les lignes de <code>table1</code> aux lignes de <code>table2</code> en fonction de l'égalité des valeurs des colonnes clés sélectionnées par <code>key1</code> (pour <code>table1</code>) et par <code>key2</code> (pour <code>table2</code>). Les résultats sont entrés dans la colonne nommée <code>newColumnName</code>.<br />La valeur facultative <code>joinKind</code> spécifie le type de jointure à effectuer. Par défaut, une jointure extérieure gauche est effectuée si un <code>joinKind</code> n'est pas spécifié.<br />Un ensemble facultatif de <code>keyEqualityComparers</code> peut être inclus pour spécifier comment comparer les colonnes clés. Cette fonctionnalité est actuellement réservée à une utilisation interne.<br />  
+Joint les lignes de `table1` aux lignes de `table2` en fonction de l'égalité des valeurs des colonnes clés sélectionnées par `key1` (pour `table1`) et par `key2` (pour `table2`). Les résultats sont entrés dans la colonne nommée `newColumnName`.
+
+La valeur facultative `joinKind` spécifie le type de jointure à effectuer. Par défaut, une jointure extérieure gauche est effectuée si un `joinKind` n'est pas spécifié.
+
+Un ensemble facultatif de `keyEqualityComparers` peut être inclus pour spécifier comment comparer les colonnes clés. Cette fonctionnalité est actuellement réservée à une utilisation interne.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Joignez deux tables à l’aide d’une seule colonne clé.
 ```powerquery
 Table.NestedJoin(

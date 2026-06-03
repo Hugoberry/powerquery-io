@@ -23,13 +23,13 @@ Table.AddIndexColumn(
 
 ## Remarks
 
-เพิ่มคอลัมน์ที่ชื่อ <code>newColumnName</code> เข้ากับ <code>table</code> ด้วยค่าตำแหน่งที่ชัดเจน    ค่าที่เลือกได้ <code>initialValue</code> เป็นค่าดัชนีเริ่มต้น ค่าที่เลือกได้ <code>increment</code> ระบุจำนวนที่จะเพิ่มหน่วยให้กับแต่ละค่าดัชนี
+เพิ่มคอลัมน์ที่ชื่อ `newColumnName` เข้ากับ `table` ด้วยค่าตำแหน่งที่ชัดเจน ค่าที่เลือกได้ `initialValue` เป็นค่าดัชนีเริ่มต้น ค่าที่เลือกได้ `increment` ระบุจำนวนที่จะเพิ่มหน่วยให้กับแต่ละค่าดัชนี
 
 
 ## Examples
 
-### Example #1 
-เพิ่มคอลัมน์ดัชนีที่ชื่อ &#34;Index&#34; เข้าในตาราง
+### Example #1
+เพิ่มคอลัมน์ดัชนีที่ชื่อ "Index" เข้าในตาราง
 ```powerquery
 Table.AddIndexColumn(
     Table.FromRecords({
@@ -53,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-เพิ่มคอลัมน์ดัชนีที่ชื่อ &#34;Index&#34; โดยเริ่มจากค่า 10 และเพิ่มหน่วยทีละ 5 เข้าในตาราง
+### Example #2
+เพิ่มคอลัมน์ดัชนีที่ชื่อ "Index" โดยเริ่มจากค่า 10 และเพิ่มหน่วยทีละ 5 เข้าในตาราง
 ```powerquery
 Table.AddIndexColumn(
     Table.FromRecords({

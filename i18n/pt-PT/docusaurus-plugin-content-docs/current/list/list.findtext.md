@@ -20,13 +20,13 @@ List.FindText(
 
 ## Remarks
 
-Devolve uma lista de valores da lista <code>list</code> que contêm o valor <code>text</code>.
+Devolve uma lista de valores da lista `list` que contêm o valor `text`.
 
 
 ## Examples
 
-### Example #1 
-Determinar os valores de texto existentes na lista \{&#34;a&#34;, &#34;b&#34;, &#34;ab&#34;} que correspondem a &#34;a&#34;. 
+### Example #1
+Determinar os valores de texto existentes na lista \{"a", "b", "ab"\} que correspondem a "a".
 ```powerquery
 List.FindText({"a", "b", "ab"}, "a")
 ```

@@ -19,12 +19,12 @@ Number.IsEven(
 
 ## Remarks
 
-Angiver, om værdien, <code>number</code>, er et lige tal, ved at returnere <code>true</code>, hvis det er et lige tal. Ellers returneres <code>false</code>.
+Angiver, om værdien, `number`, er et lige tal, ved at returnere `true`, hvis det er et lige tal. Ellers returneres `false`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kontrollér, om 625 er et lige tal.
 ```powerquery
 Number.IsEven(625)
@@ -36,7 +36,7 @@ false
 ```
 
 
-### Example #2 
+### Example #2
 Kontrollér, om 82 er et lige tal.
 ```powerquery
 Number.IsEven(82)

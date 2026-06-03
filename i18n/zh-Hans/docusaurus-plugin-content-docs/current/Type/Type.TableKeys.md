@@ -19,12 +19,17 @@ Type.TableKeys(
 
 ## Remarks
 
-返回给定表类型的键可能为空的列表。<br />    <br />    每个键都是使用以下格式的记录定义的:    <ul>      <li>        <code>Columns</code>: 定义主键的列名列表      </li>      <li>        <code>Primary</code>: 如果键是表的主键，则 <code>true</code>；否则，<code>false</code>      </li>    </ul>    
+返回给定表类型的键可能为空的列表。  
+  
+每个键都是使用以下格式的记录定义的:
+
+-   `Columns`: 定义主键的列名列表
+-   `Primary`: 如果键是表的主键，则 `true`；否则，`false`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 返回表类型的键信息。
 ```powerquery
 let

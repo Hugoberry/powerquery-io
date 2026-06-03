@@ -20,7 +20,7 @@ Number.Atan2(
 
 ## Remarks
 
-Zwraca arcus tangens ilorazu dwóch liczb (<code>y</code> i <code>x</code>). Dzielenie będzie wykonywane w formie <code>y</code>/<code>x</code>.
+Zwraca kąt w radianach, którego tangens jest ilorazem `y`/`x` dwóch liczb `y` i `x`.
 
 
 

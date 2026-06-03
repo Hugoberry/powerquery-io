@@ -19,13 +19,13 @@ List.Reverse(
 
 ## Remarks
 
-Returnerar en lista med värdena i listan <code>list</code> i omvänd ordning.
+Returnerar en lista med värdena i listan `list` i omvänd ordning.
 
 
 ## Examples
 
-### Example #1 
-Skapa en lista från \{1..10} i omvänd ordning.
+### Example #1
+Skapa en lista från \{1..10\} i omvänd ordning.
 ```powerquery
 List.Reverse({1..10})
 ```

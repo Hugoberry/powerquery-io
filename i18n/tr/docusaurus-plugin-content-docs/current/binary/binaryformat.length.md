@@ -20,12 +20,12 @@ BinaryFormat.Length(
 
 ## Remarks
 
-Okunabilecek veri miktarını sınırlayan bir ikili biçim döndürür. Verilerin sonuna kadar okumak için hem <code>BinaryFormat.List</code> hem de <code>BinaryFormat.Binary</code> kullanılabilir. <code>BinaryFormat.Length</code>, okunan bayt sayısını sınırlamak için kullanılabilir. <code>binaryFormat</code> parametresi, sınırlandırılacak ikili formatı belirtir. <code>length</code> parametresi okunacak bayt sayısını belirtir. <code>length</code> parametresi, bir sayı değeri veya okunan değerden önce görünen uzunluk değerinin biçimini belirten bir ikili biçim değeri olabilir.
+Okunabilecek veri miktarını sınırlayan bir ikili biçim döndürür. Verilerin sonuna kadar okumak için `BinaryFormat.List` ve `BinaryFormat.Binary` kullanılabilir. `BinaryFormat.Length` okunan bayt sayısını sınırlamak için kullanılabilir. `binaryFormat` parametresi, sınırlandırılacak ikili formatı belirtir. `length` parametresi okunacak bayt sayısını belirtir. `length` parametresi, bir sayı değeri veya okunan değerden önce görünen uzunluk değerinin biçimini belirten bir ikili biçim değeri olabilir.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bir bayt listesini okurken okunan bayt sayısını 2 ile sınırlar.
 ```powerquery
 let
@@ -44,7 +44,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Bir bayt listesini okurken okunan bayt sayısını listeden önceki bayt değeriyle sınırlayın.
 ```powerquery
 let

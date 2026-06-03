@@ -5,7 +5,7 @@ title: Identity.From
 # Identity.From
 
 
-Crea un&#39;identità.
+Crea un'identità.
 
 
 ## Syntax

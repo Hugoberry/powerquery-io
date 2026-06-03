@@ -21,13 +21,13 @@ Table.Min(
 
 ## Remarks
 
-Returnerer den mindste række i <code>table</code> med den angivne <code>comparisonCriteria</code>. Hvis tabellen er tom, returneres den valgfrie værdi <code>default</code>.
+Returnerer den mindste række i `table` med den angivne `comparisonCriteria`. Hvis tabellen er tom, returneres den valgfrie værdi `default`.
 
 
 ## Examples
 
-### Example #1 
-Find rækken med den mindste værdi i kolonnen [a] i tabellen.
+### Example #1
+Find rækken med den mindste værdi i kolonnen \[a\] i tabellen.
 ```powerquery
 Table.Min(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Find rækken med den mindste værdi i kolonnen [a] i tabellen. Returner -1, hvis tabellen er tom.
+### Example #2
+Find rækken med den mindste værdi i kolonnen \[a\] i tabellen. Returner -1, hvis tabellen er tom.
 ```powerquery
 Table.Min(#table({"a"}, {}), "a", -1)
 ```

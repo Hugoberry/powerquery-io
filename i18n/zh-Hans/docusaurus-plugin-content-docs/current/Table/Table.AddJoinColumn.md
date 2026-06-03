@@ -23,13 +23,13 @@ Table.AddJoinColumn(
 
 ## Remarks
 
-根据由 <code>key1</code> (针对 <code>table1</code>)和 <code>key2</code> (针对 <code>table2</code>)选择的键列的值是否相等，联接 <code>table1</code> 的行与 <code>table2</code> 的行。将结果输入到名为 <code>newColumnName</code> 的列。此函数的行为类似于具有 JoinKind 的 LeftOuter 的 Table.Join，除了联接结果以嵌套而非平展方式存在之外。
+根据由 `key1` (针对 `table1`)和 `key2` (针对 `table2`)选择的键列的值是否相等，联接 `table1` 的行与 `table2` 的行。将结果输入到名为 `newColumnName` 的列。 此函数的行为类似于具有 JoinKind 的 LeftOuter 的 Table.Join，除了联接结果以嵌套而非平展方式存在之外。
 
 
 ## Examples
 
-### Example #1 
-从已联接 [saleID] 的表(\{[saleID = 1, price = 20], [saleID = 2, price = 10]})将名为 &#34;price/stock&#34; 的联接列添加到(\{[saleID = 1, item = &#34;Shirt&#34;], [saleID = 2, item = &#34;Hat&#34;]})。
+### Example #1
+从已联接 \[saleID\] 的表(\{\[saleID = 1, price = 20\], \[saleID = 2, price = 10\]\})将名为 "price/stock" 的联接列添加到(\{\[saleID = 1, item = "Shirt"\], \[saleID = 2, item = "Hat"\]\})。
 ```powerquery
 Table.AddJoinColumn(
     Table.FromRecords({

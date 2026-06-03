@@ -22,8 +22,8 @@ SparkPost.GetList(
 
 ## Examples
 
-### Example #1 
-Restituisce una tabella con una singola colonna popolata con i dati di uno degli endpoint &#34;Lists&#34; dell&#39;API SparkPost v1. Per dettagli, vedere la documentazione di SparkPost.
+### Example #1
+Restituisce una tabella con una singola colonna popolata con i dati di uno degli endpoint "Lists" dell'API SparkPost v1. Per dettagli, vedere la documentazione di SparkPost.
 ```powerquery
 Source = SparkPost.GetList("metrics/campaigns")
 ```

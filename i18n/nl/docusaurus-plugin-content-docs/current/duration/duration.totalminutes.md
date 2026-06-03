@@ -19,12 +19,12 @@ Duration.TotalMinutes(
 
 ## Remarks
 
-Retourneert het totale aantal minuten dat door <code>duration</code> is verdeeld.
+Retourneert het totale aantal minuten dat door `duration` is verdeeld.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zoek het totale aantal minuten dat wordt beslaan door een duurwaarde.
 ```powerquery
 Duration.TotalMinutes(#duration(5, 4, 3, 2))

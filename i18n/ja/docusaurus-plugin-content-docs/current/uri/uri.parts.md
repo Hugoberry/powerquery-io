@@ -19,13 +19,13 @@ Uri.Parts(
 
 ## Remarks
 
-Scheme、Host、Port、Path、Query、Fragment、UserName、Password などの値を含むレコードとして入力 <code>absoluteUri</code> の一部を返します。
+Scheme、Host、Port、Path、Query、Fragment、UserName、Password などの値を含むレコードとして入力 `absoluteUri` の一部を返します。
 
 
 ## Examples
 
-### Example #1 
-絶対 URI &#34;www.adventure-works.com&#34; の一部を検索します。
+### Example #1
+絶対 URI "www.adventure-works.com" の一部を検索します。
 ```powerquery
 Uri.Parts("www.adventure-works.com")
 ```
@@ -45,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 パーセント エンコードされた文字列をデコードします。
 ```powerquery
 let

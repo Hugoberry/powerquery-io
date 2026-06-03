@@ -25,7 +25,7 @@ Returnerer en funktion, der kombinerer en liste over tekstværdier til en enkelt
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kombiner en liste over tekstværdier ved at placere dem i outputtet på de angivne positioner.
 ```powerquery
 Combiner.CombineTextByPositions({0, 5, 10})({"abc", "def", "ghi"})

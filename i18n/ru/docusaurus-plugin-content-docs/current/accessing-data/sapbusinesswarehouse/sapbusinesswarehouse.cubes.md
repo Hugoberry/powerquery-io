@@ -23,7 +23,7 @@ SapBusinessWarehouse.Cubes(
 
 ## Remarks
 
-Возвращает таблицу инфокубов и запросов, сгруппированных по инфообласти, из экземпляра SAP Business Warehouse на сервере <code>server</code> с номером системы <code>systemNumberOrSystemId</code> и идентификатором клиента <code>clientId</code>. Необязательный параметр записи <code>optionsOrLogonGroup</code> может быть указан для управления следующими параметрами:        
+Возвращает таблицу инфокубов и запросов, сгруппированных по инфообласти, из экземпляра SAP Business Warehouse на сервере `server` с номером системы `systemNumberOrSystemId` и идентификатором клиента `clientId`. Необязательный параметр записи `optionsOrLogonGroup` может быть указан для управления следующими параметрами:
 
 
 

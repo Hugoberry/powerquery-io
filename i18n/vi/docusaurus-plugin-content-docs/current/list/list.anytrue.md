@@ -19,13 +19,13 @@ List.AnyTrue(
 
 ## Remarks
 
-Trả về true nếu mọi biểu thức trong danh sách <code>list</code> đều đúng.
+Trả về true nếu mọi biểu thức trong danh sách `list` đều đúng.
 
 
 ## Examples
 
-### Example #1 
-Xác định có biểu thức nào trong số các biểu thức thuộc danh sách \{true, false, 2 &gt; 0} đúng không.
+### Example #1
+Xác định có biểu thức nào trong số các biểu thức thuộc danh sách \{true, false, 2 > 0\} đúng không.
 ```powerquery
 List.AnyTrue({true, false, 2>0})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Xác định xem có biểu thức nào trong số các biểu thức thuộc danh sách \{2 = 0, false, 2 &lt; 0} đúng không.
+### Example #2
+Xác định xem có biểu thức nào trong số các biểu thức thuộc danh sách \{2 = 0, false, 2 &lt; 0\} đúng không.
 ```powerquery
 List.AnyTrue({2 = 0, false, 2 < 0})
 ```

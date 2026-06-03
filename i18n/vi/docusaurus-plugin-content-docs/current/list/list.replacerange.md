@@ -22,13 +22,13 @@ List.ReplaceRange(
 
 ## Remarks
 
-Thay thế <code>count</code> giá trị trong <code>list</code> bằng danh sách <code>replaceWith</code>, bắt đầu tại vị trí cụ thể là <code>index</code>.
+Thay thế `count` giá trị trong `list` bằng danh sách `replaceWith`, bắt đầu tại vị trí cụ thể là `index`.
 
 
 ## Examples
 
-### Example #1 
-Thay thế \{7, 8, 9} trong danh sách \{1, 2, 7, 8, 9, 5} bằng \{3, 4}.
+### Example #1
+Thay thế \{7, 8, 9\} trong danh sách \{1, 2, 7, 8, 9, 5\} bằng \{3, 4\}.
 ```powerquery
 List.ReplaceRange({1, 2, 7, 8, 9, 5}, 2, 3, {3, 4})
 ```

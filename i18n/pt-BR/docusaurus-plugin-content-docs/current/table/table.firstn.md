@@ -20,12 +20,15 @@ Table.FirstN(
 
 ## Remarks
 
-Retorna as primeiras linhas da tabela <code>table</code>, dependendo do valor de <code>countOrCondition</code>:    <ul>    <li> Se <code>countOrCondition</code> for um número, essas várias linhas (começando na parte superior) serão retornadas. </li>    <li> Se <code>countOrCondition</code> for uma condição, as linhas que atenderem à condição serão retornadas até que uma linha não esteja em conformidade com a condição.</li></ul>
+Retorna as primeiras linhas da tabela `table`, dependendo do valor de `countOrCondition`:
+
+-   Se `countOrCondition` for um número, essas várias linhas (começando na parte superior) serão retornadas.
+-   Se `countOrCondition` for uma condição, as linhas que atenderem à condição serão retornadas até que uma linha não esteja em conformidade com a condição.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Localizar as duas primeiras linhas da tabela.
 ```powerquery
 Table.FirstN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Localizar as primeiras linhas em que [a] &gt; 0 na tabela.
+### Example #2
+Localizar as primeiras linhas em que \[a\] > 0 na tabela.
 ```powerquery
 Table.FirstN(
     Table.FromRecords({

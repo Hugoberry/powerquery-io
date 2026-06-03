@@ -20,13 +20,16 @@ Number.Combinations(
 
 ## Remarks
 
-<code>setSize</code> öğe listesinden <code>combinationSize</code> belirtilen birleşim boyutuna sahip benzersiz birleşim sayısını döndürür.<ul>    <li><code>setSize</code>: Listedeki öğe sayısı.</li>    <li><code>combinationSize</code>: Her birleşimdeki öğe sayısı.</li></ul>
+`setSize` öğe listesinden `combinationSize` belirtilen birleşim boyutuna sahip benzersiz birleşim sayısını döndürür.
+
+-   `setSize`: Listedeki öğe sayısı.
+-   `combinationSize`: Her birleşimdeki öğe sayısı.
 
 
 ## Examples
 
-### Example #1 
-5 öğe ile oluşturulan ve her birleşimin 3&#39;lü grup olduğu birleşimlerin sayısını bulur.
+### Example #1
+5 öğe ile oluşturulan ve her birleşimin 3'lü grup olduğu birleşimlerin sayısını bulur.
 ```powerquery
 Number.Combinations(5, 3)
 ```

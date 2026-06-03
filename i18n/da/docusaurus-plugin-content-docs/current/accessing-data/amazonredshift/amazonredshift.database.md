@@ -21,12 +21,15 @@ AmazonRedshift.Database(
 
 ## Remarks
 
-Returnerer en tabel, der viser tabellerne på Amazon Redshift-klyngen <code>server</code> i databasen <code>database</code>.  En valgfri registreringsparameter, <code>indstillinger</code>, kan angives for at kontrollere følgende indstillinger:<ul><li><code>Udbydernavn</code>: En tekstværdi, der skal bruges som udbydernavn for forbindelsen. Dette bruges, når du bruger Microsoft Authentication.</li><li><code>Batch-størrelse</code>: Antallet af rækker, der hentes i et enkelt opkald til serveren.</li></ul>  
+Returnerer en tabel, der viser tabellerne på Amazon Redshift-klyngen `server` i databasen `database`. Der kan angives en valgfri postparameter, `indstillinger`, for at styre følgende indstillinger:
+
+-   `Udbydernavn`: En tekstværdi, der skal bruges som udbydernavn for forbindelsen. Dette bruges, når du bruger Microsoft-godkendelse.
+-   `Batchstørrelse`: Antallet af rækker, der hentes i et enkelt kald til serveren.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 
 ```powerquery
 AmazonRedshift.Database("contoso.redshift.amazonaws.com:5439", "dev")

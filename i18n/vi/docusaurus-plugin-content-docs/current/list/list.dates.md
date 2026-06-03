@@ -21,13 +21,13 @@ List.Dates(
 
 ## Remarks
 
-Trả về một danh sách giá trị <code>date</code> có kích cỡ là <code>count</code>, bắt đầu tại <code>start</code>. Số gia cho sẵn, <code>step</code>, là giá trị <code>duration</code> được thêm vào mọi giá trị.
+Trả về một danh sách giá trị `date` có kích cỡ là `count`, bắt đầu tại `start`. Số gia cho sẵn, `step`, là giá trị `duration` được thêm vào mọi giá trị.
 
 
 ## Examples
 
-### Example #1 
-Tạo một danh sách chứa 5 giá trị bắt đầu từ Đêm giao thừa (#date(2011, 12, 31)) tăng với số gia là 1 ngày (#duration(1, 0, 0, 0)).
+### Example #1
+Tạo danh sách gồm 5 giá trị bắt đầu từ Đêm giao thừa (#date(2011, 12, 31)) tăng với số gia là 1 ngày (#duration(1, 0, 0, 0)).
 ```powerquery
 List.Dates(#date(2011, 12, 31), 5, #duration(1, 0, 0, 0))
 ```

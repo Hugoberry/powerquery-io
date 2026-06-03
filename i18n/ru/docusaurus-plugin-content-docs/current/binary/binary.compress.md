@@ -20,12 +20,15 @@ Binary.Compress(
 
 ## Remarks
 
-Сжимает двоичное значение с помощью заданного типа сжатия. Результат такого вызова — сжатая копия входных данных. Типы сжатия:   <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
+Сжимает двоичное значение с помощью заданного типа сжатия. Результат такого вызова — сжатая копия входных данных. Типы сжатия:
+
+-   `Compression.GZip`
+-   `Compression.Deflate`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Сжатие двоичного значения.
 ```powerquery
 Binary.Compress(Binary.FromList(List.Repeat({10}, 1000)), Compression.Deflate)

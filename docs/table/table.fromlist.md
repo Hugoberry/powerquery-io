@@ -23,12 +23,12 @@ Table.FromList(
 
 ## Remarks
 
-Converts a list, <code>list</code> into a table by applying the optional splitting function, <code>splitter</code>, to each item in the list. By default, the list is assumed to be a list of text values that is split by commas. Optional <code>columns</code> may be the number of columns, a list of columns or a TableType. Optional <code>default</code> and <code>extraValues</code> may also be specified.
+Converts a list, `list` into a table by applying the optional splitting function, `splitter`, to each item in the list. By default, the list is assumed to be a list of text values that is split by commas. Optional `columns` may be the number of columns, a list of columns or a TableType. Optional `default` and `extraValues` may also be specified.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Create a table from a list using the default splitter.
 ```powerquery
 Table.FromList(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Create a table from a list using a custom splitter.
 ```powerquery
 Table.FromList(
@@ -70,7 +70,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Create a table from the list using the Record.FieldValues splitter.
 ```powerquery
 Table.FromList(

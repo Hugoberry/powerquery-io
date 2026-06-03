@@ -26,7 +26,7 @@ Efetua uma chamada ao ponto final do Webtrends KeyMetrics e devolve todos os dad
 
 ## Examples
 
-### Example #1 
+### Example #1
 Solicita uma tabela de métricas-chave para o inquilino 98765 nos últimos 30 dias
 ```powerquery
 Webtrends.KeyMetrics("98765")

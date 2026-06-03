@@ -25,7 +25,7 @@ Table.ReplaceKeys(
 
 ## Examples
 
-### Example #1 
+### Example #1
 แทนที่คีย์ที่มีอยู่ของตาราง
 ```powerquery
 let

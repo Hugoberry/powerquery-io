@@ -5,7 +5,7 @@ title: Cube.MeasureProperty
 # Cube.MeasureProperty
 
 
-Retourne une propriété d&#39;une mesure (propriété de cellule).
+Retourne une propriété d'une mesure (propriété de cellule).
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Cube.MeasureProperty(
 
 ## Remarks
 
-Retourne la propriété <code>propertyName</code> de la mesure <code>measure</code>.
+Retourne la propriété `propertyName` de la mesure `measure`.
 
 
 

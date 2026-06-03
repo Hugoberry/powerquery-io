@@ -21,12 +21,12 @@ Marketo.Leads(
 
 ## Remarks
 
-Efetua uma chamada ao ponto final da API REST do Marketo em <code>URL</code>/rest/v1/leads.json. São devolvidas todas as oportunidades potenciais na lista <code>leadIds</code>.
+Efetua uma chamada ao ponto final da API REST do Marketo em `URL`/rest/v1/leads.json. São devolvidas todas as oportunidades potenciais na lista `leadIds`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Obtém os detalhes de três oportunidades potenciais
 ```powerquery
 Marketo.Leads("https://100-AAA-999.mktorest.com/rest", {50, 2343, 88498})

@@ -21,13 +21,13 @@ Text.Insert(
 
 ## Remarks
 
-Returnerar resultatet av att textvärdet <code>newText</code> infogas i textvärdet <code>text</code> vid position <code>offset</code>. Positioner börjar vid 0.
+Returnerar resultatet av att textvärdet `newText` infogas i textvärdet `text` vid position `offset`. Positioner börjar vid 0.
 
 
 ## Examples
 
-### Example #1 
-Infoga &#34;C&#34; mellan &#34;B&#34; och &#34;D&#34; i &#34;ABD&#34;.
+### Example #1
+Infoga "C" mellan "B" och "D" i "ABD".
 ```powerquery
 Text.Insert("ABD", 2, "C")
 ```

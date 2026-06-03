@@ -20,12 +20,12 @@ Table.Repeat(
 
 ## Remarks
 
-Trả về một bảng có các hàng từ đầu vào <code>table</code> lặp lại số lần <code>count</code> được chỉ định.
+Trả về một bảng có các hàng từ đầu vào `table` lặp lại số lần `count` được chỉ định.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Lặp lại các hàng trong bảng hai lần.
 ```powerquery
 Table.Repeat(

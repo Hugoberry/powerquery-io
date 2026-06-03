@@ -24,7 +24,7 @@ Belirtilen tablonun anahtarlarını döndürür.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bir tablonun anahtarlarının listesini alın.
 ```powerquery
 let

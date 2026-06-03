@@ -20,13 +20,13 @@ List.Mode(
 
 ## Remarks
 
-Trả về mục xuất hiện thường xuyên nhất trong danh sách, <code>list</code>. Nếu danh sách trống thì sẽ đưa ra ngoại lệ. Nếu xuất hiện nhiều mục có cùng tần suất tối đa, thì sẽ chọn mục cuối cùng.    Có thể chỉ định giá trị <code>comparisonCriteria</code> tùy chọn, <code>equationCriteria</code>, để kiểm soát quá trình kiểm tra đẳng thức. 
+Trả về mục xuất hiện thường xuyên nhất trong `list`. Nếu danh sách trống thì sẽ có lỗi xuất hiện. Nếu nhiều mục có cùng tần suất xuất hiện tối đa, hệ thống sẽ chọn mục cuối cùng. Có thể chỉ định một giá trị tiêu chí so sánh tùy chọn, `equationCriteria`, để kiểm soát việc kiểm tra đẳng thức.
 
 
 ## Examples
 
-### Example #1 
-Tìm mục xuất hiện thường xuyên nhất trong danh sách &lt;code&gt;\{&#34;A&#34;, 1, 2, 3, 3, 4, 5}&lt;/code&gt;.
+### Example #1
+Tìm mục xuất hiện thường xuyên nhất trong danh sách `{"A", 1, 2, 3, 3, 4, 5}`.
 ```powerquery
 List.Mode({"A", 1, 2, 3, 3, 4, 5})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Tìm mục xuất hiện thường xuyên nhất trong danh sách &lt;code&gt;\{&#34;A&#34;, 1, 2, 3, 3, 4, 5, 5}&lt;/code&gt;.
+### Example #2
+Tìm mục xuất hiện thường xuyên nhất trong danh sách `{"A", 1, 2, 3, 3, 4, 5, 5}`.
 ```powerquery
 List.Mode({"A", 1, 2, 3, 3, 4, 5, 5})
 ```

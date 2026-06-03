@@ -5,7 +5,7 @@ title: Variable.Value
 # Variable.Value
 
 
-Deze functie is alleen bedoeld voor intern gebruik.
+Retourneert de waarde van de opgegeven variabele.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Variable.Value(
 
 ## Remarks
 
-Deze functie is alleen bedoeld voor intern gebruik.
+Retourneert de waarde van de opgegeven variabele `identifier` die is gedefinieerd door de huidige evaluatieomgeving. Als de variabele niet is gedefinieerd, treedt er een fout op.
 
 
 

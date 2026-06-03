@@ -19,13 +19,13 @@ Type.ClosedRecord(
 
 ## Remarks
 
-返回给定 <code>record</code> <code>type</code> (或同一类型，如果其已关闭)的已关闭版本。
+返回给定 `record` `type` (或同一类型，如果其已关闭)的已关闭版本。
 
 
 ## Examples
 
-### Example #1 
-创建 &lt;code&gt;type [ A = number,…]&lt;/code&gt; 的已关闭版本。
+### Example #1
+创建 `type [ A = number,…]` 的已关闭版本。
 ```powerquery
 Type.ClosedRecord(type [A = number, ...])
 ```

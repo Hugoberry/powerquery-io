@@ -5,7 +5,7 @@ title: Logical.ToText
 # Logical.ToText
 
 
-ส่งกลับ &#34;true&#34; หรือ &#34;false&#34; ที่มีการกำหนดค่าตรรกะ
+ส่งกลับ "true" หรือ "false" ที่มีการกำหนดค่าตรรกะ
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.ToText(
 
 ## Remarks
 
-สร้างค่าข้อความจากค่าตรรกะ <code>logicalValue</code> ซึ่งเป็น <code>true</code> หรือ <code>false</code> ถ้า <code>logicalValue</code> ไม่ใช่ค่าตรรกะ ระบบจะแสดงข้อยกเว้น
+สร้างค่าข้อความจากค่าตรรกะ `logicalValue` ซึ่งเป็น `true` หรือ `false` ถ้า `logicalValue` ไม่ใช่ค่าตรรกะ ข้อผิดพลาดจะเกิดขึ้น
 
 
 ## Examples
 
-### Example #1 
-สร้างค่าข้อความจากตรรกะ &lt;code&gt;true&lt;/code&gt;
+### Example #1
+สร้างค่าข้อความจากตรรกะ `true`
 ```powerquery
 Logical.ToText(true)
 ```

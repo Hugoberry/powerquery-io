@@ -21,7 +21,7 @@ Value.Subtract(
 
 ## Remarks
 
-返回 <code>value1</code> 和 <code>value2</code> 的差。可以指定一个可选 <code>precision</code> 参数，默认情况下使用 <code>Precision.Double</code>。
+返回 `value1` 和 `value2` 的差。可以指定一个可选 `precision` 参数，默认情况下使用 `Precision.Double`。
 
 
 

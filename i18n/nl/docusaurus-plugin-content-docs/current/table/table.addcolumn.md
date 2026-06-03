@@ -22,13 +22,13 @@ Table.AddColumn(
 
 ## Remarks
 
-Voegt een kolom genaamd <code>newColumnName</code> toe aan de tabel <code>table</code>. De waarden voor de kolom worden berekend met behulp van de opgegeven selectiefunctie <code>columnGenerator</code>, waarbij elke rij als invoer wordt beschouwd.
+Voegt een kolom genaamd `newColumnName` toe aan de tabel `table`. De waarden voor de kolom worden berekend met behulp van de opgegeven selectiefunctie `columnGenerator`, waarbij elke rij als invoer wordt beschouwd.
 
 
 ## Examples
 
-### Example #1 
-Voeg een numerieke kolom met de naam &#39;TotalPrice&#39; toe aan de tabel, waarbij elke waarde de som is van de kolommen [Prijs] en [Verzending].
+### Example #1
+Voeg een numerieke kolom met de naam 'TotalPrice' toe aan de tabel, waarbij elke waarde de som is van de kolommen \[Prijs\] en \[Verzending\].
 ```powerquery
 Table.AddColumn(
     Table.FromRecords({

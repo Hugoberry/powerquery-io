@@ -20,13 +20,16 @@ Date.AddWeeks(
 
 ## Remarks
 
-<code>datetime</code> 値 <code>dateTime</code> に <code>numberOfWeeks</code> 週間を追加した結果の <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> を返します。      <ul>      <li><code>dateTime</code>: 週が追加される <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値。</li>      <li><code>numberOfWeeks</code>: 追加する週の数。</li>      </ul>
+`datetime` 値 `dateTime` に `numberOfWeeks` 週間を追加した結果の `date`、`datetime`、または `datetimezone` を返します。
+
+-   `dateTime`: 週が追加される `date`、`datetime`、または `datetimezone` 値。
+-   `numberOfWeeks`: 追加する週の数。
 
 
 ## Examples
 
-### Example #1 
-日付 5/14/2011 を表す &lt;code&gt;date&lt;/code&gt;、&lt;code&gt;datetime&lt;/code&gt;、または &lt;code&gt;datetimezone&lt;/code&gt; 値に 2 週間を追加します。
+### Example #1
+日付 5/14/2011 を表す `date`、`datetime`、または `datetimezone` 値に 2 週間を追加します。
 ```powerquery
 Date.AddWeeks(#date(2011, 5, 14), 2)
 ```

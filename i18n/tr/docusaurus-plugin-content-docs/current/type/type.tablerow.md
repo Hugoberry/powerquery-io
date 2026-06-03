@@ -24,7 +24,7 @@ Belirtilen tablo türündeki satır türünü döndürür. Sonuç her zaman bir 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Basit bir tablo için satır türü bilgilerini döndürün.
 ```powerquery
 let

@@ -22,12 +22,22 @@ BinaryFormat.Choice(
 
 ## Remarks
 
-Trả về một định dạng nhị phân chọn định dạng nhị phân tiếp theo dựa trên một giá trị đã được đọc.  Giá trị định dạng nhị phân do hàm này tạo hoạt động ở các giai đoạn:<ul><li>Định dạng nhị phân do tham số <code>binaryFormat</code> chỉ định được dùng để đọc giá trị.</li><li>Giá trị được chuyển tới hàm lựa chọn do tham số <code>chooseFunction</code> chỉ định.</li><li>Hàm lựa chọn kiểm tra giá trị và trả về định dạng nhị phân thứ hai.</li><li>Định dạng nhị phân thứ hai đường dùng để đọc giá trị thứ hai.</li><li>Nếu hàm kết hợp được chỉ định thì giá trị đầu tiên và giá trị thứ hai được chuyển tới hàm kết hợp và giá trị kết quả được trả về.</li><li>Nếu hàm kết hợp không được chỉ định thì giá trị thứ hai được trả về.</li><li>Giá trị thứ hai được trả về.</li></ul>Tham số <code>type</code> tùy chọn cho biết loại định dạng nhị phân mà hàm lựa chọn sẽ trả về.  <code>type any</code>, <code>type list</code> hoặc <code>type binary</code> có thể được chỉ định.  Nếu tham số <code>type</code> không được chỉ định thì <code>type any</code> được sử dụng.   Nếu <code>type list</code> hoặc <code>type binary</code> được sử dụng thì hệ thống có thể trả về giá trị <code>binary</code> hoặc <code>list</code> được truyền thay vì giá trị được tải, loại giá trị này có thể làm giảm số lượng bộ nhớ cần dùng để đọc định dạng.
+Trả về một định dạng nhị phân chọn định dạng nhị phân tiếp theo dựa trên một giá trị đã được đọc. Giá trị định dạng nhị phân do hàm này tạo hoạt động ở các giai đoạn:
+
+-   Định dạng nhị phân do tham số `binaryFormat` chỉ định được dùng để đọc giá trị.
+-   Giá trị được chuyển tới hàm lựa chọn do tham số `chooseFunction` chỉ định.
+-   Hàm lựa chọn kiểm tra giá trị và trả về định dạng nhị phân thứ hai.
+-   Định dạng nhị phân thứ hai đường dùng để đọc giá trị thứ hai.
+-   Nếu hàm kết hợp được chỉ định thì giá trị đầu tiên và giá trị thứ hai được chuyển tới hàm kết hợp và giá trị kết quả được trả về.
+-   Nếu hàm kết hợp không được chỉ định thì giá trị thứ hai được trả về.
+-   Giá trị thứ hai được trả về.
+
+Tham số `type` tùy chọn cho biết loại định dạng nhị phân mà hàm lựa chọn sẽ trả về. `type any`, `type list` hoặc `type binary` có thể được chỉ định. Nếu tham số `type` không được chỉ định thì `type any` được sử dụng. Nếu `type list` hoặc `type binary` được sử dụng thì hệ thống có thể trả về giá trị `binary` hoặc `list` được truyền thay vì giá trị được tải, loại giá trị này có thể làm giảm số lượng bộ nhớ cần dùng để đọc định dạng.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Đọc danh sách byte nơi byte đầu tiên quyết định số lượng phần tử.
 ```powerquery
 let
@@ -46,7 +56,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Đọc danh sách byte nơi byte đầu tiên quyết định số lượng phần tử và bảo toàn byte đầu tiên được đọc.
 ```powerquery
 let
@@ -68,7 +78,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Đọc danh sách byte nơi byte đầu tiên quyết định số lượng phần tử bằng cách sử dụng danh sách truyền.
 ```powerquery
 let

@@ -5,7 +5,7 @@ title: Text.Select
 # Text.Select
 
 
-Seleziona tutte le occorrenze del carattere o dell&#39;elenco di caratteri specificato dal valore di testo di input.
+Seleziona tutte le occorrenze del carattere o dell'elenco di caratteri specificato dal valore di testo di input.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Text.Select(
 
 ## Remarks
 
-Restituisce una copia del valore di testo <code>text</code> con tutti i caratteri non presenti in <code>selectChars</code> rimossi.  
+Restituisce una copia del valore di testo `text` con tutti i caratteri non presenti in `selectChars` rimossi.
 
 
 ## Examples
 
-### Example #1 
-Seleziona tutti i caratteri compresi tra &#39;a&#39; e &#39;z&#39; dal valore di testo.
+### Example #1
+Seleziona tutti i caratteri compresi tra 'a' e 'z' dal valore di testo.
 ```powerquery
 Text.Select("a,b;c", {"a".."z"})
 ```

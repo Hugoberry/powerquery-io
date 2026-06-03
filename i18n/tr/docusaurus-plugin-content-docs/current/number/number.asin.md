@@ -19,7 +19,7 @@ Number.Asin(
 
 ## Remarks
 
-<code>number</code> değerinin arksinüsünü döndürür.
+`number` değerinin arksinüsünü döndürür.
 
 
 

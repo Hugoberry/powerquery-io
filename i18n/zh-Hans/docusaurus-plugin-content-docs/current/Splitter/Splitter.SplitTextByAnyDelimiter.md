@@ -26,7 +26,7 @@ Splitter.SplitTextByAnyDelimiter(
 
 ## Examples
 
-### Example #1 
+### Example #1
 从输入开头开始，按逗号或分号拆分输入，忽略引号和带引号的分隔符。
 ```powerquery
 Splitter.SplitTextByAnyDelimiter({",", ";"}, QuoteStyle.Csv)("a,b;""c,d;e"",f")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 从输入结尾开始，按逗号或分号拆分输入，忽略引号和带引号的分隔符。
 ```powerquery
 let

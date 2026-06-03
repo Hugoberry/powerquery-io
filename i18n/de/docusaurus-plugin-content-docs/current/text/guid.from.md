@@ -19,12 +19,12 @@ Guid.From(
 
 ## Remarks
 
-Gibt einen <code>Guid.Type</code>-Wert aus dem angegebenen <code>value</code>-Wert zurück. Ist der angegebene <code>value</code>-Wert <code>NULL</code>, gibt <code>Guid.From</code> den Wert <code>NULL</code> zurück. Eine Prüfung wird durchgeführt, um zu ermitteln, ob der angegebene <code>value</code>-Wert in einem akzeptablen Format vorliegt. Zulässige Formate werden in den Beispielen aufgeführt.
+Gibt einen `Guid.Type`\-Wert aus dem angegebenen `value`\-Wert zurück. Ist der angegebene `value`\-Wert `NULL`, gibt `Guid.From` den Wert `NULL` zurück. Eine Prüfung wird durchgeführt, um zu ermitteln, ob der angegebene `value`\-Wert in einem akzeptablen Format vorliegt. Zulässige Formate werden in den Beispielen aufgeführt.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Die GUID kann als 32 aufeinander folgende Hexadezimalziffern angegeben werden.
 ```powerquery
 Guid.From("05FE1DADC8C24F3BA4C2D194116B4967")
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Die GUID kann als 32 Hexadezimalziffern angegeben werden, die durch Bindestriche in Blöcke von 8-4-4-4-12 unterteilt sind.
 ```powerquery
 Guid.From("05FE1DAD-C8C2-4F3B-A4C2-D194116B4967")
@@ -48,7 +48,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Die GUID kann als 32 Hexadezimalziffern angegeben werden, die durch Bindestriche getrennt und in geschweifte Klammern eingeschlossen sind.
 ```powerquery
 Guid.From("{05FE1DAD-C8C2-4F3B-A4C2-D194116B4967}")
@@ -60,7 +60,7 @@ Result:
 ```
 
 
-### Example #4 
+### Example #4
 Die GUID kann als 32 Hexadezimalziffern angegeben werden, die durch Bindestriche getrennt und in Klammern eingeschlossen sind.
 ```powerquery
 Guid.From("(05FE1DAD-C8C2-4F3B-A4C2-D194116B4967)")

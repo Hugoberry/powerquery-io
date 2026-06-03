@@ -19,13 +19,15 @@ DateTime.ToRecord(
 
 ## Remarks
 
-Gibt einen Datensatz mit den Teilen des angegebenen datetime-Werts (<code>dateTime</code>) zurück. <ul>        <li><code>dateTime</code>: Ein <code>datetime</code>-Wert, auf dessen Grundlage der Datensatz mit den zugehörigen Teilen berechnet werden soll.</li>      </ul>
+Gibt einen Datensatz mit den Teilen des angegebenen datetime-Werts (`dateTime`) zurück.
+
+-   `dateTime`: Ein `datetime`\-Wert, auf dessen Grundlage der Datensatz mit den zugehörigen Teilen berechnet werden soll.
 
 
 ## Examples
 
-### Example #1 
-Konvertiert den Wert &lt;code&gt;#datetime(2011, 12, 31, 11, 56, 2)&lt;/code&gt; in einen Datensatz mit Datums- und Uhrzeitwerten.
+### Example #1
+Konvertiert den Wert `#datetime(2011, 12, 31, 11, 56, 2)` in einen Datensatz mit Datums- und Uhrzeitwerten.
 ```powerquery
 DateTime.ToRecord(#datetime(2011, 12, 31, 11, 56, 2))
 ```

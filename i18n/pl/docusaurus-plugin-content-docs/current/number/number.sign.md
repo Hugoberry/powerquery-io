@@ -19,12 +19,12 @@ Number.Sign(
 
 ## Remarks
 
-Zwraca wartość 1, gdy liczba <code>number</code> jest dodatnia, -1, gdy jest ujemna, i 0, gdy jest równa 0.    Jeśli parametr <code>number</code> ma wartość null, funkcja <code>Number.Sign</code> zwraca wartość null.
+Zwraca wartość 1, gdy liczba `number` jest dodatnia, -1, gdy jest ujemna, i 0, gdy jest równa 0. Jeśli parametr `number` ma wartość null, funkcja `Number.Sign` zwraca wartość null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ustal znak liczby 182.
 ```powerquery
 Number.Sign(182)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Ustal znak liczby -182.
 ```powerquery
 Number.Sign(-182)
@@ -48,7 +48,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Ustal znak liczby 0.
 ```powerquery
 Number.Sign(0)

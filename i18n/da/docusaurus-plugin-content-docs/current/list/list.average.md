@@ -20,13 +20,13 @@ List.Average(
 
 ## Remarks
 
-Returnerer gennemsnitsværdien for elementerne på listen <code>list</code>. Resultatet vises med samme datatype som værdierne på listen. Fungerer kun med værdier af typen number, date, time, datetime, datetimezone og duration.    Hvis listen er tom, returneres null.
+Returnerer gennemsnitsværdien for elementerne på listen `list`. Resultatet vises med samme datatype som værdierne på listen. Fungerer kun med værdier af typen number, date, time, datetime, datetimezone og duration. Hvis listen er tom, returneres null.
 
 
 ## Examples
 
-### Example #1 
-Find gennemsnittet af listen over tal, &lt;code&gt;\{3, 4, 6}&lt;/code&gt;.
+### Example #1
+Find gennemsnittet af listen over tal, `{3, 4, 6}`.
 ```powerquery
 List.Average({3, 4, 6})
 ```
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Find gennemsnittet af datoværdierne 1. januar 2011, 2. januar 2011 og 3. januar 2011.
 ```powerquery
 List.Average({#date(2011, 1, 1), #date(2011, 1, 2), #date(2011, 1, 3)})

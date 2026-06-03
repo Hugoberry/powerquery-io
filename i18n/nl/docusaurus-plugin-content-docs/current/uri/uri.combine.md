@@ -20,7 +20,7 @@ Uri.Combine(
 
 ## Remarks
 
-Retourneert een absolute URI die de combinatie is van de <code>baseUri</code> van de invoer en een <code>relativeUri</code>.
+Retourneert een absolute URI die de combinatie is van de `baseUri` van de invoer en een `relativeUri`.
 
 
 

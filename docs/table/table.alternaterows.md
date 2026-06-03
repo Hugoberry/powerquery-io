@@ -22,12 +22,17 @@ Table.AlternateRows(
 
 ## Remarks
 
-Keeps the initial offset then alternates taking and skipping the following rows.    <ul>       <li><code>table</code>: The input table.</li>       <li><code>offset</code>: The number of rows to keep before starting iterations.</li>       <li><code>skip</code>: The number of rows to remove in each iteration.</li>       <li><code>take</code>: The number of rows to keep in each iteration.</li>    </ul>    
+Keeps the initial offset then alternates taking and skipping the following rows.
+
+-   `table`: The input table.
+-   `offset`: The number of rows to keep before starting iterations.
+-   `skip`: The number of rows to remove in each iteration.
+-   `take`: The number of rows to keep in each iteration.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Return a table from the table that, starting at the first row, skips 1 value and then keeps 1 value.
 ```powerquery
 Table.AlternateRows(

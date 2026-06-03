@@ -25,8 +25,8 @@ Makes a call to the MailChimp API and returns the resulting dataset as a table. 
 
 ## Examples
 
-### Example #1 
-Pulls a table of data from the MailChimp API&#39;s lists endpoint.
+### Example #1
+Pulls a table of data from the MailChimp API's lists endpoint.
 ```powerquery
 MailChimp.Collection("lists")
 ```
@@ -37,8 +37,8 @@ A table with list data.
 ```
 
 
-### Example #2 
-Pulls a table of data from the MailChimp API&#39;s campaign-folders endpoint.
+### Example #2
+Pulls a table of data from the MailChimp API's campaign-folders endpoint.
 ```powerquery
 MailChimp.Collection("campaign-folders", "folders")
 ```

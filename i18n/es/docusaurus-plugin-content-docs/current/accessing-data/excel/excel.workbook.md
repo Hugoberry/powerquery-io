@@ -21,12 +21,21 @@ Excel.Workbook(
 
 ## Remarks
 
-Devuelve el contenido del libro de Excel.    <ul>     <li> <code>useHeaders</code> puede ser NULL, un valor lógico ("true" o "false") que indique si la primera fila de cada tabla devuelta debe tratarse como un encabezado o como un registro de opciones. El valor predeterminado es "false".</li>     <li> <code>delayTypes</code> puede ser NULL o un valor lógico ("true" o "false") que indique si las columnas de cada tabla devuelta deben dejarse sin tipo. El valor predeterminado es "false".</li>    </ul>    Si se especifica un registro para <code>useHeaders</code> (y <code>delayTypes</code> es NULL), se pueden proporcionar los siguientes campos de registro:    <ul>     <li> <code>UseHeaders</code>: puede ser NULL o un valor lógico ("true" o "false") que indique si la primera fila de cada tabla devuelta se debe tratar como encabezado. El valor predeterminado es "false".</li>     <li> <code>DelayTypes</code>: puede ser NULL o un valor lógico ("true" o "false") que indique si las columnas de cada tabla devuelta deben dejarse sin tipo. El valor predeterminado es "false".</li>     <li> <code>InferSheetDimensions</code>: puede ser NULL o un valor lógico ("true" o "false") que indique si el área de una hoja de cálculo que contiene datos se debe inferir leyendo la propia hoja de cálculo, en lugar de leer los metadatos de dimensión del archivo. Esto puede ser útil en los casos en los que los metadatos de dimensión no son correctos. Tenga en cuenta que esta opción solo se admite para archivos OpenXML de Excel, no para archivos heredados de Excel. El valor predeterminado es "false".</li>    </ul>    
+Devuelve el contenido del libro de Excel.
+
+-   `useHeaders` puede ser NULL, un valor lógico ("true" o "false") que indique si la primera fila de cada tabla devuelta debe tratarse como un encabezado o como un registro de opciones. El valor predeterminado es "false".
+-   `delayTypes` puede ser NULL o un valor lógico ("true" o "false") que indique si las columnas de cada tabla devuelta deben dejarse sin tipo. El valor predeterminado es "false".
+
+Si se especifica un registro para `useHeaders` (y `delayTypes` es NULL), se pueden proporcionar los siguientes campos de registro:
+
+-   `UseHeaders`: puede ser NULL o un valor lógico ("true" o "false") que indique si la primera fila de cada tabla devuelta se debe tratar como encabezado. El valor predeterminado es "false".
+-   `DelayTypes`: puede ser NULL o un valor lógico ("true" o "false") que indique si las columnas de cada tabla devuelta deben dejarse sin tipo. El valor predeterminado es "false".
+-   `InferSheetDimensions`: puede ser NULL o un valor lógico ("true" o "false") que indique si el área de una hoja de cálculo que contiene datos se debe inferir leyendo la propia hoja de cálculo, en lugar de leer los metadatos de dimensión del archivo. Esto puede ser útil en los casos en los que los metadatos de dimensión no son correctos. Tenga en cuenta que esta opción solo se admite para archivos OpenXML de Excel, no para archivos heredados de Excel. El valor predeterminado es "false".
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devuelve el contenido de Sheet1 desde un libro de Excel.
 ```powerquery
 Excel.Workbook(File.Contents("C:\Book1.xlsx"), null, true){[Item="Sheet1"]}[Data]

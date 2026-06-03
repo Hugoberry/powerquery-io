@@ -22,13 +22,18 @@ Table.ExpandRecordColumn(
 
 ## Remarks
 
-Używając kolumny rekordów <code>column</code> w tabeli wejściowej <code>table</code>, tworzy tabelę zawierającą kolumnę dla każdego pola w rekordzie. Opcjonalnie można określić parametr <code>newColumnNames</code> w celu zagwarantowania unikatowości nazw kolumn w nowej tabeli.    <ul>        <li><code>table</code>: Oryginalna tabela z kolumną rekordów do rozwinięcia. </li>        <li><code>column</code>: Kolumna do rozwinięcia.</li>        <li><code>fieldNames</code>: Lista pól do rozwinięcia jako kolumny w tabeli.</li>        <li><code>newColumnNames</code>: Lista nazw, które zostaną nadane nowym kolumnom. Nazwy nowych kolumn nie mogą stanowić duplikatów nazw kolumn w nowej tabeli.</li>    </ul>
+Używając kolumny rekordów `column` w tabeli wejściowej `table`, tworzy tabelę zawierającą kolumnę dla każdego pola w rekordzie. Opcjonalnie można określić parametr `newColumnNames` w celu zagwarantowania unikatowości nazw kolumn w nowej tabeli.
+
+-   `table`: Oryginalna tabela z kolumną rekordów do rozwinięcia.
+-   `column`: Kolumna do rozwinięcia.
+-   `fieldNames`: Lista pól do rozwinięcia jako kolumny w tabeli.
+-   `newColumnNames`: Lista nazw, które zostaną nadane nowym kolumnom. Nazwy nowych kolumn nie mogą stanowić duplikatów nazw kolumn w nowej tabeli.
 
 
 ## Examples
 
-### Example #1 
-Rozwiń kolumnę [a] w tabeli &lt;code&gt;(\{[a = [aa = 1, bb = 2, cc = 3], b = 2]})&lt;/code&gt; na 3 kolumny: „aa”, „bb” i „cc”.
+### Example #1
+Rozwiń kolumnę \[a\] w tabeli `({[a = [aa = 1, bb = 2, cc = 3], b = 2]})` na 3 kolumny: „aa”, „bb” i „cc”.
 ```powerquery
 Table.ExpandRecordColumn(
     Table.FromRecords({

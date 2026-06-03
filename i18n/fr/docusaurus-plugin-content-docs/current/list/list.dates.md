@@ -5,7 +5,7 @@ title: List.Dates
 # List.Dates
 
 
-Génère une liste de valeurs date en fonction d&#39;une valeur initiale, d&#39;un nombre et d&#39;une valeur de durée incrémentielle.
+Génère une liste de valeurs date en fonction d'une valeur initiale, d'un nombre et d'une valeur de durée incrémentielle.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ List.Dates(
 
 ## Remarks
 
-Retourne une liste de valeurs <code>date</code> de taille <code>count</code>, démarrant par <code>start</code>. L'incrément spécifié, <code>step</code>, est une valeur <code>duration</code> qui est ajoutée à chaque valeur.
+Retourne une liste de valeurs `date` de taille `count`, démarrant par `start`. L'incrément spécifié, `step`, est une valeur `duration` qui est ajoutée à chaque valeur.
 
 
 ## Examples
 
-### Example #1 
-Crée une liste de 5 valeurs démarrant la veille du 1er jour de l&#39;année (#date(2011, 12, 31)) par incréments de 1 jour(#duration(1, 0, 0, 0)).
+### Example #1
+Permet de créer une liste de 5 valeurs démarrant la veille du Jour de l’An (#date(2011, 12, 31)) par incréments de 1 jour(#duration(1, 0, 0, 0)).
 ```powerquery
 List.Dates(#date(2011, 12, 31), 5, #duration(1, 0, 0, 0))
 ```

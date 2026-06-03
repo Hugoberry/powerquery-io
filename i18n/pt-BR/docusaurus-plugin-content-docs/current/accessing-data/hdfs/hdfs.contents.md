@@ -19,7 +19,7 @@ Hdfs.Contents(
 
 ## Remarks
 
-Retorna uma tabela contendo uma linha para cada pasta e arquivo encontrados na URL da pasta, <code>url</code>, em um sistema de arquivos Hadoop. Cada linha contém as propriedades da pasta ou do arquivo e um link para seu conteúdo.
+Retorna uma tabela contendo uma linha para cada pasta e arquivo encontrados na URL da pasta, `url`, em um sistema de arquivos Hadoop. Cada linha contém as propriedades da pasta ou do arquivo e um link para seu conteúdo.
 
 
 

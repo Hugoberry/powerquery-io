@@ -19,7 +19,7 @@ Number.Atan(
 
 ## Remarks
 
-Trả về the arctang của <code>number</code>.
+Trả về the arctang của `number`.
 
 
 

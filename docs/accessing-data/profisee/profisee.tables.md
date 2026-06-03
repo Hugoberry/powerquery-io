@@ -22,7 +22,7 @@ Navigation Table returning Profisee entities.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returns a navigational table containing all profisee entities that contains data for each entity.
 ```powerquery
 Profisee.Tables("https://12345.com/profisee")

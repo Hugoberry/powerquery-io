@@ -26,7 +26,7 @@ Xml.Tables(
 
 ## Examples
 
-### Example #1 
+### Example #1
 ローカル xml ファイルの内容を取得します。
 ```powerquery
 Xml.Tables(File.Contents("C:\invoices.xml"))

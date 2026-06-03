@@ -5,7 +5,7 @@ title: AzureDevOpsServer.Views
 # AzureDevOpsServer.Views
 
 
-Entrez les noms de l&#39;organisation et du projet.
+Entrez les noms de l'organisation et du projet.
 
 
 ## Syntax

@@ -20,13 +20,17 @@ Binary.From(
 
 ## Remarks
 
-從指定的 <code>value</code> 傳回 <code>binary</code> 值。若指定的 <code>value</code> 是 <code>null</code>，則 <code>Binary.From</code> 會傳回 <code>null</code>。若指定的 <code>value</code> 是 <code>binary</code>，則會傳回 <code>value</code>。可以將下列類型的值轉換成 <code>binary</code> 值:      <ul>        <li><code>text</code>: 以文字表示的 <code>binary</code> 值。如需詳細資料，請參閱 <code>Binary.FromText</code>。</li>      </ul>若 <code>value</code> 是其他任何類型，則會傳回錯誤。
+從指定的 `value` 傳回 `binary` 值。若指定的 `value` 是 `null`，則 `Binary.From` 會傳回 `null`。若指定的 `value` 是 `binary`，則會傳回 `value`。可以將下列類型的值轉換成 `binary` 值:
+
+-   `text`: 以文字表示的 `binary` 值。如需詳細資料，請參閱 `Binary.FromText`。
+
+若 `value` 是其他任何類型，則會傳回錯誤。
 
 
 ## Examples
 
-### Example #1 
-取得 &lt;code&gt;&#34;1011&#34;&lt;/code&gt; 的 &lt;code&gt;binary&lt;/code&gt; 值。
+### Example #1
+取得 `"1011"` 的 `binary` 值。
 ```powerquery
 Binary.From("1011")
 ```

@@ -20,7 +20,7 @@ Number.Atan2(
 
 ## Remarks
 
-Retourneert de arctangens van de deling van de twee getallen <code>y</code> en <code>x</code>. De deling wordt neergezet als <code>y</code>/<code>x</code>.
+Retourneert de hoek, in radialen, waarvan de tangens het quotiënt `y`/`x` van de twee getallen `y` is en `x`.
 
 
 

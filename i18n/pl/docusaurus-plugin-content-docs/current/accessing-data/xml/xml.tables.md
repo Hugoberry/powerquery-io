@@ -26,7 +26,7 @@ Zwraca zawartość dokumentu w formacie XML jako zagnieżdżoną kolekcję spła
 
 ## Examples
 
-### Example #1 
+### Example #1
 Pobierz zawartość lokalnego pliku XML.
 ```powerquery
 Xml.Tables(File.Contents("C:\invoices.xml"))

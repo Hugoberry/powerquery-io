@@ -25,7 +25,7 @@ Zamienia klucze określonej tabeli.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zamień istniejące klucze tabeli.
 ```powerquery
 let

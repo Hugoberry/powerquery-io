@@ -26,7 +26,7 @@ Splitter.SplitTextByAnyDelimiter(
 
 ## Examples
 
-### Example #1 
+### Example #1
 以逗號或分號分割輸入，略過引號和帶引號的分隔符號，並從輸入的開頭開始。
 ```powerquery
 Splitter.SplitTextByAnyDelimiter({",", ";"}, QuoteStyle.Csv)("a,b;""c,d;e"",f")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 以逗號或分號分割輸入，略過引號和帶引號的分隔符號，並從輸入結尾開始。
 ```powerquery
 let

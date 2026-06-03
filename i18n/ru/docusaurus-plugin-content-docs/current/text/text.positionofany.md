@@ -21,13 +21,13 @@ Text.PositionOfAny(
 
 ## Remarks
 
-Возвращает первую позицию любого символа из списка <code>characters</code>, обнаруженного в <code>text</code>.    Для указания возвращаемой позиции вхождения может использоваться необязательный параметр <code>occurrence</code>.
+Возвращает первую позицию любого символа из списка `characters`, обнаруженного в `text`. Для указания возвращаемой позиции вхождения может использоваться необязательный параметр `occurrence`.
 
 
 ## Examples
 
-### Example #1 
-Найти первую позицию &#34;W&#34; или &#34;H&#34; в тексте &#34;Hello, World!&#34;.
+### Example #1
+Найти первую позицию "W" или "H" в тексте "Hello, World!".
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"})
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Найти все позиции &#34;W&#34; или &#34;H&#34; в тексте &#34;Hello, World!&#34;.
+### Example #2
+Найти все позиции "W" или "H" в тексте "Hello, World!".
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"}, Occurrence.All)
 ```

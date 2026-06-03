@@ -21,12 +21,12 @@ Binary.Range(
 
 ## Remarks
 
-返回从偏移量 <code>binary</code> 开始的二进制值的子集。可选参数 <code>offset</code> 用于设置该子集的最大长度。
+返回从偏移量 `binary` 开始的二进制值的子集。可选参数 `offset` 用于设置该子集的最大长度。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 返回从偏移量 6 开始的二进制值的子集。
 ```powerquery
 Binary.Range(#binary({0..10}), 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 返回从偏移量 6 开始、长度为 2 的二进制值的子集。
 ```powerquery
 Binary.Range(#binary({0..10}), 6, 2)

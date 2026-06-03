@@ -19,13 +19,13 @@ Uri.EscapeDataString(
 
 ## Remarks
 
-入力 <code>data</code> に含まれている特殊文字を RFC 3986 の規則に則ってエンコードします。
+入力 `data` に含まれている特殊文字を RFC 3986 の規則に則ってエンコードします。
 
 
 ## Examples
 
-### Example #1 
-特殊文字を &#34;+money$&#34; の形式でエンコードします。
+### Example #1
+特殊文字を "+money$" の形式でエンコードします。
 ```powerquery
 Uri.EscapeDataString("+money$")
 ```

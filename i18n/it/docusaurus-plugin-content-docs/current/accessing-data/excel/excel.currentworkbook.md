@@ -19,7 +19,7 @@ Excel.CurrentWorkbook(
 
 ## Remarks
 
-Restituisce il contenuto della cartella di lavoro di Excel corrente. Restituisce tabelle, intervalli denominati e matrici dinamiche. A differenza di <code></code> Excel.Workbook, non restituisce fogli.
+Restituisce il contenuto della cartella di lavoro di Excel corrente. Restituisce tabelle, intervalli denominati e matrici dinamiche. A differenza di Excel.Workbook, non restituisce fogli.
 
 
 

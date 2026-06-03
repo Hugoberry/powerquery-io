@@ -20,12 +20,12 @@ Table.Repeat(
 
 ## Remarks
 
-Retourne une table avec les lignes de l'entrée <code>table</code>, répétées <code>count</code> fois.
+Retourne une table avec les lignes de l'entrée `table`, répétées `count` fois.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Répète deux fois les lignes de la table.
 ```powerquery
 Table.Repeat(

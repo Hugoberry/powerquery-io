@@ -19,12 +19,12 @@ Record.FieldNames(
 
 ## Remarks
 
-<code>record</code> kaydındaki alanların adını metin olarak döndürür.
+`record` kaydındaki alanların adını metin olarak döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kayıttaki alanların adlarını bulur.
 ```powerquery
 Record.FieldNames([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

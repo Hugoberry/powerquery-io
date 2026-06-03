@@ -21,13 +21,13 @@ Byte.From(
 
 ## Remarks
 
-Devolve um valor de número inteiro de 8 bits <code>number</code> a partir do fornecido <code>value</code>. Se o fornecido <code>value</code> for <code>null</code>, <code>Byte.From</code> devolve <code>null</code>. Se o fornecido <code>value</code> é um <code>number</code> dentro de um intervalo de um número inteiro de 8 bits sem uma parte fracional, <code>value</code> é devolvido. Se tem uma parte fracional, o número é arredondado com o modo de arredondamento especificado. O modo de arredondamento predefinido é <code>RoundingMode.ToEven</code>. Se <code>value</code> for de algum outro tipo, será primeiro convertido para um <code>number</code> utilizando <code>Number.FromText</code>. Consulte o <code>Number.Round</code> para os modos de arredondamento disponíveis. Um opcional <code>culture</code> também pode ser fornecido (por exemplo, "en-US").
+Devolve um valor de número inteiro de 8 bits `number` a partir do fornecido `value`. Se o fornecido `value` for `null`, `Byte.From` devolve `null`. Se o fornecido `value` é um `number` dentro de um intervalo de um número inteiro de 8 bits sem uma parte fracional, `value` é devolvido. Se tem uma parte fracional, o número é arredondado com o modo de arredondamento especificado. O modo de arredondamento predefinido é `RoundingMode.ToEven`. Se `value` for de algum outro tipo, será primeiro convertido para um `number` utilizando `Number.FromText`. Consulte o `Number.Round` para os modos de arredondamento disponíveis. Um opcional `culture` também pode ser fornecido (por exemplo, "en-US").
 
 
 ## Examples
 
-### Example #1 
-Obter o valor &lt;code&gt;number&lt;/code&gt; inteiro de 8 bits de &lt;code&gt;&#34;4&#34;&lt;/code&gt;.
+### Example #1
+Obter o valor `number` inteiro de 8 bits de `"4"`.
 ```powerquery
 Byte.From("4")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Obter o valor &lt;code&gt;number&lt;/code&gt; inteiro de 8 bits de &lt;code&gt;&#34;4.5&#34;&lt;/code&gt; com &lt;code&gt;RoundingMode.AwayFromZero&lt;/code&gt;.
+### Example #2
+Obter o valor `number` inteiro de 8 bits de `"4.5"` com `RoundingMode.AwayFromZero`.
 ```powerquery
 Byte.From("4.5", null, RoundingMode.AwayFromZero)
 ```

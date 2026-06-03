@@ -19,12 +19,12 @@ Duration.Seconds(
 
 ## Remarks
 
-Returnerer sekunddelen af <code>duration</code>.
+Returnerer sekunddelen af `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Udtræk sekunderne fra en varighedsværdi.
 ```powerquery
 Duration.Seconds(#duration(5, 4, 3, 2))

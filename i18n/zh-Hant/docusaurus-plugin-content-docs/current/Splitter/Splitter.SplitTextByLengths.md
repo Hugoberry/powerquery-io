@@ -25,7 +25,7 @@ Splitter.SplitTextByLengths(
 
 ## Examples
 
-### Example #1 
+### Example #1
 從輸入的開頭開始，將輸入分割為前兩個字元，後接後三個字元。
 ```powerquery
 Splitter.SplitTextByLengths({2, 3})("AB123")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 從輸入的結尾開始，將輸入分割為前三個字元，後接後兩個字元。
 ```powerquery
 let

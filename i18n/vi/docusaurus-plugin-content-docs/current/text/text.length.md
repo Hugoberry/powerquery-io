@@ -19,13 +19,13 @@ Text.Length(
 
 ## Remarks
 
-Trả về số lượng ký tự trong văn bản <code>text</code>.
+Trả về số lượng ký tự trong văn bản `text`.
 
 
 ## Examples
 
-### Example #1 
-Tìm số lượng ký tự trong văn bản &#34;Hello World&#34;.
+### Example #1
+Tìm số lượng ký tự trong văn bản "Hello World".
 ```powerquery
 Text.Length("Hello World")
 ```

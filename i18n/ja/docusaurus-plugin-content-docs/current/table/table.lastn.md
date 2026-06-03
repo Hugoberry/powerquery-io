@@ -20,12 +20,15 @@ Table.LastN(
 
 ## Remarks
 
-<code>countOrCondition</code> の値に応じて、テーブル <code>table</code> の末尾から行を返します:    <ul>    <li> <code>countOrCondition</code> が数値の場合は、末尾 - <code>countOrCondition</code> の位置からその数の行を返します。</li>    <li> <code>countOrCondition</code> が条件の場合は、昇順位置でその条件を満たさない行の手前までの条件を満たす行を返します。</li></ul>
+`countOrCondition` の値に応じて、テーブル `table` の末尾から行を返します:
+
+-   `countOrCondition` が数値の場合は、末尾 - `countOrCondition` の位置からその数の行を返します。
+-   `countOrCondition` が条件の場合は、昇順位置でその条件を満たさない行の手前までの条件を満たす行を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブルの末尾の 2 行を探します。
 ```powerquery
 Table.LastN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-テーブル内の [a] &gt; 0 である最終行を探します。
+### Example #2
+テーブル内の \[a\] > 0 である最終行を探します。
 ```powerquery
 Table.LastN(
     Table.FromRecords({

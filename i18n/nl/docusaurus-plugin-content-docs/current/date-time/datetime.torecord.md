@@ -19,13 +19,15 @@ DateTime.ToRecord(
 
 ## Remarks
 
-Hiermee wordt een record geretourneerd met de onderdelen van de opgegeven datetime-waarde, <code>dateTime</code>. <ul> <li><code>dateTime</code>: een <code>datetime</code>-waarde op basis waarvan de record of de onderdelen daarvan moeten worden berekend.</li> </ul>
+Hiermee wordt een record geretourneerd met de onderdelen van de opgegeven datetime-waarde, `dateTime`.
+
+-   `dateTime`: een `datetime`\-waarde op basis waarvan de record of de onderdelen daarvan moeten worden berekend.
 
 
 ## Examples
 
-### Example #1 
-De waarde voor de &lt;code&gt;#datetime(2011, 12, 31, 11, 56, 2)&lt;/code&gt; omzetten naar een record die waarden voor datum en tijd bevat.
+### Example #1
+De waarde voor de `#datetime(2011, 12, 31, 11, 56, 2)` omzetten naar een record die waarden voor datum en tijd bevat.
 ```powerquery
 DateTime.ToRecord(#datetime(2011, 12, 31, 11, 56, 2))
 ```

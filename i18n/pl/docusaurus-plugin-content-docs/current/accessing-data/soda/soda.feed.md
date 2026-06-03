@@ -19,7 +19,7 @@ Soda.Feed(
 
 ## Remarks
 
-Zwraca tabelę z zawartości dostępnej pod określonym adresem URL <code>url</code> sformatowanej zgodnie z wymaganiami interfejsu API SODA 2.0. Adres URL musi wskazywać prawidłowe, zgodne ze standardem SODA źródło, które kończy się rozszerzeniem CSV.
+Zwraca tabelę z zawartości dostępnej pod określonym adresem URL `url` sformatowanej zgodnie z wymaganiami interfejsu API SODA 2.0. Adres URL musi wskazywać prawidłowe, zgodne ze standardem SODA źródło, które kończy się rozszerzeniem CSV.
 
 
 

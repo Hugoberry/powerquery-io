@@ -25,7 +25,7 @@ Gibt eine Funktion zurück, die eine Liste von Textwerten mithilfe einer Sequenz
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kombinieren Sie eine Liste von Textwerten mithilfe einer Sequenz von Trennzeichen.
 ```powerquery
 Combiner.CombineTextByEachDelimiter({"=", "+"})({"a", "b", "c"})

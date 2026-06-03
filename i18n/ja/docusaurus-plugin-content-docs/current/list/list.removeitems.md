@@ -20,13 +20,13 @@ List.RemoveItems(
 
 ## Remarks
 
-<code>list1</code> から、<code>list2</code> に指定された値のすべての出現を削除します。<code>list2</code> の値が <code>list1</code> に存在しない場合、元のリストが返されます。
+`list1` から、`list2` に指定された値のすべての出現を削除します。`list2` の値が `list1` に存在しない場合、元のリストが返されます。
 
 
 ## Examples
 
-### Example #1 
-リスト \{1, 2, 3, 4, 2, 5, 5} から、リスト \{2, 4, 6} 内の項目を削除します。
+### Example #1
+リスト \{1, 2, 3, 4, 2, 5, 5\} から、リスト \{2, 4, 6\} 内の項目を削除します。
 ```powerquery
 List.RemoveItems({1, 2, 3, 4, 2, 5, 5}, {2, 4, 6})
 ```

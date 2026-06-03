@@ -20,12 +20,12 @@ Number.RandomBetween(
 
 ## Remarks
 
-Devolve um número aleatório entre <code>bottom</code> e <code>top</code>.
+Devolve um número aleatório entre `bottom` e `top`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Obter um número aleatório entre 1 e 5.
 ```powerquery
 Number.RandomBetween(1, 5)

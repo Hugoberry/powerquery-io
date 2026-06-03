@@ -19,12 +19,12 @@ Table.SingleRow(
 
 ## Remarks
 
-Возвращает единственную строку в одной строке <code>table</code>. Если <code>table</code> имеет более одной строки, возникает исключение.
+Возвращает единственную строку в одностроковой таблице`table`. Если в таблице `table` более одной строки, генерируется ошибка.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Возврат одной строки из таблицы.
 ```powerquery
 Table.SingleRow(Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}))

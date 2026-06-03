@@ -26,8 +26,8 @@ See https://learn.microsoft.com/azure/governance/resource-graph/samples/starter?
 
 ## Examples
 
-### Example #1 
-Return a table with query results of user query &#39;resources&#39;
+### Example #1
+Return a table with query results of user query 'resources'
 ```powerquery
 AzureResourceGraph.Query("resources")
 ```

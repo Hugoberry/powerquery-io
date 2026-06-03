@@ -20,13 +20,13 @@ Table.Sort(
 
 ## Remarks
 
-以 \{ \{ col1, comparisonCriteria }, \{col2} } 的格式，使用一個或多個資料行名稱與選擇性 <code>comparisonCriteria</code> 的清單來排序 <code>table</code>。
+以 \{ \{ col1, comparisonCriteria \}, \{col2\} \} 的格式，使用一個或多個資料行名稱與選擇性 `comparisonCriteria` 的清單來排序 `table`。
 
 
 ## Examples
 
-### Example #1 
-依據 &#34;OrderID&#34; 資料行排序資料表。
+### Example #1
+依據 "OrderID" 資料行排序資料表。
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -60,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-依據 &#34;OrderID&#34; 資料行以遞減順序排序資料表。
+### Example #2
+依據 "OrderID" 資料行以遞減順序排序資料表。
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -95,8 +95,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-先依據 &#34;CustomerID&#34; 資料行再依據 &#34;OrderID&#34; 排序資料表，其中 &#34;CustomerID&#34; 以遞減順序排列。
+### Example #3
+先依據 "CustomerID" 資料行再依據 "OrderID" 排序資料表，其中 "CustomerID" 以遞減順序排列。
 ```powerquery
 Table.Sort(
     Table.FromRecords({

@@ -22,7 +22,7 @@ Provides data from a Usercube instance
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returns the universe data defined in the Usercube database.
 ```powerquery
 Usercube.Universes("https://mycompany.usercube.com")

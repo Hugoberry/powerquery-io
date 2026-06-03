@@ -5,7 +5,7 @@ title: Table.RenameColumns
 # Table.RenameColumns
 
 
-Aplica los cambios de nombre con el formato \{old, new}.
+Aplica los cambios de nombre con el formato \{old, new\}.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Table.RenameColumns(
 
 ## Remarks
 
-Realiza los cambios de nombre indicados a las columnas de la tabla <code>table</code>. Una operación de reemplazo <code>renames</code> consta de una lista de dos valores, el nombre de columna anterior y el nuevo, proporcionados en una lista.    Si la columna no existe, se inicia una excepción a menos que el parámetro opcional <code>missingField</code> especifique una alternativa (por ejemplo, <code>MissingField.UseNull</code> o <code>MissingField.Ignore</code>).
+Realiza los cambios de nombre indicados a las columnas de la tabla `table`. Una operación de reemplazo `renames` consta de una lista de dos valores, el nombre de columna anterior y el nuevo, proporcionados en una lista. Si la columna no existe, se produce un error a menos que el parámetro opcional `missingField` especifique una alternativa (por ejemplo, `MissingField.UseNull` o `MissingField.Ignore`).
 
 
 ## Examples
 
-### Example #1 
-Reemplazar el nombre de columna &#34;CustomerNum&#34; con &#34;CustomerID&#34; en la tabla.
+### Example #1
+Reemplazar el nombre de columna "CustomerNum" con "CustomerID" en la tabla.
 ```powerquery
 Table.RenameColumns(
     Table.FromRecords({[CustomerNum = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -41,8 +41,8 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]})
 ```
 
 
-### Example #2 
-Reemplazar el nombre de columna &#34;CustomerNum&#34; con &#34;CustomerID&#34; y &#34;PhoneNum&#34; con &#34;Phone&#34; en la tabla.
+### Example #2
+Reemplazar el nombre de columna "CustomerNum" con "CustomerID" y "PhoneNum" con "Phone" en la tabla.
 ```powerquery
 Table.RenameColumns(
     Table.FromRecords({[CustomerNum = 1, Name = "Bob", PhoneNum = "123-4567"]}),
@@ -59,8 +59,8 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]})
 ```
 
 
-### Example #3 
-Reemplazar el nombre de columna &#34;NewCol&#34; con &#34;NewColumn&#34; en la tabla y omitirlo si la columna no existe.
+### Example #3
+Reemplazar el nombre de columna "NewCol" con "NewColumn" en la tabla y omitirlo si la columna no existe.
 ```powerquery
 Table.RenameColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

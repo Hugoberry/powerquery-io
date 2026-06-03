@@ -22,13 +22,17 @@ List.Alternate(
 
 ## Remarks
 
-Restituisce un elenco formato da tutti gli elementi con offset dispari di un elenco. Accetta e ignora i valori dell'elenco <code>list</code> a seconda dei parametri.    <ul>    <li><code>count</code>: specifica il numero di valori che vengono ignorati ogni volta.</li>    <li><code>repeatInterval</code>: un intervallo di ripetizione facoltativo per indicare quanti valori vengono aggiunti tra i valori ignorati.</li>    <li><code>offset</code>: parametro di offset di opzione per iniziare a ignorare i valori in corrispondenza dell'offset iniziale.</li>    </ul>
+Restituisce un elenco formato da tutti gli elementi con offset dispari di un elenco. Accetta e ignora i valori dell'elenco `list` a seconda dei parametri.
+
+-   `count`: specifica il numero di valori che vengono ignorati ogni volta.
+-   `repeatInterval`: un intervallo di ripetizione facoltativo per indicare quanti valori vengono aggiunti tra i valori ignorati.
+-   `offset`: parametro di offset di opzione per iniziare a ignorare i valori in corrispondenza dell'offset iniziale.
 
 
 ## Examples
 
-### Example #1 
-Creare un elenco da \{1..10} che ignori il primo numero.
+### Example #1
+Creare un elenco da \{1..10\} che ignori il primo numero.
 ```powerquery
 List.Alternate({1..10}, 1)
 ```
@@ -39,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-Creare un elenco da \{1..10} che ignori un numero sì e uno no.
+### Example #2
+Creare un elenco da \{1..10\} che ignori un numero sì e uno no.
 ```powerquery
 List.Alternate({1..10}, 1, 1)
 ```
@@ -51,8 +55,8 @@ Result:
 ```
 
 
-### Example #3 
-Creare un elenco da \{1..10} che inizia in corrispondenza di 1 e ignora un numero sì e uno no.
+### Example #3
+Creare un elenco da \{1..10\} che inizia in corrispondenza di 1 e ignora un numero sì e uno no.
 ```powerquery
 List.Alternate({1..10}, 1, 1, 1)
 ```
@@ -63,8 +67,8 @@ Result:
 ```
 
 
-### Example #4 
-Creare un elenco da \{1..10} che inizia in corrispondenza di 1, salta un valore, mantiene due valori e così via.
+### Example #4
+Creare un elenco da \{1..10\} che inizia in corrispondenza di 1, salta un valore, mantiene due valori e così via.
 ```powerquery
 List.Alternate({1..10}, 1, 2, 1)
 ```

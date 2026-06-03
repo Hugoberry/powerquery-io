@@ -20,13 +20,13 @@ List.IsDistinct(
 
 ## Remarks
 
-Retourneert een logische waarde als er dubbele waarden in de lijst <code>list</code> staan; <code>true</code> als de lijst uniek is, <code>false</code> als er dubbele waarden in de lijst staan. 
+Retourneert een logische waarde als er dubbele waarden in de lijst `list` staan; `true` als de lijst uniek is, `false` als er dubbele waarden in de lijst staan.
 
 
 ## Examples
 
-### Example #1 
-Uitzoeken of de lijst \{1, 2, 3} uniek is (d.w.z. geen dubbele waarden).
+### Example #1
+Uitzoeken of de lijst \{1, 2, 3\} uniek is (d.w.z. geen dubbele waarden).
 ```powerquery
 List.IsDistinct({1, 2, 3})
 ```
@@ -37,8 +37,8 @@ true
 ```
 
 
-### Example #2 
-Uitzoeken of de lijst \{1, 2, 3, 3} uniek is (d.w.z. geen dubbele waarden).
+### Example #2
+Uitzoeken of de lijst \{1, 2, 3, 3\} uniek is (d.w.z. geen dubbele waarden).
 ```powerquery
 List.IsDistinct({1, 2, 3, 3})
 ```

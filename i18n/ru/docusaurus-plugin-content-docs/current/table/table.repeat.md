@@ -20,12 +20,12 @@ Table.Repeat(
 
 ## Remarks
 
-Возвращает таблицу со строками из входа <code>table</code>, повторенными указанное число раз, <code>count</code>.
+Возвращает таблицу со строками из входа `table`, повторенными указанное число раз, `count`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Повтор строк в таблице дважды.
 ```powerquery
 Table.Repeat(

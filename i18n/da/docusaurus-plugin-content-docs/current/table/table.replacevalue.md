@@ -23,13 +23,19 @@ Table.ReplaceValue(
 
 ## Remarks
 
-Erstatter <code>oldValue</code> med <code>newValue</code> i de angivne kolonner i <code>table</code>.
+Erstatter en værdi med en ny værdi i de angivne kolonner i en tabel.
+
+-   `table`: Den tabel, der skal søges i.
+-   `oldValue`: Den værdi, der skal erstattes.
+-   `newValue`: Erstatningsværdien.
+-   `replacer`: Den erstatningsfunktion, der skal bruges. Funktionen kan være enten `Replacer.ReplaceText` for at erstatte den oprindelige tekst med ny tekst, `Replacer.ReplaceValue` for at erstatte den oprindelige værdi med en ny værdi, eller en brugerdefineret erstatningsfunktion.
+-   `columnsToSearch`: En liste, der indeholder den eller de specifikke kolonner i tabellen hvor der skal søges efter den værdi, der skal erstattes.
 
 
 ## Examples
 
-### Example #1 
-Erstat teksten &#34;farvel&#34; med &#34;verden&#34; i kolonne B, der kun matcher hele værdien.
+### Example #1
+Erstat teksten "farvel" med "verden" i kolonne B, der kun matcher hele værdien.
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -54,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Erstat teksten &#34;din&#34; med &#34;eller&#34; i kolonne B, så den svarer til en hvilken som helst del af værdien.
+### Example #2
+Erstat teksten "din" med "eller" i kolonne B, så den svarer til en hvilken som helst del af værdien.
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -78,7 +84,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Anonymiser navnene på de amerikanske medarbejdere.
 ```powerquery
 Table.ReplaceValue(
@@ -102,7 +108,7 @@ Table.FromRecords({
 ```
 
 
-### Example #4 
+### Example #4
 Anonymiser alle kolonner med de amerikanske medarbejdere.
 ```powerquery
 Table.ReplaceValue(

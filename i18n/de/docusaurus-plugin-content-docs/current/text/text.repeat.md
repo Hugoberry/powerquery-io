@@ -20,13 +20,13 @@ Text.Repeat(
 
 ## Remarks
 
-Gibt einen Textwert zurück, der <code>count</code> Wiederholungen des Eingabetexts "<code>text</code>" enthält.
+Gibt einen Textwert zurück, der `count` Wiederholungen des Eingabetexts "`text`" enthält.
 
 
 ## Examples
 
-### Example #1 
-Wiederholt den Text &#34;a&#34; fünf Mal.
+### Example #1
+Wiederholt den Text "a" fünf Mal.
 ```powerquery
 Text.Repeat("a", 5)
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Wiederholt den Text &#34;helloworld&#34; drei Mal.
+### Example #2
+Wiederholt den Text "helloworld" drei Mal.
 ```powerquery
 Text.Repeat("helloworld.", 3)
 ```

@@ -20,13 +20,14 @@ List.FirstN(
 
 ## Remarks
 
- <ul>  <li>Hvis der er angivet et antal, returneres der elementer op til det angivne antal. </li>  <li>Hvis der er angivet en betingelse, returneres alle elementer, der i starten opfylder betingelsen. Når et element ikke opfylder betingelsen, tages der ikke flere elementer med i betragtning. </li> </ul>
+-   Hvis der er angivet et antal, returneres der elementer op til det angivne antal.
+-   Hvis der er angivet en betingelse, returneres alle elementer, der i starten opfylder betingelsen. Når et element ikke opfylder betingelsen, tages der ikke flere elementer med i betragtning.
 
 
 ## Examples
 
-### Example #1 
-Find de første værdier på listen \{3, 4, 5, -1, 7, 8, 2}, der er større end 0.
+### Example #1
+Find de første værdier på listen \{3, 4, 5, -1, 7, 8, 2\}, der er større end 0.
 ```powerquery
 List.FirstN({3, 4, 5, -1, 7, 8, 2}, each _ > 0)
 ```

@@ -13,7 +13,8 @@ Returnerar en funktion som delar upp text i en lista med text baserat på angive
 ```powerquery
 Splitter.SplitTextByDelimiter(
     delimiter as text,
-    optional quoteStyle as QuoteStyle.Type
+    optional quoteStyle as QuoteStyle.Type,
+    optional csvStyle as CsvStyle.Type
 ) as function
 ```
 
@@ -25,7 +26,7 @@ Returnerar en funktion som delar upp text i en lista med text baserat på angive
 
 ## Examples
 
-### Example #1 
+### Example #1
 Dela indata med kommatecken och ignorera citattecken.
 ```powerquery
 Splitter.SplitTextByDelimiter(",", QuoteStyle.Csv)("a,""b,c"",d")

@@ -19,7 +19,7 @@ Number.Tanh(
 
 ## Remarks
 
-Returnerar hyperbolisk tangens för <code>number</code>.
+Returnerar hyperbolisk tangens för `number`.
 
 
 

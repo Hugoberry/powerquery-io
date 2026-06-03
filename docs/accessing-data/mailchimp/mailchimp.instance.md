@@ -24,7 +24,7 @@ Makes a call to the MailChimp API and returns the raw response.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returns raw data from the reports/click-details MailChimp API endpoint for a given campaign.
 ```powerquery
 MailChimp.Instance("reports/{campaign_id}/click-details")

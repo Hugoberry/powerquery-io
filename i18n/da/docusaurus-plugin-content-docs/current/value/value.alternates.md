@@ -19,7 +19,7 @@ Value.Alternates(
 
 ## Remarks
 
-Udtrykker alternative forespørgselsplaner i et forespørgselsplanudtryk, der er opnået via Value.Expression(Value.Optimize(...)). Ikke beregnet til andre formål.
+Expresses alternate query plans within a query plan expression obtained through `Value.Expression(Value.Optimize(...))`. Not intended for other uses.
 
 
 

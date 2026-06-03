@@ -19,12 +19,12 @@ Table.ToColumns(
 
 ## Remarks
 
-Tworzy listę zagnieżdżonych list na podstawie tabeli <code>table</code>.  Każdy element tej listy to lista wewnętrzna zawierająca wartości kolumny.
+Tworzy listę zagnieżdżonych list na podstawie tabeli `table`. Każdy element tej listy to lista wewnętrzna zawierająca wartości kolumny.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utwórz listę wartości kolumn na podstawie tabeli.
 ```powerquery
 Table.ToColumns(

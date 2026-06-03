@@ -19,12 +19,12 @@ Table.ApproximateRowCount(
 
 ## Remarks
 
-Zwraca przybliżoną liczbę wierszy w <code>table</code> lub błąd, jeśli źródło danych nie obsługuje przybliżenia.
+Zwraca przybliżoną liczbę wierszy w `table` lub błąd, jeśli źródło danych nie obsługuje przybliżenia.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Oszacuj liczbę różnych kombinacji miast i województw w obszernej tabeli, która może być używana jako oszacowanie kardynalności dla kolumn. Szacunki kardynalności są na tyle ważne, że różne źródła danych (takie jak SQL Server) obsługują to konkretne przybliżenie, często używając algorytmu o nazwie HyperLogLog.
 ```powerquery
 Table.ApproximateRowCount(Table.Distinct(Table.SelectColumns(sqlTable, {"city", "state"})))

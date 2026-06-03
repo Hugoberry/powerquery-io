@@ -19,12 +19,12 @@ Number.Factorial(
 
 ## Remarks
 
-ส่งกลับค่าแฟกทอเรียลของตัวเลข <code>number</code>
+ส่งกลับค่าแฟกทอเรียลของตัวเลข `number`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 หาค่าแฟกทอเรียลของ 10
 ```powerquery
 Number.Factorial(10)

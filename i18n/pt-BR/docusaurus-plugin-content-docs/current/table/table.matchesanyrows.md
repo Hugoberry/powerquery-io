@@ -20,13 +20,13 @@ Table.MatchesAnyRows(
 
 ## Remarks
 
-Indica se qualquer linha da <code>table</code> corresponde à <code>condition</code> especificada. Retornará <code>true</code> se qualquer linha for correspondente; do contrário, <code>false</code> será retornado.
+Indica se qualquer linha da `table` corresponde à `condition` especificada. Retornará `true` se qualquer linha for correspondente; do contrário, `false` será retornado.
 
 
 ## Examples
 
-### Example #1 
-Determine se algum valor de linha da coluna [a] será par na tabela &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8]})&lt;/code&gt;.
+### Example #1
+Determine se algum valor de linha da coluna \[a\] será par na tabela `({[a = 2, b = 4], [a = 6, b = 8]})`.
 ```powerquery
 Table.MatchesAnyRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ false
 ```
 
 
-### Example #2 
-Determine se algum valor de linha será [a = 1, b = 2] na tabela &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt;.
+### Example #2
+Determine se algum valor de linha será \[a = 1, b = 2\] na tabela `({[a = 1, b = 2], [a = 3, b = 4]})`.
 ```powerquery
 Table.MatchesAnyRows(
     Table.FromRecords({

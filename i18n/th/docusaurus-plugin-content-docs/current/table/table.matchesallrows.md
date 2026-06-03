@@ -20,13 +20,13 @@ Table.MatchesAllRows(
 
 ## Remarks
 
-ระบุว่าทุกแถวใน <code>table</code> ตรงกับ <code>condition</code> ที่กำหนดหรือไม่ ส่งกลับ <code>true</code> ถ้าทุกแถวตรงกับเงื่อนไข และ <code>false</code> ถ้าไม่ใช่
+ระบุว่าทุกแถวใน `table` ตรงกับ `condition` ที่กำหนดหรือไม่ ส่งกลับ `true` ถ้าทุกแถวตรงกับเงื่อนไข และ `false` ถ้าไม่ใช่
 
 
 ## Examples
 
-### Example #1 
-กำหนดว่า ค่าแถวทั้งหมดใน [a] เป็นค่าคี่ในตาราง
+### Example #1
+กำหนดว่า ค่าแถวทั้งหมดใน \[a\] เป็นค่าคี่ในตาราง
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ true
 ```
 
 
-### Example #2 
-ค้นหาว่าค่าแถวทุกค่าเป็น [a = 1, b = 2] ในตาราง &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; หรือไม่
+### Example #2
+ค้นหาว่าค่าแถวทุกค่าเป็น \[a = 1, b = 2\] ในตาราง `({[a = 1, b = 2], [a = 3, b = 4]})` หรือไม่
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({

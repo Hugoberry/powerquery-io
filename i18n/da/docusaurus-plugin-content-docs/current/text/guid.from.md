@@ -19,13 +19,13 @@ Guid.From(
 
 ## Remarks
 
-Returnerer en værdi af typen <code>Guid.Type</code> fra den angivne <code>value</code>. Hvis den angivne <code>value</code> er <code>null</code>, returnerer <code>Guid.From</code> <code>null</code>.  Der udføres en kontrol for at afgøre, om den angivne <code>value</code> er i et acceptabelt format. Acceptable formater angivet i eksemplerne.
+Returnerer en værdi af typen `Guid.Type` fra den angivne `value`. Hvis den angivne `value` er `null`, returnerer `Guid.From` `null`. Der udføres en kontrol for at afgøre, om den angivne `value` er i et acceptabelt format. Acceptable formater angivet i eksemplerne.
 
 
 ## Examples
 
-### Example #1 
-GUID&#39;et kan leveres som 32 sammenhængende hexadecimale cifre.
+### Example #1
+GUID'et kan leveres som 32 sammenhængende hexadecimale cifre.
 ```powerquery
 Guid.From("05FE1DADC8C24F3BA4C2D194116B4967")
 ```
@@ -36,8 +36,8 @@ Result:
 ```
 
 
-### Example #2 
-GUID&#39;et kan leveres som 32 hexadecimale cifre adskilt af bindestreger i blokke med 8-4-4-4-12.
+### Example #2
+GUID'et kan leveres som 32 hexadecimale cifre adskilt af bindestreger i blokke med 8-4-4-4-12.
 ```powerquery
 Guid.From("05FE1DAD-C8C2-4F3B-A4C2-D194116B4967")
 ```
@@ -48,8 +48,8 @@ Result:
 ```
 
 
-### Example #3 
-GUID&#39;et kan leveres som 32 hexadecimale cifre adskilt af bindestreger og stå i klammeparenteser.
+### Example #3
+GUID'et kan leveres som 32 hexadecimale cifre adskilt af bindestreger og stå i klammeparenteser.
 ```powerquery
 Guid.From("{05FE1DAD-C8C2-4F3B-A4C2-D194116B4967}")
 ```
@@ -60,8 +60,8 @@ Result:
 ```
 
 
-### Example #4 
-GUID&#39;et kan leveres som 32 hexadecimale cifre adskilt af bindestreger og omsluttet af parenteser.
+### Example #4
+GUID'et kan leveres som 32 hexadecimale cifre adskilt af bindestreger og omsluttet af parenteser.
 ```powerquery
 Guid.From("(05FE1DAD-C8C2-4F3B-A4C2-D194116B4967)")
 ```

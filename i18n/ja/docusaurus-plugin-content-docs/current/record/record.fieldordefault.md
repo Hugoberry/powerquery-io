@@ -21,13 +21,13 @@ Record.FieldOrDefault(
 
 ## Remarks
 
-レコード <code>record</code> 内の指定されたフィールド <code>field</code> の値を返します。フィールドが見つからなかった場合は、省略可能な <code>defaultValue</code> を返します。
+レコード `record` 内の指定されたフィールド `field` の値を返します。フィールドが見つからなかった場合は、省略可能な `defaultValue` を返します。
 
 
 ## Examples
 
-### Example #1 
-レコード内のフィールド &#34;Phone&#34; の値を調べます。フィールドが存在しない場合は、NULL を返します。
+### Example #1
+レコード内のフィールド "Phone" の値を調べます。フィールドが存在しない場合は、NULL を返します。
 ```powerquery
 Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone")
 ```
@@ -38,8 +38,8 @@ null
 ```
 
 
-### Example #2 
-レコード内のフィールド &#34;Phone&#34; の値を調べます。フィールドが存在しない場合は、既定値を返します。
+### Example #2
+レコード内のフィールド "Phone" の値を調べます。フィールドが存在しない場合は、既定値を返します。
 ```powerquery
 Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone", "123-4567")
 ```

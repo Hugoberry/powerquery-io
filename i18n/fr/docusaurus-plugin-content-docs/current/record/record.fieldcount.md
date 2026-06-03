@@ -5,7 +5,7 @@ title: Record.FieldCount
 # Record.FieldCount
 
 
-Retourne le nombre de champs dans l&#39;enregistrement.
+Retourne le nombre de champs dans l'enregistrement.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Record.FieldCount(
 
 ## Remarks
 
-Retourne le nombre de champs dans l'enregistrement <code>record</code>.
+Retourne le nombre de champs dans l'enregistrement `record`.
 
 
 ## Examples
 
-### Example #1 
-Recherche le nombre de champs dans l&#39;enregistrement.
+### Example #1
+Recherche le nombre de champs dans l'enregistrement.
 ```powerquery
 Record.FieldCount([CustomerID = 1, Name = "Bob"])
 ```

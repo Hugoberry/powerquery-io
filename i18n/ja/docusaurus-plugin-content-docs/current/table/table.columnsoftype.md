@@ -20,12 +20,12 @@ Table.ColumnsOfType(
 
 ## Remarks
 
-<code>listOfTypes</code> で指定された型と一致する列の名前をテーブル <code>table</code> から取得してリストとして返します。
+`listOfTypes` で指定された型と一致する列の名前をテーブル `table` から取得してリストとして返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブルから Number.Type 型の列の名前を返します。
 ```powerquery
 Table.ColumnsOfType(

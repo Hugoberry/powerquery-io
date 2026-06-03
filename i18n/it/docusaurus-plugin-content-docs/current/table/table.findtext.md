@@ -20,13 +20,13 @@ Table.FindText(
 
 ## Remarks
 
-Restituisce le righe nella tabella <code>table</code> che contengono il testo <code>text</code>. Se il testo non viene trovato, verrà restituita una tabella vuota.
+Restituisce le righe nella tabella `table` che contengono il testo `text`. Se il testo non viene trovato, verrà restituita una tabella vuota.
 
 
 ## Examples
 
-### Example #1 
-Trovare le righe nella tabella che contengono &#34;Bob&#34;.
+### Example #1
+Trovare le righe nella tabella che contengono "Bob".
 ```powerquery
 Table.FindText(
     Table.FromRecords({

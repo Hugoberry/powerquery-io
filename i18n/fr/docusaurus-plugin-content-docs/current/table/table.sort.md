@@ -20,13 +20,13 @@ Table.Sort(
 
 ## Remarks
 
-Trie <code>table</code> en utilisant une liste d'un ou plusieurs noms de colonne et un paramètre facultatif <code>comparisonCriteria</code> sous la forme \{ \{ col1, comparisonCriteria }, \{col2} }.
+Trie `table` en utilisant une liste d'un ou plusieurs noms de colonne et un paramètre facultatif `comparisonCriteria` sous la forme \{ \{ col1, comparisonCriteria \}, \{col2\} \}.
 
 
 ## Examples
 
-### Example #1 
-Trie la table sur la colonne &#34; OrderID &#34;.
+### Example #1
+Trie la table sur la colonne « OrderID ».
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -60,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Trie la table sur la colonne &#34; OrderID &#34; par ordre décroissant.
+### Example #2
+Trie la table sur la colonne « OrderID » par ordre décroissant.
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -95,8 +95,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Trie la table sur la colonne &#34; CustomerID &#34;, puis sur la colonne &#34; OrderID &#34;, avec &#34; CustomerID &#34; par ordre croissant.
+### Example #3
+Trie la table sur la colonne « CustomerID », puis sur la colonne « OrderID », avec « CustomerID » par ordre croissant.
 ```powerquery
 Table.Sort(
     Table.FromRecords({

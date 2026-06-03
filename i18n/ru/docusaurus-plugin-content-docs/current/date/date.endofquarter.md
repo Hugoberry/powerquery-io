@@ -19,12 +19,14 @@ Date.EndOfQuarter(
 
 ## Remarks
 
-Возвращает конец квартала, который содержит <code>dateTime</code>. Данные о часовом поясе сохраняются.      <ul>      <li><code>dateTime</code>: значение <code>date</code>, <code>datetime</code> или <code>datetimezone</code>, на основе которого вычисляется конец квартала.</li>      </ul>
+Возвращает конец квартала, который содержит `dateTime`. Данные о часовом поясе сохраняются.
+
+-   `dateTime`: значение `date`, `datetime` или `datetimezone`, на основе которого вычисляется конец квартала.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Поиск конца квартала для 10 октября 2011 г., 8:00.
 ```powerquery
 Date.EndOfQuarter(#datetime(2011, 10, 10, 8, 0, 0))

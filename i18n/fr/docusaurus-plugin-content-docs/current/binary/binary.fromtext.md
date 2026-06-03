@@ -5,7 +5,7 @@ title: Binary.FromText
 # Binary.FromText
 
 
-Décode les données d&#39;un texte en binaire.
+Décode les données d'un texte en binaire.
 
 
 ## Syntax
@@ -20,13 +20,16 @@ Binary.FromText(
 
 ## Remarks
 
-Retourne le résultat de la conversion de la valeur de texte <code>text</code> dans une valeur binaire (liste de <code>number</code>). <code>encoding</code> peut être spécifié pour indiquer le codage utilisé dans la valeur de texte.      Les valeurs <code>BinaryEncoding</code> suivantes peuvent être utilisées pour <code>encoding</code>.      <ul>        <li><code>BinaryEncoding.Base64</code> : codage en base 64</li>        <li><code>BinaryEncoding.Hex</code> : codage hexadécimal</li>      </ul>
+Retourne le résultat de la conversion de la valeur de texte `text` dans une valeur binaire (liste de `number`). `encoding` peut être spécifié pour indiquer le codage utilisé dans la valeur de texte. Les valeurs `BinaryEncoding` suivantes peuvent être utilisées pour `encoding`.
+
+-   `BinaryEncoding.Base64` : codage en base 64
+-   `BinaryEncoding.Hex` : codage hexadécimal
 
 
 ## Examples
 
-### Example #1 
-Décode &#34; 1011 &#34; en binaire.
+### Example #1
+Décode « 1011 » en binaire.
 ```powerquery
 Binary.FromText("1011")
 ```
@@ -37,8 +40,8 @@ Binary.FromText("1011", BinaryEncoding.Base64)
 ```
 
 
-### Example #2 
-Décode &#34; 1011 &#34; en binaire avec un codage hexadécimal.
+### Example #2
+Décode « 1011 » en binaire avec un codage hexadécimal.
 ```powerquery
 Binary.FromText("1011", BinaryEncoding.Hex)
 ```

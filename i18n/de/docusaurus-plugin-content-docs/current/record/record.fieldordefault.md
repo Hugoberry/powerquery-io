@@ -21,13 +21,13 @@ Record.FieldOrDefault(
 
 ## Remarks
 
-Gibt den Wert des angegebenen Felds (<code>field</code>) im Datensatz "<code>record</code>" zurück. Wird das Feld nicht gefunden, wird der optionale Wert "<code>defaultValue</code>" zurückgegeben.
+Gibt den Wert des angegebenen Felds (`field`) im Datensatz "`record`" zurück. Wird das Feld nicht gefunden, wird der optionale Wert "`defaultValue`" zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt den Wert des Felds &#34;Phone&#34; im Datensatz oder gibt NULL zurück, wenn das Feld nicht vorhanden ist.
+### Example #1
+Ermittelt den Wert des Felds "Phone" im Datensatz oder gibt NULL zurück, wenn das Feld nicht vorhanden ist.
 ```powerquery
 Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone")
 ```
@@ -38,8 +38,8 @@ null
 ```
 
 
-### Example #2 
-Ermittelt den Wert des Felds &#34;Phone&#34; im Datensatz oder gibt den Standardwert zurück, wenn das Feld nicht vorhanden ist.
+### Example #2
+Ermittelt den Wert des Felds "Phone" im Datensatz oder gibt den Standardwert zurück, wenn das Feld nicht vorhanden ist.
 ```powerquery
 Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone", "123-4567")
 ```

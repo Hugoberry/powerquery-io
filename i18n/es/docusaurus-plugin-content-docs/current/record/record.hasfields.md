@@ -20,13 +20,13 @@ Record.HasFields(
 
 ## Remarks
 
-Indica si el registro <code>record</code> tiene los campos especificados en <code>fields</code> devolviendo un valor lógico (true o false).    Se pueden especificar varios valores de campo con una lista.
+Indica si el registro `record` tiene los campos especificados en `fields` devolviendo un valor lógico (true o false). Se pueden especificar varios valores de campo con una lista.
 
 
 ## Examples
 
-### Example #1 
-Comprobar si el registro tiene el campo &#34;CustomerID&#34;.
+### Example #1
+Comprobar si el registro tiene el campo "CustomerID".
 ```powerquery
 Record.HasFields([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")
 ```
@@ -37,8 +37,8 @@ true
 ```
 
 
-### Example #2 
-Comprobar si el registro tiene el campo &#34;CustomerID&#34; y &#34;Address&#34;.
+### Example #2
+Comprobar si el registro tiene el campo "CustomerID" y "Address".
 ```powerquery
 Record.HasFields([CustomerID = 1, Name = "Bob", Phone = "123-4567"], {"CustomerID", "Address"})
 ```

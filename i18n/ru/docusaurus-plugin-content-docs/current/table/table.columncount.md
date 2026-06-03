@@ -19,12 +19,12 @@ Table.ColumnCount(
 
 ## Remarks
 
-Возвращает количество столбцов в таблице <code>table</code>.
+Возвращает количество столбцов в таблице `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Определение числа столбцов в таблице.
 ```powerquery
 Table.ColumnCount(

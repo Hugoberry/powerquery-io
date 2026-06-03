@@ -20,7 +20,7 @@ Type.ReplaceFacets(
 
 ## Remarks
 
-将 <code>type</code> 的 Facet 替换为记录 <code>facets</code> 中包含的 Facet。
+将 `type` 的 Facet 替换为记录 `facets` 中包含的 Facet。
 
 
 

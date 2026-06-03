@@ -20,7 +20,9 @@ Parquet.Document(
 
 ## Remarks
 
-Gibt den Inhalt des Parquet-Dokuments als Tabelle zurück. Zu den Optionen gehören:    <ul>    <li> <code>TypeMapping</code>: Ein Textwert, der die Standardtypzuordnung beim Lesen und Schreiben von Dateien steuert. Der Standardwert ist NULL. Damit wird versucht, für den ursprünglichen Typ eine möglichst große Originaltreue beizubehalten. Der Wert „Sql“ erzeugt Ergebnisse, die am besten mit SQL Server kompatibel sind.</li>    </ul>
+Gibt den Inhalt des Parquet-Dokuments als Tabelle zurück. Zu den Optionen gehören:
+
+-   `TypeMapping`: Ein Textwert, der die Standardtypzuordnung beim Lesen und Schreiben von Dateien steuert. Der Standardwert ist NULL. Damit wird versucht, für den ursprünglichen Typ eine möglichst große Originaltreue beizubehalten. Der Wert „Sql“ erzeugt Ergebnisse, die am besten mit SQL Server kompatibel sind.
 
 
 

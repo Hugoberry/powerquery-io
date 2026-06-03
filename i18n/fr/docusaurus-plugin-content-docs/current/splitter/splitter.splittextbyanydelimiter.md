@@ -5,7 +5,7 @@ title: Splitter.SplitTextByAnyDelimiter
 # Splitter.SplitTextByAnyDelimiter
 
 
-Retourne une fonction qui fractionne le texte en une liste de textes au niveau de l&#39;un des délimiteurs spécifiés.
+Retourne une fonction qui fractionne le texte en une liste de textes au niveau de l'un des délimiteurs spécifiés.
 
 
 ## Syntax
@@ -26,8 +26,8 @@ Retourne une fonction qui fractionne le texte en une liste de textes au niveau d
 
 ## Examples
 
-### Example #1 
-Divise l&#39;entrée par une virgule ou un point-virgule, en ignorant les guillemets et les délimiteurs de citation et en commençant par le début de l&#39;entrée.
+### Example #1
+Divise l'entrée par une virgule ou un point-virgule, en ignorant les guillemets et les délimiteurs de citation et en commençant par le début de l'entrée.
 ```powerquery
 Splitter.SplitTextByAnyDelimiter({",", ";"}, QuoteStyle.Csv)("a,b;""c,d;e"",f")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Divise l&#39;entrée par une virgule ou un point-virgule, en ignorant les guillemets et les délimiteurs de citation et en commençant par la fin de l&#39;entrée.
+### Example #2
+Divise l'entrée par une virgule ou un point-virgule, en ignorant les guillemets et les délimiteurs de citation et en commençant par la fin de l'entrée.
 ```powerquery
 let
     startAtEnd = true

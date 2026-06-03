@@ -26,7 +26,7 @@ Gọi đến điểm cuối Webtrends KeyMetrics và trả về tất cả dữ 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gọi ra bảng bao gồm các số liệu chính cho bên thuê 98765 trong 30 ngày vừa qua
 ```powerquery
 Webtrends.KeyMetrics("98765")

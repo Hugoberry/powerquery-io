@@ -20,12 +20,12 @@ Number.Permutations(
 
 ## Remarks
 
-Devolve o número de permutações que podem ser geradas a partir de um número de itens, <code>setSize</code>, com um tamanho de permutação especificado, <code>permutationSize</code>.
+Devolve o número de permutações que podem ser geradas a partir de um número de itens, `setSize`, com um tamanho de permutação especificado, `permutationSize`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determinar o número de permutações existentes num total de 5 itens em grupos de 3.
 ```powerquery
 Number.Permutations(5, 3)

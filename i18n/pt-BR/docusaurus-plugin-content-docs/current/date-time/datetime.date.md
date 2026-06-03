@@ -19,12 +19,12 @@ DateTime.Date(
 
 ## Remarks
 
-Retorna o componente de data de <code>dateTime</code>, o valor <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> especificado.
+Retornará o componente de data do parâmetro `dateTime` se o parâmetro for um valor de `date`, `datetime` ou `datetimezone`, ou `null` se o parâmetro for `null`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Localize o valor date #datetime(2010, 12, 31, 11, 56, 02).
 ```powerquery
 DateTime.Date(#datetime(2010, 12, 31, 11, 56, 02))

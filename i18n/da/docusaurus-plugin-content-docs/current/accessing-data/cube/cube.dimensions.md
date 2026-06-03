@@ -19,7 +19,7 @@ Cube.Dimensions(
 
 ## Remarks
 
-Returnerer en tabel, der indeholder sættet af tilgængelige dimensioner i <code>cube</code>. De enkelte dimensioner er en tabel, der indeholder et sæt dimensionsattributter, og de enkelte dimensionsattributter vises som en kolonne i dimensionstabellen. Dimensioner kan udvides i kuben ved hjælp af Cube.AddAndExpandDimensionColumn. 
+Returnerer en tabel, der indeholder sættet af tilgængelige dimensioner i `cube`. De enkelte dimensioner er en tabel, der indeholder et sæt dimensionsattributter, og de enkelte dimensionsattributter vises som en kolonne i dimensionstabellen. Dimensioner kan udvides i kuben ved hjælp af Cube.AddAndExpandDimensionColumn.
 
 
 

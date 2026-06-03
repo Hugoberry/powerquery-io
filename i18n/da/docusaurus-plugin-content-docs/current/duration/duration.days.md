@@ -19,12 +19,12 @@ Duration.Days(
 
 ## Remarks
 
-Returnerer dagsdelen af <code>duration</code>.
+Returnerer dagsdelen af `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Udtræk antallet af dage mellem to datoer.
 ```powerquery
 Duration.Days(#date(2022, 3, 4) - #date(2022, 2, 25))

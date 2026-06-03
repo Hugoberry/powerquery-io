@@ -19,13 +19,13 @@ Type.RecordFields(
 
 ## Remarks
 
-Retourneert een record waarin de velden van een record <code>type</code> worden beschreven. Elk veld van het geretourneerde recordtype heeft een corresponderende naam en waarde, in de vorm van een record <code>[ Type = type, Optioneel = logische waarde ]</code>.
+Retourneert een record waarin de velden van een record `type` worden beschreven. Elk veld van het geretourneerde recordtype heeft een corresponderende naam en waarde, in de vorm van een record `[ Type = type, Optioneel = logische waarde ]`.
 
 
 ## Examples
 
-### Example #1 
-Zoek de naam en waarde van de record &lt;code&gt;[ A = getal, optioneel B = willekeurig]&lt;/code&gt;.
+### Example #1
+Zoek de naam en waarde van de record `[ A = getal, optioneel B = willekeurig]`.
 ```powerquery
 Type.RecordFields(type [A = number, optional B = any])
 ```

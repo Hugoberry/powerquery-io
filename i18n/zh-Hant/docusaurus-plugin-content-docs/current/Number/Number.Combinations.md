@@ -20,12 +20,15 @@ Number.Combinations(
 
 ## Remarks
 
-根據項目清單 <code>setSize</code>，傳回指定之組合大小 <code>combinationSize</code> 的唯一組合數目。<ul>    <li><code>setSize</code>: 清單中的項目數目。</li>    <li><code>combinationSize</code>: 每個組合中的項目數目。</li></ul>
+根據項目清單 `setSize`，傳回指定之組合大小 `combinationSize` 的唯一組合數目。
+
+-   `setSize`: 清單中的項目數目。
+-   `combinationSize`: 每個組合中的項目數目。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 找出總共 5 個項目中 3 個一組的所有組合數。
 ```powerquery
 Number.Combinations(5, 3)

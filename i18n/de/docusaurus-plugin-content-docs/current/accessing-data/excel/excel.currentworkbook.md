@@ -19,7 +19,7 @@ Excel.CurrentWorkbook(
 
 ## Remarks
 
-Gibt den Inhalt der aktuellen Excel-Arbeitsmappe zurück. Gibt Tabellen, benannte Bereiche und dynamische Arrays zurück. Im Gegensatz zu <code>Excel.Workbook</code>, werden keine Blätter zurückgegeben.
+Gibt den Inhalt der aktuellen Excel-Arbeitsmappe zurück. Gibt Tabellen, benannte Bereiche und dynamische Arrays zurück. Im Gegensatz zu `Excel.Workbook`, werden keine Blätter zurückgegeben.
 
 
 

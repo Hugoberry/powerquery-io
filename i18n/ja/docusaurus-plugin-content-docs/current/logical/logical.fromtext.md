@@ -5,7 +5,7 @@ title: Logical.FromText
 # Logical.FromText
 
 
-テキスト値 &#34;true&#34; および &#34;false&#34; から論理値を作成します。
+テキスト値 "true" および "false" から論理値を作成します。
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.FromText(
 
 ## Remarks
 
-テキスト値 <code>text</code> ("true" または "false") から論理値を作成します。<code>text</code> に別の文字列が含まれている場合は、例外がスローされます。テキスト値 <code>text</code> では、大文字と小文字が区別されます。
+テキスト値 `text` ("true" または "false") から論理値を作成します。`text` に別の文字列が含まれている場合は、エラーが発生します。テキスト値 `text` では、大文字と小文字が区別されます。
 
 
 ## Examples
 
-### Example #1 
-テキスト文字列 &#34;true&#34; から論理値を作成します。
+### Example #1
+テキスト文字列 "true" から論理値を作成します。
 ```powerquery
 Logical.FromText("true")
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-テキスト文字列 &#34;a&#34; から論理値を作成します。
+### Example #2
+テキスト文字列 "a" から論理値を作成します。
 ```powerquery
 Logical.FromText("a")
 ```

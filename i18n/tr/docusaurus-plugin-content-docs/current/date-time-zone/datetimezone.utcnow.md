@@ -24,7 +24,7 @@ UTC (GMT saat dilimi) biçiminde geçerli tarih ve saati döndürür.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Geçerli tarih ve saati UTC biçiminde alır.
 ```powerquery
 DateTimeZone.UtcNow()

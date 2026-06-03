@@ -20,7 +20,7 @@ Binary.Split(
 
 ## Remarks
 
-Divise <code>binary</code> en une liste de fichiers binaires où le premier élément de la liste de sortie est un fichier binaire contenant les premiers <code>pageSize</code> octets du    fichier binaire source, l’élément suivant de la liste de sortie est un fichier binaire contenant les <code>pageSize</code> octets suivants du fichier binaire source, et ainsi de suite.
+Divise `binary` en une liste de fichiers binaires où le premier élément de la liste de sortie est un fichier binaire contenant les premiers `pageSize` octets du fichier binaire source, l’élément suivant de la liste de sortie est un fichier binaire contenant les `pageSize` octets suivants du fichier binaire source, et ainsi de suite.
 
 
 

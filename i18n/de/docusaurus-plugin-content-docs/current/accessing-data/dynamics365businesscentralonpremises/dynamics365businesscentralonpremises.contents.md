@@ -20,6 +20,6 @@ Dynamics365BusinessCentralOnPremises.Contents(
 
 ## Remarks
 
-Gibt eine Tabelle mit relevanten Daten aus Dynamics 365 Business Central (lokal) zurück. 
+Gibt eine Tabelle mit relevanten Daten aus Dynamics 365 Business Central (lokal) zurück.
 
 

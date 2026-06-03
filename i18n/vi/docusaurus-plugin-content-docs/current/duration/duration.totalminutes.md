@@ -19,12 +19,12 @@ Duration.TotalMinutes(
 
 ## Remarks
 
-Trả về tổng số phút kéo dài theo <code>duration</code>.
+Trả về tổng số phút kéo dài theo `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm tổng số phút kéo dài theo giá trị khoảng thời gian.
 ```powerquery
 Duration.TotalMinutes(#duration(5, 4, 3, 2))

@@ -21,12 +21,12 @@ Table.Contains(
 
 ## Remarks
 
-Cho biết bản ghi được chỉ định <code>row</code> có xuất hiện ở dạng một hàng trong <code>table</code> hay không.    Có thể chỉ định tham số tùy chọn <code>equationCriteria</code> để kiểm soát phép so sánh giữa các hàng của bảng.
+Cho biết bản ghi được chỉ định `row` có xuất hiện ở dạng một hàng trong `table` hay không. Có thể chỉ định tham số tùy chọn `equationCriteria` để kiểm soát phép so sánh giữa các hàng của bảng.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Xác định bảng có chứa hàng hay không.
 ```powerquery
 Table.Contains(
@@ -46,7 +46,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Xác định bảng có chứa hàng hay không.
 ```powerquery
 Table.Contains(
@@ -66,8 +66,8 @@ false
 ```
 
 
-### Example #3 
-Xác định bảng có chứa hàng so sánh chỉ một côt [Name] hay không.
+### Example #3
+Xác định bảng có chứa hàng so sánh chỉ một côt \[Name\] hay không.
 ```powerquery
 Table.Contains(
     Table.FromRecords({

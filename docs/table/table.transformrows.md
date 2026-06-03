@@ -20,12 +20,12 @@ Table.TransformRows(
 
 ## Remarks
 
-Creates a <code>list</code> by applying the <code>transform</code> operation to each row in <code>table</code>.
+Creates a `list` by applying the `transform` operation to each row in `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Transform the rows of a table into a list of numbers.
 ```powerquery
 Table.TransformRows(
@@ -46,7 +46,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Transform the rows of a numeric table into textual records.
 ```powerquery
 Table.TransformRows(

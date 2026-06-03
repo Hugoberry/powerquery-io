@@ -20,13 +20,16 @@ Date.WeekOfYear(
 
 ## Remarks
 
-Yılın hangi haftasının <code>dateTime</code> tarihinin girildiğini gösteren 1 ile 54 arasında bir sayı döndürür. <ul>        <li><code>dateTime</code>: Yılın belirlenen haftası için bir <code>datetime</code> değeri.</li>        <li><code>firstDayOfWeek</code>: İsteğe bağlı <code>Day.Type</code> değeri, yeni bir haftanın hangi gününün başlangıç olarak düşünüleceğini belirtir (örneğin, <code>Day.Sunday</code>). Belirtilmezse, kültüre bağlı bir varsayılan kullanılır.</li>      </ul>
+Yılın hangi haftasının `dateTime` tarihinin girildiğini gösteren 1 ile 54 arasında bir sayı döndürür.
+
+-   `dateTime`: Yılın belirlenen haftası için bir `datetime` değeri.
+-   `firstDayOfWeek`: İsteğe bağlı `Day.Type` değeri, yeni bir haftanın hangi gününün başlangıç olarak düşünüleceğini belirtir (örneğin, `Day.Sunday`). Belirtilmezse, kültüre bağlı bir varsayılan kullanılır.
 
 
 ## Examples
 
-### Example #1 
-Yılın hangi haftasının 27 Mart 2011&#39;i içerdiğini belirleyin.
+### Example #1
+Yılın hangi haftasının 27 Mart 2011'i içerdiğini belirleyin.
 ```powerquery
 Date.WeekOfYear(#date(2011, 03, 27))
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Haftanın başlangıcı olarak Pazartesi kullanıldığında, yılın hangi haftasının 27 Mart 2011&#39;i içerdiğini belirleyin.
+### Example #2
+Haftanın başlangıcı olarak Pazartesi kullanıldığında, yılın hangi haftasının 27 Mart 2011'i içerdiğini belirleyin.
 ```powerquery
 Date.WeekOfYear(#date(2011, 03, 27), Day.Monday)
 ```

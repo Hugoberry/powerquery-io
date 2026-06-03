@@ -20,12 +20,12 @@ Table.TransformRows(
 
 ## Remarks
 
-Opretter en <code>liste</code> ved at anvende handlingen <code>transform</code> på hver række i <code>table</code>.
+Opretter en `liste` ved at anvende handlingen `transform` på hver række i `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Transformér rækkerne i en tabel til en liste med tal.
 ```powerquery
 Table.TransformRows(
@@ -46,7 +46,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Transformér rækkerne i en numerisk tabel til tekstposter.
 ```powerquery
 Table.TransformRows(

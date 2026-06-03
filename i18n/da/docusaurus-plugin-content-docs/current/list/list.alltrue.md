@@ -19,13 +19,13 @@ List.AllTrue(
 
 ## Remarks
 
-Returnerer true, hvis alle udtryk på listen <code>list</code> er true.
+Returnerer true, hvis alle udtryk på listen `list` er true.
 
 
 ## Examples
 
-### Example #1 
-Find ud af, om alle udtryk på listen \{true, true, 2 &gt; 0} er true.
+### Example #1
+Find ud af, om alle udtryk på listen \{true, true, 2 > 0\} er true.
 ```powerquery
 List.AllTrue({true, true, 2 > 0})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Find ud af, om alle udtryk på listen \{true, true, 2 &lt; 0} er true.
+### Example #2
+Find ud af, om alle udtryk på listen \{true, true, 2 &lt; 0\} er true.
 ```powerquery
 List.AllTrue({true, false, 2 < 0})
 ```

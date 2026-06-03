@@ -25,7 +25,7 @@ Zwraca funkcję łączącą listę wartości tekstowych w jedną wartość tekst
 
 ## Examples
 
-### Example #1 
+### Example #1
 Połącz listę wartości tekstowych przy użyciu sekwencji ograniczników.
 ```powerquery
 Combiner.CombineTextByEachDelimiter({"=", "+"})({"a", "b", "c"})

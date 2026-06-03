@@ -19,12 +19,12 @@ Number.IsOdd(
 
 ## Remarks
 
-अगर मान विषम है, तो संकेत देता है. अगर <code>number</code> एक विषम संख्या है, तो <code>true</code> अन्यथा <code>false</code> लौटाता है.
+अगर मान विषम है, तो संकेत देता है. अगर `number` एक विषम संख्या है, तो `true` अन्यथा `false` लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 जाँचें कि क्या 625 एक विषम संख्या है.
 ```powerquery
 Number.IsOdd(625)
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 जाँचें कि क्या 82 एक विषम संख्या है.
 ```powerquery
 Number.IsOdd(82)

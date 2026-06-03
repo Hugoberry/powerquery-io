@@ -25,7 +25,7 @@ Table.RemoveRowsWithErrors(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Удалить ошибочное значение из первой строки.
 ```powerquery
 Table.RemoveRowsWithErrors(

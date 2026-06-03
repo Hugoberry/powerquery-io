@@ -21,12 +21,12 @@ Binary.Range(
 
 ## Remarks
 
-オフセット <code>binary</code> で始まるバイナリ値のサブセットを返します。省略可能なパラメーター <code>offset</code> では、そのサブセットの最大長を設定します。
+オフセット `binary` で始まるバイナリ値のサブセットを返します。省略可能なパラメーター `offset` では、そのサブセットの最大長を設定します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 オフセット 6 で始まるバイナリ値のサブセットを返します。
 ```powerquery
 Binary.Range(#binary({0..10}), 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 バイナリ値のオフセット 6 から長さが 2 のサブセットを返します。
 ```powerquery
 Binary.Range(#binary({0..10}), 6, 2)

@@ -5,7 +5,7 @@ title: Date.IsInPreviousYear
 # Date.IsInPreviousYear
 
 
-Indica se questo valore date rientra nell&#39;anno precedente, come determinato dalla data e dall&#39;ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nell&#39;anno corrente.
+Indica se questo valore date rientra nell'anno precedente, come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nell'anno corrente.
 
 
 ## Syntax
@@ -19,13 +19,15 @@ Date.IsInPreviousYear(
 
 ## Remarks
 
-Indica se il valore datetime specificato <code>dateTime</code> rientra nell'anno precedente, come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nell'anno corrente.      <ul>      <li><code>dateTime</code>: valore <code>date</code>, <code>datetime</code> o <code>datetimezone</code>.</li>      </ul>
+Indica se il valore datetime specificato `dateTime` rientra nell'anno precedente, come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nell'anno corrente.
+
+-   `dateTime`: valore `date`, `datetime` o `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
-Determina se l&#39;anno prima dell&#39;ora di sistema corrente rientra nell&#39;anno precedente.
+### Example #1
+Determina se l'anno prima dell'ora di sistema corrente rientra nell'anno precedente.
 ```powerquery
 Date.IsInPreviousYear(Date.AddYears(DateTime.FixedLocalNow(), -1))
 ```

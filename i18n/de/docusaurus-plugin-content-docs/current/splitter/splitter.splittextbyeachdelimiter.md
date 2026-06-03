@@ -26,7 +26,7 @@ Gibt eine Funktion zurück, die Text nacheinander an den angegebenen Trennzeiche
 
 ## Examples
 
-### Example #1 
+### Example #1
 Teilen Sie die Eingabe durch Kommas und dann durch Strichpunkte auf, beginnend am Anfang der Eingabe.
 ```powerquery
 Splitter.SplitTextByEachDelimiter({",", ";"})("a,b;c,d")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Teilen Sie die Eingabe durch Kommas und dann durch Strichpunkte auf, und behandeln Sie Anführungszeichen wie alle anderen Zeichen, und beginnen Sie am Ende der Eingabe.
 ```powerquery
 let

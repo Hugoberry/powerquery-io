@@ -5,7 +5,7 @@ title: Logical.FromText
 # Logical.FromText
 
 
-根據文字值 &#34;true&#34; 和 &#34;false&#34; 建立邏輯值。
+根據文字值 "true" 和 "false" 建立邏輯值。
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.FromText(
 
 ## Remarks
 
-根據文字值 <code>text</code> ("true" 或 "false") 建立邏輯值。如果 <code>text</code> 包含不同字串，則擲回例外狀況。文字值 <code>text</code> 不區分大小寫。
+從文字值 `text` 建立邏輯值，可以是 "true" 或 "false"。如果 `text` 包含不同的字串，則引發錯誤。文字值 `text` 不區分大小寫。
 
 
 ## Examples
 
-### Example #1 
-根據文字字串 &#34;true&#34; 建立邏輯值。
+### Example #1
+根據文字字串 "true" 建立邏輯值。
 ```powerquery
 Logical.FromText("true")
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-根據文字字串 &#34;a&#34; 建立邏輯值。
+### Example #2
+根據文字字串 "a" 建立邏輯值。
 ```powerquery
 Logical.FromText("a")
 ```

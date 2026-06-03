@@ -20,7 +20,9 @@ AzureStorage.Tables(
 
 ## Remarks
 
-Returnerer en navigationstabel, der indeholder en række for hver tabel, der blev fundet på kontoens URL-adresse, <code>account</code>, fra en Azure-lagerboks. Hver række indeholder et link til Azure-tabellen. Der kan angives en valgfri postparameter, <code>options</code>, for at specificere yderligere egenskaber. Posten kan indeholde følgende felter:    <ul><li><code>Timeout</code> : En varighed, som styrer, hvor l&#230;nge der skal ventes, f&#248;r fors&#248;get p&#229; at oprette forbindelse til serveren opgives. Standardv&#230;rdien er kildespecifik.</li></ul>
+Returnerer en navigationstabel, der indeholder en række for hver tabel, der blev fundet på kontoens URL-adresse, `account`, fra en samling af legitimationsoplysninger i Azure Storage. Hver række indeholder et link til Azure-tabellen. En valgfri optagelsesparameter, `options`, kan angives for at vælge yderligere egenskaber. Posten kan indeholde følgende felter:
+
+-   `Timeout` : En varighed, som styrer, hvor længe der skal ventes, før forsøget på at oprette forbindelse til serveren opgives. Standardværdien er kildespecifik.
 
 
 

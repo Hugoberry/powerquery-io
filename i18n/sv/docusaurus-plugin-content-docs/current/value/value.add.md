@@ -21,7 +21,7 @@ Value.Add(
 
 ## Remarks
 
-Returnerar summan av <code>value1</code> och <code>value2</code>. En valfri <code>precision</code>-parameter kan anges. <code>Precision.Double</code> används som standard.
+Returnerar summan av `value1` och `value2`. En valfri `precision`\-parameter kan anges. `Precision.Double` används som standard.
 
 
 

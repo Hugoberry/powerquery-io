@@ -19,12 +19,12 @@ Time.Second(
 
 ## Remarks
 
-Returnerer sekundkomponenten af den angivne værdi af typen <code>time</code>, <code>datetime</code> eller <code>datetimezone</code>, <code>dateTime</code>.
+Returnerer sekundkomponenten af den angivne værdi af typen `time`, `datetime` eller `datetimezone`, `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find sekundværdien i en dato/klokkeslæt-værdi.
 ```powerquery
 Time.Second(#datetime(2011, 12, 31, 9, 15, 36.5))

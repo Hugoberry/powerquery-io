@@ -21,12 +21,16 @@ Number.ToText(
 
 ## Remarks
 
-Converteert de numerieke waarde <code>number</code> naar een tekstwaarde volgens de notatie die is opgegeven door <code>format</code>.<br />    <br />    De notatie is een tekstwaarde die aangeeft hoe het getal moet worden geconverteerd. Ga voor meer informatie over de ondersteunde opmaakwaarden naar https://go.microsoft.com/fwlink/?linkid=2241210 en https://go.microsoft.com/fwlink/?linkid=2240884.<br />    <br />    Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld nl-NL) om het cultuurafhankelijke gedrag van <code>format</code> te bepalen.
+Converteert de numerieke waarde `number` naar een tekstwaarde volgens de notatie die is opgegeven door `format`.  
+  
+De notatie is een tekstwaarde die aangeeft hoe het getal moet worden geconverteerd. Ga voor meer informatie over de ondersteunde opmaakwaarden naar https://go.microsoft.com/fwlink/?linkid=2241210 en https://go.microsoft.com/fwlink/?linkid=2240884.  
+  
+Er kan ook een optionele `culture` worden opgegeven (bijvoorbeeld nl-NL) om het cultuurafhankelijke gedrag van `format` te bepalen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Converteer een getal naar tekst zonder een notatie op te geven.
 ```powerquery
 Number.ToText(4)
@@ -38,7 +42,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Converteer een getal naar exponentiële notatie.
 ```powerquery
 Number.ToText(4, "e")
@@ -50,7 +54,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Converteer een getal naar een percentagenotatie met slechts één decimaalpositie.
 ```powerquery
 Number.ToText(-0.1234, "P1")

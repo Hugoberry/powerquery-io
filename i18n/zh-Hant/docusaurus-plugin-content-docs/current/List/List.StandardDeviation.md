@@ -19,12 +19,12 @@ List.StandardDeviation(
 
 ## Remarks
 
-傳回清單 <code>numbersList</code> 中值的標準差取樣型估計值。    若 <code>numbersList</code> 為數值清單，就會傳回數值。    若為空白清單或非 <code>number</code> 類型的項目清單，則會擲回例外狀況。
+傳回清單 `numbersList` 中值的標準差取樣型估計值。 如果 `numbersList` 為數值清單，則傳回數值。 如果是空白清單或不是 `number` 類型的項目清單，則引發錯誤。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 找出數字 1 到 5 的標準差。
 ```powerquery
 List.StandardDeviation({1..5})

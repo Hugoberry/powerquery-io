@@ -19,13 +19,15 @@ Date.DaysInMonth(
 
 ## Remarks
 
-Hiermee wordt het aantal dagen in de maand geretourneerd in de <code>date</code>-, <code>datetime</code>- of <code>datetimezone</code>-waarde <code>dateTime</code>. <ul> <li><code>dateTime</code>: een <code>date</code>-, <code>datetime</code>- of <code>datetimezone</code>-waarde waarvoor het aantal dagen in de maand wordt geretourneerd.</li> </ul>
+Hiermee wordt het aantal dagen in de maand geretourneerd in de `date`\-, `datetime`\- of `datetimezone`\-waarde `dateTime`.
+
+-   `dateTime`: een `date`\-, `datetime`\- of `datetimezone`\-waarde waarvoor het aantal dagen in de maand wordt geretourneerd.
 
 
 ## Examples
 
-### Example #1 
-Aantal dagen in de maand december zoals wordt weergegeven met &lt;code&gt;#date(2011, 12, 01)&gt;&lt;/code&gt;.
+### Example #1
+Aantal dagen in de maand december zoals wordt weergegeven met `#date(2011, 12, 01)`.
 ```powerquery
 Date.DaysInMonth(#date(2011, 12, 01))
 ```

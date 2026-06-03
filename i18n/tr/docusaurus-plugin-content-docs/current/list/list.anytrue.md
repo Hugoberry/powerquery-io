@@ -19,13 +19,13 @@ List.AnyTrue(
 
 ## Remarks
 
-<code>list</code> listesindeki herhangi bir ifade doğru ise doğru değerini döndürür.
+`list` listesindeki herhangi bir ifade doğru ise doğru değerini döndürür.
 
 
 ## Examples
 
-### Example #1 
-\{true, false, 2 &gt; 0} listesindeki herhangi bir ifadenin doğru olup olmadığını belirler.
+### Example #1
+\{true, false, 2 > 0\} listesindeki herhangi bir ifadenin doğru olup olmadığını belirler.
 ```powerquery
 List.AnyTrue({true, false, 2>0})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-\{2 = 0, false, 2 &lt; 0} listesindeki herhangi bir ifadenin doğru olup olmadığını belirler.
+### Example #2
+\{2 = 0, false, 2 &lt; 0\} listesindeki herhangi bir ifadenin doğru olup olmadığını belirler.
 ```powerquery
 List.AnyTrue({2 = 0, false, 2 < 0})
 ```

@@ -25,7 +25,7 @@ Returnerar en funktion som delar upp text i en lista med text upprepade gånger 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Dela indata upprepade gånger i segment med tre tecken, med början från början av indata.
 ```powerquery
 Splitter.SplitTextByRepeatedLengths(3)("12345678")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Dela indata upprepade gånger i segment med tre tecken, med början från slutet av indata.
 ```powerquery
 let

@@ -19,7 +19,7 @@ Number.Atan(
 
 ## Remarks
 
-<code>number</code> değerinin arktanjantını döndürür.
+`number` değerinin arktanjantını döndürür.
 
 
 

@@ -20,12 +20,12 @@ Number.Log(
 
 ## Remarks
 
-根据指定底数 <code>base</code> 返回数值 <code>number</code> 的对数。如果未指定 <code>base</code>，则默认值为 Number.E。    如果 <code>number</code> 为 null，则 <code>Number.Log</code> 返回 null。
+根据指定底数 `base` 返回数值 `number` 的对数。如果未指定 `base`，则默认值为 Number.E。 如果 `number` 为 null，则 `Number.Log` 返回 null。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 获取 2 的以 10 为底的对数。
 ```powerquery
 Number.Log(2, 10)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 获取 2 的以 e 为底的对数。
 ```powerquery
 Number.Log(2)

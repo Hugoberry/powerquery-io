@@ -19,12 +19,12 @@ Duration.TotalDays(
 
 ## Remarks
 
-Возвращает общее количество дней, охваченных <code>duration</code>.
+Возвращает общее количество дней, охваченных `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Найти общее количество дней, охваченных значением длительности.
 ```powerquery
 Duration.TotalDays(#duration(5, 4, 3, 2))

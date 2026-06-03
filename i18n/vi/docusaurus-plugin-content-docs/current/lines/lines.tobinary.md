@@ -5,7 +5,7 @@ title: Lines.ToBinary
 # Lines.ToBinary
 
 
-Chuyển đổi một danh sách văn bản thành một giá trị nhị phân bằng cách sử dụng mã hóa và lineSeparator được chỉ định. LineSeparator được chỉ định được chắp thêm vào mỗi dòng.  Nếu không được chỉ định thì dấu xuống dòng và ký tự chuyển dòng được sử dụng.
+Chuyển đổi một danh sách văn bản thành một giá trị nhị phân bằng cách sử dụng mã hóa và lineSeparator được chỉ định. LineSeparator được chỉ định được chắp thêm vào mỗi dòng. Nếu không được chỉ định thì dấu xuống dòng và ký tự chuyển dòng được sử dụng.
 
 
 ## Syntax
@@ -22,7 +22,7 @@ Lines.ToBinary(
 
 ## Remarks
 
-Chuyển đổi một danh sách văn bản thành một giá trị nhị phân bằng cách sử dụng mã hóa và lineSeparator được chỉ định. LineSeparator được chỉ định được chắp thêm vào mỗi dòng.  Nếu không được chỉ định thì dấu xuống dòng và ký tự chuyển dòng được sử dụng.
+Chuyển đổi một danh sách văn bản thành một giá trị nhị phân bằng cách sử dụng mã hóa và lineSeparator được chỉ định. LineSeparator được chỉ định được chắp thêm vào mỗi dòng. Nếu không được chỉ định thì dấu xuống dòng và ký tự chuyển dòng được sử dụng.
 
 
 

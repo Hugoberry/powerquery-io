@@ -25,7 +25,7 @@ Gibt eine Funktion zurück, die eine Liste von Textwerten unter Verwendung der a
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kombinieren Sie eine Liste von Textwerten, indem Sie sie an den angegebenen Positionen in der Ausgabe platzieren.
 ```powerquery
 Combiner.CombineTextByPositions({0, 5, 10})({"abc", "def", "ghi"})

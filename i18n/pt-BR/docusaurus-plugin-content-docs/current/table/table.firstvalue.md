@@ -20,7 +20,7 @@ Table.FirstValue(
 
 ## Remarks
 
-Retorna a primeira coluna da primeira linha da tabela <code>table</code> ou um valor padrão especificado.
+Retorna a primeira coluna da primeira linha da tabela `table` ou um valor padrão especificado.
 
 
 

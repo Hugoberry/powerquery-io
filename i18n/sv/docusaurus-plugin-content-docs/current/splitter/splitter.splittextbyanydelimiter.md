@@ -26,7 +26,7 @@ Returnerar en funktion som delar upp text i en lista med text vid någon av de a
 
 ## Examples
 
-### Example #1 
+### Example #1
 Dela indata med kommatecken eller semikolon, ignorera citattecken och avgränsare med citattecken och börja från starten av indata.
 ```powerquery
 Splitter.SplitTextByAnyDelimiter({",", ";"}, QuoteStyle.Csv)("a,b;""c,d;e"",f")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Dela indata med kommatecken eller semikolon, ignorera citattecken och avgränsare med citattecken och börja från slutet av indata.
 ```powerquery
 let

@@ -5,7 +5,7 @@ title: Table.LastN
 # Table.LastN
 
 
-Restituisce l&#39;ultimo numero di righe specificato.
+Restituisce l'ultimo numero di righe specificato.
 
 
 ## Syntax
@@ -20,12 +20,15 @@ Table.LastN(
 
 ## Remarks
 
-Restituisce le ultime righe della tabella <code>table</code>, a seconda del valore di <code>countOrCondition</code>:    <ul>    <li> Se <code>countOrCondition</code> è un numero, verrà restituito lo stesso numero di righe, a partire dalla posizione (fine - <code>countOrCondition</code>). </li>    <li> Se <code>countOrCondition</code> è una condizione, verranno restituite le righe che soddisfano la condizione in posizione crescente finché non viene trovata una riga che non soddisfa la condizione.</li></ul>
+Restituisce le ultime righe della tabella `table`, a seconda del valore di `countOrCondition`:
+
+-   Se `countOrCondition` è un numero, verrà restituito lo stesso numero di righe, a partire dalla posizione (fine - `countOrCondition`).
+-   Se `countOrCondition` è una condizione, verranno restituite le righe che soddisfano la condizione in posizione crescente finché non viene trovata una riga che non soddisfa la condizione.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trovare le ultime due righe della tabella.
 ```powerquery
 Table.LastN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Trovare le ultime righe in cui [a] &gt; 0 nella tabella.
+### Example #2
+Trovare le ultime righe in cui \[a\] > 0 nella tabella.
 ```powerquery
 Table.LastN(
     Table.FromRecords({

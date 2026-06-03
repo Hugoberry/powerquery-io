@@ -20,13 +20,13 @@ Table.ExpandListColumn(
 
 ## Remarks
 
-Når du har en <code>table</code>, hvor en <code>column</code> er en liste over værdier, opdeles listen i en række for hver værdi. Værdier i andre kolonner dubleres i alle nye rækker, der oprettes.
+Hvis en `table`, hvor `column` indeholder en liste af værdier, opdeles listen i en række for hver værdi. Værdierne i de andre kolonner duplikeres i hver ny række, der oprettes. Denne funktion kan også udvide indlejrede tabeller ved at behandle dem som lister over poster.
 
 
 ## Examples
 
-### Example #1 
-Opdel listekolonnen [Name] i tabellen.
+### Example #1
+Opdel listekolonnen \[Name\].
 ```powerquery
 Table.ExpandListColumn(
     Table.FromRecords({[Name = {"Bob", "Jim", "Paul"}, Discount = .15]}),
@@ -40,6 +40,29 @@ Table.FromRecords({
     [Name = "Bob", Discount = 0.15],
     [Name = "Jim", Discount = 0.15],
     [Name = "Paul", Discount = 0.15]
+})
+```
+
+
+### Example #2
+Opdel den indlejrede tabelkolonne \[Components\].
+```powerquery
+Table.ExpandListColumn(
+    #table(
+        {"Part", "Components"},
+        {
+            {"Tool", #table({"Name", "Quantity"}, {{"Thingamajig", 2}, {"Widget", 3}})}
+        }
+    ),
+    "Components"
+)
+```
+
+Result: 
+```powerquery
+Table.FromRecords({
+    [Part = "Tool", Components = [Name = "Thingamajig", Quantity = 2]],
+    [Part = "Tool", Components = [Name = "Widget", Quantity = 3]]
 })
 ```
 

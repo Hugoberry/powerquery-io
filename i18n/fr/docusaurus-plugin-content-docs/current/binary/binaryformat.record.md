@@ -19,12 +19,12 @@ BinaryFormat.Record(
 
 ## Remarks
 
-Retourne un format binaire qui lit un enregistrement.  Le paramètre <code>record</code> spécifie le format binaire de l'enregistrement.  Chaque champ dans l'enregistrement peut avoir un format binaire différent.  Si un champ contient une valeur qui n'est pas une valeur de format binaire, alors aucune donnée n'est lue pour ce champ, et la valeur du champ est répercutée dans le résultat.
+Retourne un format binaire qui lit un enregistrement. Le paramètre `record` spécifie le format binaire de l'enregistrement. Chaque champ dans l'enregistrement peut avoir un format binaire différent. Si un champ contient une valeur qui n'est pas une valeur de format binaire, alors aucune donnée n'est lue pour ce champ, et la valeur du champ est répercutée dans le résultat.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Lit un enregistrement contenant un entier 16 bits et un entier 32 bits.
 ```powerquery
 let

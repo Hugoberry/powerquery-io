@@ -25,7 +25,7 @@ Splitter.SplitTextByRanges(
 
 ## Examples
 
-### Example #1 
+### Example #1
 इनपुट के की शुरुआत से प्रारंभ करते हुए, निर्दिष्ट स्थिति और लंबाई के युग्मों के अनुसार इनपुट को विभाजित करें. ध्यान दें कि इस उदाहरण की श्रेणियाँ अधिव्यापन करती हैं.
 ```powerquery
 Splitter.SplitTextByRanges({{0, 4}, {2, 10}})("codelimiter")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 इनपुट के अंत से प्रारंभ करते हुए, निर्दिष्ट स्थिति और लंबाई के युग्मों के अनुसार इनपुट को विभाजित करें.
 ```powerquery
 let
@@ -52,7 +52,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 इनपुट को किसी निश्चित-लंबाई वाले पोस्टल कोड के बाद चर-लंबाई वाले शहर के नाम में बाँटें.
 ```powerquery
 Splitter.SplitTextByRanges({{0, 5}, {5, null}})("98052Redmond")

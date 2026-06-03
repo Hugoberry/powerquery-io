@@ -21,12 +21,12 @@ Table.Contains(
 
 ## Remarks
 
-Indica se o registo especificado, <code>row</code>, aparece como uma linha na <code>table</code>.    É possível especificar um parâmetro opcional <code>equationCriteria</code> para controlar a comparação entre as linhas da tabela.
+Indica se o registo especificado, `row`, aparece como uma linha na `table`. É possível especificar um parâmetro opcional `equationCriteria` para controlar a comparação entre as linhas da tabela.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determinar se a tabela contém a linha.
 ```powerquery
 Table.Contains(
@@ -46,7 +46,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Determinar se a tabela contém a linha.
 ```powerquery
 Table.Contains(
@@ -66,8 +66,8 @@ false
 ```
 
 
-### Example #3 
-Determinar se a tabela contém a linha comparando apenas a coluna [Nome].
+### Example #3
+Determinar se a tabela contém a linha comparando apenas a coluna \[Nome\].
 ```powerquery
 Table.Contains(
     Table.FromRecords({

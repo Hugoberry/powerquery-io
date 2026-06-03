@@ -22,13 +22,13 @@ Table.AddColumn(
 
 ## Remarks
 
-Thêm một cột có tên <code>newColumnName</code> vào bảng <code>table</code>. Các giá trị dành cho cột được tính bằng hàm chọn được chỉ định <code>columnGenerator</code> với mỗi hàng được lấy làm dữ liệu đầu vào.
+Thêm một cột có tên `newColumnName` vào bảng `table`. Các giá trị dành cho cột được tính bằng hàm chọn được chỉ định `columnGenerator` với mỗi hàng được lấy làm dữ liệu đầu vào.
 
 
 ## Examples
 
-### Example #1 
-Thêm một cột số có tên &#34;TotalPrice&#34; vào bảng với mỗi giá trị là tổng của cột [Giá] và cột [Vận chuyển].
+### Example #1
+Thêm một cột số có tên "TotalPrice" vào bảng với mỗi giá trị là tổng của cột \[Giá\] và cột \[Vận chuyển\].
 ```powerquery
 Table.AddColumn(
     Table.FromRecords({

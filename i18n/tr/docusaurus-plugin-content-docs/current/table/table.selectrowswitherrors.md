@@ -25,7 +25,7 @@ Girdi tablosunun yalnızca hücrelerinin en az birinde hata içeren satırları 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Satırlarında hata bulunan müşterilerin adlarını seçin.
 ```powerquery
 Table.SelectRowsWithErrors(

@@ -21,13 +21,16 @@ Table.MaxN(
 
 ## Remarks
 
-Gibt die größten Zeilen im Element vom Typ "<code>table</code>" anhand von "<code>comparisonCriteria</code>" zurück.    Nach dem Sortieren der Zeilen muss zur weiteren Filterung des Ergebnisses der Parameter "<code>countOrCondition</code>" angegeben werden. Beachten Sie, dass der Sortieralgorithmus kein festes sortiertes Ergebnis gewährleisten kann. Mögliche Formate für den Parameter "<code>countOrCondition</code>":    <ul>        <li> Bei Angabe einer Zahl wird eine Liste mit bis zu <code>countOrCondition</code> Elementen in aufsteigender Reihenfolge zurückgegeben. </li>        <li> Bei Angabe einer Bedingung wird eine Liste mit Elementen zurückgegeben, die die Bedingung erfüllen. Erfüllt ein Element die Bedingung nicht, werden ab diesem Punkt keine weiteren Elemente berücksichtigt. </li> </ul>
+Gibt die größten Zeilen im Element vom Typ "`table`" anhand von "`comparisonCriteria`" zurück. Nach dem Sortieren der Zeilen muss zur weiteren Filterung des Ergebnisses der Parameter "`countOrCondition`" angegeben werden. Beachten Sie, dass der Sortieralgorithmus kein festes sortiertes Ergebnis gewährleisten kann. Mögliche Formate für den Parameter "`countOrCondition`":
+
+-   Bei Angabe einer Zahl wird eine Liste mit bis zu `countOrCondition` Elementen in aufsteigender Reihenfolge zurückgegeben.
+-   Bei Angabe einer Bedingung wird eine Liste mit Elementen zurückgegeben, die die Bedingung erfüllen. Erfüllt ein Element die Bedingung nicht, werden ab diesem Punkt keine weiteren Elemente berücksichtigt.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt die Zeile mit dem größten Wert in der Spalte &#34;[a]&#34; mit der Bedingung &#34;[a] &gt; 0&#34; in der Tabelle. Die Zeilen werden vor dem Anwenden des Filters sortiert.
+### Example #1
+Ermittelt die Zeile mit dem größten Wert in der Spalte "\[a\]" mit der Bedingung "\[a\] > 0" in der Tabelle. Die Zeilen werden vor dem Anwenden des Filters sortiert.
 ```powerquery
 Table.MaxN(
     Table.FromRecords({
@@ -49,8 +52,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Ermittelt die Zeile mit dem größten Wert in der Spalte &#34;[a]&#34; mit der Bedingung &#34;[b] &gt; 0&#34; in der Tabelle. Die Zeilen werden vor dem Anwenden des Filters sortiert.
+### Example #2
+Ermittelt die Zeile mit dem größten Wert in der Spalte "\[a\]" mit der Bedingung "\[b\] > 0" in der Tabelle. Die Zeilen werden vor dem Anwenden des Filters sortiert.
 ```powerquery
 Table.MaxN(
     Table.FromRecords({

@@ -20,6 +20,6 @@ DynamicsNav.Contents(
 
 ## Remarks
 
-Returns a table with relevant Dynamics NAV data. 
+Returns a table with relevant Dynamics NAV data.
 
 

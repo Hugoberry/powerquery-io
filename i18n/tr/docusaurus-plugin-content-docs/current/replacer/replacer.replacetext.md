@@ -21,13 +21,13 @@ Replacer.ReplaceText(
 
 ## Remarks
 
-Asıl <code>text</code> içindeki <code>old</code> metnini <code>new</code> metni ile değiştirir. Bu değiştirici işlevi <code>List.ReplaceValue</code> ve <code>Table.ReplaceValue</code> içinde kullanılabilir.
+Asıl `text` içindeki `old` metnini `new` metni ile değiştirir. Bu değiştirici işlevi `List.ReplaceValue` ve `Table.ReplaceValue` içinde kullanılabilir.
 
 
 ## Examples
 
-### Example #1 
-&#34;hEllo world&#34; dizesindeki &#34;hE&#34; ifadesini &#34;He&#34; olarak değiştirir.
+### Example #1
+"hEllo world" dizesindeki "hE" ifadesini "He" olarak değiştirir.
 ```powerquery
 Replacer.ReplaceText("hEllo world", "hE", "He")
 ```

@@ -5,7 +5,7 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-Stosuje operacje zmiany nazwy określone na liście mającej formę \{ old, new }.
+Stosuje operacje zmiany nazwy określone na liście mającej formę \{ old, new \}.
 
 
 ## Syntax
@@ -21,12 +21,12 @@ Record.RenameFields(
 
 ## Remarks
 
-Zwraca rekord po zmianie nazw pól w rekordzie wejściowym <code>record</code> na nowe nazwy pól określone na liście <code>renames</code>. W przypadku wielu operacji zmiany nazwy można użyć listy zagnieżdżonej (\{ \{old1, new1}, \{old2, new2} }.
+Zwraca rekord po zmianie nazw pól w rekordzie wejściowym `record` na nowe nazwy pól określone na liście `renames`. W przypadku wielu operacji zmiany nazwy można użyć listy zagnieżdżonej (\{ \{old1, new1\}, \{old2, new2\} \}).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zmień nazwę pola „UnitPrice” na „Price” w rekordzie.
 ```powerquery
 Record.RenameFields(
@@ -41,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Zmień nazwę pola „UnitPrice” na „Price” i pola „OrderNum” na „OrderID” w rekordzie.
 ```powerquery
 Record.RenameFields(

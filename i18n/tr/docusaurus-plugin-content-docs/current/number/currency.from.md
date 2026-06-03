@@ -21,13 +21,13 @@ Currency.From(
 
 ## Remarks
 
-Verilen <code>value</code> değerinden bir <code>currency</code> değeri döndürür. Verilen <code>value</code> değeri <code>null</code> olduğunda <code>Currency.From</code> <code>null</code> döndürür. Verilen <code>value</code>, para birimi aralığında <code>number</code> olduğunda <code>value</code> değerinin kesir kısmı, 4 basamaklı bir ondalık sayıya yuvarlanarak döndürülür. <code>value</code> başka bir türde olduğunda önce <code>Number.FromText</code> kullanılarak <code>number</code> türüne dönüştürülür. Para birimi için geçerli aralık <code>-922.337.203.685.477,5808</code> - <code>922.337.203.685.477,5807</code> aralığıdır. Kullanılabilir yuvarlama modları için bkz. <code>Number.Round</code>. Varsayılan mod <code>RoundingMode.ToEven</code> modudur. Ayrıca, isteğe bağlı bir <code>culture</code> sağlanabilir (ör. "tr-TR").
+Verilen `value` değerinden bir `currency` değeri döndürür. Verilen `value` değeri `null` olduğunda `Currency.From` `null` döndürür. Verilen `value`, para birimi aralığında `number` olduğunda `value` değerinin kesir kısmı, 4 basamaklı bir ondalık sayıya yuvarlanarak döndürülür. `value` başka bir türde olduğunda önce `Number.FromText` kullanılarak `number` türüne dönüştürülür. Para birimi için geçerli aralık `-922.337.203.685.477,5808` - `922.337.203.685.477,5807` aralığıdır. Kullanılabilir yuvarlama modları için bkz. `Number.Round`. Varsayılan mod `RoundingMode.ToEven` modudur. Ayrıca, isteğe bağlı bir `culture` sağlanabilir (ör. "tr-TR").
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;&#34;1.23455&#34;&lt;/code&gt; değerinin &lt;code&gt;currency&lt;/code&gt; değerini alın.
+### Example #1
+`"1.23455"` değerinin `currency` değerini alın.
 ```powerquery
 Currency.From("1.23455")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-&lt;code&gt;RoundingMode.Down&lt;/code&gt; kullanarak &lt;code&gt;&#34;1.23455&#34;&lt;/code&gt; değerinin &lt;code&gt;currency&lt;/code&gt; değerini alın.
+### Example #2
+`RoundingMode.Down` kullanarak `"1.23455"` değerinin `currency` değerini alın.
 ```powerquery
 Currency.From("1.23455", "en-US", RoundingMode.Down)
 ```

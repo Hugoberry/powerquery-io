@@ -19,12 +19,12 @@ Number.Log10(
 
 ## Remarks
 
-Hiermee retourneert u de logaritme met grondtal 10 van een getal <code>number</code>. Als <code>number</code> null is, wordt met <code>Number.Log10</code> null geretourneerd.
+Hiermee retourneert u de logaritme met grondtal 10 van een getal `number`. Als `number` null is, wordt met `Number.Log10` null geretourneerd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De logaritme met grondtal 10 van 2 ophalen.
 ```powerquery
 Number.Log10(2)

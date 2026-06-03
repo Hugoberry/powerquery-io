@@ -21,12 +21,15 @@ Number.IntegerDivide(
 
 ## Remarks
 
-返回一个数 <code>number1</code> 除以另一个数 <code>number2</code> 所得结果的整数部分。    如果 <code>number1</code> 或 <code>number2</code> 为 null，则 <code>Number.IntegerDivide</code> 返回 null。      <ul>        <li><code>number1</code>: 被除数。</li>        <li><code>number2</code>: 除数。</li>      </ul>
+返回一个数 `number1` 除以另一个数 `number2` 所得结果的整数部分。 如果 `number1` 或 `number2` 为 null，则 `Number.IntegerDivide` 返回 null。
+
+-   `number1`: 被除数。
+-   `number2`: 除数。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 6 除以 4。
 ```powerquery
 Number.IntegerDivide(6, 4)
@@ -38,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 8.3 除以 3。
 ```powerquery
 Number.IntegerDivide(8.3, 3)

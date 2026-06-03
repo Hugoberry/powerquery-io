@@ -19,12 +19,12 @@ Number.IsOdd(
 
 ## Remarks
 
-Gibt an, ob es sich um einen ungeraden Wert handelt. Gibt <code>true</code> zurück, wenn "<code>number</code>" eine ungerade Zahl ist. Andernfalls wird <code>false</code> zurückgegeben.
+Gibt an, ob es sich um einen ungeraden Wert handelt. Gibt `true` zurück, wenn "`number`" eine ungerade Zahl ist. Andernfalls wird `false` zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Überprüft, ob 625 eine ungerade Zahl ist.
 ```powerquery
 Number.IsOdd(625)
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Überprüft, ob 82 eine ungerade Zahl ist.
 ```powerquery
 Number.IsOdd(82)

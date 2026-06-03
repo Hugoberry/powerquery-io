@@ -21,12 +21,12 @@ Table.Range(
 
 ## Remarks
 
-Devuelve las filas de <code>table</code> a partir del <code>offset</code> especificado. Un parámetro opcional, <code>count</code>, especifica cuántas filas se devolverán. De forma predeterminada, se devuelven todas las filas a continuación del desplazamiento.
+Devuelve las filas de `table` a partir del `offset` especificado. Un parámetro opcional, `count`, especifica cuántas filas se devolverán. De forma predeterminada, se devuelven todas las filas a continuación del desplazamiento.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devolver todas las filas a partir del desplazamiento 1 en la tabla.
 ```powerquery
 Table.Range(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Devolver una fila a partir del desplazamiento 1 en la tabla.
 ```powerquery
 Table.Range(

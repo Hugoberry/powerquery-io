@@ -19,13 +19,18 @@ Logical.From(
 
 ## Remarks
 
-Restituisce un valore <code>logical</code> dall'elemento <code>value</code> specificato. Se l'elemento specificato <code>value</code> è <code>null</code>, <code>Logical.From</code> restituisce <code>null</code>.  Se l'elemento specificato <code>value</code> è <code>logical</code>, viene restituito <code>value</code>. I valori dei tipi seguenti possono essere convertiti in un valore <code>logical</code>:      <ul>        <li><code>text</code>: valore <code>logical</code> dal valore di testo, <code>"true"</code> o <code>"false"</code>. Per informazioni, vedere <code>Logical.FromText</code>.</li>        <li><code>number</code>: <code>false</code> se <code>value</code> è uguale a <code>0</code>, in caso contrario <code>true</code>.</li>      </ul>Se <code>value</code> è di altro tipo, viene restituito un errore.
+Restituisce un valore `logical` dall'elemento `value` specificato. Se l'elemento specificato `value` è `null`, `Logical.From` restituisce `null`. Se l'elemento specificato `value` è `logical`, viene restituito `value`. I valori dei tipi seguenti possono essere convertiti in un valore `logical`:
+
+-   `text`: valore `logical` dal valore di testo, `"true"` o `"false"`. Per informazioni, vedere `Logical.FromText`.
+-   `number`: `false` se `value` è uguale a `0`, in caso contrario `true`.
+
+Se `value` è di altro tipo, viene restituito un errore.
 
 
 ## Examples
 
-### Example #1 
-Converte &lt;code&gt;2&lt;/code&gt; in un valore &lt;code&gt;logical&lt;/code&gt;.
+### Example #1
+Converte `2` in un valore `logical`.
 ```powerquery
 Logical.From(2)
 ```

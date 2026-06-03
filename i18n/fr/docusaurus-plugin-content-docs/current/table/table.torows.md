@@ -19,12 +19,12 @@ Table.ToRows(
 
 ## Remarks
 
-Crée une liste de listes imbriquées depuis la table, <code>table</code>.  Chaque élément de liste est une liste interne qui contient les valeurs des lignes.
+Crée une liste de listes imbriquées depuis la table, `table`. Chaque élément de liste est une liste interne qui contient les valeurs des lignes.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Créer une liste des valeurs de ligne à partir de la table.
 ```powerquery
 Table.ToRows(

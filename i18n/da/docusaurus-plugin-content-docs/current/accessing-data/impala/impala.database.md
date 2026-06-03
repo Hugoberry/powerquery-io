@@ -20,12 +20,12 @@ Impala.Database(
 
 ## Remarks
 
-Importér data fra en Impala-klynge <code>server</code>. Hvis der ikke er angivet en port, anvendes standardporten 21050.
+Importér data fra en Impala-klynge `server`. Hvis der ikke er angivet en port, anvendes standardporten 21050.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Vis en oversigt over tabellerne i en Impala-klynge.
 ```powerquery
 Impala.Database("localhost:21050")

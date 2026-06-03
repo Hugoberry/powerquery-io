@@ -19,12 +19,12 @@ Duration.TotalHours(
 
 ## Remarks
 
-Gibt die Gesamtstunden zurück, die <code>duration</code> umfasst.
+Gibt die Gesamtstunden zurück, die `duration` umfasst.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Die Gesamtstunden suchen, die sich über einen Dauerwert erstrecken.
 ```powerquery
 Duration.TotalHours(#duration(5, 4, 3, 2))

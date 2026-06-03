@@ -20,12 +20,12 @@ Table.FromColumns(
 
 ## Remarks
 
-Tworzy tabelę typu <code>columns</code> na podstawie listy <code>lists</code>, która zawiera zagnieżdżone listy z nazwami i wartościami kolumn.    Jeśli niektóre kolumny będą zawierać więcej wartości niż inne, brakujące wartości zostaną wypełnione wartością domyślną równą null, jeśli kolumny dopuszczają wartości null.
+Tworzy tabelę typu `columns` na podstawie listy `lists`, która zawiera zagnieżdżone listy z nazwami i wartościami kolumn. Jeśli niektóre kolumny będą zawierać więcej wartości niż inne, brakujące wartości zostaną wypełnione wartością domyślną równą null, jeśli kolumny dopuszczają wartości null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zwróć tabelę na podstawie listy nazw klientów na liście. Każda wartość na liście klientów staje się wartością wiersza, a każda lista staje się kolumną.
 ```powerquery
 Table.FromColumns({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Utwórz tabelę na podstawie danej listy kolumn oraz listy nazwy kolumn.
 ```powerquery
 Table.FromColumns(
@@ -68,7 +68,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Tworzenie tabeli z różną liczbą kolumn na wiersz. Liczba brakujących wierszy ma wartość null.
 ```powerquery
 Table.FromColumns(

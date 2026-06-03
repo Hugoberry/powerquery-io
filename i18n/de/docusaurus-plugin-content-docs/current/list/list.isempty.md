@@ -5,7 +5,7 @@ title: List.IsEmpty
 # List.IsEmpty
 
 
-Gibt &#34;true&#34; zurück, falls die Liste leer ist.
+Gibt "true" zurück, falls die Liste leer ist.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.IsEmpty(
 
 ## Remarks
 
-Gibt <code>true</code> zurück, falls die Liste "<code>list</code>" keine Werte enthält (also die Länge 0 besitzt). Enthält die Liste Werte (Länge > 0), wird <code>false</code> zurückgegeben.
+Gibt `true` zurück, falls die Liste "`list`" keine Werte enthält (also die Länge 0 besitzt). Enthält die Liste Werte (Länge > 0), wird `false` zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt, ob die Liste &#34;\{}&#34; leer ist.
+### Example #1
+Ermittelt, ob die Liste "\{\}" leer ist.
 ```powerquery
 List.IsEmpty({})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Ermittelt, ob die Liste &#34;\{1, 2}&#34; leer ist.
+### Example #2
+Ermittelt, ob die Liste "\{1, 2\}" leer ist.
 ```powerquery
 List.IsEmpty({1, 2})
 ```

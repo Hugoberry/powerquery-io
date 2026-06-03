@@ -19,7 +19,7 @@ Number.Tanh(
 
 ## Remarks
 
-Zwraca tangens hiperboliczny liczby <code>number</code>.
+Zwraca tangens hiperboliczny liczby `number`.
 
 
 

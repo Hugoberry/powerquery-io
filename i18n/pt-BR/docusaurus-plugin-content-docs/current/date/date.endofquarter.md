@@ -19,12 +19,14 @@ Date.EndOfQuarter(
 
 ## Remarks
 
-Retorna o final do trimestre que contém <code>dateTime</code>. As informações de fuso horário são preservadas.      <ul>      <li><code>dateTime</code>: um valor <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> a partir do qual o final do trimestre é calculado.</li>      </ul>
+Retorna o final do trimestre que contém `dateTime`. As informações de fuso horário são preservadas.
+
+-   `dateTime`: um valor `date`, `datetime` ou `datetimezone` a partir do qual o final do trimestre é calculado.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Encontre o final do trimestre para 10 de outubro de 2011, 8h.
 ```powerquery
 Date.EndOfQuarter(#datetime(2011, 10, 10, 8, 0, 0))

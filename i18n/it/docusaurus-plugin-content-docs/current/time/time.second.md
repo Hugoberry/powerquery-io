@@ -19,12 +19,12 @@ Time.Second(
 
 ## Remarks
 
-Restituisce il componente secondo del valore <code>time</code>, <code>datetime</code> o <code>datetimezone</code> specificato <code>dateTime</code>.
+Restituisce il componente secondo del valore `time`, `datetime` o `datetimezone` specificato `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trova il secondo valore da un valore datetime.
 ```powerquery
 Time.Second(#datetime(2011, 12, 31, 9, 15, 36.5))

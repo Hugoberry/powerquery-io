@@ -24,7 +24,7 @@ MailChimp のキー データを含むテーブルを返します。
 
 ## Examples
 
-### Example #1 
+### Example #1
 MailChimp のキー データを含むテーブルを返します。
 ```powerquery
 MailChimp.Tables()

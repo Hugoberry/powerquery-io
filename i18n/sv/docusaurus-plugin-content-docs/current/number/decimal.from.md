@@ -20,13 +20,13 @@ Decimal.From(
 
 ## Remarks
 
-Returnerar ett decimal <code>number</code>-värde från det givna <code>value</code>. Om det givna <code>value</code> är <code>null</code> <code>Decimal.Från</code> returnerar <code>null</code>.  Om det givna <code>value</code> är <code>number</code> inom intervallet för Decimal, returneras <code>value</code>. I annat fall returneras ett fel. Om <code>value</code> konverteras den först till en <code>number</code> med <code>Number.FromText</code>. En valfri <code>culture</code> kan även anges (till exempel, "en-US").
+Returnerar ett decimal `number`\-värde från det givna `value`. Om det givna `value` är `null` `Decimal.Från` returnerar `null`. Om det givna `value` är `number` inom intervallet för Decimal, returneras `value`. I annat fall returneras ett fel. Om `value` konverteras den först till en `number` med `Number.FromText`. En valfri `culture` kan även anges (till exempel, "en-US").
 
 
 ## Examples
 
-### Example #1 
-Hämta Decimal &lt;code&gt;number&lt;/code&gt;-värdet för &lt;code&gt;&#34;4.5&#34;&lt;/code&gt;.
+### Example #1
+Hämta Decimal `number`\-värdet för `"4.5"`.
 ```powerquery
 Decimal.From("4.5")
 ```

@@ -20,13 +20,16 @@ List.Last(
 
 ## Remarks
 
-Returnerer det sidste element på listen <code>list</code> eller den valgfrie standardværdi, <code>defaultValue</code>, hvis listen er tom.    Hvis listen er tom, og der ikke er angivet en standardværdi, returnerer funktionen <code>null</code>.
+Returnerer det sidste element på den angivne liste eller den valgfrie standardværdi, hvis listen er tom.
+
+-   `list`: Den liste, der skal undersøges.
+-   `defaultValue`: (Valgfrit) Standardværdien, der skal returneres, hvis listen er tom. Hvis listen er tom, og der ikke er angivet en standardværdi, returnerer funktionen `null`.
 
 
 ## Examples
 
-### Example #1 
-Find den sidste værdi på listen \{1, 2, 3}.
+### Example #1
+Find den sidste værdi på listen \{1, 2, 3\}.
 ```powerquery
 List.Last({1, 2, 3})
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Find den sidste værdi på listen \{} eller -1, hvis listen er tom.
+### Example #2
+Find den sidste værdi på listen \{\} eller -1, hvis listen er tom.
 ```powerquery
 List.Last({}, -1)
 ```

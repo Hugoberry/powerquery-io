@@ -19,12 +19,12 @@ Date.Year(
 
 ## Remarks
 
-Zwraca składnik roku z wartości typu <code>datetime</code> dostarczonej w parametrze <code>dateTime</code>.
+Zwraca składnik roku z wartości typu `datetime` dostarczonej w parametrze `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź rok w wartości #datetime(2011, 12, 31, 9, 15, 36).
 ```powerquery
 Date.Year(#datetime(2011, 12, 31, 9, 15, 36))

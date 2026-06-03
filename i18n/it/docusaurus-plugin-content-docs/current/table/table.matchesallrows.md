@@ -20,13 +20,13 @@ Table.MatchesAllRows(
 
 ## Remarks
 
-Indica se tutte le righe in <code>table</code> corrispondono a <code>condition</code>. Restituisce <code>true</code> se tutte le righe corrispondono, in caso contrario <code>false</code>.
+Indica se tutte le righe in `table` corrispondono a `condition`. Restituisce `true` se tutte le righe corrispondono, in caso contrario `false`.
 
 
 ## Examples
 
-### Example #1 
-Determinare se tutti i valori di riga nella colonna [a] sono pari nella tabella.
+### Example #1
+Determinare se tutti i valori di riga nella colonna \[a\] sono pari nella tabella.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ true
 ```
 
 
-### Example #2 
-Trovare se tutti valori di riga sono [a = 1, b = 2], nella tabella &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt;.
+### Example #2
+Trovare se tutti valori di riga sono \[a = 1, b = 2\], nella tabella `({[a = 1, b = 2], [a = 3, b = 4]})`.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({

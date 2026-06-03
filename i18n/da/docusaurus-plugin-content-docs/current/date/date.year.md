@@ -19,12 +19,12 @@ Date.Year(
 
 ## Remarks
 
-Returnerer årskomponenten for den angivne værdi af typen <code>datetime</code>, <code>dateTime</code>.
+Returnerer årskomponenten for den angivne værdi af typen `datetime`, `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find året i #datetime(2011, 12, 31, 9, 15, 36).
 ```powerquery
 Date.Year(#datetime(2011, 12, 31, 9, 15, 36))

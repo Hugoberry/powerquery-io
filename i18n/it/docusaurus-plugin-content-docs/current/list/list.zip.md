@@ -19,13 +19,13 @@ List.Zip(
 
 ## Remarks
 
-Acquisisce un elenco di elenchi, <code>lists</code>, e restituisce un elenco di elenchi combinando elementi nella stessa posizione.
+Acquisisce un elenco di elenchi, `lists`, e restituisce un elenco di elenchi combinando elementi nella stessa posizione.
 
 
 ## Examples
 
-### Example #1 
-Comprime i due elenchi semplici \{1, 2} e \{3, 4}.
+### Example #1
+Comprime i due elenchi semplici \{1, 2\} e \{3, 4\}.
 ```powerquery
 List.Zip({{1, 2}, {3, 4}})
 ```
@@ -39,8 +39,8 @@ Result:
 ```
 
 
-### Example #2 
-Comprime i due elenchi semplici di lunghezza diversa \{1, 2} e \{3}.
+### Example #2
+Comprime i due elenchi semplici di lunghezza diversa \{1, 2\} e \{3\}.
 ```powerquery
 List.Zip({{1, 2}, {3}})
 ```

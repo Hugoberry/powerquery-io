@@ -20,13 +20,13 @@ Table.HasColumns(
 
 ## Remarks
 
-指定された列 <code>columns</code> が <code>table</code> に含まれているかどうかを示します。列がテーブルに含まれている場合は <code>true</code>、それ以外の場合は <code>false</code> を返します。
+指定された列 `columns` が `table` に含まれているかどうかを示します。列がテーブルに含まれている場合は `true`、それ以外の場合は `false` を返します。
 
 
 ## Examples
 
-### Example #1 
-テーブルに列 [Name] が含まれているかどうかを調べます。
+### Example #1
+テーブルに列 \[Name\] が含まれているかどうかを調べます。
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({
@@ -45,8 +45,8 @@ true
 ```
 
 
-### Example #2 
-テーブルに列 [Name] と [PhoneNumber] が含まれているかどうかを調べます。
+### Example #2
+テーブルに列 \[Name\] と \[PhoneNumber\] が含まれているかどうかを調べます。
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({

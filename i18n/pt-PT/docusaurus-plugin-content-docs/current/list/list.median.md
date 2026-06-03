@@ -20,13 +20,13 @@ List.Median(
 
 ## Remarks
 
-Devolve o item mediano da lista <code>list</code>. Esta função devolve <code>null</code> se a lista não contiver valores não <code>null</code>.     Se existir um número par de itens, a função escolhe o menor dos dois itens medianos, a menos que a lista seja    constituída inteiramente por datetimes, durações, números ou horas, e neste caso devolve a média dos dois itens.
+Devolve o item mediano da lista `list`. Esta função devolve `null` se a lista não contiver valores não `null`. Se existir um número par de itens, a função escolhe o menor dos dois itens medianos, a menos que a lista seja constituída inteiramente por datetimes, durações, números ou horas, e neste caso devolve a média dos dois itens.
 
 
 ## Examples
 
-### Example #1 
-Determinar o mediano da lista &lt;code&gt;\{5, 3, 1, 7, 9}&lt;/code&gt;.
+### Example #1
+Determinar o mediano da lista `{5, 3, 1, 7, 9}`.
 ```powerquery
 List.Median({5, 3, 1, 7, 9})
 ```

@@ -5,7 +5,7 @@ title: DateTimeZone.LocalNow
 # DateTimeZone.LocalNow
 
 
-Retourne la date et l&#39;heure actuelles dans le fuseau horaire local.
+Retourne la date et l'heure actuelles dans le fuseau horaire local.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ DateTimeZone.LocalNow(
 
 ## Remarks
 
-Retourne une valeur <code>datetimezone</code> définie selon la date et l'heure actuelles du système.    La valeur retournée contient les informations de fuseau horaire qui représentent le fuseau horaire local.
+Retourne une valeur `datetimezone` définie selon la date et l'heure actuelles du système. La valeur retournée contient les informations de fuseau horaire qui représentent le fuseau horaire local.
 
 
 

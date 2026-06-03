@@ -19,12 +19,12 @@ Uri.BuildQueryString(
 
 ## Remarks
 
-รวมข้อมูลบันทึก <code>query</code> เข้าไว้ในสตริงแบบสอบถาม URI โดยจะต้องใช้ตัวอักขระพิเศษ
+รวมข้อมูลบันทึก `query` เข้าไว้ในสตริงแบบสอบถาม URI โดยจะต้องใช้ตัวอักขระพิเศษ
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 เข้ารหัสสตริงแบบสอบถามที่มีตัวอักขระพิเศษ
 ```powerquery
 Uri.BuildQueryString([a = "1", b = "+$"])

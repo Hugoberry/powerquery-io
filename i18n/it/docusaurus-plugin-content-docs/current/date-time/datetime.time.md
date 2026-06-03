@@ -5,7 +5,7 @@ title: DateTime.Time
 # DateTime.Time
 
 
-Restituisce la parte dell&#39;ora del valore datetime specificato.
+Restituisce la parte dell'ora del valore datetime specificato.
 
 
 ## Syntax
@@ -19,12 +19,12 @@ DateTime.Time(
 
 ## Remarks
 
-Restituisce la parte dell'ora del valore datetime specificato <code>dateTime</code>.
+Restituisce la parte dell'ora del valore datetime specificato `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trovare il valore di ora di #datetime(2010, 12, 31, 11, 56, 02).
 ```powerquery
 DateTime.Time(#datetime(2010, 12, 31, 11, 56, 02))

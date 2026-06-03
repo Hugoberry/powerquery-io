@@ -20,13 +20,13 @@ Table.SelectRows(
 
 ## Remarks
 
-<code>table</code> öğesinden <code>condition</code> seçimi ile eşleşen satır tablosu döndürür.
+`table` öğesinden `condition` seçimi ile eşleşen satır tablosu döndürür.
 
 
 ## Examples
 
-### Example #1 
-Tabloda [CustomerID] sütununda 2&#39;den büyük değer bulunduran satırları seçin.
+### Example #1
+Tabloda \[CustomerID\] sütununda 2'den büyük değer bulunduran satırları seçin.
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({
@@ -48,8 +48,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Tabloda &#34;B&#34; içermeyen adların bulunduğu satırları seçin.
+### Example #2
+Tabloda "B" içermeyen adların bulunduğu satırları seçin.
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({

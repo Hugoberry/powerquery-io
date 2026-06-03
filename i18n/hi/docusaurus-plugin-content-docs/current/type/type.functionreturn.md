@@ -19,13 +19,13 @@ Type.FunctionReturn(
 
 ## Remarks
 
-फ़ंक्‍शन <code>type</code> द्वारा लौटाया गया प्रकार लौटाता है.
+फ़ंक्‍शन `type` द्वारा लौटाया गया प्रकार लौटाता है.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;() as any)&lt;/code&gt; का वापसी प्रकार ढूँढें.
+### Example #1
+`() as any)` का वापसी प्रकार ढूँढें.
 ```powerquery
 Type.FunctionReturn(type function () as any)
 ```

@@ -19,13 +19,13 @@ Uri.Parts(
 
 ## Remarks
 
-Retourneert de onderdelen van de invoer <code>absoluteUri</code> als een record, met waarden zoals schema, host, poort, pad, query, fragment, gebruikersnaam en wachtwoord.
+Retourneert de onderdelen van de invoer `absoluteUri` als een record, met waarden zoals schema, host, poort, pad, query, fragment, gebruikersnaam en wachtwoord.
 
 
 ## Examples
 
-### Example #1 
-De onderdelen vinden van de absolute URI &#34;www.adventure-works.com&#34;.
+### Example #1
+De onderdelen vinden van de absolute URI "www.adventure-works.com".
 ```powerquery
 Uri.Parts("www.adventure-works.com")
 ```
@@ -45,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Een tekenreeks met procentversleuteling ontsleutelen.
 ```powerquery
 let

@@ -5,7 +5,7 @@ title: Record.FromTable
 # Record.FromTable
 
 
-Crée un enregistrement à partir d&#39;une table au format \{[Name = name, Value = value]}.
+Crée un enregistrement à partir d'une table au format \{\[Name = name, Value = value\]\}.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Record.FromTable(
 
 ## Remarks
 
-Retourne un enregistrement à partir d'une table d'enregistrements <code>table</code> contenant les noms des champs et les noms des valeurs <code>\{[Name = name, Value = value]}</code>. Si les noms des champs ne sont pas uniques, une exception est levée.
+Retourne un enregistrement à partir d’une table d’enregistrements `table` contenant les noms des champs et les noms des valeurs `{[Name = name, Value = value]}`. Désolé, une erreur est levée si les noms des champs ne sont pas uniques.
 
 
 ## Examples
 
-### Example #1 
-Crée un enregistrement à partir de la table, de la forme Table.FromRecords(\{[Name = &#34;CustomerID&#34;, Value = 1], [Name = &#34;Name&#34;, Value = &#34;Bob&#34;], [Name = &#34;Phone&#34;, Value = &#34;123-4567&#34;]}).
+### Example #1
+Crée un enregistrement à partir de la table, de la forme Table.FromRecords(\{\[Name = "CustomerID", Value = 1\], \[Name = "Name", Value = "Bob"\], \[Name = "Phone", Value = "123-4567"\]\}).
 ```powerquery
 Record.FromTable(
     Table.FromRecords({

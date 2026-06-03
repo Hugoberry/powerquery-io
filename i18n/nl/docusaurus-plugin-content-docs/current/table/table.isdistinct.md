@@ -20,12 +20,12 @@ Table.IsDistinct(
 
 ## Remarks
 
-Geeft aan of de <code>table</code> alleen unieke rijen (geen duplicaten) bevat. Retourneert <code>true</code> als de rijen uniek zijn. Als er dubbele rijen in de tabel staan, wordt <code>false</code> geretourneerd.    Een optionele parameter <code>comparisonCriteria</code> geeft aan van welke kolommen in de tabel wordt gezocht naar kopieën van die kolommen. Als <code>comparisonCriteria</code> niet is opgegeven, worden alle kolommen getest.
+Geeft aan of de `table` alleen unieke rijen (geen duplicaten) bevat. Retourneert `true` als de rijen uniek zijn. Als er dubbele rijen in de tabel staan, wordt `false` geretourneerd. Een optionele parameter `comparisonCriteria` geeft aan van welke kolommen in de tabel wordt gezocht naar kopieën van die kolommen. Als `comparisonCriteria` niet is opgegeven, worden alle kolommen getest.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bepalen of de tabel uniek is.
 ```powerquery
 Table.IsDistinct(
@@ -44,7 +44,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Bepalen of de tabel uniek is in de kolom.
 ```powerquery
 Table.IsDistinct(

@@ -25,7 +25,7 @@ Konvertiert eine Tabelle in eine Liste, indem die angegebene Kombinationsfunktio
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kombinieren des Texts jeder Zeile mit einem Komma.
 ```powerquery
 Table.ToList(

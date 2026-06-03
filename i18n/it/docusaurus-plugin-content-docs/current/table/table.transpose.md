@@ -25,7 +25,7 @@ Trasforma le colonne in righe e le righe in colonne.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trasformare le righe della tabella di coppie nome-valore in colonne.
 ```powerquery
 Table.Transpose(

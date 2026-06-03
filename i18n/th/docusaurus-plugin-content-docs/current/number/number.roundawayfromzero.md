@@ -20,12 +20,12 @@ Number.RoundAwayFromZero(
 
 ## Remarks
 
-ส่งคืนผลลัพธ์ของการปัดเศษ <code>number</code> ตามเครื่องหมายของตัวเลข ฟังก์ชันนี้จะปัดเศษขึ้นสำหรับค่าบวกและปัดเศษลงสำหรับค่าลบ    ถ้ามีการระบุเป็น <code>digits</code> จะมีการปัดเศษ <code>number</code> เป็นเลขทศนิยม <code>digits</code> หลัก  
+ส่งคืนผลลัพธ์ของการปัดเศษ `number` ตามเครื่องหมายของตัวเลข ฟังก์ชันนี้จะปัดเศษขึ้นสำหรับค่าบวกและปัดเศษลงสำหรับค่าลบ ถ้ามีการระบุเป็น `digits` จะมีการปัดเศษ `number` เป็นเลขทศนิยม `digits` หลัก
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ปัดเศษจำนวน -1.2 ห่างออกจากศูนย์
 ```powerquery
 Number.RoundAwayFromZero(-1.2)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 ปัดเศษจำนวน 1.2 ห่างออกจากศูนย์
 ```powerquery
 Number.RoundAwayFromZero(1.2)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 ปัดเศษตัวเลข -1.234 ลงเป็นทศนิยมสองตำแหน่งและน้อยกว่าศูนย์
 ```powerquery
 Number.RoundAwayFromZero(-1.234, 2)

@@ -20,13 +20,13 @@ Table.Sort(
 
 ## Remarks
 
-Classifica a <code>table</code> usando a lista de um ou mais nomes de coluna e o <code>comparisonCriteria</code> opcional no formato \{ \{ col1, comparisonCriteria }, \{col2} }.
+Classifica a `table` usando a lista de um ou mais nomes de coluna e o `comparisonCriteria` opcional no formato \{ \{ col1, comparisonCriteria \}, \{col2\} \}.
 
 
 ## Examples
 
-### Example #1 
-Classificar a tabela na coluna &#34;OrderID&#34;.
+### Example #1
+Classificar a tabela na coluna "OrderID".
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -60,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Classificar a tabela na coluna &#34;OrderID&#34; em ordem decrescente.
+### Example #2
+Classificar a tabela na coluna "OrderID" em ordem decrescente.
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -95,8 +95,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Classificar a tabela na coluna &#34;CustomerID&#34; e depois em &#34;OrderID&#34;, com &#34;CustomerID&#34; em ordem crescente.
+### Example #3
+Classificar a tabela na coluna "CustomerID" e depois em "OrderID", com "CustomerID" em ordem crescente.
 ```powerquery
 Table.Sort(
     Table.FromRecords({

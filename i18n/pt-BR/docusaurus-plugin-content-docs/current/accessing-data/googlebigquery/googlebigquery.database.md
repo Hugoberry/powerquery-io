@@ -19,12 +19,19 @@ GoogleBigQuery.Database(
 
 ## Remarks
 
-      Retorna uma tabela listando os projetos disponíveis no Google BigQuery. Um parâmetro de registro opcional, <code>options</code>, pode ser especificado para controlar as seguintes opções:      <ul>        <li><code>ConnectionTimeout</code>: uma duração que controla quanto tempo esperar antes de abandonar uma tentativa de fazer uma conexão com o servidor. O valor padrão é o valor de Tempo Limite de Conexão ODBC.</li>        <li><code>CommandTimeout</code>: uma duração que controla por quanto tempo a consulta do lado do servidor pode ser executada antes de ser cancelada.</li>        <li><code>BillingProject</code>: ID do projeto de cobrança. O valor padrão é o primeiro projeto disponível.</li>        <li><code>UseStorageApi</code>: especifica se a API de Armazenamento do BigQuery deve ser usada para grandes conjuntos de resultados. O valor padrão é true para usar a API de Armazenamento. Defina como false para não usar a API de Armazenamento</li>      </ul>    O parâmetro de registro é especificado como [option1 = value1, option2 = value2...].    
+Retorna uma tabela que lista os projetos disponíveis no Google BigQuery. Um parâmetro de registro opcional, `opções`, pode ser especificado para controlar as seguintes opções:
+
+-   `ConnectionTimeout`: uma duração que controla o tempo de espera antes de abandonar uma tentativa de fazer uma conexão com o servidor. O valor padrão é o valor do Tempo Limite da Conexão ODBC.
+-   `CommandTimeout`: uma duração que controla por quanto tempo a consulta do lado do servidor tem permissão para ser executada antes de ser cancelada.
+-   `BillingProject`: ID do projeto de cobrança. O valor padrão é o primeiro projeto disponível.
+-   `UseStorageApi`: especifica se deve ser utilizada a API de Armazenamento do BigQuery para grandes conjuntos de resultados. O valor padrão é true para usar a API de Armazenamento. Defina como false para não usar a API de Armazenamento
+
+O parâmetro de registro será especificado como \[opção1 = valor1, opção2 = valor2...\].
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Liste os projetos disponíveis no Google BigQuery
 ```powerquery
 GoogleBigQuery.Database()

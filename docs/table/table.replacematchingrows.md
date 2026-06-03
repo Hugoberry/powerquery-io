@@ -21,13 +21,13 @@ Table.ReplaceMatchingRows(
 
 ## Remarks
 
-Replaces all the specified rows in the <code>table</code> with the provided ones. The rows to replace and the replacements are specified in <code>replacements</code>, using \{old, new} formatting.    An optional <code>equationCriteria</code> parameter may be specified to control comparison between the rows of the table.
+Replaces all the specified rows in the `table` with the provided ones. The rows to replace and the replacements are specified in `replacements`, using \{old, new\} formatting. An optional `equationCriteria` parameter may be specified to control comparison between the rows of the table.
 
 
 ## Examples
 
-### Example #1 
-Replace the rows [a = 1, b = 2] and [a = 2, b = 3] with [a = -1, b = -2],[a = -2, b = -3] in the table.
+### Example #1
+Replace the rows \[a = 1, b = 2\] and \[a = 2, b = 3\] with \[a = -1, b = -2\],\[a = -2, b = -3\] in the table.
 ```powerquery
 Table.ReplaceMatchingRows(
     Table.FromRecords({

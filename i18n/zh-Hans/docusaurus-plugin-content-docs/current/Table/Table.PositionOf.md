@@ -22,13 +22,18 @@ Table.PositionOf(
 
 ## Remarks
 
-返回 <code>row</code> 在指定的 <code>table</code> 中第一次出现的行位置。如果找不到该值，则返回 -1。    <ul>       <li><code>table</code>: 输入表。</li>       <li><code>row</code>: 表中要查找其位置的行。</li>       <li><code>occurrence</code>: <i>[可选]</i> 指定要返回的行的出现次数。</li>       <li><code>equationCriteria</code>: <i>[可选]</i> 控制表行之间的比较。</li>    </ul>    
+返回在指定的 `table` 中第一次出现 `row` 的行位置。如果找不到该值，则返回 -1。
+
+-   `table`: 输入表。
+-   `row`: 表中要查找其位置的行。
+-   `occurrence`: *(可选)*指定要返回的行的出现次数。
+-   `equationCriteria`: *(可选)*控制表行之间的比较。
 
 
 ## Examples
 
-### Example #1 
-查找 [a = 2, b = 4] 在表 &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt; 中第一次出现的位置。
+### Example #1
+查找 \[a = 2, b = 4\] 在表 `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})` 中第一次出现的位置。
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({
@@ -47,8 +52,8 @@ Result:
 ```
 
 
-### Example #2 
-查找 [a = 2, b = 4] 在表 &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt; 中第二次出现的位置。
+### Example #2
+查找 \[a = 2, b = 4\] 在表 `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})` 中第二次出现的位置。
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({
@@ -68,8 +73,8 @@ Result:
 ```
 
 
-### Example #3 
-查找 [a = 2, b = 4] 在表 &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt; 中所有出现的位置。
+### Example #3
+查找 \[a = 2, b = 4\] 在表 `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})` 中所有出现的位置。
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({

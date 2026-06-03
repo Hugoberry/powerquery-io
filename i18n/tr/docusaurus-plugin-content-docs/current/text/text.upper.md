@@ -20,13 +20,13 @@ Text.Upper(
 
 ## Remarks
 
-<code>text</code> içindeki tüm karakterlerin büyük harfe dönüştürülmesinin sonucu döndürür. Ayrıca, isteğe bağlı bir <code>culture</code> sağlanabilir (ör. "tr-TR").
+`text` içindeki tüm karakterlerin büyük harfe dönüştürülmesinin sonucu döndürür. Ayrıca, isteğe bağlı bir `culture` sağlanabilir (ör. "tr-TR").
 
 
 ## Examples
 
-### Example #1 
-&#34;aBcD&#34; ifadesinin büyük harfli sürümünü alır.
+### Example #1
+"aBcD" ifadesinin büyük harfli sürümünü alır.
 ```powerquery
 Text.Upper("aBcD")
 ```

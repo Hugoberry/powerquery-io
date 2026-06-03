@@ -21,13 +21,13 @@ Record.SelectFields(
 
 ## Remarks
 
-एक ऐसा रिकॉर्ड लौटाता है जिसमें इनपुट <code>record</code> से <code>fields</code> में निर्दिष्ट फ़ील्ड ही शामिल होते है.
+एक ऐसा रिकॉर्ड लौटाता है जिसमें इनपुट `record` से `fields` में निर्दिष्ट फ़ील्ड ही शामिल होते है.
 
 
 ## Examples
 
-### Example #1 
-रिकॉर्ड में फ़ील्ड &#34;आइटम&#34; और &#34;मूल्य&#34; चुनें.
+### Example #1
+रिकॉर्ड में फ़ील्ड "आइटम" और "मूल्य" चुनें.
 ```powerquery
 Record.SelectFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0],

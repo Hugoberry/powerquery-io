@@ -19,13 +19,15 @@ Date.ToRecord(
 
 ## Remarks
 
-Zwraca rekord zawierający części danej wartości typu date (<code>date</code>). <ul>        <li><code>date</code>: wartość typu <code>date</code>, na podstawie części której jest tworzony rekord.</li>      </ul>
+Zwraca rekord zawierający części danej wartości typu date (`date`).
+
+-   `date`: wartość typu `date`, na podstawie części której jest tworzony rekord.
 
 
 ## Examples
 
-### Example #1 
-Przekonwertuj wartość &lt;code&gt;#date(2011, 12, 31)&lt;/code&gt; na rekord zawierający części z wartości typu date.
+### Example #1
+Przekonwertuj wartość `#date(2011, 12, 31)` na rekord zawierający części z wartości typu date.
 ```powerquery
 Date.ToRecord(#date(2011, 12, 31))
 ```

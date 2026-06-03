@@ -20,12 +20,15 @@ Date.IsInPreviousNWeeks(
 
 ## Remarks
 
-Indica si el valor datetime <code>dateTime</code> proporcionado se produce durante el número anterior de semanas, como se determina por la hora y fecha actual del sistema. Tenga en cuenta que esta función devolverá un valor "false" al pasar un valor que se produzca en la semana actual.      <ul>      <li><code>dateTime</code>: valor <code>date</code>, <code>datetime</code> o <code>datetimezone</code> para evaluar.</li>      <li><code>weeks</code>: número de semanas.</li>      </ul>
+Indica si el valor datetime `dateTime` proporcionado se produce durante el número anterior de semanas, como se determina por la hora y fecha actual del sistema. Tenga en cuenta que esta función devolverá un valor "false" al pasar un valor que se produzca en la semana actual.
+
+-   `dateTime`: valor `date`, `datetime` o `datetimezone` para evaluar.
+-   `weeks`: número de semanas.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determine si la semana anterior a la hora del sistema actual está dentro de las dos semanas anteriores.
 ```powerquery
 Date.IsInPreviousNWeeks(Date.AddDays(DateTime.FixedLocalNow(), -7), 2)

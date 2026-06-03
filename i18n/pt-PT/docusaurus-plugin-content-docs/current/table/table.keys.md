@@ -24,7 +24,7 @@ Devolve as chaves da tabela especificada.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Obtenha a lista de chaves de uma tabela.
 ```powerquery
 let

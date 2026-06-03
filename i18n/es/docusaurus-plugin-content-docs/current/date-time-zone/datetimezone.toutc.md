@@ -19,12 +19,12 @@ DateTimeZone.ToUtc(
 
 ## Remarks
 
-Cambia la información de zona horaria del valor datetime <code>dateTimeZone</code> por la información de zona horaria UTC u Hora universal.    Si <code>dateTimeZone</code> no tiene un componente de zona horaria, se suma la información de zona horaria UTC.
+Cambia la información de zona horaria del valor datetime `dateTimeZone` por la información de zona horaria UTC u Hora universal. Si `dateTimeZone` no tiene un componente de zona horaria, se suma la información de zona horaria UTC.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Cambie la información de zona horaria para #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) a la zona horaria UTC.
 ```powerquery
 DateTimeZone.ToUtc(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30))

@@ -24,7 +24,7 @@ Returnerar nycklarna för den angivna tabellen.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hämta listan över nycklar för en tabell.
 ```powerquery
 let

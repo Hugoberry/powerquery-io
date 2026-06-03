@@ -21,12 +21,12 @@ Replacer.ReplaceValue(
 
 ## Remarks
 
-Vervangt de waarde <code>old</code> in de oorspronkelijke <code>value</code> door de waarde <code>new</code>. Deze vervangingsfunctie kan worden gebruikt in <code>List.ReplaceValue</code> en <code>Table.ReplaceValue</code>.
+Vervangt de waarde `old` in de oorspronkelijke `value` door de waarde `new`. Deze vervangingsfunctie kan worden gebruikt in `List.ReplaceValue` en `Table.ReplaceValue`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De waarde 11 vervangen door de waarde 10.
 ```powerquery
 Replacer.ReplaceValue(11, 11, 10)

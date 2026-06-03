@@ -5,7 +5,7 @@ title: SparkPost.GetTable
 # SparkPost.GetTable
 
 
-Restituisce una tabella di metriche disponibili dall&#39;API SparkPost v1
+Restituisce una tabella di metriche disponibili dall'API SparkPost v1
 
 
 ## Syntax
@@ -27,8 +27,8 @@ SparkPost.GetTable(
 
 ## Examples
 
-### Example #1 
-Recupera le metriche count_sent e count_rejected per deliverability per tutti gli elementi campaign_ids aggregati negli ultimi tre giorni. 
+### Example #1
+Recupera le metriche count\_sent e count\_rejected per deliverability per tutti gli elementi campaign\_ids aggregati negli ultimi tre giorni.
 ```powerquery
 Source = SparkPost.GetTable(3, "count_sent,count_rejected", "campaign_id", "metrics/deliverability/campaign")
 ```

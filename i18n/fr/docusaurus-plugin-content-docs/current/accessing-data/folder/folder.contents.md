@@ -20,7 +20,7 @@ Folder.Contents(
 
 ## Remarks
 
-Renvoie un tableau contenant une ligne pour chaque dossier et fichier trouvé dans le dossier <code>path</code>. Chaque ligne contient les propriétés du dossier ou du fichier et un lien vers son contenu. Ce <code>options</code>paramètre est actuellement destiné à un usage interne uniquement.
+Renvoie un tableau contenant une ligne pour chaque dossier et fichier trouvé dans le dossier `path`. Chaque ligne contient les propriétés du dossier ou du fichier et un lien vers son contenu. Ce `options`paramètre est actuellement destiné à un usage interne uniquement.
 
 
 

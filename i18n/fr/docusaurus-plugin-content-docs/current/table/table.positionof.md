@@ -22,13 +22,18 @@ Table.PositionOf(
 
 ## Remarks
 
-Retourne la position de ligne de la première occurrence de <code>row</code> dans le <code>table</code> spécifié. Retourne -1 si aucune occurrence n'est trouvée.    <ul>       <li><code>table</code> : table d'entrée.</li>       <li><code>row</code> : ligne dans la table dont il faut trouver la position.</li>       <li><code>occurrence</code> : <i>[Facultatif]</i> spécifie quelles occurrences de la ligne sont à retourner.</li>       <li><code>equationCriteria</code> : <i>[Facultatif]</i> contrôle la comparaison entre les lignes de la table.</li>    </ul>    
+Renvoie la position de la ligne de la première occurrence de l'élément `row` dans le `table` spécifié. Renvoie -1 si aucune occurrence n'est trouvée.
+
+-   `table` : Le tableau d'entrée.
+-   `row` : La ligne du tableau dont il faut déterminer la position.
+-   `occurrence` : *(Facultatif)* Spécifie quelles occurrences de la ligne retourner.
+-   `equationCriteria` : *(Facultatif)* Contrôle la comparaison entre les lignes du tableau.
 
 
 ## Examples
 
-### Example #1 
-Recherche la position de la première occurrence de [a = 2, b = 4] dans la table &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #1
+Recherche la position de la première occurrence de \[a = 2, b = 4\] dans la table `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({
@@ -47,8 +52,8 @@ Result:
 ```
 
 
-### Example #2 
-Recherche la position de la deuxième occurrence de [a = 2, b = 4] dans la table &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #2
+Recherche la position de la deuxième occurrence de \[a = 2, b = 4\] dans la table `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({
@@ -68,8 +73,8 @@ Result:
 ```
 
 
-### Example #3 
-Recherche la position de toutes les occurrences de [a = 2, b = 4] dans la table &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #3
+Recherche la position de toutes les occurrences de \[a = 2, b = 4\] dans la table `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({

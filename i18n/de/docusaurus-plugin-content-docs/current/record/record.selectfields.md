@@ -21,13 +21,13 @@ Record.SelectFields(
 
 ## Remarks
 
-Gibt einen Datensatz zurück, der ausschließlich die in der Liste "<code>fields</code>" angegebenen Felder aus der Eingabe "<code>record</code>" enthält.
+Gibt einen Datensatz zurück, der ausschließlich die in der Liste "`fields`" angegebenen Felder aus der Eingabe "`record`" enthält.
 
 
 ## Examples
 
-### Example #1 
-Wählt die Felder &#34;Item&#34; und &#34;Price&#34; des Datensatzes aus.
+### Example #1
+Wählt die Felder "Item" und "Price" des Datensatzes aus.
 ```powerquery
 Record.SelectFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0],

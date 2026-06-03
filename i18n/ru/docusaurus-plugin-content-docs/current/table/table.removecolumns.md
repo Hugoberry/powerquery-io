@@ -21,13 +21,13 @@ Table.RemoveColumns(
 
 ## Remarks
 
-Удаляет указанный <code>columns</code> из предоставленной <code>table</code>.    Когда указанный столбец не существует, возникает ошибка, если необязательным параметром <code>missingField</code> не задано альтернативное поведение (например, <code>MissingField.UseNull</code> или <code>MissingField.Ignore</code>).
+Удаляет указанный `columns` из предоставленной `table`. Когда указанный столбец не существует, возникает ошибка, если необязательным параметром `missingField` не задано альтернативное поведение (например, `MissingField.UseNull` или `MissingField.Ignore`).
 
 
 ## Examples
 
-### Example #1 
-Удаление столбца [Phone] из таблицы.
+### Example #1
+Удаление столбца \[Phone\] из таблицы.
 ```powerquery
 Table.RemoveColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -41,7 +41,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #2 
+### Example #2
 Попробуйте удалить несуществующий столбец из таблицы.
 ```powerquery
 Table.RemoveColumns(

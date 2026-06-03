@@ -27,7 +27,7 @@ Traduce todas las columnas distintas de un conjunto especificado en pares de atr
 
 ## Examples
 
-### Example #1 
+### Example #1
 Traduce todas las columnas que no formen parte de un conjunto especifico de pares de atributo-valor y que están combinadas con el resto de valores de cada fila.
 ```powerquery
 Table.UnpivotOtherColumns(

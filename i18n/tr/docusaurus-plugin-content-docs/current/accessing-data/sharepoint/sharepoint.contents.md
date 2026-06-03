@@ -20,7 +20,10 @@ SharePoint.Contents(
 
 ## Remarks
 
-Belirtilen <code>url</code> SharePoint sitesi üzerinde bulunan her bir klasör ve belge için ayrı bir satır içeren bir tablo döndürür. Her satır, klasörün veya dosyanın özelliklerini ve içeriğine bir bağlantı içerir. Aşağıdaki seçenekleri denetlemek için <code>options</code> belirtilebilir:    <ul><li><code>ApiVersion</code> : Bu site i&#231;in kullanılacak SharePoint API s&#252;r&#252;m&#252;n&#252; belirten bir sayı (14 veya 15) ya da &quot;Auto&quot; metni. Belirtilmediği takdirde API 14 s&#252;r&#252;m&#252; kullanılır. Auto belirtildiğinde m&#252;mk&#252;nse, sunucu s&#252;r&#252;m&#252; otomatik olarak bulunur; aksi takdirde s&#252;r&#252;m, varsayılan olarak 14&#39;t&#252;r. İngilizce olmayan SharePoint siteleri i&#231;in en az 15 s&#252;r&#252;m&#252; gereklidir.</li></ul>    
+Belirtilen `url` SharePoint sitesi üzerinde bulunan her bir klasör ve belge için ayrı bir satır içeren bir tablo döndürür. Her satır, klasörün veya dosyanın özelliklerini ve içeriğine bir bağlantı içerir. Aşağıdaki seçenekleri denetlemek için `options` belirtilebilir:
+
+-   `ApiVersion` : Bu site için kullanılacak SharePoint API sürümünü belirten bir sayı (14 veya 15) ya da "Auto" metni. Belirtilmediği takdirde API 14 sürümü kullanılır. Auto belirtildiğinde mümkünse, sunucu sürümü otomatik olarak bulunur; aksi takdirde sürüm, varsayılan olarak 14'tür. İngilizce olmayan SharePoint siteleri için en az 15 sürümü gereklidir.
+-   `Implementation` : İsteğe bağlı. SharePoint bağlayıcısının hangi sürümünün kullanılacağı belirtir. Kabul edilen değerler: "2.0" veya null. Değer "2.0" ise SharePoint bağlayıcısı 2.0 uygulaması kullanılır. Değer null ise SharePoint bağlayıcısı özgün uygulaması kullanılır.
 
 
 

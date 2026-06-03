@@ -19,12 +19,12 @@ List.StandardDeviation(
 
 ## Remarks
 
-返回基于样本估计的列表 <code>numbersList</code> 中的值的标准偏差。    如果 <code>numbersList</code> 是数字列表，则返回数字。    如果为空列表或类型不属于 <code>number</code> 的项的列表，将引发异常。
+返回基于样本估计的列表 `numbersList` 中的值的标准偏差。 如果 `numbersList` 是数字列表，则返回数字。 如果列表为空或列表中项的类型不属于 `number`，则引发错误。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 计算 1 到 5 的数的标准偏差。
 ```powerquery
 List.StandardDeviation({1..5})

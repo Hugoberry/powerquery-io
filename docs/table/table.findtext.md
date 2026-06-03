@@ -20,13 +20,13 @@ Table.FindText(
 
 ## Remarks
 
-Returns the rows in the table <code>table</code> that contain the text <code>text</code>. If the text is not found, an empty table is returned.
+Returns the rows in the table `table` that contain the text `text`. If the text is not found, an empty table is returned.
 
 
 ## Examples
 
-### Example #1 
-Find the rows in the table that contain &#34;Bob&#34;.
+### Example #1
+Find the rows in the table that contain "Bob".
 ```powerquery
 Table.FindText(
     Table.FromRecords({

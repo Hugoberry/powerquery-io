@@ -19,12 +19,12 @@ Table.ReverseRows(
 
 ## Remarks
 
-入力 <code>table</code> の行を逆順にしたテーブルを返します。
+入力 `table` の行を逆順にしたテーブルを返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブルの行を逆順にします。
 ```powerquery
 Table.ReverseRows(

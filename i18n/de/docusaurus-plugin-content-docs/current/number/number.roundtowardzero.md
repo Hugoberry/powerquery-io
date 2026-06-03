@@ -20,12 +20,12 @@ Number.RoundTowardZero(
 
 ## Remarks
 
-Gibt das Ergebnis der Rundung von <code>number</code> auf der Grundlage des Vorzeichens zurück. Positive Zahlen werden abgerundet, negative Zahlen aufgerundet.    Wenn <code>digits</code> angegeben wird, wird <code>number</code> auf die Anzahl <code>digits</code> der Dezimalstellen gerundet.  
+Gibt das Ergebnis der Rundung von `number` auf der Grundlage des Vorzeichens zurück. Positive Zahlen werden abgerundet, negative Zahlen aufgerundet. Wenn `digits` angegeben wird, wird `number` auf die Anzahl `digits` der Dezimalstellen gerundet.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Rundet die Zahl -1,2 Richtung null.
 ```powerquery
 Number.RoundTowardZero(-1.2)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Rundet die Zahl 1,2 Richtung null.
 ```powerquery
 Number.RoundTowardZero(1.2)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Rundet die Zahl -1,234 auf zwei Dezimalstellen gegen null.
 ```powerquery
 Number.RoundTowardZero(-1.234, 2)

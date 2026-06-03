@@ -22,13 +22,13 @@ Table.DuplicateColumn(
 
 ## Remarks
 
-Повторять столбец с именем <code>columnName</code> в таблице <code>table</code>. Значения и тип данных для столбца <code>newColumnName</code> копируются из столбца <code>columnName</code>.
+Создать дубликат столбца с именем `columnName` в таблице `table`. Значения и тип данных для столбца `newColumnName` копируются из столбца `columnName`.
 
 
 ## Examples
 
-### Example #1 
-Повторять столбец &#34;a&#34; в столбец с именем &#34;copied column&#34; в таблице &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt;.
+### Example #1
+Повторять столбец "a" в столбец с именем "copied column" в таблице `({[a = 1, b = 2], [a = 3, b = 4]})`.
 ```powerquery
 Table.DuplicateColumn(
     Table.FromRecords({

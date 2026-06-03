@@ -20,12 +20,12 @@ Record.FromList(
 
 ## Remarks
 
-Returnerar en post baserat på <code>list</code> med fältvärden och en uppsättning fält. <code>fields</code> kan anges antingen med en lista med textvärden eller med en posttyp. Ett fel genereras om fälten inte är unika.
+Returnerar en post baserat på `list` med fältvärden och en uppsättning fält. `fields` kan anges antingen med en lista med textvärden eller med en posttyp. Ett undantag genereras om fälten inte är unika.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Skapa en post från en lista med fältvärden och en lista med fältnamn.
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, {"CustomerID", "Name", "Phone"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Skapa en post från en lista med fältvärden och en posttyp.
 ```powerquery
 Record.FromList({1, "Bob", "123-4567"}, type [CustomerID = number, Name = text, Phone = number])

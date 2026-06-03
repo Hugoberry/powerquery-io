@@ -22,12 +22,20 @@ Text.PositionOf(
 
 ## Remarks
 
-Zwraca pozycję określonego wystąpienia wartości tekstowej <code>substring</code> znalezionej w <code>text</code>.    Za pomocą opcjonalnego parametru <code>occurrence</code> można określić, które położenie wystąpienia ma być zwracane (domyślnie jest to pierwsze wystąpienie).    Zwraca wartość -1 jeśli wartość <code>substring</code> nie została znaleziona.      <div>        <code>comparer</code> to <code>Comparer</code> funkcja porównująca używana do sterowania porównywaniem. Funkcje porównujące mogą być używane do przeprowadzania porównania nie wymagającego rozróżniania wielkości liter, uwzględniającego uwarunkowania kulturowe lub lokalne.      </div>      <div>        W języku formuły są dostępne następujące wbudowane funkcje porównujące:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: służy do wykonywania dokładnego porównania porządkowego</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: służy do wykonywania dokładnego porównania bez uwzględniania wielkości liter</li>        <li> <code>Comparer.FromCulture</code>: służy do porównywania uwzględniającego uwarunkowania kulturowe</li>      </ul>
+Zwraca pozycję określonego wystąpienia wartości tekstowej `substring` znalezionej w `text`. Za pomocą opcjonalnego parametru `occurrence` można określić, które położenie wystąpienia ma być zwracane (domyślnie jest to pierwsze wystąpienie). Zwraca wartość -1 jeśli wartość `substring` nie została znaleziona.
+
+`comparer` to `Comparer` funkcja porównująca używana do sterowania porównywaniem. Funkcje porównujące mogą być używane do przeprowadzania porównania nie wymagającego rozróżniania wielkości liter, uwzględniającego uwarunkowania kulturowe lub lokalne.
+
+W języku formuły są dostępne następujące wbudowane funkcje porównujące:
+
+-   `Comparer.Ordinal`: służy do wykonywania dokładnego porównania porządkowego
+-   `Comparer.OrdinalIgnoreCase`: służy do wykonywania dokładnego porównania bez uwzględniania wielkości liter
+-   `Comparer.FromCulture`: służy do porównywania uwzględniającego uwarunkowania kulturowe
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Pobierz pozycję pierwszego wystąpienia wyrazu „World” w tekście „Hello, World! Hello, World!”.
 ```powerquery
 Text.PositionOf("Hello, World! Hello, World!", "World")
@@ -39,7 +47,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Pobierz położenie ostatniego wystąpienia wyrazu „World” w tekście „Hello, World! Hello, World!”.
 ```powerquery
 Text.PositionOf("Hello, World! Hello, World!", "World", Occurrence.Last)

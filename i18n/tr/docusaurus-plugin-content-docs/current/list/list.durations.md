@@ -21,12 +21,12 @@ List.Durations(
 
 ## Remarks
 
-<code>start</code> ile başlayan ve verilen <code>duration</code> <code>step</code> ile artan bir <code>count</code> <code>duration</code> değer listesi döndürür.
+`start` ile başlayan ve verilen `duration` `step` ile artan bir `count` `duration` değer listesi döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 1 saat ile başlayarak birer saat artacak şekilde 5 değer içeren bir liste oluşturur.
 ```powerquery
 List.Durations(#duration(0, 1, 0, 0), 5, #duration(0, 1, 0, 0))

@@ -20,12 +20,15 @@ List.Random(
 
 ## Remarks
 
-Zwraca listę losowych liczb z zakresu od 0 do 1, używając liczby wartości do wygenerowania opcjonalnej wartości inicjatora.<ul>   <li><code>count</code>: liczba losowych wartości do wygenerowania.</li>   <li><code>seed</code>: <i>[Parametr opcjonalny]</i> Wartość liczbowa używana w celu zainicjowania generatora liczb losowych. Jeśli ten parametr zostanie pominięty, przy każdym wywołaniu tej funkcji będzie generowana unikatowa lista losowych liczb. Jeśli zostanie określona wartość liczbowa inicjatora, przy każdym wywołaniu tej funkcji będzie generowana taka sama lista liczb losowych.</li></ul>
+Zwraca listę losowych liczb z zakresu od 0 do 1, używając liczby wartości do wygenerowania opcjonalnej wartości inicjatora.
+
+-   `count`: liczba losowych wartości do wygenerowania.
+-   `seed`: *(opcjonalnie)* Wartość liczbowa używana w celu zainicjowania generatora liczb losowych. Jeśli ten parametr zostanie pominięty, przy każdym wywołaniu tej funkcji będzie generowana unikatowa lista losowych liczb. Jeśli zostanie określona wartość liczbowa inicjatora, przy każdym wywołaniu tej funkcji będzie generowana taka sama lista liczb losowych.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utwórz listę zawierającą 3 liczby losowe.
 ```powerquery
 List.Random(3)
@@ -37,7 +40,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Utwórz listę zawierającą 3 liczby losowe, określając wartość inicjatora.
 ```powerquery
 List.Random(3, 2)

@@ -5,7 +5,7 @@ title: Table.FromColumns
 # Table.FromColumns
 
 
-Crée une table à partir d&#39;une liste de colonnes et de valeurs spécifiées.
+Crée une table à partir d'une liste de colonnes et de valeurs spécifiées.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Table.FromColumns(
 
 ## Remarks
 
-Crée une table de type <code>columns</code> depuis une liste <code>lists</code> contenant des listes imbriquées avec les noms des colonnes et les valeurs.    Si certaines colonnes ont plus de valeurs que d'autres, les valeurs manquantes sont renseignées avec la valeur par défaut, 'null', si les colonnes sont nullables.
+Crée une table de type `columns` depuis une liste `lists` contenant des listes imbriquées avec les noms des colonnes et les valeurs. Si certaines colonnes ont plus de valeurs que d'autres, les valeurs manquantes sont renseignées avec la valeur par défaut, 'null', si les colonnes sont nullables.
 
 
 ## Examples
 
-### Example #1 
-Retourne une table à partir d&#39;une liste de noms de clients (customer) d&#39;une liste. Chaque valeur de l&#39;élément de la liste de clients devient une valeur de ligne, et chaque liste devient une colonne.
+### Example #1
+Retourne une table à partir d'une liste de noms de clients (customer) d'une liste. Chaque valeur de l'élément de la liste de clients devient une valeur de ligne, et chaque liste devient une colonne.
 ```powerquery
 Table.FromColumns({
     {1, "Bob", "123-4567"},
@@ -45,8 +45,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Crée une table à partir d&#39;une liste spécifiée de colonnes et une liste de noms de colonnes.
+### Example #2
+Crée une table à partir d'une liste spécifiée de colonnes et une liste de noms de colonnes.
 ```powerquery
 Table.FromColumns(
     {
@@ -68,8 +68,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Crée une table avec un nombre de colonnes différent selon les lignes. La valeur manquante d&#39;une ligne est null.
+### Example #3
+Crée une table avec un nombre de colonnes différent selon les lignes. La valeur manquante d'une ligne est null.
 ```powerquery
 Table.FromColumns(
     {

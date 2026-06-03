@@ -25,7 +25,7 @@ Returnerer en tabel, hvor rækkerne er fjernet fra den inputtabel, der indeholde
 
 ## Examples
 
-### Example #1 
+### Example #1
 Fjern fejlværdien fra første række.
 ```powerquery
 Table.RemoveRowsWithErrors(

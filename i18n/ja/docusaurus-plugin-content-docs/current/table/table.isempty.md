@@ -19,12 +19,12 @@ Table.IsEmpty(
 
 ## Remarks
 
-<code>table</code> に行が含まれているかどうかを示します。行が存在しない (つまり、テーブルが空の) 場合は <code>true</code>、それ以外の場合は <code>false</code> を返します。
+`table` に行が含まれているかどうかを示します。行が存在しない (つまり、テーブルが空の) 場合は `true`、それ以外の場合は `false` を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブルが空かどうかを調べます。
 ```powerquery
 Table.IsEmpty(
@@ -42,8 +42,8 @@ false
 ```
 
 
-### Example #2 
-テーブル &lt;code&gt;(\{})&lt;/code&gt; が空かどうかを調べます。
+### Example #2
+テーブル `({})` が空かどうかを調べます。
 ```powerquery
 Table.IsEmpty(Table.FromRecords({}))
 ```

@@ -20,12 +20,15 @@ Binary.Compress(
 
 ## Remarks
 
-Nén giá trị nhị phân bằng loại nén đã cho. Kết quả của lệnh gọi này là bản sao dữ liệu đầu vào ở dạng nén. Các loại nén bao  gồm:  <ul>        <li><code>Compression.GZip</code></li>        <li><code>Compression.Deflate</code></li>      </ul>
+Nén giá trị nhị phân bằng loại nén đã cho. Kết quả của lệnh gọi này là bản sao dữ liệu đầu vào ở dạng nén. Các loại nén bao gồm:
+
+-   `Compression.GZip`
+-   `Compression.Deflate`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Nén giá trị nhị phân.
 ```powerquery
 Binary.Compress(Binary.FromList(List.Repeat({10}, 1000)), Compression.Deflate)

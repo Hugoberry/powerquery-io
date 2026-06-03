@@ -24,7 +24,7 @@ Returnerer et vilkårligt tal mellem 0 og 1.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hent et tilfældigt tal.
 ```powerquery
 Number.Random()

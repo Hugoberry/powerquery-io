@@ -10,8 +10,7 @@ title: EduFrame.Contents
 
 ```powerquery
 EduFrame.Contents(
-    domainSlug as text,
-    personalInput as text
+    domainSlug as text
 ) as table
 ```
 

@@ -23,12 +23,12 @@ Table.FromList(
 
 ## Remarks
 
-Konverterar en lista, <code>list</code>, till en tabell genom att tillämpa den valfria delningsfunktionen, <code>splitter</code>, på varje objekt i listan. Som standard antas listan vara en lista med textvärden som avgränsas med komma. <code>columns</code> (valfritt) kan vara antalet kolumner, en lista med kolumner eller en TableType. <code>default</code> och <code>extraValues</code> (valfria) kan också anges.
+Konverterar en lista, `list`, till en tabell genom att tillämpa den valfria delningsfunktionen, `splitter`, på varje objekt i listan. Som standard antas listan vara en lista med textvärden som avgränsas med komma. `columns` (valfritt) kan vara antalet kolumner, en lista med kolumner eller en TableType. `default` och `extraValues` (valfria) kan också anges.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Skapa en tabell från en lista med standarddelaren.
 ```powerquery
 Table.FromList(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Skapa en tabell från en lista med en anpassad delning.
 ```powerquery
 Table.FromList(
@@ -70,7 +70,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Skapa en tabell från listan med splittern Record.FieldValues.
 ```powerquery
 Table.FromList(

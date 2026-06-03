@@ -20,13 +20,13 @@ Text.Upper(
 
 ## Remarks
 
-Returnerer resultatet af at konvertere alle tegn i <code>text</code> til store bogstaver. Der kan også angives en valgfri <code>culture</code> (f. eks. "en-US").
+Returnerer resultatet af at konvertere alle tegn i `text` til store bogstaver. Der kan også angives en valgfri `culture` (f. eks. "en-US").
 
 
 ## Examples
 
-### Example #1 
-Hent versionen af &#34;aBcD&#34; med store bogstaver.
+### Example #1
+Hent versionen af "aBcD" med store bogstaver.
 ```powerquery
 Text.Upper("aBcD")
 ```

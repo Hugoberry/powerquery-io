@@ -20,12 +20,12 @@ Number.RoundTowardZero(
 
 ## Remarks
 
-Retourneert het resultaat van het afronden van <code>number</code> op basis van het teken bij het getal. Deze functie rondt positieve getallen naar beneden en negatieve getallen naar boven af.    Als <code>digits</code> is opgegeven, wordt <code>number</code> afgerond naar het <code>digits</code> aantal decimale cijfers.  
+Retourneert het resultaat van het afronden van `number` op basis van het teken bij het getal. Deze functie rondt positieve getallen naar beneden en negatieve getallen naar boven af. Als `digits` is opgegeven, wordt `number` afgerond naar het `digits` aantal decimale cijfers.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Het getal -1,2 afronden op nul.
 ```powerquery
 Number.RoundTowardZero(-1.2)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Het getal 1,2 afronden op nul.
 ```powerquery
 Number.RoundTowardZero(1.2)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Het getal -1.234 afronden naar twee decimalen richting nul.
 ```powerquery
 Number.RoundTowardZero(-1.234, 2)

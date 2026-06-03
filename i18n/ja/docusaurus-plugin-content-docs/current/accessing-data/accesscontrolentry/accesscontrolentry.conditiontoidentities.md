@@ -20,7 +20,9 @@ AccessControlEntry.ConditionToIdentities(
 
 ## Remarks
 
-指定した <code>identityProvider</code> を使用すると、<code>condition</code> が ID の一覧に変換されます。この一覧で <code>condition</code> は、<code>identityProvider</code> を ID プロバイダーとするすべての承認コンテキストで <code>true</code> を返します。<code>condition</code> が決定を下すためにユーザー ID やグループ ID 以外の属性を参照するなど、<code>condition</code> を ID の一覧に変換することができない場合はエラーが発生します。<br />    ID の一覧が <code>condition</code> に使用される ID を表しており、その ID の一覧に対して正規化 (グループ拡張など) が実行されていないことに注意してください。<br />
+指定した `identityProvider` を使用すると、`condition` が ID の一覧に変換されます。この一覧で `condition` は、`identityProvider` を ID プロバイダーとするすべての承認コンテキストで `true` を返します。`condition` が決定を下すためにユーザー ID やグループ ID 以外の属性を参照するなど、`condition` を ID の一覧に変換することができない場合はエラーが発生します。
+
+ID の一覧が `condition` に使用される ID を表しており、その ID の一覧に対して正規化 (グループ拡張など) が実行されていないことに注意してください。
 
 
 

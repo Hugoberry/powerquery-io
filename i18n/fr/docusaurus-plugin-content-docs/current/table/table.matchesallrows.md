@@ -20,13 +20,13 @@ Table.MatchesAllRows(
 
 ## Remarks
 
-Indique si toutes les lignes dans <code>table</code> correspondent au <code>condition</code> qui est spécifié. Retourne <code>true</code> si toutes les lignes correspondent, sinon <code>false</code>.
+Indique si toutes les lignes dans `table` correspondent au `condition` qui est spécifié. Retourne `true` si toutes les lignes correspondent, sinon `false`.
 
 
 ## Examples
 
-### Example #1 
-Détermine si toutes les valeurs des lignes dans la colonne [a] sont paires dans la table.
+### Example #1
+Détermine si toutes les valeurs des lignes dans la colonne \[a\] sont paires dans la table.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ true
 ```
 
 
-### Example #2 
-Détermine si toutes les valeurs des lignes sont [a = 1, b = 2], dans la table &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt;.
+### Example #2
+Détermine si toutes les valeurs des lignes sont \[a = 1, b = 2\], dans la table `({[a = 1, b = 2], [a = 3, b = 4]})`.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({

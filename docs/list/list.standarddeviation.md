@@ -19,12 +19,12 @@ List.StandardDeviation(
 
 ## Remarks
 
-Returns a sample based estimate of the standard deviation of the values in the list, <code>numbersList</code>.    If <code>numbersList</code> is a list of numbers, a number is returned.    An exception is thrown on an empty list or a list of items that is not type <code>number</code>.
+Returns a sample based estimate of the standard deviation of the values in the list, `numbersList`. If `numbersList` is a list of numbers, a number is returned. An error is raised on an empty list or a list of items that is not type `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find the standard deviation of the numbers 1 through 5.
 ```powerquery
 List.StandardDeviation({1..5})

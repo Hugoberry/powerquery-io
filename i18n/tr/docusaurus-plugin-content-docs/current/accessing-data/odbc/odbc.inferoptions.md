@@ -19,12 +19,12 @@ Odbc.InferOptions(
 
 ## Remarks
 
-<code>connectionString</code> dizesiyle ODBC kullanarak SQL yeteneklerini çıkarsama denemesinin sonucunu döndürür. <code>connectionString</code> metin veya özellik değeri çiftlerinin kaydı olabilir. Özellik değerleri metin veya sayı olabilir.
+`connectionString` dizesiyle ODBC kullanarak SQL yeteneklerini çıkarsama denemesinin sonucunu döndürür. `connectionString` metin veya özellik değeri çiftlerinin kaydı olabilir. Özellik değerleri metin veya sayı olabilir.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bağlantı dizesi için çıkarsanan SQL özelliklerini döndürün.
 ```powerquery
 Odbc.InferOptions("dsn=your_dsn")

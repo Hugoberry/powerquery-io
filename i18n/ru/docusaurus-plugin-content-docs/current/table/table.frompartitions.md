@@ -21,13 +21,13 @@ Table.FromPartitions(
 
 ## Remarks
 
-Возвращает таблицу, являющуюся результатом комбинирования набора разделенных таблиц <code>partitions</code>. <code>partitionColumn</code> представляет собой имя добавляемого столбца. По умолчанию используется тип столбца <code>any</code>, однако он может быть указан в <code>partitionColumnType</code>.
+Возвращает таблицу, являющуюся результатом комбинирования набора разделенных таблиц `partitions`. `partitionColumn` представляет собой имя добавляемого столбца. По умолчанию используется тип столбца `any`, однако он может быть указан в `partitionColumnType`.
 
 
 ## Examples
 
-### Example #1 
-Найти тип элемента в списке &lt;code&gt;\{number}&lt;/code&gt;.
+### Example #1
+Найти тип элемента в списке `{number}`.
 ```powerquery
 Table.FromPartitions(
     "Year",

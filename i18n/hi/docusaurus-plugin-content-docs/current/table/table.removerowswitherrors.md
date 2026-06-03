@@ -25,7 +25,7 @@ Table.RemoveRowsWithErrors(
 
 ## Examples
 
-### Example #1 
+### Example #1
 पहली पंक्ति से त्रुटि मान निकालें.
 ```powerquery
 Table.RemoveRowsWithErrors(

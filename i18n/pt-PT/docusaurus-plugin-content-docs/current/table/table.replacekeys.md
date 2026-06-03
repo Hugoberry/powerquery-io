@@ -25,7 +25,7 @@ Substitui as chaves da tabela especificada.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Substitua as chaves existentes de uma tabela.
 ```powerquery
 let

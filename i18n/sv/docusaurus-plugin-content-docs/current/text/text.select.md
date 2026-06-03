@@ -20,12 +20,12 @@ Text.Select(
 
 ## Remarks
 
-Returnerar en kopia av textvärdet <code>text</code> där alla tecken som inte finns i <code>selectChars</code> har tagits bort.  
+Returnerar en kopia av textvärdet `text` där alla tecken som inte finns i `selectChars` har tagits bort.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Markera alla tecken mellan a till z från textvärdet.
 ```powerquery
 Text.Select("a,b;c", {"a".."z"})

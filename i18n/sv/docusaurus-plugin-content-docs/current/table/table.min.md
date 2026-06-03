@@ -21,13 +21,13 @@ Table.Min(
 
 ## Remarks
 
-Returnerar den minsta raden i <code>table</code> baserat på angivet <code>comparisonCriteria</code>. Om tabellen är tom returneras det valfria värdet <code>default</code>.
+Returnerar den minsta raden i `table` baserat på angivet `comparisonCriteria`. Om tabellen är tom returneras det valfria värdet `default`.
 
 
 ## Examples
 
-### Example #1 
-Hitta raden med det minsta värdet i kolumnen [a] i tabellen.
+### Example #1
+Hitta raden med det minsta värdet i kolumnen \[a\] i tabellen.
 ```powerquery
 Table.Min(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Hitta raden med det minsta värdet i kolumnen [a] i tabellen. Returnera -1 om den är tom.
+### Example #2
+Hitta raden med det minsta värdet i kolumnen \[a\] i tabellen. Returnera -1 om den är tom.
 ```powerquery
 Table.Min(#table({"a"}, {}), "a", -1)
 ```

@@ -20,12 +20,12 @@ Table.Combine(
 
 ## Remarks
 
-Retorna uma tabela que é o resultado da mesclagem de uma lista de tabelas, <code>tables</code>. A tabela resultante terá uma estrutura de tipo de linha definida por <code>columns</code> ou por uma união dos tipos de entrada se <code>columns</code> não foi especificado.
+Retorna uma tabela que é o resultado da mesclagem de uma lista de tabelas, `tables`. A tabela resultante terá uma estrutura de tipo de linha definida por `columns` ou por uma união dos tipos de entrada se `columns` não foi especificado.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Mesclar as três tabelas.
 ```powerquery
 Table.Combine({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Mescle três tabelas com estruturas diferentes.
 ```powerquery
 Table.Combine({
@@ -65,7 +65,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Mescle duas tabelas e o projeto para o tipo fornecido.
 ```powerquery
 Table.Combine(

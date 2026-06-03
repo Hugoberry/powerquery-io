@@ -19,13 +19,19 @@ Duration.From(
 
 ## Remarks
 
-Hiermee wordt een <code>duration</code>-waarde geretourneerd van de opgegeven waarde <code>value</code>. Als de opgegeven waarde <code>value</code> <code>null</code> is, retourneert <code>Duration.From</code> <code>null</code>. Als de opgegeven waarde <code>value</code> <code>duration</code> is, wordt <code>value</code> geretourneerd. Waarden van de volgende typen kunnen worden omgezet naar een <code>duration</code>-waarde: <ul> <li><code>text</code>: een <code>duration</code>-waarde van tekstuele formulieren met verstreken tijd (d.h:m:s). Raadpleeg <code>Duration.FromText</code> voor meer informatie.</li> <li><code>number</code>: een <code>duration</code> equivalent voor het aantal gehele en gedeeltelijke dagen, uitgedrukt door <code>value</code>.</li> </ul>Als <code>value</code> van een ander type is, wordt een fout geretourneerd.
+Retourneert een duurwaarde van de opgegeven waarde.
+
+-   `value`: de waarde van waaruit de duur wordt afgeleid. Als de opgegeven `value` `null` is, retourneert deze functie `null`. Als de opgegeven `value` een `duration` is, wordt `value` geretourneerd. Waarden van de volgende typen kunnen worden geconverteerd naar een `duration`\- waarde:
+    -   `text`: een `duration`\-waarde afgeleid van tekstuele vormen van verstreken tijd (d.u:m:s). Raadpleeg `Duration.FromText` voor meer informatie.
+    -   `number`: een `duration` die gelijk is aan het aantal gehele en fractionele dagen dat wordt uitgedrukt door `value`.
+
+Als `value` van een ander type is, wordt er een fout geretourneerd.
 
 
 ## Examples
 
-### Example #1 
-Zet &lt;code&gt;2.525&lt;/code&gt; om naar een &lt;code&gt;duration&lt;/code&gt;waarde.
+### Example #1
+Zet `2.525` om naar een `duration`waarde.
 ```powerquery
 Duration.From(2.525)
 ```
@@ -33,6 +39,18 @@ Duration.From(2.525)
 Result: 
 ```powerquery
 #duration(2, 12, 36, 0)
+```
+
+
+### Example #2
+Zet de tekstwaarde `"2.05:55:20.34567"` om naar een `duration`\-waarde.
+```powerquery
+Duration.From("2.05:55:20.34567")
+```
+
+Result: 
+```powerquery
+#duration(2, 5, 55, 20.3456700)
 ```
 
 

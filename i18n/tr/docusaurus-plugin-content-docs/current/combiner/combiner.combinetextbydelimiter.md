@@ -25,7 +25,7 @@ Bir metin değerleri listesini belirtilen sınırlayıcıyı kullanarak tek bir 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Metin değerleri listesini noktalı virgül sınırlayıcı kullanarak birleştirin.
 ```powerquery
 Combiner.CombineTextByDelimiter(";")({"a", "b", "c"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Virgül sınırlayıcı ve CSV stili alıntılama özelliğini kullanarak iki sütunlu metni birleştirin.
 ```powerquery
 let

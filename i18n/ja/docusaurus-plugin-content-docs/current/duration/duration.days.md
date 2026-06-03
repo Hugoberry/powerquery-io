@@ -19,12 +19,12 @@ Duration.Days(
 
 ## Remarks
 
-<code>duration</code>の日数の部分を返します。
+`duration`の日数の部分を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 2 つの日付の間の日数を抽出します。
 ```powerquery
 Duration.Days(#date(2022, 3, 4) - #date(2022, 2, 25))

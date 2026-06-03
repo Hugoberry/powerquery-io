@@ -21,13 +21,13 @@ Table.ContainsAll(
 
 ## Remarks
 
-Indica se todos os registos especificados na lista de registos <code>rows</code> aparecem como linhas na <code>table</code>.    É possível especificar um parâmetro opcional <code>equationCriteria</code> para controlar a comparação entre as linhas da tabela.
+Indica se todos os registos especificados na lista de registos `rows` aparecem como linhas na `table`. É possível especificar um parâmetro opcional `equationCriteria` para controlar a comparação entre as linhas da tabela.
 
 
 ## Examples
 
-### Example #1 
-Determine se a tabela contém todas as linhas ao comparar apenas a coluna [CustomerID].
+### Example #1
+Determine se a tabela contém todas as linhas ao comparar apenas a coluna \[CustomerID\].
 ```powerquery
 Table.ContainsAll(
     Table.FromRecords({
@@ -50,7 +50,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Determinar se a tabela contém todas as linhas.
 ```powerquery
 Table.ContainsAll(

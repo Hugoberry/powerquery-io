@@ -21,12 +21,12 @@ ApacheSpark.Tables(
 
 ## Remarks
 
-Zwraca tabelę z listą tabel w elemencie <code>host</code> klastra platformy Spark używającego elementu <code>protocol</code>. Prawidłowe protokoły:SparkProtocol.Standard, SparkProtocol.HTTP
+Zwraca tabelę z listą tabel w elemencie `host` klastra platformy Spark używającego elementu `protocol`. Prawidłowe protokoły: SparkProtocol.Standard, SparkProtocol.HTTP
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zwraca tabelę z listą tabel w określonym klastrze platformy Spark.
 ```powerquery
 Spark.Tables("http://example.com:10000/cliservice", SparkProtocol.HTTP)

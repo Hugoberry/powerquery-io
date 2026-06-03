@@ -22,12 +22,22 @@ BinaryFormat.Choice(
 
 ## Remarks
 
-Zwraca format binarny wybierający następny format binarny na podstawie wartości, która została już odczytana.  Wartość formatu binarnego utworzonego przez tę funkcję działa etapowo:<ul><li>Format binarny określony przez parametr <code>binaryFormat</code> jest używany do odczytania wartości.</li><li>Wartość jest przekazywana do funkcji wyboru określonej przez parametr <code>chooseFunction</code>.</li><li>Funkcja wyboru sprawdza wartość i zwraca drugi format binarny.</li><li>Drugi format binarny jest używany do odczytania drugiej wartości.</li><li>Jeśli została określona funkcja łączenia, pierwsza i druga wartość są przekazywane do funkcji łączenia, a następnie jest zwracana wartość wynikowa.</li><li>Jeśli nie została określona funkcja łączenia, zwracana jest druga wartość.</li><li>Zwracana jest druga wartość.</li></ul>Opcjonalny parametr <code>type</code> wskazuje typ formatu binarnego, który zostanie zwrócony przez funkcję wyboru.  Można określić wartość <code>type any</code>, <code>type list</code> lub <code>type binary</code>.  Jeśli parametr <code>type</code> nie został określony, jest używana wartość <code>type any</code>.   Jeśli jest używana wartość <code>type list</code> lub <code>type binary</code>, system może być w stanie zwrócić strumieniową wartość typu <code>binary</code> lub <code>list</code>, zamiast wartości buforowanej, co może zmniejszyć ilość pamięci potrzebnej do odczytania formatu.
+Zwraca format binarny wybierający następny format binarny na podstawie wartości, która została już odczytana. Wartość formatu binarnego utworzonego przez tę funkcję działa etapowo:
+
+-   Format binarny określony przez parametr `binaryFormat` jest używany do odczytania wartości.
+-   Wartość jest przekazywana do funkcji wyboru określonej przez parametr `chooseFunction`.
+-   Funkcja wyboru sprawdza wartość i zwraca drugi format binarny.
+-   Drugi format binarny jest używany do odczytania drugiej wartości.
+-   Jeśli została określona funkcja łączenia, pierwsza i druga wartość są przekazywane do funkcji łączenia, a następnie jest zwracana wartość wynikowa.
+-   Jeśli nie została określona funkcja łączenia, zwracana jest druga wartość.
+-   Zwracana jest druga wartość.
+
+Opcjonalny parametr `type` wskazuje typ formatu binarnego, który zostanie zwrócony przez funkcję wyboru. Można określić wartość `type any`, `type list` lub `type binary`. Jeśli parametr `type` nie został określony, jest używana wartość `type any`. Jeśli jest używana wartość `type list` lub `type binary`, system może być w stanie zwrócić strumieniową wartość typu `binary` lub `list`, zamiast wartości buforowanej, co może zmniejszyć ilość pamięci potrzebnej do odczytania formatu.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Odczytaj listę bajtów, na której liczba elementów jest określana przez pierwszy bajt.
 ```powerquery
 let
@@ -46,7 +56,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Odczytaj listę bajtów, na której liczba elementów jest określana przez pierwszy bajt, i zachowaj pierwszy odczytany bajt.
 ```powerquery
 let
@@ -68,7 +78,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Odczytaj listę bajtów, na której liczba elementów jest określana przez pierwszy bajt, używając listy strumieniowej.
 ```powerquery
 let

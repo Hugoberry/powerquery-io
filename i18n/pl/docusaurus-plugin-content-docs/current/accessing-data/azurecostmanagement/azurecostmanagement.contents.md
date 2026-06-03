@@ -21,15 +21,15 @@ AzureCostManagement.Contents(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zakładając, że bieżąca data to 2017-06-15, pobierz dane podsumowań z okresu od 2017-05-01 do 2017-06-15
 ```powerquery
-pozwól, aby    
+pozwól
           enrollmentNumber = "100",
           optionalParameters = [ numberOfMonth = 1 ],
-          miał wynik = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)   
-      w wyniku
-
+          result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
+      w
+          wynik
 ```
 
 Result: 
@@ -38,15 +38,15 @@ Funkcja zwróci dane podsumowań z okresu od 2017-05-01 do 2017-06-15
 ```
 
 
-### Example #2 
+### Example #2
 Zakładając, że bieżąca data to 2017-06-15, pobierz dane podsumowań z kwietnia 2017 r.
 ```powerquery
-pozwól, aby    
+pozwól
           enrollmentNumber = "100",
           optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "-1" ],
-          miał wynik = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)   
-      w wyniku     
-
+          result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
+      w
+          wynik
 ```
 
 Result: 
@@ -55,15 +55,15 @@ Funkcja zwróci dane z okresu od 2017-04-01 do 2017-04-30
 ```
 
 
-### Example #3 
+### Example #3
 Zakładając, że bieżąca data to 2017-06-15, pobierz dane podsumowań z okresu od kwietnia 2017 r. do chwili obecnej.
 ```powerquery
-pozwól, aby    
+pozwól
           enrollmentNumber = "100",
           optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "0", dataType = "Summaries" ],
-          miał wynik = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)   
-      w wyniku
-          result
+          result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
+      w
+          wynik
 ```
 
 Result: 

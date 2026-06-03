@@ -5,7 +5,7 @@ title: DateTimeZone.ZoneMinutes
 # DateTimeZone.ZoneMinutes
 
 
-Modifie le fuseau horaire de la valeur.
+Récupère les minutes du fuseau horaire de la valeur.
 
 
 ## Syntax
@@ -19,7 +19,24 @@ DateTimeZone.ZoneMinutes(
 
 ## Remarks
 
-Modifie le fuseau horaire de la valeur.
+Renvoie la composante minutes du fuseau horaire d'une valeur \`datetimezone\`.
+
+-   `dateTimeZone` : Une valeur `datetimezone` dont est extraite la composante des minutes du fuseau horaire. Si `dateTimeZone` est `nul`, la fonction renvoie `nul`.
+
+
+## Examples
+
+### Example #1
+Obtenez le composant Minutes du fuseau horaire de la valeur \`datetimezone\` spécifiée.
+```powerquery
+DateTimeZone.ZoneMinutes(#datetimezone(2024, 4, 28, 13, 24, 22, 7, 30))
+```
+
+Result: 
+```powerquery
+30
+```
+
 
 
 

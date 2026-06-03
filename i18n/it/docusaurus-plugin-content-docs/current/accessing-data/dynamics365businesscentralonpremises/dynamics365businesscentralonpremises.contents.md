@@ -5,7 +5,7 @@ title: Dynamics365BusinessCentralOnPremises.Contents
 # Dynamics365BusinessCentralOnPremises.Contents
 
 
-Immettere l&#39;URL dell&#39;endpoint di servizio OData di Dynamics 365 Business Central (locale).
+Immettere l'URL dell'endpoint di servizio OData di Dynamics 365 Business Central (locale).
 
 
 ## Syntax
@@ -20,6 +20,6 @@ Dynamics365BusinessCentralOnPremises.Contents(
 
 ## Remarks
 
-Restituisce una tabella con i dati pertinenti di Dynamics 365 Business Central (locale). 
+Restituisce una tabella con i dati pertinenti di Dynamics 365 Business Central (locale).
 
 

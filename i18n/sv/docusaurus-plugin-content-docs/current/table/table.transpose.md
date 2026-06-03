@@ -25,7 +25,7 @@ Omvandlar kolumner till rader och rader till kolumner.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Omvandla raderna i tabellen med namn-värde-par till kolumner.
 ```powerquery
 Table.Transpose(

@@ -25,7 +25,7 @@ Erstatter nøglerne til den angivne tabel.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Erstat de eksisterende nøgler til en tabel.
 ```powerquery
 let

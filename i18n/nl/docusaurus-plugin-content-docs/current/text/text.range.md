@@ -21,13 +21,13 @@ Text.Range(
 
 ## Remarks
 
-Hiermee wordt de subreeks van de tekst <code>text</code> geretourneerd die is aangetroffen bij de offset <code>offset</code>. Een optionele parameter, <code>count</code>, kan worden opgenomen voor het opgeven van het aantal te retourneren tekens. Retourneert een fout als er onvoldoende tekens zijn.
+Hiermee wordt de subreeks van de tekst `text` geretourneerd die is aangetroffen bij de offset `offset`. Een optionele parameter `count` kan worden opgenomen voor het opgeven van het aantal te retourneren tekens. Hiermee wordt een fout gegenereerd als er niet genoeg tekens zijn.
 
 
 ## Examples
 
-### Example #1 
-De subtekenreeks in de tekst &#34;Hallo Wereld&#34; opzoeken die begint bij index 6.
+### Example #1
+De subtekenreeks in de tekst "Hallo Wereld" opzoeken die begint bij index 6.
 ```powerquery
 Text.Range("Hello World", 6)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-De subtekenreeks in de tekst &#34;Hallo Wereld Hallo&#34; opzoeken die begint bij index 6 en vijf tekens omvat.
+### Example #2
+De subtekenreeks in de tekst "Hallo Wereld Hallo" opzoeken die begint bij index 6 en vijf tekens omvat.
 ```powerquery
 Text.Range("Hello World Hello", 6, 5)
 ```

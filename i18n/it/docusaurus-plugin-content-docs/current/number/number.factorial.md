@@ -19,12 +19,12 @@ Number.Factorial(
 
 ## Remarks
 
-Restituisce il fattoriale del numero <code>number</code>.
+Restituisce il fattoriale del numero `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trovare il fattoriale di 10.
 ```powerquery
 Number.Factorial(10)

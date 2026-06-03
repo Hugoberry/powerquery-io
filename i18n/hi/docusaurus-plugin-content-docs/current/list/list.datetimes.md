@@ -21,12 +21,12 @@ List.DateTimes(
 
 ## Remarks
 
-<code>start</code> से प्रारंभ होने वाले, आकार <code>count</code> के <code>datetime</code> मानों की सूची लौटाता है. दी गई वृद्धि, <code>step</code>, एक <code>duration</code> मान है जिसे प्रत्येक मान में जोड़ा जाता है.
+`start` से प्रारंभ होने वाले, आकार `count` के `datetime` मानों की सूची लौटाता है. दी गई वृद्धि, `step`, एक `duration` मान है जिसे प्रत्येक मान में जोड़ा जाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 नव वर्ष के दिन (#datetime(2011, 12, 31, 23, 55, 0)) से 5 मिनट पहले प्रारंभ होने वाले 10 मानों, 1 मिनट (#duration(0, 0, 1, 0)) बढ़ते हुए, की एक सूची बनाएँ.
 ```powerquery
 List.DateTimes(#datetime(2011, 12, 31, 23, 55, 0), 10, #duration(0, 0, 1, 0))

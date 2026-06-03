@@ -5,7 +5,7 @@ title: Value.As
 # Value.As
 
 
-Retorna o valor se for compatível com o tipo especificado.
+Retorna o valor se ele for compatível com o tipo especificado.
 
 
 ## Syntax
@@ -20,12 +20,12 @@ Value.As(
 
 ## Remarks
 
-Retorna o valor se for compatível com o tipo especificado. Isso é equivalente ao operador "as" em M, com a exceção de que pode aceitar referências de tipo de identificador, como Number.Type.
+Retorna o valor se ele for compatível com o tipo especificado. Isso é equivalente ao operador "as" em M, com a exceção de que pode aceitar referências de tipo de identificador, como Number.Type.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Converta um número em um número.
 ```powerquery
 Value.As(123, Number.Type)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Tente converter um valor de texto em um número.
 ```powerquery
 Value.As("abc", type number)

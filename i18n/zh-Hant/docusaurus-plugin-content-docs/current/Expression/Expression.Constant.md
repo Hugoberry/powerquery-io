@@ -24,7 +24,7 @@ Expression.Constant(
 
 ## Examples
 
-### Example #1 
+### Example #1
 取得數值的 M 原始程式碼表示法。
 ```powerquery
 Expression.Constant(123)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 取得日期值的 M 原始程式碼表示法。
 ```powerquery
 Expression.Constant(#date(2035, 01, 02))
@@ -48,7 +48,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 取得文字值的 M 原始程式碼表示法。
 ```powerquery
 Expression.Constant("abc")

@@ -5,7 +5,7 @@ title: Record.ReorderFields
 # Record.ReorderFields
 
 
-नए क्रम में निर्दिष्ट फ़ील्ड रिकॉर्ड करता है.
+फ़ील्ड के नामों की किसी सूची के क्रम से मिलान करने के लिए, रिकॉर्ड फ़ील्ड्स को पुनः क्रमबद्ध करता है.
 
 
 ## Syntax
@@ -21,12 +21,19 @@ Record.ReorderFields(
 
 ## Remarks
 
-<code>record</code> की फ़ील्ड को सूची <code>fieldOrder</code> में निर्दिष्ट फ़ील्ड के क्रम में पुनः क्रमित करने के बाद एक रिकॉर्ड लौटाता है. फ़ील्ड मानों को बनाए रखा जाता है और <code>fieldOrder</code> में नहीं सूचीबद्ध फ़ील्ड को उनकी मूल स्थिति में छोड़ दिया जाता है.
+फ़ील्ड के नामों की किसी सूची के क्रम से मिलान करने के लिए,किसी रिकॉर्ड के फ़ील्ड को पुनः क्रमबद्ध करता है.
+
+-   `record`: वह रिकॉर्ड जिसमें पुनः क्रमित किए जाने वाले फ़ील्ड शामिल हैं.
+-   `fieldOrder`: फ़ील्ड के नए क्रम वाली एक सूची जिसे रिकॉर्ड पर लागू करना है. फ़ील्ड के मान बनाए रखे जाते हैं और इस पैरामीटर में सूचीबद्ध न किए गए फ़ील्ड को उनकी मूल स्थितियों में छोड़ दिया जाता है.
+-   `missingField`: उस पंक्ति के अनुपलब्ध मानों के लिए अपेक्षित कार्रवाई निर्दिष्ट करता है जिसमें अपेक्षा से कम फ़ील्ड होते हैं. निम्न मान मान्य हैं:
+    -   `MissingField.Error`: (डिफ़ॉल्ट) इंगित करता है कि अनुपलब्ध फ़ील्ड के परिणामस्वरूप एक त्रुटि होनी चाहिए. अगर `missingField` पैरामीटर के लिए कोई भी मान दर्ज नहीं किया जाता है, तो इस मान का उपयोग किया जाता है.
+    -   `MissingField.Ignore`: इंगित करता है कि अनुपलब्ध फ़ील्ड की उपेक्षा की जानी चाहिए.
+    -   `MissingField.UseNull`: इंगित करता है कि अनुपलब्ध फ़ील्ड को `नल` मानों के रूप में शामिल किया जाना चाहिए.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 रिकॉर्ड में कुछ फ़ील्ड पुनः क्रमित करें.
 ```powerquery
 Record.ReorderFields(
@@ -38,6 +45,26 @@ Record.ReorderFields(
 Result: 
 ```powerquery
 [OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0]
+```
+
+
+### Example #2
+रिकॉर्ड में कुछ फ़ील्ड्स को पुनः क्रमित करें और किसी भी अनुपलब्ध फ़ील्ड के लिए `नल` शामिल करें.
+```powerquery
+let
+    Source = [CustomerID = 3, First Name = "Paul", Phone = "543-7890", Purchase = "Fishing Rod"],
+    reorderedRecord = Record.ReorderFields(
+        Source,
+        {"Purchase", "Last Name", "First Name"},
+        MissingField.UseNull
+    )
+in
+    reorderedRecord
+```
+
+Result: 
+```powerquery
+[CustomerID = 3, Purchase = "Fishing Rod", Phone = "543-7890", Last Name = null, First Name = "Paul"]
 ```
 
 

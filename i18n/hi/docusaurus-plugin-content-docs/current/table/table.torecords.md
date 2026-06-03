@@ -19,12 +19,12 @@ Table.ToRecords(
 
 ## Remarks
 
-तालिका, <code>table</code>, को रिकॉर्ड की सूची में रूपांतरित करता है.
+तालिका, `table`, को रिकॉर्ड की सूची में रूपांतरित करता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 तालिका को रिकॉर्ड की सूची में रूपांतरित करें.
 ```powerquery
 Table.ToRecords(

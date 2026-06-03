@@ -22,12 +22,17 @@ Table.ReplaceRows(
 
 ## Remarks
 
-以指定的 <code>rows</code> 取代輸入 <code>table</code> 中指定數目的資料列 <code>count</code>，從 <code>offset</code> 之後開始。<code>rows</code> 參數是記錄的清單。    <ul>       <li><code>table</code>: 執行取代的資料表。</li>       <li><code>offset</code>: 要在進行取代之前略過的資料列數目。</li>       <li><code>count</code>: 要取代的資料列數目。</li>       <li><code>rows</code>: 要依照 <code>offset</code> 指定的位置插入 <code>table</code> 中的資料列記錄清單。</li>    </ul>
+以指定的 `rows` 取代輸入 `table` 中指定數目的資料列 `count`，從 `offset` 之後開始。`rows` 參數是記錄的清單。
+
+-   `table`: 執行取代的資料表。
+-   `offset`: 要在進行取代之前略過的資料列數目。
+-   `count`: 要取代的資料列數目。
+-   `rows`: 要依照 `offset` 指定的位置插入 `table` 中的資料列記錄清單。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 從位置 1 開始，取代 3 個資料列。
 ```powerquery
 Table.ReplaceRows(

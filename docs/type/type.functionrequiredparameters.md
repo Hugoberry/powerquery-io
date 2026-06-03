@@ -19,13 +19,13 @@ Type.FunctionRequiredParameters(
 
 ## Remarks
 
-Returns a number indicating the minimum number of parameters required to invoke the input <code>type</code> of function.
+Returns a number indicating the minimum number of parameters required to invoke the input `type` of function.
 
 
 ## Examples
 
-### Example #1 
-Find the number of required parameters to the function &lt;code&gt;(x as number, optional y as text)&lt;/code&gt;.
+### Example #1
+Find the number of required parameters to the function `(x as number, optional y as text)`.
 ```powerquery
 Type.FunctionRequiredParameters(type function (x as number, optional y as text) as any)
 ```

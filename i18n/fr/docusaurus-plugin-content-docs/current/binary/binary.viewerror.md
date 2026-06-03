@@ -19,7 +19,7 @@ Binary.ViewError(
 
 ## Remarks
 
-Crée un enregistrement d’erreurs modifié à partir de <code>errorRecord</code> qui ne déclenche pas d’action de secours lorsqu’il est lancé par un gestionnaire défini sur une vue (via Binary.View).
+Crée un enregistrement d’erreurs modifié à partir de `errorRecord` qui ne déclenche pas d’action de secours lorsqu’il est lancé par un gestionnaire défini sur une vue (via Binary.View).
 
 
 

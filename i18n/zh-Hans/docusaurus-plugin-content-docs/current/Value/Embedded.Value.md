@@ -5,7 +5,7 @@ title: Embedded.Value
 # Embedded.Value
 
 
-在嵌入的混合资源中按名称访问值。
+此函数仅供内部使用。
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Embedded.Value(
 
 ## Remarks
 
-在嵌入的混合资源中按名称访问值。
+此函数仅供内部使用。
 
 
 

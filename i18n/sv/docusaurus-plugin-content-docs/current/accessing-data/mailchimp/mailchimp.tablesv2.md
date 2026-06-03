@@ -24,7 +24,7 @@ Returnerar en tabell med viktig MailChimp-data.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnerar en tabell med viktig MailChimp-data.
 ```powerquery
 MailChimp.Tables()

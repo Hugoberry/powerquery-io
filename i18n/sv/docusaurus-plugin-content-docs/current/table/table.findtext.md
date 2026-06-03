@@ -20,12 +20,12 @@ Table.FindText(
 
 ## Remarks
 
-Returnerar raderna i tabellen <code>table</code> som innehåller texten <code>text</code>. Om texten inte hittas returneras en tom tabell.
+Returnerar raderna i tabellen `table` som innehåller texten `text`. Om texten inte hittas returneras en tom tabell.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta de rader i tabellen som innehåller Bob.
 ```powerquery
 Table.FindText(

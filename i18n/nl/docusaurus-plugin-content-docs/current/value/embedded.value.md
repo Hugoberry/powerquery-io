@@ -5,7 +5,7 @@ title: Embedded.Value
 # Embedded.Value
 
 
-Opent een waarde op naam in een ingesloten mashup.
+Deze functie is alleen bedoeld voor intern gebruik.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Embedded.Value(
 
 ## Remarks
 
-Opent een waarde op naam in een ingesloten mashup.
+Deze functie is alleen bedoeld voor intern gebruik.
 
 
 

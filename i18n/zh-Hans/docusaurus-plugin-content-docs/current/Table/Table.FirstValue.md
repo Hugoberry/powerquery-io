@@ -20,7 +20,7 @@ Table.FirstValue(
 
 ## Remarks
 
-返回表 <code>table</code> 的第一行的第一列或指定的默认值。
+返回表 `table` 的第一行的第一列或指定的默认值。
 
 
 

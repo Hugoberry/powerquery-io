@@ -20,12 +20,12 @@ Table.TransformRows(
 
 ## Remarks
 
-Hiermee maakt u een <code>lijst</code> door de bewerking <code>transform</code> toe te passen op elke rij in <code>table</code>.
+Hiermee maakt u een `lijst` door de bewerking `transform` toe te passen op elke rij in `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Transformeer de rijen van een tabel in een lijst met getallen.
 ```powerquery
 Table.TransformRows(
@@ -46,7 +46,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Transformeer de rijen van een numerieke tabel naar tekstrecords.
 ```powerquery
 Table.TransformRows(

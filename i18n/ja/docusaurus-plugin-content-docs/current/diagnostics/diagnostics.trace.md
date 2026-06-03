@@ -22,12 +22,18 @@ Diagnostics.Trace(
 
 ## Remarks
 
-トレースが有効になっていて <code>value</code> を返す場合は、トレース <code>message</code> を記述します。オプション パラメーター <code>delayed</code> は、メッセージがトレースされるまで <code>value</code> の評価を遅らせるかどうかを指定します。<code>traceLevel</code> には次のいずれかの値を指定できます:    <code>TraceLevel.Critical</code>、    <code>TraceLevel.Error</code>、    <code>TraceLevel.Warning</code>、    <code>TraceLevel.Information</code>、    <code>TraceLevel.Verbose</code>。  
+トレースが有効な場合、トレース `message` を書き込み、`value` を返します。オプション パラメーター `delayed` は、メッセージがトレースされるまで `value` の評価を延期するかどうかを指定します。`traceLevel` は、次のいずれかの値を受け取ることができます:
+
+-   `TraceLevel.Critical`
+-   `TraceLevel.Error`
+-   `TraceLevel.Warning`
+-   `TraceLevel.Information`
+-   `TraceLevel.Verbose`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Text.From 関数を呼び出す前にメッセージをトレースし、結果を返します。
 ```powerquery
 Diagnostics.Trace(TraceLevel.Information, "TextValueFromNumber", () => Text.From(123), true)

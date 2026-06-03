@@ -26,8 +26,8 @@ Trả về nội dung của tài liệu XML ở dạng một tập hợp lồng 
 
 ## Examples
 
-### Example #1 
-Truy xuất nội dung của tệp xml cục bộ.
+### Example #1
+Truy xuất nội dung của tệp XML cục bộ.
 ```powerquery
 Xml.Tables(File.Contents("C:\invoices.xml"))
 ```

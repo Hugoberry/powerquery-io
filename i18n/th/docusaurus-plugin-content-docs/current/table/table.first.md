@@ -20,12 +20,12 @@ Table.First(
 
 ## Remarks
 
-ส่งกลับแถวแรกของ <code>table</code> หรือค่าเริ่มต้นที่เลือกได้ <code>default</code> ถ้าตารางว่างเปล่า
+ส่งกลับแถวแรกของ `table` หรือค่าเริ่มต้นที่เลือกได้ `default` ถ้าตารางว่างเปล่า
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ค้นหาแถวแรกของตาราง
 ```powerquery
 Table.First(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-ค้นหาแถวแรกของตาราง &lt;code&gt;(\{})&lt;/code&gt; หรือส่งกลับ [a = 0, b = 0] ถ้าว่างเปล่า
+### Example #2
+ค้นหาแถวแรกของตาราง `({})` หรือส่งกลับ \[a = 0, b = 0\] ถ้าว่างเปล่า
 ```powerquery
 Table.First(Table.FromRecords({}), [a = 0, b = 0])
 ```

@@ -22,13 +22,18 @@ Table.PositionOf(
 
 ## Remarks
 
-Devolve a posição da linha da primeira ocorrência de <code>row</code> no <code>table</code> especificado. Devolve -1 se não for encontrada nenhuma ocorrência.    <ul>       <li><code>table</code>: a tabela de entrada.</li>       <li><code>row</code>: a linha cuja posição pretende localizar na tabela.</li>       <li><code>occurrence</code>: <i>[Opcional]</i> Especifica as ocorrências da linha a devolver.</li>       <li><code>equationCriteria</code>: <i>[Opcional]</i> Controla a comparação entre as linhas da tabela.</li>    </ul>    
+Devolve a posição de linha da primeira ocorrência do `row` no `table` especificado. Devolve -1 se não for encontrada qualquer ocorrência.
+
+-   `table`: a tabela de entrada.
+-   `row`: a linha na tabela da qual se deve encontrar a posição.
+-   `occurrence`: *(opcional)* especifica que ocorrências da linha devem ser devolvidas.
+-   `equationCriteria`: *(opcional)* controla a comparação entre as linhas da tabela.
 
 
 ## Examples
 
-### Example #1 
-Determinar a posição da primeira ocorrência de [a = 2, b = 4] na tabela &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #1
+Determinar a posição da primeira ocorrência de \[a = 2, b = 4\] na tabela `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({
@@ -47,8 +52,8 @@ Result:
 ```
 
 
-### Example #2 
-Determinar a posição da segunda ocorrência de [a = 2, b = 4] na tabela &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #2
+Determinar a posição da segunda ocorrência de \[a = 2, b = 4\] na tabela `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({
@@ -68,8 +73,8 @@ Result:
 ```
 
 
-### Example #3 
-Determinar a posição de todas as ocorrências de [a = 2, b = 4] na tabela &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #3
+Determinar a posição de todas as ocorrências de \[a = 2, b = 4\] na tabela `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({

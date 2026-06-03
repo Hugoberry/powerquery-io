@@ -20,13 +20,17 @@ List.RemoveLastN(
 
 ## Remarks
 
-Devuelve una lista que quita los <code>countOrCondition</code> últimos elementos del final de la lista <code>list</code>. Si <code>list</code> tiene menos de <code>countOrCondition</code> elementos, se devuelve una lista vacía. <ul> <li>Si se especifica un número, se quitan hasta ese número de elementos. </li> <li>Si se especifica una condición, la lista devuelta termina con el primer elemento de la parte inferior de <code>list</code> que cumple los criterios. Una vez que un elemento no cumple la condición, no se consideran más elementos. </li> <li>Si este parámetro es null, solo se quita un elemento. </li> </ul>
+Devuelve una lista que quita los `countOrCondition` últimos elementos del final de la lista `list`. Si `list` tiene menos de `countOrCondition` elementos, se devuelve una lista vacía.
+
+-   Si se especifica un número, se quitan hasta ese número de elementos.
+-   Si se especifica una condición, se quitan todos los elementos coincidentes consecutivos al final de `list`.
+-   Si este parámetro es null, solo se quita un elemento.
 
 
 ## Examples
 
-### Example #1 
-Crear una lista a partir de \{1, 2, 3, 4, 5} sin los 3 últimos números.
+### Example #1
+Crear una lista a partir de \{1, 2, 3, 4, 5\} sin los 3 últimos números.
 ```powerquery
 List.RemoveLastN({1, 2, 3, 4, 5}, 3)
 ```
@@ -37,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-Crear una lista a partir de \{5, 4, 2, 6, 4} que termine con un número menor que 3.
+### Example #2
+Crear una lista a partir de \{5, 4, 2, 6, 4\} que termine con un número menor que 3.
 ```powerquery
 List.RemoveLastN({5, 4, 2, 6, 4}, each _ > 3)
 ```

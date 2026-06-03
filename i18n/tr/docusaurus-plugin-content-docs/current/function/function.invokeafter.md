@@ -20,7 +20,7 @@ Function.InvokeAfter(
 
 ## Remarks
 
-<code>delay</code> süresi dolduktan sonra <code>function</code> çağırmanın sonucunu döndürür.
+`delay` süresi dolduktan sonra `function` çağırmanın sonucunu döndürür.
 
 
 

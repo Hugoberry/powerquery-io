@@ -21,13 +21,13 @@ Replacer.ReplaceText(
 
 ## Remarks
 
-Thay thế văn bản <code>old</code> trong <code>text</code> gốc bằng văn bản <code>new</code>. Có thể sử dụng hàm thay thế này trong <code>List.ReplaceValue</code> và <code>Table.ReplaceValue</code>.
+Thay thế văn bản `old` trong `text` gốc bằng văn bản `new`. Có thể sử dụng hàm thay thế này trong `List.ReplaceValue` và `Table.ReplaceValue`.
 
 
 ## Examples
 
-### Example #1 
-Thay thế văn bản &#34;hE&#34; bằng &#34;He&#34; trong chuỗi &#34;hEllo world&#34;.
+### Example #1
+Thay thế văn bản "hE" bằng "He" trong chuỗi "hEllo world".
 ```powerquery
 Replacer.ReplaceText("hEllo world", "hE", "He")
 ```

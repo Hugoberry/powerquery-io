@@ -22,13 +22,13 @@ Text.ReplaceRange(
 
 ## Remarks
 
-Returnerer resultatet af at fjerne et antal tegn, <code>count</code>, fra tekstværdien <code>text</code> med start ved position <code>offset</code> og indsætter derefter tekstværdien <code>newText</code> på samme position i <code>text</code>.
+Returnerer resultatet af at fjerne et antal tegn, `count`, fra tekstværdien `text` med start ved position `offset` og indsætter derefter tekstværdien `newText` på samme position i `text`.
 
 
 ## Examples
 
-### Example #1 
-Erstat et enkelt tegn ved position 2 i tekstværdien &#34;ABGF&#34; med den nye tekstværdi &#34;CDE&#34;.
+### Example #1
+Erstat et enkelt tegn ved position 2 i tekstværdien "ABGF" med den nye tekstværdi "CDE".
 ```powerquery
 Text.ReplaceRange("ABGF", 2, 1, "CDE")
 ```

@@ -20,13 +20,21 @@ DateTime.From(
 
 ## Remarks
 
-Returns a <code>datetime</code> value from the given <code>value</code>. An optional <code>culture</code> may also be provided (for example, "en-US").If the given <code>value</code> is <code>null</code>, <code>DateTime.From</code> returns <code>null</code>. If the given <code>value</code> is <code>datetime</code>, <code>value</code> is returned. Values of the following types can be converted to a <code>datetime</code> value:      <ul>        <li><code>text</code>: A <code>datetime</code> value from textual representation. Refer to <code>DateTime.FromText</code> for details.</li>        <li><code>date</code>: A <code>datetime</code> with <code>value</code> as the date component and <code>12:00:00 AM</code> as the time component.</li>        <li><code>datetimezone</code>: The local <code>datetime</code> equivalent of <code>value</code>.</li>        <li><code>time</code>: A <code>datetime</code> with the date equivalent of the OLE Automation Date of <code>0</code> as the date component and <code>value</code> as the time component.</li>        <li><code>number</code>: A <code>datetime</code> equivalent of the OLE Automation Date expressed by <code>value</code>. </li>      </ul>If <code>value</code> is of any other type, an error is returned.
+Returns a `datetime` value from the given `value`. An optional `culture` may also be provided (for example, "en-US"). If the given `value` is `null`, `DateTime.From` returns `null`. If the given `value` is `datetime`, `value` is returned. Values of the following types can be converted to a `datetime` value:
+
+-   `text`: A `datetime` value from textual representation. Refer to `DateTime.FromText` for details.
+-   `date`: A `datetime` with `value` as the date component and `12:00:00 AM` as the time component.
+-   `datetimezone`: The local `datetime` equivalent of `value`.
+-   `time`: A `datetime` with the date equivalent of the OLE Automation Date of `0` as the date component and `value` as the time component.
+-   `number`: A `datetime` equivalent of the OLE Automation Date expressed by `value`.
+
+If `value` is of any other type, an error is returned.
 
 
 ## Examples
 
-### Example #1 
-Convert &lt;code&gt;#time(06, 45, 12)&lt;/code&gt; to a &lt;code&gt;datetime&lt;/code&gt; value.
+### Example #1
+Convert `#time(06, 45, 12)` to a `datetime` value.
 ```powerquery
 DateTime.From(#time(06, 45, 12))
 ```
@@ -37,8 +45,8 @@ Result:
 ```
 
 
-### Example #2 
-Convert &lt;code&gt;#date(1975, 4, 4)&lt;/code&gt; to a &lt;code&gt;datetime&lt;/code&gt; value.
+### Example #2
+Convert `#date(1975, 4, 4)` to a `datetime` value.
 ```powerquery
 DateTime.From(#date(1975, 4, 4))
 ```

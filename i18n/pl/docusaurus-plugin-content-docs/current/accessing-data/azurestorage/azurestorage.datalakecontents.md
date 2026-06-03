@@ -20,7 +20,11 @@ AzureStorage.DataLakeContents(
 
 ## Remarks
 
-Zwraca zawartość pliku pod adresem URL, <code>url</code>, z systemu plików usługi Azure Data Lake Storage. Można określić element <code>options</code>, aby kontrolować następujące opcje:    <ul><li><code>BlockSize</code> : Liczba bajt&#243;w do odczytania przed oczekiwaniem na konsumenta danych. Wartość domyślna to 4&#160;MB.</li><li><code>RequestSize</code> : Liczba bajt&#243;w, kt&#243;re mają zostać odczytane w ramach pojedynczego żądania HTTP do serwera. Wartość domyślna to 4&#160;MB.</li><li><code>ConcurrentRequests</code> : Opcja ConcurrentRequests obsługuje szybsze pobieranie danych przez określenie liczby żądań, kt&#243;re mają być wykonywane r&#243;wnolegle, co jednak powoduje większe użycie pamięci. Wymagana ilość pamięci to (ConcurrentRequest \* RequestSize). Wartość domyślna to 16.</li></ul>
+Zwraca zawartość pliku pod adresem URL, `url`, z systemu plików usługi Azure Data Lake Storage. Można określić element `options`, aby kontrolować następujące opcje:
+
+-   `BlockSize` : Liczba bajtów do odczytania przed oczekiwaniem na konsumenta danych. Wartość domyślna to 4 MB.
+-   `RequestSize` : Liczba bajtów, które mają zostać odczytane w ramach pojedynczego żądania HTTP do serwera. Wartość domyślna to 4 MB.
+-   `ConcurrentRequests` : Opcja ConcurrentRequests obsługuje szybsze pobieranie danych przez określenie liczby żądań, które mają być wykonywane równolegle, co jednak powoduje większe użycie pamięci. Wymagana ilość pamięci to (ConcurrentRequest \* RequestSize). Wartość domyślna to 16.
 
 
 

@@ -19,7 +19,9 @@ Type.TableSchema(
 
 ## Remarks
 
-<code>tableType</code> sütunlarının tanımlandığı bir tablo döndürür.<br />Döndürülen tabloya ilişkin açıklama için <code>Table.Schema</code> belgelerini gözden geçirin.<br />
+`tableType` sütunlarının tanımlandığı bir tablo döndürür.
+
+Döndürülen tabloya ilişkin açıklama için `Table.Schema` belgelerini gözden geçirin.
 
 
 

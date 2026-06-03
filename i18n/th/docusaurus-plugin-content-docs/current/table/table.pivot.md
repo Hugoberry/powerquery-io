@@ -28,8 +28,8 @@ Table.Pivot(
 
 ## Examples
 
-### Example #1 
-ใช้ค่า &#34;a&#34;, &#34;b&#34; และ &#34;c&#34; ในคอลัมน์แอตทริบิวต์ของตาราง &lt;code&gt;(\{ [ key = &#34;x&#34;, attribute = &#34;a&#34;, value = 1 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 3 ], [ key = &#34;y&#34;, attribute = &#34;a&#34;, value = 2 ], [ key = &#34;y&#34;, attribute = &#34;b&#34;, value = 4 ] })&lt;/code&gt; และทำ Pivot ลงในคอลัมน์ของตัวเอง
+### Example #1
+ใช้ค่า "a", "b" และ "c" ในคอลัมน์แอตทริบิวต์ของตาราง `({ [ key = "x", attribute = "a", value = 1 ], [ key = "x", attribute = "c", value = 3 ], [ key = "y", attribute = "a", value = 2 ], [ key = "y", attribute = "b", value = 4 ] })` และทำ Pivot ลงในคอลัมน์ของตัวเอง
 ```powerquery
 Table.Pivot(
     Table.FromRecords({
@@ -53,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-ใช้ค่า &#34;a&#34;, &#34;b&#34; และ &#34;c&#34; ในคอลัมน์แอตทริบิวต์ของตาราง &lt;code&gt;(\{ [ key = &#34;x&#34;, attribute = &#34;a&#34;, value = 1 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 3 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 5 ], [ key = &#34;y&#34;, attribute = &#34;a&#34;, value = 2 ], [ key = &#34;y&#34;, attribute = &#34;b&#34;, value = 4 ] })&lt;/code&gt; และทำ Pivot ลงในคอลัมน์ของตัวเอง  แอตทริบิวต์ &#34;c&#34; สำหรับคีย์ &#34;x&#34; มีการเชื่อมโยงกับหลายค่า ดังนั้นให้ใช้ฟังก์ชัน List.Max เพื่อแก้ไขข้อขัดแย้ง
+### Example #2
+ใช้ค่า "a", "b" และ "c" ในคอลัมน์แอตทริบิวต์ของตาราง `({ [ key = "x", attribute = "a", value = 1 ], [ key = "x", attribute = "c", value = 3 ], [ key = "x", attribute = "c", value = 5 ], [ key = "y", attribute = "a", value = 2 ], [ key = "y", attribute = "b", value = 4 ] })` และทำ Pivot ลงในคอลัมน์ของตัวเอง แอตทริบิวต์ "c" สำหรับคีย์ "x" มีการเชื่อมโยงกับหลายค่า ดังนั้นให้ใช้ฟังก์ชัน List.Max เพื่อแก้ไขข้อขัดแย้ง
 ```powerquery
 Table.Pivot(
     Table.FromRecords({

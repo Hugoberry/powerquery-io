@@ -19,12 +19,12 @@ Table.SingleRow(
 
 ## Remarks
 
-傳回單列 <code>table</code> 的單一資料列。如果 <code>table</code> 有多個資料列，則會擲回例外狀況。
+傳回一個資料列 `table` 中的單一資料列。如果 `table` 有多個資料列，則引發錯誤。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 傳回資料表中的單一資料列。
 ```powerquery
 Table.SingleRow(Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}))

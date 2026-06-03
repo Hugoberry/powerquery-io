@@ -19,12 +19,12 @@ Date.Year(
 
 ## Remarks
 
-Возвращает компонент года заданного значения <code>datetime</code>, <code>dateTime</code>.
+Возвращает компонент года заданного значения `datetime`, `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Поиск компонента года в значении #datetime(2011, 12, 31, 9, 15, 36).
 ```powerquery
 Date.Year(#datetime(2011, 12, 31, 9, 15, 36))

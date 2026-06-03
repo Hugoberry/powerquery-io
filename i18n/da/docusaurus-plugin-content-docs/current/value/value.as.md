@@ -25,7 +25,7 @@ Returnerer værdien, hvis den er kompatibel med den angivne type. Dette svarer t
 
 ## Examples
 
-### Example #1 
+### Example #1
 Konvertér et tal til et tal.
 ```powerquery
 Value.As(123, Number.Type)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Forsøg på at konvertere en tekstværdi til et tal.
 ```powerquery
 Value.As("abc", type number)

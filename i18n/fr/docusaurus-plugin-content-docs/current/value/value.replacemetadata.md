@@ -5,7 +5,7 @@ title: Value.ReplaceMetadata
 # Value.ReplaceMetadata
 
 
-Remplace les informations des métadonnées de l&#39;entrée.
+Remplace les informations des métadonnées de l'entrée.
 
 
 ## Syntax

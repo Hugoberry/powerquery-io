@@ -20,7 +20,7 @@ BinaryFormat.ByteOrder(
 
 ## Remarks
 
-<code>binaryFormat</code> tarafından belirtilen bayt sırasına sahip bir ikili biçimi döndürür.  Varsayılan bayt sırası: <code>ByteOrder.BigEndian</code>.
+`binaryFormat` tarafından belirtilen bayt sırasına sahip bir ikili biçimi döndürür. Varsayılan bayt sırası: `ByteOrder.BigEndian`.
 
 
 

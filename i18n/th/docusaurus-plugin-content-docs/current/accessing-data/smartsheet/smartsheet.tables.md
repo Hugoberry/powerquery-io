@@ -5,7 +5,7 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-ส่งกลับตารางของแผ่นงาน, รายงาน, โฟลเดอร์ และพื้นที่ทำงานจาก API ของ Smartsheet
+นำกลับตารางของชีท, รายงาน, แฟ้ม, และพื้้นที่ทำงานจาก API ของ Smartsheet
 
 
 ## Syntax
@@ -24,7 +24,7 @@ Smartsheet.Tables(
 
 ## Examples
 
-### Example #1 
+### Example #1
 นำกลับชีท, แฟ้ม, รายงานและพื้นที่ทำงานที่ยังว่างอยู่ที่ระดับสูงสุดของลำดับขึ้น Smartsheet
 ```powerquery
 Smartsheet.Tables()

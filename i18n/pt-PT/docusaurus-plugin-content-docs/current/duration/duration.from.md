@@ -19,13 +19,19 @@ Duration.From(
 
 ## Remarks
 
-Devolve um valor <code>duration</code> a partir do <code>value</code> especificado. Se o <code>value</code> especificado for <code>null</code>, <code>Duration.From</code> devolve <code>null</code>.  Se o <code>value</code> especificado for <code>duration</code>, será devolvido <code>value</code>. É possível converter os seguintes tipos de valor num valor <code>duration</code>:      <ul>        <li><code>text</code>: Um valor <code>duration</code> a partir de formatos texto de tempo decorrido (d.h:m:s). Consulte <code>Duration.FromText</code> para obter detalhes.</li>        <li><code>number</code>: Um valor <code>duration</code> equivalente ao número de dias inteiros e fracionais expresso por <code>value</code>.</li>      </ul>Se <code>value</code> for de qualquer outro tipo, será devolvido um erro.
+Devolve um valor de duração a partir do valor indicado.
+
+-   `value`: o valor a partir do qual a duração é derivada. Se `value` for `null`, esta função devolve `null`. Se `value` for um valor `duration`, é devolvido `value`. Os valores dos tipos seguintes podem ser convertidos num valor `duration`:
+    -   `text`: um valor `duration` a partir de formas textuais de tempo decorrido (d.h:m:s). Consulte `Duration.FromText` para obter detalhes.
+    -   `number`: um valor `duration` equivalente ao número de dias inteiros e fracionários expresso por `value`.
+
+Se `value` for de qualquer outro tipo, é devolvido um erro.
 
 
 ## Examples
 
-### Example #1 
-Converter &lt;code&gt;2.525&lt;/code&gt; num valor &lt;code&gt;duration&lt;/code&gt;.
+### Example #1
+Converter `2.525` num valor `duration`.
 ```powerquery
 Duration.From(2.525)
 ```
@@ -33,6 +39,18 @@ Duration.From(2.525)
 Result: 
 ```powerquery
 #duration(2, 12, 36, 0)
+```
+
+
+### Example #2
+Converta o valor de texto `"2.05:55:20.34567"` num valor `duration`.
+```powerquery
+Duration.From("2.05:55:20.34567")
+```
+
+Result: 
+```powerquery
+#duration(2, 5, 55, 20.3456700)
 ```
 
 

@@ -21,7 +21,7 @@ Cube.AddMeasureColumn(
 
 ## Remarks
 
-Dodaje kolumnę o nazwie <code>column</code> do modułu <code>cube</code> zawierającego wyniki miary <code>measureSelector</code> zastosowanej w kontekście wiersza dla każdego wiersza. Zmiany w poziomie szczegółowości i fragmentacji wymiarów mają wpływ na stosowanie miary. Wartości miary zostaną dostosowane po wykonaniu pewnych operacji modułu.
+Dodaje kolumnę o nazwie `column` do modułu `cube` zawierającego wyniki miary `measureSelector` zastosowanej w kontekście wiersza dla każdego wiersza. Zmiany w poziomie szczegółowości i fragmentacji wymiarów mają wpływ na stosowanie miary. Wartości miary zostaną dostosowane po wykonaniu pewnych operacji modułu.
 
 
 

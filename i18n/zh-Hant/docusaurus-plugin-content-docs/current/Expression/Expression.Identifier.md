@@ -19,12 +19,12 @@ Expression.Identifier(
 
 ## Remarks
 
-傳回識別碼 <code>name</code> 的 M 原始程式碼表示法。
+傳回識別碼 `name` 的 M 原始程式碼表示法。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 取得識別碼的 M 原始程式碼表示法。
 ```powerquery
 Expression.Identifier("MyIdentifier")
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 取得包含空格之識別碼的 M 原始程式碼表示法。
 ```powerquery
 Expression.Identifier("My Identifier")

@@ -21,13 +21,13 @@ Table.ContainsAll(
 
 ## Remarks
 
-Geeft aan of alle opgegeven records in de lijst met records <code>rows</code> als rijen in de <code>table</code> worden weergegeven.    Er kan een optionele parameter <code>equationCriteria</code> worden opgegeven voor het aansturen van de vergelijking tussen de rijen van de tabel.
+Geeft aan of alle opgegeven records in de lijst met records `rows` als rijen in de `table` worden weergegeven. Er kan een optionele parameter `equationCriteria` worden opgegeven voor het aansturen van de vergelijking tussen de rijen van de tabel.
 
 
 ## Examples
 
-### Example #1 
-Bepalen of de tabel alle rijen bevat waarbij alleen de kolom [CustomerID] wordt vergeleken.
+### Example #1
+Bepalen of de tabel alle rijen bevat waarbij alleen de kolom \[CustomerID\] wordt vergeleken.
 ```powerquery
 Table.ContainsAll(
     Table.FromRecords({
@@ -50,7 +50,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Bepalen of de tabel alle rijen bevat.
 ```powerquery
 Table.ContainsAll(

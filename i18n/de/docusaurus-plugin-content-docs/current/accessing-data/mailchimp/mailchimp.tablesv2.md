@@ -24,7 +24,7 @@ Gibt eine Tabelle mit wichtigen MailChimp-Daten zurück.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gibt eine Tabelle mit wichtigen MailChimp-Daten zurück.
 ```powerquery
 MailChimp.Tables()

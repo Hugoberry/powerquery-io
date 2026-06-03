@@ -5,7 +5,7 @@ title: Cube.MeasureProperties
 # Cube.MeasureProperties
 
 
-Retourne une table contenant l&#39;ensemble des propriétés de mesure disponibles développées dans le cube.
+Retourne une table contenant l'ensemble des propriétés de mesure disponibles développées dans le cube.
 
 
 ## Syntax

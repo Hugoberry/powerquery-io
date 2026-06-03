@@ -19,13 +19,15 @@ Duration.ToRecord(
 
 ## Remarks
 
-Returnerer en post, der indeholder delene af varighedsværdien, <code>duration</code>.  <ul>        <li><code>duration</code>: En værdi af typen <code>duration</code>, som posten er oprettet ud fra.</li>      </ul>
+Returnerer en post, der indeholder delene af varighedsværdien, `duration`.
+
+-   `duration`: En værdi af typen `duration`, som posten er oprettet ud fra.
 
 
 ## Examples
 
-### Example #1 
-Konvertér &lt;code&gt;#duration(2, 5, 55, 20)&lt;/code&gt; til en post af delene, herunder dage, timer, minutter og evt. sekunder.
+### Example #1
+Konvertér `#duration(2, 5, 55, 20)` til en post af delene, herunder dage, timer, minutter og evt. sekunder.
 ```powerquery
 Duration.ToRecord(#duration(2, 5, 55, 20))
 ```

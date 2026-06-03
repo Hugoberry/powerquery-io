@@ -1,0 +1,29 @@
+---
+title: Cube.AddMeasureColumn
+---
+
+# Cube.AddMeasureColumn
+
+
+對每個資料列的資料列內容套用量值，在包含結果的立方中加入資料行。
+
+
+## Syntax
+
+```powerquery
+Cube.AddMeasureColumn(
+    cube as table,
+    column as text,
+    measureSelector as any
+) as table
+```
+
+
+## Remarks
+
+對每個資料列的資料列內容套用量值 `measureSelector`，在包含結果的 `cube` 中加入名稱為 `column` 的資料行。量值套用方式會受到維度資料粒度和切割變更的影響。量值會在某些立方作業執行後調整。
+
+
+
+## Category
+Cube

@@ -19,7 +19,7 @@ Number.Cosh(
 
 ## Remarks
 
-Devolve o cosseno hiperbólico de <code>number</code>.
+Devolve o cosseno hiperbólico de `number`.
 
 
 

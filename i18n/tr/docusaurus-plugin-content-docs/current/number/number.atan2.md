@@ -20,7 +20,7 @@ Number.Atan2(
 
 ## Remarks
 
-<code>y</code> ve <code>x</code> sayılarının bölümünün arktanjantını döndürür. Bölüm <code>y</code>/<code>x</code> olarak oluşturulur.
+İki sayı `y` ve `x`'ün tanjantı `y`/`x` olan açıyı radyan cinsinden döndürür.
 
 
 

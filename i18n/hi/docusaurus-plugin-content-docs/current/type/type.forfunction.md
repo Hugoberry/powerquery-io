@@ -20,12 +20,12 @@ Type.ForFunction(
 
 ## Remarks
 
-<code>signature</code> से <code>फ़ंक्‍शन प्रकार</code>, <code>ReturnType</code> और <code>पैरामीटर</code> का रिकॉर्ड, और <code>min</code>, फ़ंक्‍शन को इनवोक करने के लिए आवश्‍यक तर्कों की न्‍यूनतम संख्‍या बनाता है.
+`signature` से `फ़ंक्‍शन प्रकार`, `ReturnType` और `पैरामीटर` का रिकॉर्ड, और `min`, फ़ंक्‍शन को इनवोक करने के लिए आवश्‍यक तर्कों की न्‍यूनतम संख्‍या बनाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 किसी फ़ंक्शन के लिए ऐसे प्रकार बनाता है जो X नाम वाला पैरामीटर लेता है और कोई संख्या लौटाता है।
 ```powerquery
 Type.ForFunction([ReturnType = type number, Parameters = [X = type number]], 1)

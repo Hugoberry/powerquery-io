@@ -20,12 +20,12 @@ Table.Last(
 
 ## Remarks
 
-<code>table</code> の最終行を返します。テーブルが空の場合は、省略可能な既定値 <code>default</code> を返します。
+`table` の最終行を返します。テーブルが空の場合は、省略可能な既定値 `default` を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブルの最終行を探します。
 ```powerquery
 Table.Last(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-テーブル &lt;code&gt;(\{})&lt;/code&gt; の最終行を探します。空の場合は、[a = 0, b = 0] を返します。
+### Example #2
+テーブル `({})` の最終行を探します。空の場合は、\[a = 0, b = 0\] を返します。
 ```powerquery
 Table.Last(Table.FromRecords({}), [a = 0, b = 0])
 ```

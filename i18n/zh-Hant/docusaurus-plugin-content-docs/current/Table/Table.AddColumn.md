@@ -22,13 +22,13 @@ Table.AddColumn(
 
 ## Remarks
 
-將名為 <code>newColumnName</code> 的資料行加入至資料表 <code>table</code>。此資料行的值是使用指定的選取函數 <code>columnGenerator</code> 來計算，並將每個資料列視為輸入。
+將名為 `newColumnName` 的資料行加入至資料表 `table`。此資料行的值是使用指定的選取函數 `columnGenerator` 來計算，並將每個資料列視為輸入。
 
 
 ## Examples
 
-### Example #1 
-將名為「TotalPrice」的數字資料行新增至資料表中，每個值都是 [Price] 和 [Shipping] 資料行的總和。
+### Example #1
+將名為「TotalPrice」的數字資料行新增至資料表中，每個值都是 \[Price\] 和 \[Shipping\] 資料行的總和。
 ```powerquery
 Table.AddColumn(
     Table.FromRecords({

@@ -21,13 +21,21 @@ Comparer.Equals(
 
 ## Remarks
 
-使用提供的 <code>comparer</code> 基于对两个给定值 <code>x</code> 和 <code>y</code> 的相等性检查返回 <code>logical</code> 值。      <div>        <code>comparer</code> 是用于控制比较的 <code>Comparer</code>。        比较器是接受两个参数并根据第一个值是小于、等于还是大于第二个值返回 -1、0 或 1 的函数。         比较器可用于提供不区分大小写或区分区域性和区域设置的比较。      </div>      <div>        以下内置比较器以公式语言提供:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: 用于执行精确的序号比较</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: 用于执行精确的不区分大小写序号比较</li>        <li> <code>Comparer.FromCulture</code>: 用于执行区分区域性的比较</li>      </ul>
+使用提供的 `comparer` 基于对两个给定值 `x` 和 `y` 的相等性检查返回 `logical` 值。
+
+`comparer` 是用于控制比较的 `Comparer`。 比较器是接受两个参数并根据第一个值是小于、等于还是大于第二个值返回 -1、0 或 1 的函数。 比较器可用于提供不区分大小写或区分区域性和区域设置的比较。
+
+以下内置比较器以公式语言提供:
+
+-   `Comparer.Ordinal`: 用于执行精确的序号比较
+-   `Comparer.OrdinalIgnoreCase`: 用于执行精确的不区分大小写序号比较
+-   `Comparer.FromCulture`: 用于执行区分区域性的比较
 
 
 ## Examples
 
-### Example #1 
-使用 &#34;en-US&#34; 区域设置比较 &#34;1&#34; 和 &#34;A&#34; 以确定这些值是否相等。
+### Example #1
+使用 "en-US" 区域设置比较 "1" 和 "A" 以确定这些值是否相等。
 ```powerquery
 Comparer.Equals(Comparer.FromCulture("en-US"), "1", "A")
 ```

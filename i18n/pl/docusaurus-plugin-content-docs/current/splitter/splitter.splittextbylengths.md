@@ -25,7 +25,7 @@ Zwraca funkcję dzielącą tekst na listę wartości tekstowych przy użyciu okr
 
 ## Examples
 
-### Example #1 
+### Example #1
 Podziel dane wejściowe na pierwsze dwa znaki, po których następują następne trzy, zaczynając od początku danych wejściowych.
 ```powerquery
 Splitter.SplitTextByLengths({2, 3})("AB123")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Podziel dane wejściowe na pierwsze trzy znaki, po których następują następne dwa, zaczynając od końca danych wejściowych.
 ```powerquery
 let

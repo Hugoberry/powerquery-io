@@ -5,7 +5,7 @@ title: Lines.ToText
 # Lines.ToText
 
 
-Converts a list of text into a single text.  The specified lineSeparator is appended to each line.  If not specified then the carriage return and line feed characters are used.
+Converts a list of text into a single text. The specified lineSeparator is appended to each line. If not specified then the carriage return and line feed characters are used.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Lines.ToText(
 
 ## Remarks
 
-Converts a list of text into a single text.  The specified lineSeparator is appended to each line.  If not specified then the carriage return and line feed characters are used.
+Converts a list of text into a single text. The specified lineSeparator is appended to each line. If not specified then the carriage return and line feed characters are used.
 
 
 

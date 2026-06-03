@@ -21,12 +21,12 @@ List.Times(
 
 ## Remarks
 
-Gibt eine Liste mit <code>time</code>-Werten der Größe "<code>count</code>" ab "<code>start</code>" zurück. Das angegebene Inkrement (<code>step</code>) ist ein <code>duration</code>-Wert, der zu den einzelnen Werten addiert wird.
+Gibt eine Liste mit `time`\-Werten der Größe "`count`" ab "`start`" zurück. Das angegebene Inkrement (`step`) ist ein `duration`\-Wert, der zu den einzelnen Werten addiert wird.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Erstellt eine Liste mit vier Werten. Die Liste beginnt mittags (#time (12, 0, 0)) und besitzt eine Schrittweite von einer Stunde (#duration (0, 1, 0, 0)).
 ```powerquery
 List.Times(#time(12, 0, 0), 4, #duration(0, 1, 0, 0))

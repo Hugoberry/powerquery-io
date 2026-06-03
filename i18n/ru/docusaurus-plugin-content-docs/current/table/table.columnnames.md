@@ -19,12 +19,12 @@ Table.ColumnNames(
 
 ## Remarks
 
-Возвращает имена столбцов в таблице <code>table</code> в виде текстового списка.
+Возвращает имена столбцов в таблице `table` в виде текстового списка.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Нахождение имен столбцов таблицы.
 ```powerquery
 Table.ColumnNames(

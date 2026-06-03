@@ -20,12 +20,15 @@ Number.Combinations(
 
 ## Remarks
 
-Trả về số lượng tổ hợp duy nhất từ một danh sách mục, <code>setSize</code>, với kích cỡ kết hợp được chỉ định là <code>combinationSize</code>.<ul>    <li><code>setSize</code>: Số lượng mục trong danh sách.</li>    <li><code>combinationSize</code>: Số lượng mục trong mỗi tổ hợp.</li></ul>
+Trả về số lượng tổ hợp duy nhất từ một danh sách mục, `setSize`, với kích cỡ kết hợp được chỉ định là `combinationSize`.
+
+-   `setSize`: Số lượng mục trong danh sách.
+-   `combinationSize`: Số lượng mục trong mỗi tổ hợp.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm số lượng tổ hợp từ tổng cộng 5 mục khi mỗi tổ hợp là một nhóm 3.
 ```powerquery
 Number.Combinations(5, 3)

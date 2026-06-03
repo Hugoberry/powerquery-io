@@ -19,12 +19,12 @@ Time.Hour(
 
 ## Remarks
 
-Zwraca składnik godziny z wartości typu <code>time</code>, <code>datetime</code> lub <code>datetimezone</code> dostarczonej w parametrze <code>dateTime</code>.
+Zwraca składnik godziny z wartości typu `time`, `datetime` lub `datetimezone` dostarczonej w parametrze `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź godzinę w wartości #datetime(2011, 12, 31, 9, 15, 36).
 ```powerquery
 Time.Hour(#datetime(2011, 12, 31, 9, 15, 36))

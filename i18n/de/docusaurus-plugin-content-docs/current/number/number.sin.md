@@ -19,12 +19,12 @@ Number.Sin(
 
 ## Remarks
 
-Gibt den Sinus von <code>number</code> zurück.
+Gibt den Sinus von `number` zurück.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ermittelt den Sinus des Winkels 0.
 ```powerquery
 Number.Sin(0)

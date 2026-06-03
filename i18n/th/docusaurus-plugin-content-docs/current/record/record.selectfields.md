@@ -21,13 +21,13 @@ Record.SelectFields(
 
 ## Remarks
 
-ส่งกลับระเบียนที่รวมเฉพาะเขตข้อมูลที่ระบุในรายการ <code>fields</code> จากค่าที่ป้อน <code>record</code>
+ส่งกลับระเบียนที่รวมเฉพาะเขตข้อมูลที่ระบุในรายการ `fields` จากค่าที่ป้อน `record`
 
 
 ## Examples
 
-### Example #1 
-เลือกฟิลด์ &#34;Item&#34; และ &#34;Price&#34; ในระเบียน
+### Example #1
+เลือกฟิลด์ "Item" และ "Price" ในระเบียน
 ```powerquery
 Record.SelectFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0],

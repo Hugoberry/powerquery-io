@@ -19,7 +19,7 @@ Type.Union(
 
 ## Remarks
 
-Retourneert de samenvoeging van de typen in <code>types</code>.
+Retourneert de samenvoeging van de typen in `types`.
 
 
 

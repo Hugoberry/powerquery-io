@@ -20,12 +20,15 @@ Table.PromoteHeaders(
 
 ## Remarks
 
-Alza di livello la prima riga di valori come nuove intestazioni di colonna (nomi di colonna). Per impostazione predefinita, solo i valori di testo o numerici vengono alzati di livello a intestazioni. Opzioni valide:    <div>      <code>PromoteAllScalars</code>: se è impostata su <code>true</code>, tutti i valori scalari nella prima riga vengono alzati di livello a intestazioni in base alle impostazioni cultura definite in <code>Culture</code>, se specificate, o alle impostazioni locali correnti del documento.    Per i valori che non possono essere convertiti in testo, verrà usato un nome di colonna predefinito.    </div>    <div>    <code>Culture</code>: nome che specifica le impostazioni cultura per i dati.    </div>  
+Alza di livello la prima riga di valori come nuove intestazioni di colonna (nomi di colonna). Per impostazione predefinita, solo i valori di testo o numerici vengono alzati di livello a intestazioni. Opzioni valide:
+
+-   `PromoteAllScalars`: se è impostata su `true`, tutti i valori scalari nella prima riga vengono alzati di livello a intestazioni in base alle impostazioni cultura definite in `Culture`, se specificate, o alle impostazioni locali correnti del documento. Per i valori che non possono essere convertiti in testo, verrà usato un nome di colonna predefinito.
+-   `Culture`: nome che specifica le impostazioni cultura per i dati.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Alzare di livello la prima riga di valori nella tabella.
 ```powerquery
 Table.PromoteHeaders(
@@ -42,7 +45,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Column3 = #date(1980, 1, 1)]})
 ```
 
 
-### Example #2 
+### Example #2
 Consente di alzare di livello tutti i valori scalari nella prima riga a intestazioni.
 ```powerquery
 Table.PromoteHeaders(

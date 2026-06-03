@@ -19,13 +19,13 @@ RowExpression.Column(
 
 ## Remarks
 
-Retorna uma árvore de sintaxe abstrata (AST) que representa o acesso à coluna <code>columnName</code> da linha em uma expressão de linha.
+Retorna uma árvore de sintaxe abstrata (AST) que representa o acesso à coluna `columnName` da linha em uma expressão de linha.
 
 
 ## Examples
 
-### Example #1 
-Cria um AST representando o acesso da coluna &#34;CustomerName&#34;.
+### Example #1
+Cria um AST representando o acesso da coluna "CustomerName".
 ```powerquery
 RowExpression.Column("CustomerName")
 ```

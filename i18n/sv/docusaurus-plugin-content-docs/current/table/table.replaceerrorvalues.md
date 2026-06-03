@@ -20,13 +20,13 @@ Table.ReplaceErrorValues(
 
 ## Remarks
 
-Ersätter felvärdena i de angivna kolumnerna i <code>table</code> med de nya värdena i listan <code>errorReplacement</code>. Listans format är \{\{column1, value1}, …}. Det får bara finnas ett ersättningsvärde per kolumn. Om kolumnen specificeras mer än en gång genereras ett fel.
+Ersätter felvärdena i de angivna kolumnerna i `table` med de nya värdena i listan `errorReplacement`. Listans format är \{\{column1, value1\}, …\}. Det får bara finnas ett ersättningsvärde per kolumn; att specificera kolumnen mer än en gång genererar ett fel.
 
 
 ## Examples
 
-### Example #1 
-Ersätt felvärdet med texten &#34;världen&#34; i tabellen.
+### Example #1
+Ersätt felvärdet med texten "världen" i tabellen.
 ```powerquery
 Table.ReplaceErrorValues(
     Table.FromRows({{1, "hello"}, {3, ...}}, {"A", "B"}),
@@ -43,8 +43,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Ersätt felvärdet i kolumn A med texten &#34;hej&#34; och i kolumn B med texten &#34;världen&#34; i tabellen.
+### Example #2
+Ersätt felvärdet i kolumn A med texten "hej" och i kolumn B med texten "världen" i tabellen.
 ```powerquery
 Table.ReplaceErrorValues(
     Table.FromRows({{..., ...}, {1, 2}}, {"A", "B"}),

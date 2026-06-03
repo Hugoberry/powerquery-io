@@ -20,12 +20,15 @@ Table.LastN(
 
 ## Remarks
 
-Zwraca ostatnie wiersze z tabeli <code>table</code>, w zależności od wartości parametru <code>countOrCondition</code>:    <ul>    <li> Jeśli parametr <code>countOrCondition</code> jest liczbą, określa liczbę wierszy, które zostaną zwrócone, licząc od określonej pozycji (koniec — <code>countOrCondition</code>). </li>    <li>Jeśli parametr <code>countOrCondition</code> jest warunkiem, będą zwracane wiersze na kolejnych pozycjach rosnących spełniające ten warunek, aż do wiersza, który go nie spełnia.</li></ul>
+Zwraca ostatnie wiersze z tabeli `table`, w zależności od wartości parametru `countOrCondition`:
+
+-   Jeśli parametr `countOrCondition` jest liczbą, określa liczbę wierszy, które zostaną zwrócone, licząc od określonej pozycji (koniec — `countOrCondition`).
+-   Jeśli parametr `countOrCondition` jest warunkiem, będą zwracane wiersze na kolejnych pozycjach rosnących spełniające ten warunek, aż do wiersza, który go nie spełnia.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź ostatnie dwa wiersze tabeli.
 ```powerquery
 Table.LastN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Znajdź ostatni wiersz, w którym wartość kolumny [a] jest większa od 0.
+### Example #2
+Znajdź ostatni wiersz, w którym wartość kolumny \[a\] jest większa od 0.
 ```powerquery
 Table.LastN(
     Table.FromRecords({

@@ -19,12 +19,14 @@ Date.EndOfDay(
 
 ## Remarks
 
-Devuelve el final del día representado por <code>dateTime</code>. Se conserva la información de zona horaria.      <ul>      <li><code>dateTime</code>: un valor <code>date</code>, <code>datetime</code> o <code>datetimezone</code> a partir del cual se calcula el final del día.</li> </ul>
+Devuelve el final del día representado por `dateTime`. Se conserva la información de zona horaria.
+
+-   `dateTime`: un valor `date`, `datetime` o `datetimezone` a partir del cual se calcula el final del día.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Obtener el final del día para 5/14/2011 05:00:00 p.m.
 ```powerquery
 Date.EndOfDay(#datetime(2011, 5, 14, 17, 0, 0))
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Obtener el final del día para 5/17/2011 05:00:00 p.m -7:00.
 ```powerquery
 Date.EndOfDay(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0))

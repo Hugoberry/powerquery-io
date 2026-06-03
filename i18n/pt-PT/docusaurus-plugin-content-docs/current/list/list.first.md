@@ -20,13 +20,13 @@ List.First(
 
 ## Remarks
 
-Devolve o primeiro item existente na lista <code>list</code> ou o valor predefinido opcional, <code>defaultValue</code>, se a lista estiver vazia.    Se a lista estiver vazia e não for especificado um valor predefinido, a função devolve <code>null</code>.
+Devolve o primeiro item existente na lista `list` ou o valor predefinido opcional, `defaultValue`, se a lista estiver vazia. Se a lista estiver vazia e não for especificado um valor predefinido, a função devolve `null`.
 
 
 ## Examples
 
-### Example #1 
-Determinar o primeiro valor na lista \{1, 2, 3}.
+### Example #1
+Determinar o primeiro valor na lista \{1, 2, 3\}.
 ```powerquery
 List.First({1, 2, 3})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Determinar o primeiro valor na lista \{}. Se a lista estiver vazia, devolver -1.
+### Example #2
+Determinar o primeiro valor na lista \{\}. Se a lista estiver vazia, devolver -1.
 ```powerquery
 List.First({}, -1)
 ```

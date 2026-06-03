@@ -20,12 +20,15 @@ Number.Combinations(
 
 ## Remarks
 
-Возвращает определенное количество уникальных сочетаний из элементов списка <code>setSize</code> с указанным размером сочетания <code>combinationSize</code>.<ul>    <li><code>setSize</code>: Количество элементов в списке.</li>    <li><code>combinationSize</code>: Количество элементов в каждом сочетании.</li></ul>
+Возвращает определенное количество уникальных сочетаний из элементов списка `setSize` с указанным размером сочетания `combinationSize`.
+
+-   `setSize`: Количество элементов в списке.
+-   `combinationSize`: Количество элементов в каждом сочетании.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Найти количество сочетаний из 5 элементов по 3.
 ```powerquery
 Number.Combinations(5, 3)

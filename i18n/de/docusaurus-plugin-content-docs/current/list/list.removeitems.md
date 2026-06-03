@@ -5,7 +5,7 @@ title: List.RemoveItems
 # List.RemoveItems
 
 
-Entfernt in der Liste vorhandene Elemente aus &#34;list1&#34;.
+Entfernt in der Liste vorhandene Elemente aus "list1".
 
 
 ## Syntax
@@ -20,13 +20,13 @@ List.RemoveItems(
 
 ## Remarks
 
-Entfernt alle Vorkommen der angegebenen Werte in "<code>list2</code>" aus "<code>list1</code>". Sind die Werte aus "<code>list2</code>" in "<code>list1</code>" nicht vorhanden, wird die ursprüngliche Liste zurückgegeben.
+Entfernt alle Vorkommen der angegebenen Werte in "`list2`" aus "`list1`". Sind die Werte aus "`list2`" in "`list1`" nicht vorhanden, wird die ursprüngliche Liste zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
-Entfernt die Elemente in der Liste &#34;\{2, 4, 6}&#34; aus der Liste &#34;\{1, 2, 3, 4, 2, 5, 5}&#34;.
+### Example #1
+Entfernt die Elemente in der Liste "\{2, 4, 6\}" aus der Liste "\{1, 2, 3, 4, 2, 5, 5\}".
 ```powerquery
 List.RemoveItems({1, 2, 3, 4, 2, 5, 5}, {2, 4, 6})
 ```

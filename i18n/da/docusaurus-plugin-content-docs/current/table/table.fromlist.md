@@ -23,12 +23,12 @@ Table.FromList(
 
 ## Remarks
 
-Konverterer en liste, <code>list</code>, til en tabel ved at anvende den valgfrie opdelingsfunktion, <code>splitter</code>, på hvert element på listen. Det antages som standard, at listen er en liste over tekstværdier, der opdeles med kommaer. Den valgfrie <code>columns</code> kan være antallet af kolonner, en liste over kolonner eller en tabeltype. De valgfrie <code>default</code> og <code>extraValues</code> kan også angives.
+Konverterer en liste, `list`, til en tabel ved at anvende den valgfrie opdelingsfunktion, `splitter`, på hvert element på listen. Det antages som standard, at listen er en liste over tekstværdier, der opdeles med kommaer. Den valgfrie `columns` kan være antallet af kolonner, en liste over kolonner eller en tabeltype. De valgfrie `default` og `extraValues` kan også angives.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Opret en tabel ud fra en liste ved hjælp af standardopdelingsfunktionen.
 ```powerquery
 Table.FromList(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Opret en tabel ud fra en liste ved hjælp af en brugerdefineret opdelingsfunktion.
 ```powerquery
 Table.FromList(
@@ -70,7 +70,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Opret en tabel ud fra listen ved hjælp af opdelingsfunktionen Record.FieldValues.
 ```powerquery
 Table.FromList(

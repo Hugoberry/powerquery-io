@@ -20,12 +20,15 @@ Table.PromoteHeaders(
 
 ## Remarks
 
-Höjer upp den första raden med värden som de nya kolumnrubrikerna (t.ex. kolumnnamn). Endast text och siffror höjs som standard upp som rubriker. Giltiga alternativ:    <div>      <code>PromoteAllScalars</code> : Om du väljer inställningen <code>true</code> höjs alla skalarvärden på den första raden upp som rubriker med hjälp av <code>Kultur</code>, om sådan angetts (eller det aktuella dokumentets nationella inställningar).    När det gäller värden som inte kan konverteras till text används ett standardkolumnnamn.    </div>    <div>    <code>Kultur</code> : Ett kulturnamn som anger informationens kultur.    </div>  
+Höjer upp den första raden med värden som de nya kolumnrubrikerna (t.ex. kolumnnamn). Endast text och siffror höjs som standard upp som rubriker. Giltiga alternativ:
+
+-   `PromoteAllScalars` : Om du väljer inställningen `true` höjs alla skalarvärden på den första raden upp som rubriker med hjälp av `Kultur`, om sådan angetts (eller det aktuella dokumentets nationella inställningar). När det gäller värden som inte kan konverteras till text används ett standardkolumnnamn.
+-   `Kultur` : Ett kulturnamn som anger informationens kultur.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Flytta upp den första raden med värden i tabellen.
 ```powerquery
 Table.PromoteHeaders(
@@ -42,7 +45,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Column3 = #date(1980, 1, 1)]})
 ```
 
 
-### Example #2 
+### Example #2
 Höj upp alla skalärer på den första raden till rubriker.
 ```powerquery
 Table.PromoteHeaders(

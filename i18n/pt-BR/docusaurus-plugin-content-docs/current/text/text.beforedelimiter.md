@@ -21,13 +21,13 @@ Text.BeforeDelimiter(
 
 ## Remarks
 
-Retorna a porção de <code>text</code> antes do <code>delimiter</code> especificado.    Um valor numérico opcional <code>index</code> indica qual ocorrência do <code>delimiter</code> deve ser considerada.    Uma lista opcional <code>index</code> indica a ocorrência do <code>delimiter</code> que deve ser considerada, assim como se a indexação deve ser feita a partir do início ou do final da entrada.
+Retorna a porção de `text` antes do `delimiter` especificado. Um valor numérico opcional `index` indica qual ocorrência do `delimiter` deve ser considerada. Uma lista opcional `index` indica a ocorrência do `delimiter` que deve ser considerada, assim como se a indexação deve ser feita a partir do início ou do final da entrada.
 
 
 ## Examples
 
-### Example #1 
-Obtenha a porção de &#34;111-222-333&#34; antes do (primeiro) hífen.
+### Example #1
+Obtenha a porção de "111-222-333" antes do (primeiro) hífen.
 ```powerquery
 Text.BeforeDelimiter("111-222-333", "-")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Obtenha a porção de &#34;111-222-333&#34; antes do segundo hífen.
+### Example #2
+Obtenha a porção de "111-222-333" antes do segundo hífen.
 ```powerquery
 Text.BeforeDelimiter("111-222-333", "-", 1)
 ```
@@ -50,8 +50,8 @@ Result:
 ```
 
 
-### Example #3 
-Obtenha a porção de &#34;111-222-333&#34; antes do segundo hífen a partir do fim.
+### Example #3
+Obtenha a porção de "111-222-333" antes do segundo hífen a partir do fim.
 ```powerquery
 Text.BeforeDelimiter("111-222-333", "-", {1, RelativePosition.FromEnd})
 ```

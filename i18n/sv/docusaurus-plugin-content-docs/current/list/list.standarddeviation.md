@@ -19,12 +19,12 @@ List.StandardDeviation(
 
 ## Remarks
 
-Returnerar en sampelbaserad uppskattning av standardavvikelsen för värden i listan <code>numbersList</code>.    Om <code>numbersList</code> är en lista med tal returneras ett tal.    Ett undantag genereras för en tom lista eller en lista med objekt som inte har typen <code>number</code>.
+Returnerar en sampelbaserad uppskattning av standardavvikelsen för värden i listan `numbersList`. Om `numbersList` är en lista med tal returneras ett tal. Ett undantag genereras för en tom lista eller en lista med objekt som inte har typen `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta standardavvikelsen för tal 1 till och med 5.
 ```powerquery
 List.StandardDeviation({1..5})

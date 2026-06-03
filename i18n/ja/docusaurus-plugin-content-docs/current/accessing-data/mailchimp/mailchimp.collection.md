@@ -25,7 +25,7 @@ MailChimp API に対する呼び出しを行い、結果のデータセットを
 
 ## Examples
 
-### Example #1 
+### Example #1
 MailChimp API のリスト エンドポイントからデータのテーブルをプルします。
 ```powerquery
 MailChimp.Collection("lists")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 MailChimp API のキャンペーン フォルダー エンドポイントからデータのテーブルをプルします。
 ```powerquery
 MailChimp.Collection("campaign-folders", "folders")

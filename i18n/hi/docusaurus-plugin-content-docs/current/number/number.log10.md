@@ -19,12 +19,12 @@ Number.Log10(
 
 ## Remarks
 
-संख्या, <code>number</code> का आधार-10 लघुगणक लौटाता है. अगर <code>number</code> नल है, तो <code>Number.Log10</code> नल लौटाता है.
+संख्या, `number` का आधार-10 लघुगणक लौटाता है. अगर `number` नल है, तो `Number.Log10` नल लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 2 का आधार-10 लघुगणक प्राप्त करें.
 ```powerquery
 Number.Log10(2)

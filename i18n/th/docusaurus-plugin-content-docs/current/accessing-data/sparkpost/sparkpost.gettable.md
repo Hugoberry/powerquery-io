@@ -27,8 +27,8 @@ SparkPost.GetTable(
 
 ## Examples
 
-### Example #1 
-ดึงเมตริกความสามารถในการส่ง count_sent และ count_rejected สำหรับ campaign_ids ที่ได้รวมมาทั้งหมดในสามวันที่ผ่านมา 
+### Example #1
+ดึงเมตริกความสามารถในการส่ง count\_sent และ count\_rejected สำหรับ campaign\_ids ที่ได้รวมมาทั้งหมดในสามวันที่ผ่านมา
 ```powerquery
 Source = SparkPost.GetTable(3, "count_sent,count_rejected", "campaign_id", "metrics/deliverability/campaign")
 ```

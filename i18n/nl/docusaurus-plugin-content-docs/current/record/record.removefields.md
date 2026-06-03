@@ -21,12 +21,12 @@ Record.RemoveFields(
 
 ## Remarks
 
-Retourneert een record die alle velden die in de lijst <code>fields</code> zijn opgegeven, verwijdert uit de invoer <code>record</code>. Als het opgegeven veld niet bestaat, wordt er een uitzondering gegenereerd.
+Retourneert een record die alle velden die in de lijst `fields` zijn opgegeven, verwijdert uit de invoer `record`. Er wordt een fout gegenereerd als het opgegeven veld niet bestaat.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Het veld Price uit de record verwijderen.
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], "Price")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 De velden Price en Item uit de record verwijderen.
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], {"Price", "Item"})

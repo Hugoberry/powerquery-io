@@ -19,7 +19,7 @@ Type.Facets(
 
 ## Remarks
 
-Trả về bản ghi chứa các khía cạnh của <code>type</code>.
+Trả về bản ghi chứa các khía cạnh của `type`.
 
 
 

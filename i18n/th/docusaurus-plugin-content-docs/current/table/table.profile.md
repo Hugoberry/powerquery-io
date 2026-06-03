@@ -20,7 +20,17 @@ Table.Profile(
 
 ## Remarks
 
-ส่งคืนโปรไฟล์สำหรับคอลัมน์ใน <code>table</code><br />มีการส่งคืนข้อมูลต่อไปนี้สำหรับแต่ละคอลัมน์ (หากสามารถใช้ได้)):<ul>  <li>minimum</li>  <li>maximum</li>  <li>average</li>  <li>standard deviation</li>  <li>count</li>  <li>null count</li>  <li>distinct count</li></ul><br />
+ส่งคืนโปรไฟล์สำหรับคอลัมน์ใน `table`
+
+มีการส่งคืนข้อมูลต่อไปนี้สำหรับแต่ละคอลัมน์ (หากสามารถใช้ได้)):
+
+-   minimum
+-   maximum
+-   average
+-   standard deviation
+-   count
+-   null count
+-   distinct count
 
 
 

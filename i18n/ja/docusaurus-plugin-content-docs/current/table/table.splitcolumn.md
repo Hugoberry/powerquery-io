@@ -24,32 +24,144 @@ Table.SplitColumn(
 
 ## Remarks
 
-指定された分割関数を使用して、指定された列を追加の列のセットに分割します。
+指定されたスプリッター関数を使用して、指定された列を追加の列のセットに分割します。
+
+-   `table`: 分割する列を含むテーブル。
+-   `sourceColumn`: 分割する列の名前。
+-   `splitter`: 列の分割に使用されるスプリッター関数 (例: `Splitter.SplitTextByDelimiter` または `Splitter.SplitTextByPosition`)。
+-   `columnNamesOrNumber`: 作成する新しい列名のリスト、または新しい列の数。
+-   `default`: すべての新しい列を埋めるのに十分なスプリット値がない場合に使用される値をオーバーライドします。このパラメーターの既定値は `null` です。
+-   `extraColumns`: スプリット値が新しい列の数よりも多い場合の対処方法を指定します。このパラメーターには、`ExtraValues.Type` 列挙型の値を渡すことができます。既定値は `ExtraValues.Ignore` です。
 
 
 ## Examples
 
-### Example #1 
-[Name] 列を &#34;i&#34; の位置で 2 つの列に分割します
+### Example #1
+名前列を名と姓に分割します。
 ```powerquery
 let
-    Customers = Table.FromRecords({
-        [CustomerID = 1, Name = "Bob", Phone = "123-4567"],
-        [CustomerID = 2, Name = "Jim", Phone = "987-6543"],
-        [CustomerID = 3, Name = "Paul", Phone = "543-7890"],
-        [CustomerID = 4, Name = "Cristina", Phone = "232-1550"]
-    })
+    Source = #table(type table[CustomerID = number, Name = text, Phone = text],
+    {
+        {1, "Bob White", "123-4567"},
+        {2, "Jim Smith", "987-6543"},
+        {3, "Paul", "543-7890"},
+        {4, "Cristina Best", "232-1550"}
+    }),
+    SplitColumns = Table.SplitColumn(
+        Source,
+        "Name",
+        Splitter.SplitTextByDelimiter(" "))
 in
-    Table.SplitColumn(Customers, "Name", Splitter.SplitTextByDelimiter("i"), 2)
+    SplitColumns
 ```
 
 Result: 
 ```powerquery
-Table.FromRecords({
-    [CustomerID = 1, Name.1 = "Bob", Name.2 = null, Phone = "123-4567"],
-    [CustomerID = 2, Name.1 = "J", Name.2 = "m", Phone = "987-6543"],
-    [CustomerID = 3, Name.1 = "Paul", Name.2 = null, Phone = "543-7890"],
-    [CustomerID = 4, Name.1 = "Cr", Name.2 = "st", Phone = "232-1550"]
+#table(type table[CustomerID = number, Name.1 = text, Name.2 = text, Phone = text],
+{
+    {1, "Bob", "White", "123-4567"},
+    {2, "Jim", "Smith", "987-6543"},
+    {3, "Paul", null, "543-7890"},
+    {4, "Cristina", "Best", "232-1550"}
+})
+```
+
+
+### Example #2
+名前列を名と姓に分割し、新しい列の名前を変更します。
+```powerquery
+let
+    Source = #table(type table[CustomerID = number, Name = text, Phone = text],
+    {
+        {1, "Bob White", "123-4567"},
+        {2, "Jim Smith", "987-6543"},
+        {3, "Paul", "543-7890"},
+        {4, "Cristina Best", "232-1550"}
+    }),
+    SplitColumns = Table.SplitColumn(
+        Source,
+        "Name",
+        Splitter.SplitTextByDelimiter(" "),
+        {"First Name", "Last Name"})
+in
+    SplitColumns
+```
+
+Result: 
+```powerquery
+#table(type table[CustomerID = number, First Name = text, Last Name = text, Phone = text],
+{
+    {1, "Bob", "White", "123-4567"},
+    {2, "Jim", "Smith", "987-6543"},
+    {3, "Paul", null, "543-7890"},
+    {4, "Cristina", "Best", "232-1550"}
+})
+```
+
+
+### Example #3
+名前列を名と姓に分割し、新しい列の名前を変更し、空白に "-No Entry-" を入力します。
+```powerquery
+let
+    Source = #table(type table[CustomerID = number, Name = text, Phone = text],
+    {
+        {1, "Bob White", "123-4567"},
+        {2, "Jim Smith", "987-6543"},
+        {3, "Paul", "543-7890"},
+        {4, "Cristina Best", "232-1550"}
+    }),
+    SplitColumns = Table.SplitColumn(
+        Source,
+        "Name",
+        Splitter.SplitTextByDelimiter(" "),
+        {"First Name", "Last Name"},
+        "-No Entry-")
+in
+    SplitColumns
+```
+
+Result: 
+```powerquery
+#table(type table[CustomerID = number, First Name = text, Last Name = text, Phone = text],
+{
+    {1, "Bob", "White", "123-4567"},
+    {2, "Jim", "Smith", "987-6543"},
+    {3, "Paul", "-No Entry-", "543-7890"},
+    {4, "Cristina", "Best", "232-1550"}
+})
+```
+
+
+### Example #4
+名前列を名と姓に分割し、新しい列の名前を変更します。使用可能な列の数よりも多くの値が存在する可能性があるため、姓の列を名の後のすべての値を含むリストにします。
+```powerquery
+let
+    Source = #table(type table[CustomerID = number, Name = text, Phone = text],
+    {
+        {1, "Bob White", "123-4567"},
+        {2, "Jim Smith", "987-6543"},
+        {3, "Paul Green", "543-7890"},
+        {4, "Cristina J. Best", "232-1550"}
+    }),
+    SplitColumns = Table.SplitColumn(
+        Source,
+        "Name",
+        Splitter.SplitTextByDelimiter(" "),
+        {"First Name", "Last Name"},
+        null,
+        ExtraValues.List)
+in
+    SplitColumns
+```
+
+Result: 
+```powerquery
+#table(type table[CustomerID = number, First Name = text, Last Name = text, Phone = text],
+{
+    {1, "Bob", {"White"}, "123-4567"},
+    {2, "Jim", {"Smith"}, "987-6543"},
+    {3, "Paul", {"Green"}, "543-7890"},
+    {4, "Cristina", {"J.", "Best"}, "232-1550"}
 })
 ```
 

@@ -21,12 +21,12 @@ Table.Range(
 
 ## Remarks
 
-Returnerer rækkerne fra <code>table</code>, der starter med den angivne <code>offset</code>. En valgfri parameter, <code>count</code>, angiver, hvor mange rækker der skal returneres. Alle rækkerne efter forskydningen returneres som standard.
+Returnerer rækkerne fra `table`, der starter med den angivne `offset`. En valgfri parameter, `count`, angiver, hvor mange rækker der skal returneres. Alle rækkerne efter forskydningen returneres som standard.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnerer alle rækker i tabellen med start ved forskydning 1.
 ```powerquery
 Table.Range(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Returnerer den eneste række i tabellen med start ved forskydning 1.
 ```powerquery
 Table.Range(

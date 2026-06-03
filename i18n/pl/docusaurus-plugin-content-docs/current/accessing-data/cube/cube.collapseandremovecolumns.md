@@ -20,7 +20,7 @@ Cube.CollapseAndRemoveColumns(
 
 ## Remarks
 
-Zmienia wymiarowy poziom szczegółowości kontekstu filtrów modułu <code>cube</code>, zwijając atrybuty zamapowane na określone kolumny <code>columnNames</code>. Te kolumny są także usuwane z widoku tabelarycznego modułu.
+Zmienia wymiarowy poziom szczegółowości kontekstu filtrów modułu `cube`, zwijając atrybuty zamapowane na określone kolumny `columnNames`. Te kolumny są także usuwane z widoku tabelarycznego modułu.
 
 
 

@@ -19,7 +19,7 @@ Number.Tanh(
 
 ## Remarks
 
-<code>number</code> の双曲タンジェントを返します。
+`number` の双曲タンジェントを返します。
 
 
 

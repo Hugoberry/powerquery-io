@@ -25,7 +25,7 @@ Returnerar en funktion som kombinerar en lista med textvärden till ett enda tex
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kombinera en lista med textvärden med hjälp av en sekvens med avgränsare.
 ```powerquery
 Combiner.CombineTextByEachDelimiter({"=", "+"})({"a", "b", "c"})

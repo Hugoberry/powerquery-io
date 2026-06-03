@@ -21,13 +21,13 @@ Marketo.Activities(
 
 ## Remarks
 
-Gọi tới điểm cuối API Marketo REST tại <code>url</code>/rest/v1/activities.json. Tất cả hoạt động trong danh sách <code>activityIds</code> đã diễn ra kể từ khi trả về <code>startTime</code>.
+Gọi tới điểm cuối API Marketo REST tại `url`/rest/v1/activities.json. Tất cả hoạt động trong danh sách `activityIds` đã diễn ra kể từ khi trả về `startTime`.
 
 
 ## Examples
 
-### Example #1 
-Kéo bảng hoạt động &#34;Truy cập Trang web&#34; kể từ ngày 1 tháng 11 năm 2015
+### Example #1
+Kéo bảng hoạt động "Truy cập Trang web" kể từ ngày 1 tháng 11 năm 2015
 ```powerquery
 Marketo.Activities("https://100-AAA-999.mktorest.com/rest", #date(2015,11,1), {1})
 ```

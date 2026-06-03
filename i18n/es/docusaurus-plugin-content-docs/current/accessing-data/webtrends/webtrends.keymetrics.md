@@ -26,7 +26,7 @@ Realiza una llamada al punto de conexión de Webtrends KeyMetrics y devuelve tod
 
 ## Examples
 
-### Example #1 
+### Example #1
 Extrae una tabla de métricas clave para el inquilino 98765 en los últimos 30 días
 ```powerquery
 Webtrends.KeyMetrics("98765")

@@ -26,7 +26,7 @@ Retrieves the data from select columns in provided table. You can also apply an 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Selects text and date columns
 ```powerquery
 TeamDesk.Select("https://www.teamdesk.net/secure/db/57692", "Meeting", { "Starter", "Start Date", "Participants" })

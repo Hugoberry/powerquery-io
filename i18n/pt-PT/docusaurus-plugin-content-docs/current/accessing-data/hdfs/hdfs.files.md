@@ -19,7 +19,7 @@ Hdfs.Files(
 
 ## Remarks
 
-Devolve uma tabela que contém uma linha para cada pasta e ficheiro encontrados no URL da pasta, <code>url</code>, e nas respetivas subpastas a partir de um sistema de ficheiros Hadoop. Cada linha contém as propriedades do ficheiro e uma hiperligação para o respetivo conteúdo.
+Devolve uma tabela que contém uma linha para cada pasta e ficheiro encontrados no URL da pasta, `url`, e nas respetivas subpastas a partir de um sistema de ficheiros Hadoop. Cada linha contém as propriedades do ficheiro e uma hiperligação para o respetivo conteúdo.
 
 
 

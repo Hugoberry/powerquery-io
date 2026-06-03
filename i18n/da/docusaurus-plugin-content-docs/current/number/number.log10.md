@@ -19,12 +19,12 @@ Number.Log10(
 
 ## Remarks
 
-Returnerer logaritmen med grundtallet 10 for et tal, <code>number</code>. Hvis <code>number</code> er null, returnerer <code>Number.Log10</code> null.
+Returnerer logaritmen med grundtallet 10 for et tal, `number`. Hvis `number` er null, returnerer `Number.Log10` null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hent logaritmen med grundtallet 10 for 2.
 ```powerquery
 Number.Log10(2)

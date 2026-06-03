@@ -5,7 +5,7 @@ title: DateTime.IsInCurrentMinute
 # DateTime.IsInCurrentMinute
 
 
-Indique si cette date/heure tombe pendant la minute actuelle, déterminée par la date et l&#39;heure actuelles du système.
+Indique si cette date/heure tombe pendant la minute actuelle, déterminée par la date et l'heure actuelles du système.
 
 
 ## Syntax
@@ -19,13 +19,15 @@ DateTime.IsInCurrentMinute(
 
 ## Remarks
 
-Indique si la valeur datetime spécifiée <code>dateTime</code> tombe pendant la minute actuelle, déterminée par la date et l'heure actuelles du système.      <ul>      <li><code>dateTime</code> : une valeur <code>datetime</code> ou <code>datetimezone</code> à évaluer.</li>      </ul>
+Indique si la valeur datetime spécifiée `dateTime` tombe pendant la minute actuelle, déterminée par la date et l'heure actuelles du système.
+
+-   `dateTime` : une valeur `datetime` ou `datetimezone` à évaluer.
 
 
 ## Examples
 
-### Example #1 
-Détermine si l&#39;heure système actuelle correspond à la minute actuelle.
+### Example #1
+Détermine si l'heure système actuelle correspond à la minute actuelle.
 ```powerquery
 DateTime.IsInCurrentMinute(DateTime.FixedLocalNow())
 ```

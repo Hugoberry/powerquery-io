@@ -19,13 +19,15 @@ Duration.ToRecord(
 
 ## Remarks
 
-ส่งกลับระเบียนที่มีส่วนของค่าระยะเวลา <code>duration</code>   <ul>        <li><code>duration</code>: <code>ระยะเวลา</code> ที่ระเบียนถูกสร้าง</li>      </ul>
+ส่งกลับระเบียนที่มีส่วนของค่าระยะเวลา `duration`
+
+-   `duration`: `ระยะเวลา` ที่ระเบียนถูกสร้าง
 
 
 ## Examples
 
-### Example #1 
-แปลง &lt;code&gt;#duration(2, 5, 55, 20)&lt;/code&gt; เป็นระเบียนของส่วนต่างๆ รวมถึงวัน ชั่วโมง นาที และวินาทีหากมีให้ใช้งาน
+### Example #1
+แปลง `#duration(2, 5, 55, 20)` เป็นระเบียนของส่วนต่างๆ รวมถึงวัน ชั่วโมง นาที และวินาทีหากมีให้ใช้งาน
 ```powerquery
 Duration.ToRecord(#duration(2, 5, 55, 20))
 ```

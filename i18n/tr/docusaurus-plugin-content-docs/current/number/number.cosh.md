@@ -19,7 +19,7 @@ Number.Cosh(
 
 ## Remarks
 
-<code>number</code> değerinin hiperbolik kosinüsünü döndürür.
+`number` değerinin hiperbolik kosinüsünü döndürür.
 
 
 

@@ -20,12 +20,12 @@ Table.Repeat(
 
 ## Remarks
 
-Returnerar en tabell där raderna från angivna indata, <code>table</code>, upprepas <code>count</code> gånger.
+Returnerar en tabell där raderna från angivna indata, `table`, upprepas `count` gånger.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Upprepar raderna i tabellen två gånger.
 ```powerquery
 Table.Repeat(

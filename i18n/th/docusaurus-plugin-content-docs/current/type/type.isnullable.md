@@ -19,13 +19,13 @@ Type.IsNullable(
 
 ## Remarks
 
-ส่งกลับ <code>true</code> ถ้าประเภทเป็นประเภทที่ <code>nullable</code> มิฉะนั้นจะส่งกลับ <code>false</code>
+ส่งกลับ `true` ถ้าประเภทเป็นประเภทที่ `nullable` มิฉะนั้นจะส่งกลับ `false`
 
 
 ## Examples
 
-### Example #1 
-ดูว่า &lt;code&gt;number&lt;/code&gt; เป็น NULL ได้หรือไม่
+### Example #1
+ดูว่า `number` เป็น NULL ได้หรือไม่
 ```powerquery
 Type.IsNullable(type number)
 ```
@@ -36,8 +36,8 @@ false
 ```
 
 
-### Example #2 
-ดูว่า &lt;code&gt;type nullable number&lt;/code&gt; เป็น NULL ได้หรือไม่
+### Example #2
+ดูว่า `type nullable number` เป็น NULL ได้หรือไม่
 ```powerquery
 Type.IsNullable(type nullable number)
 ```

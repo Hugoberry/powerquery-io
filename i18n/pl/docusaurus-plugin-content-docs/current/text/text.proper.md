@@ -20,13 +20,13 @@ Text.Proper(
 
 ## Remarks
 
-Zwraca wynik zamiany na wielką literę pierwszej litery każdego wyrazu w wartości tekstowej <code>text</code>. Wszystkie inne litery w zwracanej wartości są małymi literami. Można także określić opcjonalny parametr <code>culture</code> (na przykład „en-US”).
+Zwraca wynik zamiany na wielką literę pierwszej litery każdego wyrazu w wartości tekstowej `text`. Wszystkie inne litery w zwracanej wartości są małymi literami. Można także określić opcjonalny parametr `culture` (na przykład „en-US”).
 
 
 ## Examples
 
-### Example #1 
-Użyj funkcji &lt;code&gt;Text.Proper&lt;/code&gt; w prostym zdaniu.
+### Example #1
+Użyj funkcji `Text.Proper` w prostym zdaniu.
 ```powerquery
 Text.Proper("the QUICK BrOWn fOx jUmPs oVER tHe LAzy DoG")
 ```

@@ -19,13 +19,13 @@ Type.FunctionParameters(
 
 ## Remarks
 
-ส่งกลับระเบียนที่มีค่าเขตข้อมูลถูกตั้งค่าเป็นชื่อของพารามิเตอร์ <code>type</code> และค่าของเขตข้อมูลนั้นถูกตั้งค่าเป็นประเภทที่สอดคล้องกัน
+ส่งกลับระเบียนที่มีค่าเขตข้อมูลถูกตั้งค่าเป็นชื่อของพารามิเตอร์ `type` และค่าของเขตข้อมูลนั้นถูกตั้งค่าเป็นประเภทที่สอดคล้องกัน
 
 
 ## Examples
 
-### Example #1 
-ค้นหาประเภทของพารามิเตอร์สำหรับฟังก์ชัน &lt;code&gt;(x as number, y as text)&lt;/code&gt;
+### Example #1
+ค้นหาประเภทของพารามิเตอร์สำหรับฟังก์ชัน `(x as number, y as text)`
 ```powerquery
 Type.FunctionParameters(type function (x as number, y as text) as any)
 ```

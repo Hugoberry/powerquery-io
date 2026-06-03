@@ -19,12 +19,12 @@ Duration.Hours(
 
 ## Remarks
 
-Возвращает часовую часть <code>duration</code>.
+Возвращает часовую часть `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Извлечь часы из значения длительности.
 ```powerquery
 Duration.Hours(#duration(5, 4, 3, 2))

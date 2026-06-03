@@ -26,7 +26,7 @@ Webtrends.KeyMetrics(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Запрашивает таблицу с ключевыми метриками для клиента 98765 за последние 30 дней
 ```powerquery
 Webtrends.KeyMetrics("98765")

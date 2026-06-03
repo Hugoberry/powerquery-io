@@ -19,12 +19,12 @@ Text.Clean(
 
 ## Remarks
 
-Trả về giá trị văn bản đã loại bỏ tất cả ký tự điều khiển của <code>text</code>.
+Trả về giá trị văn bản đã loại bỏ tất cả ký tự điều khiển của `text`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Loại bỏ ký tự chuyển dòng và các ký tự điều khiển khác khỏi giá trị văn bản.
 ```powerquery
 Text.Clean("ABC#(lf)D")

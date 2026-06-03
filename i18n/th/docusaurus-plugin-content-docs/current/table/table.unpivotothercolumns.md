@@ -27,7 +27,7 @@ Table.UnpivotOtherColumns(
 
 ## Examples
 
-### Example #1 
+### Example #1
 แปลคอลัมน์ทั้งหมดนอกเหนือจากชุดที่ระบุไว้ในคู่ค่า-แอตทริบิวต์ รวมกับค่าส่วนที่เหลือในแต่ละแถว
 ```powerquery
 Table.UnpivotOtherColumns(

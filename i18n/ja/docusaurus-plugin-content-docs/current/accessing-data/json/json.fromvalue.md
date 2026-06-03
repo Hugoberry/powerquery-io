@@ -20,12 +20,21 @@ Json.FromValue(
 
 ## Remarks
 
-<code>encoding</code> で指定したテキスト コーディングで指定した値 <code>value</code> の JSON 表記を生成します。<code>encoding</code> が省略される場合は UTF8 が使用されます。ビジュアルは次のように表されます:<br /> <ul>        <li>Null、テキストおよび論理の値は対応する JSON 型 として表されます。</li>        <li>数値は JSON内の数値として表されます。ただし、<code>#infinity</code>、<code>-#infinity</code> および <code>#nan</code> は null に変換されます。</li>        <li>リストは JSON アレイとして表されます</li>        <li>レコードは JSON オブジェクトとして表されます</li>        <li>テーブルはオブジェクトのアレイとして表されます</li>        <li>日付、時間、日時、日付タイムゾーンおよび期間は ISO-8601 テキストとして表されます</li>        <li>バイナリ値はエンコードされた Base 64 テキストとして表されます</li>        <li>型と関数はエラーを生成します</li> </ul>
+指定した値 `value` を、`encoding` で指定したテキスト コーディングに従って JSON 表記にします。`encoding` が省略された場合は UTF8 が使用されます。値は次のように表されます。
+
+-   Null、テキスト、および論理値は対応する JSON 型として表されます。
+-   数値は JSON 内の数値として表されますが、`#infinity`、`-#infinity`、および `#nan` は null に変換されます。
+-   リストは JSON 配列として表されます
+-   レコードは JSON オブジェクトとして表されます
+-   テーブルはオブジェクトの配列として表されます
+-   日付、時刻、日時、日時付きタイムゾーン、期間は ISO-8601 テキストとして表されます
+-   バイナリ値は base-64 エンコードされたテキストとして表されます
+-   型と関数はエラーとなります
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 複合値を JSON に変換します。
 ```powerquery
 Text.FromBinary(Json.FromValue([A = {1, true, "3"}, B = #date(2012, 3, 25)]))

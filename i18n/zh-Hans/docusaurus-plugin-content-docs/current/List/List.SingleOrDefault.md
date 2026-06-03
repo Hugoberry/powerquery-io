@@ -20,13 +20,13 @@ List.SingleOrDefault(
 
 ## Remarks
 
-如果列表 <code>list</code> 中只有一项，则返回该项。    如果列表为空，函数将返回 null，除非指定了可选的 <code>default</code>。如果列表中有多项，函数将返回错误。
+如果列表 `list` 中只有一项，则返回该项。 如果列表为空，函数将返回 null，除非指定了可选的 `default`。如果列表中有多项，函数将返回错误。
 
 
 ## Examples
 
-### Example #1 
-在列表 \{1} 中查找单个值。
+### Example #1
+在列表 \{1\} 中查找单个值。
 ```powerquery
 List.SingleOrDefault({1})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-在列表 \{} 中查找单个值。
+### Example #2
+在列表 \{\} 中查找单个值。
 ```powerquery
 List.SingleOrDefault({})
 ```
@@ -49,8 +49,8 @@ null
 ```
 
 
-### Example #3 
-在列表 \{} 中查找单个值。如果为空，则返回 -1。
+### Example #3
+在列表 \{\} 中查找单个值。如果为空，则返回 -1。
 ```powerquery
 List.SingleOrDefault({}, -1)
 ```

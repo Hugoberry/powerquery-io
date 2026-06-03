@@ -21,12 +21,12 @@ Text.Replace(
 
 ## Remarks
 
-Zwraca wynik zamiany wszystkich wystąpień wartości tekstowej <code>old</code> w wartości tekstowej <code>text</code> na wartość tekstową <code>new</code>. Ta funkcja rozróżnia wielkość liter.
+Zwraca wynik zamiany wszystkich wystąpień wartości tekstowej `old` w wartości tekstowej `text` na wartość tekstową `new`. Ta funkcja rozróżnia wielkość liter.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zamień każde wystąpienie wyrazu „the” w zdaniu na wyraz „a”.
 ```powerquery
 Text.Replace("the quick brown fox jumps over the lazy dog", "the", "a")

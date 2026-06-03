@@ -20,13 +20,13 @@ Table.HasColumns(
 
 ## Remarks
 
-Cho biết <code>table</code> có chứa (các) cột được chỉ định <code>columns</code> hay không. Trả về <code>true</code> nếu bảng chứa (các) cột, <code>false</code> nếu ngược lại.
+Cho biết `table` có chứa (các) cột được chỉ định `columns` hay không. Trả về `true` nếu bảng chứa (các) cột, `false` nếu ngược lại.
 
 
 ## Examples
 
-### Example #1 
-Xác định bảng có chứa cột [Name] hay không.
+### Example #1
+Xác định bảng có chứa cột \[Name\] hay không.
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({
@@ -45,8 +45,8 @@ true
 ```
 
 
-### Example #2 
-Tìm xem bảng có cột [Name] và [PhoneNumber] hay không.
+### Example #2
+Tìm xem bảng có cột \[Name\] và \[PhoneNumber\] hay không.
 ```powerquery
 Table.HasColumns(
     Table.FromRecords({

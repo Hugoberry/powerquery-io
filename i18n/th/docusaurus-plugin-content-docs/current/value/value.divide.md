@@ -21,7 +21,7 @@ Value.Divide(
 
 ## Remarks
 
-ส่งกลับผลลัพธ์ของการหาร <code>value1</code> ด้วย <code>value2</code> พารามิเตอร์ <code>precision</code> ที่เลือกได้อาจถูกระบุไว้ ตามค่าเริ่มต้น จะมีการใช้ <code>Precision.Double</code>
+ส่งกลับผลลัพธ์ของการหาร `value1` ด้วย `value2` พารามิเตอร์ `precision` ที่เลือกได้อาจถูกระบุไว้ ตามค่าเริ่มต้น จะมีการใช้ `Precision.Double`
 
 
 

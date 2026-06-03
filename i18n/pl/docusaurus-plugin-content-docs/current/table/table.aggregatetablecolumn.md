@@ -21,13 +21,13 @@ Table.AggregateTableColumn(
 
 ## Remarks
 
-Agreguje tabele w kolumnie <code>table</code>[<code>column</code>] do wielu kolumn zawierających zagregowane wartości dla tabel. Parametr <code>aggregations</code> służy do określania kolumn zawierających tabele do zagregowania, funkcje agregujące do zastosowania do tabel w celu wygenerowania wartości oraz nazwy kolumn agregacji do utworzenia.
+Agreguje tabele w kolumnie `table`\[`column`\] do wielu kolumn zawierających zagregowane wartości dla tabel. Parametr `aggregations` służy do określania kolumn zawierających tabele do zagregowania, funkcje agregujące do zastosowania do tabel w celu wygenerowania wartości oraz nazwy kolumn agregacji do utworzenia.
 
 
 ## Examples
 
-### Example #1 
-Zagreguj kolumny tabel z tabeli &lt;code&gt;[t]&lt;/code&gt; w tabeli &lt;code&gt;\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}&lt;/code&gt; do sumy kolumny &lt;code&gt;[t.a]&lt;/code&gt;, wartości minimalnej i maksymalnej kolumny &lt;code&gt;[t.b]&lt;/code&gt; oraz liczby wartości w kolumnie &lt;code&gt;[t.a]&lt;/code&gt;.
+### Example #1
+Zagreguj kolumny tabel z tabeli `[t]` w tabeli `{[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}` do sumy kolumny `[t.a]`, wartości minimalnej i maksymalnej kolumny `[t.b]` oraz liczby wartości w kolumnie `[t.a]`.
 ```powerquery
 Table.AggregateTableColumn(
     Table.FromRecords(

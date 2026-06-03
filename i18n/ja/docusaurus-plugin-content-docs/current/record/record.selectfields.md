@@ -21,13 +21,13 @@ Record.SelectFields(
 
 ## Remarks
 
-入力 <code>record</code> からリスト <code>fields</code> で指定されたフィールドのみを含むレコードを返します。
+入力 `record` からリスト `fields` で指定されたフィールドのみを含むレコードを返します。
 
 
 ## Examples
 
-### Example #1 
-レコード内のフィールド &#34;Item&#34; と &#34;Price&#34; を選択します。
+### Example #1
+レコード内のフィールド "Item" と "Price" を選択します。
 ```powerquery
 Record.SelectFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0],

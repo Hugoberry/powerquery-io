@@ -20,12 +20,12 @@ Number.Log(
 
 ## Remarks
 
-Возвращает логарифм числа <code>number</code> по основанию <code>base</code>. Если <code>base</code> не указано, применяется значение по умолчанию — Number.E.    Если <code>number</code> имеет значение NULL, <code>Number.Log</code> возвращает NULL.
+Возвращает логарифм числа `number` по основанию `base`. Если `base` не указано, применяется значение по умолчанию — Number.E. Если `number` имеет значение NULL, `Number.Log` возвращает NULL.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Получение десятичного логарифма для 2.
 ```powerquery
 Number.Log(2, 10)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Получение натурального логарифма для 2.
 ```powerquery
 Number.Log(2)

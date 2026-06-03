@@ -20,7 +20,9 @@ Essbase.Cubes(
 
 ## Remarks
 
-Devolve uma tabela de cubos agrupados pelo servidor Essbase a partir de uma instância de Essbase no servidor APS <code>url</code>. Um parâmetro de registo opcional, <code>options</code>, poderá ser especificado para controlar as seguintes opções:    <ul><li><code>CommandTimeout</code> : Uma dura&#231;&#227;o que controla o tempo em que a consulta do lado do servidor est&#225; autorizada a ser executada antes de ser cancelada. O valor predefinido &#233; dez minutos.</li></ul>
+Devolve uma tabela de cubos agrupados pelo servidor Essbase a partir de uma instância de Essbase no servidor APS `url`. Um parâmetro de registo opcional, `options`, poderá ser especificado para controlar as seguintes opções:
+
+-   `CommandTimeout` : Uma duração que controla o tempo em que a consulta do lado do servidor está autorizada a ser executada antes de ser cancelada. O valor predefinido é dez minutos.
 
 
 

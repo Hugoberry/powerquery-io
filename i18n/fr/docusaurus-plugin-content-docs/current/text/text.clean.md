@@ -19,12 +19,12 @@ Text.Clean(
 
 ## Remarks
 
-Retourne une valeur de texte après avoir supprimé tous les caractères de contrôle de <code>text</code>.
+Retourne une valeur de texte après avoir supprimé tous les caractères de contrôle de `text`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Supprimez les sauts de ligne et d’autres caractères de contrôle d’une valeur de texte.
 ```powerquery
 Text.Clean("ABC#(lf)D")

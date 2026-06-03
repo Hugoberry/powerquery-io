@@ -19,7 +19,7 @@ Exchange.Contents(
 
 ## Remarks
 
-Zwraca spis treści z konta programu Microsoft Exchange <code>mailboxAddress</code>. Jeśli nie określono konta <code>mailboxAddress</code>, zostanie użyte domyślne konto dla poświadczeń.
+Zwraca spis treści z konta programu Microsoft Exchange `mailboxAddress`. Jeśli nie określono konta `mailboxAddress`, zostanie użyte domyślne konto dla poświadczeń.
 
 
 

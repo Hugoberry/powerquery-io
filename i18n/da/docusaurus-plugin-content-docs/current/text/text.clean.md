@@ -19,12 +19,12 @@ Text.Clean(
 
 ## Remarks
 
-Returnerer en tekstværdi, hvor alle kontroltegnene <code>text</code> er fjernet.
+Returnerer en tekstværdi, hvor alle kontroltegnene `text` er fjernet.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Fjern linjeskift og andre kontroltegn fra en tekstværdi.
 ```powerquery
 Text.Clean("ABC#(lf)D")

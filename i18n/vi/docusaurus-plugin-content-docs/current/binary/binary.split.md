@@ -20,7 +20,7 @@ Binary.Split(
 
 ## Remarks
 
-Tách <code>binary</code> thành danh sách các nhị phân, nơi phần tử đầu tiên của danh sách đầu ra là nhị phân chứa byte <code>pageSize</code> đầu tiên từ    nhị phân nguồn, phần tử tiếp theo của danh sách đầu ra là nhị phân chứa byte <code>pageSize</code> tiếp theo từ nhị phân nguồn, v.v.
+Tách `binary` thành danh sách các nhị phân, nơi phần tử đầu tiên của danh sách đầu ra là nhị phân chứa byte `pageSize` đầu tiên từ nhị phân nguồn, phần tử tiếp theo của danh sách đầu ra là nhị phân chứa byte `pageSize` tiếp theo từ nhị phân nguồn, v.v.
 
 
 

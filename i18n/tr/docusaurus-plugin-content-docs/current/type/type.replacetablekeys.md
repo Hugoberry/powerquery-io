@@ -20,18 +20,25 @@ Type.ReplaceTableKeys(
 
 ## Remarks
 
-Tüm anahtarların belirtilen anahtar listesiyle değiştirilmesiyle yeni bir tablo türü döndürür.<br />    <br />    Her anahtar aşağıdaki formda bir kayıt kullanılarak tanımlanır:    <ul>      <li>        <code>Columns</code>: anahtar adını tanımlayan sütun adlarının listesi      </li>      <li>        Anahtar tablonun birincil anahtarı ise, <code>Primary</code>: <code>true</code>; aksi halde, <code>false</code>      </li>    </ul>    Belirtilen anahtar listesi, en fazla bir birincil anahtar tanımlandığından ve tüm anahtar sütun adlarının tablo türünde mevcut olduğundan emin olmak için doğrulanır.    
+Tüm anahtarların belirtilen anahtar listesiyle değiştirilmesiyle yeni bir tablo türü döndürür.  
+  
+Her anahtar aşağıdaki formda bir kayıt kullanılarak tanımlanır:
+
+-   `Columns`: anahtar adını tanımlayan sütun adlarının listesi
+-   Anahtar tablonun birincil anahtarı ise, `Primary`: `true`; aksi halde, `false`
+
+Belirtilen anahtar listesi, en fazla bir birincil anahtar tanımlandığından ve tüm anahtar sütun adlarının tablo türünde mevcut olduğundan emin olmak için doğrulanır.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablo türündeki anahtar bilgilerini değiştirin.
 ```powerquery
 let
     BaseType = type table [ID = number, FirstName = text, LastName = text],
     KeysAdded = Type.ReplaceTableKeys(
-        BaseType, 
+        BaseType,
         {
             [Columns = {"ID"}, Primary = true],
             [Columns = {"FirstName", "LastName"}, Primary = false]
@@ -51,7 +58,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Daha önce bir tablo türünde tanımlanan anahtar bilgilerini temizleyin.
 ```powerquery
 let

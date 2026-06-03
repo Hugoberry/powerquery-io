@@ -19,12 +19,12 @@ Table.RowCount(
 
 ## Remarks
 
-ส่งกลับจำนวนของแถวใน <code>table</code>
+ส่งกลับจำนวนของแถวใน `table`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ค้นหาจำนวนแถวในตาราง
 ```powerquery
 Table.RowCount(

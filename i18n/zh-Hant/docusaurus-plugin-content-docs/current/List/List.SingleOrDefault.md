@@ -20,13 +20,13 @@ List.SingleOrDefault(
 
 ## Remarks
 
-如果清單 <code>list</code> 中只有一個項目，即傳回該項目。    如果清單是空的，則除非指定了選擇性的 <code>default</code>，否則函數會傳回 null。如果清單中不止一個項目，函數會傳回錯誤。
+如果清單 `list` 中只有一個項目，即傳回該項目。 如果清單是空的，則除非指定了選擇性的 `default`，否則函數會傳回 null。如果清單中不止一個項目，函數會傳回錯誤。
 
 
 ## Examples
 
-### Example #1 
-找出清單 \{1} 中的一個值。
+### Example #1
+找出清單 \{1\} 中的一個值。
 ```powerquery
 List.SingleOrDefault({1})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-找出清單 \{} 中的一個值。
+### Example #2
+找出清單 \{\} 中的一個值。
 ```powerquery
 List.SingleOrDefault({})
 ```
@@ -49,8 +49,8 @@ null
 ```
 
 
-### Example #3 
-找出清單 \{} 中的一個值。如果是空的，則傳回 -1。
+### Example #3
+找出清單 \{\} 中的一個值。如果是空的，則傳回 -1。
 ```powerquery
 List.SingleOrDefault({}, -1)
 ```

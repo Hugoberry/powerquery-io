@@ -19,12 +19,12 @@ Duration.Days(
 
 ## Remarks
 
-<code>duration</code> için gün kısmını döndürür
+`duration` için gün kısmını döndürür
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 İki tarih arasındaki gün sayısını ayıklar.
 ```powerquery
 Duration.Days(#date(2022, 3, 4) - #date(2022, 2, 25))

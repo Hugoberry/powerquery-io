@@ -23,12 +23,12 @@ Table.FromList(
 
 ## Remarks
 
-Convertit une liste <code>list</code> en table en appliquant la fonction de fractionnement facultative <code>splitter</code> à chaque élément de la liste. Par défaut, la liste est supposée être une liste de valeurs de texte fractionnées par des virgules. Le <code>columns</code> facultatif peut être le nombre de colonnes, une liste de colonnes ou un TableType. Les paramètres facultatifs <code>default</code> et <code>extraValues</code> peuvent aussi être spécifiés.
+Convertit une liste `list` en table en appliquant la fonction de fractionnement facultative `splitter` à chaque élément de la liste. Par défaut, la liste est supposée être une liste de valeurs de texte fractionnées par des virgules. Le `columns` facultatif peut être le nombre de colonnes, une liste de colonnes ou un TableType. Les paramètres facultatifs `default` et `extraValues` peuvent aussi être spécifiés.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Créez une table à partir d’une liste à l’aide du séparateur par défaut.
 ```powerquery
 Table.FromList(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Créez une table à partir d’une liste à l’aide d’un séparateur personnalisé.
 ```powerquery
 Table.FromList(
@@ -70,7 +70,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Créez une table à partir de la liste à l’aide du séparateur Record.FieldValues.
 ```powerquery
 Table.FromList(

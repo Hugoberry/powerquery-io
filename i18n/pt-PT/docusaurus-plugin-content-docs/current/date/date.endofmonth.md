@@ -19,12 +19,14 @@ Date.EndOfMonth(
 
 ## Remarks
 
-Devolve o fim do mês que contém <code>dateTime</code>.      <ul>        <li><code>dateTime</code>: um valor <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> a partir do qual o fim do mês é calculado</li>      </ul>
+Devolve o fim do mês que contém `dateTime`.
+
+-   `dateTime`: um valor `date`, `datetime` ou `datetimezone` a partir do qual é calculado o fim do mês.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Obter o fim do mês para 14/5/2011.
 ```powerquery
 Date.EndOfMonth(#date(2011, 5, 14))
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Obter o fim do mês para 17/5/2011 17:00:00 -7:00.
 ```powerquery
 Date.EndOfMonth(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0))

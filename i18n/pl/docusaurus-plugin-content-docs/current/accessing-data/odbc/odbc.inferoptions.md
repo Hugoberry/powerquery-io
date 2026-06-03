@@ -19,12 +19,12 @@ Odbc.InferOptions(
 
 ## Remarks
 
-Zwraca wynik próby wywnioskowania możliwości SQL z parametrami połączenia <code>connectionString</code> przy użyciu programu ODBC. Parametry <code>connectionString</code> mogą mieć postać tekstu lub rekordu par wartości właściwości. Wartości właściwości mogą być tekstowe lub liczbowe.
+Zwraca wynik próby wywnioskowania możliwości SQL z parametrami połączenia `connectionString` przy użyciu programu ODBC. Parametry `connectionString` mogą mieć postać tekstu lub rekordu par wartości właściwości. Wartości właściwości mogą być tekstowe lub liczbowe.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zwróć wywnioskowane możliwości SQL dla parametrów połączenia.
 ```powerquery
 Odbc.InferOptions("dsn=your_dsn")

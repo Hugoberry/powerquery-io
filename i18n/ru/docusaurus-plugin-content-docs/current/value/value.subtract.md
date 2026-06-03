@@ -21,7 +21,7 @@ Value.Subtract(
 
 ## Remarks
 
-Возвращает разность <code>value1</code> и <code>value2</code>. Можно указать необязательный параметр <code>precision</code>, по умолчанию используется <code>Precision.Double</code>.
+Возвращает разность `value1` и `value2`. Можно указать необязательный параметр `precision`, по умолчанию используется `Precision.Double`.
 
 
 

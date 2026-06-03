@@ -21,12 +21,12 @@ List.Range(
 
 ## Remarks
 
-Devuelve un subconjunto de la lista comenzando en el desplazamiento <code>list</code>. Un parámetro opcional, <code>offset</code>, establece el número máximo de elementos del subconjunto.
+Devuelve un subconjunto del `list` que comienza en `offset`. Un parámetro opcional, `count`, establece el número máximo de elementos del subconjunto.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Buscar el subconjunto que empieza en el desplazamiento 6 de la lista de números 1 a 10.
 ```powerquery
 List.Range({1..10}, 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Buscar el subconjunto de longitud 2 a partir del desplazamiento 6 de la lista de números 1 a 10.
 ```powerquery
 List.Range({1..10}, 6, 2)

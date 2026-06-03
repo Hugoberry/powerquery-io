@@ -26,7 +26,7 @@ Zwraca funkcję dzielącą tekst na listę wartości tekstowych w miejscach wyst
 
 ## Examples
 
-### Example #1 
+### Example #1
 Podziel dane wejściowe według przecinka lub średnika, ignorując cudzysłowy i ograniczniki w cudzysłowach, i zaczynając od początku danych wejściowych.
 ```powerquery
 Splitter.SplitTextByAnyDelimiter({",", ";"}, QuoteStyle.Csv)("a,b;""c,d;e"",f")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Podziel dane wejściowe według przecinka lub średnika, ignorując cudzysłowy i ograniczniki w cudzysłowach, i zaczynając od końca danych wejściowych.
 ```powerquery
 let

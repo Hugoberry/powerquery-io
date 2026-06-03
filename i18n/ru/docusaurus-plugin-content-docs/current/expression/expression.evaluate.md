@@ -20,12 +20,12 @@ Expression.Evaluate(
 
 ## Remarks
 
-Возвращает результат вычисления выражения <code>document</code> языка M с доступными для ссылки идентификаторами, которые определяет <code>environment</code>.
+Возвращает результат вычисления выражения `document` языка M с доступными для ссылки идентификаторами, которые определяет `environment`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Вычисление простой суммы.
 ```powerquery
 Expression.Evaluate("1 + 1")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Вычисление более сложной суммы.
 ```powerquery
 Expression.Evaluate("List.Sum({1, 2, 3})", [List.Sum = List.Sum])
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Вычисление объединения текстового значения с идентификатором.
 ```powerquery
 Expression.Evaluate(Expression.Constant("""abc") & " & " & Expression.Identifier("x"), [x = "def"""])

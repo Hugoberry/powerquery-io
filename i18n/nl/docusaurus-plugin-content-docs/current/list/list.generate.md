@@ -22,12 +22,12 @@ List.Generate(
 
 ## Remarks
 
-Genereert een lijst met waarden met behulp van de opgegeven functies. De functie <code>initial</code> genereert een beginwaarde voor de kandidaat, die vervolgens wordt getest op <code>condition</code>.    Als de kandidaatwaarde wordt goedgekeurd, wordt deze geretourneerd als onderdeel van de resulterende lijst en de volgende kandidaatwaarde wordt gegenereerd door de zojuist goedgekeurde waarde door te geven aan <code>next</code>.    Als een kandidaatwaarde niet overeenkomt met <code>condition</code>, stopt het proces voor het genereren van de lijst.    Een optionele parameter, <code>selector</code>, kan ook worden opgegeven om de items in de resulterende lijst te transformeren.
+Genereert een lijst met waarden met behulp van de opgegeven functies. De functie `initial` genereert een beginwaarde voor de kandidaat, die vervolgens wordt getest op `condition`. Als de kandidaatwaarde wordt goedgekeurd, wordt deze geretourneerd als onderdeel van de resulterende lijst en de volgende kandidaatwaarde wordt gegenereerd door de zojuist goedgekeurde waarde door te geven aan `next`. Als een kandidaatwaarde niet overeenkomt met `condition`, stopt het proces voor het genereren van de lijst. Een optionele parameter, `selector`, kan ook worden opgegeven om de items in de resulterende lijst te transformeren.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Maak een lijst door te beginnen bij tien, herhaaldelijk met één te verlagen en ervoor te zorgen dat elk item groter is dan nul.
 ```powerquery
 List.Generate(() => 10, each _ > 0, each _ - 1)
@@ -39,7 +39,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Een lijst genereren met records die x en y bevatten, waarbij x een waarde en y een lijst is. x moet kleiner dan 10 blijven en het aantal items in de lijst y voorstellen. Nadat de lijst is gegenereerd, alleen de x-waarden retourneren.
 ```powerquery
 List.Generate(

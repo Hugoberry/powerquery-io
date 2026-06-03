@@ -5,7 +5,7 @@ title: List.ReplaceMatchingItems
 # List.ReplaceMatchingItems
 
 
-Wendet jede Ersetzung vom Typ &#34;\{ old, new }&#34; an.
+Wendet jede Ersetzung vom Typ "\{ old, new \}" an.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ List.ReplaceMatchingItems(
 
 ## Remarks
 
-Nimmt die angegebenen Ersetzungen in der Liste "<code>list</code>" vor. Ein Ersetzungsvorgang (<code>replacements</code>) besteht aus einer Liste mit zwei Werten (alter und neuer Wert), die in einer Liste bereitgestellt wird.    Zum Steuern der Gleichheitsüberprüfung kann ein optionales Gleichungskriterium (<code>equationCriteria</code>) angegeben werden.
+Nimmt die angegebenen Ersetzungen in der Liste "`list`" vor. Ein Ersetzungsvorgang (`replacements`) besteht aus einer Liste mit zwei Werten (alter und neuer Wert), die in einer Liste bereitgestellt wird. Zum Steuern der Gleichheitsüberprüfung kann ein optionales Gleichungskriterium (`equationCriteria`) angegeben werden.
 
 
 ## Examples
 
-### Example #1 
-Erstellt eine Liste auf der Grundlage von &#34;\{1, 2, 3, 4, 5}&#34;, in der der Wert 5 durch -5 und der Wert 1 durch -1 ersetzt wird.
+### Example #1
+Erstellt eine Liste auf der Grundlage von "\{1, 2, 3, 4, 5\}", in der der Wert 5 durch -5 und der Wert 1 durch -1 ersetzt wird.
 ```powerquery
 List.ReplaceMatchingItems({1, 2, 3, 4, 5}, {{5, -5}, {1, -1}})
 ```

@@ -22,12 +22,18 @@ Diagnostics.Trace(
 
 ## Remarks
 
-Schreibt einen Ablaufverfolgungseintrag "<code>message</code>", wenn die Ablaufverfolgung aktiviert ist, und gibt "<code>value</code>" zurück. Ein optionaler Parameter "<code>delayed</code>" gibt an, ob die Auswertung von "<code>value</code>" verzögert werden soll, bis die Nachricht nachverfolgt wurde. "<code>traceLevel</code>" kann einen der folgenden Werte annehmen:    <code>TraceLevel.Critical</code>    <code>TraceLevel.Error</code>,    <code>TraceLevel.Warning</code>,    <code>TraceLevel.Information</code>,    <code>TraceLevel.Verbose</code>.  
+Schreibt eine Ablaufverfolgung „`message`“, wenn die Ablaufverfolgung aktiviert ist, und gibt `value`zurück. Ein optionaler Parameter `delayed` gibt an, ob die Auswertung von `value` verzögert werden soll, bis die Nachricht nachverfolgt wird. `traceLevel` kann einen der folgenden Werte annehmen:
+
+-   `TraceLevel.Critical`
+-   `TraceLevel.Error`
+-   `TraceLevel.Warning`
+-   `TraceLevel.Information`
+-   `TraceLevel.Verbose`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Verfolgen Sie die Nachricht, bevor die Text.From-Funktion aufgerufen wird, und geben Sie das Ergebnis zurück.
 ```powerquery
 Diagnostics.Trace(TraceLevel.Information, "TextValueFromNumber", () => Text.From(123), true)

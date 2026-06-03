@@ -20,13 +20,13 @@ Table.PrefixColumns(
 
 ## Remarks
 
-Returnerar en tabell där alla angivna kolumnnamn från <code>table</code> föregås av angiven text, <code>prefix</code>, plus en punkt i formatet <code>prefix</code><code>.ColumnName</code>.
+Returnerar en tabell där alla angivna kolumnnamn från `table` föregås av angiven text, `prefix`, plus en punkt i formatet `prefix.ColumnName`.
 
 
 ## Examples
 
-### Example #1 
-Lägg till &#34;MyTable&#34; som prefix i tabellen.
+### Example #1
+Lägg till "MyTable" som prefix i tabellen.
 ```powerquery
 Table.PrefixColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

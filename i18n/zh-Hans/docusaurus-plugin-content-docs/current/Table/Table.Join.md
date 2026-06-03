@@ -25,12 +25,25 @@ Table.Join(
 
 ## Remarks
 
-根据由 <code>table1</code> (针对 <code>table2</code>)和 <code>key1</code> (针对 <code>table1</code>)选择的键列值的等同性联接 <code>key2</code> 的行与 <code>table2</code> 的行。<br />默认执行内联接，但可包含可选的 <code>joinKind</code> 来指定联接类型。选项包括:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />可包含 <code>keyEqualityComparers</code> 的可选集来指定如何比较键列。此参数目前仅适用于内部使用。<br />
+根据由 `table1` (针对 `table2`)和 `key1` (针对 `table1`)选择的键列值的等同性联接 `key2` 的行与 `table2` 的行。
+
+默认执行内联接，但可包含可选的 `joinKind` 来指定联接类型。选项包括:
+
+-   `JoinKind.Inner`
+-   `JoinKind.LeftOuter`
+-   `JoinKind.RightOuter`
+-   `JoinKind.FullOuter`
+-   `JoinKind.LeftAnti`
+-   `JoinKind.RightAnti`
+-   `JoinKind.LeftSemi`
+-   `JoinKind.RightSemi`
+
+可包含 `keyEqualityComparers` 的可选集来指定如何比较键列。此参数目前仅适用于内部使用。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 使用单个键列联接两个表。
 ```powerquery
 Table.Join(
@@ -67,7 +80,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 使用多个键列联接具有冲突列名的两个表。
 ```powerquery
 let

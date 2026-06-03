@@ -19,12 +19,12 @@ Number.Log10(
 
 ## Remarks
 
-ส่งคืนลอการิทึมฐาน 10 ของตัวเลข <code>number</code> ถ้า <code>number</code> เป็น null <code>Number.Log10</code> จะส่งกลับ null
+ส่งคืนลอการิทึมฐาน 10 ของตัวเลข `number` ถ้า `number` เป็น null `Number.Log10` จะส่งกลับ null
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 รับลอการิทึมฐาน 10 ของ 2
 ```powerquery
 Number.Log10(2)

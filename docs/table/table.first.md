@@ -20,12 +20,12 @@ Table.First(
 
 ## Remarks
 
-Returns the first row of the <code>table</code> or an optional default value, <code>default</code>, if the table is empty.
+Returns the first row of the `table` or an optional default value, `default`, if the table is empty.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find the first row of the table.
 ```powerquery
 Table.First(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-Find the first row of the table &lt;code&gt;(\{})&lt;/code&gt; or return [a = 0, b = 0] if empty.
+### Example #2
+Find the first row of the table `({})` or return \[a = 0, b = 0\] if empty.
 ```powerquery
 Table.First(Table.FromRecords({}), [a = 0, b = 0])
 ```

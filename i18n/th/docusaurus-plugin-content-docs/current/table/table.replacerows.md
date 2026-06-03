@@ -22,12 +22,17 @@ Table.ReplaceRows(
 
 ## Remarks
 
-แทนที่จำนวนแถวที่ระบุ <code>count</code> ในค่าที่ป้อน <code>table</code> ด้วย <code>rows</code> ที่ระบุโดยเริ่มต้นหลัง <code>offset</code> พารามิเตอร์ <code>rows</code> คือรายการระเบียน    <ul>       <li><code>table</code>: ตารางที่จะดำเนินการแทนที่</li>       <li><code>offset</code>: จำนวนแถวที่จะข้ามก่อนทำการแทนที่</li>       <li><code>count</code>: จำนวนแถวที่จะแทนที่</li>       <li><code>rows</code>: รายการของระเบียนแถวที่จะแทรกลงใน <code>table</code> ในตำแหน่งที่ระบุโดย <code>offset</code></li>    </ul>
+แทนที่จำนวนแถวที่ระบุ `count` ในค่าที่ป้อน `table` ด้วย `rows` ที่ระบุโดยเริ่มต้นหลัง `offset` พารามิเตอร์ `rows` คือรายการระเบียน
+
+-   `table`: ตารางที่จะดำเนินการแทนที่
+-   `offset`: จำนวนแถวที่จะข้ามก่อนทำการแทนที่
+-   `count`: จำนวนแถวที่จะแทนที่
+-   `rows`: รายการของระเบียนแถวที่จะแทรกลงใน `table` ในตำแหน่งที่ระบุโดย `offset`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 เริ่มต้นที่ตำแหน่ง 1 แทนที่ 3 แถว
 ```powerquery
 Table.ReplaceRows(

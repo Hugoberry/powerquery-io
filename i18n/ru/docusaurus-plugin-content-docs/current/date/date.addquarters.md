@@ -20,13 +20,16 @@ Date.AddQuarters(
 
 ## Remarks
 
-Возвращает результат <code>date</code>, <code>datetime</code> или <code>datetimezone</code> после добавления <code>numberOfQuarters</code> кварталов к значению <code>datetime</code>, <code>dateTime</code>.      <ul>      <li><code>dateTime</code>: значение <code>date</code>, <code>datetime</code> или <code>datetimezone</code>, к которому добавляются кварталы.</li>      <li><code>numberOfQuarters</code>: число кварталов, которое нужно добавить.</li>      </ul>
+Возвращает результат `date`, `datetime` или `datetimezone` после добавления `numberOfQuarters` кварталов к значению `datetime`, `dateTime`.
+
+-   `dateTime`: значение `date`, `datetime` или `datetimezone`, к которому добавляются кварталы.
+-   `numberOfQuarters`: число кварталов, которое нужно добавить.
 
 
 ## Examples
 
-### Example #1 
-Добавляет 1 квартал к значению &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; или &lt;code&gt;datetimezone&lt;/code&gt;, представляющему дату 14.05.2011.
+### Example #1
+Добавляет 1 квартал к значению `date`, `datetime` или `datetimezone`, представляющему дату 14.05.2011.
 ```powerquery
 Date.AddQuarters(#date(2011, 5, 14), 1)
 ```

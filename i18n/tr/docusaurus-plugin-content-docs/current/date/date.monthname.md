@@ -20,12 +20,12 @@ Date.MonthName(
 
 ## Remarks
 
-Sağlanan <code>date</code> için ay bileşeninin adını döndürür. Ayrıca, isteğe bağlı bir <code>culture</code> sağlanabilir (ör. "tr-TR").
+Sağlanan `date` için ay bileşeninin adını döndürür. Ayrıca, isteğe bağlı bir `culture` sağlanabilir (ör. "tr-TR").
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ayın adını alır.
 ```powerquery
 Date.MonthName(#datetime(2011, 12, 31, 5, 0, 0), "en-US")

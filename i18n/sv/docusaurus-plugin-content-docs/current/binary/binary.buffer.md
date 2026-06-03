@@ -24,7 +24,7 @@ Buffrar binärvärdet i minne. Resultatet av detta anrop är ett stabilt binärv
 
 ## Examples
 
-### Example #1 
+### Example #1
 Skapa en stabil version av binärvärdet.
 ```powerquery
 Binary.Buffer(Binary.FromList({0..10}))

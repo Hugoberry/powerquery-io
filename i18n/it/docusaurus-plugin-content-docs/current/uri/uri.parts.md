@@ -5,7 +5,7 @@ title: Uri.Parts
 # Uri.Parts
 
 
-Restituisce le parti dell&#39;URI assoluto di input come record.
+Restituisce le parti dell'URI assoluto di input come record.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Uri.Parts(
 
 ## Remarks
 
-Restituisce le parti di <code>absoluteUri</code> di input come record, contenenti valori quali schema, host, porta, percorso, query, frammento, nome utente e password.
+Restituisce le parti di `absoluteUri` di input come record, contenenti valori quali schema, host, porta, percorso, query, frammento, nome utente e password.
 
 
 ## Examples
 
-### Example #1 
-Trovare le parti dell&#39;URI assoluto &#34;www.adventure-works.com&#34;.
+### Example #1
+Trovare le parti dell'URI assoluto "www.adventure-works.com".
 ```powerquery
 Uri.Parts("www.adventure-works.com")
 ```
@@ -45,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Decodifica una stringa codificata in percentuale.
 ```powerquery
 let

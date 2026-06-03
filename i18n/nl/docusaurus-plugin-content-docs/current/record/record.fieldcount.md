@@ -19,12 +19,12 @@ Record.FieldCount(
 
 ## Remarks
 
-Retourneert het aantal velden uit de record <code>record</code>.
+Retourneert het aantal velden uit de record `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Het aantal velden in de record zoeken.
 ```powerquery
 Record.FieldCount([CustomerID = 1, Name = "Bob"])

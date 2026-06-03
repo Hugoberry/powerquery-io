@@ -25,12 +25,16 @@ Table.NestedJoin(
 
 ## Remarks
 
-Kopplar samman raderna i <code>table1</code> med raderna i <code>table2</code> baserat på likheten av värdena i de nyckelkolumner som valts av <code>key1</code> (för <code>table1</code>) och <code>key2</code> (för <code>table2</code>). Resultaten anges i kolumnen med namnet <code>newColumnName</code>.<br />Det valfria <code>joinKind</code> anger typ av koppling som ska utföras. Som standard utförs en vänster yttre koppling om en <code>joinKind</code> inte anges.<br />En valfri uppsättning av <code>keyEqualityComparers</code> kan läggas till för att ange hur nyckelkolumnerna ska jämföras. Funktionen är för närvarande endast avsedd för internt bruk.<br />  
+Kopplar samman raderna i `table1` med raderna i `table2` baserat på likheten av värdena i de nyckelkolumner som valts av `key1` (för `table1`) och `key2` (för `table2`). Resultaten anges i kolumnen med namnet `newColumnName`.
+
+Det valfria `joinKind` anger typ av koppling som ska utföras. Som standard utförs en vänster yttre koppling om en `joinKind` inte anges.
+
+En valfri uppsättning av `keyEqualityComparers` kan läggas till för att ange hur nyckelkolumnerna ska jämföras. Funktionen är för närvarande endast avsedd för internt bruk.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Koppla två tabeller med en enda nyckelkolumn.
 ```powerquery
 Table.NestedJoin(

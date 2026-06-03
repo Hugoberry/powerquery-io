@@ -23,13 +23,13 @@ Table.AddJoinColumn(
 
 ## Remarks
 
-Une as linhas de <code>table1</code> às linhas de <code>table2</code> com base na igualdade dos valores das colunas de chave selecionadas por <code>key1</code> (para <code>table1</code>) e <code>key2</code> (para <code>table2</code>). Os resultados são inseridos na coluna denominada <code>newColumnName</code>.Essa função se comporta de maneira similar a Table.Join com um JoinKind de LeftOuter; a diferença é que os resultados de junção são apresentados de forma aninhada, e não nivelada.
+Une as linhas de `table1` às linhas de `table2` com base na igualdade dos valores das colunas de chave selecionadas por `key1` (para `table1`) e `key2` (para `table2`). Os resultados são inseridos na coluna denominada `newColumnName`. Essa função se comporta de maneira similar a Table.Join com um JoinKind de LeftOuter; a diferença é que os resultados de junção são apresentados de forma aninhada, e não nivelada.
 
 
 ## Examples
 
-### Example #1 
-Adicione uma coluna de junção a (\{[saleID = 1, item = &#34;Shirt&#34;], [saleID = 2, item = &#34;Hat&#34;]}) denominada &#34;preço/estoque&#34; a partir da tabela (\{[saleID = 1, price = 20], [saleID = 2, price = 10]}) associada em [saleID].
+### Example #1
+Adicione uma coluna de junção a (\{\[saleID = 1, item = "Shirt"\], \[saleID = 2, item = "Hat"\]\}) denominada "preço/estoque" a partir da tabela (\{\[saleID = 1, price = 20\], \[saleID = 2, price = 10\]\}) associada em \[saleID\].
 ```powerquery
 Table.AddJoinColumn(
     Table.FromRecords({

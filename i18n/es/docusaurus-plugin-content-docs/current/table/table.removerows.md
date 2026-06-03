@@ -21,12 +21,12 @@ Table.RemoveRows(
 
 ## Remarks
 
-Quita <code>count</code> de las filas a partir del principio de <code>table</code>, empezando en la <code>offset</code> especificada. Se usa el recuento predeterminado de 1 si el parámetro <code>count</code> no se proporciona. 
+Quita `count` de las filas a partir del principio de `table`, empezando en la `offset` especificada. Se usa el recuento predeterminado de 1 si el parámetro `count` no se proporciona.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Quitar la primera fila de la tabla.
 ```powerquery
 Table.RemoveRows(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Quitar la fila de la posición 1 de la tabla.
 ```powerquery
 Table.RemoveRows(
@@ -74,7 +74,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Quitar dos filas a partir de la posición 1 de la tabla.
 ```powerquery
 Table.RemoveRows(

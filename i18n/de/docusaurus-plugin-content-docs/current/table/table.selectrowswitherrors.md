@@ -25,7 +25,7 @@ Gibt eine Tabelle zurück, die nur die Zeilen aus der Eingabetabelle enthält, d
 
 ## Examples
 
-### Example #1 
+### Example #1
 Auswählen von Namen von Kunden mit Fehlern in ihren Zeilen.
 ```powerquery
 Table.SelectRowsWithErrors(

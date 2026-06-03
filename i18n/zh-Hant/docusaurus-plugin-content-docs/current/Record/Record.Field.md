@@ -20,13 +20,13 @@ Record.Field(
 
 ## Remarks
 
-傳回 <code>record</code> 中指定 <code>field</code> 的值。如果找不到欄位，則擲回例外狀況。
+傳回 `record` 中指定 `field` 的值。如果找不到欄位，則引發錯誤。
 
 
 ## Examples
 
-### Example #1 
-找出記錄中 &#34;CustomerID&#34; 欄位的值。
+### Example #1
+找出記錄中 "CustomerID" 欄位的值。
 ```powerquery
 Record.Field([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")
 ```

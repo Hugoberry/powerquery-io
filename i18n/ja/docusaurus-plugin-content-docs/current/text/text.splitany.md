@@ -20,25 +20,29 @@ Text.SplitAny(
 
 ## Remarks
 
-指定された区切り記号 <code>separators</code> の任意の文字に基づいてテキスト値 <code>text</code> を分割した結果のテキスト値の一覧を返します。
+区切り記号に指定された任意の文字に基づいてテキスト値を分割した結果のテキスト値のリストを返します。
+
+-   `text`: 分割するテキスト値。
+-   `separators`: テキストの分割に使用される区切り文字。
 
 
 ## Examples
 
-### Example #1 
-テキスト値 &#34;Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com&#34; から一覧を作成します。
+### Example #1
+指定された区切り文字を使用して、指定されたテキストからリストを作成します。
 ```powerquery
-Text.SplitAny("Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com", "|")
+Text.SplitAny("Name|Customer ID|Purchase|Month-Day-Year", "|-")
 ```
 
 Result: 
 ```powerquery
 {
-    "Jamie",
-    "Campbell",
-    "Admin",
-    "Adventure Works",
-    "www.adventure-works.com"
+    "Name",
+    "Customer ID",
+    "Purchase",
+    "Month",
+    "Day",
+    "Year"
 }
 ```
 

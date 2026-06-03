@@ -19,7 +19,7 @@ Soda.Feed(
 
 ## Remarks
 
-Returns a table from the contents at the specified URL <code>url</code> formatted according to the SODA 2.0 API. The URL must point to a valid SODA-compliant source that ends in a .csv extension.
+Returns a table from the contents at the specified URL `url` formatted according to the SODA 2.0 API. The URL must point to a valid SODA-compliant source that ends in a .csv extension.
 
 
 

@@ -20,7 +20,7 @@ Tables.GetRelationships(
 
 ## Remarks
 
-Henter relationerne i et tabelsæt. Sættet <code>tables</code> is formodes at have en struktur, der ligner den i en navigationstabel. Den kolonne, der er defineret af <code>dataColumn</code>, indeholder de faktiske datatabeller.
+Henter relationerne i et tabelsæt. Sættet `tables` is formodes at have en struktur, der ligner den i en navigationstabel. Den kolonne, der er defineret af `dataColumn`, indeholder de faktiske datatabeller.
 
 
 

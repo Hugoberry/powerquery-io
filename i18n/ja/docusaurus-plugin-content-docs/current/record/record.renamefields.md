@@ -5,7 +5,7 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-\{ old, new } という形式のリストを使用して、名前の変更を適用します。
+\{ old, new \} という形式のリストを使用して、名前の変更を適用します。
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Record.RenameFields(
 
 ## Remarks
 
-入力 <code>record</code> 内のフィールドの名前を、リスト <code>renames</code> で指定された新しいフィールド名に変更したレコードを返します。複数の名前を変更する場合は、入れ子になったリスト (\{ \{old1, new1}, \{old2, new2} }) を使用します。
+入力 `record` 内のフィールドの名前を、リスト `renames` で指定された新しいフィールド名に変更したレコードを返します。複数の名前を変更する場合は、入れ子になったリスト (\{ \{old1, new1\}, \{old2, new2\} \}) を使用します。
 
 
 ## Examples
 
-### Example #1 
-レコードのフィールド &#34;UnitPrice&#34; の名前を &#34;Price&#34; に変更します。
+### Example #1
+レコードのフィールド "UnitPrice" の名前を "Price" に変更します。
 ```powerquery
 Record.RenameFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", UnitPrice = 100.0],
@@ -41,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-レコードのフィールド &#34;UnitPrice&#34; の名前を &#34;Price&#34; に変更し、&#34;OrderNum&#34; の名前を &#34;OrderID&#34; に変更します。
+### Example #2
+レコードのフィールド "UnitPrice" の名前を "Price" に変更し、"OrderNum" の名前を "OrderID" に変更します。
 ```powerquery
 Record.RenameFields(
     [OrderNum = 1, CustomerID = 1, Item = "Fishing rod", UnitPrice = 100.0],

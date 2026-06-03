@@ -20,13 +20,13 @@ List.Transform(
 
 ## Remarks
 
-Retourneert een nieuwe lijst met waarden door de transformatiefunctie <code>transform</code> op de lijst <code>list</code> toe te passen.
+Retourneert een nieuwe lijst met waarden door de transformatiefunctie `transform` op de lijst `list` toe te passen.
 
 
 ## Examples
 
-### Example #1 
-Het getal 1 aan elke waarde in de lijst \{1, 2} toevoegen.
+### Example #1
+Het getal 1 aan elke waarde in de lijst \{1, 2\} toevoegen.
 ```powerquery
 List.Transform({1, 2}, each _ + 1)
 ```

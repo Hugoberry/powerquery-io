@@ -5,7 +5,7 @@ title: AzureSpark.Tables
 # AzureSpark.Tables
 
 
-Répertoriez les tables dans une instance d&#39;Azure Spark.
+Répertoriez les tables dans une instance d'Azure Spark.
 
 
 ## Syntax
@@ -25,8 +25,8 @@ Répertoriez les tables dans une instance d'Azure Spark.
 
 ## Examples
 
-### Example #1 
-Répertoriez les tables dans une instance d&#39;Azure Spark.
+### Example #1
+Répertoriez les tables dans une instance d'Azure Spark.
 ```powerquery
 AzureSpark.Tables("contoso.azurehdinsight.net")
 ```

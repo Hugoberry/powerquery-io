@@ -22,13 +22,21 @@ Text.PositionOf(
 
 ## Remarks
 
-Restituisce la posizione dell'occorrenza specificata del valore di testo <code>substring</code> trovato in <code>text</code>. È possibile utilizzare un parametro facoltativo <code>occurrence</code> per specificare la posizione dell'occorrenza da restituire (prima occorrenza per impostazione predefinita). Restituisce -1 se <code>substring</code> non è stato trovato. <div><code>comparer</code> è un <code>Operatore di confronto</code> usato per controllare il confronto. Gli operatori di confronto possono essere usati per fornire confronti con distinzione tra maiuscole e minuscole oppure confronti in grado di riconoscere le impostazioni cultura e locali. </div> <div> Nel linguaggio delle formule sono disponibili gli strumenti di confronto predefiniti seguenti: </div> <ul> <li><code>Comparer.Ordinal</code>:  usato per eseguire un confronto ordinale esatto</li> <li><code>Comparer.OrdinalIgnoreCase</code>: usato per eseguire un confronto ordinale esatto senza distinzione tra maiuscole e minuscole</li> <li><code>Comparer.FromCulture</code>: usato per eseguire un confronto in grado di riconoscere le impostazioni cultura</li></ul>
+Restituisce la posizione dell'occorrenza specificata del valore di testo `substring` trovato in `text`. È possibile utilizzare un parametro facoltativo `occurrence` per specificare la posizione dell'occorrenza da restituire (prima occorrenza per impostazione predefinita). Restituisce -1 se `substring` non è stato trovato.
+
+`comparer` è un `Operatore di confronto` usato per controllare il confronto. Gli operatori di confronto possono essere usati per fornire confronti con distinzione tra maiuscole e minuscole oppure confronti in grado di riconoscere le impostazioni cultura e locali.
+
+Nel linguaggio delle formule sono disponibili gli strumenti di confronto predefiniti seguenti:
+
+-   `Comparer.Ordinal`: usato per eseguire un confronto ordinale esatto
+-   `Comparer.OrdinalIgnoreCase`: usato per eseguire un confronto ordinale esatto senza distinzione tra maiuscole e minuscole
+-   `Comparer.FromCulture`: usato per eseguire un confronto in grado di riconoscere le impostazioni cultura
 
 
 ## Examples
 
-### Example #1 
-Ottenere la posizione della prima occorrenza di &#34;World&#34; nel testo &#34;Hello, World! Hello, World!&#34;.
+### Example #1
+Ottenere la posizione della prima occorrenza di "World" nel testo "Hello, World! Hello, World!".
 ```powerquery
 Text.PositionOf("Hello, World! Hello, World!", "World")
 ```
@@ -39,8 +47,8 @@ Result:
 ```
 
 
-### Example #2 
-Ottenere la posizione dell&#39;ultima occorrenza di &#34;World&#34; nel testo &#34;Hello, World! Hello, World!&#34;.
+### Example #2
+Ottenere la posizione dell'ultima occorrenza di "World" nel testo "Hello, World! Hello, World!".
 ```powerquery
 Text.PositionOf("Hello, World! Hello, World!", "World", Occurrence.Last)
 ```

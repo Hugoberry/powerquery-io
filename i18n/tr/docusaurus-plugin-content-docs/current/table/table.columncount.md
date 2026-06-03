@@ -19,12 +19,12 @@ Table.ColumnCount(
 
 ## Remarks
 
-<code>table</code> tablosundaki sütun sayısını döndürür.
+`table` tablosundaki sütun sayısını döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablodaki sütun sayısını bulur.
 ```powerquery
 Table.ColumnCount(

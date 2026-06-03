@@ -25,7 +25,7 @@ List the tables in an Azure Spark instance.
 
 ## Examples
 
-### Example #1 
+### Example #1
 List the tables in an Azure Spark instance.
 ```powerquery
 AzureSpark.Tables("contoso.azurehdinsight.net")

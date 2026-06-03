@@ -19,18 +19,18 @@ Table.StopFolding(
 
 ## Remarks
 
-Zapobiega uruchamianiu jakichkolwiek operacji podrzędnych względem oryginalnego źródła danych w <code>table</code>.
+Zapobiega uruchamianiu jakichkolwiek operacji podrzędnych względem oryginalnego źródła danych w `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Pobiera dane z tabeli SQL w sposób uniemożliwiający uruchamianie jakichkolwiek operacji podrzędnych jako zapytania na serwerze SQL.
 ```powerquery
 let
     Source = Sql.Database("SomeSQLServer", "MyDb"),
     MyTable = Source{[Item="MyTable"]}[Data],
-    MyLocalTable = Table.StopFolding(dbo_MyTable)
+    MyLocalTable = Table.StopFolding(MyTable)
 in
     MyLocalTable
 ```

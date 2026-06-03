@@ -5,7 +5,7 @@ title: Variable.Value
 # Variable.Value
 
 
-Hàm này chỉ nhằm mục đích sử dụng nội bộ.
+Trả về giá trị của biến được chỉ định.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Variable.Value(
 
 ## Remarks
 
-Hàm này chỉ nhằm mục đích sử dụng nội bộ.
+Trả về giá trị của biến được chỉ định `identifier` do môi trường đánh giá hiện tại xác định. Nếu biến không được xác định, hệ thống sẽ trả về lỗi.
 
 
 

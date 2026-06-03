@@ -23,13 +23,13 @@ Text.BetweenDelimiters(
 
 ## Remarks
 
-Returnerer andelen af <code>text</code> mellem den angivne <code>startDelimiter</code> og <code>endDelimiter</code>.    En valgfri numerisk værdi, <code>startIndex</code>, angiver, hvilken forekomst af <code>startDelimiter</code> der skal tages i betragtning.    En valgfri liste, <code>startIndex</code>, angiver, hvilken forekomst af <code>startDelimiter</code> der skal tages i betragtning, samt om indeksering skal foretages fra starten eller slutningen af inputtet.    <code>endIndex</code> er tilsvarende, bortset fra, at indekseringen foretages i forhold til <code>startIndex</code>.
+Returnerer andelen af `text` mellem den angivne `startDelimiter` og `endDelimiter`. En valgfri numerisk værdi, `startIndex`, angiver, hvilken forekomst af `startDelimiter` der skal tages i betragtning. En valgfri liste, `startIndex`, angiver, hvilken forekomst af `startDelimiter` der skal tages i betragtning, samt om indeksering skal foretages fra starten eller slutningen af inputtet. `endIndex` er tilsvarende, bortset fra, at indekseringen foretages i forhold til `startIndex`.
 
 
 ## Examples
 
-### Example #1 
-Hent andelen af &#34;111 (222) 333 (444)&#34; mellem den første (åbne) parentes og den (første) lukkede parentes, der følger efter.
+### Example #1
+Hent andelen af "111 (222) 333 (444)" mellem den første (åbne) parentes og den (første) lukkede parentes, der følger efter.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")")
 ```
@@ -40,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Hent andelen af &#34;111 (222) 333 (444)&#34; mellem den anden åbne parentes og den første lukkede parentes, der følger efter.
+### Example #2
+Hent andelen af "111 (222) 333 (444)" mellem den anden åbne parentes og den første lukkede parentes, der følger efter.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")", 1, 0)
 ```
@@ -52,8 +52,8 @@ Result:
 ```
 
 
-### Example #3 
-Hent andelen af &#34;111 (222) 333 (444)&#34; mellem den anden åbne parentes regnet fra slutningen og den første lukkede parentes, der følger efter.
+### Example #3
+Hent andelen af "111 (222) 333 (444)" mellem den anden åbne parentes regnet fra slutningen og den første lukkede parentes, der følger efter.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")", {1, RelativePosition.FromEnd}, {1, RelativePosition.FromStart})
 ```

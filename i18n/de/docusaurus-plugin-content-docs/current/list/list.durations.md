@@ -21,12 +21,12 @@ List.Durations(
 
 ## Remarks
 
-Gibt eine Liste mit <code>count</code> <code>duration</code>-Werten zurück. Die Liste beginnt bei "<code>start</code>", und die Schrittweite entspricht dem angegebenen <code>duration</code>-Wert (<code>step</code>).
+Gibt eine Liste mit `count` `duration`\-Werten zurück. Die Liste beginnt bei "`start`", und die Schrittweite entspricht dem angegebenen `duration`\-Wert (`step`).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Erstellt eine Liste mit 5 Werten, beginnend mit 1 Stunde und einer Werteerhöhung von jeweils 1 Stunde.
 ```powerquery
 List.Durations(#duration(0, 1, 0, 0), 5, #duration(0, 1, 0, 0))

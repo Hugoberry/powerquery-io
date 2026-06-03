@@ -20,13 +20,13 @@ Single.From(
 
 ## Remarks
 
-Devuelve un valor <code>number</code> Single a partir del valor <code>value</code> dado. Si <code>value</code> es <code>null</code>, <code>Single.From</code> devuelve <code>null</code>. Si <code>value</code> es <code>number</code> en el rango de Single, se devuelve <code>value</code>; en cualquier otro caso, se devuelve un error. Si <code>value</code> es de cualquier otro tipo, se convertirá en un valor <code>number</code> con <code>Number.FromText</code>. También se puede proporcionar un parámetro <code>culture</code> (por ejemplo, "es-ES").
+Devuelve un valor `number` Single a partir del valor `value` dado. Si `value` es `null`, `Single.From` devuelve `null`. Si `value` es `number` en el rango de Single, se devuelve `value`; en cualquier otro caso, se devuelve un error. Si `value` es de cualquier otro tipo, se convertirá en un valor `number` con `Number.FromText`. También se puede proporcionar un parámetro `culture` (por ejemplo, "es-ES").
 
 
 ## Examples
 
-### Example #1 
-Obtener el valor &lt;code&gt;number&lt;/code&gt; Single de &lt;code&gt;&#34;1.5&#34;&lt;/code&gt;.
+### Example #1
+Obtener el valor `number` Single de `"1.5"`.
 ```powerquery
 Single.From("1.5")
 ```

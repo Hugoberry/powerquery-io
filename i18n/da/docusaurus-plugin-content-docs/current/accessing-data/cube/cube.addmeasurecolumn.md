@@ -21,7 +21,7 @@ Cube.AddMeasureColumn(
 
 ## Remarks
 
-Føjer en kolonne med navnet <code>column</code> til den <code>cube</code>, der indeholder resultaterne af den måling <code>measureSelector</code>, som anvendes i de enkelte rækkers rækkekontekst. Anvendelse af måling påvirkes af ændringer af dimensionens granularitet og udsnit. Målingsværdier justeres, når der er udført visse kubehandlinger.
+Føjer en kolonne med navnet `column` til den `cube`, der indeholder resultaterne af den måling `measureSelector`, som anvendes i de enkelte rækkers rækkekontekst. Anvendelse af måling påvirkes af ændringer af dimensionens granularitet og udsnit. Målingsværdier justeres, når der er udført visse kubehandlinger.
 
 
 

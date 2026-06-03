@@ -19,13 +19,13 @@ Type.IsOpenRecord(
 
 ## Remarks
 
-Retourneert een <code>logische waarde</code> waarmee wordt aangegeven of een record <code>type</code> open is.
+Retourneert een `logische waarde` waarmee wordt aangegeven of een record `type` open is.
 
 
 ## Examples
 
-### Example #1 
-Bepaal of de record &lt;code&gt;type [ A = getal, ...]&lt;/code&gt; open is.
+### Example #1
+Bepaal of de record `type [ A = getal, ...]` open is.
 ```powerquery
 Type.IsOpenRecord(type [A = number, ...])
 ```

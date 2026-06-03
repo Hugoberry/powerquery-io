@@ -20,12 +20,12 @@ Number.RoundDown(
 
 ## Remarks
 
-Zwraca wynik zaokrąglenia liczby <code>number</code> w dół do poprzedniej największej liczby całkowitej. Jeśli parametr <code>number</code> ma wartość null, funkcja zwróci wartość null.     Jeśli parametr <code>digits</code> jest określony, liczba <code>number</code> jest zaokrąglana do określonej liczby miejsc po przecinku.
+Zwraca wynik zaokrąglenia liczby `number` w dół do poprzedniej największej liczby całkowitej. Jeśli parametr `number` ma wartość null, funkcja zwróci wartość null. Jeśli parametr `digits` jest określony, liczba `number` jest zaokrąglana do określonej liczby miejsc po przecinku.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zaokrąglij w dół do liczby całkowitej wartość 1,234.
 ```powerquery
 Number.RoundDown(1.234)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Zaokrąglij w dół do liczby całkowitej wartość 1,999.
 ```powerquery
 Number.RoundDown(1.999)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Zaokrąglij w dół liczbę 1,999 do dwóch miejsc po przecinku.
 ```powerquery
 Number.RoundDown(1.999, 2)

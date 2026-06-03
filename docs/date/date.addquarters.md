@@ -20,13 +20,16 @@ Date.AddQuarters(
 
 ## Remarks
 
-Returns the <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> result from adding <code>numberOfQuarters</code> quarters to the <code>datetime</code> value <code>dateTime</code>.      <ul>      <li><code>dateTime</code>: The <code>date</code>, <code>datetime</code>, or <code>datetimezone</code> value to which quarters are being added.</li>      <li><code>numberOfQuarters</code>: The number of quarters to add.</li>      </ul>
+Returns the `date`, `datetime`, or `datetimezone` result from adding `numberOfQuarters` quarters to the `datetime` value `dateTime`.
+
+-   `dateTime`: The `date`, `datetime`, or `datetimezone` value to which quarters are being added.
+-   `numberOfQuarters`: The number of quarters to add.
 
 
 ## Examples
 
-### Example #1 
-Add 1 quarter to the &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt;, or &lt;code&gt;datetimezone&lt;/code&gt; value representing the date 5/14/2011.
+### Example #1
+Add 1 quarter to the `date`, `datetime`, or `datetimezone` value representing the date 5/14/2011.
 ```powerquery
 Date.AddQuarters(#date(2011, 5, 14), 1)
 ```

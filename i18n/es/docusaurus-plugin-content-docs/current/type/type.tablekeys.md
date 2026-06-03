@@ -19,12 +19,17 @@ Type.TableKeys(
 
 ## Remarks
 
-Devuelve la lista posiblemente vacía de claves para el tipo de tabla proporcionado.<br />    <br />    Cada clave se define mediante un registro de la siguiente forma:    <ul>      <li>        <code>Columnas</code>: una lista de los nombres de columna que definen la clave      </li>      <li>        <code>Principal</code>: <code>true</code> si la clave es la clave principal de la tabla; de lo contrario, <code>false</code>      </li>    </ul>    
+Devuelve la lista posiblemente vacía de claves para el tipo de tabla proporcionado.  
+  
+Cada clave se define mediante un registro de la siguiente forma:
+
+-   `Columnas`: una lista de los nombres de columna que definen la clave
+-   `Principal`: `true` si la clave es la clave principal de la tabla; de lo contrario, `false`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devuelve la información de clave de un tipo de tabla.
 ```powerquery
 let

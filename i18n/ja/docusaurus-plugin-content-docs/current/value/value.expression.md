@@ -19,7 +19,7 @@ Value.Expression(
 
 ## Remarks
 
-value の式を表す抽象構文ツリー (AST) を返します
+value の式を表す抽象構文ツリー (AST) を返します。
 
 
 

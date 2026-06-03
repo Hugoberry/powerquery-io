@@ -24,7 +24,7 @@ Hiermee wordt een lijst met rapporten en maanden geretourneerd die beschikbaar z
 
 ## Examples
 
-### Example #1 
+### Example #1
 De functie AzureEnterprise.Tables gebruiken en naar een bepaalde waarde gaan om de resultaten op te halen.
 ```powerquery
 let

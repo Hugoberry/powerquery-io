@@ -19,13 +19,13 @@ List.RemoveNulls(
 
 ## Remarks
 
-Tar bort alla förekomster av null-värden i <code>list</code>. Om det inte finns några null-värden i listan returneras den ursprungliga listan.
+Tar bort alla förekomster av null-värden i `list`. Om det inte finns några null-värden i listan returneras den ursprungliga listan.
 
 
 ## Examples
 
-### Example #1 
-Ta bort null-värden från listan \{1, 2, 3, null, 4, 5, null, 6}.
+### Example #1
+Ta bort null-värden från listan \{1, 2, 3, null, 4, 5, null, 6\}.
 ```powerquery
 List.RemoveNulls({1, 2, 3, null, 4, 5, null, 6})
 ```

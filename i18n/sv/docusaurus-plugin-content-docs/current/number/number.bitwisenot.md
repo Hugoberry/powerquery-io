@@ -19,7 +19,7 @@ Number.BitwiseNot(
 
 ## Remarks
 
-Returnerar resultatet av en bitvis "Not"-åtgärd för <code>number</code>.
+Returnerar resultatet av en bitvis "Not"-åtgärd för `number`.
 
 
 

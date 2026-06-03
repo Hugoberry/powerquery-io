@@ -21,7 +21,7 @@ Cube.AddMeasureColumn(
 
 ## Remarks
 
-Adiciona uma coluna com o nome <code>column</code> ao <code>cube</code> que contém o resultado da medida <code>measureSelector</code> aplicada no contexto de linha de cada linha. A aplicação da medida é afetada por alterações à granularidade dimensional e à segmentação de dados. Os valores da medida serão ajustados após a execução de operações de cubo específicas.
+Adiciona uma coluna com o nome `column` ao `cube` que contém o resultado da medida `measureSelector` aplicada no contexto de linha de cada linha. A aplicação da medida é afetada por alterações à granularidade dimensional e à segmentação de dados. Os valores da medida serão ajustados após a execução de operações de cubo específicas.
 
 
 

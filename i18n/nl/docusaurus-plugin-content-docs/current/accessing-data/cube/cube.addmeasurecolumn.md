@@ -21,7 +21,7 @@ Cube.AddMeasureColumn(
 
 ## Remarks
 
-Voegt een kolom met de naam <code>column</code> toe aan de <code>cube</code> die de resultaten bevat van de meting <code>measureSelector</code> die is toegepast in de rijcontext van de rijen. De toepassing van de meting wordt beïnvloed door wijzigingen in de dimensiegranulatie en segmentering. Metingwaarden worden bijgesteld nadat bepaalde kubusbewerkingen zijn uitgevoerd.
+Voegt een kolom met de naam `column` toe aan de `cube` die de resultaten bevat van de meting `measureSelector` die is toegepast in de rijcontext van de rijen. De toepassing van de meting wordt beïnvloed door wijzigingen in de dimensiegranulatie en segmentering. Metingwaarden worden bijgesteld nadat bepaalde kubusbewerkingen zijn uitgevoerd.
 
 
 

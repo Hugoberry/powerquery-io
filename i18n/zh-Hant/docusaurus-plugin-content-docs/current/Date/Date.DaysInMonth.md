@@ -19,13 +19,15 @@ Date.DaysInMonth(
 
 ## Remarks
 
-傳回 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值 <code>dateTime</code> 中當月的天數。 <ul>        <li><code>dateTime</code>: 要傳回當月天數的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值。</li>      </ul>
+傳回 `date`、`datetime` 或 `datetimezone` 值 `dateTime` 中當月的天數。
+
+-   `dateTime`: 要傳回當月天數的 `date`、`datetime` 或 `datetimezone` 值。
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;#date(2011, 12, 01)&gt;&lt;/code&gt; 所表示的 12 月的天數。
+### Example #1
+`#date(2011, 12, 01)` 所表示的 12 月的天數。
 ```powerquery
 Date.DaysInMonth(#date(2011, 12, 01))
 ```

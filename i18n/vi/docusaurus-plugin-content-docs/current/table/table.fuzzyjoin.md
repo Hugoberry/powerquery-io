@@ -24,33 +24,57 @@ Table.FuzzyJoin(
 
 ## Remarks
 
-Nối các hàng <code>table1</code> với các hàng <code>table2</code> dựa trên phép khớp mờ những giá trị của cột chính do <code>key1</code> chọn (cho <code>table1</code>) và <code>key2</code> chọn (cho <code>table2</code>).<br />Khớp mờ là một phép so sánh dựa trên sự tương đồng của văn bản chứ không phải sự ngang bằng.<br />Theo mặc định, sẽ thực hiện phép nối trong, tuy nhiên, có thể đưa vào <code>joinKind</code> tùy chọn để chỉ định loại phép nối. Các tùy chọn bao gồm:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Có thể đưa vào tập hợp <code>joinOptions</code> tùy chọn để chỉ định cách so sánh những cột chính. Các tùy chọn bao gồm:    <ul><li><code>ConcurrentRequests</code> : Một số trong khoảng từ 1 đến 8 cho bi&#234;́t số lu&#244;̀ng song song đ&#234;̉ sử dụng cho hoạt đ&#244;̣ng khớp mờ. Gi&#225; trị mặc định l&#224; 1.</li><li><code>Culture</code> : Cho ph&#233;p nh&#243;m bản ghi dựa tr&#234;n quy tắc cụ thể theo văn h&#243;a. Đ&#226;y c&#243; thể l&#224; bất kỳ t&#234;n văn h&#243;a hợp lệ nào. V&#237; dụ: một t&#249;y chọn Văn h&#243;a gồm c&#225;c bản ghi khớp &quot;ja-JP&quot; dựa tr&#234;n văn h&#243;a của người Nhật. Gi&#225; trị mặc định l&#224; &quot;&quot; có k&#234;́t quả khớp dựa tr&#234;n văn h&#243;a của người Anh b&#226;́t bi&#234;́n.</li><li><code>IgnoreCase</code> : Gi&#225; trị logic (true/false) cho ph&#233;p khớp khóa ph&#226;n biệt chữ hoa/thường. V&#237; dụ: khi là true, &quot;Grapes&quot; khớp với &quot;grapes&quot;. Gi&#225; trị mặc định l&#224; true.</li><li><code>IgnoreSpace</code> : Gi&#225; trị logic (true/false) cho ph&#233;p kết hợp c&#225;c phần văn bản để t&#236;m kết quả khớp. V&#237; dụ: khi là true, &quot;Gra pes&quot; khớp với &quot;Grapes&quot;. Gi&#225; trị mặc định l&#224; true.</li><li><code>NumberOfMatches</code> : Một số nguy&#234;n chỉ định số h&#224;ng khớp tối đa c&#243; thể được trả về cho m&#244;̃i hàng đ&#226;̀u vào. V&#237; dụ: Gi&#225; trị l&#224; 1 sẽ trả v&#234;̀ nhiều nhất một h&#224;ng khớp cho mỗi h&#224;ng đ&#226;̀u vào. Nếu kh&#244;ng cung cấp t&#249;y chọn này thì tất cả c&#225;c h&#224;ng khớp đ&#234;̀u được trả về.</li><li><code>SimilarityColumnName</code> : T&#234;n của cột hiển thị đ&#244;̣ tương tự giữa gi&#225; trị đầu v&#224;o v&#224; gi&#225; trị đại diện cho đầu v&#224;o đ&#243;. Gi&#225; trị mặc định l&#224; null, khi đ&#243; cột mới cho đ&#244;̣ tương tự sẽ kh&#244;ng được th&#234;m vào.</li><li><code>Threshold</code> : Một số trong khoảng từ 0,00 đến 1,00 cho bi&#234;́t điểm tương đ&#244;̀ng m&#224; tại đ&#243; hai gi&#225; trị sẽ khớp nhau.    V&#237; dụ: &quot;Grapes&quot; v&#224; &quot;Graes&quot; (thiếu &quot;p&quot;) được khớp với nhau chỉ khi t&#249;y chọn n&#224;y được đặt th&#224;nh dưới 0,90.    Ngưỡng 1,00 chỉ cho ph&#233;p khớp ch&#237;nh x&#225;c.    (Lưu &#253; rằng một &quot;kết quả khớp ch&#237;nh x&#225;c&quot; gần đ&#250;ng c&#243; thể bỏ qua c&#225;c kh&#225;c biệt như viết hoa, thứ tự từ v&#224; dấu chấm c&#226;u.)    Gi&#225; trị mặc định l&#224; 0,80.</li><li><code>TransformationTable</code> : Bảng cho phép khớp các bản ghi dựa tr&#234;n các ánh xạ giá trị tùy chỉnh. Bảng sẽ chứa các c&#244;̣t &quot;From&quot; và &quot;To&quot;. Ví dụ: &quot;Grapes&quot; được khớp với &quot;Raisins&quot; n&#234;́u bảng chuy&#234;̉n đ&#244;̉i được cung c&#226;́p có c&#244;̣t &quot;From&quot; chứa &quot;Grapes&quot; và c&#244;̣t &quot;To&quot; chứa &quot;Raisins&quot;. Lưu ý rằng vi&#234;̣c chuy&#234;̉n đ&#244;̉i sẽ được áp dụng cho mọi phi&#234;n bản văn bản trong bảng chuy&#234;̉n đ&#244;̉i. Với bảng chuy&#234;̉n đ&#244;̉i ở tr&#234;n, &quot;Grapes are sweet&quot; cũng được khớp với &quot;Raisins are sweet&quot;.</li></ul><br />    
+Nối các hàng `table1` với các hàng `table2` dựa trên phép khớp mờ những giá trị của cột chính do `key1` chọn (cho `table1`) và `key2` chọn (cho `table2`).
+
+Khớp mờ là một phép so sánh dựa trên sự tương đồng của văn bản chứ không phải sự ngang bằng.
+
+Theo mặc định, sẽ thực hiện phép nối trong, tuy nhiên, có thể đưa vào `joinKind` tùy chọn để chỉ định loại phép nối. Các tùy chọn bao gồm:
+
+-   `JoinKind.Inner`
+-   `JoinKind.LeftOuter`
+-   `JoinKind.RightOuter`
+-   `JoinKind.FullOuter`
+-   `JoinKind.LeftAnti`
+-   `JoinKind.RightAnti`
+-   `JoinKind.LeftSemi`
+-   `JoinKind.RightSemi`
+
+Có thể đưa vào tập hợp `joinOptions` tùy chọn để chỉ định cách so sánh những cột chính. Các tùy chọn bao gồm:
+
+-   `ConcurrentRequests` : Một số trong khoảng từ 1 đến 8 cho biết số luồng song song để sử dụng cho hoạt động khớp mờ. Giá trị mặc định là 1.
+-   `Culture` : Cho phép nhóm bản ghi dựa trên quy tắc cụ thể theo văn hóa. Đây có thể là bất kỳ tên văn hóa hợp lệ nào. Ví dụ: một tùy chọn Văn hóa gồm các bản ghi khớp "ja-JP" dựa trên văn hóa của người Nhật. Giá trị mặc định là "" có kết quả khớp dựa trên văn hóa của người Anh bất biến.
+-   `IgnoreCase` : Giá trị logic (true/false) cho phép khớp khóa phân biệt chữ hoa/thường. Ví dụ: khi là true, "Grapes" khớp với "grapes". Giá trị mặc định là true.
+-   `IgnoreSpace` : Giá trị logic (true/false) cho phép kết hợp các phần văn bản để tìm kết quả khớp. Ví dụ: khi là true, "Gra pes" khớp với "Grapes". Giá trị mặc định là true.
+-   `NumberOfMatches` : Một số nguyên chỉ định số hàng khớp tối đa có thể được trả về cho mỗi hàng đầu vào. Ví dụ: Giá trị là 1 sẽ trả về nhiều nhất một hàng khớp cho mỗi hàng đầu vào. Nếu không cung cấp tùy chọn này thì tất cả các hàng khớp đều được trả về.
+-   `SimilarityColumnName` : Tên của cột hiển thị độ tương tự giữa giá trị đầu vào và giá trị đại diện cho đầu vào đó. Giá trị mặc định là null, khi đó cột mới cho độ tương tự sẽ không được thêm vào.
+-   `Threshold` : Một số trong khoảng từ 0,00 đến 1,00 cho biết điểm tương đồng mà tại đó hai giá trị sẽ khớp nhau. Ví dụ: "Grapes" và "Graes" (thiếu "p") được khớp với nhau chỉ khi tùy chọn này được đặt thành dưới 0,90. Ngưỡng 1,00 chỉ cho phép khớp chính xác. (Lưu ý rằng một "kết quả khớp chính xác" gần đúng có thể bỏ qua các khác biệt như viết hoa, thứ tự từ và dấu chấm câu.) Giá trị mặc định là 0,80.
+-   `TransformationTable` : Bảng cho phép khớp các bản ghi dựa trên các ánh xạ giá trị tùy chỉnh. Bảng sẽ chứa các cột "From" và "To". Ví dụ: "Grapes" được khớp với "Raisins" nếu bảng chuyển đổi được cung cấp có cột "From" chứa "Grapes" và cột "To" chứa "Raisins". Lưu ý rằng việc chuyển đổi sẽ được áp dụng cho mọi phiên bản văn bản trong bảng chuyển đổi. Với bảng chuyển đổi ở trên, "Grapes are sweet" cũng được khớp với "Raisins are sweet".
 
 
 ## Examples
 
-### Example #1 
-Phép nối mờ bên trong ở bên trái của hai bảng dựa trên [FirstName]
+### Example #1
+Phép nối mờ bên trong ở bên trái của hai bảng dựa trên \[FirstName\]
 ```powerquery
 Table.FuzzyJoin(
-	  Table.FromRecords(
+    Table.FromRecords(
         {
-		        [CustomerID = 1, FirstName1 = "Bob", Phone = "555-1234"],
-		        [CustomerID = 2, FirstName1 = "Robert", Phone = "555-4567"]
-	      },
+            [CustomerID = 1, FirstName1 = "Bob", Phone = "555-1234"],
+            [CustomerID = 2, FirstName1 = "Robert", Phone = "555-4567"]
+        },
         type table [CustomerID = nullable number, FirstName1 = nullable text, Phone = nullable text]
     ),
-	  {"FirstName1"},
-	  Table.FromRecords(
+    {"FirstName1"},
+    Table.FromRecords(
         {
-		        [CustomerStateID = 1, FirstName2 = "Bob", State = "TX"],
-		        [CustomerStateID = 2, FirstName2 = "bOB", State = "CA"]
-	      },
+            [CustomerStateID = 1, FirstName2 = "Bob", State = "TX"],
+            [CustomerStateID = 2, FirstName2 = "bOB", State = "CA"]
+        },
         type table [CustomerStateID = nullable number, FirstName2 = nullable text, State = nullable text]
     ),
-	  {"FirstName2"},
-	  JoinKind.LeftOuter,
-	  [IgnoreCase = true, IgnoreSpace = false]
+    {"FirstName2"},
+    JoinKind.LeftOuter,
+    [IgnoreCase = true, IgnoreSpace = false]
 )
 ```
 
@@ -58,29 +82,29 @@ Result:
 ```powerquery
 Table.FromRecords({
     [
-			  CustomerID = 1,
-			  FirstName1 = "Bob",
-			  Phone = "555-1234",
-			  CustomerStateID = 1,
-			  FirstName2 = "Bob",
-			  State = "TX"
-		],
+        CustomerID = 1,
+        FirstName1 = "Bob",
+        Phone = "555-1234",
+        CustomerStateID = 1,
+        FirstName2 = "Bob",
+        State = "TX"
+    ],
     [
-			  CustomerID = 1,
-			  FirstName1 = "Bob",
-			  Phone = "555-1234",
-			  CustomerStateID = 2,
-			  FirstName2 = "bOB",
-			  State = "CA"
-		],
+        CustomerID = 1,
+        FirstName1 = "Bob",
+        Phone = "555-1234",
+        CustomerStateID = 2,
+        FirstName2 = "bOB",
+        State = "CA"
+    ],
     [
-			  CustomerID = 2,
-			  FirstName1 = "Robert",
-			  Phone = "555-4567",
-			  CustomerStateID = null,
-			  FirstName2 = null,
-			  State = null
-		]
+        CustomerID = 2,
+        FirstName1 = "Robert",
+        Phone = "555-4567",
+        CustomerStateID = null,
+        FirstName2 = null,
+        State = null
+    ]
 })
 ```
 

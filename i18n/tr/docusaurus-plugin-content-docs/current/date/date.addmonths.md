@@ -20,13 +20,16 @@ Date.AddMonths(
 
 ## Remarks
 
-<code>numberOfMonths</code> ayı <code>datetime</code> değeri olan <code>dateTime</code> öğesine ekleme nedeniyle oluşan <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> sonucunu döndürür.      <ul>        <li><code>dateTime</code>: Ayların eklendiği <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>        <li><code>numberOfMonths</code>: Eklenecek ay sayısı.</li>      </ul>
+`numberOfMonths` ayı `datetime` değeri olan `dateTime` öğesine ekleme nedeniyle oluşan `date`, `datetime` veya `datetimezone` sonucunu döndürür.
+
+-   `dateTime`: Ayların eklendiği `date`, `datetime` veya `datetimezone` değeri.
+-   `numberOfMonths`: Eklenecek ay sayısı.
 
 
 ## Examples
 
-### Example #1 
-14/05/2011 tarihini temsil eden &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; veya &lt;code&gt;datetimezone&lt;/code&gt; değerine 5 ay ekler.
+### Example #1
+14/05/2011 tarihini temsil eden `date`, `datetime` veya `datetimezone` değerine 5 ay ekler.
 ```powerquery
 Date.AddMonths(#date(2011, 5, 14), 5)
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-14/05/2011 08:15:22 tarih ve saatini temsil eden &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; veya &lt;code&gt;datetimezone&lt;/code&gt; değerine 18 ay ekler.
+### Example #2
+14/05/2011 08:15:22 tarih ve saatini temsil eden `date`, `datetime` veya `datetimezone` değerine 18 ay ekler.
 ```powerquery
 Date.AddMonths(#datetime(2011, 5, 14, 8, 15, 22), 18)
 ```

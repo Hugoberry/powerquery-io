@@ -5,7 +5,7 @@ title: SparkPost.GetTable
 # SparkPost.GetTable
 
 
-Returnerer en tabel over tilgængelige målepunkter fra version 1 af SparkPost-API&#39;en
+Returnerer en tabel over tilgængelige målepunkter fra version 1 af SparkPost-API'en
 
 
 ## Syntax
@@ -27,8 +27,8 @@ Denne funktion kan bruges til at hente data fra et bestemt "Metrik"-slutpunkt i 
 
 ## Examples
 
-### Example #1 
-Henter leveringsmetrikværdier for antallet af sendte og afviste kampagne-ide&#39;er over de seneste tre dage. 
+### Example #1
+Henter leveringsmetrikværdier for antallet af sendte og afviste kampagne-ide'er over de seneste tre dage.
 ```powerquery
 Source = SparkPost.GetTable(3, "count_sent,count_rejected", "campaign_id", "metrics/deliverability/campaign")
 ```

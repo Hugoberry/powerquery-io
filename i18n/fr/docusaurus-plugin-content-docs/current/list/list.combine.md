@@ -19,13 +19,13 @@ List.Combine(
 
 ## Remarks
 
-Prend une liste de listes, <code>lists</code>, et les fusionne dans une seule nouvelle liste.
+Prend une liste de listes, `lists`, et les fusionne dans une seule nouvelle liste.
 
 
 ## Examples
 
-### Example #1 
-Combine les deux listes simples \{1, 2} et \{3, 4}.
+### Example #1
+Combine les deux listes simples \{1, 2\} et \{3, 4\}.
 ```powerquery
 List.Combine({{1, 2}, {3, 4}})
 ```
@@ -41,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-Combine les deux listes, \{1, 2} et \{3, \{4, 5}}, dont l&#39;une contient une liste imbriquée.
+### Example #2
+Combine les deux listes, \{1, 2\} et \{3, \{4, 5\}\}, dont l'une contient une liste imbriquée.
 ```powerquery
 List.Combine({{1, 2}, {3, {4, 5}}})
 ```

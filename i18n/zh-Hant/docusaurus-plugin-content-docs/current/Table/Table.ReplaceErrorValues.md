@@ -20,13 +20,13 @@ Table.ReplaceErrorValues(
 
 ## Remarks
 
-以 <code>errorReplacement</code> 清單中的新值取代 <code>table</code> 指定資料行中的錯誤值。清單格式為 \{\{column1, value1}, …}。每個資料行都只會有一個取代值，多次指定資料行可能會發生錯誤。
+以 `table` 清單中的新值取代 `errorReplacement` 指定資料行中的錯誤值。清單格式為 \{\{column1, value1\},...\}。每個資料行都只會有一個取代值，多次指定資料行可能會發生錯誤。
 
 
 ## Examples
 
-### Example #1 
-以文字 &#34;world&#34; 取代資料表中的錯誤值。
+### Example #1
+以文字 "world" 取代資料表中的錯誤值。
 ```powerquery
 Table.ReplaceErrorValues(
     Table.FromRows({{1, "hello"}, {3, ...}}, {"A", "B"}),
@@ -43,8 +43,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-以文字 &#34;hello&#34; 取代資料表內 A 資料行中的錯誤值，並以文字 &#34;world&#34; 取代 B 資料行中的錯誤值。
+### Example #2
+以文字 "hello" 取代資料表內 A 資料行中的錯誤值，並以文字 "world" 取代 B 資料行中的錯誤值。
 ```powerquery
 Table.ReplaceErrorValues(
     Table.FromRows({{..., ...}, {1, 2}}, {"A", "B"}),

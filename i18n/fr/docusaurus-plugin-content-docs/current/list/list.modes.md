@@ -20,13 +20,13 @@ List.Modes(
 
 ## Remarks
 
-Retourne l'élément qui apparaît le plus fréquemment dans la liste, <code>list</code>. Si la liste est vide, une exception est levée. Si plusieurs éléments avec la même fréquence maximale apparaissent, le dernier est sélectionné.    La valeur <code>comparisonCriteria</code> facultative, <code>equationCriteria</code>, peut être spécifiée pour contrôler le test d'égalité. 
+Renvoie les éléments qui apparaissent le plus fréquemment dans `list`. Si la liste est vide, une erreur est levée. Si plusieurs éléments apparaissent avec la même fréquence maximale, ils sont tous renvoyés. Vous pouvez spécifier une valeur de critère de comparaison facultative, `equationCriteria`, pour contrôler les tests d'égalité.
 
 
 ## Examples
 
-### Example #1 
-Recherche les éléments qui apparaît le plus fréquemment dans la liste &lt;code&gt;\{&#34;A&#34;, 1, 2, 3, 3, 4, 5, 5}&lt;/code&gt;.
+### Example #1
+Recherche les éléments qui apparaît le plus fréquemment dans la liste `{"A", 1, 2, 3, 3, 4, 5, 5}`.
 ```powerquery
 List.Modes({"A", 1, 2, 3, 3, 4, 5, 5})
 ```

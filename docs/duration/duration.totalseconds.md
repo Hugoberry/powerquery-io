@@ -19,12 +19,12 @@ Duration.TotalSeconds(
 
 ## Remarks
 
-Returns the total seconds spanned by <code>duration</code>.
+Returns the total seconds spanned by `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find the total seconds spanned by a duration value.
 ```powerquery
 Duration.TotalSeconds(#duration(5, 4, 3, 2))

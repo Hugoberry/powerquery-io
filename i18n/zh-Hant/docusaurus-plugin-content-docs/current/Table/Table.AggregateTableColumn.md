@@ -21,13 +21,13 @@ Table.AggregateTableColumn(
 
 ## Remarks
 
-將 <code>table</code>[<code>column</code>] 中的資料表彙總成包含資料表之彙總值的多個資料行。<code>aggregations</code> 是用來指定包含要彙總之資料表的資料行、要套用至資料表以產生其值的彙總函式，以及要建立之彙總資料行的名稱。
+將 `table`\[`column`\] 中的資料表彙總成包含資料表之彙總值的多個資料行。`aggregations` 是用來指定包含要彙總之資料表的資料行、要套用至資料表以產生其值的彙總函式，以及要建立之彙總資料行的名稱。
 
 
 ## Examples
 
-### Example #1 
-將資料表 &lt;code&gt;\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}&lt;/code&gt; 之 &lt;code&gt;[t]&lt;/code&gt; 中的資料表資料行彙總成 &lt;code&gt;[t.a]&lt;/code&gt; 的總和、&lt;code&gt;[t.b]&lt;/code&gt; 的最小值與最大值，以及 &lt;code&gt;[t.a]&lt;/code&gt; 中值的計數。
+### Example #1
+將資料表 `{[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}` 之 `[t]` 中的資料表資料行彙總成 `[t.a]` 的總和、`[t.b]` 的最小值與最大值，以及 `[t.a]` 中值的計數。
 ```powerquery
 Table.AggregateTableColumn(
     Table.FromRecords(

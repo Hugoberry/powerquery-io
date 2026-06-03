@@ -22,12 +22,12 @@ Record.AddField(
 
 ## Remarks
 
-Dodaje pole do rekordu <code>record</code>, używając nazwy pola <code>fieldName</code> i wartości <code>value</code>.
+Dodaje pole do rekordu `record`, używając nazwy pola `fieldName` i wartości `value`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Dodaj pole Address do rekordu.
 ```powerquery
 Record.AddField([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "Address", "123 Main St.")

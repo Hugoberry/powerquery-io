@@ -24,7 +24,7 @@ Smartsheet.Content(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Smartsheet API से उपयोगकर्ता जानकारी की एक तालिका पुल करता है
 ```powerquery
 Smartsheet.Content("उपयोगकर्ता")

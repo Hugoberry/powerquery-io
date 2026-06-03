@@ -5,7 +5,7 @@ title: Table.AlternateRows
 # Table.AlternateRows
 
 
-Mantiene l&#39;offset iniziale, quindi accetta e ignora alternativamente le righe seguenti.
+Mantiene l'offset iniziale, quindi accetta e ignora alternativamente le righe seguenti.
 
 
 ## Syntax
@@ -22,12 +22,17 @@ Table.AlternateRows(
 
 ## Remarks
 
-Mantiene l'offset iniziale, quindi accetta e ignora alternativamente le righe seguenti.    <ul>       <li><code>table</code>: tabella di input.</li>       <li><code>offset</code>: numero di righe da mantenere prima di avviare le iterazioni.</li>       <li><code>skip</code>: numero di righe da rimuovere in ogni iterazione.</li>       <li><code>take</code>: numero di righe da mantenere in ogni iterazione.</li>    </ul>    
+Mantiene l'offset iniziale, quindi accetta e ignora alternativamente le righe seguenti.
+
+-   `table`: tabella di input.
+-   `offset`: numero di righe da mantenere prima di avviare le iterazioni.
+-   `skip`: numero di righe da rimuovere in ogni iterazione.
+-   `take`: numero di righe da mantenere in ogni iterazione.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Restituire una tabella dalla tabella che, a partire dalla prima riga, ignora 1 valore e quindi mantiene 1 valore.
 ```powerquery
 Table.AlternateRows(

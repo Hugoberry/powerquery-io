@@ -21,12 +21,12 @@ List.Times(
 
 ## Remarks
 
-Returnerar en lista med <code>time</code>-värden med storleken <code>count</code> med början från <code>start</code>. Den angivna ökningen, <code>step</code>, är ett <code>duration</code>-värde som läggs till för varje värde.
+Returnerar en lista med `time`\-värden med storleken `count` med början från `start`. Den angivna ökningen, `step`, är ett `duration`\-värde som läggs till för varje värde.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Skapa en lista med 4 värden med början från klockan 12 (#time(12, 0, 0)) som ökar med en timme (#duration(0, 1, 0, 0)).
 ```powerquery
 List.Times(#time(12, 0, 0), 4, #duration(0, 1, 0, 0))

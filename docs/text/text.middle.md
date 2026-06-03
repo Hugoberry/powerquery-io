@@ -21,13 +21,13 @@ Text.Middle(
 
 ## Remarks
 
-Returns <code>count</code> characters, or through the end of <code>text</code>; at the offset <code>start</code>.
+Returns `count` characters, or through the end of `text`; at the offset `start`.
 
 
 ## Examples
 
-### Example #1 
-Find the substring from the text &#34;Hello World&#34; starting at index 6 spanning 5 characters.
+### Example #1
+Find the substring from the text "Hello World" starting at index 6 spanning 5 characters.
 ```powerquery
 Text.Middle("Hello World", 6, 5)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Find the substring from the text &#34;Hello World&#34; starting at index 6 through the end.
+### Example #2
+Find the substring from the text "Hello World" starting at index 6 through the end.
 ```powerquery
 Text.Middle("Hello World", 6, 20)
 ```
@@ -47,6 +47,18 @@ Text.Middle("Hello World", 6, 20)
 Result: 
 ```powerquery
 "World"
+```
+
+
+### Example #3
+Find the substring from the text "Hello World" starting at index 0 spanning 2 characters.
+```powerquery
+Text.Middle("Hello World", 0, 2)
+```
+
+Result: 
+```powerquery
+"He"
 ```
 
 

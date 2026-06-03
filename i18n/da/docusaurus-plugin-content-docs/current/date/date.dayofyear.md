@@ -19,12 +19,12 @@ Date.DayOfYear(
 
 ## Remarks
 
-Returnerer et tal, der repræsenterer året i den angivne værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>, <code>dateTime</code>.
+Returnerer et tal, der repræsenterer året i den angivne værdi af typen `date`, `datetime` eller `datetimezone`, `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Året dags den 1. marts 2011.
 ```powerquery
 Date.DayOfYear(#date(2011, 03, 01))

@@ -19,13 +19,13 @@ Type.OpenRecord(
 
 ## Remarks
 
-Devolve uma versão aberta do <code>record</code> <code>type</code> fornecido (ou do mesmo tipo, se já estiver aberto).
+Devolve uma versão aberta do `record` `type` fornecido (ou do mesmo tipo, se já estiver aberto).
 
 
 ## Examples
 
-### Example #1 
-Criar uma versão aberta de &lt;code&gt;type [ A = number]&lt;/code&gt;.
+### Example #1
+Criar uma versão aberta de `type [ A = number]`.
 ```powerquery
 Type.OpenRecord(type [A = number])
 ```

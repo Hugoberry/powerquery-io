@@ -19,7 +19,7 @@ Type.Facets(
 
 ## Remarks
 
-<code>type</code> のファセットを含むレコードを返します。
+`type` のファセットを含むレコードを返します。
 
 
 

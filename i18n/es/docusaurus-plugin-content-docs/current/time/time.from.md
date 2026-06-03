@@ -20,13 +20,20 @@ Time.From(
 
 ## Remarks
 
-Devuelve un valor <code>time</code> a partir del valor <code>value</code> dado. También se puede proporcionar un parámetro <code>culture</code> opcional (por ejemplo, "es-ES").Si <code>value</code> es <code>null</code>, <code>Time.From</code> devuelve <code>null</code>. Si <code>value</code> es <code>time</code>, se devuelve <code>value</code>. Los valores de los tipos siguientes se pueden convertir a un valor <code>time</code>:      <ul>        <li><code>text</code>: valor <code>time</code> a partir de la representación de texto. Para más información, vea <code>Time.FromText</code>.</li>        <li><code>datetime</code>: componente de hora de <code>value</code>.</li>        <li><code>datetimezone</code>: componente de hora del equivalente datetime local de <code>value</code>.</li>        <li><code>number</code>: valor de <code>time</code> equivalente al número de días fraccionarios expresados por <code>value</code>. Si <code>value</code> es negativo o mayor o igual que 1, se devuelve un error.</li>      </ul>Si <code>value</code> es de cualquier otro tipo, se devuelve un error.
+Devuelve un valor `time` a partir del valor `value` dado. También se puede proporcionar un parámetro `culture` opcional (por ejemplo, "es-ES"). Si `value` es `null`, `Time.From` devuelve `null`. Si `value` es `time`, se devuelve `value`. Los valores de los tipos siguientes se pueden convertir a un valor `time`:
+
+-   `text`: valor `time` a partir de la representación de texto. Para más información, vea `Time.FromText`.
+-   `datetime`: componente de hora de `value`.
+-   `datetimezone`: componente de hora del equivalente datetime local de `value`.
+-   `number`: valor de `time` equivalente al número de días fraccionarios expresados por `value`. Si `value` es negativo o mayor o igual que 1, se devuelve un error.
+
+Si `value` es de cualquier otro tipo, se devuelve un error.
 
 
 ## Examples
 
-### Example #1 
-Convertir &lt;code&gt;0.7575&lt;/code&gt; en un valor &lt;code&gt;time&lt;/code&gt;.
+### Example #1
+Convertir `0.7575` en un valor `time`.
 ```powerquery
 Time.From(0.7575)
 ```
@@ -37,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Convertir &lt;code&gt;#datetime(1899, 12, 30, 06, 45, 12)&lt;/code&gt; en un valor &lt;code&gt;time&lt;/code&gt;.
+### Example #2
+Convertir `#datetime(1899, 12, 30, 06, 45, 12)` en un valor `time`.
 ```powerquery
 Time.From(#datetime(1899, 12, 30, 06, 45, 12))
 ```

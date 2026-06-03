@@ -19,12 +19,12 @@ Table.IsEmpty(
 
 ## Remarks
 
-Anger om <code>table</code> innehåller några rader. Returnerar <code>true</code> om det inte finns några rader (tabellen är tom, med andra ord). Annars returneras <code>false</code>.
+Anger om `table` innehåller några rader. Returnerar `true` om det inte finns några rader (tabellen är tom, med andra ord). Annars returneras `false`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kontrollera om tabellen är tom.
 ```powerquery
 Table.IsEmpty(
@@ -42,8 +42,8 @@ false
 ```
 
 
-### Example #2 
-Kontrollera om tabellen &lt;code&gt;(\{})&lt;/code&gt; är tom.
+### Example #2
+Kontrollera om tabellen `({})` är tom.
 ```powerquery
 Table.IsEmpty(Table.FromRecords({}))
 ```

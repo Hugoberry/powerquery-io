@@ -25,7 +25,7 @@ Vervangt de sleutels van de opgegeven tabel.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Vervang de bestaande sleutels van een tabel.
 ```powerquery
 let

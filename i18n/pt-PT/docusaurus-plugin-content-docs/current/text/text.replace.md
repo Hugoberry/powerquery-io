@@ -21,13 +21,13 @@ Text.Replace(
 
 ## Remarks
 
-Devolve o resultado da substituição de todas as ocorrências do valor de texto <code>old</code> no valor de texto <code>text</code> pelo valor de texto <code>new</code>. Esta função é sensível às maiúsculas e minúsculas.
+Devolve o resultado da substituição de todas as ocorrências do valor de texto `old` no valor de texto `text` pelo valor de texto `new`. Esta função é sensível às maiúsculas e minúsculas.
 
 
 ## Examples
 
-### Example #1 
-Substituir cada ocorrência de &#34;o&#34; numa frase por &#34;um&#34;.
+### Example #1
+Substituir cada ocorrência de "o" numa frase por "um".
 ```powerquery
 Text.Replace("the quick brown fox jumps over the lazy dog", "the", "a")
 ```

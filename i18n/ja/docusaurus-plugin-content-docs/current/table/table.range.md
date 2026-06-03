@@ -21,12 +21,12 @@ Table.Range(
 
 ## Remarks
 
-指定された <code>offset</code> で始まる <code>table</code> の行を返します。省略可能なパラメーターの <code>count</code> は、取得する行の数を指定します。既定では、オフセットの後のすべての行が返されます。
+指定された `offset` で始まる `table` の行を返します。省略可能なパラメーターの `count` は、取得する行の数を指定します。既定では、オフセットの後のすべての行が返されます。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブルのオフセット 1 で始まるすべての行を返します。
 ```powerquery
 Table.Range(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 テーブルのオフセット 1 で始まる 1 行を返します。
 ```powerquery
 Table.Range(

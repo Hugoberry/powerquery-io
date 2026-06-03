@@ -20,13 +20,13 @@ Text.Lower(
 
 ## Remarks
 
-Hiermee wordt het resultaat geretourneerd van de conversie van alle tekens in <code>text</code> naar kleine letters. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
+Hiermee wordt het resultaat geretourneerd van de conversie van alle tekens in `text` naar kleine letters. Er kan ook een optionele `culture` worden opgegeven (bijvoorbeeld: nl-NL).
 
 
 ## Examples
 
-### Example #1 
-De tekst &#34;AbCd&#34; ophalen in kleine letters.
+### Example #1
+De tekst "AbCd" ophalen in kleine letters.
 ```powerquery
 Text.Lower("AbCd")
 ```

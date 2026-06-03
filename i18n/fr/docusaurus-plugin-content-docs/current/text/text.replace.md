@@ -21,13 +21,13 @@ Text.Replace(
 
 ## Remarks
 
-Retourne le résultat du remplacement de toutes les occurrences de la valeur de texte <code>old</code>, dans la valeur de texte <code>text</code>, par la valeur de texte <code>new</code>. Cette fonction respecte la casse.
+Retourne le résultat du remplacement de toutes les occurrences de la valeur de texte `old`, dans la valeur de texte `text`, par la valeur de texte `new`. Cette fonction respecte la casse.
 
 
 ## Examples
 
-### Example #1 
-Remplace toutes les occurrences de &#34; the &#34; dans une phrase par &#34; a &#34;.
+### Example #1
+Remplace toutes les occurrences de « the » dans une phrase par « a ».
 ```powerquery
 Text.Replace("the quick brown fox jumps over the lazy dog", "the", "a")
 ```

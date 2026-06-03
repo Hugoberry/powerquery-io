@@ -21,13 +21,13 @@ List.Times(
 
 ## Remarks
 
-Retourneert een lijst met <code>time</code>-waarden van grootte <code>count</code>, te beginnen bij <code>start</code>. De opgegeven verhoging, <code>step</code>, is een <code>duration</code>-waarde die aan elke waarde wordt toegevoegd.
+Retourneert een lijst met `time`\-waarden van grootte `count`, te beginnen bij `start`. De opgegeven verhoging, `step`, is een `duration`\-waarde die aan elke waarde wordt toegevoegd.
 
 
 ## Examples
 
-### Example #1 
-Een lijst met vier waarden maken, te beginnen bij 12 uur &#39;s middags (#time(12, 0, 0)) en oplopend in stappen van één uur (#duration(0, 1, 0, 0)).
+### Example #1
+Een lijst met vier waarden maken, te beginnen bij 12 uur 's middags (#time(12, 0, 0)) en oplopend in stappen van één uur (#duration(0, 1, 0, 0)).
 ```powerquery
 List.Times(#time(12, 0, 0), 4, #duration(0, 1, 0, 0))
 ```

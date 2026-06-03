@@ -5,7 +5,7 @@ title: Embedded.Value
 # Embedded.Value
 
 
-Truy nhập một giá trị theo tên trong ứng dụng kết hợp dữ liệu được nhúng.
+Hàm này chỉ nhằm mục đích sử dụng nội bộ.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Embedded.Value(
 
 ## Remarks
 
-Truy nhập một giá trị theo tên trong ứng dụng kết hợp dữ liệu được nhúng.
+Hàm này chỉ nhằm mục đích sử dụng nội bộ.
 
 
 

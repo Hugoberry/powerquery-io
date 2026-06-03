@@ -20,7 +20,7 @@ Cube.AttributeMemberProperty(
 
 ## Remarks
 
-आयाम विशेषता <code>attribute</code> का गुण <code>propertyName</code> वापस करता है.
+आयाम विशेषता `attribute` का गुण `propertyName` वापस करता है.
 
 
 

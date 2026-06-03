@@ -20,13 +20,19 @@ Pdf.Tables(
 
 ## Remarks
 
-Gibt Tabellen zurück, die in "<code>pdf</code>" gefunden wurden. Ein optionaler Datensatzparameter "<code>options</code>" kann angegeben werden, um zusätzliche Eigenschaften festzulegen. Der Datensatz kann die folgenden Felder enthalten:    <ul><li><code>Implementation</code> : Die Version des Algorithmus, die beim Identifizieren von Tabellen verwendet werden soll. Alte Versionen stehen nur zur Gew&#228;hrleistung von Abw&#228;rtskompatibilit&#228;t zur Verf&#252;gung, damit alte Abfragen nicht durch Algorithmus-Updates ung&#252;ltig werden. Die neueste Version sollte immer die besten Ergebnisse liefern. G&#252;ltige Werte sind „1.3“, „1.2“, „1.1“ oder NULL.</li><li><code>StartPage</code> : Hiermit wird die erste Seite im zu untersuchenden Seitenbereich angegeben. Standardwert: 1.</li><li><code>EndPage</code> : Hiermit wird die letzte Seite im zu untersuchenden Seitenbereich angegeben. Standardwert: die letzte Seite im Dokument.</li><li><code>MultiPageTables</code> : Hiermit wird gesteuert, ob &#228;hnliche Tabellen auf aufeinanderfolgenden Seiten automatisch in einer einzigen Tabelle kombiniert werden. Standardwert: TRUE.</li><li><code>EnforceBorderLines</code> : Hiermit wird gesteuert, ob Rahmenlinien immer als Zellbegrenzungen erzwungen (sofern TRUE) oder nur als ein Hinweis unter vielen zum Bestimmen von Zellbegrenzungen (sofern FALSE) verwendet werden. Standardwert: FALSE.</li></ul>    
+Gibt Tabellen zurück, die in "`pdf`" gefunden wurden. Ein optionaler Datensatzparameter "`options`" kann angegeben werden, um zusätzliche Eigenschaften festzulegen. Der Datensatz kann die folgenden Felder enthalten:
+
+-   `Implementation` : Die Version des Algorithmus, die beim Identifizieren von Tabellen verwendet werden soll. Alte Versionen stehen nur zur Gewährleistung von Abwärtskompatibilität zur Verfügung, damit alte Abfragen nicht durch Algorithmus-Updates ungültig werden. Die neueste Version sollte immer die besten Ergebnisse liefern. Gültige Werte sind „1.3“, „1.2“, „1.1“ oder NULL.
+-   `StartPage` : Hiermit wird die erste Seite im zu untersuchenden Seitenbereich angegeben. Standardwert: 1.
+-   `EndPage` : Hiermit wird die letzte Seite im zu untersuchenden Seitenbereich angegeben. Standardwert: die letzte Seite im Dokument.
+-   `MultiPageTables` : Hiermit wird gesteuert, ob ähnliche Tabellen auf aufeinanderfolgenden Seiten automatisch in einer einzigen Tabelle kombiniert werden. Standardwert: TRUE.
+-   `EnforceBorderLines` : Hiermit wird gesteuert, ob Rahmenlinien immer als Zellbegrenzungen erzwungen (sofern TRUE) oder nur als ein Hinweis unter vielen zum Bestimmen von Zellbegrenzungen (sofern FALSE) verwendet werden. Standardwert: FALSE.
 
 
 ## Examples
 
-### Example #1 
-Hiermit werden die in &#34;sample.pdf&#34; enthaltenen Tabellen zurückgegeben.
+### Example #1
+Hiermit werden die in "sample.pdf" enthaltenen Tabellen zurückgegeben.
 ```powerquery
 Pdf.Tables(File.Contents("c:\sample.pdf"))
 ```

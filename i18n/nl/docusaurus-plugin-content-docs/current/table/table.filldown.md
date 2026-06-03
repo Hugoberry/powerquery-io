@@ -20,13 +20,13 @@ Table.FillDown(
 
 ## Remarks
 
-Retourneert de tabel uit de opgegeven <code>table</code> waar de waarde van een vorige cel wordt doorgegeven naar de cellen met nulwaarden eronder in de opgegeven <code>columns</code> kolom.
+Retourneert de tabel uit de opgegeven `table` waar de waarde van een vorige cel wordt doorgegeven naar de cellen met nulwaarden eronder in de opgegeven `columns` kolom.
 
 
 ## Examples
 
-### Example #1 
-Een tabel met de nulwaarden in kolom [Place] retourneren die is gevuld met de waarden boven de nulwaarden uit de tabel.
+### Example #1
+Een tabel met de nulwaarden in kolom \[Place\] retourneren die is gevuld met de waarden boven de nulwaarden uit de tabel.
 ```powerquery
 Table.FillDown(
     Table.FromRecords({

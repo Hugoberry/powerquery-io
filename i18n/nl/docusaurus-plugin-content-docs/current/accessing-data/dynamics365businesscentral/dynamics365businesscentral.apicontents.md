@@ -21,6 +21,6 @@ Dynamics365BusinessCentral.ApiContents(
 
 ## Remarks
 
-Hiermee wordt een tabel met relevante Dynamics 365 Business Central-gegevens geretourneerd. 
+Hiermee wordt een tabel met relevante Dynamics 365 Business Central-gegevens geretourneerd.
 
 

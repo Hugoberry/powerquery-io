@@ -5,7 +5,7 @@ title: Table.ExpandRecordColumn
 # Table.ExpandRecordColumn
 
 
-Développe une colonne d&#39;enregistrements dans des colonnes ayant chacune des valeurs.
+Développe une colonne d'enregistrements dans des colonnes ayant chacune des valeurs.
 
 
 ## Syntax
@@ -22,13 +22,18 @@ Table.ExpandRecordColumn(
 
 ## Remarks
 
-En fonction des enregistrements de <code>column</code> dans l'entrée <code>table</code>, crée une table avec une colonne pour chaque champ dans l'enregistrement. Au besoin, <code>newColumnNames</code> peut être spécifié pour garantir que des noms uniques pour les colonnes sont utilisés dans la nouvelle table.    <ul>        <li><code>table</code> : table d'origine avec la colonne des enregistrements à développer. </li>        <li><code>column</code> : colonne à développer.</li>        <li><code>fieldNames</code> : liste des champs à développer dans des colonnes dans la table.</li>        <li><code>newColumnNames</code> : liste des noms de colonne à attribuer aux nouvelles colonnes. Les noms des nouvelles colonnes ne peuvent pas dupliquer une colonne dans la nouvelle table.</li>    </ul>
+En fonction des enregistrements de `column` dans l'entrée `table`, crée une table avec une colonne pour chaque champ dans l'enregistrement. Au besoin, `newColumnNames` peut être spécifié pour garantir que des noms uniques pour les colonnes sont utilisés dans la nouvelle table.
+
+-   `table` : table d'origine avec la colonne des enregistrements à développer.
+-   `column` : colonne à développer.
+-   `fieldNames` : liste des champs à développer dans des colonnes dans la table.
+-   `newColumnNames` : liste des noms de colonne à attribuer aux nouvelles colonnes. Les noms des nouvelles colonnes ne peuvent pas dupliquer une colonne dans la nouvelle table.
 
 
 ## Examples
 
-### Example #1 
-Développe la colonne [a] dans la table &lt;code&gt;(\{[a = [aa = 1, bb = 2, cc = 3], b = 2]})&lt;/code&gt; en 3 colonnes &#34; aa &#34;, &#34; bb &#34; et &#34; cc &#34;.
+### Example #1
+Développe la colonne \[a\] dans la table `({[a = [aa = 1, bb = 2, cc = 3], b = 2]})` en 3 colonnes « aa », « bb » et « cc ».
 ```powerquery
 Table.ExpandRecordColumn(
     Table.FromRecords({

@@ -19,12 +19,12 @@ Duration.Days(
 
 ## Remarks
 
-Trả về phần ngày của <code>duration</code>.
+Trả về phần ngày của `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tính số ngày giữa hai ngày.
 ```powerquery
 Duration.Days(#date(2022, 3, 4) - #date(2022, 2, 25))

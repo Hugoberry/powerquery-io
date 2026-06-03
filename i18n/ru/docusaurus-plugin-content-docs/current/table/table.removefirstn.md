@@ -20,12 +20,16 @@ Table.RemoveFirstN(
 
 ## Remarks
 
-Возвращает таблицу, не содержащую указанное число первых строк (<code>countOrCondition</code>) в таблице <code>table</code>.    Количество удаленных строк зависит от необязательного параметра <code>countOrCondition</code>.    <ul>    <li> Если <code>countOrCondition</code> не указано, удаляется только первая строка. </li>    <li> Если <code>countOrCondition</code> — число, удаляется соответствующее количество строк (с начала). </li>    <li> Если <code>countOrCondition</code> — условие, будут удалены строки, соответствующие условию, до первой строки, не соответствующей условию.</li>    </ul>
+Возвращает таблицу, не содержащую указанное число первых строк (`countOrCondition`) в таблице `table`. Количество удаленных строк зависит от необязательного параметра `countOrCondition`.
+
+-   Если `countOrCondition` не указано, удаляется только первая строка.
+-   Если `countOrCondition` — число, удаляется соответствующее количество строк (с начала).
+-   Если `countOrCondition` — условие, будут удалены строки, соответствующие условию, до первой строки, не соответствующей условию.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Удаление первой строки таблицы.
 ```powerquery
 Table.RemoveFirstN(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Удаление первых двух строк таблицы.
 ```powerquery
 Table.RemoveFirstN(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Удаление из таблицы первых строк, в которых [CustomerID] &lt;= 2.
+### Example #3
+Удаление из таблицы первых строк, в которых \[CustomerID\] &lt;= 2.
 ```powerquery
 Table.RemoveFirstN(
     Table.FromRecords({

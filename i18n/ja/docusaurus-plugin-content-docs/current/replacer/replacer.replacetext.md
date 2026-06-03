@@ -21,13 +21,13 @@ Replacer.ReplaceText(
 
 ## Remarks
 
-元の <code>text</code> 内の <code>old</code> テキストを <code>new</code> テキストに置き換えます。この置換関数は、<code>List.ReplaceValue</code> および <code>Table.ReplaceValue</code> で使用できます。
+元の `text` 内の `old` テキストを `new` テキストに置き換えます。この置換関数は、`List.ReplaceValue` および `Table.ReplaceValue` で使用できます。
 
 
 ## Examples
 
-### Example #1 
-文字列 &#34;hEllo world&#34; 内のテキスト &#34;hE&#34; を &#34;He&#34; に置き換えます。
+### Example #1
+文字列 "hEllo world" 内のテキスト "hE" を "He" に置き換えます。
 ```powerquery
 Replacer.ReplaceText("hEllo world", "hE", "He")
 ```

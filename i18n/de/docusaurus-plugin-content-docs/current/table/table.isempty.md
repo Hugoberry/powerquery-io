@@ -19,12 +19,12 @@ Table.IsEmpty(
 
 ## Remarks
 
-Gibt an, ob das Element vom Typ "<code>table</code>" Zeilen enthält. Gibt <code>true</code> zurück, falls keine Zeilen vorhanden sind (die Tabelle also leer ist). Andernfalls wird <code>false</code> zurückgegeben.
+Gibt an, ob das Element vom Typ "`table`" Zeilen enthält. Gibt `true` zurück, falls keine Zeilen vorhanden sind (die Tabelle also leer ist). Andernfalls wird `false` zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ermittelt, ob die Tabelle leer ist.
 ```powerquery
 Table.IsEmpty(
@@ -42,8 +42,8 @@ false
 ```
 
 
-### Example #2 
-Ermittelt, ob die Tabelle &lt;code&gt;(\{})&lt;/code&gt; leer ist.
+### Example #2
+Ermittelt, ob die Tabelle `({})` leer ist.
 ```powerquery
 Table.IsEmpty(Table.FromRecords({}))
 ```

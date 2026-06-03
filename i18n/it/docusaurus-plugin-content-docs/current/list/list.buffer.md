@@ -19,13 +19,13 @@ List.Buffer(
 
 ## Remarks
 
-Memorizza l'elenco <code>list</code> in memoria. Il risultato della chiamata è un elenco stabile.
+Memorizza l'elenco `list` in memoria. Il risultato della chiamata è un elenco stabile.
 
 
 ## Examples
 
-### Example #1 
-Creare una copia stabile dell&#39;elenco \{1..10}.
+### Example #1
+Creare una copia stabile dell'elenco \{1..10\}.
 ```powerquery
 List.Buffer({1..10})
 ```

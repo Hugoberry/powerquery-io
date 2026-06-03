@@ -19,13 +19,13 @@ Type.ListItem(
 
 ## Remarks
 
-Devolve um tipo de item de uma lista <code>type</code>.
+Devolve um tipo de item de uma lista `type`.
 
 
 ## Examples
 
-### Example #1 
-Localizar tipo de item a partir da lista &lt;code&gt;\{number}&lt;/code&gt;.
+### Example #1
+Localizar tipo de item a partir da lista `{number}`.
 ```powerquery
 Type.ListItem(type {number})
 ```

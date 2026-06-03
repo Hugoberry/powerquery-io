@@ -21,13 +21,13 @@ Table.ReorderColumns(
 
 ## Remarks
 
-Returnerar en tabell från indata, <code>table</code>, med kolumnerna i ordningen som anges av <code>columnOrder</code>. Ordningen för kolumner som inte anges i listan ändras inte.     Om kolumnen inte finns genereras ett undantag såvida inte den valfria parametern <code>missingField</code> anger ett alternativ (t.ex. <code>MissingField.UseNull</code> eller <code>MissingField.Ignore</code>).
+Returnerar en tabell från indata, `table`, med kolumnerna i ordningen som anges av `columnOrder`. Ordningen för kolumner som inte anges i listan ändras inte. Om kolumnen inte finns genereras ett fel om inte den valfria parametern `missingField` anger ett alternativ (t.ex. `MissingField.UseNull` eller `MissingField.Ignore`).
 
 
 ## Examples
 
-### Example #1 
-Byt ordning på kolumnerna [Phone] och [Name] i tabellen.
+### Example #1
+Byt ordning på kolumnerna \[Phone\] och \[Name\] i tabellen.
 ```powerquery
 Table.ReorderColumns(
     Table.FromRecords({[CustomerID = 1, Phone = "123-4567", Name = "Bob"]}),
@@ -41,8 +41,8 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]})
 ```
 
 
-### Example #2 
-Byt ordning på kolumnerna [Phone] och [Address] eller använd MissingField.Ignore i tabellen. Den ändrar inte tabellen eftersom kolumnen [Address] inte finns.
+### Example #2
+Byt ordning på kolumnerna \[Phone\] och \[Address\] eller använd MissingField.Ignore i tabellen. Den ändrar inte tabellen eftersom kolumnen \[Address\] inte finns.
 ```powerquery
 Table.ReorderColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

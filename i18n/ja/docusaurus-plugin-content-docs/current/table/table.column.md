@@ -20,13 +20,13 @@ Table.Column(
 
 ## Remarks
 
-テーブル <code>table</code> 内の <code>column</code> で指定された列のデータをリストとして返します。
+テーブル `table` 内の `column` で指定された列のデータをリストとして返します。
 
 
 ## Examples
 
-### Example #1 
-テーブル内の [Name] 列から値を返します。
+### Example #1
+テーブル内の \[Name\] 列から値を返します。
 ```powerquery
 Table.Column(
     Table.FromRecords({

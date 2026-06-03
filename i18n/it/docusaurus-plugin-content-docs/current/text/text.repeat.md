@@ -20,13 +20,13 @@ Text.Repeat(
 
 ## Remarks
 
-Restituisce un valore di testo composto dal testo di input <code>text</code> ripetuto per <code>count</code> volte.
+Restituisce un valore di testo composto dal testo di input `text` ripetuto per `count` volte.
 
 
 ## Examples
 
-### Example #1 
-Ripetere il testo &#34;a&#34; cinque volte.
+### Example #1
+Ripetere il testo "a" cinque volte.
 ```powerquery
 Text.Repeat("a", 5)
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Ripetere il testo &#34;helloworld&#34; tre volte.
+### Example #2
+Ripetere il testo "helloworld" tre volte.
 ```powerquery
 Text.Repeat("helloworld.", 3)
 ```

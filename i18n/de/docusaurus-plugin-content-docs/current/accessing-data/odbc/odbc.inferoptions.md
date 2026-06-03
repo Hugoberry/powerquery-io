@@ -19,12 +19,12 @@ Odbc.InferOptions(
 
 ## Remarks
 
-Gibt das Ergebnis des Versuchs zurück, SQL-Funktionen mit der Verbindungszeichenfolge "<code>connectionString</code>" unter Verwendung von ODBC abzuleiten. "<code>connectionString</code>" kann Text oder ein Datensatz mit Eigenschaft/-Wert-Paaren sein. Eigenschaftswerte können Text oder eine Zahl sein.
+Gibt das Ergebnis des Versuchs zurück, SQL-Funktionen mit der Verbindungszeichenfolge "`connectionString`" unter Verwendung von ODBC abzuleiten. "`connectionString`" kann Text oder ein Datensatz mit Eigenschaft/-Wert-Paaren sein. Eigenschaftswerte können Text oder eine Zahl sein.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gibt die abgeleiteten SQL-Funktionen für eine Verbindungszeichenfolge zurück.
 ```powerquery
 Odbc.InferOptions("dsn=your_dsn")

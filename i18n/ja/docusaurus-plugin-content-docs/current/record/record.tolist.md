@@ -19,12 +19,12 @@ Record.ToList(
 
 ## Remarks
 
-入力 <code>record</code> からフィールド値を含む値のリストを返します。
+入力 `record` からフィールド値を含む値のリストを返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 レコードからフィールド値を抽出します。
 ```powerquery
 Record.ToList([A = 1, B = 2, C = 3])

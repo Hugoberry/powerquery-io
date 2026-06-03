@@ -13,7 +13,7 @@ VivaInsights.Data(
     scopeId as text,
     optional jobName as text,
     optional jobId as text,
-    optional advancedParameters as record
+    optional options as record
 ) as table
 ```
 
@@ -25,7 +25,7 @@ VivaInsights.Data(
 
 ## Examples
 
-### Example #1 
+### Example #1
 विभाजन में प्रत्येक मापित कर्मचारी के लिए दृश्यमान विशेषताओं और प्रत्येक सप्ताह के मैट्रिक्स वाली एक तालिका लौटाता है.
 ```powerquery
 VivaInsights.Data("5f142ea5-c08a-eb02-de68-41dccdefb141")

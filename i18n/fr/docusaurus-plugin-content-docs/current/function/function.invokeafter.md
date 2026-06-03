@@ -20,7 +20,7 @@ Function.InvokeAfter(
 
 ## Remarks
 
-Retourne le résultat de l'appel de <code>function</code> une fois le délai <code>delay</code> écoulé.
+Retourne le résultat de l'appel de `function` une fois le délai `delay` écoulé.
 
 
 

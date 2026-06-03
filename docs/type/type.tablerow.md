@@ -24,7 +24,7 @@ Returns the row type of the specified table type. The result will always be a re
 
 ## Examples
 
-### Example #1 
+### Example #1
 Return the row type information for a simple table.
 ```powerquery
 let

@@ -5,7 +5,7 @@ title: AzureEnterprise.Contents
 # AzureEnterprise.Contents
 
 
-Kaydınızla ilişkilendirilen Azure Kurumsal REST API uç noktasının URL&#39;sini girin
+Kaydınızla ilişkilendirilen Azure Kurumsal REST API uç noktasının URL'sini girin
 
 
 ## Syntax
@@ -25,7 +25,7 @@ Azure Kurumsal API'si için sağlanmış URL'ye yapılan çağrının ikili sonu
 
 ## Examples
 
-### Example #1 
+### Example #1
 AzureEnterprise.Contents işlevini kullanarak belirli bir raporun sonuçlarını döndürme.
 ```powerquery
         let

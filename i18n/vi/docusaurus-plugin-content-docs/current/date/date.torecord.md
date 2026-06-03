@@ -19,13 +19,15 @@ Date.ToRecord(
 
 ## Remarks
 
-Trả về một bản ghi chứa các phần của giá trị ngày cho sẵn, <code>date</code>. <ul>        <li><code>date</code>: Một giá trị <code>date</code> nơi bản ghi các phần của giá trị đó sẽ được tính.</li>      </ul>
+Trả về một bản ghi chứa các phần của giá trị ngày cho sẵn, `date`.
+
+-   `date`: Một giá trị `date` nơi bản ghi các phần của giá trị đó sẽ được tính.
 
 
 ## Examples
 
-### Example #1 
-Chuyển đổi giá trị &lt;code&gt;#date(2011, 12, 31)&lt;/code&gt; thành một bản ghi chứa các phần từ giá trị ngày.
+### Example #1
+Chuyển đổi giá trị `#date(2011, 12, 31)` thành một bản ghi chứa các phần từ giá trị ngày.
 ```powerquery
 Date.ToRecord(#date(2011, 12, 31))
 ```

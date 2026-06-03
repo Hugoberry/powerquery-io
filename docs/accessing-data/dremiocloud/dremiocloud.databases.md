@@ -23,7 +23,7 @@ Returns a table listing the datasets in the specified project on Dremio Cloud. T
 
 ## Examples
 
-### Example #1 
+### Example #1
 How to return the list of datasets in project, xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, on Dremio Cloud.
 ```powerquery
 DremioCloud.Databases("xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx")

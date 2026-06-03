@@ -19,12 +19,12 @@ Date.StartOfYear(
 
 ## Remarks
 
-<code>dateTime</code> içeren yıl başlangıcını döndürür.    <code>dateTime</code>, bir <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri olmalıdır.
+`dateTime` içeren yıl başlangıcını döndürür. `dateTime`, bir `date`, `datetime` veya `datetimezone` değeri olmalıdır.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 10 Ekim 2011, 08:10:32 için yıl başlangıcını bulun.
 ```powerquery
 Date.StartOfYear(#datetime(2011, 10, 10, 8, 10, 32))

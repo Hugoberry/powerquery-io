@@ -5,7 +5,7 @@ title: Logical.FromText
 # Logical.FromText
 
 
-Maakt een logische waarde van de tekstwaarde &#34;true&#34; en &#34;false&#34;.
+Maakt een logische waarde van de tekstwaarde "true" en "false".
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.FromText(
 
 ## Remarks
 
-Maakt een logische waarde van de tekstwaarde <code>text</code>: "true" of "false". Als <code>text</code> een andere tekenreeks bevat, wordt er een uitzondering gegenereerd. De tekstwaarde <code>text</code> is hoofdlettergevoelig.
+Maakt een logische waarde van de tekstwaarde `text`: 'waar' of 'onwaar'. Als `text` een andere tekenreeks bevat, treedt er een fout op. De tekstwaarde `text` is hoofdlettergevoelig.
 
 
 ## Examples
 
-### Example #1 
-Een logische waarde van de tekenreeks &#34;true&#34; maken.
+### Example #1
+Een logische waarde van de tekenreeks "true" maken.
 ```powerquery
 Logical.FromText("true")
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Een logische waarde van de tekenreeks &#34;a&#34; maken.
+### Example #2
+Een logische waarde van de tekenreeks "a" maken.
 ```powerquery
 Logical.FromText("a")
 ```

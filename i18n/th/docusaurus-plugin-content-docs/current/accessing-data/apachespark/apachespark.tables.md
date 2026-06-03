@@ -21,12 +21,12 @@ ApacheSpark.Tables(
 
 ## Remarks
 
-ส่งคืนค่าตารางที่แสดงตารางสำหรับคลัสเตอร์ Spark <code>โฮสต์</code> โดยใช้ <code>โปรโตคอล</code> โปรโตคอลที่ถูกต้องคือ:SparkProtocol.Standard, SparkProtocol.HTTP
+ส่งคืนค่าตารางที่แสดงตารางสำหรับคลัสเตอร์ Spark `โฮสต์` โดยใช้ `โปรโตคอล` โปรโตคอลที่ถูกต้องคือ: SparkProtocol.Standard, SparkProtocol.HTTP
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ส่งคืนค่าตารางที่แสดงตารางสำหรับคลัสเตอร์ Spark ที่ระบุไว้
 ```powerquery
 Spark.Tables("http://example.com:10000/cliservice", SparkProtocol.HTTP)

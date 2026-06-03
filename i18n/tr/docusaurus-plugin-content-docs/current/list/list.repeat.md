@@ -20,13 +20,13 @@ List.Repeat(
 
 ## Remarks
 
-<code>list</code> asıl listesinin <code>count</code> tekrarları olan bir liste döndürür.
+`list` asıl listesinin `count` tekrarları olan bir liste döndürür.
 
 
 ## Examples
 
-### Example #1 
-\{1, 2} değerlerinin 3 kez tekrarlandığı bir liste oluşturur.
+### Example #1
+\{1, 2\} değerlerinin 3 kez tekrarlandığı bir liste oluşturur.
 ```powerquery
 List.Repeat({1, 2}, 3)
 ```

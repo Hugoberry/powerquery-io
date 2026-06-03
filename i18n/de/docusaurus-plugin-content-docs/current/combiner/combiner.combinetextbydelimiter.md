@@ -25,7 +25,7 @@ Gibt eine Funktion zurück, die eine Liste mit Textwerten unter Verwendung des a
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kombinieren Sie eine Liste von Textwerten mithilfe eines Semikolons.
 ```powerquery
 Combiner.CombineTextByDelimiter(";")({"a", "b", "c"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Kombinieren Sie den Text von zwei Spalten mithilfe eines Komma-Trennzeichens und CSV-Anführungszeichens.
 ```powerquery
 let

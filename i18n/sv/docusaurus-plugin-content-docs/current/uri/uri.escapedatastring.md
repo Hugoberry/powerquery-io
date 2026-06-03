@@ -19,13 +19,13 @@ Uri.EscapeDataString(
 
 ## Remarks
 
-Kodar specialtecken i indata <code>data</code> enligt reglerna i RFC 3986.
+Kodar specialtecken i indata `data` enligt reglerna i RFC 3986.
 
 
 ## Examples
 
-### Example #1 
-Kodar specialtecken i &#34;+money$&#34;.
+### Example #1
+Kodar specialtecken i "+money$".
 ```powerquery
 Uri.EscapeDataString("+money$")
 ```

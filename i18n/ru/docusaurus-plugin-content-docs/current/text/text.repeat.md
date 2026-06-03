@@ -20,13 +20,13 @@ Text.Repeat(
 
 ## Remarks
 
-Возвращает текстовое значение, состоящее из входного текста <code>text</code>, повторенного <code>count</code> раз.
+Возвращает текстовое значение, состоящее из входного текста `text`, повторенного `count` раз.
 
 
 ## Examples
 
-### Example #1 
-Повторить текст &#34;a&#34; 5 раз.
+### Example #1
+Повторить текст "a" 5 раз.
 ```powerquery
 Text.Repeat("a", 5)
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Повторить текст &#34;helloworld&#34; три раза.
+### Example #2
+Повторить текст "helloworld" три раза.
 ```powerquery
 Text.Repeat("helloworld.", 3)
 ```

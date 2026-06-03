@@ -19,12 +19,12 @@ DateTime.Time(
 
 ## Remarks
 
-Возвращает компонент времени заданного значения datetime, <code>dateTime</code>.
+Возвращает компонент времени заданного значения datetime, `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Поиск значения времени #datetime (2010, 12, 31, 11, 56, 02).
 ```powerquery
 DateTime.Time(#datetime(2010, 12, 31, 11, 56, 02))

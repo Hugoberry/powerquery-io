@@ -20,6 +20,6 @@ Dynamics365BusinessCentralOnPremises.Contents(
 
 ## Remarks
 
-प्रासंगिक Dynamics 365 Business Central (ऑन-प्रिमाइसेस) डेटा वाली तालिका वापस करता है. 
+प्रासंगिक Dynamics 365 Business Central (ऑन-प्रिमाइसेस) डेटा वाली तालिका वापस करता है.
 
 

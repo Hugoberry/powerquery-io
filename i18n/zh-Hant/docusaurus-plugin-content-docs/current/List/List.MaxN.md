@@ -22,7 +22,62 @@ List.MaxN(
 
 ## Remarks
 
-傳回清單 <code>list</code> 中的最大值。    在資料列排序之後，可指定選擇性的參數進一步篩選結果。選擇性參數 <code>countOrCondition</code> 指定要傳回的值數目或篩選條件。選擇性參數 <code>comparisonCriteria</code> 指定清單中值的比較方式。 <ul>        <li> <code>list</code>: 值清單。</li>        <li> <code>countOrCondition</code>: 如果指定了數字，就會依遞增順序傳回最多包含 <code>countOrCondition</code> 個項目的清單。如果指定了條件，就會傳回最初符合條件的項目清單。一旦有項目不符合條件，就不再考慮其他項目。</li><li><code>comparisonCriteria</code>: [選擇性]<i></i> 可指定選擇性的 <code>comparisonCriteria</code> 值，以決定清單中項目的比較方式。如果這個參數是 null，則使用預設比較子。 </li></ul>
+傳回指定清單中的最大值。資料列排序之後，可以指定選用參數來進一步篩選結果。
+
+-   `list`: 值清單。
+-   `countOrCondition`: 指定要傳回的值數目或篩選條件。如果指定了一個數字，則會以遞減順序傳回最多 `countOrCondition` 個項目的清單。如果指定了條件，則傳回的清單包含所有符合條件的項目。
+-   `comparisonCriteria`: (選用) 在進行比較之前用來轉換值的函數。如果此參數是 `null`，則會比較這些值，無需進行任何變換。
+-   `includeNulls`: (選用) 指出在決定最大項目時是否應該包含清單中的 `null` 值。預設值為 `true`。
+
+
+## Examples
+
+### Example #1
+尋找指定清單中的前 5 個值。
+```powerquery
+List.MaxN({3, 4, 5, -1, 7, 8, 2}, 5)
+```
+
+Result: 
+```powerquery
+{8, 7, 5, 4, 3}
+```
+
+
+### Example #2
+尋找超過 3 個字元的字詞。
+```powerquery
+List.MaxN(
+    {"boy", "dog", "pony", "cat", "rabbit", "bat"},
+    each Text.Length(_) > 3
+)
+```
+
+Result: 
+```powerquery
+{"rabbit", "pony"}
+```
+
+
+### Example #3
+從德文日期清單中尋找三個最近的日期。
+```powerquery
+let
+    Source = {"12.02.2024", "15.05.2025", "10.10.2021", "16.01.2025", "30.12.2022"},
+    MaxDate = List.MaxN(Source, 3, each Date.FromText(_, [Culture = "de-DE"]))
+in
+    MaxDate
+```
+
+Result: 
+```powerquery
+{
+    "15.05.2025",
+    "16.01.2025",
+    "12.02.2024"
+}
+```
+
 
 
 

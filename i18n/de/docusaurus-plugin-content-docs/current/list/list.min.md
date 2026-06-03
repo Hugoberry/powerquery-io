@@ -22,13 +22,13 @@ List.Min(
 
 ## Remarks
 
-Gibt das kleinste Element in der Liste "<code>list</code>" zurück. Ist die Liste leer, wird der optionale Standardwert "<code>default</code>" zurückgegeben.    Ein optionaler comparisonCriteria-Wert (<code>comparisonCriteria</code>) kann angegeben werden, um zu bestimmen, wie die Elemente in der Liste verglichen werden sollen. Ist dieser Parameter NULL, wird die standardmäßige Vergleichsfunktion verwendet.
+Gibt das kleinste Element in der Liste "`list`" zurück. Ist die Liste leer, wird der optionale Standardwert "`default`" zurückgegeben. Ein optionaler comparisonCriteria-Wert (`comparisonCriteria`) kann angegeben werden, um zu bestimmen, wie die Elemente in der Liste verglichen werden sollen. Ist dieser Parameter NULL, wird die standardmäßige Vergleichsfunktion verwendet.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt den kleinsten Wert in der Liste &#34;\{1, 4, 7, 3, -2, 5}&#34;.
+### Example #1
+Ermittelt den kleinsten Wert in der Liste "\{1, 4, 7, 3, -2, 5\}".
 ```powerquery
 List.Min({1, 4, 7, 3, -2, 5})
 ```
@@ -39,8 +39,8 @@ Result:
 ```
 
 
-### Example #2 
-Ermittelt den kleinsten Wert in der Liste &#34;\{}&#34;. Ist die Liste leer, wird &#34;-1&#34; zurückgegeben. 
+### Example #2
+Ermittelt den kleinsten Wert in der Liste "\{\}". Ist die Liste leer, wird "-1" zurückgegeben.
 ```powerquery
 List.Min({}, -1)
 ```

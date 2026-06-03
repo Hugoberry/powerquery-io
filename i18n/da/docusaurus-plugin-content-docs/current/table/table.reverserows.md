@@ -19,12 +19,12 @@ Table.ReverseRows(
 
 ## Remarks
 
-Returnerer en tabel med rækkerne fra inputtet <code>table</code> i omvendt rækkefølge.
+Returnerer en tabel med rækkerne fra inputtet `table` i omvendt rækkefølge.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Vend om på rækkefølgen af rækkerne i tabellen.
 ```powerquery
 Table.ReverseRows(

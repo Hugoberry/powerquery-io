@@ -19,12 +19,14 @@ Date.IsInPreviousDay(
 
 ## Remarks
 
-Hiermee wordt aangegeven of de opgegeven datetime-waarde <code>dateTime</code> plaatsvindt gedurende de voorgaande dag volgens de huidige datum en tijd op het systeem. Houd er rekening mee dat deze functie onwaar retourneert als een waarde wordt doorgegeven die in de huidige dag valt.      <ul>      <li><code>dateTime</code>: Een <code>date</code>-, <code>datetime</code>- of <code>datetimezone</code>-waarde die moet worden geëvalueerd.</li>      </ul>
+Hiermee wordt aangegeven of de opgegeven datetime-waarde `dateTime` plaatsvindt gedurende de voorgaande dag volgens de huidige datum en tijd op het systeem. Houd er rekening mee dat deze functie onwaar retourneert als een waarde wordt doorgegeven die in de huidige dag valt.
+
+-   `dateTime`: Een `date`\-, `datetime`\- of `datetimezone`\-waarde die moet worden geëvalueerd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Vaststellen of de dag vóór de huidige systeemtijd binnen de vorige dag valt.
 ```powerquery
 Date.IsInPreviousDay(Date.AddDays(DateTime.FixedLocalNow(), -1))

@@ -19,13 +19,13 @@ Type.FunctionParameters(
 
 ## Remarks
 
-<code>type</code> parametrelerinin adına ayarlanan alan değerleriyle ve bunların karşılık gelen türlerine ayarlanan değerleriyle bir kayıt döndürür.
+`type` parametrelerinin adına ayarlanan alan değerleriyle ve bunların karşılık gelen türlerine ayarlanan değerleriyle bir kayıt döndürür.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;(x as number, y as text)&lt;/code&gt; işlevi için parametre türlerini bulun.
+### Example #1
+`(x as number, y as text)` işlevi için parametre türlerini bulun.
 ```powerquery
 Type.FunctionParameters(type function (x as number, y as text) as any)
 ```

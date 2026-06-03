@@ -19,7 +19,7 @@ Number.Acos(
 
 ## Remarks
 
-Trả về arccosin của <code>number</code>.
+Trả về arccosin của `number`.
 
 
 

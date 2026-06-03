@@ -21,13 +21,13 @@ Currency.From(
 
 ## Remarks
 
-Restituisce un valore <code>valuta</code> dal dato <code>value</code>. Se il dato <code>value</code> è <code>null</code>, <code>Currency.From</code> restituisce <code>null</code>.  Se il dato <code>value</code> è <code>numero</code> compreso nell'intervallo della valuta, la parte frazionaria di <code>value</code> viene arrotondata a 4 decimali e quindi viene restituito il valore. Se <code>value</code> è di qualsiasi altro tipo, verrà prima convertito in un <code>numero</code> usando <code>Number.FromText</code>. L'intervallo valido per la valuta è da <code>-922.337.203.685,477,5808</code> a <code>922.337.203.685.477,5807</code>. Per le modalità di arrotondamento disponibili, vedere <code>Number.Round</code>. L'impostazione predefinita è <code>RoundingMode.ToEven</code>. Può essere previsto anche un <code>culture</code> opzionale (per esempio, "it-IT").
+Restituisce un valore `valuta` dal dato `value`. Se il dato `value` è `null`, `Currency.From` restituisce `null`. Se il dato `value` è `numero` compreso nell'intervallo della valuta, la parte frazionaria di `value` viene arrotondata a 4 decimali e quindi viene restituito il valore. Se `value` è di qualsiasi altro tipo, verrà prima convertito in un `numero` usando `Number.FromText`. L'intervallo valido per la valuta è da `-922.337.203.685,477,5808` a `922.337.203.685.477,5807`. Per le modalità di arrotondamento disponibili, vedere `Number.Round`. L'impostazione predefinita è `RoundingMode.ToEven`. Può essere previsto anche un `culture` opzionale (per esempio, "it-IT").
 
 
 ## Examples
 
-### Example #1 
-Ottiene il valore &lt;code&gt;currency&lt;/code&gt; di &lt;code&gt;&#34;1.23455&#34;&lt;/code&gt;.
+### Example #1
+Ottiene il valore `currency` di `"1.23455"`.
 ```powerquery
 Currency.From("1.23455")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Ottenere il &lt;code&gt;currency&lt;/code&gt; valore di &lt;code&gt;&#34;1.23455&#34;&lt;/code&gt; usando &lt;code&gt;RoundingMode.Down&lt;/code&gt;.
+### Example #2
+Ottenere il `currency` valore di `"1.23455"` usando `RoundingMode.Down`.
 ```powerquery
 Currency.From("1.23455", "en-US", RoundingMode.Down)
 ```

@@ -20,12 +20,12 @@ Text.Repeat(
 
 ## Remarks
 
-Zwraca wartość tekstową składającą się z teksu wejściowego <code>text</code> powtórzonego <code>count</code> razy.
+Zwraca wartość tekstową składającą się z teksu wejściowego `text` powtórzonego `count` razy.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Powtórz tekst „a” pięć razy.
 ```powerquery
 Text.Repeat("a", 5)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Powtórz tekst „helloworld” trzy razy.
 ```powerquery
 Text.Repeat("helloworld.", 3)

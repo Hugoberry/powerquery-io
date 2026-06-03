@@ -20,13 +20,13 @@ Percentage.From(
 
 ## Remarks
 
-Retorna um valor <code>percentage</code> com base no <code>value</code> especificado. Se o <code>value</code> especificado for <code>null</code>, <code>Percentage.From</code> retornará <code>null</code>. Se o <code>value</code> especificado for <code>text</code> com um símbolo de porcentagem final, o número decimal convertido será retornado. Caso contrário, o valor será convertido para um <code>number</code> usando <code>Number.From</code>. Um <code>culture</code> opcional também pode ser fornecido (por exemplo, "pt-BR").
+Retorna um valor `percentage` com base no `value` especificado. Se o `value` especificado for `null`, `Percentage.From` retornará `null`. Se o `value` especificado for `text` com um símbolo de porcentagem final, o número decimal convertido será retornado. Caso contrário, o valor será convertido para um `number` usando `Number.From`. Um `culture` opcional também pode ser fornecido (por exemplo, "pt-BR").
 
 
 ## Examples
 
-### Example #1 
-Obtém o valor &lt;code&gt;percentage&lt;/code&gt; de &lt;code&gt;&#34;12.3%&#34;&lt;/code&gt;.
+### Example #1
+Obtém o valor `percentage` de `"12.3%"`.
 ```powerquery
 Percentage.From("12.3%")
 ```

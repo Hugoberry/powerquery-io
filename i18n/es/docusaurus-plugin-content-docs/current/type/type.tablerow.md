@@ -24,7 +24,7 @@ Devuelve el tipo de fila del tipo de tabla especificado. El resultado siempre se
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devuelve la información de tipo de fila de una tabla simple.
 ```powerquery
 let

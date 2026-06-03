@@ -21,13 +21,13 @@ List.Difference(
 
 ## Remarks
 
-Hiermee worden de items in lijst <code>list1</code> geretourneerd die niet worden weergegeven in lijst <code>list2</code>. Dubbele waarden worden ondersteund. Een optionele vergelijkingscriteriawaarde, <code>equationCriteria</code>, kan worden opgegeven voor het aansturen van gelijkheidstesten. 
+Hiermee worden de items in lijst `list1` geretourneerd die niet worden weergegeven in lijst `list2`. Dubbele waarden worden ondersteund. Een optionele vergelijkingscriteriawaarde, `equationCriteria`, kan worden opgegeven voor het aansturen van gelijkheidstesten.
 
 
 ## Examples
 
-### Example #1 
-Zoek de items in de lijst \{1, 2, 3, 4, 5} die niet worden weergegeven in \{4, 5, 3}.
+### Example #1
+Zoek de items in de lijst \{1, 2, 3, 4, 5\} die niet worden weergegeven in \{4, 5, 3\}.
 ```powerquery
 List.Difference({1, 2, 3, 4, 5}, {4, 5, 3})
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-De items in de lijst \{1, 2} zoeken die niet verschijnen in \{1, 2, 3}.
+### Example #2
+De items in de lijst \{1, 2\} zoeken die niet verschijnen in \{1, 2, 3\}.
 ```powerquery
 List.Difference({1, 2}, {1, 2, 3})
 ```

@@ -20,13 +20,18 @@ Time.FromText(
 
 ## Remarks
 
-Hiermee wordt een <code>tijd</code>-waarde van een tekstweergave <code>text</code> gemaakt. Er kan een optionele <code>record</code>-parameter, <code>options</code>, worden opgegeven om aanvullende eigenschappen op te geven. De <code>record</code> kan de volgende velden bevatten:<ul>   <li><code>Format</code>: een <code>tekst</code>-waarde die de indeling aangeeft die moet worden gebruikt. Ga naar https://go.microsoft.com/fwlink/?linkid=2180104 en https://go.microsoft.com/fwlink/?linkid=2180105 voor meer informatie. Als u dit veld weglaat of <code>nul</code> opgeeft, zal het tijdstip naar beste vermogen worden geparseerd.</li>   <li><code>Culture</code>: als <code>Format</code> niet nul is, worden bepaalde indelingsaanduidingen bepaald door <code>Culture</code>. Voor <code>'en-US'</code> staat <code>"tt"</code> bijvoorbeeld voor <code>'AM' of 'PM'</code>, terwijl voor <code>'ar-EG'</code> <code>"tt"</code> staat voor <code>'ص' of 'م'</code>. Als <code>Format</code> gelijk is aan <code>nul</code>, bepaalt <code>Culture</code> de standaardindeling die moet worden gebruikt. Als <code>Culture</code> de waarde <code>nul</code> heeft of wordt weggelaten, wordt <code>Culture.Current</code> gebruikt.</li></ul>Als u oudere werkstromen wilt ondersteunen, kan <code>options</code> ook een tekstwaarde zijn. Dit vertoont hetzelfde gedrag als <code>options</code><code> = [Format = nul, Culture = <code>options</code>]</code>.
+Hiermee wordt een `tijd`\-waarde van een tekstweergave `text` gemaakt. Er kan een optionele `record`\-parameter, `options`, worden opgegeven om aanvullende eigenschappen op te geven. De `record` kan de volgende velden bevatten:
+
+-   `Format`: een `text`waarde die de indeling aangeeft die moet worden gebruikt. Ga naar https://go.microsoft.com/fwlink/?linkid=2180104 en https://go.microsoft.com/fwlink/?linkid=2180105 voor meer informatie. Als u dit veld weglaat of `null` opgeeft, zal het tijdstip naar beste vermogen worden geparseerd.
+-   `Culture`: als `Format` niet nul is, worden bepaalde indelingsaanduidingen bepaald door `Culture`. Voor `'en-US'` staat `"tt"` bijvoorbeeld voor `'AM' of 'PM'`, terwijl voor `'ar-EG'` `"tt"` staat voor `'ص' of 'م'`. Wanneer `Format` is `null`, wordt met `Culture` de standaardindeling bepaald die moet worden gebruikt. Als `Culture` de waarde `null` heeft of niet wordt gebruikt, wordt `Culture.Current` gebruikt.
+
+Als u oudere werkstromen wilt ondersteunen, kan `options` ook een tekstwaarde zijn. Dit gedraagt zich hetzelfde als `options = [Format = null, Culture = options]`.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;&#34;10:12:31am&#34;&lt;/code&gt; converteren naar een tijdwaarde.
+### Example #1
+`"10:12:31am"` converteren naar een tijdwaarde.
 ```powerquery
 Time.FromText("10:12:31am")
 ```
@@ -37,8 +42,8 @@ Result:
 ```
 
 
-### Example #2 
-&lt;code&gt;&#34;1012&#34;&lt;/code&gt; converteren naar een tijdwaarde.
+### Example #2
+`"1012"` converteren naar een tijdwaarde.
 ```powerquery
 Time.FromText("1012")
 ```
@@ -49,8 +54,8 @@ Result:
 ```
 
 
-### Example #3 
-&lt;code&gt;&#34;10&#34;&lt;/code&gt; converteren naar een tijdwaarde.
+### Example #3
+`"10"` converteren naar een tijdwaarde.
 ```powerquery
 Time.FromText("10")
 ```

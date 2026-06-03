@@ -19,12 +19,12 @@ BinaryFormat.Record(
 
 ## Remarks
 
-Restituisce un formato binario che legge un record.  Il parametro <code>record</code> specifica il formato binario del record.  Ogni campo del record può avere un formato binario diverso.  Se un campo contiene un valore che non è un valore di formato binario, non viene letto alcun dato per il campo e il valore del campo è ripetuto nel risultato.
+Restituisce un formato binario che legge un record. Il parametro `record` specifica il formato binario del record. Ogni campo del record può avere un formato binario diverso. Se un campo contiene un valore che non è un valore di formato binario, non viene letto alcun dato per il campo e il valore del campo è ripetuto nel risultato.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Leggere un record contenente un Integer a 16 bit e un Integer a 32 bit.
 ```powerquery
 let

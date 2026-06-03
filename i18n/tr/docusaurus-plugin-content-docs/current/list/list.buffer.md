@@ -19,13 +19,13 @@ List.Buffer(
 
 ## Remarks
 
-<code>list</code> listesini arabelleğe alır. Bu çağrının sonucu kararlı bir listedir.
+`list` listesini arabelleğe alır. Bu çağrının sonucu kararlı bir listedir.
 
 
 ## Examples
 
-### Example #1 
-\{1..10} listesinin kararlı bir kopyasını oluşturur.
+### Example #1
+\{1..10\} listesinin kararlı bir kopyasını oluşturur.
 ```powerquery
 List.Buffer({1..10})
 ```

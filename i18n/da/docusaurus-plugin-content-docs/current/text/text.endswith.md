@@ -21,13 +21,21 @@ Text.EndsWith(
 
 ## Remarks
 
-Angiver, om den angivne tekst, <code>text</code>, slutter med den angivne værdi, <code>substring</code>. I resultatet skelnes der mellem store og små bogstaver.      <div>        <code>comparer</code> er en kode af typen <code>Comparer</code>, dvs. en sammenligningsfunktion, som bruges til at styre sammenligningen. Sammenligningsfunktioner kan bruges til at udføre sammenligninger, hvor der ikke skelnes mellem store og små bogstaver, eller udføre kulturelle- og landemæssige sammenligninger.      </div>      <div>        Følgende indbyggede sammenligningsfunktioner er tilgængelige på formelsproget:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: Bruges til at udføre en nøjagtig sammenligning af ordenstal</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: Bruges til at udføre en nøjagtig sammenligning af ordenstal, hvor der ikke skelnes mellem store og små bogstaver</li>        <li> <code>Comparer.FromCulture</code>: Bruges til at udføre en kulturel sammenligning</li>      </ul>
+Angiver, om den angivne tekst, `text`, slutter med den angivne værdi, `substring`. I resultatet skelnes der mellem store og små bogstaver.
+
+`comparer` er en kode af typen `Comparer`, dvs. en sammenligningsfunktion, som bruges til at styre sammenligningen. Sammenligningsfunktioner kan bruges til at udføre sammenligninger, hvor der ikke skelnes mellem store og små bogstaver, eller udføre kulturelle- og landemæssige sammenligninger.
+
+Følgende indbyggede sammenligningsfunktioner er tilgængelige på formelsproget:
+
+-   `Comparer.Ordinal`: Bruges til at udføre en nøjagtig sammenligning af ordenstal
+-   `Comparer.OrdinalIgnoreCase`: Bruges til at udføre en nøjagtig sammenligning af ordenstal, hvor der ikke skelnes mellem store og små bogstaver
+-   `Comparer.FromCulture`: Bruges til at udføre en kulturel sammenligning
 
 
 ## Examples
 
-### Example #1 
-Kontrollér, om &#34;Hello, World&#34; slutter på &#34;world&#34;.
+### Example #1
+Kontrollér, om "Hello, World" slutter på "world".
 ```powerquery
 Text.EndsWith("Hello, World", "world")
 ```
@@ -38,8 +46,8 @@ false
 ```
 
 
-### Example #2 
-Kontrollér, om &#34;Hello, World&#34; slutter på &#34;World&#34;.
+### Example #2
+Kontrollér, om "Hello, World" slutter på "World".
 ```powerquery
 Text.EndsWith("Hello, World", "World")
 ```

@@ -22,13 +22,13 @@ List.Min(
 
 ## Remarks
 
-Retourne l'élément minimal dans la liste <code>list</code>, ou la valeur par défaut facultative <code>default</code>, si la liste est vide.    La valeur comparisonCriteria facultative, <code>comparisonCriteria</code>, peut être spécifiée pour déterminer comment comparer les éléments dans la liste. Si ce paramètre a la valeur null, le comparateur par défaut est utilisé.
+Retourne l'élément minimal dans la liste `list`, ou la valeur par défaut facultative `default`, si la liste est vide. La valeur comparisonCriteria facultative, `comparisonCriteria`, peut être spécifiée pour déterminer comment comparer les éléments dans la liste. Si ce paramètre a la valeur null, le comparateur par défaut est utilisé.
 
 
 ## Examples
 
-### Example #1 
-Recherche la valeur minimale dans la liste \{1, 4, 7, 3, -2, 5}.
+### Example #1
+Recherche la valeur minimale dans la liste \{1, 4, 7, 3, -2, 5\}.
 ```powerquery
 List.Min({1, 4, 7, 3, -2, 5})
 ```
@@ -39,8 +39,8 @@ Result:
 ```
 
 
-### Example #2 
-Recherche la valeur minimale dans la liste \{} ou retourne -1 si elle est vide. 
+### Example #2
+Recherche la valeur minimale dans la liste \{\} ou retourne -1 si elle est vide.
 ```powerquery
 List.Min({}, -1)
 ```

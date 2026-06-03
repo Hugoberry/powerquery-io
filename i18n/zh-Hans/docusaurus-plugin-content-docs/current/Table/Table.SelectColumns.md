@@ -21,13 +21,17 @@ Table.SelectColumns(
 
 ## Remarks
 
-返回仅具有指定 <code>columns</code> 的 <code>table</code>。    <ul>       <li><code>table</code>: 提供的表。</li>       <li><code>columns</code>: 要返回的表 <code>table</code> 中列的列表。返回表中的列按 <code>columns</code> 中列出的顺序。</li>       <li><code>missingField</code>: <i>(可选)</i> 列不存在时如何操作。示例: <code>MissingField.UseNull</code> 或 <code>MissingField.Ignore</code>。    </li></ul>
+返回仅具有指定 `table` 的 `columns`。
+
+-   `table`: 提供的表。
+-   `columns`: 要返回的表 `table` 中列的列表。返回表中的列按 `columns` 中列出的顺序。
+-   `missingField`: *(可选)*列不存在时如何操作。 示例: `MissingField.UseNull` 或 `MissingField.Ignore`。
 
 
 ## Examples
 
-### Example #1 
-只包含列 [Name]。
+### Example #1
+只包含列 \[Name\]。
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({
@@ -51,8 +55,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-只包含列 [CustomerID] 和列 [Name]。
+### Example #2
+只包含列 \[CustomerID\] 和列 \[Name\]。
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -66,7 +70,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #3 
+### Example #3
 如果包含的列没有退出，则默认结果为错误。
 ```powerquery
 Table.SelectColumns(
@@ -81,8 +85,8 @@ Result:
 ```
 
 
-### Example #4 
-如果包含的列没有退出，选项 &lt;code&gt;MissingField.UseNull&lt;/code&gt; 将创建包含 null 值的列。
+### Example #4
+如果包含的列没有退出，选项 `MissingField.UseNull` 将创建包含 null 值的列。
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

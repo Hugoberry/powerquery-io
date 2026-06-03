@@ -19,12 +19,12 @@ Table.RowCount(
 
 ## Remarks
 
-Gibt die Anzahl von Zeilen im Element vom Typ "<code>table</code>" zurück.
+Gibt die Anzahl von Zeilen im Element vom Typ "`table`" zurück.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ermittelt die Anzahl von Zeilen in der Tabelle.
 ```powerquery
 Table.RowCount(

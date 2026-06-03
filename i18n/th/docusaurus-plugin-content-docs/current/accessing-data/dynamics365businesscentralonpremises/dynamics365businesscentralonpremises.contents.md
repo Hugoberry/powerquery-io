@@ -20,6 +20,6 @@ Dynamics365BusinessCentralOnPremises.Contents(
 
 ## Remarks
 
-ส่งกลับตารางพร้อมข้อมูลของ Dynamics 365 Business Central (รุ่นภายในองค์กร) ที่เกี่ยวข้อง 
+ส่งกลับตารางพร้อมข้อมูลของ Dynamics 365 Business Central (รุ่นภายในองค์กร) ที่เกี่ยวข้อง
 
 

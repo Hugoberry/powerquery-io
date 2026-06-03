@@ -20,13 +20,17 @@ Binary.From(
 
 ## Remarks
 
-Verilen <code>value</code> değerinden bir <code>binary</code> değeri döndürür. Verilen <code>value</code> <code>null</code> olduğunda <code>Binary.From</code> <code>null</code> döndürür. Verilen <code>value</code> <code>binary</code> olduğunda <code>value</code> döndürülür. Aşağıdaki türde olan değerler bir <code>binary</code> değerine dönüştürülebilir:      <ul>        <li><code>text</code>: Metin gösteriminden bir <code>binary</code> değeri. Ayrıntılar için bkz. <code>Binary.FromText</code>.</li>      </ul><code>value</code> başka bir türde olduğunda hata döndürülür.
+Verilen `value` değerinden bir `binary` değeri döndürür. Verilen `value` `null` olduğunda `Binary.From` `null` döndürür. Verilen `value` `binary` olduğunda `value` döndürülür. Aşağıdaki türde olan değerler bir `binary` değerine dönüştürülebilir:
+
+-   `text`: Metin gösteriminden bir `binary` değeri. Ayrıntılar için bkz. `Binary.FromText`.
+
+`value` başka bir türde olduğunda hata döndürülür.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;&#34;1011&#34;&lt;/code&gt; öğesinin &lt;code&gt;binary&lt;/code&gt; değerini alır.
+### Example #1
+`"1011"` öğesinin `binary` değerini alır.
 ```powerquery
 Binary.From("1011")
 ```

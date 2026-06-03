@@ -25,7 +25,7 @@ Table.ReplaceKeys(
 
 ## Examples
 
-### Example #1 
+### Example #1
 取代資料表的現有索引鍵。
 ```powerquery
 let

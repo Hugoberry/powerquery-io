@@ -21,13 +21,13 @@ Table.Min(
 
 ## Remarks
 
-<code>comparisonCriteria</code> に基づいて <code>table</code> の最小の行を返します。テーブルが空の場合は、省略可能な <code>default</code> 値を返します。
+`comparisonCriteria` に基づいて `table` の最小の行を返します。テーブルが空の場合は、省略可能な `default` 値を返します。
 
 
 ## Examples
 
-### Example #1 
-テーブルで列 [a] の最小値を含む行を探します。
+### Example #1
+テーブルで列 \[a\] の最小値を含む行を探します。
 ```powerquery
 Table.Min(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-テーブルで列 [a] の最小値を含む行を探します。空の場合は、-1 を返します。
+### Example #2
+テーブルで列 \[a\] の最小値を含む行を探します。空の場合は、-1 を返します。
 ```powerquery
 Table.Min(#table({"a"}, {}), "a", -1)
 ```

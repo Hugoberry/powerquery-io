@@ -19,12 +19,14 @@ Character.FromNumber(
 
 ## Remarks
 
-Sayı ile denk olan karakteri döndürür.<br />    <br />    Sağlanan <code>number</code> 21 bit Unicode kod noktası olması gerekir.
+Sayı ile denk olan karakteri döndürür.  
+  
+Sağlanan `number` 21 bit Unicode kod noktası olması gerekir.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bir sayıyı eşdeğer karakter değerine dönüştürün.
 ```powerquery
 Character.FromNumber(9)
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Bir karakteri sayıya dönüştürün ve tekrar geri dönün.
 ```powerquery
 Character.FromNumber(Character.ToNumber("A"))
@@ -48,8 +50,8 @@ Result:
 ```
 
 
-### Example #3 
-&#34;Sırıtan yüz&#34; ifadesi için onaltılık kod noktasını eşdeğer UTF-16 vekil bileşen çiftine dönüştürün.
+### Example #3
+"Sırıtan yüz" ifadesi için onaltılık kod noktasını eşdeğer UTF-16 vekil bileşen çiftine dönüştürün.
 ```powerquery
 Character.FromNumber(0x1F600)
 ```

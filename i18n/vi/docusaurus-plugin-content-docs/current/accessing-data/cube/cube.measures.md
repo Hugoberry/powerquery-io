@@ -19,7 +19,7 @@ Cube.Measures(
 
 ## Remarks
 
-Trả về một bảng có chứa tập hợp các giá trị đo có sẵn trong <code>cube</code>.    Mỗi giá trị đo được biểu diễn dưới dạng hàm. Bạn có thể áp dụng các giá trị đo cho cube bằng Cube.AddMeasureColumn.
+Trả về một bảng có chứa tập hợp các giá trị đo có sẵn trong `cube`. Mỗi giá trị đo được biểu diễn dưới dạng hàm. Bạn có thể áp dụng các giá trị đo cho cube bằng Cube.AddMeasureColumn.
 
 
 

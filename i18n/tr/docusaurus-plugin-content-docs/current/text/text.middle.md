@@ -21,13 +21,13 @@ Text.Middle(
 
 ## Remarks
 
-<code>count</code> karakter döndürür veya <code>start</code> uzaklığında <code>text</code> bitişine kadar döndürür.
+`count` karakter döndürür veya `start` uzaklığında `text` bitişine kadar döndürür.
 
 
 ## Examples
 
-### Example #1 
-5 karakter içeren 6 dizininden başlayarak &#34;Merhaba Dünya&#34; metninden alt dizeyi bulur.
+### Example #1
+5 karakter içeren 6 dizininden başlayarak "Merhaba Dünya" metninden alt dizeyi bulur.
 ```powerquery
 Text.Middle("Hello World", 6, 5)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-6 dizininden başlayarak bitişe kadar &#34;Merhaba Dünya&#34; metninden alt dizeyi bulur.
+### Example #2
+6 dizininden başlayarak bitişe kadar "Merhaba Dünya" metninden alt dizeyi bulur.
 ```powerquery
 Text.Middle("Hello World", 6, 20)
 ```
@@ -47,6 +47,18 @@ Text.Middle("Hello World", 6, 20)
 Result: 
 ```powerquery
 "World"
+```
+
+
+### Example #3
+"Merhaba Dünya" metninden 0 dizininden başlayan ve 2 karakteri kapsayan alt dizeyi bulun.
+```powerquery
+Text.Middle("Hello World", 0, 2)
+```
+
+Result: 
+```powerquery
+"He"
 ```
 
 

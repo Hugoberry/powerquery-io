@@ -20,13 +20,13 @@ Text.End(
 
 ## Remarks
 
-Возвращает значение <code>text</code>, представляющее собой последние <code>count</code> символов значения <code>text</code> типа <code>text</code>.
+Возвращает значение `text`, представляющее собой последние `count` символов значения `text` типа `text`.
 
 
 ## Examples
 
-### Example #1 
-Получить последние 5 символов строки &#34;Hello, World&#34;.
+### Example #1
+Получить последние 5 символов строки "Hello, World".
 ```powerquery
 Text.End("Hello, World", 5)
 ```

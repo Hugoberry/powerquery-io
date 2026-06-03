@@ -21,12 +21,12 @@ Table.RemoveRows(
 
 ## Remarks
 
-Usuwa <code>count</code> wierszy od początku tabeli <code>table</code>, zaczynając od określonego przesunięcia <code>offset</code>. Jeśli nie zostanie określony parametr <code>count</code>, jest używana domyślna liczba wierszy równa 1. 
+Usuwa `count` wierszy od początku tabeli `table`, zaczynając od określonego przesunięcia `offset`. Jeśli nie zostanie określony parametr `count`, jest używana domyślna liczba wierszy równa 1.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Usuń pierwszy wiersz z tabeli.
 ```powerquery
 Table.RemoveRows(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Usuń wiersz na pozycji 1 z tabeli.
 ```powerquery
 Table.RemoveRows(
@@ -74,7 +74,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Usuń dwa wiersze, zaczynając od pozycji 1, z tabeli.
 ```powerquery
 Table.RemoveRows(

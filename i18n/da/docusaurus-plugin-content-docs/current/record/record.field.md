@@ -20,13 +20,13 @@ Record.Field(
 
 ## Remarks
 
-Returnerer værdien for det angivne felt <code>field</code> i posten <code>record</code>. Hvis feltet ikke blev fundet, udløses der en undtagelse.
+Returnerer værdien for det angivne felt `field` i posten `record`. Hvis feltet ikke findes, udløses der en fejl.
 
 
 ## Examples
 
-### Example #1 
-Find værdien for feltet &#34;CustomerID&#34; i posten.
+### Example #1
+Find værdien for feltet "CustomerID" i posten.
 ```powerquery
 Record.Field([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")
 ```

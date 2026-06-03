@@ -23,12 +23,12 @@ Table.AddIndexColumn(
 
 ## Remarks
 
-Добавляет столбец с именем <code>newColumnName</code> в <code>table</code> с явно указанными значениями позиции.    Необязательное значение <code>initialValue</code>, начальное значение индекса. Необязательное значение <code>increment</code> определяет, на какую величину увеличивается каждое значение индекса.
+Добавляет столбец с именем `newColumnName` в `table` с явно указанными значениями позиции. Необязательное значение `initialValue`, начальное значение индекса. Необязательное значение `increment` определяет, на какую величину увеличивается каждое значение индекса.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Добавление столбца индекса с именем Index в таблицу.
 ```powerquery
 Table.AddIndexColumn(
@@ -53,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Добавление столбца индекса с именем index с начальным значением 10 и шагом 5 в таблицу.
 ```powerquery
 Table.AddIndexColumn(

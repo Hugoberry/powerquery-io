@@ -21,12 +21,12 @@ Marketo.Leads(
 
 ## Remarks
 
-Anropar Marketo REST API-slutpunkten på <code>url</code>/rest/v1/leads.json. Alla leads i listan <code>leadIds</code> returneras.
+Anropar Marketo REST API-slutpunkten på `url`/rest/v1/leads.json. Alla leads i listan `leadIds` returneras.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hämtar information om tre leads
 ```powerquery
 Marketo.Leads("https://100-AAA-999.mktorest.com/rest", {50, 2343, 88498})

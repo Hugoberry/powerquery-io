@@ -19,12 +19,12 @@ Table.ReverseRows(
 
 ## Remarks
 
-Returnerar en tabell med raderna från angivna indata, <code>table</code>, i omvänd ordning.
+Returnerar en tabell med raderna från angivna indata, `table`, i omvänd ordning.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Byt till omvänd ordning för raderna i tabellen.
 ```powerquery
 Table.ReverseRows(

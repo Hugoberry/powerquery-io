@@ -19,7 +19,7 @@ Function.IsDataSource(
 
 ## Remarks
 
-Trả về thông tin <code>function</code> có được coi là nguồn dữ liệu hay không.
+Trả về thông tin `function` có được coi là nguồn dữ liệu hay không.
 
 
 

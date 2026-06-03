@@ -21,13 +21,16 @@ Table.MaxN(
 
 ## Remarks
 
-Retorna as linhas maiores na <code>table</code>, com base na <code>comparisonCriteria</code>.    Depois que as linhas forem classificadas, o parâmetro <code>countOrCondition</code> deverá ser especificado para filtrar ainda mais o resultado. Observe que o algoritmo de classificação não garante um resultado fixo classificado. O parâmetro <code>countOrCondition</code> pode assumir vários formatos:    <ul>        <li> Se um número for especificado, uma lista de até <code>countOrCondition</code> itens em ordem crescente será retornada. </li>        <li> Se uma condição for especificada, uma lista dos itens que atenderem inicialmente à condição será retornada. Quando um item não atender à condição, nenhum outro item será considerado. </li> </ul>
+Retorna as linhas maiores na `table`, com base na `comparisonCriteria`. Depois que as linhas forem classificadas, o parâmetro `countOrCondition` deverá ser especificado para filtrar ainda mais o resultado. Observe que o algoritmo de classificação não garante um resultado fixo classificado. O parâmetro `countOrCondition` pode assumir vários formatos:
+
+-   Se um número for especificado, uma lista de até `countOrCondition` itens em ordem crescente será retornada.
+-   Se uma condição for especificada, uma lista dos itens que atenderem inicialmente à condição será retornada. Quando um item não atender à condição, nenhum outro item será considerado.
 
 
 ## Examples
 
-### Example #1 
-Localizar a linha com o maior valor na coluna [a] com a condição [a] &gt; 0 na tabela. As linhas são classificadas antes que o filtro seja aplicado.
+### Example #1
+Localizar a linha com o maior valor na coluna \[a\] com a condição \[a\] > 0 na tabela. As linhas são classificadas antes que o filtro seja aplicado.
 ```powerquery
 Table.MaxN(
     Table.FromRecords({
@@ -49,8 +52,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Localizar a linha com o maior valor na coluna [a] com a condição [b] &gt; 0 na tabela. As linhas são classificadas antes que o filtro seja aplicado.
+### Example #2
+Localizar a linha com o maior valor na coluna \[a\] com a condição \[b\] > 0 na tabela. As linhas são classificadas antes que o filtro seja aplicado.
 ```powerquery
 Table.MaxN(
     Table.FromRecords({

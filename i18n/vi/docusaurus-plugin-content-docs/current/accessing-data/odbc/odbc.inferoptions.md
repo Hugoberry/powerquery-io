@@ -19,12 +19,12 @@ Odbc.InferOptions(
 
 ## Remarks
 
-Trả về kết quả của thao tác cố suy ra các tính năng của SQL với chuỗi kết nối <code>connectionString</code> sử dụng ODBC. <code>connectionString</code> có thể là văn bản hoặc bản ghi của các cặp giá trị thuộc tính. Giá trị thuộc tính có thể là văn bản hoặc số.
+Trả về kết quả của thao tác cố suy ra các tính năng của SQL với chuỗi kết nối `connectionString` sử dụng ODBC. `connectionString` có thể là văn bản hoặc bản ghi của các cặp giá trị thuộc tính. Giá trị thuộc tính có thể là văn bản hoặc số.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trả về các tính năng SQL được suy ra cho chuỗi kết nối.
 ```powerquery
 Odbc.InferOptions("dsn=your_dsn")

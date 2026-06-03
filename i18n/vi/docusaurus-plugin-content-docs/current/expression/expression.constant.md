@@ -24,7 +24,7 @@ Trả về dạng biểu diễn mã nguồn M của một giá trị không đ�
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tải dạng biểu diễn mã nguồn M của giá trị số.
 ```powerquery
 Expression.Constant(123)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Tải dạng biểu diễn mã nguồn M của giá trị ngày.
 ```powerquery
 Expression.Constant(#date(2035, 01, 02))
@@ -48,7 +48,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Tải dạng biểu diễn mã nguồn M của giá trị văn bản.
 ```powerquery
 Expression.Constant("abc")

@@ -25,7 +25,7 @@ Restituisce una tabella con le righe rimosse dalla tabella di input che contengo
 
 ## Examples
 
-### Example #1 
+### Example #1
 Rimuovere il valore di errore dalla prima riga.
 ```powerquery
 Table.RemoveRowsWithErrors(

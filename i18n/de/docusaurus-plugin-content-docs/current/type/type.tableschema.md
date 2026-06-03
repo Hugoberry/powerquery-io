@@ -19,7 +19,9 @@ Type.TableSchema(
 
 ## Remarks
 
-Gibt eine Tabelle mit einer Beschreibung der Spalten von „<code>tableType</code>“ zurück.<br />Eine Beschreibung der resultierenden Tabelle finden Sie in der Dokumentation zu <code>Table.Schema</code>.<br />
+Gibt eine Tabelle mit einer Beschreibung der Spalten von „`tableType`“ zurück.
+
+Eine Beschreibung der resultierenden Tabelle finden Sie in der Dokumentation zu `Table.Schema`.
 
 
 

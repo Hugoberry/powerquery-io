@@ -5,7 +5,7 @@ title: Uri.Combine
 # Uri.Combine
 
 
-Retourne un URI absolu qui est la combinaison de l&#39;URI de base d&#39;entrée et de l&#39;URI relatif.
+Retourne un URI absolu qui est la combinaison de l'URI de base d'entrée et de l'URI relatif.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Uri.Combine(
 
 ## Remarks
 
-Retourne un URI absolu qui est la combinaison de l'<code>baseUri</code> d'entrée et de <code>relativeUri</code>.
+Retourne un URI absolu qui est la combinaison de l'`baseUri` d'entrée et de `relativeUri`.
 
 
 

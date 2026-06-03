@@ -25,7 +25,7 @@ Converte una tabella in un elenco applicando la funzione di combinazione specifi
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combinare il testo di ogni riga con una virgola.
 ```powerquery
 Table.ToList(

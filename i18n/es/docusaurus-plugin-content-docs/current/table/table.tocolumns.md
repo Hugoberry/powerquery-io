@@ -19,12 +19,12 @@ Table.ToColumns(
 
 ## Remarks
 
-Crea una lista de listas anidadas a partir de la tabla <code>table</code>.  Cada elemento de lista es una lista interna que contiene los valores de columna.
+Crea una lista de listas anidadas a partir de la tabla `table`. Cada elemento de lista es una lista interna que contiene los valores de columna.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Crear una lista de valores de columna a partir de la tabla.
 ```powerquery
 Table.ToColumns(

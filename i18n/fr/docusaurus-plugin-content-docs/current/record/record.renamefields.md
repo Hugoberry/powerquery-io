@@ -5,7 +5,7 @@ title: Record.RenameFields
 # Record.RenameFields
 
 
-Attribue de nouveaux noms à partir d&#39;une liste dans le formulaire \{ old, new }.
+Attribue de nouveaux noms à partir d'une liste dans le formulaire \{ old, new \}.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Record.RenameFields(
 
 ## Remarks
 
-Retourne un enregistrement après avoir renommé les champs dans l'entrée <code>record</code> avec les nouveaux noms des champs spécifiés dans la liste <code>renames</code>. En cas de renommages multiples, une liste imbriquée peut être utilisé (\{ \{old1, new1}, \{old2, new2} }.
+Retourne un enregistrement après avoir renommé les champs dans l’entrée `record` avec les nouveaux noms des champs spécifiés dans la liste `renames`. En cas de renommages multiples, une liste imbriquée peut être utilisé (\{ \{old1, new1\}, \{old2, new2\} \}).
 
 
 ## Examples
 
-### Example #1 
-Renomme le champ de l&#39;enregistrement &#34; UnitPrice &#34; en &#34; Price &#34;.
+### Example #1
+Renomme le champ de l'enregistrement « UnitPrice » en « Price ».
 ```powerquery
 Record.RenameFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", UnitPrice = 100.0],
@@ -41,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-Renomme les champs de l&#39;enregistrement &#34; UnitPrice &#34; en &#34; Price &#34; et &#34; OrderNum &#34; en &#34; OrderID &#34;.
+### Example #2
+Renomme les champs de l'enregistrement « UnitPrice » en « Price » et « OrderNum » en « OrderID ».
 ```powerquery
 Record.RenameFields(
     [OrderNum = 1, CustomerID = 1, Item = "Fishing rod", UnitPrice = 100.0],

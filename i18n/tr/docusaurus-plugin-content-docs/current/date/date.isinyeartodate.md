@@ -19,12 +19,14 @@ Date.IsInYearToDate(
 
 ## Remarks
 
-<code>dateTime</code> verilen datetime değerinin sistemdeki geçerli tarih ve saat tarafından belirlendiği şekilde, geçerli yıl sırasında oluşup oluşmadığını ve geçerli gün içinde veya ondan önce olup olmadığını gösterir.      <ul>      <li><code>dateTime</code>: Değerlendirilecek <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      </ul>
+`dateTime` verilen datetime değerinin sistemdeki geçerli tarih ve saat tarafından belirlendiği şekilde, geçerli yıl sırasında oluşup oluşmadığını ve geçerli gün içinde veya ondan önce olup olmadığını gösterir.
+
+-   `dateTime`: Değerlendirilecek `date`, `datetime` veya `datetimezone` değeri.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Geçerli sistem saatinin yıl başından bugüne kadarki dönem içinde olup olmadığını belirler.
 ```powerquery
 Date.IsInYearToDate(DateTime.FixedLocalNow())

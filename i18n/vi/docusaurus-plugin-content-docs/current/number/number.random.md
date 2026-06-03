@@ -24,7 +24,7 @@ Trả về một số ngẫu nhiên nằm trong khoảng từ 0 đến 1.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Nhận một số ngẫu nhiên.
 ```powerquery
 Number.Random()

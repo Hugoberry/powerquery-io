@@ -20,13 +20,13 @@ Table.ExpandListColumn(
 
 ## Remarks
 
-Verilen <code>table</code> ile (<code>column</code> değer listesidir) listeyi her değer için bir satıra ayırır. Diğer sütunlardaki değerler oluşturulan her yeni satırda çoğaltılır.
+Verilen `table` bir `column`listesi içerdiğinde, liste her değer için bir satıra bölünecek. Diğer sütunlardaki değerler oluşturulan her yeni satırda yineleniyor. Bu işlev, ayrıca iç içe tabloları kayıt listeleri olarak işleyerek genişletebilir.
 
 
 ## Examples
 
-### Example #1 
-Tablodaki [Name] liste sütununu böler.
+### Example #1
+Liste sütununu \[Name\] böl.
 ```powerquery
 Table.ExpandListColumn(
     Table.FromRecords({[Name = {"Bob", "Jim", "Paul"}, Discount = .15]}),
@@ -40,6 +40,29 @@ Table.FromRecords({
     [Name = "Bob", Discount = 0.15],
     [Name = "Jim", Discount = 0.15],
     [Name = "Paul", Discount = 0.15]
+})
+```
+
+
+### Example #2
+İç içe tablo sütununu \[Bileşenler\] olarak bölün.
+```powerquery
+Table.ExpandListColumn(
+    #table(
+        {"Part", "Components"},
+        {
+            {"Tool", #table({"Name", "Quantity"}, {{"Thingamajig", 2}, {"Widget", 3}})}
+        }
+    ),
+    "Components"
+)
+```
+
+Result: 
+```powerquery
+Table.FromRecords({
+    [Part = "Tool", Components = [Name = "Thingamajig", Quantity = 2]],
+    [Part = "Tool", Components = [Name = "Widget", Quantity = 3]]
 })
 ```
 

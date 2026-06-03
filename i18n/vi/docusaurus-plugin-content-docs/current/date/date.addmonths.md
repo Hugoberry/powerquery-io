@@ -20,13 +20,16 @@ Date.AddMonths(
 
 ## Remarks
 
-Trả về kết quả <code>date</code>, <code>datetime</code>, hoặc <code>datetimezone</code> khi thêm <code>numberOfMonths</code> tháng vào giá trị <code>datetime</code> <code>dateTime</code>.      <ul>        <li><code>dateTime</code>: Giá trị <code>date</code>, <code>datetime</code>, hoặc <code>datetimezone</code> đã thêm số tháng vào.</li>        <li><code>numberOfMonths</code>: Số tháng cần thêm.</li>      </ul>
+Trả về kết quả `date`, `datetime`, hoặc `datetimezone` khi thêm `numberOfMonths` tháng vào giá trị `datetime` `dateTime`.
+
+-   `dateTime`: Giá trị `date`, `datetime`, hoặc `datetimezone` đã thêm số tháng vào.
+-   `numberOfMonths`: Số tháng cần thêm.
 
 
 ## Examples
 
-### Example #1 
-Thêm 5 tháng vào giá trị &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; hoặc &lt;code&gt;datetimezone&lt;/code&gt; biểu thị ngày 5/14/2011.
+### Example #1
+Thêm 5 tháng vào giá trị `date`, `datetime` hoặc `datetimezone` biểu thị ngày 5/14/2011.
 ```powerquery
 Date.AddMonths(#date(2011, 5, 14), 5)
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Thêm 18 tháng vào giá trị &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; hoặc &lt;code&gt;datetimezone&lt;/code&gt; biểu thị ngày và giờ là 5/14/2011 08:15:22 SA.
+### Example #2
+Thêm 18 tháng vào giá trị `date`, `datetime` hoặc `datetimezone` biểu thị ngày và giờ là 5/14/2011 08:15:22 SA.
 ```powerquery
 Date.AddMonths(#datetime(2011, 5, 14, 8, 15, 22), 18)
 ```

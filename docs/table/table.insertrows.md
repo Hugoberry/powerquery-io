@@ -21,12 +21,12 @@ Table.InsertRows(
 
 ## Remarks
 
-Returns a table with the list of rows, <code>rows</code>, inserted into the <code>table</code> at the given position, <code>offset</code>. Each column in the row to insert must match the column types of the table.
+Returns a table with the list of rows, `rows`, inserted into the `table` at the given position, `offset`. Each column in the row to insert must match the column types of the table.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Insert the row into the table at position 1.
 ```powerquery
 Table.InsertRows(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Insert two rows into the table at position 1.
 ```powerquery
 Table.InsertRows(

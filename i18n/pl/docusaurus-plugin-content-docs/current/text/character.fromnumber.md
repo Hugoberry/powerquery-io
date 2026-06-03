@@ -19,12 +19,14 @@ Character.FromNumber(
 
 ## Remarks
 
-Zwraca znak odpowiadający liczbie.<br />    <br />    Podany znak <code>number</code> powinien być 21-bitowym punktem kodu Unicode.
+Zwraca znak odpowiadający liczbie.  
+  
+Podany znak `number` powinien być 21-bitowym punktem kodu Unicode.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Konwertuj liczbę na odpowiadającą jej wartość znaku.
 ```powerquery
 Character.FromNumber(9)
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Konwertuj znak na liczbę i na odwrót.
 ```powerquery
 Character.FromNumber(Character.ToNumber("A"))
@@ -48,7 +50,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Konwertuj szesnastkowy punkt kodu emotikonu „szeroko uśmiechniętej twarzy” na równoważną parę dwuskładnikową UTF-16.
 ```powerquery
 Character.FromNumber(0x1F600)

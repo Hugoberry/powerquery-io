@@ -19,12 +19,12 @@ Date.StartOfYear(
 
 ## Remarks
 
-<code>dateTime</code> を含む年の最初の日付を返します。    <code>dateTime</code> は、<code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値である必要があります。
+`dateTime` を含む年の最初の日付を返します。 `dateTime` は、`date`、`datetime`、または `datetimezone` 値である必要があります。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 2011 年 10 月 10 日午前 8 時 10 分 32 秒の年の始まりを調べます。
 ```powerquery
 Date.StartOfYear(#datetime(2011, 10, 10, 8, 10, 32))

@@ -21,13 +21,13 @@ Int32.From(
 
 ## Remarks
 
-Returnerer et 32-bit heltalsværdi <code>number</code> fra den angivne <code>value</code>. Hvis den angivne <code>value</code> er <code>null</code>, returnerer <code>Int32.From</code> <code>null</code>.  Hvis den angivne <code>value</code> er <code>number</code> inden for intervallet 32-bit heltal uden en brøkdel, returneres <code>value</code>. Hvis det har en brøkdel, afrundes tallet med den angivne afrundingstilstand. Standardafrundingstilstanden er <code>RoundingMode.ToEven</code>. Hvis <code>value</code> er af en anden type, konverteres den først til en <code>number</code> ved hjælp af <code>Number.FromText</code>. Se <code>Number.Round</code> for de tilgængelige afrundingstilstande. Der kan også angives en valgfri <code>culture</code> (f.eks. "en-US").
+Returnerer et 32-bit heltalsværdi `number` fra den angivne `value`. Hvis den angivne `value` er `null`, returnerer `Int32.From` `null`. Hvis den angivne `value` er `number` inden for intervallet 32-bit heltal uden en brøkdel, returneres `value`. Hvis det har en brøkdel, afrundes tallet med den angivne afrundingstilstand. Standardafrundingstilstanden er `RoundingMode.ToEven`. Hvis `value` er af en anden type, konverteres den først til en `number` ved hjælp af `Number.FromText`. Se `Number.Round` for de tilgængelige afrundingstilstande. Der kan også angives en valgfri `culture` (f.eks. "en-US").
 
 
 ## Examples
 
-### Example #1 
-Få 32-bit heltalsværdien af typen &lt;code&gt;number&lt;/code&gt; for &lt;code&gt;&#34;4&#34;&lt;/code&gt;.
+### Example #1
+Få 32-bit heltalsværdien af typen `number` for `"4"`.
 ```powerquery
 Int32.From("4")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Få 32-bit heltalsværdien af typen &lt;code&gt;number&lt;/code&gt; for &lt;code&gt;&#34;4.5&#34;&lt;/code&gt; ved hjælp af &lt;code&gt;RoundingMode.AwayFromZero&lt;/code&gt;.
+### Example #2
+Få 32-bit heltalsværdien af typen `number` for `"4.5"` ved hjælp af `RoundingMode.AwayFromZero`.
 ```powerquery
 Int32.From("4.5", null, RoundingMode.AwayFromZero)
 ```

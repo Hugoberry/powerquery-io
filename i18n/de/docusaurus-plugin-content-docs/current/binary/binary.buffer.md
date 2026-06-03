@@ -24,7 +24,7 @@ Puffert den Binärwert im Arbeitsspeicher. Das Ergebnis dieses Aufrufs ist ein s
 
 ## Examples
 
-### Example #1 
+### Example #1
 Erstellen Sie eine stabile Version des binären Werts.
 ```powerquery
 Binary.Buffer(Binary.FromList({0..10}))

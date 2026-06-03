@@ -27,7 +27,7 @@ Efetua uma chamada ao ponto final do relatório do Webtrends indicado e devolve 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Efetua uma chamada ao ponto final do relatório dos visitantes do Webtrends para os dados dos últimos 30 dias
 ```powerquery
 Webtrends.ReportContents("98765", "xPcmTDDP0P6")

@@ -20,13 +20,13 @@ Text.Combine(
 
 ## Remarks
 
-Devolve o resultado da combinação da lista de valores de texto, <code>texts</code>, num único valor de texto. Quaisquer valores <code>nulos</code> presentes no <code>texts</code> são ignorados.    É possível especificar uma <code>separator</code> opcional utilizada no texto combinado final.
+Devolve o resultado da combinação da lista de valores de texto, `texts`, num único valor de texto. Quaisquer valores `nulos` presentes no `texts` são ignorados. É possível especificar uma `separator` opcional utilizada no texto combinado final.
 
 
 ## Examples
 
-### Example #1 
-Combinar os valores de texto &#34;Seattle&#34; e &#34;WA&#34;.
+### Example #1
+Combinar os valores de texto "Seattle" e "WA".
 ```powerquery
 Text.Combine({"Seattle", "WA"})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Combinar os valores de texto &#34;Seattle&#34; e &#34;WA&#34; separados por uma vírgula e um espaço.
+### Example #2
+Combinar os valores de texto "Seattle" e "WA" separados por uma vírgula e um espaço.
 ```powerquery
 Text.Combine({"Seattle", "WA"}, ", ")
 ```
@@ -49,8 +49,8 @@ Result:
 ```
 
 
-### Example #3 
-Combine os valores &#34;Seattle&#34;, &lt;code&gt;nulos&lt;/code&gt; e &#34;WA&#34;, separados por uma vírgula e um espaço. (Tenha em atenção que o &lt;code&gt;nulo&lt;/code&gt; é ignorado.)
+### Example #3
+Combine os valores "Seattle", `nulos` e "WA", separados por uma vírgula e um espaço. (Tenha em atenção que o `nulo` é ignorado.)
 ```powerquery
 Text.Combine({"Seattle", null, "WA"}, ", ")
 ```
@@ -58,6 +58,30 @@ Text.Combine({"Seattle", null, "WA"}, ", ")
 Result: 
 ```powerquery
 "Seattle, WA"
+```
+
+
+### Example #4
+Combine o nome próprio, a inicial do meio (se houver) e o apelido no nome completo do indivíduo.
+```powerquery
+let
+    Source = Table.FromRecords({
+        [First Name = "Doug", Middle Initial = "J", Last Name = "Elis"],
+        [First Name = "Anna", Middle Initial = "M", Last Name = "Jorayew"],
+        [First Name = "Rada", Middle Initial = null, Last Name = "Mihaylova"]
+    }),
+    FullName = Table.AddColumn(Source, "Full Name", each Text.Combine({[First Name], [Middle Initial], [Last Name]}, " "))
+in
+    FullName
+```
+
+Result: 
+```powerquery
+Table.FromRecords({
+    [First Name = "Doug", Middle Initial = "J", Last Name = "Elis", Full Name = "Doug J Elis"],
+    [First Name = "Anna", Middle Initial = "M", Last Name = "Jorayew", Full Name = "Anna M Jorayew"],
+    [First Name = "Rada", Middle Initial = null, Last Name = "Mihaylova", Full Name = "Rada Mihaylova"]
+})
 ```
 
 

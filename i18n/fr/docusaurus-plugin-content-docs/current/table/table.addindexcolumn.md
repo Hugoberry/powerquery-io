@@ -23,13 +23,13 @@ Table.AddIndexColumn(
 
 ## Remarks
 
-Ajoute une colonne nommée <code>newColumnName</code> à <code>table</code> avec des valeurs de position explicites.    Valeur facultative, <code>initialValue</code>, valeur d'index initiale. La valeur facultative, <code>increment</code>, spécifie l'incrément de chaque valeur d'index.
+Ajoute une colonne nommée `newColumnName` à `table` avec des valeurs de position explicites. Valeur facultative, `initialValue`, valeur d'index initiale. La valeur facultative, `increment`, spécifie l'incrément de chaque valeur d'index.
 
 
 ## Examples
 
-### Example #1 
-Ajoute une colonne d&#39;index nommée &#34; Index &#34; à la table.
+### Example #1
+Ajoute une colonne d'index nommée « Index » à la table.
 ```powerquery
 Table.AddIndexColumn(
     Table.FromRecords({
@@ -53,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Ajoute une colonne d&#39;index nommée &#34; Index &#34; à la table, en commençant à la valeur 10 et en incrémentant par 5.
+### Example #2
+Ajoute une colonne d'index nommée « Index » à la table, en commençant à la valeur 10 et en incrémentant par 5.
 ```powerquery
 Table.AddIndexColumn(
     Table.FromRecords({

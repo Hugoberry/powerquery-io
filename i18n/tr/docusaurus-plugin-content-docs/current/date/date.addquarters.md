@@ -20,13 +20,16 @@ Date.AddQuarters(
 
 ## Remarks
 
-<code>numberOfQuarters</code> çeyreği <code>datetime</code> değeri olan <code>dateTime</code> öğesine eklemeden <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> sonucunu döndürür.      <ul>      <li><code>dateTime</code>: Çeyreklerin eklendiği <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      <li><code>numberOfQuarters</code>: Eklenecek çeyrek sayısı.</li>      </ul>
+`numberOfQuarters` çeyreği `datetime` değeri olan `dateTime` öğesine eklemeden `date`, `datetime` veya `datetimezone` sonucunu döndürür.
+
+-   `dateTime`: Çeyreklerin eklendiği `date`, `datetime` veya `datetimezone` değeri.
+-   `numberOfQuarters`: Eklenecek çeyrek sayısı.
 
 
 ## Examples
 
-### Example #1 
-14/05/2011 tarihini temsil eden &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; veya &lt;code&gt;datetimezone&lt;/code&gt; değerine 1 çeyrek ekler.
+### Example #1
+14/05/2011 tarihini temsil eden `date`, `datetime` veya `datetimezone` değerine 1 çeyrek ekler.
 ```powerquery
 Date.AddQuarters(#date(2011, 5, 14), 1)
 ```

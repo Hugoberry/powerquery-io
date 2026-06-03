@@ -20,13 +20,13 @@ List.Repeat(
 
 ## Remarks
 
-返回作为原始列表 <code>list</code> 的 <code>count</code>次重复的列表。
+返回作为原始列表 `list` 的 `count`次重复的列表。
 
 
 ## Examples
 
-### Example #1 
-创建将 \{1, 2} 重复 3 次得到的列表。
+### Example #1
+创建将 \{1, 2\} 重复 3 次得到的列表。
 ```powerquery
 List.Repeat({1, 2}, 3)
 ```

@@ -21,13 +21,25 @@ Text.StartsWith(
 
 ## Remarks
 
-Returnerer sand, hvis tekstværdien <code>text</code> starter med tekstværdien <code>substring</code>.      <ul>        <li><code>text</code>: <i></i> En værdi af typen <code>text</code>, der skal søges i</li>        <li><code>substring</code>: <i></i> En værdi af typen <code>text</code>, som er den understreng, der søges efter i <code>substring</code></li>        <li><code>comparer</code>: <i>[Valgfrit]</i> En kode af typen <code>Comparer</code> bruges til at styre sammenligningen. <code>Comparer.OrdinalIgnoreCase</code> kan for eksempel bruges til at udføre søgninger, hvor der ikke skelnes mellem store og små bogstaver</li>      </ul>      <div>        <code>comparer</code> er en kode af typen <code>Comparer</code>, dvs. en sammenligningsfunktion, som bruges til at styre sammenligningen. Sammenligningsfunktioner kan bruges til at udføre sammenligninger, hvor der ikke skelnes mellem store og små bogstaver, eller udføre kulturelle- og landemæssige sammenligninger.      </div>      <div>        Følgende indbyggede sammenligningsfunktioner er tilgængelige på formelsproget:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: Bruges til at udføre en nøjagtig sammenligning af ordenstal</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: Bruges til at udføre en nøjagtig sammenligning af ordenstal, hvor der ikke skelnes mellem store og små bogstaver</li>        <li> <code>Comparer.FromCulture</code>: Bruges til at udføre en kulturel sammenligning</li>      </ul>
+Returns true if text value `text` starts with text value `substring`.
+
+-   `text`: A `text` value which is to be searched.
+-   `substring`: A `text` value which is the substring to be searched for in `text`.
+-   `comparer`: *(Optional)* A `Comparer` used for controlling the comparison. For example, `Comparer.OrdinalIgnoreCase` may be used to perform case-insensitive searches.
+
+`comparer` is a `Comparer` which is used to control the comparison. Comparers can be used to provide case-insensitive or culture and locale-aware comparisons.
+
+The following built-in comparers are available in the formula language:
+
+-   `Comparer.Ordinal`: Used to perform an exact ordinal comparison.
+-   `Comparer.OrdinalIgnoreCase`: Used to perform an exact ordinal case-insensitive comparison.
+-   `Comparer.FromCulture`: Used to perform a culture-aware comparison.
 
 
 ## Examples
 
-### Example #1 
-Kontrollér, om teksten &#34;Hello, World&#34; starter med teksten &#34;hello&#34;.
+### Example #1
+Kontrollér, om teksten "Hello, World" starter med teksten "hello".
 ```powerquery
 Text.StartsWith("Hello, World", "hello")
 ```
@@ -38,10 +50,22 @@ false
 ```
 
 
-### Example #2 
-Kontrollér, om teksten &#34;Hello, World&#34; starter med teksten &#34;Hello&#34;.
+### Example #2
+Kontrollér, om teksten "Hello, World" starter med teksten "Hello".
 ```powerquery
 Text.StartsWith("Hello, World", "Hello")
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+### Example #3
+Hvis du ignorerer store og små bogstaver, skal du kontrollere, om teksten "Hello, World" starter med teksten "hello".
+```powerquery
+Text.StartsWith("Hello, World", "hello", Comparer.OrdinalIgnoreCase)
 ```
 
 Result: 

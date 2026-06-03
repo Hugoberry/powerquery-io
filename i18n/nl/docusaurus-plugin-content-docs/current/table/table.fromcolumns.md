@@ -20,12 +20,12 @@ Table.FromColumns(
 
 ## Remarks
 
-Hiermee wordt een tabel gemaakt van het type <code>columns</code> van een lijst <code>lists</code> die geneste lijsten met de kolomnamen en -waarden bevat. Als in bepaalde kolommen meer waarden staan dan in andere kolommen, worden de ontbrekende waarden ingevuld met de standaardwaarde null als in die kolommen de waarde null kan worden ingevoerd.
+Hiermee wordt een tabel gemaakt van het type `columns` van een lijst `lists` die geneste lijsten met de kolomnamen en -waarden bevat. Als in bepaalde kolommen meer waarden staan dan in andere kolommen, worden de ontbrekende waarden ingevuld met de standaardwaarde null als in die kolommen de waarde null kan worden ingevoerd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een tabel retourneren uit een lijst met klantnamen in een lijst. Elke waarde in het klantenlijstitem wordt een rijwaarde en elke lijst wordt een kolom.
 ```powerquery
 Table.FromColumns({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Een tabel van een opgegeven lijst kolommen en een lijst kolomnamen maken.
 ```powerquery
 Table.FromColumns(
@@ -68,7 +68,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Een tabel maken met een verschillend aantal kolommen per rij. De waarde van de ontbrekende rij is null.
 ```powerquery
 Table.FromColumns(

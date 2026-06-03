@@ -22,13 +22,17 @@ List.MinN(
 
 ## Remarks
 
-Returnerar de minsta värdena i listan: <code>list</code>.    Parametern, <code>countOrCondition</code>, anger antalet värden som ska returneras eller ett filtreringsvillkor. Den valfria parametern, <code>comparisonCriteria</code>, anger hur värdena i listan ska jämföras. <ul>        <li> <code>list</code>: Listan med värden.</li>        <li> <code>countOrCondition</code>: Om ett tal anges returneras en lista med upp till <code>countOrCondition</code> objekt i stigande ordning. Om ett villkor anges returneras en lista med objekt som inledningsvis uppfyller villkoret. Om ett objekt inte uppfyller villkoret utvärderas inga fler objekt. Om den här parametern är null returneras det enskilt minsta värdet i listan.</li><li><code>comparisonCriteria</code>: <i>[Valfritt]</i> Ett valfritt <code>comparisonCriteria</code>-värde kan anges för att fastställa hur objekten i listan ska jämföras. Om den här parametern är null används standardjämförelsefunktionen.  </li></ul>
+Returnerar de minsta värdena i listan: `list`. Parametern, `countOrCondition`, anger antalet värden som ska returneras eller ett filtreringsvillkor. Den valfria parametern, `comparisonCriteria`, anger hur värdena i listan ska jämföras.
+
+-   `list`: Listan med värden.
+-   `countOrCondition`: Om ett tal anges returneras en lista med upp till `countOrCondition` objekt i stigande ordning. Om ett villkor anges returneras en lista med objekt som inledningsvis uppfyller villkoret. Om ett objekt inte uppfyller villkoret utvärderas inga fler objekt. Om den här parametern är null returneras det enskilt minsta värdet i listan.
+-   `comparisonCriteria`: *\[Valfritt\]* Ett valfritt `comparisonCriteria`\-värde kan anges för att fastställa hur objekten i listan ska jämföras. Om den här parametern är null används standardjämförelsefunktionen.
 
 
 ## Examples
 
-### Example #1 
-Hitta de 5 minsta värdena i listan &lt;code&gt;\{3, 4, 5, -1, 7, 8, 2}&lt;/code&gt;.
+### Example #1
+Hitta de 5 minsta värdena i listan `{3, 4, 5, -1, 7, 8, 2}`.
 ```powerquery
 List.MinN({3, 4, 5, -1, 7, 8, 2}, 5)
 ```

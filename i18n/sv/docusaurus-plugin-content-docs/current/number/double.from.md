@@ -20,13 +20,13 @@ Double.From(
 
 ## Remarks
 
-Returnerar ett Double <code>number</code>-värde från det givna <code>value</code>. Om det givna <code>value</code> är <code>null</code> returnerar <code>Double.From</code> <code>null</code>.  Om det givna <code>value</code> är <code>number</code> inom intervallet för Double, returneras <code>value</code>. I annat fall returneras ett fel. Om <code>value</code> konverteras den först till en <code>number</code> med <code>Number.FromText</code>. En valfri <code>culture</code> kan även anges (till exempel, "en-US").
+Returnerar ett Double `number`\-värde från det givna `value`. Om det givna `value` är `null` returnerar `Double.From` `null`. Om det givna `value` är `number` inom intervallet för Double, returneras `value`. I annat fall returneras ett fel. Om `value` konverteras den först till en `number` med `Number.FromText`. En valfri `culture` kan även anges (till exempel, "en-US").
 
 
 ## Examples
 
-### Example #1 
-Hämta Double &lt;code&gt;number&lt;/code&gt;-värdet för &lt;code&gt;&#34;4&#34;&lt;/code&gt;.
+### Example #1
+Hämta Double `number`\-värdet för `"4"`.
 ```powerquery
 Double.From("4.5")
 ```

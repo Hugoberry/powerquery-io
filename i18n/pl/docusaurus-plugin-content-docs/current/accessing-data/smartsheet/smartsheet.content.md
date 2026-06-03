@@ -24,7 +24,7 @@ Tworzy wywołanie interfejsu API REST narzędzia Smartsheet 2.0 w określonym pu
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ściąga tabelę z informacjami o użytkownikach z interfejsu API narzędzia Smartsheet
 ```powerquery
 Smartsheet.Content("użytkownicy")

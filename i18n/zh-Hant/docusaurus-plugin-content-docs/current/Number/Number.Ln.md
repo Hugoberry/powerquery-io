@@ -19,12 +19,12 @@ Number.Ln(
 
 ## Remarks
 
-傳回數字 <code>number</code> 的自然對數。如果 <code>number</code> 為 Null，<code>Number.Ln</code> 會傳回 Null。
+傳回數字 `number` 的自然對數。如果 `number` 為 Null，`Number.Ln` 會傳回 Null。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 取得 15 的自然對數。
 ```powerquery
 Number.Ln(15)

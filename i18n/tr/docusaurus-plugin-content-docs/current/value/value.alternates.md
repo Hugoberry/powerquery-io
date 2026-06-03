@@ -19,7 +19,7 @@ Value.Alternates(
 
 ## Remarks
 
-Value.Expression(Value.Optimize(...)) aracılığıyla edinilen bir sorgu planı ifadesi içindeki alternatif sorgu planlarını ifade eder. Diğer kullanımlar için tasarlanmamıştır.
+`Value.Expression(Value.Optimize(...))` aracılığıyla edinilen bir sorgu planı ifadesi içindeki alternatif sorgu planlarını ifade eder. Diğer kullanımlar için tasarlanmamıştır.
 
 
 

@@ -19,12 +19,12 @@ DateTime.Time(
 
 ## Remarks
 
-दिए गए datetime मान, <code>dateTime</code> का समय भाग लौटाता है.
+दिए गए datetime मान, `dateTime` का समय भाग लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 #datetime(2010, 12, 31, 11, 56, 02) का समय मान प्राप्त करें.
 ```powerquery
 DateTime.Time(#datetime(2010, 12, 31, 11, 56, 02))

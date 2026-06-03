@@ -19,12 +19,14 @@ Date.IsInCurrentMonth(
 
 ## Remarks
 
-Anger om det angivna datetime-värdet <code>dateTime</code> infaller under den aktuella månaden, baserat på systemets aktuella datum och tid.      <ul>      <li><code>dateTime</code>: Ett <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde som ska utvärderas.</li>      </ul>
+Anger om det angivna datetime-värdet `dateTime` infaller under den aktuella månaden, baserat på systemets aktuella datum och tid.
+
+-   `dateTime`: Ett `date`\-, `datetime`\- eller `datetimezone`\-värde som ska utvärderas.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kontrollera om den aktuella systemtiden infaller under den aktuella månaden.
 ```powerquery
 Date.IsInCurrentMonth(DateTime.FixedLocalNow())

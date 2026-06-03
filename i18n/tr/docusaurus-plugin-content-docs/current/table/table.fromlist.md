@@ -23,12 +23,12 @@ Table.FromList(
 
 ## Remarks
 
-<code>list</code> listesini <code>splitter</code> isteğe bağlı ayırma işlevini listedeki her öğeye uygulayarak bir tabloya dönüştürür. Varsayılan olarak, listenin virgülle ayrılmış metin değerleri listesi olduğu varsayılır. İsteğe bağlı <code>columns</code> sütun sayısı, sütun listesi veya bir TableType olabilir. İsteğe bağlı <code>default</code> ve <code>extraValues</code> belirtilebilir.
+`list` listesini `splitter` isteğe bağlı ayırma işlevini listedeki her öğeye uygulayarak bir tabloya dönüştürür. Varsayılan olarak, listenin virgülle ayrılmış metin değerleri listesi olduğu varsayılır. İsteğe bağlı `columns` sütun sayısı, sütun listesi veya bir TableType olabilir. İsteğe bağlı `default` ve `extraValues` belirtilebilir.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Varsayılan ayırıcıyı kullanarak listeden bir tablo oluşturun.
 ```powerquery
 Table.FromList(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Özel bir ayırıcı kullanarak listeden bir tablo oluşturun.
 ```powerquery
 Table.FromList(
@@ -70,7 +70,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Record.FieldValues ayırıcısını kullanarak listeden bir tablo oluşturun.
 ```powerquery
 Table.FromList(

@@ -21,13 +21,13 @@ Text.PositionOfAny(
 
 ## Remarks
 
-ส่งกลับตำแหน่งแรกของอักขระใดๆ ในรายการ <code>characters</code> ที่พบใน<code>text</code>.    พารามิเตอร์ที่เลือกได้ <code>occurrence</code> อาจถูกใช้เพื่อระบุตำแหน่งเหตุการณ์ที่จะส่งกลับ
+ส่งกลับตำแหน่งแรกของอักขระใดๆ ในรายการ `characters` ที่พบใน`text`. พารามิเตอร์ที่เลือกได้ `occurrence` อาจถูกใช้เพื่อระบุตำแหน่งเหตุการณ์ที่จะส่งกลับ
 
 
 ## Examples
 
-### Example #1 
-ค้นหาตำแหน่งแรกของ &#34;W&#34; หรือ &#34;H&#34; ในข้อความ &#34;Hello, World!&#34;
+### Example #1
+ค้นหาตำแหน่งแรกของ "W" หรือ "H" ในข้อความ "Hello, World!"
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"})
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-ค้นหาตําแหน่งทั้งหมดของ &#34;W&#34; หรือ &#34;H&#34; ในข้อความ &#34;Hello, World!&#34;
+### Example #2
+ค้นหาตําแหน่งทั้งหมดของ "W" หรือ "H" ในข้อความ "Hello, World!"
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"}, Occurrence.All)
 ```

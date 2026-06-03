@@ -24,7 +24,7 @@ Zwraca reprezentację kodu źródłowego M wartości stałej.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Uzyskaj reprezentację kodu źródłowego M wartości liczbowej.
 ```powerquery
 Expression.Constant(123)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Uzyskaj reprezentację kodu źródłowego M wartości daty.
 ```powerquery
 Expression.Constant(#date(2035, 01, 02))
@@ -48,7 +48,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Uzyskaj reprezentację kodu źródłowego M wartości tekstowej.
 ```powerquery
 Expression.Constant("abc")

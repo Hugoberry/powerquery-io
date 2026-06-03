@@ -20,18 +20,25 @@ Type.ReplaceTableKeys(
 
 ## Remarks
 
-Devuelve un nuevo tipo de tabla con todas las claves reemplazadas por la lista especificada de claves.<br />    <br />    Cada clave se define mediante un registro de la siguiente forma:    <ul>      <li>        <code>Columnas</code>: una lista de los nombres de columna que definen la clave      </li>      <li>        <code>Principal</code>: <code>true</code> si la clave es la clave principal de la tabla; de lo contrario, <code>false</code>      </li>    </ul>    La lista especificada de claves se valida para garantizar que no se defina más de una clave principal y que todos los nombres de columna de clave existan en el tipo de tabla.    
+Devuelve un nuevo tipo de tabla con todas las claves reemplazadas por la lista especificada de claves.  
+  
+Cada clave se define mediante un registro de la siguiente forma:
+
+-   `Columnas`: una lista de los nombres de columna que definen la clave
+-   `Principal`: `true` si la clave es la clave principal de la tabla; de lo contrario, `false`
+
+La lista especificada de claves se valida para garantizar que no se defina más de una clave principal y que todos los nombres de columna de clave existan en el tipo de tabla.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Reemplace la información de clave en un tipo de tabla.
 ```powerquery
 let
     BaseType = type table [ID = number, FirstName = text, LastName = text],
     KeysAdded = Type.ReplaceTableKeys(
-        BaseType, 
+        BaseType,
         {
             [Columns = {"ID"}, Primary = true],
             [Columns = {"FirstName", "LastName"}, Primary = false]
@@ -51,7 +58,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Borra la información de clave definida previamente en un tipo de tabla.
 ```powerquery
 let

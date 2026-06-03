@@ -19,12 +19,12 @@ Record.Combine(
 
 ## Remarks
 
-รวมระเบียนใน <code>records</code> ที่กำหนด ถ้า <code>records</code> มีค่าที่ไม่ใช่ระเบียน ระบบจะส่งกลับข้อผิดพลาด
+รวมระเบียนใน `records` ที่กำหนด ถ้า `records` มีค่าที่ไม่ใช่ระเบียน ระบบจะส่งกลับข้อผิดพลาด
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 สร้างระเบียนรวมจากระเบียน
 ```powerquery
 Record.Combine({

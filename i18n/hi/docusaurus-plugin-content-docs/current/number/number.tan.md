@@ -19,12 +19,12 @@ Number.Tan(
 
 ## Remarks
 
-<code>number</code> की स्पर्श रेखा लौटाता है.
+`number` की स्पर्श रेखा लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 1 कोण की स्पर्श रेखा प्राप्त करें.
 ```powerquery
 Number.Tan(1)

@@ -21,12 +21,12 @@ Table.Contains(
 
 ## Remarks
 
-Angiver, om den angivne post <code>row</code> vises som en række i tabellen <code>table</code>.    Der kan angives en valgfri parameter <code>equationCriteria</code> for at styre sammenligningen mellem rækkerne i tabellen.
+Angiver, om den angivne post `row` vises som en række i tabellen `table`. Der kan angives en valgfri parameter `equationCriteria` for at styre sammenligningen mellem rækkerne i tabellen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find ud af, om tabellen indeholder rækken.
 ```powerquery
 Table.Contains(
@@ -46,7 +46,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Find ud af, om tabellen indeholder rækken.
 ```powerquery
 Table.Contains(
@@ -66,8 +66,8 @@ false
 ```
 
 
-### Example #3 
-Find ud af, om tabellen indeholder rækken ved kun at sammenligne kolonnen [Name].
+### Example #3
+Find ud af, om tabellen indeholder rækken ved kun at sammenligne kolonnen \[Name\].
 ```powerquery
 Table.Contains(
     Table.FromRecords({

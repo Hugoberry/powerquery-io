@@ -20,12 +20,12 @@ Table.ColumnsOfType(
 
 ## Remarks
 
-Возвращает список с именами столбцов таблицы <code>table</code>, соответствующих указанным в <code>listOfTypes</code> типам.
+Возвращает список с именами столбцов таблицы `table`, соответствующих указанным в `listOfTypes` типам.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Возврат имен столбцов типа Number.Type из таблицы.
 ```powerquery
 Table.ColumnsOfType(

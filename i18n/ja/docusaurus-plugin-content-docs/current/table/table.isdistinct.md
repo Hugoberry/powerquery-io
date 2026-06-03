@@ -20,12 +20,12 @@ Table.IsDistinct(
 
 ## Remarks
 
-<code>table</code> に一意の行のみが含まれている (重複が含まれていない) かどうかを示します。行が一意の場合は <code>true</code>、それ以外の場合は <code>false</code> を返します。    省略可能なパラメーター <code>comparisonCriteria</code> には、重複をテストするテーブルの列を指定します。<code>comparisonCriteria</code> を指定しなかった場合は、すべての列をテストします。
+`table` に一意の行のみが含まれている (重複が含まれていない) かどうかを示します。行が一意の場合は `true`、それ以外の場合は `false` を返します。 省略可能なパラメーター `comparisonCriteria` には、重複をテストするテーブルの列を指定します。`comparisonCriteria` を指定しなかった場合は、すべての列をテストします。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブルが一意かどうかを調べます。
 ```powerquery
 Table.IsDistinct(
@@ -44,7 +44,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 テーブルが一意かどうかを列で調べます。
 ```powerquery
 Table.IsDistinct(

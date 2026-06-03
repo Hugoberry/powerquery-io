@@ -25,7 +25,7 @@ Combiner.CombineTextByEachDelimiter(
 
 ## Examples
 
-### Example #1 
+### Example #1
 使用一連串分隔符號結合文字值清單。
 ```powerquery
 Combiner.CombineTextByEachDelimiter({"=", "+"})({"a", "b", "c"})

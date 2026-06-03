@@ -20,7 +20,7 @@ Table.FirstValue(
 
 ## Remarks
 
-Devuelve la primera columna de la primera fila de la tabla <code>table</code> o un valor predeterminado especificado.
+Devuelve la primera columna de la primera fila de la tabla `table` o un valor predeterminado especificado.
 
 
 

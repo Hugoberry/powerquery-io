@@ -19,13 +19,13 @@ Type.NonNullable(
 
 ## Remarks
 
-<code>type</code> kaynağından <code>nullable</code> olmayan türü döndürür.
+`type` kaynağından `nullable` olmayan türü döndürür.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;type nullable number&lt;/code&gt; için boş değer atanabilir olmayan türü döndürür.
+### Example #1
+`type nullable number` için boş değer atanabilir olmayan türü döndürür.
 ```powerquery
 Type.NonNullable(type nullable number)
 ```

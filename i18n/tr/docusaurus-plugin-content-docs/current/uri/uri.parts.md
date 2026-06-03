@@ -5,7 +5,7 @@ title: Uri.Parts
 # Uri.Parts
 
 
-Girdi tam URI&#39;sinin bölümlerini kayıt olarak döndürür.
+Girdi tam URI'sinin bölümlerini kayıt olarak döndürür.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Uri.Parts(
 
 ## Remarks
 
-<code>absoluteUri</code> girdisinin bölümlerini Scheme, Host, Port, Path, Query, Fragment, UserName ve Password gibi değerler içeren bir kayıt olarak döndürür.
+`absoluteUri` girdisinin bölümlerini Scheme, Host, Port, Path, Query, Fragment, UserName ve Password gibi değerler içeren bir kayıt olarak döndürür.
 
 
 ## Examples
 
-### Example #1 
-&#34;www.adventure-works.com&#34; tam URI&#39;sinin bölümlerini bulur.
+### Example #1
+"www.adventure-works.com" tam URI'sinin bölümlerini bulur.
 ```powerquery
 Uri.Parts("www.adventure-works.com")
 ```
@@ -45,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Yüzde olarak kodlanmış bir dizeyi çözün.
 ```powerquery
 let

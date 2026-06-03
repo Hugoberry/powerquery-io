@@ -21,13 +21,13 @@ Text.Range(
 
 ## Remarks
 
-傳回在位移 <code>offset</code> 處從文字 <code>text</code> 找到的子字串。    可包含選擇性參數 <code>count</code> 以指定要傳回的字元數。若沒有足夠的字元，則會擲回錯誤。
+傳回在位移 `offset` 處從文字 `text` 找到的子字串。 可包含選用參數 `count` 以指定要傳回的字元數。如果沒有足夠的字元，則引發錯誤。
 
 
 ## Examples
 
-### Example #1 
-從索引 6 開始，尋找文字 &#34;Hello World&#34; 中的子字串。
+### Example #1
+從索引 6 開始，尋找文字 "Hello World" 中的子字串。
 ```powerquery
 Text.Range("Hello World", 6)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-從索引 6 開始橫跨 5 個字元，尋找文字 &#34;Hello World Hello&#34; 中的子字串。
+### Example #2
+從索引 6 開始橫跨 5 個字元，尋找文字 "Hello World Hello" 中的子字串。
 ```powerquery
 Text.Range("Hello World Hello", 6, 5)
 ```

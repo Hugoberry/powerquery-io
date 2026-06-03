@@ -24,7 +24,7 @@ Retourne un tableau avec des données MailChimp clés.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Retourne un tableau avec des données MailChimp clés.
 ```powerquery
 MailChimp.Tables()

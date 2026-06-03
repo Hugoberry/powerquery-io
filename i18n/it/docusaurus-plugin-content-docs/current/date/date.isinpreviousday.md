@@ -5,7 +5,7 @@ title: Date.IsInPreviousDay
 # Date.IsInPreviousDay
 
 
-Indica se il valore date rientra nel giorno precedente, come determinato dalla data e dall&#39;ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nel giorno corrente.
+Indica se il valore date rientra nel giorno precedente, come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nel giorno corrente.
 
 
 ## Syntax
@@ -19,13 +19,15 @@ Date.IsInPreviousDay(
 
 ## Remarks
 
-Indica se il valore datetime specificato <code>dateTime</code> rientra nel giorno precedente, come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nel giorno corrente.      <ul>      <li><code>dateTime</code>: valore <code>date</code>, <code>datetime</code> o <code>datetimezone</code>.</li>      </ul>
+Indica se il valore datetime specificato `dateTime` rientra nel giorno precedente, come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nel giorno corrente.
+
+-   `dateTime`: valore `date`, `datetime` o `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
-Determina se il giorno prima dell&#39;ora di sistema corrente rientra nel giorno precedente.
+### Example #1
+Determina se il giorno prima dell'ora di sistema corrente rientra nel giorno precedente.
 ```powerquery
 Date.IsInPreviousDay(Date.AddDays(DateTime.FixedLocalNow(), -1))
 ```

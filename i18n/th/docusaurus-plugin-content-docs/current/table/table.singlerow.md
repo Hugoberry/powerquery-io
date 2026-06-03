@@ -19,12 +19,12 @@ Table.SingleRow(
 
 ## Remarks
 
-ส่งกลับแถวเดียวในหนึ่งแถว <code>table</code> ถ้า <code>table</code> มีมากกว่าหนึ่งแถว ระบบจะแสดงข้อยกเว้น
+ส่งคืนแถวเดียวในตาราง `table` ที่มีแถวเดียว หาก `table` มีมากกว่าหนึ่งแถว จะเกิดข้อผิดพลาด
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ส่งคืนแถวเดี่ยวในตาราง
 ```powerquery
 Table.SingleRow(Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}))

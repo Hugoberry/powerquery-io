@@ -5,7 +5,7 @@ title: Number.BitwiseOr
 # Number.BitwiseOr
 
 
-Devolve o resultado da execução de uma operação &#34;Or&#34; bit a bit entre as duas entradas.
+Devolve o resultado da execução de uma operação "Or" bit a bit entre as duas entradas.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Number.BitwiseOr(
 
 ## Remarks
 
-Devolve o resultado da execução de uma operação "Or" bit a bit entre <code>number1</code> e <code>number2</code>.
+Devolve o resultado da execução de uma operação "Or" bit a bit entre `number1` e `number2`.
 
 
 

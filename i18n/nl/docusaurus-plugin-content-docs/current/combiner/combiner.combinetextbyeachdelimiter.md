@@ -25,7 +25,7 @@ Retourneert een functie die een lijst met tekstwaarden combineert tot één teks
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een lijst met tekstwaarden combineren met behulp van een reeks scheidingstekens.
 ```powerquery
 Combiner.CombineTextByEachDelimiter({"=", "+"})({"a", "b", "c"})

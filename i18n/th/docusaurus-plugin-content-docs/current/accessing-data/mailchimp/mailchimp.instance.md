@@ -24,7 +24,7 @@ MailChimp.Instance(
 
 ## Examples
 
-### Example #1 
+### Example #1
 คืนค่าข้อมูลดิบจากจุดสิ้นสุด reports/click-details MailChimp API สำหรับแคมเปญที่ระบุ
 ```powerquery
 MailChimp.Instance("reports/{campaign_id}/click-details")

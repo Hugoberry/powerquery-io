@@ -20,12 +20,12 @@ Table.FromColumns(
 
 ## Remarks
 
-列名と値を含む入れ子になったリストを含むリスト <code>lists</code> から <code>columns</code> 型のテーブルを作成します。    一部の列の値が他の列よりも多い場合、NULL 許容列では足りない値が既定値の 'NULL' で埋められます。
+列名と値を含む入れ子になったリストを含むリスト `lists` から `columns` 型のテーブルを作成します。 一部の列の値が他の列よりも多い場合、NULL 許容列では足りない値が既定値の 'NULL' で埋められます。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 リストの顧客名のリストからテーブルを返します。顧客リスト項目の各値が行の値になり、各リストが列になります。
 ```powerquery
 Table.FromColumns({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 指定された列のリストと列名のリストからテーブルを作成します。
 ```powerquery
 Table.FromColumns(
@@ -68,7 +68,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 行ごとの列数が異なるテーブルを作成します。不足している行の値は NULL です。
 ```powerquery
 Table.FromColumns(

@@ -19,13 +19,13 @@ Type.OpenRecord(
 
 ## Remarks
 
-Retourneert een geopende versie van het gegeven <code>record</code> <code>type</code> (of hetzelfde type indien dit reeds is geopend).
+Retourneert een geopende versie van het gegeven `record` `type` (of hetzelfde type indien dit reeds is geopend).
 
 
 ## Examples
 
-### Example #1 
-Maak een geopende versie van &lt;code&gt;type [ A = getal]&lt;/code&gt;.
+### Example #1
+Maak een geopende versie van `type [ A = getal]`.
 ```powerquery
 Type.OpenRecord(type [A = number])
 ```

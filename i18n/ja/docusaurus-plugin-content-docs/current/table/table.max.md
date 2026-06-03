@@ -21,13 +21,13 @@ Table.Max(
 
 ## Remarks
 
-<code>comparisonCriteria</code> に基づいて <code>table</code> の最大の行を返します。テーブルが空の場合は、省略可能な <code>default</code> 値を返します。
+`comparisonCriteria` に基づいて `table` の最大の行を返します。テーブルが空の場合は、省略可能な `default` 値を返します。
 
 
 ## Examples
 
-### Example #1 
-テーブル &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8]})&lt;/code&gt; で列 [a] の最大値を含む行を探します。
+### Example #1
+テーブル `({[a = 2, b = 4], [a = 6, b = 8]})` で列 \[a\] の最大値を含む行を探します。
 ```powerquery
 Table.Max(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-テーブル &lt;code&gt;(\{})&lt;/code&gt; で列 [a] の最大値を含む行を探します。空の場合は、-1 を返します。
+### Example #2
+テーブル `({})` で列 \[a\] の最大値を含む行を探します。空の場合は、-1 を返します。
 ```powerquery
 Table.Max(#table({"a"}, {}), "a", -1)
 ```

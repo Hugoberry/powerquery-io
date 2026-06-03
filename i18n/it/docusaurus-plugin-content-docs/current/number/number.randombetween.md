@@ -20,12 +20,12 @@ Number.RandomBetween(
 
 ## Remarks
 
-Restituisce un numero casuale compreso tra <code>bottom</code> e <code>top</code>.
+Restituisce un numero casuale compreso tra `bottom` e `top`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ottenere un numero casuale compreso tra 1 e 5.
 ```powerquery
 Number.RandomBetween(1, 5)

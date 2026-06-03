@@ -25,7 +25,7 @@ AzureEnterprise.Contents(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Использование функции AzureEnterprise.Contents для извлечения результатов конкретного отчета.
 ```powerquery
         let

@@ -21,12 +21,12 @@ Stripe.Contents(
 
 ## Remarks
 
-Anropar Stripe-API:et på https://api.stripe.com/v1/<code>method</code>, med den alternativa posten <code>query</code> överförd som extra parametrar och valfria <code>pageLimit</code> som gräns för antalet API-förfrågningar. Senaste data returneras först. Om <code>pageLimit</code> inte anges returneras alla data. Stripe-version 2015-10-16 används.
+Anropar Stripe-API:et på https://api.stripe.com/v1/`method`, med den alternativa posten `query` överförd som extra parametrar och valfria `pageLimit` som gräns för antalet API-förfrågningar. Senaste data returneras först. Om `pageLimit` inte anges returneras alla data. Stripe-version 2015-10-16 används.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnerar alla debiteringsdata
 ```powerquery
 Stripe.Contents("charges")
@@ -38,7 +38,7 @@ En tabell med alla debiteringsdata för det aktuella Stripe-kontot
 ```
 
 
-### Example #2 
+### Example #2
 Returnerar en sida med debiteringsdata
 ```powerquery
 Stripe.Contents("charges", [], 1)

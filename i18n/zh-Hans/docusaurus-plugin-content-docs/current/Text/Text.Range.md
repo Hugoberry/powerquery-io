@@ -21,13 +21,13 @@ Text.Range(
 
 ## Remarks
 
-从文本 <code>text</code> 中返回在偏移量 <code>offset</code> 中找到的子字符串。    可以包含一个可选参数 <code>count</code>，以指定要返回多少个字符。
+从文本 `text` 中返回在偏移量 `offset` 处找到的子字符串。 可以包含可选参数 `count`，以指定要返回的字符数。如果字符不足，则引发错误。
 
 
 ## Examples
 
-### Example #1 
-从文本 &#34;Hello World&#34; 中查找从索引 6 开始的子字符串。
+### Example #1
+从文本 "Hello World" 中查找从索引 6 开始的子字符串。
 ```powerquery
 Text.Range("Hello World", 6)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-从文本 &#34;Hello World Hello&#34; 中查找从索引 6 开始且涵盖 5 个字符的子字符串。
+### Example #2
+从文本 "Hello World Hello" 中查找从索引 6 开始且涵盖 5 个字符的子字符串。
 ```powerquery
 Text.Range("Hello World Hello", 6, 5)
 ```

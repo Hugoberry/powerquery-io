@@ -25,7 +25,7 @@ Table.ReplaceKeys(
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブルの既存のキーを置き換えます。
 ```powerquery
 let

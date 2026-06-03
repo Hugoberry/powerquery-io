@@ -25,7 +25,7 @@ Combiner.CombineTextByDelimiter(
 
 ## Examples
 
-### Example #1 
+### Example #1
 รวมรายการค่าข้อความโดยใช้ตัวคั่นเครื่องหมายอัฒภาค
 ```powerquery
 Combiner.CombineTextByDelimiter(";")({"a", "b", "c"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 รวมข้อความของสองคอลัมน์โดยใช้ตัวคั่นเครื่องหมายจุลภาคและตัวคั่นแบบ CSV
 ```powerquery
 let

@@ -20,12 +20,12 @@ Number.Log(
 
 ## Remarks
 
-Returnerer logaritmen for et tal, <code>number</code>, til det angivne grundtal <code>base</code>. Hvis <code>base</code> ikke er angivet, er standardværdien Number.E.    Hvis <code>number</code> er null, returnerer <code>Number.Log</code> null.
+Returnerer logaritmen for et tal, `number`, til det angivne grundtal `base`. Hvis `base` ikke er angivet, er standardværdien Number.E. Hvis `number` er null, returnerer `Number.Log` null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hent logaritmen med grundtallet 10 for 2.
 ```powerquery
 Number.Log(2, 10)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Hent logaritmen med grundtallet e for 2.
 ```powerquery
 Number.Log(2)

@@ -26,8 +26,8 @@ Returns the contents of the XML document as a nested collection of flattened tab
 
 ## Examples
 
-### Example #1 
-Retrieve the contents of a local xml file.
+### Example #1
+Retrieve the contents of a local XML file.
 ```powerquery
 Xml.Tables(File.Contents("C:\invoices.xml"))
 ```

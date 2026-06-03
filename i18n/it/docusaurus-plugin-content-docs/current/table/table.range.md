@@ -5,7 +5,7 @@ title: Table.Range
 # Table.Range
 
 
-Restituisce le righe a partire dall&#39;offset specificato.
+Restituisce le righe a partire dall'offset specificato.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Table.Range(
 
 ## Remarks
 
-Restituisce le righe da <code>table</code> a partire da <code>offset</code>. Il parametro facoltativo <code>count</code> specifica il numero di righe da restituire. Per impostazione predefinita, vengono restituite tutte le righe dopo l'offset.
+Restituisce le righe da `table` a partire da `offset`. Il parametro facoltativo `count` specifica il numero di righe da restituire. Per impostazione predefinita, vengono restituite tutte le righe dopo l'offset.
 
 
 ## Examples
 
-### Example #1 
-Restituire tutte le righe a partire dall&#39;offset 1 nella tabella.
+### Example #1
+Restituire tutte le righe a partire dall'offset 1 nella tabella.
 ```powerquery
 Table.Range(
     Table.FromRecords({
@@ -50,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Restituire una riga a partire dall&#39;offset 1 nella tabella.
+### Example #2
+Restituire una riga a partire dall'offset 1 nella tabella.
 ```powerquery
 Table.Range(
     Table.FromRecords({

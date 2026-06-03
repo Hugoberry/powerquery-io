@@ -25,7 +25,7 @@ Zwraca funkcję dzielącą tekst na listę tekstu zgodnie z określonymi przesun
 
 ## Examples
 
-### Example #1 
+### Example #1
 Podziel dane wejściowe według określonych par położenia i długości, zaczynając od początku danych wejściowych. Pamiętaj, że zakresy w tym przykładzie nakładają się na siebie.
 ```powerquery
 Splitter.SplitTextByRanges({{0, 4}, {2, 10}})("codelimiter")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Podziel dane wejściowe według określonych par położenia i długości, zaczynając od końca danych wejściowych.
 ```powerquery
 let
@@ -52,7 +52,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Podziel dane wejściowe na kod pocztowy o stałej długości, po którym następuje nazwa miejscowości o zmiennej długości.
 ```powerquery
 Splitter.SplitTextByRanges({{0, 5}, {5, null}})("98052Redmond")

@@ -19,12 +19,12 @@ Number.Sign(
 
 ## Remarks
 
-如果 <code>number</code>为正数，则返回 1；如果它为负数，则返回 -1；如果它为零则返回 0。    如果 <code>number</code> 为 null，则 <code>Number.Sign</code> 返回 null。
+如果 `number`为正数，则返回 1；如果它为负数，则返回 -1；如果它为零则返回 0。 如果 `number` 为 null，则 `Number.Sign` 返回 null。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 确定 182 的符号。
 ```powerquery
 Number.Sign(182)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 确定 -182 的符号。
 ```powerquery
 Number.Sign(-182)
@@ -48,7 +48,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 确定 0 的符号。
 ```powerquery
 Number.Sign(0)

@@ -20,12 +20,12 @@ List.Covariance(
 
 ## Remarks
 
-Restituisce la covarianza tra due elenchi, <code>numberList1</code> e <code>numberList2</code>. <code>numberList1</code> e <code>numberList2</code> devono contenere lo stesso numero di valori <code>number</code>.
+Restituisce la covarianza tra due elenchi, `numberList1` e `numberList2`. `numberList1` e `numberList2` devono contenere lo stesso numero di valori `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Calcolare la covarianza tra due elenchi.
 ```powerquery
 List.Covariance({1, 2, 3}, {1, 2, 3})

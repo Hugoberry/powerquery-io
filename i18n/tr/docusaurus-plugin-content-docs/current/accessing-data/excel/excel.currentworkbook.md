@@ -19,7 +19,7 @@ Excel.CurrentWorkbook(
 
 ## Remarks
 
-Geçerli Excel çalışma kitabının içeriğini döndürür. Tabloları, adlandırılmış aralıkları ve dinamik dizileri döndürür. <code>Excel.Workbook</code> öğesinin aksine çalışma sayfası döndürmez.
+Geçerli Excel çalışma kitabının içeriğini döndürür. Tabloları, adlandırılmış aralıkları ve dinamik dizileri döndürür. `Excel.Workbook` öğesinin aksine çalışma sayfası döndürmez.
 
 
 

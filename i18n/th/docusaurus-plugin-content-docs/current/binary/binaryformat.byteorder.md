@@ -20,7 +20,7 @@ BinaryFormat.ByteOrder(
 
 ## Remarks
 
-ส่งกลับรูปแบบไบนารีที่มีการระบุลำดับไบต์โดย <code>binaryFormat</code>  ลำดับไบต์เริ่มต้นคือ <code>ByteOrder.BigEndian</code>
+ส่งกลับรูปแบบไบนารีที่มีการระบุลำดับไบต์โดย `binaryFormat` ลำดับไบต์เริ่มต้นคือ `ByteOrder.BigEndian`
 
 
 

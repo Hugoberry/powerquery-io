@@ -19,12 +19,12 @@ Date.QuarterOfYear(
 
 ## Remarks
 
-Trả về một số trong khoảng từ 1 tới 4 cho biết ngày <code>dateTime</code> rơi vào quý nào trong năm. <code>dateTime</code> có thể là giá trị <code>date</code>, <code>datetime</code> hoặc <code>datetimezone</code>.
+Trả về một số trong khoảng từ 1 tới 4 cho biết ngày `dateTime` rơi vào quý nào trong năm. `dateTime` có thể là giá trị `date`, `datetime` hoặc `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm ngày #date(2011, 12, 31) rơi vào quý nào trong năm.
 ```powerquery
 Date.QuarterOfYear(#date(2011, 12, 31))

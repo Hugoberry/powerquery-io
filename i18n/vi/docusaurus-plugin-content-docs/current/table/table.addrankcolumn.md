@@ -22,13 +22,13 @@ Table.AddRankColumn(
 
 ## Remarks
 
-Nối một cột có tên <code>newColumnName</code> vào <code>table</code> với xếp hạng của một hoặc nhiều cột khác được mô tả bởi <code>comparisonCriteria</code>.Người dùng nâng cao có thể dùng tùy chọn <code>options</code> RankKind để chọn một phương pháp xếp hạng cụ thể hơn.
+Nối một cột có tên `newColumnName` vào `table` với xếp hạng của một hoặc nhiều cột khác được mô tả bởi `comparisonCriteria`. Người dùng nâng cao có thể dùng tùy chọn `options` RankKind để chọn một phương pháp xếp hạng cụ thể hơn.
 
 
 ## Examples
 
-### Example #1 
-Thêm cột có tên &#34;RevenueRank&#34; vào bảng xếp hạng cột &#34;Doanh thu&#34; từ cao nhất đến thấp nhất.
+### Example #1
+Thêm cột có tên "RevenueRank" vào bảng xếp hạng cột "Doanh thu" từ cao nhất đến thấp nhất.
 ```powerquery
 Table.AddRankColumn(
     Table.FromRecords({

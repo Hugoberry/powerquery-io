@@ -20,12 +20,12 @@ Date.StartOfWeek(
 
 ## Remarks
 
-Gibt den Beginn der Woche, der <code>dateTime</code> enthält, zurück.      <code>dateTime</code> muss ein <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert sein.
+Gibt den Beginn der Woche, der `dateTime` enthält, zurück. `dateTime` muss ein `date`\-, `datetime`\- oder `datetimezone`\-Wert sein.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Suchen Sie den Wochenanfang für die Woche vom Dienstag, 11. Oktober 2011.
 ```powerquery
 Date.StartOfWeek(#datetime(2011, 10, 11, 8, 10, 32))
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Suchen Sie den Wochenanfang für die Woche vom Dienstag, den 11. Oktober 2011, mithilfe von Montag als Beginn der Woche.
 ```powerquery
 Date.StartOfWeek(#datetime(2011, 10, 11, 8, 10, 32), Day.Monday)

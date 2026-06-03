@@ -20,13 +20,13 @@ List.Transform(
 
 ## Remarks
 
-सूची, <code>list</code> पर ट्रांसफ़ॉर्म फ़ंक्शन <code>transform</code> लागू करके मानों की एक नई सूची लौटाता है.
+सूची, `list` पर ट्रांसफ़ॉर्म फ़ंक्शन `transform` लागू करके मानों की एक नई सूची लौटाता है.
 
 
 ## Examples
 
-### Example #1 
-सूची \{1, 2} के प्रत्येक मान में 1 जोड़ें.
+### Example #1
+सूची \{1, 2\} के प्रत्येक मान में 1 जोड़ें.
 ```powerquery
 List.Transform({1, 2}, each _ + 1)
 ```

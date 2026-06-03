@@ -19,7 +19,7 @@ Number.Cosh(
 
 ## Remarks
 
-Retourne le cosinus hyperbolique de <code>number</code>.
+Retourne le cosinus hyperbolique de `number`.
 
 
 

@@ -24,7 +24,7 @@ Returns the keys of the specified table.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Get the list of keys for a table.
 ```powerquery
 let

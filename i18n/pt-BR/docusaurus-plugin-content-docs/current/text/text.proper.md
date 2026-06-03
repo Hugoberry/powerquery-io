@@ -20,13 +20,13 @@ Text.Proper(
 
 ## Remarks
 
-Retorna o resultado do uso de maiúsculas somente da primeira letra de cada palavra no valor de texto <code>text</code>. Todas as outras letras são retornadas em minúsculas. Um <code>culture</code> opcional também pode ser fornecido (por exemplo, "en-US").
+Retorna o resultado do uso de maiúsculas somente da primeira letra de cada palavra no valor de texto `text`. Todas as outras letras são retornadas em minúsculas. Um `culture` opcional também pode ser fornecido (por exemplo, "en-US").
 
 
 ## Examples
 
-### Example #1 
-Use &lt;code&gt;Text.Proper&lt;/code&gt; em uma frase simples.
+### Example #1
+Use `Text.Proper` em uma frase simples.
 ```powerquery
 Text.Proper("the QUICK BrOWn fOx jUmPs oVER tHe LAzy DoG")
 ```

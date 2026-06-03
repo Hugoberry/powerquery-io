@@ -19,7 +19,7 @@ Value.Alternates(
 
 ## Remarks
 
-Value.Expression(Value.Optimize(...)) を使用して取得したクエリ プラン式内の代替クエリ プランを表します。他の用途は意図されていません。
+`Value.Expression(Value.Optimize(...))` を使用して取得したクエリ プラン式内の代替クエリ プランを表します。他の用途は意図されていません。
 
 
 

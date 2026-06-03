@@ -19,7 +19,7 @@ Type.Union(
 
 ## Remarks
 
-Trả lại tổ hợp loại trong <code>types</code>.
+Trả lại tổ hợp loại trong `types`.
 
 
 

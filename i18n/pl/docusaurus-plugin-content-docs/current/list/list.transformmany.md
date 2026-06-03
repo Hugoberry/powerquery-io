@@ -21,12 +21,16 @@ List.TransformMany(
 
 ## Remarks
 
-Zwraca listę, której elementy są rzutowane z listy wejściowej.<br />    <br />    Funkcja <code>collectionTransform</code> przekształca każdy element w listę pośrednią, a funkcja <code>resultTransform</code> odbiera oryginalny element oraz element z listy pośredniej w celu utworzenia końcowego wyniku.<br />    <br />    Funkcja <code>collectionTransform</code> ma sygnaturę <code>(x as any) as list =>... </code>, gdzie <code>x</code> jest elementem w <code>list</code>.    Funkcja <code>resultTransform</code> rzutuje kształt wyniku i ma sygnaturę <code>(x as any, y as any) as any =>... </code>, gdzie <code>x</code> jest elementem w <code>list</code>, a <code>y</code> jest elementem z listy wygenerowanej przez przekazanie <code>x</code> do <code>collectionTransform</code>.
+Zwraca listę, której elementy są rzutowane z listy wejściowej.  
+  
+Funkcja `collectionTransform` przekształca każdy element w listę pośrednią, a funkcja `resultTransform` odbiera oryginalny element oraz element z listy pośredniej w celu utworzenia końcowego wyniku.  
+  
+Funkcja `collectionTransform` ma sygnaturę `(x as any) as list =>...` , gdzie `x` jest elementem w `list`. Funkcja `resultTransform` rzutuje kształt wyniku i ma sygnaturę `(x as any, y as any) as any =>...` , gdzie `x` jest elementem w `list`, a `y` jest elementem z listy wygenerowanej przez przekazanie `x` do `collectionTransform`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Spłaszcz listę osób i ich zwierząt domowych.
 ```powerquery
 List.TransformMany(

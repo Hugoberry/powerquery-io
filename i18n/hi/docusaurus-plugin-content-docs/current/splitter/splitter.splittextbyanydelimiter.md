@@ -26,7 +26,7 @@ Splitter.SplitTextByAnyDelimiter(
 
 ## Examples
 
-### Example #1 
+### Example #1
 उद्धरणों और उद्धरित डिलिमिटर्स पर ध्यान न देते हुए और इनपुट की शुरुआत से प्रारंभ करते हुए, इनपुट को अल्पविराम या अर्धविराम से विभाजित करें.
 ```powerquery
 Splitter.SplitTextByAnyDelimiter({",", ";"}, QuoteStyle.Csv)("a,b;""c,d;e"",f")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 उद्धरणों और उद्धरित डिलिमिटर्स पर ध्यान न देते हुए और इनपुट के अंत से प्रारंभ करते हुए, इनपुट को अल्पविराम या अर्धविराम से विभाजित करें.
 ```powerquery
 let

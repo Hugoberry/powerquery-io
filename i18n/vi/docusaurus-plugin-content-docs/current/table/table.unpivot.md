@@ -27,8 +27,8 @@ Chuyển đổi tập hợp cột trong bảng thành các cặp thuộc tính-g
 
 ## Examples
 
-### Example #1 
-Lấy các cột &#34;a&#34;, &#34;b&#34; và &#34;c&#34; trong bảng &lt;code&gt;(\{[ key = &#34;x&#34;, a = 1, b = null, c = 3 ], [ key = &#34;y&#34;, a = 2, b = 4, c = null ]})&lt;/code&gt; và hủy xoay chúng thành các cặp thuộc tính-giá trị.
+### Example #1
+Lấy các cột "a", "b" và "c" trong bảng `({[ key = "x", a = 1, b = null, c = 3 ], [ key = "y", a = 2, b = 4, c = null ]})` và hủy xoay chúng thành các cặp thuộc tính-giá trị.
 ```powerquery
 Table.Unpivot(
     Table.FromRecords({

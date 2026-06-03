@@ -5,7 +5,7 @@ title: Duration.ToText
 # Duration.ToText
 
 
-Retourneert de tekst van de vorm &#34;d.u:m:s&#34;.
+Retourneert de tekst van de vorm "d.u:m:s".
 
 
 ## Syntax
@@ -20,13 +20,16 @@ Duration.ToText(
 
 ## Remarks
 
-Hiermee wordt een tekstweergave geretourneerd in de vorm "dag.uur:min:sec" van de opgegeven duurwaarde <code>duration</code>. <ul> <li><code>duration</code>: een <code>duur</code> op basis waarvan de tekstweergave wordt berekend.</li>  <li><code>format</code>: <i>[Optioneel]</i> verouderd, genereert een fout als deze niet null is</li>      </ul>
+Hiermee wordt een tekstweergave geretourneerd in de vorm "dag.uur:min:sec" van de opgegeven duurwaarde `duration`.
+
+-   `duration`: een `duur` op basis waarvan de tekstweergave wordt berekend.
+-   `format`: *\[Optioneel\]* Afgeschaft, genereert een fout als deze niet null is.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;#duration(2, 5, 55, 20)&lt;/code&gt; omzetten naar een tekstwaarde.
+### Example #1
+`#duration(2, 5, 55, 20)` omzetten naar een tekstwaarde.
 ```powerquery
 Duration.ToText(#duration(2, 5, 55, 20))
 ```

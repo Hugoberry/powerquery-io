@@ -21,13 +21,13 @@ Table.RemoveColumns(
 
 ## Remarks
 
-Removes the specified <code>columns</code> from the <code>table</code> provided.    If the specified column doesn't exist, an error is raised unless the optional parameter <code>missingField</code> specifies an alternative behavior (for example, <code>MissingField.UseNull</code> or <code>MissingField.Ignore</code>).
+Removes the specified `columns` from the `table` provided. If the specified column doesn't exist, an error is raised unless the optional parameter `missingField` specifies an alternative behavior (for example, `MissingField.UseNull` or `MissingField.Ignore`).
 
 
 ## Examples
 
-### Example #1 
-Remove column [Phone] from the table.
+### Example #1
+Remove column \[Phone\] from the table.
 ```powerquery
 Table.RemoveColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -41,7 +41,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #2 
+### Example #2
 Try to remove a non-existent column from the table.
 ```powerquery
 Table.RemoveColumns(

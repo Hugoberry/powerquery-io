@@ -19,12 +19,12 @@ Table.IsEmpty(
 
 ## Remarks
 
-指示 <code>table</code> 是否包含任何行。如果没有行(也即表为空)，则返回 <code>true</code>； 否则，返回 <code>false</code>。
+指示 `table` 是否包含任何行。如果没有行(也即表为空)，则返回 `true`； 否则，返回 `false`。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 确定表是否为空。
 ```powerquery
 Table.IsEmpty(
@@ -42,8 +42,8 @@ false
 ```
 
 
-### Example #2 
-确定表 &lt;code&gt;(\{})&lt;/code&gt; 是否为空。
+### Example #2
+确定表 `({})` 是否为空。
 ```powerquery
 Table.IsEmpty(Table.FromRecords({}))
 ```

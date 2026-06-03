@@ -20,13 +20,13 @@ Table.FindText(
 
 ## Remarks
 
-テキスト <code>text</code> を含むテーブル <code>table</code> 内の行を返します。テキストが見つからなかった場合は、空のテーブルを返します。
+テキスト `text` を含むテーブル `table` 内の行を返します。テキストが見つからなかった場合は、空のテーブルを返します。
 
 
 ## Examples
 
-### Example #1 
-テーブル内で &#34;Bob&#34; を含む行を探します。
+### Example #1
+テーブル内で "Bob" を含む行を探します。
 ```powerquery
 Table.FindText(
     Table.FromRecords({

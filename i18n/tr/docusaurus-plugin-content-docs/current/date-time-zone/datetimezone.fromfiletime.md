@@ -19,13 +19,13 @@ DateTimeZone.FromFileTime(
 
 ## Remarks
 
-<code>fileTime</code> değerinden bir <code>datetimezone</code> değeri oluşturur ve bu değeri yerel saat dilimine dönüştürür. filetime, 1 Ocak 1601 M.S. (C.E.) Eşgüdümlü Evrensel Saat (UTC) ile gece 12:00'den itibaren geçen 100 nanosaniyelik aralık sayısını temsil eden bir Windows dosya zamanı değeridir.    
+`fileTime` değerinden bir `datetimezone` değeri oluşturur ve bu değeri yerel saat dilimine dönüştürür. filetime, 1 Ocak 1601 M.S. (C.E.) Eşgüdümlü Evrensel Saat (UTC) ile gece 12:00'den itibaren geçen 100 nanosaniyelik aralık sayısını temsil eden bir Windows dosya zamanı değeridir.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;129876402529842245&lt;/code&gt; değerini bir datetimezone değerine dönüştürür.
+### Example #1
+`129876402529842245` değerini bir datetimezone değerine dönüştürür.
 ```powerquery
 DateTimeZone.FromFileTime(129876402529842245)
 ```

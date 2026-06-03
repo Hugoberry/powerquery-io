@@ -21,12 +21,12 @@ List.Durations(
 
 ## Remarks
 
-<code>start</code> से प्रारंभ होने वाले और दी गई <code>duration</code> <code>step</code> से बढ़े हुए, <code>count</code> <code>duration</code> मानों की सूची लौटाता है.
+`start` से प्रारंभ होने वाले और दी गई `duration` `step` से बढ़े हुए, `count` `duration` मानों की सूची लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 1 घंटे से प्रारंभ होने वाले और एक घंटा बढ़ते हुए 5 मानों की सूची बनाएँ.
 ```powerquery
 List.Durations(#duration(0, 1, 0, 0), 5, #duration(0, 1, 0, 0))

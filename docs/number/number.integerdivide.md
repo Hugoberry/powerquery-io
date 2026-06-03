@@ -21,12 +21,15 @@ Number.IntegerDivide(
 
 ## Remarks
 
-Returns the integer portion of the result from dividing a number, <code>number1</code>, by another number, <code>number2</code>.    If <code>number1</code> or <code>number2</code> are null, <code>Number.IntegerDivide</code> returns null.      <ul>        <li><code>number1</code>: The dividend.</li>        <li><code>number2</code>: The divisor.</li>      </ul>
+Returns the integer portion of the result from dividing a number, `number1`, by another number, `number2`. If `number1` or `number2` are null, `Number.IntegerDivide` returns null.
+
+-   `number1`: The dividend.
+-   `number2`: The divisor.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Divide 6 by 4.
 ```powerquery
 Number.IntegerDivide(6, 4)
@@ -38,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Divide 8.3 by 3.
 ```powerquery
 Number.IntegerDivide(8.3, 3)

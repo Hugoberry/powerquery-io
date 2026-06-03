@@ -21,7 +21,7 @@ AzureCostManagement.Contents(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Wenn heute der 15. Juni 2017 ist, dann werden zusammenfassende Daten für den Zeitraum zwischen dem 1. Mai 2017 und dem 15. Juni 2017 abgerufen.
 ```powerquery
 let
@@ -29,7 +29,7 @@ let
           optionalParameters = [ numberOfMonth = 1 ],
           result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
       in
-          result
+          Ergebnis
 ```
 
 Result: 
@@ -38,7 +38,7 @@ Die Funktion gibt zusammenfassende Daten für den Zeitraum zwischen dem 1. Mai 2
 ```
 
 
-### Example #2 
+### Example #2
 Wenn heute der 15. Juni 2017 ist, dann werden zusammenfassende Daten für April 2017 abgerufen.
 ```powerquery
 let
@@ -46,7 +46,7 @@ let
           optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "-1" ],
           result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
       in
-          result
+          Ergebnis
 ```
 
 Result: 
@@ -55,7 +55,7 @@ Die Funktion gibt Daten für den Zeitraum zwischen dem 1. April 2017 und dem 30.
 ```
 
 
-### Example #3 
+### Example #3
 Wenn heute der 15. Juni 2017 ist, dann werden zusammenfassende Daten für den Zeitraum von April 2017 bis heute abgerufen.
 ```powerquery
 let
@@ -63,7 +63,7 @@ let
           optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "0", dataType = "Summaries" ],
           result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
       in
-          result
+          Ergebnis
 ```
 
 Result: 

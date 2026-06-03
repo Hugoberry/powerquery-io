@@ -5,7 +5,7 @@ title: List.MinN
 # List.MinN
 
 
-Restituisce i valori minimi dell&#39;elenco. È possibile specificare il numero di valori da restituire o una condizione di filtro.
+Restituisce i valori minimi dell'elenco. È possibile specificare il numero di valori da restituire o una condizione di filtro.
 
 
 ## Syntax
@@ -22,13 +22,17 @@ List.MinN(
 
 ## Remarks
 
-Restituisce i valori minimi dell'elenco <code>list</code>.    Il parametro <code>countOrCondition</code> specifica il numero di valori da restituire o una condizione di filtro. Il parametro facoltativo <code>comparisonCriteria</code> specifica come confrontare i valori nell'elenco. <ul>        <li> <code>list</code>: elenco dei valori.</li>        <li> <code>countOrCondition</code>: se viene specificato un numero, viene restituito un elenco di un massimo di <code>countOrCondition</code> elementi in ordine crescente. Se viene specificata una condizione, viene restituito un elenco di elementi che soddisfano inizialmente la condizione. Se un elemento non soddisfa la condizione, non vengono considerati altri elementi. Se questo parametro è Null viene restituito il valore singolo più piccolo dell'elenco.</li><li><code>comparisonCriteria</code>: <i>[facoltativo]</i> è possibile specificare un valore facoltativo <code>comparisonCriteria</code> per determinare come confrontare gli elementi nell'elenco. Se questo parametro è Null, si usa l'operatore di confronto predefinito. </li></ul>
+Restituisce i valori minimi dell'elenco `list`. Il parametro `countOrCondition` specifica il numero di valori da restituire o una condizione di filtro. Il parametro facoltativo, `comparisonCriteria`, specifica come confrontare i valori nell'elenco.
+
+-   `list`: elenco di valori.
+-   `countOrCondition`: se viene specificato un numero, viene restituito un elenco di un massimo di `countOrCondition` elementi in ordine crescente. Se viene specificata una condizione, viene restituito un elenco di elementi che soddisfano inizialmente la condizione. Se un elemento non soddisfa la condizione, non vengono presi in considerazione altri elementi. Se questo parametro è null viene restituito il valore singolo più piccolo dell'elenco.
+-   `comparisonCriteria`: *(facoltativo)* è possibile specificare un valore facoltativo, `comparisonCriteria`, per determinare come confrontare gli elementi nell'elenco. Se il parametro è null, viene usato l'operatore di confronto predefinito.
 
 
 ## Examples
 
-### Example #1 
-Trovare i 5 valori più piccoli dell&#39;elenco &lt;code&gt;\{3, 4, 5, -1, 7, 8, 2}&lt;/code&gt;.
+### Example #1
+Trovare i 5 valori più piccoli dell'elenco `{3, 4, 5, -1, 7, 8, 2}`.
 ```powerquery
 List.MinN({3, 4, 5, -1, 7, 8, 2}, 5)
 ```

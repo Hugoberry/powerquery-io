@@ -5,7 +5,7 @@ title: List.Single
 # List.Single
 
 
-為長度 1 的清單傳回一個清單項目，否則擲回例外狀況。
+針對長度 1 的清單傳回一個清單項目，否則引發錯誤。
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.Single(
 
 ## Remarks
 
-如果清單 <code>list</code> 中只有一個項目，即傳回該項目。    如果不止一個項目或清單是空的，函數會擲回例外狀況。
+如果清單 `list` 中只有一個項目，則傳回該項目。 如果不只一個項目或清單空白，則函式會引發錯誤。
 
 
 ## Examples
 
-### Example #1 
-找出清單 \{1} 中的一個值。
+### Example #1
+找出清單 \{1\} 中的一個值。
 ```powerquery
 List.Single({1})
 ```
@@ -36,8 +36,8 @@ Result:
 ```
 
 
-### Example #2 
-找出清單 \{1, 2, 3} 中的一個值。
+### Example #2
+找出清單 \{1, 2, 3\} 中的一個值。
 ```powerquery
 List.Single({1, 2, 3})
 ```

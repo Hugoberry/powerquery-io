@@ -20,7 +20,7 @@ Binary.Split(
 
 ## Remarks
 
-<code>binary</code> öğesini; çıkış listesinin ilk öğesinin kaynak ikilideki ilk <code>pageSize</code> baytı barındıran bir ikili olduğu, sonraki öğenin ise    kaynak ikiliden sonraki <code>pageSize</code> baytı barındıran bir ikili olduğu ve bu şekilde devam eden bir ikili listesine ayırır.
+`binary` öğesini; çıkış listesinin ilk öğesinin kaynak ikilideki ilk `pageSize` baytı barındıran bir ikili olduğu, sonraki öğenin ise kaynak ikiliden sonraki `pageSize` baytı barındıran bir ikili olduğu ve bu şekilde devam eden bir ikili listesine ayırır.
 
 
 

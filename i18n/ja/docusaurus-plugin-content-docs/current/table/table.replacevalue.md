@@ -23,13 +23,19 @@ Table.ReplaceValue(
 
 ## Remarks
 
-<code>table</code> の指定された列で <code>oldValue</code> を <code>newValue</code> に置き換えます。
+テーブルの指定列にある値を、新しい値に置き換えます。
+
+-   `table`: 検索するテーブル。
+-   `oldValue`: 置換対象の値。
+-   `newValue`: 置換後の値。
+-   `replacer`: 使用する値の置換関数。この関数には、元のテキストを新しいテキストに置き換える `Replacer.ReplaceText`、元の値を新しい値に置き換える `Replacer.ReplaceValue`、またはカスタムの置換関数を使用できます。
+-   `columnsToSearch`: 置換対象の値を検索するための、テーブル内の特定列を含むリスト。
 
 
 ## Examples
 
-### Example #1 
-列 B のテキスト &#34;goodbye&#34; を &#34;world&#34; に置き換え、値全体だけを一致させます。
+### Example #1
+列 B のテキスト "goodbye" を "world" に置き換え、値全体だけを一致させます。
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -54,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-列 B のテキスト &#34;ur&#34; を &#34;or&#34; に置き換え、値の任意の部分に一致させます。
+### Example #2
+列 B のテキスト "ur" を "or" に置き換え、値の任意の部分に一致させます。
 ```powerquery
 Table.ReplaceValue(
     Table.FromRecords({
@@ -78,7 +84,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 米国の従業員の名前を匿名化します。
 ```powerquery
 Table.ReplaceValue(
@@ -102,7 +108,7 @@ Table.FromRecords({
 ```
 
 
-### Example #4 
+### Example #4
 米国の従業員のすべての列を匿名化します。
 ```powerquery
 Table.ReplaceValue(

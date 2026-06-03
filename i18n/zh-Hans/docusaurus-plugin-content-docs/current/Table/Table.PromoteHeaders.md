@@ -20,12 +20,15 @@ Table.PromoteHeaders(
 
 ## Remarks
 
-将第一行值升级为新的列标题(即列名)。默认情况下，仅将文本或数值升级为标题。有效选项:    <div>      <code>PromoteAllScalars</code> : 如果设置为 <code>true</code>，则使用 <code>Culture</code> (如果已指定，或当前文档区域设置)将第一行中的所有标量值升级为标题。    对于无法转换为文本的值，将使用默认列名。    </div>    <div>    <code>Culture</code> : 区域性名称，指定数据的区域性。    </div>
+将第一行值升级为新的列标题(即列名)。默认情况下，仅将文本或数值升级为标题。有效选项:
+
+-   `PromoteAllScalars`: 如果设置为 `true`，则使用 `Culture` (如果已指定，或当前文档区域设置)将第一行中的所有标量值升级为标题。 对于无法转换为文本的值，将使用默认列名。
+-   `Culture`: 区域性名称，指定数据的区域性。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 升级表中的第一行值。
 ```powerquery
 Table.PromoteHeaders(
@@ -42,7 +45,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Column3 = #date(1980, 1, 1)]})
 ```
 
 
-### Example #2 
+### Example #2
 将表的第一行中的所有标量升级为标题。
 ```powerquery
 Table.PromoteHeaders(

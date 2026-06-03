@@ -19,12 +19,12 @@ Table.ApproximateRowCount(
 
 ## Remarks
 
-Returnerer det omtrentlige antal rækker i <code>table</code>, eller en fejl, hvis datakilden ikke understøtter tilnærmelsen.
+Returnerer det omtrentlige antal rækker i `table`, eller en fejl, hvis datakilden ikke understøtter tilnærmelsen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Estimer antallet af forskellige kombinationer af by og stat i en stor tabel, som kan bruges som et kardinalitetsestimat for kolonnerne. Kardinalitetsestimater er vigtige nok til, at forskellige datakilder (såsom SQL Server) understøtter denne særlige tilnærmelse, ofte ved hjælp af en algoritme kaldet HyperLogLog.
 ```powerquery
 Table.ApproximateRowCount(Table.Distinct(Table.SelectColumns(sqlTable, {"city", "state"})))

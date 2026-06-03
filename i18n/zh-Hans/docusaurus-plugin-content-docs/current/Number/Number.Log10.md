@@ -19,12 +19,12 @@ Number.Log10(
 
 ## Remarks
 
-返回数值 <code>number</code> 的以 10 为底的对数。如果 <code>number</code> 为 null，则 <code>Number.Log10</code> 返回 null。
+返回数值 `number` 的以 10 为底的对数。如果 `number` 为 null，则 `Number.Log10` 返回 null。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 获取 2 的以 10 为底的对数。
 ```powerquery
 Number.Log10(2)

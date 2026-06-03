@@ -20,7 +20,7 @@ Binary.Split(
 
 ## Remarks
 
-Dzieli <code>binary</code> na listę plików binarnych, gdzie pierwszym elementem listy wyjściowej jest plik binarny zawierający pierwsze<code>pageSize</code> B z     źródłowego pliku binarnego, następnym elementem listy wyjściowej jest plik binarny zawierający następne <code>pageSize</code> B ze źródłowego pliku binarnego, i tak dalej.
+Dzieli `binary` na listę plików binarnych, gdzie pierwszym elementem listy wyjściowej jest plik binarny zawierający pierwsze`pageSize` B z źródłowego pliku binarnego, następnym elementem listy wyjściowej jest plik binarny zawierający następne `pageSize` B ze źródłowego pliku binarnego, i tak dalej.
 
 
 

@@ -19,12 +19,12 @@ Duration.TotalSeconds(
 
 ## Remarks
 
-Returnerer det samlede antal sekunder spændt over <code>duration</code>.
+Returnerer det samlede antal sekunder spændt over `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find det samlede antal sekunder spændt over en varighedsværdi.
 ```powerquery
 Duration.TotalSeconds(#duration(5, 4, 3, 2))

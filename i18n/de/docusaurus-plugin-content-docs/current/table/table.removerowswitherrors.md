@@ -25,7 +25,7 @@ Gibt eine Tabelle ohne die Zeilen aus der Eingabetabelle zurück, die in mindest
 
 ## Examples
 
-### Example #1 
+### Example #1
 Entfernen des Fehlerwerts aus der ersten Zeile.
 ```powerquery
 Table.RemoveRowsWithErrors(

@@ -5,7 +5,7 @@ title: Function.From
 # Function.From
 
 
-Crea una función con una firma de parámetro específica agregada a una función que utiliza un único argumento de lista.
+Crea una función con una firma de parámetro específica encima de una función que toma un único argumento de lista.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Function.From(
 
 ## Remarks
 
-Utiliza una función de unario <code>function</code> y crea una función nueva con el tipo <code>functionType</code>, que construye una lista a partir de sus argumentos y la pasa a <code>function</code>.
+Utiliza una función de unario `function` y crea una función nueva con el tipo `functionType`, que construye una lista a partir de sus argumentos y la pasa a `function`.
 
 
 ## Examples
 
-### Example #1 
-Convierte List.Sum en una función de dos argumentos que se agregan.
+### Example #1
+Convierte List.Sum en una función de dos argumentos cuyos argumentos se agregan juntos.
 ```powerquery
 Function.From(type function (a as number, b as number) as number, List.Sum)(2, 1)
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Convierte una función a partir de una lista en una función de dos argumentos.
+### Example #2
+Convierte una función que toma una lista en una función de dos argumentos.
 ```powerquery
 Function.From(type function (a as text, b as text) as text, (list) => list{0} & list{1})("2", "1")
 ```

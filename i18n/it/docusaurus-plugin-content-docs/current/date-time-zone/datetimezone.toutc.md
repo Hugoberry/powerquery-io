@@ -19,12 +19,12 @@ DateTimeZone.ToUtc(
 
 ## Remarks
 
-Modifica le informazioni del fuso orario del valore <code>dateTimeZone</code> di datetime sulle informazioni del fuso orario UTC.    Se <code>dateTimeZone</code> non è un componente di fuso orario, le informazioni del fuso orario UTC vengono aggiunte.
+Modifica le informazioni del fuso orario del valore `dateTimeZone` di datetime sulle informazioni del fuso orario UTC. Se `dateTimeZone` non è un componente di fuso orario, le informazioni del fuso orario UTC vengono aggiunte.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Modificare le informazioni del fuso orario per #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) sul fuso orario UTC.
 ```powerquery
 DateTimeZone.ToUtc(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30))

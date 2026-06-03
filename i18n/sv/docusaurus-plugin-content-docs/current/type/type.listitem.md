@@ -19,13 +19,13 @@ Type.ListItem(
 
 ## Remarks
 
-Returnerar en objekttyp från en lista <code>type</code>.
+Returnerar en objekttyp från en lista `type`.
 
 
 ## Examples
 
-### Example #1 
-Hitta objekttypen i listan &lt;code&gt;\{number}&lt;/code&gt;.
+### Example #1
+Hitta objekttypen i listan `{number}`.
 ```powerquery
 Type.ListItem(type {number})
 ```

@@ -5,7 +5,7 @@ title: Function.Invoke
 # Function.Invoke
 
 
-调用给定的函数
+调用给定的函数。
 
 
 ## Syntax
@@ -25,8 +25,8 @@ Function.Invoke(
 
 ## Examples
 
-### Example #1 
-使用一个参数 [A=1,B=2] 调用 Record.FieldNames
+### Example #1
+使用一个参数 \[A=1,B=2\] 调用 Record.FieldNames。
 ```powerquery
 Function.Invoke(Record.FieldNames, {[A = 1, B = 2]})
 ```

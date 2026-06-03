@@ -19,13 +19,13 @@ Text.ToList(
 
 ## Remarks
 
-根據指定的文字值 <code>text</code> 傳回字元值的清單。
+根據指定的文字值 `text` 傳回字元值的清單。
 
 
 ## Examples
 
-### Example #1 
-根據文字 &#34;Hello World&#34; 建立字元值的清單。
+### Example #1
+根據文字 "Hello World" 建立字元值的清單。
 ```powerquery
 Text.ToList("Hello World")
 ```

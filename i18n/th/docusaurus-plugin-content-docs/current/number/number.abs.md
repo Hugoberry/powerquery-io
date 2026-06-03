@@ -19,12 +19,14 @@ Number.Abs(
 
 ## Remarks
 
-ส่งคืนค่าสัมบูรณ์ของ <code>number</code> ถ้า <code>number</code> เป็น null <code>ตัวเลข.Abs</code> จะส่งคืนค่าเป็น null    <ul>        <li><code>number</code>: <code>ตัวเลข</code> ซึ่งจะมีการคำนวณค่าสัมบูรณ์</li>      </ul>
+ส่งคืนค่าสัมบูรณ์ของ `number` ถ้า `number` เป็น null `ตัวเลข.Abs` จะส่งคืนค่าเป็น null
+
+-   `number`: `ตัวเลข` ซึ่งจะมีการคำนวณค่าสัมบูรณ์
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ค่าสัมบูรณ์ของ -3
 ```powerquery
 Number.Abs(-3)

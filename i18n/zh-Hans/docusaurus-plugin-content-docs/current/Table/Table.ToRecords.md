@@ -19,12 +19,12 @@ Table.ToRecords(
 
 ## Remarks
 
-将表 <code>table</code> 转换为记录列表。
+将表 `table` 转换为记录列表。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 将表转换为记录列表。
 ```powerquery
 Table.ToRecords(

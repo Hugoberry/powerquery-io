@@ -21,12 +21,12 @@ Table.InsertRows(
 
 ## Remarks
 
-<code>rows</code> verilen konumunda <code>table</code> içine eklenen <code>offset</code> satır listesini içeren bir tablo döndürür. Eklenecek satırdaki her sütun, tablonun sütun türleri ile eşleşmelidir.
+`rows` verilen konumunda `table` içine eklenen `offset` satır listesini içeren bir tablo döndürür. Eklenecek satırdaki her sütun, tablonun sütun türleri ile eşleşmelidir.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Satırı 1 konumunda bulunan tabloya ekler.
 ```powerquery
 Table.InsertRows(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 1 konumunda bulunan tabloya iki satır ekler.
 ```powerquery
 Table.InsertRows(

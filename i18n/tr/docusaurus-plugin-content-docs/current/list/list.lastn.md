@@ -5,7 +5,7 @@ title: List.LastN
 # List.LastN
 
 
-Listedeki son değeri döndürür.  Döndürülecek değer sayısı veya belirleyici bir şart isteğe bağlı olarak belirtilebilir.
+Belirtilen listedeki son öğe veya öğelerin listesini döndürür. Döndürülecek değer sayısı veya belirleyici bir şart isteğe bağlı olarak belirtilebilir.
 
 
 ## Syntax
@@ -20,13 +20,18 @@ List.LastN(
 
 ## Remarks
 
-<code>list</code> listesindeki son öğeyi döndürür. Liste boşsa bir özel durum oluşur. Bu işlev birden çok öğe veya filtre öğesini desteklemek üzere isteğe bağlı bir <code>countOrCondition</code> parametresini alır. <code>countOrCondition</code> üç yolla belirtilebilir: <ul>  <li>Sayı belirtilirse, bu sayı kadar öğe döndürülür. </li>  <li>Koşul belirtilirse, listenin sonundan başlayarak bu koşulu sağlayan tüm öğeler döndürülür. Tüm öğeler koşulu sağlamadığında, başka öğe değerlendirilmez. </li>  <li>Parametre null ise, listedeki son öğe döndürülür.</li> </ul>
+Belirtilen listedeki son öğe veya öğelerin listesini döndürür.
+
+-   `list`: İncelenecek liste. Liste boşsa, boş bir liste döndürülür.
+-   `countOrCondition`: (İsteğe bağlı) Birden çok öğe toplama veya öğeleri filtreleme desteği sağlar. Bu parametre isteğe bağlı olarak listelenmiş olsa da, bu değer sağlanmamışsa veya `null` ise bir hata oluşur. Bu parametre iki şekilde belirtilebilir:
+    -   Bir sayı belirtilirse, en fazla o kadar öğe döndürülür.
+    -   Bir koşul belirtilirse, listenin sonundan başlayarak koşulu karşılayan tüm öğeler döndürülür. Bir öğe koşulu karşılamazsa, başka öğe değerlendirilmez.
 
 
 ## Examples
 
-### Example #1 
-\{3, 4, 5, -1, 7, 8, 2} listesinin son değerini bulur.
+### Example #1
+\{3, 4, 5, -1, 7, 8, 2\} listesinin son değerini bulur.
 ```powerquery
 List.LastN({3, 4, 5, -1, 7, 8, 2}, 1)
 ```
@@ -37,8 +42,8 @@ Result:
 ```
 
 
-### Example #2 
-\{3, 4, 5, -1, 7, 8, 2} listesinde 0&#39;dan büyük olan son değerleri bulur.
+### Example #2
+\{3, 4, 5, -1, 7, 8, 2\} listesinde 0'dan büyük olan son değerleri bulur.
 ```powerquery
 List.LastN({3, 4, 5, -1, 7, 8, 2}, each _ > 0)
 ```

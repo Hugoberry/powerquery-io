@@ -21,12 +21,12 @@ Spark.Tables(
 
 ## Remarks
 
-Devolve uma tabela que lista as tabelas existentes no <code>host</code> do cluster Spark com <code>protocol</code>. Os protocolos válidos são:SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
+Devolve uma tabela que lista as tabelas existentes no `host` do cluster Spark com `protocol`. Os protocolos válidos são: SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Listar as tabelas numa instância do Azure Spark.
 ```powerquery
 Spark.Tables("contoso.azurehdinsight.net", SparkProtocol.Azure)

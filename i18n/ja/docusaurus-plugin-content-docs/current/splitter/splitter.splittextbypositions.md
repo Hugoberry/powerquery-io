@@ -25,7 +25,7 @@ Splitter.SplitTextByPositions(
 
 ## Examples
 
-### Example #1 
+### Example #1
 入力の先頭から始め、指定された位置で入力を分割します。
 ```powerquery
 Splitter.SplitTextByPositions({0, 3, 4})("ABC|12345")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 入力の末尾から始め、指定された位置で入力を分割します。
 ```powerquery
 let

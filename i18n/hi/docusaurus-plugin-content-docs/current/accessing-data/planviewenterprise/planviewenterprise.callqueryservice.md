@@ -26,7 +26,7 @@ Returns a table with Planview Portfolios data.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returns a table with Planview Portfolios data.
 ```powerquery
 योजना दृश्य एंटरप्राइज़. क्वेरी सेवा को कॉल करें("https://contoso.com/planview", "pve", "select * from ip_user")

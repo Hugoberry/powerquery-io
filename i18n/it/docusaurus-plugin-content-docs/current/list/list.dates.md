@@ -21,12 +21,12 @@ List.Dates(
 
 ## Remarks
 
-Restituisce un elenco di valori <code>date</code> di dimensione <code>count</code>, a partire da <code>start</code>. L'incremento specificato <code>step</code> è un valore <code>duration</code> che viene aggiunto a ogni valore.
+Restituisce un elenco di valori `date` di dimensione `count`, a partire da `start`. L'incremento specificato `step` è un valore `duration` che viene aggiunto a ogni valore.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Creare un elenco di 5 valori a partire dalla sera di capodanno (#date(2011, 12, 31)) con incrementi di 1 giorno (#duration(1, 0, 0, 0)).
 ```powerquery
 List.Dates(#date(2011, 12, 31), 5, #duration(1, 0, 0, 0))

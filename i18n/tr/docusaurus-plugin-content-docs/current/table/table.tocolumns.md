@@ -19,12 +19,12 @@ Table.ToColumns(
 
 ## Remarks
 
-<code>table</code> tablosundan iç içe yerleştirilmiş tablo listesi oluşturur.  Her liste öğesi, sütun değerlerini içeren bir iç listedir.
+`table` tablosundan iç içe yerleştirilmiş tablo listesi oluşturur. Her liste öğesi, sütun değerlerini içeren bir iç listedir.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tabloda yer alan sütun değerlerinin bir listesini oluşturur.
 ```powerquery
 Table.ToColumns(

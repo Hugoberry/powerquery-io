@@ -21,7 +21,7 @@ Value.NullableEquals(
 
 ## Remarks
 
-Returns null if either argument '<code>value1</code>', '<code>value2</code>' is null, otherwise equivalent to Value.Equals.
+Returns null if either argument `value1` or `value2` is null, otherwise equivalent to Value.Equals.
 
 
 

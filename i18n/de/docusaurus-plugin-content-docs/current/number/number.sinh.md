@@ -19,7 +19,7 @@ Number.Sinh(
 
 ## Remarks
 
-Gibt den hyperbolischen Sinus von <code>number</code> zurück.
+Gibt den hyperbolischen Sinus von `number` zurück.
 
 
 

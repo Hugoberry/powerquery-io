@@ -21,13 +21,17 @@ Table.SelectColumns(
 
 ## Remarks
 
-Gibt die <code>table</code> nur mit der angegebenen <code>columns</code> zurück.    <ul>       <li><code>table</code>: Die angegebene Tabelle.</li>       <li><code>columns</code>: Die Liste der Spalten aus der Tabelle <code>table</code>, die zurückgegeben werden. Spalten in der zurückgegebenen Tabelle befinden sich in der Reihenfolge, die in <code>columns</code> aufgeführt ist.</li>       <li><code>missingField</code>: <i>(Optional)</i> Vorgehensweise, wenn die Spalte nicht vorhanden ist.  Beispiele: <code>MissingField.UseNull</code> oder <code>MissingField.Ignore</code>.    </li></ul>
+Gibt die `table` nur mit der angegebenen `columns` zurück.
+
+-   `table`: Die angegebene Tabelle.
+-   `columns`: Die Liste der Spalten aus der Tabelle `table`, die zurückgegeben werden. Spalten in der zurückgegebenen Tabelle befinden sich in der Reihenfolge, die in `columns` aufgeführt ist.
+-   `missingField`: *(Optional)* Vorgehensweise, wenn die Spalte nicht vorhanden ist. Beispiele: `MissingField.UseNull` oder `MissingField.Ignore`.
 
 
 ## Examples
 
-### Example #1 
-Einschließen nur der Spalte &#34;[Name]&#34;.
+### Example #1
+Einschließen nur der Spalte "\[Name\]".
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({
@@ -51,8 +55,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Einschließen nur der Spalten &#34;[CustomerID]&#34; und &#34;[Name]&#34;.
+### Example #2
+Einschließen nur der Spalten "\[CustomerID\]" und "\[Name\]".
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -66,7 +70,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #3 
+### Example #3
 Wenn die eingeschlossene Spalte nicht existiert, ist das Standardergebnis ein Fehler.
 ```powerquery
 Table.SelectColumns(
@@ -81,8 +85,8 @@ Result:
 ```
 
 
-### Example #4 
-Wenn die eingeschlossene Spalte nicht vorhanden ist, erstellt die Option &lt;code&gt;MissingField.UseNull&lt;/code&gt; eine Spalte mit NULL-Werten.
+### Example #4
+Wenn die eingeschlossene Spalte nicht vorhanden ist, erstellt die Option `MissingField.UseNull` eine Spalte mit NULL-Werten.
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

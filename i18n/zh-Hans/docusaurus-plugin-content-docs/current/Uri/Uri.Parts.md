@@ -19,13 +19,13 @@ Uri.Parts(
 
 ## Remarks
 
-返回输入 <code>absoluteUri</code> 的组成部分作为记录，包含诸如方案、主机、端口、路径、查询、片段、用户名和密码等此类值。
+返回输入 `absoluteUri` 的组成部分作为记录，包含诸如方案、主机、端口、路径、查询、片段、用户名和密码等此类值。
 
 
 ## Examples
 
-### Example #1 
-查找绝对 URI &#34;www.adventure-works.com&#34; 的组成部分。
+### Example #1
+查找绝对 URI "www.adventure-works.com" 的组成部分。
 ```powerquery
 Uri.Parts("www.adventure-works.com")
 ```
@@ -45,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 解码百分比编码字符串。
 ```powerquery
 let

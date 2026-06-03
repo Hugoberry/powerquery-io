@@ -5,7 +5,7 @@ title: Marketo.Tables
 # Marketo.Tables
 
 
-Specificare l&#39;URL dell&#39;endpoint dell&#39;API REST Marketo associato all&#39;account.
+Specificare l'URL dell'endpoint dell'API REST Marketo associato all'account.
 
 
 ## Syntax

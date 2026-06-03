@@ -19,12 +19,12 @@ Table.RowCount(
 
 ## Remarks
 
-Restituisce il numero di righe in <code>table</code>.
+Restituisce il numero di righe in `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trovare il numero di righe nella tabella.
 ```powerquery
 Table.RowCount(

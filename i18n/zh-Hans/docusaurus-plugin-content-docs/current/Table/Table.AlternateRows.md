@@ -22,12 +22,17 @@ Table.AlternateRows(
 
 ## Remarks
 
-保留初始偏移量，然后交替选取和跳过下列行。    <ul>       <li><code>table</code>: 输入表。</li>       <li><code>offset</code>: 在开始迭代之前要保留的行数。</li>       <li><code>skip</code>: 每次迭代中要删除的行数。</li>       <li><code>take</code>: 每次迭代中要保留的行数。</li>    </ul>    
+保留初始偏移量，然后交替选取和跳过下列行。
+
+-   `table`: 输入表。
+-   `offset`: 在开始迭代之前要保留的行数。
+-   `skip`: 每次迭代中要删除的行数。
+-   `take`: 每次迭代中要保留的行数。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 从表中创建一个表，从第一行开始，跳过 1 个值，然后保留 1 个值。
 ```powerquery
 Table.AlternateRows(

@@ -19,12 +19,12 @@ Table.SingleRow(
 
 ## Remarks
 
-<code>table</code> satırındaki tek bir satırı döndürür. <code>table</code> birden fazla satır içeriyorsa, özel durum oluşur.
+`table` satırındaki tek bir satırı döndürür. `table` birden fazla satıra sahipse, bir hata oluşur.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablodaki tek satırı döndürür.
 ```powerquery
 Table.SingleRow(Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}))

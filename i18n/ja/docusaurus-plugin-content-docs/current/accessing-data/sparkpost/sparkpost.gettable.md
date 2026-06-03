@@ -27,8 +27,8 @@ SparkPost.GetTable(
 
 ## Examples
 
-### Example #1 
-過去 3 日間に集計されたすべての campaign_ids に関して count_sent と count_rejected 配信メトリックを取得します。 
+### Example #1
+過去 3 日間に集計されたすべての campaign\_ids に関して count\_sent と count\_rejected 配信メトリックを取得します。
 ```powerquery
 Source = SparkPost.GetTable(3, "count_sent,count_rejected", "campaign_id", "metrics/deliverability/campaign")
 ```

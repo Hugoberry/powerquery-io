@@ -20,12 +20,16 @@ Table.RemoveFirstN(
 
 ## Remarks
 
-Retorna uma tabela que não contém o primeiro número especificado de linhas, <code>countOrCondition</code>, da tabela <code>table</code>.    O número de linhas removidas depende do parâmetro opcional <code>countOrCondition</code>.    <ul>    <li> Se <code>countOrCondition</code> for omitido, somente a primeira linha será removida. </li>    <li> Se <code>countOrCondition</code> for um número, essas várias linhas (começando na parte superior) serão removidas. </li>    <li> Se <code>countOrCondition</code> for uma condição, as linhas que atenderem à condição serão removidas até que uma linha não esteja em conformidade com a condição.</li>    </ul>
+Retorna uma tabela que não contém o primeiro número especificado de linhas, `countOrCondition`, da tabela `table`. O número de linhas removidas depende do parâmetro opcional `countOrCondition`.
+
+-   Se `countOrCondition` for omitido, somente a primeira linha será removida.
+-   Se `countOrCondition` for um número, essas várias linhas (começando na parte superior) serão removidas.
+-   Se `countOrCondition` for uma condição, as linhas que atenderem à condição serão removidas até que uma linha não esteja em conformidade com a condição.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Remover a primeira linha da tabela.
 ```powerquery
 Table.RemoveFirstN(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Remover as duas primeiras linhas da tabela.
 ```powerquery
 Table.RemoveFirstN(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Remover da tabela as primeiras linhas em que [CustomerID] &lt;=2.
+### Example #3
+Remover da tabela as primeiras linhas em que \[CustomerID\] &lt;=2.
 ```powerquery
 Table.RemoveFirstN(
     Table.FromRecords({

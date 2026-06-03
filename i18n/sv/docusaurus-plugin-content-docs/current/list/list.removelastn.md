@@ -20,13 +20,17 @@ List.RemoveLastN(
 
 ## Remarks
 
-Returnerar en lista som tar bort de sista <code>countOrCondition</code> elementen från slutet av listan <code>list</code>. Om <code>list</code> har färre än <code>countOrCondition</code> element returneras en tom lista. <ul> <li>Om ett tal anges tas upp till så många objekt bort. </li> <li>Om ett villkor anges slutar listan som returneras med det första nedersta elementet i <code>list</code> som uppfyller villkoret. Om ett objekt inte uppfyller villkoret utvärderas inga fler objekt. </li> <li>Om den här parametern är null tas endast ett objekt bort. </li> </ul>
+Returnerar en lista som tar bort de sista `countOrCondition` elementen från slutet av listan `list`. Om `list` har färre än `countOrCondition` element returneras en tom lista.
+
+-   Om ett tal anges tas upp till så många objekt bort.
+-   Om ett villkor anges tas alla efterföljande matchande objekt i slutet av `list` bort.
+-   Om den här parametern är null tas endast ett objekt bort.
 
 
 ## Examples
 
-### Example #1 
-Skapa en lista från \{1, 2, 3, 4, 5} utan de sista 3 talen.
+### Example #1
+Skapa en lista från \{1, 2, 3, 4, 5\} utan de sista 3 talen.
 ```powerquery
 List.RemoveLastN({1, 2, 3, 4, 5}, 3)
 ```
@@ -37,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-Skapa en lista från \{5, 4, 2, 6, 4} som slutar med ett tal som är mindre än 3.
+### Example #2
+Skapa en lista från \{5, 4, 2, 6, 4\} som slutar med ett tal som är mindre än 3.
 ```powerquery
 List.RemoveLastN({5, 4, 2, 6, 4}, each _ > 3)
 ```

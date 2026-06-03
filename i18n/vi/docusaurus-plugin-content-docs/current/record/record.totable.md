@@ -19,12 +19,12 @@ Record.ToTable(
 
 ## Remarks
 
-Trả về một bảng chứa các cột <code>Name</code> và <code>Value</code> với một hàng cho mỗi trường trong <code>record</code>.
+Trả về một bảng chứa các cột `Name` và `Value` với một hàng cho mỗi trường trong `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tạo một bảng từ bản ghi.
 ```powerquery
 Record.ToTable([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

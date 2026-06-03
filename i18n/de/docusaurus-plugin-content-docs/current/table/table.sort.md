@@ -20,13 +20,13 @@ Table.Sort(
 
 ## Remarks
 
-Sortiert das Element vom Typ "<code>table</code>" unter Verwendung der Liste mit mindestens einem Spaltennamen und "<code>comparisonCriteria</code>" (optional) im Format "\{ \{ col1, comparisonCriteria }, \{col2} }".
+Sortiert das Element vom Typ "`table`" unter Verwendung der Liste mit mindestens einem Spaltennamen und "`comparisonCriteria`" (optional) im Format "\{ \{ col1, comparisonCriteria \}, \{col2\} \}".
 
 
 ## Examples
 
-### Example #1 
-Sortiert die Tabelle anhand der Spalte &#34;OrderID&#34;.
+### Example #1
+Sortiert die Tabelle anhand der Spalte "OrderID".
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -60,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Sortiert die Tabelle anhand der Spalte &#34;OrderID&#34; in absteigender Reihenfolge.
+### Example #2
+Sortiert die Tabelle anhand der Spalte "OrderID" in absteigender Reihenfolge.
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -95,8 +95,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Sortiert die Tabelle zunächst anhand der Spalte &#34;CustomerID&#34; und dann anhand der Spalte &#34;OrderID&#34; (dabei gilt für &#34;CustomerID&#34; die absteigende Reihenfolge).
+### Example #3
+Sortiert die Tabelle zunächst anhand der Spalte "CustomerID" und dann anhand der Spalte "OrderID" (dabei gilt für "CustomerID" die absteigende Reihenfolge).
 ```powerquery
 Table.Sort(
     Table.FromRecords({

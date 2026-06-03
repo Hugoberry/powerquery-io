@@ -19,13 +19,13 @@ Type.FunctionRequiredParameters(
 
 ## Remarks
 
-ส่งกลับจำนวนที่ระบุจำนวนขั้นต่ำของพารามิเตอร์ที่ต้องใช้เพื่อเรียกอินพุต <code>type</code> ของฟังก์ชัน
+ส่งกลับจำนวนที่ระบุจำนวนขั้นต่ำของพารามิเตอร์ที่ต้องใช้เพื่อเรียกอินพุต `type` ของฟังก์ชัน
 
 
 ## Examples
 
-### Example #1 
-ค้นหาจำนวนพารามิเตอร์ที่ต้องการสำหรับฟังก์ชัน &lt;code&gt;(x as number, optional y as text)&lt;/code&gt;
+### Example #1
+ค้นหาจำนวนพารามิเตอร์ที่ต้องการสำหรับฟังก์ชัน `(x as number, optional y as text)`
 ```powerquery
 Type.FunctionRequiredParameters(type function (x as number, optional y as text) as any)
 ```

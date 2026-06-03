@@ -20,7 +20,17 @@ Table.Profile(
 
 ## Remarks
 
-Returnerer en profil for kolonnerne i <code>table</code>.<br />Følgende oplysninger returneres for hver kolonne (når relevant):<ul>  <li>minimum</li>  <li>maksimum</li>  <li>gennemsnit</li>  <li>standardafvigelse</li>  <li>antal</li>  <li>null antal</li>  <li>distinkt antal</li></ul><br />
+Returnerer en profil for kolonnerne i `table`.
+
+Følgende oplysninger returneres for hver kolonne (når relevant):
+
+-   minimum
+-   maksimum
+-   gennemsnit
+-   standardafvigelse
+-   antal
+-   null antal
+-   distinkt antal
 
 
 

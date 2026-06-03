@@ -5,7 +5,7 @@ title: Expression.Constant
 # Expression.Constant
 
 
-Retourne la représentation en code source M d&#39;une valeur de constante.
+Retourne la représentation en code source M d'une valeur de constante.
 
 
 ## Syntax
@@ -24,8 +24,8 @@ Retourne la représentation en code source M d'une valeur de constante.
 
 ## Examples
 
-### Example #1 
-Obtenir la représentation en code source M d&#39;une valeur numérique.
+### Example #1
+Obtenir la représentation en code source M d'une valeur numérique.
 ```powerquery
 Expression.Constant(123)
 ```
@@ -36,8 +36,8 @@ Result:
 ```
 
 
-### Example #2 
-Obtenir la représentation en code source M d&#39;une valeur de date.
+### Example #2
+Obtenir la représentation en code source M d'une valeur de date.
 ```powerquery
 Expression.Constant(#date(2035, 01, 02))
 ```
@@ -48,8 +48,8 @@ Result:
 ```
 
 
-### Example #3 
-Obtenir la représentation en code source M d&#39;une valeur de texte.
+### Example #3
+Obtenir la représentation en code source M d'une valeur de texte.
 ```powerquery
 Expression.Constant("abc")
 ```

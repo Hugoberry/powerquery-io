@@ -5,7 +5,7 @@ title: Number.BitwiseAnd
 # Number.BitwiseAnd
 
 
-Returnerar resultatet av en bitvis &#34;And&#34;-åtgärd mellan de två indatavärdena.
+Returnerar resultatet av en bitvis "And"-åtgärd mellan de två indatavärdena.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Number.BitwiseAnd(
 
 ## Remarks
 
-Returnerar resultatet av en bitvis "And"-åtgärd mellan <code>number1</code> och <code>number2</code>.
+Returnerar resultatet av en bitvis "And"-åtgärd mellan `number1` och `number2`.
 
 
 

@@ -19,13 +19,28 @@ RowExpression.From(
 
 ## Remarks
 
-Returnerar abstrakt syntaxträd (AST) för brödtexten för <code>function</code>, normaliserad till ett <i>raduttryck</i>:<ul>  <li>Funktionen måste vara ett 1-argumentslambda.</li>  <li>Alla referenser till funktionsparametrarna ersätts med <code>RowExpression.Row</code>.</li>  <li>Alla referenser till kolumner ersätts med <code>RowExpression.Column(<i>columnName</i>)</code>.</li>  <li>AST förenklas till att innehålla enbart noder av typerna:   <ul>      <li><code>Constant</code></li>      <li><code>Invocation</code></li>      <li><code>Unary</code></li>      <li><code>Binary</code></li>      <li><code>If</code></li>      <li><code>FieldAccess</code></li>    </ul>  </li></ul><br /><br />Ett fel utlöses om ett raduttrycks-AST inte kan returneras för brödtexten för <code>function</code>.<br />
+Returnerar det abstrakta syntaxträdet (AST) för brödtexten för `function`, normaliserat till ett *raduttryck*:
+
+-   Funktionen måste vara ett 1-argumentslambda.
+-   Alla referenser till funktionsparametrarna ersätts med `RowExpression.Row`.
+-   Alla referenser till kolumner ersätts med `RowExpression.Column(columnName)`.
+-   AST förenklas till att innehålla enbart noder av typerna:
+    -   `Constant`
+    -   `Invocation`
+    -   `Unary`
+    -   `Binary`
+    -   `If`
+    -   `FieldAccess`
+
+Ett fel utlöses om ett raduttrycks-AST inte kan returneras för brödtexten för `function`.  
+  
+Den här funktionen är identisk med `ItemExpression.From`.
 
 
 ## Examples
 
-### Example #1 
-Returnerar AST för brödtexten till funktionen &lt;code&gt;each [CustomerID] = &#34;ALFKI&#34;&lt;/code&gt;
+### Example #1
+Returnerar AST för brödtexten till funktionen `each [CustomerID] = "ALFKI"`.
 ```powerquery
 RowExpression.From(each [CustomerName] = "ALFKI")
 ```

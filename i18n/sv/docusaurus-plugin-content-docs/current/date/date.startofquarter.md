@@ -19,12 +19,12 @@ Date.StartOfQuarter(
 
 ## Remarks
 
-Returnerar början på kvartalet som innehåller <code>dateTime</code>.      <code>dateTime</code> måste vara ett <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde.
+Returnerar början på kvartalet som innehåller `dateTime`. `dateTime` måste vara ett `date`\-, `datetime`\- eller `datetimezone`\-värde.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta kvartalets början för den 10 oktober 2011 08:00.
 ```powerquery
 Date.StartOfQuarter(#datetime(2011, 10, 10, 8, 0, 0))

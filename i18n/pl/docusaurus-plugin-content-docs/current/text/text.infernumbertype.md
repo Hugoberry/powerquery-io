@@ -20,7 +20,7 @@ Text.InferNumberType(
 
 ## Remarks
 
-Wnioskuje szczegółowy typ liczby (Int64.Type, Double.Type itp.) dla elementu <code>text</code>. Błąd jest wywoływany, jeśli element <code>text</code> nie jest liczbą. Można także określić opcjonalny element <code>culture</code> (na przykład „en-US”).
+Wnioskuje szczegółowy typ liczby (Int64.Type, Double.Type itp.) dla elementu `text`. Błąd jest wywoływany, jeśli element `text` nie jest liczbą. Można także określić opcjonalny element `culture` (na przykład „en-US”).
 
 
 

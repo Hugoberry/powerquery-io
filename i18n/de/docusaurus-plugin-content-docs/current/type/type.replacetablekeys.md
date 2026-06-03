@@ -20,18 +20,25 @@ Type.ReplaceTableKeys(
 
 ## Remarks
 
-Gibt einen neuen Tabellentyp zurück, in dem alle Schlüssel durch die Schlüssel aus der angegebenen Liste ersetzt wurden.<br />    <br />    Jeder Schlüssel wird mithilfe eines Datensatzes in der folgenden Form definiert:    <ul>      <li>        <code>Spalten</code>: eine Liste der Spaltennamen, die den Schlüssel definieren.      </li>      <li>        <code>Primär</code>: <code>true</code>, wenn der Schlüssel der Primärschlüssel der Tabelle ist; andernfalls <code>false</code>      </li>    </ul>    Die angegebene Schlüsselliste wird überprüft, um sicherzustellen, dass nicht mehr als ein Primärschlüssel definiert ist und dass alle Schlüsselspaltennamen für den Tabellentyp vorhanden sind.    
+Gibt einen neuen Tabellentyp zurück, in dem alle Schlüssel durch die Schlüssel aus der angegebenen Liste ersetzt wurden.  
+  
+Jeder Schlüssel wird mithilfe eines Datensatzes in der folgenden Form definiert:
+
+-   `Spalten`: eine Liste der Spaltennamen, die den Schlüssel definieren.
+-   `Primär`: `true`, wenn der Schlüssel der Primärschlüssel der Tabelle ist; andernfalls `false`
+
+Die angegebene Schlüsselliste wird überprüft, um sicherzustellen, dass nicht mehr als ein Primärschlüssel definiert ist und dass alle Schlüsselspaltennamen für den Tabellentyp vorhanden sind.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ersetzen Sie die Schlüsselinformationen für einen Tabellentyp.
 ```powerquery
 let
     BaseType = type table [ID = number, FirstName = text, LastName = text],
     KeysAdded = Type.ReplaceTableKeys(
-        BaseType, 
+        BaseType,
         {
             [Columns = {"ID"}, Primary = true],
             [Columns = {"FirstName", "LastName"}, Primary = false]
@@ -51,7 +58,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Löschen Sie die Schlüsselinformationen, die zuvor für einen Tabellentyp definiert wurden.
 ```powerquery
 let

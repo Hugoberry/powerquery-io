@@ -20,7 +20,7 @@ Uri.Combine(
 
 ## Remarks
 
-入力 <code>baseUri</code> と相対 <code>relativeUri</code> を組み合わせた絶対 URI を返します。
+入力 `baseUri` と相対 `relativeUri` を組み合わせた絶対 URI を返します。
 
 
 

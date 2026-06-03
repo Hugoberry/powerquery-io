@@ -19,12 +19,12 @@ DateTime.Date(
 
 ## Remarks
 
-ส่งกลับคอมโพเนนต์วันที่ของ <code>dateTime</code> ค่า <code>date</code>, <code>datetime</code>  หรือ <code>datetimezone</code> ที่ระบุ
+ส่งกลับคอมโพเนนต์วันที่ของพารามิเตอร์ `dateTime` หากพารามิเตอร์เป็นค่า `date`, `datetime` หรือ `datetimezone` หรือ `null` หากพารามิเตอร์เป็น `null`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ค้นหาค่าวันที่ของ #datetime(2010, 12, 31, 11, 56, 02)
 ```powerquery
 DateTime.Date(#datetime(2010, 12, 31, 11, 56, 02))

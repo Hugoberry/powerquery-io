@@ -22,13 +22,13 @@ Table.AddColumn(
 
 ## Remarks
 
-तालिका <code>table</code> में <code>newColumnName</code> नाम का स्तंभ जोड़ता है. इनपुट के रूप ली गई प्रत्येक पंक्ति के साथ निर्दिष्ट चयन फ़ंक्शन <code>columnGenerator</code> का उपयोग करके स्तंभ के लिए मान को संगणित किया जाता है.
+तालिका `table` में `newColumnName` नाम का स्तंभ जोड़ता है. इनपुट के रूप ली गई प्रत्येक पंक्ति के साथ निर्दिष्ट चयन फ़ंक्शन `columnGenerator` का उपयोग करके स्तंभ के लिए मान को संगणित किया जाता है.
 
 
 ## Examples
 
-### Example #1 
-तालिका में &#34;TotalPrice&#34; नाम का एक संख्या स्तंभ जोड़ें, जिसका हर मान [Price] और [Shipping] स्तंभों का योग हो.
+### Example #1
+तालिका में "TotalPrice" नाम का एक संख्या स्तंभ जोड़ें, जिसका हर मान \[Price\] और \[Shipping\] स्तंभों का योग हो.
 ```powerquery
 Table.AddColumn(
     Table.FromRecords({

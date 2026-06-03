@@ -20,6 +20,6 @@ Dynamics365BusinessCentralOnPremises.Contents(
 
 ## Remarks
 
-Hiermee wordt een tabel met relevante gegevens voor Dynamics 365 Business Central (on-premises) geretourneerd. 
+Hiermee wordt een tabel met relevante gegevens voor Dynamics 365 Business Central (on-premises) geretourneerd.
 
 

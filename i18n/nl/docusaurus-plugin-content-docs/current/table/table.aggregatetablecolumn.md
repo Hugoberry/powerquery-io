@@ -21,13 +21,13 @@ Table.AggregateTableColumn(
 
 ## Remarks
 
-Maakt een aggregatie van tabellen in <code>table</code>[<code>column</code>] in meerdere kolommen waarin aggregatiewaarden voor de tabellen staan. <code>aggregations</code> wordt gebruikt voor het opgeven van de kolommen die de te aggregeren tabellen bevatten, de aggregatiefuncties die moeten worden toegepast op de tabellen om de waarden voor die tabellen te generen, en de namen van de aggregatietabellen die moeten worden gemaakt.
+Maakt een aggregatie van tabellen in `table`\[`column`\] in meerdere kolommen waarin aggregatiewaarden voor de tabellen staan. `aggregations` wordt gebruikt voor het opgeven van de kolommen die de te aggregeren tabellen bevatten, de aggregatiefuncties die moeten worden toegepast op de tabellen om de waarden voor die tabellen te generen, en de namen van de aggregatietabellen die moeten worden gemaakt.
 
 
 ## Examples
 
-### Example #1 
-De tabelkolommen aggregeren in &lt;code&gt;[t]&lt;/code&gt; in de tabel &lt;code&gt;\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}&lt;/code&gt; in de som van &lt;code&gt;[t.a]&lt;/code&gt;, het minimum en maximum van &lt;code&gt;[t.b]&lt;/code&gt; en het aantal waarden in &lt;code&gt;[t.a]&lt;/code&gt;.
+### Example #1
+De tabelkolommen aggregeren in `[t]` in de tabel `{[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}` in de som van `[t.a]`, het minimum en maximum van `[t.b]` en het aantal waarden in `[t.a]`.
 ```powerquery
 Table.AggregateTableColumn(
     Table.FromRecords(

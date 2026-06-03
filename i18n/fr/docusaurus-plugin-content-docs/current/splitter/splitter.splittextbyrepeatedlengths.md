@@ -25,8 +25,8 @@ Retourne une fonction qui fractionne le texte en une liste de textes après la l
 
 ## Examples
 
-### Example #1 
-Diviser de façon répétée l&#39;entrée en morceaux de trois caractères, en commençant par le début de l&#39;entrée
+### Example #1
+Diviser de façon répétée l'entrée en morceaux de trois caractères, en commençant par le début de l'entrée
 ```powerquery
 Splitter.SplitTextByRepeatedLengths(3)("12345678")
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Diviser de façon répétée l&#39;entrée en morceaux de trois caractères, en commençant par la fin de l&#39;entrée.
+### Example #2
+Diviser de façon répétée l'entrée en morceaux de trois caractères, en commençant par la fin de l'entrée.
 ```powerquery
 let
     startAtEnd = true

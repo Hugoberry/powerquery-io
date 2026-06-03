@@ -27,8 +27,8 @@ Traduit un ensemble de colonnes dans une table en paires attribut-valeur, associ
 
 ## Examples
 
-### Example #1 
-Prend les colonnes &#34; a &#34;, &#34; b &#34; et &#34; c &#34; dans la table &lt;code&gt;(\{[ key = &#34;x&#34;, a = 1, b = null, c = 3 ], [ key = &#34;y&#34;, a = 2, b = 4, c = null ]})&lt;/code&gt; et annule le basculement en paires d&#39;attribut-valeur.
+### Example #1
+Prend les colonnes « a », « b » et « c » dans la table `({[ key = "x", a = 1, b = null, c = 3 ], [ key = "y", a = 2, b = 4, c = null ]})` et annule le basculement en paires d'attribut-valeur.
 ```powerquery
 Table.Unpivot(
     Table.FromRecords({

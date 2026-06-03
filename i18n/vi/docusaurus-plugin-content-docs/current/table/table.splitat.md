@@ -20,12 +20,12 @@ Table.SplitAt(
 
 ## Remarks
 
-Trả về danh sách chứa hai bảng: một bảng có N hàng <code>table</code> đầu tiên (như được <code>count</code> chỉ định) và một bảng chứa các hàng <code>table</code> còn lại.Nếu các bảng trong danh sách trả về được liệt kê chính xác một lần và theo thứ tự, hàm sẽ chỉ liệt kê <code>table</code> một lần.
+Trả về danh sách chứa hai bảng: một bảng có N hàng `table` đầu tiên (như được `count` chỉ định) và một bảng chứa các hàng `table` còn lại. Nếu các bảng trong danh sách trả về được liệt kê chính xác một lần và theo thứ tự, hàm sẽ chỉ liệt kê `table` một lần.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trả về 2 hàng đầu tiên của bảng và các hàng còn lại trong bảng.
 ```powerquery
 Table.SplitAt(#table({"a", "b", "c"}, {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}), 2)

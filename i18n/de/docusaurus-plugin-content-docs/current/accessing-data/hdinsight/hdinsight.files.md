@@ -20,7 +20,7 @@ HdInsight.Files(
 
 ## Remarks
 
-Gibt eine Tabelle mit je einer Zeile für jede BLOB-Datei unter der Container-URL '<code>account</code>' aus einem Azure-Speichertresor zurück. Jede Zeile enthält Eigenschaften der Datei sowie einen Link zu ihrem Inhalt.
+Gibt eine Tabelle mit je einer Zeile für jede BLOB-Datei unter der Container-URL '`account`' aus einem Azure-Speichertresor zurück. Jede Zeile enthält Eigenschaften der Datei sowie einen Link zu ihrem Inhalt.
 
 
 

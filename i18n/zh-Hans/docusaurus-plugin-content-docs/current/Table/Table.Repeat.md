@@ -20,12 +20,12 @@ Table.Repeat(
 
 ## Remarks
 
-从输入 <code>table</code> 返回一个表，其中的列重复了指定的 <code>count</code> 次。
+从输入 `table` 返回一个表，其中的列重复了指定的 `count` 次。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 对表中的行重复两次。
 ```powerquery
 Table.Repeat(

@@ -21,13 +21,17 @@ Table.SelectColumns(
 
 ## Remarks
 
-Restituisce il <code>table</code> con solo il <code>columns</code>.    <ul>       <li><code>table</code> specificato: la tabella specificata.</li>       <li><code>columns</code>: l'elenco di colonne della tabella <code>table</code> da restituire. Le colonne nella tabella restituita sono nell'ordine elencato in <code>columns</code>.</li>       <li><code>missingField</code>: <i>(Facoltativo)</i> Cosa fare se la colonna non esiste.  Esempio:<code>MissingField.UseNull</code> or <code>MissingField.Ignore</code>.    </li></ul>
+Restituisce il `table` con solo il `columns`.
+
+-   `table`: La tabella fornita.
+-   `columns`: l'elenco di colonne della tabella `table` da restituire. Le colonne nella tabella restituita sono nell'ordine elencato in `columns`.
+-   `missingField`: *(Facoltativo)* Cosa fare se la colonna non esiste. Esempio: `MissingField.UseNull` o `MissingField.Ignore`.
 
 
 ## Examples
 
-### Example #1 
-Includere solo la colonna [Name].
+### Example #1
+Includere solo la colonna \[Name\].
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({
@@ -51,8 +55,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Includere solo le colonne [CustomerID] e [Name].
+### Example #2
+Includere solo le colonne \[CustomerID\] e \[Name\].
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -66,7 +70,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #3 
+### Example #3
 Se la colonna inclusa non esiste, il risultato predefinito sarà un errore.
 ```powerquery
 Table.SelectColumns(
@@ -81,8 +85,8 @@ Result:
 ```
 
 
-### Example #4 
-Se la colonna inclusa non esiste, l&#39;opzione &lt;code&gt;MissingField.UseNull&lt;/code&gt; crea una colonna di valori Null.
+### Example #4
+Se la colonna inclusa non esiste, l'opzione `MissingField.UseNull` crea una colonna di valori Null.
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

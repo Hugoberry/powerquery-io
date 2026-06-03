@@ -5,7 +5,7 @@ title: Number.Atan
 # Number.Atan
 
 
-Restituisce l&#39;arcotangente del numero.
+Restituisce l'arcotangente del numero.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Number.Atan(
 
 ## Remarks
 
-Restituisce l'arcotangente di <code>number</code>.
+Restituisce l'arcotangente di `number`.
 
 
 

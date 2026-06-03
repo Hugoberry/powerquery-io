@@ -22,12 +22,17 @@ Table.AlternateRows(
 
 ## Remarks
 
-Conserva el desplazamiento inicial y entonces alterna entre tomar y saltar las siguientes filas.    <ul>       <li><code>table</code>: la tabla de entrada.</li>       <li><code>offset</code>: el número de filas que desea conservar antes de iniciar las iteraciones.</li>       <li><code>skip</code>: el número de filas que desea quitar en cada iteración.</li>       <li><code>take</code>: el número de filas que desea conservar en cada iteración.</li>    </ul>    
+Conserva el desplazamiento inicial y entonces alterna entre tomar y saltar las siguientes filas.
+
+-   `table`: la tabla de entrada.
+-   `offset`: el número de filas que desea conservar antes de iniciar las iteraciones.
+-   `skip`: el número de filas que desea quitar en cada iteración.
+-   `take`: el número de filas que desea conservar en cada iteración.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devolver una tabla de la tabla que, empezando en la primera fila, salta un valor y, a continuación, conserva otro valor.
 ```powerquery
 Table.AlternateRows(

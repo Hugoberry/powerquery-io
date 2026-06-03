@@ -24,7 +24,7 @@ Retourneert het rijtype van het opgegeven tabeltype. Het resultaat is altijd een
 
 ## Examples
 
-### Example #1 
+### Example #1
 De rijtypegegevens voor een eenvoudige tabel retourneren.
 ```powerquery
 let

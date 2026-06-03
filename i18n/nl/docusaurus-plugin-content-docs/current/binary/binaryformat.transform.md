@@ -20,12 +20,12 @@ BinaryFormat.Transform(
 
 ## Remarks
 
-Retourneert een binaire indeling die de waarden transformeert die door een andere binaire indeling zijn gelezen.  De parameter <code>binaryFormat</code> specificeert de binaire indeling die zal worden gebruikt om de waarde te lezen.  <code>function</code> wordt aangeroepen met de gelezen waarde en retourneert de getransformeerde waarde.
+Retourneert een binaire indeling die de waarden transformeert die door een andere binaire indeling zijn gelezen. De parameter `binaryFormat` specificeert de binaire indeling die zal worden gebruikt om de waarde te lezen. `function` wordt aangeroepen met de gelezen waarde en retourneert de getransformeerde waarde.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een byte lezen en hier één aan toevoegen.
 ```powerquery
 let

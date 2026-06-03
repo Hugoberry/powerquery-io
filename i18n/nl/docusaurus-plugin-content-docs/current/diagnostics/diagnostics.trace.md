@@ -22,12 +22,18 @@ Diagnostics.Trace(
 
 ## Remarks
 
-Als tracering is ingeschakeld, wordt hiermee een tracering (<code>message</code>) geschreven en wordt <code>value</code> geretourneerd. Er wordt met een optionele parameter (<code>delayed</code>) opgegeven of de evaluatie van <code>value</code> moet worden uitgesteld totdat het bericht is getraceerd. <code>traceLevel</code> kan een van de volgende waarden hebben:    <code>TraceLevel.Critical</code>    <code>TraceLevel.Error</code>,    <code>TraceLevel.Warning</code>,    <code>TraceLevel.Information</code>,    <code>TraceLevel.Verbose</code>.  
+Schrijft een spoor `message` als tracering is ingeschakeld en retourneert `value`. Een optionele parameter `delayed` geeft aan of de evaluatie van `value` moet worden uitgesteld totdat het bericht wordt getraceerd. `traceLevel` kan een van de volgende waarden hebben:
+
+-   `TraceLevel.Critical`
+-   `TraceLevel.Error`
+-   `TraceLevel.Warning`
+-   `TraceLevel.Information`
+-   `TraceLevel.Verbose`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Het bericht traceren voordat de functie Text.From wordt aangeroepen en het resultaat retourneren.
 ```powerquery
 Diagnostics.Trace(TraceLevel.Information, "TextValueFromNumber", () => Text.From(123), true)

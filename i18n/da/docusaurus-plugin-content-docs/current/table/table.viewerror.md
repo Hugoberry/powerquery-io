@@ -5,7 +5,7 @@ title: Table.ViewError
 # Table.ViewError
 
 
-Opretter en ændret fejlpost, som ikke udløser en fallback, når den kastes af en handler, der er defineret på en visning (via Table.View).
+Opretter en ændret fejlpost, som ikke udløser en fallback, når den udløses af en handler, der er defineret på en visning (via Table.View).
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Table.ViewError(
 
 ## Remarks
 
-Opretter en ændret fejlpost fra <code>errorRecord</code>, som ikke udløser en fallback, når den kastes af en handler, der er defineret på en visning (via Table.View).
+Opretter en ændret fejlpost fra `errorRecord`, som ikke udløser en fallback, når den udløses af en handler, der er defineret på en visning (via Table.View).
 
 
 

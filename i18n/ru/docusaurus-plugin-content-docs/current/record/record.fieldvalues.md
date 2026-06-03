@@ -19,12 +19,12 @@ Record.FieldValues(
 
 ## Remarks
 
-Возвращает список значений полей в записи <code>record</code>.
+Возвращает список значений полей в записи `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Нахождение значений полей в записи.
 ```powerquery
 Record.FieldValues([CustomerID = 1, Name = "Bob", Phone = "123-4567"])

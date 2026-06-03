@@ -25,7 +25,7 @@ Retourne un type qui représente les enregistrements avec des contraintes de typ
 
 ## Examples
 
-### Example #1 
+### Example #1
 Générez dynamiquement un type de table.
 ```powerquery
 let

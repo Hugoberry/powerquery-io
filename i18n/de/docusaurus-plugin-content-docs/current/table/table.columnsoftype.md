@@ -20,13 +20,13 @@ Table.ColumnsOfType(
 
 ## Remarks
 
-Gibt eine Liste mit den Namen der Spalten aus Tabelle "<code>table</code>" zurück, die mit den in "<code>listOfTypes</code>" angegebenen Typen übereinstimmen.
+Gibt eine Liste mit den Namen der Spalten aus Tabelle "`table`" zurück, die mit den in "`listOfTypes`" angegebenen Typen übereinstimmen.
 
 
 ## Examples
 
-### Example #1 
-Gibt die Namen von Spalten vom Typ &#34;Number.Type&#34; aus der Tabelle zurück.
+### Example #1
+Gibt die Namen von Spalten vom Typ "Number.Type" aus der Tabelle zurück.
 ```powerquery
 Table.ColumnsOfType(
     Table.FromRecords(

@@ -19,12 +19,12 @@ Table.ApproximateRowCount(
 
 ## Remarks
 
-Gibt die ungefähre Anzahl von Zeilen im <code>table</code> zurück, oder einen Fehler, wenn die Datenquelle keine Näherung unterstützt.
+Gibt die ungefähre Anzahl von Zeilen im `table` zurück, oder einen Fehler, wenn die Datenquelle keine Näherung unterstützt.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Schätzen Sie die Anzahl unterschiedlicher Kombinationen aus Stadt und Bundesland in einer großen Tabelle, die als Kardinalitätsschätzung für die Spalten verwendet werden kann. Kardinalitätsschätzungen sind wichtig genug, sodass verschiedene Datenquellen (z. B. SQL Server) diese spezifische Näherung unterstützen und häufig einen Algorithmus namens HyperLogLog verwenden.
 ```powerquery
 Table.ApproximateRowCount(Table.Distinct(Table.SelectColumns(sqlTable, {"city", "state"})))

@@ -19,12 +19,12 @@ Number.Log10(
 
 ## Remarks
 
-Trả về lô-ga-rít cơ số 10 của số <code>number</code>. Nếu <code>number</code> là giá trị rỗng thì <code>Number.Log10</code> sẽ trả về giá trị rỗng.
+Trả về lô-ga-rít cơ số 10 của số `number`. Nếu `number` là giá trị rỗng thì `Number.Log10` sẽ trả về giá trị rỗng.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Nhận lô-ga-rít cơ số 10 của 2.
 ```powerquery
 Number.Log10(2)

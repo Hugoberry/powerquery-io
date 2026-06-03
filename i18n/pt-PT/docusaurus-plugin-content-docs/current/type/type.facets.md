@@ -19,7 +19,7 @@ Type.Facets(
 
 ## Remarks
 
-Devolve um registo com as facetas de <code>type</code>.
+Devolve um registo com as facetas de `type`.
 
 
 

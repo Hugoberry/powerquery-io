@@ -5,7 +5,7 @@ title: Logical.FromText
 # Logical.FromText
 
 
-Opretter en logisk værdi ud fra tekstværdien &#34;true&#34; og &#34;false&#34;.
+Opretter en logisk værdi ud fra tekstværdien "true" og "false".
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.FromText(
 
 ## Remarks
 
-Opretter en logisk værdi ud fra tekstværdien <code>text</code>, "true" eller "false". Hvis <code>text</code> indeholder en anden streng, udløses der en undtagelse. Der skelnes mellem store og små bogstaver i tekstværdien <code>text</code>.
+Opretter en logisk værdi ud fra tekstværdien `text`, "true" eller "false". Hvis `text` indeholder en anden streng, udløses der en fejl. Der skelnes mellem store og små bogstaver i tekstværdien `text`.
 
 
 ## Examples
 
-### Example #1 
-Opret en logisk værdi ud fra tekststrengen &#34;true&#34;.
+### Example #1
+Opret en logisk værdi ud fra tekststrengen "true".
 ```powerquery
 Logical.FromText("true")
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Opret en logisk værdi ud fra tekststrengen &#34;a&#34;.
+### Example #2
+Opret en logisk værdi ud fra tekststrengen "a".
 ```powerquery
 Logical.FromText("a")
 ```

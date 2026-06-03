@@ -20,12 +20,12 @@ Table.FromColumns(
 
 ## Remarks
 
-Opretter en tabel af typen <code>columns</code> ud fra en liste <code>lists</code>, der indeholder indlejrede lister med kolonnenavne og værdier.    Hvis nogen af kolonnerne har flere værdier end andre, udfyldes de manglende værdier med standardværdien 'null', hvis kolonnen må være null.
+Opretter en tabel af typen `columns` ud fra en liste `lists`, der indeholder indlejrede lister med kolonnenavne og værdier. Hvis nogen af kolonnerne har flere værdier end andre, udfyldes de manglende værdier med standardværdien 'null', hvis kolonnen må være null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returner en tabel fra en liste over kundenavne i en liste. Hver værdi i kundelisteelementet bliver en rækkeværdi, og hver liste bliver en kolonne.
 ```powerquery
 Table.FromColumns({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Opret en tabel ud fra en angivet liste over kolonner og en liste over kolonnenavne.
 ```powerquery
 Table.FromColumns(
@@ -68,7 +68,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Opret en tabel med et andet antal kolonner pr. række. Den manglende rækkeværdi er null.
 ```powerquery
 Table.FromColumns(

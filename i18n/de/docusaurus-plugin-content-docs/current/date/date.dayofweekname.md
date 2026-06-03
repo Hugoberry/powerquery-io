@@ -20,12 +20,12 @@ Date.DayOfWeekName(
 
 ## Remarks
 
-Gibt den Namen des Wochentags für die Angabe "<code>date</code>" zurück. Optional kann auch ein Element vom Typ "<code>culture</code>" angegeben werden (Beispiel: "de-DE").
+Gibt den Namen des Wochentags für die Angabe "`date`" zurück. Optional kann auch ein Element vom Typ "`culture`" angegeben werden (Beispiel: "de-DE").
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ruft den Namen des Wochentags ab.
 ```powerquery
 Date.DayOfWeekName(#date(2011, 12, 31), "en-US")

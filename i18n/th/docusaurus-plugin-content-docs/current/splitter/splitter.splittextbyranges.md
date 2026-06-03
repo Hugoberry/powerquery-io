@@ -25,7 +25,7 @@ Splitter.SplitTextByRanges(
 
 ## Examples
 
-### Example #1 
+### Example #1
 แยกข้อมูลป้อนเข้าตามคู่ตําแหน่งและความยาวที่ระบุ เริ่มต้นจากจุดเริ่มต้นของข้อมูลป้อนเข้า โปรดทราบว่าช่วงในตัวอย่างนี้ทับซ้อนกัน
 ```powerquery
 Splitter.SplitTextByRanges({{0, 4}, {2, 10}})("codelimiter")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 แยกข้อมูลป้อนเข้าตามคู่ตําแหน่งและความยาวที่ระบุ โดยเริ่มต้นจากจุดสิ้นสุดของข้อมูลป้อนเข้า
 ```powerquery
 let
@@ -52,7 +52,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 แยกข้อมูลป้อนเข้าเป็นรหัสไปรษณีย์ที่มีความยาวคงที่ตามด้วยชื่อเมืองที่มีความยาวตัวแปร
 ```powerquery
 Splitter.SplitTextByRanges({{0, 5}, {5, null}})("98052Redmond")

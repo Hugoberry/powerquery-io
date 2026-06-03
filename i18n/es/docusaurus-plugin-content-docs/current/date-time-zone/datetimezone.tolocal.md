@@ -19,12 +19,12 @@ DateTimeZone.ToLocal(
 
 ## Remarks
 
-Cambia la información de zona horaria del valor de datetimezone <code>dateTimeZone</code> por la información de zona horaria local.    Si <code>dateTimeZone</code> no tiene un componente de zona horaria, se agrega la información local de zona horaria.
+Cambia la información de zona horaria del valor de datetimezone `dateTimeZone` por la información de zona horaria local. Si `dateTimeZone` no tiene un componente de zona horaria, se agrega la información local de zona horaria.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Cambie la información de zona horaria para el #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) a la zona horaria local (suponiendo PST).
 ```powerquery
 DateTimeZone.ToLocal(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30))

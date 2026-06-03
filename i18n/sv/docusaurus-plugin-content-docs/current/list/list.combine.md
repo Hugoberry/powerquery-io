@@ -19,13 +19,13 @@ List.Combine(
 
 ## Remarks
 
-Använder en lista med listor, <code>lists</code>, och slår ihop dem till en enda ny lista.
+Använder en lista med listor, `lists`, och slår ihop dem till en enda ny lista.
 
 
 ## Examples
 
-### Example #1 
-Kombinera de två enkla listorna \{1, 2} och \{3, 4}.
+### Example #1
+Kombinera de två enkla listorna \{1, 2\} och \{3, 4\}.
 ```powerquery
 List.Combine({{1, 2}, {3, 4}})
 ```
@@ -41,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-Kombinera de två listorna, \{1, 2} och \{3, \{4, 5}}, av vilka den ena innehåller en kapslad lista.
+### Example #2
+Kombinera de två listorna, \{1, 2\} och \{3, \{4, 5\}\}, av vilka den ena innehåller en kapslad lista.
 ```powerquery
 List.Combine({{1, 2}, {3, {4, 5}}})
 ```

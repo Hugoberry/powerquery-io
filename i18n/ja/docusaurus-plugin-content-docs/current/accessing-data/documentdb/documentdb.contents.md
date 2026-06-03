@@ -22,6 +22,6 @@ DocumentDB.Contents(
 
 ## Remarks
 
-<code>url</code> の Azure Cosmos DB データベースのテーブルを返します。<code>database</code> が指定されている場合、コレクションのテーブルが代わりに返されます。また、<code>options</code> レコードにフィールド <code>Query</code> が指定されている場合、指定されたデータベースおよび/またはコレクションのいずれかで実行されたクエリの結果が返されます。
+`url` の Azure Cosmos DB データベースのテーブルを返します。`database` が指定されている場合、コレクションのテーブルが代わりに返されます。また、`options` レコードにフィールド `Query` が指定されている場合、指定されたデータベースおよび/またはコレクションのいずれかで実行されたクエリの結果が返されます。
 
 

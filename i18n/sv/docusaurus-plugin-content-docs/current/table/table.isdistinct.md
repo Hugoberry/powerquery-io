@@ -20,12 +20,12 @@ Table.IsDistinct(
 
 ## Remarks
 
-Anger om <code>table</code> bara innehåller distinkta rader (inga dubbletter). Returnerar <code>true</code> om raderna är distinkta. Annars returneras <code>false</code>.    En valfri parameter, <code>comparisonCriteria</code>, anger vilka kolumner i tabellen som testas för duplicering. Om <code>comparisonCriteria</code> inte anges testas alla kolumner.
+Anger om `table` bara innehåller distinkta rader (inga dubbletter). Returnerar `true` om raderna är distinkta. Annars returneras `false`. En valfri parameter, `comparisonCriteria`, anger vilka kolumner i tabellen som testas för duplicering. Om `comparisonCriteria` inte anges testas alla kolumner.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kontrollera om tabellen är distinkt.
 ```powerquery
 Table.IsDistinct(
@@ -44,7 +44,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Kontrollera om tabellen är distinkt i kolumnen.
 ```powerquery
 Table.IsDistinct(

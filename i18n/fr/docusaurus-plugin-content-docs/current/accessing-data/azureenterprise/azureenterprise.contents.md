@@ -5,7 +5,7 @@ title: AzureEnterprise.Contents
 # AzureEnterprise.Contents
 
 
-Entrer l&#39;URL du point de terminaison de l&#39;API REST Azure Enterprise associé à votre inscription
+Entrer l'URL du point de terminaison de l'API REST Azure Enterprise associé à votre inscription
 
 
 ## Syntax
@@ -25,8 +25,8 @@ Retourne les résultats binaires de l'appel à l'URL fournie pour l'API Azure En
 
 ## Examples
 
-### Example #1 
-Utilisation de la fonction AzureEnterprise.Contents pour retourner les résultats d&#39;un rapport spécifique.
+### Example #1
+Utilisation de la fonction AzureEnterprise.Contents pour retourner les résultats d'un rapport spécifique.
 ```powerquery
         let
             report = Table.FromColumns({Lines.FromBinary(Binary.Buffer(AzureEnterprise.Contents("https://ea.azure.com/rest/12345/usage-report", [month="2014-04", type="summary", fmt="Csv"])),null,null,1252)}),

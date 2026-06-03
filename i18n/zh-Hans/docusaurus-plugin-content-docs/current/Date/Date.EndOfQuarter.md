@@ -19,12 +19,14 @@ Date.EndOfQuarter(
 
 ## Remarks
 
-返回包含 <code>dateTime</code> 的季度结束值。保留时区信息。 <ul> <li><code>dateTime</code>: 从中计算季度结束值的<code>date</code>、<code>datetime</code>或 <code>datetimezone</code>值</li>      </ul>
+返回包含 `dateTime` 的季度结束值。保留时区信息。
+
+-   `dateTime`: 从中计算季度结束值的`date`、`datetime`或 `datetimezone`值
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 查找 2011 年 10 月 10 日上午 8:00 的季度结束值。
 ```powerquery
 Date.EndOfQuarter(#datetime(2011, 10, 10, 8, 0, 0))

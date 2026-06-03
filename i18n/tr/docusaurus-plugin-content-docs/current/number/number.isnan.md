@@ -19,13 +19,13 @@ Number.IsNaN(
 
 ## Remarks
 
-Değerin NaN (Sayı değil) olup olmadığını gösterir. <code>number</code> <code>Number.IsNaN</code> ile eşdeğer ise <code>true</code>, aksi halde <code>false</code> döndürür.
+Değerin NaN (Sayı değil) olup olmadığını gösterir. `number` `Number.NaN` ile eşdeğer ise `true`, aksi halde `false` döndürür.
 
 
 ## Examples
 
-### Example #1 
-0&#39;ın 0&#39;a bölümünün NaN olup olmadığını denetler.
+### Example #1
+0'ın 0'a bölümünün NaN olup olmadığını denetler.
 ```powerquery
 Number.IsNaN(0/0)
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-1&#39;ın 0&#39;a bölümünün NaN olup olmadığını denetler.
+### Example #2
+1'ın 0'a bölümünün NaN olup olmadığını denetler.
 ```powerquery
 Number.IsNaN(1/0)
 ```

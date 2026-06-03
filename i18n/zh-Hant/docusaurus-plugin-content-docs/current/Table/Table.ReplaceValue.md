@@ -23,12 +23,18 @@ Table.ReplaceValue(
 
 ## Remarks
 
-在 <code>table</code> 的指定資料行中，以 <code>newValue</code> 取代 <code>oldValue</code>。
+將表格中指定欄位的值替換為新值。
+
+-   `table`: 要搜尋的資料表。
+-   `oldValue`: 要取代的值。
+-   `newValue`: 取代值。
+-   `replacer`: 要使用的取代函式。函式可以是 `Replacer.ReplaceText`，用新文字取代原始文字: `Replacer.ReplaceValue`，用新值取代原始值: 或是自訂的取代函式。
+-   `columnsToSearch`: 包含表格中特定欄位或欄位清單，用於搜尋要取代的值。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 以資料行 B 中的「world」取代文字「goodbye」，僅比對整個值。
 ```powerquery
 Table.ReplaceValue(
@@ -54,7 +60,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 以資料行 B 中的「or」取代文字「ur」，比對值的任何部分。
 ```powerquery
 Table.ReplaceValue(
@@ -78,7 +84,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 匿名美國員工的名稱。
 ```powerquery
 Table.ReplaceValue(
@@ -102,7 +108,7 @@ Table.FromRecords({
 ```
 
 
-### Example #4 
+### Example #4
 匿名美國員工的所有資料行。
 ```powerquery
 Table.ReplaceValue(

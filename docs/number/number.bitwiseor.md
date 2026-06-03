@@ -5,7 +5,7 @@ title: Number.BitwiseOr
 # Number.BitwiseOr
 
 
-Returns the result of performing a bitwise &#34;Or&#34; between the two inputs.
+Returns the result of performing a bitwise "Or" between the two inputs.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Number.BitwiseOr(
 
 ## Remarks
 
-Returns the result of performing a bitwise "Or" between <code>number1</code> and <code>number2</code>.
+Returns the result of performing a bitwise "Or" between `number1` and `number2`.
 
 
 

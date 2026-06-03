@@ -21,13 +21,13 @@ Table.Max(
 
 ## Remarks
 
-Returns the largest row in the <code>table</code>, given the <code>comparisonCriteria</code>. If the table is empty, the optional <code>default</code> value is returned. 
+Returns the largest row in the `table`, given the `comparisonCriteria`. If the table is empty, the optional `default` value is returned.
 
 
 ## Examples
 
-### Example #1 
-Find the row with the largest value in column [a] in the table &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8]})&lt;/code&gt;.
+### Example #1
+Find the row with the largest value in column \[a\] in the table `({[a = 2, b = 4], [a = 6, b = 8]})`.
 ```powerquery
 Table.Max(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Find the row with the largest value in column [a] in the table &lt;code&gt;(\{})&lt;/code&gt;. Return -1 if empty.
+### Example #2
+Find the row with the largest value in column \[a\] in the table `({})`. Return -1 if empty.
 ```powerquery
 Table.Max(#table({"a"}, {}), "a", -1)
 ```

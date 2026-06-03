@@ -20,18 +20,24 @@ Table.Buffer(
 
 ## Remarks
 
-Bufferlagrer en tabel i hukommelsen, så den isoleres fra eksterne ændringer under evaluering.    Bufferlagringen er flad. Det gennemtvinger evaluering af skalarcelleværdier, men bevarer ikke-skalarværdier (poster, lister, tabeller osv.), som de er.    <br />    <br />    Bemærk, at brug af denne funktion muligvis eller måske ikke får dine forespørgsler til at køre hurtigere. I nogle tilfælde kan det få dine forespørgsler til at køre langsommere på grund af den tilføjede     omkostninger ved at læse alle dataene og gemme dem i hukommelsen samt det faktum, at bufferlagring forhindrer downstreamfoldning. Hvis dataene ikke behøver at være   bufferlagrede, men du blot ønsker at forhindre downstream foldning, skal du i stedet bruge <code>Table.StopFolding</code>.
+Buffers a table in memory, isolating it from external changes during evaluation. Buffering is shallow. It forces the evaluation of any scalar cell values, but leaves non-scalar values (records, lists, tables, and so on) as-is.
+
+-   `table`: The table to buffer in memory.
+-   `options`: (Optional) The following options record values can be used:
+    -   `BufferMode`: The buffer mode that describes the type of buffering to be performed. This option can be either `BufferMode.Eager` or `BufferMode.Delayed`.
+
+Using this function might or might not make your queries run faster. In some cases, it can make your queries run more slowly due to the added cost of reading all the data and storing it in memory, as well as the fact that buffering prevents downstream folding. If the data doesn't need to be buffered but you just want to prevent downstream folding, use `Table.StopFolding` instead.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Indlæs alle rækkerne i en SQL-tabel i hukommelsen, så downstreamhandlinger ikke længere kan forespørge SQL-serveren.
 ```powerquery
 let
     Source = Sql.Database("SomeSQLServer", "MyDb"),
     MyTable = Source{[Item="MyTable"]}[Data],
-    BufferMyTable = Table.Buffer(dbo_MyTable)
+    BufferMyTable = Table.Buffer(MyTable)
 in
     BufferMyTable
 ```

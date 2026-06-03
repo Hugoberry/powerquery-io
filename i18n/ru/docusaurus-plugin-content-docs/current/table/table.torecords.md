@@ -19,12 +19,12 @@ Table.ToRecords(
 
 ## Remarks
 
-Преобразует таблицу <code>table</code> в список записей.
+Преобразует таблицу `table` в список записей.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Преобразовать таблицу в список записей.
 ```powerquery
 Table.ToRecords(

@@ -24,7 +24,7 @@ Gọi đến API REST Smartsheet 2.0 tại điểm cuối được chỉ định
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gọi ra bảng thông tin người dùng từ API Smartsheet
 ```powerquery
 Smartsheet.Content("users")

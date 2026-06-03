@@ -23,13 +23,13 @@ Table.AddJoinColumn(
 
 ## Remarks
 
-Nối các hàng của <code>table1</code> với các hàng của <code>table2</code> dựa trên đẳng thức của các giá trị của các cột khóa được chọn bởi <code>key1</code> (cho <code>table1</code>) và <code>key2</code> (cho <code>table2</code>). Kết quả được nhập vào cột có tên <code>newColumnName</code>.Hàm này hoạt động tương tự như Table.Join với JoinKind là LeftOuter ngoại trừ kết quả nối được trình bày theo kiểu lồng nhau chứ không phải kiểu làm phẳng.
+Nối các hàng của `table1` với các hàng của `table2` dựa trên đẳng thức của các giá trị của các cột khóa được chọn bởi `key1` (cho `table1`) và `key2` (cho `table2`). Kết quả được nhập vào cột có tên `newColumnName`. Hàm này hoạt động tương tự như Table.Join với JoinKind là LeftOuter ngoại trừ kết quả nối được trình bày theo kiểu lồng nhau chứ không phải kiểu làm phẳng.
 
 
 ## Examples
 
-### Example #1 
-Thêm một cột nối vào (\{[saleID = 1, item = &#34;Shirt&#34;], [saleID = 2, item = &#34;Hat&#34;]}) có tên &#34;giá/mặt hàng&#34; từ bảng (\{[saleID = 1, price = 20], [saleID = 2, price = 10]}) được nối trên [saleID].
+### Example #1
+Thêm một cột nối vào (\{\[saleID = 1, item = "Shirt"\], \[saleID = 2, item = "Hat"\]\}) có tên "giá/mặt hàng" từ bảng (\{\[saleID = 1, price = 20\], \[saleID = 2, price = 10\]\}) được nối trên \[saleID\].
 ```powerquery
 Table.AddJoinColumn(
     Table.FromRecords({

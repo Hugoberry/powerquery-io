@@ -20,7 +20,7 @@ Type.ReplaceFacets(
 
 ## Remarks
 
-Sustituye las facetas de <code>type</code> por las facetas que contiene el registro <code>facets</code>.
+Sustituye las facetas de `type` por las facetas que contiene el registro `facets`.
 
 
 

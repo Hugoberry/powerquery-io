@@ -5,7 +5,7 @@ title: SparkPost.GetTable
 # SparkPost.GetTable
 
 
-SparkPost API&#39;sinden (v1) ölçümlerin yer aldığı bir tablo döndürür
+SparkPost API'sinden (v1) ölçümlerin yer aldığı bir tablo döndürür
 
 
 ## Syntax
@@ -27,8 +27,8 @@ Bu işlev, SparkPost API v1'in "Metrics" uç noktasından veri almak için kulla
 
 ## Examples
 
-### Example #1 
-Tüm campaign_id&#39;lerin son üç günde toplanan count_sent ve count_rejected dağıtılabilirlik ölçümlerini alır.
+### Example #1
+Tüm campaign\_id'lerin son üç günde toplanan count\_sent ve count\_rejected dağıtılabilirlik ölçümlerini alır.
 ```powerquery
 Source = SparkPost.GetTable(3, "count_sent,count_rejected", "campaign_id", "metrics/deliverability/campaign")
 ```

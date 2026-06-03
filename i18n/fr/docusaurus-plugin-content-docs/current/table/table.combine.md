@@ -5,7 +5,7 @@ title: Table.Combine
 # Table.Combine
 
 
-Retourne une table qui est le résultat de la fusion d&#39;une liste de tables.
+Retourne une table qui est le résultat de la fusion d'une liste de tables.
 
 
 ## Syntax
@@ -20,12 +20,12 @@ Table.Combine(
 
 ## Remarks
 
-Retourne une table résultant de la fusion d'une liste de tables, <code>tables</code>. La table résultante a une structure de type de ligne définie par <code>columns</code> ou par l'union des types d'entrée si <code>columns</code> n'est pas spécifié.
+Retourne une table résultant de la fusion d'une liste de tables, `tables`. La table résultante a une structure de type de ligne définie par `columns` ou par l'union des types d'entrée si `columns` n'est pas spécifié.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Fusionne les trois tables ensemble.
 ```powerquery
 Table.Combine({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Fusionnez trois tables avec différentes structures.
 ```powerquery
 Table.Combine({
@@ -65,7 +65,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Fusionnez deux tables et projetez sur le type donné.
 ```powerquery
 Table.Combine(

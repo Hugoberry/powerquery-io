@@ -20,6 +20,6 @@ DataLake.Files(
 
 ## Remarks
 
-Returnerer en tabel, der indeholder en række for hver fil, som blev fundet på <code>URL-adressen</code> fra Azure Data Lake Storage Gen1. Hver række indeholder egenskaberne for filen og et link til indholdet.
+Returnerer en tabel, der indeholder en række for hver fil, som blev fundet på `URL-adressen` fra Azure Data Lake Storage Gen1. Hver række indeholder egenskaberne for filen og et link til indholdet.
 
 

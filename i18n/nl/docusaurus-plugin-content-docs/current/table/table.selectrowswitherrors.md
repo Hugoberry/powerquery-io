@@ -25,7 +25,7 @@ Retourneert een tabel met alleen die rijen uit de invoertabel waar in minstens e
 
 ## Examples
 
-### Example #1 
+### Example #1
 Selecteer namen van klanten met fouten in hun rijen.
 ```powerquery
 Table.SelectRowsWithErrors(

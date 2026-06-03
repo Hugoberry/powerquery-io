@@ -21,13 +21,13 @@ Table.Min(
 
 ## Remarks
 
-Returns the smallest row in the <code>table</code>, given the <code>comparisonCriteria</code>. If the table is empty, the optional <code>default</code> value is returned.
+Returns the smallest row in the `table`, given the `comparisonCriteria`. If the table is empty, the optional `default` value is returned.
 
 
 ## Examples
 
-### Example #1 
-Find the row with the smallest value in column [a] in the table.
+### Example #1
+Find the row with the smallest value in column \[a\] in the table.
 ```powerquery
 Table.Min(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Find the row with the smallest value in column [a] in the table. Return -1 if empty.
+### Example #2
+Find the row with the smallest value in column \[a\] in the table. Return -1 if empty.
 ```powerquery
 Table.Min(#table({"a"}, {}), "a", -1)
 ```

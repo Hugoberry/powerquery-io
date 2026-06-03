@@ -21,13 +21,13 @@ Table.Max(
 
 ## Remarks
 
-Restituisce la riga più grande in <code>table</code>, dato <code>comparisonCriteria</code>. Se la tabella è vuota, verrà restituito il valore facoltativo <code>default</code>. 
+Restituisce la riga più grande in `table`, dato `comparisonCriteria`. Se la tabella è vuota, verrà restituito il valore facoltativo `default`.
 
 
 ## Examples
 
-### Example #1 
-Trovare la riga con il valore più grande nella colonna [a] della tabella &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8]})&lt;/code&gt;.
+### Example #1
+Trovare la riga con il valore più grande nella colonna \[a\] della tabella `({[a = 2, b = 4], [a = 6, b = 8]})`.
 ```powerquery
 Table.Max(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Trovare la riga con il valore più grande nella colonna [a] della tabella &lt;code&gt;(\{})&lt;/code&gt;. Restituire -1 se vuota.
+### Example #2
+Trovare la riga con il valore più grande nella colonna \[a\] della tabella `({})`. Restituire -1 se vuota.
 ```powerquery
 Table.Max(#table({"a"}, {}), "a", -1)
 ```

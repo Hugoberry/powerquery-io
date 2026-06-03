@@ -19,12 +19,12 @@ Date.StartOfYear(
 
 ## Remarks
 
-Zwraca początek roku, który zawiera <code>dateTime</code>.    <code>dateTime</code> musi być wartością typu <code>date</code>, <code>datetime</code> lub <code>datetimezone</code>.
+Zwraca początek roku, który zawiera `dateTime`. `dateTime` musi być wartością typu `date`, `datetime` lub `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź początek roku dla daty 10 października 2011 r. 8:10:32.
 ```powerquery
 Date.StartOfYear(#datetime(2011, 10, 10, 8, 10, 32))

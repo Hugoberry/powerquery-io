@@ -5,7 +5,7 @@ title: GoogleBigQueryAad.Database
 # GoogleBigQueryAad.Database
 
 
-Importera data från en Google BigQuery-databas med Hjälp av Azure AD
+Importera data från en Google BigQuery-databas med hjälp av Microsoft Entra ID
 
 
 ## Syntax
@@ -20,13 +20,20 @@ GoogleBigQueryAad.Database(
 
 ## Remarks
 
-      Returnerar en tabell som visar tillgängliga projekt i Google BigQuery med hjälp av Azure AD för <code>Fakturering av projekt-ID</code> . En valfri postparameter, <code>options</code>, kan anges för att styra följande alternativ:      <ul>        <li><code>ConnectionTimeout</code>: En varaktighet som styr hur lång tid det ska ta innan ett försök att upprätta en anslutning till servern avbryts. Standardvärdet är ODBC Connection Timeout value.</li>        <li><code>CommandTimeout</code>: En varaktighet som styr hur länge frågan på serversidan tillåts köras innan den avbryts.</li>        <li><code>UseStorageApi</code>:  Anger om BigQuery Storage-API:et ska användas för stora resultatuppsättningar. Standardvärdet är sant för att använda Lagrings-API. Ställ in på falskt om du inte vill använda Storage API</li>        <li><code>AudienceUri</code>: Det här är målgrupps-URI:n som ODBC-drivrutinen kan använda för sina tokenutbytesbegäranden. Det här fältet måste vara en fullständigt kvalificerad URI (dvs. //iam.googleapis.com/locations/global/workforcePools/$\{pool_id}/providers/aad-provider) där pool_id är ett globalt unikt namn för att identifiera arbetsstyrkans pool.</li>      </ul>    Postparametern anges som [option1 = value1, option2 = value2...].    
+Returnerar en tabell som visar tillgängliga projekt i Google BigQuery med Microsoft Entra ID för `Fakturering av projekt-ID` . En valfri postparameter, `alternativ`, kan anges för att styra följande alternativ:
+
+-   `ConnectionTimeout`: En varaktighet som anger hur lång tid som ska gå innan ett försök att skapa en anslutning till servern avbryts. Standardvärdet är tidsgränsvärdet för ODBC-anslutningen.
+-   `CommandTimeout`: En varaktighet som anger hur länge frågan på serversidan ska tillåtas köra innan den avbryts.
+-   `UseStorageApi`: Anger huruvida BigQuery Storage-API ska användas för stora resultatmängder. Standardvärdet är sant för användning av Storage-API. Ställ in på false för att inte använda Storage-API
+-   `AudienceUri`: Det här är målgrupps-URI:n som ODBC-drivrutinen kan använda för begäranden om tokenutbyte. Det här fältet måste vara en fullständigt kvalificerad URI (d.v.s. //iam.googleapis.com/locations/global/workforcePools/$\{pool\_id\}/providers/azuread) där pool\_id är ett globalt unikt namn som identifierar personalpoolen.
+
+Postparametern anges som \[option1 = value1, option2 = value2...\].
 
 
 ## Examples
 
-### Example #1 
-Lista tillgängliga projekt i Google BigQuery med hjälp av Azure AD
+### Example #1
+Lista tillgängliga projekt i Google BigQuery med hjälp av Microsoft Entra ID
 ```powerquery
 GoogleBigQueryAad.Database()
 ```

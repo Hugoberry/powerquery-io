@@ -19,12 +19,12 @@ Table.ToRecords(
 
 ## Remarks
 
-แปลงตาราง <code>table</code> เป็นรายการระเบียน
+แปลงตาราง `table` เป็นรายการระเบียน
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 แปลงตารางเป็นรายการระเบียน
 ```powerquery
 Table.ToRecords(

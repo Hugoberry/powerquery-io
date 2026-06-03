@@ -21,12 +21,14 @@ Html.Table(
 
 ## Remarks
 
-Gibt eine Tabelle mit den Ergebnissen der Ausführung der angegebenen CSS-Selektoren für die Bereitstellung von "<code>html</code>" zurück. Ein optionaler Datensatzparameter, "<code>options</code>", kann zur Angabe zusätzlicher Eigenschaften angegeben werden. Der Datensatz kann die folgenden Felder enthalten:    <ul><li><code>RowSelector</code></li></ul>    
+Gibt eine Tabelle mit den Ergebnissen der Ausführung der angegebenen CSS-Selektoren für die Bereitstellung von "`html`" zurück. Ein optionaler Datensatzparameter, "`options`", kann zur Angabe zusätzlicher Eigenschaften angegeben werden. Der Datensatz kann die folgenden Felder enthalten:
+
+-   `RowSelector`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gibt eine Tabelle aus einem HTML-Beispieltextwert zurück.
 ```powerquery
 Html.Table("<div class=""name"">Jo</div><span>Manager</span>", {{"Name", ".name"}, {"Title", "span"}}, [RowSelector=".name"])
@@ -38,7 +40,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Hiermit werden alle href-Attribute aus einem HTML-Beispieltextwert extrahiert.
 ```powerquery
 Html.Table("<a href=""/test.html"">Test</a>", {{"Link", "a", each [Attributes][href]}})
@@ -53,4 +55,4 @@ Result:
 
 
 ## Category
-Datenzugriff
+Accessing data

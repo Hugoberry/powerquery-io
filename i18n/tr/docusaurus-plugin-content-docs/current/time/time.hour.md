@@ -19,12 +19,12 @@ Time.Hour(
 
 ## Remarks
 
-Sağlanan <code>time</code>, <code>datetime</code> veya <code>datetimezone</code> değeri olan <code>dateTime</code> değerinin saat bileşenini döndürür.
+Sağlanan `time`, `datetime` veya `datetimezone` değeri olan `dateTime` değerinin saat bileşenini döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 #datetime(2011, 12, 31, 9, 15, 36) içindeki saati bulur.
 ```powerquery
 Time.Hour(#datetime(2011, 12, 31, 9, 15, 36))

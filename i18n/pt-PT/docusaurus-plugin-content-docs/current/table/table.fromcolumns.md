@@ -20,12 +20,12 @@ Table.FromColumns(
 
 ## Remarks
 
-Cria uma tabela do tipo <code>columns</code> a partir de uma lista <code>lists</code> que contém listas aninhadas com os nomes e os valores das colunas.    Se algumas colunas tiverem mais valores do que outras, os valores em falta serão preenchidos com o valor predefinido, "null", se as colunas puderem ser nulas.
+Cria uma tabela do tipo `columns` a partir de uma lista `lists` que contém listas aninhadas com os nomes e os valores das colunas. Se algumas colunas tiverem mais valores do que outras, os valores em falta serão preenchidos com o valor predefinido, "null", se as colunas puderem ser nulas.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devolver uma tabela a partir de uma lista de nomes de clientes numa lista. Cada valor no item da lista de clientes torna-se um valor de linha, sendo que cada lista torna-se uma coluna.
 ```powerquery
 Table.FromColumns({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Criar uma tabela a partir de uma lista de colunas e uma lista de nomes de colunas especificadas.
 ```powerquery
 Table.FromColumns(
@@ -68,7 +68,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Crie uma tabela com um número diferente de colunas por linha. O valor da linha ausente é nulo.
 ```powerquery
 Table.FromColumns(

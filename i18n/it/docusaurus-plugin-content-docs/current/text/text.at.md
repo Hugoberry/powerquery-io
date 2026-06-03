@@ -20,13 +20,13 @@ Text.At(
 
 ## Remarks
 
-Restituisce il carattere nel valore di testo <code>text</code> nella posizione <code>index</code>. Il primo carattere nel testo è nella posizione 0.
+Restituisce il carattere nel valore di testo `text` nella posizione `index`. Il primo carattere nel testo è nella posizione 0.
 
 
 ## Examples
 
-### Example #1 
-Trovare il carattere nella posizione 4 nella stringa &#34;Hello, World&#34;.
+### Example #1
+Trovare il carattere nella posizione 4 nella stringa "Hello, World".
 ```powerquery
 Text.At("Hello, World", 4)
 ```

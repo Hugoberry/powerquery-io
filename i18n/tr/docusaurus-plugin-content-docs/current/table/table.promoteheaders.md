@@ -20,12 +20,15 @@ Table.PromoteHeaders(
 
 ## Remarks
 
-Değerlerin ilk satırını yeni sütun başlıkları (sütun adları) olarak yükseltir. Varsayılan olarak yalnızca metin veya sayı değerleri başlık olarak yükseltilir. Geçerli seçenekler:    <div>      <code>PromoteAllScalars</code> : <code>true</code> olarak ayarlandığı takdirde ilk satırdaki tüm skaler değerler, belirtilmişse <code>Culture</code> (veya mevcut belge yerel ayarı) kullanımıyla başlık olarak yükseltilir.    Metne dönüştürülemeyen değerler için varsayılan bir sütun adı kullanılır.    </div>    <div>    <code>Culture</code>: Veri kültürünü tanımlayan bir kültür adı.    </div>  
+Değerlerin ilk satırını yeni sütun başlıkları (sütun adları) olarak yükseltir. Varsayılan olarak yalnızca metin veya sayı değerleri başlık olarak yükseltilir. Geçerli seçenekler:
+
+-   `PromoteAllScalars`: `true` olarak ayarlandığı takdirde ilk satırdaki tüm skaler değerler, belirtilmişse `Culture` (veya mevcut belge yerel ayarı) kullanımıyla başlık olarak yükseltilir. Metne dönüştürülemeyen değerler için varsayılan bir sütun adı kullanılır.
+-   `Culture`: Veri kültürünü tanımlayan bir kültür adı.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablodaki ilk değer satırını yükseltir.
 ```powerquery
 Table.PromoteHeaders(
@@ -42,7 +45,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Column3 = #date(1980, 1, 1)]})
 ```
 
 
-### Example #2 
+### Example #2
 Tablonun ilk satırındaki tüm skaler değerleri başlıklar olarak yükseltin.
 ```powerquery
 Table.PromoteHeaders(

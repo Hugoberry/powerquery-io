@@ -25,7 +25,7 @@ Combiner.CombineTextByEachDelimiter(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Объединение списка текстовых значений с использованием последовательности разделителей.
 ```powerquery
 Combiner.CombineTextByEachDelimiter({"=", "+"})({"a", "b", "c"})

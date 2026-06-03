@@ -5,7 +5,7 @@ title: DateTime.IsInNextNMinutes
 # DateTime.IsInNextNMinutes
 
 
-Indica se questo valore datetime rientra nel numero di minuti successivo, come determinato dalla data e dall&#39;ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nel minuto corrente.
+Indica se questo valore datetime rientra nel numero di minuti successivo, come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nel minuto corrente.
 
 
 ## Syntax
@@ -20,13 +20,16 @@ DateTime.IsInNextNMinutes(
 
 ## Remarks
 
-Indica se il valore datetime specificato <code>dateTime</code> rientra nel numero di minuti successivi, come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nel minuto corrente.      <ul>      <li><code>dateTime</code>: valore <code>datetime</code> o <code>datetimezone</code> da valutare.</li>      <li><code>minutes</code>: numero di minuti.</li>      </ul>
+Indica se il valore datetime specificato `dateTime` rientra nel numero di minuti successivi, come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nel minuto corrente.
+
+-   `dateTime`: valore `datetime` o `datetimezone` da valutare.
+-   `minutes`: numero di minuti.
 
 
 ## Examples
 
-### Example #1 
-Determinare se il minuto dopo l&#39;ora di sistema corrente rientra nei due minuti successivi.
+### Example #1
+Determinare se il minuto dopo l'ora di sistema corrente rientra nei due minuti successivi.
 ```powerquery
 DateTime.IsInNextNMinutes(DateTime.FixedLocalNow() + #duration(0, 0, 2, 0), 2)
 ```

@@ -25,7 +25,7 @@ Retourneert een type dat records met specifieke typebeperkingen voor velden vert
 
 ## Examples
 
-### Example #1 
+### Example #1
 Dynamisch een tabeltype genereren.
 ```powerquery
 let

@@ -5,7 +5,7 @@ title: List.Single
 # List.Single
 
 
-Gibt das Listenelement für eine Liste mit der Länge 1 zurück. Andernfalls wird eine Ausnahme ausgelöst.
+Gibt das Listenelement für eine Liste mit der Länge 1 zurück. Andernfalls wird ein Fehler ausgelöst.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.Single(
 
 ## Remarks
 
-Enthält die Liste "<code>list</code>" nur ein Element, wird dieses zurückgegeben.    Enthält die Liste mehrere oder gar keine Elemente, löst die Funktion eine Ausnahme aus.
+Enthält die Liste „`list`“ nur ein Element, wird dieses zurückgegeben. Wenn mehrere Elemente vorhanden sind oder die Liste leer ist, löst die Funktion einen Fehler aus.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt den einzelnen Wert in der Liste &#34;\{1}&#34;.
+### Example #1
+Ermittelt den einzelnen Wert in der Liste "\{1\}".
 ```powerquery
 List.Single({1})
 ```
@@ -36,8 +36,8 @@ Result:
 ```
 
 
-### Example #2 
-Ermittelt den einzelnen Wert in der Liste &#34;\{1, 2, 3}&#34;.
+### Example #2
+Ermittelt den einzelnen Wert in der Liste "\{1, 2, 3\}".
 ```powerquery
 List.Single({1, 2, 3})
 ```

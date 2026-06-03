@@ -21,13 +21,17 @@ Table.SelectColumns(
 
 ## Remarks
 
-Returnerar <code>table</code> med bara angivna <code>columns</code>.    <ul>       <li><code>table</code>: Den angivna tabellen.</li>       <li><code>columns</code>: Den lista med kolumner från tabellen <code>table</code> som ska returneras. Kolumnerna i den returnerade tabellen visas i ordningen som anges i <code>columns</code>.</li>       <li><code>missingField</code>: <i>(Valfritt)</i> Vad som ska göras om kolumnen inte finns. Exempel: <code>MissingField.UseNull</code> or <code>MissingField.Ignore</code>.    </li></ul>
+Returnerar `table` med bara angivna `columns`.
+
+-   `table`: Den angivna tabellen.
+-   `columns`: Den lista med kolumner från tabellen `table` som ska returneras. Kolumnerna i den returnerade tabellen visas i ordningen som anges i `columns`.
+-   `missingField`: *(Valfritt)* Vad som ska göras om kolumnen inte finns. Exempel: `MissingField.UseNull` eller `MissingField.Ignore`.
 
 
 ## Examples
 
-### Example #1 
-Inkludera bara kolumnen [Name].
+### Example #1
+Inkludera bara kolumnen \[Name\].
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({
@@ -51,8 +55,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Inkludera bara kolumnerna [CustomerID] och [Name].
+### Example #2
+Inkludera bara kolumnerna \[CustomerID\] och \[Name\].
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -66,7 +70,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #3 
+### Example #3
 Om den inkluderade kolumnen inte avslutas blir standardresultatet ett fel.
 ```powerquery
 Table.SelectColumns(
@@ -81,8 +85,8 @@ Result:
 ```
 
 
-### Example #4 
-Om den inkluderade kolumnen inte avslutas skapar alternativet &lt;code&gt;MissingField.UseNull&lt;/code&gt; en kolumn med null-värden.
+### Example #4
+Om den inkluderade kolumnen inte avslutas skapar alternativet `MissingField.UseNull` en kolumn med null-värden.
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

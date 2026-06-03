@@ -5,7 +5,7 @@ title: Table.RenameColumns
 # Table.RenameColumns
 
 
-Past naamswijzigingen toe in de vorm \{old, new}.
+Past naamswijzigingen toe in de vorm \{old, new\}.
 
 
 ## Syntax
@@ -21,12 +21,12 @@ Table.RenameColumns(
 
 ## Remarks
 
-Voert de opgegeven naamswijzigingen door in de kolommen in tabel <code>table</code>. Een vervanging <code>renames</code> bestaat uit een lijst met twee waarden, de oude kolomnaam en de nieuwe kolomnaam, die worden aangeleverd als een lijst.    Als de kolom niet bestaat, wordt er een uitzondering gegenereerd tenzij er door de optionele <code>missingField</code> een alternatief wordt opgegeven (bijvoorbeeld <code>MissingField.UseNull</code> of <code>MissingField.Ignore</code>).
+Voert de opgegeven naamswijzigingen door in de kolommen in tabel `table`. Een vervanging `renames` bestaat uit een lijst met twee waarden, de oude kolomnaam en de nieuwe kolomnaam, die worden aangeleverd als een lijst. Als de kolom niet bestaat wordt er een fout gegenereerd, tenzij de optionele parameter `missingField` een alternatief opgeeft (bijvoorbeeld `MissingField.UseNull` of `MissingField.Ignore`).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De kolomnaam CustomerNum vervangen door CustomerID in de tabel.
 ```powerquery
 Table.RenameColumns(
@@ -41,7 +41,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]})
 ```
 
 
-### Example #2 
+### Example #2
 De kolomnaam CustomerNum vervangen door CustomerID en PhoneNum door Phone in de tabel.
 ```powerquery
 Table.RenameColumns(
@@ -59,7 +59,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]})
 ```
 
 
-### Example #3 
+### Example #3
 De kolomnaam NewCol vervangen door NewColumn in de tabel en negeren als die kolom niet in de tabel staat.
 ```powerquery
 Table.RenameColumns(

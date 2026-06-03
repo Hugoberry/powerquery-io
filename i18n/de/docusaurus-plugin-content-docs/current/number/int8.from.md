@@ -21,13 +21,13 @@ Int8.From(
 
 ## Remarks
 
-Gibt einen signierten ganzzahligen 8-Bit-<code>number</code>-Wert aus dem angegebenen <code>value</code>-Wert zurück. Wenn der angegebene <code>value</code>-Wert <code>null</code> ist, gibt <code>Int8.From</code> <code>null</code> zurück. Wenn der angegebene <code>value</code>-Wert ein <code>number</code>-Wert aus dem signierten 8-Bit-Ganzzahlbereich ohne Bruchteil ist, wird <code>value</code> zurückgegeben. Wenn ein Bruchteil vorhanden ist, wird der Wert mit dem angegebenen Rundungsmodus gerundet. Der Standardrundungsmodus ist <code>RoundingMode.ToEven</code>. Wenn der <code>value</code>-Wert einen anderen Typ aufweist, wird er erst mit <code>Number.FromText</code> in einen <code>number</code>-Wert konvertiert. Die verfügbaren Rundungsmodi finden Sie unter <code>Number.Round</code>. Optional kann auch ein Element vom Typ „<code>culture</code>“ angegeben werden (Beispiel: „de-DE“).
+Gibt einen signierten ganzzahligen 8-Bit-`number`\-Wert aus dem angegebenen `value`\-Wert zurück. Wenn der angegebene `value`\-Wert `null` ist, gibt `Int8.From` `null` zurück. Wenn der angegebene `value`\-Wert ein `number`\-Wert aus dem signierten 8-Bit-Ganzzahlbereich ohne Bruchteil ist, wird `value` zurückgegeben. Wenn ein Bruchteil vorhanden ist, wird der Wert mit dem angegebenen Rundungsmodus gerundet. Der Standardrundungsmodus ist `RoundingMode.ToEven`. Wenn der `value`\-Wert einen anderen Typ aufweist, wird er erst mit `Number.FromText` in einen `number`\-Wert konvertiert. Die verfügbaren Rundungsmodi finden Sie unter `Number.Round`. Optional kann auch ein Element vom Typ „`culture`“ angegeben werden (Beispiel: „de-DE“).
 
 
 ## Examples
 
-### Example #1 
-Ruft den signierten ganzzahligen 8-Bit-&lt;code&gt;number&lt;/code&gt;-Wert &lt;code&gt;&#34;4&#34;&lt;/code&gt; ab.
+### Example #1
+Ruft den signierten ganzzahligen 8-Bit-`number`\-Wert `"4"` ab.
 ```powerquery
 Int8.From("4")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Ruft den signierten ganzzahligen 8-Bit-&lt;code&gt;number&lt;/code&gt;-Wert &lt;code&gt;&#34;4,5&#34;&lt;/code&gt; mithilfe von &lt;code&gt;RoundingMode.AwayFromZero&lt;/code&gt; ab.
+### Example #2
+Ruft den signierten ganzzahligen 8-Bit-`number`\-Wert `"4,5"` mithilfe von `RoundingMode.AwayFromZero` ab.
 ```powerquery
 Int8.From("4.5", null, RoundingMode.AwayFromZero)
 ```

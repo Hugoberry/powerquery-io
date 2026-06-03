@@ -20,12 +20,15 @@ Date.IsInNextNQuarters(
 
 ## Remarks
 
-Indica se o valor de datetime especificado <code>dateTime</code> ocorre durante o próximo número de trimestres, conforme a determinação da data e hora atuais no sistema. Observe que essa função retornará false quando for passado um valor que ocorra no trimestre atual.      <ul>      <li><code>dateTime</code>: um valor de <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> a ser avaliado.</li>      <li><code>quarters</code>: o número de trimestres.</li>      </ul>
+Indica se o valor de datetime especificado `dateTime` ocorre durante o próximo número de trimestres, conforme a determinação da data e hora atuais no sistema. Observe que essa função retornará false quando for passado um valor que ocorra no trimestre atual.
+
+-   `dateTime`: um valor de `date`, `datetime` ou `datetimezone` a ser avaliado.
+-   `quarters`: o número de trimestres.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determina se o trimestre após a hora atual do sistema é nos próximos dois trimestres.
 ```powerquery
 Date.IsInNextNQuarters(Date.AddQuarters(DateTime.FixedLocalNow(), 1), 2)

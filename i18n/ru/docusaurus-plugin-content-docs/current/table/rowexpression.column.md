@@ -19,12 +19,12 @@ RowExpression.Column(
 
 ## Remarks
 
-Возвращает абстрактное синтаксическое дерево (AST), представляющее доступ к столбцу <code>columnName</code> строки в выражении строки.
+Возвращает абстрактное синтаксическое дерево (AST), представляющее доступ к столбцу `columnName` строки в выражении строки.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Создает AST, представляющий доступ к столбцу CustomerName.
 ```powerquery
 RowExpression.Column("CustomerName")

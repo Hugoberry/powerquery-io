@@ -19,13 +19,15 @@ Date.IsLeapYear(
 
 ## Remarks
 
-Wskazuje, czy dana wartość typu datetime równa <code>dateTime</code> wypada w roku przestępnym.  <ul>        <li><code>dateTime</code>: wartość typu <code>date</code>, <code>datetime</code> lub <code>datetimezone</code> do obliczenia.</li>      </ul>
+Wskazuje, czy dana wartość typu datetime równa `dateTime` wypada w roku przestępnym.
+
+-   `dateTime`: wartość typu `date`, `datetime` lub `datetimezone` do obliczenia.
 
 
 ## Examples
 
-### Example #1 
-Ustal, czy rok 2012 reprezentowany przez wartość &lt;code&gt;#date(2012, 01, 01)&lt;/code&gt; jest rokiem przestępnym.
+### Example #1
+Ustal, czy rok 2012 reprezentowany przez wartość `#date(2012, 01, 01)` jest rokiem przestępnym.
 ```powerquery
 Date.IsLeapYear(#date(2012, 01, 01))
 ```

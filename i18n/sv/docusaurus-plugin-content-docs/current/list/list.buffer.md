@@ -19,13 +19,13 @@ List.Buffer(
 
 ## Remarks
 
-Buffrar listan <code>list</code> i minnet. Resultatet från det här anropet är en stabil lista.
+Buffrar listan `list` i minnet. Resultatet från det här anropet är en stabil lista.
 
 
 ## Examples
 
-### Example #1 
-Skapa en stabil kopia av listan \{1..10}.
+### Example #1
+Skapa en stabil kopia av listan \{1..10\}.
 ```powerquery
 List.Buffer({1..10})
 ```

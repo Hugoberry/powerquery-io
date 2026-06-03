@@ -25,7 +25,7 @@ Table.ToList(
 
 ## Examples
 
-### Example #1 
+### Example #1
 รวมข้อความของแต่ละแถวด้วยเครื่องหมายจุลภาค
 ```powerquery
 Table.ToList(

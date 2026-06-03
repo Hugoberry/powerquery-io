@@ -25,7 +25,7 @@ Convertit les colonnes en lignes et les lignes en colonnes.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Transforme les lignes de la table des paires nom-valeur en colonnes.
 ```powerquery
 Table.Transpose(

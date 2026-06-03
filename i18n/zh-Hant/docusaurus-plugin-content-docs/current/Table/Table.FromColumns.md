@@ -20,12 +20,12 @@ Table.FromColumns(
 
 ## Remarks
 
-根據清單 <code>lists</code> 建立 <code>columns</code> 類型的資料表，該清單包含具有資料行名稱與值的巢狀清單。    如果部分資料行的值超過其他資料行，而且資料行可為 Null，則遺漏的值就會填入預設值 'null'。
+根據清單 `lists` 建立 `columns` 類型的資料表，該清單包含具有資料行名稱與值的巢狀清單。 如果部分資料行的值超過其他資料行，而且資料行可為 Null，則遺漏的值就會填入預設值 'null'。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 根據清單中的客戶名稱清單傳回資料表。客戶清單項目中的每個值會成為一個資料列值，而每個清單則會成為一個資料行。
 ```powerquery
 Table.FromColumns({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 根據指定的資料行清單與資料行名稱清單建立資料表。
 ```powerquery
 Table.FromColumns(
@@ -68,7 +68,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 建立每一資料列包含不同資料行數的資料表。遺漏的資料列值為 Null。
 ```powerquery
 Table.FromColumns(

@@ -21,12 +21,12 @@ Record.SelectFields(
 
 ## Remarks
 
-Retourneert een record die alleen de velden bevat die in de lijst <code>fields</code> uit de invoer <code>record</code> zijn opgegeven.
+Retourneert een record die alleen de velden bevat die in de lijst `fields` uit de invoer `record` zijn opgegeven.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De velden Item en Price in de record selecteren.
 ```powerquery
 Record.SelectFields(

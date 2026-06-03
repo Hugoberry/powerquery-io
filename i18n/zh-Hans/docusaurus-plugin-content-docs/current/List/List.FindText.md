@@ -20,13 +20,13 @@ List.FindText(
 
 ## Remarks
 
-从包含值 <code>text</code> 的列表 <code>list</code> 返回值列表。
+从包含值 `text` 的列表 `list` 返回值列表。
 
 
 ## Examples
 
-### Example #1 
-在列表 \{&#34;a&#34;, &#34;b&#34;, &#34;ab&#34;} 中查找匹配 &#34;a&#34; 的文本值。
+### Example #1
+在列表 \{"a", "b", "ab"\} 中查找匹配 "a" 的文本值。
 ```powerquery
 List.FindText({"a", "b", "ab"}, "a")
 ```

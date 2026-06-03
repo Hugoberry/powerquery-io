@@ -19,12 +19,12 @@ Record.Combine(
 
 ## Remarks
 
-Fasst die Datensätze im angegebenen Element vom Typ "<code>records</code>" zusammen. Enthält das Element vom Typ "<code>records</code>" datensatzfremde Werte, wird ein Fehler zurückgegeben.
+Fasst die Datensätze im angegebenen Element vom Typ "`records`" zusammen. Enthält das Element vom Typ "`records`" datensatzfremde Werte, wird ein Fehler zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Erstellt einen zusammengefassten Datensatz auf der Grundlage der Datensätze.
 ```powerquery
 Record.Combine({

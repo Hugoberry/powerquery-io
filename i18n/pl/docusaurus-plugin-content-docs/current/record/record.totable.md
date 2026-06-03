@@ -19,12 +19,12 @@ Record.ToTable(
 
 ## Remarks
 
-Zwraca tabelę zawierającą w każdym wierszu kolumny <code>Name</code> i <code>Value</code> odpowiadające wszystkim polom w rekordzie <code>record</code>.
+Zwraca tabelę zawierającą w każdym wierszu kolumny `Name` i `Value` odpowiadające wszystkim polom w rekordzie `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utwórz tabelę na podstawie rekordu.
 ```powerquery
 Record.ToTable([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

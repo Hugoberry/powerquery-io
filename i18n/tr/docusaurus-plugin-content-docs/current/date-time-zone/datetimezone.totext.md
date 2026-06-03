@@ -21,13 +21,18 @@ DateTimeZone.ToText(
 
 ## Remarks
 
-<code>dateTimeZone</code> öğesinin metin gösterimini döndürür. Ek özellikleri belirtmek için isteğe bağlı bir <code>record</code> parametresi (<code>options</code>) sağlanabilir. <code>culture</code> yalnızca eski iş akışları için kullanılır. <code>Record</code> şu alanları içerebilir:<ul>   <li><code>Format</code>: Kullanılacak biçimi gösteren <code>text</code> değeri. Diğer ayrıntılar için https://go.microsoft.com/fwlink/?linkid=2180104 ve https://go.microsoft.com/fwlink/?linkid=2180105 adreslerine gidin. Bu alanın atlanması veya <code>null</code> sağlanması, tarihin <code>Culture</code> tarafından tanımlanan varsayılan kullanılarak biçimlendirilmesiyle sonuçlanır.</li>   <li><code>Culture</code>: <code>Format</code> null olmadığında <code>Culture</code> bazı biçim tanımlayıcılarını denetler. Örneğin, <code>"tr-TR"</code> için <code>"MMM"</code> <code>"Oca", "Şub", "Mar", ...</code> iken <code>"ru-RU"</code> için <code>"MMM"</code> <code>"янв", "фев", "мар", ...</code> olur. <code>Format</code> <code>null</code> olduğunda, kullanılacak varsayılan biçimi <code>Culture</code> denetler. <code>Culture</code> <code>null</code> olduğunda veya atlandığında <code>Culture.Current</code> kullanılır.</li></ul>Eski iş akışlarını desteklemek için <code>options</code> ve <code>culture</code> metin değerleri de olabilir. Bunun davranışı <code>options</code><code> = [Format = <code>options</code>, Culture = <code>culture</code>]</code> ile aynıdır.
+`dateTimeZone` öğesinin metin gösterimini döndürür. Ek özellikleri belirtmek için isteğe bağlı bir `record` parametresi olan `options` sağlanabilir. `culture` yalnızca eski iş akışlarında kullanılır. `record` şu alanları içerebilir:
+
+-   `Format`: Kullanılacak biçimi gösteren bir `text` değeri. Diğer ayrıntılar için https://go.microsoft.com/fwlink/?linkid=2180104 ve https://go.microsoft.com/fwlink/?linkid=2180105 adreslerine gidin. Bu alanın atlanması veya `null` sağlanması, tarihin `Culture` tarafından tanımlanan varsayılan kullanılarak biçimlendirilmesiyle sonuçlanır.
+-   `Culture`: `Format` null olmadığında `Culture` bazı biçim tanımlayıcılarını denetler. Örneğin `"en-US"` içinde `"MMM"` `"Jan", "Feb", "Mar", ...` değerlerini verirken `"ru-RU"` içinde `"MMM"`, `"янв", "фев", "мар", ...` değerlerini verir. `Format` `null` olduğunda kullanılacak varsayılan biçimi `Culture` kontrol eder. `Culture` `null` olduğunda veya atlandığında `Culture.Current` kullanılır.
+
+Eski iş akışlarını desteklemek için `options` ve `culture` metin değerleri de olabilir. Bu, `options = [Format = options, Culture = culture]` komutuyla aynı sonucu verir.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;#datetimezone(2010, 12, 31, 01, 30, 25, 2, 0)&lt;/code&gt; değerini &lt;code&gt;metin&lt;/code&gt; değerine dönüştürün. &lt;i&gt;Sonuç çıkışı geçerli kültüre bağlı olarak değişebilir.&lt;/i&gt;
+### Example #1
+`#datetimezone(2010, 12, 31, 01, 30, 25, 2, 0)` değerini `metin` değerine dönüştürün. *Sonuç çıkışı geçerli kültüre bağlı olarak değişebilir.*
 ```powerquery
 DateTimeZone.ToText(#datetimezone(2010, 12, 31, 01, 30, 25, 2, 0))
 ```
@@ -38,7 +43,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Özel bir biçim ve Alman kültürü kullanarak dönüştürün.
 ```powerquery
 DateTimeZone.ToText(#datetimezone(2010, 12, 30, 2, 4, 50.36973, -8,0), [Format="dd MMM yyyy HH:mm:ss.ffffff zzz", Culture="de-DE"])
@@ -50,7 +55,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 ISO 8601 desenini kullanarak dönüştürün.
 ```powerquery
 DateTimeZone.ToText(#datetimezone(2000, 2, 8, 3, 45, 12, 2, 0),[Format="O", Culture="en-US"])

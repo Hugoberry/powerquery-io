@@ -20,12 +20,12 @@ Date.DayOfWeekName(
 
 ## Remarks
 
-傳回所提供 <code>date</code> 的星期幾名稱。也可提供選用的 <code>culture</code> (例如 "en-US")。
+傳回所提供 `date` 的星期幾名稱。也可提供選用的 `culture` (例如 "en-US")。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 取得星期幾名稱。
 ```powerquery
 Date.DayOfWeekName(#date(2011, 12, 31), "en-US")

@@ -5,7 +5,7 @@ title: Table.FromRows
 # Table.FromRows
 
 
-Opretter en tabel ud fra en liste over rækkeværdier og valgfri kolonner.
+Opretter en tabel ud fra en liste over rækkeværdier og valgfrie kolonner.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Table.FromRows(
 
 ## Remarks
 
-Opretter en tabel ud fra listen <code>rows</code>, hvor de enkelte elementer på listen er en indre liste, der indeholder kolonneværdier for en enkelt række. Der kan angives en valgfri liste over kolonnenavne, en tabeltype eller et antal kolonner for <code>columns</code>.
+Opretter en tabel ud fra listen `rows`, hvor de enkelte elementer på listen er en indre liste, der indeholder kolonneværdier for en enkelt række. Der kan angives en valgfri liste over kolonnenavne, en tabeltype eller et antal kolonner for `columns`.
 
 
 ## Examples
 
-### Example #1 
-Returnerer en tabel med kolonnen [CustomerID] med værdierne \{1, 2}, kolonnen [Name] med værdierne \{&#34;Bob&#34;, &#34;Jim&#34;} og kolonnen [Phone] med værdierne \{&#34;123-4567&#34;, &#34;987-6543&#34;}.
+### Example #1
+Returnerer en tabel med kolonnen \[CustomerID\] med værdierne \{1, 2\}, kolonnen \[Name\] med værdierne \{"Bob", "Jim"\} og kolonnen \[Phone\] med værdierne \{"123-4567", "987-6543"\}.
 ```powerquery
 Table.FromRows(
     {
@@ -46,8 +46,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Returnerer en tabel med kolonnen [CustomerID] med værdierne \{1, 2}, kolonnen [Name] med værdierne \{&#34;Bob&#34;, &#34;Jim&#34;} og kolonnen [Phone] med værdierne \{&#34;123-4567&#34;, &#34;987-6543&#34;}, hvor [CustomerID] er nummertype, og [Name] og [Phone] er teksttyper.
+### Example #2
+Returnerer en tabel med kolonnen \[CustomerID\] med værdierne \{1, 2\}, kolonnen \[Name\] med værdierne \{"Bob", "Jim"\} og kolonnen \[Phone\] med værdierne \{"123-4567", "987-6543"\}, hvor \[CustomerID\] er nummertype, og \[Name\] og \[Phone\] er teksttyper.
 ```powerquery
 Table.FromRows(
     {

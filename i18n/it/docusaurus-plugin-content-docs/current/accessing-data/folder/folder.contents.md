@@ -20,7 +20,7 @@ Folder.Contents(
 
 ## Remarks
 
-Restituisce una tabella con una riga per ogni cartella e file trovato nel <code>path</code> della cartella. Ogni riga contiene le proprietà della cartella o del file e un collegamento al relativo contenuto. Il parametro <code>options</code> è attualmente destinato solo all'uso interno.
+Restituisce una tabella con una riga per ogni cartella e file trovato nel `path` della cartella. Ogni riga contiene le proprietà della cartella o del file e un collegamento al relativo contenuto. Il parametro `options` è attualmente destinato solo all'uso interno.
 
 
 

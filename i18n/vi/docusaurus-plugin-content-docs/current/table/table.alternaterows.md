@@ -22,12 +22,17 @@ Table.AlternateRows(
 
 ## Remarks
 
-Giữ phần bù ban đầu rồi luân phiên lấy và bỏ qua các hàng theo sau.    <ul>       <li><code>table</code>: Bảng đầu vào.</li>       <li><code>offset</code>: Số lượng hàng sẽ giữ trước khi bắt đầu các lần lặp.</li>       <li><code>skip</code>: Số lượng hàng sẽ loại bỏ trong mỗi lần lặp.</li>       <li><code>take</code>: Số lượng hàng sẽ giữ trong mỗi lần lặp.</li>    </ul>    
+Giữ phần bù ban đầu rồi luân phiên lấy và bỏ qua các hàng theo sau.
+
+-   `table`: Bảng đầu vào.
+-   `offset`: Số lượng hàng sẽ giữ trước khi bắt đầu các lần lặp.
+-   `skip`: Số lượng hàng sẽ loại bỏ trong mỗi lần lặp.
+-   `take`: Số lượng hàng sẽ giữ trong mỗi lần lặp.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trả về một bảng từ bảng mà bắt đầu tại hàng đầu tiên, bảng đó bỏ qua 1 giá trị rồi giữ 1 giá trị.
 ```powerquery
 Table.AlternateRows(

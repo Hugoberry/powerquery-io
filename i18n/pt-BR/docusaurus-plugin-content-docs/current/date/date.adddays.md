@@ -20,13 +20,16 @@ Date.AddDays(
 
 ## Remarks
 
-Retorna o resultado de <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> após adicionar <code>numberOfDays</code> dias ao valor <code>datetime</code> <code>dateTime</code>.      <ul>      <li><code>dateTime</code>: O valor <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> ao qual os dias estão sendo adicionados.</li>      <li><code>numberOfDays</code>: O número de dias a serem adicionados.</li>      </ul>
+Retorna o resultado de `date`, `datetime` ou `datetimezone` após adicionar `numberOfDays` dias ao valor `datetime` `dateTime`.
+
+-   `dateTime`: O valor `date`, `datetime` ou `datetimezone` ao qual os dias estão sendo adicionados.
+-   `numberOfDays`: O número de dias a serem adicionados.
 
 
 ## Examples
 
-### Example #1 
-Adicione 5 dias ao valor &lt;code&gt;datetime&lt;/code&gt;, &lt;code&gt;datetimezone&lt;/code&gt; ou &lt;code&gt;date&lt;/code&gt; que representa a data 14/5/2011.
+### Example #1
+Adicione 5 dias ao valor `datetime`, `datetimezone` ou `date` que representa a data 14/5/2011.
 ```powerquery
 Date.AddDays(#date(2011, 5, 14), 5)
 ```

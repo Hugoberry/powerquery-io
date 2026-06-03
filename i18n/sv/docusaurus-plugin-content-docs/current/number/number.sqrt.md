@@ -19,12 +19,12 @@ Number.Sqrt(
 
 ## Remarks
 
-Returnerar kvadratroten ur <code>number</code>.    Om <code>number</code> är null returnerar <code>Number.Sqrt</code> null. Om det är ett negativt värde returneras <code>Number.NaN</code> (inte ett tal).
+Returnerar kvadratroten ur `number`. Om `number` är null returnerar `Number.Sqrt` null. Om det är ett negativt värde returneras `Number.NaN` (inte ett tal).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta kvadratroten ur 625.
 ```powerquery
 Number.Sqrt(625)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Hitta kvadratroten ur 85.
 ```powerquery
 Number.Sqrt(85)

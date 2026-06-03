@@ -19,12 +19,12 @@ Table.RowCount(
 
 ## Remarks
 
-<code>table</code> 内の行の数を返します。
+`table` 内の行の数を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブル内の行の数を調べます。
 ```powerquery
 Table.RowCount(

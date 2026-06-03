@@ -5,7 +5,7 @@ title: Table.Max
 # Table.Max
 
 
-Retourne la plus grande ligne ou la valeur par défaut à l&#39;aide des critères fournis.
+Retourne la plus grande ligne ou la valeur par défaut à l'aide des critères fournis.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Table.Max(
 
 ## Remarks
 
-Retourne la plus grande ligne dans <code>table</code> en fonction de <code>comparisonCriteria</code>. Si la table est vide, la valeur <code>default</code> facultative est retournée. 
+Retourne la plus grande ligne dans `table` en fonction de `comparisonCriteria`. Si la table est vide, la valeur `default` facultative est retournée.
 
 
 ## Examples
 
-### Example #1 
-Recherche la ligne avec la plus grande valeur dans la colonne [a] dans la table &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8]})&lt;/code&gt;.
+### Example #1
+Recherche la ligne avec la plus grande valeur dans la colonne \[a\] dans la table `({[a = 2, b = 4], [a = 6, b = 8]})`.
 ```powerquery
 Table.Max(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Recherche la ligne avec la plus grande valeur dans la colonne [a] dans la table &lt;code&gt;(\{})&lt;/code&gt;. Retourne -1 si l&#39;objet est vide.
+### Example #2
+Recherche la ligne avec la plus grande valeur dans la colonne \[a\] dans la table `({})`. Retourne -1 si l'objet est vide.
 ```powerquery
 Table.Max(#table({"a"}, {}), "a", -1)
 ```

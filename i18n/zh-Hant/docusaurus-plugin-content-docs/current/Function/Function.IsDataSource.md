@@ -19,7 +19,7 @@ Function.IsDataSource(
 
 ## Remarks
 
-傳回是否將 <code>function</code> 視為資料來源。
+傳回是否將 `function` 視為資料來源。
 
 
 

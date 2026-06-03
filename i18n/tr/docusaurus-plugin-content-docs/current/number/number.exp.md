@@ -19,12 +19,14 @@ Number.Exp(
 
 ## Remarks
 
-e değerini <code>number</code> üssüne yükseltme işleminin sonucunu döndürür (üstel işlev)      <ul>        <li><code>number</code>: Üstel işlevi hesaplanacak olan <code>sayı</code>. <code>number</code> null ise <code>Number.Exp</code> null döndürür. </li>      </ul>
+e değerini `number` üssüne yükseltme işleminin sonucunu döndürür (üstel işlev)
+
+-   `number`: Üstel işlevi hesaplanacak olan `sayı`. `number` null ise `Number.Exp` null döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 e değerini 3 üssüne yükseltir.
 ```powerquery
 Number.Exp(3)

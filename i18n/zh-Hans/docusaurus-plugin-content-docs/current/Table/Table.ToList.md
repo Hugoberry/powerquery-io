@@ -25,7 +25,7 @@ Table.ToList(
 
 ## Examples
 
-### Example #1 
+### Example #1
 使用逗号合并每行文本。
 ```powerquery
 Table.ToList(

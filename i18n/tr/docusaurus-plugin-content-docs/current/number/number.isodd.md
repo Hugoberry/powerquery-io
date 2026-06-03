@@ -19,13 +19,13 @@ Number.IsOdd(
 
 ## Remarks
 
-Değerin tek olup olmadığını gösterir. <code>number</code> bir tek sayı ise <code>true</code>, aksi halde <code>false</code> döndürür.
+Değerin tek olup olmadığını gösterir. `number` bir tek sayı ise `true`, aksi halde `false` döndürür.
 
 
 ## Examples
 
-### Example #1 
-625&#39;in tek sayı olup olmadığını denetler.
+### Example #1
+625'in tek sayı olup olmadığını denetler.
 ```powerquery
 Number.IsOdd(625)
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-82&#39;in tek sayı olup olmadığını denetler.
+### Example #2
+82'in tek sayı olup olmadığını denetler.
 ```powerquery
 Number.IsOdd(82)
 ```

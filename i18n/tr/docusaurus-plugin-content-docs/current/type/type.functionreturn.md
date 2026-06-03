@@ -19,13 +19,13 @@ Type.FunctionReturn(
 
 ## Remarks
 
-Bir <code>type</code> işlevi tarafından döndürülen bir türü döndürür.
+Bir `type` işlevi tarafından döndürülen bir türü döndürür.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;() as any)&lt;/code&gt; döndürme türünü bulun.
+### Example #1
+`() as any)` döndürme türünü bulun.
 ```powerquery
 Type.FunctionReturn(type function () as any)
 ```

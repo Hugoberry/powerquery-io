@@ -20,13 +20,13 @@ Table.SelectRows(
 
 ## Remarks
 
-Zwraca tabelę wierszy z tabeli <code>table</code>, które są zgodne z opcjami wyboru określonymi przez parametr <code>condition</code>.
+Zwraca tabelę wierszy z tabeli `table`, które są zgodne z opcjami wyboru określonymi przez parametr `condition`.
 
 
 ## Examples
 
-### Example #1 
-Zaznacz wiersze w tabeli, w których wartości kolumny [CustomerID] są większe niż 2.
+### Example #1
+Zaznacz wiersze w tabeli, w których wartości kolumny \[CustomerID\] są większe niż 2.
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({
@@ -48,7 +48,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Wybierz wiersze w tabeli, w których nazwy nie zawierają litery „B”.
 ```powerquery
 Table.SelectRows(

@@ -21,12 +21,12 @@ List.Times(
 
 ## Remarks
 
-傳回大小為 <code>count</code> 的 <code>time</code> 值清單，從 <code>start</code> 開始。指定的增量 <code>step</code> 是要加到每個值的 <code>duration</code> 值。
+傳回大小為 `count` 的 `time` 值清單，從 `start` 開始。指定的增量 `step` 是要加到每個值的 `duration` 值。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 建立 4 個值的清單，從中午 (#time(12, 0, 0)) 開始，逐次遞增 1 小時 (#duration(0, 1, 0, 0))。
 ```powerquery
 List.Times(#time(12, 0, 0), 4, #duration(0, 1, 0, 0))

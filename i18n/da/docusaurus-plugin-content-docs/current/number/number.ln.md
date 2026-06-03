@@ -19,12 +19,12 @@ Number.Ln(
 
 ## Remarks
 
-Returnerer et tals naturlige logaritme, <code>number</code>. Hvis <code>number</code> er null, returnerer <code>Number.Ln</code> null.
+Returnerer et tals naturlige logaritme, `number`. Hvis `number` er null, returnerer `Number.Ln` null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hent den naturlige logaritme for 15.
 ```powerquery
 Number.Ln(15)

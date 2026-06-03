@@ -19,7 +19,7 @@ Number.Atan(
 
 ## Remarks
 
-Gibt den Arkustangens von <code>number</code> zurück.
+Gibt den Arkustangens von `number` zurück.
 
 
 

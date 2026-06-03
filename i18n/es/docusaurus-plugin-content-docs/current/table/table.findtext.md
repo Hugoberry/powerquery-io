@@ -20,13 +20,13 @@ Table.FindText(
 
 ## Remarks
 
-Devuelve las filas de la tabla <code>table</code> que contienen el texto <code>text</code>. Si no se encuentra el texto, se devuelve una tabla vacía.
+Devuelve las filas de la tabla `table` que contienen el texto `text`. Si no se encuentra el texto, se devuelve una tabla vacía.
 
 
 ## Examples
 
-### Example #1 
-Buscar filas de la tabla que contienen &#34;Pedro&#34;.
+### Example #1
+Buscar filas de la tabla que contienen "Pedro".
 ```powerquery
 Table.FindText(
     Table.FromRecords({

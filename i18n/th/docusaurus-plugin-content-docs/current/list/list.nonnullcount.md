@@ -19,7 +19,7 @@ List.NonNullCount(
 
 ## Remarks
 
-ส่งกลับจำนวนข้อมูลที่ไม่ใช่ Null ในรายการ <code>list</code>
+ส่งกลับจำนวนข้อมูลที่ไม่ใช่ Null ในรายการ `list`
 
 
 

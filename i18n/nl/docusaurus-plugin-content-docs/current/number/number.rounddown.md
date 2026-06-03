@@ -20,12 +20,12 @@ Number.RoundDown(
 
 ## Remarks
 
-Retourneert het resultaat van naar beneden afronden van <code>number</code> op het vorige hoogste gehele getal. Als <code>number</code> nul is, retourneert deze functie null. Als <code>digits</code> is opgegeven, wordt <code>number</code> afgerond op het opgegeven aantal decimale cijfers.  
+Retourneert het resultaat van naar beneden afronden van `number` op het vorige hoogste gehele getal. Als `number` nul is, retourneert deze functie null. Als `digits` is opgegeven, wordt `number` afgerond op het opgegeven aantal decimale cijfers.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Het getal 1,234 afronden op een geheel getal.
 ```powerquery
 Number.RoundDown(1.234)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Het getal 1,999 afronden op een geheel getal.
 ```powerquery
 Number.RoundDown(1.999)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 1,999 afronden naar twee decimalen.
 ```powerquery
 Number.RoundDown(1.999, 2)

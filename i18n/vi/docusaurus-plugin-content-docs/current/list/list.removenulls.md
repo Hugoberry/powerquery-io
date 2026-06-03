@@ -5,7 +5,7 @@ title: List.RemoveNulls
 # List.RemoveNulls
 
 
-Loại bỏ tất cả giá trị &#34;rỗng&#34; khỏi danh sách được chỉ định.
+Loại bỏ tất cả giá trị "rỗng" khỏi danh sách được chỉ định.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.RemoveNulls(
 
 ## Remarks
 
-Loại bỏ tất cả những lần xuất hiện của giá trị "rỗng" trong <code>list</code>. Nếu không có giá trị 'rỗng' nào trong danh sách thì danh sách gốc được trả về.
+Loại bỏ tất cả những lần xuất hiện của giá trị "rỗng" trong `list`. Nếu không có giá trị 'rỗng' nào trong danh sách thì danh sách gốc được trả về.
 
 
 ## Examples
 
-### Example #1 
-Loại bỏ giá trị &#34;rỗng&#34; khỏi danh sách \{1, 2, 3, null, 4, 5, null, 6}.
+### Example #1
+Loại bỏ giá trị "rỗng" khỏi danh sách \{1, 2, 3, null, 4, 5, null, 6\}.
 ```powerquery
 List.RemoveNulls({1, 2, 3, null, 4, 5, null, 6})
 ```

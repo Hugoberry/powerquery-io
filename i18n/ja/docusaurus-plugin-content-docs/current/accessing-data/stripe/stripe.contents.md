@@ -21,12 +21,12 @@ Stripe.Contents(
 
 ## Remarks
 
-https://api.stripe.com/v1/<code>method</code> の Stripe API に対して呼び出しを行います。追加のパラメーターとして渡されるオプションのレコード <code>query</code> と、API のリクエスト数制限としてオプションの <code>pageLimit</code> を指定します。最近のデータが最初に返されます。<code>pageLimit</code> を指定しない場合、すべてのデータが返されます。Stripe バージョン 2015-10-16 が使用されます。
+https://api.stripe.com/v1/`method` の Stripe API に対して呼び出しを行います。追加のパラメーターとして渡されるオプションのレコード `query` と、API のリクエスト数制限としてオプションの `pageLimit` を指定します。最近のデータが最初に返されます。`pageLimit` を指定しない場合、すべてのデータが返されます。Stripe バージョン 2015-10-16 が使用されます。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 すべての請求データを返します
 ```powerquery
 Stripe.Contents("請求額")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 請求データのうち 1 ページを返します
 ```powerquery
 Stripe.Contents("請求額"、[]、1)

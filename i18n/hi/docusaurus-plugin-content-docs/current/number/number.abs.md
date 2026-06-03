@@ -19,13 +19,15 @@ Number.Abs(
 
 ## Remarks
 
-<code>number</code> का निरपेक्ष मान लौटाता है. यदि <code>number</code> नल है, तो <code>Number.Abs</code> नल लौटाता है.    <ul>        <li><code>number</code>: एक ऐसी <code>संख्या</code> जिसके लिए निरपेक्ष मान का परिकलन किया जाना है.</li>      </ul>
+`number` का निरपेक्ष मान लौटाता है. यदि `number` नल है, तो `Number.Abs` नल लौटाता है.
+
+-   `number`: एक ऐसी `संख्या` जिसके लिए निरपेक्ष मान का परिकलन किया जाना है.
 
 
 ## Examples
 
-### Example #1 
--3 का निरपेक्ष मान.
+### Example #1
+\-3 का निरपेक्ष मान.
 ```powerquery
 Number.Abs(-3)
 ```

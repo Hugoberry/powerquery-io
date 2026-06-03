@@ -19,12 +19,12 @@ Date.StartOfQuarter(
 
 ## Remarks
 
-ส่งกลับจุดเริ่มต้นของไตรมาสที่มี <code>dateTime</code>      <code>dateTime</code> ต้องเป็นค่า<code>วันที่</code> <code>วันที่เวลา</code> หรือ<code>โซนวันที่เวลา</code>
+ส่งกลับจุดเริ่มต้นของไตรมาสที่มี `dateTime` `dateTime` ต้องเป็นค่า`วันที่` `วันที่เวลา` หรือ`โซนวันที่เวลา`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ค้นหาจุดเริ่มต้นไตรมาสสําหรับวันที่ 10 ตุลาคม 2011 เวลา 8:00 น.
 ```powerquery
 Date.StartOfQuarter(#datetime(2011, 10, 10, 8, 0, 0))

@@ -19,12 +19,14 @@ Number.Cos(
 
 ## Remarks
 
-Gibt den Kosinus von <code>number</code> zurück.
+Gibt den Kosinus des angegebenen Winkels zurück.
+
+-   `number`: Ein Winkel, gemessen im Bogenmaß.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ermittelt den Kosinus des Winkels 0.
 ```powerquery
 Number.Cos(0)
@@ -33,6 +35,18 @@ Number.Cos(0)
 Result: 
 ```powerquery
 1
+```
+
+
+### Example #2
+Ermitteln Sie den Kosinus des Bogenmaßes π.
+```powerquery
+Number.Cos(Number.PI)
+```
+
+Result: 
+```powerquery
+-1
 ```
 
 

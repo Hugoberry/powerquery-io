@@ -20,13 +20,13 @@ Single.From(
 
 ## Remarks
 
-Returns a Single <code>number</code> value from the given <code>value</code>. If the given <code>value</code> is <code>null</code>, <code>Single.From</code> returns <code>null</code>.  If the given <code>value</code> is <code>number</code> within the range of Single, <code>value</code> is returned, otherwise an error is returned. If <code>value</code> is of any other type, it will first be converted to a <code>number</code> using <code>Number.FromText</code>. An optional <code>culture</code> may also be provided (for example, "en-US").
+Returns a Single `number` value from the given `value`. If the given `value` is `null`, `Single.From` returns `null`. If the given `value` is `number` within the range of Single, `value` is returned, otherwise an error is returned. If `value` is of any other type, it will first be converted to a `number` using `Number.FromText`. An optional `culture` may also be provided (for example, "en-US").
 
 
 ## Examples
 
-### Example #1 
-Get the Single &lt;code&gt;number&lt;/code&gt; value of &lt;code&gt;&#34;1.5&#34;&lt;/code&gt;.
+### Example #1
+Get the Single `number` value of `"1.5"`.
 ```powerquery
 Single.From("1.5")
 ```

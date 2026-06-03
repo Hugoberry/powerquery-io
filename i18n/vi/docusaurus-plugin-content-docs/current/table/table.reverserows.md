@@ -19,12 +19,12 @@ Table.ReverseRows(
 
 ## Remarks
 
-Trả về một bảng có các hàng từ đầu vào <code>table</code> theo thứ tự đảo ngược.
+Trả về một bảng có các hàng từ đầu vào `table` theo thứ tự đảo ngược.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Đảo ngược các hàng trong bảng.
 ```powerquery
 Table.ReverseRows(

@@ -5,7 +5,7 @@ title: DynamicsNav.Contents
 # DynamicsNav.Contents
 
 
-Dynamics NAV OData hizmet uç noktanızın URL&#39;sini girin.
+Dynamics NAV OData hizmet uç noktanızın URL'sini girin.
 
 
 ## Syntax
@@ -20,6 +20,6 @@ DynamicsNav.Contents(
 
 ## Remarks
 
-İlgili Dynamics NAV verilerinin bulunduğu bir tablo döndürür. 
+İlgili Dynamics NAV verilerinin bulunduğu bir tablo döndürür.
 
 

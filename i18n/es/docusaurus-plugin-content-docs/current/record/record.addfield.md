@@ -22,12 +22,12 @@ Record.AddField(
 
 ## Remarks
 
-Agrega un campo a un registro <code>record</code>, dado el nombre del campo <code>fieldName</code> y el valor <code>value</code>.
+Agrega un campo a un registro `record`, dado el nombre del campo `fieldName` y el valor `value`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Agregar el campo Dirección al registro.
 ```powerquery
 Record.AddField([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "Address", "123 Main St.")

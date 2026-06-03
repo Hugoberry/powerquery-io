@@ -23,7 +23,7 @@ SapBusinessWarehouse.Cubes(
 
 ## Remarks
 
-Restituisce una tabella di InfoCube e query raggruppati per InfoArea da un'istanza di SAP Business Warehouse nel server <code>server</code> con numero sistema <code>systemNumberOrSystemId</code> e ID client <code>clientId</code>. È possibile specificare un parametro di record facoltativo, <code>optionsOrLogonGroup</code>, per controllare le opzioni seguenti:        
+Restituisce una tabella di InfoCube e query raggruppati per InfoArea da un'istanza di SAP Business Warehouse nel server `server` con numero sistema `systemNumberOrSystemId` e ID client `clientId`. È possibile specificare un parametro di record facoltativo, `optionsOrLogonGroup`, per controllare le opzioni seguenti:
 
 
 

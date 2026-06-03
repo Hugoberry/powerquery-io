@@ -21,12 +21,12 @@ ApacheSpark.Tables(
 
 ## Remarks
 
-Возвращает таблицу со списком таблиц в <code>узле</code> кластера Spark с помощью <code>протокола</code>. Допустимые протоколы:SparkProtocol.Standard, SparkProtocol.HTTP
+Возвращает таблицу со списком таблиц в `узле` кластера Spark с помощью `протокола`. Допустимые протоколы: SparkProtocol.Standard, SparkProtocol.HTTP
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Возвращает таблицу со списком таблиц в указанном кластере Spark.
 ```powerquery
 Spark.Tables("http://example.com:10000/cliservice", SparkProtocol.HTTP)

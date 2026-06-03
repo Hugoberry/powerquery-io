@@ -21,12 +21,12 @@ Binary.Range(
 
 ## Remarks
 
-Returnerar en delmängd av binärvärdet med början vid förskjutningen <code>binary</code>. En valfri parameter, <code>offset</code>, anger maxlängden för delmängden.
+Returnerar en delmängd av binärvärdet med början vid förskjutningen `binary`. En valfri parameter, `offset`, anger maxlängden för delmängden.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnerar en delmängd av binärvärdet med start vid förskjutning 6.
 ```powerquery
 Binary.Range(#binary({0..10}), 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Returnerar en delmängd med längden 2 från förskjutningen 6 av binärvärdet.
 ```powerquery
 Binary.Range(#binary({0..10}), 6, 2)

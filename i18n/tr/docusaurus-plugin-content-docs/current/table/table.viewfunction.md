@@ -19,7 +19,15 @@ Table.ViewFunction(
 
 ## Remarks
 
-<code>Table.View</code> tarafından oluşturulan bir görünümde işlenebilen <code>function</code> temelli bir görünüm işlevi oluşturur.<br /> Bir <code>Table.View</code> işleyicisi olan <code>OnInvoke</code> kullanılarak görünüm işlevi için bir işleyici tanımlanabilir.<br />Yerleşik işlemlere yönelik işleyicilerde olduğu gibi, <code>OnInvoke</code> işleyicisi belirtilmezse veya belirtilen işleyici tarafından görünüm işlevi işlenmezse ya da işleyici tarafından bir hata oluşturulursa görünümün üzerine <code>function</code> uygulanır.<br /><code>Table.View</code> ve özel görünüm işlevlerinin daha kapsamlı bir açıklaması için yayımlanmış Power Query özel bağlayıcı belgelerini gözden geçirin.<br />
+`Table.View` tarafından oluşturulan bir görünümde işlenebilen `function` temelli bir görünüm işlevi oluşturur.
+
+Bir
+
+`Table.View` işleyicisi olan `OnInvoke` kullanılarak görünüm işlevi için bir işleyici tanımlanabilir.
+
+Yerleşik işlemlere yönelik işleyicilerde olduğu gibi, `OnInvoke` işleyicisi belirtilmezse veya belirtilen işleyici tarafından görünüm işlevi işlenmezse ya da işleyici tarafından bir hata oluşturulursa görünümün üzerine `function` uygulanır.
+
+`Table.View` ve özel görünüm işlevlerinin daha kapsamlı bir açıklaması için yayımlanmış Power Query özel bağlayıcı belgelerini gözden geçirin.
 
 
 

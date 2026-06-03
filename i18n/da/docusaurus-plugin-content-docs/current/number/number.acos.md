@@ -19,7 +19,7 @@ Number.Acos(
 
 ## Remarks
 
-Returnerer arcus cosinus til <code>number</code>.
+Returnerer arcus cosinus til `number`.
 
 
 

@@ -19,7 +19,7 @@ Excel.CurrentWorkbook(
 
 ## Remarks
 
-Retourne le contenu du classeur Excel actuel. Il retourne les tables, les plages nommées et les tableaux dynamiques. Contrairement à <code>Excel.Workbook</code>, il ne retourne pas de feuilles.
+Retourne le contenu du classeur Excel actuel. Il retourne les tables, les plages nommées et les tableaux dynamiques. Contrairement à `Excel.Workbook`, il ne retourne pas de feuilles.
 
 
 

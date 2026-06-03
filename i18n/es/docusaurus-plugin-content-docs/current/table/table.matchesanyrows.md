@@ -20,13 +20,13 @@ Table.MatchesAnyRows(
 
 ## Remarks
 
-Indica si alguna fila de la <code>table</code> cumple la <code>condition</code> especificada. Devuelve <code>true</code> si coincide alguna fila, <code>false</code> en caso contrario.
+Indica si alguna fila de la `table` cumple la `condition` especificada. Devuelve `true` si coincide alguna fila, `false` en caso contrario.
 
 
 ## Examples
 
-### Example #1 
-Determine si algún valor de fila de la columna [a] es par en la tabla &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8]})&lt;/code&gt;.
+### Example #1
+Determine si algún valor de fila de la columna \[a\] es par en la tabla `({[a = 2, b = 4], [a = 6, b = 8]})`.
 ```powerquery
 Table.MatchesAnyRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ false
 ```
 
 
-### Example #2 
-Determine si algún valor de fila es [a = 1, b = 2], en la tabla &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt;.
+### Example #2
+Determine si algún valor de fila es \[a = 1, b = 2\], en la tabla `({[a = 1, b = 2], [a = 3, b = 4]})`.
 ```powerquery
 Table.MatchesAnyRows(
     Table.FromRecords({

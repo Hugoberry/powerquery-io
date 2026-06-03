@@ -27,8 +27,8 @@ Den här funktionen kan användas för att hämta data från en viss Mått-slutp
 
 ## Examples
 
-### Example #1 
-Hämtar levererbarhetsmått för count_sent och count_rejected för alla campaign_ids sammanställt för de senaste tre dagarna.
+### Example #1
+Hämtar levererbarhetsmått för count\_sent och count\_rejected för alla campaign\_ids sammanställt för de senaste tre dagarna.
 ```powerquery
 Source = SparkPost.GetTable(3, "count_sent,count_rejected", "campaign_id", "metrics/deliverability/campaign")
 ```

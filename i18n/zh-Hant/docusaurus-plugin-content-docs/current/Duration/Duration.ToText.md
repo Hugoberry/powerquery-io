@@ -5,7 +5,7 @@ title: Duration.ToText
 # Duration.ToText
 
 
-傳回 &#34;d.h:m:s&#34; 格式的文字。
+傳回 "d.h:m:s" 格式的文字。
 
 
 ## Syntax
@@ -20,13 +20,16 @@ Duration.ToText(
 
 ## Remarks
 
-傳回指定持續時間值 <code>duration</code> 的文字表示法，格式為 "day.hour:mins:sec"。 <ul>        <li><code>duration</code>: 計算文字表示法的來源 <code>duration</code>。</li>  <li><code>format</code>: <i>[選用]</i> 已淘汰，若不是 null，將會擲回錯誤</li>      </ul>
+傳回指定持續時間值 `duration` 的文字表示法，格式為 "day.hour:mins:sec"。
+
+-   `duration`: `duration`，透過它計算文字表示法。
+-   `format`: *(選用)* 已淘汰，如果不是 Null，將會引發錯誤。
 
 
 ## Examples
 
-### Example #1 
-將 &lt;code&gt;#duration(2, 5, 55, 20)&lt;/code&gt; 轉換成文字值。
+### Example #1
+將 `#duration(2, 5, 55, 20)` 轉換成文字值。
 ```powerquery
 Duration.ToText(#duration(2, 5, 55, 20))
 ```

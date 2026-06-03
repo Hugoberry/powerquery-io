@@ -27,7 +27,7 @@ AzureDataExplorer.Contents(
 
 ## Examples
 
-### Example #1 
+### Example #1
 ส่งกลับตารางของข้อมูล Storm Events
 ```powerquery
 Kusto.Contents("help", "Samples", "StormEvents", [])

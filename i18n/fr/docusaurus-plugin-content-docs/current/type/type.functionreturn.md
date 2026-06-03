@@ -19,13 +19,13 @@ Type.FunctionReturn(
 
 ## Remarks
 
-Retourne un type retourné par une fonction <code>type</code>.
+Retourne un type retourné par une fonction `type`.
 
 
 ## Examples
 
-### Example #1 
-Trouvez le type de retour de &lt;code&gt;() as any)&lt;/code&gt;.
+### Example #1
+Trouvez le type de retour de `() as any)`.
 ```powerquery
 Type.FunctionReturn(type function () as any)
 ```

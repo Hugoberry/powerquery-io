@@ -26,7 +26,7 @@ Devolve uma função que divide texto numa lista de texto em qualquer um dos del
 
 ## Examples
 
-### Example #1 
+### Example #1
 Divida a entrada por vírgula ou ponto e vírgula, ignorando aspas e delimitadores entre aspas e a partir do início da entrada.
 ```powerquery
 Splitter.SplitTextByAnyDelimiter({",", ";"}, QuoteStyle.Csv)("a,b;""c,d;e"",f")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Divida a entrada por vírgula ou ponto e vírgula, ignorando aspas e delimitadores entre aspas e a partir do fim da entrada.
 ```powerquery
 let

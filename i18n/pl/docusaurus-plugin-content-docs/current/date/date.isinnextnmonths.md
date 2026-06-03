@@ -20,12 +20,15 @@ Date.IsInNextNMonths(
 
 ## Remarks
 
-Wskazuje, czy dana wartość daty/godziny <code>dateTime</code> przypada w ciągu następnych miesięcy określonych zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącego miesiąca.      <ul>      <li><code>dateTime</code>: wartość <code>date</code>, <code>datetime</code> lub <code>datetimezone</code> do oszacowania.</li>      <li><code>months</code>: liczba miesięcy.</li>      </ul>
+Wskazuje, czy dana wartość daty/godziny `dateTime` przypada w ciągu następnych miesięcy określonych zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącego miesiąca.
+
+-   `dateTime`: wartość `date`, `datetime` lub `datetimezone` do oszacowania.
+-   `months`: liczba miesięcy.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Określ, czy miesiąc po bieżącej dacie systemu występuje w ciągu przyszłych dwóch miesięcy.
 ```powerquery
 Date.IsInNextNMonths(Date.AddMonths(DateTime.FixedLocalNow(), 1), 2)

@@ -21,12 +21,12 @@ Binary.Range(
 
 ## Remarks
 
-Zwraca podzbiór wartości binarnej rozpoczynający się od przesunięcia <code>binary</code>. Opcjonalny parametr, <code>offset</code>, określa maksymalną długość podzbioru.
+Zwraca podzbiór wartości binarnej rozpoczynający się od przesunięcia `binary`. Opcjonalny parametr, `offset`, określa maksymalną długość podzbioru.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zwraca podzbiór wartości binarnej rozpoczynający się od przesunięcia 6.
 ```powerquery
 Binary.Range(#binary({0..10}), 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Zwraca podzbiór o długości 2 od przesunięcia 6 wartości binarnej.
 ```powerquery
 Binary.Range(#binary({0..10}), 6, 2)

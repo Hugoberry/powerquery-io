@@ -5,7 +5,7 @@ title: Type.RecordFields
 # Type.RecordFields
 
 
-Retourne un enregistrement décrivant les champs d&#39;un type d&#39;enregistrement avec chaque champ du type d&#39;enregistrement retourné ayant un nom et une valeur correspondants.
+Retourne un enregistrement décrivant les champs d'un type d'enregistrement avec chaque champ du type d'enregistrement retourné ayant un nom et une valeur correspondants.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Type.RecordFields(
 
 ## Remarks
 
-Retourne un enregistrement qui décrit les champs d'un enregistrement <code>type</code>. Chaque champ du type d'enregistrement retourné a un nom et une valeur correspondants, sous la forme d'un enregistrement <code>[ Type = type, Optional = logical ]</code>.
+Retourne un enregistrement qui décrit les champs d'un enregistrement `type`. Chaque champ du type d'enregistrement retourné a un nom et une valeur correspondants, sous la forme d'un enregistrement `[ Type = type, Optional = logical ]`.
 
 
 ## Examples
 
-### Example #1 
-Trouvez le nom et la valeur de l&#39;enregistrement &lt;code&gt;[ A = number, optional B = any]&lt;/code&gt;.
+### Example #1
+Trouvez le nom et la valeur de l'enregistrement `[ A = number, optional B = any]`.
 ```powerquery
 Type.RecordFields(type [A = number, optional B = any])
 ```

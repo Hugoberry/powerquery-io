@@ -20,13 +20,13 @@ Text.End(
 
 ## Remarks
 
-返回一个 <code>text</code> 值，该值是 <code>text</code> 值 <code>text</code> 的后 <code>count</code> 个字符。
+返回一个 `text` 值，该值是 `text` 值 `text` 的后 `count` 个字符。
 
 
 ## Examples
 
-### Example #1 
-获取文本 &#34;Hello, World&#34; 的后 5 个字符。
+### Example #1
+获取文本 "Hello, World" 的后 5 个字符。
 ```powerquery
 Text.End("Hello, World", 5)
 ```

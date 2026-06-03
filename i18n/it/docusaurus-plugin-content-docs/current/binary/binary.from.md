@@ -20,13 +20,17 @@ Binary.From(
 
 ## Remarks
 
-Restituisce un valore <code>binario</code> dal dato <code>value</code>. Se il dato <code>value</code> è <code>null</code>, <code>Binary.From</code> restituisce <code>null</code>.  Se il dato <code>value</code> è <code>binario</code>, viene restituito <code>value</code>. I valori dei tipi seguenti possono essere convertiti in un valore <code>binario</code>:      <ul>        <li><code>testo</code>: Un valore <code>binario</code> dalla rappresentazione di testo. Per ulteriori informazioni, fare riferimento a <code>Binary.FromText</code>.</li>      </ul>Se <code>value</code> è di altro tipo, viene restituito un errore. 
+Restituisce un valore `binario` dal dato `value`. Se il dato `value` è `null`, `Binary.From` restituisce `null`. Se il dato `value` è `binario`, viene restituito `value`. I valori dei tipi seguenti possono essere convertiti in un valore `binario`:
+
+-   `testo`: Un valore `binario` dalla rappresentazione di testo. Per ulteriori informazioni, fare riferimento a `Binary.FromText`.
+
+Se `value` è di altro tipo, viene restituito un errore.
 
 
 ## Examples
 
-### Example #1 
-Ottenere il valore &lt;code&gt;binary&lt;/code&gt; di &lt;code&gt;&#34;1011&#34;&lt;/code&gt;.
+### Example #1
+Ottenere il valore `binary` di `"1011"`.
 ```powerquery
 Binary.From("1011")
 ```

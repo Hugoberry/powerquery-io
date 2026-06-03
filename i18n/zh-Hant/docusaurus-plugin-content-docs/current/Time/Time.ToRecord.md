@@ -19,13 +19,15 @@ Time.ToRecord(
 
 ## Remarks
 
-傳回記錄，內含指定的 time 值 <code>time</code> 各部分。 <ul>        <li><code>time</code>: 要將其各部分計算成記錄的 <code>time</code> 值。</li>      </ul>
+傳回記錄，內含指定的 time 值 `time` 各部分。
+
+-   `time`: 要將其各部分計算成記錄的 `time` 值。
 
 
 ## Examples
 
-### Example #1 
-將 &lt;code&gt;#time(11, 56, 2)&lt;/code&gt; 值轉換成包含時間值的記錄。
+### Example #1
+將 `#time(11, 56, 2)` 值轉換成包含時間值的記錄。
 ```powerquery
 Time.ToRecord(#time(11, 56, 2))
 ```

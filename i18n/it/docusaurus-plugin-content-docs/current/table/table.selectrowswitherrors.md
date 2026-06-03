@@ -25,7 +25,7 @@ Restituisce una tabella con solo le righe della tabella di input che contengono 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Selezionare i nomi dei clienti che contengono errori nelle rispettive righe.
 ```powerquery
 Table.SelectRowsWithErrors(

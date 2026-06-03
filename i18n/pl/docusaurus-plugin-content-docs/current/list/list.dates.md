@@ -21,13 +21,13 @@ List.Dates(
 
 ## Remarks
 
-Zwraca listę wartości typu <code>date</code> o rozmiarze <code>count</code>, rozpoczynając od wartości <code>start</code>. Podany przyrost (<code>step</code>) to wartość typu <code>duration</code> dodawana do każdej wartości.
+Zwraca listę wartości typu `date` o rozmiarze `count`, rozpoczynając od wartości `start`. Podany przyrost (`step`) to wartość typu `duration` dodawana do każdej wartości.
 
 
 ## Examples
 
-### Example #1 
-Utwórz listę 5 wartości, zaczynając od Sylwestra (#date(2011, 12, 31)) i używając przyrostu o wartości 1 dzień (#duration(1, 0, 0, 0)).
+### Example #1
+Utwórz listę 5 wartości, zaczynając od Sylwestra (#date(2011, 12, 31)) i używając przyrostu co 1 dzień (#duration(1, 0, 0, 0)).
 ```powerquery
 List.Dates(#date(2011, 12, 31), 5, #duration(1, 0, 0, 0))
 ```

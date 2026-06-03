@@ -20,12 +20,12 @@ BinaryFormat.Transform(
 
 ## Remarks
 
-Gibt ein Binärformat zurück, das die von einem anderen Binärformat gelesenen Werte transformiert.  Der Parameter "<code>binaryFormat</code>" gibt das Binärformat an, das zum Lesen des Werts verwendet wird.  "<code>function</code>" wird mit dem gelesenen Wert aufgerufen und gibt den transformierten Wert zurück.
+Gibt ein Binärformat zurück, das die von einem anderen Binärformat gelesenen Werte transformiert. Der Parameter "`binaryFormat`" gibt das Binärformat an, das zum Lesen des Werts verwendet wird. "`function`" wird mit dem gelesenen Wert aufgerufen und gibt den transformierten Wert zurück.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Liest ein Byte und fügt eins hinzu.
 ```powerquery
 let

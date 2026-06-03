@@ -21,12 +21,15 @@ Number.IntegerDivide(
 
 ## Remarks
 
-Returnerar heltalsdelen av resultatet från divisionen av ett tal, <code>number1</code>, med ett annat tal, <code>number2</code>.    Om <code>number1</code> eller <code>number2</code> är null returnerar <code>Number.IntegerDivide</code> null.      <ul>        <li><code>number1</code>: Täljaren.</li>        <li><code>number2</code>: Nämnaren.</li>      </ul>
+Returnerar heltalsdelen av resultatet från divisionen av ett tal, `number1`, med ett annat tal, `number2`. Om `number1` eller `number2` är null returnerar `Number.IntegerDivide` null.
+
+-   `number1`: Täljaren.
+-   `number2`: Nämnaren.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Dividera 6 med 4.
 ```powerquery
 Number.IntegerDivide(6, 4)
@@ -38,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Dividera 8,3 med 3.
 ```powerquery
 Number.IntegerDivide(8.3, 3)

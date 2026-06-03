@@ -20,12 +20,12 @@ Date.StartOfWeek(
 
 ## Remarks
 
-Renvoie le début du trimestre qui contient <code>dateTime</code>.    <code>dateTime</code> doit être une valeur <code>date</code>, <code>datetime</code>, ou <code>datetimezone</code>.
+Renvoie le début du trimestre qui contient `dateTime`. `dateTime` doit être une valeur `date`, `datetime`, ou `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Recherche le début de la semaine pour le mardi 11 octobre 2011.
 ```powerquery
 Date.StartOfWeek(#datetime(2011, 10, 11, 8, 10, 32))
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Recherche le début de la semaine pour le mardi 11 octobre 2011, à l’aide du lundi comme début de la semaine.
 ```powerquery
 Date.StartOfWeek(#datetime(2011, 10, 11, 8, 10, 32), Day.Monday)

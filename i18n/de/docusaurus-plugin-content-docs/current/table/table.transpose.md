@@ -25,7 +25,7 @@ Wandelt Spalten in Zeilen und Zeilen in Spalten um.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Wandelt die Zeilen der Tabelle mit Name-Wert-Paaren in Spalten um.
 ```powerquery
 Table.Transpose(

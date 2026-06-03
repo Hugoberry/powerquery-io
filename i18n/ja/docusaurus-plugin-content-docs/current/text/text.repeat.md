@@ -20,13 +20,13 @@ Text.Repeat(
 
 ## Remarks
 
-<code>count</code> 回繰り返された入力テキスト <code>text</code> で構成されるテキスト値を返します。
+`count` 回繰り返された入力テキスト `text` で構成されるテキスト値を返します。
 
 
 ## Examples
 
-### Example #1 
-テキスト &#34;a&#34; を 5 回繰り返します。
+### Example #1
+テキスト "a" を 5 回繰り返します。
 ```powerquery
 Text.Repeat("a", 5)
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-テキスト &#34;helloworld&#34; を 3 回繰り返します。
+### Example #2
+テキスト "helloworld" を 3 回繰り返します。
 ```powerquery
 Text.Repeat("helloworld.", 3)
 ```

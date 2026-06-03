@@ -20,12 +20,12 @@ Value.ReplaceType(
 
 ## Remarks
 
-<code>value</code> türünü sağlanan <code>type</code> ile değiştirir.
+`value` türünü sağlanan `type` ile değiştirir.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kaydın varsayılan türünü daha belirli bir türle değiştirin.
 ```powerquery
 Type.RecordFields(

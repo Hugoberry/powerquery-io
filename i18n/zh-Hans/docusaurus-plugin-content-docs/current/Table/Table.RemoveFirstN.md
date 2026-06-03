@@ -20,12 +20,16 @@ Table.RemoveFirstN(
 
 ## Remarks
 
-返回一个表，该表不包含表 <code>table</code> 的指定数量的前几行 <code>countOrCondition</code>。    删除的行数依赖于可选参数 <code>countOrCondition</code>。    <ul>    <li> 如果忽略 <code>countOrCondition</code>，则只删除第一行。</li>    <li> 如果 <code>countOrCondition</code> 为数字，则将删除该数字那么多的行(从顶部开始)。</li>    <li> 如果 <code>countOrCondition</code> 是条件，将删除满足此条件的行，直到行不满足条件为止。</li>    </ul>
+返回一个表，该表不包含表 `table` 的指定数量的前几行 `countOrCondition`。 删除的行数依赖于可选参数 `countOrCondition`。
+
+-   如果忽略 `countOrCondition`，则只删除第一行。
+-   如果 `countOrCondition` 为数字，则将删除该数字那么多的行(从顶部开始)。
+-   如果 `countOrCondition` 是条件，将删除满足此条件的行，直到行不满足条件为止。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 删除表的第一行。
 ```powerquery
 Table.RemoveFirstN(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 删除表的前两行。
 ```powerquery
 Table.RemoveFirstN(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-删除表中 [CustomerID] &lt;=2 的前几行。
+### Example #3
+删除表中 \[CustomerID\] &lt;=2 的前几行。
 ```powerquery
 Table.RemoveFirstN(
     Table.FromRecords({

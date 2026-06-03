@@ -19,12 +19,12 @@ Date.Month(
 
 ## Remarks
 
-指定された <code>datetime</code> 値 (<code>dateTime</code>) の月部分を返します。
+指定された `datetime` 値 (`dateTime`) の月部分を返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 #datetime(2011, 12, 31, 9, 15, 36) で月を調べます。
 ```powerquery
 Date.Month(#datetime(2011, 12, 31, 9, 15, 36))

@@ -23,12 +23,12 @@ Table.FromList(
 
 ## Remarks
 
-Konwertuje listę <code>list</code> na tabelę, stosując opcjonalną funkcję podziału <code>splitter</code> do każdego elementu listy. Domyślnie lista jest traktowana jako lista wartości tekstowych rozdzielonych przecinkami. Wartość opcjonalnego parametru <code>columns</code> może być liczbą kolumn, listą kolumn lub typem tabeli. Można także określić opcjonalne parametry <code>default</code> i <code>extraValues</code>.
+Konwertuje listę `list` na tabelę, stosując opcjonalną funkcję podziału `splitter` do każdego elementu listy. Domyślnie lista jest traktowana jako lista wartości tekstowych rozdzielonych przecinkami. Wartość opcjonalnego parametru `columns` może być liczbą kolumn, listą kolumn lub typem tabeli. Można także określić opcjonalne parametry `default` i `extraValues`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utwórz tabelę na podstawie listy przy użyciu domyślnego rozdzielacza.
 ```powerquery
 Table.FromList(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Utwórz tabelę na podstawie listy przy użyciu rozdzielacza niestandardowego.
 ```powerquery
 Table.FromList(
@@ -70,7 +70,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Utwórz tabelę na podstawie listy przy użyciu rozdzielacza Record.FieldValues.
 ```powerquery
 Table.FromList(

@@ -5,7 +5,7 @@ title: Number.BitwiseOr
 # Number.BitwiseOr
 
 
-दो इनपुट के बीच बिटवाइज़ &#34;Or&#34; के निष्पादन का परिणाम लौटाता है.
+दो इनपुट के बीच बिटवाइज़ "Or" के निष्पादन का परिणाम लौटाता है.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Number.BitwiseOr(
 
 ## Remarks
 
-<code>number1</code> और <code>number2</code> के बीच बिटवाइज़ "Or" के निष्पादन का परिणाम लौटाता है.
+`number1` और `number2` के बीच बिटवाइज़ "Or" के निष्पादन का परिणाम लौटाता है.
 
 
 

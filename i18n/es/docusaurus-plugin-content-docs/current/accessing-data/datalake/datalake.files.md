@@ -20,6 +20,6 @@ DataLake.Files(
 
 ## Remarks
 
-Muestra una tabla que contiene una fila para cada archivo encontrado en la dirección <code>url</code>, de Azure Data Lake Storage Gen1. Cada una de las filas contiene propiedades del archivo y un vínculo a su contenido.
+Muestra una tabla que contiene una fila para cada archivo encontrado en la dirección `url`, de Azure Data Lake Storage Gen1. Cada una de las filas contiene propiedades del archivo y un vínculo a su contenido.
 
 

@@ -23,13 +23,19 @@ Table.Group(
 
 ## Remarks
 
-Agrupa las filas de <code>table</code> por las columnas clave definidas por <code>key</code>. El <code>key</code> puede ser un solo nombre de columna, o una lista de nombres de columnas.    Para cada grupo, se construye un registro que contiene las columnas clave (y sus valores), junto con cualquier columna agregada especificada por <code>aggregatedColumns</code>.    Opcionalmente, <code>groupKind</code> también se puede especificar y. <code>comparer</code> <br />    <br />    Si los datos ya están ordenados por las columnas clave, entonces se puede proporcionar un de <code>groupKind</code> GroupKind.Local. Esto puede mejorar el rendimiento de la agrupación en ciertos casos,    ya que se supone que todas las filas con un conjunto dado de valores clave son contiguas.<br />    <br />    Al pasar a <code>comparer</code>, tenga en cuenta que si trata las claves diferentes como iguales, una fila puede colocarse en un grupo cuyas claves difieren de las suyas.<br />    <br />    Esta función no garantiza el orden de las filas que devuelve.  
+Agrupa las filas de `table` por las columnas clave definidas por `key`. El `key` puede ser un solo nombre de columna, o una lista de nombres de columnas. Para cada grupo, se construye un registro que contiene las columnas clave (y sus valores), junto con cualquier columna agregada especificada por `aggregatedColumns`. Opcionalmente, `groupKind` también se puede especificar y. `comparer`  
+  
+Si los datos ya están ordenados por las columnas clave, entonces se puede proporcionar un de `groupKind` GroupKind.Local. Esto puede mejorar el rendimiento de la agrupación en ciertos casos, ya que se supone que todas las filas con un conjunto dado de valores clave son contiguas.  
+  
+Al pasar a `comparer`, tenga en cuenta que si trata las claves diferentes como iguales, una fila puede colocarse en un grupo cuyas claves difieren de las suyas.  
+  
+Esta función no garantiza el orden de las filas que devuelve.
 
 
 ## Examples
 
-### Example #1 
-Agrupar la tabla agregando una columna agregada [total] que contiene la suma de precios (&#34;each List.Sum([price])&#34;).
+### Example #1
+Agrupar la tabla agregando una columna agregada \[total\] que contiene la suma de precios ("each List.Sum(\[price\])").
 ```powerquery
 Table.Group(
     Table.FromRecords({

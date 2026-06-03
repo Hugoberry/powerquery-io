@@ -19,13 +19,13 @@ Type.FunctionParameters(
 
 ## Remarks
 
-Returnerar en post med fältvärden satta till namnet på parametrarna för <code>type</code>, och deras värden satta till sina motsvarande typer.
+Returnerar en post med fältvärden satta till namnet på parametrarna för `type`, och deras värden satta till sina motsvarande typer.
 
 
 ## Examples
 
-### Example #1 
-Hitta typen av parametrar till funktionen &lt;code&gt;(x as number, y as text)&lt;/code&gt;.
+### Example #1
+Hitta typen av parametrar till funktionen `(x as number, y as text)`.
 ```powerquery
 Type.FunctionParameters(type function (x as number, y as text) as any)
 ```

@@ -1,0 +1,30 @@
+---
+title: AzureStorage.Tables
+---
+
+# AzureStorage.Tables
+
+
+傳回導覽表格，內含在 Azure 儲存庫的指定帳戶中找到的資料表。
+
+
+## Syntax
+
+```powerquery
+AzureStorage.Tables(
+    account as text,
+    optional options as record
+) as table
+```
+
+
+## Remarks
+
+傳回導覽表格，其中的每一個資料列，各包含一個在 Azure 儲存體保存庫之帳戶 URL `account` 中找到的資料表。每個資料列都包含 Azure 資料表的連結。您可提供選用的記錄參數 `options` 來指定其他屬性。記錄可以包含下列欄位:
+
+-   `Timeout` : 控制在放棄對伺服器提出的要求之前，要等候的持續時間長度。預設值依來源而定。
+
+
+
+## Category
+Accessing data

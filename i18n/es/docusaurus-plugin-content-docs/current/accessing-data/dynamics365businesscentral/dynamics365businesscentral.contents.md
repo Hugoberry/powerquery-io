@@ -19,6 +19,6 @@ Dynamics365BusinessCentral.Contents(
 
 ## Remarks
 
-Devuelve una tabla con los datos pertinentes de Dynamics 365 Business Central. 
+Devuelve una tabla con los datos pertinentes de Dynamics 365 Business Central.
 
 

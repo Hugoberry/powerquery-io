@@ -19,12 +19,12 @@ Duration.TotalHours(
 
 ## Remarks
 
-Devuelve el total de horas distribuidas por <code>duration</code>.
+Devuelve el total de horas distribuidas por `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Busque el total de horas distribuidas por un valor de duración.
 ```powerquery
 Duration.TotalHours(#duration(5, 4, 3, 2))

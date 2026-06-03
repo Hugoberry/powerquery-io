@@ -19,12 +19,12 @@ Logical.FromText(
 
 ## Remarks
 
-Tworzy wartość logiczną na podstawie wartości tekstowej <code>text</code> („true” lub „false”). Jeśli parametr <code>text</code> zawiera inny ciąg, jest zwracany wyjątek. W wartości tekstowej <code>text</code> nie jest rozróżniana wielkość znaków.
+Tworzy wartość logiczną na podstawie wartości tekstowej `text`, („true” lub „false”). Jeśli element `text` zawiera inny ciąg, jest zgłaszany błąd. W wartości tekstowej `text` nie jest rozróżniana wielkość znaków.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utwórz wartość logiczną na podstawie ciągu tekstowego „true”.
 ```powerquery
 Logical.FromText("true")
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Utwórz wartość logiczną na podstawie ciągu tekstowego „a”.
 ```powerquery
 Logical.FromText("a")

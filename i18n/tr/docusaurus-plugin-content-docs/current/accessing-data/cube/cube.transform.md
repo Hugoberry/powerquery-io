@@ -20,7 +20,7 @@ Cube.Transform(
 
 ## Remarks
 
-<code>cube</code> üzerinde, <code>transforms</code> küp işlevleri listesini uygular.
+`cube` üzerinde, `transforms` küp işlevleri listesini uygular.
 
 
 

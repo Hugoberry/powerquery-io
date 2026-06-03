@@ -19,12 +19,12 @@ Uri.BuildQueryString(
 
 ## Remarks
 
-必要に応じて文字をエスケープして、レコード <code>query</code> を URI クエリ文字列に統合します。
+必要に応じて文字をエスケープして、レコード `query` を URI クエリ文字列に統合します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 特殊文字が含まれるクエリ文字列をエンコードします。
 ```powerquery
 Uri.BuildQueryString([a = "1", b = "+$"])

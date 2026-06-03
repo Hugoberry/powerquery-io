@@ -20,13 +20,13 @@ Table.Column(
 
 ## Remarks
 
-Zwraca w postaci listy kolumnę danych (określoną przez parametr <code>column</code>) z tabeli <code>table</code>.
+Zwraca w postaci listy kolumnę danych (określoną przez parametr `column`) z tabeli `table`.
 
 
 ## Examples
 
-### Example #1 
-Zwraca dane z kolumny [Name] tabeli.
+### Example #1
+Zwraca dane z kolumny \[Name\] tabeli.
 ```powerquery
 Table.Column(
     Table.FromRecords({

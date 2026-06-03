@@ -19,7 +19,9 @@ Type.TableSchema(
 
 ## Remarks
 
-Returner en tabel, der beskriver kolonnerne i <code>tableType</code>.<br />Reference til dokumentationen for <code>Table.Schema</code> for at få en beskrivelse af den resulterende tabel.<br />
+Returner en tabel, der beskriver kolonnerne i `tableType`.
+
+Reference til dokumentationen for `Table.Schema` for at få en beskrivelse af den resulterende tabel.
 
 
 

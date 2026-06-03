@@ -20,12 +20,15 @@ Date.IsInNextNWeeks(
 
 ## Remarks
 
-Hiermee wordt aangegeven of de opgegeven datetime-waarde <code>dateTime</code> plaatsvindt gedurende de volgende weken volgens de huidige datum en tijd op het systeem. Houd er rekening mee dat deze functie onwaar retourneert als een waarde wordt doorgegeven die in de huidige week valt.      <ul>      <li><code>dateTime</code>: Een <code>date</code>-, <code>datetime</code>- of <code>datetimezone</code>-waarde die moet worden geëvalueerd.</li>      <li><code>weeks</code>: Het aantal weken.</li>      </ul>
+Hiermee wordt aangegeven of de opgegeven datetime-waarde `dateTime` plaatsvindt gedurende de volgende weken volgens de huidige datum en tijd op het systeem. Houd er rekening mee dat deze functie onwaar retourneert als een waarde wordt doorgegeven die in de huidige week valt.
+
+-   `dateTime`: Een `date`\-, `datetime`\- of `datetimezone`\-waarde die moet worden geëvalueerd.
+-   `weeks`: Het aantal weken.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bepalen of de week na de huidige systeemtijd plaatsvindt in de volgende twee weken.
 ```powerquery
 Date.IsInNextNWeeks(Date.AddDays(DateTime.FixedLocalNow(), 7), 2)

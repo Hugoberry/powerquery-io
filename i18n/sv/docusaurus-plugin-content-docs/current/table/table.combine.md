@@ -20,12 +20,12 @@ Table.Combine(
 
 ## Remarks
 
-Returnerar en tabell som är resultatet av en sammanslagning av en lista över tabeller, <code>tables</code>. Den resulterande tabellen har en radtypsstruktur som definieras av <code>columns</code> eller av en union av indatatyper om <code>columns</code> inte har angetts.
+Returnerar en tabell som är resultatet av en sammanslagning av en lista över tabeller, `tables`. Den resulterande tabellen har en radtypsstruktur som definieras av `columns` eller av en union av indatatyper om `columns` inte har angetts.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Slå ihop tre tabeller.
 ```powerquery
 Table.Combine({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Sammanfoga tre tabeller med olika strukturer.
 ```powerquery
 Table.Combine({
@@ -65,7 +65,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Sammanfoga två tabeller och projekt till den angivna typen.
 ```powerquery
 Table.Combine(

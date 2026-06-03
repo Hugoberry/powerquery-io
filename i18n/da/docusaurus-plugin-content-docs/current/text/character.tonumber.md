@@ -19,12 +19,14 @@ Character.ToNumber(
 
 ## Remarks
 
-Returnerer tilsvarende tal for <code>character</code>.<br />    <br />    Resultatet er det 21-bit Unicode-kodepunkt, der repræsenteres af det angivne tegn eller erstatningspar.  
+Returnerer tilsvarende tal for `character`.  
+  
+Resultatet er det 21-bit Unicode-kodepunkt, der repræsenteres af det angivne tegn eller erstatningspar.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Konvertér et tegn til den tilsvarende talværdi.
 ```powerquery
 Character.ToNumber("#(tab)")
@@ -36,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Konvertér surrogatparret UTF-16 for humørikonet &#34;grinende ansigt&#34; til det tilsvarende heksadecimale kodepunkt.
+### Example #2
+Konvertér surrogatparret UTF-16 for humørikonet "grinende ansigt" til det tilsvarende heksadecimale kodepunkt.
 ```powerquery
 Number.ToText(Character.ToNumber("#(0001F600)"), "X")
 ```

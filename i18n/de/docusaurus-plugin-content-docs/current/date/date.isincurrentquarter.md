@@ -19,12 +19,14 @@ Date.IsInCurrentQuarter(
 
 ## Remarks
 
-Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob der angegebene datetime-Wert '<code>dateTime</code>' im aktuellen Quartal liegt.      <ul>      <li><code>dateTime</code>: Ein auszuwertender <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert.</li>      </ul>
+Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob der angegebene datetime-Wert '`dateTime`' im aktuellen Quartal liegt.
+
+-   `dateTime`: Ein auszuwertender `date`\-, `datetime`\- oder `datetimezone`\-Wert.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bestimmt, ob die aktuelle Systemzeit im aktuellen Quartal liegt.
 ```powerquery
 Date.IsInCurrentQuarter(DateTime.FixedLocalNow())

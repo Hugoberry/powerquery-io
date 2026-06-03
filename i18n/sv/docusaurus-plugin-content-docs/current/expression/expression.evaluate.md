@@ -20,12 +20,12 @@ Expression.Evaluate(
 
 ## Remarks
 
-Returnerar resultatet från utvärderingen av ett M-uttryck <code>document</code>, med de tillgängliga identifierare som kan refereras till definierade av <code>environment</code>.
+Returnerar resultatet från utvärderingen av ett M-uttryck `document`, med de tillgängliga identifierare som kan refereras till definierade av `environment`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utvärdera en enkel summa.
 ```powerquery
 Expression.Evaluate("1 + 1")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Utvärdera en mer komplex summa.
 ```powerquery
 Expression.Evaluate("List.Sum({1, 2, 3})", [List.Sum = List.Sum])
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Utvärdera sammanlänkningen av ett textvärde med en identifierare.
 ```powerquery
 Expression.Evaluate(Expression.Constant("""abc") & " & " & Expression.Identifier("x"), [x = "def"""])

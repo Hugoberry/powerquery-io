@@ -19,13 +19,13 @@ RowExpression.Column(
 
 ## Remarks
 
-Gibt eine abstrakte Syntaxstruktur (Abstract Syntax Tree, AST) zurück, die den Zugriff auf die Spalte <code>columnName</code> der Zeile innerhalb eines Zeilenausdrucks darstellt.
+Gibt eine abstrakte Syntaxstruktur (Abstract Syntax Tree, AST) zurück, die den Zugriff auf die Spalte `columnName` der Zeile innerhalb eines Zeilenausdrucks darstellt.
 
 
 ## Examples
 
-### Example #1 
-Erstellt eine AST-Angabe, die den Zugriff auf die Spalte &#34;CustomerName&#34; darstellt.
+### Example #1
+Erstellt eine AST-Angabe, die den Zugriff auf die Spalte "CustomerName" darstellt.
 ```powerquery
 RowExpression.Column("CustomerName")
 ```

@@ -20,12 +20,12 @@ Text.Upper(
 
 ## Remarks
 
-Zwraca wynik konwersji wszystkich znaków w elemencie <code>text</code> na wielkie litery. Można także określić opcjonalny parametr <code>culture</code> (na przykład „en-US”).
+Zwraca wynik konwersji wszystkich znaków w elemencie `text` na wielkie litery. Można także określić opcjonalny parametr `culture` (na przykład „en-US”).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utwórz wersję ciągu „aBcD” składającą się tylko z wielkich liter.
 ```powerquery
 Text.Upper("aBcD")

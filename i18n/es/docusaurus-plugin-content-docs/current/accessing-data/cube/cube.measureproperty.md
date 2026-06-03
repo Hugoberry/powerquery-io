@@ -20,7 +20,7 @@ Cube.MeasureProperty(
 
 ## Remarks
 
-Devuelve la propiedad <code>propertyName</code> de la medida <code>measure</code>.
+Devuelve la propiedad `propertyName` de la medida `measure`.
 
 
 

@@ -21,12 +21,16 @@ Record.TransformFields(
 
 ## Remarks
 
-Zwraca rekord powstały w wyniku zastosowania do rekordu <code>record</code> przekształceń określonych na liście <code>transformOperations</code>.    W danej chwili może być przekształcane jedno lub większa liczba pól.      <div>W przypadku przekształcania jednego pola lista <code>transformOperations</code> musi zawierać dwa elementy. Pierwszy element na liście <code>transformOperations</code> określa nazwę pola, a drugi element na liście <code>transformOperations</code> określa funkcję, która będzie używana do wykonania przekształcenia. Na przykład <code>\{"Quantity", Number.FromText}</code></div>      <div>W przypadku przekształcania wielu pól lista <code>transformOperations</code> musi być listą list, a każda lista wewnętrzna musi zawierać parę nazwa pola oraz operacja przekształcenia. Na przykład <code>\{\{"Quantity",Number.FromText},\{"UnitPrice", Number.FromText}}</code></div>
+Zwraca rekord powstały w wyniku zastosowania do rekordu `record` przekształceń określonych na liście `transformOperations`. W danej chwili może być przekształcane jedno lub większa liczba pól.
+
+W przypadku przekształcania jednego pola lista `transformOperations` musi zawierać dwa elementy. Pierwszy element na liście `transformOperations` określa nazwę pola, a drugi element na liście `transformOperations` określa funkcję, która będzie używana do wykonania przekształcenia. Na przykład `{"Quantity", Number.FromText}`
+
+W przypadku przekształcania wielu pól lista `transformOperations` musi być listą list, a każda lista wewnętrzna musi zawierać parę nazwa pola oraz operacja przekształcenia. Na przykład `{{"Quantity",Number.FromText},{"UnitPrice", Number.FromText}}`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Konwertuj pole „Cena” na liczbę.
 ```powerquery
 Record.TransformFields(
@@ -41,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Konwertuj wartości pól „Identyfikator zamówienia” i „Cena” na liczby.
 ```powerquery
 Record.TransformFields(

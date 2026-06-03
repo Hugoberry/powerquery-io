@@ -19,12 +19,14 @@ DateTime.IsInCurrentMinute(
 
 ## Remarks
 
-Indica se o valor datetime fornecido <code>dateTime</code> ocorre durante o minuto atual, conforme determinado pela data e hora atuais no sistema.      <ul>      <li><code>dateTime</code>: um valor <code>datetime</code>, ou <code>datetimezone</code> a ser avaliado.</li>      </ul>
+Indica se o valor datetime fornecido `dateTime` ocorre durante o minuto atual, conforme determinado pela data e hora atuais no sistema.
+
+-   `dateTime`: um valor `datetime`, ou `datetimezone` a ser avaliado.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determinar se a hora atual do sistema ocorre no minuto atual.
 ```powerquery
 DateTime.IsInCurrentMinute(DateTime.FixedLocalNow())

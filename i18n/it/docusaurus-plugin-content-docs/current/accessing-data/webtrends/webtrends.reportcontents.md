@@ -27,8 +27,8 @@ Effettua una chiamata all'endpoint dei report Webtrends e restituisce tutti i da
 
 ## Examples
 
-### Example #1 
-Effettua una chiamata all&#39;endpoint del report dei visitatori Webtrends per ottenere i dati degli ultimi 30 giorni
+### Example #1
+Effettua una chiamata all'endpoint del report dei visitatori Webtrends per ottenere i dati degli ultimi 30 giorni
 ```powerquery
 Webtrends.ReportContents("98765", "xPcmTDDP0P6")
 ```

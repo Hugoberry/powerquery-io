@@ -20,13 +20,13 @@ Text.At(
 
 ## Remarks
 
-Retourneert het teken in de tekstwaarde <code>text</code> op positie <code>index</code>. Het eerste teken in de tekst staat op positie 0.
+Retourneert het teken in de tekstwaarde `text` op positie `index`. Het eerste teken in de tekst staat op positie 0.
 
 
 ## Examples
 
-### Example #1 
-Het teken op positie 4 in de tekenreeks &#34;Hallo wereld&#34; zoeken.
+### Example #1
+Het teken op positie 4 in de tekenreeks "Hallo wereld" zoeken.
 ```powerquery
 Text.At("Hello, World", 4)
 ```

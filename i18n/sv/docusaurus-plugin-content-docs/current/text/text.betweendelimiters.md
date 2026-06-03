@@ -23,13 +23,13 @@ Text.BetweenDelimiters(
 
 ## Remarks
 
-Returnerar delen av <code>text</code> mellan det angivna <code>startDelimiter</code> och <code>endDelimiter</code>.    En valfri numerisk <code>startIndex</code> indikerar vilken förekomst av <code>startDelimiter</code> som ska övervägas.    En valfri lista <code>startIndex</code> indikerar vilken förekomst av <code>startDelimiter</code> som ska övervägas, samt om indexering ska ske från starten eller slutet av indata.    <code>endIndex</code> är liknande, förutom att indexering görs relativt till <code>startIndex</code>.
+Returnerar delen av `text` mellan det angivna `startDelimiter` och `endDelimiter`. En valfri numerisk `startIndex` indikerar vilken förekomst av `startDelimiter` som ska övervägas. En valfri lista `startIndex` indikerar vilken förekomst av `startDelimiter` som ska övervägas, samt om indexering ska ske från starten eller slutet av indata. `endIndex` är liknande, förutom att indexering görs relativt till `startIndex`.
 
 
 ## Examples
 
-### Example #1 
-Hämtar delen av &#34;111 (222) 333 (444)&#34; mellan den (första) öppna parentesen och den (första) stängda parentesen som kommer efter.
+### Example #1
+Hämtar delen av "111 (222) 333 (444)" mellan den (första) öppna parentesen och den (första) stängda parentesen som kommer efter.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")")
 ```
@@ -40,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Hämtar delen av &#34;111 (222) 333 (444)&#34; mellan den andra öppna parentesen och den (första) stängda parentesen som kommer efter.
+### Example #2
+Hämtar delen av "111 (222) 333 (444)" mellan den andra öppna parentesen och den (första) stängda parentesen som kommer efter.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")", 1, 0)
 ```
@@ -52,8 +52,8 @@ Result:
 ```
 
 
-### Example #3 
-Hämtar delen av &#34;111 (222) 333 (444)&#34; mellan den andra öppna parentesen från slutet och den andra stängda parentesen som kommer efter.
+### Example #3
+Hämtar delen av "111 (222) 333 (444)" mellan den andra öppna parentesen från slutet och den andra stängda parentesen som kommer efter.
 ```powerquery
 Text.BetweenDelimiters("111 (222) 333 (444)", "(", ")", {1, RelativePosition.FromEnd}, {1, RelativePosition.FromStart})
 ```

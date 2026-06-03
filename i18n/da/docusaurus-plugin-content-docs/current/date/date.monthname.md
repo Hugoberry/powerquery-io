@@ -20,12 +20,12 @@ Date.MonthName(
 
 ## Remarks
 
-Returnerer navnet på månedskomponenten for den angivne <code>date</code>. Der kan også angives en valgfri <code>culture</code> (f. eks. "en-US").
+Returnerer navnet på månedskomponenten for den angivne `date`. Der kan også angives en valgfri `culture` (f. eks. "en-US").
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hent navnet på måneden.
 ```powerquery
 Date.MonthName(#datetime(2011, 12, 31, 5, 0, 0), "en-US")

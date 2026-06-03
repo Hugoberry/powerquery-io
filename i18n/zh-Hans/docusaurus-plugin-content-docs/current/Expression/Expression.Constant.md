@@ -24,7 +24,7 @@ Expression.Constant(
 
 ## Examples
 
-### Example #1 
+### Example #1
 获取数字值的 M 源代码表示形式。
 ```powerquery
 Expression.Constant(123)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 获取日期值的 M 源代码表示形式。
 ```powerquery
 Expression.Constant(#date(2035, 01, 02))
@@ -48,7 +48,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 获取文本值的 M 源代码表示形式。
 ```powerquery
 Expression.Constant("abc")

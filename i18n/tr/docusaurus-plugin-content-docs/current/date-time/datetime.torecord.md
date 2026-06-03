@@ -19,13 +19,15 @@ DateTime.ToRecord(
 
 ## Remarks
 
-Verilen <code>dateTime</code> datetime değerinin parçalarını içeren bir kayıt döndürür. <ul>        <li><code>dateTime</code>: Parçalarının kaydının hesaplanacağı bir <code>datetime</code>değeri.</li>      </ul>
+Verilen `dateTime` datetime değerinin parçalarını içeren bir kayıt döndürür.
+
+-   `dateTime`: Parçalarının kaydının hesaplanacağı bir `datetime`değeri.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;#datetime(2011, 12, 31, 11, 56, 2)&lt;/code&gt; değerini Tarih ve Saat değerlerini içeren bir kayda dönüştürür.
+### Example #1
+`#datetime(2011, 12, 31, 11, 56, 2)` değerini Tarih ve Saat değerlerini içeren bir kayda dönüştürür.
 ```powerquery
 DateTime.ToRecord(#datetime(2011, 12, 31, 11, 56, 2))
 ```

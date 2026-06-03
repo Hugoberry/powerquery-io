@@ -20,7 +20,11 @@ AzureStorage.Blobs(
 
 ## Remarks
 
-Returnerer en navigationstabel, der indeholder en række for hver beholder, som blev fundet i konto-webadressen <code>account</code>, fra en Azure-opbevaringsboks. De enkelte rækker indeholder et link til beholderblobbene. <code>options</code> kan specificeres for at kontrollere følgende muligheder:    <ul><li><code>BlockSize</code> : Det antal byte der skal l&#230;ses, f&#248;r der ventes p&#229; dataforbruger. Standardv&#230;rdien er 4 MB.</li><li><code>RequestSize</code> : Det antal byte der skal fors&#248;ges indl&#230;st i en enkelt HTTP-anmodning til serveren. Standardv&#230;rdien er 4 MB.</li><li><code>ConcurrentRequests</code> : Indstillingen ConcurrentRequests underst&#248;tter hurtigere download af data ved at angive det antal anmodninger, der skal foretages parallelt ved hukommelsesudnyttelse. Den kr&#230;vede hukommelse er (ConcurrentRequest \* RequestSize). Standardv&#230;rdien er 16.</li></ul>
+Returnerer en navigationstabel, der indeholder en række for hver beholder, som blev fundet i konto-webadressen `account`, fra en Azure-opbevaringsboks. De enkelte rækker indeholder et link til beholderblobbene. `options` kan specificeres for at kontrollere følgende muligheder:
+
+-   `BlockSize` : Det antal byte der skal læses, før der ventes på dataforbruger. Standardværdien er 4 MB.
+-   `RequestSize` : Det antal byte der skal forsøges indlæst i en enkelt HTTP-anmodning til serveren. Standardværdien er 4 MB.
+-   `ConcurrentRequests` : Indstillingen ConcurrentRequests understøtter hurtigere download af data ved at angive det antal anmodninger, der skal foretages parallelt ved hukommelsesudnyttelse. Den krævede hukommelse er (ConcurrentRequest \* RequestSize). Standardværdien er 16.
 
 
 

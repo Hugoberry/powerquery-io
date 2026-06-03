@@ -19,12 +19,12 @@ Binary.ApproximateLength(
 
 ## Remarks
 
-返回 <code>binary</code> 的近似长度，或者如果数据源不支持近似长度，则返回错误。
+返回 `binary` 的近似长度，或者如果数据源不支持近似长度，则返回错误。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 获取二进制值的近似长度。
 ```powerquery
 Binary.ApproximateLength(Binary.FromText("i45WMlSKjQUA", BinaryEncoding.Base64))

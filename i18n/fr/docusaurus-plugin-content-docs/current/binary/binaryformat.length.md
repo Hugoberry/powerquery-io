@@ -20,13 +20,13 @@ BinaryFormat.Length(
 
 ## Remarks
 
-Retourne un format binaire qui limite la quantité de données pouvant être lues.  <code>BinaryFormat.List</code> et <code>BinaryFormat.Binary</code> peuvent être utilisés pour lire la fin des données.  <code>BinaryFormat.Length</code> peut être utilisé pour limiter le nombre d'octets lus.  Le paramètre <code>binaryFormat</code> spécifie le format binaire à limiter.  Le paramètre <code>length</code> spécifie le nombre d'octets à lire.  Le paramètre <code>length</code> peut être une valeur numérique ou une valeur de format binaire qui spécifie le format de la valeur de longueur affichée qui précède la valeur en cours de lecture.
+Renvoie un format binaire qui limite la quantité de données pouvant être lue. `BinaryFormat.List` et `BinaryFormat.Binary` peuvent tous deux être utilisés pour lire jusqu'à la fin des données. `BinaryFormat.Length` peut être utilisé pour limiter le nombre d'octets lus. Le paramètre `binaryFormat` spécifie le format binaire à limiter. Le paramètre `length` spécifie le nombre d'octets à lire. Le paramètre `length` peut être soit une valeur numérique, soit une valeur au format binaire spécifiant le format de la valeur de longueur qui précède la valeur en cours de lecture.
 
 
 ## Examples
 
-### Example #1 
-Limitez le nombre d&#39;octets lus à 2 lors de la lecture d&#39;une liste d&#39;octets.
+### Example #1
+Limitez le nombre d'octets lus à 2 lors de la lecture d'une liste d'octets.
 ```powerquery
 let
     binaryData = #binary({1, 2, 3}),
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Limitez le nombre d&#39;octets lus lors de la lecture d’une liste d&#39;octets, à la valeur d&#39;octet précédant la liste.
+### Example #2
+Limitez le nombre d'octets lus lors de la lecture d’une liste d'octets, à la valeur d'octet précédant la liste.
 ```powerquery
 let
     binaryData = #binary({1, 2, 3}),

@@ -19,7 +19,7 @@ Type.Union(
 
 ## Remarks
 
-<code>types</code> の型の和集合を返します。
+`types` の型の和集合を返します。
 
 
 

@@ -21,12 +21,12 @@ List.Times(
 
 ## Remarks
 
-<code>count</code> boyutunda <code>start</code> konumunda başlayan bir <code>time</code> değer listesi döndürür. <code>step</code> verilen artışı her değere eklenen bir <code>duration</code> değeridir.
+`count` boyutunda `start` konumunda başlayan bir `time` değer listesi döndürür. `step` verilen artışı her değere eklenen bir `duration` değeridir.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Öğleden sonra başlayan (#time(12, 0, 0)), 1 saat artan (#duration(0, 1, 0, 0)) 4 değer içeren bir liste oluşturur.
 ```powerquery
 List.Times(#time(12, 0, 0), 4, #duration(0, 1, 0, 0))

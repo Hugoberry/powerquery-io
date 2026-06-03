@@ -20,13 +20,13 @@ List.IsDistinct(
 
 ## Remarks
 
-<code>list</code> listesinde yinelenen değerlerin olup olmadığı ile ilgili mantıksal bir değer döndürür; liste farklı değerler içeriyorsa <code>true</code>, listede yinelenen değerler varsa <code>false</code> döndürür. 
+`list` listesinde yinelenen değerlerin olup olmadığı ile ilgili mantıksal bir değer döndürür; liste farklı değerler içeriyorsa `true`, listede yinelenen değerler varsa `false` döndürür.
 
 
 ## Examples
 
-### Example #1 
-\{1, 2, 3} listesinin farklı olup olmadığını bulur (örn. yinelenen değer yok).
+### Example #1
+\{1, 2, 3\} listesinin farklı olup olmadığını bulur (örn. yinelenen değer yok).
 ```powerquery
 List.IsDistinct({1, 2, 3})
 ```
@@ -37,8 +37,8 @@ true
 ```
 
 
-### Example #2 
-\{1, 2, 3, 3} listesinin farklı olup olmadığını bulur (örn. yinelenen değer yok).
+### Example #2
+\{1, 2, 3, 3\} listesinin farklı olup olmadığını bulur (örn. yinelenen değer yok).
 ```powerquery
 List.IsDistinct({1, 2, 3, 3})
 ```

@@ -20,12 +20,15 @@ Table.LastN(
 
 ## Remarks
 
-<code>countOrCondition</code> değerine bağlı olarak <code>table</code> tablosunun sonra satırlarını döndürür:    <ul>    <li> <code>countOrCondition</code> bir sayı ise, bu sayıda satır ((end - <code>countOrCondition</code>) konumundan başlayarak) döndürülür. </li>    <li> <code>countOrCondition</code> bir koşul ise, koşulu sağlayan satırlar artan konumda herhangi bir satırı koşulu sağlamayana kadar döndürülür.</li></ul>
+`countOrCondition` değerine bağlı olarak `table` tablosunun sonra satırlarını döndürür:
+
+-   `countOrCondition` bir sayı ise, bu sayıda satır ((end - `countOrCondition`) konumundan başlayarak) döndürülür.
+-   `countOrCondition` bir koşul ise, koşulu sağlayan satırlar artan konumda herhangi bir satırı koşulu sağlamayana kadar döndürülür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablonun son iki satırını bulur.
 ```powerquery
 Table.LastN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Tabloda [a] &gt; 0 koşulunu sağlayan son satırları bulur.
+### Example #2
+Tabloda \[a\] > 0 koşulunu sağlayan son satırları bulur.
 ```powerquery
 Table.LastN(
     Table.FromRecords({

@@ -20,13 +20,13 @@ List.Transform(
 
 ## Remarks
 
-<code>list</code> listesine <code>transform</code> dönüştürme işlevi uygulayarak yeni bir değer listesi döndürür.
+`list` listesine `transform` dönüştürme işlevi uygulayarak yeni bir değer listesi döndürür.
 
 
 ## Examples
 
-### Example #1 
-\{1, 2} listesindeki her öğeye 1 ekler.
+### Example #1
+\{1, 2\} listesindeki her öğeye 1 ekler.
 ```powerquery
 List.Transform({1, 2}, each _ + 1)
 ```

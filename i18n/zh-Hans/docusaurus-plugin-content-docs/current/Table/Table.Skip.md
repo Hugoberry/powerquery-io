@@ -20,12 +20,16 @@ Table.Skip(
 
 ## Remarks
 
-返回一个表，该表不包含表 <code>table</code> 的指定数量的前几行 <code>countOrCondition</code>。    跳过的行数依赖于可选参数 <code>countOrCondition</code>。    <ul>    <li> 如果忽略 <code>countOrCondition</code>，则只跳过第一行。</li>    <li> 如果 <code>countOrCondition</code> 为数字，则将跳过该数字那么多的行(从顶部开始)。</li>    <li> 如果 <code>countOrCondition</code> 是条件，将跳过满足此条件的行，直到行不满足条件为止。</li>    </ul>
+返回一个表，该表不包含表 `table` 的指定数量的前几行 `countOrCondition`。 跳过的行数依赖于可选参数 `countOrCondition`。
+
+-   如果忽略 `countOrCondition`，则只跳过第一行。
+-   如果 `countOrCondition` 为数字，则将跳过该数字那么多的行(从顶部开始)。
+-   如果 `countOrCondition` 是条件，将跳过满足此条件的行，直到行不满足条件为止。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 跳过表的第一行。
 ```powerquery
 Table.Skip(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 跳过表的前两行。
 ```powerquery
 Table.Skip(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-跳过表中 [Price] &gt; 25 的前几行。
+### Example #3
+跳过表中 \[Price\] > 25 的前几行。
 ```powerquery
 Table.Skip(
     Table.FromRecords({

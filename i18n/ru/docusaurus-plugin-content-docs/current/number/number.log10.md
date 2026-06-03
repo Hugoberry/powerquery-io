@@ -19,12 +19,12 @@ Number.Log10(
 
 ## Remarks
 
-Возвращает десятичный логарифм числа <code>number</code>. Если <code>number</code> имеет значение NULL, <code>Number.Log10</code> возвращает NULL.
+Возвращает десятичный логарифм числа `number`. Если `number` имеет значение NULL, `Number.Log10` возвращает NULL.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Получение десятичного логарифма для 2.
 ```powerquery
 Number.Log10(2)

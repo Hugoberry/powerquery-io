@@ -27,7 +27,7 @@ Kombinerar de angivna kolumnerna till en ny kolumn som använder den angivna kom
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kombinera efter namnen i en ny kolumn, avgränsade med kommatecken.
 ```powerquery
 Table.CombineColumns(

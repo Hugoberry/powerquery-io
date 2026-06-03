@@ -5,7 +5,7 @@ title: Number.BitwiseXor
 # Number.BitwiseXor
 
 
-दो इनपुट के बीच बिटवाइज़ &#34;XOR&#34; (अनन्य-OR) के निष्पादन का परिणाम लौटाता है.
+दो इनपुट के बीच बिटवाइज़ "XOR" (अनन्य-OR) के निष्पादन का परिणाम लौटाता है.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Number.BitwiseXor(
 
 ## Remarks
 
-<code>number1</code> और <code>number2</code> के बीच बिटवाइज़ "XOR" (अनन्य-OR) के निष्पादन का परिणाम लौटाता है.
+`number1` और `number2` के बीच बिटवाइज़ "XOR" (अनन्य-OR) के निष्पादन का परिणाम लौटाता है.
 
 
 

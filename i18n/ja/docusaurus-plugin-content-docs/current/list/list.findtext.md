@@ -20,13 +20,13 @@ List.FindText(
 
 ## Remarks
 
-リスト <code>list</code> から、値 <code>text</code> が含まれる値のリストを返します。
+リスト `list` から、値 `text` が含まれる値のリストを返します。
 
 
 ## Examples
 
-### Example #1 
-リスト \{&#34;a&#34;, &#34;b&#34;, &#34;ab&#34;} 内の、&#34;a&#34; に一致するテキスト値を求めます。
+### Example #1
+リスト \{"a", "b", "ab"\} 内の、"a" に一致するテキスト値を求めます。
 ```powerquery
 List.FindText({"a", "b", "ab"}, "a")
 ```

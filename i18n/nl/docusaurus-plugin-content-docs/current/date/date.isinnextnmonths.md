@@ -20,12 +20,15 @@ Date.IsInNextNMonths(
 
 ## Remarks
 
-Hiermee wordt aangegeven of de opgegeven datetime-waarde <code>dateTime</code> plaatsvindt gedurende de volgende maanden volgens de huidige datum en tijd op het systeem. Houd er rekening mee dat deze functie onwaar retourneert als een waarde wordt doorgegeven die in de huidige maand valt.      <ul>      <li><code>dateTime</code>: Een <code>date</code>-, <code>datetime</code>- of <code>datetimezone</code>-waarde die moet worden geëvalueerd.</li>      <li><code>months</code>: Het aantal maanden.</li>      </ul>
+Hiermee wordt aangegeven of de opgegeven datetime-waarde `dateTime` plaatsvindt gedurende de volgende maanden volgens de huidige datum en tijd op het systeem. Houd er rekening mee dat deze functie onwaar retourneert als een waarde wordt doorgegeven die in de huidige maand valt.
+
+-   `dateTime`: Een `date`\-, `datetime`\- of `datetimezone`\-waarde die moet worden geëvalueerd.
+-   `months`: Het aantal maanden.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bepalen of de maand na de huidige systeemtijd plaatsvindt in de volgende twee maanden.
 ```powerquery
 Date.IsInNextNMonths(Date.AddMonths(DateTime.FixedLocalNow(), 1), 2)

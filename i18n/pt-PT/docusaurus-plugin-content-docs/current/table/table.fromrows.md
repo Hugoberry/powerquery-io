@@ -5,7 +5,7 @@ title: Table.FromRows
 # Table.FromRows
 
 
-Cria uma tabela a partir de uma lista de valores de linha e colunas opcionais
+Crie uma tabela a partir de uma lista de valores de linha e colunas opcionais.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Table.FromRows(
 
 ## Remarks
 
-Cria uma tabela a partir da lista <code>rows</code>, em que cada elemento da lista é uma lista interna que contém os valores de coluna de uma linha. É possível fornecer uma lista opcional de nomes de coluna, um tipo de tabela ou um número de colunas para <code>columns</code>.
+Cria uma tabela a partir da lista `rows`, em que cada elemento da lista é uma lista interna que contém os valores de coluna de uma linha. É possível fornecer uma lista opcional de nomes de coluna, um tipo de tabela ou um número de colunas para `columns`.
 
 
 ## Examples
 
-### Example #1 
-Devolver uma tabela com a coluna [CustomerID] com os valores \{1, 2} e a coluna [Name] com os valores \{&#34;Bob&#34;, &#34;Jim&#34;} e a coluna [Telefone] com os valores \{&#34;123-4567&#34;, &#34;987-6543&#34;}.
+### Example #1
+Devolver uma tabela com a coluna \[CustomerID\] com os valores \{1, 2\} e a coluna \[Name\] com os valores \{"Bob", "Jim"\} e a coluna \[Telefone\] com os valores \{"123-4567", "987-6543"\}.
 ```powerquery
 Table.FromRows(
     {
@@ -46,8 +46,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Devolve uma tabela com a coluna [CustomerID] com valores \{1, 2}, coluna [Nome] com os valores \{&#34;Bob&#34;, &#34;Jim&#34;}, e a coluna [Telefone] com os valores \{&#34;123-4567&#34;, &#34;987-6543&#34;}, em que [CustomerID] é do tipo número e [Nome] e [Telefone] são do tipo texto.
+### Example #2
+Devolve uma tabela com a coluna \[CustomerID\] com valores \{1, 2\}, coluna \[Nome\] com os valores \{"Bob", "Jim"\}, e a coluna \[Telefone\] com os valores \{"123-4567", "987-6543"\}, em que \[CustomerID\] é do tipo número e \[Nome\] e \[Telefone\] são do tipo texto.
 ```powerquery
 Table.FromRows(
     {

@@ -24,7 +24,7 @@ Table.Keys(
 
 ## Examples
 
-### Example #1 
+### Example #1
 तालिका के लिए कुंजियों की सूची प्राप्त करें.
 ```powerquery
 let

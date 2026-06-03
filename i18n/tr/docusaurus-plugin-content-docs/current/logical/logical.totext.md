@@ -5,7 +5,7 @@ title: Logical.ToText
 # Logical.ToText
 
 
-Verilen mantıksal değerden &#34;true&#34; veya &#34;false&#34; metnini döndürür.
+Verilen mantıksal değerden "true" veya "false" metnini döndürür.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.ToText(
 
 ## Remarks
 
-<code>true</code> veya <code>false</code> olan <code>logicalValue</code> mantıksal değerinden bir metin değeri oluşturur. <code>logicalValue</code> mantıksal değer değilse, özel durum oluşur.
+`true` veya `false` olan `logicalValue` mantıksal değerinden bir metin değeri oluşturur. `logicalValue` mantıksal bir değer değilse, bir hata oluşur.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;true&lt;/code&gt; mantıksal değerinden metin değeri oluşturur.
+### Example #1
+`true` mantıksal değerinden metin değeri oluşturur.
 ```powerquery
 Logical.ToText(true)
 ```

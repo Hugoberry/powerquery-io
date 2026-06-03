@@ -19,12 +19,12 @@ Number.Sign(
 
 ## Remarks
 
-<code>number</code> के धनात्मक संख्या होने पर 1, ऋणात्मक संख्या होने पर -1 और शून्य होने पर 0 लौटाता है.    यदि <code>number</code> नल है, तो <code>Number.Sign</code> नल लौटाता है.
+`number` के धनात्मक संख्या होने पर 1, ऋणात्मक संख्या होने पर -1 और शून्य होने पर 0 लौटाता है. यदि `number` नल है, तो `Number.Sign` नल लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 182 का चिह्न निर्धारित करें.
 ```powerquery
 Number.Sign(182)
@@ -36,8 +36,8 @@ Result:
 ```
 
 
-### Example #2 
--182 का चिह्न निर्धारित करें.
+### Example #2
+\-182 का चिह्न निर्धारित करें.
 ```powerquery
 Number.Sign(-182)
 ```
@@ -48,7 +48,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 0 का चिह्न निर्धारित करें.
 ```powerquery
 Number.Sign(0)

@@ -19,13 +19,18 @@ Logical.From(
 
 ## Remarks
 
-Trả về giá trị <code>logical</code> từ <code>value</code> cho sẵn. Nếu <code>value</code> cho sẵn là <code>null</code> thì <code>Logical.From</code> trả về <code>null</code>.  Nếu <code>value</code> cho sẵn là <code>logical</code> thì <code>value</code> được trả về. Giá trị của các loại sau đây có thể được chuyển đổi thành giá trị <code>logical</code>:      <ul>        <li><code>text</code>: Một giá trị <code>logical</code> từ giá trị văn bản, <code>"true"</code> hoặc <code>"false"</code>. Tham khảo <code>Logical.FromText</code> để biết chi tiết.</li>        <li><code>number</code>: <code>false</code> nếu <code>value</code> bằng <code>0</code>, <code>true</code> nếu ngược lại.</li>      </ul>Nếu <code>value</code> thuộc một loại khác thì một lỗi được trả về.
+Trả về giá trị `logical` từ `value` cho sẵn. Nếu `value` cho sẵn là `null` thì `Logical.From` trả về `null`. Nếu `value` cho sẵn là `logical` thì `value` được trả về. Giá trị của các loại sau đây có thể được chuyển đổi thành giá trị `logical`:
+
+-   `text`: Một giá trị `logical` từ giá trị văn bản, `"true"` hoặc `"false"`. Tham khảo `Logical.FromText` để biết chi tiết.
+-   `number`: `false` nếu `value` bằng `0`, `true` nếu ngược lại.
+
+Nếu `value` thuộc một loại khác thì một lỗi được trả về.
 
 
 ## Examples
 
-### Example #1 
-Chuyển đổi &lt;code&gt;2&lt;/code&gt; thành giá trị &lt;code&gt;logical&lt;/code&gt;.
+### Example #1
+Chuyển đổi `2` thành giá trị `logical`.
 ```powerquery
 Logical.From(2)
 ```

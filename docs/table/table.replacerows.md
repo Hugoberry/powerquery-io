@@ -22,12 +22,17 @@ Table.ReplaceRows(
 
 ## Remarks
 
-Replaces a specified number of rows, <code>count</code>, in the input <code>table</code> with the specified <code>rows</code>, beginning after the <code>offset</code>. The <code>rows</code> parameter is a list of records.    <ul>       <li><code>table</code>: The table where the replacement is performed.</li>       <li><code>offset</code>: The number of rows to skip before making the replacement.</li>       <li><code>count</code>: The number of rows to replace.</li>       <li><code>rows</code>: The list of row records to insert into the <code>table</code> at the location specified by the <code>offset</code>.</li>    </ul>
+Replaces a specified number of rows, `count`, in the input `table` with the specified `rows`, beginning after the `offset`. The `rows` parameter is a list of records.
+
+-   `table`: The table where the replacement is performed.
+-   `offset`: The number of rows to skip before making the replacement.
+-   `count`: The number of rows to replace.
+-   `rows`: The list of row records to insert into the `table` at the location specified by the `offset`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Starting at position 1, replace 3 rows.
 ```powerquery
 Table.ReplaceRows(

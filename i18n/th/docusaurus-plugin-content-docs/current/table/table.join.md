@@ -25,12 +25,25 @@ Table.Join(
 
 ## Remarks
 
-รวมแถวของ <code>table1</code> กับแถวของ <code>table2</code> ตามความเท่ากันของค่าของคอลัมน์หลักที่เลือกโดย <code>key1</code> (สําหรับ <code>table1</code>) และ <code>key2</code> (สําหรับ <code>table2</code>) <br />ตามค่าเริ่มต้น มีการดําเนินการรวมภายใน อย่างไรก็ตาม อาจมีการรวม <code>joinKind</code> เพิ่มเติมเพื่อระบุชนิดของการรวม ตัวเลือกประกอบด้วย: <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br /> อาจมีการรวมชุด <code>keyEqualityComparers</code> เพิ่มเติมเพื่อระบุวิธีการเปรียบเทียบคอลัมน์หลัก พารามิเตอร์นี้มีไว้สําหรับใช้ภายในเท่านั้น<br />
+รวมแถวของ `table1` กับแถวของ `table2` ตามความเท่ากันของค่าของคอลัมน์หลักที่เลือกโดย `key1` (สําหรับ `table1`) และ `key2` (สําหรับ `table2`)
+
+ตามค่าเริ่มต้น มีการดําเนินการรวมภายใน อย่างไรก็ตาม อาจมีการรวม `joinKind` เพิ่มเติมเพื่อระบุชนิดของการรวม ตัวเลือกประกอบด้วย:
+
+-   `JoinKind.Inner`
+-   `JoinKind.LeftOuter`
+-   `JoinKind.RightOuter`
+-   `JoinKind.FullOuter`
+-   `JoinKind.LeftAnti`
+-   `JoinKind.RightAnti`
+-   `JoinKind.LeftSemi`
+-   `JoinKind.RightSemi`
+
+อาจมีการรวมชุด `keyEqualityComparers` เพิ่มเติมเพื่อระบุวิธีการเปรียบเทียบคอลัมน์หลัก พารามิเตอร์นี้มีไว้สําหรับใช้ภายในเท่านั้น
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 รวมสองตารางโดยใช้คอลัมน์หลักคอลัมน์เดียว
 ```powerquery
 Table.Join(
@@ -67,7 +80,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 รวมสองตารางที่มีชื่อคอลัมน์ที่ขัดแย้งกันโดยใช้คอลัมน์หลักหลายคอลัมน์
 ```powerquery
 let

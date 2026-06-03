@@ -19,12 +19,12 @@ Table.ToRecords(
 
 ## Remarks
 
-<code>table</code> tablosunu kayıt listesine dönüştürür.
+`table` tablosunu kayıt listesine dönüştürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tabloyu kayıt listesine dönüştürür.
 ```powerquery
 Table.ToRecords(

@@ -19,12 +19,12 @@ Number.Factorial(
 
 ## Remarks
 
-Gibt die Fakultät der Zahl <code>number</code> zurück.
+Gibt die Fakultät der Zahl `number` zurück.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ermittelt die Fakultät von 10.
 ```powerquery
 Number.Factorial(10)

@@ -19,13 +19,13 @@ List.Combine(
 
 ## Remarks
 
-Przyjmuje listę list <code>lists</code> i scala te listy w jedną nową listę.
+Przyjmuje listę list `lists` i scala te listy w jedną nową listę.
 
 
 ## Examples
 
-### Example #1 
-Połącz dwie proste listy — \{1, 2} i \{3, 4}.
+### Example #1
+Połącz dwie proste listy — \{1, 2\} i \{3, 4\}.
 ```powerquery
 List.Combine({{1, 2}, {3, 4}})
 ```
@@ -41,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-Połącz dwie listy — \{1, 2} i \{3, \{4, 5}} — z których jedna zawiera listę zagnieżdżoną.
+### Example #2
+Połącz dwie listy — \{1, 2\} i \{3, \{4, 5\}\} — z których jedna zawiera listę zagnieżdżoną.
 ```powerquery
 List.Combine({{1, 2}, {3, {4, 5}}})
 ```

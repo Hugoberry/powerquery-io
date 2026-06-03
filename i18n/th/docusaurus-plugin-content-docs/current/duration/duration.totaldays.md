@@ -19,12 +19,12 @@ Duration.TotalDays(
 
 ## Remarks
 
-ส่งกลับจํานวนวันทั้งหมดที่ขยายโดย <code>duration</code>
+ส่งกลับจํานวนวันทั้งหมดที่ขยายโดย `duration`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ค้นหาจํานวนวันทั้งหมดที่ขยายด้วยค่าระยะเวลา
 ```powerquery
 Duration.TotalDays(#duration(5, 4, 3, 2))

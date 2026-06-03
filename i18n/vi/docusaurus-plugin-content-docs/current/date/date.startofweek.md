@@ -20,12 +20,12 @@ Date.StartOfWeek(
 
 ## Remarks
 
-Trả về thời gian đầu tuần chứa <code>dateTime</code>.    <code>dateTime</code> phải là giá trị <code>date</code>, <code>datetime</code> hoặc <code>datetimezone</code>.
+Trả về thời gian đầu tuần chứa `dateTime`. `dateTime` phải là giá trị `date`, `datetime` hoặc `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm đầu tuần cho Thứ Ba, ngày 11 tháng 10 năm 2011.
 ```powerquery
 Date.StartOfWeek(#datetime(2011, 10, 11, 8, 10, 32))
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Tìm đầu tuần cho Thứ Ba, ngày 11 tháng 10 năm 2011, sử dụng Thứ Hai làm đầu tuần.
 ```powerquery
 Date.StartOfWeek(#datetime(2011, 10, 11, 8, 10, 32), Day.Monday)

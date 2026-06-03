@@ -23,12 +23,12 @@ Table.AddIndexColumn(
 
 ## Remarks
 
-Voegt een kolom genaamd <code>newColumnName</code> toe aan <code>table</code> met expliciete positiewaarden.    Een optionele waarde, <code>initialValue</code>, de aanvankelijke indexwaarde. Een optionele waarde, <code>increment</code>, geeft aan met hoeveel elke indexwaarde steeds wordt verhoogd.
+Voegt een kolom genaamd `newColumnName` toe aan `table` met expliciete positiewaarden. Een optionele waarde, `initialValue`, de aanvankelijke indexwaarde. Een optionele waarde, `increment`, geeft aan met hoeveel elke indexwaarde steeds wordt verhoogd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een indexkolom genaamd Index toevoegen aan de tabel.
 ```powerquery
 Table.AddIndexColumn(
@@ -53,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Een indexkolom genaamd index, die begint bij 10 en steeds wordt verhoogd met 5, toevoegen aan de tabel.
 ```powerquery
 Table.AddIndexColumn(

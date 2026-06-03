@@ -19,12 +19,12 @@ Number.Sin(
 
 ## Remarks
 
-<code>number</code> değerinin sinüsünü döndürür.
+`number` değerinin sinüsünü döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 0 açısının sinüsünü bulur.
 ```powerquery
 Number.Sin(0)

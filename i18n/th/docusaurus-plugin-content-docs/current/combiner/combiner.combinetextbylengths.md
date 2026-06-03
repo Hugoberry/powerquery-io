@@ -25,7 +25,7 @@ Combiner.CombineTextByLengths(
 
 ## Examples
 
-### Example #1 
+### Example #1
 รวมรายการของค่าข้อความโดยการแยกจำนวนอักขระที่ระบุจากค่าที่ป้อนแต่ละค่า
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3})({"aaa", "bbb", "ccc"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 รวมรายการของค่าข้อความโดยการแยกจำนวนอักขระที่ระบุ หลังจากเติมผลลัพธ์ล่วงหน้าด้วยข้อความเทมเพลต
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3}, "*********")({"aaa", "bbb", "ccc"})

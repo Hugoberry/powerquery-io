@@ -19,12 +19,12 @@ Number.Tan(
 
 ## Remarks
 
-ส่งกลับค่าแทนเจนต์ของ <code>number</code>
+ส่งกลับค่าแทนเจนต์ของ `number`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 หาค่าแทนเจนต์ของมุม 1
 ```powerquery
 Number.Tan(1)

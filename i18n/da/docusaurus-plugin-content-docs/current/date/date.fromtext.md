@@ -20,13 +20,20 @@ Date.FromText(
 
 ## Remarks
 
-Opretter en værdi af typen <code>datoværdi</code> ud fra en tekstrepræsentation, <code>text</code>. En valgfri <code>record</code> parameter <code>options</code> kan leveres for at specificere yderligere egenskaber. <code>The record</code> kan indeholde følgende felter:<ul>   <li><code>Format</code>: En <code>tekstværdi</code> angiver det format, der skal bruges. Gå til https://go.microsoft.com/fwlink/?linkid=2180104 og https://go.microsoft.com/fwlink/?linkid=2180105 for at få flere oplysninger. Udeladelse af dette felt eller angivelse af <code>null</code> vil resultere i parsing af datoen efter bedste evne.</li>   <li><code>Culture</code> : Når <code>Format</code> ikke er null, kontrollerer <code>Culture</code> nogle formatspecifikationer. For eksempel i <code>"en-US"</code> er <code>"MMM"</code> <code>"januar", "februar", "marts", ...</code>, mens i <code>"ru-RU"</code> er <code>"MMM"</code> <code>"янв", "фев", "мар", ...</code>. Når <code>Format</code> er <code>null</code>, kontrollerer <code>Culture</code> standardformatet, der skal bruges. Når <code>Culture</code> er <code>null</code> eller udeladt, bruges <code>Culture Current</code>.</li></ul>Hvis du vil understøtte ældre arbejdsprocesser, kan <code>options</code> også være en tekstværdi. Dette har den samme funktionsmåde som hvis <code>options</code><code> = [Format = null, Culture = <code>options</code>]</code>.
+Creates a date value from a textual representation.
+
+-   `text`: A text value to covert to a date.
+-   `options`: An optional `record` that can be provided to specify additional properties. The `record` can contain the following fields:
+    -   `Format`: A `text` value indicating the format to use. For more details, go to https://go.microsoft.com/fwlink/?linkid=2180104 and https://go.microsoft.com/fwlink/?linkid=2180105. Omitting this field or providing `null` results in parsing the date using a best effort.
+    -   `Culture`: When `Format` isn't null, `Culture` controls some format specifiers. For example, in `"en-US"` `"MMM"` is `"Jan", "Feb", "Mar", ...`, while in `"ru-RU"` `"MMM"` is `"янв", "фев", "мар", ...`. When `Format` is `null`, `Culture` controls the default format to use. When `Culture` is `null` or omitted, `Culture.Current` is used.
+
+To support legacy workflows, `options` can also be a text value. This has the same behavior as if `options = [Format = null, Culture = options]`.
 
 
 ## Examples
 
-### Example #1 
-Konvertér &lt;code&gt;&#34;2010-12-31&#34;&lt;/code&gt; til en værdi af typen &lt;code&gt;date&lt;/code&gt;.
+### Example #1
+Konvertér `"2010-12-31"` til en værdi af typen `date`.
 ```powerquery
 Date.FromText("2010-12-31")
 ```
@@ -37,7 +44,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Konverter ved hjælp af et brugerdefineret format og den tyske kultur.
 ```powerquery
 Date.FromText("30 Dez 2010", [Format="dd MMM yyyy", Culture="de-DE"])
@@ -49,7 +56,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Find datoen i den gregorianske kalender, der svarer til begyndelsen af 1400 i hijri-kalenderen.
 ```powerquery
 Date.FromText("1400", [Format="yyyy", Culture="ar-SA"])
@@ -58,6 +65,41 @@ Date.FromText("1400", [Format="yyyy", Culture="ar-SA"])
 Result: 
 ```powerquery
 #date(1979, 11, 20)
+```
+
+
+### Example #4
+Konvertér datoer i italiensk tekst med forkortede måneder i kolonnen Sendt dato til datoværdier.
+```powerquery
+let
+    Source = #table(type table [Account Code = text, Posted Date = text, Sales = number],
+    {
+        {"US-2004", "20 gen. 2023", 580},
+        {"CA-8843", "18 lug. 2024", 280},
+        {"PA-1274", "12 gen. 2023", 90},
+        {"PA-4323", "14 apr. 2023", 187},
+        {"US-1200", "14 dic. 2023", 350},
+        {"PTY-507", "4 giu. 2024", 110}
+    }),
+    #"Converted Date" = Table.TransformColumns(
+        Source,
+        {"Posted Date", each Date.FromText(_, [Culture = "it-IT"]), type date}
+    )
+in
+    #"Converted Date"
+```
+
+Result: 
+```powerquery
+#table(type table [Account Code = text, Posted Date = date, Sales = number],
+{
+    {"US-2004", #date(2023, 1, 20), 580},
+    {"CA-8843", #date(2024, 7, 18), 280},
+    {"PA-1274", #date(2023, 1, 12), 90},
+    {"PA-4323", #date(2023, 4, 14), 187},
+    {"US-1200", #date(2023, 12, 14), 350},
+    {"PTY-507", #date(2024, 6, 4), 110}
+})
 ```
 
 

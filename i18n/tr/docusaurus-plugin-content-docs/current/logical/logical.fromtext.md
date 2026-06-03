@@ -5,7 +5,7 @@ title: Logical.FromText
 # Logical.FromText
 
 
-&#34;true&#34; ve &#34;false&#34; metin değerlerinden bir metinsel değer oluşturur.
+"true" ve "false" metin değerlerinden bir metinsel değer oluşturur.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.FromText(
 
 ## Remarks
 
-"true" veya "false" olan <code>text</code> metin değerinden bir metinsel değer oluşturur. <code>text</code> farklı bir dize içeriyorsa, özel durum oluşur. <code>text</code> metin değeri büyük/küçük harfe duyarlıdır.
+"true" veya "false" olan `text` metin değerinden bir metinsel değer oluşturur. `text` farklı bir dize içeriyorsa, bir hata oluşur. `text` metin değeri büyük/küçük harfe duyarlıdır.
 
 
 ## Examples
 
-### Example #1 
-&#34;true&#34; metin dizesinden mantıksal bir değer oluşturur.
+### Example #1
+"true" metin dizesinden mantıksal bir değer oluşturur.
 ```powerquery
 Logical.FromText("true")
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-&#34;a&#34; metin dizesinden mantıksal bir değer oluşturur.
+### Example #2
+"a" metin dizesinden mantıksal bir değer oluşturur.
 ```powerquery
 Logical.FromText("a")
 ```

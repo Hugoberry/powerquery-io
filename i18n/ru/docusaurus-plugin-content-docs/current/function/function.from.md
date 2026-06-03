@@ -5,7 +5,7 @@ title: Function.From
 # Function.From
 
 
-Создает функцию с определенной сигнатурой параметров на базе функции, принимающей один аргумент списка.
+Создает функцию с определенной сигнатурой параметров на базе функции, принимающей один списочный аргумент.
 
 
 ## Syntax
@@ -20,12 +20,12 @@ Function.From(
 
 ## Remarks
 
-Принимает унарную функцию <code>function</code> и создает новую функцию с типом <code>functionType</code>, которая составляет из ее аргументов список и передает его <code>function</code>.
+Принимает унарную функцию `function` и создает новую функцию с типом `functionType`, которая составляет из ее аргументов список и передает его `function`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Преобразует List.Sum в функцию с двумя аргументами, которые складываются друг с другом.
 ```powerquery
 Function.From(type function (a as number, b as number) as number, List.Sum)(2, 1)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Преобразует функцию, принимающую список, в функцию с двумя аргументами.
 ```powerquery
 Function.From(type function (a as text, b as text) as text, (list) => list{0} & list{1})("2", "1")

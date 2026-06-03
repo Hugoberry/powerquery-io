@@ -21,12 +21,12 @@ Table.Contains(
 
 ## Remarks
 
-Wskazuje, czy określony rekord <code>row</code> występuje jako wiersz w tabeli <code>table</code>.    Opcjonalny parametr <code>equationCriteria</code> można określić, aby sterować porównywaniem wierszy tabeli.
+Wskazuje, czy określony rekord `row` występuje jako wiersz w tabeli `table`. Opcjonalny parametr `equationCriteria` można określić, aby sterować porównywaniem wierszy tabeli.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ustal, czy tabela zawiera wiersz.
 ```powerquery
 Table.Contains(
@@ -46,7 +46,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Ustal, czy tabela zawiera wiersz.
 ```powerquery
 Table.Contains(
@@ -66,8 +66,8 @@ false
 ```
 
 
-### Example #3 
-Ustal, czy tabela zawiera wiersz, porównując tylko wartości w kolumnie [Name].
+### Example #3
+Ustal, czy tabela zawiera wiersz, porównując tylko wartości w kolumnie \[Name\].
 ```powerquery
 Table.Contains(
     Table.FromRecords({

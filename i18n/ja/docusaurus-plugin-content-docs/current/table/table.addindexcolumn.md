@@ -23,13 +23,13 @@ Table.AddIndexColumn(
 
 ## Remarks
 
-<code>table</code> に明示的な位置の値を含む <code>newColumnName</code> という名前の列を追加します。    省略可能な値 <code>initialValue</code> はインデックスの初期値です。省略可能な値 <code>increment</code> には、各インデックス値の増分値を指定します。
+`table` に明示的な位置の値を含む `newColumnName` という名前の列を追加します。 省略可能な値 `initialValue` はインデックスの初期値です。省略可能な値 `increment` には、各インデックス値の増分値を指定します。
 
 
 ## Examples
 
-### Example #1 
-&#34;Index&#34; という名前のインデックス列をテーブルに追加します。
+### Example #1
+"Index" という名前のインデックス列をテーブルに追加します。
 ```powerquery
 Table.AddIndexColumn(
     Table.FromRecords({
@@ -53,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-値 10 から開始し、5 ずつ増加する &#34;index&#34; という名前のインデックス列をテーブルに追加します。
+### Example #2
+値 10 から開始し、5 ずつ増加する "index" という名前のインデックス列をテーブルに追加します。
 ```powerquery
 Table.AddIndexColumn(
     Table.FromRecords({

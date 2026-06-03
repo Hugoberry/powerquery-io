@@ -25,8 +25,8 @@ Restituisce una funzione che combina un elenco di valori di testo in un singolo 
 
 ## Examples
 
-### Example #1 
-Combina un elenco di valori di testo posizionandoli nell&#39;output alle posizioni specificate.
+### Example #1
+Combina un elenco di valori di testo posizionandoli nell'output alle posizioni specificate.
 ```powerquery
 Combiner.CombineTextByPositions({0, 5, 10})({"abc", "def", "ghi"})
 ```

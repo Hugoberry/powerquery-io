@@ -19,13 +19,24 @@ Duration.FromText(
 
 ## Remarks
 
-Zwraca wartość czasu trwania z określonego tekstu (<code>text</code>). Ta funkcja umożliwia analizowanie następujących formatów:  <ul>        <li>(-)gg:mm(:ss(.uu)) </li>        <li>(-)ddd(.gg:mm(:ss(.uu))) </li> </ul>        <br />        (Wszystkie zakresy są włączne)<br />        ddd: Liczba dni.<br />        gg: Liczba godzin (od 0 do 23).<br />        mm: Liczba minut (od 0 do 59).<br />        ss: Liczba sekund (od 0 do 59).<br />        uu: Ułamek sekund (od 0 do 9999999).
+Zwraca wartość czasu trwania z określonego tekstu `text`. Ta funkcja umożliwia analizowanie następujących formatów:
+
+-   gg:mm(:ss(.uu))
+-   (-)ddd(.gg:mm(:ss(.uu)))
+
+(Wszystkie zakresy są włączone)
+
+-   ddd: Liczba dni.
+-   gg: Liczba godzin (od 0 do 23).
+-   mm: Liczba minut (od 0 do 59).
+-   ss: Liczba sekund (od 0 do 59).
+-   uu: Ułamek sekund (od 0 do 9999999).
 
 
 ## Examples
 
-### Example #1 
-Przekonwertuj wartość &lt;code&gt;&#34;2.05:55:20&#34;&lt;/code&gt; na wartość typu &lt;code&gt;duration&lt;/code&gt;.
+### Example #1
+Przekonwertuj wartość `"2.05:55:20"` na wartość typu `duration`.
 ```powerquery
 Duration.FromText("2.05:55:20")
 ```

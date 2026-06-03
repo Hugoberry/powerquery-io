@@ -19,13 +19,13 @@ Type.FunctionRequiredParameters(
 
 ## Remarks
 
-Retourneert een getal waarmee het minimum aantal parameters wordt aangegeven dat is vereist om de invoer <code>type</code> van de functie aan te roepen.
+Retourneert een getal waarmee het minimum aantal parameters wordt aangegeven dat is vereist om de invoer `type` van de functie aan te roepen.
 
 
 ## Examples
 
-### Example #1 
-Zoek het aantal vereiste parameters voor de functie &lt;code&gt;(x als getal, optioneel y als tekst)&lt;/code&gt;.
+### Example #1
+Zoek het aantal vereiste parameters voor de functie `(x als getal, optioneel y als tekst)`.
 ```powerquery
 Type.FunctionRequiredParameters(type function (x as number, optional y as text) as any)
 ```

@@ -19,12 +19,12 @@ Record.FieldNames(
 
 ## Remarks
 
-Retourneert de namen van de velden in de record <code>record</code> als tekst.
+Retourneert de namen van de velden in de record `record` als tekst.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De namen van de velden in de record zoeken.
 ```powerquery
 Record.FieldNames([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

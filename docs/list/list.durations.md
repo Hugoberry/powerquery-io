@@ -21,12 +21,12 @@ List.Durations(
 
 ## Remarks
 
-Returns a list of <code>count</code> <code>duration</code> values, starting at <code>start</code> and incremented by the given <code>duration</code> <code>step</code>.
+Returns a list of `count` `duration` values, starting at `start` and incremented by the given `duration` `step`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Create a list of 5 values starting with 1 hour and incrementing by an hour.
 ```powerquery
 List.Durations(#duration(0, 1, 0, 0), 5, #duration(0, 1, 0, 0))

@@ -19,12 +19,12 @@ Duration.Seconds(
 
 ## Remarks
 
-ส่งกลับส่วนวินาทีของ <code>duration</code>
+ส่งกลับส่วนวินาทีของ `duration`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 แยกวินาทีจากค่าระยะเวลา
 ```powerquery
 Duration.Seconds(#duration(5, 4, 3, 2))

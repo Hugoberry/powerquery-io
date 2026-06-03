@@ -24,7 +24,7 @@ Returnerar ett slumpmässigt värde mellan 0 och 1.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hämta ett slumptal.
 ```powerquery
 Number.Random()

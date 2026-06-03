@@ -24,7 +24,7 @@ Table.DemoteHeaders(
 
 ## Examples
 
-### Example #1 
+### Example #1
 तालिका में मानों की पहली पंक्ति को अवनत करें.
 ```powerquery
 Table.DemoteHeaders(

@@ -22,12 +22,12 @@ Record.AddField(
 
 ## Remarks
 
-Добавляет поле к записи <code>record</code> для заданного имени поля <code>fieldName</code> и значения <code>value</code>.
+Добавляет поле к записи `record` для заданного имени поля `fieldName` и значения `value`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Добавление поля Address к записи.
 ```powerquery
 Record.AddField([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "Address", "123 Main St.")

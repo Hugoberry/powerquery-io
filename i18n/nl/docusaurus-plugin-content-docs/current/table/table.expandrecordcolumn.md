@@ -22,13 +22,18 @@ Table.ExpandRecordColumn(
 
 ## Remarks
 
-Maakt aan de hand van de <code>column</code> met records in de invoer <code>table</code> een tabel met een kolom voor elk veld in de record. Optioneel kan <code>newColumnNames</code> worden opgegeven om ervoor te zorgen dat de namen voor de kolommen in de nieuwe tabel unieke namen zijn.    <ul>        <li><code>table</code>: De oorspronkelijke tabel met de recordkolom die moet worden uitgebreid. </li>        <li><code>column</code>: De kolom die moet worden uitgebreid.</li>        <li><code>fieldNames</code>: De lijst met velden die moet worden uitgebreid in kolommen in de tabel.</li>        <li><code>newColumnNames</code>: De lijst met kolomnamen voor de nieuwe kolommen. De nieuwe kolomnamen mogen niet voor andere kolommen in de nieuwe tabel worden gebruikt.</li>    </ul>
+Maakt aan de hand van de `column` met records in de invoer `table` een tabel met een kolom voor elk veld in de record. Optioneel kan `newColumnNames` worden opgegeven om ervoor te zorgen dat de namen voor de kolommen in de nieuwe tabel unieke namen zijn.
+
+-   `table`: De oorspronkelijke tabel met de recordkolom die moet worden uitgebreid.
+-   `column`: De kolom die moet worden uitgebreid.
+-   `fieldNames`: De lijst met velden die moet worden uitgebreid in kolommen in de tabel.
+-   `newColumnNames`: De lijst met kolomnamen voor de nieuwe kolommen. De nieuwe kolomnamen mogen niet voor andere kolommen in de nieuwe tabel worden gebruikt.
 
 
 ## Examples
 
-### Example #1 
-Kolom [a] in de tabel &lt;code&gt;(\{[a = [aa = 1, bb = 2, cc = 3], b = 2]})&lt;/code&gt; uitbreiden naar drie kolommen &#34;aa&#34;, &#34;bb&#34; en &#34;cc&#34;.
+### Example #1
+Kolom \[a\] in de tabel `({[a = [aa = 1, bb = 2, cc = 3], b = 2]})` uitbreiden naar drie kolommen "aa", "bb" en "cc".
 ```powerquery
 Table.ExpandRecordColumn(
     Table.FromRecords({

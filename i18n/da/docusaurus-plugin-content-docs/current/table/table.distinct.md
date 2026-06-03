@@ -20,12 +20,14 @@ Table.Distinct(
 
 ## Remarks
 
-Fjerner dublerede rækker fra tabellen.    En valgfri parameter, <code>equationCriteria</code>, angiver, hvilke kolonner i tabellen der testes for duplikering. Hvis <code>equationCriteria</code>    ikke er angivet, testes alle kolonner.<br />    <br />    Da Power Query nogle gange aflaster visse handlinger til backend-datakilder (kaldet "foldning") og optimerer nogle gange også forespørgsler ved     at springe handlinger over, der ikke er strengt nødvendige,  generelt er der ingen garanti for, hvilken specifik dublet der bevares.    Du kan f.eks. ikke antage, at den første række med et entydigt sæt kolonneværdier bevares, og at rækker længere nede i tabellen fjernes.    Hvis du vil have, at fjernelsen af dubletter skal fungere forudsigeligt, skal du først bufferlagre tabellen ved hjælp af <code>Table.Buffer</code>.
+Removes duplicate rows from the table. An optional parameter, `equationCriteria`, specifies which columns of the table are tested for duplication. If `equationCriteria` is not specified, all columns are tested.  
+  
+Because Power Query sometimes offloads certain operations to backend data sources (known as "folding"), and also sometimes optimizes queries by skipping operations that aren't strictly necessary, in general there's no guarantee which specific duplicate will be preserved. For example, you can't assume that the first row with a unique set of column values will remain, and rows further down in the table will be removed. If you want the duplicate removal to behave predictably, first buffer the table using `Table.Buffer`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Fjern de dublerede rækker fra tabellen.
 ```powerquery
 Table.Distinct(
@@ -46,8 +48,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Fjern de dublerede rækker fra kolonnen [b] i tabellen &lt;code&gt;(\{[a = &#34;A&#34;, b = &#34;a&#34;], [a = &#34;B&#34;, b = &#34;a&#34;], [a = &#34;A&#34;, b = &#34;b&#34;]})&lt;/code&gt;.
+### Example #2
+Fjern de dublerede rækker fra kolonnen \[b\] i tabellen `({[a = "A", b = "a"], [a = "B", b = "a"], [a = "A", b = "b"]})`.
 ```powerquery
 Table.Distinct(
     Table.FromRecords({

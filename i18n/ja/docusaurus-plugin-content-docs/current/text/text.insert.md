@@ -21,13 +21,13 @@ Text.Insert(
 
 ## Remarks
 
-位置 <code>offset</code> のテキスト値 <code>text</code> にテキスト値 <code>newText</code> を挿入した結果を返します。位置は 0 から始まります。
+位置 `offset` のテキスト値 `text` にテキスト値 `newText` を挿入した結果を返します。位置は 0 から始まります。
 
 
 ## Examples
 
-### Example #1 
-&#34;ABD&#34; の &#34;B&#34; と &#34;D&#34; の間に &#34;C&#34; を挿入します。
+### Example #1
+"ABD" の "B" と "D" の間に "C" を挿入します。
 ```powerquery
 Text.Insert("ABD", 2, "C")
 ```

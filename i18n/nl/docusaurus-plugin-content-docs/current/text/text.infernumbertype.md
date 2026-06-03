@@ -20,7 +20,7 @@ Text.InferNumberType(
 
 ## Remarks
 
-Leidt het gedetailleerde getaltype (Int64.Type, Double.Type, enzovoort) af van <code>text</code>. Er treedt een fout op als <code>text</code> geen getal is. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld 'en-US').
+Leidt het gedetailleerde getaltype (Int64.Type, Double.Type, enzovoort) af van `text`. Er treedt een fout op als `text` geen getal is. Er kan ook een optionele `culture` worden opgegeven (bijvoorbeeld 'en-US').
 
 
 

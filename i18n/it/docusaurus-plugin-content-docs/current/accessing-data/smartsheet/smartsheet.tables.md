@@ -5,7 +5,7 @@ title: Smartsheet.Tables
 # Smartsheet.Tables
 
 
-Restituisce una tabella di fogli, report, cartelle e aree di lavoro dall&#39;API Smartsheet
+Restituisce una tabella di fogli, report, cartelle e aree di lavoro dall'API Smartsheet
 
 
 ## Syntax
@@ -24,7 +24,7 @@ Restituisce una tabella annidata di fogli, report, cartelle e aree di lavoro dis
 
 ## Examples
 
-### Example #1 
+### Example #1
 Restituisce i fogli, le cartelle, i report e le aree di lavoro disponibili nel primo livello della gerarchia Smartsheet
 ```powerquery
 Smartsheet.Tables()

@@ -21,12 +21,12 @@ List.Durations(
 
 ## Remarks
 
-返回 <code>count</code> <code>duration</code> 值的列表，从 <code>start</code> 开始，以给定的 <code>duration</code> <code>step</code> 为增量。
+返回 `count` `duration` 值的列表，从 `start` 开始，以给定的 `duration` `step` 为增量。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 创建 5 个值的列表，从 1 小时开始，以 1 小时为增量。
 ```powerquery
 List.Durations(#duration(0, 1, 0, 0), 5, #duration(0, 1, 0, 0))

@@ -20,12 +20,15 @@ Date.IsInPreviousNQuarters(
 
 ## Remarks
 
-Wskazuje, czy dana wartość daty/godziny <code>dateTime</code> przypada w ciągu poprzednich kwartałów określonych zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącego kwartału.      <ul>      <li><code>dateTime</code>: wartość <code>date</code>, <code>datetime</code> lub <code>datetimezone</code> do oszacowania.</li>      <li><code>quarters</code>: liczba kwartałów.</li>      </ul>
+Wskazuje, czy dana wartość daty/godziny `dateTime` przypada w ciągu poprzednich kwartałów określonych zgodnie z bieżącą datą i godziną systemu. Pamiętaj, że funkcja ta zwraca wartość false, gdy przekazana wartość występuje w ciągu bieżącego kwartału.
+
+-   `dateTime`: wartość `date`, `datetime` lub `datetimezone` do oszacowania.
+-   `quarters`: liczba kwartałów.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Określ, czy kwartał przed bieżącą datą systemu występuje w ciągu poprzednich dwóch kwartałów.
 ```powerquery
 Date.IsInPreviousNQuarters(Date.AddQuarters(DateTime.FixedLocalNow(), -1), 2)

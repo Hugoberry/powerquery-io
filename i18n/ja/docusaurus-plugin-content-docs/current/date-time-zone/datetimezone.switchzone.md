@@ -21,12 +21,12 @@ DateTimeZone.SwitchZone(
 
 ## Remarks
 
-datetimezone 値 <code>dateTimeZone</code> のタイム ゾーン情報を、<code>timezoneHours</code> および任意で <code>timezoneMinutes</code> によって指定された新しいタイム ゾーン情報に変更します。    <code>dateTimeZone</code> にタイム ゾーン部分がない場合は、例外がスローされます。
+datetimezone 値 `dateTimeZone` のタイム ゾーン情報を、`timezoneHours` および任意で `timezoneMinutes` によって指定された新しいタイム ゾーン情報に変更します。 `dateTimeZone` にタイムゾーン コンポーネントがない場合は、エラーが発生します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) のタイム ゾーン情報を 8 時間に変更します。
 ```powerquery
 DateTimeZone.SwitchZone(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30), 8)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) のタイム ゾーン情報を -30 分に変更します。
 ```powerquery
 DateTimeZone.SwitchZone(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30), 0, -30)

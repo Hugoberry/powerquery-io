@@ -25,7 +25,7 @@ Combiner.CombineTextByEachDelimiter(
 
 ## Examples
 
-### Example #1 
+### Example #1
 डिलिमिटर के क्रम का उपयोग करके टेक्स्ट मानों की सूची संयोजित करें.
 ```powerquery
 Combiner.CombineTextByEachDelimiter({"=", "+"})({"a", "b", "c"})

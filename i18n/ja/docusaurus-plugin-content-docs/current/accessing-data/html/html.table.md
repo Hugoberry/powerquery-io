@@ -21,12 +21,14 @@ Html.Table(
 
 ## Remarks
 
-提供された <code>html</code> に対して指定された CSS セレクターを実行した結果を含むテーブルを返します。省略可能なレコード パラメーター <code>options</code> が追加のプロパティを指定するために提供されることがあります。レコードには、次のフィールドを含めることができます。    <ul><li><code>RowSelector</code></li></ul>    
+提供された `html` に対して指定された CSS セレクターを実行した結果を含むテーブルを返します。省略可能なレコード パラメーター `options` が追加のプロパティを指定するために提供されることがあります。レコードには、次のフィールドを含めることができます。
+
+-   `RowSelector`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 サンプルの html テキスト値からテーブルを返します。
 ```powerquery
 Html.Table("<div class=""name"">Jo</div><span>Manager</span>", {{"Name", ".name"}, {"Title", "span"}}, [RowSelector=".name"])
@@ -38,10 +40,10 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 サンプルの html テキスト値からすべての href を抽出します。
 ```powerquery
-Html.Table("<a href=""/test.html"">テスト</a>", {{"Link", "a", each [Attributes][href]}})
+Html.Table("<a href=""/test.html"">Test</a>", {{"Link", "a", each [Attributes][href]}})
 ```
 
 Result: 
@@ -53,4 +55,4 @@ Result:
 
 
 ## Category
-データにアクセスしています
+Accessing data

@@ -5,7 +5,7 @@ title: List.IsDistinct
 # List.IsDistinct
 
 
-Indique s&#39;il y a des doublons dans la liste.
+Indique s'il y a des doublons dans la liste.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ List.IsDistinct(
 
 ## Remarks
 
-Retourne une valeur logique s'il existe des doublons dans la liste <code>list</code> ; <code>true</code> si la liste est distincte, <code>false</code> s'il y a des valeurs dupliquées. 
+Retourne une valeur logique s'il existe des doublons dans la liste `list` ; `true` si la liste est distincte, `false` s'il y a des valeurs dupliquées.
 
 
 ## Examples
 
-### Example #1 
-Détermine si la liste \{1, 2, 3} est distincte (c&#39;est-à-dire, sans doublons).
+### Example #1
+Détermine si la liste \{1, 2, 3\} est distincte (c'est-à-dire, sans doublons).
 ```powerquery
 List.IsDistinct({1, 2, 3})
 ```
@@ -37,8 +37,8 @@ true
 ```
 
 
-### Example #2 
-Détermine si la liste \{1, 2, 3, 3}est distincte (c&#39;est-à-dire, sans doublons).
+### Example #2
+Détermine si la liste \{1, 2, 3, 3\}est distincte (c'est-à-dire, sans doublons).
 ```powerquery
 List.IsDistinct({1, 2, 3, 3})
 ```

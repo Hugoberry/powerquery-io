@@ -25,12 +25,25 @@ Table.Join(
 
 ## Remarks
 
-Führt die Zeilen von "<code>table1</code>" mit den Zeilen von "<code>table2</code>" zusammen. Grundlage hierfür bildet die Übereinstimmung der Werte der Schlüsselspalten, die durch "<code>key1</code>" (für "<code>table1</code>") und "<code>key2</code>" (für "<code>table2</code>") ausgewählt wurden.<br />Standardmäßig wird ein innerer Join ausgeführt, mit der optionalen Angabe von "<code>joinKind</code>" kann jedoch auch die Art des Joins festgelegt werden. Verfügbare Optionen:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />Um festzulegen, wie die Schlüsselspalten verglichen werden sollen, kann ein optionaler <code>keyEqualityComparers</code>-Satz eingeschlossen werden. Dieser Parameter ist zurzeit nur für die interne Verwendung vorgesehen.<br />
+Führt die Zeilen von "`table1`" mit den Zeilen von "`table2`" zusammen. Grundlage hierfür bildet die Übereinstimmung der Werte der Schlüsselspalten, die durch "`key1`" (für "`table1`") und "`key2`" (für "`table2`") ausgewählt wurden.
+
+Standardmäßig wird ein innerer Join ausgeführt, mit der optionalen Angabe von "`joinKind`" kann jedoch auch die Art des Joins festgelegt werden. Verfügbare Optionen:
+
+-   `JoinKind.Inner`
+-   `JoinKind.LeftOuter`
+-   `JoinKind.RightOuter`
+-   `JoinKind.FullOuter`
+-   `JoinKind.LeftAnti`
+-   `JoinKind.RightAnti`
+-   `JoinKind.LeftSemi`
+-   `JoinKind.RightSemi`
+
+Um festzulegen, wie die Schlüsselspalten verglichen werden sollen, kann ein optionaler `keyEqualityComparers`\-Satz eingeschlossen werden. Dieser Parameter ist zurzeit nur für die interne Verwendung vorgesehen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Verknüpfen Sie zwei Tabellen mit einer einzelnen Schlüsselspalte.
 ```powerquery
 Table.Join(
@@ -67,7 +80,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Verknüpfen Sie zwei Tabellen mit in Konflikt stehenden Spaltennamen, indem Sie mehrere Schlüsselspalten verwenden.
 ```powerquery
 let

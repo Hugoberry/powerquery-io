@@ -19,12 +19,12 @@ Time.Second(
 
 ## Remarks
 
-Sağlanan <code>time</code>, <code>datetime</code> veya <code>datetimezone</code> değeri olan <code>dateTime</code> değerinin saniye bileşenini döndürür.
+Sağlanan `time`, `datetime` veya `datetimezone` değeri olan `dateTime` değerinin saniye bileşenini döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bir tarih saat değerinden ikinci değeri bulur.
 ```powerquery
 Time.Second(#datetime(2011, 12, 31, 9, 15, 36.5))

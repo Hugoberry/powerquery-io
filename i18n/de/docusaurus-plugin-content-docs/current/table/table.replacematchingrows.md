@@ -21,13 +21,13 @@ Table.ReplaceMatchingRows(
 
 ## Remarks
 
-Ersetzt alle angegebenen Zeilen im Element vom Typ "<code>table</code>" durch die bereitgestellten Zeilen. Die zu ersetzenden Zeilen und die Ersetzungen werden in "<code>replacements</code>" im Format "\{old, new}" angegeben.    Der Vergleich zwischen den Zeilen der Tabelle kann mithilfe eines optionalen Parameters (<code>equationCriteria</code>) gesteuert werden.
+Ersetzt alle angegebenen Zeilen im Element vom Typ "`table`" durch die bereitgestellten Zeilen. Die zu ersetzenden Zeilen und die Ersetzungen werden in "`replacements`" im Format "\{old, new\}" angegeben. Der Vergleich zwischen den Zeilen der Tabelle kann mithilfe eines optionalen Parameters (`equationCriteria`) gesteuert werden.
 
 
 ## Examples
 
-### Example #1 
-Ersetzt die Zeilen [a = 1, b = 2] und [a = 2, b = 3] durch [a = -1, b = -2],[a = -2, b = -3] in der Tabelle.
+### Example #1
+Ersetzt die Zeilen \[a = 1, b = 2\] und \[a = 2, b = 3\] durch \[a = -1, b = -2\],\[a = -2, b = -3\] in der Tabelle.
 ```powerquery
 Table.ReplaceMatchingRows(
     Table.FromRecords({

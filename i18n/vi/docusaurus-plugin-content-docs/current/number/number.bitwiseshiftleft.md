@@ -20,7 +20,7 @@ Number.BitwiseShiftLeft(
 
 ## Remarks
 
-Trả về kết quả thực hiện chuyển dịch theo bit về bên trái đối với <code>number1</code> theo số lượng bit được chỉ định <code>number2</code>.
+Trả về kết quả thực hiện chuyển dịch theo bit về bên trái đối với `number1` theo số lượng bit được chỉ định `number2`.
 
 
 

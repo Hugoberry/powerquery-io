@@ -19,12 +19,12 @@ Table.RowCount(
 
 ## Remarks
 
-Returnerar antalet rader i <code>table</code>.
+Returnerar antalet rader i `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta antalet rader i tabellen.
 ```powerquery
 Table.RowCount(

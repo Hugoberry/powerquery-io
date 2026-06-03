@@ -28,8 +28,8 @@ Wandelt bei Angabe eines Spaltenpaars, das Attribut-Wert-Paare darstellt, die Da
 
 ## Examples
 
-### Example #1 
-Pivotiert die Werte &#34;a&#34;, &#34;b&#34; und &#34;c&#34; aus der Attributspalte der Tabelle &lt;code&gt;(\{ [ key = &#34;x&#34;, attribute = &#34;a&#34;, value = 1 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 3 ], [ key = &#34;y&#34;, attribute = &#34;a&#34;, value = 2 ], [ key = &#34;y&#34;, attribute = &#34;b&#34;, value = 4 ] })&lt;/code&gt; jeweils in eine eigene Spalte.
+### Example #1
+Pivotiert die Werte "a", "b" und "c" aus der Attributspalte der Tabelle `({ [ key = "x", attribute = "a", value = 1 ], [ key = "x", attribute = "c", value = 3 ], [ key = "y", attribute = "a", value = 2 ], [ key = "y", attribute = "b", value = 4 ] })` jeweils in eine eigene Spalte.
 ```powerquery
 Table.Pivot(
     Table.FromRecords({
@@ -53,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Pivotiert die Werte &#34;a&#34;, &#34;b&#34; und &#34;c&#34; aus der Attributspalte der Tabelle &lt;code&gt;(\{ [ key = &#34;x&#34;, attribute = &#34;a&#34;, value = 1 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 3 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 5 ], [ key = &#34;y&#34;, attribute = &#34;a&#34;, value = 2 ], [ key = &#34;y&#34;, attribute = &#34;b&#34;, value = 4 ] })&lt;/code&gt; jeweils in eine eigene Spalte.  Da dem Attribut &#34;c&#34; für den Schlüssel &#34;x&#34; mehrere Werte zugeordnet sind, muss die Funktion &#34;List.Max&#34; verwendet werden, um den Konflikt zu lösen.
+### Example #2
+Pivotiert die Werte "a", "b" und "c" aus der Attributspalte der Tabelle `({ [ key = "x", attribute = "a", value = 1 ], [ key = "x", attribute = "c", value = 3 ], [ key = "x", attribute = "c", value = 5 ], [ key = "y", attribute = "a", value = 2 ], [ key = "y", attribute = "b", value = 4 ] })` jeweils in eine eigene Spalte. Da dem Attribut "c" für den Schlüssel "x" mehrere Werte zugeordnet sind, muss die Funktion "List.Max" verwendet werden, um den Konflikt zu lösen.
 ```powerquery
 Table.Pivot(
     Table.FromRecords({

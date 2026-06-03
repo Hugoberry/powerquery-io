@@ -22,13 +22,18 @@ Table.PositionOf(
 
 ## Remarks
 
-Belirtilen <code>table</code> öğesinde <code>row</code> öğesinin ilk oluşumuna ait satır konumunu döndürür. Hiçbir oluşum bulunmadıysa -1 döndürülür.    <ul>       <li><code>table</code>: Girdi tablosu.</li>       <li><code>row</code>: Tabloda konumun bulunacağı satır.</li>       <li><code>occurrence</code>: <i>[Optional]</i> Satırın hangi oluşumlarının döndürüleceğini belirtir.</li>       <li><code>equationCriteria</code>: <i>[Optional]</i> Tablo satırları arasındaki karşılaştırmayı denetler.</li>    </ul>    
+Belirtilen `row` öğesinde `table` öğesinin ilk oluşumuna ait satır konumunu döndürür. Hiçbir eşleşme bulunmazsa -1 değerini döndürür.
+
+-   `table`: Girdi tablosu.
+-   `row`: Tabloda konumun bulunacağı satır.
+-   `occurrence`: *(Optional)* Satırın hangi oluşumlarının döndürüleceğini belirtir.
+-   `equationCriteria`: *(Optional)* Tablo satırları arasındaki karşılaştırmayı denetler.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt; tablosunda [a = 2, b = 4] değerlerinin ilk oluşum konumunu bulur.
+### Example #1
+`({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})` tablosunda \[a = 2, b = 4\] değerlerinin ilk oluşum konumunu bulur.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({
@@ -47,8 +52,8 @@ Result:
 ```
 
 
-### Example #2 
-&lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt; tablosunda [a = 2, b = 4] değerlerinin ikinci oluşum konumunu bulur.
+### Example #2
+`({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})` tablosunda \[a = 2, b = 4\] değerlerinin ikinci oluşum konumunu bulur.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({
@@ -68,8 +73,8 @@ Result:
 ```
 
 
-### Example #3 
-&lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt; tablosunda [a = 2, b = 4] değerlerinin tüm oluşumlarının konumunu bulur.
+### Example #3
+`({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})` tablosunda \[a = 2, b = 4\] değerlerinin tüm oluşumlarının konumunu bulur.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({

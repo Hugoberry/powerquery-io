@@ -19,7 +19,7 @@ Type.Facets(
 
 ## Remarks
 
-Returnerar en post som innehåller fasetterna för <code>type</code>.
+Returnerar en post som innehåller fasetterna för `type`.
 
 
 

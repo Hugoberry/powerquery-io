@@ -21,13 +21,13 @@ Table.ContainsAny(
 
 ## Remarks
 
-レコードのリスト <code>rows</code> で指定されたいずれかのレコードが <code>table</code> に行として含まれているかどうかを示します。    省略可能なパラメーター <code>equationCriteria</code> を指定すると、テーブルの行と行の比較を制御できます。
+レコードのリスト `rows` で指定されたいずれかのレコードが `table` に行として含まれているかどうかを示します。 省略可能なパラメーター `equationCriteria` を指定すると、テーブルの行と行の比較を制御できます。
 
 
 ## Examples
 
-### Example #1 
-テーブル &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; に行 &lt;code&gt;[a = 1, b = 2]&lt;/code&gt; または &lt;code&gt;[a = 3, b = 5]&lt;/code&gt; が含まれているかどうかを調べます。
+### Example #1
+テーブル `({[a = 1, b = 2], [a = 3, b = 4]})` に行 `[a = 1, b = 2]` または `[a = 3, b = 5]` が含まれているかどうかを調べます。
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({
@@ -47,8 +47,8 @@ true
 ```
 
 
-### Example #2 
-テーブル &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; に行 &lt;code&gt;[a = 1, b = 3]&lt;/code&gt; または &lt;code&gt;[a = 3, b = 5]&lt;/code&gt; が含まれているかどうかを調べます。
+### Example #2
+テーブル `({[a = 1, b = 2], [a = 3, b = 4]})` に行 `[a = 1, b = 3]` または `[a = 3, b = 5]` が含まれているかどうかを調べます。
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({
@@ -68,8 +68,8 @@ false
 ```
 
 
-### Example #3 
-列 [a] のみを比較して、テーブル &lt;code&gt;(Table.FromRecords(\{[a = 1, b = 2], [a = 3, b = 4]}))&lt;/code&gt; に行 &lt;code&gt;[a = 1, b = 3]&lt;/code&gt; または &lt;code&gt;[a = 3, b = 5]&lt;/code&gt; が含まれているかどうかを調べます。
+### Example #3
+列 \[a\] のみを比較して、テーブル `(Table.FromRecords({[a = 1, b = 2], [a = 3, b = 4]}))` に行 `[a = 1, b = 3]` または `[a = 3, b = 5]` が含まれているかどうかを調べます。
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({

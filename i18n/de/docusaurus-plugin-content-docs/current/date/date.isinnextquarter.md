@@ -19,12 +19,14 @@ Date.IsInNextQuarter(
 
 ## Remarks
 
-Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob der angegebene datetime-Wert "<code>dateTime</code>" während des nächsten Quartals auftritt. Beachten Sie, dass diese Funktion FALSE zurückgibt, wenn der übergebene Wert innerhalb des aktuellen Quartals auftritt.      <ul>      <li><code>dateTime</code>: Ein <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert, der ausgewertet werden soll.</li>      </ul>
+Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob der angegebene datetime-Wert "`dateTime`" während des nächsten Quartals auftritt. Beachten Sie, dass diese Funktion FALSE zurückgibt, wenn der übergebene Wert innerhalb des aktuellen Quartals auftritt.
+
+-   `dateTime`: Ein `date`\-, `datetime`\- oder `datetimezone`\-Wert, der ausgewertet werden soll.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bestimmt, ob das Quartal nach der aktuellen Systemzeit dem nächsten Quartal entspricht.
 ```powerquery
 Date.IsInNextQuarter(Date.AddQuarters(DateTime.FixedLocalNow(), 1))

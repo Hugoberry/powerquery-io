@@ -25,7 +25,7 @@ MailChimp API को कॉल करता है और परिणाम स
 
 ## Examples
 
-### Example #1 
+### Example #1
 MailChimp API की सूची समाप्ति बिंदु से डेटा की तालिका को पुल करता है.
 ```powerquery
 MailChimp.Collection("सूचियाँ")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 MailChimp API के अभियान-फ़ोल्डर समाप्ति बिंदु से डेटा की तालिका को पुल करता है.
 ```powerquery
 MailChimp.Collection("अभियान-फ़ोल्डर", "फ़ोल्डर")

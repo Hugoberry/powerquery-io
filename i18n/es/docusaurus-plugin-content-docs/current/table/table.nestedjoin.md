@@ -25,12 +25,16 @@ Table.NestedJoin(
 
 ## Remarks
 
-Combina las filas de <code>table1</code> con las filas de <code>table2</code> según la igualdad de los valores de las columnas clave seleccionadas por <code>key1</code> (para <code>table1</code>) y <code>key2</code> (para <code>table2</code>). Los resultados se especifican en la columna denominada <code>newColumnName</code>.<br />El valor opcional <code>joinKind</code> especifica el tipo de unión que se debe realizar. De manera predeterminada, se efectuará una combinación externa izquierda en caso de no especificar <code>joinKind</code>.<br />Se puede incluir un conjunto de <code>keyEqualityComparers</code> opcional para especificar cómo comparar las columnas clave. Actualmente, esta característica solo está diseñada para uso interno.<br />  
+Combina las filas de `table1` con las filas de `table2` según la igualdad de los valores de las columnas clave seleccionadas por `key1` (para `table1`) y `key2` (para `table2`). Los resultados se especifican en la columna denominada `newColumnName`.
+
+El valor opcional `joinKind` especifica el tipo de unión que se debe realizar. De manera predeterminada, se efectuará una combinación externa izquierda en caso de no especificar `joinKind`.
+
+Se puede incluir un conjunto de `keyEqualityComparers` opcional para especificar cómo comparar las columnas clave. Actualmente, esta característica solo está diseñada para uso interno.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Una dos tablas con una única columna de clave.
 ```powerquery
 Table.NestedJoin(

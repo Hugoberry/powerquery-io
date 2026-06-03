@@ -19,12 +19,12 @@ BinaryFormat.Record(
 
 ## Remarks
 
-Gibt ein Binärformat zurück, das einen Datensatz liest.  Der Parameter "<code>record</code>" gibt das Format des Datensatzes an.  Jedes Feld im Datensatz kann ein anderes Binärformat besitzen.  Enthält ein Feld einen Wert, bei dem es sich nicht um einen Binärformatwert handelt, werden für dieses Feld keine Daten gelesen, und der Feldwert wird im Ergebnis ausgegeben.
+Gibt ein Binärformat zurück, das einen Datensatz liest. Der Parameter "`record`" gibt das Format des Datensatzes an. Jedes Feld im Datensatz kann ein anderes Binärformat besitzen. Enthält ein Feld einen Wert, bei dem es sich nicht um einen Binärformatwert handelt, werden für dieses Feld keine Daten gelesen, und der Feldwert wird im Ergebnis ausgegeben.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Liest einen Datensatz mit einer 16-Bit-Ganzzahl und einer 32-Bit-Ganzzahl.
 ```powerquery
 let

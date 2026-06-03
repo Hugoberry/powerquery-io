@@ -19,12 +19,14 @@ Number.Abs(
 
 ## Remarks
 
-Retourne la valeur absolue de <code>number</code>. Si <code>number</code> a la valeur null, <code>Number.Abs</code> retourne null.    <ul>        <li><code>number</code> : <code>number</code> dont la valeur absolue doit être calculée.</li>      </ul>
+Retourne la valeur absolue de `number`. Si `number` a la valeur null, `Number.Abs` retourne null.
+
+-   `number` : `number` dont la valeur absolue doit être calculée.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Valeur absolue de -3.
 ```powerquery
 Number.Abs(-3)

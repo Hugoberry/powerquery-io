@@ -20,12 +20,12 @@ Number.RoundUp(
 
 ## Remarks
 
-Returnerar resultatet av avrundning <code>number</code> upp till nästa högsta heltal. Om <code>number</code> är null returnerar den här funktionen null. Om <code>digits</code> anges avrundas <code>number</code> till det angivna antalet decimaler.
+Returnerar resultatet av avrundning `number` upp till nästa högsta heltal. Om `number` är null returnerar den här funktionen null. Om `digits` anges avrundas `number` till det angivna antalet decimaler.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Avrunda 1,234 uppåt till närmaste heltal.
 ```powerquery
 Number.RoundUp(1.234)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Avrunda 1,999 uppåt till närmaste heltal.
 ```powerquery
 Number.RoundUp(1.999)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Avrunda 1 234 uppåt till två decimaler.
 ```powerquery
 Number.RoundUp(1.234, 2)

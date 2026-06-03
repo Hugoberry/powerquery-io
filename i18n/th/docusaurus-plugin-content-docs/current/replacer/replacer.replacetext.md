@@ -21,13 +21,13 @@ Replacer.ReplaceText(
 
 ## Remarks
 
-แทนที่ข้อความ <code>old</code> ใน <code>text</code> เดิมด้วยข้อความ <code>new</code> ฟังก์ชันตัวแทนที่นี้สามารถใช้ใน <code>List.ReplaceValue</code> และ <code>Table.ReplaceValue</code> ได้
+แทนที่ข้อความ `old` ใน `text` เดิมด้วยข้อความ `new` ฟังก์ชันตัวแทนที่นี้สามารถใช้ใน `List.ReplaceValue` และ `Table.ReplaceValue` ได้
 
 
 ## Examples
 
-### Example #1 
-แทนที่ข้อความ &#34;hE&#34; ด้วย &#34;He&#34; ในสตริง &#34;hEllo world&#34;
+### Example #1
+แทนที่ข้อความ "hE" ด้วย "He" ในสตริง "hEllo world"
 ```powerquery
 Replacer.ReplaceText("hEllo world", "hE", "He")
 ```

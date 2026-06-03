@@ -27,7 +27,7 @@ Voegt met behulp van de opgegeven combinatiefunctie de opgegeven kolommen samen 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combineer de voor- en achternamen in een nieuwe kolom, gescheiden door een komma.
 ```powerquery
 Table.CombineColumns(

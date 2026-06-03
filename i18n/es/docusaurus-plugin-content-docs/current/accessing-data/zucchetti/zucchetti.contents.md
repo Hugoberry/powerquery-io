@@ -23,7 +23,7 @@ Devuelve el contenido de VisualQuery (vqr), informes o funciones publicadas por 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Solicitud de lista de empleados
 ```powerquery
     Zucchetti.Contents("https://myurl/HRPortal/", "001"),

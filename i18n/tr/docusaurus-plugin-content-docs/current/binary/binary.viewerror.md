@@ -5,7 +5,7 @@ title: Binary.ViewError
 # Binary.ViewError
 
 
-Görünümde (Binary.View aracılığıyla) tanımlanan bir işleyici tarafından oluşturulduğunda geri dönüşü tetiklemeyen değiştirilmiş bir hata kaydı oluşturur.
+Bir görünümde (Binary.View aracılığıyla) tanımlanan bir işleyici tarafından tetiklendiğinde geri dönüşü tetiklemeyen değiştirilmiş bir hata kaydı oluşturur.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Binary.ViewError(
 
 ## Remarks
 
-Görünümde (Binary.View aracılığıyla) tanımlanan bir işleyici tarafından oluşturulduğunda geri dönüşü tetiklemeyen <code>errorRecord</code> kaynaklı değiştirilmiş bir hata kaydı oluşturur.
+`errorRecord` içinden, bir görünümde (Binary.View aracılığıyla) tanımlanan bir işleyici tarafından tetiklendiğinde geri dönüşü tetiklemeyen değiştirilmiş bir hata kaydı oluşturur.
 
 
 

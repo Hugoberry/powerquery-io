@@ -5,7 +5,7 @@ title: Combiner.CombineTextByDelimiter
 # Combiner.CombineTextByDelimiter
 
 
-Renvoie une fonction qui combine une liste de texte à l&#39;aide du délimiteur spécifié.
+Renvoie une fonction qui combine une liste de texte à l'aide du délimiteur spécifié.
 
 
 ## Syntax
@@ -25,7 +25,7 @@ Renvoie une fonction qui combine une liste de valeurs textuelles en une seule va
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combinez une liste de valeurs de texte à l’aide d’un délimiteur de point-virgule.
 ```powerquery
 Combiner.CombineTextByDelimiter(";")({"a", "b", "c"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Permet de combiner le texte de deux colonnes à l’aide d’un délimiteur de virgule et d’une citation de style CSV.
 ```powerquery
 let

@@ -19,7 +19,7 @@ Number.Acos(
 
 ## Remarks
 
-Devolve o arco de cosseno de <code>number</code>.
+Devolve o arco de cosseno de `number`.
 
 
 

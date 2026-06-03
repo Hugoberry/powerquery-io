@@ -20,12 +20,12 @@ Table.Combine(
 
 ## Remarks
 
-ส่งกลับตารางที่เป็นผลลัพธ์ของการผสานรายการตาราง <code>tables</code> ตารางที่เป็นผลลัพธ์จะมีโครงสร้างชนิดแถวที่กำหนดโดย <code>columns</code> หรือ ยูเนียนของชนิดข้อมูลป้อนเข้าหากไม่ได้ระบุ <code>columns</code> ไว้
+ส่งกลับตารางที่เป็นผลลัพธ์ของการผสานรายการตาราง `tables` ตารางที่เป็นผลลัพธ์จะมีโครงสร้างชนิดแถวที่กำหนดโดย `columns` หรือ ยูเนียนของชนิดข้อมูลป้อนเข้าหากไม่ได้ระบุ `columns` ไว้
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ผสานสามตารางต่อไปนี้เข้าด้วยกัน
 ```powerquery
 Table.Combine({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 ผสานสามตารางที่มีโครงสร้างที่แตกต่างกัน
 ```powerquery
 Table.Combine({
@@ -65,7 +65,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 ผสานสองตารางและโครงการบนชนิดที่กำหนดให้
 ```powerquery
 Table.Combine(

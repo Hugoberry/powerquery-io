@@ -21,7 +21,7 @@ AzureCostManagement.Contents(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bugünün 2017-6-15 olduğu varsayılırsa, 2017-5-1 ile 2017-6-15 arasındaki özet verilerini alın
 ```powerquery
 let
@@ -29,7 +29,7 @@ let
           optionalParameters = [ numberOfMonth = 1 ],
           result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
       in
-          result
+          sonuç
 ```
 
 Result: 
@@ -38,15 +38,15 @@ Result:
 ```
 
 
-### Example #2 
-Bugünün 2017-6-15 olduğu varsayılırsa, Nisan 2017&#39;ye ait özet verilerini alın.
+### Example #2
+Bugünün 2017-6-15 olduğu varsayılırsa, Nisan 2017'ye ait özet verilerini alın.
 ```powerquery
 let
           enrollmentNumber = "100",
           optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "-1" ],
           result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
       in
-          result
+          sonuç
 ```
 
 Result: 
@@ -55,15 +55,15 @@ Result:
 ```
 
 
-### Example #3 
-Bugünün 2017-6-15 olduğu varsayılırsa, Nisan 2017&#39;den şimdiye kadar olan özet verilerini alın.
+### Example #3
+Bugünün 2017-6-15 olduğu varsayılırsa, Nisan 2017'den şimdiye kadar olan özet verilerini alın.
 ```powerquery
 let
           enrollmentNumber = "100",
           optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "0", dataType = "Summaries" ],
           result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
       in
-          result
+          sonuç
 ```
 
 Result: 

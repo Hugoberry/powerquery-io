@@ -5,7 +5,7 @@ title: AzureDataExplorer.Contents
 # AzureDataExplorer.Contents
 
 
-Azure Veri Gezgini&#39;nden (Kusto) verileri içeri aktarır
+Azure Veri Gezgini'nden (Kusto) verileri içeri aktarır
 
 
 ## Syntax
@@ -27,7 +27,7 @@ Azure Veri Gezgini (Kusto) örneğinizden verileri içeri aktarır
 
 ## Examples
 
-### Example #1 
+### Example #1
 Storm Olayları bilgilerinin bir tablosunu döndürür
 ```powerquery
 Kusto.Contents("help", "Samples", "StormEvents", [])

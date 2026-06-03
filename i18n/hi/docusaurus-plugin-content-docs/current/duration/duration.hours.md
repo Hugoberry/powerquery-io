@@ -19,12 +19,12 @@ Duration.Hours(
 
 ## Remarks
 
-<code>duration</code> का घंटों वाला भाग लौटाता है.
+`duration` का घंटों वाला भाग लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 अवधि मान से घंटे निकालें.
 ```powerquery
 Duration.Hours(#duration(5, 4, 3, 2))

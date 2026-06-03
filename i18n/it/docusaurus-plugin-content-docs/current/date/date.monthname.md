@@ -20,12 +20,12 @@ Date.MonthName(
 
 ## Remarks
 
-Restituisce il nome del componente mese per il valore <code>date</code> specificato. È anche possibile specificare un valore <code>culture</code> facoltativo, ad esempio "it-IT".
+Restituisce il nome del componente mese per il valore `date` specificato. È anche possibile specificare un valore `culture` facoltativo, ad esempio "it-IT".
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ottiene il nome del mese.
 ```powerquery
 Date.MonthName(#datetime(2011, 12, 31, 5, 0, 0), "en-US")

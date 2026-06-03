@@ -21,27 +21,29 @@ Html.Table(
 
 ## Remarks
 
-ส่งกลับตารางที่ประกอบด้วยผลลัพธ์ของการเรียกใช้ตัวเลือก CSS ที่ระบุกับ <code>html</code> ที่ให้มา พารามิเตอร์ระเบียนทางเลือก <code>options</code> อาจจัดทำขึ้นเพื่อระบุคุณสมบัติเพิ่มเติม ระเบียนสามารถประกอบด้วยเขตข้อมูลต่อไปนี้:    <ul><li><code>RowSelector</code></li></ul>    
+ส่งกลับตารางที่ประกอบด้วยผลลัพธ์ของการเรียกใช้ตัวเลือก CSS ที่ระบุกับ `html` ที่ให้มา พารามิเตอร์ระเบียนทางเลือก `options` อาจจัดทำขึ้นเพื่อระบุคุณสมบัติเพิ่มเติม ระเบียนสามารถประกอบด้วยเขตข้อมูลต่อไปนี้:
+
+-   `RowSelector`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ส่งกลับตารางจากค่าข้อความ html ตัวอย่าง
 ```powerquery
-Html.Table("<div class=""name"">เจตริณ</div><span>ผู้จัดการ</span>", {{"Name", ".name"}, {"Title", "span"}}, [RowSelector=".name"])
+Html.Table("<div class=""name"">Jo</div><span>Manager</span>", {{"Name", ".name"}, {"Title", "span"}}, [RowSelector=".name"])
 ```
 
 Result: 
 ```powerquery
-#ตาราง({"Name", "Title"}, {{"Jo", "Manager"}})
+#table({"Name", "Title"}, {{"Jo", "Manager"}})
 ```
 
 
-### Example #2 
+### Example #2
 แยก href ทั้งหมดจากค่าข้อความ html ตัวอย่าง
 ```powerquery
-Html.Table("<a href=""/test.html"">ทดสอบ</a>", {{"Link", "a", each [Attributes][href]}})
+Html.Table("<a href=""/test.html"">Test</a>", {{"Link", "a", each [Attributes][href]}})
 ```
 
 Result: 
@@ -53,4 +55,4 @@ Result:
 
 
 ## Category
-การเข้าถึงข้อมูล
+Accessing data

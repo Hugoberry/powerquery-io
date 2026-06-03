@@ -20,12 +20,12 @@ Table.Combine(
 
 ## Remarks
 
-テーブルの一覧 <code>tables</code> のマージ結果となるテーブルを返します。結果として返されるテーブルの行の型の構造は <code>columns</code> によって定義されますが、<code>columns</code> が指定されていない場合は、入力の型の論理和になります。
+テーブルの一覧 `tables` のマージ結果となるテーブルを返します。結果として返されるテーブルの行の型の構造は `columns` によって定義されますが、`columns` が指定されていない場合は、入力の型の論理和になります。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 3 つのテーブルをマージします。
 ```powerquery
 Table.Combine({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 構造の異なる 3 つのテーブルをマージします。
 ```powerquery
 Table.Combine({
@@ -65,7 +65,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 2 つのテーブルをマージして、指定された型に投影します。
 ```powerquery
 Table.Combine(

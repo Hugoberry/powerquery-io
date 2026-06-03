@@ -19,12 +19,12 @@ Number.Log10(
 
 ## Remarks
 
-Devuelve el logaritmo en base 10 de un número, <code>number</code>. Si <code>number</code> es NULL, <code>Number.Log10</code> devuelve NULL.
+Devuelve el logaritmo en base 10 de un número, `number`. Si `number` es NULL, `Number.Log10` devuelve NULL.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Obtenga el logaritmo en base 10 de 2.
 ```powerquery
 Number.Log10(2)

@@ -19,12 +19,14 @@ DateTime.IsInCurrentHour(
 
 ## Remarks
 
-Geeft aan of de opgegeven datetime-waarde <code>dateTime</code> plaatsvindt in het huidige uur volgens de huidige datum en tijd van het systeem.      <ul>      <li><code>dateTime</code>: Een <code>datetime</code>- of <code>datetimezone</code>-waarde die moet worden geëvalueerd.</li>      </ul>
+Geeft aan of de opgegeven datetime-waarde `dateTime` plaatsvindt in het huidige uur volgens de huidige datum en tijd van het systeem.
+
+-   `dateTime`: Een `datetime`\- of `datetimezone`\-waarde die moet worden geëvalueerd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bepalen of de huidige systeemtijd plaatsvindt in het huidige uur.
 ```powerquery
 DateTime.IsInCurrentHour(DateTime.FixedLocalNow())

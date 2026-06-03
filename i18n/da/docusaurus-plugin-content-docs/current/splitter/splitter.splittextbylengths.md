@@ -25,7 +25,7 @@ Returnerer en funktion, der opdeler tekst på en liste med tekst ved alle de ang
 
 ## Examples
 
-### Example #1 
+### Example #1
 Opdel input i de første to tegn efterfulgt af de næste tre, startende fra begyndelsen af input.
 ```powerquery
 Splitter.SplitTextByLengths({2, 3})("AB123")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Opdel input i de første tre tegn efterfulgt af de næste to, startende fra slutningen af input.
 ```powerquery
 let

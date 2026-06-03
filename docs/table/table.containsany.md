@@ -21,13 +21,13 @@ Table.ContainsAny(
 
 ## Remarks
 
-Indicates whether any the specified records in the list of records <code>rows</code>, appear as rows in the <code>table</code>.    An optional parameter <code>equationCriteria</code> may be specified to control comparison between the rows of the table.
+Indicates whether any the specified records in the list of records `rows`, appear as rows in the `table`. An optional parameter `equationCriteria` may be specified to control comparison between the rows of the table.
 
 
 ## Examples
 
-### Example #1 
-Determine if the table &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; contains the rows &lt;code&gt;[a = 1, b = 2]&lt;/code&gt; or &lt;code&gt;[a = 3, b = 5]&lt;/code&gt;.
+### Example #1
+Determine if the table `({[a = 1, b = 2], [a = 3, b = 4]})` contains the rows `[a = 1, b = 2]` or `[a = 3, b = 5]`.
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({
@@ -47,8 +47,8 @@ true
 ```
 
 
-### Example #2 
-Determine if the table &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; contains the rows &lt;code&gt;[a = 1, b = 3]&lt;/code&gt; or &lt;code&gt;[a = 3, b = 5]&lt;/code&gt;.
+### Example #2
+Determine if the table `({[a = 1, b = 2], [a = 3, b = 4]})` contains the rows `[a = 1, b = 3]` or `[a = 3, b = 5]`.
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({
@@ -68,8 +68,8 @@ false
 ```
 
 
-### Example #3 
-Determine if the table &lt;code&gt;(Table.FromRecords(\{[a = 1, b = 2], [a = 3, b = 4]}))&lt;/code&gt; contains the rows &lt;code&gt;[a = 1, b = 3]&lt;/code&gt; or &lt;code&gt;[a = 3, b = 5]&lt;/code&gt; comparing only the column [a].
+### Example #3
+Determine if the table `(Table.FromRecords({[a = 1, b = 2], [a = 3, b = 4]}))` contains the rows `[a = 1, b = 3]` or `[a = 3, b = 5]` comparing only the column \[a\].
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({

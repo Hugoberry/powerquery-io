@@ -19,12 +19,12 @@ Number.Ln(
 
 ## Remarks
 
-Возвращает натуральный логарифм числа <code>number</code>. Если <code>number</code> имеет значение NULL, то <code>Number.Ln</code> возвращает NULL.
+Возвращает натуральный логарифм числа `number`. Если `number` имеет значение NULL, то `Number.Ln` возвращает NULL.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Получить натуральный логарифм числа 15.
 ```powerquery
 Number.Ln(15)

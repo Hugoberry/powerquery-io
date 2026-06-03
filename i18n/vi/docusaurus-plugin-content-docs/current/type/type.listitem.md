@@ -19,13 +19,13 @@ Type.ListItem(
 
 ## Remarks
 
-Trả về loại mục từ loại danh sách <code>type</code>.
+Trả về loại mục từ loại danh sách `type`.
 
 
 ## Examples
 
-### Example #1 
-Tìm loại mục từ &lt;code&gt;\{number}&lt;/code&gt; danh sách.
+### Example #1
+Tìm loại mục từ `{number}` danh sách.
 ```powerquery
 Type.ListItem(type {number})
 ```

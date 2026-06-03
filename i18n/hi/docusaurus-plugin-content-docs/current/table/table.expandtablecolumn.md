@@ -22,13 +22,13 @@ Table.ExpandTableColumn(
 
 ## Remarks
 
-<code>table</code>[<code>column</code>] की तालिकाओं को एकाधिक पंक्तियों और स्तंभों में विभाजित करता है. आंतरिक तालिका से विस्तृत करने के लिए स्तंभों का चयन करने हेतु <code>columnNames</code> का उपयोग किया जाता है. मौजूदा स्तंभों और नए स्तंभों के बीच विरोध से बचने के लिए <code>newColumnNames</code> निर्दिष्ट करें.
+`table`\[`column`\] की तालिकाओं को एकाधिक पंक्तियों और स्तंभों में विभाजित करता है. आंतरिक तालिका से विस्तृत करने के लिए स्तंभों का चयन करने हेतु `columnNames` का उपयोग किया जाता है. मौजूदा स्तंभों और नए स्तंभों के बीच विरोध से बचने के लिए `newColumnNames` निर्दिष्ट करें.
 
 
 ## Examples
 
-### Example #1 
-तालिका &lt;code&gt;(\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]})&lt;/code&gt; में मौजूद &lt;code&gt;[a]&lt;/code&gt; के तालिका स्तंभों को 3 स्तंभों &lt;code&gt;[t.a]&lt;/code&gt;, &lt;code&gt;[t.b]&lt;/code&gt; और &lt;code&gt;[t.c]&lt;/code&gt; में विस्तृत करें.
+### Example #1
+तालिका `({[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]})` में मौजूद `[a]` के तालिका स्तंभों को 3 स्तंभों `[t.a]`, `[t.b]` और `[t.c]` में विस्तृत करें.
 ```powerquery
 Table.ExpandTableColumn(
     Table.FromRecords({

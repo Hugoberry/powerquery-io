@@ -19,7 +19,7 @@ Cube.DisplayFolders(
 
 ## Remarks
 
-Returnerar ett kapslat träd av tabeller som representerar mapphierarkin med objekt (till exempel dimensioner och mått) som är tillgängliga att användas i <code>cube</code>.
+Returnerar ett kapslat träd av tabeller som representerar mapphierarkin med objekt (till exempel dimensioner och mått) som är tillgängliga att användas i `cube`.
 
 
 

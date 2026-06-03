@@ -20,13 +20,13 @@ List.First(
 
 ## Remarks
 
-Zwraca pierwszy element z listy <code>list</code> lub opcjonalną wartość domyślną <code>defaultValue</code>, gdy lista jest pusta.    Jeśli lista jest pusta i nie określono wartości domyślnej, funkcja zwraca wartość <code>null</code>.
+Zwraca pierwszy element z listy `list` lub opcjonalną wartość domyślną `defaultValue`, gdy lista jest pusta. Jeśli lista jest pusta i nie określono wartości domyślnej, funkcja zwraca wartość `null`.
 
 
 ## Examples
 
-### Example #1 
-Znajdź pierwszą wartość na liście \{1, 2, 3}.
+### Example #1
+Znajdź pierwszą wartość na liście \{1, 2, 3\}.
 ```powerquery
 List.First({1, 2, 3})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Znajdź pierwszą wartość na liście \{}. Jeśli lista jest pusta, zwracana jest wartość -1.
+### Example #2
+Znajdź pierwszą wartość na liście \{\}. Jeśli lista jest pusta, zwracana jest wartość -1.
 ```powerquery
 List.First({}, -1)
 ```

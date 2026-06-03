@@ -19,12 +19,12 @@ Table.SingleRow(
 
 ## Remarks
 
-1 つの行 <code>table</code> の 1 つの行を返します。<code>table</code> に複数の行が存在する場合、例外がスローされます。
+1 つの行 `table` 内の 1 つの行を返します。`table` に複数の行がある場合は、エラーが発生します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブルの単一行を返します。
 ```powerquery
 Table.SingleRow(Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}))

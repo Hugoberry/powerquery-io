@@ -21,12 +21,12 @@ Text.BeforeDelimiter(
 
 ## Remarks
 
-Zwraca część elementu <code>text</code> przed określonym elementem <code>delimiter</code>.    Opcjonalna liczba <code>index</code> wskazuje, które wystąpienie elementu <code>delimiter</code> ma zostać uwzględnione.    Opcjonalna lista <code>index</code> wskazuje, które wystąpienie elementu <code>delimiter</code> ma zostać uwzględnione oraz czy indeksowanie ma być rozpoczynane od początku elementu wejściowego.
+Zwraca część elementu `text` przed określonym elementem `delimiter`. Opcjonalna liczba `index` wskazuje, które wystąpienie elementu `delimiter` ma zostać uwzględnione. Opcjonalna lista `index` wskazuje, które wystąpienie elementu `delimiter` ma zostać uwzględnione oraz czy indeksowanie ma być rozpoczynane od początku elementu wejściowego.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Pobierz część ciągu „111-222-333” przed (pierwszym) łącznikiem.
 ```powerquery
 Text.BeforeDelimiter("111-222-333", "-")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Pobierz część ciągu „111-222-333” przed drugim łącznikiem.
 ```powerquery
 Text.BeforeDelimiter("111-222-333", "-", 1)
@@ -50,7 +50,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Pobierz część ciągu „111-222-333” przed drugim łącznikiem od końca.
 ```powerquery
 Text.BeforeDelimiter("111-222-333", "-", {1, RelativePosition.FromEnd})

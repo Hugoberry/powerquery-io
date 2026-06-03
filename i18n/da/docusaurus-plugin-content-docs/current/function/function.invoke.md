@@ -5,7 +5,7 @@ title: Function.Invoke
 # Function.Invoke
 
 
-Udløser den angivne funktion
+Udløser den angivne funktion.
 
 
 ## Syntax
@@ -25,8 +25,8 @@ Udløser den angivne funktion ved hjælp af den angivne liste over argumenter og
 
 ## Examples
 
-### Example #1 
-Udløser Record.FieldNames med ét argument [A=1,B=2]
+### Example #1
+Udløser Record.FieldNames med ét argument \[A=1,B=2\].
 ```powerquery
 Function.Invoke(Record.FieldNames, {[A = 1, B = 2]})
 ```

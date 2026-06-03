@@ -19,7 +19,13 @@ Binary.ViewFunction(
 
 ## Remarks
 
-Erstellt eine auf <code>function</code> basierende Ansichtsfunktion, die in einer von <code>Binary.View</code> erstellten Ansicht verarbeitet werden kann.<br />Der <code>OnInvoke</code>-Handler von <code>Binary.View</code> kann zum Definieren eines Handlers für die Ansichtsfunktion verwendet werden.<br />Ebenso wie bei den Handlern für integrierte Vorgänge wird <code>function</code> zusätzlich zur Ansicht angewendet, wenn kein <code>OnInvoke</code>-Handler angegeben wurde oder wenn dieser die Ansichtsfunktion nicht verarbeitet oder einen Fehler ausgibt.<br />Eine umfassendere Beschreibung von <code>Binary.View</code> und benutzerdefinierten Ansichtsfunktionen finden Sie in der veröffentlichten Dokumentation des benutzerdefinierter Power Query-Connectors.<br />
+Erstellt eine auf `function` basierende Ansichtsfunktion, die in einer von `Binary.View` erstellten Ansicht verarbeitet werden kann.
+
+Der `OnInvoke`\-Handler von `Binary.View` kann zum Definieren eines Handlers für die Ansichtsfunktion verwendet werden.
+
+Ebenso wie bei den Handlern für integrierte Vorgänge wird `function` zusätzlich zur Ansicht angewendet, wenn kein `OnInvoke`\-Handler angegeben wurde oder wenn dieser die Ansichtsfunktion nicht verarbeitet oder einen Fehler ausgibt.
+
+Eine umfassendere Beschreibung von `Binary.View` und benutzerdefinierten Ansichtsfunktionen finden Sie in der veröffentlichten Dokumentation des benutzerdefinierter Power Query-Connectors.
 
 
 

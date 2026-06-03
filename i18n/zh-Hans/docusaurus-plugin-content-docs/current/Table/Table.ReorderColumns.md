@@ -21,13 +21,13 @@ Table.ReorderColumns(
 
 ## Remarks
 
-从输入 <code>table</code> 返回一个表，其中的列遵循由 <code>columnOrder</code> 指定的顺序。列表中未指定的列将不重新排序。     如果此列不存在，将引发异常，除非可选参数 <code>missingField</code> 指定备用值(例如，<code>MissingField.UseNull</code> 或 <code>MissingField.Ignore</code>)。
+从输入 `table` 返回一个表，其中的列遵循由 `columnOrder` 指定的顺序。列表中未指定的列将不重新排序。 如果列不存在，则引发错误，除非可选参数 `missingField` 指定了备用值(例如 `MissingField.UseNull` 或 `MissingField.Ignore`)。
 
 
 ## Examples
 
-### Example #1 
-切换表中列 [Phone] 和 [Name] 的顺序。
+### Example #1
+切换表中列 \[Phone\] 和 \[Name\] 的顺序。
 ```powerquery
 Table.ReorderColumns(
     Table.FromRecords({[CustomerID = 1, Phone = "123-4567", Name = "Bob"]}),
@@ -41,8 +41,8 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]})
 ```
 
 
-### Example #2 
-切换表中列 [Phone] 和 [Address] 的顺序或使用 &#34;MissingField.Ignore&#34;。这不会更改表，因为列 [Address] 不存在。
+### Example #2
+切换表中列 \[Phone\] 和 \[Address\] 的顺序或使用 "MissingField.Ignore"。这不会更改表，因为列 \[Address\] 不存在。
 ```powerquery
 Table.ReorderColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

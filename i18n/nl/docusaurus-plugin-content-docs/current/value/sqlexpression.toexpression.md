@@ -20,7 +20,7 @@ SqlExpression.ToExpression(
 
 ## Remarks
 
-Converteert de opgegeven <code>sql</code>-query naar M-code, met de beschikbare id's die zijn gedefinieerd door <code>environment</code>. Deze functie is alleen bedoeld voor intern gebruik.
+Converteert de opgegeven `sql`\-query naar M-code, met de beschikbare id's die zijn gedefinieerd door `environment`. Deze functie is alleen bedoeld voor intern gebruik.
 
 
 

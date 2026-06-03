@@ -19,13 +19,13 @@ RowExpression.Column(
 
 ## Remarks
 
-Satır ifadesinde satırın <code>columnName</code> sütununa erişimi temsil eden bir soyut söz dizimi ağacını (AST) döndürür.
+Satır ifadesinde satırın `columnName` sütununa erişimi temsil eden bir soyut söz dizimi ağacını (AST) döndürür.
 
 
 ## Examples
 
-### Example #1 
-&#34;CustomerName&#34; sütununa yönelik erişimi temsil eden bir AST oluşturur.
+### Example #1
+"CustomerName" sütununa yönelik erişimi temsil eden bir AST oluşturur.
 ```powerquery
 RowExpression.Column("CustomerName")
 ```

@@ -19,12 +19,12 @@ Record.FieldValues(
 
 ## Remarks
 
-Devolve uma lista dos valores dos campos existentes no registo <code>record</code>.
+Devolve uma lista dos valores dos campos existentes no registo `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determinar os valores dos campos no registo.
 ```powerquery
 Record.FieldValues([CustomerID = 1, Name = "Bob", Phone = "123-4567"])

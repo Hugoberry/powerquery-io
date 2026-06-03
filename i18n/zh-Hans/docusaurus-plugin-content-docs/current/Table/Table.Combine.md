@@ -20,12 +20,12 @@ Table.Combine(
 
 ## Remarks
 
-返回合并表列表 <code>tables</code> 后生成的表。生成的表的行类型结构由 <code>columns</code> 定义，或由输入类型的联合定义(如果未指定 <code>columns</code> 的话)。
+返回合并表列表 `tables` 后生成的表。生成的表的行类型结构由 `columns` 定义，或由输入类型的联合定义(如果未指定 `columns` 的话)。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 将以下三个表合并在一起。
 ```powerquery
 Table.Combine({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 合并结构不同的三个表。
 ```powerquery
 Table.Combine({
@@ -65,7 +65,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 合并两个表并投影到给定类型。
 ```powerquery
 Table.Combine(

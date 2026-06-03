@@ -21,13 +21,23 @@ Text.Contains(
 
 ## Remarks
 
-Detecta se <code>text</code> contém o valor <code>substring</code>. Retorna true se o valor for encontrado. Esta função não aceita curingas ou expressões regulares.      <br />      <br />      O argumento opcional <code>comparer</code> pode ser usado para especificar comparações que não diferenciam maiúsculas de minúsculas ou com reconhecimento de cultura e localidade.      Os seguintes comparadores internos estão disponíveis na linguagem da fórmula:      <ul>        <li><code>Comparer.Ordinal</code>: usado para realizar uma comparação ordinal com distinção entre maiúsculas e minúsculas</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: usado para realizar uma comparação ordinal sem diferenciar maiúsculas de minúsculas</li>        <li> <code>Comparer.FromCulture</code>: usado para realizar uma comparação com reconhecimento de cultura</li>      </ul>
+Detecta se `text` contém o valor `substring`. Retornará true se o valor for encontrado. Essa função não oferece suporte a caracteres curinga ou expressões regulares.  
+  
+O argumento opcional `comparer` pode ser usado para especificar comparações que não diferenciam maiúsculas de minúsculas ou cultura e reconhecimento de localidade. Os seguintes comparadores internos estão disponíveis na linguagem da fórmula:
+
+-   `Comparer.Ordinal`: usado para executar uma comparação ordinal que diferencia maiúsculas de minúsculas
+-   `Comparer.OrdinalIgnoreCase`: usado para executar uma comparação ordinal que não diferencia maiúsculas de minúsculas
+-   `Comparer.FromCulture`: usado para executar uma comparação com reconhecimento de cultura
+
+Se o primeiro argumento for nulo, essa função retornará nulo.  
+  
+Todos os caracteres são tratados literalmente. Por exemplo, "DR", " DR", "DR " e " DR " não são considerados iguais uns aos outros.
 
 
 ## Examples
 
-### Example #1 
-Descubra se o texto &#34;Olá, Mundo&#34; contém &#34;Olá&#34;.
+### Example #1
+Descubra se o texto "Olá, Mundo" contém "Olá".
 ```powerquery
 Text.Contains("Hello World", "Hello")
 ```
@@ -38,8 +48,8 @@ true
 ```
 
 
-### Example #2 
-Descubra se o texto &#34;Olá, Mundo&#34; contém &#34;olá&#34;.
+### Example #2
+Descubra se o texto "Olá, Mundo" contém "olá".
 ```powerquery
 Text.Contains("Hello World", "hello")
 ```
@@ -50,7 +60,7 @@ false
 ```
 
 
-### Example #3 
+### Example #3
 Descubra se o texto “Olá, Mundo” contém “Olá”, usando um comparador que não diferencia maiúsculas de minúsculas.
 ```powerquery
 Text.Contains("Hello World", "hello", Comparer.OrdinalIgnoreCase)
@@ -59,6 +69,41 @@ Text.Contains("Hello World", "hello", Comparer.OrdinalIgnoreCase)
 Result: 
 ```powerquery
 true
+```
+
+
+### Example #4
+Localize as linhas em uma tabela que contenha "A-" ou "7" no código da conta.
+```powerquery
+let
+    Source = #table(type table [Account Code = text, Posted Date = date, Sales = number],
+    {
+        {"US-2004", #date(2023,1,20), 580},
+        {"CA-8843", #date(2023,7,18), 280},
+        {"PA-1274", #date(2022,1,12), 90},
+        {"PA-4323", #date(2023,4,14), 187},
+        {"US-1200", #date(2022,12,14), 350},
+        {"PTY-507", #date(2023,6,4), 110}
+    }),
+    #"Filtered rows" = Table.SelectRows(
+        Source,
+        each Text.Contains([Account Code], "A-") or
+            Text.Contains([Account Code], "7"))
+in
+    #"Filtered rows"
+    
+```
+
+Result: 
+```powerquery
+#table(type table [Account Code = text, Posted Date = date, Sales = number],
+{
+    {"CA-8843", #date(2023,7,18), 280},
+    {"PA-1274", #date(2022,1,12), 90},
+    {"PA-4323", #date(2023,4,14), 187},
+    {"PTY-507", #date(2023,6,4), 110}
+})
+    
 ```
 
 

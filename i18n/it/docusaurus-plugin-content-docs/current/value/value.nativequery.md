@@ -22,7 +22,17 @@ Value.NativeQuery(
 
 ## Remarks
 
-Valuta <code>query</code> su <code>target</code> usando i parametri specificati in <code>parameters</code> e le opzioni specificate in <code>options</code>.<br />L'output della query è definito da <code>target</code>.<br /><code>target</code> fornisce il contesto per l'operazione descritta da <code>query</code>.<br /><code>query</code> descrive la query da eseguire su <code>target</code>. <code>query</code> viene espresso in modo specifico per <code>target</code>, ad esempio in un'istruzione T-SQL.<br />Il valore facoltativo <code>parameters</code> può contenere un elenco o un record, a seconda dei casi, per fornire i valori dei parametri previsti da <code>query</code>.<br />Il record facoltativo <code>options</code> può contenere opzioni che influiscono sul comportamento della valutazione di <code>query</code> su <code>target</code>. Queste opzioni sono specifiche di <code>target</code>.<br />
+Valuta `query` su `target` usando i parametri specificati in `parameters` e le opzioni specificate in `options`.
+
+L'output della query è definito da `target`.
+
+`target` fornisce il contesto per l'operazione descritta da `query`.
+
+`query` descrive la query da eseguire su `target`. `query` viene espresso in modo specifico per `target`, ad esempio in un'istruzione T-SQL.
+
+Il valore facoltativo `parameters` può contenere un elenco o un record, a seconda dei casi, per fornire i valori dei parametri previsti da `query`.
+
+Il record facoltativo `options` può contenere opzioni che influiscono sul comportamento della valutazione di `query` su `target`. Queste opzioni sono specifiche di `target`.
 
 
 

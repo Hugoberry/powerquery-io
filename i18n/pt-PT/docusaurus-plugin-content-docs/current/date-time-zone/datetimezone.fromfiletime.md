@@ -19,13 +19,13 @@ DateTimeZone.FromFileTime(
 
 ## Remarks
 
-Cria um valor <code>datetimezone</code> a partir do valor <code>fileTime</code> e converte-o no fuso horário local. O filetime é um valor de hora do ficheiro do Windows que representa o número de intervalos de 100 nanossegundos decorridos desde as 00:00 de 1 de janeiro de 1601 A.D. (E.C.) Hora Universal Coordenada (UTC).    
+Cria um valor `datetimezone` a partir do valor `fileTime` e converte-o no fuso horário local. O filetime é um valor de hora do ficheiro do Windows que representa o número de intervalos de 100 nanossegundos decorridos desde as 00:00 de 1 de janeiro de 1601 A.D. (E.C.) Hora Universal Coordenada (UTC).
 
 
 ## Examples
 
-### Example #1 
-Converter &lt;code&gt;129876402529842245&lt;/code&gt; num valor datetimezone.
+### Example #1
+Converter `129876402529842245` num valor datetimezone.
 ```powerquery
 DateTimeZone.FromFileTime(129876402529842245)
 ```

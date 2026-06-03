@@ -19,13 +19,15 @@ DateTime.ToRecord(
 
 ## Remarks
 
-Returnerar en post som innehåller delarna i det angivna datetime-värdet <code>dateTime</code>. <ul>        <li><code>dateTime</code>: Ett <code>datetime</code>-värde som posten med värdets delar ska beräknas från.</li>      </ul>
+Returnerar en post som innehåller delarna i det angivna datetime-värdet `dateTime`.
+
+-   `dateTime`: Ett `datetime`\-värde som posten med värdets delar ska beräknas från.
 
 
 ## Examples
 
-### Example #1 
-Konvertera &lt;code&gt;#datetime(2011, 12, 31, 11, 56, 2)&lt;/code&gt;-värdet till en post som innehåller datum- och tidsvärden.
+### Example #1
+Konvertera `#datetime(2011, 12, 31, 11, 56, 2)`\-värdet till en post som innehåller datum- och tidsvärden.
 ```powerquery
 DateTime.ToRecord(#datetime(2011, 12, 31, 11, 56, 2))
 ```

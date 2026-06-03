@@ -19,13 +19,15 @@ Date.Day(
 
 ## Remarks
 
-傳回 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值的日元件。      <ul>        <li><code>dateTime</code>: 要從中擷取日元件的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值。</li>      </ul>
+傳回 `date`、`datetime` 或 `datetimezone` 值的日元件。
+
+-   `dateTime`: 要從中擷取日元件的 `date`、`datetime` 或 `datetimezone` 值。
 
 
 ## Examples
 
-### Example #1 
-取得代表 5/14/2011 05:00:00 PM 這個日期時間的 &lt;code&gt;date&lt;/code&gt;、&lt;code&gt;datetime&lt;/code&gt; 或 &lt;code&gt;datetimezone&lt;/code&gt; 值的日元件。
+### Example #1
+取得代表 5/14/2011 05:00:00 PM 這個日期時間的 `date`、`datetime` 或 `datetimezone` 值的日元件。
 ```powerquery
 Date.Day(#datetime(2011, 5, 14, 17, 0, 0))
 ```

@@ -5,7 +5,7 @@ title: SqlExpression.ToExpression
 # SqlExpression.ToExpression
 
 
-Converte la query SQL specificata nel codice M. Questa funzione è destinata solo all&#39;uso interno.
+Converte la query SQL specificata nel codice M. Questa funzione è destinata solo all'uso interno.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ SqlExpression.ToExpression(
 
 ## Remarks
 
-Converte la query di <code>sql</code> fornita in codice M, con gli identificatori disponibili definiti da <code>environment</code>. Questa funzione è destinata solo all'uso interno.
+Converte la query di `sql` fornita in codice M, con gli identificatori disponibili definiti da `environment`. Questa funzione è destinata solo all'uso interno.
 
 
 

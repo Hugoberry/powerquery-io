@@ -20,13 +20,13 @@ Table.FindText(
 
 ## Remarks
 
-Gibt die Zeilen der Tabelle "<code>table</code>" zurück, die den Text "<code>text</code>" enthalten. Wird der Text nicht gefunden, wird eine leere Tabelle zurückgegeben.
+Gibt die Zeilen der Tabelle "`table`" zurück, die den Text "`text`" enthalten. Wird der Text nicht gefunden, wird eine leere Tabelle zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt die Zeilen in der Tabelle, die &#34;Bob&#34; enthalten.
+### Example #1
+Ermittelt die Zeilen in der Tabelle, die "Bob" enthalten.
 ```powerquery
 Table.FindText(
     Table.FromRecords({

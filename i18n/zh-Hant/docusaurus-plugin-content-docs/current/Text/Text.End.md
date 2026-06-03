@@ -20,13 +20,13 @@ Text.End(
 
 ## Remarks
 
-傳回 <code>text</code> 值，這是 <code>text</code> 值 <code>text</code> 的最後 <code>count</code> 個字元。
+傳回 `text` 值，這是 `text` 值 `text` 的最後 `count` 個字元。
 
 
 ## Examples
 
-### Example #1 
-取得文字 &#34;Hello, World&#34; 的最後 5 個字元。
+### Example #1
+取得文字 "Hello, World" 的最後 5 個字元。
 ```powerquery
 Text.End("Hello, World", 5)
 ```

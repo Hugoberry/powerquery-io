@@ -21,13 +21,13 @@ Table.RemoveColumns(
 
 ## Remarks
 
-Fjerner den angivne <code>columns</code> fra den udleverede <code>table</code> . Hvis den angivne kolonne ikke findes, udløses der en fejl, medmindre den valgfri parameter <code>missingField</code> angiver en alternativ funktionsmåde (f.eks. <code>MissingField.UseNull</code> eller <code>MissingField.Ignore</code>).
+Fjerner den angivne `columns` fra den udleverede `table` . Hvis den angivne kolonne ikke findes, udløses der en fejl, medmindre den valgfri parameter `missingField` angiver en alternativ funktionsmåde (f.eks. `MissingField.UseNull` eller `MissingField.Ignore`).
 
 
 ## Examples
 
-### Example #1 
-Fjern kolonnen [Phone] fra tabellen.
+### Example #1
+Fjern kolonnen \[Phone\] fra tabellen.
 ```powerquery
 Table.RemoveColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -41,7 +41,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #2 
+### Example #2
 Prøv at fjerne en ikke-eksisterende kolonne fra tabellen.
 ```powerquery
 Table.RemoveColumns(

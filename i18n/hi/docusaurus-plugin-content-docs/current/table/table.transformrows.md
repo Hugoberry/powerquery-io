@@ -20,12 +20,12 @@ Table.TransformRows(
 
 ## Remarks
 
-<code>table</code> की प्रत्येक पंक्ति में <code>transform</code> कार्रवाई लागू करके <code>सूची</code> बनाता है.
+`table` की प्रत्येक पंक्ति में `transform` कार्रवाई लागू करके `सूची` बनाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 तालिका की पंक्तियों को संख्याओं की सूची में रूपांतरित करें.
 ```powerquery
 Table.TransformRows(
@@ -46,7 +46,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 संख्यात्मक तालिका की पंक्तियों को पाठ अभिलेखों में रूपांतरित करें.
 ```powerquery
 Table.TransformRows(

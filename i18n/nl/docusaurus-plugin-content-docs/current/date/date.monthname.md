@@ -20,12 +20,12 @@ Date.MonthName(
 
 ## Remarks
 
-Hiermee wordt de naam van het maandonderdeel geretourneerd voor de opgegeven <code>date</code>. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
+Hiermee wordt de naam van het maandonderdeel geretourneerd voor de opgegeven `date`. Er kan ook een optionele `culture` worden opgegeven (bijvoorbeeld: nl-NL).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hiermee wordt de naam van de maand opgehaald.
 ```powerquery
 Date.MonthName(#datetime(2011, 12, 31, 5, 0, 0), "en-US")

@@ -19,7 +19,7 @@ DateTimeZone.FixedLocalNow(
 
 ## Remarks
 
-Returnerar ett <code>datetime</code>-värde för systemets aktuella datum och tid. Värdet som returneras innehåller information om tidszonen som representerar den lokala tidszonen. Det här värdet är fast och ändras inte i samband med efterföljande anrop, till skillnad mot DateTimeZone.LocalNow, som kan returnera olika värden när ett uttryck körs.
+Returnerar ett `datetime`\-värde för systemets aktuella datum och tid. Värdet som returneras innehåller information om tidszonen som representerar den lokala tidszonen. Det här värdet är fast och ändras inte i samband med efterföljande anrop, till skillnad mot DateTimeZone.LocalNow, som kan returnera olika värden när ett uttryck körs.
 
 
 

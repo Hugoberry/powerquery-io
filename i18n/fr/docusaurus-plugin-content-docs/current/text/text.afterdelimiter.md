@@ -21,13 +21,13 @@ Text.AfterDelimiter(
 
 ## Remarks
 
-Retourne la partie de <code>text</code> après le <code>delimiter</code> spécifié.    Un numérique facultatif <code>index</code> indique quelle occurrence du <code>delimiter</code> doit être considérée.    Une liste facultative <code>index</code> indique quelle occurrence du <code>delimiter</code> doit être considérée, et si l'indexation doit être effectuée à partir du début ou de la fin de l'entrée.
+Retourne la partie de `text` après le `delimiter` spécifié. Un numérique facultatif `index` indique quelle occurrence du `delimiter` doit être considérée. Une liste facultative `index` indique quelle occurrence du `delimiter` doit être considérée, et si l'indexation doit être effectuée à partir du début ou de la fin de l'entrée.
 
 
 ## Examples
 
-### Example #1 
-Obtenez la partie de &#34; 111-222-333 &#34; après le (premier) trait d&#39;union.
+### Example #1
+Obtenez la partie de « 111-222-333 » après le (premier) trait d'union.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Obtenez la partie de &#34; 111-222-333 &#34; après le deuxième trait d&#39;union.
+### Example #2
+Obtenez la partie de « 111-222-333 » après le deuxième trait d'union.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-", 1)
 ```
@@ -50,8 +50,8 @@ Result:
 ```
 
 
-### Example #3 
-Obtenez la partie de &#34; 111-222-333 &#34; après le deuxième trait d&#39;union à partir de la fin.
+### Example #3
+Obtenez la partie de « 111-222-333 » après le deuxième trait d'union à partir de la fin.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-", {1, RelativePosition.FromEnd})
 ```

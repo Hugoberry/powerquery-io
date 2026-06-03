@@ -19,12 +19,12 @@ Duration.Hours(
 
 ## Remarks
 
-<code>duration</code> için saat kısmını döndürür
+`duration` için saat kısmını döndürür
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Süre değerinden saatleri ayıklayın.
 ```powerquery
 Duration.Hours(#duration(5, 4, 3, 2))

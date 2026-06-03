@@ -21,13 +21,13 @@ Table.Min(
 
 ## Remarks
 
-Zwraca najmniejszy wiersz w tabeli <code>table</code>, używając podanych kryteriów <code>comparisonCriteria</code>. Jeśli tabela jest pusta, jest zwracana opcjonalna wartość <code>default</code>.
+Zwraca najmniejszy wiersz w tabeli `table`, używając podanych kryteriów `comparisonCriteria`. Jeśli tabela jest pusta, jest zwracana opcjonalna wartość `default`.
 
 
 ## Examples
 
-### Example #1 
-Znajdź wiersz mający najmniejszą wartość w kolumnie [a] w tabeli.
+### Example #1
+Znajdź wiersz mający najmniejszą wartość w kolumnie \[a\] w tabeli.
 ```powerquery
 Table.Min(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Znajdź wiersz mający najmniejszą wartość w kolumnie [a] w tabeli. Zwróć -1, jeśli tabela jest pusta.
+### Example #2
+Znajdź wiersz mający najmniejszą wartość w kolumnie \[a\] w tabeli. Zwróć -1, jeśli tabela jest pusta.
 ```powerquery
 Table.Min(#table({"a"}, {}), "a", -1)
 ```

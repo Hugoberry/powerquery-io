@@ -28,8 +28,8 @@ Cho một cặp cột biểu thị cặp thuộc tính-giá trị, hãy xoay d�
 
 ## Examples
 
-### Example #1 
-Lấy giá trị &#34;a&#34;, &#34;b&#34; và &#34;c&#34; trong cột thuộc tính của bảng &lt;code&gt;(\{ [ key = &#34;x&#34;, attribute = &#34;a&#34;, value = 1 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 3 ], [ key = &#34;y&#34;, attribute = &#34;a&#34;, value = 2 ], [ key = &#34;y&#34;, attribute = &#34;b&#34;, value = 4 ] })&lt;/code&gt; và xoay các giá trị này thành cột riêng của chúng.
+### Example #1
+Lấy giá trị "a", "b" và "c" trong cột thuộc tính của bảng `({ [ key = "x", attribute = "a", value = 1 ], [ key = "x", attribute = "c", value = 3 ], [ key = "y", attribute = "a", value = 2 ], [ key = "y", attribute = "b", value = 4 ] })` và xoay các giá trị này thành cột riêng của chúng.
 ```powerquery
 Table.Pivot(
     Table.FromRecords({
@@ -53,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Lấy giá trị &#34;a&#34;, &#34;b&#34; và &#34;c&#34; trong cột thuộc tính của bảng &lt;code&gt;(\{ [ key = &#34;x&#34;, attribute = &#34;a&#34;, value = 1 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 3 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 5 ], [ key = &#34;y&#34;, attribute = &#34;a&#34;, value = 2 ], [ key = &#34;y&#34;, attribute = &#34;b&#34;, value = 4 ] })&lt;/code&gt; và xoay các giá trị này thành cột riêng của chúng.  Thuộc tính &#34;c&#34; cho khóa &#34;x&#34; có nhiều giá trị liên kết đi kèm nên hãy sử dụng hàm List.Max để giải quyết xung đột.
+### Example #2
+Lấy giá trị "a", "b" và "c" trong cột thuộc tính của bảng `({ [ key = "x", attribute = "a", value = 1 ], [ key = "x", attribute = "c", value = 3 ], [ key = "x", attribute = "c", value = 5 ], [ key = "y", attribute = "a", value = 2 ], [ key = "y", attribute = "b", value = 4 ] })` và xoay các giá trị này thành cột riêng của chúng. Thuộc tính "c" cho khóa "x" có nhiều giá trị liên kết đi kèm nên hãy sử dụng hàm List.Max để giải quyết xung đột.
 ```powerquery
 Table.Pivot(
     Table.FromRecords({

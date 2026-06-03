@@ -20,7 +20,7 @@ Text.InferNumberType(
 
 ## Remarks
 
-Härleder den detaljerade taltypen (Int64.Type, Double.Type, osv.) för <code>text</code>. Ett fel uppstår om <code>text</code> inte är ett tal. En valfri <code>culture</code> kan även anges (till exempel "en-US").
+Härleder den detaljerade taltypen (Int64.Type, Double.Type, osv.) för `text`. Ett fel uppstår om `text` inte är ett tal. En valfri `culture` kan även anges (till exempel "en-US").
 
 
 

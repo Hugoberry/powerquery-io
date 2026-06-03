@@ -20,25 +20,29 @@ Text.SplitAny(
 
 ## Remarks
 
-Gibt eine Liste mit Textwerten zurück, für die ein Textwert (<code>text</code>) auf der Grundlage der Zeichen des angegebenen Trennzeichens (<code>separators</code>) aufgeteilt wurde.
+Gibt eine Liste mit Textwerten zurück, für die ein Textwert auf der Grundlage eines im Trennzeichen angegebenen Zeichens aufgeteilt wurde.
+
+-   `text`: Der zu teilende Textwert.
+-   `separators`: Die Trennzeichen, die zum Teilen des Texts verwendet werden soll.
 
 
 ## Examples
 
-### Example #1 
-Erstellt eine Liste auf der Grundlage des Textwerts &#34;Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com&#34;.
+### Example #1
+Erstellen Sie eine Liste aus dem angegebenen Text mithilfe der angegebenen Trennzeichen.
 ```powerquery
-Text.SplitAny("Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com", "|")
+Text.SplitAny("Name|Customer ID|Purchase|Month-Day-Year", "|-")
 ```
 
 Result: 
 ```powerquery
 {
-    "Jamie",
-    "Campbell",
-    "Admin",
-    "Adventure Works",
-    "www.adventure-works.com"
+    "Name",
+    "Customer ID",
+    "Purchase",
+    "Month",
+    "Day",
+    "Year"
 }
 ```
 

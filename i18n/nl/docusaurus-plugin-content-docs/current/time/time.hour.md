@@ -19,12 +19,12 @@ Time.Hour(
 
 ## Remarks
 
-Retourneert het uurgedeelte van de opgegeven waarde <code>dateTime</code> voor <code>time</code>, <code>datetime</code> of <code>datetimezone</code>.
+Retourneert het uurgedeelte van de opgegeven waarde `dateTime` voor `time`, `datetime` of `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Het uur zoeken in #datetime(2011, 12, 31, 9, 15, 36).
 ```powerquery
 Time.Hour(#datetime(2011, 12, 31, 9, 15, 36))

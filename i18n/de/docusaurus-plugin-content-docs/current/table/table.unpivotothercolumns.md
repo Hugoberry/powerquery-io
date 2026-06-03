@@ -27,7 +27,7 @@ Table.UnpivotOtherColumns(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Übersetzt alle Spalten mit Ausnahme eines angegebenen Satzes in Attribut-Wert-Paare in Kombination mit den restlichen Werten in jeder Zeile.
 ```powerquery
 Table.UnpivotOtherColumns(

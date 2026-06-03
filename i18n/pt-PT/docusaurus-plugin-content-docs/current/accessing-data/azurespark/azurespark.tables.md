@@ -25,7 +25,7 @@ Listar as tabelas numa instância do Azure Spark.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Listar as tabelas numa instância do Azure Spark.
 ```powerquery
 AzureSpark.Tables("contoso.azurehdinsight.net")

@@ -26,7 +26,7 @@ Splitter.SplitTextByEachDelimiter(
 
 ## Examples
 
-### Example #1 
+### Example #1
 इनपुट की शुरुआत से प्रारंभ करते हुए, इनपुट को अल्पविराम, फिर अर्धविराम द्वारा, विभाजित करें.
 ```powerquery
 Splitter.SplitTextByEachDelimiter({",", ";"})("a,b;c,d")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 उद्धरणों को किसी अन्य वर्ण की तरह मानते हुए और इनपुट के अंत से प्रारंभ करते हुए, इनपुट को अल्पविराम, फिर अर्धविराम द्वारा विभाजित करें.
 ```powerquery
 let

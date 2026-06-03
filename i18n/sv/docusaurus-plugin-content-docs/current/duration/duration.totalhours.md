@@ -19,12 +19,12 @@ Duration.TotalHours(
 
 ## Remarks
 
-Returnerar det totala antalet timmar som omfattas av <code>duration</code>.
+Returnerar det totala antalet timmar som omfattas av `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta det totala antalet timmar som omfattas av ett varaktighetsvärde.
 ```powerquery
 Duration.TotalHours(#duration(5, 4, 3, 2))

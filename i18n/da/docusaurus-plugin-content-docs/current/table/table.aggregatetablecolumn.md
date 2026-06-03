@@ -21,13 +21,13 @@ Table.AggregateTableColumn(
 
 ## Remarks
 
-Aggregerer tabeller i <code>table</code> [<code>column</code>] i flere kolonner, der indeholder aggregerede værdier for tabellerne. <code>aggregations</code> bruges til at angive de kolonner, der indeholder de tabeller, som skal aggregeres, den aggregeringsfunktion, der skal anvendes på tabellerne for at oprette deres værdier, og navnene på de aggregeringskolonner, der skal oprettes.
+Aggregerer tabeller i `table` \[`column`\] i flere kolonner, der indeholder aggregerede værdier for tabellerne. `aggregations` bruges til at angive de kolonner, der indeholder de tabeller, som skal aggregeres, den aggregeringsfunktion, der skal anvendes på tabellerne for at oprette deres værdier, og navnene på de aggregeringskolonner, der skal oprettes.
 
 
 ## Examples
 
-### Example #1 
-Aggreger tabelkolonner i &lt;code&gt;[t]&lt;/code&gt; i tabellen &lt;code&gt;\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}&lt;/code&gt; til summen &lt;code&gt;[t.a]&lt;/code&gt;, minimum og maksimum for &lt;code&gt;[t.b]&lt;/code&gt; og antallet af værdier i &lt;code&gt;[t.a]&lt;/code&gt;.
+### Example #1
+Aggreger tabelkolonner i `[t]` i tabellen `{[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}` til summen `[t.a]`, minimum og maksimum for `[t.b]` og antallet af værdier i `[t.a]`.
 ```powerquery
 Table.AggregateTableColumn(
     Table.FromRecords(

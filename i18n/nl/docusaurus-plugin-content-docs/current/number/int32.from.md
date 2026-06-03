@@ -21,13 +21,13 @@ Int32.From(
 
 ## Remarks
 
-Hiermee wordt een 32-bits <code>number</code>-waarde geretourneerd als geheel getal vanuit de opgegeven <code>value</code>. Als de opgegeven waarde <code>value</code> <code>null</code> is, wordt door <code>Int32.From</code> de waarde <code>null</code> geretourneerd. Als de opgegeven <code>value</code> een <code>number</code> is binnen het bereik van een 32-bits geheel getal zonder een fractioneel deel, wordt <code>value</code> geretourneerd. Als het cijfer een fractioneel deel heeft, wordt het afgerond volgens de opgegeven afrondingsmodus. De standaardafrondingsmodus is <code>RoundingMode.ToEven</code>. Als <code>value</code> van een ander type is, wordt deze eerst geconverteerd naar een <code>nummer</code> met behulp van <code>Number.FromText</code>. Raadpleeg <code>Number.Round</code> voor de beschikbare afrondingsmodi. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
+Hiermee wordt een 32-bits `number`\-waarde geretourneerd als geheel getal vanuit de opgegeven `value`. Als de opgegeven waarde `value` `null` is, wordt door `Int32.From` de waarde `null` geretourneerd. Als de opgegeven `value` een `number` is binnen het bereik van een 32-bits geheel getal zonder een fractioneel deel, wordt `value` geretourneerd. Als het cijfer een fractioneel deel heeft, wordt het afgerond volgens de opgegeven afrondingsmodus. De standaardafrondingsmodus is `RoundingMode.ToEven`. Als `value` van een ander type is, wordt deze eerst geconverteerd naar een `nummer` met behulp van `Number.FromText`. Raadpleeg `Number.Round` voor de beschikbare afrondingsmodi. Er kan ook een optionele `culture` worden opgegeven (bijvoorbeeld: nl-NL).
 
 
 ## Examples
 
-### Example #1 
-De 32-bits &lt;code&gt;number&lt;/code&gt;-waarde als geheel getal uit &lt;code&gt;&#34;4&#34;&lt;/code&gt; ophalen.
+### Example #1
+De 32-bits `number`\-waarde als geheel getal uit `"4"` ophalen.
 ```powerquery
 Int32.From("4")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-De 32-bits &lt;code&gt;number&lt;/code&gt;-waarde als geheel getal uit &lt;code&gt;&#34;4.5&#34;&lt;/code&gt; ophalen met &lt;code&gt;RoundingMode.AwayFromZero&lt;/code&gt;.
+### Example #2
+De 32-bits `number`\-waarde als geheel getal uit `"4.5"` ophalen met `RoundingMode.AwayFromZero`.
 ```powerquery
 Int32.From("4.5", null, RoundingMode.AwayFromZero)
 ```

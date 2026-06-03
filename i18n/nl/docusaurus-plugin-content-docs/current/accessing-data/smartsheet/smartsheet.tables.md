@@ -24,7 +24,7 @@ Hiermee wordt een geneste tabel met beschikbare bladen, rapporten, mappen en wer
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hiermee worden bladen, mappen, rapporten en werkruimten geretourneerd die beschikbaar zijn op het hoogste niveau van de Smartsheet-hiërarchie
 ```powerquery
 Smartsheet.Tables()

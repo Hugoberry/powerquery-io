@@ -19,12 +19,12 @@ Number.Sqrt(
 
 ## Remarks
 
-Restituisce la radice quadrata di <code>number</code>.    Se <code>number</code> è Null, <code>Number.Sqrt</code> restituisce Null. Se è un valore negativo, viene restituito <code>Number.NaN</code> (non un numero).
+Restituisce la radice quadrata di `number`. Se `number` è Null, `Number.Sqrt` restituisce Null. Se è un valore negativo, viene restituito `Number.NaN` (non un numero).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trovare la radice quadrata di 625.
 ```powerquery
 Number.Sqrt(625)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Trovare la radice quadrata di 85.
 ```powerquery
 Number.Sqrt(85)

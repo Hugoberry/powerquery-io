@@ -20,12 +20,15 @@ Number.Combinations(
 
 ## Remarks
 
-Returnerar antalet unika kombinationer från en lista med objekt, <code>setSize</code>, med angiven kombinationsstorlek, <code>combinationSize</code>.<ul>    <li><code>setSize</code>: Antalet objekt i listan.</li>    <li><code>combinationSize</code>: Antalet objekt i varje kombination.</li></ul>
+Returnerar antalet unika kombinationer från en lista med objekt, `setSize`, med angiven kombinationsstorlek, `combinationSize`.
+
+-   `setSize`: Antalet objekt i listan.
+-   `combinationSize`: Antalet objekt i varje kombination.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta antalet kombinationer från sammanlagt 5 objekt när varje kombination är en grupp med 3.
 ```powerquery
 Number.Combinations(5, 3)

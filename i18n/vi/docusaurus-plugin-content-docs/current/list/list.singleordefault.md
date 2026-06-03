@@ -20,13 +20,13 @@ List.SingleOrDefault(
 
 ## Remarks
 
-Nếu chỉ có một mục trong danh sách <code>list</code>, trả về mục đó.    Nếu danh sách trống, hàm sẽ trả về giá trị null từ khi <code>default</code> tùy chọn được chỉ định. Nếu có nhiều mục trong danh sách, hàm sẽ trả về một lỗi.
+Nếu chỉ có một mục trong danh sách `list`, trả về mục đó. Nếu danh sách trống, hàm sẽ trả về giá trị null từ khi `default` tùy chọn được chỉ định. Nếu có nhiều mục trong danh sách, hàm sẽ trả về một lỗi.
 
 
 ## Examples
 
-### Example #1 
-Tìm giá trị đơn trong danh sách \{1}.
+### Example #1
+Tìm giá trị đơn trong danh sách \{1\}.
 ```powerquery
 List.SingleOrDefault({1})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Tìm giá trị đơn trong danh sách \{}.
+### Example #2
+Tìm giá trị đơn trong danh sách \{\}.
 ```powerquery
 List.SingleOrDefault({})
 ```
@@ -49,8 +49,8 @@ null
 ```
 
 
-### Example #3 
-Tìm giá trị đơn trong danh sách \{}. Nếu trống, trả về -1.
+### Example #3
+Tìm giá trị đơn trong danh sách \{\}. Nếu trống, trả về -1.
 ```powerquery
 List.SingleOrDefault({}, -1)
 ```

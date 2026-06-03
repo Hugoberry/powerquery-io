@@ -21,12 +21,12 @@ Table.InsertRows(
 
 ## Remarks
 
-Restituisce una tabella con l'elenco di righe <code>rows</code>, inserite in <code>table</code> nel percorso specificato <code>offset</code>. Ogni colonna nella riga da inserire deve corrispondere ai tipi di colonna della tabella.
+Restituisce una tabella con l'elenco di righe `rows`, inserite in `table` nel percorso specificato `offset`. Ogni colonna nella riga da inserire deve corrispondere ai tipi di colonna della tabella.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Inserire la riga nella tabella in corrispondenza della posizione 1.
 ```powerquery
 Table.InsertRows(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Inserire due righe nella tabella in corrispondenza della posizione 1.
 ```powerquery
 Table.InsertRows(

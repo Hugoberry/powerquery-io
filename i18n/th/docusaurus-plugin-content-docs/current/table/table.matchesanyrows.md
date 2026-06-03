@@ -20,13 +20,13 @@ Table.MatchesAnyRows(
 
 ## Remarks
 
-ระบุว่าแถวใดๆ ใน <code>table</code> ตรงกับ <code>condition</code> ที่กำหนดหรือไม่ ส่งกลับ <code>true</code> ถ้าแถวใดๆ ตรงกับเงื่อนไข และ <code>false</code> ถ้าไม่ใช่
+ระบุว่าแถวใดๆ ใน `table` ตรงกับ `condition` ที่กำหนดหรือไม่ ส่งกลับ `true` ถ้าแถวใดๆ ตรงกับเงื่อนไข และ `false` ถ้าไม่ใช่
 
 
 ## Examples
 
-### Example #1 
-กำหนดว่าค่าแถวใดๆ ในคอลัมน์ [a] เท่ากับในตาราง &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8]})&lt;/code&gt; หรือไม่
+### Example #1
+กำหนดว่าค่าแถวใดๆ ในคอลัมน์ \[a\] เท่ากับในตาราง `({[a = 2, b = 4], [a = 6, b = 8]})` หรือไม่
 ```powerquery
 Table.MatchesAnyRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ false
 ```
 
 
-### Example #2 
-กำหนดว่าค่าแถวใดๆ เป็น [a = 1, b = 2] ในตาราง &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; หรือไม่
+### Example #2
+กำหนดว่าค่าแถวใดๆ เป็น \[a = 1, b = 2\] ในตาราง `({[a = 1, b = 2], [a = 3, b = 4]})` หรือไม่
 ```powerquery
 Table.MatchesAnyRows(
     Table.FromRecords({

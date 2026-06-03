@@ -21,13 +21,13 @@ Table.Min(
 
 ## Remarks
 
-Retourneert aan de hand van de <code>comparisonCriteria</code> de kleinste rij in de <code>table</code>. Als de tabel leeg is, wordt de optionele waarde <code>default</code> geretourneerd.
+Retourneert aan de hand van de `comparisonCriteria` de kleinste rij in de `table`. Als de tabel leeg is, wordt de optionele waarde `default` geretourneerd.
 
 
 ## Examples
 
-### Example #1 
-De rij met de kleinste waarde in kolom [a] in de tabel zoeken.
+### Example #1
+De rij met de kleinste waarde in kolom \[a\] in de tabel zoeken.
 ```powerquery
 Table.Min(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-De rij met de kleinste waarde in kolom [a] in de tabel zoeken. Als de rij leeg is, wordt -1 geretourneerd.
+### Example #2
+De rij met de kleinste waarde in kolom \[a\] in de tabel zoeken. Als de rij leeg is, wordt -1 geretourneerd.
 ```powerquery
 Table.Min(#table({"a"}, {}), "a", -1)
 ```

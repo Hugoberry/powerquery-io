@@ -20,7 +20,7 @@ Number.BitwiseShiftRight(
 
 ## Remarks
 
-傳回對 <code>number1</code> 執行位元右移指定位元數 <code>number2</code> 的結果。
+傳回對 `number1` 執行位元右移指定位元數 `number2` 的結果。
 
 
 

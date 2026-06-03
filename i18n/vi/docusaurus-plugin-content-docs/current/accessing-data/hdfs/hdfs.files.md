@@ -19,7 +19,7 @@ Hdfs.Files(
 
 ## Remarks
 
-Trả về một bảng chứa một hàng cho mỗi thư mục và tệp tìm được tại URL mục <code>url</code>và các thư mục con từ hệ thống tệp Hadoop. Mỗi hàng chứa thuộc tính của tệp và một liên kết tới nội dung của tệp đó.
+Trả về một bảng chứa một hàng cho mỗi thư mục và tệp tìm được tại URL mục `url`và các thư mục con từ hệ thống tệp Hadoop. Mỗi hàng chứa thuộc tính của tệp và một liên kết tới nội dung của tệp đó.
 
 
 

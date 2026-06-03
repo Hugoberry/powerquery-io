@@ -20,7 +20,7 @@ Tables.GetRelationships(
 
 ## Remarks
 
-Nhận mối quan hệ giữa một tập hợp bảng. Tập hợp <code>tables</code> được giả định để có một cấu trúc giống với cấu trúc của một bảng điều hướng. Cột do <code>dataColumn</code> xác định có chứa các bảng dữ liệu thực.
+Nhận mối quan hệ giữa một tập hợp bảng. Tập hợp `tables` được giả định để có một cấu trúc giống với cấu trúc của một bảng điều hướng. Cột do `dataColumn` xác định có chứa các bảng dữ liệu thực.
 
 
 

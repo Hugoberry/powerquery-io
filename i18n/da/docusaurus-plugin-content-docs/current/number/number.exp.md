@@ -19,12 +19,14 @@ Number.Exp(
 
 ## Remarks
 
-Returnerer resultatet af at opløfte e til potensen <code>number</code> (eksponentiel funktion).      <ul>        <li><code>number</code>: En værdi af typen <code>number</code>, som den eksponentielle funktion skal beregnes for. Hvis <code>number</code> er null, returnerer <code>Number.Exp</code> null. </li>      </ul>
+Returnerer resultatet af at opløfte e til potensen `number` (eksponentiel funktion).
+
+-   `number`: En værdi af typen `number`, som den eksponentielle funktion skal beregnes for. Hvis `number` er null, returnerer `Number.Exp` null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Opløft e til potensen 3.
 ```powerquery
 Number.Exp(3)

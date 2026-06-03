@@ -21,7 +21,7 @@ Value.Add(
 
 ## Remarks
 
-<code>value1</code> ve <code>value2</code> değerinin toplamını döndürür. İsteğe bağlı bir <code>precision</code> parametresi belirtilebilir, varsayılan olarak <code>Precision.Double</code> kullanılır.
+`value1` ve `value2` değerinin toplamını döndürür. İsteğe bağlı bir `precision` parametresi belirtilebilir, varsayılan olarak `Precision.Double` kullanılır.
 
 
 

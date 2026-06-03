@@ -21,13 +21,18 @@ DateTimeZone.ToText(
 
 ## Remarks
 
-Gibt eine Textdarstellung von <code>dateTimeZone</code> zurück. Ein optionaler <code>record</code>-Parameter, <code>options</code>, kann angegeben werden, um zusätzliche Eigenschaften anzugeben. <code>culture</code> wird nur für Legacyworkflows verwendet. <code>record</code> kann die folgenden Felder enthalten:<ul>   <li><code>Format</code>: Ein <code>text</code>-Wert, der das zu verwendende Format angibt. Weitere Details finden Sie unter https://go.microsoft.com/fwlink/?linkid=2180104 und https://go.microsoft.com/fwlink/?linkid=2180105. Wenn Sie dieses Feld auslassen oder <code>null</code> angeben, wird das Datum mit dem durch <code>Culture</code> definierten Standard formatiert.</li>   <li><code>Culture</code>: Wenn <code>Format</code> nicht null ist, bestimmt <code>Culture</code> manche Formatbezeichner. Zum Beispiel, ist in <code>"en-US"</code> <code>"MMM"</code>  <code>"Jan", "Feb", "Mar", ...</code>, whärend in <code>"ru-RU"</code> <code>"MMM"</code> <code>"янв", "фев", "мар", ...</code> ist. Wenn <code>Format</code> <code>null</code> ist, bestimmt <code>Culture</code> das zu verwendende Standardformat. Wenn <code>Culture</code> <code>null</code> ist oder ausgelassen wird, wird <code>Culture.Current</code> verwendet.</li></ul>Zur Unterstützung von Legacyworkflows können <code>options</code> und <code>culture</code> auch Textwerte sein. Dies führt zum gleichen Verhalten wie <code>options</code><code> = [Format = <code>options</code>, Culture = <code>culture</code>]</code>.
+Gibt eine Textdarstellung von `dateTimeZone` zurück. Ein optionaler `record`\-Parameter, `options`, kann angegeben werden, um zusätzliche Eigenschaften anzugeben. `culture` wird nur für Legacyworkflows verwendet. `record` kann die folgenden Felder enthalten:
+
+-   `Format`: Ein `text`\-Wert, der das zu verwendende Format angibt. Weitere Details finden Sie unter https://go.microsoft.com/fwlink/?linkid=2180104 und https://go.microsoft.com/fwlink/?linkid=2180105. Wenn Sie dieses Feld auslassen oder `null` angeben, wird das Datum mit dem durch `Culture` definierten Standard formatiert.
+-   `Culture`: Wenn `Format` nicht null ist, bestimmt `Culture` manche Formatbezeichner. Zum Beispiel ist `„MMM“` in `„en-US“` `„Jan“, „Feb“, „Mar“, …`, während `„MMM“` in `„ru-RU“` `„янв“, „фев“, „мар“, …` ist. Wenn `Format` `null` ist, regelt `Culture` das zu verwendende Standardformat. Wenn `Culture` `null` ist oder ausgelassen wird, wird `Culture.Current` verwendet.
+
+Zur Unterstützung von Legacyworkflows können `options` und `culture` auch Textwerte sein. Dies hat dasselbe Verhalten wie `options = [Format = options, Culture = culture]`.
 
 
 ## Examples
 
-### Example #1 
-Konvertieren Sie &lt;code&gt;#datetimezone(2010, 12, 31, 01, 30, 25, 2, 0)&lt;/code&gt; in einen &lt;code&gt;text&lt;/code&gt;-Wert. &lt;i&gt;Das ausgegebene Ergebnis variiert in Abhängigkeit der aktuell ausgewählten Kultur.&lt;/i&gt;
+### Example #1
+Konvertieren Sie `#datetimezone(2010, 12, 31, 01, 30, 25, 2, 0)` in einen `text`\-Wert. *Das ausgegebene Ergebnis variiert in Abhängigkeit der aktuell ausgewählten Kultur.*
 ```powerquery
 DateTimeZone.ToText(#datetimezone(2010, 12, 31, 01, 30, 25, 2, 0))
 ```
@@ -38,7 +43,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Führen Sie eine Konvertierung unter Verwendung eines benutzerdefinierten Formats und der Kultur „Deutsch“ durch.
 ```powerquery
 DateTimeZone.ToText(#datetimezone(2010, 12, 30, 2, 4, 50.36973, -8,0), [Format="dd MMM yyyy HH:mm:ss.ffffff zzz", Culture="de-DE"])
@@ -50,7 +55,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Führen Sie eine Konvertierung gemäß dem ISO 8601-Muster durch.
 ```powerquery
 DateTimeZone.ToText(#datetimezone(2000, 2, 8, 3, 45, 12, 2, 0),[Format="O", Culture="en-US"])

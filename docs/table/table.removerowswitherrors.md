@@ -25,7 +25,7 @@ Returns a table with the rows removed from the input table that contain an error
 
 ## Examples
 
-### Example #1 
+### Example #1
 Remove error value from first row.
 ```powerquery
 Table.RemoveRowsWithErrors(

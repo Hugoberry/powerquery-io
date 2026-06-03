@@ -19,12 +19,12 @@ Table.ToRows(
 
 ## Remarks
 
-Skapar en lista med kapslade listor från tabellen, <code>table</code>. Varje listpost är en inre lista som innehåller radvärdena.
+Skapar en lista med kapslade listor från tabellen, `table`. Varje listpost är en inre lista som innehåller radvärdena.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Skapa en lista med radvärdena från tabellen.
 ```powerquery
 Table.ToRows(

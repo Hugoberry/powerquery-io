@@ -20,12 +20,15 @@ Number.Power(
 
 ## Remarks
 
-<code>number</code> を <code>power</code> でべき乗した結果を返します。    <code>number</code> または <code>power</code> が null の場合、<code>Number.Power</code> は null を返します。      <ul>        <li><code>number</code>: 基数。</li>        <li><code>power</code>: 指数。</li>      </ul>
+`number` を `power` でべき乗した結果を返します。 `number` または `power` が null の場合、`Number.Power` は null を返します。
+
+-   `number`: 基数。
+-   `power`: 指数。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 5 を 3 でべき乗した値 (5 の 3 乗) を求めます。
 ```powerquery
 Number.Power(5, 3)

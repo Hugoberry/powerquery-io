@@ -20,7 +20,7 @@ Number.BitwiseShiftRight(
 
 ## Remarks
 
-Retourneert het resultaat van een bitwise-verschuiving naar rechts op <code>number1</code> conform het aantal opgegeven bits <code>number2</code>.
+Retourneert het resultaat van een bitwise-verschuiving naar rechts op `number1` conform het aantal opgegeven bits `number2`.
 
 
 

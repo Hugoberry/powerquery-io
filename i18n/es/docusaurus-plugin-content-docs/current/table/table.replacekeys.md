@@ -25,7 +25,7 @@ Reemplaza las claves de la tabla especificada.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Reemplaza las claves existentes de una tabla.
 ```powerquery
 let

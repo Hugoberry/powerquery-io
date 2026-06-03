@@ -5,7 +5,7 @@ title: Table.FromRows
 # Table.FromRows
 
 
-Hiermee maakt u een tabel op basis van een lijst met rijwaarden en optionele kolommen
+Hiermee maakt u een tabel op basis van een lijst met rijwaarden en optionele kolommen.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Table.FromRows(
 
 ## Remarks
 
-Hiermee maakt u een tabel op basis van de lijst <code>rows</code>, waarbij elk element van de lijst een interne lijst is die de kolomwaarden voor één rij bevat. Voor <code>columns</code> kunt u een optionele lijst met kolomnamen, een tabeltype of een aantal kolommen opgeven.
+Hiermee maakt u een tabel op basis van de lijst `rows`, waarbij elk element van de lijst een interne lijst is die de kolomwaarden voor één rij bevat. Voor `columns` kunt u een optionele lijst met kolomnamen, een tabeltype of een aantal kolommen opgeven.
 
 
 ## Examples
 
-### Example #1 
-Maakt een tabel met kolom [CustomerID] met daarin de waarden \{1, 2}, kolom [Name] met daarin de waarden \{&#34;Bob&#34;, &#34;Jim&#34;} en kolom [Phone] met de waarden \{&#34;123-4567&#34;, &#34;987-6543&#34;}.
+### Example #1
+Maakt een tabel met kolom \[CustomerID\] met daarin de waarden \{1, 2\}, kolom \[Name\] met daarin de waarden \{"Bob", "Jim"\} en kolom \[Phone\] met de waarden \{"123-4567", "987-6543"\}.
 ```powerquery
 Table.FromRows(
     {
@@ -46,8 +46,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Retourneert een tabel met kolom [CustomerID] met daarin de waarden \{1, 2}, kolom [Name] met daarin de waarden \{&#34;Bob&#34;, &#34;Jim&#34;} en kolom [Phone] met de waarden \{&#34;123-4567&#34;, &#34;987-6543&#34;}, waarbij [CustomerID] een getaltype is en [Name] en [Phone] teksttypen.
+### Example #2
+Retourneert een tabel met kolom \[CustomerID\] met daarin de waarden \{1, 2\}, kolom \[Name\] met daarin de waarden \{"Bob", "Jim"\} en kolom \[Phone\] met de waarden \{"123-4567", "987-6543"\}, waarbij \[CustomerID\] een getaltype is en \[Name\] en \[Phone\] teksttypen.
 ```powerquery
 Table.FromRows(
     {

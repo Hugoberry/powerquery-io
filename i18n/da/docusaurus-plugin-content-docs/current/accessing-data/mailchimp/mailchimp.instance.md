@@ -24,8 +24,8 @@ Foretager et kald til MailChimp-API'en og returnerer et ubehandlet svar.
 
 ## Examples
 
-### Example #1 
-Returnerer rå data fra slutpunktet for MailChimp-API&#39;ens rapporter/klikdetaljer for en bestemt kampagne.
+### Example #1
+Returnerer rå data fra slutpunktet for MailChimp-API'ens rapporter/klikdetaljer for en bestemt kampagne.
 ```powerquery
 MailChimp.Instance("rapporter/{campaign_id}/klikdetaljer")
 ```

@@ -21,12 +21,16 @@ List.TransformMany(
 
 ## Remarks
 
-Öğeleri giriş listesinden yansıtılan bir liste döndürür.<br />    <br />    <code>collectionTransform</code> işlevi her öğeyi bir ara listeye dönüştürür ve <code>resultTransform</code> işlevi nihai sonucu oluşturmak amacıyla orijinal öğenin yanı sıra ara listeden bir öğe alır.<br />    <br />    <code>collectionTransform</code> işlevi, <code>(x as any) as list => ...</code> imzasını içerir, burada <code>x</code>, <code>list</code> konumunda bulunan bir öğedir.    <code>resultTransform</code> işlevi sonucun şeklini yansıtır ve <code>(x as any, y as any) as any => ...</code> imzasını içerir, burada <code>x</code>, <code>list</code> konumunda bulunan bir öğedir ve <code>y</code>, <code>x</code> öğesi <code>collectionTransform</code> konumuna aktarılarak oluşturulan listeden alınan bir öğedir.
+Öğeleri giriş listesinden yansıtılan bir liste döndürür.  
+  
+`collectionTransform` işlevi her öğeyi bir ara listeye dönüştürür ve `resultTransform` işlevi nihai sonucu oluşturmak amacıyla orijinal öğenin yanı sıra ara listeden bir öğe alır.  
+  
+`collectionTransform` işlevi, `(x as any) as list => ...` imzasını içerir, burada `x`, `list` konumunda bulunan bir öğedir. `resultTransform` işlevi sonucun şeklini yansıtır ve `(x as any, y as any) as any => ...` imzasını içerir, burada `x`, `list` konumunda bulunan bir öğedir ve `y`, `x` öğesi `collectionTransform` konumuna aktarılarak oluşturulan listeden alınan bir öğedir.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kişiler ve sahip oldukları evcil hayvanlar listesini düzleştirin.
 ```powerquery
 List.TransformMany(

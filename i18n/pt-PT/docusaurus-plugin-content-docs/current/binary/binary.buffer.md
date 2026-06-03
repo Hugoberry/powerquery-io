@@ -24,7 +24,7 @@ Coloca o valor binário na memória intermédia. O resultado desta chamada é um
 
 ## Examples
 
-### Example #1 
+### Example #1
 Criar uma versão estável do valor binário.
 ```powerquery
 Binary.Buffer(Binary.FromList({0..10}))

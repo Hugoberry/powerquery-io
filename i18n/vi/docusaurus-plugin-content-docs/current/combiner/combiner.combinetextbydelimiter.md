@@ -25,7 +25,7 @@ Trả về một hàm kết hợp một danh sách giá trị văn bản thành 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Liệt kê các giá trị văn bản và dùng dấu chấm phẩy để phân tách.
 ```powerquery
 Combiner.CombineTextByDelimiter(";")({"a", "b", "c"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Kết hợp văn bản của hai cột bằng dấu tách dấu phẩy và trích dẫn kiểu CSV.
 ```powerquery
 let

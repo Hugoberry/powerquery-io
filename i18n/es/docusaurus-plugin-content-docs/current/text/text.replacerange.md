@@ -22,13 +22,13 @@ Text.ReplaceRange(
 
 ## Remarks
 
-Devuelve el resultado de quitar varios caracteres, <code>count</code>, del valor de texto <code>text</code> a partir de la posición <code>offset</code> y después de insertar el valor de texto <code>newText</code> en la misma posición en <code>text</code>.
+Devuelve el resultado de quitar varios caracteres, `count`, del valor de texto `text` a partir de la posición `offset` y después de insertar el valor de texto `newText` en la misma posición en `text`.
 
 
 ## Examples
 
-### Example #1 
-Reemplazar un solo carácter en la posición 2 en el valor de texto &#34;ABGF&#34; con el nuevo valor de texto &#34;CDE&#34;.
+### Example #1
+Reemplazar un solo carácter en la posición 2 en el valor de texto "ABGF" con el nuevo valor de texto "CDE".
 ```powerquery
 Text.ReplaceRange("ABGF", 2, 1, "CDE")
 ```

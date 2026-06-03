@@ -27,8 +27,8 @@ Ta funkcja umożliwia pobieranie danych z określonego punktu końcowego „Metr
 
 ## Examples
 
-### Example #1 
-Pobiera metryki skuteczności count_sent i count_rejected dla wszystkich elementów campaign_ids zagregowanych w ciągu ostatnich trzech dni.
+### Example #1
+Pobiera metryki skuteczności count\_sent i count\_rejected dla wszystkich elementów campaign\_ids zagregowanych w ciągu ostatnich trzech dni.
 ```powerquery
 Source = SparkPost.GetTable(3, "count_sent,count_rejected", "campaign_id", "metrics/deliverability/campaign")
 ```

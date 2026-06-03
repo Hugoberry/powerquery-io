@@ -19,12 +19,12 @@ Record.ToList(
 
 ## Remarks
 
-Zwraca listę wartości zawierającą wartości pól z rekordu wejściowego <code>record</code>.
+Zwraca listę wartości zawierającą wartości pól z rekordu wejściowego `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Wyodrębnij wartości pól z rekordu.
 ```powerquery
 Record.ToList([A = 1, B = 2, C = 3])

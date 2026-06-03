@@ -19,7 +19,7 @@ Value.Alternates(
 
 ## Remarks
 
-Uttrycker alternativa frågeplaner inom ett frågeplansuttryck som uppnås via Value.Expression(Value.Optimize(...)). Inte avsett för annan användning.
+Uttrycker alternativa frågeplaner inom ett frågeplansuttryck som uppnås via `Value.Expression(Value.Optimize(...))`. Inte avsett för annan användning.
 
 
 

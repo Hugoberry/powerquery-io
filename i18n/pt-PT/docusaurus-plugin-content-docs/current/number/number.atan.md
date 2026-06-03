@@ -19,7 +19,7 @@ Number.Atan(
 
 ## Remarks
 
-Devolve o arco de tangente de <code>number</code>.
+Devolve o arco de tangente de `number`.
 
 
 

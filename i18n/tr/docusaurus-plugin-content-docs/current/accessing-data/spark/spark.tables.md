@@ -21,12 +21,12 @@ Spark.Tables(
 
 ## Remarks
 
-<code>Protokol</code> kullanarak, tabloları Spark küme <code>ana bilgisayarında</code> listeleyen bir tablo döndürür.  Geçerli protokoller şunlardır:SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
+`Protokol` kullanarak, tabloları Spark küme `ana bilgisayarında` listeleyen bir tablo döndürür. Geçerli protokoller şunlardır: SparkProtocol.Standard, SparkProtocol.Azure, SparkProtocol.HTTP
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tabloları bir Azure Spark örneğinde listeleyin.
 ```powerquery
 Spark.Tables("contoso.azurehdinsight.net", SparkProtocol.Azure)

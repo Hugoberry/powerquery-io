@@ -21,13 +21,13 @@ Text.Replace(
 
 ## Remarks
 
-Returnerer resultatet af at erstatte alle forekomster af tekstværdien <code>old</code> i tekstværdien <code>text</code> med værdien <code>new</code>. Denne funktion skelner mellem store og små bogstaver.
+Returnerer resultatet af at erstatte alle forekomster af tekstværdien `old` i tekstværdien `text` med værdien `new`. Denne funktion skelner mellem store og små bogstaver.
 
 
 ## Examples
 
-### Example #1 
-Erstat alle forekomster af &#34;the&#34; i en sætning med &#34;a&#34;.
+### Example #1
+Erstat alle forekomster af "the" i en sætning med "a".
 ```powerquery
 Text.Replace("the quick brown fox jumps over the lazy dog", "the", "a")
 ```

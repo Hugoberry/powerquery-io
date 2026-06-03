@@ -20,12 +20,12 @@ Table.Combine(
 
 ## Remarks
 
-Returnerer en tabel, som er resultatet af an flettet liste med tabeller, <code>tables</code>. Den nye tabel har en rækkestruktur, der er defineret ved hjælp af <code>columns</code> eller af en foreningsmængde af inputtyperne, hvis <code>columns</code> ikke er angivet.
+Returnerer en tabel, som er resultatet af an flettet liste med tabeller, `tables`. Den nye tabel har en rækkestruktur, der er defineret ved hjælp af `columns` eller af en foreningsmængde af inputtyperne, hvis `columns` ikke er angivet.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Flet de tre tabeller sammen.
 ```powerquery
 Table.Combine({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Flet tre tabeller med forskellige strukturer.
 ```powerquery
 Table.Combine({
@@ -65,7 +65,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Flet to tabeller og projektet til den angivne type.
 ```powerquery
 Table.Combine(

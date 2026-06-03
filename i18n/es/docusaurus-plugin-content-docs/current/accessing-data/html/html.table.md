@@ -21,27 +21,29 @@ Html.Table(
 
 ## Remarks
 
-Devuelve una tabla con los resultados de la ejecución de los selectores de CSS especificados en el <code>html</code> que se indicó. Puede proporcionarse un parámetro de registro opcional, <code>options</code>, para especificar propiedades adicionales. El registro puede contener los siguientes campos:    <ul><li><code>RowSelector</code></li></ul>    
+Devuelve una tabla con los resultados de la ejecución de los selectores de CSS especificados en el `html` que se indicó. Puede proporcionarse un parámetro de registro opcional, `options`, para especificar propiedades adicionales. El registro puede contener los siguientes campos:
+
+-   `RowSelector`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devuelve una tabla de un valor de texto HTML de ejemplo.
 ```powerquery
-Html.Table("<div class=""name"">Jo</div><span>Administrador</span>", {{"Name", ".name"}, {"Title", "span"}}, [RowSelector=".name"])
+Html.Table("<div class=""name"">Jo</div><span>Manager</span>", {{"Name", ".name"}, {"Title", "span"}}, [RowSelector=".name"])
 ```
 
 Result: 
 ```powerquery
-#tabla({"Name", "Title"}, {{"Jo", "Manager"}})
+#table({"Name", "Title"}, {{"Jo", "Manager"}})
 ```
 
 
-### Example #2 
+### Example #2
 Permite extraer todos los valores HREF de un valor de texto HTML de ejemplo.
 ```powerquery
-Html.Table("<a href=""/test.html"">Prueba</a>", {{"Link", "a", each [Attributes][href]}})
+Html.Table("<a href=""/test.html"">Test</a>", {{"Link", "a", each [Attributes][href]}})
 ```
 
 Result: 
@@ -53,4 +55,4 @@ Result:
 
 
 ## Category
-Acceso a los datos
+Accessing data

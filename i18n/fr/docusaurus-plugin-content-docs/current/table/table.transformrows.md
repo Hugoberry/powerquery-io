@@ -5,7 +5,7 @@ title: Table.TransformRows
 # Table.TransformRows
 
 
-Transforme les lignes de la table à l&#39;aide de la fonction de transformation spécifiée.
+Transforme les lignes de la table à l'aide de la fonction de transformation spécifiée.
 
 
 ## Syntax
@@ -20,12 +20,12 @@ Table.TransformRows(
 
 ## Remarks
 
-Crée une liste <code></code> en appliquant l’opération de <code>transform</code> à chaque ligne de <code>table</code>.
+Crée une liste en appliquant l’opération de `transform` à chaque ligne de `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Transformer les lignes d’un tableau en une liste de nombres.
 ```powerquery
 Table.TransformRows(
@@ -46,7 +46,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Transformez les lignes d’un tableau numérique en enregistrements textuels.
 ```powerquery
 Table.TransformRows(

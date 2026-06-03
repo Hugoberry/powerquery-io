@@ -20,7 +20,7 @@ HdInsight.Files(
 
 ## Remarks
 
-Azure depolama kasasından Azure depolama kasasından, <code>account</code>, kapsayıcı URL'sinde bulunan her bir blob için bir satır içeren gezinme tablosu döndürür. Her satır, dosyanın özelliklerini ve içeriğinin bir bağlantısını içerir.
+Azure depolama kasasından Azure depolama kasasından, `account`, kapsayıcı URL'sinde bulunan her bir blob için bir satır içeren gezinme tablosu döndürür. Her satır, dosyanın özelliklerini ve içeriğinin bir bağlantısını içerir.
 
 
 

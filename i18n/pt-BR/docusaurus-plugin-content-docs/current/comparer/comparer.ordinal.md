@@ -20,13 +20,15 @@ Comparer.Ordinal(
 
 ## Remarks
 
-Retorna uma função de comparador que usa regras Ordinais para comparar os valores <code>x</code> e <code>y</code> fornecidos.<br />      <br />      Uma função de comparador aceita dois argumentos e retorna -1, 0 ou 1 se o primeiro valor for menor, igual ou maior que o segundo.    
+Retorna uma função de comparador que usa regras Ordinais para comparar os valores `x` e `y` fornecidos.  
+  
+Uma função de comparador aceita dois argumentos e retorna -1, 0 ou 1 se o primeiro valor for menor, igual ou maior que o segundo.
 
 
 ## Examples
 
-### Example #1 
-Usando regras do Ordinal, compare se “encyclopædia” e “encyclopaedia” são equivalentes. Observe que são equivalentes usando &lt;code&gt;Comparer.FromCulture(&#34;en-US&#34;)&lt;/code&gt;. 
+### Example #1
+Usando regras do Ordinal, compare se “encyclopædia” e “encyclopaedia” são equivalentes. Observe que são equivalentes usando `Comparer.FromCulture("en-US")`.
 ```powerquery
 Comparer.Equals(Comparer.Ordinal, "encyclopædia", "encyclopaedia")
 ```

@@ -19,12 +19,12 @@ Uri.BuildQueryString(
 
 ## Remarks
 
-<code>query</code> kaydını bir URI sorgu dizesinde derleyin ve gerekirse karakterleri atlayın.
+`query` kaydını bir URI sorgu dizesinde derleyin ve gerekirse karakterleri atlayın.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Özel karakterler içeren bir sorgu dizesini kodlayın.
 ```powerquery
 Uri.BuildQueryString([a = "1", b = "+$"])

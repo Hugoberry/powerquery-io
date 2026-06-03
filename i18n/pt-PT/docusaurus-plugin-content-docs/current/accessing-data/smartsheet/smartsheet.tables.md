@@ -24,7 +24,7 @@ Devolve uma tabela aninhada de folhas, relatórios, pastas e áreas de trabalho 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Devolve uma tabela de folhas, relatórios, pastas e áreas de trabalho disponíveis no nível mais elevado da hierarquia do Smartsheet
 ```powerquery
 Smartsheet.Tables()

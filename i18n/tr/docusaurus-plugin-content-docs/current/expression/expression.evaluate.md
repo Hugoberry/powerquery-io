@@ -20,12 +20,12 @@ Expression.Evaluate(
 
 ## Remarks
 
-Bir M ifadesinin <code>document</code> değerlendirilme sonucunu, <code>environment</code> tarafından tanımlanan mevcut tanımlayıcılarla birlikte döndürür.
+Bir M ifadesinin `document` değerlendirilme sonucunu, `environment` tarafından tanımlanan mevcut tanımlayıcılarla birlikte döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Basit bir toplamı değerlendirin.
 ```powerquery
 Expression.Evaluate("1 + 1")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Daha karmaşık bir toplamı değerlendirin.
 ```powerquery
 Expression.Evaluate("List.Sum({1, 2, 3})", [List.Sum = List.Sum])
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Bir metin değerinin bir tanımlayıcı ile birleştirilmesini değerlendirin.
 ```powerquery
 Expression.Evaluate(Expression.Constant("""abc") & " & " & Expression.Identifier("x"), [x = "def"""])

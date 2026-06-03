@@ -21,13 +21,13 @@ List.RemoveMatchingItems(
 
 ## Remarks
 
-Quita todas las coincidencias de los valores proporcionados en <code>list2</code> de la lista <code>list1</code>. Si no existen los valores de <code>list2</code> en <code>list1</code>, se devuelve la lista original.    Se puede especificar un valor opcional de criterios de ecuación, <code>equationCriteria</code>, para controlar la igualdad de las pruebas. 
+Quita todas las coincidencias de los valores proporcionados en `list2` de la lista `list1`. Si no existen los valores de `list2` en `list1`, se devuelve la lista original. Se puede especificar un valor opcional de criterios de ecuación, `equationCriteria`, para controlar la igualdad de las pruebas.
 
 
 ## Examples
 
-### Example #1 
-Crear una lista a partir de \{1, 2, 3, 4, 5, 5} sin \{1, 5}.
+### Example #1
+Crear una lista a partir de \{1, 2, 3, 4, 5, 5\} sin \{1, 5\}.
 ```powerquery
 List.RemoveMatchingItems({1, 2, 3, 4, 5, 5}, {1, 5})
 ```

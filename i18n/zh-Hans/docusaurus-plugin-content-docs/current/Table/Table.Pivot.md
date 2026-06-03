@@ -28,8 +28,8 @@ Table.Pivot(
 
 ## Examples
 
-### Example #1 
-选取表 &lt;code&gt;(\{ [ key = &#34;x&#34;, attribute = &#34;a&#34;, value = 1 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 3 ], [ key = &#34;y&#34;, attribute = &#34;a&#34;, value = 2 ], [ key = &#34;y&#34;, attribute = &#34;b&#34;, value = 4 ] })&lt;/code&gt; 的属性列中的值 &#34;a&#34;、&#34;b&#34; 和 &#34;c&#34;，并将它们透视为其自己的列。
+### Example #1
+选取表 `({ [ key = "x", attribute = "a", value = 1 ], [ key = "x", attribute = "c", value = 3 ], [ key = "y", attribute = "a", value = 2 ], [ key = "y", attribute = "b", value = 4 ] })` 的属性列中的值 "a"、"b" 和 "c"，并将它们透视为其自己的列。
 ```powerquery
 Table.Pivot(
     Table.FromRecords({
@@ -53,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-选取表 &lt;code&gt;(\{ [ key = &#34;x&#34;, attribute = &#34;a&#34;, value = 1 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 3 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 5 ], [ key = &#34;y&#34;, attribute = &#34;a&#34;, value = 2 ], [ key = &#34;y&#34;, attribute = &#34;b&#34;, value = 4 ] })&lt;/code&gt; 的属性列中的值 &#34;a&#34;、&#34;b&#34; 和 &#34;c&#34;，并将它们透视为其自己的列。 键 &#34;x&#34; 的属性 &#34;c&#34; 具有多个与其关联的值，因此使用函数 List.Max 来解决冲突。
+### Example #2
+选取表 `({ [ key = "x", attribute = "a", value = 1 ], [ key = "x", attribute = "c", value = 3 ], [ key = "x", attribute = "c", value = 5 ], [ key = "y", attribute = "a", value = 2 ], [ key = "y", attribute = "b", value = 4 ] })` 的属性列中的值 "a"、"b" 和 "c"，并将它们透视为其自己的列。 键 "x" 的属性 "c" 具有多个与其关联的值，因此使用函数 List.Max 来解决冲突。
 ```powerquery
 Table.Pivot(
     Table.FromRecords({

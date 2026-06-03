@@ -19,12 +19,12 @@ Uri.BuildQueryString(
 
 ## Remarks
 
-Assemblez l'enregistrement <code>query</code> dans une chaîne de requête URI, en utilisant des caractères d'échappement si besoin.
+Assemblez l'enregistrement `query` dans une chaîne de requête URI, en utilisant des caractères d'échappement si besoin.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Encodez une chaîne de requête qui contient des caractères spéciaux.
 ```powerquery
 Uri.BuildQueryString([a = "1", b = "+$"])

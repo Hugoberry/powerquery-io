@@ -19,12 +19,12 @@ Duration.TotalMinutes(
 
 ## Remarks
 
-<code>duration</code> değerine yayılan toplam dakikayı döndürür.
+`duration` değerine yayılan toplam dakikayı döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bir süre değerine yayılan toplam dakikayı bulun.
 ```powerquery
 Duration.TotalMinutes(#duration(5, 4, 3, 2))

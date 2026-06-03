@@ -19,13 +19,13 @@ Type.ListItem(
 
 ## Remarks
 
-Returns an item type from a list <code>type</code>.
+Returns an item type from a list `type`.
 
 
 ## Examples
 
-### Example #1 
-Find item type from the list &lt;code&gt;\{number}&lt;/code&gt;.
+### Example #1
+Find item type from the list `{number}`.
 ```powerquery
 Type.ListItem(type {number})
 ```

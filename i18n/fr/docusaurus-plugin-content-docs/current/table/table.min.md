@@ -5,7 +5,7 @@ title: Table.Min
 # Table.Min
 
 
-Retourne la plus petite ligne ou une valeur par défaut à l&#39;aide des critères fournis.
+Retourne la plus petite ligne ou une valeur par défaut à l'aide des critères fournis.
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Table.Min(
 
 ## Remarks
 
-Retourne la plus petite ligne dans <code>table</code> en fonction de <code>comparisonCriteria</code>. Si la table est vide, la valeur <code>default</code> facultative est retournée.
+Retourne la plus petite ligne dans `table` en fonction de `comparisonCriteria`. Si la table est vide, la valeur `default` facultative est retournée.
 
 
 ## Examples
 
-### Example #1 
-Recherche dans la table la ligne avec la plus petite valeur dans la colonne [a].
+### Example #1
+Recherche dans la table la ligne avec la plus petite valeur dans la colonne \[a\].
 ```powerquery
 Table.Min(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Recherche dans la table la ligne avec la plus petite valeur dans la colonne [a]. Retourne -1 si la table est vide.
+### Example #2
+Recherche dans la table la ligne avec la plus petite valeur dans la colonne \[a\]. Retourne -1 si la table est vide.
 ```powerquery
 Table.Min(#table({"a"}, {}), "a", -1)
 ```

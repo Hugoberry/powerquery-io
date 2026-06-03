@@ -20,13 +20,13 @@ Table.ExpandListColumn(
 
 ## Remarks
 
-แยกรายการออกเป็นหนึ่งแถวสำหรับแต่ละค่า โดยกำหนดให้มี <code>table</code> ซึ่ง <code>column</code> เป็นรายการค่า ค่าในคอลัมน์อื่นจะถูกทำซ้ำในแถวใหม่แต่ละแถวที่สร้าง
+กําหนด `table` ที่ `column` ประกอบด้วยรายการของค่า แยกรายการเป็นแถวสําหรับแต่ละค่า ค่าในคอลัมน์อื่นจะถูกทําซ้ําในแต่ละแถวใหม่ที่สร้างขึ้น ฟังก์ชันนี้ยังสามารถขยายตารางที่ซ้อนกันโดยถือว่าเป็นรายการของระเบียน
 
 
 ## Examples
 
-### Example #1 
-แยกคอลัมน์รายการ [Name] ในตาราง
+### Example #1
+แยกคอลัมน์รายการ \[Name\]
 ```powerquery
 Table.ExpandListColumn(
     Table.FromRecords({[Name = {"Bob", "Jim", "Paul"}, Discount = .15]}),
@@ -40,6 +40,29 @@ Table.FromRecords({
     [Name = "Bob", Discount = 0.15],
     [Name = "Jim", Discount = 0.15],
     [Name = "Paul", Discount = 0.15]
+})
+```
+
+
+### Example #2
+แยกคอลัมน์ตารางที่ซ้อนกัน \[คอมโพเนนต์\]
+```powerquery
+Table.ExpandListColumn(
+    #table(
+        {"Part", "Components"},
+        {
+            {"Tool", #table({"Name", "Quantity"}, {{"Thingamajig", 2}, {"Widget", 3}})}
+        }
+    ),
+    "Components"
+)
+```
+
+Result: 
+```powerquery
+Table.FromRecords({
+    [Part = "Tool", Components = [Name = "Thingamajig", Quantity = 2]],
+    [Part = "Tool", Components = [Name = "Widget", Quantity = 3]]
 })
 ```
 

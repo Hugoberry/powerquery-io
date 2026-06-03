@@ -20,12 +20,12 @@ Table.Split(
 
 ## Remarks
 
-<code>table</code> öğesini; listenin ilk öğesinin kaynak tablodaki ilk <code>pageSize</code> satırı barındıran bir tablo olduğu, sonraki öğenin ise    kaynak listeden sonraki <code>pageSize</code> satırı barındıran bir tablo olduğu ve bu şekilde devam eden bir tablolar listesine ayırır.
+`table` öğesini; listenin ilk öğesinin kaynak tablodaki ilk `pageSize` satırı barındıran bir tablo olduğu, sonraki öğenin ise kaynak listeden sonraki `pageSize` satırı barındıran bir tablo olduğu ve bu şekilde devam eden bir tablolar listesine ayırır.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Beş kayıtlık bir tabloyu, iki kayıtlık tablolara ayırır.
 ```powerquery
 let

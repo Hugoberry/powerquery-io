@@ -21,7 +21,7 @@ Value.Add(
 
 ## Remarks
 
-<code>value1</code> と <code>value2</code> の合計を返します。省略可能な <code>precision</code> パラメーターを指定できます。既定では <code>Precision.Double</code> が使用されます。
+`value1` と `value2` の合計を返します。省略可能な `precision` パラメーターを指定できます。既定では `Precision.Double` が使用されます。
 
 
 

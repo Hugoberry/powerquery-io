@@ -19,13 +19,15 @@ DateTimeZone.ToRecord(
 
 ## Remarks
 
-Zwraca rekord zawierający części danej wartości typu datetimezone (<code>dateTimeZone</code>). <ul>        <li><code>dateTimeZone</code>: wartość typu <code>datetimezone</code>, na podstawie części której jest tworzony rekord.</li>      </ul>
+Zwraca rekord zawierający części danej wartości typu datetimezone (`dateTimeZone`).
+
+-   `dateTimeZone`: wartość typu `datetimezone`, na podstawie części której jest tworzony rekord.
 
 
 ## Examples
 
-### Example #1 
-Przekonwertuj wartość &lt;code&gt;#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)&lt;/code&gt; na rekord zawierający wartości daty, godziny i strefy.
+### Example #1
+Przekonwertuj wartość `#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)` na rekord zawierający wartości daty, godziny i strefy.
 ```powerquery
 DateTimeZone.ToRecord(#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0))
 ```

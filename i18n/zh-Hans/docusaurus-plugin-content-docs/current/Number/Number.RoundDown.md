@@ -20,12 +20,12 @@ Number.RoundDown(
 
 ## Remarks
 
-返回将 <code>number</code> 向下舍入到上一个最大整数的结果。如果 <code>number</code> 为 null，则此函数返回 null。    如果提供了 <code>digits</code>，则将 <code>number</code> 舍入为指定的小数位数。  
+返回将 `number` 向下舍入到上一个最大整数的结果。如果 `number` 为 null，则此函数返回 null。 如果提供了 `digits`，则将 `number` 舍入为指定的小数位数。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 将 1.234 向下舍入到整数。
 ```powerquery
 Number.RoundDown(1.234)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 将 1.999 向下舍入到整数。
 ```powerquery
 Number.RoundDown(1.999)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 将 1.999 向下舍入为包含两位小数。
 ```powerquery
 Number.RoundDown(1.999, 2)

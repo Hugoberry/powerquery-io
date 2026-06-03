@@ -25,8 +25,8 @@ Ruft die angegebene Funktion unter Verwendung der angegebenen Liste mit Argument
 
 ## Examples
 
-### Example #1 
-Ruft &#34;Record.FieldNames&#34; mit einem Argument ([A=1,B=2]) auf.
+### Example #1
+Ruft Record.FieldNames mit einem Argument \[A=1,B=2\] auf.
 ```powerquery
 Function.Invoke(Record.FieldNames, {[A = 1, B = 2]})
 ```

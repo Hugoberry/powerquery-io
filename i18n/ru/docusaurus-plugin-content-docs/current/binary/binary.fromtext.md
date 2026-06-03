@@ -20,13 +20,16 @@ Binary.FromText(
 
 ## Remarks
 
-Возвращает результат преобразования текстового значения <code>text</code> в двоичное (список <code>number</code>). Можно задать параметр <code>encoding</code>, чтобы указать кодировку, используемую в текстовом значении.      Следующие значения <code>BinaryEncoding</code> могут быть использованы для <code>encoding</code>.      <ul>        <li><code>BinaryEncoding.Base64</code>: кодировка Base 64</li>        <li><code>BinaryEncoding.Hex</code>: шестнадцатеричная кодировка</li>      </ul>
+Возвращает результат преобразования текстового значения `text` в двоичное (список `number`). Можно задать параметр `encoding`, чтобы указать кодировку, используемую в текстовом значении. Следующие значения `BinaryEncoding` могут быть использованы для `encoding`.
+
+-   `BinaryEncoding.Base64`: кодировка Base 64
+-   `BinaryEncoding.Hex`: шестнадцатеричная кодировка
 
 
 ## Examples
 
-### Example #1 
-Декодирование &#34;1011&#34; в двоичное значение.
+### Example #1
+Декодирование "1011" в двоичное значение.
 ```powerquery
 Binary.FromText("1011")
 ```
@@ -37,8 +40,8 @@ Binary.FromText("1011", BinaryEncoding.Base64)
 ```
 
 
-### Example #2 
-Декодирование &#34;1011&#34; в двоичное значение с шестнадцатеричной кодировкой.
+### Example #2
+Декодирование "1011" в двоичное значение с шестнадцатеричной кодировкой.
 ```powerquery
 Binary.FromText("1011", BinaryEncoding.Hex)
 ```

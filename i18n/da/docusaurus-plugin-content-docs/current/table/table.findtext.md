@@ -20,13 +20,13 @@ Table.FindText(
 
 ## Remarks
 
-Returnerer de rækker i tabellen <code>table</code>, der indeholder teksten <code>text</code>. Hvis teksten ikke blev fundet, returneres der en tom tabel.
+Returnerer de rækker i tabellen `table`, der indeholder teksten `text`. Hvis teksten ikke blev fundet, returneres der en tom tabel.
 
 
 ## Examples
 
-### Example #1 
-Find de rækker i tabellen, der indeholder &#34;Bob&#34;.
+### Example #1
+Find de rækker i tabellen, der indeholder "Bob".
 ```powerquery
 Table.FindText(
     Table.FromRecords({

@@ -25,7 +25,7 @@ Xác định xem giá trị có tương thích với loại được chỉ đị
 
 ## Examples
 
-### Example #1 
+### Example #1
 So sánh hai cách xác định xem một số có tương thích với số loại hay không.
 ```powerquery
 Value.Is(123, Number.Type) = (123 is number)

@@ -19,12 +19,14 @@ Number.Cos(
 
 ## Remarks
 
-Retourneert de cosinus van <code>number</code>.
+Geeft de cosinus van de opgegeven hoek terug.
+
+-   `number`: een hoek, gemeten in radialen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De cosinus van de hoek 0 zoeken.
 ```powerquery
 Number.Cos(0)
@@ -33,6 +35,18 @@ Number.Cos(0)
 Result: 
 ```powerquery
 1
+```
+
+
+### Example #2
+Bereken de cosinus van π radialen.
+```powerquery
+Number.Cos(Number.PI)
+```
+
+Result: 
+```powerquery
+-1
 ```
 
 

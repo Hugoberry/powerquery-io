@@ -27,8 +27,8 @@ SparkPost.GetTable(
 
 ## Examples
 
-### Example #1 
-पिछले तीन दिनों में एकीकृत किए गए सभी campaign_ids के लिए count_sent और count_rejected वितरण योग्यता मैट्रिक्स पुनर्प्राप्त करता है. 
+### Example #1
+पिछले तीन दिनों में एकीकृत किए गए सभी campaign\_ids के लिए count\_sent और count\_rejected वितरण योग्यता मैट्रिक्स पुनर्प्राप्त करता है.
 ```powerquery
 Source = SparkPost.GetTable(3, "count_sent,count_rejected", "campaign_id", "metrics/deliverability/campaign")
 ```

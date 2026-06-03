@@ -21,12 +21,12 @@ ApacheSpark.Tables(
 
 ## Remarks
 
-Returnerar en tabell som listar tabellerna i Spark-klustret <code>host</code> med <code>protocol</code>.  Giltiga protokoll är:SparkProtocol.Standard, SparkProtocol.HTTP
+Returnerar en tabell som listar tabellerna i Spark-klustret `host` med `protocol`. Giltiga protokoll är: SparkProtocol.Standard, SparkProtocol.HTTP
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnerar en tabell som listar tabellerna för det angivna Spark-klustret.
 ```powerquery
 Spark.Tables("http://example.com:10000/cliservice", SparkProtocol.HTTP)

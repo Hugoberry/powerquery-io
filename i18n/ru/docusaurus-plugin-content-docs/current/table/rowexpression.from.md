@@ -19,13 +19,28 @@ RowExpression.From(
 
 ## Remarks
 
-Возвращает абстрактное синтаксическое дерево (AST) для текста <code>function</code>, нормализованное в <i>выражение строки</i>:<ul>  <li>Функция должна быть лямбда-выражением с одним аргументом.</li>  <li>Все ссылки на параметр функции заменяются на <code>RowExpression.Row</code>.</li>  <li>Все ссылки на столбцы заменяются на <code>RowExpression.Column(<i>columnName</i>)</code>.</li>  <li>Дерево AST будет упрощенным и будет содержать только узлы следующих типов:    <ul>      <li><code>Constant</code></li>      <li><code>Invocation</code></li>      <li><code>Unary</code></li>      <li><code>Binary</code></li>      <li><code>If</code></li>      <li><code>FieldAccess</code></li>    </ul>  </li></ul><br /><br />Если для текста <code>function</code> невозможно вернуть AST в виде выражения строки, выдается ошибка.<br />
+Возвращает абстрактное синтаксическое дерево (AST) для текста `function`, нормализованное в *выражение строки*:
+
+-   Функция должна быть лямбда-выражением с одним аргументом.
+-   Все ссылки на параметр функции заменяются на `RowExpression.Row`.
+-   Все ссылки на столбцы заменяются на `RowExpression.Column(columnName)`.
+-   AST-древо будет упрощенным и будет содержать только узлы следующих типов:
+    -   `Constant`
+    -   `Invocation`
+    -   `Unary`
+    -   `Binary`
+    -   `If`
+    -   `FieldAccess`
+
+Если для текста `function` невозможно вернуть AST в виде выражения строки, выдается ошибка.  
+  
+Эта функция идентична `ItemExpression.From`.
 
 
 ## Examples
 
-### Example #1 
-Возвращает AST для тела функции &lt;code&gt;each [CustomerID] = &#34;ALFKI&#34;&lt;/code&gt;
+### Example #1
+Возвращает AST для текста функции `each [CustomerID] = "ALFKI"`.
 ```powerquery
 RowExpression.From(each [CustomerName] = "ALFKI")
 ```

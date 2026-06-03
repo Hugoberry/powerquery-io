@@ -20,7 +20,7 @@ Number.Atan2(
 
 ## Remarks
 
-返回两个数 <code>y</code> 和 <code>x</code> 相除的反正切。除法被构造为 <code>y</code>/<code>x</code>。
+返回角度(以弧度为单位)，其正切值为 `y` 和 `x` 两个数字的商 `y` / `x`。
 
 
 

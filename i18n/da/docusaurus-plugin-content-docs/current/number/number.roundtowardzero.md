@@ -20,12 +20,12 @@ Number.RoundTowardZero(
 
 ## Remarks
 
-Returnerer resultatet af at afrunde <code>number</code> på baggrund af tallets fortegn. Denne funktion runder positive tal ned og negative tal op.    Hvis <code>digits</code> er angivet, afrundes <code>number</code> til <code>digits</code> antallet af decimaltal.  
+Returnerer resultatet af at afrunde `number` på baggrund af tallets fortegn. Denne funktion runder positive tal ned og negative tal op. Hvis `digits` er angivet, afrundes `number` til `digits` antallet af decimaltal.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Rund tallet -1,2 ned mod nul.
 ```powerquery
 Number.RoundTowardZero(-1.2)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Rund tallet 1,2 ned mod nul.
 ```powerquery
 Number.RoundTowardZero(1.2)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Afrund tallet -1,234 til to decimaler mod nul.
 ```powerquery
 Number.RoundTowardZero(-1.234, 2)

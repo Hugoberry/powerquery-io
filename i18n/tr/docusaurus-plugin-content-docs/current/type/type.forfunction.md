@@ -20,12 +20,12 @@ Type.ForFunction(
 
 ## Remarks
 
-Bir <code>function type</code> oluşturur, bunu <code>signature</code>, <code>ReturnType</code> ve <code>Parameters</code> ve <code>min</code>, işlevin çalıştırılabilmesi için gerekli olan minimum sayıda bağımsız değişkenden gerçekleştirir.
+Bir `function type` oluşturur, bunu `signature`, `ReturnType` ve `Parameters` ve `min`, işlevin çalıştırılabilmesi için gerekli olan minimum sayıda bağımsız değişkenden gerçekleştirir.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 X adında bir sayı parametresi alan ve bir sayı döndüren bir işlevin türünü oluşturur.
 ```powerquery
 Type.ForFunction([ReturnType = type number, Parameters = [X = type number]], 1)

@@ -19,7 +19,7 @@ Exchange.Contents(
 
 ## Remarks
 
-Retorna um sumário da conta do Microsoft Exchange <code>mailboxAddress</code>. Se <code>mailboxAddress</code> não for especificado, a conta padrão para a credencial será usada.
+Retorna um sumário da conta do Microsoft Exchange `mailboxAddress`. Se `mailboxAddress` não for especificado, a conta padrão para a credencial será usada.
 
 
 

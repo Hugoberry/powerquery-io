@@ -19,12 +19,14 @@ Date.IsInPreviousMonth(
 
 ## Remarks
 
-Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob der angegebene datetime-Wert "<code>dateTime</code>" während des vorherigen Monats auftritt. Beachten Sie, dass diese Funktion FALSE zurückgibt, wenn der übergebene Wert innerhalb des aktuellen Monats auftritt.      <ul>      <li><code>dateTime</code>: Ein <code>date</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Wert, der ausgewertet werden soll.</li>      </ul>
+Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob der angegebene datetime-Wert "`dateTime`" während des vorherigen Monats auftritt. Beachten Sie, dass diese Funktion FALSE zurückgibt, wenn der übergebene Wert innerhalb des aktuellen Monats auftritt.
+
+-   `dateTime`: Ein `date`\-, `datetime`\- oder `datetimezone`\-Wert, der ausgewertet werden soll.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bestimmt, ob der Monat vor der aktuellen Systemzeit dem vorherigen Monat entspricht.
 ```powerquery
 Date.IsInPreviousMonth(Date.AddMonths(DateTime.FixedLocalNow(), -1))

@@ -27,8 +27,8 @@ Oversætter et sæt kolonner i en tabel til attribut/værdi-par kombineret med d
 
 ## Examples
 
-### Example #1 
-Tag kolonnerne &#34;a&#34;, &#34;b&#34; og &#34;c&#34; i tabellen &lt;code&gt;(\{[ key = &#34;x&#34;, a = 1, b = null, c = 3 ], [ key = &#34;y&#34;, a = 2, b = 4, c = null ]})&lt;/code&gt;, og depivoter dem til attribut/værdi-par.
+### Example #1
+Tag kolonnerne "a", "b" og "c" i tabellen `({[ key = "x", a = 1, b = null, c = 3 ], [ key = "y", a = 2, b = 4, c = null ]})`, og depivoter dem til attribut/værdi-par.
 ```powerquery
 Table.Unpivot(
     Table.FromRecords({

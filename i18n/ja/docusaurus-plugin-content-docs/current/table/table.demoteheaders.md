@@ -24,7 +24,7 @@ Table.DemoteHeaders(
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブルの値の先頭行を降格させます。
 ```powerquery
 Table.DemoteHeaders(

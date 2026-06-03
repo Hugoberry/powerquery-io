@@ -21,12 +21,12 @@ Binary.Range(
 
 ## Remarks
 
-Returnerer et undersæt af den binære værdi med start ved forskydningen <code>binary</code>. En valgfri parameter, <code>offset</code>, angiver den maksimale længde i undersættet.
+Returnerer et undersæt af den binære værdi med start ved forskydningen `binary`. En valgfri parameter, `offset`, angiver den maksimale længde i undersættet.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnerer et undersæt af den binære værdi med start ved forskydning 6.
 ```powerquery
 Binary.Range(#binary({0..10}), 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Returnerer et undersæt med længde 2 fra forskydning 6 af den binære værdi.
 ```powerquery
 Binary.Range(#binary({0..10}), 6, 2)

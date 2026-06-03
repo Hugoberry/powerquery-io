@@ -20,13 +20,13 @@ List.Union(
 
 ## Remarks
 
-Tar en lista med listor, <code>lists</code>, förenar objekten i de individuella listorna och returnerar dem i utdatalistan. Listan som returneras innehåller alla objekt i alla indatalistor.    Den här åtgärden bevarar traditionell dubblettsemantik och dubblettvärden matchas som en del av föreningen.    Ett valfritt ekvationsvillkorsvärde, <code>equationCriteria</code>, kan anges för att hantera likhetstestning. 
+Tar en lista med listor, `lists`, förenar objekten i de individuella listorna och returnerar dem i utdatalistan. Listan som returneras innehåller alla objekt i alla indatalistor. Den här åtgärden bevarar traditionell dubblettsemantik och dubblettvärden matchas som en del av föreningen. Ett valfritt ekvationsvillkorsvärde, `equationCriteria`, kan anges för att hantera likhetstestning.
 
 
 ## Examples
 
-### Example #1 
-Skapa en union av listan \{1..5}, \{2..6}, \{3..7}.
+### Example #1
+Skapa en union av listan \{1..5\}, \{2..6\}, \{3..7\}.
 ```powerquery
 List.Union({{1..5}, {2..6}, {3..7}})
 ```

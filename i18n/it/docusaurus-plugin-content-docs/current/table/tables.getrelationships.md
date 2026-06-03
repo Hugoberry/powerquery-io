@@ -20,7 +20,7 @@ Tables.GetRelationships(
 
 ## Remarks
 
-Ottiene le relazioni tra un set di tabelle. Si presuppone che il set <code>tables</code> abbia una struttura simile a quella di una tabella di esplorazione. La colonna definita da <code>dataColumn</code> contiene le tabelle dati effettive.
+Ottiene le relazioni tra un set di tabelle. Si presuppone che il set `tables` abbia una struttura simile a quella di una tabella di esplorazione. La colonna definita da `dataColumn` contiene le tabelle dati effettive.
 
 
 

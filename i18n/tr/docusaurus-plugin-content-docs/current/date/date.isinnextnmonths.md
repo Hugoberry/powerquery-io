@@ -20,12 +20,15 @@ Date.IsInNextNMonths(
 
 ## Remarks
 
-Verilen <code>dateTime</code> tarih saat değerinin, sistemdeki geçerli tarih ve saat tarafından belirlendiği şekilde, sonraki birkaç ay içinde olup olmadığını gösterir. Geçerli ay içinde olan bir değer geçirildiğinde bu işlevin false döndürdüğünü unutmayın.      <ul>      <li><code>dateTime</code>: Değerlendirilecek <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      <li><code>months</code>: Ay sayısı.</li>      </ul>
+Verilen `dateTime` tarih saat değerinin, sistemdeki geçerli tarih ve saat tarafından belirlendiği şekilde, sonraki birkaç ay içinde olup olmadığını gösterir. Geçerli ay içinde olan bir değer geçirildiğinde bu işlevin false döndürdüğünü unutmayın.
+
+-   `dateTime`: Değerlendirilecek `date`, `datetime` veya `datetimezone` değeri.
+-   `months`: Ay sayısı.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Geçerli sistem saatinden sonraki ayın, sonraki iki ay içinde olup olmadığını belirler.
 ```powerquery
 Date.IsInNextNMonths(Date.AddMonths(DateTime.FixedLocalNow(), 1), 2)

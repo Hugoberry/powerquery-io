@@ -5,7 +5,7 @@ title: Text.InferNumberType
 # Text.InferNumberType
 
 
-Déduit le type de nombre granulaire (Int64.Type, Double.Type, etc.) d&#39;un nombre codé en texte.
+Déduit le type de nombre granulaire (Int64.Type, Double.Type, etc.) d'un nombre codé en texte.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Text.InferNumberType(
 
 ## Remarks
 
-Déduit le type de nombre granulaire (Int64.Type, Double.Type, etc.) de <code>text</code>. Une erreur est générée s'<code>text</code>il ne s'agit pas d'un nombre. Une option <code>culture</code> peut également être fournie (par exemple, "en-US").
+Déduit le type de nombre granulaire (Int64.Type, Double.Type, etc.) de `text`. Une erreur est générée s'`text`il ne s'agit pas d'un nombre. Une option `culture` peut également être fournie (par exemple, "en-US").
 
 
 

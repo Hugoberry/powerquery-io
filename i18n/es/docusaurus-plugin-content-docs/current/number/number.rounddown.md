@@ -20,12 +20,12 @@ Number.RoundDown(
 
 ## Remarks
 
-Devuelve el resultado de redondear <code>number</code> hacia abajo hasta el entero más alto anterior. Si <code>number</code> es NULL, esta función devuelve NULL.    Si se proporciona <code>digits</code>, <code>number</code> se redondea al número especificado de dígitos decimales.  
+Devuelve el resultado de redondear `number` hacia abajo hasta el entero más alto anterior. Si `number` es NULL, esta función devuelve NULL. Si se proporciona `digits`, `number` se redondea al número especificado de dígitos decimales.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Redondear 1,234 a un entero.
 ```powerquery
 Number.RoundDown(1.234)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Redondear 1,999 a un entero.
 ```powerquery
 Number.RoundDown(1.999)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Redondee hacia abajo 1,999 a dos posiciones decimales.
 ```powerquery
 Number.RoundDown(1.999, 2)

@@ -26,7 +26,7 @@ Returnerer en funktion, der opdeler tekst på en liste med tekst ved alle de ang
 
 ## Examples
 
-### Example #1 
+### Example #1
 Opdel input med komma, derefter semikolon, startende fra begyndelsen af input.
 ```powerquery
 Splitter.SplitTextByEachDelimiter({",", ";"})("a,b;c,d")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Opdel input med komma, derefter semikolon, hvor anførselstegn behandles som ethvert andet tegn, og start fra slutningen af input.
 ```powerquery
 let

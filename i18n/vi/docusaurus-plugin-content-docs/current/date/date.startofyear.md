@@ -19,12 +19,12 @@ Date.StartOfYear(
 
 ## Remarks
 
-Trả về thời gian đầu năm chứa <code>dateTime</code>.    <code>dateTime</code> phải là giá trị <code>date</code>, <code>datetime</code> hoặc <code>datetimezone</code>.
+Trả về thời gian đầu năm chứa `dateTime`. `dateTime` phải là giá trị `date`, `datetime` hoặc `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm thời gian đầu năm cho ngày 10 tháng 10 năm 2011, 8:10:32 SA.
 ```powerquery
 Date.StartOfYear(#datetime(2011, 10, 10, 8, 10, 32))

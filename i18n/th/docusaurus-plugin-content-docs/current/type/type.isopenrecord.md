@@ -19,13 +19,13 @@ Type.IsOpenRecord(
 
 ## Remarks
 
-ส่งกลับ <code>logical</code>ที่ระบุว่า <code>type</code> เปิดอยู่หรือไม่
+ส่งกลับ `logical`ที่ระบุว่า `type` เปิดอยู่หรือไม่
 
 
 ## Examples
 
-### Example #1 
-กำหนดว่าระเบียน &lt;code&gt;type [ A = number, ...]&lt;/code&gt; เปิดอยู่หรือไม่
+### Example #1
+กำหนดว่าระเบียน `type [ A = number, ...]` เปิดอยู่หรือไม่
 ```powerquery
 Type.IsOpenRecord(type [A = number, ...])
 ```

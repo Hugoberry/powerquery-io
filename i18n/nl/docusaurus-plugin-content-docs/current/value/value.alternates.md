@@ -19,7 +19,7 @@ Value.Alternates(
 
 ## Remarks
 
-Hiermee worden alternatieve queryplannen uitgedrukt in een queryplan-expressie met de waarde Value.Expression(Value.Optimize(...)). Niet bestemd voor andere doeleinden.
+Hiermee worden alternatieve queryplannen uitgedrukt binnen een queryplanexpressie die is verkregen via `Value.Expression(Value.Optimize(...))`. Niet bestemd voor andere doeleinden.
 
 
 

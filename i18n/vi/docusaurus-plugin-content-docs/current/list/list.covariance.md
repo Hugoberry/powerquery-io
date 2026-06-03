@@ -20,12 +20,12 @@ List.Covariance(
 
 ## Remarks
 
-Trả về hiệp phương sai giữa hai danh sách, <code>numberList1</code> và <code>numberList2</code>. <code>numberList1</code> và <code>numberList2</code> phải chứa cùng số lượng là <code>number</code> giá trị.
+Trả về hiệp phương sai giữa hai danh sách, `numberList1` và `numberList2`. `numberList1` và `numberList2` phải chứa cùng số lượng là `number` giá trị.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tính hiệp phương sai giữa hai danh sách.
 ```powerquery
 List.Covariance({1, 2, 3}, {1, 2, 3})

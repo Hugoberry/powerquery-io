@@ -19,7 +19,7 @@ Soda.Feed(
 
 ## Remarks
 
-Devolve uma tabela com o conteúdo do URL especificado <code>url</code> formatado em conformidade com a API SODA 2.0. O URL tem de apontar para uma origem compatível com SODA que termine numa extensão de nome de ficheiro .csv.
+Devolve uma tabela com o conteúdo do URL especificado `url` formatado em conformidade com a API SODA 2.0. O URL tem de apontar para uma origem compatível com SODA que termine numa extensão de nome de ficheiro .csv.
 
 
 

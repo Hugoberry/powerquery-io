@@ -19,12 +19,12 @@ Number.IsOdd(
 
 ## Remarks
 
-Указывает, нечетно ли число. Возвращает <code>true</code>, если <code>number</code> - нечетное число, <code>false</code> - в противном случае.
+Указывает, нечетно ли число. Возвращает `true`, если `number` - нечетное число, `false` - в противном случае.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Проверить, нечетно ли число 625.
 ```powerquery
 Number.IsOdd(625)
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Проверить, нечетно ли число 82.
 ```powerquery
 Number.IsOdd(82)

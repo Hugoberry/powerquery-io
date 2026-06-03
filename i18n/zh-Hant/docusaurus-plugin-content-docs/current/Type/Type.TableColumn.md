@@ -20,7 +20,7 @@ Type.TableColumn(
 
 ## Remarks
 
-傳回資料表類型 <code>tableType</code> 中資料行 <code>column</code> 的類型。
+傳回資料表類型 `tableType` 中資料行 `column` 的類型。
 
 
 

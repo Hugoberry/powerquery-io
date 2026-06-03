@@ -19,12 +19,12 @@ Table.ToRecords(
 
 ## Remarks
 
-Chuyển đổi bảng <code>table</code> thành danh sách bản ghi.
+Chuyển đổi bảng `table` thành danh sách bản ghi.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Chuyển đổi bảng thành danh sách bản ghi.
 ```powerquery
 Table.ToRecords(

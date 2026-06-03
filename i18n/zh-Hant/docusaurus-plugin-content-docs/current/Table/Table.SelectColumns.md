@@ -21,13 +21,17 @@ Table.SelectColumns(
 
 ## Remarks
 
-傳回只包含指定 <code>columns</code> 的 <code>table</code>。    <ul>       <li><code>table</code>: 提供的資料表。</li>       <li><code>columns</code>: 要從資料表 <code>table</code> 傳回的資料行清單。傳回資料表中的資料行會按照 <code>columns</code> 所列的順序排列。</li>       <li><code>missingField</code>: <i>(選擇性)</i> 如果資料行不存在，該如何處理。範例: <code>MissingField.UseNull</code> 或 <code>MissingField.Ignore</code>。    </li></ul>
+傳回只包含指定 `table` 的 `columns`。
+
+-   `table`: 提供的資料表。
+-   `columns`: 要從資料表 `table` 傳回的資料行清單。傳回資料表中的資料行會按照 `columns` 所列的順序排列。
+-   `missingField`: *(選用)* 如果資料行不存在，該如何處理。 範例: `MissingField.UseNull` 或 `MissingField.Ignore`。
 
 
 ## Examples
 
-### Example #1 
-僅包含資料行 [Name]。
+### Example #1
+僅包含資料行 \[Name\]。
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({
@@ -51,8 +55,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-僅包含資料行 [CustomerID] 和 [Name]。
+### Example #2
+僅包含資料行 \[CustomerID\] 和 \[Name\]。
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -66,7 +70,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #3 
+### Example #3
 如果所包含的資料行不存在，則預設結果為錯誤。
 ```powerquery
 Table.SelectColumns(
@@ -81,8 +85,8 @@ Result:
 ```
 
 
-### Example #4 
-如果所包含的資料行不存在，選項 &lt;code&gt;MissingField.UseNull&lt;/code&gt; 會建立 Null 值的資料行。
+### Example #4
+如果所包含的資料行不存在，選項 `MissingField.UseNull` 會建立 Null 值的資料行。
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

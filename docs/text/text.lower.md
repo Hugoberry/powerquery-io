@@ -20,13 +20,13 @@ Text.Lower(
 
 ## Remarks
 
-Returns the result of converting all characters in <code>text</code> to lowercase. An optional <code>culture</code> may also be provided (for example, "en-US").
+Returns the result of converting all characters in `text` to lowercase. An optional `culture` may also be provided (for example, "en-US").
 
 
 ## Examples
 
-### Example #1 
-Get the lowercase version of &#34;AbCd&#34;.
+### Example #1
+Get the lowercase version of "AbCd".
 ```powerquery
 Text.Lower("AbCd")
 ```

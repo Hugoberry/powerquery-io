@@ -25,7 +25,7 @@ Returns a function that splits text into a list of text according to the specifi
 
 ## Examples
 
-### Example #1 
+### Example #1
 Split the input by the specified position and length pairs, starting from the beginning of the input. Note that the ranges in this example overlap.
 ```powerquery
 Splitter.SplitTextByRanges({{0, 4}, {2, 10}})("codelimiter")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Split the input by the specified position and length pairs, starting from the end of the input.
 ```powerquery
 let
@@ -52,7 +52,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Split the input into a fixed-length postal code followed by a variable-length city name.
 ```powerquery
 Splitter.SplitTextByRanges({{0, 5}, {5, null}})("98052Redmond")

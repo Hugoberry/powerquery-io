@@ -5,7 +5,7 @@ title: Table.FromRows
 # Table.FromRows
 
 
-Tạo bảng từ danh sách giá trị hàng và cột tùy chọn
+Tạo bảng từ danh sách giá trị hàng và cột tùy chọn.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Table.FromRows(
 
 ## Remarks
 
-Tạo bảng từ danh sách <code>rows</code>, trong đó mỗi thành phần của danh sách là một danh sách bên trong có chứa giá trị cột của một hàng. Danh sách tùy chọn tên cột, loại bảng hoặc số cột có thể được cung cấp cho <code>columns</code>.
+Tạo bảng từ danh sách `rows`, trong đó mỗi thành phần của danh sách là một danh sách bên trong có chứa giá trị cột của một hàng. Danh sách tùy chọn tên cột, loại bảng hoặc số cột có thể được cung cấp cho `columns`.
 
 
 ## Examples
 
-### Example #1 
-Trả về một bảng với cột [CustomerID] có các giá trị \{1, 2}, cộ [Name] có các giá trị \{&#34;Bob&#34;, &#34;Jim&#34;} và cột [Phone] có các giá trị \{&#34;123-4567&#34;, &#34;987-6543&#34;}.
+### Example #1
+Trả về một bảng với cột \[CustomerID\] có các giá trị \{1, 2\}, cộ \[Name\] có các giá trị \{"Bob", "Jim"\} và cột \[Phone\] có các giá trị \{"123-4567", "987-6543"\}.
 ```powerquery
 Table.FromRows(
     {
@@ -46,8 +46,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Trả về một bảng với cột [CustomerID] có các giá trị \{1, 2}, cột [Name] có các giá trị \{&#34;Bob&#34;, &#34;Jim&#34;} và cột [Phone] có các giá trị \{&#34;123-4567&#34;, &#34;987-6543&#34;} trong đó [CustomerID] là loại số còn [Name] và [Phone] là loại văn bản.
+### Example #2
+Trả về một bảng với cột \[CustomerID\] có các giá trị \{1, 2\}, cột \[Name\] có các giá trị \{"Bob", "Jim"\} và cột \[Phone\] có các giá trị \{"123-4567", "987-6543"\} trong đó \[CustomerID\] là loại số còn \[Name\] và \[Phone\] là loại văn bản.
 ```powerquery
 Table.FromRows(
     {

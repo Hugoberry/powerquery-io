@@ -5,7 +5,7 @@ title: Date.Year
 # Date.Year
 
 
-Retourne le composant d&#39;année.
+Retourne le composant d'année.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Date.Year(
 
 ## Remarks
 
-Retourne le composant d'année de la valeur <code>datetime</code> fournie, <code>dateTime</code>.
+Retourne le composant d'année de la valeur `datetime` fournie, `dateTime`.
 
 
 ## Examples
 
-### Example #1 
-Recherche l&#39;année dans #datetime(2011, 12, 31, 9, 15, 36).
+### Example #1
+Recherche l'année dans #datetime(2011, 12, 31, 9, 15, 36).
 ```powerquery
 Date.Year(#datetime(2011, 12, 31, 9, 15, 36))
 ```

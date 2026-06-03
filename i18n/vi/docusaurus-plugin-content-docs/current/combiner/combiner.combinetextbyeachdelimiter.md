@@ -25,7 +25,7 @@ Trả về một hàm kết hợp một danh sách giá trị văn bản thành 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kết hợp một danh sách giá trị văn bản bằng một trình tự dấu tách.
 ```powerquery
 Combiner.CombineTextByEachDelimiter({"=", "+"})({"a", "b", "c"})

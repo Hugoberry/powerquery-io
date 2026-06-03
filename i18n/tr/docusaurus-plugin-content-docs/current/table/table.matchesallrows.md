@@ -20,13 +20,13 @@ Table.MatchesAllRows(
 
 ## Remarks
 
-<code>table</code> içindeki tüm satırların verilen <code>condition</code> öğesini sağlayıp sağlamadığını belirtir. Tüm satırlar eşleşiyorsa <code>true</code>, aksi halde <code>false</code> döndürür.
+`table` içindeki tüm satırların verilen `condition` öğesini sağlayıp sağlamadığını belirtir. Tüm satırlar eşleşiyorsa `true`, aksi halde `false` döndürür.
 
 
 ## Examples
 
-### Example #1 
-[a] sütunundaki tüm satır değerlerinin tabloda eşit olup olmadığını belirler.
+### Example #1
+\[a\] sütunundaki tüm satır değerlerinin tabloda eşit olup olmadığını belirler.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ true
 ```
 
 
-### Example #2 
-&lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; tablosundaki tüm satır değerlerinin [a = 1, b = 2] olup olmadığını bulur.
+### Example #2
+`({[a = 1, b = 2], [a = 3, b = 4]})` tablosundaki tüm satır değerlerinin \[a = 1, b = 2\] olup olmadığını bulur.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({

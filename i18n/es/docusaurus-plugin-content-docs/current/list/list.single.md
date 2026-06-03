@@ -5,7 +5,7 @@ title: List.Single
 # List.Single
 
 
-Devuelve el elemento de lista uno para una lista de longitud uno; de lo contrario, se inicia una excepción.
+Devuelve el único elemento de una lista de longitud uno; de lo contrario, genera un error.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.Single(
 
 ## Remarks
 
-Si solo hay un elemento en la lista <code>list</code>, devuelve dicho elemento.    Si hay más de un elemento o la lista está vacía, la función produce una excepción.
+Si solo hay un elemento en la lista `list`, devuelve dicho elemento. Si hay más de un elemento o la lista está vacía, la función genera un error.
 
 
 ## Examples
 
-### Example #1 
-Buscar el único valor de la lista \{1}.
+### Example #1
+Buscar el único valor de la lista \{1\}.
 ```powerquery
 List.Single({1})
 ```
@@ -36,8 +36,8 @@ Result:
 ```
 
 
-### Example #2 
-Buscar el único valor de la lista \{1, 2, 3}.
+### Example #2
+Buscar el único valor de la lista \{1, 2, 3\}.
 ```powerquery
 List.Single({1, 2, 3})
 ```

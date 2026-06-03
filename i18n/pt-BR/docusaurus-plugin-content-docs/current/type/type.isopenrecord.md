@@ -19,13 +19,13 @@ Type.IsOpenRecord(
 
 ## Remarks
 
-Retorna uma <code>lógico</code> indicando se um registro <code>type</code> é aberto.
+Retorna uma `lógico` indicando se um registro `type` é aberto.
 
 
 ## Examples
 
-### Example #1 
-Determine se o registro &lt;code&gt;tipo [ A = número, ...]&lt;/code&gt; é aberto.
+### Example #1
+Determine se o registro `tipo [ A = número, ...]` é aberto.
 ```powerquery
 Type.IsOpenRecord(type [A = number, ...])
 ```

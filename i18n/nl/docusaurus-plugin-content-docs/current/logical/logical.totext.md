@@ -5,7 +5,7 @@ title: Logical.ToText
 # Logical.ToText
 
 
-Retourneert de tekst &#34;true&#34; of &#34;false&#34;, uitgaande van een logische waarde.
+Retourneert de tekst "true" of "false", uitgaande van een logische waarde.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.ToText(
 
 ## Remarks
 
-Maakt een tekstwaarde van de logische waarde <code>logicalValue</code>: <code>true</code> of <code>false</code>. Als <code>logicalValue</code> geen logische waarde is, wordt er een uitzondering gegenereerd.
+Maakt een tekstwaarde van de logische waarde `logicalValue`: `waar` of `onwaar`. Als `logicalValue` geen logische waarde is, wordt er een fout gegenereerd.
 
 
 ## Examples
 
-### Example #1 
-Een tekstwaarde van de logische &lt;code&gt;true&lt;/code&gt; maken.
+### Example #1
+Een tekstwaarde van de logische `true` maken.
 ```powerquery
 Logical.ToText(true)
 ```

@@ -20,13 +20,13 @@ Record.Field(
 
 ## Remarks
 
-<code>record</code> में निर्दिष्ट <code>field</code> का मान लौटाता है. अगर फ़ील्ड नहीं मिलता, तो एक अपवाद दिखाया जाता है.
+`record` में निर्दिष्ट `field` का मान लौटाता है. अगर फ़ील्ड नहीं मिलती है, तो एक त्रुटि आएगी.
 
 
 ## Examples
 
-### Example #1 
-रिकॉर्ड में फ़ील्ड &#34;CustomerID&#34; का मान ढूँढें.
+### Example #1
+रिकॉर्ड में फ़ील्ड "CustomerID" का मान ढूँढें.
 ```powerquery
 Record.Field([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")
 ```

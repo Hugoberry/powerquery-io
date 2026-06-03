@@ -19,13 +19,15 @@ DateTimeZone.ToRecord(
 
 ## Remarks
 
-Trả về bản ghi có chứa các phần của giá trị datetimezone đã cho, <code>dateTimeZone</code>. <ul>        <li><code>dateTimeZone</code>: Giá trị <code>datetimezone</code> cho bản ghi có chứa các phần được tính toán.</li>      </ul>
+Trả về bản ghi có chứa các phần của giá trị datetimezone đã cho, `dateTimeZone`.
+
+-   `dateTimeZone`: Giá trị `datetimezone` cho bản ghi có chứa các phần được tính toán.
 
 
 ## Examples
 
-### Example #1 
-Chuyển đổi giá trị &lt;code&gt;#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)&lt;/code&gt; thành một bản ghi chứa giá trị Ngày, Giờ và Múi giờ.
+### Example #1
+Chuyển đổi giá trị `#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)` thành một bản ghi chứa giá trị Ngày, Giờ và Múi giờ.
 ```powerquery
 DateTimeZone.ToRecord(#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0))
 ```

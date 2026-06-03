@@ -5,7 +5,7 @@ title: Zendesk.Tables
 # Zendesk.Tables
 
 
-Zendesk hesabınızın URL&#39;sini girin.
+Zendesk hesabınızın URL'sini girin.
 
 
 ## Syntax

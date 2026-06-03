@@ -20,7 +20,7 @@ Uri.Combine(
 
 ## Remarks
 
-ส่งกลับ URI แบบสัมบูรณ์ที่ได้จากการรวมค่าที่ป้อน <code>baseUri</code> และ <code>relativeUri</code>
+ส่งกลับ URI แบบสัมบูรณ์ที่ได้จากการรวมค่าที่ป้อน `baseUri` และ `relativeUri`
 
 
 

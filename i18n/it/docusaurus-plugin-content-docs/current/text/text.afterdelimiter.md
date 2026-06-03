@@ -21,13 +21,13 @@ Text.AfterDelimiter(
 
 ## Remarks
 
-Restituisce la porzione di <code>text</code> dopo l'oggetto <code>delimiter</code> specificato.    Un valore numerico <code>index</code> facoltativo indica quale occorrenza di <code>delimiter</code> prendere in considerazione.    Un elenco <code>index</code> facoltativo indica quale occorrenza di <code>delimiter</code> prendere in considerazione e se eseguire l'indicizzazione dall'inizio o dalla fine dell'input.
+Restituisce la porzione di `text` dopo l'oggetto `delimiter` specificato. Un valore numerico `index` facoltativo indica quale occorrenza di `delimiter` prendere in considerazione. Un elenco `index` facoltativo indica quale occorrenza di `delimiter` prendere in considerazione e se eseguire l'indicizzazione dall'inizio o dalla fine dell'input.
 
 
 ## Examples
 
-### Example #1 
-Ottiene la porzione di &#34;111-222-333&#34; dopo il (primo) segno meno.
+### Example #1
+Ottiene la porzione di "111-222-333" dopo il (primo) segno meno.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Ottiene la porzione di &#34;111-222-333&#34; dopo il secondo segno meno.
+### Example #2
+Ottiene la porzione di "111-222-333" dopo il secondo segno meno.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-", 1)
 ```
@@ -50,8 +50,8 @@ Result:
 ```
 
 
-### Example #3 
-Ottiene la porzione di &#34;111-222-333&#34; dopo il secondo segno meno a partire dalla fine.
+### Example #3
+Ottiene la porzione di "111-222-333" dopo il secondo segno meno a partire dalla fine.
 ```powerquery
 Text.AfterDelimiter("111-222-333", "-", {1, RelativePosition.FromEnd})
 ```

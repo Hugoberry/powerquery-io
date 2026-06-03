@@ -5,7 +5,7 @@ title: Number.FromText
 # Number.FromText
 
 
-Cria números a partir de formatos de texto comuns (&#34;15&#34;, &#34;3.423,10&#34;, &#34;5,0E-10&#34;).
+Cria números a partir de formatos de texto comuns ("15", "3.423,10", "5,0E-10").
 
 
 ## Syntax
@@ -20,13 +20,16 @@ Number.FromText(
 
 ## Remarks
 
-Devolve um valor de <code>número</code> a partir do valor de texto especificado, <code>text</code>. <ul>  <li><code>text</code>: a representação textual de um valor de número. A representação tem de estar num formato de número comum, como por exemplo, "15", "3,423.10", "5.0E-10".</li>  <li><code>culture</code>: uma cultura opcional que controla a forma como <code>text</code> é interpretado (por exemplo, "en-US").</li> </ul>
+Devolve um valor de `número` a partir do valor de texto especificado, `text`.
+
+-   `text`: a representação textual de um valor de número. A representação tem de estar num formato de número comum, como por exemplo, "15", "3,423.10", "5.0E-10".
+-   `culture`: uma cultura opcional que controla a forma como `text` é interpretado (por exemplo, "en-US").
 
 
 ## Examples
 
-### Example #1 
-Obter o valor numérico de &lt;code&gt;&#34;4&#34;&lt;/code&gt;.
+### Example #1
+Obter o valor numérico de `"4"`.
 ```powerquery
 Number.FromText("4")
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Obter o valor numérico de &lt;code&gt;&#34;5.0e-10&#34;&lt;/code&gt;.
+### Example #2
+Obter o valor numérico de `"5.0e-10"`.
 ```powerquery
 Number.FromText("5.0e-10")
 ```

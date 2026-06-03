@@ -20,12 +20,12 @@ Table.Repeat(
 
 ## Remarks
 
-Restituisce una tabella con le righe dall'input <code>table</code> ripetute per <code>count</code> volte.
+Restituisce una tabella con le righe dall'input `table` ripetute per `count` volte.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ripetere le righe nella tabella due volte.
 ```powerquery
 Table.Repeat(

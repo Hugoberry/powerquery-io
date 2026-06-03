@@ -20,7 +20,17 @@ Table.Profile(
 
 ## Remarks
 
-Retorna um perfil para as colunas em <code>table</code>.<br />As informações a seguir são retornadas para cada coluna (quando aplicável):<ul>  <li>mínimo</li>  <li>máximo</li>  <li>média</li>  <li>desvio padrão</li>  <li>contagem</li>  <li>contagem nula</li>  <li>contagem distinta</li></ul><br />
+Retorna um perfil para as colunas em `table`.
+
+As informações a seguir são retornadas para cada coluna (quando aplicável):
+
+-   mínimo
+-   máximo
+-   média
+-   desvio padrão
+-   contagem
+-   contagem nula
+-   contagem distinta
 
 
 

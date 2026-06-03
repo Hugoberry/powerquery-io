@@ -21,13 +21,13 @@ Table.FromPartitions(
 
 ## Remarks
 
-Returnerar en tabell som är resultatet av en kombination av en uppsättning partionerade tabeller, <code>partitions</code>. <code>partitionColumn</code> är namnet på den kolumn som ska läggas till. Kolumntypen har standardvärdet <code>any</code>, men kan specificeras med <code>partitionColumnType</code>.
+Returnerar en tabell som är resultatet av en kombination av en uppsättning partionerade tabeller, `partitions`. `partitionColumn` är namnet på den kolumn som ska läggas till. Kolumntypen har standardvärdet `any`, men kan specificeras med `partitionColumnType`.
 
 
 ## Examples
 
-### Example #1 
-Hitta objekttypen i listan &lt;code&gt;\{number}&lt;/code&gt;.
+### Example #1
+Hitta objekttypen i listan `{number}`.
 ```powerquery
 Table.FromPartitions(
     "Year",

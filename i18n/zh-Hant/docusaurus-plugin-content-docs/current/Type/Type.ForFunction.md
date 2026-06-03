@@ -20,12 +20,12 @@ Type.ForFunction(
 
 ## Remarks
 
-從 <code>signature</code> 建立叫用函數所需的 <code>function type</code>、<code>ReturnType</code> 記錄和 <code>Parameters</code> 以及 <code>min</code>，與最少數目的引數。
+從 `signature` 建立叫用函數所需的 `function type`、`ReturnType` 記錄和 `Parameters` 以及 `min`，與最少數目的引數。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 為使用名為 X 之數字參數的函式建立類型並傳回數字。
 ```powerquery
 Type.ForFunction([ReturnType = type number, Parameters = [X = type number]], 1)

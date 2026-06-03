@@ -20,7 +20,9 @@ AzureStorage.Tables(
 
 ## Remarks
 
-Returnerar en navigeringstabell som innehåller en rad för varje tabell som hittas på kontowebbadressen <code>account</code> från ett Azure Storage-valv. Varje rad innehåller en länk till Azure-tabellen. En valfri postparameter, <code>options</code>, kan läggas till för att ange ytterligare egenskaper. Posten kan innehålla följande fält:    <ul><li><code>Timeout</code> : En varaktighet som styr hur l&#229;ng tid som ska g&#229; innan f&#246;rfr&#229;gan till servern avbryts. Standardv&#228;rdet &#228;r k&#228;llspecifikt.</li></ul>
+Returnerar en navigeringstabell som innehåller en rad för varje tabell som hittas på kontowebbadressen `account` från ett Azure Storage-valv. Varje rad innehåller en länk till Azure-tabellen. Parameter för valfri post, `options`, kan tillhandahållas för ytterligare egenskaper. Posten kan innehålla följande fält:
+
+-   `Timeout` : En varaktighet som styr hur lång tid som ska gå innan förfrågan till servern avbryts. Standardvärdet är källspecifikt.
 
 
 

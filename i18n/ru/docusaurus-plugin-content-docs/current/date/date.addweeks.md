@@ -20,13 +20,16 @@ Date.AddWeeks(
 
 ## Remarks
 
-Возвращает результат <code>date</code>, <code>datetime</code> или <code>datetimezone</code> после добавления <code>numberOfWeeks</code> недель к значению <code>datetime</code>, <code>dateTime</code>.      <ul>      <li><code>dateTime</code>: значение <code>date</code>, <code>datetime</code> или <code>datetimezone</code>, к которому добавляются недели.</li>      <li><code>numberOfWeeks</code>: число недель, которое нужно добавить.</li>      </ul>
+Возвращает результат `date`, `datetime` или `datetimezone` после добавления `numberOfWeeks` недель к значению `datetime`, `dateTime`.
+
+-   `dateTime`: значение `date`, `datetime` или `datetimezone`, к которому добавляются недели.
+-   `numberOfWeeks`: число недель, которое нужно добавить.
 
 
 ## Examples
 
-### Example #1 
-Добавляет 2 недели к значению &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; или &lt;code&gt;datetimezone&lt;/code&gt;, представляющему дату 14.05.2011.
+### Example #1
+Добавляет 2 недели к значению `date`, `datetime` или `datetimezone`, представляющему дату 14.05.2011.
 ```powerquery
 Date.AddWeeks(#date(2011, 5, 14), 2)
 ```

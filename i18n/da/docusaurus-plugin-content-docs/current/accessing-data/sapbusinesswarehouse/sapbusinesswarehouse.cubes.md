@@ -23,7 +23,7 @@ SapBusinessWarehouse.Cubes(
 
 ## Remarks
 
-Returnerer en tabel for InfoCubes og forespørgsler, der er grupperet af InfoArea, fra en SAP Business Warehouse-forekomst på serveren <code>server</code> med systemnummeret <code>systemNumberOrSystemId</code> og klient-id'et <code>clientId</code>. Der kan angives en valgfri postparameter, <code>optionsOrLogonGroup</code>, for at kontrollere følgende indstillinger:        
+Returnerer en tabel for InfoCubes og forespørgsler, der er grupperet af InfoArea, fra en SAP Business Warehouse-forekomst på serveren `server` med systemnummeret `systemNumberOrSystemId` og klient-id'et `clientId`. Der kan angives en valgfri postparameter, `optionsOrLogonGroup`, for at kontrollere følgende indstillinger:
 
 
 

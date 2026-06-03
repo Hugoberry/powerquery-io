@@ -20,7 +20,7 @@ Uri.Combine(
 
 ## Remarks
 
-傳回結合輸入 <code>baseUri</code> 與 <code>relativeUri</code> 的絕對 URI。
+傳回結合輸入 `baseUri` 與 `relativeUri` 的絕對 URI。
 
 
 

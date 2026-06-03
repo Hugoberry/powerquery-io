@@ -20,12 +20,12 @@ Table.Last(
 
 ## Remarks
 
-<code>table</code> öğesinin son satırını veya tablo boşsa <code>default</code> isteğe bağlı varsayılan değerini döndürür.
+`table` öğesinin son satırını veya tablo boşsa `default` isteğe bağlı varsayılan değerini döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablonun son satırını bulur.
 ```powerquery
 Table.Last(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-&lt;code&gt;(\{})&lt;/code&gt; tablosunun son satırını bulur veya boşsa [a = 0, b = 0] döndürür.
+### Example #2
+`({})` tablosunun son satırını bulur veya boşsa \[a = 0, b = 0\] döndürür.
 ```powerquery
 Table.Last(Table.FromRecords({}), [a = 0, b = 0])
 ```

@@ -20,13 +20,21 @@ List.Sort(
 
 ## Remarks
 
-Belirtilen isteğe bağlı ölçüte göre <code>list</code> veri listesini sıralar.    Karşılaştırma ölçütü olarak <code>comparisonCriteria</code> isteğe bağlı parametresi belirtilebilir. Bu, şu değerleri alabilir:    <ul>    <li> Sırayı denetlemek için karşılaştırma ölçütü bir Order enum değeri olabilir. (<code>Order.Descending</code>, <code>Order.Ascending</code>). </li>    <li> Sıralama için kullanılacak anahtarı hesaplamak üzere 1 bağımsız değişkenden oluşan bir işlev kullanılabilir. </li>    <li> Bir anahtar ve denetim sırası seçmek için, karşılaştırma ölçütü anahtar ile sırayı içeren bir liste olabilir (<code>\{each 1 / _, Order.Descending}</code>). </li>    <li> Karşılaştırmayı tam olarak denetlemek için 2 bağımsız değişkenden oluşan bir işlev kullanılabilir. Bu işleve listeden iki öğe (rastgele sırada herhangi iki öğe) geçirilir. İşlev şu değerlerden birini döndürmelidir:        <ul>            <li> <code>-1</code>: İlk öğe, ikinci öğeden daha azdır.</li>            <li> <code>0</code>: Öğeler eşittir.</li>            <li> <code>1</code>: İlk öğe, ikinci öğeden büyüktür.</li>        </ul>        Value. Compare, bu mantığı temsil etmek için kullanılabilecek bir yöntemdir. </li>    </ul>
+Belirtilen isteğe bağlı ölçüte göre `list` veri listesini sıralar. Karşılaştırma ölçütü olarak `comparisonCriteria` isteğe bağlı parametresi belirtilebilir. Bu, şu değerleri alabilir:
+
+-   Sırayı denetlemek için karşılaştırma ölçütü bir Order enum değeri olabilir. (`Order.Descending`, `Order.Ascending`).
+-   Sıralama için kullanılacak anahtarı hesaplamak üzere 1 bağımsız değişkenden oluşan bir işlev kullanılabilir.
+-   Bir anahtar ve denetim sırası seçmek için, karşılaştırma ölçütü anahtar ile sırayı içeren bir liste olabilir (`{each 1 / _, Order.Descending}`).
+-   Karşılaştırmayı tam olarak denetlemek için 2 bağımsız değişkenden oluşan bir işlev kullanılabilir (örneğin Value.Compare). Bu işleve listeden iki öğe (rastgele sırada herhangi iki öğe) geçirilir. İşlev şu değerlerden birini döndürmelidir:
+    -   `-1`: İlk öğe, ikinci öğeden daha azdır.
+    -   `0`: Öğeler eşittir.
+    -   `1`: İlk öğe, ikinci öğeden büyüktür.
 
 
 ## Examples
 
-### Example #1 
-\{2, 3, 1} listesini sıralar.
+### Example #1
+\{2, 3, 1\} listesini sıralar.
 ```powerquery
 List.Sort({2, 3, 1})
 ```
@@ -37,8 +45,8 @@ Result:
 ```
 
 
-### Example #2 
-\{2, 3, 1} listesini azalan düzende sıralar.
+### Example #2
+\{2, 3, 1\} listesini azalan düzende sıralar.
 ```powerquery
 List.Sort({2, 3, 1}, Order.Descending)
 ```
@@ -49,8 +57,8 @@ Result:
 ```
 
 
-### Example #3 
-\{2, 3, 1} listesini Value.Compare yöntemini kullanarak azalan düzende sıralar.
+### Example #3
+\{2, 3, 1\} listesini Value.Compare yöntemini kullanarak azalan düzende sıralar.
 ```powerquery
 List.Sort({2, 3, 1}, (x, y) => Value.Compare(1/x, 1/y))
 ```

@@ -20,12 +20,12 @@ Expression.Evaluate(
 
 ## Remarks
 
-ऐसे उपलब्ध पहचानकर्ताओं के साथ M व्यंजक <code>document</code> के मूल्यांकन का परिणाम लौटाता है, जिन्हें <code>environment</code> द्वारा परिभाषित रूप से संदर्भित किया जा सकता है.
+ऐसे उपलब्ध पहचानकर्ताओं के साथ M व्यंजक `document` के मूल्यांकन का परिणाम लौटाता है, जिन्हें `environment` द्वारा परिभाषित रूप से संदर्भित किया जा सकता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 किसी साधारण योग का मूल्यांकन करें.
 ```powerquery
 Expression.Evaluate("1 + 1")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 किसी अधिक जटिल योग का मूल्यांकन करें.
 ```powerquery
 Expression.Evaluate("List.Sum({1, 2, 3})", [List.Sum = List.Sum])
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 किसी पहचानकर्ता के साथ पाठ मान के संयोजन का मूल्यांकन करें.
 ```powerquery
 Expression.Evaluate(Expression.Constant("""abc") & " & " & Expression.Identifier("x"), [x = "def"""])

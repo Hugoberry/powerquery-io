@@ -21,13 +21,13 @@ List.Difference(
 
 ## Remarks
 
-<code>list1</code> listesindeki <code>list2</code> listesinde görünmeyen öğeleri döndürür. Yinelenen değerler desteklenir.    Eşitlik sınamasını denetlemek için <code>equationCriteria</code> isteğe bağlı denklem ölçüt değeri belirtilebilir. 
+`list1` listesindeki `list2` listesinde görünmeyen öğeleri döndürür. Yinelenen değerler desteklenir. Eşitlik sınamasını denetlemek için `equationCriteria` isteğe bağlı denklem ölçüt değeri belirtilebilir.
 
 
 ## Examples
 
-### Example #1 
-\{1, 2, 3, 4, 5} listesinde yer alan ve \{4, 5, 3} listesinde görünmeyen öğeleri bulur.
+### Example #1
+\{1, 2, 3, 4, 5\} listesinde yer alan ve \{4, 5, 3\} listesinde görünmeyen öğeleri bulur.
 ```powerquery
 List.Difference({1, 2, 3, 4, 5}, {4, 5, 3})
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-\{1, 2} listesindeki \{1, 2, 3} listesinde görünmeyen öğeleri bulur.
+### Example #2
+\{1, 2\} listesindeki \{1, 2, 3\} listesinde görünmeyen öğeleri bulur.
 ```powerquery
 List.Difference({1, 2}, {1, 2, 3})
 ```

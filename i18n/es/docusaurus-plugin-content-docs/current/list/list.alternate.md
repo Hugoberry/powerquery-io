@@ -22,13 +22,17 @@ List.Alternate(
 
 ## Remarks
 
-Devuelve una lista formada por todos los elementos de desplazamiento con numeración impar de una lista. Alterna entre tomar y omitir los valores de la lista <code>list</code> en función de los parámetros.    <ul>    <li><code>count</code>: especifica el número de valores que se omiten cada vez.</li>    <li><code>repeatInterval</code>: un intervalo opcional de repetición para indicar cuántos valores se agregan entre los valores omitidos.</li>    <li><code>offset</code>: un parámetro de desplazamiento opcional para comenzar a omitir los valores en el desplazamiento inicial.</li>    </ul>
+Devuelve una lista formada por todos los elementos de desplazamiento con numeración impar de una lista. Alterna entre tomar y omitir los valores de la lista `list` en función de los parámetros.
+
+-   `count`: especifica el número de valores que se omiten cada vez.
+-   `repeatInterval`: un intervalo opcional de repetición para indicar cuántos valores se agregan entre los valores omitidos.
+-   `offset`: un parámetro de desplazamiento opcional para comenzar a omitir los valores en el desplazamiento inicial.
 
 
 ## Examples
 
-### Example #1 
-Crear una lista de \{1..10} que omite el primer número.
+### Example #1
+Crear una lista de \{1..10\} que omite el primer número.
 ```powerquery
 List.Alternate({1..10}, 1)
 ```
@@ -39,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-Crear una lista de \{1..10} que omite números alternos.
+### Example #2
+Crear una lista de \{1..10\} que omite números alternos.
 ```powerquery
 List.Alternate({1..10}, 1, 1)
 ```
@@ -51,8 +55,8 @@ Result:
 ```
 
 
-### Example #3 
-Crear una lista de \{1..10} que comienza en 1 y omite números alternos.
+### Example #3
+Crear una lista de \{1..10\} que comienza en 1 y omite números alternos.
 ```powerquery
 List.Alternate({1..10}, 1, 1, 1)
 ```
@@ -63,8 +67,8 @@ Result:
 ```
 
 
-### Example #4 
-Crear una lista de \{1..10} que comienza en 1, omite un valor, conserva dos, y así sucesivamente.
+### Example #4
+Crear una lista de \{1..10\} que comienza en 1, omite un valor, conserva dos, y así sucesivamente.
 ```powerquery
 List.Alternate({1..10}, 1, 2, 1)
 ```

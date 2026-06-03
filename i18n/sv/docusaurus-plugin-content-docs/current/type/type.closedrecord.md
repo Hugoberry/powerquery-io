@@ -19,13 +19,13 @@ Type.ClosedRecord(
 
 ## Remarks
 
-Returnerar en stängd version av den givna <code>record</code> <code>type</code> (eller samma typ, om den redan är stängd).
+Returnerar en stängd version av den givna `record` `type` (eller samma typ, om den redan är stängd).
 
 
 ## Examples
 
-### Example #1 
-Skapa en stängd version av &lt;code&gt;type [ A = number,…]&lt;/code&gt;.
+### Example #1
+Skapa en stängd version av `type [ A = number,...]`.
 ```powerquery
 Type.ClosedRecord(type [A = number, ...])
 ```

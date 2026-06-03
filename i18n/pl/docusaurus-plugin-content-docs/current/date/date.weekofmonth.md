@@ -20,12 +20,14 @@ Date.WeekOfMonth(
 
 ## Remarks
 
-Zwraca liczbę z zakresu od 1 do 6 wskazującą, w którym tygodniu miesiąca wypada data <code>dateTime</code>. <ul> <li><code>dateTime</code>: wartość <code>data/godzina</code>, dla której jest określany tydzień miesiąca.</li></ul>
+Zwraca liczbę z zakresu od 1 do 6 wskazującą, w którym tygodniu miesiąca wypada data `dateTime`.
+
+-   `dateTime`: wartość `data/godzina`, dla której jest określany tydzień miesiąca.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Określ, w którym tygodniu marca w 2011 r. przypada 15. dzień.
 ```powerquery
 Date.WeekOfMonth(#date(2011, 03, 15))

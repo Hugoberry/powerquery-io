@@ -19,12 +19,12 @@ Record.Combine(
 
 ## Remarks
 
-Verilen <code>records</code> içindeki kayıtları birleştirir. <code>records</code> kayıt olmayan değerler içeriyorsa hata döndürülür.
+Verilen `records` içindeki kayıtları birleştirir. `records` kayıt olmayan değerler içeriyorsa hata döndürülür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kayıtlardan birleşik bir kayıt oluşturur.
 ```powerquery
 Record.Combine({

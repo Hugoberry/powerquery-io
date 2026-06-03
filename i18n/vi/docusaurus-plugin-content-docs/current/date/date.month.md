@@ -19,12 +19,12 @@ Date.Month(
 
 ## Remarks
 
-Trả về cấu phần tháng của giá trị <code>datetime</code> cho sẵn, <code>dateTime</code>.
+Trả về cấu phần tháng của giá trị `datetime` cho sẵn, `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm tháng trong #datetime(2011, 12, 31, 9, 15, 36).
 ```powerquery
 Date.Month(#datetime(2011, 12, 31, 9, 15, 36))

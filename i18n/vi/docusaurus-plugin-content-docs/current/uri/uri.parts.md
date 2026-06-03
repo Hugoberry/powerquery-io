@@ -19,13 +19,13 @@ Uri.Parts(
 
 ## Remarks
 
-Trả về các phần của <code>absoluteUri</code> đầu vào ở dạng bản ghi, chứa các giá trị như Scheme, Host, Port, Path, Query, Fragment, UserName và Password.
+Trả về các phần của `absoluteUri` đầu vào ở dạng bản ghi, chứa các giá trị như Scheme, Host, Port, Path, Query, Fragment, UserName và Password.
 
 
 ## Examples
 
-### Example #1 
-Tìm các phần của URI tuyệt đối &#34;www.adventure-works.com&#34;.
+### Example #1
+Tìm các phần của URI tuyệt đối "www.adventure-works.com".
 ```powerquery
 Uri.Parts("www.adventure-works.com")
 ```
@@ -45,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Giải mã chuỗi đuợc mã hóa bằng phần trăm.
 ```powerquery
 let

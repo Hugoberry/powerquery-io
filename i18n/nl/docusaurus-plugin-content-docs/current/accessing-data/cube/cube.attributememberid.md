@@ -19,7 +19,7 @@ Cube.AttributeMemberId(
 
 ## Remarks
 
-Retourneert de unieke lid-id uit de eigenschapswaarde voor leden. <code>attribute</code>. Retourneert null voor alle overige waarden.
+Retourneert de unieke lid-id uit de eigenschapswaarde voor leden. `attribute`. Retourneert null voor alle overige waarden.
 
 
 

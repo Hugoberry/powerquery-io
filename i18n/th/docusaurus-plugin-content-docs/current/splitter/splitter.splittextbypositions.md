@@ -25,7 +25,7 @@ Splitter.SplitTextByPositions(
 
 ## Examples
 
-### Example #1 
+### Example #1
 แยกข้อมูลป้อนเข้าที่ตําแหน่งที่ระบุ โดยเริ่มต้นจากจุดเริ่มต้นของข้อมูลป้อนเข้า
 ```powerquery
 Splitter.SplitTextByPositions({0, 3, 4})("ABC|12345")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 แยกข้อมูลป้อนเข้าที่ตําแหน่งที่ระบุ โดยเริ่มต้นจากจุดสิ้นสุดของข้อมูลป้อนเข้า
 ```powerquery
 let

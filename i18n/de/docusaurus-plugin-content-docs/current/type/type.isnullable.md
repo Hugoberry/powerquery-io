@@ -5,7 +5,7 @@ title: Type.IsNullable
 # Type.IsNullable
 
 
-Gibt &#39;true&#39; zurück, wenn ein Typ NULL-Werte zulässt; andernfalls &#39;false&#39;.
+Gibt 'true' zurück, wenn ein Typ NULL-Werte zulässt; andernfalls 'false'.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Type.IsNullable(
 
 ## Remarks
 
-Gibt <code>true</code> zurück, wenn ein Typ ein <code>Nullable</code>-Typ ist, der NULL-Werte zulässt; andernfalls <code>false</code>.
+Gibt `true` zurück, wenn ein Typ ein `Nullable`\-Typ ist, der NULL-Werte zulässt; andernfalls `false`.
 
 
 ## Examples
 
-### Example #1 
-Bestimmen Sie, ob &lt;code&gt;number&lt;/code&gt; NULL-Werte zulässt.
+### Example #1
+Bestimmen Sie, ob `number` NULL-Werte zulässt.
 ```powerquery
 Type.IsNullable(type number)
 ```
@@ -36,8 +36,8 @@ false
 ```
 
 
-### Example #2 
-Bestimmen Sie, ob &lt;code&gt;type nullable number&lt;/code&gt; NULL-Werte zulässt.
+### Example #2
+Bestimmen Sie, ob `type nullable number` NULL-Werte zulässt.
 ```powerquery
 Type.IsNullable(type nullable number)
 ```

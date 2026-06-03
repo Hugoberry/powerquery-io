@@ -20,13 +20,13 @@ Table.MatchesAllRows(
 
 ## Remarks
 
-Indica si todas las filas de la <code>table</code> cumplen la <code>condition</code> especificada. Devuelve <code>true</code> si coinciden todas las filas, <code>false</code> en caso contrario.
+Indica si todas las filas de la `table` cumplen la `condition` especificada. Devuelve `true` si coinciden todas las filas, `false` en caso contrario.
 
 
 ## Examples
 
-### Example #1 
-Determine si todos los valores de fila de la columna [a] son pares en la tabla.
+### Example #1
+Determine si todos los valores de fila de la columna \[a\] son pares en la tabla.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ true
 ```
 
 
-### Example #2 
-Buscar si todos los valores de fila son [a = 1, b = 2], en la tabla &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt;.
+### Example #2
+Buscar si todos los valores de fila son \[a = 1, b = 2\], en la tabla `({[a = 1, b = 2], [a = 3, b = 4]})`.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({

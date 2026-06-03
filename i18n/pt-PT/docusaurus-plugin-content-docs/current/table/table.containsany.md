@@ -21,13 +21,13 @@ Table.ContainsAny(
 
 ## Remarks
 
-Indica se qualquer um dos registos especificados na lista de registos <code>rows</code> aparece como uma linha na <code>table</code>.    É possível especificar um parâmetro opcional <code>equationCriteria</code> para controlar a comparação entre as linhas da tabela.
+Indica se qualquer um dos registos especificados na lista de registos `rows` aparece como uma linha na `table`. É possível especificar um parâmetro opcional `equationCriteria` para controlar a comparação entre as linhas da tabela.
 
 
 ## Examples
 
-### Example #1 
-Determinar se a tabela &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; contém as linhas &lt;code&gt;[a = 1, b = 2]&lt;/code&gt; ou &lt;code&gt;[a = 3, b = 5]&lt;/code&gt;.
+### Example #1
+Determinar se a tabela `({[a = 1, b = 2], [a = 3, b = 4]})` contém as linhas `[a = 1, b = 2]` ou `[a = 3, b = 5]`.
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({
@@ -47,8 +47,8 @@ true
 ```
 
 
-### Example #2 
-Determinar se a tabela &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt; contém as linhas &lt;code&gt;[a = 1, b = 3]&lt;/code&gt; ou &lt;code&gt;[a = 3, b = 5]&lt;/code&gt;.
+### Example #2
+Determinar se a tabela `({[a = 1, b = 2], [a = 3, b = 4]})` contém as linhas `[a = 1, b = 3]` ou `[a = 3, b = 5]`.
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({
@@ -68,8 +68,8 @@ false
 ```
 
 
-### Example #3 
-Determinar se a tabela &lt;code&gt;(Table.FromRecords(\{[a = 1, b = 2], [a = 3, b = 4]}))&lt;/code&gt; contém as linhas &lt;code&gt;[a = 1, b = 3]&lt;/code&gt; ou &lt;code&gt;[a = 3, b = 5]&lt;/code&gt; comparando apenas a coluna [a].
+### Example #3
+Determinar se a tabela `(Table.FromRecords({[a = 1, b = 2], [a = 3, b = 4]}))` contém as linhas `[a = 1, b = 3]` ou `[a = 3, b = 5]` comparando apenas a coluna \[a\].
 ```powerquery
 Table.ContainsAny(
     Table.FromRecords({

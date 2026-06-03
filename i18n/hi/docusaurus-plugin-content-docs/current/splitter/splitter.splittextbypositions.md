@@ -25,7 +25,7 @@ Splitter.SplitTextByPositions(
 
 ## Examples
 
-### Example #1 
+### Example #1
 इनपुट की शुरुआत से प्रारंभ करते हुए, इनपुट को निर्दिष्ट स्थितियों पर विभाजित करें.
 ```powerquery
 Splitter.SplitTextByPositions({0, 3, 4})("ABC|12345")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 इनपुट के अंत से प्रारंभ करते हुए, इनपुट को निर्दिष्ट स्थितियों पर विभाजित करें.
 ```powerquery
 let

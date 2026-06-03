@@ -5,7 +5,7 @@ title: AzureEnterprise.Contents
 # AzureEnterprise.Contents
 
 
-Specificare l&#39;URL dell&#39;endpoint API REST Azure Enterprise associato alla registrazione
+Specificare l'URL dell'endpoint API REST Azure Enterprise associato alla registrazione
 
 
 ## Syntax
@@ -25,7 +25,7 @@ Restituisce i risultati binari della chiamata all'URL specificato per l'API Azur
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utilizzo della funzione AzureEnterprise.Contents per restituire i risultati di un report specifico.
 ```powerquery
         let

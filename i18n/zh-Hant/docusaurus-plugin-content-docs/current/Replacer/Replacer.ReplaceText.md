@@ -21,13 +21,13 @@ Replacer.ReplaceText(
 
 ## Remarks
 
-以 <code>new</code> 文字取代原始 <code>text</code> 中的 <code>old</code> 文字。這個取代子函數可用於 <code>List.ReplaceValue</code> 和 <code>Table.ReplaceValue</code> 中。
+以 `new` 文字取代原始 `text` 中的 `old` 文字。這個取代子函數可用於 `List.ReplaceValue` 和 `Table.ReplaceValue` 中。
 
 
 ## Examples
 
-### Example #1 
-以 &#34;He&#34; 取代字串 &#34;hEllo world&#34; 中的文字 &#34;hE&#34;。
+### Example #1
+以 "He" 取代字串 "hEllo world" 中的文字 "hE"。
 ```powerquery
 Replacer.ReplaceText("hEllo world", "hE", "He")
 ```

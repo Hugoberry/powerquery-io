@@ -20,12 +20,12 @@ BinaryFormat.Text(
 
 ## Remarks
 
-Gibt ein Binärformat zurück, das einen Textwert liest.  <code>length</code> gibt die Anzahl von Bytes zum Decodieren an, oder das Binärformat der Länge, die dem Text vorausgeht.  Der optionale Wert <code>encoding</code> gibt die Codierung des Texts an.  Ohne Angabe von <code>encoding</code> wird die Codierung anhand der Unicode-Bytereihenfolge-Marken bestimmt.  Sind keine Bytereihenfolge-Marken vorhanden, wird <code>TextEncoding.Utf8</code> verwendet.
+Gibt ein Binärformat zurück, das einen Textwert liest. `length` gibt die Anzahl von Bytes zum Decodieren an, oder das Binärformat der Länge, die dem Text vorausgeht. Der optionale Wert `encoding` gibt die Codierung des Texts an. Ohne Angabe von `encoding` wird die Codierung anhand der Unicode-Bytereihenfolge-Marken bestimmt. Sind keine Bytereihenfolge-Marken vorhanden, wird `TextEncoding.Utf8` verwendet.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Decodiert zwei Bytes als ASCII-Text.
 ```powerquery
 let
@@ -41,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Decodieren Sie ASCII-Text, in dem die Länge des Texts in Bytes vor dem Text als Byte angezeigt wird.
 ```powerquery
 let

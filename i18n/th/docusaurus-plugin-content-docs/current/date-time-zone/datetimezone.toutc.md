@@ -19,12 +19,12 @@ DateTimeZone.ToUtc(
 
 ## Remarks
 
-เปลี่ยนแปลงข้อมูลโซนเวลาของค่าวันที่เวลา <code>dateTimeZone</code> เป็นข้อมูลโซนเวลา UTC หรือเวลาสากล    ถ้า <code>dateTimeZone</code> ไม่มีคอมโพเนนต์โซนเวลา ข้อมูลโซนเวลา UTC จะถูกเพิ่ม
+เปลี่ยนแปลงข้อมูลโซนเวลาของค่าวันที่เวลา `dateTimeZone` เป็นข้อมูลโซนเวลา UTC หรือเวลาสากล ถ้า `dateTimeZone` ไม่มีคอมโพเนนต์โซนเวลา ข้อมูลโซนเวลา UTC จะถูกเพิ่ม
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 เปลี่ยนแปลงข้อมูลโซนเวลาสำหรับ #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) เป็นโซนเวลา UTC
 ```powerquery
 DateTimeZone.ToUtc(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30))

@@ -20,12 +20,15 @@ List.Random(
 
 ## Remarks
 
-Gibt auf der Grundlage der Anzahl der zu generierenden Werte und eines optionalen Seedwerts eine Liste mit Zufallszahlen zwischen 0 und 1 zurück.<ul>   <li><code>count</code>: Die Anzahl der zu generierenden Zufallswerte.</li>   <li><code>seed</code>:  <i>[Optional]</i> Ein numerischer Wert, der als Seed für den Zufallszahlen-Generator fungiert. Ohne diese Angabe wird bei jedem Aufruf dieser Funktion eine eindeutige Liste mit Zufallszahlen generiert. Bei Angabe eines numerischen Seedwerts wird bei jedem Aufruf der Funktion die gleiche Liste mit Zufallszahlen generiert.</li></ul>
+Gibt auf der Grundlage der Anzahl der zu generierenden Werte und eines optionalen Seedwerts eine Liste mit Zufallszahlen zwischen 0 und 1 zurück.
+
+-   `count`: Die Anzahl der zu generierenden Zufallswerte.
+-   `seed`: *(Optional)* Ein numerischer Wert, der zum Seeding des Zufallszahlengenerators verwendet wird. Ohne diese Angabe wird bei jedem Aufruf dieser Funktion eine eindeutige Liste mit Zufallszahlen generiert. Bei Angabe eines numerischen Seedwerts wird bei jedem Aufruf der Funktion die gleiche Liste mit Zufallszahlen generiert.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Erstellt eine Liste mit drei Zufallszahlen.
 ```powerquery
 List.Random(3)
@@ -37,7 +40,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Erstellt eine Liste mit drei Zufallszahlen unter Verwendung eines Seedwerts.
 ```powerquery
 List.Random(3, 2)

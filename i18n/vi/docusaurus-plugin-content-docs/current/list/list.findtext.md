@@ -20,13 +20,13 @@ List.FindText(
 
 ## Remarks
 
-Trả về một danh sách chứa các giá trị từ danh sách <code>list</code> đã chứa giá trị <code>text</code>.
+Trả về một danh sách chứa các giá trị từ danh sách `list` đã chứa giá trị `text`.
 
 
 ## Examples
 
-### Example #1 
-Tìm các giá trị văn bản trong danh sách \{&#34;a&#34;, &#34;b&#34;, &#34;ab&#34;} khớp với &#34;a&#34;. 
+### Example #1
+Tìm các giá trị văn bản trong danh sách \{"a", "b", "ab"\} khớp với "a".
 ```powerquery
 List.FindText({"a", "b", "ab"}, "a")
 ```

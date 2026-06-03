@@ -20,13 +20,13 @@ Number.RoundAwayFromZero(
 
 ## Remarks
 
-数値の符号に基づいて <code>number</code> を丸めた結果を返します。この関数は、正の数値は切り上げ、負の数値は切り下げます。    <code>digits</code> が指定された場合、<code>number</code> は小数点以下 <code>digits</code> 桁に丸められます。  
+数値の符号に基づいて `number` を丸めた結果を返します。この関数は、正の数値は切り上げ、負の数値は切り下げます。 `digits` が指定された場合、`number` は小数点以下 `digits` 桁に丸められます。
 
 
 ## Examples
 
-### Example #1 
--1.2 を 0 とは逆の方向に丸めます。
+### Example #1
+\-1.2 を 0 とは逆の方向に丸めます。
 ```powerquery
 Number.RoundAwayFromZero(-1.2)
 ```
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 1.2 を 0 とは逆の方向に丸めます。
 ```powerquery
 Number.RoundAwayFromZero(1.2)
@@ -49,8 +49,8 @@ Result:
 ```
 
 
-### Example #3 
--1.234 を小数点以下が 2 桁になるように 0 とは逆方向に丸めます。
+### Example #3
+\-1.234 を小数点以下が 2 桁になるように 0 とは逆方向に丸めます。
 ```powerquery
 Number.RoundAwayFromZero(-1.234, 2)
 ```

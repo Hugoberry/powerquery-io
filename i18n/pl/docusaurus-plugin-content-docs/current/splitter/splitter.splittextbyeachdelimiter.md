@@ -26,7 +26,7 @@ Zwraca funkcję dzielącą tekst na listę wartości tekstowych w miejscach wyst
 
 ## Examples
 
-### Example #1 
+### Example #1
 Podziel dane wejściowe według przecinka, a następnie średnika, zaczynając od początku danych wejściowych.
 ```powerquery
 Splitter.SplitTextByEachDelimiter({",", ";"})("a,b;c,d")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Podziel dane wejściowe według przecinka, a następnie średnika, traktując cudzysłowy jak dowolny inny znak i zaczynając od końca danych wejściowych.
 ```powerquery
 let

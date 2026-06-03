@@ -19,7 +19,7 @@ List.NonNullCount(
 
 ## Remarks
 
-Retourneert het aantal items uit de lijst <code>list</code> die niet gelijk zijn aan nul.
+Retourneert het aantal items uit de lijst `list` die niet gelijk zijn aan nul.
 
 
 

@@ -25,7 +25,7 @@ Type.ForRecord(
 
 ## Examples
 
-### Example #1 
+### Example #1
 動態產生資料表類型。
 ```powerquery
 let

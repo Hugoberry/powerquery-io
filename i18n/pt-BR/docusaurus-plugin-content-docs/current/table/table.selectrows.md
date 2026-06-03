@@ -20,13 +20,13 @@ Table.SelectRows(
 
 ## Remarks
 
-Retorna uma tabela de linhas da <code>table</code> que corresponde à seleção <code>condition</code>.
+Retorna uma tabela de linhas da `table` que corresponde à seleção `condition`.
 
 
 ## Examples
 
-### Example #1 
-Seleciona as linhas da tabela em que os valores da coluna [CustomerID] são maiores que 2.
+### Example #1
+Seleciona as linhas da tabela em que os valores da coluna \[CustomerID\] são maiores que 2.
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({
@@ -48,8 +48,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Seleciona as linhas da tabela em que os nomes não contêm um &#34;B&#34;.
+### Example #2
+Seleciona as linhas da tabela em que os nomes não contêm um "B".
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({

@@ -5,7 +5,7 @@ title: Number.BitwiseOr
 # Number.BitwiseOr
 
 
-Trả về kết quả thực hiện tác vụ &#34;Or&#34; theo bit giữa hai đầu vào.
+Trả về kết quả thực hiện tác vụ "Or" theo bit giữa hai đầu vào.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Number.BitwiseOr(
 
 ## Remarks
 
-Trả về kết quả thực hiện tác vụ "Or" theo bit giữa <code>number1</code> và <code>number2</code>.
+Trả về kết quả thực hiện tác vụ "Or" theo bit giữa `number1` và `number2`.
 
 
 

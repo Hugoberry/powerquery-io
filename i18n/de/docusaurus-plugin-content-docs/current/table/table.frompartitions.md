@@ -21,13 +21,13 @@ Table.FromPartitions(
 
 ## Remarks
 
-Gibt eine Tabelle zurück, die das Ergebnis der Kombination eines Satzes partitionierter Tabellen <code>partitions</code> ist. <code>partitionColumn</code> ist der Name der Spalte, die hinzugefügt werden soll. Der Typ der Spalte ist standardmäßig <code>any</code>, kann jedoch von <code>partitionColumnType</code> angegeben werden.
+Gibt eine Tabelle zurück, die das Ergebnis der Kombination eines Satzes partitionierter Tabellen `partitions` ist. `partitionColumn` ist der Name der Spalte, die hinzugefügt werden soll. Der Typ der Spalte ist standardmäßig `any`, kann jedoch von `partitionColumnType` angegeben werden.
 
 
 ## Examples
 
-### Example #1 
-Suchen Sie einen Elementtyp in der Liste &lt;code&gt;\{number}&lt;/code&gt;.
+### Example #1
+Suchen Sie einen Elementtyp in der Liste `{number}`.
 ```powerquery
 Table.FromPartitions(
     "Year",

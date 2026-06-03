@@ -5,7 +5,7 @@ title: Logical.ToText
 # Logical.ToText
 
 
-Returnerer den logiske tekstværdi &#34;true&#34; eller &#34;false&#34;.
+Returnerer den logiske tekstværdi "true" eller "false".
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.ToText(
 
 ## Remarks
 
-Opretter en tekstværdi ud fra den logiske værdi <code>logicalValue</code>, enten <code>true</code> eller <code>false</code>. Hvis <code>logicalValue</code> ikke er en logisk værdi, udløses der en undtagelse.
+Opretter en tekstværdi ud fra den logiske værdi `logicalValue`, enten `true` eller `false`. Hvis `logicalValue` ikke er en logisk værdi, udløses der en fejl.
 
 
 ## Examples
 
-### Example #1 
-Opret en tekstværdi ud fra det logiske &lt;code&gt;true&lt;/code&gt;.
+### Example #1
+Opret en tekstværdi ud fra det logiske `true`.
 ```powerquery
 Logical.ToText(true)
 ```

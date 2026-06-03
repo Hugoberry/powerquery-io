@@ -19,13 +19,19 @@ Duration.From(
 
 ## Remarks
 
-Zwraca wartość typu <code>duration</code> z danej wartości parametru <code>value</code>. Jeśli dany parametr <code>value</code> ma wartość <code>null</code>, funkcja <code>Duration.From</code> zwraca wartość <code>null</code>.  Jeśli dany parametr <code>value</code> ma wartość typu <code>duration</code>, zwracana jest wartość <code>value</code>. Na wartość typu <code>duration</code> można konwertować wartości następujących typów:      <ul>        <li><code>text</code>: wartość typu <code>duration</code> z tekstowej formy zapisu czasu, który upłynął (d.g:m:s). Zobacz opis funkcji <code>Duration.FromText</code>, aby uzyskać szczegółowe informacje.</li>        <li><code>number</code>: odpowiednik wartości typu <code>duration</code> dla liczby całych i ułamkowych dni wyrażonej przez wartość <code>value</code>.</li>      </ul>Jeśli wartość parametru <code>value</code> jest innego typu, jest zwracany błąd.
+Zwraca wartość czasu trwania z danej wartości.
+
+-   `value`: wartość, z której pochodzi duration. Jeśli `value` ma wartość `null`, ta funkcja zwraca wartość `null`. Jeśli `value` to `duration`, zwracana jest wartość `value`. Wartości następujących typów można przekonwertować na wartość `duration`:
+    -   `text`: wartość `duration` z tekstowych formularzy czasu, który upłynął (d.h:m:s). Aby uzyskać szczegółowe informacje, zobacz `Duration.FromText`.
+    -   `number`: odpowiednik `duration` dla liczby dni całkowitych i ułamkowych wyrażonych przez `value`.
+
+Jeśli `value` jest innego typu, zwracany jest błąd.
 
 
 ## Examples
 
-### Example #1 
-Przekonwertuj wartość &lt;code&gt;2.525&lt;/code&gt; na wartość typu &lt;code&gt;duration&lt;/code&gt;.
+### Example #1
+Przekonwertuj wartość `2.525` na wartość typu `duration`.
 ```powerquery
 Duration.From(2.525)
 ```
@@ -33,6 +39,18 @@ Duration.From(2.525)
 Result: 
 ```powerquery
 #duration(2, 12, 36, 0)
+```
+
+
+### Example #2
+Przekonwertuj wartość tekstową `"2.05:55:20.34567"` na wartość `duration`.
+```powerquery
+Duration.From("2.05:55:20.34567")
+```
+
+Result: 
+```powerquery
+#duration(2, 5, 55, 20.3456700)
 ```
 
 

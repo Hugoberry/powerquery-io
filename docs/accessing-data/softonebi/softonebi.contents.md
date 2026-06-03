@@ -22,7 +22,7 @@ Retrieves all Soft1/Atlantis tables in the datalake
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returns a table of tables from the datalake
 ```powerquery
 SoftOneBI.Contents()

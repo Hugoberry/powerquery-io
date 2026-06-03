@@ -20,12 +20,12 @@ BinaryFormat.Transform(
 
 ## Remarks
 
-Zwraca format binarny, który przekształci wartości odczytane przez inny format binarny.  Parametr <code>binaryFormat</code> określa format binarny, który będzie używany do odczytywania wartości.  Funkcja <code>function</code> jest wywoływana z użyciem odczytanej wartości i zwraca przekształconą wartość.
+Zwraca format binarny, który przekształci wartości odczytane przez inny format binarny. Parametr `binaryFormat` określa format binarny, który będzie używany do odczytywania wartości. Funkcja `function` jest wywoływana z użyciem odczytanej wartości i zwraca przekształconą wartość.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Odczytaj bajt i dodaj jeden do niego.
 ```powerquery
 let

@@ -22,13 +22,13 @@ Table.AddRankColumn(
 
 ## Remarks
 
-Hiermee voegt u een kolom met de naam <code>newColumnName</code> toe aan de <code>table</code> met de rangschikking van een of meer andere kolommen die worden beschreven door <code>comparisonCriteria</code>.De optie RankKind in <code>options</code> kan gebruikt worden door geavanceerde gebruikers om een specifiekere classificatiemethode te kiezen.
+Hiermee voegt u een kolom met de naam `newColumnName` toe aan de `table` met de rangschikking van een of meer andere kolommen die worden beschreven door `comparisonCriteria`. De optie RankKind in `options` kan gebruikt worden door geavanceerde gebruikers om een specifiekere classificatiemethode te kiezen.
 
 
 ## Examples
 
-### Example #1 
-Een kolom met de naam &#39;OmzetRang&#39; toevoegen aan de tabel die de kolom &#39;Omzet&#39; van hoog naar laag rangschikt.
+### Example #1
+Een kolom met de naam 'OmzetRang' toevoegen aan de tabel die de kolom 'Omzet' van hoog naar laag rangschikt.
 ```powerquery
 Table.AddRankColumn(
     Table.FromRecords({

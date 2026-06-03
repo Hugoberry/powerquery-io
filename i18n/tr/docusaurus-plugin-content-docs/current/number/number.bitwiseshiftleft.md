@@ -20,7 +20,7 @@ Number.BitwiseShiftLeft(
 
 ## Remarks
 
-<code>number1</code> üzerinde <code>number2</code> belirtilen bit sayısı kadar sola bit tabanlı kaydırma gerçekleştirmenin sonucunun döndürür.
+`number1` üzerinde `number2` belirtilen bit sayısı kadar sola bit tabanlı kaydırma gerçekleştirmenin sonucunun döndürür.
 
 
 

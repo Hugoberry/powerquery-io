@@ -19,13 +19,13 @@ Number.Factorial(
 
 ## Remarks
 
-<code>number</code> sayısının faktöriyelini döndürür.
+`number` sayısının faktöriyelini döndürür.
 
 
 ## Examples
 
-### Example #1 
-10&#39;un faktöriyelini bulur.
+### Example #1
+10'un faktöriyelini bulur.
 ```powerquery
 Number.Factorial(10)
 ```

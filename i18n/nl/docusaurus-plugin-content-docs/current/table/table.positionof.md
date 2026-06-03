@@ -22,13 +22,18 @@ Table.PositionOf(
 
 ## Remarks
 
-Hiermee wordt de rijpositie geretourneerd van de eerste herhaling van de <code>row</code> in de opgegeven <code>table</code>. Retourneert -1 als er geen herhaling wordt gevonden. <ul> <li><code>table</code>: de invoertabel.</li> <li><code>row</code>: de rij in de tabel waarvoor de positie moet worden gevonden.</li> <li><code>occurrence</code>: <i>[Optioneel]</i> Geeft aan welke herhalingen van de rij moeten worden geretourneerd.</li> <li><code>equationCriteria</code>: <i>[Optioneel]</i> Hiermee stuurt u de vergelijking tussen de tabelrijen aan.</li> </ul>    
+Hiermee wordt de rijpositie geretourneerd van de eerste herhaling van de `row` in de opgegeven `table`. Retourneert -1 als er geen exemplaar wordt gevonden.
+
+-   `table`: de invoertabel.
+-   `row`: de rij in de tabel waarvoor de positie moet worden gevonden.
+-   `occurrence`: *\[Optioneel\]* Geeft aan welke herhalingen van de rij moeten worden geretourneerd.
+-   `equationCriteria`: *\[Optioneel\]* Hiermee stuurt u de vergelijking tussen de tabelrijen aan.
 
 
 ## Examples
 
-### Example #1 
-De positie zoeken van de eerste instantie van [a = 2, b = 4] in de tabel &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #1
+De positie zoeken van de eerste instantie van \[a = 2, b = 4\] in de tabel `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({
@@ -47,8 +52,8 @@ Result:
 ```
 
 
-### Example #2 
-De positie zoeken van de tweede instantie van [a = 2, b = 4] in de tabel &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #2
+De positie zoeken van de tweede instantie van \[a = 2, b = 4\] in de tabel `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({
@@ -68,8 +73,8 @@ Result:
 ```
 
 
-### Example #3 
-De positie zoeken van alle instanties van [a = 2, b = 4] in de tabel &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #3
+De positie zoeken van alle instanties van \[a = 2, b = 4\] in de tabel `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({

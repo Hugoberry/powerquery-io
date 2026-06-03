@@ -20,13 +20,13 @@ Percentage.From(
 
 ## Remarks
 
-Returnerer en værdi af typen <code>procent</code> fra den angivne <code>value</code>. Hvis den angivne <code>value</code> er <code>null</code>, returnerer <code>Percentage.From</code> <code>null</code>.  Hvis den angivne <code>value</code> er <code>text</code> med et efterstillet procentsymbol, returneres det konverterede decimaltal. Ellers konverteres værdien til en <code>number</code> ved hjælp af <code>Number.From</code>. Der kan også angives en valgfri <code>culture</code> (f.eks. "en-US").
+Returnerer en værdi af typen `procent` fra den angivne `value`. Hvis den angivne `value` er `null`, returnerer `Percentage.From` `null`. Hvis den angivne `value` er `text` med et efterstillet procentsymbol, returneres det konverterede decimaltal. Ellers konverteres værdien til en `number` ved hjælp af `Number.From`. Der kan også angives en valgfri `culture` (f.eks. "en-US").
 
 
 ## Examples
 
-### Example #1 
-Få &lt;code&gt;percentage&lt;/code&gt;-værdien af &lt;code&gt;&#34;12.3%&#34;&lt;/code&gt;.
+### Example #1
+Få `percentage`\-værdien af `"12.3%"`.
 ```powerquery
 Percentage.From("12.3%")
 ```

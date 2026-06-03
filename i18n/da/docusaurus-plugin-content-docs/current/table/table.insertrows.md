@@ -21,12 +21,12 @@ Table.InsertRows(
 
 ## Remarks
 
-Returnerer en tabel med listen over rækker, <code>rows</code>, indsat i <code>table</code> på den angivne placering, <code>offset</code>. Hver kolonne i rækken, der skal indsættes, skal svare til kolonnetyperne i tabellen.
+Returnerer en tabel med listen over rækker, `rows`, indsat i `table` på den angivne placering, `offset`. Hver kolonne i rækken, der skal indsættes, skal svare til kolonnetyperne i tabellen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Indsæt rækken i tabellen ved position 1.
 ```powerquery
 Table.InsertRows(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Indsæt to rækker i tabellen ved position 1.
 ```powerquery
 Table.InsertRows(

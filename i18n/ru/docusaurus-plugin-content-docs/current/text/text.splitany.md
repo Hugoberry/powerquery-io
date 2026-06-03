@@ -20,25 +20,29 @@ Text.SplitAny(
 
 ## Remarks
 
-Возвращает список текстовых значений, полученных в результате разбиения текстового значения <code>text</code> на основе любого символа в указанном разделителе <code>separators</code>.
+Возвращает список текстовых значений, полученных в результате разбиения текстового значения на основе любого из символов, указанных в разделителе.
+
+-   `text`: текстовое значение, подлежащее разбиению.
+-   `separators`: символы-разделители, используемые для разбиения текста.
 
 
 ## Examples
 
-### Example #1 
-Создать список из текстового значения &#34;Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com&#34;.
+### Example #1
+Создать список на основе заданного текста, используя указанные символы-разделители.
 ```powerquery
-Text.SplitAny("Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com", "|")
+Text.SplitAny("Name|Customer ID|Purchase|Month-Day-Year", "|-")
 ```
 
 Result: 
 ```powerquery
 {
-    "Jamie",
-    "Campbell",
-    "Admin",
-    "Adventure Works",
-    "www.adventure-works.com"
+    "Name",
+    "Customer ID",
+    "Purchase",
+    "Month",
+    "Day",
+    "Year"
 }
 ```
 

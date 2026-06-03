@@ -21,12 +21,12 @@ Table.Range(
 
 ## Remarks
 
-Zwraca wiersze z tabeli <code>table</code>, rozpoczynając od określonego przesunięcia <code>offset</code>. Opcjonalny parametr <code>count</code> określa, ile wierszy ma zostać zwróconych. Domyślnie zwracane są wszystkie wiersze po danym przesunięciu.
+Zwraca wiersze z tabeli `table`, rozpoczynając od określonego przesunięcia `offset`. Opcjonalny parametr `count` określa, ile wierszy ma zostać zwróconych. Domyślnie zwracane są wszystkie wiersze po danym przesunięciu.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zwróć wszystkie wiersze, rozpoczynając od przesunięcia 1 w tabeli.
 ```powerquery
 Table.Range(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Zwróć jeden wiersz, rozpoczynając od przesunięcia 1 w tabeli.
 ```powerquery
 Table.Range(

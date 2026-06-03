@@ -22,13 +22,13 @@ Table.DuplicateColumn(
 
 ## Remarks
 
-Erstellt von der Spalte mit dem Namen '<code>columnName</code>' ein Duplikat in der Tabelle '<code>table</code>'. Die Werte und der Typ für die Spalte '<code>newColumnName</code>' werden aus der Spalte '<code>columnName</code>' kopiert.
+Erstellt von der Spalte mit dem Namen „`columnName`“ ein Duplikat in der Tabelle „`table`“. Die Werte und der Typ der Spalte `newColumnName` werden aus der Spalte `columnName` kopiert.
 
 
 ## Examples
 
-### Example #1 
-Erstellt von Spalte &#39;a&#39; in der Tabelle &#39;&lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt;&#39; ein Duplikat mit dem Namen &#39;copied column&#39;.
+### Example #1
+Erstellt von Spalte 'a' in der Tabelle '`({[a = 1, b = 2], [a = 3, b = 4]})`' ein Duplikat mit dem Namen 'copied column'.
 ```powerquery
 Table.DuplicateColumn(
     Table.FromRecords({

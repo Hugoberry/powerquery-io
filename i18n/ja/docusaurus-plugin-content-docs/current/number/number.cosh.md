@@ -19,7 +19,7 @@ Number.Cosh(
 
 ## Remarks
 
-<code>number</code> の双曲線コサインを返します。
+`number` の双曲線コサインを返します。
 
 
 

@@ -21,12 +21,12 @@ Stripe.Contents(
 
 ## Remarks
 
-Ruft die Stripe-API unter https://api.stripe.com/v1/<code>method</code> auf, wobei der optionale Datensatz <code>query</code> als zusätzlicher Parameter und der optionale Wert <code>pageLimit</code> als Grenzwert für die Anzahl von API-Anforderungen übergeben werden. Die neuesten Daten werden zuerst zurückgegeben. Wenn <code>pageLimit</code> nicht angegeben wird, werden alle Daten zurückgegeben. Es wird Stripe-Version 2015-10-16 verwendet.
+Ruft die Stripe-API unter https://api.stripe.com/v1/`method` auf, wobei der optionale Datensatz `query` als zusätzlicher Parameter und der optionale Wert `pageLimit` als Grenzwert für die Anzahl von API-Anforderungen übergeben werden. Die neuesten Daten werden zuerst zurückgegeben. Wenn `pageLimit` nicht angegeben wird, werden alle Daten zurückgegeben. Es wird Stripe-Version 2015-10-16 verwendet.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gibt alle Gebührendaten zurück.
 ```powerquery
 Stripe.Contents("charges")
@@ -38,7 +38,7 @@ Eine Tabelle mit sämtlichen Gebührendaten für das aktuelle Stripe-Konto.
 ```
 
 
-### Example #2 
+### Example #2
 Gibt eine Seite mit Gebührendaten zurück.
 ```powerquery
 Stripe.Contents("charges", [], 1)

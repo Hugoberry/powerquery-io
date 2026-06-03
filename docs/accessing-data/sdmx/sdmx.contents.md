@@ -24,7 +24,7 @@ Get data from an SDMX RESTful web service that supports the CSV format.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Get data from an SDMX RESTful web service that supports the CSV format.
 ```powerquery
 SDMX.Contents(url,"Show codes and labels","en")

@@ -20,13 +20,13 @@ List.IsDistinct(
 
 ## Remarks
 
-Trả về giá trị lôgic có hay không có giá trị trùng lặp trong danh sách <code>list</code>; <code>true</code> nếu danh sách chứa các giá trị khác biệt, <code>false</code> nếu có giá trị trùng lặp. 
+Trả về giá trị lôgic có hay không có giá trị trùng lặp trong danh sách `list`; `true` nếu danh sách chứa các giá trị khác biệt, `false` nếu có giá trị trùng lặp.
 
 
 ## Examples
 
-### Example #1 
-Tìm xem danh sách \{1, 2, 3} có chứa các giá trị khác biệt hay không (tức là không có giá trị trùng lặp nào).
+### Example #1
+Tìm xem danh sách \{1, 2, 3\} có chứa các giá trị khác biệt hay không (tức là không có giá trị trùng lặp nào).
 ```powerquery
 List.IsDistinct({1, 2, 3})
 ```
@@ -37,8 +37,8 @@ true
 ```
 
 
-### Example #2 
-Tìm xem danh sách \{1, 2, 3, 3} có chứa các giá trị khác biệt hay không (tức là không có giá trị trùng lặp nào).
+### Example #2
+Tìm xem danh sách \{1, 2, 3, 3\} có chứa các giá trị khác biệt hay không (tức là không có giá trị trùng lặp nào).
 ```powerquery
 List.IsDistinct({1, 2, 3, 3})
 ```

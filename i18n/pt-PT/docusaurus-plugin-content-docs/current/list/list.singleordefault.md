@@ -20,13 +20,13 @@ List.SingleOrDefault(
 
 ## Remarks
 
-Se só existir um item na lista <code>list</code>, devolve esse item.    Se a lista estiver vazia, a função devolve "null" a menos que seja especificado um <code>default</code> opcional. Se existir mais de um item na lista, a função devolve um erro.
+Se só existir um item na lista `list`, devolve esse item. Se a lista estiver vazia, a função devolve "null" a menos que seja especificado um `default` opcional. Se existir mais de um item na lista, a função devolve um erro.
 
 
 ## Examples
 
-### Example #1 
-Determinar o valor único na lista \{1}.
+### Example #1
+Determinar o valor único na lista \{1\}.
 ```powerquery
 List.SingleOrDefault({1})
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Determinar o valor único na lista \{}.
+### Example #2
+Determinar o valor único na lista \{\}.
 ```powerquery
 List.SingleOrDefault({})
 ```
@@ -49,8 +49,8 @@ null
 ```
 
 
-### Example #3 
-Determinar o valor único na lista \{}. Se estiver vazia, devolver -1.
+### Example #3
+Determinar o valor único na lista \{\}. Se estiver vazia, devolver -1.
 ```powerquery
 List.SingleOrDefault({}, -1)
 ```

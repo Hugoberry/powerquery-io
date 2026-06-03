@@ -20,12 +20,14 @@ Table.FromValue(
 
 ## Remarks
 
-Tworzy tabelę z kolumną zawierającą podaną wartość lub listę wartości — <code>value</code>. Można określić opcjonalny parametr rekordu <code>options</code> w celu kontrolowania następujących opcji:    <ul>    <li> <code>DefaultColumnName</code>: nazwa kolumny używana podczas tworzenia tabeli z listy lub wartości skalarnej.</li>    </ul>  
+Tworzy tabelę z kolumną zawierającą podaną wartość lub listę wartości — `value`. Można określić opcjonalny parametr rekordu `options` w celu kontrolowania następujących opcji:
+
+-   `DefaultColumnName`: nazwa kolumny używana podczas tworzenia tabeli z listy lub wartości skalarnej.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utwórz tabelę na podstawie wartości 1.
 ```powerquery
 Table.FromValue(1)
@@ -37,7 +39,7 @@ Table.FromRecords({[Value = 1]})
 ```
 
 
-### Example #2 
+### Example #2
 Utwórz tabelę na podstawie listy.
 ```powerquery
 Table.FromValue({1, "Bob", "123-4567"})
@@ -53,7 +55,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Utwórz tabelę na podstawie wartości 1 i z niestandardową nazwą kolumny.
 ```powerquery
 Table.FromValue(1, [DefaultColumnName = "MyValue"])

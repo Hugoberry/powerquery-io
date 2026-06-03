@@ -24,7 +24,7 @@ Returnerer rækketypen for den angivne tabeltype. Resultatet vil altid være en 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returner oplysninger om rækketype for en simpel tabel.
 ```powerquery
 let

@@ -25,12 +25,25 @@ Table.Join(
 
 ## Remarks
 
-Kopplar samman raderna i <code>table1</code> med raderna i <code>table2</code> baserat på likheten av värdena i de nyckelkolumner som valts av <code>key1</code> (för <code>table1</code>) och <code>key2</code> (för <code>table2</code>).<br />Som standard utförs en inre koppling men även en valfri <code>joinKind</code> kan användas för att ange typen av koppling. Alternativen är:    <ul><li><code>JoinKind.Inner</code></li><li><code>JoinKind.LeftOuter</code></li><li><code>JoinKind.RightOuter</code></li><li><code>JoinKind.FullOuter</code></li><li><code>JoinKind.LeftAnti</code></li><li><code>JoinKind.RightAnti</code></li></ul><br />En valfri uppsättning <code>keyEqualityComparers</code> kan läggas till för att ange hur nyckelkolumnerna ska jämföras. Den här parametern är för närvarande endast avsedd för internt bruk.<br />
+Kopplar samman raderna i `table1` med raderna i `table2` baserat på likheten av värdena i de nyckelkolumner som valts av `key1` (för `table1`) och `key2` (för `table2`).
+
+Som standard utförs en inre koppling men även en valfri `joinKind` kan användas för att ange typen av koppling. Alternativen är:
+
+-   `JoinKind.Inner`
+-   `JoinKind.LeftOuter`
+-   `JoinKind.RightOuter`
+-   `JoinKind.FullOuter`
+-   `JoinKind.LeftAnti`
+-   `JoinKind.RightAnti`
+-   `JoinKind.LeftSemi`
+-   `JoinKind.RightSemi`
+
+En valfri uppsättning `keyEqualityComparers` kan läggas till för att ange hur nyckelkolumnerna ska jämföras. Den här parametern är för närvarande endast avsedd för internt bruk.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Koppla två tabeller med en enda nyckelkolumn.
 ```powerquery
 Table.Join(
@@ -67,7 +80,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Koppla samman två tabeller vars kolumnnamn är i konflikt, med hjälp av flera nyckelkolumner.
 ```powerquery
 let

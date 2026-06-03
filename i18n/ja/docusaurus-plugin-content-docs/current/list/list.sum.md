@@ -20,13 +20,13 @@ List.Sum(
 
 ## Remarks
 
-リスト <code>list</code> 内の NULL 以外の値の合計を返します。リストに NULL 以外の値がない場合、NULL を返します。
+リスト `list` 内の NULL 以外の値の合計を返します。リストに NULL 以外の値がない場合、NULL を返します。
 
 
 ## Examples
 
-### Example #1 
-リスト &lt;code&gt;\{1, 2, 3}&lt;/code&gt; 内の数の合計を求めます。
+### Example #1
+リスト `{1, 2, 3}` 内の数の合計を求めます。
 ```powerquery
 List.Sum({1, 2, 3})
 ```

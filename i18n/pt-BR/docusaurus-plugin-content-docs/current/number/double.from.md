@@ -20,13 +20,13 @@ Double.From(
 
 ## Remarks
 
-Retorna um valor <code>number</code> Dobro com base no <code>value</code> especificado. Se o <code>value</code> especificado for <code>null</code>, <code>Double.From</code> retornará <code>null</code>. Se o <code>value</code> especificado for um <code>number</code> dentro do intervalo de Dobro, <code>value</code> será retornado. Caso contrário, um erro será retornado. Se o <code>value</code> for de qualquer outro tipo, será convertido primeiro para um <code>number</code> usando <code>Number.FromText</code>. Um <code>culture</code> opcional também pode ser fornecido (por exemplo, "pt-BR").
+Retorna um valor `number` Dobro com base no `value` especificado. Se o `value` especificado for `null`, `Double.From` retornará `null`. Se o `value` especificado for um `number` dentro do intervalo de Dobro, `value` será retornado. Caso contrário, um erro será retornado. Se o `value` for de qualquer outro tipo, será convertido primeiro para um `number` usando `Number.FromText`. Um `culture` opcional também pode ser fornecido (por exemplo, "pt-BR").
 
 
 ## Examples
 
-### Example #1 
-Obtenha o valor de &lt;code&gt;number&lt;/code&gt; de Dobro de &lt;code&gt;&#34;4&#34;&lt;/code&gt;.
+### Example #1
+Obtenha o valor de `number` de Dobro de `"4"`.
 ```powerquery
 Double.From("4.5")
 ```

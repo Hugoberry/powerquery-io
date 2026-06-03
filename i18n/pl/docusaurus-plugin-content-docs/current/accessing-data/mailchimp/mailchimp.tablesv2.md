@@ -24,7 +24,7 @@ Zwraca tabelę z kluczowymi danymi usługi MailChimp.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zwraca tabelę z kluczowymi danymi usługi MailChimp.
 ```powerquery
 MailChimp.Tables()

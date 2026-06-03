@@ -19,7 +19,7 @@ Hdfs.Contents(
 
 ## Remarks
 
-Devuelve una tabla que contiene una fila para cada carpeta y archivo encontrados en la dirección URL de la carpeta, <code>url</code>, de un sistema de archivos Hadoop. Cada fila contiene las propiedades de la carpeta o el archivo y un vínculo a su contenido.
+Devuelve una tabla que contiene una fila para cada carpeta y archivo encontrados en la dirección URL de la carpeta, `url`, de un sistema de archivos Hadoop. Cada fila contiene las propiedades de la carpeta o el archivo y un vínculo a su contenido.
 
 
 

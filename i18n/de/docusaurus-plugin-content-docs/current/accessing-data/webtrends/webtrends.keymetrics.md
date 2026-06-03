@@ -26,7 +26,7 @@ Ruft den Webtrends KeyMetrics-Endpunkt auf und gibt alle Daten als Tabelle zurü
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ruft eine Tabelle der Schlüsselmetriken für Mandant 98765 für die letzten 30 Tage ab.
 ```powerquery
 Webtrends.KeyMetrics("98765")

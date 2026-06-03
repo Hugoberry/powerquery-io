@@ -5,7 +5,7 @@ title: Lines.ToText
 # Lines.ToText
 
 
-Metin listesini tek bir metne dönüştürür.  Belirtilen lineSeparator her satıra eklenir.  Belirtilmezse, satır başı ve satır akış karakterleri kullanılır.
+Metin listesini tek bir metne dönüştürür. Belirtilen lineSeparator her satıra eklenir. Belirtilmezse, satır başı ve satır akış karakterleri kullanılır.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Lines.ToText(
 
 ## Remarks
 
-Metin listesini tek bir metne dönüştürür.  Belirtilen lineSeparator her satıra eklenir.  Belirtilmezse, satır başı ve satır akış karakterleri kullanılır.
+Metin listesini tek bir metne dönüştürür. Belirtilen lineSeparator her satıra eklenir. Belirtilmezse, satır başı ve satır akış karakterleri kullanılır.
 
 
 

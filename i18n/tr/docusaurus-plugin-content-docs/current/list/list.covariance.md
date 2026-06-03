@@ -20,12 +20,12 @@ List.Covariance(
 
 ## Remarks
 
-<code>numberList1</code> ve <code>numberList2</code> sayı listeleri arasındaki kovaryansı döndürür. <code>numberList1</code> ve <code>numberList2</code> aynı sayıda <code>number</code> değerini içermelidir.
+`numberList1` ve `numberList2` sayı listeleri arasındaki kovaryansı döndürür. `numberList1` ve `numberList2` aynı sayıda `number` değerini içermelidir.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 İki liste arasındaki kovaryansı hesaplar.
 ```powerquery
 List.Covariance({1, 2, 3}, {1, 2, 3})

@@ -5,7 +5,7 @@ title: SapBusinessWarehouse.Cubes
 # SapBusinessWarehouse.Cubes
 
 
-Retourne les InfoCubes et les requêtes d&#39;un système SAP Business Warehouse, regroupés par InfoArea.
+Retourne les InfoCubes et les requêtes d'un système SAP Business Warehouse, regroupés par InfoArea.
 
 
 ## Syntax
@@ -23,7 +23,7 @@ SapBusinessWarehouse.Cubes(
 
 ## Remarks
 
-Retourne une table d'InfoCubes et de requêtes regroupés par InfoArea à partir d'une instance SAP Business Warehouse sur le serveur <code>server</code> avec le numéro de système <code>systemNumberOrSystemId</code> et l'ID de client <code>clientId</code>. Vous pouvez spécifier un paramètre d'enregistrement facultatif, <code>optionsOrLogonGroup</code>, pour contrôler les options suivantes :        
+Retourne une table d'InfoCubes et de requêtes regroupés par InfoArea à partir d'une instance SAP Business Warehouse sur le serveur `server` avec le numéro de système `systemNumberOrSystemId` et l'ID de client `clientId`. Vous pouvez spécifier un paramètre d'enregistrement facultatif, `optionsOrLogonGroup`, pour contrôler les options suivantes :
 
 
 

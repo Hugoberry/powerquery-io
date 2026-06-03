@@ -23,13 +23,13 @@ Table.AddJoinColumn(
 
 ## Remarks
 
-รวมแถวของ <code>table1</code> กับแถวของ <code>table2</code> ตามความเท่ากันของค่าคีย์คอลัมน์ที่เลือกโดย <code>key1</code> (สำหรับ <code>table1</code>) และ <code>key2</code> (สำหรับ <code>table2</code>) ผลลัพธ์จะถูกป้อนลงในคอลัมน์ที่ชื่อ <code>newColumnName</code>ฟังก์ชันนี้จะทำงานคล้ายกับ Table.Join ที่มี JoinKind ของ LeftOuter ยกเว้นตรงที่ผลลัพธ์การรวมจะปรากฏในลักษณะซ้อนกันแทนที่จะอยู่ในระนาบเดียวกัน
+รวมแถวของ `table1` กับแถวของ `table2` ตามความเท่ากันของค่าคีย์คอลัมน์ที่เลือกโดย `key1` (สำหรับ `table1`) และ `key2` (สำหรับ `table2`) ผลลัพธ์จะถูกป้อนลงในคอลัมน์ที่ชื่อ `newColumnName` ฟังก์ชันนี้จะทำงานคล้ายกับ Table.Join ที่มี JoinKind ของ LeftOuter ยกเว้นตรงที่ผลลัพธ์การรวมจะปรากฏในลักษณะซ้อนกันแทนที่จะอยู่ในระนาบเดียวกัน
 
 
 ## Examples
 
-### Example #1 
-เพิ่มคอลัมน์การรวมลงใน (\{[saleID = 1, item = &#34;Shirt&#34;], [saleID = 2, item = &#34;Hat&#34;]}) ที่ชื่อ &#34;price/stock&#34; จากตาราง (\{[saleID = 1, price = 20], [saleID = 2, price = 10]}) ที่รวมอยู่บน [saleID]
+### Example #1
+เพิ่มคอลัมน์การรวมลงใน (\{\[saleID = 1, item = "Shirt"\], \[saleID = 2, item = "Hat"\]\}) ที่ชื่อ "price/stock" จากตาราง (\{\[saleID = 1, price = 20\], \[saleID = 2, price = 10\]\}) ที่รวมอยู่บน \[saleID\]
 ```powerquery
 Table.AddJoinColumn(
     Table.FromRecords({

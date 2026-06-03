@@ -21,12 +21,12 @@ Table.InsertRows(
 
 ## Remarks
 
-Gibt eine Tabelle zurück, bei der die Liste <code>rows</code> der Zeilen in <code>table</code> an der angegebenen Position <code>offset</code> eingefügt wurde. Jede Spalte in der einzufügenden Zeile muss den Spaltentypen der Tabelle entsprechen.
+Gibt eine Tabelle zurück, bei der die Liste `rows` der Zeilen in `table` an der angegebenen Position `offset` eingefügt wurde. Jede Spalte in der einzufügenden Zeile muss den Spaltentypen der Tabelle entsprechen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Fügt die Zeile an der Position 1 in die Tabelle ein.
 ```powerquery
 Table.InsertRows(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Fügt zwei Zeilen an der Position 1 in die Tabelle ein.
 ```powerquery
 Table.InsertRows(

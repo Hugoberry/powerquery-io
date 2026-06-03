@@ -20,13 +20,16 @@ Text.Split(
 
 ## Remarks
 
-指定された区切り記号 <code>separator</code> に基づいてテキスト値 <code>text</code> を分割した結果のテキスト値の一覧を返します。
+指定された区切り記号に基づいてテキスト値を分割した結果のテキスト値のリストを返します。
+
+-   `text`: 分割するテキスト値。
+-   `separator`: テキストの分割に使用される区切り記号。区切り記号には、1 文字または一連の文字を指定できます。一連の文字が使用されている場合、テキストは正確な一連の文字が発生するインスタンスでのみ分割されます。
 
 
 ## Examples
 
-### Example #1 
-&#34;|&#34; で区切られたテキスト値 &#34;Name|Address|PhoneNumber&#34; から一覧を作成します。
+### Example #1
+"|" で区切られたテキスト値 "Name|Address|PhoneNumber" から一覧を作成します。
 ```powerquery
 Text.Split("Name|Address|PhoneNumber", "|")
 ```
@@ -37,6 +40,22 @@ Result:
     "Name",
     "Address",
     "PhoneNumber"
+}
+```
+
+
+### Example #2
+一連の文字を使用してテキスト値からリストを作成します。
+```powerquery
+Text.Split("Name, the Customer, the Purchase Date", ", the ")
+```
+
+Result: 
+```powerquery
+{
+    "Name",
+    "Customer",
+    "Purchase Date"
 }
 ```
 

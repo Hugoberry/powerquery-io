@@ -5,7 +5,7 @@ title: Table.FromRows
 # Table.FromRows
 
 
-Tworzy tabelę na podstawie listy wartości wiersza i kolumn opcjonalnych
+Tworzy tabelę na podstawie listy wartości wiersza i kolumn opcjonalnych.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Table.FromRows(
 
 ## Remarks
 
-Tworzy tabelę na podstawie listy <code>rows</code>, której każdy element jest listą wewnętrzną zawierającą wartości kolumn dla jednego wiersza. Dla elementu <code>columns</code> można określić opcjonalną listę nazw kolumn, typ tabeli lub liczbę kolumn.
+Tworzy tabelę na podstawie listy `rows`, której każdy element jest listą wewnętrzną zawierającą wartości kolumn dla jednego wiersza. Dla elementu `columns` można określić opcjonalną listę nazw kolumn, typ tabeli lub liczbę kolumn.
 
 
 ## Examples
 
-### Example #1 
-Zwraca tabelę z kolumną [CustomerID], która zawiera wartości \{1, 2}, kolumną [Name], która zawiera wartości \{&#34;Bob&#34;, &#34;Jim&#34;}, i kolumną [Phone] zawierającą wartości \{&#34;123-4567&#34;, &#34;987-6543&#34;}.
+### Example #1
+Zwraca tabelę z kolumną \[CustomerID\], która zawiera wartości \{1, 2\}, kolumną \[Name\], która zawiera wartości \{"Bob", "Jim"\}, i kolumną \[Phone\] zawierającą wartości \{"123-4567", "987-6543"\}.
 ```powerquery
 Table.FromRows(
     {
@@ -46,8 +46,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Zwraca tabelę z kolumną [CustomerID], która zawiera wartości \{1, 2}, kolumną [Name], która zawiera wartości \{&#34;Bob&#34;, &#34;Jim&#34;}, i kolumną [Phone] zawierającą wartości \{&#34;123-4567&#34;, &#34;987-6543&#34;}, gdzie kolumna [CustomerID] zawierają dane typu liczbowego, a kolumny [Name] i [Phone] zawierają wartości typu tekstowego.
+### Example #2
+Zwraca tabelę z kolumną \[CustomerID\], która zawiera wartości \{1, 2\}, kolumną \[Name\], która zawiera wartości \{"Bob", "Jim"\}, i kolumną \[Phone\] zawierającą wartości \{"123-4567", "987-6543"\}, gdzie kolumna \[CustomerID\] zawierają dane typu liczbowego, a kolumny \[Name\] i \[Phone\] zawierają wartości typu tekstowego.
 ```powerquery
 Table.FromRows(
     {

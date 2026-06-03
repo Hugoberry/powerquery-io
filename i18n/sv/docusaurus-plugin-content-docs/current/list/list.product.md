@@ -20,13 +20,13 @@ List.Product(
 
 ## Remarks
 
-Returnerar produkten av talen i listan, <code>numbersList</code>, som inte är null. Returnerar null om det inte finns några värden som inte är null i listan.
+Returnerar produkten av talen i listan, `numbersList`, som inte är null. Returnerar null om det inte finns några värden som inte är null i listan.
 
 
 ## Examples
 
-### Example #1 
-Hitta produkten av talen i listan &lt;code&gt;\{1, 2, 3, 3, 4, 5, 5}&lt;/code&gt;.
+### Example #1
+Hitta produkten av talen i listan `{1, 2, 3, 3, 4, 5, 5}`.
 ```powerquery
 List.Product({1, 2, 3, 3, 4, 5, 5})
 ```

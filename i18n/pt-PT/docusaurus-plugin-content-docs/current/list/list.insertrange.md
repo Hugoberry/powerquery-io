@@ -21,13 +21,17 @@ List.InsertRange(
 
 ## Remarks
 
-Devolve uma lista nova produzida pela inserção dos valores existentes em <code>values</code> em <code>list</code> em <code>index</code>. A primeira posição na lista encontra-se no índice 0.      <ul>        <li><code>list</code>: a lista de destino onde os valores devem ser inseridos.</li>        <li><code>index</code>: o índice da lista de destino (<code>list</code>) onde os valores devem ser inseridos. A primeira posição na lista encontra-se no índice 0.</li>        <li><code>values</code>: a lista de valores que devem ser inseridos em <code>list</code>.</li>      </ul>
+Devolve uma lista nova produzida pela inserção dos valores existentes em `values` em `list` em `index`. A primeira posição na lista encontra-se no índice 0.
+
+-   `list`: a lista de destino onde os valores devem ser inseridos.
+-   `index`: o índice da lista de destino (`list`) onde os valores devem ser inseridos. A primeira posição na lista encontra-se no índice 0.
+-   `values`: a lista de valores que devem ser inseridos em `list`.
 
 
 ## Examples
 
-### Example #1 
-Inserir a lista (\{3, 4}) na lista de destino (\{1, 2, 5}) no índice 2.
+### Example #1
+Inserir a lista (\{3, 4\}) na lista de destino (\{1, 2, 5\}) no índice 2.
 ```powerquery
 List.InsertRange({1, 2, 5}, 2, {3, 4})
 ```
@@ -44,8 +48,8 @@ Result:
 ```
 
 
-### Example #2 
-Inserir uma lista com uma lista aninhada (\{1, \{1.1, 1.2}}) numa lista de destino (\{2, 3, 4}) no índice 0.
+### Example #2
+Inserir uma lista com uma lista aninhada (\{1, \{1.1, 1.2\}\}) numa lista de destino (\{2, 3, 4\}) no índice 0.
 ```powerquery
 List.InsertRange({2, 3, 4}, 0, {1, {1.1, 1.2}})
 ```

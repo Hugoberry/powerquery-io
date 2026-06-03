@@ -20,12 +20,12 @@ Date.MonthName(
 
 ## Remarks
 
-Trả về tên cấu phần tháng cho <code>date</code> được cung cấp. <code>culture</code> tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
+Trả về tên cấu phần tháng cho `date` được cung cấp. `culture` tùy chọn cũng có thể được cung cấp (ví dụ: "en-US").
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Nhận tên tháng.
 ```powerquery
 Date.MonthName(#datetime(2011, 12, 31, 5, 0, 0), "en-US")

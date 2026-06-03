@@ -20,12 +20,12 @@ Text.Remove(
 
 ## Remarks
 
-Devuelve una copia del valor de texto <code>text</code> con todos los caracteres desde <code>removeChars</code> quitados.  
+Devuelve una copia del valor de texto `text` con todos los caracteres desde `removeChars` quitados.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Quitar los caracteres , y ; del valor de texto.
 ```powerquery
 Text.Remove("a,b;c", {",",";"})

@@ -19,13 +19,13 @@ Type.IsNullable(
 
 ## Remarks
 
-若類型為 <code>nullable</code> 類型時傳回 <code>true</code>；否則為 <code>false</code>。
+若類型為 `nullable` 類型時傳回 `true`；否則為 `false`。
 
 
 ## Examples
 
-### Example #1 
-判斷 &lt;code&gt;number&lt;/code&gt; 是否可為 Null。
+### Example #1
+判斷 `number` 是否可為 Null。
 ```powerquery
 Type.IsNullable(type number)
 ```
@@ -36,8 +36,8 @@ false
 ```
 
 
-### Example #2 
-判斷是否 &lt;code&gt;type nullable number&lt;/code&gt; 可為 Null。
+### Example #2
+判斷是否 `type nullable number` 可為 Null。
 ```powerquery
 Type.IsNullable(type nullable number)
 ```

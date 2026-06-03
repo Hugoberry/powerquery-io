@@ -19,12 +19,12 @@ Table.ToColumns(
 
 ## Remarks
 
-Skapar en lista med kapslade listor från tabellen, <code>table</code>. Varje listpost är en inre lista som innehåller kolumnvärdena.
+Skapar en lista med kapslade listor från tabellen, `table`. Varje listpost är en inre lista som innehåller kolumnvärdena.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Skapa en lista med kolumnvärdena från tabellen.
 ```powerquery
 Table.ToColumns(

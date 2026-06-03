@@ -5,7 +5,7 @@ title: Number.BitwiseAnd
 # Number.BitwiseAnd
 
 
-İki girdi arasında bit tabanlı &#34;And&#34; işlemi uygulamanın sonucunu döndürür.
+İki girdi arasında bit tabanlı "And" işlemi uygulamanın sonucunu döndürür.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Number.BitwiseAnd(
 
 ## Remarks
 
-<code>number1</code> ve <code>number2</code> arasında bit tabanlı "And" işlemi uygulamanın sonucunu döndürür.
+`number1` ve `number2` arasında bit tabanlı "And" işlemi uygulamanın sonucunu döndürür.
 
 
 

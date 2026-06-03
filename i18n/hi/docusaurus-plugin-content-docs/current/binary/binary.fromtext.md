@@ -20,13 +20,16 @@ Binary.FromText(
 
 ## Remarks
 
-पाठ मान <code>text</code> को रूपांतरित करने का परिणाम बाइनरी (<code>संख्या</code> की सूची) में लौटाता है. पाठ मान में उपयोग की गई एनकोडिंग को इंगित करने के लिए <code>encoding</code> को निर्दिष्ट किया जा सकता है.      निम्न <code>BinaryEncoding</code> मानों का उपयोग <code>encoding</code> के लिए किया जा सकता है.      <ul>        <li><code>BinaryEncoding.Base64</code>: बेस 64 एनकोडिंग</li>        <li><code>BinaryEncoding.Hex</code>: हेक्स एनकोडिंग</li>      </ul>
+पाठ मान `text` को रूपांतरित करने का परिणाम बाइनरी (`संख्या` की सूची) में लौटाता है. पाठ मान में उपयोग की गई एनकोडिंग को इंगित करने के लिए `encoding` को निर्दिष्ट किया जा सकता है. निम्न `BinaryEncoding` मानों का उपयोग `encoding` के लिए किया जा सकता है.
+
+-   `BinaryEncoding.Base64`: बेस 64 एनकोडिंग
+-   `BinaryEncoding.Hex`: हेक्स एनकोडिंग
 
 
 ## Examples
 
-### Example #1 
-&#34;1011&#34; को बाइनरी में डीकोड करें.
+### Example #1
+"1011" को बाइनरी में डीकोड करें.
 ```powerquery
 Binary.FromText("1011")
 ```
@@ -37,8 +40,8 @@ Binary.FromText("1011", BinaryEncoding.Base64)
 ```
 
 
-### Example #2 
-&#34;1011&#34; को हेक्स एन्कोडिंग के साथ बाइनरी में डीकोड करें.
+### Example #2
+"1011" को हेक्स एन्कोडिंग के साथ बाइनरी में डीकोड करें.
 ```powerquery
 Binary.FromText("1011", BinaryEncoding.Hex)
 ```

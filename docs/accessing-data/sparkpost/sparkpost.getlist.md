@@ -22,8 +22,8 @@ This function can be used to call any of the "Lists" endpoints offered by the Sp
 
 ## Examples
 
-### Example #1 
-Returns a table with a single column populated with data from one of the SparkPost API v1 &#34;Lists&#34; endpoints (see SparkPost documentation for details).
+### Example #1
+Returns a table with a single column populated with data from one of the SparkPost API v1 "Lists" endpoints (see SparkPost documentation for details).
 ```powerquery
 Source = SparkPost.GetList("metrics/campaigns")
 ```

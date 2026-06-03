@@ -25,7 +25,7 @@ Combiner.CombineTextByEachDelimiter(
 
 ## Examples
 
-### Example #1 
+### Example #1
 セミコロンの区切り記号を使用して、テキスト値のリストを結合します。
 ```powerquery
 Combiner.CombineTextByEachDelimiter({"=", "+"})({"a", "b", "c"})

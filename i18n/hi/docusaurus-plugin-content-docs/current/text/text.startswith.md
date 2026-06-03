@@ -21,13 +21,25 @@ Text.StartsWith(
 
 ## Remarks
 
-यदि पाठ मान <code>text</code> पाठ मान <code>substring</code> से प्रारंभ होता है, तो ट्रू वापस करता है.      <ul>        <li><code>text</code>: <i></i> एक <code>text</code> मान है जिसकी खोज करना है</li>        <li><code>substring</code>: <i></i> एक <code>पाठ</code> मान है जिसका <code>substring</code> में सबस्ट्रिंग की खोज करने के लिए </li>        <li><code>comparer</code>: <i>[Optional]</i> एक <code>तुलनाकर्ता</code> का तुलना नियंत्रित करने के लिए उपयोग किया जाता है. उदाहरण के लिए, <code>Comparer.OrdinalIgnoreCase</code> का केस-असंवेदनशील खोज पूरी करने के लिए उपयोग किया जा सकता है</li>      </ul>      <div>        <code>comparer</code> एक <code>Comparer</code> है जिसका तुलना को नियंत्रित करने के लिए उपयोग किया जाता है. तुलनाकर्ता केस-असंवेदी या कल्चर और लोकेल-संवेदी तुलना प्रदान करने के लिए उपयोग किए जा सकते है.      </div>      <div>        निम्नलिखित बिल्ट-इन तुलनाकर्ता सूत्र भाषा में उपलब्ध है:      </div>      <ul>        <li><code>Comparer.Ordinal</code>: सटीक क्रम तुलना पूरी करने के लिए उपयोग किया जाता है</li>        <li><code>Comparer.OrdinalIgnoreCase</code>: सटीक क्रम केस-असंवेदनशील तुलना पूरी करने के लिए उपयोग किया जाता है.</li>        <li> <code>Comparer.FromCulture</code>: कल्चर-संवेदी तुलना पूरी करने के लिए उपयोग किया जाता है</li>      </ul>
+अगर टेक्स्ट मान `text`, टेक्स्ट मान `substring` से शुरू होता है, तो true लौटाता है.
+
+-   `text`: एक `text` मान जिसे खोजा जाना है.
+-   `substring`: एक `text` मान, जो `text` में खोजा जाने वाला सबस्ट्रिंग है.
+-   `comparer`: *(वैकल्पिक)* तुलना को नियंत्रित करने के लिए प्रयुक्त एक `Comparer`. उदाहरण के लिए, केस-असंवेदी खोज करने के लिए `Comparer.OrdinalIgnoreCase` का उपयोग किया जा सकता है.
+
+`comparer` एक `Comparer` है, जिसका उपयोग तुलना को नियंत्रित करने के लिए किया जाता है. तुलनाकर्ताओं का उपयोग केस-असंवेदी या कल्चर और लोकेल-अवेयर तुलनाएँ प्रदान करने के लिए किया जा सकता है.
+
+निम्नलिखित अंतर्निहित तुलनाकर्ता सूत्र की भाषा में उपलब्ध हैं:
+
+-   `Comparer.Ordinal`: सटीक क्रमसूचक तुलना करने के लिए उपयोग किया जाता है.
+-   `Comparer.OrdinalIgnoreCase`: सटीक क्रमसूचक केस-असंवेदी तुलना करने के लिए उपयोग किया जाता है.
+-   `Comparer.FromCulture`: कल्चर से अवगत तुलना करने के लिए उपयोग किया जाता है.
 
 
 ## Examples
 
-### Example #1 
-जाँचें कि क्या पाठ &#34;Hello, World&#34; पाठ &#34;hello&#34; से प्रारंभ होता है.
+### Example #1
+जाँचें कि क्या पाठ "Hello, World" पाठ "hello" से प्रारंभ होता है.
 ```powerquery
 Text.StartsWith("Hello, World", "hello")
 ```
@@ -38,10 +50,22 @@ false
 ```
 
 
-### Example #2 
-जाँचें कि क्या पाठ &#34;Hello, World&#34; पाठ &#34;Hello&#34; से प्रारंभ होता है.
+### Example #2
+जाँचें कि क्या पाठ "Hello, World" पाठ "Hello" से प्रारंभ होता है.
 ```powerquery
 Text.StartsWith("Hello, World", "Hello")
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+### Example #3
+केस पर ध्यान न देते हुए, जाँचें कि क्या पाठ "Hello, World" पाठ "hello" से प्रारंभ होता है.
+```powerquery
+Text.StartsWith("Hello, World", "hello", Comparer.OrdinalIgnoreCase)
 ```
 
 Result: 

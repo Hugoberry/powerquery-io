@@ -19,12 +19,12 @@ Number.IsOdd(
 
 ## Remarks
 
-Wskazuje, czy wartość jest nieparzysta. Zwraca wartość <code>true</code>, jeśli wartość <code>number</code> jest liczbą nieparzystą; w przeciwnym razie zwraca wartość <code>false</code>.
+Wskazuje, czy wartość jest nieparzysta. Zwraca wartość `true`, jeśli wartość `number` jest liczbą nieparzystą; w przeciwnym razie zwraca wartość `false`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Sprawdź, czy liczba 625 jest liczbą nieparzystą.
 ```powerquery
 Number.IsOdd(625)
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Sprawdź, czy liczba 82 jest liczbą nieparzystą.
 ```powerquery
 Number.IsOdd(82)

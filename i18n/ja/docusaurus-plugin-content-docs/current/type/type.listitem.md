@@ -19,13 +19,13 @@ Type.ListItem(
 
 ## Remarks
 
-リスト <code>type</code> からアイテム型を返します。
+リスト `type` からアイテム型を返します。
 
 
 ## Examples
 
-### Example #1 
-リスト &lt;code&gt;\{number}&lt;/code&gt; からアイテム型を検索します。
+### Example #1
+リスト `{number}` からアイテム型を検索します。
 ```powerquery
 Type.ListItem(type {number})
 ```

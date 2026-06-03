@@ -21,13 +21,13 @@ Record.FieldOrDefault(
 
 ## Remarks
 
-返回记录 <code>record</code> 中指定字段 <code>field</code> 的值。如果未找到该字段，则返回可选的 <code>defaultValue</code>。
+返回记录 `record` 中指定字段 `field` 的值。如果未找到该字段，则返回可选的 `defaultValue`。
 
 
 ## Examples
 
-### Example #1 
-在记录中查找字段 &#34;Phone&#34; 的值，如果它不存在，则返回 null。
+### Example #1
+在记录中查找字段 "Phone" 的值，如果它不存在，则返回 null。
 ```powerquery
 Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone")
 ```
@@ -38,8 +38,8 @@ null
 ```
 
 
-### Example #2 
-在记录中查找字段 &#34;Phone&#34; 的值，如果它不存在，则返回默认值。
+### Example #2
+在记录中查找字段 "Phone" 的值，如果它不存在，则返回默认值。
 ```powerquery
 Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone", "123-4567")
 ```

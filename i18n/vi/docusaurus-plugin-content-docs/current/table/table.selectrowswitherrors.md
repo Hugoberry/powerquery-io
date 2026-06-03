@@ -25,7 +25,7 @@ Trả về một bảng chỉ có các hàng bị lỗi ít nhất một ô bị
 
 ## Examples
 
-### Example #1 
+### Example #1
 Chọn tên của khách hàng có lỗi trong hàng.
 ```powerquery
 Table.SelectRowsWithErrors(

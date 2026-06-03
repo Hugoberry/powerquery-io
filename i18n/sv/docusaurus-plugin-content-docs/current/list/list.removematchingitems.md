@@ -21,13 +21,13 @@ List.RemoveMatchingItems(
 
 ## Remarks
 
-Tar bort alla förekomster av de angivna värdena i <code>list2</code> från listan <code>list1</code>. Om värdena i <code>list2</code> inte finns i <code>list1</code> returneras den ursprungliga listan.    Ett valfritt ekvationsvillkorsvärde, <code>equationCriteria</code>, kan anges för att hantera likhetstestning. 
+Tar bort alla förekomster av de angivna värdena i `list2` från listan `list1`. Om värdena i `list2` inte finns i `list1` returneras den ursprungliga listan. Ett valfritt ekvationsvillkorsvärde, `equationCriteria`, kan anges för att hantera likhetstestning.
 
 
 ## Examples
 
-### Example #1 
-Skapa en lista från \{1, 2, 3, 4, 5, 5} utan \{1, 5}.
+### Example #1
+Skapa en lista från \{1, 2, 3, 4, 5, 5\} utan \{1, 5\}.
 ```powerquery
 List.RemoveMatchingItems({1, 2, 3, 4, 5, 5}, {1, 5})
 ```

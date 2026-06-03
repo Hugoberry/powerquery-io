@@ -19,12 +19,12 @@ Time.StartOfHour(
 
 ## Remarks
 
-Returnerer starten af timen, der repræsenteres af <code>dateTime</code>.    <code>dateTime</code> skal være en værdi af typen <code>time</code>, <code>datetime</code> eller <code>datetimezone</code>.
+Returnerer starten af timen, der repræsenteres af `dateTime`. `dateTime` skal være en værdi af typen `time`, `datetime` eller `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find starten af tidspunktet for 10. oktober 2011, klokken 8:10:32.
 ```powerquery
 Time.StartOfHour(#datetime(2011, 10, 10, 8, 10, 32))

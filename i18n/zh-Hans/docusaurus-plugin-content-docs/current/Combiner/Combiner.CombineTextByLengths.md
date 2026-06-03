@@ -25,7 +25,7 @@ Combiner.CombineTextByLengths(
 
 ## Examples
 
-### Example #1 
+### Example #1
 通过从每个输入值中提取指定数量的字符，合并文本值列表。
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3})({"aaa", "bbb", "ccc"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 在第一次使用模板文本预填充结果后，通过提取指定数量的字符来合并文本值列表。
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3}, "*********")({"aaa", "bbb", "ccc"})

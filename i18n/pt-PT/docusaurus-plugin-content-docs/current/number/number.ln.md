@@ -19,12 +19,12 @@ Number.Ln(
 
 ## Remarks
 
-Devolve o logaritmo natural de um número, <code>number</code>. Se <code>number</code> for nulo, <code>Number.Ln</code> devolverá um valor nulo.
+Devolve o logaritmo natural de um número, `number`. Se `number` for nulo, `Number.Ln` devolverá um valor nulo.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Obter o logaritmo natural de 15.
 ```powerquery
 Number.Ln(15)

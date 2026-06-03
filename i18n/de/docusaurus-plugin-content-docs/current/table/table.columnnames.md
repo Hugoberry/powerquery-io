@@ -19,12 +19,12 @@ Table.ColumnNames(
 
 ## Remarks
 
-Gibt die Spaltennamen in der Tabelle "<code>table</code>" als Liste mit Text zurück.
+Gibt die Spaltennamen in der Tabelle "`table`" als Liste mit Text zurück.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ermittelt die Spaltennamen der Tabelle.
 ```powerquery
 Table.ColumnNames(

@@ -21,12 +21,12 @@ Text.Format(
 
 ## Remarks
 
-Hiermee wordt opgemaakte tekst geretourneerd waarbij <code>arguments</code> uit een lijst of record wordt toegepast op een notatietekenreeks <code>formatString</code>. Er kan ook een optionele <code>culture</code> worden opgegeven (bijvoorbeeld: nl-NL).
+Hiermee wordt opgemaakte tekst geretourneerd waarbij `arguments` uit een lijst of record wordt toegepast op een notatietekenreeks `formatString`. Er kan ook een optionele `culture` worden opgegeven (bijvoorbeeld: nl-NL).
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een lijst met getallen opmaken.
 ```powerquery
 Text.Format("#{0}, #{1}, and #{2}.", {17, 7, 22})
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Verschillende gegevenstypen van een record opmaken op basis van de cultuur Engels (Verenigde Staten).
 ```powerquery
 Text.Format(

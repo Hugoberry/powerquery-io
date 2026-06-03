@@ -19,12 +19,12 @@ Date.StartOfMonth(
 
 ## Remarks
 
-傳回包含 <code>dateTime</code> 的月度開始時間。    <code>dateTime</code>必須是 <code>date</code> 或 <code>datetime</code>值。
+傳回包含 `dateTime` 的月度開始時間。 `dateTime`必須是 `date` 或 `datetime`值。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 找出 2011 年 10 月 10 日上午 8:10:32 的月度開始時間。
 ```powerquery
 Date.StartOfMonth(#datetime(2011, 10, 10, 8, 10, 32))

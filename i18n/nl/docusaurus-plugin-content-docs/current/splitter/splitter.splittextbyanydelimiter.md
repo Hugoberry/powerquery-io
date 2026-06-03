@@ -26,8 +26,8 @@ Retourneert een functie die bij elk van de opgegeven scheidingstekens tekst spli
 
 ## Examples
 
-### Example #1 
-Splits de invoer door komma&#39;s of puntkomma&#39;s, waarbij aanhalingstekens en scheidingstekens tussen citaten worden genegeerd en beginnend vanaf het begin van de invoer.
+### Example #1
+Splits de invoer door komma's of puntkomma's, waarbij aanhalingstekens en scheidingstekens tussen citaten worden genegeerd en beginnend vanaf het begin van de invoer.
 ```powerquery
 Splitter.SplitTextByAnyDelimiter({",", ";"}, QuoteStyle.Csv)("a,b;""c,d;e"",f")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Splits de invoer door komma&#39;s of puntkomma&#39;s, waarbij aanhalingstekens en scheidingstekens tussen citaten worden genegeerd en beginnend vanaf het einde van de invoer.
+### Example #2
+Splits de invoer door komma's of puntkomma's, waarbij aanhalingstekens en scheidingstekens tussen citaten worden genegeerd en beginnend vanaf het einde van de invoer.
 ```powerquery
 let
     startAtEnd = true

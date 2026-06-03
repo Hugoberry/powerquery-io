@@ -20,12 +20,12 @@ Date.DayOfWeekName(
 
 ## Remarks
 
-Returnerar veckonamnet för angivet <code>date</code>. En valfri <code>culture</code> kan även anges (till exempel "en-US").
+Returnerar veckonamnet för angivet `date`. En valfri `culture` kan även anges (till exempel "en-US").
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hämta namnet på veckodagen.
 ```powerquery
 Date.DayOfWeekName(#date(2011, 12, 31), "en-US")

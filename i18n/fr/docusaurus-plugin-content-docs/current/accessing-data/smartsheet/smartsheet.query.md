@@ -5,7 +5,7 @@ title: Smartsheet.Query
 # Smartsheet.Query
 
 
-Retourne un résultat JSON à partir de l&#39;API Smartsheet
+Retourne un résultat JSON à partir de l'API Smartsheet
 
 
 ## Syntax
@@ -26,8 +26,8 @@ Effectue un appel à l'API REST Smartsheet 2.0 au niveau du point de terminaiso
 
 ## Examples
 
-### Example #1 
-Extrait des données à partir du point de terminaison d&#39;API Smartsheet des feuilles avec des arguments supplémentaires spécifiés
+### Example #1
+Extrait des données à partir du point de terminaison d'API Smartsheet des feuilles avec des arguments supplémentaires spécifiés
 ```powerquery
 Smartsheet.Content("sheets", "include=ownerInfo&includeAll=true", [])
 ```

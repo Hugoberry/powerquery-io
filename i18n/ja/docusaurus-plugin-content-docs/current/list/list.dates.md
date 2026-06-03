@@ -21,13 +21,13 @@ List.Dates(
 
 ## Remarks
 
-<code>start</code> で始まりサイズが <code>count</code> の <code>date</code> 値のリストを返します。指定された増分 <code>step</code> は、すべての値に追加される <code>duration</code> 値です。
+`start` で始まりサイズが `count` の `date` 値のリストを返します。指定された増分 `step` は、すべての値に追加される `duration` 値です。
 
 
 ## Examples
 
-### Example #1 
-大晦日から始まり (#date(2011, 12, 31))、1 日ずつ増分される (#duration(1, 0, 0, 0)) 5 個の値のリストを作成します。
+### Example #1
+大晦日から始まり (#date(2011, 12, 31))、1 日ずつ増分される (#duration(1, 0, 0, 0))、5 個の値のリストを作成します。
 ```powerquery
 List.Dates(#date(2011, 12, 31), 5, #duration(1, 0, 0, 0))
 ```

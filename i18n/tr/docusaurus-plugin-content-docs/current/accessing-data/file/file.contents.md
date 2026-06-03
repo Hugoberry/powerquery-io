@@ -20,7 +20,7 @@ File.Contents(
 
 ## Remarks
 
-<code>path</code> dosyasının içeriğini ikili olarak döndürür. <code>options</code> parametresi şu anda yalnızca dahili kullanıma yöneliktir.
+`path` dosyasının içeriğini ikili olarak döndürür. `options` parametresi şu anda yalnızca dahili kullanıma yöneliktir.
 
 
 

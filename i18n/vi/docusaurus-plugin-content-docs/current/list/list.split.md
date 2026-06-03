@@ -20,7 +20,7 @@ List.Split(
 
 ## Remarks
 
-Tách <code>list</code> thành danh sách của các danh sách, nơi phần tử đầu tiên của danh sách đầu ra là một danh sách chứa phần tử <code>pageSize</code> đầu tiên từ    danh sách nguồn, phần tử tiếp theo của danh sách đầu ra là một danh sách chứa phần tử <code>pageSize</code> tiếp theo từ danh sách nguồn, v.v.
+Tách `list` thành danh sách của các danh sách, nơi phần tử đầu tiên của danh sách đầu ra là một danh sách chứa phần tử `pageSize` đầu tiên từ danh sách nguồn, phần tử tiếp theo của danh sách đầu ra là một danh sách chứa phần tử `pageSize` tiếp theo từ danh sách nguồn, v.v.
 
 
 

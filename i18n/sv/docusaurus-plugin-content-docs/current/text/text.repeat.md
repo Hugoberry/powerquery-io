@@ -20,13 +20,13 @@ Text.Repeat(
 
 ## Remarks
 
-Returnerar ett textvärde bestående av indatatexten <code>text</code> som upprepas <code>count</code> gånger.
+Returnerar ett textvärde bestående av indatatexten `text` som upprepas `count` gånger.
 
 
 ## Examples
 
-### Example #1 
-Upprepa texten &#34;a&#34; fem gånger.
+### Example #1
+Upprepa texten "a" fem gånger.
 ```powerquery
 Text.Repeat("a", 5)
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Upprepa texten &#34;helloworld&#34; tre gånger.
+### Example #2
+Upprepa texten "helloworld" tre gånger.
 ```powerquery
 Text.Repeat("helloworld.", 3)
 ```

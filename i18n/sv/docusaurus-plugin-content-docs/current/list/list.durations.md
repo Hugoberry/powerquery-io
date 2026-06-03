@@ -21,12 +21,12 @@ List.Durations(
 
 ## Remarks
 
-Returnerar en lista med <code>count</code> <code>duration</code>-värden med början från <code>start</code> som ökar med <code>duration</code>-värdet <code>step</code>.
+Returnerar en lista med `count` `duration`\-värden med början från `start` som ökar med `duration`\-värdet `step`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Skapa en lista med 5 värden med början från 1 timma och öka i steg om en timma.
 ```powerquery
 List.Durations(#duration(0, 1, 0, 0), 5, #duration(0, 1, 0, 0))

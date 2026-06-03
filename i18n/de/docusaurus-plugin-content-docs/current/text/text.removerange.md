@@ -21,13 +21,13 @@ Text.RemoveRange(
 
 ## Remarks
 
-Gibt eine Kopie des Textwerts "<code>text</code>" zurück, in der alle Zeichen ab Position <code>offset</code> entfernt wurden.    Die Anzahl der zu entfernenden Zeichen kann mithilfe des optionalen Parameters "<code>count</code>" angegeben werden. Der Standardwert von "<code>count</code>" lautet 1. Positionswerte beginnen bei 0.
+Gibt eine Kopie des Textwerts "`text`" zurück, in der alle Zeichen ab Position `offset` entfernt wurden. Die Anzahl der zu entfernenden Zeichen kann mithilfe des optionalen Parameters "`count`" angegeben werden. Der Standardwert von "`count`" lautet 1. Positionswerte beginnen bei 0.
 
 
 ## Examples
 
-### Example #1 
-Entfernt an Position 2 ein Zeichen aus dem Textwert &#34;ABEFC&#34;.
+### Example #1
+Entfernt an Position 2 ein Zeichen aus dem Textwert "ABEFC".
 ```powerquery
 Text.RemoveRange("ABEFC", 2)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Entfernt ab Position 2 zwei Zeichen aus dem Textwert &#34;ABEFC&#34;
+### Example #2
+Entfernt ab Position 2 zwei Zeichen aus dem Textwert "ABEFC"
 ```powerquery
 Text.RemoveRange("ABEFC", 2, 2)
 ```

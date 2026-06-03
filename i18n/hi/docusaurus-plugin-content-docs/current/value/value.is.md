@@ -25,7 +25,7 @@ Value.Is(
 
 ## Examples
 
-### Example #1 
+### Example #1
 क्या कोई नंबर, प्रकार नंबर के साथ संगत है, यह निर्धारित करने के दो तरीकों की तुलना करें.
 ```powerquery
 Value.Is(123, Number.Type) = (123 is number)

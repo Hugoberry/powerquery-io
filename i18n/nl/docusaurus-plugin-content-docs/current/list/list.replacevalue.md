@@ -22,13 +22,13 @@ List.ReplaceValue(
 
 ## Remarks
 
-Zoekt een lijst met waarden, <code>list</code>, voor de waarde <code>oldValue</code> en vervangt elke instantie van die waarde door een de waarde <code>newValue</code>.
+Zoekt een lijst met waarden, `list`, voor de waarde `oldValue` en vervangt elke instantie van die waarde door een de waarde `newValue`.
 
 
 ## Examples
 
-### Example #1 
-Elke &#34;a&#34; in de lijst \{&#34;a&#34;, &#34;B&#34;, &#34;a&#34;, &#34;a&#34;} vervangen door een &#34;A&#34;.
+### Example #1
+Elke "a" in de lijst \{"a", "B", "a", "a"\} vervangen door een "A".
 ```powerquery
 List.ReplaceValue({"a", "B", "a", "a"}, "a", "A", Replacer.ReplaceText)
 ```

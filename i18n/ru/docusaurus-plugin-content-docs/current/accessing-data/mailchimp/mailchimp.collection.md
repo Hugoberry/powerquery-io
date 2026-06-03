@@ -25,7 +25,7 @@ MailChimp.Collection(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Получает таблицу данных от конечной точки списков API MailChimp.
 ```powerquery
 MailChimp.Collection("lists")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Получает таблицу данных от конечной точки папок кампаний API MailChimp.
 ```powerquery
 MailChimp.Collection("campaign-folders", "folders")

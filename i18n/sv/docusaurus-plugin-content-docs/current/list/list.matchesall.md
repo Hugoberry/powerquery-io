@@ -20,13 +20,16 @@ List.MatchesAll(
 
 ## Remarks
 
-Returnerar <code>true</code> om alla värden i listan <code>list</code> uppfyller condition-funktionen, <code>condition</code>. Annars returneras <code>false</code>.
+Returnerar `true` om alla värden i listan uppfyller condition-funktionen. Annars returneras `false`.
+
+-   `list`: Listan som innehåller de värden som ska kontrolleras.
+-   `condition`: Villkoret att kontrollera mot värdena i listan.
 
 
 ## Examples
 
-### Example #1 
-Kontrollera om alla värden i listan \{11, 12, 13} är större än 10.
+### Example #1
+Kontrollera om alla värden i listan \{11, 12, 13\} är större än 10.
 ```powerquery
 List.MatchesAll({11, 12, 13}, each _  > 10)
 ```
@@ -37,8 +40,8 @@ true
 ```
 
 
-### Example #2 
-Kontrollera om alla värden i listan \{1, 2, 3} är större än 10.
+### Example #2
+Kontrollera om alla värden i listan \{1, 2, 3\} är större än 10.
 ```powerquery
 List.MatchesAll({1, 2, 3}, each _  > 10)
 ```
@@ -46,6 +49,38 @@ List.MatchesAll({1, 2, 3}, each _  > 10)
 Result: 
 ```powerquery
 false
+```
+
+
+### Example #3
+Kontrollera om alla textvärden i listan innehåller "anna" samtidigt som skiftläge ignoreras.
+```powerquery
+let
+    Source = {"Savannah", "Annabelle", "Annals", "wannabe", "MANNA"},
+    Result = List.MatchesAll(Source, each Text.Contains(_, "anna", Comparer.OrdinalIgnoreCase))
+in
+    Result
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+### Example #4
+Avgör om alla datum innehåller år 2021.
+```powerquery
+let
+    Source = {#date(2021, 11, 28), #date(2021, 1, 14), #date(2021, 12, 31), #date(2021, 7, 6)},
+    Result = List.MatchesAll(Source, each Date.Year(_) = 2021)
+in
+    Result
+```
+
+Result: 
+```powerquery
+true
 ```
 
 

@@ -20,13 +20,13 @@ Text.Lower(
 
 ## Remarks
 
-Returnerar resultatet av att konvertera alla tecken i <code>text</code> till gemener. En valfri <code>culture</code> kan även anges (till exempel "en-US").
+Returnerar resultatet av att konvertera alla tecken i `text` till gemener. En valfri `culture` kan även anges (till exempel "en-US").
 
 
 ## Examples
 
-### Example #1 
-Hämta &#34;AbCd&#34; med gemener.
+### Example #1
+Hämta "AbCd" med gemener.
 ```powerquery
 Text.Lower("AbCd")
 ```

@@ -5,7 +5,7 @@ title: Binary.ViewError
 # Binary.ViewError
 
 
-Erstellt einen geänderten Fehlerdatensatz, der keinen Fallback auslöst, wenn er von einem Handler ausgelöst wird, der für eine Sicht definiert ist (über Binary.View).
+Erstellt einen geänderten Fehlerdatensatz, der kein Fallback auslöst, wenn er von einem Handler ausgelöst wird, der für eine Sicht definiert ist (über Binary.View).
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Binary.ViewError(
 
 ## Remarks
 
-Erstellt einen geänderten Fehlerdatensatz von <code>errorRecord</code>, der keinen Fallback auslöst, wenn er von einem Handler ausgelöst wird, der für eine Sicht definiert ist (über Binary.View).
+Erstellt einen geänderten Fehlerdatensatz von`errorRecord`, was kein Fallback auslöst, wenn er von einem Handler ausgelöst wird, der für eine Sicht definiert ist (über Binary.View).
 
 
 

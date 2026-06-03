@@ -25,8 +25,8 @@ Retourne une fonction qui fractionne le texte en une liste de textes à chaque p
 
 ## Examples
 
-### Example #1 
-Divise l&#39;entrée aux positions spécifiées, en commençant par le début de l&#39;entrée.
+### Example #1
+Divise l'entrée aux positions spécifiées, en commençant par le début de l'entrée.
 ```powerquery
 Splitter.SplitTextByPositions({0, 3, 4})("ABC|12345")
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Divise l&#39;entrée aux positions spécifiées, en commençant par la fin de l&#39;entrée.
+### Example #2
+Divise l'entrée aux positions spécifiées, en commençant par la fin de l'entrée.
 ```powerquery
 let
     startAtEnd = true

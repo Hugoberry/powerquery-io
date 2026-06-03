@@ -20,13 +20,13 @@ List.Transform(
 
 ## Remarks
 
-Returnerer en ny liste over værdier ved at anvende transformationsfunktionen <code>transform</code> på listen <code>list</code>.
+Returnerer en ny liste over værdier ved at anvende transformationsfunktionen `transform` på listen `list`.
 
 
 ## Examples
 
-### Example #1 
-Føj 1 til de enkelte værdier på listen \{1, 2}.
+### Example #1
+Føj 1 til de enkelte værdier på listen \{1, 2\}.
 ```powerquery
 List.Transform({1, 2}, each _ + 1)
 ```

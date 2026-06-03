@@ -20,12 +20,16 @@ Table.RemoveFirstN(
 
 ## Remarks
 
-Trả về một bảng không chứa số lượng hàng được chỉ định đầu tiên <code>countOrCondition</code> của bảng <code>table</code>.    Số lượng hàng bị loại bỏ tùy theo tham số tùy chọn <code>countOrCondition</code>.    <ul>    <li> Nếu <code>countOrCondition</code> bị bỏ qua thì chỉ hàng đầu tiên bị loại bỏ. </li>    <li> Nếu <code>countOrCondition</code> là một số thì nhiều hàng (bắt đầu từ trên cùng) sẽ bị loại bỏ. </li>    <li> Nếu <code>countOrCondition</code> là một điều kiện thì các hàng đáp ứng điều kiện này sẽ bị loại bỏ cho đến khi một hàng không đáp ứng điều kiện.</li>    </ul>
+Trả về một bảng không chứa số lượng hàng được chỉ định đầu tiên `countOrCondition` của bảng `table`. Số lượng hàng bị loại bỏ tùy theo tham số tùy chọn `countOrCondition`.
+
+-   Nếu `countOrCondition` bị bỏ qua thì chỉ hàng đầu tiên bị loại bỏ.
+-   Nếu `countOrCondition` là một số thì nhiều hàng (bắt đầu từ trên cùng) sẽ bị loại bỏ.
+-   Nếu `countOrCondition` là một điều kiện thì các hàng đáp ứng điều kiện này sẽ bị loại bỏ cho đến khi một hàng không đáp ứng điều kiện.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Loại bỏ hàng đầu tiên của bảng.
 ```powerquery
 Table.RemoveFirstN(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Loại bỏ hai hàng đầu tiên của bảng.
 ```powerquery
 Table.RemoveFirstN(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Loại bỏ các hàng đầu tiên trong đó [CustomerID] &lt;=2 của bảng.
+### Example #3
+Loại bỏ các hàng đầu tiên trong đó \[CustomerID\] &lt;=2 của bảng.
 ```powerquery
 Table.RemoveFirstN(
     Table.FromRecords({

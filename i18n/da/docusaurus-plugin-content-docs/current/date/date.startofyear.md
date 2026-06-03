@@ -19,12 +19,12 @@ Date.StartOfYear(
 
 ## Remarks
 
-Returnerer starten af året, der indeholder <code>dateTime</code>.    <code>dateTime</code> skal være en værdi af typen <code>date</code>, <code>datetime</code> eller <code>datetimezone</code>.
+Returnerer starten af året, der indeholder `dateTime`. `dateTime` skal være en værdi af typen `date`, `datetime` eller `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Find årets start for 10. oktober 2011, klokken 8:10:32.
 ```powerquery
 Date.StartOfYear(#datetime(2011, 10, 10, 8, 10, 32))

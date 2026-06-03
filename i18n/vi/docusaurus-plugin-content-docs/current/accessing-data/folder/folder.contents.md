@@ -20,7 +20,7 @@ Folder.Contents(
 
 ## Remarks
 
-Trả về một bảng chứa một hàng cho mỗi thư mục và tệp tìm được trong thư mục <code>path</code>. Mỗi hàng chứa thuộc tính của thư mục hoặc tệp và một liên kết tới nội dung của thư mục/tệp đó. Tham số <code>options</code> hiện chỉ nhằm mục đích sử dụng nội bộ.
+Trả về một bảng chứa một hàng cho mỗi thư mục và tệp tìm được trong thư mục `path`. Mỗi hàng chứa thuộc tính của thư mục hoặc tệp và một liên kết tới nội dung của thư mục/tệp đó. Tham số `options` hiện chỉ nhằm mục đích sử dụng nội bộ.
 
 
 

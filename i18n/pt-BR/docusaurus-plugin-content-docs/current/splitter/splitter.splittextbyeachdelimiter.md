@@ -26,7 +26,7 @@ Retorna uma função que divide o texto em uma lista de texto em cada delimitado
 
 ## Examples
 
-### Example #1 
+### Example #1
 Divida a entrada por vírgula e, em seguida, ponto e vírgula, começando do início da entrada.
 ```powerquery
 Splitter.SplitTextByEachDelimiter({",", ";"})("a,b;c,d")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Divida a entrada por vírgula e, em seguida, ponto e vírgula, tratando aspas como qualquer outro caractere e começando do final da entrada.
 ```powerquery
 let

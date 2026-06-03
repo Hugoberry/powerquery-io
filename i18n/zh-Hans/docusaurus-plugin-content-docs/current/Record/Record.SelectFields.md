@@ -21,13 +21,13 @@ Record.SelectFields(
 
 ## Remarks
 
-从输入 <code>record</code> 返回一个记录，该记录仅包含在列表 <code>fields</code> 中指定的字段。
+从输入 `record` 返回一个记录，该记录仅包含在列表 `fields` 中指定的字段。
 
 
 ## Examples
 
-### Example #1 
-在记录中选择字段 &#34;Item&#34; 和 &#34;Price&#34;。
+### Example #1
+在记录中选择字段 "Item" 和 "Price"。
 ```powerquery
 Record.SelectFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0],

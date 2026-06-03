@@ -19,7 +19,7 @@ Excel.CurrentWorkbook(
 
 ## Remarks
 
-Hiermee wordt de inhoud van de huidige Excel-werkmap geretourneerd. Het retourneert tabellen, benoemde bereiken en dynamische matrices. In tegenstelling tot <code>Excel.Workbook-</code>, worden geen bladen geretourneerd.
+Hiermee wordt de inhoud van de huidige Excel-werkmap geretourneerd. Het retourneert tabellen, benoemde bereiken en dynamische matrices. In tegenstelling tot `Excel.Workbook-`, worden geen bladen geretourneerd.
 
 
 

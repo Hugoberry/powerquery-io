@@ -20,12 +20,12 @@ Value.ReplaceType(
 
 ## Remarks
 
-Thay thế loại của <code>value</code> bằng <code>type</code> được cung cấp.
+Thay thế loại của `value` bằng `type` được cung cấp.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Thay thế loại mặc định của bản ghi với loại cụ thể hơn.
 ```powerquery
 Type.RecordFields(

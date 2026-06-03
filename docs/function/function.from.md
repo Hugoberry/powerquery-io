@@ -5,7 +5,7 @@ title: Function.From
 # Function.From
 
 
-Creates a function with a specific parameter signature on top of a function that takes a single list argument
+Creates a function with a specific parameter signature on top of a function that takes a single list argument.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Function.From(
 
 ## Remarks
 
-Takes a unary function <code>function</code> and creates a new function with the type <code>functionType</code> that constructs a list out of its arguments and passes it to <code>function</code>.
+Takes a unary function `function` and creates a new function with the type `functionType` that constructs a list out of its arguments and passes it to `function`.
 
 
 ## Examples
 
-### Example #1 
-Converts List.Sum into a two-argument function whose arguments are added together
+### Example #1
+Converts List.Sum into a two-argument function whose arguments are added together.
 ```powerquery
 Function.From(type function (a as number, b as number) as number, List.Sum)(2, 1)
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-Converts a function taking a list into a two-argument function
+### Example #2
+Converts a function taking a list into a two-argument function.
 ```powerquery
 Function.From(type function (a as text, b as text) as text, (list) => list{0} & list{1})("2", "1")
 ```

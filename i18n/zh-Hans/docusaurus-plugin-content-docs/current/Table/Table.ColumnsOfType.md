@@ -20,12 +20,12 @@ Table.ColumnsOfType(
 
 ## Remarks
 
-返回带有与 <code>listOfTypes</code> 中指定的类型相匹配的表 <code>table</code> 中的列名的列表。
+返回带有与 `listOfTypes` 中指定的类型相匹配的表 `table` 中的列名的列表。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 返回表中类型 Number.Type 的列名。
 ```powerquery
 Table.ColumnsOfType(

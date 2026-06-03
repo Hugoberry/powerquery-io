@@ -19,13 +19,15 @@ Number.Abs(
 
 ## Remarks
 
-傳回 <code>number</code> 的絕對值。如果 <code>number</code> 是 Null，<code>Number.Abs</code> 會傳回 Null。    <ul>        <li><code>number</code>: 要計算其絕對值的 <code>number</code>。</li>      </ul>
+傳回 `number` 的絕對值。如果 `number` 是 Null，`Number.Abs` 會傳回 Null。
+
+-   `number`: 要計算其絕對值的 `number`。
 
 
 ## Examples
 
-### Example #1 
--3 的絕對值。
+### Example #1
+\-3 的絕對值。
 ```powerquery
 Number.Abs(-3)
 ```

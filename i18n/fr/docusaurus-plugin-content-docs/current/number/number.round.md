@@ -5,7 +5,7 @@ title: Number.Round
 # Number.Round
 
 
-Retourne le nombre arrondi. Le nombre de chiffres et le mode d&#39;arrondi peut être spécifié.
+Retourne le nombre arrondi. Le nombre de chiffres et le mode d'arrondi peut être spécifié.
 
 
 ## Syntax
@@ -21,13 +21,20 @@ Number.Round(
 
 ## Remarks
 
-Retourne le résultat de l’arrondi <code>number</code> au nombre le plus proche. Si <code>number</code> a la valeur null, <code>Number.Round</code> retourne null. <br />      <br /> Par défaut, <code>number</code> est arrondi à l’entier le plus proche, et les liens sont rompus en arrondissant au nombre pair le plus proche (à l’aide de <code>RoundingMode.ToEven</code>, également appelé "arrondi bancaire"). <br />      <br />      Toutefois, ces valeurs par défaut peuvent être remplacées par les paramètres facultatifs suivants.       <ul>        <li><code>digits</code>Causes<code>number</code>: entraîne l’arrondissement au nombre spécifié de chiffres décimaux. </li>        <li><code>roundingMode</code>: remplace le comportement de liaison par défaut lorsque <code>number</code> est au niveau du milieu entre deux valeurs arrondies potentielles      (référez-vous à<code>RoundingMode.Type</code> pour connaître les valeurs possibles). </li>      </ul>
+Retourne le résultat de l’arrondi `number` au nombre le plus proche. Si `number` a la valeur null, `Number.Round` retourne null.  
+  
+Par défaut, `number` est arrondi à l’entier le plus proche, et les liens sont rompus en arrondissant au nombre pair le plus proche (à l’aide de `RoundingMode.ToEven`, également appelé "arrondi bancaire").  
+  
+Toutefois, ces valeurs par défaut peuvent être remplacées par les paramètres facultatifs suivants.
+
+-   `digits`Causes`number`: entraîne l’arrondissement au nombre spécifié de chiffres décimaux.
+-   `roundingMode`: remplace le comportement de liaison par défaut lorsque `number` est au niveau du milieu entre deux valeurs arrondies potentielles (référez-vous à`RoundingMode.Type` pour connaître les valeurs possibles).
 
 
 ## Examples
 
-### Example #1 
-Arrondit 1,234 à l&#39;entier le plus proche.
+### Example #1
+Arrondit 1,234 à l'entier le plus proche.
 ```powerquery
 Number.Round(1.234)
 ```
@@ -38,8 +45,8 @@ Result:
 ```
 
 
-### Example #2 
-Arrondit 1,56 à l&#39;entier le plus proche.
+### Example #2
+Arrondit 1,56 à l'entier le plus proche.
 ```powerquery
 Number.Round(1.56)
 ```
@@ -50,7 +57,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Arrondit 1,2345 à deux décimales.
 ```powerquery
 Number.Round(1.2345, 2)
@@ -62,7 +69,7 @@ Result:
 ```
 
 
-### Example #4 
+### Example #4
 Arrondit 1,2345 à trois décimales (arrondi vers le chiffre supérieur).
 ```powerquery
 Number.Round(1.2345, 3, RoundingMode.Up)
@@ -74,7 +81,7 @@ Result:
 ```
 
 
-### Example #5 
+### Example #5
 Arrondit 1,2345 à trois décimales (arrondi vers le chiffre inférieur).
 ```powerquery
 Number.Round(1.2345, 3, RoundingMode.Down)

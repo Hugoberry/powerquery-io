@@ -19,13 +19,15 @@ Date.IsLeapYear(
 
 ## Remarks
 
-Anger om det givna datetime-värdet <code>dateTime</code> infaller under ett skottår. <ul>        <li><code>dateTime</code>: Ett <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde som ska utvärderas.</li>      </ul>
+Anger om det givna datetime-värdet `dateTime` infaller under ett skottår.
+
+-   `dateTime`: Ett `date`\-, `datetime`\- eller `datetimezone`\-värde som ska utvärderas.
 
 
 ## Examples
 
-### Example #1 
-Kontrollera om år 2012, representerat av &lt;code&gt;#date(2012, 01, 01)&lt;/code&gt;, är ett skottår.
+### Example #1
+Kontrollera om år 2012, representerat av `#date(2012, 01, 01)`, är ett skottår.
 ```powerquery
 Date.IsLeapYear(#date(2012, 01, 01))
 ```

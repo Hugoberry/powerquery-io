@@ -20,12 +20,16 @@ Table.RemoveLastN(
 
 ## Remarks
 
-Returns a table that does not contain the last <code>countOrCondition</code> rows of the table <code>table</code>.        The number of rows removed depends on the optional parameter <code>countOrCondition</code>.    <ul>    <li> If <code>countOrCondition</code> is omitted only the last row is removed. </li>    <li> If <code>countOrCondition</code> is a number, that many rows (starting at the bottom) will be removed. </li>    <li> If <code>countOrCondition</code> is a condition, the rows that meet the condition will be removed until a row does not meet the condition.</li>    </ul>
+Returns a table that does not contain the last `countOrCondition` rows of the table `table`. The number of rows removed depends on the optional parameter `countOrCondition`.
+
+-   If `countOrCondition` is omitted only the last row is removed.
+-   If `countOrCondition` is a number, that many rows (starting at the bottom) will be removed.
+-   If `countOrCondition` is a condition, the rows that meet the condition will be removed until a row does not meet the condition.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Remove the last row of the table.
 ```powerquery
 Table.RemoveLastN(
@@ -49,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Remove the last rows where [CustomerID] &gt; 2 of the table.
+### Example #2
+Remove the last rows where \[CustomerID\] > 2 of the table.
 ```powerquery
 Table.RemoveLastN(
     Table.FromRecords({

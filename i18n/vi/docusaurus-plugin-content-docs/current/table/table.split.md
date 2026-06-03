@@ -20,12 +20,12 @@ Table.Split(
 
 ## Remarks
 
-Tách <code>table</code> thành danh sách của các bảng, nơi phần tử đầu tiên của danh sách là một bảng chứa hàng <code>pageSize</code> đầu tiên từ    bảng nguồn, phần tử tiếp theo của danh sách là một bảng chứa hàng <code>pageSize</code> tiếp theo từ bảng nguồn, v.v.
+Tách `table` thành danh sách của các bảng, nơi phần tử đầu tiên của danh sách là một bảng chứa hàng `pageSize` đầu tiên từ bảng nguồn, phần tử tiếp theo của danh sách là một bảng chứa hàng `pageSize` tiếp theo từ bảng nguồn, v.v.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tách bảng gồm năm bản ghi thành các bảng trong đó mỗi bảng có hai bản ghi.
 ```powerquery
 let

@@ -20,18 +20,24 @@ Table.Buffer(
 
 ## Remarks
 
-Tabloyu, değerlendirme sırasında dış değişikliklerden yalıtarak bellekte arabelleğe alır.    Önbelleğe alma yüzeysel bir işlemdir. Skaler hücre değerlerinin değerlendirilmesini zorlar ancak skaler olmayan değerleri (kayıtlar, listeler, tablolar vb.) olduğu gibi bırakır.    <br />    <br />    Bu işlevi kullanmanın sorgularınızın daha hızlı çalışmasını sağlayabileceğine veya sağlayamayacağına dikkat edin. Bu, bazı durumlarda tüm verileri okuma ve bellekte depolama ek maliyetinin yanı sıra,     arabelleğe almanın aşağı katlamayı önlemesi nedeniyle sorgularınızın daha yavaş çalışmasına neden olabilir. Verilerin arabelleğe alınması gerekmiyorsa    ancak aşağı katlamayı önlemek istiyorsanız bunun yerine <code>Table.StopFolding</code> kullanın.
+Bir tabloyu değerlendirme sırasındaki dış değişikliklerden yalıtarak arabelleğe alır. Arabelleğe alma yüzeyseldir. Her skaler hücre değerinin değerlendirilmesini zorunlu kılar, ancak skaler olmayan değerleri (kayıtlar, listeler, tablolar vb.) olduğu gibi bırakır.
+
+-   `table`: Bellekte arabelleğe alınacak tablo.
+-   `options`: (İsteğe bağlı) Aşağıdaki seçenek kayıt değerleri kullanılabilir:
+    -   `BufferMode`: Gerçekleştirilecek arabelleğe alma türünü tanımlayan arabellek modu. Bu seçenek ya `BufferMode.Eager` ya da `BufferMode.Delayed` olabilir.
+
+Bu işlevin kullanımı sorgularınızın daha hızlı çalışmasına neden olabilir ya da olmayabilir. Bazı durumlarda, eklenen öğeler nedeniyle sorgularınızın daha yavaş çalışmasına neden olabilir ayrıca arabelleğe almanın aşağı akış katlamasını engellediği gerçeği nedeniyle sorgularınızın daha yavaş çalışmasına neden olabilir. Verilerin arabelleğe alınması gerekmiyorsa ancak sadece aşağı akış katlanmasını önlemek istiyorsanız, bunun yerine `Table.StopFolding` yöntemini kullanın.
 
 
 ## Examples
 
-### Example #1 
-Aşağı akış işlemlerinin artık SQL sunucusunu sorgulayamaması için SQL tablosunun tüm satırlarını belleğe yükleyin.
+### Example #1
+Bir SQL tablosunun tüm satırlarını belleğe yükleyin, böylece aşağı akıştaki işlemler artık SQL sunucusunu sorgulayamayacaklardır.
 ```powerquery
 let
     Source = Sql.Database("SomeSQLServer", "MyDb"),
     MyTable = Source{[Item="MyTable"]}[Data],
-    BufferMyTable = Table.Buffer(dbo_MyTable)
+    BufferMyTable = Table.Buffer(MyTable)
 in
     BufferMyTable
 ```

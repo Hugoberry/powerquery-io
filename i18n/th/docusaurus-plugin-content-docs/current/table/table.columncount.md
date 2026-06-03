@@ -19,12 +19,12 @@ Table.ColumnCount(
 
 ## Remarks
 
-ส่งกลับจำนวนของคอลัมน์ในตาราง <code>table</code>
+ส่งกลับจำนวนของคอลัมน์ในตาราง `table`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ค้นหาจำนวนคอลัมน์ในตาราง
 ```powerquery
 Table.ColumnCount(

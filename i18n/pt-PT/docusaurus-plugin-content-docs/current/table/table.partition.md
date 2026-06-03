@@ -22,13 +22,18 @@ Table.Partition(
 
 ## Remarks
 
-Divide <code>table</code> numa lista de <code>groups</code> tabelas com base no valor de <code>column</code> e uma função <code>hash</code>.    A função <code>hash</code> é aplicada ao valor da linha <code>column</code> para obter o valor de hash da linha. O módulo de valor de hash <code>groups</code> determina a tabela devolvida em que a linha será colocada.    <ul>       <li><code>table</code>: a tabela a particionar.</li>       <li><code>column</code>: a coluna cujo hash deve ser calculado para determinar a tabela devolvida em que a linha se encontra.</li>       <li><code>groups</code>: o número de tabelas em que a tabela de entrada será particionada.</li>       <li><code>hash</code>: a função aplicada para obter um valor de hash.</li>    </ul>  
+Divide `table` numa lista de `groups` tabelas com base no valor de `column` e uma função `hash`. A função `hash` é aplicada ao valor da linha `column` para obter o valor de hash da linha. O módulo de valor de hash `groups` determina a tabela devolvida em que a linha será colocada.
+
+-   `table`: a tabela a particionar.
+-   `column`: a coluna cujo hash deve ser calculado para determinar a tabela devolvida em que a linha se encontra.
+-   `groups`: o número de tabelas em que a tabela de entrada será particionada.
+-   `hash`: a função aplicada para obter um valor de hash.
 
 
 ## Examples
 
-### Example #1 
-Dividir a tabela &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt; em 2 tabelas na coluna [a], utilizando os valores das colunas como a função de hash.
+### Example #1
+Dividir a tabela `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})` em 2 tabelas na coluna \[a\], utilizando os valores das colunas como a função de hash.
 ```powerquery
 Table.Partition(
     Table.FromRecords({

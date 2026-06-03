@@ -21,12 +21,12 @@ Text.PadStart(
 
 ## Remarks
 
-通过在文本值 <code>text</code> 的开头插入空格，返回填充到长度 <code>count</code> 的 <code>text</code> 值。    可选字符 <code>character</code> 可用于指定用于填充的字符。默认的填充字符是空格。
+通过在文本值 `text` 的开头插入空格，返回填充到长度 `count` 的 `text` 值。 可选字符 `character` 可用于指定用于填充的字符。默认的填充字符是空格。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 填充文本值的开头，使其长度为 10 个字符。
 ```powerquery
 Text.PadStart("Name", 10)
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-用 &#34;|&#34; 填充文本值的开头，使其长度为 10 个字符。
+### Example #2
+用 "|" 填充文本值的开头，使其长度为 10 个字符。
 ```powerquery
 Text.PadStart("Name", 10, "|")
 ```

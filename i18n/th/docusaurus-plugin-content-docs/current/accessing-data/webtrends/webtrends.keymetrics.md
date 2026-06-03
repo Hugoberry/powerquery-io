@@ -26,7 +26,7 @@ Webtrends.KeyMetrics(
 
 ## Examples
 
-### Example #1 
+### Example #1
 ดึงตารางของเมตริกหลักสำหรับเทแนนท์ 98765 ใน 30 วันล่าสุด
 ```powerquery
 Webtrends.KeyMetrics("98765")

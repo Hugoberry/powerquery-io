@@ -22,13 +22,18 @@ Table.Partition(
 
 ## Remarks
 
-Phân hoạch <code>table</code> thành danh sách số lượng bảng <code>groups</code> dựa trên giá trị của <code>column</code> và hàm <code>hash</code>.    Hàm <code>hash</code> được áp dụng cho giá trị của hàng <code>column</code> để lấy giá trị băm cho hàng. Modulo giá trị băm <code>groups</code> xác định hàng sẽ được đưa vào bảng nào được trả về.    <ul>       <li><code>table</code>: Bảng sẽ phân hoạch.</li>       <li><code>column</code>: Cột sẽ băm để xác định hàng nằm trong bảng nào được trả về.</li>       <li><code>groups</code>: Số lượng bảng mà bảng đầu vào sẽ được phân hoạch thành.</li>       <li><code>hash</code>: Hàm được áp dụng để lấy giá trị băm.</li>    </ul>  
+Phân hoạch `table` thành danh sách số lượng bảng `groups` dựa trên giá trị của `column` và hàm `hash`. Hàm `hash` được áp dụng cho giá trị của hàng `column` để lấy giá trị băm cho hàng. Modulo giá trị băm `groups` xác định hàng sẽ được đưa vào bảng nào được trả về.
+
+-   `table`: Bảng sẽ phân hoạch.
+-   `column`: Cột sẽ băm để xác định hàng nằm trong bảng nào được trả về.
+-   `groups`: Số lượng bảng mà bảng đầu vào sẽ được phân hoạch thành.
+-   `hash`: Hàm được áp dụng để lấy giá trị băm.
 
 
 ## Examples
 
-### Example #1 
-Phân hoạch bảng &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt; thành 2 bảng trên cột [a] sử dụng giá trị của các cột ở dạng hàm băm.
+### Example #1
+Phân hoạch bảng `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})` thành 2 bảng trên cột \[a\] sử dụng giá trị của các cột ở dạng hàm băm.
 ```powerquery
 Table.Partition(
     Table.FromRecords({

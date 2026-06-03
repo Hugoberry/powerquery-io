@@ -20,13 +20,16 @@ Date.AddYears(
 
 ## Remarks
 
-Returnerar <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-resultatet när <code>numberOfYears</code> läggs till i ett <code>datetime</code>-värde <code>dateTime</code>.      <ul>        <li><code>dateTime</code>: <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värdet som år läggs till i.</li>        <li><code>numberOfYears</code>: Antalet år som ska läggas till.</li>      </ul>
+Returnerar `date`\-, `datetime`\- eller `datetimezone`\-resultatet när `numberOfYears` läggs till i ett `datetime`\-värde `dateTime`.
+
+-   `dateTime`: `date`\-, `datetime`\- eller `datetimezone`\-värdet som år läggs till i.
+-   `numberOfYears`: Antalet år som ska läggas till.
 
 
 ## Examples
 
-### Example #1 
-Lägg till 4 år i &lt;code&gt;date&lt;/code&gt;-, &lt;code&gt;datetime&lt;/code&gt;- eller &lt;code&gt;datetimezone&lt;/code&gt;-värdet som representerar den 14 maj 2011.
+### Example #1
+Lägg till 4 år i `date`\-, `datetime`\- eller `datetimezone`\-värdet som representerar den 14 maj 2011.
 ```powerquery
 Date.AddYears(#date(2011, 5, 14), 4)
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Lägg till 10 år i &lt;code&gt;date&lt;/code&gt;-, &lt;code&gt;datetime&lt;/code&gt;- eller &lt;code&gt;datetimezone&lt;/code&gt;-värdet som representerar datumet och tiden motsvarande den 14 maj 2011 08:15:22.
+### Example #2
+Lägg till 10 år i `date`\-, `datetime`\- eller `datetimezone`\-värdet som representerar datumet och tiden motsvarande den 14 maj 2011 08:15:22.
 ```powerquery
 Date.AddYears(#datetime(2011, 5, 14, 8, 15, 22), 10)
 ```

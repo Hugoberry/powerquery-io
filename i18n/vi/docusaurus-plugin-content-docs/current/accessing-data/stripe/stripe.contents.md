@@ -21,12 +21,12 @@ Stripe.Contents(
 
 ## Remarks
 
-Gọi tới API Stripe tại https://api.stripe.com/v1/<code>method</code>, với bản ghi tùy chọn <code>query</code> được chấp nhận làm tham số bổ sung và <code>pageLimit</code> tùy chọn làm giới hạn về số lượng yêu cầu API. Các dữ liệu mới nhất được trả về trước. Nếu <code>pageLimit</code> không được chỉ định, tất cả dữ liệu sẽ được trả về. Stripe Phiên bản 2015-10-16 được sử dụng.
+Gọi tới API Stripe tại https://api.stripe.com/v1/`method`, với bản ghi tùy chọn `query` được chấp nhận làm tham số bổ sung và `pageLimit` tùy chọn làm giới hạn về số lượng yêu cầu API. Các dữ liệu mới nhất được trả về trước. Nếu `pageLimit` không được chỉ định, tất cả dữ liệu sẽ được trả về. Stripe Phiên bản 2015-10-16 được sử dụng.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trả về tất cả dữ liệu phí
 ```powerquery
 Stripe.Contents("charges")
@@ -38,7 +38,7 @@ Một bảng có tất cả dữ liệu phí cho tài khoản Stripe hiê
 ```
 
 
-### Example #2 
+### Example #2
 Trả về một trang dữ liệu phí
 ```powerquery
 Stripe.Contents("charges", [], 1)

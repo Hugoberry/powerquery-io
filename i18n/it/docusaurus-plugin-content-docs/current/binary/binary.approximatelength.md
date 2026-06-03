@@ -19,12 +19,12 @@ Binary.ApproximateLength(
 
 ## Remarks
 
-Restituisce il numero approssimativo di righe di <code>binary</code>o un errore se l'origine dati non supporta una lunghezza approssimativa.
+Restituisce il numero approssimativo di righe di `binary`o un errore se l'origine dati non supporta una lunghezza approssimativa.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Consente di ottenere la lunghezza approssimativa del valore binario.
 ```powerquery
 Binary.ApproximateLength(Binary.FromText("i45WMlSKjQUA", BinaryEncoding.Base64))

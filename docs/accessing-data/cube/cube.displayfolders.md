@@ -19,7 +19,7 @@ Cube.DisplayFolders(
 
 ## Remarks
 
-Returns a nested tree of tables representing the display folder hierarchy of the objects (for example, dimensions and measures) available for use in the <code>cube</code>.
+Returns a nested tree of tables representing the display folder hierarchy of the objects (for example, dimensions and measures) available for use in the `cube`.
 
 
 

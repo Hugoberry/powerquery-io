@@ -20,6 +20,6 @@ Dynamics365BusinessCentral.EnvironmentContents(
 
 ## Remarks
 
-İlgili Dynamics 365 Business Central verilerinin bulunduğu bir tablo döndürür. 
+İlgili Dynamics 365 Business Central verilerinin bulunduğu bir tablo döndürür.
 
 

@@ -5,7 +5,7 @@ title: Variable.Value
 # Variable.Value
 
 
-此函式僅供內部使用。
+傳回指定變數的值。
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Variable.Value(
 
 ## Remarks
 
-此函式僅供內部使用。
+傳回目前評估環境所定義指定變數 `identifier` 的值。如果未定義變數，則引發錯誤。
 
 
 

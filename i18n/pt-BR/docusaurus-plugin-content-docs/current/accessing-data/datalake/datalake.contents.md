@@ -20,6 +20,6 @@ DataLake.Contents(
 
 ## Remarks
 
-Retorna uma tabela contendo uma linha para cada pasta e arquivo localizados na <code>URL</code> do Azure Data Lake Storage Gen1. Cada linha contém as propriedades da pasta ou do arquivo e um link para o seu conteúdo.
+Retorna uma tabela contendo uma linha para cada pasta e arquivo localizados na `URL` do Azure Data Lake Storage Gen1. Cada linha contém as propriedades da pasta ou do arquivo e um link para o seu conteúdo.
 
 

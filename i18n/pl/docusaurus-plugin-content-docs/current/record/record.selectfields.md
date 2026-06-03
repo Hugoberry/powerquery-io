@@ -21,12 +21,12 @@ Record.SelectFields(
 
 ## Remarks
 
-Zwraca rekord zawierający tylko te pola z rekordu wejściowego <code>record</code>, które zostały określone na liście <code>fields</code>.
+Zwraca rekord zawierający tylko te pola z rekordu wejściowego `record`, które zostały określone na liście `fields`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Wybierz pola „Item” i „Price” w rekordzie.
 ```powerquery
 Record.SelectFields(

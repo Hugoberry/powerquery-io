@@ -20,7 +20,7 @@ SqlExpression.ToExpression(
 
 ## Remarks
 
-Chuyển đổi truy vấn <code>sql</code> được cung cấp thành mã M bằng các mã định danh mà <code>environment</code> xác định sẵn. Hàm này chỉ dùng cho nội bộ.
+Chuyển đổi truy vấn `sql` được cung cấp thành mã M bằng các mã định danh mà `environment` xác định sẵn. Hàm này chỉ dùng cho nội bộ.
 
 
 

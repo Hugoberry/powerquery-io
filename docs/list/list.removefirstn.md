@@ -20,13 +20,17 @@ List.RemoveFirstN(
 
 ## Remarks
 
-Returns a list that removes the first element of list <code>list</code>. If <code>list</code> is an empty list an empty list is returned.This function takes an optional parameter, <code>countOrCondition</code>, to support removing multiple values as listed below. <ul> <li>If a number is specified, up to that many items are removed. </li> <li>If a condition is specified, the returned list begins with the first element in <code>list</code> that meets the criteria. Once an item fails the condition, no further items are considered. </li> <li>If this parameter is null, the default behavior is observed. </li> </ul>
+Returns a list that removes the first element of list `list`. If `list` is an empty list an empty list is returned. This function takes an optional parameter, `countOrCondition`, to support removing multiple values as listed below.
+
+-   If a number is specified, up to that many items are removed.
+-   If a condition is specified, any consecutive matching items at the start of `list` are removed.
+-   If this parameter is null, the default behavior is observed.
 
 
 ## Examples
 
-### Example #1 
-Create a list from \{1, 2, 3, 4, 5} without the first 3 numbers.
+### Example #1
+Create a list from \{1, 2, 3, 4, 5\} without the first 3 numbers.
 ```powerquery
 List.RemoveFirstN({1, 2, 3, 4, 5}, 3)
 ```
@@ -37,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-Create a list from \{5, 4, 2, 6, 1} that starts with a number less than 3.
+### Example #2
+Create a list from \{5, 4, 2, 6, 1\} that starts with a number less than 3.
 ```powerquery
 List.RemoveFirstN({5, 4, 2, 6, 1}, each _ > 3)
 ```

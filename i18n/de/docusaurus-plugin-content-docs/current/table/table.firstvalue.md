@@ -20,7 +20,7 @@ Table.FirstValue(
 
 ## Remarks
 
-Gibt die erste Spalte der ersten Zeile der Tabelle <code>table</code> oder einen angegebenen Standardwert zurück.
+Gibt die erste Spalte der ersten Zeile der Tabelle `table` oder einen angegebenen Standardwert zurück.
 
 
 

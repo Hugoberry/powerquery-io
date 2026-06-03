@@ -22,13 +22,18 @@ Table.PositionOf(
 
 ## Remarks
 
-Devuelve la posición de la fila de la primera repetición de <code>row</code> en la <code>table</code> especificada. Devuelve -1 si no se encuentra ninguna repetición.    <ul>       <li><code>table</code>: la tabla de entrada.</li>       <li><code>row</code>: la fila de la tabla en la que buscar las posiciones.</li>       <li><code>occurrence</code>: <i>[opcional]</i> especifica las repeticiones de la fila que se devolverán.</li>       <li><code>equationCriteria</code>: <i>[opcional]</i> controla la comparación entre las filas de la tabla.</li>    </ul>    
+Devuelve la posición de la fila de la primera repetición de `row` en la `table` especificada. Devuelve -1 si no se encuentra ninguna aparición.
+
+-   `table`: la tabla de entrada.
+-   `row`: fila de la tabla de la que se va a buscar la posición.
+-   `occurrence`: *(Opcional)* especifica qué apariciones de la fila se van a devolver.
+-   `equationCriteria`: *(Opcional)* controla la comparación entre las filas de la tabla.
 
 
 ## Examples
 
-### Example #1 
-Buscar la posición de la primera coincidencia [a = 2, b = 4] en la tabla &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #1
+Buscar la posición de la primera coincidencia \[a = 2, b = 4\] en la tabla `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({
@@ -47,8 +52,8 @@ Result:
 ```
 
 
-### Example #2 
-Buscar la posición de la segunda coincidencia de [a = 2, b = 4] en la tabla &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #2
+Buscar la posición de la segunda coincidencia de \[a = 2, b = 4\] en la tabla `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({
@@ -68,8 +73,8 @@ Result:
 ```
 
 
-### Example #3 
-Buscar la posición de todas las coincidencias de [a = 2, b = 4] en la tabla &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #3
+Buscar la posición de todas las coincidencias de \[a = 2, b = 4\] en la tabla `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({

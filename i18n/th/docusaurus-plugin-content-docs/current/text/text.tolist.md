@@ -19,13 +19,13 @@ Text.ToList(
 
 ## Remarks
 
-ส่งกลับรายการค่าอักขระจากค่าข้อความ <code>text</code> ที่กำหนด
+ส่งกลับรายการค่าอักขระจากค่าข้อความ `text` ที่กำหนด
 
 
 ## Examples
 
-### Example #1 
-สร้างรายการค่าอักขระจากข้อความ &#34;Hello World&#34;
+### Example #1
+สร้างรายการค่าอักขระจากข้อความ "Hello World"
 ```powerquery
 Text.ToList("Hello World")
 ```

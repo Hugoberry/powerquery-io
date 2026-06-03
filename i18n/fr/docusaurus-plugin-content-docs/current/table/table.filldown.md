@@ -5,7 +5,7 @@ title: Table.FillDown
 # Table.FillDown
 
 
-Propage la valeur d&#39;une cellule précédente aux cellules évaluées null ci-dessous dans la colonne.
+Propage la valeur d'une cellule précédente aux cellules évaluées null ci-dessous dans la colonne.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ Table.FillDown(
 
 ## Remarks
 
-Retourne une table à partir de la <code>table</code> spécifiée où la valeur de la cellule précédente est propagée aux cellules évaluées null ci-dessous, dans la <code>columns</code> spécifiée.
+Retourne une table à partir de la `table` spécifiée où la valeur de la cellule précédente est propagée aux cellules évaluées null ci-dessous, dans la `columns` spécifiée.
 
 
 ## Examples
 
-### Example #1 
-Retourne une table avec les valeurs null de la colonne [Place] remplie avec la valeur située plus haut qu&#39;elles dans la table.
+### Example #1
+Retourne une table avec les valeurs null de la colonne \[Place\] remplie avec la valeur située plus haut qu'elles dans la table.
 ```powerquery
 Table.FillDown(
     Table.FromRecords({

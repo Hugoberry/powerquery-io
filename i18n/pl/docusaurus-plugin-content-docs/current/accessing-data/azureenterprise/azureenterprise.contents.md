@@ -25,7 +25,7 @@ Zwraca binarny wynik wywołania adresu URL dostarczonego do interfejsu API usłu
 
 ## Examples
 
-### Example #1 
+### Example #1
 Użycie funkcji AzureEnterprise.Contents w celu zwrócenia wyników konkretnego raportu.
 ```powerquery
         let

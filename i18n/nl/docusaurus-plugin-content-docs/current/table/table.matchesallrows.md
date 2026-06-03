@@ -20,13 +20,13 @@ Table.MatchesAllRows(
 
 ## Remarks
 
-Geeft aan of alle rijen in de <code>table</code> aan de opgegeven <code>condition</code> voldoen. Retourneert <code>true</code> als alle rijen overeenkomen en <code>false</code> als dat niet het geval is.
+Geeft aan of alle rijen in de `table` aan de opgegeven `condition` voldoen. Retourneert `true` als alle rijen overeenkomen en `false` als dat niet het geval is.
 
 
 ## Examples
 
-### Example #1 
-Bepalen of alle rijwaarden in kolom [a] even waarden zijn in de tabel.
+### Example #1
+Bepalen of alle rijwaarden in kolom \[a\] even waarden zijn in de tabel.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({
@@ -43,8 +43,8 @@ true
 ```
 
 
-### Example #2 
-Uitzoeken of alle rijwaarden [a = 1, b = 2] zijn in de tabel &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt;.
+### Example #2
+Uitzoeken of alle rijwaarden \[a = 1, b = 2\] zijn in de tabel `({[a = 1, b = 2], [a = 3, b = 4]})`.
 ```powerquery
 Table.MatchesAllRows(
     Table.FromRecords({

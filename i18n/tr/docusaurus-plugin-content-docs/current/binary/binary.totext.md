@@ -20,7 +20,10 @@ Binary.ToText(
 
 ## Remarks
 
-<code>binary</code> sayı ikili listesini dönüştürmenin sonucunu bir metin değerine döndürür. İsteğe bağlı olarak <code>encoding</code>, oluşturulan metin değerinde kullanılan kodlamayı göstermek için belirtilebilir.      Aşağıdaki <code>BinaryEncoding</code> değerleri, <code>encoding</code> için kullanılabilir.      <ul>        <li><code>BinaryEncoding.Base64</code>: 64 tabanlı kodlama</li>        <li><code>BinaryEncoding.Hex</code>: Onaltılık kodlama</li>      </ul>
+`binary` sayı ikili listesini dönüştürmenin sonucunu bir metin değerine döndürür. İsteğe bağlı olarak `encoding`, oluşturulan metin değerinde kullanılan kodlamayı göstermek için belirtilebilir. Aşağıdaki `BinaryEncoding` değerleri, `encoding` için kullanılabilir.
+
+-   `BinaryEncoding.Base64`: 64 tabanlı kodlama
+-   `BinaryEncoding.Hex`: Onaltılık kodlama
 
 
 

@@ -21,15 +21,17 @@ Html.Table(
 
 ## Remarks
 
-Zwraca tabelę zawierającą wyniki działania określonych selektorów CSS względem dostarczonego elementu <code>html</code>. Parametr opcjonalny rekordu <code>options</code> można podać w celu określenia właściwości dodatkowych. Rekord może zawierać następujące pola:    <ul><li><code>RowSelector</code></li></ul>    
+Zwraca tabelę zawierającą wyniki działania określonych selektorów CSS względem dostarczonego elementu `html`. Parametr opcjonalny rekordu `options` można podać w celu określenia właściwości dodatkowych. Rekord może zawierać następujące pola:
+
+-   `RowSelector`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zwraca tabelę na podstawie przykładowej wartości tekstu html.
 ```powerquery
-Html.Table("<div class=""name"">Jo</div><span>Menedżer</span>", {{"Name", ".name"}, {"Title", "span"}}, [RowSelector=".name"])
+Html.Table("<div class=""name"">Jo</div><span>Manager</span>", {{"Name", ".name"}, {"Title", "span"}}, [RowSelector=".name"])
 ```
 
 Result: 
@@ -38,7 +40,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Wyodrębnia wszystkie elementy HREF z przykładowej wartości tekstowej w formacie HTML.
 ```powerquery
 Html.Table("<a href=""/test.html"">Test</a>", {{"Link", "a", each [Attributes][href]}})
@@ -53,4 +55,4 @@ Result:
 
 
 ## Category
-Uzyskiwanie dostępu do danych
+Accessing data

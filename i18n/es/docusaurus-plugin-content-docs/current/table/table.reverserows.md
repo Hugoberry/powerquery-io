@@ -19,12 +19,12 @@ Table.ReverseRows(
 
 ## Remarks
 
-Devuelve una tabla con las filas de la entrada <code>table</code> en orden inverso.
+Devuelve una tabla con las filas de la entrada `table` en orden inverso.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Invertir las filas de la tabla.
 ```powerquery
 Table.ReverseRows(

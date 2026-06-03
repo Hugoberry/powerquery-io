@@ -19,12 +19,12 @@ Text.Clean(
 
 ## Remarks
 
-Returns a text value with all control characters of <code>text</code> removed.
+Returns a text value with all control characters of `text` removed.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Remove line feeds and other control characters from a text value.
 ```powerquery
 Text.Clean("ABC#(lf)D")

@@ -21,12 +21,12 @@ Table.AddKey(
 
 ## Remarks
 
-Hiermee voegt u een sleutel toe <code>table</code>, waarbij <code>columns</code> de lijst is met kolomnamen waarmee de sleutel wordt gedefinieerd en <code>isPrimary</code> geeft aan of de sleutel primair is.
+Hiermee voegt u een sleutel toe `table`, waarbij `columns` de lijst is met kolomnamen waarmee de sleutel wordt gedefinieerd en `isPrimary` geeft aan of de sleutel primair is.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een primaire sleutel met één kolom toevoegen aan een tabel.
 ```powerquery
 let

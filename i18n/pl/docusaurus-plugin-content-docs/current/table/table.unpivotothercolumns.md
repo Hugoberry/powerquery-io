@@ -27,7 +27,7 @@ Wykonuje translację wszystkich kolumn, oprócz określonego zestawu kolumn, na 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Wykonuje translację wszystkich kolumn, oprócz określonego zestawu kolumn, na pary atrybut-wartość połączone z resztą wartości w każdym wierszu.
 ```powerquery
 Table.UnpivotOtherColumns(

@@ -20,13 +20,13 @@ Table.SelectRows(
 
 ## Remarks
 
-傳回 <code>table</code> 中符合選取範圍 <code>condition</code> 的資料列資料表。
+傳回 `table` 中符合選取範圍 `condition` 的資料列資料表。
 
 
 ## Examples
 
-### Example #1 
-在資料表中選取 [CustomerID] 資料行中的值大於 2 的資料列。
+### Example #1
+在資料表中選取 \[CustomerID\] 資料行中的值大於 2 的資料列。
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({
@@ -48,8 +48,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-在資料表中選取名稱沒有包含 &#34;B&#34; 的資料列。
+### Example #2
+在資料表中選取名稱沒有包含 "B" 的資料列。
 ```powerquery
 Table.SelectRows(
     Table.FromRecords({

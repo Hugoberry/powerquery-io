@@ -19,12 +19,12 @@ Record.Combine(
 
 ## Remarks
 
-Łączy rekordy na danej liście <code>records</code>. Jeśli parametr <code>records</code> zawiera wartości niebędące rekordem, jest zwracany błąd.
+Łączy rekordy na danej liście `records`. Jeśli parametr `records` zawiera wartości niebędące rekordem, jest zwracany błąd.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utwórz połączony rekord na podstawie rekordów.
 ```powerquery
 Record.Combine({

@@ -19,12 +19,12 @@ Table.ReverseRows(
 
 ## Remarks
 
-Gibt eine Tabelle zurück, bei der die Zeilen aus der Eingabe "<code>table</code>" in umgekehrter Reihenfolge sortiert wurden.
+Gibt eine Tabelle zurück, bei der die Zeilen aus der Eingabe "`table`" in umgekehrter Reihenfolge sortiert wurden.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kehrt die Reihenfolge der Zeilen in der Tabelle um.
 ```powerquery
 Table.ReverseRows(

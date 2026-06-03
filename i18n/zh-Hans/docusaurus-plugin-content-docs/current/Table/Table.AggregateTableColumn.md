@@ -21,13 +21,13 @@ Table.AggregateTableColumn(
 
 ## Remarks
 
-将 <code>table</code>[<code>column</code>] 中的表聚合到包含这些表的聚合值的多个列。<code>aggregations</code> 用于指定包含要聚合的表的列、要应用于表以生成其值的聚合函数以及要创建的聚合列的名称。
+将 `table`\[`column`\] 中的表聚合到包含这些表的聚合值的多个列。`aggregations` 用于指定包含要聚合的表的列、要应用于表以生成其值的聚合函数以及要创建的聚合列的名称。
 
 
 ## Examples
 
-### Example #1 
-将表 &lt;code&gt;\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}&lt;/code&gt; 中的 &lt;code&gt;[t]&lt;/code&gt; 的表列聚合为 &lt;code&gt;[t.a]&lt;/code&gt;、&lt;code&gt;[t.b]&lt;/code&gt; 的最小值和最大值以及 &lt;code&gt;[t.a]&lt;/code&gt; 中值计数的总和。
+### Example #1
+将表 `{[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}` 中的 `[t]` 的表列聚合为 `[t.a]`、`[t.b]` 的最小值和最大值以及 `[t.a]` 中值计数的总和。
 ```powerquery
 Table.AggregateTableColumn(
     Table.FromRecords(

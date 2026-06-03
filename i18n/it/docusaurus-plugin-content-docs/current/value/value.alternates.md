@@ -19,7 +19,7 @@ Value.Alternates(
 
 ## Remarks
 
-Esprime piani di query alternativi all'interno di un'espressione del piano di query ottenuta tramite Value.Expression(Value.Optimize(...)). Non destinata ad altri usi.
+Esprime piani di query alternativi all'interno di un'espressione del piano di query ottenuta tramite `Value.Expression(Value.Optimize(...))`. Non destinata ad altri usi.
 
 
 

@@ -20,13 +20,17 @@ Comparer.FromCulture(
 
 ## Remarks
 
-Retourne une fonction de comparaison qui utilise le <code>culture</code> et le respect de la casse spécifiés par <code>ignoreCase</code> pour effectuer des comparaisons.<br />      <br />      Une fonction de comparaison accepte deux arguments et retourne -1, 0 ou 1 selon que la première valeur est inférieure, égale ou supérieure à la seconde.<br />      <br />      La valeur par défaut de <code>ignoreCase</code> est false. Le <code>culture</code> doit être l’un des paramètres régionaux pris en charge par le .NET Framework (par exemple, " fr-FR ").    
+Retourne une fonction de comparaison qui utilise le `culture` et le respect de la casse spécifiés par `ignoreCase` pour effectuer des comparaisons.  
+  
+Une fonction de comparaison accepte deux arguments et retourne -1, 0 ou 1 selon que la première valeur est inférieure, égale ou supérieure à la seconde.  
+  
+La valeur par défaut de `ignoreCase` est false. Le `culture` doit être l’un des paramètres régionaux pris en charge par le .NET Framework (par exemple, « fr-FR »).
 
 
 ## Examples
 
-### Example #1 
-Comparez &#34;a&#34; et &#34;A&#34; en utilisant le paramètre régional &#34;en-US&#34; pour déterminer si les valeurs sont égales.
+### Example #1
+Comparez "a" et "A" en utilisant le paramètre régional "en-US" pour déterminer si les valeurs sont égales.
 ```powerquery
 Comparer.FromCulture("en-US")("a", "A")
 ```
@@ -37,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-Comparez &#34;a&#34; et &#34;A&#34; en utilisant le paramètre régional &#34;en-US&#34; en ignorant la casse pour déterminer si les valeurs sont égales.
+### Example #2
+Comparez "a" et "A" en utilisant le paramètre régional "en-US" en ignorant la casse pour déterminer si les valeurs sont égales.
 ```powerquery
 Comparer.FromCulture("en-US", true)("a", "A")
 ```

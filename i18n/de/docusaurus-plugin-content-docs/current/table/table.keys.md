@@ -24,7 +24,7 @@ Gibt die Schlüssel der angegebenen Tabelle zurück.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Rufen Sie die Liste der Schlüssel für eine Tabelle ab.
 ```powerquery
 let

@@ -19,12 +19,12 @@ Table.ToColumns(
 
 ## Remarks
 
-根據資料表 <code>table</code> 建立巢狀清單的清單。每個清單項目都是包含資料行值的內部清單。
+根據資料表 `table` 建立巢狀清單的清單。每個清單項目都是包含資料行值的內部清單。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 根據資料表建立資料行值的清單。
 ```powerquery
 Table.ToColumns(

@@ -21,12 +21,12 @@ Table.Range(
 
 ## Remarks
 
-Retourne les lignes à partir du <code>table</code> à partir du <code>offset</code> spécifié. Un paramètre facultatif, <code>count</code>, spécifie le nombre de lignes à retourner. Par défaut, toutes les lignes après le décalage sont retournées.
+Retourne les lignes à partir du `table` à partir du `offset` spécifié. Un paramètre facultatif, `count`, spécifie le nombre de lignes à retourner. Par défaut, toutes les lignes après le décalage sont retournées.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Retourne toutes les lignes en commençant au décalage 1 dans la table.
 ```powerquery
 Table.Range(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Retourne une seule ligne en commençant au décalage 1 dans la table.
 ```powerquery
 Table.Range(

@@ -20,13 +20,13 @@ Table.FillDown(
 
 ## Remarks
 
-Gibt eine Tabelle auf der Grundlage des angegebenen Elements vom Typ '<code>table</code>' zurück, wobei der Wert einer vorherigen Zelle an die darunter liegenden Zellen mit NULL-Wert im angegebenen Element vom Typ '<code>columns</code>' weitergegeben wird.
+Gibt eine Tabelle auf der Grundlage des angegebenen Elements vom Typ '`table`' zurück, wobei der Wert einer vorherigen Zelle an die darunter liegenden Zellen mit NULL-Wert im angegebenen Element vom Typ '`columns`' weitergegeben wird.
 
 
 ## Examples
 
-### Example #1 
-Gibt eine Tabelle zurück, in der die NULL-Werte in der Spalte &#34;[Place]&#34; mit dem Wert darüber aus der Tabelle aufgefüllt wurden.
+### Example #1
+Gibt eine Tabelle zurück, in der die NULL-Werte in der Spalte "\[Place\]" mit dem Wert darüber aus der Tabelle aufgefüllt wurden.
 ```powerquery
 Table.FillDown(
     Table.FromRecords({

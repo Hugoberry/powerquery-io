@@ -20,13 +20,13 @@ Decimal.From(
 
 ## Remarks
 
-Restituisce un valore Decimale <code>numero</code> dal dato <code>value</code>. Se il dato<code>value</code> è <code>null</code>, <code>Decimale.From</code> restituisce <code>null</code>.  Se il dato <code>value</code> si trova nell’intervallo di Decimale <code>numero</code>, <code>value</code> viene restituito, in caso contrario, viene restituito un errore. Se <code>value</code> è di qualsiasi altro tipo, verrà prima convertito in un <code>numero</code> usando <code>Number.FromText</code>. È anche possibile specificare <code>culture</code> facoltativo (ad esempio "en-US").
+Restituisce un valore Decimale `numero` dal dato `value`. Se il dato`value` è `null`, `Decimale.From` restituisce `null`. Se il dato `value` si trova nell’intervallo di Decimale `numero`, `value` viene restituito, in caso contrario, viene restituito un errore. Se `value` è di qualsiasi altro tipo, verrà prima convertito in un `numero` usando `Number.FromText`. È anche possibile specificare `culture` facoltativo (ad esempio "en-US").
 
 
 ## Examples
 
-### Example #1 
-Ottenere il valore &lt;code&gt;number&lt;/code&gt; Decimal di &lt;code&gt;&#34;4.5&#34;&lt;/code&gt;.
+### Example #1
+Ottenere il valore `number` Decimal di `"4.5"`.
 ```powerquery
 Decimal.From("4.5")
 ```

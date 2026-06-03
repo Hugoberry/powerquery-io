@@ -24,7 +24,7 @@ Zwraca bieżącą datę i godzinę w formacie UTC (strefa czasowa GMT).
 
 ## Examples
 
-### Example #1 
+### Example #1
 Pobierz bieżącą datę i godzinę w formacie UTC.
 ```powerquery
 DateTimeZone.UtcNow()

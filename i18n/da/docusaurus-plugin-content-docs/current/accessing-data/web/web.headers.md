@@ -20,13 +20,24 @@ Web.Headers(
 
 ## Remarks
 
-Returnerer de headere, der er downloadet fra <code>url</code> som en post. Der kan angives en valgfri postparameter, <code>options</code>, for at angive yderligere egenskaber. Posten kan indeholde følgende felter: <ul><li><code>Query</code> : F&#248;j foresp&#248;rgselsparametre til URL-adressen via programmering uden at skulle bekymre dig om udslip.</li><li><code>ApiKeyName</code> : Hvis destinationswebstedet har et begreb for en API-n&#248;gle, kan denne parameter bruges til at angive navnet (ikke v&#230;rdien) for den n&#248;gleparameter, der skal bruges i URL-adressen. Den faktiske n&#248;glev&#230;rdi angives i legitimationsoplysningerne.</li><li><code>Headers</code> : Hvis denne v&#230;rdi angives som en post, leveres der yderligere overskrifter til en HTTP-anmodning.</li><li><code>Timeout</code> : Hvis du angiver denne v&#230;rdi som en varighed, &#230;ndres timeout for en HTTP-anmodning. Standardv&#230;rdien er 100 sekunder.</li><li><code>ExcludedFromCacheKey</code> : Hvis denne v&#230;rdi angives som en liste, udelades disse HTTP-overskriftsn&#248;gler i beregningen af cachelagringsdata.</li><li><code>IsRetry</code> : Hvis du angiver denne logiske v&#230;rdi som true, ignoreres alle eksisterende svar i cachen, n&#229;r data hentes.</li><li><code>ManualStatusHandling</code> : Hvis du angiver denne v&#230;rdi som en liste, forhindres eventuel indbygget h&#229;ndtering af HTTP-anmodninger, hvis svar har &#233;n af disse statuskoder.</li><li><code>RelativePath</code> : Hvis du angiver denne v&#230;rdi som tekst, f&#248;jes den til basis-URL-adressen, f&#248;r anmodningen foretages.</li></ul> HTTP-anmodningen foretages med HEAD-metoden. Uden for en brugerdefineret dataforbindelseskontekst er kun et undersæt af svarheadere tilgængelige (af sikkerhedsmæssige årsager).
+Returnerer de headere, der er downloadet fra `url` som en post. Der kan angives en valgfri postparameter, `options`, for at angive yderligere egenskaber. Posten kan indeholde følgende felter:
+
+-   `Query` : Føj forespørgselsparametre til URL-adressen via programmering uden at skulle bekymre dig om udslip.
+-   `ApiKeyName` : Hvis destinationswebstedet har et begreb for en API-nøgle, kan denne parameter bruges til at angive navnet (ikke værdien) for den nøgleparameter, der skal bruges i URL-adressen. Den faktiske nøgleværdi angives i legitimationsoplysningerne.
+-   `Headers` : Hvis denne værdi angives som en post, leveres der yderligere overskrifter til en HTTP-anmodning.
+-   `Timeout` : Hvis du angiver denne værdi som en varighed, ændres timeout for en HTTP-anmodning. Standardværdien er 100 sekunder.
+-   `ExcludedFromCacheKey` : Hvis denne værdi angives som en liste, udelades disse HTTP-overskriftsnøgler i beregningen af cachelagringsdata.
+-   `IsRetry` : Hvis du angiver denne logiske værdi som true, ignoreres alle eksisterende svar i cachen, når data hentes.
+-   `ManualStatusHandling` : Hvis du angiver denne værdi som en liste, forhindres eventuel indbygget håndtering af HTTP-anmodninger, hvis svar har én af disse statuskoder.
+-   `RelativePath` : Hvis du angiver denne værdi som tekst, føjes den til basis-URL-adressen, før anmodningen foretages.
+
+HTTP-anmodningen foretages med HEAD-metoden. Uden for en brugerdefineret dataforbindelseskontekst er kun et undersæt af svarheadere tilgængelige (af sikkerhedsmæssige årsager).
 
 
 ## Examples
 
-### Example #1 
-Hent HTTP-headerne til &lt;code&gt;&#34;https://bing.com/search?q=Power+Query&#34;&lt;/code&gt; ved hjælp af indstillingerne RelativePath og Query.
+### Example #1
+Hent HTTP-headerne til `"https://bing.com/search?q=Power+Query"` ved hjælp af indstillingerne RelativePath og Query.
 ```powerquery
 let
     searchText = "Power Query"

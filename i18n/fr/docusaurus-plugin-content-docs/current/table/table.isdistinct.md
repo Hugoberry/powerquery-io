@@ -20,12 +20,12 @@ Table.IsDistinct(
 
 ## Remarks
 
-Indique si <code>table</code> contient seulement des lignes distinctes (pas de doublons). Retourne <code>true</code> si les lignes sont distinctes, sinon <code>false</code>.    Un paramètre facultatif <code>comparisonCriteria</code> spécifie quelles colonnes de la table sont testées pour la duplication. Si <code>comparisonCriteria</code> n'est pas spécifié, toutes les colonnes sont testées.
+Indique si `table` contient seulement des lignes distinctes (pas de doublons). Retourne `true` si les lignes sont distinctes, sinon `false`. Un paramètre facultatif `comparisonCriteria` spécifie quelles colonnes de la table sont testées pour la duplication. Si `comparisonCriteria` n'est pas spécifié, toutes les colonnes sont testées.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Détermine si la table ne contient que des valeurs distinctes.
 ```powerquery
 Table.IsDistinct(
@@ -44,7 +44,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Détermine si la table ne contient que des valeurs distinctes dans la colonne.
 ```powerquery
 Table.IsDistinct(

@@ -20,12 +20,12 @@ Number.RoundDown(
 
 ## Remarks
 
-Trả về kết quả làm tròn <code>number</code> xuống số nguyên cao nhất đằng trước. Nếu <code>number</code> là null, hàm này sẽ trả về giá trị null.    Nếu <code>digits</code> được cung cấp, <code>number</code> sẽ được làm tròn đến số đã chỉ định của số thập phân.  
+Trả về kết quả làm tròn `number` xuống số nguyên cao nhất đằng trước. Nếu `number` là null, hàm này sẽ trả về giá trị null. Nếu `digits` được cung cấp, `number` sẽ được làm tròn đến số đã chỉ định của số thập phân.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Làm tròn 1,234 xuống số nguyên.
 ```powerquery
 Number.RoundDown(1.234)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Làm tròn 1,999 xuống số nguyên.
 ```powerquery
 Number.RoundDown(1.999)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Làm tròn xuống 1,999 về hai vị trí thập phân.
 ```powerquery
 Number.RoundDown(1.999, 2)

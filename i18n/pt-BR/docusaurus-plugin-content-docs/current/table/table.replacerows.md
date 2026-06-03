@@ -22,12 +22,17 @@ Table.ReplaceRows(
 
 ## Remarks
 
-Substitui um número especificado de linhas, <code>count</code>, na entrada <code>table</code> pelo <code>rows</code> especificado, iniciando após a <code>offset</code>. O parâmetro <code>rows</code> é uma lista de registros.    <ul>       <li><code>table</code>: A tabela em que a substituição é executada.</li>       <li><code>offset</code>: O número de linhas a serem ignoradas antes de fazer a substituição.</li>       <li><code>count</code>: O número de linhas a serem substituídas.</li>       <li><code>rows</code>: A lista de registros de linha a serem inseridos no <code>table</code> no local especificado pelo <code>offset</code>.</li>    </ul>
+Substitui um número especificado de linhas, `count`, na entrada `table` pelo `rows` especificado, iniciando após a `offset`. O parâmetro `rows` é uma lista de registros.
+
+-   `table`: A tabela em que a substituição é executada.
+-   `offset`: O número de linhas a serem ignoradas antes de fazer a substituição.
+-   `count`: O número de linhas a serem substituídas.
+-   `rows`: A lista de registros de linha a serem inseridos no `table` no local especificado pelo `offset`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Começando na posição 1, substituir três linhas.
 ```powerquery
 Table.ReplaceRows(

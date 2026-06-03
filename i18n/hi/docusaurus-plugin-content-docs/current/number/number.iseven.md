@@ -19,12 +19,12 @@ Number.IsEven(
 
 ## Remarks
 
-अगर मान सम है, तो <code>true</code> अन्यथा <code>false</code> लौटाकर संकेत देता है कि मान, <code>number</code>, सम है.
+अगर मान सम है, तो `true` अन्यथा `false` लौटाकर संकेत देता है कि मान, `number`, सम है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 जाँचें कि क्या 625 एक सम संख्या है.
 ```powerquery
 Number.IsEven(625)
@@ -36,7 +36,7 @@ false
 ```
 
 
-### Example #2 
+### Example #2
 जाँचें कि क्या 82 एक सम संख्या है.
 ```powerquery
 Number.IsEven(82)

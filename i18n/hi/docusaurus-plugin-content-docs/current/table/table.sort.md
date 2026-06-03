@@ -20,13 +20,13 @@ Table.Sort(
 
 ## Remarks
 
-एक या अधिक स्तंभ नामों की सूची और \{ \{ col1, comparisonCriteria }, \{col2} } रूप में वैकल्पिक <code>comparisonCriteria</code> का उपयोग करके <code>table</code> को सॉर्ट करता है.
+एक या अधिक स्तंभ नामों की सूची और \{ \{ col1, comparisonCriteria \}, \{col2\} \} रूप में वैकल्पिक `comparisonCriteria` का उपयोग करके `table` को सॉर्ट करता है.
 
 
 ## Examples
 
-### Example #1 
-स्तंभ &#34;OrderID&#34; पर स्थित तालिका को सॉर्ट करें.
+### Example #1
+स्तंभ "OrderID" पर स्थित तालिका को सॉर्ट करें.
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -60,8 +60,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-स्तंभ &#34;OrderID&#34; पर स्थित तालिका को अवरोही क्रम में सॉर्ट करें.
+### Example #2
+स्तंभ "OrderID" पर स्थित तालिका को अवरोही क्रम में सॉर्ट करें.
 ```powerquery
 Table.Sort(
     Table.FromRecords({
@@ -95,8 +95,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-स्तंभ &#34;CustomerID&#34; पर स्थित तालिका को, फिर &#34;OrderID&#34; को &#34;CustomerID&#34; के साथ आरोही क्रम में सॉर्ट करें.
+### Example #3
+स्तंभ "CustomerID" पर स्थित तालिका को, फिर "OrderID" को "CustomerID" के साथ आरोही क्रम में सॉर्ट करें.
 ```powerquery
 Table.Sort(
     Table.FromRecords({

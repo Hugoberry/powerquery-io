@@ -20,13 +20,13 @@ List.Intersect(
 
 ## Remarks
 
-傳回出現在輸入清單 <code>lists</code> 中的清單值交集。可指定選擇性參數 <code>equationCriteria</code>。
+傳回出現在輸入清單 `lists` 中的清單值交集。可指定選擇性參數 `equationCriteria`。
 
 
 ## Examples
 
-### Example #1 
-找出清單 \{1..5}、\{2..6}、\{3..7} 的交集。
+### Example #1
+找出清單 \{1..5\}、\{2..6\}、\{3..7\} 的交集。
 ```powerquery
 List.Intersect({{1..5}, {2..6}, {3..7}})
 ```

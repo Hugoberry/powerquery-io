@@ -24,7 +24,7 @@ Type.TableRow(
 
 ## Examples
 
-### Example #1 
+### Example #1
 傳回簡單資料表的資料列類型資訊。
 ```powerquery
 let

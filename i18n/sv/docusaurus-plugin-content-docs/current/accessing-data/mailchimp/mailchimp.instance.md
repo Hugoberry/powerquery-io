@@ -24,7 +24,7 @@ Anropar MailChimp API:n och returnerar råsvaret.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnerar rådata från MailChimps API-slutpunkt rapporter/klickinformation för en given kampanj.
 ```powerquery
 MailChimp.Instance("rapporter/{campaign_id}/klickinformation")

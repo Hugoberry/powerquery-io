@@ -19,12 +19,12 @@ Record.FieldNames(
 
 ## Remarks
 
-Devolve os nomes dos campos existentes no registo <code>record</code> como texto.
+Devolve os nomes dos campos existentes no registo `record` como texto.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determinar os nomes dos campos existentes no registo.
 ```powerquery
 Record.FieldNames([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

@@ -5,7 +5,7 @@ title: List.RemoveNulls
 # List.RemoveNulls
 
 
-เอาค่า &#34;null&#34; ทั้งหมดออกจากรายการที่ระบุ
+เอาค่า "null" ทั้งหมดออกจากรายการที่ระบุ
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.RemoveNulls(
 
 ## Remarks
 
-เอาการปรากฏทั้งหมดของค่า "null" ใน <code>list</code> ออก ถ้าไม่มีค่า 'null' ในรายการ จะมีการส่งกลับรายการเดิม
+เอาการปรากฏทั้งหมดของค่า "null" ใน `list` ออก ถ้าไม่มีค่า 'null' ในรายการ จะมีการส่งกลับรายการเดิม
 
 
 ## Examples
 
-### Example #1 
-เอาค่า &#34;null&#34; ออกจากรายการ \{1, 2, 3, null, 4, 5, null, 6}
+### Example #1
+เอาค่า "null" ออกจากรายการ \{1, 2, 3, null, 4, 5, null, 6\}
 ```powerquery
 List.RemoveNulls({1, 2, 3, null, 4, 5, null, 6})
 ```

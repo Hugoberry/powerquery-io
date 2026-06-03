@@ -19,12 +19,14 @@ DateTime.IsInCurrentSecond(
 
 ## Remarks
 
-Verilen <code>dateTime</code> tarih saat değerinin sistemdeki geçerli tarih ve saat tarafından belirlenen geçerli saniyede olup olmadığını gösterir.      <ul>      <li><code>dateTime</code>: Değerlendirilmek üzere bir <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      </ul>
+Verilen `dateTime` tarih saat değerinin sistemdeki geçerli tarih ve saat tarafından belirlenen geçerli saniyede olup olmadığını gösterir.
+
+-   `dateTime`: Değerlendirilmek üzere bir `datetime` veya `datetimezone` değeri.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Geçerli sistem saatinin, geçerli saniyede olup olmadığını belirler.
 ```powerquery
 DateTime.IsInCurrentSecond(DateTime.FixedLocalNow())

@@ -19,12 +19,12 @@ Date.Month(
 
 ## Remarks
 
-प्रदान किए गए <code>datetime</code> मान, <code>dateTime</code> का महीना घटक लौटाता है.
+प्रदान किए गए `datetime` मान, `dateTime` का महीना घटक लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 महीने को #datetime(2011, 12, 31, 9, 15, 36) में प्राप्त करें.
 ```powerquery
 Date.Month(#datetime(2011, 12, 31, 9, 15, 36))

@@ -22,12 +22,17 @@ Table.AlternateRows(
 
 ## Remarks
 
-保留初始位移，然後交替接受和略過後續資料列。    <ul>       <li><code>table</code>: 輸入資料表。</li>       <li><code>offset</code>: 要在開始反覆運算之前保留的資料列數目。</li>       <li><code>skip</code>: 要在每次反覆運算中移除的資料列數目。</li>       <li><code>take</code>: 要在每次反覆運算中保留的資料列數目。</li>    </ul>    
+保留初始位移，然後交替接受和略過後續資料列。
+
+-   `table`: 輸入資料表。
+-   `offset`: 要在開始反覆運算之前保留的資料列數目。
+-   `skip`: 要在每次反覆運算中移除的資料列數目。
+-   `take`: 要在每次反覆運算中保留的資料列數目。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 根據資料表傳回一個從第一個資料列開始、略過 1 個值然後保留 1 個值的資料表。
 ```powerquery
 Table.AlternateRows(

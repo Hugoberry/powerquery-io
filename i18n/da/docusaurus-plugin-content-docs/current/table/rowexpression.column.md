@@ -19,13 +19,13 @@ RowExpression.Column(
 
 ## Remarks
 
-Returnerer et abstrakt syntakstræ (AST), der repræsenterer adgang til kolonne <code>columnName</code> af rækken i et rækkeudtryk.
+Returnerer et abstrakt syntakstræ (AST), der repræsenterer adgang til kolonne `columnName` af rækken i et rækkeudtryk.
 
 
 ## Examples
 
-### Example #1 
-Opretter en AST, der repræsenterer adgang til kolonnen &#34;CustomerName&#34;.
+### Example #1
+Opretter en AST, der repræsenterer adgang til kolonnen "CustomerName".
 ```powerquery
 RowExpression.Column("CustomerName")
 ```

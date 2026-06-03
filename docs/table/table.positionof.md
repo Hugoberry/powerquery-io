@@ -22,13 +22,18 @@ Table.PositionOf(
 
 ## Remarks
 
-Returns the row position of the first occurrence of the <code>row</code> in the <code>table</code> specified. Returns -1 if no occurrence is found.    <ul>       <li><code>table</code>: The input table.</li>       <li><code>row</code>: The row in the table to find the position of.</li>       <li><code>occurrence</code>: <i>[Optional]</i> Specifies which occurrences of the row to return.</li>       <li><code>equationCriteria</code>: <i>[Optional]</i> Controls the comparison between the table rows.</li>    </ul>    
+Returns the row position of the first occurrence of the `row` in the `table` specified. Returns -1 if no occurrence is found.
+
+-   `table`: The input table.
+-   `row`: The row in the table to find the position of.
+-   `occurrence`: *(Optional)* Specifies which occurrences of the row to return.
+-   `equationCriteria`: *(Optional)* Controls the comparison between the table rows.
 
 
 ## Examples
 
-### Example #1 
-Find the position of the first occurrence of [a = 2, b = 4] in the table &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #1
+Find the position of the first occurrence of \[a = 2, b = 4\] in the table `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({
@@ -47,8 +52,8 @@ Result:
 ```
 
 
-### Example #2 
-Find the position of the second occurrence of [a = 2, b = 4] in the table &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #2
+Find the position of the second occurrence of \[a = 2, b = 4\] in the table `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({
@@ -68,8 +73,8 @@ Result:
 ```
 
 
-### Example #3 
-Find the position of all the occurrences of [a = 2, b = 4] in the table &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})&lt;/code&gt;.
+### Example #3
+Find the position of all the occurrences of \[a = 2, b = 4\] in the table `({[a = 2, b = 4], [a = 6, b = 8], [a = 2, b = 4], [a = 1, b = 4]})`.
 ```powerquery
 Table.PositionOf(
     Table.FromRecords({

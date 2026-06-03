@@ -21,12 +21,12 @@ Text.RemoveRange(
 
 ## Remarks
 
-Zwraca kopię wartości tekstowej <code>text</code>, z której zostały usunięte wszystkie znaki od pozycji <code>offset</code>.    Za pomocą opcjonalnego parametru <code>count</code> można określić, ile znaków ma zostać usuniętych. Domyślna wartość parametru <code>count</code> to 1. Wartości pozycji rozpoczynają się od 0.
+Zwraca kopię wartości tekstowej `text`, z której zostały usunięte wszystkie znaki od pozycji `offset`. Za pomocą opcjonalnego parametru `count` można określić, ile znaków ma zostać usuniętych. Domyślna wartość parametru `count` to 1. Wartości pozycji rozpoczynają się od 0.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Usuń 1 znak z wartości tekstowej „ABEFC” na pozycji 2.
 ```powerquery
 Text.RemoveRange("ABEFC", 2)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Usuń dwa znaki z wartości tekstowej „ABEFC”, zaczynając od pozycji 2.
 ```powerquery
 Text.RemoveRange("ABEFC", 2, 2)

@@ -5,7 +5,7 @@ title: List.Product
 # List.Product
 
 
-Restituisce il prodotto dei numeri nell&#39;elenco.
+Restituisce il prodotto dei numeri nell'elenco.
 
 
 ## Syntax
@@ -20,13 +20,13 @@ List.Product(
 
 ## Remarks
 
-Restituisce il prodotto dei numeri non Null nell'elenco <code>numbersList</code>. Restituisce Null se non sono presenti valori non Null nell'elenco.
+Restituisce il prodotto dei numeri non Null nell'elenco `numbersList`. Restituisce Null se non sono presenti valori non Null nell'elenco.
 
 
 ## Examples
 
-### Example #1 
-Trovare il prodotto dei numeri nell&#39;elenco &lt;code&gt;\{1, 2, 3, 3, 4, 5, 5}&lt;/code&gt;.
+### Example #1
+Trovare il prodotto dei numeri nell'elenco `{1, 2, 3, 3, 4, 5, 5}`.
 ```powerquery
 List.Product({1, 2, 3, 3, 4, 5, 5})
 ```

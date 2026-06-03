@@ -19,12 +19,12 @@ Date.DayOfYear(
 
 ## Remarks
 
-Sağlanan <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri olan <code>dateTime</code> değerindeki yılın gününü temsil eden bir sayıyı döndürür.
+Sağlanan `date`, `datetime` veya `datetimezone` değeri olan `dateTime` değerindeki yılın gününü temsil eden bir sayıyı döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 1 Mart 2011 için yılın günü.
 ```powerquery
 Date.DayOfYear(#date(2011, 03, 01))

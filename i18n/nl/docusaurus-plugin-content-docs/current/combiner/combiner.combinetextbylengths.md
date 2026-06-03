@@ -25,7 +25,7 @@ Retourneert een functie die een lijst met tekstwaarden combineert tot één teks
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een lijst met tekstwaarden combineren door het opgegeven aantal tekens uit elke invoerwaarde te extraheren.
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3})({"aaa", "bbb", "ccc"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Een lijst met tekstwaarden combineren door het opgegeven aantal tekens uit te pakken, nadat u het resultaat eerst vooraf hebt ingevuld met de sjabloontekst.
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3}, "*********")({"aaa", "bbb", "ccc"})

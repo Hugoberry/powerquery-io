@@ -25,7 +25,7 @@ Retorna uma função que divide o texto em uma lista de texto após o compriment
 
 ## Examples
 
-### Example #1 
+### Example #1
 Divida repetidamente a entrada em partes de três caracteres, começando do início da entrada.
 ```powerquery
 Splitter.SplitTextByRepeatedLengths(3)("12345678")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Divida repetidamente a entrada em partes de três caracteres, começando do final da entrada.
 ```powerquery
 let

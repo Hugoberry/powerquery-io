@@ -20,13 +20,13 @@ Table.PrefixColumns(
 
 ## Remarks
 
-Trả về một bảng trong đó tất cả tên cột từ <code>table</code> cho sẵn đều được thêm tiền tố là văn bản <code>prefix</code> cho sẵn cùng với một dấu chấm ở dạng <code><code>prefix</code>.ColumnName</code>.
+Trả về một bảng có tất cả tên cột từ `table` cho sẵn đều được thêm tiền tố là văn bản `prefix` cho sẵn cùng với một dấu chấm ở dạng `prefix.ColumnName`.
 
 
 ## Examples
 
-### Example #1 
-Thêm tiền tố &#34;MyTable&#34; cho các cột trong bảng.
+### Example #1
+Thêm tiền tố "MyTable" cho các cột trong bảng.
 ```powerquery
 Table.PrefixColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

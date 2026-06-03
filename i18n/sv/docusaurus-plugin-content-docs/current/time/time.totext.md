@@ -21,13 +21,18 @@ Time.ToText(
 
 ## Remarks
 
-Returnerar en textrepresentation av <code>time</code>. En valfri <code>post</code> parameter, <code>options</code>, kan tillhandahållas för att ange ytterligare egenskaper. <code>culture</code> används endast för äldre arbetsflöden. Den <code>posten</code> kan innehålla följande fält: <ul>   <li><code>Format-</code>: Ett <code>textvärde</code> som anger vilket format som ska användas. Mer information finns på https://go.microsoft.com/fwlink/?linkid=2180104 och https://go.microsoft.com/fwlink/?linkid=2180105. Om du utelämnar det här fältet eller anger <code>1 null-</code> formateras datumet med standardvärdet som definieras i <code>Culture</code>.</li>   <li><code>Culture</code>: Om <code>Format</code> inte är null styr <code>Culture</code> vissa formatspecificerare. Exempel: I <code>"en-US"</code> <code>"tt"</code> <code>"AM" eller "PM"</code>, i <code>"ar-EG"</code> <code>"tt"</code> är <code>"ص" eller "Wb"</code> När <code>Format</code> är <code>null</code> styr <code>Culture</code> standardformatet som ska användas. När <code>Culture</code> är <code>null</code> eller omitteras används <code>Culture.Nuvarande</code>.</li></ul>Om du vill stödja äldre arbetsflöden kan <code>options</code> och <code>culture</code> också vara textvärden. Detta har samma beteende som om <code>options</code><code> = [Format = <code>options</code>, Culture = <code>culture</code>]</code>.
+Returnerar en textrepresentation av `time`. En valfri `record`\-parameter, `options`kan tillhandahållas för att ange ytterligare egenskaper. `culture` Används endast för äldre arbetsflöden. Den `posten` kan innehålla följande fält:
+
+-   `Format`: Ett `text`\-värde som anger vilket format som ska användas. Mer information finns på https://go.microsoft.com/fwlink/?linkid=2180104 och https://go.microsoft.com/fwlink/?linkid=2180105. Om du utelämnar detta fält eller anger `null` kommer datumet att formateras med standarden definierad av `Culture`.
+-   `Culture`: När `Format` inte är null styr `Culture` vissa formatspecificerare. Till exempel, i `"en-US"` är `"tt"` `"AM" eller "PM"`, medan i `"ar-EG"` är `"tt"` `"ص" eller "م"`. När `Format` är `null` styr `Culture` det standardformat som ska användas. När `Culture` är `null` eller utelämnas används `Culture.Current`.
+
+För att stödja äldre arbetsflöden kan `options` och `culture` också vara textvärden. Detta har samma beteende som om `alternativ = [Format = options, Culture = culture]`.
 
 
 ## Examples
 
-### Example #1 
-Konvertera &lt;code&gt;#tid(01, 30, 25)&lt;/code&gt; till ett &lt;code&gt;text&lt;/code&gt; värde. &lt;i&gt;Resultatresultatet kan variera beroende på aktuell kultur.&lt;/i&gt;
+### Example #1
+Konvertera `#tid(01, 30, 25)` till ett `text` värde. *Resultatresultatet kan variera beroende på aktuell kultur.*
 ```powerquery
 Time.ToText(#time(11, 56, 2))
 ```
@@ -38,7 +43,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Konvertera med ett anpassat format och den tyska kulturen.
 ```powerquery
 Time.ToText(#time(11, 56, 2), [Format="hh:mm", Culture="de-DE"])
@@ -50,7 +55,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Konvertera med standardtidsformat.
 ```powerquery
 Time.ToText(#time(11, 56, 2), [Format="T", Culture="de-DE"])

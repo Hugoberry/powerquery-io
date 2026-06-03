@@ -21,13 +21,13 @@ AzureCostManagement.Contents(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Om vi antar att idag är 2017-06-15, hämta sammanfattningsdata mellan 2017-05-01 till 2017-06-15
 ```powerquery
-låt    
-          enrollmentNumber = "100",
+låt
+          enrollmentNumber = 100,
           optionalParameters = [ numberOfMonth = 1 ],
-          resultat = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)   
+          result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
       i
           resultat
 ```
@@ -38,13 +38,13 @@ Funktionen kommer att returnera sammanfattningsdata mellan 2017-05-01 och 2017-0
 ```
 
 
-### Example #2 
+### Example #2
 Om vi antar att idag är 2017-06-15, hämta sammanfattningsdata för april 2017.
 ```powerquery
-låt    
-          enrollmentNumber = "100",
-          optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "-1" ],
-          resultat = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)   
+låt
+          enrollmentNumber = 100,
+          optionalParameters = [ startBillingDataWindow = -2, endBillingDataWindow = -1 ],
+          result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
       i
           resultat
 ```
@@ -55,13 +55,13 @@ Funktionen kommer att returnera data mellan 2017-04-01 och 2017-04-30
 ```
 
 
-### Example #3 
+### Example #3
 Om vi antar att idag är 2017-06-15, hämta sammanfattningsdata från april 2017 fram tills nu.
 ```powerquery
-låt    
-          enrollmentNumber = "100",
-          optionalParameters = [ startBillingDataWindow = "-2", endBillingDataWindow = "0", dataType = "Sammanfattningar" ],
-          resultat = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)   
+låt
+          enrollmentNumber = 100,
+          optionalParameters = [ startBillingDataWindow = -2, endBillingDataWindow = 0, dataType = Summaries ],
+          result = AzureCostManagement.Contents(enrollmentNumber, optionalParameters)
       i
           resultat
 ```

@@ -13,7 +13,8 @@ Zwraca funkcję dzielącą tekst na listę wartości tekstowych w miejscach wyst
 ```powerquery
 Splitter.SplitTextByDelimiter(
     delimiter as text,
-    optional quoteStyle as QuoteStyle.Type
+    optional quoteStyle as QuoteStyle.Type,
+    optional csvStyle as CsvStyle.Type
 ) as function
 ```
 
@@ -25,7 +26,7 @@ Zwraca funkcję dzielącą tekst na listę wartości tekstowych w miejscach wyst
 
 ## Examples
 
-### Example #1 
+### Example #1
 Podziel dane wejściowe według przecinka, ignorując przecinki w cudzysłowach.
 ```powerquery
 Splitter.SplitTextByDelimiter(",", QuoteStyle.Csv)("a,""b,c"",d")

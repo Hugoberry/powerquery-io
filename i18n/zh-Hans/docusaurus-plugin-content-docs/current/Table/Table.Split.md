@@ -20,12 +20,12 @@ Table.Split(
 
 ## Remarks
 
-将 <code>table</code> 拆分为一系列表，其中列表的第一个元素是包含源表中前 <code>pageSize</code> 个元素的表，    列表的下一个元素是包含源表中接下来 <code>pageSize</code> 个元素的表，以此类推。
+将 `table` 拆分为一系列表，其中列表的第一个元素是包含源表中前 `pageSize` 个元素的表， 列表的下一个元素是包含源表中接下来 `pageSize` 个元素的表，以此类推。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 将包含五条记录的表拆分为各含两条记录的表。
 ```powerquery
 let

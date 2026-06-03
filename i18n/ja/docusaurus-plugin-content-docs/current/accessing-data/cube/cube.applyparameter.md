@@ -21,7 +21,7 @@ Cube.ApplyParameter(
 
 ## Remarks
 
-<code>arguments</code> を含む <code>parameter</code> を <code>cube</code> に適用後、キューブを返します。
+`arguments` を含む `parameter` を `cube` に適用後、キューブを返します。
 
 
 

@@ -23,13 +23,13 @@ Table.AddJoinColumn(
 
 ## Remarks
 
-Joinforbinder rækkerne i <code>table1</code> med rækkerne i <code>table2</code> på baggrund af ligheden mellem værdier i de nøglekolonner, der er valgt af <code>key1</code> (for <code>table1</code>) og <code>key2</code> (for <code>table2</code>). Resultaterne angives i den kolonne, der hedder <code>newColumnName</code>.Denne funktion fungerer på samme måde som Table.Join, hvor JoinKind er angivet til LeftOuter, med den undtagelse at joinresultaterne vises indlejret og ikke i en flad struktur.
+Joinforbinder rækkerne i `table1` med rækkerne i `table2` på baggrund af ligheden mellem værdier i de nøglekolonner, der er valgt af `key1` (for `table1`) og `key2` (for `table2`). Resultaterne angives i den kolonne, der hedder `newColumnName`. Denne funktion fungerer på samme måde som Table.Join, hvor JoinKind er angivet til LeftOuter, med den undtagelse at joinresultaterne vises indlejret og ikke i en flad struktur.
 
 
 ## Examples
 
-### Example #1 
-Føj en joinforbundet kolonne til (\{[saleID = 1, item = &#34;Shirt&#34;], [saleID = 2, item = &#34;Hat&#34;]}) med navnet &#34;price/stock&#34; fra tabellen (\{[saleID = 1, price = 20], [saleID = 2, price = 10]}), der er joinforbundet på [saleID].
+### Example #1
+Føj en joinforbundet kolonne til (\{\[saleID = 1, item = "Shirt"\], \[saleID = 2, item = "Hat"\]\}) med navnet "price/stock" fra tabellen (\{\[saleID = 1, price = 20\], \[saleID = 2, price = 10\]\}), der er joinforbundet på \[saleID\].
 ```powerquery
 Table.AddJoinColumn(
     Table.FromRecords({

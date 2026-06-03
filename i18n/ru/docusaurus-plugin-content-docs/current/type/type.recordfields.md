@@ -19,13 +19,13 @@ Type.RecordFields(
 
 ## Remarks
 
-Возвращает запись, описывающую поля записи <code>type</code>. Каждое поле возвращенного типа записи имеет соответствующее имя и значение в виде записи <code>[ Type = type, Optional = logical ]</code>.
+Возвращает запись, описывающую поля записи `type`. Каждое поле возвращенного типа записи имеет соответствующее имя и значение в виде записи `[ Type = type, Optional = logical ]`.
 
 
 ## Examples
 
-### Example #1 
-Найти имя и значение записи &lt;code&gt;[ A = number, optional B = any]&lt;/code&gt;.
+### Example #1
+Найти имя и значение записи `[ A = number, optional B = any]`.
 ```powerquery
 Type.RecordFields(type [A = number, optional B = any])
 ```

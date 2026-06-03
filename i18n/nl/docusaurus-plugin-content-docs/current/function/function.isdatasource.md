@@ -19,7 +19,7 @@ Function.IsDataSource(
 
 ## Remarks
 
-Wordt geretourneerd onafhankelijk van het feit of <code>function</code> wordt beschouwd als gegevensbron.
+Wordt geretourneerd onafhankelijk van het feit of `function` wordt beschouwd als gegevensbron.
 
 
 

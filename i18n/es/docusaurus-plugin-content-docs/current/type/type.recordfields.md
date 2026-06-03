@@ -19,13 +19,13 @@ Type.RecordFields(
 
 ## Remarks
 
-Devuelve un registro que describe los campos de un registro <code>type</code>. Cada campo del tipo de registro tiene un nombre y un valor correspondientes, en forma de un registro <code>[ Type = type, Optional = logical ]</code>.
+Devuelve un registro que describe los campos de un registro `type`. Cada campo del tipo de registro tiene un nombre y un valor correspondientes, en forma de un registro `[ Type = type, Optional = logical ]`.
 
 
 ## Examples
 
-### Example #1 
-Buscar el nombre y el valor del registro &lt;code&gt;[ A = number, optional B = any]&lt;/code&gt;.
+### Example #1
+Buscar el nombre y el valor del registro `[ A = number, optional B = any]`.
 ```powerquery
 Type.RecordFields(type [A = number, optional B = any])
 ```

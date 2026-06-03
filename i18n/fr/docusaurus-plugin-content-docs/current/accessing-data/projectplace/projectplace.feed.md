@@ -5,7 +5,7 @@ title: Projectplace.Feed
 # Projectplace.Feed
 
 
-Entrez l&#39;URL de votre compte Planview Projectplace.
+Entrez l'URL de votre compte Planview Projectplace.
 
 
 ## Syntax

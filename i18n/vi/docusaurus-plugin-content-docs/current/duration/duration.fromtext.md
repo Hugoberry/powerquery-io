@@ -19,13 +19,24 @@ Duration.FromText(
 
 ## Remarks
 
-Trả về một giá trị khoảng thời gian từ văn bản được chỉ định, <code>text</code>. Hàm này có thể phân tích cú pháp các định dạng sau:  <ul>        <li>(-)hh:mm(:ss(.ff)) </li>        <li>(-)ddd(.hh:mm(:ss(.ff))) </li> </ul>        <br />        (Bao gồm tất cả các phạm vi)<br />        ddd: Số ngày.<br />        hh: Số giờ, từ 0 đến 23.<br />        mm: Số phút, từ 0 đến 59.<br />        ss: Số giây, từ 0 đến 59.<br />        ff: Phần của giây, từ 0 đến 9999999.
+Trả về một giá trị khoảng thời gian từ văn bản được chỉ định, `text`. Hàm này có thể phân tích cú pháp các định dạng sau:
+
+-   (-)hh:mm(:ss(.ff))
+-   (-)ddd(.hh:mm(:ss(.ff)))
+
+(Bao gồm tất cả các phạm vi)
+
+-   ddd: Số ngày.
+-   hh: Số giờ, từ 0 đến 23.
+-   mm: Số phút, từ 0 đến 59.
+-   ss: Số giây, từ 0 đến 59.
+-   ff: Phần của giây, từ 0 đến 9999999.
 
 
 ## Examples
 
-### Example #1 
-Chuyển đổi &lt;code&gt;&#34;2.05:55:20&#34;&lt;/code&gt; thành giá trị &lt;code&gt;duration&lt;/code&gt;.
+### Example #1
+Chuyển đổi `"2.05:55:20"` thành giá trị `duration`.
 ```powerquery
 Duration.FromText("2.05:55:20")
 ```

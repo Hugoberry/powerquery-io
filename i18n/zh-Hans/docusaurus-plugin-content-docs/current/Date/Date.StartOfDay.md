@@ -19,12 +19,12 @@ Date.StartOfDay(
 
 ## Remarks
 
-返回 <code>dateTime</code> 表示的天开始值。    <code>dateTime</code> 必须是 <code>date</code>、<code>datetime</code>或<code>datetimezone</code>值。
+返回 `dateTime` 表示的天开始值。 `dateTime` 必须是 `date`、`datetime`或`datetimezone`值。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 查找 2011 年 10 月 10 日上午 8:00 的天开始值。
 ```powerquery
 Date.StartOfDay(#datetime(2011, 10, 10, 8, 0, 0))

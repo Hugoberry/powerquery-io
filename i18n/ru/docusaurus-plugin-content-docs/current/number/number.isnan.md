@@ -19,12 +19,12 @@ Number.IsNaN(
 
 ## Remarks
 
-Указывает, является ли значение NaN (нечисловым). Возвращает <code>true</code>, если значение <code>number</code> эквивалентно <code>Number.IsNaN</code>, и <code>false</code> - в противном случае.
+Указывает, является ли значение NaN (нечисловым). Возвращает `true`, если значение `number` эквивалентно `Number.NaN`; в противном случае — `false`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Проверьте, будет ли получено NaN при делении 0 на 0.
 ```powerquery
 Number.IsNaN(0/0)
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Проверьте, будет ли получено NaN при делении 1 на 0.
 ```powerquery
 Number.IsNaN(1/0)

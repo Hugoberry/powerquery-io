@@ -25,8 +25,8 @@ MailChimp API'sine çağrıda bulunur ve sonuç veri kümesini tablo olarak dön
 
 ## Examples
 
-### Example #1 
-MailChimp API&#39;sinin listeler uç noktasına ait verilerin yer aldığı bir tabloyu çeker.
+### Example #1
+MailChimp API'sinin listeler uç noktasına ait verilerin yer aldığı bir tabloyu çeker.
 ```powerquery
 MailChimp.Collection("lists")
 ```
@@ -37,8 +37,8 @@ Liste verilerinin yer aldığı bir tablo.
 ```
 
 
-### Example #2 
-MailChimp API&#39;sinin campaign-folders uç noktasına ait verilerin yer aldığı bir tabloyu çeker.
+### Example #2
+MailChimp API'sinin campaign-folders uç noktasına ait verilerin yer aldığı bir tabloyu çeker.
 ```powerquery
 MailChimp.Collection("campaign-folders", "folders")
 ```

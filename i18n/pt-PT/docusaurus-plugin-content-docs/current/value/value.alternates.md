@@ -19,7 +19,7 @@ Value.Alternates(
 
 ## Remarks
 
-Expressa planos de consulta alternativos dentro de uma expressão de plano de consulta obtida através da Valor.Expression (Value.Otimize(...)). Não se destina a outras utilizações.
+Exprime planos de consulta alternativos numa expressão de plano de consulta obtida através de `Value.Expression(Value.Optimize(...))`. Não se destina a outras utilizações.
 
 
 

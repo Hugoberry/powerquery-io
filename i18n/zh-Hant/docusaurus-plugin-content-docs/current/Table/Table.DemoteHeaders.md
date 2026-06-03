@@ -24,7 +24,7 @@ Table.DemoteHeaders(
 
 ## Examples
 
-### Example #1 
+### Example #1
 將資料表中第一個資料列的值降階。
 ```powerquery
 Table.DemoteHeaders(

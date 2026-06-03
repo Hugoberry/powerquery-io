@@ -19,13 +19,13 @@ Text.Reverse(
 
 ## Remarks
 
-उपलब्ध कराए गए <code>text</code> को रिवर्स कर देता है.
+उपलब्ध कराए गए `text` को रिवर्स कर देता है.
 
 
 ## Examples
 
-### Example #1 
-&#34;123&#34; पाठ को रिवर्स करें.
+### Example #1
+"123" पाठ को रिवर्स करें.
 ```powerquery
 Text.Reverse("123")
 ```

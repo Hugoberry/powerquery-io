@@ -20,12 +20,12 @@ Impala.Database(
 
 ## Remarks
 
-Importar dados de um cluster de Impala <code>server</code>. Se não foi especificada uma porta, será utilizada a porta predefinida 21050.
+Importar dados de um cluster de Impala `server`. Se não foi especificada uma porta, será utilizada a porta predefinida 21050.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Listar as tabelas de um cluster de Impala.
 ```powerquery
 Impala.Database("localhost:21050")

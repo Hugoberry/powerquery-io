@@ -21,6 +21,6 @@ Dynamics365BusinessCentral.ApiContents(
 
 ## Remarks
 
-Devolve uma tabela com dados relevantes do Dynamics 365 Business Central. 
+Devolve uma tabela com dados relevantes do Dynamics 365 Business Central.
 
 

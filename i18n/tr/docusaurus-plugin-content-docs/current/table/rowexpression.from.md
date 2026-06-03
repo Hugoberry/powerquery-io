@@ -19,13 +19,28 @@ RowExpression.From(
 
 ## Remarks
 
-<code>function</code> gövdesine ilişkin <i>satır ifadesinde</i> normalleştirilmiş soyut söz dizimi ağacını (AST) döndürür:<ul>  <li>İşlevin 1 bağımsız değişkenli lambda olması gerekir.</li>  <li>İşlev parametresine yönelik tüm başvurular <code>RowExpression.Row</code> ile değiştirilir.</li>  <li>Sütunlara yönelik tüm başvurular <code>RowExpression.Column(<i>columnName</i>)</code> ile değiştirilir.</li>  <li>AST, yalnızca şu tip düğümleri içerecek şekilde basitleştirilir:    <ul>      <li><code>Constant</code></li>      <li><code>Invocation</code></li>      <li><code>Unary</code></li>      <li><code>Binary</code></li>      <li><code>If</code></li>      <li><code>FieldAccess</code></li>    </ul>  </li></ul><br /><br /><code>function</code> gövdesi için satır ifadesi AST'sinin döndürülemediği durumlarda hata oluşur.<br />
+`function` gövdesine ilişkin soyut sözdizim ağacını (AST) döndürür, *bir satır ifadesine* normalleştirilmiş olarak:
+
+-   İşlevin 1 bağımsız değişkenli lambda olması gerekir.
+-   İşlev parametresine yönelik tüm başvurular `RowExpression.Row` ile değiştirilir.
+-   Sütunlara yönelik tüm başvurular `RowExpression.Column(columnName)` ile değiştirilir.
+-   AST, yalnızca şu tip düğümleri içerecek şekilde basitleştirilir:
+    -   `Constant`
+    -   `Invocation`
+    -   `Unary`
+    -   `Binary`
+    -   `If`
+    -   `FieldAccess`
+
+`function` gövdesi için satır ifadesi AST'sinin döndürülemediği durumlarda hata oluşur.  
+  
+Bu işlev, `ItemExpression.From` ile aynıdır.
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;each [CustomerID] = &#34;ALFKI&#34;&lt;/code&gt; işlev gövdesine ilişkin AST&#39;yi döndürür
+### Example #1
+`each [CustomerID] = "ALFKI"` işlev gövdesine ilişkin AST'yi döndürür.
 ```powerquery
 RowExpression.From(each [CustomerName] = "ALFKI")
 ```

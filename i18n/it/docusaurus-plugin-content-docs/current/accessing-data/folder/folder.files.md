@@ -20,7 +20,27 @@ Folder.Files(
 
 ## Remarks
 
-Restituisce una tabella con una riga per ogni file trovato nel <code>path</code> della cartella e in tutte le relative sottocartelle. Ogni riga contiene le proprietà della cartella o del file e un collegamento al relativo contenuto. Il parametro <code>options</code> è attualmente destinato solo all'uso interno.
+Restituisce una tabella contenente una riga per ogni file trovato nella cartella specificata e in tutte le sue sottocartelle.
+
+-   `path`: Il percorso della cartella da cui desideri recuperare i file. Il percorso della cartella specificato deve essere un percorso assoluto valido.
+-   `options`: (Facoltativo) Questo parametro è attualmente destinato solo a un uso interno.
+
+Ogni riga della tabella restituita contiene le proprietà del file e un collegamento al suo contenuto.
+
+
+## Examples
+
+### Example #1
+Restituisce una tabella contenente tutti i file trovati in C:\\test-examples\\example-folder e in tutte le sue sottocartelle.
+```powerquery
+Folder.Files("C:\test-examples\example-folder")
+```
+
+Result: 
+```powerquery
+A table containing the files, their properties, and a link to their content.
+```
+
 
 
 

@@ -19,12 +19,12 @@ Duration.TotalMinutes(
 
 ## Remarks
 
-傳回 <code>duration</code> 跨越的總分鐘數。
+傳回 `duration` 跨越的總分鐘數。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 尋找持續時間值跨越的總分鐘數。
 ```powerquery
 Duration.TotalMinutes(#duration(5, 4, 3, 2))

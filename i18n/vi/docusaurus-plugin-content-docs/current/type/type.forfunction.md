@@ -20,12 +20,12 @@ Type.ForFunction(
 
 ## Remarks
 
-Tạo <code>loại hàm</code> từ <code>signature</code>, bản ghi của <code>ReturnType</code> và <code>Tham số</code> và <code>min</code>, số nhỏ nhất của đối số cần để gọi hàm.
+Tạo `loại hàm` từ `signature`, bản ghi của `ReturnType` và `Tham số` và `min`, số nhỏ nhất của đối số cần để gọi hàm.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tạo loại chức năng lấy tham số dạng số có tên là X và trả về một số.
 ```powerquery
 Type.ForFunction([ReturnType = type number, Parameters = [X = type number]], 1)

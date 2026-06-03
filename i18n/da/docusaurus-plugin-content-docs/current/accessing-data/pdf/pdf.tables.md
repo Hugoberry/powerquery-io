@@ -20,12 +20,18 @@ Pdf.Tables(
 
 ## Remarks
 
-Returnerer tabeller fundet i <code>pdf</code>. Der kan angives en valgfri postparameter, <code>options</code>, for at angive yderligere egenskaber. Posten kan indeholde følgende felter:    <ul><li><code>Implementation</code> : Den version af algoritmen, der skal bruges til at identificere tabeller. Gamle versioner er kun tilg&#230;ngelige til bagudkompatibilitet, s&#229; gamle foresp&#248;rgsler forhindres i at blive brudt af algoritmeopdateringer. Den nyeste version b&#248;r altid give de bedste resultater. Gyldige v&#230;rdier er &quot;1,3&quot;, &quot;1,2&quot;, &quot;1,1&quot; eller nul.</li><li><code>StartPage</code> : Angiver den f&#248;rste side i udsnittet af sider, der skal unders&#248;ges. Som standard: 1.</li><li><code>EndPage</code> : Angiver den sidste side i udsnittet af sider, der skal unders&#248;ges. Standard: den sidste side i dokumentet.</li><li><code>MultiPageTables</code> : Kontrollerer, om ensartede tabeller p&#229; flere sider i tr&#230;k automatisk samles til en enkelt tabel. Som standard: true.</li><li><code>EnforceBorderLines</code> : Angiver, om kantlinjer altid gennemtvinges som cellegr&#230;nser (hvis det er true) eller bare er &#233;n faktor blandt mange andre, som bestemmer cellegr&#230;nser (hvis det er false). Som standard: false.</li></ul>    
+Returnerer tabeller fundet i `pdf`. Der kan angives en valgfri postparameter, `options`, for at angive yderligere egenskaber. Posten kan indeholde følgende felter:
+
+-   `Implementation` : Den version af algoritmen, der skal bruges til at identificere tabeller. Gamle versioner er kun tilgængelige til bagudkompatibilitet, så gamle forespørgsler forhindres i at blive brudt af algoritmeopdateringer. Den nyeste version bør altid give de bedste resultater. Gyldige værdier er "1,3", "1,2", "1,1" eller nul.
+-   `StartPage` : Angiver den første side i udsnittet af sider, der skal undersøges. Som standard: 1.
+-   `EndPage` : Angiver den sidste side i udsnittet af sider, der skal undersøges. Standard: den sidste side i dokumentet.
+-   `MultiPageTables` : Kontrollerer, om ensartede tabeller på flere sider i træk automatisk samles til en enkelt tabel. Som standard: true.
+-   `EnforceBorderLines` : Angiver, om kantlinjer altid gennemtvinges som cellegrænser (hvis det er true) eller bare er én faktor blandt mange andre, som bestemmer cellegrænser (hvis det er false). Som standard: false.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnerer tabellerne i eksempel.pdf.
 ```powerquery
 Pdf.Tables(File.Contents ("c:\eksempel.pdf"))

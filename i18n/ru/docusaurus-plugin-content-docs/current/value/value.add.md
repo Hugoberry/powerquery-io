@@ -21,7 +21,7 @@ Value.Add(
 
 ## Remarks
 
-Возвращает сумму значений <code>value1</code> и <code>value2</code>. Можно указать необязательный параметр <code>precision</code>, по умолчанию используется <code>Precision.Double</code>.
+Возвращает сумму значений `value1` и `value2`. Можно указать необязательный параметр `precision`, по умолчанию используется `Precision.Double`.
 
 
 

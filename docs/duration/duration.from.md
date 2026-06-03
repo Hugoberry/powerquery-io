@@ -19,13 +19,19 @@ Duration.From(
 
 ## Remarks
 
-Returns a <code>duration</code> value from the given <code>value</code>. If the given <code>value</code> is <code>null</code>, <code>Duration.From</code> returns <code>null</code>.  If the given <code>value</code> is <code>duration</code>, <code>value</code> is returned. Values of the following types can be converted to a <code>duration</code> value:      <ul>        <li><code>text</code>: A <code>duration</code> value from textual elapsed time forms (d.h:m:s). Refer to <code>Duration.FromText</code> for details.</li>        <li><code>number</code>: A <code>duration</code> equivalent to the number of whole and fractional days expressed by <code>value</code>.</li>      </ul>If <code>value</code> is of any other type, an error is returned.
+Returns a duration value from the given value.
+
+-   `value`: The value from which the duration is derived. If the given `value` is `null`, this function returns `null`. If the given `value` is a `duration`, `value` is returned. Values of the following types can be converted to a `duration` value:
+    -   `text`: A `duration` value from textual elapsed time forms (d.h:m:s). Refer to `Duration.FromText` for details.
+    -   `number`: A `duration` equivalent to the number of whole and fractional days expressed by `value`.
+
+If `value` is of any other type, an error is returned.
 
 
 ## Examples
 
-### Example #1 
-Convert &lt;code&gt;2.525&lt;/code&gt; into a &lt;code&gt;duration&lt;/code&gt; value.
+### Example #1
+Convert `2.525` into a `duration` value.
 ```powerquery
 Duration.From(2.525)
 ```
@@ -33,6 +39,18 @@ Duration.From(2.525)
 Result: 
 ```powerquery
 #duration(2, 12, 36, 0)
+```
+
+
+### Example #2
+Convert the text value `"2.05:55:20.34567"` into a `duration` value.
+```powerquery
+Duration.From("2.05:55:20.34567")
+```
+
+Result: 
+```powerquery
+#duration(2, 5, 55, 20.3456700)
 ```
 
 

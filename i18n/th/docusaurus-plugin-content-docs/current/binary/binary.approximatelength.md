@@ -19,12 +19,12 @@ Binary.ApproximateLength(
 
 ## Remarks
 
-ส่งกลับความยาวโดยประมาณของ <code>binary</code> หรือข้อผิดพลาด หากแหล่งข้อมูลไม่สนับสนุนความยาวโดยประมาณ
+ส่งกลับความยาวโดยประมาณของ `binary` หรือข้อผิดพลาด หากแหล่งข้อมูลไม่สนับสนุนความยาวโดยประมาณ
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 รับความยาวโดยประมาณของค่าไบนารี
 ```powerquery
 Binary.ApproximateLength(Binary.FromText("i45WMlSKjQUA", BinaryEncoding.Base64))

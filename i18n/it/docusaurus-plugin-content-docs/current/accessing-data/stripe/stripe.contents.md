@@ -5,7 +5,7 @@ title: Stripe.Contents
 # Stripe.Contents
 
 
-Effettua una chiamata all&#39;API Stripe con l&#39;opzione per limitare il numero di chiamate API effettuate.
+Effettua una chiamata all'API Stripe con l'opzione per limitare il numero di chiamate API effettuate.
 
 
 ## Syntax
@@ -21,12 +21,12 @@ Stripe.Contents(
 
 ## Remarks
 
-Effettua una chiamata all'API Stripe all'indirizzo https://api.stripe.com/v1/<code>method</code>, con il record facoltativo <code>query</code> passato come parametri aggiuntivi e l'opzione facoltativa <code>pageLimit</code> come limite per il numero di richieste API. I dati più recenti vengono restituiti per primi. Se l'opzione <code>pageLimit</code> non è specificata, vengono restituiti tutti i dati. Versione di Stripe usata: 2015-10-16.
+Effettua una chiamata all'API Stripe all'indirizzo https://api.stripe.com/v1/`method`, con il record facoltativo `query` passato come parametri aggiuntivi e l'opzione facoltativa `pageLimit` come limite per il numero di richieste API. I dati più recenti vengono restituiti per primi. Se l'opzione `pageLimit` non è specificata, vengono restituiti tutti i dati. Versione di Stripe usata: 2015-10-16.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Restituisce tutti i dati relativi agli addebiti
 ```powerquery
 Stripe.Contents("charges")
@@ -38,7 +38,7 @@ Tabella contenente tutti i dati relativi agli addebiti per l'account Stripe corr
 ```
 
 
-### Example #2 
+### Example #2
 Restituisce una pagina di dati relativi agli addebiti
 ```powerquery
 Stripe.Contents("charges", [], 1)

@@ -19,12 +19,12 @@ Time.Hour(
 
 ## Remarks
 
-ส่งกลับส่วนประกอบชั่วโมงของค่า <code>time</code>, <code>datetime</code> หรือ <code>datetimezone</code> ที่กำหนดให้ ได้แก่ <code>dateTime</code>
+ส่งกลับส่วนประกอบชั่วโมงของค่า `time`, `datetime` หรือ `datetimezone` ที่กำหนดให้ ได้แก่ `dateTime`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 หาชั่วโมงใน #datetime(2011, 12, 31, 9, 15, 36)
 ```powerquery
 Time.Hour(#datetime(2011, 12, 31, 9, 15, 36))

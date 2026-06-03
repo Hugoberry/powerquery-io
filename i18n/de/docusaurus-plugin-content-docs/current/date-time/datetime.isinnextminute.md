@@ -19,12 +19,14 @@ DateTime.IsInNextMinute(
 
 ## Remarks
 
-Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob der angegebene datetime-Wert "<code>dateTime</code>" während der nächsten Minute auftritt. Beachten Sie, dass diese Funktion FALSE zurückgibt, wenn der übergebene Wert innerhalb der aktuellen Minute auftritt.      <ul>      <li><code>dateTime</code>: Ein <code>datetime</code>- oder <code>datetimezone</code>-Wert, der ausgewertet werden soll.</li>      </ul>
+Gibt auf Grundlage des aktuellen Systemdatums und der aktuellen Systemzeit an, ob der angegebene datetime-Wert "`dateTime`" während der nächsten Minute auftritt. Beachten Sie, dass diese Funktion FALSE zurückgibt, wenn der übergebene Wert innerhalb der aktuellen Minute auftritt.
+
+-   `dateTime`: Ein `datetime`\- oder `datetimezone`\-Wert, der ausgewertet werden soll.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ermittelt, ob die Minute nach der aktuellen Systemzeit in der nächsten Minute liegt.
 ```powerquery
 DateTime.IsInNextMinute(DateTime.FixedLocalNow() + #duration(0, 0, 1, 0))

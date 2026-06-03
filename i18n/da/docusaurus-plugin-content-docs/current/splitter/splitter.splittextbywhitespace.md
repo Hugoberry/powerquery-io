@@ -24,7 +24,7 @@ Returnerer en funktion, der opdeler tekst på en liste med tekst ved mellemrum.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Opdel input med hvidt mellemrum, hvor anførselstegn behandles som ethvert andet tegn.
 ```powerquery
 Splitter.SplitTextByWhitespace(QuoteStyle.None)("a b#(tab)c")

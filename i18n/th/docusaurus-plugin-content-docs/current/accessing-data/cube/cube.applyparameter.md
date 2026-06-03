@@ -21,7 +21,7 @@ Cube.ApplyParameter(
 
 ## Remarks
 
-ส่งคืนคิวบ์หลังจากกำหนดใช้ <code>parameter</code> ด้วย <code>arguments</code> เป็น <code>cube</code>
+ส่งคืนคิวบ์หลังจากกำหนดใช้ `parameter` ด้วย `arguments` เป็น `cube`
 
 
 

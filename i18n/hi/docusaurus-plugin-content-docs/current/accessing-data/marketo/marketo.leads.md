@@ -21,12 +21,12 @@ Marketo.Leads(
 
 ## Remarks
 
-<code>url</code>/rest/v1/leads.json पर Marketo REST API एंडपॉइंट को कॉल करता है. सूची <code>leadIds</code> के सभी लीड लौटा दिए गए हैं.
+`url`/rest/v1/leads.json पर Marketo REST API एंडपॉइंट को कॉल करता है. सूची `leadIds` के सभी लीड लौटा दिए गए हैं.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 तीन लीड के लिए विवरण पुल करता है
 ```powerquery
 Marketo.Leads("https://100-AAA-999.mktorest.com/rest", {50, 2343, 88498})

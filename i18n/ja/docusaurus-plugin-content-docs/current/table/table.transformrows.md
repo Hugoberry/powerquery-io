@@ -20,12 +20,12 @@ Table.TransformRows(
 
 ## Remarks
 
-<code>table</code> の各行に <code>transform</code> 操作を適用して、<code>リスト</code>を作成します。
+`table` の各行に `transform` 操作を適用して、`リスト`を作成します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブルの行を数値のリストに変換します。
 ```powerquery
 Table.TransformRows(
@@ -46,7 +46,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 数値テーブルの行をテキスト レコードに変換します。
 ```powerquery
 Table.TransformRows(

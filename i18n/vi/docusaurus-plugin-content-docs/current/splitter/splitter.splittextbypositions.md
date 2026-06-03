@@ -25,7 +25,7 @@ Trả về một hàm tách văn bản thành một danh sách văn bản tại 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tách dữ liệu đầu vào tại vị trí được chỉ định, kể từ đoạn đầu của dữ liệu đầu vào.
 ```powerquery
 Splitter.SplitTextByPositions({0, 3, 4})("ABC|12345")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Tách dữ liệu đầu vào tại vị trí được chỉ định, kể từ đoạn cuối của dữ liệu đầu vào.
 ```powerquery
 let

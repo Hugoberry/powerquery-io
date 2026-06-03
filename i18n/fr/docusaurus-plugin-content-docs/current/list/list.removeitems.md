@@ -20,13 +20,13 @@ List.RemoveItems(
 
 ## Remarks
 
-Supprime toutes les occurrences des valeurs spécifiées dans <code>list2</code> depuis <code>list1</code>. Si les valeurs dans <code>list2</code> n'existent pas dans <code>list1</code>, la liste d'origine est retournée.
+Supprime toutes les occurrences des valeurs spécifiées dans `list2` depuis `list1`. Si les valeurs dans `list2` n'existent pas dans `list1`, la liste d'origine est retournée.
 
 
 ## Examples
 
-### Example #1 
-Supprime des éléments de la liste \{2, 4, 6} dans la liste \{1, 2, 3, 4, 2, 5, 5}.
+### Example #1
+Supprime des éléments de la liste \{2, 4, 6\} dans la liste \{1, 2, 3, 4, 2, 5, 5\}.
 ```powerquery
 List.RemoveItems({1, 2, 3, 4, 2, 5, 5}, {2, 4, 6})
 ```

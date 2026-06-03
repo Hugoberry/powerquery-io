@@ -20,12 +20,12 @@ Table.IsDistinct(
 
 ## Remarks
 
-Cho biết <code>table</code> chỉ chứa các hàng riêng biệt (không trùng lặp) hay không. Trả về <code>true</code> nếu các hàng riêng biệt, <code>false</code> nếu ngược lại.    Tham số tùy chọn <code>comparisonCriteria</code> chỉ định cột nào của bảng được kiểm tra tính trùng lặp. Nếu <code>comparisonCriteria</code> không được chỉ định thì tất cả các cột đều được kiểm tra.
+Cho biết `table` chỉ chứa các hàng riêng biệt (không trùng lặp) hay không. Trả về `true` nếu các hàng riêng biệt, `false` nếu ngược lại. Tham số tùy chọn `comparisonCriteria` chỉ định cột nào của bảng được kiểm tra tính trùng lặp. Nếu `comparisonCriteria` không được chỉ định thì tất cả các cột đều được kiểm tra.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Xác định bảng có riêng biệt không.
 ```powerquery
 Table.IsDistinct(
@@ -44,7 +44,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Xác định bảng có riêng biệt trong cột hay không.
 ```powerquery
 Table.IsDistinct(

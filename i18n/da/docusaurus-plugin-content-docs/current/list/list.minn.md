@@ -22,13 +22,17 @@ List.MinN(
 
 ## Remarks
 
-Returnerer den eller de mindste værdier på listen, <code>list</code>.    Parameteren, <code>countOrCondition</code>, angiver antallet af værdier, der skal returneres, eller en filtreringsbetingelse. Den valgfri parameter, <code>comparisonCriteria</code>, angiver, hvordan man sammenligner værdier på listen. <ul>        <li> <code>list</code>: Listen med værdier.</li>        <li> <code>countOrCondition</code>: Hvis et nummer er angivet, returneres en liste med op til <code>countOrCondition</code> elementer i stigende rækkefølge. Hvis en betingelse er angivet, returneres en liste over elementer, der oprindeligt opfylder betingelsen. Når et element ikke opfylder betingelsen, tages der ikke flere elementer i betragtning. Hvis denne parameter er nul, returneres den mindste værdi på listen.</li><li><code>comparisonCriteria</code>: <i>[Valgfri]</i> En valgfri <code>comparisonCriteria</code> værdi kan angives til at bestemme, hvordan man sammenligner elementerne på listen. Hvis denne parameter er nul, bruges standardsammenligningen. </li></ul>
+Returnerer den eller de mindste værdier på listen, `list`. Parameteren, `countOrCondition`, angiver det antal værdier, der skal returneres, eller en filtreringsbetingelse. Den valgfrie parameter, `comparisonCriteria`, angiver, hvordan værdier på listen skal sammenlignes.
+
+-   `list`: Listen over værdier.
+-   `countOrCondition`: Hvis der er angivet et tal, returneres der en liste på op til `countOrCondition` elementer i stigende rækkefølge. Hvis der er angivet en betingelse, returneres der en liste over elementer, der i starten opfylder betingelsen. Når et element ikke opfylder betingelsen, tages der ikke flere elementer med i betragtning. Hvis denne parameter er null, returneres den mindste enkeltstående værdi på listen.
+-   `comparisonCriteria`: *(Valgfrit)* Du kan angive en valgfri værdi af typen `comparisonCriteria` for at bestemme, hvordan elementerne på listen skal sammenlignes. Hvis denne parameter er null, bruges standardfunktionen til sammenligning.
 
 
 ## Examples
 
-### Example #1 
-Find de 5 mindste værdier på listen &lt;code&gt;\{3, 4, 5, -1, 7, 8, 2}&lt;/code&gt;.
+### Example #1
+Find de 5 mindste værdier på listen `{3, 4, 5, -1, 7, 8, 2}`.
 ```powerquery
 List.MinN({3, 4, 5, -1, 7, 8, 2}, 5)
 ```

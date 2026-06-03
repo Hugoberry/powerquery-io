@@ -19,7 +19,7 @@ Type.Union(
 
 ## Remarks
 
-返回 <code>types</code> 中类型的并集。
+返回 `types` 中类型的并集。
 
 
 

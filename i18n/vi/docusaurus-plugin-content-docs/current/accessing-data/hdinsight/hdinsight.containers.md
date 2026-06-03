@@ -19,7 +19,7 @@ HdInsight.Containers(
 
 ## Remarks
 
-Trả về bảng điều hướng chứa một hàng cho mỗi vùng chứa có trong URL của tài khoản, <code>account</code>, từ ngăn lưu trữ Azure. Mỗi hàng chứa một liên kết đến các blob của vùng chứa.
+Trả về bảng điều hướng chứa một hàng cho mỗi vùng chứa có trong URL của tài khoản, `account`, từ ngăn lưu trữ Azure. Mỗi hàng chứa một liên kết đến các blob của vùng chứa.
 
 
 

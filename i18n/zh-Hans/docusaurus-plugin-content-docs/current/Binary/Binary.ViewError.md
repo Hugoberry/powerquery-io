@@ -5,7 +5,7 @@ title: Binary.ViewError
 # Binary.ViewError
 
 
-创建修改的错误记录，当在视图上(通过 Binary.View)定义的处理程序引发该记录时，它不会触发回退。
+创建修改后的错误记录，该记录在视图上(通过 Binary.View)定义的处理程序引发时将不会触发回退。
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Binary.ViewError(
 
 ## Remarks
 
-从 <code>errorRecord</code> 创建修改的错误记录，当在视图上(通过 Binary.View)定义的处理程序引发该记录时，它不会触发回退。
+根据 `errorRecord` 创建修改后的错误记录，该记录在视图上(通过 Binary.View)定义的处理程序引发时将不会触发回退。
 
 
 

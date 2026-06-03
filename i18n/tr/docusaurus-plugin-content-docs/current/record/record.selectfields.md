@@ -21,13 +21,13 @@ Record.SelectFields(
 
 ## Remarks
 
-<code>record</code> girdisinden yalnızca <code>fields</code> listesinde belirtilen alanları içeren bir kayıt döndürür.
+`record` girdisinden yalnızca `fields` listesinde belirtilen alanları içeren bir kayıt döndürür.
 
 
 ## Examples
 
-### Example #1 
-Kayıttaki &#34;Item&#34; ve &#34;Price&#34; alanlarını seçer.
+### Example #1
+Kayıttaki "Item" ve "Price" alanlarını seçer.
 ```powerquery
 Record.SelectFields(
     [OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0],

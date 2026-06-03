@@ -19,12 +19,14 @@ Date.EndOfMonth(
 
 ## Remarks
 
-<code>dateTime</code> を含む月の最後の日付を返します。      <ul>        <li><code>dateTime</code>: 月の終わりを計算する <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値。</li>      </ul>
+`dateTime` を含む月の最後の日付を返します。
+
+-   `dateTime`: 月の終わりを計算する `date`、`datetime`、または `datetimezone` 値。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 5/14/2011 の月の終わりを取得します。
 ```powerquery
 Date.EndOfMonth(#date(2011, 5, 14))
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 5/17/2011 05:00:00 PM -7:00 の月の終わりを取得します。
 ```powerquery
 Date.EndOfMonth(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0))

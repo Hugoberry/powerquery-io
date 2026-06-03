@@ -20,13 +20,13 @@ Text.End(
 
 ## Remarks
 
-<code>text</code> değeri olan <code>text</code> öğesinin son <code>count</code> karakteri olan bir <code>text</code> değeri döndürür.
+`text` değeri olan `text` öğesinin son `count` karakteri olan bir `text` değeri döndürür.
 
 
 ## Examples
 
-### Example #1 
-&#34;Hello, World&#34; metninin son 5 karakterini alır.
+### Example #1
+"Hello, World" metninin son 5 karakterini alır.
 ```powerquery
 Text.End("Hello, World", 5)
 ```

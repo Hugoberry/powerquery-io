@@ -21,12 +21,12 @@ Table.InsertRows(
 
 ## Remarks
 
-返回一个表，其中行列表 <code>rows</code> 插入到 <code>table</code> 的给定位置 <code>offset</code>。要插入的行中的每列都必须与表的列类型相匹配。
+返回一个表，其中行列表 `rows` 插入到 `table` 的给定位置 `offset`。要插入的行中的每列都必须与表的列类型相匹配。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 将行插入表中的位置 1。
 ```powerquery
 Table.InsertRows(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 将两行插入表中的位置 1。
 ```powerquery
 Table.InsertRows(

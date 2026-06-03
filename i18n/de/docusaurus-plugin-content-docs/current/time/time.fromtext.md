@@ -20,13 +20,18 @@ Time.FromText(
 
 ## Remarks
 
-Erstellt einen <code>time</code>-Wert aus einer Textdarstellung, <code>text</code>. Ein optionaler <code>record</code>-Parameter, <code>options</code>, kann angegeben werden, um zusätzliche Eigenschaften anzugeben. <code>record</code> kann die folgenden Felder enthalten:<ul>   <li><code>Format</code>: Ein <code>text</code>-Wert, der das zu verwendende Format angibt. Gehen Sie zu https://go.microsoft.com/fwlink/?linkid=2180104 und https://go.microsoft.com/fwlink/?linkid=2180105 für Details. Wenn Sie dieses Feld auslassen oder <code>null</code> angeben, wird das Datum nach bestem Wissen geparst.</li>   <li><code>Culture</code>: Wenn <code>Format</code> nicht null ist, definiert <code>Culture</code> einige Formatspezifikationen. Zum Beispiel ist in <code>"en-US"</code> <code>"tt"</code> <code>"AM" oder "PM"</code>, währen in <code>"ar-EG"</code> <code>"tt"</code> <code>"ص" oder "م"</code> ist. Wenn <code>Format</code> <code>null</code> ist, bestimmt <code>Culture</code> das zu verwendende Standardformat. Wenn <code>Culture</code> <code>null</code> ist oder weggelassen wird, wird <code>Culture.Current</code> verwendet.</li></ul>Zur Unterstützung von Legacyworkflows kann <code>options</code> auch ein Textwert sein. Dies führt zum gleichen Verhalten wie <code>options</code><code> = [Format = null, Culture = <code>options</code>]</code>.
+Erstellt einen `time`\-Wert aus einer Textdarstellung, `text`. Ein optionaler `record`\-Parameter, `options`, kann angegeben werden, um zusätzliche Eigenschaften anzugeben. `record` kann die folgenden Felder enthalten:
+
+-   `Format`: Ein `text`\-Wert, der das zu verwendende Format angibt. Weitere Details finden Sie unter https://go.microsoft.com/fwlink/?linkid=2180104 und https://go.microsoft.com/fwlink/?linkid=2180105. Wenn Sie dieses Feld auslassen oder `null` angeben, wird die Uhrzeit nach bestem Aufwand analysiert.
+-   `Culture`: Wenn `Format` nicht null ist, bestimmt `Culture` manche Formatbezeichner. Zum Beispiel, ist in `"en-US"` `"tt"` `"AM" oder "PM"`, während in `"ar-EG"` `"tt"` `"ص" oder "م"` ist. Wenn `Format` `null` ist, regelt `Culture` das zu verwendende Standardformat. Wenn `Culture` `null` ist oder ausgelassen wird, wird `Culture.Current` verwendet.
+
+Zur Unterstützung von Legacyworkflows kann `options` auch ein Textwert sein. Dies hat dasselbe Verhalten wie `options = [Format = null, Culture = options]`.
 
 
 ## Examples
 
-### Example #1 
-Konvertiert &lt;code&gt;&#34;10:12:31am&#34;&lt;/code&gt; in einen time-Wert.
+### Example #1
+Konvertiert `"10:12:31am"` in einen time-Wert.
 ```powerquery
 Time.FromText("10:12:31am")
 ```
@@ -37,8 +42,8 @@ Result:
 ```
 
 
-### Example #2 
-&lt;code&gt;&#34;1012&#34;&lt;/code&gt; in einen Zeitwert konvertieren.
+### Example #2
+`"1012"` in einen Zeitwert konvertieren.
 ```powerquery
 Time.FromText("1012")
 ```
@@ -49,8 +54,8 @@ Result:
 ```
 
 
-### Example #3 
-&lt;code&gt;&#34;10&#34;&lt;/code&gt; in einen Zeitwert konvertieren.
+### Example #3
+`"10"` in einen Zeitwert konvertieren.
 ```powerquery
 Time.FromText("10")
 ```

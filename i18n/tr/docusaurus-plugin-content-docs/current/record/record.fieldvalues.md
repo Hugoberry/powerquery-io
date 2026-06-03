@@ -19,12 +19,12 @@ Record.FieldValues(
 
 ## Remarks
 
-<code>record</code> kaydındaki alan değerlerinin listesini döndürür.
+`record` kaydındaki alan değerlerinin listesini döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kayıttaki alan değerlerini bulur.
 ```powerquery
 Record.FieldValues([CustomerID = 1, Name = "Bob", Phone = "123-4567"])

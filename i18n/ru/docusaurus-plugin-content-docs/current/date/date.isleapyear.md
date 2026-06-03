@@ -19,13 +19,15 @@ Date.IsLeapYear(
 
 ## Remarks
 
-Указывает, приходится ли указанное значение datetime <code>dateTime</code> на високосный год. <ul>        <li><code>dateTime</code>: значение <code>date</code>, <code>datetime</code> или <code>datetimezone</code>, которое необходимо оценить.</li>      </ul>
+Указывает, приходится ли указанное значение datetime `dateTime` на високосный год.
+
+-   `dateTime`: значение `date`, `datetime` или `datetimezone`, которое необходимо оценить.
 
 
 ## Examples
 
-### Example #1 
-Определить, является ли 2012 год, представленный &lt;code&gt;#date(2012, 01, 01)&lt;/code&gt;, високосным.
+### Example #1
+Определить, является ли 2012 год, представленный `#date(2012, 01, 01)`, високосным.
 ```powerquery
 Date.IsLeapYear(#date(2012, 01, 01))
 ```

@@ -19,13 +19,13 @@ Type.RecordFields(
 
 ## Remarks
 
-Zwraca rekord opisujący pola rekordu <code>type</code>. Każde pole zwróconego typu rekordu ma odpowiednią nazwę i wartość w postaci rekordu <code>[ Type = type, Optional = logical ]</code>.
+Zwraca rekord opisujący pola rekordu `type`. Każde pole zwróconego typu rekordu ma odpowiednią nazwę i wartość w postaci rekordu `[ Type = type, Optional = logical ]`.
 
 
 ## Examples
 
-### Example #1 
-Znajdź nazwę i wartość rekordu &lt;code&gt;[ A = number, optional B = any]&lt;/code&gt;.
+### Example #1
+Znajdź nazwę i wartość rekordu `[ A = number, optional B = any]`.
 ```powerquery
 Type.RecordFields(type [A = number, optional B = any])
 ```

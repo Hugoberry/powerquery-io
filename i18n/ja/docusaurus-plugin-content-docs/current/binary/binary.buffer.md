@@ -24,7 +24,7 @@ Binary.Buffer(
 
 ## Examples
 
-### Example #1 
+### Example #1
 バイナリ値の安定したバージョンを作成します。
 ```powerquery
 Binary.Buffer(Binary.FromList({0..10}))

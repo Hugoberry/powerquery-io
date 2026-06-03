@@ -24,7 +24,7 @@ Smartsheet.Content(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Smartsheet API からユーザー情報のテーブルをプルします
 ```powerquery
 Smartsheet.Content("users")

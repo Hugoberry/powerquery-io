@@ -19,18 +19,18 @@ Table.StopFolding(
 
 ## Remarks
 
-Impede que quaisquer operações a jusante sejam executadas na origem inicial dos dados em <code>table</code>.
+Impede que quaisquer operações a jusante sejam executadas na origem inicial dos dados em `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Obtém dados de uma tabela SQL de uma forma que impede que quaisquer operações a jusante sejam executadas como uma consulta no SQL Server.
 ```powerquery
 let
     Source = Sql.Database("SomeSQLServer", "MyDb"),
     MyTable = Source{[Item="MyTable"]}[Data],
-    MyLocalTable = Table.StopFolding(dbo_MyTable)
+    MyLocalTable = Table.StopFolding(MyTable)
 in
     MyLocalTable
 ```

@@ -20,7 +20,7 @@ File.Contents(
 
 ## Remarks
 
-Retourne le contenu du fichier, <code>path</code>, sous forme de binaire. Le paramètre <code>options</code> est actuellement réservé à un usage interne.
+Retourne le contenu du fichier, `path`, sous forme de binaire. Le paramètre `options` est actuellement réservé à un usage interne.
 
 
 

@@ -19,12 +19,12 @@ Number.IsNaN(
 
 ## Remarks
 
-ระบุว่าค่าเป็น NaN (ไม่ใช่จำนวน) หรือไม่ ส่งกลับ <code>true</code> ถ้า <code>number</code> เทียบเท่ากับ <code>Number.IsNaN</code> และ <code>false</code> ถ้าไม่ใช่
+ระบุว่าค่าเป็น NaN (ไม่ใช่จำนวน) หรือไม่ ส่งกลับ `true` ถ้า `number` เทียบเท่ากับ `Number.NaN` และ `false` ถ้าไม่ใช่
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ตรวจสอบว่า 0 ที่ถูกหารด้วย 0 เป็น NaN หรือไม่
 ```powerquery
 Number.IsNaN(0/0)
@@ -36,7 +36,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 ตรวจสอบว่า 1 ที่ถูกหารด้วย 0 เป็น NaN หรือไม่
 ```powerquery
 Number.IsNaN(1/0)

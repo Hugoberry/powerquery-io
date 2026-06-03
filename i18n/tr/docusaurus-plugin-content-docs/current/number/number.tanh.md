@@ -19,7 +19,7 @@ Number.Tanh(
 
 ## Remarks
 
-<code>number</code> değerinin hiperbolik tanjantını döndürür.
+`number` değerinin hiperbolik tanjantını döndürür.
 
 
 

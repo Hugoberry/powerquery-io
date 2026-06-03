@@ -20,7 +20,9 @@ AccessControlEntry.ConditionToIdentities(
 
 ## Remarks
 
-Med de angivna <code>identityProvider</code> så konverteras <code>condition</code> till listan över identiteter som <code>condition</code> returnerar <code>sant</code> för i alla auktoriseringssammanhang med <code>identityProvider</code> som identitetsprovider. Ett fel skapas om det inte går att konvertera <code>condition</code> till en lista med identiteter, till exempel om <code>condition</code> konsulterar andra attribut än användar- eller gruppidentiteter för att fatta ett beslut.<br />    Observera att listan med identiteter representerar identiteterna som de visas i <code>condition</code> och ingen normalisering (t.ex. grupputökning) utförs på dem.<br />
+Med de angivna `identityProvider` så konverteras `condition` till listan över identiteter som `condition` returnerar `sant` för i alla auktoriseringssammanhang med `identityProvider` som identitetsprovider. Ett fel skapas om det inte går att konvertera `condition` till en lista med identiteter, till exempel om `condition` konsulterar andra attribut än användar- eller gruppidentiteter för att fatta ett beslut.
+
+Observera att listan med identiteter representerar identiteterna som de visas i `condition` och ingen normalisering (t.ex. grupputökning) utförs på dem.
 
 
 

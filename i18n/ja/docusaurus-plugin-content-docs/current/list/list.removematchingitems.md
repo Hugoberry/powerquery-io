@@ -21,13 +21,13 @@ List.RemoveMatchingItems(
 
 ## Remarks
 
-リスト <code>list1</code> から、<code>list2</code> に指定された値のすべての出現を削除します。<code>list2</code> の値が <code>list1</code> に存在しない場合、元のリストが返されます。    省略可能な数式条件値 <code>equationCriteria</code> を指定して、値が等しいかどうかのテストを制御できます。
+リスト `list1` から、`list2` に指定された値のすべての出現を削除します。`list2` の値が `list1` に存在しない場合、元のリストが返されます。 省略可能な数式条件値 `equationCriteria` を指定して、値が等しいかどうかのテストを制御できます。
 
 
 ## Examples
 
-### Example #1 
-\{1, 2, 3, 4, 5, 5} から \{1, 5} を削除したリストを作成します。
+### Example #1
+\{1, 2, 3, 4, 5, 5\} から \{1, 5\} を削除したリストを作成します。
 ```powerquery
 List.RemoveMatchingItems({1, 2, 3, 4, 5, 5}, {1, 5})
 ```

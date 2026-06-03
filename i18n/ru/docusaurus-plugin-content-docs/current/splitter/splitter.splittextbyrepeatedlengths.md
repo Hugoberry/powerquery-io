@@ -25,7 +25,7 @@ Splitter.SplitTextByRepeatedLengths(
 
 ## Examples
 
-### Example #1 
+### Example #1
 Повторяющееся разделение входных данных на блоки из трех символов с начала входных данных.
 ```powerquery
 Splitter.SplitTextByRepeatedLengths(3)("12345678")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Повторяющееся разделение входных данных на блоки из трех символов начиная с конца входных данных.
 ```powerquery
 let

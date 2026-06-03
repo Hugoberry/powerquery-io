@@ -21,12 +21,16 @@ List.TransformMany(
 
 ## Remarks
 
-Devuelve una lista cuyos elementos se proyectan a partir de la lista de entrada.<br />    <br />    La función <code>collectionTransform</code> transforma cada elemento en una lista intermedia y la función <code>resultTransform</code> recibe el elemento original, así como un elemento de la lista intermedia, para construir el resultado final.<br />    <br />    La función <code>collectionTransform</code> tiene la firma <code>(x como cualquiera) como lista => ...</code>,  donde <code>x</code> es un elemento en <code>list</code>.    La función <code>resultTransform</code> proyecta la forma del resultado y tiene la firma <code>(x como cualquiera, y como cualquiera) como cualquiera => ...</code>, donde <code>x</code> es un elemento en <code>list</code> y <code>y</code> es un elemento de la lista generada al pasar <code>x</code> a <code>collectionTransform</code>.
+Devuelve una lista cuyos elementos se proyectan a partir de la lista de entrada.  
+  
+La función `collectionTransform` transforma cada elemento en una lista intermedia y la función `resultTransform` recibe el elemento original, así como un elemento de la lista intermedia, para construir el resultado final.  
+  
+La función `collectionTransform` tiene la firma `(x como cualquiera) como lista => ...`, donde `x` es un elemento en `list`. La función `resultTransform` proyecta la forma del resultado y tiene la firma `(x como cualquiera, y como cualquiera) como cualquiera => ...`, donde `x` es un elemento en `list` y `y` es un elemento de la lista generada al pasar `x` a `collectionTransform`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Acopla una lista de personas y sus mascotas.
 ```powerquery
 List.TransformMany(

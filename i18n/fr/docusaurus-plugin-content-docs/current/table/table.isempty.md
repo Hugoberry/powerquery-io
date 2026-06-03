@@ -19,12 +19,12 @@ Table.IsEmpty(
 
 ## Remarks
 
-Indique si <code>table</code> contient des lignes. Retourne <code>true</code> s'il n'y a pas de lignes (c'est-à-dire si la table est vide), sinon <code>false</code>.
+Indique si `table` contient des lignes. Retourne `true` s'il n'y a pas de lignes (c'est-à-dire si la table est vide), sinon `false`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Détermine si la table est vide.
 ```powerquery
 Table.IsEmpty(
@@ -42,8 +42,8 @@ false
 ```
 
 
-### Example #2 
-Détermine si la table &lt;code&gt;(\{})&lt;/code&gt; est vide.
+### Example #2
+Détermine si la table `({})` est vide.
 ```powerquery
 Table.IsEmpty(Table.FromRecords({}))
 ```

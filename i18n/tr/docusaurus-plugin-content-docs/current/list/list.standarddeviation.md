@@ -19,12 +19,12 @@ List.StandardDeviation(
 
 ## Remarks
 
-Bir örneği temel alarak <code>numbersList</code> listesindeki değerlerin standart sapma tahminlerini döndürür.    <code>numbersList</code> sayılardan oluşan bir listeyse bir sayı döndürülür.    Boş listeler veya <code>number</code> türünde olmayan öğelerden oluşan listeler için özel durum oluşturulur.
+Bir örneği temel alarak `numbersList` listesindeki değerlerin standart sapma tahminlerini döndürür. `numbersList` sayılardan oluşan bir listeyse bir sayı döndürülür. Boş bir liste veya `number` türü olmayan öğelerin bulunduğu bir liste üzerinde hata oluşur.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 1 ile 5 arasındaki sayıların standart sapmasını bulur.
 ```powerquery
 List.StandardDeviation({1..5})

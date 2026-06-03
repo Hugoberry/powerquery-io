@@ -20,13 +20,13 @@ Record.HasFields(
 
 ## Remarks
 
-Gibt durch Rückgabe eines logischen Werts ("true" oder "false") an, ob der Datensatz "<code>record</code>" die in "<code>fields</code>" angegebenen Felder enthält.    Mehrere Feldwerte können in Listenform angegeben werden.
+Gibt durch Rückgabe eines logischen Werts ("true" oder "false") an, ob der Datensatz "`record`" die in "`fields`" angegebenen Felder enthält. Mehrere Feldwerte können in Listenform angegeben werden.
 
 
 ## Examples
 
-### Example #1 
-Überprüft, ob der Datensatz das Feld &#34;CustomerID&#34; enthält.
+### Example #1
+Überprüft, ob der Datensatz das Feld "CustomerID" enthält.
 ```powerquery
 Record.HasFields([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")
 ```
@@ -37,8 +37,8 @@ true
 ```
 
 
-### Example #2 
-Überprüft, ob der Datensatz die Felder &#34;CustomerID&#34; und &#34;Address&#34; enthält.
+### Example #2
+Überprüft, ob der Datensatz die Felder "CustomerID" und "Address" enthält.
 ```powerquery
 Record.HasFields([CustomerID = 1, Name = "Bob", Phone = "123-4567"], {"CustomerID", "Address"})
 ```

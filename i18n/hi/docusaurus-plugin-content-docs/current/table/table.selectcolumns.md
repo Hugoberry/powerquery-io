@@ -21,13 +21,17 @@ Table.SelectColumns(
 
 ## Remarks
 
-केवल निर्दिष्ट <code>columns</code> के साथ <code>table</code> लौटाता है.    <ul>       <li><code>table</code>: प्रदान की गई तालिका.</li>       <li><code>columns</code>: वापस करने के लिए तालिका <code>table</code> से कालम की सूची. <code>columns</code> में सूचीबद्ध ऑर्डर में वापस की गई तालिका में कालम.</li>       <li><code>missingField</code>: <i>(Optional)</i> कालम न होने पर क्या करें.  उदाहरण: <code>MissingField.UseNull</code> या <code>MissingField.Ignore</code>.    </li></ul>
+केवल निर्दिष्ट `columns` के साथ `table` लौटाता है.
+
+-   `table`: दी गई तालिका.
+-   `columns`: तालिका `table` से लौटाए जाने वाले कॉलम की सूची. वापस की गई तालिका के कॉलम `columns` में सूचीबद्ध क्रम में हैं.
+-   `missingField`: *(वैकल्पिक)* अगर कॉलम मौजूद न हो, तो क्या करें. उदाहरण: `MissingField.UseNull` या `MissingField.Ignore`.
 
 
 ## Examples
 
-### Example #1 
-केवल स्तंभ [Name] शामिल करें.
+### Example #1
+केवल स्तंभ \[Name\] शामिल करें.
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({
@@ -51,8 +55,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-केवल स्तंभ [CustomerID] और [Name] शामिल करें.
+### Example #2
+केवल स्तंभ \[CustomerID\] और \[Name\] शामिल करें.
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
@@ -66,7 +70,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob"]})
 ```
 
 
-### Example #3 
+### Example #3
 यदि शामिल किया गया कालम मौजूद नहीं है, तो डिफ़ॉल्ट परिणाम एक त्रुटि होता है.
 ```powerquery
 Table.SelectColumns(
@@ -81,8 +85,8 @@ Result:
 ```
 
 
-### Example #4 
-यदि शामिल किया गया कालम मौजूद न हो, तो विकल्प &lt;code&gt;MissingField.UseNull&lt;/code&gt; नल मानों का एक कालम बनाता है.
+### Example #4
+यदि शामिल किया गया कालम मौजूद न हो, तो विकल्प `MissingField.UseNull` नल मानों का एक कालम बनाता है.
 ```powerquery
 Table.SelectColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

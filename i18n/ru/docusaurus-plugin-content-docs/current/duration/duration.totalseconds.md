@@ -19,12 +19,12 @@ Duration.TotalSeconds(
 
 ## Remarks
 
-Возвращает общее количество секунд, охваченных <code>duration</code>.
+Возвращает общее количество секунд, охваченных `duration`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Найти общее количество секунд, охваченных значением длительности.
 ```powerquery
 Duration.TotalSeconds(#duration(5, 4, 3, 2))

@@ -26,7 +26,7 @@ Smartsheet.Query(
 
 ## Examples
 
-### Example #1 
+### Example #1
 追加の引数を指定して、シート Smartsheet API エンドポイントからデータをプルします
 ```powerquery
 Smartsheet.Content("sheets", "include=ownerInfo&includeAll=true", [])

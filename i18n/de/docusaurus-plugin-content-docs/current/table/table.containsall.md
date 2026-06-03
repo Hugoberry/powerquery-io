@@ -21,13 +21,13 @@ Table.ContainsAll(
 
 ## Remarks
 
-Gibt an, ob alle angegebenen Datensätze in der Liste mit Datensätzen (<code>rows</code>) als Zeilen in "<code>table</code>" vorkommen.    Der Vergleich zwischen den Zeilen der Tabelle kann mithilfe eines optionalen Parameters (<code>equationCriteria</code>) gesteuert werden.
+Gibt an, ob alle angegebenen Datensätze in der Liste mit Datensätzen (`rows`) als Zeilen in "`table`" vorkommen. Der Vergleich zwischen den Zeilen der Tabelle kann mithilfe eines optionalen Parameters (`equationCriteria`) gesteuert werden.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt, ob die Tabelle alle Zeilen enthält. Dabei wird nur die Spalte [CustomerID] verglichen.
+### Example #1
+Ermittelt, ob die Tabelle alle Zeilen enthält. Dabei wird nur die Spalte \[CustomerID\] verglichen.
 ```powerquery
 Table.ContainsAll(
     Table.FromRecords({
@@ -50,7 +50,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Ermittelt, ob die Tabelle alle Zeilen enthält.
 ```powerquery
 Table.ContainsAll(

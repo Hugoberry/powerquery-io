@@ -20,12 +20,12 @@ Table.SplitAt(
 
 ## Remarks
 
-Retorna uma lista contendo duas tabelas: uma tabela com as primeiras N linhas de <code>table</code> (conforme especificado por <code>count</code>) e uma tabela contendo as linhas restantes de <code>table</code>.Se as tabelas da lista resultante forem enumeradas exatamente uma vez e na ordem, a função enumerará <code>table</code> apenas uma vez.
+Retorna uma lista contendo duas tabelas: uma tabela com as primeiras N linhas de `table` (conforme especificado por `count`) e uma tabela contendo as linhas restantes de `table`. Se as tabelas da lista resultante forem enumeradas exatamente uma vez e na ordem, a função enumerará `table` apenas uma vez.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Retorna as duas primeiras linhas da tabela e as linhas restantes da tabela.
 ```powerquery
 Table.SplitAt(#table({"a", "b", "c"}, {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}), 2)

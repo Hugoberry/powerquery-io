@@ -21,13 +21,13 @@ Table.AggregateTableColumn(
 
 ## Remarks
 
-Aggregates tables in <code>table</code>[<code>column</code>] into multiple columns containing aggregate values for the tables. <code>aggregations</code> is used to specify the columns containing the tables to aggregate, the aggregation functions to apply to the tables to generate their values, and the names of the aggregate columns to create.
+Aggregates tables in `table`\[`column`\] into multiple columns containing aggregate values for the tables. `aggregations` is used to specify the columns containing the tables to aggregate, the aggregation functions to apply to the tables to generate their values, and the names of the aggregate columns to create.
 
 
 ## Examples
 
-### Example #1 
-Aggregate table columns in &lt;code&gt;[t]&lt;/code&gt; in the table &lt;code&gt;\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}&lt;/code&gt; into the sum of &lt;code&gt;[t.a]&lt;/code&gt;, the min and max of &lt;code&gt;[t.b]&lt;/code&gt;, and the count of values in &lt;code&gt;[t.a]&lt;/code&gt;.
+### Example #1
+Aggregate table columns in `[t]` in the table `{[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}` into the sum of `[t.a]`, the min and max of `[t.b]`, and the count of values in `[t.a]`.
 ```powerquery
 Table.AggregateTableColumn(
     Table.FromRecords(

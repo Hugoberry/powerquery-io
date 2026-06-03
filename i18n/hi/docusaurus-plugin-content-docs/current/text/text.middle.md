@@ -21,13 +21,13 @@ Text.Middle(
 
 ## Remarks
 
-<code>count</code> वर्ण, या <code>text</code> के अंत के बाद से लौटाता है; ऑफ़सेट <code>start</code> पर.
+`count` वर्ण, या `text` के अंत के बाद से लौटाता है; ऑफ़सेट `start` पर.
 
 
 ## Examples
 
-### Example #1 
-अनुक्रमणिका 6 से आरंभ होने वाले 5 वर्ण तक विस्तृत पाठ &#34;Hello World&#34; से सबस्ट्रिंग ढूँढें.
+### Example #1
+अनुक्रमणिका 6 से आरंभ होने वाले 5 वर्ण तक विस्तृत पाठ "Hello World" से सबस्ट्रिंग ढूँढें.
 ```powerquery
 Text.Middle("Hello World", 6, 5)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-अनुक्रमणिका 6 से आरंभ होकर अंत तक पाठ &#34;Hello World&#34; से सबस्ट्रिंग ढूँढें.
+### Example #2
+अनुक्रमणिका 6 से आरंभ होकर अंत तक पाठ "Hello World" से सबस्ट्रिंग ढूँढें.
 ```powerquery
 Text.Middle("Hello World", 6, 20)
 ```
@@ -47,6 +47,18 @@ Text.Middle("Hello World", 6, 20)
 Result: 
 ```powerquery
 "World"
+```
+
+
+### Example #3
+अनुक्रमणिका 0 से प्रारंभ होने वाले पाठ "नमस्ते दुनिया" से 2 वर्ण विस्तारित सबस्ट्रिंग ढूंढें.
+```powerquery
+Text.Middle("Hello World", 0, 2)
+```
+
+Result: 
+```powerquery
+"He"
 ```
 
 

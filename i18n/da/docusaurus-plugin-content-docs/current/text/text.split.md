@@ -20,13 +20,16 @@ Text.Split(
 
 ## Remarks
 
-Returnerer en liste over tekstværdier som et resultat af at opdele en tekstværdi <code>text</code> ved hjælp af den angivne afgrænser, <code>separator</code>.
+Returnerer en liste over tekstværdier, der er resultatet af opdelingen af en tekstværdi baseret på den angivne afgrænser.
+
+-   `text`: Den tekstværdi, der skal opdeles.
+-   `separator`: Den afgrænser, der bruges til at opdele teksten. Afgrænseren kan enten være et enkelt tegn eller en sekvens af tegn. Hvis der bruges en sekvens af tegn, opdeles teksten kun i forekomster, hvor den nøjagtige sekvens forekommer.
 
 
 ## Examples
 
-### Example #1 
-Opret en liste ud fra tekstværdien &#34;Name|Address|PhoneNumber&#34; med afgrænseren &#34;|&#34;.
+### Example #1
+Opret en liste ud fra tekstværdien "Name|Address|PhoneNumber" med afgrænseren "|".
 ```powerquery
 Text.Split("Name|Address|PhoneNumber", "|")
 ```
@@ -37,6 +40,22 @@ Result:
     "Name",
     "Address",
     "PhoneNumber"
+}
+```
+
+
+### Example #2
+Opret en liste ud fra tekstværdien ved hjælp af en række tegn.
+```powerquery
+Text.Split("Name, the Customer, the Purchase Date", ", the ")
+```
+
+Result: 
+```powerquery
+{
+    "Name",
+    "Customer",
+    "Purchase Date"
 }
 ```
 

@@ -19,7 +19,7 @@ Excel.CurrentWorkbook(
 
 ## Remarks
 
-Returnerer indholdet af den aktuelle Excel-projektmappe. Den returnerer tabeller, navngivne områder og dynamiske matrixer. I modsætning til <code>Excel.Workbook</code> returnerer den ikke ark.
+Returnerer indholdet af den aktuelle Excel-projektmappe. Den returnerer tabeller, navngivne områder og dynamiske matrixer. I modsætning til `Excel.Workbook` returnerer den ikke ark.
 
 
 

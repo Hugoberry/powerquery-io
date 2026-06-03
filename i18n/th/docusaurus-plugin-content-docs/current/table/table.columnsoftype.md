@@ -20,12 +20,12 @@ Table.ColumnsOfType(
 
 ## Remarks
 
-ส่งกลับรายการพร้อมชื่อของคอลัมน์จากตาราง <code>table</code> ซึ่งตรงกันกับชนิดที่ระบุไว้ใน <code>listOfTypes</code>
+ส่งกลับรายการพร้อมชื่อของคอลัมน์จากตาราง `table` ซึ่งตรงกันกับชนิดที่ระบุไว้ใน `listOfTypes`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ส่งคืนชื่อคอลัมน์สำหรับชนิด Number.Type จากตาราง
 ```powerquery
 Table.ColumnsOfType(

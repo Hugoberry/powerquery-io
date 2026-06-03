@@ -24,7 +24,7 @@ Returnerar M-källkodrepresentationen för ett konstantvärde.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hämta M-källkodsrepresentationen för ett nummervärde.
 ```powerquery
 Expression.Constant(123)
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Hämta M-källkodsrepresentationen för ett datumvärde.
 ```powerquery
 Expression.Constant(#date(2035, 01, 02))
@@ -48,7 +48,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Hämta M-källkodsrepresentationen för ett textvärde.
 ```powerquery
 Expression.Constant("abc")

@@ -19,13 +19,15 @@ DateTimeZone.ToRecord(
 
 ## Remarks
 
-Devuelve un registro que contiene los elementos del valor datetimezone especificado, <code>dateTimeZone</code>. <ul>        <li><code>dateTimeZone</code>: un valor <code>datetimezone</code> a partir del cual se calculará el registro de sus partes.</li>      </ul>
+Devuelve un registro que contiene los elementos del valor datetimezone especificado, `dateTimeZone`.
+
+-   `dateTimeZone`: un valor `datetimezone` a partir del cual se calculará el registro de sus partes.
 
 
 ## Examples
 
-### Example #1 
-Convertir el valor &lt;code&gt;#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)&lt;/code&gt; en un registro que contenga valores de fecha, hora y zona.
+### Example #1
+Convertir el valor `#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0)` en un registro que contenga valores de fecha, hora y zona.
 ```powerquery
 DateTimeZone.ToRecord(#datetimezone(2011, 12, 31, 11, 56, 2, 8, 0))
 ```

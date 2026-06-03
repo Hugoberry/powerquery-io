@@ -27,7 +27,7 @@ Gọi tới điểm cuối báo cáo Webtrends cho trước và trả về tất
 
 ## Examples
 
-### Example #1 
+### Example #1
 Gọi tới điểm cuối báo cáo khách truy cập Webtrends để có dữ liệu trong 30 ngày qua
 ```powerquery
 Webtrends.ReportContents("98765", "xPcmTDDP0P6")

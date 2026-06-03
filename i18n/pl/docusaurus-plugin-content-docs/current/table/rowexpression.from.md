@@ -19,13 +19,28 @@ RowExpression.From(
 
 ## Remarks
 
-Zwraca drzewo składni abstrakcyjnej (AST) dla treści <code>function</code>, znormalizowane do wyrażenia <i>row expression</i>:<ul> <li>Funkcja musi być funkcją lambda z 1 argumentem.</li>  <li>Wszystkie odwołania do parametru funkcji są zamieniane na  <code>RowExpression.Row</code>.</li>  <li>Wszystkie odwołania do kolumn są zastępowane <code>RowExpression.Column(<i>columnName</i>)</code>.</li> <li>Drzewo AST zostanie uproszczone tak, aby zawierało tylko węzły tego rodzaju:    <ul>      <li><code>Constant</code></li>      <li><code>Invocation</code></li>      <li><code>Unary</code></li>      <li><code>Binary</code></li>      <li><code>If</code></li>      <li><code>FieldAccess</code></li>    </ul>  </li></ul><br /><br />Jeśli nie można zwrócić drzewa składni  abstrakcyjnej (AST) wyrażenia wiersza dla treści funkcji <code>function</code>, jest zgłaszany błąd.<br />
+Zwraca abstrakcyjne drzewo składni (AST) dla treści `function`, znormalizowane w *wyrażeniu wiersza*:
+
+-   Funkcja musi być funkcją lambda z 1 argumentem.
+-   Wszystkie odwołania do parametru funkcji są zamieniane na element `RowExpression.Row`.
+-   Wszystkie odwołania do kolumn są zamieniane na element `RowExpression.Column(columnName)`.
+-   Abstrakcyjne drzewo składni (AST) zostanie uproszczone tak, aby zawierało tylko węzły następujących typów:
+    -   `Constant`
+    -   `Invocation`
+    -   `Unary`
+    -   `Binary`
+    -   `If`
+    -   `FieldAccess`
+
+Jeśli nie można zwrócić abstrakcyjnego drzewa składni (AST) wyrażenia wiersza dotyczącego treści funkcji `function`, jest zgłaszany błąd.  
+  
+Ta funkcja jest taka sama jak `ItemExpression.From`.
 
 
 ## Examples
 
-### Example #1 
-Zwraca wyrażenie AST dotyczące treści funkcji &lt;code&gt;each [CustomerID] = &#34;ALFKI&#34;&lt;/code&gt;
+### Example #1
+Zwraca abstrakcyjne drzewo składni (AST) dotyczącą treści funkcji `each [CustomerID] = "ALFKI"`.
 ```powerquery
 RowExpression.From(each [CustomerName] = "ALFKI")
 ```

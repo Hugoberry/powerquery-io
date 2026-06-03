@@ -5,7 +5,7 @@ title: Time.StartOfHour
 # Time.StartOfHour
 
 
-Restituisce l&#39;inizio dell’ora.
+Restituisce l'inizio dell’ora.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Time.StartOfHour(
 
 ## Remarks
 
-Restituisce l’inizio dell’ora rappresentato da <code>dateTime</code>.    <code>dateTime</code> deve essere un valore <code>time</code>, <code>datetime</code> o <code>datetimezone</code>.
+Restituisce l’inizio dell’ora rappresentato da `dateTime`. `dateTime` deve essere un valore `time`, `datetime` o `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
-Trovare l&#39;inizio dall&#39;ora per il 10 ottobre 2011, 8.10.32.
+### Example #1
+Trovare l'inizio dall'ora per il 10 ottobre 2011, 8.10.32.
 ```powerquery
 Time.StartOfHour(#datetime(2011, 10, 10, 8, 10, 32))
 ```

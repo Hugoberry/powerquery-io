@@ -21,13 +21,13 @@ Text.Middle(
 
 ## Remarks
 
-<code>count</code> tekens retourneren of retourneren tot het einde van <code>text</code>; bij de verschuiving <code>start</code>.
+`count` tekens retourneren of retourneren tot het einde van `text`; bij de verschuiving `start`.
 
 
 ## Examples
 
-### Example #1 
-De subtekenreeks in de tekst &#34;Hallo Wereld&#34; opzoeken die begint bij index 6 en vijf tekens omvat.
+### Example #1
+De subtekenreeks in de tekst "Hallo Wereld" opzoeken die begint bij index 6 en vijf tekens omvat.
 ```powerquery
 Text.Middle("Hello World", 6, 5)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-De subtekenreeks in de tekst &#39;Hallo Wereld&#39; opzoeken vanaf index 6 tot het einde.
+### Example #2
+De subtekenreeks in de tekst 'Hallo Wereld' opzoeken vanaf index 6 tot het einde.
 ```powerquery
 Text.Middle("Hello World", 6, 20)
 ```
@@ -47,6 +47,18 @@ Text.Middle("Hello World", 6, 20)
 Result: 
 ```powerquery
 "World"
+```
+
+
+### Example #3
+De subtekenreeks zoeken in de tekst 'Hallo wereld' beginnend bij index nul en die twee tekens omvat.
+```powerquery
+Text.Middle("Hello World", 0, 2)
+```
+
+Result: 
+```powerquery
+"He"
 ```
 
 

@@ -25,7 +25,7 @@ Converte uma tabela em lista aplicando a função de combinação especificada a
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combina o texto de todas as linhas com uma vírgula.
 ```powerquery
 Table.ToList(

@@ -19,7 +19,7 @@ Number.BitwiseNot(
 
 ## Remarks
 
-ส่งกลับผลลัพธ์ของการดำเนินการในระดับบิต "Not" ใน <code>number</code>
+ส่งกลับผลลัพธ์ของการดำเนินการในระดับบิต "Not" ใน `number`
 
 
 

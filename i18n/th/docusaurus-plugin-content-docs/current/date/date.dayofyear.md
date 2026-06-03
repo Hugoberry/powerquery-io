@@ -19,12 +19,12 @@ Date.DayOfYear(
 
 ## Remarks
 
-ส่งกลับตัวเลขที่แสดงวันของปีในค่า <code>date</code>, <code>datetime</code> หรือ <code>datetimezone</code> ที่ระบุ <code>dateTime</code>
+ส่งกลับตัวเลขที่แสดงวันของปีในค่า `date`, `datetime` หรือ `datetimezone` ที่ระบุ `dateTime`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 วันของปีสําหรับวันที่ 1 มีนาคม 2011
 ```powerquery
 Date.DayOfYear(#date(2011, 03, 01))

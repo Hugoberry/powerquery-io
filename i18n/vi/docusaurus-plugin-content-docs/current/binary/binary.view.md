@@ -20,12 +20,22 @@ Binary.View(
 
 ## Remarks
 
-Trả về dạng xem <code>binary</code> khi hàm được chỉ định trong <code>handlers</code> được sử dụng thay cho hành vi mặc định của một thao tác khi thao tác được áp dụng cho dạng xem.<br />Nếu <code>binary</code> được cung cấp, tất cả hàm trình điều khiển đều không bắt buộc. Nếu <code>binary</code> không được cung cấp, yêu cầu có các hàm trình điều khiển <code>GetStream</code>. Nếu hàm trình điều khiển không được chỉ định cho một thao tác, hành vi mặc định của thao tác được áp dụng cho <code>binary</code> (trừ trường hợp <code>GetExpression</code>).<br />Các hàm trình điều khiển phải trả về giá trị tương đương về mặt ngữ nghĩa với kết quả áp dụng thao tác dựa trên <code>binary</code> (hoặc dạng xem có được trong trường hợp <code>GetExpression</code>).<br />Nếu hàm trình điều khiển phát sinh lỗi, hành vi mặc định của thao tác được áp dụng cho dạng xem.<br /><code>Binary.View</code> có thể được sử dụng để triển khai việc gộp vào nguồn dữ liệu – bản dịch của truy vấn M sang phép toán theo nguồn (ví dụ: để tải xuống một phần của tệp).<br />Tham khảo tài liệu về trình kết nối tùy chỉnh Power Query để biết mô tả đầy đủ hơn về <code>Binary.View</code>.<br />
+Trả về dạng xem `binary` khi hàm được chỉ định trong `handlers` được sử dụng thay cho hành vi mặc định của một thao tác khi thao tác được áp dụng cho dạng xem.
+
+Nếu `binary` được cung cấp, tất cả hàm trình điều khiển đều không bắt buộc. Nếu `binary` không được cung cấp, yêu cầu có các hàm trình điều khiển `GetStream`. Nếu hàm trình điều khiển không được chỉ định cho một thao tác, hành vi mặc định của thao tác được áp dụng cho `binary` (trừ trường hợp `GetExpression`).
+
+Các hàm trình điều khiển phải trả về giá trị tương đương về mặt ngữ nghĩa với kết quả áp dụng thao tác dựa trên `binary` (hoặc dạng xem có được trong trường hợp `GetExpression`).
+
+Nếu hàm trình điều khiển phát sinh lỗi, hành vi mặc định của thao tác được áp dụng cho dạng xem.
+
+`Binary.View` có thể được sử dụng để triển khai việc gộp vào nguồn dữ liệu – bản dịch của truy vấn M sang phép toán theo nguồn (ví dụ: để tải xuống một phần của tệp).
+
+Tham khảo tài liệu về trình kết nối tùy chỉnh Power Query để biết mô tả đầy đủ hơn về `Binary.View`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tạo dạng xem cơ bản không yêu cầu truy nhập dữ liệu để xác định độ dài.
 ```powerquery
 Binary.View(

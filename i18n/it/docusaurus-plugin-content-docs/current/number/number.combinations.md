@@ -20,12 +20,15 @@ Number.Combinations(
 
 ## Remarks
 
-Restituisce il numero di combinazioni univoche da un elenco di elementi, <code>setSize</code>, con la dimensione di combinazione specificata <code>combinationSize</code>.<ul>    <li><code>setSize</code>: il numero degli elementi nell'elenco.</li>    <li><code>combinationSize</code>: il numero degli elementi in ogni combinazione.</li></ul>
+Restituisce il numero di combinazioni univoche da un elenco di elementi, `setSize`, con la dimensione di combinazione specificata `combinationSize`.
+
+-   `setSize`: il numero degli elementi nell'elenco.
+-   `combinationSize`: il numero degli elementi in ogni combinazione.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trovare il numero di combinazioni da un totale di 5 elementi dove ogni combinazione è un gruppo di 3 elementi.
 ```powerquery
 Number.Combinations(5, 3)

@@ -19,12 +19,12 @@ Record.FieldValues(
 
 ## Remarks
 
-Trả về danh sách giá trị trường trong bản ghi <code>record</code>.
+Trả về danh sách giá trị trường trong bản ghi `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm giá trị trường trong bản ghi.
 ```powerquery
 Record.FieldValues([CustomerID = 1, Name = "Bob", Phone = "123-4567"])

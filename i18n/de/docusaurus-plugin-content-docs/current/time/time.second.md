@@ -19,12 +19,12 @@ Time.Second(
 
 ## Remarks
 
-Gibt die Sekundenkomponente des angegebenen <code>time</code>-, <code>datetime</code>- oder <code>datetimezone</code>-Werts "<code>dateTime</code>" zurück.
+Gibt die Sekundenkomponente des angegebenen `time`\-, `datetime`\- oder `datetimezone`\-Werts "`dateTime`" zurück.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ermittelt den zweiten Wert aus einem datetime-Wert.
 ```powerquery
 Time.Second(#datetime(2011, 12, 31, 9, 15, 36.5))

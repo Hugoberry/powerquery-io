@@ -21,12 +21,12 @@ List.Range(
 
 ## Remarks
 
-オフセット <code>list</code> で始まるリストのサブセットを返します。省略可能なパラメーター <code>offset</code> は、サブセットに含まれる項目の最大数を設定します。
+`offset` から始まる `list` のサブセットを返します。省略可能なパラメーター `count` は、サブセットに含まれる項目の最大数を設定します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 1 ～ 10 の数を含むリストの、オフセット 6 で始まるサブセットを求めます。
 ```powerquery
 List.Range({1..10}, 6)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 1 ～ 10 の数を含むリストの、オフセット 6 で始まり長さが 2 のサブセットを求めます。
 ```powerquery
 List.Range({1..10}, 6, 2)

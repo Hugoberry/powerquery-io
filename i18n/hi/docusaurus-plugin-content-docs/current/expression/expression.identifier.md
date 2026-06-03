@@ -19,12 +19,12 @@ Expression.Identifier(
 
 ## Remarks
 
-किसी पहचानकर्ता <code>name</code> का M स्रोत कोड प्रस्तुतिकरण लौटाता है.
+किसी पहचानकर्ता `name` का M स्रोत कोड प्रस्तुतिकरण लौटाता है.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 किसी पहचानकर्ता का M स्रोत कोड प्रस्तुतिकरण प्राप्त करें.
 ```powerquery
 Expression.Identifier("MyIdentifier")
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 किसी ऐसे पहचानकर्ता का M स्रोत कोड प्रस्तुतिकरण प्राप्त करें जिसमें एक रिक्ति हो.
 ```powerquery
 Expression.Identifier("My Identifier")

@@ -20,12 +20,12 @@ Text.Remove(
 
 ## Remarks
 
-Trả về một bản sao của giá trị văn bản <code>text</code> đã loại bỏ tất cả ký tự khỏi <code>removeChars</code>.  
+Trả về một bản sao của giá trị văn bản `text` đã loại bỏ tất cả ký tự khỏi `removeChars`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Loại bỏ ký tự , và ; khỏi giá trị văn bản.
 ```powerquery
 Text.Remove("a,b;c", {",",";"})

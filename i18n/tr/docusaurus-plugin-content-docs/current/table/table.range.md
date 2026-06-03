@@ -21,12 +21,12 @@ Table.Range(
 
 ## Remarks
 
-<code>table</code> öğesinden belirtilen <code>offset</code> konumunda başlayan satırları döndürür. <code>count</code> isteğe bağlı parametresi, döndürülecek satır sayısını belirtir. Varsayılan olarak, uzaklıktan sonraki tüm satırlar döndürülür.
+`table` öğesinden belirtilen `offset` konumunda başlayan satırları döndürür. `count` isteğe bağlı parametresi, döndürülecek satır sayısını belirtir. Varsayılan olarak, uzaklıktan sonraki tüm satırlar döndürülür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tablodaki 1 uzaklığından başlayarak tüm satırları döndürür.
 ```powerquery
 Table.Range(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Tablodaki 1 uzaklığından başlayarak bir satır döndürür.
 ```powerquery
 Table.Range(

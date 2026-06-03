@@ -26,8 +26,8 @@ Xml.Tables(
 
 ## Examples
 
-### Example #1 
-เรียกใช้เนื้อหาของไฟล์ xml ภายใน
+### Example #1
+เรียกใช้เนื้อหาของไฟล์ XML ภายใน
 ```powerquery
 Xml.Tables(File.Contents("C:\invoices.xml"))
 ```

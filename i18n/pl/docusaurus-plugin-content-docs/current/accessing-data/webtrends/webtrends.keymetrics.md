@@ -26,7 +26,7 @@ Tworzy wywołanie punktu końcowego kluczowych metryk rozwiązania Webtrends i z
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ściąga tabelę kluczowych metryk dzierżawy 98765 z ostatnich 30 dni
 ```powerquery
 Webtrends.KeyMetrics("98765")

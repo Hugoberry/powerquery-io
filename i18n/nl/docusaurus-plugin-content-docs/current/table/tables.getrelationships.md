@@ -20,7 +20,7 @@ Tables.GetRelationships(
 
 ## Remarks
 
-De relaties tussen een set met tabellen ophalen. Er wordt aangenomen dat de set <code>tables</code> een structuur heeft die vergelijkbaar is met die van een navigatietabel. De kolom die wordt gedefinieerd door <code>dataColumn</code>, bevat de werkelijke gegevenstabellen.
+De relaties tussen een set met tabellen ophalen. Er wordt aangenomen dat de set `tables` een structuur heeft die vergelijkbaar is met die van een navigatietabel. De kolom die wordt gedefinieerd door `dataColumn`, bevat de werkelijke gegevenstabellen.
 
 
 

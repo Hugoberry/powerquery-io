@@ -24,7 +24,7 @@ Efetua uma chamada à API REST do Smartsheet 2.0 no ponto de extremidade especif
 
 ## Examples
 
-### Example #1 
+### Example #1
 Efetua pull de uma tabela de informações de usuários da API do Smartsheet
 ```powerquery
 Smartsheet.Content("usuários")

@@ -19,12 +19,14 @@ Number.Exp(
 
 ## Remarks
 
-Trả về kết quả sau khi đưa e lên lũy thừa <code>number</code> (hàm mũ).      <ul>        <li><code>number</code>: <code>number</code> được tính hàm mũ. Nếu <code>number</code> có giá trị null thì <code>Number.Exp</code> sẽ trả về giá trị null. </li>      </ul>
+Trả về kết quả sau khi đưa e lên lũy thừa `number` (hàm mũ).
+
+-   `number`: `number` được tính hàm mũ. Nếu `number` có giá trị null thì `Number.Exp` sẽ trả về giá trị null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tăng e lên lũy thừa 3.
 ```powerquery
 Number.Exp(3)

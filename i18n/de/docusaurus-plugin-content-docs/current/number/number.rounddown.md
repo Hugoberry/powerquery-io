@@ -20,12 +20,12 @@ Number.RoundDown(
 
 ## Remarks
 
-Gibt das Ergebnis der Rundung von <code>number</code> auf die vorherige höchste ganze Zahl aus. Wenn <code>number</code> NULL ist, gibt diese Funktion NULL aus.    Wenn <code>digits</code> angegeben wird, wird <code>number</code> auf die angegebene Anzahl von Dezimalstellen gerundet.  
+Gibt das Ergebnis der Rundung von `number` auf die vorherige höchste ganze Zahl aus. Wenn `number` NULL ist, gibt diese Funktion NULL aus. Wenn `digits` angegeben wird, wird `number` auf die angegebene Anzahl von Dezimalstellen gerundet.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Rundet 1,234 auf eine ganze Zahl ab.
 ```powerquery
 Number.RoundDown(1.234)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Rundet 1,999 auf eine ganze Zahl ab.
 ```powerquery
 Number.RoundDown(1.999)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Rundet 1,999 auf zwei Dezimalstellen ab.
 ```powerquery
 Number.RoundDown(1.999, 2)

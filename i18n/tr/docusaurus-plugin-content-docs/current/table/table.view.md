@@ -20,12 +20,22 @@ Table.View(
 
 ## Remarks
 
-İşlem görünüme uygulandığında varsayılan işlem davranışı yerine <code>table</code> içinde belirtilen işlevlerin kullanıldığı bir <code>handlers</code> görünümü döndürür.<br /><code>table</code> sağlanırsa işleyici işlevleri isteğe bağlıdır. <code>table</code> sağlanmazsa <code>GetType</code> ve <code>GetRows</code> işleyici işlevleri gerekir. İşleme yönelik bir işleyici işlevinin belirtilmemesi durumunda bunun yerine (<code>GetExpression</code> durumu dışında) <code>table</code> için varsayılan işlem davranışı uygulanır.<br />İşleyici işlevleri, <code>table</code> üzerinde işlem uygulandıktan sonra elde edilen sonuç (veya <code>GetExpression</code> durumunda ortaya çıkan görünüm) ile anlamsal olarak eşdeğer bir değer döndürmelidir.<br />İşleyici işlevinin hata vermesi durumunda, görünüme varsayılan işlem davranışı uygulanır.<br />Kaynağa özgü sorgulara ilişkin M sorgularının çevirisi gibi bir veri kaynağına katlama işlemi uygulamak üzere (örneğin, M sorgularından T-SQL deyimleri oluşturma) <code>Table.View</code> kullanılabilir.<br /><code>Table.View</code> hakkında yapılan tüm açıklamalar için yayımlanmış Power Query özel bağlayıcı belgelerine bakın.<br />
+İşlem görünüme uygulandığında varsayılan işlem davranışı yerine `table` içinde belirtilen işlevlerin kullanıldığı bir `handlers` görünümü döndürür.
+
+`table` sağlanırsa işleyici işlevleri isteğe bağlıdır. `table` sağlanmazsa `GetType` ve `GetRows` işleyici işlevleri gerekir. İşleme yönelik bir işleyici işlevinin belirtilmemesi durumunda bunun yerine (`GetExpression` durumu dışında) `table` için varsayılan işlem davranışı uygulanır.
+
+İşleyici işlevleri, `table` üzerinde işlem uygulandıktan sonra elde edilen sonuç (veya `GetExpression` durumunda ortaya çıkan görünüm) ile anlamsal olarak eşdeğer bir değer döndürmelidir.
+
+İşleyici işlevinin hata vermesi durumunda, görünüme varsayılan işlem davranışı uygulanır.
+
+Kaynağa özgü sorgulara ilişkin M sorgularının çevirisi gibi bir veri kaynağına katlama işlemi uygulamak üzere (örneğin, M sorgularından T-SQL deyimleri oluşturma) `Table.View` kullanılabilir.
+
+`Table.View` hakkında yapılan tüm açıklamalar için yayımlanmış Power Query özel bağlayıcı belgelerine bakın.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Türü veya satır sayısını belirlemek için satırlara erişmeyi gerektirmeyen temel bir görünüm oluşturun.
 ```powerquery
 Table.View(

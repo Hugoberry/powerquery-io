@@ -19,13 +19,13 @@ List.IsEmpty(
 
 ## Remarks
 
-Devolve <code>true</code> se a lista, <code>list</code>, não contiver valores (comprimento 0). Se a lista contiver valores (comprimento > 0), devolve <code>false</code>.
+Devolve `true` se a lista, `list`, não contiver valores (comprimento 0). Se a lista contiver valores (comprimento > 0), devolve `false`.
 
 
 ## Examples
 
-### Example #1 
-Determinar se a lista \{} está vazia.
+### Example #1
+Determinar se a lista \{\} está vazia.
 ```powerquery
 List.IsEmpty({})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Determinar se a lista \{1, 2} está vazia.
+### Example #2
+Determinar se a lista \{1, 2\} está vazia.
 ```powerquery
 List.IsEmpty({1, 2})
 ```

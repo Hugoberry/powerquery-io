@@ -20,13 +20,13 @@ List.Repeat(
 
 ## Remarks
 
-Returnerer en liste, der indeholder <code>count</code> gentagelser fra den oprindelige liste, <code>list</code>.
+Returnerer en liste, der indeholder `count` gentagelser fra den oprindelige liste, `list`.
 
 
 ## Examples
 
-### Example #1 
-Opret en liste, hvor \{1, 2} gentages 3 gange.
+### Example #1
+Opret en liste, hvor \{1, 2\} gentages 3 gange.
 ```powerquery
 List.Repeat({1, 2}, 3)
 ```

@@ -25,7 +25,7 @@ Type.ForRecord(
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブル型を動的に生成します。
 ```powerquery
 let

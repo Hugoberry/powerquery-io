@@ -5,7 +5,7 @@ title: DateTime.IsInPreviousNHours
 # DateTime.IsInPreviousNHours
 
 
-Indica se questo valore datetime rientra nel numero di ore precedenti, come determinato dalla data e dall&#39;ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nell&#39;ora corrente.
+Indica se questo valore datetime rientra nel numero di ore precedenti, come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nell'ora corrente.
 
 
 ## Syntax
@@ -20,13 +20,16 @@ DateTime.IsInPreviousNHours(
 
 ## Remarks
 
-Indica se il valore datetime specificato <code>dateTime</code> rientra nel numero di ore precedenti, come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nell'ora corrente.      <ul>      <li><code>dateTime</code>: valore <code>datetime</code> o <code>datetimezone</code> da valutare.</li>      <li><code>hours</code>: numero di ore.</li>      </ul>
+Indica se il valore datetime specificato `dateTime` rientra nel numero di ore precedenti, come determinato dalla data e dall'ora correnti del sistema. Questa funzione restituirà false se viene passato un valore che rientra nell'ora corrente.
+
+-   `dateTime`: valore `datetime` o `datetimezone` da valutare.
+-   `hours`: numero di ore.
 
 
 ## Examples
 
-### Example #1 
-Determinare se l&#39;ora prima dell&#39;ora di sistema corrente rientra nelle due ore precedenti.
+### Example #1
+Determinare se l'ora prima dell'ora di sistema corrente rientra nelle due ore precedenti.
 ```powerquery
 DateTime.IsInPreviousNHours(DateTime.FixedLocalNow() - #duration(0, 2, 0, 0), 2)
 ```

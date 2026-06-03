@@ -20,12 +20,12 @@ Table.FromColumns(
 
 ## Remarks
 
-Skapar en tabell av typen <code>columns</code> från en lista <code>lists</code> som innehåller kapslade listor med kolumnnamn och värden.    Om vissa kolumner har fler värden än andra fylls de värden som saknas i med standardvärdet, null, om kolumnerna kan vara null.
+Skapar en tabell av typen `columns` från en lista `lists` som innehåller kapslade listor med kolumnnamn och värden. Om vissa kolumner har fler värden än andra fylls de värden som saknas i med standardvärdet, null, om kolumnerna kan vara null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returnera en tabell från en lista med kundnamn i en lista. Varje värde i kundlistobjektet blir till ett radvärde, och varje lista blir en kolumn.
 ```powerquery
 Table.FromColumns({
@@ -45,7 +45,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Skapa en tabell från en angiven lista med kolumner och en lista med kolumnnamn.
 ```powerquery
 Table.FromColumns(
@@ -68,7 +68,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Skapa en tabell med olika antal kolumner per rad. Det saknade radvärdet är null.
 ```powerquery
 Table.FromColumns(

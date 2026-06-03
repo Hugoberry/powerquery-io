@@ -12,7 +12,7 @@ Utilizado para obter dados Bloomberg
 
 ```powerquery
 BQL.Query(
-    BQLQuery as text
+    Bloomberg as text
 ) as table
 ```
 

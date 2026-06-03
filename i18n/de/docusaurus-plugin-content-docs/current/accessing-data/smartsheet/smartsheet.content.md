@@ -24,7 +24,7 @@ Ruft die Smartsheet 2.0-REST-API am angegebenen Endpunkt auf und transformiert d
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ruft eine Tabelle mit Benutzerinformationen aus der Smartsheet-API ab.
 ```powerquery
 Smartsheet.Content("users")

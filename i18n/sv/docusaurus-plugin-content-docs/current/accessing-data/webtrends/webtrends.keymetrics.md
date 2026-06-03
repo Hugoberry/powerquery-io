@@ -26,7 +26,7 @@ Anropar Webtrends KeyMetrics-slutpunkten och returnerar alla data som en tabell.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hämtar en statistiköversiktstabell för klient 98765 under de senaste 30 dagarna
 ```powerquery
 Webtrends.KeyMetrics("98765")

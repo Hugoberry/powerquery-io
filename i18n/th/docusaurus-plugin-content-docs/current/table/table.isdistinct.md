@@ -20,12 +20,12 @@ Table.IsDistinct(
 
 ## Remarks
 
-ระบุว่า <code>table</code> มีเฉพาะแถวที่ไม่ซ้ำ (ไม่ซ้ำซ้อน) หรือไม่ ส่งคืน <code>true</code> หากแถวไม่ซ้ำกัน และ <code>false</code> หากผลลัพธ์เป็นอื่น    พารามิเตอร์ทางเลือก <code>comparisonCriteria</code> ระบุว่าจะมีการทดสอบความซ้ำซ้อนที่คอลัมน์ใดของตาราง หากไม่มีการระบุ <code>comparisonCriteria</code> จะมีการทดสอบคอลัมน์ทั้งหมด
+ระบุว่า `table` มีเฉพาะแถวที่ไม่ซ้ำ (ไม่ซ้ำซ้อน) หรือไม่ ส่งคืน `true` หากแถวไม่ซ้ำกัน และ `false` หากผลลัพธ์เป็นอื่น พารามิเตอร์ทางเลือก `comparisonCriteria` ระบุว่าจะมีการทดสอบความซ้ำซ้อนที่คอลัมน์ใดของตาราง หากไม่มีการระบุ `comparisonCriteria` จะมีการทดสอบคอลัมน์ทั้งหมด
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 กำหนดว่าตารางมีค่าเฉพาะหรือไม่
 ```powerquery
 Table.IsDistinct(
@@ -44,7 +44,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 กำหนดว่าตารางมีค่าคอลัมน์เฉพาะหรือไม่
 ```powerquery
 Table.IsDistinct(

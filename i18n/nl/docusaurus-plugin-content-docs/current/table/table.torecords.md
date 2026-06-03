@@ -19,12 +19,12 @@ Table.ToRecords(
 
 ## Remarks
 
-Converteert een tabel, <code>table</code>, naar een lijst met records.
+Converteert een tabel, `table`, naar een lijst met records.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De tabel converteren naar een lijst met records.
 ```powerquery
 Table.ToRecords(

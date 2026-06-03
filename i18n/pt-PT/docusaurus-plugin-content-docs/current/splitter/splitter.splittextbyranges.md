@@ -25,7 +25,7 @@ Devolve uma função que divide o texto numa lista de texto de acordo com os des
 
 ## Examples
 
-### Example #1 
+### Example #1
 Divida a entrada pelos pares de posição e comprimento especificados, a partir do início da entrada. Note que os intervalos neste exemplo sobrepõem-se.
 ```powerquery
 Splitter.SplitTextByRanges({{0, 4}, {2, 10}})("codelimiter")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Divida a entrada pelos pares de posição e comprimento especificados, a partir do fim da entrada.
 ```powerquery
 let
@@ -52,7 +52,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Divida a entrada num código postal de comprimento fixo seguido de um nome de cidade de comprimento variável.
 ```powerquery
 Splitter.SplitTextByRanges({{0, 5}, {5, null}})("98052Redmond")

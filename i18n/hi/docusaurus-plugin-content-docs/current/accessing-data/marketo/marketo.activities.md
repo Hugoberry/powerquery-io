@@ -21,13 +21,13 @@ Marketo.Activities(
 
 ## Remarks
 
-<code>url</code>/rest/v1/activities.json पर Marketo REST API एंडपॉइंट को कॉल करता है. सूची <code>activityIds</code> में सभी गतिविधियाँ जो <code>startTime</code> के बाद उत्पन्न हुई हैं, वे लौटा दी गई हैं.
+`url`/rest/v1/activities.json पर Marketo REST API एंडपॉइंट को कॉल करता है. सूची `activityIds` में सभी गतिविधियाँ जो `startTime` के बाद उत्पन्न हुई हैं, वे लौटा दी गई हैं.
 
 
 ## Examples
 
-### Example #1 
-1 नवंबर 2015 से &#34;वेबपृष्ठ पर जाएँ&#34; गतिविधियों की एक तालिका पुल करता है
+### Example #1
+1 नवंबर 2015 से "वेबपृष्ठ पर जाएँ" गतिविधियों की एक तालिका पुल करता है
 ```powerquery
 Marketo.Activities("https://100-AAA-999.mktorest.com/rest", #date(2015,11,1), {1})
 ```

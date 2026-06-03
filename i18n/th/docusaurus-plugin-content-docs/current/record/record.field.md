@@ -20,13 +20,13 @@ Record.Field(
 
 ## Remarks
 
-ส่งกลับค่าของ <code>field</code> ที่ระบุใน <code>record</code> ถ้าไม่พบเขตข้อมูล ระบบจะแสดงข้อยกเว้น
+ส่งกลับค่าของ `field` ที่ระบุใน `record` ถ้าไม่พบเขตข้อมูล ถ้าไม่พบฟิลด์ ระบบจะแจ้งข้อผิดพลาด
 
 
 ## Examples
 
-### Example #1 
-ค้นหาค่าของฟิลด์ &#34;CustomerID&#34; ในระเบียน
+### Example #1
+ค้นหาค่าของฟิลด์ "CustomerID" ในระเบียน
 ```powerquery
 Record.Field([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")
 ```

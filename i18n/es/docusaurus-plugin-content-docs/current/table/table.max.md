@@ -21,13 +21,13 @@ Table.Max(
 
 ## Remarks
 
-Devuelve las filas mayores de <code>table</code>, dado el <code>comparisonCriteria</code>. Si la tabla está vacía, se devuelve un valor <code>default</code> opcional. 
+Devuelve las filas mayores de `table`, dado el `comparisonCriteria`. Si la tabla está vacía, se devuelve un valor `default` opcional.
 
 
 ## Examples
 
-### Example #1 
-Buscar la fila con el valor máximo de la columna [a] en la tabla &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8]})&lt;/code&gt;.
+### Example #1
+Buscar la fila con el valor máximo de la columna \[a\] en la tabla `({[a = 2, b = 4], [a = 6, b = 8]})`.
 ```powerquery
 Table.Max(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Buscar la fila con el valor máximo de la columna [a] en la tabla &lt;code&gt;(\{})&lt;/code&gt;. Si está vacía, se devuelve -1.
+### Example #2
+Buscar la fila con el valor máximo de la columna \[a\] en la tabla `({})`. Si está vacía, se devuelve -1.
 ```powerquery
 Table.Max(#table({"a"}, {}), "a", -1)
 ```

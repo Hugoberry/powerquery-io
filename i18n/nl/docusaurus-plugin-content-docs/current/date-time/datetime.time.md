@@ -19,12 +19,12 @@ DateTime.Time(
 
 ## Remarks
 
-Retourneert het tijdgedeelte van de opgegeven datum-/tijdwaarde, <code>dateTime</code>.
+Retourneert het tijdgedeelte van de opgegeven datum-/tijdwaarde, `dateTime`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De tijdwaarde zoeken van #datetime(2010, 12, 31, 11, 56, 02).
 ```powerquery
 DateTime.Time(#datetime(2010, 12, 31, 11, 56, 02))

@@ -20,12 +20,12 @@ Text.Remove(
 
 ## Remarks
 
-<code>removeChars</code> からすべての文字を削除したうえで、テキスト値 <code>text</code> のコピーを返します。
+`removeChars` からすべての文字を削除したうえで、テキスト値 `text` のコピーを返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 テキスト値から文字 , と ; を削除します。
 ```powerquery
 Text.Remove("a,b;c", {",",";"})

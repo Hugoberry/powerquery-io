@@ -19,7 +19,7 @@ Number.BitwiseNot(
 
 ## Remarks
 
-返回对 <code>number</code> 执行按位 "Not" 运算所得的结果。
+返回对 `number` 执行按位 "Not" 运算所得的结果。
 
 
 

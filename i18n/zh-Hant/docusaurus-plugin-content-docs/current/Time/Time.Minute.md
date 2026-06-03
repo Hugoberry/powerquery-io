@@ -19,12 +19,12 @@ Time.Minute(
 
 ## Remarks
 
-傳回提供的 <code>time</code>、<code>datetime</code> 或 <code>datetimezone</code> 值 <code>dateTime</code> 的分鐘元件。
+傳回提供的 `time`、`datetime` 或 `datetimezone` 值 `dateTime` 的分鐘元件。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 尋找 #datetime(2011, 12, 31, 9, 15, 36) 的分鐘。
 ```powerquery
 Time.Minute(#datetime(2011, 12, 31, 9, 15, 36))

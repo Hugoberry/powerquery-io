@@ -24,7 +24,7 @@ Zwraca losową liczbę z zakresu od 0 do 1.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utwórz liczbę losową.
 ```powerquery
 Number.Random()

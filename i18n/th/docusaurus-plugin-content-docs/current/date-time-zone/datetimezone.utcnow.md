@@ -24,7 +24,7 @@ DateTimeZone.UtcNow(
 
 ## Examples
 
-### Example #1 
+### Example #1
 รับวันที่และเวลาปัจจุบันใน UTC
 ```powerquery
 DateTimeZone.UtcNow()

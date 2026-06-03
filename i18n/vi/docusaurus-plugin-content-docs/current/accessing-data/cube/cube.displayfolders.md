@@ -19,7 +19,7 @@ Cube.DisplayFolders(
 
 ## Remarks
 
-Trả về cây bảng lồng nhau thể hiện phân cấp thư mục hiển thị của đối tượng (ví dụ: kích thước và số đo) sẵn dùng trong <code>cube</code>.
+Trả về cây bảng lồng nhau thể hiện phân cấp thư mục hiển thị của đối tượng (ví dụ: kích thước và số đo) sẵn dùng trong `cube`.
 
 
 

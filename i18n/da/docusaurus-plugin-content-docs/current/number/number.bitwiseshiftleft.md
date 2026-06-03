@@ -20,7 +20,7 @@ Number.BitwiseShiftLeft(
 
 ## Remarks
 
-Returnerer resultatet af at udføre et bitvis skift til venstre på <code>number1</code> med det angivne antal bit <code>number2</code>.
+Returnerer resultatet af at udføre et bitvis skift til venstre på `number1` med det angivne antal bit `number2`.
 
 
 

@@ -20,7 +20,7 @@ Cube.Transform(
 
 ## Remarks
 
-क्यूब फ़ंक्शन्स, <code>transforms</code>, की सूची को <code>cube</code> पर लागू करता है.
+क्यूब फ़ंक्शन्स, `transforms`, की सूची को `cube` पर लागू करता है.
 
 
 

@@ -20,13 +20,13 @@ Number.RoundTowardZero(
 
 ## Remarks
 
-<code>number</code> yuvarlamasının sonucunu, sayının işaretine göre döndürür. Bu işlev pozitif sayıları aşağı, negatif sayıları ise yukarı yuvarlar.    <code>digits</code> belirlenirse <code>number</code> değeri, <code>digits</code> değerinin onlu basamak sayısına yuvarlanır.  
+`number` yuvarlamasının sonucunu, sayının işaretine göre döndürür. Bu işlev pozitif sayıları aşağı, negatif sayıları ise yukarı yuvarlar. `digits` belirlenirse `number` değeri, `digits` değerinin onlu basamak sayısına yuvarlanır.
 
 
 ## Examples
 
-### Example #1 
--1,2 sayısını sıfıra doğru yuvarlar.
+### Example #1
+\-1,2 sayısını sıfıra doğru yuvarlar.
 ```powerquery
 Number.RoundTowardZero(-1.2)
 ```
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 1,2 sayısını sıfıra doğru yuvarlar.
 ```powerquery
 Number.RoundTowardZero(1.2)
@@ -49,8 +49,8 @@ Result:
 ```
 
 
-### Example #3 
--1234 sayısını sıfır değerinin iki onlu basamak yakınına yuvarlayın.
+### Example #3
+\-1234 sayısını sıfır değerinin iki onlu basamak yakınına yuvarlayın.
 ```powerquery
 Number.RoundTowardZero(-1.234, 2)
 ```

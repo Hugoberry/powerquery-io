@@ -19,13 +19,13 @@ List.Reverse(
 
 ## Remarks
 
-リスト <code>list</code> 内の値の順序が反転されたリストを返します。
+リスト `list` 内の値の順序が反転されたリストを返します。
 
 
 ## Examples
 
-### Example #1 
-\{1..10} の順序が反転されたリストを作成します。
+### Example #1
+\{1..10\} の順序が反転されたリストを作成します。
 ```powerquery
 List.Reverse({1..10})
 ```

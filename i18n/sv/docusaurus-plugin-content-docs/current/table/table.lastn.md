@@ -20,12 +20,15 @@ Table.LastN(
 
 ## Remarks
 
-Returnerar den eller de sista raderna från tabellen <code>table</code>, beroende på värdet för <code>countOrCondition</code>:    <ul>    <li> Om <code>countOrCondition</code> är ett tal returneras så många rader med början från positionen (slutet - <code>countOrCondition</code>). </li>    <li> Om <code>countOrCondition</code> är ett villkor returneras de rader som uppfyller villkoret i stigande ordning tills en rad inte uppfyller villkoret.</li></ul>
+Returnerar den eller de sista raderna från tabellen `table`, beroende på värdet för `countOrCondition`:
+
+-   Om `countOrCondition` är ett tal returneras så många rader med början från positionen (slutet - `countOrCondition`).
+-   Om `countOrCondition` är ett villkor returneras de rader som uppfyller villkoret i stigande ordning tills en rad inte uppfyller villkoret.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta de två sista raderna i tabellen.
 ```powerquery
 Table.LastN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Hitta de sista raderna där [a] &gt; 0 i tabellen.
+### Example #2
+Hitta de sista raderna där \[a\] > 0 i tabellen.
 ```powerquery
 Table.LastN(
     Table.FromRecords({

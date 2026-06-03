@@ -22,13 +22,18 @@ Table.ExpandRecordColumn(
 
 ## Remarks
 
-Med <code>column</code> over poster i inputtet <code>table</code> oprettes en tabel med en kolonne for de enkelte felter i posten. Du kan vælge at angive <code>newColumnNames</code> for at sikre entydige navne for kolonnerne i den nye tabel.    <ul>        <li><code>table</code>: Den oprindelige tabel med den postkolonne, der skal udvides. </li>        <li><code>column</code>: Den kolonne, der skal udvides.</li>        <li><code>fieldNames</code>: Den feltliste, der skal udvides i kolonner i tabellen.</li>        <li><code>newColumnNames</code>: Den liste over kolonnenavne, der skal overføres til de nye kolonner. De nye kolonnenavne kan ikke kopiere nogen kolonner i den nye tabel.</li>    </ul>
+Med `column` over poster i inputtet `table` oprettes en tabel med en kolonne for de enkelte felter i posten. Du kan vælge at angive `newColumnNames` for at sikre entydige navne for kolonnerne i den nye tabel.
+
+-   `table`: Den oprindelige tabel med den postkolonne, der skal udvides.
+-   `column`: Den kolonne, der skal udvides.
+-   `fieldNames`: Den feltliste, der skal udvides i kolonner i tabellen.
+-   `newColumnNames`: Den liste over kolonnenavne, der skal overføres til de nye kolonner. De nye kolonnenavne kan ikke kopiere nogen kolonner i den nye tabel.
 
 
 ## Examples
 
-### Example #1 
-Udvid kolonnen [a] i tabellen &lt;code&gt;(\{[a = [aa = 1, bb = 2, cc = 3], b = 2]})&lt;/code&gt; i tre kolonner &#34;aa&#34;, &#34;bb&#34; og &#34;cc&#34;.
+### Example #1
+Udvid kolonnen \[a\] i tabellen `({[a = [aa = 1, bb = 2, cc = 3], b = 2]})` i tre kolonner "aa", "bb" og "cc".
 ```powerquery
 Table.ExpandRecordColumn(
     Table.FromRecords({

@@ -5,7 +5,7 @@ title: Type.Facets
 # Type.Facets
 
 
-Retourne les facettes d&#39;un type.
+Retourne les facettes d'un type.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Type.Facets(
 
 ## Remarks
 
-Retourne un enregistrement contenant les facettes de <code>type</code>.
+Retourne un enregistrement contenant les facettes de `type`.
 
 
 

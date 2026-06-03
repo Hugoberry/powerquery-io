@@ -20,7 +20,7 @@ Type.TableColumn(
 
 ## Remarks
 
-ส่งกลับชนิดของคอลัมน์ <code>column</code> ในชนิดตาราง <code>tableType</code>
+ส่งกลับชนิดของคอลัมน์ `column` ในชนิดตาราง `tableType`
 
 
 

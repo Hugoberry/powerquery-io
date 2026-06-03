@@ -26,8 +26,8 @@ XML belgesinin içeriğini düzleştirilmiş tablolara yönelik bir iç içe yer
 
 ## Examples
 
-### Example #1 
-Yerel xml dosyasının içeriğini alır.
+### Example #1
+Yerel XML dosyasının içeriğini alır.
 ```powerquery
 Xml.Tables(File.Contents("C:\invoices.xml"))
 ```

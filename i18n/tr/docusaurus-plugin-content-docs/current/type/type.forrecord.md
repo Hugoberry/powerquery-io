@@ -25,7 +25,7 @@ Alanlarda belirli kısıt türünü içeren kayıtları temsil eden bir tür dö
 
 ## Examples
 
-### Example #1 
+### Example #1
 Dinamik olarak bir tablo türü oluşturun.
 ```powerquery
 let

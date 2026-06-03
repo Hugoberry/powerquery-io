@@ -5,7 +5,7 @@ title: Table.ReverseRows
 # Table.ReverseRows
 
 
-Restituisce una tabella con le righe nell&#39;ordine inverso.
+Restituisce una tabella con le righe nell'ordine inverso.
 
 
 ## Syntax
@@ -19,12 +19,12 @@ Table.ReverseRows(
 
 ## Remarks
 
-Restituisce una tabella con le righe dall'input <code>table</code> nell'ordine inverso.
+Restituisce una tabella con le righe dall'input `table` nell'ordine inverso.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Invertire le righe nella tabella.
 ```powerquery
 Table.ReverseRows(

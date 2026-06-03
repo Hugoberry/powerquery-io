@@ -19,3 +19,13 @@ Python.Execute(
 
 
 
+## Examples
+
+### Example #1
+∑хэćцŧεš Рỳŧĥθή šćŗĭþŧ дπδ ѓзţϋŕп§ ďαţà ƒŗámзş
+```powerquery
+Python.Execute("a = pandas.DataFrame(dataset[dataset.columns[0]])", [dataset=#"Source"])
+```
+
+
+

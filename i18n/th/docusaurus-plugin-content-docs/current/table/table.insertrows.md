@@ -21,12 +21,12 @@ Table.InsertRows(
 
 ## Remarks
 
-ส่งกลับตารางที่มีรายการแถว <code>rows</code> ซึ่งถูกแทรกลงใน <code>table</code> ในตำแหน่งที่ระบุ <code>offset</code> แต่ละคอลัมน์ในแถวที่จะแทรกต้องตรงกับชนิดคอลัมน์ของตาราง
+ส่งกลับตารางที่มีรายการแถว `rows` ซึ่งถูกแทรกลงใน `table` ในตำแหน่งที่ระบุ `offset` แต่ละคอลัมน์ในแถวที่จะแทรกต้องตรงกับชนิดคอลัมน์ของตาราง
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 เพิ่มแถวเข้าในตารางที่ตำแหน่ง 1
 ```powerquery
 Table.InsertRows(
@@ -49,7 +49,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 เพิ่มสองแถวเข้าในตารางที่ตำแหน่ง 1
 ```powerquery
 Table.InsertRows(

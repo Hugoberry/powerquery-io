@@ -20,12 +20,12 @@ Table.Repeat(
 
 ## Remarks
 
-<code>count</code> 回繰り返された行を含むテーブルを、入力 <code>table</code> から返します。
+`count` 回繰り返された行を含むテーブルを、入力 `table` から返します。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 テーブルの行を 2 回繰り返します。
 ```powerquery
 Table.Repeat(

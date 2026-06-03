@@ -19,12 +19,14 @@ DateTime.IsInNextSecond(
 
 ## Remarks
 
-Indikerar om angivet datetime-värde <code>dateTime</code> infaller under nästa sekund enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar false om den skickas ett värde som infaller inom den aktuella sekunden.      <ul>      <li><code>dateTime</code>: Ett <code>datetime</code>- eller <code>datetimezone</code>-värde som ska utvärderas.</li>      </ul>
+Indikerar om angivet datetime-värde `dateTime` infaller under nästa sekund enligt systemets aktuella datum och tid. Observera att den här funktionen returnerar false om den skickas ett värde som infaller inom den aktuella sekunden.
+
+-   `dateTime`: Ett `datetime`\- eller `datetimezone`\-värde som ska utvärderas.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Fastställer om sekunden efter den aktuella systemtiden infaller inom nästa sekund.
 ```powerquery
 DateTime.IsInNextSecond(DateTime.FixedLocalNow() + #duration(0, 0, 0, 1))

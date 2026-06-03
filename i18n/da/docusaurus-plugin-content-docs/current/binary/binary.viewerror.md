@@ -5,7 +5,7 @@ title: Binary.ViewError
 # Binary.ViewError
 
 
-Opretter en ændret fejlpost, som ikke udløser en fallback, når den kastes af en handler, der er defineret på en visning (via Binary.View).
+Opretter en ændret fejlpost, som ikke udløser en fallback, når den udløses af en handler, der er defineret på en visning (via Binary.View).
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Binary.ViewError(
 
 ## Remarks
 
-Opretter en ændret fejlpost fra <code>errorRecord</code>, som ikke udløser en fallback, når den kastes af en handler, der er defineret på en visning (via Binary.View).
+Opretter en ændret fejlpost fra `errorRecord`, som ikke udløser en fallback, når den udløses af en handler, der er defineret på en visning (via Binary.View).
 
 
 

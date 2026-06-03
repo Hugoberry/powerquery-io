@@ -26,7 +26,7 @@ Makes a call to the Webtrends KeyMetrics endpoint and returns all data as a tabl
 
 ## Examples
 
-### Example #1 
+### Example #1
 Pulls a table of key metrics for tenant 98765 in last 30 days
 ```powerquery
 Webtrends.KeyMetrics("98765")

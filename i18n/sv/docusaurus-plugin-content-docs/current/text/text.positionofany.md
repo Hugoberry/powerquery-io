@@ -21,13 +21,13 @@ Text.PositionOfAny(
 
 ## Remarks
 
-Returnerar den första positionen för ett tecken i listan <code>characters</code> som finns i <code>text</code>.    En valfri parameter <code>occurrence</code> kan användas för att ange vilken förekomstposition som ska returneras.
+Returnerar den första positionen för ett tecken i listan `characters` som finns i `text`. En valfri parameter `occurrence` kan användas för att ange vilken förekomstposition som ska returneras.
 
 
 ## Examples
 
-### Example #1 
-Hitta den första positionen för &#34;W&#34; eller &#34;H&#34; i texten &#34;Hello, World!&#34;.
+### Example #1
+Hitta den första positionen för "W" eller "H" i texten "Hello, World!".
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"})
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Hitta alla positioner för &#34;W&#34; eller &#34;H&#34; i texten &#34;Hello, World!&#34;.
+### Example #2
+Hitta alla positioner för "W" eller "H" i texten "Hello, World!".
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"}, Occurrence.All)
 ```

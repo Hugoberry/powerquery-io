@@ -24,7 +24,7 @@ Realiza una llamada a la API de REST de Smartsheet 2.0 en el punto de conexión 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Extrae una tabla de información de usuarios de la API de Smartsheet
 ```powerquery
 Smartsheet.Content("users")

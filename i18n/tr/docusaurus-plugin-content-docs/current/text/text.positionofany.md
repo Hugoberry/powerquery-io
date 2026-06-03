@@ -21,13 +21,13 @@ Text.PositionOfAny(
 
 ## Remarks
 
-<code>text</code> öğesinde bulunan <code>characters</code> listesindeki herhangi bir karakterin ilk konumunu döndürür.    Döndürülecek oluşum konumunu belirtmek üzere isteğe bağlı <code>occurrence</code> parametresi kullanılabilir.
+`text` öğesinde bulunan `characters` listesindeki herhangi bir karakterin ilk konumunu döndürür. Döndürülecek oluşum konumunu belirtmek üzere isteğe bağlı `occurrence` parametresi kullanılabilir.
 
 
 ## Examples
 
-### Example #1 
-&#34;Merhaba Dünya!&#34; metninde &#34;M&#34; veya &#34;D&#34; harfinin ilk konumunu bulur.
+### Example #1
+"Merhaba Dünya!" metninde "M" veya "D" harfinin ilk konumunu bulur.
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"})
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-&#34;Merhaba Dünya!&#34; metninde &#34;M&#34; veya &#34;D&#34; harfinin tüm konumlarını bulur.
+### Example #2
+"Merhaba Dünya!" metninde "M" veya "D" harfinin tüm konumlarını bulur.
 ```powerquery
 Text.PositionOfAny("Hello, World!", {"H", "W"}, Occurrence.All)
 ```

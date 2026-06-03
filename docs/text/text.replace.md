@@ -21,13 +21,13 @@ Text.Replace(
 
 ## Remarks
 
-Returns the result of replacing all occurrences of text value <code>old</code> in text value <code>text</code> with text value <code>new</code>. This function is case sensitive.
+Returns the result of replacing all occurrences of text value `old` in text value `text` with text value `new`. This function is case sensitive.
 
 
 ## Examples
 
-### Example #1 
-Replace every occurrence of &#34;the&#34; in a sentence with &#34;a&#34;.
+### Example #1
+Replace every occurrence of "the" in a sentence with "a".
 ```powerquery
 Text.Replace("the quick brown fox jumps over the lazy dog", "the", "a")
 ```

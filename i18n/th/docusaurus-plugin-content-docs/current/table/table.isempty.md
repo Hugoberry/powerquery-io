@@ -19,12 +19,12 @@ Table.IsEmpty(
 
 ## Remarks
 
-ระบุว่า <code>table</code> มีแถวใดๆ หรือไม่ ส่งคืน <code>true</code> หากไม่มีแถวใดๆ (เช่น ตารางว่างเปล่า) <code>false</code> หากมีผลลัพธ์เป็นอื่น
+ระบุว่า `table` มีแถวใดๆ หรือไม่ ส่งคืน `true` หากไม่มีแถวใดๆ (เช่น ตารางว่างเปล่า) `false` หากมีผลลัพธ์เป็นอื่น
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 กำหนดว่าตารางว่างเปล่าหรือไม่
 ```powerquery
 Table.IsEmpty(
@@ -42,8 +42,8 @@ false
 ```
 
 
-### Example #2 
-กำหนดว่าตาราง &lt;code&gt;(\{})&lt;/code&gt; ว่างเปล่าหรือไม่
+### Example #2
+กำหนดว่าตาราง `({})` ว่างเปล่าหรือไม่
 ```powerquery
 Table.IsEmpty(Table.FromRecords({}))
 ```

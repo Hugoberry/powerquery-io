@@ -20,7 +20,7 @@ Folder.Contents(
 
 ## Remarks
 
-Retorna uma tabela contendo uma linha para cada pasta e arquivo encontrado na pasta <code>path</code>. Cada linha contém propriedades da pasta ou arquivo e um link para seu conteúdo. O parâmetro <code>options</code> é atualmente destinado apenas para uso interno.
+Retorna uma tabela contendo uma linha para cada pasta e arquivo encontrado na pasta `path`. Cada linha contém propriedades da pasta ou arquivo e um link para seu conteúdo. O parâmetro `options` é atualmente destinado apenas para uso interno.
 
 
 

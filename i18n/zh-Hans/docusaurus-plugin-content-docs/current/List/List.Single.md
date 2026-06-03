@@ -5,7 +5,7 @@ title: List.Single
 # List.Single
 
 
-对于长度为 1 的列表返回一个列表项，否则引发异常。
+对于长度为 1 的列表返回一个列表项，否则引发错误。
 
 
 ## Syntax
@@ -19,13 +19,13 @@ List.Single(
 
 ## Remarks
 
-如果列表 <code>list</code> 中只有一项，则返回该项。    如果列表中有多项或列表为空，函数将引发异常。
+如果列表 `list` 中只有一项，则返回该项。 如果列表中有多项或列表为空，函数则引发错误。
 
 
 ## Examples
 
-### Example #1 
-在列表 \{1} 中查找单个值。
+### Example #1
+在列表 \{1\} 中查找单个值。
 ```powerquery
 List.Single({1})
 ```
@@ -36,8 +36,8 @@ Result:
 ```
 
 
-### Example #2 
-在列表 \{1, 2, 3} 中查找单个值。
+### Example #2
+在列表 \{1, 2, 3\} 中查找单个值。
 ```powerquery
 List.Single({1, 2, 3})
 ```

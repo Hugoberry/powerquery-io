@@ -19,13 +19,13 @@ Type.OpenRecord(
 
 ## Remarks
 
-傳回指定 <code>record</code> <code>type</code> 的開放版本 (如果已經是開放版本，則要是相同類型)。
+傳回指定 `record` `type` 的開放版本 (如果已經是開放版本，則要是相同類型)。
 
 
 ## Examples
 
-### Example #1 
-建立開放版本的 &lt;code&gt;type [ A = number]&lt;/code&gt;。
+### Example #1
+建立開放版本的 `type [ A = number]`。
 ```powerquery
 Type.OpenRecord(type [A = number])
 ```

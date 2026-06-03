@@ -21,12 +21,12 @@ Table.Range(
 
 ## Remarks
 
-Returns the rows from the <code>table</code> starting at the specified <code>offset</code>. An optional parameter, <code>count</code>, specifies how many rows to return. By default, all the rows after the offset are returned.
+Returns the rows from the `table` starting at the specified `offset`. An optional parameter, `count`, specifies how many rows to return. By default, all the rows after the offset are returned.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Return all the rows starting at offset 1 in the table.
 ```powerquery
 Table.Range(
@@ -50,7 +50,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Return one row starting at offset 1 in the table.
 ```powerquery
 Table.Range(

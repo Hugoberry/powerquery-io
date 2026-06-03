@@ -5,7 +5,7 @@ title: Table.UnpivotOtherColumns
 # Table.UnpivotOtherColumns
 
 
-Convertit toutes les colonnes autres qu&#39;un jeu spécifié en paires attribut-valeur.
+Convertit toutes les colonnes autres qu'un jeu spécifié en paires attribut-valeur.
 
 
 ## Syntax
@@ -27,8 +27,8 @@ Convertit toutes les colonnes autres qu'un jeu spécifié en paires attribut-val
 
 ## Examples
 
-### Example #1 
-Convertit toutes les colonnes autres qu&#39;un jeu spécifié en paires attribut-valeur, associées aux autres valeurs de chaque ligne.
+### Example #1
+Convertit toutes les colonnes autres qu'un jeu spécifié en paires attribut-valeur, associées aux autres valeurs de chaque ligne.
 ```powerquery
 Table.UnpivotOtherColumns(
     Table.FromRecords({

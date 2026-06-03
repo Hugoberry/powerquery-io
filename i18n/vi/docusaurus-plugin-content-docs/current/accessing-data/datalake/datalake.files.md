@@ -20,6 +20,6 @@ DataLake.Files(
 
 ## Remarks
 
-Trả về bảng chứa một hàng của mỗi tệp tìm thấy trên <code>URL</code>, của Azure Data Lake Storage thế hệ 1. Mỗi hàng đều chứa thuộc tính của tệp và liên kết tới nội dung của tệp đó.
+Trả về bảng chứa một hàng của mỗi tệp tìm thấy trên `URL`, của Azure Data Lake Storage thế hệ 1. Mỗi hàng đều chứa thuộc tính của tệp và liên kết tới nội dung của tệp đó.
 
 

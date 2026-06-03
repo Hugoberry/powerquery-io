@@ -5,7 +5,7 @@ title: Kusto.Contents
 # Kusto.Contents
 
 
-นำเข้าข้อมูลจาก Azure Data Explorer  (Kusto)
+นำเข้าข้อมูลจาก Azure Data Explorer (Kusto)
 
 
 ## Syntax
@@ -27,7 +27,7 @@ Kusto.Contents(
 
 ## Examples
 
-### Example #1 
+### Example #1
 ส่งกลับตารางของข้อมูล Storm Events
 ```powerquery
 Kusto.Contents("help", "Samples", "StormEvents", [])

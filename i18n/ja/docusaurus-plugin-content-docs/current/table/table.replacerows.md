@@ -22,12 +22,17 @@ Table.ReplaceRows(
 
 ## Remarks
 
-入力 <code>table</code> で、<code>offset</code> 行後から、指定された数の行 (<code>count</code> 行) を指定された <code>rows</code> に置き換えます。<code>rows</code> パラメーターは、レコードの一覧です。    <ul>       <li><code>table</code>: 置換を実行するテーブル。</li>       <li><code>offset</code>: 置換を行う前にスキップする行の数。</li>       <li><code>count</code>: 置き換える行の数。</li>       <li><code>rows</code>: <code>offset</code> で指定された位置の <code>table</code> に挿入する行レコードの一覧。</li>    </ul>
+入力 `table` で、`offset` 行後から、指定された数の行 (`count` 行) を指定された `rows` に置き換えます。`rows` パラメーターは、レコードの一覧です。
+
+-   `table`: 置換を実行するテーブル。
+-   `offset`: 置換を行う前にスキップする行の数。
+-   `count`: 置き換える行の数。
+-   `rows`: `offset` で指定された位置の `table` に挿入する行レコードの一覧。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 位置 1 から 3 つの行を置き換えます。
 ```powerquery
 Table.ReplaceRows(

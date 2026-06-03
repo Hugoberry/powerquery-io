@@ -20,7 +20,11 @@ AzureStorage.DataLakeContents(
 
 ## Remarks
 
-Devolve o conteúdo do ficheiro no URL, <code>url</code>, a partir de um sistema de ficheiros do Azure Data Lake Storage. <code>options</code> pode ser especificado para controlar as seguintes opções:    <ul><li><code>BlockSize</code> : O n&#250;mero de bytes a ler antes de aguardar pelo consumidor de dados. O valor predefinido &#233; de 4 MB.</li><li><code>RequestSize</code> : O n&#250;mero de bytes a tentar ler num &#250;nico pedido HTTP para o servidor. O valor predefinido &#233; de 4 MB.</li><li><code>ConcurrentRequests</code> : A op&#231;&#227;o ConcurrentRequests suporta o descarregamento de dados mais r&#225;pido, especificando o n&#250;mero de pedidos a serem feitos em paralelo, ao custo da utiliza&#231;&#227;o da mem&#243;ria. A mem&#243;ria necess&#225;ria &#233; (ConcurrentRequest \* RequestSize). O valor predefinido &#233; 16.</li></ul>
+Devolve o conteúdo do ficheiro no URL, `url`, a partir de um sistema de ficheiros do Azure Data Lake Storage. `options` pode ser especificado para controlar as seguintes opções:
+
+-   `BlockSize` : O número de bytes a ler antes de aguardar pelo consumidor de dados. O valor predefinido é de 4 MB.
+-   `RequestSize` : O número de bytes a tentar ler num único pedido HTTP para o servidor. O valor predefinido é de 4 MB.
+-   `ConcurrentRequests` : A opção ConcurrentRequests suporta o descarregamento de dados mais rápido, especificando o número de pedidos a serem feitos em paralelo, ao custo da utilização da memória. A memória necessária é (ConcurrentRequest \* RequestSize). O valor predefinido é 16.
 
 
 

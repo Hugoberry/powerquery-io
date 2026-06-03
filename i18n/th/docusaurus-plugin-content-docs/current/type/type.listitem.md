@@ -19,13 +19,13 @@ Type.ListItem(
 
 ## Remarks
 
-ส่งกลับประเภทรายการจากรายการ <code>type</code>.
+ส่งกลับประเภทรายการจากรายการ `type`.
 
 
 ## Examples
 
-### Example #1 
-ค้นหาประเภทรายการจากรายการ &lt;code&gt;\{number}&lt;/code&gt;
+### Example #1
+ค้นหาประเภทรายการจากรายการ `{number}`
 ```powerquery
 Type.ListItem(type {number})
 ```

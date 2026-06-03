@@ -20,13 +20,16 @@ Date.AddQuarters(
 
 ## Remarks
 
-<code>datetime</code> मान <code>dateTime</code> में <code>numberOfQuarters</code> तिमाहियाँ जोड़ने आने वाला <code>date</code>, <code>datetime</code> या <code>datetimezone</code> परिणाम लौटाता है.      <ul>      <li><code>dateTime</code>: <code>date</code>, <code>datetime</code> या <code>datetimezone</code> वे मान हैं जिनमें तिमाहियों को जोड़ा जा रहा है.</li>      <li><code>numberOfQuarters</code>: जोड़ने के लिए तिमाहियों की संख्या.</li>      </ul>
+`datetime` मान `dateTime` में `numberOfQuarters` तिमाहियाँ जोड़ने आने वाला `date`, `datetime` या `datetimezone` परिणाम लौटाता है.
+
+-   `dateTime`: `date`, `datetime` या `datetimezone` वे मान हैं जिनमें तिमाहियों को जोड़ा जा रहा है.
+-   `numberOfQuarters`: जोड़ने के लिए तिमाहियों की संख्या.
 
 
 ## Examples
 
-### Example #1 
-दिनांक 5/14/2011 का प्रतिनिधित्व करने वाले &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; या &lt;code&gt;datetimezone&lt;/code&gt; मान में 1 तिमाही जोड़ें.
+### Example #1
+दिनांक 5/14/2011 का प्रतिनिधित्व करने वाले `date`, `datetime` या `datetimezone` मान में 1 तिमाही जोड़ें.
 ```powerquery
 Date.AddQuarters(#date(2011, 5, 14), 1)
 ```

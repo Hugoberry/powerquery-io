@@ -21,13 +21,13 @@ Table.Max(
 
 ## Remarks
 
-Gibt die größte Zeile im Element vom Typ "<code>table</code>" anhand von "<code>comparisonCriteria</code>" zurück. Ist die Tabelle leer, wird der optionale Wert "<code>default</code>" zurückgegeben. 
+Gibt die größte Zeile im Element vom Typ "`table`" anhand von "`comparisonCriteria`" zurück. Ist die Tabelle leer, wird der optionale Wert "`default`" zurückgegeben.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt in der Tabelle &lt;code&gt;(\{[a = 2, b = 4], [a = 6, b = 8]})&lt;/code&gt; die Zeile mit dem größten Wert in Spalte &#34;[a]&#34;.
+### Example #1
+Ermittelt in der Tabelle `({[a = 2, b = 4], [a = 6, b = 8]})` die Zeile mit dem größten Wert in Spalte "\[a\]".
 ```powerquery
 Table.Max(
     Table.FromRecords({
@@ -44,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-Ermittelt in der Tabelle &lt;code&gt;(\{})&lt;/code&gt; die Zeile mit dem größten Wert in Spalte &#34;[a]&#34;. Ist die Tabelle leer, wird &#34;-1&#34; zurückgegeben.
+### Example #2
+Ermittelt in der Tabelle `({})` die Zeile mit dem größten Wert in Spalte "\[a\]". Ist die Tabelle leer, wird "-1" zurückgegeben.
 ```powerquery
 Table.Max(#table({"a"}, {}), "a", -1)
 ```

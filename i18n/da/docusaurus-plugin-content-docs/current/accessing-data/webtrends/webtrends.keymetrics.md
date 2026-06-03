@@ -26,7 +26,7 @@ Foretager et kald til Webtrends KeyMetrics-slutpunktet og returnerer alle data s
 
 ## Examples
 
-### Example #1 
+### Example #1
 Udtrækker en tabel med en oversigt over målepunkter for lejer 98765 inden for de seneste 30 dage
 ```powerquery
 Webtrends.KeyMetrics("98765")

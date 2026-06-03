@@ -26,7 +26,7 @@ Hiermee wordt een aanroep verzonden naar het Webtrends KeyMetrics-eindpunt en wo
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hiermee wordt een tabel met metrische sleutelgegevens voor tenant 98765 van de afgelopen 30 dagen opgehaald
 ```powerquery
 Webtrends.KeyMetrics("98765")

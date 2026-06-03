@@ -5,7 +5,7 @@ title: Binary.View
 # Binary.View
 
 
-Crea o estende un binario con gestori definiti dall&#39;utente per operazioni di query e azione.
+Crea o estende un binario con gestori definiti dall'utente per operazioni di query e azione.
 
 
 ## Syntax
@@ -20,13 +20,23 @@ Binary.View(
 
 ## Remarks
 
-Restituisce una vista di <code>binary</code> in cui vengono usate le funzioni specificate in<code>handlers</code> anziché il comportamento predefinito di un'operazione quando l'operazione è applicata alla vista.<br />Se<code>binary</code> viene specificato, tutte le funzioni del gestore sono facoltative. Se <code>binary</code> non viene specificato, è richiesta la funzione di gestore <code>GetStream</code>. Se una funzione di gestore non è specificata per un'operazione, a <code>binary</code> viene applicato il comportamento predefinito dell'operazione (tranne nel caso di <code>GetExpression</code>). <br />Le funzioni del gestore devono restituire un valore equivalente a livello semantico al risultato dell'applicazione dell'operazione su <code>binary</code> (o della vista risultante nel caso di <code>GetExpression</code>).<br />Se una funzione del gestore genera un errore, alla vista viene applicato il comportamento predefinito dell'operazione.<br />È possibile usare <code>Binary.View</code> per implementare la riduzione per un'origine dati, ovvero la conversione di query M in operazioni specifiche dell'origine (ad esempio, per scaricare una sezione di un file).<br />Per una descrizione completa di <code>Binary.View</code>, vedere la documentazione pubblicata.<br />
+Restituisce una vista di `binary` in cui vengono usate le funzioni specificate in`handlers` anziché il comportamento predefinito di un'operazione quando l'operazione è applicata alla vista.
+
+Se`binary` viene specificato, tutte le funzioni del gestore sono facoltative. Se `binary` non viene specificato, è richiesta la funzione di gestore `GetStream`. Se una funzione di gestore non è specificata per un'operazione, a `binary` viene applicato il comportamento predefinito dell'operazione (tranne nel caso di `GetExpression`).
+
+Le funzioni del gestore devono restituire un valore equivalente a livello semantico al risultato dell'applicazione dell'operazione su `binary` (o della vista risultante nel caso di `GetExpression`).
+
+Se una funzione del gestore genera un errore, alla vista viene applicato il comportamento predefinito dell'operazione.
+
+È possibile usare `Binary.View` per implementare la riduzione per un'origine dati, ovvero la conversione di query M in operazioni specifiche dell'origine (ad esempio, per scaricare una sezione di un file).
+
+Per una descrizione completa di `Binary.View`, vedere la documentazione pubblicata.
 
 
 ## Examples
 
-### Example #1 
-Creare una visualizzazione di base che non richieda l&#39;accesso ai dati per determinare la lunghezza.
+### Example #1
+Creare una visualizzazione di base che non richieda l'accesso ai dati per determinare la lunghezza.
 ```powerquery
 Binary.View(
     null,

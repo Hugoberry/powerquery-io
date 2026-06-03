@@ -20,7 +20,7 @@ Number.Atan2(
 
 ## Remarks
 
-Returnerer arcus tangens til divisionen af de to tal, <code>y</code> og <code>x</code>. Divisionen oprettes som <code>y</code>/<code>x</code>.
+Returnerer vinklen i radianer, hvis tangens er kvotienten `y`/`x` af de to tal `y` og `x`.
 
 
 

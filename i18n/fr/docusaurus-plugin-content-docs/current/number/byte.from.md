@@ -21,13 +21,13 @@ Byte.From(
 
 ## Remarks
 
-Retourne une valeur entière 8 bits <code>number</code> du <code>value</code> donné. Si le <code>value</code> donné est <code>null</code>, <code>Byte.From</code> retourne <code>null</code>. Si le <code>value</code> donné est <code>number</code> dans la plage d'entiers 8 bits sans partie fractionnaire, <code>value</code> est retourné. S'il comprend une partie fractionnaire, le nombre est arrondi selon le mode d'arrondi spécifié. Le mode d'arrondi par défaut est <code>RoundingMode.ToEven</code>. Si <code>value</code> donné est d'un autre type, il sera converti en valeur <code>number</code> en utilisant<code>Number.FromText</code>. Référez-vous à <code>Number.Round</code> pour les modes d'arrondi disponibles. Vous pouvez également fournir un <code>culture</code> facultatif (par exemple, "fr-fr").
+Retourne une valeur entière 8 bits `number` du `value` donné. Si le `value` donné est `null`, `Byte.From` retourne `null`. Si le `value` donné est `number` dans la plage d'entiers 8 bits sans partie fractionnaire, `value` est retourné. S'il comprend une partie fractionnaire, le nombre est arrondi selon le mode d'arrondi spécifié. Le mode d'arrondi par défaut est `RoundingMode.ToEven`. Si `value` donné est d'un autre type, il sera converti en valeur `number` en utilisant`Number.FromText`. Référez-vous à `Number.Round` pour les modes d'arrondi disponibles. Vous pouvez également fournir un `culture` facultatif (par exemple, "fr-fr").
 
 
 ## Examples
 
-### Example #1 
-Obtenez la valeur entière 8 bits &lt;code&gt;number&lt;/code&gt; de &lt;code&gt;&#34;4&#34;&lt;/code&gt;.
+### Example #1
+Obtenez la valeur entière 8 bits `number` de `"4"`.
 ```powerquery
 Byte.From("4")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Obtenez la valeur entière 8 bits &lt;code&gt;number&lt;/code&gt; de &lt;code&gt;&#34;4.5&#34;&lt;/code&gt; en utilisant &lt;code&gt;RoundingMode.AwayFromZero&lt;/code&gt;.
+### Example #2
+Obtenez la valeur entière 8 bits `number` de `"4.5"` en utilisant `RoundingMode.AwayFromZero`.
 ```powerquery
 Byte.From("4.5", null, RoundingMode.AwayFromZero)
 ```

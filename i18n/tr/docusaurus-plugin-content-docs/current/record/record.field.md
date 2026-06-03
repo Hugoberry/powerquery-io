@@ -20,13 +20,13 @@ Record.Field(
 
 ## Remarks
 
-<code>record</code> içindeki belirtilen <code>field</code> öğesinin değerini döndürür. Alan bulunmazsa, özel durum oluşur.
+`field` içindeki belirtilen `record` öğesinin değerini döndürür. Alan bulunamazsa, bir hata oluşur.
 
 
 ## Examples
 
-### Example #1 
-Kayıtta &#34;CustomerID&#34; alanına ilişkin değeri bulur.
+### Example #1
+Kayıtta "CustomerID" alanına ilişkin değeri bulur.
 ```powerquery
 Record.Field([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")
 ```

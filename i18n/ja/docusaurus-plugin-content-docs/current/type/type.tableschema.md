@@ -19,7 +19,9 @@ Type.TableSchema(
 
 ## Remarks
 
-<code>tableType</code> の列を説明するテーブルを返します。<br />結果として返されるテーブルの説明については、<code>Table.Schema</code> のドキュメントを参照してださい。<br />
+`tableType` の列を説明するテーブルを返します。
+
+結果として返されるテーブルの説明については、`Table.Schema` のドキュメントを参照してださい。
 
 
 

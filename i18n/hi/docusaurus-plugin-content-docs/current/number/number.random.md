@@ -24,7 +24,7 @@ Number.Random(
 
 ## Examples
 
-### Example #1 
+### Example #1
 यादृच्छिक संख्या प्राप्त करें.
 ```powerquery
 Number.Random()

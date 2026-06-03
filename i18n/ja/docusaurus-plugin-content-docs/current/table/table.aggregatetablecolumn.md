@@ -21,13 +21,13 @@ Table.AggregateTableColumn(
 
 ## Remarks
 
-<code>table</code>[<code>column</code>] 内のテーブルをテーブルの集計値を含む複数の列に集計します。<code>aggregations</code> を使用して、集計するテーブルを含む列、値を生成するためにテーブルに適用する集計関数、および作成する集計列の名前を指定します。
+`table`\[`column`\] 内のテーブルをテーブルの集計値を含む複数の列に集計します。`aggregations` を使用して、集計するテーブルを含む列、値を生成するためにテーブルに適用する集計関数、および作成する集計列の名前を指定します。
 
 
 ## Examples
 
-### Example #1 
-テーブル &lt;code&gt;\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}&lt;/code&gt; 内の &lt;code&gt;[t]&lt;/code&gt; のテーブル列を集計して、&lt;code&gt;[t.a]&lt;/code&gt; の合計、&lt;code&gt;[t.b]&lt;/code&gt; の最小値と最大値、および &lt;code&gt;[t.a]&lt;/code&gt; の値のカウントを計算します。
+### Example #1
+テーブル `{[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]}` 内の `[t]` のテーブル列を集計して、`[t.a]` の合計、`[t.b]` の最小値と最大値、および `[t.a]` の値のカウントを計算します。
 ```powerquery
 Table.AggregateTableColumn(
     Table.FromRecords(

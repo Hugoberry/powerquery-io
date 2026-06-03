@@ -19,12 +19,12 @@ Number.Tan(
 
 ## Remarks
 
-Zwraca tangens liczby <code>number</code>.
+Zwraca tangens liczby `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Znajdź tangens kąta 1.
 ```powerquery
 Number.Tan(1)

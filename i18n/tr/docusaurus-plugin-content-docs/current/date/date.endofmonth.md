@@ -19,12 +19,14 @@ Date.EndOfMonth(
 
 ## Remarks
 
-<code>dateTime</code> içeren ay sonunu döndürür.      <ul>        <li><code>dateTime</code>: Kendisinden itibaren ayın sonunun hesaplandığı <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>      </ul>
+`dateTime` içeren ay sonunu döndürür.
+
+-   `dateTime`: Kendisinden itibaren ayın sonunun hesaplandığı `date`, `datetime` veya `datetimezone` değeri.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 14.05.2011 için ayın sonunu alır.
 ```powerquery
 Date.EndOfMonth(#date(2011, 5, 14))
@@ -36,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 17.05.2011 17:00:00 -7:00 için ayın sonunu alır.
 ```powerquery
 Date.EndOfMonth(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0))

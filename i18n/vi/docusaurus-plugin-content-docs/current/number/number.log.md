@@ -20,12 +20,12 @@ Number.Log(
 
 ## Remarks
 
-Trả về lô-ga-rít của số <code>number</code> cho cơ số <code>base</code> được chỉ định. Nếu <code>base</code> không được chỉ định, giá trị mặc định sẽ là Number.E.    Nếu <code>number</code> là giá trị null thì <code>Number.Log</code> sẽ trả về giá trị null.
+Trả về lô-ga-rít của số `number` cho cơ số `base` được chỉ định. Nếu `base` không được chỉ định, giá trị mặc định sẽ là Number.E. Nếu `number` là giá trị null thì `Number.Log` sẽ trả về giá trị null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Nhận lô-ga-rít cơ số 10 của 2.
 ```powerquery
 Number.Log(2, 10)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Nhận lô-ga-rít cơ số e của 2.
 ```powerquery
 Number.Log(2)

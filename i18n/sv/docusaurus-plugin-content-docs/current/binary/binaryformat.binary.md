@@ -19,7 +19,7 @@ BinaryFormat.Binary(
 
 ## Remarks
 
-Returnerar ett binärformat som läser ett binärvärde. Om <code>length</code> anges innehåller binärvärdet så många byte. Om <code>length</code> inte anges innehåller binärvärdet resterande antal byte. <code>length</code> kan anges som ett tal eller som ett binärformat för längden som föregår binärdata.
+Returnerar ett binärformat som läser ett binärvärde. Om `length` anges innehåller binärvärdet så många byte. Om `length` inte anges innehåller binärvärdet resterande antal byte. `length` kan anges som ett tal eller som ett binärformat för längden som föregår binärdata.
 
 
 

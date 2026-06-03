@@ -19,7 +19,7 @@ Function.IsDataSource(
 
 ## Remarks
 
-यह लौटाता है कि <code>function</code> को डेटा स्रोत माना जाए या नहीं.
+यह लौटाता है कि `function` को डेटा स्रोत माना जाए या नहीं.
 
 
 

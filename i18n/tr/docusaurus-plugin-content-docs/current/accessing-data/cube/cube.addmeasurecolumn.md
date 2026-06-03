@@ -21,7 +21,7 @@ Cube.AddMeasureColumn(
 
 ## Remarks
 
-<code>cube</code> öğesine, her satırın bağlamına uygulanan <code>measureSelector</code> ölçüsünün sonuçlarını içeren <code>column</code> adlı bir sütun ekler. Ölçü uygulama, boyut parçalı yapısında ve dilimlerinde yapılan değişikliklerden etkilenir. Ölçü değerleri, belirli küp işlemleri yapıldıktan sonra ayarlanır.
+`cube` öğesine, her satırın bağlamına uygulanan `measureSelector` ölçüsünün sonuçlarını içeren `column` adlı bir sütun ekler. Ölçü uygulama, boyut parçalı yapısında ve dilimlerinde yapılan değişikliklerden etkilenir. Ölçü değerleri, belirli küp işlemleri yapıldıktan sonra ayarlanır.
 
 
 

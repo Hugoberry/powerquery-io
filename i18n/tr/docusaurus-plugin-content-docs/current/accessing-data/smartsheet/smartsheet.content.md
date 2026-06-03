@@ -24,8 +24,8 @@ Belirtilen uç noktadan Smartsheet 2.0 REST API'sine çağrıda bulunur ve bir t
 
 ## Examples
 
-### Example #1 
-Smartsheet API&#39;sinden kullanıcılarla ilgili bilgilerin yer aldığı bir tablo çeker
+### Example #1
+Smartsheet API'sinden kullanıcılarla ilgili bilgilerin yer aldığı bir tablo çeker
 ```powerquery
 Smartsheet.Content("users")
 ```

@@ -5,7 +5,7 @@ title: Logical.FromText
 # Logical.FromText
 
 
-สร้างค่าตรรกะจากค่าข้อความ &#34;true&#34; และ &#34;false&#34;
+สร้างค่าตรรกะจากค่าข้อความ "true" และ "false"
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.FromText(
 
 ## Remarks
 
-สร้างค่าตรรกะจากค่าข้อความ <code>text</code> ซึ่งเป็น "true" หรือ "false" ถ้า <code>text</code> ประกอบด้วยสตริงอื่น ระบบจะแสดงข้อยกเว้น ค่าข้อความ <code>text</code> ไม่ตรงตามตัวพิมพ์ใหญ่เล็ก
+สร้างค่าตรรกะจากค่าข้อความ `text` ซึ่งเป็น "true" หรือ "false". ถ้า `text` มีสตริงอื่น จะเกิดข้อผิดพลาดขึ้น ค่าข้อความ `text` ไม่ตรงตามตัวพิมพ์ใหญ่เล็ก.
 
 
 ## Examples
 
-### Example #1 
-สร้างค่าตรรกะจากสตริงข้อความ &#34;true&#34;
+### Example #1
+สร้างค่าตรรกะจากสตริงข้อความ "true"
 ```powerquery
 Logical.FromText("true")
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-สร้างค่าตรรกะจากสตริงข้อความ &#34;a&#34;
+### Example #2
+สร้างค่าตรรกะจากสตริงข้อความ "a"
 ```powerquery
 Logical.FromText("a")
 ```

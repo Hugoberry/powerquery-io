@@ -21,13 +21,13 @@ List.RemoveMatchingItems(
 
 ## Remarks
 
-Entfernt alle Vorkommen der in "<code>list2</code>" angegebenen Werte aus der Liste "<code>list1</code>". Sind die Werte aus "<code>list2</code>" in "<code>list1</code>" nicht vorhanden, wird die ursprüngliche Liste zurückgegeben.    Zum Steuern der Gleichheitsüberprüfung kann ein optionales Gleichungskriterium (<code>equationCriteria</code>) angegeben werden. 
+Entfernt alle Vorkommen der in "`list2`" angegebenen Werte aus der Liste "`list1`". Sind die Werte aus "`list2`" in "`list1`" nicht vorhanden, wird die ursprüngliche Liste zurückgegeben. Zum Steuern der Gleichheitsüberprüfung kann ein optionales Gleichungskriterium (`equationCriteria`) angegeben werden.
 
 
 ## Examples
 
-### Example #1 
-Erstellt eine Liste auf der Grundlage von &#34;\{1, 2, 3, 4, 5, 5}&#34; ohne &#34;\{1, 5}&#34;.
+### Example #1
+Erstellt eine Liste auf der Grundlage von "\{1, 2, 3, 4, 5, 5\}" ohne "\{1, 5\}".
 ```powerquery
 List.RemoveMatchingItems({1, 2, 3, 4, 5, 5}, {1, 5})
 ```

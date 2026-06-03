@@ -20,13 +20,16 @@ Date.AddQuarters(
 
 ## Remarks
 
-通过将 <code>numberOfQuarters</code> 个季度添加到 <code>datetime</code> 值 <code>dateTime</code>，返回 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 结果。      <ul>      <li><code>dateTime</code>: 季度数要添加到的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值。</li>      <li><code>numberOfQuarters</code>: 要添加的季度数。</li>      </ul>
+通过将 `numberOfQuarters` 个季度添加到 `datetime` 值 `dateTime`，返回 `date`、`datetime` 或 `datetimezone` 结果。
+
+-   `dateTime`: 季度数要添加到的 `date`、`datetime` 或 `datetimezone` 值。
+-   `numberOfQuarters`: 要添加的季度数。
 
 
 ## Examples
 
-### Example #1 
-将 1 个季度添加到表示日期 5/14/2011 的 &lt;code&gt;date&lt;/code&gt;、&lt;code&gt;datetime&lt;/code&gt; 或 &lt;code&gt;datetimezone&lt;/code&gt; 值。
+### Example #1
+将 1 个季度添加到表示日期 5/14/2011 的 `date`、`datetime` 或 `datetimezone` 值。
 ```powerquery
 Date.AddQuarters(#date(2011, 5, 14), 1)
 ```

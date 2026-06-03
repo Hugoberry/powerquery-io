@@ -20,12 +20,12 @@ Table.First(
 
 ## Remarks
 
-Devolve a primeira linha de <code>table</code> ou um valor predefinido opcional, <code>default</code>, se a tabela estiver vazia.
+Devolve a primeira linha de `table` ou um valor predefinido opcional, `default`, se a tabela estiver vazia.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determinar a primeira linha da tabela.
 ```powerquery
 Table.First(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-Determinar a primeira linha da tabela &lt;code&gt;(\{})&lt;/code&gt; ou devolver [a = 0, b = 0] se estiver vazia.
+### Example #2
+Determinar a primeira linha da tabela `({})` ou devolver \[a = 0, b = 0\] se estiver vazia.
 ```powerquery
 Table.First(Table.FromRecords({}), [a = 0, b = 0])
 ```

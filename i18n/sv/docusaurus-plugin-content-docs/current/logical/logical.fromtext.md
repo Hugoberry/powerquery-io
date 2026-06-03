@@ -5,7 +5,7 @@ title: Logical.FromText
 # Logical.FromText
 
 
-Skapar ett logiskt värde från textvärdena &#34;true&#34; och &#34;false&#34;.
+Skapar ett logiskt värde från textvärdena "true" och "false".
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Logical.FromText(
 
 ## Remarks
 
-Skapar ett logiskt värde från textvärdet <code>text</code>, antingen "true" eller "false". Om <code>text</code> innehåller en annan sträng genereras ett undantag. Textvärdet <code>text</code> är skiftlägeskänsligt.
+Skapar ett logiskt värde från textvärdet `text`, antingen "true" eller "false". Om `text` innehåller en annan sträng genereras ett undantag. Textvärdet `text` är skiftlägeskänsligt.
 
 
 ## Examples
 
-### Example #1 
-Skapa ett logiskt värde från textsträngen &#34;true&#34;.
+### Example #1
+Skapa ett logiskt värde från textsträngen "true".
 ```powerquery
 Logical.FromText("true")
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-Skapa ett logiskt värde från textsträngen &#34;a&#34;.
+### Example #2
+Skapa ett logiskt värde från textsträngen "a".
 ```powerquery
 Logical.FromText("a")
 ```

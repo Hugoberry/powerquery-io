@@ -19,7 +19,7 @@ Cube.Parameters(
 
 ## Remarks
 
-Returnerer en tabel, der indeholder det sæt parametre, der kan anvendes til <code>cube</code>. Hver parameter er en funktion, der kan kaldes for at anvende <code>cube</code> med parameteren og dens argumenter.
+Returnerer en tabel, der indeholder det sæt parametre, der kan anvendes til `cube`. Hver parameter er en funktion, der kan kaldes for at anvende `cube` med parameteren og dens argumenter.
 
 
 

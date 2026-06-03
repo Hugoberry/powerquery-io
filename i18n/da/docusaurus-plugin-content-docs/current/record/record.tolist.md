@@ -19,12 +19,12 @@ Record.ToList(
 
 ## Remarks
 
-Returnerer en liste over værdier, der indeholder feltværdierne fra inputtet <code>record</code>.
+Returnerer en liste over værdier, der indeholder feltværdierne fra inputtet `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Udtræk feltværdierne fra en post.
 ```powerquery
 Record.ToList([A = 1, B = 2, C = 3])

@@ -20,13 +20,13 @@ List.Product(
 
 ## Remarks
 
-Retourneert het product van de getallen in de lijst, <code>numbersList</code>, die niet gelijk zijn aan nul. Retourneert null als er in de lijst geen waarden staan die niet gelijk zijn aan nul.
+Retourneert het product van de getallen in de lijst, `numbersList`, die niet gelijk zijn aan nul. Retourneert null als er in de lijst geen waarden staan die niet gelijk zijn aan nul.
 
 
 ## Examples
 
-### Example #1 
-Het product van de getallen in de lijst &lt;code&gt;\{1, 2, 3, 3, 4, 5, 5}&lt;/code&gt; zoeken.
+### Example #1
+Het product van de getallen in de lijst `{1, 2, 3, 3, 4, 5, 5}` zoeken.
 ```powerquery
 List.Product({1, 2, 3, 3, 4, 5, 5})
 ```

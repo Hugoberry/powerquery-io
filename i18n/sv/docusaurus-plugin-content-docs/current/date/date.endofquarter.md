@@ -19,12 +19,14 @@ Date.EndOfQuarter(
 
 ## Remarks
 
-Returnerar  slutet av kvartalet som innehåller <code>dateTime</code>. Tidszonsinformation bevaras.      <ul>      <li><code>dateTime</code>: Ett <code>date</code>-, <code>datetime</code>- eller <code>datetimezone</code>-värde som kvartalets slut beräknas från.</li>      </ul>
+Returnerar slutet av kvartalet som innehåller `dateTime`. Tidszonsinformation bevaras.
+
+-   `dateTime`: Ett `date`\-, `datetime`\- eller `datetimezone`\-värde som kvartalets slut beräknas från.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hitta kvartalets slut för den 10 oktober 2011 08:00.
 ```powerquery
 Date.EndOfQuarter(#datetime(2011, 10, 10, 8, 0, 0))

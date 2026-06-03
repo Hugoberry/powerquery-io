@@ -20,12 +20,16 @@ Table.RemoveLastN(
 
 ## Remarks
 
-ऐसी तालिका लौटाता है, जिसमें तालिका <code>table</code> की अंतिम <code>countOrCondition</code> पंक्तियाँ नहीं होती हैं.        निकाली गई पंक्तियों की संख्या वैकल्पिक पैरामीटर <code>countOrCondition</code> पर निर्भर होती है.    <ul>    <li> यदि <code>countOrCondition</code> को छोड़ा जाता है, तो केवल अंतिम पंक्ति निकाली जाती है. </li>    <li> यदि <code>countOrCondition</code> कोई संख्या हो, तो उतनी पंक्तियाँ (नीचे से प्रारंभ करते हुए) निकाल दी जाएँगी. </li>    <li> यदि <code>countOrCondition</code> कोई शर्त हो, तो किसी पंक्ति के शर्त पूरा न करने तक, शर्त को पूरा करने वाली पंक्तियों को निकाल दिया जाएगा.</li>    </ul>
+ऐसी तालिका लौटाता है, जिसमें तालिका `table` की अंतिम `countOrCondition` पंक्तियाँ नहीं होती हैं. निकाली गई पंक्तियों की संख्या वैकल्पिक पैरामीटर `countOrCondition` पर निर्भर होती है.
+
+-   यदि `countOrCondition` को छोड़ा जाता है, तो केवल अंतिम पंक्ति निकाली जाती है.
+-   यदि `countOrCondition` कोई संख्या हो, तो उतनी पंक्तियाँ (नीचे से प्रारंभ करते हुए) निकाल दी जाएँगी.
+-   यदि `countOrCondition` कोई शर्त हो, तो किसी पंक्ति के शर्त पूरा न करने तक, शर्त को पूरा करने वाली पंक्तियों को निकाल दिया जाएगा.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 तालिका की अंतिम पंक्ति निकालें.
 ```powerquery
 Table.RemoveLastN(
@@ -49,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-अंतिम पंक्तियों को निकालें, जहाँ तालिका का [CustomerID] &gt; 2 होता है.
+### Example #2
+अंतिम पंक्तियों को निकालें, जहाँ तालिका का \[CustomerID\] > 2 होता है.
 ```powerquery
 Table.RemoveLastN(
     Table.FromRecords({

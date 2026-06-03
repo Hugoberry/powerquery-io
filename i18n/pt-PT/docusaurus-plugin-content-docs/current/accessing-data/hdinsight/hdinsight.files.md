@@ -20,7 +20,7 @@ HdInsight.Files(
 
 ## Remarks
 
-Devolve uma tabela que contém uma linha para cada ficheiro blob encontrado no URL do contentor, <code>account</code>, de um cofre de armazemanento Azure. Cada linha contém propriedades do ficheiro e uma ligação para o respetivo conteúdo.
+Devolve uma tabela que contém uma linha para cada ficheiro blob encontrado no URL do contentor, `account`, de um cofre de armazemanento Azure. Cada linha contém propriedades do ficheiro e uma ligação para o respetivo conteúdo.
 
 
 

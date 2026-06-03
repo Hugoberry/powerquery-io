@@ -5,7 +5,7 @@ title: Table.SingleRow
 # Table.SingleRow
 
 
-Restituisce l&#39;unica riga della tabella.
+Restituisce l'unica riga della tabella.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Table.SingleRow(
 
 ## Remarks
 
-Restituisce l'unica riga di <code>table</code> a una sola riga. Se <code>table</code> contiene più di una riga, verrà generata un'eccezione.
+Restituisce l'unica riga di `table` a una sola riga. Se `table` contiene più di una riga, verrà generato un errore.
 
 
 ## Examples
 
-### Example #1 
-Restituire l&#39;unica riga della tabella.
+### Example #1
+Restituire l'unica riga della tabella.
 ```powerquery
 Table.SingleRow(Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}))
 ```

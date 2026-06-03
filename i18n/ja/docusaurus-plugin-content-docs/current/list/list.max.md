@@ -22,13 +22,18 @@ List.Max(
 
 ## Remarks
 
-リスト <code>list</code> 内の最大の項目を返します。リストが空の場合、省略可能な既定値 <code>default</code> を返します。    省略可能な comparisonCriteria 値 <code>comparisonCriteria</code> を指定して、リスト内の項目を比較する方法を決定することができます。このパラメーターが null の場合、既定の比較関数が使用されます。
+リスト内の最大の項目を返すか、リストが空の場合は省略可能な既定値を返します。
+
+-   `list`: 値のリスト。
+-   `default`: (省略可能) リストが空の場合に返す値。
+-   `comparisonCriteria`: (省略可能) 比較前に値を変換するために使用する関数。このパラメーターが `null` の場合、値は変換されずに比較されます。
+-   `includeNulls`: (省略可能) リスト内の `null` 値を最大項目の判定に含めるかどうかを示します。既定値は `true` です。
 
 
 ## Examples
 
-### Example #1 
-リスト \{1, 4, 7, 3, -2, 5} 内の最大値を求めます。
+### Example #1
+指定されたリスト内の最大値を検索します。
 ```powerquery
 List.Max({1, 4, 7, 3, -2, 5}, 1)
 ```
@@ -39,8 +44,8 @@ Result:
 ```
 
 
-### Example #2 
-リスト \{} 内の最大値を求めます。リストが空の場合、-1 を返します。
+### Example #2
+指定されたリストから最大値を求め、空の場合は -1 を返します。
 ```powerquery
 List.Max({}, -1)
 ```
@@ -48,6 +53,38 @@ List.Max({}, -1)
 Result: 
 ```powerquery
 -1
+```
+
+
+### Example #3
+テキスト値のリストからアルファベット順で最後の項目を検索します。リストが空の場合は "none" を返します。
+```powerquery
+let
+    Source = {"boy", "dog", "girl", "zebra", "cat", "mouse", "rabbit"},
+    MaxText = List.Max(Source, "none")
+in
+    MaxText
+```
+
+Result: 
+```powerquery
+"zebra"
+```
+
+
+### Example #4
+ドイツの日付のリストから最新の日付を検索します。リストが空の場合は、2000 年 1 月 1 日を返します。
+```powerquery
+let
+    Source = {"12.02.2024", "15.05.2025", "10.10.2021", "16.01.2025", "30.12.2022"},
+    MaxDate = List.Max(Source, #date(2000, 1, 1), each Date.FromText(_, [Culture = "de-DE"]))
+in
+    MaxDate
+```
+
+Result: 
+```powerquery
+"15.05.2025"
 ```
 
 

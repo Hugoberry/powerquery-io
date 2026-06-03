@@ -25,7 +25,7 @@ Returns a type that represents records with specific type constraints on fields.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Dynamically generate a table type.
 ```powerquery
 let

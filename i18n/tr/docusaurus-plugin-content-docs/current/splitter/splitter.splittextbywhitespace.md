@@ -24,7 +24,7 @@ Bir metin listesine boşlukta metin ayıran bir işlev döndürür.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tırnaklara diğer karakterler gibi davranarak girişi boşluk karakterleriyle bölün.
 ```powerquery
 Splitter.SplitTextByWhitespace(QuoteStyle.None)("a b#(tab)c")

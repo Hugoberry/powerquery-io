@@ -19,12 +19,14 @@ Number.Cos(
 
 ## Remarks
 
-<code>number</code> değerinin kosinüsünü döndürür.
+Belirtilen açının kosinüsünü döndürür.
+
+-   `number`: Radyan cinsinden ölçülen açı.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 0 açısının kosinüsünü bulur.
 ```powerquery
 Number.Cos(0)
@@ -33,6 +35,18 @@ Number.Cos(0)
 Result: 
 ```powerquery
 1
+```
+
+
+### Example #2
+π radyanın kosinüsünü bulun.
+```powerquery
+Number.Cos(Number.PI)
+```
+
+Result: 
+```powerquery
+-1
 ```
 
 

@@ -19,12 +19,12 @@ Number.Log10(
 
 ## Remarks
 
-Returnerar 10-logaritmen för ett tal, <code>number</code>. Om <code>number</code> är null så returnerar <code>Number.Log10</code> null.
+Returnerar 10-logaritmen för ett tal, `number`. Om `number` är null så returnerar `Number.Log10` null.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hämta 10-logaritmen av 2.
 ```powerquery
 Number.Log10(2)

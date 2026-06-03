@@ -5,7 +5,7 @@ title: Number.FromText
 # Number.FromText
 
 
-Erstellt Zahlen auf der Grundlage allgemeiner Textformate (&#34;15&#34;, &#34;3.423,10&#34;, &#34;5.0E-10&#34;).
+Erstellt Zahlen auf der Grundlage allgemeiner Textformate ("15", "3.423,10", "5.0E-10").
 
 
 ## Syntax
@@ -20,13 +20,16 @@ Number.FromText(
 
 ## Remarks
 
-Gibt einen <code>number</code>-Wert auf der Grundlage des angegebenen Textwerts (<code>text</code>) zurück. <ul>  <li><code>text</code>: Die Textdarstellung eines Zahlenwerts. Die Darstellung muss ein allgemeines Zahlenformat wie "15", "3.423,10" oder "5.0E-10" aufweisen.</li>  <li><code>culture</code>: Eine optionale Kultur, die steuert, wie "<code>text</code>" interpretiert wird (Beispiel: "de-DE").</li> </ul>
+Gibt einen `number`\-Wert auf der Grundlage des angegebenen Textwerts (`text`) zurück.
+
+-   `text`: Die Textdarstellung eines Zahlenwerts. Die Darstellung muss ein allgemeines Zahlenformat wie "15", "3.423,10" oder "5.0E-10" aufweisen.
+-   `culture`: Eine optionale Kultur, die steuert, wie "`text`" interpretiert wird (Beispiel: "de-DE").
 
 
 ## Examples
 
-### Example #1 
-Ermittelt den Zahlenwert von &lt;code&gt;&#34;4&#34;&lt;/code&gt;.
+### Example #1
+Ermittelt den Zahlenwert von `"4"`.
 ```powerquery
 Number.FromText("4")
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-Ermittelt den Zahlenwert von &lt;code&gt;&#34;5.0e-10&#34;&lt;/code&gt;.
+### Example #2
+Ermittelt den Zahlenwert von `"5.0e-10"`.
 ```powerquery
 Number.FromText("5.0e-10")
 ```

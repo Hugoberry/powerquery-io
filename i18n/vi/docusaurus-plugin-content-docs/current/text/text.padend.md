@@ -21,12 +21,12 @@ Text.PadEnd(
 
 ## Remarks
 
-Trả về giá trị <code>text</code> được đệm tới độ dài <code>count</code> bằng cách chèn dấu cách vào cuối giá trị văn bản <code>text</code>.    Có thể dùng ký tự tùy chọn <code>character</code> để chỉ định ký tự dùng để đệm. Ký tự đệm mặc định là dấu cách.
+Trả về giá trị `text` được đệm tới độ dài `count` bằng cách chèn dấu cách vào cuối giá trị văn bản `text`. Có thể dùng ký tự tùy chọn `character` để chỉ định ký tự dùng để đệm. Ký tự đệm mặc định là dấu cách.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Đệm phần cuối của giá trị văn bản để đạt độ dài 10 ký tự.
 ```powerquery
 Text.PadEnd("Name", 10)
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Đệm phần cuối của giá trị văn bản bằng &#34;|&#34; để đạt độ dài 10 ký tự.
+### Example #2
+Đệm phần cuối của giá trị văn bản bằng "|" để đạt độ dài 10 ký tự.
 ```powerquery
 Text.PadEnd("Name", 10, "|")
 ```

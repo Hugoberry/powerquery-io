@@ -19,12 +19,12 @@ Uri.BuildQueryString(
 
 ## Remarks
 
-将记录 <code>query</code> 汇编入 URI 查询字符串，根据需要转义字符。
+将记录 `query` 汇编入 URI 查询字符串，根据需要转义字符。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 对包含某些特殊字符的查询字符串进行编码。
 ```powerquery
 Uri.BuildQueryString([a = "1", b = "+$"])

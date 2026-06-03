@@ -19,12 +19,12 @@ Record.ToList(
 
 ## Remarks
 
-<code>record</code> girdisinden alan değerlerini içeren bir değer listesi döndürür.
+`record` girdisinden alan değerlerini içeren bir değer listesi döndürür.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bir kayıttaki alan değerlerini ayıklar.
 ```powerquery
 Record.ToList([A = 1, B = 2, C = 3])

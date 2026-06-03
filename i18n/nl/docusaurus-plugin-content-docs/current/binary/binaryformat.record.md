@@ -19,12 +19,12 @@ BinaryFormat.Record(
 
 ## Remarks
 
-Retourneert een binaire indeling die een record leest.  De parameter <code>record</code> specificeert de indeling van de record.  Elk veld in de record kan een andere binaire indeling hebben.  Als een veld een waarde bevat die geen waarde van een binaire indeling is, worden er voor dat veld geen gegevens gelezen en wordt de veldwaarde teruggestuurd naar het resultaat.
+Retourneert een binaire indeling die een record leest. De parameter `record` specificeert de indeling van de record. Elk veld in de record kan een andere binaire indeling hebben. Als een veld een waarde bevat die geen waarde van een binaire indeling is, worden er voor dat veld geen gegevens gelezen en wordt de veldwaarde teruggestuurd naar het resultaat.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Een record lezen dat één 16-bits geheel getal en één 32-bits geheel getal bevat.
 ```powerquery
 let

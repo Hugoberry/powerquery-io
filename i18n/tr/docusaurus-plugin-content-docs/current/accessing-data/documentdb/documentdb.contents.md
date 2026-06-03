@@ -22,6 +22,6 @@ DocumentDB.Contents(
 
 ## Remarks
 
-<code>url</code> adresinde bulunan Azure Cosmos DB veritabanlarına ilişkin bir tablo döndürür. <code>database</code> belirtilirse bunun yerine koleksiyonlara ilişkin bir tablo döndürülür. Ayrıca <code>options</code> kaydında <code>Query</code> alanı belirtilirse belirtilen veritabanında ve/veya koleksiyonda yürütülen sorguya ilişkin sonuçlar döndürülür.
+`url` adresinde bulunan Azure Cosmos DB veritabanlarına ilişkin bir tablo döndürür. `database` belirtilirse bunun yerine koleksiyonlara ilişkin bir tablo döndürülür. Ayrıca `options` kaydında `Query` alanı belirtilirse belirtilen veritabanında ve/veya koleksiyonda yürütülen sorguya ilişkin sonuçlar döndürülür.
 
 

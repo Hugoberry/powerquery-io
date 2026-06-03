@@ -20,12 +20,12 @@ Number.Permutations(
 
 ## Remarks
 
-Возвращает число перестановок, которое можно создать из нескольких элементов <code>setSize</code>, с указанным размером перестановки <code>permutationSize</code>.
+Возвращает число перестановок, которое можно создать из нескольких элементов `setSize`, с указанным размером перестановки `permutationSize`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Найти число перестановок для 5 элементов по 3.
 ```powerquery
 Number.Permutations(5, 3)

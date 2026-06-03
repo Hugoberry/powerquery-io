@@ -19,12 +19,12 @@ Number.IsEven(
 
 ## Remarks
 
-Cho biết giá trị <code>number</code> có chẵn hay không bằng cách trả về <code>true</code> nếu là chẵn, <code>false</code> nếu ngược lại.
+Cho biết giá trị `number` có chẵn hay không bằng cách trả về `true` nếu là chẵn, `false` nếu ngược lại.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Kiểm tra 625 có phải là số chẵn hay không.
 ```powerquery
 Number.IsEven(625)
@@ -36,7 +36,7 @@ false
 ```
 
 
-### Example #2 
+### Example #2
 Kiểm tra 82 có phải là số chẵn hay không.
 ```powerquery
 Number.IsEven(82)

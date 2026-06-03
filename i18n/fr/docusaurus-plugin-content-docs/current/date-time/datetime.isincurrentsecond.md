@@ -5,7 +5,7 @@ title: DateTime.IsInCurrentSecond
 # DateTime.IsInCurrentSecond
 
 
-Indique si cette date/heure tombe pendant la seconde actuelle, déterminée par la date et l&#39;heure actuelles du système.
+Indique si cette date/heure tombe pendant la seconde actuelle, déterminée par la date et l'heure actuelles du système.
 
 
 ## Syntax
@@ -19,13 +19,15 @@ DateTime.IsInCurrentSecond(
 
 ## Remarks
 
-Indique si la valeur datetime spécifiée <code>dateTime</code> tombe pendant la seconde actuelle, déterminée par la date et l'heure actuelles du système.      <ul>      <li><code>dateTime</code> : une valeur <code>datetime</code> ou <code>datetimezone</code> à évaluer.</li>      </ul>
+Indique si la valeur datetime spécifiée `dateTime` tombe pendant la seconde actuelle, déterminée par la date et l'heure actuelles du système.
+
+-   `dateTime` : une valeur `datetime` ou `datetimezone` à évaluer.
 
 
 ## Examples
 
-### Example #1 
-Détermine si l&#39;heure système actuelle correspond à la seconde actuelle.
+### Example #1
+Détermine si l'heure système actuelle correspond à la seconde actuelle.
 ```powerquery
 DateTime.IsInCurrentSecond(DateTime.FixedLocalNow())
 ```

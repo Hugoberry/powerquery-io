@@ -19,13 +19,13 @@ DateTime.FromFileTime(
 
 ## Remarks
 
-<code>fileTime</code> değerinden <code>datetime</code> oluşturur ve bunu yerel saat dilimine dönüştürür. Dosya zamanı, 1 Ocak 1601 gece yarısı 12:00'den bu yana 100 nano saniyelik aralıkların sayısını temsil eden bir Windows dosya zamanı değeridir. (C.E.) Eşgüdümlü Evrensel Saat (UTC).
+`fileTime` değerinden `datetime` oluşturur ve bunu yerel saat dilimine dönüştürür. Dosya zamanı, 1 Ocak 1601 gece yarısı 12:00'den bu yana 100 nano saniyelik aralıkların sayısını temsil eden bir Windows dosya zamanı değeridir. (C.E.) Eşgüdümlü Evrensel Saat (UTC).
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;129876402529842245&lt;/code&gt; değerini bir datetime değerine dönüştürür.
+### Example #1
+`129876402529842245` değerini bir datetime değerine dönüştürür.
 ```powerquery
 DateTime.FromFileTime(129876402529842245)
 ```

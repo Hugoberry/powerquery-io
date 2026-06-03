@@ -19,13 +19,13 @@ RowExpression.Column(
 
 ## Remarks
 
-Returns an abstract syntax tree (AST) that represents access to column <code>columnName</code> of the row within a row expression.
+Returns an abstract syntax tree (AST) that represents access to column `columnName` of the row within a row expression.
 
 
 ## Examples
 
-### Example #1 
-Creates an AST representing access of column &#34;CustomerName&#34;.
+### Example #1
+Creates an AST representing access of column "CustomerName".
 ```powerquery
 RowExpression.Column("CustomerName")
 ```

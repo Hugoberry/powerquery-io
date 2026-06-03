@@ -20,7 +20,7 @@ Cube.AttributeMemberProperty(
 
 ## Remarks
 
-Trả về tính chất <code>propertyName</code> của thuộc tính chiều <code>attribute</code>.
+Trả về tính chất `propertyName` của thuộc tính chiều `attribute`.
 
 
 

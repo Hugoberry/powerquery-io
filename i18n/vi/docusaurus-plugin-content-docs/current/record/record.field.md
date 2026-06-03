@@ -20,13 +20,13 @@ Record.Field(
 
 ## Remarks
 
-Trả về giá trị của <code>field</code> được chỉ định trong <code>record</code>. Nếu không tìm thấy trường này thì một ngoại lệ được đưa ra.
+Trả về giá trị của `field` được chỉ định trong `record`. Nếu không tìm thấy trường thì lỗi sẽ xuất hiện.
 
 
 ## Examples
 
-### Example #1 
-Tìm giá trị của trường &#34;CustomerID&#34; trong bản ghi.
+### Example #1
+Tìm giá trị của trường "CustomerID" trong bản ghi.
 ```powerquery
 Record.Field([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")
 ```

@@ -19,13 +19,13 @@ List.Buffer(
 
 ## Remarks
 
-Coloca a lista <code>list</code> na memória intermédia. O resultado desta chamada é uma lista estável.
+Coloca a lista `list` na memória intermédia. O resultado desta chamada é uma lista estável.
 
 
 ## Examples
 
-### Example #1 
-Criar uma cópia estável da lista \{1..10}.
+### Example #1
+Criar uma cópia estável da lista \{1..10\}.
 ```powerquery
 List.Buffer({1..10})
 ```

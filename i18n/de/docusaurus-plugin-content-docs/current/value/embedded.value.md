@@ -5,7 +5,7 @@ title: Embedded.Value
 # Embedded.Value
 
 
-Greift anhand des Namens auf einen Wert in einem eingebetteten Mashup zu.
+Diese Funktion ist nur für den internen Gebrauch bestimmt.
 
 
 ## Syntax
@@ -20,7 +20,7 @@ Embedded.Value(
 
 ## Remarks
 
-Greift anhand des Namens auf einen Wert in einem eingebetteten Mashup zu.
+Diese Funktion ist nur für den internen Gebrauch bestimmt.
 
 
 

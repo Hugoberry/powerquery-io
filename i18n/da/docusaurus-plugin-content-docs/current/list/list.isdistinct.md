@@ -20,13 +20,13 @@ List.IsDistinct(
 
 ## Remarks
 
-Returnerer en logisk værdi, der angiver, om der er dublerede værdier på listen <code>list</code>: <code>true</code>, hvis listen er entydig, og <code>false</code>, hvis der er dublerede værdier. 
+Returnerer en logisk værdi, der angiver, om der er dublerede værdier på listen `list`: `true`, hvis listen er entydig, og `false`, hvis der er dublerede værdier.
 
 
 ## Examples
 
-### Example #1 
-Find ud af, om listen \{1, 2, 3} er entydig, dvs. ingen dubletværdier.
+### Example #1
+Find ud af, om listen \{1, 2, 3\} er entydig, dvs. ingen dubletværdier.
 ```powerquery
 List.IsDistinct({1, 2, 3})
 ```
@@ -37,8 +37,8 @@ true
 ```
 
 
-### Example #2 
-Find ud af, om listen \{1, 2, 3, 3} er entydig, dvs. ingen dubletværdier.
+### Example #2
+Find ud af, om listen \{1, 2, 3, 3\} er entydig, dvs. ingen dubletværdier.
 ```powerquery
 List.IsDistinct({1, 2, 3, 3})
 ```

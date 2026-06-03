@@ -5,7 +5,7 @@ title: Number.Acos
 # Number.Acos
 
 
-Restituisce l&#39;arcocoseno del numero.
+Restituisce l'arcocoseno del numero.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Number.Acos(
 
 ## Remarks
 
-Restituisce l'arcocoseno di <code>number</code>.
+Restituisce l'arcocoseno di `number`.
 
 
 

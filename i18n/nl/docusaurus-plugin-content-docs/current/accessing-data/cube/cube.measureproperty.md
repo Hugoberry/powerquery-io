@@ -20,7 +20,7 @@ Cube.MeasureProperty(
 
 ## Remarks
 
-Hiermee wordt de eigenschap <code>propertyName</code> van de meetwaarde <code>measure</code> geretourneerd.
+Hiermee wordt de eigenschap `propertyName` van de meetwaarde `measure` geretourneerd.
 
 
 

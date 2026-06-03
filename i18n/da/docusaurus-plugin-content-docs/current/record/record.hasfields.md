@@ -20,13 +20,13 @@ Record.HasFields(
 
 ## Remarks
 
-Angiver, om posten <code>record</code> indeholder de felter, der er angivet i <code>fields</code>, ved at returnere en logisk værdi (true eller false).    Der kan angives flere feltværdier ved hjælp af en liste.
+Angiver, om posten `record` indeholder de felter, der er angivet i `fields`, ved at returnere en logisk værdi (true eller false). Der kan angives flere feltværdier ved hjælp af en liste.
 
 
 ## Examples
 
-### Example #1 
-Kontrollér, om posten indeholder feltet &#34;CustomerID&#34;.
+### Example #1
+Kontrollér, om posten indeholder feltet "CustomerID".
 ```powerquery
 Record.HasFields([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")
 ```
@@ -37,8 +37,8 @@ true
 ```
 
 
-### Example #2 
-Kontrollér, om posten indeholder feltet &#34;CustomerID&#34; og &#34;Address&#34;.
+### Example #2
+Kontrollér, om posten indeholder feltet "CustomerID" og "Address".
 ```powerquery
 Record.HasFields([CustomerID = 1, Name = "Bob", Phone = "123-4567"], {"CustomerID", "Address"})
 ```

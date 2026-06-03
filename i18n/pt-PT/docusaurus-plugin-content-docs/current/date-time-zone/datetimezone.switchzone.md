@@ -21,12 +21,12 @@ DateTimeZone.SwitchZone(
 
 ## Remarks
 
-Altera as informações de fuso horário no valor datetimezone <code>dateTimeZone</code> para as novas informações de fuso horário fornecidas por <code>timezoneHours</code> e opcionalmente <code>timezoneMinutes</code>.    Se <code>dateTimeZone</code> não tiver um componente de fuso horário, será gerada uma exceção.
+Altera as informações de fuso horário no valor datetimezone `dateTimeZone` para as novas informações de fuso horário fornecidas por `timezoneHours` e opcionalmente `timezoneMinutes`. Se `dateTimeZone` não tiver um componente de fuso horário, é gerado um erro.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Alterar informações de fuso horário de #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) para 8 horas.
 ```powerquery
 DateTimeZone.SwitchZone(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30), 8)
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Alterar informações de fuso horário de #datetimezone(2010, 12, 31, 11, 56, 02, 7, 30) para -30 minutos.
 ```powerquery
 DateTimeZone.SwitchZone(#datetimezone(2010, 12, 31, 11, 56, 02, 7, 30), 0, -30)

@@ -19,12 +19,12 @@ Number.Sin(
 
 ## Remarks
 
-Devolve o seno de <code>number</code>.
+Devolve o seno de `number`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Determinar o seno do ângulo 0.
 ```powerquery
 Number.Sin(0)

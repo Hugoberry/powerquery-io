@@ -20,7 +20,7 @@ BinaryFormat.ByteOrder(
 
 ## Remarks
 
-Returns a binary format with the byte order specified by <code>binaryFormat</code>.  The default byte order is <code>ByteOrder.BigEndian</code>.
+Returns a binary format with the byte order specified by `binaryFormat`. The default byte order is `ByteOrder.BigEndian`.
 
 
 

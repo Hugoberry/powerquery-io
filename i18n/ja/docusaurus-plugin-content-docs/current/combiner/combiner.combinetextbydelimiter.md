@@ -25,7 +25,7 @@ Combiner.CombineTextByDelimiter(
 
 ## Examples
 
-### Example #1 
+### Example #1
 セミコロンの区切り記号を使用して、テキスト値の一覧を結合します。
 ```powerquery
 Combiner.CombineTextByDelimiter(";")({"a", "b", "c"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 コンマ区切り記号と CSV スタイルの引用符を使用して 2 つの列のテキストを結合します。
 ```powerquery
 let

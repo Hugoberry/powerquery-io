@@ -19,13 +19,13 @@ Uri.Parts(
 
 ## Remarks
 
-Retorna as partes do <code>absoluteUri</code> de entrada como um registro, contendo valores como Scheme, Host, Port, Path, Query, Fragment, UserName e Password.
+Retorna as partes do `absoluteUri` de entrada como um registro, contendo valores como Scheme, Host, Port, Path, Query, Fragment, UserName e Password.
 
 
 ## Examples
 
-### Example #1 
-Localize as partes do URI absoluto &#34;www.adventure-works.com&#34;.
+### Example #1
+Localize as partes do URI absoluto "www.adventure-works.com".
 ```powerquery
 Uri.Parts("www.adventure-works.com")
 ```
@@ -45,7 +45,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Decodificar uma cadeia de caracteres codificada por percentual.
 ```powerquery
 let

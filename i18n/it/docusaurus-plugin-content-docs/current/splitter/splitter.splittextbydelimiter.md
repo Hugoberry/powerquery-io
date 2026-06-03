@@ -13,7 +13,8 @@ Restituisce una funzione che suddivide il testo in un elenco di testo in base al
 ```powerquery
 Splitter.SplitTextByDelimiter(
     delimiter as text,
-    optional quoteStyle as QuoteStyle.Type
+    optional quoteStyle as QuoteStyle.Type,
+    optional csvStyle as CsvStyle.Type
 ) as function
 ```
 
@@ -25,8 +26,8 @@ Restituisce una funzione che suddivide il testo in un elenco di testo in base al
 
 ## Examples
 
-### Example #1 
-Dividere l&#39;input per virgola, ignorando le virgole tra virgolette.
+### Example #1
+Dividere l'input per virgola, ignorando le virgole tra virgolette.
 ```powerquery
 Splitter.SplitTextByDelimiter(",", QuoteStyle.Csv)("a,""b,c"",d")
 ```

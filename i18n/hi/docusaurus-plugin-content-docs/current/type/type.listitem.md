@@ -19,13 +19,13 @@ Type.ListItem(
 
 ## Remarks
 
-सूची <code>type</code> से आइटम प्रकार लौटाता है.
+सूची `type` से आइटम प्रकार लौटाता है.
 
 
 ## Examples
 
-### Example #1 
-सूची &lt;code&gt;\{number}&lt;/code&gt; से आइटम प्रकार ढूँढें.
+### Example #1
+सूची `{number}` से आइटम प्रकार ढूँढें.
 ```powerquery
 Type.ListItem(type {number})
 ```

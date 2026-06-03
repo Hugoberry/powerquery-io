@@ -20,7 +20,7 @@ Type.TableColumn(
 
 ## Remarks
 
-Returnerar typen för kolumnen <code>column</code> i tabelltypen <code>tableType</code>.
+Returnerar typen för kolumnen `column` i tabelltypen `tableType`.
 
 
 

@@ -20,12 +20,15 @@ Table.LastN(
 
 ## Remarks
 
-Devuelve las últimas filas de la tabla <code>table</code>, en función del valor de <code>countOrCondition</code>:    <ul>    <li> Si <code>countOrCondition</code> es un número, se devolverán esas filas a partir de la posición (final - <code>countOrCondition</code>). </li>    <li> Si <code>countOrCondition</code> es una condición, se devolverán las filas que la cumplan en posición ascendente hasta que una fila no lo haga.</li></ul>
+Devuelve las últimas filas de la tabla `table`, en función del valor de `countOrCondition`:
+
+-   Si `countOrCondition` es un número, se devolverán esas filas a partir de la posición (final - `countOrCondition`).
+-   Si `countOrCondition` es una condición, se devolverán las filas que la cumplan en posición ascendente hasta que una fila no lo haga.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Buscar las últimas dos filas de la tabla.
 ```powerquery
 Table.LastN(
@@ -47,8 +50,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Buscar las últimas filas donde [a] &gt; 0 en la tabla.
+### Example #2
+Buscar las últimas filas donde \[a\] > 0 en la tabla.
 ```powerquery
 Table.LastN(
     Table.FromRecords({

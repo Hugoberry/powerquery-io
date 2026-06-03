@@ -21,7 +21,7 @@ Value.Subtract(
 
 ## Remarks
 
-Retourneert het verschil van <code>value1</code> en <code>value2</code>. Er kan een optionele parameter <code>precision</code> worden opgegeven. Standaard wordt <code>Precision.Double</code> gebruikt.
+Retourneert het verschil van `value1` en `value2`. Er kan een optionele parameter `precision` worden opgegeven. Standaard wordt `Precision.Double` gebruikt.
 
 
 

@@ -27,8 +27,8 @@ SparkPost.GetTable(
 
 ## Examples
 
-### Example #1 
-Извлекает метрики поддержки доставки count_sent и count_rejected для всех идентификаторов campaign_id, агрегированных за последние три дня. 
+### Example #1
+Извлекает метрики поддержки доставки count\_sent и count\_rejected для всех идентификаторов campaign\_id, агрегированных за последние три дня.
 ```powerquery
 Source = SparkPost.GetTable(3, "count_sent,count_rejected", "campaign_id", "metrics/deliverability/campaign")
 ```

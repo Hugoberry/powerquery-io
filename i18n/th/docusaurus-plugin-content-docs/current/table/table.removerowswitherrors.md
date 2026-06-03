@@ -25,7 +25,7 @@ Table.RemoveRowsWithErrors(
 
 ## Examples
 
-### Example #1 
+### Example #1
 ลบค่าของข้อผิดพลาดออกจากแถวแรก
 ```powerquery
 Table.RemoveRowsWithErrors(

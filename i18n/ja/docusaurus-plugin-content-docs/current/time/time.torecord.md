@@ -19,13 +19,15 @@ Time.ToRecord(
 
 ## Remarks
 
-指定された Time 値 (<code>time</code>) の部分を含むレコードを返します。 <ul>        <li><code>time</code>: その部分のレコードが計算される <code>time</code> 値。</li>      </ul>
+指定された Time 値 (`time`) の部分を含むレコードを返します。
+
+-   `time`: その部分のレコードが計算される `time` 値。
 
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;#time(11, 56, 2)&lt;/code&gt; 値を、時刻値を含むレコードに変換します。
+### Example #1
+`#time(11, 56, 2)` 値を、時刻値を含むレコードに変換します。
 ```powerquery
 Time.ToRecord(#time(11, 56, 2))
 ```

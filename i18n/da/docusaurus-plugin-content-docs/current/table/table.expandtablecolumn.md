@@ -22,13 +22,13 @@ Table.ExpandTableColumn(
 
 ## Remarks
 
-Udvider tabeller i <code>table</code> [<code>column</code>] i flere rækker og kolonner. <code>columnNames</code> bruges til at markere de kolonner, der skal udvides fra den indre tabel. Angiv <code>newColumnNames</code> for at undgå konflikter mellem eksisterende kolonner og nye kolonner.
+Udvider tabeller i `table` \[`column`\] i flere rækker og kolonner. `columnNames` bruges til at markere de kolonner, der skal udvides fra den indre tabel. Angiv `newColumnNames` for at undgå konflikter mellem eksisterende kolonner og nye kolonner.
 
 
 ## Examples
 
-### Example #1 
-Udvid tabelkolonner i &lt;code&gt;[a]&lt;/code&gt; i tabellen &lt;code&gt;(\{[t = \{[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]})&lt;/code&gt; i tre kolonner &lt;code&gt;[t.a]&lt;/code&gt;, &lt;code&gt;[t.b]&lt;/code&gt; og &lt;code&gt;[t.c]&lt;/code&gt;.
+### Example #1
+Udvid tabelkolonner i `[a]` i tabellen `({[t = {[a=1, b=2, c=3], [a=2,b=4,c=6]}, b = 2]})` i tre kolonner `[t.a]`, `[t.b]` og `[t.c]`.
 ```powerquery
 Table.ExpandTableColumn(
     Table.FromRecords({

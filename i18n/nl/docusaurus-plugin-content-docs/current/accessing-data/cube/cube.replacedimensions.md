@@ -20,7 +20,7 @@ Cube.ReplaceDimensions(
 
 ## Remarks
 
-Vervangt de set dimensies die worden geretourneerd door <code>Cube.Dimensions</code>.    Deze functie kan bijvoorbeeld worden gebruikt om een id-kolom toe te voegen aan een dimensiekenmerk, zodat de gegevensbron kan groeperen op de id in plaats van de weergegeven waarde.
+Vervangt de set dimensies die worden geretourneerd door `Cube.Dimensions`. Deze functie kan bijvoorbeeld worden gebruikt om een id-kolom toe te voegen aan een dimensiekenmerk, zodat de gegevensbron kan groeperen op de id in plaats van de weergegeven waarde.
 
 
 

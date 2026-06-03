@@ -20,12 +20,12 @@ Type.ForFunction(
 
 ## Remarks
 
-Maakt een <code>functietype</code> van <code>signature</code>, een record van <code>ReturnType</code> en <code>Parameters</code>, en <code>min</code>, het minimumaantal argumenten dat is vereist om de functie aan te roepen.
+Maakt een `functietype` van `signature`, een record van `ReturnType` en `Parameters`, en `min`, het minimumaantal argumenten dat is vereist om de functie aan te roepen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hiermee wordt het type voor een functie gemaakt waarbij een cijferparameter met de naam X wordt gebruikt en een getal wordt geretourneerd.
 ```powerquery
 Type.ForFunction([ReturnType = type number, Parameters = [X = type number]], 1)

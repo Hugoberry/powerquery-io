@@ -21,13 +21,13 @@ List.Difference(
 
 ## Remarks
 
-返回未出现在列表 <code>list2</code> 中的列表 <code>list1</code> 中的项。支持重复的值。    可以指定一个可选相等条件值 <code>equationCriteria</code> 来控制相等测试。 
+返回未出现在列表 `list2` 中的列表 `list1` 中的项。支持重复的值。 可以指定一个可选相等条件值 `equationCriteria` 来控制相等测试。
 
 
 ## Examples
 
-### Example #1 
-查找列表 \{1, 2, 3, 4, 5} 中未出现在 \{4, 5, 3} 中的项。
+### Example #1
+查找列表 \{1, 2, 3, 4, 5\} 中未出现在 \{4, 5, 3\} 中的项。
 ```powerquery
 List.Difference({1, 2, 3, 4, 5}, {4, 5, 3})
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-查找列表 \{1, 2} 中未出现在 \{1, 2, 3} 中的项。
+### Example #2
+查找列表 \{1, 2\} 中未出现在 \{1, 2, 3\} 中的项。
 ```powerquery
 List.Difference({1, 2}, {1, 2, 3})
 ```

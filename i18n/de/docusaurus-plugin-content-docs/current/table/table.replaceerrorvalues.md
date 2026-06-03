@@ -20,13 +20,13 @@ Table.ReplaceErrorValues(
 
 ## Remarks
 
-Ersetzt die Fehlerwerte in den angegebenen Spalten von <code>table</code> durch die neuen Werte in der Liste <code>errorReplacement</code>. Das Format der Liste ist \{\{column1, value1}, …}. Es darf pro Spalte nur einen Ersatzwert geben. Wenn die Spalte mehrmals angegeben wird, führt dies zu einem Fehler.
+Ersetzt die Fehlerwerte in den angegebenen Spalten von `table` durch die neuen Werte in der Liste `errorReplacement`. Das Format der Liste ist \{\{column1, value1\}, ...\}. Es darf pro Spalte nur einen Ersatzwert geben; die mehrfache Angabe derselben Spalte führt zu einem Fehler.
 
 
 ## Examples
 
-### Example #1 
-Ersetzt den Fehlerwert durch das Wort &#34;world&#34; in der Tabelle.
+### Example #1
+Ersetzt den Fehlerwert durch das Wort "world" in der Tabelle.
 ```powerquery
 Table.ReplaceErrorValues(
     Table.FromRows({{1, "hello"}, {3, ...}}, {"A", "B"}),
@@ -43,8 +43,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Ersetzt den Fehlerwert in der Spalte &#34;A&#34; durch den Text &#34;hello&#34; und in Spalte &#34;B&#34; durch den Text &#34;world&#34; in der Tabelle.
+### Example #2
+Ersetzt den Fehlerwert in der Spalte "A" durch den Text "hello" und in Spalte "B" durch den Text "world" in der Tabelle.
 ```powerquery
 Table.ReplaceErrorValues(
     Table.FromRows({{..., ...}, {1, 2}}, {"A", "B"}),

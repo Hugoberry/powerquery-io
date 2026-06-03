@@ -19,7 +19,7 @@ DateTimeZone.FixedLocalNow(
 
 ## Remarks
 
-Gibt einen <code>datetime</code>-Wert zurück, der auf das aktuelle Datum und die aktuelle Uhrzeit im System festgelegt ist. Der zurückgegebene Wert enthält Zeitzoneninformationen für die lokale Zeitzone. Dies ist ein fester Wert, der sich bei aufeinanderfolgenden Aufrufen nicht ändert. Im Gegensatz dazu kann 'DateTimeZone.LocalNow' während der Ausführung eines Ausdrucks unterschiedliche Werte zurückgeben.
+Gibt einen `datetime`\-Wert zurück, der auf das aktuelle Datum und die aktuelle Uhrzeit im System festgelegt ist. Der zurückgegebene Wert enthält Zeitzoneninformationen für die lokale Zeitzone. Dies ist ein fester Wert, der sich bei aufeinanderfolgenden Aufrufen nicht ändert. Im Gegensatz dazu kann 'DateTimeZone.LocalNow' während der Ausführung eines Ausdrucks unterschiedliche Werte zurückgeben.
 
 
 

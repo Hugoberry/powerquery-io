@@ -19,13 +19,13 @@ List.IsEmpty(
 
 ## Remarks
 
-<code>list</code> listesi değer içermiyorsa (uzunluk 0) <code>true</code> döndürür. Liste değer içeriyorsa (uzunluk > 0) <code>false</code> döndürür.
+`list` listesi değer içermiyorsa (uzunluk 0) `true` döndürür. Liste değer içeriyorsa (uzunluk > 0) `false` döndürür.
 
 
 ## Examples
 
-### Example #1 
-\{} listesinin boş olup olmadığını bulur.
+### Example #1
+\{\} listesinin boş olup olmadığını bulur.
 ```powerquery
 List.IsEmpty({})
 ```
@@ -36,8 +36,8 @@ true
 ```
 
 
-### Example #2 
-\{1, 2} listesinin boş olup olmadığını bulur.
+### Example #2
+\{1, 2\} listesinin boş olup olmadığını bulur.
 ```powerquery
 List.IsEmpty({1, 2})
 ```

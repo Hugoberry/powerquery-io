@@ -19,12 +19,12 @@ Record.ToList(
 
 ## Remarks
 
-Trả về danh sách giá trị chứa giá trị trường từ đầu vào <code>record</code>.
+Trả về danh sách giá trị chứa giá trị trường từ đầu vào `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Trích xuất giá trị trường từ bản ghi.
 ```powerquery
 Record.ToList([A = 1, B = 2, C = 3])

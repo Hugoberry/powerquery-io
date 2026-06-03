@@ -24,8 +24,8 @@ Restituisce una funzione che suddivide il testo in un elenco di testo in corrisp
 
 ## Examples
 
-### Example #1 
-Divide l&#39;input in base a spazi vuoti, trattando le virgolette come qualsiasi altro carattere.
+### Example #1
+Divide l'input in base a spazi vuoti, trattando le virgolette come qualsiasi altro carattere.
 ```powerquery
 Splitter.SplitTextByWhitespace(QuoteStyle.None)("a b#(tab)c")
 ```

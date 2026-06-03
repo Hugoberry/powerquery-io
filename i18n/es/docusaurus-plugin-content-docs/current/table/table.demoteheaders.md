@@ -24,7 +24,7 @@ Degrada los encabezados de columna (es decir, los nombres de columna) a la prime
 
 ## Examples
 
-### Example #1 
+### Example #1
 Disminuir el nivel de la primera fila de valores de la tabla.
 ```powerquery
 Table.DemoteHeaders(

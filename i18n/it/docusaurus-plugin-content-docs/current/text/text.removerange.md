@@ -5,7 +5,7 @@ title: Text.RemoveRange
 # Text.RemoveRange
 
 
-Rimuove un numero di caratteri a partire dall&#39;offset specificato
+Rimuove un numero di caratteri a partire dall'offset specificato
 
 
 ## Syntax
@@ -21,13 +21,13 @@ Text.RemoveRange(
 
 ## Remarks
 
-Restituisce una copia del valore di testo <code>text</code> con tutti i caratteri dalla posizione <code>offset</code> rimossa.    Facoltativamente, è possibile usare il parametro <code>count</code> per specificare il numero di caratteri da rimuovere. Il valore predefinito di <code>count</code> è 1. I valori delle posizioni iniziano da 0.
+Restituisce una copia del valore di testo `text` con tutti i caratteri dalla posizione `offset` rimossa. Facoltativamente, è possibile usare il parametro `count` per specificare il numero di caratteri da rimuovere. Il valore predefinito di `count` è 1. I valori delle posizioni iniziano da 0.
 
 
 ## Examples
 
-### Example #1 
-Rimuovere 1 carattere dal valore di testo &#34;ABEFC&#34; nella posizione 2.
+### Example #1
+Rimuovere 1 carattere dal valore di testo "ABEFC" nella posizione 2.
 ```powerquery
 Text.RemoveRange("ABEFC", 2)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Rimuovere due carattere dal valore di testo &#34;ABEFC&#34; a partire dalla posizione 2.
+### Example #2
+Rimuovere due carattere dal valore di testo "ABEFC" a partire dalla posizione 2.
 ```powerquery
 Text.RemoveRange("ABEFC", 2, 2)
 ```

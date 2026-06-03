@@ -20,12 +20,12 @@ Number.RandomBetween(
 
 ## Remarks
 
-Zwraca liczbę losową z zakresu od <code>bottom</code> do <code>top</code>.
+Zwraca liczbę losową z zakresu od `bottom` do `top`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utwórz liczbę losową z zakresu od 1 do 5.
 ```powerquery
 Number.RandomBetween(1, 5)

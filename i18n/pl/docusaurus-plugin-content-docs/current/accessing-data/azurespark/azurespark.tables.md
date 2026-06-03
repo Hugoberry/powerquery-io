@@ -25,7 +25,7 @@ Wyświetl tabele w wystąpieniu usługi Azure Spark.
 
 ## Examples
 
-### Example #1 
+### Example #1
 Wyświetl tabele w wystąpieniu usługi Azure Spark.
 ```powerquery
 AzureSpark.Tables("contoso.azurehdinsight.net")

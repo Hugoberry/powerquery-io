@@ -5,7 +5,7 @@ title: List.MaxN
 # List.MaxN
 
 
-Devuelve los valores máximos de la lista. Debe especificarse la condición de filtrado o el número de valores que se van a devolver.
+Devuelve los valores máximos de la lista. Se debe especificar el número de valores que se van a devolver o una condición de filtro.
 
 
 ## Syntax
@@ -22,7 +22,62 @@ List.MaxN(
 
 ## Remarks
 
-Devuelve los valores máximos de la lista, <code>list</code>.    Una vez ordenadas las filas, se pueden especificar parámetros opcionales para filtrar aún más el resultado. El parámetro opcional <code>countOrCondition</code> especifica el número de valores que se devolverán o una condición de filtrado. El parámetro opcional <code>comparisonCriteria</code> especifica cómo se comparan los valores de la lista. <ul>        <li><code>list</code>: La lista de valores.</li>        <li><code>countOrCondition</code>: si se especifica un número, se devuelve una lista de hasta <code>countOrCondition</code> elementos en orden ascendente. Si se especifica una condición, se devuelve una lista de los elementos que cumplen inicialmente la condición. Si un elemento no cumple la condición, no se considerarán más elementos.</li><li><code>comparisonCriteria</code>: <i>[Opcional]</i> Se puede especificar un valor <code>comparisonCriteria</code> opcional para determinar cómo se comparan los elementos de la lista. Si este parámetro es "null", se usa el comparador predeterminado. </li></ul>
+Devuelve los valores máximos de la lista especificada. Tras ordenar las filas, se pueden especificar parámetros opcionales para filtrar aún más el resultado.
+
+-   `list`: la lista de valores.
+-   `countOrCondition`: especifica el número de valores que se van a devolver o una condición de filtro. Si se especifica un número, se devuelve una lista de hasta `countOrCondition` elementos en orden descendente. Si se especifica una condición, la lista devuelta incluye todos los elementos que cumplen la condición.
+-   `comparisonCriteria`: (Opcional) Función que se usa para transformar los valores antes de compararse. Si este parámetro es `null`, los valores se comparan sin ninguna transformación.
+-   `includeNulls`: (Opcional) Indica si los valores `null` de la lista deben incluirse en la determinación del elemento máximo. El valor predeterminado es `true`.
+
+
+## Examples
+
+### Example #1
+Busca los 5 valores principales de la lista especificada.
+```powerquery
+List.MaxN({3, 4, 5, -1, 7, 8, 2}, 5)
+```
+
+Result: 
+```powerquery
+{8, 7, 5, 4, 3}
+```
+
+
+### Example #2
+Busca las palabras con más de 3 caracteres.
+```powerquery
+List.MaxN(
+    {"boy", "dog", "pony", "cat", "rabbit", "bat"},
+    each Text.Length(_) > 3
+)
+```
+
+Result: 
+```powerquery
+{"rabbit", "pony"}
+```
+
+
+### Example #3
+Busca las tres fechas más recientes de una lista de fechas alemanas.
+```powerquery
+let
+    Source = {"12.02.2024", "15.05.2025", "10.10.2021", "16.01.2025", "30.12.2022"},
+    MaxDate = List.MaxN(Source, 3, each Date.FromText(_, [Culture = "de-DE"]))
+in
+    MaxDate
+```
+
+Result: 
+```powerquery
+{
+    "15.05.2025",
+    "16.01.2025",
+    "12.02.2024"
+}
+```
+
 
 
 

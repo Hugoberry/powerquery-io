@@ -20,12 +20,16 @@ Table.RemoveFirstN(
 
 ## Remarks
 
-ส่งกลับตารางที่ไม่มีจำนวนแถวแรกที่ระบุ <code>countOrCondition</code> ของตาราง <code>table</code>    จำนวนของแถวที่เอาออกจะขึ้นอยู่กับพารามิเตอร์ที่เลือกได้ <code>countOrCondition</code>    <ul>    <li> ถ้า <code>countOrCondition</code> ถูกเว้นไว้ จะมีการเอาออกเฉพาะแถวแรก </li>    <li> ถ้า <code>countOrCondition</code> เป็นตัวเลข จะมีการเอาแถวจำนวนมากดังกล่าวออก (เริ่มต้นที่ด้านบน) </li>    <li> ถ้า <code>countOrCondition</code> เป็นเงื่อนไข แถวที่ตรงกับเงื่อนไขจะถูกเอาออกจนกว่าแถวจะไม่เป็นไปตามเงื่อนไข</li>    </ul>
+ส่งกลับตารางที่ไม่มีจำนวนแถวแรกที่ระบุ `countOrCondition` ของตาราง `table` จำนวนของแถวที่เอาออกจะขึ้นอยู่กับพารามิเตอร์ที่เลือกได้ `countOrCondition`
+
+-   ถ้า `countOrCondition` ถูกเว้นไว้ จะมีการเอาออกเฉพาะแถวแรก
+-   ถ้า `countOrCondition` เป็นตัวเลข จะมีการเอาแถวจำนวนมากดังกล่าวออก (เริ่มต้นที่ด้านบน)
+-   ถ้า `countOrCondition` เป็นเงื่อนไข แถวที่ตรงกับเงื่อนไขจะถูกเอาออกจนกว่าแถวจะไม่เป็นไปตามเงื่อนไข
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 นำแถวแรกของตารางออก
 ```powerquery
 Table.RemoveFirstN(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 นำสองแถวแรกของตารางออก
 ```powerquery
 Table.RemoveFirstN(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-นำแถวแรกที่ [CustomerID] &lt;=2 ของตารางออก
+### Example #3
+นำแถวแรกที่ \[CustomerID\] &lt;=2 ของตารางออก
 ```powerquery
 Table.RemoveFirstN(
     Table.FromRecords({

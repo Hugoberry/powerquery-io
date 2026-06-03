@@ -25,7 +25,7 @@ Returnerar en typ som representerar poster med särskilda typbegränsningar på 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Generera en tabelltyp dynamiskt.
 ```powerquery
 let

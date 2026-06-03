@@ -21,13 +21,17 @@ List.InsertRange(
 
 ## Remarks
 
-Zwraca nową listę utworzoną przez wstawienie wartości z listy <code>values</code> na listę <code>list</code> pod indeksem <code>index</code>. Pierwsza pozycja na liście ma indeks 0.      <ul>        <li><code>list</code>: Lista docelowa, na którą będą wstawiane wartości.</li>        <li><code>index</code>: Indeks listy docelowej (<code>list</code>) określający, gdzie mają być wstawione wartości. Pierwsza pozycja na liście ma indeks 0.</li>        <li><code>values</code>: Lista wartości, które mają zostać wstawione na listę <code>list</code>.</li>      </ul>
+Zwraca nową listę utworzoną przez wstawienie wartości z listy `values` na listę `list` pod indeksem `index`. Pierwsza pozycja na liście ma indeks 0.
+
+-   `list`: Lista docelowa, na którą będą wstawiane wartości.
+-   `index`: Indeks listy docelowej (`list`) określający, gdzie mają być wstawione wartości. Pierwsza pozycja na liście ma indeks 0.
+-   `values`: Lista wartości, które mają zostać wstawione na listę `list`.
 
 
 ## Examples
 
-### Example #1 
-Wstaw listę (\{3, 4}) na listę docelową (\{1, 2, 5}) pod indeksem 2.
+### Example #1
+Wstaw listę (\{3, 4\}) na listę docelową (\{1, 2, 5\}) pod indeksem 2.
 ```powerquery
 List.InsertRange({1, 2, 5}, 2, {3, 4})
 ```
@@ -44,8 +48,8 @@ Result:
 ```
 
 
-### Example #2 
-Wstaw listę z zagnieżdżoną listą (\{1, \{1.1, 1.2}}) na listę docelową (\{2, 3, 4}) pod indeksem 0.
+### Example #2
+Wstaw listę z zagnieżdżoną listą (\{1, \{1.1, 1.2\}\}) na listę docelową (\{2, 3, 4\}) pod indeksem 0.
 ```powerquery
 List.InsertRange({2, 3, 4}, 0, {1, {1.1, 1.2}})
 ```

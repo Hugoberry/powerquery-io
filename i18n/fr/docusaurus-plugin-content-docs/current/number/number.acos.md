@@ -5,7 +5,7 @@ title: Number.Acos
 # Number.Acos
 
 
-Retourne l&#39;arc cosinus du nombre.
+Retourne l'arc cosinus du nombre.
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Number.Acos(
 
 ## Remarks
 
-Retourne l'arc cosinus de <code>number</code>.
+Retourne l'arc cosinus de `number`.
 
 
 

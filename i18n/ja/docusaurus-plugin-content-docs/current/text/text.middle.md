@@ -21,13 +21,13 @@ Text.Middle(
 
 ## Remarks
 
-オフセット <code>start</code> で <code>count</code> 文字または <code>text</code> の末尾までを返します。
+オフセット `start` で `count` 文字または `text` の末尾までを返します。
 
 
 ## Examples
 
-### Example #1 
-テキスト &#34;Hello World&#34; のインデックス 6 で始まり 5 文字のサブ文字列を検出します。
+### Example #1
+テキスト "Hello World" のインデックス 6 で始まり 5 文字のサブ文字列を検出します。
 ```powerquery
 Text.Middle("Hello World", 6, 5)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-テキスト &#34;Hello World&#34; のインデックス 6 で始まり末尾までのサブ文字列を検出します。
+### Example #2
+テキスト "Hello World" のインデックス 6 で始まり末尾までのサブ文字列を検出します。
 ```powerquery
 Text.Middle("Hello World", 6, 20)
 ```
@@ -47,6 +47,18 @@ Text.Middle("Hello World", 6, 20)
 Result: 
 ```powerquery
 "World"
+```
+
+
+### Example #3
+テキスト "Hello World" のインデックス 0 で始まり 2 文字のサブ文字列を検出します。
+```powerquery
+Text.Middle("Hello World", 0, 2)
+```
+
+Result: 
+```powerquery
+"He"
 ```
 
 

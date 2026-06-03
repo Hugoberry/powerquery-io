@@ -5,7 +5,7 @@ title: Type.NonNullable
 # Type.NonNullable
 
 
-Retourne le type non nullable d&#39;un type.
+Retourne le type non nullable d'un type.
 
 
 ## Syntax
@@ -19,13 +19,13 @@ Type.NonNullable(
 
 ## Remarks
 
-Retourne le type non <code>nullable</code> de <code>type</code>.
+Retourne le type non `nullable` de `type`.
 
 
 ## Examples
 
-### Example #1 
-Retournez le type non nullable de &lt;code&gt;type nullable number&lt;/code&gt;.
+### Example #1
+Retournez le type non nullable de `type nullable number`.
 ```powerquery
 Type.NonNullable(type nullable number)
 ```

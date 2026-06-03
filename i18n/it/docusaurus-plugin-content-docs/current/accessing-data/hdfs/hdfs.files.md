@@ -19,7 +19,7 @@ Hdfs.Files(
 
 ## Remarks
 
-Restituisce una tabella con una riga per ogni file trovato all'URL <code>url</code> della cartella e relative sottocartelle da un file system Hadoop. Ogni riga contiene le proprietà del file e un collegamento al relativo contenuto.
+Restituisce una tabella con una riga per ogni file trovato all'URL `url` della cartella e relative sottocartelle da un file system Hadoop. Ogni riga contiene le proprietà del file e un collegamento al relativo contenuto.
 
 
 

@@ -20,12 +20,15 @@ Table.PromoteHeaders(
 
 ## Remarks
 
-Promueve la primera fila de valores como encabezados de las nuevas columnas (es decir, nombres de columna). De manera predeterminada, solo los valores de texto o numéricos se promueven a encabezados. Opciones válidas:    <div>      <code>PromoteAllScalars</code>: si se define como <code>true</code>, todos los valores escalares de la primera fila se promueven a encabezados con el elemento <code>Culture</code>, si se especificó (o la configuración regional del documento actual).    En el caso de valores que no se pueden convertir en texto, se usará un nombre de columna predeterminado.    </div>    <div>    <code>Culture</code>: nombre de referencia cultural que especifica la referencia cultural de los datos.    </div>  
+Promueve la primera fila de valores como encabezados de las nuevas columnas (es decir, nombres de columna). De manera predeterminada, solo los valores de texto o numéricos se promueven a encabezados. Opciones válidas:
+
+-   `PromoteAllScalars`: si se establece en `true`, todos los valores escalares de la primera fila se promueven a encabezados mediante el `Culture`, si se especifica (o la configuración regional del documento actual). Para los valores que no se pueden convertir en texto, se usará un nombre de columna predeterminado.
+-   `Culture`: un nombre de referencia cultural que especifica la referencia cultural de los datos.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Promover la primera fila de valores de la tabla.
 ```powerquery
 Table.PromoteHeaders(
@@ -42,7 +45,7 @@ Table.FromRecords({[CustomerID = 1, Name = "Bob", Column3 = #date(1980, 1, 1)]})
 ```
 
 
-### Example #2 
+### Example #2
 Promueve todos los valores escalares de la primera fila de la tabla a encabezados.
 ```powerquery
 Table.PromoteHeaders(

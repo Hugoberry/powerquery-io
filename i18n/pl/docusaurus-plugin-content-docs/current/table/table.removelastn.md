@@ -20,12 +20,16 @@ Table.RemoveLastN(
 
 ## Remarks
 
-Zwraca tabelę, która nie zawiera <code>countOrCondition</code> ostatnich wierszy z tabeli <code>table</code>.        Liczba usuniętych wierszy jest zależna od opcjonalnego parametru <code>countOrCondition</code>.    <ul>    <li> Pominięcie parametru <code>countOrCondition</code> spowoduje usunięcie tylko ostatniego wiersza. </li>    <li> Jeśli parametr <code>countOrCondition</code> jest liczbą, określa liczbę wierszy (licząc od dołu), które zostaną usunięte. </li>    <li>Jeśli parametr <code>countOrCondition</code> jest warunkiem, będą usuwane wiersze spełniające ten warunek, aż do wiersza, który go nie spełnia.</li>    </ul>
+Zwraca tabelę, która nie zawiera `countOrCondition` ostatnich wierszy z tabeli `table`. Liczba usuniętych wierszy jest zależna od opcjonalnego parametru `countOrCondition`.
+
+-   Pominięcie parametru `countOrCondition` spowoduje usunięcie tylko ostatniego wiersza.
+-   Jeśli parametr `countOrCondition` jest liczbą, określa liczbę wierszy (licząc od dołu), które zostaną usunięte.
+-   Jeśli parametr `countOrCondition` jest warunkiem, będą usuwane wiersze spełniające ten warunek, aż do wiersza, który go nie spełnia.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Usuń ostatni wiersz z tabeli.
 ```powerquery
 Table.RemoveLastN(
@@ -49,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-Usuń z tabeli ostatnie wiersze, w których jest spełniony warunek [CustomerID] &gt; 2.
+### Example #2
+Usuń z tabeli ostatnie wiersze, w których jest spełniony warunek \[CustomerID\] > 2.
 ```powerquery
 Table.RemoveLastN(
     Table.FromRecords({

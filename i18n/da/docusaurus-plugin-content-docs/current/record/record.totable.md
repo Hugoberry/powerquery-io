@@ -19,12 +19,12 @@ Record.ToTable(
 
 ## Remarks
 
-Returnerer en tabel, der indeholder kolonnerne <code>Name</code> og <code>Value</code> med en række for de enkelte felter i <code>record</code>.
+Returnerer en tabel, der indeholder kolonnerne `Name` og `Value` med en række for de enkelte felter i `record`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Returner tabellen fra posten.
 ```powerquery
 Record.ToTable([OrderID = 1, CustomerID = 1, Item = "Fishing rod", Price = 100.0])

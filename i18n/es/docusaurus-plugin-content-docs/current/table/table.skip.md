@@ -20,12 +20,16 @@ Table.Skip(
 
 ## Remarks
 
-Devuelve una tabla que no contiene el primer número de filas especificado (<code>countOrCondition</code>) de la tabla <code>table</code>.    El número de filas omitidas depende del parámetro opcional <code>countOrCondition</code>.    <ul>    <li>Si se omite <code>countOrCondition</code>, solo se omitirá la primera fila. </li>    <li>Si <code>countOrCondition</code> es un número, se omitirán esas filas (a partir de la primera). </li>    <li>Si <code>countOrCondition</code> es una condición, se omitirán las filas que la cumplan hasta que una no lo haga.</li>    </ul>
+Devuelve una tabla que no contiene el primer número de filas especificado (`countOrCondition`) de la tabla `table`. El número de filas omitidas depende del parámetro opcional `countOrCondition`.
+
+-   Si se omite `countOrCondition`, solo se omitirá la primera fila.
+-   Si `countOrCondition` es un número, se omitirán esas filas (a partir de la primera).
+-   Si `countOrCondition` es una condición, se omitirán las filas que la cumplan hasta que una no lo haga.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Omitir la primera fila de la tabla.
 ```powerquery
 Table.Skip(
@@ -49,7 +53,7 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
+### Example #2
 Omitir las primeras dos filas de la tabla.
 ```powerquery
 Table.Skip(
@@ -72,8 +76,8 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
-Omitir las primeras filas donde [Price] &gt; 25 de la tabla.
+### Example #3
+Omitir las primeras filas donde \[Price\] > 25 de la tabla.
 ```powerquery
 Table.Skip(
     Table.FromRecords({

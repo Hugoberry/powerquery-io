@@ -19,7 +19,7 @@ Cube.Parameters(
 
 ## Remarks
 
-<code>cube</code> öğesine uygulanabilecek bir dizi parametrenin bulunduğu bir tablo döndürür. Her bir parametre, parametre ve bağımsız değişkenlerinin uygulandığı <code>cube</code> almak üzere çağrılabilen bir işlevdir.
+`cube` öğesine uygulanabilecek bir dizi parametrenin bulunduğu bir tablo döndürür. Her bir parametre, parametre ve bağımsız değişkenlerinin uygulandığı `cube` almak üzere çağrılabilen bir işlevdir.
 
 
 

@@ -19,13 +19,13 @@ Text.ToList(
 
 ## Remarks
 
-从给定的文本值 <code>text</code> 返回字符值列表。
+从给定的文本值 `text` 返回字符值列表。
 
 
 ## Examples
 
-### Example #1 
-从文本 &#34;Hello World&#34; 创建字符值列表。
+### Example #1
+从文本 "Hello World" 创建字符值列表。
 ```powerquery
 Text.ToList("Hello World")
 ```

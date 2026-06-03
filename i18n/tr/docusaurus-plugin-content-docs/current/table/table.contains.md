@@ -21,12 +21,12 @@ Table.Contains(
 
 ## Remarks
 
-<code>row</code> belirtilen kaydının <code>table</code> içinde satır olarak görünüp görünmediğini gösterir.    Tablonun satırları arasındaki karşılaştırmayı denetlemek üzere <code>equationCriteria</code> isteğe bağlı parametresi belirtilebilir.
+`row` belirtilen kaydının `table` içinde satır olarak görünüp görünmediğini gösterir. Tablonun satırları arasındaki karşılaştırmayı denetlemek üzere `equationCriteria` isteğe bağlı parametresi belirtilebilir.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tabloda satır bulunup bulunmadığını belirler.
 ```powerquery
 Table.Contains(
@@ -46,7 +46,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Tabloda satır bulunup bulunmadığını belirler.
 ```powerquery
 Table.Contains(
@@ -66,8 +66,8 @@ false
 ```
 
 
-### Example #3 
-Yalnızca [Name] sütunlarını karşılaştırarak tabloda satır bulunup bulunmadığını belirler.
+### Example #3
+Yalnızca \[Name\] sütunlarını karşılaştırarak tabloda satır bulunup bulunmadığını belirler.
 ```powerquery
 Table.Contains(
     Table.FromRecords({

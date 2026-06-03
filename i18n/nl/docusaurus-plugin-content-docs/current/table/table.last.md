@@ -20,12 +20,12 @@ Table.Last(
 
 ## Remarks
 
-Retourneert de laatste rij van de <code>table</code> of een optionele standaardwaarde, <code>default</code>, als de tabel leeg is.
+Retourneert de laatste rij van de `table` of een optionele standaardwaarde, `default`, als de tabel leeg is.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 De laatste rij van de tabel zoeken.
 ```powerquery
 Table.Last(
@@ -43,8 +43,8 @@ Result:
 ```
 
 
-### Example #2 
-De laatste rij van de tabel &lt;code&gt;(\{})&lt;/code&gt; zoeken of [a = 0, b = 0] retourneren als de rij leeg is.
+### Example #2
+De laatste rij van de tabel `({})` zoeken of \[a = 0, b = 0\] retourneren als de rij leeg is.
 ```powerquery
 Table.Last(Table.FromRecords({}), [a = 0, b = 0])
 ```

@@ -19,13 +19,15 @@ Date.ToRecord(
 
 ## Remarks
 
-返回包含给定日期值 <code>date</code> 的各个部分的记录。 <ul>        <li><code>date</code>: 要从中计算其各个部分的记录的 <code>date</code> 值。</li>      </ul>
+返回包含给定日期值 `date` 的各个部分的记录。
+
+-   `date`: 要从中计算其各个部分的记录的 `date` 值。
 
 
 ## Examples
 
-### Example #1 
-将 &lt;code&gt;#date(2011, 12, 31)&lt;/code&gt; 值转换为包含日期值的各个部分的记录。
+### Example #1
+将 `#date(2011, 12, 31)` 值转换为包含日期值的各个部分的记录。
 ```powerquery
 Date.ToRecord(#date(2011, 12, 31))
 ```

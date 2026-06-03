@@ -20,13 +20,13 @@ Text.Repeat(
 
 ## Remarks
 
-ส่งกลับค่าข้อความที่เรียบเรียงของข้อความป้อนเข้า <code>text</code> ที่ทำซ้ำ <code>count</code> ครั้ง
+ส่งกลับค่าข้อความที่เรียบเรียงของข้อความป้อนเข้า `text` ที่ทำซ้ำ `count` ครั้ง
 
 
 ## Examples
 
-### Example #1 
-ทำซ้ำข้อความ &#34;a&#34; ห้าครั้ง
+### Example #1
+ทำซ้ำข้อความ "a" ห้าครั้ง
 ```powerquery
 Text.Repeat("a", 5)
 ```
@@ -37,8 +37,8 @@ Result:
 ```
 
 
-### Example #2 
-ทำซ้ำข้อความ &#34;helloworld&#34; สามครั้ง
+### Example #2
+ทำซ้ำข้อความ "helloworld" สามครั้ง
 ```powerquery
 Text.Repeat("helloworld.", 3)
 ```

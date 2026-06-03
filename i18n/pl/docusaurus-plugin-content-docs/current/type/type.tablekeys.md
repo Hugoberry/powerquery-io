@@ -19,12 +19,17 @@ Type.TableKeys(
 
 ## Remarks
 
-Zwraca być może pustą listę kluczy dla danego typu tabeli.<br />    <br />    Każdy klucz jest definiowany przy użyciu rekordu w następującej postaci:    <ul>      <li>        <code>Kolumny</code>: lista nazw kolumn, która definiuje klucz      </li>      <li>        <code>Podstawowy</code>: <code>true</code>, jeśli klucz jest kluczem podstawowym; w przeciwnym razie <code>false</code>      </li>    </ul>    
+Zwraca być może pustą listę kluczy dla danego typu tabeli.  
+  
+Każdy klucz jest definiowany przy użyciu rekordu w następującej postaci:
+
+-   `Kolumny`: lista nazw kolumn, która definiuje klucz
+-   `Podstawowy`: `true`, jeśli klucz jest kluczem podstawowym; w przeciwnym razie `false`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Zwróć informacje o kluczu dla typu tabeli.
 ```powerquery
 let

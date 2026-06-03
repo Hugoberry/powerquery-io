@@ -20,12 +20,12 @@ Number.RoundDown(
 
 ## Remarks
 
-Retorna o resultado do arredondamento <code>number</code> para baixo para o número inteiro mais alto anterior. Se <code>number</code> for nulo, esta função retornará nulo.    Se <code>digits</code> for fornecido, <code>number</code> será arredondado para o número especificado de dígitos decimais.  
+Retorna o resultado do arredondamento `number` para baixo para o número inteiro mais alto anterior. Se `number` for nulo, esta função retornará nulo. Se `digits` for fornecido, `number` será arredondado para o número especificado de dígitos decimais.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Arredonde 1,234 para baixo, de modo que se torne um número inteiro.
 ```powerquery
 Number.RoundDown(1.234)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Arredonde 1,999 para baixo, de modo que se torne um número inteiro.
 ```powerquery
 Number.RoundDown(1.999)
@@ -49,7 +49,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Arredondar 1,999 para duas casas decimais.
 ```powerquery
 Number.RoundDown(1.999, 2)

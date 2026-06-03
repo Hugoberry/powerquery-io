@@ -19,7 +19,13 @@ Table.ViewFunction(
 
 ## Remarks
 
-Cria uma função de visualização baseada em <code>function</code> que pode ser processada numa visualização criada por <code>Table.View</code>.<br />O processador de <code>OnInvoke</code> <code>Table.View</code> pode ser utilizado para definir um processador para função de visualização.<br />Tal como acontece com os processadores para operações incorporadas, se não houver nenhum processador <code>OnInvoke</code> especificado, se o mesmo não processar a função de visualização, ou se for gerado um erro pelo processador, <code>function</code> será aplicado sobre a visualização.<br />Consulte a documentação publicada sobre o conector personalizado do Power Query para obter uma descrição mais completa de <code>Table.View</code> e das funções de visualização personalizadas.<br />
+Cria uma função de visualização baseada em `function` que pode ser processada numa visualização criada por `Table.View`.
+
+O processador de `OnInvoke` `Table.View` pode ser utilizado para definir um processador para função de visualização.
+
+Tal como acontece com os processadores para operações incorporadas, se não houver nenhum processador `OnInvoke` especificado, se o mesmo não processar a função de visualização, ou se for gerado um erro pelo processador, `function` será aplicado sobre a visualização.
+
+Consulte a documentação publicada sobre o conector personalizado do Power Query para obter uma descrição mais completa de `Table.View` e das funções de visualização personalizadas.
 
 
 

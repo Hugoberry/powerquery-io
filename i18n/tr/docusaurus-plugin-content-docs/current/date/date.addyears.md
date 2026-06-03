@@ -20,13 +20,16 @@ Date.AddYears(
 
 ## Remarks
 
-<code>numberOfYears</code> yılı <code>datetime</code> değeri olan <code>dateTime</code> öğesine ekleme nedeniyle oluşan <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> sonucunu döndürür.      <ul>        <li><code>dateTime</code>: Yılların eklendiği <code>date</code>, <code>datetime</code> veya <code>datetimezone</code> değeri.</li>        <li><code>numberOfYears</code>: Eklenecek yıl sayısı.</li>      </ul>
+`numberOfYears` yılı `datetime` değeri olan `dateTime` öğesine ekleme nedeniyle oluşan `date`, `datetime` veya `datetimezone` sonucunu döndürür.
+
+-   `dateTime`: Yılların eklendiği `date`, `datetime` veya `datetimezone` değeri.
+-   `numberOfYears`: Eklenecek yıl sayısı.
 
 
 ## Examples
 
-### Example #1 
-14/05/2011 tarihini temsil eden &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; veya &lt;code&gt;datetimezone&lt;/code&gt; değerine 4 yıl ekler.
+### Example #1
+14/05/2011 tarihini temsil eden `date`, `datetime` veya `datetimezone` değerine 4 yıl ekler.
 ```powerquery
 Date.AddYears(#date(2011, 5, 14), 4)
 ```
@@ -37,8 +40,8 @@ Result:
 ```
 
 
-### Example #2 
-14/05/2011 08:15:22 tarih ve saatini temsil eden &lt;code&gt;date&lt;/code&gt;, &lt;code&gt;datetime&lt;/code&gt; veya &lt;code&gt;datetimezone&lt;/code&gt; değerine 10 yıl ekler.
+### Example #2
+14/05/2011 08:15:22 tarih ve saatini temsil eden `date`, `datetime` veya `datetimezone` değerine 10 yıl ekler.
 ```powerquery
 Date.AddYears(#datetime(2011, 5, 14, 8, 15, 22), 10)
 ```

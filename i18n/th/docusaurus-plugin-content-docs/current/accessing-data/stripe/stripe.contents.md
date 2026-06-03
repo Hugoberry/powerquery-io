@@ -21,12 +21,12 @@ Stripe.Contents(
 
 ## Remarks
 
-เรียกใช้ Stripe API ที่ https://api.stripe.com/v1/<code>method</code> พร้อมส่งผ่านระเบียน <code>query</code> ทางเลือกเป็นเช่นพารามิเตอร์เพิ่มเติม และ <code>pageLimit</code> ทางเลือกเป็นเช่นขีดจำกัดสำหรับจำนวนคำขอ API จะมีการส่งคืนค่าข้อมูลล่าสุดก่อน หากไม่มีการระบุ <code>pageLimit</code> จะมีการส่งคืนค่าข้อมูลทั้งหมด มีการใช้ Stripe เวอร์ชัน 2015-10-16
+เรียกใช้ Stripe API ที่ https://api.stripe.com/v1/`method` พร้อมส่งผ่านระเบียน `query` ทางเลือกเป็นเช่นพารามิเตอร์เพิ่มเติม และ `pageLimit` ทางเลือกเป็นเช่นขีดจำกัดสำหรับจำนวนคำขอ API จะมีการส่งคืนค่าข้อมูลล่าสุดก่อน หากไม่มีการระบุ `pageLimit` จะมีการส่งคืนค่าข้อมูลทั้งหมด มีการใช้ Stripe เวอร์ชัน 2015-10-16
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ส่งคืนค่าข้อมูลการเรียกเก็บเงินทั้งหมด
 ```powerquery
 Stripe.Contents("charges")
@@ -38,7 +38,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 ส่งคืนค่าข้อมูลการเรียกเก็บเงินหนึ่งหน้า
 ```powerquery
 Stripe.Contents("charges", [], 1)

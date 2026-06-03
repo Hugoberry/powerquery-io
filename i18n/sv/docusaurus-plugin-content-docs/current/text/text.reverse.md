@@ -19,12 +19,12 @@ Text.Reverse(
 
 ## Remarks
 
-Kastar om det angivna <code>text</code>.
+Kastar om det angivna `text`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Skriv texten ”123” omvänt.
 ```powerquery
 Text.Reverse("123")

@@ -20,12 +20,12 @@ Table.TransformRows(
 
 ## Remarks
 
-<code>table</code> içindeki her satıra <code>transform</code> işlemini uygulayarak bir <code>liste</code> oluşturur.
+`table` içindeki her satıra `transform` işlemini uygulayarak bir `liste` oluşturur.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Bir tablonun satırlarını sayı listesine dönüştürün.
 ```powerquery
 Table.TransformRows(
@@ -46,7 +46,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Bir sayısal tablonun satırlarını metin biçiminde kayıtlara dönüştürün.
 ```powerquery
 Table.TransformRows(

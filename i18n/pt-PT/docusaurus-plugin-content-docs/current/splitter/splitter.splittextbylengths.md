@@ -25,7 +25,7 @@ Devolve uma função que divide texto numa lista de texto por cada comprimento e
 
 ## Examples
 
-### Example #1 
+### Example #1
 Divida a entrada nos dois primeiros caracteres seguidos dos três seguintes, a partir do início da entrada.
 ```powerquery
 Splitter.SplitTextByLengths({2, 3})("AB123")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Divida a entrada nos três primeiros caracteres seguidos dos dois seguintes, a partir do fim da entrada.
 ```powerquery
 let

@@ -20,12 +20,15 @@ Date.EndOfWeek(
 
 ## Remarks
 
-Devolve o fim da semana que contém <code>dateTime</code>.    Esta função aceita um <code>Day</code> opcional, <code>firstDayOfWeek</code>, para definir como o primeiro dia da semana para este cálculo relativo. O valor predefinido é <code>Day.Sunday</code>.      <ul>        <li><code>dateTime</code>: um valor <code>date</code>, <code>datetime</code> ou <code>datetimezone</code> a partir do qual o último dia da semana é calculado</li>        <li><code>firstDayOfWeek</code>: <i>[Opcional]</i> um valor <code>Day.Type</code> que representa o primeiro dia da semana. Seguem-se os valores possíveis: <code>Day.Sunday</code>, <code>Day.Monday</code>, <code>Day.Tuesday</code>, <code>Day.Wednesday</code>, <code>Day.Thursday</code>, <code>Day.Friday</code> e <code>Day.Saturday.</code>. O valor predefinido é <code>Day.Sunday</code>.</li>      </ul>
+Devolve o fim da semana que contém `dateTime`. Esta função recebe um `Day` opcional, `firstDayOfWeek`, para definir o primeiro dia da semana neste cálculo relativo. O valor predefinido é `Day.Sunday`.
+
+-   `dateTime`: um valor `date`, `datetime` ou `datetimezone` a partir do qual é calculado o último dia da semana
+-   `firstDayOfWeek`: *(opcional)* um valor `Day.Type` que representa o primeiro dia da semana. Os valores possíveis são `Day.Sunday`, `Day.Monday`, `Day.Tuesday`, `Day.Wednesday`, `Day.Thursday`, `Day.Friday` e `Day.Saturday`. O valor predefinido é `Day.Sunday`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Obter o fim da semana para 14/5/2011.
 ```powerquery
 Date.EndOfWeek(#date(2011, 5, 14))
@@ -37,7 +40,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Obter o fim da semana para 17/5/2011 17:00:00 -7:00, sendo domingo o primeiro dia da semana.
 ```powerquery
 Date.EndOfWeek(#datetimezone(2011, 5, 17, 5, 0, 0, -7, 0), Day.Sunday)

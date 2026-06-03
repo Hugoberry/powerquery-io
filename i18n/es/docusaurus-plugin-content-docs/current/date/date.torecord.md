@@ -19,13 +19,15 @@ Date.ToRecord(
 
 ## Remarks
 
-Devuelve un registro que contiene los elementos del valor date especificado, <code>date</code>. <ul>        <li><code>date</code>: un valor <code>date</code> a partir del cual se calculará el registro de sus partes.</li>      </ul>
+Devuelve un registro que contiene los elementos del valor date especificado, `date`.
+
+-   `date`: un valor `date` a partir del cual se calculará el registro de sus partes.
 
 
 ## Examples
 
-### Example #1 
-Convertir el valor &lt;code&gt;#date(2011, 12, 31)&lt;/code&gt; en un registro que contenga las partes del valor de fecha.
+### Example #1
+Convertir el valor `#date(2011, 12, 31)` en un registro que contenga las partes del valor de fecha.
 ```powerquery
 Date.ToRecord(#date(2011, 12, 31))
 ```

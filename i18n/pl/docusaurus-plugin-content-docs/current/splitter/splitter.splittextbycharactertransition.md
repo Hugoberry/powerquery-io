@@ -5,7 +5,7 @@ title: Splitter.SplitTextByCharacterTransition
 # Splitter.SplitTextByCharacterTransition
 
 
-Zwraca funkcję dzielącą tekst na listę wartości tekstowych w miejscach występowania przejścia z jednego rodzaju znaków na inny. Parametry \{0} i \{1} mogą być listą znaków lub funkcją przyjmującą znaki i zwracającą wartość true/false.
+Zwraca funkcję dzielącą tekst na listę wartości tekstowych w miejscach występowania przejścia z jednego rodzaju znaków na inny. Parametry \{0\} i \{1\} mogą być listą znaków lub funkcją przyjmującą znaki i zwracającą wartość true/false.
 
 
 ## Syntax
@@ -20,12 +20,12 @@ Splitter.SplitTextByCharacterTransition(
 
 ## Remarks
 
-Zwraca funkcję dzielącą tekst na listę wartości tekstowych w miejscach występowania przejścia z jednego rodzaju znaków na inny. Parametry <code>before</code> i <code>after</code> mogą być listą znaków lub funkcją przyjmującą znaki i zwracającą wartość true/false.
+Zwraca funkcję dzielącą tekst na listę wartości tekstowych w miejscach występowania przejścia z jednego rodzaju znaków na inny. Parametry `before` i `after` mogą być listą znaków lub funkcją przyjmującą znaki i zwracającą wartość true/false.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Podziel dane wejściowe za każdym razem, gdy po wielkiej lub małej literze następuje cyfra.
 ```powerquery
 Splitter.SplitTextByCharacterTransition({"A".."Z", "a".."z"}, {"0".."9"})("Abc123")

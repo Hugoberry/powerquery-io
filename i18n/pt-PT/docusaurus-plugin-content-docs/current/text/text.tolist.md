@@ -19,13 +19,13 @@ Text.ToList(
 
 ## Remarks
 
-Devolve uma lista de valores de caráter a partir do valor de texto especificado <code>text</code>.
+Devolve uma lista de valores de caráter a partir do valor de texto especificado `text`.
 
 
 ## Examples
 
-### Example #1 
-Criar uma lista de valores de caráter a partir do texto &#34;Olá Mundo&#34;.
+### Example #1
+Criar uma lista de valores de caráter a partir do texto "Olá Mundo".
 ```powerquery
 Text.ToList("Hello World")
 ```

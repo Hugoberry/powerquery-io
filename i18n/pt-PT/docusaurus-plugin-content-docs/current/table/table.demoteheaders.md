@@ -24,7 +24,7 @@ Despromove os cabeçalhos das colunas (ou seja, os nomes das colunas) para a pri
 
 ## Examples
 
-### Example #1 
+### Example #1
 Despromove a primeira linha de valores na tabela.
 ```powerquery
 Table.DemoteHeaders(

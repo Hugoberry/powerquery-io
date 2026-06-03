@@ -19,13 +19,13 @@ Type.ListItem(
 
 ## Remarks
 
-从列表 <code>type</code> 中返回项类型。
+从列表 `type` 中返回项类型。
 
 
 ## Examples
 
-### Example #1 
-从列表 &lt;code&gt;\{number}&lt;/code&gt; 中找到项类型。
+### Example #1
+从列表 `{number}` 中找到项类型。
 ```powerquery
 Type.ListItem(type {number})
 ```

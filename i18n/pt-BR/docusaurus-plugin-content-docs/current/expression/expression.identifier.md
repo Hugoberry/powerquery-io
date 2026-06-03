@@ -19,12 +19,12 @@ Expression.Identifier(
 
 ## Remarks
 
-Retorna a representação do código-fonte M de um identificador <code>name</code>.
+Retorna a representação do código-fonte M de um identificador `name`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Obter a representação do código-fonte M de um identificador.
 ```powerquery
 Expression.Identifier("MyIdentifier")
@@ -36,7 +36,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Obter a representação do código-fonte M de um identificador que contenha um espaço.
 ```powerquery
 Expression.Identifier("My Identifier")

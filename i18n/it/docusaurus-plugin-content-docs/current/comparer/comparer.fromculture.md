@@ -5,7 +5,7 @@ title: Comparer.FromCulture
 # Comparer.FromCulture
 
 
-Restituisce una funzione dell&#39;operatore di confronto in base alle impostazioni cultura specificate e alla distinzione tra maiuscole e minuscole.
+Restituisce una funzione dell'operatore di confronto in base alle impostazioni cultura specificate e alla distinzione tra maiuscole e minuscole.
 
 
 ## Syntax
@@ -20,13 +20,17 @@ Comparer.FromCulture(
 
 ## Remarks
 
-Restituisce una funzione dell'operatore di confronto che utilizza la <code>culture</code> e la distinzione tra maiuscole e minuscole specificata da <code>ignoreCase</code> per eseguire i confronti. <br />      <br />      Una funzione di confronto accetta due argomenti e restituisce -1, 0 o 1 a seconda che il primo valore sia minore, uguale o maggiore del secondo.<br />      <br />      Il valore predefinito per <code>ignoreCase</code> è false. Il <code>culture</code> deve essere una delle impostazioni locali supportate da .NET Framework, ad esempio "it-IT".    
+Restituisce una funzione dell'operatore di confronto che utilizza la `culture` e la distinzione tra maiuscole e minuscole specificata da `ignoreCase` per eseguire i confronti.  
+  
+Una funzione di confronto accetta due argomenti e restituisce -1, 0 o 1 a seconda che il primo valore sia minore, uguale o maggiore del secondo.  
+  
+Il valore predefinito per `ignoreCase` è false. Il `culture` deve essere una delle impostazioni locali supportate da .NET Framework, ad esempio "it-IT".
 
 
 ## Examples
 
-### Example #1 
-Confronta &#34;a&#34; e &#34;A&#34; tramite le impostazioni locali &#34;en-US&#34; per stabilire se i valori sono uguali.
+### Example #1
+Confronta "a" e "A" tramite le impostazioni locali "en-US" per stabilire se i valori sono uguali.
 ```powerquery
 Comparer.FromCulture("en-US")("a", "A")
 ```
@@ -37,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-Confronta &#34;a&#34; e &#34;A&#34; tramite le impostazioni locali &#34;en-US&#34; ignorando la distinzione maiuscole/minuscole per stabilire se i valori sono uguali.
+### Example #2
+Confronta "a" e "A" tramite le impostazioni locali "en-US" ignorando la distinzione maiuscole/minuscole per stabilire se i valori sono uguali.
 ```powerquery
 Comparer.FromCulture("en-US", true)("a", "A")
 ```

@@ -5,7 +5,7 @@ title: Value.As
 # Value.As
 
 
-指定された型と互換性がある場合に値を返します。
+指定した型と互換性がある場合は、値を返します。
 
 
 ## Syntax
@@ -20,12 +20,12 @@ Value.As(
 
 ## Remarks
 
-指定された型と互換性がある場合は値を返します。これは、M の "is" 演算子に相当しますが、例外として、識別子型の参照 (Number.Type など) を受け入れることができます。
+指定した型と互換性がある場合は、値を返します。これは、M の "is" 演算子に相当しますが、例外として、識別子型の参照 (Number.Type など) を受け入れることができます。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 数値を数値にキャストします。
 ```powerquery
 Value.As(123, Number.Type)
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 テキスト値を数値にキャストしようとしています。
 ```powerquery
 Value.As("abc", type number)

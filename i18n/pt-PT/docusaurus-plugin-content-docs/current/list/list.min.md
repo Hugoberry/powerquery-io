@@ -22,13 +22,13 @@ List.Min(
 
 ## Remarks
 
-Devolve o item mínimo existente na lista <code>list</code> ou o valor predefinido opcional <code>default</code> se a lista estiver vazia.    É possível especificar um valor comparisonCriteria opcional, <code>comparisonCriteria</code>, para determinar o modo como os itens existentes na lista devem ser comparados. Se este parâmetro for nulo, será utilizado o comparador predefinido.
+Devolve o item mínimo existente na lista `list` ou o valor predefinido opcional `default` se a lista estiver vazia. É possível especificar um valor comparisonCriteria opcional, `comparisonCriteria`, para determinar o modo como os itens existentes na lista devem ser comparados. Se este parâmetro for nulo, será utilizado o comparador predefinido.
 
 
 ## Examples
 
-### Example #1 
-Determinar o mínimo na lista \{1, 4, 7, 3, -2, 5}.
+### Example #1
+Determinar o mínimo na lista \{1, 4, 7, 3, -2, 5\}.
 ```powerquery
 List.Min({1, 4, 7, 3, -2, 5})
 ```
@@ -39,8 +39,8 @@ Result:
 ```
 
 
-### Example #2 
-Determinar o mínimo na lista \{} ou devolver -1 se a lista estiver vazia. 
+### Example #2
+Determinar o mínimo na lista \{\} ou devolver -1 se a lista estiver vazia.
 ```powerquery
 List.Min({}, -1)
 ```

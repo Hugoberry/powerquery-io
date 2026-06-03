@@ -24,7 +24,7 @@ Buforuje wartość binarną w pamięci. Wynikiem tego wywołania jest stabilna w
 
 ## Examples
 
-### Example #1 
+### Example #1
 Utwórz stabilną wersję wartości binarnej.
 ```powerquery
 Binary.Buffer(Binary.FromList({0..10}))

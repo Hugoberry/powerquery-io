@@ -19,7 +19,7 @@ Type.Facets(
 
 ## Remarks
 
-Gibt einen Datensatz mit den Facets von <code>type</code> zurück.
+Gibt einen Datensatz mit den Facets von `type` zurück.
 
 
 

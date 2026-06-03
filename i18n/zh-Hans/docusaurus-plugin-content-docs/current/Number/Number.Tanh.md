@@ -19,7 +19,7 @@ Number.Tanh(
 
 ## Remarks
 
-返回 <code>number</code> 的双曲正切。
+返回 `number` 的双曲正切。
 
 
 

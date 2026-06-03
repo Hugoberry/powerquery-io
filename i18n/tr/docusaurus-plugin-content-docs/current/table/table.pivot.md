@@ -28,8 +28,8 @@ Table.Pivot(
 
 ## Examples
 
-### Example #1 
-&lt;code&gt;(\{ [ key = &#34;x&#34;, attribute = &#34;a&#34;, value = 1 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 3 ], [ key = &#34;y&#34;, attribute = &#34;a&#34;, value = 2 ], [ key = &#34;y&#34;, attribute = &#34;b&#34;, value = 4 ] })&lt;/code&gt; tablosundaki öznitelik sütunundaki &#34;a&#34;, &#34;b&#34; ve &#34;c&#34; değerlerini alır ve kendi sütunlarına özetler.
+### Example #1
+`({ [ key = "x", attribute = "a", value = 1 ], [ key = "x", attribute = "c", value = 3 ], [ key = "y", attribute = "a", value = 2 ], [ key = "y", attribute = "b", value = 4 ] })` tablosundaki öznitelik sütunundaki "a", "b" ve "c" değerlerini alır ve kendi sütunlarına özetler.
 ```powerquery
 Table.Pivot(
     Table.FromRecords({
@@ -53,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-&lt;code&gt;(\{ [ key = &#34;x&#34;, attribute = &#34;a&#34;, value = 1 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 3 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 5 ], [ key = &#34;y&#34;, attribute = &#34;a&#34;, value = 2 ], [ key = &#34;y&#34;, attribute = &#34;b&#34;, value = 4 ] })&lt;/code&gt; tablosundaki öznitelik sütunundaki &#34;a&#34;, &#34;b&#34; ve &#34;c&#34; değerlerini alır ve kendi sütunlarına özetler.  &#34;x&#34; anahtarına ait &#34;c&#34; özniteliği kendisi ile ilişkili birden çok değer içeriyor, bu nedenle çakışmayı gidermek için List.Max işlevini kullanın.
+### Example #2
+`({ [ key = "x", attribute = "a", value = 1 ], [ key = "x", attribute = "c", value = 3 ], [ key = "x", attribute = "c", value = 5 ], [ key = "y", attribute = "a", value = 2 ], [ key = "y", attribute = "b", value = 4 ] })` tablosundaki öznitelik sütunundaki "a", "b" ve "c" değerlerini alır ve kendi sütunlarına özetler. "x" anahtarına ait "c" özniteliği kendisi ile ilişkili birden çok değer içeriyor, bu nedenle çakışmayı gidermek için List.Max işlevini kullanın.
 ```powerquery
 Table.Pivot(
     Table.FromRecords({

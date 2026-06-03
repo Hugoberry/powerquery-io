@@ -20,12 +20,17 @@ BinaryFormat.List(
 
 ## Remarks
 
-Devolve um formato binário que lê uma sequência de itens e devolve uma <code>lista</code>. O parâmetro <code>binaryFormat</code> especifica o formato binário de cada item. Existem três formas de determinar o número de itens lidos: <ul><li>Se <code>countOrCondition</code> não for especificado(a), o formato binário fará a leitura até não existirem mais itens.</li><li>Se <code>countOrCondition</code> for um número, o formato binário fará a leitura desse número de itens.</li><li>Se <code>countOrCondition</code> for uma função, essa função será invocada para cada item lido. A função devolve true para continuar e false para parar a leitura de itens. O item final é incluído na lista.</li><li>Se <code>countOrCondition</code> for um formato binário, espera-se que a contagem de itens preceda a lista e o formato especificado é utilizado para ler a contagem.</li></ul>
+Devolve um formato binário que lê uma sequência de itens e devolve uma `lista`. O parâmetro `binaryFormat` especifica o formato binário de cada item. Existem três formas de determinar o número de itens lidos:
+
+-   Se `countOrCondition` não for especificado(a), o formato binário fará a leitura até não existirem mais itens.
+-   Se `countOrCondition` for um número, o formato binário fará a leitura desse número de itens.
+-   Se `countOrCondition` for uma função, essa função será invocada para cada item lido. A função devolve true para continuar e false para parar a leitura de itens. O item final é incluído na lista.
+-   Se `countOrCondition` for um formato binário, espera-se que a contagem de itens preceda a lista e o formato especificado é utilizado para ler a contagem.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ler bytes até ao fim dos dados.
 ```powerquery
 let
@@ -41,7 +46,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Ler dois bytes.
 ```powerquery
 let
@@ -57,7 +62,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Ler bytes até o valor de bytes ser maior ou igual a dois.
 ```powerquery
 let

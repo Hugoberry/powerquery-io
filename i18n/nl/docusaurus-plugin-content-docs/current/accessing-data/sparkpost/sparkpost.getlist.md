@@ -22,7 +22,7 @@ Deze functie kan worden gebruikt om een van de eindpunten Lijsten aan te roepen 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Hiermee wordt een tabel met één kolom geretourneerd waarin gegevens van een van de eindpunten Lijsten van SparkPost-API v1 zijn ingevuld (zie SparkPost-documentatie voor meer informatie).
 ```powerquery
 Source = SparkPost.GetList("metrics/campaigns")

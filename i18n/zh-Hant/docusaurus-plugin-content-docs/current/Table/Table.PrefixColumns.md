@@ -20,13 +20,13 @@ Table.PrefixColumns(
 
 ## Remarks
 
-傳回資料表，其中來自所提供之 <code>table</code> 的所有資料行名稱前面都以 <code><code>prefix</code>.ColumnName</code> 的格式加上指定的文字 <code>prefix</code> 與句號。
+傳回資料表，其中來自所提供之 `table` 的所有資料行名稱前面都以 `prefix.ColumnName` 的格式加上指定的文字 `prefix` 與句號。
 
 
 ## Examples
 
-### Example #1 
-在資料表中的資料行前面加上 &#34;mytable&#34;。
+### Example #1
+在資料表中的資料行前面加上 "mytable"。
 ```powerquery
 Table.PrefixColumns(
     Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),

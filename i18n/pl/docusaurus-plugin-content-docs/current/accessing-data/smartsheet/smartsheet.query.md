@@ -26,7 +26,7 @@ Tworzy wywołanie interfejsu API REST narzędzia Smartsheet 2.0 w określonym pu
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ściąga dane z punktu końcowego interfejsu API narzędzia Smartsheet dla arkuszy z określonymi dodatkowymi argumentami
 ```powerquery
 Smartsheet.Content("arkusze", "include=ownerInfo&includeAll=true", [])

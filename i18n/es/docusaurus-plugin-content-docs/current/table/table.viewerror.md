@@ -5,7 +5,7 @@ title: Table.ViewError
 # Table.ViewError
 
 
-Crea un registro de error modificado que no desencadenará una reserva cuando lo inicie un controlador definido en una vista (mediante Table.View).
+Crea un registro de error modificado que no desencadenará una reserva cuando lo genere un controlador definido en una vista (a través de Table.View).
 
 
 ## Syntax
@@ -19,7 +19,7 @@ Table.ViewError(
 
 ## Remarks
 
-Crea un registro de error modificado desde <code>errorRecord</code> que no desencadenará una reserva cuando lo inicie un controlador definido en una vista (mediante Table.View).
+Crea un registro de error modificado desde el `errorRecord` que no se desencadenará una reserva cuando lo genere un controlador definido en una vista (a través de Table.View).
 
 
 

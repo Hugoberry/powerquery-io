@@ -20,13 +20,17 @@ List.Skip(
 
 ## Remarks
 
-Devolve uma lista que ignora o primeiro elemento da lista <code>list</code>. Se <code>list</code> for uma lista vazia, é devolvida uma lista vazia.Esta função utiliza um parâmetro opcional, <code>countOrCondition</code>, para suportar a ação de ignorar vários valores, conforme listado abaixo. <ul> <li>Se for especificado um número, é ignorado até esse número de itens. </li> <li>Se for especificada uma condição, a lista devolvida começa pelo primeiro elemento de <code>list</code> que satisfaça os critérios. Quando um item não satisfizer a condição, não serão considerados mais itens. </li> <li>Se este parâmetro for nulo, será observado o comportamento predefinido. </li> </ul>
+Devolve uma lista que ignora o primeiro elemento da lista `list`. Se `list` for uma lista vazia, é devolvida uma lista vazia. Esta função aceita um parâmetro opcional, `countOrCondition`, para suportar a ignorar vários valores, conforme listado abaixo.
+
+-   Se for especificado um número, até esse número de itens são ignorados.
+-   Se for especificada uma condição, todos os itens correspondentes consecutivos no início de `list` são ignorados.
+-   Se este parâmetro for nulo, o comportamento predefinição é observado.
 
 
 ## Examples
 
-### Example #1 
-Criar uma lista a partir de \{1, 2, 3, 4, 5} sem os primeiros 3 números.
+### Example #1
+Criar uma lista a partir de \{1, 2, 3, 4, 5\} sem os primeiros 3 números.
 ```powerquery
 List.Skip({1, 2, 3, 4, 5}, 3)
 ```
@@ -37,8 +41,8 @@ Result:
 ```
 
 
-### Example #2 
-Criar uma lista a partir de \{5, 4, 2, 6, 1} que começa com um número menor que 3.
+### Example #2
+Criar uma lista a partir de \{5, 4, 2, 6, 1\} que começa com um número menor que 3.
 ```powerquery
 List.Skip({5, 4, 2, 6, 1}, each _ > 3)
 ```

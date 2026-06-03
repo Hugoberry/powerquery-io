@@ -21,13 +21,13 @@ Text.Middle(
 
 ## Remarks
 
-Devuelve <code>count</code> caracteres o hasta el final de <code>text</code>; en el desplazamiento <code>start</code>.
+Devuelve `count` caracteres o hasta el final de `text`; en el desplazamiento `start`.
 
 
 ## Examples
 
-### Example #1 
-Encuentra la subcadena del texto &#34;Hello World&#34;, comenzando en el índice 6 y abarcando 5 caracteres.
+### Example #1
+Encuentra la subcadena del texto "Hello World", comenzando en el índice 6 y abarcando 5 caracteres.
 ```powerquery
 Text.Middle("Hello World", 6, 5)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Encuentra la subcadena del texto &#34;Hello World&#34;, comenzando en el índice 6 y abarcando hasta el final.
+### Example #2
+Encuentra la subcadena del texto "Hello World", comenzando en el índice 6 y abarcando hasta el final.
 ```powerquery
 Text.Middle("Hello World", 6, 20)
 ```
@@ -47,6 +47,18 @@ Text.Middle("Hello World", 6, 20)
 Result: 
 ```powerquery
 "World"
+```
+
+
+### Example #3
+Busque la substring del texto "Hola mundo" a partir del índice 0 que abarca 2 caracteres.
+```powerquery
+Text.Middle("Hello World", 0, 2)
+```
+
+Result: 
+```powerquery
+"He"
 ```
 
 

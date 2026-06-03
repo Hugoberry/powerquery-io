@@ -22,8 +22,8 @@ SparkPost.GetList(
 
 ## Examples
 
-### Example #1 
-いずれかの SparkPost API v1 &#34;Lists&#34; エンドポイントからのデータが取り込まれた単一列が含まれるテーブルを返します (詳細については、SparkPost のドキュメントを参照してください)。
+### Example #1
+いずれかの SparkPost API v1 "Lists" エンドポイントからのデータが取り込まれた単一列が含まれるテーブルを返します (詳細については、SparkPost のドキュメントを参照してください)。
 ```powerquery
 Source = SparkPost.GetList("metrics/campaigns")
 ```

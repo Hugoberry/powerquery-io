@@ -22,13 +22,13 @@ Table.DuplicateColumn(
 
 ## Remarks
 
-Sao chép cột có tên <code>columnName</code> tới bảng <code>table</code>. Các giá trị và loại cho cột <code>newColumnName</code> được sao chép từ cột <code>columnName</code>.
+Sao chép cột có tên `columnName` tới bảng `table`. Các giá trị và loại cho cột `newColumnName` được sao chép từ cột `columnName`.
 
 
 ## Examples
 
-### Example #1 
-Sao chép cột &#34;a&#34; tới một cột có tên &#34;cột được sao chép&#34; trong bảng &lt;code&gt;(\{[a = 1, b = 2], [a = 3, b = 4]})&lt;/code&gt;.
+### Example #1
+Sao chép cột "a" tới một cột có tên "cột được sao chép" trong bảng `({[a = 1, b = 2], [a = 3, b = 4]})`.
 ```powerquery
 Table.DuplicateColumn(
     Table.FromRecords({

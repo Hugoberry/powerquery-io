@@ -21,12 +21,15 @@ Number.IntegerDivide(
 
 ## Remarks
 
-ส่งคืนจำนวนเต็มของผลลัพธ์จากการหารตัวเลข <code>number1</code> โดยตัวเลขอีกตัวหนึ่ง <code>number2</code>    ถ้า <code>number1</code> หรือ <code>number2</code> เป็น null <code>ตัวเลข.หารจำนวนเต็ม</code> จะส่งคืนค่าเป็น null      <ul>        <li><code>number1</code>: ตัวตั้ง</li>        <li><code>number2</code>: ตัวหาร</li>      </ul>
+ส่งคืนจำนวนเต็มของผลลัพธ์จากการหารตัวเลข `number1` โดยตัวเลขอีกตัวหนึ่ง `number2` ถ้า `number1` หรือ `number2` เป็น null `ตัวเลข.หารจำนวนเต็ม` จะส่งคืนค่าเป็น null
+
+-   `number1`: ตัวตั้ง
+-   `number2`: ตัวหาร
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 หาร 6 ด้วย 4
 ```powerquery
 Number.IntegerDivide(6, 4)
@@ -38,7 +41,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 หาร 8.3 ด้วย 3
 ```powerquery
 Number.IntegerDivide(8.3, 3)

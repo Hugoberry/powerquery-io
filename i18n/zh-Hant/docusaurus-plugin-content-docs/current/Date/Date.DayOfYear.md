@@ -19,12 +19,12 @@ Date.DayOfYear(
 
 ## Remarks
 
-傳回數字，代表提供的 <code>date</code>、<code>datetime</code> 或 <code>datetimezone</code> 值 <code>dateTime</code> 是一年中的哪一天。
+傳回數字，代表提供的 `date`、`datetime` 或 `datetimezone` 值 `dateTime` 是一年中的哪一天。
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 2011 年 3 月 1 日那一年中的一天。
 ```powerquery
 Date.DayOfYear(#date(2011, 03, 01))

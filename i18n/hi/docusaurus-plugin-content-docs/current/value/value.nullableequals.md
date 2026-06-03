@@ -21,7 +21,7 @@ Value.NullableEquals(
 
 ## Remarks
 
-अगर '<code>value1</code>', '<code>value2</code> में से कोई भी एक तर्क नल है तो नल, अन्यथा Value.Equals के समतुल्य लौटाता है.
+अगर कोई भी तर्क `value1` या `value2` नल है, तो नल लौटाता है; अन्यथा यह Value.Equals के समतुल्य होता है.
 
 
 

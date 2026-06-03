@@ -5,7 +5,7 @@ title: DateTime.IsInCurrentSecond
 # DateTime.IsInCurrentSecond
 
 
-Indica se questo valore di data/ora rientra nel secondo corrente, come determinato dalla data e dall&#39;ora correnti del sistema.
+Indica se questo valore di data/ora rientra nel secondo corrente, come determinato dalla data e dall'ora correnti del sistema.
 
 
 ## Syntax
@@ -19,13 +19,15 @@ DateTime.IsInCurrentSecond(
 
 ## Remarks
 
-Indica se il valore di data/ora specificato <code>dateTime</code> rientra nel secondo corrente, come determinato dalla data e dall'ora correnti del sistema.      <ul>      <li><code>dateTime</code>: valore <code>datetime</code>, o valore <code>datetimezone</code> da valutare.</li>      </ul>
+Indica se il valore di data/ora specificato `dateTime` rientra nel secondo corrente, come determinato dalla data e dall'ora correnti del sistema.
+
+-   `dateTime`: valore `datetime`, o valore `datetimezone` da valutare.
 
 
 ## Examples
 
-### Example #1 
-Determinare se l&#39;ora di sistema corrente rientra nel secondo corrente.
+### Example #1
+Determinare se l'ora di sistema corrente rientra nel secondo corrente.
 ```powerquery
 DateTime.IsInCurrentSecond(DateTime.FixedLocalNow())
 ```

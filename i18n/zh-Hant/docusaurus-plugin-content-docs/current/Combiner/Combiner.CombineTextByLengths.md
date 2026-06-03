@@ -25,7 +25,7 @@ Combiner.CombineTextByLengths(
 
 ## Examples
 
-### Example #1 
+### Example #1
 從每個輸入值擷取指定的字元數，以結合文字值清單。
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3})({"aaa", "bbb", "ccc"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 使用範本文字預先填入結果之後，擷取指定的字元數，以結合文字值清單。
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3}, "*********")({"aaa", "bbb", "ccc"})

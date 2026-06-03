@@ -19,7 +19,7 @@ Value.Optimize(
 
 ## Remarks
 
-W przypadku użycia w funkcji Value.Expression, gdy element <code>value</code> reprezentuje zapytanie, które może zostać zoptymalizowane, ta funkcja wskazuje, że powinno zostać zwrócone zoptymalizowane wyrażenie. W przeciwnym razie element <code>value</code> zostanie przekazany bez żadnego efektu.
+W przypadku użycia w funkcji Value.Expression, gdy element `value` reprezentuje zapytanie, które może zostać zoptymalizowane, ta funkcja wskazuje, że powinno zostać zwrócone zoptymalizowane wyrażenie. W przeciwnym razie element `value` zostanie przekazany bez żadnego efektu.
 
 
 

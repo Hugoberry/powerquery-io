@@ -19,12 +19,12 @@ Table.ColumnNames(
 
 ## Remarks
 
-Trả về các tên cột trong bảng <code>table</code> ở dạng danh sách văn bản.
+Trả về các tên cột trong bảng `table` ở dạng danh sách văn bản.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm các tên cột của bảng.
 ```powerquery
 Table.ColumnNames(

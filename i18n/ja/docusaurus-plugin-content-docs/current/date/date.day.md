@@ -19,13 +19,15 @@ Date.Day(
 
 ## Remarks
 
-<code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値の日付部分を返します。      <ul>        <li><code>dateTime</code>: 日付部分を抽出する <code>date</code>、<code>datetime</code>、または <code>datetimezone</code> 値。</li>      </ul>
+`date`、`datetime`、または `datetimezone` 値の日付部分を返します。
+
+-   `dateTime`: 日付部分を抽出する `date`、`datetime`、または `datetimezone` 値。
 
 
 ## Examples
 
-### Example #1 
-5/14/2011 05:00:00 PM という日付と時刻を表す &lt;code&gt;date&lt;/code&gt;、&lt;code&gt;datetime&lt;/code&gt;、または &lt;code&gt;datetimezone&lt;/code&gt; 値の日付部分を取得します。
+### Example #1
+5/14/2011 05:00:00 PM という日付と時刻を表す `date`、`datetime`、または `datetimezone` 値の日付部分を取得します。
 ```powerquery
 Date.Day(#datetime(2011, 5, 14, 17, 0, 0))
 ```

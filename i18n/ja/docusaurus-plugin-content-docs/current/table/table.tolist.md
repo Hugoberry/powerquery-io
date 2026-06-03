@@ -25,7 +25,7 @@ Table.ToList(
 
 ## Examples
 
-### Example #1 
+### Example #1
 各行のテキストをコンマで結合します。
 ```powerquery
 Table.ToList(

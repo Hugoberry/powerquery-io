@@ -20,13 +20,13 @@ Record.Field(
 
 ## Remarks
 
-<code>record</code> 内の指定された <code>field</code> の値を返します。フィールドが見つからなかった場合は、例外がスローされます。
+`field` 内の指定された `record` の値を返します。フィールドが見つからない場合は、エラーが発生します。
 
 
 ## Examples
 
-### Example #1 
-レコード内のフィールド &#34;CustomerID&#34; の値を調べます。
+### Example #1
+レコード内のフィールド "CustomerID" の値を調べます。
 ```powerquery
 Record.Field([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")
 ```

@@ -21,13 +21,13 @@ Table.ContainsAll(
 
 ## Remarks
 
-Angiver, om alle de angivne poster på listen over poster <code>rows</code> vises som rækker i tabellen <code>table</code>.    Der kan angives en valgfri parameter <code>equationCriteria</code> for at styre sammenligningen mellem rækkerne i tabellen.
+Angiver, om alle de angivne poster på listen over poster `rows` vises som rækker i tabellen `table`. Der kan angives en valgfri parameter `equationCriteria` for at styre sammenligningen mellem rækkerne i tabellen.
 
 
 ## Examples
 
-### Example #1 
-Find ud af, om tabellen indeholder alle rækker ved kun at sammenligne kolonnen [CustomerID].
+### Example #1
+Find ud af, om tabellen indeholder alle rækker ved kun at sammenligne kolonnen \[CustomerID\].
 ```powerquery
 Table.ContainsAll(
     Table.FromRecords({
@@ -50,7 +50,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 Find ud af, om tabellen indeholder alle rækker.
 ```powerquery
 Table.ContainsAll(

@@ -21,13 +21,13 @@ Record.RemoveFields(
 
 ## Remarks
 
-入力 <code>record</code> からリスト <code>fields</code> で指定されたすべてのフィールドを削除したレコードを返します。指定されたフィールド名が存在しなかった場合は、例外がスローされます。
+入力 `fields` からリスト `record` で指定されたすべてのフィールドを削除したレコードを返します。指定されたフィールドが存在しない場合は、エラーが発生します。
 
 
 ## Examples
 
-### Example #1 
-レコードからフィールド &#34;Price&#34; を削除します。
+### Example #1
+レコードからフィールド "Price" を削除します。
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], "Price")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-レコードからフィールド &#34;Price&#34; と &#34;Item&#34; を削除します。
+### Example #2
+レコードからフィールド "Price" と "Item" を削除します。
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], {"Price", "Item"})
 ```

@@ -20,12 +20,12 @@ Table.TransformRows(
 
 ## Remarks
 
-Создает <code>список</code>, применяя операцию <code>transform</code> к каждой строке в <code>table</code>.
+Создает `список`, применяя операцию `transform` к каждой строке в `table`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Преобразуйте строки таблицы в список чисел.
 ```powerquery
 Table.TransformRows(
@@ -46,7 +46,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Преобразуйте строки числовой таблицы в текстовые записи.
 ```powerquery
 Table.TransformRows(

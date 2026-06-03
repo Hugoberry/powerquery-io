@@ -21,12 +21,12 @@ ApacheSpark.Tables(
 
 ## Remarks
 
-Retorna uma tabela que lista as tabelas do cluster <code>host</code> do Spark usando <code>protocol</code>. Os protocolos válidos são:SparkProtocol.Standard, SparkProtocol.HTTP
+Retorna uma tabela que lista as tabelas do cluster `host` do Spark usando `protocol`. Os protocolos válidos são: SparkProtocol.Standard, SparkProtocol.HTTP
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Retorna uma tabela que lista as tabelas do cluster do Spark especificado.
 ```powerquery
 Spark.Tables("http://example.com:10000/cliservice", SparkProtocol.HTTP)

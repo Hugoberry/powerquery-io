@@ -25,7 +25,7 @@ Splitter.SplitTextByRanges(
 
 ## Examples
 
-### Example #1 
+### Example #1
 入力の先頭から始め、指定された位置と長さのペアで入力を分割します。この例において、その範囲は重複しています。
 ```powerquery
 Splitter.SplitTextByRanges({{0, 4}, {2, 10}})("codelimiter")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 入力の末尾から始まり、指定された位置と長さのペアで入力を分割します。
 ```powerquery
 let
@@ -52,7 +52,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 入力を固定長の郵便番号に分割し、その後に可変長の市区町村名を指定します。
 ```powerquery
 Splitter.SplitTextByRanges({{0, 5}, {5, null}})("98052Redmond")

@@ -19,13 +19,15 @@ Time.ToRecord(
 
 ## Remarks
 
-返回包含给定时间值 <code>time</code> 的各个部分的记录。 <ul>        <li><code>time</code>: 要从中计算其各个部分的记录的 <code>time</code> 值。</li>      </ul>
+返回包含给定时间值 `time` 的各个部分的记录。
+
+-   `time`: 要从中计算其各个部分的记录的 `time` 值。
 
 
 ## Examples
 
-### Example #1 
-将 &lt;code&gt;#time(11, 56, 2)&lt;/code&gt; 值转换为包含时间值的记录。
+### Example #1
+将 `#time(11, 56, 2)` 值转换为包含时间值的记录。
 ```powerquery
 Time.ToRecord(#time(11, 56, 2))
 ```

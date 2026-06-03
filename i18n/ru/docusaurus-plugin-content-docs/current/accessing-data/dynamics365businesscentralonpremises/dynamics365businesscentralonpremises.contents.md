@@ -20,6 +20,6 @@ Dynamics365BusinessCentralOnPremises.Contents(
 
 ## Remarks
 
-Возвращает таблицу с нужными данными Dynamics 365 Business Central. 
+Возвращает таблицу с нужными данными Dynamics 365 Business Central.
 
 

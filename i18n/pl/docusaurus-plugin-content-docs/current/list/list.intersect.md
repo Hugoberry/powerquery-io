@@ -20,13 +20,13 @@ List.Intersect(
 
 ## Remarks
 
-Zwraca część wspólną wartości list znalezionych na liście wejściowej <code>lists</code>. Można także określić opcjonalny parametr <code>equationCriteria</code>.
+Zwraca część wspólną wartości list znalezionych na liście wejściowej `lists`. Można także określić opcjonalny parametr `equationCriteria`.
 
 
 ## Examples
 
-### Example #1 
-Znajdź część wspólną list \{1..5}, \{2..6}, \{3..7}.
+### Example #1
+Znajdź część wspólną list \{1..5\}, \{2..6\}, \{3..7\}.
 ```powerquery
 List.Intersect({{1..5}, {2..6}, {3..7}})
 ```

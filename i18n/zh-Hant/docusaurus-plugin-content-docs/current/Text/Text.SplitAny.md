@@ -20,25 +20,29 @@ Text.SplitAny(
 
 ## Remarks
 
-傳回文字值的清單，這是根據指定之分隔符號 <code>separators</code> 中的任何字元分割文字值 <code>text</code> 所產生的結果。
+傳回文字值的清單，這是根據分隔符號中指定的任何字元分割文字值產生的結果。
+
+-   `text`: 要分割的文字值。
+-   `separators`: 用來分割文字的分隔符號字元。
 
 
 ## Examples
 
-### Example #1 
-根據文字值 &#34;Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com&#34; 建立清單。
+### Example #1
+使用指定的分隔符號字元從指定文字建立清單。
 ```powerquery
-Text.SplitAny("Jamie|Campbell|Admin|Adventure Works|www.adventure-works.com", "|")
+Text.SplitAny("Name|Customer ID|Purchase|Month-Day-Year", "|-")
 ```
 
 Result: 
 ```powerquery
 {
-    "Jamie",
-    "Campbell",
-    "Admin",
-    "Adventure Works",
-    "www.adventure-works.com"
+    "Name",
+    "Customer ID",
+    "Purchase",
+    "Month",
+    "Day",
+    "Year"
 }
 ```
 

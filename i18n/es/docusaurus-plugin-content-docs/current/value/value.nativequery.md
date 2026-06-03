@@ -22,7 +22,17 @@ Value.NativeQuery(
 
 ## Remarks
 
- Evalúa <code>query</code>en contra <code>target</code> usar los parámetros especificados en <code>parameters</code> y las opciones especificadas en <code>options</code>.<br />La salida de la consulta se define mediante <code>target</code>.<br /><code>target</code>provecha el contexto de la operación descrita por <code>query</code>.<br /><code>query</code> describe la consulta que se va a ejecutar en <code>target</code>. <code>query</code>es expresado de forma específica para <code>target</code> (por ejemplo, una instrucción T-SQL).<br /> El valor opcional <code>parameters</code> puede contener una lista o un registro según corresponda para proporcionar los valores de parámetro esperados por <code>query</code>.<br />El registro opcional <code>options</code> puede contener opciones que afectan al comportamiento de evaluación de <code>query</code> en contra <code>target</code>. Estas opciones son específicas de <code>target</code>.<br />
+Evalúa `query`en contra `target` usar los parámetros especificados en `parameters` y las opciones especificadas en `options`.
+
+La salida de la consulta se define mediante `target`.
+
+`target`provecha el contexto de la operación descrita por `query`.
+
+`query` describe la consulta que se va a ejecutar en `target`. `query`es expresado de forma específica para `target` (por ejemplo, una instrucción T-SQL).
+
+El valor opcional `parameters` puede contener una lista o un registro según corresponda para proporcionar los valores de parámetro esperados por `query`.
+
+El registro opcional `options` puede contener opciones que afectan al comportamiento de evaluación de `query` en contra `target`. Estas opciones son específicas de `target`.
 
 
 

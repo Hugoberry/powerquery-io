@@ -19,12 +19,12 @@ Date.StartOfDay(
 
 ## Remarks
 
-Trả về thời gian đầu ngày được biểu thị bởi <code>dateTime</code>.    <code>dateTime</code> phải là giá trị <code>date</code>, <code>datetime</code> hoặc <code>datetimezone</code>.
+Trả về thời gian đầu ngày được biểu thị bởi `dateTime`. `dateTime` phải là giá trị `date`, `datetime` hoặc `datetimezone`.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Tìm thời gian đầu ngày cho ngày 10 tháng 10 năm 2011, 8:00 SA.
 ```powerquery
 Date.StartOfDay(#datetime(2011, 10, 10, 8, 0, 0))

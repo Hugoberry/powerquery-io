@@ -22,12 +22,17 @@ Table.ReplaceRows(
 
 ## Remarks
 
-<code>table</code> girdisinde <code>count</code> belirtilen sayısındaki satırı <code>offset</code> sonrasında başlayan, belirtilen <code>rows</code> ile değiştirir. <code>rows</code> parametresi bir kayıt listesidir.    <ul>       <li><code>table</code>: Değiştirmenin gerçekleştirildiği tablo.</li>       <li><code>offset</code>: Değiştirmeyi yapmadan önce atlanacak satır sayısı.</li>       <li><code>count</code>: Değiştirilecek satırların sayısı.</li>       <li><code>rows</code>: <code>table</code> öğesine, <code>offset</code> tarafından belirtilen konumda eklenecek satır kayıtlarının listesi.</li>    </ul>
+`table` girdisinde `count` belirtilen sayısındaki satırı `offset` sonrasında başlayan, belirtilen `rows` ile değiştirir. `rows` parametresi bir kayıt listesidir.
+
+-   `table`: Değiştirmenin gerçekleştirildiği tablo.
+-   `offset`: Değiştirmeyi yapmadan önce atlanacak satır sayısı.
+-   `count`: Değiştirilecek satırların sayısı.
+-   `rows`: `table` öğesine, `offset` tarafından belirtilen konumda eklenecek satır kayıtlarının listesi.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 1 konumundan başlayarak 3 satır değiştirir.
 ```powerquery
 Table.ReplaceRows(

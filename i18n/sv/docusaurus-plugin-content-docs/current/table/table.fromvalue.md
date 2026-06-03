@@ -20,12 +20,14 @@ Table.FromValue(
 
 ## Remarks
 
-Skapar en tabell med en kolumn som innehåller det angivna värdet eller listan med värden, <code>value</code>. En valfri postparameter, <code>options</code>, kan anges för att styra följande alternativ:    <ul>    <li> <code>DefaultColumnName</code> : Det kolumnnamn som används när man skapar en tabell från en lista eller ett skalärvärde.</li>    </ul>  
+Skapar en tabell med en kolumn som innehåller det angivna värdet eller listan med värden, `value`. En valfri postparameter `options`, kan anges för att styra följande alternativ:
+
+-   `DefaultColumnName` : Det kolumnnamn som används när man skapar en tabell från en lista eller ett skalärvärde.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Skapa en tabell från värdet 1.
 ```powerquery
 Table.FromValue(1)
@@ -37,7 +39,7 @@ Table.FromRecords({[Value = 1]})
 ```
 
 
-### Example #2 
+### Example #2
 Skapa en tabell från listan.
 ```powerquery
 Table.FromValue({1, "Bob", "123-4567"})
@@ -53,7 +55,7 @@ Table.FromRecords({
 ```
 
 
-### Example #3 
+### Example #3
 Skapa en tabell från värdet 1, med ett anpassat kolumnnamn.
 ```powerquery
 Table.FromValue(1, [DefaultColumnName = "MyValue"])

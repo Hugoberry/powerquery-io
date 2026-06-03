@@ -24,7 +24,7 @@ Splitter.SplitTextByWhitespace(
 
 ## Examples
 
-### Example #1 
+### Example #1
 उद्धरणों को किसी अन्य वर्ण की तरह मानते हुए, इनपुट को श्वेत रिक्ति वर्णों से विभाजित करें.
 ```powerquery
 Splitter.SplitTextByWhitespace(QuoteStyle.None)("a b#(tab)c")

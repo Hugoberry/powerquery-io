@@ -21,12 +21,12 @@ List.DateTimeZones(
 
 ## Remarks
 
-Devuelve una lista de valores <code>datetimezone</code> de tamaño <code>count</code>, a partir de <code>start</code>. El incremento especificado, <code>step</code>, es un valor <code>duration</code> que se agrega a cada valor.
+Devuelve una lista de valores `datetimezone` de tamaño `count`, a partir de `start`. El incremento especificado, `step`, es un valor `duration` que se agrega a cada valor.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Crear una lista de 10 valores comenzando 5 minutos antes del Día del Año Nuevo (#datetimezone(2011, 12, 31, 23, 55, 0, -8, 0)) con incrementos de 1 minuto (#duration (0, 0, 1, 0)).
 ```powerquery
 List.DateTimeZones(#datetimezone(2011, 12, 31, 23, 55, 0, -8, 0), 10, #duration(0, 0, 1, 0))

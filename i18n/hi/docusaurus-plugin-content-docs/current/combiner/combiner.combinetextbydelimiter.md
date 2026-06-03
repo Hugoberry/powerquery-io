@@ -25,7 +25,7 @@ Combiner.CombineTextByDelimiter(
 
 ## Examples
 
-### Example #1 
+### Example #1
 किसी अर्धविराम डिलिमिटर का उपयोग करके पाठ मानों की एक सूची संयोजित करें.
 ```powerquery
 Combiner.CombineTextByDelimiter(";")({"a", "b", "c"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 किसी अल्पविराम डिलिमिटर और CSV-शैली के उद्धरण का उपयोग करके दो स्तंभों के पाठ को संयोजित करें.
 ```powerquery
 let

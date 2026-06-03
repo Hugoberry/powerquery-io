@@ -20,12 +20,12 @@ Date.MonthName(
 
 ## Remarks
 
-ส่งกลับคอมโพเนนต์ชื่อของเดือนสำหรับ <code>date</code> ที่ระบุ อาจมีการระบุ <code>culture</code> เพิ่มเติม (ตัวอย่างเช่น "en-US")
+ส่งกลับคอมโพเนนต์ชื่อของเดือนสำหรับ `date` ที่ระบุ อาจมีการระบุ `culture` เพิ่มเติม (ตัวอย่างเช่น "en-US")
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 ดึงข้อมูลชื่อเดือน
 ```powerquery
 Date.MonthName(#datetime(2011, 12, 31, 5, 0, 0), "en-US")

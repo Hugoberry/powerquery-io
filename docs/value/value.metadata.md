@@ -5,7 +5,7 @@ title: Value.Metadata
 # Value.Metadata
 
 
-Returns a record containing the input&#39;s metadata.
+Returns a record containing the input's metadata.
 
 
 ## Syntax

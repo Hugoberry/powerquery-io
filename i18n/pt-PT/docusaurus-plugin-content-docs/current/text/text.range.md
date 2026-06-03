@@ -21,13 +21,13 @@ Text.Range(
 
 ## Remarks
 
-Devolve a subcadeia do texto <code>text</code> encontrada no desvio <code>offset</code>.    É possível incluir um parâmetro opcional, <code>count</code>, para especificar o número de carateres a devolver. Gera um erro se não existirem carateres suficientes.
+Devolve a subcadeia do texto `text` encontrada no desvio `offset`. É possível incluir um parâmetro opcional, `count`, para especificar o número de carateres a devolver. Gera um erro se não existirem carateres suficientes.
 
 
 ## Examples
 
-### Example #1 
-Determinar a subcadeia do texto &#34;Olá Mundo&#34; que começa no índice 6.
+### Example #1
+Determinar a subcadeia do texto "Olá Mundo" que começa no índice 6.
 ```powerquery
 Text.Range("Hello World", 6)
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Determinar a subcadeia do texto &#34;Olá Mundo Olá&#34; que começa no índice 6 e abrange 5 carateres.
+### Example #2
+Determinar a subcadeia do texto "Olá Mundo Olá" que começa no índice 6 e abrange 5 carateres.
 ```powerquery
 Text.Range("Hello World Hello", 6, 5)
 ```

@@ -20,13 +20,13 @@ Record.Field(
 
 ## Remarks
 
-Gibt den Wert des angegebenen Elements vom Typ "<code>field</code>" in "<code>record</code>" zurück. Wird das Feld nicht gefunden, wird eine Ausnahme ausgelöst.
+Gibt den Wert des angegebenen Elements vom Typ „`field`“ in „`record`“ zurück. Wenn das Feld nicht gefunden wird, wird ein Fehler ausgelöst.
 
 
 ## Examples
 
-### Example #1 
-Ermittelt den Wert des Felds &#39;CustomerID&#39; im Datensatz.
+### Example #1
+Ermittelt den Wert des Felds 'CustomerID' im Datensatz.
 ```powerquery
 Record.Field([CustomerID = 1, Name = "Bob", Phone = "123-4567"], "CustomerID")
 ```

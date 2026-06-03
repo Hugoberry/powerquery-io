@@ -19,7 +19,7 @@ Number.Asin(
 
 ## Remarks
 
-傳回 <code>number</code> 的反正弦值。
+傳回 `number` 的反正弦值。
 
 
 

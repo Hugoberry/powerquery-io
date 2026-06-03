@@ -21,12 +21,12 @@ Table.AddKey(
 
 ## Remarks
 
-Lägg till en nyckel i <code>table</code>, där <code>columns</code> är en del av kolumnnamnen som definierar nyckeln och <code>isPrimary</code> anger om nyckeln är primär.
+Lägg till en nyckel i `table`, där `columns` är en del av kolumnnamnen som definierar nyckeln och `isPrimary` anger om nyckeln är primär.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Lägg till en primärnyckel med en kolumn i en tabell.
 ```powerquery
 let

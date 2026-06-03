@@ -28,8 +28,8 @@ Table.Pivot(
 
 ## Examples
 
-### Example #1 
-तालिका &lt;code&gt;(\{ [ key = &#34;x&#34;, attribute = &#34;a&#34;, value = 1 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 3 ], [ key = &#34;y&#34;, attribute = &#34;a&#34;, value = 2 ], [ key = &#34;y&#34;, attribute = &#34;b&#34;, value = 4 ] })&lt;/code&gt; के विशेषता स्तंभ में &#34;a&#34;, &#34;b&#34; और &#34;c&#34; मानों को ले जाएँ और उन्हें उनके अपने स्तंभ में पिवट करें.
+### Example #1
+तालिका `({ [ key = "x", attribute = "a", value = 1 ], [ key = "x", attribute = "c", value = 3 ], [ key = "y", attribute = "a", value = 2 ], [ key = "y", attribute = "b", value = 4 ] })` के विशेषता स्तंभ में "a", "b" और "c" मानों को ले जाएँ और उन्हें उनके अपने स्तंभ में पिवट करें.
 ```powerquery
 Table.Pivot(
     Table.FromRecords({
@@ -53,8 +53,8 @@ Table.FromRecords({
 ```
 
 
-### Example #2 
-तालिका &lt;code&gt;(\{ [ key = &#34;x&#34;, attribute = &#34;a&#34;, value = 1 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 3 ], [ key = &#34;x&#34;, attribute = &#34;c&#34;, value = 5 ], [ key = &#34;y&#34;, attribute = &#34;a&#34;, value = 2 ], [ key = &#34;y&#34;, attribute = &#34;b&#34;, value = 4 ] })&lt;/code&gt; के विशेषता स्तंभ में &#34;a&#34;, &#34;b&#34; और &#34;c&#34; मानों को ले जाएँ और उन्हें उनके अपने स्तंभ में पिवट करें.  कुंजी &#34;x&#34; के लिए विशेषता &#34;c&#34; में उससे संबद्ध एकाधिक मान हैं, इसलिए विरोध को हल करने के लिए फ़ंक्शन List.Max का उपयोग करें.
+### Example #2
+तालिका `({ [ key = "x", attribute = "a", value = 1 ], [ key = "x", attribute = "c", value = 3 ], [ key = "x", attribute = "c", value = 5 ], [ key = "y", attribute = "a", value = 2 ], [ key = "y", attribute = "b", value = 4 ] })` के विशेषता स्तंभ में "a", "b" और "c" मानों को ले जाएँ और उन्हें उनके अपने स्तंभ में पिवट करें. कुंजी "x" के लिए विशेषता "c" में उससे संबद्ध एकाधिक मान हैं, इसलिए विरोध को हल करने के लिए फ़ंक्शन List.Max का उपयोग करें.
 ```powerquery
 Table.Pivot(
     Table.FromRecords({

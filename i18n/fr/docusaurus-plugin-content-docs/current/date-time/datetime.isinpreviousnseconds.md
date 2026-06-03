@@ -5,7 +5,7 @@ title: DateTime.IsInPreviousNSeconds
 # DateTime.IsInPreviousNSeconds
 
 
-Indique si cette valeur datetime se produit dans le nombre de secondes précédentes, par rapport à la date et l&#39;heure actuelles du système. Notez que cette fonction retourne la valeur false si la valeur transmise se produit dans la seconde actuelle.
+Indique si cette valeur datetime se produit dans le nombre de secondes précédentes, par rapport à la date et l'heure actuelles du système. Notez que cette fonction retourne la valeur false si la valeur transmise se produit dans la seconde actuelle.
 
 
 ## Syntax
@@ -20,13 +20,16 @@ DateTime.IsInPreviousNSeconds(
 
 ## Remarks
 
-Indique si la valeur datetime <code>dateTime</code> donnée se produit dans le nombre de secondes précédentes, par rapport à la date et l'heure actuelles du système. Notez que cette fonction retourne la valeur false si la valeur transmise se produit dans la seconde actuelle.      <ul>      <li><code>dateTime</code> : Valeur <code>datetime</code> ou <code>datetimezone</code> à évaluer.</li>      <li><code>seconds</code> : Nombre de secondes.</li>      </ul>
+Indique si la valeur datetime `dateTime` donnée se produit dans le nombre de secondes précédentes, par rapport à la date et l'heure actuelles du système. Notez que cette fonction retourne la valeur false si la valeur transmise se produit dans la seconde actuelle.
+
+-   `dateTime` : Valeur `datetime` ou `datetimezone` à évaluer.
+-   `seconds` : Nombre de secondes.
 
 
 ## Examples
 
-### Example #1 
-Détermine si la seconde précédant l&#39;heure système actuelle tombe pendant les deux secondes précédentes.
+### Example #1
+Détermine si la seconde précédant l'heure système actuelle tombe pendant les deux secondes précédentes.
 ```powerquery
 DateTime.IsInPreviousNSeconds(DateTime.FixedLocalNow() - #duration(0, 0, 0, 2), 2)
 ```

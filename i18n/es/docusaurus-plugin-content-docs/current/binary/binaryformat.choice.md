@@ -22,12 +22,22 @@ BinaryFormat.Choice(
 
 ## Remarks
 
-Devuelve un formato binario que elige el formato binario siguiente según un valor que ya se ha leído.  El valor de formato binario generado por esta función funciona en fases:<ul><li>El formato binario especificado por el parámetro <code>binaryFormat</code> se usa para leer un valor.</li><li>El valor se pasa a la función elegida especificada por el parámetro <code>chooseFunction</code>.</li><li>La función elegida inspecciona el valor y devuelve un segundo formato binario.</li><li>El segundo formato binario se usa para leer un segundo valor.</li><li>Si se especifica la función de combinación, se pasan el primer y el segundo valor a la misma y se devuelve el valor resultante.</li><li>Si no se especifica la función de combinación, se devuelve el segundo valor.</li><li>Se devuelve el segundo valor.</li></ul>El parámetro opcional <code>type</code> indica el tipo de formato binario que devolverá la función elegida.  Puede especificar <code>type any</code>, <code>type list</code> o <code>type binary</code>.  Si el parámetro <code>type</code> no se especifica, se usa <code>type any</code>.   Si se usa <code>type list</code> o <code>type binary</code>, el sistema puede devolver un valor <code>binary</code> o <code>list</code> en secuencia en vez de uno almacenado en búfer, lo que puede reducir la cantidad de memoria necesaria para leer el formato.
+Devuelve un formato binario que elige el formato binario siguiente según un valor que ya se ha leído. El valor de formato binario generado por esta función funciona en fases:
+
+-   El formato binario especificado por el parámetro `binaryFormat` se usa para leer un valor.
+-   El valor se pasa a la función elegida especificada por el parámetro `chooseFunction`.
+-   La función elegida inspecciona el valor y devuelve un segundo formato binario.
+-   El segundo formato binario se usa para leer un segundo valor.
+-   Si se especifica la función de combinación, se pasan el primer y el segundo valor a la misma y se devuelve el valor resultante.
+-   Si no se especifica la función de combinación, se devuelve el segundo valor.
+-   Se devuelve el segundo valor.
+
+El parámetro opcional `type` indica el tipo de formato binario que devolverá la función elegida. Puede especificar `type any`, `type list` o `type binary`. Si el parámetro `type` no se especifica, se usa `type any`. Si se usa `type list` o `type binary`, el sistema puede devolver un valor `binary` o `list` en secuencia en vez de uno almacenado en búfer, lo que puede reducir la cantidad de memoria necesaria para leer el formato.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Leer una lista de bytes cuyo número de elementos viene determinado por el primer byte.
 ```powerquery
 let
@@ -46,7 +56,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Leer una lista de bytes cuyo número de elementos viene determinado por el primer byte y conservar el primer byte leído.
 ```powerquery
 let
@@ -68,7 +78,7 @@ Result:
 ```
 
 
-### Example #3 
+### Example #3
 Leer una lista de bytes cuyo número de elementos viene determinado por el primer byte con una lista en secuencia.
 ```powerquery
 let

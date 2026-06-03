@@ -19,13 +19,13 @@ Logical.ToText(
 
 ## Remarks
 
-Tworzy wartość tekstową na podstawie wartości logicznej <code>logicalValue</code> (<code>true</code> lub <code>false</code>). Jeśli wartość parametru <code>logicalValue</code> nie jest wartością logiczną, jest zwracany wyjątek.
+Tworzy wartość tekstową na podstawie wartości logicznej `logicalValue`, (`true` lub `false`). Jeśli element `logicalValue` nie jest wartością logiczną, jest zgłaszany błąd.
 
 
 ## Examples
 
-### Example #1 
-Utwórz wartość tekstową na podstawie wartości logicznej &lt;code&gt;true&lt;/code&gt;.
+### Example #1
+Utwórz wartość tekstową na podstawie wartości logicznej `true`.
 ```powerquery
 Logical.ToText(true)
 ```

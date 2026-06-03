@@ -21,13 +21,13 @@ Record.RemoveFields(
 
 ## Remarks
 
-Returnerer en post, der fjerner alle de felter, som er angivet på listen <code>fields</code>, fra inputtet <code>record</code>. Hvis det angivne felt ikke findes, udløses der en undtagelse.
+Returnerer en post, der fjerner alle de felter, som er angivet på listen `fields`, fra inputtet `record`. Hvis det angivne felt ikke findes, udløses der en fejl.
 
 
 ## Examples
 
-### Example #1 
-Fjern feltet &#34;Price&#34; fra posten.
+### Example #1
+Fjern feltet "Price" fra posten.
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], "Price")
 ```
@@ -38,8 +38,8 @@ Result:
 ```
 
 
-### Example #2 
-Fjern felterne &#34;Price&#34; og &#34;Item&#34; fra posten.
+### Example #2
+Fjern felterne "Price" og "Item" fra posten.
 ```powerquery
 Record.RemoveFields([CustomerID = 1, Item = "Fishing rod", Price = 18.00], {"Price", "Item"})
 ```

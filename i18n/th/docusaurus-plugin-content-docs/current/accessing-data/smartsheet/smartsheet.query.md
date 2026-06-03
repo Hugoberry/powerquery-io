@@ -26,7 +26,7 @@ Smartsheet.Query(
 
 ## Examples
 
-### Example #1 
+### Example #1
 ดึงข้อมูลจากชีทที่จุดแสดงผล API ของ Smartsheet พร้อมด้วยอาร์กิวเมนต์เพิ่มเติมเฉพาะ
 ```powerquery
 Smartsheet.Content("sheets", "include=ownerInfo&includeAll=true", [])

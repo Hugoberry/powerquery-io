@@ -24,7 +24,7 @@ Gibt eine Funktion zurück, die Text an den Leerzeichen zu einer Liste mit Text 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Teilen Sie die Eingabe durch Leerzeichen auf, und behandeln Sie Anführungszeichen wie alle anderen Zeichen.
 ```powerquery
 Splitter.SplitTextByWhitespace(QuoteStyle.None)("a b#(tab)c")

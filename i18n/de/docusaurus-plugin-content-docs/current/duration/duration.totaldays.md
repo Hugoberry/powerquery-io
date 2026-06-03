@@ -19,12 +19,12 @@ Duration.TotalDays(
 
 ## Remarks
 
-Gibt die Gesamtzahl der Tage zurück, die von <code>duration</code> umfasst werden.
+Gibt die Gesamtzahl der Tage zurück, die von `duration` umfasst werden.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Die Gesamtzahl der Tage suchen, die sich über einen Dauerwert erstrecken.
 ```powerquery
 Duration.TotalDays(#duration(5, 4, 3, 2))

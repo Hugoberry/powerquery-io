@@ -22,12 +22,17 @@ Table.ReplaceRows(
 
 ## Remarks
 
-Ersetzt eine angegebene Anzahl von Zeilen (<code>count</code>) in der Eingabe "<code>table</code>" durch die Elemente vom Typ "<code>rows</code>" (beginnend ab "<code>offset</code>"). Der Parameter "<code>rows</code>" ist eine Liste mit Datensätzen.    <ul>       <li><code>table</code>: Die Tabelle, in der die Ersetzung ausgeführt wird.</li>       <li><code>offset</code>: Die Anzahl von Zeilen, die vor der Ersetzung übersprungen werden sollen.</li>       <li><code>count</code>: Die Anzahl der zu ersetzenden Zeilen.</li>       <li><code>rows</code>: Die Liste mit den Zeilendatensätzen, die an der durch "<code>offset</code>" angegebenen Position in "<code>table</code>" eingefügt werden sollen.</li>    </ul>
+Ersetzt eine angegebene Anzahl von Zeilen (`count`) in der Eingabe "`table`" durch die Elemente vom Typ "`rows`" (beginnend ab "`offset`"). Der Parameter "`rows`" ist eine Liste mit Datensätzen.
+
+-   `table`: Die Tabelle, in der die Ersetzung ausgeführt wird.
+-   `offset`: Die Anzahl von Zeilen, die vor der Ersetzung übersprungen werden sollen.
+-   `count`: Die Anzahl der zu ersetzenden Zeilen.
+-   `rows`: Die Liste mit den Zeilendatensätzen, die an der durch "`offset`" angegebenen Position in "`table`" eingefügt werden sollen.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ersetzt ab Position 1 drei Zeilen in der Tabelle.
 ```powerquery
 Table.ReplaceRows(

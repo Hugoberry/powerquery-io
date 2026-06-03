@@ -20,13 +20,13 @@ Percentage.From(
 
 ## Remarks
 
-从给定的 <code>value</code> 返回 <code>percentage</code> 值。如果给定的 <code>value</code> 为 <code>null</code>，则 <code>Percentage.From</code> 将返回 <code>null</code>。如果给定的 <code>value</code> 是带有尾随百分比符号的 <code>text</code>，则返回转换的小数。否则，请使用 <code>Number.From</code> 将该值转换为 <code>number</code>。还可提供可选的 <code>culture</code> (例如 “en-US”)。
+从给定的 `value` 返回 `percentage` 值。如果给定的 `value` 为 `null`，则 `Percentage.From` 将返回 `null`。如果给定的 `value` 是带有尾随百分比符号的 `text`，则返回转换的小数。否则，请使用 `Number.From` 将该值转换为 `number`。还可提供可选的 `culture` (例如 “en-US”)。
 
 
 ## Examples
 
-### Example #1 
-获取 &lt;code&gt;&#34;12.3%&#34;&lt;/code&gt; 的&lt;code&gt;百分比&lt;/code&gt;值。
+### Example #1
+获取 `"12.3%"` 的`百分比`值。
 ```powerquery
 Percentage.From("12.3%")
 ```

@@ -21,12 +21,12 @@ Marketo.Activities(
 
 ## Remarks
 
-Ruft den Marketo-REST-API-Endpunkt unter <code>url</code>/rest/v1/activities.json auf. Es werden alle Aktivitäten in Liste <code>activityIds</code> zurückgegeben, die seit <code>startTime</code> aufgetreten sind.
+Ruft den Marketo-REST-API-Endpunkt unter `url`/rest/v1/activities.json auf. Es werden alle Aktivitäten in Liste `activityIds` zurückgegeben, die seit `startTime` aufgetreten sind.
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Ruft eine Tabelle mit Besuchsaktivitäten auf Webseiten seit dem 1. November 2015 ab.
 ```powerquery
 Marketo.Activities("https://100-AAA-999.mktorest.com/rest", #date(2015,11,1), {1})

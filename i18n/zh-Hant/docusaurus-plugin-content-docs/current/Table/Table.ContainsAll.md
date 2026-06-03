@@ -21,13 +21,13 @@ Table.ContainsAll(
 
 ## Remarks
 
-指出記錄清單 <code>rows</code> 中所有指定的記錄是否都顯示成 <code>table</code> 中的資料列。    可指定選擇性參數 <code>equationCriteria</code> 以控制資料表資料列之間的比較方式。
+指出記錄清單 `rows` 中所有指定的記錄是否都顯示成 `table` 中的資料列。 可指定選擇性參數 `equationCriteria` 以控制資料表資料列之間的比較方式。
 
 
 ## Examples
 
-### Example #1 
-在只比較 [CustomerID] 資料行的情況下，判斷資料表是否包含所有資料列。
+### Example #1
+在只比較 \[CustomerID\] 資料行的情況下，判斷資料表是否包含所有資料列。
 ```powerquery
 Table.ContainsAll(
     Table.FromRecords({
@@ -50,7 +50,7 @@ true
 ```
 
 
-### Example #2 
+### Example #2
 判斷資料表是否包含所有資料列。
 ```powerquery
 Table.ContainsAll(

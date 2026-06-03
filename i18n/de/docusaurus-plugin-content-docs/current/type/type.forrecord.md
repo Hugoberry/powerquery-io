@@ -25,7 +25,7 @@ Gibt einen Typ zurück, der für Datensätze mit bestimmten Typeinschränkungen 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Generieren Sie dynamisch einen Tabellentyp.
 ```powerquery
 let

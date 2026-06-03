@@ -25,7 +25,7 @@ Zwraca funkcję dzielącą tekst na listę wartości tekstowych w sposób powtar
 
 ## Examples
 
-### Example #1 
+### Example #1
 Podziel wielokrotnie dane wejściowe na fragmenty o trzech znakach, zaczynając od początku danych wejściowych.
 ```powerquery
 Splitter.SplitTextByRepeatedLengths(3)("12345678")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Podziel wielokrotnie dane wejściowe na fragmenty składające się z trzech znaków, zaczynając od końca danych wejściowych.
 ```powerquery
 let

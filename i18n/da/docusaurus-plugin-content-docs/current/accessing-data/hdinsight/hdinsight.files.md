@@ -20,7 +20,7 @@ HdInsight.Files(
 
 ## Remarks
 
-Returnerer en tabel, der indeholder en række for hver blobfil, der blev fundet på beholderens URL-adresse, <code>account</code>, i en samling af legitimationsoplysninger i Azure storage. De enkelte rækker indeholder egenskaber for filen og et link til filens indhold.
+Returnerer en tabel, der indeholder en række for hver blobfil, der blev fundet på beholderens URL-adresse, `account`, i en samling af legitimationsoplysninger i Azure storage. De enkelte rækker indeholder egenskaber for filen og et link til filens indhold.
 
 
 

@@ -5,7 +5,7 @@ title: Function.Invoke
 # Function.Invoke
 
 
-Anropar angiven funktion
+Anropar angiven funktion.
 
 
 ## Syntax
@@ -25,8 +25,8 @@ Anropar angiven funktion baserat på den angivna listan med argument och returne
 
 ## Examples
 
-### Example #1 
-Anropar Record.FieldNames med ett argument [A=1,B=2]
+### Example #1
+Anropar Record.FieldNames med ett argument \[A=1,B=2\].
 ```powerquery
 Function.Invoke(Record.FieldNames, {[A = 1, B = 2]})
 ```

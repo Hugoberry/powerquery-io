@@ -25,7 +25,7 @@ MailChimp.Collection(
 
 ## Examples
 
-### Example #1 
+### Example #1
 ดึงตารางข้อมูลจากจุดสิ้นสุดรายการของ MailChimp API
 ```powerquery
 MailChimp.Collection("รายการ")
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 ดึงตารางข้อมูลจากจุดสิ้นสุดโฟลเดอร์แคมเปญของ MailChimp API
 ```powerquery
 MailChimp.Collection("campaign-folders", "โฟลเดอร์")

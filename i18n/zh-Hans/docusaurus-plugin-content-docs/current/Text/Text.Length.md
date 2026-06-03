@@ -19,13 +19,13 @@ Text.Length(
 
 ## Remarks
 
-返回文本 <code>text</code> 中的字符数。
+返回文本 `text` 中的字符数。
 
 
 ## Examples
 
-### Example #1 
-查找文本 &#34;Hello World&#34; 中有多少个字符。
+### Example #1
+查找文本 "Hello World" 中有多少个字符。
 ```powerquery
 Text.Length("Hello World")
 ```

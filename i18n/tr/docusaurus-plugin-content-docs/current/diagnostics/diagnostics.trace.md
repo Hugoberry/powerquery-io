@@ -22,12 +22,18 @@ Diagnostics.Trace(
 
 ## Remarks
 
-İzleme etkinse bir izleme <code>message</code> yazar ve <code>value</code> döndürür. İsteğe bağlı <code>delayed</code> parametresi, ileti izlenene kadar <code>value</code> değerlendirmesinin ertelenip ertelenmeyeceğini belirtir. <code>traceLevel</code> şu değerlerden birini alabilir:    <code>TraceLevel.Critical</code>    <code>TraceLevel.Error</code>,    <code>TraceLevel.Warning</code>,    <code>TraceLevel.Information</code>,    <code>TraceLevel.Verbose</code>.  
+İzleme etkinse `message` bir izleme kaydı yazar ve `value` değerini döndürür. İsteğe bağlı `delayed` parametresi, `value`'ün değerlendirilmesinin mesajın izlenmesine kadar ertelenip ertelenmeyeceğini belirler. `traceLevel` aşağıdaki değerlerden birini alabilir:
+
+-   `TraceLevel.Critical`
+-   `TraceLevel.Error`
+-   `TraceLevel.Warning`
+-   `TraceLevel.Information`
+-   `TraceLevel.Verbose`
 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Text.From işlevini çağırmadan önce iletiyi izler ve sonucu döndürür.
 ```powerquery
 Diagnostics.Trace(TraceLevel.Information, "TextValueFromNumber", () => Text.From(123), true)

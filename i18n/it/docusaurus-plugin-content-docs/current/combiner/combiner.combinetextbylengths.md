@@ -25,7 +25,7 @@ Restituisce una funzione che combina un elenco di valori di testo in un singolo 
 
 ## Examples
 
-### Example #1 
+### Example #1
 Combina un elenco di valori di testo estraendo i numeri di caratteri specificati da ogni valore di input.
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3})({"aaa", "bbb", "ccc"})
@@ -37,7 +37,7 @@ Result:
 ```
 
 
-### Example #2 
+### Example #2
 Combina un elenco di valori di testo estraendo i numeri di caratteri specificati, dopo aver pre-compilato il risultato con il testo del modello.
 ```powerquery
 Combiner.CombineTextByLengths({1, 2, 3}, "*********")({"aaa", "bbb", "ccc"})

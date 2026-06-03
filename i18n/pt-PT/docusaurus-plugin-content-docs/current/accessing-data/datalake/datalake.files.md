@@ -20,6 +20,6 @@ DataLake.Files(
 
 ## Remarks
 
-Devolve uma tabela com uma linha para cada ficheiro presente no <code>url</code> do Azure Data Lake Storage Gen1. Cada linha contém as propriedades da pasta ou do ficheiro e uma ligação para o respetivo conteúdo.
+Devolve uma tabela com uma linha para cada ficheiro presente no `url` do Azure Data Lake Storage Gen1. Cada linha contém as propriedades da pasta ou do ficheiro e uma ligação para o respetivo conteúdo.
 
 
