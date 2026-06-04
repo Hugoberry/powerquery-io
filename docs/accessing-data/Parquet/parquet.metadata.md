@@ -26,8 +26,6 @@ This function is intended for internal use only.
 ## Category
 Accessing data
 
+import Partial_Parquet_Metadata from './_parquet.metadata.mdx'
 
-import ParquetMetadata from './_parquet.metadata.mdx'
-
-<ParquetMetadata />
-
+<Partial_Parquet_Metadata />

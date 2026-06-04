@@ -177,7 +177,7 @@ function generateLocale(locale, opts) {
 
   const { functions } = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
   let written = 0;
-  let skipped = 0;
+  let appended = 0;
 
   for (const fn of functions) {
     const doc = fn.Documentation || {};
@@ -198,19 +198,27 @@ function generateLocale(locale, opts) {
     });
 
     const outPath = path.join(outputDir, relativeDocPath(fn, opts.lowercase));
-    // Respect hand-authored .mdx overrides: skip generating a .md that would
-    // collide with an existing .mdx (same doc id) and clobber the manual page.
-    if (fs.existsSync(outPath.replace(/\.md$/, '.mdx'))) {
-      skipped++;
-      continue;
+
+    // Hand-authored expansion: if a `_<name>.mdx` partial sits next to the
+    // output, append it so the generated definition stays fresh from JSON while
+    // the extra prose is preserved. Docusaurus processes .md as MDX, so the
+    // import works; `_`-prefixed files are excluded from routing.
+    let finalOutput = output;
+    const partialName = `_${path.basename(outPath, '.md')}.mdx`;
+    const partialPath = path.join(path.dirname(outPath), partialName);
+    if (fs.existsSync(partialPath)) {
+      const component = `Partial_${fn.Name.replace(/[^A-Za-z0-9]/g, '_')}`;
+      finalOutput += `\nimport ${component} from './${partialName}'\n\n<${component} />\n`;
+      appended++;
     }
+
     fs.mkdirSync(path.dirname(outPath), { recursive: true });
-    fs.writeFileSync(outPath, output);
+    fs.writeFileSync(outPath, finalOutput);
     written++;
   }
 
-  const skipNote = skipped ? ` (${skipped} kept as .mdx overrides)` : '';
-  console.log(`✓ ${locale}: ${written} files${skipNote} -> ${path.relative(process.cwd(), outputDir)}`);
+  const appendNote = appended ? ` (${appended} with .mdx partials appended)` : '';
+  console.log(`✓ ${locale}: ${written} files${appendNote} -> ${path.relative(process.cwd(), outputDir)}`);
   return { locale, written, outputDir };
 }
 
