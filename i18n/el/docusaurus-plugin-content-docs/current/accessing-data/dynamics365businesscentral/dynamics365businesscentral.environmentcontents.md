@@ -1,0 +1,25 @@
+---
+title: Dynamics365BusinessCentral.EnvironmentContents
+---
+
+# Dynamics365BusinessCentral.EnvironmentContents
+
+
+Εισαγάγετε το περιβάλλον και την εταιρεία σας Dynamics 365 Business Central.
+
+
+## Syntax
+
+```powerquery
+Dynamics365BusinessCentral.EnvironmentContents(
+    optional environment as text,
+    optional company as text
+) as table
+```
+
+
+## Remarks
+
+Επιστρέφει έναν πίνακα με σχετικά δεδομένα Dynamics 365 Business Central.
+
+

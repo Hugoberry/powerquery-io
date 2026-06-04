@@ -141,10 +141,31 @@ function relativeDocPath(fn, lowercase) {
   const namespace = category === 'accessing-data' && fn.Name.includes('.')
     ? fn.Name.split('.')[0]
     : null;
+  const lc = s => (lowercase ? s.toLowerCase() : s);
+  // The accessing-data namespace folder keeps its original casing (e.g.
+  // ClickHouse, CCHTagetik, VivaInsightsApi); only the category segment and the
+  // file name follow the lowercase flag. This matches the hand-authored
+  // _category_.json folders already committed under docs/accessing-data/*.
   const segments = namespace
-    ? [category, namespace, `${fn.Name}.md`]
-    : [category, `${fn.Name}.md`];
-  return (lowercase ? segments.map(s => s.toLowerCase()) : segments).join(path.sep);
+    ? [lc(category), namespace, `${lc(fn.Name)}.md`]
+    : [lc(category), `${lc(fn.Name)}.md`];
+  return segments.join(path.sep);
+}
+
+// Each accessing-data namespace folder needs a Docusaurus _category_.json so the
+// connector shows up as a labelled section. Only the English docs tree carries
+// these (i18n locales inherit the labels), and existing files are never
+// overwritten so hand-authored labels are preserved.
+function ensureNamespaceCategory(outPath, fn) {
+  const category = cleanCategoryName(functionToCategory[fn.Name] || 'Uncategorized');
+  if (category !== 'accessing-data' || !fn.Name.includes('.')) return;
+  const catFile = path.join(path.dirname(outPath), '_category_.json');
+  if (fs.existsSync(catFile)) return;
+  fs.mkdirSync(path.dirname(catFile), { recursive: true });
+  fs.writeFileSync(catFile, JSON.stringify({
+    label: fn.Name.split('.')[0],
+    link: { type: 'generated-index' },
+  }, null, 2) + '\n');
 }
 
 function generateLocale(locale, opts) {
@@ -214,6 +235,7 @@ function generateLocale(locale, opts) {
 
     fs.mkdirSync(path.dirname(outPath), { recursive: true });
     fs.writeFileSync(outPath, finalOutput);
+    if (locale === 'en') ensureNamespaceCategory(outPath, fn);
     written++;
   }
 

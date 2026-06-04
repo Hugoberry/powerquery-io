@@ -1,0 +1,46 @@
+---
+title: Table.PrefixColumns
+---
+
+# Table.PrefixColumns
+
+
+Menghasilkan tabel dan semua kolomnya diawali dengan teks yang diberikan.
+
+
+## Syntax
+
+```powerquery
+Table.PrefixColumns(
+    table as table,
+    prefix as text
+) as table
+```
+
+
+## Remarks
+
+Menghasilkan tabel dan semua nama kolomnya dari `table` yang dimasukkan diawali dengan teks yang diberikan, `prefix`, ditambah titik dengan format `prefix.ColumnName`.
+
+
+## Examples
+
+### Example #1
+Memberikan awalan "Mytable" pada kolom dalam tabel.
+```powerquery
+Table.PrefixColumns(
+    Table.FromRecords({[CustomerID = 1, Name = "Bob", Phone = "123-4567"]}),
+    "MyTable"
+)
+```
+
+Result: 
+```powerquery
+Table.FromRecords({[MyTable.CustomerID = 1, MyTable.Name = "Bob", MyTable.Phone = "123-4567"]})
+```
+
+
+
+
+## Category
+Table.Column operations

@@ -1,0 +1,32 @@
+---
+title: AzureStorage.Blobs
+---
+
+# AzureStorage.Blobs
+
+
+Atgriež navigācijas tabulu ar konteineriem, kas atrasti norādītajā kontā no Azure krātuves akreditācijas datu komplekta.
+
+
+## Syntax
+
+```powerquery
+AzureStorage.Blobs(
+    account as text,
+    optional options as record
+) as table
+```
+
+
+## Remarks
+
+Atgriež navigācijas tabulu ar rindām par katru konteineri, kas atrasts, izmantojot konta vietrādi URL, `account`, no Azure krātuves akreditācijas datu komplekta. Katrā rindā ir saite uz konteinera BLOB failiem. Var tikt norādīts `options`, lai kontrolētu šādas opcijas:
+
+-   `BlockSize` : To baitu skaits, kas jālasa pirms datu patēriņa gaidīšanas. Noklusējuma vērtība ir 4 MB.
+-   `RequestSize` : Baitu skaits, ko mēģināt lasīt vienā HTTP pieprasījumā uz serveri. Noklusējuma vērtība ir 4 MB.
+-   `ConcurrentRequests` : Opcija ConcurrentRequests nodrošina ātrāku datu lejupielādi, norādot pieprasījumu skaitu, kas jāsniedz vienlaicīgi, izmantojot atmiņas izmantošanas izmaksas. Nepieciešamā atmiņa ir (ConcurrentRequest \* RequestSize). Noklusējuma vērtība ir 16.
+
+
+
+## Category
+Accessing data

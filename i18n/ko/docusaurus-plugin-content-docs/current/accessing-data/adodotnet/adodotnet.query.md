@@ -1,0 +1,33 @@
+---
+title: AdoDotNet.Query
+---
+
+# AdoDotNet.Query
+
+
+ADO.NET 데이터 원본에서 원시 쿼리를 실행한 결과를 반환합니다.
+
+
+## Syntax
+
+```powerquery
+AdoDotNet.Query(
+    providerName as text,
+    connectionString as any,
+    query as text,
+    optional options as record
+) as table
+```
+
+
+## Remarks
+
+ADO.NET 공급자 `providerName`을(를) 사용하여 연결 문자열 `connectionString`과(와) 함께 `query`을(를) 실행한 결과를 반환합니다. `connectionString`은(는) 텍스트이거나 속성 값 쌍의 레코드일 수 있습니다. 속성 값은 텍스트 또는 숫자일 수 있습니다. 선택적 레코드 매개 변수인 `options`을(를) 제공하여 추가 속성을 지정할 수도 있습니다. 레코드에는 다음 필드가 포함될 수 있습니다.
+
+-   `CommandTimeout` : 서버 쪽 쿼리를 취소하기 전에 실행할 수 있는 시간을 제어하는 기간입니다. 기본값은 10분입니다.
+-   `SqlCompatibleWindowsAuth` : Windows 인증에 사용할 SQL Server 호환 연결 문자열 옵션을 생성할지 여부를 결정하는 논리값(true/false)입니다. 기본값은 true입니다.
+
+
+
+## Category
+Accessing data

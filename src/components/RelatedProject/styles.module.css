@@ -1,0 +1,51 @@
+.section {
+  padding: 3rem 0;
+}
+
+.card {
+  max-width: 760px;
+  margin: 0;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  background: var(--ifm-card-background-color, var(--ifm-background-surface-color));
+  box-shadow: var(--ifm-global-shadow-lw);
+  overflow: hidden;
+}
+
+.body {
+  padding: 2rem;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  margin: 0 0 0.75rem;
+  font-size: 1.75rem;
+}
+
+.lede {
+  font-size: 1.05rem;
+  color: var(--ifm-color-emphasis-800);
+  margin-bottom: 1rem;
+}
+
+.features {
+  margin: 0 0 1.5rem;
+  padding-left: 1.25rem;
+}
+
+.features li {
+  margin-bottom: 0.4rem;
+}
+
+.cta {
+  display: inline-block;
+}

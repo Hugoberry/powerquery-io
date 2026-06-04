@@ -1,0 +1,70 @@
+---
+title: Table.TransformColumnNames
+---
+
+# Table.TransformColumnNames
+
+
+Перетворює назви стовпців, використовуючи вказану функцію.
+
+
+## Syntax
+
+```powerquery
+Table.TransformColumnNames(
+    table as table,
+    nameGenerator as function,
+    optional options as record
+) as table
+```
+
+
+## Remarks
+
+Перетворює імена стовпців, використовуючи вказану функцію `nameGenerator`. Нижче наведено припустимі параметри.
+
+`MaxLength` – дає змогу визначити максимальну довжину нових імен для стовпців. Якщо функція повертатиме довші імена, вони усікатимуться.
+
+`Comparer` – використовується для контролю над порівнянням під час створення інших імен для стовпців. Такі функції дають змогу порівнювати значення без урахування регістра або з огляду на культуру й локалізацію.
+
+Мова формул передбачає наведені нижче вбудовані засоби порівняння.
+
+-   `Comparer.Ordinal` – слугує для точного порядкового порівняння.
+-   `Comparer.OrdinalIgnoreCase` – виконує точне порядкове порівняння без урахування регістра.
+-   `Comparer.FromCulture` – виконує порівняння з огляду на культуру.
+
+
+## Examples
+
+### Example #1
+У назвах стовпців видаліть символ `#(tab)`
+```powerquery
+Table.TransformColumnNames(Table.FromRecords({[#"Col#(tab)umn" = 1]}), Text.Clean)
+```
+
+Result: 
+```powerquery
+Table.FromRecords({[Column = 1]})
+```
+
+
+### Example #2
+Перетворення імен стовпців для створення нечутливих до регістра імен із довжиною 6.
+```powerquery
+Table.TransformColumnNames(
+    Table.FromRecords({[ColumnNum = 1, cOlumnnum = 2, coLumnNUM = 3]}),
+    Text.Clean,
+    [MaxLength = 6, Comparer = Comparer.OrdinalIgnoreCase]
+)
+```
+
+Result: 
+```powerquery
+Table.FromRecords({[Column = 1, cOlum1 = 2, coLum2 = 3]})
+```
+
+
+
+
+## Category
+Table.Column operations

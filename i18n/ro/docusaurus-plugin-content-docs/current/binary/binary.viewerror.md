@@ -1,0 +1,27 @@
+---
+title: Binary.ViewError
+---
+
+# Binary.ViewError
+
+
+Creează o înregistrare de eroare modificată care nu va declanșa o rezervă atunci când este generată de o rutină de tratare definită într-o vizualizare (prin Binary.View).
+
+
+## Syntax
+
+```powerquery
+Binary.ViewError(
+    errorRecord as record
+) as record
+```
+
+
+## Remarks
+
+Creează o înregistrare de eroare modificată din `errorRecord`, care nu va declanșa o rezervă atunci când este generată de o rutină de tratare definită într-o vizualizare (prin Binary.View).
+
+
+
+## Category
+Binary

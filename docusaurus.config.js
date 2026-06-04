@@ -32,9 +32,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    // locales: ['en'],
-    locales: ['da','de','en','es','fr','hi','it','ja','nl','pl','pt-PT','pt-BR','ru','sv','th','tr','vi','zh-Hans','zh-Hant']
-    // locales: ['ca','cs','da','de','el','en','es','fi','fr','gl','hi','hu','id','it','ja','kk','ko','lt','lv','ms','nl','pl','pt','pt-BR','ro','ru','sk','sl','sk-Cyrl','sr-Latn','sv','th','tr','uk','vi','zh-Hans','zh-Hant']
+    locales: ['cs','da','de','el','en','es','fr','hi','hu','id','it','ja','ko','lt','lv','ms','nl','pl','pt-BR','pt-PT','ro','ru','sr-Latn','sv','th','tr','uk','vi','zh-Hans','zh-Hant']
   },
 
   plugins: [
@@ -210,6 +208,12 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          {
+            href: 'https://pbix.info',
+            label: 'PBIX.info',
+            position: 'right',
+            'aria-label': 'PBIX.info — Power BI file inspector in your browser',
+          },
           {
             href: 'https://github.com/Hugoberry/powerquery-io',
             position: 'right',
