@@ -209,6 +209,12 @@ const config = {
         },
         items: [
           {
+            href: 'https://pbix.info',
+            label: 'PBIX.info',
+            position: 'right',
+            'aria-label': 'PBIX.info — Power BI file inspector in your browser',
+          },
+          {
             href: 'https://github.com/Hugoberry/powerquery-io',
             position: 'right',
             className: 'header-github-link',
