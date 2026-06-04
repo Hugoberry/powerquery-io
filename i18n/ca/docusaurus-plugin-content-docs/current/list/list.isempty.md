@@ -1,0 +1,54 @@
+---
+title: List.IsEmpty
+---
+
+# List.IsEmpty
+
+
+Retorna el valor true si la llista és buida.
+
+
+## Syntax
+
+```powerquery
+List.IsEmpty(
+    list as list
+) as logical
+```
+
+
+## Remarks
+
+Retorna el valor `true` si la llista, `list`, no conté cap valor (length 0). Si la llista conté valors (length > 0), retorna `false`.
+
+
+## Examples
+
+### Example #1
+Troba si la llista \{\} és buida.
+```powerquery
+List.IsEmpty({})
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+### Example #2
+Troba si la llista \{1, 2\} és buida.
+```powerquery
+List.IsEmpty({1, 2})
+```
+
+Result: 
+```powerquery
+false
+```
+
+
+
+
+## Category
+List.Information

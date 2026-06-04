@@ -1,0 +1,43 @@
+---
+title: Type.ForFunction
+---
+
+# Type.ForFunction
+
+
+Επιστρέφει έναν τύπο που αντιπροσωπεύει συναρτήσεις με συγκεκριμένους περιορισμούς παραμέτρων και τύπων επιστροφής.
+
+
+## Syntax
+
+```powerquery
+Type.ForFunction(
+    signature as record,
+    min as number
+) as type
+```
+
+
+## Remarks
+
+Δημιουργεί ένα στοιχείο `function type` από το `signature`, μια εγγραφή του `ReturnType` και του `Parameters` και το `min`, τον ελάχιστο αριθμό ορισμάτων που απαιτούνται για την κλήση της συνάρτησης.
+
+
+## Examples
+
+### Example #1
+Δημιουργεί τον τύπο για μια συνάρτηση που λαμβάνει μια παράμετρο αριθμού με όνομα X και επιστρέφει έναν αριθμό.
+```powerquery
+Type.ForFunction([ReturnType = type number, Parameters = [X = type number]], 1)
+```
+
+Result: 
+```powerquery
+type function (X as number) as number
+```
+
+
+
+
+## Category
+Type

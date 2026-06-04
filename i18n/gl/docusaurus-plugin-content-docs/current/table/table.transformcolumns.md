@@ -1,0 +1,152 @@
+---
+title: Table.TransformColumns
+---
+
+# Table.TransformColumns
+
+
+Transforma os valores dunha ou máis columnas.
+
+
+## Syntax
+
+```powerquery
+Table.TransformColumns(
+    table as table,
+    transformOperations as list,
+    optional defaultTransformation as function,
+    optional missingField as MissingField.Type
+) as table
+```
+
+
+## Remarks
+
+Transforma a táboa especificada aplicando cada operación de columna nunha lista.
+
+-   `table` : A táboa a transformar.
+-   `transformOperations` : As transformacións que se van facer na táboa. O formato deste parámetro é \{ column name, transformation \} ou \{ column name, transformation, new column type \} .
+-   `defaultTransformation` : (Opcional) A transformación predeterminada aplicouse a todas as columnas que non aparecen na lista `transformOperations` .
+-   `missingField` : (Opcional) Especifica a acción esperada para os valores que faltan. Se unha columna listada en `transformOperations` non existe, xorde un erro (`MissingField.Error`) a menos que este parámetro especifique unha alternativa. Use un dos seguintes valores:
+    -   `MissingField.UseNull`: Os campos que faltan inclúense como valores `nulo`.
+    -   `MissingField.Ignore`: Os campos que faltan ignóranse.
+
+
+## Examples
+
+### Example #1
+Converte os valores de texto da columna \[A\] en valores numéricos e os valores numéricos da columna \[B\] en valores de texto.
+```powerquery
+Table.TransformColumns(
+    Table.FromRecords({
+        [A = "1", B = 2],
+        [A = "5", B = 10]
+    }),
+    {
+        {"A", Number.FromText},
+        {"B", Text.From}
+    }
+)
+```
+
+Result: 
+```powerquery
+Table.FromRecords({
+    [A = 1, B = "2"],
+    [A = 5, B = "10"]
+})
+```
+
+
+### Example #2
+Converte os valores numéricos da columna que falta \[X\] en valores de texto, usando como valor predeterminado `null` para as columnas que non existen.
+```powerquery
+Table.TransformColumns(
+    Table.FromRecords({
+        [A = "1", B = 2],
+        [A = "5", B = 10]
+    }),
+    {"X", Number.FromText},
+    null,
+    MissingField.UseNull
+)
+```
+
+Result: 
+```powerquery
+Table.FromRecords({
+    [A = "1", B = 2, X = null],
+    [A = "5", B = 10, X = null]
+})
+```
+
+
+### Example #3
+Incrementa os valores numéricos da columna \[B\] e convérteos en valores de texto e converte as demais columnas en números.
+```powerquery
+Table.TransformColumns(
+    Table.FromRecords({
+        [A = "1", B = 2],
+        [A = "5", B = 10]
+    }),
+    {"B", each Text.From(_ + 1), type text},
+    Number.FromText
+)
+```
+
+Result: 
+```powerquery
+Table.FromRecords({
+    [A = 1, B = "3"],
+    [A = 5, B = "11"]
+})
+```
+
+
+### Example #4
+Mover as tarefas de mantemento programadas que se realicen nun festivo dos Estados Unidos ao día seguinte ou, se o festivo cae en venres, ao luns seguinte.
+```powerquery
+let
+    MaintenanceSchedule = #table(type table [Task = text, Date = date],
+    {
+        {"HVAC Check", #date(2025, 7, 10)},         // Not a holiday
+        {"Window Washing", #date(2025, 9, 1)},      // Labor Day
+        {"Fire Drill", #date(2025, 9, 17)},         // Not a holiday
+        {"Light Replacement", #date(2025, 11, 27)}  // Thanksgiving
+    }),
+    USHolidays = {
+        #date(2025, 1, 1),   // New Year's Day
+        #date(2025, 7, 4),   // Independence Day
+        #date(2025, 9, 1),   // Labor Day
+        #date(2025, 11, 27), // Thanksgiving
+        #date(2025, 12, 25)  // Christmas
+    },
+    AdjustedSchedule = Table.TransformColumns(
+        MaintenanceSchedule,
+        {{"Date", each if List.Contains(USHolidays, _) then
+            if Date.DayOfWeek(_, Day.Sunday) = 5 then
+                Date.AddDays(_, 3)     // Friday to Monday
+            else
+                Date.AddDays(_, 1)     // Other to next day
+        else _, type date}}
+    )
+in
+    AdjustedSchedule
+```
+
+Result: 
+```powerquery
+#table(type table[Task = text, Date = date],
+{
+    {"HVAC Check", #date(2025, 7, 10)},
+    {"Window Washing", #date(2025, 9, 2)},
+    {"Fire Drill", #date(2025, 9, 17)},
+    {"Light Replacement", #date(2025, 11, 28)}
+})
+```
+
+
+
+
+## Category
+Table.Transformation

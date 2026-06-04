@@ -1,0 +1,56 @@
+---
+title: Binary.Range
+---
+
+# Binary.Range
+
+
+Vraća podskup binarne vrednosti koji počinje od pomaka.
+
+
+## Syntax
+
+```powerquery
+Binary.Range(
+    binary as binary,
+    offset as number,
+    optional count as number
+) as binary
+```
+
+
+## Remarks
+
+Vraća podskup binarnih vrednosti koji počinje od pomaka `binary`. Opcionalan parametar, `offset`, određuje maksimalnu dužinu podskupa.
+
+
+## Examples
+
+### Example #1
+Vraća podskup binarnih vrednosti koji počinje od pomaka 6.
+```powerquery
+Binary.Range(#binary({0..10}), 6)
+```
+
+Result: 
+```powerquery
+#binary({6, 7, 8, 9, 10})
+```
+
+
+### Example #2
+Vraća podskup dužine 2 od pomaka 6 binarne vrednosti.
+```powerquery
+Binary.Range(#binary({0..10}), 6, 2)
+```
+
+Result: 
+```powerquery
+#binary({6, 7})
+```
+
+
+
+
+## Category
+Binary

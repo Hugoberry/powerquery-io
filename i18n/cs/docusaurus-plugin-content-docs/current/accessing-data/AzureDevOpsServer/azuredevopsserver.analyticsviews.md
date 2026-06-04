@@ -1,0 +1,26 @@
+---
+title: AzureDevOpsServer.AnalyticsViews
+---
+
+# AzureDevOpsServer.AnalyticsViews
+
+
+Zadejte názvy organizace a projektu.
+
+
+## Syntax
+
+```powerquery
+AzureDevOpsServer.AnalyticsViews(
+    url as text,
+    project as text,
+    optional options as record
+) as table
+```
+
+
+## Remarks
+
+Vrátí tabulku obsahující seznam zobrazení Analýzy, která nabízí služba Azure DevOps.
+
+

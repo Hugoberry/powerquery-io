@@ -1,0 +1,56 @@
+---
+title: Record.FieldOrDefault
+---
+
+# Record.FieldOrDefault
+
+
+Vrátí hodnotu zadaného pole záznamu nebo výchozí hodnotu, pokud pole není nalezeno.
+
+
+## Syntax
+
+```powerquery
+Record.FieldOrDefault(
+    record as record,
+    field as text,
+    optional defaultValue as any
+) as any
+```
+
+
+## Remarks
+
+Vrátí hodnotu zadaného pole `field` záznamu `record`. Pokud pole není nalezeno, vrátí se volitelná hodnota `defaultValue`.
+
+
+## Examples
+
+### Example #1
+Vrátí hodnotu pole Phone záznamu nebo hodnotu null, pokud neexistuje.
+```powerquery
+Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone")
+```
+
+Result: 
+```powerquery
+null
+```
+
+
+### Example #2
+Vrátí hodnotu pole Phone záznamu nebo výchozí hodnotu, pokud neexistuje.
+```powerquery
+Record.FieldOrDefault([CustomerID = 1, Name = "Bob"], "Phone", "123-4567")
+```
+
+Result: 
+```powerquery
+"123-4567"
+```
+
+
+
+
+## Category
+Record.Selection

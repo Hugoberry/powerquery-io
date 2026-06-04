@@ -1,0 +1,44 @@
+---
+title: Date.IsInPreviousMonth
+---
+
+# Date.IsInPreviousMonth
+
+
+Menentukan apakah tanggal ini muncul dalam bulan sebelumnya, seperti yang ditentukan oleh tanggal dan waktu saat ini pada sistem. Perlu diketahui bahwa fungsi ini akan menghasilkan false jika diberikan nilai yang muncul dalam bulan saat ini.
+
+
+## Syntax
+
+```powerquery
+Date.IsInPreviousMonth(
+    dateTime as any
+) as logical
+```
+
+
+## Remarks
+
+Menentukan apakah nilai tanggalwaktu yang diberikan `dateTime` muncul pada bulan sebelumnya, seperti yang ditentukan oleh tanggal dan waktu saat ini pada sistem. Perlu diketahui bahwa fungsi ini akan menghasilkan false jika diberikan nilai yang muncul dalam bulan ini.
+
+-   `dateTime`: Nilai `date`, `datetime`, atau `datetimezone` yang akan dievaluasi.
+
+
+## Examples
+
+### Example #1
+Menentukan apakah bulan sebelum waktu sistem saat ini terdapat dalam bulan sebelumnya.
+```powerquery
+Date.IsInPreviousMonth(Date.AddMonths(DateTime.FixedLocalNow(), -1))
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+
+
+## Category
+Date

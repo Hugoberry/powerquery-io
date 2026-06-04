@@ -1,0 +1,27 @@
+---
+title: Hdfs.Files
+---
+
+# Hdfs.Files
+
+
+Vráti tabuľku obsahujúcu vlastnosti a obsah súborov nachádzajúcich sa v zadanom priečinku a podpriečinkoch zo systému súborov servera Hadoop.
+
+
+## Syntax
+
+```powerquery
+Hdfs.Files(
+    url as text
+) as table
+```
+
+
+## Remarks
+
+Vráti tabuľku obsahujúcu riadok pre každý súbor nachádzajúci sa na adrese URL priečinka `url` a v podpriečinkoch zo systému súborov servera Hadoop. Každý riadok obsahuje vlastnosti súboru a prepojenie na jeho obsah.
+
+
+
+## Category
+Accessing data

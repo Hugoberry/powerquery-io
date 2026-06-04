@@ -1,0 +1,46 @@
+---
+title: Date.IsInPreviousNDays
+---
+
+# Date.IsInPreviousNDays
+
+
+Nurodo, ar ši data patenka į ankstesnių kelių dienų intervalą, kaip nustatyta pagal dabartinius sistemos datą ir laiką. Atkreipkite dėmesį, kad, jei šiai funkcijai bus perduota į šią dieną patenkanti reikšmė, funkcija pateiks false.
+
+
+## Syntax
+
+```powerquery
+Date.IsInPreviousNDays(
+    dateTime as any,
+    days as number
+) as logical
+```
+
+
+## Remarks
+
+Nurodo, ar nurodyta datos ir laiko reikšmė `dateTime` patenka į ankstesnių kelių dienų intervalą, kaip nustatyta pagal dabartinius sistemos datą ir laiką. Atkreipkite dėmesį, kad, jei šiai funkcijai bus perduota į šią dieną patenkanti reikšmė, funkcija pateiks false.
+
+-   `dateTime`: vertintina `datos`, `datos ir laiko` arba `datos ir laiko juostos` reikšmė.
+-   `days`: dienų skaičius.
+
+
+## Examples
+
+### Example #1
+Nustatyti, ar diena prieš dabartinį sistemos laiką patenka į dvi ankstesnes dienas.
+```powerquery
+Date.IsInPreviousNDays(Date.AddDays(DateTime.FixedLocalNow(), -1), 2)
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+
+
+## Category
+Date

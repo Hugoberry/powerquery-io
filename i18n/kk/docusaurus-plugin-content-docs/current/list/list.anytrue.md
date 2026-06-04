@@ -1,0 +1,54 @@
+---
+title: List.AnyTrue
+---
+
+# List.AnyTrue
+
+
+Кез келген өрнек шын болса, шын мәнін қайтарады.
+
+
+## Syntax
+
+```powerquery
+List.AnyTrue(
+    list as list
+) as logical
+```
+
+
+## Remarks
+
+`list` тізіміндегі кез келген өрнек шын болса, шын мәнін қайтарады.
+
+
+## Examples
+
+### Example #1
+\{true, false, 2 > 0\} тізіміндегі өрнектердің кез келгені шын екенін анықтау.
+```powerquery
+List.AnyTrue({true, false, 2>0})
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+### Example #2
+\{2 = 0, false, 2 &lt; 0\} тізіміндегі өрнектердің кез келгені шын екенін анықтау.
+```powerquery
+List.AnyTrue({2 = 0, false, 2 < 0})
+```
+
+Result: 
+```powerquery
+false
+```
+
+
+
+
+## Category
+List.Membership functions

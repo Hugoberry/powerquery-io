@@ -1,0 +1,30 @@
+---
+title: Parquet.Document
+---
+
+# Parquet.Document
+
+
+Vráti obsah dokumentu vo formáte Parquet ako tabuľku.
+
+
+## Syntax
+
+```powerquery
+Parquet.Document(
+    binary as binary,
+    optional options as record
+) as any
+```
+
+
+## Remarks
+
+Vráti obsah dokumentu Parquet ako tabuľku. Možnosti zahŕňajú:
+
+-   `TypeMapping`: Textová hodnota, ktorá ovláda predvolené mapovanie typov pri čítaní a zápise súborov. Predvolená hodnota je null a pokúsi sa zachovať čo najviac vernosti pôvodnému typu. Hodnota Sql vytvorí výsledky, ktoré sú najviac kompatibilné s SQL Serverom.
+
+
+
+## Category
+Pristupuje sa k údajom

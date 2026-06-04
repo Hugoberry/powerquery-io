@@ -1,0 +1,44 @@
+---
+title: DateTime.IsInCurrentHour
+---
+
+# DateTime.IsInCurrentHour
+
+
+Указує, чи це значення дати й часу зустрічається протягом поточної години відповідно до поточних дати й часу в системі.
+
+
+## Syntax
+
+```powerquery
+DateTime.IsInCurrentHour(
+    dateTime as any
+) as logical
+```
+
+
+## Remarks
+
+Указує, чи задане значення дати й часу `dateTime` зустрічається протягом поточної години відповідно до поточних дати й часу в системі.
+
+-   `dateTime`: значення `datetime` або `datetimezone`, яке потрібно оцінити.
+
+
+## Examples
+
+### Example #1
+Визначити, чи поточний час системи припадає на поточну годину.
+```powerquery
+DateTime.IsInCurrentHour(DateTime.FixedLocalNow())
+```
+
+Result: 
+```powerquery
+true
+```
+
+
+
+
+## Category
+DateTime
