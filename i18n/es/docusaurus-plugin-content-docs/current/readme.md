@@ -5,6 +5,8 @@ pagination_next: null
 title: Introducción
 ---
 
+import RelatedProject from '@site/src/components/RelatedProject';
+
 # Descubre el lenguaje
 El lenguaje de fórmula Power Query M está optimizado para construir consultas de combinación de datos altamente flexibles. Es un lenguaje funcional, sensible a mayúsculas y minúsculas, similar a F#. El Lenguaje de Fórmulas de Power Query se utiliza en varios productos de Microsoft, como Power BI Desktop, Excel y Analysis Services.
 
@@ -24,5 +26,7 @@ Para aquellos interesados en una exploración más profunda o detalles de implem
 La especificación describe los valores, expresiones, entornos y variables, identificadores y el modelo de evaluación que forman los conceptos básicos del lenguaje Power Query M.
 
 [Especificación del lenguaje Power Query M.pdf](https://download.microsoft.com/download/8/1/A/81A62C9B-04D5-4B6D-B162-D28E4D848552/Power%20Query%20M%20Formula%20Language%20Specification%20(July%202019).pdf)
+
+<RelatedProject />
 
 

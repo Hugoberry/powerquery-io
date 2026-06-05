@@ -5,6 +5,8 @@ pagination_next: null
 title: Введение
 ---
 
+import RelatedProject from '@site/src/components/RelatedProject';
+
 # Язык Power Query
 Язык формул Power Query M оптимизирован для создания гибких запросов смешивания данных. Это функциональный язык, чувствительный к регистру, похожий на F#. Язык формул Power Query используется в ряде продуктов Microsoft, таких как Power BI Desktop, Excel и Analysis Services.
 
@@ -25,3 +27,5 @@ title: Введение
 Спецификация описывает значения, выражения, окружения и переменные, идентификаторы, а также модель оценки, которые формируют базовые концепции языка Power Query M.
 
 [Спецификация языка Power Query M.pdf](https://download.microsoft.com/download/8/1/A/81A62C9B-04D5-4B6D-B162-D28E4D848552/Power%20Query%20M%20Formula%20Language%20Specification%20(July%202019).pdf)
+
+<RelatedProject />

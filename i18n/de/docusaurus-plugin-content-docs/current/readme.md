@@ -5,6 +5,8 @@ pagination_next: null
 title: Einführung
 ---
 
+import RelatedProject from '@site/src/components/RelatedProject';
+
 # Entdecken Sie die Sprache
 Die Power Query M Formelsprache ist optimiert für den Aufbau von hochflexiblen Daten-Mashup-Abfragen. Es handelt sich um eine funktionale, groß- und kleinschreibungssensitive Sprache, ähnlich wie F#. Die Power Query Formelsprache wird in einer Reihe von Microsoft-Produkten wie Power BI Desktop, Excel und Analysis Services verwendet.
 
@@ -24,5 +26,7 @@ Für diejenigen, die an einer tieferen Erkundung oder Implementierungsdetails in
 Die Spezifikation beschreibt die Werte, Ausdrücke, Umgebungen und Variablen, Identifikatoren und das Evaluierungsmodell, die die grundlegenden Konzepte der Power Query M Sprache bilden.
 
 [Power Query M Sprachspezifikation.pdf](https://download.microsoft.com/download/8/1/A/81A62C9B-04D5-4B6D-B162-D28E4D848552/Power%20Query%20M%20Formula%20Language%20Specification%20(July%202019).pdf)
+
+<RelatedProject />
 
 
