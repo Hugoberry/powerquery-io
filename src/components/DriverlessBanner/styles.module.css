@@ -1,0 +1,39 @@
+.banner {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  margin: 0 0 1.75rem;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-left: 4px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  background: var(--ifm-color-emphasis-100);
+}
+
+.badge {
+  flex: none;
+  margin-top: 0.1rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  background: var(--ifm-color-primary);
+  color: var(--ifm-color-white, #fff);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.text {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--ifm-color-emphasis-800);
+}
+
+@media (max-width: 480px) {
+  .banner {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
