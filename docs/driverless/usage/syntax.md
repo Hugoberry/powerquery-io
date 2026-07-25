@@ -116,6 +116,10 @@ Four keys mean the same thing everywhere they appear:
 | `Encoding` | `TextEncoding.Type` or codepage number | Override the text encoding the file declares — or supply one for formats that declare nothing. Accepts a raw codepage number, which matters for the legacy formats where `TextEncoding` has no member for what you need. |
 | `PromoteHeaders` | logical, default `false` | Use the first row as column headers. Workbook readers only. |
 
+They appear where they make sense, not on every connector: `Matlab.Document`
+takes only `Encoding` and `Strict`, because a `.mat` file is a set of variables
+rather than a row stream and there is nothing for `MaxRows` to stop.
+
 Everything else is specific to the format, and is listed on that connector's
 page.
 

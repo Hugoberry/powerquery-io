@@ -103,6 +103,7 @@ declaration, including legacy codepage files.
 
 -   Big-endian files, written by pre-2000 UNIX SPSS — clear error.
 -   EBCDIC files — clear error.
+-   DEC Kanji character data — clear error.
 -   Case weights, which are reported in the metadata but not applied.
 
 ## Metadata

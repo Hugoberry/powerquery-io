@@ -33,8 +33,10 @@ binary-XML template — in M, at query time, with nothing installed.
 
 That is what these connectors are: **plain M source that decodes a binary file
 format directly.** Every one of them works in Power BI Desktop, Excel,
-dataflows and the Power BI Service. No bitness to match, no
-`provider is not registered`.
+dataflows and the Power BI Service — with one exception, `Codec.Decompress`,
+which needs a host that implements `Parquet.Document` and so is
+[reduced in Excel](usage/expectations.md#the-one-host-specific-exception). No
+bitness to match, no `provider is not registered`.
 
 ## The connectors
 
@@ -59,6 +61,12 @@ The last two aren't file readers. They're the primitives that make the readers
 possible, and they're useful on their own: `Codec.Decompress` reaches the
 compression codecs the engine ships but never exposed, and `Crc32.Compute` is
 the checksum function M's standard library is missing.
+
+`PQDriverless.mez` exports one more function that has no page here:
+`Codec.Probe`, the host-capability test harness described under
+[`Codec.Decompress`](connectors/codec.decompress.md). Unlike everything above,
+it takes a folder path rather than a binary, and it needs the repository's
+fixture folder to do anything.
 
 ## What it does and doesn't remove
 

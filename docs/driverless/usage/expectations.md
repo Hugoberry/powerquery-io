@@ -13,6 +13,8 @@ import DriverlessBanner from '@site/src/components/DriverlessBanner';
 
 The connectors are standard-library M, so they run wherever M runs: Power BI
 Desktop, Excel, Power BI dataflows, Dataflows Gen2 and Power BI Service refresh.
+One capability gap between hosts is worth knowing about, and it is
+[described below](#the-one-host-specific-exception).
 
 The distinction that matters is *how* you delivered them:
 
@@ -25,6 +27,29 @@ The distinction that matters is *how* you delivered them:
   Excel has no custom-connector loader at all, so an Excel workbook needs the
   pasted source. If your goal is gateway-free refresh in the Service, paste the
   source there too.
+
+### The one host-specific exception
+
+"Standard-library M" is not quite the same library in every host. Excel's Power
+Query does not implement **`Parquet.Document`** — the native Parquet libraries
+(`ParquetSharp.dll`, `ParquetSharpNative.dll`) ship with Power BI Desktop and
+are simply not present in Excel's Power Query add-in.
+
+That matters here because `Parquet.Document` is what
+[`Codec.Decompress`](../connectors/codec.decompress.md) borrows the engine's
+Snappy, Brotli, Zstandard and LZ4 codecs from. In Excel:
+
+| | In Excel |
+|---|---|
+| `Codec.Decompress` with GZip, Deflate, None | works — routed to `Binary.Decompress` |
+| `Codec.Decompress` with Snappy, Brotli, Zstandard, LZ4 | fails |
+| `Avro.Document` on `null` / `deflate` files | works |
+| `Avro.Document` on `snappy` / `zstandard` files | fails |
+| Every other connector | works |
+
+Nothing else is affected: the remaining readers that decompress at all —
+`.zsav` SPSS files, compressed MAT-files, `.xlsb` entries, gzipped MBTiles
+tiles — all use `Binary.Decompress`, which every host implements.
 
 ## Performance
 

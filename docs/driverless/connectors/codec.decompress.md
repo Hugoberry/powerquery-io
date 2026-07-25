@@ -93,10 +93,30 @@ Framed container formats are not handled directly. A snappy framing-format file
 split the frame with ordinary M byte work and feed each block through
 `Codec.Decompress`.
 
-Codec availability is a property of the host, not of this function. It has been
-verified in Power BI Desktop; the companion `Codec.Probe` function runs a
-fixture matrix against whichever host you point it at, so you can confirm
-Service refresh, Excel or Dataflows Gen2 for yourself before depending on it.
+**Excel is not one of the hosts.** The whole technique rests on
+`Parquet.Document`, and Excel's Power Query does not implement it — the native
+Parquet libraries (`ParquetSharp.dll` and `ParquetSharpNative.dll`) ship with
+Power BI Desktop and are absent from Excel's Power Query add-in. So in Excel
+`Codec.Decompress` handles `Compression.GZip`, `Compression.Deflate` and
+`Compression.None`, which route to `Binary.Decompress` and never touch Parquet;
+Snappy, Brotli, Zstandard and LZ4 fail. See
+[Where it runs](../usage/expectations.md#the-one-host-specific-exception).
+
+Codec availability is otherwise a property of the host, not of this function. It
+has been verified in Power BI Desktop. The companion `Codec.Probe` function runs
+a fixture matrix against whichever host you point it at, so you can confirm
+Service refresh or Dataflows Gen2 for yourself before depending on it:
+
+```powerquery
+Codec.Probe("C:\path\to\powerquery-driverless\codec-oracle\test")
+```
+
+It takes the path of a folder of fixtures rather than a binary, because it
+compares every `*.parquet` fixture against `payload.csv` from the same folder.
+`PQDriverless.mez` exports the function but does **not** carry the fixtures —
+clone or download them from
+[`codec-oracle/test/`](https://github.com/Hugoberry/powerquery-driverless/tree/main/codec-oracle/test)
+first, keeping the folder intact.
 
 ## Category
 Driverless connectors

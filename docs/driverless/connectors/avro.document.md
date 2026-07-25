@@ -90,6 +90,12 @@ Snappy and zstandard blocks are decompressed through the same technique as
 `Binary.Decompress` exposes only deflate and gzip. A snappy block's 4-byte
 CRC-32 trailer is stripped before decoding, not validated.
 
+That technique needs `Parquet.Document`, which Excel's Power Query does not
+implement, so **snappy and zstandard files do not decode in Excel** — `null`
+and `deflate` files are unaffected, because they use `Binary.Decompress`. Every
+other host is fine. More in
+[Where it runs](../usage/expectations.md#the-one-host-specific-exception).
+
 ## Not supported
 
 -   Codecs `bzip2` and `xz` — the engine has no codec for them, clear error.

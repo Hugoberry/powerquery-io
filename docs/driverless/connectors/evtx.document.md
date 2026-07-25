@@ -38,7 +38,9 @@ Options:
 
 -   `IncludeXml` : A logical (true/false). Emit the rendered XML of every event
     in the `Xml` column (default is true). Set false to skip rendering when only
-    the extracted columns are needed — noticeably faster on large logs.
+    the extracted columns are needed — noticeably faster on large logs. Note
+    that false **removes the `Xml` column** rather than nulling it, so a
+    downstream step that references `[Xml]` breaks.
 -   `Encoding` : A `TextEncoding.Type` or codepage number for AnsiString (type
     `0x02`) values, default Windows-1252. Unicode strings are unaffected.
 -   `MaxRows` : A number. Stop after this many events.

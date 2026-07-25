@@ -90,7 +90,8 @@ Integer cells decode exactly across the full signed 64-bit range, inherited from
 
 ## Metadata
 
-`Mbtiles.Metadata` (the tileset's key-value pairs as a record), `Mbtiles.Format`.
+`Mbtiles.Metadata` (the tileset's key-value pairs as a record), `Mbtiles.Format`,
+`Mbtiles.Name`.
 
 ## Category
 Driverless connectors
