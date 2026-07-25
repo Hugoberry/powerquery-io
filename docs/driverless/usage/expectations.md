@@ -20,10 +20,11 @@ The distinction that matters is *how* you delivered them:
   goes wherever the query goes — including a Service refresh with no gateway,
   when the file itself is Service-reachable.
 - **`PQDriverless.mez` is a custom connector**, and custom connectors follow the
-  usual custom-connector rules: fine on the Desktop and in Excel, but a Service
-  refresh needs an on-premises data gateway configured to allow custom data
-  connectors. If your goal is gateway-free refresh in the Service, paste the
-  source.
+  usual custom-connector rules: Power BI Desktop only, and a Service refresh
+  needs an on-premises data gateway configured to allow custom data connectors.
+  Excel has no custom-connector loader at all, so an Excel workbook needs the
+  pasted source. If your goal is gateway-free refresh in the Service, paste the
+  source there too.
 
 ## Performance
 

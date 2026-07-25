@@ -16,13 +16,15 @@ different situations.
 |---|---|---|
 | Setup | none | copy one file, change one setting, restart |
 | Scope | the one file you paste it into | every file on that machine |
-| Works in the Service | yes, the M travels with the query | Desktop and Excel only |
+| Hosts | anywhere M runs — Desktop, Excel, dataflows, the Service | Power BI Desktop only |
+| Works in the Service | yes, the M travels with the query | only through a gateway configured to allow custom connectors |
 | Works on a locked-down desktop | yes | needs the Data Extensions setting changed |
 | Updating | re-paste | replace the `.mez` |
 
 Pasting is the path that survives an IT policy, because nothing is installed at
-all — the reader is just part of your query. The `.mez` is the convenience path
-when you read these formats often on a machine you control.
+all — the reader is just part of your query. It is also the only path in Excel,
+which has no custom-connector loader. The `.mez` is the convenience path when
+you read these formats often in Power BI Desktop on a machine you control.
 
 ## Option 1 — paste the source
 
@@ -58,12 +60,15 @@ b-tree parser. Paste both, and name the second query exactly
 ## Option 2 — load PQDriverless.mez
 
 The `.mez` is a section document holding every connector, so all the functions
-are available everywhere without pasting anything.
+are available everywhere in Power BI Desktop without pasting anything.
 
 1. Download `PQDriverless.mez` (see below).
 2. Copy it to `[Documents]\Power BI Desktop\Custom Connectors` — create the
-   folder if it isn't there. For Excel, use
-   `[Documents]\Microsoft Power Query\Custom Connectors`.
+   folder if it isn't there. Power BI Desktop also reads
+   `[Documents]\Microsoft Power BI Desktop\Custom Connectors`, the path
+   Microsoft's own documentation gives; either one works. If your organisation
+   redirects Documents to OneDrive, `[Documents]` means the redirected folder,
+   not `%USERPROFILE%\Documents`.
 3. In Power BI Desktop, **File → Options and settings → Options → Security →
    Data Extensions**, and select **(Not Recommended) Allow any extension to
    load without validation or warning**.
@@ -82,6 +87,19 @@ nothing to the **Get Data** dialog and asks for no credentials of its own — th
 connectors take a binary that you have already fetched, so authentication is
 whatever `File.Contents`, `Web.Contents` or `SharePoint.Files` already does.
 Call the functions from a blank query or the formula bar.
+:::
+
+:::caution Excel cannot load the `.mez`
+Custom connectors are a Power BI Desktop feature. Excel's Power Query has no
+Custom Connectors folder and no **Data Extensions** setting — its
+**Query Options → Security** page offers only native database queries,
+certificate revocation, web preview and ADFS. Microsoft's
+[connector extensibility documentation](https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-connector-extensibility)
+covers Power BI Desktop exclusively and does not mention Excel.
+
+In Excel, paste the source instead — Option 1 above. Nothing is lost by it:
+each reader is one self-contained query and the M runs identically in either
+host.
 :::
 
 :::caution That security setting is a real trade-off
